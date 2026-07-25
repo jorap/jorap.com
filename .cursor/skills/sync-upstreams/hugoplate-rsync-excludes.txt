@@ -1,8 +1,8 @@
-# Paths blocked from bulk rsync — NOT sufficient alone; always triage first.
+# Paths blocked from bulk rsync - NOT sufficient alone; always triage first.
 # Default workflow: bash .cursor/skills/sync-upstreams/triage-hugoplate.sh
-# See preserve-lists.md Tier 1 and SKILL.md — never bulk-rsync CSS/JS/core layouts.
+# See preserve-lists.md Tier 1 and SKILL.md - never bulk-rsync CSS/JS/core layouts.
 #
-# JoRap-only layouts — never rsync from Hugoplate
+# JoRap-only layouts - never rsync from Hugoplate
 home.html
 baseof.html
 blog/single.html
@@ -48,6 +48,6 @@ shortcodes/youtube_time.html
 # Hugoplate layouts JoRap intentionally replaced
 about.html
 contact.html
-# JoRap-only assets — CSS/JS use semantic tokens; do not take upstream wholesale
+# JoRap-only assets - CSS/JS use semantic tokens; do not take upstream wholesale
 css/
 js/main.js

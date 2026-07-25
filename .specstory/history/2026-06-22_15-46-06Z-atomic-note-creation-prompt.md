@@ -485,7 +485,7 @@ The prompt uses a `{TOPIC}` placeholder and is copy-paste ready. It omits separa
 
 _**Agent (default)**_
 
-Here is a copy-paste prompt aligned with your notes garden format (`atomic-notes.md`, archetype, and lint rules). It starts from a topic, surfaces principles, then outputs **one atomic note per principle** — because your linter only allows `## Examples`, `## Note Relationships`, and optional `## See also`.
+Here is a copy-paste prompt aligned with your notes garden format (`atomic-notes.md`, archetype, and lint rules). It starts from a topic, surfaces principles, then outputs **one atomic note per principle** - because your linter only allows `## Examples`, `## Note Relationships`, and optional `## See also`.
 
 ---
 
@@ -501,7 +501,7 @@ Allowed body sections only:
 - ## Note Relationships (markdown table; must include at least one extends row and one contradicts row)
 - ## See also (optional)
 
-No other ## headings. Principles and actionable solutions belong in the opening prose and in the Examples — not in extra sections.
+No other ## headings. Principles and actionable solutions belong in the opening prose and in the Examples - not in extra sections.
 
 Voice: plain words, first person where natural, specific scenes, no AI filler ("crucial", "delve", "leverage", "Furthermore"). Read like JoRap typed it mid-life, not a textbook.
 
@@ -530,21 +530,21 @@ ACTION:
    Opening paragraph:
    - **Title** = one clear claim + enough context to act on it.
    - Weave in the actionable solution here: what to do, decide, or stop doing when this principle applies.
-   - Keep it one idea. If you need a second heading inside the file, stop — that's two notes.
+   - Keep it one idea. If you need a second heading inside the file, stop - that's two notes.
 
-   ## Examples — four bullets, each showing principle → immediate move:
+   ## Examples - four bullets, each showing principle → immediate move:
    - **Sports:** mid-action scene, concrete move
    - **Non-technical work:** job/clinic/shop/office scene, concrete move
    - **Home with children:** family scene, concrete move
    - **Real world:** personal/work scene, concrete move
 
-   ## Note Relationships — table:
+   ## Note Relationships - table:
    | Relationship | Wikilink | Reason |
    | extends | [[...]] | ... |
    | contradicts | [[...]] | when the opposite frame fits better |
    (Add implements / alternative rows when they fit.)
 
-   ## See also — optional, 2–4 related notes with short tag hints
+   ## See also - optional, 2–4 related notes with short tag hints
 
 5) FRONTMATTER
    Output valid Hugo YAML:
@@ -577,7 +577,7 @@ FORMAT:
 3. Bulleted list of suggested sibling atomic notes (title + one-line claim each)
 
 TARGET AUDIENCE:
-JoRap — practical, personal notes garden. Readers should finish knowing what the principle is and what to do next time the situation shows up.
+JoRap - practical, personal notes garden. Readers should finish knowing what the principle is and what to do next time the situation shows up.
 ```
 
 ---
@@ -601,9 +601,9 @@ The model should return something like: research on boundaries / plain commitmen
 ---
 
 **Design choices baked in:**
-- **Principles → atomize** — research may find many; output stays one note per run (matches [[Atomic Notes]]).
-- **Actionable solutions** — live in the bold definition and Examples, not forbidden extra headings.
-- **Lint-safe** — matches your structure checker in `collect-note-issues.html`.
+- **Principles → atomize** - research may find many; output stays one note per run (matches [[Atomic Notes]]).
+- **Actionable solutions** - live in the bold definition and Examples, not forbidden extra headings.
+- **Lint-safe** - matches your structure checker in `collect-note-issues.html`.
 
 Want this saved as `.github/prompts/atomic-note.prompt.md` or as a note in the garden?
 
@@ -2063,7 +2063,7 @@ Status: **completed**
 
 _**Agent (default)**_
 
-**Create Note** is live at [/notes/create/](/notes/create/) — a meta utility page (same pattern as Random Duo) that turns a topic into a lint-ready atomic-note AI prompt.
+**Create Note** is live at [/notes/create/](/notes/create/) - a meta utility page (same pattern as Random Duo) that turns a topic into a lint-ready atomic-note AI prompt.
 
 ### What it does
 1. Enter a **topic** (e.g. “saying no without burning the relationship”)
@@ -2194,19 +2194,19 @@ aliases: []
 
 ## See also
 
-- [[The Golden Rule]] — treating people with respect
-- [[Emotional Regulation]] — resisting the urge to control
-- [[Continuous Improvement]] — improving relationships through small repetitions
-- [[Process Over Outcomes]] — valuing the quality of each interaction
+- [[The Golden Rule]] - treating people with respect
+- [[Emotional Regulation]] - resisting the urge to control
+- [[Continuous Improvement]] - improving relationships through small repetitions
+- [[Process Over Outcomes]] - valuing the quality of each interaction
 
 ## 3. Suggested Sibling Atomic Notes
 
-- **[[Listen Before Fixing]]** — Let people finish before giving advice, correction, or a solution.
-- **[[Name the Feeling]]** — Put simple words to an emotion before discussing what should happen next.
-- **[[Set Calm Boundaries]]** — State one clear limit without attacking the person.
-- **[[Create Regular Connection]]** — Build trust through small moments that happen consistently.
-- **[[Notice the Good]]** — Describe the helpful action you want to encourage.
-- **[[Safety Comes First]]** — Stop serious harm before restoring freedom and choice.
+- **[[Listen Before Fixing]]** - Let people finish before giving advice, correction, or a solution.
+- **[[Name the Feeling]]** - Put simple words to an emotion before discussing what should happen next.
+- **[[Set Calm Boundaries]]** - State one clear limit without attacking the person.
+- **[[Create Regular Connection]]** - Build trust through small moments that happen consistently.
+- **[[Notice the Good]]** - Describe the helpful action you want to encourage.
+- **[[Safety Comes First]]** - Stop serious harm before restoring freedom and choice.
 ```
 
 
@@ -2340,7 +2340,7 @@ Only follow-their-lead.md will be created now. Safety Comes First will remain a 
 
 _**Agent (default)**_
 
-Creating the note in JoRap voice—dropping static See also (auto-generated) and tightening examples and relationship reasons.
+Creating the note in JoRap voice-dropping static See also (auto-generated) and tightening examples and relationship reasons.
 
 
 _**Agent (default)**_
@@ -2398,14 +2398,14 @@ Created **`content/english/notes/follow-their-lead.md`** as a draft atomic note 
 | **Opener** | First person, one claim, actionable move woven in ("pay attention first… suggest later") |
 | **Examples** | More specific scenes (inbound play, callback spreadsheet, invented card rules, mother-in-law coffee) |
 | **Voice** | Plain words, contractions, no textbook phrasing |
-| **See also** | Removed — the site generates that from tags at build time |
+| **See also** | Removed - the site generates that from tags at build time |
 | **Relationships** | Sorted `contradicts → extends → implements`; reasons shortened to how you'd say them |
 
 ### Note Relationships
 
 - **extends** [[The Golden Rule]], [[Process Over Outcomes]]
 - **implements** [[Emotional Regulation]], [[Continuous Improvement]]
-- **contradicts** [[Safety Comes First]] — that note doesn't exist yet, so the link will show as broken until you add it
+- **contradicts** [[Safety Comes First]] - that note doesn't exist yet, so the link will show as broken until you add it
 
 ### Siblings still to create (from your research)
 
@@ -2594,7 +2594,7 @@ No wikilink warnings for sibling cluster
 
 _**Agent (default)**_
 
-All six siblings are in `content/english/notes/`, same format as **Follow Their Lead** — `seedling`, `draft: true`, JoRap voice, four examples, relationships table.
+All six siblings are in `content/english/notes/`, same format as **Follow Their Lead** - `seedling`, `draft: true`, JoRap voice, four examples, relationships table.
 
 | Note | Slug | Core move |
 |------|------|-----------|

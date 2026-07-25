@@ -78,6 +78,10 @@ cards:
     back: "Keep the scales weekly - year two links."
   - front: "Morning checklist grew one line per forgotten backpack and mornings are still chaos. Trust the curve?"
     back: "Six months - boring reps win."
+  - front: "Ten minutes free throws looked pointless for months."
+    back: "Keep the Tuesday rep - compounding is quiet."
+  - front: "Skipped morning checklist line - backpack forgotten again."
+    back: "Add one line - stack beats hero days."
 draft: false
 ---
 

@@ -47,6 +47,10 @@ cards:
     back: "Fix the step - hazard out first."
   - front: "Trip hazard still there and someone wants guard rails AND a 'be careful' sign. Order check?"
     back: "Remove hazard first - then engineer, admin, PPE."
+  - front: "Wet patch on the court - someone wants another slow-down sign."
+    back: "Remove the wet patch - hazard out first."
+  - front: "Rug corner still tripping us - tempted to yell watch your step nightly."
+    back: "Tape it down - engineer before warnings."
 draft: false
 ---
 

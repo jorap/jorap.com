@@ -1,5 +1,5 @@
 ---
-description: Cloudflare Pages deploy discipline — skip builds for non-site commits
+description: Cloudflare Pages deploy discipline - skip builds for non-site commits
 alwaysApply: true
 ---
 

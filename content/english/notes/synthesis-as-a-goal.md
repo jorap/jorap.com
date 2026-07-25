@@ -48,6 +48,10 @@ cards:
     back: "Write one page in my words."
   - front: "Five parenting articles saved and the fridge is still blank."
     back: "One rule we believe - not quotes."
+  - front: "Five productivity quotes saved - still cannot explain my system."
+    back: "Write one page in my words."
+  - front: "Three coaching clips in the folder - practice needs one drill."
+    back: "Merge into one drill I'd run."
 draft: false
 ---
 

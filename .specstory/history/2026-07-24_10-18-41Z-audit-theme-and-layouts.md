@@ -1626,7 +1626,7 @@ _**Agent (composer-2.5-fast)**_
 <think><details><summary>Thought Process</summary>
 Swiper and gLightbox are loaded site-wide via Hugo.
 
-Line counts are being tallied for vendor copies in hugo.toml. The gLightbox file is being checked against the theme directory. Unused Hugo modules such as accordion, tab, modal, mermaid, adsense, font-awesome, and preloader are being verified. A duplicate custom.css was found: the theme holds a 2-line stub while the root contains 2437 lines. Dead sections—banner, features, testimonials, and home-proof—have almost no references beyond the header language-switcher. The call-to-action section and blog-list.html are being checked for usage. A comparison between the theme baseof and layouts baseof is also underway.
+Line counts are being tallied for vendor copies in hugo.toml. The gLightbox file is being checked against the theme directory. Unused Hugo modules such as accordion, tab, modal, mermaid, adsense, font-awesome, and preloader are being verified. A duplicate custom.css was found: the theme holds a 2-line stub while the root contains 2437 lines. Dead sections-banner, features, testimonials, and home-proof-have almost no references beyond the header language-switcher. The call-to-action section and blog-list.html are being checked for usage. A comparison between the theme baseof and layouts baseof is also underway.
 
 Checking whether elements.md is linked in any menus despite its draft status. Vendor copies of swiper and gLightbox are also being tallied.
 </details></think>
@@ -3225,7 +3225,7 @@ The aggressive line count now reaches roughly 25,000 deletable lines. That total
 
 The theme swiper bundle duplicates the gallery-slider module’s copy. Both mount to the same assets/plugins/swiper/ path. The theme copy can be safely deleted. This saves 12,520 lines.
 
-Glightbox is roughly 5,121 lines served site-wide; conditional loading saves bytes but not lines unless the gallery-slider module is removed. Dead Hugoplate sections, content, and index frontmatter total about 600 lines. Duplicate dead theme layouts add another 330 lines. Tailwind-bootstrap-grid offers one dependency to drop, though migrating ~130 classes would require refactoring. Unused Hugo modules in config/_default/module.toml—such as font-awesome, adsense, accordion, tab, modal, mermaid, and preloader—add vendor weight.
+Glightbox is roughly 5,121 lines served site-wide; conditional loading saves bytes but not lines unless the gallery-slider module is removed. Dead Hugoplate sections, content, and index frontmatter total about 600 lines. Duplicate dead theme layouts add another 330 lines. Tailwind-bootstrap-grid offers one dependency to drop, though migrating ~130 classes would require refactoring. Unused Hugo modules in config/_default/module.toml-such as font-awesome, adsense, accordion, tab, modal, mermaid, and preloader-add vendor weight.
 
 The custom.css stub is only two lines, while the root custom.css monolith spans 2437 lines and could be shrunk separately. hugoplate-theme-review.md is the sole remaining live page that still uses slider, gallery, and accordion shortcodes. The image shortcode on live posts requires glightbox.
 </details></think>
@@ -3245,7 +3245,7 @@ Preparing the final ranked audit report.
 
 _**Agent (composer-2.5-fast)**_
 
-# Ponytail audit — `themes/jorap/`, `layouts/`, `assets/css/`, `hugo.toml`, `config/`
+# Ponytail audit - `themes/jorap/`, `layouts/`, `assets/css/`, `hugo.toml`, `config/`
 
 Ranked biggest cut first. Line counts are source-file estimates.
 
@@ -3257,35 +3257,35 @@ Ranked biggest cut first. Line counts are source-file estimates.
 
 3. **`delete`** Duplicate Swiper in Hugo module vendor (~12,508 lines in `_vendor/.../gallery-slider/assets/plugins/swiper/`). One copy is enough once theme copy is gone. [`/home/jorap/Documents/GitHub/jorap.com/config/_default/module.toml` L47–48 + vendor tree]
 
-4. **`delete`** Dead Hugoplate section partials (~179 lines): `banner.html` 27, `features.html` 39, `testimonials.html` 53, `home-proof.html` 27, `call-to-action.html` 33, `blog-list.html` 3 — zero `partial` callers in live layouts; `home.html` uses `home-intro` / `home-scope` / `home-writing` only. Nothing. [`/home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/_partials/sections/`]
+4. **`delete`** Dead Hugoplate section partials (~179 lines): `banner.html` 27, `features.html` 39, `testimonials.html` 53, `home-proof.html` 27, `call-to-action.html` 33, `blog-list.html` 3 - zero `partial` callers in live layouts; `home.html` uses `home-intro` / `home-scope` / `home-writing` only. Nothing. [`/home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/_partials/sections/`]
 
-5. **`delete`** Stale Hugoplate frontmatter on homepage (~54 lines: `banner` + `features` blocks). Nothing — `home.html` never reads them. [`/home/jorap/Documents/GitHub/jorap.com/content/english/_index.md` L3–54]
+5. **`delete`** Stale Hugoplate frontmatter on homepage (~54 lines: `banner` + `features` blocks). Nothing - `home.html` never reads them. [`/home/jorap/Documents/GitHub/jorap.com/content/english/_index.md` L3–54]
 
 6. **`delete`** Demo page `elements.md` (~258 lines). Hugoplate shortcode kitchen-sink; nav link commented out, still publishes at `/elements/`. Nothing or `draft: true`. [`/home/jorap/Documents/GitHub/jorap.com/content/english/pages/elements.md`]
 
-7. **`delete`** Dead section content + params (~62 lines): `sections/testimonial.md` 31, `sections/call-to-action.md` 14, `[home_proof]` block 17 — all `enable: false` / `render: never`, partials unwired. Nothing. [`/home/jorap/Documents/GitHub/jorap.com/content/english/sections/`, `/home/jorap/Documents/GitHub/jorap.com/config/_default/params.toml` L107–122]
+7. **`delete`** Dead section content + params (~62 lines): `sections/testimonial.md` 31, `sections/call-to-action.md` 14, `[home_proof]` block 17 - all `enable: false` / `render: never`, partials unwired. Nothing. [`/home/jorap/Documents/GitHub/jorap.com/content/english/sections/`, `/home/jorap/Documents/GitHub/jorap.com/config/_default/params.toml` L107–122]
 
 8. **`delete`** `google-map.js` + map params (~187 lines: JS 179 + params 8). `google_map.enable = false`; contact template already guards load. Maps iframe embed if map ever returns. [`/home/jorap/Documents/GitHub/jorap.com/themes/jorap/assets/plugins/maps/google-map.js`, `/home/jorap/Documents/GitHub/jorap.com/config/_default/params.toml` L196–203]
 
-9. **`delete`** Overridden duplicate theme layouts (~210 lines): `themes/jorap/layouts/baseof.html` 57, `blog/single.html` 124, `blog/list.html` 29 — Hugo uses `layouts/` overrides. Nothing. [`/home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/`]
+9. **`delete`** Overridden duplicate theme layouts (~210 lines): `themes/jorap/layouts/baseof.html` 57, `blog/single.html` 124, `blog/list.html` 29 - Hugo uses `layouts/` overrides. Nothing. [`/home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/`]
 
 10. **`delete`** Overridden `theme-switcher.html` in theme (~122 lines). Root `layouts/_partials/components/theme-switcher.html` 92 lines wins. Nothing. [`/home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/_partials/components/theme-switcher.html`]
 
-11. **`yagni`** Language switcher (~35 lines partial + 1 header call). Single language (`languages.toml` only `en`); `hugo.IsMultilingual` never true — renders nothing. Remove call + partial. [`/home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/_partials/components/language-switcher.html`, `/home/jorap/Documents/GitHub/jorap.com/layouts/_partials/essentials/header.html` L147]
+11. **`yagni`** Language switcher (~35 lines partial + 1 header call). Single language (`languages.toml` only `en`); `hugo.IsMultilingual` never true - renders nothing. Remove call + partial. [`/home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/_partials/components/language-switcher.html`, `/home/jorap/Documents/GitHub/jorap.com/layouts/_partials/essentials/header.html` L147]
 
 12. **`delete`** Demo authors section (~191 lines: layouts 64 + content 127). Menu entry commented; Hugoplate placeholder bios. Nothing. [`/home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/authors/`, `/home/jorap/Documents/GitHub/jorap.com/content/english/authors/`]
 
-13. **`delete`** Unused Hugo module imports in config (~6 modules, vendor weight). **`font-awesome`** — replaced by `data/icons.json` + `icon.html` (comment in `hugo.toml` L206–209). **`adsense`** — `google_adsense = ""`. **`accordion` / `tab` / `modal` / `mermaid`** — shortcodes only in `elements.md`, `__blog-template.md`, and `hugoplate-theme-review.md` (15 shortcode uses). **`preloader`** — `enable = false` but still invoked from `baseof`. Remove imports + dead `partialCached` calls. [`/home/jorap/Documents/GitHub/jorap.com/config/_default/module.toml`, `/home/jorap/Documents/GitHub/jorap.com/layouts/baseof.html` L27–30, `/home/jorap/Documents/GitHub/jorap.com/layouts/_partials/essentials/script.html` L59–68]
+13. **`delete`** Unused Hugo module imports in config (~6 modules, vendor weight). **`font-awesome`** - replaced by `data/icons.json` + `icon.html` (comment in `hugo.toml` L206–209). **`adsense`** - `google_adsense = ""`. **`accordion` / `tab` / `modal` / `mermaid`** - shortcodes only in `elements.md`, `__blog-template.md`, and `hugoplate-theme-review.md` (15 shortcode uses). **`preloader`** - `enable = false` but still invoked from `baseof`. Remove imports + dead `partialCached` calls. [`/home/jorap/Documents/GitHub/jorap.com/config/_default/module.toml`, `/home/jorap/Documents/GitHub/jorap.com/layouts/baseof.html` L27–30, `/home/jorap/Documents/GitHub/jorap.com/layouts/_partials/essentials/script.html` L59–68]
 
 14. **`yagni`** Global lazy JS for accordion/tab/modal in `hugo.toml` (~54 lines plugin config + vendor JS on every page’s `script-lazy.js`). Load only on pages that use those shortcodes. Per-page `resources.Get` or drop shortcodes from live content. [`/home/jorap/Documents/GitHub/jorap.com/hugo.toml` L233–240, `/home/jorap/Documents/GitHub/jorap.com/themes/jorap/assets/css/main.css` L41–43]
 
-15. **`native`** `tailwind-bootstrap-grid` npm dep + `@plugin` line. Tailwind `grid grid-cols-*` / `gap-*`. ~130 `row`/`col-*`/`container` uses across 36 templates — refactor, not deletion. [`/home/jorap/Documents/GitHub/jorap.com/package.json`, `/home/jorap/Documents/GitHub/jorap.com/themes/jorap/assets/css/main.css` L4, `/home/jorap/Documents/GitHub/jorap.com/layouts/`, `/home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/`]
+15. **`native`** `tailwind-bootstrap-grid` npm dep + `@plugin` line. Tailwind `grid grid-cols-*` / `gap-*`. ~130 `row`/`col-*`/`container` uses across 36 templates - refactor, not deletion. [`/home/jorap/Documents/GitHub/jorap.com/package.json`, `/home/jorap/Documents/GitHub/jorap.com/themes/jorap/assets/css/main.css` L4, `/home/jorap/Documents/GitHub/jorap.com/layouts/`, `/home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/`]
 
 16. **`delete`** Theme `custom.css` stub (~2 lines). Project mount overrides with real file at `/home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css` (2,437 lines). Delete stub; single path only. [`/home/jorap/Documents/GitHub/jorap.com/themes/jorap/assets/css/custom.css`]
 
-17. **`shrink`** `assets/css/custom.css` monolith (~2,437 lines). Not a duplicate — it’s the live stylesheet imported via `main.css` L47. Incremental move to Tailwind layers / theme partials. [`/home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css`]
+17. **`shrink`** `assets/css/custom.css` monolith (~2,437 lines). Not a duplicate - it’s the live stylesheet imported via `main.css` L47. Incremental move to Tailwind layers / theme partials. [`/home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css`]
 
-18. **`yagni`** Thin layout shim (~2 lines). `layouts/_partials/image.html` only delegates to `components/image`. Inline at call sites or keep — negligible. [`/home/jorap/Documents/GitHub/jorap.com/layouts/_partials/image.html`]
+18. **`yagni`** Thin layout shim (~2 lines). `layouts/_partials/image.html` only delegates to `components/image`. Inline at call sites or keep - negligible. [`/home/jorap/Documents/GitHub/jorap.com/layouts/_partials/image.html`]
 
 19. **`yagni`** Placeholder GA + empty GTM/AdSense in config (~5 lines). `G-MEASUREMENT_ID`, empty `google_tag_manager` / `google_adsense`. Nothing until real IDs. [`/home/jorap/Documents/GitHub/jorap.com/hugo.toml` L36–37, `/home/jorap/Documents/GitHub/jorap.com/config/_default/params.toml` L26–27]
 
@@ -3295,7 +3295,7 @@ Ranked biggest cut first. Line counts are source-file estimates.
 
 | Item | Live reference? |
 |------|-----------------|
-| `banner` / `features` / `testimonials` / `home-proof` partials | No — not in `home.html` or any live layout |
+| `banner` / `features` / `testimonials` / `home-proof` partials | No - not in `home.html` or any live layout |
 | `language-switcher` | Called from header, but never renders (single lang) |
 | `google-map.js` | Guarded off (`enable = false`) |
 | Swiper / GLightbox | **`hugo.toml` → every page** via `style.html` / `script.html`; used on ~2 demo-ish pages + `{{< image glightbox >}}` on some live posts |
@@ -3310,6 +3310,6 @@ Ranked biggest cut first. Line counts are source-file estimates.
 
 **-1 npm dep** possible (`tailwind-bootstrap-grid`, after grid migration).
 
-**-4 to -6 Hugo module imports** possible (`font-awesome`, `adsense`, `accordion`, `tab`, `modal`, `mermaid` — keep `gallery-slider` / `images` if image lightbox stays).
+**-4 to -6 Hugo module imports** possible (`font-awesome`, `adsense`, `accordion`, `tab`, `modal`, `mermaid` - keep `gallery-slider` / `images` if image lightbox stays).
 
 **Not in scope but noted:** live `hugoplate-theme-review.md` is the main reason to keep accordion/tab/modal/mermaid/slider shortcodes unless that post is trimmed.

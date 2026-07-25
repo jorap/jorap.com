@@ -275,7 +275,7 @@ def scan_note(path: Path, rules: dict) -> list[Hit]:
 def print_summary(hits: list[Hit], blog_count: int, note_count: int) -> None:
     fails = [h for h in hits if h.severity == "fail"]
     warns = [h for h in hits if h.severity == "warn"]
-    print(f"Slop scan — {blog_count} blog, {note_count} notes, {len(fails)} fail, {len(warns)} warn")
+    print(f"Slop scan - {blog_count} blog, {note_count} notes, {len(fails)} fail, {len(warns)} warn")
     print(f"Rules: {RULES_PATH.relative_to(ROOT)}")
     print()
 
@@ -289,7 +289,7 @@ def print_summary(hits: list[Hit], blog_count: int, note_count: int) -> None:
         print("Fail (lint:slop exits 1 on these)")
         for rule, group in _group(fails).items():
             detail = next((h.detail for h in group if h.detail), "")
-            print(f"  {rule} ({len(group)})" + (f" — {detail}" if detail else ""))
+            print(f"  {rule} ({len(group)})" + (f" - {detail}" if detail else ""))
             for h in sorted(group, key=lambda x: (x.path, x.field)):
                 print(f"    {h.path} · {h.field}")
         print()
@@ -298,7 +298,7 @@ def print_summary(hits: list[Hit], blog_count: int, note_count: int) -> None:
         print("Warn (fix before publish)")
         for rule, group in _group(warns).items():
             detail = next((h.detail for h in group if h.detail), "")
-            print(f"  {rule} ({len(group)})" + (f" — {detail}" if detail else ""))
+            print(f"  {rule} ({len(group)})" + (f" - {detail}" if detail else ""))
             for h in sorted(group, key=lambda x: (x.path, x.field))[:8]:
                 print(f"    {h.path} · {h.field}")
             if len(group) > 8:
@@ -308,7 +308,7 @@ def print_summary(hits: list[Hit], blog_count: int, note_count: int) -> None:
     if not hits:
         print("No slop flags.")
     else:
-        print("pnpm lint:slop — fail CI on publish blockers")
+        print("pnpm lint:slop - fail CI on publish blockers")
 
 
 def _self_check() -> None:
@@ -349,7 +349,7 @@ def main() -> int:
 
     print("Slop lint:", file=sys.stderr)
     for hit in fails:
-        detail = f" — {hit.detail}" if hit.detail else ""
+        detail = f" - {hit.detail}" if hit.detail else ""
         print(f"  {hit.path}: {hit.field}: {hit.rule}{detail}", file=sys.stderr)
     return 1 if "--check" in sys.argv else 0
 

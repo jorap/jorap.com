@@ -98,7 +98,7 @@ _**Agent (auto-high)**_
 _**Agent (auto-high)**_
 
 <think><details><summary>Thought Process</summary>
- I'm getting a sense of the tone now — conversational and grounded in real examples — so let me look through the available images to find one that fits.</details></think>
+ I'm getting a sense of the tone now - conversational and grounded in real examples - so let me look through the available images to find one that fits.</details></think>
 
 _**Agent (auto-high)**_
 
@@ -160,7 +160,7 @@ _**Agent (auto-high)**_
 <think><details><summary>Thought Process</summary>
  I'll use the image-template.jpg as a placeholder since there's no specific image for this topic, following the blog template convention. Now I'm working on the blog post itself, considering titles like "The Power of the Middle Mouse Click: Cross-Platform Magic" to capture what the user is looking for.
 
-For the slug and content, I'm focusing on the cross-platform functionality that works consistently across Windows, Mac, and Linux—primarily the browser features like middle-clicking links to open them in background tabs, middle-clicking tabs to close them, and middle-clicking bookmark folders to open all bookmarks. I'll structure the article around these universal shortcuts while noting which features are platform-specific, keeping the practical, accessible tone the user wants.</details></think>
+For the slug and content, I'm focusing on the cross-platform functionality that works consistently across Windows, Mac, and Linux-primarily the browser features like middle-clicking links to open them in background tabs, middle-clicking tabs to close them, and middle-clicking bookmark folders to open all bookmarks. I'll structure the article around these universal shortcuts while noting which features are platform-specific, keeping the practical, accessible tone the user wants.</details></think>
 
 _**Agent (auto-high)**_
 
@@ -196,16 +196,16 @@ _**Agent (auto-high)**_
 
 _**Agent (auto-high)**_
 
-Done. I created a new blog post at `content/english/blog/power-of-the-middle-mouse-click.md` styled to match your existing posts — conversational JoRap voice, opening anecdote, clear sections with practical advice, and Hugo front matter consistent with the rest of the blog.
+Done. I created a new blog post at `content/english/blog/power-of-the-middle-mouse-click.md` styled to match your existing posts - conversational JoRap voice, opening anecdote, clear sections with practical advice, and Hugo front matter consistent with the rest of the blog.
 
 What the post covers:
-- **The hook** — a coworker right-clicking to open links in new tabs while a faster way exists
+- **The hook** - a coworker right-clicking to open links in new tabs while a faster way exists
 - **Where the middle button actually is** on different mice/trackpads
 - **Cross-platform identical behaviors** in browsers (open link in background tab, close tab, open all bookmarks in folder, middle-click back button, etc.)
-- **Beyond the browser** — file managers, IDEs (VS Code, JetBrains, Sublime), taskbar/dock behavior across Windows/Mac/Linux
-- **Mac-specific workarounds** — MiddleClick app for Magic Mouse / trackpad, plus the fact that any external scroll-wheel mouse just works
-- **Windows & Linux trackpads** — three-finger tap as middle click
-- **Why it's worth the muscle memory** — small saves that compound
+- **Beyond the browser** - file managers, IDEs (VS Code, JetBrains, Sublime), taskbar/dock behavior across Windows/Mac/Linux
+- **Mac-specific workarounds** - MiddleClick app for Magic Mouse / trackpad, plus the fact that any external scroll-wheel mouse just works
+- **Windows & Linux trackpads** - three-finger tap as middle click
+- **Why it's worth the muscle memory** - small saves that compound
 
 A couple of things to know:
 - I set `image: "/images/image-template.jpg"` as the placeholder since there's no mouse-specific image in `assets/images/`. Swap it for a real feature image whenever you have one (matching the convention of other posts like `feature-desktop.jpg`).
@@ -249,14 +249,14 @@ Trimmed it down to the essentials. The post now only covers behaviors that are t
 **Removed:**
 - Mac Magic Mouse / MiddleClick app workarounds
 - Trackpad three-finger tap setup (Windows, Mac, Linux)
-- File manager section (behavior differed across OSes — Finder didn't support it, Linux varied by DE)
+- File manager section (behavior differed across OSes - Finder didn't support it, Linux varied by DE)
 - Taskbar/Dock section (macOS Dock doesn't support middle-click for new instances, so it wasn't truly cross-platform)
 - The "Where's the middle button?" subsections about trackpads and Magic Mouse
 
 **Kept and tightened:**
 - A short "Where the middle button is" note (just: press the scroll wheel)
-- Browser behaviors — open in new background tab, close tab, open all bookmarks in folder, back button to new tab, navigation buttons in general
-- Code editors — VS Code, JetBrains, Sublime tab-closing (works the same on all three OSes)
+- Browser behaviors - open in new background tab, close tab, open all bookmarks in folder, back button to new tab, navigation buttons in general
+- Code editors - VS Code, JetBrains, Sublime tab-closing (works the same on all three OSes)
 - The closing pitch on muscle memory and compounding savings
 
 The post is now ~95 lines instead of 143, and every single tip works identically on Windows, macOS, and Linux with a standard scroll-wheel mouse.
@@ -272,7 +272,7 @@ change the term middle click with mouse wheel click
 _**Agent (auto-high)**_
 
 <think><details><summary>Thought Process</summary>
- I need to search through the file and replace all the different variations of middle-click terminology—"middle click," "middle-click," "middle mouse click," and "middle button"—with "mouse wheel click" to standardize the language.</details></think>
+ I need to search through the file and replace all the different variations of middle-click terminology-"middle click," "middle-click," "middle mouse click," and "middle button"-with "mouse wheel click" to standardize the language.</details></think>
 
 _**Agent (auto-high)**_
 
@@ -290,7 +290,7 @@ _**Agent (auto-high)**_
 _**Agent (auto-high)**_
 
 <think><details><summary>Thought Process</summary>
- I'm working through the terminology replacements for "middle click" — the user wants it changed to "mouse wheel click" throughout. I need to handle the various forms like "Middle Mouse Click," "middle-click," and similar variations consistently. I'm deciding whether to update the slug and filename too. Since this is a fresh post, I could rename the file to `power-of-the-mouse-wheel-click.md` for full consistency, but the user only asked to change the term in the content itself. I'll keep the filename and slug as-is and just do the textual replacements throughout the post.</details></think>
+ I'm working through the terminology replacements for "middle click" - the user wants it changed to "mouse wheel click" throughout. I need to handle the various forms like "Middle Mouse Click," "middle-click," and similar variations consistently. I'm deciding whether to update the slug and filename too. Since this is a fresh post, I could rename the file to `power-of-the-mouse-wheel-click.md` for full consistency, but the user only asked to change the term in the content itself. I'll keep the filename and slug as-is and just do the textual replacements throughout the post.</details></think>
 
 _**Agent (auto-high)**_
 
@@ -311,11 +311,11 @@ _**Agent (auto-high)**_
 
 Replaced "middle click" / "middle-click" / "middle mouse click" / "middle button" with "mouse wheel click" throughout, including:
 
-- **Title & meta_title** — now "The Mouse Wheel Click..."
-- **Slug** — updated to `power-of-the-mouse-wheel-click`
-- **Tags** — `"Middle Click"` → `"Mouse Wheel Click"`
-- **All section headings** — `### Mouse wheel click a link → ...`, etc.
-- **Body copy** — every reference rewritten consistently (e.g., "you can just mouse wheel click", "mouse wheel clicking interesting things", "mouse wheel click closes tabs")
+- **Title & meta_title** - now "The Mouse Wheel Click..."
+- **Slug** - updated to `power-of-the-mouse-wheel-click`
+- **Tags** - `"Middle Click"` → `"Mouse Wheel Click"`
+- **All section headings** - `### Mouse wheel click a link → ...`, etc.
+- **Body copy** - every reference rewritten consistently (e.g., "you can just mouse wheel click", "mouse wheel clicking interesting things", "mouse wheel click closes tabs")
 - **"Where the middle button is"** section heading is now **"Where the mouse wheel click is"**, with the body clarifying that the wheel itself is the button
 
 One thing to flag: the **filename** is still `power-of-the-middle-mouse-click.md`. The slug inside the front matter (`power-of-the-mouse-wheel-click`) controls the public URL in Hugo, so the post will live at `/blog/power-of-the-mouse-wheel-click/` regardless. Want me to also rename the file to match the new slug?
@@ -373,9 +373,9 @@ _**Agent (auto-high)**_
 
 Done. Two changes:
 
-**File renamed** — `power-of-the-middle-mouse-click.md` is now `power-of-the-mouse-wheel-click.md`, matching the slug in the front matter.
+**File renamed** - `power-of-the-middle-mouse-click.md` is now `power-of-the-mouse-wheel-click.md`, matching the slug in the front matter.
 
-**Opening rewritten as personal observation** — replaced the specific "coworker last week" dialogue with a recurring observation in your own voice. Instead of a one-time conversation, it's now framed as something you notice all the time, ending on the thought: *"there is a faster button right under their finger and they have no idea."* It keeps the energy of the original hook but reads as a pattern you've seen, not a single anecdote.
+**Opening rewritten as personal observation** - replaced the specific "coworker last week" dialogue with a recurring observation in your own voice. Instead of a one-time conversation, it's now framed as something you notice all the time, ending on the thought: *"there is a faster button right under their finger and they have no idea."* It keeps the energy of the original hook but reads as a pattern you've seen, not a single anecdote.
 
 ---
 
@@ -390,7 +390,7 @@ _**Agent (auto-high)**_
 <think><details><summary>Thought Process</summary>
  I need to create a featured image for the blog post about mouse wheel clicks and save it to the right location. Looking at the naming patterns used elsewhere, I should follow the same convention and store it in the assets/images directory.
 
-For the image itself, I'm picturing something visually compelling — a close-up of a mouse with the scroll wheel emphasized or glowing, maybe with subtle cross-platform elements like OS logos as accents to keep it relevant. The aesthetic should feel modern and technical, fitting for a developer blog. Let me check what dimensions the existing feature images use so I can match that.</details></think>
+For the image itself, I'm picturing something visually compelling - a close-up of a mouse with the scroll wheel emphasized or glowing, maybe with subtle cross-platform elements like OS logos as accents to keep it relevant. The aesthetic should feel modern and technical, fitting for a developer blog. Let me check what dimensions the existing feature images use so I can match that.</details></think>
 
 _**Agent (auto-high)**_
 
@@ -435,7 +435,7 @@ Parameters:
 
 ```json
 {
-  "description": "Wide cinematic 2:1 hero blog header image, clean modern tech editorial style. Hero subject: a close-up macro shot of a sleek black computer mouse, photographed at a low three-quarter angle from the front-left, with the scroll wheel as the unmistakable focal point. The scroll wheel is glowing softly with a luminous cyan-to-blue rim light, almost like a button radiating energy, drawing the eye immediately. A faint motion-blurred ghost of a finger pressing down on the wheel suggests the click action. Background is a dark, moody, slightly out-of-focus desk surface fading to deep navy and charcoal gradient — premium, cinematic, with subtle bokeh dots of warm amber light suggesting a workspace. Around the mouse, three very subtle floating glyphs hover softly in the background haze, far enough to be ambient texture not focal: a Windows-like four-pane square, a stylized minimal apple silhouette, and a small Linux-style penguin outline — all rendered in low-opacity monochrome line-art so they read as \"cross-platform\" without screaming branding. Add a few faint floating browser-tab outlines drifting upward from the wheel like a soft particle effect, suggesting \"new tabs opening.\" The overall mood is sleek, productive, slightly futuristic. High contrast, sharp focus on the wheel, shallow depth of field, photorealistic with a touch of editorial polish. No text. No watermark. No logos beyond the abstract OS hint glyphs described. Composition leaves slight negative space toward the upper right for blog title overlay flexibility. 2:1 aspect ratio, landscape orientation.",
+  "description": "Wide cinematic 2:1 hero blog header image, clean modern tech editorial style. Hero subject: a close-up macro shot of a sleek black computer mouse, photographed at a low three-quarter angle from the front-left, with the scroll wheel as the unmistakable focal point. The scroll wheel is glowing softly with a luminous cyan-to-blue rim light, almost like a button radiating energy, drawing the eye immediately. A faint motion-blurred ghost of a finger pressing down on the wheel suggests the click action. Background is a dark, moody, slightly out-of-focus desk surface fading to deep navy and charcoal gradient - premium, cinematic, with subtle bokeh dots of warm amber light suggesting a workspace. Around the mouse, three very subtle floating glyphs hover softly in the background haze, far enough to be ambient texture not focal: a Windows-like four-pane square, a stylized minimal apple silhouette, and a small Linux-style penguin outline - all rendered in low-opacity monochrome line-art so they read as \"cross-platform\" without screaming branding. Add a few faint floating browser-tab outlines drifting upward from the wheel like a soft particle effect, suggesting \"new tabs opening.\" The overall mood is sleek, productive, slightly futuristic. High contrast, sharp focus on the wheel, shallow depth of field, photorealistic with a touch of editorial polish. No text. No watermark. No logos beyond the abstract OS hint glyphs described. Composition leaves slight negative space toward the upper right for blog title overlay flexibility. 2:1 aspect ratio, landscape orientation.",
   "filePath": "feature-mouse-wheel-click.jpg"
 }
 ```
@@ -506,13 +506,13 @@ _**Agent (auto-high)**_
 
 Featured image generated and wired up.
 
-**What I made:** a cinematic close-up of a sleek black mouse with the scroll wheel glowing cyan-blue under a finger pressing down, faint Windows / Apple / Linux glyphs floating in the dark background, and ghostly browser-tab outlines rising from the wheel — a visual metaphor for "press the wheel, tabs appear" with cross-platform hinted but not branded.
+**What I made:** a cinematic close-up of a sleek black mouse with the scroll wheel glowing cyan-blue under a finger pressing down, faint Windows / Apple / Linux glyphs floating in the dark background, and ghostly browser-tab outlines rising from the wheel - a visual metaphor for "press the wheel, tabs appear" with cross-platform hinted but not branded.
 
 **What I did:**
-- Saved the image to `assets/images/feature-mouse-wheel-click.jpg` (matching your existing convention — same folder as `feature-desktop.jpg`, `rss.jpg`, etc.)
+- Saved the image to `assets/images/feature-mouse-wheel-click.jpg` (matching your existing convention - same folder as `feature-desktop.jpg`, `rss.jpg`, etc.)
 - Updated the front matter `image:` field in the blog post from the placeholder to `/images/feature-mouse-wheel-click.jpg`
 
-The image generated at 1024×1024 rather than the strict 851×428 your other hero images use, but Hugo's image processing (`fill`/`fit` shortcodes plus the theme's resizing) will handle that — it'll be cropped to the appropriate ratio when displayed in the blog list and post header.
+The image generated at 1024×1024 rather than the strict 851×428 your other hero images use, but Hugo's image processing (`fill`/`fit` shortcodes plus the theme's resizing) will handle that - it'll be cropped to the appropriate ratio when displayed in the blog list and post header.
 
 If you want a tighter-cropped 2:1 version baked in, or want to try a different visual direction (e.g. lighter/airier, more illustrative, no OS glyphs), let me know and I'll regenerate.
 
@@ -527,9 +527,9 @@ would it make sense to use a standard mouse over a trackpad just for the mouse w
 _**Agent (auto-high)**_
 
 <think><details><summary>Thought Process</summary>
- The user is asking whether it's worth using a standard mouse just for the middle-click functionality, since trackpads don't natively support it. I'm considering the practical arguments — the wheel click is genuinely useful for power users who might use it hundreds of times daily, and it's a feature that most trackpads, especially on Mac, simply don't offer.
+ The user is asking whether it's worth using a standard mouse just for the middle-click functionality, since trackpads don't natively support it. I'm considering the practical arguments - the wheel click is genuinely useful for power users who might use it hundreds of times daily, and it's a feature that most trackpads, especially on Mac, simply don't offer.
 
-But I'm also thinking through the counterarguments: trackpads can be configured with three-finger taps to simulate middle-click, and getting a mouse solely for one feature seems like overkill if you're already comfortable with a trackpad. The real deciding factors for using a mouse are usually ergonomics, precision, and comfort during long sessions — the middle-click is just one piece of that puzzle. If you're already a trackpad person, you can get most of the functionality through software workarounds, and you'd lose the portability benefits that trackpads offer.</details></think>
+But I'm also thinking through the counterarguments: trackpads can be configured with three-finger taps to simulate middle-click, and getting a mouse solely for one feature seems like overkill if you're already comfortable with a trackpad. The real deciding factors for using a mouse are usually ergonomics, precision, and comfort during long sessions - the middle-click is just one piece of that puzzle. If you're already a trackpad person, you can get most of the functionality through software workarounds, and you'd lose the portability benefits that trackpads offer.</details></think>
 
 _**Agent (auto-high)**_
 
@@ -541,10 +541,10 @@ Here's how I think about it:
 
 **But the mouse wheel click rarely shows up alone.** People who'd benefit most from it are also the people who benefit from the other things a mouse does well:
 
-- **Precision.** Selecting text, dragging boundaries in a video timeline, fine pixel work in design tools — a mouse just wins.
+- **Precision.** Selecting text, dragging boundaries in a video timeline, fine pixel work in design tools - a mouse just wins.
 - **Ergonomics over long sessions.** Trackpads encourage a clenched, finger-tense posture. Mice let your wrist and hand relax differently. Multi-hour days feel different.
 - **More buttons, period.** A standard mouse already has three buttons (left, right, wheel). Step up to a $30 productivity mouse and you get back/forward thumb buttons too. Once you have those, the trackpad starts to feel like working with mittens on.
-- **The wheel itself.** Scrolling a long document with a tactile wheel — especially with smooth-scroll or free-spin wheels — beats two-finger swipe for me, especially when I want to *stop* exactly somewhere.
+- **The wheel itself.** Scrolling a long document with a tactile wheel - especially with smooth-scroll or free-spin wheels - beats two-finger swipe for me, especially when I want to *stop* exactly somewhere.
 
 **Where the trackpad still wins:**
 
@@ -556,9 +556,9 @@ Here's how I think about it:
 
 If you mostly use a laptop on the couch, a trackpad with three-finger tap mapped to mouse wheel click is fine. You'll get 80% of the benefit.
 
-If you have a desk you sit at for more than an hour or two a day — yes, get the mouse. Not *just* for the mouse wheel click, but the mouse wheel click will be one of five or six small upgrades that compound. A decent wired or wireless mouse is $25–$40. It pays back in comfort and speed within a week.
+If you have a desk you sit at for more than an hour or two a day - yes, get the mouse. Not *just* for the mouse wheel click, but the mouse wheel click will be one of five or six small upgrades that compound. A decent wired or wireless mouse is $25–$40. It pays back in comfort and speed within a week.
 
-If you're a power user who lives in a browser, IDE, or design tool — the answer was always "use a mouse." The mouse wheel click is just one more reason.
+If you're a power user who lives in a browser, IDE, or design tool - the answer was always "use a mouse." The mouse wheel click is just one more reason.
 
 Want me to weave any of this into the blog post as a short closing aside, or keep the post focused only on the click itself?
 
@@ -567,4 +567,4 @@ Want me to weave any of this into the blog post as a short closing aside, or kee
 _**User**_
 
 incorporate this:
-If you have a desk you sit at for more than an hour or two a day — yes, get the mouse. Not just for the mouse wheel click, but the mouse wheel click will be one of five or six small upgrades that compound. A decent wired or wireless mouse is $25–$40. It pays back in comfort and speed within a week.
+If you have a desk you sit at for more than an hour or two a day - yes, get the mouse. Not just for the mouse wheel click, but the mouse wheel click will be one of five or six small upgrades that compound. A decent wired or wireless mouse is $25–$40. It pays back in comfort and speed within a week.

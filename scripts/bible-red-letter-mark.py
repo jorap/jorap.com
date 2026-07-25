@@ -129,7 +129,7 @@ def main() -> None:
             continue
         marks[ref] = mark_verse(verse, words, is_full)
 
-    # ponytail: one runnable check — partial verses must emit at least one red span
+    # ponytail: one runnable check - partial verses must emit at least one red span
     partial = [
         (r, n)
         for r, n in collect_entries().items()

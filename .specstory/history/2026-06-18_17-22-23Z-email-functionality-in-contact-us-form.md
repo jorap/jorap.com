@@ -679,7 +679,7 @@ Result:
           },
           {
             "lineNumber": 28,
-            "text": "lede = \"I help organizations ship web experiences and technical systems with clear framing and reliable delivery—for teams who need judgment, not just code.\""
+            "text": "lede = \"I help organizations ship web experiences and technical systems with clear framing and reliable delivery-for teams who need judgment, not just code.\""
           },
           {
             "lineNumber": 29
@@ -1134,7 +1134,7 @@ Result:
           },
           {
             "lineNumber": 65,
-            "text": "# the static-build-time CSP hash pass cannot cover them — keep"
+            "text": "# the static-build-time CSP hash pass cannot cover them - keep"
           },
           {
             "lineNumber": 66,
@@ -1631,7 +1631,7 @@ Result:
           },
           {
             "lineNumber": 2,
-            "text": "  components/social-share — Render share buttons for the current page."
+            "text": "  components/social-share - Render share buttons for the current page."
           },
           {
             "lineNumber": 3
@@ -1937,7 +1937,7 @@ Result:
           },
           {
             "lineNumber": 3,
-            "text": "  \"description\": \"JoRap's World — personal blog and portfolio (Hugo + Tailwind).\","
+            "text": "  \"description\": \"JoRap's World - personal blog and portfolio (Hugo + Tailwind).\","
           },
           {
             "lineNumber": 4,
@@ -2613,7 +2613,7 @@ Result:
           },
           {
             "lineNumber": 5,
-            "text": "## JoRap-only — never delete or replace from upstream"
+            "text": "## JoRap-only - never delete or replace from upstream"
           },
           {
             "lineNumber": 6
@@ -2627,43 +2627,43 @@ Result:
           },
           {
             "lineNumber": 9,
-            "text": "- &#96;content/&#96; — all posts, pages, authors, sections"
+            "text": "- &#96;content/&#96; - all posts, pages, authors, sections"
           },
           {
             "lineNumber": 10,
-            "text": "- &#96;config/&#96; — menus, params, module.toml, languages"
+            "text": "- &#96;config/&#96; - menus, params, module.toml, languages"
           },
           {
             "lineNumber": 11,
-            "text": "- &#96;data/&#96; — theme.json and site data"
+            "text": "- &#96;data/&#96; - theme.json and site data"
           },
           {
             "lineNumber": 12,
-            "text": "- &#96;hugo.toml&#96; — site config (theme name &#96;jorap&#96;, baseURL, security, etc.)"
+            "text": "- &#96;hugo.toml&#96; - site config (theme name &#96;jorap&#96;, baseURL, security, etc.)"
           },
           {
             "lineNumber": 13,
-            "text": "- &#96;layouts/&#96; at repo root — site-level overrides (e.g. &#96;layouts/_partials/basic-seo.html&#96;)"
+            "text": "- &#96;layouts/&#96; at repo root - site-level overrides (e.g. &#96;layouts/_partials/basic-seo.html&#96;)"
           },
           {
             "lineNumber": 14,
-            "text": "- &#96;assets/&#96; at repo root — site-level JS (e.g. &#96;assets/js/gallery-slider.js&#96;)"
+            "text": "- &#96;assets/&#96; at repo root - site-level JS (e.g. &#96;assets/js/gallery-slider.js&#96;)"
           },
           {
             "lineNumber": 15,
-            "text": "- &#96;functions/&#96; — Cloudflare Pages Functions (auth, API)"
+            "text": "- &#96;functions/&#96; - Cloudflare Pages Functions (auth, API)"
           },
           {
             "lineNumber": 16,
-            "text": "- &#96;docs/&#96; — PRODUCT.md, DESIGN.md, DESIGN.json, project docs"
+            "text": "- &#96;docs/&#96; - PRODUCT.md, DESIGN.md, DESIGN.json, project docs"
           },
           {
             "lineNumber": 17,
-            "text": "- &#96;static/&#96; — static assets, admin CMS"
+            "text": "- &#96;static/&#96; - static assets, admin CMS"
           },
           {
             "lineNumber": 18,
-            "text": "- &#96;_vendor/&#96; — vendored Hugo modules"
+            "text": "- &#96;_vendor/&#96; - vendored Hugo modules"
           },
           {
             "lineNumber": 19,
@@ -5217,7 +5217,7 @@ _**Agent (auto-low)**_
 
 The contact form does **not** send email anywhere right now. It’s a plain HTML form with no server-side handler in this repo.
 
-**Form template** — `themes/jorap/layouts/contact/list.html`:
+**Form template** - `themes/jorap/layouts/contact/list.html`:
 
 ```9:9:themes/jorap/layouts/contact/list.html
           <form action="{{ site.Params.contact_form_action }}" method="POST">
@@ -5225,7 +5225,7 @@ The contact form does **not** send email anywhere right now. It’s a plain HTML
 
 On submit, the browser POSTs `name`, `email`, and `message` to whatever URL is in `contact_form_action`.
 
-**Current config** — `config/_default/params.toml`:
+**Current config** - `config/_default/params.toml`:
 
 ```43:44:config/_default/params.toml
 # contact form action
@@ -5293,7 +5293,7 @@ Result:
   "isFinal": true,
   "references": [
     {
-      "chunk": "Links:\n1. [Account limits — Formspree Docs](https://help.formspree.io/articles/account-management/account-limits)\n2. [Formspree Free Plan Limits (2026): Submission Caps, Pricing \u0026 Alternatives](https://formtorch.com/compare/formspree-free-plan-limits)\n3. [Formspree Free Plan Limits in 2026 vs splitforms · splitforms](https://splitforms.com/formspree-free-plan-limits)\n4. [Formspree Pricing 2026: Plans, Hidden Costs \u0026 Cheaper Alternatives](https://toolradar.com/tools/formspree/pricing)\n5. [Formspree Features](https://formspree.io/features/)\n\nSynthesis:\nAs of June 2026, the Formspree Free plan limits submissions to 50 per month per account [1][2]. It includes unlimited forms and projects, but storage of submission history is limited to 30 days [1][3]. The Free plan allows linking up to two email addresses for notifications, which include Formspree branding [1][2][3]. Features such as file uploads, CSV exports, submission search, custom redirects, and webhooks are restricted to paid plans [2][4][5]. System-wide constraints also apply, including a 20-post-per-minute rate limit and a 25MB maximum individual file upload size [6].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eAccount limits — Formspree Docs\u003c/title\u003e\n\u003curl\u003ehttps://help.formspree.io/articles/account-management/account-limits\u003c/url\u003e\n\u003ccontent\u003eBrowse\n\nAsk AI\n\nAlso available in:\n\n- Deutsch,\n- Español,\n- Français,\n- Italiano,\n- 日本語\n\n## Plan features\n\nAccount limits define the resources available to you, though every Formspree plan includes unlimited forms and projects. On the Free plan, you can link up to two email addresses for notifications and store 30 days of submission history. Paid plans offer expanded capabilities, including unlimited linked emails, longer data retention, file upload storage, and team collaboration features.\n\n## Submission allowances\n\nSubmission allowances vary by plan, starting at 50 per month on the Free tier. To help you stay on top of your usage, we automatically send notifications when you reach 50%, 75%, and 90% of your monthly limit, as well as when the limit is exceeded. This allows you to monitor your traffic and upgrade via your dashboard at any time.\n\nFor more information about account limits please visit:\n\n- System limits\n\nIf you have questions about account limits or would like to inquire about custom plans, please contact our support team for assistance.\n\nOn this page\n\nOn this page\n\n- Plan features\n- Submission allowances\n\nUsing as primary context\n\nAsk anything about Formspree. The assistant reads the docs and cites the articles it used.\n\n- How do I control where the user is redirected after submitting to Formspree?\n- How do I set up file uploads?\n- How do I connect my form to 3rd party plugins?\n\nYour question Send\n\nSearch the Formspree documentation Esc\n\nAsk AI Let the assistant answer your question using the docs ↵\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"2\"\u003e\n\u003ctitle\u003eFormspree Free Plan Limits (2026): Submission Caps, Pricing \u0026 Alternatives\u003c/title\u003e\n\u003curl\u003ehttps://formtorch.com/compare/formspree-free-plan-limits\u003c/url\u003e\n\u003ccontent\u003eThis page summarizes Formspree's free plan limits (also called free tier limits) as of 2026, explains when those limits are likely to matter, and covers alternatives for projects that outgrow them. All details are based on publicly available information; verify current pricing on Formspree's official pricing page, as plans and limits can change.\n[...]\nFree submission cap:50 form submissions per month. Each form has its own 50-submission cap.\n[...]\nWhat happens at the limit:New submissions stop being accepted until the month resets or you upgrade.\n[...]\nUpgrade triggers:CSV export, submission search, custom redirects, file uploads, and webhook delivery all require a paid plan.\n[...]\nWebhooks:Available on the Gold tier ($99/mo and above, based on publicly listed pricing). Not included on lower paid tiers.\n[...]\n| Feature | Formspree free plan |\n| --- | --- |\n| Monthly submissions | 50 per month |\n| Forms | Unlimited |\n| Email notifications | Included — with Formspree branding |\n| Spam protection | Honeypot + reCAPTCHA (opt-in) |\n| CSV export | Paid plans only |\n| Submission search | Paid plans only |\n| Custom redirect | Paid plans only |\n| File uploads | Paid plans only |\n| Team collaboration | Paid plans only |\n| Webhook delivery | Gold plan ($99/mo) and above |\n| REST API access | Available on free |\n[...]\nsubmissions per month\n[...]\n50\n[...]\non every submission via\n[...]\nWarden™,\n[...]\nsignals and stores\n[...]\nnumeric score alongside each\n[...]\nYes. Formspree offers a free plan that includes up to 50 form submissions per month, unlimited forms, email notifications (with Formspree branding), and basic honeypot spam protection. Features like CSV export, submission search, custom redirects, file uploads, and webhooks require a paid plan. Verify current details on Formspree's official pricing page, as plans can change. Searching for Formspree free tier limits in 2026 will surface the same restrictions described above.\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"3\"\u003e\n\u003ctitle\u003eFormspree Free Plan Limits in 2026 vs splitforms · splitforms\u003c/title\u003e\n\u003curl\u003ehttps://splitforms.com/formspree-free-plan-limits\u003c/url\u003e\n\u003ccontent\u003eFORMSPREE FREE PLAN LIMITS · UPDATED MAY 2026\n[...]\nShort answer: Formspree's Free tier starts at 50 submissions per month, with 30 days of submission history and up to two linked notification emails. splitforms gives developer-owned sites 1,000 free submissions per month with dashboard storage, signed webhooks, and spam filtering.\n[...]\n| Limit | Formspree Free | splitforms Free |\n| --- | --- | --- |\n| Free monthly submissions | 50/month | 1,000/month |\n| Forms/projects | Unlimited forms and projects per Formspree docs | Unlimited forms |\n| Submission history | 30 days on Free | Dashboard storage on Free |\n| Linked notification emails | Up to 2 on Free | Owner email plus plan-based routing options |\n| Webhooks | Available in Formspree product surface; check current plan gating | Signed webhooks included on Free |\n| Best fit | Tiny forms already wired to Formspree | Developer sites that want more free headroom |\n[...]\nSource note: Formspree plan limits can change. This page summarizes Formspree's official account-limit documentation as checked in May 2026.\n[...]\nWhat are the Form\n[...]\nfree plan submission limits?\n[...]\nFormspree's account-limits documentation says submission allowances start at 50 per month on the Free tier. It also says the Free plan stores 30 days of submission history and can link up to two email addresses for notifications.\n[...]\nree still limit free users to one form?\n[...]\nFormspree's December 2025 account-limits documentation says every plan includes unlimited forms and projects. The meaningful Free-plan limit is the monthly submission allowance, not form count.\n[...]\nsplitforms includes 1,000 submissions per month on the free plan, plus dashboard storage, email notifications, signed webhooks, CSV export, spam filtering, and unlimited forms. No credit card is required.\n[...]\nStay on Form\n[...]\ndashboard. Switch when the 50/month cap, webhook needs, or spam filtering become the bottleneck.\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"4\"\u003e\n\u003ctitle\u003eFormspree Pricing 2026: Plans, Hidden Costs \u0026 Cheaper Alternatives\u003c/title\u003e\n\u003curl\u003ehttps://toolradar.com/tools/formspree/pricing\u003c/url\u003e\n\u003ccontent\u003eFree tier is tight at 50 submissions/month but fine for personal sites. Professional at $30/month with 2,000 submissions covers most business needs.\n[...]\nNo per-form charges — unlimited forms on all plans.\n[...]\nFor personal sites\n[...]\n- 50 submissions/month\n- Unlimited forms\n- 30-day archive\n- 2 linked emails\n- Basic spam filtering\n- reCAPTCHA\n[...]\n- 200 submissions/month\n[...]\n- Unlimited archive\n[...]\n- 1GB file uploads\n[...]\n- Unlimited emails\n[...]\nFree tier has 30-day submission archive only — older data is deleted\n[...]\nFile uploads are 0 GB on free (no attachments)\n[...]\nTeam members limited to 1 on Free and Personal plans\n[...]\nAutoresponses and API access require Professional ($30/mo)\n[...]\nFormspree starts at $15/month on the Personal plan. It offers 3 paid tiers ranging from $15/month up to $90/month. A free plan is also available with limited features.\n[...]\n### Does Formspree have a free plan?\n[...]\nYes. Formspree offers a free plan called \"Free\". It includes: 50 submissions/month, Unlimited forms, 30-day archive.\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"5\"\u003e\n\u003ctitle\u003eFormspree Features\u003c/title\u003e\n\u003curl\u003ehttps://formspree.io/features/\u003c/url\u003e\n\u003ccontent\u003e* **Priority Support**- Formspree team responds quickly to address emerging spam attacks.## Generous Quotas\n[...]\nScale without limits—collect high-volume submissions and store large files while keeping data accessible.\n[...]\n* Unlimited active forms and projects per account.\n* High-volume quota (20000+ submissions / month) on the Business plan with custom limits available.\n* Up to 10GB of file uploads stored and viewable on the dashboard. More available on Custom plans.\n* CSV / JSON exports or real-time API retrieval.##\n[...]\n* Up to 20 team members included on Business with more available on Custom plans.\n* Hand-off to client with convert-to-team feature.##\n[...]\nin action?\n[...]\n[Get started for free](https://formspree.io/register)\u003c/content\u003e\n\u003c/result\u003e",
+      "chunk": "Links:\n1. [Account limits - Formspree Docs](https://help.formspree.io/articles/account-management/account-limits)\n2. [Formspree Free Plan Limits (2026): Submission Caps, Pricing \u0026 Alternatives](https://formtorch.com/compare/formspree-free-plan-limits)\n3. [Formspree Free Plan Limits in 2026 vs splitforms · splitforms](https://splitforms.com/formspree-free-plan-limits)\n4. [Formspree Pricing 2026: Plans, Hidden Costs \u0026 Cheaper Alternatives](https://toolradar.com/tools/formspree/pricing)\n5. [Formspree Features](https://formspree.io/features/)\n\nSynthesis:\nAs of June 2026, the Formspree Free plan limits submissions to 50 per month per account [1][2]. It includes unlimited forms and projects, but storage of submission history is limited to 30 days [1][3]. The Free plan allows linking up to two email addresses for notifications, which include Formspree branding [1][2][3]. Features such as file uploads, CSV exports, submission search, custom redirects, and webhooks are restricted to paid plans [2][4][5]. System-wide constraints also apply, including a 20-post-per-minute rate limit and a 25MB maximum individual file upload size [6].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eAccount limits - Formspree Docs\u003c/title\u003e\n\u003curl\u003ehttps://help.formspree.io/articles/account-management/account-limits\u003c/url\u003e\n\u003ccontent\u003eBrowse\n\nAsk AI\n\nAlso available in:\n\n- Deutsch,\n- Español,\n- Français,\n- Italiano,\n- 日本語\n\n## Plan features\n\nAccount limits define the resources available to you, though every Formspree plan includes unlimited forms and projects. On the Free plan, you can link up to two email addresses for notifications and store 30 days of submission history. Paid plans offer expanded capabilities, including unlimited linked emails, longer data retention, file upload storage, and team collaboration features.\n\n## Submission allowances\n\nSubmission allowances vary by plan, starting at 50 per month on the Free tier. To help you stay on top of your usage, we automatically send notifications when you reach 50%, 75%, and 90% of your monthly limit, as well as when the limit is exceeded. This allows you to monitor your traffic and upgrade via your dashboard at any time.\n\nFor more information about account limits please visit:\n\n- System limits\n\nIf you have questions about account limits or would like to inquire about custom plans, please contact our support team for assistance.\n\nOn this page\n\nOn this page\n\n- Plan features\n- Submission allowances\n\nUsing as primary context\n\nAsk anything about Formspree. The assistant reads the docs and cites the articles it used.\n\n- How do I control where the user is redirected after submitting to Formspree?\n- How do I set up file uploads?\n- How do I connect my form to 3rd party plugins?\n\nYour question Send\n\nSearch the Formspree documentation Esc\n\nAsk AI Let the assistant answer your question using the docs ↵\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"2\"\u003e\n\u003ctitle\u003eFormspree Free Plan Limits (2026): Submission Caps, Pricing \u0026 Alternatives\u003c/title\u003e\n\u003curl\u003ehttps://formtorch.com/compare/formspree-free-plan-limits\u003c/url\u003e\n\u003ccontent\u003eThis page summarizes Formspree's free plan limits (also called free tier limits) as of 2026, explains when those limits are likely to matter, and covers alternatives for projects that outgrow them. All details are based on publicly available information; verify current pricing on Formspree's official pricing page, as plans and limits can change.\n[...]\nFree submission cap:50 form submissions per month. Each form has its own 50-submission cap.\n[...]\nWhat happens at the limit:New submissions stop being accepted until the month resets or you upgrade.\n[...]\nUpgrade triggers:CSV export, submission search, custom redirects, file uploads, and webhook delivery all require a paid plan.\n[...]\nWebhooks:Available on the Gold tier ($99/mo and above, based on publicly listed pricing). Not included on lower paid tiers.\n[...]\n| Feature | Formspree free plan |\n| --- | --- |\n| Monthly submissions | 50 per month |\n| Forms | Unlimited |\n| Email notifications | Included - with Formspree branding |\n| Spam protection | Honeypot + reCAPTCHA (opt-in) |\n| CSV export | Paid plans only |\n| Submission search | Paid plans only |\n| Custom redirect | Paid plans only |\n| File uploads | Paid plans only |\n| Team collaboration | Paid plans only |\n| Webhook delivery | Gold plan ($99/mo) and above |\n| REST API access | Available on free |\n[...]\nsubmissions per month\n[...]\n50\n[...]\non every submission via\n[...]\nWarden™,\n[...]\nsignals and stores\n[...]\nnumeric score alongside each\n[...]\nYes. Formspree offers a free plan that includes up to 50 form submissions per month, unlimited forms, email notifications (with Formspree branding), and basic honeypot spam protection. Features like CSV export, submission search, custom redirects, file uploads, and webhooks require a paid plan. Verify current details on Formspree's official pricing page, as plans can change. Searching for Formspree free tier limits in 2026 will surface the same restrictions described above.\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"3\"\u003e\n\u003ctitle\u003eFormspree Free Plan Limits in 2026 vs splitforms · splitforms\u003c/title\u003e\n\u003curl\u003ehttps://splitforms.com/formspree-free-plan-limits\u003c/url\u003e\n\u003ccontent\u003eFORMSPREE FREE PLAN LIMITS · UPDATED MAY 2026\n[...]\nShort answer: Formspree's Free tier starts at 50 submissions per month, with 30 days of submission history and up to two linked notification emails. splitforms gives developer-owned sites 1,000 free submissions per month with dashboard storage, signed webhooks, and spam filtering.\n[...]\n| Limit | Formspree Free | splitforms Free |\n| --- | --- | --- |\n| Free monthly submissions | 50/month | 1,000/month |\n| Forms/projects | Unlimited forms and projects per Formspree docs | Unlimited forms |\n| Submission history | 30 days on Free | Dashboard storage on Free |\n| Linked notification emails | Up to 2 on Free | Owner email plus plan-based routing options |\n| Webhooks | Available in Formspree product surface; check current plan gating | Signed webhooks included on Free |\n| Best fit | Tiny forms already wired to Formspree | Developer sites that want more free headroom |\n[...]\nSource note: Formspree plan limits can change. This page summarizes Formspree's official account-limit documentation as checked in May 2026.\n[...]\nWhat are the Form\n[...]\nfree plan submission limits?\n[...]\nFormspree's account-limits documentation says submission allowances start at 50 per month on the Free tier. It also says the Free plan stores 30 days of submission history and can link up to two email addresses for notifications.\n[...]\nree still limit free users to one form?\n[...]\nFormspree's December 2025 account-limits documentation says every plan includes unlimited forms and projects. The meaningful Free-plan limit is the monthly submission allowance, not form count.\n[...]\nsplitforms includes 1,000 submissions per month on the free plan, plus dashboard storage, email notifications, signed webhooks, CSV export, spam filtering, and unlimited forms. No credit card is required.\n[...]\nStay on Form\n[...]\ndashboard. Switch when the 50/month cap, webhook needs, or spam filtering become the bottleneck.\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"4\"\u003e\n\u003ctitle\u003eFormspree Pricing 2026: Plans, Hidden Costs \u0026 Cheaper Alternatives\u003c/title\u003e\n\u003curl\u003ehttps://toolradar.com/tools/formspree/pricing\u003c/url\u003e\n\u003ccontent\u003eFree tier is tight at 50 submissions/month but fine for personal sites. Professional at $30/month with 2,000 submissions covers most business needs.\n[...]\nNo per-form charges - unlimited forms on all plans.\n[...]\nFor personal sites\n[...]\n- 50 submissions/month\n- Unlimited forms\n- 30-day archive\n- 2 linked emails\n- Basic spam filtering\n- reCAPTCHA\n[...]\n- 200 submissions/month\n[...]\n- Unlimited archive\n[...]\n- 1GB file uploads\n[...]\n- Unlimited emails\n[...]\nFree tier has 30-day submission archive only - older data is deleted\n[...]\nFile uploads are 0 GB on free (no attachments)\n[...]\nTeam members limited to 1 on Free and Personal plans\n[...]\nAutoresponses and API access require Professional ($30/mo)\n[...]\nFormspree starts at $15/month on the Personal plan. It offers 3 paid tiers ranging from $15/month up to $90/month. A free plan is also available with limited features.\n[...]\n### Does Formspree have a free plan?\n[...]\nYes. Formspree offers a free plan called \"Free\". It includes: 50 submissions/month, Unlimited forms, 30-day archive.\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"5\"\u003e\n\u003ctitle\u003eFormspree Features\u003c/title\u003e\n\u003curl\u003ehttps://formspree.io/features/\u003c/url\u003e\n\u003ccontent\u003e* **Priority Support**- Formspree team responds quickly to address emerging spam attacks.## Generous Quotas\n[...]\nScale without limits-collect high-volume submissions and store large files while keeping data accessible.\n[...]\n* Unlimited active forms and projects per account.\n* High-volume quota (20000+ submissions / month) on the Business plan with custom limits available.\n* Up to 10GB of file uploads stored and viewable on the dashboard. More available on Custom plans.\n* CSV / JSON exports or real-time API retrieval.##\n[...]\n* Up to 20 team members included on Business with more available on Custom plans.\n* Hand-off to client with convert-to-team feature.##\n[...]\nin action?\n[...]\n[Get started for free](https://formspree.io/register)\u003c/content\u003e\n\u003c/result\u003e",
       "title": "Web search results"
     }
   ],
@@ -5451,7 +5451,7 @@ For a personal site like JoRap.com, **Formspree is usually the better free choic
 | **Submissions** | 50/month | Unlimited (“for now”) |
 | **Setup** | Sign up, get a form ID | Set `action` to `https://airform.io/your@email.com` |
 | **Email privacy** | Hidden behind a form ID | Your email is in the form `action` (visible in page source) |
-| **Dashboard** | Yes — 30 days of submissions | No real dashboard |
+| **Dashboard** | Yes - 30 days of submissions | No real dashboard |
 | **Spam protection** | Honeypot + optional reCAPTCHA | Honeypot |
 | **Custom thank-you page** | Paid only | Supported |
 | **File uploads** | Paid only | No |

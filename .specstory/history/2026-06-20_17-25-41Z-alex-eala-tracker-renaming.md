@@ -501,7 +501,7 @@ Updating the Alex Eala tracker with her loss to Noskova.
 
 _**Agent (default)**_
 
-Updating the tracker with Eala's semifinal loss to Noskova — reading the current file and verifying the result from WTA sources.
+Updating the tracker with Eala's semifinal loss to Noskova - reading the current file and verifying the result from WTA sources.
 
 
 _**Agent (default)**_
@@ -2010,10 +2010,10 @@ Updated the tracker with Eala's Berlin semifinal loss to Linda Noskova.
 - Added WTA Berlin semifinal highlights embed (newest meeting first, Indian Wells still below)
 
 **Unchanged**
-- At a glance, rankings, and notable firsts — still a WTA 500 semifinal run; career high remains No. 29
-- Elina Svitolina H2H — QF win was already logged; kept existing embed there
+- At a glance, rankings, and notable firsts - still a WTA 500 semifinal run; career high remains No. 29
+- Elina Svitolina H2H - QF win was already logged; kept existing embed there
 
-`lastmod` bumped to `2026-06-21T02:30:00Z`. Not committed — say if you want that.
+`lastmod` bumped to `2026-06-21T02:30:00Z`. Not committed - say if you want that.
 
 ---
 
@@ -2043,7 +2043,7 @@ _**Agent (default)**_
 
 _**Agent (default)**_
 
-The tracker is updated: Eala's Berlin semifinal loss to Noskova is recorded as **6-2, 6-4**, with WTA and tennis.com links on the exit line. WTA highlight embeds are in place — Svitolina QF under the Berlin block, Berlin SF under Linda Noskova's H2H section (Indian Wells embed kept below it).
+The tracker is updated: Eala's Berlin semifinal loss to Noskova is recorded as **6-2, 6-4**, with WTA and tennis.com links on the exit line. WTA highlight embeds are in place - Svitolina QF under the Berlin block, Berlin SF under Linda Noskova's H2H section (Indian Wells embed kept below it).
 
 ---
 

@@ -71,6 +71,14 @@ cards:
     back: "Menu page plus link to existing delivery app"
   - front: "Freelance designer needed portfolio and case studies. What's the move?"
     back: "Yes, static, live in a week"
+  - front: "Every client gets custom scope - no template on disk."
+    back: "Yes/no menu - static fits or link out."
+  - front: "Online ordering sounds impressive - big build beckoning."
+    back: "Menu page plus app link - not a cart."
+  - front: "They need a portal - gut says yes to everything."
+    back: "Brochure plus archive - pass the rest."
+  - front: "Scope crept to login mid-build - reset talk."
+    back: "Written scope - change order or cut."
 draft: false
 ---
 

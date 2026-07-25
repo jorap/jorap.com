@@ -443,7 +443,7 @@ Fixing the regex to only catch true contractions like don't and can't. Possessiv
 
 _**Agent (composer-2.5-fast)**_
 
-Fixing the contraction check — it was flagging possessives like "Father's".
+Fixing the contraction check - it was flagging possessives like "Father's".
 
 
 _**Agent (composer-2.5-fast)**_
@@ -678,9 +678,9 @@ cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:voice -- content/english/
 $ python3 scripts/notes-voice-sanitize.py --check && python3 scripts/notes-voice-lint.py --check -- content/english/notes/glorify-your-name.md content/english/notes/grace.md content/english/notes/graph.md
 Voice dash lint OK
 Voice lint warnings:
-  content/english/notes/convert-pain-into-learning.md: key_concept: AI-tell word `rumination` — try: stewing / replaying without change
-  content/english/notes/rollback-principle.md: key_concept: AI-tell word `postmortem` — try: after-action review
-  content/english/notes/selling-static-sites.md: key_concept: AI-tell word `handoff` — try: pass off / pass to client
+  content/english/notes/convert-pain-into-learning.md: key_concept: AI-tell word `rumination` - try: stewing / replaying without change
+  content/english/notes/rollback-principle.md: key_concept: AI-tell word `postmortem` - try: after-action review
+  content/english/notes/selling-static-sites.md: key_concept: AI-tell word `handoff` - try: pass off / pass to client
 [ELIFECYCLE] Command failed with exit code 1.
 
 ```

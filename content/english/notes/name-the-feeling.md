@@ -50,6 +50,14 @@ cards:
     back: "Then he could hear the adjustment"
   - front: "My spouse walked in tense after traffic and errands. What's the move?"
     back: "Less defensiveness"
+  - front: "Saw the slump - launched straight into the adjustment."
+    back: "Name the feeling - then coach."
+  - front: "Spouse tense - I'm stacking fixes before hello."
+    back: "You look shot - traffic or errands?"
+  - front: "Bad quarter means lazy - say it straight."
+    back: "You look frustrated - what's heavy?"
+  - front: "Kid crying - I'm problem-solving through the tears."
+    back: "Name it first - solutions wait."
 draft: false
 ---
 

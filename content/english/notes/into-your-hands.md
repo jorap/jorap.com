@@ -48,17 +48,17 @@ featured: false
 review: true
 card_sets: ["Jesus Prayers", "Gospel", "Faith", "Prayer"]
 cards:
-  - front: "Fear of dying alone at night. Last prayer line Jesus spoke to the Father?"
-    back: "Into Your hands I commit My spirit."
-  - front: "Everything hurts and control is gone. Cross posture after surrender?"
+  - front: "Fear of dying alone at night - chest tight in the dark."
+    back: "Father, into Your hands I commit my spirit."
+  - front: "Everything hurts and control is gone - panic rising."
     back: "Commit my spirit - trust the Father."
-  - front: "Anxiety spike feels like the end. Psalm 31:5 line He quoted?"
+  - front: "Anxiety spike feels like the end - can't catch my breath."
     back: "Into Your hands - entrust, don't panic."
-  - front: "Said not my will in the garden. How does the cross end?"
-    back: "Into Your hands - same Father."
-  - front: "Bedside vigil - what sentence can I pray with them?"
+  - front: "Said not my will in the garden - cross moment arriving."
+    back: "Into Your hands - same Father as the garden."
+  - front: "Bedside vigil - they're slipping and I'm wordless."
     back: "Father, into Your hands."
-  - front: "Trying to control every outcome as life narrows. Move from Luke 23:46?"
+  - front: "Trying to control every outcome as life narrows."
     back: "Commit spirit - Father holds it."
 draft: false
 ---

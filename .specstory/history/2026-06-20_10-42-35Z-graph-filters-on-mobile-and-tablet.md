@@ -1842,7 +1842,7 @@ Result:
           },
           {
             "lineNumber": 49,
-            "text": "                \u003cbutton type=\"button\" class=\"notes-graph-filter is-active\" data-graph-filter=\"all\" aria-pressed=\"true\" aria-label=\"All notes — {{ len $graph.nodes }} notes, {{ len $graph.edges }} links\"\u003e"
+            "text": "                \u003cbutton type=\"button\" class=\"notes-graph-filter is-active\" data-graph-filter=\"all\" aria-pressed=\"true\" aria-label=\"All notes - {{ len $graph.nodes }} notes, {{ len $graph.edges }} links\"\u003e"
           },
           {
             "lineNumber": 50,
@@ -1854,7 +1854,7 @@ Result:
           },
           {
             "lineNumber": 52,
-            "text": "                \u003cbutton type=\"button\" class=\"notes-graph-filter\" data-graph-filter=\"hub\" aria-pressed=\"false\" aria-label=\"High link frequency — {{ $hubs }} notes\"\u003e"
+            "text": "                \u003cbutton type=\"button\" class=\"notes-graph-filter\" data-graph-filter=\"hub\" aria-pressed=\"false\" aria-label=\"High link frequency - {{ $hubs }} notes\"\u003e"
           },
           {
             "lineNumber": 53,
@@ -1866,7 +1866,7 @@ Result:
           },
           {
             "lineNumber": 55,
-            "text": "                \u003cbutton type=\"button\" class=\"notes-graph-filter\" data-graph-filter=\"weak\" aria-pressed=\"false\" aria-label=\"Low link frequency — {{ $weak }} notes\"\u003e"
+            "text": "                \u003cbutton type=\"button\" class=\"notes-graph-filter\" data-graph-filter=\"weak\" aria-pressed=\"false\" aria-label=\"Low link frequency - {{ $weak }} notes\"\u003e"
           },
           {
             "lineNumber": 56,
@@ -1878,7 +1878,7 @@ Result:
           },
           {
             "lineNumber": 58,
-            "text": "                \u003cbutton type=\"button\" class=\"notes-graph-filter\" data-graph-filter=\"deadEnd\" aria-pressed=\"false\" aria-label=\"No body links — {{ $deadEnds }} notes with no wikilinks in the body\"\u003e"
+            "text": "                \u003cbutton type=\"button\" class=\"notes-graph-filter\" data-graph-filter=\"deadEnd\" aria-pressed=\"false\" aria-label=\"No body links - {{ $deadEnds }} notes with no wikilinks in the body\"\u003e"
           },
           {
             "lineNumber": 59,
@@ -1890,7 +1890,7 @@ Result:
           },
           {
             "lineNumber": 61,
-            "text": "                \u003cbutton type=\"button\" class=\"notes-graph-filter\" data-graph-filter=\"orphan\" aria-pressed=\"false\" aria-label=\"Orphans — {{ $orphans }} notes with no inbound links\"\u003e"
+            "text": "                \u003cbutton type=\"button\" class=\"notes-graph-filter\" data-graph-filter=\"orphan\" aria-pressed=\"false\" aria-label=\"Orphans - {{ $orphans }} notes with no inbound links\"\u003e"
           },
           {
             "lineNumber": 62,
@@ -3119,7 +3119,7 @@ Result:
           },
           {
             "lineNumber": 49,
-            "text": "                \u003cbutton type=\"button\" class=\"notes-graph-filter is-active\" data-graph-filter=\"all\" aria-pressed=\"true\" aria-label=\"All notes — {{ len $graph.nodes }} notes, {{ len $graph.edges }} links\"\u003e"
+            "text": "                \u003cbutton type=\"button\" class=\"notes-graph-filter is-active\" data-graph-filter=\"all\" aria-pressed=\"true\" aria-label=\"All notes - {{ len $graph.nodes }} notes, {{ len $graph.edges }} links\"\u003e"
           },
           {
             "lineNumber": 50,
@@ -7861,15 +7861,15 @@ curl -s http://localhost:1313/notes/graph/ | rg -n "notes-graph|data-graph-filte
 1391:                  &lt;button type="button" class="notes-graph-expand notes-graph-btn" title="Expand graph" aria-label="Expand graph" aria-pressed="true"&gt;
 1392:                    &lt;span class="notes-graph-expand-icon" aria-hidden="true"&gt;⤢&lt;/span&gt;
 1396:              &lt;div class="notes-graph-filters" role="group" aria-label="Graph filters"&gt;
-1397:                &lt;button type="button" class="notes-graph-filter is-active" data-graph-filter="all" aria-pressed="true" aria-label="All notes — 87 notes, 518 links"&gt;
+1397:                &lt;button type="button" class="notes-graph-filter is-active" data-graph-filter="all" aria-pressed="true" aria-label="All notes - 87 notes, 518 links"&gt;
 1398:                  All&lt;span class="notes-graph-filter__count"&gt; · 87&lt;span class="notes-graph-filter__suffix"&gt; notes&lt;/span&gt; · 518 links&lt;/span&gt;
-1400:                &lt;button type="button" class="notes-graph-filter" data-graph-filter="hub" aria-pressed="false" aria-label="High link frequency — 15 notes"&gt;
+1400:                &lt;button type="button" class="notes-graph-filter" data-graph-filter="hub" aria-pressed="false" aria-label="High link frequency - 15 notes"&gt;
 1401:                  High&lt;span class="notes-graph-filter__count notes-graph-filter__count--hub"&gt; · 15&lt;/span&gt;
-1403:                &lt;button type="button" class="notes-graph-filter" data-graph-filter="weak" aria-pressed="false" aria-label="Low link frequency — 31 notes"&gt;
+1403:                &lt;button type="button" class="notes-graph-filter" data-graph-filter="weak" aria-pressed="false" aria-label="Low link frequency - 31 notes"&gt;
 1404:                  Low&lt;span class="notes-graph-filter__count notes-graph-filter__count--weak"&gt; · 31&lt;/span&gt;
-1406:                &lt;button type="button" class="notes-graph-filter" data-graph-filter="deadEnd" aria-pressed="false" aria-label="No body links — 0 notes with no wikilinks in the body"&gt;
+1406:                &lt;button type="button" class="notes-graph-filter" data-graph-filter="deadEnd" aria-pressed="false" aria-label="No body links - 0 notes with no wikilinks in the body"&gt;
 1407:                  No body&lt;span class="notes-graph-filter__suffix"&gt; links&lt;/span&gt;&lt;span class="notes-graph-filter__count"&gt; · 0&lt;/span&gt;
-1409:                &lt;button type="button" class="notes-graph-filter" data-graph-filter="orphan" aria-pressed="false" aria-label="Orphans — 0 notes with no inbound links"&gt;
+1409:                &lt;button type="button" class="notes-graph-filter" data-graph-filter="orphan" aria-pressed="false" aria-label="Orphans - 0 notes with no inbound links"&gt;
 1410:                  Orphans&lt;span class="notes-graph-filter__count notes-graph-filter__count--orphan"&gt; · 0&lt;/span&gt;
 1415:            &lt;div class="notes-graph is-expanded" role="img" aria-label="Graph of note connections"&gt;
 1416:              &lt;div class="notes-graph__controls" aria-hidden="true"&gt;
@@ -8696,7 +8696,7 @@ Taps fail on 320px screens because `active: false`.</details></think>
 
 _**Agent (default)**_
 
-Taps fail at 320px width — I'll dig into what's blocking or misaligning the filter controls there.
+Taps fail at 320px width - I'll dig into what's blocking or misaligning the filter controls there.
 
 
 _**Agent (default)**_
@@ -10000,7 +10000,7 @@ Click events alone are sufficient for filter selection on mobile; no extra touch
 
 _**Agent (default)**_
 
-Tests pass, but filter chips are only ~21px tall—too small for reliable touch. I'll improve touch targets, add a sticky toolbar on smaller screens, and enable horizontal scrolling on tablet.
+Tests pass, but filter chips are only ~21px tall-too small for reliable touch. I'll improve touch targets, add a sticky toolbar on smaller screens, and enable horizontal scrolling on tablet.
 
 
 _**Agent (default)**_
@@ -10472,7 +10472,7 @@ _**Agent (default)**_
 Graph filters on `/notes/graph/` are now tuned for phones and tablets. Here’s what was wrong and what changed.
 
 **Issues found**
-- Filter chips were only ~21px tall — too small for reliable touch
+- Filter chips were only ~21px tall - too small for reliable touch
 - On tablet (768–1023px), filters used `flex-wrap: nowrap` with no overflow scroll, so they could clip off-screen as the garden grows
 - Touch taps near the canvas could be less reliable than mouse clicks
 
@@ -10513,7 +10513,7 @@ Graph filter buttons are broken on tablet. The reset button still works.</detail
 
 _**Agent (default)**_
 
-Filter buttons failing while Reset works points to something specific to the filter row on tablet — I'll trace their handlers and layout at that breakpoint.
+Filter buttons failing while Reset works points to something specific to the filter row on tablet - I'll trace their handlers and layout at that breakpoint.
 
 
 _**Agent (default)**_
@@ -10803,7 +10803,7 @@ The canvas is absolutely positioned inside the graph container, not fixed. It ca
 
 _**Agent (default)**_
 
-Reset uses a simple `click` handler; filters use `pointerup` plus a lock inside a horizontally scrollable row — likely why taps fail on real iPads. I'll align filters with Reset and fix the tablet layout.
+Reset uses a simple `click` handler; filters use `pointerup` plus a lock inside a horizontally scrollable row - likely why taps fail on real iPads. I'll align filters with Reset and fix the tablet layout.
 
 
 _**Agent (default)**_
@@ -11435,18 +11435,18 @@ The root cause was the filter row on tablet, not the filter logic itself.
 **Why Reset worked but filters didn't**
 - Reset uses a plain `click` handler and sits outside the filter row
 - Filters used a `pointerup` + `click` lock inside a horizontally scrollable row (`overflow-x: auto` + `nowrap` at 768–1023px)
-- On real iPad Safari, that combo often swallows taps — the touch is treated as a scroll attempt, so neither `pointerup` nor `click` fires
+- On real iPad Safari, that combo often swallows taps - the touch is treated as a scroll attempt, so neither `pointerup` nor `click` fires
 
 **Fixes applied**
 
-1. **`assets/js/notes-graph.js`** — Match Reset’s pattern: simple `click` handler, plus `touchend` with `preventDefault()` as an iOS fallback (with debounce to avoid double-firing)
+1. **`assets/js/notes-graph.js`** - Match Reset’s pattern: simple `click` handler, plus `touchend` with `preventDefault()` as an iOS fallback (with debounce to avoid double-firing)
 
 2. **`assets/css/custom.css`**
    - Removed the horizontal scroll container on tablet (filters wrap instead)
    - Extended sticky toolbar + touch targets to 1280px (covers iPad landscape at 1024px)
    - Added `touch-action: manipulation` and `z-index` on filter chips so they stay tappable above the graph
 
-After a refresh on your tablet, tapping **High · 15** or **Low · 31** should highlight the chip and refilter the graph. **No body links · 0** and **Orphans · 0** will show an empty graph — that’s expected with zero matches.
+After a refresh on your tablet, tapping **High · 15** or **Low · 31** should highlight the chip and refilter the graph. **No body links · 0** and **Orphans · 0** will show an empty graph - that’s expected with zero matches.
 
 ---
 
@@ -12016,7 +12016,7 @@ The partial also generates stylesheet links with integrity attributes. Fingerpri
 
 _**Agent (default)**_
 
-Page-specific JS like `notes-graph.js` isn’t fingerprinted but gets a 1-year immutable cache — that’s likely why tablet fixes didn’t show. I’ll add fingerprinting for all CSS/JS assets.
+Page-specific JS like `notes-graph.js` isn’t fingerprinted but gets a 1-year immutable cache - that’s likely why tablet fixes didn’t show. I’ll add fingerprinting for all CSS/JS assets.
 
 
 _**Agent (default)**_
@@ -12483,7 +12483,7 @@ Inside `with resources.Get`, the context `.` resolves to the resource itself rat
 
 _**Agent (default)**_
 
-The partial was losing the params dict inside `with resources.Get` — fixing the context so fingerprinting still works.
+The partial was losing the params dict inside `with resources.Get` - fixing the context so fingerprinting still works.
 
 
 _**Agent (default)**_
@@ -12535,7 +12535,7 @@ The production build now fingerprints JavaScript files. Notes-graph.js is cached
 
 _**Agent (default)**_
 
-Yes — and most of the site already had this, but not everywhere.
+Yes - and most of the site already had this, but not everywhere.
 
 **What was already in place**
 
@@ -12559,7 +12559,7 @@ Your `static/_headers` also sets 1-year immutable caching on all `/js/*` and `/c
 
 **What was missing**
 
-Page-specific scripts (`notes-graph.js`, `wikilink-preview.js`, etc.) were loaded with plain `.RelPermalink` — always `/js/notes-graph.js`. With immutable caching, browsers could keep an old copy for up to a year after a deploy. That likely explains why graph filter fixes didn’t show on your tablet.
+Page-specific scripts (`notes-graph.js`, `wikilink-preview.js`, etc.) were loaded with plain `.RelPermalink` - always `/js/notes-graph.js`. With immutable caching, browsers could keep an old copy for up to a year after a deploy. That likely explains why graph filter fixes didn’t show on your tablet.
 
 **What I added**
 

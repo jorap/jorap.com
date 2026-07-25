@@ -4417,7 +4417,7 @@ Enough information has been gathered to compile the full audit report.
 
 The site is a Hugo static site with a custom theme forked from Hugoplate. Key dependencies include pixi.js, Tailwind, and Prettier. The largest over-engineered cuts are a 11,853-line Swiper bundle theme copy loaded site-wide, a 2,441-line monolithic CSS file, and a 1,981-line Python maintenance script.
 
-Additional large over-engineered files include a 1,070-line randomizer script duplicating graph logic, a 1,534-line Pixi.js graph module, and roughly 2,394 lines of one-off archive migrations. Hand-rolled YAML parsing in notes_content.py adds another 577 lines. Dead Hugoplate theme sections—banner, features, testimonials, home-proof, and call-to-action—total about 277 lines across partials and content. A 179-line Google Map script carries dead configuration. Duplicate Swiper copies exist between the theme and vendor directories. Placeholder author content and duplicated voice linting logic for notes-voice and garden-voice were also found.
+Additional large over-engineered files include a 1,070-line randomizer script duplicating graph logic, a 1,534-line Pixi.js graph module, and roughly 2,394 lines of one-off archive migrations. Hand-rolled YAML parsing in notes_content.py adds another 577 lines. Dead Hugoplate theme sections-banner, features, testimonials, home-proof, and call-to-action-total about 277 lines across partials and content. A 179-line Google Map script carries dead configuration. Duplicate Swiper copies exist between the theme and vendor directories. Placeholder author content and duplicated voice linting logic for notes-voice and garden-voice were also found.
 
 More over-engineered patterns surfaced. A thin `previewProd.mjs` wrapper and a `parse_scalar` delegator add unnecessary indirection. The theme’s `baseof.html` is dead because `layouts/baseof.html` overrides it. A `tina` folder and an `okf-viz` dev tool appear to be unused experimental bloat. `go.mod` lists 25 Hugo modules, yet several such as adsense, font-awesome, and mermaid likely never render live content. A `language-switcher` exists for a single language. `tailwind-bootstrap-grid` wraps native Tailwind classes for rows and columns. `search-core` reimplements slugify. `gallery-slider` duplicates `IntersectionObserver` with a custom viewport check.
 
@@ -4809,7 +4809,7 @@ Preparing a structured audit covering all seven requested sections. Findings wil
 
 _**Agent (composer-2.5-fast)**_
 
-# Ponytail audit — jorap.com
+# Ponytail audit - jorap.com
 
 Over-engineering only. Ranked by estimated cut size (lines / bundle weight).
 
@@ -4849,7 +4849,7 @@ Over-engineering only. Ranked by estimated cut size (lines / bundle weight).
 |---------|------|-------|
 | **stdlib:** Hand-rolled YAML parse/dump instead of `pyyaml` | `scripts/notes_content.py` | **577** |
 | **stdlib:** `parse_scalar()` is a one-line delegate to `_parse_scalar()` | `scripts/notes_content.py:65-76` | 3 |
-| **stdlib:** `slugify()`, `capitalizeFirstLetter()` — `encodeURIComponent` + string ops | `assets/js/search-core.js:11-20` | 10 |
+| **stdlib:** `slugify()`, `capitalizeFirstLetter()` - `encodeURIComponent` + string ops | `assets/js/search-core.js:11-20` | 10 |
 | **stdlib:** `escapeHtml()` duplicated in multiple JS files | `assets/js/notes-random.js:9-15`, `assets/js/search.js:49+` | ~20 each |
 | **stdlib:** `debounce()` in watch script | `scripts/noteFileDates.js:37-43` | 7 |
 | **native:** `elementIsVisibleInViewport()` manual bounding-box check | `assets/js/gallery-slider.js:12-21` | 10 → `IntersectionObserver` |
@@ -4864,14 +4864,14 @@ Over-engineering only. Ranked by estimated cut size (lines / bundle weight).
 
 | Tag | What | Path |
 |-----|------|------|
-| **yagni** | `previewProd.mjs` — 10-line `deployBuild` then `servePublic` | `scripts/previewProd.mjs` |
-| **yagni** | `spawnUtil.runNodeScript()` / `runNpx()` — thin `spawnSync` wrappers | `scripts/spawnUtil.mjs:56-67` |
-| **yagni** | `blog_frontmatter.py` — blog-specific frontmatter on top of `notes_content` | 146 lines; 2 callers |
-| **yagni** | `okf_bundle.py` — OKF export helpers | 140 lines; 2 callers |
+| **yagni** | `previewProd.mjs` - 10-line `deployBuild` then `servePublic` | `scripts/previewProd.mjs` |
+| **yagni** | `spawnUtil.runNodeScript()` / `runNpx()` - thin `spawnSync` wrappers | `scripts/spawnUtil.mjs:56-67` |
+| **yagni** | `blog_frontmatter.py` - blog-specific frontmatter on top of `notes_content` | 146 lines; 2 callers |
+| **yagni** | `okf_bundle.py` - OKF export helpers | 140 lines; 2 callers |
 | **yagni** | Dual TOC implementations (blog uses Hugo `.TableOfContents`; notes re-parses markdown headings) | `layouts/_partials/blog/toc.html` (35) vs `layouts/_partials/notes/toc.html` (90) |
 | **yagni** | Dual voice lint stacks (site-wide vs garden-specific) | `scripts/notes-voice-lint.py` (277) + `scripts/garden-voice-lint.py` (198) + `scripts/notes-voice-sanitize.py` (58) |
-| **yagni** | `themes/jorap/assets/css/custom.css` — 2-line redirect stub; real CSS lives in `assets/css/custom.css` | theme stub vs **2,441-line** monolith |
-| **yagni** | `layouts/baseof.html` overrides `themes/jorap/layouts/baseof.html` — theme copy is dead for production | both exist |
+| **yagni** | `themes/jorap/assets/css/custom.css` - 2-line redirect stub; real CSS lives in `assets/css/custom.css` | theme stub vs **2,441-line** monolith |
+| **yagni** | `layouts/baseof.html` overrides `themes/jorap/layouts/baseof.html` - theme copy is dead for production | both exist |
 | **yagni** | `layouts/_partials/essentials/header.html` duplicates theme header with drift | layouts vs `themes/jorap/layouts/_partials/essentials/header.html` |
 
 ---
@@ -4888,9 +4888,9 @@ Over-engineering only. Ranked by estimated cut size (lines / bundle weight).
 | **delete** | Language switcher with single language | `disableLanguages = []`, one entry in `config/_default/languages.toml`; `language-switcher.html` (34) in both headers |
 | **delete** | GA placeholder never fires | `hugo.toml:37` `G-MEASUREMENT_ID`; guarded in `layouts/_partials/essentials/style.html` |
 | **delete** | Preloader / announcement / cookies / subscription all `enable = false` but partials still wired | `config/_default/params.toml`; `layouts/baseof.html:27-39` |
-| **delete** | `scripts/archive/` — completed one-shot migrations | **~2,394 lines**, 12 `.py` files + README |
-| **delete** | `scripts/garden-voice-migrate-data.py` — stub comment file | **1 line** |
-| **delete** | `tina/` — empty TinaCMS experiment | 16 KB dir, 0 tracked files |
+| **delete** | `scripts/archive/` - completed one-shot migrations | **~2,394 lines**, 12 `.py` files + README |
+| **delete** | `scripts/garden-voice-migrate-data.py` - stub comment file | **1 line** |
+| **delete** | `tina/` - empty TinaCMS experiment | 16 KB dir, 0 tracked files |
 | **delete** | Hugo modules imported but unused in live content | `config/_default/module.toml`: **adsense**, **icons/font-awesome** (site uses inline SVG per `hugo.toml:206-209`), accordion/modal/tab/notice/mermaid only in draft `__blog-template.md` |
 | **delete** | `build` and `deploy` npm scripts are identical | `package.json:13-14` |
 
@@ -4902,21 +4902,21 @@ Over-engineering only. Ranked by estimated cut size (lines / bundle weight).
 |-----|-----|---------------|-------|
 | **native** | `pixi.js` | Canvas 2D / SVG for notes graph | Only `assets/js/notes-graph.js` (1,534 lines). Big rewrite; cut only if graph feature goes |
 | **native** | `tailwind-bootstrap-grid` | Tailwind grid (`grid grid-cols-*`) | `.row`/`.lg:col-*` used in ~10 layouts; grid is already mixed in |
-| **keep** | `concurrently` | — | Dev-only; 3-process watch is real |
-| **keep** | `@tailwindcss/*`, Prettier plugins | — | Build/format tooling |
+| **keep** | `concurrently` | - | Dev-only; 3-process watch is real |
+| **keep** | `@tailwindcss/*`, Prettier plugins | - | Build/format tooling |
 | **delete** | Vendored Swiper in theme | CSS scroll-snap or load from CDN on pages that need it | **12,520 lines** in theme; duplicate also in `_vendor/.../gallery-slider/` |
 
 ---
 
 ## 6. Files with only one export / one caller
 
-### Notes partials — **19 partials, ~601 lines**, each called from exactly one layout/partial:
+### Notes partials - **19 partials, ~601 lines**, each called from exactly one layout/partial:
 
 `backlinks.html`, `build-hub-cluster.html`, `build-issues-report.html`, `copy-markdown.html`, `dev-banner.html`, `featured-random-note.html`, `graph-data-local.html`, `index-has-body-wikilinks.html`, `local-graph.html`, `note-flashcards.html`, `note-issues-panel.html`, `note-meta.html`, `note-shareable-thought.html` (20), `random-note.html`, `recent-new.html`, `search-index-fields.html`, `see-also.html`, `sort-by-connections.html`, `notes/toc.html`
 
 **yagni:** Inline into callers unless you expect a second consumer.
 
-### Scripts — single-purpose / maintainer-only:
+### Scripts - single-purpose / maintainer-only:
 
 | File | Lines | Role |
 |------|-------|------|
@@ -4928,7 +4928,7 @@ Over-engineering only. Ranked by estimated cut size (lines / bundle weight).
 | `scripts/import-from-obsidian.py` | 177 | Import path, not deploy |
 | `scripts/export-anki-deck.py` | 241 | Export only |
 
-### JS — page-scoped (correct scope, but large):
+### JS - page-scoped (correct scope, but large):
 
 | File | Lines | Loaded on |
 |------|-------|-----------|
@@ -4986,12 +4986,12 @@ Biggest first:
 
 ## What to keep (not over-engineering)
 
-- `scripts/deployBuild.mjs` + `cspHashes.mjs` — real CSP constraint (Cloudflare 2 KB header limit)
-- `scripts/spawnUtil.mjs` — cross-platform deploy glue
-- `scripts/themeGenerator.js` (193) + `noteFileDates.js` (52) — required pre-Hugo steps
-- `assets/js/search-core.js` (83) — shared between UI and `test-search.mjs`
-- `functions/api/*` + `admin/_middleware.js` — minimal CMS OAuth (56 lines total)
-- Notes partial graph (`link-registry`, `assembled-content`, `resolve-target`) — multi-caller core, not YAGNI
+- `scripts/deployBuild.mjs` + `cspHashes.mjs` - real CSP constraint (Cloudflare 2 KB header limit)
+- `scripts/spawnUtil.mjs` - cross-platform deploy glue
+- `scripts/themeGenerator.js` (193) + `noteFileDates.js` (52) - required pre-Hugo steps
+- `assets/js/search-core.js` (83) - shared between UI and `test-search.mjs`
+- `functions/api/*` + `admin/_middleware.js` - minimal CMS OAuth (56 lines total)
+- Notes partial graph (`link-registry`, `assembled-content`, `resolve-target`) - multi-caller core, not YAGNI
 
 ---
 

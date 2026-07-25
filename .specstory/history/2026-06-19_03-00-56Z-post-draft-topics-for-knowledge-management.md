@@ -998,7 +998,7 @@ Parameters:
   "caseInsensitive": false,
   "glob": "__active*.md",
   "path": "/Users/jonathanrapusas/Documents/GitHub/jorap.com/content/english/blog",
-  "pattern": "—"
+  "pattern": "-"
 }
 ```
 Additional data:
@@ -1008,7 +1008,7 @@ Additional data:
   "isPruned": true,
   "outputMode": "content",
   "path": "/Users/jonathanrapusas/Documents/GitHub/jorap.com/content/english/blog",
-  "pattern": "—",
+  "pattern": "-",
   "topFiles": [],
   "totalFiles": 0,
   "totalMatches": 0
@@ -1039,7 +1039,7 @@ Parameters:
   "caseInsensitive": false,
   "glob": "__zettelkasten.md",
   "path": "/Users/jonathanrapusas/Documents/GitHub/jorap.com/content/english/blog",
-  "pattern": "—"
+  "pattern": "-"
 }
 ```
 Additional data:
@@ -1049,7 +1049,7 @@ Additional data:
   "isPruned": true,
   "outputMode": "content",
   "path": "/Users/jonathanrapusas/Documents/GitHub/jorap.com/content/english/blog",
-  "pattern": "—",
+  "pattern": "-",
   "topFiles": [],
   "totalFiles": 0,
   "totalMatches": 0
@@ -1080,7 +1080,7 @@ Parameters:
   "caseInsensitive": false,
   "glob": "__hugo*.md",
   "path": "/Users/jonathanrapusas/Documents/GitHub/jorap.com/content/english/blog",
-  "pattern": "—"
+  "pattern": "-"
 }
 ```
 Additional data:
@@ -1090,7 +1090,7 @@ Additional data:
   "isPruned": true,
   "outputMode": "content",
   "path": "/Users/jonathanrapusas/Documents/GitHub/jorap.com/content/english/blog",
-  "pattern": "—",
+  "pattern": "-",
   "topFiles": [],
   "totalFiles": 0,
   "totalMatches": 0

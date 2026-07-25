@@ -7,7 +7,7 @@
 {{- $cards := slice -}}
 {{- $body := partial "notes/note-raw-body.html" $page | strings.TrimSpace -}}
 {{- $shortcodePattern := `\{\{[%<]\s*card\s+front="([^"]+)"\s+back="([^"]+)"\s*>\}\}` -}}
-{{- $leadPattern := `^\*\*([^*]+)\*\*\s*(?:=\s*|—\s*|-\s*)(.+)$` -}}
+{{- $leadPattern := `^\*\*([^*]+)\*\*\s*(?:=\s*|-\s*|-\s*)(.+)$` -}}
 {{- $lines := split $body "\n" -}}
 {{- $firstLine := "" -}}
 {{- if gt (len $lines) 0 -}}

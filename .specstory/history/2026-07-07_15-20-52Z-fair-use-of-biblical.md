@@ -200,10 +200,10 @@ I’m not a lawyer; this is practical copyright context, not legal advice.
 
 Fair use (17 U.S.C. § 107) is a **case-by-case** four-factor test, not a checklist you can satisfy by subsetting:
 
-1. **Purpose** — Commentary, teaching, nonprofit personal site helps you. A reusable quote database looks less like commentary and more like republication.
-2. **Nature of the work** — NASB is a published, copyrighted translation. The English is Lockman’s wording, not public-domain text.
-3. **Amount and substantiality** — “Jesus’s words” is still a **large** slice of the Gospels (often cited around **700+ verses**). That can include the heart of Matthew (Sermon on the Mount), John, parables, etc. Smaller than the whole Bible, but still substantial.
-4. **Market harm** — A searchable NASB database of Jesus quotes can substitute for buying NASB, Bible apps, or licensing. That factor cuts against fair use.
+1. **Purpose** - Commentary, teaching, nonprofit personal site helps you. A reusable quote database looks less like commentary and more like republication.
+2. **Nature of the work** - NASB is a published, copyrighted translation. The English is Lockman’s wording, not public-domain text.
+3. **Amount and substantiality** - “Jesus’s words” is still a **large** slice of the Gospels (often cited around **700+ verses**). That can include the heart of Matthew (Sermon on the Mount), John, parables, etc. Smaller than the whole Bible, but still substantial.
+4. **Market harm** - A searchable NASB database of Jesus quotes can substitute for buying NASB, Bible apps, or licensing. That factor cuts against fair use.
 
 So subsetting helps on factor 3, but it does **not** guarantee compliance. Courts don’t treat “red-letter only” as a safe harbor.
 
@@ -230,7 +230,7 @@ A `scripture-nasb1995.yaml`-style corpus of all Jesus’s words is much closer t
 
 ## What this means for your site
 
-Your current pattern — selective verses embedded in notes, with `(… NASB1995)` attribution — fits Lockman’s model much better than a full Jesus-words database.
+Your current pattern - selective verses embedded in notes, with `(… NASB1995)` attribution - fits Lockman’s model much better than a full Jesus-words database.
 
 You’re at **~88 entries** now, well under 1,000. The risk rises if you:
 
@@ -241,10 +241,10 @@ You’re at **~88 entries** now, well under 1,000. The risk rises if you:
 
 ## Safer paths
 
-1. **Stay within Lockman’s policy** — selective quotes, attribution, site-wide copyright notice, stay under 1,000 stored verses.
-2. **Ask Lockman** — [Permission to Quote form](https://www.lockman.org/permission-to-quote-request-form/) if you want a full Jesus-words corpus.
+1. **Stay within Lockman’s policy** - selective quotes, attribution, site-wide copyright notice, stay under 1,000 stored verses.
+2. **Ask Lockman** - [Permission to Quote form](https://www.lockman.org/permission-to-quote-request-form/) if you want a full Jesus-words corpus.
 3. **Use a public-domain translation** for a reusable database (KJV, WEB, etc.) and keep NASB only for short attributed quotes.
-4. **Don’t rely on fair use alone** for a structured NASB database — it’s the weakest leg to stand on.
+4. **Don’t rely on fair use alone** for a structured NASB database - it’s the weakest leg to stand on.
 
 **Bottom line:** “Only what Jesus said” reduces volume but doesn’t make fair use automatic. For a dedicated NASB database, Lockman’s terms (or a license) are the realistic path; fair use is at best uncertain and at worst a bad bet for bulk storage.
 
@@ -266,7 +266,7 @@ I'll search the codebase for red-letter data and authoritative counts. I may als
 
 _**Agent (auto-low)**_
 
-Counting how many verses are attributed to Jesus — I'll check your repo and public red-letter verse lists.
+Counting how many verses are attributed to Jesus - I'll check your repo and public red-letter verse lists.
 
 
 _**Agent (auto-low)**_
@@ -591,7 +591,7 @@ Even the narrowest count of full verses across the gospels reaches 1439. That ex
 
 _**Agent (auto-low)**_
 
-**No — it’s over 1,000**, no matter how you slice it reasonably.
+**No - it’s over 1,000**, no matter how you slice it reasonably.
 
 I counted against a public red-letter verse list ([kjvstudy.org’s `red_letter_verses.json`](https://github.com/kennethreitz/kjvstudy.org/blob/main/kjvstudy_org/data/red_letter_verses.json), 2,007 verse references). Verse *numbers* are the same across translations; only the English wording differs, so this is a solid proxy for NASB 1995.
 
@@ -632,7 +632,7 @@ Another common breakdown (Matthew 433, Mark 216, Luke 281, John 233) totals **~1
 
 A full “all words of Jesus” NASB database would land around **1,400–1,900+ verses** depending on whether you include partial verses and Acts/Revelation. Either way, it **exceeds Lockman’s 1,000-verse limit** for storage in an electronic retrieval system without written permission.
 
-Your current `scripture-nasb1995.yaml` has **88 entries** — curated quotes for your notes, not a full Jesus corpus — so you’re well under the cap today.
+Your current `scripture-nasb1995.yaml` has **88 entries** - curated quotes for your notes, not a full Jesus corpus - so you’re well under the cap today.
 
 ---
 
@@ -707,7 +707,7 @@ Result:
   "isFinal": true,
   "references": [
     {
-      "chunk": "Links:\n1. [biblenerd/awesome-bible-developer-resources](https://github.com/biblenerd/awesome-bible-developer-resources)\n2. [Bible APIs and Digital Scripture Data Sets for App Integration - Get.Bible](https://get.bible/bible-data-sets/)\n3. [World English Bible](https://ebible.org/find/show.php?id=engwebp)\n4. [Would like sample USFM format Paratext file - Scripture App Builder - SIL Scripture Software Community](https://community.scripture.software.sil.org/t/would-like-sample-usfm-format-paratext-file/370)\n5. [midvash/bible-data](https://github.com/midvash/bible-data)\n\nSynthesis:\nThe World English Bible (WEB) is a modern English translation of the Bible that is in the public domain and freely distributed [1][2][3]. The primary source for the official USFM files is eBible.org, which maintains the master copy and provides the files at https://ebible.org/Scriptures/eng-web_usfm.zip [3][4]. Several GitHub repositories aggregate these and other public domain translations in various formats [5][6][7][1]. You can find the raw USFM data at https://github.com/openenglishbible/usfm-bibles [8] or machine-readable JSON/SQL datasets at https://github.com/ringletech/webu-open-bible [6].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003ebiblenerd/awesome-bible-developer-resources\u003c/title\u003e\n\u003curl\u003ehttps://github.com/biblenerd/awesome-bible-developer-resources\u003c/url\u003e\n\u003ccontent\u003e### USFM\n...\n- [USFM GitHub Repository](https://github.com/ubsicap/usfm) — Main USFM GitHub repo.\n- [USFM Documentation](http://ubsicap.github.io/usfm/) — USFM docs.\n...\n- [USFM\n...\n](https://github.\n...\nenglishbible/USFM-\n...\n: MIT](https://\n...\n.shields.io/badge/License-MIT-yellow.svg)](https://\n...\n/MIT) — Python tools for parsing and rendering USFM files.\n...\n0/80x15.png)](https://creativecommons.\n...\n.io/badge/Public-Domain-\n...\n(including [US\n...\nfx), [\n...\n- [Open E
+      "chunk": "Links:\n1. [biblenerd/awesome-bible-developer-resources](https://github.com/biblenerd/awesome-bible-developer-resources)\n2. [Bible APIs and Digital Scripture Data Sets for App Integration - Get.Bible](https://get.bible/bible-data-sets/)\n3. [World English Bible](https://ebible.org/find/show.php?id=engwebp)\n4. [Would like sample USFM format Paratext file - Scripture App Builder - SIL Scripture Software Community](https://community.scripture.software.sil.org/t/would-like-sample-usfm-format-paratext-file/370)\n5. [midvash/bible-data](https://github.com/midvash/bible-data)\n\nSynthesis:\nThe World English Bible (WEB) is a modern English translation of the Bible that is in the public domain and freely distributed [1][2][3]. The primary source for the official USFM files is eBible.org, which maintains the master copy and provides the files at https://ebible.org/Scriptures/eng-web_usfm.zip [3][4]. Several GitHub repositories aggregate these and other public domain translations in various formats [5][6][7][1]. You can find the raw USFM data at https://github.com/openenglishbible/usfm-bibles [8] or machine-readable JSON/SQL datasets at https://github.com/ringletech/webu-open-bible [6].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003ebiblenerd/awesome-bible-developer-resources\u003c/title\u003e\n\u003curl\u003ehttps://github.com/biblenerd/awesome-bible-developer-resources\u003c/url\u003e\n\u003ccontent\u003e### USFM\n...\n- [USFM GitHub Repository](https://github.com/ubsicap/usfm) - Main USFM GitHub repo.\n- [USFM Documentation](http://ubsicap.github.io/usfm/) - USFM docs.\n...\n- [USFM\n...\n](https://github.\n...\nenglishbible/USFM-\n...\n: MIT](https://\n...\n.shields.io/badge/License-MIT-yellow.svg)](https://\n...\n/MIT) - Python tools for parsing and rendering USFM files.\n...\n0/80x15.png)](https://creativecommons.\n...\n.io/badge/Public-Domain-\n...\n(including [US\n...\nfx), [\n...\n- [Open E
 … (output truncated)
 ```
 User decision: **accepted**
@@ -820,7 +820,7 @@ I have enough context to suggest open-source digital bibles compatible with your
 
 _**Agent (auto-low)**_
 
-For your use case — a **full digital corpus** (YAML, lookup, red-letter, no verse cap) — you want **public domain** or **explicit open redistribution**, not “free to read online.”
+For your use case - a **full digital corpus** (YAML, lookup, red-letter, no verse cap) - you want **public domain** or **explicit open redistribution**, not “free to read online.”
 
 **Not legal advice.** Always read each translation’s license page before you ship.
 
@@ -856,12 +856,12 @@ Good if you want zero license friction and don’t mind older English.
 
 ## Where to download machine-readable text
 
-- **[ebible.org](https://ebible.org/find/)** — WEB, BSB, LSV, KJV, ASV in USFM, plain text, JSON-adjacent formats
-- **[BSB-publishing/bsb2usfm](https://github.com/BSB-publishing/bsb2usfm)** — BSB/MSB releases
-- **[seven1m/open-bibles](https://github.com/seven1m/open-bibles)** — KJV, WEB, OEB in XML
-- **[midvash/bible-data](https://github.com/midvash/bible-data)** — JSON + SQLite, PD versions only
-- **[open.bible](https://open.bible)** — Biblica-hosted open texts in USFM/USX
-- **[CrossWire SWORD modules](https://www.crosswire.org/sword/modules/ModDisp.jsp?modType=Texts)** — bulk import for many PD translations
+- **[ebible.org](https://ebible.org/find/)** - WEB, BSB, LSV, KJV, ASV in USFM, plain text, JSON-adjacent formats
+- **[BSB-publishing/bsb2usfm](https://github.com/BSB-publishing/bsb2usfm)** - BSB/MSB releases
+- **[seven1m/open-bibles](https://github.com/seven1m/open-bibles)** - KJV, WEB, OEB in XML
+- **[midvash/bible-data](https://github.com/midvash/bible-data)** - JSON + SQLite, PD versions only
+- **[open.bible](https://open.bible)** - Biblica-hosted open texts in USFM/USX
+- **[CrossWire SWORD modules](https://www.crosswire.org/sword/modules/ModDisp.jsp?modType=Texts)** - bulk import for many PD translations
 
 ## Not open for what you want
 
@@ -873,7 +873,7 @@ These are fine to **quote briefly** with permission/attribution, but **not** for
 
 Given your `scripture-nasb1995.yaml` pattern and Jesus-words corpus idea:
 
-1. **`scripture-web.yaml` or `scripture-bsb.yaml`** — full gospel corpus, no 1,000-verse cap
+1. **`scripture-web.yaml` or `scripture-bsb.yaml`** - full gospel corpus, no 1,000-verse cap
 2. Keep **short NASB quotes** only where Lockman’s policy covers you (you’re at ~88 verses today)
 3. Or switch spine quotes entirely to **BSB/WEB** and drop the NASB storage worry
 

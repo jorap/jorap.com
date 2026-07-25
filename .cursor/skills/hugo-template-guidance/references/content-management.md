@@ -4,7 +4,7 @@ Markdown under the language content dir, rendered via Hugo's content/layout pair
 
 ## Architecture
 
-Multilingual — each language sets `contentDir` in `config/_default/languages.toml` (English → `content/english/`). **List the dir before assuming the language** (e.g. `content/english/blog/post.md` → English, not `content/blog/post.md`).
+Multilingual - each language sets `contentDir` in `config/_default/languages.toml` (English → `content/english/`). **List the dir before assuming the language** (e.g. `content/english/blog/post.md` → English, not `content/blog/post.md`).
 Common examples often found here include:
 
 - **Blog Posts**: `blog/` (posts + `_index.md`).
@@ -41,11 +41,11 @@ Hugo reads what templates expect. **Blog posts:** use the field order in `archet
 
 - Kebab-case filenames → URL slug (`my-post.md` → `/blog/my-post/`). Section landing = `_index.md` (branch bundle); co-located resources = `page/index.md` (leaf bundle).
 - **Draft posts** (this site): prefix the filename with `__` (e.g. `__my-post.md`) and set `draft: true`. Set `slug: "my-post"` in frontmatter (same order as `archetypes/blog.md`). To publish, rename without the prefix and set `draft: false`.
-- Images go under `assets/images/` and use image module `{{ partial "image" (dict "Src" .image "Alt" "..." "Loading" "eager" "Class" "..." "DisplayXL" "800x") }}` — don't hand-write `<img>`.
+- Images go under `assets/images/` and use image module `{{ partial "image" (dict "Src" .image "Alt" "..." "Loading" "eager" "Class" "..." "DisplayXL" "800x") }}` - don't hand-write `<img>`.
 
 ## Common Mistakes / What NOT to do
 
 - **DO NOT** Reference an `author` with no file in `authors/`.
 - **DO NOT** Drop `build.render: "never"` from section files (creates stray pages).
-- **DO NOT** Use relative image paths — use `/images/...` under `assets/images/`.
+- **DO NOT** Use relative image paths - use `/images/...` under `assets/images/`.
 - **DO NOT** Put content outside the language `contentDir`.

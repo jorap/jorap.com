@@ -61,7 +61,7 @@ cards:
     back: "Pray in secret - real audience is Father."
   - front: "Fasting but making sure people notice I am suffering. What's the move?"
     back: "Fast in secret - wash face, live normal."
-  - front: "Every piety act becoming content for applause. Which lane?"
+  - front: "Every piety act becoming content for applause - feed before Father."
     back: "Hidden devotion - not content for applause."
   - front: "Tempted to skip secret prayer because no one saw. Who saw?"
     back: "Father sees hidden - that's enough."

@@ -46,6 +46,14 @@ cards:
     back: "One more check of the name line saved the field trip"
   - front: "I use the same pause before I sign anything that can't be undone"
     back: "The boring second look beats the big mistake"
+  - front: "Rushing the permission slip sign - name line half-read."
+    back: "Stop - read the name line out loud."
+  - front: "Both forms look identical - gut says they're the same kid."
+    back: "Match the student ID - not the vibe."
+  - front: "Stack of papers on the counter - what gets the slow read first?"
+    back: "Anything that ships or signs - check twice."
+  - front: "Friend says I'm overchecking - it's just a receipt."
+    back: "Thirty seconds now - or a week fixing it."
 draft: false
 ---
 

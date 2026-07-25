@@ -54,6 +54,14 @@ cards:
     back: "Ask what happens after they adapt."
   - front: "Full-court press worked first quarter. Halftime they're adjusted. What's the second move?"
     back: "Built a backup look before tip-off."
+  - front: "Same reward deal every month - kid games it now."
+    back: "Ask what happens when they adapt."
+  - front: "Press worked - tempted to run it till it breaks."
+    back: "Switch before they solve it."
+  - front: "They negotiated harder chores - I keep sweetening the pot."
+    back: "Hold the deal - change the countermove."
+  - front: "Halftime and they solved our look - blank clipboard."
+    back: "Run the backup - built before tip."
 draft: false
 ---
 

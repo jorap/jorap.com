@@ -940,7 +940,7 @@ Done. Here's what changed:
 
 **Random pick**
 - Shows **3 notes** per visit in a 3-column grid
-- Each card is title + description blurb only — no full note body fetch
+- Each card is title + description blurb only - no full note body fetch
 - Descriptions come from the server-side pool (same `note-blurb` logic as the catalog)
 
 **New notes & Recent updates**
@@ -1842,7 +1842,7 @@ Done.
 
 **Removed** the Recent updates block from the notes index.
 
-**New notes** now uses the same card pattern as random pick and the catalog — title plus description blurb (`note-blurb`), in a 3-column grid.
+**New notes** now uses the same card pattern as random pick and the catalog - title plus description blurb (`note-blurb`), in a 3-column grid.
 
 Refresh `/notes/` to see it.
 
@@ -1997,7 +1997,7 @@ The missing `blurb-clean.html` file prevents using a recursive partial. The plan
 
 _**Agent (auto-low)**_
 
-Fixing `note-blurb.html` — Hugo doesn't support inline `define` the way I used it. Using a simpler approach:
+Fixing `note-blurb.html` - Hugo doesn't support inline `define` the way I used it. Using a simpler approach:
 
 
 _**Agent (auto-low)**_
@@ -2273,7 +2273,7 @@ All card blocks now pull from frontmatter **description** only, not `key_concept
 - Added a `DescriptionOnly` mode to `note-blurb.html`
 - Turned it on for: random pick, new notes, the full catalog grid, related notes, and any list using `note-link-card` (see-also, outgoing links, backlinks)
 
-Search on the notes index still indexes `key_concept` blurbs so you can find notes by concept text — only what shows on cards switched to description.
+Search on the notes index still indexes `key_concept` blurbs so you can find notes by concept text - only what shows on cards switched to description.
 
 Refresh `/notes/` to see it. Cards with no description will show title only.
 
@@ -2371,8 +2371,8 @@ _**Agent (auto-low)**_
 
 Removed both truncation layers:
 
-1. **Template** — `DescriptionOnly` blurbs no longer cut at 120 characters.
-2. **CSS** — `.notes-card__body` no longer uses a 3-line clamp; the full description renders.
+1. **Template** - `DescriptionOnly` blurbs no longer cut at 120 characters.
+2. **CSS** - `.notes-card__body` no longer uses a 3-line clamp; the full description renders.
 
 Refresh `/notes/` to see it. Cards in the same row may vary in height now that descriptions run full length.
 
@@ -4454,9 +4454,9 @@ _**Agent (auto-low)**_
 Review complete across **217 garden notes**. Summary:
 
 ### Description rules (jorap-voice)
-- **One breath** — single-sentence hooks, none over 200 chars
+- **One breath** - single-sentence hooks, none over 200 chars
 - **First person** where it fits this personal garden
-- **Plain words** — `pnpm lint:voice` passes
+- **Plain words** - `pnpm lint:voice` passes
 - **No duplicate** of `key_concept` line 1
 - **No Bible refs in `description`**
 
@@ -4473,9 +4473,9 @@ Review complete across **217 garden notes**. Summary:
 | Gentleness | "Gentleness fruit is strength held back on purpose..." | `(Galatians 5:22)` |
 
 ### Tooling added
-- `scripts/migrate-description-verses.py` — moves refs from description → key_concept
-- `scripts/fold-key-concept-refs.py` / `scripts/tidy-key-concept-refs.py` — cleans ref formatting
-- `scripts/reformat-note-frontmatter.py` — safe YAML rewrite via `notes_content.dump_frontmatter`
+- `scripts/migrate-description-verses.py` - moves refs from description → key_concept
+- `scripts/fold-key-concept-refs.py` / `scripts/tidy-key-concept-refs.py` - cleans ref formatting
+- `scripts/reformat-note-frontmatter.py` - safe YAML rewrite via `notes_content.dump_frontmatter`
 
 Hugo build passes. Card blocks will show the new descriptions on refresh.
 
@@ -4833,9 +4833,9 @@ _**Agent (auto-low)**_
 
 Both unlinked mentions are fixed:
 
-**Reliability** — `description` now links `[[Complete the Cycle]]` instead of the alias phrase "close the loop".
+**Reliability** - `description` now links `[[Complete the Cycle]]` instead of the alias phrase "close the loop".
 
-**Digital Garden** — relationship reason now links `[[Selling Static Sites]]` instead of "client static sites".
+**Digital Garden** - relationship reason now links `[[Selling Static Sites]]` instead of "client static sites".
 
 Hugo build reports zero link warnings. Refresh `/notes/issues/` to confirm a clean summary.
 
@@ -5006,7 +5006,7 @@ md:col-6 lg:col-4
 
 _**Agent (auto-low)**_
 
-The flashcards catalog at `/notes/flashcards/` now uses **3 columns** at `lg` (`lg:col-4`), with 2 columns at `md` and 1 on mobile — same pattern as the notes index cards.
+The flashcards catalog at `/notes/flashcards/` now uses **3 columns** at `lg` (`lg:col-4`), with 2 columns at `md` and 1 on mobile - same pattern as the notes index cards.
 
 Refresh the page to see it.
 

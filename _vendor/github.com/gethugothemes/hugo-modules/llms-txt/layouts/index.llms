@@ -1,5 +1,5 @@
 {{- /*
-  llms.txt — Hugo Module by GetHugoThemes
+  llms.txt - Hugo Module by GetHugoThemes
   https://github.com/gethugothemes/hugo-modules/llms-txt
 
   Generates /llms.txt following the llmstxt.org specification.
@@ -81,7 +81,7 @@
 {{- end }}
 {{- end }}
 
-{{- /* Content sections: Blog, Docs, etc. — top-level only, all nested pages included */ -}}
+{{- /* Content sections: Blog, Docs, etc. - top-level only, all nested pages included */ -}}
 {{- range site.Home.Sections }}
 {{- if .RegularPagesRecursive }}
 {{- $section := . }}

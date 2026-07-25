@@ -48,6 +48,14 @@ cards:
     back: "What happens after the first rush?"
   - front: "Kid's well after a sick week of unlimited screens - and bedtime's a war zone again. What did I miss?"
     back: "Ask what happens after the win."
+  - front: "Free pizza worked once - running it every home game."
+    back: "Ask what happens after the rush."
+  - front: "Sick-week screens solved bedtime - unlimited again tonight."
+    back: "Name the second-order war - hold the line."
+  - front: "Packed lot last time - must be pure upside."
+    back: "Refs quit early - count the cleanup cost."
+  - front: "Quick win now - nobody modeled the hangover."
+    back: "Write the after-scenario - then decide."
 draft: false
 ---
 

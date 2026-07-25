@@ -71,6 +71,10 @@ cards:
     back: "Read the signal - reprioritize, don't defend the slide."
   - front: "Tempted to rebuild the whole capture system on guilt. Smarter loop?"
     back: "Log fourteen days of actual reviews - then adjust."
+  - front: "Redesigning the whole workflow - nobody counted what actually breaks."
+    back: "Measure one metric - then change one thing."
+  - front: "Opinion war in the chat - no baseline on how long the task takes."
+    back: "Time ten reps - data before the debate."
 draft: false
 ---
 

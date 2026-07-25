@@ -50,6 +50,10 @@ cards:
     back: "One deep build this month - kill the rest."
   - front: "Busy every night but nothing shipped last quarter."
     back: "Fewer projects - depth beats breadth."
+  - front: "Four open projects and none shipped last quarter."
+    back: "Kill two - finish one deep."
+  - front: "Busy every night - blog stuck on post two since March."
+    back: "One project this month - depth wins."
 draft: false
 ---
 

@@ -48,6 +48,14 @@ cards:
     back: "Git CMS on the repo - Cloudflare rebuilds on save."
   - front: "Client insists on WordPress feel for blog posts only. Honest scope - what's still true?"
     back: "Decap on the repo - still markdown, still cheaper long term."
+  - front: "Volunteer emails me the doc again - never touched the CMS."
+    back: "One login walk-through - they save once."
+  - front: "Terminal faster - tempted to stay the only editor."
+    back: "Decap in browser - they own typos."
+  - front: "Client wants WP plugins - gut says abandon git."
+    back: "Markdown plus git CMS - scope the middle."
+  - front: "Volunteer tried the CMS once - broke the build and emailed panic."
+    back: "Revert, screen-share once - they save again."
 draft: false
 ---
 

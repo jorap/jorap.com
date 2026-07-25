@@ -52,17 +52,17 @@ featured: false
 review: true
 card_sets: ["Jesus Prayers", "Gospel", "Faith", "Prayer"]
 cards:
-  - front: "Praying for a different outcome while dread builds. Line from Gethsemane after the ask?"
-    back: "Not My will - Yours be done."
-  - front: "Hard yes still undecided after one prayer. How many times did He pray the surrender?"
-    back: "Three times - same yes."
-  - front: "Cup feels unbearable and I want escape. First honest word He used to the Father?"
-    back: "Abba, Father - then surrender."
-  - front: "Obedience costs friendships. What prayer move matches the garden?"
-    back: "Not My will - Father's will."
-  - front: "Treating surrender like weakness. What did the Son do with real dread?"
-    back: "Prayed it out - then yielded."
-  - front: "Bargaining with God for an easier path. What comes after if You are willing?"
-    back: "Yet not My will - Yours."
+  - front: "Praying for a different outcome - dread building in my chest."
+    back: "Not my will - Yours be done."
+  - front: "Hard yes still undecided after one quick prayer."
+    back: "Pray it three times - same surrender."
+  - front: "Cup feels unbearable - escape fantasy looping."
+    back: "Abba, Father - then yield the cup."
+  - front: "Obedience will cost friendships - still bargaining."
+    back: "Not my will - Father's will."
+  - front: "Treating surrender like weakness - dread feels cowardly."
+    back: "Pray it out - then yield anyway."
+  - front: "Bargaining with God for an easier path - if You are willing loaded."
+    back: "Yet not my will - Yours be done."
 draft: false
 ---

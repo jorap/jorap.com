@@ -54,5 +54,9 @@ cards:
     back: "Behavior first - identity follows reps."
   - front: "Habit too big to run on travel week. Atomic test?"
     back: "Shrink until bad days still work."
+  - front: "Three-page journal goal died on day three - one sentence after coffee?"
+    back: "Shrink the habit - two-minute version sticks."
+  - front: "Stacking five new habits on Monday - collapse by Thursday."
+    back: "One tiny habit - attach to existing cue."
 draft: false
 ---

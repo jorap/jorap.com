@@ -49,6 +49,10 @@ cards:
     back: "Move to the bed - pull when frost hits."
   - front: "School FAQ note got updated all semester and the kid's changing schools."
     back: "Archive it - capture served its season."
+  - front: "Seedling on sill three weeks - still in the starter cup."
+    back: "Move to bed when ready - archive at frost."
+  - front: "School FAQ updated all semester - kid switching schools."
+    back: "Archive it - season served."
 draft: false
 ---
 

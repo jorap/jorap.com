@@ -63,6 +63,10 @@ cards:
     back: "One kid one week - old routine on the fridge"
   - front: "New sauce for every table tonight. What stays in the warmer?"
     back: "Old batch until first table clears"
+  - front: "New play ready for Friday - never ran it in scrimmage."
+    back: "Tuesday trial - old play on the board."
+  - front: "Whole-house screen rule starting tonight - no trial week."
+    back: "One kid one week - old routine ready."
 draft: false
 ---
 

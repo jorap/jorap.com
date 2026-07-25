@@ -337,17 +337,17 @@ _**Agent (auto-high)**_
 <think><details><summary>Thought Process</summary>
  I'm reviewing the posts to understand what "humanize" means in this context. Some pieces like Facebook Favorites and Arroz Caldo already feel conversational and natural, while others like the "Top Reasons" posts come across as more formal and SEO-focused, so I need to figure out which ones need the most work to sound more human.
 
-The tracker and embed-heavy posts are mostly data with minimal personal voice, so those definitely need attention. My approach is to strip out the AI-isms—the "Let me," "Here's the thing," listicle structures with bolded headers, and that overly cheerful marketing tone—and replace them with something that sounds like JoRap actually wrote this on his personal blog. I want it to feel like a real person, maybe a bit tired, sharing thoughts naturally rather than hitting SEO checkboxes.
+The tracker and embed-heavy posts are mostly data with minimal personal voice, so those definitely need attention. My approach is to strip out the AI-isms-the "Let me," "Here's the thing," listicle structures with bolded headers, and that overly cheerful marketing tone-and replace them with something that sounds like JoRap actually wrote this on his personal blog. I want it to feel like a real person, maybe a bit tired, sharing thoughts naturally rather than hitting SEO checkboxes.
 
 I'm prioritizing the posts that sound the most artificial: the website reasons post is heavy on stats and marketing language, the desktop/laptop one is repetitive listicle structure, and the worship pads and Instant Pot posts are long and marketing-ish. I'll tackle those first, working in batches based on what style fixes they need.
 
 The Facebook, RSS, and arroz caldo posts already have decent conversational tone, and the personal ones like the Isaiah David post are naturally humanized. The tracker and resource pages are mostly data anyway, so they need minimal changes.
 
-I'm keeping JoRap's actual voice in mind—Filipino developer, worship leader, father, personal blog style—and I'll preserve the frontmatter while rewriting the content itself.</details></think>
+I'm keeping JoRap's actual voice in mind-Filipino developer, worship leader, father, personal blog style-and I'll preserve the frontmatter while rewriting the content itself.</details></think>
 
 _**Agent (auto-high)**_
 
-I've read through all the posts. They range from already-conversational to clearly AI-templated. I'll humanize them all — keeping the substance but making them sound like a real person (JoRap) wrote them: less listicle scaffolding, fewer hyperbolic claims, more natural rhythm, and stripping the "Here's the thing... game-changer... trust me" AI tics. Let me start with the ones that need the most work.
+I've read through all the posts. They range from already-conversational to clearly AI-templated. I'll humanize them all - keeping the substance but making them sound like a real person (JoRap) wrote them: less listicle scaffolding, fewer hyperbolic claims, more natural rhythm, and stripping the "Here's the thing... game-changer... trust me" AI tics. Let me start with the ones that need the most work.
 
 _**Agent (auto-high)**_
 
@@ -883,7 +883,7 @@ _**Agent (auto-high)**_
 
 _**Agent (auto-high)**_
 
-Now for the Alex Eala tracker — mostly stats but I'll humanize the intro:
+Now for the Alex Eala tracker - mostly stats but I'll humanize the intro:
 
 _**Agent (auto-high)**_
 
@@ -1100,21 +1100,21 @@ _**Agent (auto-high)**_
 All twelve posts are done. Here's what I changed and why, in case you want to skim before merging:
 
 **Heavily rewritten (most AI-templated → fully personal voice):**
-- `top-reasons-why-you-still-need-use-desktop-laptop.md` — killed the repetitive "Mobile wins at / Desktop wins at" scaffolding and made it a real opinion piece.
-- `top-reasons-create-maintain-your-own-website.md` — stripped out the SEO-heavy "53% / 2.35% / cost-comparison tables" approach and rewrote it as a personal argument with a few key stats woven in naturally.
-- `power-of-worship-pads-enhancing-your-worship-experience.md` — cut the marketing-style headings ("Essential Features for Worship Pad Playback") and condensed everything into a personal workflow story.
-- `instant-pot-chicken-adobo.md` — rewrote the seven-reasons-to-use-an-Instant-Pot section into a brief, honest "why I use it" paragraph; the recipe steps stay but with first-person color.
-- `how-i-built-joraps-world.md` — kept the technical guide intact (commands, configs) but trimmed the listy intros and added more personal asides about mistakes I made.
+- `top-reasons-why-you-still-need-use-desktop-laptop.md` - killed the repetitive "Mobile wins at / Desktop wins at" scaffolding and made it a real opinion piece.
+- `top-reasons-create-maintain-your-own-website.md` - stripped out the SEO-heavy "53% / 2.35% / cost-comparison tables" approach and rewrote it as a personal argument with a few key stats woven in naturally.
+- `power-of-worship-pads-enhancing-your-worship-experience.md` - cut the marketing-style headings ("Essential Features for Worship Pad Playback") and condensed everything into a personal workflow story.
+- `instant-pot-chicken-adobo.md` - rewrote the seven-reasons-to-use-an-Instant-Pot section into a brief, honest "why I use it" paragraph; the recipe steps stay but with first-person color.
+- `how-i-built-joraps-world.md` - kept the technical guide intact (commands, configs) but trimmed the listy intros and added more personal asides about mistakes I made.
 
 **Light rewrites (already conversational, just removed AI tells):**
-- `facebooks-hidden-gem-…` — tightened, less "Here's the thing"/"Trust me"/"Sound familiar?"
-- `getting-started-with-rss-feeds-beginners-guide.md` — removed the "content-addicted goldfish" and other AI-stock phrases, replaced with a real anecdote opener.
-- `set-it-forget-it-arroz-caldo.md` — added a real ritual story up top, removed redundant "magic rice cooker" paragraph repetition.
-- `miracle-isaiah-david.md` — tightened section openers and added more human reflection (especially the "I briefly thought we had a daughter" beat).
+- `facebooks-hidden-gem-…` - tightened, less "Here's the thing"/"Trust me"/"Sound familiar?"
+- `getting-started-with-rss-feeds-beginners-guide.md` - removed the "content-addicted goldfish" and other AI-stock phrases, replaced with a real anecdote opener.
+- `set-it-forget-it-arroz-caldo.md` - added a real ritual story up top, removed redundant "magic rice cooker" paragraph repetition.
+- `miracle-isaiah-david.md` - tightened section openers and added more human reflection (especially the "I briefly thought we had a daughter" beat).
 
 **Resource-style posts (intro only, the data is the data):**
-- `alex-eala-pro-career-tracker.md` — replaced "Welcome! We track…" with a personal note about following her career.
-- `dnpap-song-resources.md` — replaced the generic "Welcome" intro with a real reason this page exists, plus cleaner section labels.
+- `alex-eala-pro-career-tracker.md` - replaced "Welcome! We track…" with a personal note about following her career.
+- `dnpap-song-resources.md` - replaced the generic "Welcome" intro with a real reason this page exists, plus cleaner section labels.
 
 Across all of them I removed the recurring AI tics: "Game-changer," "Here's the thing," "Sound familiar?", "Trust me," "Let me explain," excessive em-dashes used as breath marks, listicle parallelism, and every "**Bold Label:** sentence" line that wasn't actually useful.
 

@@ -49,17 +49,17 @@ featured: false
 review: true
 card_sets: ["Jesus Rhythms", "Gospel", "Faith", "Prayer"]
 cards:
-  - front: "Hosted all morning, collapsed without talking to God. What did He do after the crowd left?"
+  - front: "Hosted all morning, collapsed without talking to God."
     back: "Up the mountain - pray alone."
-  - front: "Ministry day ended, I numbed out on my phone. Drained is cue to what?"
-    back: "Pray - not skip God."
-  - front: "Fed a lot of people today, tank empty. What does drained cue me to do?"
-    back: "Cue - pray when drained."
-  - front: "Project shipped at midnight, scroll until 2am. His move after heavy work?"
+  - front: "Ministry day ended, I numbed out on my phone - scroll loop."
     back: "Pray first - not numb out."
-  - front: "Skipping prayer because I earned rest. What came after feeding five thousand?"
-    back: "Prayer on the mountain."
-  - front: "Crowd gone, still buzzing. Copy His end-of-day rhythm?"
+  - front: "Fed a lot of people today, tank empty - couch calling."
+    back: "Drained is the cue - pray anyway."
+  - front: "Project shipped at midnight, scroll until 2am - earned rest."
+    back: "Pray first - not scroll."
+  - front: "Skipping prayer because I earned rest - God can wait."
+    back: "Pray on the mountain - tired still talks."
+  - front: "Crowd gone, still buzzing - can't settle without noise."
     back: "Alone with the Father - pray."
 draft: false
 ---

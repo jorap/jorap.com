@@ -110,7 +110,7 @@ Directory: **`/home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com
 
 _**Agent (default)**_
 
-Checking whether Hugo builds cleanly — the log stops right after "Start building sites...".
+Checking whether Hugo builds cleanly - the log stops right after "Start building sites...".
 
 
 _**Agent (default)**_
@@ -164,7 +164,7 @@ Hugo appears to hang indefinitely during site building. The process runs for ove
 
 _**Agent (default)**_
 
-Investigating why `npm run watch` hangs — Hugo appears to stall at "Start building sites...".
+Investigating why `npm run watch` hangs - Hugo appears to stall at "Start building sites...".
 
 
 _**Agent (default)**_
@@ -514,12 +514,12 @@ Orphaned Hugo processes from earlier builds are the root cause. I'll suggest run
 
 _**Agent (default)**_
 
-The problem wasn’t your `watch` script — it was **dozens of orphaned `hugo` processes** left over from earlier builds (including Cursor agent runs). They were all competing for CPU, so new builds looked stuck at “Start building sites…” and never finished.
+The problem wasn’t your `watch` script - it was **dozens of orphaned `hugo` processes** left over from earlier builds (including Cursor agent runs). They were all competing for CPU, so new builds looked stuck at “Start building sites…” and never finished.
 
 **What I did:**
 1. Killed all stuck `hugo` processes
-2. Ran a clean build — completed in **~6 seconds** (2,103 pages)
-3. Started `npm run watch` — built in **~7 seconds** and is serving at http://localhost:1313/
+2. Ran a clean build - completed in **~6 seconds** (2,103 pages)
+3. Started `npm run watch` - built in **~7 seconds** and is serving at http://localhost:1313/
 
 **If it happens again**, run this before `npm run watch`:
 
@@ -581,7 +581,7 @@ _**Agent (default)**_
 
 `npm run watch` was failing because many leftover `hugo` processes were still running and blocking new builds at “Start building sites…”.
 
-After killing those processes, a clean build finished in ~6 seconds and `npm run watch` started normally — the dev server should be at http://localhost:1313/. If it hangs again, run `pkill hugo` first, then restart watch.
+After killing those processes, a clean build finished in ~6 seconds and `npm run watch` started normally - the dev server should be at http://localhost:1313/. If it hangs again, run `pkill hugo` first, then restart watch.
 
 ---
 

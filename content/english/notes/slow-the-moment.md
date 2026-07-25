@@ -75,6 +75,14 @@ cards:
     back: "One breath - do not become that driver."
   - front: "Free throw to win it and my chest is thumping."
     back: "One breath - run the routine."
+  - front: "Horn reflex after every cut-off - never practiced the pause."
+    back: "Hand off horn - one breath."
+  - front: "Chest pounding means rush the routine."
+    back: "One breath - run the same feet."
+  - front: "Argument heating - my voice climbing with theirs."
+    back: "Lower voice - slow the moment."
+  - front: "Already honked - kid in the back seat."
+    back: "Own it - reset before the next turn."
 draft: false
 ---
 

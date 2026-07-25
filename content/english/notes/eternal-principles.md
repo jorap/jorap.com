@@ -94,6 +94,7 @@ Biography lane - what the Gospels show He did day to day. Hub: [[Jesus' Rhythms]
 - [[Judge Not]] - no hypocritical condemnation; remove your plank first
 - [[By Their Fruits]] - discern teachers by outcome, not hype or credentials
 - [[Heart Righteousness]] - inner motive counts, not only outward acts
+- [[Words That Build Up]] - edifying speech gives grace to hearers, not debris
 
 ## Heart and priorities
 
@@ -107,6 +108,9 @@ Hub: [[Prayer Jesus Taught]] - maps Jesus' prayer teaching across the Gospels (L
 - [[Treasure in Heaven]] - store what lasts, not what rusts or rots on earth
 - [[Eternal Rewards]] - the Father repays faithful obedience after salvation; not how eternal life is received
 - [[The Beatitudes]] - kingdom character in nine blessings; who inherits what
+- [[Trust God for Today]] - daily bread for today; Father holds tomorrow
+- [[Come to Me Weary]] - Jesus invites the overloaded to rest and a fitting yoke
+- [[Guard Your Heart]] - filter intake before worship and anger downstream
 
 ## Character and witness
 
@@ -118,9 +122,15 @@ Hub: [[Prayer Jesus Taught]] - maps Jesus' prayer teaching across the Gospels (L
 - [[Take Up Your Cross]] - daily self-denial; follow behind, not a one-time hero sprint
 - [[The Wise Builder]] - hear Jesus and do; sand collapses when the storm hits
 - [[The Narrow Way]] - few find it; costly discipleship, not the broad comfortable path
+- [[Walk by the Spirit]] - daily Spirit dependence over willpower sprints
+- [[Count the Cost]] - honest estimate before the public yes
 
 ## Church and world
 
+- [[Many Parts One Body]] - one Christ, many gifts; no solo-body fantasy
+- [[Bear Each Other's Burdens]] - hands on the load, not sidewalk commentary
+- [[Iron Sharpens Iron]] - growth through honest friction with friends who love you
+- [[Confess to One Another]] - hidden failure rots; spoken failure finds prayer
 - [[Christianity and Politics]] - dual allegiance without idolatry; civic duty, neighbor-love, Christ supreme
 - [[Render Unto Caesar]] - sort civic duty from ultimate allegiance; dual obligations clarified
 - [[Great Commission]] - make disciples; truth shared, not hoarded in the garden
@@ -186,3 +196,13 @@ Same ideas show up in my PKM notes. I wired the pairs below so the faith cluster
 | [[Success is Stewardship]] | [[Platform Reach Is Borrowed]] | Rented reach - steward megaphone, own the vault |
 | [[Success is Stewardship]] | [[Steward After the Win]] | Coast temptation right after promotion or traffic spike |
 | [[Christianity and Politics]] | [[Signal vs Noise]] | Not every headline deserves kingdom-level panic - filter the feed |
+| [[Bear Each Other's Burdens]] | [[Share the Heavy Lift]] | Shared weight in faith lane and workplace lane |
+| [[Confess to One Another]] | [[Surface Bad News Early]] | Honest confession before rot - sin or project miss |
+| [[Count the Cost]] | [[Fail on Paper First]] | Estimate before the public yes - vows or launch |
+| [[Guard Your Heart]] | [[Gate What You Consume]] | Filter the spring before output rots |
+| [[Iron Sharpens Iron]] | [[Sharpen Each Other's Work]] | Friction that sharpens people and drafts |
+| [[Many Parts One Body]] | [[Know Your Lane]] | One body, many parts - clarity on your slice |
+| [[Trust God for Today]] | [[Cap Today's Commitments]] | Daily bread and honest capacity for today |
+| [[Walk by the Spirit]] | [[Follow the Rhythm]] | Spirit dependence in cadence, not hero bursts |
+| [[Words That Build Up]] | [[Give Useful Feedback]] | Grace-deposit speech at church and at work |
+| [[Come to Me Weary]] | [[Block Recovery Time]] | Rest invitation and calendar-blocked refill |

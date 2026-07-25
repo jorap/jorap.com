@@ -83,7 +83,7 @@ cards:
     back: "Ask mercy - release the debt too."
   - front: "Someone who wronged me needs help on the road. First merciful move?"
     back: "Act - mercy shows up in the body."
-  - front: "About to quote their failure online. What did I need from God first?"
+  - front: "About to quote their failure online - thumb on the post, grudge hot."
     back: "Release the debt - I'm not final judge."
   - front: "Beatitude check after a sharp reply. What do the merciful obtain?"
     back: "Show mercy - merciful obtain mercy."

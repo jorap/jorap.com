@@ -106,7 +106,7 @@
       });
 
       {{ if eq site.Params.theme_default "system" }}
-      // Follow OS appearance changes — but only when the user hasn't made
+      // Follow OS appearance changes - but only when the user hasn't made
       // an explicit choice yet (no stored preference).
       if (window.matchMedia) {
         var mql = window.matchMedia("(prefers-color-scheme: dark)");

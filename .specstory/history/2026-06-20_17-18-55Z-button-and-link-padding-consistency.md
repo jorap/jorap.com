@@ -2376,7 +2376,7 @@ Result:
           },
           {
             "lineNumber": 4,
-            "text": " * - JS reads it via getComputedStyle(...) — see assets/js/toc.js + back-to-top.js."
+            "text": " * - JS reads it via getComputedStyle(...) - see assets/js/toc.js + back-to-top.js."
           },
           {
             "lineNumber": 5,
@@ -2884,7 +2884,7 @@ Result:
           },
           {
             "lineNumber": 32,
-            "text": " * is handled automatically by tailwind-plugin/tw-theme.js — no &#96;dark:&#96; twins needed."
+            "text": " * is handled automatically by tailwind-plugin/tw-theme.js - no &#96;dark:&#96; twins needed."
           },
           {
             "lineNumber": 33,

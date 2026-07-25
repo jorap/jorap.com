@@ -7,7 +7,7 @@ key_concept: |
   - Level 1: Like telling the coach about the twisted ankle at warm-up - early truth saves the game plan; hiding it breaks the season.
   - Level 2: Early surfacing pairs with [[Own the Error]] - name your call, then fix the runbook together.
   - Level 3: [[Confess to One Another]] is the faith lane - same honesty before rot sets in.
-  - Level 4: [[Blameless After-Action Review]] needs the miss named first - surfacing early is confession before the postmortem theater.
+  - Level 4: [[Blameless After-Action Review]] needs the miss named first - surfacing early is confession before the review theater.
   - Level 5: [[Psychological Safety]] is what makes people speak - punishment theater guarantees late surprises.
   - [[Rollback Principle]] only works when someone admits the deploy is wrong before users finish the angry thread.
 examples:
@@ -45,6 +45,20 @@ author: "JoRap"
 tags: ["Leadership", "Communication", "Safety", "Teams"]
 aliases: ["early bad news", "honest status update"]
 featured: false
-review: false
+review: true
+card_sets: ["Ethics", "Focus"]
+cards:
+  - front: "Migration will slip - tempted to silence until Friday."
+    back: "Tell client Tuesday - ugly early truth."
+  - front: "Lineup error at halftime - postgame confession instinct."
+    back: "Flag it now - quarters left to adjust."
+  - front: "Deploy wrong - users not angry yet - room quiet."
+    back: "Surface miss - revert before the thread."
+  - front: "Punishment theater last time someone spoke - late surprise brewing."
+    back: "Name slip early - rebuild safety."
+  - front: "Hunting fall guy instead of naming my call."
+    back: "Own it - surface before blame hunt."
+  - front: "Miss aging in Slack - crater going public Monday."
+    back: "Surface while rollback is cheap."
 draft: false
 ---

@@ -1435,11 +1435,11 @@ Done. Removed the `**Note name** =` prefix from the opening line in **171 notes*
 **Before:** `**The Golden Rule** = treat others how you want to be treated...`  
 **After:** `Treat others how you want to be treated...`
 
-**43 notes** were left as-is — they already opened without that pattern (e.g. `Folders sort. Links think.` in associative-linking, or `**PKM** is...` in pkm).
+**43 notes** were left as-is - they already opened without that pattern (e.g. `Folders sort. Links think.` in associative-linking, or `**PKM** is...` in pkm).
 
 Also updated:
-- `archetypes/notes.md` — new notes no longer get the `**Title** =` template
-- `assets/js/notes-creator.js` — prompt guidance matches
-- `getting-started.md` — structure docs updated
+- `archetypes/notes.md` - new notes no longer get the `**Title** =` template
+- `assets/js/notes-creator.js` - prompt guidance matches
+- `getting-started.md` - structure docs updated
 
-`graph.md` still uses `**Top 20%** =` etc. in Key Concept — those are glossary definitions, not the opening sentence.
+`graph.md` still uses `**Top 20%** =` etc. in Key Concept - those are glossary definitions, not the opening sentence.

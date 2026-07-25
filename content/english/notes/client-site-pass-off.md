@@ -58,6 +58,14 @@ cards:
     back: "She fixed her own typo same night."
   - front: "Friday bulletin lands as a PDF attachment and I need to push it live. Publish move?"
     back: "Retainer batch - one push."
+  - front: "Client edits through me again - pass-off never stuck."
+    back: "One screen-share - they click publish."
+  - front: "Friday PDF lands late - tempted to hotfix from my laptop forever."
+    back: "Train the batch - retainer owns the push."
+  - front: "Neighbor struggles once - I grab the keyboard."
+    back: "Talk them through - fix is theirs."
+  - front: "Midnight text lands - can you just update the bulletin before morning Mass?"
+    back: "Business hours and batch day - not live-in admin."
 draft: false
 ---
 

@@ -37,7 +37,7 @@ _**User**_
 
 _**Agent (auto-low)**_
 
-Searching the codebase for `font-inherit` — Tailwind v4 doesn't include that utility and it's causing the build to fail.
+Searching the codebase for `font-inherit` - Tailwind v4 doesn't include that utility and it's causing the build to fail.
 
 
 

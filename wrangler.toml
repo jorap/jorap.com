@@ -1,16 +1,16 @@
-# Cloudflare Pages — output dir for the V2 build system.
+# Cloudflare Pages - output dir for the V2 build system.
 # Dashboard build command: pnpm run deploy
-#   (CF runs pnpm install automatically; avoid npm run build — extra hop.)
+#   (CF runs pnpm install automatically; avoid npm run build - extra hop.)
 #
 # BUILD env vars (NODE_VERSION, GO_VERSION) must be set in the Pages dashboard:
-#   Settings → Build → Variables — [vars] here are RUNTIME Function vars, not build vars.
+#   Settings → Build → Variables - [vars] here are RUNTIME Function vars, not build vars.
 #   Hugo version is handled in-repo by scripts/ensureHugo.mjs (reads deploy-versions.json).
 # One-time build cache: Dashboard → Settings → Build → Build cache → Enable.
 #   Hugo writes to .cache via --cacheDir in deployBuild.mjs; CF restores it next build.
 #
 # CMS OAuth (Static Site CMS at /admin; engine: Sveltia):
-#   GITHUB_CLIENT_ID     — set below in [vars] (public; safe in git)
-#   GITHUB_CLIENT_SECRET — encrypted secret; set once via Dashboard or:
+#   GITHUB_CLIENT_ID     - set below in [vars] (public; safe in git)
+#   GITHUB_CLIENT_SECRET - encrypted secret; set once via Dashboard or:
 #     pnpm exec wrangler pages secret put GITHUB_CLIENT_SECRET --project-name jorap-com
 #   Local functions dev: copy .dev.vars.example → .dev.vars and fill both values.
 name = "jorap-com"
@@ -21,4 +21,4 @@ compatibility_date = "2026-06-15"
 # Replace with your GitHub OAuth app Client ID (Developer settings → OAuth Apps).
 GITHUB_CLIENT_ID = "Ov23lii9SylB2lCgut63"
 
-# GITHUB_CLIENT_SECRET — dashboard secret only (Pages wrangler.toml has no [secrets] block).
+# GITHUB_CLIENT_SECRET - dashboard secret only (Pages wrangler.toml has no [secrets] block).

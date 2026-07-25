@@ -95,7 +95,7 @@ The experience **rejects performative tech theater**: no neon accents, no interc
 
 ### Style positioning
 
-**Label:** **Restrained editorial** — not stark minimalism, not SaaS product UI.
+**Label:** **Restrained editorial** - not stark minimalism, not SaaS product UI.
 
 | Reads as | Does not read as |
 | --- | --- |
@@ -107,12 +107,12 @@ The experience **rejects performative tech theater**: no neon accents, no interc
 
 ### Alternative directions (exploration only)
 
-Shortlist if the brand needs a sharper pivot later — prototype on one surface before a site-wide retheme:
+Shortlist if the brand needs a sharper pivot later - prototype on one surface before a site-wide retheme:
 
-1. **Document / institutional** — memo/briefing layout; rules and columns; highest client-safe trust.
-2. **Typographic authority** — distinctive serif display + sans body; magazine hierarchy without template eyebrows.
-3. **Committed color** — one saturated hue carries 30–60% of surface; everything else quiet.
-4. **Monochrome instrument** — cool neutrals, tighter grid; notes tools feel native.
+1. **Document / institutional** - memo/briefing layout; rules and columns; highest client-safe trust.
+2. **Typographic authority** - distinctive serif display + sans body; magazine hierarchy without template eyebrows.
+3. **Committed color** - one saturated hue carries 30–60% of surface; everything else quiet.
+4. **Monochrome instrument** - cool neutrals, tighter grid; notes tools feel native.
 
 Do not mix directions on one page without narrative reason. Identity-preservation wins: variants should extend **The Quiet Study**, not replace it silently.
 

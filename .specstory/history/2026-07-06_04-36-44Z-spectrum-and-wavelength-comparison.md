@@ -132,7 +132,7 @@ Result:
   "isFinal": true,
   "references": [
     {
-      "chunk": "Links:\n1. [How to play Wavelength | Official Rules | UltraBoardGames](https://www.ultraboardgames.com/wavelength/game-rules.php)\n2. [How to play](https://gamers-hq.de/media/pdf/87/83/b1/Wavelength_rules.pdf)\n3. [Wavelength Clue Giving | UltraBoardGames](https://www.ultraboardgames.com/wavelength/clue-giving.php)\n4. [How to Play Wavelength: Complete Game Rules Guide](https://www.wikihow.com/Play-Wavelength)\n5. [WAVELENGTH - Game Rules](https://gamerules.com/rules/wavelength/)\n\nSynthesis:\nIn Wavelength, the clue-giver (Psychic) knows the target location on a hidden spectrum [1][2]. After drawing a card with two opposing concepts, the Psychic provides a single, concise clue—ideally five words or fewer—that represents where the target falls between those extremes [1][3][4].\n\nClues must be on-topic, convey one thought, and avoid numbers, synonyms, or words already on the card [3][4][5]. Once the clue is given, the Psychic must remain silent and neutral [1][2][6]. Their team discusses and positions the dial, while the opposing team guesses if the target is to the left or right [1][2].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eHow to play Wavelength | Official Rules | UltraBoardGames\u003c/title\u003e\n\u003curl\u003ehttps://www.ultraboardgames.com/wavelength/game-rules.php\u003c/url\u003e\n\u003ccontent\u003eOne player from the active team-the Psychic-knows where the target is, but can only give a clue ON THE SPECTRUM between two opposing concepts. After that, their team- mates have to guess where the target is.\n...\nThe psychic gives a clue where the target is located on the spectrum between the two concepts.\n...\nEach round begins with the current team's Psychic spinning the wheel to randomize the target's location, drawing a wavelength card, and giving a clue ON THE SPECTRUM between the two concepts on the card.\n...\nChoose a wavelength: Draw 1 wavelength card from the deck. T
+      "chunk": "Links:\n1. [How to play Wavelength | Official Rules | UltraBoardGames](https://www.ultraboardgames.com/wavelength/game-rules.php)\n2. [How to play](https://gamers-hq.de/media/pdf/87/83/b1/Wavelength_rules.pdf)\n3. [Wavelength Clue Giving | UltraBoardGames](https://www.ultraboardgames.com/wavelength/clue-giving.php)\n4. [How to Play Wavelength: Complete Game Rules Guide](https://www.wikihow.com/Play-Wavelength)\n5. [WAVELENGTH - Game Rules](https://gamerules.com/rules/wavelength/)\n\nSynthesis:\nIn Wavelength, the clue-giver (Psychic) knows the target location on a hidden spectrum [1][2]. After drawing a card with two opposing concepts, the Psychic provides a single, concise clue-ideally five words or fewer-that represents where the target falls between those extremes [1][3][4].\n\nClues must be on-topic, convey one thought, and avoid numbers, synonyms, or words already on the card [3][4][5]. Once the clue is given, the Psychic must remain silent and neutral [1][2][6]. Their team discusses and positions the dial, while the opposing team guesses if the target is to the left or right [1][2].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eHow to play Wavelength | Official Rules | UltraBoardGames\u003c/title\u003e\n\u003curl\u003ehttps://www.ultraboardgames.com/wavelength/game-rules.php\u003c/url\u003e\n\u003ccontent\u003eOne player from the active team-the Psychic-knows where the target is, but can only give a clue ON THE SPECTRUM between two opposing concepts. After that, their team- mates have to guess where the target is.\n...\nThe psychic gives a clue where the target is located on the spectrum between the two concepts.\n...\nEach round begins with the current team's Psychic spinning the wheel to randomize the target's location, drawing a wavelength card, and giving a clue ON THE SPECTRUM between the two concepts on the card.\n...\nChoose a wavelength: Draw 1 wavelength card from the deck. T
 … (output truncated)
 ```
 User decision: **accepted**
@@ -299,7 +299,7 @@ _**Agent (auto-low)**_
 
 ## Concept spectrums vs Wavelength
 
-Your **Concept spectrums** collection is modeled on Wavelength’s **spectrum cards** — the left/right pole pairs — not the full boxed game. That’s the right layer to compare.
+Your **Concept spectrums** collection is modeled on Wavelength’s **spectrum cards** - the left/right pole pairs - not the full boxed game. That’s the right layer to compare.
 
 ### What matches Wavelength
 
@@ -316,7 +316,7 @@ The UI shows exactly what a Wavelength card shows: two poles and a bridge betwee
 - id: spectrum
   title: Concept spectrums
   mode: spectrum
-  tagline: Two opposing ideas — no categories, no questions. Name one word or phrase that sits in the grey area between them.
+  tagline: Two opposing ideas - no categories, no questions. Name one word or phrase that sits in the grey area between them.
   play_hint: Think of a single noun or short phrase that lands between these extremes. Expect a friendly group debate.
   spectrums:
   - left: Hot
@@ -329,11 +329,11 @@ The strong pairs at the top of the deck (`Hot/Cold`, `Overrated/Underrated`, `Ci
 
 Wavelength is a **target-guessing** game, not a “name something in the middle” game:
 
-1. **Hidden target** — The Psychic spins a wheel and secretly sees where on the spectrum the answer must land (not always the middle).
-2. **One clue, one position** — The clue should map to that *specific* spot (could be near either pole).
-3. **Team dial + scoring** — Teammates place a dial; opponents guess left/right; points for hitting the wedge.
-4. **Clue rules** — No numbers, no words from the card, one thought, ~5 words, must exist in the universe, etc.
-5. **Weird side** — Many official cards have a normal side and a stranger side (`Sandwich` ↔ `Not a sandwich`).
+1. **Hidden target** - The Psychic spins a wheel and secretly sees where on the spectrum the answer must land (not always the middle).
+2. **One clue, one position** - The clue should map to that *specific* spot (could be near either pole).
+3. **Team dial + scoring** - Teammates place a dial; opponents guess left/right; points for hitting the wedge.
+4. **Clue rules** - No numbers, no words from the card, one thought, ~5 words, must exist in the universe, etc.
+5. **Weird side** - Many official cards have a normal side and a stranger side (`Sandwich` ↔ `Not a sandwich`).
 
 Your randomizer supplies **card text only**. For a real Wavelength night you’d still need: random target (wheel, app, dice), a Psychic, teams, and scoring.
 
@@ -341,7 +341,7 @@ Your randomizer supplies **card text only**. For a real Wavelength night you’d
 
 **1. Play hint tilts away from Wavelength**
 
-“Lands **between** these extremes” and “friendly group **debate**” sounds like *find something ambiguous in the grey zone*. Wavelength wants: *given a secret position, give a clue that points there* — often clearly toward one end.
+“Lands **between** these extremes” and “friendly group **debate**” sounds like *find something ambiguous in the grey zone*. Wavelength wants: *given a secret position, give a clue that points there* - often clearly toward one end.
 
 Better Wavelength-style hint if you want parity:
 
@@ -349,12 +349,12 @@ Better Wavelength-style hint if you want parity:
 
 **2. Card quality splits in two**
 
-- **Curated pairs** (first ~280 in `build-spectrum-500.py`): good — real opposites, debatable, clue-friendly.
-- **Template pairs** (tail of the deck): weaker — `Indoor book` / `Outdoor book`, `Cheap podcast` / `Premium podcast`. These aren’t really spectrums; they’re adjective × noun combos. Official Wavelength cards are almost never “Cheap X / Premium X.”
+- **Curated pairs** (first ~280 in `build-spectrum-500.py`): good - real opposites, debatable, clue-friendly.
+- **Template pairs** (tail of the deck): weaker - `Indoor book` / `Outdoor book`, `Cheap podcast` / `Premium podcast`. These aren’t really spectrums; they’re adjective × noun combos. Official Wavelength cards are almost never “Cheap X / Premium X.”
 
 **3. Tone**
 
-Wavelength leans into odd, arguable axes (`Evil` ↔ `Good`, `Art` ↔ `Not art`). Yours is deliberately plain and non–pop culture — fine for your audience, less “party game weird.”
+Wavelength leans into odd, arguable axes (`Evil` ↔ `Good`, `Art` ↔ `Not art`). Yours is deliberately plain and non–pop culture - fine for your audience, less “party game weird.”
 
 **4. No double-sided choice**
 
@@ -368,14 +368,14 @@ Psychic can’t pick “interesting” vs “weird” side; you get one pair per
 | **Ranking prompts** | Ito (situational) / Wavelength **clue loop** | Situation + one concrete clue; group ranks 1–100 |
 | **Personal icebreakers** | Fun Facts | Honest self-rating, not spectrum guessing |
 
-**Ranking prompts** is actually closer to the *round structure* of Wavelength (secret scale position → one clue → group places it) than spectrum mode is — spectrum only gives you the axis.
+**Ranking prompts** is actually closer to the *round structure* of Wavelength (secret scale position → one clue → group places it) than spectrum mode is - spectrum only gives you the axis.
 
 ### Bottom line
 
 - **Spectrum mode = Wavelength card deck**, not the full game.
 - **Strong when** you already have a wheel/target ritual and want fresh poles at the table.
 - **Gaps vs the real game:** hidden target, dial/scoring, clue constraints, weird-side variety.
-- **Biggest content gap:** template tail (`Indoor hobby` / `Outdoor hobby` …) — cut or replace with arguable axes like the curated block.
+- **Biggest content gap:** template tail (`Indoor hobby` / `Outdoor hobby` …) - cut or replace with arguable axes like the curated block.
 
 If you want it to play closer to Wavelength, the highest-leverage changes are: fix the play hint (secret spot, not “grey area”), trim template-generated pairs, and optionally add a one-line “Psychic: pick 1–100 secretly” note in the UI. I can do any of those if you want.
 
@@ -577,7 +577,7 @@ The script failed to trim template-generated pairs. The YAML still contains exam
 
 _**Agent (auto-low)**_
 
-The YAML still has template pairs — checking whether the script's regex replacement matched correctly.
+The YAML still has template pairs - checking whether the script's regex replacement matched correctly.
 
 
 _**Agent (auto-low)**_
@@ -756,7 +756,7 @@ The regex failed because it expected two leading spaces, but the actual YAML use
 
 _**Agent (auto-low)**_
 
-Fixing the build script's regex and indentation — it didn't match the YAML structure, so the old template pairs remained.
+Fixing the build script's regex and indentation - it didn't match the YAML structure, so the old template pairs remained.
 
 
 _**Agent (auto-low)**_
@@ -818,11 +818,11 @@ _**Agent (auto-low)**_
 
 _**Agent (auto-low)**_
 
-Trimmed. **500 → 258** spectrum pairs — curated opposites only.
+Trimmed. **500 → 258** spectrum pairs - curated opposites only.
 
 **Removed:** all template filler (`Indoor snack` / `Outdoor snack`, `Cheap book` / `Premium book`, `Too cheap` / `Too premium`, etc.)
 
-**Kept:** the hand-written list in `build-spectrum-500.py` — real axes like `Hot`/`Cold`, `Overrated`/`Underrated`, `Indoor pool`/`Outdoor pool`, `Clutch shot`/`Pass clutch`.
+**Kept:** the hand-written list in `build-spectrum-500.py` - real axes like `Hot`/`Cold`, `Overrated`/`Underrated`, `Indoor pool`/`Outdoor pool`, `Clutch shot`/`Pass clutch`.
 
 Also fixed the build script so it actually replaces the YAML block (wrong indentation meant the old run didn’t apply). Re-run with:
 

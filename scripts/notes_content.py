@@ -286,9 +286,9 @@ WIKILINK_PLAIN = re.compile(r"\[\[([^\]|#]+)(?:#[^\]]+)?\]\]")
 
 def normalize_shareable_line(text: str) -> str:
     text = WIKILINK_PLAIN.sub(r"\1", text)
-    text = " ".join(text.replace("`", "").replace("*", "").split()).lower().rstrip(".,;:-— ")
+    text = " ".join(text.replace("`", "").replace("*", "").split()).lower().rstrip(".,;:-- ")
     if text.endswith("…"):
-        text = text[:-1].rstrip(".,;:-— ")
+        text = text[:-1].rstrip(".,;:-- ")
     return text
 
 
@@ -305,7 +305,7 @@ def shareable_lines_overlap(a: str, b: str) -> bool:
     if longer.startswith(shorter) or longer.endswith(shorter):
         return True
     if shorter.endswith("…"):
-        stem = shorter[:-1].rstrip(".,;:-— ")
+        stem = shorter[:-1].rstrip(".,;:-- ")
         if stem and (longer.startswith(stem) or stem in longer):
             return True
     return False
@@ -333,7 +333,7 @@ def principle_line_pool(fm: dict) -> list[str]:
             flat = WIKILINK_PLAIN.sub(r"\1", chunk)
             flat = " ".join(flat.replace("**", "").replace("*", "").replace("`", "").split())
             parts = [flat]
-            parts.extend(re.split(r"(?<=[.!?])\s+|\s[-—–]\s|;\s+", flat))
+            parts.extend(re.split(r"(?<=[.!?])\s+|\s[--–]\s|;\s+", flat))
             for part in parts:
                 norm = normalize_shareable_line(part)
                 if len(norm) >= 10 and norm not in seen:
@@ -376,7 +376,7 @@ def ensure_terminal_punct(text: str) -> str:
 
 
 def _looks_like_title_fragment(text: str) -> bool:
-    """Short title-case phrase without a verb — usually a wikilink label, not a principle."""
+    """Short title-case phrase without a verb - usually a wikilink label, not a principle."""
     t = text.strip().rstrip(".!?")
     if len(t) > 60 or "," in t or ";" in t:
         return False
@@ -395,7 +395,7 @@ def is_complete_shareable_line(line: str) -> bool:
         return False
     if text[-1] not in ".!?":
         return False
-    if text.endswith((",", ";", " -", "—", "–")):
+    if text.endswith((",", ";", " -", "-", "–")):
         return False
     if not (text[0].isupper() or text[0] in '"\'('):
         return False
@@ -484,7 +484,7 @@ def description_clause_parts(desc: str) -> list[str]:
     """Normalized description clauses for overlap checks."""
     flat = " ".join(desc.split())
     parts = [flat]
-    parts.extend(re.split(r"(?<=[.!?])\s+|\s[-—–]\s|;\s+", flat))
+    parts.extend(re.split(r"(?<=[.!?])\s+|\s[--–]\s|;\s+", flat))
     out: list[str] = []
     seen: set[str] = set()
     for part in parts:

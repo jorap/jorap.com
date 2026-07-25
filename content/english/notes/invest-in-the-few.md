@@ -48,17 +48,17 @@ featured: false
 review: true
 card_sets: ["Jesus Rhythms", "Gospel", "Faith", "Discipleship"]
 cards:
-  - front: "Chasing bigger audience, neglecting three faithful people. His pattern?"
-    back: "Invest in the few - twelve first."
-  - front: "Quarterly all-hands, never ate with the core four. What did He prioritize?"
-    back: "Depth - disproportionate time."
-  - front: "Platform before presence with anyone. Mark 3:14 order?"
+  - front: "Chasing bigger audience, neglecting three faithful people - metrics up."
+    back: "Invest in the few - depth first."
+  - front: "Quarterly all-hands, never ate with the core four - broadcast only."
+    back: "Disproportionate time - eat with the few."
+  - front: "Platform before presence with anyone - stage over room."
     back: "Be with them - then send out."
-  - front: "Teaching crowds, no one knows me up close. Copy foot-washing logic?"
+  - front: "Teaching crowds, no one knows me up close - distant teacher mode."
     back: "Invest in the few - room, not stage."
-  - front: "Hoarding truth in my head, no one to pass it to. Great Commission start?"
+  - front: "Hoarding truth in my head, no one to pass it to - solo expert."
     back: "Few first - then multiply."
-  - front: "Favoritism fear keeps me shallow with everyone. His twelve were what?"
+  - front: "Favoritism fear keeps me shallow with everyone - afraid to go deep."
     back: "Depth before send - not elitism."
 draft: false
 ---

@@ -13,7 +13,7 @@
 {{ $title := partial "page-meta-title.html" . }}
 
 
-<!-- checking description (never default to .Summary — it panics on short note bodies in Hugo 0.163+) -->
+<!-- checking description (never default to .Summary - it panics on short note bodies in Hugo 0.163+) -->
 {{ $description := "" }}
 {{ if .Params.meta_description }}
   {{ $description = .Params.meta_description }}

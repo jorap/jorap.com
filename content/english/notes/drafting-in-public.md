@@ -46,7 +46,7 @@ featured: false
 review: true
 card_sets: ["Writing", "Review"]
 cards:
-  - front: "Shared a draft SOP with the team before it was polished. What did they get?"
+  - front: "Shared a draft SOP with the team before it was polished - honest pass-off, not perfection."
     back: "Honest pass-off - they could fix it."
   - front: "Posted a rough footwork clip before I'd nailed the cue words. What came back?"
     back: "Teammate's comment fixed my line."
@@ -54,6 +54,10 @@ cards:
     back: "Neighbor's comment beats solo guessing."
   - front: "Note feels half-baked but I've been hoarding it for a perfect edit pass. Garden move?"
     back: "Publish rough - grow in public."
+  - front: "Draft SOP shared early - team caught the gap before launch."
+    back: "Share the draft - silence hoards errors."
+  - front: "Half-baked note hoarded for perfect edit pass."
+    back: "Post the draft - polish in public."
 draft: false
 ---
 

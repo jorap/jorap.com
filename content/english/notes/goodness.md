@@ -56,10 +56,14 @@ cards:
     back: "Father - not my brand."
   - front: "Good deed done but I want credit in the caption. What's the fruit test?"
     back: "Shine so God gets credit."
-  - front: "Hiding help from false modesty when it should point up. What was light for?"
+  - front: "Hiding help from false modesty when it should point up. Who should get credit?"
     back: "Let it shine - glorify the Father."
-  - front: "Practicing righteousness for the audience in the room. Which motive fails?"
+  - front: "Practicing righteousness for the audience in the room - applause is the fuel."
     back: "Father's glory - not applause."
+  - front: "Hiding help from false modesty - light should point up."
+    back: "Let it shine - Father gets glory."
+  - front: "Good deed draft ready - caption asking for applause."
+    back: "Post nothing - Father saw it."
 draft: false
 ---
 

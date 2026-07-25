@@ -368,7 +368,7 @@ Parameters:
 {
   "caseInsensitive": false,
   "path": "/home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml",
-  "pattern": "—"
+  "pattern": "-"
 }
 ```
 Additional data:
@@ -378,7 +378,7 @@ Additional data:
   "isPruned": true,
   "outputMode": "content",
   "path": "/home/jorap/Documents/GitHub/jorap.com/data/randomizer.yaml",
-  "pattern": "—",
+  "pattern": "-",
   "topFiles": [
     {
       "matchCount": 17,
@@ -440,7 +440,7 @@ Parameters:
 {
   "caseInsensitive": false,
   "path": "/home/jorap/Documents/GitHub/jorap.com/scripts",
-  "pattern": "—"
+  "pattern": "-"
 }
 ```
 Additional data:
@@ -450,7 +450,7 @@ Additional data:
   "isPruned": true,
   "outputMode": "content",
   "path": "/home/jorap/Documents/GitHub/jorap.com/scripts",
-  "pattern": "—",
+  "pattern": "-",
   "topFiles": [
     {
       "matchCount": 1,
@@ -643,10 +643,10 @@ import re
 from pathlib import Path
 p = Path(&#39;data/randomizer.yaml&#39;)
 text = p.read_text()
-em = text.count(&#39;—&#39;)
+em = text.count(&#39;-&#39;)
 print(f&#39;em dashes in yaml: {em}&#39;)
 for i,line in enumerate(text.splitlines(),1):
-    if &#39;—&#39; in line:
+    if &#39;-&#39; in line:
         print(f&#39;{i}: {line[:100]}&#39;)
 &#34;
 </summary>
@@ -656,10 +656,10 @@ import re
 from pathlib import Path
 p = Path('data/randomizer.yaml')
 text = p.read_text()
-em = text.count('—')
+em = text.count('-')
 print(f'em dashes in yaml: {em}')
 for i,line in enumerate(text.splitlines(),1):
-    if '—' in line:
+    if '-' in line:
         print(f'{i}: {line[:100]}')
 "
 
@@ -667,23 +667,23 @@ for i,line in enumerate(text.splitlines(),1):
 
 ```
 em dashes in yaml: 18
-1: # Game prompt collections. Names describe the prompt type — not branded deck titles.
-7:   tagline: Open situations and what-if scenarios. Name one concrete example — the group ranks it fro
+1: # Game prompt collections. Names describe the prompt type - not branded deck titles.
+7:   tagline: Open situations and what-if scenarios. Name one concrete example - the group ranks it fro
 8:   play_hint: Give one real example ("flashlight", "take a nap", "duct tape"). 1 = weakest fit for th
-314:   tagline: Honest 1-to-100 self-ratings about real habits and personality — one surprising answer at
-622:   tagline: Two opposing ideas on one sliding scale. One hidden spot on the line — name one word or p
-1030:   play_hint: Read both options aloud. Everyone picks one — no middle ground. Best argument wins.
-1336:   tagline: Open prompts — share a story, a memory, or a hot take. No scoring.
-1337:   play_hint: Take turns answering. There is no right answer — stories beat one-word replies.
-1379:   - "A weather day you remember — snow, rain, or heat."
-1397:   - A beach memory — good or bad.
-1401:   - A long flight story — good seat or bad seat.
-1410:   - "A camping memory — tent, cabin, or backyard."
-1509:   - "A puzzle type you love — jigsaw, crossword, or other."
-1510:   - "A collection you had as a kid — cards, rocks, stickers."
-1528:   - "A place you go to think — park, café, library."
-1594:   - "A near miss — car, bike, kitchen, sports — that taught you something."
-1608:   - "A weather event you lived through — storm, flood, heat wave."
+314:   tagline: Honest 1-to-100 self-ratings about real habits and personality - one surprising answer at
+622:   tagline: Two opposing ideas on one sliding scale. One hidden spot on the line - name one word or p
+1030:   play_hint: Read both options aloud. Everyone picks one - no middle ground. Best argument wins.
+1336:   tagline: Open prompts - share a story, a memory, or a hot take. No scoring.
+1337:   play_hint: Take turns answering. There is no right answer - stories beat one-word replies.
+1379:   - "A weather day you remember - snow, rain, or heat."
+1397:   - A beach memory - good or bad.
+1401:   - A long flight story - good seat or bad seat.
+1410:   - "A camping memory - tent, cabin, or backyard."
+1509:   - "A puzzle type you love - jigsaw, crossword, or other."
+1510:   - "A collection you had as a kid - cards, rocks, stickers."
+1528:   - "A place you go to think - park, café, library."
+1594:   - "A near miss - car, bike, kitchen, sports - that taught you something."
+1608:   - "A weather event you lived through - storm, flood, heat wave."
 
 ```
 </details></tool-use>
@@ -741,8 +741,8 @@ cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/notes-voice-lint.py
 
 ```
 Voice lint warnings:
-  content/english/notes/selling-static-sites.md: relationships.reason: AI-tell word `handoff` — try: pass off / pass to client
-  content/english/notes/static-site-client-scope.md: relationships.reason: AI-tell word `handoff` — try: pass off / pass to client
+  content/english/notes/selling-static-sites.md: relationships.reason: AI-tell word `handoff` - try: pass off / pass to client
+  content/english/notes/static-site-client-scope.md: relationships.reason: AI-tell word `handoff` - try: pass off / pass to client
 
 ```
 </details></tool-use>
@@ -764,7 +764,7 @@ Parameters:
 {
   "caseInsensitive": false,
   "path": "/home/jorap/Documents/GitHub/jorap.com/scripts",
-  "pattern": "em dash|—|8211"
+  "pattern": "em dash|-|8211"
 }
 ```
 Additional data:
@@ -774,7 +774,7 @@ Additional data:
   "isPruned": true,
   "outputMode": "content",
   "path": "/home/jorap/Documents/GitHub/jorap.com/scripts",
-  "pattern": "em dash|—|8211",
+  "pattern": "em dash|-|8211",
   "topFiles": [
     {
       "matchCount": 3,
@@ -1101,7 +1101,7 @@ _**Agent (auto-low)**_
 from pathlib import Path
 for p in [&#39;data/randomizer.yaml&#39;, &#39;content/english/pages/randomizer.md&#39;, &#39;assets/js/randomizer.js&#39;]:
     t = Path(p).read_text()
-    n = t.count(&#39;—&#39;)
+    n = t.count(&#39;-&#39;)
     print(f&#39;{p}: {n} em dashes&#39;)
 &#34; &amp;&amp; python3 scripts/notes-voice-sanitize.py --check content/english/pages/randomizer.md 2&gt;&amp;1 || true</summary>
 ```bash
@@ -1109,7 +1109,7 @@ cd /home/jorap/Documents/GitHub/jorap.com && python3 -c "
 from pathlib import Path
 for p in ['data/randomizer.yaml', 'content/english/pages/randomizer.md', 'assets/js/randomizer.js']:
     t = Path(p).read_text()
-    n = t.count('—')
+    n = t.count('-')
     print(f'{p}: {n} em dashes')
 " && python3 scripts/notes-voice-sanitize.py --check content/english/pages/randomizer.md 2>&1 || true
 ```
@@ -1134,7 +1134,7 @@ Parameters:
 {
   "caseInsensitive": false,
   "path": "/home/jorap/Documents/GitHub/jorap.com/assets/js/randomizer.js",
-  "pattern": "—"
+  "pattern": "-"
 }
 ```
 Additional data:
@@ -1144,7 +1144,7 @@ Additional data:
   "isPruned": true,
   "outputMode": "content",
   "path": "/home/jorap/Documents/GitHub/jorap.com/assets/js/randomizer.js",
-  "pattern": "—",
+  "pattern": "-",
   "topFiles": [
     {
       "matchCount": 1,
@@ -1283,7 +1283,7 @@ Example shift on ranking prompts:
 
 | Before | After |
 |--------|-------|
-| "Open situations and what-if scenarios. Name one concrete example — the group ranks it from 1 to 100." | "A theme on the card. You name one real thing; everyone ranks it 1-100 in their head." |
+| "Open situations and what-if scenarios. Name one concrete example - the group ranks it from 1 to 100." | "A theme on the card. You name one real thing; everyone ranks it 1-100 in their head." |
 | "Answer honestly." | "Pick your number honestly. Out loud or in your head - your call." |
 
 The 1,400+ game prompts themselves were already short and table-ready, so those stayed as-is aside from the nine em-dash fixes in conversation starters.

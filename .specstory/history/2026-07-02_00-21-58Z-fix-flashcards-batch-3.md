@@ -11,7 +11,7 @@ Fix flashcards in JoRap notes garden at /home/jorap/Documents/GitHub/jorap.com
 ## North star (MUST follow)
 Cards exist so the right move is already loaded when life shows up.
 - Front: first-person, present-tense, mid-action life cue (could happen this week)
-- Back: immediate move — imperative or decision in one breath
+- Back: immediate move - imperative or decision in one breath
 - NEVER split examples: field sentences across front/back
 - NEVER use third-person narrative fronts ("Our trainer...", "The shop...", "I do the same with...")
 - Front longer than back
@@ -26,7 +26,7 @@ literature-notes, local-first-software, love-god, low-hanging-fruit, maintenance
 ## Process per note
 1. Read content/english/notes/{stem}.md
 2. Read description, key_concept for the move
-3. Rewrite cards section — reference good decks: capture.md, free-grace.md
+3. Rewrite cards section - reference good decks: capture.md, free-grace.md
 4. Verify front > back length for each card
 
 ## Verify
@@ -1007,7 +1007,7 @@ cd /home/jorap/Documents/GitHub/jorap.com && npm run lint:cards 2>&1 | tail -5
 ```
 
 ```
-  content/english/notes/daily-notes.md: card front must be cue-only, not multiple choice (drop option lists like 'A or B?'): End of shift — log's just scribbled fragments and a coworker…
+  content/english/notes/daily-notes.md: card front must be cue-only, not multiple choice (drop option lists like 'A or B?'): End of shift - log's just scribbled fragments and a coworker…
   content/english/notes/deliberate-practice.md: card front must be cue-only, not multiple choice (drop option lists like 'A or B?'): Weak-hand finish keeps failing in scrimmage. What do I drill…
   content/english/notes/digital-garden.md: card front must be cue-only, not multiple choice (drop option lists like 'A or B?'): Playbook wiki still has last season's sets beside this year'…
   content/english/notes/eliminate-before-managing.md: card front must be cue-only, not multiple choice (drop option lists like 'A or B?'): Wobbly ladder for that high shelf. Add warnings or swap the …
@@ -1039,11 +1039,11 @@ An unknown error occurred
 
 _**Agent (auto-low)**_
 
-**32 notes fixed** — all stems in your batch pass north-star audit and `lint:cards`.
+**32 notes fixed** - all stems in your batch pass north-star audit and `lint:cards`.
 
 ### What changed
 - **Fronts:** first-person, present-tense life cues (no third-person setup, no split examples, no multiple choice)
-- **Backs:** short imperatives/decisions — no note titles, no truncated fragments, no definition sentences
+- **Backs:** short imperatives/decisions - no note titles, no truncated fragments, no definition sentences
 - **Preserved:** card counts (2/4/6/8) and `card_sets` unchanged in every file
 
 ### Notes fixed (32)

@@ -496,47 +496,47 @@ Your garden already wires this as a two-part story: **[[Free Grace]]** is the en
 | Note | What it adds |
 |------|----------------|
 | [Free Grace](/notes/free-grace/) | Core claim: eternal life is gift through faith, not wages for obedience |
-| [Eternal Rewards](/notes/eternal-rewards/) | Gift first, repayment second — Father pays faithful obedience *after* salvation |
+| [Eternal Rewards](/notes/eternal-rewards/) | Gift first, repayment second - Father pays faithful obedience *after* salvation |
 | [Eternal Principles](/notes/eternal-principles/) | MOC for the whole cluster; every command is “how to live after,” not “price of heaven” |
 
 ## Directly on eternal rewards
 
 These notes spell out *what* gets rewarded and *how* the Father pays:
 
-- **[Treasure in Heaven](/notes/treasure-in-heaven/)** — where to aim your heart; grace secured heaven, treasure is what you store after
-- **[Secret Devotion](/notes/secret-devotion/)** — hidden prayer, giving, fasting; Father sees and repays, not the audience
-- **[Let Your Light Shine](/notes/let-your-light-shine/)** — public good works that glorify God, paired with secret devotion (two lanes, same grace/reward logic)
-- **[Humility and Service](/notes/humility-and-service/)** — service as path to kingdom greatness/reward, not the price of grace
-- **[The Beatitudes](/notes/the-beatitudes/)** — kingdom blessings rooted in character shaped by grace, not self-made righteousness
-- **[Compounding](/notes/compounding/)** — PKM cross-link: daily faithfulness stacks over years; not a heroic-week merit binge
+- **[Treasure in Heaven](/notes/treasure-in-heaven/)** - where to aim your heart; grace secured heaven, treasure is what you store after
+- **[Secret Devotion](/notes/secret-devotion/)** - hidden prayer, giving, fasting; Father sees and repays, not the audience
+- **[Let Your Light Shine](/notes/let-your-light-shine/)** - public good works that glorify God, paired with secret devotion (two lanes, same grace/reward logic)
+- **[Humility and Service](/notes/humility-and-service/)** - service as path to kingdom greatness/reward, not the price of grace
+- **[The Beatitudes](/notes/the-beatitudes/)** - kingdom blessings rooted in character shaped by grace, not self-made righteousness
+- **[Compounding](/notes/compounding/)** - PKM cross-link: daily faithfulness stacks over years; not a heroic-week merit binge
 
 ## On free grace (entry and posture)
 
 These expand *how* salvation works and the posture that receives it:
 
-- **[Repent and Believe](/notes/repent-and-believe/)** — turn and trust; not a down payment on salvation
-- **[Childlike Faith](/notes/childlike-faith/)** — receive the kingdom like a gift, stop negotiating merit
-- **[Minimum Effective Dose](/notes/minimum-effective-dose/)** — faith is the smallest sufficient act; no merit ladder on top
-- **[Abide in Me](/notes/abide-in-me/)** — fruit from staying connected, not earning your spot on the vine
-- **[The Narrow Way](/notes/the-narrow-way/)** — narrow gate = Christ by faith; costly discipleship is distinct from how eternal life is received
+- **[Repent and Believe](/notes/repent-and-believe/)** - turn and trust; not a down payment on salvation
+- **[Childlike Faith](/notes/childlike-faith/)** - receive the kingdom like a gift, stop negotiating merit
+- **[Minimum Effective Dose](/notes/minimum-effective-dose/)** - faith is the smallest sufficient act; no merit ladder on top
+- **[Abide in Me](/notes/abide-in-me/)** - fruit from staying connected, not earning your spot on the vine
+- **[The Narrow Way](/notes/the-narrow-way/)** - narrow gate = Christ by faith; costly discipleship is distinct from how eternal life is received
 
 ## Commands that explicitly split grace from merit
 
 Almost every Sermon-on-the-Mount note has an `extends | [[Free Grace]]` row. The clearest ones for “obedience after, not payment for”:
 
-- **[Discipleship](/notes/discipleship/)** — grateful response after faith, not payment
-- **[Forgiveness](/notes/forgiveness/)** — forgive because an unpayable debt was already cleared
-- **[Love God](/notes/love-god/)** / **[Love Your Neighbor](/notes/love-your-neighbor/)** — love without keeping score for salvation
-- **[The Golden Rule](/notes/the-golden-rule/)** / **[Love Your Enemies](/notes/love-your-enemies/)** — treat others well because Christ treated you first
-- **[Take Up Your Cross](/notes/take-up-your-cross/)** — costly after faith saves; doesn’t earn eternal life
-- **[The Wise Builder](/notes/the-wise-builder/)** — faith saves; hearing without doing is sand
-- **[Great Commission](/notes/great-commission/)** — teach obedience after faith, not as works payment
+- **[Discipleship](/notes/discipleship/)** - grateful response after faith, not payment
+- **[Forgiveness](/notes/forgiveness/)** - forgive because an unpayable debt was already cleared
+- **[Love God](/notes/love-god/)** / **[Love Your Neighbor](/notes/love-your-neighbor/)** - love without keeping score for salvation
+- **[The Golden Rule](/notes/the-golden-rule/)** / **[Love Your Enemies](/notes/love-your-enemies/)** - treat others well because Christ treated you first
+- **[Take Up Your Cross](/notes/take-up-your-cross/)** - costly after faith saves; doesn’t earn eternal life
+- **[The Wise Builder](/notes/the-wise-builder/)** - faith saves; hearing without doing is sand
+- **[Great Commission](/notes/great-commission/)** - teach obedience after faith, not as works payment
 
 ## Useful contrasts (avoid mixing the two)
 
 | Pair | Why it helps |
 |------|----------------|
-| [[Secret Devotion]] ↔ [[Let Your Light Shine]] | Hidden vs public obedience — both under grace; eternal rewards covers both |
+| [[Secret Devotion]] ↔ [[Let Your Light Shine]] | Hidden vs public obedience - both under grace; eternal rewards covers both |
 | [[Free Grace]] ↔ [[Compounding]] | Grace contradicts treating stacked good works as heaven’s entry fee |
 | [[Treasure in Heaven]] ↔ [[The Collector's Fallacy]] | Hoarding earth vs storing what lasts |
 
@@ -1266,18 +1266,18 @@ Several notes were overlooked. These include integrity when no one is watching, 
 
 _**Agent (default)**_
 
-No new faith notes since the cluster landed — the spine is still **Free Grace** (2026-06-19), **Eternal Rewards** (2026-06-20), and the **Eternal Principles** MOC. What I left out last time:
+No new faith notes since the cluster landed - the spine is still **Free Grace** (2026-06-19), **Eternal Rewards** (2026-06-20), and the **Eternal Principles** MOC. What I left out last time:
 
 **Reward lane (hidden obedience)**
-- **[Integrity When No One's Watching](/notes/integrity-when-no-ones-watching/)** — workplace version of [[Secret Devotion]]; honest work with no audience, Father sees it
-- **[Workplace Principles](/notes/workplace-principles/)** — hub mapping office notes back to gospel sources (several reward/grace-adjacent)
+- **[Integrity When No One's Watching](/notes/integrity-when-no-ones-watching/)** - workplace version of [[Secret Devotion]]; honest work with no audience, Father sees it
+- **[Workplace Principles](/notes/workplace-principles/)** - hub mapping office notes back to gospel sources (several reward/grace-adjacent)
 
 **Still in the cluster, not on my first list**
-- **[Heart Righteousness](/notes/heart-righteousness/)** — inner motive under grace, not a new merit ladder
-- **[By Their Fruits](/notes/by-their-fruits/)** — discern by outcome, not hype
-- **[Reconciliation Before Worship](/notes/reconciliation-before-worship/)** — fellowship repair, not re-earning salvation
-- **[Render Unto Caesar](/notes/render-unto-caesar/)** — civic duty vs ultimate allegiance
-- **[Turn the Other Cheek](/notes/turn-the-other-cheek/)** / **[Let Your Yes Be Yes](/notes/let-your-yes-be-yes/)** — ethics freed by grace, not scored for heaven
+- **[Heart Righteousness](/notes/heart-righteousness/)** - inner motive under grace, not a new merit ladder
+- **[By Their Fruits](/notes/by-their-fruits/)** - discern by outcome, not hype
+- **[Reconciliation Before Worship](/notes/reconciliation-before-worship/)** - fellowship repair, not re-earning salvation
+- **[Render Unto Caesar](/notes/render-unto-caesar/)** - civic duty vs ultimate allegiance
+- **[Turn the Other Cheek](/notes/turn-the-other-cheek/)** / **[Let Your Yes Be Yes](/notes/let-your-yes-be-yes/)** - ethics freed by grace, not scored for heaven
 
 **Workplace mirrors worth reading**
 - **[Golden Rule at Work](/notes/golden-rule-at-work/)** → [[The Golden Rule]]
@@ -1287,14 +1287,14 @@ No new faith notes since the cluster landed — the spine is still **Free Grace*
 
 ---
 
-**Not in the garden yet** — concepts that would deepen the grace/rewards split if you wanted atomic notes:
+**Not in the garden yet** - concepts that would deepen the grace/rewards split if you wanted atomic notes:
 
 | Gap | Why it would help |
 |-----|-------------------|
 | **Justification** | Named once in [[Free Grace]] prose; no standalone note |
-| **Sanctification** | The "walk after" half of Ephesians 2:10 — mostly scattered across discipleship notes |
-| **Judgment seat / Bema** | Where eternal rewards get evaluated — [[Eternal Rewards]] cites Matthew but not 1 Cor 3:12–15 |
-| **Faith and works** | James 2 tension with sola fide — not addressed as its own note |
+| **Sanctification** | The "walk after" half of Ephesians 2:10 - mostly scattered across discipleship notes |
+| **Judgment seat / Bema** | Where eternal rewards get evaluated - [[Eternal Rewards]] cites Matthew but not 1 Cor 3:12–15 |
+| **Faith and works** | James 2 tension with sola fide - not addressed as its own note |
 | **Loss of reward vs loss of salvation** | Keeps people from collapsing the two categories |
 
 So: nothing newly published on this topic, a handful I skipped last round (especially **Integrity When No One's Watching**), and four–five atomic notes you could still write if you want the theology spelled out beyond what the Sermon-on-the-Mount cluster already covers.
@@ -1710,8 +1710,8 @@ flowchart TD
 
 ## Updated existing notes
 
-- **[[Eternal Principles]]** — new "Salvation and reward" section + five PKM cross-links
-- **[[Free Grace]]**, **[[Eternal Rewards]]**, **[[Discipleship]]**, **[[Abide in Me]]**, **[[The Wise Builder]]**, **[[The Narrow Way]]**, **[[Minimum Effective Dose]]**, **[[Treasure in Heaven]]** — body links and relationship rows back to the new notes
+- **[[Eternal Principles]]** - new "Salvation and reward" section + five PKM cross-links
+- **[[Free Grace]]**, **[[Eternal Rewards]]**, **[[Discipleship]]**, **[[Abide in Me]]**, **[[The Wise Builder]]**, **[[The Narrow Way]]**, **[[Minimum Effective Dose]]**, **[[Treasure in Heaven]]** - body links and relationship rows back to the new notes
 
 The order the MOC now teaches: grace → justification → sanctification/discipleship on one side; eternal rewards → judgment seat → loss of reward on the other, with faith-and-works bridging both without mixing salvation and repayment.
 
@@ -2155,24 +2155,24 @@ _**Agent (default)**_
 
 [Loss of Reward](/notes/loss-of-reward/) was already in the garden from the earlier batch. I strengthened the note and wired it across the cluster.
 
-**Core claim:** saved through fire with loss (1 Cor 3:12–15) — reward can shrink, eternal life stays on Christ.
+**Core claim:** saved through fire with loss (1 Cor 3:12–15) - reward can shrink, eternal life stays on Christ.
 
 **Now linked from:**
 
 | Note | Connection |
 |------|------------|
 | [[Free Grace]] | Grace secures life; reward-loss never un-does the gift |
-| [[Justification]] | Standing settled at faith — not re-opened when reward burns |
+| [[Justification]] | Standing settled at faith - not re-opened when reward burns |
 | [[Eternal Rewards]] / [[Judgment Seat]] | Reward ledger vs salvation ledger |
 | [[Sanctification]] / [[Discipleship]] | Keep growing after a wasted season |
 | [[Faith and Works]] / [[The Narrow Way]] / [[The Wise Builder]] | Stumbled believer vs false "Lord, Lord" |
 | [[Forgiveness]] | Fellowship breaks; standing stays |
 | [[Treasure in Heaven]] | Worthless stored treasure burns |
-| [[Compounding]] / [[Failure as Feedback]] | PKM mirrors — bad season is feedback, not proof you were never in |
+| [[Compounding]] / [[Failure as Feedback]] | PKM mirrors - bad season is feedback, not proof you were never in |
 | [[Eternal Principles]] MOC | Listed under "Salvation and reward" |
 | [[Maps of Content]] | Added under Faith |
 
-Six review cards are at [/notes/review/](/notes/review/) — filter **Priorities** or **Eternal Principles**.
+Six review cards are at [/notes/review/](/notes/review/) - filter **Priorities** or **Eternal Principles**.
 
 ---
 
@@ -2555,7 +2555,7 @@ cd /home/jorap/Documents/GitHub/jorap.com && hugo --gc 2>&1 | rg -i 'pipe wikili
 
 ```
 WARN  broken wikilink [[Sanctification]] in notes/discipleship.md
-WARN  pipe wikilink [[Loss of Reward|reward]] in notes/discipleship.md — use [[Loss of Reward]] only
+WARN  pipe wikilink [[Loss of Reward|reward]] in notes/discipleship.md - use [[Loss of Reward]] only
 WARN  broken wikilink [[Sanctification]] in notes/abide-in-me.md
 WARN  broken wikilink [[Loss of Reward]] in notes/the-narrow-way.md
 WARN  broken wikilink [[Sanctification]] in notes/eternal-principles.md
@@ -2786,17 +2786,17 @@ _**Agent (default)**_
 
 Both issues are fixed, plus one extra pipe link the linter would have caught next.
 
-**[[Sanctification]]** — added missing `contradicts` row:
+**[[Sanctification]]** - added missing `contradicts` row:
 ```text
 | contradicts | [[Compounding]] | when holiness streaks compound into proof I'm saved |
 ```
 
-**[[The Narrow Way]]** — replaced `[[Loss of Reward|lose reward]]` with plain `[[Loss of Reward]]` and tightened the sentence:
+**[[The Narrow Way]]** - replaced `[[Loss of Reward|lose reward]]` with plain `[[Loss of Reward]]` and tightened the sentence:
 ```text
 …not believers who stumbled - [[Loss of Reward]] may apply, but they stay saved.
 ```
 
-**[[Discipleship]]** (bonus) — same pipe pattern: `[[Loss of Reward|reward]]` → `[[Loss of Reward]]`.
+**[[Discipleship]]** (bonus) - same pipe pattern: `[[Loss of Reward|reward]]` → `[[Loss of Reward]]`.
 
 Rebuild or refresh [/notes/issues/](/notes/issues/) and those two notes should be clean.
 
@@ -3255,7 +3255,7 @@ Added a three-note cluster for your static-site client work plan. All three are 
 |------|--------|
 | [Selling Static Sites](/notes/selling-static-sites/) | Charge for the build; host on free GitHub + Cloudflare until limits force an upgrade |
 | [Free Tier Hosting Stack](/notes/free-tier-hosting-stack/) | Hugo → GitHub → Cloudflare Pages; ~500 builds/mo, unlimited bandwidth; pin Hugo/Node versions |
-| [Static Site Client Scope](/notes/static-site-client-scope/) | Portfolios, brochures, docs yes — carts, logins, daily non-technical CMS no |
+| [Static Site Client Scope](/notes/static-site-client-scope/) | Portfolios, brochures, docs yes - carts, logins, daily non-technical CMS no |
 
 ## How they connect
 
@@ -3698,7 +3698,7 @@ The expanded notes contain extra sections that violate the atomic note rule. Onl
 
 _**Agent (default)**_
 
-Restructuring expanded content into prose — the garden only allows `## Examples`, `## Note Relationships`, and `## See also` on atomic notes.
+Restructuring expanded content into prose - the garden only allows `## Examples`, `## Note Relationships`, and `## See also` on atomic notes.
 
 
 _**Agent (default)**_
@@ -4310,15 +4310,15 @@ Added the top two and wired them into the cluster.
 
 | Note | Claim |
 |------|--------|
-| [Git-Based CMS](/notes/git-based-cms/) | Sveltia/Decap commits markdown to GitHub — static pipeline unchanged, middle path before WordPress |
-| [Client Site Handoff](/notes/client-site-handoff/) | One publish path after the build: Git lesson, retainer, showroom branch, or git-based CMS — named before deposit |
+| [Git-Based CMS](/notes/git-based-cms/) | Sveltia/Decap commits markdown to GitHub - static pipeline unchanged, middle path before WordPress |
+| [Client Site Handoff](/notes/client-site-handoff/) | One publish path after the build: Git lesson, retainer, showroom branch, or git-based CMS - named before deposit |
 
 ## Updated
 
-- **[[Selling Static Sites]]** — handoff defers to [[Client Site Handoff]]
-- **[[Static Site Client Scope]]** — CMS + handoff in the “updates that fit” paragraph
-- **[[Maps of Content]]** — both notes listed under Express + four new cross-link rows
-- **[[Plain Commitments at Work]]** / **[[Share What You Learn]]** — back-links to handoff
+- **[[Selling Static Sites]]** - handoff defers to [[Client Site Handoff]]
+- **[[Static Site Client Scope]]** - CMS + handoff in the “updates that fit” paragraph
+- **[[Maps of Content]]** - both notes listed under Express + four new cross-link rows
+- **[[Plain Commitments at Work]]** / **[[Share What You Learn]]** - back-links to handoff
 
 ## Read order (5 notes)
 
@@ -7149,9 +7149,9 @@ Fixed. `git-based-cms.md` existed but the wikilink registry never picked it up.
 **Root cause:** The note was added after the cached registry (`notes-registry-v2`) was built. Hugo kept serving the stale registry, so `[[Git-Based CMS]]` failed in **Client Site Handoff** and **Selling Static Sites** even though the file was on disk. The future publish date (`2026-06-29T11:00:00Z`) also kept it out of non-`buildFuture` builds.
 
 **Changes:**
-1. **`git-based-cms.md`** — date set to `2026-06-28T10:00:00Z` so it publishes without `--buildFuture`
-2. **Registry cache** — bumped `notes-registry-v2` → `notes-registry-v3` in the four link-registry partials so the next rebuild rescans all notes
-3. **Formatting** — blank line before `## See also` (matches other notes)
+1. **`git-based-cms.md`** - date set to `2026-06-28T10:00:00Z` so it publishes without `--buildFuture`
+2. **Registry cache** - bumped `notes-registry-v2` → `notes-registry-v3` in the four link-registry partials so the next rebuild rescans all notes
+3. **Formatting** - blank line before `## See also` (matches other notes)
 
 Verified: both dev (`--buildFuture`) and plain `hugo --gc` builds report no `Git-Based CMS` broken wikilinks, and `public/notes/git-based-cms/` is generated.
 
@@ -7181,7 +7181,7 @@ _**Agent (default)**_
 The verification finished cleanly.
 
 - **Dev build** (`--buildDrafts --buildFuture`): no `Git-Based CMS` broken wikilink warnings  
-- **Prod-style build** (`hugo --gc`): same — clean  
+- **Prod-style build** (`hugo --gc`): same - clean  
 - **Output:** `public/notes/git-based-cms/` is generated
 
 The registry cache bump and backdated publish date did their job. Refresh `/notes/issues/` on your dev server; if it still shows the old count, restart `npm run dev` once.

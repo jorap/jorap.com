@@ -49,17 +49,17 @@ featured: false
 review: true
 card_sets: ["Jesus Rhythms", "Gospel", "Faith"]
 cards:
-  - front: "Teammate stranded on my off day. What does Sabbath for good demand?"
+  - front: "Teammate stranded on my off day - rest feels holy, help feels wrong."
     back: "Sabbath for good - help the person."
-  - front: "Skipped mercy because the rules felt holy. Who is Lord of the Sabbath?"
-    back: "Jesus - mercy over show."
-  - front: "Rest day but someone is bound and hurting. His Luke 13:10-16 move?"
+  - front: "Skipped mercy because the rules felt holy - policy over person."
+    back: "Mercy over show - help anyway."
+  - front: "Rest day but someone is bound and hurting - off-limits day."
     back: "Free them - Sabbath serves people."
-  - front: "Rigid Sabbath rules with no compassion. Who is Lord of the Sabbath?"
-    back: "For man - rest serves love."
-  - front: "Rigid rule-keeping with no compassion. What did He choose?"
+  - front: "Rigid Sabbath rules with no compassion - rest as scorekeeping."
+    back: "Rest serves love - mercy first."
+  - front: "Rigid rule-keeping with no compassion - worship of the schedule."
     back: "Good on the Sabbath - not theater."
-  - front: "Family needed me Sunday, I quoted policy. Copy His rhythm?"
+  - front: "Family needed me Sunday, I quoted policy - rest over mercy."
     back: "Mercy beats empty rules."
 draft: false
 ---

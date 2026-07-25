@@ -897,9 +897,9 @@ All project skills now live under **`.cursor/skills/`**.
 **Removed** the empty `.agents/` directory.
 
 **Updated** sync docs so Hugoplate upstream sync still works:
-- `sync-upstreams/SKILL.md` — rsyncs from Hugoplate’s `.agents/skills/` into `.cursor/skills/`
-- `sync-upstreams/preserve-lists.md` — paths updated
-- `ponytail-help/SKILL.md` — notes that all project skills are in `.cursor/skills/`
+- `sync-upstreams/SKILL.md` - rsyncs from Hugoplate’s `.agents/skills/` into `.cursor/skills/`
+- `sync-upstreams/preserve-lists.md` - paths updated
+- `ponytail-help/SKILL.md` - notes that all project skills are in `.cursor/skills/`
 
 ### Current layout (`.cursor/skills/`)
 

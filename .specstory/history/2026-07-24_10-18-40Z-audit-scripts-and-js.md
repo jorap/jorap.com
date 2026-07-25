@@ -28,7 +28,7 @@ Reading the ponytail-audit skill first. Pixi.js and notes-graph.js are excluded.
 
 _**Agent (composer-2.5-fast)**_
 
-Running a read-only ponytail audit on `scripts/` and `assets/js/` — I'll load the audit skill and scan those directories for over-engineering.
+Running a read-only ponytail audit on `scripts/` and `assets/js/` - I'll load the audit skill and scan those directories for over-engineering.
 
 
 _**Agent (composer-2.5-fast)**_
@@ -2814,7 +2814,7 @@ Scope: ~11,900 lines across active scripts and JS (excluding `assets/js/notes-gr
 |---|-----|-------------|-------------|---------|--------|
 | 1 | **yagni** | Five-file notes-random split (core + single + duo + select + featured) | One `notes-random.js` with `data-mode` / root selectors | `assets/js/notes-random-core.js` (489), `notes-random-single.js` (194), `notes-random-duo.js` (250), `notes-random-select.js` (44), `notes-random-featured.js` (76) | **~350** net |
 | 2 | **yagni** | Four voice linters + dynamic-import wrapper, duplicated `FRONTMATTER` regex + yaml load in each | One `voice_lint.py` with `--profile garden\|site\|dashes\|slop`; shared `load_note(path)` | `scripts/garden-voice-lint.py` (198), `notes-voice-lint.py` (277), `slop-lint.py` (358), `notes-voice-sanitize.py` (58), `voice-lint.py` (59) | **~300** net |
-| 3 | **delete** | Auto card writer (tier tables, card synthesis) — not in `lint:garden`, garden cards stable | `lint:cards` + manual edits | `scripts/sync-note-flashcards.py` | **393** |
+| 3 | **delete** | Auto card writer (tier tables, card synthesis) - not in `lint:garden`, garden cards stable | `lint:cards` + manual edits | `scripts/sync-note-flashcards.py` | **393** |
 | 4 | **delete** | One-shot red-letter JSON builder; output already in `data/` | Nothing (re-run from git history if NASB data changes) | `scripts/bible-red-letter-mark.py` | **151** |
 | 5 | **shrink** | Theme search UI fork (~505 lines) parallel to vendor module; only rank/filter differs | Keep override minimal: import `search-core.js` (already done) + diff-only patch vs `_vendor/.../search.js` | `assets/js/search.js` | **~100–400** (100 if trim dead template fallback; 400 if vendor diff eliminated) |
 | 6 | **shrink** | Write/migrate path in normalize tool; CI only runs `--verify` | Move verify into `lint-notes-frontmatter.py`; drop write path or `--write` only | `scripts/normalize-notes-format.py` (257 total; ~120 write) | **~120** |
@@ -2831,11 +2831,11 @@ Scope: ~11,900 lines across active scripts and JS (excluding `assets/js/notes-gr
 
 ## Already lean (don't cut)
 
-- **`assets/js/search-core.js` (91)** + **`scripts/test-search.mjs` (304)** — match/rank logic correctly shared; not duplicated in `search.js` body.
-- **`assets/js/randomizer.js` (628)** + **`scripts/lint-randomizer.py` (76)** — game UI vs YAML validator; not over-split. The split problem is **notes-random-***, not randomizer.
-- **`scripts/okf-viz/` (~1,031)** — wired from `export-okf-bundle.py`; separate from Obsidian graph. Keep unless OKF viz is dropped entirely.
-- **`scripts/import-from-obsidian.py` (177)** — `import:obsidian` in package.json; occasional maintainer tool, not migration cruft.
-- **`scripts/blog_shortcodes.py` (326)** — single caller (`export-okf-blog-bundle.py`); justified.
+- **`assets/js/search-core.js` (91)** + **`scripts/test-search.mjs` (304)** - match/rank logic correctly shared; not duplicated in `search.js` body.
+- **`assets/js/randomizer.js` (628)** + **`scripts/lint-randomizer.py` (76)** - game UI vs YAML validator; not over-split. The split problem is **notes-random-***, not randomizer.
+- **`scripts/okf-viz/` (~1,031)** - wired from `export-okf-bundle.py`; separate from Obsidian graph. Keep unless OKF viz is dropped entirely.
+- **`scripts/import-from-obsidian.py` (177)** - `import:obsidian` in package.json; occasional maintainer tool, not migration cruft.
+- **`scripts/blog_shortcodes.py` (326)** - single caller (`export-okf-blog-bundle.py`); justified.
 
 ---
 
@@ -2843,14 +2843,14 @@ Scope: ~11,900 lines across active scripts and JS (excluding `assets/js/notes-gr
 
 ```mermaid
 flowchart LR
-  subgraph game ["Game randomizer — OK"]
+  subgraph game ["Game randomizer - OK"]
     YAML[data/randomizer.yaml]
     LR[lint-randomizer.py]
     RJ[randomizer.js]
     YAML --> LR
     YAML --> RJ
   end
-  subgraph notes ["Notes random — over-split"]
+  subgraph notes ["Notes random - over-split"]
     RC[notes-random-core.js]
     RS[notes-random-single.js]
     RD[notes-random-duo.js]

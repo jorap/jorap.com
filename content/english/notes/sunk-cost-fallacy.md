@@ -54,6 +54,10 @@ cards:
     back: "Cancel it - past money's gone."
   - front: "Board game's boring and we are an hour in."
     back: "Stop - do not finish because we started."
+  - front: "POS keeps crashing but the install fee still stings."
+    back: "Would I buy fresh today - cut it."
+  - front: "Boring board game hour two - everyone miserable."
+    back: "Stop - sunk time is gone."
 draft: false
 ---
 

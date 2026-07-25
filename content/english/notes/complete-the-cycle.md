@@ -80,6 +80,10 @@ cards:
     back: "Name owner and deadline tonight."
   - front: "I told my kid I'd help with the project \"soon\" and watched it die in the backpack"
     back: "Name when and what I'll bring."
+  - front: "Halftime vague promise - no drill written down."
+    back: "Close the loop - one drill on the board."
+  - front: "Kid project half-started - promise without finish."
+    back: "Complete the cycle - finish the slice tonight."
 draft: false
 ---
 

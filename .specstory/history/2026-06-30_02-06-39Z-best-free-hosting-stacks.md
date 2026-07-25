@@ -68,7 +68,7 @@ Result:
   "isFinal": true,
   "references": [
     {
-      "chunk": "Links:\n1. [Hosting \u0026 PaaS Free Tier Comparison 2026 — Vercel vs Netlify vs Render vs Cloudflare vs Railway — AgentDeals](https://agentdeals.dev/hosting-free-tier-comparison-2026)\n2. [Cloud Hosting 2026: Vercel, Netlify, Cloudflare, Render, Fly.io](https://nextbyteblog.com/cloud-hosting-2026/)\n3. [Danube Data - Data, on the right course](https://danubedata.ro/blog/cloudflare-pages-vs-netlify-vs-vercel-static-hosting-2026)\n4. [Vercel vs Netlify vs Cloudflare vs Render 2026: real cost](https://gautamkhorana.com/blog/cloud-hosting-2026-vercel-netlify-cloudflare-render/)\n5. [Every Free Cloud Deploy Platform in 2026 — Ranked [Full List]](https://snapdeploy.dev/blog/free-cloud-deployment-platforms-2026-comparison)\n\nSynthesis:\nFor 2026, the best choice depends on whether you are hosting static sites or full-stack applications.\n\nFor static and Jamstack sites, Cloudflare Pages is the most generous option, offering unlimited bandwidth, 500 builds per month, and zero cold starts [1][2][3]. Vercel is the premium choice for Next.js due to deep framework integration, though its Hobby plan prohibits commercial use [1][2]. Netlify remains a strong contender with a credit-based free tier suitable for various frameworks [1][4].\n\nFor full-stack apps, Render is the most reliable choice. It offers free web services and PostgreSQL databases without needing a credit card, though services spin down after inactivity, causing 30-60 second cold starts [1][5][6]. Railway offers a streamlined, visual deployment experience but has moved to a trial-credit model rather than a permanent free tier [1][7][8]. Fly.io no longer offers a free tier for new accounts and requires a credit card [1][5][6].\n\nKey considerations:\n- Vercel Hobby: Excellent for Next.js but bans commercial use [1][2].\n- Cloudflare Pages: Best for static bandwidth and edge performance [1][3].\n- Render: Best for full-stack apps (web + database) if you 
+      "chunk": "Links:\n1. [Hosting \u0026 PaaS Free Tier Comparison 2026 - Vercel vs Netlify vs Render vs Cloudflare vs Railway - AgentDeals](https://agentdeals.dev/hosting-free-tier-comparison-2026)\n2. [Cloud Hosting 2026: Vercel, Netlify, Cloudflare, Render, Fly.io](https://nextbyteblog.com/cloud-hosting-2026/)\n3. [Danube Data - Data, on the right course](https://danubedata.ro/blog/cloudflare-pages-vs-netlify-vs-vercel-static-hosting-2026)\n4. [Vercel vs Netlify vs Cloudflare vs Render 2026: real cost](https://gautamkhorana.com/blog/cloud-hosting-2026-vercel-netlify-cloudflare-render/)\n5. [Every Free Cloud Deploy Platform in 2026 - Ranked [Full List]](https://snapdeploy.dev/blog/free-cloud-deployment-platforms-2026-comparison)\n\nSynthesis:\nFor 2026, the best choice depends on whether you are hosting static sites or full-stack applications.\n\nFor static and Jamstack sites, Cloudflare Pages is the most generous option, offering unlimited bandwidth, 500 builds per month, and zero cold starts [1][2][3]. Vercel is the premium choice for Next.js due to deep framework integration, though its Hobby plan prohibits commercial use [1][2]. Netlify remains a strong contender with a credit-based free tier suitable for various frameworks [1][4].\n\nFor full-stack apps, Render is the most reliable choice. It offers free web services and PostgreSQL databases without needing a credit card, though services spin down after inactivity, causing 30-60 second cold starts [1][5][6]. Railway offers a streamlined, visual deployment experience but has moved to a trial-credit model rather than a permanent free tier [1][7][8]. Fly.io no longer offers a free tier for new accounts and requires a credit card [1][5][6].\n\nKey considerations:\n- Vercel Hobby: Excellent for Next.js but bans commercial use [1][2].\n- Cloudflare Pages: Best for static bandwidth and edge performance [1][3].\n- Render: Best for full-stack apps (web + database) if you 
 … (output truncated)
 ```
 User decision: **accepted**
@@ -207,13 +207,13 @@ Organizing free hosting recommendations by use case. Static sites work well on C
 
 _**Agent (auto-low)**_
 
-Here’s a practical map of the **best free hosting stacks in 2026**, grouped by what you’re building. The landscape has tightened since Heroku killed its free tier and Fly.io/Railway mostly moved to paid or trial models — but static hosting is still genuinely free, and a few full-stack options remain usable if you accept cold starts.
+Here’s a practical map of the **best free hosting stacks in 2026**, grouped by what you’re building. The landscape has tightened since Heroku killed its free tier and Fly.io/Railway mostly moved to paid or trial models - but static hosting is still genuinely free, and a few full-stack options remain usable if you accept cold starts.
 
 ---
 
 ## Tier 1: Static sites and Jamstack (best value)
 
-These are the stacks where “free” still means free — no credit card, no commercial-use ban, no surprise bills.
+These are the stacks where “free” still means free - no credit card, no commercial-use ban, no surprise bills.
 
 | Stack | Best for | Why it wins | Main limits |
 |-------|----------|-------------|-------------|
@@ -222,7 +222,7 @@ These are the stacks where “free” still means free — no credit card, no co
 | **Next.js + Vercel** | Next.js apps with ISR, middleware, edge | Deepest Next.js integration | 100GB bandwidth; **Hobby plan bans commercial use** |
 | **Any static site + GitHub Pages** | Simplest possible setup | Zero config, tied to your repo | 100GB bandwidth, no serverless, basic features |
 
-**Winner for most static sites:** **Git + Cloudflare Pages**. That’s the stack you already document in your notes garden — and it’s still the strongest free option on bandwidth and scale. Netlify is the runner-up if you want richer platform features and can live inside the credit budget.
+**Winner for most static sites:** **Git + Cloudflare Pages**. That’s the stack you already document in your notes garden - and it’s still the strongest free option on bandwidth and scale. Netlify is the runner-up if you want richer platform features and can live inside the credit budget.
 
 ```mermaid
 flowchart LR
@@ -245,7 +245,7 @@ Here “free” comes with real tradeoffs: cold starts, spin-down, or time-limit
 | **Anything + Appwrite** | Hosting + auth + DB + storage in one | All-in-one without Firebase lock-in | Smaller ecosystem than Supabase/Firebase |
 | **Firebase + hosting** | Google auth, Firestore, hosting | Mobile-first, Google ecosystem teams | NoSQL-only; pricing can spike at scale |
 
-**Winner for “real backend on $0”:** **Render** — still the most complete honest free full-stack host (web service + static + Postgres in one place), if you can tolerate cold starts.
+**Winner for “real backend on $0”:** **Render** - still the most complete honest free full-stack host (web service + static + Postgres in one place), if you can tolerate cold starts.
 
 **Winner for BaaS:** **Supabase** free tier (500MB DB, 50k MAU auth) paired with Cloudflare Pages or Netlify for the frontend.
 
@@ -261,7 +261,7 @@ Here “free” comes with real tradeoffs: cold starts, spin-down, or time-limit
 | **AWS Lambda** | 1M requests/mo | Serverless only; AWS learning curve |
 | **Fly.io** | Effectively gone for new free accounts | Was great; now ~trial only |
 | **Railway** | $5 trial credit, then paid | No longer a permanent free tier |
-| **Heroku** | Gone since 2022 | — |
+| **Heroku** | Gone since 2022 | - |
 
 ---
 
@@ -275,7 +275,7 @@ If you’re willing to pay **~$4–6/mo for a VPS** (Hetzner, DigitalOcean, Orac
 | **VPS + Dokku** | `git push` Heroku-style deploys; battle-tested, minimal |
 | **VPS + Caddy + Docker Compose** | Roll your own; most control, most ops |
 
-**Oracle Cloud Always Free** (4 ARM Ampere cores, 24GB RAM) is the only major cloud with a genuinely permanent free VM tier — but signup friction and account termination stories are real.
+**Oracle Cloud Always Free** (4 ARM Ampere cores, 24GB RAM) is the only major cloud with a genuinely permanent free VM tier - but signup friction and account termination stories are real.
 
 ---
 
@@ -296,7 +296,7 @@ If you’re willing to pay **~$4–6/mo for a VPS** (Hetzner, DigitalOcean, Orac
 ## What changed in 2026 (worth knowing)
 
 1. **Netlify** → credit-based free tier (~300 credits/mo), not unlimited builds/bandwidth anymore.
-2. **Vercel Hobby** → still free, but **commercial use is explicitly prohibited** — ads, client work, or monetization means Pro.
+2. **Vercel Hobby** → still free, but **commercial use is explicitly prohibited** - ads, client work, or monetization means Pro.
 3. **Fly.io / Railway / Heroku** → no longer reliable “free forever” options for new projects.
 4. **Cloudflare Pages** → still the most generous static host (unlimited bandwidth, commercial OK, no card required).
 5. **Render** → the default free full-stack fallback, with cold-start pain as the price.
@@ -802,7 +802,7 @@ A practical playbook is being structured around eight areas: stretching free-tie
 
 Specific gaps were found in the current setup. The deploy script lacks an explicit Hugo cache directory flag, which would enable Cloudflare build caching. The wrangler.toml file also omits the HUGO_CACHEDIR variable used in netlify.toml. The playbook will include Astro and 11ty-specific tips, optional unlocks like PR previews and R2, and a five-step checklist.
 
-The response will stay focused on guidance rather than implementing code changes directly. A single high-impact tweak—passing `--cacheDir` in deployBuild.mjs when CF_PAGES=1—will be suggested as an optional improvement.
+The response will stay focused on guidance rather than implementing code changes directly. A single high-impact tweak-passing `--cacheDir` in deployBuild.mjs when CF_PAGES=1-will be suggested as an optional improvement.
 </details></think>
 
 _**Agent (auto-low)**_
@@ -817,7 +817,7 @@ Cloudflare Pages free tier is generous on **bandwidth** and stingy on **builds**
 
 | Resource | Free limit | Your leverage |
 |----------|------------|---------------|
-| Bandwidth | Unlimited | Ship WebP, lazy-load embeds — but don't over-optimize bandwidth |
+| Bandwidth | Unlimited | Ship WebP, lazy-load embeds - but don't over-optimize bandwidth |
 | Builds | ~500/month per account | Batch commits, skip non-deploy commits, cache builds |
 | Files/deploy | 20,000 | Keep images out of `static/` when possible; Hugo-pipe at build time |
 | Concurrent builds | 1 | Stagger multi-client deploys |
@@ -831,7 +831,7 @@ Your site at ~4,089 files / ~227 MB is healthy. The bottleneck you'll hit first 
 
 **Batch before you push.** Every `git push` = 1 build. Edit five notes, commit once.
 
-**Skip deploys that don't change the site.** Cloudflare honors `[skip ci]` / `[CI Skip]` in commit messages — use this for:
+**Skip deploys that don't change the site.** Cloudflare honors `[skip ci]` / `[CI Skip]` in commit messages - use this for:
 - Changelog / README / `.specstory` only
 - Version-bump bots
 - Agent session history commits
@@ -865,7 +865,7 @@ First build populates cache; subsequent builds should drop from ~20s toward sing
 
 ### Pin env vars in the Pages dashboard
 
-You document these in `wrangler.toml` — make sure they're actually set:
+You document these in `wrangler.toml` - make sure they're actually set:
 
 ```
 HUGO_VERSION=0.163.3
@@ -902,13 +902,13 @@ You already have the hard parts:
 **Already free on Cloudflare (don't pay for elsewhere):**
 - Global CDN + Brotli + HTTP/3
 - Free SSL + DDoS protection
-- [Web Analytics](https://developers.cloudflare.com/analytics/web-analytics/) (you're using the beacon — good; skip GA unless you need funnels)
+- [Web Analytics](https://developers.cloudflare.com/analytics/web-analytics/) (you're using the beacon - good; skip GA unless you need funnels)
 - Early Hints (automatic when assets are cacheable)
 
 **Still worth doing:**
-- **Self-host fonts** (you already do via `self-hosted-fonts.html`) — kills a third-party round trip
-- **Hugo `--minify`** (already in deploy) — smaller HTML
-- **Fingerprint everything fingerprintable** — your `_headers` immutable policy only helps when filenames change on content change
+- **Self-host fonts** (you already do via `self-hosted-fonts.html`) - kills a third-party round trip
+- **Hugo `--minify`** (already in deploy) - smaller HTML
+- **Fingerprint everything fingerprintable** - your `_headers` immutable policy only helps when filenames change on content change
 - **Preconnect** to `static.cloudflareinsights.com` if the analytics beacon is on every page (small win)
 
 **Don't bother on free tier:**
@@ -928,7 +928,7 @@ You already have the hard parts:
 | **Custom domain on CF DNS** | Orange-cloud = full CDN + SSL + redirect rules in one place |
 | **Private repos OK** | GitHub free private repos work fine with Pages |
 
-Your `_redirects` + apex→www rules are correct — keep DNS and Pages on the same Cloudflare account to avoid redirect loops.
+Your `_redirects` + apex→www rules are correct - keep DNS and Pages on the same Cloudflare account to avoid redirect loops.
 
 ---
 
@@ -991,7 +991,7 @@ All three: no server adapter, no database, `output: static`. Point Pages at the 
 | >500 builds/month | Client-owned accounts; `[skip ci]` discipline |
 | >20k files/deploy | R2 for media, or trim theme bloat |
 | Build >20 min | Hugo cacheDir; split heavy pre-build scripts |
-| Need always-on API | That's [[Building a Personal API]] territory — add Supabase or Render, not Pages |
+| Need always-on API | That's [[Building a Personal API]] territory - add Supabase or Render, not Pages |
 | Commercial SLA | Pages Pro ~$20/mo for build volume, not bandwidth |
 
 ---
@@ -1002,7 +1002,7 @@ All three: no server adapter, no database, `output: static`. Point Pages at the 
 2. **Add `--cacheDir .cache` to Hugo in `deployBuild.mjs`**
 3. **Confirm `HUGO_VERSION` / `NODE_VERSION` env vars are set in Pages** (not just in comments)
 4. **Use `[skip ci]` for non-site commits** (your `.specstory` churn alone could eat builds)
-5. **Template this repo** for client sites — you're already the reference implementation
+5. **Template this repo** for client sites - you're already the reference implementation
 
 ---
 
@@ -1022,7 +1022,7 @@ Dashboard → Build cache → Enable
 Add --cacheDir .cache to Hugo in deployBuild.mjs
 Confirm HUGO_VERSION / NODE_VERSION env vars are set in Pages (not just in comments)
 Use [skip ci] for non-site commits (your .specstory churn alone could eat builds)
-Template this repo for client sites — you're already the reference implementation
+Template this repo for client sites - you're already the reference implementation
 
 
 ---
@@ -1597,17 +1597,17 @@ Done. Here's what landed and what still needs your click.
 
 ### Implemented in repo
 
-1. **Hugo build cache dir** — `deployBuild.mjs` now passes `--cacheDir .cache` so Cloudflare can reuse Hugo's cache between builds.
+1. **Hugo build cache dir** - `deployBuild.mjs` now passes `--cacheDir .cache` so Cloudflare can reuse Hugo's cache between builds.
 
-2. **Build env vars in `wrangler.toml`** — no longer comment-only:
+2. **Build env vars in `wrangler.toml`** - no longer comment-only:
    - `HUGO_VERSION`, `NODE_VERSION`, `GO_VERSION`, `HUGO_ENV` in `[vars]`
    - Synced with `scripts/deploy-versions.json`
 
-3. **`pnpm run pages:setup`** — `scripts/pages-setup.mjs` verifies version pins and enables build cache via API when you pass `CLOUDFLARE_API_TOKEN` + `CLOUDFLARE_ACCOUNT_ID`; otherwise it prints the dashboard path.
+3. **`pnpm run pages:setup`** - `scripts/pages-setup.mjs` verifies version pins and enables build cache via API when you pass `CLOUDFLARE_API_TOKEN` + `CLOUDFLARE_ACCOUNT_ID`; otherwise it prints the dashboard path.
 
-4. **`[skip ci]` automation** — `.githooks/prepare-commit-msg` appends `[skip ci]` when staged files are only non-deploy paths (`.specstory/`, `docs/`, `.vscode/`, etc.). Plus `.cursor/rules/deploy-commits.mdc` for agents.
+4. **`[skip ci]` automation** - `.githooks/prepare-commit-msg` appends `[skip ci]` when staged files are only non-deploy paths (`.specstory/`, `docs/`, `.vscode/`, etc.). Plus `.cursor/rules/deploy-commits.mdc` for agents.
 
-5. **Client template** — `docs/CLIENT_STATIC_SITE.md` + `templates/client-site/` (`wrangler.toml.example`, `deploy-versions.json`, README).
+5. **Client template** - `docs/CLIENT_STATIC_SITE.md` + `templates/client-site/` (`wrangler.toml.example`, `deploy-versions.json`, README).
 
 Also updated: `README.md`, `docs/README.md`, garden note `free-tier-hosting-stack.md`.
 
@@ -1694,9 +1694,9 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 I need to verify the deployment stack doesn't over-engineer for free tier and actually works within those constraints. Looking at the specific dependencies: the Hugo cache directory flag is native and free, and Cloudflare Pages' free tier includes build cache support up to 10GB per project, so that's covered.
 
-The `pages-setup.mjs` script uses the Cloudflare API with a token, which works on free tier, but I'm realizing it might be over-engineered—enabling build cache is a one-time dashboard action, so wrapping it in a Node script with regex-based TOML parsing feels like YAGNI when a single curl command in the docs would suffice. That's the biggest candidate for cutting.
+The `pages-setup.mjs` script uses the Cloudflare API with a token, which works on free tier, but I'm realizing it might be over-engineered-enabling build cache is a one-time dashboard action, so wrapping it in a Node script with regex-based TOML parsing feels like YAGNI when a single curl command in the docs would suffice. That's the biggest candidate for cutting.
 
-I'm also noticing version management has become fragmented across three places now: `deploy-versions.json`, `wrangler.toml`, and `netlify.toml`, which creates drift. The version-drift checker in the setup script exists because I created the problem in the first place. And there's a duplicate `deploy-versions.json` in the templates directory that will diverge from the source. The git hook is fine—it's small and uses native git features. But I need to think through whether the verification angle of the audit is actually checking that everything runs on free tier services.
+I'm also noticing version management has become fragmented across three places now: `deploy-versions.json`, `wrangler.toml`, and `netlify.toml`, which creates drift. The version-drift checker in the setup script exists because I created the problem in the first place. And there's a duplicate `deploy-versions.json` in the templates directory that will diverge from the source. The git hook is fine-it's small and uses native git features. But I need to think through whether the verification angle of the audit is actually checking that everything runs on free tier services.
 </details></think>
 
 _**Agent (auto-low)**_
@@ -1723,7 +1723,7 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 I'm ready to deliver the audit now, starting with verifying the free-tier requirements. The `--cacheDir .cache` flag is a native Hugo option at no cost, Cloudflare Pages provides 10GB of build cache for free projects with the lockfile in place, and the `.cache` directory is properly gitignored.
 
-Everything checks out on the free tier—no paid dependencies introduced. Now looking at the over-engineering findings, the biggest issue is the version duplication I created: `deploy-versions.json` was the single source of truth, but now versions are scattered across three places (deploy-versions.json, wrangler.toml vars, and netlify.toml environment). The pages-setup script with its drift checker is really just a band-aid over this self-inflicted problem. But I'm realizing there's a correctness issue here—build-time variables like HUGO_VERSION can't actually be set via wrangler.toml, they need to be in the Cloudflare dashboard, which means the current setup might not even be working as intended. The repo's build process already handles Hugo versioning through ensureHugo, so the version variables in wrangler.toml are redundant—they're runtime vars anyway, not build-time ones. I'm identifying four concrete issues: the wrangler.toml vars don't do what the comment claims (either drop them or move to dashboard), pages-setup.mjs is over-engineered for a one-time dashboard task, templates/client-site/deploy-versions.json duplicates the real file and will drift, and there are now three version sources instead of two. I should also check whether netlify.toml is even active since the repo deploys to Cloudflare Pages—it might be dead code worth removing. I need to separate what actually needs to be in Cloudflare's dashboard versus what wrangler.toml can handle. NODE_VERSION and GO_VERSION are genuine build-time requirements that must be set in the dashboard, but HUGO_VERSION is redundant since ensureHugo already pins it from deploy-versions.json. Putting all three in wrangler [vars] gives false confidence because those are runtime Function variables, not build environment variables. This is the core free-tier correctness issue I should lead with, then move into the cleanup cuts.
+Everything checks out on the free tier-no paid dependencies introduced. Now looking at the over-engineering findings, the biggest issue is the version duplication I created: `deploy-versions.json` was the single source of truth, but now versions are scattered across three places (deploy-versions.json, wrangler.toml vars, and netlify.toml environment). The pages-setup script with its drift checker is really just a band-aid over this self-inflicted problem. But I'm realizing there's a correctness issue here-build-time variables like HUGO_VERSION can't actually be set via wrangler.toml, they need to be in the Cloudflare dashboard, which means the current setup might not even be working as intended. The repo's build process already handles Hugo versioning through ensureHugo, so the version variables in wrangler.toml are redundant-they're runtime vars anyway, not build-time ones. I'm identifying four concrete issues: the wrangler.toml vars don't do what the comment claims (either drop them or move to dashboard), pages-setup.mjs is over-engineered for a one-time dashboard task, templates/client-site/deploy-versions.json duplicates the real file and will drift, and there are now three version sources instead of two. I should also check whether netlify.toml is even active since the repo deploys to Cloudflare Pages-it might be dead code worth removing. I need to separate what actually needs to be in Cloudflare's dashboard versus what wrangler.toml can handle. NODE_VERSION and GO_VERSION are genuine build-time requirements that must be set in the dashboard, but HUGO_VERSION is redundant since ensureHugo already pins it from deploy-versions.json. Putting all three in wrangler [vars] gives false confidence because those are runtime Function variables, not build environment variables. This is the core free-tier correctness issue I should lead with, then move into the cleanup cuts.
 </details></think>
 
 _**Agent (auto-low)**_
@@ -1732,30 +1732,30 @@ _**Agent (auto-low)**_
 
 Nothing I added needs a paid plan. Verified:
 
-- `--cacheDir .cache` — native Hugo flag, free, and `.cache` is already gitignored.
-- Cloudflare Pages **build cache** — free tier (10 GB/project), and it requires a root lockfile → `pnpm-lock.yaml` is present. ✓
-- `pages-setup.mjs` Cloudflare API PATCH — free tier API, no cost.
-- Git hooks (`core.hooksPath`) + `[skip ci]` — native git + free CF feature.
+- `--cacheDir .cache` - native Hugo flag, free, and `.cache` is already gitignored.
+- Cloudflare Pages **build cache** - free tier (10 GB/project), and it requires a root lockfile → `pnpm-lock.yaml` is present. ✓
+- `pages-setup.mjs` Cloudflare API PATCH - free tier API, no cost.
+- Git hooks (`core.hooksPath`) + `[skip ci]` - native git + free CF feature.
 
-**One correctness caveat (out of audit scope but you asked):** `wrangler.toml [vars]` are *runtime* Pages-Functions variables — they are **not guaranteed to be build-time env vars**. So `NODE_VERSION`/`GO_VERSION` sitting in `[vars]` may *not* be picked up by the Cloudflare build runner. Those two still need to be set in **Dashboard → Settings → Build → environment variables**. `HUGO_VERSION` doesn't matter either way because `ensureHugo.mjs` already installs the pinned Hugo from `deploy-versions.json` on CF Pages (`CF_PAGES==1`).
+**One correctness caveat (out of audit scope but you asked):** `wrangler.toml [vars]` are *runtime* Pages-Functions variables - they are **not guaranteed to be build-time env vars**. So `NODE_VERSION`/`GO_VERSION` sitting in `[vars]` may *not* be picked up by the Cloudflare build runner. Those two still need to be set in **Dashboard → Settings → Build → environment variables**. `HUGO_VERSION` doesn't matter either way because `ensureHugo.mjs` already installs the pinned Hugo from `deploy-versions.json` on CF Pages (`CF_PAGES==1`).
 
 ---
 
 ## ponytail-audit (ranked, biggest cut first)
 
-`delete:` **`scripts/pages-setup.mjs`** — enabling build cache is a one-time dashboard click or one `curl`. A committed 120-line script that regex-parses TOML for a once-per-project op is over-built; its drift-check half only exists to police duplication this change introduced. Replacement: one `curl` + dashboard line in `docs/CLIENT_STATIC_SITE.md`. [scripts/pages-setup.mjs]
+`delete:` **`scripts/pages-setup.mjs`** - enabling build cache is a one-time dashboard click or one `curl`. A committed 120-line script that regex-parses TOML for a once-per-project op is over-built; its drift-check half only exists to police duplication this change introduced. Replacement: one `curl` + dashboard line in `docs/CLIENT_STATIC_SITE.md`. [scripts/pages-setup.mjs]
 
-`yagni:` **`HUGO_VERSION` in `wrangler.toml [vars]`** — `ensureHugo.mjs` already installs the pinned version from `deploy-versions.json` at build time. Dead belt-and-suspenders that also gives false confidence (`[vars]` ≠ build env). Drop it; keep `NODE_VERSION`/`GO_VERSION` but move them to the dashboard where they actually apply. [wrangler.toml]
+`yagni:` **`HUGO_VERSION` in `wrangler.toml [vars]`** - `ensureHugo.mjs` already installs the pinned version from `deploy-versions.json` at build time. Dead belt-and-suspenders that also gives false confidence (`[vars]` ≠ build env). Drop it; keep `NODE_VERSION`/`GO_VERSION` but move them to the dashboard where they actually apply. [wrangler.toml]
 
-`delete:` **`templates/client-site/deploy-versions.json`** — byte-for-byte copy of `scripts/deploy-versions.json`; guaranteed to drift. Replace with a one-line "copy `scripts/deploy-versions.json`" in the template README. [templates/client-site/deploy-versions.json]
+`delete:` **`templates/client-site/deploy-versions.json`** - byte-for-byte copy of `scripts/deploy-versions.json`; guaranteed to drift. Replace with a one-line "copy `scripts/deploy-versions.json`" in the template README. [templates/client-site/deploy-versions.json]
 
-`shrink:` **version source sprawl** — pins now live in 3 files (`deploy-versions.json`, `wrangler.toml [vars]`, `netlify.toml [build.environment]`). `deploy-versions.json` is the real source of truth (`ensureHugo` reads it). The other two are hand-maintained copies. Cutting the `wrangler.toml` versions (above) drops it back to 2. [wrangler.toml, netlify.toml]
+`shrink:` **version source sprawl** - pins now live in 3 files (`deploy-versions.json`, `wrangler.toml [vars]`, `netlify.toml [build.environment]`). `deploy-versions.json` is the real source of truth (`ensureHugo` reads it). The other two are hand-maintained copies. Cutting the `wrangler.toml` versions (above) drops it back to 2. [wrangler.toml, netlify.toml]
 
-`delete:` **`pnpm run pages:setup` script entry** — falls out with `pages-setup.mjs`. [package.json]
+`delete:` **`pnpm run pages:setup` script entry** - falls out with `pages-setup.mjs`. [package.json]
 
-`native:` **`templates/client-site/`** scaffold — Cloudflare Pages already clones from a Git template repo; a `templates/` subdir inside the live site repo will rot and ships to nobody. A `git template` repo or a one-paragraph "fork jorap.com, strip X" in the doc covers it. Borderline — keep if you actually copy from it. [templates/client-site/]
+`native:` **`templates/client-site/`** scaffold - Cloudflare Pages already clones from a Git template repo; a `templates/` subdir inside the live site repo will rot and ships to nobody. A `git template` repo or a one-paragraph "fork jorap.com, strip X" in the doc covers it. Borderline - keep if you actually copy from it. [templates/client-site/]
 
-**net: −150 lines, −0 deps possible.** The hooks (`prepare-commit-msg`, `setup-git-hooks.sh`) and the `--cacheDir` flag are lean — keep them.
+**net: −150 lines, −0 deps possible.** The hooks (`prepare-commit-msg`, `setup-git-hooks.sh`) and the `--cacheDir` flag are lean - keep them.
 
 ---
 
@@ -1970,7 +1970,7 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 I'm noticing a potential conflict between how `ensureHugo.mjs` caches the Hugo binary under `.cache/hugo/<version>/` and how `deployBuild.mjs` configures Hugo's `--cacheDir` to `.cache`, since Hugo uses that directory for its own caches like `_gen/` and `modules/`.
 
-But looking closer, the paths don't actually collide — the binary sits at `.cache/hugo/<ver>/hugo` while Hugo's internal caches go into subdirectories like `.cache/_gen` and `.cache/modules/filecache`, so they're isolated from each other.
+But looking closer, the paths don't actually collide - the binary sits at `.cache/hugo/<ver>/hugo` while Hugo's internal caches go into subdirectories like `.cache/_gen` and `.cache/modules/filecache`, so they're isolated from each other.
 
 Rather than running the full build, I'll just do a quick lint check on the modified files and verify the Node syntax on `deployBuild.mjs` to make sure everything still works.
 </details></think>
@@ -2036,12 +2036,12 @@ _**Agent (auto-low)**_
 Done. Cuts applied and all references cleaned up.
 
 ### Deleted
-- `scripts/pages-setup.mjs` — the 120-line regex-TOML one-time script. Build-cache enable is now a dashboard click or a single documented `curl`.
-- `templates/client-site/deploy-versions.json` — duplicate; template now points at the real `scripts/deploy-versions.json`.
+- `scripts/pages-setup.mjs` - the 120-line regex-TOML one-time script. Build-cache enable is now a dashboard click or a single documented `curl`.
+- `templates/client-site/deploy-versions.json` - duplicate; template now points at the real `scripts/deploy-versions.json`.
 - `pages:setup` entry in `package.json`.
 
 ### Corrected (the free-tier correctness fix)
-- `wrangler.toml` — dropped the version `[vars]`. They're runtime Function vars, not build vars, so they gave false confidence. Comment now says: set `NODE_VERSION`/`GO_VERSION` in **dashboard build variables**, Hugo handled by `ensureHugo.mjs`.
+- `wrangler.toml` - dropped the version `[vars]`. They're runtime Function vars, not build vars, so they gave false confidence. Comment now says: set `NODE_VERSION`/`GO_VERSION` in **dashboard build variables**, Hugo handled by `ensureHugo.mjs`.
 - Same correction propagated to `README.md`, `docs/CLIENT_STATIC_SITE.md`, `templates/client-site/*`, and the garden note.
 
 ### Kept (lean, verified)
@@ -2050,7 +2050,7 @@ Done. Cuts applied and all references cleaned up.
 
 Result: versions live in **one** file again (`deploy-versions.json`), no leftover references to the deleted script, `node --check` passes, no lint errors. Net ~150 lines gone.
 
-One real follow-up for you: since the versions are out of `wrangler.toml`, make sure `NODE_VERSION` (and `GO_VERSION` if your Hugo build pulls modules) are set in **Pages → Settings → Build → Variables** — otherwise Cloudflare picks its own Node default at build time.
+One real follow-up for you: since the versions are out of `wrangler.toml`, make sure `NODE_VERSION` (and `GO_VERSION` if your Hugo build pulls modules) are set in **Pages → Settings → Build → Variables** - otherwise Cloudflare picks its own Node default at build time.
 
 ---
 
@@ -2068,7 +2068,7 @@ I need to provide the user with a clear, step-by-step checklist of the manual ac
 
 _**Agent (auto-low)**_
 
-Here's everything you need to do by hand. The code changes are done — these are the account/dashboard actions I can't do from the repo.
+Here's everything you need to do by hand. The code changes are done - these are the account/dashboard actions I can't do from the repo.
 
 ## 1. Install the git hook (one command, do this now)
 
@@ -2106,7 +2106,7 @@ In **Settings → Build → Variables and Secrets** (build variables, *not* runt
 | `GO_VERSION` | `1.24.2` |
 | `HUGO_ENV` | `production` |
 
-> You do **not** need `HUGO_VERSION` here — `scripts/ensureHugo.mjs` installs the pinned Hugo (`0.163.3`) from `deploy-versions.json` at build time. Add it too if you want belt-and-suspenders, it won't hurt.
+> You do **not** need `HUGO_VERSION` here - `scripts/ensureHugo.mjs` installs the pinned Hugo (`0.163.3`) from `deploy-versions.json` at build time. Add it too if you want belt-and-suspenders, it won't hurt.
 
 ### c. Confirm build settings
 - **Build command:** `pnpm run deploy`
@@ -2114,7 +2114,7 @@ In **Settings → Build → Variables and Secrets** (build variables, *not* runt
 - **Production branch:** `main`
 
 ### d. Submodule cloning (only if your theme is a git submodule)
-**Settings → Build → Git** (or Source) → enable submodule cloning. Skip if `themes/jorap` is committed directly (check with `git submodule status` — if it prints nothing, skip this).
+**Settings → Build → Git** (or Source) → enable submodule cloning. Skip if `themes/jorap` is committed directly (check with `git submodule status` - if it prints nothing, skip this).
 
 ---
 
@@ -2145,13 +2145,13 @@ git commit -m "Maximize Cloudflare Pages free tier: build cache, [skip ci] hook,
 git push
 ```
 
-This commit touches `scripts/`, `content/`, etc., so it **will** deploy (correct — it changes the build). The hook only skips docs/specstory-only commits.
+This commit touches `scripts/`, `content/`, etc., so it **will** deploy (correct - it changes the build). The hook only skips docs/specstory-only commits.
 
 ---
 
 ## Optional: verify the cache works after first deploy
 
-The **first** build after enabling cache writes the cache; the **second** restores it. Watch the build log on your next-but-one deploy — Hugo's build time should drop from ~20s toward single digits.
+The **first** build after enabling cache writes the cache; the **second** restores it. Watch the build log on your next-but-one deploy - Hugo's build time should drop from ~20s toward single digits.
 
 ---
 
@@ -2162,7 +2162,7 @@ The **first** build after enabling cache writes the cache; the **second** restor
 - Client site template under `templates/client-site/` + `docs/CLIENT_STATIC_SITE.md`
 - Stale `pages-setup.mjs` removed, all references cleaned
 
-The only thing that **must** happen for builds to keep succeeding is **step 2b** (`NODE_VERSION` in the dashboard) — without it Cloudflare may pick a default Node that doesn't match your `engines: node >=22.22.2`. Everything else is optimization.
+The only thing that **must** happen for builds to keep succeeding is **step 2b** (`NODE_VERSION` in the dashboard) - without it Cloudflare may pick a default Node that doesn't match your `engines: node >=22.22.2`. Everything else is optimization.
 
 ---
 
@@ -2215,10 +2215,15 @@ _**User**_
 2026-06-30T03:02:10.462896Z	[32mPlatform 'linux' supported![39m
 2026-06-30T03:02:10.581304Z	  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
 2026-06-30T03:02:10.582137Z	                                 Dload  Upload   Total   Spent    Left  Speed
-2026-06-30T03:02:11.943157Z	  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0 66 74.8M   66 49.7M    0     0  53.1M      0  0:00:01 --:--:--  0:00:01 53.1M100 74.8M  100 74.8M    0     0  54.9M      0  0:00:01  0:00:01 --:--:-- 55.0M
+2026-06-30T03:02:11.943157Z	
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+ 66 74.8M   66 49.7M    0     0  53.1M      0  0:00:01 --:--:--  0:00:01 53.1M
+100 74.8M  100 74.8M    0     0  54.9M      0  0:00:01  0:00:01 --:--:-- 55.0M
 2026-06-30T03:02:11.963551Z	  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
 2026-06-30T03:02:11.964061Z	                                 Dload  Upload   Total   Spent    Left  Speed
-2026-06-30T03:02:12.117985Z	  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    64  100    64    0     0    413      0 --:--:-- --:--:-- --:--:--   415
+2026-06-30T03:02:12.117985Z	
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100    64  100    64    0     0    413      0 --:--:-- --:--:-- --:--:--   415
 2026-06-30T03:02:12.127122Z	verifying checksum
 2026-06-30T03:02:12.518969Z	/opt/buildhome/.asdf/downloads/golang/1.24.2/archive.tar.gz: OK
 2026-06-30T03:02:12.520341Z	[32mchecksum verified[39m
@@ -2374,7 +2379,7 @@ _**Agent (auto-low)**_
 _**Agent (auto-low)**_
 
 **Deploy succeeded.** Site is live. Here's what the log tells you.
-
+-
 ## Status: all good
 
 | Check | Result |
@@ -2382,7 +2387,7 @@ _**Agent (auto-low)**_
 | Build cache | Enabled — restored deps + build output, uploaded both at end |
 | Node / Go / pnpm | `22.22.2` / `1.24.2` / `11.7.0` detected from dashboard vars |
 | Hugo | CF had `0.147.7`; `ensureHugo.mjs` installed pinned `0.163.3` |
-| Hugo `--cacheDir` | Ran; cache written for next build |
+| Hugo `--cacheDir` | Ran; cache written for next build-|
 | Site output | 2019 pages, 3240 files uploaded |
 | Functions | Compiled and deployed (`/api/auth`, `/admin` middleware) |
 | Final | `Success: Your site was deployed!` |
@@ -2392,7 +2397,7 @@ You don't need to redo dashboard setup for this deploy — build cache and tool 
 ---
 
 ## One warning (fixed in repo)
-
+-
 ```
 Unexpected fields found in top-level field: "secrets"
 ```
@@ -2425,9 +2430,9 @@ If Hugo stays ~55s on deploy #2, check that `.cache` is under the project root (
 | **Total** | ~2m 24s |
 
 Most of the cost is Hugo rendering 2019 pages. Cache should shrink the Hugo line on repeat builds; it won't shrink page count.
-
----
-
+-
+----
+-
 ## Still optional (not blocking)
 
 1. **Git hook** — if you haven't run `sh scripts/setup-git-hooks.sh` locally, do that to auto-`[skip ci]` on `.specstory`-only commits.
@@ -3679,7 +3684,7 @@ Added the missing `contradicts` row:
 
 | contradicts | [[Faith and Works]] | when obedience is tried to re-earn standing instead of confess for fellowship |
 
-That should clear the structure lint (0 issues expected on next deploy with `--buildFuture`).
+That should clear the structu-e lint (0 issues expected on next deploy with `--buildFuture`).
 
 ---
 
@@ -3692,17 +3697,17 @@ Hub for faith in public life — dual allegiance without making any party ultima
 |------|------|
 | [[Render Unto Caesar]] | Civic duty vs ultimate worship |
 | [[Seek the Kingdom First]] | God's reign before the news cycle |
-| [[Love Your Neighbor]] | Neighbor-love across tribes |
+| [[Love Your Neighbor]] | Neighbor-love across tribes |-
 | [[Love Your Enemies]] | Opponents stay neighbors |
 | [[Treasure in Heaven]] | Don't make elections your treasure |
 | [[By Their Fruits]] / [[Heart Righteousness]] | Judge movements by fruit and motive |
-| [[Great Commission]] / [[Let Your Light Shine]] | Witness without partisan capture |
-| [[Signal vs Noise]] / [[Information Diet]] | PKM mirror — filter the political feed |
-| [[Peacemakers]] | De-escalation when debate isn't the move |
+| [[Great Commission]] / [-Let Your Light Shine]] | Witness without partisan capture |
+| [[Signal vs Noise]] / [[-nformation Diet]] | PKM mirror — filter the political feed |
+| [[Peacemakers]] | De-esc-lation when debate isn't the move |
 
 **Also updated:**
 - `eternal-principles.md` — listed under Church and world + PKM cross-link row
-- `render-unto-caesar.md` — See also link
+- `render-unto-caesar.md` — See also l-nk
 - `digital-minimalism.md` — political feeds as the same hoarding trap
 
 ---
@@ -3714,7 +3719,7 @@ Hub for faith in public life — dual allegiance without making any party ultima
 | **Partisan Captivity** | [[Treasure in Heaven]] + new hub cover idolizing a side |
 | **Civic Witness** | [[Let Your Light Shine]] + [[Great Commission]] |
 | **Political Peacemaking** | [[Peacemakers]] + [[Christianity and Politics]] |
-
+-
 Add a spinoff only if you want a drill card deck on one slice (e.g. "bless before you post").
 
 ---

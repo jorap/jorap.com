@@ -47,6 +47,20 @@ author: "JoRap"
 tags: ["Gospel", "Eternal Principles", "Free Grace", "Sanctification", "Holy Spirit"]
 aliases: ["walking by the Spirit", "Galatians 5:16"]
 featured: false
-review: false
+review: true
+card_sets: ["Eternal Principles", "Gospel", "Discipleship"]
+cards:
+  - front: "White-knuckled patience until Thursday - snapped anyway."
+    back: "Ask Spirit before the meeting - not perform virtue."
+  - front: "Travel week temptation - phone the easy exit."
+    back: "One prayed no - before scroll wins."
+  - front: "Willpower sprint collapsed by Friday - badge useless."
+    back: "Walk daily - depend, not willpower alone."
+  - front: "Flesh wants shortcut - fork in the hallway."
+    back: "Choose Spirit path - one step now."
+  - front: "Fruit performance without connection - dry inside."
+    back: "Abide first - walk follows union."
+  - front: "Walk feels like buying heaven - motive check?"
+    back: "Grateful steps - grace already received."
 draft: false
 ---

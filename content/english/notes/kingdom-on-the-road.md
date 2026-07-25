@@ -48,17 +48,17 @@ featured: false
 review: true
 card_sets: ["Jesus Rhythms", "Gospel", "Faith"]
 cards:
-  - front: "Sunday preaching, weekday integrity split. His road rhythm?"
+  - front: "Sunday preaching, weekday integrity split - same fork, different masks."
     back: "One bag - teach, preach, heal."
-  - front: "Big conference planned, neighbor ignored. Copy village pattern?"
+  - front: "Big conference planned, neighbor ignored - stage over street."
     back: "Kingdom on the road - next face too."
-  - front: "Three hats swapped by calendar. Matthew 9:35 was what?"
-    back: "Integrated rhythm - same journey."
-  - front: "Announce kingdom but hands stay clean of hurting people. Road move?"
+  - front: "Sunday preaching, weekday sales, neighbor never gets a visit."
+    back: "One journey - teach, preach, heal together."
+  - front: "Announce kingdom but hands stay clean of hurting people."
     back: "Teach and touch - together."
-  - front: "Hoard truth in one comfortable town. Luke 4:43 push?"
+  - front: "Hoard truth in one comfortable town - other cities never hear."
     back: "Other cities - keep going."
-  - front: "Word without deed on Tuesday. Fix from His pattern?"
+  - front: "Word without deed on Tuesday - talk only, no touch."
     back: "Kingdom on the road - both."
 draft: false
 ---

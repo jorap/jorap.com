@@ -15,7 +15,7 @@ fix hover on dark mode
 _**Agent (auto-high)**_
 
 <think><details><summary>Thought Process</summary>
- The user is reporting an issue with tag link hover states in dark mode—the background shifts to the accent color with white text, but this apparently isn't working as intended. I need to locate where this styling is defined so I can fix it.</details></think>
+ The user is reporting an issue with tag link hover states in dark mode-the background shifts to the accent color with white text, but this apparently isn't working as intended. I need to locate where this styling is defined so I can fix it.</details></think>
 
 _**Agent (auto-high)**_
 
@@ -221,7 +221,7 @@ _**Agent (auto-high)**_
 _**Agent (auto-high)**_
 
 <think><details><summary>Thought Process</summary>
- I see the issue now—the tag link sits inside `.content` which applies prose styling rules, so when hovering, `prose-a:hover:text-accent` is overriding the `hover:text-white` that should appear on the button. The prose rules are taking precedence and breaking the intended dark mode hover state.
+ I see the issue now-the tag link sits inside `.content` which applies prose styling rules, so when hovering, `prose-a:hover:text-accent` is overriding the `hover:text-white` that should appear on the button. The prose rules are taking precedence and breaking the intended dark mode hover state.
 
 The cleanest fix is to add `not-prose` to the tags section or the list itself so the prose styling doesn't interfere with the button's hover styles.</details></think>
 
@@ -331,7 +331,7 @@ _**Agent (auto-high)**_
 _**Agent (auto-high)**_
 
 <think><details><summary>Thought Process</summary>
- I've identified the issue—the `.prose` class is styling the tag links with muted text and underlines, plus an accent color on hover. I'll fix this by adding `not-prose` to the tags list element to exempt it from those prose styles.
+ I've identified the issue-the `.prose` class is styling the tag links with muted text and underlines, plus an accent color on hover. I'll fix this by adding `not-prose` to the tags list element to exempt it from those prose styles.
 
 Now I'm checking if the blog cards use the same tag markup, since they might need the same fix.</details></think>
 
@@ -390,7 +390,7 @@ Status: **completed**
 _**Agent (auto-high)**_
 
 <think><details><summary>Thought Process</summary>
- I found the issue—the tag links inside `.content` are getting their hover color overridden by the prose styling, making the text invisible against the accent background in both light and dark modes. Adding `not-prose` to the list should fix this, and I'm also noticing the underline from prose styling might be making the tags look off, though it's harder to spot in light mode.</details></think>
+ I found the issue-the tag links inside `.content` are getting their hover color overridden by the prose styling, making the text invisible against the accent background in both light and dark modes. Adding `not-prose` to the list should fix this, and I'm also noticing the underline from prose styling might be making the tags look off, though it's harder to spot in light mode.</details></think>
 
 _**Agent (auto-high)**_
 
@@ -412,7 +412,7 @@ _**Agent (auto-high)**_
 
 _**Agent (auto-high)**_
 
-The tag links live inside `.content` (which is `prose`). Prose adds `prose-a:hover:text-accent` and `prose-a:underline`, so the explicit `hover:text-white` is being overridden — on hover the text and background both become `accent`, making the label disappear (very noticeable in dark mode).
+The tag links live inside `.content` (which is `prose`). Prose adds `prose-a:hover:text-accent` and `prose-a:underline`, so the explicit `hover:text-white` is being overridden - on hover the text and background both become `accent`, making the label disappear (very noticeable in dark mode).
 
 Fix: opt the tag list out of prose with `not-prose`.
 
@@ -670,7 +670,7 @@ _**Agent (auto-high)**_
 _**Agent (auto-high)**_
 
 <think><details><summary>Thought Process</summary>
- I see the issue now—in dark mode, the accent color is nearly white, so when it becomes the background on hover, the white text disappears. I need to follow the convention of using a dark text color in dark mode, similar to how `.btn-primary` handles it with `text-white dark:text-text-dark`.
+ I see the issue now-in dark mode, the accent color is nearly white, so when it becomes the background on hover, the white text disappears. I need to follow the convention of using a dark text color in dark mode, similar to how `.btn-primary` handles it with `text-white dark:text-text-dark`.
 
 But I'm realizing the CSS variable naming is confusing me. Let me trace through how the color tokens actually resolve in dark mode versus light mode, particularly whether `--color-text-dark` stays fixed at `#161412` or gets overridden by the dark mode theme.</details></think>
 
@@ -733,7 +733,7 @@ Status: **completed**
 _**Agent (auto-high)**_
 
 <think><details><summary>Thought Process</summary>
- I'm realizing there's a contrast issue with the dark mode text color — `text-text-dark` becomes light in dark mode, which creates poor readability against light backgrounds. The button's dark mode styling needs adjustment since the accent background color combined with the light text isn't providing enough contrast.</details></think>
+ I'm realizing there's a contrast issue with the dark mode text color - `text-text-dark` becomes light in dark mode, which creates poor readability against light backgrounds. The button's dark mode styling needs adjustment since the accent background color combined with the light text isn't providing enough contrast.</details></think>
 
 _**Agent (auto-high)**_
 
@@ -751,9 +751,9 @@ _**Agent (auto-high)**_
 _**Agent (auto-high)**_
 
 <think><details><summary>Thought Process</summary>
- I'm realizing the issue with the color token naming — `--color-text-dark` stays `#161412` in both light and dark modes, so `dark:text-text-dark` correctly applies dark text on light backgrounds. But there's a separate `--color-darkmode-text-dark` token that's only used through semantic tokens, and I need to figure out how Tailwind exposes utilities for it.
+ I'm realizing the issue with the color token naming - `--color-text-dark` stays `#161412` in both light and dark modes, so `dark:text-text-dark` correctly applies dark text on light backgrounds. But there's a separate `--color-darkmode-text-dark` token that's only used through semantic tokens, and I need to figure out how Tailwind exposes utilities for it.
 
-The real problem might be that `hover:text-white` and `dark:hover:text-text-dark` are both applying in dark mode, and I'm not sure which one wins based on Tailwind v4's variant ordering — the dark variant should take precedence, but I need to verify that's actually happening since the user is reporting white text on white background.</details></think>
+The real problem might be that `hover:text-white` and `dark:hover:text-text-dark` are both applying in dark mode, and I'm not sure which one wins based on Tailwind v4's variant ordering - the dark variant should take precedence, but I need to verify that's actually happening since the user is reporting white text on white background.</details></think>
 
 _**Agent (auto-high)**_
 
@@ -806,15 +806,15 @@ Status: **completed**
 _**Agent (auto-high)**_
 
 <think><details><summary>Thought Process</summary>
- I'm realizing the core issue: in dark mode, the accent color is nearly white (`#f2efe9`), so when the user hovers over an element with `hover:bg-accent` and `hover:text-white`, they get white text on a near-white background—completely unreadable. My fix using `dark:hover:text-text-dark` should swap the text to a dark color for that hover state in dark mode.
+ I'm realizing the core issue: in dark mode, the accent color is nearly white (`#f2efe9`), so when the user hovers over an element with `hover:bg-accent` and `hover:text-white`, they get white text on a near-white background-completely unreadable. My fix using `dark:hover:text-text-dark` should swap the text to a dark color for that hover state in dark mode.
 
-The question now is whether the class is actually being applied—either the dev server hasn't picked up the changes, or Tailwind isn't detecting the `dark:hover:text-text-dark` utility class properly. Let me check if the build is running and verify the rendered CSS to confirm the fix is in place.
+The question now is whether the class is actually being applied-either the dev server hasn't picked up the changes, or Tailwind isn't detecting the `dark:hover:text-text-dark` utility class properly. Let me check if the build is running and verify the rendered CSS to confirm the fix is in place.
 
-Actually, I'm realizing a simpler approach: instead of relying on specificity between `hover:text-white` and `dark:hover:text-text-dark`, I can use `hover:text-surface` which automatically inverts based on the current mode—light text in dark mode, dark text in light mode—giving perfect contrast against the accent background in both cases.</details></think>
+Actually, I'm realizing a simpler approach: instead of relying on specificity between `hover:text-white` and `dark:hover:text-text-dark`, I can use `hover:text-surface` which automatically inverts based on the current mode-light text in dark mode, dark text in light mode-giving perfect contrast against the accent background in both cases.</details></think>
 
 _**Agent (auto-high)**_
 
-The accent in dark mode is `#f2efe9` (near-white), so `hover:bg-accent` + `hover:text-white` gives white on white. Using `text-surface` instead inverts automatically with the theme — it's dark in dark mode and light in light mode, so it always contrasts with `bg-accent`.
+The accent in dark mode is `#f2efe9` (near-white), so `hover:bg-accent` + `hover:text-white` gives white on white. Using `text-surface` instead inverts automatically with the theme - it's dark in dark mode and light in light mode, so it always contrasts with `bg-accent`.
 
 _**Agent (auto-high)**_
 
@@ -850,7 +850,7 @@ hover is not fixed.
 _**Agent (auto-high)**_
 
 <think><details><summary>Thought Process</summary>
- The hover state still isn't working as expected — it should apply the accent background with the surface text color. I'm wondering if Tailwind isn't recognizing `text-surface` as a valid class since it might not be used anywhere else in the project, so I need to verify that.</details></think>
+ The hover state still isn't working as expected - it should apply the accent background with the surface text color. I'm wondering if Tailwind isn't recognizing `text-surface` as a valid class since it might not be used anywhere else in the project, so I need to verify that.</details></think>
 
 _**Agent (auto-high)**_
 
@@ -923,7 +923,7 @@ Status: **completed**
 _**Agent (auto-high)**_
 
 <think><details><summary>Thought Process</summary>
- Checking if Tailwind has picked up the `text-surface` utility since `bg-surface` is already recognized—they should share the same color token. I need to verify what the `.dark` selector is targeting and whether the dev server needs a rebuild, or if the user is testing without recompiling the CSS.
+ Checking if Tailwind has picked up the `text-surface` utility since `bg-surface` is already recognized-they should share the same color token. I need to verify what the `.dark` selector is targeting and whether the dev server needs a rebuild, or if the user is testing without recompiling the CSS.
 
 Actually, I'm realizing the `prose-a:text-ink-muted` rule might still be overriding `text-ink` due to specificity, even though I added `not-prose` to the wrapper div. Let me double-check the current single.html to confirm the `not-prose` class is actually preventing prose styles from applying to the children.</details></think>
 

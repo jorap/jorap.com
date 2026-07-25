@@ -632,7 +632,7 @@ The RSS closing will shift to a plain five-feed recommendation.
 
 _**Agent (default)**_
 
-Found several posts that need voice fixes — the chicken adobo post is the worst offender. I'll rewrite those sections and tighten meta descriptions.
+Found several posts that need voice fixes - the chicken adobo post is the worst offender. I'll rewrite those sections and tighten meta descriptions.
 
 
 _**Agent (default)**_
@@ -1050,22 +1050,22 @@ Status: **completed**
 
 _**Agent (default)**_
 
-I audited all **15 published posts** against your JoRap voice skill. Most were already in good shape — the reference posts (`what-i-look-for-in-wireless-earphones`, `how-i-built-joraps-world`, `facebooks-hidden-gem`, `top-reasons-why-you-still-need-use-desktop-laptop`) plus `hugoplate-theme-review`, `top-reasons-create-maintain-your-own-website`, `power-of-worship-pads`, `power-of-the-mouse-wheel-click`, `miracle-isaiah-david`, `alex-eala-pro-career-tracker`, and `consistent-ai-output-wordpress-builds` all read like you wrote them.
+I audited all **15 published posts** against your JoRap voice skill. Most were already in good shape - the reference posts (`what-i-look-for-in-wireless-earphones`, `how-i-built-joraps-world`, `facebooks-hidden-gem`, `top-reasons-why-you-still-need-use-desktop-laptop`) plus `hugoplate-theme-review`, `top-reasons-create-maintain-your-own-website`, `power-of-worship-pads`, `power-of-the-mouse-wheel-click`, `miracle-isaiah-david`, `alex-eala-pro-career-tracker`, and `consistent-ai-output-wordpress-builds` all read like you wrote them.
 
 These **8 posts needed edits**:
 
 | Post | What changed |
 |------|----------------|
-| **instant-pot-chicken-adobo** | Biggest fix — replaced a 7-point AI listicle ("several key advantages", parallel bullets) with a short personal intro and 3 paragraphs on why you actually use the Instant Pot |
+| **instant-pot-chicken-adobo** | Biggest fix - replaced a 7-point AI listicle ("several key advantages", parallel bullets) with a short personal intro and 3 paragraphs on why you actually use the Instant Pot |
 | **set-it-forget-it-arroz-caldo** | Removed duplicate "game changer" phrasing and the "let me know if you try it" closer |
 | **getting-started-with-rss-feeds** | SEO `meta_title` toned down; removed engagement-bait ending |
-| **facebooks-hidden-gem** | Title and `meta_title` — dropped "Ultimate Guide" / "Transforms Your Social Media Experience" |
+| **facebooks-hidden-gem** | Title and `meta_title` - dropped "Ultimate Guide" / "Transforms Your Social Media Experience" |
 | **dnpap-song-resources** | `description` rewritten from "Discover everything about…" to first-person |
-| **power-of-the-mouse-wheel-click** | `description` — "I observe" → natural phrasing |
-| **consistent-ai-output-wordpress-builds** | `description` — less formulaic, more experiential |
+| **power-of-the-mouse-wheel-click** | `description` - "I observe" → natural phrasing |
+| **consistent-ai-output-wordpress-builds** | `description` - less formulaic, more experiential |
 | **miracle-isaiah-david** / **power-of-worship-pads** | `meta_title` tweaks to sound less generic |
 
-**Left alone:** Recipe method steps, Alex Eala tracker data/tables, DNPAP embed links, and HugoPlate shortcode demos — those are functional content, not voice problems.
+**Left alone:** Recipe method steps, Alex Eala tracker data/tables, DNPAP embed links, and HugoPlate shortcode demos - those are functional content, not voice problems.
 
 Drafts (`__*.md`) weren't touched. Want me to run the same pass on those before you publish?
 
@@ -1132,13 +1132,13 @@ _**Agent (default)**_
 
 Updated in three places:
 
-1. **"Why I use the Instant Pot"** — Clarifies you sear in a separate pan first to avoid burn notices; sauté mode is only for reducing the sauce at the end.
+1. **"Why I use the Instant Pot"** - Clarifies you sear in a separate pan first to avoid burn notices; sauté mode is only for reducing the sauce at the end.
 
-2. **Step 2** — Browning is now explicitly in a skillet or wok on the stovetop, not in the Instant Pot.
+2. **Step 2** - Browning is now explicitly in a skillet or wok on the stovetop, not in the Instant Pot.
 
-3. **Step 3** — Chicken goes into the pot after browning elsewhere; removed the "scrape browned bits" line since that was tied to sauté-mode browning in the IP.
+3. **Step 3** - Chicken goes into the pot after browning elsewhere; removed the "scrape browned bits" line since that was tied to sauté-mode browning in the IP.
 
-4. **Step 5** — Opens with "**Now** use Sauté mode" so it's clear that's when you turn it on.
+4. **Step 5** - Opens with "**Now** use Sauté mode" so it's clear that's when you turn it on.
 
 ---
 
@@ -1158,7 +1158,7 @@ Scanning all blog posts for AI tells. Will run a de-AI pass and fix issues.
 
 _**Agent (default)**_
 
-Running a full JoRap voice pass on every blog post — scanning for AI tells, em dashes, and off-voice phrasing, then fixing what we find.
+Running a full JoRap voice pass on every blog post - scanning for AI tells, em dashes, and off-voice phrasing, then fixing what we find.
 
 
 _**Agent (default)**_
@@ -1227,7 +1227,7 @@ Parameters:
   "glob": "*.md",
   "outputMode": "count",
   "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
-  "pattern": "—"
+  "pattern": "-"
 }
 ```
 Additional data:
@@ -1237,7 +1237,7 @@ Additional data:
   "isPruned": true,
   "outputMode": "count",
   "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
-  "pattern": "—",
+  "pattern": "-",
   "topFiles": [
     {
       "matchCount": 20,
@@ -1576,7 +1576,7 @@ Parameters:
   "glob": "*.md",
   "outputMode": "count",
   "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
-  "pattern": "—"
+  "pattern": "-"
 }
 ```
 Additional data:
@@ -1586,7 +1586,7 @@ Additional data:
   "isPruned": true,
   "outputMode": "count",
   "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
-  "pattern": "—",
+  "pattern": "-",
   "topFiles": [
     {
       "matchCount": 9,
@@ -1730,9 +1730,9 @@ count = 0
 files_changed = []
 for path in sorted(blog.glob(&#34;*.md&#34;)):
     text = path.read_text(encoding=&#34;utf-8&#34;)
-    if &#34;—&#34; not in text:
+    if &#34;-&#34; not in text:
         continue
-    new = text.replace(&#34; — &#34;, &#34; - &#34;).replace(&#34;—&#34;, &#34; - &#34;)
+    new = text.replace(&#34; - &#34;, &#34; - &#34;).replace(&#34;-&#34;, &#34; - &#34;)
     # collapse accidental triple spaces from edge cases
     while &#34;  &#34; in new:
         new = new.replace(&#34;  &#34;, &#34; &#34;)
@@ -1740,7 +1740,7 @@ for path in sorted(blog.glob(&#34;*.md&#34;)):
     new = re.sub(r&#34; -\s+([,.;:])&#34;, r&#34; \1&#34;, new)
     if new != text:
         path.write_text(new, encoding=&#34;utf-8&#34;)
-        n = text.count(&#34;—&#34;)
+        n = text.count(&#34;-&#34;)
         count += n
         files_changed.append((path.name, n))
 print(f&#34;Replaced em dashes in {len(files_changed)} files ({count} total)&#34;)
@@ -1757,9 +1757,9 @@ count = 0
 files_changed = []
 for path in sorted(blog.glob("*.md")):
     text = path.read_text(encoding="utf-8")
-    if "—" not in text:
+    if "-" not in text:
         continue
-    new = text.replace(" — ", " - ").replace("—", " - ")
+    new = text.replace(" - ", " - ").replace("-", " - ")
     # collapse accidental triple spaces from edge cases
     while "  " in new:
         new = new.replace("  ", " ")
@@ -1767,7 +1767,7 @@ for path in sorted(blog.glob("*.md")):
     new = re.sub(r" -\s+([,.;:])", r" \1", new)
     if new != text:
         path.write_text(new, encoding="utf-8")
-        n = text.count("—")
+        n = text.count("-")
         count += n
         files_changed.append((path.name, n))
 print(f"Replaced em dashes in {len(files_changed)} files ({count} total)")
@@ -1833,7 +1833,7 @@ Parameters:
   "glob": "*.md",
   "outputMode": "count",
   "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
-  "pattern": "—"
+  "pattern": "-"
 }
 ```
 Additional data:
@@ -1843,7 +1843,7 @@ Additional data:
   "isPruned": true,
   "outputMode": "count",
   "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
-  "pattern": "—",
+  "pattern": "-",
   "topFiles": [],
   "totalFiles": 0,
   "totalMatches": 0
@@ -2251,7 +2251,7 @@ Reviewed **41 blog posts** (15 published, 24 drafts; skipped templates). Here's 
 ### Site-wide fix: em dashes
 Per your updated skill rule, replaced **300 em dashes** across **30 files** with hyphens, commas, or parentheses. Also fixed nested list indentation that broke in `instant-pot-chicken-adobo.md` and `alex-eala-pro-career-tracker.md`.
 
-### Published posts (15) — status
+### Published posts (15) - status
 
 | Post | Status |
 |------|--------|
@@ -2271,7 +2271,7 @@ Per your updated skill rule, replaced **300 em dashes** across **30 files** with
 | `set-it-forget-it-arroz-caldo` | On voice |
 | `instant-pot-chicken-adobo` | On voice (em dashes + list indent fixed) |
 
-### Drafts (24) — content fixes
+### Drafts (24) - content fixes
 
 | Post | Fix |
 |------|-----|
@@ -2290,8 +2290,8 @@ Per your updated skill rule, replaced **300 em dashes** across **30 files** with
 - Remaining banned AI-slop phrases (except intentional bad-example quote in `__make-ai-articles-more-human`)
 
 ### Optional follow-ups (not done)
-- `__jobs-to-be-done-framework` — could use one real project anecdote
-- `__personal-immune-booster-supplements` — could use a "my morning stack" paragraph
-- `__craft-prompt-framework` — quoted meta-prompt still has "comprehensive" inside the example block
+- `__jobs-to-be-done-framework` - could use one real project anecdote
+- `__personal-immune-booster-supplements` - could use a "my morning stack" paragraph
+- `__craft-prompt-framework` - quoted meta-prompt still has "comprehensive" inside the example block
 
 Want me to tackle those three before you publish them?

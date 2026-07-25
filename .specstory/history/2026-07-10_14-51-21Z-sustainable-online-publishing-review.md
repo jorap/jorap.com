@@ -150,8 +150,8 @@ cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/notes-voice-lint.py
 
 ```
 Voice lint warnings:
-  content/english/notes/selling-static-sites.md: relationships.reason: AI-tell word `handoff` — try: pass off / pass to client
-  content/english/notes/static-site-client-scope.md: relationships.reason: AI-tell word `handoff` — try: pass off / pass to client
+  content/english/notes/selling-static-sites.md: relationships.reason: AI-tell word `handoff` - try: pass off / pass to client
+  content/english/notes/static-site-client-scope.md: relationships.reason: AI-tell word `handoff` - try: pass off / pass to client
 
 ```
 </details></tool-use>
@@ -168,19 +168,19 @@ Reviewed and tightened the draft against jorap-voice. It was already on the righ
 
 ### What changed
 
-**Opener** — Swapped the abstract "I wanted to put my work on the web" hook for the recurring real question ("why not just Facebook?") and tied it to the lost PHP hosting story from [How I Built JoRap Notes](/blog/how-i-built-jorap-notes/). Same lesson, different failure mode.
+**Opener** - Swapped the abstract "I wanted to put my work on the web" hook for the recurring real question ("why not just Facebook?") and tied it to the lost PHP hosting story from [How I Built JoRap Notes](/blog/how-i-built-jorap-notes/). Same lesson, different failure mode.
 
-**Plain words** — Cut jargon that doesn't sound spoken aloud: "canonical copy" → "the real copy", "amplification" → "when you want people to notice", "sole archives" → plainer lobby/library framing.
+**Plain words** - Cut jargon that doesn't sound spoken aloud: "canonical copy" → "the real copy", "amplification" → "when you want people to notice", "sole archives" → plainer lobby/library framing.
 
-**More lived detail** — Added the ninety-second deploy, no PHP cron jobs, Hugo version-number tip, messy wiki notes, Notion pricing risk. Specifics instead of abstract claims.
+**More lived detail** - Added the ninety-second deploy, no PHP cron jobs, Hugo version-number tip, messy wiki notes, Notion pricing risk. Specifics instead of abstract claims.
 
-**Section headings** — Renamed a few to sound more like you: "Social is a lobby, not a library", "What I don't mean by sustainable", "If you're starting from zero".
+**Section headings** - Renamed a few to sound more like you: "Social is a lobby, not a library", "What I don't mean by sustainable", "If you're starting from zero".
 
-**Structure** — Kept the checklist (that's fine for a real how-to-start list) but turned the "what sustainable doesn't mean" bullets into prose, and added "you don't need the full stack on day one" so it doesn't feel like a rigid recipe.
+**Structure** - Kept the checklist (that's fine for a real how-to-start list) but turned the "what sustainable doesn't mean" bullets into prose, and added "you don't need the full stack on day one" so it doesn't feel like a rigid recipe.
 
-**Frontmatter** — Description now mentions JoRap Notes and that the habit matters more than the tools.
+**Frontmatter** - Description now mentions JoRap Notes and that the habit matters more than the tools.
 
-**Overlap** — This post stays the philosophy slice; platform-death examples stay in [Top Reasons to Create and Maintain Your Own Website](/blog/top-reasons-create-maintain-your-own-website/) and the migration walkthrough stays in the JoRap Notes post.
+**Overlap** - This post stays the philosophy slice; platform-death examples stay in [Top Reasons to Create and Maintain Your Own Website](/blog/top-reasons-create-maintain-your-own-website/) and the migration walkthrough stays in the JoRap Notes post.
 
 Voice lint is clean on this file. `image` is still `/images/image-template.jpg` if you want a real hero image before publish.
 

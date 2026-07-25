@@ -32,9 +32,9 @@ logo:
 
 This project manages plain env vars in `wrangler.toml`. Only encrypted **secrets** can be set in the Cloudflare dashboard.
 
-1. **`GITHUB_CLIENT_ID`** — edit `wrangler.toml`, set `[vars].GITHUB_CLIENT_ID` to your OAuth app Client ID, commit, and deploy. (Client IDs are public; fine in git.)
+1. **`GITHUB_CLIENT_ID`** - edit `wrangler.toml`, set `[vars].GITHUB_CLIENT_ID` to your OAuth app Client ID, commit, and deploy. (Client IDs are public; fine in git.)
 
-2. **`GITHUB_CLIENT_SECRET`** — set once as an encrypted secret (pick one):
+2. **`GITHUB_CLIENT_SECRET`** - set once as an encrypted secret (pick one):
    - **Dashboard:** Pages → **jorap-com** → **Settings** → **Variables and Secrets** → **Add** → type **Secret** → name `GITHUB_CLIENT_SECRET`
    - **CLI:** `pnpm exec wrangler pages secret put GITHUB_CLIENT_SECRET --project-name jorap-com`
 
@@ -89,6 +89,6 @@ See [`TROUBLESHOOTING.md`](./TROUBLESHOOTING.md) for redirects, Functions 404, b
 
 ## References
 
-- [Sveltia CMS — Getting started](https://sveltiacms.app/en/docs/start)
-- [Sveltia CMS — Customization (logo, app title)](https://sveltiacms.app/en/docs/customization)
+- [Sveltia CMS - Getting started](https://sveltiacms.app/en/docs/start)
+- [Sveltia CMS - Customization (logo, app title)](https://sveltiacms.app/en/docs/customization)
 - [Migrating from Netlify or Decap CMS](https://sveltiacms.app/en/docs/migration/netlify-decap-cms)

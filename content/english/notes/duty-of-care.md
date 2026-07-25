@@ -50,6 +50,10 @@ cards:
     back: "Close it - watch even when signs exist."
   - front: "Night shift, alarm trips, and posted rules are the only \"guard.\" What's missing?"
     back: "Someone watching the exit."
+  - front: "Crash cart check skipped last shift - assuming someone else did it."
+    back: "Check the cart - duty before convenience."
+  - front: "Night alarm trip - posted rules are the only defense on the floor."
+    back: "Assume risk exists - verify equipment each shift."
 draft: false
 ---
 

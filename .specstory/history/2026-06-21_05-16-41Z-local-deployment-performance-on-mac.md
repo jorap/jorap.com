@@ -1346,7 +1346,7 @@ Your shell PATH has Homebrew’s **0.163.3**:
 /opt/homebrew/bin/hugo → v0.163.3
 ```
 
-`ensureHugo.mjs` only auto-downloads Hugo on **Linux and Windows** — on macOS `assetForPlatform()` returns `null`, so it exits with:
+`ensureHugo.mjs` only auto-downloads Hugo on **Linux and Windows** - on macOS `assetForPlatform()` returns `null`, so it exits with:
 
 ```
 [deploy] Hugo 0.163.3 != pinned 0.163.2; installing pinned version...
@@ -1396,7 +1396,7 @@ Root cause: **`graph-data.html` rebuilds the full wikilink graph on every note p
 {{- $graph := partial "notes/graph-data.html" . -}}
 ```
 
-`graph-data.html` loops every note × every note with regex — O(n²). It runs ~87 times per build instead of once. `backlinks.html` does a similar full scan per page.
+`graph-data.html` loops every note × every note with regex - O(n²). It runs ~87 times per build instead of once. `backlinks.html` does a similar full scan per page.
 
 Other partials like `link-registry.html` already use `partialCached`; graph data does not.
 
@@ -1406,9 +1406,9 @@ Other partials like `link-registry.html` already use `partialCached`; graph data
 
 From `package.json`:
 
-- **`pnpm dev`** — development Hugo, fast render, ~14s initial build (2,232 pages with drafts). Use this for day-to-day work.
-- **`pnpm watch`** — production mode with `--disableFastRender`, `--minify`, `-e production`, `--forceSyncStatic`. Every change triggers a full ~13s+ rebuild. That’s why it feels slow.
-- **`pnpm deploy` / `pnpm build`** — full production pipeline including CSP hashing. Expected to be slower.
+- **`pnpm dev`** - development Hugo, fast render, ~14s initial build (2,232 pages with drafts). Use this for day-to-day work.
+- **`pnpm watch`** - production mode with `--disableFastRender`, `--minify`, `-e production`, `--forceSyncStatic`. Every change triggers a full ~13s+ rebuild. That’s why it feels slow.
+- **`pnpm deploy` / `pnpm build`** - full production pipeline including CSP hashing. Expected to be slower.
 
 `--forceSyncStatic` alone adds roughly **3–4s** vs a build without it.
 
@@ -1416,9 +1416,9 @@ From `package.json`:
 
 ## Summary
 
-1. **Deploy may fail** if Homebrew Hugo (0.163.3) is on PATH instead of mise’s 0.163.2 — not a slowness issue, a version gate.
-2. **Scripts are fast** — theme/dates/CSP are under ~1s combined.
-3. **Hugo + notes templates** — ~8–13s, mostly from uncached `graph-data` and per-page `backlinks`.
+1. **Deploy may fail** if Homebrew Hugo (0.163.3) is on PATH instead of mise’s 0.163.2 - not a slowness issue, a version gate.
+2. **Scripts are fast** - theme/dates/CSP are under ~1s combined.
+3. **Hugo + notes templates** - ~8–13s, mostly from uncached `graph-data` and per-page `backlinks`.
 4. **Use `pnpm dev` for local work**, not `pnpm watch`, unless you need production parity.
 
 ---
@@ -1426,7 +1426,7 @@ From `package.json`:
 ## Quick wins (if you want fixes)
 
 1. **Activate mise** in your shell so `pnpm deploy` works reliably.
-2. **Cache graph data** — change `graph-data-local.html` to use `partialCached "notes/graph-data.html" site "..."` so the graph builds once per site, not once per note.
+2. **Cache graph data** - change `graph-data-local.html` to use `partialCached "notes/graph-data.html" site "..."` so the graph builds once per site, not once per note.
 3. **Use `pnpm dev`** instead of `pnpm watch` for local editing.
 4. Optionally bump `deploy-versions.json` to `0.163.3` to match Homebrew, or teach `ensureHugo` to accept patch-level drift on macOS.
 

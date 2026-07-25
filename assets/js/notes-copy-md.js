@@ -41,7 +41,7 @@
   var btns = document.querySelectorAll("[data-notes-copy]");
   Array.prototype.forEach.call(btns, wire);
 
-  // ponytail: self-check — fails if first embed regresses
+  // ponytail: self-check - fails if first embed regresses
   if (typeof console !== "undefined" && console.assert && btns.length) {
     var firstWrap = btns[0].closest(".notes-copy-wrap");
     var firstData = firstWrap && firstWrap.querySelector(".notes-copy-data");

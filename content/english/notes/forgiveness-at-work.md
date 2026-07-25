@@ -49,6 +49,10 @@ cards:
     back: "Release the grudge - write what I'd need to trust him."
   - front: "Neighbor's parking habit still bugging me months later. What am I not pretending?"
     back: "It happened - I'm not replaying it forever."
+  - front: "Forgiveness feels like letting them win - wrong frame?"
+    back: "Release debt - free yourself from the ledger."
+  - front: "They never apologized - forgiveness still on the table?"
+    back: "Forgive heart - boundaries if needed."
 draft: false
 ---
 

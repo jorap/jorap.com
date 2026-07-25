@@ -956,10 +956,10 @@ Each note now has an `extends` row tied to a wikilink already in the Key Concept
 
 | Note | Extends |
 |------|---------|
-| **Render Unto Caesar** | [[Seek the Kingdom First]] — kingdom-first still pays lawful civic duty |
-| **Repent and Believe** | [[Free Grace]] — kingdom entry is receive as gift, not earn by fixing habits first |
-| **Love God** | [[Free Grace]] — first call on a life already saved |
-| **Low Hanging Fruit** | [[Pareto Principle]] — easy wins are often the vital slice |
+| **Render Unto Caesar** | [[Seek the Kingdom First]] - kingdom-first still pays lawful civic duty |
+| **Repent and Believe** | [[Free Grace]] - kingdom entry is receive as gift, not earn by fixing habits first |
+| **Love God** | [[Free Grace]] - first call on a life already saved |
+| **Low Hanging Fruit** | [[Pareto Principle]] - easy wins are often the vital slice |
 
 The four new `extends` pairs are also in `scripts/sync-note-relationships.py` so future sync runs keep them.
 
@@ -986,9 +986,9 @@ _**Agent (auto-low)**_
 
 All five structure issues are cleared.
 
-**Note Relationships** — fixed the broken Key Concept paragraph that was registering as an extra `##` section.
+**Note Relationships** - fixed the broken Key Concept paragraph that was registering as an extra `##` section.
 
-**Four notes** — added missing `extends` rows:
+**Four notes** - added missing `extends` rows:
 - Render Unto Caesar → [[Seek the Kingdom First]]
 - Repent and Believe → [[Free Grace]]
 - Love God → [[Free Grace]]
@@ -1871,11 +1871,11 @@ Added three notes that extend the rollback cluster, and wired them into notes al
 
 | Note | Role |
 |------|------|
-| **Blameless Postmortem** | Learn system causes after rollback restores calm — not who to punish |
+| **Blameless Postmortem** | Learn system causes after rollback restores calm - not who to punish |
 | **Staged Rollout** | Ship to a small slice first so undo stays cheap |
 | **Change Window** | Schedule risky deploys when the revert crew is awake |
 
-### Rollback Principle — new links
+### Rollback Principle - new links
 
 - `alternative` → Blameless Postmortem
 - `extends` → Change Window, Staged Rollout
@@ -1886,9 +1886,9 @@ Added three notes that extend the rollback cluster, and wired them into notes al
 
 **Ops / safety:** Reversibility, Risk Management, Safety by Design, Free Tier Hosting Stack, Preparedness, Standard Operating Procedures, Hierarchy of Controls, Maintenance Window
 
-**Tension:** Ship It — now contradicts Change Window and Staged Rollout (Attention to Detail row kept)
+**Tension:** Ship It - now contradicts Change Window and Staged Rollout (Attention to Detail row kept)
 
-The garden issues page is clean — all three new notes have `extends` and `contradicts` rows, and every wikilink resolves.
+The garden issues page is clean - all three new notes have `extends` and `contradicts` rows, and every wikilink resolves.
 
 ---
 
@@ -2044,7 +2044,7 @@ A syntax error remains in sync-note-relationships.py from the earlier edit.
 
 _**Agent (auto-low)**_
 
-The sync script has a syntax error from the earlier edit — fixing that first, then normalizing the tables.
+The sync script has a syntax error from the earlier edit - fixing that first, then normalizing the tables.
 
 
 _**Agent (auto-low)**_
@@ -2206,11 +2206,11 @@ _**Agent (auto-low)**_
 
 Fixed. Two things were blocking clean tables:
 
-1. **Syntax error in `sync-note-relationships.py`** — the `break-the-escalation-cycle` entry lost its key when the rollback notes were added. Restored it so the script runs again.
+1. **Syntax error in `sync-note-relationships.py`** - the `break-the-escalation-cycle` entry lost its key when the rollback notes were added. Restored it so the script runs again.
 
 2. **Ran both normalizers across the garden:**
-   - `sync-note-relationships.py` — sorted every `## Note Relationships` table (relationship a-z, then wikilink a-z) and merged scripted rows
-   - `normalize-notes-format.py` — removed duplicate rows (same target linked twice), normalized dashes, trimmed formatting
+   - `sync-note-relationships.py` - sorted every `## Note Relationships` table (relationship a-z, then wikilink a-z) and merged scripted rows
+   - `normalize-notes-format.py` - removed duplicate rows (same target linked twice), normalized dashes, trimmed formatting
 
 **207 notes** updated. Tables are now consistently sorted with one row per wikilink target. The garden issues page is clean.
 
@@ -2724,7 +2724,7 @@ Fixed the **Fruits of the Spirit** note and wired the garden echo table through 
 | Self-control | Self-Control (already `alternative`) |
 
 ### Bidirectional links added (10 notes)
-Love God, Love Your Neighbor, Love Your Enemies, Assurance, Don't Worry, Slow the Moment, Mercy, Let Your Light Shine, Faithful Steward, Humility and Service — each now has an `extends` row back to Fruits of the Spirit.
+Love God, Love Your Neighbor, Love Your Enemies, Assurance, Don't Worry, Slow the Moment, Mercy, Let Your Light Shine, Faithful Steward, Humility and Service - each now has an `extends` row back to Fruits of the Spirit.
 
 Tables were re-sorted via the sync script.
 
@@ -4333,4 +4333,4 @@ Added the missing `contradicts` row to **Gentleness**:
 
 | contradicts | [[Let Your Light Shine]] | when grabbing the spotlight replaces serving without strutting |
 
-That matches the example about helping a neighbor move then waiting for credit in the group chat — visibility grab vs meek service. The sync script already had this pair, so only the note needed updating.
+That matches the example about helping a neighbor move then waiting for credit in the group chat - visibility grab vs meek service. The sync script already had this pair, so only the note needed updating.

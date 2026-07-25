@@ -502,9 +502,9 @@ Level 4 for "local-first-software" says pick tools that work offline with full f
 
 Drafting Levels 1 and 2 for "loss-of-reward": use what you are given and it can grow, like watering a plant instead of hiding the seed in a drawer where nothing happens. The faithful servant compounds what the master gave; burying it and even that talent can be lost, while salvation stays on Christ alone.
 
-Level 3 for "loss-of-reward" warns that worthless works burn at the judgment seat, while eternal life remains secure on faith. Level 4 says serve with what you have now, because wasted seasons may cost reward at the Judgment Seat without reopening justification. Level 5 introduces two ledgers: Free Grace settles eternal life at faith, and Eternal Rewards settle what lasted—wood, hay, and stubble burn, but gold stays, and Standing versus Fellowship keeps shame from collapsing standing. The next note is "love-god."
+Level 3 for "loss-of-reward" warns that worthless works burn at the judgment seat, while eternal life remains secure on faith. Level 4 says serve with what you have now, because wasted seasons may cost reward at the Judgment Seat without reopening justification. Level 5 introduces two ledgers: Free Grace settles eternal life at faith, and Eternal Rewards settle what lasted-wood, hay, and stubble burn, but gold stays, and Standing versus Fellowship keeps shame from collapsing standing. The next note is "love-god."
 
-Drafting Levels 1 through 4 for "love-god." Level 1 compares loving God with your whole life to loving your family all week, not only on Sunday. Level 2 frames whole-person devotion as heart, mind, and daily choices rather than a weekly corner visit. Level 3 demands all of you—heart, soul, mind, and strength—not a compartment opened once a week. Level 4 calls for auditing where time and attention actually go; if God gets one hour and everything else gets the week, devotion is partitioned, not whole.
+Drafting Levels 1 through 4 for "love-god." Level 1 compares loving God with your whole life to loving your family all week, not only on Sunday. Level 2 frames whole-person devotion as heart, mind, and daily choices rather than a weekly corner visit. Level 3 demands all of you-heart, soul, mind, and strength-not a compartment opened once a week. Level 4 calls for auditing where time and attention actually go; if God gets one hour and everything else gets the week, devotion is partitioned, not whole.
 
 Level 5 for "love-god" tests whether loving God first reshapes calendar and attention, not just worship attendance. Drafting Levels 1 through 3 for "love-your-enemies": pray for those who hurt you, copying God’s rain on both good and weed patches; bless persecutors because the Father treats just and unjust alike; enemy-love means prayer and blessing, not agreement or denial of harm.
 
@@ -844,11 +844,11 @@ _**Agent (composer-2.5-fast)**_
 Updated **43/43** notes from `data/wider-levels-batch-3.json` with wider-spread Level 1–5 bullets.
 
 **What changed**
-- **Level 1** — grade 2–3 image: every note now opens with a concrete `like...` analogy
-- **Level 2** — grade 6 plain language
-- **Level 3** — grade 10, names the idea with cause-effect
-- **Level 4** — adult, actionable
-- **Level 5** — expert nuance with wikilinks where the note already used them
+- **Level 1** - grade 2–3 image: every note now opens with a concrete `like...` analogy
+- **Level 2** - grade 6 plain language
+- **Level 3** - grade 10, names the idea with cause-effect
+- **Level 4** - adult, actionable
+- **Level 5** - expert nuance with wikilinks where the note already used them
 
 **What stayed the same**
 - Bullet 1 (`b1`) unchanged in every note

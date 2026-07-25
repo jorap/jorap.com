@@ -1165,13 +1165,13 @@ _**Agent (auto-low)**_
 
 Done. Here's what changed:
 
-1. **Full width** — Moved the `notes-recent-pair` block out of the `lg:col-10` column so New Notes and Recent Updates span the full container width.
+1. **Full width** - Moved the `notes-recent-pair` block out of the `lg:col-10` column so New Notes and Recent Updates span the full container width.
 
-2. **New Notes first** — Swapped the order so New Notes is the left column and Recent Updates is the right.
+2. **New Notes first** - Swapped the order so New Notes is the left column and Recent Updates is the right.
 
-3. **Two columns at `sm+`** — The pair uses `sm:grid-cols-2` (was `lg:grid-cols-2`), so they sit side by side from small screens up.
+3. **Two columns at `sm+`** - The pair uses `sm:grid-cols-2` (was `lg:grid-cols-2`), so they sit side by side from small screens up.
 
-4. **Single-column lists inside each half** — Removed the inner `sm:grid-cols-2` from each section so you get two page-wide columns (one section each), not a 2×2 grid of note cards.
+4. **Single-column lists inside each half** - Removed the inner `sm:grid-cols-2` from each section so you get two page-wide columns (one section each), not a 2×2 grid of note cards.
 
 Toolbar and featured random note stay in the narrower column; filters and the main grid stay there too. Only the recent/new pair is full width.
 

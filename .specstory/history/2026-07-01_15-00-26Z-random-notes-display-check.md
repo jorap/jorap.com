@@ -1996,12 +1996,12 @@ There are four random-note UIs, all fed by the same pool via `random-pool.html`:
 
 ## Pool validation (215 notes)
 
-- **215 garden notes** in the pool — featured and duo pools match exactly
-- **0 render failures** — every pool note has `<article>`, `.article-title`, and `.notes-content` (required by `renderNoteIntoSlot`)
-- **0 HTTP fetch failures** — sampled notes return 200 and parse correctly (same path the JS uses)
-- **Correct exclusions** — 9 utility/meta pages kept out: Graph, Flashcards, Review, Issues, Backlinks, Random Duo, Create, OKF Export, plus the section `_index`
+- **215 garden notes** in the pool - featured and duo pools match exactly
+- **0 render failures** - every pool note has `<article>`, `.article-title`, and `.notes-content` (required by `renderNoteIntoSlot`)
+- **0 HTTP fetch failures** - sampled notes return 200 and parse correctly (same path the JS uses)
+- **Correct exclusions** - 9 utility/meta pages kept out: Graph, Flashcards, Review, Issues, Backlinks, Random Duo, Create, OKF Export, plus the section `_index`
 
-**Included by design:** hub/MOC pages with `note_kind: index` (Getting Started, Maps of Content, Eternal Principles, etc.) — they render fine in random slots.
+**Included by design:** hub/MOC pages with `note_kind: index` (Getting Started, Maps of Content, Eternal Principles, etc.) - they render fine in random slots.
 
 ## UI wiring
 
@@ -2014,7 +2014,7 @@ There are four random-note UIs, all fed by the same pool via `random-pool.html`:
 
 Nothing broken found. Every eligible garden note can be picked, fetched, and rendered in all random UIs. Utility/meta pages are correctly excluded.
 
-**Note:** You have many uncommitted note changes in git. The validation used today’s `public/` build — run `hugo` before deploy if you want the live pool to reflect those edits.
+**Note:** You have many uncommitted note changes in git. The validation used today’s `public/` build - run `hugo` before deploy if you want the live pool to reflect those edits.
 
 ---
 

@@ -49,6 +49,10 @@ cards:
     back: "One inbox - file it later."
   - front: "Tablet will not load at the site walk and I am sketching dimensions on a napkin. That counts?"
     back: "Paper wins. Drop in inbox."
+  - front: "Phone died mid-sermon - margin notes saved the reference."
+    back: "Paper backup - capture when signal dies."
+  - front: "Site walk and tablet won't load - sketch on the card."
+    back: "Analog wins when digital fails."
 draft: false
 ---
 

@@ -53,6 +53,10 @@ cards:
     back: "Keep what still hits - one book."
   - front: "Mother-in-law's recipe cards with margin notes in her handwriting. What's this shape?"
     back: "Personal collection - link later."
+  - front: "Coach's old playbook margins - ideas I keep stealing."
+    back: "Commonplace book - capture what resonates."
+  - front: "Recipe cards with margin notes - grandmother's commonplace."
+    back: "Keep the personal stack - not just digital."
 draft: false
 ---
 

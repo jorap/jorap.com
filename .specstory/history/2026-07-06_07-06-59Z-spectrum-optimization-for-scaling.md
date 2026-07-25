@@ -242,7 +242,7 @@ Result:
 
 ```json
 {
-  "markdown": "Wavelength (2019) - Board Game Wikia\n\nx\n\n7.2\n\n# Wavelength (2019)\n\nRead your teammates’ minds in this pinpoint party game of infinite possibilities.\n\nRank: 528\n\n2-12 Players\n\n30-45 Min\n\nAge: 14+\n\nComplexity: 1.11/5\n\nDesigner: Alex Hague, Justin Vickers, Wolfgang Warsch\n\nArtist: Sofie Hannibal, Nan Na Hvass\n\nAdd to Favorites\n\n- Overview\n- How to Play\n- Videos\n- Play Now\n\nWavelength is a social guessing game in which two teams compete to read each other's minds. Teams take turns rotating a dial to where they think a hidden bullseye is located on a spectrum. One of the players on your team — the Psychic — knows exactly where the bullseye is, and draws a card with a pair of binaries on it (such as: Job - Career, Rough - Smooth, Fantasy - Sci-Fi, Sad Song - Happy Song, etc). The Psychic must then provide a clue that is *conceptually* where the bullseye is located between those two binaries.\n\nFor example, if the card this round is HOT-COLD and the bullseye is slightly to the \"cold\" side of the centre, the Psychic needs to give a clue somewhere in that region. Perhaps \"salad\"?\n\nAfter the Psychic gives their clue, their team discusses where they think the bullseye is located and turns the dial to that location on that spectrum. The closer to the center of the bullseye the team guess, the more points they score!\n\n### Videos\n\nHow to Play\n\n### Wavelength Board Game - How to Play (Our BEST Teaching Video?)\n\nWavelength Board Game - How to Play (Our BEST Teaching Video?)\n\nReview\n\n### Wavelength Review - with Tom Vasel\n\nWavelength Review - with Tom Vasel\n\n### Where to Play Wavelength (2019)\n\n#### Board Game Cafes and Clubs Have Wavelength Near You\n\nShow me the way\n\n#### Play Online\n\nSorry, we can’t still find where to play this game online. If you know, please email us via [email protected]\n\n### Where to Buy Wavelength (2019)\n\nBuy now on Amazon\n\n*We could earn commissions when you purchase throug
+  "markdown": "Wavelength (2019) - Board Game Wikia\n\nx\n\n7.2\n\n# Wavelength (2019)\n\nRead your teammates’ minds in this pinpoint party game of infinite possibilities.\n\nRank: 528\n\n2-12 Players\n\n30-45 Min\n\nAge: 14+\n\nComplexity: 1.11/5\n\nDesigner: Alex Hague, Justin Vickers, Wolfgang Warsch\n\nArtist: Sofie Hannibal, Nan Na Hvass\n\nAdd to Favorites\n\n- Overview\n- How to Play\n- Videos\n- Play Now\n\nWavelength is a social guessing game in which two teams compete to read each other's minds. Teams take turns rotating a dial to where they think a hidden bullseye is located on a spectrum. One of the players on your team - the Psychic - knows exactly where the bullseye is, and draws a card with a pair of binaries on it (such as: Job - Career, Rough - Smooth, Fantasy - Sci-Fi, Sad Song - Happy Song, etc). The Psychic must then provide a clue that is *conceptually* where the bullseye is located between those two binaries.\n\nFor example, if the card this round is HOT-COLD and the bullseye is slightly to the \"cold\" side of the centre, the Psychic needs to give a clue somewhere in that region. Perhaps \"salad\"?\n\nAfter the Psychic gives their clue, their team discusses where they think the bullseye is located and turns the dial to that location on that spectrum. The closer to the center of the bullseye the team guess, the more points they score!\n\n### Videos\n\nHow to Play\n\n### Wavelength Board Game - How to Play (Our BEST Teaching Video?)\n\nWavelength Board Game - How to Play (Our BEST Teaching Video?)\n\nReview\n\n### Wavelength Review - with Tom Vasel\n\nWavelength Review - with Tom Vasel\n\n### Where to Play Wavelength (2019)\n\n#### Board Game Cafes and Clubs Have Wavelength Near You\n\nShow me the way\n\n#### Play Online\n\nSorry, we can’t still find where to play this game online. If you know, please email us via [email protected]\n\n### Where to Buy Wavelength (2019)\n\nBuy now on Amazon\n\n*We could earn commissions when you purchase throug
 … (output truncated)
 ```
 User decision: **accepted**
@@ -317,27 +317,27 @@ _**Agent (auto-low)**_
 
 For Wavelength-style play, a good spectrum is not “pick between two options.” It is a **single sliding dimension** where dozens of nouns naturally land at different positions when someone picks a hidden number (say 23 or 67).
 
-Your deck already has some winners (`Hot ↔ Cold`, `Overrated ↔ Underrated`, `Harmless prank ↔ Cruel joke`). A large chunk of the rest are **parallel choices**, not gradients — those are hard to clue precisely from a number.
+Your deck already has some winners (`Hot ↔ Cold`, `Overrated ↔ Underrated`, `Harmless prank ↔ Cruel joke`). A large chunk of the rest are **parallel choices**, not gradients - those are hard to clue precisely from a number.
 
 ## What makes a spectrum Wavelength-grade
 
 A strong pair has:
 
-1. **One axis** — temperature, intensity, cost, danger, formality, how debated something is, etc.
-2. **Many valid clues** — at 15, 40, 60, and 85 you can each name something different and defensible.
-3. **Shared vocabulary** — everyone at the table knows enough examples.
-4. **Pole placement works** — clues can sit near either end, not only “in the grey area.”
+1. **One axis** - temperature, intensity, cost, danger, formality, how debated something is, etc.
+2. **Many valid clues** - at 15, 40, 60, and 85 you can each name something different and defensible.
+3. **Shared vocabulary** - everyone at the table knows enough examples.
+4. **Pole placement works** - clues can sit near either end, not only “in the grey area.”
 
 Test it: *“If the target is 72 on this spectrum, can I name 10+ things without stretching?”*
 
 | Works (72 = “pretty far right”) | Fails |
 |---|---|
-| **Hot ↔ Cold** → “sauna” | **Sandwich ↔ Wrap** — both are lunch; no scale |
-| **Overrated ↔ Underrated** → “avocado toast” | **Pancake ↔ Waffle** — same problem |
-| **Cheap ↔ Expensive** → “used bike” | **Tea person ↔ Coffee person** — identity, not gradient |
-| **Sandwich ↔ Not a sandwich** → “taco” | **Apple orchard ↔ Apple bag** — unrelated nouns |
+| **Hot ↔ Cold** → “sauna” | **Sandwich ↔ Wrap** - both are lunch; no scale |
+| **Overrated ↔ Underrated** → “avocado toast” | **Pancake ↔ Waffle** - same problem |
+| **Cheap ↔ Expensive** → “used bike” | **Tea person ↔ Coffee person** - identity, not gradient |
+| **Sandwich ↔ Not a sandwich** → “taco” | **Apple orchard ↔ Apple bag** - unrelated nouns |
 
-Your current tagline pushes “grey area between them.” Wavelength actually wants clues **anywhere** on the line — including near the poles (`Hot ↔ Cold` at 95 → “lava”).
+Your current tagline pushes “grey area between them.” Wavelength actually wants clues **anywhere** on the line - including near the poles (`Hot ↔ Cold` at 95 → “lava”).
 
 ---
 
@@ -354,7 +354,7 @@ Your current tagline pushes “grey area between them.” Wavelength actually wa
 - Dog person / Cat person, Window seat / Aisle seat, Board game / Video game  
 - Apologize first / Wait for apology, Stay late / Leave early  
 
-**Template filler** (bottom of deck — swap out first):
+**Template filler** (bottom of deck - swap out first):
 - All 11 `Better …` pairs  
 - Redundant with cleaner axes: `Low cost / High cost`, `Low noise / High noise`, many `Too … / Too …` pairs where a plain pole works better (`Loud / Quiet` beats `Too loud / Too quiet`)
 
@@ -362,7 +362,7 @@ Your current tagline pushes “grey area between them.” Wavelength actually wa
 
 ## Better replacements (high clue density)
 
-### Scalar poles — best for hidden-number play
+### Scalar poles - best for hidden-number play
 
 These are the workhorses. One clue, one position, many answers.
 
@@ -390,13 +390,13 @@ These are the workhorses. One clue, one position, many answers.
 | **Forgiving ↔ Strict** | grandma → teacher → referee → bouncer |
 | **Obvious ↔ Subtle** | neon sign → hint → inside joke → poker tell |
 
-### Fuzzy-boundary pairs — Wavelength’s “weird” side
+### Fuzzy-boundary pairs - Wavelength’s “weird” side
 
 Great when the fun is *where* something lands, not how much of a property it has.
 
 | Spectrum | Why it works |
 |---|---|
-| **Sandwich ↔ Not a sandwich** | hot dog, burrito, burger — classic Wavelength |
+| **Sandwich ↔ Not a sandwich** | hot dog, burrito, burger - classic Wavelength |
 | **Sport ↔ Not a sport** | chess, esports, golf, napping |
 | **Vegetable ↔ Not a vegetable** | tomato, pumpkin, french fry |
 | **Art ↔ Science** | painting → architecture → medicine → physics |
@@ -405,7 +405,7 @@ Great when the fun is *where* something lands, not how much of a property it has
 | **Pet ↔ Pest** | goldfish → cat → raccoon → cockroach |
 | **Gift ↔ Not a gift** | socks → book → “thoughts and prayers” → invoice |
 
-### Genre / vibe gradients — still one axis
+### Genre / vibe gradients - still one axis
 
 | Spectrum | Example spread |
 |---|---|
@@ -418,7 +418,7 @@ Great when the fun is *where* something lands, not how much of a property it has
 
 ### Keep from your deck (already strong)
 
-Hot/Cold, Overrated/Underrated, Harmless prank/Cruel joke, Time saver/Time waster, Stress relief/Stress cause, Healthy choice/Indulgent choice, Icebreaker/Conversation ender, Too spicy/Too bland (works as mild↔spicy), Cheap thrill/Expensive hobby, Loud restaurant/Quiet restaurant, Fiction book/Nonfiction book, Comedy show/Drama show, Art/Craft (borderline — works as “how artsy”).
+Hot/Cold, Overrated/Underrated, Harmless prank/Cruel joke, Time saver/Time waster, Stress relief/Stress cause, Healthy choice/Indulgent choice, Icebreaker/Conversation ender, Too spicy/Too bland (works as mild↔spicy), Cheap thrill/Expensive hobby, Loud restaurant/Quiet restaurant, Fiction book/Nonfiction book, Comedy show/Drama show, Art/Craft (borderline - works as “how artsy”).
 
 ---
 
@@ -445,7 +445,7 @@ Current:
 
 Wavelength-style:
 
-> *One hidden spot on the line — give one word or phrase that belongs there. Clues work near either pole, not only the middle.*
+> *One hidden spot on the line - give one word or phrase that belongs there. Clues work near either pole, not only the middle.*
 
 ---
 
@@ -2268,7 +2268,7 @@ end = text.index(&#39;\n\n\ndef score_spectrum&#39;, start)
 
 new_block = &#39;&#39;&#39;SPECTRUM_TAGLINE = (
     &#34;Two opposing ideas on one sliding scale. &#34;
-    &#34;One hidden spot on the line — name one word or phrase that belongs there.&#34;
+    &#34;One hidden spot on the line - name one word or phrase that belongs there.&#34;
 )
 SPECTRUM_PLAY_HINT = (
     &#34;Give a single clue for where the target lands. &#34;
@@ -2369,7 +2369,7 @@ end = text.index('\n\n\ndef score_spectrum', start)
 
 new_block = '''SPECTRUM_TAGLINE = (
     "Two opposing ideas on one sliding scale. "
-    "One hidden spot on the line — name one word or phrase that belongs there."
+    "One hidden spot on the line - name one word or phrase that belongs there."
 )
 SPECTRUM_PLAY_HINT = (
     "Give a single clue for where the target lands. "
@@ -2699,10 +2699,10 @@ index da693ea..049450e 100644
  - id: scale-clues
    title: Ranking prompts
    mode: ranked-prompts
--  tagline: Open situations and what-if scenarios. Name one concrete example — the group ranks it from 1 to 100.
--  play_hint: Give one real example ("flashlight", "take a nap", "duct tape"). 1 = weakest fit for the theme, 100 = strongest — rank what you meant, not what everyone else would pick. Don't say your number.
-+  tagline: Open situations and what-if scenarios. Name one example anyone at the table could say — the group ranks it from 1 to 100.
-+  play_hint: Give one real example a kid or grown-up could both mean ("flashlight", "nap", "sandwich"). 1 = weakest fit for the theme, 100 = strongest — rank what you meant, not what everyone else would pick. Don't say your number.
+-  tagline: Open situations and what-if scenarios. Name one concrete example - the group ranks it from 1 to 100.
+-  play_hint: Give one real example ("flashlight", "take a nap", "duct tape"). 1 = weakest fit for the theme, 100 = strongest - rank what you meant, not what everyone else would pick. Don't say your number.
++  tagline: Open situations and what-if scenarios. Name one example anyone at the table could say - the group ranks it from 1 to 100.
++  play_hint: Give one real example a kid or grown-up could both mean ("flashlight", "nap", "sandwich"). 1 = weakest fit for the theme, 100 = strongest - rank what you meant, not what everyone else would pick. Don't say your number.
    items:
 -  - Things you'd want to do when you're very tired.
    - Things to bring on a deserted island.
@@ -2728,7 +2728,7 @@ The curate script also modified scale-clues and personal-scales. This was an uni
 
 _**Agent (auto-low)**_
 
-Restoring scale-clues and personal-scales — the curate script changed them unintentionally.
+Restoring scale-clues and personal-scales - the curate script changed them unintentionally.
 
 
 _**Agent (auto-low)**_
@@ -2893,7 +2893,7 @@ Done. The Concept spectrums deck is now Wavelength-grade.
 
 ### What changed
 
-**`data/randomizer.yaml`** — 300 spectrum pairs rebuilt:
+**`data/randomizer.yaml`** - 300 spectrum pairs rebuilt:
 - **Added** scalar poles: `Boring ↔ Exciting`, `Smells bad ↔ Smells good`, `Cheap ↔ Expensive`, `Safe ↔ Dangerous`, etc.
 - **Added** fuzzy-boundary cards: `Sandwich ↔ Not a sandwich`, `Sport ↔ Not a sport`, `Fantasy ↔ Sci-fi`, etc.
 - **Removed** parallel forks: Sandwich/Wrap, Pancake/Waffle, Tea/Coffee person, Apple orchard/Apple bag, all 11 `Better …` pairs, and similar non-gradient pairs
@@ -2904,7 +2904,7 @@ Done. The Concept spectrums deck is now Wavelength-grade.
 - Scoring penalizes preference forks and template pairs; boosts fuzzy-boundary cards
 - `--only spectrum` flag so other decks are not touched on regen
 
-**`scripts/build-spectrum-500.py`** — tagline/play_hint aligned
+**`scripts/build-spectrum-500.py`** - tagline/play_hint aligned
 
 ### Top of deck now
 `Hot ↔ Cold`, `Overrated ↔ Underrated`, `Boring ↔ Exciting`, `Smells bad ↔ Smells good` …
@@ -2914,4 +2914,4 @@ Done. The Concept spectrums deck is now Wavelength-grade.
 python3 scripts/curate-randomizer-300.py --only spectrum
 ```
 
-Ranking prompts and personal icebreakers were left unchanged. Refresh the randomizer page and try a few cards — `Sandwich ↔ Not a sandwich` at 50 with clue "hot dog" is the classic Wavelength test.
+Ranking prompts and personal icebreakers were left unchanged. Refresh the randomizer page and try a few cards - `Sandwich ↔ Not a sandwich` at 50 with clue "hot dog" is the classic Wavelength test.

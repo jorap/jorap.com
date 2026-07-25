@@ -104,11 +104,11 @@ _**Agent (auto-low)**_
 
 Wove your three points into the post:
 
-**Marvel vs MTG** (What pulled me in) — Snap as mainstream Marvel you already know, contrasted with MTG’s deep rules and lore you’d have to learn from scratch.
+**Marvel vs MTG** (What pulled me in) - Snap as mainstream Marvel you already know, contrasted with MTG’s deep rules and lore you’d have to learn from scratch.
 
-**Other deck lists** (The meta outran my collection) — After collection-filtered meta lists fell flat, you’d hunt off-meta and budget brews, with the honest punchline that you were often just shuffling the same roster.
+**Other deck lists** (The meta outran my collection) - After collection-filtered meta lists fell flat, you’d hunt off-meta and budget brews, with the honest punchline that you were often just shuffling the same roster.
 
-**Cosmetics-only spending** (FOMO in the shop) — Spending wasn’t the pay-to-win trap; real money bought cosmetics, not power. The shop still nagged, but for a different reason.
+**Cosmetics-only spending** (FOMO in the shop) - Spending wasn’t the pay-to-win trap; real money bought cosmetics, not power. The shop still nagged, but for a different reason.
 
 Voice lint is clean. Want any of these sharpened or moved?
 
@@ -164,4 +164,4 @@ The word "homework" was replaced with plain language. The edit was small and nee
 
 _**Agent (auto-low)**_
 
-Swapped **lore homework** for **reading up on who everyone is** — same idea, plainer words, and it pairs with the MTG line about a universe you've never read.
+Swapped **lore homework** for **reading up on who everyone is** - same idea, plainer words, and it pairs with the MTG line about a universe you've never read.

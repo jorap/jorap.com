@@ -347,7 +347,7 @@ Result:
   "isFinal": true,
   "references": [
     {
-      "chunk": "Links:\n1. [The Teachings of Jesus Christ | Come unto Christ](https://www.churchofjesuschrist.org/comeuntochrist/believe/becoming-like-jesus/teachings-of-jesus-christ)\n2. [Teachings of Jesus: 10 Messages Jesus Really Taught](https://www.bartehrman.com/teachings-of-jesus/)\n3. [What Are The Core Teachings Of Jesus, And How Can I Fully Live Them Out? - Bible Study Courses](https://biblestudycourses.com/what-are-the-core-teachings-of-jesus-and-how-can-i-fully-live-them-out/)\n4. [7 Principles – The Core of the Bible](https://coreofthebible.org/7-principles/)\n5. [12 Wisdom Principles – From The Sermon On The Mount | Prayer  A to Z](https://studyingprayer.com/2013/01/27/12-wisdom-principles-from-the-sermon-on-the-mount/)\n\nSynthesis:\nThere is no single, universally recognized list of \"Eternal Principles\" taught by Jesus. Instead, the term is generally used to describe the core, unchanging gospel teachings that guide life and salvation. \n\nCommonly cited themes from Jesus' ministry include:\n* The Beatitudes (e.g., being merciful, a peacemaker, and poor in spirit) [1][2].\n* Loving God and loving one’s neighbor as oneself [2][3].\n* Forgiveness and compassion [1][2].\n* Humility, service, and sacrifice [2][3].\n* Seeking the Kingdom of God first [4][3].\n* The Golden Rule (doing unto others as you would have them do unto you) [5][2].\n\nThese principles are often categorized by scholars and religious groups as the \"fundamentals\" of Jesus' message, intended to transform the heart and guide decision-making [1][3][6].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eThe Teachings of Jesus Christ | Come unto Christ\u003c/title\u003e\n\u003curl\u003ehttps://www.churchofjesuschrist.org/comeuntochrist/believe/becoming-like-jesus/teachings-of-jesus-christ\u003c/url\u003e\n\u003ccontent\u003eWithin Jesus Christ’s teachings\n...\nhappiness, our redemption, and our salvation—\n...\nincludes faith in Christ, repentance, baptism, keeping God’s commandments, receiving the Holy Ghost, and enduring to the end\n...\nThese are the saving principles taught by Jesus Christ, the bedrock on which His Gospel is built.\n...\nShortly after His baptism by John the Baptist, Jesus taught His gospel and outlined how to be a righteous disciple in a powerful discourse called the Sermon on the Mount. During this beloved sermon, Jesus introduced a new standard of righteousness that expanded on the Ten Commandments. “Thou shalt not kill” was no longer enough; Jesus required His followers to reject hatred, be forgiving, and even love their enemies. He asked for people to change their hearts as well as their actions.\n...\nIn the Sermon on the Mount, Jesus also gave eight important teachings called the Beatitudes. The word beatitude means “supreme blessedness” or “exalted happiness.” The Beatitudes highlight the amazing promised blessings that come when we develop certain righteous traits.\n...\nBlessed are the poor in spirit\n...\nheaven is for\n...\nBlessed are the meek\n...\nBlessed are the merciful\n...\nBlessed are the peacemakers\n...\nBlessed are they that mourn\n...\nBlessed are they which do hunger and thirst after righteous\n...\nBlessed are the pure in heart\n...\nBlessed are they which are persecuted for righteousness’ sake\n...\nthose He taught\n...\nwords and also through parables. The use of parables was a\n...\nChrist’s teachings are found in much more than just His parables and sermons; they are also found in the personal example He set for us throughout His life, an example of obedience, humility, and love. The eternal truths He taught, both by word and deed, can influence our lives today as much as they did the lives of those He first taught during His earthly ministry. We invite you to join us as we strive to learn His teachings and follow Him.\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"2\"\u003e\n\u003ctitle\u003eTeachings of Jesus: 10 Messages Jesus Really Taught\u003c/title\u003e\n\u003curl\u003ehttps://www.bartehrman.com/teachings-of-jesus/\u003c/url\u003e\n\u003ccontent\u003eHaving established Jesus’ teaching methods, let’s look at 10 essential teachings that scholars believe came from the historical Jesus (in no particular order).\n...\n## 1. Don’t Worry\n...\n6:25\n...\nin this section:\n...\n## 2. Love Your Enemies\n...\n5:43\n...\n\u003e You have heard that it was said\n...\nYou shall love your neighbor and hate your enemy.’ But I say to you: Love your enemies and pray for those who persecute you, so that you may be children of your\n...\nin heaven, for\n...\nmakes his sun rise on the evil and on the good and sends rain on the righteous and on the unrighteous.\n...\n## 3. The Golden Rule\n...\n## 4. Love God\n...\nIn Matthew 22:37-38, a Torah expert approaches\n...\nand asks,\n...\n\u003e “Teacher, which commandment in the law is the greatest?” [Jesus] said to him, “ ‘You shall love the Lord your God with all your heart and with all your soul and with all your mind.’ This is the greatest and first commandment.\n...\n## 5. Love Your Neighbor\n...\nJesus speaks about caring for others in Mark 12:31, saying “Love your neighbor as yourself\n...\nBart Ehrman points out that this is actually a fairly revolutionary idea in the ancient world\n...\nfor Greco-Roman philosophy\n...\nethic says “You\n...\n, and house yourself\n...\npersonal sacrifice.”\n...\n## 6. Forgive\n...\nbut if you\n...\ntrespasses.\n...\n## 7. Eye of a Needle\n...\n## 8. Humility and Service\n...\n## 9. Peacemakers\n...\nToward this end, in Matthew\n...\n5:39-40, Jesus also says\n...\n## 10. Let your light shine\n...\nlast teaching of Jesus\n...\nlet’s look at Matthew 5:16:\n...\n\u003e You are the light of the world. A city built on a hill cannot be hid. People do not light a lamp and put it under the bushel basket; rather, they put it on the lampstand, and it gives light to all in the house. In the same way, let your light shine before others, so that they may see your good works and give glory to your Father in heaven.\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"3\"\u003e\n\u003ctitle\u003eWhat Are The Core Teachings Of Jesus, And How Can I Fully Live Them Out? - Bible Study Courses\u003c/title\u003e\n\u003curl\u003ehttps://biblestudycourses.com/what-are-the-core-teachings-of-jesus-and-how-can-i-fully-live-them-out/\u003c/url\u003e\n\u003ccontent\u003eLive Jesus’ core teachings: the Kingdom, love God and neighbor, mercy, repentance, prayer, Scripture, discipleship, justice, community \u0026 practical daily habits.\n...\nThe Kingdom of God is the organizing framework for everything Jesus taught. He announced that God’s rule was breaking into human history and called people to repent and believe.\n...\n## The two greatest commandments:\n...\nJesus summarized the Law and the Prophets with two commands: love God with all your heart, soul, and mind, and love your neighbor as yourself.\n...\nThe Sermon on the Mount (Matthew 5–7) gives a portrait of the Kingdom person through the Beatitudes and a set of ethical teachings that invert worldly expectations.\n...\n## Grace, forgiveness, and repentance\n...\nJesus repeatedly taught about God’s grace—unmerited favor that both forgives and calls you to change. Repentance (turning) and faith (trusting) are essential responses.\n...\nJesus used parables—short, memorable stories—to teach about the Kingdom’s nature. Parables like the Good Samaritan, the Prodigal Son, and the Lost Sheep give concrete images of mercy, repentance, and God’s persistent love.\n...\n## Discipleship: Take up your cross and follow\n...\nJesus calls you to discipleship—intentional following that costs you something. “Take up your cross” means accepting the path of self-denial and sacrificial love, not a one-time decision but a daily posture.\n...\nPrayer is the relational posture through which you align with the Father’s will. Jesus modeled both private prayer and teaching\n...\ndisciples the Lord’s Prayer.\n...\nJesus treated Scripture as authoritative, quoting and fulfilling Hebrew Scriptures. Engaging the Bible shapes your mind and heart to Christ’s teachings.\n...\nshared meals that became sacraments in the church\n...\nthe Lord’\n...\npractices connect you to God’s promises and the body of Christ.\n...\npurity of heart,\n...\n## Mercy, justice, and care for the poor\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"4\"\u003e\n\u003ctitle\u003e7 Principles – The Core of the Bible\u003c/title\u003e\n\u003curl\u003ehttps://coreofthebible.org/7-principles/\u003c/url\u003e\n\u003ccontent\u003eThere are seven primary principles contained within the Sermon on the Mount. These can be further clarified by adding the supporting verses with references taken from the context of this central teaching of Yeshua.\n...\n5-7\n...\n6:33 First and foremost, your desires should be directed to the Kingdom of God, and doing the right thing according to his standards, and your needs will be provided for. 7: 21 Entering into the Kingdom of heaven is possible only by consistently doing the will of my Father in heaven, not by merely claiming to be my disciple. 5:19 Do not relax even the smallest standards of Torah for yourself and others; do it and teach it. 5:3 Have an empty spirit, ready\n...\nreceive and obey the slightest instruction, and you will be blessed as the kingdom of heaven is yours.\n...\n5:20 Demonstrate\n...\nfollowing external commands\n...\n33-37 Be\n...\nperson of your word\n...\nsay yes or no\n...\nand do what\n...\nsay. 5: 6 Crave that which God approves; thirst for doing\n...\nright thing, and\n...\nwill be blessed\n...\n7: 5\n...\nhypocritical. 5:14-16 Be shining: let\n...\n. Magnify God. 5: 5 Conduct yourself with mildness and gentleness, and\n...\nwill be blessed as an inheritor of\n...\nwhole world. 5: 10 Endure harmful pursuit for doing what’s right, and you will be blessed, having possession of the Kingdom of God.\n...\n6,8\n...\n5: 9 Make peace; do peace, and you will be blessed, being recognized as a child of God\n...\n5:23-26 Reconciliation\n...\ntake place prior\n...\nworshiping God\n...\nseeking his forgiveness\n...\n14\n...\n16 Forgive, and\n...\n5:43-45\n...\nthe example of\n...\nFather in heaven\n...\nspeak well of them\n...\nhelp them, and pray for their needs. 5:38-41\n...\ninstead, offer\n...\nressing you.\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"5\"\u003e\n\u003ctitle\u003e12 Wisdom Principles – From The Sermon On The Mount | Prayer  A to Z\u003c/title\u003e\n\u003curl\u003ehttps://studyingprayer.com/2013/01/27/12-wisdom-principles-from-the-sermon-on-the-mount/\u003c/url\u003e\n\u003ccontent\u003e# 12 Wisdom Principles – from Matthew 5:21-7:23\n...\n1. Try to always be at peace with people. Never hold a grudge against anyone. If someone has something against you try to be reconciled with him. (Matt. 5: 21-26)\n...\n3. In your speech, be careful what you say and always speak the truth in love. Never think that you have to make some believe you by swearing or speaking profanely. (Matt. 5: 33-37)\n...\n5. Love everyone, even your enemies, as God does. You are a child of God and should act that way. (Matt. 5: 43-48)\n...\n6. Don’t broadcast your deeds or your prayers to the world. Do your good deeds and pray in secret before the Father only. And pray as Jesus taught us: first for His will, and then for our own needs. (Matt. 6: 1-18)\n...\n7. Seek God’s will first before your own desires. Don’t worry about what you need in this life. If we are doing His will He will take care of us. (Matt. 6: 19-34)\n...\n9. Be dependent on God for everything, and be assured that for any good thing you ask for He will give it to you. (Matt. 7:7-11)\n...\n10. Do for others in love what you want them to do for you. This is the golden rule. Don’t look to others to do something for you. Instead do for them the very thing you want them to do for you. Examples: If you want a piece of bread, offer them a piece of bread; if you want friendship from someone, be a friend to them. (Matt. 7:12)\n...\n11. As for the decisions you make in life, always do the right thing, not the popular thing. Don’t follow the crowd (traveling on the wide road), follow God and all true believers (who are traveling on a very narrow path). If you go the wrong way (the popular way, on the wide road) there is danger ahead and you will fall into certain destruction (Gal. 6: 7-8). (Matt. 7:13-14)\n...\n12. Be on your guard against false teachers who will take you down the wrong path. Know that not everyone who says he is a Christian is a Christian. (Matt. 7:15-23)\u003c/content\u003e\n\u003c/result\u003e",
+      "chunk": "Links:\n1. [The Teachings of Jesus Christ | Come unto Christ](https://www.churchofjesuschrist.org/comeuntochrist/believe/becoming-like-jesus/teachings-of-jesus-christ)\n2. [Teachings of Jesus: 10 Messages Jesus Really Taught](https://www.bartehrman.com/teachings-of-jesus/)\n3. [What Are The Core Teachings Of Jesus, And How Can I Fully Live Them Out? - Bible Study Courses](https://biblestudycourses.com/what-are-the-core-teachings-of-jesus-and-how-can-i-fully-live-them-out/)\n4. [7 Principles – The Core of the Bible](https://coreofthebible.org/7-principles/)\n5. [12 Wisdom Principles – From The Sermon On The Mount | Prayer  A to Z](https://studyingprayer.com/2013/01/27/12-wisdom-principles-from-the-sermon-on-the-mount/)\n\nSynthesis:\nThere is no single, universally recognized list of \"Eternal Principles\" taught by Jesus. Instead, the term is generally used to describe the core, unchanging gospel teachings that guide life and salvation. \n\nCommonly cited themes from Jesus' ministry include:\n* The Beatitudes (e.g., being merciful, a peacemaker, and poor in spirit) [1][2].\n* Loving God and loving one’s neighbor as oneself [2][3].\n* Forgiveness and compassion [1][2].\n* Humility, service, and sacrifice [2][3].\n* Seeking the Kingdom of God first [4][3].\n* The Golden Rule (doing unto others as you would have them do unto you) [5][2].\n\nThese principles are often categorized by scholars and religious groups as the \"fundamentals\" of Jesus' message, intended to transform the heart and guide decision-making [1][3][6].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eThe Teachings of Jesus Christ | Come unto Christ\u003c/title\u003e\n\u003curl\u003ehttps://www.churchofjesuschrist.org/comeuntochrist/believe/becoming-like-jesus/teachings-of-jesus-christ\u003c/url\u003e\n\u003ccontent\u003eWithin Jesus Christ’s teachings\n...\nhappiness, our redemption, and our salvation-\n...\nincludes faith in Christ, repentance, baptism, keeping God’s commandments, receiving the Holy Ghost, and enduring to the end\n...\nThese are the saving principles taught by Jesus Christ, the bedrock on which His Gospel is built.\n...\nShortly after His baptism by John the Baptist, Jesus taught His gospel and outlined how to be a righteous disciple in a powerful discourse called the Sermon on the Mount. During this beloved sermon, Jesus introduced a new standard of righteousness that expanded on the Ten Commandments. “Thou shalt not kill” was no longer enough; Jesus required His followers to reject hatred, be forgiving, and even love their enemies. He asked for people to change their hearts as well as their actions.\n...\nIn the Sermon on the Mount, Jesus also gave eight important teachings called the Beatitudes. The word beatitude means “supreme blessedness” or “exalted happiness.” The Beatitudes highlight the amazing promised blessings that come when we develop certain righteous traits.\n...\nBlessed are the poor in spirit\n...\nheaven is for\n...\nBlessed are the meek\n...\nBlessed are the merciful\n...\nBlessed are the peacemakers\n...\nBlessed are they that mourn\n...\nBlessed are they which do hunger and thirst after righteous\n...\nBlessed are the pure in heart\n...\nBlessed are they which are persecuted for righteousness’ sake\n...\nthose He taught\n...\nwords and also through parables. The use of parables was a\n...\nChrist’s teachings are found in much more than just His parables and sermons; they are also found in the personal example He set for us throughout His life, an example of obedience, humility, and love. The eternal truths He taught, both by word and deed, can influence our lives today as much as they did the lives of those He first taught during His earthly ministry. We invite you to join us as we strive to learn His teachings and follow Him.\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"2\"\u003e\n\u003ctitle\u003eTeachings of Jesus: 10 Messages Jesus Really Taught\u003c/title\u003e\n\u003curl\u003ehttps://www.bartehrman.com/teachings-of-jesus/\u003c/url\u003e\n\u003ccontent\u003eHaving established Jesus’ teaching methods, let’s look at 10 essential teachings that scholars believe came from the historical Jesus (in no particular order).\n...\n## 1. Don’t Worry\n...\n6:25\n...\nin this section:\n...\n## 2. Love Your Enemies\n...\n5:43\n...\n\u003e You have heard that it was said\n...\nYou shall love your neighbor and hate your enemy.’ But I say to you: Love your enemies and pray for those who persecute you, so that you may be children of your\n...\nin heaven, for\n...\nmakes his sun rise on the evil and on the good and sends rain on the righteous and on the unrighteous.\n...\n## 3. The Golden Rule\n...\n## 4. Love God\n...\nIn Matthew 22:37-38, a Torah expert approaches\n...\nand asks,\n...\n\u003e “Teacher, which commandment in the law is the greatest?” [Jesus] said to him, “ ‘You shall love the Lord your God with all your heart and with all your soul and with all your mind.’ This is the greatest and first commandment.\n...\n## 5. Love Your Neighbor\n...\nJesus speaks about caring for others in Mark 12:31, saying “Love your neighbor as yourself\n...\nBart Ehrman points out that this is actually a fairly revolutionary idea in the ancient world\n...\nfor Greco-Roman philosophy\n...\nethic says “You\n...\n, and house yourself\n...\npersonal sacrifice.”\n...\n## 6. Forgive\n...\nbut if you\n...\ntrespasses.\n...\n## 7. Eye of a Needle\n...\n## 8. Humility and Service\n...\n## 9. Peacemakers\n...\nToward this end, in Matthew\n...\n5:39-40, Jesus also says\n...\n## 10. Let your light shine\n...\nlast teaching of Jesus\n...\nlet’s look at Matthew 5:16:\n...\n\u003e You are the light of the world. A city built on a hill cannot be hid. People do not light a lamp and put it under the bushel basket; rather, they put it on the lampstand, and it gives light to all in the house. In the same way, let your light shine before others, so that they may see your good works and give glory to your Father in heaven.\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"3\"\u003e\n\u003ctitle\u003eWhat Are The Core Teachings Of Jesus, And How Can I Fully Live Them Out? - Bible Study Courses\u003c/title\u003e\n\u003curl\u003ehttps://biblestudycourses.com/what-are-the-core-teachings-of-jesus-and-how-can-i-fully-live-them-out/\u003c/url\u003e\n\u003ccontent\u003eLive Jesus’ core teachings: the Kingdom, love God and neighbor, mercy, repentance, prayer, Scripture, discipleship, justice, community \u0026 practical daily habits.\n...\nThe Kingdom of God is the organizing framework for everything Jesus taught. He announced that God’s rule was breaking into human history and called people to repent and believe.\n...\n## The two greatest commandments:\n...\nJesus summarized the Law and the Prophets with two commands: love God with all your heart, soul, and mind, and love your neighbor as yourself.\n...\nThe Sermon on the Mount (Matthew 5–7) gives a portrait of the Kingdom person through the Beatitudes and a set of ethical teachings that invert worldly expectations.\n...\n## Grace, forgiveness, and repentance\n...\nJesus repeatedly taught about God’s grace-unmerited favor that both forgives and calls you to change. Repentance (turning) and faith (trusting) are essential responses.\n...\nJesus used parables-short, memorable stories-to teach about the Kingdom’s nature. Parables like the Good Samaritan, the Prodigal Son, and the Lost Sheep give concrete images of mercy, repentance, and God’s persistent love.\n...\n## Discipleship: Take up your cross and follow\n...\nJesus calls you to discipleship-intentional following that costs you something. “Take up your cross” means accepting the path of self-denial and sacrificial love, not a one-time decision but a daily posture.\n...\nPrayer is the relational posture through which you align with the Father’s will. Jesus modeled both private prayer and teaching\n...\ndisciples the Lord’s Prayer.\n...\nJesus treated Scripture as authoritative, quoting and fulfilling Hebrew Scriptures. Engaging the Bible shapes your mind and heart to Christ’s teachings.\n...\nshared meals that became sacraments in the church\n...\nthe Lord’\n...\npractices connect you to God’s promises and the body of Christ.\n...\npurity of heart,\n...\n## Mercy, justice, and care for the poor\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"4\"\u003e\n\u003ctitle\u003e7 Principles – The Core of the Bible\u003c/title\u003e\n\u003curl\u003ehttps://coreofthebible.org/7-principles/\u003c/url\u003e\n\u003ccontent\u003eThere are seven primary principles contained within the Sermon on the Mount. These can be further clarified by adding the supporting verses with references taken from the context of this central teaching of Yeshua.\n...\n5-7\n...\n6:33 First and foremost, your desires should be directed to the Kingdom of God, and doing the right thing according to his standards, and your needs will be provided for. 7: 21 Entering into the Kingdom of heaven is possible only by consistently doing the will of my Father in heaven, not by merely claiming to be my disciple. 5:19 Do not relax even the smallest standards of Torah for yourself and others; do it and teach it. 5:3 Have an empty spirit, ready\n...\nreceive and obey the slightest instruction, and you will be blessed as the kingdom of heaven is yours.\n...\n5:20 Demonstrate\n...\nfollowing external commands\n...\n33-37 Be\n...\nperson of your word\n...\nsay yes or no\n...\nand do what\n...\nsay. 5: 6 Crave that which God approves; thirst for doing\n...\nright thing, and\n...\nwill be blessed\n...\n7: 5\n...\nhypocritical. 5:14-16 Be shining: let\n...\n. Magnify God. 5: 5 Conduct yourself with mildness and gentleness, and\n...\nwill be blessed as an inheritor of\n...\nwhole world. 5: 10 Endure harmful pursuit for doing what’s right, and you will be blessed, having possession of the Kingdom of God.\n...\n6,8\n...\n5: 9 Make peace; do peace, and you will be blessed, being recognized as a child of God\n...\n5:23-26 Reconciliation\n...\ntake place prior\n...\nworshiping God\n...\nseeking his forgiveness\n...\n14\n...\n16 Forgive, and\n...\n5:43-45\n...\nthe example of\n...\nFather in heaven\n...\nspeak well of them\n...\nhelp them, and pray for their needs. 5:38-41\n...\ninstead, offer\n...\nressing you.\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"5\"\u003e\n\u003ctitle\u003e12 Wisdom Principles – From The Sermon On The Mount | Prayer  A to Z\u003c/title\u003e\n\u003curl\u003ehttps://studyingprayer.com/2013/01/27/12-wisdom-principles-from-the-sermon-on-the-mount/\u003c/url\u003e\n\u003ccontent\u003e# 12 Wisdom Principles – from Matthew 5:21-7:23\n...\n1. Try to always be at peace with people. Never hold a grudge against anyone. If someone has something against you try to be reconciled with him. (Matt. 5: 21-26)\n...\n3. In your speech, be careful what you say and always speak the truth in love. Never think that you have to make some believe you by swearing or speaking profanely. (Matt. 5: 33-37)\n...\n5. Love everyone, even your enemies, as God does. You are a child of God and should act that way. (Matt. 5: 43-48)\n...\n6. Don’t broadcast your deeds or your prayers to the world. Do your good deeds and pray in secret before the Father only. And pray as Jesus taught us: first for His will, and then for our own needs. (Matt. 6: 1-18)\n...\n7. Seek God’s will first before your own desires. Don’t worry about what you need in this life. If we are doing His will He will take care of us. (Matt. 6: 19-34)\n...\n9. Be dependent on God for everything, and be assured that for any good thing you ask for He will give it to you. (Matt. 7:7-11)\n...\n10. Do for others in love what you want them to do for you. This is the golden rule. Don’t look to others to do something for you. Instead do for them the very thing you want them to do for you. Examples: If you want a piece of bread, offer them a piece of bread; if you want friendship from someone, be a friend to them. (Matt. 7:12)\n...\n11. As for the decisions you make in life, always do the right thing, not the popular thing. Don’t follow the crowd (traveling on the wide road), follow God and all true believers (who are traveling on a very narrow path). If you go the wrong way (the popular way, on the wide road) there is danger ahead and you will fall into certain destruction (Gal. 6: 7-8). (Matt. 7:13-14)\n...\n12. Be on your guard against false teachers who will take you down the wrong path. Know that not everyone who says he is a Christian is a Christian. (Matt. 7:15-23)\u003c/content\u003e\n\u003c/result\u003e",
       "title": "Web search results"
     }
   ],
@@ -515,7 +515,7 @@ Result:
   "isFinal": true,
   "references": [
     {
-      "chunk": "Links:\n1. [Eternal Principles of Truth](https://www.churchofjesuschrist.org/study/liahona/1979/10/eternal-principles-of-truth?lang=eng)\n2. [The Eternal Nature of the Church, the Priesthood, and Man](https://archive.bookofmormoncentral.org/sites/default/files/archive-files/pdf/smith/2018-12-17/02_joseph_f._smith_gospel_doctrine_1919.pdf)\n3. [Truth](https://www.churchofjesuschrist.org/study/manual/gospel-topics/truth-study-guide?lang=eng)\n4. [Elder David A. Bednar: ‘The Principles of My Gospel’ – Church News](https://www.thechurchnews.com/2021/4/4/23216969/elder-bednar-april-2021-general-conference-principles-gospel/)\n5. [Jesus Christ and the Everlasting Gospel Teacher Manual](https://www.churchofjesuschrist.org/bc/content/ldsorg/manual/institute/jesus-christ-and-the-everlasting-gospel-teacher-manual_eng-new.pdf)\n\nSynthesis:\nIn The Church of Jesus Christ of Latter-day Saints, eternal principles are unchangeable, God-centered truths that guide individuals toward salvation, exaltation, and life eternal [1][2][3]. These principles derive from the gospel of Jesus Christ and serve as doctrinal guidelines for the righteous exercise of moral agency [4].\n\nKey sources of these principles include the Bible, the Book of Mormon, the Doctrine and Covenants, the Pearl of Great Price, and the teachings of modern prophets [1][5][3][6]. Central tenets often include faith in Jesus Christ, repentance, baptism, receiving the gift of the Holy Ghost, and enduring to the end [7][8][9].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eEternal Principles of Truth\u003c/title\u003e\n\u003curl\u003ehttps://www.churchofjesuschrist.org/study/liahona/1979/10/eternal-principles-of-truth?lang=eng\u003c/url\u003e\n\u003ccontent\u003eBy revelation the Lord has set forth for our guidance eternal principles of truth. These revelations are found in the Doctrine and Covenants, Book of Mormon, Bible, and Pearl of Great Price.\n...\nContained in the said commandments, and other scriptures, are principles of eternal truth which, if adhered to, will guide men safely through mortality and into life eternal.\n...\nAmong his reasons for revealing the eternal principles of truth, the Lord specified the following: That man should learn not to rely upon the counsels of his fellowman, neither trust in the arm of flesh, but trust in God, that faith might increase in the earth; that inasmuch as men erred, it might be made known unto them; that inasmuch as they sought wisdom, they might be instructed; that inasmuch as they sinned, they might be chastened, that they might repent; and that inasmuch as they were humble, they might be made strong and blessed from on high and receive knowledge from time to time. (See D\u0026C 1:21, 25–28.)\n...\nMost people in the world have not accepted these revealed principles as guides for their living, but we, the members of The Church of Jesus Christ of Latter-day Saints, have accepted them. It therefore seems to me that everything we do should be done in light of our understanding and testimony of these eternal principles. My experience teaches me that we have a continuing need to repeatedly rededicate ourselves to this course of action.\n...\nworld about us is\n...\nour standards of conduct,\n...\nspirit of the gospel\n...\nrevealed principles of truth\n...\nYou see how secure he felt, lashed as he was by righteous living to the mast of eternal principles of truth.\n...\nMy hope is that through study, faith, and prayer we will keep ourselves mindful of these principles, and our testimonies of them increasing so that we will always act in the light of them. If we do so, we shall live at peace with ourselves, notwithstanding the strife in the world about us.\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"2\"\u003e\n\u003ctitle\u003eThe Eternal Nature of the Church, the Priesthood, and Man\u003c/title\u003e\n\u003curl\u003ehttps://archive.bookofmormoncentral.org/sites/default/files/archive-files/pdf/smith/2018-12-17/02_joseph_f._smith_gospel_doctrine_1919.pdf\u003c/url\u003e\n\u003ccontent\u003eGo s pe l Pr in c ipl es are Et er nal . Faith in God is \nan irrevocable principle, just as much as “thou shalt not \nkill;” “thou shalt not steal;” “thou shalt not commit adul \ntery.” Repentance of a sin is an eternal principle, and is as \nessential in its place, and is as much an integral part of the \ngospel of Jesus Christ as: “Thou shalt not kill,” or, “Thou \nshalt have no other gods before me.” \nBaptism for the remission of sin, by one having author \nity, is an eternal principle, for God devised it, and com \nmanded it, and Christ himself was not above obeying it; he \nhad to obey it in order to fulfil the law of righteousness. \nAnd then the rites of the Priesthood of the Church, as \nthe Lord has revealed them, and the principles that underlie \nthe organization of the Church of Jesus Christ, are irrev \nocable, unchanging and unchangeable. We talk of the “ever \nlasting gospel of Jesus Christ,” which “is the power of God \nunto salvation,” and these principles in and of themselves \nare eternal principles, and will last while life, or thought, \nor being lasts, or immortality endures.—Oct. C. R., 1912, \np. 11. \nPr e -ex ist in g St at es. \nMrs. Martha H. Tingey,\n...\nPresident, Y. L. M. I. A. \nDear Sist\n...\nThe First Presidency have nothing to\n...\nadvance 'concerning pre-existing states but that which is\n...\ncontained in the revelations to the Church\n...\nstandards of scripture\n...\nall people who come\n...\nand are born in mortality had a pre-existent, spiritual \npersonality as the sons\n...\ndaughters of the Eternal Father. \n(See Pearl of\n...\nPrice, chap\n...\n3, verses\n...\n5-7). Jesus Christ \nwas the Firstborn.\n...\nspirit born of God’\n...\nimmortal be\n...\nalso\n...\nordinances\n...\nis written that “all manner of sin and blasphemy shall be \nforgiven unto men” who receive me and repent\n...\nordinances of his gospel\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"3\"\u003e\n\u003ctitle\u003eTruth\u003c/title\u003e\n\u003curl\u003ehttps://www.churchofjesuschrist.org/study/manual/gospel-topics/truth-study-guide?lang=eng\u003c/url\u003e\n\u003ccontent\u003eThe scriptures describe truth as the “knowledge of things as they are, and as they were, and as they are to come” (Doctrine and Covenants 93:24). Truth is compared in the scriptures to light and revelation from heaven (see Doctrine and Covenants 84:45; 88:66–67; Guide to the Scriptures, “ Truth,” Gospel Library). The source of eternal truth is God Himself. Divine truth has been revealed in our day through the Prophet Joseph Smith and other latter-day prophets. The truths found in the gospel of Jesus Christ are essential to prepare us for salvation and exaltation (see 2 Nephi 31:19–21; Doctrine and Covenants 33:10–12).\n...\nThe restored gospel of Jesus Christ includes the fulness of divine truth that has been revealed in our day. Divine truth is unchanging and eternal (see Doctrine and Covenants 1:39; 88:66).\n...\nour religion are the testimony\n...\nfaith in other\n...\n. There really is\n...\nsee Doctrine and\n...\nOur Heavenly Father wants us to know and believe the divine truths of the gospel. Our understanding of eternal truth comes from God through the Holy Ghost. The Holy Ghost leads us to truth (see 1 Corinthians 2:9–10, 14; Moroni 10:4–5; Doctrine and Covenants 84:44–47). When we choose to act based on the truth we receive, we are able to receive more truth from God (see 2 Nephi 28:30; Doctrine and Covenants 93:26–28).\n...\nThe Lord invites us to “seek learning, even by study and also by faith” (Doctrine and Covenants 88:118). That means, among other things, that when we have questions about the Church’s history, doctrine, and practices, we study reliable sources and exercise faith and trust in Jesus Christ as we seek answers. The adversary seeks to turn our hearts away from eternal truth (see Doctrine and Covenants 78:10; 93:39). Embracing divine truth can help us reject evil and avoid sin, error, and deception (see Doctrine and Covenants 50:23–25; 93:37).\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"4\"\u003e\n\u003ctitle\u003eElder David A. Bednar: ‘The Principles of My Gospel’ – Church News\u003c/title\u003e\n\u003curl\u003ehttps://www.thechurchnews.com/2021/4/4/23216969/elder-bednar-april-2021-general-conference-principles-gospel/\u003c/url\u003e\n\u003ccontent\u003e“We have been blessed abundantly in this general conference to learn about eternal principles from the Lord’s authorized servants. Now, our individual responsibility is to govern ourselves according to the truths of which they have testified.”\n...\n“I invite all of us to learn, live and love principles of righteousness.”\n...\n“Only gospel truths can enable us to ‘cheerfully do all things that lie in our power’ to press forward on the covenant path and to ‘see the salvation of God, and for his arm to be revealed.’”\n...\n- A gospel principle is a doctrinally based guideline for the righteous exercise of moral agency.\n- Gospel principles help strengthen faith in the Savior, deepen devotion to HIm and invite a multitude of blessings and spiritual gifts.\n- Principles taught in general conference should be used to govern one’s life according to testified truths.\n...\nA gospel principle is a doctrinally based guideline for the righteous exercise of moral agency. Principles derive from broader gospel truths and provide direction and standards.\n...\nLearning, understanding and living gospel principles strengthen faith in the Savior, deepen devotion to Him, invite a multitude of blessings and spiritual gifts and help one look beyond personal preferences and self-centered desires by providing the perspective of eternal truth.\n...\nthe instruction of principles\n...\ntaught the Sabbath as\n...\n“We have been blessed abundantly in this general conference to learn about eternal principles from the Lord’s authorized servants. Now, our individual responsibility is to govern ourselves according to the truths of which they have testified. …\n...\n“I invite all of us to learn, live and love principles of righteousness. Only gospel truths can enable us to ‘cheerfully do all things that lie in our power’ to press forward on the covenant path and to ‘see the salvation of God, and for his arm to be revealed.’”\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"5\"\u003e\n\u003ctitle\u003eJesus Christ and the Everlasting Gospel Teacher Manual\u003c/title\u003e\n\u003curl\u003ehttps://www.churchofjesuschrist.org/bc/content/ldsorg/manual/institute/jesus-christ-and-the-everlasting-gospel-teacher-manual_eng-new.pdf\u003c/url\u003e\n\u003ccontent\u003eThis course, Jesus Christ and the Everlasting Gospel (Religion 250), gives students the\n...\nopportunity to study the eternal ministry of Jesus Christ, focusing on His divine\n...\nroles throughout His premortal, mortal, and postmortal life. The standard works,\n...\nthe words of modern prophets, and the document titled “The Living Christ: The\n...\nTestimony of the Apostles” (Ensign or Liahona, Apr. 2000, 2–3) are used as inspired\n...\n“I energetically encourage you to establish a personal study plan to better\n...\nthe incomparable, eternal, infinite consequences of\n...\nJesus Christ’s perfect fulfillment of His div\n...\nappointed calling as our Savior\n...\nthe scriptures accompanied by\n...\nAs students come to understand and appreciate the significance of the Savior’s\n...\ndivine calling and the impact He has in their lives, they will be fortified against life’s\n...\nchallenges and feel better prepared to discuss the divine roles of the Savior in the\n...\nplan of salvation, of which their personal lives are an integral part.\n...\nAccording to modern prophets, Jesus Christ “taught the\n...\nthe reality of our premortal existence\n...\nIn testifying of the Savior Jesus Christ, modern prophets have\n...\nHe was the Great Jehovah of the Old Testament”\n...\n(“The Living Christ: The Testimony of the Apostles,” Ensign or\n...\nLiahona, Apr. 2000, 2). Jesus Christ, as Jehovah, established\n...\nHeavenly Father’s everlasting gospel on the earth in every\n...\ndispensation of time in order to gather in every one of God’s\n...\nchildren who were lost. Our faith in Jesus Christ can be\n...\nstrengthened as we come to recognize His unchanging\n...\nnature and His everlasting gospel.\n...\nModern prophets have declared that Jesus Christ “instituted\n...\nsacrament as a reminder of His great atoning sacrifice”\n...\ncovenants of the Lord\u003c/content\u003e\n\u003c/result\u003e",
+      "chunk": "Links:\n1. [Eternal Principles of Truth](https://www.churchofjesuschrist.org/study/liahona/1979/10/eternal-principles-of-truth?lang=eng)\n2. [The Eternal Nature of the Church, the Priesthood, and Man](https://archive.bookofmormoncentral.org/sites/default/files/archive-files/pdf/smith/2018-12-17/02_joseph_f._smith_gospel_doctrine_1919.pdf)\n3. [Truth](https://www.churchofjesuschrist.org/study/manual/gospel-topics/truth-study-guide?lang=eng)\n4. [Elder David A. Bednar: ‘The Principles of My Gospel’ – Church News](https://www.thechurchnews.com/2021/4/4/23216969/elder-bednar-april-2021-general-conference-principles-gospel/)\n5. [Jesus Christ and the Everlasting Gospel Teacher Manual](https://www.churchofjesuschrist.org/bc/content/ldsorg/manual/institute/jesus-christ-and-the-everlasting-gospel-teacher-manual_eng-new.pdf)\n\nSynthesis:\nIn The Church of Jesus Christ of Latter-day Saints, eternal principles are unchangeable, God-centered truths that guide individuals toward salvation, exaltation, and life eternal [1][2][3]. These principles derive from the gospel of Jesus Christ and serve as doctrinal guidelines for the righteous exercise of moral agency [4].\n\nKey sources of these principles include the Bible, the Book of Mormon, the Doctrine and Covenants, the Pearl of Great Price, and the teachings of modern prophets [1][5][3][6]. Central tenets often include faith in Jesus Christ, repentance, baptism, receiving the gift of the Holy Ghost, and enduring to the end [7][8][9].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eEternal Principles of Truth\u003c/title\u003e\n\u003curl\u003ehttps://www.churchofjesuschrist.org/study/liahona/1979/10/eternal-principles-of-truth?lang=eng\u003c/url\u003e\n\u003ccontent\u003eBy revelation the Lord has set forth for our guidance eternal principles of truth. These revelations are found in the Doctrine and Covenants, Book of Mormon, Bible, and Pearl of Great Price.\n...\nContained in the said commandments, and other scriptures, are principles of eternal truth which, if adhered to, will guide men safely through mortality and into life eternal.\n...\nAmong his reasons for revealing the eternal principles of truth, the Lord specified the following: That man should learn not to rely upon the counsels of his fellowman, neither trust in the arm of flesh, but trust in God, that faith might increase in the earth; that inasmuch as men erred, it might be made known unto them; that inasmuch as they sought wisdom, they might be instructed; that inasmuch as they sinned, they might be chastened, that they might repent; and that inasmuch as they were humble, they might be made strong and blessed from on high and receive knowledge from time to time. (See D\u0026C 1:21, 25–28.)\n...\nMost people in the world have not accepted these revealed principles as guides for their living, but we, the members of The Church of Jesus Christ of Latter-day Saints, have accepted them. It therefore seems to me that everything we do should be done in light of our understanding and testimony of these eternal principles. My experience teaches me that we have a continuing need to repeatedly rededicate ourselves to this course of action.\n...\nworld about us is\n...\nour standards of conduct,\n...\nspirit of the gospel\n...\nrevealed principles of truth\n...\nYou see how secure he felt, lashed as he was by righteous living to the mast of eternal principles of truth.\n...\nMy hope is that through study, faith, and prayer we will keep ourselves mindful of these principles, and our testimonies of them increasing so that we will always act in the light of them. If we do so, we shall live at peace with ourselves, notwithstanding the strife in the world about us.\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"2\"\u003e\n\u003ctitle\u003eThe Eternal Nature of the Church, the Priesthood, and Man\u003c/title\u003e\n\u003curl\u003ehttps://archive.bookofmormoncentral.org/sites/default/files/archive-files/pdf/smith/2018-12-17/02_joseph_f._smith_gospel_doctrine_1919.pdf\u003c/url\u003e\n\u003ccontent\u003eGo s pe l Pr in c ipl es are Et er nal . Faith in God is \nan irrevocable principle, just as much as “thou shalt not \nkill;” “thou shalt not steal;” “thou shalt not commit adul \ntery.” Repentance of a sin is an eternal principle, and is as \nessential in its place, and is as much an integral part of the \ngospel of Jesus Christ as: “Thou shalt not kill,” or, “Thou \nshalt have no other gods before me.” \nBaptism for the remission of sin, by one having author \nity, is an eternal principle, for God devised it, and com \nmanded it, and Christ himself was not above obeying it; he \nhad to obey it in order to fulfil the law of righteousness. \nAnd then the rites of the Priesthood of the Church, as \nthe Lord has revealed them, and the principles that underlie \nthe organization of the Church of Jesus Christ, are irrev \nocable, unchanging and unchangeable. We talk of the “ever \nlasting gospel of Jesus Christ,” which “is the power of God \nunto salvation,” and these principles in and of themselves \nare eternal principles, and will last while life, or thought, \nor being lasts, or immortality endures.-Oct. C. R., 1912, \np. 11. \nPr e -ex ist in g St at es. \nMrs. Martha H. Tingey,\n...\nPresident, Y. L. M. I. A. \nDear Sist\n...\nThe First Presidency have nothing to\n...\nadvance 'concerning pre-existing states but that which is\n...\ncontained in the revelations to the Church\n...\nstandards of scripture\n...\nall people who come\n...\nand are born in mortality had a pre-existent, spiritual \npersonality as the sons\n...\ndaughters of the Eternal Father. \n(See Pearl of\n...\nPrice, chap\n...\n3, verses\n...\n5-7). Jesus Christ \nwas the Firstborn.\n...\nspirit born of God’\n...\nimmortal be\n...\nalso\n...\nordinances\n...\nis written that “all manner of sin and blasphemy shall be \nforgiven unto men” who receive me and repent\n...\nordinances of his gospel\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"3\"\u003e\n\u003ctitle\u003eTruth\u003c/title\u003e\n\u003curl\u003ehttps://www.churchofjesuschrist.org/study/manual/gospel-topics/truth-study-guide?lang=eng\u003c/url\u003e\n\u003ccontent\u003eThe scriptures describe truth as the “knowledge of things as they are, and as they were, and as they are to come” (Doctrine and Covenants 93:24). Truth is compared in the scriptures to light and revelation from heaven (see Doctrine and Covenants 84:45; 88:66–67; Guide to the Scriptures, “ Truth,” Gospel Library). The source of eternal truth is God Himself. Divine truth has been revealed in our day through the Prophet Joseph Smith and other latter-day prophets. The truths found in the gospel of Jesus Christ are essential to prepare us for salvation and exaltation (see 2 Nephi 31:19–21; Doctrine and Covenants 33:10–12).\n...\nThe restored gospel of Jesus Christ includes the fulness of divine truth that has been revealed in our day. Divine truth is unchanging and eternal (see Doctrine and Covenants 1:39; 88:66).\n...\nour religion are the testimony\n...\nfaith in other\n...\n. There really is\n...\nsee Doctrine and\n...\nOur Heavenly Father wants us to know and believe the divine truths of the gospel. Our understanding of eternal truth comes from God through the Holy Ghost. The Holy Ghost leads us to truth (see 1 Corinthians 2:9–10, 14; Moroni 10:4–5; Doctrine and Covenants 84:44–47). When we choose to act based on the truth we receive, we are able to receive more truth from God (see 2 Nephi 28:30; Doctrine and Covenants 93:26–28).\n...\nThe Lord invites us to “seek learning, even by study and also by faith” (Doctrine and Covenants 88:118). That means, among other things, that when we have questions about the Church’s history, doctrine, and practices, we study reliable sources and exercise faith and trust in Jesus Christ as we seek answers. The adversary seeks to turn our hearts away from eternal truth (see Doctrine and Covenants 78:10; 93:39). Embracing divine truth can help us reject evil and avoid sin, error, and deception (see Doctrine and Covenants 50:23–25; 93:37).\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"4\"\u003e\n\u003ctitle\u003eElder David A. Bednar: ‘The Principles of My Gospel’ – Church News\u003c/title\u003e\n\u003curl\u003ehttps://www.thechurchnews.com/2021/4/4/23216969/elder-bednar-april-2021-general-conference-principles-gospel/\u003c/url\u003e\n\u003ccontent\u003e“We have been blessed abundantly in this general conference to learn about eternal principles from the Lord’s authorized servants. Now, our individual responsibility is to govern ourselves according to the truths of which they have testified.”\n...\n“I invite all of us to learn, live and love principles of righteousness.”\n...\n“Only gospel truths can enable us to ‘cheerfully do all things that lie in our power’ to press forward on the covenant path and to ‘see the salvation of God, and for his arm to be revealed.’”\n...\n- A gospel principle is a doctrinally based guideline for the righteous exercise of moral agency.\n- Gospel principles help strengthen faith in the Savior, deepen devotion to HIm and invite a multitude of blessings and spiritual gifts.\n- Principles taught in general conference should be used to govern one’s life according to testified truths.\n...\nA gospel principle is a doctrinally based guideline for the righteous exercise of moral agency. Principles derive from broader gospel truths and provide direction and standards.\n...\nLearning, understanding and living gospel principles strengthen faith in the Savior, deepen devotion to Him, invite a multitude of blessings and spiritual gifts and help one look beyond personal preferences and self-centered desires by providing the perspective of eternal truth.\n...\nthe instruction of principles\n...\ntaught the Sabbath as\n...\n“We have been blessed abundantly in this general conference to learn about eternal principles from the Lord’s authorized servants. Now, our individual responsibility is to govern ourselves according to the truths of which they have testified. …\n...\n“I invite all of us to learn, live and love principles of righteousness. Only gospel truths can enable us to ‘cheerfully do all things that lie in our power’ to press forward on the covenant path and to ‘see the salvation of God, and for his arm to be revealed.’”\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"5\"\u003e\n\u003ctitle\u003eJesus Christ and the Everlasting Gospel Teacher Manual\u003c/title\u003e\n\u003curl\u003ehttps://www.churchofjesuschrist.org/bc/content/ldsorg/manual/institute/jesus-christ-and-the-everlasting-gospel-teacher-manual_eng-new.pdf\u003c/url\u003e\n\u003ccontent\u003eThis course, Jesus Christ and the Everlasting Gospel (Religion 250), gives students the\n...\nopportunity to study the eternal ministry of Jesus Christ, focusing on His divine\n...\nroles throughout His premortal, mortal, and postmortal life. The standard works,\n...\nthe words of modern prophets, and the document titled “The Living Christ: The\n...\nTestimony of the Apostles” (Ensign or Liahona, Apr. 2000, 2–3) are used as inspired\n...\n“I energetically encourage you to establish a personal study plan to better\n...\nthe incomparable, eternal, infinite consequences of\n...\nJesus Christ’s perfect fulfillment of His div\n...\nappointed calling as our Savior\n...\nthe scriptures accompanied by\n...\nAs students come to understand and appreciate the significance of the Savior’s\n...\ndivine calling and the impact He has in their lives, they will be fortified against life’s\n...\nchallenges and feel better prepared to discuss the divine roles of the Savior in the\n...\nplan of salvation, of which their personal lives are an integral part.\n...\nAccording to modern prophets, Jesus Christ “taught the\n...\nthe reality of our premortal existence\n...\nIn testifying of the Savior Jesus Christ, modern prophets have\n...\nHe was the Great Jehovah of the Old Testament”\n...\n(“The Living Christ: The Testimony of the Apostles,” Ensign or\n...\nLiahona, Apr. 2000, 2). Jesus Christ, as Jehovah, established\n...\nHeavenly Father’s everlasting gospel on the earth in every\n...\ndispensation of time in order to gather in every one of God’s\n...\nchildren who were lost. Our faith in Jesus Christ can be\n...\nstrengthened as we come to recognize His unchanging\n...\nnature and His everlasting gospel.\n...\nModern prophets have declared that Jesus Christ “instituted\n...\nsacrament as a reminder of His great atoning sacrifice”\n...\ncovenants of the Lord\u003c/content\u003e\n\u003c/result\u003e",
       "title": "Web search results"
     },
     {
@@ -2004,14 +2004,14 @@ _**Agent (default)**_
 Added **15 notes** on eternal principles drawn from Jesus' words in the Gospels, mostly the Sermon on the Mount. They follow your atomic-note format and link together through [[Eternal Principles]].
 
 ### Index note
-- **[Eternal Principles](/notes/eternal-principles/)** — MOC grouping all principles by theme (commandments, how to treat others, heart/priorities, character/witness)
+- **[Eternal Principles](/notes/eternal-principles/)** - MOC grouping all principles by theme (commandments, how to treat others, heart/priorities, character/witness)
 
 ### Six core notes with flashcards (`review: true`)
 Each has 6 scenario cards under the **Eternal Principles** / **Gospel** card sets:
 
 | Note | Source |
 |------|--------|
-| [[Love God]] | Matthew 22:37-38 — greatest commandment |
+| [[Love God]] | Matthew 22:37-38 - greatest commandment |
 | [[Love Your Neighbor]] | Matthew 22:39, Luke 10 (Good Samaritan) |
 | [[The Golden Rule]] | Matthew 7:12 |
 | [[Love Your Enemies]] | Matthew 5:44-45 |
@@ -2046,7 +2046,7 @@ These principles are Jesus' ethical teachings, not a works-based gospel. Free gr
 
 _**Agent (default)**_
 
-I'll read the Eternal Principles notes and revise them so their theological foundation is free grace—not works-based righteousness.
+I'll read the Eternal Principles notes and revise them so their theological foundation is free grace-not works-based righteousness.
 
 
 _**Agent (default)**_
@@ -2351,7 +2351,7 @@ Four flashcards are drafted for the free grace note. They cover grace through fa
 
 _**Agent (default)**_
 
-Adding a Free Grace foundation note and revising the Eternal Principles notes so salvation is by faith alone and obedience is a grateful response—not payment for heaven.
+Adding a Free Grace foundation note and revising the Eternal Principles notes so salvation is by faith alone and obedience is a grateful response-not payment for heaven.
 
 
 _**Agent (default)**_
@@ -2804,7 +2804,7 @@ _**Agent (default)**_
 The eternal principles notes are now grounded in **free grace theology**. Here is what changed:
 
 ### New foundation note: [[Free Grace]]
-Salvation by faith alone — eternal life as God's unmerited gift (Ephesians 2:8-9, John 3:16), not wages for obedience. Includes 6 flashcards on the grace/principles distinction.
+Salvation by faith alone - eternal life as God's unmerited gift (Ephesians 2:8-9, John 3:16), not wages for obedience. Includes 6 flashcards on the grace/principles distinction.
 
 ### Updated [[Eternal Principles]] index
 Added a **Theological basis** section linking to [[Free Grace]], with the intro reframed: principles guide how **believers live in response**, not how anyone **earns heaven**.
@@ -2814,15 +2814,15 @@ Each note now ties back to free grace:
 
 | Principle | Free grace grounding |
 |-----------|---------------------|
-| **Love God / Neighbor / Golden Rule** | Commands on a life **already saved** — response, not payment |
+| **Love God / Neighbor / Golden Rule** | Commands on a life **already saved** - response, not payment |
 | **Forgiveness** | Parable = grace **already given**; unforgiveness breaks **fellowship**, not eternal life |
-| **Beatitudes** | "Poor in spirit" = spiritual bankruptcy — kingdom **received as gift** |
+| **Beatitudes** | "Poor in spirit" = spiritual bankruptcy - kingdom **received as gift** |
 | **Narrow Way** | Narrow gate = **faith alone**; "Lord, Lord" = false professors, not stumbling believers |
 | **Treasure in Heaven** | Rewards for faithful service **after** salvation |
 | **Let Your Light Shine** | Good works show **grace at work**, not merit earned |
 
 ### Flashcard updates
-Cards that implied works-righteousness were corrected — e.g. Matthew 6:14-15 now reads: *"Fellowship breaks; I choke grace I already have — not lose eternal life."*
+Cards that implied works-righteousness were corrected - e.g. Matthew 6:14-15 now reads: *"Fellowship breaks; I choke grace I already have - not lose eternal life."*
 
 The core distinction everywhere: **grace saves → principles train the saved life.**
 
@@ -3341,7 +3341,7 @@ New faith note pairs are being added to the wire script. Love Your Neighbor and 
 
 _**Agent (default)**_
 
-Wiring cross-domain links between the faith notes and PKM garden—updating bodies, See also sections, the Eternal Principles index, and the relationship script.
+Wiring cross-domain links between the faith notes and PKM garden-updating bodies, See also sections, the Eternal Principles index, and the relationship script.
 
 
 _**Agent (default)**_
@@ -4802,7 +4802,7 @@ Found **11 cross-domain connections** between the faith notes and the PKM garden
 | [[Free Grace]] ↔ [[Minimum Effective Dose]] | Faith alone = smallest act that works; not a works ladder |
 | [[Free Grace]] ↔ [[Compounding]] | Good works must not compound into merit theology |
 | [[Forgiveness]] ↔ [[Sunk Cost Fallacy]] | Release relational debt; stop counting past hurt |
-| [[First Principles Thinking]] ↔ [[Eternal Principles]] | Human-derived claims vs received gospel — different jobs |
+| [[First Principles Thinking]] ↔ [[Eternal Principles]] | Human-derived claims vs received gospel - different jobs |
 
 ### Priorities ↔ capture
 | Connection | Why |
@@ -4818,15 +4818,15 @@ Found **11 cross-domain connections** between the faith notes and the PKM garden
 | [[Let Your Light Shine]] ↔ [[Drafting in Public]] | Visible good works and visible notes |
 | [[Reconciliation Before Worship]] ↔ [[Note Relationships]] | Repair broken relationships like broken wikilinks |
 | [[Analog Capture Tools]] → [[Eternal Principles]] | Sermon notes on paper → distilled into the garden |
-| [[Flashcards]] / [[Review]] / [[Spaced Repetition]] | Shared drill lane — filter by **Eternal Principles** `card_sets` |
+| [[Flashcards]] / [[Review]] / [[Spaced Repetition]] | Shared drill lane - filter by **Eternal Principles** `card_sets` |
 | [[Pareto Principle]] | Six gospel notes carry cards, not all fifteen |
 
 ### Where to explore
-- **Graph view** (`/notes/graph/`) — new edges between Faith and Productivity clusters  
-- **[[Eternal Principles]]** — full cross-links table at the bottom  
-- **`scripts/wire-note-relationships.py`** — faith slugs added so relationships stay typed
+- **Graph view** (`/notes/graph/`) - new edges between Faith and Productivity clusters  
+- **[[Eternal Principles]]** - full cross-links table at the bottom  
+- **`scripts/wire-note-relationships.py`** - faith slugs added so relationships stay typed
 
-The graph should now show the faith cluster linked into PKM habits, mental models, and the flashcard drill lane — not isolated on its own.
+The graph should now show the faith cluster linked into PKM habits, mental models, and the flashcard drill lane - not isolated on its own.
 
 ---
 
@@ -5448,35 +5448,35 @@ Total in 16282 ms
 
 _**Agent (default)**_
 
-Yes — several major teachings from Jesus weren't covered yet. You had the Sermon on the Mount's **spine** (love, forgiveness, kingdom-first, beatitudes); much of the **ethics detail**, **prayer**, and **discipleship cost** was still missing.
+Yes - several major teachings from Jesus weren't covered yet. You had the Sermon on the Mount's **spine** (love, forgiveness, kingdom-first, beatitudes); much of the **ethics detail**, **prayer**, and **discipleship cost** was still missing.
 
 ### Added 8 new notes
 
 | Note | Jesus' words | Why it's distinct |
 |------|--------------|-------------------|
-| [[Repent and Believe]] | Mark 1:15 | Kingdom **entry** — turn and trust, not merit |
-| [[Turn the Other Cheek]] | Matthew 5:39 | **Non-retaliation** — break the cycle |
+| [[Repent and Believe]] | Mark 1:15 | Kingdom **entry** - turn and trust, not merit |
+| [[Turn the Other Cheek]] | Matthew 5:39 | **Non-retaliation** - break the cycle |
 | [[Judge Not]] | Matthew 7:1-5 | No hypocritical **condemnation** (vs fruit discernment) |
-| [[Ask Seek Knock]] | Matthew 7:7-11, 6:9-13 | **Prayer** dependence — includes Lord's Prayer |
-| [[Let Your Yes Be Yes]] | Matthew 5:37 | **Plain truth** — no oaths to be believed |
+| [[Ask Seek Knock]] | Matthew 7:7-11, 6:9-13 | **Prayer** dependence - includes Lord's Prayer |
+| [[Let Your Yes Be Yes]] | Matthew 5:37 | **Plain truth** - no oaths to be believed |
 | [[Take Up Your Cross]] | Luke 9:23 | **Daily discipleship** cost after faith |
-| [[Childlike Faith]] | Matthew 18:3 | Receive kingdom like a **child** — fits free grace |
-| [[The Wise Builder]] | Matthew 7:24-27 | **Hear and do** — rock vs sand |
+| [[Childlike Faith]] | Matthew 18:3 | Receive kingdom like a **child** - fits free grace |
+| [[The Wise Builder]] | Matthew 7:24-27 | **Hear and do** - rock vs sand |
 
 Three got flashcards (with the original six): **Repent and Believe**, **Ask Seek Knock**, **Take Up Your Cross**.
 
 ### Still on the backlog (listed in [[Eternal Principles]])
 
-These are real Jesus teachings worth notes when a sermon earns them — not duplicated yet:
+These are real Jesus teachings worth notes when a sermon earns them - not duplicated yet:
 
-- **Heart righteousness** (Matthew 5:21-30) — anger/lust as heart sins  
-- **Secret devotion** (Matthew 6:1-18) — give, pray, fast for the Father alone  
-- **By their fruits** (Matthew 7:16-20) — test teachers by outcome  
-- **Render unto Caesar** (Matthew 22:21) — civic duty vs worship  
+- **Heart righteousness** (Matthew 5:21-30) - anger/lust as heart sins  
+- **Secret devotion** (Matthew 6:1-18) - give, pray, fast for the Father alone  
+- **By their fruits** (Matthew 7:16-20) - test teachers by outcome  
+- **Render unto Caesar** (Matthew 22:21) - civic duty vs worship  
 - **Great Commission** (Matthew 28:19-20)  
-- **Abide in me** (John 15) — fruit from union, not self-effort alone  
+- **Abide in me** (John 15) - fruit from union, not self-effort alone  
 
-Parables like the **Good Samaritan** and **Prodigal Son** are largely covered through [[Love Your Neighbor]] and [[Forgiveness]] — separate notes only if you want parable-by-parable granularity.
+Parables like the **Good Samaritan** and **Prodigal Son** are largely covered through [[Love Your Neighbor]] and [[Forgiveness]] - separate notes only if you want parable-by-parable granularity.
 
 The garden now has **23 eternal principle notes** (including [[Free Grace]] and the index). Want me to draft any of the backlog items next, or add flashcards to more of the new ones?
 
@@ -6445,23 +6445,23 @@ Total in 14143 ms
 
 _**Agent (default)**_
 
-Wired **8 new cross-domain connections** for the latest faith notes — bidirectional where it made sense. All are in note bodies, See also sections, and the **Cross-links (PKM)** table on [[Eternal Principles]].
+Wired **8 new cross-domain connections** for the latest faith notes - bidirectional where it made sense. All are in note bodies, See also sections, and the **Cross-links (PKM)** table on [[Eternal Principles]].
 
 ### New faith ↔ PKM connections
 
 | Faith note | PKM partner | Connection |
 |------------|-------------|------------|
-| [[Repent and Believe]] | [[There Is No Perfect Solution]] | Enter now — don't wait until you're "ready" |
+| [[Repent and Believe]] | [[There Is No Perfect Solution]] | Enter now - don't wait until you're "ready" |
 | [[Turn the Other Cheek]] | [[Sunk Cost Fallacy]] | Stop investing more anger after sunk hurt |
 | [[Judge Not]] | [[Issues]] | Diagnose broken links without condemning the author |
 | [[Judge Not]] | [[Signal vs Noise]] | Discern fruit vs condemn (See also) |
 | [[Ask Seek Knock]] | [[Periodic Knowledge Review]] | Show up on schedule, not only in crisis |
 | [[Ask Seek Knock]] | [[Spaced Repetition]] | Keep asking on rhythm |
-| [[Let Your Yes Be Yes]] | [[Atomic Notes]] | One plain claim — no padded speech |
+| [[Let Your Yes Be Yes]] | [[Atomic Notes]] | One plain claim - no padded speech |
 | [[Take Up Your Cross]] | [[Process Over Outcomes]] | Daily self-denial beats a one-time hero sprint |
 | [[Take Up Your Cross]] | [[Slow Productivity]] | Costly faithfulness vs frantic throughput |
-| [[Childlike Faith]] | [[Getting Started]] | Beginner posture — receive, don't perform |
-| [[The Wise Builder]] | [[Creative Output]] | Hear and **do** — output is rock, hoarding is sand |
+| [[Childlike Faith]] | [[Getting Started]] | Beginner posture - receive, don't perform |
+| [[The Wise Builder]] | [[Creative Output]] | Hear and **do** - output is rock, hoarding is sand |
 | [[The Wise Builder]] | [[The Collector's Fallacy]] | Hearing/saving without living/shipping |
 
 ### PKM notes updated back-links
@@ -7024,7 +7024,7 @@ Added all six backlog notes and updated [[Eternal Principles]]:
 | [[Render Unto Caesar]] | 22:21 | Church and world *(new)* |
 | [[Great Commission]] | 28:19-20 | Church and world |
 
-Each note is grounded in [[Free Grace]], linked to related principles, and wired into the PKM cross-links table where it fit. The backlog section is removed — the index is complete at **29 notes**. Build passes clean.
+Each note is grounded in [[Free Grace]], linked to related principles, and wired into the PKM cross-links table where it fit. The backlog section is removed - the index is complete at **29 notes**. Build passes clean.
 
 ---
 
@@ -7252,23 +7252,23 @@ PY
 
 ask-seek-knock.md (6/6 violations)
   front=38 back=44
-    F: Matthew 7:7 — three moves Jesus named:...
+    F: Matthew 7:7 - three moves Jesus named:...
     B: Ask, seek, knock. Keep coming to the Father....
   front=49 back=63
     F: Ask seek knock vs earning answers by performance:...
-    B: Child asking a father — dependence, not wages ([[Free Grace]...
+    B: Child asking a father - dependence, not wages ([[Free Grace]...
   front=48 back=70
-    F: Father gives good gifts — even when I ask wrong?...
+    F: Father gives good gifts - even when I ask wrong?...
     B: He gives what's good, like a parent who knows better than th...
   front=25 back=73
     F: Lord's Prayer opens with:...
-    B: Our Father — hallowed name, kingdom come, will be done, then...
+    B: Our Father - hallowed name, kingdom come, will be done, then...
   front=35 back=53
     F: Pray in secret (Matthew 6:6) means:...
-    B: Audience is God, not people — not performance prayer....
+    B: Audience is God, not people - not performance prayer....
   front=58 back=61
     F: I stopped praying because God didn't comply. Jesus' frame:...
-    B: Keep asking — the Father's character is generous, not stingy...
+    B: Keep asking - the Father's character is generous, not stingy...
 
 associative-linking.md (4/6 violations)
   front=35 back=47
@@ -7341,53 +7341,53 @@ forgiveness.md (5/6 violations)
     F: In the Lord's Prayer, forgive us as:...
     B: We forgive those who trespass against us....
   front=52 back=72
-    F: Matthew 6:14-15 — believer who won't forgive others:...
-    B: Fellowship breaks; I choke grace I already have — not lose e...
+    F: Matthew 6:14-15 - believer who won't forgive others:...
+    B: Fellowship breaks; I choke grace I already have - not lose e...
   front=41 back=82
     F: Forgiveness means the hurt didn't matter?...
-    B: No. It means I release the debt anyway — like the unmerciful...
+    B: No. It means I release the debt anyway - like the unmerciful...
   front=61 back=79
     F: Someone apologizes but keeps repeating the harm. Forgive how...
     B: Forgive the heart; wisdom may still set boundaries. Forgiven...
   front=43 back=79
     F: Parable of the unforgiving servant teaches:...
-    B: Forgiven an unpayable debt (grace) — I can't choke a neighbo...
+    B: Forgiven an unpayable debt (grace) - I can't choke a neighbo...
 
 free-grace.md (6/6 violations)
   front=27 back=55
-    F: Ephesians 2:8-9 — saved by:...
+    F: Ephesians 2:8-9 - saved by:...
     B: Grace through faith. Not of works, so no one can boast....
   front=44 back=64
-    F: Eternal life in John 3:16 — I receive it by:...
+    F: Eternal life in John 3:16 - I receive it by:...
     B: Believing in Christ. Gift of God, not payment for good behav...
   front=48 back=70
     F: I obey eternal principles to qualify for heaven....
     B: No. Faith in Christ saves. Principles guide the believer's l...
   front=42 back=63
-    F: Ephesians 2:10 — when do good works enter?...
-    B: After salvation. Created in Christ for good works — not befo...
+    F: Ephesians 2:10 - when do good works enter?...
+    B: After salvation. Created in Christ for good works - not befo...
   front=48 back=49
     F: Grace means I earned God's favor by trying hard?...
     B: No. Unmerited favor. Christ paid what I couldn't....
   front=51 back=71
-    F: Eternal principles vs free grace — how they relate:...
-    B: Grace saves. Principles shape how the saved live — response,...
+    F: Eternal principles vs free grace - how they relate:...
+    B: Grace saves. Principles shape how the saved live - response,...
 
 love-god.md (5/6 violations)
   front=56 back=69
     F: A lawyer asks which commandment is greatest. Jesus said:...
     B: Love the Lord your God with all your heart, soul, mind, and ...
   front=51 back=60
-    F: Heart, soul, mind, strength — what does that cover?...
+    F: Heart, soul, mind, strength - what does that cover?...
     B: Whole person: affections, will, thoughts, effort. All of me....
   front=48 back=84
     F: I treat church like a checkbox. Jesus' standard:...
-    B: Love God with everything — grateful response to grace, not m...
+    B: Love God with everything - grateful response to grace, not m...
   front=46 back=57
     F: Second commandment hangs on the first because:...
     B: You can't love neighbor rightly without loving God first....
   front=37 back=53
-    F: Matthew 22 — two commandments or ten?...
+    F: Matthew 22 - two commandments or ten?...
     B: Two that sum the Law and Prophets. Love God is first....
 
 love-your-enemies.md (6/6 violations)
@@ -7395,31 +7395,31 @@ love-your-enemies.md (6/6 violations)
     F: Old teaching: love neighbor, hate enemy. Jesus said:...
     B: Love your enemies. Bless those who curse you. Pray for perse...
   front=42 back=81
-    F: Why love enemies — not just tolerate them?...
+    F: Why love enemies - not just tolerate them?...
     B: So you may be children of your Father, who sends sun and rai...
   front=52 back=59
     F: Someone slandered me online. First move Jesus named:...
-    B: Pray for them — not perform outrage, not silent bitterness....
+    B: Pray for them - not perform outrage, not silent bitterness....
   front=35 back=48
     F: Love enemies means agree with them?...
-    B: No. Bless and pray — don't return evil for evil....
+    B: No. Bless and pray - don't return evil for evil....
   front=46 back=51
     F: If I only love people who love me, Jesus said:...
     B: Even tax collectors do that. My standard is higher....
   front=47 back=77
-    F: Matthew 5:44-45 — God's example for enemy-love:...
+    F: Matthew 5:44-45 - God's example for enemy-love:...
     B: He gives good weather to wicked and righteous alike. Imitate...
 
 love-your-neighbor.md (4/6 violations)
   front=50 back=70
     F: The neighbor I want to avoid still counts because:...
-    B: Jesus didn't qualify neighbor by likability — only proximity...
+    B: Jesus didn't qualify neighbor by likability - only proximity...
   front=41 back=50
-    F: As yourself — what standard am I held to?...
+    F: As yourself - what standard am I held to?...
     B: The care I'd want if roles reversed. No lower bar....
   front=30 back=64
     F: Parable that defines neighbor:...
-    B: Good Samaritan — the one who showed mercy, not shared ethnic...
+    B: Good Samaritan - the one who showed mercy, not shared ethnic...
   front=56 back=75
     F: Lawyer asks who is my neighbor. Jesus answers by asking:...
     B: Which man was a neighbor? Flip the question from who qualifi...
@@ -7469,30 +7469,30 @@ repent-and-believe.md (6/6 violations)
     B: Repent and believe the gospel. The kingdom is at hand....
   front=42 back=72
     F: Repent means grovel until I'm good enough?...
-    B: No. Turn from self-trust toward God — change of mind, not me...
+    B: No. Turn from self-trust toward God - change of mind, not me...
   front=46 back=59
     F: Believe the gospel means assent to facts only?...
-    B: Trust Christ's promise — rely on Him, not your performance....
+    B: Trust Christ's promise - rely on Him, not your performance....
   front=58 back=73
     F: Repent and believe vs obey eternal principles to be saved:...
     B: Repent/believe receives life. Principles guide life after [[...
   front=48 back=64
     F: I keep repeating the same sin. Repent again how?...
-    B: Turn back again — fellowship restoration, not re-earning hea...
+    B: Turn back again - fellowship restoration, not re-earning hea...
   front=24 back=76
     F: Kingdom 'at hand' means:...
-    B: God's reign breaking in now — enter by faith today, not some...
+    B: God's reign breaking in now - enter by faith today, not some...
 
 seek-the-kingdom-first.md (3/4 violations)
   front=26 back=62
-    F: Matthew 6:33 — seek first:...
+    F: Matthew 6:33 - seek first:...
     B: The kingdom of God and his righteousness. Other things follo...
   front=21 back=72
     F: Kingdom of God means:...
-    B: God's rule received by faith — then lived out, not earned by...
+    B: God's rule received by faith - then lived out, not earned by...
   front=46 back=70
     F: Seeking kingdom first looks like on a Tuesday:...
-    B: Grateful obedience in small acts — fruit of grace, not payme...
+    B: Grateful obedience in small acts - fruit of grace, not payme...
 
 signal-vs-noise.md (5/6 violations)
   front=38 back=49
@@ -7520,16 +7520,16 @@ take-up-your-cross.md (6/6 violations)
     B: No. [[Free Grace]] saves. Cross is daily discipleship after ...
   front=36 back=67
     F: Cross vs comfort-first Christianity:...
-    B: Jesus said count the cost — discipleship is costly, not conv...
+    B: Jesus said count the cost - discipleship is costly, not conv...
   front=21 back=53
-    F: Daily — why not once?...
+    F: Daily - why not once?...
     B: Self-denial is a posture, not a single heroic moment....
   front=35 back=71
     F: I want to save my life. Jesus said:...
     B: Whoever saves his life loses it; whoever loses it for my sak...
   front=25 back=81
     F: Take up cross pairs with:...
-    B: [[Humility and Service]] — the path down is the path of grea...
+    B: [[Humility and Service]] - the path down is the path of grea...
 
 the-collectors-fallacy.md (4/6 violations)
   front=37 back=48
@@ -7557,12 +7557,12 @@ the-golden-rule.md (6/6 violations)
     B: You go first. Don't wait to be treated well before you act w...
   front=58 back=76
     F: I want honesty from others. My move under the Golden Rule:...
-    B: Speak truth to them the way I'd want it spoken to me — in lo...
+    B: Speak truth to them the way I'd want it spoken to me - in lo...
   front=49 back=50
     F: Negative form (don't do) vs Jesus' positive form:...
-    B: Jesus says do good actively — not just avoid harm....
+    B: Jesus says do good actively - not just avoid harm....
   front=45 back=52
-    F: Sermon on the Mount context — this rule caps:...
+    F: Sermon on the Mount context - this rule caps:...
     B: The whole ethical teaching. If in doubt, start here....
 
 the-trusted-inbox.md (4/6 violations)
@@ -8141,7 +8141,7 @@ The body may contain the entire file again. I need to check git or read the full
 
 _**Agent (default)**_
 
-The rewrite script corrupted files — checking damage and fixing it.
+The rewrite script corrupted files - checking damage and fixing it.
 
 
 _**Agent (default)**_
@@ -8827,7 +8827,7 @@ _**Agent (default)**_
 
 _**Agent (default)**_
 
-Duplicate frontmatter remains in some notes — inspecting and fixing them.
+Duplicate frontmatter remains in some notes - inspecting and fixing them.
 
 
 _**Agent (default)**_
@@ -9562,22 +9562,22 @@ _**Agent (default)**_
 
 _**Agent (default)**_
 
-All flashcard decks now follow the **front longer than back** rule — scenario prompts on the front, short answers on the back.
+All flashcard decks now follow the **front longer than back** rule - scenario prompts on the front, short answers on the back.
 
 **What changed**
 
-1. **22 review notes rewritten** — PKM spine (Capture, Pareto, Atomic Notes, etc.) and faith spine (Free Grace, Love God, Forgiveness, etc.) now use longer scenario-style fronts and punchy backs.
+1. **22 review notes rewritten** - PKM spine (Capture, Pareto, Atomic Notes, etc.) and faith spine (Free Grace, Love God, Forgiveness, etc.) now use longer scenario-style fronts and punchy backs.
 
-2. **Lint enforcement** — `scripts/lint-flashcard-frontmatter.py` errors if `len(front) <= len(back)`. Run with `npm run lint:cards` (currently passing).
+2. **Lint enforcement** - `scripts/lint-flashcard-frontmatter.py` errors if `len(front) <= len(back)`. Run with `npm run lint:cards` (currently passing).
 
-3. **Docs updated** — `cards.md` documents the convention: *"Front longer than back — the prompt carries context; the answer stays short."*
+3. **Docs updated** - `cards.md` documents the convention: *"Front longer than back - the prompt carries context; the answer stays short."*
 
-4. **Repair script** — Fixed duplicate frontmatter corruption from an earlier script run; removed a stray trailing `---` in `capture.md`.
+4. **Repair script** - Fixed duplicate frontmatter corruption from an earlier script run; removed a stray trailing `---` in `capture.md`.
 
 **Example** (from Capture):
 
 ```yaml
-- front: "Mid-commute I get a spark I might forget. Per my capture rule, what's the first move — inbox or organize?"
+- front: "Mid-commute I get a spark I might forget. Per my capture rule, what's the first move - inbox or organize?"
   back: "One trusted inbox. Don't organize yet."
 ```
 
@@ -10711,15 +10711,15 @@ Noted and enforced. Those six pages are **utility/meta surfaces**, not garden no
 
 **What I added**
 
-1. **Convention documented** in `getting-started.md` — utility surfaces section lists all six and says to use URLs, not `[[wikilinks]]`.
+1. **Convention documented** in `getting-started.md` - utility surfaces section lists all six and says to use URLs, not `[[wikilinks]]`.
 
-2. **Lint check** — `npm run lint:utility-links` errors if any evergreen note body wikilinks to Graph, Issues, Flashcards, Review, Random Duo, or Random Trio.
+2. **Lint check** - `npm run lint:utility-links` errors if any evergreen note body wikilinks to Graph, Issues, Flashcards, Review, Random Duo, or Random Trio.
 
-3. **Fixed existing violations** — replaced wikilinks with URL links in `judge-not.md`, `by-their-fruits.md`, `eternal-principles.md`, `getting-started.md`; removed `[[Issues]]` from `maps-of-content.md`.
+3. **Fixed existing violations** - replaced wikilinks with URL links in `judge-not.md`, `by-their-fruits.md`, `eternal-principles.md`, `getting-started.md`; removed `[[Issues]]` from `maps-of-content.md`.
 
-4. **Scaffold/docs updated** — `archetypes/notes.md`, `cards.md`, and `jorap-voice-notes.py` aligned with the rule.
+4. **Scaffold/docs updated** - `archetypes/notes.md`, `cards.md`, and `jorap-voice-notes.py` aligned with the rule.
 
-**Rule of thumb:** link ideas with `[[wikilinks]]`; link tools with `/notes/graph/`, `/notes/issues/`, etc. Content notes like [[Graph View Analytics]] and [[Spaced Repetition]] stay fair game — they're ideas, not UI pages.
+**Rule of thumb:** link ideas with `[[wikilinks]]`; link tools with `/notes/graph/`, `/notes/issues/`, etc. Content notes like [[Graph View Analytics]] and [[Spaced Repetition]] stay fair game - they're ideas, not UI pages.
 
 ---
 
@@ -12929,7 +12929,7 @@ All notes contain duplicate `---` separators after their frontmatter.</details><
 
 _**Agent (default)**_
 
-Duplicate frontmatter closers found across many notes — bulk-fixing them.
+Duplicate frontmatter closers found across many notes - bulk-fixing them.
 
 
 _**Agent (default)**_
@@ -13301,11 +13301,11 @@ Result:
           },
           {
             "lineNumber": 4,
-            "text": "    byPath — map File.Path → { broken, unlinked }"
+            "text": "    byPath - map File.Path → { broken, unlinked }"
           },
           {
             "lineNumber": 5,
-            "text": "    notes — slice of { Page, broken, unlinked, total } (notes with ≥1 issue)"
+            "text": "    notes - slice of { Page, broken, unlinked, total } (notes with ≥1 issue)"
           },
           {
             "lineNumber": 6,
@@ -13721,7 +13721,7 @@ Result:
           },
           {
             "lineNumber": 44,
-            "text": "                        \u003ccode\u003e[[{{ .target }}]]\u003c/code\u003e — no matching page."
+            "text": "                        \u003ccode\u003e[[{{ .target }}]]\u003c/code\u003e - no matching page."
           },
           {
             "lineNumber": 45,
@@ -13902,7 +13902,7 @@ Result:
           },
           {
             "lineNumber": 22,
-            "text": "            wikilink \u003ccode\u003e[[{{ .target }}]]\u003c/code\u003e — no page matches this title, slug, or alias."
+            "text": "            wikilink \u003ccode\u003e[[{{ .target }}]]\u003c/code\u003e - no page matches this title, slug, or alias."
           },
           {
             "lineNumber": 23,
@@ -13926,7 +13926,7 @@ Result:
           },
           {
             "lineNumber": 28,
-            "text": "            \"{{ .mention }}\" in prose — link"
+            "text": "            \"{{ .mention }}\" in prose - link"
           },
           {
             "lineNumber": 29,
@@ -14772,7 +14772,7 @@ _**Agent (default)**_
 
 Cross-link audit is complete. Summary:
 
-## All 20 MOC pairs — bidirectional ✓
+## All 20 MOC pairs - bidirectional ✓
 
 Every faith ↔ PKM pair in the `eternal-principles.md` cross-links table now links both ways in note bodies:
 
@@ -14805,21 +14805,21 @@ Every faith ↔ PKM pair in the `eternal-principles.md` cross-links table now li
 
 2. **Missing return links** added on PKM side: Signal vs Noise → By Their Fruits; Drafting in Public → Secret Devotion; Creative Output → Great Commission; Compounding → Abide in Me.
 
-3. **Repent and Believe** — fixed broken slug link `[[there-is-no-perfect-solution|…]]`; now uses alias `[[No Perfect Solution|…]]` (avoids Hugo unlinked-mention false positive).
+3. **Repent and Believe** - fixed broken slug link `[[there-is-no-perfect-solution|…]]`; now uses alias `[[No Perfect Solution|…]]` (avoids Hugo unlinked-mention false positive).
 
-4. **MOC table** — flashcard count updated to **10 principle notes** (not 9 / 23).
+4. **MOC table** - flashcard count updated to **10 principle notes** (not 9 / 23).
 
-5. **Utility pages** — Judge Not / By Their Fruits still point to [Issues](/notes/issues/) by URL (not wikilink), per your rule.
+5. **Utility pages** - Judge Not / By Their Fruits still point to [Issues](/notes/issues/) by URL (not wikilink), per your rule.
 
 ## Validation
 
-- `npm run lint:utility-links` — OK  
-- `npm run lint:cards` — OK  
-- Hugo build — **no broken wikilinks or unlinked mentions**
+- `npm run lint:utility-links` - OK  
+- `npm run lint:cards` - OK  
+- Hugo build - **no broken wikilinks or unlinked mentions**
 
 ## Faith notes without PKM cross-links (by design)
 
-These MOC entries are faith-only for now — no PKM partner in the table: Love God, Love Your Neighbor, Peacemakers, Heart Righteousness, The Beatitudes, Humility and Service, The Narrow Way, Render Unto Caesar, and others that only link within the faith cluster. Say if you want PKM partners added for any of those.
+These MOC entries are faith-only for now - no PKM partner in the table: Love God, Love Your Neighbor, Peacemakers, Heart Righteousness, The Beatitudes, Humility and Service, The Narrow Way, Render Unto Caesar, and others that only link within the faith cluster. Say if you want PKM partners added for any of those.
 
 ---
 
@@ -14836,7 +14836,7 @@ Applying the JoRap voice skill to the eternal-principles note.</details></think>
 
 _**Agent (default)**_
 
-Applying JoRap voice to the Eternal Principles MOC — reading the note and similar garden pages for tone patterns.
+Applying JoRap voice to the Eternal Principles MOC - reading the note and similar garden pages for tone patterns.
 
 
 _**Agent (default)**_
@@ -14958,7 +14958,7 @@ Rewriting the opening definition in first person to match JoRap voice. Adding a 
 
 _**Agent (default)**_
 
-Rewriting the MOC opener, frontmatter, and cross-links intro in JoRap voice—keeping structure, wikilinks, and the table intact; replacing em dashes per the voice skill.
+Rewriting the MOC opener, frontmatter, and cross-links intro in JoRap voice-keeping structure, wikilinks, and the table intact; replacing em dashes per the voice skill.
 
 
 _**Agent (default)**_

@@ -49,6 +49,10 @@ cards:
     back: "Serendipity isn't luck, it's links plus review"
   - front: "I'm flipping through old recipe cards while packing lunch and a card on quick weeknight meals bumps into one I wrote last month on batch cooking"
     back: "The \"see also\" arrow on the adobo card did the work"
+  - front: "Random wikilink resurfaced - forgot note led to blog post."
+    back: "Follow the link - serendipity needs walking the garden."
+  - front: "Old recipe card while packing lunch - unexpected connection."
+    back: "Browse the stacks - leave room for accidental finds."
 draft: false
 ---
 

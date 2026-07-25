@@ -104,13 +104,13 @@ _**Agent (auto-low)**_
 
 Rewrote the draft around the laptop-bag use case. Main shifts:
 
-**Framing** — Opens on hotel rooms, cafés, and meeting rooms where the outlet is in the wrong place. The “two-cord system” and outdoor-cord sections are gone; this is travel/remote-work gear, not general household wiring.
+**Framing** - Opens on hotel rooms, cafés, and meeting rooms where the outlet is in the wrong place. The “two-cord system” and outdoor-cord sections are gone; this is travel/remote-work gear, not general household wiring.
 
-**Metric** — Lengths are in metres (1.5–2 m for the bag, up to 3 m for home desk). Charger cable length uses metres too.
+**Metric** - Lengths are in metres (1.5–2 m for the bag, up to 3 m for home desk). Charger cable length uses metres too.
 
-**No AWG** — Wire size is in **mm²** (1.0 mm² is enough for a laptop + phone). AWG isn’t mentioned; the label is described as “square millimetres” so you know what to look for on the package.
+**No AWG** - Wire size is in **mm²** (1.0 mm² is enough for a laptop + phone). AWG isn’t mentioned; the label is described as “square millimetres” so you know what to look for on the package.
 
-**Laptop-specific picks** — Flat plug for outlets behind headboards, plain cord over surge strip in the bag (surge strip stays at the desk), velcro coil in the charger pouch.
+**Laptop-specific picks** - Flat plug for outlets behind headboards, plain cord over surge strip in the bag (surge strip stays at the desk), velcro coil in the charger pouch.
 
 Tags and description were updated to match. Still `draft: true` with the `__` filename prefix until you publish.
 
@@ -385,8 +385,8 @@ _**Agent (auto-low)**_
 
 Added it in two places:
 
-1. **Opening** — internet café scenario where a huge Apple brick blocks the next slot (“free on paper, useless in practice”).
-2. **Flat plug section** — the full annoyance: scarce power strips, oversized bricks hogging neighboring slots, walking over to a “free” outlet that isn’t actually usable. The cord is the workaround for the one slot you can reach.
+1. **Opening** - internet café scenario where a huge Apple brick blocks the next slot (“free on paper, useless in practice”).
+2. **Flat plug section** - the full annoyance: scarce power strips, oversized bricks hogging neighboring slots, walking over to a “free” outlet that isn’t actually usable. The cord is the workaround for the one slot you can reach.
 
 Dropped the generic café crawl example so the opener doesn’t pile on too many scenarios.
 
@@ -551,15 +551,15 @@ I will propose two or three prompt concepts with one recommended. The output wil
 
 _**Agent (auto-low)**_
 
-Here’s a concept that matches your post and the style of images like `feature-mouse-wheel-click.jpg` — practical, warm light, one clear story in frame.
+Here’s a concept that matches your post and the style of images like `feature-mouse-wheel-click.jpg` - practical, warm light, one clear story in frame.
 
 ## Recommended concept: “Free slot, blocked”
 
-**Scene:** Internet café table, eye-level. A cheap power strip on the wall with only two sockets visible. A **bulky white Apple laptop brick** is plugged into one slot and **overhangs the empty slot beside it** — close enough that you can see the problem without text.
+**Scene:** Internet café table, eye-level. A cheap power strip on the wall with only two sockets visible. A **bulky white Apple laptop brick** is plugged into one slot and **overhangs the empty slot beside it** - close enough that you can see the problem without text.
 
 **Foreground:** Your hand reaching in with a **short white extension cord** (flat plug, neat 2-metre coil, velcro strap). Laptop open, battery icon low. The cord is the fix, not the villain.
 
-**Mood:** Slightly cramped, real café energy — plastic chair edge, scratched table, fluorescent-ish light mixed with window light. Not a stock “remote work aesthetic” shot.
+**Mood:** Slightly cramped, real café energy - plastic chair edge, scratched table, fluorescent-ish light mixed with window light. Not a stock “remote work aesthetic” shot.
 
 **Optional sticky note** (if you want the mouse-wheel-post treatment): yellow note on the table, handwritten: `pack the cord` with an arrow to the coil.
 
@@ -577,9 +577,9 @@ First-person view at a worn internet café table in the Philippines. A silver la
 
 ## Two alternates if you want options
 
-1. **Laptop bag reveal** — Open bag on a hotel bed; charger pouch with coiled extension cord sitting next to the laptop brick. Quiet “this is always in here” shot. Less drama, more checklist energy.
+1. **Laptop bag reveal** - Open bag on a hotel bed; charger pouch with coiled extension cord sitting next to the laptop brick. Quiet “this is always in here” shot. Less drama, more checklist energy.
 
-2. **Hotel crawl** — Outlet behind a bed headboard, flat plug barely fitting in a tight gap, cord running to a desk 2 metres away. Good for the travel angle, weaker on the internet café annoyance.
+2. **Hotel crawl** - Outlet behind a bed headboard, flat plug barely fitting in a tight gap, cord running to a desk 2 metres away. Good for the travel angle, weaker on the internet café annoyance.
 
 ---
 
@@ -609,16 +609,16 @@ _**Agent (auto-low)**_
 Here's a tightened version with your fixes baked in:
 
 ```
-First-person view from a seated customer at a Starbucks café table. A silver laptop is open in the foreground with a low battery warning on screen. On the wall behind the table, a small white power strip with two US Type A outlets (flat parallel prongs). One outlet has an oversized chunky white Apple MacBook charger brick fully plugged in — the brick body overhangs and physically blocks the neighboring empty socket so it cannot be used. A right hand enters from the lower frame holding a short white US extension cord: flat two-prong plug, neatly coiled 2-metre cable with a black velcro strap. The cord is the solution reaching toward the one usable outlet.
+First-person view from a seated customer at a Starbucks café table. A silver laptop is open in the foreground with a low battery warning on screen. On the wall behind the table, a small white power strip with two US Type A outlets (flat parallel prongs). One outlet has an oversized chunky white Apple MacBook charger brick fully plugged in - the brick body overhangs and physically blocks the neighboring empty socket so it cannot be used. A right hand enters from the lower frame holding a short white US extension cord: flat two-prong plug, neatly coiled 2-metre cable with a black velcro strap. The cord is the solution reaching toward the one usable outlet.
 
 On the table: plain white ceramic coffee mug with no logo, no branding, no text. Scratched wood table, laptop sleeve, subtle café clutter. Warm window light mixed with soft interior lighting. Shallow depth of field, realistic editorial lifestyle photography, natural colors, candid moment, not staged stock photo. No text overlays, no watermarks, no visible logos anywhere in frame, no Starbucks branding on cup or walls.
 ```
 
 **What changed:**
-- **Charger plugged in** — “fully plugged in” and blocking the adjacent slot physically, not just sitting nearby
-- **US plug** — Type A, flat two-prong, on both strip and extension cord
-- **No mug logo** — plain ceramic mug; explicit “no Starbucks branding on cup or walls”
-- **Clearer story** — hand with cord moving toward the one slot that still works
+- **Charger plugged in** - “fully plugged in” and blocking the adjacent slot physically, not just sitting nearby
+- **US plug** - Type A, flat two-prong, on both strip and extension cord
+- **No mug logo** - plain ceramic mug; explicit “no Starbucks branding on cup or walls”
+- **Clearer story** - hand with cord moving toward the one slot that still works
 
 **Negative prompt** (if your generator supports it):
 
@@ -649,9 +649,9 @@ _**Agent (auto-low)**_
 Updated prompt with “standard extension cord” spelled out:
 
 ```
-First-person view from a seated customer at a Starbucks café table. A silver laptop is open in the foreground with a low battery warning on screen. On the wall behind the table, a small white power strip with two US Type A outlets (flat parallel prongs). One outlet has an oversized chunky white Apple MacBook charger brick fully plugged in — the brick body overhangs and physically blocks the neighboring empty socket so it cannot be used.
+First-person view from a seated customer at a Starbucks café table. A silver laptop is open in the foreground with a low battery warning on screen. On the wall behind the table, a small white power strip with two US Type A outlets (flat parallel prongs). One outlet has an oversized chunky white Apple MacBook charger brick fully plugged in - the brick body overhangs and physically blocks the neighboring empty socket so it cannot be used.
 
-A right hand enters from the lower frame holding a standard household electric extension cord — not a USB cable, not a laptop charger cable. Thick white AC power cable, about 2 metres long, coiled and held with a black velcro strap. One end has a flat US two-prong plug; the other end is a small white inline power socket block (female outlet) where a device would plug in. Typical hardware-store extension cord, simple and utilitarian.
+A right hand enters from the lower frame holding a standard household electric extension cord - not a USB cable, not a laptop charger cable. Thick white AC power cable, about 2 metres long, coiled and held with a black velcro strap. One end has a flat US two-prong plug; the other end is a small white inline power socket block (female outlet) where a device would plug in. Typical hardware-store extension cord, simple and utilitarian.
 
 The hand is moving the extension cord's plug toward the one outlet that is still usable. On the table: plain white ceramic coffee mug with no logo, no branding, no text. Scratched wood table, laptop sleeve, subtle café clutter. Warm window light mixed with soft interior lighting. Shallow depth of field, realistic editorial lifestyle photography, natural colors, candid moment, not staged stock photo. No text overlays, no watermarks, no visible logos anywhere in frame, no Starbucks branding on cup or walls.
 ```
@@ -662,7 +662,7 @@ The hand is moving the extension cord's plug toward the one outlet that is still
 USB cable, USB-C cable, charging cable only, laptop charger cord without outlet block, European round plugs, UK plugs, three-prong plug, Starbucks logo, branded cup, siren logo, text on mug, unplugged charger, loose brick not in socket, stock photo smile, perfect staging, CGI, illustration, watermark
 ```
 
-The key additions are **“standard household electric extension cord”**, **thick white AC cable**, and the **inline socket block at the far end** — that’s what signals “extension cord” rather than “another charger cable.”
+The key additions are **“standard household electric extension cord”**, **thick white AC cable**, and the **inline socket block at the far end** - that’s what signals “extension cord” rather than “another charger cable.”
 
 ---
 
@@ -683,11 +683,11 @@ _**Agent (auto-low)**_
 Updated prompt with the ownership story explicit:
 
 ```
-First-person view from a seated customer at a Starbucks café table. A silver laptop is open in the foreground with a low battery warning on screen — this is my laptop, my seat, my problem.
+First-person view from a seated customer at a Starbucks café table. A silver laptop is open in the foreground with a low battery warning on screen - this is my laptop, my seat, my problem.
 
-On the wall behind the next table (not mine), a small white power strip with two US Type A outlets (flat parallel prongs). Another customer's oversized chunky white Apple MacBook charger brick is fully plugged into one outlet — not mine, someone else's gear left at their seat. The brick body overhangs and physically blocks the neighboring empty socket. I can see a free slot on paper, but their charger makes it unusable.
+On the wall behind the next table (not mine), a small white power strip with two US Type A outlets (flat parallel prongs). Another customer's oversized chunky white Apple MacBook charger brick is fully plugged into one outlet - not mine, someone else's gear left at their seat. The brick body overhangs and physically blocks the neighboring empty socket. I can see a free slot on paper, but their charger makes it unusable.
 
-My right hand enters from the lower frame, reaching toward the strip with my own standard household electric extension cord — not a USB cable, not a laptop charger cable. Thick white AC power cable, about 2 metres long, coiled and held with a black velcro strap. One end has a flat US two-prong plug I am trying to fit into the one outlet I can actually reach; the other end has a small white inline power socket block (female outlet) trailing back toward my laptop on my table.
+My right hand enters from the lower frame, reaching toward the strip with my own standard household electric extension cord - not a USB cable, not a laptop charger cable. Thick white AC power cable, about 2 metres long, coiled and held with a black velcro strap. One end has a flat US two-prong plug I am trying to fit into the one outlet I can actually reach; the other end has a small white inline power socket block (female outlet) trailing back toward my laptop on my table.
 
 Their charger and laptop bag sit at the neighboring seat, slightly out of focus. My table has a plain white ceramic coffee mug with no logo, no branding, no text. Scratched wood table, laptop sleeve. Warm window light mixed with soft interior lighting. Shallow depth of field, realistic editorial lifestyle photography, natural colors, candid moment, not staged stock photo. No text overlays, no watermarks, no visible logos anywhere in frame, no Starbucks branding on cup or walls.
 ```
@@ -763,7 +763,7 @@ Close-up of a white flat US wall plug sitting flush against a wall outlet on a w
 
 ### 4. Sticky-note concept (matches your site style)
 
-**Concept:** Like `feature-mouse-wheel-click.jpg` — one prop explains the post.
+**Concept:** Like `feature-mouse-wheel-click.jpg` - one prop explains the post.
 
 **Prompt:**
 ```

@@ -113,7 +113,7 @@ Result:
 
 ````json
 {
-  "markdown": "JoRap's Ideas — From Ideas to Reality\n\n## $:/links\n\n28th August 2025 at 2:07am\n\nJoRap's fastest way to set up a Second Brain and a Sustainable Online Publishing Workflow using TiddlyWiki, Github, and Cloudflare Pages.\n\n## Updates | All Ideas | All Tags\n\n## Daily - Work\n\n## Daily\n\n## Chris Titus Tech's Windows Utility\n\n```\nirm christitus.com/win | iex\n```\n\n## Transcript Summarizer\n\n```\nPlease provide a concise summary of 10 key points along with reasons for their importance. Additionally, include actionable steps to implement these points. Each key point should be clear and supported by its significance. Once you've provided the text, I'll format it into raw HTML. The output should contain at least 300 words.\n\nBefore we start the process, first provide a greeting and ask me to provide the text. Don't display the sections on this first response.\n```\n\n$:/links\n\n## $:/updates\n\n7th January 2025 at 4:16am\n\n### Recent Updates\n\nMarvel Snap\n\nMay 16, 2025 (13 months ago)\n\nmarvel snap\n\nThe Ultimate Prompt To Write The Best Prompts\n\nMay 10, 2025 (13 months ago)\n\nai\n\nAlex Eala\n\nApril 23, 2025 (13 months ago)\n\nsports\n\nAir Fryer Salmon by Nick DiGiovanni\n\nMarch 3, 2025 (15 months ago)\n\ncooking\n\nAir Fryer Salmon\n\nMarch 2, 2025 (15 months ago)\n\ncooking\n\nWP_HTML_Tag_Processor\n\nMarch 1, 2025 (15 months ago)\n\nwordpress\n\nUsability Testing 101\n\nMarch 1, 2025 (15 months ago)\n\nweb\n\nPasta Boat Cooking Guide\n\nFebruary 13, 2025 (16 months ago)\n\ncookingpastaspaghetti\n\nGenius Spaghetti Sauces\n\nFebruary 13, 2025 (16 months ago)\n\ncookingpastaspaghetti\n\nTandoori Chicken\n\nFebruary 12, 2025 (16 months ago)\n\ncooking\n\nButter Chicken (Jon's Version)\n\nFebruary 10, 2025 (16 months ago)\n\ncooking\n\nArroz Caldo\n\nFebruary 1, 2025 (16 months ago)\n\ncooking\n\nAir Fryer Crispy Pork Belly\n\nJanuary 9, 2025 (17 months ago)\n\ncooking\n\nSafe Minimum Internal Temperature Chart for Cooking\n\nJ
+  "markdown": "JoRap's Ideas - From Ideas to Reality\n\n## $:/links\n\n28th August 2025 at 2:07am\n\nJoRap's fastest way to set up a Second Brain and a Sustainable Online Publishing Workflow using TiddlyWiki, Github, and Cloudflare Pages.\n\n## Updates | All Ideas | All Tags\n\n## Daily - Work\n\n## Daily\n\n## Chris Titus Tech's Windows Utility\n\n```\nirm christitus.com/win | iex\n```\n\n## Transcript Summarizer\n\n```\nPlease provide a concise summary of 10 key points along with reasons for their importance. Additionally, include actionable steps to implement these points. Each key point should be clear and supported by its significance. Once you've provided the text, I'll format it into raw HTML. The output should contain at least 300 words.\n\nBefore we start the process, first provide a greeting and ask me to provide the text. Don't display the sections on this first response.\n```\n\n$:/links\n\n## $:/updates\n\n7th January 2025 at 4:16am\n\n### Recent Updates\n\nMarvel Snap\n\nMay 16, 2025 (13 months ago)\n\nmarvel snap\n\nThe Ultimate Prompt To Write The Best Prompts\n\nMay 10, 2025 (13 months ago)\n\nai\n\nAlex Eala\n\nApril 23, 2025 (13 months ago)\n\nsports\n\nAir Fryer Salmon by Nick DiGiovanni\n\nMarch 3, 2025 (15 months ago)\n\ncooking\n\nAir Fryer Salmon\n\nMarch 2, 2025 (15 months ago)\n\ncooking\n\nWP_HTML_Tag_Processor\n\nMarch 1, 2025 (15 months ago)\n\nwordpress\n\nUsability Testing 101\n\nMarch 1, 2025 (15 months ago)\n\nweb\n\nPasta Boat Cooking Guide\n\nFebruary 13, 2025 (16 months ago)\n\ncookingpastaspaghetti\n\nGenius Spaghetti Sauces\n\nFebruary 13, 2025 (16 months ago)\n\ncookingpastaspaghetti\n\nTandoori Chicken\n\nFebruary 12, 2025 (16 months ago)\n\ncooking\n\nButter Chicken (Jon's Version)\n\nFebruary 10, 2025 (16 months ago)\n\ncooking\n\nArroz Caldo\n\nFebruary 1, 2025 (16 months ago)\n\ncooking\n\nAir Fryer Crispy Pork Belly\n\nJanuary 9, 2025 (17 months ago)\n\ncooking\n\nSafe Minimum Internal Temperature Chart for Cooking\n\nJ
 … (output truncated)
 ````
 User decision: **accepted**
@@ -145,7 +145,7 @@ Result:
 
 ```json
 {
-  "markdown": "JoRap's Ideas — From Ideas to Reality\n\n## Marvel Snap\n\n16th May 2025 at 1:12am\n\nmarvel snap\n\nMarvel Snap Web Shop\n\n- Metagame\n- Best Decks - Win Rate\n- Best Decks - Average Cubes\n- Meta - Decks\n- Meta - Cards\n- Collector’s Series 5 Snap Pack Guide\n- Collector’s Series 4 Snap Pack Guide\n\nUntapped.gg\n\nsnap.fan\n\n- Card Stats\n- Meta Decks\n- Best Decks - Win Rate\n- Best Decks - Average Cubes\n\nYouTube\n\n- Snap Judgments\n- Alexander Coccia\n\nMarvel Snap",
+  "markdown": "JoRap's Ideas - From Ideas to Reality\n\n## Marvel Snap\n\n16th May 2025 at 1:12am\n\nmarvel snap\n\nMarvel Snap Web Shop\n\n- Metagame\n- Best Decks - Win Rate\n- Best Decks - Average Cubes\n- Meta - Decks\n- Meta - Cards\n- Collector’s Series 5 Snap Pack Guide\n- Collector’s Series 4 Snap Pack Guide\n\nUntapped.gg\n\nsnap.fan\n\n- Card Stats\n- Meta Decks\n- Best Decks - Win Rate\n- Best Decks - Average Cubes\n\nYouTube\n\n- Snap Judgments\n- Alexander Coccia\n\nMarvel Snap",
   "url": "https://ideas.jorap.com/#Marvel%20Snap"
 }
 ```
@@ -300,11 +300,11 @@ _**Agent (default)**_
 Turned the resource roundup into a personal essay and renamed it to `why-i-stopped-playing-marvel-snap.md`.
 
 **Structure:**
-1. **What pulled me in** — short matches, Marvel characters, the snap/bluff mechanic, mobile-friendly play
-2. **What kept me around** — meta sites, YouTube (Snap Judgments, Alexander Coccia), wiki deck notes — framed as the fun learning phase
-3. **What turned me off** — meta vs collection gap (Series 3/4/5), tilt-browsing after losses, cube anxiety, shop FOMO, evenings eaten by upkeep
-4. **Why I stopped** — drifted away; the game became homework, not a snack
+1. **What pulled me in** - short matches, Marvel characters, the snap/bluff mechanic, mobile-friendly play
+2. **What kept me around** - meta sites, YouTube (Snap Judgments, Alexander Coccia), wiki deck notes - framed as the fun learning phase
+3. **What turned me off** - meta vs collection gap (Series 3/4/5), tilt-browsing after losses, cube anxiety, shop FOMO, evenings eaten by upkeep
+4. **Why I stopped** - drifted away; the game became homework, not a snack
 
 The meta tools are still there, but as part of the story (how you engaged, then burned out) instead of a link directory.
 
-A few details are inferred from the old draft’s tone — collection filtering, conquest deck notes, “retreat when cubes stop being fun.” If anything’s off (how long you played, rank, whether you spent money, a specific card that broke you), say what to change and I’ll tune it.
+A few details are inferred from the old draft’s tone - collection filtering, conquest deck notes, “retreat when cubes stop being fun.” If anything’s off (how long you played, rank, whether you spent money, a specific card that broke you), say what to change and I’ll tune it.

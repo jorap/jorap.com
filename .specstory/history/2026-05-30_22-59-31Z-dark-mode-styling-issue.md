@@ -10,7 +10,7 @@ fix in dark mode:
 <div class="gslide-description description-bottom" style="max-width: 851px;">
                 <div class="gdesc-inner">
                     
-                    <div class="gslide-desc" id="gSlideDesc_0">Chicken Adobo — Filipino comfort food, perfect example image.</div>
+                    <div class="gslide-desc" id="gSlideDesc_0">Chicken Adobo - Filipino comfort food, perfect example image.</div>
                 </div>
             </div>
 

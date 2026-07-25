@@ -440,7 +440,7 @@ You have three top-level collections today, each mapped to a play mode the JS al
 | **Personal icebreakers** | `personal` | Honest self-rating 1–100 |
 | **Concept spectrums** | `spectrum` | One clue word on a hidden spot between two poles |
 
-The engine also supports a fourth shape — collections with **categories** — but nothing uses it yet. Your original design had a “quick facts” deck that never shipped as its own collection.
+The engine also supports a fourth shape - collections with **categories** - but nothing uses it yet. Your original design had a “quick facts” deck that never shipped as its own collection.
 
 Here are additions worth considering, ordered by fit.
 
@@ -457,7 +457,7 @@ Binary dilemmas, not spectrums. Everyone picks a side and defends it.
   title: Either-or dilemmas
   mode: ranked-prompts
   tagline: Two options, one choice. Pick a side and say why.
-  play_hint: Read both options aloud. Everyone picks one — no middle ground. Best argument wins.
+  play_hint: Read both options aloud. Everyone picks one - no middle ground. Best argument wins.
   items:
   - "Always be ten minutes early, or always be ten minutes late?"
   - "Never use a phone again, or never watch a screen again?"
@@ -466,14 +466,14 @@ Binary dilemmas, not spectrums. Everyone picks a side and defends it.
 
 Different energy from spectrums: debate, not placement.
 
-**2. Table topics** (`categories` — uses the picker UI you already built)
+**2. Table topics** (`categories` - uses the picker UI you already built)
 
 Open conversation starters, not rankings or self-scores. This revives the old “fun facts” idea without copying the branded deck.
 
 ```yaml
 - id: table-topics
   title: Conversation starters
-  tagline: Open prompts — share a story, a fact, or a hot take. No scoring.
+  tagline: Open prompts - share a story, a fact, or a hot take. No scoring.
   play_hint: Answer honestly or tell a story. There is no right answer.
   categories:
   - id: childhood
@@ -522,8 +522,8 @@ If you want more volume without new mechanics, split by vibe rather than duplica
 
 | New collection | Mode | Angle |
 |---|---|---|
-| **Pop culture rankings** | `ranked-prompts` | Movies, games, celebrities — overlaps less with your survival/party prompts |
-| **Workplace icebreakers** | `personal` | Office-safe habits (“How likely are you to reply-all?”) — keep family-friendly if you want one deck for everyone |
+| **Pop culture rankings** | `ranked-prompts` | Movies, games, celebrities - overlaps less with your survival/party prompts |
+| **Workplace icebreakers** | `personal` | Office-safe habits (“How likely are you to reply-all?”) - keep family-friendly if you want one deck for everyone |
 | **Food spectrums** | `spectrum` | Only culinary poles: `Burnt` / `Raw`, `Street food` / `Fine dining` |
 
 Only worth it if the home screen feels thin; three big flat decks may be enough.
@@ -532,18 +532,18 @@ Only worth it if the home screen feels thin; three big flat decks may be enough.
 
 ### Probably skip (needs new UI or weak fit)
 
-- **Trivia with answers** — needs a reveal UI you do not have.
-- **Charades / acting prompts** — different game entirely.
-- **“Rank each other”** — too personal for “family-friendly worldwide.”
-- **Numeric guess games** — needs a target number, not just a prompt string.
+- **Trivia with answers** - needs a reveal UI you do not have.
+- **Charades / acting prompts** - different game entirely.
+- **“Rank each other”** - too personal for “family-friendly worldwide.”
+- **Numeric guess games** - needs a target number, not just a prompt string.
 
 ---
 
 ### What I’d add first
 
-1. **Either-or dilemmas** — clearest fourth mechanic; zero code.
-2. **Conversation starters** (categorized) — uses dormant category UI; revives quick facts.
-3. **Story sparks** — if you want something creative that is not ranking.
+1. **Either-or dilemmas** - clearest fourth mechanic; zero code.
+2. **Conversation starters** (categorized) - uses dormant category UI; revives quick facts.
+3. **Story sparks** - if you want something creative that is not ranking.
 
 If you want, I can draft one of these as a full ~50-item block in `randomizer.yaml` in the same voice as your existing decks.
 
@@ -557,7 +557,7 @@ Binary dilemmas, not spectrums. Everyone picks a side and defends it.
 
 300 items. family friendly
 
-2. Table topics (categories — uses the picker UI you already built)
+2. Table topics (categories - uses the picker UI you already built)
 
 Open conversation starters, not rankings or self-scores. This revives the old “fun facts” idea without copying the branded deck.
 
@@ -939,7 +939,7 @@ Both collections are in place. Summary:
 
 ### Either-or dilemmas (`would-you-rather`)
 - **300** family-friendly binary prompts
-- Mode: `ranked-prompts` with its own `play_hint` (pick a side, defend it — no 1–100 ranking)
+- Mode: `ranked-prompts` with its own `play_hint` (pick a side, defend it - no 1–100 ranking)
 - Shuffles directly from the home screen
 
 ### Conversation starters (`table-topics`)
@@ -951,12 +951,12 @@ Both collections are in place. Summary:
   - Family and friends
   - Stories and surprises
 - Uses the category picker, then shuffles within a category
-- No scoring — story prompts only
+- No scoring - story prompts only
 
 ### Code changes
-- **`assets/js/randomizer.js`** — Collections with `categories` skip direct-play mode (so table-topics opens the picker). Home lede updated for five collections.
-- **`content/english/pages/randomizer.md`** — Page copy updated.
-- **`scripts/build-randomizer-decks.py`** — Source of truth for both decks; re-run after editing the lists:
+- **`assets/js/randomizer.js`** - Collections with `categories` skip direct-play mode (so table-topics opens the picker). Home lede updated for five collections.
+- **`content/english/pages/randomizer.md`** - Page copy updated.
+- **`scripts/build-randomizer-decks.py`** - Source of truth for both decks; re-run after editing the lists:
 
 ```bash
 python3 scripts/build-randomizer-decks.py
@@ -1173,7 +1173,7 @@ The YAML was updated correctly.
 
 _**Agent (auto-low)**_
 
-Done. **Conversation starters** is now a flat deck of **300 prompts** — no category picker.
+Done. **Conversation starters** is now a flat deck of **300 prompts** - no category picker.
 
 - `mode: ranked-prompts` (same direct-play flow as Either-or dilemmas)
 - All six former category lists merged into one `items` list

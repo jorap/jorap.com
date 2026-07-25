@@ -61,6 +61,10 @@ cards:
     back: "Show up in the crisis - serve now."
   - front: "Senior tech's nod matters more than my new director slide. What should I do?"
     back: "Earn trust deposits - don't lean on title."
+  - front: "New director's slide deck empty - line cook already owns the room."
+    back: "Follow earned trust - serve beside her."
+  - front: "Title on the email - team still ignores my requests."
+    back: "Deposit trust first - influence before badge."
 draft: false
 ---
 

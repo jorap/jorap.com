@@ -346,7 +346,7 @@ _**Agent (auto-high)**_
 _**Agent (auto-high)**_
 
 <think><details><summary>Thought Process</summary>
- I need to fix the CSS variable syntax—those are defined as hex values, not RGB triplets, so the opacity approach won't work. Let me check how the existing code handles alpha values or adjust the color usage accordingly.</details></think>
+ I need to fix the CSS variable syntax-those are defined as hex values, not RGB triplets, so the opacity approach won't work. Let me check how the existing code handles alpha values or adjust the color usage accordingly.</details></think>
 
 _**Agent (auto-high)**_
 
@@ -482,8 +482,8 @@ _**Agent (auto-high)**_
 
 The desktop sticky TOC will now scroll when it's taller than the available viewport. Here's what changed:
 
-- `themes/jorap/layouts/blog/single.html` — wrapped `{{ .TableOfContents }}` in a `<div class="toc-scroll">` so only the link list scrolls, while the "Table of Contents" heading stays pinned.
-- `themes/jorap/assets/css/module-overrides.css` — added `.toc-scroll` with:
+- `themes/jorap/layouts/blog/single.html` - wrapped `{{ .TableOfContents }}` in a `<div class="toc-scroll">` so only the link list scrolls, while the "Table of Contents" heading stays pinned.
+- `themes/jorap/assets/css/module-overrides.css` - added `.toc-scroll` with:
   - `max-height: calc(100vh - 160px)` to fit under the sticky `top-[100px]` offset plus the heading.
   - `overflow-y: auto` + `overscroll-behavior: contain` so scrolling the TOC doesn't bleed into the page.
   - A subtle top/bottom fade mask so overflowed entries hint at more content instead of getting hard-clipped.

@@ -169,7 +169,7 @@ Directory: **** (53 files)
 
 _**Agent (auto-low)**_
 
-There's already an arroz caldo post — I'll read it to compare with the rice cooker method and match your format.
+There's already an arroz caldo post - I'll read it to compare with the rice cooker method and match your format.
 
 
 _**Agent (auto-low)**_
@@ -506,16 +506,16 @@ Created `content/english/blog/instant-pot-arroz-caldo.md` using the same structu
 
 **What's in it:**
 
-- **Frontmatter** — slug `instant-pot-arroz-caldo`, same categories/tags pattern, reuses `/images/arroz-caldo.jpg`
-- **Opening** — links to your [rice cooker version](/blog/set-it-forget-it-arroz-caldo/) and frames this as the big-batch 8-quart recipe
-- **"Why Instant Pot instead of the rice cooker"** — compares both methods on:
+- **Frontmatter** - slug `instant-pot-arroz-caldo`, same categories/tags pattern, reuses `/images/arroz-caldo.jpg`
+- **Opening** - links to your [rice cooker version](/blog/set-it-forget-it-arroz-caldo/) and frames this as the big-batch 8-quart recipe
+- **"Why Instant Pot instead of the rice cooker"** - compares both methods on:
   - Batch size (4-6 vs 10-12 servings)
   - Speed (~45 min vs ~1 hour)
   - Bone-in drumsticks under pressure vs thigh fillets in the rice cooker
-  - **Taste-before-chicken workflow** (food safety — can't taste again until cooked)
+  - **Taste-before-chicken workflow** (food safety - can't taste again until cooked)
   - Natural release (no quick release on starchy congee)
   - When each method still wins (rice cooker for Friday overnight; Instant Pot for crowds and faster turnaround)
-- **Full recipe** — your ingredients, yield, and all 6 steps, including the critical taste-the-base step
+- **Full recipe** - your ingredients, yield, and all 6 steps, including the critical taste-the-base step
 
 The rice cooker post stays as the small Friday-night ritual; this one is the scaled-up pressure-cooker version. Want me to commit it or tweak anything (e.g. cross-link from the old post back to this one)?
 
@@ -590,11 +590,11 @@ _**Agent (auto-low)**_
 Updated the post so the Instant Pot is your current method, not an alternate.
 
 Changes:
-- **Opening** — past tense: you used to do the rice cooker, you don't anymore
-- **Section** — renamed to "Why I switched from the rice cooker"
-- **Comparison** — framed as limits you kept hitting, not when-to-use-each
-- **Closing** — removed "I still use the rice cooker for Friday nights"
-- **Description** — no rice cooker comparison
+- **Opening** - past tense: you used to do the rice cooker, you don't anymore
+- **Section** - renamed to "Why I switched from the rice cooker"
+- **Comparison** - framed as limits you kept hitting, not when-to-use-each
+- **Closing** - removed "I still use the rice cooker for Friday nights"
+- **Description** - no rice cooker comparison
 
 The old [rice cooker post](/blog/set-it-forget-it-arroz-caldo/) is linked once as historical context. Want that one marked draft or given a note at the top that you've moved on?
 

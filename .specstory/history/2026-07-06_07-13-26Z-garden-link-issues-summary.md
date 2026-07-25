@@ -186,7 +186,7 @@ Checking whether the note contains additional body content.
 
 _**Agent (auto-low)**_
 
-The note may only have frontmatter — I'll compare it to a complete note and see how relationships are rendered.
+The note may only have frontmatter - I'll compare it to a complete note and see how relationships are rendered.
 
 
 _**Agent (auto-low)**_
@@ -915,7 +915,7 @@ Influence Without Title should use Let Your Light Shine as a contradicts link. T
 
 _**Agent (auto-low)**_
 
-Adding the missing `contradicts` row — `Let Your Light Shine` fits the note's theme of serving without performing for credit.
+Adding the missing `contradicts` row - `Let Your Light Shine` fits the note's theme of serving without performing for credit.
 
 
 _**Agent (auto-low)**_
@@ -1088,6 +1088,6 @@ Fixed the structure issue on **Influence Without Title** by adding the missing `
 
 | contradicts | [[Let Your Light Shine]] | when crisis heroics become a personal brand instead of serving the crew |
 
-That matches the note’s angle — earned followership from showing up and serving, not performing leadership for applause. Same pattern as **Gentleness** and **Servant Leadership** (which also tension with **Let Your Light Shine** when visibility replaces service).
+That matches the note’s angle - earned followership from showing up and serving, not performing leadership for applause. Same pattern as **Gentleness** and **Servant Leadership** (which also tension with **Let Your Light Shine** when visibility replaces service).
 
 The note now has both required relationship types (`extends` and `contradicts`), so the garden link issues check should pass for this note.

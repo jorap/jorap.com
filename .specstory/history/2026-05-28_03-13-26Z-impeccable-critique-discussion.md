@@ -47,7 +47,7 @@ _**Agent (auto-high)**_
 <think><details><summary>Thought Process</summary>
  I need to figure out what the user wants me to critique since they invoked the command without specifying a target. The routing rules require a target, so I should either ask them to clarify or pick a sensible default based on context.
 
-Looking at the files they've been working with—main.css, package.json, hugo.toml—this appears to be a Hugo-based website project. Let me load the impeccable context first to understand what I'm working with, then I can either ask for clarification or suggest a target based on what makes sense for this project.</details></think>
+Looking at the files they've been working with-main.css, package.json, hugo.toml-this appears to be a Hugo-based website project. Let me load the impeccable context first to understand what I'm working with, then I can either ask for clarification or suggest a target based on what makes sense for this project.</details></think>
 
 _**Agent (auto-high)**_
 
@@ -273,7 +273,7 @@ _**Agent (auto-high)**_
 _**Agent (auto-high)**_
 
 <think><details><summary>Thought Process</summary>
- The dev server is running locally, and since the user invoked the critique command without specifying a target, I need to ask them which part of the brand register site they'd like me to review—whether that's the homepage, blog index, individual posts, or taxonomy pages. The command reference suggests I should resolve the target to a concrete URL, but without that specification from the user, I should clarify what they want critiqued first.</details></think>
+ The dev server is running locally, and since the user invoked the critique command without specifying a target, I need to ask them which part of the brand register site they'd like me to review-whether that's the homepage, blog index, individual posts, or taxonomy pages. The command reference suggests I should resolve the target to a concrete URL, but without that specification from the user, I should clarify what they want critiqued first.</details></think>
 
 _**Agent (auto-high)**_
 
@@ -296,11 +296,11 @@ Parameters:
       "options": [
         {
           "id": "home",
-          "label": "Homepage — http://localhost:1313/"
+          "label": "Homepage - http://localhost:1313/"
         },
         {
           "id": "blog_index",
-          "label": "Blog index — http://localhost:1313/blog/"
+          "label": "Blog index - http://localhost:1313/blog/"
         },
         {
           "id": "blog_post",
@@ -357,7 +357,7 @@ Status: **completed**
 _**Agent (auto-high)**_
 
 <think><details><summary>Thought Process</summary>
- The user wants me to check "all pages," so I'm interpreting that as the full brand site — I'll need to sweep through the homepage, blog index, and a sample blog post, plus the taxonomy and term pages since those were recently modified.
+ The user wants me to check "all pages," so I'm interpreting that as the full brand site - I'll need to sweep through the homepage, blog index, and a sample blog post, plus the taxonomy and term pages since those were recently modified.
 
 I'll compute a slug for this multi-page critique, check for any ignore rules, then run the design review and detector assessments sequentially before synthesizing the report and asking about priorities.</details></think>
 
@@ -475,7 +475,7 @@ const { detectCli } = await import(pathToFileURL(detectorPath));
 _**Agent (auto-high)**_
 
 <think><details><summary>Thought Process</summary>
- The server's running, so I'll kick off both assessments in parallel using subagents. The user didn't explicitly mention this, but the Cursor environment supports it naturally and they want efficient results. I'll run them sequentially instead—Assessment A first, then Assessment B.
+ The server's running, so I'll kick off both assessments in parallel using subagents. The user didn't explicitly mention this, but the Cursor environment supports it naturally and they want efficient results. I'll run them sequentially instead-Assessment A first, then Assessment B.
 
 Actually, I realize the browser context is shared across subagents, so they'd conflict if running concurrently. Let me just handle this myself: read the source templates, browse the live pages for Assessment A, run the detector and inject the overlay, then synthesize everything together.
 
@@ -483,7 +483,7 @@ Let me start by fetching the rendered HTML from the home page to see what we're 
 
 _**Agent (auto-high)**_
 
-I'll run the two assessments sequentially (no parallel sub-agent path that won't conflict on the single browser context). Starting with Assessment A: reading source and visiting the live pages with mental notes only — no sharing with detector context until A is locked.
+I'll run the two assessments sequentially (no parallel sub-agent path that won't conflict on the single browser context). Starting with Assessment A: reading source and visiting the live pages with mental notes only - no sharing with detector context until A is locked.
 
 Let me look at the actual surfaces. First, the homepage source and its rendered output, plus the key templates that were modified.
 
@@ -1167,9 +1167,9 @@ Status: **completed**
 _**Agent (auto-high)**_
 
 <think><details><summary>Thought Process</summary>
- Switching to light mode reveals some structural issues—the "Quiet Study" tagline is floating as a subheading with no h1 above it to establish the personal brand, while "Latest Blog Posts" awkwardly becomes the main heading instead. The logo is also too generic, a plain blue diamond that reads more like a SaaS template than something distinctive.
+ Switching to light mode reveals some structural issues-the "Quiet Study" tagline is floating as a subheading with no h1 above it to establish the personal brand, while "Latest Blog Posts" awkwardly becomes the main heading instead. The logo is also too generic, a plain blue diamond that reads more like a SaaS template than something distinctive.
 
-The card grid layout feels like boilerplate blog scaffolding, and there's no author presence—no face, no "About" section, no client work or hiring call-to-action. The page header gradient isn't even applied to the homepage, and overall there's no positioning or trust-building, just a chronological post feed. Let me check the blog index and individual post pages to see if the structure improves there.</details></think>
+The card grid layout feels like boilerplate blog scaffolding, and there's no author presence-no face, no "About" section, no client work or hiring call-to-action. The page header gradient isn't even applied to the homepage, and overall there's no positioning or trust-building, just a chronological post feed. Let me check the blog index and individual post pages to see if the structure improves there.</details></think>
 
 _**Agent (auto-high)**_
 
@@ -1731,13 +1731,13 @@ Status: **completed**
 _**Agent (auto-high)**_
 
 <think><details><summary>Thought Process</summary>
- Looking at the About page, I'm noticing the heading hierarchy is off—it's using H2 when it should be H1, and the bio text is too generic, describing him as just a web developer rather than highlighting the strategic judgment and product expertise mentioned in the project specs. The logo also appears oversized and there's a missing port configuration.
+ Looking at the About page, I'm noticing the heading hierarchy is off-it's using H2 when it should be H1, and the bio text is too generic, describing him as just a web developer rather than highlighting the strategic judgment and product expertise mentioned in the project specs. The logo also appears oversized and there's a missing port configuration.
 
-I'm also seeing that a real headshot would strengthen the About page given the positioning around trustworthiness with stakeholders. Now I've got enough material for Assessment A—let me document the key findings: the logo clashes with the warm-paper aesthetic and violates the "no rainbow chrome" principle, the homepage is essentially just a blog index with no positioning or clear value proposition, the lede sits isolated without visual hierarchy, and the card grid repeats the same generic SaaS template pattern eleven times with identical outline buttons and oversaturated stock photography that fights against the intended color palette.
+I'm also seeing that a real headshot would strengthen the About page given the positioning around trustworthiness with stakeholders. Now I've got enough material for Assessment A-let me document the key findings: the logo clashes with the warm-paper aesthetic and violates the "no rainbow chrome" principle, the homepage is essentially just a blog index with no positioning or clear value proposition, the lede sits isolated without visual hierarchy, and the card grid repeats the same generic SaaS template pattern eleven times with identical outline buttons and oversaturated stock photography that fights against the intended color palette.
 
-The hero images and card photos are a chromatic mess—bright purples, oranges, and blues scattered across a charcoal background, directly violating the single-accent rule. The navigation includes Tags and Categories as top-level items, which feels like template thinking for a content farm rather than a personal brand for clients. The Categories page is sparse with no descriptions or previews, the tag cloud sidebar lists 40+ tags alphabetically (mixing "Branding" with "Chicken Recipes" and "Congee"), and the About page leads with a generic "web developer with many years of experience" positioning that doesn't differentiate or speak to the stakeholder-room credibility the PRODUCT.md emphasizes.
+The hero images and card photos are a chromatic mess-bright purples, oranges, and blues scattered across a charcoal background, directly violating the single-accent rule. The navigation includes Tags and Categories as top-level items, which feels like template thinking for a content farm rather than a personal brand for clients. The Categories page is sparse with no descriptions or previews, the tag cloud sidebar lists 40+ tags alphabetically (mixing "Branding" with "Chicken Recipes" and "Congee"), and the About page leads with a generic "web developer with many years of experience" positioning that doesn't differentiate or speak to the stakeholder-room credibility the PRODUCT.md emphasizes.
 
-The About hero is just the logo with no human face, which undermines trust. There's no clear CTA anywhere on the site—no answer to "how do I hire you?" The page headers use a gradient on rounded boxes that creates an atmospheric lift in light mode but reads as a dark plinth consuming a third of the viewport in dark mode, especially on the Categories page. The site defaults to dark mode despite DESIGN.md specifying light as the warm-paper default, and the elevated card backgrounds in dark mode make the date and icon metadata nearly invisible. The home page's primary heading is "Latest Blog Posts," which becomes the page's identity to search engines rather than positioning the person or their value.</details></think>
+The About hero is just the logo with no human face, which undermines trust. There's no clear CTA anywhere on the site-no answer to "how do I hire you?" The page headers use a gradient on rounded boxes that creates an atmospheric lift in light mode but reads as a dark plinth consuming a third of the viewport in dark mode, especially on the Categories page. The site defaults to dark mode despite DESIGN.md specifying light as the warm-paper default, and the elevated card backgrounds in dark mode make the date and icon metadata nearly invisible. The home page's primary heading is "Latest Blog Posts," which becomes the page's identity to search engines rather than positioning the person or their value.</details></think>
 
 _**Agent (auto-high)**_
 
@@ -1838,7 +1838,7 @@ _**Agent (auto-high)**_
 _**Agent (auto-high)**_
 
 <think><details><summary>Thought Process</summary>
- The detector entrypoint is missing, so I'll need to fall back to manual pattern scanning instead. I'm going to directly search through the source code for the anti-patterns I'm looking for — gradient text, side-stripe borders, glassmorphism effects, identical card grids, and hero sections.</details></think>
+ The detector entrypoint is missing, so I'll need to fall back to manual pattern scanning instead. I'm going to directly search through the source code for the anti-patterns I'm looking for - gradient text, side-stripe borders, glassmorphism effects, identical card grids, and hero sections.</details></think>
 
 _**Agent (auto-high)**_
 
@@ -2243,11 +2243,11 @@ Status: **completed**
 _**Agent (auto-high)**_
 
 <think><details><summary>Thought Process</summary>
- I'm checking the design against the style restrictions and finding mostly clean results—there's one thin border divider in the header that falls within the acceptable threshold, no gradient text effects, and no glassmorphism elements.
+ I'm checking the design against the style restrictions and finding mostly clean results-there's one thin border divider in the header that falls within the acceptable threshold, no gradient text effects, and no glassmorphism elements.
 
-The card grid pattern is repeating across multiple templates (blog, terms, authors) which reads as generic SaaS templating. For the color palette, third-party plugins use pure black and white which are allowed exceptions, but the custom theme pairs `text-white` with `bg-accent` throughout—this technically violates the "never use `#fff`" rule unless DESIGN.md's token system is meant to override it, though the dark mode properly inverts to a warm cream color while light mode stays pure white.
+The card grid pattern is repeating across multiple templates (blog, terms, authors) which reads as generic SaaS templating. For the color palette, third-party plugins use pure black and white which are allowed exceptions, but the custom theme pairs `text-white` with `bg-accent` throughout-this technically violates the "never use `#fff`" rule unless DESIGN.md's token system is meant to override it, though the dark mode properly inverts to a warm cream color while light mode stays pure white.
 
-The page-header gradient is acceptable per the design system, but on dark mode with sparse content (like Categories) it creates an awkwardly large empty space. Since the detector script is missing, I can't run the live overlay visualization—I'll note that manual review was used instead and move forward with synthesizing the full report.
+The page-header gradient is acceptable per the design system, but on dark mode with sparse content (like Categories) it creates an awkwardly large empty space. Since the detector script is missing, I can't run the live overlay visualization-I'll note that manual review was used instead and move forward with synthesizing the full report.
 
 I need to pull the personas and scoring heuristics to ensure honest evaluation across the findings.</details></think>
 
@@ -2280,9 +2280,9 @@ _**Agent (auto-high)**_
 _**Agent (auto-high)**_
 
 <think><details><summary>Thought Process</summary>
- I'm identifying the key personas for testing this brand register surface—Jordan as the confused newcomer finding the site through search, Riley to stress-test edge cases, and Casey representing mobile users. I'll also pull in a decision-maker persona from the product documentation to ensure the site builds credibility for potential buyers who are just skimming through.
+ I'm identifying the key personas for testing this brand register surface-Jordan as the confused newcomer finding the site through search, Riley to stress-test edge cases, and Casey representing mobile users. I'll also pull in a decision-maker persona from the product documentation to ensure the site builds credibility for potential buyers who are just skimming through.
 
-Now I'm scoring the site against Nielsen's heuristics. The navigation feedback and theme switcher are solid, but the homepage leading with "Latest Blog Posts" misses the mark for a personal brand—visitors expect to see what the person does or how to hire them instead. The category taxonomy forces users to remember where content lives rather than discovering it naturally, and there's no visible keyboard shortcuts or RSS integration to boost efficiency. The card-based layout, while consistent thanks to the token system, reads more like a template than a distinctive brand presence.
+Now I'm scoring the site against Nielsen's heuristics. The navigation feedback and theme switcher are solid, but the homepage leading with "Latest Blog Posts" misses the mark for a personal brand-visitors expect to see what the person does or how to hire them instead. The category taxonomy forces users to remember where content lives rather than discovering it naturally, and there's no visible keyboard shortcuts or RSS integration to boost efficiency. The card-based layout, while consistent thanks to the token system, reads more like a template than a distinctive brand presence.
 
 Wrapping up the scoring: the site lands at 24 out of 40, which puts it in acceptable territory but weak on the personal-brand dimensions. Now I'll finalize the report and save the snapshot.</details></think>
 

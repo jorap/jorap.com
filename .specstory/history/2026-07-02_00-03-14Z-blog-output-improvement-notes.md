@@ -1543,13 +1543,13 @@ Each blog post ends with three garden-adjacent blocks:
 
 `blog/related-notes.html` delegates to `notes/related-notes.html`, which:
 
-1. **Primary match** — score notes by shared tags + categories (`overlap / min(label counts)`).
-2. **Fallback** — Hugo `.Related`, filtered to `notes` section (utility pages excluded).
-3. **Render** — up to 6 `note-card`s with description, shared-tag line, and full tag chips.
+1. **Primary match** - score notes by shared tags + categories (`overlap / min(label counts)`).
+2. **Fallback** - Hugo `.Related`, filtered to `notes` section (utility pages excluded).
+3. **Render** - up to 6 `note-card`s with description, shared-tag line, and full tag chips.
 
 On a garden-heavy post like [how-i-built-jorap-notes](http://localhost:1313/blog/how-i-built-jorap-notes/), this works reasonably well: *Free Tier Hosting Stack*, *Drafting in Public*, etc., with shared tags like `Hugo`, `Website Building`.
 
-On posts outside that tag vocabulary, the section **disappears entirely** — e.g. DNPAP (worship) and Instant Pot Adobo (recipes) render no Related Notes block at all.
+On posts outside that tag vocabulary, the section **disappears entirely** - e.g. DNPAP (worship) and Instant Pot Adobo (recipes) render no Related Notes block at all.
 
 ---
 
@@ -1573,7 +1573,7 @@ On [hugoplate-theme-review](http://localhost:1313/blog/hugoplate-theme-review/),
 
 ### 4. Card copy isn’t blog-ready
 
-Descriptions are raw frontmatter. Cards can show literal `[[wikilinks]]` and backtick code — fine in the garden, odd on a blog footer.
+Descriptions are raw frontmatter. Cards can show literal `[[wikilinks]]` and backtick code - fine in the garden, odd on a blog footer.
 
 ### 5. Visual noise
 
@@ -1589,7 +1589,7 @@ There’s no `related_notes:` in blog frontmatter. You can’t curate “this wo
 
 ### 7. No prose matching
 
-Blogs don’t use `[[wikilinks]]`, but posts **do** mention garden concepts by name (“digital garden”, “static site”, “Hugo”). You already have title-mention detection in `collect-note-issues.html` for notes — blogs don’t use it.
+Blogs don’t use `[[wikilinks]]`, but posts **do** mention garden concepts by name (“digital garden”, “static site”, “Hugo”). You already have title-mention detection in `collect-note-issues.html` for notes - blogs don’t use it.
 
 ---
 
@@ -1607,7 +1607,7 @@ Blogs don’t use `[[wikilinks]]`, but posts **do** mention garden concepts by n
 
 ### Medium impact
 
-**1. Blog frontmatter override** — highest leverage for non-PKM posts:
+**1. Blog frontmatter override** - highest leverage for non-PKM posts:
 
 ```yaml
 related_notes:
@@ -1617,9 +1617,9 @@ related_notes:
 
 Check this first in `related-notes.html`; fall back to tag scoring. One line of curation beats twenty shared tags.
 
-**2. Title mention scan on blog body** — reuse the unlinked-mention logic from `collect-note-issues.html` on `.RawContent`. A Hugo post that says “digital garden” five times should surface *Digital Garden* even without tag overlap.
+**2. Title mention scan on blog body** - reuse the unlinked-mention logic from `collect-note-issues.html` on `.RawContent`. A Hugo post that says “digital garden” five times should surface *Digital Garden* even without tag overlap.
 
-**3. Better scoring** — a few options, pick one:
+**3. Better scoring** - a few options, pick one:
 - Require **≥2 shared tags** for auto-match
 - Use `overlap / sqrt(n·m)` (cosine-like) so tag soup doesn’t dilute scores
 - Boost tags that are rare across the garden (`Hugo` &gt; `PKM`)
@@ -1634,9 +1634,9 @@ For recipe/worship posts: either **curated** faith/life notes, or **hide** Relat
 
 ### Larger (if you want the garden to feel intentional on every post)
 
-- **“From the garden”** — merge Related Notes + Random Note into one section: 3–4 matched notes + one shuffle slot.
-- **Reverse backlinks** — notes that link to `/blog/...` URLs surface on that post (you’d need blog URL indexing).
-- **Topic bridges** — map blog `categories` to note clusters (e.g. `Worship` → gospel note pool).
+- **“From the garden”** - merge Related Notes + Random Note into one section: 3–4 matched notes + one shuffle slot.
+- **Reverse backlinks** - notes that link to `/blog/...` URLs surface on that post (you’d need blog URL indexing).
+- **Topic bridges** - map blog `categories` to note clusters (e.g. `Worship` → gospel note pool).
 
 ---
 
@@ -1649,7 +1649,7 @@ If the goal is **better output per blog without a big refactor**:
 3. Title-mention scan as second signal after tags  
 4. Slimmer card UI (shared tags only, `key_concept` blurb, lede copy)
 
-That fixes empty sections (manual), weak sections (scoring + index filter), and noisy cards (presentation) — without touching Random Note.
+That fixes empty sections (manual), weak sections (scoring + index filter), and noisy cards (presentation) - without touching Random Note.
 
 Want me to implement a specific tier of this? The frontmatter override + index exclusion + card cleanup is probably a ~30-line template change.
 
@@ -1948,18 +1948,18 @@ cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/audit-blog-related-
 ```
 BLOG SLUG                                            MODE   NOTES
 ----------------------------------------------------------------------------------------------------
-alex-eala-pro-career-tracker                         none   —
+alex-eala-pro-career-tracker                         none   -
 consistent-ai-output-wordpress-builds                auto   tags: building-a-personal-api, creative-blocks, mobile-capture-workflows, the-knowledge-lifecycle, the-trusted-inbox, context-aware-capture
-dnpap-song-resources                                 none   —
+dnpap-song-resources                                 none   -
 facebooks-hidden-gem-how-favorites-feed-transforms-your-social-media-experience auto   tags: digital-minimalism, note-relationships, attention-economy, commonplace-book, crdt, graph-view-analytics
 getting-started-with-rss-feeds-a-beginners-guide     auto   tags: synthesis-as-a-goal, digital-minimalism, digital-serendipity, the-second-brain-workflow, attention-economy, inbox-zero
 how-i-built-jorap-notes                              auto   tags: free-tier-hosting-stack, digital-garden, drafting-in-public, the-garage-concept, selling-static-sites, note-relationships | mentions: patience
 hugoplate-theme-review                               auto   tags: the-garage-concept, digital-garden, drafting-in-public, sketchpad, git-based-cms, free-tier-hosting-stack
-instant-pot-chicken-adobo                            none   —
-miracle-isaiah-david                                 none   —
+instant-pot-chicken-adobo                            none   -
+miracle-isaiah-david                                 none   -
 power-of-the-mouse-wheel-click                       auto   tags: inbox-zero, information-diet, context-aware-capture, the-second-brain-workflow, getting-things-done, atomic-notes
 power-of-worship-pads-enhancing-your-worship-with-guitar auto   mentions: dont-worry
-set-it-forget-it-arroz-caldo                         none   —
+set-it-forget-it-arroz-caldo                         none   -
 top-reasons-create-maintain-your-own-website         auto   tags: drafting-in-public, commonplace-book, sketchpad, digital-garden, literature-notes, note-relationships
 top-reasons-why-you-still-need-use-desktop-laptop    auto   tags: mobile-capture-workflows, context-aware-capture, attention-ec
 … (output truncated)
@@ -2333,11 +2333,11 @@ facebooks-hidden-gem-how-favorites-feed-transforms-your-social-media-experience 
 getting-started-with-rss-feeds-a-beginners-guide     auto   tags: synthesis-as-a-goal, digital-minimalism, digital-serendipity, the-second-brain-workflow, attention-economy, inbox-zero
 how-i-built-jorap-notes                              auto   tags: free-tier-hosting-stack, digital-garden, drafting-in-public, the-garage-concept, selling-static-sites, note-relationships | mentions: patience
 hugoplate-theme-review                               auto   tags: the-garage-concept, digital-garden, drafting-in-public, sketchpad, git-based-cms, free-tier-hosting-stack
-instant-pot-chicken-adobo                            none   —
+instant-pot-chicken-adobo                            none   -
 miracle-isaiah-david                                 manual → childlike-faith, free-grace, dont-worry
 power-of-the-mouse-wheel-click                       auto   tags: inbox-zero, information-diet, context-aware-capture, the-second-brain-workflow, getting-things-done, atomic-notes
 power-of-worship-pads-enhancing-your-worship-with-guitar manual → love-god, ask-seek-knock, dont-worry
-set-it-forget-it-arroz-caldo                         none   —
+set-it-forget-it-arroz-caldo                         none   -
 top-reasons-create-maintain-your-own-website         auto   tags: drafting-in-public, commonplace-book, sketchpad, digital-garden, literature-notes, note
 … (output truncated)
 ```
@@ -2415,7 +2415,7 @@ Implemented and audited all 15 published blogs. Summary:
 ## What changed
 
 **Matching** (`notes/related-notes.html`):
-- `related_notes:` frontmatter — exclusive manual list (skips auto)
+- `related_notes:` frontmatter - exclusive manual list (skips auto)
 - Tag match requires **≥2 shared tags**, cosine-like scoring
 - **Title mentions** in blog body as a second signal
 - **Index/MOC notes** (`note_kind: index`) excluded from auto pool
@@ -2424,9 +2424,9 @@ Implemented and audited all 15 published blogs. Summary:
 **Presentation** (`blog/related-notes.html`):
 - Lede: “Garden notes that share topics with this post.”
 - Cards use `key_concept` blurb (wikilinks stripped) instead of raw `description`
-- Shared tags only — no full tag chip row
+- Shared tags only - no full tag chip row
 
-**Audit script**: `scripts/audit-blog-related-notes.py` — re-run anytime with `python3 scripts/audit-blog-related-notes.py`
+**Audit script**: `scripts/audit-blog-related-notes.py` - re-run anytime with `python3 scripts/audit-blog-related-notes.py`
 
 ---
 
@@ -2434,23 +2434,23 @@ Implemented and audited all 15 published blogs. Summary:
 
 | Blog | Connection |
 |------|------------|
-| **how-i-built-jorap-notes** | auto — free-tier-hosting-stack, digital-garden, drafting-in-public, the-garage-concept, selling-static-sites, note-relationships + mention: patience |
-| **hugoplate-theme-review** | auto — the-garage-concept, digital-garden, drafting-in-public, sketchpad, git-based-cms, free-tier-hosting-stack |
-| **top-reasons-create-maintain-your-own-website** | auto — drafting-in-public, commonplace-book, sketchpad, digital-garden, literature-notes, note-relationships |
-| **top-reasons-why-you-still-need-use-desktop-laptop** | auto — mobile-capture-workflows, context-aware-capture, attention-economy, deep-work, inbox-zero, information-diet |
-| **consistent-ai-output-wordpress-builds** | auto — building-a-personal-api, creative-blocks, mobile-capture-workflows, the-knowledge-lifecycle, the-trusted-inbox, context-aware-capture |
-| **getting-started-with-rss-feeds-beginners-guide** | auto — synthesis-as-a-goal, digital-minimalism, digital-serendipity, the-second-brain-workflow, attention-economy, inbox-zero |
-| **facebooks-hidden-gem…** | auto — digital-minimalism, note-relationships, attention-economy, commonplace-book, crdt, graph-view-analytics |
-| **power-of-the-mouse-wheel-click** | auto — inbox-zero, information-diet, context-aware-capture, the-second-brain-workflow, getting-things-done, atomic-notes |
-| **dnpap-song-resources** | **manual** — love-god, free-grace, ask-seek-knock |
-| **miracle-isaiah-david** | **manual** — childlike-faith, free-grace, dont-worry |
-| **power-of-worship-pads…** | **manual** — love-god, ask-seek-knock, dont-worry |
-| **alex-eala-pro-career-tracker** | **manual** — expect-the-counter, resilience, follow-through |
-| **what-i-look-for-in-wireless-earphones** | **manual** — attention-economy, deep-work, digital-minimalism |
-| **instant-pot-chicken-adobo** | none — no garden overlap (recipe) |
-| **set-it-forget-it-arroz-caldo** | none — no garden overlap (recipe) |
+| **how-i-built-jorap-notes** | auto - free-tier-hosting-stack, digital-garden, drafting-in-public, the-garage-concept, selling-static-sites, note-relationships + mention: patience |
+| **hugoplate-theme-review** | auto - the-garage-concept, digital-garden, drafting-in-public, sketchpad, git-based-cms, free-tier-hosting-stack |
+| **top-reasons-create-maintain-your-own-website** | auto - drafting-in-public, commonplace-book, sketchpad, digital-garden, literature-notes, note-relationships |
+| **top-reasons-why-you-still-need-use-desktop-laptop** | auto - mobile-capture-workflows, context-aware-capture, attention-economy, deep-work, inbox-zero, information-diet |
+| **consistent-ai-output-wordpress-builds** | auto - building-a-personal-api, creative-blocks, mobile-capture-workflows, the-knowledge-lifecycle, the-trusted-inbox, context-aware-capture |
+| **getting-started-with-rss-feeds-beginners-guide** | auto - synthesis-as-a-goal, digital-minimalism, digital-serendipity, the-second-brain-workflow, attention-economy, inbox-zero |
+| **facebooks-hidden-gem…** | auto - digital-minimalism, note-relationships, attention-economy, commonplace-book, crdt, graph-view-analytics |
+| **power-of-the-mouse-wheel-click** | auto - inbox-zero, information-diet, context-aware-capture, the-second-brain-workflow, getting-things-done, atomic-notes |
+| **dnpap-song-resources** | **manual** - love-god, free-grace, ask-seek-knock |
+| **miracle-isaiah-david** | **manual** - childlike-faith, free-grace, dont-worry |
+| **power-of-worship-pads…** | **manual** - love-god, ask-seek-knock, dont-worry |
+| **alex-eala-pro-career-tracker** | **manual** - expect-the-counter, resilience, follow-through |
+| **what-i-look-for-in-wireless-earphones** | **manual** - attention-economy, deep-work, digital-minimalism |
+| **instant-pot-chicken-adobo** | none - no garden overlap (recipe) |
+| **set-it-forget-it-arroz-caldo** | none - no garden overlap (recipe) |
 
-**13 of 15** blogs now show Related Notes. The two recipe posts correctly show nothing — there are no food notes in the garden.
+**13 of 15** blogs now show Related Notes. The two recipe posts correctly show nothing - there are no food notes in the garden.
 
 ---
 
@@ -3451,7 +3451,7 @@ curl -s http://localhost:1313/notes/ | sed -n '/<main/,/<\/main>/p' | grep -E 'n
       <div class="notes-index-discover mb-10 grid gap-6 lg:grid-cols-2 lg:items-start lg:gap-8">
         <div class="notes-index-discover__random min-w-0">
   <h2 class="h5 mb-1">Random pick</h2>
-  <p class="text-ink-muted mb-3 text-sm">One note from the garden — refreshed each visit.</p>
+  <p class="text-ink-muted mb-3 text-sm">One note from the garden - refreshed each visit.</p>
         <div class="notes-index-discover__recent notes-recent-stack grid min-w-0 gap-6">
     <p class="text-ink-muted mb-3 text-sm">Latest additions to the garden.</p>
     <p class="text-ink-muted mb-3 text-sm">Notes touched most recently.</p>
@@ -3591,9 +3591,9 @@ _**Agent (auto-low)**_
 Polished `/notes/` with clearer hierarchy and less noise. Changes:
 
 ## Layout & hierarchy
-- **Intro** — Description renders as a lede; body copy renders separately with working wikilinks (no duplicate paragraph).
-- **Discover** — Two-column on desktop: **Random pick** left, **New notes** + **Recent updates** right (6 each, was 12).
-- **Catalog** — **All notes** section header with short lede before search/filter.
+- **Intro** - Description renders as a lede; body copy renders separately with working wikilinks (no duplicate paragraph).
+- **Discover** - Two-column on desktop: **Random pick** left, **New notes** + **Recent updates** right (6 each, was 12).
+- **Catalog** - **All notes** section header with short lede before search/filter.
 
 ## Cards & copy
 - Grid cards use **`key_concept` blurbs** (via `note-blurb`) instead of raw descriptions.
@@ -3616,4 +3616,4 @@ Polished `/notes/` with clearer hierarchy and less noise. Changes:
 - `assets/css/custom.css`
 - `assets/js/notes-list.js`
 
-Refresh http://localhost:1313/notes/ to see it. If you want the recipe/lifestyle posts to stay out of the garden bridge entirely, that's already handled — only the index polish here.
+Refresh http://localhost:1313/notes/ to see it. If you want the recipe/lifestyle posts to stay out of the garden bridge entirely, that's already handled - only the index polish here.

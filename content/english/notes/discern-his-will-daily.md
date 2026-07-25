@@ -68,7 +68,7 @@ cards:
     back: "Saved first - discern from a fed mind now."
   - front: "Big fork tomorrow and I haven't opened Scripture all week. What's missing?"
     back: "Renew first - then approve His will."
-  - front: "Choosing between comfort and the hard right thing. Romans 12:2 outcome?"
+  - front: "Choosing comfort over the hard right thing - mind renewed, fork still easy."
     back: "Test His will - good and acceptable and perfect."
 draft: false
 ---

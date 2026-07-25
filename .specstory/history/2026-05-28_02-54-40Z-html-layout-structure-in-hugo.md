@@ -26,7 +26,7 @@ Reload Page
 _**Agent (auto-high)**_
 
 <think><details><summary>Thought Process</summary>
- The user's Hugo build is failing because a mermaid partial template file is missing from the theme—specifically the JavaScript assets that handle diagram rendering. I need to figure out where this file should be located and why it's not being found.</details></think>
+ The user's Hugo build is failing because a mermaid partial template file is missing from the theme-specifically the JavaScript assets that handle diagram rendering. I need to figure out where this file should be located and why it's not being found.</details></think>
 
 _**Agent (auto-high)**_
 
@@ -171,7 +171,7 @@ Status: **completed**
 _**Agent (auto-high)**_
 
 <think><details><summary>Thought Process</summary>
- I'm noticing a mismatch in the file path — the error message points to `themes/jorap/layouts/_default/baseof.html` but the actual file is located at `themes/jorap/layouts/baseof.html`, so I need to check whether Hugo is looking in the wrong directory or if the file structure is different than expected.</details></think>
+ I'm noticing a mismatch in the file path - the error message points to `themes/jorap/layouts/_default/baseof.html` but the actual file is located at `themes/jorap/layouts/baseof.html`, so I need to check whether Hugo is looking in the wrong directory or if the file structure is different than expected.</details></think>
 
 _**Agent (auto-high)**_
 

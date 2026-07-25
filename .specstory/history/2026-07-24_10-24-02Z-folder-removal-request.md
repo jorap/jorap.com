@@ -637,7 +637,7 @@ The `tina/` folder is also unused. Both folders are empty, unreferenced in sourc
 
 _**Agent (auto-low)**_
 
-Both folders are safe to remove — they're untracked leftovers with no references in the live codebase. Removing them now.
+Both folders are safe to remove - they're untracked leftovers with no references in the live codebase. Removing them now.
 
 
 _**Agent (auto-low)**_
@@ -664,10 +664,10 @@ The requested folders have been removed.
 
 _**Agent (auto-low)**_
 
-Yes — both were safe to delete, and they're gone now.
+Yes - both were safe to delete, and they're gone now.
 
-**`tina/`** — Leftover from the June TinaCMS experiment. It only had empty `collections/` and `__generated__/.cache/` dirs. The site uses Sveltia CMS instead; nothing in `package.json`, scripts, or Hugo config referenced it.
+**`tina/`** - Leftover from the June TinaCMS experiment. It only had empty `collections/` and `__generated__/.cache/` dirs. The site uses Sveltia CMS instead; nothing in `package.json`, scripts, or Hugo config referenced it.
 
-**`tmp/`** — Empty scratch folder. Past sessions used it for responsive screenshots (`tmp/responsive-screenshots/`), but that was never committed. `.gitignore` already covers `.tmp`, not `tmp/`.
+**`tmp/`** - Empty scratch folder. Past sessions used it for responsive screenshots (`tmp/responsive-screenshots/`), but that was never committed. `.gitignore` already covers `.tmp`, not `tmp/`.
 
-Neither folder was tracked in git, so this was just local cleanup — no commit needed.
+Neither folder was tracked in git, so this was just local cleanup - no commit needed.

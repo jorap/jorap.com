@@ -42,7 +42,7 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Adding winning strategies for the game to the blog post.
 
-Checking existing zines and similar posts for strategy section structure. Reviewing the game mechanics—21 total points across seven geisha countries—to ensure accurate advice.
+Checking existing zines and similar posts for strategy section structure. Reviewing the game mechanics-21 total points across seven geisha countries-to ensure accurate advice.
 
 The game uses eight alternating action cards per player. Each turn follows an "I split, you choose" pattern. Key strategic ideas include tracking remaining cards per country, prioritizing high-value regions like US and EU, and using trade-offs to strip the opponent's key cards.
 
@@ -214,7 +214,7 @@ The section heading is settled on "How I actually win" or "Playing to win" to ma
 
 _**Agent (auto-low)**_
 
-Adding a strategy section in JoRap voice, placed after the component budget and before the print list — practical tips from playing the split-and-choose loop.
+Adding a strategy section in JoRap voice, placed after the component budget and before the print list - practical tips from playing the split-and-choose loop.
 
 
 _**Agent (auto-low)**_
@@ -447,7 +447,7 @@ Defending a geisha already owned is easier than capturing one. A tie leaves the 
 
 _**Agent (auto-low)**_
 
-Checking a few more rule details—action counts per round, Gift card flow, and when geisha control is decided.
+Checking a few more rule details-action counts per round, Gift card flow, and when geisha control is decided.
 
 
 _**Agent (auto-low)**_
@@ -534,7 +534,7 @@ Burning Competition on a thin early board leaves only Gift available, so every s
 
 _**Agent (auto-low)**_
 
-Found several rule errors. Fixing the strategy section — the Gift advice is backwards (opponent picks 1, you keep 2).
+Found several rule errors. Fixing the strategy section - the Gift advice is backwards (opponent picks 1, you keep 2).
 
 
 _**Agent (auto-low)**_
@@ -575,23 +575,23 @@ Verified against the [official Hanamikoji rules](https://www.ultraboardgames.com
 
 ## What was wrong (now fixed)
 
-**1. Gift advice was backwards** — the biggest error.
+**1. Gift advice was backwards** - the biggest error.
 
 Official rule: opponent picks **1**, **you keep 2**. So three cards from the same country is **strong for you** (2 vs 1), not a gift to them. The old line had it inverted.
 
-**2. "Two of each action"** — wrong.
+**2. "Two of each action"** - wrong.
 
 Each player gets **one** of each action **per round** (4 turns total). Markers reset between rounds. You cannot burn "both Competitions" in the same round.
 
-**3. Trade-off "removing from the deck"** — imprecise.
+**3. Trade-off "removing from the deck"** - imprecise.
 
 Trade-off takes 2 cards from **your hand** and excludes them from **this round's** scoring. They go back into the shuffle next round. It does not permanently remove cards from the deck.
 
-**4. Secret "snag the last card"** — imprecise.
+**4. Secret "snag the last card"** - imprecise.
 
 Secret tucks a card from **your hand**, not a draw from the deck. The edge is hiding which row you are committing to.
 
-**5. "Block before they flip"** — mixed Duopoly and retail.
+**5. "Block before they flip"** - mixed Duopoly and retail.
 
 Retail *Hanamikoji* resolves favor at **scoring** (more items on your side wins the geisha). Duopoly's green flip is a handy tracker, not retail rules. Clarified that in the post.
 
@@ -794,11 +794,11 @@ _**Agent (auto-low)**_
 
 All three issues are fixed, and I aligned the mapping section so it matches retail *Hanamikoji*:
 
-**Deal counts** — not three per market. Count equals point value: 2/2/2/3/3/4/5 (21 total). Added a **Deal cards** column to the markets table and fixed the mapping row.
+**Deal counts** - not three per market. Count equals point value: 2/2/2/3/3/4/5 (21 total). Added a **Deal cards** column to the markets table and fixed the mapping row.
 
-**2-point markets** — only three (Germany, France, UK). Strategy now says you can stack those three but still need a fourth market for the country win.
+**2-point markets** - only three (Germany, France, UK). Strategy now says you can stack those three but still need a fourth market for the country win.
 
-**Scoring timing** — market cards stay black/neutral during all eight turns. Flips happen **only at scoring**, after both players finish four turns each. Updated:
+**Scoring timing** - market cards stay black/neutral during all eight turns. Flips happen **only at scoring**, after both players finish four turns each. Updated:
 - Intro color note
 - "Flip the country" section (during vs after scoring)
 - Image caption
@@ -1095,4 +1095,4 @@ _**Agent (auto-low)**_
 
 Updated throughout to **Secret #1**, **Trade-off #2**, **Gift #3**, **Competition #4** (name first, then number).
 
-Also clarified **one of each per player** — eight action cards total, four per side, no duplicates. That’s in the intro, mapping table, component budget row, component paragraph, image caption, print list, and strategy section.
+Also clarified **one of each per player** - eight action cards total, four per side, no duplicates. That’s in the intro, mapping table, component budget row, component paragraph, image caption, print list, and strategy section.

@@ -559,7 +559,7 @@ Result:
           },
           {
             "lineNumber": 16,
-            "text": "**{{ replace .Name \"-\" \" \" | title }}** — one idea, stated plainly. If you need &#96;and&#96; or a second heading, split into another note and link it with &#96;[[wikilinks]]&#96;."
+            "text": "**{{ replace .Name \"-\" \" \" | title }}** - one idea, stated plainly. If you need &#96;and&#96; or a second heading, split into another note and link it with &#96;[[wikilinks]]&#96;."
           }
         ],
         "range": {
@@ -1449,7 +1449,7 @@ Result:
           },
           {
             "lineNumber": 2,
-            "text": "  components/image — Renders a responsive \u003cimg\u003e or \u003cpicture\u003e from any source."
+            "text": "  components/image - Renders a responsive \u003cimg\u003e or \u003cpicture\u003e from any source."
           },
           {
             "lineNumber": 3
@@ -2511,7 +2511,7 @@ Result:
           },
           {
             "lineNumber": 35,
-            "text": "- Images go under &#96;assets/images/&#96; and use image module &#96;{{ partial \"image\" (dict \"Src\" .image \"Alt\" \"...\" \"Loading\" \"eager\" \"Class\" \"...\" \"DisplayXL\" \"800x\") }}&#96; — don't hand-write &#96;\u003cimg\u003e&#96;."
+            "text": "- Images go under &#96;assets/images/&#96; and use image module &#96;{{ partial \"image\" (dict \"Src\" .image \"Alt\" \"...\" \"Loading\" \"eager\" \"Class\" \"...\" \"DisplayXL\" \"800x\") }}&#96; - don't hand-write &#96;\u003cimg\u003e&#96;."
           },
           {
             "lineNumber": 36
@@ -2533,7 +2533,7 @@ Result:
           },
           {
             "lineNumber": 41,
-            "text": "- **DO NOT** Use relative image paths — use &#96;/images/...&#96; under &#96;assets/images/&#96;."
+            "text": "- **DO NOT** Use relative image paths - use &#96;/images/...&#96; under &#96;assets/images/&#96;."
           },
           {
             "lineNumber": 42,
@@ -2694,7 +2694,7 @@ Result:
           },
           {
             "lineNumber": 7,
-            "text": "Multilingual — each language sets &#96;contentDir&#96; in &#96;config/_default/languages.toml&#96; (English → &#96;content/english/&#96;). **List the dir before assuming the language** (e.g. &#96;content/english/blog/post.md&#96; → English, not &#96;content/blog/post.md&#96;)."
+            "text": "Multilingual - each language sets &#96;contentDir&#96; in &#96;config/_default/languages.toml&#96; (English → &#96;content/english/&#96;). **List the dir before assuming the language** (e.g. &#96;content/english/blog/post.md&#96; → English, not &#96;content/blog/post.md&#96;)."
           },
           {
             "lineNumber": 8,
@@ -2798,7 +2798,7 @@ Result:
           },
           {
             "lineNumber": 35,
-            "text": "- Images go under &#96;assets/images/&#96; and use image module &#96;{{ partial \"image\" (dict \"Src\" .image \"Alt\" \"...\" \"Loading\" \"eager\" \"Class\" \"...\" \"DisplayXL\" \"800x\") }}&#96; — don't hand-write &#96;\u003cimg\u003e&#96;."
+            "text": "- Images go under &#96;assets/images/&#96; and use image module &#96;{{ partial \"image\" (dict \"Src\" .image \"Alt\" \"...\" \"Loading\" \"eager\" \"Class\" \"...\" \"DisplayXL\" \"800x\") }}&#96; - don't hand-write &#96;\u003cimg\u003e&#96;."
           }
         ],
         "range": {

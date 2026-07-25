@@ -47,7 +47,7 @@ featured: false
 review: true
 card_sets: ["Eternal Principles", "Gospel", "Commandments"]
 cards:
-  - front: "Sunday worship felt high but I haven't opened the Bible all week. Which part of whole-person love am I skipping?"
+  - front: "Sunday worship felt high but I haven't opened the Bible all week - mind lane empty."
     back: "Mind - open Scripture today."
   - front: "Calendar full, prayer thin - reordering the day. What comes first?"
     back: "Pray before inbox."
@@ -55,7 +55,7 @@ cards:
     back: "Love back - engage heart."
   - front: "About to snap at family right after worship. Which love comes first at home?"
     back: "God first - then neighbor."
-  - front: "Morning fork: scroll or five minutes with God. One faculty to feed right now?"
+  - front: "Thumb on scroll before five minutes with God. One faculty to feed right now?"
     back: "Pick one - heart, soul, mind, or strength."
   - front: "Devotion feels vague - 'love God' with no next step. What's one move today?"
     back: "Pray, read, or serve - one faculty."

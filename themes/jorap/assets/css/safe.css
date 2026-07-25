@@ -10,7 +10,7 @@
  * prose-* class in components.css rather than reintroducing !important here.
  */
 
-/* navbar toggler — checkbox hack drives the mobile menu visibility */
+/* navbar toggler - checkbox hack drives the mobile menu visibility */
 input#nav-toggle:checked + label #show-button {
   @apply hidden;
 }

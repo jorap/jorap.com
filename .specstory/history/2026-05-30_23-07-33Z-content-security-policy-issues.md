@@ -172,7 +172,7 @@ _**Agent (auto-high)**_
 _**Agent (auto-high)**_
 
 <think><details><summary>Thought Process</summary>
- I'm spotting two separate problems here. First, the Cloudflare analytics beacon script is getting blocked by the content security policy, so I need to whitelist that domain in both the script and connection sources. Second, there's an issue with the service worker registration script that's failing to evaluate—let me dig into what's causing that failure.</details></think>
+ I'm spotting two separate problems here. First, the Cloudflare analytics beacon script is getting blocked by the content security policy, so I need to whitelist that domain in both the script and connection sources. Second, there's an issue with the service worker registration script that's failing to evaluate-let me dig into what's causing that failure.</details></think>
 
 _**Agent (auto-high)**_
 

@@ -715,7 +715,7 @@ Result:
   "isFinal": true,
   "references": [
     {
-      "chunk": "Links:\n1. [Iga Swiatek def. Alexandra Eala, 2025 Madrid Second Round | TennisDB](https://tennis-db.com/wta/matches/balldontlie_wta:331117/iga-swiatek-vs-alexandra-eala)\n2. [2025 Madrid R64: Iga Swiatek vs Alexandra Eala Detailed Stats | Tennis Abstract](https://www.tennisabstract.com/charting/20250424-W-Madrid-R64-Iga_Swiatek-Alexandra_Eala.html)\n3. [Iga Swiatek vs. Alexandra Eala 24.04.2025 - Mutua Madrid Open - Madrid | TennisLive.com](https://www.tennislive.net/wta/match/iga-swiatek-VS-alexandra-eala/mutua-madrid-open-madrid-2025/)\n4. [Eala vs. Swiatek | Round of 64 Mutua Madrid Open 2025 | WTA Official](https://www.wtatennis.com/tournaments/1038/madrid/2025/scores/LS063)\n5. [Madrid Open 2025: Iga Swiatek beats Alexandra Eala to avoid Miami repeat - BBC Sport](https://www.bbc.com/sport/tennis/articles/czjnwdmjr3lo)\n\nSynthesis:\nIga Swiatek defeated Alexandra Eala 4-6, 6-4, 6-2 in the Round of 64 at the 2025 Madrid Open on April 24, 2025 [1][2][3].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eIga Swiatek def. Alexandra Eala, 2025 Madrid Second Round | TennisDB\u003c/title\u003e\n\u003curl\u003ehttps://tennis-db.com/wta/matches/balldontlie_wta:331117/iga-swiatek-vs-alexandra-eala\u003c/url\u003e\n\u003ccontent\u003eIga Swiatek def. Alexandra Eala, 2025 Madrid Second Round | TennisDB\n\nSite data updated: 2026-06-12 04:30 UTC\n\n# Iga Swiatek#2 def. Alexandra Eala#72\n\n4-6 6-4 6-2\n\n## Match Information\n\n| Date | Apr 24, 2025 |\n| --- | --- |\n| Tournament | Madrid |\n| Category | WTA 1000 |\n| Surface | Clay |\n| Round | R64 |\n| Winner | Iga Swiatek |\n| Score | 4-6 6-4 6-2 |\n| Loser | Alexandra Eala |\n\nNo match stats are available for this match.\n\n## Pre-match Comparison\n\n| Field | Iga Swiatek | Alexandra Eala |\n| --- | --- | --- |\n| Country | POL | PHI |\n| Birth date | May 31, 2001 | — |\n| Age | 23 | — |\n| Height | 176 | 173 |\n| Handedness | Right-Handed | Left-
+      "chunk": "Links:\n1. [Iga Swiatek def. Alexandra Eala, 2025 Madrid Second Round | TennisDB](https://tennis-db.com/wta/matches/balldontlie_wta:331117/iga-swiatek-vs-alexandra-eala)\n2. [2025 Madrid R64: Iga Swiatek vs Alexandra Eala Detailed Stats | Tennis Abstract](https://www.tennisabstract.com/charting/20250424-W-Madrid-R64-Iga_Swiatek-Alexandra_Eala.html)\n3. [Iga Swiatek vs. Alexandra Eala 24.04.2025 - Mutua Madrid Open - Madrid | TennisLive.com](https://www.tennislive.net/wta/match/iga-swiatek-VS-alexandra-eala/mutua-madrid-open-madrid-2025/)\n4. [Eala vs. Swiatek | Round of 64 Mutua Madrid Open 2025 | WTA Official](https://www.wtatennis.com/tournaments/1038/madrid/2025/scores/LS063)\n5. [Madrid Open 2025: Iga Swiatek beats Alexandra Eala to avoid Miami repeat - BBC Sport](https://www.bbc.com/sport/tennis/articles/czjnwdmjr3lo)\n\nSynthesis:\nIga Swiatek defeated Alexandra Eala 4-6, 6-4, 6-2 in the Round of 64 at the 2025 Madrid Open on April 24, 2025 [1][2][3].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eIga Swiatek def. Alexandra Eala, 2025 Madrid Second Round | TennisDB\u003c/title\u003e\n\u003curl\u003ehttps://tennis-db.com/wta/matches/balldontlie_wta:331117/iga-swiatek-vs-alexandra-eala\u003c/url\u003e\n\u003ccontent\u003eIga Swiatek def. Alexandra Eala, 2025 Madrid Second Round | TennisDB\n\nSite data updated: 2026-06-12 04:30 UTC\n\n# Iga Swiatek#2 def. Alexandra Eala#72\n\n4-6 6-4 6-2\n\n## Match Information\n\n| Date | Apr 24, 2025 |\n| --- | --- |\n| Tournament | Madrid |\n| Category | WTA 1000 |\n| Surface | Clay |\n| Round | R64 |\n| Winner | Iga Swiatek |\n| Score | 4-6 6-4 6-2 |\n| Loser | Alexandra Eala |\n\nNo match stats are available for this match.\n\n## Pre-match Comparison\n\n| Field | Iga Swiatek | Alexandra Eala |\n| --- | --- | --- |\n| Country | POL | PHI |\n| Birth date | May 31, 2001 | - |\n| Age | 23 | - |\n| Height | 176 | 173 |\n| Handedness | Right-Handed | Left-
 … (output truncated)
 ```
 User decision: **accepted**
@@ -916,7 +916,7 @@ _**Agent (auto-low)**_
 
 Updated all **Matches Against Grand Slam Champions** lines to match the tournament format used elsewhere on the page.
 
-**Format change:** `**YYYY Event (Surface)** - Round, d./l. Opponent score | [Match Stats](url)` — same `d.`/`l.` + score pattern as Best Performances and Grand Slam sections. Replaced the old `Grass Court - Win/Loss` labels.
+**Format change:** `**YYYY Event (Surface)** - Round, d./l. Opponent score | [Match Stats](url)` - same `d.`/`l.` + score pattern as Best Performances and Grand Slam sections. Replaced the old `Grass Court - Win/Loss` labels.
 
 **Scores added** (14 matches across 7 opponents):
 
@@ -1088,7 +1088,7 @@ _**Agent (auto-low)**_
 
 _**Agent (auto-low)**_
 
-Moved the two milestone notes above the round lines in the 2026 Wimbledon block — notes first, then 3rd / 2nd / 1st Round results.
+Moved the two milestone notes above the round lines in the 2026 Wimbledon block - notes first, then 3rd / 2nd / 1st Round results.
 
 ---
 
@@ -1331,7 +1331,7 @@ done
 58Z4lJcW2AM | Pulse America | Wimbledon 2026: Alexandra Eala vs Iga Świątek | Round 3 Showdown 🎾🔥
 6wm-A4uMWP4 | Z SPORTS PH | Alex Eala Just SMOKED Maya Joint in the Ultimate Wimbledon Revenge Match.
 6YX1RiIhNQY | apohiker76sports | Alexandra Eala 🇵🇭 vs Maya Joint 🇦🇺 2🥎26 Wimbledon 🎾 Round of 64
-794wTn4rGVw | gamerse | Alex Eala DESTROYS Maya Joint at Wimbledon — Tennis World Erupts After Incredible Performa
+794wTn4rGVw | gamerse | Alex Eala DESTROYS Maya Joint at Wimbledon - Tennis World Erupts After Incredible Performa
 AafUOtbQQYA | ONE FILIPINO TV | ALEX EALA vs MAYA JOINT WIMBLEDON OPEN 2026 #AlexEala #tennis #wta
 adp2XSapWG8 | WTA | Over the moon 🌙 Alex Eala continues to make history at Wimbledon!✨ #WTA #Wimbledon #tennis
 bgSs0pKIAGI | SPOTV ASIA | Alexandra Eala vs Maya Joint | Second Round Highlights | Wimbledon 2026
@@ -1371,7 +1371,7 @@ done
 ```
 
 ```
-5KqLIzYsL5A | TennisFYI | Grass Was MADE For Her  — Raducanu On Alex Eala Ahead of Wimbledon
+5KqLIzYsL5A | TennisFYI | Grass Was MADE For Her  - Raducanu On Alex Eala Ahead of Wimbledon
 72hhpxLtv10 | TENNIS STAR UPDATE  | WHAT’S GOING ON? ALEX EALA AND COLEMAN WONG 💔🤔🎾 #alexeala #colemanwong
 7ypJVvQE5-c | Tennis Channel | Previewing Iga Swiatek vs. Alexandra Eala, 2026 Wimbledon third round | TC Live
 96tpemNCLHA | Tennis Channel | Women's Tennis Stars Pick the Men's Wimbledon Winner | Alex Eala, Marta Kostyuk & More
@@ -1440,7 +1440,7 @@ _**Agent (auto-low)**_
 
 _**Agent (auto-low)**_
 
-Replaced `ZwGElu9-ynk` (Bilyonaryo News Channel — result/news clip) with `bgSs0pKIAGI` (SPOTV ASIA — *Alexandra Eala vs Maya Joint | Second Round Highlights | Wimbledon 2026*) under the 2026 Wimbledon block. No official Wimbledon-channel upload for that match turned up; SPOTV is a listed rights-holder with actual match highlights.
+Replaced `ZwGElu9-ynk` (Bilyonaryo News Channel - result/news clip) with `bgSs0pKIAGI` (SPOTV ASIA - *Alexandra Eala vs Maya Joint | Second Round Highlights | Wimbledon 2026*) under the 2026 Wimbledon block. No official Wimbledon-channel upload for that match turned up; SPOTV is a listed rights-holder with actual match highlights.
 
 ---
 
@@ -1838,9 +1838,9 @@ Tables look good. Vondrousova's separator differs slightly from Keys/Rybakina. L
 
 _**Agent (auto-low)**_
 
-**Tables** — All 7 Grand Slam Champions title tables now match the reference template (`Tournament | Year(s)`, consistent separators, padded cells). Świątek rows reordered newest-first (Wimbledon 2025 → French Open → US Open 2022). Krejcikova’s extra blank line before **Matches:** removed.
+**Tables** - All 7 Grand Slam Champions title tables now match the reference template (`Tournament | Year(s)`, consistent separators, padded cells). Świątek rows reordered newest-first (Wimbledon 2025 → French Open → US Open 2022). Krejcikova’s extra blank line before **Matches:** removed.
 
-**Links** — Checked **222** unique URLs with HEAD requests, grouped by domain with a 2.1s pause between hits on the same host (~11 min total). **220/220** markdown links returned HTTP 200 (WTA, tennis.com, slam sites, TNNSLIVE, Getty). The two “404s” were false positives from the HTML in Image Credits (`)` inside the Wikimedia filename broke the URL regex) — those links are fine as written.
+**Links** - Checked **222** unique URLs with HEAD requests, grouped by domain with a 2.1s pause between hits on the same host (~11 min total). **220/220** markdown links returned HTTP 200 (WTA, tennis.com, slam sites, TNNSLIVE, Getty). The two “404s” were false positives from the HTML in Image Credits (`)` inside the Wikimedia filename broke the URL regex) - those links are fine as written.
 
 No broken match or profile links found. `lastmod` → `2026-07-06T11:48:00Z`.
 
@@ -2852,7 +2852,7 @@ _**Agent (auto-low)**_
 
 Two fixes:
 
-**Wimbledon links** — All six `wimbledon.com` URLs returned HTTP 200 but the page body is “Page Not Found” (their Next.js shell). Replaced every one with verified `tennis.com` match pages:
+**Wimbledon links** - All six `wimbledon.com` URLs returned HTTP 200 but the page body is “Page Not Found” (their Next.js shell). Replaced every one with verified `tennis.com` match pages:
 
 | Round | New link |
 |-------|----------|
@@ -2865,7 +2865,7 @@ Two fixes:
 
 Format stays `wtatennis.com` first, then `tennis.com`.
 
-**Tables** — A global `.content table` rule in `custom.css` was stripping the prose header background on blog posts, so Grand Slam title tables looked like unstyled bare HTML. Scoped that override to `.notes-content table` only; blog tables get the theme’s bordered header styling back (`prose-thead:bg-elevated`, etc.).
+**Tables** - A global `.content table` rule in `custom.css` was stripping the prose header background on blog posts, so Grand Slam title tables looked like unstyled bare HTML. Scoped that override to `.notes-content table` only; blog tables get the theme’s bordered header styling back (`prose-thead:bg-elevated`, etc.).
 
 Rebuild or hard-refresh to pick up the CSS change. `lastmod` → `2026-07-06T12:20:00Z`.
 

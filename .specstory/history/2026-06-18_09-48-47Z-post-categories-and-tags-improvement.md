@@ -1970,11 +1970,11 @@ Updated categories and tags across all **41 blog posts** (published and drafts).
 
 ### Category improvements
 
-- **Capped at 2–3 categories** per post — trimmed posts that had 4 (e.g. Facebook favorites feed, HugoPlate review, consistent AI output).
-- **Standardized food taxonomy** — `Cooking` → `Food` for pantry reviews (Kewpie, Worcestershire).
-- **Clearer groupings** — home/office gear uses `Gear, Home, Reviews`; supplements use `Health, Wellness, Tips`; faith story uses `Faith, Family, Testimony`.
-- **Better format labels** — RSS beginner guide is `Guide`; blog templates moved from `Sample` to `Website, Tutorial`.
-- **Topic-first ordering** — e.g. `Shopping, Tips, Guide` instead of `Tips, Shopping, Guide`.
+- **Capped at 2–3 categories** per post - trimmed posts that had 4 (e.g. Facebook favorites feed, HugoPlate review, consistent AI output).
+- **Standardized food taxonomy** - `Cooking` → `Food` for pantry reviews (Kewpie, Worcestershire).
+- **Clearer groupings** - home/office gear uses `Gear, Home, Reviews`; supplements use `Health, Wellness, Tips`; faith story uses `Faith, Family, Testimony`.
+- **Better format labels** - RSS beginner guide is `Guide`; blog templates moved from `Sample` to `Website, Tutorial`.
+- **Topic-first ordering** - e.g. `Shopping, Tips, Guide` instead of `Tips, Shopping, Guide`.
 
 ### Tag improvements
 

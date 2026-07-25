@@ -443,7 +443,7 @@ Giscus is preferable to Utterances for GitHub-based commenting. It uses GitHub D
 
 _**Agent (auto-low)**_
 
-For **jorap.com** specifically — Hugo on Cloudflare Pages, Disqus in `hugo.toml`, CSP already whitelisting Disqus — the honest answer is: **Utterances is better than Disqus on almost every technical axis, but worse for your actual readers unless they're mostly developers.**
+For **jorap.com** specifically - Hugo on Cloudflare Pages, Disqus in `hugo.toml`, CSP already whitelisting Disqus - the honest answer is: **Utterances is better than Disqus on almost every technical axis, but worse for your actual readers unless they're mostly developers.**
 
 ## Quick comparison
 
@@ -468,7 +468,7 @@ For **jorap.com** specifically — Hugo on Cloudflare Pages, Disqus in `hugo.tom
 **Keep Disqus if you care about:**
 - **Frictionless commenting** for a general audience (parents, tennis fans, church community)
 - People who will never create a GitHub account
-- A post like your miracle story getting 2M YouTube views — those readers are not going to comment via GitHub Issues
+- A post like your miracle story getting 2M YouTube views - those readers are not going to comment via GitHub Issues
 
 Disqus wins on **reach**. Utterances wins on **everything else**.
 
@@ -476,7 +476,7 @@ Disqus wins on **reach**. Utterances wins on **everything else**.
 
 If you're going the GitHub route, **skip Utterances and use [Giscus](https://giscus.app)** instead. Same idea (comments backed by your repo), but:
 
-- Uses **GitHub Discussions** instead of Issues — better threading, reactions, less repo clutter
+- Uses **GitHub Discussions** instead of Issues - better threading, reactions, less repo clutter
 - More actively maintained
 - Nicer UI out of the box
 - Same lightweight, no-ads model
@@ -485,13 +485,13 @@ Utterances isn't dead, but Giscus is the default recommendation in 2026 for GitH
 
 ## Other options worth knowing
 
-**Cusdis** — Tiny, privacy-friendly, optional email login (no GitHub required). Good middle ground if you want light + non-dev readers. Free hosted tier or self-host.
+**Cusdis** - Tiny, privacy-friendly, optional email login (no GitHub required). Good middle ground if you want light + non-dev readers. Free hosted tier or self-host.
 
-**Hyvor Talk** — Paid, privacy-respecting, polished. Overkill unless comments are core to the site.
+**Hyvor Talk** - Paid, privacy-respecting, polished. Overkill unless comments are core to the site.
 
-**Webmentions** (Bridgy, etc.) — Indie-web style: comments live on other people's blogs/social posts and get pulled in. Elegant, but setup-heavy and low volume for most personal blogs.
+**Webmentions** (Bridgy, etc.) - Indie-web style: comments live on other people's blogs/social posts and get pulled in. Elegant, but setup-heavy and low volume for most personal blogs.
 
-**Nothing** — Valid. Many static sites drop comments entirely and point people to contact, email, or social. Lowest maintenance, zero CSP headaches.
+**Nothing** - Valid. Many static sites drop comments entirely and point people to contact, email, or social. Lowest maintenance, zero CSP headaches.
 
 ## What I'd actually recommend for jorap.com
 
@@ -503,7 +503,7 @@ Given your content mix (faith stories, Alex Eala tracker, tech tutorials, parent
 
 3. **If comment volume is low anyway** → **remove comments**. Add a line like "Reply by email" or link to contact. Simplest diff, aligns with ponytail.
 
-4. **Don't migrate to Utterances specifically** — if you're switching off Disqus for GitHub-backed comments, go straight to **Giscus**.
+4. **Don't migrate to Utterances specifically** - if you're switching off Disqus for GitHub-backed comments, go straight to **Giscus**.
 
 Migration effort is small either way: replace the Disqus block in `themes/jorap/layouts/blog/single.html`, update `static/_headers` CSP (swap `disqus.com` domains for `giscus.app` + `githubusercontent.com`), and update your privacy policy per NFR-203.
 
@@ -692,13 +692,13 @@ Open Graph meta tags affect how posts appear when shared. Hacker News offers a s
 
 _**Agent (auto-low)**_
 
-You already have a solid baseline: **Facebook, X, email, LinkedIn, copy link**. Your partial also supports Reddit, WhatsApp, Telegram, Pinterest, Tumblr, and VK — you turned most of those off in `blog/single.html`, which is reasonable.
+You already have a solid baseline: **Facebook, X, email, LinkedIn, copy link**. Your partial also supports Reddit, WhatsApp, Telegram, Pinterest, Tumblr, and VK - you turned most of those off in `blog/single.html`, which is reasonable.
 
 Here’s what’s worth considering beyond that row of icons.
 
 ## The most modern option: Web Share API
 
-One **“Share”** button that calls `navigator.share({ title, url })` on supported devices. On phones it opens the **native OS sheet** — WhatsApp, Messenger, SMS, email, AirDrop, whatever the user actually has installed. No need to guess platforms.
+One **“Share”** button that calls `navigator.share({ title, url })` on supported devices. On phones it opens the **native OS sheet** - WhatsApp, Messenger, SMS, email, AirDrop, whatever the user actually has installed. No need to guess platforms.
 
 - Works well on mobile (Chrome, Safari, Edge)
 - Desktop support is patchier → fall back to your existing icon row or copy link
@@ -710,31 +710,31 @@ This is the pattern most modern sites use instead of adding more icons.
 
 | Platform | Why consider it | Share URL pattern |
 |---|---|---|
-| **WhatsApp** | Huge in the PH; family/group sharing | Already in your partial — just flip `"Whatsapp" false` to `true` |
+| **WhatsApp** | Huge in the PH; family/group sharing | Already in your partial - just flip `"Whatsapp" false` to `true` |
 | **Bluesky** | Growing X alternative for tech/indie web | `https://bsky.app/intent/compose?text={title}%20{url}` |
 | **Messenger** | Often beats “post to Facebook” for personal blogs | `https://www.facebook.com/dialog/send?link={url}&app_id={id}` (needs a FB app id) |
 | **SMS** | Dead simple on mobile | `sms:?body={title}%20{url}` |
 | **Mastodon / Fediverse** | Indie-web crowd; upstream Hugoplate had this | `https://mastodonshare.com/?text={title}&url={url}` or instance picker |
 | **Hacker News** | Only for dev/tutorial posts | `https://news.ycombinator.com/submitlink?u={url}&t={title}` |
 
-**Threads** still has no clean public intent URL — skip it for now.
+**Threads** still has no clean public intent URL - skip it for now.
 
 ## What’s fading (you were right to hide these)
 
-Pinterest, Tumblr, VK, Reddit — fine to keep off unless a specific post targets that audience. LinkedIn matters for career/tech posts; less for faith or parenting content.
+Pinterest, Tumblr, VK, Reddit - fine to keep off unless a specific post targets that audience. LinkedIn matters for career/tech posts; less for faith or parenting content.
 
 ## UX patterns (better than more icons)
 
-1. **Web Share + copy fallback** — one primary button, copy as backup. Cleanest on mobile.
-2. **“Share” popover** — one button opens a small menu with 4–5 choices instead of a permanent icon strip.
-3. **Contextual sets** — tech posts get Bluesky/HN; personal stories get WhatsApp/Facebook/email. Same partial, different toggles per section or frontmatter.
+1. **Web Share + copy fallback** - one primary button, copy as backup. Cleanest on mobile.
+2. **“Share” popover** - one button opens a small menu with 4–5 choices instead of a permanent icon strip.
+3. **Contextual sets** - tech posts get Bluesky/HN; personal stories get WhatsApp/Facebook/email. Same partial, different toggles per section or frontmatter.
 
 ## What actually moves the needle (not buttons)
 
 Share buttons matter less than **preview quality** when someone pastes your link:
 
 - Good `og:title`, `og:description`, `og:image` (you likely have this via Hugo)
-- Absolute URLs in the share partial (you already use `Permalink` — good)
+- Absolute URLs in the share partial (you already use `Permalink` - good)
 
 A ugly link preview kills shares more than a missing Bluesky icon.
 
@@ -742,7 +742,7 @@ A ugly link preview kills shares more than a missing Bluesky icon.
 
 Given your audience mix (PH readers, faith stories, tennis, dev posts):
 
-**Minimum change:** enable **WhatsApp** — it’s already wired up, one line in `single.html`.
+**Minimum change:** enable **WhatsApp** - it’s already wired up, one line in `single.html`.
 
 **Modern upgrade:** add a **Web Share** button ahead of the icon row; keep Facebook, X, email, copy as desktop fallback.
 
@@ -754,7 +754,7 @@ I can wire up Web Share + WhatsApp with a small `share.js` change and one option
 
 _**User**_
 
-Minimum change: enable WhatsApp — it’s already wired up, one line in single.html.
+Minimum change: enable WhatsApp - it’s already wired up, one line in single.html.
 
 Modern upgrade: add a Web Share button ahead of the icon row; keep Facebook, X, email, copy as desktop fallback.
 
@@ -762,7 +762,7 @@ What actually moves the needle (not buttons)
 Share buttons matter less than preview quality when someone pastes your link:
 
 Good og:title, og:description, og:image (you likely have this via Hugo)
-Absolute URLs in the share partial (you already use Permalink — good)
+Absolute URLs in the share partial (you already use Permalink - good)
 A ugly link preview kills shares more than a missing Bluesky icon.
 
 Check that
@@ -2136,7 +2136,7 @@ The fix is to replace `whatsapp://` with `https://wa.me/`. This avoids Hugo's sa
 
 _**Agent (auto-low)**_
 
-WhatsApp link was stripped by Hugo's URL sanitizer — switching to the `https://wa.me/` share URL.
+WhatsApp link was stripped by Hugo's URL sanitizer - switching to the `https://wa.me/` share URL.
 
 
 _**Agent (auto-low)**_
@@ -2254,11 +2254,11 @@ Done. Here's what shipped and what the OG audit found.
 
 ## Changes made
 
-1. **WhatsApp enabled** — removed `"Whatsapp" false` from `layouts/blog/single.html`
-2. **Web Share button** — native share button (hidden until `navigator.share` exists) added ahead of the icon row in `social-share.html`, wired in `share.js`
-3. **WhatsApp URL fix** — `whatsapp://` was being stripped by Hugo (`href="#ZgotmplZ"`). Switched to `https://wa.me/?text=...` and added `urlquery` encoding on share URLs
-4. **OG image:type bug fixed** — was `image/.jpg`, now `image/jpeg` in `layouts/_partials/basic-seo.html`
-5. **OG image path normalization** — leading `/` stripped so `assets/images/` resolves correctly
+1. **WhatsApp enabled** - removed `"Whatsapp" false` from `layouts/blog/single.html`
+2. **Web Share button** - native share button (hidden until `navigator.share` exists) added ahead of the icon row in `social-share.html`, wired in `share.js`
+3. **WhatsApp URL fix** - `whatsapp://` was being stripped by Hugo (`href="#ZgotmplZ"`). Switched to `https://wa.me/?text=...` and added `urlquery` encoding on share URLs
+4. **OG image:type bug fixed** - was `image/.jpg`, now `image/jpeg` in `layouts/_partials/basic-seo.html`
+5. **OG image path normalization** - leading `/` stripped so `assets/images/` resolves correctly
 
 ## OG / preview audit (live site)
 
@@ -2266,21 +2266,21 @@ Checked `https://www.jorap.com/blog/why-run-your-own-website/`:
 
 | Tag | Status |
 |---|---|
-| `og:title` | Good — uses `meta_title` + suffix |
-| `og:description` | Good — from frontmatter `description` |
-| `og:url` | Good — absolute `Permalink` |
-| `og:image` | Good — `https://www.jorap.com/images/website.jpg` (200, `image/jpeg`) |
-| `og:image:width/height` | Good — 851×428 (meets large-card minimum) |
-| `twitter:card` | Good — `summary_large_image` |
-| `twitter:site` | Good — `@jorap` |
+| `og:title` | Good - uses `meta_title` + suffix |
+| `og:description` | Good - from frontmatter `description` |
+| `og:url` | Good - absolute `Permalink` |
+| `og:image` | Good - `https://www.jorap.com/images/website.jpg` (200, `image/jpeg`) |
+| `og:image:width/height` | Good - 851×428 (meets large-card minimum) |
+| `twitter:card` | Good - `summary_large_image` |
+| `twitter:site` | Good - `@jorap` |
 
 **Minor nit (not fixed):** `og:type` is `website` on blog posts; `article` would be more precise for crawlers. Low impact.
 
-**Fixed locally, deploys on next push:** `og:image:type` was `image/.jpg` on production — invalid MIME type. Fixed to `image/jpeg`.
+**Fixed locally, deploys on next push:** `og:image:type` was `image/.jpg` on production - invalid MIME type. Fixed to `image/jpeg`.
 
 **Coverage:** Every published blog post has an `image:` in frontmatter. Fallback default is `images/jw.jpg` from `config/_default/params.toml`.
 
-**Share URLs:** Already absolute via `Permalink` — correct for previews when pasted into Messenger/WhatsApp.
+**Share URLs:** Already absolute via `Permalink` - correct for previews when pasted into Messenger/WhatsApp.
 
 Overall: preview quality is solid. The only real bug was `og:image:type`; everything else was already working. After deploy, you can sanity-check with [Facebook Sharing Debugger](https://developers.facebook.com/tools/debug/) or [opengraph.xyz](https://www.opengraph.xyz/).
 
@@ -2629,7 +2629,7 @@ The parent `.share-icons` container must not clip overflow. The tooltip will be 
 
 _**Agent (auto-low)**_
 
-Adding CSS tooltips on hover/focus — the site already uses native `title` elsewhere, but styled tooltips fit icon-only share buttons better.
+Adding CSS tooltips on hover/focus - the site already uses native `title` elsewhere, but styled tooltips fit icon-only share buttons better.
 
 
 _**Agent (auto-low)**_
@@ -2763,8 +2763,8 @@ _**Agent (auto-low)**_
 
 Added CSS tooltips on hover and keyboard focus for every share button.
 
-**Markup** (`social-share.html`): each button gets `data-share-tip` — "Share", "Facebook", "X", "Email", "WhatsApp", "LinkedIn", "Copy link", etc. `aria-label` is now clearer too ("Share on Facebook" instead of "share facebook").
+**Markup** (`social-share.html`): each button gets `data-share-tip` - "Share", "Facebook", "X", "Email", "WhatsApp", "LinkedIn", "Copy link", etc. `aria-label` is now clearer too ("Share on Facebook" instead of "share facebook").
 
 **Styles** (`module-overrides.css`): small label above the icon on hover; `focus-visible` for keyboard; `@media (hover: hover)` so touch devices don't get sticky tooltips.
 
-No JS — pure CSS via `attr(data-share-tip)`.
+No JS - pure CSS via `attr(data-share-tip)`.

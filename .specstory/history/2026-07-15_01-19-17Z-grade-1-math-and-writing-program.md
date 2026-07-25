@@ -301,7 +301,7 @@ A search found existing "grade-1-quiz" content on the site. This suggests some i
 
 _**Agent (auto-low)**_
 
-Checking for an existing grade 1 quiz on the site — that may tie into this post.
+Checking for an existing grade 1 quiz on the site - that may tie into this post.
 
 
 _**Agent (auto-low)**_
@@ -809,7 +809,7 @@ _**Agent (auto-low)**_
 Updated the draft around your actual setup.
 
 **New framing**
-- Opens with your son choosing **Kumon reading over Kumon math** — no fight, that's the data
+- Opens with your son choosing **Kumon reading over Kumon math** - no fight, that's the data
 - Kumon reading stays; you're only building the **math gap** at home
 - North star is **want-to-come-back math**, not more worksheets like the format he already said no to
 
@@ -817,13 +817,13 @@ Updated the draft around your actual setup.
 - All pronouns fixed to **he/him**
 - Title: *He Chose Kumon Reading. I'm Building Math He'll Actually Love*
 - Kumon reading credited for what works; home program is **math-heavy** with short writing on the side
-- Randomizer quiz framed as a **game** (shuffle button, oral wins) — opposite of Kumon math vibes
-- Success metrics: no groaning, asks for another round, explains sums with fingers — not test scores
+- Randomizer quiz framed as a **game** (shuffle button, oral wins) - opposite of Kumon math vibes
+- Success metrics: no groaning, asks for another round, explains sums with fingers - not test scores
 - Closing speaks to parents whose kid picked **one** Kumon track and rejected the other
 
 The weekly table and randomizer link are unchanged in spirit; math gets most of the block now since reading is covered.
 
-Want me to tune anything — e.g. how far along he is in Kumon reading, or specific games he already likes?
+Want me to tune anything - e.g. how far along he is in Kumon reading, or specific games he already likes?
 
 ---
 
@@ -1062,9 +1062,9 @@ Updated the draft so the split is explicit:
 
 **Home = math he'll love**
 - Math stayed home because he said no to Kumon math and that format would kill the subject
-- Home writing is now optional extras only (label a drawing, one journal line) — not a second copy-work program competing with Kumon
+- Home writing is now optional extras only (label a drawing, one journal line) - not a second copy-work program competing with Kumon
 
-**Weekly table** — most writing days say "Skip - Kumon day"; Saturday postcard is the fun creative bit.
+**Weekly table** - most writing days say "Skip - Kumon day"; Saturday postcard is the fun creative bit.
 
 Title is now *Kumon Reading for His Writing. Home Math He'll Actually Love.*
 
@@ -1550,13 +1550,13 @@ _**Agent (auto-low)**_
 
 Added your Kumon trial story in three spots:
 
-**"Why math stayed with me"** — opens with the trial: answers correct, feedback was *you could do it faster*. That's the clearest example of Kumon optimizing for speed, not love of the subject. Writing reps for a six-year-old? Fine. Math passion? Different job.
+**"Why math stayed with me"** - opens with the trial: answers correct, feedback was *you could do it faster*. That's the clearest example of Kumon optimizing for speed, not love of the subject. Writing reps for a six-year-old? Fine. Math passion? Different job.
 
-**"Why he said no to math"** — one line callback: you'd seen that movie already during your own trial.
+**"Why he said no to math"** - one line callback: you'd seen that movie already during your own trial.
 
-**"Better than Kumon math"** — correct work that wasn't correct *enough* until it was fast enough.
+**"Better than Kumon math"** - correct work that wasn't correct *enough* until it was fast enough.
 
-It gives you credibility without sounding bitter — you know Kumon from the inside, and the speed ladder is exactly what you don't want for your son's math.
+It gives you credibility without sounding bitter - you know Kumon from the inside, and the speed ladder is exactly what you don't want for your son's math.
 
 ---
 
@@ -1871,8 +1871,8 @@ Updated. The post now has a clear **two-layer model**:
 - Useful, but same factory as your math trial (correct, then faster)
 
 **Home = better layer**
-- **Math** — passion from you, games, oral-first
-- **Writing** — his words, his books, his sentences; not workbook line seventeen
+- **Math** - passion from you, games, oral-first
+- **Writing** - his words, his books, his sentences; not workbook line seventeen
 
 Key line: *Kumon is the gym. Home is the sport.*
 
@@ -1881,7 +1881,7 @@ Key line: *Kumon is the gym. Home is the sport.*
 - Say it → you write once → he copies
 - No speed contest; Kumon wants neater/faster, home wants clear enough that someone can read it
 
-Weekly table has real writing every day except Sunday — no more "skip - Kumon day."
+Weekly table has real writing every day except Sunday - no more "skip - Kumon day."
 
 The closing: Kumon gets reps he'll do for a stranger; home gets the parts that have to feel like **his**.
 
@@ -2009,7 +2009,7 @@ Preparing a clear summary of the monthly program and its sample content.</detail
 
 _**Agent (auto-low)**_
 
-Added **Month 1: the full program with samples** — four weeks, Mon–Sat each, with concrete math and writing prompts.
+Added **Month 1: the full program with samples** - four weeks, Mon–Sat each, with concrete math and writing prompts.
 
 | Week | Math focus | Writing focus |
 |------|------------|---------------|
@@ -2022,9 +2022,9 @@ Each week includes:
 - A **day-by-day table** with sample math + writing
 - **Extra prompt banks** (oral math lines, journal starters, bond drills, word problems, realistic messy sentences)
 
-Samples tie to what you already built — Week 1 and beyond use the [grade-1 quiz](/randomizer/?set=grade-1-quiz) on Wed/Fri. Objects are things you'd have at home (mangoes, spoons, stickers, dice).
+Samples tie to what you already built - Week 1 and beyond use the [grade-1 quiz](/randomizer/?set=grade-1-quiz) on Wed/Fri. Objects are things you'd have at home (mangoes, spoons, stickers, dice).
 
-Month 2 preview: same shape, slightly bigger numbers, longer copy — or repeat week 3 if he's not ready. No rush.
+Month 2 preview: same shape, slightly bigger numbers, longer copy - or repeat week 3 if he's not ready. No rush.
 
 Want me to turn this into a printable one-pager, or add month 2 in full?
 
@@ -2308,7 +2308,7 @@ I'll outline the 12 principles and explain how they're incorporated.</details></
 
 _**Agent (auto-low)**_
 
-Added **The principles (and how they beat Kumon reading)** — a对比 table plus wiring through the rest of the post.
+Added **The principles (and how they beat Kumon reading)** - a对比 table plus wiring through the rest of the post.
 
 ### The twelve principles
 
@@ -2324,16 +2324,16 @@ Added **The principles (and how they beat Kumon reading)** — a对比 table plu
 | 8 | **Low stakes** | Red marks, redo tomorrow | "Try again," move on |
 | 9 | **Games, not factories** | Timed rows | Dice, shuffle button |
 | 10 | **Passion transfers** | Instructor enforces pace | You get excited; he notices |
-| 11 | **Two layers** | Kumon owns reps | Gym vs sport — no copy pages after center |
+| 11 | **Two layers** | Kumon owns reps | Gym vs sport - no copy pages after center |
 | 12 | **Explain it back** | Neater and faster | "Tell me how you got that" |
 
 **One-line test:** Kumon asks *did you finish, and was it fast enough?* Home asks *did you understand, did you care, will you come back?*
 
 ### Where they're woven in
 
-- **Daily shape** — principle numbers on math, writing, and quiz sections
-- **Month 1** — each week lists which principles it leans on (e.g. Week 3: 6, 7, 3, 12)
-- **Success metrics & closing** — tied back to principles 1, 2, 7
+- **Daily shape** - principle numbers on math, writing, and quiz sections
+- **Month 1** - each week lists which principles it leans on (e.g. Week 3: 6, 7, 3, 12)
+- **Success metrics & closing** - tied back to principles 1, 2, 7
 
 The old bullet list under "What better than Kumon means" is replaced by this table so the post has one clear framework everything else hangs on.
 
@@ -2694,8 +2694,8 @@ _**Agent (auto-low)**_
 Updated the post around **tablet + printer** as the delivery system.
 
 ### New section: The setup
-**Tablet** — quiz shuffle, oral math, word problems, “five cards then done.” No writing on glass.  
-**Printer** — four half-page templates, ~6 sheets/week:
+**Tablet** - quiz shuffle, oral math, word problems, “five cards then done.” No writing on glass.  
+**Printer** - four half-page templates, ~6 sheets/week:
 
 | Sheet | Use |
 |-------|-----|
@@ -2705,16 +2705,16 @@ Updated the post around **tablet + printer** as the delivery system.
 | **Message** | Postcard / note / door sign |
 
 ### Daily flow
-1. **Tablet** (5–8 min) — oral/game  
-2. **One printed sheet** (5–7 min) — pencil, done  
+1. **Tablet** (5–8 min) - oral/game  
+2. **One printed sheet** (5–7 min) - pencil, done  
 
 ### Month 1 tables
 Every day is now **Tablet (T)** | **Printed (P)** instead of mixed activities.
 
 ### Printable layouts
-Copy-paste templates for all four sheet types are in the post — stack them by the tablet charger.
+Copy-paste templates for all four sheet types are in the post - stack them by the tablet charger.
 
-**Why this split beats Kumon:** Tablet = game, not factory. Printer = one real artifact (fridge, mail, door) — not a 30-page workbook that becomes Kumon at home.
+**Why this split beats Kumon:** Tablet = game, not factory. Printer = one real artifact (fridge, mail, door) - not a 30-page workbook that becomes Kumon at home.
 
 Want me to add actual PDF/printable files to the repo, or link the randomizer offline-save steps in more detail?
 

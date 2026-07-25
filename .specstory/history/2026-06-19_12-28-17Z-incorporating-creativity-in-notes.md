@@ -437,7 +437,7 @@ I'm framing this as a strategy question rather than a technical implementation. 
 
 _**Agent (default)**_
 
-Your notes garden already implements most of what those four ideas describe. The gap is less “missing features” and more **using the system as a creative pipeline** — diverge into atoms, link across domains, then assemble output from reusable pieces.
+Your notes garden already implements most of what those four ideas describe. The gap is less “missing features” and more **using the system as a creative pipeline** - diverge into atoms, link across domains, then assemble output from reusable pieces.
 
 ## 1. Remixing concepts (cross-domain insight)
 
@@ -445,15 +445,15 @@ Your notes garden already implements most of what those four ideas describe. The
 
 **What you already have:**
 
-- **One central garden** at `/notes/` — everything lives in one searchable, linkable space instead of siloed folders.
-- **Tag overlap via “See also”** — build-time suggestions surface notes that share tags/categories but aren’t wikilinked yet (see `related-notes.html`).
-- **Graph view** at `/notes/graph/` — filters for orphaned notes, overloaded hubs, and dead ends help you see where themes cluster or stay isolated.
-- **Maps of Content** — hand-curated hubs that deliberately mix domains (Capture, Connect, Express, etc.).
+- **One central garden** at `/notes/` - everything lives in one searchable, linkable space instead of siloed folders.
+- **Tag overlap via “See also”** - build-time suggestions surface notes that share tags/categories but aren’t wikilinked yet (see `related-notes.html`).
+- **Graph view** at `/notes/graph/` - filters for orphaned notes, overloaded hubs, and dead ends help you see where themes cluster or stay isolated.
+- **Maps of Content** - hand-curated hubs that deliberately mix domains (Capture, Connect, Express, etc.).
 
 **How to use it:**
 
 - When writing a note, follow your own [[Associative Linking]] rule: link to what it **extends** and what it **contradicts**, even across categories.
-- Before closing a note, check **See also** — those are remix candidates (shared theme, no link yet).
+- Before closing a note, check **See also** - those are remix candidates (shared theme, no link yet).
 - Walk the graph from a hub like [[Maps of Content]] into a distant branch; that’s structured cross-pollination.
 
 Your [[Digital Serendipity]] and [[Synthesis as a Goal]] notes already describe this philosophy; the site mechanics support it.
@@ -462,15 +462,15 @@ Your [[Digital Serendipity]] and [[Synthesis as a Goal]] notes already describe 
 
 ## 2. Reusing “intermediate packets”
 
-**What it means:** Don’t start from a blank page — assemble from small, pre-built fragments (summaries, excerpts, brainstorms).
+**What it means:** Don’t start from a blank page - assemble from small, pre-built fragments (summaries, excerpts, brainstorms).
 
 **What you already have:**
 
-- **[[Atomic Notes]]** — each note is literally an intermediate packet: one claim you can quote or drop into a larger piece.
-- **`description` frontmatter** — a one-breath summary on every card; reusable in outlines and blog intros.
-- **[[Progressive Summarization]]** — distill in layers *on reuse*, not on first save (bold → highlight → top summary when you reach for it again).
-- **[[From Note to Book]]** — MOC as table of contents, atoms as chapters; compile, don’t invent.
-- **Blog express path** — [[Getting Started]] documents distilling a note into `content/english/blog/` when it’s ready.
+- **[[Atomic Notes]]** - each note is literally an intermediate packet: one claim you can quote or drop into a larger piece.
+- **`description` frontmatter** - a one-breath summary on every card; reusable in outlines and blog intros.
+- **[[Progressive Summarization]]** - distill in layers *on reuse*, not on first save (bold → highlight → top summary when you reach for it again).
+- **[[From Note to Book]]** - MOC as table of contents, atoms as chapters; compile, don’t invent.
+- **Blog express path** - [[Getting Started]] documents distilling a note into `content/english/blog/` when it’s ready.
 
 **How to use it:**
 
@@ -487,7 +487,7 @@ The atomic rule (“one claim, link out”) is what makes packets composable. Mu
 
 ## 3. The intermediary step (diverge → converge)
 
-**What it means:** CODE’s creative loop — collect widely, then mix into solutions. Browsing past material triggers incubation and illumination.
+**What it means:** CODE’s creative loop - collect widely, then mix into solutions. Browsing past material triggers incubation and illumination.
 
 **What you already have:**
 
@@ -500,12 +500,12 @@ The atomic rule (“one claim, link out”) is what makes packets composable. Mu
 
 **A concrete weekly loop** (aligned with [[The Second Brain Workflow]]):
 
-1. **Diverge** — capture to inbox; don’t organize yet.
-2. **Incubate** — hit random note, skim backlinks, or open the local graph on whatever you’re working on.
-3. **Converge** — turn inbox items into seedling atoms; link two neighbors; promote to evergreen when stable.
-4. **Express** — pull 3–5 linked atoms into a blog post before the week ends.
+1. **Diverge** - capture to inbox; don’t organize yet.
+2. **Incubate** - hit random note, skim backlinks, or open the local graph on whatever you’re working on.
+3. **Converge** - turn inbox items into seedling atoms; link two neighbors; promote to evergreen when stable.
+4. **Express** - pull 3–5 linked atoms into a blog post before the week ends.
 
-[[Serendipitous Resurfacing]] is the design principle here: you’re not relying on memory to search — review, backlinks, and “See also” bring old ideas back at the right time.
+[[Serendipitous Resurfacing]] is the design principle here: you’re not relying on memory to search - review, backlinks, and “See also” bring old ideas back at the right time.
 
 ---
 
@@ -515,13 +515,13 @@ The atomic rule (“one claim, link out”) is what makes packets composable. Mu
 
 **What you already have:**
 
-- **Wikilinks** — `[[Title]]`, `[[alias|label]]`, aliases in frontmatter
+- **Wikilinks** - `[[Title]]`, `[[alias|label]]`, aliases in frontmatter
 - **Outgoing links** + **backlinks with snippets** on every note page
-- **Local graph** — neighborhood view at the top of each note
-- **Full graph** — site-wide map with analytics filters
-- **Hover previews** — peek without leaving context
-- **Sort by connections** on `/notes/` — hub notes surface first
-- **`npm run lint:notes`** — catches broken links and unlinked mentions
+- **Local graph** - neighborhood view at the top of each note
+- **Full graph** - site-wide map with analytics filters
+- **Hover previews** - peek without leaving context
+- **Sort by connections** on `/notes/` - hub notes surface first
+- **`npm run lint:notes`** - catches broken links and unlinked mentions
 
 This is the most fully built pillar. [[Associative Linking]] and [[The Power of Interconnectivity]] document the practice; the templates implement it.
 
@@ -562,12 +562,12 @@ flowchart LR
 
 ## Optional extensions (if you want to go further)
 
-Nothing here is required — the foundation is solid. These would deepen the four concepts:
+Nothing here is required - the foundation is solid. These would deepen the four concepts:
 
-1. **New evergreen notes** — e.g. “Intermediate Packets” and “Remixing Concepts” as first-class atoms (you have adjacent notes but not those exact titles).
-2. **MOC section** — add a “Remix & assemble” block under [[Maps of Content]] linking synthesis, from-note-to-book, progressive summarization, and creative output.
-3. **Backlink snippets in See also** — show *why* two notes might remix (shared tags are weaker signal than “this note mentions you in context”).
-4. **Transclusion shortcode** — embed another note’s opening paragraph inline when assembling blog posts (true packet reuse without copy-paste).
+1. **New evergreen notes** - e.g. “Intermediate Packets” and “Remixing Concepts” as first-class atoms (you have adjacent notes but not those exact titles).
+2. **MOC section** - add a “Remix & assemble” block under [[Maps of Content]] linking synthesis, from-note-to-book, progressive summarization, and creative output.
+3. **Backlink snippets in See also** - show *why* two notes might remix (shared tags are weaker signal than “this note mentions you in context”).
+4. **Transclusion shortcode** - embed another note’s opening paragraph inline when assembling blog posts (true packet reuse without copy-paste).
 
 ---
 

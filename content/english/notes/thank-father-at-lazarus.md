@@ -49,18 +49,18 @@ featured: false
 review: true
 card_sets: ["Jesus Prayers", "Gospel", "Faith", "Prayer"]
 cards:
-  - front: "Asked to pray out loud before a hard moment others are watching. What did He do at Lazarus' tomb?"
-    back: "Thank the Father aloud - so they believe He sent Me."
-  - front: "Tempted to whisper prayer no one can hear when faith is on the line. Why did He speak thanks?"
-    back: "For the crowd - Father always hears."
-  - front: "About to act in someone's crisis with the team watching. What did He do first at the tomb?"
+  - front: "Asked to pray out loud before a hard moment - crowd watching."
+    back: "Thank the Father aloud - then move."
+  - front: "Tempted to whisper prayer no one can hear when faith is on the line."
+    back: "Speak thanks - Father always hears."
+  - front: "About to act in someone's crisis - team watching my face."
     back: "Look up - thank the Father, then move."
-  - front: "Worried public prayer sounds showy. What was His aim at the tomb?"
-    back: "Point them to the Father - not to Me."
-  - front: "Team waiting for me to pray before bad news. One line from John 11:41-42?"
+  - front: "Worried public prayer sounds showy - showing-off fear loaded."
+    back: "Point them to the Father - not to me."
+  - front: "Team waiting for me to pray before bad news hits."
     back: "Thank You, Father - You hear Me."
-  - front: "Doubting God heard my private prayer. What did Jesus say about the Father's hearing?"
-    back: "Father always hears - trust and speak."
+  - front: "Doubting God heard my private prayer - silence feels safer."
+    back: "Trust and speak - Father always hears."
 draft: false
 ---
 

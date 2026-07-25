@@ -468,7 +468,7 @@ Monitor DPI cannot be controlled from CSS. I will suggest practical tweaks witho
 
 _**Agent (auto-low)**_
 
-Yes — you can push text toward sharper on screen, but “crisp” is partly rendering and partly contrast/weight. Your site is already set up well on the fundamentals.
+Yes - you can push text toward sharper on screen, but “crisp” is partly rendering and partly contrast/weight. Your site is already set up well on the fundamentals.
 
 **What you have now**
 
@@ -478,8 +478,8 @@ body {
 }
 ```
 
-- **Inter** at **16px** (good — integer size renders cleaner)
-- **`antialiased`** — grayscale antialiasing (`-webkit-font-smoothing: antialiased`). This often looks *smoother*, not *sharper*, especially on Retina displays.
+- **Inter** at **16px** (good - integer size renders cleaner)
+- **`antialiased`** - grayscale antialiasing (`-webkit-font-smoothing: antialiased`). This often looks *smoother*, not *sharper*, especially on Retina displays.
 
 **The main levers**
 
@@ -494,13 +494,13 @@ body {
 **What actually moves the needle**
 
 1. **Light mode:** try dropping `antialiased` (browser default subpixel AA) or use `subpixel-antialiased` explicitly.
-2. **Dark mode:** keep `antialiased` — subpixel AA often looks muddy on dark backgrounds.
+2. **Dark mode:** keep `antialiased` - subpixel AA often looks muddy on dark backgrounds.
 3. **Contrast:** `text-ink-muted` (`#3d3a37` on warm off-white) is intentionally softer. Bumping body copy to `text-ink` is the biggest perceived sharpness win.
 4. **Weight:** if Inter 400 feels fuzzy on your display, 500 for body text often fixes it without changing the font.
 
 **What CSS can't fix**
 
-- Fractional `transform`/`translate` on text (blurs it — your back-to-top button only transforms the icon, not text, so that's fine)
+- Fractional `transform`/`translate` on text (blurs it - your back-to-top button only transforms the icon, not text, so that's fine)
 - Low-DPI screens or OS font scaling
 - Thin weights at small sizes
 
@@ -517,7 +517,7 @@ html.dark body {
 }
 ```
 
-If you want to try it on the live site, say which you care about most — **body paragraphs**, **headings**, or **UI labels** — and whether you're mainly on **light mode, dark mode, or both**. I can suggest a one-line change in `base.css` rather than a big typography pass.
+If you want to try it on the live site, say which you care about most - **body paragraphs**, **headings**, or **UI labels** - and whether you're mainly on **light mode, dark mode, or both**. I can suggest a one-line change in `base.css` rather than a big typography pass.
 
 ---
 
@@ -537,7 +537,7 @@ Removing `antialiased` from the body in base.css should let the browser use defa
 
 _**Agent (auto-low)**_
 
-Removing `antialiased` from `body` so the browser uses default subpixel rendering — the smallest crispness tweak.
+Removing `antialiased` from `body` so the browser uses default subpixel rendering - the smallest crispness tweak.
 
 
 _**Agent (auto-low)**_
@@ -586,19 +586,19 @@ That tells the browser to use **grayscale antialiasing** instead of **subpixel**
 
 ### Pros
 
-- **More even on Retina / HiDPI** — edges look smoother and more consistent; less “color fringing” on letter stems.
-- **Better on dark backgrounds** — subpixel AA can leave colored halos or muddy edges on dark UI; grayscale usually looks cleaner.
-- **More predictable across displays** — less variation between LCD vs OLED vs scaled OS zoom.
-- **Thin fonts look less harsh** — Inter 400 and light weights often feel less “spiky” or overly sharp.
-- **Colored text** — accent links, tags, and tinted UI text often look cleaner without RGB subpixel artifacts.
+- **More even on Retina / HiDPI** - edges look smoother and more consistent; less “color fringing” on letter stems.
+- **Better on dark backgrounds** - subpixel AA can leave colored halos or muddy edges on dark UI; grayscale usually looks cleaner.
+- **More predictable across displays** - less variation between LCD vs OLED vs scaled OS zoom.
+- **Thin fonts look less harsh** - Inter 400 and light weights often feel less “spiky” or overly sharp.
+- **Colored text** - accent links, tags, and tinted UI text often look cleaner without RGB subpixel artifacts.
 
 ### Cons
 
-- **Can look softer or thinner** — some people read that as “less crisp,” especially on standard 1080p LCDs in light mode.
-- **Slightly less sharp at small sizes** — 12–14px UI labels can feel a bit fuzzier than with subpixel AA.
-- **Not a real weight change** — it doesn’t add ink; it only changes how edges are drawn.
-- **Platform-specific** — mainly affects WebKit/Blink (Chrome, Safari, Edge) and Firefox on macOS; Windows/Linux impact varies.
-- **One global choice** — applying it on `body` affects everything, including places where subpixel might have been fine.
+- **Can look softer or thinner** - some people read that as “less crisp,” especially on standard 1080p LCDs in light mode.
+- **Slightly less sharp at small sizes** - 12–14px UI labels can feel a bit fuzzier than with subpixel AA.
+- **Not a real weight change** - it doesn’t add ink; it only changes how edges are drawn.
+- **Platform-specific** - mainly affects WebKit/Blink (Chrome, Safari, Edge) and Firefox on macOS; Windows/Linux impact varies.
+- **One global choice** - applying it on `body` affects everything, including places where subpixel might have been fine.
 
 ### Rule of thumb
 
@@ -709,4 +709,4 @@ Done. In `base.css`:
 - **Light mode:** `subpixel-antialiased` on `body` (sharper on standard displays)
 - **Dark mode:** `antialiased` on `html.dark body` (cleaner edges, less color fringing)
 
-Toggle dark mode and compare a long post in each — light should feel a bit crisper, dark should stay smooth.
+Toggle dark mode and compare a long post in each - light should feel a bit crisper, dark should stay smooth.

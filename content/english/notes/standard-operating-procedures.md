@@ -56,6 +56,14 @@ cards:
     back: "Run the posted close - ice, tape, log."
   - front: "Restaurant door unlocks at eleven and I am opening solo."
     back: "Clipboard checklist - do not improvise."
+  - front: "Everyone's gassed - skip the log, head to cars."
+    back: "Posted close - ice, tape, log."
+  - front: "Slow night - improvise open, skip clipboard."
+    back: "Checklist start to finish - no solo hero."
+  - front: "Forgot ice after last game - parents waiting, kids still on the bench."
+    back: "Run the close now - process beats apology."
+  - front: "Manager says wing it when short-staffed."
+    back: "SOP on the board - adapt inside steps."
 draft: false
 ---
 

@@ -457,7 +457,7 @@ Parameters:
   "caseInsensitive": false,
   "glob": "*.md",
   "path": "/Users/jonathanrapusas/Documents/GitHub/jorap.com/content/english/notes",
-  "pattern": "—"
+  "pattern": "-"
 }
 ```
 Additional data:
@@ -467,7 +467,7 @@ Additional data:
   "isPruned": true,
   "outputMode": "content",
   "path": "/Users/jonathanrapusas/Documents/GitHub/jorap.com/content/english/notes",
-  "pattern": "—",
+  "pattern": "-",
   "topFiles": [
     {
       "matchCount": 6,
@@ -579,7 +579,7 @@ Parameters:
   "caseInsensitive": false,
   "glob": "*.md",
   "path": "/Users/jonathanrapusas/Documents/GitHub/jorap.com/content/english/notes",
-  "pattern": "^\\*\\*[^*]+\\*\\* —"
+  "pattern": "^\\*\\*[^*]+\\*\\* -"
 }
 ```
 Additional data:
@@ -589,7 +589,7 @@ Additional data:
   "isPruned": true,
   "outputMode": "content",
   "path": "/Users/jonathanrapusas/Documents/GitHub/jorap.com/content/english/notes",
-  "pattern": "^\\*\\*[^*]+\\*\\* —",
+  "pattern": "^\\*\\*[^*]+\\*\\* -",
   "topFiles": [
     {
       "matchCount": 1,
@@ -923,44 +923,44 @@ cd /Users/jonathanrapusas/Documents/GitHub/jorap.com && for f in content/english
 
 ```
 === active-knowledge-curation ===
-**Active Knowledge Curation** — saving links isn't curation. Here's how I try to keep notes useful - revisiting, pruning, and connecting what I actually care about.
+**Active Knowledge Curation** - saving links isn't curation. Here's how I try to keep notes useful - revisiting, pruning, and connecting what I actually care about.
 Once a month I open old folders and ask: would I save this again today? If not, I delete or merge. Curation is [[Periodic Knowledge Review]] with teeth - fewer notes, stronger links, notes I actually open.
 
 === advantages-of-digital-gardens ===
-**Advantages of Digital Gardens** — a digital garden grows in public - messy, linked, alive. Here's why I prefer that over polishing every thought into a finished essay.
+**Advantages of Digital Gardens** - a digital garden grows in public - messy, linked, alive. Here's why I prefer that over polishing every thought into a finished essay.
 Finished essays age fast. Garden notes can sit half-right, get linked, get updated. Readers see the thinking, not just the conclusion. That's closer to how ideas actually grow. See [[Drafting in Public]] and [[Digital Garden]].
 
 === analog-capture-tools ===
-**Analog Capture Tools** — I love my wiki, but sometimes paper wins - meetings, sermons, the pocket notebook that survives a dead phone battery.
+**Analog Capture Tools** - I love my wiki, but sometimes paper wins - meetings, sermons, the pocket notebook that survives a dead phone battery.
 Paper goes through the same rule as digital: one trusted inbox, processed weekly. I photograph or transcribe into [[Capture]] - the medium changes, the pipe doesn't. Meetings and sermons are where analog still wins for me.
 
 === anti-fragile-systems ===
-**Anti-Fragile Systems** — fragile systems break when an app shuts down. I try to build note workflows that get stronger under stress - plain files, open formats, owned exports.
+**Anti-Fragile Systems** - fragile systems break when an app shuts down. I try to build note workflows that get stronger under stress - plain files, open formats, owned exports.
 If an app vanished tomorrow, could I still read my notes? Markdown in a folder, exports I test twice a year, no single gatekeeper. Stress should surface gaps, not erase years of work. See [[Future-Proofing Knowledge]] and [[Local-first Software]].
 
 === associative-linking ===
-**Associative Linking** — folders sort. Links think. Here's how I use associative linking so notes meet each other without me remembering every filename.
+**Associative Linking** - folders sort. Links think. Here's how I use associative linking so notes meet each other without me remembering every filename.
 When I write a note, I link to two neighbors minimum - what it extends, what it contradicts. Filenames fade; relationships stick. That's how [[Zettelkasten]] and a [[Digital Garden]] stay walkable without a perfect folder tree.
 
 === atomic-design-for-notes ===
-**Atomic Design for Notes** — brad Frost's atomic design is for UI components. I borrowed the idea for notes - one idea per file, combinable later. Here's how that changed my wiki.
+**Atomic Design for Notes** - brad Frost's atomic design is for UI components. I borrowed the idea for notes - one idea per file, combinable later. Here's how that changed my wiki.
 Atoms stack into molecules: a claim note, a how-to note, a example note - linked, not merged. Same idea as [[Atomic Notes]], borrowed from UI work. Combinable beats monolithic every time.
 
 === atomic-notes ===
 An **atomic note** holds one claim or question. If you're writing &#96;and&#96; too much, split it. Link with &#96;[[wikilinks]]&#96;; let [[Maps of Content]] and backlinks do the organizing.
-**Rule of thumb:** one thing you'd say in conversation — "why middle-click saves tab chaos" is atomic; "browser tips and meeting notes" is not.
+**Rule of thumb:** one thing you'd say in conversation - "why middle-click saves tab chaos" is atomic; "browser tips and meeting notes" is not.
 Split when you need &#96;and&#96; twice. Link when ideas touch. [[Maps of Content]] collect clusters; backlinks show what you forgot you wrote. The graph is the organization.
 
 === building-a-personal-api ===
-**Building a Personal API** — a personal API isn't OAuth and microservices. It's a way to hand your future self (and your tools) structured context without re-explaining everything.
+**Building a Personal API** - a personal API isn't OAuth and microservices. It's a way to hand your future self (and your tools) structured context without re-explaining everything.
 For me that's consistent frontmatter, wikilinks, and folder shapes my tools can read - not a REST server in the closet. Agents and scripts work better when notes already speak a common language. See [[Metadata Strategy]].
 
 === building-a-second-brain ===
-**Building a Second Brain** — your brain is for having ideas, not storing them. A Second Brain is the system that holds them — starting with [[Capture]].
+**Building a Second Brain** - your brain is for having ideas, not storing them. A Second Brain is the system that holds them - starting with [[Capture]].
 CODE still frames it: [[Capture]], organize, distill, express. The system fails when any step is ornamental. I review whether each step still earns its place every quarter.
 
 === bullet-journaling ===
-**Bullet Journaling** — I don't bullet journal for pretty spreads. I use rapid logging when digital capture feels slow - tasks, events, notes on paper, migrated weekly.
+**Bullet Journaling** - I don't bullet journal for pretty spreads. I use rapid logging when digital capture feels slow - tasks, events, notes on paper, migrated weekly.
 Rapid logging only: dot for task, dash for note, circle for event. No layout guilt. Friday means migrate open dots to [[Capture]] or drop them. Paper is a lane, not a second brain.
 
 === capture ===
@@ -968,23 +968,23 @@ Rapid logging only: dot for task, dash for note, circle for event. No layout gui
 Friction kills capture. One inbox, phone to desktop, weekly process - same as [[The Trusted Inbox]]. If I wouldn't act on it or cite it later, it doesn't get saved. Resonance is the filter, not FOMO.
 
 === collaborative-knowledge ===
-**Collaborative Knowledge** — most of my notes are solo. But teams need shared context too - here's what I look for when knowledge has more than one author.
+**Collaborative Knowledge** - most of my notes are solo. But teams need shared context too - here's what I look for when knowledge has more than one author.
 Shared wikis need owners, edit norms, and a single source of truth per topic. I still keep a solo garden for thinking; team docs live where decisions stick. Different jobs, different homes.
 
 === context-aware-capture ===
-**Context-Aware Capture** — a link without context is a mystery six weeks later. I try to capture why I saved something - project, mood, question - while it's still obvious.
+**Context-Aware Capture** - a link without context is a mystery six weeks later. I try to capture why I saved something - project, mood, question - while it's still obvious.
 One line of why beats a perfect title. "For the sermon series" or "contradicts my take on X" - future me needs the hook. Pairs with [[Intellectual Sourcing]] when the save is a quote or link.
 
 === creative-blocks ===
-**Creative Blocks** — I have thousands of notes and still stare at a blank page sometimes. Creative blocks aren't solved by more capture - here's what actually unsticks me.
+**Creative Blocks** - I have thousands of notes and still stare at a blank page sometimes. Creative blocks aren't solved by more capture - here's what actually unsticks me.
 I pick one small express action: outline three bullets, publish a stub, record a voice memo. More [[Capture]] rarely helps; shipping something ugly does. See [[Creative Output]] and [[Process Over Outcomes]].
 
 === creative-output ===
-**Creative Output** — notes are inventory. Output is the point - blog posts, sermons, code, dinner experiments. Here's how I push from archive to shipped.
+**Creative Output** - notes are inventory. Output is the point - blog posts, sermons, code, dinner experiments. Here's how I push from archive to shipped.
 Every project gets an express deadline, even if it's just "post one paragraph." Notes without output become [[The Collector's Fallacy]]. Inventory exists to leave the warehouse.
 
 === curation-as-creation ===
-**Curation as Creation** — selecting, ordering, and framing notes is creative work. I stopped treating curation as housekeeping.
+**Curation as Creation** - selecting, ordering, and framing notes is creative work. I stopped treating curation as housekeeping.
 A [[Maps of Content]] is a curated playlist of ideas - order is an argument. Choosing what to include, what to cut, and what sits beside what is as creative as drafting new prose.
 
 === daily-notes ===
@@ -992,27 +992,27 @@ A [[Maps of Content]] is a curated playlist of ideas - order is an argument. Cho
 Morning dump, evening sweep. Fleeting by default - promote to evergreen during [[Periodic Knowledge Review]], not while the coffee's still hot. [[Daily Notes]] are a lane, not the archive.
 
 === digital-garden ===
-**Digital Garden** — a digital garden is a personal site where notes grow in public — linked, imperfect, alive.
+**Digital Garden** - a digital garden is a personal site where notes grow in public - linked, imperfect, alive.
 Publish early, link often, revise in public. The opposite of a portfolio of polished essays. Mine follows [[The Garage Concept]]: messy workshop, curated showroom elsewhere.
 
 === digital-minimalism ===
-**Digital Minimalism** — fewer apps, fewer sync layers, fewer notifications. My PKM got better when I stopped collecting tools.
+**Digital Minimalism** - fewer apps, fewer sync layers, fewer notifications. My PKM got better when I stopped collecting tools.
 One capture app, one wiki, one task list. Each new tool pays rent in sync and attention. When PKM felt heavy, the fix was subtraction, not another Notion template.
 
 === digital-serendipity ===
-**Digital Serendipity** — serendipity isn't random luck - it's building a system where old notes surprise you at the right time.
+**Digital Serendipity** - serendipity isn't random luck - it's building a system where old notes surprise you at the right time.
 Backlinks, random walks through [[Maps of Content]], and review queues surface what search misses. Luck is designed: old notes meet new problems when the graph is dense enough.
 
 === distraction-free-writing ===
-**Distraction-Free Writing** — fullscreen, plain text, notifications off. I don't need a special app - I need fewer excuses to leave the sentence.
+**Distraction-Free Writing** - fullscreen, plain text, notifications off. I don't need a special app - I need fewer excuses to leave the sentence.
 Plain Markdown, full screen, phone in another room. Fancy writing apps became another place to tweak instead of type. The goal is one uninterrupted paragraph, then another.
 
 === drafting-in-public ===
-**Drafting in Public** — I publish rough ideas before they're finished. Drafting in public keeps me honest and makes the garden grow.
+**Drafting in Public** - I publish rough ideas before they're finished. Drafting in public keeps me honest and makes the garden grow.
 Rough posts beat perfect drafts in a folder. Readers correct me; I update the note. That's [[Evergreen Notes]] in practice - living text, not a sealed essay.
 
 === e2ee-security ===
-**E2EE Security** — end-to-end encryption matters when your notes are actually private. I balance convenience with what I'm willing to store in plain text.
+**E2EE Security** - end-to-end encryption matters when your notes are actually private. I balance convenience with what I'm willing to store in plain text.
 Journal entries and credentials get encryption; blog drafts and garden notes stay plain text I can grep. Threat model first, then tools. See [[Privacy and Data Sovereignty]].
 
 === evergreen-notes ===
@@ -1020,48 +1020,48 @@ Journal entries and credentials get encryption; blog drafts and garden notes sta
 Write in complete sentences you'd still stand behind in two years. Revise when tools change, not when trends spike. Promotion from fleeting: during [[Periodic Knowledge Review]], when a spark keeps returning.
 
 === evergreen-vs-fleeting-notes ===
-**Evergreen vs Fleeting Notes** — fleeting notes catch sparks. Evergreen notes hold truth. I need both lanes and a clear promotion path.
+**Evergreen vs Fleeting Notes** - fleeting notes catch sparks. Evergreen notes hold truth. I need both lanes and a clear promotion path.
 Fleeting lives in [[Daily Notes]] and the inbox; evergreen lives where I link and teach from. The promotion question: is this still true, and would I cite it to a friend? If yes, rewrite in timeless voice and file as evergreen.
 
 === first-principles-thinking ===
-**First Principles Thinking** — when a note is just a quote from someone smarter, I add a section: what do I actually believe from scratch.
+**First Principles Thinking** - when a note is just a quote from someone smarter, I add a section: what do I actually believe from scratch.
 I add a short "from scratch" block: assumptions, what would have to be true, what I'd bet on. Quotes stay attributed; my claim sits beside them. Pairs with [[Mental Models List]] and [[Synthesis as a Goal]].
 
 === formatting-for-readability ===
-**Formatting for Readability** — dense walls of text don't get reread. I format notes like I'd format a post - headings, bullets, bold for the point.
+**Formatting for Readability** - dense walls of text don't get reread. I format notes like I'd format a post - headings, bullets, bold for the point.
 Short paragraphs, bold on the claim, bullets only for real lists. If I won't reread a wall of text, neither will anyone else. Same rules as blog posts, tighter scope.
 
 === from-note-to-book ===
-**From Note to Book** — books aren't written; they're compiled. My path from atomic notes to long-form is outline, link, expand.
+**From Note to Book** - books aren't written; they're compiled. My path from atomic notes to long-form is outline, link, expand.
 Start with a [[Maps of Content]] as the table of contents. Each chapter pulls linked [[Atomic Notes]]; gaps show up as missing links. Assembly writing: expand what's already true, don't invent from zero.
 
 === future-proofing-knowledge ===
-**Future-Proofing Knowledge** — future-proofing isn't predicting tech. It's plain text, open tools, and exports you test before you need them.
+**Future-Proofing Knowledge** - future-proofing isn't predicting tech. It's plain text, open tools, and exports you test before you need them.
 Export quarterly. Open files in a plain editor. If it breaks, fix the pipeline now, not during a panic. [[Anti-Fragile Systems]] beat predictions about which app wins next year.
 
 === getting-started ===
 The notes garden is **public** at [/notes/](/notes/). Set &#96;draft: false&#96; to publish a note; &#96;draft: true&#96; keeps it hidden until you're ready.
 ## Atomic rule
-One note = **one claim** you'd cite in conversation. No &#96;##&#96; sections, no "bottom line" — link out to other notes instead. See [[Atomic Notes]].
+One note = **one claim** you'd cite in conversation. No &#96;##&#96; sections, no "bottom line" - link out to other notes instead. See [[Atomic Notes]].
 
 === graph-view-analytics ===
-**Graph View Analytics** — graph view looks sci-fi. Mostly I use it to find orphans, hubs, and notes I forgot to link.
+**Graph View Analytics** - graph view looks sci-fi. Mostly I use it to find orphans, hubs, and notes I forgot to link.
 Orphans mean missing links; hubs mean overloaded notes that should split. I don't worship the pretty picture - I fix what it accuses. See [[The Power of Interconnectivity]].
 
 === gtd-vs-para ===
-**GTD vs PARA** — GTD runs my tasks. PARA runs my notes. They're cousins, not competitors - here's how I use both without doubling admin.
+**GTD vs PARA** - GTD runs my tasks. PARA runs my notes. They're cousins, not competitors - here's how I use both without doubling admin.
 Tasks live in the task app with contexts and next actions. Reference and project material lives in [[PARA Method]] buckets. Overlap is fine; duplicate filing is the tax I refuse to pay.
 
 === intellectual-sourcing ===
-**Intellectual Sourcing** — I cite sources in notes not for academia - so I can trust my own synthesis and find the original six months later.
+**Intellectual Sourcing** - I cite sources in notes not for academia - so I can trust my own synthesis and find the original six months later.
 Author, URL, date, and one line on why I cared - minimum viable citation. When I synthesize across sources, I can trace the chain and spot where I added opinion. See [[Note-Taking for Researchers]].
 
 === interstitial-journaling ===
-**Interstitial Journaling** — between meetings and deep work, I jot what just happened and what's next. Interstitial journaling clears the buffer.
+**Interstitial Journaling** - between meetings and deep work, I jot what just happened and what's next. Interstitial journaling clears the buffer.
 Thirty seconds between tasks: what happened, what's next, what's stuck in RAM. Clears the mental tab bar before deep work. Often feeds [[Capture]] or stays in [[Daily Notes]] until Friday.
 
 === local-first-software ===
-**Local-first Software** — local-first means your device holds the truth; sync is optional icing. That's how I want my brain's backup to behave.
+**Local-first Software** - local-first means your device holds the truth; sync is optional icing. That's how I want my brain's backup to behave.
 Files on disk I own; sync is backup, not boss. Offline should work; online is a bonus. Same philosophy as [[Future-Proofing Knowledge]] - my notes survive plane mode and vendor whims.
 
 === maps-of-content ===
@@ -1070,27 +1070,27 @@ Files on disk I own; sync is backup, not boss. Offline should work; online is a 
 ### Foundations
 
 === mental-models-list ===
-**Mental Models List** — mental models are shortcuts for thinking. I keep a short list of ones that survived contact with real decisions - not every model on Wikipedia.
+**Mental Models List** - mental models are shortcuts for thinking. I keep a short list of ones that survived contact with real decisions - not every model on Wikipedia.
 I keep maybe a dozen: inversion, second-order effects, opportunity cost, [[First Principles Thinking]]. Each gets its own note when it earns repeat use. The list is a [[Maps of Content]], not a Wikipedia binge.
 
 === metadata-strategy ===
-**Metadata Strategy** — tags, categories, dates, aliases - metadata should help you find notes, not become a second job.
+**Metadata Strategy** - tags, categories, dates, aliases - metadata should help you find notes, not become a second job.
 Tags for broad themes, aliases for link targets, dates for publish not theology. If tagging takes longer than writing, the schema is wrong. See [[Context-Aware Capture]] for the fields that actually get used.
 
 === mind-mapping ===
-**Mind Mapping** — mind maps are for the messy first pass - branches, bubbles, relationships. I export to atomic notes after, not instead.
+**Mind Mapping** - mind maps are for the messy first pass - branches, bubbles, relationships. I export to atomic notes after, not instead.
 Excalidraw or paper for the burst; then one idea per file. Maps are compost, not compost bins - they feed [[Atomic Notes]], they don't replace them.
 
 === mobile-capture-workflows ===
-**Mobile Capture Workflows** — most sparks die on mobile because capture takes twelve taps. I reduced mine to share sheet → inbox.
+**Mobile Capture Workflows** - most sparks die on mobile because capture takes twelve taps. I reduced mine to share sheet → inbox.
 Share sheet to inbox, voice memo when walking, photo of whiteboard before the room clears. Twelve taps was a design failure I fixed once and stopped re-litigating.
 
 === newsletter-filtering ===
-**Newsletter Filtering** — newsletters are RSS with delivery guilt. I filter them to a label, batch read weekly, clip what resonates.
+**Newsletter Filtering** - newsletters are RSS with delivery guilt. I filter them to a label, batch read weekly, clip what resonates.
 Gmail label, weekly batch, clip only what changes a project or belief. Same diet rules as [[RSS for Research]] - subscribe generously, process ruthlessly.
 
 === note-taking-for-researchers ===
-**Note-Taking for Researchers** — researchers drown in PDF highlights. I borrow lit-review habits: source notes, synthesis notes, never merge the two.
+**Note-Taking for Researchers** - researchers drown in PDF highlights. I borrow lit-review habits: source notes, synthesis notes, never merge the two.
 Literature notes stay close to the source; permanent notes are my words only. Never highlight into a synthesis note without rewriting. Classic [[Zettelkasten]] hygiene that survives outside academia.
 
 === organization ===
@@ -1098,11 +1098,11 @@ Literature notes stay close to the source; permanent notes are my words only. Ne
 [[PARA Method]] answers "where does this live for my life right now?" Topics answer "what is this about?" I need both, but life responsibility wins when I'm rushed.
 
 === para-method ===
-**[[PARA]] Method** — [[PARA]] is how I sort notes by life responsibility - not by topic alphabet soup. Four buckets, clear questions.
+**[[PARA]] Method** - [[PARA]] is how I sort notes by life responsibility - not by topic alphabet soup. Four buckets, clear questions.
 Projects, Areas, Resources, Archive - four questions, not forty folders. If I can't name the project or area, it probably stays in Resources until it matters. See [[The Archive Method]] when work finishes.
 
 === periodic-knowledge-review ===
-**Periodic Knowledge Review** — notes rot without review. I calendar weekly and quarterly passes - inbox, projects, evergreens.
+**Periodic Knowledge Review** - notes rot without review. I calendar weekly and quarterly passes - inbox, projects, evergreens.
 Weekly: inbox, calendar, one express action. Quarterly: prune dead links, promote sparks, archive stale projects. [[Weekly Review Checklists]] handle the rhythm; this note is the why.
 
 === pkm ===
@@ -1110,35 +1110,35 @@ Weekly: inbox, calendar, one express action. Quarterly: prune dead links, promot
 Capture what matters, organize enough to find it, distill on reuse, express on schedule. Not a productivity cosplay - a backup brain for a life that's too loud to hold everything in RAM. Start at [[Getting Started]] or [[Building a Second Brain]].
 
 === privacy-and-data-sovereignty ===
-**Privacy and Data Sovereignty** — data sovereignty means you control where notes live, who can read them, and how they leave your machine.
+**Privacy and Data Sovereignty** - data sovereignty means you control where notes live, who can read them, and how they leave your machine.
 Know what's on whose server. Garden notes public by choice; journals and credentials stay local or encrypted. Export paths matter as much as passwords. See [[E2EE Security]].
 
 === process-over-outcomes ===
-**Process Over Outcomes** — results matter - but optimizing only for outcomes wins once. Optimizing for a repeatable process wins again and again.
+**Process Over Outcomes** - results matter - but optimizing only for outcomes wins once. Optimizing for a repeatable process wins again and again.
 I can't control every result; I can control showing up to the weekly review, the publish cadence, the capture habit. Outcomes still matter - but the process is what I rerun when motivation dips.
 
 === progressive-summarization ===
-**Progressive Summarization** — don't rewrite whole notes - bold, then highlight, then summarize in passes when you reuse.
+**Progressive Summarization** - don't rewrite whole notes - bold, then highlight, then summarize in passes when you reuse.
 Layer one: bold the good sentences. Layer two: highlight the best bold. Layer three: summary at top - only when I reach for the note a second time. Distill on demand, not on save. Part of CODE's distill step.
 
 === rss-for-research ===
-**RSS for Research** — RSS is how I research without Twitter. Subscribe to blogs, clip to notes, ignore the rest.
+**RSS for Research** - RSS is how I research without Twitter. Subscribe to blogs, clip to notes, ignore the rest.
 Feed reader, not timeline. Blogs I trust, batch read, clip to [[Capture]] with context. Twitter was infinite noise dressed as research; RSS is appointment reading.
 
 === second-brain-daily-workflow ===
-**Second Brain Daily Workflow** — a Second Brain isn't only notes - it's how you move through the day. Here's the daily workflow I actually use: middle-click tabs, curated feeds, and faster learning loops.
+**Second Brain Daily Workflow** - a Second Brain isn't only notes - it's how you move through the day. Here's the daily workflow I actually use: middle-click tabs, curated feeds, and faster learning loops.
 Middle-click opens tabs I'll read later; feeds replace scroll holes; capture happens in the gaps. The wiki is the archive - the day is how stuff gets in. See [[The Second Brain Workflow]] for the full loop.
 
 === serendipitous-resurfacing ===
-**Serendipitous Resurfacing** — systems that resurface old notes beat systems that only search what you remember to search for.
+**Serendipitous Resurfacing** - systems that resurface old notes beat systems that only search what you remember to search for.
 Spaced review, backlink browsing, and "related notes" beats hoping I'll remember to search. Design for rediscovery; memory is unreliable storage. Ties to [[Digital Serendipity]] and [[Periodic Knowledge Review]].
 
 === signal-vs-noise ===
-**Signal vs Noise** — most content is noise. PKM fails if capture doesn't filter. I save signal - stuff that changes action or belief.
+**Signal vs Noise** - most content is noise. PKM fails if capture doesn't filter. I save signal - stuff that changes action or belief.
 The filter question: will this change what I do or believe this month? If not, admire it and move on. [[Capture]] without filtering becomes [[The Collector's Fallacy]].
 
 === slip-box-history ===
-**Slip-box History** — the slip-box (Zettelkasten) wasn't magic software - Luhmann's physical note cards and links. History helps separate myth from method.
+**Slip-box History** - the slip-box (Zettelkasten) wasn't magic software - Luhmann's physical note cards and links. History helps separate myth from method.
 Luhmann wrote thousands of cards and thousands of pages - the method was writing, not stationery. Software can help; it can't substitute. See [[The Zettelkasten Myth]] before buying another app.
 
 === slow-productivity ===
@@ -1146,7 +1146,7 @@ Luhmann wrote thousands of cards and thousands of pages - the method was writing
 Fewer active projects means notes become sermons and posts instead of guilt. Busy isn't depth. I'd rather finish three things than juggle twelve. Pairs with [[Process Over Outcomes]] and [[Creative Output]].
 
 === spaced-repetition-systems ===
-**Spaced Repetition Systems (SRS)** — SRS apps implement the algorithm; you implement the discipline. Here's how I fit an SRS beside my wiki without merging them.
+**Spaced Repetition Systems (SRS)** - SRS apps implement the algorithm; you implement the discipline. Here's how I fit an SRS beside my wiki without merging them.
 Anki for cards, wiki for ideas - separate lanes. Facts I need cold (language, definitions) get SRS; concepts live in linked notes. See [[Spaced Repetition]] for when the algorithm helps.
 
 === spaced-repetition ===
@@ -1154,63 +1154,63 @@ Anki for cards, wiki for ideas - separate lanes. Facts I need cold (language, de
 Vocabulary, definitions, scripture references - anything I'll be quizzed on or need instant recall for. Whole essays don't belong on flashcards. The wiki holds understanding; SRS holds drill.
 
 === synthesis-as-a-goal ===
-**Synthesis as a Goal** — collecting quotes isn't PKM. Synthesis is merging sources into what you believe and can defend.
+**Synthesis as a Goal** - collecting quotes isn't PKM. Synthesis is merging sources into what you believe and can defend.
 After reading, one note in my words: what I think now, what would change my mind. Quotes are evidence, not the product. Without synthesis, [[PKM]] is a bookmark graveyard.
 
 === the-12-week-year ===
-**The 12 Week Year** — twelve-week years compress annual goals into quarters you actually feel. I map wiki projects to 12-week arcs.
+**The 12 Week Year** - twelve-week years compress annual goals into quarters you actually feel. I map wiki projects to 12-week arcs.
 Twelve weeks is long enough to ship, short enough to feel urgent. Wiki project notes get a season tag; review at week twelve, archive or renew. Beats annual goals that die in February.
 
 === the-archive-method ===
-**The Archive Method** — archive isn't delete. It's moving finished work out of active PARA so today's projects breathe.
+**The Archive Method** - archive isn't delete. It's moving finished work out of active PARA so today's projects breathe.
 Done means out of Projects, into Archive - searchable, not deleted. Active lists stay short; finished work stops stealing attention. Core [[PARA Method]] hygiene.
 
 === the-collectors-fallacy ===
-**The Collector's Fallacy** — collecting articles feels like progress. It isn't. The collector's fallacy bit me until I tied saves to express deadlines.
+**The Collector's Fallacy** - collecting articles feels like progress. It isn't. The collector's fallacy bit me until I tied saves to express deadlines.
 I tied every save to a question: what will I make with this? No express action, no save - harsh, but the backlog shrank. Reading isn't learning until something leaves the notebook.
 
 === the-feynman-technique ===
-**The Feynman Technique** — explain like you're teaching a kid. Gaps in your explanation show gaps in understanding - perfect note feedback.
+**The Feynman Technique** - explain like you're teaching a kid. Gaps in your explanation show gaps in understanding - perfect note feedback.
 I explain the note aloud or in a blank doc - no paste from the source. Where I stumble, the note gets a gap marker and a rewrite pass. Teaching exposes what highlighting hid.
 
 === the-future-of-pkm ===
-**The Future of PKM** — AI, agents, new apps - PKM hype cycles spin. The future still looks like capture, connect, create, with better search.
+**The Future of PKM** - AI, agents, new apps - PKM hype cycles spin. The future still looks like capture, connect, create, with better search.
 Better search, agents that read my folders, sure - but capture, connect, create doesn't retire. New tools should shorten the loop, not replace thinking. Skepticism earns its keep every hype cycle.
 
 === the-garage-concept ===
-**The Garage Concept** — the garage holds tools, scraps, experiments. The showroom is the blog. Don't confuse the two.
+**The Garage Concept** - the garage holds tools, scraps, experiments. The showroom is the blog. Don't confuse the two.
 Notes garden is the garage: experiments, half-ideas, tools scattered on benches. The blog is the showroom - cleaned up, narrative, guest-ready. Mixing them makes both worse.
 
 === the-knowledge-lifecycle ===
-**The Knowledge Lifecycle** — Ideas have lifecycles: capture, active use, evergreen, decay, archive. PKM should match the stage.
+**The Knowledge Lifecycle** - Ideas have lifecycles: capture, active use, evergreen, decay, archive. PKM should match the stage.
 Not every note should be evergreen forever. Some decay honestly; some get archived; some get rewritten when the world shifts. Match effort to stage - see [[Evergreen vs Fleeting Notes]].
 
 === the-power-of-interconnectivity ===
-**The Power of Interconnectivity** — a note's value often lives in what it connects to. Interconnectivity turns files into a network you think inside.
+**The Power of Interconnectivity** - a note's value often lives in what it connects to. Interconnectivity turns files into a network you think inside.
 A note alone is a fact; a note in a graph is an argument. I ask on every edit: what should this link to that it doesn't yet? Density beats volume. See [[Associative Linking]].
 
 === the-second-brain-workflow ===
-**The Second Brain Workflow** — CODE and PARA in one loop: capture to inbox, organize by project, distill on use, express weekly.
+**The Second Brain Workflow** - CODE and PARA in one loop: capture to inbox, organize by project, distill on use, express weekly.
 Morning capture sweep, project filing when I touch a note, distill when I reuse, express before the week ends. Same loop whether the tool is TiddlyWiki or Hugo. See [[Second Brain Daily Workflow]] for the day-scale version.
 
 === the-trusted-inbox ===
-**The Trusted Inbox** — If you don't trust your inbox, you'll capture in your head instead. One pipe, weekly empty, no exceptions.
+**The Trusted Inbox** - If you don't trust your inbox, you'll capture in your head instead. One pipe, weekly empty, no exceptions.
 Weekly process, no exceptions - even if it's twenty minutes. Trust is behavioral: if items disappear or rot, I'll stop using the pipe. One inbox, one owner, one rhythm.
 
 === the-zettelkasten-myth ===
-**The Zettelkasten Myth** — luhmann's output wasn't copy-paste from buying the right notebook. The Zettelkasten myth oversells tools and undersells writing.
+**The Zettelkasten Myth** - luhmann's output wasn't copy-paste from buying the right notebook. The Zettelkasten myth oversells tools and undersells writing.
 The notebook didn't write the books; Luhmann did. Tools lower friction; they don't replace sentences. Buy plain text and a linking habit before another productivity pilgrimage.
 
 === there-is-no-perfect-solution ===
-**There Is No Perfect Solution** — waiting for the perfect tool, plan, or answer feels responsible. It's often the nirvana fallacy. Here's why I choose good-enough tradeoffs on purpose.
+**There Is No Perfect Solution** - waiting for the perfect tool, plan, or answer feels responsible. It's often the nirvana fallacy. Here's why I choose good-enough tradeoffs on purpose.
 Good enough today beats optimal someday. I pick tools I can export, workflows I can repeat tired, tradeoffs I can name. Perfectionism dressed as research is still procrastination.
 
 === visual-thinking ===
-**Visual Thinking** — some thoughts need boxes and arrows before words. Visual thinking in PKM means diagrams beside Markdown.
+**Visual Thinking** - some thoughts need boxes and arrows before words. Visual thinking in PKM means diagrams beside Markdown.
 Sketch the system before prose piles up. Boxes, arrows, ugly diagrams in the note - Excalidraw embeds fine. Complements [[Mind Mapping]]; both feed atomic notes after the picture clears.
 
 === weekly-review-checklists ===
-**Weekly Review Checklists** — my weekly review is a checklist - inbox, calendar, projects, one express action. Boring on purpose.
+**Weekly Review Checklists** - my weekly review is a checklist - inbox, calendar, projects, one express action. Boring on purpose.
 Same list every Friday: empty inbox, scan calendar, review projects, one ship action. Boring is the feature - novelty in reviews means I'm reinventing the wheel. GTD's maintain phase, sized for a real week.
 
 === zettelkasten ===
@@ -1238,11 +1238,11 @@ The script will also update frontmatter descriptions and replace em dashes and "
 
 Leads will be rewritten as punchy one-claim first-person statements. A VOICE_LEADS dictionary will store the new text. Frontmatter descriptions and em dashes will be fixed globally. Special files like _index, graph, maps-of-content, getting-started, and atomic-notes will be skipped.
 
-Getting-started will keep its instructional tone but gain more JoRap flavor. The script will use LEAD_REWRITES and DESC_REWRITES dictionaries mapped to every note stem. Em dashes will be stripped from note bodies while preserving — in see also tag lists.
+Getting-started will keep its instructional tone but gain more JoRap flavor. The script will use LEAD_REWRITES and DESC_REWRITES dictionaries mapped to every note stem. Em dashes will be stripped from note bodies while preserving - in see also tag lists.
 
 Em dashes in see also tag lists will become hyphens. The enrich script’s DESC_OVERRIDES will also be cleaned up. Notes with already-good leads will be skipped or only slightly revised.
 
-Drafting specific lead rewrites for individual notes. Active-knowledge-curation will use a first-person claim about revisiting and pruning links monthly. Advantages-of-digital-gardens will contrast messy linked gardens with polished essays. Analog-capture-tools will drop the **Title** — prefix while keeping its existing first-person voice. Anti-fragile-systems will open with a concrete claim about fragile systems breaking when apps shut down.
+Drafting specific lead rewrites for individual notes. Active-knowledge-curation will use a first-person claim about revisiting and pruning links monthly. Advantages-of-digital-gardens will contrast messy linked gardens with polished essays. Analog-capture-tools will drop the **Title** - prefix while keeping its existing first-person voice. Anti-fragile-systems will open with a concrete claim about fragile systems breaking when apps shut down.
 
 Anti-fragile-systems will close with a claim about plain-file workflows built around tested exports. Associative-linking will open with a contrast between folders and links. Atomic-design-for-notes will borrow Brad Frost’s atomic design for UI and apply it to notes. Building-a-personal-api will describe a personal API based on consistent frontmatter and folder shapes.
 
@@ -1271,27 +1271,27 @@ cd /Users/jonathanrapusas/Documents/GitHub/jorap.com && for f in content/english
 [[PARA Method]] answers "where does this live for my life right now?" Topics answer "what is this about?" I need both, but life responsibility wins when I'm rushed.
 
 === newsletter-filtering.md ===
-**Newsletter Filtering** — newsletters are RSS with delivery guilt. I filter them to a label, batch read weekly, clip what resonates.
+**Newsletter Filtering** - newsletters are RSS with delivery guilt. I filter them to a label, batch read weekly, clip what resonates.
 Gmail label, weekly batch, clip only what changes a project or belief. Same diet rules as [[RSS for Research]] - subscribe generously, process ruthlessly.
 
 === note-taking-for-researchers.md ===
-**Note-Taking for Researchers** — researchers drown in PDF highlights. I borrow lit-review habits: source notes, synthesis notes, never merge the two.
+**Note-Taking for Researchers** - researchers drown in PDF highlights. I borrow lit-review habits: source notes, synthesis notes, never merge the two.
 Literature notes stay close to the source; permanent notes are my words only. Never highlight into a synthesis note without rewriting. Classic [[Zettelkasten]] hygiene that survives outside academia.
 
 === interstitial-journaling.md ===
-**Interstitial Journaling** — between meetings and deep work, I jot what just happened and what's next. Interstitial journaling clears the buffer.
+**Interstitial Journaling** - between meetings and deep work, I jot what just happened and what's next. Interstitial journaling clears the buffer.
 Thirty seconds between tasks: what happened, what's next, what's stuck in RAM. Clears the mental tab bar before deep work. Often feeds [[Capture]] or stays in [[Daily Notes]] until Friday.
 
 === gtd-vs-para.md ===
-**GTD vs PARA** — GTD runs my tasks. PARA runs my notes. They're cousins, not competitors - here's how I use both without doubling admin.
+**GTD vs PARA** - GTD runs my tasks. PARA runs my notes. They're cousins, not competitors - here's how I use both without doubling admin.
 Tasks live in the task app with contexts and next actions. Reference and project material lives in [[PARA Method]] buckets. Overlap is fine; duplicate filing is the tax I refuse to pay.
 
 === graph-view-analytics.md ===
-**Graph View Analytics** — graph view looks sci-fi. Mostly I use it to find orphans, hubs, and notes I forgot to link.
+**Graph View Analytics** - graph view looks sci-fi. Mostly I use it to find orphans, hubs, and notes I forgot to link.
 Orphans mean missing links; hubs mean overloaded notes that should split. I don't worship the pretty picture - I fix what it accuses. See [[The Power of Interconnectivity]].
 
 === first-principles-thinking.md ===
-**First Principles Thinking** — when a note is just a quote from someone smarter, I add a section: what do I actually believe from scratch.
+**First Principles Thinking** - when a note is just a quote from someone smarter, I add a section: what do I actually believe from scratch.
 I add a short "from scratch" block: assumptions, what would have to be true, what I'd bet on. Quotes stay attributed; my claim sits beside them. Pairs with [[Mental Models List]] and [[Synthesis as a Goal]].
 
 === evergreen-notes.md ===
@@ -1301,7 +1301,7 @@ Write in complete sentences you'd still stand behind in two years. Revise when t
 === getting-started.md ===
 The notes garden is **public** at [/notes/](/notes/). Set &#96;draft: false&#96; to publish a note; &#96;draft: true&#96; keeps it hidden until you're ready.
 ## Atomic rule
-One note = **one claim** you'd cite in conversation. No &#96;##&#96; sections, no "bottom line" — link out to other notes instead. See [[Atomic Notes]].
+One note = **one claim** you'd cite in conversation. No &#96;##&#96; sections, no "bottom line" - link out to other notes instead. See [[Atomic Notes]].
 ## Create a note
 
 === maps-of-content.md ===
@@ -1311,7 +1311,7 @@ One note = **one claim** you'd cite in conversation. No &#96;##&#96; sections, n
 - [[PKM]]
 
 === _index.md ===
-A personal note garden of **atomic notes** — one claim per page, linked with &#96;[[wikilinks]]&#96;. Start at [[Getting Started]] or [[Maps of Content]].
+A personal note garden of **atomic notes** - one claim per page, linked with &#96;[[wikilinks]]&#96;. Start at [[Getting Started]] or [[Maps of Content]].
 
 
 ```
@@ -1611,7 +1611,7 @@ Parameters:
   "caseInsensitive": false,
   "glob": "*.md",
   "path": "/Users/jonathanrapusas/Documents/GitHub/jorap.com/content/english/notes",
-  "pattern": "—"
+  "pattern": "-"
 }
 ```
 Additional data:
@@ -1621,7 +1621,7 @@ Additional data:
   "isPruned": true,
   "outputMode": "content",
   "path": "/Users/jonathanrapusas/Documents/GitHub/jorap.com/content/english/notes",
-  "pattern": "—",
+  "pattern": "-",
   "topFiles": [
     {
       "matchCount": 1,
@@ -1657,7 +1657,7 @@ Parameters:
   "caseInsensitive": false,
   "glob": "*.md",
   "path": "/Users/jonathanrapusas/Documents/GitHub/jorap.com/content/english/notes",
-  "pattern": "\\*\\*[^*]+\\*\\* —"
+  "pattern": "\\*\\*[^*]+\\*\\* -"
 }
 ```
 Additional data:
@@ -1667,7 +1667,7 @@ Additional data:
   "isPruned": true,
   "outputMode": "content",
   "path": "/Users/jonathanrapusas/Documents/GitHub/jorap.com/content/english/notes",
-  "pattern": "\\*\\*[^*]+\\*\\* —",
+  "pattern": "\\*\\*[^*]+\\*\\* -",
   "topFiles": [],
   "totalFiles": 0,
   "totalMatches": 0
@@ -1908,7 +1908,7 @@ Parameters:
   "caseInsensitive": false,
   "glob": "*.md",
   "path": "/Users/jonathanrapusas/Documents/GitHub/jorap.com/content/english/notes",
-  "pattern": "—|\\b(you|your)\\b"
+  "pattern": "-|\\b(you|your)\\b"
 }
 ```
 Additional data:
@@ -1918,7 +1918,7 @@ Additional data:
   "isPruned": true,
   "outputMode": "content",
   "path": "/Users/jonathanrapusas/Documents/GitHub/jorap.com/content/english/notes",
-  "pattern": "—|\\b(you|your)\\b",
+  "pattern": "-|\\b(you|your)\\b",
   "topFiles": [],
   "totalFiles": 0,
   "totalMatches": 0
@@ -2148,21 +2148,21 @@ _**Agent (auto-low)**_
 All **74 notes** in `content/english/notes/` now follow JoRap voice. Here's what changed:
 
 ### Main fixes
-1. **Removed dictionary-style openers** - Replaced `**Title** — definition...` leads with first-person claims (e.g. `building-a-second-brain.md` now opens with "My brain is for having ideas..." instead of the Tiago Forte quote in third person).
+1. **Removed dictionary-style openers** - Replaced `**Title** - definition...` leads with first-person claims (e.g. `building-a-second-brain.md` now opens with "My brain is for having ideas..." instead of the Tiago Forte quote in third person).
 2. **Shifted to "I" voice** - Swapped impersonal "you/your" in bodies and descriptions for "I/my" where it read like a help article (`pkm.md`, `progressive-summarization.md`, `the-trusted-inbox.md`, etc.).
-3. **Removed em dashes** - Replaced `—` with hyphens across all note content per your style guide.
+3. **Removed em dashes** - Replaced `-` with hyphens across all note content per your style guide.
 4. **Tightened meta pages** - `getting-started.md`, `_index.md`, `maps-of-content.md`, and `graph.md` now sound like you wrote them, not a README.
 
 ### Examples
 
 **Before** (`progressive-summarization.md`):
-> **Progressive Summarization** — don't rewrite whole notes...
+> **Progressive Summarization** - don't rewrite whole notes...
 
 **After**:
 > I don't rewrite whole notes when I distill - bold, then highlight, then summarize when I actually reuse the note.
 
 **Before** (`building-a-second-brain.md`):
-> **Building a Second Brain** — your brain is for having ideas...
+> **Building a Second Brain** - your brain is for having ideas...
 
 **After**:
 > My brain is for having ideas, not storing them. A Second Brain holds them - starting with [[Capture]].

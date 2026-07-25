@@ -82,11 +82,11 @@ cards:
     back: "Bless neighbor - don't baptize the rage."
   - front: "Candidate lost and dread hit like God's plan failed. What's ultimate?"
     back: "Christ reigns - Rome wasn't Lord either."
-  - front: "Skipping civic duty because I'm kingdom-first. What did Jesus model?"
+  - front: "Skipping civic duty because I'm kingdom-first - duty feels like betrayal."
     back: "Pay lawful duty - kingdom higher, still pay."
   - front: "News scroll feels like emergency prayer should wait. Filter?"
     back: "Signal vs noise - kingdom first, not every headline."
-  - front: "Church friend says vote their way or you're not faithful. One sentence?"
+  - front: "Church friend says my ballot proves faithfulness. One sentence back?"
     back: "Ultimate allegiance is Christ - not my ballot."
 draft: false
 ---

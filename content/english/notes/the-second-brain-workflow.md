@@ -51,6 +51,10 @@ cards:
     back: "One jar - Sunday sort and file."
   - front: "School slips in the bowl and Sunday review's in an hour."
     back: "Sort, trash, pick one action."
+  - front: "Captures in three apps Friday night - Sunday review in hours."
+    back: "One jar - sort, trash, ship one."
+  - front: "Post-game notes still in pocket - review tomorrow morning."
+    back: "Inbox dump - pick one action."
 draft: false
 ---
 

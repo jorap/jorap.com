@@ -1,5 +1,5 @@
 {{/*
-  components/blog-card — Renders a single blog card.
+  components/blog-card - Renders a single blog card.
 
   Accepts either:
     - A Page directly: {{ partial "components/blog-card" . }}
@@ -29,7 +29,7 @@
 {{- $headingTag := printf "h%d" $headingLevel -}}
 {{/*
   Go's html/template (which Hugo uses) auto-escapes dynamic HTML tag
-  names — writing `<{{ $headingTag }}>` literally renders as `&lt;h2&gt;`
+  names - writing `<{{ $headingTag }}>` literally renders as `&lt;h2&gt;`
   text on the page. Build the open/close tags as strings and pipe them
   through `safeHTML` so they render as real elements.
 */}}

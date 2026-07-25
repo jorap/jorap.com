@@ -26,12 +26,12 @@ cards:
 featured: false
 draft: true
 key_concept: |
-  One sentence — the angle, not a second definition.
+  One sentence - the angle, not a second definition.
 
   Optional second paragraph with stakes, distinctions, [[wikilinks]].
 examples:
-  - "Mid-action scene where this principle fires — not a definition restated."
-  - "Second scene from a different field — jeepney, clinic, inbox, bedtime."
+  - "Mid-action scene where this principle fires - not a definition restated."
+  - "Second scene from a different field - jeepney, clinic, inbox, bedtime."
 relationships:
   - type: extends
     wikilink: "[[Related Note]]"

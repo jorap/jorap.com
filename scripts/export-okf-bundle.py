@@ -224,7 +224,7 @@ def write_root_index(records: list[NoteRecord], out_dir: Path) -> None:
         "",
         "# JoRap Notes",
         "",
-        "OKF export of the JoRap notes garden — atomic concepts and hub indexes.",
+        "OKF export of the JoRap notes garden - atomic concepts and hub indexes.",
         "",
         "# Concepts",
         "",

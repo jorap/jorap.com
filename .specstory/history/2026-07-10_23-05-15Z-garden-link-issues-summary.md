@@ -1053,7 +1053,7 @@ The exact prose changes are now set. Follow Christ, Then Lead will read `[[Disci
 
 _**Agent (auto-low)**_
 
-Wrong wikilink titles are the main issue — I'll correct them to match the actual note titles and add the missing body links.
+Wrong wikilink titles are the main issue - I'll correct them to match the actual note titles and add the missing body links.
 
 
 _**Agent (auto-low)**_
@@ -1316,17 +1316,17 @@ _**Agent (auto-low)**_
 
 All 15 garden link issues are fixed. Root cause: wikilink titles didn't match the actual note titles.
 
-**Wrong relationship targets** (5 notes) — `[[Develop, Do not Endanger]]` → `[[Develop, Don't Endanger]]` in:
+**Wrong relationship targets** (5 notes) - `[[Develop, Do not Endanger]]` → `[[Develop, Don't Endanger]]` in:
 - Accept the Starting Line
 - Sustainable Performance
 - Safety by Design
 - Servant Leadership
 
-**Renewed Mind** — `[[Do not Copy the Pattern]]` → `[[Don't Copy the Pattern]]` (also clears the "do not conform" alias mention once the note is linked)
+**Renewed Mind** - `[[Do not Copy the Pattern]]` → `[[Don't Copy the Pattern]]` (also clears the "do not conform" alias mention once the note is linked)
 
-**Unlinked mentions** — added wikilinks in key concept prose:
+**Unlinked mentions** - added wikilinks in key concept prose:
 - Follow Christ, Then Lead: `[[Discipleship]] vs [[Leadership]]`
 - Ethical Leadership: `[[Integrity]]`
 - God Centered Design: `[[Don't Copy the Pattern]]` in the Renewed Mind relationship reason
 
-`npm run lint:notes` is clean — no broken wikilinks or unlinked mentions.
+`npm run lint:notes` is clean - no broken wikilinks or unlinked mentions.

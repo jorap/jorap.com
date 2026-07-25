@@ -153,4 +153,4 @@ The parking lot story already sets up the weekly cleanup ritual well. The fix is
 
 _**Agent (auto-low)**_
 
-Updated `why-keep-desktop-laptop.md` — swapped "negotiating with iCloud every week" for "that weekly cleanup ritual," which ties back to the parking-lot screenshot story and matches your external-drive setup instead.
+Updated `why-keep-desktop-laptop.md` - swapped "negotiating with iCloud every week" for "that weekly cleanup ritual," which ties back to the parking-lot screenshot story and matches your external-drive setup instead.

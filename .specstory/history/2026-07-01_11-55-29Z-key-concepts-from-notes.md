@@ -261,7 +261,7 @@ I found 214 note files. I will compile a complete list and extract the key conce
 
 _**Agent (auto-low)**_
 
-214 notes — checking frontmatter structure and whether summaries or descriptions already exist.
+214 notes - checking frontmatter structure and whether summaries or descriptions already exist.
 
 
 _**Agent (auto-low)**_
@@ -940,7 +940,7 @@ The full context is now clear.
 
 _**Agent (auto-low)**_
 
-**Notes garden review** — 211 atomic notes (excluding `_index`, `create`, `issues`). Every note has a `description` in frontmatter that states its key concept; most also open with a bold `**Term** =` definition in the body.
+**Notes garden review** - 211 atomic notes (excluding `_index`, `create`, `issues`). Every note has a `description` in frontmatter that states its key concept; most also open with a bold `**Term** =` definition in the body.
 
 ---
 
@@ -949,7 +949,7 @@ _**Agent (auto-low)**_
 | Layer | Hub notes | Role |
 |-------|-----------|------|
 | **PKM** | [[Getting Started]], [[Maps of Content]], [[PKM]] | How the garden works |
-| **Faith** | [[Eternal Principles]], [[Free Grace]] | Gospel spine — faith saves first; principles follow |
+| **Faith** | [[Eternal Principles]], [[Free Grace]] | Gospel spine - faith saves first; principles follow |
 | **Work** | [[Workplace Principles]] | Same ethics, office language |
 | **Tools** | [[Graph]], [[Review]], [[Random Duo]] | Navigation, spaced review, serendipity |
 
@@ -962,12 +962,12 @@ _**Agent (auto-low)**_
 | Note | Key concept |
 |------|-------------|
 | **PKM** | How you save, organize, and use what you learn |
-| **Building a Second Brain** | Brain for ideas, system for storage — starts with capture |
+| **Building a Second Brain** | Brain for ideas, system for storage - starts with capture |
 | **Atomic Notes** | One idea per note you'd cite in conversation |
 | **Getting Started** | One claim per page, wikilinks, public graph |
 | **Maps of Content** | Hand-written index of notes on a topic |
 | **The Garage Concept** | Garden = garage; blog = showroom |
-| **Digital Garden** | Public linked notes — imperfect, alive |
+| **Digital Garden** | Public linked notes - imperfect, alive |
 | **Note Relationships** | Four pair types: extends, contradicts, implements, alternative |
 
 ---
@@ -984,7 +984,7 @@ _**Agent (auto-low)**_
 | **Signal vs Noise** | Save only what changes what you do or believe this month |
 | **Share Sheet** | Phone menu that sends links into another app |
 | **Voice Memos** | Capture by speaking when hands or eyes are busy |
-| **Read Later Queue** | Parking lot for links — dangerous if it becomes a graveyard |
+| **Read Later Queue** | Parking lot for links - dangerous if it becomes a graveyard |
 | **The Collector's Fallacy** | Collecting feels like progress; tie saves to express deadlines |
 
 ---
@@ -994,11 +994,11 @@ _**Agent (auto-low)**_
 | Note | Key concept |
 |------|-------------|
 | **PARA Method** | Sort notes by life responsibility; archive when done |
-| **GTD vs PARA** | GTD runs tasks; PARA runs notes — cousins, not competitors |
+| **GTD vs PARA** | GTD runs tasks; PARA runs notes - cousins, not competitors |
 | **Getting Things Done** | Capture-clarify-organize; inbox first, trusted lists |
 | **Metadata Strategy** | Tags and dates should help you find notes, not become a second job |
 | **Daily Notes** | Scratch pad for the day; fleeting by default |
-| **Taxonomy** | Classification scheme — folders, tags, types |
+| **Taxonomy** | Classification scheme - folders, tags, types |
 | **Inbox Zero** | Process inbox to empty regularly; decide each item |
 
 ---
@@ -1014,12 +1014,12 @@ _**Agent (auto-low)**_
 | **Evergreen vs Fleeting Notes** | Fleeting catches sparks; evergreen holds truth |
 | **Layered Reading** | Skim → highlight → summarize on repeat passes |
 | **Literature Notes** | Notes about a source in your own words |
-| **The Feynman Technique** | Explain like teaching — gaps show where understanding is thin |
+| **The Feynman Technique** | Explain like teaching - gaps show where understanding is thin |
 | **First Principles Thinking** | When a note is only a quote, add what you actually believe |
 | **Synthesis as a Goal** | Merge sources into what you believe and can defend |
 | **The Knowledge Lifecycle** | Capture → use → polish → fade → archive |
 | **Flashcards** | Habit prompts from opt-in notes; export to Anki |
-| **Spaced Repetition** | Review before you forget — for facts, not whole wiki pages |
+| **Spaced Repetition** | Review before you forget - for facts, not whole wiki pages |
 | **Forgetting Curve** | Memory fades fast without review |
 | **Review** | Quiz habit spine cards in the browser |
 
@@ -1034,7 +1034,7 @@ _**Agent (auto-low)**_
 | **Graph View Analytics** | Find orphans, over-linked hubs, missing connections |
 | **Backlinks** | Who points here, with snippets |
 | **Digital Serendipity** | System where old notes surprise you at the right time |
-| **Mind Mapping** | Messy first pass — turn into atomic notes after |
+| **Mind Mapping** | Messy first pass - turn into atomic notes after |
 | **Tony Buzan** | Name people cite for radiant mind mapping |
 | **Network Analysis** | Study hubs and isolation in the link graph |
 | **Random Duo** | Two random notes side by side for resurfacing |
@@ -1066,10 +1066,10 @@ _**Agent (auto-low)**_
 | **Digital Minimalism** | Fewer apps; PKM improved when tool-collecting stopped |
 | **Building a Personal API** | Structured context for future you and your tools |
 | **CRDT** | Merge edits without a central lock |
-| **Webhooks** | HTTP callbacks — push events instead of polling |
+| **Webhooks** | HTTP callbacks - push events instead of polling |
 | **OKF Export** | Plain markdown export for agents outside Hugo |
 | **Maintenance Window** | Scheduled time to prune, fix links, archive |
-| **Commonplace Book** | Ancestor of linked notes — quotes and ideas worth keeping |
+| **Commonplace Book** | Ancestor of linked notes - quotes and ideas worth keeping |
 
 ---
 
@@ -1079,17 +1079,17 @@ _**Agent (auto-low)**_
 |------|-------------|
 | **Mental Models** | Decision and performance lenses you keep when they earn repeat use |
 | **Second-Order Thinking** | What happens after the first consequence |
-| **Systems Thinking** | Trace inputs, delays, feedback — change the process |
-| **Behavioral Economics** | How people actually decide — biases, framing, sunk costs |
+| **Systems Thinking** | Trace inputs, delays, feedback - change the process |
+| **Behavioral Economics** | How people actually decide - biases, framing, sunk costs |
 | **Sunk Cost Fallacy** | Forward-only question: would I start this today? |
 | **Pareto Principle** | Most results from a small slice of work |
 | **Reversibility** | Prefer choices you can undo |
 | **There Is No Perfect Solution** | Real choices have tradeoffs; pick what works tired |
-| **Expect the Counter** | Every winning strategy meets resistance — plan past move one |
+| **Expect the Counter** | Every winning strategy meets resistance - plan past move one |
 | **Strategic Foresight** | Look past the immediate move to six months out |
 | **Attention Economy** | Platforms compete for your focus |
 | **Information Diet** | Choose what you consume on purpose |
-| **Elon Musk** | Shorthand for first-principles reinvention — not gospel |
+| **Elon Musk** | Shorthand for first-principles reinvention - not gospel |
 
 ---
 
@@ -1097,7 +1097,7 @@ _**Agent (auto-low)**_
 
 | Note | Key concept |
 |------|-------------|
-| **Systems for Growth** | Habits, feedback, review loops — not one heroic week |
+| **Systems for Growth** | Habits, feedback, review loops - not one heroic week |
 | **Habit Formation** | Practice until it runs without a daily decision |
 | **Habit Stacking** | Attach new move to an autopilot habit |
 | **Minimum Effective Dose** | Smallest effort that still gets the result |
@@ -1108,7 +1108,7 @@ _**Agent (auto-low)**_
 | **Discipline** | Keep the commitment when the feeling is gone |
 | **Execution** | Gap between deciding and delivered |
 | **Follow-Through** | Everything after you said yes |
-| **Complete the Cycle** | Close the loop — follow-up, execution, correction |
+| **Complete the Cycle** | Close the loop - follow-up, execution, correction |
 | **Finish Strong** | Done when the final commitment is completed |
 | **Accountability** | Name who owns the result and what happens when it slips |
 | **Reliability** | Do what you said often enough that others can plan around you |
@@ -1116,7 +1116,7 @@ _**Agent (auto-low)**_
 | **Versatility** | Stay useful across roles, tools, contexts |
 | **Stay Effective in New Conditions** | Real skill means staying useful when conditions shift |
 | **Resilience** | Absorb setback without quitting or becoming useless |
-| **Recovery** | Sleep and rest refill judgment — maintenance, not laziness |
+| **Recovery** | Sleep and rest refill judgment - maintenance, not laziness |
 | **Energy Protects Judgment** | Fatigue breaks patience, attention, restraint |
 | **Sustainable Performance** | Output you can keep without burning out |
 | **Continuous Improvement** | Steady small upgrades, not one heroic overhaul |
@@ -1124,7 +1124,7 @@ _**Agent (auto-low)**_
 | **Convert Pain Into Learning** | Failure helps only when it changes the next attempt |
 | **Decision Quality** | How often choices hold up after time and energy |
 | **The 12 Week Year** | Compress annual goals into quarters you actually feel |
-| **Quarterly Planning** | Thirteen-week rhythm — short enough to feel real |
+| **Quarterly Planning** | Thirteen-week rhythm - short enough to feel real |
 | **Priorities Before the Inbox** | Open the real priority before Slack sets the agenda |
 | **Low Hanging Fruit** | Easy win now before climbing for hard stuff |
 | **Lean Startup** | Smallest test, measure, learn |
@@ -1140,14 +1140,14 @@ _**Agent (auto-low)**_
 | **Emotional Regulation** | Notice the spike without letting it drive the next move |
 | **Slow the Moment** | Mental space before reacting under pressure |
 | **Control the Rhythm** | Person who controls pace often controls the situation |
-| **Situational Control** | Use available levers — pace, venue, agenda, boundaries |
+| **Situational Control** | Use available levers - pace, venue, agenda, boundaries |
 | **Self-Control** | Harder right thing when easy wrong thing is right there |
-| **Create Regular Connection** | One simple habit repeated — trust in boring reps |
+| **Create Regular Connection** | One simple habit repeated - trust in boring reps |
 | **Follow Their Lead** | Join their world before you redirect it |
 | **Listen Before Fixing** | Let people finish before advice or correction |
 | **Name the Feeling** | Say what emotion you hear before what should happen |
 | **Notice the Good** | Name the specific helpful thing, not vague praise |
-| **Set Calm Boundaries** | One clear limit in a steady voice — behavior, not character |
+| **Set Calm Boundaries** | One clear limit in a steady voice - behavior, not character |
 | **Build a Reliable Default** | Under pressure you fall back on what's most practiced |
 
 ---
@@ -1164,7 +1164,7 @@ _**Agent (auto-low)**_
 | **Heed Every Near-Miss** | Rescue means the system almost failed |
 | **Normalization of Deviance** | Close calls slowly redefine normal until disaster |
 | **Life Before Achievement** | No goal justifies avoidable risk of death |
-| **Duty of Care** | Reasonable protection — not zero risk, not reckless harm |
+| **Duty of Care** | Reasonable protection - not zero risk, not reckless harm |
 | **Risk Management** | Name what can go wrong; choose controls by strength |
 | **Incident Investigation** | Find system causes, not only who to blame |
 | **Preparedness** | Practice and document moves before full-speed need |
@@ -1199,59 +1199,59 @@ _**Agent (auto-low)**_
 
 ---
 
-## Faith — theological basis
+## Faith - theological basis
 
 | Note | Key concept |
 |------|-------------|
-| **Eternal Principles** | Jesus' unchanging teachings — faith saves first; these cover how to live after |
-| **Grace** | God's free favor — good you never earned, keeps giving after faith |
+| **Eternal Principles** | Jesus' unchanging teachings - faith saves first; these cover how to live after |
+| **Grace** | God's free favor - good you never earned, keeps giving after faith |
 | **Mercy** | Withholds punishment you deserve; show same to others |
-| **Free Grace** | Eternal life is gift through faith — not wages for works |
-| **Justification** | Declared righteous at faith alone — finished before good works pay off |
-| **Sanctification** | God makes you holy over time — grateful growth, not salvation's price |
+| **Free Grace** | Eternal life is gift through faith - not wages for works |
+| **Justification** | Declared righteous at faith alone - finished before good works pay off |
+| **Sanctification** | God makes you holy over time - grateful growth, not salvation's price |
 | **Faith and Works** | Faith alone saves; real faith produces obedience |
-| **Repent and Believe** | Kingdom entry point — turn and trust, not a works finish line |
+| **Repent and Believe** | Kingdom entry point - turn and trust, not a works finish line |
 | **Childlike Faith** | Trust without merit-calculating |
 | **Abide in Me** | Fruit from staying connected to Christ, not self-effort alone |
 
 ---
 
-## Faith — salvation & reward
+## Faith - salvation & reward
 
 | Note | Key concept |
 |------|-------------|
-| **Judgment Seat** | Works evaluated for reward — not re-deciding eternal life |
+| **Judgment Seat** | Works evaluated for reward - not re-deciding eternal life |
 | **Loss of Reward** | Worthless works burn; don't collapse crown with salvation |
 | **Standing vs Fellowship** | Standing settled at faith; fellowship restored by confession |
 | **Assurance** | Rest on Christ's promise, not this week's report card |
-| **Grateful Obedience** | Obey because grace already saved — not to qualify |
+| **Grateful Obedience** | Obey because grace already saved - not to qualify |
 | **Faithful Steward** | Faithfulness with what God entrusted earns "well done" |
 | **Wood Hay Stubble** | Some works survive evaluation; some burn |
-| **Eternal Rewards** | Father repays faithful obedience — distinct from receiving eternal life |
+| **Eternal Rewards** | Father repays faithful obedience - distinct from receiving eternal life |
 
 ---
 
-## Faith — commandments & ethics
+## Faith - commandments & ethics
 
 | Note | Key concept |
 |------|-------------|
-| **Love God** | First commandment — heart, soul, mind, strength |
-| **Love Your Neighbor** | Second command — as yourself, no loophole |
+| **Love God** | First commandment - heart, soul, mind, strength |
+| **Love Your Neighbor** | Second command - as yourself, no loophole |
 | **The Golden Rule** | Treat others the way you want to be treated |
 | **Love Your Enemies** | Bless persecutors; reflect Father's impartial grace |
-| **Forgiveness** | Receiving tied to extending — from the heart |
+| **Forgiveness** | Receiving tied to extending - from the heart |
 | **Reconciliation Before Worship** | Relationships before ritual |
-| **Peacemakers** | Actively make peace — children of God |
+| **Peacemakers** | Actively make peace - children of God |
 | **Turn the Other Cheek** | Non-retaliation; don't escalate the cycle |
 | **Let Your Yes Be Yes** | Plain truth without oath-padding |
 | **Judge Not** | Discern fruit; don't play God as judge |
 | **By Their Fruits** | Judge teaching by what it produces |
 | **Heart Righteousness** | Inner motive counts, not only outward acts |
-| **Fruits of the Spirit** | Nine traits the Spirit grows — not a merit checklist |
+| **Fruits of the Spirit** | Nine traits the Spirit grows - not a merit checklist |
 
 ---
 
-## Faith — prayer, priorities & character
+## Faith - prayer, priorities & character
 
 | Note | Key concept |
 |------|-------------|
@@ -1260,23 +1260,23 @@ _**Agent (auto-low)**_
 | **Seek the Kingdom First** | God's reign first; the rest follows |
 | **Don't Worry** | Trust provision; Father knows what you need |
 | **Treasure in Heaven** | Store what lasts, not what rusts |
-| **The Beatitudes** | Kingdom character — traits of kingdom people |
-| **Discipleship** | Learn from Jesus and do what He said — walk after faith |
+| **The Beatitudes** | Kingdom character - traits of kingdom people |
+| **Discipleship** | Learn from Jesus and do what He said - walk after faith |
 | **Humility and Service** | Greatness is serving, not being served |
 | **Let Your Light Shine** | Good works point to the Father, not you |
 | **Take Up Your Cross** | Daily self-denial as shape of discipleship |
-| **The Wise Builder** | Hear Jesus and do — not hear alone |
+| **The Wise Builder** | Hear Jesus and do - not hear alone |
 | **The Narrow Way** | Hard path leads to life; broad path to destruction |
 
 ---
 
-## Faith — church & world
+## Faith - church & world
 
 | Note | Key concept |
 |------|-------------|
-| **Christianity and Politics** | Earthly duty and Christ allegiance — worship off parties |
+| **Christianity and Politics** | Earthly duty and Christ allegiance - worship off parties |
 | **Render Unto Caesar** | Civic duty and ultimate allegiance stay distinct |
-| **Great Commission** | Make disciples of all nations — truth shared |
+| **Great Commission** | Make disciples of all nations - truth shared |
 
 ---
 
@@ -1286,7 +1286,7 @@ _**Agent (auto-low)**_
 |------|-------------|
 | **Selling Static Sites** | Hugo + GitHub + Cloudflare Pages until limits force upgrade |
 | **Free Tier Hosting Stack** | Hugo builds, GitHub stores, Cloudflare deploys on push |
-| **Static Site Client Scope** | Brochure/portfolio yes — carts, logins, no-Git CMS no |
+| **Static Site Client Scope** | Brochure/portfolio yes - carts, logins, no-Git CMS no |
 | **Git-Based CMS** | Web UI that still commits markdown to GitHub |
 | **Client Site Handoff** | Pick one publish path and say it plain before deposit |
 
@@ -1295,18 +1295,18 @@ _**Agent (auto-low)**_
 ## Quality check
 
 **Strengths**
-- All 211 notes have a `description` — no gaps
+- All 211 notes have a `description` - no gaps
 - Faith spine is well-linked ([[Eternal Principles]] cross-link table is thorough)
 - [[Grace]] and [[Mercy]] are distinct and wired to [[Free Grace]], [[Forgiveness]], [[Justification]]
 - Workplace cluster mirrors gospel sources cleanly
 
 **Thin spots (minor)**
-- A few tech notes (`CRDT`, `Webhooks`, `Tony Buzan`) are glossary-style — fine for reference notes
-- [[Mental Models]] is an index pointer, not a single claim — appropriate for its role
+- A few tech notes (`CRDT`, `Webhooks`, `Tony Buzan`) are glossary-style - fine for reference notes
+- [[Mental Models]] is an index pointer, not a single claim - appropriate for its role
 
 ---
 
-If you want this baked into the site — e.g. a `key_concept` frontmatter field, a master index page, or descriptions added to notes missing the bold `**Term** =` opener — say which format and I can implement it.
+If you want this baked into the site - e.g. a `key_concept` frontmatter field, a master index page, or descriptions added to notes missing the bold `**Term** =` opener - say which format and I can implement it.
 
 ---
 
@@ -1463,7 +1463,7 @@ The **definition** is the bold opening line in the note body:
 **Grace** = God's unmerited favor - He gives good I never earned, starting with salvation and continuing through the walk after (Ephesians 2:8-9; 2 Corinthians 12:9; Titus 2:11-12).
 ```
 
-Per [[Getting Started]], it is **one claim you can quote in one breath** — the atomic meaning of the term. It answers: *What is this?*
+Per [[Getting Started]], it is **one claim you can quote in one breath** - the atomic meaning of the term. It answers: *What is this?*
 
 - Lives in the **body**, not frontmatter  
 - Uses the `**Term** = …` pattern  
@@ -1472,7 +1472,7 @@ Per [[Getting Started]], it is **one claim you can quote in one breath** — the
 
 ## Key concept
 
-**Key concept** is not a formal field in your repo. I used it in the review to mean: **the one idea the note exists to teach** — what you should walk away remembering.
+**Key concept** is not a formal field in your repo. I used it in the review to mean: **the one idea the note exists to teach** - what you should walk away remembering.
 
 It answers: *Why does this note matter, and what distinction does it hold?*
 
@@ -1480,10 +1480,10 @@ That can be broader than a dictionary line:
 
 | Note | Definition (what it *is*) | Key concept (what the note *is for*) |
 |------|---------------------------|--------------------------------------|
-| **Grace** | Unmerited favor from God | Favor you never earned — and it keeps giving after faith, not because you qualified |
-| **Capture** | Save what resonates into one trusted inbox | PKM lives or dies here — one pipe, empty weekly |
+| **Grace** | Unmerited favor from God | Favor you never earned - and it keeps giving after faith, not because you qualified |
+| **Capture** | Save what resonates into one trusted inbox | PKM lives or dies here - one pipe, empty weekly |
 | **Eternal Principles** | Jesus’ teachings that don’t expire | Faith saves first; these notes are how you live *after* that |
-| **Mercy vs Grace** | Mercy withholds punishment; grace gives unearned good | Same rescue, two angles — don’t collapse them |
+| **Mercy vs Grace** | Mercy withholds punishment; grace gives unearned good | Same rescue, two angles - don’t collapse them |
 
 So: **definition = denotation**. **Key concept = purpose + stake + your take**.
 
@@ -1493,17 +1493,17 @@ So: **definition = denotation**. **Key concept = purpose + stake + your take**.
 |-------|------------------|-----|
 | **Definition** | Body line 1 (`**Term** = …`) | Canonical atomic claim |
 | **Key concept** (informal) | Often the `description` in frontmatter | SEO/social preview + the note’s angle |
-| **Examples** | `## Examples` | Principle firing in real life — *not* a restated definition |
-| **Flashcard backs** | `cards:` frontmatter | Immediate action — *not* a definition sentence |
+| **Examples** | `## Examples` | Principle firing in real life - *not* a restated definition |
+| **Flashcard backs** | `cards:` frontmatter | Immediate action - *not* a definition sentence |
 
 Your `description` fields often lean toward key concept (stakes, framing) while the body line stays definitional. Compare **Capture**:
 
 - **Description:** “Capture is where my PKM lives or dies…” → stakes  
-- **Definition:** “save what resonates into one inbox I trust — then empty it weekly” → what capture *is*
+- **Definition:** “save what resonates into one inbox I trust - then empty it weekly” → what capture *is*
 
 They should agree, but they don’t need identical wording. The definition names the thing; the key concept says why it matters in your system.
 
-If you want these separated formally, the smallest change would be keeping `description` as key concept (preview/angle) and treating the body `**Term** =` line as the only definition — which is already how [[Getting Started]] describes the garden. No new field required unless you want a third layer.
+If you want these separated formally, the smallest change would be keeping `description` as key concept (preview/angle) and treating the body `**Term** =` line as the only definition - which is already how [[Getting Started]] describes the garden. No new field required unless you want a third layer.
 
 ---
 
@@ -2084,7 +2084,7 @@ Expanding the change to note-relationships.md, archetypes/notes.md, assets/js/no
 
 _**Agent (auto-low)**_
 
-Yes — adding `## Key Concept` before `## Examples` fits the garden. Updating the convention docs, create-note prompt, and `synthesis-as-a-goal.md` as the example.
+Yes - adding `## Key Concept` before `## Examples` fits the garden. Updating the convention docs, create-note prompt, and `synthesis-as-a-goal.md` as the example.
 
 
 _**Agent (auto-low)**_
@@ -2147,7 +2147,7 @@ _**Agent (auto-low)**_
 Yes. The garden now has a formal three-layer body:
 
 ```
-**Term** = definition (one breath — what it is)
+**Term** = definition (one breath - what it is)
 
 ## Key Concept
 stakes, distinctions, wikilinks (why this note matters)
@@ -2159,27 +2159,27 @@ concrete scenes (principle firing in real life)
 required table
 ```
 
-**Definition** stays the opening line — quotable, no link dump. **Key Concept** is optional; use it when the definition alone isn't enough to carry the angle. **Examples** stay unchanged.
+**Definition** stays the opening line - quotable, no link dump. **Key Concept** is optional; use it when the definition alone isn't enough to carry the angle. **Examples** stay unchanged.
 
 Updated:
-- [[Getting Started]] — atomic rule
-- [[Note Relationships]] — structure spec
-- [[Atomic Notes]] — shape summary
-- `archetypes/notes.md` — new-note template
+- [[Getting Started]] - atomic rule
+- [[Note Relationships]] - structure spec
+- [[Atomic Notes]] - shape summary
+- `archetypes/notes.md` - new-note template
 - Create Note prompt (`assets/js/notes-creator.js`)
-- [[Synthesis as a Goal]] — live example of the split
+- [[Synthesis as a Goal]] - live example of the split
 
 On **Synthesis as a Goal** specifically:
 
 | Layer | Content |
 |-------|---------|
-| **Definition** | Merging sources into belief you can defend — not a quote collection |
+| **Definition** | Merging sources into belief you can defend - not a quote collection |
 | **Key Concept** | Collecting isn't PKM; synthesis is when learning starts |
 | **Examples** | Coach clips, recipe clippings, parenting articles |
 
-Existing notes don't need a mass migration — prose between the definition and `## Examples` still reads fine. New or edited notes can wrap that prose in `## Key Concept` when you touch them.
+Existing notes don't need a mass migration - prose between the definition and `## Examples` still reads fine. New or edited notes can wrap that prose in `## Key Concept` when you touch them.
 
-Want me to roll this through the faith spine notes ([[Grace]], [[Mercy]], [[Free Grace]], etc.) next? They all have a definition line plus a wikilink paragraph before examples — natural candidates.
+Want me to roll this through the faith spine notes ([[Grace]], [[Mercy]], [[Free Grace]], etc.) next? They all have a definition line plus a wikilink paragraph before examples - natural candidates.
 
 ---
 
@@ -2351,7 +2351,7 @@ PKM uses a descriptive line instead of a `=` definition, so its Key Concept must
 
 If no prose remains after the definition, the frontmatter description becomes the Key Concept. For notes with only one opening block and no second paragraph, the definition and key concept must be split intelligently. PKM’s definition line is being used directly as its Key Concept.
 
-The definition line is nearly identical to the description, so the Key Concept should instead capture the description’s unique angle—such as daily payoff versus hoarding or a link to getting started.
+The definition line is nearly identical to the description, so the Key Concept should instead capture the description’s unique angle-such as daily payoff versus hoarding or a link to getting started.
 </details></think>
 
 _**Agent (auto-low)**_
@@ -3374,7 +3374,7 @@ The script will be updated to fix duplicates by parsing Note Relationships and b
 
 Meta page support will be added. For each duplicate, key concepts will be built from Note Relationships chains. If the chain is too thin, the description's distinct portion after an em-dash will be used instead.
 
-A concrete example shows how PKM's relationships—extends Getting Started, contradicts Collector's Fallacy—combine into a key concept. The `improve_key_concept` function will parse the first extends and contradicts entries into a structured sentence. If no relationship table exists, the first bullet of the examples section will be parsed for a stake hint.
+A concrete example shows how PKM's relationships-extends Getting Started, contradicts Collector's Fallacy-combine into a key concept. The `improve_key_concept` function will parse the first extends and contradicts entries into a structured sentence. If no relationship table exists, the first bullet of the examples section will be parsed for a stake hint.
 </details></think>
 
 _**Agent (auto-low)**_
@@ -3902,7 +3902,7 @@ The atomic-notes file lacks a dedicated Key Concept section. That concept appear
 
 _**Agent (auto-low)**_
 
-Fixing `atomic-notes.md` — it references Key Concept inline but lacks the section.
+Fixing `atomic-notes.md` - it references Key Concept inline but lacks the section.
 
 
 _**Agent (auto-low)**_
@@ -4308,10 +4308,10 @@ Done. **211 notes** now have a `## Key Concept` section.
 
 Every note follows this body order:
 
-1. **Definition** — `**Term** = …` (one breath)
-2. **## Key Concept** — stakes, distinctions, wikilinks
-3. **## Examples** — when present
-4. **## Note Relationships** — required on atomic notes
+1. **Definition** - `**Term** = …` (one breath)
+2. **## Key Concept** - stakes, distinctions, wikilinks
+3. **## Examples** - when present
+4. **## Note Relationships** - required on atomic notes
 
 ## How content was sourced
 
@@ -4324,22 +4324,22 @@ Every note follows this body order:
 
 ## Examples
 
-**[[Capture]]** — definition stayed; friction/inbox prose → Key Concept
+**[[Capture]]** - definition stayed; friction/inbox prose → Key Concept
 
-**[[Grace]]** — mercy/grace distinctions and wikilink web → Key Concept
+**[[Grace]]** - mercy/grace distinctions and wikilink web → Key Concept
 
-**[[PKM]]** — was duplicating description; now:
+**[[PKM]]** - was duplicating description; now:
 > PKM is the plain name for the save-organize-use system getting started introduces ([[Getting Started]]). Tension with [[The Collector's Fallacy]] when building the system feels like progress without output.
 
-**[[Synthesis as a Goal]]** — already had the section from earlier
+**[[Synthesis as a Goal]]** - already had the section from earlier
 
 ## Also updated
 
-- [[Getting Started]] and [[Note Relationships]] — real sections (they only mentioned Key Concept inline before)
-- Create Note prompt and archetype — Key Concept is required
-- `scripts/add-key-concept-sections.py` — re-run with `--refresh-dupes` if dupes creep back in
+- [[Getting Started]] and [[Note Relationships]] - real sections (they only mentioned Key Concept inline before)
+- Create Note prompt and archetype - Key Concept is required
+- `scripts/add-key-concept-sections.py` - re-run with `--refresh-dupes` if dupes creep back in
 
-Glossary-style notes (Webhooks, Tony Buzan, CRDT) lean on graph context in Key Concept when they had no extra prose — thin but distinct from the definition line. Say if you want those rewritten by hand.
+Glossary-style notes (Webhooks, Tony Buzan, CRDT) lean on graph context in Key Concept when they had no extra prose - thin but distinct from the definition line. Say if you want those rewritten by hand.
 
 ---
 
@@ -4963,7 +4963,7 @@ The garden lint checker is incorrectly flagging `## Key Concept` as an extra sec
 
 _**Agent (auto-low)**_
 
-The issues linter still treats `## Key Concept` as an extra section — I'll find that check and allow it.
+The issues linter still treats `## Key Concept` as an extra section - I'll find that check and allow it.
 
 
 _**Agent (auto-low)**_
@@ -5751,4 +5751,4 @@ The issues linter hadn’t been updated when we added `## Key Concept`. It only 
 
 Also bumped the Hugo partial cache from `note-issues-v7` → `note-issues-v8` so the issues page and Copy Issues report pick up the change.
 
-After rebuild, those 199 “Extra section: ## Key Concept” warnings should clear. Copy Issues again from [/notes/issues/](https://jorap.com/notes/issues/) to confirm — you should see **0 structure issues** unless something else is wrong.
+After rebuild, those 199 “Extra section: ## Key Concept” warnings should clear. Copy Issues again from [/notes/issues/](https://jorap.com/notes/issues/) to confirm - you should see **0 structure issues** unless something else is wrong.

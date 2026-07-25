@@ -8,7 +8,7 @@ slug: themes-jorap-layouts-home-html
 ---
 # Design Critique: JoRap.com Homepage
 
-**Target:** `themes/jorap/layouts/home.html` (homepage — blog-list grid with home intro)
+**Target:** `themes/jorap/layouts/home.html` (homepage - blog-list grid with home intro)
 
 ---
 
@@ -26,20 +26,20 @@ slug: themes-jorap-layouts-home-html
 | 8 | Aesthetic and Minimalist Design | 2 | Visually calm skin, but 12 equal-weight cards create noise; chrome-heavy for sparse content |
 | 9 | Error Recovery | 3 | N/A for primary home task |
 | 10 | Help and Documentation | 2 | No onboarding, proof framing, or task-focused guidance for buyers |
-| **Total** | | **26/40** | **Acceptable** — significant improvements needed before the primary audience is happy |
+| **Total** | | **26/40** | **Acceptable** - significant improvements needed before the primary audience is happy |
 
 ---
 
 ## Anti-Patterns Verdict
 
-**Does this look AI-generated? Moderate yes — not catastrophic, but identifiable.**
+**Does this look AI-generated? Moderate yes - not catastrophic, but identifiable.**
 
 **LLM assessment:** No absolute-ban hits on the live homepage (no side-stripe accents, gradient text, glassmorphism, hero-metric blocks, uppercase section eyebrows, or `01/02/03` scaffolding). What does read as template/AI grammar:
 
-- **Identical card grid** — 12 copies of the same `blog-card` in a `md:col-6 lg:col-4` grid; icon + date + category + excerpt + outline button, repeated without curation. This is an explicit Impeccable absolute ban.
-- **Second-order lane slop** — warm paper body, Inter-only, charcoal accent, elevated cards on cream: competent "Quiet Study," but it sits in the saturated warm-neutral + editorial-restraint family flagged as 2026 default.
-- **HugoPlate blog-index DNA** — `home.html` renders only `blog-list`; banner/features/testimonials are commented ghosts. Restraint reads as unshipped template, not deliberate brand choice.
-- **Hierarchy slop** — the real `<h1>` is "Latest Blog Posts"; the identity `<h1>` in `home-intro.html` is commented out. The DOM says "blog archive," not "hire this person."
+- **Identical card grid** - 12 copies of the same `blog-card` in a `md:col-6 lg:col-4` grid; icon + date + category + excerpt + outline button, repeated without curation. This is an explicit Impeccable absolute ban.
+- **Second-order lane slop** - warm paper body, Inter-only, charcoal accent, elevated cards on cream: competent "Quiet Study," but it sits in the saturated warm-neutral + editorial-restraint family flagged as 2026 default.
+- **HugoPlate blog-index DNA** - `home.html` renders only `blog-list`; banner/features/testimonials are commented ghosts. Restraint reads as unshipped template, not deliberate brand choice.
+- **Hierarchy slop** - the real `<h1>` is "Latest Blog Posts"; the identity `<h1>` in `home-intro.html` is commented out. The DOM says "blog archive," not "hire this person."
 
 Not dev-bro or SaaS-hero slop. It's polite blog-theme slop wearing good tokens.
 
@@ -47,28 +47,28 @@ Not dev-bro or SaaS-hero slop. It's polite blog-theme slop wearing good tokens.
 
 **False positives (5 of 7):** `broken-image` hits in `image.html` and `style.html` are Hugo comments or template-bound `src`, not empty images at runtime. `design-system-font` on `self-hosted-fonts.html` flags dynamic Google Fonts URL for Inter, which IS documented in DESIGN.md. Spotify shortcode `12px` radius matches `rounded.xl` in DESIGN.md.
 
-**Browser visualization:** Skipped — no browser automation available in this session. No reliable user-visible overlay was produced.
+**Browser visualization:** Skipped - no browser automation available in this session. No reliable user-visible overlay was produced.
 
 ---
 
 ## Overall Impression
 
-The skin is disciplined — warm paper, charcoal ink, thoughtful blog-card engineering — but the homepage information architecture contradicts the product brief. A hiring manager lands on a tagline that promises judgment, then gets reframed by "Latest Blog Posts" and twelve undifferentiated cards mixing tennis trackers, recipes, and Hugo how-tos. The single biggest opportunity: **make the homepage answer "why hire JoRap?" in the first fold, then curate thinking — don't firehose the archive.**
+The skin is disciplined - warm paper, charcoal ink, thoughtful blog-card engineering - but the homepage information architecture contradicts the product brief. A hiring manager lands on a tagline that promises judgment, then gets reframed by "Latest Blog Posts" and twelve undifferentiated cards mixing tennis trackers, recipes, and Hugo how-tos. The single biggest opportunity: **make the homepage answer "why hire JoRap?" in the first fold, then curate thinking - don't firehose the archive.**
 
 ---
 
 ## What's Working
 
-1. **Committed token system** — `DESIGN.md` "Quiet Study" palette (warm paper, charcoal accent, semantic `surface/elevated/ink`) is intentional and dark-mode-aware; not random Tailwind defaults.
-2. **Subheading voice** — "Ideas, execution, and judgment, without the noise." matches Professional / idea-led / credible without performative nerd energy.
-3. **Blog card engineering** — LCP-aware eager first image, configurable heading level, `motion-reduce` on hovers, accessible read-more `aria-label`; real craft exists under the grid.
+1. **Committed token system** - `DESIGN.md` "Quiet Study" palette (warm paper, charcoal accent, semantic `surface/elevated/ink`) is intentional and dark-mode-aware; not random Tailwind defaults.
+2. **Subheading voice** - "Ideas, execution, and judgment, without the noise." matches Professional / idea-led / credible without performative nerd energy.
+3. **Blog card engineering** - LCP-aware eager first image, configurable heading level, `motion-reduce` on hovers, accessible read-more `aria-label`; real craft exists under the grid.
 
 ---
 
 ## Priority Issues
 
 ### [P0] Homepage IA serves readers, not buyers
-- **Why it matters:** PRODUCT.md primary user is a decision-maker evaluating fit for strategic/technical work. `home.html` renders only `blog-list` — the visit optimizes for blog subscribers, not client confidence.
+- **Why it matters:** PRODUCT.md primary user is a decision-maker evaluating fit for strategic/technical work. `home.html` renders only `blog-list` - the visit optimizes for blog subscribers, not client confidence.
 - **Fix:** Restore a purpose-built home fold (who you are, what you do, proof, one CTA) before or instead of a raw 12-post archive. Curate 3–4 posts max with editorial framing.
 - **Suggested command:** `/impeccable shape`
 
@@ -88,7 +88,7 @@ The skin is disciplined — warm paper, charcoal ink, thoughtful blog-card engin
 - **Suggested command:** `/impeccable clarify`
 
 ### [P2] No conversion path
-- **Why it matters:** `[navigation_button] enable = false` — Morgan has no obvious next step after a positive skim.
+- **Why it matters:** `[navigation_button] enable = false` - Morgan has no obvious next step after a positive skim.
 - **Fix:** Enable a restrained CTA ("Work with me" / "Get in touch") in header and home intro.
 - **Suggested command:** `/impeccable onboard`
 
@@ -105,15 +105,15 @@ The skin is disciplined — warm paper, charcoal ink, thoughtful blog-card engin
 
 **Casey (mobile):** Sticky header + utilities consume viewport. Twelve stacked equal-weight cards = long scroll before signal. Hamburger hides About.
 
-**Morgan (hiring manager, between meetings):** Tagline promises judgment; grid delivers recipe posts and gadget reviews. No case study, client outcome, or contact CTA in first fold — "interesting, not hireable yet."
+**Morgan (hiring manager, between meetings):** Tagline promises judgment; grid delivers recipe posts and gadget reviews. No case study, client outcome, or contact CTA in first fold - "interesting, not hireable yet."
 
 ---
 
 ## Minor Observations
 
-- `home_intro.lede` is empty — missed chance for one plain-language buyer sentence.
+- `home_intro.lede` is empty - missed chance for one plain-language buyer sentence.
 - Commented `banner.html` / `features.html` / `testimonials.html` suggest incomplete departure from Hugoplate marketing scaffold.
-- Footer social icons use solid `bg-accent` tiles — slightly louder than "restraint" north star, but consistent.
+- Footer social icons use solid `bg-accent` tiles - slightly louder than "restraint" north star, but consistent.
 - `mainSections = ["blog"]` reinforces blog-first mental model site-wide.
 - Inter-only hierarchy is disciplined and defensible per identity-preservation, even though Inter is reflex-reject for greenfield.
 
@@ -121,6 +121,6 @@ The skin is disciplined — warm paper, charcoal ink, thoughtful blog-card engin
 
 ## Questions to Consider
 
-1. If the homepage succeeded, would Morgan **contact you** or **subscribe to your thinking** — and which outcome does a 12-post reverse-chron grid actually optimize for?
+1. If the homepage succeeded, would Morgan **contact you** or **subscribe to your thinking** - and which outcome does a 12-post reverse-chron grid actually optimize for?
 2. Is commenting out banner/features/testimonials **editorial restraint**, or **absence of a point of view** that PRODUCT.md says must be visible in 90 seconds?
-3. Would you trust a strategist who curates nothing on their own front door — or does the firehose prove authenticity? For this register, curation is the product.
+3. Would you trust a strategist who curates nothing on their own front door - or does the firehose prove authenticity? For this register, curation is the product.

@@ -1244,7 +1244,7 @@ Result:
           },
           {
             "lineNumber": 64,
-            "text": "{{- $content = replaceRE &#96;\\[\\[([^\\]]+)\\|([^\\]]+)\\]\\]&#96; (printf &#96;\u003cspan class=\"%s-broken\" title=\"Pipe wikilinks are not supported — use [[Note Title]] only\"\u003e$1|$2\u003c/span\u003e&#96; $class) $content -}}"
+            "text": "{{- $content = replaceRE &#96;\\[\\[([^\\]]+)\\|([^\\]]+)\\]\\]&#96; (printf &#96;\u003cspan class=\"%s-broken\" title=\"Pipe wikilinks are not supported - use [[Note Title]] only\"\u003e$1|$2\u003c/span\u003e&#96; $class) $content -}}"
           },
           {
             "lineNumber": 65,
@@ -1750,7 +1750,7 @@ Result:
           },
           {
             "lineNumber": 67,
-            "text": "  {{- /* Headings are structure, not prose mentions — e.g. ## Note Relationships */ -}}"
+            "text": "  {{- /* Headings are structure, not prose mentions - e.g. ## Note Relationships */ -}}"
           },
           {
             "lineNumber": 68,
@@ -1982,7 +1982,7 @@ Result:
           },
           {
             "lineNumber": 22,
-            "text": "            wikilink \u003ccode\u003e[[{{ .target }}]]\u003c/code\u003e — no page matches this title, slug, or alias."
+            "text": "            wikilink \u003ccode\u003e[[{{ .target }}]]\u003c/code\u003e - no page matches this title, slug, or alias."
           },
           {
             "lineNumber": 23,
@@ -2006,7 +2006,7 @@ Result:
           },
           {
             "lineNumber": 28,
-            "text": "            \u003ccode\u003e[[{{ .raw }}]]\u003c/code\u003e — use \u003ccode\u003e[[{{ .target }}]]\u003c/code\u003e only (no \u003ccode\u003e|label\u003c/code\u003e)."
+            "text": "            \u003ccode\u003e[[{{ .raw }}]]\u003c/code\u003e - use \u003ccode\u003e[[{{ .target }}]]\u003c/code\u003e only (no \u003ccode\u003e|label\u003c/code\u003e)."
           },
           {
             "lineNumber": 29,
@@ -2030,7 +2030,7 @@ Result:
           },
           {
             "lineNumber": 34,
-            "text": "            \"{{ .mention }}\" in prose — link"
+            "text": "            \"{{ .mention }}\" in prose - link"
           },
           {
             "lineNumber": 35,
@@ -2151,7 +2151,7 @@ Result:
           },
           {
             "lineNumber": 20,
-            "text": "    {{- $msg := printf \"pipe wikilink [[%s]] in %s — use [[%s]] only\" .raw $note.File.Path .target -}}"
+            "text": "    {{- $msg := printf \"pipe wikilink [[%s]] in %s - use [[%s]] only\" .raw $note.File.Path .target -}}"
           },
           {
             "lineNumber": 21,
@@ -2242,11 +2242,11 @@ Result:
           },
           {
             "lineNumber": 4,
-            "text": "    byPath — map File.Path → { broken, pipe, unlinked, structure, total }"
+            "text": "    byPath - map File.Path → { broken, pipe, unlinked, structure, total }"
           },
           {
             "lineNumber": 5,
-            "text": "    notes — slice of { Page, broken, pipe, unlinked, structure, total }"
+            "text": "    notes - slice of { Page, broken, pipe, unlinked, structure, total }"
           },
           {
             "lineNumber": 6,
@@ -3382,7 +3382,7 @@ Result:
           },
           {
             "lineNumber": 2,
-            "text": "  Table of contents for notes — parsed from RawContent, not .Fragments.Headings."
+            "text": "  Table of contents for notes - parsed from RawContent, not .Fragments.Headings."
           },
           {
             "lineNumber": 3,
@@ -5800,7 +5800,7 @@ Result:
           },
           {
             "lineNumber": 30,
-            "text": "**One note = one claim** I'd cite in conversation. Optional **## Example** (one concrete scene) when the claim needs it; required **## Note Relationships** table (extends + contradicts at minimum, sorted by type). No other &#96;##&#96; sections — link out instead. See [[Atomic Notes]] and [[Note Relationships]]."
+            "text": "**One note = one claim** I'd cite in conversation. Optional **## Example** (one concrete scene) when the claim needs it; required **## Note Relationships** table (extends + contradicts at minimum, sorted by type). No other &#96;##&#96; sections - link out instead. See [[Atomic Notes]] and [[Note Relationships]]."
           },
           {
             "lineNumber": 31
@@ -6910,7 +6910,7 @@ Result:
           },
           {
             "lineNumber": 64,
-            "text": "{{- $content = replaceRE &#96;\\[\\[([^\\]]+)\\|([^\\]]+)\\]\\]&#96; (printf &#96;\u003cspan class=\"%s-broken\" title=\"Pipe wikilinks are not supported — use [[Note Title]] only\"\u003e$1|$2\u003c/span\u003e&#96; $class) $content -}}"
+            "text": "{{- $content = replaceRE &#96;\\[\\[([^\\]]+)\\|([^\\]]+)\\]\\]&#96; (printf &#96;\u003cspan class=\"%s-broken\" title=\"Pipe wikilinks are not supported - use [[Note Title]] only\"\u003e$1|$2\u003c/span\u003e&#96; $class) $content -}}"
           },
           {
             "lineNumber": 65,
@@ -8368,7 +8368,7 @@ A simpler fix is to change toc.html to accept a precomputed dictionary. single.h
 
 _**Agent (auto-low)**_
 
-Fixing the backlinks lookup in the TOC — the partial return wasn't safe when nested.
+Fixing the backlinks lookup in the TOC - the partial return wasn't safe when nested.
 
 
 _**Agent (auto-low)**_
@@ -8716,8 +8716,8 @@ Body sections (`## Example`, `## Note Relationships`, etc.) still come from mark
 
 | Section | Why it's not in TOC yet |
 |---|---|
-| **See also** | Tag-based related notes — renders on most pages between outgoing links and backlinks, but wasn't on your list |
-| **Interactive Graph** | Local graph at the top of the note — no `h2`, just a labeled panel |
+| **See also** | Tag-based related notes - renders on most pages between outgoing links and backlinks, but wasn't on your list |
+| **Interactive Graph** | Local graph at the top of the note - no `h2`, just a labeled panel |
 
 **Probably skip for TOC:** note issues panel (lint/dev UI), toolbar, tags/meta, local graph controls.
 
@@ -9947,7 +9947,7 @@ rg -n "notes-issues|Unlinked|Extra|Missing|Charlie" /Users/jonathanrapusas/Docum
 945:      &lt;p class="notes-issues__lede text-ink-muted mb-3 text-sm"&gt;
 949:      &lt;ul class="notes-issues__list mb-0 list-none space-y-2 p-0 text-sm"&gt;&lt;li class="notes-issues__item notes-issues__item--broken"&gt;
 950:            &lt;strong&gt;Missing note:&lt;/strong&gt;
-951:            wikilink &lt;code&gt;[[Charlie Munger]]&lt;/code&gt; — no page matches this title, slug, or alias.
+951:            wikilink &lt;code&gt;[[Charlie Munger]]&lt;/code&gt; - no page matches this title, slug, or alias.
 952:          &lt;/li&gt;&lt;li class="notes-issues__item notes-issues__item--unlinked"&gt;
 953:            &lt;strong&gt;Unlinked mention:&lt;/strong&gt;
 996:					&lt;td&gt;&lt;span class="wikilink-broken" title="No matching note for this wikilink"&gt;Charlie Munger&lt;/span&gt;&lt;/td&gt;
@@ -9981,7 +9981,7 @@ rg -n "notes-issues|Unlinked|Extra|Missing|Charlie" /Users/jonathanrapusas/Docum
 945:      &lt;p class="notes-issues__lede text-ink-muted mb-3 text-sm"&gt;
 949:      &lt;ul class="notes-issues__list mb-0 list-none space-y-2 p-0 text-sm"&gt;&lt;li class="notes-issues__item notes-issues__item--broken"&gt;
 950:            &lt;strong&gt;Missing note:&lt;/strong&gt;
-951:            wikilink &lt;code&gt;[[Charlie Munger]]&lt;/code&gt; — no page matches this title, slug, or alias.
+951:            wikilink &lt;code&gt;[[Charlie Munger]]&lt;/code&gt; - no page matches this title, slug, or alias.
 952:          &lt;/li&gt;&lt;li class="notes-issues__item notes-issues__item--structure"&gt;
 953:              &lt;strong&gt;Extra section:&lt;/strong&gt;
 995:					&lt;td&gt;&lt;span class="wikilink-broken" title="No matching note for this wikilink"&gt;Charlie Munger&lt;/span&gt;&lt;/td&gt;
@@ -10069,7 +10069,7 @@ sed -n '952,960p' /Users/jonathanrapusas/Documents/GitHub/jorap.com/public/notes
 ```
           &lt;/li&gt;&lt;li class="notes-issues__item notes-issues__item--unlinked"&gt;
             &lt;strong&gt;Unlinked mention:&lt;/strong&gt;
-            "Mental Models" in prose — link
+            "Mental Models" in prose - link
             &lt;a class="text-accent no-underline hover:underline" href="/notes/mental-models/"&gt;&lt;code&gt;[[Mental Models]]&lt;/code&gt;&lt;/a&gt;.
           &lt;/li&gt;&lt;/ul&gt;
     &lt;/aside&gt;
@@ -10409,7 +10409,7 @@ Resolved. The problems came from having both `mental-models-list.md` and `mental
 
 Also removed the Charlie Munger auto-add from `sync-note-relationships.py` so it won't come back on sync.
 
-`mental-models` now builds with **0 link issues** — no issues panel on the page.
+`mental-models` now builds with **0 link issues** - no issues panel on the page.
 
 ---
 
@@ -10424,7 +10424,7 @@ do we still need this kind of issue?
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The user is asking whether the lint issue for unlinked mentions—where note titles appear in prose without wikilinks—still needs to be addressed.</details></think>
+The user is asking whether the lint issue for unlinked mentions-where note titles appear in prose without wikilinks-still needs to be addressed.</details></think>
 
 _**Agent (auto-low)**_
 
@@ -10705,7 +10705,7 @@ The lint is now warn-only and only two warnings remain across the garden. Fixes 
 
 _**Agent (auto-low)**_
 
-Short answer: **you probably don't need it anymore** — or at least not as a first-class issue on par with broken wikilinks.
+Short answer: **you probably don't need it anymore** - or at least not as a first-class issue on par with broken wikilinks.
 
 ### What it's for
 
@@ -10717,10 +10717,10 @@ That was useful early, when you were wiring the graph by hand and missing links 
 
 You have stronger, clearer checks:
 
-- **Broken wikilinks** — real errors
-- **Structure lint** — missing `extends` / `contradicts`, extra sections
-- **Outgoing links + backlinks** — visible on every note
-- **Typed relationship table** — forces explicit links where they matter
+- **Broken wikilinks** - real errors
+- **Structure lint** - missing `extends` / `contradicts`, extra sections
+- **Outgoing links + backlinks** - visible on every note
+- **Typed relationship table** - forces explicit links where they matter
 
 Unlinked mentions mostly create **cleanup work**, not graph insight:
 
@@ -10743,7 +10743,7 @@ Only **2 warnings** left in the whole garden. `strict_unlinked = false`, so they
 - **Demote** if you still want a nudge: keep it as a soft `/notes/issues/` stat, but remove it from per-note "Link issues" panels and `npm run lint:notes`.
 - **Narrow** if you want a middle path: only scan `## Example` prose, or exclude `## Note Relationships` reason cells and aliases.
 
-Broken wikilinks and structure issues are worth keeping. Unlinked mentions are optional polish — and at this point, mostly polish you fight.
+Broken wikilinks and structure issues are worth keeping. Unlinked mentions are optional polish - and at this point, mostly polish you fight.
 
 If you want, I can remove the check entirely, or narrow it to Example-only prose.
 
@@ -11172,7 +11172,7 @@ The path strip will sit below the prompt panel rather than between columns. A `b
 
 A `pathSummary` helper will format hop counts, and `renderPathList` will populate the chain element. `notes-path.js` will become a thin wrapper around the core logic. `notes-random-duo.js` will read graph edges from `.notes-random-duo-graph-data`, build the adjacency map and title lookup, and call `updatePath()` after each shuffle or slot load.
 
-The path panel will hide when the same note is selected or when notes are missing. A direct link renders as "Direct link — 1 hop". The phrase "apply shortest path" means integrating the Path page's shortest-path feature into Random Duo, not necessarily preferring connected pairs during shuffling.</details></think>
+The path panel will hide when the same note is selected or when notes are missing. A direct link renders as "Direct link - 1 hop". The phrase "apply shortest path" means integrating the Path page's shortest-path feature into Random Duo, not necessarily preferring connected pairs during shuffling.</details></think>
 
 _**Agent (auto-low)**_
 
@@ -11697,7 +11697,7 @@ The user might want the Path page displayed in a row too, since "shortest path" 
 
 _**Agent (auto-low)**_
 
-**Multiple paths?** No. One shortest path only. BFS returns the first shortest chain it finds — if several routes tie for fewest hops, you get whichever the search hits first, not all of them.
+**Multiple paths?** No. One shortest path only. BFS returns the first shortest chain it finds - if several routes tie for fewest hops, you get whichever the search hits first, not all of them.
 
 **Row layout:** Random Duo now renders that path inline:
 
@@ -12692,7 +12692,7 @@ Random Note on note pages now shows the same shortest-path bar as Random Duo.
 - Updates on shuffle or when you pick a different note from the dropdown
 - Included in the AI prompt when a path exists
 
-Blog posts are unchanged — they aren’t in the wikilink graph, so no path bar there.
+Blog posts are unchanged - they aren’t in the wikilink graph, so no path bar there.
 
 Path logic is shared via `renderPathBetween` in `notes-random-core.js`, so Duo and Random Note behave the same.
 
@@ -14145,8 +14145,8 @@ Removed Path and Queue from the notes toolbar and deleted their standalone pages
 - `assets/js/notes-path.js` and `notes-queue.js`
 
 **Updated**
-- `is-utility-page.html` — dropped `path` and `queue` from utility layouts
-- `getting-started.md` — meta tools list no longer mentions them
+- `is-utility-page.html` - dropped `path` and `queue` from utility layouts
+- `getting-started.md` - meta tools list no longer mentions them
 
 **Kept**
 - Shortest-path UI in Random Duo and the Random Note section on single note pages (via `notes-random-core.js`)
@@ -14828,7 +14828,7 @@ _**Agent (auto-low)**_
 
 _**Agent (auto-low)**_
 
-Both are safe to disregard — they're alias mentions in **Note Relationships** reason cells where the note is already linked in the Wikilink column:
+Both are safe to disregard - they're alias mentions in **Note Relationships** reason cells where the note is already linked in the Wikilink column:
 
 | Mention | Alias of | File | Already linked |
 |---------|----------|------|----------------|
@@ -14837,7 +14837,7 @@ Both are safe to disregard — they're alias mentions in **Note Relationships** 
 
 No content changes needed. The linter was flagging alias text in prose even when the target note was already wikilinked elsewhere in the file.
 
-Updated `collect-note-issues.html` to skip alias needles when the file already contains a wikilink to that note. Title-only mentions still get checked — so an unlinked "Second Brain" in prose would still warn if `[[Building a Second Brain]]` isn't present.
+Updated `collect-note-issues.html` to skip alias needles when the file already contains a wikilink to that note. Title-only mentions still get checked - so an unlinked "Second Brain" in prose would still warn if `[[Building a Second Brain]]` isn't present.
 
 Build now reports **0 unlinked mentions**.
 
@@ -15848,15 +15848,15 @@ _**Agent (auto-low)**_
 
 Removed all Zettelkasten references from the garden:
 
-**Tags** — dropped from `atomic-notes`, `associative-linking`, `evergreen-notes`, `evergreen-vs-fleeting-notes`, and `synthesis-as-a-goal`
+**Tags** - dropped from `atomic-notes`, `associative-linking`, `evergreen-notes`, `evergreen-vs-fleeting-notes`, and `synthesis-as-a-goal`
 
-**Broken wikilinks** — removed `extends | [[Zettelkasten]]` rows from `atomic-notes.md` and `associative-linking.md`
+**Broken wikilinks** - removed `extends | [[Zettelkasten]]` rows from `atomic-notes.md` and `associative-linking.md`
 
-**See also** — cleaned tag lists in `evergreen-vs-fleeting-notes.md` (also deduped the repeated Atomic Notes line)
+**See also** - cleaned tag lists in `evergreen-vs-fleeting-notes.md` (also deduped the repeated Atomic Notes line)
 
-**Script** — removed Zettelkasten entries from `FUTURE_EXTENDS` in `sync-note-relationships.py`
+**Script** - removed Zettelkasten entries from `FUTURE_EXTENDS` in `sync-note-relationships.py`
 
-There were no `zettelkasten.md` or `the-zettelkasten-myth.md` files in the repo anymore — only dangling references. Build is clean.
+There were no `zettelkasten.md` or `the-zettelkasten-myth.md` files in the repo anymore - only dangling references. Build is clean.
 
 ---
 

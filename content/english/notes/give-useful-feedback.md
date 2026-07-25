@@ -45,6 +45,20 @@ author: "JoRap"
 tags: ["Communication", "Leadership", "Coaching", "Teams"]
 aliases: ["actionable feedback", "feedback that lands"]
 featured: false
-review: false
+review: true
+card_sets: ["Ethics", "Focus"]
+cards:
+  - front: "Finger on send - you always miss deadlines drafted."
+    back: "One change: Tuesday draft needs buffer day."
+  - front: "Player slow - tempted to yell character verdict from bleachers."
+    back: "One cue: foot placement next rep."
+  - front: "Hot room - feedback loading as demolition."
+    back: "Pause - one move they can try tomorrow."
+  - front: "Vague good job in the email - nothing will change."
+    back: "Name what to change and how - one truth."
+  - front: "Correction without context - missed the real problem."
+    back: "Listen first - then one actionable deposit."
+  - front: "Peer draft weak in three paragraphs - silent approval tempting."
+    back: "Mark three spots - useful friction, same respect."
 draft: false
 ---

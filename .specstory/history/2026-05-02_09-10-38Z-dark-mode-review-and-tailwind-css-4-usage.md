@@ -1451,7 +1451,7 @@ _**Agent (auto-low)**_
 
 ### What was already in good shape
 
-- **Tailwind v4 pipeline** in `themes/jorap/assets/css/main.css`: `@import "tailwindcss"`, `@plugin` (forms, typography, your theme + grid), `@source "hugo_stats.json"`, and **`@custom-variant dark (&:where(.dark, .dark *));`** — this matches your **class-based** theme (`html` gets `dark` in `theme-switcher.html`), which is the right v4 pattern instead of `media` dark mode.
+- **Tailwind v4 pipeline** in `themes/jorap/assets/css/main.css`: `@import "tailwindcss"`, `@plugin` (forms, typography, your theme + grid), `@source "hugo_stats.json"`, and **`@custom-variant dark (&:where(.dark, .dark *));`** - this matches your **class-based** theme (`html` gets `dark` in `theme-switcher.html`), which is the right v4 pattern instead of `media` dark mode.
 - **`@utility`** usage in `utilities.css` (e.g. `bg-linear-to-b`) is idiomatic v4.
 - **`tw-theme.js`** already drives light/dark by swapping CSS variables on `:root` vs `.dark`, which works well with the custom variant.
 
@@ -1498,12 +1498,12 @@ Object.assign(colorsMap, {
 
 5. **Theme switcher icons**: `fill-current` + `text-white` / `text-text-dark` instead of hardcoded `#fff` / `#000` (moon stays dark on the white knob via `text-text-dark`, which stays the light palette “ink” color and reads as near-black on white).
 
-6. **`addUtilities(fontUtils)`** without the old `variants: [...]` second argument — Tailwind v4 handles variants for plugin utilities differently; dropping the legacy option avoids relying on deprecated plugin options.
+6. **`addUtilities(fontUtils)`** without the old `variants: [...]` second argument - Tailwind v4 handles variants for plugin utilities differently; dropping the legacy option avoids relying on deprecated plugin options.
 
 ### Follow-up you can do over time
 
 - Replace remaining **`bg-body dark:bg-darkmode-body`**-style pairs across layouts with **`bg-surface`** (or **`bg-elevated`** for “card” surfaces) where the meaning matches; keep explicit **`dark:`** where light and dark intentionally use different *roles* (not just different values of the same role), e.g. some widgets or marketing blocks.
-- Optional: point `@source` at **`../notwatching/hugo_stats.json`** if you ever compile `main.css` with the CLI from the theme folder — Hugo’s merged `assets` layout already supplies that path at build time.
+- Optional: point `@source` at **`../notwatching/hugo_stats.json`** if you ever compile `main.css` with the CLI from the theme folder - Hugo’s merged `assets` layout already supplies that path at build time.
 
 I could not get a full **`hugo`** run to finish in this environment (it stayed idle past the tool timeout), but **`npm install`** and the Tailwind CLI both run; CLI failed only on missing **`search.css`** relative to the theme CSS folder, which is expected outside Hugo’s virtual asset merge. A normal **`hugo`** build on your machine remains the authority for end-to-end CSS.
 
@@ -1585,7 +1585,7 @@ Here’s the short version:
 
 ### Task result
 - **Done in-repo:** Dark mode / Tailwind 4 work from the earlier pass is in place (semantic tokens in `tailwind-plugin/tw-theme.js`, `base.css` / `navigation.css` updates, footer / blog card / page header / theme switcher tweaks, `color-scheme`, v4 `bg-linear-to-b`, comment in `main.css`).
-- **Hugo build:** The automated **`hugo --gc`** runs were **not completed** here—one was **aborted**, and a retry still sat at “Start building sites …” without finishing within the tool limit. That points to this environment (timeouts/sandbox), not necessarily your project.
+- **Hugo build:** The automated **`hugo --gc`** runs were **not completed** here-one was **aborted**, and a retry still sat at “Start building sites …” without finishing within the tool limit. That points to this environment (timeouts/sandbox), not necessarily your project.
 
 ### Follow-up for you
 Run locally once:

@@ -13,15 +13,15 @@ User asks "how do I do X" / "find a skill for X" / "can you do X", wants to sear
 
 ## Skills CLI (`npx skills`)
 
-- `npx skills find [query]` — search
-- `npx skills add <owner/repo@skill> -g -y` — install (`-g` global, `-y` no prompt)
-- `npx skills check` / `update` — updates
+- `npx skills find [query]` - search
+- `npx skills add <owner/repo@skill> -g -y` - install (`-g` global, `-y` no prompt)
+- `npx skills check` / `update` - updates
 - Browse: https://skills.sh/
 
 ## How to help
 
 1. **Identify** domain + specific task; judge if a skill likely exists.
-2. **Check the leaderboard** (https://skills.sh/) first — ranked by installs. Known good: `vercel-labs/agent-skills`, `anthropics/skills`.
+2. **Check the leaderboard** (https://skills.sh/) first - ranked by installs. Known good: `vercel-labs/agent-skills`, `anthropics/skills`.
 3. **Search** if needed: `npx skills find hugo seo`.
 4. **Verify before recommending**: install count (prefer 1K+, wary <100), source reputation (official > unknown), GitHub stars.
 5. **Present**: name + what it does, install count/source, install command, skills.sh link.

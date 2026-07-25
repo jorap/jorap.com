@@ -180,13 +180,13 @@ If yes to all four, you're in the zone - even when the tone stays cool and direc
 
 Vocabulary is `pnpm lint:voice` (`data/voice-words.yaml`). Structure is `pnpm lint:slop` (`data/slop-rules.yaml`). Run both before `draft: false`.
 
-**Publish blockers** — CI fails if any of these ship:
+**Publish blockers** - CI fails if any of these ship:
 - `Expanded from` / `Idea captured from ideas.jorap.com` footer still in body
 - `image-template.jpg` as hero image
 - Body under 80 words
 - `users should` / `it is recommended` in prose
 
-**Warn before publish** — fix when you can:
+**Warn before publish** - fix when you can:
 - `## Bottom line` (especially on opinion, faith, family, games posts)
 - `## Further reading` with 3+ links
 - Three parallel bullets sharing the same first word

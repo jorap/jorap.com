@@ -178,7 +178,7 @@ Likability is likely a shared framework across both skills. The user probably wa
 
 _**Agent (auto-low)**_
 
-Checking the notes garden — "notes" likely refers to `content/english/notes/`, not blog posts. Gathering scope and likability criteria.
+Checking the notes garden - "notes" likely refers to `content/english/notes/`, not blog posts. Gathering scope and likability criteria.
 
 
 _**Agent (auto-low)**_

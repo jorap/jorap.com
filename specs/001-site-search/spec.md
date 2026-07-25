@@ -3,7 +3,7 @@
 **Feature Branch**: `001-site-search`  
 **Created**: 2026-07-03  
 **Status**: Draft  
-**Input**: User description: "Site-wide full-text search across blog and notes garden — modal UI, valid search index, ranked results"
+**Input**: User description: "Site-wide full-text search across blog and notes garden - modal UI, valid search index, ranked results"
 
 **Platform context:** [`docs/SPEC.md`](../../docs/SPEC.md) (FR-004, SC-003)
 
@@ -11,7 +11,7 @@
 
 ## User Scenarios & Testing
 
-### User Story 1 — Find a note or post by title (Priority: P1)
+### User Story 1 - Find a note or post by title (Priority: P1)
 
 A reader opens search from the header, types part of a note title, and clicks the matching result to navigate there.
 
@@ -26,7 +26,7 @@ A reader opens search from the header, types part of a note title, and clicks th
 
 ---
 
-### User Story 2 — Discover content by keyword in body or tags (Priority: P2)
+### User Story 2 - Discover content by keyword in body or tags (Priority: P2)
 
 A reader searches for a concept word that appears in note body text or blog tags but not in the title.
 
@@ -41,7 +41,7 @@ A reader searches for a concept word that appears in note body text or blog tags
 
 ---
 
-### User Story 3 — Search works after production deploy (Priority: P1)
+### User Story 3 - Search works after production deploy (Priority: P1)
 
 A visitor on the live site uses search without JavaScript console errors.
 
@@ -105,7 +105,7 @@ A visitor on the live site uses search without JavaScript console errors.
 
 ## Assumptions
 
-1. Search is **client-side only** — no server endpoint; index size is acceptable for current garden scale (~hundreds of pages).
+1. Search is **client-side only** - no server endpoint; index size is acceptable for current garden scale (~hundreds of pages).
 2. **Blog and notes** are the only indexed sections unless `search.include_all_sections` is enabled in site params.
 3. **Plain text** from Hugo `.Plain` is sufficient for body search; wikilink syntax in source is stripped at index time.
 4. **Images** in results are optional thumbnails; missing image does not block listing.

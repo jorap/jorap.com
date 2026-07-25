@@ -145,7 +145,7 @@ index 9d1f026..1d53618 100644
 +
 +- **Career highs:** No. 29 singles · No. 88 doubles
 +- **WTA titles:** 2 (Guadalajara 125, Birmingham 125)
-+- **Best Slam (singles):** US Open 2025 — Round of 2
++- **Best Slam (singles):** US Open 2025 - Round of 2
 +- **Notable firsts:** First Filipina in a Grand Slam main draw; first Filipina to win a Slam main-draw match (US Open 2025); first Filipina in a WTA 1000 semifinal (Miami 2025); first Filipina in the WTA top 100
 +
 +---
@@ -1056,7 +1056,7 @@ Paolini's reference correctly lists her French Open 2024 singles victory. The us
 
 Document the required page structure: intro, At a glance, Player Profile, WTA Rankings, and remaining sections in that order. The At a glance section should update whenever career highs, title count, best slam, or notable firsts change. The lastmod field must use ISO format and bump on every content update.
 
-The skill already covers embed deduplication. The H2H match ordering rule—newest first—was observed in Ostapenko and Swiatek. The WTA fetch fallback applies when WTA returns sparse data. The exit-round link must point to the deepest round actually played. Reference.md needs several specific updates: remove Coco Gauff and Elena Rybakina from the watch list, add Iva Jovic to Other Top 20, add Qinwen Zheng to the watch list, update doubles career high context, and add the At a glance template and the Grand Slam doubles partner template.
+The skill already covers embed deduplication. The H2H match ordering rule-newest first-was observed in Ostapenko and Swiatek. The WTA fetch fallback applies when WTA returns sparse data. The exit-round link must point to the deepest round actually played. Reference.md needs several specific updates: remove Coco Gauff and Elena Rybakina from the watch list, add Iva Jovic to Other Top 20, add Qinwen Zheng to the watch list, update doubles career high context, and add the At a glance template and the Grand Slam doubles partner template.
 
 Add a quick routing note for refreshing the At a glance section. Document the Miami embed pattern where deduplicated matches move to H2H and lose their embeds. For H2H Grand Slam Champions, prefer tennis.com links over other sources.
 
@@ -1480,27 +1480,27 @@ Updated `update-alex-eala-tracker` from the [prior tracker sessions](18dbac08-19
 
 ### `SKILL.md`
 
-- **Page structure** — Documented section order (intro → At a glance → Player Profile → …)
-- **At a glance workflow** — When and how to refresh the summary block
-- **`lastmod`** — Bump on every content update; new Frontmatter section
-- **WTA fetch fallback** — Client-rendered WTA pages; use Tennis.com, TNNSLIVE, curl + score URLs
-- **Exit-round rule** — Main tournament line must link to the deepest round played
-- **Doubles format** — `(with Partner Name)` on all doubles lines; wtatennis sub-bullets for earlier rounds
-- **Grand Slam doubles** — Partner on tournament header line
-- **Embed dedup** — Added to full-update checklist; H2H wins over tournament blocks
-- **H2H match order** — Newest first in Grand Slam Champions
-- **Player Profile** — WTA Matches + WTA Doubles Matches + Tennis.com profile (not activity URL)
-- **Single-result workflow** — At a glance + `lastmod` steps
+- **Page structure** - Documented section order (intro → At a glance → Player Profile → …)
+- **At a glance workflow** - When and how to refresh the summary block
+- **`lastmod`** - Bump on every content update; new Frontmatter section
+- **WTA fetch fallback** - Client-rendered WTA pages; use Tennis.com, TNNSLIVE, curl + score URLs
+- **Exit-round rule** - Main tournament line must link to the deepest round played
+- **Doubles format** - `(with Partner Name)` on all doubles lines; wtatennis sub-bullets for earlier rounds
+- **Grand Slam doubles** - Partner on tournament header line
+- **Embed dedup** - Added to full-update checklist; H2H wins over tournament blocks
+- **H2H match order** - Newest first in Grand Slam Champions
+- **Player Profile** - WTA Matches + WTA Doubles Matches + Tennis.com profile (not activity URL)
+- **Single-result workflow** - At a glance + `lastmod` steps
 
 ### `reference.md`
 
 - **At a glance template** and **Player Profile** link block
-- **Doubles templates** — Abu Dhabi-style exit round + sub-bullets; Rome loss-note pattern
-- **Grand Slam doubles** — Partner on header line
-- **H2H template** — Newest-first match lines
-- **Watch list** — Removed Gauff and Rybakina (now in H2H); alphabetical order matches live post
-- **H2H opponent lists** — Gauff in Grand Slam Champions; Jovic and others in Other Top 20 (alphabetical)
-- **Embed dedup** — Miami-style “no embeds in tournament block” when all videos moved to H2H
-- **Link preferences** — Exit-round rule row
+- **Doubles templates** - Abu Dhabi-style exit round + sub-bullets; Rome loss-note pattern
+- **Grand Slam doubles** - Partner on header line
+- **H2H template** - Newest-first match lines
+- **Watch list** - Removed Gauff and Rybakina (now in H2H); alphabetical order matches live post
+- **H2H opponent lists** - Gauff in Grand Slam Champions; Jovic and others in Other Top 20 (alphabetical)
+- **Embed dedup** - Miami-style “no embeds in tournament block” when all videos moved to H2H
+- **Link preferences** - Exit-round rule row
 
 The skill now matches what’s on the live tracker: At a glance snapshot, dual-link format, doubles partner notation, embed dedup policy, and current opponent placement.

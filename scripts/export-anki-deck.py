@@ -27,7 +27,7 @@ SKIP = {
     "maps-of-content",
 }
 REVIEW_TAG = "flashcard"
-LEAD_RE = re.compile(r"^\*\*([^*]+)\*\*\s*(?:=\s*|—\s*|-\s*)(.+)$")
+LEAD_RE = re.compile(r"^\*\*([^*]+)\*\*\s*(?:=\s*|-\s*|-\s*)(.+)$")
 SHORTCODE_RE = re.compile(
     r'\{\{[%<]\s*card\s+front="([^"]+)"\s+back="([^"]+)"\s*>\}\}'
 )

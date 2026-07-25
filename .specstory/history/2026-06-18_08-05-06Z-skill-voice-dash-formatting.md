@@ -48,7 +48,7 @@ Parameters:
 {
   "caseInsensitive": false,
   "path": "/home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice",
-  "pattern": "—|–"
+  "pattern": "-|–"
 }
 ```
 Additional data:
@@ -58,7 +58,7 @@ Additional data:
   "isPruned": true,
   "outputMode": "content",
   "path": "/home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice",
-  "pattern": "—|–",
+  "pattern": "-|–",
   "topFiles": [
     {
       "matchCount": 24,
@@ -142,7 +142,7 @@ Parameters:
 {
   "caseInsensitive": false,
   "path": "/home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice",
-  "pattern": "—|–"
+  "pattern": "-|–"
 }
 ```
 Additional data:
@@ -152,7 +152,7 @@ Additional data:
   "isPruned": true,
   "outputMode": "content",
   "path": "/home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice",
-  "pattern": "—|–",
+  "pattern": "-|–",
   "topFiles": [],
   "totalFiles": 0,
   "totalMatches": 0
@@ -186,7 +186,7 @@ _**Agent (default)**_
 
 Updated the jorap-voice skill:
 
-1. **Replaced all em dashes (`—`) and en dashes (`–`)** with normal hyphens (`-`) in `SKILL.md` and `examples.md`
+1. **Replaced all em dashes (`-`) and en dashes (`–`)** with normal hyphens (`-`) in `SKILL.md` and `examples.md`
 2. **Added a style rule** under "Do not": use a normal hyphen, comma, or parentheses instead of em dashes in blog posts
 
 Example of the change in the intro:

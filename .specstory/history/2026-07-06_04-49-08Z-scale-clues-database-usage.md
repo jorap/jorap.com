@@ -938,7 +938,7 @@ The scale label will be minimal. The main fix is prompt visibility. A default la
 
 _**Agent (auto-low)**_
 
-Found the bug. The data was fine — **500 prompts** in `scale-clues` — but nothing showed on screen.
+Found the bug. The data was fine - **500 prompts** in `scale-clues` - but nothing showed on screen.
 
 **Cause:** The play card used Tailwind’s `hidden` class (`display: none`) on the prompt, scale, and poles elements. The JS only toggled the HTML `hidden` attribute, so the CSS class kept everything invisible for all three collections (Ranking prompts, Personal icebreakers, Concept spectrums).
 
@@ -1265,9 +1265,9 @@ _**Agent (auto-low)**_
 The exit button now uses a proper chevron icon instead of the plain `←` character.
 
 **What changed:**
-- **Icon** — Lucide-style chevron-left SVG, matching the stroke icons used elsewhere on the site (notes graph, etc.)
-- **Button** — Icon-only circular control, centered with flexbox
-- **Hover** — Chevron nudges 2px left on hover/focus for a clearer “go back” cue
+- **Icon** - Lucide-style chevron-left SVG, matching the stroke icons used elsewhere on the site (notes graph, etc.)
+- **Button** - Icon-only circular control, centered with flexbox
+- **Hover** - Chevron nudges 2px left on hover/focus for a clearer “go back” cue
 
 The `aria-label` is unchanged, so screen readers still get “Back to collections” / “Back to categories” from the JS.
 
@@ -1590,7 +1590,7 @@ All three collections are now exactly **300 entries**, ordered with the stronges
 | `personal-scales` | 195 | 300 | *How lazy are you?* |
 | `spectrum` | 258 | 300 | *Hot ↔ Cold* |
 
-**Ranking approach:** pinned top-tier prompts first, then scored the rest (concrete/playable for ranking prompts, conversation-starters for personal, clear debatable pairs for spectrum). Weaker or repetitive entries — long “if you had to…” chains, generic “how much do you enjoy…”, “Better X” template spectrums — sit at the bottom.
+**Ranking approach:** pinned top-tier prompts first, then scored the rest (concrete/playable for ranking prompts, conversation-starters for personal, clear debatable pairs for spectrum). Weaker or repetitive entries - long “if you had to…” chains, generic “how much do you enjoy…”, “Better X” template spectrums - sit at the bottom.
 
 Added `scripts/curate-randomizer-300.py` to regenerate this layout after future bulk edits. The shuffle UI still picks randomly; list order is the quality ranking in the data.
 
@@ -1708,7 +1708,7 @@ That hiding is likely the actual bug. I should either fix the CSS or offer to do
 
 _**Agent (auto-low)**_
 
-The offline export is the **Save offline** button in the play view — top bar, opposite the back chevron.
+The offline export is the **Save offline** button in the play view - top bar, opposite the back chevron.
 
 ```53:58:layouts/randomizer.html
                   <button
@@ -1731,11 +1731,11 @@ body.randomizer-focus .randomizer-play__offline {
 }
 ```
 
-So the control exists, but it disappears exactly when you're playing — which is when you'd want to save.
+So the control exists, but it disappears exactly when you're playing - which is when you'd want to save.
 
 **What it does:** `assets/js/randomizer.js` builds a self-contained `.html` file (all prompts + shuffle logic embedded) and downloads it as `randomizer-{collection-id}.html`.
 
-Want me to keep **Save offline** visible in focus mode — e.g. tuck it next to the back button?
+Want me to keep **Save offline** visible in focus mode - e.g. tuck it next to the back button?
 
 ---
 
@@ -1855,9 +1855,9 @@ _**Agent (auto-low)**_
 
 Updated the randomizer layout so cards sit centered:
 
-- **Home tiles** — flex row with `justify-content: center`; each tile is a fixed `18rem` card with centered text (no more full-width stretch).
-- **Play card** — capped at `48rem` with `margin-inline: auto` so the prompt card stays centered in normal and focus mode.
-- **Shuffle row** — actions centered under the card.
+- **Home tiles** - flex row with `justify-content: center`; each tile is a fixed `18rem` card with centered text (no more full-width stretch).
+- **Play card** - capped at `48rem` with `margin-inline: auto` so the prompt card stays centered in normal and focus mode.
+- **Shuffle row** - actions centered under the card.
 
 Hard-refresh `/randomizer/` if Hugo hasn’t hot-reloaded the CSS yet.
 
@@ -1880,7 +1880,7 @@ The user cannot see the "Save offline" button.
 
 _**Agent (auto-low)**_
 
-The offline save button is hidden in play mode — I'll surface it near the shuffle controls.
+The offline save button is hidden in play mode - I'll surface it near the shuffle controls.
 
 
 _**Agent (auto-low)**_
@@ -1965,7 +1965,7 @@ It’s now in the action stack under the card:
 2. **Shuffle**
 3. Prompt counter
 
-Hard-refresh and open a deck — you should see it right above Shuffle. It downloads a self-contained `.html` file with all 300 prompts for that collection.
+Hard-refresh and open a deck - you should see it right above Shuffle. It downloads a self-contained `.html` file with all 300 prompts for that collection.
 
 ---
 
@@ -2393,13 +2393,13 @@ _**Agent (auto-low)**_
 
 The offline export now mirrors the online **play/focus** view:
 
-- **Full-screen layout** — same stage + centered card + stacked actions (no title/meta/hint header)
-- **Same class names** — `randomizer-card`, `randomizer-card__prompt`, `randomizer-card__poles`, etc.
-- **Theme tokens** — body `#f5f3f0`, card `#eeebe6`, ink/muted colors, primary button styling
-- **Typography** — Inter stack, `clamp()` sizes matching focus mode
-- **Dark mode** — follows `prefers-color-scheme` like the site
+- **Full-screen layout** - same stage + centered card + stacked actions (no title/meta/hint header)
+- **Same class names** - `randomizer-card`, `randomizer-card__prompt`, `randomizer-card__poles`, etc.
+- **Theme tokens** - body `#f5f3f0`, card `#eeebe6`, ink/muted colors, primary button styling
+- **Typography** - Inter stack, `clamp()` sizes matching focus mode
+- **Dark mode** - follows `prefers-color-scheme` like the site
 
-Re-download with **Save offline HTML** to get the updated file — existing downloads won’t update on their own.
+Re-download with **Save offline HTML** to get the updated file - existing downloads won’t update on their own.
 
 ---
 
@@ -2490,4 +2490,4 @@ Chrome already uses justify-content: space-between.
 
 _**Agent (auto-low)**_
 
-Moved **Save offline HTML** to the top bar — upper right, opposite the back chevron. Shuffle and the prompt counter stay centered below the card. Hard-refresh to see it.
+Moved **Save offline HTML** to the top bar - upper right, opposite the back chevron. Shuffle and the prompt counter stay centered below the card. Hard-refresh to see it.

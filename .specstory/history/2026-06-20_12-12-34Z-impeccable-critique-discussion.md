@@ -286,7 +286,7 @@ node .cursor/skills/impeccable/scripts/detect.mjs --json layouts/notes/cards.htm
   {
     "antipattern": "cramped-padding",
     "name": "Cramped padding",
-    "description": "Text is too close to the edge of its container. Two shapes: (1) an element with its own text where the padding is too low for the font size, and (2) a wrapper with text-bearing children and near-zero padding against a visible boundary (border, outline, or non-transparent background) — children land flush against the boundary line. Add at least 8px (ideally 12–16px) of padding inside bordered, outlined, or colored containers.",
+    "description": "Text is too close to the edge of its container. Two shapes: (1) an element with its own text where the padding is too low for the font size, and (2) a wrapper with text-bearing children and near-zero padding against a visible boundary (border, outline, or non-transparent background) - children land flush against the boundary line. Add at least 8px (ideally 12–16px) of padding inside bordered, outlined, or colored containers.",
     "severity": "warning",
     "file": "/home/jorap/Documents/GitHub/jorap.com/layouts/notes/cards.html",
     "line": 0,
@@ -863,18 +863,18 @@ curl -s http://localhost:1313/notes/cards/ 2>/dev/null | tr '>' '>\n' | rg 'data
 ```
 
 ```
-<a class="btn btn-primary btn-sm" href=/notes/review/>Start review</a></div><div data-notes-cards><div class="mb-4 flex flex-wrap items-center justify-between gap-3"><p class="text-ink-muted mb-0 text-sm">252 cards</p><div class=notes-filters role=group aria-label="Filter cards by set"><button type=button class="notes-filter is-active" data-notes-cards-filter=all aria-pressed=true aria-label="All sets — 252 cards">
-</button><button type=button class=notes-filter data-notes-cards-filter=Capture aria-pressed=false aria-label="Capture — 24 cards">
-</button><button type=button class=notes-filter data-notes-cards-filter=Commandments aria-pressed=false aria-label="Commandments — 12 cards">
-</button><button type=button class=notes-filter data-notes-cards-filter=Discipleship aria-pressed=false aria-label="Discipleship — 42 cards">
-</button><button type=button class=notes-filter data-notes-cards-filter="Eternal Principles" aria-pressed=false aria-label="Eternal Principles — 180 cards">
-</button><button type=button class=notes-filter data-notes-cards-filter=Ethics aria-pressed=false aria-label="Ethics — 66 cards">
-</button><button type=button class=notes-filter data-notes-cards-filter=Faith aria-pressed=false aria-label="Faith — 24 cards">
-</button><button type=button class=notes-filter data-notes-cards-filter=Focus aria-pressed=false aria-label="Focus — 18 cards">
-</button><button type=button class=notes-filter data-notes-cards-filter=Gospel aria-pressed=false aria-label="Gospel — 180 cards">
-</button><button type=button class=notes-filter data-notes-cards-filter=Linking aria-pressed=false aria-label="Linking — 18 cards">
-</button><button type=button class=notes-filter data-notes-cards-filter=Organization aria-pressed=false aria-label="Organization — 12 cards">
-</button><button type=button class=notes-filter data-notes-cards-filter=Prayer aria-pressed=false aria-label="Prayer — 12 cards">
+<a class="btn btn-primary btn-sm" href=/notes/review/>Start review</a></div><div data-notes-cards><div class="mb-4 flex flex-wrap items-center justify-between gap-3"><p class="text-ink-muted mb-0 text-sm">252 cards</p><div class=notes-filters role=group aria-label="Filter cards by set"><button type=button class="notes-filter is-active" data-notes-cards-filter=all aria-pressed=true aria-label="All sets - 252 cards">
+</button><button type=button class=notes-filter data-notes-cards-filter=Capture aria-pressed=false aria-label="Capture - 24 cards">
+</button><button type=button class=notes-filter data-notes-cards-filter=Commandments aria-pressed=false aria-label="Commandments - 12 cards">
+</button><button type=button class=notes-filter data-notes-cards-filter=Discipleship aria-pressed=false aria-label="Discipleship - 42 cards">
+</button><button type=button class=notes-filter data-notes-cards-filter="Eternal Principles" aria-pressed=false aria-label="Eternal Principles - 180 cards">
+</button><button type=button class=notes-filter data-notes-cards-filter=Ethics aria-pressed=false aria-label="Ethics - 66 cards">
+</button><button type=button class=notes-filter data-notes-cards-filter=Faith aria-pressed=false aria-label="Faith - 24 cards">
+</button><button type=button class=notes-filter data-notes-cards-filter=Focus aria-pressed=false aria-label="Focus - 18 cards">
+</button><button type=button class=notes-filter data-notes-cards-filter=Gospel aria-pressed=false aria-label="Gospel - 180 cards">
+</button><button type=button class=notes-filter data-notes-cards-filter=Linking aria-pressed=false aria-label="Linking - 18 cards">
+</button><button type=button class=notes-filter data-notes-cards-filter=Organization aria-pressed=false aria-label="Organization - 12 cards">
+</button><button type=button class=notes-filter data-notes-cards-filter=Prayer aria-pressed=false aria-label="Prayer - 12 cards">
 </button><button type=button class=notes-filter data-notes-cards-filter=Priorities aria
 … (output truncated)
 ```
@@ -1013,7 +1013,7 @@ _**Agent (default)**_
 
 _**Agent (default)**_
 
-Critique of **Notes Flashcards** (`layouts/notes/cards.html`) — the page you have open, with live verification against `http://localhost:1313/notes/cards/` (252 cards, 16 set filters).
+Critique of **Notes Flashcards** (`layouts/notes/cards.html`) - the page you have open, with live verification against `http://localhost:1313/notes/cards/` (252 cards, 16 set filters).
 
 ---
 
@@ -1022,24 +1022,24 @@ Critique of **Notes Flashcards** (`layouts/notes/cards.html`) — the page you h
 | # | Heuristic | Score | Key Issue |
 |---|-----------|-------|-----------|
 | 1 | Visibility of System Status | 3 | Filter `aria-pressed` and empty-state message work; flip uses `aria-pressed` but no live announcement when back is revealed |
-| 2 | Match System / Real World | 2 | Anki export panel speaks in YAML/npm/frontmatter — correct for you, alien for a client skim |
+| 2 | Match System / Real World | 2 | Anki export panel speaks in YAML/npm/frontmatter - correct for you, alien for a client skim |
 | 3 | User Control and Freedom | 3 | Filters reversible; download and Review exits are clear; no trap states |
 | 4 | Consistency and Standards | 3 | Toolbar, chips, and panels match Graph/Review/Issues; `notes-random-prompt` class on non-random "About flashcards" block is a naming leak |
 | 5 | Error Prevention | 3 | Low-risk surface; filter can't corrupt data |
 | 6 | Recognition Rather Than Recall | 2 | 16 set chips require knowing your taxonomy; flip affordance is invisible until hover/focus |
-| 7 | Flexibility and Efficiency of Use | 2 | 252 cards, no search, no keyboard browse — power path is Review, but the index doesn't accelerate scanning |
+| 7 | Flexibility and Efficiency of Use | 2 | 252 cards, no search, no keyboard browse - power path is Review, but the index doesn't accelerate scanning |
 | 8 | Aesthetic and Minimalist Design | 2 | Three stacked panels (about, Anki, grid) plus a chip wall before the first card; long homogeneous grid |
 | 9 | Error Recovery | 3 | "No cards match this filter" handles empty filter; n/a elsewhere |
 | 10 | Help and Documentation | 3 | Collapsible about + inline export docs; help is dense and collapsed by default |
-| **Total** | | **26/40** | **Acceptable — significant improvements needed before the surface feels effortless** |
+| **Total** | | **26/40** | **Acceptable - significant improvements needed before the surface feels effortless** |
 
 ---
 
 ## Anti-Patterns Verdict
 
-**LLM assessment:** Does not read as generic AI landing-page slop. It inherits the site's committed warm-paper / charcoal system and behaves like a personal PKM utility — which fits the feature, but not the client-facing brand layer in PRODUCT.md. No gradient text, side-stripe callouts, or hero-metric template. The main "template" tell is the **identical two-column card grid** — legitimate for flashcards, but at 252 items it becomes wallpaper rather than craft.
+**LLM assessment:** Does not read as generic AI landing-page slop. It inherits the site's committed warm-paper / charcoal system and behaves like a personal PKM utility - which fits the feature, but not the client-facing brand layer in PRODUCT.md. No gradient text, side-stripe callouts, or hero-metric template. The main "template" tell is the **identical two-column card grid** - legitimate for flashcards, but at 252 items it becomes wallpaper rather than craft.
 
-**Deterministic scan:** 1 warning — `cramped-padding` on `notes-action-panel` in `layouts/notes/cards.html`. **Likely false positive:** the panel uses `p-5` (20px); the detector may be reacting to inline `background` without parsing Tailwind padding.
+**Deterministic scan:** 1 warning - `cramped-padding` on `notes-action-panel` in `layouts/notes/cards.html`. **Likely false positive:** the panel uses `p-5` (20px); the detector may be reacting to inline `background` without parsing Tailwind padding.
 
 **Browser visualization:** Not available in this session (no browser automation). Live HTML was fetched from the dev server for structure verification.
 
@@ -1053,16 +1053,16 @@ The page works and stays on-brand with the rest of Notes. The single biggest opp
 
 ## What's Working
 
-1. **Filter chip pattern** — Counts in labels (`Capture · 24`), `aria-pressed`, and empty-state copy are solid, reusable, and consistent with Review.
-2. **Flashcard interaction** — 3D flip with hover/focus border, keyboard Enter/Space, and source links back to garden notes show thoughtful utility craft.
-3. **Toolbar integration** — Cards/Review sit in the same nav family as Graph and Issues; active state and mobile "Cards" abbreviation are handled.
+1. **Filter chip pattern** - Counts in labels (`Capture · 24`), `aria-pressed`, and empty-state copy are solid, reusable, and consistent with Review.
+2. **Flashcard interaction** - 3D flip with hover/focus border, keyboard Enter/Space, and source links back to garden notes show thoughtful utility craft.
+3. **Toolbar integration** - Cards/Review sit in the same nav family as Graph and Issues; active state and mobile "Cards" abbreviation are handled.
 
 ---
 
 ## Priority Issues
 
 ### [P1] Screen readers hear the answer before the flip
-- **Why it matters:** Back text lives inside the same `<button>` as the front with no `aria-hidden`. VoiceOver/NVDA users get the answer read on focus — the core interaction is broken.
+- **Why it matters:** Back text lives inside the same `<button>` as the front with no `aria-hidden`. VoiceOver/NVDA users get the answer read on focus - the core interaction is broken.
 - **Fix:** `aria-hidden="true"` on the back face until flipped (toggle on flip); optionally `aria-live="polite"` when revealing. Hide front from SR when flipped.
 - **Suggested command:** `/impeccable audit`
 
@@ -1072,12 +1072,12 @@ The page works and stays on-brand with the rest of Notes. The single biggest opp
 - **Suggested command:** `/impeccable distill`
 
 ### [P2] 252-card wall with no find-in-page affordance
-- **Why it matters:** Power users and mobile visitors won't scroll 120+ viewport heights to locate one card. Review exists, but the index promises browse — and delivers exhaustion.
+- **Why it matters:** Power users and mobile visitors won't scroll 120+ viewport heights to locate one card. Review exists, but the index promises browse - and delivers exhaustion.
 - **Fix:** Client-side search over front text, pagination (e.g. 24 per page), or default to filtered subsets with "Show all" as explicit opt-in.
 - **Suggested command:** `/impeccable shape`
 
 ### [P2] Flip animation ignores reduced motion
-- **Why it matters:** `.notes-flashcard__inner` uses `transform 0.35s` with no reduced-motion override — violates PRODUCT.md and DESIGN.md motion rules.
+- **Why it matters:** `.notes-flashcard__inner` uses `transform 0.35s` with no reduced-motion override - violates PRODUCT.md and DESIGN.md motion rules.
 - **Fix:** Crossfade or instant face swap under reduced motion.
 - **Suggested command:** `/impeccable audit`
 
@@ -1090,7 +1090,7 @@ The page works and stays on-brand with the rest of Notes. The single biggest opp
 
 ## Persona Red Flags
 
-**Jordan (First-Timer):** "About flashcards" is collapsed by default — purpose is hidden. Anki panel shows code literals before any card. Sixteen similar pills with no grouping. Flip cards look like static text boxes until clicked; no "tap to reveal" hint.
+**Jordan (First-Timer):** "About flashcards" is collapsed by default - purpose is hidden. Anki panel shows code literals before any card. Sixteen similar pills with no grouping. Flip cards look like static text boxes until clicked; no "tap to reveal" hint.
 
 **Sam (Accessibility-Dependent):** Back face text inside flip button (answer spoiler). Generic `aria-label="Flip card"` repeated 252 times in rotor. Focus state is border-color only. Flip transform with no reduced-motion fallback.
 
@@ -1103,7 +1103,7 @@ The page works and stays on-brand with the rest of Notes. The single biggest opp
 ## Minor Observations
 
 - `notes-random-prompt` class on "About flashcards" is confusing in source and DevTools.
-- Action panel CTAs sit inline with no `gap` wrapper — explicit `flex flex-wrap gap-2` would match Review's control row.
+- Action panel CTAs sit inline with no `gap` wrapper - explicit `flex flex-wrap gap-2` would match Review's control row.
 - Overlapping set counts (Gospel · 180 and Eternal Principles · 180) are correct but may confuse without a note that cards belong to multiple sets.
 - Inline `style="background: var(--color-elevated)"` duplicates a pattern that could be a single utility class.
 
@@ -1116,17 +1116,17 @@ The page works and stays on-brand with the rest of Notes. The single biggest opp
 
 ## Questions
 
-1. **Priority direction** — I found problems in three clusters: **accessibility** (flip SR spoiler, reduced motion), **information architecture** (16 chips, 252-card wall), and **copy/hierarchy** (Anki panel jargon, collapsed about). Which should we tackle first?
+1. **Priority direction** - I found problems in three clusters: **accessibility** (flip SR spoiler, reduced motion), **information architecture** (16 chips, 252-card wall), and **copy/hierarchy** (Anki panel jargon, collapsed about). Which should we tackle first?
    - Accessibility fixes (flip + motion)
    - IA / filtering / search
    - Copy and panel hierarchy
 
-2. **Design intent** — The Anki export block is author-facing by design. Should it stay that way for everyone, or split into a **reader-facing** summary + **author-only** docs?
+2. **Design intent** - The Anki export block is author-facing by design. Should it stay that way for everyone, or split into a **reader-facing** summary + **author-only** docs?
    - Keep as-is (you're the primary user)
    - Split: plain summary visible, YAML/npm tucked away
    - Move author docs entirely into the collapsed "About flashcards" section
 
-3. **Scope** — Five issues flagged (2 P1, 3 P2). How much do you want to take on?
+3. **Scope** - Five issues flagged (2 P1, 3 P2). How much do you want to take on?
    - Top 2 only (accessibility + chip overload)
    - All P1 + P2
    - One quick win first (e.g. flip `aria-hidden` only)
@@ -1396,7 +1396,7 @@ _**Agent (default)**_
 
 _**Agent (default)**_
 
-Fixing the filter partial — Hugo doesn't support inline `define` blocks that way.
+Fixing the filter partial - Hugo doesn't support inline `define` blocks that way.
 
 
 _**Agent (default)**_
@@ -2003,7 +2003,7 @@ Updated the notes toolbar so the nav button always reads **Flashcards** instead 
       Flashcards
 ```
 
-The URL (`/notes/cards/`) and internal `active: "cards"` key are unchanged — only the visible label.
+The URL (`/notes/cards/`) and internal `active: "cards"` key are unchanged - only the visible label.
 
 ---
 
@@ -3778,7 +3778,7 @@ _**Agent (default)**_
 
 Renamed the graph utility page and toolbar label to **Graph**.
 
-**Toolbar** (`layouts/_partials/notes/toolbar.html`) — button is always **Graph** (removed the xl-only “view” suffix).
+**Toolbar** (`layouts/_partials/notes/toolbar.html`) - button is always **Graph** (removed the xl-only “view” suffix).
 
 **Page** (`content/english/notes/graph.md`):
 - `title`: "Note graph" → "Graph"

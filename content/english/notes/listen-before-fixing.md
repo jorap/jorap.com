@@ -54,6 +54,14 @@ cards:
     back: "Then offered one drill"
   - front: "A nurse vented about a scheduling mix-up. What's the move?"
     back: "Then asked what she wanted done about it"
+  - front: "Jumped in with fixes again before they finished the story."
+    back: "Hold the fix - mirror back one line."
+  - front: "I know the answer - thumb twitching while they talk."
+    back: "Listen until the pause - then ask."
+  - front: "Venting sounds like permission to redesign their workflow."
+    back: "What do you want done - not my draft."
+  - front: "They didn't ask for advice - just needed air."
+    back: "Stay with them - fix only if invited."
 draft: false
 ---
 

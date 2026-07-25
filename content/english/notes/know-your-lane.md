@@ -45,6 +45,20 @@ author: "JoRap"
 tags: ["Leadership", "Teams", "Focus", "Work"]
 aliases: ["stay in your lane", "role clarity"]
 featured: false
-review: false
+review: true
+card_sets: ["Ethics", "Focus"]
+cards:
+  - front: "Every client firefight mine until deploys slipped - lane blur."
+    back: "Architecture docs - hand off support tickets."
+  - front: "Assistant coach calling plays instead of defense drills - wrong slice?"
+    back: "Put him on defense - his lane."
+  - front: "Open gap on the team - martyrdom coverage kicking in."
+    back: "Hand off - not every gap is mine."
+  - front: "Crisis heroics in every lane - swim relay drowning."
+    back: "Stay in your leg - clean pass-off."
+  - front: "Thin everywhere - depth nowhere - Pareto ignored."
+    back: "Pick vital few in your lane - go deep."
+  - front: "Meeting ended with everyone in every lane - what's missing?"
+    back: "Name your slice - yes to yours, hand off rest."
 draft: false
 ---

@@ -329,7 +329,7 @@ The fix likely requires DNS or Cloudflare configuration changes rather than just
 
 _**Agent (auto-low)**_
 
-Root redirects, but apex paths 404 — apex looks like it's hitting Apache, not Cloudflare Pages. Checking DNS and how `_redirects` is deployed.
+Root redirects, but apex paths 404 - apex looks like it's hitting Apache, not Cloudflare Pages. Checking DNS and how `_redirects` is deployed.
 
 
 _**Agent (auto-low)**_
@@ -1593,14 +1593,14 @@ Your zone confirms the issue: **`www` is correct; apex is not.**
 
 | Record | Current | Problem |
 |--------|---------|---------|
-| `www.jorap.com` | CNAME → `jorapdotcom.pages.dev` | Good — hits Cloudflare Pages |
-| `jorap.com` | A → `68.66.224.27` | Bad — hits old cPanel/Apache (homepage redirects, paths 404) |
+| `www.jorap.com` | CNAME → `jorapdotcom.pages.dev` | Good - hits Cloudflare Pages |
+| `jorap.com` | A → `68.66.224.27` | Bad - hits old cPanel/Apache (homepage redirects, paths 404) |
 
 The `_redirects` fix in the repo only works once apex traffic reaches Cloudflare Pages. Right now it never does.
 
 ---
 
-## Option A — Quick fix (keep DNS on supercp)
+## Option A - Quick fix (keep DNS on supercp)
 
 No DNS changes. Fix the redirect on the cPanel host that owns `68.66.224.27`.
 
@@ -1623,21 +1623,21 @@ This works immediately and does not touch email (MX still points at cPanel).
 
 ---
 
-## Option B — Proper fix (apex on Cloudflare Pages)
+## Option B - Proper fix (apex on Cloudflare Pages)
 
 Cloudflare Pages needs **apex DNS on Cloudflare** (CNAME flattening). You cannot reliably point apex to Pages with a plain A record on external DNS.
 
-### Step 1 — Add the domain in Pages
+### Step 1 - Add the domain in Pages
 
 Cloudflare Dashboard → **Pages** → `jorap-com` → **Custom domains** → add `jorap.com` (in addition to `www.jorap.com`).
 
-### Step 2 — Move DNS to Cloudflare
+### Step 2 - Move DNS to Cloudflare
 
 1. Add `jorap.com` as a zone in Cloudflare.
 2. Import/copy your existing records (mail, subdomains, etc.).
 3. At your registrar, change nameservers from `ns1–4.supercp.com` to Cloudflare’s pair.
 
-### Step 3 — Fix mail before apex leaves cPanel
+### Step 3 - Fix mail before apex leaves cPanel
 
 Your MX currently delivers to `jorap.com`, which resolves via the apex A record. If apex moves to Pages, mail breaks unless you fix this first:
 
@@ -1648,11 +1648,11 @@ Your MX currently delivers to `jorap.com`, which resolves via the apex A record.
 
 Leave SPF/DKIM as-is (`ip4:68.66.224.27` still matches the mail server).
 
-### Step 4 — Let Cloudflare wire apex to Pages
+### Step 4 - Let Cloudflare wire apex to Pages
 
 Once the zone is on Cloudflare and `jorap.com` is added in Pages, Cloudflare creates the apex record automatically (CNAME flattening to `jorapdotcom.pages.dev`). **Do not** manually set apex A to `68.66.224.27` or random Cloudflare IPs.
 
-### Step 5 — Deploy the repo change
+### Step 5 - Deploy the repo change
 
 Deploy `static/_redirects` (already in the repo). After deploy, Pages will 301 all `jorap.com/*` → `www.jorap.com/*`.
 
@@ -1660,9 +1660,9 @@ Deploy `static/_redirects` (already in the repo). After deploy, Pages will 301 a
 
 ## What not to change
 
-- **`www.jorap.com` CNAME** — already correct
-- **Mail-related records** (`webmail`, `cpanel`, `autodiscover`, etc.) — keep on `68.66.224.27` unless you migrate mail
-- **`wiki.jorap.com` / `ideas.jorap.com`** — already on Pages; leave as-is
+- **`www.jorap.com` CNAME** - already correct
+- **Mail-related records** (`webmail`, `cpanel`, `autodiscover`, etc.) - keep on `68.66.224.27` unless you migrate mail
+- **`wiki.jorap.com` / `ideas.jorap.com`** - already on Pages; leave as-is
 
 ---
 
@@ -1678,7 +1678,7 @@ curl -sI https://jorap.com/blog | grep -E 'HTTP|Location'
 # expect: 301 → https://www.jorap.com/blog
 ```
 
-Which path do you want — quick cPanel redirect, or full Cloudflare DNS migration? I can walk through either step by step.
+Which path do you want - quick cPanel redirect, or full Cloudflare DNS migration? I can walk through either step by step.
 
 ---
 
@@ -1731,6 +1731,6 @@ _**Agent (auto-low)**_
 
 Good to hear.
 
-The repo change (`static/_redirects` so apex → www rules deploy with the site) is still local if you haven’t pushed yet. Once that’s deployed and apex DNS points at Cloudflare Pages, path redirects like `/blog` and `/admin` will be handled there too — not just the homepage.
+The repo change (`static/_redirects` so apex → www rules deploy with the site) is still local if you haven’t pushed yet. Once that’s deployed and apex DNS points at Cloudflare Pages, path redirects like `/blog` and `/admin` will be handled there too - not just the homepage.
 
 If you want, I can commit the redirect changes.

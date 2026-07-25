@@ -56,6 +56,14 @@ cards:
     back: "Trace the warmup drill - not 'focus harder.'"
   - front: "Busy Friday and the restaurant just ran out of rice mid-rush."
     back: "Fix prep checklist - not 'cook faster.'"
+  - front: "Turnover sermon again - never touched the warmup drill."
+    back: "Trace the drill - not yell focus."
+  - front: "Rush hour - yell cook faster instead of fixing prep."
+    back: "Checklist before open - not hero speed."
+  - front: "Lost possession - players just don't care."
+    back: "Find the system leak - one fix."
+  - front: "Blame the rookie - pattern's in the playbook."
+    back: "Fix the process - stop pinching people."
 draft: false
 ---
 

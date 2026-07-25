@@ -20,7 +20,7 @@ Applying the impeccable design/UX critique skill to audit the site. Reviewing th
 
 _**Agent (grok-4.5)**_
 
-Broad question — I'll load the design critique skill and skim the site structure so recommendations match what you actually have.
+Broad question - I'll load the design critique skill and skim the site structure so recommendations match what you actually have.
 
 _**Agent (grok-4.5)**_
 
@@ -468,7 +468,7 @@ The homepage still contains Hugoplate starter template content. The live site st
 
 _**Agent (grok-4.5)**_
 
-Homepage still looks like Hugoplate starter copy — checking what actually ships and where the brand surface is weakest.
+Homepage still looks like Hugoplate starter copy - checking what actually ships and where the brand surface is weakest.
 
 _**Agent (grok-4.5)**_
 
@@ -567,7 +567,7 @@ Checking the About and Contact pages. Verifying whether the home intro renders c
 
 Found several gaps between the product vision and live site. The homepage still carries Hugoplate starter banner copy despite having a custom intro parameter. The site mixes a notes garden with a blog, which conflicts with the personal brand goal. Inter-only typography is in DESIGN.md but brand.md rejects it, creating a clash with identity preservation. The home proof section is currently disabled. Also checking GA placeholders, draft posts, and content mix issues.
 
-The content mix—Marvel Snap, tennis, recipes, and Facebook tips—clashes with the hireable clarity goal. Many posts remain drafts with double underscores. The Google Analytics ID is still a placeholder. The Contact link is commented out of the main navigation. The warm cream aesthetic was deliberately chosen over AI defaults. Recommendations will be prioritized by alignment with the product purpose.
+The content mix-Marvel Snap, tennis, recipes, and Facebook tips-clashes with the hireable clarity goal. Many posts remain drafts with double underscores. The Google Analytics ID is still a placeholder. The Contact link is commented out of the main navigation. The warm cream aesthetic was deliberately chosen over AI defaults. Recommendations will be prioritized by alignment with the product purpose.
 </details></think>
 
 _**Agent (grok-4.5)**_
@@ -678,7 +678,7 @@ Contact is missing from the main navigation. There are no case studies or portfo
 
 _**Agent (grok-4.5)**_
 
-The site’s own brief says success is **client trust**, not a polished PKM demo. Against that bar, the biggest gaps are positioning and proof — not more notes features.
+The site’s own brief says success is **client trust**, not a polished PKM demo. Against that bar, the biggest gaps are positioning and proof - not more notes features.
 
 ### Highest leverage (hireability)
 
@@ -686,7 +686,7 @@ The site’s own brief says success is **client trust**, not a polished PKM demo
 
 2. **Add proof clients can skim.** `home_proof` is off, and there’s no case-study / “sites I’ve shipped” surface. Three short outcomes (problem → what you did → result) would do more for credibility than another blog post about RSS or Facebook Favorites.
 
-3. **Curate the public writing for buyers.** Homepage “Writing for site owners” mixes strong client-adjacent pieces with lifestyle/social posts. Keep personal posts, but don’t lead with them. Prefer posts that show judgment on WordPress, hosting, migrations, AI-in-builds — the work you sell.
+3. **Curate the public writing for buyers.** Homepage “Writing for site owners” mixes strong client-adjacent pieces with lifestyle/social posts. Keep personal posts, but don’t lead with them. Prefer posts that show judgment on WordPress, hosting, migrations, AI-in-builds - the work you sell.
 
 4. **Clarify Blog vs Notes for a stranger.** Notes (graph, flashcards, 200+ notes) is impressive engineering and also easy to read as hobby tooling. Either frame Notes as “how I think” in one sentence on `/notes/`, or keep it secondary in nav so clients don’t land in a second product before they understand you.
 
@@ -698,13 +698,13 @@ The site’s own brief says success is **client trust**, not a polished PKM demo
 
 ### Hygiene / trust leaks
 
-7. **Finish the client path in chrome.** Contact is in the footer but commented out of main nav — for a freelance site, Contact should be one click from everywhere.
+7. **Finish the client path in chrome.** Contact is in the footer but commented out of main nav - for a freelance site, Contact should be one click from everywhere.
 8. **Kill leftover template / placeholder config** (GA `G-MEASUREMENT_ID`, unused Hugoplate banner fields, Elements page if it’s still reachable).
-9. **Draft debt:** dozens of `__*.md` blog drafts — fine privately; don’t let unfinished SEO/title patterns leak into sitemaps or mental clutter if any are accidentally published.
+9. **Draft debt:** dozens of `__*.md` blog drafts - fine privately; don’t let unfinished SEO/title patterns leak into sitemaps or mental clutter if any are accidentally published.
 
 ### What *not* to prioritize
 
-Notes graph filters, flashcards, random duo — already rich. More garden tooling won’t move “I’d hire this person.” Ship proof and a sharper first screen first.
+Notes graph filters, flashcards, random duo - already rich. More garden tooling won’t move “I’d hire this person.” Ship proof and a sharper first screen first.
 
 ---
 
@@ -728,7 +728,7 @@ Scanning the full tree now. Findings will be ranked by largest cuts first. Tags 
 
 _**Agent (grok-4.5)**_
 
-Scanning the repo for over-engineering — biggest cuts first, no fixes applied.
+Scanning the repo for over-engineering - biggest cuts first, no fixes applied.
 
 _**Agent (grok-4.5)**_
 
@@ -890,7 +890,7 @@ Parameters:
   "description": "Audit notes/theme bloat",
   "model": "composer-2.5-fast",
   "name": "explore",
-  "prompt": "You are doing a ponytail-audit (over-engineering only) of /home/jorap/Documents/GitHub/jorap.com. Read-only. Do NOT modify files.\n\nFocus areas:\n1. assets/js/* — especially notes-*.js, randomizer, gallery-slider, share, touch-controls. For each file: line count, whether it's loaded on every page or only some, and whether features look speculative/unused.\n2. layouts/_partials/notes/* — count partials; find thin wrappers, one-caller abstractions, duplicate TOC/related patterns vs blog.\n3. themes/jorap leftover Hugoplate: banner.html, features.html, testimonials.html, language-switcher, google-map, swiper — are they still referenced from live layouts/home?\n4. Duplicate CSS: assets/css/custom.css vs themes/jorap/assets/css/custom.css\n5. scripts/*.py and scripts/*.mjs — which look like one-off tooling vs required for deploy\n6. static/admin, functions/api — CMS complexity\n7. package.json deps: pixi.js, concurrently, prettier plugins, tailwind-bootstrap-grid — is bootstrap grid actually used?\n\nReturn a ranked list of concrete cut candidates in this exact format (one line each):\n`\u003ctag\u003e \u003cwhat to cut\u003e. \u003creplacement\u003e. [path]`\nTags: delete:, stdlib:, native:, yagni:, shrink:\nInclude rough line counts where possible. Also note any \"keep\" items that look heavy but earn their keep (e.g. deploy CSP).\n\nBe thorough on dead Hugoplate remnants and notes garden overbuild.",
+  "prompt": "You are doing a ponytail-audit (over-engineering only) of /home/jorap/Documents/GitHub/jorap.com. Read-only. Do NOT modify files.\n\nFocus areas:\n1. assets/js/* - especially notes-*.js, randomizer, gallery-slider, share, touch-controls. For each file: line count, whether it's loaded on every page or only some, and whether features look speculative/unused.\n2. layouts/_partials/notes/* - count partials; find thin wrappers, one-caller abstractions, duplicate TOC/related patterns vs blog.\n3. themes/jorap leftover Hugoplate: banner.html, features.html, testimonials.html, language-switcher, google-map, swiper - are they still referenced from live layouts/home?\n4. Duplicate CSS: assets/css/custom.css vs themes/jorap/assets/css/custom.css\n5. scripts/*.py and scripts/*.mjs - which look like one-off tooling vs required for deploy\n6. static/admin, functions/api - CMS complexity\n7. package.json deps: pixi.js, concurrently, prettier plugins, tailwind-bootstrap-grid - is bootstrap grid actually used?\n\nReturn a ranked list of concrete cut candidates in this exact format (one line each):\n`\u003ctag\u003e \u003cwhat to cut\u003e. \u003creplacement\u003e. [path]`\nTags: delete:, stdlib:, native:, yagni:, shrink:\nInclude rough line counts where possible. Also note any \"keep\" items that look heavy but earn their keep (e.g. deploy CSP).\n\nBe thorough on dead Hugoplate remnants and notes garden overbuild.",
   "subagentType": "explore"
 }
 ```
@@ -1318,37 +1318,37 @@ _**Agent (grok-4.5)**_
 
 `delete:` Eager Glightbox + `gallery-slider.js` on every page for the same niche use. Per-page load or remove gallery shortcode. [`hugo.toml`, `assets/js/gallery-slider.js`, gallery-slider module]
 
-`native:` `pixi.js` + `notes-graph.js` (~1,534 lines, ~527KB bundle). Canvas/SVG force graph — or drop graph if Obsidian parity isn’t a product goal. [`assets/js/notes-graph.js`, `package.json`]
+`native:` `pixi.js` + `notes-graph.js` (~1,534 lines, ~527KB bundle). Canvas/SVG force graph - or drop graph if Obsidian parity isn’t a product goal. [`assets/js/notes-graph.js`, `package.json`]
 
 `delete:` Orphan Hugoplate sections: banner, features, testimonials, blog-list, call-to-action (~169 lines). Nothing calls them from live `home.html`. [`themes/jorap/layouts/_partials/sections/`, `themes/jorap/layouts/_partials/call-to-action.html`]
 
-`delete:` `home-proof.html` + `[home_proof]` params — not wired in `home.html` even when enabled. Nothing. [`themes/jorap/layouts/_partials/sections/home-proof.html`, `config/_default/params.toml`]
+`delete:` `home-proof.html` + `[home_proof]` params - not wired in `home.html` even when enabled. Nothing. [`themes/jorap/layouts/_partials/sections/home-proof.html`, `config/_default/params.toml`]
 
-`delete:` `randomizer-maintain.py` (~1,981 lines) — maintainer tool, not deploy. Archive outside repo. [`scripts/randomizer-maintain.py`]
+`delete:` `randomizer-maintain.py` (~1,981 lines) - maintainer tool, not deploy. Archive outside repo. [`scripts/randomizer-maintain.py`]
 
 `yagni:` One-shot scripture/migration Python (~2,000+ lines: `apply-jesus-*`, `apply-nasb-*`, `build-*-db`, `normalize-verse-*`, `build-grade1-quiz`, `seed-note-shareable-thought`). `scripts/archive/` or delete. [`scripts/`]
 
 `delete:` Disabled Hugo modules still vendored: font-awesome (icons are SVG), preloader, announcement. Drop imports + params. [`config/_default/module.toml`, `params.toml`]
 
-`delete:` `google-map.js` (~179) + contact map — `google_map.enable = false`. Nothing. [`themes/jorap/assets/plugins/maps/`, contact layout]
+`delete:` `google-map.js` (~179) + contact map - `google_map.enable = false`. Nothing. [`themes/jorap/assets/plugins/maps/`, contact layout]
 
-`delete:` `language-switcher.html` — single-language site, never renders. Nothing. [`themes/jorap/layouts/_partials/components/language-switcher.html`]
+`delete:` `language-switcher.html` - single-language site, never renders. Nothing. [`themes/jorap/layouts/_partials/components/language-switcher.html`]
 
 `yagni:` Random-note JS split (~1,066 lines across core/single/duo/select/featured). One `notes-random.js` with `data-mode`. [`assets/js/notes-random-*.js`, `notes-featured-random.js`]
 
 `delete:` Dead notes partials (~97 lines): `has-cards`, `recent-updated`, `lint-note-issues`. Nothing (lint via Python scripts). [`layouts/_partials/notes/`]
 
-`yagni:` `cards-data.html` (27) — one caller. Inline `collect-cards` in `review.html`. [`layouts/_partials/notes/cards-data.html`]
+`yagni:` `cards-data.html` (27) - one caller. Inline `collect-cards` in `review.html`. [`layouts/_partials/notes/cards-data.html`]
 
-`shrink:` Parallel TOC extras — `notes/toc.html` (90) vs `blog/toc.html` (42). Shared extras partial. [`layouts/_partials/notes/toc.html`, `layouts/_partials/blog/toc.html`]
+`shrink:` Parallel TOC extras - `notes/toc.html` (90) vs `blog/toc.html` (42). Shared extras partial. [`layouts/_partials/notes/toc.html`, `layouts/_partials/blog/toc.html`]
 
-`shrink:` Mirrored search helpers — `search.js` (547) + `search-core.mjs` (72). One shared module. [`assets/js/search.js`, `scripts/search-core.mjs`]
+`shrink:` Mirrored search helpers - `search.js` (547) + `search-core.mjs` (72). One shared module. [`assets/js/search.js`, `scripts/search-core.mjs`]
 
-`yagni:` CMS stack (~1,095 lines) if you only edit via git — `static/admin/`, `functions/api/`, `functions/admin/`. Keep if Sveltia is live. [`static/admin/`, `functions/`]
+`yagni:` CMS stack (~1,095 lines) if you only edit via git - `static/admin/`, `functions/api/`, `functions/admin/`. Keep if Sveltia is live. [`static/admin/`, `functions/`]
 
 `shrink:` Root vs theme `essentials/` override forks (~header/style/script/footer). One override layer. [`layouts/_partials/essentials/`, `themes/jorap/layouts/_partials/essentials/`]
 
-`delete:` `test-responsive.mjs` (204) — not in CI. Nothing, or fold into one smoke script. [`scripts/test-responsive.mjs`]
+`delete:` `test-responsive.mjs` (204) - not in CI. Nothing, or fold into one smoke script. [`scripts/test-responsive.mjs`]
 
 **net: ~-16k lines possible (mostly Swiper + one-off scripts), -1 dep possible (`pixi.js` if graph goes).** Quick wins without touching graph/CMS: Swiper/Glightbox global load + dead Hugoplate + dead notes partials + disabled modules.
 
@@ -1362,13 +1362,13 @@ yagni: Random-note JS split (~1,066 lines across core/single/duo/select/featured
 
 delete: Dead notes partials (~97 lines): has-cards, recent-updated, lint-note-issues. Nothing (lint via Python scripts). [layouts/_partials/notes/]
 
-yagni: cards-data.html (27) — one caller. Inline collect-cards in review.html. [layouts/_partials/notes/cards-data.html]
+yagni: cards-data.html (27) - one caller. Inline collect-cards in review.html. [layouts/_partials/notes/cards-data.html]
 
-shrink: Parallel TOC extras — notes/toc.html (90) vs blog/toc.html (42). Shared extras partial. [layouts/_partials/notes/toc.html, layouts/_partials/blog/toc.html]
+shrink: Parallel TOC extras - notes/toc.html (90) vs blog/toc.html (42). Shared extras partial. [layouts/_partials/notes/toc.html, layouts/_partials/blog/toc.html]
 
-shrink: Mirrored search helpers — search.js (547) + search-core.mjs (72). One shared module. [assets/js/search.js, scripts/search-core.mjs]
+shrink: Mirrored search helpers - search.js (547) + search-core.mjs (72). One shared module. [assets/js/search.js, scripts/search-core.mjs]
 
-delete: test-responsive.mjs (204) — not in CI. Nothing, or fold into one smoke script. [scripts/test-responsive.mjs]
+delete: test-responsive.mjs (204) - not in CI. Nothing, or fold into one smoke script. [scripts/test-responsive.mjs]
 
 
 ---
@@ -1710,7 +1710,7 @@ The notes-random.js files will merge into a single script. Core helpers stay sha
 
 Merging the random-note scripts into one file is safe. Every page would load the full ~1,066 lines, but that overhead is acceptable for fewer files.
 
-The dead partials—has-cards, recent-updated, and lint-note-issues—will be deleted.
+The dead partials-has-cards, recent-updated, and lint-note-issues-will be deleted.
 
 The cards-data partial will be inlined into review.html. Its JSON-shaping logic is only 27 lines.
 
@@ -1865,9 +1865,9 @@ For the TOC extras, a shared partial will accept a mode or extra list instead of
 
 The TOC extras differ significantly between notes and blog. Notes adds flashcards and backlinks, while blog only shows related notes. A full shared partial would be over-engineered. A simpler lazy shrink is better: a single partial that takes an extras slice and returns raw HTML list items.
 
-Refining the TOC extras strategy. A thin shared partial will handle the common extras—related posts and random note generation—while notes and blog keep their unique extras and heading parsing. Related notes is blog-only, so the shared partial must account for that difference.
+Refining the TOC extras strategy. A thin shared partial will handle the common extras-related posts and random note generation-while notes and blog keep their unique extras and heading parsing. Related notes is blog-only, so the shared partial must account for that difference.
 
-Finalized the TOC extras extraction. A `toc-extra-lis.html` partial will render extras as raw HTML list items. A `toc-end-extras.html` partial will return a slice of common extras—related posts and random notes—with optional flags. Both notes and blog will call this shared helper, then append their own unique extras afterward.
+Finalized the TOC extras extraction. A `toc-extra-lis.html` partial will render extras as raw HTML list items. A `toc-end-extras.html` partial will return a slice of common extras-related posts and random notes-with optional flags. Both notes and blog will call this shared helper, then append their own unique extras afterward.
 
 Confirmed `cards-data.html` is only used in `review.html`, so its logic can be inlined and the partial deleted. Dead partials
 </details></think>
@@ -3824,7 +3824,7 @@ The cuts were already committed as "Update" (09ad1ca). The working tree is clean
 
 _**Agent (grok-4.5)**_
 
-The ponytail cuts are in — already committed locally as `09ad1ca` (“Update”), one commit ahead of `origin/master`.
+The ponytail cuts are in - already committed locally as `09ad1ca` (“Update”), one commit ahead of `origin/master`.
 
 Scripture/migration Python is under `scripts/archive/`, random-note JS is one file, dead notes partials are gone, TOC/search helpers are shared, and `test-responsive` is removed. Build and search tests passed when that landed.
 
@@ -3874,4 +3874,4 @@ Notifications about aborted background shell tasks from the earlier ponytail-aud
 
 _**Agent (grok-4.5)**_
 
-Those were leftover background shells from the ponytail cleanup (reference hunt / status checks). They were aborted and don’t affect the result — the cuts are already in commit `09ad1ca` on `master`.
+Those were leftover background shells from the ponytail cleanup (reference hunt / status checks). They were aborted and don’t affect the result - the cuts are already in commit `09ad1ca` on `master`.

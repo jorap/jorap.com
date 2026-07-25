@@ -51,6 +51,10 @@ cards:
     back: "Export plain text - test the backup drive now."
   - front: "Grandma's recipes in an app that might vanish. Boring format wins - where do they live?"
     back: "Index cards in a tin - portable either way."
+  - front: "Team roster locked in an app that might shut down next year."
+    back: "Export to plain text - test the move this month."
+  - front: "Notes app dying - my whole garden trapped inside it."
+    back: "Export now - open files in another tool."
 draft: false
 ---
 

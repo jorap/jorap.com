@@ -559,7 +559,7 @@ cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/build-scripture-nas
 ```
 
 ```
-Wrote /home/jorap/Documents/GitHub/jorap.com/data/scripture-nasb1995.yaml — 31103 verses
+Wrote /home/jorap/Documents/GitHub/jorap.com/data/scripture-nasb1995.yaml - 31103 verses
 Traceback (most recent call last):
   File "/home/jorap/Documents/GitHub/jorap.com/scripts/build-scripture-nasb1995-db.py", line 153, in <module>
     main()
@@ -634,7 +634,7 @@ cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/build-scripture-nas
 ```
 
 ```
-Wrote /home/jorap/Documents/GitHub/jorap.com/data/scripture-nasb1995.yaml — 31103 verses
+Wrote /home/jorap/Documents/GitHub/jorap.com/data/scripture-nasb1995.yaml - 31103 verses
 155592 data/scripture-nasb1995.yaml
 6.3M	data/scripture-nasb1995.yaml
 
@@ -863,7 +863,7 @@ The jburson data contains multiple entries per verse reference. Each entry inclu
 
 _**Agent (auto-low)**_
 
-Section headings in the source were overwriting verse text — I'll skip those entries in the build script.
+Section headings in the source were overwriting verse text - I'll skip those entries in the build script.
 
 
 _**Agent (auto-low)**_
@@ -918,7 +918,7 @@ PY
 ```
 
 ```
-Wrote /home/jorap/Documents/GitHub/jorap.com/data/scripture-nasb1995.yaml — 31103 verses
+Wrote /home/jorap/Documents/GitHub/jorap.com/data/scripture-nasb1995.yaml - 31103 verses
 NASB diffs vs jesus-words: 0
 
 ```
@@ -1040,7 +1040,7 @@ cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/build-scripture-nas
 ```
 
 ```
-Wrote /home/jorap/Documents/GitHub/jorap.com/data/scripture-nasb1995.yaml — 31103 verses
+Wrote /home/jorap/Documents/GitHub/jorap.com/data/scripture-nasb1995.yaml - 31103 verses
 
 ```
 </details></tool-use>
@@ -1110,7 +1110,7 @@ Both YAML files share the same lookup pattern:
 | `verses["Book C:V"].nasb1995.words` | Red-letter portion only |
 | `verses["Book C:V"].nasb1995.full` | `true` when the whole verse is Jesus' words |
 
-Range refs like `Matthew 7:7-11` work by iterating single verses — same logic as `jesus-words.html`.
+Range refs like `Matthew 7:7-11` work by iterating single verses - same logic as `jesus-words.html`.
 
 Regenerate anytime with:
 
@@ -1143,7 +1143,7 @@ Hugo's Go YAML parser likely hit a limit on aliases or anchors. Duplicate keys o
 
 _**Agent (auto-low)**_
 
-Hugo's YAML parser is choking on the file — I'll check for anchors/aliases and how Hugo loads this data.
+Hugo's YAML parser is choking on the file - I'll check for anchors/aliases and how Hugo loads this data.
 
 
 _**Agent (auto-low)**_
@@ -1433,7 +1433,7 @@ wc -l /home/jorap/Documents/GitHub/jorap.com/data/scripture-nasb1995.yaml && du 
 ```
 179 /home/jorap/Documents/GitHub/jorap.com/data/scripture-nasb1995.yaml
 20K	/home/jorap/Documents/GitHub/jorap.com/data/scripture-nasb1995.yaml
-# NASB 1995 — canonical wording for direct scripture quotes in the notes garden.
+# NASB 1995 - canonical wording for direct scripture quotes in the notes garden.
 # Commentary stays JoRap voice; quoted text matches this file.
 verses:
   "Matthew 5:14-16":
@@ -1486,7 +1486,7 @@ No YAML anchors were found in the file. The alias limit likely counts Go map and
 
 _**Agent (auto-low)**_
 
-The full Bible YAML is tripping Hugo's alias limit — I'll reproduce it and switch to a format Hugo can load.
+The full Bible YAML is tripping Hugo's alias limit - I'll reproduce it and switch to a format Hugo can load.
 
 
 _**Agent (auto-low)**_
@@ -1498,7 +1498,7 @@ cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/build-scripture-nas
 ```
 
 ```
-Wrote /home/jorap/Documents/GitHub/jorap.com/data/scripture-nasb1995.yaml — 31103 verses
+Wrote /home/jorap/Documents/GitHub/jorap.com/data/scripture-nasb1995.yaml - 31103 verses
 WARN  jesus-words shortcode on "/notes/standing-vs-fellowship/": no NASB1995 entry for "John 10:28"
 WARN  jesus-words shortcode on "/notes/success-is-stewardship/": no NASB1995 entry for "Matthew 25:21"
 WARN  jesus-words shortcode on "/notes/take-up-your-cross/": no NASB1995 entry for "Luke 9:23"
@@ -1789,7 +1789,7 @@ The build script will generate JSON only. Python scripts will read JSON instead 
 
 _**Agent (auto-low)**_
 
-JSON loads fine in Hugo — YAML hits an alias limit. I'll switch the build script and consumers to JSON.
+JSON loads fine in Hugo - YAML hits an alias limit. I'll switch the build script and consumers to JSON.
 
 
 _**Agent (auto-low)**_
@@ -1928,7 +1928,7 @@ cd /home/jorap/Documents/GitHub/jorap.com && rm -f data/scripture-nasb1995.yaml 
 ```
 
 ```
-Wrote /home/jorap/Documents/GitHub/jorap.com/data/scripture-nasb1995.json — 31103 verses
+Wrote /home/jorap/Documents/GitHub/jorap.com/data/scripture-nasb1995.json - 31103 verses
 
                   │  EN  
 ──────────────────┼──────
@@ -1947,7 +1947,7 @@ Total in 17092 ms
 
 _**Agent (auto-low)**_
 
-Hugo v0.163 rejects large YAML data files — it enforces an alias limit on nested structures (~31k verses trips it). The data structure is unchanged; only the on-disk format moved.
+Hugo v0.163 rejects large YAML data files - it enforces an alias limit on nested structures (~31k verses trips it). The data structure is unchanged; only the on-disk format moved.
 
 **Fix:** `data/scripture-nasb1995.json` instead of `.yaml`
 
@@ -1961,7 +1961,7 @@ Regenerate with:
 python3 scripts/build-scripture-nasb1995-db.py
 ```
 
-Your standardized shortcode can use the same lookup on both files — only the Hugo data key differs (`jesus-words` vs `scripture-nasb1995`).
+Your standardized shortcode can use the same lookup on both files - only the Hugo data key differs (`jesus-words` vs `scripture-nasb1995`).
 
 ---
 
@@ -1990,7 +1990,7 @@ Preparing a brief update on the task result.
 
 _**Agent (auto-low)**_
 
-The Hugo error is fixed. Hugo v0.163 won’t load a 31k-verse YAML file — it hits an internal alias limit on large nested structures.
+The Hugo error is fixed. Hugo v0.163 won’t load a 31k-verse YAML file - it hits an internal alias limit on large nested structures.
 
 The full NASB 1995 Bible now lives in `data/scripture-nasb1995.json` with the same structure as `jesus-words.yaml`. Hugo loads it at `hugo.Data.scripture_nasb1995`, and the site builds cleanly.
 
@@ -2361,7 +2361,7 @@ The `jesus-words` class will be applied whenever the reference is a gospel book,
 
 _**Agent (auto-low)**_
 
-The current shortcode mishandles numbered books and only reads one data file — I'll add a universal `bible` shortcode with a shared partial and keep `jesus-words` as a thin alias.
+The current shortcode mishandles numbered books and only reads one data file - I'll add a universal `bible` shortcode with a shared partial and keep `jesus-words` as a thin alias.
 
 
 _**Agent (auto-low)**_
@@ -2559,7 +2559,7 @@ Added a universal `{{< bible >}}` shortcode. Logic lives in `layouts/partials/sh
 - **KJV / BSB** → `jesus-words.yaml` only (Gospels + Acts)
 - Gospel books (Matthew–John) render red via `.jesus-words`; everything else uses plain `.scripture-verse`
 
-Build is clean — all 50+ existing `jesus-words` shortcodes render without warnings.
+Build is clean - all 50+ existing `jesus-words` shortcodes render without warnings.
 
 ---
 
@@ -3122,8 +3122,8 @@ Scripture verses now split text and reference:
 </p>
 ```
 
-- **Verse text** — left-aligned
-- **Reference** — right-aligned on its own line
+- **Verse text** - left-aligned
+- **Reference** - right-aligned on its own line
 - Gospel quotes still render red via `.jesus-words` on the text span
 
 Updated in the `bible` shortcode, `render-content.html` (inline NASB paragraphs in notes), and `custom.css`.
@@ -3260,7 +3260,7 @@ Earlier builds rendered the spans correctly. The user may be viewing stale cache
 
 _**Agent (auto-low)**_
 
-That HTML still uses the old single-line format — I'll trace where it's coming from and fix the render path.
+That HTML still uses the old single-line format - I'll trace where it's coming from and fix the render path.
 
 
 _**Agent (auto-low)**_
@@ -3858,7 +3858,7 @@ _**Agent (auto-low)**_
 
 _**Agent (auto-low)**_
 
-Fixed. The only `site.Data` usage was in `layouts/randomizer.html` — switched to `hugo.Data.randomizer`. Hugo build completes with no deprecation warning now.
+Fixed. The only `site.Data` usage was in `layouts/randomizer.html` - switched to `hugo.Data.randomizer`. Hugo build completes with no deprecation warning now.
 
 ---
 
@@ -3902,4 +3902,4 @@ Preparing a brief update on the completed shell task results.
 
 _**Agent (auto-low)**_
 
-The Hugo deprecation warning is resolved. `layouts/randomizer.html` was the only template still using `site.Data` — it now uses `hugo.Data.randomizer`. The build completes cleanly with no warning.
+The Hugo deprecation warning is resolved. `layouts/randomizer.html` was the only template still using `site.Data` - it now uses `hugo.Data.randomizer`. The build completes cleanly with no warning.

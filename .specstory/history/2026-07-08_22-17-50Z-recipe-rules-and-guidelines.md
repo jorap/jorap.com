@@ -869,7 +869,7 @@ The only explicit recipe-specific guidance is in `.cursor/skills/jorap-voice/SKI
 
 **Recipe posts (variant)**
 - The method can be instructional: ingredients, steps, timings.
-- Section intros should still sound human — no generic food-blog filler (“This delicious recipe will tantalize your taste buds”).
+- Section intros should still sound human - no generic food-blog filler (“This delicious recipe will tantalize your taste buds”).
 - “Why this method” sections stay in JoRap voice.
 - The recipe itself should stay scannable.
 
@@ -885,7 +885,7 @@ Everything else in that skill’s **blog post checklist** still applies:
 
 | What | Rule |
 |------|------|
-| **Location** | `content/english/blog/` — standard blog template, no custom layout |
+| **Location** | `content/english/blog/` - standard blog template, no custom layout |
 | **Drafts** | `__filename.md`, `draft: true`, `slug` set to the publish name |
 | **Categories** | Existing recipes use `["Food", "Recipes", "Filipino"]` |
 | **Tags** | Descriptive food/cooking tags (see `instant-pot-chicken-adobo.md`, `set-it-forget-it-arroz-caldo.md`) |
@@ -895,12 +895,12 @@ Everything else in that skill’s **blog post checklist** still applies:
 
 Both published recipes follow a similar structure:
 
-1. **Personal opener** — why you make this, when you make it
-2. **Why this method** — e.g. “Why I use the Instant Pot for adobo”
-3. **Ingredients** — grouped subsections (chicken, marinade, liquids, optional items)
-4. **Method** — numbered steps with timings and equipment notes
+1. **Personal opener** - why you make this, when you make it
+2. **Why this method** - e.g. “Why I use the Instant Pot for adobo”
+3. **Ingredients** - grouped subsections (chicken, marinade, liquids, optional items)
+4. **Method** - numbered steps with timings and equipment notes
 
-**Practical consistency rule** (from your recent adobo edit): measurements in the Method should match the Ingredients list — repeat amounts in steps, don’t make the reader flip back.
+**Practical consistency rule** (from your recent adobo edit): measurements in the Method should match the Ingredients list - repeat amounts in steps, don’t make the reader flip back.
 
 ## What’s *not* in place
 

@@ -238,11 +238,11 @@ Vocabulary: `pnpm lint:voice` (`data/voice-words.yaml`). Structure: `pnpm lint:s
 - `users should` / `one might` / `it is recommended`
 - `key_concept` line 1 opens like a dictionary ("This is a framework for…")
 
-**Warn** — fix when you can:
+**Warn** - fix when you can:
 - Parallel bullets sharing the same first word in `key_concept`
-- `## Bottom line` in note body (essay closer — cut)
+- `## Bottom line` in note body (essay closer - cut)
 
-**Field-specific:** `description` stays third-person — slop there is textbook tone, not first-person advice. `examples` and `cards` need the most lived-in detail.
+**Field-specific:** `description` stays third-person - slop there is textbook tone, not first-person advice. `examples` and `cards` need the most lived-in detail.
 
 ## Voice check
 

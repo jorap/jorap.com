@@ -134,7 +134,7 @@ cards:
     back: "Share what you learned - do not bury it."
   - front: "Early win landed and I am tempted to coast on what I was given."
     back: "Steward it - keep using the gift faithfully."
-  - front: "Platform changed the rules overnight and reach vanished. What was I never holding?"
+  - front: "Platform changed the rules overnight and reach vanished - rented land felt like mine."
     back: "Ownership - steward what lasts, not rented land."
 draft: false
 ---

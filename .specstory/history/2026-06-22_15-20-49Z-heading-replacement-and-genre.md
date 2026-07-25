@@ -1365,7 +1365,7 @@ The heuristic script is too flimsy. I will delete it and either use Task subagen
 
 _**Agent (default)**_
 
-Generic templates won't meet the bar — I'll generate tailored examples per note via parallel agents instead.
+Generic templates won't meet the bar - I'll generate tailored examples per note via parallel agents instead.
 
 
 _**Agent (default)**_
@@ -1817,7 +1817,7 @@ Agents are still updating. I'll bump the cache version and process notes in para
 
 _**Agent (default)**_
 
-Processing notes directly while agents run — starting with the first batch.
+Processing notes directly while agents run - starting with the first batch.
 
 
 _**Agent (default)**_
@@ -2254,7 +2254,7 @@ Each bullet is one concrete scene that illustrates the note’s claim in that ge
 
 ### Also updated
 
-- **Meta docs:** `getting-started.md`, `note-relationships.md`, `atomic-notes.md` — rules now describe four genre examples
+- **Meta docs:** `getting-started.md`, `note-relationships.md`, `atomic-notes.md` - rules now describe four genre examples
 - **Hugo lint:** allowed section is `## Examples` (replacing `Example`); issue panel copy updated; cache bumped to `note-issues-v7`
 
 ### Sample
@@ -2262,13 +2262,13 @@ Each bullet is one concrete scene that illustrates the note’s claim in that ge
 ```37:42:content/english/notes/capture.md
 ## Examples
 
-- **Sports:** A play tweak hits during cooldown and I scribble it on my wristband before the locker room noise eats it — one inbox, file it Sunday when the spark is safe.
-- **Non-technical work:** A customer complaint gives me a fix idea mid-shift and I drop it in one inbox — no tagging yet, process it Friday when the spark is already saved.
-- **Home with children:** On the jeepney my kid says something I want to remember and I scribble it on a receipt before the station noise eats it — one pocket notebook, no sorting yet.
-- **Real world:** A commute thought lands and I voice-memo it before the jeepney drowns it out — one trusted pipe, weekly review empties it.
+- **Sports:** A play tweak hits during cooldown and I scribble it on my wristband before the locker room noise eats it - one inbox, file it Sunday when the spark is safe.
+- **Non-technical work:** A customer complaint gives me a fix idea mid-shift and I drop it in one inbox - no tagging yet, process it Friday when the spark is already saved.
+- **Home with children:** On the jeepney my kid says something I want to remember and I scribble it on a receipt before the station noise eats it - one pocket notebook, no sorting yet.
+- **Real world:** A commute thought lands and I voice-memo it before the jeepney drowns it out - one trusted pipe, weekly review empties it.
 ```
 
-`npm run lint:notes` passes — no broken wikilinks from this change. Two pre-existing unlinked mentions remain (unrelated to this edit).
+`npm run lint:notes` passes - no broken wikilinks from this change. Two pre-existing unlinked mentions remain (unrelated to this edit).
 
 ---
 
@@ -2377,7 +2377,7 @@ Updated all 42 garden notes from `/tmp/batch-ac`: each file now has a four-genre
 
 Each note now has `## Examples` with four genre bullets (Sports, Non-technical work, Home with children, Real world). Existing example material was reused or adapted where it fit. Frontmatter and Note Relationships tables were untouched.
 
-Note: `/tmp/batch-ac` ended at `second-order-thinking.md`, not `share-what-you-learn.md` — everything in the batch file was processed.
+Note: `/tmp/batch-ac` ended at `second-order-thinking.md`, not `share-what-you-learn.md` - everything in the batch file was processed.
 </response>
 output_path: /home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/a9a6b8b3-7189-4780-8532-2ac1b50f9546/subagents/25f52012-729e-4ec0-9602-c38ca37c796f.jsonl
 </task>
@@ -2594,21 +2594,21 @@ PY
 ```
 
 ```
-abide-in-me|After a losing streak our captain stopped inventing new speeches and returned to the basics we drilled in preseason — fr
-accountability|After we lost the relay on a bad handoff, the coach named who calls the exchange — not "the whole team messed up." One o
-active-knowledge-curation|Our trainer reviews the drill library every month and cuts what nobody runs anymore — same job as pruning notes that wou
-adaptability|Rain moved our tennis match indoors and we swapped to short courts — same goal of getting reps in, different surface whe
-analog-capture-tools|My phone died mid-game and the pocket notebook still had the set counts — same capture, no battery required.
-anti-fragile-systems|When the gym's booking app shut down for good, my paper training log still had every set — I photocopy it once a quarter
-ask-seek-knock|Before a big match I pray like a kid who won't stop knocking — not because I earned answers, but because He's Dad and I'
-associative-linking|My kid asks why we can't sprint through bedtime and I don't remember which card says "meltdown" — the arrow from "rush" 
-atomic-notes|"Why cleats live by the door" is one claim — I'd say it alone at carpool.
-attention-economy|Halftime on my phone was supposed to be rest — twenty minutes of clips aimed at my outrage, not recovery.
-attention-to-detail|The relay team almost handed off outside the zone because two markers looked identical — the second read of the tape cau
-behavioral-economics|I kept paying for the unused gym membership because "I already paid" — classic sunk cost, not future value on the court.
-break-the-escalation-cycle|A parent yelled at the ref from the sideline and my first instinct was to yell back — I answered the rule, kept my voice
-build-a-reliable-default|The point guard doesn't invent a new inbound play when the gym gets loud — she runs the one they drilled Tuesday. Same m
-building-a-personal-api|Our team names drills the same way every season — level, skill, variation — so a sub can 
+abide-in-me|After a losing streak our captain stopped inventing new speeches and returned to the basics we drilled in preseason - fr
+accountability|After we lost the relay on a bad handoff, the coach named who calls the exchange - not "the whole team messed up." One o
+active-knowledge-curation|Our trainer reviews the drill library every month and cuts what nobody runs anymore - same job as pruning notes that wou
+adaptability|Rain moved our tennis match indoors and we swapped to short courts - same goal of getting reps in, different surface whe
+analog-capture-tools|My phone died mid-game and the pocket notebook still had the set counts - same capture, no battery required.
+anti-fragile-systems|When the gym's booking app shut down for good, my paper training log still had every set - I photocopy it once a quarter
+ask-seek-knock|Before a big match I pray like a kid who won't stop knocking - not because I earned answers, but because He's Dad and I'
+associative-linking|My kid asks why we can't sprint through bedtime and I don't remember which card says "meltdown" - the arrow from "rush" 
+atomic-notes|"Why cleats live by the door" is one claim - I'd say it alone at carpool.
+attention-economy|Halftime on my phone was supposed to be rest - twenty minutes of clips aimed at my outrage, not recovery.
+attention-to-detail|The relay team almost handed off outside the zone because two markers looked identical - the second read of the tape cau
+behavioral-economics|I kept paying for the unused gym membership because "I already paid" - classic sunk cost, not future value on the court.
+break-the-escalation-cycle|A parent yelled at the ref from the sideline and my first instinct was to yell back - I answered the rule, kept my voice
+build-a-reliable-default|The point guard doesn't invent a new inbound play when the gym gets loud - she runs the one they drilled Tuesday. Same m
+building-a-personal-api|Our team names drills the same way every season - level, skill, variation - so a sub can 
 … (output truncated)
 ```
 </details></tool-use>
@@ -2744,7 +2744,7 @@ _**Agent (default)**_
 import re
 from pathlib import Path
 notes = Path(&#34;content/english/notes&#34;)
-em_dash = &#34;—&#34;
+em_dash = &#34;-&#34;
 non_bb_sports = re.compile(r&#39;\b(tennis|soccer|cleats|marathon|relay|swim|pool|football|rugby|volleyball|hockey|golf|cricket|baseball|pitcher|goalkeeper|serve|ace|set piece|corner kick|penalty corner|offside|turf|grass|striker|formation)\b&#39;, re.I)
 for p in sorted(notes.glob(&#34;*.md&#34;)):
     t = p.read_text()
@@ -2767,7 +2767,7 @@ cd /home/jorap/Documents/GitHub/jorap.com && python3 <<'PY'
 import re
 from pathlib import Path
 notes = Path("content/english/notes")
-em_dash = "—"
+em_dash = "-"
 non_bb_sports = re.compile(r'\b(tennis|soccer|cleats|marathon|relay|swim|pool|football|rugby|volleyball|hockey|golf|cricket|baseball|pitcher|goalkeeper|serve|ace|set piece|corner kick|penalty corner|offside|turf|grass|striker|formation)\b', re.I)
 for p in sorted(notes.glob("*.md")):
     t = p.read_text()
@@ -2791,12 +2791,12 @@ PY
 abide-in-me|em-dash×4
 accountability|em-dash×4; non-bb:After we lost the relay on a bad handoff, the coach named who calls the exchange
 active-knowledge-curation|em-dash×4
-adaptability|em-dash×4; non-bb:Rain moved our tennis match indoors and we swapped to short courts — same goal o
+adaptability|em-dash×4; non-bb:Rain moved our tennis match indoors and we swapped to short courts - same goal o
 analog-capture-tools|em-dash×3
 anti-fragile-systems|em-dash×4
 ask-seek-knock|em-dash×4
 associative-linking|em-dash×4
-atomic-notes|em-dash×4; non-bb:"Why cleats live by the door" is one claim — I'd say it alone at carpool.
+atomic-notes|em-dash×4; non-bb:"Why cleats live by the door" is one claim - I'd say it alone at carpool.
 attention-economy|em-dash×4
 attention-to-detail|em-dash×4; non-bb:The relay team almost handed off outside the zone because two markers looked ide
 behavioral-economics|em-dash×4
@@ -2811,15 +2811,15 @@ coaching-ethics|em-dash×4
 commonplace-book|em-dash×4
 complete-the-cycle|em-dash×4
 composure|em-dash×4
-compounding|em-dash×4; non-bb:Ten minutes of serve practice every Tuesday looked pointless for months — then t
-context-aware-capture|em-dash×6; non-bb:I saved a drill clip with "use when serve breaks down" in the title — six weeks 
+compounding|em-dash×4; non-bb:Ten minutes of serve practice every Tuesday looked pointless for months - then t
+context-aware-capture|em-dash×6; non-bb:I saved a drill clip with "use when serve breaks down" in the title - six weeks 
 continuous-improvement|em-dash×4
 control-the-rhythm|em-dash×4
 convert-pain-into-learning|em-dash×4
 crdt|em-dash×4
 creative-blocks|em-dash×4
 creative-output|em-dash×3
-daily-notes|em-dash×6; non-bb:Today's pocket slip is just fragments — pick up cleats, ice after practice, call
+daily-notes|em-dash×6; non-bb:Today's pocket slip is just fragments - pick up cleats, ice after practice, call
 decision-quality|em-dash×4
 deep-work|em-dash×4
 deliberate-practice|em-dash×4; non-bb:A goalkeeper drills the hard save fifty times, not the whole match on autopilot 
@@ -2828,7 +2828,7 @@ digital-garden|em-dash×4
 digital-minimalism|em-dash×4
 digital-serendipity|em-dash×4
 discipleship|em-dash×4
-discipline|em-dash×4; non-bb:A marathon isn't won on race-day adrenaline — it's won on rainy Tuesday runs nob
+discipline|em-dash×4; non-bb:A marathon isn't won on race-day adrenaline - it's won on rainy Tuesday runs nob
 dont-worry|em-dash×4
 drafting-in-public|em-dash×4
 duty-of-care|em-dash×2; non-bb

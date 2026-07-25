@@ -10,7 +10,7 @@ window.initOkfViz = function () {
 
   if (typeof cytoscapeFcose !== "undefined") cytoscape.use(cytoscapeFcose);
 
-  document.title = `${bundleName} — OKF Viewer`;
+  document.title = `${bundleName} - OKF Viewer`;
   document.getElementById("bundle-name").textContent = bundleName;
 
   const graphThemes = {
@@ -351,7 +351,7 @@ window.initOkfViz = function () {
 
     document.getElementById("detail-title").textContent = data.label;
     document.getElementById("detail-id").textContent = conceptId;
-    document.getElementById("detail-description").textContent = data.description || "—";
+    document.getElementById("detail-description").textContent = data.description || "-";
 
     const resourceEl = document.getElementById("detail-resource");
     resourceEl.innerHTML = "";
@@ -364,7 +364,7 @@ window.initOkfViz = function () {
       a.className = "external";
       resourceEl.appendChild(a);
     } else {
-      resourceEl.textContent = "—";
+      resourceEl.textContent = "-";
     }
 
     const tagsEl = document.getElementById("detail-tags");
@@ -377,7 +377,7 @@ window.initOkfViz = function () {
         tagsEl.appendChild(span);
       }
     } else {
-      tagsEl.textContent = "—";
+      tagsEl.textContent = "-";
     }
 
     const body = bundle.bodies[conceptId] || "";

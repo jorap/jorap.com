@@ -59,6 +59,10 @@ cards:
     back: "Change window - staffed hours only"
   - front: "Risky deploy and I'm the only one who knows git revert. What's missing?"
     back: "Window plus shared runbook - not heroics at midnight"
+  - front: "Friday night deploy bit us - Tuesday standup move?"
+    back: "Schedule risky changes in the window."
+  - front: "Only I know git revert - team deploys blind."
+    back: "Teach revert before the risky push."
 draft: false
 ---
 

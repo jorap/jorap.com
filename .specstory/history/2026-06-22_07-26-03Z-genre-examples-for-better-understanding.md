@@ -575,7 +575,7 @@ Result:
           },
           {
             "lineNumber": 39,
-            "text": "\"Why middle-click saves tab chaos\" is one claim — I'd cite it alone. \"Browser tips and meeting notes\" is two — split into separate notes and link them."
+            "text": "\"Why middle-click saves tab chaos\" is one claim - I'd cite it alone. \"Browser tips and meeting notes\" is two - split into separate notes and link them."
           },
           {
             "lineNumber": 40
@@ -728,7 +728,7 @@ Result:
           },
           {
             "lineNumber": 31,
-            "text": "**Note relationships** = four pair types in a body table - extends, contradicts, implements, alternative - so the graph shows how ideas push and pull. **Hub/MOC pages** use &#96;note_kind: index&#96; in frontmatter (not a row). **Utility pages** use &#96;note_kind: meta&#96; — link by URL, not wikilink."
+            "text": "**Note relationships** = four pair types in a body table - extends, contradicts, implements, alternative - so the graph shows how ideas push and pull. **Hub/MOC pages** use &#96;note_kind: index&#96; in frontmatter (not a row). **Utility pages** use &#96;note_kind: meta&#96; - link by URL, not wikilink."
           },
           {
             "lineNumber": 32
@@ -878,7 +878,7 @@ Result:
           },
           {
             "lineNumber": 29,
-            "text": "**One note = one claim** I'd cite in conversation. Optional **## Example** (one concrete scene) when the claim needs it; required **## Note Relationships** table (extends + contradicts at minimum, sorted by type). No other &#96;##&#96; sections — link out instead. See [[Atomic Notes]] and [[Note Relationships]]."
+            "text": "**One note = one claim** I'd cite in conversation. Optional **## Example** (one concrete scene) when the claim needs it; required **## Note Relationships** table (extends + contradicts at minimum, sorted by type). No other &#96;##&#96; sections - link out instead. See [[Atomic Notes]] and [[Note Relationships]]."
           },
           {
             "lineNumber": 30
@@ -3308,7 +3308,7 @@ For **Build a Reliable Default** and notes like it, the garden already has a pat
 
 ## What works best
 
-Your `## Example` is meant to be **one concrete scene** (see [[Note Relationships]] / [[Getting Started]]). For this claim — *fallback when thinking is thin* — the strongest genres are domains where **people already drill a script before stress hits**:
+Your `## Example` is meant to be **one concrete scene** (see [[Note Relationships]] / [[Getting Started]]). For this claim - *fallback when thinking is thin* - the strongest genres are domains where **people already drill a script before stress hits**:
 
 | Genre | Why it lands | Notes using it |
 |-------|----------------|----------------|
@@ -3323,19 +3323,19 @@ Your current example already does the best combo:
 ```20:22:content/english/notes/build-a-reliable-default.md
 ## Example
 
-Flight attendants don't invent evacuation steps mid-emergency — they run the drill they practiced. Build a reliable default was our one-page on-call card: three dashboards, who to page, what to post. Night two on call, the new hire ran it half-asleep and nobody guessed.
+Flight attendants don't invent evacuation steps mid-emergency - they run the drill they practiced. Build a reliable default was our one-page on-call card: three dashboards, who to page, what to post. Night two on call, the new hire ran it half-asleep and nobody guessed.
 ```
 
-1. **Famous rehearsed domain** (flight attendants) — instant picture, no setup  
-2. **Personal application** (on-call card) — reader knows where to use it
+1. **Famous rehearsed domain** (flight attendants) - instant picture, no setup  
+2. **Personal application** (on-call card) - reader knows where to use it
 
 Same shape as `preparedness.md` (fire drill → deploy rollback) and `standard-operating-procedures.md` (cockpit → runbook → recipe).
 
 ## What to avoid for this note
 
-- **Slow deliberation** scenes (vendor demos, house buying) — better for [[Decision Quality]]
+- **Slow deliberation** scenes (vendor demos, house buying) - better for [[Decision Quality]]
 - **Pure PKM meta** unless the note is about the garden itself
-- **Two unrelated genres** — one analogy + one personal scene is enough
+- **Two unrelated genres** - one analogy + one personal scene is enough
 
 ## Quick pick guide
 

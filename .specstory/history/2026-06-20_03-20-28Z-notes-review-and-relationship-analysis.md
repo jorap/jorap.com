@@ -984,7 +984,7 @@ _**Agent (default)**_
 <think><details><summary>Thought Process</summary>
 Checking remaining notes for contradictions. Comparing compounding versus Pareto/minimum effective dose. Verifying claims about mobile capture, first principles, creative output, and workflow formats. Looking for mismatches between capture, signal, and collector notes.
 
-Capture, signal, and collector notes create staged tension rather than logical contradictions. Capture favors saving what resonates. Signal limits saves to items changing action or belief this month. Collector demands creative output planning before saving. RSS and newsletter intake follow generous capture with ruthless processing. These approaches differ by timing—save-time versus process-time.
+Capture, signal, and collector notes create staged tension rather than logical contradictions. Capture favors saving what resonates. Signal limits saves to items changing action or belief this month. Collector demands creative output planning before saving. RSS and newsletter intake follow generous capture with ruthless processing. These approaches differ by timing-save-time versus process-time.
 
 The 12-week year emphasizes deadlines and shipping. Slow productivity caps active projects. Process-over-outcomes prioritizes habits over outcomes. These may conflict. They could align if only one 12-week goal is capped. The Getting Started note forbids ## sections in notes. This clashes with Maps of Content.
 
@@ -1127,7 +1127,7 @@ I mapped the remaining notes to their slugs. These include Newsletter Filtering,
 
 _**Agent (default)**_
 
-Reviewed all **84 notes** in the garden (excluding `_index.md`). The collection is mostly coherent — tensions are usually **staged guardrails** (capture wide, filter later) rather than logical errors. Several real frictions are not yet linked as `contradicts` neighbors, which [Associative Linking](/notes/associative-linking/) itself recommends.
+Reviewed all **84 notes** in the garden (excluding `_index.md`). The collection is mostly coherent - tensions are usually **staged guardrails** (capture wide, filter later) rather than logical errors. Several real frictions are not yet linked as `contradicts` neighbors, which [Associative Linking](/notes/associative-linking/) itself recommends.
 
 ---
 
@@ -1145,13 +1145,13 @@ Three notes tighten the save filter in steps, but only [Capture](/notes/capture/
 
 **Tension:** [Capture](/notes/capture/) is permissive at the inbox; [The Collector's Fallacy](/notes/the-collectors-fallacy/) is strict at save time. [Creative Output](/notes/creative-output/) sides with the stricter camp: notes without output become hoarding.
 
-**Resolution (implicit):** intake vs. gatekeeping — but the garden doesn't say *when* each filter applies. Worth explicit `contradicts` links between [Capture](/notes/capture/) ↔ [Signal vs Noise](/notes/signal-vs-noise/) ↔ [The Collector's Fallacy](/notes/the-collectors-fallacy/).
+**Resolution (implicit):** intake vs. gatekeeping - but the garden doesn't say *when* each filter applies. Worth explicit `contradicts` links between [Capture](/notes/capture/) ↔ [Signal vs Noise](/notes/signal-vs-noise/) ↔ [The Collector's Fallacy](/notes/the-collectors-fallacy/).
 
 ---
 
 ### 2. Subscribe generously vs. admire and move on
 
-[Newsletter Filtering](/notes/newsletter-filtering/) and [RSS for Research](/notes/rss-for-research/) say **subscribe generously, process ruthlessly**. [Signal vs Noise](/notes/signal-vs-noise/) says if it won't change you this month, **admire and move on — don't save**.
+[Newsletter Filtering](/notes/newsletter-filtering/) and [RSS for Research](/notes/rss-for-research/) say **subscribe generously, process ruthlessly**. [Signal vs Noise](/notes/signal-vs-noise/) says if it won't change you this month, **admire and move on - don't save**.
 
 **Tension:** generous subscription looks like noise accumulation unless "process ruthlessly" means aggressive deletion before save.
 
@@ -1163,11 +1163,11 @@ Three notes tighten the save filter in steps, but only [Capture](/notes/capture/
 
 [Synthesis as a Goal](/notes/synthesis-as-a-goal/) and [Note-Taking for Researchers](/notes/note-taking-for-researchers/) push **immediate rewrite in your own words**; never paste highlights into your notes.
 
-[Progressive Summarization](/notes/progressive-summarization/) says **don't summarize on first save** — bold, highlight, summarize only on **second use**.
+[Progressive Summarization](/notes/progressive-summarization/) says **don't summarize on first save** - bold, highlight, summarize only on **second use**.
 
 **Tension:** researchers should synthesize immediately; progressive summarization delays distillation until reuse.
 
-**Resolution:** different material types (argument formation vs. reference clipping) — but the garden doesn't state that boundary. Link as `contradicts` with scope note, or add an `extends` from [Progressive Summarization](/notes/progressive-summarization/) → [Synthesis as a Goal](/notes/synthesis-as-a-goal/) clarifying when each applies.
+**Resolution:** different material types (argument formation vs. reference clipping) - but the garden doesn't state that boundary. Link as `contradicts` with scope note, or add an `extends` from [Progressive Summarization](/notes/progressive-summarization/) → [Synthesis as a Goal](/notes/synthesis-as-a-goal/) clarifying when each applies.
 
 ---
 
@@ -1181,17 +1181,17 @@ Three notes tighten the save filter in steps, but only [Capture](/notes/capture/
 
 **Tension:** "publish early" vs. "complete sentences you'd stand behind" vs. "don't mix messy and polished."
 
-**Resolution:** three lanes — [Evergreen vs Fleeting Notes](/notes/evergreen-vs-fleeting-notes/) and [The Knowledge Lifecycle](/notes/the-knowledge-lifecycle/) handle promotion; [The Garage Concept](/notes/the-garage-concept/) maps garden = garage, blog = showroom. [Drafting in Public](/notes/drafting-in-public/) could link `contradicts` [The Garage Concept](/notes/the-garage-concept/) unless scoped to garden-only publishing.
+**Resolution:** three lanes - [Evergreen vs Fleeting Notes](/notes/evergreen-vs-fleeting-notes/) and [The Knowledge Lifecycle](/notes/the-knowledge-lifecycle/) handle promotion; [The Garage Concept](/notes/the-garage-concept/) maps garden = garage, blog = showroom. [Drafting in Public](/notes/drafting-in-public/) could link `contradicts` [The Garage Concept](/notes/the-garage-concept/) unless scoped to garden-only publishing.
 
 ---
 
 ### 5. Deadline intensity vs. slow/process focus
 
-[The 12 Week Year](/notes/the-12-week-year/) — one quarter-sized goal, ship before twelve weeks end.
+[The 12 Week Year](/notes/the-12-week-year/) - one quarter-sized goal, ship before twelve weeks end.
 
-[Slow Productivity](/notes/slow-productivity/) — cap active projects; notes become output, not guilt backlog.
+[Slow Productivity](/notes/slow-productivity/) - cap active projects; notes become output, not guilt backlog.
 
-[Process Over Outcomes](/notes/process-over-outcomes/) — focus on rerunnable habits; outcomes follow unevenly.
+[Process Over Outcomes](/notes/process-over-outcomes/) - focus on rerunnable habits; outcomes follow unevenly.
 
 **Tension:** quarterly ship pressure vs. capping projects and de-emphasizing outcomes.
 
@@ -1201,37 +1201,37 @@ Three notes tighten the save filter in steps, but only [Capture](/notes/capture/
 
 ### 6. Compounding vs. Pareto / minimum dose
 
-[Compounding](/notes/compounding/) — keep showing up; boring repetition wins; heroic weeks are a trap.
+[Compounding](/notes/compounding/) - keep showing up; boring repetition wins; heroic weeks are a trap.
 
-[Pareto Principle](/notes/pareto-principle/) — most results from a small slice; **cut the rest**.
+[Pareto Principle](/notes/pareto-principle/) - most results from a small slice; **cut the rest**.
 
-[Minimum Effective Dose](/notes/minimum-effective-dose/) — smallest effort that still works; weekly review beats daily if weekly holds.
+[Minimum Effective Dose](/notes/minimum-effective-dose/) - smallest effort that still works; weekly review beats daily if weekly holds.
 
 **Tension:** compounding says persist; Pareto/MED say trim.
 
-**Resolution:** different horizons (years of linking vs. this week's task list). [Compounding](/notes/compounding/) already pairs with [Pareto Principle](/notes/pareto-principle/) in See also — should be `extends`/`qualifies`, not silent.
+**Resolution:** different horizons (years of linking vs. this week's task list). [Compounding](/notes/compounding/) already pairs with [Pareto Principle](/notes/pareto-principle/) in See also - should be `extends`/`qualifies`, not silent.
 
 ---
 
 ### 7. Rich metadata vs. minimal tagging
 
-[Building a Personal API](/notes/building-a-personal-api/) — consistent tags, wikilinks, frontmatter so **tools and agents** can read your notes.
+[Building a Personal API](/notes/building-a-personal-api/) - consistent tags, wikilinks, frontmatter so **tools and agents** can read your notes.
 
-[Metadata Strategy](/notes/metadata-strategy/) — tag only what helps you find things; **not a second job**.
+[Metadata Strategy](/notes/metadata-strategy/) - tag only what helps you find things; **not a second job**.
 
-[Digital Minimalism](/notes/digital-minimalism/) — one inbox, one write path.
+[Digital Minimalism](/notes/digital-minimalism/) - one inbox, one write path.
 
 **Tension:** automation rewards rigid structure; metadata strategy rejects taxonomy hell.
 
-**Resolution:** [Context-Aware Capture](/notes/context-aware-capture/) (one line of "why") vs. full tagging — MED is the bridge, but [Personal API](/notes/building-a-personal-api/) ↔ [Metadata Strategy](/notes/metadata-strategy/) lacks an explicit tension link.
+**Resolution:** [Context-Aware Capture](/notes/context-aware-capture/) (one line of "why") vs. full tagging - MED is the bridge, but [Personal API](/notes/building-a-personal-api/) ↔ [Metadata Strategy](/notes/metadata-strategy/) lacks an explicit tension link.
 
 ---
 
 ### 8. More capture vs. creative block
 
-[Creative Blocks](/notes/creative-blocks/) — **more capture rarely fixes** too much inventory; ship one small thing.
+[Creative Blocks](/notes/creative-blocks/) - **more capture rarely fixes** too much inventory; ship one small thing.
 
-[Capture](/notes/capture/), [Second Brain Daily Workflow](/notes/second-brain-daily-workflow/) — feed the inbox during the day.
+[Capture](/notes/capture/), [Second Brain Daily Workflow](/notes/second-brain-daily-workflow/) - feed the inbox during the day.
 
 **Tension:** daily capture habit vs. "you already have too much inventory."
 
@@ -1241,27 +1241,27 @@ Three notes tighten the save filter in steps, but only [Capture](/notes/capture/
 
 ### 9. Atomic one-claim rule vs. hub/MOC/meta exceptions
 
-[Getting Started](/notes/getting-started/) and [Atomic Notes](/notes/atomic-notes/) — **one claim, no `##` sections**, link out instead.
+[Getting Started](/notes/getting-started/) and [Atomic Notes](/notes/atomic-notes/) - **one claim, no `##` sections**, link out instead.
 
-[Maps of Content](/notes/maps-of-content/) — multi-section hub with dozens of links.
+[Maps of Content](/notes/maps-of-content/) - multi-section hub with dozens of links.
 
 [Getting Started](/notes/getting-started/) itself uses many `##` sections (meta/how-to exception).
 
 **Tension:** rule vs. documented exceptions.
 
-**Resolution:** MOCs and meta notes are hub types, not atomic claims — but that exception isn't written in [Atomic Notes](/notes/atomic-notes/). [Graph View Analytics](/notes/graph-view-analytics/) also notes overloaded hubs should be **split** — tension with MOC purpose.
+**Resolution:** MOCs and meta notes are hub types, not atomic claims - but that exception isn't written in [Atomic Notes](/notes/atomic-notes/). [Graph View Analytics](/notes/graph-view-analytics/) also notes overloaded hubs should be **split** - tension with MOC purpose.
 
 ---
 
 ### 10. Tool enthusiasm vs. tool skepticism
 
-[Zettelkasten](/notes/zettelkasten/) — link heavily, draft by following connections.
+[Zettelkasten](/notes/zettelkasten/) - link heavily, draft by following connections.
 
-[The Zettelkasten Myth](/notes/the-zettelkasten-myth/) / [Slip-box History](/notes/slip-box-history/) — **Luhmann wrote the books, the box didn't**; stop buying notebooks.
+[The Zettelkasten Myth](/notes/the-zettelkasten-myth/) / [Slip-box History](/notes/slip-box-history/) - **Luhmann wrote the books, the box didn't**; stop buying notebooks.
 
-[The Future of PKM](/notes/the-future-of-pkm/) — agents and search help retrieval; **skepticism earns its keep every hype cycle**.
+[The Future of PKM](/notes/the-future-of-pkm/) - agents and search help retrieval; **skepticism earns its keep every hype cycle**.
 
-**Not a contradiction** — method yes, tool worship no. [Zettelkasten](/notes/zettelkasten/) already links the myth note. Good model for how `contradicts` can mean "corrects oversimplification" rather than "don't do this."
+**Not a contradiction** - method yes, tool worship no. [Zettelkasten](/notes/zettelkasten/) already links the myth note. Good model for how `contradicts` can mean "corrects oversimplification" rather than "don't do this."
 
 ---
 
@@ -1269,9 +1269,9 @@ Three notes tighten the save filter in steps, but only [Capture](/notes/capture/
 
 | Pair | Relationship |
 |------|----------------|
-| [GTD vs PARA](/notes/gtd-vs-para/) | Cousins — tasks in task app, notes in PARA |
+| [GTD vs PARA](/notes/gtd-vs-para/) | Cousins - tasks in task app, notes in PARA |
 | [Evergreen vs Fleeting Notes](/notes/evergreen-vs-fleeting-notes/) | Two lanes, one promotion path |
-| [Spaced Repetition](/notes/spaced-repetition/) / [Progressive Summarization](/notes/progressive-summarization/) | Recall vs. understanding — explicit split |
+| [Spaced Repetition](/notes/spaced-repetition/) / [Progressive Summarization](/notes/progressive-summarization/) | Recall vs. understanding - explicit split |
 | [Mind Mapping](/notes/mind-mapping/) / [Atomic Notes](/notes/atomic-notes/) | Compost → atoms pipeline |
 | [Local-first Software](/notes/local-first-software/) / [Building a Personal API](/notes/building-a-personal-api/) | Local truth + machine-readable shape |
 | [Privacy and Data Sovereignty](/notes/privacy-and-data-sovereignty/) / [Digital Garden](/notes/digital-garden/) | Public garden by choice, private journals local |
@@ -1307,7 +1307,7 @@ These fit your garden's existing patterns and could be tagged or linked explicit
 | **implements** | Operationalizes a framework | [Weekly Review Checklists](/notes/weekly-review-checklists/) implements [Periodic Knowledge Review](/notes/periodic-knowledge-review/) |
 | **prerequisite** | Read/do this first | [Getting Started](/notes/getting-started/) → [Atomic Notes](/notes/atomic-notes/) |
 | **alternative** | Different approach, same job | [Bullet Journaling](/notes/bullet-journaling/) vs. [Daily Notes](/notes/daily-notes/) for rapid log |
-| **complements** | Both needed; different dimension | [GTD vs PARA](/notes/gtd-vs-para/) — tasks + notes |
+| **complements** | Both needed; different dimension | [GTD vs PARA](/notes/gtd-vs-para/) - tasks + notes |
 | **pipeline-stage** | Sequential step in a workflow | [Capture](/notes/capture/) → [Progressive Summarization](/notes/progressive-summarization/) → [Creative Output](/notes/creative-output/) |
 | **lane-split** | Same topic, different speed/quality bar | [Evergreen vs Fleeting Notes](/notes/evergreen-vs-fleeting-notes/) |
 | **corrects** | Debunks oversimplification | [The Zettelkasten Myth](/notes/the-zettelkasten-myth/) corrects [Zettelkasten](/notes/zettelkasten/) hype |
@@ -1315,24 +1315,24 @@ These fit your garden's existing patterns and could be tagged or linked explicit
 | **hub-indexes** | Curates many notes | [Maps of Content](/notes/maps-of-content/) hub-indexes capture, organize, express clusters |
 | **tool-for** | Tool/method serves a goal | [Spaced Repetition](/notes/spaced-repetition/) tool-for [Evergreen Notes](/notes/evergreen-notes/) spine recall |
 | **symptom-of** | Problem caused by violating another note | [Creative Blocks](/notes/creative-blocks/) symptom-of [The Collector's Fallacy](/notes/the-collectors-fallacy/) |
-| **pairs-with** | Your current "Pairs with" prose | Widespread — could stay informal or become typed links |
+| **pairs-with** | Your current "Pairs with" prose | Widespread - could stay informal or become typed links |
 
 ### Natural clusters (relationship by proximity)
 
 From [Maps of Content](/notes/maps-of-content/):
 
-1. **Foundations** — [PKM](/notes/pkm/), [Building a Second Brain](/notes/building-a-second-brain/), [Zettelkasten](/notes/zettelkasten/), [Atomic Notes](/notes/atomic-notes/)
-2. **Capture stack** — [Capture](/notes/capture/) → [The Trusted Inbox](/notes/the-trusted-inbox/) → [Weekly Review Checklists](/notes/weekly-review-checklists/)
-3. **Filter stack** — [Signal vs Noise](/notes/signal-vs-noise/) → [Active Knowledge Curation](/notes/active-knowledge-curation/) → [The Collector's Fallacy](/notes/the-collectors-fallacy/)
-4. **Express stack** — [Synthesis as a Goal](/notes/synthesis-as-a-goal/) → [Creative Output](/notes/creative-output/) → [Drafting in Public](/notes/drafting-in-public/)
-5. **Linking stack** — [Associative Linking](/notes/associative-linking/) → [Digital Serendipity](/notes/digital-serendipity/) → [Graph View Analytics](/notes/graph-view-analytics/)
-6. **Infrastructure** — [Local-first Software](/notes/local-first-software/) → [Future-Proofing Knowledge](/notes/future-proofing-knowledge/) → [Anti-Fragile Systems](/notes/anti-fragile-systems/)
+1. **Foundations** - [PKM](/notes/pkm/), [Building a Second Brain](/notes/building-a-second-brain/), [Zettelkasten](/notes/zettelkasten/), [Atomic Notes](/notes/atomic-notes/)
+2. **Capture stack** - [Capture](/notes/capture/) → [The Trusted Inbox](/notes/the-trusted-inbox/) → [Weekly Review Checklists](/notes/weekly-review-checklists/)
+3. **Filter stack** - [Signal vs Noise](/notes/signal-vs-noise/) → [Active Knowledge Curation](/notes/active-knowledge-curation/) → [The Collector's Fallacy](/notes/the-collectors-fallacy/)
+4. **Express stack** - [Synthesis as a Goal](/notes/synthesis-as-a-goal/) → [Creative Output](/notes/creative-output/) → [Drafting in Public](/notes/drafting-in-public/)
+5. **Linking stack** - [Associative Linking](/notes/associative-linking/) → [Digital Serendipity](/notes/digital-serendipity/) → [Graph View Analytics](/notes/graph-view-analytics/)
+6. **Infrastructure** - [Local-first Software](/notes/local-first-software/) → [Future-Proofing Knowledge](/notes/future-proofing-knowledge/) → [Anti-Fragile Systems](/notes/anti-fragile-systems/)
 
 ---
 
 ## Bottom line
 
-The garden is **one system with staged guardrails**, not 84 conflicting opinions. The real friction is **when** to be generous (capture, subscribe) vs. **when** to be ruthless (signal filter, collector's fallacy, curation). The biggest graph gap: your [Associative Linking](/notes/associative-linking/) rule asks for contradict neighbors, but the graph mostly has `Pairs with` and See also — the tensions above are the best candidates for those links.
+The garden is **one system with staged guardrails**, not 84 conflicting opinions. The real friction is **when** to be generous (capture, subscribe) vs. **when** to be ruthless (signal filter, collector's fallacy, curation). The biggest graph gap: your [Associative Linking](/notes/associative-linking/) rule asks for contradict neighbors, but the graph mostly has `Pairs with` and See also - the tensions above are the best candidates for those links.
 
 I can add explicit `contradicts` wikilinks to the notes listed above, or draft a small "relationship types" meta note if you want that documented in the garden itself.
 
@@ -1507,7 +1507,7 @@ Use **five types**. Everything else is prose around them.
 | **contradicts** | What tradeoff does this push against? | Opposing advice, different phase, or “yes, but only when…” |
 | **implements** | What makes this real? | Checklist, workflow, or tool note that operationalizes a concept |
 | **alternative** | What else could do this job? | Different medium or method, same problem |
-| **index** | What gathers many notes? | MOC / hub — not an atomic claim |
+| **index** | What gathers many notes? | MOC / hub - not an atomic claim |
 
 **Minimum per note** (from [Associative Linking](/notes/associative-linking/)): one **extends**, one **contradicts**. “Pairs with” in body text = informal **extends** or **complements**; no extra type needed.
 
@@ -1527,9 +1527,9 @@ Use **five types**. Everything else is prose around them.
 
 When notes are **steps in a pipeline**, say so in one line instead of inventing “pipeline-stage”:
 
-**Capture → organize → distill → express** — e.g. [Capture](/notes/capture/) → [Progressive Summarization](/notes/progressive-summarization/) → [Creative Output](/notes/creative-output/)
+**Capture → organize → distill → express** - e.g. [Capture](/notes/capture/) → [Progressive Summarization](/notes/progressive-summarization/) → [Creative Output](/notes/creative-output/)
 
-**Fleeting → evergreen → archive** — e.g. [Daily Notes](/notes/daily-notes/) → [Evergreen Notes](/notes/evergreen-notes/) → [The Archive Method](/notes/the-archive-method/)
+**Fleeting → evergreen → archive** - e.g. [Daily Notes](/notes/daily-notes/) → [Evergreen Notes](/notes/evergreen-notes/) → [The Archive Method](/notes/the-archive-method/)
 
 ---
 
@@ -3162,7 +3162,7 @@ The registry works for most notes. Only four broken wikilinks were found.
 
 The Note Relationships page is missing from the registry during lint. A partial cache is unlikely. The likely cause is a directory filter mismatch in the Hugo template. Multilingual sites may use `content/english/notes/` instead of `notes/`. This would exclude the page from the registry. It is unclear how other notes register under the same filter.
 
-A directory mismatch would break all wikilinks, yet only four do. The Note Relationships page is confirmed present in Hugo. Other potential causes—unsaved file, review flags, or markdown tables—are unlikely.</details></think>
+A directory mismatch would break all wikilinks, yet only four do. The Note Relationships page is confirmed present in Hugo. Other potential causes-unsaved file, review flags, or markdown tables-are unlikely.</details></think>
 
 _**Agent (default)**_
 
@@ -4546,7 +4546,7 @@ Some also include `Implements [[…]]`, `Alternative to [[…]]`, or `Index for 
 
 ## Supporting changes
 
-- **`scripts/wire-note-relationships.py`** — mapping + re-run script for future notes
+- **`scripts/wire-note-relationships.py`** - mapping + re-run script for future notes
 - **Link registry cache** bumped to `v2` (new note required fresh registry)
 - **`npm run lint:notes`** passes clean
 
@@ -4560,7 +4560,7 @@ Some also include `Implements [[…]]`, `Alternative to [[…]]`, or `Index for 
 - Drafting in Public ↔ Evergreen Notes  
 - Personal API ↔ Metadata Strategy  
 
-Meta layout pages ([Flashcards](/notes/cards/), [Review](/notes/review/), graph, random) stay out of the wikilink registry — relationship lines point at garden notes or [Getting Started](/notes/getting-started/) instead.
+Meta layout pages ([Flashcards](/notes/cards/), [Review](/notes/review/), graph, random) stay out of the wikilink registry - relationship lines point at garden notes or [Getting Started](/notes/getting-started/) instead.
 
 ---
 
@@ -5076,17 +5076,17 @@ The grep result for "review:true" was a false positive. The getting-started file
 
 Backs must be single answers. Vague fronts like "Layer 1" will be replaced with scoped questions. "Pairs with" cards will become specific single-answer questions. Duplicate fronts exist across notes. "Minimum links per note" appears in both associative-linking and note-relationships. Duplicate backs also appear in evergreen-notes. I will rewrite cards for each note.
 
-I am rewriting the conflicting "Minimum links per note" card. Its front will read "Associative linking: minimum links per note" with back "Two — one extends, one contradicts." The "Associative linking pairs with" card becomes "Associative linking extends which note type?" with back "Atomic Notes." The "Minimum links per atomic note" card will use the same single-answer back.
+I am rewriting the conflicting "Minimum links per note" card. Its front will read "Associative linking: minimum links per note" with back "Two - one extends, one contradicts." The "Associative linking pairs with" card becomes "Associative linking extends which note type?" with back "Atomic Notes." The "Minimum links per atomic note" card will use the same single-answer back.
 
 The two conflicting "minimum links" cards will coexist with distinct fronts. One reads "Associative linking: minimum links per note." The other reads "Note relationships: minimum per atomic note." Both backs will state "One extends link and one contradicts link."
 
 The "If not signal" and "Noise action" cards will be merged into a single card. The "Signal vs noise pairs with" card will become "Signal vs noise tightens capture using what filter?" with back "Changes action or belief this month."
 
-The signal filter card will ask "Signal filter tightens which step?" with back "Capture — save only what changes you this month."
+The signal filter card will ask "Signal filter tightens which step?" with back "Capture - save only what changes you this month."
 
 The duplicate evergreen lifespan card will merge with the when-to-revise card.
 
-The duplicate pareto cards will split into two distinct questions: "Pareto ratio numbers" and "Pareto principle namesake," with backs "Roughly 80/20 — shorthand, not a law." and "Vilfredo Pareto."
+The duplicate pareto cards will split into two distinct questions: "Pareto ratio numbers" and "Pareto principle namesake," with backs "Roughly 80/20 - shorthand, not a law." and "Vilfredo Pareto."
 
 The trusted inbox setup card will be removed if it overlaps with the existing trusted inbox card.
 
@@ -5412,7 +5412,7 @@ python3 scripts/export-anki-deck.py
 
 Done: 16 notes, 96 cards.
 issues: 13
-  multi-and back atomic-notes.md | Atomic notes get organized by -&gt; Wikilinks and backlinks — not headings inside one file.
+  multi-and back atomic-notes.md | Atomic notes get organized by -&gt; Wikilinks and backlinks - not headings inside one file.
   or back capture.md | Capture filter (one question) -&gt; Would I act on it or cite it later?
   or back evergreen-notes.md | Evergreen vs fleeting (one line) -&gt; Evergreen = cite later; fleeting = promote or drop.
   multi-and back gtd-vs-para.md | Duplicate filing tax (GTD vs PARA) -&gt; Filing the same item in the task app and note folders.
@@ -5421,8 +5421,8 @@ issues: 13
   or back note-relationships.md | Implements (note relationship) means -&gt; A checklist or workflow that makes a concept real.
   or back signal-vs-noise.md | Signal vs noise (definition) -&gt; Save only what changes action or belief this month.
   or back signal-vs-noise.md | Signal filter question -&gt; Will this change what I do or believe this month?
-  multi-and back signal-vs-noise.md | When content is noise -&gt; Admire it and move on — don't save.
-  or back signal-vs-noise.md | Signal vs noise tightens capture with what window? -&gt; This month — action or belief.
+  multi-and back signal-vs-noise.md | When content is noise -&gt; Admire it and move on - don't save.
+  or back signal-vs-noise.md | Signal vs noise tightens capture with what window? -&gt; This month - action or belief.
   multi-and back spaced-repetition.md | Spaced repetition: the wiki holds -&gt; Linked ideas and understanding.
   or back the-trusted-inbox.md | What breaks inbox trust? -&gt; Items disappear or rot without processing.
 total cards: 96
@@ -5442,7 +5442,7 @@ _**Agent (default)**_
 <think><details><summary>Thought Process</summary>
 The validator is flagging false positives.
 
-Most flagged cards are actually single-answer. Only a few remain genuinely ambiguous. The first fix changes the atomic-notes card to "Wikilinks — not headings inside one file."
+Most flagged cards are actually single-answer. Only a few remain genuinely ambiguous. The first fix changes the atomic-notes card to "Wikilinks - not headings inside one file."
 
 The capture filter card is fine as a single question. The evergreen and fleeting card is a single mnemonic line. The GTD duplicate filing card is one sin described, not two answers.
 
@@ -5554,7 +5554,7 @@ Updated **96 flashcards** across **16 spine notes** so each front has one unambi
 
 ### What changed
 
-1. **Unique fronts globally** — no duplicate prompts in the deck (e.g. scoped `"Layer 1"` → `"Progressive summarization layer 1"`).
+1. **Unique fronts globally** - no duplicate prompts in the deck (e.g. scoped `"Layer 1"` → `"Progressive summarization layer 1"`).
 
 2. **Removed near-duplicate cards** within notes:
    - Signal vs Noise: dropped duplicate “admire and move on” pair
@@ -5567,15 +5567,15 @@ Updated **96 flashcards** across **16 spine notes** so each front has one unambi
 
 4. **Split SRS/wiki cards** into two one-way questions instead of one combined back.
 
-5. **Tightened vague backs** — e.g. `"What kills capture?"` → `"Friction."` (not “friction and untrusted inboxes”).
+5. **Tightened vague backs** - e.g. `"What kills capture?"` → `"Friction."` (not “friction and untrusted inboxes”).
 
 ### Tooling
 
-- **`scripts/fix-card-uniqueness.py`** — canonical card set; re-run after editing spine notes
-- **`static/exports/jorap-notes-anki.txt`** — regenerated (96 cards)
+- **`scripts/fix-card-uniqueness.py`** - canonical card set; re-run after editing spine notes
+- **`static/exports/jorap-notes-anki.txt`** - regenerated (96 cards)
 - Added **`note-relationships`** to the spine keep-list in `trim-review-deck.py`
 
-Cards that still use “or” on the back (e.g. `"Would I act on it or cite it later?"`) are intentional — the front asks for that exact filter phrase, so there’s still only one correct recall answer.
+Cards that still use “or” on the back (e.g. `"Would I act on it or cite it later?"`) are intentional - the front asks for that exact filter phrase, so there’s still only one correct recall answer.
 
 ---
 
@@ -6789,8 +6789,8 @@ Here's what was added:
 
 ### On each note
 - Amber **Link issues** panel appears when a garden note has problems (after title/tags, before body)
-- **Missing note** — `[[Target]]` has no matching page (title, slug, or alias)
-- **Unlinked mention** — another note's title appears in prose without a wikilink, with a suggested link
+- **Missing note** - `[[Target]]` has no matching page (title, slug, or alias)
+- **Unlinked mention** - another note's title appears in prose without a wikilink, with a suggested link
 - Broken wikilinks in the body still render as dotted `wikilink-broken` spans
 
 ### Issues index: [/notes/issues/](/notes/issues/)
@@ -6799,12 +6799,12 @@ Here's what was added:
 - Linked from the notes toolbar, graph page, [Getting Started](/notes/getting-started/), and [Maps of Content](/notes/maps-of-content/)
 
 ### Under the hood
-- `collect-note-issues.html` — shared scanner (cached at build time)
-- `lint-note-issues.html` — same checks, still logs `WARN` during `npm run lint:notes`
+- `collect-note-issues.html` - shared scanner (cached at build time)
+- `lint-note-issues.html` - same checks, still logs `WARN` during `npm run lint:notes`
 - Meta pages (`Issues`, `Graph`, etc.) are wikilink targets but not scanned for issues
 - Garden notes only are scanned for issues
 
-Right now the garden is **clean** — zero issues at build time. When something breaks (e.g. a typo in `[[Capture]]` or mentioning "Pareto" without linking), it shows on that note and on `/notes/issues/`.
+Right now the garden is **clean** - zero issues at build time. When something breaks (e.g. a typo in `[[Capture]]` or mentioning "Pareto" without linking), it shows on that note and on `/notes/issues/`.
 
 ---
 
@@ -6857,7 +6857,7 @@ Hugo is throwing a slice bounds out of range error because `.Summary` is being a
 
 _**Agent (default)**_
 
-Investigating the Summary panic — likely a Hugo summary-length vs. content-size mismatch on notes with large frontmatter.
+Investigating the Summary panic - likely a Hugo summary-length vs. content-size mismatch on notes with large frontmatter.
 
 
 _**Agent (default)**_
@@ -7014,7 +7014,7 @@ The error originates in basic-seo.html at line 41.
 
 Hugo evaluates `.Summary` before falling back to `.Params.description`, triggering an internal panic. The fix is to check the frontmatter description first and only generate a summary if none is provided.
 
-Simply moving `.Summary` to the end of the conditional chain is not enough, since accessing it still triggers the panic. A safer fallback—such as `.Plain` with truncation—must be used instead.
+Simply moving `.Summary` to the end of the conditional chain is not enough, since accessing it still triggers the panic. A safer fallback-such as `.Plain` with truncation-must be used instead.
 
 The panic occurs on capture.md and pkm.md because they already specify a description in their frontmatter. The fix is to initialize `$description` as empty and check `.Params.meta_description` and `.Params.description` before ever calling `.Summary`.</details></think>
 
@@ -7061,7 +7061,7 @@ build ok
 
 _**Agent (default)**_
 
-The crash came from `basic-seo.html` always calling `.Summary` first. Hugo 0.163 can panic on that for short note bodies (`slice bounds out of range [:1550] with capacity 1536`), even when `description` is already set in frontmatter — which capture and pkm both have.
+The crash came from `basic-seo.html` always calling `.Summary` first. Hugo 0.163 can panic on that for short note bodies (`slice bounds out of range [:1550] with capacity 1536`), even when `description` is already set in frontmatter - which capture and pkm both have.
 
 **Fix in `layouts/_partials/basic-seo.html`:**
 1. Use `meta_description` → `description` → site default, in that order

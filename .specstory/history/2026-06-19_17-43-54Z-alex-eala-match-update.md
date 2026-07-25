@@ -846,7 +846,7 @@ curl -sL "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=6dj
 <built-in function id> | WTA | Alexandra Eala vs. Elena Rybakina | 2026 Berlin Round of 16 | WTA
 <built-in function id> | WTA | Alex Eala moves one set away from the semifinals in Berlin, takin
 <built-in function id> | Eala Nation  | Alex Eala Winning Moment vs Donna Vekić | Berlin Open 2026!
-<built-in function id> | TennisIQ | Eala Just Beat The Queen's Champion — And Now Rybakina Is Waiting
+<built-in function id> | TennisIQ | Eala Just Beat The Queen's Champion - And Now Rybakina Is Waiting
 Alexandra Eala vs. Elena Rybakina | 2026 Berlin Round of 16 | WTA Match Highlights
 Alex Eala moves one set away from the semifinals in Berlin, taking the first 6-3! #BTO26
 
@@ -1087,13 +1087,13 @@ Tracker updated with Eala’s Berlin quarterfinal win and semifinal setup.
 
 ### Head-to-head
 - **Elina Svitolina** moved from the watch list into **Other Top 20 Players** (profile + H2H links)
-- WTA first-set clip embed (`6djWGxG7a8E`) — no full-match highlights on the official WTA channel yet
+- WTA first-set clip embed (`6djWGxG7a8E`) - no full-match highlights on the official WTA channel yet
 
 ### Watch list
 - Removed Svitolina (pro singles H2H now exists)
 
 ### Unverified / pending
-- **Semifinal tennis.com link** — not listed yet; will add when the Noskova match page is up
-- **Full Svitolina QF highlights** — only the first-set WTA clip is available so far; can add a full-match embed when WTA posts it
+- **Semifinal tennis.com link** - not listed yet; will add when the Noskova match page is up
+- **Full Svitolina QF highlights** - only the first-set WTA clip is available so far; can add a full-match embed when WTA posts it
 
 `lastmod` bumped to `2026-06-20T02:00:00Z`. No commit made.

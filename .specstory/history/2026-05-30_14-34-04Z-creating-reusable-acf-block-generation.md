@@ -132,13 +132,13 @@ Slide list, ~15 min, ~12 slides @ ~75s each. Grounded in this repo's `.cursor/ru
 - Goal: same prompt → same shape of code, every chat, every dev
 
 **3. Three-Layer System (60s)**
-- **Rules** (`.cursor/rules/`) — durable constraints
-- **Skills** (`.cursor/skills/`) — repeatable workflows
-- **Commands** (`.cursor/commands/`) — one-shot tasks
+- **Rules** (`.cursor/rules/`) - durable constraints
+- **Skills** (`.cursor/skills/`) - repeatable workflows
+- **Commands** (`.cursor/commands/`) - one-shot tasks
 - Layered: always-on < agent-requestable < glob-scoped
 
 **4. Rule Anatomy (90s)**
-- `alwaysApply` vs agent-requestable vs glob-scoped — when to use which
+- `alwaysApply` vs agent-requestable vs glob-scoped - when to use which
 - Citation contract (`rule-citation.mdc`): file + section + why
 - Priority: `webfx/` > `custom/` (`rule-priority.mdc`)
 - Example: `output-escaping.mdc` enforces `esc_html` / `esc_url` / `esc_attr`
@@ -200,7 +200,7 @@ focus on ai creating php code for truly consistent output for most cases and hav
 _**Agent (auto-high)**_
 
 <think><details><summary>Thought Process</summary>
- The user wants me to focus on PHP generation for ACF blocks—specifically how AI can handle the common 80% pattern consistently while reasoning through edge cases like custom queries and conditional logic. I should look at an actual block template to ground this with concrete examples.</details></think>
+ The user wants me to focus on PHP generation for ACF blocks-specifically how AI can handle the common 80% pattern consistently while reasoning through edge cases like custom queries and conditional logic. I should look at an actual block template to ground this with concrete examples.</details></think>
 
 _**Agent (auto-high)**_
 
@@ -231,7 +231,7 @@ _**Agent (auto-high)**_
 _**Agent (auto-high)**_
 
 <think><details><summary>Thought Process</summary>
- I should reframe the presentation around AI generating PHP that handles the common cases well while safely managing edge cases. Looking at the actual examples from the repo—the image gallery slider with its unconventional legacy background mapping and dual source modes shows that the rules work even for weird scenarios, and the ACF block structure demonstrates the target scope of 30-60 lines without inline functions.
+ I should reframe the presentation around AI generating PHP that handles the common cases well while safely managing edge cases. Looking at the actual examples from the repo-the image gallery slider with its unconventional legacy background mapping and dual source modes shows that the rules work even for weird scenarios, and the ACF block structure demonstrates the target scope of 30-60 lines without inline functions.
 
 The key rules that prevent AI from going off track are output escaping, the specific text domain `'fx'` that models get wrong by default, the date timestamp generation pattern, and the ask-first approach for ambiguous situations. The pattern library and standardized entry point function create a consistency engine so AI doesn't reinvent solutions. With a 15-minute slot, I'm aiming for 10-12 slides at 60-90 seconds each, focusing on the core narrative: most work is pattern matching, unconventional cases need rules-guided reasoning plus asking for clarification.</details></think>
 
@@ -245,8 +245,8 @@ Reframed. ~12 slides @ ~75s each. Two-track narrative: **conventional = AI match
 - Repo as the prompt
 
 **2. The Two Failure Modes (60s)**
-- **Convention drift** (80% case) — AI re-invents block scaffolds, forgets `esc_*`, uses wrong text domain, skips JSON timestamp
-- **Unconventional improvisation** (20% case) — AI guesses on edge cases instead of asking; injects helper functions; over-abstracts
+- **Convention drift** (80% case) - AI re-invents block scaffolds, forgets `esc_*`, uses wrong text domain, skips JSON timestamp
+- **Unconventional improvisation** (20% case) - AI guesses on edge cases instead of asking; injects helper functions; over-abstracts
 - Goal: zero drift in 80%, safe reasoning in 20%
 
 **3. The Mental Model (45s)**
@@ -255,9 +255,9 @@ Reframed. ~12 slides @ ~75s each. Two-track narrative: **conventional = AI match
 - Behavior rules = **what to do when unsure** (`llm-coding-behavior.mdc`: ask, don't guess)
 
 **4. The 80% Anchor: `fx_render_block_with_partial()` (75s)**
-- Show top of `block-templates/general/image-gallery-slider.php` — every block starts identically:
+- Show top of `block-templates/general/image-gallery-slider.php` - every block starts identically:
   - ABSPATH guard → normalize `$block` → call helper → unpack `$args`
-- AI learns: every block PHP file has the same opening — no variation, no creativity
+- AI learns: every block PHP file has the same opening - no variation, no creativity
 - Result: file shape is solved before AI writes a single field
 
 **5. Pattern Catalogs Lock Conventions (90s)**
@@ -267,16 +267,16 @@ Reframed. ~12 slides @ ~75s each. Two-track narrative: **conventional = AI match
 - Same prompt today vs next month → same PHP
 
 **6. Hard Rules That Eliminate Common Bugs (90s)**
-- `output-escaping.mdc` — `esc_html` / `esc_attr` / `esc_url` / `wp_kses_post`; WYSIWYG exception
-- `text-domain.mdc` — literal `'fx'` only, never variable/constant (gettext breaks)
-- `acf-json-modification.mdc` — bump `modified` via `date +%s` every JSON edit
-- `acf-block-structure.mdc` — 30-60 line target, no in-file `function_exists()` wrappers
+- `output-escaping.mdc` - `esc_html` / `esc_attr` / `esc_url` / `wp_kses_post`; WYSIWYG exception
+- `text-domain.mdc` - literal `'fx'` only, never variable/constant (gettext breaks)
+- `acf-json-modification.mdc` - bump `modified` via `date +%s` every JSON edit
+- `acf-block-structure.mdc` - 30-60 line target, no in-file `function_exists()` wrappers
 - Each rule kills a recurring class of bug
 
 **7. Live Example: Conventional Block (75s)**
 - Prompt: "Add a `quote-card` block, image + quote + author"
 - AI auto-loads: `acf-block-structure.mdc`, `output-escaping.mdc`, `starter-blocks-catalog.mdc`, `block-template-partial` skill
-- Output: 7-step checklist done — registration, single-file template, CSS, JS, JSON w/ timestamp, deps registered
+- Output: 7-step checklist done - registration, single-file template, CSS, JS, JSON w/ timestamp, deps registered
 - Identical shape to existing `wysiwyg` and `image-buttons` blocks
 
 **8. The 20%: When the Pattern Doesn't Fit (90s)**
@@ -284,13 +284,13 @@ Reframed. ~12 slides @ ~75s each. Two-track narrative: **conventional = AI match
   - Legacy bg label mapping (`'Light Blue'` → `'light_blue'`)
   - Dual source mode (inline repeater vs CPT gallery)
   - Optional torn-edge partial w/ hex map
-- Standard catalog doesn't cover this — AI must reason
+- Standard catalog doesn't cover this - AI must reason
 - Rules still apply: escaping, line budget, mirror siblings, no in-file functions
 
 **9. Ask-First Discipline for Edge Cases (60s)**
 - `llm-coding-behavior.mdc`: think before coding; surface tradeoffs; ask if unclear
 - `acf-block-wrapper-helpers.mdc`: literal "ask once" prompt baked into rule when helpers vs manual is ambiguous
-- AI says: *"I see two interpretations — A vs B. Which?"* instead of silently picking
+- AI says: *"I see two interpretations - A vs B. Which?"* instead of silently picking
 - Edge-case work becomes a conversation, not a guess
 
 **10. Self-Improvement Loop (45s)**
@@ -306,7 +306,7 @@ Reframed. ~12 slides @ ~75s each. Two-track narrative: **conventional = AI match
 **12. Takeaways + Q&A (60s)**
 - 80% comes from anchor template + pattern catalog + hard rules
 - 20% comes from behavior rules: cite, ask, mirror siblings, stay surgical
-- Codify before scaling AI use — the repo *is* the prompt
+- Codify before scaling AI use - the repo *is* the prompt
 - Each unconventional case is a chance to expand the 80%
 
 Want me to draft speaker notes, Keynote/Markdown deck, or pull live code snippets for slides 4, 7, 8?
@@ -322,7 +322,7 @@ what key features of the theme that can be used to illustrate the ideas
 _**Agent (auto-high)**_
 
 <think><details><summary>Thought Process</summary>
- I need to find concrete theme features from the codebase that can work as visual examples for the slides. Let me examine the actual files—ACF blocks, image gallery slider, helper functions, and the presets system—to see what features I can pull as evidence.</details></think>
+ I need to find concrete theme features from the codebase that can work as visual examples for the slides. Let me examine the actual files-ACF blocks, image gallery slider, helper functions, and the presets system-to see what features I can pull as evidence.</details></think>
 
 _**Agent (auto-high)**_
 
@@ -524,14 +524,14 @@ _**Agent (auto-high)**_
 
 Here are the concrete repo features to anchor each idea. Mapped to the slides.
 
-**Pattern anchor (slide 4) — `fx_render_block_with_partial()`**
+**Pattern anchor (slide 4) - `fx_render_block_with_partial()`**
 - Every block opens identically (ABSPATH guard → normalize `$block` → call helper → unpack `$args`)
 - Evidence: `block-templates/general/image-gallery-slider.php` lines 15–28, mirrored by `wysiwyg.php`, `image-buttons.php`, `cta-banner.php`, `icon-cards.php`
 - Story: AI never re-invents the file header
 
-**Catalog reuse (slide 5) — pattern library**
+**Catalog reuse (slide 5) - pattern library**
 - 17 production blocks in `block-templates/` to mirror; AI mirrors siblings instead of inventing
-- Helper functions in `components/` are the single source of truth — AI never inlines logic:
+- Helper functions in `components/` are the single source of truth - AI never inlines logic:
   - `components/cards/card/card.php`, `cards.function.php`
   - `components/embed-form/embed-form.function.php` (CF7 / GF / Forminator shortcode)
   - `components/cards/testimonial/testimonial.php`, `team-member/team-member.php`
@@ -541,9 +541,9 @@ Here are the concrete repo features to anchor each idea. Mapped to the slides.
 **Presets system (illustrates pattern reuse + theme settings)**
 - `components/block-presets/block-presets.function.php` + `acf-json/group_block_presets_67e693f73a0d2.json`
 - Used inside blocks via `$preset_content[ $acf_group_variable . '_group' ]`
-- Same content reused across pages with one toggle — AI follows preset rule mechanically
+- Same content reused across pages with one toggle - AI follows preset rule mechanically
 
-**Hard rules (slide 6) — non-negotiables w/ evidence**
+**Hard rules (slide 6) - non-negotiables w/ evidence**
 - Escaping: every block PHP shows `esc_html`/`esc_attr`/`esc_url`/`wp_kses_post` consistently
 - Text domain: literal `'fx'` everywhere (gettext gotcha)
 - JSON sync: 24 files in `acf-json/`, each has `"modified"` UNIX timestamp bumped via `date +%s`
@@ -551,13 +551,13 @@ Here are the concrete repo features to anchor each idea. Mapped to the slides.
 - Block category registration: `fx_add_block_category()` called once per category in `acf-blocks.php`
 
 **Conventional example (slide 7)**
-- `block-templates/general/wysiwyg.php` — minimal block, ~30 lines, pure pattern
-- `block-templates/general/cta-banner.php` — link field + bg color + standard escaping
-- `block-templates/general/icon-cards.php` — repeater + image tag + link pattern
+- `block-templates/general/wysiwyg.php` - minimal block, ~30 lines, pure pattern
+- `block-templates/general/cta-banner.php` - link field + bg color + standard escaping
+- `block-templates/general/icon-cards.php` - repeater + image tag + link pattern
 - Story: "AI writes this in one pass, matches existing siblings exactly"
 
-**Unconventional example (slide 8) — `image-gallery-slider.php`**
-- 334 lines (vs 30–60 norm) — proves rules let AI handle complexity safely
+**Unconventional example (slide 8) - `image-gallery-slider.php`**
+- 334 lines (vs 30–60 norm) - proves rules let AI handle complexity safely
 - Legacy bg label map (`'Light Blue'` → `'light_blue'`)
 - Dual data source: inline repeater **or** linked `image-gallery` CPT (`components/cards/image-gallery/image-gallery.php`)
 - Optional torn-edge partial (`partials/templates/wysiwyg-bottom-edge.php`) w/ hex color map
@@ -565,26 +565,26 @@ Here are the concrete repo features to anchor each idea. Mapped to the slides.
 - Still obeys: escaping, no in-file functions, sibling header pattern, JSON sync
 
 **Other unconventional cases worth name-dropping**
-- `block-templates/general/text-and-google-map.php` + `map.php` — third-party API integration
-- `block-templates/general/contact-form.php` — uses `embed-form` component instead of inline shortcode
-- `block-templates/homepage/homepage-masthead.php` — custom JS (`homepage-masthead.js`) + masthead partial system
-- `block-templates/general/history.php` + `text-and-stats.js` — animated/timeline behavior
-- `components/blocks/custom-post-type-list/` — full block-as-component pattern (own `block.json`, asset file, function file) — shows AI can also handle "modern" block shape when present
+- `block-templates/general/text-and-google-map.php` + `map.php` - third-party API integration
+- `block-templates/general/contact-form.php` - uses `embed-form` component instead of inline shortcode
+- `block-templates/homepage/homepage-masthead.php` - custom JS (`homepage-masthead.js`) + masthead partial system
+- `block-templates/general/history.php` + `text-and-stats.js` - animated/timeline behavior
+- `components/blocks/custom-post-type-list/` - full block-as-component pattern (own `block.json`, asset file, function file) - shows AI can also handle "modern" block shape when present
 
 **Ask-first discipline (slide 9)**
 - `acf-block-wrapper-helpers.mdc` literally tells AI to ask: *"helpers vs manual?"*
-- Real fork: this theme uses manual `<section>` wrappers (see all `block-templates/`) — AI follows the actual repo, not the rule example
+- Real fork: this theme uses manual `<section>` wrappers (see all `block-templates/`) - AI follows the actual repo, not the rule example
 - Story: rule + repo evidence = AI never picks silently
 
-**Auditability (slide 11) — citation**
+**Auditability (slide 11) - citation**
 - `rule-citation.mdc` enforced citations; pair w/ `self-improvement.mdc` loop
 - Show in slide: example AI reply citing `output-escaping.mdc` → "Output Escaping" → ACF link field
 
 **Bonus theme features that reinforce the message**
-- `inc/theme/helper-functions.php` = central place for reusable logic — keeps blocks lean
-- `components/_autoloader/autoloader.php` + `manual-load.php` — discovery convention AI just respects
-- `components/block-scaffolder/` — meta-evidence: the theme literally has a scaffolder, proving "consistent shape" is a first-class concern, not just an AI trick
-- `.cursor/skills/acf-block-creation/SKILL.md` — workflow that wraps all the above into one prompt
+- `inc/theme/helper-functions.php` = central place for reusable logic - keeps blocks lean
+- `components/_autoloader/autoloader.php` + `manual-load.php` - discovery convention AI just respects
+- `components/block-scaffolder/` - meta-evidence: the theme literally has a scaffolder, proving "consistent shape" is a first-class concern, not just an AI trick
+- `.cursor/skills/acf-block-creation/SKILL.md` - workflow that wraps all the above into one prompt
 
 Want me to grab actual code snippets for slides 4 / 7 / 8 next?
 
@@ -601,19 +601,19 @@ _**Agent (auto-high)**_
 <think><details><summary>Thought Process</summary>
  Looking at the actual patterns in this repo, I'm identifying the core 80% of ACF block generation that can be standardized: the `fx_render_block_with_partial()` function as the rendering foundation, `fx_register_block()` for consistent registration, the ACF JSON structure with message fields and timestamps, and the component helpers like `fx_get_image_tag` that handle common markup needs.
 
-The five-step process flows from design pattern first—establishing what reusable looks like—then codifying it in actual functions, encoding those patterns into rules so they're enforceable, wrapping everything into a skill that developers can invoke, and finally closing the loop with review practices that catch deviations.</details></think>
+The five-step process flows from design pattern first-establishing what reusable looks like-then codifying it in actual functions, encoding those patterns into rules so they're enforceable, wrapping everything into a skill that developers can invoke, and finally closing the loop with review practices that catch deviations.</details></think>
 
 _**Agent (auto-high)**_
 
 5-step process. Each step has a concrete artifact this theme already proves works.
 
-**Step 1 — Lock the block file skeleton (one entry helper)**
+**Step 1 - Lock the block file skeleton (one entry helper)**
 - Build/adopt a single function every block file calls first. Here: `fx_render_block_with_partial( __FILE__, $block, $is_preview )`
 - Standardizes: ABSPATH guard, `$block` normalization, `$acf_group_variable` resolution, preset merge, `$args` unpack
 - Effect: line 1–25 of every block PHP is identical → AI has zero room to improvise file shape
 - Test: open 3 block files side by side; openings should diff to 0
 
-**Step 2 — Build a typed registration helper (one config shape)**
+**Step 2 - Build a typed registration helper (one config shape)**
 - One wrapper around `acf_register_block_type` with a fixed key set: `name`, `title`, `template`, `css`, `js`, `css_deps`, `js_deps`, `category`, `post_types`, `keywords`
 - Here: `fx_register_block()
 
@@ -689,7 +689,7 @@ _**Agent (auto-high)**_
 _**Agent (auto-high)**_
 
 <think><details><summary>Thought Process</summary>
- I'm getting a sense of the blog's tone and structure now—casual, personal, and narrative-focused with distinct sections. Let me look at a few more recent posts to see how the style has evolved.</details></think>
+ I'm getting a sense of the blog's tone and structure now-casual, personal, and narrative-focused with distinct sections. Let me look at a few more recent posts to see how the style has evolved.</details></think>
 
 _**Agent (auto-high)**_
 
@@ -707,7 +707,7 @@ _**Agent (auto-high)**_
 _**Agent (auto-high)**_
 
 <think><details><summary>Thought Process</summary>
- I'm getting a clearer picture of the voice now—personal and conversational with a story-driven feel, organized with clear section breaks. Let me look at the categories being used and see if there's a fitting image to include.</details></think>
+ I'm getting a clearer picture of the voice now-personal and conversational with a story-driven feel, organized with clear section breaks. Let me look at the categories being used and see if there's a fitting image to include.</details></think>
 
 _**Agent (auto-high)**_
 
@@ -919,15 +919,15 @@ _**Agent (auto-high)**_
 <think><details><summary>Thought Process</summary>
  I've got all the pieces now. The user wants a non-technical blog post based on our conversation about maintaining consistent AI output for WordPress builds, which covered the initial presentation idea, then narrowed down to focusing on PHP for the common cases and using reasoning for the trickier edge cases, along with a list of key features.
 
-The core insight here is that AI needs a style guide like you'd give a new contractor—it's not just about giving instructions, but codifying your conventions so the tool follows them consistently. This idea translates way beyond WordPress; it's about getting reliable, reusable output from AI tools when you're doing technical work.
+The core insight here is that AI needs a style guide like you'd give a new contractor-it's not just about giving instructions, but codifying your conventions so the tool follows them consistently. This idea translates way beyond WordPress; it's about getting reliable, reusable output from AI tools when you're doing technical work.
 
-I'm thinking about the title and voice—something personal and conversational that captures the practical lesson without getting bogged down in technical details. Something like "How I Got AI to Write My Code the Same Way Every Time" or "Why Your AI Coding Assistant Keeps Going Off-Script (And How to Fix It)" feels right for the tone I want to hit.
+I'm thinking about the title and voice-something personal and conversational that captures the practical lesson without getting bogged down in technical details. Something like "How I Got AI to Write My Code the Same Way Every Time" or "Why Your AI Coding Assistant Keeps Going Off-Script (And How to Fix It)" feels right for the tone I want to hit.
 
-Now I'm mapping out the structure: start with the frustration of inconsistent AI output, then reveal that the problem isn't the AI—it's that you haven't given it your house rules yet. Then walk through the 80/20 idea and the five-step process using analogies that non-technical readers can relate to, address what happens with that tricky 20%, and wrap up with the bigger lesson about working with AI. I'll use a placeholder image and date this for May 30, 2026.</details></think>
+Now I'm mapping out the structure: start with the frustration of inconsistent AI output, then reveal that the problem isn't the AI-it's that you haven't given it your house rules yet. Then walk through the 80/20 idea and the five-step process using analogies that non-technical readers can relate to, address what happens with that tricky 20%, and wrap up with the bigger lesson about working with AI. I'll use a placeholder image and date this for May 30, 2026.</details></think>
 
 _**Agent (auto-high)**_
 
-Now I have a good feel for your voice and post structure. Let me draft this as a non-technical post in your style — personal, conversational, with the 80/20 framing and the 5-step process turned into a story rather than a code walkthrough.
+Now I have a good feel for your voice and post structure. Let me draft this as a non-technical post in your style - personal, conversational, with the 80/20 framing and the 5-step process turned into a story rather than a code walkthrough.
 
 _**Agent (auto-high)**_
 
@@ -950,13 +950,13 @@ Done. Drafted at `content/english/blog/consistent-ai-output-wordpress-builds.md`
 
 Quick notes on the choices I made:
 
-- **Voice**: matched your existing style from `how-i-built-joraps-world.md` and `top-reasons-create-maintain-your-own-website.md` — TL;DR up top, conversational, story first, `---` section breaks, an admission or two, a short closing punch.
-- **Non-technical reframe**: dropped all the WordPress-specific jargon (ACF, PHP, helpers, escaping, JSON sync) and reframed each piece as an analogy a non-developer can follow — "new contractor every morning," "house style," "boring opening," "recipe book." The 5-step process is the same backbone as your chat, just told in plain language.
+- **Voice**: matched your existing style from `how-i-built-joraps-world.md` and `top-reasons-create-maintain-your-own-website.md` - TL;DR up top, conversational, story first, `---` section breaks, an admission or two, a short closing punch.
+- **Non-technical reframe**: dropped all the WordPress-specific jargon (ACF, PHP, helpers, escaping, JSON sync) and reframed each piece as an analogy a non-developer can follow - "new contractor every morning," "house style," "boring opening," "recipe book." The 5-step process is the same backbone as your chat, just told in plain language.
 - **Front matter**:
   - Categorized under `Technology` to match `top-reasons-why-you-still-need-use-desktop-laptop.md`
   - Tags: `AI`, `WordPress`, `Workflow`, `Developer Life`
   - Image set to `/images/image-placeholder.png` so you can swap in a real hero
-  - `draft: false` — flip to `true` if you want to stage it first
+  - `draft: false` - flip to `true` if you want to stage it first
   - Date: today, `2026-05-30`
 
 A couple of things worth a beat of thought before you publish:
@@ -1001,26 +1001,11 @@ _**Agent (auto-high)**_
 <think><details><summary>Thought Process</summary>
  I need to reframe the post so the 80% consistency benefit is the main headline, with the 20% edge cases positioned as a secondary note rather than an equally important point.
 
-I'm restructuring the title, TL;DR, and section headings to emphasize "boring, consistent output" as the real win. The 80/20 framing shifts from being a co-equal pillar to a supporting detail. I'll keep the sections the user already liked but rename "The 80/20 idea that changed everything" to something like "The real prize: boring, consistent output for the bulk of the work" — and either shrink Step 5 or reframe it as acknowledging that the 20% won't fit, and that's okay.</details></think>
+I'm restructuring the title, TL;DR, and section headings to emphasize "boring, consistent output" as the real win. The 80/20 framing shifts from being a co-equal pillar to a supporting detail. I'll keep the sections the user already liked but rename "The 80/20 idea that changed everything" to something like "The real prize: boring, consistent output for the bulk of the work" - and either shrink Step 5 or reframe it as acknowledging that the 20% won't fit, and that's okay.</details></think>
 
 _**Agent (auto-high)**_
 
-Got it — the 80% consistency is the actual headline, and the 20% edge-case handling is just a footnote. Let me re-weight the post so that's clear from the title down through the closing.
-
-_**Agent (auto-high)**_
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
-
-<details><summary>Tool use: **edit_file_v2** • Edit file: /Users/jonathanrapusas/Documents/GitHub/jorap.com/content/english/blog/consistent-ai-output-wordpress-builds.md</summary>
-
-</details>
-
-</tool-use>
-
-<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
-
-</details></tool-use>
+Got it - the 80% consistency is the actual headline, and the 20% edge-case handling is just a footnote. Let me re-weight the post so that's clear from the title down through the closing.
 
 _**Agent (auto-high)**_
 
@@ -1039,7 +1024,22 @@ _**Agent (auto-high)**_
 
 _**Agent (auto-high)**_
 
-Now let me reshape the middle section — the "80/20 idea" reframes to put consistency as the headline prize, and the 20% gets demoted to an aside.
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /Users/jonathanrapusas/Documents/GitHub/jorap.com/content/english/blog/consistent-ai-output-wordpress-builds.md</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-high)**_
+
+Now let me reshape the middle section - the "80/20 idea" reframes to put consistency as the headline prize, and the 20% gets demoted to an aside.
 
 _**Agent (auto-high)**_
 
@@ -1117,15 +1117,15 @@ Done. Here's what changed and why.
 
 **Specific shifts**:
 
-- **Title**: was "How I Got AI to Write My Code the Same Way Every Time" (consistency was implicit) → now "The Real Win With AI Isn't Speed — It's Boring, Consistent Output" (explicit, contrarian, leads with the thesis).
+- **Title**: was "How I Got AI to Write My Code the Same Way Every Time" (consistency was implicit) → now "The Real Win With AI Isn't Speed - It's Boring, Consistent Output" (explicit, contrarian, leads with the thesis).
 - **TL;DR**: rewrote to put "writes the *same* code, the same way, every single time" front and center.
 - **Middle section**: renamed "The 80/20 idea that changed everything" → "**The real prize: consistent output for the 80% that repeats**" and rewrote it to argue that *consistency*, not speed, is what AI actually delivers that humans can't. Added a one-line aside that the 20% is "a smaller problem than people think."
-- **5 steps section title**: now "**How to make AI boring (in the best way)**" — every step is framed as removing AI's room to be creative.
+- **5 steps section title**: now "**How to make AI boring (in the best way)**" - every step is framed as removing AI's room to be creative.
 - **Step 5**: was "Tell the AI what to do when it's unsure" (about the 20%) → now "**Tell AI to mirror, not invent**" (about the 80%). The 20% step was pulling weight away from the main thesis, so I demoted it.
-- **Practice section**: renamed to "**What boring actually feels like**" and added a punchline — *"oh, of course it looks like that — it always looks like that."*
+- **Practice section**: renamed to "**What boring actually feels like**" and added a punchline - *"oh, of course it looks like that - it always looks like that."*
 - **The 20%**: now a single short aside ("A quick word about the weird 20%") with one rule, then moves on. No longer a co-equal pillar.
-- **Bigger lesson**: rewritten around "**stop chasing speed and start chasing sameness**" — the cleaner version of your thesis.
-- **Final takeaway**: rewritten to drive the point home one more time — *"Not faster. Consistent."*
+- **Bigger lesson**: rewritten around "**stop chasing speed and start chasing sameness**" - the cleaner version of your thesis.
+- **Final takeaway**: rewritten to drive the point home one more time - *"Not faster. Consistent."*
 
 Want me to tighten it further, or change the title? A couple of alternates if the current one feels too punchy:
 
@@ -1144,13 +1144,13 @@ i just want to emphasize that ai creates code that creates consistent output in 
 _**Agent (auto-high)**_
 
 <think><details><summary>Thought Process</summary>
- I see the distinction now—the user is emphasizing that AI generates code which itself produces consistent output across 80% of use cases, not just that the AI's own responses are consistent. The focus is on the reliability and reusability of the code being written, particularly for handling common scenarios effectively.
+ I see the distinction now-the user is emphasizing that AI generates code which itself produces consistent output across 80% of use cases, not just that the AI's own responses are consistent. The focus is on the reliability and reusability of the code being written, particularly for handling common scenarios effectively.
 
-The post already touches on this through the helpers and patterns, but the framing needs to shift from "AI gives me consistent results" to "AI builds the reusable code that makes my project consistent." That means the title, summary, and opening should center on the code artifacts and scaffolding AI creates—the helpers, templates, and locked-down shapes—rather than positioning consistency as a property of the AI's output process itself. and then apply them consistently across the project, so the majority of the output stays predictable and uniform.</details></think>
+The post already touches on this through the helpers and patterns, but the framing needs to shift from "AI gives me consistent results" to "AI builds the reusable code that makes my project consistent." That means the title, summary, and opening should center on the code artifacts and scaffolding AI creates-the helpers, templates, and locked-down shapes-rather than positioning consistency as a property of the AI's output process itself. and then apply them consistently across the project, so the majority of the output stays predictable and uniform.</details></think>
 
 _**Agent (auto-high)**_
 
-Got it — the emphasis is specifically that **AI builds the reusable code that makes 80% of use cases produce consistent output**. Not "AI is consistent when I prompt it" but "AI creates the scaffolding/helpers/patterns that handle the predictable 80% the same way every time."
+Got it - the emphasis is specifically that **AI builds the reusable code that makes 80% of use cases produce consistent output**. Not "AI is consistent when I prompt it" but "AI creates the scaffolding/helpers/patterns that handle the predictable 80% the same way every time."
 
 Let me sharpen that across the post.
 
@@ -1224,7 +1224,7 @@ _**Agent (auto-high)**_
 
 _**Agent (auto-high)**_
 
-Now let me tighten the closing sections to reinforce the new emphasis — *AI builds the layer, then 80% of output is consistent*.
+Now let me tighten the closing sections to reinforce the new emphasis - *AI builds the layer, then 80% of output is consistent*.
 
 _**Agent (auto-high)**_
 
@@ -1279,13 +1279,13 @@ Done. The whole post now drives one clear point from title to last line: **AI's 
 
 Here are the meaningful shifts from the previous version:
 
-**Title** — was "The Real Win With AI Isn't Speed — It's Boring, Consistent Output" (focused on AI's behavior) → now **"Let AI Write the Code That Handles 80% of Your Work — Consistently"** (focused on what AI is *building*).
+**Title** - was "The Real Win With AI Isn't Speed - It's Boring, Consistent Output" (focused on AI's behavior) → now **"Let AI Write the Code That Handles 80% of Your Work - Consistently"** (focused on what AI is *building*).
 
-**TL;DR** — reframed around AI *building reusable code* for the 80%, with the new punchline: *"Stop asking AI to write one feature at a time. Ask it to build the machinery that makes the next forty features look identical."*
+**TL;DR** - reframed around AI *building reusable code* for the 80%, with the new punchline: *"Stop asking AI to write one feature at a time. Ask it to build the machinery that makes the next forty features look identical."*
 
-**Middle section** — retitled to **"The real prize: AI writing the code that handles 80% of your work"**. The whole argument is now: don't have AI build features, have AI build the *reusable layer that handles features* — the helpers, templates, canonical examples. The artifact you actually want is the layer, not the latest feature.
+**Middle section** - retitled to **"The real prize: AI writing the code that handles 80% of your work"**. The whole argument is now: don't have AI build features, have AI build the *reusable layer that handles features* - the helpers, templates, canonical examples. The artifact you actually want is the layer, not the latest feature.
 
-**5 steps** — every step is now framed as something AI *builds*:
+**5 steps** - every step is now framed as something AI *builds*:
 - Step 2: "Have AI build a single helper..."
 - Step 3: "Have AI build a small library of canonical examples"
 - Step 4: "Have AI write down the project's non-negotiables"
@@ -1293,11 +1293,11 @@ Here are the meaningful shifts from the previous version:
 
 So the steps now describe how AI constructs the consistency machinery, then uses it.
 
-**Closing one-liner** — sharpened to: *"Don't use AI to build one feature at a time. Use AI to build the reusable code that handles 80% of your features — then have it produce identical output every time it touches that 80%."*
+**Closing one-liner** - sharpened to: *"Don't use AI to build one feature at a time. Use AI to build the reusable code that handles 80% of your features - then have it produce identical output every time it touches that 80%."*
 
 If you want to push the framing even further, two options:
 
-- Even more pointed title: **"Use AI to Build the 80% of Code That Repeats — Once, Then Forever"**
+- Even more pointed title: **"Use AI to Build the 80% of Code That Repeats - Once, Then Forever"**
 - Or drop "The thing nobody warns you about" intro (which is still framed as a process problem, not a code-building one) and have the post open straight on the 80% layer idea. Faster lead, less story setup.
 
 Want either of those?
@@ -1317,7 +1317,7 @@ _**Agent (auto-high)**_
 
 I'm exploring metaphors like cookie cutters stamping out identical shapes, assembly lines producing uniform widgets, building blocks with one slightly different piece to show the 80/20 split, blueprints with repeating patterns, Lego-style modular components, printing presses creating consistent output, AI placing matching puzzle pieces, grids of identical cards, stamping tools making uniform impressions, robots neatly arranging blocks, vending machines dispensing predictable items, pouring from a single mold into many outputs, repeating architectural columns, musical phrases, domino patterns, IKEA instruction sheets, and humans collaborating with AI to place tiles together.
 
-Now I'm thinking about how to present these—keeping the tone conversational and playful rather than corporate, organizing them into a focused set of maybe six to ten strong options with brief descriptions and rationale, then offering to generate whichever ones resonate most with the user.</details></think>
+Now I'm thinking about how to present these-keeping the tone conversational and playful rather than corporate, organizing them into a focused set of maybe six to ten strong options with brief descriptions and rationale, then offering to generate whichever ones resonate most with the user.</details></think>
 
 _**Agent (auto-high)**_
 
@@ -1329,7 +1329,7 @@ Here are some featured image directions, grouped by the core metaphor each one l
    A single cutter stamping a row of identical shapes onto a workbench, with one slightly-different oddball shape at the end (the 20%). Clean, instantly readable, communicates "same output every time."
 
 2. **Assembly line of identical blocks**
-   A friendly, isometric conveyor belt producing identical website "blocks" or cards — all matching, gliding past a small AI character. Says: AI built the line, the line makes the sameness.
+   A friendly, isometric conveyor belt producing identical website "blocks" or cards - all matching, gliding past a small AI character. Says: AI built the line, the line makes the sameness.
 
 3. **Printing press / stamp**
    A vintage-feeling rubber stamp or printing plate, with one stamped imprint and a row of identical impressions trailing off into a grid. Strong "boring on purpose" energy.
@@ -1343,7 +1343,7 @@ Here are some featured image directions, grouped by the core metaphor each one l
    A neat row of identical Lego-style blocks stacked into a tidy site layout, with an AI/robot hand placing the next one. Modern, playful, fits "developer life" tag.
 
 6. **Architectural columns / arches**
-   A repeating colonnade — visually beautiful, instantly conveys "the same shape, on purpose, many times." Quieter and more design-forward.
+   A repeating colonnade - visually beautiful, instantly conveys "the same shape, on purpose, many times." Quieter and more design-forward.
 
 ### "80/20" literal visualizations
 
@@ -1359,7 +1359,7 @@ Here are some featured image directions, grouped by the core metaphor each one l
    A three-panel hero: rough sketch → polished template → grid of identical outputs. Tells the "AI builds the layer, the layer does the work" story directly.
 
 10. **A craftsperson and a robot at the same workbench**
-    Hands placing tiles together, the human picking colors, the robot laying repeating patterns. Warmer, more "JoRap's World" feel — collaborative rather than tech-y.
+    Hands placing tiles together, the human picking colors, the robot laying repeating patterns. Warmer, more "JoRap's World" feel - collaborative rather than tech-y.
 
 ---
 
@@ -1397,7 +1397,7 @@ Parameters:
 
 ```json
 {
-  "description": "A clean, modern editorial illustration in a 16:9 wide aspect ratio. The composition shows a single ornate metal mold (or die-cast template) in the foreground on a workbench, glowing softly as if freshly used. Trailing behind it, in a precise grid arrangement receding into soft depth, are about 12-15 identical cast objects — they look like small geometric website \"cards\" or building blocks, all perfectly matching the shape of the mold. Each cast piece is identical to the next: same form, same size, same finish. The lighting is warm and a little cinematic, golden hour through a workshop window. Color palette: warm cream and soft beige background, with the mold and casts in a muted brushed-bronze and deep teal accent. The mood is calm, satisfying, and almost meditative — emphasizing the beauty of repetition and sameness. No text, no logos. Subtle workshop details (a faint blueprint on the side, soft tool shadows) for context. Style: high-end editorial illustration meets product photography, clean vector-influenced shapes with painterly lighting. Plenty of negative space at the top for a blog title overlay.",
+  "description": "A clean, modern editorial illustration in a 16:9 wide aspect ratio. The composition shows a single ornate metal mold (or die-cast template) in the foreground on a workbench, glowing softly as if freshly used. Trailing behind it, in a precise grid arrangement receding into soft depth, are about 12-15 identical cast objects - they look like small geometric website \"cards\" or building blocks, all perfectly matching the shape of the mold. Each cast piece is identical to the next: same form, same size, same finish. The lighting is warm and a little cinematic, golden hour through a workshop window. Color palette: warm cream and soft beige background, with the mold and casts in a muted brushed-bronze and deep teal accent. The mood is calm, satisfying, and almost meditative - emphasizing the beauty of repetition and sameness. No text, no logos. Subtle workshop details (a faint blueprint on the side, soft tool shadows) for context. Style: high-end editorial illustration meets product photography, clean vector-influenced shapes with painterly lighting. Plenty of negative space at the top for a blog title overlay.",
   "filePath": "consistent-ai-output.jpg"
 }
 ```
@@ -1426,13 +1426,13 @@ Status: **completed**
 _**Agent (auto-high)**_
 
 <think><details><summary>Thought Process</summary>
- The image turned out really well—it shows a brass mold in the foreground with a warm glow from recent use, surrounded by a grid of identical bronze-and-teal cast pieces styled like website cards, all arranged on a blueprint with workshop tools and golden hour lighting that ties the whole concept together.
+ The image turned out really well-it shows a brass mold in the foreground with a warm glow from recent use, surrounded by a grid of identical bronze-and-teal cast pieces styled like website cards, all arranged on a blueprint with workshop tools and golden hour lighting that ties the whole concept together.
 
 Now I need to move the generated image to the correct location in the project's assets folder and update the blog post's front matter to reference it properly.</details></think>
 
 _**Agent (auto-high)**_
 
-That came out great — the warm workshop lighting, the slightly glowing mold, and the precise grid of identical bronze-and-teal "cards" behind it land the thesis instantly. Let me move it into the project and wire it into the front matter.
+That came out great - the warm workshop lighting, the slightly glowing mold, and the precise grid of identical bronze-and-teal "cards" behind it land the thesis instantly. Let me move it into the project and wire it into the front matter.
 
 _**Agent (auto-high)**_
 
@@ -1478,7 +1478,7 @@ Done. The hero is in place at `assets/images/consistent-ai-output.jpg` and the p
 
 A few notes if you want to iterate on it:
 
-- **Composition fits a hero well** — the upper-left has clean negative space if you ever overlay a title in Photoshop or in the theme's hero card layout.
+- **Composition fits a hero well** - the upper-left has clean negative space if you ever overlay a title in Photoshop or in the theme's hero card layout.
 - **The "mold" reads as singular and intentional**, and the trailing grid of identical pieces reads instantly as "the 80% it produces." Exactly the metaphor.
 - **If you want a quick variant**: I can re-roll with a brighter/lighter palette to match the site's lighter mode better, swap the bronze tone for something cooler (blue/slate), or do a flatter vector-style version if the painterly look feels too "stocky" against your other post images. Just say the word.
 
@@ -1512,7 +1512,7 @@ Parameters:
 
 ```json
 {
-  "description": "A clean, modern editorial illustration in a 16:9 wide aspect ratio. The composition shows a tidy isometric arrangement of identical modular building blocks — chunky, friendly, Lego-inspired but more refined and grown-up. The blocks are stacked into a neat little structure that subtly resembles a stylized website layout: a header row, a few card rows, a footer. Each block is the exact same shape and finish, creating a satisfying sense of repetition and order. A small, charming robot/AI character (geometric, simple, friendly — not a generic sci-fi robot) is in the act of placing the next identical block onto the structure with delicate precision. A few extra identical blocks sit ready in a neat row beside the structure, waiting their turn. Color palette: soft warm cream background, blocks in muted teal and warm terracotta with subtle wood-grain texture, the robot in soft brushed brass. Lighting is bright and clean with a soft directional shadow, like a designer's desk on a sunny afternoon. The mood is calm, playful, and quietly satisfying — emphasizing modularity, sameness, and intentional craft. No text, no logos, no UI mockups inside the blocks. Plenty of negative space at the top and left for a blog title overlay. Style: high-end editorial illustration meets stop-motion product photography, clean shapes with painterly lighting.",
+  "description": "A clean, modern editorial illustration in a 16:9 wide aspect ratio. The composition shows a tidy isometric arrangement of identical modular building blocks - chunky, friendly, Lego-inspired but more refined and grown-up. The blocks are stacked into a neat little structure that subtly resembles a stylized website layout: a header row, a few card rows, a footer. Each block is the exact same shape and finish, creating a satisfying sense of repetition and order. A small, charming robot/AI character (geometric, simple, friendly - not a generic sci-fi robot) is in the act of placing the next identical block onto the structure with delicate precision. A few extra identical blocks sit ready in a neat row beside the structure, waiting their turn. Color palette: soft warm cream background, blocks in muted teal and warm terracotta with subtle wood-grain texture, the robot in soft brushed brass. Lighting is bright and clean with a soft directional shadow, like a designer's desk on a sunny afternoon. The mood is calm, playful, and quietly satisfying - emphasizing modularity, sameness, and intentional craft. No text, no logos, no UI mockups inside the blocks. Plenty of negative space at the top and left for a blog title overlay. Style: high-end editorial illustration meets stop-motion product photography, clean shapes with painterly lighting.",
   "filePath": "consistent-ai-output-blocks.jpg"
 }
 ```

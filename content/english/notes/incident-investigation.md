@@ -50,6 +50,10 @@ cards:
     back: "Blind corners and signage."
   - front: "Tray spill blamed on clumsy server. Blameless move?"
     back: "Trace prep timing and station layout."
+  - front: "Friday revert - Monday meeting starting with who screwed up."
+    back: "Timeline first - facts before blame."
+  - front: "Patient mix-up - chart says one thing, hallway says another."
+    back: "Trace the handoffs - find the break, not the face."
 draft: false
 ---
 

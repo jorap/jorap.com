@@ -284,6 +284,6 @@ _**Agent (default)**_
 Updated the AI prompt in `notes-random-three.js` so it asks for analysis at both levels:
 
 1. **All three notes together** (unchanged intent)
-2. **Each pair separately** — 1+2, 1+3, and 2+3
+2. **Each pair separately** - 1+2, 1+3, and 2+3
 
 The "Please" section now explicitly calls out unexpected links, gaps/tensions, note title ideas, and questions for the trio **and** for each pair. Shuffle the page and copy the prompt to see the new wording.

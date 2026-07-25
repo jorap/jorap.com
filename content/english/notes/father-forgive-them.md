@@ -49,18 +49,18 @@ featured: false
 review: true
 card_sets: ["Jesus Prayers", "Gospel", "Faith", "Prayer"]
 cards:
-  - front: "Someone slandered me online. Thumb on reply. What did He pray from the cross?"
+  - front: "Someone slandered me online - thumb on the angry reply."
+    back: "Pray - Father, forgive them."
+  - front: "Enemy just hurt me - I want them to feel it."
+    back: "Pray for their forgiveness first."
+  - front: "They don't know what they're doing - tempted to use it as excuse."
+    back: "Intercede now - don't wait for repentance."
+  - front: "Waiting until I win before I forgive - grudge on hold."
+    back: "Forgive while it hurts - He did at the nails."
+  - front: "Coworker sabotaged me and walked by - grudge loading."
     back: "Father, forgive them."
-  - front: "Enemy just hurt me and I want them to feel it. First move from Luke 23:34?"
-    back: "Pray for their forgiveness."
-  - front: "They do not know what they are doing - sounds like an excuse. How did He use it?"
-    back: "Prayed it at the nails - intercede now."
-  - front: "Waiting until I win before I forgive. When did Jesus pray this?"
-    back: "While they crucified Him."
-  - front: "Coworker sabotaged me and walked by. Cross prayer move?"
-    back: "Father, forgive them."
-  - front: "Apology still has not come. What did He do without one?"
-    back: "Prayed forgiveness first."
+  - front: "Apology still has not come - forgiveness on hold."
+    back: "Pray forgiveness first - no apology required."
 draft: false
 ---
 

@@ -9,7 +9,7 @@ When you finish a turn that changed repo files (content, layouts, scripts, confi
 
 ```
 ## Session close
-- Fixed: <one line — what shipped or repaired>
+- Fixed: <one line - what shipped or repaired>
 - Encode: <rule/skill to update, or "none">
 - Open: <issues count, ponytail debt, or "clean">
 ```

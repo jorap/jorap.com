@@ -879,7 +879,7 @@ Fixed all three structure issues by adding `contradicts` rows to each note's `re
 | Note | Change |
 |------|--------|
 | **Spaced Repetition** | Changed `alternative` → `contradicts` for [[The Feynman Technique]] (reciprocal with Feynman's existing contradicts row) |
-| **Intellectual Sourcing** | Added `contradicts` → [[Drafting in Public]] — *when rough publish beats pausing to trace every quote* |
-| **Synthesis as a Goal** | Added `contradicts` → [[The Collector's Fallacy]] — *when a quote pile feels like belief you haven't written yet* |
+| **Intellectual Sourcing** | Added `contradicts` → [[Drafting in Public]] - *when rough publish beats pausing to trace every quote* |
+| **Synthesis as a Goal** | Added `contradicts` → [[The Collector's Fallacy]] - *when a quote pile feels like belief you haven't written yet* |
 
 Hugo build passes. Re-run **Copy issues** on `/notes/issues/` to confirm the garden is clean.

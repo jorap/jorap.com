@@ -295,9 +295,9 @@ _**Agent (default)**_
 
 All three note link sections now use a 2-column grid from `sm` and up (single column on mobile):
 
-- **Links from this Note** — `sm:grid-cols-2`
-- **See also** — `sm:grid-cols-2`
-- **Backlinks** — `sm:grid-cols-2` (title + snippet per cell)
+- **Links from this Note** - `sm:grid-cols-2`
+- **See also** - `sm:grid-cols-2`
+- **Backlinks** - `sm:grid-cols-2` (title + snippet per cell)
 
 ---
 
@@ -822,8 +822,8 @@ _**Agent (default)**_
 
 Backlinks and See also now share the same card markup and body text logic:
 
-1. **`note-link-card.html`** — one card template used by both sections  
-2. **`shared-labels.html`** — shared tags/categories as the subtitle (replacing backlink snippets)
+1. **`note-link-card.html`** - one card template used by both sections  
+2. **`shared-labels.html`** - shared tags/categories as the subtitle (replacing backlink snippets)
 
 Both render as title + shared tag labels in the same 2-column `notes-card` grid.
 

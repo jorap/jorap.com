@@ -196,7 +196,7 @@ It’s installed now:
 hugo v0.163.3+extended linux/amd64
 ```
 
-If you hit this again after cloning or updating the repo, `mise install` (no args) installs everything from `.mise.toml` at once. Make sure your shell has mise activated — e.g. `eval "$(mise activate bash)"` in your shell config — so `hugo` resolves from the project toolchain.
+If you hit this again after cloning or updating the repo, `mise install` (no args) installs everything from `.mise.toml` at once. Make sure your shell has mise activated - e.g. `eval "$(mise activate bash)"` in your shell config - so `hugo` resolves from the project toolchain.
 
 ---
 
@@ -1499,7 +1499,7 @@ The dropdown bug is caused by missing spaces between HTML attributes in the rend
 
 Hugo's `{{-` and `-}}` whitespace trimming strips the newline after `class`, causing the next attribute to merge directly into the previous one.
 
-The exact rendered output is `class="..."data-notes-single-random-selectaria-label="..."` — the data attribute and aria-label are also merged into a single token.
+The exact rendered output is `class="..."data-notes-single-random-selectaria-label="..."` - the data attribute and aria-label are also merged into a single token.
 </details></think>
 
 _**Agent (default)**_
@@ -1709,7 +1709,7 @@ Result:
           },
           {
             "lineNumber": 2,
-            "text": "  Table of contents for notes — body headings from RawContent, plus page sections"
+            "text": "  Table of contents for notes - body headings from RawContent, plus page sections"
           },
           {
             "lineNumber": 3,
@@ -2265,7 +2265,7 @@ _**Agent (default)**_
 
 Blog post TOCs now include the same bottom-of-page sections as notes.
 
-**New partial** `layouts/_partials/blog/toc.html` — starts from Hugo’s built-in heading TOC and appends (when present):
+**New partial** `layouts/_partials/blog/toc.html` - starts from Hugo’s built-in heading TOC and appends (when present):
 - Related Posts → `#related-posts`
 - Related Notes → `#related-notes`
 - Random Note → `#random-note`

@@ -421,4 +421,4 @@ _**Agent (auto-low)**_
 
 Updated the backlinks list on note pages to stay at two columns, matching "Links from this Note" and "See also".
 
-It had `lg:grid-cols-3`, which pushed it to three columns on large screens. That's removed so it uses `grid gap-3 sm:grid-cols-2` only — one column on small screens, two from `sm` up.
+It had `lg:grid-cols-3`, which pushed it to three columns on large screens. That's removed so it uses `grid gap-3 sm:grid-cols-2` only - one column on small screens, two from `sm` up.

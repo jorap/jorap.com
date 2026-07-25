@@ -1,8 +1,8 @@
 {{- /*
   Scan garden notes for link and structure issues.
   Returns dict:
-    byPath — map File.Path → { broken, pipe, unlinked, structure, orphan, deadEnd, utility, relBroken, bodySection, total }
-    notes — slice of { Page, …, total }
+    byPath - map File.Path → { broken, pipe, unlinked, structure, orphan, deadEnd, utility, relBroken, bodySection, total }
+    notes - slice of { Page, …, total }
     brokenCount, pipeCount, unlinkedCount, structureCount,
     orphanCount, deadEndCount, utilityCount, relBrokenCount, bodySectionCount,
     notesWithIssues
@@ -102,10 +102,10 @@
 
   {{- $unlinked := slice -}}
   {{- $unlinkedKeys := dict -}}
-  {{- /* Headings are structure, not prose mentions — e.g. ## Note Relationships */ -}}
+  {{- /* Headings are structure, not prose mentions - e.g. ## Note Relationships */ -}}
   {{- $mentionSrc := replaceRE `(?m)^#{1,6}\s+[^\n]*\n?` "" $raw -}}
   {{- $mentionRendered := $note.RenderString $mentionSrc -}}
-  {{- /* ponytail: NASB blocks trip alias lint (blessed are, Romans 12:1) — scan prose, not citations */ -}}
+  {{- /* ponytail: NASB blocks trip alias lint (blessed are, Romans 12:1) - scan prose, not citations */ -}}
   {{- $mentionRaw := replaceRE `(?s)<p class="scripture-verse">.*?</p>` " " $mentionRendered -}}
   {{- $mentionRaw = replaceRE `<[^>]+>` " " $mentionRaw -}}
   {{- $mentionRaw = replaceRE `\s+` " " $mentionRaw | strings.TrimSpace -}}

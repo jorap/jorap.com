@@ -1,4 +1,4 @@
-# JoRap Notes — Platform Specification
+# JoRap Notes - Platform Specification
 
 **Version:** 1.0.0  
 **Status:** Active  
@@ -26,12 +26,12 @@ JoRap Notes is a **personal brand surface**: a static site that showcases how th
 
 The platform combines:
 
-- **Blog** — long-form credibility and SEO
-- **Notes garden** — atomic linked notes, graph, flashcards, and agent copy
-- **Static pages** — about, contact, portfolio framing
-- **CMS** — optional git-backed authoring for non-developers
+- **Blog** - long-form credibility and SEO
+- **Notes garden** - atomic linked notes, graph, flashcards, and agent copy
+- **Static pages** - about, contact, portfolio framing
+- **CMS** - optional git-backed authoring for non-developers
 
-Success means visitors leave with **professional credibility**, a **distinct point of view**, and **trust** that engaging the author is a serious business choice—not a casual follow of a hobby blog.
+Success means visitors leave with **professional credibility**, a **distinct point of view**, and **trust** that engaging the author is a serious business choice-not a casual follow of a hobby blog.
 
 ---
 
@@ -48,37 +48,37 @@ Success means visitors leave with **professional credibility**, a **distinct poi
 
 ### 2.2 User scenarios (prioritized)
 
-#### P1 — Client credibility skim
+#### P1 - Client credibility skim
 
 A decision-maker lands on the homepage or a blog post between meetings. They scan navigation, read one essay, and decide whether the author thinks in outcomes.
 
 **Acceptance:** Homepage and blog feel calm, legible, and professional on laptop and mobile. Copy speaks to intelligent non-specialists. No performative dev-bro or generic SaaS landing patterns.
 
-#### P2 — Deep read with discovery
+#### P2 - Deep read with discovery
 
 A reader finishes a blog post and follows related notes or posts without getting lost.
 
 **Acceptance:** Related posts appear on blog singles. Blog posts may declare `related_notes`. Breadcrumbs and back-to-top work on long reads. Search returns relevant results.
 
-#### P3 — Notes garden exploration
+#### P3 - Notes garden exploration
 
 A reader browses atomic notes via list, graph, backlinks, or random resurfacing.
 
 **Acceptance:** Wikilinks resolve. Backlinks show context snippets. Graph filters (high/low/no body links, orphans) work on desktop and touch devices. Broken links surface on Issues and per-note warnings.
 
-#### P4 — Spaced-repetition review
+#### P4 - Spaced-repetition review
 
 The author drills habit-spine flashcards in `/notes/review/`.
 
 **Acceptance:** Cards flip with reduced-motion fallback. Progress persists in `localStorage`. Only `review: true` notes with valid `cards:` frontmatter appear in review queues.
 
-#### P5 — Author publish workflow
+#### P5 - Author publish workflow
 
 The author writes Markdown, runs lint, pushes to Git; the site rebuilds and deploys.
 
 **Acceptance:** `pnpm dev` for local preview. `pnpm run deploy` produces `public/`. Cloudflare Pages rebuilds on push. Non-deploy commits can use `[skip ci]`.
 
-#### P6 — agent copy
+#### P6 - agent copy
 
 The author copies garden context into ChatGPT or another agent for drafting, connection-finding, or maintenance.
 
@@ -110,7 +110,7 @@ Markdown + assets (Git)
 | Generator | Hugo Extended 0.163.3 |
 | Theme | `themes/jorap` (forked from Hugoplate) |
 | CSS | Tailwind CSS v4, semantic tokens from `data/theme.json` |
-| Client JS | Vanilla modules (`assets/js/`) — search, graph (PixiJS), flashcards |
+| Client JS | Vanilla modules (`assets/js/`) - search, graph (PixiJS), flashcards |
 | Build | Node 22+, pnpm 11.7, Go 1.24+ |
 | Hosting | Cloudflare Pages (primary) |
 | CMS | Static Site CMS at `/admin` (optional) |
@@ -188,9 +188,9 @@ Configuration and setup: [`CMS_SETUP.md`](./CMS_SETUP.md). CMS edits the same Ma
 ### 5.1 Design intent
 
 - **One note = one claim** quotable in conversation
-- **Links are first-class** — wikilinks in prose; typed relationships in frontmatter
-- **Tools are meta pages** — graph, issues, review, etc. are not garden ideas
-- **Agents are consumers** — OKF export and copy buttons hand off structured context
+- **Links are first-class** - wikilinks in prose; typed relationships in frontmatter
+- **Tools are meta pages** - graph, issues, review, etc. are not garden ideas
+- **Agents are consumers** - OKF export and copy buttons hand off structured context
 
 ### 5.2 Page kinds (`note_kind`)
 
@@ -411,7 +411,7 @@ All surfaces inherit **The Quiet Study** design system. Full tokens and componen
 - No chaotic personal brand layouts
 - Single accent color (charcoal/cream inversion); no second display font without PRODUCT change
 
-Notes tool UI (graph, filters, flashcards) uses the same tokens as blog cards—no second palette.
+Notes tool UI (graph, filters, flashcards) uses the same tokens as blog cards-no second palette.
 
 ---
 
@@ -475,12 +475,12 @@ The following are explicitly **not** goals of this platform:
 
 ## 12. Assumptions
 
-1. **Single author** — JoRap is primary content owner; multi-author Hugo support exists but is not the main workflow.
-2. **English only** — `defaultContentLanguage = en`; no i18n requirement.
-3. **Git literacy for publishing** — Authors using CMS still commit through git-backed Static Site CMS.
-4. **Cloudflare free tier** — Build budget (~500/month) informs batch commits and `[skip ci]`.
-5. **Agent consumers are assistive** — ChatGPT and similar tools draft or maintain; Hugo remains source of truth.
-6. **Faith and work themes coexist** — Garden includes theological and professional notes under one voice (see jorap-voice skill).
+1. **Single author** - JoRap is primary content owner; multi-author Hugo support exists but is not the main workflow.
+2. **English only** - `defaultContentLanguage = en`; no i18n requirement.
+3. **Git literacy for publishing** - Authors using CMS still commit through git-backed Static Site CMS.
+4. **Cloudflare free tier** - Build budget (~500/month) informs batch commits and `[skip ci]`.
+5. **Agent consumers are assistive** - ChatGPT and similar tools draft or maintain; Hugo remains source of truth.
+6. **Faith and work themes coexist** - Garden includes theological and professional notes under one voice (see jorap-voice skill).
 
 ---
 

@@ -802,14 +802,14 @@ Updated all 24 review-note flashcard decks. Fronts now use situational triggers 
 - Removed note titles and jargon (`Free grace says…`, `Golden Rule asks…`, `Pareto rule…`, `PARA bucket`)
 - Removed verse citations that were the answer key (`Matthew 7:7`, `Ephesians 2:8-9`, `John 15:7`)
 - Removed fill-in-the-blank prompts (`saved by what, not of works?`, `three verbs for…`)
-- Replaced with scenario triggers — a situation you're in, then a short question
+- Replaced with scenario triggers - a situation you're in, then a short question
 
 **Examples:**
 
 | Before | After |
 |--------|-------|
-| `Matthew 7:12 — Jesus sums the Law and Prophets in one active rule… What is it?` | `About to post a public critique of someone. What one-line test caps Jesus' Sermon on the Mount?` |
-| `Matthew 7:7 — three verbs for how to come to the Father?` | `Morning inbox before any quiet time with God. How does Jesus say I should keep approaching the Father?` |
+| `Matthew 7:12 - Jesus sums the Law and Prophets in one active rule… What is it?` | `About to post a public critique of someone. What one-line test caps Jesus' Sermon on the Mount?` |
+| `Matthew 7:7 - three verbs for how to come to the Father?` | `Morning inbox before any quiet time with God. How does Jesus say I should keep approaching the Father?` |
 | `Free grace says what?` (when obedience feels like qualification) | `Obedience to Jesus' commands feels like what qualifies me for heaven. What's the actual order?` |
 
 Also updated `cards.md`, the `notes-review` archetype, and `scripts/fix-flashcard-lengths.py` with the new rule. All cards pass `npm run lint:cards`.
@@ -1074,7 +1074,7 @@ Created a project skill at `.cursor/skills/notes-flashcards/`.
 **`SKILL.md`** covers:
 - When to opt a note into `review: true` (~20% spine rule)
 - Frontmatter shape and lint rules
-- Card design — scenario fronts, short backs, **no answer telegraphy**
+- Card design - scenario fronts, short backs, **no answer telegraphy**
 - `card_sets` labels for PKM vs gospel notes
 - Workflow: read note → write six cards → `npm run lint:cards`
 - Scaffold via `hugo new --kind notes-review`
@@ -1141,7 +1141,7 @@ Cards should trigger the correct action before the learner flips them. They shou
 
 _**Agent (default)**_
 
-Adding a goals-first section to the skill — grounded in retrieval practice and this garden's habit/gospel use case — and tightening the writing workflow around those goals.
+Adding a goals-first section to the skill - grounded in retrieval practice and this garden's habit/gospel use case - and tightening the writing workflow around those goals.
 
 
 _**Agent (default)**_
@@ -1168,16 +1168,16 @@ Updated the skill with a **Goals** section up front and goal-tagged examples. He
 The point is to *produce* the answer from memory before you flip. If the front gives it away, the review feels productive but doesn’t stick.
 
 **2. Automate the move at failure points**  
-Best cards fire when the habit or conviction breaks — inbox rotting, organizing on capture, treating works as salvation currency, waiting to be treated well before you act well. You’re training the default move under stress, not rehearsing definitions.
+Best cards fire when the habit or conviction breaks - inbox rotting, organizing on capture, treating works as salvation currency, waiting to be treated well before you act well. You’re training the default move under stress, not rehearsing definitions.
 
 **3. Transfer to real situations**  
-Scenario fronts (“Friday review, forty items untouched…”) beat label fronts (“What is capture?”). Same principle, new surface — so recall works outside `/notes/review/`.
+Scenario fronts (“Friday review, forty items untouched…”) beat label fronts (“What is capture?”). Same principle, new surface - so recall works outside `/notes/review/`.
 
 **4. One cold-recall target per card**  
 One decision, one order, one phrase on the back. If it needs a paragraph, it belongs in the wiki note.
 
 **5. Durable recall on rhythm**  
-Cards pair with spaced review — remember *before* you forget, not cram once. A small spine deck you actually drill beats cards on every note.
+Cards pair with spaced review - remember *before* you forget, not cram once. A small spine deck you actually drill beats cards on every note.
 
 **6. Keep lanes separate**  
 Wiki = linked understanding, nuance, extends/contradicts. Cards = instant recall under pressure. Don’t duplicate the note on a card.
@@ -1237,7 +1237,7 @@ Restructuring the skill around the core cycle: cue in real life, recall the prin
 
 Drawing on Peter Gollwitzer's implementation intentions. Cards will pair exact life cues with verb-first imperative actions. A "real-life litmus test" will check whether the next five seconds are already planned. The back of each card should be the immediate action itself, not just the principle.
 
-Cards will be written as IF-THEN pairs. The front captures the exact real-life cue—sensory, temporal, or emotional. The back contains the immediate action to take within five seconds. Skill files will be updated first; the cards.md archetype may receive a brief note about immediate application.
+Cards will be written as IF-THEN pairs. The front captures the exact real-life cue-sensory, temporal, or emotional. The back contains the immediate action to take within five seconds. Skill files will be updated first; the cards.md archetype may receive a brief note about immediate application.
 </details></think>
 
 _**Agent (default)**_
@@ -1276,18 +1276,18 @@ Updated the skill around one north star:
 
 ### What changed
 
-**North star section** — Success isn't passing review; it's knowing what to do in the next five seconds when the front happens in real life.
+**North star section** - Success isn't passing review; it's knowing what to do in the next five seconds when the front happens in real life.
 
 **Card structure reframed:**
 
 | Part | Job |
 |------|-----|
-| **Front** | Cue you'd recognize — present tense, mid-action (`thumb on post button`, `inbox at 40`, `guilt after snapping`) |
-| **Back** | Immediate apply — verb-first move (`Pray for them.`, `One inbox. Don't organize.`) |
+| **Front** | Cue you'd recognize - present tense, mid-action (`thumb on post button`, `inbox at 40`, `guilt after snapping`) |
+| **Back** | Immediate apply - verb-first move (`Pray for them.`, `One inbox. Don't organize.`) |
 
-**Real-life litmus test** added to workflow: read only the front — could this happen this week? Cover the back — do you know what to **do now**, not what to study?
+**Real-life litmus test** added to workflow: read only the front - could this happen this week? Cover the back - do you know what to **do now**, not what to study?
 
-**Weak backs flagged** — principle-only backs that explain but don't direct get rewritten (see `examples.md` table).
+**Weak backs flagged** - principle-only backs that explain but don't direct get rewritten (see `examples.md` table).
 
 **Workflow** now starts by mining **real cues from this week**, not the note's definition line.
 
@@ -1817,7 +1817,7 @@ Reviewed all **24 spine decks** (144 cards) against the cue → apply standard. 
 
 ## Audit findings
 
-**Already strong (minor polish only):** `capture`, `atomic-notes`, `the-trusted-inbox`, `the-golden-rule` — good mid-action cues; backs tightened to verb-first moves.
+**Already strong (minor polish only):** `capture`, `atomic-notes`, `the-trusted-inbox`, `the-golden-rule` - good mid-action cues; backs tightened to verb-first moves.
 
 **Main problems across the rest:**
 
@@ -1832,15 +1832,15 @@ Reviewed all **24 spine decks** (144 cards) against the cue → apply standard. 
 ## What changed (pattern)
 
 **Before:** `Peter asks how many times to forgive. Jesus names a number…`  
-**After:** `Same person hurt me again — tempted to stop counting. Forgive again or close the ledger?` → `Forgive again — stop counting.`
+**After:** `Same person hurt me again - tempted to stop counting. Forgive again or close the ledger?` → `Forgive again - stop counting.`
 
 **Before:** `Scribe asks which command is greatest… Which four?`  
-**After:** `Sunday worship felt high but I haven't opened the Bible all week…` → `Mind — open Scripture today.`
+**After:** `Sunday worship felt high but I haven't opened the Bible all week…` → `Mind - open Scripture today.`
 
 **Before:** `What fallacy am I drifting into?` (names answer on front)  
-**After:** `Saving everything just in case — hoarding bookmarks with no output. What's the drift?` → `Collector's Fallacy — skip the save.`
+**After:** `Saving everything just in case - hoarding bookmarks with no output. What's the drift?` → `Collector's Fallacy - skip the save.`
 
-Gospel decks now cue **real moments** (grudge while praying, slander online, inbox before Scripture). PKM decks cue **mid-action forks** (thumb on save, filing a note, Friday review step 1). Backs say **do/decide now** — not define.
+Gospel decks now cue **real moments** (grudge while praying, slander online, inbox before Scripture). PKM decks cue **mid-action forks** (thumb on save, filing a note, Friday review step 1). Backs say **do/decide now** - not define.
 
 ## Decks updated
 
@@ -2057,7 +2057,7 @@ _**Agent (default)**_
 <think><details><summary>Thought Process</summary>
 Hugo is failing to render the page because of a slice bounds error in `.Fragments.Headings`. This occurs inside the notes table-of-contents partial.
 
-The crash affects specific notes such as forgiveness.md and love-god.md. A Hugo bug or content issue—possibly frontmatter cards or duplicate body content—is likely causing the fragment parser to panic. I will inspect the affected note files and the toc partials to identify the root cause.
+The crash affects specific notes such as forgiveness.md and love-god.md. A Hugo bug or content issue-possibly frontmatter cards or duplicate body content-is likely causing the fragment parser to panic. I will inspect the affected note files and the toc partials to identify the root cause.
 </details></think>
 
 _**Agent (default)**_
@@ -2612,7 +2612,7 @@ Wikilinks, bold, italic, and custom anchor IDs will be stripped from titles. Anc
 
 _**Agent (default)**_
 
-Replacing `.Fragments.Headings` with raw-markdown parsing — Hugo panics when pipe wikilinks (e.g. `[[Creative Output|shipping]]`) desync fragment offsets.
+Replacing `.Fragments.Headings` with raw-markdown parsing - Hugo panics when pipe wikilinks (e.g. `[[Creative Output|shipping]]`) desync fragment offsets.
 
 
 _**Agent (default)**_
@@ -2643,7 +2643,7 @@ The recursive partial approach is being abandoned. Returning dictionaries from p
 
 _**Agent (default)**_
 
-Simplifying the TOC approach — the nested partial was overcomplicated.
+Simplifying the TOC approach - the nested partial was overcomplicated.
 
 
 _**Agent (default)**_
@@ -2987,7 +2987,7 @@ forgiveness: no toc
 
 _**Agent (default)**_
 
-The crash came from Hugo’s `.Fragments.Headings` — it miscalculates byte offsets when note bodies have pipe wikilinks like `[[Creative Output|shipping]]` or `[[Ask Seek Knock|Lord's Prayer]]`, which triggers `slice bounds out of range`.
+The crash came from Hugo’s `.Fragments.Headings` - it miscalculates byte offsets when note bodies have pipe wikilinks like `[[Creative Output|shipping]]` or `[[Ask Seek Knock|Lord's Prayer]]`, which triggers `slice bounds out of range`.
 
 **Fix:** `layouts/_partials/notes/toc.html` now builds the TOC from `RawContent` (same approach as `render-content.html`) instead of calling `.Fragments.Headings`.
 
@@ -2998,7 +2998,7 @@ The crash came from Hugo’s `.Fragments.Headings` — it miscalculates byte off
 
 **Verified:** clean `hugo build` succeeds; `forgiveness`, `love-god`, `the-golden-rule`, and `the-wise-builder` all build; MOC pages still get a TOC.
 
-Reload the dev server — those pages should render without the panic.
+Reload the dev server - those pages should render without the panic.
 
 ---
 
@@ -4075,11 +4075,11 @@ _**Agent (default)**_
 
 Removed pipe wikilink support (`[[target|label]]`) across the garden.
 
-**Rendering** — `render-content.html` simplified: no pipe labels, no pre-Goldmark tokenization. Any remaining pipe syntax renders as a broken link with a clear tooltip.
+**Rendering** - `render-content.html` simplified: no pipe labels, no pre-Goldmark tokenization. Any remaining pipe syntax renders as a broken link with a clear tooltip.
 
-**Content** — Stripped 21 pipe wikilinks from 16 notes via `scripts/strip-pipe-wikilinks.py` (e.g. `[[Free Grace|free grace]]` → `[[Free Grace]]`). Updated `getting-started.md` and fixed `repent-and-believe.md` to link `[[There Is No Perfect Solution]]`.
+**Content** - Stripped 21 pipe wikilinks from 16 notes via `scripts/strip-pipe-wikilinks.py` (e.g. `[[Free Grace|free grace]]` → `[[Free Grace]]`). Updated `getting-started.md` and fixed `repent-and-believe.md` to link `[[There Is No Perfect Solution]]`.
 
-**Issues page** — New **Pipe wikilink** category on `/notes/issues/`, per-note panels, and build warnings. Documented in `issues.md`.
+**Issues page** - New **Pipe wikilink** category on `/notes/issues/`, per-note panels, and build warnings. Documented in `issues.md`.
 
 **Also updated:** `outgoing-links`, `backlinks`, `graph-data`, `lint-utility-wikilinks.py`, `wire-notes-obsidian.py`.
 

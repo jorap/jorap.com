@@ -1511,7 +1511,7 @@ Field replacements merged example and shareable_thought lines. The Christianity-
 
 _**Agent (auto-low)**_
 
-The batch script corrupted some YAML — fixing those files and completing the remaining edits.
+The batch script corrupted some YAML - fixing those files and completing the remaining edits.
 
 
 _**Agent (auto-low)**_
@@ -2213,7 +2213,7 @@ _**Agent (auto-low)**_
 
 ## Chunk 1 results
 
-**Fixed: 57 / 58** — all pass `garden-voice-lint`.
+**Fixed: 57 / 58** - all pass `garden-voice-lint`.
 
 ### What changed (representative)
 - **Descriptions** → third-person, ≤20 words, no wikilinks, no contractions (`habit-formation`, `information-diet`, `integrity`, etc.)
@@ -2228,4 +2228,4 @@ _**Agent (auto-low)**_
 
 ### Blocker (1)
 
-**`issues.md`** — `note_kind: meta` utility page. Its multi-paragraph `description` deliberately uses wikilinks as reference copy, and it has no `examples` field. `garden-voice-lint` skips meta/index notes; forcing standard garden frontmatter would break the issues dashboard text. Needs a product decision if you want it reshaped.
+**`issues.md`** - `note_kind: meta` utility page. Its multi-paragraph `description` deliberately uses wikilinks as reference copy, and it has no `examples` field. `garden-voice-lint` skips meta/index notes; forcing standard garden frontmatter would break the issues dashboard text. Needs a product decision if you want it reshaped.

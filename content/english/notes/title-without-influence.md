@@ -59,6 +59,10 @@ cards:
     back: "Trust deposits - unblock, do not lean on badge."
   - front: "Running meetings alone while the team ignores outcomes. Am I leading?"
     back: "No - if nobody follows, you are walking alone."
+  - front: "Weekly syncs change nothing - still scheduling harder."
+    back: "Earn trust first - title without influence."
+  - front: "Crew waits for senior tech - my directive ignored."
+    back: "Unblock one thing - badge comes later."
 draft: false
 ---
 

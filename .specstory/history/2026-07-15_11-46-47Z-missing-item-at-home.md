@@ -1227,7 +1227,7 @@ I will not edit files unless asked. The randomizer and home_scope items were rul
 
 _**Agent (auto-low)**_
 
-The missing slot is in the **Writing for site owners** section on the homepage — not a layout bug.
+The missing slot is in the **Writing for site owners** section on the homepage - not a layout bug.
 
 `config/_default/params.toml` pins **5** posts:
 
@@ -1267,7 +1267,7 @@ The homepage partial resolves slugs like this:
   {{ end }}
 ```
 
-None of those lookups match `top-reasons-create-maintain-your-own-website` — aliases aren't checked — so that entry is skipped. You get **4 cards** in a grid built for **5** (one hero + four smaller), which leaves an empty fifth slot.
+None of those lookups match `top-reasons-create-maintain-your-own-website` - aliases aren't checked - so that entry is skipped. You get **4 cards** in a grid built for **5** (one hero + four smaller), which leaves an empty fifth slot.
 
 The old URL still works in the browser (`/blog/top-reasons-create-maintain-your-own-website/` → 200), but the template lookup doesn't use aliases.
 
@@ -1369,6 +1369,6 @@ All five posts are now visible.
 
 _**Agent (auto-low)**_
 
-The alias check confirmed both URLs return 200 — the old slug still works for visitors — but Hugo's `GetPage` lookup in the homepage template doesn't follow aliases, which is why the fifth card was missing.
+The alias check confirmed both URLs return 200 - the old slug still works for visitors - but Hugo's `GetPage` lookup in the homepage template doesn't follow aliases, which is why the fifth card was missing.
 
 I updated `config/_default/params.toml` to use `why-run-your-own-website` instead of the old slug. After rebuild, all five pinned posts show on the homepage, including "Why I Still Run My Own Website."

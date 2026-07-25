@@ -2524,10 +2524,10 @@ All 27 related concepts were created as full notes. No stubs remain from the use
 
 _**Agent (default)**_
 
-Created **38 notes** — one hub, ten principles, and **27 related concept notes** so every wikilink in your relationship lists resolves.
+Created **38 notes** - one hub, ten principles, and **27 related concept notes** so every wikilink in your relationship lists resolves.
 
 ### Hub
-**[[Pressure Reveals Weakness]]** (`pressure-reveals-weakness.md`) — MOC with four sections grouping the ten principles.
+**[[Pressure Reveals Weakness]]** (`pressure-reveals-weakness.md`) - MOC with four sections grouping the ten principles.
 
 ### Ten principles
 | Note | Slug |
@@ -2547,9 +2547,9 @@ Created **38 notes** — one hub, ten principles, and **27 related concept notes
 Discipline, Execution, Reliability, Emotional Regulation, Decision Quality, Self-Control, Adaptability, Second-Order Thinking, Strategic Foresight, Versatility, Resilience, Follow-Through, Attention to Detail, Accountability, Recovery, Sustainable Performance, Habit Formation, Standard Operating Procedures, Preparedness, Composure, Leadership, Situational Control, Integrity, Growth Mindset, Deliberate Practice, Failure as Feedback, Continuous Improvement.
 
 ### Wired into existing notes
-- **Workplace Principles** — new "Performance under pressure" section
-- **Mental Models** — added Second-Order Thinking to the example list
-- **Process Over Outcomes**, **Break the Escalation Cycle**, **Slow Productivity**, **Integrity When No One's Watching**, **Heed Every Near-Miss**, **Develop, Don't Endanger** — reciprocal links where they fit
+- **Workplace Principles** - new "Performance under pressure" section
+- **Mental Models** - added Second-Order Thinking to the example list
+- **Process Over Outcomes**, **Break the Escalation Cycle**, **Slow Productivity**, **Integrity When No One's Watching**, **Heed Every Near-Miss**, **Develop, Don't Endanger** - reciprocal links where they fit
 
 Each principle note has an example, typed relationships to its three related concepts, and cross-links to the pressure cluster. Related concept notes are shorter atoms that link back to the principles that use them.
 

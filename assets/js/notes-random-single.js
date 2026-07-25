@@ -29,7 +29,7 @@
   var adj = Object.create(null);
   var titleByUrl = Object.create(null);
   var aiChatOpenedLabel = "Opened";
-  var aiChatCopiedLabel = "Copied — paste in chat";
+  var aiChatCopiedLabel = "Copied - paste in chat";
 
   try {
     var config = JSON.parse(dataEl.textContent);

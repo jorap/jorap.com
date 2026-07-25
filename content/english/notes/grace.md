@@ -77,7 +77,7 @@ cards:
     back: "Trust Christ - not my report card."
   - front: "Bad week and panic that heaven access revoked. What still holds?"
     back: "Standing settled - confess, keep walking."
-  - front: "Ephesians 2:8-9 pairs mercy and the gift in one rescue. Which one names what I receive?"
+  - front: "Mercy spared wrath - gift gave life - both in one rescue, one landing."
     back: "The gift saves - mercy spared wrath first."
 draft: false
 ---

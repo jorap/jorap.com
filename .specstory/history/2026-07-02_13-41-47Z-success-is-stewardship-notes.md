@@ -391,7 +391,7 @@ A direct connection was found in `faithful-steward.md`.
 
 _**Agent (auto-low)**_
 
-Found `faithful-steward.md` — reading it and similar notes to learn structure and map connections.
+Found `faithful-steward.md` - reading it and similar notes to learn structure and map connections.
 
 
 _**Agent (auto-low)**_
@@ -1090,7 +1090,7 @@ I am mapping specific notes to the new principle. Knowledge-building and client 
 
 Review cards will be included, modeled after Servant Leadership. The concept spans faith and work, so it may carry Eternal Principles or Discipleship card sets. The draft frames success as borrowed resources rather than entitlement. It defines the core concept as stewardship of time, health, platform, money, and influence.
 
-Free Grace settles where I spend forever; stewardship settles what I do with the gifts after. The note is the headline above the parable: promotion, audience, and a good season are entrusted, not trophies I earned forever. Eternal Rewards names repayment; Judgment Seat names the review. Workplace mirrors: Servant Leadership, Share What You Learn, Integrity When No One's Watching — use the slot for the team, not ego.
+Free Grace settles where I spend forever; stewardship settles what I do with the gifts after. The note is the headline above the parable: promotion, audience, and a good season are entrusted, not trophies I earned forever. Eternal Rewards names repayment; Judgment Seat names the review. Workplace mirrors: Servant Leadership, Share What You Learn, Integrity When No One's Watching - use the slot for the team, not ego.
 
 Concrete examples are being drafted to illustrate the principle. One shows a traffic bump mistaken for a kingdom; the other shows a promotion treated as a personal trophy instead of entrusted leadership. The Collector's Fallacy is framed as burying talent in bookmarks. Only the strongest extends and contradicts relationships will be kept.
 

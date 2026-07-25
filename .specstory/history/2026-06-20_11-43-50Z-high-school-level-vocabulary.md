@@ -219,7 +219,7 @@ Updating flashcards across all notes.
 
 _**Agent (default)**_
 
-Auditing all flashcard decks against the skill—finding every note with cards and reviewing them for vocabulary, cue→apply, and voice.
+Auditing all flashcard decks against the skill-finding every note with cards and reviewing them for vocabulary, cue→apply, and voice.
 
 
 _**Agent (default)**_
@@ -1882,13 +1882,13 @@ Audited all **252 cards** across **42 spine notes**. Lint already passed on stru
 ### What changed (28 notes, ~50 card backs)
 
 **PKM decks**
-- `note-relationships.md` — label backs (`Extends.`, `Contradicts.`) → apply moves (`Type extends in the body.`, `Link as contradicts.`, etc.)
-- `associative-linking.md` — `taxonomy` → `folder labels`
-- `atomic-notes.md`, `evergreen-notes.md` — `citable` → `clear claim`
-- `signal-vs-noise.md`, `treasure-in-heaven.md` — `Collector's Fallacy` → plain `Hoarding saves`
-- `the-collectors-fallacy.md` — `express deadline` → `ship date`
+- `note-relationships.md` - label backs (`Extends.`, `Contradicts.`) → apply moves (`Type extends in the body.`, `Link as contradicts.`, etc.)
+- `associative-linking.md` - `taxonomy` → `folder labels`
+- `atomic-notes.md`, `evergreen-notes.md` - `citable` → `clear claim`
+- `signal-vs-noise.md`, `treasure-in-heaven.md` - `Collector's Fallacy` → plain `Hoarding saves`
+- `the-collectors-fallacy.md` - `express deadline` → `ship date`
 
-**Gospel decks** — swapped academic/theology jargon for plain words:
+**Gospel decks** - swapped academic/theology jargon for plain words:
 - `unmerited` → `free gift`
 - `trespass` → `wrong me`
 - `mammon` → `money`
@@ -1901,10 +1901,10 @@ Audited all **252 cards** across **42 spine notes**. Lint already passed on stru
 - And similar swaps across ~20 gospel notes
 
 ### Already in good shape
-Reference decks (`capture.md`, `free-grace.md`, `the-golden-rule.md`) and most PKM spine notes needed no changes — they already had concrete cues and plain backs.
+Reference decks (`capture.md`, `free-grace.md`, `the-golden-rule.md`) and most PKM spine notes needed no changes - they already had concrete cues and plain backs.
 
 ### Validation
-- `npm run lint:cards` — pass
-- `npm run lint:voice` — pass
+- `npm run lint:cards` - pass
+- `npm run lint:voice` - pass
 
 Spine terms (`inbox`, `wikilink`, `evergreen`, `extends`, `contradicts`, CODE steps) were kept where they're the actual drill target.

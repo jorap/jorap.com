@@ -56,12 +56,16 @@ card_sets: ["Eternal Principles", "Gospel", "Discipleship"]
 cards:
   - front: "Neighbor I'd rather avoid at every game. Kindness fruit move?"
     back: "Act with mercy - person in front counts."
-  - front: "Polite in the hallway, sharp at home. Which kindness is real?"
+  - front: "Polite in the hallway, sharp at home - performance split."
     back: "Tender regard here too - not performance."
   - front: "Coworker apologized again - counting instead of kindness?"
     back: "Mercy toward them - forgive heart."
   - front: "About to quote their failure online. Kindness check?"
     back: "Mercy first - person in front."
+  - front: "Difficult neighbor at the gate again - avoidance easier than mercy."
+    back: "Act with tender regard - person in front counts."
+  - front: "Sharp reply drafted about coworker's repeat mistake."
+    back: "Mercy first - delete the post."
 draft: false
 ---
 

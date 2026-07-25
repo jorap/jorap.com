@@ -47,6 +47,10 @@ cards:
     back: "Write it up - third time is the alarm."
   - front: "Third time the ladder stayed on the stairs and nobody moved it. Move?"
     back: "Move it now - do not wait for the trip."
+  - front: "Third time someone skipped the helmet strap - nobody called it."
+    back: "Call it now - third shortcut sticks."
+  - front: "Third red-light roll in the parking lot - shrugged off again."
+    back: "Write it up - before it feels normal."
 draft: false
 ---
 

@@ -51,11 +51,11 @@ Success looks like: visitors leave with a clear sense of **professional credibil
 | **Pages** | About, contact, static marketing | `/about/`, etc. |
 | **CMS** | Authoring for non-git editors | `/admin/` |
 
-Blog and notes share one visual system (**restrained editorial**). Notes adds tool UI (graph, filters, flashcards) on the same tokens — see [`DESIGN.md`](./DESIGN.md).
+Blog and notes share one visual system (**restrained editorial**). Notes adds tool UI (graph, filters, flashcards) on the same tokens - see [`DESIGN.md`](./DESIGN.md).
 
 ## Visual identity
 
-**North star:** *The Quiet Study* — warm paper, charcoal ink, editorial calm. Full spec: [`DESIGN.md`](./DESIGN.md). Machine-readable tokens: [`DESIGN.json`](./DESIGN.json).
+**North star:** *The Quiet Study* - warm paper, charcoal ink, editorial calm. Full spec: [`DESIGN.md`](./DESIGN.md). Machine-readable tokens: [`DESIGN.json`](./DESIGN.json).
 
 **Style label:** Restrained editorial (minimal in discipline, not in austerity). Warmth and legibility for client skims; no performative tech theater.
 

@@ -59,6 +59,10 @@ cards:
     back: "Ship it - do not miss the party."
   - front: "Blog post's 90% there and I've been editing a month."
     back: "Publish - feedback beats another draft month."
+  - front: "Blog draft at ninety percent for the sixth week."
+    back: "Publish tonight - polish can follow."
+  - front: "Client site ready except the about page font."
+    back: "Ship the site - font Tuesday."
 draft: false
 ---
 

@@ -63,6 +63,10 @@ cards:
     back: "Do not pour fuel on it."
   - front: "Neighbor's group-chat jab about parking sitting in my drafts - sharp reply loaded. Send that?"
     back: "Facts and the plan only."
+  - front: "Reply-all war heating - insult landed, my draft matches their venom."
+    back: "Close the tab - break the cycle."
+  - front: "Tempted to perform outrage for the audience watching the thread."
+    back: "Facts only - refuse the spectacle."
 draft: false
 ---
 

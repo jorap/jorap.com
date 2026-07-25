@@ -75,8 +75,8 @@ _**Agent (auto-low)**_
 
 Updated the Method so it matches the Ingredients list:
 
-**Step 1 (Marinate)** — amounts added for soy sauce, garlic, peppercorns, bay leaves, and chicken.
+**Step 1 (Marinate)** - amounts added for soy sauce, garlic, peppercorns, bay leaves, and chicken.
 
-**Step 3 (Build the Cooking Base)** — water and vinegar now use the same measures as Ingredients (including the 120 ml thicker-sauce option and the 7 tbsp / ⅓ cup + 2 tbsp vinegar note).
+**Step 3 (Build the Cooking Base)** - water and vinegar now use the same measures as Ingredients (including the 120 ml thicker-sauce option and the 7 tbsp / ⅓ cup + 2 tbsp vinegar note).
 
 **Step 5** already had the sweetener and xanthan gum amounts, so that was left as-is.

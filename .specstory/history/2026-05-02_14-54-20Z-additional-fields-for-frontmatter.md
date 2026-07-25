@@ -787,7 +787,7 @@ I'm updating the CMS media_folder to `assets/images` to match Hugo's expected st
 
 _**Agent (auto-low)**_
 
-Images live in `assets/images/` (e.g. `alex-eala.jpg`, `joraps-world.jpg`). CMS was set to `static/images`, which only contains the admin UI — so the media library was empty. Pointing `media_folder` to `assets/images` and keeping `public_folder: "/images"` so frontmatter stays `/images/...` and matches the theme's `assets/` + path checks.
+Images live in `assets/images/` (e.g. `alex-eala.jpg`, `joraps-world.jpg`). CMS was set to `static/images`, which only contains the admin UI - so the media library was empty. Pointing `media_folder` to `assets/images` and keeping `public_folder: "/images"` so frontmatter stays `/images/...` and matches the theme's `assets/` + path checks.
 
 
 

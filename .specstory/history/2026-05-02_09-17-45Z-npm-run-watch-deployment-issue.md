@@ -567,27 +567,27 @@ Here’s a concise picture and what we added to get **runtime evidence** (debug 
 
 ## Hypotheses (why `npm run watch` might feel like it’s not fully deploying)
 
-1. **H1 — Build errors/warnings on incremental rebuilds**  
+1. **H1 - Build errors/warnings on incremental rebuilds**  
    Hugo may log `ERROR` / `WARN` / `failed` on a fast refresh while still serving an older build for some routes.
 
-2. **H2 — Incremental output looks “partial”**  
+2. **H2 - Incremental output looks “partial”**  
    Rebuild lines (`Built`, `rendered`, template metrics, page counts) may differ from a full `hugo` build, so CSS/Tailwind or some pages might not match what you expect.
 
-3. **H3 — Watch / change detection**  
+3. **H3 - Watch / change detection**  
    Some edits might not produce “change / rebuild / watching” lines (wrong path, ignored files, or watcher gaps), so the site never rebuilds for those changes.
 
-4. **H4 — Static / sync**  
+4. **H4 - Static / sync**  
    With `--forceSyncStatic`, updates under `static/` might not show the expected sync behavior in logs, or static and templated assets might get out of sync.
 
-5. **H5 — Browser behavior vs server**  
+5. **H5 - Browser behavior vs server**  
    `--navigateToChanged` only navigates on the **current** page; other tabs/routes can look stale even after a successful rebuild.
 
 ---
 
 ## Instrumentation
 
-- **`scripts/watch-with-debug.mjs`** — Runs the **same** Hugo command as before, forwards all Hugo output to your terminal, and POSTs NDJSON to the debug ingest URL (with append fallback to `.cursor/debug-b2cb96.log`).
-- **`package.json`** — `"watch"` now runs `node ./scripts/watch-with-debug.mjs` so we capture logs whenever you use `npm run watch`.
+- **`scripts/watch-with-debug.mjs`** - Runs the **same** Hugo command as before, forwards all Hugo output to your terminal, and POSTs NDJSON to the debug ingest URL (with append fallback to `.cursor/debug-b2cb96.log`).
+- **`package.json`** - `"watch"` now runs `node ./scripts/watch-with-debug.mjs` so we capture logs whenever you use `npm run watch`.
 
 Log lines are tagged with **H1–H5** (and **H0** for spawn/exit) from the patterns above.
 
@@ -748,14 +748,14 @@ _**Agent (auto-low)**_
 Analyzing terminal and NDJSON logs.
 
 Evidence:
-1. `port 1313 already in use, attempting to use an available port` — a second Hugo (or other) process is bound to 1313; our wrapper didn't log it because the regex missed that line.
-2. Log ends after spawn + "Watching" lines — no `Built`, `Total in`, or `Web Server is available` yet.
-3. Terminal metadata: `active_command: npm run watch` — build likely still running or output hasn't flushed.
+1. `port 1313 already in use, attempting to use an available port` - a second Hugo (or other) process is bound to 1313; our wrapper didn't log it because the regex missed that line.
+2. Log ends after spawn + "Watching" lines - no `Built`, `Total in`, or `Web Server is available` yet.
+3. Terminal metadata: `active_command: npm run watch` - build likely still running or output hasn't flushed.
 
 Hypotheses:
-- Port conflict (H_port): CONFIRMED — user may open `localhost:1313` and see an old instance while the new server uses another port.
-- Stalled build (H_slow): INCONCLUSIVE — silence after "Start building sites …" matches a long Tailwind/minify run (package.json `prebuild` warns about this).
-- Partial deploy (H2/H5): INCONCLUSIVE — need post-build lines.
+- Port conflict (H_port): CONFIRMED - user may open `localhost:1313` and see an old instance while the new server uses another port.
+- Stalled build (H_slow): INCONCLUSIVE - silence after "Start building sites …" matches a long Tailwind/minify run (package.json `prebuild` warns about this).
+- Partial deploy (H2/H5): INCONCLUSIVE - need post-build lines.
 
 Adding instrumentation to capture port-conflict and "Web Server" / "Built" lines.
 
@@ -822,7 +822,7 @@ The wrapper’s line filter was missing the **port busy** and **Web Server** mes
 ### What you should do (no product “fix” until we see a full cycle)
 
 1. **Stop every Hugo dev server** (all terminals running `hugo server` / `npm run watch`), or at least free **1313** (`lsof -i :1313` and stop that process) so only one server runs and the port message goes away.
-2. Run **`npm run watch` again**, wait until you see **`Web Server is available at http://127.0.0.1:PORT`** (or similar), and use **that** URL—not assuming 1313.
+2. Run **`npm run watch` again**, wait until you see **`Web Server is available at http://127.0.0.1:PORT`** (or similar), and use **that** URL-not assuming 1313.
 3. Then edit a file and confirm whether the issue persists.
 
 The debug log file was cleared for a clean next run (per debug workflow).

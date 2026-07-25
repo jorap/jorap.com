@@ -49,7 +49,7 @@ featured: false
 review: true
 card_sets: ["Ethics", "Focus"]
 cards:
-  - front: "Winter's coming and my trunk still has no jumper cables or blanket. One prep move?"
+  - front: "Winter coming - trunk has no jumper cables, no blanket. One prep move?"
     back: "Pack them before the first freeze."
   - front: "Thursday practice and our inbound play still feels rusty. Why run it when we're not behind?"
     back: "Rehearse before the clock owns you."
@@ -57,6 +57,10 @@ cards:
     back: "Walk it once before the rush owns you."
   - front: "Fire drill on a calm Tuesday - kids still guessing exits. What should they know?"
     back: "Two exits before anyone smells smoke."
+  - front: "Storm warning tonight and kids' go-bags still in the attic."
+    back: "Pack tonight - not when sirens start."
+  - front: "Playoff week and we have not walked the inbound since October."
+    back: "Run the drill calm Tuesday - not panic Thursday."
 draft: false
 ---
 

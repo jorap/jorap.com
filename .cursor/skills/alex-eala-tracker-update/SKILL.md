@@ -14,7 +14,7 @@ Living scrapbook post for Alex Eala's WTA career. Edit only:
 
 `content/english/blog/alex-eala-pro-career-tracker.md`
 
-Match the author's voice: first-person Filipino fan, proud but factual. Preserve existing entries; append or correct — never delete historical results unless a factual error is confirmed.
+Match the author's voice: first-person Filipino fan, proud but factual. Preserve existing entries; append or correct - never delete historical results unless a factual error is confirmed.
 
 ## Quick routing
 
@@ -34,43 +34,43 @@ Match the author's voice: first-person Filipino fan, proud but factual. Preserve
 
 ## Polite fetching (mandatory)
 
-**Goal:** one update session should feel like a human checking a few pages — not a scraper.
+**Goal:** one update session should feel like a human checking a few pages - not a scraper.
 
-1. **Read the tracker first.** Treat the file as cache. Only fetch what changed or is missing — never re-pull data already correct in the post.
+1. **Read the tracker first.** Treat the file as cache. Only fetch what changed or is missing - never re-pull data already correct in the post.
 2. **One domain at a time.** No parallel requests to the same host. Wait **≥ 2 seconds** between consecutive requests to the same domain.
-3. **Fetch budget per session** (hard caps — stop and report gaps instead of exceeding):
+3. **Fetch budget per session** (hard caps - stop and report gaps instead of exceeding):
    - WTA (`wtatennis.com`): **≤ 6** page loads (profile + singles matches + doubles matches + up to 3 targeted score/H2H URLs)
    - Tennis.com: **≤ 2**
    - TNNSLIVE: **≤ 1**
    - Grand Slam official sites: **≤ 4** total (only for rounds you are adding)
-   - YouTube oembed: **only new** `VIDEO_ID`s you plan to embed — never re-verify IDs already in the file
+   - YouTube oembed: **only new** `VIDEO_ID`s you plan to embed - never re-verify IDs already in the file
 4. **Prefer web search for discovery.** Use search to learn results, opponents, and URLs; then open **one** authoritative page per fact to confirm. Do not crawl search-result links in bulk.
-5. **No retry loops.** If a WTA/Tennis.com fetch returns empty or errors once, switch source (see fallback below) or stop — do not retry the same URL with different headers, agents, or backoff spam.
-6. **Opponent profiles are on demand.** Fetch an opponent's WTA page only when adding/promoting that opponent or verifying a new meeting — never bulk-check every Other Top 20 block on a routine refresh.
-7. **Link checks:** spot-check **new** URLs only. Skip HEAD/fetch on links already in the tracker unless a user reports breakage. For **Wimbledon** `wtatennis.com` score URLs, confirm the page `<title>` names both players (IDs are not sequential). For `wimbledon.com`, reject URLs whose canonical is `/notfound` or whose page payload is empty — omit the slam link rather than guess slug patterns.
+5. **No retry loops.** If a WTA/Tennis.com fetch returns empty or errors once, switch source (see fallback below) or stop - do not retry the same URL with different headers, agents, or backoff spam.
+6. **Opponent profiles are on demand.** Fetch an opponent's WTA page only when adding/promoting that opponent or verifying a new meeting - never bulk-check every Other Top 20 block on a routine refresh.
+7. **Link checks:** spot-check **new** URLs only. Skip HEAD/fetch on links already in the tracker unless a user reports breakage. For **Wimbledon** `wtatennis.com` score URLs, confirm the page `<title>` names both players (IDs are not sequential). For `wimbledon.com`, reject URLs whose canonical is `/notfound` or whose page payload is empty - omit the slam link rather than guess slug patterns.
 8. **Summarize unverified gaps** rather than hammering sites to close every open question in one pass.
 
 ## Authoritative sources (use in this order)
 
-1. **WTA profile** — rankings, career overview, H2H: `https://www.wtatennis.com/players/330332/alexandra-eala`
-2. **WTA match results** — primary source for tournament runs, rounds, opponents, and scores:
+1. **WTA profile** - rankings, career overview, H2H: `https://www.wtatennis.com/players/330332/alexandra-eala`
+2. **WTA match results** - primary source for tournament runs, rounds, opponents, and scores:
    - Singles: `https://www.wtatennis.com/players/330332/alexandra-eala/matches`
    - Doubles: `https://www.wtatennis.com/players/330332/alexandra-eala/matches?type=D`
-3. **Tennis.com** — match links, player profile: `https://www.tennis.com/players-rankings/alexandra-eala` (activity feed also useful when scraping recent results)
-4. **TNNSLIVE** — recent form, draw context: `https://tnnslive.com/player/627278?content=form`
-5. **Grand Slam sites** — Aus Open (`ausopen.com`), Roland Garros, Wimbledon, US Open official match pages
-6. **YouTube** — match highlights, extended highlights, or full-match replays from official tour/slam channels or **regional rights-holding broadcasters worldwide**; see [reference.md](reference.md#youtube-embed-rules)
+3. **Tennis.com** - match links, player profile: `https://www.tennis.com/players-rankings/alexandra-eala` (activity feed also useful when scraping recent results)
+4. **TNNSLIVE** - recent form, draw context: `https://tnnslive.com/player/627278?content=form`
+5. **Grand Slam sites** - Aus Open (`ausopen.com`), Roland Garros, Wimbledon, US Open official match pages
+6. **YouTube** - match highlights, extended highlights, or full-match replays from official tour/slam channels or **regional rights-holding broadcasters worldwide**; see [reference.md](reference.md#youtube-embed-rules)
 
-Use the WTA **Matches** pages to discover gaps vs the tracker (filter by year/tournament). Cross-check round reached and opponent on **one** alternate source before editing — not every source on every line.
+Use the WTA **Matches** pages to discover gaps vs the tracker (filter by year/tournament). Cross-check round reached and opponent on **one** alternate source before editing - not every source on every line.
 
-**WTA fetch fallback:** WTA match pages are often client-rendered and may return little HTML to automated fetches. When that happens, use **one** of: Tennis.com activity, TNNSLIVE form, a single targeted WTA score URL (`/tournaments/.../scores/LS…` or `LD…`), or web search — then confirm on a second source. Do not chain multiple fallbacks against the same host.
+**WTA fetch fallback:** WTA match pages are often client-rendered and may return little HTML to automated fetches. When that happens, use **one** of: Tennis.com activity, TNNSLIVE form, a single targeted WTA score URL (`/tournaments/.../scores/LS…` or `LD…`), or web search - then confirm on a second source. Do not chain multiple fallbacks against the same host.
 
 ## Full update workflow
 
 ```
 Task progress:
-- [ ] Read current tracker file (cache — note what is already current)
-- [ ] Fetch only what gaps need: WTA profile if career high may have changed; WTA Matches (singles + doubles) if recent results missing — respect [Polite fetching](#polite-fetching-mandatory) caps
+- [ ] Read current tracker file (cache - note what is already current)
+- [ ] Fetch only what gaps need: WTA profile if career high may have changed; WTA Matches (singles + doubles) if recent results missing - respect [Polite fetching](#polite-fetching-mandatory) caps
 - [ ] Compare against existing content; list gaps
 - [ ] Update WTA Rankings if career high changed
 - [ ] Update **At a glance** if career highs, titles, best Slam, or notable firsts changed
@@ -87,7 +87,7 @@ Task progress:
 - [ ] Summarize changes for user (do not commit unless asked)
 ```
 
-### Step 1 — Read the file
+### Step 1 - Read the file
 
 Load the full markdown file. Note the latest year sections and the most recent tournament entries so you do not duplicate.
 
@@ -104,30 +104,30 @@ Page section order (do not reorder):
 9. **Matches to Watch Out For**
 10. **Image Credits**
 
-### Step 2 — Rankings
+### Step 2 - Rankings
 
 In **WTA Rankings**, update only if verified on WTA:
 
-- **Career High** singles (currently No. 29) — update number and keep the "Highest-ranked Filipina in WTA history" note when still true
+- **Career High** singles (currently No. 29) - update number and keep the "Highest-ranked Filipina in WTA history" note when still true
 - **Career High** doubles (currently No. 88)
 
 Do not add current live ranking unless the user explicitly asks; this page tracks career highs and milestones.
 
 Mirror any career-high change in **At a glance** (see [At a glance workflow](#at-a-glance-workflow)).
 
-### Step 3 — Tournament results
+### Step 3 - Tournament results
 
 Section: **Best Performances in WTA Tournaments**
 
 - Group by year; **newest year at top** within Singles and Doubles
-- Add only main-draw or qualifying results that reached at least **Quarterfinals** (or finals/winner — same threshold as existing entries)
-- **Always include the event tier** in parentheses on every WTA tournament line: `(WTA 125)`, `(WTA 250)`, `(WTA 500)`, or `(WTA 1000)`. Grand Slam entries use the four major names only — no tier suffix (they are Grand Slams by definition). See [Tournament naming rules](#tournament-naming-rules).
+- Add only main-draw or qualifying results that reached at least **Quarterfinals** (or finals/winner - same threshold as existing entries)
+- **Always include the event tier** in parentheses on every WTA tournament line: `(WTA 125)`, `(WTA 250)`, `(WTA 500)`, or `(WTA 1000)`. Grand Slam entries use the four major names only - no tier suffix (they are Grand Slams by definition). See [Tournament naming rules](#tournament-naming-rules).
 - Prefer dual links when both exist: `[wtatennis.com](url) | [tennis.com](url)` (WTA first, then tennis.com)
-- **Exit-round rule:** the main tournament line must link to the **deepest round played** (the loss or title match). Earlier rounds go on sub-bullets — never point the exit line at an earlier-round opponent.
-- **Score format:** always list Eala's games first in every set and match tiebreak — wins and losses. Flip opponent-first scores from WTA/tennis.com. See [reference.md](reference.md#score-format).
+- **Exit-round rule:** the main tournament line must link to the **deepest round played** (the loss or title match). Earlier rounds go on sub-bullets - never point the exit line at an earlier-round opponent.
+- **Score format:** always list Eala's games first in every set and match tiebreak - wins and losses. Flip opponent-first scores from WTA/tennis.com. See [reference.md](reference.md#score-format).
 - Add milestone sub-bullets only for firsts (e.g. first WTA title, first Filipina to reach X)
 - **Doubles:** exit round gets `| [wtatennis.com](url)` on the main line; earlier rounds as `Round | [wtatennis.com](url)` sub-bullets. Add `(with Partner Name)` on every doubles tournament line.
-- **Walkovers:** list in **Best Performances** only — `Round, d./l. Opponent w/o |` match links; no set scores. Still excluded from H2H (see [Walkovers](#walkovers)).
+- **Walkovers:** list in **Best Performances** only - `Round, d./l. Opponent w/o |` match links; no set scores. Still excluded from H2H (see [Walkovers](#walkovers)).
 
 See [reference.md](reference.md) for entry templates and tier lookup.
 
@@ -137,9 +137,9 @@ Tournament display names must be **brand-free** and **tier-labeled**.
 
 **WTA tour format:** `**{Location or event name} (WTA {tier})**`
 
-- **Location first** — city or region (e.g. `Berlin`, `Dubai`, `Manila`, `Indian Wells`)
-- **Tier required** — one of `WTA 125`, `WTA 250`, `WTA 500`, `WTA 1000`
-- **No sponsor or corporate brands** — strip presenting partners, banks, auto makers, pharma, telecom, etc. from the visible name even when WTA or tennis.com URLs still use the branded slug
+- **Location first** - city or region (e.g. `Berlin`, `Dubai`, `Manila`, `Indian Wells`)
+- **Tier required** - one of `WTA 125`, `WTA 250`, `WTA 500`, `WTA 1000`
+- **No sponsor or corporate brands** - strip presenting partners, banks, auto makers, pharma, telecom, etc. from the visible name even when WTA or tennis.com URLs still use the branded slug
 
 | Avoid (branded) | Use instead |
 | --- | --- |
@@ -149,56 +149,56 @@ Tournament display names must be **brand-free** and **tier-labeled**.
 | BNP Paribas Open | **Indian Wells (WTA 1000)** |
 | Internazionali BNL d'Italia | **Rome (WTA 1000)** or **Rome Open (WTA 1000)** |
 | Vanda Pharmaceuticals Berlin Tennis Open | **Berlin (WTA 500)** |
-| National Bank Open | **Montreal (WTA 1000)** or **Toronto (WTA 1000)** — match the host city that year |
+| National Bank Open | **Montreal (WTA 1000)** or **Toronto (WTA 1000)** - match the host city that year |
 | Porsche Tennis Grand Prix | **Stuttgart (WTA 500)** |
 
 **Optional suffixes:** `Open` or `International` are fine when they distinguish the event (e.g. `Miami Open (WTA 1000)`, `Canberra International (WTA 125)`). Never add a sponsor before them.
 
-**Grand Slam format:** `**Australian Open**`, `**French Open**`, `**Wimbledon**`, `**US Open**` — no `(WTA …)` suffix. Do not use sponsor names (e.g. not "Roland Garros presented by …").
+**Grand Slam format:** `**Australian Open**`, `**French Open**`, `**Wimbledon**`, `**US Open**` - no `(WTA …)` suffix. Do not use sponsor names (e.g. not "Roland Garros presented by …").
 
-**H2H match lines** (`**YYYY Tournament - Surface - Win/Loss**`): same brand-free rule — `2026 Berlin`, not `2026 Vanda Pharmaceuticals Berlin Open`; `2026 Indian Wells`, not `2026 BNP Paribas Open`. Tier is optional in H2H lines but the name must still be sponsor-free.
+**H2H match lines** (`**YYYY Tournament - Surface - Win/Loss**`): same brand-free rule - `2026 Berlin`, not `2026 Vanda Pharmaceuticals Berlin Open`; `2026 Indian Wells`, not `2026 BNP Paribas Open`. Tier is optional in H2H lines but the name must still be sponsor-free.
 
-**At a glance / title shorthand:** compact form is OK — e.g. `Guadalajara 125`, `Birmingham 125` (city + tier number, no brand).
+**At a glance / title shorthand:** compact form is OK - e.g. `Guadalajara 125`, `Birmingham 125` (city + tier number, no brand).
 
 **Tier lookup:** confirm category on the tournament's WTA page (`wta125`, `wta250`, `wta500`, `wta1000` in URL or event header). When promoting or correcting existing entries, fix branded names to match this table.
 
-### Step 4 — Grand Slam results
+### Step 4 - Grand Slam results
 
 Section: **Grand Slam Main Draw Results**
 
 - Add new year blocks when a new Slam season starts
 - Record deepest round reached; link each round played
 - **Singles and doubles** use the same dual-link format per round: `1st Round | [wtatennis.com](url) | [official slam site](url)` (WTA first, then ausopen.com / rolandgarros.com / wimbledon.com / usopen.org)
-- **Doubles:** every tournament line includes `(with Partner Name)` — same pattern as Best Performances doubles
+- **Doubles:** every tournament line includes `(with Partner Name)` - same pattern as Best Performances doubles
 - WTA doubles scores URLs use `LD…` IDs; singles use `LS…`
 - Note special context (e.g. Centre Court, first Filipina in main draw) as sub-bullets
-- Add YouTube embeds below the tournament block when verified match footage exists (see Step 6) — **singles and doubles**
+- Add YouTube embeds below the tournament block when verified match footage exists (see Step 6) - **singles and doubles**
 
-### Step 5 — Head-to-head sections
+### Step 5 - Head-to-head sections
 
 Two groups exist today:
 
-1. **Matches Against Grand Slam Champions** — opponent has won at least one major
-2. **Matches Against Other Top 20 Players** — top-tier opponents without slam section yet
+1. **Matches Against Grand Slam Champions** - opponent has won at least one major
+2. **Matches Against Other Top 20 Players** - top-tier opponents without slam section yet
 
-**Promotion rule:** When Eala plays someone listed under **Matches to Watch Out For**, move them to the correct H2H section and remove them from the watch list. Same rule for any opponent who has a completed pro H2H but is still on the watch list (e.g. after a first meeting at a Slam or 1000). **Walkovers do not count** — see [Walkovers](#walkovers).
+**Promotion rule:** When Eala plays someone listed under **Matches to Watch Out For**, move them to the correct H2H section and remove them from the watch list. Same rule for any opponent who has a completed pro H2H but is still on the watch list (e.g. after a first meeting at a Slam or 1000). **Walkovers do not count** - see [Walkovers](#walkovers).
 
 #### Walkovers
 
 A **walkover** (`w/o`, opponent withdrew before the match was played) is **not an H2H meeting**:
 
-- **Best Performances in WTA Tournaments** — include the round as a sub-bullet: `Round, d. Opponent w/o | [wtatennis.com](url) | [tennis.com](url)` (singles) or `Round, d. Pair w/o | [wtatennis.com](url)` (doubles). No set scores.
-- **Grand Slam Main Draw Results** — omit walkover rounds (document only rounds where the ball was struck).
-- **H2H sections** — no `###` block and no **Matches:** line for walkover-only contact. Remove existing walkover-only blocks on audit.
-- **Watch list** — opponent stays on (or returns to) **Matches to Watch Out For** until at least one pro meeting where the ball was struck.
-- **Retirements** (`ret.`) after play started still count as matches everywhere — keep those lines.
+- **Best Performances in WTA Tournaments** - include the round as a sub-bullet: `Round, d. Opponent w/o | [wtatennis.com](url) | [tennis.com](url)` (singles) or `Round, d. Pair w/o | [wtatennis.com](url)` (doubles). No set scores.
+- **Grand Slam Main Draw Results** - omit walkover rounds (document only rounds where the ball was struck).
+- **H2H sections** - no `###` block and no **Matches:** line for walkover-only contact. Remove existing walkover-only blocks on audit.
+- **Watch list** - opponent stays on (or returns to) **Matches to Watch Out For** until at least one pro meeting where the ball was struck.
+- **Retirements** (`ret.`) after play started still count as matches everywhere - keep those lines.
 
-**Slam-winner promotion:** When an opponent in **Other Top 20 Players** wins a Grand Slam singles title — or already has one verified on WTA but is still in Other Top 20 — **promote** them to **Grand Slam Champions** on the next update. See [Slam-winner promotion workflow](#slam-winner-promotion-workflow).
+**Slam-winner promotion:** When an opponent in **Other Top 20 Players** wins a Grand Slam singles title - or already has one verified on WTA but is still in Other Top 20 - **promote** them to **Grand Slam Champions** on the next update. See [Slam-winner promotion workflow](#slam-winner-promotion-workflow).
 
 **New opponent rule:**
 
-- Won a Grand Slam (or wins one before/after first meeting) → `### [Name]` under **Grand Slam Champions** — never under Other Top 20, even if they are also a current top-20 player
-- Top 20 or notable rivalry **without** a Slam singles title → new `### [Name]` under **Other Top 20 Players** (WTA profile, H2H link, **Career High Singles**, **Matches:** stat lines, and YouTube embeds — same match-line format as Grand Slam Champions, but no Slam titles table)
+- Won a Grand Slam (or wins one before/after first meeting) → `### [Name]` under **Grand Slam Champions** - never under Other Top 20, even if they are also a current top-20 player
+- Top 20 or notable rivalry **without** a Slam singles title → new `### [Name]` under **Other Top 20 Players** (WTA profile, H2H link, **Career High Singles**, **Matches:** stat lines, and YouTube embeds - same match-line format as Grand Slam Champions, but no Slam titles table)
 
 **Career high singles (required):** Every `###` block in **Matches Against Grand Slam Champions** and **Matches Against Other Top 20 Players** must include `- **Career High Singles:** No. XX` on the line after the H2H link. Verify on the opponent's WTA profile (`Career High` field). Update when an opponent sets a new peak.
 
@@ -211,25 +211,25 @@ After adding or reordering opponents in **Matches Against Grand Slam Champions**
 1. **Total Grand Slam singles titles** (descending)
 2. **Tie-break:** opponent whose **most recent Slam title is newer** goes first
 
-Count titles from each opponent's **Grand Slam Titles** table. Do not re-sort **Other Top 20 Players** by Slam count — sort **Other Top 20** blocks **alphabetically by last name** instead.
+Count titles from each opponent's **Grand Slam Titles** table. Do not re-sort **Other Top 20 Players** by Slam count - sort **Other Top 20** blocks **alphabetically by last name** instead.
 
-### Step 6 — YouTube embeds
+### Step 6 - YouTube embeds
 
-Add `{{< youtube VIDEO_ID >}}` shortcodes when verified match footage exists. Follow [YouTube embed rules](reference.md#youtube-embed-rules). Never guess video IDs — oembed-check **new** IDs only (`title` + `author_name`); IDs already embedded in the tracker are trusted.
+Add `{{< youtube VIDEO_ID >}}` shortcodes when verified match footage exists. Follow [YouTube embed rules](reference.md#youtube-embed-rules). Never guess video IDs - oembed-check **new** IDs only (`title` + `author_name`); IDs already embedded in the tracker are trusted.
 
 Search **official tour/slam channels first**, then **rights-holding broadcasters in any region** (Americas, Europe, Asia-Pacific, Middle East, etc.) before leaving a gap. See [Broadcaster search strategy](reference.md#broadcaster-search-strategy).
 
 #### Video embed priority (mandatory)
 
-Apply in this order. A `VIDEO_ID` lives in **one** section only — higher-priority sections win.
+Apply in this order. A `VIDEO_ID` lives in **one** section only - higher-priority sections win.
 
-1. **Matches Against Grand Slam Champions** — embed **every** verified video for **all** completed singles meetings (one or more per match line, directly under the matching line when possible).
-2. **Matches Against Other Top 20 Players** — embed **every** verified video for **all** completed meetings (singles; doubles when that is the only documented H2H); place under the matching **Matches:** line when possible.
-3. **Best Performances in WTA Tournaments** — at most **two** embeds per tournament run, **only** for matches vs opponents **not** in either H2H section. Use the **last two** such matches in the run, chronological order (earlier round first). **Never** embed H2H-opponent footage here — it belongs in H2H only. A run may have **zero** tournament embeds when every deep round was vs an H2H opponent.
+1. **Matches Against Grand Slam Champions** - embed **every** verified video for **all** completed singles meetings (one or more per match line, directly under the matching line when possible).
+2. **Matches Against Other Top 20 Players** - embed **every** verified video for **all** completed meetings (singles; doubles when that is the only documented H2H); place under the matching **Matches:** line when possible.
+3. **Best Performances in WTA Tournaments** - at most **two** embeds per tournament run, **only** for matches vs opponents **not** in either H2H section. Use the **last two** such matches in the run, chronological order (earlier round first). **Never** embed H2H-opponent footage here - it belongs in H2H only. A run may have **zero** tournament embeds when every deep round was vs an H2H opponent.
 
-**Grand Slam Main Draw Results** (singles and doubles): search for verified footage for **each round played**. Embed below the tournament block — one shortcode per round when separate uploads exist; otherwise one embed for the run. **Deduplicate** against H2H when the same `VIDEO_ID` covers an H2H opponent (H2H wins).
+**Grand Slam Main Draw Results** (singles and doubles): search for verified footage for **each round played**. Embed below the tournament block - one shortcode per round when separate uploads exist; otherwise one embed for the run. **Deduplicate** against H2H when the same `VIDEO_ID` covers an H2H opponent (H2H wins).
 
-### Step 7 — Verify
+### Step 7 - Verify
 
 - No duplicate tournament lines
 - Years descending within each subsection
@@ -238,7 +238,7 @@ Apply in this order. A `VIDEO_ID` lives in **one** section only — higher-prior
 - Grand Slam Champions **Matches** lists are newest-first
 - No Slam singles title-holder left in Other Top 20 (promote if found)
 - **At a glance** matches WTA Rankings and latest milestones
-- YouTube embeds from official/broadcaster channels only — no fan reuploads
+- YouTube embeds from official/broadcaster channels only - no fan reuploads
 - Video embed priority followed: H2H sections have all opponent match videos; Best Performances has ≤2 embeds and only for non-H2H opponents
 - No duplicate `VIDEO_ID` across sections (H2H wins over Best Performances and Grand Slam)
 - Exit-round tournament links point to the deepest round played
@@ -267,7 +267,7 @@ Apply in this order. A `VIDEO_ID` lives in **one** section only — higher-prior
 
 When the user names one tournament or match:
 
-1. Confirm result on WTA **or** tennis.com (one primary + one quick cross-check — stay within fetch budget)
+1. Confirm result on WTA **or** tennis.com (one primary + one quick cross-check - stay within fetch budget)
 2. Insert in the correct year block (create the year heading if missing)
 3. Update H2H if opponent section exists and the result was not a walkover; otherwise follow [Head-to-head workflow](#head-to-head-workflow)
 4. Update career-high ranking and **At a glance** if this result caused a new peak, title, or notable first
@@ -275,13 +275,13 @@ When the user names one tournament or match:
 
 ## Head-to-head workflow
 
-1. Confirm the meeting was not a walkover — if walkover-only, skip H2H; keep or restore the opponent on the watch list ([Walkovers](#walkovers)).
+1. Confirm the meeting was not a walkover - if walkover-only, skip H2H; keep or restore the opponent on the watch list ([Walkovers](#walkovers)).
 2. Look up opponent WTA ID via search or [reference.md](reference.md) watch-list IDs
 3. H2H URL pattern: `https://www.wtatennis.com/head-to-head/330332/[OPPONENT_ID]`
 4. Copy structure from an existing opponent block (Grand Slam Champions: Madison Keys; Other Top 20: Iva Jovic)
-5. Add `- **Career High Singles:** No. XX` after the H2H link — from the opponent WTA profile `Career High` field
+5. Add `- **Career High Singles:** No. XX` after the H2H link - from the opponent WTA profile `Career High` field
 6. Add match line: `**YYYY Tournament - Surface - Win/Loss** - [Match Stats](url)` (Grand Slam Champions section only). List matches **newest first**. Tournament name must be **brand-free** (see [Tournament naming rules](#tournament-naming-rules)).
-7. Add match stat lines under **Matches:** (newest first) and **every** verified YouTube shortcode for **all** meetings vs that opponent — see [YouTube embed rules](reference.md#youtube-embed-rules) and [Video embed priority](#video-embed-priority-mandatory). **Other Top 20** uses the same match-line format as Grand Slam Champions but omits the Slam titles table.
+7. Add match stat lines under **Matches:** (newest first) and **every** verified YouTube shortcode for **all** meetings vs that opponent - see [YouTube embed rules](reference.md#youtube-embed-rules) and [Video embed priority](#video-embed-priority-mandatory). **Other Top 20** uses the same match-line format as Grand Slam Champions but omits the Slam titles table.
 8. If opponent came from the watch list, remove their watch-list line
 9. Re-sort **Grand Slam Champions** if a new Slam winner was added
 
@@ -289,7 +289,7 @@ When the user names one tournament or match:
 
 Run during every full refresh and whenever a known Other Top 20 opponent wins a major.
 
-**Who to check:** `###` blocks in **Matches Against Other Top 20 Players** only when a full refresh runs **and** you have fetch budget left — prioritize opponents with recent Slam news (web search first). Confirm titles on **one** opponent WTA profile at a time; list meetings via that opponent's [WTA H2H](https://www.wtatennis.com/head-to-head/330332/[OPPONENT_ID]) URL only when promoting.
+**Who to check:** `###` blocks in **Matches Against Other Top 20 Players** only when a full refresh runs **and** you have fetch budget left - prioritize opponents with recent Slam news (web search first). Confirm titles on **one** opponent WTA profile at a time; list meetings via that opponent's [WTA H2H](https://www.wtatennis.com/head-to-head/330332/[OPPONENT_ID]) URL only when promoting.
 
 **When to promote:** opponent has **at least one Grand Slam singles title** and an existing H2H block (they have already met Eala in a tracked context).
 
@@ -300,14 +300,14 @@ Run during every full refresh and whenever a known Other Top 20 opponent wins a 
    - Keep WTA profile and H2H links
    - Keep or add **Career High Singles** from the opponent WTA profile
    - Add **Grand Slam Titles** table from the opponent's WTA profile
-   - Add **Matches:** with one stat line per completed singles meeting vs Eala — surface, Win/Loss, `[Match Stats](url)` (pull from WTA H2H + [WTA Matches](https://www.wtatennis.com/players/330332/alexandra-eala/matches))
+   - Add **Matches:** with one stat line per completed singles meeting vs Eala - surface, Win/Loss, `[Match Stats](url)` (pull from WTA H2H + [WTA Matches](https://www.wtatennis.com/players/330332/alexandra-eala/matches))
    - Move existing YouTube embeds under the matching match lines where possible; otherwise keep below the block
 3. **Re-sort** Grand Slam Champions by total Slam titles (see [Grand Slam Champions sort](#grand-slam-champions-sort))
 4. Update opponent lists in [reference.md](reference.md)
 
-**First meeting after a Slam win:** if Eala plays a watch-list or new opponent who is already a Slam champion, create the block directly under **Grand Slam Champions** — do not place them in Other Top 20 first.
+**First meeting after a Slam win:** if Eala plays a watch-list or new opponent who is already a Slam champion, create the block directly under **Grand Slam Champions** - do not place them in Other Top 20 first.
 
-**Doubles-only context:** if the only documented meeting is doubles (e.g. a Rome QF loss to a Slam-winning pair), keep the opponent in **Other Top 20** until a singles H2H exists, unless the user asks to promote on doubles alone. **Doubles-Slam titles do not trigger promotion** — e.g. Paolini (French Open 2024 singles + Rome 2025 doubles QF only) stays in Other Top 20.
+**Doubles-only context:** if the only documented meeting is doubles (e.g. a Rome QF loss to a Slam-winning pair), keep the opponent in **Other Top 20** until a singles H2H exists, unless the user asks to promote on doubles alone. **Doubles-Slam titles do not trigger promotion** - e.g. Paolini (French Open 2024 singles + Rome 2025 doubles QF only) stays in Other Top 20.
 
 **Duplicate YouTube embeds:** when the same video appears in a tournament entry and an H2H section, keep it in **H2H only** (see [Video embed priority](#video-embed-priority-mandatory)); tournament blocks retain at most two non-H2H embeds only.
 
@@ -324,7 +324,7 @@ Add only opponents Eala has **not** completed a pro-level H2H with yet (junior-o
 
 **Line format:** `- [Player Name](https://www.wtatennis.com/head-to-head/330332/OPPONENT_ID) - Career High No. XX; credential note`
 
-Use WTA H2H links (not profile pages). Include **career high singles** (`No. XX` from the opponent WTA profile) before the credential note. Keep notes short: Slam wins, Olympic gold, recent breakthrough — whatever makes the matchup worth watching.
+Use WTA H2H links (not profile pages). Include **career high singles** (`No. XX` from the opponent WTA profile) before the credential note. Keep notes short: Slam wins, Olympic gold, recent breakthrough - whatever makes the matchup worth watching.
 
 Sort watch-list entries **alphabetically by last name** (e.g. Anisimova before Zheng).
 
@@ -332,16 +332,16 @@ When suggesting additions, skip anyone already in an H2H section or with a compl
 
 ## At a glance workflow
 
-Section: **At a glance** — snapshot block directly under the intro, before **Player Profile**.
+Section: **At a glance** - snapshot block directly under the intro, before **Player Profile**.
 
 Update whenever career highs, title count, best Slam run, or a notable first changes:
 
 - **Career highs:** `No. XX singles · No. YY doubles` (middle dot separator)
 - **WTA titles:** count plus tournament names (e.g. `2 (Guadalajara 125, Birmingham 125)`)
-- **Best Slam (singles):** deepest round at any major (e.g. `US Open 2025 — Round of 2`)
+- **Best Slam (singles):** deepest round at any major (e.g. `US Open 2025 - Round of 2`)
 - **Notable firsts:** semicolon-separated milestone list
 
-Keep lines factual and compact — no links or embeds. See [reference.md](reference.md#at-a-glance-template).
+Keep lines factual and compact - no links or embeds. See [reference.md](reference.md#at-a-glance-template).
 
 ## Frontmatter
 
@@ -363,5 +363,5 @@ On every content update, bump `lastmod` to the current UTC timestamp (e.g. `last
 
 ## Related
 
-- **hugo-template-guidance** — if shortcodes or blog frontmatter questions arise
+- **hugo-template-guidance** - if shortcodes or blog frontmatter questions arise
 - Formatting templates and player IDs: [reference.md](reference.md)

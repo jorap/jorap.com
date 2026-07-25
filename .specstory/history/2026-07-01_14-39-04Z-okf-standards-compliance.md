@@ -3055,23 +3055,23 @@ All notes now pass OKF standards. Here's what was fixed:
 
 ### Standards enforced
 Per [[Getting Started]] and the OKF export pipeline, every atomic note now has:
-- **`description`** — one-breath claim
-- **`key_concept`** — one-sentence angle + second paragraph (not a duplicate of description)
-- **`examples`** — exactly two scenes from different fields
-- **`relationships`** — `extends` + `contradicts` minimum, sorted, deduped
-- **Empty body** — structured sections live in frontmatter only
-- **Flashcard fronts** — cue-only, no multiple-choice `A or B?` patterns
-- **No utility wikilinks** — meta pages linked by URL, not `[[wikilink]]`
+- **`description`** - one-breath claim
+- **`key_concept`** - one-sentence angle + second paragraph (not a duplicate of description)
+- **`examples`** - exactly two scenes from different fields
+- **`relationships`** - `extends` + `contradicts` minimum, sorted, deduped
+- **Empty body** - structured sections live in frontmatter only
+- **Flashcard fronts** - cue-only, no multiple-choice `A or B?` patterns
+- **No utility wikilinks** - meta pages linked by URL, not `[[wikilink]]`
 
 ### Changes made
-1. **31 placeholder key concepts** — replaced `"Named in notes that link here"` stubs with real angles
-2. **24 duplicate key concepts** — rewrote first paragraphs that copied `description`
-3. **21 notes missing examples** — restored exactly two diverse examples each (normalize had trimmed card echoes)
-4. **4 flashcard fronts** — `joy`, `patience`, `peace`, `staged-rollout`
-5. **`note-relationships`** — one-sentence lead before the type table
-6. **`static-site-client-scope`** — split into angle + detail paragraphs
-7. **`forgetting-curve`** — `[[Flashcards]]` → `[Flashcards](/notes/flashcards/)`
-8. **Frontmatter normalization** — consistent quoting/order across 223 files
+1. **31 placeholder key concepts** - replaced `"Named in notes that link here"` stubs with real angles
+2. **24 duplicate key concepts** - rewrote first paragraphs that copied `description`
+3. **21 notes missing examples** - restored exactly two diverse examples each (normalize had trimmed card echoes)
+4. **4 flashcard fronts** - `joy`, `patience`, `peace`, `staged-rollout`
+5. **`note-relationships`** - one-sentence lead before the type table
+6. **`static-site-client-scope`** - split into angle + detail paragraphs
+7. **`forgetting-curve`** - `[[Flashcards]]` → `[Flashcards](/notes/flashcards/)`
+8. **Frontmatter normalization** - consistent quoting/order across 223 files
 
 ### Verification (all pass)
 - `migrate-notes-to-frontmatter.py --verify`
@@ -4977,7 +4977,7 @@ One-shot utilities total roughly 686 lines once the larger scripts are excluded.
 
 _**Agent (auto-low)**_
 
-# Ponytail audit — jorap.com
+# Ponytail audit - jorap.com
 
 Ranked by biggest cut first. Findings only; nothing applied.
 
@@ -4985,26 +4985,26 @@ Ranked by biggest cut first. Findings only; nothing applied.
 
 1. **delete:** `scripts/archive/` (18 one-shot migration scripts, ~3,862 lines). Replacement: git history. [`scripts/archive/`]
 
-2. **delete:** `wire-notes-obsidian.py` (~527 lines) and `npm run wire:notes`. Writes static `## See also` into bodies; Hugo already builds See also at render time (`see-also.html`), and post-frontmatter notes should have empty bodies — re-running is a footgun. Replacement: manual wikilinks + Hugo partials. [`scripts/wire-notes-obsidian.py`, `package.json`]
+2. **delete:** `wire-notes-obsidian.py` (~527 lines) and `npm run wire:notes`. Writes static `## See also` into bodies; Hugo already builds See also at render time (`see-also.html`), and post-frontmatter notes should have empty bodies - re-running is a footgun. Replacement: manual wikilinks + Hugo partials. [`scripts/wire-notes-obsidian.py`, `package.json`]
 
 3. **yagni:** `sync-note-relationships.py` `ADD` / `FUTURE_EXTENDS` dict (~420 lines of slug→relationship data). Relationships now live in note frontmatter; re-running re-injects stale rows and fights hand-edited gardens. Replacement: delete dict + script, or keep a ~60-line sort/dedupe-only pass. [`scripts/sync-note-relationships.py`]
 
 4. **delete:** `resolve-note-link-issues.py` (~436 lines). One-shot link repair; not in `package.json` or CI. Replacement: nothing. [`scripts/resolve-note-link-issues.py`]
 
 5. **delete:** Completed migration one-shots (~686 lines total, not wired to npm):
-   - `migrate-notes-to-frontmatter.py` (103) — keep `--verify` logic only if folded into `lint:*`
+   - `migrate-notes-to-frontmatter.py` (103) - keep `--verify` logic only if folded into `lint:*`
    - `add-key-concept-sections.py` (189)
    - `voice-fix-examples.py` (155)
    - `expand-genre-free-examples.py` (127)
    - `migrate-summary-to-description.py` (59)
-   - `normalize-note-frontmatter.py` (53) — subset of `normalize-notes-format.py`  
+   - `normalize-note-frontmatter.py` (53) - subset of `normalize-notes-format.py`  
    Replacement: git history + one `lint:notes-garden` verifier. [`scripts/`]
 
 6. **stdlib:** Duplicate `split_frontmatter` / `parse_scalar` / `parse_yaml_list` copied in ~8 scripts (~250 lines). Replacement: `from notes_content import split_frontmatter` + `yaml.safe_load`. [`export-okf-bundle.py`, `export-anki-deck.py`, `import-from-obsidian.py`, `lint-utility-wikilinks.py`, `okf-viz/generate.py`, `wire-notes-obsidian.py`]
 
-7. **shrink:** `export-okf-bundle.py` hand-rolls frontmatter parsing *and* calls `yaml.safe_load` — two parsers in one file (~80 lines). Replacement: load via `notes_content` + `assemble_markdown` only. [`scripts/export-okf-bundle.py`]
+7. **shrink:** `export-okf-bundle.py` hand-rolls frontmatter parsing *and* calls `yaml.safe_load` - two parsers in one file (~80 lines). Replacement: load via `notes_content` + `assemble_markdown` only. [`scripts/export-okf-bundle.py`]
 
-8. **yagni:** `notes-graph.js` (1,367 lines) + `pixi.js` dependency. OKF export already ships `viz.html` (Cytoscape, force layout, search). Replacement: link to `/exports/okf/viz.html` or a thin embed; drop WebGL graph if parity is enough. [`assets/js/notes-graph.js`, `package.json`] — *live feature; cut only if you accept simpler in-site graph.*
+8. **yagni:** `notes-graph.js` (1,367 lines) + `pixi.js` dependency. OKF export already ships `viz.html` (Cytoscape, force layout, search). Replacement: link to `/exports/okf/viz.html` or a thin embed; drop WebGL graph if parity is enough. [`assets/js/notes-graph.js`, `package.json`] - *live feature; cut only if you accept simpler in-site graph.*
 
 9. **delete:** `checkShortcodeSpacing.mjs` (41 lines). Not referenced in `package.json`, CI, or hooks. Replacement: wire once into CI or delete. [`scripts/checkShortcodeSpacing.mjs`]
 
@@ -5014,19 +5014,19 @@ Ranked by biggest cut first. Findings only; nothing applied.
 
 12. **yagni:** `export:okf-viz` npm script. `deployBuild.mjs` → `export-okf-bundle.py` already calls `generate_okf_viz()`. Replacement: remove duplicate script entry. [`package.json`]
 
-13. **shrink:** `spawnUtil.mjs` exports `isWindows()` — zero callers in repo. Replacement: delete export. [`scripts/spawnUtil.mjs`]
+13. **shrink:** `spawnUtil.mjs` exports `isWindows()` - zero callers in repo. Replacement: delete export. [`scripts/spawnUtil.mjs`]
 
-14. **native:** `concurrently` devDependency. `dev`/`watch` spawn three processes; on Linux/macOS a one-line `&` in docs or a 5-line shell wrapper works. Replacement: shell backgrounding. [`package.json`] — *small win, optional.*
+14. **native:** `concurrently` devDependency. `dev`/`watch` spawn three processes; on Linux/macOS a one-line `&` in docs or a 5-line shell wrapper works. Replacement: shell backgrounding. [`package.json`] - *small win, optional.*
 
 15. **yagni:** `.specify/` + `.github/prompts/speckit.*` (~11 templates + 5 PowerShell scripts). Spec-kit scaffolding on a Hugo content site; primary dev is Linux. Replacement: delete if you never run `/speckit.*`. [`.specify/`, `.github/prompts/`]
 
 ---
 
 **What’s already lean (don’t cut without cause):**
-- `cspHashes.mjs` — real Cloudflare CSP work, not ceremony
-- `spawnUtil.mjs` + `ensureHugo.mjs` — cross-platform deploy glue
-- `notes-random-core.js` — one shared module for four thin entrypoints (correct factoring)
-- `notes_content.dump_frontmatter` — custom quoting is intentional for Hugo/Tina; PyYAML dump alone won’t match
+- `cspHashes.mjs` - real Cloudflare CSP work, not ceremony
+- `spawnUtil.mjs` + `ensureHugo.mjs` - cross-platform deploy glue
+- `notes-random-core.js` - one shared module for four thin entrypoints (correct factoring)
+- `notes_content.dump_frontmatter` - custom quoting is intentional for Hugo/Tina; PyYAML dump alone won’t match
 - Active linters (`lint:cards`, `lint:utility-links`, `lint:voice`) and `export:okf` / `export:anki`
 
 ---
@@ -5820,18 +5820,18 @@ _**Agent (auto-low)**_
 Ponytail audit cuts are in. **~6,000 lines removed** from `scripts/`; live graph (`pixi.js`) untouched.
 
 ### Deleted
-- **`scripts/archive/`** — 18 one-shot migration scripts (~3,862 lines)
-- **`wire-notes-obsidian.py`** + `npm run wire:notes` — wrote static See also into bodies; Hugo builds that at render time
+- **`scripts/archive/`** - 18 one-shot migration scripts (~3,862 lines)
+- **`wire-notes-obsidian.py`** + `npm run wire:notes` - wrote static See also into bodies; Hugo builds that at render time
 - **`resolve-note-link-issues.py`**, **`add-key-concept-sections.py`**, **`voice-fix-examples.py`**, **`expand-genre-free-examples.py`**, **`migrate-summary-to-description.py`**, **`normalize-note-frontmatter.py`**, **`migrate-notes-to-frontmatter.py`**, **`checkShortcodeSpacing.mjs`**
 
 ### Slimmed
-- **`sync-note-relationships.py`** — 561 → 95 lines; sort/dedupe + hub `note_kind` only; **`ADD` dict gone** (no more re-injecting stale relationship rows)
-- **`notes_content.py`** — removed body-section extraction (`extract_structured_sections`, etc.)
+- **`sync-note-relationships.py`** - 561 → 95 lines; sort/dedupe + hub `note_kind` only; **`ADD` dict gone** (no more re-injecting stale relationship rows)
+- **`notes_content.py`** - removed body-section extraction (`extract_structured_sections`, etc.)
 
 ### Added / updated
-- **`lint-notes-frontmatter.py`** — verifies frontmatter-only atomic notes (replaces migrate `--verify`)
-- **`npm run lint:garden`** — runs frontmatter + format + cards + utility-link checks in one command
-- **`npm run lint:frontmatter`** — single frontmatter check
+- **`lint-notes-frontmatter.py`** - verifies frontmatter-only atomic notes (replaces migrate `--verify`)
+- **`npm run lint:garden`** - runs frontmatter + format + cards + utility-link checks in one command
+- **`npm run lint:frontmatter`** - single frontmatter check
 - Removed redundant **`export:okf-viz`** (build already generates viz via `export:okf`)
 - Dropped dead **`isWindows()`** export from `spawnUtil.mjs`
 - Updated `related-notes.html` comment and `sync-upstreams` skill
@@ -6342,7 +6342,7 @@ This was a **false positive**, not a missing link in Sketchpad.
 
 **Cause:** The issues scanner treated the word `Capture` inside `[[Analog Capture Tools]]` as an unlinked mention of the [[Capture]] note.
 
-**Fix:** In `collect-note-issues.html`, wikilink regions are stripped before the unlinked-mention pass — words inside `[[...]]` are already linked. Cache key bumped to `note-issues-v9`.
+**Fix:** In `collect-note-issues.html`, wikilink regions are stripped before the unlinked-mention pass - words inside `[[...]]` are already linked. Cache key bumped to `note-issues-v9`.
 
 Hugo build now reports **0 unlinked mentions** for Sketchpad. No content change needed; the existing `[[Analog Capture Tools]]` link is correct.
 
@@ -6814,13 +6814,13 @@ _**Agent (auto-low)**_
 
 Done. The notes list page now has two side-by-side sections (stacked on mobile):
 
-**Recent Updates** — 6 notes sorted by last file update, showing “Updated …”  
-**New Notes** — 6 notes sorted by creation date, showing “Created …”
+**Recent Updates** - 6 notes sorted by last file update, showing “Updated …”  
+**New Notes** - 6 notes sorted by creation date, showing “Created …”
 
 Changes:
-- `layouts/_partials/notes/recent-updated.html` — heading renamed, limit 6, updated-only meta
-- `layouts/_partials/notes/recent-new.html` — new partial for new notes
-- `layouts/notes/list.html` — both sections in a two-column grid
-- `config/_default/params.toml` — `recent_updates_limit = 6` and `recent_new_limit = 6`
+- `layouts/_partials/notes/recent-updated.html` - heading renamed, limit 6, updated-only meta
+- `layouts/_partials/notes/recent-new.html` - new partial for new notes
+- `layouts/notes/list.html` - both sections in a two-column grid
+- `config/_default/params.toml` - `recent_updates_limit = 6` and `recent_new_limit = 6`
 
 Hugo build passes; each section renders exactly 6 items. Refresh `http://localhost:1313/notes/` to see it.

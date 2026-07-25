@@ -144,9 +144,9 @@ _**Agent (auto-high)**_
 <think><details><summary>Thought Process</summary>
  I'm noting that images should go in `assets/images/` and referenced as `/images/...`, and since there's no existing earphone image, I'll use a placeholder filename like `/images/feature-soundpeats-runfree.jpg` that follows the existing naming pattern rather than creating binary content.
 
-Now I'm thinking through the blog post itself — the user wants to explore what they look for in wireless earphones, using the Soundpeats Runfree as their current choice. The Runfree is an open-ear, neckband-style design around $50, built for running and all-day wear with good situational awareness. I'm aiming for that same conversational, opinionated voice from the mouse wheel post — practical observations, em-dashes, real-world value that compounds over time, first-person and direct.
+Now I'm thinking through the blog post itself - the user wants to explore what they look for in wireless earphones, using the Soundpeats Runfree as their current choice. The Runfree is an open-ear, neckband-style design around $50, built for running and all-day wear with good situational awareness. I'm aiming for that same conversational, opinionated voice from the mouse wheel post - practical observations, em-dashes, real-world value that compounds over time, first-person and direct.
 
-I'll structure around what actually matters: all-day comfort especially with glasses, hearing your surroundings, solid battery life, decent call quality, multi-device pairing, water resistance, no ear canal fatigue, simple controls, staying put during activity, and good value. The Runfree hits that sweet spot of "good enough sound, all-day comfort, hear-the-world design" for someone who doesn't want isolation. I'll date it 2026-06-01 and use a title format matching the mouse wheel post — something like "What I Look For in Wireless Earphones: Why the Soundpeats Runfree Is My Current Pick" — with categories like Technology, Reviews, and Gear.</details></think>
+I'll structure around what actually matters: all-day comfort especially with glasses, hearing your surroundings, solid battery life, decent call quality, multi-device pairing, water resistance, no ear canal fatigue, simple controls, staying put during activity, and good value. The Runfree hits that sweet spot of "good enough sound, all-day comfort, hear-the-world design" for someone who doesn't want isolation. I'll date it 2026-06-01 and use a title format matching the mouse wheel post - something like "What I Look For in Wireless Earphones: Why the Soundpeats Runfree Is My Current Pick" - with categories like Technology, Reviews, and Gear.</details></think>
 
 _**Agent (auto-high)**_
 
@@ -171,14 +171,14 @@ _**Agent (auto-high)**_
 
 Created the post at `content/english/blog/what-i-look-for-in-wireless-earphones-soundpeats-runfree.md`.
 
-I matched the same voice as your mouse wheel click piece — first-person, conversational, opinionated-but-practical, with the same compounding/real-world framing — and structured it around a personal checklist rather than a straight product review. The Soundpeats RunFree shows up throughout as the example that happens to hit every criterion, not as the headline.
+I matched the same voice as your mouse wheel click piece - first-person, conversational, opinionated-but-practical, with the same compounding/real-world framing - and structured it around a personal checklist rather than a straight product review. The Soundpeats RunFree shows up throughout as the example that happens to hit every criterion, not as the headline.
 
 **A few notes:**
 
 - **Frontmatter image:** I referenced `/images/feature-soundpeats-runfree.jpg` following your existing `feature-*.jpg` convention (same as `feature-mouse-wheel-click.jpg`). You'll want to drop an image at `assets/images/feature-soundpeats-runfree.jpg` so the card and OG tags render properly.
 - **Date:** Set to `2026-06-01T05:00:00Z` (today), one cycle after the mouse wheel click post.
-- **Categories / tags:** Used `["Technology", "Reviews", "Gear"]` since this is your first review-style post in the recent batch — if you'd rather match the `["Technology", "Productivity", "Tips"]` pattern from the mouse wheel piece for consistency, easy swap.
-- **Spec I assumed:** I described the RunFree as **IPX7** and ~14 hours battery. Soundpeats currently lists it as **IPX7, ~14h battery**, so that should be accurate — but worth a 10-second double-check against your own pair before publishing in case Soundpeats has revved the model.
+- **Categories / tags:** Used `["Technology", "Reviews", "Gear"]` since this is your first review-style post in the recent batch - if you'd rather match the `["Technology", "Productivity", "Tips"]` pattern from the mouse wheel piece for consistency, easy swap.
+- **Spec I assumed:** I described the RunFree as **IPX7** and ~14 hours battery. Soundpeats currently lists it as **IPX7, ~14h battery**, so that should be accurate - but worth a 10-second double-check against your own pair before publishing in case Soundpeats has revved the model.
 
 Want me to also add a card preview check, generate an OG-style hero image for it, or queue up a draft for `/images/feature-soundpeats-runfree.jpg`?
 
@@ -212,14 +212,14 @@ _**Agent (auto-high)**_
 
 _**Agent (auto-high)**_
 
-Restructured. The body is now purely about the criteria — no brand mentions, no product references throughout. The Soundpeats RunFree only appears in the closing **"What I'm using right now"** section as the answer to the checklist.
+Restructured. The body is now purely about the criteria - no brand mentions, no product references throughout. The Soundpeats RunFree only appears in the closing **"What I'm using right now"** section as the answer to the checklist.
 
 Other small adjustments to match the new framing:
 
 - **Title** simplified to `"What I Look For in Wireless Earphones"` (no product in title anymore).
 - **Meta title / description** rewritten to be about the checklist, with the RunFree only teased as "the one pair I keep reaching for."
-- **Slug** left as-is (`what-i-look-for-in-wireless-earphones-soundpeats-runfree`) so the URL still ranks for the product term — easy to shorten if you'd rather it be cleaner.
-- **Removed the "Where the RunFree falls short" section** since calling out a specific product's weaknesses no longer fits the structure. The trade-offs of open-ear designs in general could be folded back in if you want — let me know.
+- **Slug** left as-is (`what-i-look-for-in-wireless-earphones-soundpeats-runfree`) so the URL still ranks for the product term - easy to shorten if you'd rather it be cleaner.
+- **Removed the "Where the RunFree falls short" section** since calling out a specific product's weaknesses no longer fits the structure. The trade-offs of open-ear designs in general could be folded back in if you want - let me know.
 
 Want me to also shorten the slug to just `what-i-look-for-in-wireless-earphones`?
 
@@ -247,7 +247,7 @@ _**Agent (auto-high)**_
 
 _**Agent (auto-high)**_
 
-The slug in the frontmatter is already shortened — turns out I'd already written it that way. The filename itself still has the long suffix though. Let me rename the file to match.
+The slug in the frontmatter is already shortened - turns out I'd already written it that way. The filename itself still has the long suffix though. Let me rename the file to match.
 
 _**Agent (auto-high)**_
 
@@ -326,7 +326,7 @@ _**Agent (auto-high)**_
 _**Agent (auto-high)**_
 
 <think><details><summary>Thought Process</summary>
- I'm working through some edits to the product copy—adding safety considerations for commuting to the "hearing the world" angle, incorporating online meetings context into the calls section, removing the durability section about sweat and rain, and strengthening the fit claim by emphasizing they're substantial and secure.</details></think>
+ I'm working through some edits to the product copy-adding safety considerations for commuting to the "hearing the world" angle, incorporating online meetings context into the calls section, removing the durability section about sweat and rain, and strengthening the fit claim by emphasizing they're substantial and secure.</details></think>
 
 _**Agent (auto-high)**_
 
@@ -379,7 +379,7 @@ _**Agent (auto-high)**_
 
 _**Agent (auto-high)**_
 
-Now the shortlist and closing paragraph reference the removed sweat/rain section — let me update those.
+Now the shortlist and closing paragraph reference the removed sweat/rain section - let me update those.
 
 _**Agent (auto-high)**_
 
@@ -415,10 +415,10 @@ _**Agent (auto-high)**_
 
 All four changes are in, and the downstream references are consistent:
 
-1. **"I want to hear the world..."** — added a commuting safety paragraph (crossing streets, parking lots, biking, bus/train, hearing the motorcycle weaving behind you) and tied it back to the section's closing line.
-2. **"Calls and meetings that don't make people hate me"** — renamed the section, added a paragraph about being on Zoom / Meet / Teams daily and not wanting to swap into a "meeting headset."
-3. **"They survive sweat, rain, and a Philippine afternoon"** — removed entirely. Also pulled the sweat/rain criterion out of the shortlist (now 7 items, "Seven things") and dropped the IPX7 reference from the closing RunFree paragraph.
-4. **"They won't fall out — and they're hard to lose"** — retitled and added a paragraph on neckband-style pairs being too big to misplace, vs. the lost-tiny-bud experience.
+1. **"I want to hear the world..."** - added a commuting safety paragraph (crossing streets, parking lots, biking, bus/train, hearing the motorcycle weaving behind you) and tied it back to the section's closing line.
+2. **"Calls and meetings that don't make people hate me"** - renamed the section, added a paragraph about being on Zoom / Meet / Teams daily and not wanting to swap into a "meeting headset."
+3. **"They survive sweat, rain, and a Philippine afternoon"** - removed entirely. Also pulled the sweat/rain criterion out of the shortlist (now 7 items, "Seven things") and dropped the IPX7 reference from the closing RunFree paragraph.
+4. **"They won't fall out - and they're hard to lose"** - retitled and added a paragraph on neckband-style pairs being too big to misplace, vs. the lost-tiny-bud experience.
 
 ---
 
@@ -433,7 +433,7 @@ _**Agent (auto-high)**_
 <think><details><summary>Thought Process</summary>
  I need to generate a featured image for this post. The convention is to store images in `assets/images/` and reference them in the frontmatter as `/images/feature-...jpg`, which is already set up with `feature-soundpeats-runfree.jpg`. Looking at the naming pattern of existing feature images, I should create one that follows the same style.
 
-For the wireless earphones blog, I'm thinking about what visual would work best—something that captures the essence of open-ear or neckband earphones with a photographic quality, showing them as an everyday-carry item. I should check the aspect ratio of existing feature images to match the expected dimensions for the blog card layout.</details></think>
+For the wireless earphones blog, I'm thinking about what visual would work best-something that captures the essence of open-ear or neckband earphones with a photographic quality, showing them as an everyday-carry item. I should check the aspect ratio of existing feature images to match the expected dimensions for the blog card layout.</details></think>
 
 _**Agent (auto-high)**_
 
@@ -480,7 +480,7 @@ _**Agent (auto-high)**_
 <think><details><summary>Thought Process</summary>
  Looking at the aspect ratios for the card layout, I need to generate an image around 16:9 or 3:2 since the page will crop it to 2:1 anyway. I'm saving this as a clean, editorial-style photo of an open-ear neckband earphone under the filename `feature-soundpeats-runfree.jpg`.
 
-For the composition, I'm picturing black neckband earphones resting on a natural wooden surface with warm, soft lighting — maybe paired with glasses or a notebook nearby to capture that everyday carry aesthetic. The mood should feel modern and minimal, emphasizing all-day comfort and work-from-anywhere versatility through lifestyle photography with subtle bokeh and no text overlays.</details></think>
+For the composition, I'm picturing black neckband earphones resting on a natural wooden surface with warm, soft lighting - maybe paired with glasses or a notebook nearby to capture that everyday carry aesthetic. The mood should feel modern and minimal, emphasizing all-day comfort and work-from-anywhere versatility through lifestyle photography with subtle bokeh and no text overlays.</details></think>
 
 _**Agent (auto-high)**_
 

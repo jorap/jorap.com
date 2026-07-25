@@ -40,12 +40,16 @@ card_sets: ["Writing", "Review"]
 cards:
   - front: "Hot take about tonight's game scribbled on the fridge whiteboard. Where does the lesson I'd tell my kid next year go?"
     back: "Promote to evergreen - recipe box or garden."
-  - front: "Shift scribble about today's rush still on the clipboard. Safety rule I'd cite in training next year - which lane?"
+  - front: "Shift scribble about today's rush still on the clipboard - safety rule I'll need next year still fleeting."
     back: "Binder, not clipboard - promote to evergreen."
   - front: "Errand list vs note about which neighbor takes packages when we travel. Same household, two speeds - which is which?"
     back: "Errands fleeting - neighbor note evergreen."
   - front: "Fleeting spark keeps showing up in weekly review. One move before it rots?"
     back: "Promote to evergreen or cut it."
+  - front: "Hot take about last night's game - tempted to promote into the garden."
+    back: "Fridge note - not evergreen yet."
+  - front: "Same fleeting spark in three weekly reviews - still no promotion decision."
+    back: "Promote or cut - stop letting it rot."
 draft: false
 ---
 

@@ -46,6 +46,14 @@ cards:
     back: "Jump on dishes - I am not running the grill."
   - front: "Sick day and I am lunch packer, tutor, and IT help before noon."
     back: "Pick up the lane that opens - do not fake expertise."
+  - front: "Only ever play my position - dishes pile when I'm idle."
+    back: "Jump the open lane - grill isn't mine."
+  - front: "Want to coach from the dish pit - not my expertise."
+    back: "Scrub - don't fake the grill."
+  - front: "Sick day chaos - try to do everything at once."
+    back: "Pick the lane that clears - one at a time."
+  - front: "Captain asks me to run point - I'm the big."
+    back: "Contribute off-ball - don't fake the role."
 draft: false
 ---
 

@@ -64,6 +64,10 @@ cards:
     back: "Fix layout - not \"trainer was clumsy\""
   - front: "Near-miss last week and nobody wrote it up. What's missing?"
     back: "Blameless after-action review before the third time"
+  - front: "Monday after-action review after Friday revert - blame hunt starting."
+    back: "Name the miss - fix the runbook, not the person."
+  - front: "Near-miss filed nowhere - same mistake next month."
+    back: "Write the near-miss - blameless review this week."
 draft: false
 ---
 

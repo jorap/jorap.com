@@ -565,7 +565,7 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The existing image is a realistic desk scene in the same style as open-source.jpg.
 
-The new concept should shift away from framework comparisons toward publishing workflows and post-launch changes. The current image misses the decision rubric and decision paths. It also focuses on the wrong battle—framework logos instead of the actual choice between static and CMS.
+The new concept should shift away from framework comparisons toward publishing workflows and post-launch changes. The current image misses the decision rubric and decision paths. It also focuses on the wrong battle-framework logos instead of the actual choice between static and CMS.
 
 The new concept is a cafe table with a napkin or clipboard showing five handwritten checkboxes: Who updates? Login? Live DB? Cart? Dev gone a month? This replaces framework logos entirely. Each concept will include a visual description for AI generation, a color palette matching the site, thumbnail readability, and a practical, non-preachy tone.
 
@@ -580,7 +580,7 @@ The response will be structured as four sections: the recommended concept with r
 
 _**Agent (auto-low)**_
 
-The current hero (`static-vs-cms.jpg`) leans on the wrong fight: CMS dashboard vs markdown editor. The post is really about **who publishes, what has to change live, and the five-question fit check** — not Hugo vs WordPress.
+The current hero (`static-vs-cms.jpg`) leans on the wrong fight: CMS dashboard vs markdown editor. The post is really about **who publishes, what has to change live, and the five-question fit check** - not Hugo vs WordPress.
 
 Here’s a concept that matches that.
 
@@ -588,7 +588,7 @@ Here’s a concept that matches that.
 
 ## Recommended: “The five-question clipboard”
 
-**One-line idea:** A warm desk scene where the decision tool is physical — a handwritten checklist — and the two stacks are implied, not debated.
+**One-line idea:** A warm desk scene where the decision tool is physical - a handwritten checklist - and the two stacks are implied, not debated.
 
 **Scene**
 - Shallow-depth-of-field desk, same cozy lane as `open-source.jpg`: wood surface, warm lamp, coffee mug off to the side.
@@ -598,14 +598,14 @@ Here’s a concept that matches that.
   3. Live DB?
   4. Cart?
   5. Dev gone a month?
-- **Two boxes checked** in red pen (pick login + cart, or login + “who updates” — anything that reads “CMS territory” at a glance).
+- **Two boxes checked** in red pen (pick login + cart, or login + “who updates” - anything that reads “CMS territory” at a glance).
 - At the bottom of the paper, a quick handwritten fork:
   - `0 yes → static`
   - `2+ yes → CMS`
   - small third line: `static + no Git → bridge` (optional; tiny, not the focal point)
 - **No logos.** No WordPress admin screenshot. No Hugo branding.
-- Left background (soft blur): a **printed brochure** — hours, menu, team photo — the “four-page site” case.
-- Right background (soft blur): a **sticky note** that says “Edit button?” with a small shopping-cart doodle — the client expectation, not a CMS UI.
+- Left background (soft blur): a **printed brochure** - hours, menu, team photo - the “four-page site” case.
+- Right background (soft blur): a **sticky note** that says “Edit button?” with a small shopping-cart doodle - the client expectation, not a CMS UI.
 
 **Why it works**
 - Thumbnail reads in one second: checklist + red checks = “this is a decision rubric.”
@@ -615,11 +615,11 @@ Here’s a concept that matches that.
 
 **Mood / palette**
 - Warm amber lamp, cream paper, navy pen, one accent of red on the checks.
-- Photoreal or soft illustration — either is fine if it feels like a real workspace, not stock “developer at dual monitors.”
+- Photoreal or soft illustration - either is fine if it feels like a real workspace, not stock “developer at dual monitors.”
 
 **Generation prompt (if you’re using an image model)**
 
-> Photorealistic cozy home-office desk at night, warm yellow desk lamp, shallow depth of field. Center: a clipboard with a handwritten checklist titled “Pick the stack” with five checkboxes: “Who updates?”, “Login?”, “Live DB?”, “Cart?”, “Dev gone a month?” — two boxes checked in red pen. Below the list, small handwritten notes: “0 yes → static”, “2+ yes → CMS”. Soft blur in background: printed cafe brochure on the left, yellow sticky note on the right reading “Edit button?” with a tiny cart doodle. No software logos, no WordPress or Hugo branding, no dual-monitor CMS dashboard. Wood desk, coffee mug edge visible. Editorial blog hero, 16:9, warm and practical, not corporate.
+> Photorealistic cozy home-office desk at night, warm yellow desk lamp, shallow depth of field. Center: a clipboard with a handwritten checklist titled “Pick the stack” with five checkboxes: “Who updates?”, “Login?”, “Live DB?”, “Cart?”, “Dev gone a month?” - two boxes checked in red pen. Below the list, small handwritten notes: “0 yes → static”, “2+ yes → CMS”. Soft blur in background: printed cafe brochure on the left, yellow sticky note on the right reading “Edit button?” with a tiny cart doodle. No software logos, no WordPress or Hugo branding, no dual-monitor CMS dashboard. Wood desk, coffee mug edge visible. Editorial blog hero, 16:9, warm and practical, not corporate.
 
 **Filename:** keep `assets/images/static-vs-cms.jpg` (already wired in frontmatter).
 
@@ -648,10 +648,10 @@ One circled path has a checkmark. Very clean; less personality than the clipboar
 
 ## Avoid
 
-- Hugo vs WordPress logos or split-screen “versus” graphics — that’s the debate the post pushes back on.
+- Hugo vs WordPress logos or split-screen “versus” graphics - that’s the debate the post pushes back on.
 - Another dual-monitor dev desk (too close to current hero and `open-source.jpg`).
 - Generic “fast static / slow CMS” speedometer clichés.
-- Busy CMS admin UI — reads as “pick WordPress” instead of “answer the questions first.”
+- Busy CMS admin UI - reads as “pick WordPress” instead of “answer the questions first.”
 
 ---
 

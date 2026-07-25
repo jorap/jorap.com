@@ -124,13 +124,13 @@ featured: false
 review: true
 card_sets: ["Eternal Principles", "Gospel", "Discipleship"]
 cards:
-  - front: "Snapped at my kid after a dry week - no prayer, just forcing patience by will. Where does Galatians fruit come from?"
+  - front: "Snapped at my kid after a dry week - no prayer, just forcing patience by will. Where does Spirit fruit come from?"
     back: "Walk by the Spirit - not flesh willpower."
-  - front: "Galatians 5:22-23 - flesh works on one side, Spirit fruit on the other. Which side am I feeding?"
-    back: "Spirit - stay connected, crucify flesh."
+  - front: "Flesh habits winning this week - Spirit fruit flat. Which side am I feeding?"
+    back: "Feed Spirit - stay connected, crucify flesh."
   - front: "Performing joy at church, empty at home. What's missing?"
     back: "Abide first - fruit grows from connection."
-  - front: "Correction turned sharp with my kid - volume up, gentleness gone. Which fruit?"
+  - front: "Correction turned sharp with my kid - volume up, gentleness gone."
     back: "Gentleness - tone from Spirit, not force."
   - front: "Love and peace showing up after a hard season I didn't manufacture. Who produces it?"
     back: "The Spirit - not my merit streak."

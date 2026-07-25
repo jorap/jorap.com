@@ -290,7 +290,7 @@ Result:
   "isFinal": true,
   "references": [
     {
-      "chunk": "Links:\n1. [The Teachings of Jesus Christ | Come unto Christ](https://www.churchofjesuschrist.org/comeuntochrist/believe/becoming-like-jesus/teachings-of-jesus-christ)\n2. [Teachings of Jesus: 10 Messages Jesus Really Taught](https://www.bartehrman.com/teachings-of-jesus/)\n3. [What Are The Core Teachings Of Jesus, And How Can I Fully Live Them Out? - Bible Study Courses](https://biblestudycourses.com/what-are-the-core-teachings-of-jesus-and-how-can-i-fully-live-them-out/)\n4. [7 Principles – The Core of the Bible](https://coreofthebible.org/7-principles/)\n5. [12 Wisdom Principles – From The Sermon On The Mount | Prayer  A to Z](https://studyingprayer.com/2013/01/27/12-wisdom-principles-from-the-sermon-on-the-mount/)\n\nSynthesis:\nThere is no single, universally recognized list of \"Eternal Principles\" taught by Jesus. Instead, the term is generally used to describe the core, unchanging gospel teachings that guide life and salvation. \n\nCommonly cited themes from Jesus' ministry include:\n* The Beatitudes (e.g., being merciful, a peacemaker, and poor in spirit) [1][2].\n* Loving God and loving one’s neighbor as oneself [2][3].\n* Forgiveness and compassion [1][2].\n* Humility, service, and sacrifice [2][3].\n* Seeking the Kingdom of God first [4][3].\n* The Golden Rule (doing unto others as you would have them do unto you) [5][2].\n\nThese principles are often categorized by scholars and religious groups as the \"fundamentals\" of Jesus' message, intended to transform the heart and guide decision-making [1][3][6].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eThe Teachings of Jesus Christ | Come unto Christ\u003c/title\u003e\n\u003curl\u003ehttps://www.churchofjesuschrist.org/comeuntochrist/believe/becoming-like-jesus/teachings-of-jesus-christ\u003c/url\u003e\n\u003ccontent\u003eWithin Jesus Christ’s teachings\n...\nhappiness, our redemption, and our salvation—\n...\nincludes faith in C
+      "chunk": "Links:\n1. [The Teachings of Jesus Christ | Come unto Christ](https://www.churchofjesuschrist.org/comeuntochrist/believe/becoming-like-jesus/teachings-of-jesus-christ)\n2. [Teachings of Jesus: 10 Messages Jesus Really Taught](https://www.bartehrman.com/teachings-of-jesus/)\n3. [What Are The Core Teachings Of Jesus, And How Can I Fully Live Them Out? - Bible Study Courses](https://biblestudycourses.com/what-are-the-core-teachings-of-jesus-and-how-can-i-fully-live-them-out/)\n4. [7 Principles – The Core of the Bible](https://coreofthebible.org/7-principles/)\n5. [12 Wisdom Principles – From The Sermon On The Mount | Prayer  A to Z](https://studyingprayer.com/2013/01/27/12-wisdom-principles-from-the-sermon-on-the-mount/)\n\nSynthesis:\nThere is no single, universally recognized list of \"Eternal Principles\" taught by Jesus. Instead, the term is generally used to describe the core, unchanging gospel teachings that guide life and salvation. \n\nCommonly cited themes from Jesus' ministry include:\n* The Beatitudes (e.g., being merciful, a peacemaker, and poor in spirit) [1][2].\n* Loving God and loving one’s neighbor as oneself [2][3].\n* Forgiveness and compassion [1][2].\n* Humility, service, and sacrifice [2][3].\n* Seeking the Kingdom of God first [4][3].\n* The Golden Rule (doing unto others as you would have them do unto you) [5][2].\n\nThese principles are often categorized by scholars and religious groups as the \"fundamentals\" of Jesus' message, intended to transform the heart and guide decision-making [1][3][6].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eThe Teachings of Jesus Christ | Come unto Christ\u003c/title\u003e\n\u003curl\u003ehttps://www.churchofjesuschrist.org/comeuntochrist/believe/becoming-like-jesus/teachings-of-jesus-christ\u003c/url\u003e\n\u003ccontent\u003eWithin Jesus Christ’s teachings\n...\nhappiness, our redemption, and our salvation-\n...\nincludes faith in C
 … (output truncated)
 ```
 User decision: **accepted**
@@ -1416,14 +1416,14 @@ _**Agent (default)**_
 Added **15 notes** on eternal principles drawn from Jesus' words in the Gospels, mostly the Sermon on the Mount. They follow your atomic-note format and link together through [[Eternal Principles]].
 
 ### Index note
-- **[Eternal Principles](/notes/eternal-principles/)** — MOC grouping all principles by theme (commandments, how to treat others, heart/priorities, character/witness)
+- **[Eternal Principles](/notes/eternal-principles/)** - MOC grouping all principles by theme (commandments, how to treat others, heart/priorities, character/witness)
 
 ### Six core notes with flashcards (`review: true`)
 Each has 6 scenario cards under the **Eternal Principles** / **Gospel** card sets:
 
 | Note | Source |
 |------|--------|
-| [[Love God]] | Matthew 22:37-38 — greatest commandment |
+| [[Love God]] | Matthew 22:37-38 - greatest commandment |
 | [[Love Your Neighbor]] | Matthew 22:39, Luke 10 (Good Samaritan) |
 | [[The Golden Rule]] | Matthew 7:12 |
 | [[Love Your Enemies]] | Matthew 5:44-45 |
@@ -1459,7 +1459,7 @@ These principles are Jesus' ethical teachings, not a works-based gospel. Free gr
 
 _**Agent (default)**_
 
-I'll read the Eternal Principles notes and revise them so their theological foundation is free grace—not works-based righteousness.
+I'll read the Eternal Principles notes and revise them so their theological foundation is free grace-not works-based righteousness.
 
 
 _**Agent (default)**_
@@ -1668,7 +1668,7 @@ Four flashcards are drafted for the free grace note. They cover grace through fa
 
 _**Agent (default)**_
 
-Adding a Free Grace foundation note and revising the Eternal Principles notes so salvation is by faith alone and obedience is a grateful response—not payment for heaven.
+Adding a Free Grace foundation note and revising the Eternal Principles notes so salvation is by faith alone and obedience is a grateful response-not payment for heaven.
 
 
 _**Agent (default)**_
@@ -1907,7 +1907,7 @@ _**Agent (default)**_
 The eternal principles notes are now grounded in **free grace theology**. Here is what changed:
 
 ### New foundation note: [[Free Grace]]
-Salvation by faith alone — eternal life as God's unmerited gift (Ephesians 2:8-9, John 3:16), not wages for obedience. Includes 6 flashcards on the grace/principles distinction.
+Salvation by faith alone - eternal life as God's unmerited gift (Ephesians 2:8-9, John 3:16), not wages for obedience. Includes 6 flashcards on the grace/principles distinction.
 
 ### Updated [[Eternal Principles]] index
 Added a **Theological basis** section linking to [[Free Grace]], with the intro reframed: principles guide how **believers live in response**, not how anyone **earns heaven**.
@@ -1917,15 +1917,15 @@ Each note now ties back to free grace:
 
 | Principle | Free grace grounding |
 |-----------|---------------------|
-| **Love God / Neighbor / Golden Rule** | Commands on a life **already saved** — response, not payment |
+| **Love God / Neighbor / Golden Rule** | Commands on a life **already saved** - response, not payment |
 | **Forgiveness** | Parable = grace **already given**; unforgiveness breaks **fellowship**, not eternal life |
-| **Beatitudes** | "Poor in spirit" = spiritual bankruptcy — kingdom **received as gift** |
+| **Beatitudes** | "Poor in spirit" = spiritual bankruptcy - kingdom **received as gift** |
 | **Narrow Way** | Narrow gate = **faith alone**; "Lord, Lord" = false professors, not stumbling believers |
 | **Treasure in Heaven** | Rewards for faithful service **after** salvation |
 | **Let Your Light Shine** | Good works show **grace at work**, not merit earned |
 
 ### Flashcard updates
-Cards that implied works-righteousness were corrected — e.g. Matthew 6:14-15 now reads: *"Fellowship breaks; I choke grace I already have — not lose eternal life."*
+Cards that implied works-righteousness were corrected - e.g. Matthew 6:14-15 now reads: *"Fellowship breaks; I choke grace I already have - not lose eternal life."*
 
 The core distinction everywhere: **grace saves → principles train the saved life.**
 
@@ -2328,7 +2328,7 @@ New faith note pairs are being added to the wire script. Love Your Neighbor and 
 
 _**Agent (default)**_
 
-Wiring cross-domain links between the faith notes and PKM garden—updating bodies, See also sections, the Eternal Principles index, and the relationship script.
+Wiring cross-domain links between the faith notes and PKM garden-updating bodies, See also sections, the Eternal Principles index, and the relationship script.
 
 
 _**Agent (default)**_
@@ -3248,7 +3248,7 @@ Found **11 cross-domain connections** between the faith notes and the PKM garden
 | [[Free Grace]] ↔ [[Minimum Effective Dose]] | Faith alone = smallest act that works; not a works ladder |
 | [[Free Grace]] ↔ [[Compounding]] | Good works must not compound into merit theology |
 | [[Forgiveness]] ↔ [[Sunk Cost Fallacy]] | Release relational debt; stop counting past hurt |
-| [[First Principles Thinking]] ↔ [[Eternal Principles]] | Human-derived claims vs received gospel — different jobs |
+| [[First Principles Thinking]] ↔ [[Eternal Principles]] | Human-derived claims vs received gospel - different jobs |
 
 ### Priorities ↔ capture
 | Connection | Why |
@@ -3264,15 +3264,15 @@ Found **11 cross-domain connections** between the faith notes and the PKM garden
 | [[Let Your Light Shine]] ↔ [[Drafting in Public]] | Visible good works and visible notes |
 | [[Reconciliation Before Worship]] ↔ [[Note Relationships]] | Repair broken relationships like broken wikilinks |
 | [[Analog Capture Tools]] → [[Eternal Principles]] | Sermon notes on paper → distilled into the garden |
-| [[Flashcards]] / [[Review]] / [[Spaced Repetition]] | Shared drill lane — filter by **Eternal Principles** `card_sets` |
+| [[Flashcards]] / [[Review]] / [[Spaced Repetition]] | Shared drill lane - filter by **Eternal Principles** `card_sets` |
 | [[Pareto Principle]] | Six gospel notes carry cards, not all fifteen |
 
 ### Where to explore
-- **Graph view** (`/notes/graph/`) — new edges between Faith and Productivity clusters  
-- **[[Eternal Principles]]** — full cross-links table at the bottom  
-- **`scripts/wire-note-relationships.py`** — faith slugs added so relationships stay typed
+- **Graph view** (`/notes/graph/`) - new edges between Faith and Productivity clusters  
+- **[[Eternal Principles]]** - full cross-links table at the bottom  
+- **`scripts/wire-note-relationships.py`** - faith slugs added so relationships stay typed
 
-The graph should now show the faith cluster linked into PKM habits, mental models, and the flashcard drill lane — not isolated on its own.
+The graph should now show the faith cluster linked into PKM habits, mental models, and the flashcard drill lane - not isolated on its own.
 
 ---
 
@@ -3717,35 +3717,35 @@ Total in 16282 ms
 
 _**Agent (default)**_
 
-Yes — several major teachings from Jesus weren't covered yet. You had the Sermon on the Mount's **spine** (love, forgiveness, kingdom-first, beatitudes); much of the **ethics detail**, **prayer**, and **discipleship cost** was still missing.
+Yes - several major teachings from Jesus weren't covered yet. You had the Sermon on the Mount's **spine** (love, forgiveness, kingdom-first, beatitudes); much of the **ethics detail**, **prayer**, and **discipleship cost** was still missing.
 
 ### Added 8 new notes
 
 | Note | Jesus' words | Why it's distinct |
 |------|--------------|-------------------|
-| [[Repent and Believe]] | Mark 1:15 | Kingdom **entry** — turn and trust, not merit |
-| [[Turn the Other Cheek]] | Matthew 5:39 | **Non-retaliation** — break the cycle |
+| [[Repent and Believe]] | Mark 1:15 | Kingdom **entry** - turn and trust, not merit |
+| [[Turn the Other Cheek]] | Matthew 5:39 | **Non-retaliation** - break the cycle |
 | [[Judge Not]] | Matthew 7:1-5 | No hypocritical **condemnation** (vs fruit discernment) |
-| [[Ask Seek Knock]] | Matthew 7:7-11, 6:9-13 | **Prayer** dependence — includes Lord's Prayer |
-| [[Let Your Yes Be Yes]] | Matthew 5:37 | **Plain truth** — no oaths to be believed |
+| [[Ask Seek Knock]] | Matthew 7:7-11, 6:9-13 | **Prayer** dependence - includes Lord's Prayer |
+| [[Let Your Yes Be Yes]] | Matthew 5:37 | **Plain truth** - no oaths to be believed |
 | [[Take Up Your Cross]] | Luke 9:23 | **Daily discipleship** cost after faith |
-| [[Childlike Faith]] | Matthew 18:3 | Receive kingdom like a **child** — fits free grace |
-| [[The Wise Builder]] | Matthew 7:24-27 | **Hear and do** — rock vs sand |
+| [[Childlike Faith]] | Matthew 18:3 | Receive kingdom like a **child** - fits free grace |
+| [[The Wise Builder]] | Matthew 7:24-27 | **Hear and do** - rock vs sand |
 
 Three got flashcards (with the original six): **Repent and Believe**, **Ask Seek Knock**, **Take Up Your Cross**.
 
 ### Still on the backlog (listed in [[Eternal Principles]])
 
-These are real Jesus teachings worth notes when a sermon earns them — not duplicated yet:
+These are real Jesus teachings worth notes when a sermon earns them - not duplicated yet:
 
-- **Heart righteousness** (Matthew 5:21-30) — anger/lust as heart sins  
-- **Secret devotion** (Matthew 6:1-18) — give, pray, fast for the Father alone  
-- **By their fruits** (Matthew 7:16-20) — test teachers by outcome  
-- **Render unto Caesar** (Matthew 22:21) — civic duty vs worship  
+- **Heart righteousness** (Matthew 5:21-30) - anger/lust as heart sins  
+- **Secret devotion** (Matthew 6:1-18) - give, pray, fast for the Father alone  
+- **By their fruits** (Matthew 7:16-20) - test teachers by outcome  
+- **Render unto Caesar** (Matthew 22:21) - civic duty vs worship  
 - **Great Commission** (Matthew 28:19-20)  
-- **Abide in me** (John 15) — fruit from union, not self-effort alone  
+- **Abide in me** (John 15) - fruit from union, not self-effort alone  
 
-Parables like the **Good Samaritan** and **Prodigal Son** are largely covered through [[Love Your Neighbor]] and [[Forgiveness]] — separate notes only if you want parable-by-parable granularity.
+Parables like the **Good Samaritan** and **Prodigal Son** are largely covered through [[Love Your Neighbor]] and [[Forgiveness]] - separate notes only if you want parable-by-parable granularity.
 
 The garden now has **23 eternal principle notes** (including [[Free Grace]] and the index). Want me to draft any of the backlog items next, or add flashcards to more of the new ones?
 
@@ -4305,23 +4305,23 @@ Total in 14143 ms
 
 _**Agent (default)**_
 
-Wired **8 new cross-domain connections** for the latest faith notes — bidirectional where it made sense. All are in note bodies, See also sections, and the **Cross-links (PKM)** table on [[Eternal Principles]].
+Wired **8 new cross-domain connections** for the latest faith notes - bidirectional where it made sense. All are in note bodies, See also sections, and the **Cross-links (PKM)** table on [[Eternal Principles]].
 
 ### New faith ↔ PKM connections
 
 | Faith note | PKM partner | Connection |
 |------------|-------------|------------|
-| [[Repent and Believe]] | [[There Is No Perfect Solution]] | Enter now — don't wait until you're "ready" |
+| [[Repent and Believe]] | [[There Is No Perfect Solution]] | Enter now - don't wait until you're "ready" |
 | [[Turn the Other Cheek]] | [[Sunk Cost Fallacy]] | Stop investing more anger after sunk hurt |
 | [[Judge Not]] | [[Issues]] | Diagnose broken links without condemning the author |
 | [[Judge Not]] | [[Signal vs Noise]] | Discern fruit vs condemn (See also) |
 | [[Ask Seek Knock]] | [[Periodic Knowledge Review]] | Show up on schedule, not only in crisis |
 | [[Ask Seek Knock]] | [[Spaced Repetition]] | Keep asking on rhythm |
-| [[Let Your Yes Be Yes]] | [[Atomic Notes]] | One plain claim — no padded speech |
+| [[Let Your Yes Be Yes]] | [[Atomic Notes]] | One plain claim - no padded speech |
 | [[Take Up Your Cross]] | [[Process Over Outcomes]] | Daily self-denial beats a one-time hero sprint |
 | [[Take Up Your Cross]] | [[Slow Productivity]] | Costly faithfulness vs frantic throughput |
-| [[Childlike Faith]] | [[Getting Started]] | Beginner posture — receive, don't perform |
-| [[The Wise Builder]] | [[Creative Output]] | Hear and **do** — output is rock, hoarding is sand |
+| [[Childlike Faith]] | [[Getting Started]] | Beginner posture - receive, don't perform |
+| [[The Wise Builder]] | [[Creative Output]] | Hear and **do** - output is rock, hoarding is sand |
 | [[The Wise Builder]] | [[The Collector's Fallacy]] | Hearing/saving without living/shipping |
 
 ### PKM notes updated back-links
@@ -4703,7 +4703,7 @@ Added all six backlog notes and updated [[Eternal Principles]]:
 | [[Render Unto Caesar]] | 22:21 | Church and world *(new)* |
 | [[Great Commission]] | 28:19-20 | Church and world |
 
-Each note is grounded in [[Free Grace]], linked to related principles, and wired into the PKM cross-links table where it fit. The backlog section is removed — the index is complete at **29 notes**. Build passes clean.
+Each note is grounded in [[Free Grace]], linked to related principles, and wired into the PKM cross-links table where it fit. The backlog section is removed - the index is complete at **29 notes**. Build passes clean.
 
 ---
 
@@ -4915,23 +4915,23 @@ PY
 
 ask-seek-knock.md (6/6 violations)
   front=38 back=44
-    F: Matthew 7:7 — three moves Jesus named:...
+    F: Matthew 7:7 - three moves Jesus named:...
     B: Ask, seek, knock. Keep coming to the Father....
   front=49 back=63
     F: Ask seek knock vs earning answers by performance:...
-    B: Child asking a father — dependence, not wages ([[Free Grace]...
+    B: Child asking a father - dependence, not wages ([[Free Grace]...
   front=48 back=70
-    F: Father gives good gifts — even when I ask wrong?...
+    F: Father gives good gifts - even when I ask wrong?...
     B: He gives what's good, like a parent who knows better than th...
   front=25 back=73
     F: Lord's Prayer opens with:...
-    B: Our Father — hallowed name, kingdom come, will be done, then...
+    B: Our Father - hallowed name, kingdom come, will be done, then...
   front=35 back=53
     F: Pray in secret (Matthew 6:6) means:...
-    B: Audience is God, not people — not performance prayer....
+    B: Audience is God, not people - not performance prayer....
   front=58 back=61
     F: I stopped praying because God didn't comply. Jesus' frame:...
-    B: Keep asking — the Father's character is generous, not stingy...
+    B: Keep asking - the Father's character is generous, not stingy...
 
 associative-linking.md (4/6 violations)
   front=35 back=47
@@ -5357,7 +5357,7 @@ The body may contain the entire file again. I need to check git or read the full
 
 _**Agent (default)**_
 
-The rewrite script corrupted files — checking damage and fixing it.
+The rewrite script corrupted files - checking damage and fixing it.
 
 
 _**Agent (default)**_
@@ -5967,7 +5967,7 @@ _**Agent (default)**_
 
 _**Agent (default)**_
 
-Duplicate frontmatter remains in some notes — inspecting and fixing them.
+Duplicate frontmatter remains in some notes - inspecting and fixing them.
 
 
 _**Agent (default)**_
@@ -6578,22 +6578,22 @@ _**Agent (default)**_
 
 _**Agent (default)**_
 
-All flashcard decks now follow the **front longer than back** rule — scenario prompts on the front, short answers on the back.
+All flashcard decks now follow the **front longer than back** rule - scenario prompts on the front, short answers on the back.
 
 **What changed**
 
-1. **22 review notes rewritten** — PKM spine (Capture, Pareto, Atomic Notes, etc.) and faith spine (Free Grace, Love God, Forgiveness, etc.) now use longer scenario-style fronts and punchy backs.
+1. **22 review notes rewritten** - PKM spine (Capture, Pareto, Atomic Notes, etc.) and faith spine (Free Grace, Love God, Forgiveness, etc.) now use longer scenario-style fronts and punchy backs.
 
-2. **Lint enforcement** — `scripts/lint-flashcard-frontmatter.py` errors if `len(front) <= len(back)`. Run with `npm run lint:cards` (currently passing).
+2. **Lint enforcement** - `scripts/lint-flashcard-frontmatter.py` errors if `len(front) <= len(back)`. Run with `npm run lint:cards` (currently passing).
 
-3. **Docs updated** — `cards.md` documents the convention: *"Front longer than back — the prompt carries context; the answer stays short."*
+3. **Docs updated** - `cards.md` documents the convention: *"Front longer than back - the prompt carries context; the answer stays short."*
 
-4. **Repair script** — Fixed duplicate frontmatter corruption from an earlier script run; removed a stray trailing `---` in `capture.md`.
+4. **Repair script** - Fixed duplicate frontmatter corruption from an earlier script run; removed a stray trailing `---` in `capture.md`.
 
 **Example** (from Capture):
 
 ```yaml
-- front: "Mid-commute I get a spark I might forget. Per my capture rule, what's the first move — inbox or organize?"
+- front: "Mid-commute I get a spark I might forget. Per my capture rule, what's the first move - inbox or organize?"
   back: "One trusted inbox. Don't organize yet."
 ```
 
@@ -7426,15 +7426,15 @@ Noted and enforced. Those six pages are **utility/meta surfaces**, not garden no
 
 **What I added**
 
-1. **Convention documented** in `getting-started.md` — utility surfaces section lists all six and says to use URLs, not `[[wikilinks]]`.
+1. **Convention documented** in `getting-started.md` - utility surfaces section lists all six and says to use URLs, not `[[wikilinks]]`.
 
-2. **Lint check** — `npm run lint:utility-links` errors if any evergreen note body wikilinks to Graph, Issues, Flashcards, Review, Random Duo, or Random Trio.
+2. **Lint check** - `npm run lint:utility-links` errors if any evergreen note body wikilinks to Graph, Issues, Flashcards, Review, Random Duo, or Random Trio.
 
-3. **Fixed existing violations** — replaced wikilinks with URL links in `judge-not.md`, `by-their-fruits.md`, `eternal-principles.md`, `getting-started.md`; removed `[[Issues]]` from `maps-of-content.md`.
+3. **Fixed existing violations** - replaced wikilinks with URL links in `judge-not.md`, `by-their-fruits.md`, `eternal-principles.md`, `getting-started.md`; removed `[[Issues]]` from `maps-of-content.md`.
 
-4. **Scaffold/docs updated** — `archetypes/notes.md`, `cards.md`, and `jorap-voice-notes.py` aligned with the rule.
+4. **Scaffold/docs updated** - `archetypes/notes.md`, `cards.md`, and `jorap-voice-notes.py` aligned with the rule.
 
-**Rule of thumb:** link ideas with `[[wikilinks]]`; link tools with `/notes/graph/`, `/notes/issues/`, etc. Content notes like [[Graph View Analytics]] and [[Spaced Repetition]] stay fair game — they're ideas, not UI pages.
+**Rule of thumb:** link ideas with `[[wikilinks]]`; link tools with `/notes/graph/`, `/notes/issues/`, etc. Content notes like [[Graph View Analytics]] and [[Spaced Repetition]] stay fair game - they're ideas, not UI pages.
 
 ---
 
@@ -9299,7 +9299,7 @@ All notes contain duplicate `---` separators after their frontmatter.
 
 _**Agent (default)**_
 
-Duplicate frontmatter closers found across many notes — bulk-fixing them.
+Duplicate frontmatter closers found across many notes - bulk-fixing them.
 
 
 _**Agent (default)**_
@@ -9538,7 +9538,7 @@ _**Agent (default)**_
 
 Cross-link audit is complete. Summary:
 
-## All 20 MOC pairs — bidirectional ✓
+## All 20 MOC pairs - bidirectional ✓
 
 Every faith ↔ PKM pair in the `eternal-principles.md` cross-links table now links both ways in note bodies:
 
@@ -9571,21 +9571,21 @@ Every faith ↔ PKM pair in the `eternal-principles.md` cross-links table now li
 
 2. **Missing return links** added on PKM side: Signal vs Noise → By Their Fruits; Drafting in Public → Secret Devotion; Creative Output → Great Commission; Compounding → Abide in Me.
 
-3. **Repent and Believe** — fixed broken slug link `[[there-is-no-perfect-solution|…]]`; now uses alias `[[No Perfect Solution|…]]` (avoids Hugo unlinked-mention false positive).
+3. **Repent and Believe** - fixed broken slug link `[[there-is-no-perfect-solution|…]]`; now uses alias `[[No Perfect Solution|…]]` (avoids Hugo unlinked-mention false positive).
 
-4. **MOC table** — flashcard count updated to **10 principle notes** (not 9 / 23).
+4. **MOC table** - flashcard count updated to **10 principle notes** (not 9 / 23).
 
-5. **Utility pages** — Judge Not / By Their Fruits still point to [Issues](/notes/issues/) by URL (not wikilink), per your rule.
+5. **Utility pages** - Judge Not / By Their Fruits still point to [Issues](/notes/issues/) by URL (not wikilink), per your rule.
 
 ## Validation
 
-- `npm run lint:utility-links` — OK  
-- `npm run lint:cards` — OK  
-- Hugo build — **no broken wikilinks or unlinked mentions**
+- `npm run lint:utility-links` - OK  
+- `npm run lint:cards` - OK  
+- Hugo build - **no broken wikilinks or unlinked mentions**
 
 ## Faith notes without PKM cross-links (by design)
 
-These MOC entries are faith-only for now — no PKM partner in the table: Love God, Love Your Neighbor, Peacemakers, Heart Righteousness, The Beatitudes, Humility and Service, The Narrow Way, Render Unto Caesar, and others that only link within the faith cluster. Say if you want PKM partners added for any of those.
+These MOC entries are faith-only for now - no PKM partner in the table: Love God, Love Your Neighbor, Peacemakers, Heart Righteousness, The Beatitudes, Humility and Service, The Narrow Way, Render Unto Caesar, and others that only link within the faith cluster. Say if you want PKM partners added for any of those.
 
 ---
 
@@ -9603,7 +9603,7 @@ Applying the JoRap voice skill to the eternal-principles note.
 
 _**Agent (default)**_
 
-Applying JoRap voice to the Eternal Principles MOC — reading the note and similar garden pages for tone patterns.
+Applying JoRap voice to the Eternal Principles MOC - reading the note and similar garden pages for tone patterns.
 
 
 _**Agent (default)**_
@@ -9688,7 +9688,7 @@ Rewriting the opening definition in first person to match JoRap voice. Adding a 
 
 _**Agent (default)**_
 
-Rewriting the MOC opener, frontmatter, and cross-links intro in JoRap voice—keeping structure, wikilinks, and the table intact; replacing em dashes per the voice skill.
+Rewriting the MOC opener, frontmatter, and cross-links intro in JoRap voice-keeping structure, wikilinks, and the table intact; replacing em dashes per the voice skill.
 
 
 _**Agent (default)**_

@@ -1302,6 +1302,6 @@ Added **[[Rollback Principle]]** at `content/english/notes/rollback-principle.md
 
 **Auto-linked neighbors** (via shared safety/systems tags): [[Hierarchy of Controls]], [[Safety by Design]], [[Normalization of Deviance]].
 
-Examples span deploy ops, restaurant kitchen, home screen-time, and halftime play-calling — same shape as [[Preparedness]] and [[Standard Operating Procedures]], with the Friday-deploy voice line from your ops story.
+Examples span deploy ops, restaurant kitchen, home screen-time, and halftime play-calling - same shape as [[Preparedness]] and [[Standard Operating Procedures]], with the Friday-deploy voice line from your ops story.
 
 Ran `sync-note-relationships.py` and `wire-notes-obsidian.py` to normalize tables and See also sections across the garden.

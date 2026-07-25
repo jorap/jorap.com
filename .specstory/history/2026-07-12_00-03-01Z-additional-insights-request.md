@@ -248,7 +248,7 @@ I will check voice-words.yaml for banned words before adding content, then run l
 
 _**Agent (auto-low)**_
 
-Adding practical sections on recurring scenarios, buying durable cords, and when a power strip beats a plain extension—matching the depth of your other gear posts.
+Adding practical sections on recurring scenarios, buying durable cords, and when a power strip beats a plain extension-matching the depth of your other gear posts.
 
 
 _**Agent (auto-low)**_

@@ -87,7 +87,7 @@ Result:
           },
           {
             "lineNumber": 49,
-            "text": "                \u003cbutton type=\"button\" class=\"notes-graph-filter is-active\" data-graph-filter=\"all\" aria-pressed=\"true\" aria-label=\"All notes — {{ len $graph.nodes }} notes, {{ len $graph.edges }} links\"\u003e"
+            "text": "                \u003cbutton type=\"button\" class=\"notes-graph-filter is-active\" data-graph-filter=\"all\" aria-pressed=\"true\" aria-label=\"All notes - {{ len $graph.nodes }} notes, {{ len $graph.edges }} links\"\u003e"
           },
           {
             "lineNumber": 50,
@@ -99,7 +99,7 @@ Result:
           },
           {
             "lineNumber": 52,
-            "text": "                \u003cbutton type=\"button\" class=\"notes-graph-filter\" data-graph-filter=\"hub\" aria-pressed=\"false\" aria-label=\"High link frequency — {{ $hubs }} notes\"\u003e"
+            "text": "                \u003cbutton type=\"button\" class=\"notes-graph-filter\" data-graph-filter=\"hub\" aria-pressed=\"false\" aria-label=\"High link frequency - {{ $hubs }} notes\"\u003e"
           },
           {
             "lineNumber": 53,
@@ -111,7 +111,7 @@ Result:
           },
           {
             "lineNumber": 55,
-            "text": "                \u003cbutton type=\"button\" class=\"notes-graph-filter\" data-graph-filter=\"weak\" aria-pressed=\"false\" aria-label=\"Low link frequency — {{ $weak }} notes\"\u003e"
+            "text": "                \u003cbutton type=\"button\" class=\"notes-graph-filter\" data-graph-filter=\"weak\" aria-pressed=\"false\" aria-label=\"Low link frequency - {{ $weak }} notes\"\u003e"
           },
           {
             "lineNumber": 56,
@@ -123,7 +123,7 @@ Result:
           },
           {
             "lineNumber": 58,
-            "text": "                \u003cbutton type=\"button\" class=\"notes-graph-filter\" data-graph-filter=\"deadEnd\" aria-pressed=\"false\" aria-label=\"No body links — {{ $deadEnds }} notes with no wikilinks in the body\"\u003e"
+            "text": "                \u003cbutton type=\"button\" class=\"notes-graph-filter\" data-graph-filter=\"deadEnd\" aria-pressed=\"false\" aria-label=\"No body links - {{ $deadEnds }} notes with no wikilinks in the body\"\u003e"
           },
           {
             "lineNumber": 59,
@@ -135,7 +135,7 @@ Result:
           },
           {
             "lineNumber": 61,
-            "text": "                \u003cbutton type=\"button\" class=\"notes-graph-filter\" data-graph-filter=\"orphan\" aria-pressed=\"false\" aria-label=\"Orphans — {{ $orphans }} notes with no inbound links\"\u003e"
+            "text": "                \u003cbutton type=\"button\" class=\"notes-graph-filter\" data-graph-filter=\"orphan\" aria-pressed=\"false\" aria-label=\"Orphans - {{ $orphans }} notes with no inbound links\"\u003e"
           },
           {
             "lineNumber": 62,
@@ -824,7 +824,7 @@ Result:
           },
           {
             "lineNumber": 31,
-            "text": "            \u003cbutton type=\"button\" class=\"notes-filter is-active\" data-notes-filter=\"all\" aria-pressed=\"true\" aria-label=\"All — {{ $countAll }} notes\"\u003e"
+            "text": "            \u003cbutton type=\"button\" class=\"notes-filter is-active\" data-notes-filter=\"all\" aria-pressed=\"true\" aria-label=\"All - {{ $countAll }} notes\"\u003e"
           },
           {
             "lineNumber": 32,
@@ -836,7 +836,7 @@ Result:
           },
           {
             "lineNumber": 34,
-            "text": "            \u003cbutton type=\"button\" class=\"notes-filter\" data-notes-filter=\"seedling\" aria-pressed=\"false\" aria-label=\"Seedling — {{ $countSeedling }} notes\"\u003e"
+            "text": "            \u003cbutton type=\"button\" class=\"notes-filter\" data-notes-filter=\"seedling\" aria-pressed=\"false\" aria-label=\"Seedling - {{ $countSeedling }} notes\"\u003e"
           },
           {
             "lineNumber": 35,
@@ -848,7 +848,7 @@ Result:
           },
           {
             "lineNumber": 37,
-            "text": "            \u003cbutton type=\"button\" class=\"notes-filter\" data-notes-filter=\"evergreen\" aria-pressed=\"false\" aria-label=\"Evergreen — {{ $countEvergreen }} notes\"\u003e"
+            "text": "            \u003cbutton type=\"button\" class=\"notes-filter\" data-notes-filter=\"evergreen\" aria-pressed=\"false\" aria-label=\"Evergreen - {{ $countEvergreen }} notes\"\u003e"
           },
           {
             "lineNumber": 38,
@@ -860,7 +860,7 @@ Result:
           },
           {
             "lineNumber": 40,
-            "text": "            \u003cbutton type=\"button\" class=\"notes-filter\" data-notes-filter=\"inbox\" aria-pressed=\"false\" aria-label=\"Inbox — {{ $countInbox }} notes\"\u003e"
+            "text": "            \u003cbutton type=\"button\" class=\"notes-filter\" data-notes-filter=\"inbox\" aria-pressed=\"false\" aria-label=\"Inbox - {{ $countInbox }} notes\"\u003e"
           },
           {
             "lineNumber": 41,
@@ -872,7 +872,7 @@ Result:
           },
           {
             "lineNumber": 43,
-            "text": "            \u003cbutton type=\"button\" class=\"notes-filter\" data-notes-filter=\"archived\" aria-pressed=\"false\" aria-label=\"Archived — {{ $countArchived }} notes\"\u003e"
+            "text": "            \u003cbutton type=\"button\" class=\"notes-filter\" data-notes-filter=\"archived\" aria-pressed=\"false\" aria-label=\"Archived - {{ $countArchived }} notes\"\u003e"
           },
           {
             "lineNumber": 44,
@@ -884,7 +884,7 @@ Result:
           },
           {
             "lineNumber": 46,
-            "text": "            \u003cbutton type=\"button\" class=\"notes-filter\" data-notes-filter=\"stale\" aria-pressed=\"false\" aria-label=\"Stale — {{ $countStale }} notes\"\u003e"
+            "text": "            \u003cbutton type=\"button\" class=\"notes-filter\" data-notes-filter=\"stale\" aria-pressed=\"false\" aria-label=\"Stale - {{ $countStale }} notes\"\u003e"
           },
           {
             "lineNumber": 47,
@@ -1539,7 +1539,7 @@ Result:
           },
           {
             "lineNumber": 20,
-            "text": "\u003cbutton type=\"button\" class=\"notes-filter is-active\" data-notes-cards-filter=\"all\" aria-pressed=\"true\" aria-label=\"All sets — {{ len $cards }} cards\"\u003e"
+            "text": "\u003cbutton type=\"button\" class=\"notes-filter is-active\" data-notes-cards-filter=\"all\" aria-pressed=\"true\" aria-label=\"All sets - {{ len $cards }} cards\"\u003e"
           },
           {
             "lineNumber": 21,
@@ -1559,7 +1559,7 @@ Result:
           },
           {
             "lineNumber": 25,
-            "text": "  \u003cbutton type=\"button\" class=\"notes-filter\" data-notes-cards-filter=\"{{ . }}\" aria-pressed=\"false\" aria-label=\"{{ . }} — {{ $count }} cards\"\u003e"
+            "text": "  \u003cbutton type=\"button\" class=\"notes-filter\" data-notes-cards-filter=\"{{ . }}\" aria-pressed=\"false\" aria-label=\"{{ . }} - {{ $count }} cards\"\u003e"
           },
           {
             "lineNumber": 26,
@@ -1579,7 +1579,7 @@ Result:
           },
           {
             "lineNumber": 30,
-            "text": "\u003cbutton type=\"button\" class=\"notes-filter is-active\" data-notes-review-set=\"all\" aria-pressed=\"true\" aria-label=\"All sets — {{ len $cards }} cards\"\u003e"
+            "text": "\u003cbutton type=\"button\" class=\"notes-filter is-active\" data-notes-review-set=\"all\" aria-pressed=\"true\" aria-label=\"All sets - {{ len $cards }} cards\"\u003e"
           },
           {
             "lineNumber": 31,
@@ -1599,7 +1599,7 @@ Result:
           },
           {
             "lineNumber": 35,
-            "text": "  \u003cbutton type=\"button\" class=\"notes-filter\" data-notes-review-set=\"{{ . }}\" aria-pressed=\"false\" aria-label=\"{{ . }} — {{ $count }} cards\"\u003e"
+            "text": "  \u003cbutton type=\"button\" class=\"notes-filter\" data-notes-review-set=\"{{ . }}\" aria-pressed=\"false\" aria-label=\"{{ . }} - {{ $count }} cards\"\u003e"
           },
           {
             "lineNumber": 36,
@@ -3922,7 +3922,7 @@ Result:
           },
           {
             "lineNumber": 31,
-            "text": "            \u003cbutton type=\"button\" class=\"notes-filter is-active\" data-notes-filter=\"all\" aria-pressed=\"true\" aria-label=\"All — {{ $countAll }} notes\"\u003e"
+            "text": "            \u003cbutton type=\"button\" class=\"notes-filter is-active\" data-notes-filter=\"all\" aria-pressed=\"true\" aria-label=\"All - {{ $countAll }} notes\"\u003e"
           },
           {
             "lineNumber": 32,
@@ -4577,7 +4577,7 @@ Result:
           },
           {
             "lineNumber": 3,
-            "text": "  Not evergreen notes — exclude from lists, graph nodes, random pool, card sources, etc."
+            "text": "  Not evergreen notes - exclude from lists, graph nodes, random pool, card sources, etc."
           },
           {
             "lineNumber": 4,
@@ -5336,7 +5336,7 @@ New directional filters include inbound-only sinks and outbound-only broadcasts.
 
 _**Agent (auto-low)**_
 
-Yes — quite a few, and some are almost free because the graph already computes more than it exposes.
+Yes - quite a few, and some are almost free because the graph already computes more than it exposes.
 
 ## What you have now
 
@@ -5349,63 +5349,63 @@ The graph filters are **link-topology** filters built in `graph-data.html`:
 | **No body links** | zero outbound wikilinks in the body (See also excluded) |
 | **Orphans** | `inDegree === 0` |
 
-Each node already carries `inDegree`, `outDegree`, and `totalDegree` — those just aren’t filter buttons yet.
+Each node already carries `inDegree`, `outDegree`, and `totalDegree` - those just aren’t filter buttons yet.
 
 ---
 
 ## High-value additions (same graph data, small diff)
 
-**1. Isolated** — `totalDegree === 0`  
+**1. Isolated** - `totalDegree === 0`  
 Stricter than Orphans. A note can be an orphan but still link *out* to others. Isolated = completely disconnected.
 
-**2. Sinks / In-only** — `inDegree > 0` and `outDegree === 0`  
+**2. Sinks / In-only** - `inDegree > 0` and `outDegree === 0`  
 Notes people link *to* but that don’t link back. Good for finding “destination” notes vs MOCs that should link outward.
 
-**3. Broadcast / Out-only** — `inDegree === 0` and `outDegree > 0`  
-Orphans that still point somewhere — you’re linking out but nothing links in.
+**3. Broadcast / Out-only** - `inDegree === 0` and `outDegree > 0`  
+Orphans that still point somewhere - you’re linking out but nothing links in.
 
-**4. Middle** — not High and not Low  
+**4. Middle** - not High and not Low  
 You have 87 notes, 15 High + 31 Low = 46 tagged; ~41 are in the middle band. Useful if High/Low are the extremes you act on.
 
-**5. See-also-only** — links exist only in See also, none in body  
+**5. See-also-only** - links exist only in See also, none in body  
 Related to “No body links” but the inverse framing: “has links, but only in See also.” Needs a small flag in `graph-data.html` (you already split body vs full raw).
 
 ---
 
 ## Garden-maintenance filters (data exists elsewhere)
 
-**6. With issues** — from `collect-note-issues.html`  
+**6. With issues** - from `collect-note-issues.html`  
 Broken wikilinks, pipe links, or unlinked title mentions. Very actionable; overlaps with the Issues page but seeing them *on the graph* shows cluster gaps.
 
-**7. Stale** — from `note-meta.html` (`IsStale`, default 90 days)  
+**7. Stale** - from `note-meta.html` (`IsStale`, default 90 days)  
 Notes that haven’t been touched. Pair well with Low or Orphans for “what should I revisit?”
 
-**8. By status** — `seedling` / `evergreen` / `inbox` / `archived`  
+**8. By status** - `seedling` / `evergreen` / `inbox` / `archived`  
 Already on the notes list (`list.html`); mirroring on the graph would show whether seedlings cluster or stay disconnected.
 
-**9. Has flashcards** — `review: true` or cards in frontmatter  
+**9. Has flashcards** - `review: true` or cards in frontmatter  
 Study spine vs browse-only notes.
 
 ---
 
 ## Metadata / taxonomy filters (more UI, still feasible)
 
-**10. By tag** — PKM, Faith, Meta, etc.  
+**10. By tag** - PKM, Faith, Meta, etc.  
 Dropdown or chip group; many notes already carry tags. Good for “show me only the faith cluster.”
 
-**11. By category** — Productivity, Ideas, Tips  
+**11. By category** - Productivity, Ideas, Tips  
 Same idea, coarser grain.
 
-**12. Featured** — `featured: true`  
+**12. Featured** - `featured: true`  
 Small set, but useful if you curate spotlight notes.
 
 ---
 
 ## Harder / probably not worth it (ponytail says skip)
 
-- **Bridge nodes** (connect otherwise separate clusters) — needs betweenness centrality; heavy in Hugo templates.
-- **One-way vs reciprocal links** — per-edge analysis, not per-node; better as an Issues-style report.
-- **Component size / island size** — connected-component labeling at build time; doable but a lot of template code for rare use.
+- **Bridge nodes** (connect otherwise separate clusters) - needs betweenness centrality; heavy in Hugo templates.
+- **One-way vs reciprocal links** - per-edge analysis, not per-node; better as an Issues-style report.
+- **Component size / island size** - connected-component labeling at build time; doable but a lot of template code for rare use.
 
 ---
 
@@ -5422,12 +5422,12 @@ You already have **search** on the graph toolbar, which acts as a text filter. T
 
 If the goal is **garden hygiene** (your `graph-view-analytics` note):
 
-1. **Isolated** — catches true dead nodes Orphans misses  
-2. **With issues** — ties graph to maintenance  
-3. **Stale** — ties graph to review workflow  
-4. **Sinks** — finds over-referenced notes that don’t link back  
+1. **Isolated** - catches true dead nodes Orphans misses  
+2. **With issues** - ties graph to maintenance  
+3. **Stale** - ties graph to review workflow  
+4. **Sinks** - finds over-referenced notes that don’t link back  
 
-If you want one of these wired up, say which — Isolated + Stale is probably a ~30-line change across `graph-data.html`, `graph.html`, and `notes-graph.js`.
+If you want one of these wired up, say which - Isolated + Stale is probably a ~30-line change across `graph-data.html`, `graph.html`, and `notes-graph.js`.
 
 ---
 
@@ -5448,7 +5448,7 @@ Orphan and Isolated overlap completely. Every note has at least one inbound link
 
 _**Agent (auto-low)**_
 
-Here’s how your **current graph filters** line up against the **high-value** ones — what they cover, what they miss, and what your counts already tell you.
+Here’s how your **current graph filters** line up against the **high-value** ones - what they cover, what they miss, and what your counts already tell you.
 
 ## Current vs high-value (topology)
 
@@ -5463,7 +5463,7 @@ Here’s how your **current graph filters** line up against the **high-value** o
 | **Orphans** | No inbound links | Yes | 0 |
 | **Isolated** | No links in *or* out | No | Unknown (subset of orphan; 0 if orphans are 0) |
 | **Broadcast** | Outbound only, nothing links in | No | 0 if orphans are 0 |
-| **Sinks** | Inbound only, doesn’t link out | No | Unknown — **not covered today** |
+| **Sinks** | Inbound only, doesn’t link out | No | Unknown - **not covered today** |
 
 ### What your counts mean
 
@@ -5494,8 +5494,8 @@ So on **link shape**, you’re strong on **frequency** (high/low) and **two spec
 | **Orphans** | Entire left column (inbound = 0) |
 | **Isolated** | Top-left only (inbound = 0 **and** outbound = 0) |
 | **Broadcast** | Bottom-left (orphan **with** outbound links) |
-| **Sinks** | Top-right (inbound **but** no outbound) — **no filter today** |
-| **No body links** | Orthogonal — body outbound = 0 (can still have See also + inbound) |
+| **Sinks** | Top-right (inbound **but** no outbound) - **no filter today** |
+| **No body links** | Orthogonal - body outbound = 0 (can still have See also + inbound) |
 
 **Orphans** is the widest “inbound problem” filter. **Isolated** and **Broadcast** split it; **Sinks** is the mirror you don’t have at all.
 
@@ -5507,11 +5507,11 @@ These live on other pages today, not on the graph:
 
 | Lens | Notes list / Issues / Flashcards | Graph filters |
 |------|----------------------------------|---------------|
-| **Status** (seedling, evergreen, inbox, archived) | Yes — list page | No |
-| **Stale** (90+ days untouched) | Yes — list page | No |
-| **Issues** (broken, pipe, unlinked) | Yes — Issues page | No |
-| **Has flashcards** | Yes — Flashcards / Review | No |
-| **Search by title** | N/A | Yes — graph toolbar |
+| **Status** (seedling, evergreen, inbox, archived) | Yes - list page | No |
+| **Stale** (90+ days untouched) | Yes - list page | No |
+| **Issues** (broken, pipe, unlinked) | Yes - Issues page | No |
+| **Has flashcards** | Yes - Flashcards / Review | No |
+| **Search by title** | N/A | Yes - graph toolbar |
 
 The graph answers **“how is this wired?”** The list and Issues pages answer **“what needs work?”** High-value garden filters would **merge those views** so you see, e.g., stale seedlings in a weak corner of the map.
 
@@ -5525,22 +5525,22 @@ The graph answers **“how is this wired?”** The list and Issues pages answer 
 | **Inbound problems** | Orphans | Isolated, Broadcast (redundant while orphans = 0) |
 | **Outbound problems** | No body links | **Sinks** (in-only) |
 | **Body vs See also** | No body links | See-also-only (likely redundant while deadEnd = 0) |
-| **Maintenance** | — (other pages) | Issues, Stale, Status, Cards |
+| **Maintenance** | - (other pages) | Issues, Stale, Status, Cards |
 | **Discovery** | Search | Tags/categories (lower priority) |
 
 ---
 
 ## Practical takeaway
 
-**You already have** the two classic garden checks (orphans, no body links) and frequency extremes (high/low). With **0 orphans** and **0 no-body-links**, those filters are **healthy but idle** — they’re guardrails, not daily tools.
+**You already have** the two classic garden checks (orphans, no body links) and frequency extremes (high/low). With **0 orphans** and **0 no-body-links**, those filters are **healthy but idle** - they’re guardrails, not daily tools.
 
 **Highest gap for your current numbers:**
 
-1. **Middle** — names the ~41 notes that aren’t high or low  
-2. **Sinks** — new directional signal; orphans = 0 doesn’t mean outbound is balanced  
-3. **Stale / Issues / Status on the graph** — connects topology to “what should I fix?” (list/Issues already compute this)
+1. **Middle** - names the ~41 notes that aren’t high or low  
+2. **Sinks** - new directional signal; orphans = 0 doesn’t mean outbound is balanced  
+3. **Stale / Issues / Status on the graph** - connects topology to “what should I fix?” (list/Issues already compute this)
 
-**Lower priority right now:** Isolated, Broadcast, See-also-only — they mostly subdivide buckets that are already empty.
+**Lower priority right now:** Isolated, Broadcast, See-also-only - they mostly subdivide buckets that are already empty.
 
 If you want to add filters, I’d start with **Middle + Sinks** (pure graph data, small change), then **Stale** or **With issues** (one join to existing partials). Want that scoped as a minimal diff?
 
@@ -5561,34 +5561,34 @@ Ranking filters by actionability, current signal, and implementation cost. Their
 
 _**Agent (auto-low)**_
 
-Here’s a single ranked list — **current and proposed** — for your garden **as it is now** (87 notes, 0 orphans, 0 no-body-links, ~41 unlabeled middle notes).
+Here’s a single ranked list - **current and proposed** - for your garden **as it is now** (87 notes, 0 orphans, 0 no-body-links, ~41 unlabeled middle notes).
 
-## Tier 1 — Use often / add first
+## Tier 1 - Use often / add first
 
 | Rank | Filter | Why |
 |------|--------|-----|
 | **1** | **All** | Baseline; keep. |
-| **2** | **High** | 15 notes — your hubs/MOCs. Where the garden organizes itself. |
-| **3** | **Low** | 31 notes — clearest “link more” queue after extremes. |
+| **2** | **High** | 15 notes - your hubs/MOCs. Where the garden organizes itself. |
+| **3** | **Low** | 31 notes - clearest “link more” queue after extremes. |
 | **4** | **Middle** *(new)* | ~41 notes with no name today. Fills the biggest blind spot between High and Low. |
 | **5** | **Search** | Already on the graph; not a chip, but the filter you’ll actually reach for daily. |
 
-## Tier 2 — High value, different job
+## Tier 2 - High value, different job
 
 | Rank | Filter | Why |
 |------|--------|-----|
 | **6** | **Stale** *(new)* | List page has it; graph doesn’t. “Old + weak/low” is a strong revisit list. |
 | **7** | **With issues** *(new)* | Issues page has it; graph doesn’t. Shows *where* broken/unlinked notes sit in the map. |
-| **8** | **Sinks** *(new)* | In-only notes (referenced, don’t link out). Orphans=0 doesn’t catch this — only new directional signal worth adding. |
+| **8** | **Sinks** *(new)* | In-only notes (referenced, don’t link out). Orphans=0 doesn’t catch this - only new directional signal worth adding. |
 
-## Tier 3 — Guardrails (keep, low daily use *for you*)
+## Tier 3 - Guardrails (keep, low daily use *for you*)
 
 | Rank | Filter | Why |
 |------|--------|-----|
-| **9** | **Orphans** | Classic garden check. **0 today** — healthy, but keep for regression. |
-| **10** | **No body links** | Same — **0 today**, still worth keeping as a lint-style filter. |
+| **9** | **Orphans** | Classic garden check. **0 today** - healthy, but keep for regression. |
+| **10** | **No body links** | Same - **0 today**, still worth keeping as a lint-style filter. |
 
-## Tier 4 — Nice overlap, add only if you want more chips
+## Tier 4 - Nice overlap, add only if you want more chips
 
 | Rank | Filter | Why |
 |------|--------|-----|
@@ -5598,7 +5598,7 @@ Here’s a single ranked list — **current and proposed** — for your garden *
 | **14** | **Isolated** *(new)* | Strict orphan (no in, no out). **Redundant while orphans = 0.** |
 | **15** | **See-also-only** *(new)* | Body vs See also split. **Redundant while no-body-links = 0.** |
 
-## Tier 5 — Skip unless you’re bored
+## Tier 5 - Skip unless you’re bored
 
 | Rank | Filter | Why |
 |------|--------|-----|
@@ -5610,9 +5610,9 @@ Here’s a single ranked list — **current and proposed** — for your garden *
 
 ## If you only add three
 
-1. **Middle** — names ~41 notes  
-2. **Stale** — maintenance × topology  
-3. **Sinks** — the one directional gap you don’t have  
+1. **Middle** - names ~41 notes  
+2. **Stale** - maintenance × topology  
+3. **Sinks** - the one directional gap you don’t have  
 
 Keep **Orphans** and **No body links** as silent guardrails even when they read **0**.
 

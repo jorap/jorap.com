@@ -659,11 +659,11 @@ jorap.com uses blog-style taxonomies and search rather than a note graph. It is 
 
 _**Agent (default)**_
 
-**Short answer:** `jorap.com` is not very close to Obsidian. It’s the *published* side of your stack — more like a blog or Obsidian Publish than a vault. The part of your system that actually plays the Obsidian role is [ideas.jorap.com](https://ideas.jorap.com/) (TiddlyWiki), and even that is only partly similar.
+**Short answer:** `jorap.com` is not very close to Obsidian. It’s the *published* side of your stack - more like a blog or Obsidian Publish than a vault. The part of your system that actually plays the Obsidian role is [ideas.jorap.com](https://ideas.jorap.com/) (TiddlyWiki), and even that is only partly similar.
 
 ## What Obsidian is
 
-Obsidian is a **private PKM app**: local Markdown vault, `[[wiki links]]`, backlinks, graph view, daily notes, plugins, fast capture, and linking between atomic notes. Publishing (Obsidian Publish) is optional — the vault is the product.
+Obsidian is a **private PKM app**: local Markdown vault, `[[wiki links]]`, backlinks, graph view, daily notes, plugins, fast capture, and linking between atomic notes. Publishing (Obsidian Publish) is optional - the vault is the product.
 
 ## What this site actually is
 
@@ -671,17 +671,17 @@ This repo is **JoRap Notes**: a Hugo static blog and portfolio. From your own dr
 
 > capture in TiddlyWiki → draft in Markdown → push to Hugo
 
-So `jorap.com` is the **Express** step in CODE — finished posts for readers and search engines, not a thinking workspace.
+So `jorap.com` is the **Express** step in CODE - finished posts for readers and search engines, not a thinking workspace.
 
 | Capability | Obsidian | jorap.com (this repo) |
 |---|---|---|
 | Primary job | Think, link, capture | Publish blog posts |
 | Note granularity | Many small linked notes | Long-form articles |
-| `[[wiki links]]` | Core feature | No — standard `[links](url)` |
+| `[[wiki links]]` | Core feature | No - standard `[links](url)` |
 | Backlinks panel | Yes | No |
 | Graph view | Yes | No |
 | Daily notes / inbox | Yes | No |
-| Private drafting | Default | No — public site |
+| Private drafting | Default | No - public site |
 | Live editing | In-app | Edit Markdown → git push → rebuild |
 | Linking model | Bidirectional, emergent | Tags, categories, related posts, manual links |
 | Search | Vault-wide | Blog search (Fuse module, `blog` section only) |
@@ -701,13 +701,13 @@ That’s the closer comparison:
 | Privacy | Private by default | Can be semi-private | Public |
 | Publish path | Obsidian Publish (paid) or export | Static HTML on Cloudflare | Hugo → Cloudflare Pages |
 
-Several draft posts even end with *“Expanded from [ideas.jorap.com](https://ideas.jorap.com/)”* — which is exactly the Obsidian → blog pipeline, except the vault is TiddlyWiki, not Obsidian.
+Several draft posts even end with *“Expanded from [ideas.jorap.com](https://ideas.jorap.com/)”* - which is exactly the Obsidian → blog pipeline, except the vault is TiddlyWiki, not Obsidian.
 
 ## The honest distance
 
-- **jorap.com vs Obsidian:** maybe **15–20%** similar — shared Markdown/Git/static ethos, but none of the PKM mechanics.
-- **jorap.com vs Obsidian Publish:** maybe **50–60%** — both are static published Markdown sites with navigation and search.
-- **Your full stack (ideas + jorap) vs Obsidian workflow:** maybe **70%** philosophically — capture → connect → express — but implemented with TiddlyWiki + Hugo instead of one Obsidian vault.
+- **jorap.com vs Obsidian:** maybe **15–20%** similar - shared Markdown/Git/static ethos, but none of the PKM mechanics.
+- **jorap.com vs Obsidian Publish:** maybe **50–60%** - both are static published Markdown sites with navigation and search.
+- **Your full stack (ideas + jorap) vs Obsidian workflow:** maybe **70%** philosophically - capture → connect → express - but implemented with TiddlyWiki + Hugo instead of one Obsidian vault.
 
 ## If you wanted jorap.com to feel more Obsidian-like
 
@@ -721,16 +721,16 @@ That would mean adding vault features to a blog, which is a different product:
 
 Right now you’ve split those concerns on purpose: **ideas.jorap.com for thinking**, **jorap.com for shipping**.
 
-If you meant “how close is my whole setup to Obsidian?” vs “just this Hugo site?”, say which — the answer changes quite a bit.
+If you meant “how close is my whole setup to Obsidian?” vs “just this Hugo site?”, say which - the answer changes quite a bit.
 
 ---
 
 _**User**_
 
 The honest distance
-jorap.com vs Obsidian: maybe 15–20% similar — shared Markdown/Git/static ethos, but none of the PKM mechanics.
-jorap.com vs Obsidian Publish: maybe 50–60% — both are static published Markdown sites with navigation and search.
-Your full stack (ideas + jorap) vs Obsidian workflow: maybe 70% philosophically — capture → connect → express — but implemented with TiddlyWiki + Hugo instead of one Obsidian vault.
+jorap.com vs Obsidian: maybe 15–20% similar - shared Markdown/Git/static ethos, but none of the PKM mechanics.
+jorap.com vs Obsidian Publish: maybe 50–60% - both are static published Markdown sites with navigation and search.
+Your full stack (ideas + jorap) vs Obsidian workflow: maybe 70% philosophically - capture → connect → express - but implemented with TiddlyWiki + Hugo instead of one Obsidian vault.
 
 explain functionalities that need to be added
 
@@ -746,7 +746,7 @@ I am mapping Obsidian's specific capabilities against the jorap stack. The site 
 
 _**Agent (default)**_
 
-Here’s a concrete breakdown of what you’d need to add at each “distance” level — and where each piece would live.
+Here’s a concrete breakdown of what you’d need to add at each “distance” level - and where each piece would live.
 
 ---
 
@@ -777,7 +777,7 @@ Obsidian Publish is still a **reader-facing site**, not a vault. You’re closer
 | **Embeds & transclusion** | Pull one note into another | Medium | Shortcode `{{< ref "other-post" >}}` or include partials |
 | **Custom publish theme per section** | Wiki feel vs blog feel | Low–medium | Separate layouts for `blog` vs `notes` |
 
-**Publish parity is mostly Hugo work** — no database, no app. Backlinks and wiki links are the two that make it *feel* like a published vault.
+**Publish parity is mostly Hugo work** - no database, no app. Backlinks and wiki links are the two that make it *feel* like a published vault.
 
 ---
 
@@ -803,7 +803,7 @@ Full Obsidian is a **private thinking environment**. Putting all of this on `jor
 | **Aliases** | `[[Note\|alias]]` / YAML `aliases` | Front matter `aliases` + link resolver | Low–medium |
 | **Canvas / whiteboard** | Visual boards | Separate tool or embedded JSON | Out of scope for typical blog |
 
-**Bottom line:** Closing the gap to *full* Obsidian on `jorap.com` means **adding a notes layer + wiki linking + backlinks + graph**, plus **an editor workflow** Hugo can’t provide. Most people don’t put the whole vault on the public site — they keep that local or on ideas.jorap.com.
+**Bottom line:** Closing the gap to *full* Obsidian on `jorap.com` means **adding a notes layer + wiki linking + backlinks + graph**, plus **an editor workflow** Hugo can’t provide. Most people don’t put the whole vault on the public site - they keep that local or on ideas.jorap.com.
 
 ---
 
@@ -829,7 +829,7 @@ Philosophically you already have **Capture → Connect → Express**. Missing pi
 | **Idea → post pipeline** | Script: “promote tiddler” → creates `content/english/blog/draft-*.md` with front matter + backlinks to source tiddler |
 | **Provenance** | Front matter `source: ideas.jorap.com/...` (you already do this manually in footers) |
 | **Shared taxonomy** | Same tag list in TW and Hugo (YAML or JSON manifest) |
-| **Don’t publish twice** | TW = canonical messy notes; jorap = polished only — document the rule |
+| **Don’t publish twice** | TW = canonical messy notes; jorap = polished only - document the rule |
 
 ### On jorap.com (express)
 
@@ -845,10 +845,10 @@ Philosophically you already have **Capture → Connect → Express**. Missing pi
 
 **High impact, reasonable effort**
 
-1. **Wiki links + backlink partial** on Hugo — biggest “published Obsidian” win  
-2. **Aliases in front matter** — fewer broken links when titles change  
-3. **TW → Markdown export script** — one vault language, less copy-paste  
-4. **MOC / topic hub pages** — manual “maps of content” for clusters (Second Brain, hosting, etc.)
+1. **Wiki links + backlink partial** on Hugo - biggest “published Obsidian” win  
+2. **Aliases in front matter** - fewer broken links when titles change  
+3. **TW → Markdown export script** - one vault language, less copy-paste  
+4. **MOC / topic hub pages** - manual “maps of content” for clusters (Second Brain, hosting, etc.)
 
 **Medium (nice polish)**
 
@@ -858,11 +858,11 @@ Philosophically you already have **Capture → Connect → Express**. Missing pi
 
 **Low priority unless you abandon TW**
 
-8. Block references, canvas, plugin ecosystem — Obsidian-specific; poor ROI on Hugo  
+8. Block references, canvas, plugin ecosystem - Obsidian-specific; poor ROI on Hugo  
 
 **Don’t put on jorap.com**
 
-9. Private drafts, daily inbox, live editing — keep on ideas.jorap.com or local editor  
+9. Private drafts, daily inbox, live editing - keep on ideas.jorap.com or local editor  
 
 ---
 
@@ -901,9 +901,9 @@ That gets you from **~55% → ~85%** of Obsidian Publish without turning the sit
 | Target | Main additions |
 |---|---|
 | **vs Obsidian Publish** | Wiki links, backlinks, MOCs, maybe graph + notes section |
-| **vs full Obsidian** | All of the above **plus** atomic notes at scale, block refs, live editor, plugins — mostly **wrong layer** for a public Hugo site |
-| **vs Obsidian workflow (ideas + jorap)** | TW→Markdown export, shared tags/links, promote-tiddler script, provenance — **glue**, not new site features |
+| **vs full Obsidian** | All of the above **plus** atomic notes at scale, block refs, live editor, plugins - mostly **wrong layer** for a public Hugo site |
+| **vs Obsidian workflow (ideas + jorap)** | TW→Markdown export, shared tags/links, promote-tiddler script, provenance - **glue**, not new site features |
 
 The honest split: **ideas.jorap.com** should stay the vault; **jorap.com** should gain **linking and discovery** so the published layer feels like a connected garden, not a pile of unrelated articles.
 
-If you want to implement this, the usual first step is wiki links + backlinks in Hugo — say if you want that scoped to `blog/` only or a new `notes/` section too.
+If you want to implement this, the usual first step is wiki links + backlinks in Hugo - say if you want that scoped to `blog/` only or a new `notes/` section too.

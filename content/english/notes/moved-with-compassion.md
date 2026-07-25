@@ -49,17 +49,17 @@ featured: false
 review: true
 card_sets: ["Jesus Rhythms", "Gospel", "Faith"]
 cards:
-  - front: "Deep work blocked, neighbor knocked shaken. What bends first?"
+  - front: "Deep work blocked, neighbor knocked shaken - door still closed."
     back: "Compassion bends - help now."
-  - front: "Walked past the hurting kid because I was busy. His leper move?"
+  - front: "Walked past the hurting kid because I was busy - kept walking."
     back: "Moved first - then touched."
-  - front: "Schedule full, someone harassed and helpless. What interrupted?"
-    back: "Compassion - not the calendar."
-  - front: "Throughput over the person in front. Copy His gut reflex?"
-    back: "Moved with compassion - bend."
-  - front: "Neighbor can wait until Friday. What did crowds trigger in Him?"
-    back: "Compassion - serve now."
-  - front: "Policy says not my problem. His Matthew 9:36 move?"
+  - front: "Schedule full, someone harassed and helpless - calendar winning."
+    back: "Compassion interrupts - not the calendar."
+  - front: "Throughput over the person in front - optimizing the plan."
+    back: "Moved with compassion - bend the schedule."
+  - front: "Neighbor can wait until Friday - blocked afternoon feels sacred."
+    back: "Serve now - compassion moves first."
+  - front: "Policy says not my problem - crowd looks harassed and helpless."
     back: "See them - move, then serve."
 draft: false
 ---

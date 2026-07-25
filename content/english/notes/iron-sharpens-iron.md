@@ -47,6 +47,20 @@ author: "JoRap"
 tags: ["Gospel", "Eternal Principles", "Community", "Discipleship"]
 aliases: ["iron sharpens iron", "Proverbs 27:17"]
 featured: false
-review: false
+review: true
+card_sets: ["Eternal Principles", "Gospel", "Discipleship"]
+cards:
+  - front: "Brother asked if temper matched Bible reading - sting that night."
+    back: "Stay in the friction - love sharpens."
+  - front: "Small group friend pushed on spending story after I bragged."
+    back: "Receive the push - iron, not jealousy."
+  - front: "Flattery from church friends - still dull on the real sin."
+    back: "Invite hard follow-up - not safe praise."
+  - front: "Avoiding the friend who asks the uncomfortable question."
+    back: "Schedule sharpening contact - friction is the point."
+  - front: "Tempted cruel correction disguised as honesty."
+    back: "Truth in love - sharpen, don't shred."
+  - front: "Sharpening feels like earning favor this week - wrong order?"
+    back: "Already accepted - sharpen as fruit."
 draft: false
 ---

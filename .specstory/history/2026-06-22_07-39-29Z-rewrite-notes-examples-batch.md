@@ -754,10 +754,10 @@ _**Agent (default)**_
 | `slow-productivity.md` | Home | Blog projects → home projects / kids' bookcase |
 | `situational-control.md` | Home with Children | Work negotiation → kitchen argument past bedtime |
 
-## Skipped — already compliant (25)
+## Skipped - already compliant (25)
 
 `abide-in-me.md`, `ask-seek-knock.md`, `by-their-fruits.md`, `childlike-faith.md`, `discipleship.md`, `dont-worry.md`, `eternal-rewards.md`, `forgiveness.md`, `heart-righteousness.md`, `humility-and-service.md`, `love-god.md`, `love-your-enemies.md`, `love-your-neighbor.md`, `peacemakers.md`, `render-unto-caesar.md`, `repent-and-believe.md`, `reconciliation-before-worship.md`, `secret-devotion.md`, `self-control.md`, `slow-the-moment.md`, `take-up-your-cross.md`, `the-golden-rule.md`, `the-narrow-way.md`, `the-wise-builder.md`, `treasure-in-heaven.md`
 
 ## Not found
 
-`repentance-and-believe.md` — no file in the repo (only `repent-and-believe.md`, which was skipped).
+`repentance-and-believe.md` - no file in the repo (only `repent-and-believe.md`, which was skipped).

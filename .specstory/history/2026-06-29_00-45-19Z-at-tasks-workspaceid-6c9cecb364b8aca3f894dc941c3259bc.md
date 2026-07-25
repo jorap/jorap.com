@@ -176,9 +176,9 @@ Two issues in that output:
 The second task in `.vscode/tasks.json` had no `label`, which VS Code/Cursor requires. I added `"label": "Watch"` and switched the command from `npm run watch` to `pnpm run watch` so it matches the rest of the file and your `packageManager` field.
 
 **2. `package.json` parse error (likely unrelated)**  
-`package.json` is valid JSON — Node, `npm`, and `pnpm` all parse it fine. That message usually comes from VS Code’s npm script auto-detection, not from your manual tasks. It may clear after a window reload; if it sticks, it’s often harmless since your tasks are defined explicitly in `tasks.json`.
+`package.json` is valid JSON - Node, `npm`, and `pnpm` all parse it fine. That message usually comes from VS Code’s npm script auto-detection, not from your manual tasks. It may clear after a window reload; if it sticks, it’s often harmless since your tasks are defined explicitly in `tasks.json`.
 
-Reload the window (**Developer: Reload Window**) and try **Tasks: Run Build Task** again — the Watch task should show up now.
+Reload the window (**Developer: Reload Window**) and try **Tasks: Run Build Task** again - the Watch task should show up now.
 
 ---
 
@@ -309,7 +309,7 @@ non-ascii at 55 0xe2
 _**Agent (default)**_
 
 <think><details><summary>Thought Process</summary>
-The em dash in "JoRap Notes — personal blog" is causing a JSON parsing error.
+The em dash in "JoRap Notes - personal blog" is causing a JSON parsing error.
 
 VS Code's npm extension likely uses strict validation that rejects the UTF-8 em dash. Disabling automatic npm task detection in VS Code settings may resolve the issue, since this project uses pnpm with explicit tasks.
 </details></think>
@@ -521,7 +521,7 @@ readScripts uses jsonc-parser and tolerates errors.
 
 _**Agent (default)**_
 
-`package.json` is valid — VS Code mislabels failures opening the file as parse errors. Disabling npm auto-detection since we already define tasks explicitly and use pnpm.
+`package.json` is valid - VS Code mislabels failures opening the file as parse errors. Disabling npm auto-detection since we already define tasks explicitly and use pnpm.
 
 
 _**Agent (default)**_
@@ -533,9 +533,9 @@ _**Agent (default)**_
 
 _**Agent (default)**_
 
-Your `package.json` is fine — this is a misleading error from VS Code/Cursor’s npm task scanner.
+Your `package.json` is fine - this is a misleading error from VS Code/Cursor’s npm task scanner.
 
-In the upstream npm extension, **any** failure to open the file via `openTextDocument()` gets reported as “failed to parse,” even when the JSON is valid. Common triggers include race conditions during file reads, extension conflicts, or Cursor-specific quirks — not actual syntax errors.
+In the upstream npm extension, **any** failure to open the file via `openTextDocument()` gets reported as “failed to parse,” even when the JSON is valid. Common triggers include race conditions during file reads, extension conflicts, or Cursor-specific quirks - not actual syntax errors.
 
 Since this repo already has explicit tasks in `.vscode/tasks.json` and uses pnpm, I disabled npm auto-detection in workspace settings:
 
@@ -546,4 +546,4 @@ Since this repo already has explicit tasks in `.vscode/tasks.json` and uses pnpm
 
 Reload the window (**Developer: Reload Window**) and the error should stop. Your manual tasks (Dev, Watch, Preview production build) are unaffected.
 
-If it still appears after reload, add `"task.autoDetect": "off"` to the same settings file — that’s the stronger workaround some Cursor users need when `npm.autoDetect` alone isn’t enough.
+If it still appears after reload, add `"task.autoDetect": "off"` to the same settings file - that’s the stronger workaround some Cursor users need when `npm.autoDetect` alone isn’t enough.

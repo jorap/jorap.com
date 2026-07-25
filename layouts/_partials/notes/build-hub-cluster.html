@@ -23,7 +23,7 @@
   (printf "# Hub + %d linked notes (direct wikilinks only)" (len $linked))
 -}}
 {{- if $truncated -}}
-  {{- $lines = $lines | append (printf "# ponytail: truncated at %d links — copy individual notes or raise cap in build-hub-cluster.html" $cap) -}}
+  {{- $lines = $lines | append (printf "# ponytail: truncated at %d links - copy individual notes or raise cap in build-hub-cluster.html" $cap) -}}
 {{- end -}}
 {{- $lines = $lines | append "" -}}
 {{- $lines = $lines | append (printf "<!-- file: %s -->" $hubPath) -}}

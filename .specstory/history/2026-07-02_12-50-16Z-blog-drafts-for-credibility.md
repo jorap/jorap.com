@@ -609,7 +609,7 @@ Voice lint OK
 
 _**Agent (auto-low)**_
 
-Created **three draft posts** aimed at potential clients — judgment, transparency, and follow-through, not stack trivia.
+Created **three draft posts** aimed at potential clients - judgment, transparency, and follow-through, not stack trivia.
 
 | Draft file | Publish slug | Angle |
 |---|---|---|
@@ -628,9 +628,9 @@ Each draft:
 
 **To publish one:** drop the `__` prefix, set `draft: false`, remove `slug` if it matches the filename.
 
-You already have `__drupal-to-wordpress.md` as a draft showing CMS breadth — pairs well with the scope post when you want technical depth without leading with it.
+You already have `__drupal-to-wordpress.md` as a draft showing CMS breadth - pairs well with the scope post when you want technical depth without leading with it.
 
-Want a fourth draft — e.g. end-to-end “what working with me looks like” — or hero images for these before publish?
+Want a fourth draft - e.g. end-to-end “what working with me looks like” - or hero images for these before publish?
 
 ---
 
@@ -1002,16 +1002,16 @@ Reframed the client-facing content. The pitch is now **clear line items and lean
 | `$0 Cloudflare means $0 forever` | Hosting line doesn't cover unlimited content changes |
 
 **Files updated**
-- `__selling-static-sites.md` — biggest rewrite (title, TL;DR, hosting section, quote table, closing)
-- `__static-site-client-scope.md` — one line ("lean static stack")
-- `__client-site-handoff.md` — retainer vs hosting distinction
-- `selling-static-sites.md` note — description, key concept, example, flashcard
-- `static-site-client-scope.md` note — meta title and relationship reason
+- `__selling-static-sites.md` - biggest rewrite (title, TL;DR, hosting section, quote table, closing)
+- `__static-site-client-scope.md` - one line ("lean static stack")
+- `__client-site-handoff.md` - retainer vs hosting distinction
+- `selling-static-sites.md` note - description, key concept, example, flashcard
+- `static-site-client-scope.md` note - meta title and relationship reason
 
 **Left alone**
-- `free-tier-hosting-stack.md` — internal notes-garden reference for your own limits and upgrade paths, not client copy
-- `how-i-built-jorap-notes.md` — personal story about your own site, not client positioning
+- `free-tier-hosting-stack.md` - internal notes-garden reference for your own limits and upgrade paths, not client copy
+- `how-i-built-jorap-notes.md` - personal story about your own site, not client positioning
 
-**New positioning in one line:** charge for build and handoff, price hosting honestly as a visible line item, and compete on clarity — not on revealing that the stack runs cheap.
+**New positioning in one line:** charge for build and handoff, price hosting honestly as a visible line item, and compete on clarity - not on revealing that the stack runs cheap.
 
 If you want this consistent everywhere, the next pass would be `how-i-built-jorap-notes.md` and any about/services page copy. Say if you want that.

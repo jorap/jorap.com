@@ -1544,11 +1544,11 @@ Result:
           },
           {
             "lineNumber": 6,
-            "text": "random_blog_note_lede: One garden note picked at random — shuffle for a new pairing with this post."
+            "text": "random_blog_note_lede: One garden note picked at random - shuffle for a new pairing with this post."
           },
           {
             "lineNumber": 7,
-            "text": "random_note_lede: One garden note picked at random — shuffle for a new pairing with this note."
+            "text": "random_note_lede: One garden note picked at random - shuffle for a new pairing with this note."
           },
           {
             "lineNumber": 8,
@@ -1616,7 +1616,7 @@ Result:
           },
           {
             "lineNumber": 24,
-            "text": "prompt_copied_for_ai: Copied — paste in chat"
+            "text": "prompt_copied_for_ai: Copied - paste in chat"
           },
           {
             "lineNumber": 25,
@@ -1715,7 +1715,7 @@ Result:
           },
           {
             "lineNumber": 56,
-            "text": "    copiedLabel: \"Copied — paste in chat\","
+            "text": "    copiedLabel: \"Copied - paste in chat\","
           },
           {
             "lineNumber": 57,
@@ -2686,7 +2686,7 @@ Result:
           },
           {
             "lineNumber": 34,
-            "text": "  var aiChatCopiedLabel = \"Copied — paste in chat\";"
+            "text": "  var aiChatCopiedLabel = \"Copied - paste in chat\";"
           },
           {
             "lineNumber": 35
@@ -3212,7 +3212,7 @@ Result:
           },
           {
             "lineNumber": 2,
-            "text": "  Random garden note — blog posts (scope blog) or note pages (scope notes)."
+            "text": "  Random garden note - blog posts (scope blog) or note pages (scope notes)."
           },
           {
             "lineNumber": 3,
@@ -5068,15 +5068,15 @@ _**Agent (default)**_
 Repositioned the shuffle controls:
 
 **Random Duo** (`/notes/random-duo/`)
-- **Shuffle both** — to the right of the shortest-path row (always visible; path box still toggles)
-- **Shuffle left** — to the right of the left note dropdown
-- **Shuffle right** — to the right of the right note dropdown
+- **Shuffle both** - to the right of the shortest-path row (always visible; path box still toggles)
+- **Shuffle left** - to the right of the left note dropdown
+- **Shuffle right** - to the right of the right note dropdown
 - Removed the old top toolbar with all three buttons
 
 **Random Note** (blog posts + note pages)
-- **Shuffle** — to the right of the note dropdown (removed from the section heading row)
+- **Shuffle** - to the right of the note dropdown (removed from the section heading row)
 
-Added `.notes-random-controls` so each dropdown + shuffle button sits on one row. JS is unchanged — same `data-*` attributes.
+Added `.notes-random-controls` so each dropdown + shuffle button sits on one row. JS is unchanged - same `data-*` attributes.
 
 ---
 
@@ -5443,10 +5443,10 @@ _**Agent (default)**_
 
 Aligned the dropdown and shuffle controls on one row with matching heights:
 
-- **Same row** — `flex-wrap: nowrap` keeps select + button side by side
-- **Same height** — both use `height` and `min-height: var(--touch-target-min)` (2.75rem), matching `btn-sm`
-- **Matching padding** — select uses `padding-block: var(--btn-py)` so vertical spacing matches the button
-- **Stretch alignment** — `align-items: stretch` so both fill the row height evenly
+- **Same row** - `flex-wrap: nowrap` keeps select + button side by side
+- **Same height** - both use `height` and `min-height: var(--touch-target-min)` (2.75rem), matching `btn-sm`
+- **Matching padding** - select uses `padding-block: var(--btn-py)` so vertical spacing matches the button
+- **Stretch alignment** - `align-items: stretch` so both fill the row height evenly
 
 Also dropped `mb-3 w-full` from the select partial; layout is handled by `.notes-random-controls` now.
 
@@ -5637,7 +5637,7 @@ Word shuffle is sensible. Buttons are contextually placed. Use aria-label with l
 
 _**Agent (default)**_
 
-Yes — with buttons beside each control, "Shuffle" is enough; position carries the meaning. Using `aria-label` for screen readers. Applying the change.
+Yes - with buttons beside each control, "Shuffle" is enough; position carries the meaning. Using `aria-label` for screen readers. Applying the change.
 
 
 _**Agent (default)**_
@@ -5687,9 +5687,9 @@ _**Agent (default)**_
 
 _**Agent (default)**_
 
-Yes — especially after moving the buttons next to what they control.
+Yes - especially after moving the buttons next to what they control.
 
-- **Random Note:** already says "Shuffle" — no change needed
+- **Random Note:** already says "Shuffle" - no change needed
 - **Random Duo:** three "Shuffle" buttons work because each sits beside its target (path row, left dropdown, right dropdown)
 - **Lede still explains the behavior:** "Shuffle both, or lock one side and shuffle the other"
 - **Accessibility:** visible label is "Shuffle"; `aria-label` keeps "Shuffle both", "Shuffle left", "Shuffle right" for screen readers
@@ -6095,10 +6095,10 @@ _**Agent (default)**_
 
 Shortest path row is now compact and aligned with the Shuffle button:
 
-- **Height** — path box, empty message, and button all use `2.75rem` (same as `btn-sm`)
-- **Padding** — dropped `p-5`; horizontal padding only (`0.75rem`)
-- **Typography** — label and chain at `0.875rem`, single line
-- **Long paths** — chain scrolls horizontally instead of wrapping taller
+- **Height** - path box, empty message, and button all use `2.75rem` (same as `btn-sm`)
+- **Padding** - dropped `p-5`; horizontal padding only (`0.75rem`)
+- **Typography** - label and chain at `0.875rem`, single line
+- **Long paths** - chain scrolls horizontally instead of wrapping taller
 
 The path row and Shuffle button should read as one toolbar now.
 
@@ -6385,11 +6385,11 @@ _**Agent (default)**_
 
 Fixed three issues in that toolbar:
 
-1. **Missing border** — the compact refactor dropped the `border` class; only `border-divider` (color) remained. The path box now has `border: 1px solid var(--color-divider)`.
+1. **Missing border** - the compact refactor dropped the `border` class; only `border-divider` (color) remained. The path box now has `border: 1px solid var(--color-divider)`.
 
-2. **Long paths breaking the row** — four links were stretching the box instead of scrolling. The path result uses `overflow: hidden`, the chain scrolls horizontally, and links stay `flex-shrink: 0` so the row stays one line at button height.
+2. **Long paths breaking the row** - four links were stretching the box instead of scrolling. The path result uses `overflow: hidden`, the chain scrolls horizontally, and links stay `flex-shrink: 0` so the row stays one line at button height.
 
-3. **Label copy** — "A shortest path:" → **"Shortest path:"**
+3. **Label copy** - "A shortest path:" → **"Shortest path:"**
 
 The path box and Shuffle button should now stay on one row at the same height, with long paths scrolling inside the box.
 

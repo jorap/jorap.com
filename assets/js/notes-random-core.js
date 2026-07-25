@@ -165,7 +165,7 @@
       "- Atomic (one claim per note title or relationship row)",
       "- Multi-scale (immediate move → short experiment → longer habit)",
       "",
-      "Topics span PKM, gospel, ethics, and systems — not workflow-only.",
+      "Topics span PKM, gospel, ethics, and systems - not workflow-only.",
       "Avoid abstract theory unless tied to a move I'd make this week.",
       "",
       "Voice: plain words, first person where natural, specific scenes. No AI filler (\"crucial\", \"delve\", \"leverage\", \"Furthermore\"). Read like JoRap typed it mid-life.",
@@ -221,7 +221,7 @@
       "---",
       "",
       "### 7. 3 Quotable One-Liners",
-      "Self-contained truths I'd say aloud — paradox, tension, or practical shift. No hashtags, no thread setup.",
+      "Self-contained truths I'd say aloud - paradox, tension, or practical shift. No hashtags, no thread setup.",
       "",
       "---",
       "",
@@ -230,8 +230,8 @@
       "- Prefer usefulness over creativity",
       "- If uncertain, default to a simpler action or experiment",
       "- Every insight must connect to at least one action or relationship row",
-      "- New note stubs use frontmatter shape (empty body) — not body ## sections",
-      "- Do not [[wikilink]] utility/meta pages (Graph, Issues, Flashcards, Review) — use URLs",
+      "- New note stubs use frontmatter shape (empty body) - not body ## sections",
+      "- Do not [[wikilink]] utility/meta pages (Graph, Issues, Flashcards, Review) - use URLs",
       "- Keep outputs minimal but high-signal",
     ];
   }

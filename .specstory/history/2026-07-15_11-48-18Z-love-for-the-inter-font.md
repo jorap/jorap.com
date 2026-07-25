@@ -1038,7 +1038,7 @@ I corrected a typo in the book's author names. The correct authors are Adam Wath
 
 _**Agent (auto-low)**_
 
-Fixing the author name — it's Adam Wathan, not Whelan.
+Fixing the author name - it's Adam Wathan, not Whelan.
 
 
 _**Agent (auto-low)**_
@@ -1065,7 +1065,7 @@ _**Agent (auto-low)**_
 
 Rewrote the opening around your actual path:
 
-- **Discovery via *Refactoring UI*** — you weren't font-shopping; you were learning UI and Inter showed up as a practical default
+- **Discovery via *Refactoring UI*** - you weren't font-shopping; you were learning UI and Inter showed up as a practical default
 - **"What pulled me in first"** now ties back to the book (readable while fixing buttons/cards/forms), not generic ubiquity
 - Softened other invented history (two-font past sites, "stop font-shopping" closer)
 - Fixed author name to **Adam Wathan** and Steve Schoger

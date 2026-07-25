@@ -48,5 +48,9 @@ cards:
     back: "Find them at a traffic stop."
   - front: "Gear bin says balls, first aid, outgrown. Same rule as home?"
     back: "Plain words - not a second job of tags."
+  - front: "Added a twelfth tag - still can't find the note in review."
+    back: "Fewer tags - one project, one status."
+  - front: "Search failed - title says everything, frontmatter empty."
+    back: "One description line - metadata earns the find."
 draft: false
 ---

@@ -16,7 +16,7 @@ Key principles to use (short list)
 
 Purpose & Vision: A clear, compelling outcome or direction anchors choices and keeps effort focused.
 
-Self‑awareness & Acceptance: Honest appraisal of current reality—strengths, gaps, limits—so change targets are realistic.
+Self‑awareness & Acceptance: Honest appraisal of current reality-strengths, gaps, limits-so change targets are realistic.
 
 Ownership & Responsibility: People take charge of their part in change rather than waiting for fixes to be handed down.
 
@@ -755,7 +755,7 @@ _**Agent (auto-low)**_
 Created **5 notes** from your transformation framework:
 
 ### Hub
-- **[Transformation Principles](content/english/notes/transformation-principles.md)** — index that maps all 8 principles to garden notes, grouped by lever (direction, starting point, ownership, practice, leadership, feedback, people, systems).
+- **[Transformation Principles](content/english/notes/transformation-principles.md)** - index that maps all 8 principles to garden notes, grouped by lever (direction, starting point, ownership, practice, leadership, feedback, people, systems).
 
 ### New spine notes (with flashcards)
 | Principle | Note |
@@ -1156,8 +1156,8 @@ cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:voice -- content/english/
 $ python3 scripts/notes-voice-sanitize.py --check && python3 scripts/notes-voice-lint.py --check -- content/english/notes/own-your-part.md content/english/notes/accept-the-starting-line.md content/english/notes/measure-then-iterate.md content/english/notes/shadow-the-work.md content/english/notes/change-takes-repetition.md content/english/notes/transformation-principles.md
 Voice dash lint OK
 Voice lint warnings:
-  content/english/notes/own-your-part.md: key_concept: AI-tell word `handoff` — try: pass off / pass to client
-  content/english/notes/own-your-part.md: cards[3].back: AI-tell word `handoff` — try: pass off / pass to client
+  content/english/notes/own-your-part.md: key_concept: AI-tell word `handoff` - try: pass off / pass to client
+  content/english/notes/own-your-part.md: cards[3].back: AI-tell word `handoff` - try: pass off / pass to client
 [ELIFECYCLE] Command failed with exit code 1.
 
 ```
@@ -1206,11 +1206,11 @@ Added **5 sibling notes** that extend the transformation cluster, plus hub cross
 
 | Note | Fills the gap from |
 |------|-------------------|
-| [Own Your Part](content/english/notes/own-your-part.md) | Proactive ownership — move your slice before a hand-down fix |
+| [Own Your Part](content/english/notes/own-your-part.md) | Proactive ownership - move your slice before a hand-down fix |
 | [Accept the Starting Line](content/english/notes/accept-the-starting-line.md) | Acceptance lane from Honest Self-Awareness |
 | [Measure Then Iterate](content/english/notes/measure-then-iterate.md) | Feedback and measurement before the next pivot |
 | [Shadow the Work](content/english/notes/shadow-the-work.md) | Concrete move from People-Centered Design |
-| [Change Takes Repetition](content/english/notes/change-takes-repetition.md) | Hub thesis — transformation is repeated levers, not one breakthrough |
+| [Change Takes Repetition](content/english/notes/change-takes-repetition.md) | Hub thesis - transformation is repeated levers, not one breakthrough |
 
 [Transformation Principles](content/english/notes/transformation-principles.md) now indexes all five, and the original four notes link to their siblings where it fits. Each new note has flashcards (`review: true`). Voice lint is clean.
 
@@ -1395,7 +1395,7 @@ Voice lint OK
 
 _**Agent (auto-low)**_
 
-Created **[God Centered Design](content/english/notes/god-centered-design.md)** — the faith counterpart to People-Centered Design: build life and work for God's glory first, not applause, ego, or comfort.
+Created **[God Centered Design](content/english/notes/god-centered-design.md)** - the faith counterpart to People-Centered Design: build life and work for God's glory first, not applause, ego, or comfort.
 
 It links to **Seek the Kingdom First**, **Love God**, **Love Your Neighbor**, **Purpose and Vision**, and **Success is Stewardship**, with six review cards in the Gospel/Priorities decks.
 
@@ -1562,7 +1562,7 @@ Voice lint OK
 
 _**Agent (auto-low)**_
 
-Created **[Christlikeness](content/english/notes/christlikeness.md)** — God reshaping you to look and love more like Jesus after faith, not as the entry fee.
+Created **[Christlikeness](content/english/notes/christlikeness.md)** - God reshaping you to look and love more like Jesus after faith, not as the entry fee.
 
 It sits between the process notes and the fruit:
 - **Sanctification** = the slow process
@@ -2767,10 +2767,10 @@ _**Agent (auto-low)**_
 Audited all **12 new notes** and wired **~50 bidirectional links** across the garden. Summary:
 
 ### Hubs updated
-- **[Transformation Principles](content/english/notes/transformation-principles.md)** — added `Christlikeness`; richer `relationships` to core spine notes
-- **[Systems for Growth](content/english/notes/systems-for-growth.md)** — cross-linked transformation cluster (mindset, practice, review); alternative link to Transformation Principles
-- **[Eternal Principles](content/english/notes/eternal-principles.md)** — PKM cross-link for `Change Takes Repetition`
-- **[Workplace Principles](content/english/notes/workplace-principles.md)** — indexed `Own Your Part`, `People-Centered Design`, `Shadow the Work` + source map rows
+- **[Transformation Principles](content/english/notes/transformation-principles.md)** - added `Christlikeness`; richer `relationships` to core spine notes
+- **[Systems for Growth](content/english/notes/systems-for-growth.md)** - cross-linked transformation cluster (mindset, practice, review); alternative link to Transformation Principles
+- **[Eternal Principles](content/english/notes/eternal-principles.md)** - PKM cross-link for `Change Takes Repetition`
+- **[Workplace Principles](content/english/notes/workplace-principles.md)** - indexed `Own Your Part`, `People-Centered Design`, `Shadow the Work` + source map rows
 
 ### New notes → existing garden (highlights)
 | New note | Now also connects to |

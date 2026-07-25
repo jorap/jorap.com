@@ -18,7 +18,7 @@ The user cannot see social icons on their website.</details></think>
 
 _**Agent (auto-low)**_
 
-Investigating why the social icons aren't visible — I'll trace how they're rendered and whether Font Awesome and the theme styles are loading.
+Investigating why the social icons aren't visible - I'll trace how they're rendered and whether Font Awesome and the theme styles are loading.
 
 
 _**Agent (auto-low)**_
@@ -373,7 +373,7 @@ The footer template still uses Font Awesome icon tags. The project now uses inli
 
 _**Agent (auto-low)**_
 
-The footer still uses Font Awesome `<i>` tags while the theme moved to inline SVG icons — I'll verify `icons.json` and compare the other social-icon templates.
+The footer still uses Font Awesome `<i>` tags while the theme moved to inline SVG icons - I'll verify `icons.json` and compare the other social-icon templates.
 
 
 _**Agent (auto-low)**_
@@ -607,7 +607,7 @@ The social-share.html template already uses the icon partial correctly.</details
 
 _**Agent (auto-low)**_
 
-The footer still uses Font Awesome `<i>` tags while the site switched to inline SVGs — I'll update those three templates to use the icon partial.
+The footer still uses Font Awesome `<i>` tags while the site switched to inline SVGs - I'll update those three templates to use the icon partial.
 
 
 _**Agent (auto-low)**_
@@ -717,7 +717,7 @@ The social icons remain invisible despite the previous fix.</details></think>
 
 _**Agent (auto-low)**_
 
-Digging deeper — I'll check the built output, CSS, and theme tokens to see why the icons still aren't visible.
+Digging deeper - I'll check the built output, CSS, and theme tokens to see why the icons still aren't visible.
 
 
 _**Agent (auto-low)**_

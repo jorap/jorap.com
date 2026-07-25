@@ -54,6 +54,10 @@ cards:
     back: "One clean cut - scraps stay in the garage."
   - front: "Garage bench is half-sanded and the neighbor's walking up the driveway."
     back: "Porch shows the finished piece only."
+  - front: "Rough draft in private folder - tempted to polish before anyone sees."
+    back: "Show finished work only - garage stays messy."
+  - front: "Practice film library chaos - parents want highlight reel tonight."
+    back: "One clean cut - scraps stay back."
 draft: false
 ---
 

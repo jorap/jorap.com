@@ -20,7 +20,7 @@ Searching the codebase for how blog publishing is managed.
 
 _**Agent (auto-low)**_
 
-I'll look through the repo for how blog publishing is tracked—drafts, queue, or schedule—and identify what's next.
+I'll look through the repo for how blog publishing is tracked-drafts, queue, or schedule-and identify what's next.
 
 
 _**Agent (auto-low)**_
@@ -1383,7 +1383,7 @@ inter-font is the runner-up. It is lint-clean and shorter, making it a lighter a
 
 _**Agent (auto-low)**_
 
-There isn’t a formal publish queue in the repo — drafts use the `__` prefix and `draft: true`, and you flip them live by renaming and setting `draft: false`. Based on what’s ready and what you’ve been working on, here’s the picture.
+There isn’t a formal publish queue in the repo - drafts use the `__` prefix and `draft: true`, and you flip them live by renaming and setting `draft: false`. Based on what’s ready and what you’ve been working on, here’s the picture.
 
 ## Next up: **Grade 1 Math Games at Home** (`__grade-1-better-than-kumon.md`)
 
@@ -1391,9 +1391,9 @@ This is the strongest candidate right now.
 
 - **Most recently edited draft** (touched today, Jul 19)
 - **Passes all publish checks** (`lint:blog`, `lint:voice`, `lint:slop`)
-- **Substantive and personal** — Kumon reading vs. home math games, your son’s preference, the 10-principle plan
-- **Ties to something already live** — links to your [grade-1 quiz randomizer](https://www.jorap.com/randomizer/?set=grade-1-quiz)
-- **Slug/date are set** — `grade-1-better-than-kumon`, dated Jul 15
+- **Substantive and personal** - Kumon reading vs. home math games, your son’s preference, the 10-principle plan
+- **Ties to something already live** - links to your [grade-1 quiz randomizer](https://www.jorap.com/randomizer/?set=grade-1-quiz)
+- **Slug/date are set** - `grade-1-better-than-kumon`, dated Jul 15
 
 **Before publish:** swap `/images/note.jpg` for a real hero image (anti-slop rule blocks placeholder images).
 
@@ -1414,6 +1414,6 @@ Also lint-clean and voice-ready from the Jul 15 session. Shorter and simpler to 
 
 - **Last published post:** [Retheming Hanamikoji as Duopoly](content/english/blog/hanamikoji-duopoly-retheme.md) (Jul 14)
 - **35 drafts** in the backlog; ~18 are marked “voice-ready or close” in your Jul 12 blog review (wifi router, second cellphone, obsidian-vs-hugo, etc.)
-- **Not next:** Hugo/tutorial outlines (`__markdown-deep-dive.md`, `__hugo-shortcodes.md`) and posts with blockers (`__selling-static-sites.md` — dollar amounts, `__shopee-tips.md` — ₱ pricing)
+- **Not next:** Hugo/tutorial outlines (`__markdown-deep-dive.md`, `__hugo-shortcodes.md`) and posts with blockers (`__selling-static-sites.md` - dollar amounts, `__shopee-tips.md` - ₱ pricing)
 
 If you want, I can publish grade-1 (rename, flip draft, hero image) or run a quick “ready to ship this week” pass on the top 5 drafts.

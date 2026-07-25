@@ -41,7 +41,7 @@ featured: false
 review: true
 card_sets: ["Focus", "Workflow"]
 cards:
-  - front: "Fridge list for this week's groceries vs filing cabinet for school forms with no deadline. Which system?"
+  - front: "Fridge list for this week's groceries vs filing cabinet for school forms with no deadline - two lanes in one bucket."
     back: "GTD for tasks - PARA holds the forms."
   - front: "Errand list in the task app; garden notes in PARA folders. One rule so admin doesn't double?"
     back: "Tasks in GTD - knowledge in PARA."
@@ -49,6 +49,10 @@ cards:
     back: "Cousins - tasks app, notes folder."
   - front: "Shift board for this week's finish line vs training binder for forms with no deadline. Two lanes - what goes where?"
     back: "Board is GTD - binder is PARA."
+  - front: "Playbook principles dumped into the task app - lost in completed lists."
+    back: "Tasks stay GTD - principles live in PARA."
+  - front: "Fridge errand list mixed with training binder - one bucket getting muddy."
+    back: "Two lanes - tasks app, notes folder."
 draft: false
 ---
 

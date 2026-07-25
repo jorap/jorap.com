@@ -240,7 +240,7 @@ It’s installed now:
 hugo v0.163.3+extended linux/amd64
 ```
 
-If you hit this again after cloning or updating the repo, `mise install` (no args) installs everything from `.mise.toml` at once. Make sure your shell has mise activated — e.g. `eval "$(mise activate bash)"` in your shell config — so `hugo` resolves from the project toolchain.
+If you hit this again after cloning or updating the repo, `mise install` (no args) installs everything from `.mise.toml` at once. Make sure your shell has mise activated - e.g. `eval "$(mise activate bash)"` in your shell config - so `hugo` resolves from the project toolchain.
 
 ---
 
@@ -2283,7 +2283,7 @@ Result:
           },
           {
             "lineNumber": 34,
-            "text": "  var aiChatCopiedLabel = \"Copied — paste in chat\";"
+            "text": "  var aiChatCopiedLabel = \"Copied - paste in chat\";"
           },
           {
             "lineNumber": 35
@@ -2317,7 +2317,7 @@ Result:
           },
           {
             "lineNumber": 2,
-            "text": "  Random garden note — blog posts (scope blog) or note pages (scope notes)."
+            "text": "  Random garden note - blog posts (scope blog) or note pages (scope notes)."
           },
           {
             "lineNumber": 3,
@@ -2584,11 +2584,11 @@ Result:
           },
           {
             "lineNumber": 6,
-            "text": "random_blog_note_lede: One garden note picked at random — shuffle for a new pairing with this post."
+            "text": "random_blog_note_lede: One garden note picked at random - shuffle for a new pairing with this post."
           },
           {
             "lineNumber": 7,
-            "text": "random_note_lede: One garden note picked at random — shuffle for a new pairing with this note."
+            "text": "random_note_lede: One garden note picked at random - shuffle for a new pairing with this note."
           },
           {
             "lineNumber": 8,
@@ -2656,7 +2656,7 @@ Result:
           },
           {
             "lineNumber": 24,
-            "text": "prompt_copied_for_ai: Copied — paste in chat"
+            "text": "prompt_copied_for_ai: Copied - paste in chat"
           },
           {
             "lineNumber": 25,
@@ -3994,7 +3994,7 @@ Result:
           },
           {
             "lineNumber": 56,
-            "text": "    copiedLabel: \"Copied — paste in chat\","
+            "text": "    copiedLabel: \"Copied - paste in chat\","
           },
           {
             "lineNumber": 57,
@@ -6328,7 +6328,7 @@ The dropdown bug is caused by missing spaces between HTML attributes in the rend
 
 Hugo's `{{-` and `-}}` whitespace trimming strips the newline after `class`, causing the next attribute to merge directly into the previous one.
 
-The exact rendered output is `class="..."data-notes-single-random-selectaria-label="..."` — the data attribute and aria-label are also merged into a single token.</details></think>
+The exact rendered output is `class="..."data-notes-single-random-selectaria-label="..."` - the data attribute and aria-label are also merged into a single token.</details></think>
 
 _**Agent (default)**_
 
@@ -6614,7 +6614,7 @@ Result:
           },
           {
             "lineNumber": 2,
-            "text": "  Table of contents for notes — body headings from RawContent, plus page sections"
+            "text": "  Table of contents for notes - body headings from RawContent, plus page sections"
           },
           {
             "lineNumber": 3,
@@ -10191,7 +10191,7 @@ Result:
           },
           {
             "lineNumber": 30,
-            "text": "**One note = one claim** I'd cite in conversation. Optional **## Example** (one concrete scene) when the claim needs it; required **## Note Relationships** table (extends + contradicts at minimum, sorted by type). No other &#96;##&#96; sections — link out instead. See [[Atomic Notes]] and [[Note Relationships]]."
+            "text": "**One note = one claim** I'd cite in conversation. Optional **## Example** (one concrete scene) when the claim needs it; required **## Note Relationships** table (extends + contradicts at minimum, sorted by type). No other &#96;##&#96; sections - link out instead. See [[Atomic Notes]] and [[Note Relationships]]."
           },
           {
             "lineNumber": 31
@@ -11076,7 +11076,7 @@ Result:
           },
           {
             "lineNumber": 70,
-            "text": "| &#96;note&#96; (default) | Atomic garden claim | Required (extends + contradicts minimum) | Yes — &#96;[[wikilink]]&#96; |"
+            "text": "| &#96;note&#96; (default) | Atomic garden claim | Required (extends + contradicts minimum) | Yes - &#96;[[wikilink]]&#96; |"
           },
           {
             "lineNumber": 71,
@@ -11084,7 +11084,7 @@ Result:
           },
           {
             "lineNumber": 72,
-            "text": "| &#96;meta&#96; | Tool surface (Graph, Issues, Review, etc.) | Skip | No — URL only |"
+            "text": "| &#96;meta&#96; | Tool surface (Graph, Issues, Review, etc.) | Skip | No - URL only |"
           },
           {
             "lineNumber": 73
@@ -11098,7 +11098,7 @@ Result:
           },
           {
             "lineNumber": 76,
-            "text": "These pages are **meta tools** (&#96;note_kind: meta&#96;), not garden ideas: [Graph](/notes/graph/), [Issues](/notes/issues/), [Flashcards](/notes/flashcards/), [Review](/notes/review/), [Backlinks](/notes/backlinks/), [Random Duo](/notes/random-duo/). They are excluded from the graph node set, random pickers, and flashcard sources. **No &#96;## Note Relationships&#96; table** on utility pages — link by URL when pointing readers at a tool. **Don't &#96;[[wikilink]]&#96; to them** from content notes. &#96;npm run lint:utility-links&#96; catches violations."
+            "text": "These pages are **meta tools** (&#96;note_kind: meta&#96;), not garden ideas: [Graph](/notes/graph/), [Issues](/notes/issues/), [Flashcards](/notes/flashcards/), [Review](/notes/review/), [Backlinks](/notes/backlinks/), [Random Duo](/notes/random-duo/). They are excluded from the graph node set, random pickers, and flashcard sources. **No &#96;## Note Relationships&#96; table** on utility pages - link by URL when pointing readers at a tool. **Don't &#96;[[wikilink]]&#96; to them** from content notes. &#96;npm run lint:utility-links&#96; catches violations."
           }
         ],
         "range": {
@@ -11349,7 +11349,7 @@ Result:
           },
           {
             "lineNumber": 63,
-            "text": "To sync Hugoplate or Impeccable upstreams, use the &#96;sync-upstreams&#96; Cursor skill — not the old Hugoplate one-shot setup scripts."
+            "text": "To sync Hugoplate or Impeccable upstreams, use the &#96;sync-upstreams&#96; Cursor skill - not the old Hugoplate one-shot setup scripts."
           },
           {
             "lineNumber": 64

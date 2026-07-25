@@ -53,6 +53,10 @@ cards:
     back: "Stay readable when the room isn't."
   - front: "Players yelling at the ref and I'm tempted to match the energy. What's the move?"
     back: "Steady tone - don't speed up."
+  - front: "Group chat neighbor fight - thumb on angry reply."
+    back: "One beat - compose before send."
+  - front: "Players yelling at ref - my voice climbing too."
+    back: "Steady tone - don't match the chaos."
 draft: false
 ---
 

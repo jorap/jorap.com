@@ -682,17 +682,17 @@ Each note page now shows a local graph above the title, with the current note pi
 
 **What changed**
 
-1. **Local graph partial** (`layouts/_partials/notes/local-graph.html`) — Renders a compact graph on every note page, placed right before the `<h1>`.
+1. **Local graph partial** (`layouts/_partials/notes/local-graph.html`) - Renders a compact graph on every note page, placed right before the `<h1>`.
 
-2. **Neighborhood data** (`layouts/_partials/notes/graph-data-local.html`) — Builds a subgraph of the current note plus its direct links (outgoing wikilinks and backlinks), with a `focus` field set to the current page.
+2. **Neighborhood data** (`layouts/_partials/notes/graph-data-local.html`) - Builds a subgraph of the current note plus its direct links (outgoing wikilinks and backlinks), with a `focus` field set to the current page.
 
-3. **Graph JS** (`assets/js/notes-graph.js`) — Refactored to support multiple graph instances. When `focus` is set:
+3. **Graph JS** (`assets/js/notes-graph.js`) - Refactored to support multiple graph instances. When `focus` is set:
    - The current note stays pinned at the center
    - Neighbors orbit around it
    - The view zooms to fit the local neighborhood
    - The focus node is visually emphasized (larger, bolder label)
 
-4. **Layout** — `single.html` includes the graph partial and loads the graph script; the full graph page uses the same multi-instance pattern.
+4. **Layout** - `single.html` includes the graph partial and loads the graph script; the full graph page uses the same multi-instance pattern.
 
 On a note like [Atomic Notes](http://localhost:1313/notes/atomic-notes/), you’ll see its linked neighbors in a graph above the title, with **Atomic Notes** at the center. A link to the full graph is below the widget. Notes with no links still get a single centered node.
 
@@ -1499,14 +1499,14 @@ The per-note graph now follows the [Fork My Brain](https://notes.nicolevanderhoe
 - Sits at the very top of each note, above the nav and title
 - Compact banner (~184–200px tall), subtle tinted background, no border chrome
 - Current note pinned at center with a soft glow
-- Neighbors as small dots in a ring — no permanent labels
+- Neighbors as small dots in a ring - no permanent labels
 
 **Graph behavior**
 - Star topology only: lines radiate from the current note to its links, not between neighbors
 - Static radial layout (no bouncing physics)
 - Hover a dot to see its title in a tooltip and highlight its connection
 - Click a neighbor to navigate (⌘/Ctrl-click opens a new tab)
-- No pan, zoom, or drag on the local graph — it's navigation, not exploration
+- No pan, zoom, or drag on the local graph - it's navigation, not exploration
 
 **Full graph unchanged**
 - `/notes/graph/` still has the interactive full graph with search, zoom, and labels
@@ -1780,14 +1780,14 @@ _**Agent (auto-low)**_
 The per-note graph now uses the same engine as `/notes/graph/`, instead of the stripped-down local-only version.
 
 **What was wrong**
-The note-page graph had been reduced to a static dot-only view — no labels, no physics, no pan/zoom — so it felt worse than the full graph page.
+The note-page graph had been reduced to a static dot-only view - no labels, no physics, no pan/zoom - so it felt worse than the full graph page.
 
 **What changed**
-- **Same rendering** — labeled nodes, force layout, hover highlights, pan/zoom/drag, click to navigate
-- **Current note stays centered** — pinned at the middle with a subtle glow
-- **Richer connections** — shows all links between neighbors, not just spokes from the center
-- **Layout fix** — `ResizeObserver` + deferred init so the canvas sizes correctly on load
-- **Matching chrome** — same bordered panel and zoom hint as the full graph page
+- **Same rendering** - labeled nodes, force layout, hover highlights, pan/zoom/drag, click to navigate
+- **Current note stays centered** - pinned at the middle with a subtle glow
+- **Richer connections** - shows all links between neighbors, not just spokes from the center
+- **Layout fix** - `ResizeObserver` + deferred init so the canvas sizes correctly on load
+- **Matching chrome** - same bordered panel and zoom hint as the full graph page
 
 Refresh any note page to see the updated local graph. It should now behave like the graph page, scoped to that note’s neighborhood.
 
@@ -2270,7 +2270,7 @@ curl -s http://localhost:1313/notes/from-note-to-book/ | rg -n "notes-graph" | h
 
 ```
 120:&lt;span data-target=close-search-modal&gt;&lt;kbd&gt;ESC&lt;/kbd&gt; to close&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;main class=flex-1&gt;&lt;section class="section pt-7"&gt;&lt;div class=container&gt;&lt;div class="row justify-center"&gt;&lt;div class=lg:col-8&gt;&lt;article&gt;&lt;div class="notes-graph-panel notes-graph-panel--local mb-5" data-notes-graph&gt;&lt;script type=application/json class=notes-graph-data&gt;{"edges":[{"source":"/notes/creative-blocks/","target":"/notes/creative-output/"},{"source":"/notes/creative-output/","target":"/notes/advantages-of-digital-gardens/"},{"source":"/notes/creative-output/","target":"/notes/creative-blocks/"},{"source":"/notes/creative-output/","target":"/notes/drafting-in-public/"},{"source":"/notes/drafting-in-public/","target":"/notes/advantages-of-digital-gardens/"},{"source":"/notes/drafting-in-public/","target":"/notes/creative-output/"},{"source":"/notes/drafting-in-public/","target":"/notes/from-note-to-book/"},{"source":"/notes/evergreen-notes/","target":"/notes/advantages-of-digital-gardens/"},{"source":"/notes/from-note-to-book/","target":"/notes/advantages-of-digital-gardens/"},{"source":"/notes/from-note-to-book/","target":"/notes/creative-blocks/"},{"source":"/notes/from-note-to-book/","target":"/notes/creative-output/"},{"source":"/notes/from-note-to-book/","target":"/notes/drafting-in-public/"},{"source":"/notes/from-note-to-book/","target":"/notes/evergreen-notes/"},{"source":"/notes/maps-of-content/","target":"/notes/advantages-of-digital-gardens/"},{"source":"/notes/maps-of-content/","target":"/notes/creative-blocks/"},{"source":"/notes/maps-of-content/","target":"/notes/creative-output/"},{"source":"/notes/maps-of-content/","target":"/notes/drafting-in-public/"},{"source":"/notes/maps-of-content/","target":"/notes/evergreen-notes/"},{"source":"/notes/maps-of-content/","target":"/notes/from-note-to-book/"},{"source":"/notes/the-knowledge-lifecycle/","target":"/notes/evergreen-notes/"},{"source":"/notes/the-knowledge-lifecycle/","target":"/notes/from-note-to-book/"}],"focus":"/notes/from-note-to-book/","mode":"local","nodes":[{"id":"/notes/advantages-of-digital-gardens/","title":"Advantages of Digital Gardens","url":"/notes/advantages-of-digital-gardens/"},{"id":"/notes/creative-blocks/","title":"Creative Blocks","url":"/notes/creative-blocks/"},{"id":"/notes/creative-output/","title":"Creative Output","url":"/notes/creative-output/"},{"id":"/notes/drafting-in-public/","title":"Drafting in Public","url":"/notes/drafting-in-public/"},{"id":"/notes/evergreen-notes/","title":"Evergreen Notes","url":"/notes/evergreen-notes/"},{"id":"/notes/from-note-to-book/","title":"From Note to Book","url":"/notes/from-note-to-book/"},{"id":"/notes/maps-of-content/","title":"Maps of Content","url":"/notes/maps-of-content/"},{"id":"/notes/the-knowledge-lifecycle/","title":"The Knowledge Lifecycle","url":"/notes/the-knowledge-lifecycle/"}]}&lt;/script&gt;&lt;div class=notes-graph role=img aria-label="Local graph for From Note to Book"&gt;&lt;div class=notes-graph__controls aria-hidden=true&gt;&lt;span class=notes-graph__zoom-hint&gt;Scroll to zoom · drag to pan&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="notes-toolbar mb-4 flex flex-wrap items-center gap-3"&gt;&lt;a class="text-accent text-sm no-underline hover:underline" href=/notes/&gt;← All notes&lt;/a&gt;
-121:&lt;a class="text-accent text-sm no-underline hover:underline" href=/notes/graph/&gt;Graph&lt;/a&gt;&lt;/div&gt;&lt;h1 class="article-title mb-4"&gt;From Note to Book&lt;/h1&gt;&lt;ul class="mb-4 flex flex-wrap gap-2"&gt;&lt;li&gt;&lt;span class="bg-elevated text-ink rounded px-3 py-1 text-sm"&gt;Writing&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span class="bg-elevated text-ink rounded px-3 py-1 text-sm"&gt;Books&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span class="bg-elevated text-ink rounded px-3 py-1 text-sm"&gt;PKM&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span class="bg-elevated text-ink rounded px-3 py-1 text-sm"&gt;Evergreen Notes&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span class="bg-elevated text-ink rounded px-3 py-1 text-sm"&gt;Publishing&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span class="bg-elevated text-ink rounded px-3 py-1 text-sm"&gt;Assembly&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div class="toc-wrapper border-divider mb-6 rounded border p-4 lg:hidden"&gt;&lt;p class="mb-3 font-semibold"&gt;Table of Contents&lt;/p&gt;&lt;div class="table-of-content toc-links"&gt;&lt;nav id=TableOfContents&gt;&lt;ol&gt;&lt;li&gt;&lt;a href=#see-also&gt;See also&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/nav&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="content notes-content mb-10"&gt;&lt;p&gt;&lt;strong&gt;From Note to Book&lt;/strong&gt; — books aren&amp;rsquo;t written; they&amp;rsquo;re compiled.&lt;/p&gt;&lt;h2 id=see-also&gt;See also&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=/notes/creative-output/ class=wikilink&gt;Creative Output&lt;/a&gt; — PKM, Publishing, Writing&lt;/li&gt;&lt;li&gt;&lt;a href=/notes/drafting-in-public/ class=wikilink&gt;Drafting in Public&lt;/a&gt; — PKM, Publishing, Writing&lt;/li&gt;&lt;li&gt;&lt;a href=/notes/evergreen-notes/ class=wikilink&gt;Evergreen Notes&lt;/a&gt; — Evergreen Notes, PKM, Writing&lt;/li&gt;&lt;li&gt;&lt;a href=/notes/advantages-of-digital-gardens/ class=wikilink&gt;Advantages of Digital Gardens&lt;/a&gt; — PKM, Publishing&lt;/li&gt;&lt;li&gt;&lt;a href=/notes/creative-blocks/ class=wikilink&gt;Creative Blocks&lt;/a&gt; — PKM, Writing&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;aside class="notes-backlinks border-divider rounded border p-5"&gt;&lt;h2 class="h6 mb-3"&gt;Backlinks&lt;/h2&gt;&lt;ul class=space-y-2&gt;&lt;li&gt;&lt;a class=wikilink href=/notes/drafting-in-public/&gt;Drafting in Public&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a class=wikilink href=/notes/maps-of-content/&gt;Maps of Content&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a class=wikilink href=/notes/the-knowledge-lifecycle/&gt;The Knowledge Lifecycle&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/aside&gt;&lt;/article&gt;&lt;/div&gt;&lt;div class=lg:col-4&gt;&lt;div class="toc-wrapper sticky top-[100px] hidden lg:block"&gt;&lt;div class="table-of-content toc-links"&gt;&lt;p class="mb-3 text-h5 font-semibold"&gt;Table of Contents&lt;/p&gt;&lt;div class=toc-scroll&gt;&lt;nav id=TableOfContents&gt;&lt;ol&gt;&lt;li&gt;&lt;a href=#see-also&gt;See also&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/nav&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;&lt;script src=/js/notes-graph.js defer&gt;&lt;/script&gt;&lt;/main&gt;&lt;footer class=bg-elevated&gt;&lt;div class=container&gt;&lt;div class="row items-center py-10"&gt;&lt;div class="lg:col-3 mb-8 text-center lg:mb-0 lg:text-left"&gt;&lt;a class="navbar-brand inline-block" href=/&gt;&lt;img fetchpriority=high decoding=async class="img img-light" width=60 height=60 src=/images/jorap_hu_80a4f18932967e2f.webp alt="JoRap Notes" data-fallback-src=/images/jorap_hu_47e16b618c2272d6.png&gt;
+121:&lt;a class="text-accent text-sm no-underline hover:underline" href=/notes/graph/&gt;Graph&lt;/a&gt;&lt;/div&gt;&lt;h1 class="article-title mb-4"&gt;From Note to Book&lt;/h1&gt;&lt;ul class="mb-4 flex flex-wrap gap-2"&gt;&lt;li&gt;&lt;span class="bg-elevated text-ink rounded px-3 py-1 text-sm"&gt;Writing&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span class="bg-elevated text-ink rounded px-3 py-1 text-sm"&gt;Books&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span class="bg-elevated text-ink rounded px-3 py-1 text-sm"&gt;PKM&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span class="bg-elevated text-ink rounded px-3 py-1 text-sm"&gt;Evergreen Notes&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span class="bg-elevated text-ink rounded px-3 py-1 text-sm"&gt;Publishing&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span class="bg-elevated text-ink rounded px-3 py-1 text-sm"&gt;Assembly&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div class="toc-wrapper border-divider mb-6 rounded border p-4 lg:hidden"&gt;&lt;p class="mb-3 font-semibold"&gt;Table of Contents&lt;/p&gt;&lt;div class="table-of-content toc-links"&gt;&lt;nav id=TableOfContents&gt;&lt;ol&gt;&lt;li&gt;&lt;a href=#see-also&gt;See also&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/nav&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="content notes-content mb-10"&gt;&lt;p&gt;&lt;strong&gt;From Note to Book&lt;/strong&gt; - books aren&amp;rsquo;t written; they&amp;rsquo;re compiled.&lt;/p&gt;&lt;h2 id=see-also&gt;See also&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=/notes/creative-output/ class=wikilink&gt;Creative Output&lt;/a&gt; - PKM, Publishing, Writing&lt;/li&gt;&lt;li&gt;&lt;a href=/notes/drafting-in-public/ class=wikilink&gt;Drafting in Public&lt;/a&gt; - PKM, Publishing, Writing&lt;/li&gt;&lt;li&gt;&lt;a href=/notes/evergreen-notes/ class=wikilink&gt;Evergreen Notes&lt;/a&gt; - Evergreen Notes, PKM, Writing&lt;/li&gt;&lt;li&gt;&lt;a href=/notes/advantages-of-digital-gardens/ class=wikilink&gt;Advantages of Digital Gardens&lt;/a&gt; - PKM, Publishing&lt;/li&gt;&lt;li&gt;&lt;a href=/notes/creative-blocks/ class=wikilink&gt;Creative Blocks&lt;/a&gt; - PKM, Writing&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;aside class="notes-backlinks border-divider rounded border p-5"&gt;&lt;h2 class="h6 mb-3"&gt;Backlinks&lt;/h2&gt;&lt;ul class=space-y-2&gt;&lt;li&gt;&lt;a class=wikilink href=/notes/drafting-in-public/&gt;Drafting in Public&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a class=wikilink href=/notes/maps-of-content/&gt;Maps of Content&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a class=wikilink href=/notes/the-knowledge-lifecycle/&gt;The Knowledge Lifecycle&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/aside&gt;&lt;/article&gt;&lt;/div&gt;&lt;div class=lg:col-4&gt;&lt;div class="toc-wrapper sticky top-[100px] hidden lg:block"&gt;&lt;div class="table-of-content toc-links"&gt;&lt;p class="mb-3 text-h5 font-semibold"&gt;Table of Contents&lt;/p&gt;&lt;div class=toc-scroll&gt;&lt;nav id=TableOfContents&gt;&lt;ol&gt;&lt;li&gt;&lt;a href=#see-also&gt;See also&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/nav&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;&lt;script src=/js/notes-graph.js defer&gt;&lt;/script&gt;&lt;/main&gt;&lt;footer class=bg-elevated&gt;&lt;div class=container&gt;&lt;div class="row items-center py-10"&gt;&lt;div class="lg:col-3 mb-8 text-center lg:mb-0 lg:text-left"&gt;&lt;a class="navbar-brand inline-block" href=/&gt;&lt;img fetchpriority=high decoding=async class="img img-light" width=60 height=60 src=/images/jorap_hu_80a4f18932967e2f.webp alt="JoRap Notes" data-fallback-src=/images/jorap_hu_47e16b618c2272d6.png&gt;
 200
 
 ```
@@ -2846,15 +2846,15 @@ node --check /Users/jonathanrapusas/Documents/GitHub/jorap.com/assets/js/notes-g
 
 _**Agent (auto-low)**_
 
-The graph markup was still on the page — the canvas wasn’t drawing because of a color bug introduced with the line-color change.
+The graph markup was still on the page - the canvas wasn’t drawing because of a color bug introduced with the line-color change.
 
 **Root cause:** Line colors used `color-mix()` CSS variables read straight into the canvas. Canvas can’t parse those values, so `strokeStyle` failed and the draw loop stopped before nodes and labels were rendered.
 
 **Fixes:**
-1. **Proper color resolution** — Theme tokens are now resolved to real `rgb()`/`rgba()` values the canvas understands
-2. **Edge opacity in JS** — Faint lines (0.2 default, 0.55 on hover) without relying on `color-mix`
-3. **Layout timing** — Double `requestAnimationFrame` on boot so the canvas sizes correctly after layout
-4. **Resize handling** — Node positions recalculate when the container size changes
+1. **Proper color resolution** - Theme tokens are now resolved to real `rgb()`/`rgba()` values the canvas understands
+2. **Edge opacity in JS** - Faint lines (0.2 default, 0.55 on hover) without relying on `color-mix`
+3. **Layout timing** - Double `requestAnimationFrame` on boot so the canvas sizes correctly after layout
+4. **Resize handling** - Node positions recalculate when the container size changes
 
 Hard-refresh a note page (e.g. `/notes/from-note-to-book/`) and the local graph should be back, with readable labels and subtle lines.
 

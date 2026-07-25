@@ -27,6 +27,9 @@ relationships:
     wikilink: "[[Note Relationships]]"
     reason: "Getting started teaches the garden rules that note relationships formalize with typed links"
   - type: extends
+    wikilink: "[[Reading the Garden]]"
+    reason: "After garden rules - how to learn from what you read"
+  - type: extends
     wikilink: "[[Selling Static Sites]]"
     reason: "Same markdown-first Hugo workflow for paid client sites"
 slug: "getting-started"
@@ -104,6 +107,10 @@ What this site gives you:
 ## Utility surfaces (don't wikilink)
 
 These pages are **meta tools** (`note_kind: meta`), not garden ideas: [Graph](/notes/graph/), [Issues](/notes/issues/), [Flashcards](/notes/flashcards/), [Review](/notes/review/), [Backlinks](/notes/backlinks/), [Random Duo](/notes/random-duo/), [Create Note](/notes/create/), [OKF Export](/notes/okf-export/). They are excluded from the graph node set, random pickers, and flashcard sources. **No `## Note Relationships` table** on utility pages - link by URL when pointing readers at a tool. **Don't `[[wikilink]]` to them** from content notes. `npm run lint:utility-links` catches violations.
+
+## Learn from notes
+
+[[Reading the Garden]] - two lanes: read for understanding (`description` → `key_concept` → `examples` → links), drill spine cards at [/notes/review/](/notes/review/). Faith track starts at [[Eternal Principles]].
 
 ## Explore
 

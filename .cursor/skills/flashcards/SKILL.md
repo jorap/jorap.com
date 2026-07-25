@@ -30,7 +30,7 @@ Only ~20% of notes (spine habits + gospel cluster) carry cards. Full spec: `cont
 - How long your streak is
 - How many facts you memorized
 
-**Three outcomes** — write every card toward at least one:
+**Three outcomes** - write every card toward at least one:
 
 | Outcome | Test |
 |---------|------|
@@ -44,9 +44,9 @@ Only ~20% of notes (spine habits + gospel cluster) carry cards. Full spec: `cont
 
 **Card shape:** Cards exist so the right move is already loaded when life shows up.
 
-**Litmus test (use this when writing or auditing):** Read only the front. Could this exact moment happen this week? Cover the back — do you know what to **do or decide right now**, without opening the garden?
+**Litmus test (use this when writing or auditing):** Read only the front. Could this exact moment happen this week? Cover the back - do you know what to **do or decide right now**, without opening the garden?
 
-Review practice exists so **when the front happens tomorrow**, the back fires in real life. Success is not passing `/notes/review/` — success is acting correctly in the next five seconds.
+Review practice exists so **when the front happens tomorrow**, the back fires in real life. Success is not passing `/notes/review/` - success is acting correctly in the next five seconds.
 
 **Teaching chain** (explains the shape; drilled cards usually skip the middle step):
 
@@ -54,20 +54,20 @@ Review practice exists so **when the front happens tomorrow**, the back fires in
 Cue  →  [pause]  →  move
 ```
 
-- **PKM / workflow:** `cue → move` — recognize the fork, do the procedure.
-- **Gospel / impulse / conflict:** `cue → pause → move` — interrupt the default script, then act.
-- **Habit you're breaking:** beat the **default move** — you already know the answer; the card preloads the override.
+- **PKM / workflow:** `cue → move` - recognize the fork, do the procedure.
+- **Gospel / impulse / conflict:** `cue → pause → move` - interrupt the default script, then act.
+- **Habit you're breaking:** beat the **default move** - you already know the answer; the card preloads the override.
 
 | Part | Role | Write it as |
 |------|------|-------------|
-| **Front** | Life's cue — recognize the moment | Present tense, first person, mid-action (`thumb on post button`, `inbox at 40`, `guilt after snapping`) |
-| **Back** | Immediate move — do, decide, or say in one breath | Imperative or decision (`Pray for them.`, `One inbox. Don't organize.`, `Kingdom first — Scripture before inbox.`) |
+| **Front** | Life's cue - recognize the moment | Present tense, first person, mid-action (`thumb on post button`, `inbox at 40`, `guilt after snapping`) |
+| **Back** | Immediate move - do, decide, or say in one breath | Imperative or decision (`Pray for them.`, `One inbox. Don't organize.`, `Kingdom first - Scripture before inbox.`) |
 
-The back can name a principle **only if it IS the immediate move** — e.g. `"Kingdom first."` redirects the next ten minutes. Avoid backs that explain without directing. Never split an `examples:` sentence across front/back — that's re-reading, not retrieval.
+The back can name a principle **only if it IS the immediate move** - e.g. `"Kingdom first."` redirects the next ten minutes. Avoid backs that explain without directing. Never split an `examples:` sentence across front/back - that's re-reading, not retrieval.
 
 ## Goals - how cards serve the three outcomes
 
-### Retention — durable recall on rhythm
+### Retention - durable recall on rhythm
 
 Spaced review (`/notes/review/`, Anki) so the cue→apply link survives weeks until life triggers it again. **Active retrieval, not re-reading:** produce the back from memory before flipping. No telegraphy on the front - if you can answer without thinking, the cue won't stick to real life.
 
@@ -75,7 +75,7 @@ Spaced review (`/notes/review/`, Anki) so the cue→apply link survives weeks un
 
 **Transfer across surfaces:** same principle, different cues - so recall isn't locked to one phrasing. Vary time, place, and emotion across the six cards in a deck.
 
-### Application — cue recognition and immediate move
+### Application - cue recognition and immediate move
 
 The front must match **how life actually arrives** - messy, mid-habit, under temptation - not how the note is titled. You should read a front and think *"that happened Tuesday."*
 
@@ -89,7 +89,7 @@ Back = what you **do, say, or decide in the next breath**. Verb-first when possi
 
 **One move per card:** one cue → one apply. Multi-step backs split into separate cards or collapse to the **first** physical move.
 
-### Explanation — say it without the garden
+### Explanation - say it without the garden
 
 If a card tests whether you can explain an idea, the back should be a **clear one-breath explanation you'd say to someone** - not a definition you'd paste from the note. Prefer application cards; use explanation cards sparingly on spine ideas you actually teach or defend.
 

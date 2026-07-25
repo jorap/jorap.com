@@ -61,6 +61,14 @@ cards:
     back: "Wasn't drunk on cortisol"
   - front: "Thumb on the post button at midnight after a rough day. What's the move?"
     back: "Send tomorrow"
+  - front: "Scroll before bed again - snarky replies follow."
+    back: "Phone in kitchen - send tomorrow."
+  - front: "Rough day means the post is justified."
+    back: "Draft sleeps - thumb off send."
+  - front: "Angry text ready in the draft - thumb on send after midnight."
+    back: "Morning send - keep the receipt."
+  - front: "Hit send at midnight - damage control morning."
+    back: "Apologize clean - policy is overnight wait."
 draft: false
 ---
 

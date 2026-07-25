@@ -66,6 +66,14 @@ cards:
     back: "Finish strong was the ten-minute scrub and trash run"
   - front: "I packed for the trip but forgot to lock the back gate. What's the move?"
     back: "Finishing well proves you can close what you open"
+  - front: "Table cleared - couch looks good enough, pots can wait."
+    back: "Ten-minute scrub - close the loop."
+  - front: "Packed the bags - gut says we're done."
+    back: "Gate, lights, trash - last lap."
+  - front: "Tired after dinner and the couch is calling - dishes sitting in the sink."
+    back: "Finish strong tonight - scrub before rest."
+  - front: "Kid asks to skip trash run - we're basically done."
+    back: "Last step counts - run it together."
 draft: false
 ---
 

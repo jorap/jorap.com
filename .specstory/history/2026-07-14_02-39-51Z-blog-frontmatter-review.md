@@ -2133,7 +2133,7 @@ Schema and mechanical linting are in good shape. The issues below are content qu
 
 ## High priority: broken `related_notes` slugs
 
-The related-notes partial only matches note `slug` or filename — **not aliases**. These entries silently fail and fall back to tag overlap:
+The related-notes partial only matches note `slug` or filename - **not aliases**. These entries silently fail and fall back to tag overlap:
 
 | Broken slug | Likely correct slug | Posts affected |
 |-------------|---------------------|----------------|
@@ -2156,11 +2156,11 @@ Per jorap-voice, `description` should be a one-breath summary; `meta_title` shou
 
 Longest published:
 
-- `drupal-to-wordpress.md` — 241 chars
-- `hanamikoji-duopoly-retheme.md` — 242 chars
-- `why-i-stopped-playing-marvel-snap.md` — 212 chars
-- `why-keep-desktop-laptop.md` — 202 chars
-- `why-i-focused-on-open-source.md` — 200 chars
+- `drupal-to-wordpress.md` - 241 chars
+- `hanamikoji-duopoly-retheme.md` - 242 chars
+- `why-i-stopped-playing-marvel-snap.md` - 212 chars
+- `why-keep-desktop-laptop.md` - 202 chars
+- `why-i-focused-on-open-source.md` - 200 chars
 
 Most are readable, but several read like mini-intros rather than one-breath blurbs.
 
@@ -2189,7 +2189,7 @@ Fine mechanically, but you lose the on-page vs SERP split that most drafts use w
 - why-keep-desktop-laptop
 - worship-pads-solo-guitar
 
-Drafts mostly do this better — e.g. `__wifi-router.md` has a plain `title` and a more specific `meta_title`.
+Drafts mostly do this better - e.g. `__wifi-router.md` has a plain `title` and a more specific `meta_title`.
 
 ---
 
@@ -2197,10 +2197,10 @@ Drafts mostly do this better — e.g. `__wifi-router.md` has a plain `title` and
 
 **19/24 published posts have more than 10 tags.** Examples:
 
-- getting-started-with-rss-feeds — **20 tags**
-- how-i-built-jorap-notes, miracle-isaiah-david — **20 tags**
-- why-run-your-own-website — **19 tags**
-- consistent-ai-output-wordpress-builds — **18 tags**
+- getting-started-with-rss-feeds - **20 tags**
+- how-i-built-jorap-notes, miracle-isaiah-david - **20 tags**
+- why-run-your-own-website - **19 tags**
+- consistent-ai-output-wordpress-builds - **18 tags**
 
 Not broken, but dilutes taxonomy and related-note scoring. A cap of ~8–10 per post would tighten things up.
 
@@ -2208,21 +2208,21 @@ Not broken, but dilutes taxonomy and related-note scoring. A cap of ~8–10 per 
 
 ## What's working well
 
-- **Draft convention** — all 32 drafts use `__` prefix + `draft: true`; slugs are set for publish URLs.
-- **`related_notes` populated everywhere** — good intent; just fix the dead slugs above.
-- **`aliases`** on 12 posts for old URLs — sensible, including hanamikoji's `hanamikoji-rules`.
-- **`lastmod`** only where it matters — alex-eala tracker and hanamikoji (live-updated posts).
-- **Voice on newer posts** — extension-cord, why-i-focused-on-open-source, drupal-to-wordpress descriptions sound like JoRap, not SEO bots.
+- **Draft convention** - all 32 drafts use `__` prefix + `draft: true`; slugs are set for publish URLs.
+- **`related_notes` populated everywhere** - good intent; just fix the dead slugs above.
+- **`aliases`** on 12 posts for old URLs - sensible, including hanamikoji's `hanamikoji-rules`.
+- **`lastmod`** only where it matters - alex-eala tracker and hanamikoji (live-updated posts).
+- **Voice on newer posts** - extension-cord, why-i-focused-on-open-source, drupal-to-wordpress descriptions sound like JoRap, not SEO bots.
 
 ---
 
 ## Suggested fix order
 
-1. **Fix broken `related_notes` slugs** — swap to real note slugs or remove dead entries (`sketchpad`, `crdt`).
-2. **Trim longest descriptions** — target ~120–155 chars on the 5–6 worst offenders.
-3. **Shorten `meta_title` on the 9 long ones** — especially miracle-isaiah-david and dnpap.
+1. **Fix broken `related_notes` slugs** - swap to real note slugs or remove dead entries (`sketchpad`, `crdt`).
+2. **Trim longest descriptions** - target ~120–155 chars on the 5–6 worst offenders.
+3. **Shorten `meta_title` on the 9 long ones** - especially miracle-isaiah-david and dnpap.
 4. **Differentiate `title` / `meta_title`** on the 6 identical published posts where a subtitle would help.
-5. **Tag diet** — optional pass to cut synonym tags (e.g. "Hugo" + "Hugo CMS" + "Static Site Generator" on one post).
+5. **Tag diet** - optional pass to cut synonym tags (e.g. "Hugo" + "Hugo CMS" + "Static Site Generator" on one post).
 
 Want me to apply fixes? I can start with the broken `related_notes` slugs (quick, high impact) or do a full published-post frontmatter pass.
 
@@ -3133,7 +3133,7 @@ Was up to 20 on some posts; trimmed synonym/redundant tags (e.g. "Hugo" + "Hugo 
 | Tags > 10 | 19/24 | **0/24** |
 | `title` == `meta_title` | 6/24 | **0/24** |
 
-Body content untouched — frontmatter only. Say if you want this committed or the same pass on the 32 drafts.
+Body content untouched - frontmatter only. Say if you want this committed or the same pass on the 32 drafts.
 
 ---
 

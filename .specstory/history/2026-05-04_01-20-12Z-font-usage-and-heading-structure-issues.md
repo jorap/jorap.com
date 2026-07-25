@@ -1864,7 +1864,7 @@ Here is what was wrong and what we changed.
 ### Fonts (Inter only)
 Impeccable was likely flagging **several stacks**: Tailwind’s default `--font-sans` (system / generic sans), plus your **`font-primary` / `font-secondary`** split even though both were Inter.
 
-1. **`main.css`** — Set a single theme font so Tailwind’s defaults are not system/Roboto-style stacks:
+1. **`main.css`** - Set a single theme font so Tailwind’s defaults are not system/Roboto-style stacks:
 
 ```css
 @theme {
@@ -1872,24 +1872,24 @@ Impeccable was likely flagging **several stacks**: Tailwind’s default `--font-
 }
 ```
 
-2. **`base.css`** — `html` now uses `font-primary` so the cascade starts on Inter; all headings and `.article-title` use `font-primary` instead of `font-secondary`.
+2. **`base.css`** - `html` now uses `font-primary` so the cascade starts on Inter; all headings and `.article-title` use `font-primary` instead of `font-secondary`.
 
-3. **`components.css`** — `.content` uses `prose … font-primary` so typography/prose inherits Inter; blockquotes use `prose-blockquote:font-primary`.
+3. **`components.css`** - `.content` uses `prose … font-primary` so typography/prose inherits Inter; blockquotes use `prose-blockquote:font-primary`.
 
-4. **`utilities.css`** and **`blog-card.html`** — Replaced remaining `font-secondary` with `font-primary`.
+4. **`utilities.css`** and **`blog-card.html`** - Replaced remaining `font-secondary` with `font-primary`.
 
 `data/theme.json` was already Inter for both families; Google Fonts only loads Inter once.
 
 ### Heading order (h1 → h3)
 Two causes:
 
-1. **Markdown** — First section sometimes starts with `###`, so you get **h1 (title) then h3**.
-2. **Chrome** — **Tags / Share** used `<h6>` right after the title block, which also breaks the outline.
+1. **Markdown** - First section sometimes starts with `###`, so you get **h1 (title) then h3**.
+2. **Chrome** - **Tags / Share** used `<h6>` right after the title block, which also breaks the outline.
 
 **Fixes:**
 
-- **`themes/jorap/layouts/_markup/render-heading.html`** — For **`blog`** only, if the **first** heading (`.Ordinal` `0`) is deeper than h2 (`> 2`), it is rendered as **`<h2>`** so the first in-body heading is never h3+ after the title h1. Uses Hugo 0.160+ **`.Ordinal`** ([heading hooks](https://gohugo.io/render-hooks/headings/)).
-- **`blog/single.html`** — Tags, Share, and the desktop TOC label are **`<p>`** with the same visual weight (`not-prose`, `font-semibold`, heading-sized classes) so they are not fake headings.
+- **`themes/jorap/layouts/_markup/render-heading.html`** - For **`blog`** only, if the **first** heading (`.Ordinal` `0`) is deeper than h2 (`> 2`), it is rendered as **`<h2>`** so the first in-body heading is never h3+ after the title h1. Uses Hugo 0.160+ **`.Ordinal`** ([heading hooks](https://gohugo.io/render-hooks/headings/)).
+- **`blog/single.html`** - Tags, Share, and the desktop TOC label are **`<p>`** with the same visual weight (`not-prose`, `font-semibold`, heading-sized classes) so they are not fake headings.
 
 `hugo --gc --minify` completes successfully with these updates.
 
@@ -4146,14 +4146,14 @@ Here is what was going on and what we changed.
 The `.Site.LanguageCode` warning did **not** come from your `baseof.html` change alone. It came from **`github.com/gethugothemes/hugo-modules/pwa`**, which ships `layouts/_default/index.webmanifest` with `site.LanguageCode`. In Hugo’s merge order, **module layouts override the theme**, so a fix only under `themes/jorap/` never ran.
 
 ### Fix
-1. **`layouts/_default/index.webmanifest`** (site root, highest priority) — copy of the PWA manifest with  
+1. **`layouts/_default/index.webmanifest`** (site root, highest priority) - copy of the PWA manifest with  
    `"lang": "{{ site.Language.Locale | default \`en-us\` }}"`  
    so the PWA module is overridden and the deprecation goes away.
 
 2. **Earlier edits (still in place)**  
-   - `themes/jorap/layouts/_default/baseof.html` — `lang="{{ site.Language.Locale | default \`en-US\` }}"`  
-   - `config/_default/languages.toml` — `languageCode` / `languageName` → `locale` / `label`  
-   - `themes/jorap/layouts/partials/components/language-switcher.html` — `{{ or .Label .Lang }}` instead of `{{ .LanguageName }}`
+   - `themes/jorap/layouts/_default/baseof.html` - `lang="{{ site.Language.Locale | default \`en-US\` }}"`  
+   - `config/_default/languages.toml` - `languageCode` / `languageName` → `locale` / `label`  
+   - `themes/jorap/layouts/partials/components/language-switcher.html` - `{{ or .Label .Lang }}` instead of `{{ .LanguageName }}`
 
 `hugo --gc` no longer reports the **LanguageCode** warning.
 

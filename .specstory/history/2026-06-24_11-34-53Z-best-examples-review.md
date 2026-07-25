@@ -286,7 +286,7 @@ _**Agent (default)**_
 _**Agent (default)**_
 
 <think><details><summary>Thought Process</summary>
-Reviewing all notes to compile five best examples per category. The required genres—Sports, Non-technical work, Home with children, and Real world—will be excluded.
+Reviewing all notes to compile five best examples per category. The required genres-Sports, Non-technical work, Home with children, and Real world-will be excluded.
 
 Interpreting whether to select five best examples per note or per category. The instruction to ignore the four required genres suggests grouping by another dimension.
 </details></think>
@@ -1963,7 +1963,7 @@ for p in root.glob(&#34;*.md&#34;):
 
 all_ex.sort(reverse=True)
 for q,t,s in all_ex[:25]:
-    print(f&#34;- **{t}** — {s}&#34;)
+    print(f&#34;- **{t}** - {s}&#34;)
 PY</summary>
 ```bash
 python3 << 'PY'
@@ -2001,24 +2001,24 @@ for p in root.glob("*.md"):
 
 all_ex.sort(reverse=True)
 for q,t,s in all_ex[:25]:
-    print(f"- **{t}** — {s}")
+    print(f"- **{t}** - {s}")
 PY
 ```
 
 ```
-- **Webhooks** — Form submit hits my script instantly instead of me refreshing the inbox every five minutes - HTTP callback when something happens.
-- **Voice Memos** — Driving home from clinic I dictated the thought into the phone - transcribed later into the inbox.
-- **Voice Memos** — Driving between sites I voice-memo'd the supplier change - transcribed into the inbox when I parked.
-- **Turn the Other Cheek** — Neighbor's passive-aggressive note about parking - I didn't post a rebuttal on the group chat; stop throwing anger after sunk hurt.
-- **Treasure in Heaven** — Thumb on another buy I don't need - will this rust, or store something heaven-side like mercy and obedience?
-- **The Second Brain Workflow** — Links land in one inbox all week; weekly review empties it and ships one note - one loop, not separate capture and organize rituals I quit.
-- **The Second Brain Workflow** — Game notes hit one inbox after match; Sunday I sort, toss, and pull one play into next week's plan - capture, organize, distill, express in one loop.
-- **The Golden Rule at Work** — The group chat pile-on about the neighbor's messy yard - I asked how I'd want feedback if my lawn looked that way, then said nothing mean.
-- **The Golden Rule at Work** — My draft reply to the new team manager was technically right and needlessly harsh - I paused, asked how I'd want that correction on my worst game day, and rewrote it.
-- **The Golden Rule** — Waiting in line at the clinic, someone cut ahead and I drafted a public scolding - Golden Rule check: I'd want grace, not an audience.
-- **The Golden Rule** — My thumb was on the post button with a critique that was probably true and definitely cruel - pause: how would I want someone to say that to me?
-- **The Garage Concept** — Draft posts live in my private folder; the blog gets the finished essay - I don't accidentally publish the mess.
-- **The Beatitudes** — A good week at the clinic and I felt like I didn't need much from God - poor in spirit is broke 
+- **Webhooks** - Form submit hits my script instantly instead of me refreshing the inbox every five minutes - HTTP callback when something happens.
+- **Voice Memos** - Driving home from clinic I dictated the thought into the phone - transcribed later into the inbox.
+- **Voice Memos** - Driving between sites I voice-memo'd the supplier change - transcribed into the inbox when I parked.
+- **Turn the Other Cheek** - Neighbor's passive-aggressive note about parking - I didn't post a rebuttal on the group chat; stop throwing anger after sunk hurt.
+- **Treasure in Heaven** - Thumb on another buy I don't need - will this rust, or store something heaven-side like mercy and obedience?
+- **The Second Brain Workflow** - Links land in one inbox all week; weekly review empties it and ships one note - one loop, not separate capture and organize rituals I quit.
+- **The Second Brain Workflow** - Game notes hit one inbox after match; Sunday I sort, toss, and pull one play into next week's plan - capture, organize, distill, express in one loop.
+- **The Golden Rule at Work** - The group chat pile-on about the neighbor's messy yard - I asked how I'd want feedback if my lawn looked that way, then said nothing mean.
+- **The Golden Rule at Work** - My draft reply to the new team manager was technically right and needlessly harsh - I paused, asked how I'd want that correction on my worst game day, and rewrote it.
+- **The Golden Rule** - Waiting in line at the clinic, someone cut ahead and I drafted a public scolding - Golden Rule check: I'd want grace, not an audience.
+- **The Golden Rule** - My thumb was on the post button with a critique that was probably true and definitely cruel - pause: how would I want someone to say that to me?
+- **The Garage Concept** - Draft posts live in my private folder; the blog gets the finished essay - I don't accidentally publish the mess.
+- **The Beatitudes** - A good week at the clinic and I felt like I didn't need much from God - poor in spirit is broke 
 … (output truncated)
 ```
 </details></tool-use>
@@ -2202,7 +2202,7 @@ for p in sorted(root.glob(&#34;*.md&#34;)):
     pool.sort(key=lambda x: x[1], reverse=True)
     top = [s for s,_ in pool[:5]]
     parts = &#34; · &#34;.join(f&#34;({i}) {s}&#34; for i,s in enumerate(top,1))
-    lines.append(f&#34;**{title}** — {parts}&#34;)
+    lines.append(f&#34;**{title}** - {parts}&#34;)
 print(&#34;\n&#34;.join(lines))
 print(&#34;\n---\nTotal chars:&#34;, sum(len(x) for x in lines))
 PY</summary>
@@ -2244,16 +2244,16 @@ for p in sorted(root.glob("*.md")):
     pool.sort(key=lambda x: x[1], reverse=True)
     top = [s for s,_ in pool[:5]]
     parts = " · ".join(f"({i}) {s}" for i,s in enumerate(top,1))
-    lines.append(f"**{title}** — {parts}")
+    lines.append(f"**{title}** - {parts}")
 print("\n".join(lines))
 print("\n---\nTotal chars:", sum(len(x) for x in lines))
 PY
 ```
 
 ```
-**Abide in Me** — (1) No prayer or Scripture all week - patience snapped at someone. Apart from the vine, what can I produce? → Nothing good - reconnect now. · (2) I snap at my kid after a week with almost no prayer or Scripture, and I know where the fruit went - abiding is opening the Bible before the news feed wins again. · (3) I checked email three times before I prayed this morning and wondered why God felt far away - staying connected is the daily choice, not the badge from conversion day. · (4) Trying harder at fruit - more service, less sin - but feeling dry inside. Where does fruit come from? → Stay connected - fruit from the vine. · (5) Pruning hurts - fear God revoked my place. What does pruning actually mean? → It refines - stay on the vine.
-**Accountability** — (1) The condo board didn't say "someone should fix the gate" - they named a contact and a deadline in the group chat before anyone drove off. · (2) When homework didn't get turned in, we stopped saying "we forgot" and named who packs the folder each night - one kid, one job, no vague blame. · (3) After we lost on a bad inbounds pass, the coach named who calls the play - not "the whole team messed up." One owner, one fix before the next possession. · (4) After a patient mix-up, our charge nurse named who was running the code cart and who was documenting - not "everyone was involved." One owner, one timeline, one honest chart note before the shift ended.
-**Active Knowledge Curation** — (1) I do the same with my idea pile on the first Sunday - saved links I wouldn't act on today hit the trash, half-finished thoughts finally get linked. · (2) Our trainer reviews the drill library every month and cuts what nobody runs anymore - same job as pruning notes that wouldn't make today's practice plan. · (3) The head cook walks the walk-in every Monday and throws out whatever won't make this week's menu - twelve items gone, three worth keeping finally get a spot on the board. · (4) The little free library on o
+**Abide in Me** - (1) No prayer or Scripture all week - patience snapped at someone. Apart from the vine, what can I produce? → Nothing good - reconnect now. · (2) I snap at my kid after a week with almost no prayer or Scripture, and I know where the fruit went - abiding is opening the Bible before the news feed wins again. · (3) I checked email three times before I prayed this morning and wondered why God felt far away - staying connected is the daily choice, not the badge from conversion day. · (4) Trying harder at fruit - more service, less sin - but feeling dry inside. Where does fruit come from? → Stay connected - fruit from the vine. · (5) Pruning hurts - fear God revoked my place. What does pruning actually mean? → It refines - stay on the vine.
+**Accountability** - (1) The condo board didn't say "someone should fix the gate" - they named a contact and a deadline in the group chat before anyone drove off. · (2) When homework didn't get turned in, we stopped saying "we forgot" and named who packs the folder each night - one kid, one job, no vague blame. · (3) After we lost on a bad inbounds pass, the coach named who calls the play - not "the whole team messed up." One owner, one fix before the next possession. · (4) After a patient mix-up, our charge nurse named who was running the code cart and who was documenting - not "everyone was involved." One owner, one timeline, one honest chart note before the shift ended.
+**Active Knowledge Curation** - (1) I do the same with my idea pile on the first Sunday - saved links I wouldn't act on today hit the trash, half-finished thoughts finally get linked. · (2) Our trainer reviews the drill library every month and cuts what nobody runs anymore - same job as pruning notes that wouldn't make today's practice plan. · (3) The head cook walks the walk-in every Monday and throws out whatever won't make this week's menu - twelve items gone, three worth keeping finally get a spot on the board. · (4) The little free library on o
 … (output truncated)
 ```
 </details></tool-use>
@@ -2292,7 +2292,7 @@ All 179 notes have been reviewed. Each note contains 4–5 examples ranked by qu
 
 _**Agent (default)**_
 
-**Corpus review:** I read all **179 atomic notes** with `## Examples` sections (**716 genre-tagged bullets**). Genre labels were ignored — examples were ranked purely on vividness, first-person grounding, mid-action cues, and how clearly they illustrate the claim.
+**Corpus review:** I read all **179 atomic notes** with `## Examples` sections (**716 genre-tagged bullets**). Genre labels were ignored - examples were ranked purely on vividness, first-person grounding, mid-action cues, and how clearly they illustrate the claim.
 
 ---
 
@@ -2300,39 +2300,39 @@ _**Agent (default)**_
 
 The strongest examples share a pattern:
 
-1. **Mid-action cue** — thumb on send, jeepney noise, locker room, group chat draft
-2. **One concrete move** — deleted the matching draft, voided the receipt, closed the app
-3. **Claim lands in the scene** — you see the principle fire, not a label dropped on top
-4. **JoRap surfaces** — clinic, jeepney, receipt, pickup line, condo board — not generic “workplace”
-5. **Flashcard scenes count** — notes with `review: true` often have a stronger 5th example in `cards:` than in the genre slots
+1. **Mid-action cue** - thumb on send, jeepney noise, locker room, group chat draft
+2. **One concrete move** - deleted the matching draft, voided the receipt, closed the app
+3. **Claim lands in the scene** - you see the principle fire, not a label dropped on top
+4. **JoRap surfaces** - clinic, jeepney, receipt, pickup line, condo board - not generic “workplace”
+5. **Flashcard scenes count** - notes with `review: true` often have a stronger 5th example in `cards:` than in the genre slots
 
 **Hall of fame (25 best individual sentences across the garden):**
 
-- **The Golden Rule** — My thumb was on the post button with a critique that was probably true and definitely cruel — pause: how would I want someone to say that to me?
-- **Break the Escalation Cycle** — A parent emailed the principal with a snarky line about our field trip delay — I deleted my matching draft, answered the fact, offered the new date, and broke the reply-all war before it started.
-- **Own the Error** — Surgeons do morbidity rounds — name the miss, fix the process; I rang up the wrong total, voided the receipt, added a second look when bills pile up.
-- **Peacemakers** — Two teammates were feuding in the locker room — I didn't pick a side, I asked what it would take to fix it before the next game.
-- **Love Your Enemies** — Someone slandered me in a group chat and my thumb hovered over a reply — I prayed for them, not because they deserve it, because that's what the Father does with people like me.
-- **Self-Control** — My thumb hovered over a snarky reply in the pickup-line group chat — self-control was close the app and answer when I wasn't drunk on cortisol.
-- **Treasure in Heaven** — Thumb on another buy I don't need — will this rust, or store something heaven-side like mercy and obedience?
-- **The Beatitudes** — A good week at the clinic and I felt like I didn't need much from God — poor in spirit is broke before God, not the worker who nailed Friday's schedule.
-- **Capture** — On the jeepney my kid says something I want to remember and I scribble it on a receipt before the station noise eats it — one pocket notebook, no sorting yet.
-- **Building a Second Brain** — A play idea hits during warm-ups and I voice-memo it before the gym noise eats it — my head is for having ideas, the inbox is for storing them until review.
-- **Associative Linking** — I linked "jeepney delay" to "leave earlier" in my daily note and found it six weeks later when the same route broke again — proximity beats perfect filing.
-- **Digital Serendipity** — A random graph walk linked "jeepney delay" to "leave earlier" six weeks after I saved both — old notes surprised me at the right time because I'd wired the system for it.
-- **Priorities Before the Inbox** — The report was due at noon — I wrote the first page before opening Slack.
-- **Share What You Learn** — I'd figured out the clinic's parking trick after three visits — I told the next parent in line instead of hoarding the shortcut.
-- **Notice the Good** — I told my spouse: "You texted you'd be late before I had to ask — that took stress off dinner." One action named, easy to repeat.
-- **The Golden Rule at Work** — My draft reply to the new team manager was technically right and needlessly harsh — I paused, asked how I'd want that correction on my worst game day, and rewrote it.
-- **Secret Devotion** — I pray with the kids before bed with the door closed — no photo, no caption, just the Father who already knows we're here.
-- **Synthesis as a Goal** — Three recipe clippings sat on the fridge until I merged them into one dinner I actually cooked — collecting felt like work; synthesis is when learning started.
-- **Don't Worry** — I thumb-refresh the news about tomorrow's meeting instead of sleeping — worry can't add a single hour to life, and tomorrow can carry its own trouble.
-- **Growth Mindset** — I missed three free throws in a row at clinic. Growth mindset was ten minutes on form, not deciding I'd never shoot reliably in a game.
-- **Set Calm Boundaries** — A teammate kept trash-talking our own bench — I pulled him aside: "Ride the refs if you want; don't go at our guys. That stops now."
-- **Name the Feeling** — My kid came home furious about homework — "you're mad because it felt unfair" beat "just do it."
-- **Webhooks** — Form submit hits my script instantly instead of me refreshing the inbox every five minutes — HTTP callback when something happens.
-- **Voice Memos** — Driving home from clinic I dictated the thought into the phone — transcribed later into the inbox.
-- **Turn the Other Cheek** — Neighbor's passive-aggressive note about parking — I didn't post a rebuttal on the group chat; stop throwing anger after sunk hurt.
+- **The Golden Rule** - My thumb was on the post button with a critique that was probably true and definitely cruel - pause: how would I want someone to say that to me?
+- **Break the Escalation Cycle** - A parent emailed the principal with a snarky line about our field trip delay - I deleted my matching draft, answered the fact, offered the new date, and broke the reply-all war before it started.
+- **Own the Error** - Surgeons do morbidity rounds - name the miss, fix the process; I rang up the wrong total, voided the receipt, added a second look when bills pile up.
+- **Peacemakers** - Two teammates were feuding in the locker room - I didn't pick a side, I asked what it would take to fix it before the next game.
+- **Love Your Enemies** - Someone slandered me in a group chat and my thumb hovered over a reply - I prayed for them, not because they deserve it, because that's what the Father does with people like me.
+- **Self-Control** - My thumb hovered over a snarky reply in the pickup-line group chat - self-control was close the app and answer when I wasn't drunk on cortisol.
+- **Treasure in Heaven** - Thumb on another buy I don't need - will this rust, or store something heaven-side like mercy and obedience?
+- **The Beatitudes** - A good week at the clinic and I felt like I didn't need much from God - poor in spirit is broke before God, not the worker who nailed Friday's schedule.
+- **Capture** - On the jeepney my kid says something I want to remember and I scribble it on a receipt before the station noise eats it - one pocket notebook, no sorting yet.
+- **Building a Second Brain** - A play idea hits during warm-ups and I voice-memo it before the gym noise eats it - my head is for having ideas, the inbox is for storing them until review.
+- **Associative Linking** - I linked "jeepney delay" to "leave earlier" in my daily note and found it six weeks later when the same route broke again - proximity beats perfect filing.
+- **Digital Serendipity** - A random graph walk linked "jeepney delay" to "leave earlier" six weeks after I saved both - old notes surprised me at the right time because I'd wired the system for it.
+- **Priorities Before the Inbox** - The report was due at noon - I wrote the first page before opening Slack.
+- **Share What You Learn** - I'd figured out the clinic's parking trick after three visits - I told the next parent in line instead of hoarding the shortcut.
+- **Notice the Good** - I told my spouse: "You texted you'd be late before I had to ask - that took stress off dinner." One action named, easy to repeat.
+- **The Golden Rule at Work** - My draft reply to the new team manager was technically right and needlessly harsh - I paused, asked how I'd want that correction on my worst game day, and rewrote it.
+- **Secret Devotion** - I pray with the kids before bed with the door closed - no photo, no caption, just the Father who already knows we're here.
+- **Synthesis as a Goal** - Three recipe clippings sat on the fridge until I merged them into one dinner I actually cooked - collecting felt like work; synthesis is when learning started.
+- **Don't Worry** - I thumb-refresh the news about tomorrow's meeting instead of sleeping - worry can't add a single hour to life, and tomorrow can carry its own trouble.
+- **Growth Mindset** - I missed three free throws in a row at clinic. Growth mindset was ten minutes on form, not deciding I'd never shoot reliably in a game.
+- **Set Calm Boundaries** - A teammate kept trash-talking our own bench - I pulled him aside: "Ride the refs if you want; don't go at our guys. That stops now."
+- **Name the Feeling** - My kid came home furious about homework - "you're mad because it felt unfair" beat "just do it."
+- **Webhooks** - Form submit hits my script instantly instead of me refreshing the inbox every five minutes - HTTP callback when something happens.
+- **Voice Memos** - Driving home from clinic I dictated the thought into the phone - transcribed later into the inbox.
+- **Turn the Other Cheek** - Neighbor's passive-aggressive note about parking - I didn't post a rebuttal on the group chat; stop throwing anger after sunk hurt.
 
 ---
 
@@ -2363,7 +2363,7 @@ Drop **Sports / Non-technical work / Home / Real world**. Use **5 unconstrained 
 4. Faith or ethics fork (if the note warrants it)
 5. Flashcard-style cue → move (for spine notes) OR a second surface for the same principle
 
-**136 notes** only have 4 examples in the pool today — no 5th from flashcards. Those need one new scene each if you want a strict five.
+**136 notes** only have 4 examples in the pool today - no 5th from flashcards. Those need one new scene each if you want a strict five.
 
 ---
 
@@ -2373,135 +2373,135 @@ Ranked from existing `## Examples` + `cards:` where present. **43 notes** with f
 
 ### A–F
 
-**Abide in Me** — (1) No prayer or Scripture all week — patience snapped. Apart from the vine, what can I produce? → Nothing good — reconnect now. · (2) I snap at my kid after a week with almost no prayer or Scripture, and I know where the fruit went. · (3) I checked email three times before I prayed this morning and wondered why God felt far away. · (4) Trying harder at fruit — more service, less sin — but feeling dry inside. Where does fruit come from? → Stay connected. · (5) Pruning hurts — fear God revoked my place. What does pruning actually mean? → It refines — stay on the vine.
+**Abide in Me** - (1) No prayer or Scripture all week - patience snapped. Apart from the vine, what can I produce? → Nothing good - reconnect now. · (2) I snap at my kid after a week with almost no prayer or Scripture, and I know where the fruit went. · (3) I checked email three times before I prayed this morning and wondered why God felt far away. · (4) Trying harder at fruit - more service, less sin - but feeling dry inside. Where does fruit come from? → Stay connected. · (5) Pruning hurts - fear God revoked my place. What does pruning actually mean? → It refines - stay on the vine.
 
-**Accountability** — (1) The condo board didn't say "someone should fix the gate" — they named a contact and a deadline in the group chat. · (2) When homework didn't get turned in, we stopped saying "we forgot" and named who packs the folder each night. · (3) After we lost on a bad inbounds pass, the coach named who calls the play — not "the whole team messed up." · (4) After a patient mix-up, our charge nurse named who was running the code cart and who was documenting.
+**Accountability** - (1) The condo board didn't say "someone should fix the gate" - they named a contact and a deadline in the group chat. · (2) When homework didn't get turned in, we stopped saying "we forgot" and named who packs the folder each night. · (3) After we lost on a bad inbounds pass, the coach named who calls the play - not "the whole team messed up." · (4) After a patient mix-up, our charge nurse named who was running the code cart and who was documenting.
 
-**Active Knowledge Curation** — (1) I do the same with my idea pile on the first Sunday — saved links I wouldn't act on today hit the trash. · (2) Our trainer reviews the drill library every month and cuts what nobody runs anymore. · (3) The head cook walks the walk-in every Monday and throws out whatever won't make this week's menu. · (4) The little free library on our block gets weeded every few months.
+**Active Knowledge Curation** - (1) I do the same with my idea pile on the first Sunday - saved links I wouldn't act on today hit the trash. · (2) Our trainer reviews the drill library every month and cuts what nobody runs anymore. · (3) The head cook walks the walk-in every Monday and throws out whatever won't make this week's menu. · (4) The little free library on our block gets weeded every few months.
 
-**Adaptability** — (1) The jeepney route changed overnight and I still needed to get to work — same destination, different line. · (2) Rain canceled our outdoor run and we moved practice to the covered court. · (3) Our usual fish supplier doubled prices overnight — adaptability was rewriting the weekend menu before Saturday service. · (4) The school bus was late so we walked — same deadline for drop-off, different route.
+**Adaptability** - (1) The jeepney route changed overnight and I still needed to get to work - same destination, different line. · (2) Rain canceled our outdoor run and we moved practice to the covered court. · (3) Our usual fish supplier doubled prices overnight - adaptability was rewriting the weekend menu before Saturday service. · (4) The school bus was late so we walked - same deadline for drop-off, different route.
 
-**Analog Capture Tools** — (1) The phone dies mid-sermon and I scribble Philippians references in the margin. · (2) Stuck in a dead-zone meeting, I jot the action items on the back of the agenda. · (3) My phone died mid-game and the pocket notebook still had the set counts. · (4) The contractor sketches room dimensions on a napkin at the site walk.
+**Analog Capture Tools** - (1) The phone dies mid-sermon and I scribble Philippians references in the margin. · (2) Stuck in a dead-zone meeting, I jot the action items on the back of the agenda. · (3) My phone died mid-game and the pocket notebook still had the set counts. · (4) The contractor sketches room dimensions on a napkin at the site walk.
 
-**Anti-Fragile Systems** — (1) When the gym's booking app shut down for good, my paper training log still had every set. · (2) I keep notes as plain markdown files because the last shiny app I loved got acquired and killed. · (3) The shop switched POS systems twice and the owner kept a plain spreadsheet backup. · (4) Our family recipe box survived three phone upgrades.
+**Anti-Fragile Systems** - (1) When the gym's booking app shut down for good, my paper training log still had every set. · (2) I keep notes as plain markdown files because the last shiny app I loved got acquired and killed. · (3) The shop switched POS systems twice and the owner kept a plain spreadsheet backup. · (4) Our family recipe box survived three phone upgrades.
 
-**Ask Seek Knock** — (1) Email and inbox before any quiet time with God most mornings. How do I keep approaching the Father? → Ask, seek, knock. · (2) I thumb-refresh the news about tomorrow's meeting instead of asking — prayer is dependence, not bargaining for merit. · (3) The clinic chaplain rounds every floor on a schedule, not only when someone codes. · (4) Asked for something harmful — bitter God didn't comply. What does a wise Father give? → What's good. · (5) Know the words by heart but haven't opened Scripture in a week. Besides asking, what do I do? → Seek in Scripture.
+**Ask Seek Knock** - (1) Email and inbox before any quiet time with God most mornings. How do I keep approaching the Father? → Ask, seek, knock. · (2) I thumb-refresh the news about tomorrow's meeting instead of asking - prayer is dependence, not bargaining for merit. · (3) The clinic chaplain rounds every floor on a schedule, not only when someone codes. · (4) Asked for something harmful - bitter God didn't comply. What does a wise Father give? → What's good. · (5) Know the words by heart but haven't opened Scripture in a week. Besides asking, what do I do? → Seek in Scripture.
 
-**Associative Linking** — (1) I linked "jeepney delay" to "leave earlier" in my daily note and found it six weeks later when the same route broke again. · (2) Six months later I remember the filename but not the idea. What should I have done while writing? → Link while writing. · (3) The playbook card links "late press" to "[[Slow the Moment]]". · (4) The bedtime chart links "snack fight" to "brush teeth first". · (5) Just finished a new atomic note — filing it now. Minimum typed links before it's garden-ready? → Add one extends, one contradicts.
+**Associative Linking** - (1) I linked "jeepney delay" to "leave earlier" in my daily note and found it six weeks later when the same route broke again. · (2) Six months later I remember the filename but not the idea. What should I have done while writing? → Link while writing. · (3) The playbook card links "late press" to "[[Slow the Moment]]". · (4) The bedtime chart links "snack fight" to "brush teeth first". · (5) Just finished a new atomic note - filing it now. Minimum typed links before it's garden-ready? → Add one extends, one contradicts.
 
-**Atomic Notes** — (1) Tempted to organize with headings inside one file instead of links. What do I use? → Wikilinks between notes. · (2) "Why my basketball shoes live by the door" is one claim — I'd say it alone at carpool. · (3) Draft mixes browser tips AND meeting notes in one file. What's the move? → Split. · (4) "How we hand off the closing shift" is one claim; "closing checklist and vendor call list" is two. · (5) "Why lunch boxes get packed the night before" is atomic; "lunch packing and homework folder tips" is not.
+**Atomic Notes** - (1) Tempted to organize with headings inside one file instead of links. What do I use? → Wikilinks between notes. · (2) "Why my basketball shoes live by the door" is one claim - I'd say it alone at carpool. · (3) Draft mixes browser tips AND meeting notes in one file. What's the move? → Split. · (4) "How we hand off the closing shift" is one claim; "closing checklist and vendor call list" is two. · (5) "Why lunch boxes get packed the night before" is atomic; "lunch packing and homework folder tips" is not.
 
-**Attention Economy** — (1) The clinic waiting-room TV runs health tips between ads — my attention was the product. · (2) Halftime on my phone was supposed to be rest — twenty minutes of clips aimed at my outrage. · (3) Twenty minutes "checking news" was twenty minutes of ads aimed at my outrage. · (4) My kid's tablet "educational" game paused every level for a purchase screen.
+**Attention Economy** - (1) The clinic waiting-room TV runs health tips between ads - my attention was the product. · (2) Halftime on my phone was supposed to be rest - twenty minutes of clips aimed at my outrage. · (3) Twenty minutes "checking news" was twenty minutes of ads aimed at my outrage. · (4) My kid's tablet "educational" game paused every level for a purchase screen.
 
-**Attention to Detail** — (1) I almost sent the permission slip to the wrong teacher because the forms looked the same. · (2) I use the same pause before I sign anything that can't be undone. · (3) We almost threw the inbounds pass on the wrong side of the line because two hash marks looked identical. · (4) A nurse almost gave the wrong dose because two bags looked identical.
+**Attention to Detail** - (1) I almost sent the permission slip to the wrong teacher because the forms looked the same. · (2) I use the same pause before I sign anything that can't be undone. · (3) We almost threw the inbounds pass on the wrong side of the line because two hash marks looked identical. · (4) A nurse almost gave the wrong dose because two bags looked identical.
 
-**Behavioral Economics** — (1) I kept paying for the unused gym membership because "I already paid". · (2) Kept the gym membership because "I already paid" — classic sunk cost. · (3) The restaurant kept the broken POS because "we already invested in training". · (4) We kept the extra streaming service three months after anyone watched it.
+**Behavioral Economics** - (1) I kept paying for the unused gym membership because "I already paid". · (2) Kept the gym membership because "I already paid" - classic sunk cost. · (3) The restaurant kept the broken POS because "we already invested in training". · (4) We kept the extra streaming service three months after anyone watched it.
 
-**Break the Escalation Cycle** — (1) A parent emailed the principal with a snarky line about our field trip delay — I deleted my matching draft, answered the fact, offered the new date. · (2) A parent yelled at the ref from the sideline and my first instinct was to yell back — I answered the rule, kept my voice flat. · (3) My kid snapped first at dinner and I almost matched the volume — I named what happened, lowered my voice. · (4) A neighbor's group-chat jab about parking got a sharp reply in my drafts — I sent the facts and the new plan instead.
+**Break the Escalation Cycle** - (1) A parent emailed the principal with a snarky line about our field trip delay - I deleted my matching draft, answered the fact, offered the new date. · (2) A parent yelled at the ref from the sideline and my first instinct was to yell back - I answered the rule, kept my voice flat. · (3) My kid snapped first at dinner and I almost matched the volume - I named what happened, lowered my voice. · (4) A neighbor's group-chat jab about parking got a sharp reply in my drafts - I sent the facts and the new plan instead.
 
-**Build a Reliable Default** — (1) The clinic front desk doesn't make up triage order when three walk-ins arrive — they run the laminated sheet taped by the phone. · (2) Our family fire plan is one page on the fridge: two exits, where we meet, who grabs the baby. · (3) The point guard doesn't invent a new inbound play when the gym gets loud — she runs the one they drilled Tuesday. · (4) The building guard doesn't improvise evacuation when the alarm trips — he walks the posted route he practiced on quiet shifts.
+**Build a Reliable Default** - (1) The clinic front desk doesn't make up triage order when three walk-ins arrive - they run the laminated sheet taped by the phone. · (2) Our family fire plan is one page on the fridge: two exits, where we meet, who grabs the baby. · (3) The point guard doesn't invent a new inbound play when the gym gets loud - she runs the one they drilled Tuesday. · (4) The building guard doesn't improvise evacuation when the alarm trips - he walks the posted route he practiced on quiet shifts.
 
-**Building a Personal API** — (1) Our pantry uses the same rule — snacks, baking, breakfast — my wife finds the rice without me re-explaining. · (2) My notes use consistent slugs and wikilinks so future me and my tools can read the garden without re-explaining every file. · (3) Our team names drills the same way every season — level, skill, variation. · (4) The warehouse labels every bin the same way — aisle, shelf, code.
+**Building a Personal API** - (1) Our pantry uses the same rule - snacks, baking, breakfast - my wife finds the rice without me re-explaining. · (2) My notes use consistent slugs and wikilinks so future me and my tools can read the garden without re-explaining every file. · (3) Our team names drills the same way every season - level, skill, variation. · (4) The warehouse labels every bin the same way - aisle, shelf, code.
 
-**Building a Second Brain** — (1) A play idea hits during warm-ups and I voice-memo it before the gym noise eats it. · (2) A sermon line lands mid-shift and I scribble it on a receipt — one trusted inbox, no sorting yet. · (3) A dinner idea hits on the jeepney and I voice-memo it before the station noise eats it. · (4) On the commute my kid says something I want to remember and I drop it in one inbox. · (5) Notes pile up but nothing publishes. Which step is failing? → Express — schedule ship.
+**Building a Second Brain** - (1) A play idea hits during warm-ups and I voice-memo it before the gym noise eats it. · (2) A sermon line lands mid-shift and I scribble it on a receipt - one trusted inbox, no sorting yet. · (3) A dinner idea hits on the jeepney and I voice-memo it before the station noise eats it. · (4) On the commute my kid says something I want to remember and I drop it in one inbox. · (5) Notes pile up but nothing publishes. Which step is failing? → Express - schedule ship.
 
-**By Their Fruits** — (1) The youth coach talks smooth on day one but his players look stressed and bitter by month three. · (2) A trending productivity guru's followers still drown in inbox chaos — grapes from grapevines, thorns from thistles. · (3) About to condemn the teacher's soul online. What do I do instead? → Look at fruit — don't judge their soul. · (4) Last month I bookmarked a preacher who looks holy on stage — six weeks later the people around him looked broke and bitter. · (5) A parenting influencer sells calm routines but her comment section is full of moms feeling like failures.
+**By Their Fruits** - (1) The youth coach talks smooth on day one but his players look stressed and bitter by month three. · (2) A trending productivity guru's followers still drown in inbox chaos - grapes from grapevines, thorns from thistles. · (3) About to condemn the teacher's soul online. What do I do instead? → Look at fruit - don't judge their soul. · (4) Last month I bookmarked a preacher who looks holy on stage - six weeks later the people around him looked broke and bitter. · (5) A parenting influencer sells calm routines but her comment section is full of moms feeling like failures.
 
-**Capture** — (1) Thumb hovering over save on an interesting link. One question before it hits the inbox? → Would I act on it or cite it later? · (2) Ideas keep dying before they reach the inbox. First fix I try? → Simplify to one pipe. · (3) Something lands and I want to tag and file immediately. Where do I actually stop? → Stop at inbox. · (4) A play tweak hits during cooldown and I scribble it on my wristband before the locker room noise eats it. · (5) A customer complaint gives me a fix idea mid-shift and I drop it in one inbox — no tagging yet.
+**Capture** - (1) Thumb hovering over save on an interesting link. One question before it hits the inbox? → Would I act on it or cite it later? · (2) Ideas keep dying before they reach the inbox. First fix I try? → Simplify to one pipe. · (3) Something lands and I want to tag and file immediately. Where do I actually stop? → Stop at inbox. · (4) A play tweak hits during cooldown and I scribble it on my wristband before the locker room noise eats it. · (5) A customer complaint gives me a fix idea mid-shift and I drop it in one inbox - no tagging yet.
 
-**Childlike Faith** — (1) My daughter asked for water at practice without calculating whether she'd earned it — I caught myself running a merit scoreboard with God. · (2) I delay prayer until my week looks respectable — childlike faith means I come like a kid who already belongs. · (3) New believer ashamed they don't know the Bible. What would I tell them? → Receive like a child. · (4) Negotiating with God before I trust the promise. What's the entry posture? → Stop calculating — receive the gift. · (5) Delaying trust until I understand everything. When do I enter? → Now.
+**Childlike Faith** - (1) My daughter asked for water at practice without calculating whether she'd earned it - I caught myself running a merit scoreboard with God. · (2) I delay prayer until my week looks respectable - childlike faith means I come like a kid who already belongs. · (3) New believer ashamed they don't know the Bible. What would I tell them? → Receive like a child. · (4) Negotiating with God before I trust the promise. What's the entry posture? → Stop calculating - receive the gift. · (5) Delaying trust until I understand everything. When do I enter? → Now.
 
-**Coaching Ethics** — (1) I wouldn't let my kid do a backflip off the couch because she asked twice — develop the person, don't hide behind consent when the move is reckless. · (2) The coach who said "they signed the waiver" after a near-drown wasn't coaching. · (3) The swim instructor kept pushing breath-hold games after a kid panicked. · (4) The gym sold a dangerous cleanse because customers clicked agree.
+**Coaching Ethics** - (1) I wouldn't let my kid do a backflip off the couch because she asked twice - develop the person, don't hide behind consent when the move is reckless. · (2) The coach who said "they signed the waiver" after a near-drown wasn't coaching. · (3) The swim instructor kept pushing breath-hold games after a kid panicked. · (4) The gym sold a dangerous cleanse because customers clicked agree.
 
-**Commonplace Book** — (1) Coach's old basketball playbook of sets and halftime talks — same job as my [[Capture]] file, paper instead of wikilinks. · (2) A thrift-store find: a 1980s coach's playbook with handwritten margins. · (3) Grandpa's notebook of sermon lines and recipes. · (4) My mother-in-law's recipe card box with margin notes.
+**Commonplace Book** - (1) Coach's old basketball playbook of sets and halftime talks - same job as my [[Capture]] file, paper instead of wikilinks. · (2) A thrift-store find: a 1980s coach's playbook with handwritten margins. · (3) Grandpa's notebook of sermon lines and recipes. · (4) My mother-in-law's recipe card box with margin notes.
 
-**Complete the Cycle** — (1) Halftime talk ended with "we'll fix the press tomorrow" — I wrote the one drill on the whiteboard before anyone left the gym. · (2) Parent-teacher night ended with "we'll email the action plan" — the recap went out before anyone left the parking lot. · (3) We said we'd call the dentist back and forgot until Monday — booking the slot before we cleared the table. · (4) The HOA meeting ended with vague follow-up — the summary email with owners and deadlines went out that night.
+**Complete the Cycle** - (1) Halftime talk ended with "we'll fix the press tomorrow" - I wrote the one drill on the whiteboard before anyone left the gym. · (2) Parent-teacher night ended with "we'll email the action plan" - the recap went out before anyone left the parking lot. · (3) We said we'd call the dentist back and forgot until Monday - booking the slot before we cleared the table. · (4) The HOA meeting ended with vague follow-up - the summary email with owners and deadlines went out that night.
 
-**Composure** — (1) The neighbor argument on the group chat heated up and I waited one beat before replying. · (2) I used the same move in a heated parent meeting — slower speech, one clarifying question. · (3) My kid was melting down at bedtime and I kept my voice flat. · (4) A referee stays calm when players yell — not because the foul didn't matter.
+**Composure** - (1) The neighbor argument on the group chat heated up and I waited one beat before replying. · (2) I used the same move in a heated parent meeting - slower speech, one clarifying question. · (3) My kid was melting down at bedtime and I kept my voice flat. · (4) A referee stays calm when players yell - not because the foul didn't matter.
 
-**Compounding** — (1) Ten minutes of free throws every Tuesday looked pointless for months — then the percentage bent without me noticing. · (2) A line cook fixes one prep station flaw every Monday. · (3) My kid's piano practice looked pointless for a year — then year two the pieces started linking. · (4) Our family morning checklist grew one line per forgotten backpack.
+**Compounding** - (1) Ten minutes of free throws every Tuesday looked pointless for months - then the percentage bent without me noticing. · (2) A line cook fixes one prep station flaw every Monday. · (3) My kid's piano practice looked pointless for a year - then year two the pieces started linking. · (4) Our family morning checklist grew one line per forgotten backpack.
 
-**Context-Aware Capture** — (1) At the clinic I scribble "follow up — Mrs. Santos, BP log" on the chart stub — Saturday that line is the only reason I remember it wasn't a generic callback. · (2) I saved a drill clip titled "use when our pick-and-roll breaks down". · (3) At the grocery I scribble "milk — school party Friday" on the list back. · (4) I bookmark a link with one line about which project it feeds.
+**Context-Aware Capture** - (1) At the clinic I scribble "follow up - Mrs. Santos, BP log" on the chart stub - Saturday that line is the only reason I remember it wasn't a generic callback. · (2) I saved a drill clip titled "use when our pick-and-roll breaks down". · (3) At the grocery I scribble "milk - school party Friday" on the list back. · (4) I bookmark a link with one line about which project it feeds.
 
-**Continuous Improvement** — (1) I tweak one line in my weekly review checklist after each miss. · (2) A line cook pulls a bad prep tray and fixes the station before service. · (3) The barista changed one milk-steaming step after every burned latte. · (4) Our family morning checklist grew one line per forgotten backpack.
+**Continuous Improvement** - (1) I tweak one line in my weekly review checklist after each miss. · (2) A line cook pulls a bad prep tray and fixes the station before service. · (3) The barista changed one milk-steaming step after every burned latte. · (4) Our family morning checklist grew one line per forgotten backpack.
 
-**Control the Rhythm** — (1) A dad texted "my kid needs more reps today" before I'd watched him play — "let's see Thursday's scrimmage first". · (2) A client wanted an answer in ten minutes on a complex quote — I said I'd send numbers after lunch. · (3) Good coaches don't let the loudest parent set practice length. · (4) Bedtime spiraled into "five more minutes" chaos until we set the clock.
+**Control the Rhythm** - (1) A dad texted "my kid needs more reps today" before I'd watched him play - "let's see Thursday's scrimmage first". · (2) A client wanted an answer in ten minutes on a complex quote - I said I'd send numbers after lunch. · (3) Good coaches don't let the loudest parent set practice length. · (4) Bedtime spiraled into "five more minutes" chaos until we set the clock.
 
-**Convert Pain Into Learning** — (1) I bombed a client presentation and stewed for a week — one page: weak transitions, rehearse bridges ten times, cut two slides. · (2) I missed the turn twice on the new commute — one note on where the sign hides, tested next Monday. · (3) A basketball team watches film after a loss — not to wallow, but so the next game is cleaner. · (4) My kid failed the spelling test — we pulled the missed pattern and drilled those ten words.
+**Convert Pain Into Learning** - (1) I bombed a client presentation and stewed for a week - one page: weak transitions, rehearse bridges ten times, cut two slides. · (2) I missed the turn twice on the new commute - one note on where the sign hides, tested next Monday. · (3) A basketball team watches film after a loss - not to wallow, but so the next game is cleaner. · (4) My kid failed the spelling test - we pulled the missed pattern and drilled those ten words.
 
-**CRDT** — (1) My wife and I edited the grocery list on two phones offline and both items stayed. · (2) Two coaches edited the same lineup offline at a tournament and both changes merged. · (3) Two shift leads updated the patient board offline and both notes merged when Wi‑Fi came back. · (4) Two phones edited the same list offline and both changes merged.
+**CRDT** - (1) My wife and I edited the grocery list on two phones offline and both items stayed. · (2) Two coaches edited the same lineup offline at a tournament and both changes merged. · (3) Two shift leads updated the patient board offline and both notes merged when Wi‑Fi came back. · (4) Two phones edited the same list offline and both changes merged.
 
-**Create Regular Connection** — (1) I block fifteen minutes after standup to walk with one teammate — not a performance review, just the same loop every Tuesday. · (2) My parents and I call every Sunday after lunch — same window, even when there's nothing big to report. · (3) Our pickup group texts "same court, same time Thursday" every week. · (4) Bedtime is three questions every night: best part, hard part, tomorrow's one hope.
+**Create Regular Connection** - (1) I block fifteen minutes after standup to walk with one teammate - not a performance review, just the same loop every Tuesday. · (2) My parents and I call every Sunday after lunch - same window, even when there's nothing big to report. · (3) Our pickup group texts "same court, same time Thursday" every week. · (4) Bedtime is three questions every night: best part, hard part, tomorrow's one hope.
 
-**Creative Blocks** — (1) My kid stared at a blank training log for twenty minutes — I told her to write one messy line about today's warmup. · (2) The new hire couldn't start the report — I said write one ugly paragraph about yesterday's customer call. · (3) My daughter stared at a blank worksheet — write one messy sentence about breakfast. · (4) I do the same when I'm stuck on a post — one ugly paragraph, then the rest can follow.
+**Creative Blocks** - (1) My kid stared at a blank training log for twenty minutes - I told her to write one messy line about today's warmup. · (2) The new hire couldn't start the report - I said write one ugly paragraph about yesterday's customer call. · (3) My daughter stared at a blank worksheet - write one messy sentence about breakfast. · (4) I do the same when I'm stuck on a post - one ugly paragraph, then the rest can follow.
 
-**Creative Output** — (1) Friday film day means everyone shows one clip, rough or not. · (2) I publish the sermon outline before it's polished because truth shared beats truth hoarded. · (3) The art teacher makes everyone show one sketch, rough or not. · (4) We don't wait for perfect dinner photos — we ship the meal and fix the recipe next time.
+**Creative Output** - (1) Friday film day means everyone shows one clip, rough or not. · (2) I publish the sermon outline before it's polished because truth shared beats truth hoarded. · (3) The art teacher makes everyone show one sketch, rough or not. · (4) We don't wait for perfect dinner photos - we ship the meal and fix the recipe next time.
 
-**Daily Notes** — (1) Today's pocket slip is just fragments — pick up basketball shoes, ice after practice, call coach back. · (2) Today's pocket slip: pick up cleats, dentist Tuesday, call Mom back. · (3) My shift log is fragments — restock bay three, call vendor, fix label printer. · (4) The commute note catches "pay Meralco, renew OR" before it vanishes.
+**Daily Notes** - (1) Today's pocket slip is just fragments - pick up basketball shoes, ice after practice, call coach back. · (2) Today's pocket slip: pick up cleats, dentist Tuesday, call Mom back. · (3) My shift log is fragments - restock bay three, call vendor, fix label printer. · (4) The commute note catches "pay Meralco, renew OR" before it vanishes.
 
-**Decision Quality** — (1) Signing a year-long club fee on one trial session — decision quality was one call to a current member before we paid. · (2) Buying supplies on one vendor quote — checking last month's invoice before we reordered. · (3) We almost picked the school on one sunny open house — one neighbor call about the flood-prone pickup lane. · (4) Buying a house on one sunny open-house visit — one neighbor call before we signed.
+**Decision Quality** - (1) Signing a year-long club fee on one trial session - decision quality was one call to a current member before we paid. · (2) Buying supplies on one vendor quote - checking last month's invoice before we reordered. · (3) We almost picked the school on one sunny open house - one neighbor call about the flood-prone pickup lane. · (4) Buying a house on one sunny open-house visit - one neighbor call before we signed.
 
-**Deep Work** — (1) Phone in the drawer while I help with math — one problem set actually finished. · (2) Phone in the gym bag for ninety minutes — one drill breakdown written. · (3) Door closed, notifications off for one patient chart review — the error I'd been rushing past finally showed up. · (4) Phone in the drawer for ninety minutes — one note drafted.
+**Deep Work** - (1) Phone in the drawer while I help with math - one problem set actually finished. · (2) Phone in the gym bag for ninety minutes - one drill breakdown written. · (3) Door closed, notifications off for one patient chart review - the error I'd been rushing past finally showed up. · (4) Phone in the drawer for ninety minutes - one note drafted.
 
-**Deliberate Practice** — (1) I bombed transitions in a talk and ran only those bridges ten times the next morning. · (2) Our guard drills the weak-hand finish fifty times, not the whole scrimmage on autopilot. · (3) The new cashier drills voids and returns ten times. · (4) My kid's recital died in the bridges between songs — deliberate practice was running only those transitions ten times.
+**Deliberate Practice** - (1) I bombed transitions in a talk and ran only those bridges ten times the next morning. · (2) Our guard drills the weak-hand finish fifty times, not the whole scrimmage on autopilot. · (3) The new cashier drills voids and returns ten times. · (4) My kid's recital died in the bridges between songs - deliberate practice was running only those transitions ten times.
 
-**Develop, Don't Endanger** — (1) The clinic can drill fire evacuation with a walk-through — not by blocking the only exit. · (2) A conditioning set can build endurance — an uncontrolled water exercise adds lethal risk without improving sport-specific performance. · (3) Swim lessons in the shallow end beat throwing a non-swimmer into deep water. · (4) Replace an open-water endurance drill with a controlled pool set or land-based conditioning.
+**Develop, Don't Endanger** - (1) The clinic can drill fire evacuation with a walk-through - not by blocking the only exit. · (2) A conditioning set can build endurance - an uncontrolled water exercise adds lethal risk without improving sport-specific performance. · (3) Swim lessons in the shallow end beat throwing a non-swimmer into deep water. · (4) Replace an open-water endurance drill with a controlled pool set or land-based conditioning.
 
-**Digital Garden** — (1) Our team's playbook wiki still has last season's sets beside this year's — I replace a drill when I learn better. · (2) Our block's little free library still has last year's craft books beside this year's swaps. · (3) The shop's procedure binder grows in public — crossed-out steps stay visible. · (4) My garden posts stay linked and imperfect — notes grow in public instead of rotting in a folder.
+**Digital Garden** - (1) Our team's playbook wiki still has last season's sets beside this year's - I replace a drill when I learn better. · (2) Our block's little free library still has last year's craft books beside this year's swaps. · (3) The shop's procedure binder grows in public - crossed-out steps stay visible. · (4) My garden posts stay linked and imperfect - notes grow in public instead of rotting in a folder.
 
-**Digital Minimalism** — (1) We dropped the second gym bag and the backup jump rope. · (2) We dropped the second diaper bag, the backup stroller, and the junk drawer of chargers. · (3) Same reason I keep one capture path instead of five apps. · (4) The front desk runs one scheduling app, not four.
+**Digital Minimalism** - (1) We dropped the second gym bag and the backup jump rope. · (2) We dropped the second diaper bag, the backup stroller, and the junk drawer of chargers. · (3) Same reason I keep one capture path instead of five apps. · (4) The front desk runs one scheduling app, not four.
 
-**Digital Serendipity** — (1) A random graph walk linked "jeepney delay" to "leave earlier" six weeks after I saved both. · (2) I'm flipping through old drill cards before practice and last month's footwork note bumps into today's injury log. · (3) I'm searching old SOPs for "label printer" and a note on vendor callbacks from last quarter surfaces. · (4) I'm flipping through old recipe cards while packing lunch and a card on batch cooking bumps into one I wrote last month.
+**Digital Serendipity** - (1) A random graph walk linked "jeepney delay" to "leave earlier" six weeks after I saved both. · (2) I'm flipping through old drill cards before practice and last month's footwork note bumps into today's injury log. · (3) I'm searching old SOPs for "label printer" and a note on vendor callbacks from last quarter surfaces. · (4) I'm flipping through old recipe cards while packing lunch and a card on batch cooking bumps into one I wrote last month.
 
-**Discipleship** — (1) I knew the basketball handbook cold and still yelled at the ref — discipleship isn't memorizing policy. · (2) I had grace clear in my head and zero change in how I treated people at the front desk. · (3) I taught my kid the memory verse and still snapped over spilled milk. · (4) My notes garden is full but the gospel rarely leaves my mouth. · (5) Grace saved me but life looks unchanged. What's discipleship? → Follow daily — grateful walk, not optional.
+**Discipleship** - (1) I knew the basketball handbook cold and still yelled at the ref - discipleship isn't memorizing policy. · (2) I had grace clear in my head and zero change in how I treated people at the front desk. · (3) I taught my kid the memory verse and still snapped over spilled milk. · (4) My notes garden is full but the gospel rarely leaves my mouth. · (5) Grace saved me but life looks unchanged. What's discipleship? → Follow daily - grateful walk, not optional.
 
-**Discipline** — (1) I write on schedule whether the post feels brilliant. · (2) A marathon isn't won on race-day adrenaline — it's won on rainy Tuesday runs nobody films. · (3) The baker opens at 4am whether she's inspired or not. · (4) Discipline is loading the dishwasher when I'd rather scroll.
+**Discipline** - (1) I write on schedule whether the post feels brilliant. · (2) A marathon isn't won on race-day adrenaline - it's won on rainy Tuesday runs nobody films. · (3) The baker opens at 4am whether she's inspired or not. · (4) Discipline is loading the dishwasher when I'd rather scroll.
 
-**Don't Worry** — (1) I thumb-refresh the news about tomorrow's meeting instead of sleeping. · (2) I woke up at 2am replaying next month's payroll like anxiety could cut the checks. · (3) My kid asked what if the school fee goes up next year and I started spiraling at bedtime. · (4) Thumb on news refresh about tomorrow's meeting. One move that breaks the worry loop? → Today's enough. · (5) 2am spiral about bills before I prayed. What comes first? → Kingdom first — pray, then act.
+**Don't Worry** - (1) I thumb-refresh the news about tomorrow's meeting instead of sleeping. · (2) I woke up at 2am replaying next month's payroll like anxiety could cut the checks. · (3) My kid asked what if the school fee goes up next year and I started spiraling at bedtime. · (4) Thumb on news refresh about tomorrow's meeting. One move that breaks the worry loop? → Today's enough. · (5) 2am spiral about bills before I prayed. What comes first? → Kingdom first - pray, then act.
 
-**Drafting in Public** — (1) I shared a draft SOP with the team before it was polished. · (2) I posted a rough footwork clip before I'd nailed the cue words. · (3) I posted a rough arroz caldo recipe before I'd nailed the ginger amount. · (4) Drafting in public keeps the garden honest — rough ideas in the open grow faster.
+**Drafting in Public** - (1) I shared a draft SOP with the team before it was polished. · (2) I posted a rough footwork clip before I'd nailed the cue words. · (3) I posted a rough arroz caldo recipe before I'd nailed the ginger amount. · (4) Drafting in public keeps the garden honest - rough ideas in the open grow faster.
 
-**Duty of Care** — (1) The clinic keeps a crash cart checked every shift. · (2) The pool had a lifeguard on deck because "swim at your own risk" doesn't erase the job of watching kids. · (3) We don't leave the toddler pool gate open because the kids "know not to run". · (4) The building had a guard on the night shift because posted rules don't replace someone watching the exit.
+**Duty of Care** - (1) The clinic keeps a crash cart checked every shift. · (2) The pool had a lifeguard on deck because "swim at your own risk" doesn't erase the job of watching kids. · (3) We don't leave the toddler pool gate open because the kids "know not to run". · (4) The building had a guard on the night shift because posted rules don't replace someone watching the exit.
 
-**Eliminate Before Managing** — (1) Replace an open-water endurance drill with a controlled pool set or land-based conditioning. · (2) Swap the wobbly ladder for a stable step stool. · (3) We stopped storing cleaners under the sink and moved them up high. · (4) Kill the reply-all thread by fixing the process that started it.
+**Eliminate Before Managing** - (1) Replace an open-water endurance drill with a controlled pool set or land-based conditioning. · (2) Swap the wobbly ladder for a stable step stool. · (3) We stopped storing cleaners under the sink and moved them up high. · (4) Kill the reply-all thread by fixing the process that started it.
 
-**Elon Musk** — (1) I caught myself saying "what would Musk do" about the messy garage — the strip-to-basics nudge helped; treating him as the final answer didn't. · (2) My kid's coach kept quoting a YouTube drill until someone said "Musk would strip it to atoms". · (3) A friend said "Musk would strip it to atoms" about our overbuilt onboarding. · (4) The commute podcast kept name-dropping Musk on every hard problem.
+**Elon Musk** - (1) I caught myself saying "what would Musk do" about the messy garage - the strip-to-basics nudge helped; treating him as the final answer didn't. · (2) My kid's coach kept quoting a YouTube drill until someone said "Musk would strip it to atoms". · (3) A friend said "Musk would strip it to atoms" about our overbuilt onboarding. · (4) The commute podcast kept name-dropping Musk on every hard problem.
 
-**Emotional Regulation** — (1) A customer snapped at the cashier and she kept her voice level. · (2) I was furious at the ref's bad call and still ran the next play. · (3) My kid's homework meltdown made my face hot; I took a kitchen walk before I answered. · (4) A driver cut me off on the commute and I felt the anger — I still didn't chase them down the ramp.
+**Emotional Regulation** - (1) A customer snapped at the cashier and she kept her voice level. · (2) I was furious at the ref's bad call and still ran the next play. · (3) My kid's homework meltdown made my face hot; I took a kitchen walk before I answered. · (4) A driver cut me off on the commute and I felt the anger - I still didn't chase them down the ramp.
 
-**Energy Protects Judgment** — (1) I snapped at my kid over a spilled cup after a brutal week. · (2) After three nights of bad sleep I almost sent a sharp email to a neighbor — I waited until morning. · (3) The club caps practice hours late in the season because tired legs slip. · (4) Hospitals limit surgeon hours because tired hands slip.
+**Energy Protects Judgment** - (1) I snapped at my kid over a spilled cup after a brutal week. · (2) After three nights of bad sleep I almost sent a sharp email to a neighbor - I waited until morning. · (3) The club caps practice hours late in the season because tired legs slip. · (4) Hospitals limit surgeon hours because tired hands slip.
 
-**Eternal Rewards** — (1) I stayed late to help reset the gym alone and immediately wanted to mention it at the next practice. · (2) I covered a coworker's shift without telling anyone and caught myself fishing for credit in the break room. · (3) I prayed for twenty minutes alone this morning and wanted to mention it at breakfast. · (4) I gave quietly at the neighborhood drive and felt discouraged nobody saw. · (5) Secret prayer and tempted to tell everyone so I feel credited. Who pays? → Father in secret.
+**Eternal Rewards** - (1) I stayed late to help reset the gym alone and immediately wanted to mention it at the next practice. · (2) I covered a coworker's shift without telling anyone and caught myself fishing for credit in the break room. · (3) I prayed for twenty minutes alone this morning and wanted to mention it at breakfast. · (4) I gave quietly at the neighborhood drive and felt discouraged nobody saw. · (5) Secret prayer and tempted to tell everyone so I feel credited. Who pays? → Father in secret.
 
-**Ethical Leadership** — (1) I stopped the backyard wrestling match when someone was about to get hurt. · (2) The coach killed the unsafe trust-fall drill when a safer team exercise achieved the same bonding goal. · (3) The manager killed the unsafe team-building exercise when a safer option achieved the same goal. · (4) Our building admin reported the broken stair rail to the owner instead of scheduling another photo day on it.
+**Ethical Leadership** - (1) I stopped the backyard wrestling match when someone was about to get hurt. · (2) The coach killed the unsafe trust-fall drill when a safer team exercise achieved the same bonding goal. · (3) The manager killed the unsafe team-building exercise when a safer option achieved the same goal. · (4) Our building admin reported the broken stair rail to the owner instead of scheduling another photo day on it.
 
-**Evergreen Notes** — (1) Tool I rely on changed how I work — trending spike on Twitter. One check before I rewrite the note? → Revise when still true. · (2) A family recipe card keeps the ratios, not last year's trendy garnish. · (3) I revise a garden note when reality changes how I think, not when Twitter spikes about a new PKM app. · (4) Trendy take I might regret next year. What's the move? → Wait — keep fleeting. · (5) My free-throw note keeps the release point and follow-through.
+**Evergreen Notes** - (1) Tool I rely on changed how I work - trending spike on Twitter. One check before I rewrite the note? → Revise when still true. · (2) A family recipe card keeps the ratios, not last year's trendy garnish. · (3) I revise a garden note when reality changes how I think, not when Twitter spikes about a new PKM app. · (4) Trendy take I might regret next year. What's the move? → Wait - keep fleeting. · (5) My free-throw note keeps the release point and follow-through.
 
-**Evergreen vs Fleeting Notes** — (1) Tonight's hot take about the game goes on the whiteboard; the lesson I'd tell my kid about losing with grace gets copied into the recipe box. · (2) A hot take about today's game goes on the fridge whiteboard; a lesson I'd tell my kid next year gets copied into the recipe box. · (3) The shift manager's scribble about today's rush stays on the clipboard; the safety rule we'd cite in training next year lives in the binder. · (4) My errand list is fleeting; the note about which neighbor takes packages when we travel is evergreen.
+**Evergreen vs Fleeting Notes** - (1) Tonight's hot take about the game goes on the whiteboard; the lesson I'd tell my kid about losing with grace gets copied into the recipe box. · (2) A hot take about today's game goes on the fridge whiteboard; a lesson I'd tell my kid next year gets copied into the recipe box. · (3) The shift manager's scribble about today's rush stays on the clipboard; the safety rule we'd cite in training next year lives in the binder. · (4) My errand list is fleeting; the note about which neighbor takes packages when we travel is evergreen.
 
-**Execution** — (1) Our block cleanup had a group chat full of enthusiasm and no bags until one neighbor showed up with gloves and a start time. · (2) The coach drew a beautiful play on the whiteboard — execution started when players were on the field and someone named who cuts where. · (3) The PTO committee had color-coded phases and zero volunteers signed up until one person named who does what by when. · (4) A wedding invite means nothing if nobody books the venue.
+**Execution** - (1) Our block cleanup had a group chat full of enthusiasm and no bags until one neighbor showed up with gloves and a start time. · (2) The coach drew a beautiful play on the whiteboard - execution started when players were on the field and someone named who cuts where. · (3) The PTO committee had color-coded phases and zero volunteers signed up until one person named who does what by when. · (4) A wedding invite means nothing if nobody books the venue.
 
-**Expect the Counter** — (1) I offered extra screen time for chores and my kid negotiated harder tasks by day three. · (2) We changed our full-court press and the other team adjusted by halftime. · (3) A restaurant drops lunch prices and the place across the street matches by Friday. · (4) The condo board cut parking fees and the lot next door matched by Friday.
+**Expect the Counter** - (1) I offered extra screen time for chores and my kid negotiated harder tasks by day three. · (2) We changed our full-court press and the other team adjusted by halftime. · (3) A restaurant drops lunch prices and the place across the street matches by Friday. · (4) The condo board cut parking fees and the lot next door matched by Friday.
 
-**Failure as Feedback** — (1) I missed three free throws in a row — failure as feedback was follow-through and routine, not deciding I'm "not a basketball person." · (2) The utility bill math was wrong — instrument reading about the formula I skipped. · (3) A smoke alarm isn't moral judgment — it's data. · (4) My sourdough failed again — failure as feedback was the thermometer and timing notes.
+**Failure as Feedback** - (1) I missed three free throws in a row - failure as feedback was follow-through and routine, not deciding I'm "not a basketball person." · (2) The utility bill math was wrong - instrument reading about the formula I skipped. · (3) A smoke alarm isn't moral judgment - it's data. · (4) My sourdough failed again - failure as feedback was the thermometer and timing notes.
 
-**Finish Strong** — (1) I cleared the table after dinner but left the pots soaking — the smell woke us at 3 a.m. · (2) I packed for the trip but forgot to lock the back gate. · (3) We led at halftime and coasted the third quarter. · (4) The shop opened on time but left the back room half-stocked.
+**Finish Strong** - (1) I cleared the table after dinner but left the pots soaking - the smell woke us at 3 a.m. · (2) I packed for the trip but forgot to lock the back gate. · (3) We led at halftime and coasted the third quarter. · (4) The shop opened on time but left the back room half-stocked.
 
-**First Principles Thinking** — (1) The clinic kept copying a corporate onboarding script until someone asked what problem we're actually solving. · (2) My kid's coach kept quoting a YouTube drill until I asked what problem we're actually solving. · (3) I kept quoting parenting advice from a podcast until I wrote what I actually believe about bedtime. · (4) The HOA kept adding signs about parking until a neighbor asked why people park wrong.
+**First Principles Thinking** - (1) The clinic kept copying a corporate onboarding script until someone asked what problem we're actually solving. · (2) My kid's coach kept quoting a YouTube drill until I asked what problem we're actually solving. · (3) I kept quoting parenting advice from a podcast until I wrote what I actually believe about bedtime. · (4) The HOA kept adding signs about parking until a neighbor asked why people park wrong.
 
-**Follow Their Lead** — (1) My teammate wanted to run an inbound play I'd never seen — I ran it once before I told him how I'd do it. · (2) A coworker walked me through how she tracks patient callbacks — I watched the whole spreadsheet before I offered to reorder her columns. · (3) My kid invented new rules for a card game — I played their version instead of stopping mid-hand. · (4) Coffee with a friend who needed to talk about her mother-in-law — I stayed on her thread instead of pivoting to my own week.
+**Follow Their Lead** - (1) My teammate wanted to run an inbound play I'd never seen - I ran it once before I told him how I'd do it. · (2) A coworker walked me through how she tracks patient callbacks - I watched the whole spreadsheet before I offered to reorder her columns. · (3) My kid invented new rules for a card game - I played their version instead of stopping mid-hand. · (4) Coffee with a friend who needed to talk about her mother-in-law - I stayed on her thread instead of pivoting to my own week.
 
-**Follow-Through** — (1) "I'll look into it" without a date is how school projects die after the group chat goes quiet. · (2) I told my kid I'd help with the project "soon" and watched it die in the backpack. · (3) The captain said "we'll fix the rotation" without naming who covers which shift. · (4) The plumber texting "en route" beats "soon".
+**Follow-Through** - (1) "I'll look into it" without a date is how school projects die after the group chat goes quiet. · (2) I told my kid I'd help with the project "soon" and watched it die in the backpack. · (3) The captain said "we'll fix the rotation" without naming who covers which shift. · (4) The plumber texting "en route" beats "soon".
 
-**Forgetting Curve** — (1) I forgot half the new footwork cues by Friday until I drilled five on the wall chart before every practice. · (2) Forgot half the vocab by Friday until I drilled five words on the fridge during rice. · (3) I forgot the neighbor's gate code by the second visit until I saved it where I'd see it on errand day. · (4) The new cashier forgot half the codes by Friday until the trainer taped five on the register.
+**Forgetting Curve** - (1) I forgot half the new footwork cues by Friday until I drilled five on the wall chart before every practice. · (2) Forgot half the vocab by Friday until I drilled five words on the fridge during rice. · (3) I forgot the neighbor's gate code by the second visit until I saved it where I'd see it on errand day. · (4) The new cashier forgot half the codes by Friday until the trainer taped five on the register.
 
-**Forgiveness at Work** — (1) I replayed my sister's sharp comment at every family dinner until I chose to release the debt. · (2) I kept mentally scoring a teammate who blew a play in last month's tournament. · (3) I kept mentally scoring a coworker who embarrassed me in a staff meeting six months ago. · (4) The neighbor's parking habit still bugged me months later.
+**Forgiveness at Work** - (1) I replayed my sister's sharp comment at every family dinner until I chose to release the debt. · (2) I kept mentally scoring a teammate who blew a play in last month's tournament. · (3) I kept mentally scoring a coworker who embarrassed me in a staff meeting six months ago. · (4) The neighbor's parking habit still bugged me months later.
 
-**Forgiveness** — (1) My kid hurt my feelings at breakfast and I said "it's fine" while nursing the grudge. · (2) I was forgiven much but choked a neighbor over a small slight. · (3) Wronged and refusing to forgive before I sleep. What breaks? → Closeness with God. · (4) Hurt still stings — forgiving feels like pretending it didn't matter. What's the move anyway? → Release debt. · (5) I was forgiven much but choking someone over pocket change. What's my move? → Forgive.
+**Forgiveness** - (1) My kid hurt my feelings at breakfast and I said "it's fine" while nursing the grudge. · (2) I was forgiven much but choked a neighbor over a small slight. · (3) Wronged and refusing to forgive before I sleep. What breaks? → Closeness with God. · (4) Hurt still stings - forgiving feels like pretending it didn't matter. What's the move anyway? → Release debt. · (5) I was forgiven much but choking someone over pocket change. What's my move? → Forgive.
 
-**Free Grace** — (1) Head says I must perform before God accepts me. Turn from that — what's the entry point? → Trust Christ — not my performance. · (2) Friend at coffee lists good deeds as their heaven ticket. What do I trust for eternal life? → Christ's promise. · (3) Good week makes me feel qualified for heaven. What saves, what follows? → Faith saves first. Obedience follows. · (4) Tempted to list my works when someone asks how to be saved. Lead with what? → Grace through faith in Christ. · (5) A teammate listed every good deed this month like it was his ticket to heaven.
+**Free Grace** - (1) Head says I must perform before God accepts me. Turn from that - what's the entry point? → Trust Christ - not my performance. · (2) Friend at coffee lists good deeds as their heaven ticket. What do I trust for eternal life? → Christ's promise. · (3) Good week makes me feel qualified for heaven. What saves, what follows? → Faith saves first. Obedience follows. · (4) Tempted to list my works when someone asks how to be saved. Lead with what? → Grace through faith in Christ. · (5) A teammate listed every good deed this month like it was his ticket to heaven.
 
-**Future-Proofing Knowledge** — (1) The team roster lives in a shared spreadsheet, not an app that might shut down. · (2) Our family contacts list is plain text on the fridge backup folder. · (3) My notes live as plain text I can open anywhere; I test the backup drive before I need it. · (4) Grandma's recipes are on index cards in a tin, not an app that might shut down.
+**Future-Proofing Knowledge** - (1) The team roster lives in a shared spreadsheet, not an app that might shut down. · (2) Our family contacts list is plain text on the fridge backup folder. · (3) My notes live as plain text I can open anywhere; I test the backup drive before I need it. · (4) Grandma's recipes are on index cards in a tin, not an app that might shut down.
 
 ---
 
@@ -2511,25 +2511,25 @@ The remaining **~130 notes** follow the same ranking. Highlights from the second
 
 | Note | Best example |
 |------|----------------|
-| **Getting Things Done** | Tournament week my brain isn't a filing cabinet — GTD was one trusted inbox and a weekly review so open loops lived on paper, not at 2 a.m. |
+| **Getting Things Done** | Tournament week my brain isn't a filing cabinet - GTD was one trusted inbox and a weekly review so open loops lived on paper, not at 2 a.m. |
 | **The Golden Rule** | My thumb was on the post button with a critique that was probably true and definitely cruel |
-| **The Golden Rule at Work** | My draft reply to the new team manager was technically right and needlessly harsh — I paused and rewrote it |
-| **Growth Mindset** | I missed three free throws in a row at clinic — ten minutes on form, not deciding I'd never shoot reliably |
-| **Inbox Zero** | Friday I triaged the team inbox to zero — Monday practice started from decisions made |
+| **The Golden Rule at Work** | My draft reply to the new team manager was technically right and needlessly harsh - I paused and rewrote it |
+| **Growth Mindset** | I missed three free throws in a row at clinic - ten minutes on form, not deciding I'd never shoot reliably |
+| **Inbox Zero** | Friday I triaged the team inbox to zero - Monday practice started from decisions made |
 | **Judge Not** | Friend's speck obvious; my plank invisible. What do I fix first? → Remove my plank |
-| **Let Your Light Shine** | Good deed done but I want credit in the caption. Who gets glory? → Father — not my brand |
-| **Love Your Enemies** | Someone slandered me in a group chat — I prayed for them |
-| **Own the Error** | Surgeons do morbidity rounds — I rang up the wrong total, voided the receipt |
-| **Peacemakers** | Two teammates were feuding in the locker room — I asked what it would take to fix it |
+| **Let Your Light Shine** | Good deed done but I want credit in the caption. Who gets glory? → Father - not my brand |
+| **Love Your Enemies** | Someone slandered me in a group chat - I prayed for them |
+| **Own the Error** | Surgeons do morbidity rounds - I rang up the wrong total, voided the receipt |
+| **Peacemakers** | Two teammates were feuding in the locker room - I asked what it would take to fix it |
 | **Seek the Kingdom First** | Tuesday 7am, inbox calling before work. One move? → Scripture or prayer before inbox |
 | **Self-Control** | My thumb hovered over a snarky reply in the pickup-line group chat |
 | **Signal vs Noise** | Interesting article but it won't change what I do this month. Thumb on save. What's the move? → Admire and move on |
-| **Take Up Your Cross** | I had one big surrender moment last year and went back to the same comfortable sin — Jesus said daily |
+| **Take Up Your Cross** | I had one big surrender moment last year and went back to the same comfortable sin - Jesus said daily |
 | **The Beatitudes** | A good week at the clinic and I felt like I didn't need much from God |
-| **The Trusted Inbox** | Forty inbox items untouched two weeks. Trust is broken — recovery move today? → Empty it now |
-| **Treasure in Heaven** | Thumb on another buy I don't need — will this rust, or store something heaven-side? |
-| **Turn the Other Cheek** | Neighbor's passive-aggressive note about parking — I didn't post a rebuttal on the group chat |
-| **Weekly Review Checklists** | Inbox, calendar, projects, one express action — twenty minutes beats skipping review |
+| **The Trusted Inbox** | Forty inbox items untouched two weeks. Trust is broken - recovery move today? → Empty it now |
+| **Treasure in Heaven** | Thumb on another buy I don't need - will this rust, or store something heaven-side? |
+| **Turn the Other Cheek** | Neighbor's passive-aggressive note about parking - I didn't post a rebuttal on the group chat |
+| **Weekly Review Checklists** | Inbox, calendar, projects, one express action - twenty minutes beats skipping review |
 
 ---
 
@@ -2547,9 +2547,9 @@ The remaining **~130 notes** follow the same ranking. Highlights from the second
 
 ## Takeaway
 
-Your **best examples** already ignore genres in practice — they're mid-action, first-person, and surface-specific. The **genre slots** mainly force weaker filler (especially Sports and Non-technical work pairs that differ only by setting).
+Your **best examples** already ignore genres in practice - they're mid-action, first-person, and surface-specific. The **genre slots** mainly force weaker filler (especially Sports and Non-technical work pairs that differ only by setting).
 
-**If you want one change:** replace the four genre bullets with **five ranked scenes** like the hall-of-fame list above — no labels, just the strongest five per note. I can batch-rewrite the 136 notes that need a 5th example, or rewrite the template-fatigue notes first (Accountability, Free Grace, Quarterly Planning, Learning Organizations).
+**If you want one change:** replace the four genre bullets with **five ranked scenes** like the hall-of-fame list above - no labels, just the strongest five per note. I can batch-rewrite the 136 notes that need a 5th example, or rewrite the template-fatigue notes first (Accountability, Free Grace, Quarterly Planning, Learning Organizations).
 
 Want the **complete G–Z per-note top-5** pasted in full (another ~130 entries), or a file in the repo you can diff against?
 
@@ -2604,93 +2604,93 @@ Complete **G–Z** per-note top-5 (genre ignored). Ranked from existing `## Exam
 ### G
 
 **Getting Things Done**
-1. Tournament week my brain isn't a filing cabinet — GTD was one trusted inbox and a weekly review so open loops lived on paper, not at 2 a.m.
-2. My brain isn't a filing cabinet — GTD was one trusted inbox and a weekly review so open loops lived on paper, not at 2 a.m.
-3. School forms, dentist calls, and permission slips went into one kitchen inbox until Friday triage — capture, clarify, organize, not three mental piles.
-4. Commute errands and neighbor requests hit one pocket notebook — each item gets a next action so nothing rots as background worry.
+1. Tournament week my brain isn't a filing cabinet - GTD was one trusted inbox and a weekly review so open loops lived on paper, not at 2 a.m.
+2. My brain isn't a filing cabinet - GTD was one trusted inbox and a weekly review so open loops lived on paper, not at 2 a.m.
+3. School forms, dentist calls, and permission slips went into one kitchen inbox until Friday triage - capture, clarify, organize, not three mental piles.
+4. Commute errands and neighbor requests hit one pocket notebook - each item gets a next action so nothing rots as background worry.
 
 **The Golden Rule at Work**
-1. My draft reply to the new team manager was technically right and needlessly harsh — I paused, asked how I'd want that correction on my worst game day, and rewrote it.
-2. The group chat pile-on about the neighbor's messy yard — I asked how I'd want feedback if my lawn looked that way, then said nothing mean.
-3. My draft reply to a new cashier was technically right and needlessly harsh — I paused, asked how I'd want that correction on my worst shift, and rewrote it before the thread in the break room got worse.
-4. I was about to snap at my kid over spilled milk — golden rule at work is the home version too: how would I want that mistake handled on my worst morning?
+1. My draft reply to the new team manager was technically right and needlessly harsh - I paused, asked how I'd want that correction on my worst game day, and rewrote it.
+2. The group chat pile-on about the neighbor's messy yard - I asked how I'd want feedback if my lawn looked that way, then said nothing mean.
+3. My draft reply to a new cashier was technically right and needlessly harsh - I paused, asked how I'd want that correction on my worst shift, and rewrote it before the thread in the break room got worse.
+4. I was about to snap at my kid over spilled milk - golden rule at work is the home version too: how would I want that mistake handled on my worst morning?
 
 **Graph View Analytics**
-1. I sorted our drill notes by link rank and three warm-up routines had zero arrows to anything else — that gap list was my fix-this-week, not decoration.
-2. I laid out the shift handoff chart and three tasks had zero arrows to an owner — the orphan list was my fix-this-week, not a pretty poster.
-3. I laid out the kids' chore chart and three jobs had zero arrows to anything else — nobody knew who checked them; that gap list was my fix-this-week.
-4. My notes graph showed five orphans with no inbound links — graph analytics is sorting by link rank to find what I forgot to connect, not sci-fi wallpaper.
+1. I sorted our drill notes by link rank and three warm-up routines had zero arrows to anything else - that gap list was my fix-this-week, not decoration.
+2. I laid out the shift handoff chart and three tasks had zero arrows to an owner - the orphan list was my fix-this-week, not a pretty poster.
+3. I laid out the kids' chore chart and three jobs had zero arrows to anything else - nobody knew who checked them; that gap list was my fix-this-week.
+4. My notes graph showed five orphans with no inbound links - graph analytics is sorting by link rank to find what I forgot to connect, not sci-fi wallpaper.
 
 **Great Commission**
-1. My kid asked a friend what church is and I almost deflected — great commission is go and make disciples, starting with plain answers at the kitchen table.
-2. A neighbor asked what we do on Sunday mornings and I almost changed the subject — Jesus said go, baptize, teach, and He's with you while you do it.
-3. Notes garden full, gospel never leaves my mouth. What's the hoarding move? → Share truth — don't hoard like bookmarks.
-4. Someone asks how to follow Jesus — I lecture systems not gospel. Lead with? → Repent and believe — then teach obedience.
-5. Afraid to speak up at work about faith. Promise Jesus gave? → I am with you — go anyway.
+1. My kid asked a friend what church is and I almost deflected - great commission is go and make disciples, starting with plain answers at the kitchen table.
+2. A neighbor asked what we do on Sunday mornings and I almost changed the subject - Jesus said go, baptize, teach, and He's with you while you do it.
+3. Notes garden full, gospel never leaves my mouth. What's the hoarding move? → Share truth - don't hoard like bookmarks.
+4. Someone asks how to follow Jesus - I lecture systems not gospel. Lead with? → Repent and believe - then teach obedience.
+5. Afraid to speak up at work about faith. Promise Jesus gave? → I am with you - go anyway.
 
 **Growth Mindset**
 1. I missed three free throws in a row at clinic. Growth mindset was ten minutes on form, not deciding I'd never shoot reliably in a game.
-2. The new barista burned three lattes on the steam wand — skill isn't fixed. The trainer had her repeat one motion, not relabel her as "not a coffee person."
-3. My kid called herself "bad at reading" until we practiced sight words five minutes a night — the miss was data about what to drill, not a permanent label.
-4. You're "not a math person" until you practice fractions long enough — a wrong answer on the utility bill is a cue to learn the formula, not proof you can't.
+2. The new barista burned three lattes on the steam wand - skill isn't fixed. The trainer had her repeat one motion, not relabel her as "not a coffee person."
+3. My kid called herself "bad at reading" until we practiced sight words five minutes a night - the miss was data about what to drill, not a permanent label.
+4. You're "not a math person" until you practice fractions long enough - a wrong answer on the utility bill is a cue to learn the formula, not proof you can't.
 
 **GTD vs PARA**
-1. The fridge list holds what we buy this week; the filing cabinet holds school forms with no deadline — I stopped cramming groceries into the permanent folder.
-2. My errand list is GTD; my garden notes are PARA — I use both without doubling admin.
-3. The practice schedule lives in the task app; the playbook principles live in the notes folder — GTD runs tasks, PARA runs knowledge, cousins not competitors.
-4. The shift board holds what we finish this week; the training binder holds forms with no deadline — same workplace, two systems.
+1. The fridge list holds what we buy this week; the filing cabinet holds school forms with no deadline - I stopped cramming groceries into the permanent folder.
+2. My errand list is GTD; my garden notes are PARA - I use both without doubling admin.
+3. The practice schedule lives in the task app; the playbook principles live in the notes folder - GTD runs tasks, PARA runs knowledge, cousins not competitors.
+4. The shift board holds what we finish this week; the training binder holds forms with no deadline - same workplace, two systems.
 
 ---
 
 ### H
 
 **Habit Formation**
-1. Same gym bag, same water bottle, same pre-game stretch — after thirty days I stop debating warm-up; the shoes by the door beat the habit app I never opened.
-2. Same door, same notebook, same pocket — after thirty days I stop debating capture; the pad by the keys beat the fancy app I never opened.
-3. I capture commute ideas on the same pocket notebook after locking the car — repeat until it runs without a daily debate.
-4. Gym shoes by the bed — remove the decision; after a month the kid stops debating whether we're walking to school.
+1. Same gym bag, same water bottle, same pre-game stretch - after thirty days I stop debating warm-up; the shoes by the door beat the habit app I never opened.
+2. Same door, same notebook, same pocket - after thirty days I stop debating capture; the pad by the keys beat the fancy app I never opened.
+3. I capture commute ideas on the same pocket notebook after locking the car - repeat until it runs without a daily debate.
+4. Gym shoes by the bed - remove the decision; after a month the kid stops debating whether we're walking to school.
 
 **Habit Stacking**
-1. I never remembered to stretch until it sat right after lacing gym shoes — the shoes were the anchor, the stretch piggybacked.
-2. After I clock in, I scan the handoff sheet — the clock-in is the anchor, the scan piggybacked; no new time slot, just a chain.
-3. After I pour the first coffee, I open the pocket notebook — habit stacking attaches the new move to one that already runs on autopilot.
-4. After I lock the front door, I check the mailbox — the lock is the anchor, the mail check piggybacked on a habit I never skip.
+1. I never remembered to stretch until it sat right after lacing gym shoes - the shoes were the anchor, the stretch piggybacked.
+2. After I clock in, I scan the handoff sheet - the clock-in is the anchor, the scan piggybacked; no new time slot, just a chain.
+3. After I pour the first coffee, I open the pocket notebook - habit stacking attaches the new move to one that already runs on autopilot.
+4. After I lock the front door, I check the mailbox - the lock is the anchor, the mail check piggybacked on a habit I never skip.
 
 **Heart Righteousness**
-1. I smiled through the bad call and nursed the anger the whole ride home — heart righteousness is polite outside, poison inside; God cares about the inner life.
-2. I sent a cold reply that sounded professional while resentment ran inside — Jesus moves righteousness from courtroom compliance to motive.
-3. I looked patient helping with homework while I was simmering about the mess — murder in the heart doesn't need raised voices.
-4. Some guy cut me off on the EDSA commute and I smiled through it, then nursed the anger the whole ride home — that's murder in the heart.
-5. Anger simmering after traffic — treated them fine outwardly. What did Jesus call that? → Murder in the heart — deal with anger.
+1. I smiled through the bad call and nursed the anger the whole ride home - heart righteousness is polite outside, poison inside; God cares about the inner life.
+2. I sent a cold reply that sounded professional while resentment ran inside - Jesus moves righteousness from courtroom compliance to motive.
+3. I looked patient helping with homework while I was simmering about the mess - murder in the heart doesn't need raised voices.
+4. Some guy cut me off on the EDSA commute and I smiled through it, then nursed the anger the whole ride home - that's murder in the heart.
+5. Anger simmering after traffic - treated them fine outwardly. What did Jesus call that? → Murder in the heart - deal with anger.
 
 **Heed Every Near-Miss**
-1. A swimmer needed rescue during the same open-water drill last month — that's a warning to stop, not proof the safety boat can handle it forever.
-2. A kid almost choked on the same team-building snack twice — heed the near-miss; luck isn't a control layer.
-3. The toddler almost fell off the same chair twice — survival doesn't prove the setup is safe; fix the hazard before the third time.
-4. A previous rescue during the same exercise is a warning to stop — not proof that the rescue team can keep handling it.
+1. A swimmer needed rescue during the same open-water drill last month - that's a warning to stop, not proof the safety boat can handle it forever.
+2. A kid almost choked on the same team-building snack twice - heed the near-miss; luck isn't a control layer.
+3. The toddler almost fell off the same chair twice - survival doesn't prove the setup is safe; fix the hazard before the third time.
+4. A previous rescue during the same exercise is a warning to stop - not proof that the rescue team can keep handling it.
 
 **Hierarchy of Controls**
-1. We removed the wet patch on the court instead of adding "slow down" signs — guard rails beat warnings; removing the hazard beats both.
-2. We taped down the rug corner instead of yelling "watch your step" every night — hierarchy of controls: eliminate first, then engineer, admin, PPE last.
-3. The building fixed the broken step instead of posting another caution sticker — remove the hazard first, in that order.
+1. We removed the wet patch on the court instead of adding "slow down" signs - guard rails beat warnings; removing the hazard beats both.
+2. We taped down the rug corner instead of yelling "watch your step" every night - hierarchy of controls: eliminate first, then engineer, admin, PPE last.
+3. The building fixed the broken step instead of posting another caution sticker - remove the hazard first, in that order.
 4. Guard rails beat "be careful" signs; removing the trip hazard beats both.
 
 **Humility and Service**
-1. I helped a neighbor move and waited for credit in the group chat — greatness is serving, not being served.
-2. I organized snacks for my kid's basketball team on Sunday and came home expecting my family to serve me back — wash feet here too, not only where people can see you.
-3. I stayed late to cover a shift and expected praise all week — humility and service is the world's ladder upside down; the last shall be first.
-4. I served at church on Sunday and came home expecting my family to serve me back — that's the world's ladder, not Jesus'.
-5. Foot-washing feels below my role. What did Jesus model? → Serve, not be served — wash feet.
+1. I helped a neighbor move and waited for credit in the group chat - greatness is serving, not being served.
+2. I organized snacks for my kid's basketball team on Sunday and came home expecting my family to serve me back - wash feet here too, not only where people can see you.
+3. I stayed late to cover a shift and expected praise all week - humility and service is the world's ladder upside down; the last shall be first.
+4. I served at church on Sunday and came home expecting my family to serve me back - that's the world's ladder, not Jesus'.
+5. Foot-washing feels below my role. What did Jesus model? → Serve, not be served - wash feet.
 
 ---
 
 ### I
 
 **Inbox Zero**
-1. Friday I triaged the team inbox to zero — Monday practice started from decisions made, not dread about who forgot what.
-2. I process the commute voice-memo inbox every Friday — inbox zero is each item decided, not hoarded.
-3. Friday afternoon I triaged email to zero — Monday started from decisions made, not dread.
-4. Sunday night we emptied the kitchen catch-all tray — each slip got a decision so school week didn't start with mystery piles.
+1. Friday I triaged the team inbox to zero - Monday practice started from decisions made, not dread about who forgot what.
+2. I process the commute voice-memo inbox every Friday - inbox zero is each item decided, not hoarded.
+3. Friday afternoon I triaged email to zero - Monday started from decisions made, not dread.
+4. Sunday night we emptied the kitchen catch-all tray - each slip got a decision so school week didn't start with mystery piles.
 
 **Incident Investigation**
 1. After the equipment cart tipped they traced storage layout and weight limits, not just "trainer was clumsy."
@@ -2699,39 +2699,39 @@ Complete **G–Z** per-note top-5 (genre ignored). Ranked from existing `## Exam
 4. After the tray spill they traced prep timing, not just "server was clumsy."
 
 **Information Diet**
-1. I removed the doom-scroll feed from the family tablet — feeds are not neutral; choose what you consume on purpose.
-2. I dropped two commute podcasts that only made me angry at strangers — information diet is curating inputs, not swallowing whatever the algorithm serves.
+1. I removed the doom-scroll feed from the family tablet - feeds are not neutral; choose what you consume on purpose.
+2. I dropped two commute podcasts that only made me angry at strangers - information diet is curating inputs, not swallowing whatever the algorithm serves.
 3. I unfollowed three outrage sports accounts and pre-game wasn't ruined before warm-up.
 4. Unfollowed three outrage accounts and my morning wasn't ruined before breakfast.
 
 **Integrity When No One's Watching**
-1. I logged the full practice hours when nobody audits the sheet — integrity when no one's watching is the hidden lane.
-2. The market scale stays honest when the seller steps away to take a call — I could've scooped light on the last bag of rice; instead I re-weighed it before the customer came back.
-3. I ran the real spelling check on the homework when my kid wasn't looking over my shoulder — accurate work when there's no audience.
-4. I closed the support ticket correctly even though nobody would audit it this week — the test isn't the all-hands slide.
+1. I logged the full practice hours when nobody audits the sheet - integrity when no one's watching is the hidden lane.
+2. The market scale stays honest when the seller steps away to take a call - I could've scooped light on the last bag of rice; instead I re-weighed it before the customer came back.
+3. I ran the real spelling check on the homework when my kid wasn't looking over my shoulder - accurate work when there's no audience.
+4. I closed the support ticket correctly even though nobody would audit it this week - the test isn't the all-hands slide.
 
 **Integrity**
-1. I could've counted a late hit as legal when the ref looked away — integrity is the same call whether anyone's watching or not.
-2. I could've scooped light on flour when the rush got loud — integrity is what you do matches what you claim, especially when it costs comfort.
-3. A scale that reads honest when the customer isn't looking is integrity in hardware — same weight whether anyone was watching or not.
-4. The market scale stays honest when the seller steps away to take a call — that's the whole business.
+1. I could've counted a late hit as legal when the ref looked away - integrity is the same call whether anyone's watching or not.
+2. I could've scooped light on flour when the rush got loud - integrity is what you do matches what you claim, especially when it costs comfort.
+3. A scale that reads honest when the customer isn't looking is integrity in hardware - same weight whether anyone was watching or not.
+4. The market scale stays honest when the seller steps away to take a call - that's the whole business.
 
 **Intellectual Sourcing**
 1. I taped the coach's article title under the quote in our playbook so six months later we know if the source still says what we thought.
 2. I tape the newspaper name under the quote on my kid's history project so six months later we know if the source still says what we thought.
-3. I cite the link in my garden note not for academia — so I can trust my own synthesis and find the original six months later.
-4. Without that source line our own summary starts to feel like gospel — intellectual sourcing is tracking where ideas come from.
+3. I cite the link in my garden note not for academia - so I can trust my own synthesis and find the original six months later.
+4. Without that source line our own summary starts to feel like gospel - intellectual sourcing is tracking where ideas come from.
 
 ---
 
 ### J
 
 **Judge Not**
-1. Friend's speck obvious; my plank invisible. What do I fix first? → Remove my plank — then help with speck.
-2. About to quote their failure online. Who am I playing? → Not their judge — I needed mercy first.
-3. Tempted to roast someone else's mess while mine's hidden. What's my move? → Fix my plank — audit myself first.
-4. I spotted my teammate's travel in five seconds and missed my own lazy dribble — judge not starts with the log in my eye.
-5. I spotted a coworker's missed step in five seconds and missed my own plank for a month — Jesus wasn't saying ignore sin; He was saying remove your plank first.
+1. Friend's speck obvious; my plank invisible. What do I fix first? → Remove my plank - then help with speck.
+2. About to quote their failure online. Who am I playing? → Not their judge - I needed mercy first.
+3. Tempted to roast someone else's mess while mine's hidden. What's my move? → Fix my plank - audit myself first.
+4. I spotted my teammate's travel in five seconds and missed my own lazy dribble - judge not starts with the log in my eye.
+5. I spotted a coworker's missed step in five seconds and missed my own plank for a month - Jesus wasn't saying ignore sin; He was saying remove your plank first.
 
 ---
 
@@ -2740,52 +2740,52 @@ Complete **G–Z** per-note top-5 (genre ignored). Ranked from existing `## Exam
 **Layered Reading**
 1. First pass on the coaching manual marked three sections; second pass only those got sentences in my own words.
 2. First pass marked three sections of the safety manual; second pass only those got sentences in my own words.
-3. Skim the permission form, highlight the three dates that matter, summarize those on the fridge — layered reading is increasing depth, not one heroic read.
-4. First commute listen for the gist; second pass with a notebook on the parts I'd cite later — pass through the same source at increasing depth.
+3. Skim the permission form, highlight the three dates that matter, summarize those on the fridge - layered reading is increasing depth, not one heroic read.
+4. First commute listen for the gist; second pass with a notebook on the parts I'd cite later - pass through the same source at increasing depth.
 
 **Leadership**
-1. When the gym alarm went off, someone pointed to exits and counted heads — title optional; leadership was calm voice and who goes where.
-2. When the kitchen catches fire, someone points to exits and counts heads — title optional.
+1. When the gym alarm went off, someone pointed to exits and counted heads - title optional; leadership was calm voice and who goes where.
+2. When the kitchen catches fire, someone points to exits and counts heads - title optional.
 3. Our line cook never got named manager; leadership was calm voice, who goes where, and nobody blaming while the extinguishers were still out.
-4. The blackout hit our block and one neighbor set pace — who checks on elders, who handles the generator — direction and care when people look to you.
+4. The blackout hit our block and one neighbor set pace - who checks on elders, who handles the generator - direction and care when people look to you.
 
 **Lean Startup**
-1. I posted one sample lunch-box photo in the group chat before buying a month's worth of new containers — saved money on the wrong feature.
-2. Ten users on a landing page before I built the full app — saved a month on the wrong feature.
-3. Ten parents signed a waitlist before we booked the full tournament venue — smallest test, measure interest, learn before scaling.
-4. Ten customers on a lunch special before we rewrote the whole menu — build the smallest test, don't scale before validation.
+1. I posted one sample lunch-box photo in the group chat before buying a month's worth of new containers - saved money on the wrong feature.
+2. Ten users on a landing page before I built the full app - saved a month on the wrong feature.
+3. Ten parents signed a waitlist before we booked the full tournament venue - smallest test, measure interest, learn before scaling.
+4. Ten customers on a lunch special before we rewrote the whole menu - build the smallest test, don't scale before validation.
 
 **Learning Organizations**
 1. After every tournament they kept one "what broke" line on the whiteboard until it was fixed or accepted.
 2. After every Friday service they kept one "what broke" line on the whiteboard until it was fixed or accepted.
 3. After every messy school morning we kept one "what broke" sticky on the fridge until the routine changed or we accepted the tradeoff.
-4. Our building chat logs one near-miss per month until the process changes — learning organizations bury mistakes in process updates, not shame.
+4. Our building chat logs one near-miss per month until the process changes - learning organizations bury mistakes in process updates, not shame.
 
 **Let Your Light Shine**
-1. Good deed done but I want credit in the caption. Who gets glory? → Father — not my brand.
-2. I brought extra water for the whole bench and almost posted about it — the light isn't for my brand; it's so someone sees good work and thinks God is real.
-3. I covered a coworker's shift quietly and almost made it a LinkedIn moment — let your light shine so the Father gets credit, not my personal brand.
-4. I helped a neighbor move furniture and almost posted about it before I remembered why I did it — good works point to the Father, not that I'm awesome.
-5. I almost captioned the charity run photo for applause — visibility so others glorify God, not so I build a brand.
+1. Good deed done but I want credit in the caption. Who gets glory? → Father - not my brand.
+2. I brought extra water for the whole bench and almost posted about it - the light isn't for my brand; it's so someone sees good work and thinks God is real.
+3. I covered a coworker's shift quietly and almost made it a LinkedIn moment - let your light shine so the Father gets credit, not my personal brand.
+4. I helped a neighbor move furniture and almost posted about it before I remembered why I did it - good works point to the Father, not that I'm awesome.
+5. I almost captioned the charity run photo for applause - visibility so others glorify God, not so I build a brand.
 
 **Let Your Yes Be Yes**
 1. I told the coach I'd have my kid there "God willing, absolutely, cross my heart" when a plain yes would have been enough.
-2. I padded a deadline promise with extra assurances so they'd believe me — if my word needs spin to sound believable, the problem isn't the schedule, it's me.
-3. I promised my kid six things in one breath to win the argument — let your yes be yes: one plain yes, no kitchen-sink speech.
-4. I told the neighbor I'd watch their mail "cross my heart, absolutely" when yes or no would have stood alone — anything beyond simple yes/no is manipulation, not trust.
-5. Thumb adding qualifiers to a simple commitment. Strip to what? → Simple yes or no — no spin.
+2. I padded a deadline promise with extra assurances so they'd believe me - if my word needs spin to sound believable, the problem isn't the schedule, it's me.
+3. I promised my kid six things in one breath to win the argument - let your yes be yes: one plain yes, no kitchen-sink speech.
+4. I told the neighbor I'd watch their mail "cross my heart, absolutely" when yes or no would have stood alone - anything beyond simple yes/no is manipulation, not trust.
+5. Thumb adding qualifiers to a simple commitment. Strip to what? → Simple yes or no - no spin.
 
 **Life Before Achievement**
 1. I said no to the backyard rope swing over concrete when a low tree branch and mat did the same fun with softer landings.
-2. The coach canceled cliff-jump team-building when the park picnic hit bonding without a credible broken-leg risk — unity doesn't require a stunt.
+2. The coach canceled cliff-jump team-building when the park picnic hit bonding without a credible broken-leg risk - unity doesn't require a stunt.
 3. The school canceled the cliff-jump field trip when the park picnic hit the same bonding goal without a credible risk of a broken leg.
 4. The scout leader picked the flat trail hike instead of the ridge walk when both got the badge and only one had a drop with no guardrail.
 
 **Listen Before Fixing**
-1. A younger player kept explaining why he missed the free throw — I almost jumped in with form tips. I waited, said back what he thought went wrong, then offered one drill.
-2. A nurse vented about a scheduling mix-up — I didn't open with "just tell admin." I mirrored the problem, then asked what she wanted done about it.
-3. A friend called about a job mess — I didn't pitch my résumé tips until she'd finished the story and I checked I had it right.
-4. My kid told me about a fight at school — I caught myself lining up a lecture and stopped. "So he took your pencil and you pushed him" — then we talked about what to try tomorrow.
+1. A younger player kept explaining why he missed the free throw - I almost jumped in with form tips. I waited, said back what he thought went wrong, then offered one drill.
+2. A nurse vented about a scheduling mix-up - I didn't open with "just tell admin." I mirrored the problem, then asked what she wanted done about it.
+3. A friend called about a job mess - I didn't pitch my résumé tips until she'd finished the story and I checked I had it right.
+4. My kid told me about a fight at school - I caught myself lining up a lecture and stopped. "So he took your pencil and you pushed him" - then we talked about what to try tomorrow.
 
 **Literature Notes**
 1. I wrote one paragraph on the coach's chapter about zone defense, not yellow highlights on every page.
@@ -2794,36 +2794,36 @@ Complete **G–Z** per-note top-5 (genre ignored). Ranked from existing `## Exam
 4. My kid's report on the ocean book was three sentences she could explain, not copied quotes from every paragraph.
 
 **Local-first Software**
-1. My commute playlist is downloaded on the phone — I still hear music in the tunnel when the signal drops.
-2. My kid's shooting log lives in a notebook in the gym bag — not an app that might vanish when the vendor pivots.
-3. Grandma's recipe cards live in the kitchen drawer — not an app that might vanish.
+1. My commute playlist is downloaded on the phone - I still hear music in the tunnel when the signal drops.
+2. My kid's shooting log lives in a notebook in the gym bag - not an app that might vanish when the vendor pivots.
+3. Grandma's recipe cards live in the kitchen drawer - not an app that might vanish.
 4. If the phone dies mid-grocery run, the list on the fridge still works.
 
 **Love God**
-1. Sunday worship felt high but I haven't opened the Bible all week. Which part of whole-person love am I skipping? → Mind — open Scripture today.
-2. Match day adrenaline isn't the same as opening my Bible on Thursday — whole-person love means I feed at least one faculty today.
-3. Sunday worship felt high but I hadn't opened my Bible since last week — loving God means more than one hour in a pew.
-4. I put the phone down before bedtime stories — heart and mind get God before the scroll.
-5. Calendar full, prayer thin — reordering the day. What comes first? → Love God first — pray before inbox.
+1. Sunday worship felt high but I haven't opened the Bible all week. Which part of whole-person love am I skipping? → Mind - open Scripture today.
+2. Match day adrenaline isn't the same as opening my Bible on Thursday - whole-person love means I feed at least one faculty today.
+3. Sunday worship felt high but I hadn't opened my Bible since last week - loving God means more than one hour in a pew.
+4. I put the phone down before bedtime stories - heart and mind get God before the scroll.
+5. Calendar full, prayer thin - reordering the day. What comes first? → Love God first - pray before inbox.
 
 **Love Your Enemies**
-1. Someone slandered me in a group chat and my thumb hovered over a reply — I prayed for them, not because they deserve it, because that's what the Father does with people like me.
+1. Someone slandered me in a group chat and my thumb hovered over a reply - I prayed for them, not because they deserve it, because that's what the Father does with people like me.
 2. Someone slandered me online. Thumb hovering over reply. First move before I type? → Pray for them.
-3. Enemy hurt me — tempted to agree just to keep peace. What do I do instead of pretending? → Bless and pray — don't return evil.
-4. Sun and rain on wicked and righteous — what do I copy toward my persecutors? → Father's kindness — bless both kinds.
-5. The rival coach trash-talked our bench and I typed a reply that would've felt great for five minutes — I closed the app and prayed instead.
+3. Enemy hurt me - tempted to agree just to keep peace. What do I do instead of pretending? → Bless and pray - don't return evil.
+4. Sun and rain on wicked and righteous - what do I copy toward my persecutors? → Father's kindness - bless both kinds.
+5. The rival coach trash-talked our bench and I typed a reply that would've felt great for five minutes - I closed the app and prayed instead.
 
 **Love Your Neighbor**
-1. Mental loop: do they qualify as neighbor? Flip the question — what do I ask instead? → Am I being neighbor to them?
+1. Mental loop: do they qualify as neighbor? Flip the question - what do I ask instead? → Am I being neighbor to them?
 2. Deciding how much help to give someone hard to love. What standard do I use? → Care I'd want if roles reversed.
-3. Worship felt fine but I'm snapping at family tonight. Which paired loves am I splitting? → Stop splitting — love both today.
-4. The parent I'd rather avoid sits on my side every game — I moved my chair over and asked how his kid's ankle was healing.
-5. The neighbor I'd rather avoid lives two doors down and his trash bins are always in my way — Jesus asked whether I'm acting like a neighbor, the way I'd want if I were stuck.
+3. Worship felt fine but I'm snapping at family tonight. Which paired loves am I splitting? → Stop splitting - love both today.
+4. The parent I'd rather avoid sits on my side every game - I moved my chair over and asked how his kid's ankle was healing.
+5. The neighbor I'd rather avoid lives two doors down and his trash bins are always in my way - Jesus asked whether I'm acting like a neighbor, the way I'd want if I were stuck.
 
 **Low Hanging Fruit**
-1. I spent twenty minutes redesigning our training plan when the actual problem was three cones not put away — I put them back in four minutes and had energy for drills.
-2. I reorganized the whole supply closet on paper when the actual win was restocking tape — five minutes, done before lunch.
-3. I spent an hour sketching a whole spring-cleaning plan when the actual problem was three dishes in the sink — washed them in ten minutes and had energy for the garage after lunch.
+1. I spent twenty minutes redesigning our training plan when the actual problem was three cones not put away - I put them back in four minutes and had energy for drills.
+2. I reorganized the whole supply closet on paper when the actual win was restocking tape - five minutes, done before lunch.
+3. I spent an hour sketching a whole spring-cleaning plan when the actual problem was three dishes in the sink - washed them in ten minutes and had energy for the garage after lunch.
 4. I mapped a whole errand route when the obvious move was mailing the one package blocking the counter.
 
 ---
@@ -2831,169 +2831,169 @@ Complete **G–Z** per-note top-5 (genre ignored). Ranked from existing `## Exam
 ### M
 
 **Maintenance Window**
-1. First Sunday I swap the car fluids and rotate tires — not waiting for the check-engine light on a Monday commute.
-2. Every Monday after practice we clean balls and tape the lineup board — not only when the gym floods.
-3. First Sunday of the month is garden maintenance — broken links, stale drafts, nothing else.
-4. Saturday morning is toy-bin purge and mending — not panicked cleaning when guests are at the door.
+1. First Sunday I swap the car fluids and rotate tires - not waiting for the check-engine light on a Monday commute.
+2. Every Monday after practice we clean balls and tape the lineup board - not only when the gym floods.
+3. First Sunday of the month is garden maintenance - broken links, stale drafts, nothing else.
+4. Saturday morning is toy-bin purge and mending - not panicked cleaning when guests are at the door.
 
 **Mental Models**
-1. The restaurant had twelve menu tweaks on the whiteboard — I picked the two that actually cut ticket times and shelved the rest.
-2. Waze showed four commute routes — I stuck to the one that saves gas on the Tuesday school run, not the scenic detour.
-3. Saturday basketball camp signup had forty options listed and I froze — Pareto got me to three that fit our budget, [[Low Hanging Fruit]] was registering before slots closed, compounding was ten minutes of ball-handling a week.
-4. Forty activity flyers on the fridge and we froze — three fit the budget, register online before slots close, ten minutes of practice beats the flashiest camp jersey.
+1. The restaurant had twelve menu tweaks on the whiteboard - I picked the two that actually cut ticket times and shelved the rest.
+2. Waze showed four commute routes - I stuck to the one that saves gas on the Tuesday school run, not the scenic detour.
+3. Saturday basketball camp signup had forty options listed and I froze - Pareto got me to three that fit our budget, [[Low Hanging Fruit]] was registering before slots closed, compounding was ten minutes of ball-handling a week.
+4. Forty activity flyers on the fridge and we froze - three fit the budget, register online before slots close, ten minutes of practice beats the flashiest camp jersey.
 
 **Metadata Strategy**
-1. I label the kids' bins "toys," "books," "outgrown" — not a color code I'd have to maintain.
-2. If sorting takes longer than putting stuff away, I cut a category — three labels beat a system nobody follows.
-3. My glove box has "registration," "insurance," "receipts" — three labels I can find at a traffic stop.
-4. The team's gear bin says "balls," "first aid," "outgrown" — not a color code I'd maintain like a second job.
+1. I label the kids' bins "toys," "books," "outgrown" - not a color code I'd have to maintain.
+2. If sorting takes longer than putting stuff away, I cut a category - three labels beat a system nobody follows.
+3. My glove box has "registration," "insurance," "receipts" - three labels I can find at a traffic stop.
+4. The team's gear bin says "balls," "first aid," "outgrown" - not a color code I'd maintain like a second job.
 
 **Mind Mapping**
 1. I sketched a bubble map of our season goals on paper, then each branch became its own drill checklist.
 2. I sketch a messy bubble map before our road trip, then each branch becomes its own packing list on the fridge.
-3. I mapped errand stops around the mall on paper first — each branch became its own sticky on the dash.
-4. The contractor sketched rooms on a napkin first — each bubble became a line item before the formal quote.
+3. I mapped errand stops around the mall on paper first - each branch became its own sticky on the dash.
+4. The contractor sketched rooms on a napkin first - each bubble became a line item before the formal quote.
 
 **Minimum Effective Dose**
 1. Ten minutes of flashcards on the jeepney beat an hour of app setup I'd never open twice.
-2. The coach added one footwork drill before buying new shoes — small dose, daily reps, feet learned faster than gear ever did.
+2. The coach added one footwork drill before buying new shoes - small dose, daily reps, feet learned faster than gear ever did.
 3. The barista trainer had her repeat one steam motion instead of rebuilding the whole menu that week.
-4. One notebook by the door beat rebuilding the whole capture system again — enough to work, not more than needed.
+4. One notebook by the door beat rebuilding the whole capture system again - enough to work, not more than needed.
 
 **Minimum Viable Product**
-1. I sat on a half-planned birthday party for three months — we ordered pizza, one banner, kids had a blast, learned more than another month of Pinterest.
-2. I posted a rough neighborhood watch signup before buying printed flyers — four replies told me if anyone cared.
-3. We ran one new play in scrimmage before printing playbooks for the whole league — learned more in forty minutes than another week of polish.
-4. The baker sold one test batch of sourdough before remodeling the display case — customers told her what to fix.
+1. I sat on a half-planned birthday party for three months - we ordered pizza, one banner, kids had a blast, learned more than another month of Pinterest.
+2. I posted a rough neighborhood watch signup before buying printed flyers - four replies told me if anyone cared.
+3. We ran one new play in scrimmage before printing playbooks for the whole league - learned more in forty minutes than another week of polish.
+4. The baker sold one test batch of sourdough before remodeling the display case - customers told her what to fix.
 
 **Mobile Capture Workflows**
-1. Halftime idea on the bench — I voice-memo'd it before the third quarter wiped it.
-2. Grocery line, kid asks for something, thought gone unless I scribble on the receipt back — two seconds, one place.
-3. Jeepney stop, blog idea hits — one tap to notes before the next ride shakes it out of my head.
-4. School pickup, kid mentions a permission slip — share sheet to inbox before the next text buries it.
+1. Halftime idea on the bench - I voice-memo'd it before the third quarter wiped it.
+2. Grocery line, kid asks for something, thought gone unless I scribble on the receipt back - two seconds, one place.
+3. Jeepney stop, blog idea hits - one tap to notes before the next ride shakes it out of my head.
+4. School pickup, kid mentions a permission slip - share sheet to inbox before the next text buries it.
 
 ---
 
 ### N
 
 **Name the Feeling**
-1. A player slumped on the bench after a bad quarter — I said "you look wiped" before I drew up the next play. His shoulders dropped; then he could hear the adjustment.
-2. My spouse walked in tense after traffic and errands — "rough afternoon?" before I asked about dinner plans. Small line, less defensiveness.
-3. A coworker snapped in the break room about a late shipment — "sounds like you're getting blamed for stuff upstream" landed before we talked about who to email.
-4. My kid came home furious about homework — "you're mad because it felt unfair" beat "just do it." We got to the actual problem after the feeling had a name.
+1. A player slumped on the bench after a bad quarter - I said "you look wiped" before I drew up the next play. His shoulders dropped; then he could hear the adjustment.
+2. My spouse walked in tense after traffic and errands - "rough afternoon?" before I asked about dinner plans. Small line, less defensiveness.
+3. A coworker snapped in the break room about a late shipment - "sounds like you're getting blamed for stuff upstream" landed before we talked about who to email.
+4. My kid came home furious about homework - "you're mad because it felt unfair" beat "just do it." We got to the actual problem after the feeling had a name.
 
 **Network Analysis**
-1. The playbook diagram showed one motion offense linking twelve other sets — that was the doorway I'd simplify first.
-2. The org chart showed one coordinator linking twelve others — that's where I'd add backup before peak season.
-3. The chore chart showed one kid linking every task — the bottleneck we fixed first.
-4. The garden graph showed one note linking twelve others — that's the doorway I'd prune first.
+1. The playbook diagram showed one motion offense linking twelve other sets - that was the doorway I'd simplify first.
+2. The org chart showed one coordinator linking twelve others - that's where I'd add backup before peak season.
+3. The chore chart showed one kid linking every task - the bottleneck we fixed first.
+4. The garden graph showed one note linking twelve others - that's the doorway I'd prune first.
 
 **Normalization of Deviance**
-1. Third time I rolled through the stop sign at dawn and nobody honked — until a kid on a bike appeared.
-2. Third time someone skipped helmet strap in warmups and nobody called it — until the collision in practice.
-3. Third time someone ran the red light in the parking lot and nobody wrote it up — until the fender bender.
-4. Third time we let the ladder stay on the stairs and nobody moved it — until someone tripped carrying laundry.
+1. Third time I rolled through the stop sign at dawn and nobody honked - until a kid on a bike appeared.
+2. Third time someone skipped helmet strap in warmups and nobody called it - until the collision in practice.
+3. Third time someone ran the red light in the parking lot and nobody wrote it up - until the fender bender.
+4. Third time we let the ladder stay on the stairs and nobody moved it - until someone tripped carrying laundry.
 
 **Note Relationships**
 1. This note pushes against a slower-work philosophy I named in the body. One typed link for that tension? → Link as contradicts.
 2. Weekly checklist makes a review habit real in my notes. Link type that says this note carries it out? → Link as implements.
 3. I'm updating the family chore chart and add "feeds into: Saturday yard work" next to "take out trash" plus "conflicts with: bedtime when done late" before I tape it to the fridge.
-4. New note builds on an older atomic claim — typing the connection in the body now. One relationship word? → Type extends in the body.
+4. New note builds on an older atomic claim - typing the connection in the body now. One relationship word? → Type extends in the body.
 5. Hub page gathering twenty related notes under one roof. Frontmatter flag, not a table row? → Set note_kind: index.
 
 **Notice the Good**
-1. After practice I told the kid who boxed out every drill: "Your rebounds won that scrimmage — keep sealing like that." He knew exactly what to repeat.
-2. I emailed the intern: "You caught the duplicate invoice before I did — that saved us a call." Specific beats a generic thanks slide.
-3. I told my spouse: "You texted you'd be late before I had to ask — that took stress off dinner." One action named, easy to repeat.
-4. My kid cleared the table without being asked — "you saw the mess and handled it; that helps the whole night." Not "you're so good."
+1. After practice I told the kid who boxed out every drill: "Your rebounds won that scrimmage - keep sealing like that." He knew exactly what to repeat.
+2. I emailed the intern: "You caught the duplicate invoice before I did - that saved us a call." Specific beats a generic thanks slide.
+3. I told my spouse: "You texted you'd be late before I had to ask - that took stress off dinner." One action named, easy to repeat.
+4. My kid cleared the table without being asked - "you saw the mess and handled it; that helps the whole night." Not "you're so good."
 
 ---
 
 ### O
 
 **Outcomes Over Pitch Decks**
-1. The trainer's Instagram was polished — I asked two parents who finished the program about injuries and consistency.
-2. The contractor's portfolio was gorgeous — I asked two neighbors who lived through the remodel about permit fights and cracked tile.
-3. The tutor's brochure looked perfect — I asked one mom whether her kid actually passed after three months.
-4. The phone plan salesman had slick slides — I asked my neighbor what his bill actually looked like month six.
+1. The trainer's Instagram was polished - I asked two parents who finished the program about injuries and consistency.
+2. The contractor's portfolio was gorgeous - I asked two neighbors who lived through the remodel about permit fights and cracked tile.
+3. The tutor's brochure looked perfect - I asked one mom whether her kid actually passed after three months.
+4. The phone plan salesman had slick slides - I asked my neighbor what his bill actually looked like month six.
 
 **Own the Error**
-1. Surgeons do morbidity rounds — name the miss, fix the process; I rang up the wrong total, voided the receipt, added a second look when bills pile up.
-2. I forgot the permission slip and told my kid out loud — reprinted, set a phone reminder, not "the teacher never emailed."
-3. I merged wrong and clipped a bumper — I left a note with my number, not drove off hoping nobody saw.
-4. After the missed free throw cost us the game, our point guard said "that was on me" in the huddle — no blame theater.
+1. Surgeons do morbidity rounds - name the miss, fix the process; I rang up the wrong total, voided the receipt, added a second look when bills pile up.
+2. I forgot the permission slip and told my kid out loud - reprinted, set a phone reminder, not "the teacher never emailed."
+3. I merged wrong and clipped a bumper - I left a note with my number, not drove off hoping nobody saw.
+4. After the missed free throw cost us the game, our point guard said "that was on me" in the huddle - no blame theater.
 
 ---
 
 ### P
 
 **PARA Method**
-1. Active work with a deadline just landed in my notes. Owner and end date clear — where does it go? → Projects — or it stays Resources.
-2. Topic folder tree feels tidy but misses how I actually work. What am I actually naming? → Owner and deadline — not subject.
+1. Active work with a deadline just landed in my notes. Owner and end date clear - where does it go? → Projects - or it stays Resources.
+2. Topic folder tree feels tidy but misses how I actually work. What am I actually naming? → Owner and deadline - not subject.
 3. Tournament folder on the bench with a deadline; off-season conditioning notes in the filing cabinet with no end date.
 4. The science fair folder on the counter with a deadline; immunization records in the filing cabinet with no end date.
-5. Science fair on the counter with a due date; immunization records in the cabinet with no end date — sorted by what owns it, not alphabet soup.
+5. Science fair on the counter with a due date; immunization records in the cabinet with no end date - sorted by what owns it, not alphabet soup.
 
 **Pareto Principle**
-1. The kids' activity list had six things and we skipped three nights — I trimmed to basketball and piano and we actually showed up.
-2. Task board and reading list both screaming urgent. Protect which slice — roughly what percent moved the needle? → The vital ~20%.
-3. Review deck bloated to forty notes — skipping drills. Trim to what fraction of the garden? → ~20% spine — weekly habits only.
-4. Found the vital few tasks that matter. After that, what do I protect? → That slice — stop polishing the rest.
-5. Polishing the long tail while the vital few stall. What do I protect first? → Protect the vital few — cut tail polish.
+1. The kids' activity list had six things and we skipped three nights - I trimmed to basketball and piano and we actually showed up.
+2. Task board and reading list both screaming urgent. Protect which slice - roughly what percent moved the needle? → The vital ~20%.
+3. Review deck bloated to forty notes - skipping drills. Trim to what fraction of the garden? → ~20% spine - weekly habits only.
+4. Found the vital few tasks that matter. After that, what do I protect? → That slice - stop polishing the rest.
+5. Polishing the long tail while the vital few stall. What do I protect first? → Protect the vital few - cut tail polish.
 
 **Peacemakers**
 1. Hard truth needs saying but I soft-pedal to avoid fight. What am I called to? → Peace through truth in love.
-2. Two teammates were feuding in the locker room — I didn't pick a side, I asked what it would take to fix it before the next game.
-3. Two coworkers wanted me to pick a side over lunch — I called the one I wronged first and asked what it would take to actually fix things.
-4. Two friends feuding at dinner wanted me to pick a side — I called the one I wronged first and asked how to fix it, not keep the room quiet.
-5. Neighbors were arguing over the fence line — I offered to measure together instead of nodding along with whoever complained loudest.
+2. Two teammates were feuding in the locker room - I didn't pick a side, I asked what it would take to fix it before the next game.
+3. Two coworkers wanted me to pick a side over lunch - I called the one I wronged first and asked what it would take to actually fix things.
+4. Two friends feuding at dinner wanted me to pick a side - I called the one I wronged first and asked how to fix it, not keep the room quiet.
+5. Neighbors were arguing over the fence line - I offered to measure together instead of nodding along with whoever complained loudest.
 
 **Periodic Knowledge Review**
-1. The clinic reviews charts every Friday at four — not only when a complaint lands.
-2. I calendar thirty minutes Sunday to clear the bowl by the door and check the family calendar — chores rot when I only tidy in panic.
-3. First Sunday I reconcile the budget — not only when the card gets declined mid-commute.
-4. The basketball team watches film every Monday, win or lose — not only after a blowout.
+1. The clinic reviews charts every Friday at four - not only when a complaint lands.
+2. I calendar thirty minutes Sunday to clear the bowl by the door and check the family calendar - chores rot when I only tidy in panic.
+3. First Sunday I reconcile the budget - not only when the card gets declined mid-commute.
+4. The basketball team watches film every Monday, win or lose - not only after a blowout.
 
 **PKM**
-1. When a friend asks what PKM means, I say the same for what I learn — boring name, daily payoff.
-2. My commute notebook has three lists I actually open — not forty folders I'll never scroll again.
+1. When a friend asks what PKM means, I say the same for what I learn - boring name, daily payoff.
+2. My commute notebook has three lists I actually open - not forty folders I'll never scroll again.
 3. The team manager keeps a card file sorted by what she actually uses on game day, not every article she ever read.
 4. The school nurse keeps a card file sorted by what she actually uses on a shift, not every article she ever read.
 
 **Plain Commitments at Work**
-1. The host almost said "I'll try to maybe get you a table around seven if we're not slammed" when "7pm" or "I can't tonight — want tomorrow?" was what the couple needed.
-2. I told the carpool "yes Friday, no Thursday" — not "definitely maybe if nothing comes up."
-3. The coach said "practice at 4pm sharp" — not "we'll try to maybe start around four if weather holds."
-4. I told my neighbor "I'll fix your fence Saturday by noon" — one deadline, one owner, not padded maybe.
+1. The host almost said "I'll try to maybe get you a table around seven if we're not slammed" when "7pm" or "I can't tonight - want tomorrow?" was what the couple needed.
+2. I told the carpool "yes Friday, no Thursday" - not "definitely maybe if nothing comes up."
+3. The coach said "practice at 4pm sharp" - not "we'll try to maybe start around four if weather holds."
+4. I told my neighbor "I'll fix your fence Saturday by noon" - one deadline, one owner, not padded maybe.
 
 **Preparedness**
-1. I keep jumper cables and a blanket in the trunk before winter — not learning that lesson on the icy off-ramp.
-2. We ran our inbound play every Thursday whether we needed it or not — schools run fire drills on sunny Tuesdays so kids aren't learning exits during smoke.
+1. I keep jumper cables and a blanket in the trunk before winter - not learning that lesson on the icy off-ramp.
+2. We ran our inbound play every Thursday whether we needed it or not - schools run fire drills on sunny Tuesdays so kids aren't learning exits during smoke.
 3. Our restaurant ran the closing checklist on a slow Tuesday; Saturday night's rush was boring because everyone had already walked it once.
-4. We practiced the fire plan on a calm Tuesday — kids knew two exits before anyone smelled smoke.
+4. We practiced the fire plan on a calm Tuesday - kids knew two exits before anyone smelled smoke.
 
 **Priorities Before the Inbox**
-1. Game film due Friday — I cut it before answering every parent group chat ping.
-2. The report was due at noon — I wrote the first page before opening Slack.
-3. Tuesday before school, phone buzzing and lunches on the counter — sandwiches packed first, then I answer messages from a morning that already moved.
-4. Oil change before the road trip — I booked the slot before scrolling neighborhood drama.
+1. Game film due Friday - I cut it before answering every parent group chat ping.
+2. The report was due at noon - I wrote the first page before opening Slack.
+3. Tuesday before school, phone buzzing and lunches on the counter - sandwiches packed first, then I answer messages from a morning that already moved.
+4. Oil change before the road trip - I booked the slot before scrolling neighborhood drama.
 
 **Process Over Outcomes**
-1. I protect the Sunday review loop that produces the next note — the process keeps working when motivation dips.
+1. I protect the Sunday review loop that produces the next note - the process keeps working when motivation dips.
 2. The baker follows the same proofing steps whether it's a slow Tuesday or wedding weekend.
-3. Same commute podcast and debrief voice memo — the loop survives a bad week at work.
+3. Same commute podcast and debrief voice memo - the loop survives a bad week at work.
 4. The JV squad runs the same warmup whether the bleachers are empty or full.
 
 **Progressive Summarization**
 1. I open the playbook notes a second time and bold three plays, then star one for this week's install.
 2. I open the vendor contract a second time and bold three clauses, then highlight one before I sign.
-3. I open the PTA newsletter for the second time and circle three dates, then star one — sticky on the fridge only when I'm blocking the calendar.
-4. I reread the community meeting recap and bold three action items — summary at the top only when I'm actually doing something with it.
+3. I open the PTA newsletter for the second time and circle three dates, then star one - sticky on the fridge only when I'm blocking the calendar.
+4. I reread the community meeting recap and bold three action items - summary at the top only when I'm actually doing something with it.
 
 **Psychological Safety**
-1. My kid told me he broke the vase — I thanked him for saying it instead of making him dread confessing next time.
-2. I named the wrong turn to my carpool — nobody mocked it, so I speak up before the next missed exit.
-3. The rookie admitted he ran the wrong route — coach thanked the catch in film review, not humiliated him in front of everyone.
+1. My kid told me he broke the vase - I thanked him for saying it instead of making him dread confessing next time.
+2. I named the wrong turn to my carpool - nobody mocked it, so I speak up before the next missed exit.
+3. The rookie admitted he ran the wrong route - coach thanked the catch in film review, not humiliated him in front of everyone.
 4. The nurse reported the near-mix-up because the charge nurse thanked the catch, not the messenger.
 
 ---
@@ -3001,76 +3001,76 @@ Complete **G–Z** per-note top-5 (genre ignored). Ranked from existing `## Exam
 ### Q
 
 **Quarterly Planning**
-1. January's vague "get faster" became twelve weeks with a fridge time chart — week ten finally bit.
-2. January's vague "reduce waste" became twelve weeks with a kitchen whiteboard tally — week ten finally bit.
-3. January's vague "get fit" became twelve weeks with a fridge scoreboard — week ten finally bit.
-4. January's vague "save money" became twelve weeks with a jar on the counter — week ten finally bit.
+1. January's vague "get faster" became twelve weeks with a fridge time chart - week ten finally bit.
+2. January's vague "reduce waste" became twelve weeks with a kitchen whiteboard tally - week ten finally bit.
+3. January's vague "get fit" became twelve weeks with a fridge scoreboard - week ten finally bit.
+4. January's vague "save money" became twelve weeks with a jar on the counter - week ten finally bit.
 
 ---
 
 ### R
 
 **Read Later Queue**
-1. I saved forty highlight reels and watched twelve — the queue was guilt storage, not training.
-2. I bookmarked forty parenting threads and acted on three — the save button was a graveyard.
-3. Four hundred saved articles on my phone and I'd read twelve — parking lot, not reading.
-4. Four hundred saved articles and I'd read twelve — the queue was guilt storage, not reading.
+1. I saved forty highlight reels and watched twelve - the queue was guilt storage, not training.
+2. I bookmarked forty parenting threads and acted on three - the save button was a graveyard.
+3. Four hundred saved articles on my phone and I'd read twelve - parking lot, not reading.
+4. Four hundred saved articles and I'd read twelve - the queue was guilt storage, not reading.
 
 **Reconcile Before the Review**
-1. Strong stats for the scout meeting but my assistant coach was still cold from Tuesday — fifteen minutes with him before we sat with the scout beat hoping charts would smooth it.
-2. Strong numbers for the quarterly review but my teammate was still cold from something I'd said — I made the short call and owned the apology before OKRs.
-3. Strong notes for the parent-teacher meeting but my co-teacher was still cold from Tuesday — fifteen minutes with her before we sat with the parents.
-4. The launch demo was ready but my neighbor sponsor was still hurt from a snub — coffee first, slides second.
+1. Strong stats for the scout meeting but my assistant coach was still cold from Tuesday - fifteen minutes with him before we sat with the scout beat hoping charts would smooth it.
+2. Strong numbers for the quarterly review but my teammate was still cold from something I'd said - I made the short call and owned the apology before OKRs.
+3. Strong notes for the parent-teacher meeting but my co-teacher was still cold from Tuesday - fifteen minutes with her before we sat with the parents.
+4. The launch demo was ready but my neighbor sponsor was still hurt from a snub - coffee first, slides second.
 
 **Reconciliation Before Worship**
-1. I warmed up ready to compete while my teammate still had something against me from Wednesday — fix it courtside, then play.
-2. I walked into the volunteer shift ready to serve while my co-worker still had something against me — five minutes in the parking lot first.
-3. I walked into church ready to sing while my brother still had something against me — leave the gift, go fix it, then come back.
-4. I arrived at the family reunion ready to mingle while my sister was still cold from last month — one honest conversation before the group photo.
-5. Sunday worship while avoiding someone I wronged. What breaks? → Empty worship — go fix it first.
+1. I warmed up ready to compete while my teammate still had something against me from Wednesday - fix it courtside, then play.
+2. I walked into the volunteer shift ready to serve while my co-worker still had something against me - five minutes in the parking lot first.
+3. I walked into church ready to sing while my brother still had something against me - leave the gift, go fix it, then come back.
+4. I arrived at the family reunion ready to mingle while my sister was still cold from last month - one honest conversation before the group photo.
+5. Sunday worship while avoiding someone I wronged. What breaks? → Empty worship - go fix it first.
 
 **Recovery**
-1. After three nights of overtime I skipped the fourth — slept eight hours and didn't snap at the barista.
-2. Elite athletes schedule rest days — muscle rebuilds off the field, not another heroic scrimmage.
-3. The chef took Monday off after the wedding rush — judgment came back by Thursday service.
-4. Three late nights made me snap at bedtime — recovery was stopping at ten instead of a fourth heroic hour that hurt everyone at breakfast.
+1. After three nights of overtime I skipped the fourth - slept eight hours and didn't snap at the barista.
+2. Elite athletes schedule rest days - muscle rebuilds off the field, not another heroic scrimmage.
+3. The chef took Monday off after the wedding rush - judgment came back by Thursday service.
+4. Three late nights made me snap at bedtime - recovery was stopping at ten instead of a fourth heroic hour that hurt everyone at breakfast.
 
 **Reliability**
-1. The friend who shows at 7:00, not "around seven," is who you call for carpool in a crisis — my kid's coach sends the schedule every Monday.
-2. The plumber who says Tuesday at 9 and actually shows is who you call when the leak spreads — not the loudest ad.
-3. My kid's coach sends the schedule every Monday and doesn't ghost when it's rain practice — yes means yes.
+1. The friend who shows at 7:00, not "around seven," is who you call for carpool in a crisis - my kid's coach sends the schedule every Monday.
+2. The plumber who says Tuesday at 9 and actually shows is who you call when the leak spreads - not the loudest ad.
+3. My kid's coach sends the schedule every Monday and doesn't ghost when it's rain practice - yes means yes.
 4. The neighbor who picks up mail every day you're away is the one I'd trust with a spare key.
 
 **Render Unto Caesar**
-1. The tax bill landed and I paid what was lawful — give Caesar the coin, give God myself.
-2. God's image bearer — what do I owe Him vs the state? → Self to God — coin to Caesar.
-3. Tournament fees and park permits get paid on time — kingdom first doesn't mean dodging the forms.
-4. School activity fees go in the envelope on Monday even when I'd rather spend it on something fun — earthly duty and worship stay distinct.
-5. The tax bill landed and part of me wanted to treat paying it like betraying the kingdom — Jesus said give Caesar what's on the coin and God what's made in His image.
+1. The tax bill landed and I paid what was lawful - give Caesar the coin, give God myself.
+2. God's image bearer - what do I owe Him vs the state? → Self to God - coin to Caesar.
+3. Tournament fees and park permits get paid on time - kingdom first doesn't mean dodging the forms.
+4. School activity fees go in the envelope on Monday even when I'd rather spend it on something fun - earthly duty and worship stay distinct.
+5. The tax bill landed and part of me wanted to treat paying it like betraying the kingdom - Jesus said give Caesar what's on the coin and God what's made in His image.
 
 **Repent and Believe**
 1. Trying to obey my way into eternal life. What receives life vs what guides after? → Repent/believe receives. Obedience guides after.
-2. I kept telling myself I'd trust the coach's system once my form looked respectable — repent and believe is the door you walk through today, messy as you are.
-3. I kept telling myself I'd trust Jesus once my habits looked respectable — it's not a finish line when you're fixed.
-4. I told my kid faith isn't waiting until you're good enough — turn and trust today, then keep practicing.
-5. I stopped delaying the hard conversation until I felt ready — believe the promise first, tidy later.
+2. I kept telling myself I'd trust the coach's system once my form looked respectable - repent and believe is the door you walk through today, messy as you are.
+3. I kept telling myself I'd trust Jesus once my habits looked respectable - it's not a finish line when you're fixed.
+4. I told my kid faith isn't waiting until you're good enough - turn and trust today, then keep practicing.
+5. I stopped delaying the hard conversation until I felt ready - believe the promise first, tidy later.
 
 **Resilience**
-1. Commute delays wrecked my morning three days straight — I left earlier Thursday instead of cursing the traffic and showing up late again.
-2. We lost the semifinal, had an honest huddle, rested a week, came back with a simpler game plan — not rage-quitting mid-season.
-3. Our Saturday rush blew up — honest huddle, quiet week, smaller menu, not acting like Friday never happened.
-4. A tree that bends in a storm keeps growing — we reset bedtime after a brutal week instead of pretending nobody was exhausted.
+1. Commute delays wrecked my morning three days straight - I left earlier Thursday instead of cursing the traffic and showing up late again.
+2. We lost the semifinal, had an honest huddle, rested a week, came back with a simpler game plan - not rage-quitting mid-season.
+3. Our Saturday rush blew up - honest huddle, quiet week, smaller menu, not acting like Friday never happened.
+4. A tree that bends in a storm keeps growing - we reset bedtime after a brutal week instead of pretending nobody was exhausted.
 
 **Reversibility**
 1. I took the longer route with an exit every mile before trying the new shortcut through construction.
-2. Try the new play in scrimmage before running it in the championship — reversible rehearsal, higher bar for the irreversible call.
-3. Test the recipe at half batch before the wedding order — undo-able trial, not fifty servings of guesswork.
-4. Try the haircut at home with clippers that still leave length — not the zero guard first.
+2. Try the new play in scrimmage before running it in the championship - reversible rehearsal, higher bar for the irreversible call.
+3. Test the recipe at half batch before the wedding order - undo-able trial, not fifty servings of guesswork.
+4. Try the haircut at home with clippers that still leave length - not the zero guard first.
 
 **Risk Management**
-1. I moved the bike rack off the blind corner before adding another mirror — name what can go wrong, then pick the strong control.
-2. We moved the hydration table off the sprint lane before buying more caution tape — eliminate before manage.
-3. We moved the hot oil station away from the walk lane before buying more warning signs — eliminate before manage.
+1. I moved the bike rack off the blind corner before adding another mirror - name what can go wrong, then pick the strong control.
+2. We moved the hydration table off the sprint lane before buying more caution tape - eliminate before manage.
+3. We moved the hot oil station away from the walk lane before buying more warning signs - eliminate before manage.
 4. We moved the space heater off the rug before lecturing the kids again about not touching it.
 
 ---
@@ -3078,294 +3078,294 @@ Complete **G–Z** per-note top-5 (genre ignored). Ranked from existing `## Exam
 ### S
 
 **Safety by Design**
-1. The gym swapped to breakaway rims so dunk attempts don't tear shoulders — safer layout, not another lecture on landing.
-2. The new stove puts controls where elbows can't bump them — safer layout, not another lecture.
-3. We put outlet covers in before the crawling phase — harm harder to cause, not "be careful" fifty times a day.
-4. The crosswalk got a bump-out so cars slow before the turn — design change, not just "watch for pedestrians" signs.
+1. The gym swapped to breakaway rims so dunk attempts don't tear shoulders - safer layout, not another lecture on landing.
+2. The new stove puts controls where elbows can't bump them - safer layout, not another lecture.
+3. We put outlet covers in before the crawling phase - harm harder to cause, not "be careful" fifty times a day.
+4. The crosswalk got a bump-out so cars slow before the turn - design change, not just "watch for pedestrians" signs.
 
 **Safety Comes First**
-1. A teammate wanted to play through a head hit — I didn't "support his call"; I got the trainer. Following his lead would have meant ignoring the injury.
-2. A coworker wanted to skip the lockout tag on a jammed machine — I didn't go along to keep peace. Power off, tag on, then we troubleshoot together.
-3. A friend was too drunk to drive and insisted he was fine — I took the keys and called a ride. Friendship isn't co-signing the crash.
-4. My kid wanted to ride in the truck bed on a bumpy road — "your choice" ended at the seatbelt. We could pick music; we couldn't pick the hospital route.
+1. A teammate wanted to play through a head hit - I didn't "support his call"; I got the trainer. Following his lead would have meant ignoring the injury.
+2. A coworker wanted to skip the lockout tag on a jammed machine - I didn't go along to keep peace. Power off, tag on, then we troubleshoot together.
+3. A friend was too drunk to drive and insisted he was fine - I took the keys and called a ride. Friendship isn't co-signing the crash.
+4. My kid wanted to ride in the truck bed on a bumpy road - "your choice" ended at the seatbelt. We could pick music; we couldn't pick the hospital route.
 
 **Second-Order Thinking**
-1. Free pizza after games pulled families in — then the parking lot jammed and refs quit early — I asked what happens after the first rush.
-2. I offered unlimited screen time on sick days — then bedtime fights lasted a week after they recovered.
-3. The shortcut shaves ten minutes until the construction zone adds twenty — I asked what happens after Tuesday's win.
-4. Free cookies at the door pull kids in — then the line blocks serious shoppers and staff burns out on samples.
+1. Free pizza after games pulled families in - then the parking lot jammed and refs quit early - I asked what happens after the first rush.
+2. I offered unlimited screen time on sick days - then bedtime fights lasted a week after they recovered.
+3. The shortcut shaves ten minutes until the construction zone adds twenty - I asked what happens after Tuesday's win.
+4. Free cookies at the door pull kids in - then the line blocks serious shoppers and staff burns out on samples.
 
 **Secret Devotion**
-1. I pray with the kids before bed with the door closed — no photo, no caption, just the Father who already knows we're here.
-2. I almost posted my Bible-and-coffee setup because quiet time felt wasted without likes — secret devotion means the Father is enough audience.
-3. About to post my quiet time for likes. Who's the real audience? → Father alone — not the feed.
-4. The player doesn't live-stream her 5 a.m. shootarounds for applause — she trains because the game is the point, not the Strava badge.
-5. The janitor who mops the back hallway when nobody's watching isn't building a reputation — he's doing the job right because it's right.
+1. I pray with the kids before bed with the door closed - no photo, no caption, just the Father who already knows we're here.
+2. I almost posted my Bible-and-coffee setup because quiet time felt wasted without likes - secret devotion means the Father is enough audience.
+3. About to post my quiet time for likes. Who's the real audience? → Father alone - not the feed.
+4. The player doesn't live-stream her 5 a.m. shootarounds for applause - she trains because the game is the point, not the Strava badge.
+5. The janitor who mops the back hallway when nobody's watching isn't building a reputation - he's doing the job right because it's right.
 
 **Seek the Kingdom First**
 1. Tuesday 7am, inbox calling before work. One move that puts God's reign first? → Scripture or prayer before inbox.
-2. Calendar filled before I opened Scripture this week. Reorder — what comes first? → Kingdom first — Scripture before inbox.
-3. Tuesday at 7am the house was loud and my Bible was still closed — seek the kingdom first is Scripture before the day's noise sets the agenda.
-4. Anxiety had me scrolling finances before I prayed — kingdom first meant pray, then act on the bills.
-5. Wallet and calendar both pulling hard. One reframe before I chase either? → Move treasure — heart follows.
+2. Calendar filled before I opened Scripture this week. Reorder - what comes first? → Kingdom first - Scripture before inbox.
+3. Tuesday at 7am the house was loud and my Bible was still closed - seek the kingdom first is Scripture before the day's noise sets the agenda.
+4. Anxiety had me scrolling finances before I prayed - kingdom first meant pray, then act on the bills.
+5. Wallet and calendar both pulling hard. One reframe before I chase either? → Move treasure - heart follows.
 
 **Self-Control**
-1. My thumb hovered over a snarky reply in the pickup-line group chat — self-control was close the app and answer when I wasn't drunk on cortisol.
-2. Thumb on the post button at midnight after a rough day — self-control was save to drafts, sleep, send tomorrow.
-3. The point guard feels the pull to hero-ball on a bad stretch — self-control is the scripted pass they drilled, not the urge.
-4. The grocery store puts candy at checkout because impulse is predictable — self-control is the list in your hand, not the wrapper by the register.
+1. My thumb hovered over a snarky reply in the pickup-line group chat - self-control was close the app and answer when I wasn't drunk on cortisol.
+2. Thumb on the post button at midnight after a rough day - self-control was save to drafts, sleep, send tomorrow.
+3. The point guard feels the pull to hero-ball on a bad stretch - self-control is the scripted pass they drilled, not the urge.
+4. The grocery store puts candy at checkout because impulse is predictable - self-control is the list in your hand, not the wrapper by the register.
 
 **Servant Leadership**
-1. I had the title at home but noticed I was hoarding easy wins — servant leadership meant the messy bedtime shift while my partner got the break.
-2. I got promoted and realized I'd been grabbing credit for work the team carried — servant leadership was my name off the slide and hers on the praise email.
-3. The captain takes the extra fitness drill so the rookie gets the lighter session — servant leadership is her workload, not his highlight reel.
+1. I had the title at home but noticed I was hoarding easy wins - servant leadership meant the messy bedtime shift while my partner got the break.
+2. I got promoted and realized I'd been grabbing credit for work the team carried - servant leadership was my name off the slide and hers on the praise email.
+3. The captain takes the extra fitness drill so the rookie gets the lighter session - servant leadership is her workload, not his highlight reel.
 4. The head server took the worst section on Mother's Day and put the busser who saved the night on the thank-you board.
 
 **Set Calm Boundaries**
-1. A teammate kept trash-talking our own bench — I pulled him aside: "Ride the refs if you want; don't go at our guys. That stops now." Same team, clear line.
-2. A client kept calling my personal cell after hours — "I'll answer until six on this number; after that use the office line." No drama, no apology tour.
-3. A neighbor's dog kept jumping our fence — "I like you; the dog can't be in our yard. Leash or fix the gap by Friday." Steady voice, one ask.
-4. My kid yelled insults during a board game — "you can be mad; name-calling ends the game." We paused, reset, kept playing when the tone shifted.
+1. A teammate kept trash-talking our own bench - I pulled him aside: "Ride the refs if you want; don't go at our guys. That stops now." Same team, clear line.
+2. A client kept calling my personal cell after hours - "I'll answer until six on this number; after that use the office line." No drama, no apology tour.
+3. A neighbor's dog kept jumping our fence - "I like you; the dog can't be in our yard. Leash or fix the gap by Friday." Steady voice, one ask.
+4. My kid yelled insults during a board game - "you can be mad; name-calling ends the game." We paused, reset, kept playing when the tone shifted.
 
 **Share Sheet**
-1. Article on the jeepney route change → Share → inbox — mobile capture's front door when I can't stop and type.
-2. Recipe from the school group chat → Share → grocery list — one tap before three kids pulled me away from the phone.
-3. Halftime clip of the broken play → Share → Notes — captured before the second half erased the fix I saw.
-4. The supplier email with the corrected invoice → Share → my task app — saved before I closed the browser and lost it.
+1. Article on the jeepney route change → Share → inbox - mobile capture's front door when I can't stop and type.
+2. Recipe from the school group chat → Share → grocery list - one tap before three kids pulled me away from the phone.
+3. Halftime clip of the broken play → Share → Notes - captured before the second half erased the fix I saw.
+4. The supplier email with the corrected invoice → Share → my task app - saved before I closed the browser and lost it.
 
 **Share What You Learn**
-1. I'd figured out the clinic's parking trick after three visits — I told the next parent in line instead of hoarding the shortcut.
-2. I almost moved on after a week wrestling school forms — share what you learn was the sticky note on the fridge so my spouse didn't start from zero.
-3. The veteran keeper showed the rookie where to stand on corners — twenty minutes now so she's not guessing on match day.
-4. The electrician labeled every breaker in the panel for whoever comes next — twenty minutes now, no guessing later.
+1. I'd figured out the clinic's parking trick after three visits - I told the next parent in line instead of hoarding the shortcut.
+2. I almost moved on after a week wrestling school forms - share what you learn was the sticky note on the fridge so my spouse didn't start from zero.
+3. The veteran keeper showed the rookie where to stand on corners - twenty minutes now so she's not guessing on match day.
+4. The electrician labeled every breaker in the panel for whoever comes next - twenty minutes now, no guessing later.
 
 **Ship It**
-1. We ran the new play ugly in scrimmage instead of drilling it another month — feedback beat perfection on the whiteboard.
-2. The menu went live with one typo fixed after service — customers ate tonight instead of another week of proofreading.
-3. The birthday slideshow shipped with one rough slide — the kid laughed at the candid; another month in iMovie would've missed the party.
-4. The blog post went live with one rough paragraph — feedback beat another month in drafts.
+1. We ran the new play ugly in scrimmage instead of drilling it another month - feedback beat perfection on the whiteboard.
+2. The menu went live with one typo fixed after service - customers ate tonight instead of another week of proofreading.
+3. The birthday slideshow shipped with one rough slide - the kid laughed at the candid; another month in iMovie would've missed the party.
+4. The blog post went live with one rough paragraph - feedback beat another month in drafts.
 
 **Signal vs Noise**
-1. Interesting article but it won't change what I do this month. Thumb on save. What's the move? → Admire and move on — don't save.
-2. Thumb on save — one filter question before I commit? → Change action or belief this month?
-3. The trade-rumor thread was loud all week — signal was the one injury note that actually changed our lineup; the rest I admired and skipped.
-4. The dentist waiting room had a stack of magazines — if it won't change what I do this month, headline only, no mental slot.
-5. Three parenting hacks saved this week — I kept the one that changes bedtime this month and skipped the rest for now.
+1. Interesting article but it won't change what I do this month. Thumb on save. What's the move? → Admire and move on - don't save.
+2. Thumb on save - one filter question before I commit? → Change action or belief this month?
+3. The trade-rumor thread was loud all week - signal was the one injury note that actually changed our lineup; the rest I admired and skipped.
+4. The dentist waiting room had a stack of magazines - if it won't change what I do this month, headline only, no mental slot.
+5. Three parenting hacks saved this week - I kept the one that changes bedtime this month and skipped the rest for now.
 
 **Situational Control**
-1. My sister and I were fighting past the kids' bedtime — situational control was a fifteen-minute break and a promise to pick it up tomorrow.
-2. Down twelve at halftime, our captain called a timeout she didn't need — situational control was slowing the game, not surrendering to their pace.
-3. The meeting was going sideways — situational control was "let's take ten and come back with an agenda," not letting the loudest voice own the room.
-4. A good host ends the party before the stereo gets louder — they control the evening, not the loudest guest.
+1. My sister and I were fighting past the kids' bedtime - situational control was a fifteen-minute break and a promise to pick it up tomorrow.
+2. Down twelve at halftime, our captain called a timeout she didn't need - situational control was slowing the game, not surrendering to their pace.
+3. The meeting was going sideways - situational control was "let's take ten and come back with an agenda," not letting the loudest voice own the room.
+4. A good host ends the party before the stereo gets louder - they control the evening, not the loudest guest.
 
 **Sketchpad**
-1. The floor plan for the new seating layout stayed on the back of a receipt until opening week — scratch space before the sign went up.
-2. The birthday party layout lived in Notes for a month — half-ideas in private before one paragraph shipped to the group chat.
+1. The floor plan for the new seating layout stayed on the back of a receipt until opening week - scratch space before the sign went up.
+2. The birthday party layout lived in Notes for a month - half-ideas in private before one paragraph shipped to the group chat.
 3. The napkin layout for the garden page lived in my Notes app for a month before one paragraph went public.
 4. The set-piece sketch lived on a napkin for two practices before we ran it clean in a game.
 
 **Slow Productivity**
 1. I cut active home projects from six to three last quarter and finished the kids' bookcase instead of Pinterest boards on all six.
-2. I stopped chasing three side hobbies and finished one blog series — depth beat volume for once.
+2. I stopped chasing three side hobbies and finished one blog series - depth beat volume for once.
 3. The coach cut drills from six to three and the team finally ran them clean on game day.
-4. The bakery dropped four "special" items and nailed the core six — busy isn't virtue when nothing finishes.
+4. The bakery dropped four "special" items and nailed the core six - busy isn't virtue when nothing finishes.
 
 **Slow the Moment**
-1. Cut off in traffic, my first instinct matched horn for horn — slow the moment was one breath before I became the driver I hate.
-2. Before the free throw with the game on the line, the shooter took one breath — slow the moment bought the routine instead of the panic heave.
-3. My kid melted in the grocery aisle — slow the moment was one breath, quieter voice, question before consequence; the aisle got shorter, not louder.
-4. ER triage nurses ask three questions before anyone sprints — speed without sorting kills.
+1. Cut off in traffic, my first instinct matched horn for horn - slow the moment was one breath before I became the driver I hate.
+2. Before the free throw with the game on the line, the shooter took one breath - slow the moment bought the routine instead of the panic heave.
+3. My kid melted in the grocery aisle - slow the moment was one breath, quieter voice, question before consequence; the aisle got shorter, not louder.
+4. ER triage nurses ask three questions before anyone sprints - speed without sorting kills.
 
 **Spaced Repetition**
-1. I do the same with note cards on capture and gospel lines — review on a schedule before I forget, not one marathon session.
-2. We drill the baseline out-of-bounds play five minutes before every practice — same little doses beat cramming it the night before a game.
-3. The new hire's product codes live on a card by the register — five reps during slow shifts beat one frantic hour before the audit.
-4. My kid's spelling list lives on the fridge; we hit five words while rice cooks — same little doses beat cramming the night before the quiz.
+1. I do the same with note cards on capture and gospel lines - review on a schedule before I forget, not one marathon session.
+2. We drill the baseline out-of-bounds play five minutes before every practice - same little doses beat cramming it the night before a game.
+3. The new hire's product codes live on a card by the register - five reps during slow shifts beat one frantic hour before the audit.
+4. My kid's spelling list lives on the fridge; we hit five words while rice cooks - same little doses beat cramming the night before the quiz.
 
 **Standard Operating Procedures**
-1. The closing routine after every match — ice, tape, log the injury — lives on the locker-room whiteboard so nobody improvises when everyone's exhausted.
+1. The closing routine after every match - ice, tape, log the injury - lives on the locker-room whiteboard so nobody improvises when everyone's exhausted.
 2. The restaurant opening checklist lives on a clipboard because memory fails when the door unlocks at eleven.
-3. Guests were already seated when the new cook ran the sauce steps off the card — same as a recipe when you can't invent under pressure.
-4. The building guard walks the posted evacuation route he practiced on quiet shifts — written steps when the alarm trips loud.
+3. Guests were already seated when the new cook ran the sauce steps off the card - same as a recipe when you can't invent under pressure.
+4. The building guard walks the posted evacuation route he practiced on quiet shifts - written steps when the alarm trips loud.
 
 **Stay Effective in New Conditions**
 1. I walked the new counter before the lunch rush instead of defending last month's habits when the line got long.
-2. Our guard dominates on the outdoor court and looks lost on the slick indoor floor for a week — staying effective means adjusting footwork, not defending yesterday's surface.
-3. A great street-food cook still has to learn a new kitchen layout when the mall lease starts — same food, new tools.
-4. Remote school broke our morning routine — we rebuilt a shorter version that worked on a laptop at the kitchen table, not the old rush-out-the-door script.
+2. Our guard dominates on the outdoor court and looks lost on the slick indoor floor for a week - staying effective means adjusting footwork, not defending yesterday's surface.
+3. A great street-food cook still has to learn a new kitchen layout when the mall lease starts - same food, new tools.
+4. Remote school broke our morning routine - we rebuilt a shorter version that worked on a laptop at the kitchen table, not the old rush-out-the-door script.
 
 **Strategic Foresight**
-1. The club signed a young backup keeper before the starter's contract year — foresight looks past this Saturday's win to next season's roster crunch.
-2. The café added two high chairs before rainy-season families showed up — not only tables for today's lunch crowd.
-3. You don't buy a two-seat car the year before twins arrive — the board after everyone reacts to your life, not just today's trunk test.
-4. Our condo board started the elevator fund three years before the quote arrived — looking past tonight's quiet ride to what the building looks like in six months.
+1. The club signed a young backup keeper before the starter's contract year - foresight looks past this Saturday's win to next season's roster crunch.
+2. The café added two high chairs before rainy-season families showed up - not only tables for today's lunch crowd.
+3. You don't buy a two-seat car the year before twins arrive - the board after everyone reacts to your life, not just today's trunk test.
+4. Our condo board started the elevator fund three years before the quote arrived - looking past tonight's quiet ride to what the building looks like in six months.
 
 **Sunk Cost Fallacy**
-1. I kept running a set play that lost four straight because we'd drilled it all preseason — sunk cost is asking whether I keep it because it cost time, not because it still works.
-2. The shop kept the broken POS because they'd paid the install fee — forward question only: would I buy this system fresh today?
-3. I kept paying for a gym I hadn't entered since February — when I asked if I'd sign up today, the answer was no and I canceled in ten minutes.
-4. We finished a board game nobody liked because we'd already played an hour — sunk cost was admitting we'd rather start a new one than lose another twenty minutes.
+1. I kept running a set play that lost four straight because we'd drilled it all preseason - sunk cost is asking whether I keep it because it cost time, not because it still works.
+2. The shop kept the broken POS because they'd paid the install fee - forward question only: would I buy this system fresh today?
+3. I kept paying for a gym I hadn't entered since February - when I asked if I'd sign up today, the answer was no and I canceled in ten minutes.
+4. We finished a board game nobody liked because we'd already played an hour - sunk cost was admitting we'd rather start a new one than lose another twenty minutes.
 
 **Sustainable Performance**
-1. I can't sprint bedtime-and-homework heroics five nights a row — sustainable performance is an earlier lights-out one night so Thursday doesn't blow up.
-2. I stopped answering work email at midnight — a pace I can repeat next month beats tonight's heroic reply.
-3. Coffee gets you through one shift; sleep gets you through a season — sustainable performance isn't playing hurt three weeks straight to save tonight's win.
-4. The kitchen ran Friday pace five nights straight and quality slid by Wednesday — sustainable performance would've cut a night off instead of mortgaging next week's tickets.
+1. I can't sprint bedtime-and-homework heroics five nights a row - sustainable performance is an earlier lights-out one night so Thursday doesn't blow up.
+2. I stopped answering work email at midnight - a pace I can repeat next month beats tonight's heroic reply.
+3. Coffee gets you through one shift; sleep gets you through a season - sustainable performance isn't playing hurt three weeks straight to save tonight's win.
+4. The kitchen ran Friday pace five nights straight and quality slid by Wednesday - sustainable performance would've cut a night off instead of mortgaging next week's tickets.
 
 **Synthesis as a Goal**
 1. Three coaches' clips on our press sat in my folder until I merged them into one drill we actually ran Tuesday.
-2. Three recipe clippings sat on the fridge until I merged them into one dinner I actually cooked — collecting felt like work; synthesis is when learning started.
-3. Quote-saved notes on productivity sat untouched until I wrote one page in my own words about how I capture — synthesis, not hoarding.
-4. Five parenting articles became one rule on the fridge — merged into what we believe about screens, not a quote collection.
+2. Three recipe clippings sat on the fridge until I merged them into one dinner I actually cooked - collecting felt like work; synthesis is when learning started.
+3. Quote-saved notes on productivity sat untouched until I wrote one page in my own words about how I capture - synthesis, not hoarding.
+4. Five parenting articles became one rule on the fridge - merged into what we believe about screens, not a quote collection.
 
 **Systems Thinking**
-1. We lost every third possession on turnovers — systems thinking traced it to the warmup drill, not "focus harder tonight."
-2. The restaurant ran out of rice on a busy Friday — systems thinking traced it to prep checklist and par levels, not "cook faster tonight."
+1. We lost every third possession on turnovers - systems thinking traced it to the warmup drill, not "focus harder tonight."
+2. The restaurant ran out of rice on a busy Friday - systems thinking traced it to prep checklist and par levels, not "cook faster tonight."
 3. Three missed school forms meant the morning routine needed a clipboard by the door, not louder reminders at 7:02.
-4. The commute was late three Tuesdays in a row — systems thinking looked at sleep and prep the night before, not only leaving five minutes earlier.
+4. The commute was late three Tuesdays in a row - systems thinking looked at sleep and prep the night before, not only leaving five minutes earlier.
 
 ---
 
 ### T
 
 **Take Up Your Cross**
-1. I had one big surrender moment last year and went back to the same comfortable sin — Jesus said daily: pick it up again today.
-2. Turning down the easy shortcut at work because I know it's wrong — cross isn't suffering for show; it's choosing God's will over self-will again today.
-3. Comfortable faith — avoiding the hard obedience I heard preached. What's the daily move? → Count cost — deny self, follow daily.
-4. Cross-bearing to feel saved — what's the wrong order in my head? → Shape daily following — grace already saved.
-5. One big surrender last year, same sin pattern today. What frequency am I missing? → Daily — pick up cross again today.
+1. I had one big surrender moment last year and went back to the same comfortable sin - Jesus said daily: pick it up again today.
+2. Turning down the easy shortcut at work because I know it's wrong - cross isn't suffering for show; it's choosing God's will over self-will again today.
+3. Comfortable faith - avoiding the hard obedience I heard preached. What's the daily move? → Count cost - deny self, follow daily.
+4. Cross-bearing to feel saved - what's the wrong order in my head? → Shape daily following - grace already saved.
+5. One big surrender last year, same sin pattern today. What frequency am I missing? → Daily - pick up cross again today.
 
 **Taxonomy**
-1. Film folders split by opponent and phase beat one dump called "misc clips" — I find the corner-kick reel in seconds now.
-2. Tags for 'faith' and 'PKM' beat one junk drawer folder called 'misc' — classification scheme so I find things later.
-3. School papers split into "sign," "keep," and "trash" trays beat one pile on the counter — taxonomy for the daily scramble.
-4. Receipts sorted by taxes vs warranty vs trash beat one shoebox — folders and labels, boring on purpose.
+1. Film folders split by opponent and phase beat one dump called "misc clips" - I find the corner-kick reel in seconds now.
+2. Tags for 'faith' and 'PKM' beat one junk drawer folder called 'misc' - classification scheme so I find things later.
+3. School papers split into "sign," "keep," and "trash" trays beat one pile on the counter - taxonomy for the daily scramble.
+4. Receipts sorted by taxes vs warranty vs trash beat one shoebox - folders and labels, boring on purpose.
 
 **The 12 Week Year**
-1. "Fix our free-throw rate" lived as a someday goal until I gave it twelve weeks and a scoreboard on the locker — week ten finally bit.
-2. "Hire and train" was vague until the twelve-week arc had weekly numbers — the quarter I actually feel, not January 1st fiction.
-3. The wiki refactor got a twelve-week arc instead of "when I have time" — compressed goal I could see closing.
-4. I'd been treating "clear the garage" like a someday project — twelve weeks and a fridge scoreboard; week ten the boxes finally moved.
+1. "Fix our free-throw rate" lived as a someday goal until I gave it twelve weeks and a scoreboard on the locker - week ten finally bit.
+2. "Hire and train" was vague until the twelve-week arc had weekly numbers - the quarter I actually feel, not January 1st fiction.
+3. The wiki refactor got a twelve-week arc instead of "when I have time" - compressed goal I could see closing.
+4. I'd been treating "clear the garage" like a someday project - twelve weeks and a fridge scoreboard; week ten the boxes finally moved.
 
 **The Beatitudes**
-1. A good week at the clinic and I felt like I didn't need much from God — poor in spirit is broke before God, not the worker who nailed Friday's schedule.
-2. After a winning streak I caught myself feeling spiritually self-sufficient — Beatitudes start with poor in spirit, not the athlete who just had a perfect weekend.
-3. I had a great weekend with the kids and felt spiritually full — Beatitudes flip the scoreboard toward the needy, not the dad who just had a perfect Saturday.
-4. Promotion week had me feeling self-made — mourning and meekness aren't weakness; they're the posture Jesus blessed instead of the scoreboard I was reading.
-5. Thumb itching to clap back and prove I'm strong. Which beatitude fork? → Meek — don't grasp status.
+1. A good week at the clinic and I felt like I didn't need much from God - poor in spirit is broke before God, not the worker who nailed Friday's schedule.
+2. After a winning streak I caught myself feeling spiritually self-sufficient - Beatitudes start with poor in spirit, not the athlete who just had a perfect weekend.
+3. I had a great weekend with the kids and felt spiritually full - Beatitudes flip the scoreboard toward the needy, not the dad who just had a perfect Saturday.
+4. Promotion week had me feeling self-made - mourning and meekness aren't weakness; they're the posture Jesus blessed instead of the scoreboard I was reading.
+5. Thumb itching to clap back and prove I'm strong. Which beatitude fork? → Meek - don't grasp status.
 
 **The Collector's Fallacy**
 1. My recipe folder had forty saved dinners and we still ordered takeout three nights a week until I tied every save to one cooked meal.
-2. Bookmark hoard growing with no ship date — saving articles felt like learning until I tied each save to what I'd actually make.
+2. Bookmark hoard growing with no ship date - saving articles felt like learning until I tied each save to what I'd actually make.
 3. Reading list grows but nothing ships. One question before every save? → What will I make with this?
-4. Bookmark folder growing again — can only ask one question before save. Which? → What will I make with this?
-5. My folder had forty highlight reels and we still ran the same broken play — saving felt like improving; it wasn't until one clip became Tuesday's drill.
+4. Bookmark folder growing again - can only ask one question before save. Which? → What will I make with this?
+5. My folder had forty highlight reels and we still ran the same broken play - saving felt like improving; it wasn't until one clip became Tuesday's drill.
 
 **The Feynman Technique**
-1. I tried to explain the three-second violation to my kid at halftime and stalled halfway — that gap told me I don't own the idea yet.
-2. The new hire asked why we batch invoices that way and I stumbled mid-sentence — Feynman gap means I need one more pass before I teach it.
-3. My kid asked how the fuse box works and I waved vaguely — explaining it simply showed I didn't understand it well enough to fix anything.
-4. I couldn't explain my note-capture workflow to a friend in two minutes — gaps in my explanation showed gaps in understanding.
+1. I tried to explain the three-second violation to my kid at halftime and stalled halfway - that gap told me I don't own the idea yet.
+2. The new hire asked why we batch invoices that way and I stumbled mid-sentence - Feynman gap means I need one more pass before I teach it.
+3. My kid asked how the fuse box works and I waved vaguely - explaining it simply showed I didn't understand it well enough to fix anything.
+4. I couldn't explain my note-capture workflow to a friend in two minutes - gaps in my explanation showed gaps in understanding.
 
 **The Garage Concept**
-1. Draft posts live in my private folder; the blog gets the finished essay — I don't accidentally publish the mess.
-2. The back kitchen holds experiments; the dining room plate is what's approved to leave — I don't confuse workshop with showroom.
-3. The practice film library is messy; the highlight reel for parents is one clean cut — garage holds scraps, showroom shows the finished piece.
+1. Draft posts live in my private folder; the blog gets the finished essay - I don't accidentally publish the mess.
+2. The back kitchen holds experiments; the dining room plate is what's approved to leave - I don't confuse workshop with showroom.
+3. The practice film library is messy; the highlight reel for parents is one clean cut - garage holds scraps, showroom shows the finished piece.
 4. The garage holds half-finished projects and sawdust; the front porch shows the one bench I'd invite a neighbor to sit on.
 
 **The Golden Rule**
-1. Thumb on post button, public critique loaded. One check before I hit send? → Reverse roles — would I want this said to me?
-2. My thumb was on the post button with a critique that was probably true and definitely cruel — pause: how would I want someone to say that to me?
-3. Waiting in line at the clinic, someone cut ahead and I drafted a public scolding — Golden Rule check: I'd want grace, not an audience.
-4. Waiting for fair treatment before I act well toward someone. Who moves first? → I go first — treat as I'd want.
+1. Thumb on post button, public critique loaded. One check before I hit send? → Reverse roles - would I want this said to me?
+2. My thumb was on the post button with a critique that was probably true and definitely cruel - pause: how would I want someone to say that to me?
+3. Waiting in line at the clinic, someone cut ahead and I drafted a public scolding - Golden Rule check: I'd want grace, not an audience.
+4. Waiting for fair treatment before I act well toward someone. Who moves first? → I go first - treat as I'd want.
 5. Ethical fork, no rulebook handy. One experiential check before I act? → How would I want to be treated?
 
 **The Knowledge Lifecycle**
-1. Ideas in my vault move capture → active use → evergreen → archive — I spend water and stakes where the note actually lives.
+1. Ideas in my vault move capture → active use → evergreen → archive - I spend water and stakes where the note actually lives.
 2. The new set play lives in "learning" for three weeks, graduates to "game plan," then gets archived when we change offense.
 3. A tomato seedling on the windowsill graduates to the backyard bed after three good weeks, then gets pulled when frost hits.
 4. The school FAQ note started as a fleeting capture, got updated all semester, then moved to archive when the kid changed schools.
 
 **The Narrow Way**
-1. Group chat gossip was "just joking" — narrow way was not forwarding the screenshot even when staying out made me the odd one.
-2. Everyone around me was taking the easy road on something I know Jesus said no to — the crowd made it feel normal; narrow is hard now, life at the end.
-3. Comfortable path everyone else is on. Which gate am I choosing? → Narrow — hard road, life at the end.
-4. Tempted to skip hard obedience because everyone's comfortable. Who moves first? → I take narrow — don't follow the crowd.
-5. Everyone cheered the dirty play that won — the narrow way was passing it up when the ref didn't see, even alone on the bench.
+1. Group chat gossip was "just joking" - narrow way was not forwarding the screenshot even when staying out made me the odd one.
+2. Everyone around me was taking the easy road on something I know Jesus said no to - the crowd made it feel normal; narrow is hard now, life at the end.
+3. Comfortable path everyone else is on. Which gate am I choosing? → Narrow - hard road, life at the end.
+4. Tempted to skip hard obedience because everyone's comfortable. Who moves first? → I take narrow - don't follow the crowd.
+5. Everyone cheered the dirty play that won - the narrow way was passing it up when the ref didn't see, even alone on the bench.
 
 **The Second Brain Workflow**
-1. Game notes hit one inbox after match; Sunday I sort, toss, and pull one play into next week's plan — capture, organize, distill, express in one loop.
-2. Links land in one inbox all week; weekly review empties it and ships one note — one loop, not separate capture and organize rituals I quit.
-3. Friday night is capture everything in one jar; Sunday is sort, toss, and file what's worth keeping — not four hobbies abandoned by March.
-4. Receipts and school slips hit one bowl daily; Sunday review sorts, trashes, one thing to act on — same CODE loop, kitchen edition.
+1. Game notes hit one inbox after match; Sunday I sort, toss, and pull one play into next week's plan - capture, organize, distill, express in one loop.
+2. Links land in one inbox all week; weekly review empties it and ships one note - one loop, not separate capture and organize rituals I quit.
+3. Friday night is capture everything in one jar; Sunday is sort, toss, and file what's worth keeping - not four hobbies abandoned by March.
+4. Receipts and school slips hit one bowl daily; Sunday review sorts, trashes, one thing to act on - same CODE loop, kitchen edition.
 
 **The Trusted Inbox**
-1. Mid-day an inbox item screams for a project folder. Where do I leave it? → Inbox — break flow if I file now.
-2. I tag and label but the inbox never empties. Still trusted? → No — empty means delete or file out.
-3. We kept one bowl by the door for keys, papers, receipts — two bowls meant I'd hold things in my head instead.
-4. Forty inbox items untouched two weeks. Trust is broken — recovery move today? → Empty it now. Same day weekly.
+1. Mid-day an inbox item screams for a project folder. Where do I leave it? → Inbox - break flow if I file now.
+2. I tag and label but the inbox never empties. Still trusted? → No - empty means delete or file out.
+3. We kept one bowl by the door for keys, papers, receipts - two bowls meant I'd hold things in my head instead.
+4. Forty inbox items untouched two weeks. Trust is broken - recovery move today? → Empty it now. Same day weekly.
 5. Friday review starting. What's step one? → Empty the Trusted Inbox first.
 
 **The Wise Builder**
-1. Heard the Sermon preached many times — how I treat people unchanged. What's missing? → Do one command today — not hear only.
-2. Storm of job loss or betrayal hits hard. What reveals rock vs sand under me? → Obedience under stress — not just hearing.
+1. Heard the Sermon preached many times - how I treat people unchanged. What's missing? → Do one command today - not hear only.
+2. Storm of job loss or betrayal hits hard. What reveals rock vs sand under me? → Obedience under stress - not just hearing.
 3. Saved sermons and notes but no obedience showing up. One move I take today? → Obey one command Jesus gave.
-4. We heard the coach's lecture on discipline and still skipped film study Tuesday — hearing without doing is sand; storms show which builder you are.
-5. Safety training Monday, same shortcut Wednesday — wise builder hears and does; fool hears and nods.
+4. We heard the coach's lecture on discipline and still skipped film study Tuesday - hearing without doing is sand; storms show which builder you are.
+5. Safety training Monday, same shortcut Wednesday - wise builder hears and does; fool hears and nods.
 
 **There Is No Perfect Solution**
-1. I spent a week comparing strollers instead of walking with the baby we already had — picked the lighter one, went out tired that afternoon.
-2. I stopped comparing note apps and shipped with the one that works on my phone tired — no perfect tool, only what I actually use.
-3. We ran the secondary lineup ugly instead of waiting for the star to clear concussion protocol — good enough today beat perfect next month.
-4. The shop picked the good-enough supplier quote Friday instead of a fifth round of bids — tradeoffs, not an imaginary perfect vendor.
+1. I spent a week comparing strollers instead of walking with the baby we already had - picked the lighter one, went out tired that afternoon.
+2. I stopped comparing note apps and shipped with the one that works on my phone tired - no perfect tool, only what I actually use.
+3. We ran the secondary lineup ugly instead of waiting for the star to clear concussion protocol - good enough today beat perfect next month.
+4. The shop picked the good-enough supplier quote Friday instead of a fifth round of bids - tradeoffs, not an imaginary perfect vendor.
 
 **Tony Buzan**
-1. Pre-game whiteboard: center idea, branches for set pieces — Buzan style, no sentence essays on the page.
-2. The workshop called it 'Buzan style' — center idea, branches, no paragraph outlines before the brainstorm.
-3. Trip planning on one page: Manila in the middle, branches for hotels, food, and "don't forget meds" — radiant sketch, not an essay.
-4. My garden overhaul started as a mind map on a napkin — center node, branches, the name people cite for the method.
+1. Pre-game whiteboard: center idea, branches for set pieces - Buzan style, no sentence essays on the page.
+2. The workshop called it 'Buzan style' - center idea, branches, no paragraph outlines before the brainstorm.
+3. Trip planning on one page: Manila in the middle, branches for hotels, food, and "don't forget meds" - radiant sketch, not an essay.
+4. My garden overhaul started as a mind map on a napkin - center node, branches, the name people cite for the method.
 
 **Treasure in Heaven**
-1. Thumb on another buy I don't need — will this rust, or store something heaven-side like mercy and obedience?
-2. Thumb on another buy I don't need. One check before checkout? → Will this rust — or store something that lasts?
-3. I almost chased a sponsorship for the ego, not the team — treasure check: where will this matter in ten years?
-4. Wallet full of gear I'll resell at a loss; calendar empty of the people I say I serve — heart follows treasure, and mine was on earth again.
-5. I looked at my wallet and calendar last night — both full of stuff that won't survive a hard year; store what lasts, not what rusts.
+1. Thumb on another buy I don't need - will this rust, or store something heaven-side like mercy and obedience?
+2. Thumb on another buy I don't need. One check before checkout? → Will this rust - or store something that lasts?
+3. I almost chased a sponsorship for the ego, not the team - treasure check: where will this matter in ten years?
+4. Wallet full of gear I'll resell at a loss; calendar empty of the people I say I serve - heart follows treasure, and mine was on earth again.
+5. I looked at my wallet and calendar last night - both full of stuff that won't survive a hard year; store what lasts, not what rusts.
 
 **Turn the Other Cheek**
-1. Neighbor's passive-aggressive note about parking — I didn't post a rebuttal on the group chat; stop throwing anger after sunk hurt.
-2. Trash talk after the whistle and I wanted the last word — turn the other cheek is refusing to become the player who has to win every exchange.
-3. A customer snapped over a wait time and I felt the perfect comeback forming — non-retaliation is absorbing without escalating the cycle.
-4. Someone snapped at me in the school pickup line and I spent the drive home drafting the comeback — turning the cheek isn't pretending it didn't hurt; it's not mirroring evil.
-5. Insult landed — thumb drafting equal hurt back. What's the cycle-break? → Don't retaliate — absorb without escalating.
+1. Neighbor's passive-aggressive note about parking - I didn't post a rebuttal on the group chat; stop throwing anger after sunk hurt.
+2. Trash talk after the whistle and I wanted the last word - turn the other cheek is refusing to become the player who has to win every exchange.
+3. A customer snapped over a wait time and I felt the perfect comeback forming - non-retaliation is absorbing without escalating the cycle.
+4. Someone snapped at me in the school pickup line and I spent the drive home drafting the comeback - turning the cheek isn't pretending it didn't hurt; it's not mirroring evil.
+5. Insult landed - thumb drafting equal hurt back. What's the cycle-break? → Don't retaliate - absorb without escalating.
 
 ---
 
 ### V–W
 
 **Versatility**
-1. The rush hit and I jumped on dishes while the line cook called tickets — versatile without pretending I suddenly ran the grill.
-2. Sick day meant I became lunch packer, tutor, and IT help — versatility is more than one lane when the day shifts.
-3. When the main salesperson called in sick, I covered phones for an hour — contribute adjacent, don't dilute what you're actually best at.
-4. When our center covers the wing for ten minutes, the team survives — useful without forgetting who normally owns the paint.
+1. The rush hit and I jumped on dishes while the line cook called tickets - versatile without pretending I suddenly ran the grill.
+2. Sick day meant I became lunch packer, tutor, and IT help - versatility is more than one lane when the day shifts.
+3. When the main salesperson called in sick, I covered phones for an hour - contribute adjacent, don't dilute what you're actually best at.
+4. When our center covers the wing for ten minutes, the team survives - useful without forgetting who normally owns the paint.
 
 **Voice Memos**
-1. Driving between sites I voice-memo'd the supplier change — transcribed into the inbox when I parked.
-2. Driving home from clinic I dictated the thought into the phone — transcribed later into the inbox.
-3. Walking off the field I dictated the fix for tomorrow's drill — hands busy, idea captured before it evaporated.
+1. Driving between sites I voice-memo'd the supplier change - transcribed into the inbox when I parked.
+2. Driving home from clinic I dictated the thought into the phone - transcribed later into the inbox.
+3. Walking off the field I dictated the fix for tomorrow's drill - hands busy, idea captured before it evaporated.
 4. Hands full of groceries, I dictated "email teacher about field trip" into the phone before I forgot in the door scramble.
 
 **Webhooks**
-1. Form submit hits my script instantly instead of me refreshing the inbox every five minutes — HTTP callback when something happens.
-2. New appointment hits the calendar the second the patient submits — webhook beats staff polling the inbox every five minutes.
-3. School alert webhook fires when the bus is late — push to my phone instead of refreshing the tracker tab.
-4. RSVP form submission pings the team chat instantly — push event instead of the manager refreshing the signup sheet every hour.
+1. Form submit hits my script instantly instead of me refreshing the inbox every five minutes - HTTP callback when something happens.
+2. New appointment hits the calendar the second the patient submits - webhook beats staff polling the inbox every five minutes.
+3. School alert webhook fires when the bus is late - push to my phone instead of refreshing the tracker tab.
+4. RSVP form submission pings the team chat instantly - push event instead of the manager refreshing the signup sheet every hour.
 
 **Weekly Review Checklists**
-1. Friday review — inbox and calendar done. Fourth step before I close? → Pick one ship action.
+1. Friday review - inbox and calendar done. Fourth step before I close? → Pick one ship action.
 2. Finished inbox and calendar but skipping express. Required before I close review? → Pick one ship action.
-3. Step three after inbox and calendar — what do I review next? → Active projects — stuck and next.
-4. Inbox, calendar, projects, one express action — twenty minutes beats skipping review because this week's "different."
+3. Step three after inbox and calendar - what do I review next? → Active projects - stuck and next.
+4. Inbox, calendar, projects, one express action - twenty minutes beats skipping review because this week's "different."
 5. Review keeps drifting to random days. What rhythm do I lock in? → Same day every week.
 
 ---
@@ -4035,7 +4035,7 @@ import re, pathlib
 root = pathlib.Path(&#34;/home/jorap/Documents/GitHub/jorap.com/content/english/notes&#34;)
 for p in root.glob(&#34;*.md&#34;):
     text = p.read_text()
-    new = text.replace(&#34;—&#34;, &#34; - &#34;)
+    new = text.replace(&#34;-&#34;, &#34; - &#34;)
     new = re.sub(r&#34;(\n- [^\n]+)\n(## )&#34;, r&#34;\1\n\n\2&#34;, new)
     if new != text:
         p.write_text(new)
@@ -4047,7 +4047,7 @@ import re, pathlib
 root = pathlib.Path("/home/jorap/Documents/GitHub/jorap.com/content/english/notes")
 for p in root.glob("*.md"):
     text = p.read_text()
-    new = text.replace("—", " - ")
+    new = text.replace("-", " - ")
     new = re.sub(r"(\n- [^\n]+)\n(## )", r"\1\n\n\2", new)
     if new != text:
         p.write_text(new)
@@ -4212,7 +4212,7 @@ _**Agent (default)**_
 <summary>Tool use: **run_terminal_command_v2** • Run command: python3 &lt;&lt; &#39;PY&#39;
 import re, pathlib
 root = pathlib.Path(&#34;/home/jorap/Documents/GitHub/jorap.com/content/english/notes&#34;)
-# Fix double-spaced hyphen artifacts from em-dash replace (em dash was &#34; — &#34;)
+# Fix double-spaced hyphen artifacts from em-dash replace (em dash was &#34; - &#34;)
 fixed = 0
 for p in root.glob(&#34;*.md&#34;):
     text = p.read_text()
@@ -4226,7 +4226,7 @@ PY</summary>
 python3 << 'PY'
 import re, pathlib
 root = pathlib.Path("/home/jorap/Documents/GitHub/jorap.com/content/english/notes")
-# Fix double-spaced hyphen artifacts from em-dash replace (em dash was " — ")
+# Fix double-spaced hyphen artifacts from em-dash replace (em dash was " - ")
 fixed = 0
 for p in root.glob("*.md"):
     text = p.read_text()
@@ -4340,7 +4340,7 @@ Restoring original prose examples from git history. Golden rule originals includ
 
 _**Agent (default)**_
 
-Restoring original prose examples from git — the first pass replaced them with card conversions on spine notes.
+Restoring original prose examples from git - the first pass replaced them with card conversions on spine notes.
 
 
 _**Agent (default)**_
@@ -4664,10 +4664,10 @@ Updated the garden to match the genre-free review.
 ### Notes (`179` files)
 - Removed **Sports / Non-technical work / Home with children / Real world** labels
 - Replaced with **plain bullets**, ranked best-first
-- **43 spine notes** (`review: true`) now have **5** examples — original prose kept, plus a card-derived 5th where it scored higher
+- **43 spine notes** (`review: true`) now have **5** examples - original prose kept, plus a card-derived 5th where it scored higher
 - **136 notes** have **4** examples (only four unique scenes in the pool; no flashcards to pull from)
 
-Example — `attention-economy.md`:
+Example - `attention-economy.md`:
 
 ```18:23:content/english/notes/attention-economy.md
 ## Examples
@@ -4678,7 +4678,7 @@ Example — `attention-economy.md`:
 - My kid's tablet "educational" game paused every level for a purchase screen - the game wanted her focus, not her learning.
 ```
 
-Example — `the-golden-rule.md` (prose restored, one card as #5):
+Example - `the-golden-rule.md` (prose restored, one card as #5):
 
 ```35:41:content/english/notes/the-golden-rule.md
 ## Examples
@@ -4691,8 +4691,8 @@ Example — `the-golden-rule.md` (prose restored, one card as #5):
 ```
 
 ### Docs & tooling
-- **`getting-started.md`** — examples are now “up to five plain bullets,” no genre requirement
-- **`assets/js/notes-creator.js`** — Create Note prompt updated to match
-- **`scripts/expand-genre-free-examples.py`** — batch script for future reruns (prose-first ranking, cards fill the 5th slot)
+- **`getting-started.md`** - examples are now “up to five plain bullets,” no genre requirement
+- **`assets/js/notes-creator.js`** - Create Note prompt updated to match
+- **`scripts/expand-genre-free-examples.py`** - batch script for future reruns (prose-first ranking, cards fill the 5th slot)
 
 If you want all **136** four-bullet notes bumped to five, I can draft a 5th scene for each in a follow-up pass.

@@ -259,7 +259,7 @@ Result:
           },
           {
             "lineNumber": 23,
-            "text": "  var aiChatCopiedLabel = \"Copied — paste in chat\";"
+            "text": "  var aiChatCopiedLabel = \"Copied - paste in chat\";"
           },
           {
             "lineNumber": 24,
@@ -616,7 +616,7 @@ Result:
           },
           {
             "lineNumber": 21,
-            "text": "  var aiChatCopiedLabel = \"Copied — paste in chat\";"
+            "text": "  var aiChatCopiedLabel = \"Copied - paste in chat\";"
           },
           {
             "lineNumber": 22,
@@ -3000,11 +3000,11 @@ Result:
           },
           {
             "lineNumber": 17,
-            "text": "  - front: \"Situational cue I'd recognize mid-week — first person, mid-action, no options listed on the front.\""
+            "text": "  - front: \"Situational cue I'd recognize mid-week - first person, mid-action, no options listed on the front.\""
           },
           {
             "lineNumber": 18,
-            "text": "    back: \"Immediate move — plain imperative, what I do or decide next.\""
+            "text": "    back: \"Immediate move - plain imperative, what I do or decide next.\""
           },
           {
             "lineNumber": 19,
@@ -3059,7 +3059,7 @@ Result:
           },
           {
             "lineNumber": 32,
-            "text": "**{{ replace .Name \"-\" \" \" | title }}** — one idea, stated plainly. Link out instead of adding sections."
+            "text": "**{{ replace .Name \"-\" \" \" | title }}** - one idea, stated plainly. Link out instead of adding sections."
           }
         ],
         "range": {

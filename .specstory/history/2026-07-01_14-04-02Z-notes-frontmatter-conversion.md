@@ -159,7 +159,7 @@ Result:
           },
           {
             "lineNumber": 113,
-            "text": "          hint: \"Optional. Shown in browser tab and search results. ' | JoRap Notes' is appended automatically — do not include it here.\","
+            "text": "          hint: \"Optional. Shown in browser tab and search results. ' | JoRap Notes' is appended automatically - do not include it here.\","
           },
           {
             "lineNumber": 114,
@@ -1104,7 +1104,7 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Moving note content to frontmatter would break wikilink detection. RawContent currently extracts links from the body text. A workaround is needed.
 
-A new partial will assemble markdown from frontmatter fields—summary, key_concept, examples, relationships, and remaining body text—to replace RawContent. All existing partials will be updated to use this combined content for link extraction.
+A new partial will assemble markdown from frontmatter fields-summary, key_concept, examples, relationships, and remaining body text-to replace RawContent. All existing partials will be updated to use this combined content for link extraction.
 
 A migration script will parse existing note bodies, extract sections into frontmatter fields, and remove those sections from the body. Existing Python scripts will be updated to use the new effective-raw partial. The codebase parses YAML with regex rather than PyYAML.
 </details></think>
@@ -2223,7 +2223,7 @@ All 223 notes now store structured content in frontmatter. Atomic notes like `fa
 | `examples` | `## Examples` bullets |
 | `relationships` | `## Note Relationships` table rows |
 
-`## See also` was dropped from source files — it’s still generated at build time.
+`## See also` was dropped from source files - it’s still generated at build time.
 
 ### Example (`faithfulness.md`)
 
@@ -2248,10 +2248,10 @@ relationships:
 
 ### Site + tooling updates
 
-- **`assembled-content.html`** — rebuilds display markdown from frontmatter for render, graph, backlinks, TOC, and issue checks
-- **Scripts** — `migrate-notes-to-frontmatter.py`, `notes_content.py`, `normalize-note-frontmatter.py`; updated `sync-note-relationships.py`, `normalize-notes-format.py`, `sync-note-flashcards.py`, `export-okf-bundle.py`, `lint-utility-wikilinks.py`
-- **Decap CMS** — new fields for summary, key concept, examples, relationships
-- **Archetype + Getting Started + Flashcards** — document the new schema
+- **`assembled-content.html`** - rebuilds display markdown from frontmatter for render, graph, backlinks, TOC, and issue checks
+- **Scripts** - `migrate-notes-to-frontmatter.py`, `notes_content.py`, `normalize-note-frontmatter.py`; updated `sync-note-relationships.py`, `normalize-notes-format.py`, `sync-note-flashcards.py`, `export-okf-bundle.py`, `lint-utility-wikilinks.py`
+- **Decap CMS** - new fields for summary, key concept, examples, relationships
+- **Archetype + Getting Started + Flashcards** - document the new schema
 
 Hugo build passes (2073 pages). Migration verify passes. Four pre-existing card lint errors in joy/patience/peace/staged-rollout are unrelated to this change.
 
@@ -2507,7 +2507,7 @@ Using the same target for both implements and contradicts would be awkward. The 
 
 _**Agent (auto-low)**_
 
-Adding the missing `contradicts` row to Note Relationships — typed links vs. a hand-curated hub fits the note's framing.
+Adding the missing `contradicts` row to Note Relationships - typed links vs. a hand-curated hub fits the note's framing.
 
 
 _**Agent (auto-low)**_
@@ -3613,7 +3613,7 @@ The missing striping likely stems from the new table-heavy note layout after fro
 
 _**Agent (auto-low)**_
 
-Adding intentional zebra striping for prose tables — thead is shaded but tbody rows weren't, which can look uneven on the new frontmatter relationship tables.
+Adding intentional zebra striping for prose tables - thead is shaded but tbody rows weren't, which can look uneven on the new frontmatter relationship tables.
 
 
 _**Agent (auto-low)**_
@@ -4052,7 +4052,7 @@ The user likely wants no alternating shading at all. Removing the thead fill and
 
 _**Agent (auto-low)**_
 
-Re-reading this as a complaint about unwanted striping — switching to flat, border-only tables with no row backgrounds.
+Re-reading this as a complaint about unwanted striping - switching to flat, border-only tables with no row backgrounds.
 
 
 _**Agent (auto-low)**_
@@ -4072,7 +4072,7 @@ _**Agent (auto-low)**_
 
 Updated table styling in `assets/css/custom.css`.
 
-The theme was applying `bg-elevated` to table headers only, which made the header look like a shaded band while body rows stayed flat — uneven rather than true zebra striping.
+The theme was applying `bg-elevated` to table headers only, which made the header look like a shaded band while body rows stayed flat - uneven rather than true zebra striping.
 
 Tables are now flat: no header fill and no alternating row backgrounds. Row separation comes from borders only, which fits the notes relationship tables and hub pages like Eternal Principles.
 
@@ -5256,11 +5256,11 @@ One idea, stated plainly in one breath. If you need `and` or a second claim, spl
 
 ## Key Concept
 
-One sentence — the angle, not a second definition.
+One sentence - the angle, not a second definition.
 
 Further explanation on the next paragraph: stakes, distinctions, [[wikilinks]]. Skip this section when the opening definition is enough.
 
-For habit spine notes (`review: true`), copy the frontmatter pattern from [/notes/flashcards/](/notes/flashcards/) or run `hugo new content/english/notes/my-note.md --kind notes-review`. Rules: double-quote every `front`, `back`, and set name; inline `card_sets: ["Set"]`; block list for `cards`; put `draft` last; do not add `| JoRap Notes` to `meta_title`. Don't `[[wikilink]]` utility pages (Graph, Issues, Flashcards, Review, Random Duo) — use URLs; see [[Getting Started]].
+For habit spine notes (`review: true`), copy the frontmatter pattern from [/notes/flashcards/](/notes/flashcards/) or run `hugo new content/english/notes/my-note.md --kind notes-review`. Rules: double-quote every `front`, `back`, and set name; inline `card_sets: ["Set"]`; block list for `cards`; put `draft` last; do not add `| JoRap Notes` to `meta_title`. Don't `[[wikilink]]` utility pages (Graph, Issues, Flashcards, Review, Random Duo) - use URLs; see [[Getting Started]].
 
 ```
 </details></tool-use>
@@ -5868,14 +5868,14 @@ _**Agent (auto-low)**_
 
 Done. `summary` is gone; `description` is the single opening field everywhere.
 
-**Notes (223 files)** — Migrated via `scripts/migrate-summary-to-description.py`: where both existed, `summary` won (e.g. forgiveness now uses the longer opening line). No `summary:` keys remain.
+**Notes (223 files)** - Migrated via `scripts/migrate-summary-to-description.py`: where both existed, `summary` won (e.g. forgiveness now uses the longer opening line). No `summary:` keys remain.
 
 **Output / tooling**
-- `scripts/notes_content.py` — `description` only in field order; `assemble_markdown` reads `description` (legacy `summary` fallback kept)
-- `layouts/_partials/notes/assembled-content.html` — renders `Params.description`
-- `static/admin/config.yml` — removed Summary field; Description hint updated
-- `archetypes/notes.md` — frontmatter-only template with `description`
-- `assets/js/notes-creator.js` — prompt uses frontmatter fields, not body `##` sections
+- `scripts/notes_content.py` - `description` only in field order; `assemble_markdown` reads `description` (legacy `summary` fallback kept)
+- `layouts/_partials/notes/assembled-content.html` - renders `Params.description`
+- `static/admin/config.yml` - removed Summary field; Description hint updated
+- `archetypes/notes.md` - frontmatter-only template with `description`
+- `assets/js/notes-creator.js` - prompt uses frontmatter fields, not body `##` sections
 - Docs updated: `getting-started.md`, `flashcards.md`, `note-relationships.md`
 
-**Verified** — `normalize-note-frontmatter.py` + Hugo build pass (2073 pages).
+**Verified** - `normalize-note-frontmatter.py` + Hugo build pass (2073 pages).

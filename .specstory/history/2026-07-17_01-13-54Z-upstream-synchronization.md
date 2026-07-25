@@ -317,7 +317,7 @@ diff -u /home/jorap/Documents/GitHub/jorap.com/package.json /home/jorap/Document
 @@ -1,55 +1,34 @@
  {
 -  "name": "jorap-com",
--  "description": "JoRap Notes — personal blog and portfolio (Hugo + Tailwind).",
+-  "description": "JoRap Notes - personal blog and portfolio (Hugo + Tailwind).",
 -  "version": "2.2.0",
 +  "name": "hugoplate",
 +  "description": "hugo tailwindcss boilerplate",
@@ -775,26 +775,26 @@ _**Agent (auto-low)**_
 ## Sync complete
 
 ### Hugoplate
-**Already up to date** — no new upstream commits.
+**Already up to date** - no new upstream commits.
 
 Triage: **35 BLOCKED**, **1 CANDIDATE**, **0 ADD-ONLY**.
 
 | File | Decision |
 |------|----------|
-| `layouts/single.html` | **Skipped** — upstream narrows content to `lg:col-10`; JoRap keeps `lg:col-12` for full-width pages |
-| All CSS, JS, core layouts | **Blocked** — preserve list / JoRap semantic token system |
-| `scripts/themeGenerator.js` | **Skipped** — JoRap project-setup version is correct; upstream adds theme-setup mode |
-| `package.json` | **Skipped** — JoRap scripts and metadata kept |
+| `layouts/single.html` | **Skipped** - upstream narrows content to `lg:col-10`; JoRap keeps `lg:col-12` for full-width pages |
+| All CSS, JS, core layouts | **Blocked** - preserve list / JoRap semantic token system |
+| `scripts/themeGenerator.js` | **Skipped** - JoRap project-setup version is correct; upstream adds theme-setup mode |
+| `package.json` | **Skipped** - JoRap scripts and metadata kept |
 
 **Agent skills:** rsync ran; only diff was `hugo-template-guidance/references/content-management.md`. Restored JoRap-only notes (`__` draft prefix, blog frontmatter order, lint scripts).
 
 ### Impeccable
-**Pulled** — large update (582f23ea → 8259c282).
+**Pulled** - large update (582f23ea → 8259c282).
 
 - Built skill bundle and relinked into `.cursor/skills/impeccable` (symlink → `../impeccable/dist/universal/...`)
 - **Version:** 3.9.1
 - **Notable additions:** native platform refs (`ios.md`, `android.md`, `adapt.native.md`, `audit.native.md`), design-system detector improvements, hook updates
-- **Context script:** passes — resolves `docs/PRODUCT.md` and `docs/DESIGN.md`
+- **Context script:** passes - resolves `docs/PRODUCT.md` and `docs/DESIGN.md`
 
 ### Build
 `pnpm build` succeeded (2034 pages, ~32s Hugo).
@@ -811,6 +811,6 @@ Triage: **35 BLOCKED**, **1 CANDIDATE**, **0 ADD-ONLY**.
 - `themeGenerator.js`, `package.json` (JoRap-specific)
 
 ### Review
-Nothing theme-related to eyeball in the browser — this was a skills-only sync for Hugoplate. Impeccable’s new native-platform commands are available if you work on iOS/Android UI later.
+Nothing theme-related to eyeball in the browser - this was a skills-only sync for Hugoplate. Impeccable’s new native-platform commands are available if you work on iOS/Android UI later.
 
 No commit made. Your unrelated note edits (`signature-move.md`, etc.) are untouched.

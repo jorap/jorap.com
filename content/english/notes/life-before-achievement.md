@@ -52,14 +52,18 @@ featured: false
 review: true
 card_sets: ["Ethics", "Focus"]
 cards:
-  - front: "Backyard rope swing over concrete vs low branch and mat - same fun, softer landing. Which do I pick?"
+  - front: "Backyard rope swing over concrete vs low branch and mat - same fun, softer landing."
     back: "Safer course - life isn't negotiable."
   - front: "Team wants cliff-jump bonding; park picnic hits unity without broken-leg risk. Leader call?"
     back: "Cancel the stunt - unity doesn't need it."
   - front: "Field trip proposal is cliff-jump for bonding cred. Same goal, safer option on the table?"
     back: "Pick the picnic - life stays the floor."
-  - front: "Scout hike choice: ridge with a drop and no guardrail vs flat trail, same badge. Which trail?"
+  - front: "Scout hike choice - ridge with a drop and no guardrail vs flat trail, same badge."
     back: "Flat trail - achievement doesn't outrank life."
+  - front: "Skipping dinner again for one more heroic hour on the project."
+    back: "Sit down - people before the milestone."
+  - front: "Kid's game tonight - laptop open for one more email pass."
+    back: "Close the lid - be present first."
 draft: false
 ---
 

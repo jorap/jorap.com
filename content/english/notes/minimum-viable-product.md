@@ -54,6 +54,10 @@ cards:
     back: "Forty minutes beats another week of polish."
   - front: "Tempted to remodel the display case before selling sourdough. First ship?"
     back: "One test batch - let customers speak."
+  - front: "Feature list grew again - users still haven't touched v1."
+    back: "Cut to one path - ship what teaches."
+  - front: "Logo and landing page perfect - nobody can actually use it yet."
+    back: "Smallest working slice - learn from real hands."
 draft: false
 ---
 

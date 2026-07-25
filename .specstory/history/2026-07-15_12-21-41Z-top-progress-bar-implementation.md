@@ -932,7 +932,7 @@ Placing the progress bar partial right after the skip link in baseof.html. Updat
 
 _**Agent (auto-low)**_
 
-Adding a fixed top scroll progress bar via a partial, small JS module, and CSS—reusing the same scroll pattern as the back-to-top control.
+Adding a fixed top scroll progress bar via a partial, small JS module, and CSS-reusing the same scroll pattern as the back-to-top control.
 
 
 _**Agent (auto-low)**_
@@ -1106,10 +1106,10 @@ Done. Every page now has a fixed 3px reading progress bar at the very top of the
 
 **What was added**
 
-1. **`layouts/_partials/components/scroll-progress.html`** — thin bar markup, included from `baseof.html` on all pages
-2. **`assets/js/scroll-progress.js`** — updates bar width from scroll position (same rAF-throttled pattern as back-to-top)
-3. **`assets/css/custom.css`** — fixed positioning at `z-index: 60`, accent fill, subtle track, respects `prefers-reduced-motion`
-4. **`hugo.toml`** — loads the script in the main bundle (`lazy = false`) so it runs immediately
+1. **`layouts/_partials/components/scroll-progress.html`** - thin bar markup, included from `baseof.html` on all pages
+2. **`assets/js/scroll-progress.js`** - updates bar width from scroll position (same rAF-throttled pattern as back-to-top)
+3. **`assets/css/custom.css`** - fixed positioning at `z-index: 60`, accent fill, subtle track, respects `prefers-reduced-motion`
+4. **`hugo.toml`** - loads the script in the main bundle (`lazy = false`) so it runs immediately
 
 The bar sits above the sticky header and fills left-to-right as you scroll. On short pages with nothing to scroll, it stays at 0%. It’s hidden in randomizer focus mode along with the other chrome.
 
@@ -1333,7 +1333,7 @@ Both elements now use the same Tailwind token.
 
 _**Agent (auto-low)**_
 
-Updated. The top progress bar now uses `bg-sky-500` — the same Tailwind token as the back-to-top ring’s `text-sky-500` stroke — so both stay the same blue.
+Updated. The top progress bar now uses `bg-sky-500` - the same Tailwind token as the back-to-top ring’s `text-sky-500` stroke - so both stay the same blue.
 
 ---
 
@@ -1400,7 +1400,7 @@ No JavaScript changes were needed.
 
 _**Agent (auto-low)**_
 
-Updated the back-to-top progress ring from `stroke-width="6"` to `stroke-width="3"` on both circles, so it matches the top bar’s 3px height. No JS changes needed — the ring math only depends on the radius.
+Updated the back-to-top progress ring from `stroke-width="6"` to `stroke-width="3"` on both circles, so it matches the top bar’s 3px height. No JS changes needed - the ring math only depends on the radius.
 
 ---
 
@@ -1456,7 +1456,7 @@ A 60×60 SVG with radius 26 and stroke width 8 would place the inner ring edge e
 
 _**Agent (auto-low)**_
 
-The ring likely looks thin because a 44px button covers most of it inside the 48px SVG — I'll enlarge the ring geometry so more stroke shows.
+The ring likely looks thin because a 44px button covers most of it inside the 48px SVG - I'll enlarge the ring geometry so more stroke shows.
 
 
 _**Agent (auto-low)**_
@@ -1496,10 +1496,10 @@ The ring is now larger and properly geometrically shaped.
 
 _**Agent (auto-low)**_
 
-The ring looked thin because the 44px button was sitting on top of it inside a 48px SVG — most of the stroke was hidden behind the button, and `stroke-width="9"` was clipping at the edge.
+The ring looked thin because the 44px button was sitting on top of it inside a 48px SVG - most of the stroke was hidden behind the button, and `stroke-width="9"` was clipping at the edge.
 
 Changes:
-- **Larger SVG** (60×60) with **radius 26** and **8px stroke** — the ring now wraps around the button instead of under it
+- **Larger SVG** (60×60) with **radius 26** and **8px stroke** - the ring now wraps around the button instead of under it
 - **JS reads `r` from the SVG** so geometry stays in sync if you tweak it later
 
 The control is slightly larger overall, but the blue progress ring should read clearly thicker now. Refresh and scroll to check it.
@@ -1550,4 +1550,4 @@ Stroke width halved from 8 to 4. No JavaScript changes were needed.
 
 _**Agent (auto-low)**_
 
-Ring stroke is now **4px** (was 8px). Same size and radius — just half the thickness.
+Ring stroke is now **4px** (was 8px). Same size and radius - just half the thickness.

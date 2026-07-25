@@ -1458,9 +1458,9 @@ The **OKF graph** and the **live notes graph** are different things.
 **URL:** `/exports/okf/viz.html`
 
 **Files (generated, gitignored):**
-- `static/exports/okf/viz.html` — the viewer
-- `static/exports/okf/graph.json` — structural edge data
-- `static/exports/okf/viz.js` / `viz.css` — assets copied alongside
+- `static/exports/okf/viz.html` - the viewer
+- `static/exports/okf/graph.json` - structural edge data
+- `static/exports/okf/viz.js` / `viz.css` - assets copied alongside
 
 **Source (removed):** The generator lived in `scripts/okf-viz/` (`generate.py`, `viz.html`, `viz.js`, `viz.css`), adapted from [Google's OKF reference visualizer](https://github.com/GoogleCloudPlatform/knowledge-catalog/tree/main/okf#visualize). That directory was deleted in commit `ed9d09f1` ("Update"), and `export-okf-bundle.py` no longer builds `viz.html`.
 
@@ -1479,7 +1479,7 @@ So locally you may still have a stale `static/exports/okf/viz.html` from an olde
 - JS: `assets/js/notes-graph.js` (Pixi.js force layout)
 - Data: `layouts/_partials/notes/graph-data.html`
 
-This is the interactive graph in the notes toolbar — filters, orphans, hub view, etc. It's **not** the OKF export graph; it's built from Hugo wikilinks at runtime.
+This is the interactive graph in the notes toolbar - filters, orphans, hub view, etc. It's **not** the OKF export graph; it's built from Hugo wikilinks at runtime.
 
 ---
 
@@ -1830,6 +1830,6 @@ Added OKF graph links on both pages and restored the build step so `/exports/okf
 **[Graph](/notes/graph/)** (`graph.html`)
 - Inline link in the intro line: “Also see the Open Knowledge Format (OKF) graph…”
 
-**Build fix** — `scripts/okf-viz/` was restored and wired back into `export-okf-bundle.py`, so `pnpm run export:okf` / `pnpm build` regenerates `viz.html`. Verified locally: 243 concepts, 2051 edges.
+**Build fix** - `scripts/okf-viz/` was restored and wired back into `export-okf-bundle.py`, so `pnpm run export:okf` / `pnpm build` regenerates `viz.html`. Verified locally: 243 concepts, 2051 edges.
 
 After you deploy, both pages will point to a working graph at `/exports/okf/viz.html`.

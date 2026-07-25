@@ -466,7 +466,7 @@ Your plain voice lowers the bar on several technical posts, so some Hugo pieces 
 
 ---
 
-## Tier 1 — Effortless (13 posts)
+## Tier 1 - Effortless (13 posts)
 *Read and done. No background needed.*
 
 | # | Title | Status |
@@ -487,7 +487,7 @@ Your plain voice lowers the bar on several technical posts, so some Hugo pieces 
 
 ---
 
-## Tier 2 — Easy (19 posts)
+## Tier 2 - Easy (19 posts)
 *Light context or a single how-to.*
 
 | # | Title | Status |
@@ -514,7 +514,7 @@ Your plain voice lowers the bar on several technical posts, so some Hugo pieces 
 
 ---
 
-## Tier 3 — Moderate (15 posts)
+## Tier 3 - Moderate (15 posts)
 *Some domain knowledge or density helps.*
 
 | # | Title | Status |
@@ -537,7 +537,7 @@ Your plain voice lowers the bar on several technical posts, so some Hugo pieces 
 
 ---
 
-## Tier 4 — Hard (10 posts)
+## Tier 4 - Hard (10 posts)
 *Developer-oriented. Hugo, WordPress, or build-pipeline context expected.*
 
 | # | Title | Status |
@@ -555,7 +555,7 @@ Your plain voice lowers the bar on several technical posts, so some Hugo pieces 
 
 ---
 
-## Tier 5 — Expert (1 post)
+## Tier 5 - Expert (1 post)
 *Dense system documentation across many subsystems.*
 
 | # | Title | Status |
@@ -573,10 +573,10 @@ Your plain voice lowers the bar on several technical posts, so some Hugo pieces 
 **Biggest difficulty jumps**
 - **Tier 2 → 3:** Moving from opinion/how-to into frameworks, CMS vocabulary, or reference density (e.g. Alex Eala tracker, Drupal essay)
 - **Tier 3 → 4:** Moving from concepts into hands-on build workflows (Hugo deploy, Go templates, Tailwind migration)
-- **Tier 4 → 5:** JoRap Notes features doc — atomic frontmatter schema, typed relationships, PixiJS graph, OKF export, lint tooling in one read
+- **Tier 4 → 5:** JoRap Notes features doc - atomic frontmatter schema, typed relationships, PixiJS graph, OKF export, lint tooling in one read
 
 **Edge cases worth noting**
-- **Alex Eala tracker** is plain English but ~650 lines of WTA jargon, tables, and links — moderate overall, harder if you don't follow tennis
+- **Alex Eala tracker** is plain English but ~650 lines of WTA jargon, tables, and links - moderate overall, harder if you don't follow tennis
 - **Hanamikoji retheme** is easy if you know the game; moderate if you don't
 - **Empty Blog Template** is technically Tier 1 because there's nothing to parse
 
@@ -790,7 +790,7 @@ cd /home/jorap/Documents/GitHub/jorap.com && pnpm voice:scan 2>/dev/null | head 
 ```
 
 ```
-Voice scan — 310 files, 0 strict, 64 review-only
+Voice scan - 310 files, 0 strict, 64 review-only
 Word list: data/voice-words.yaml
 
 Review-only (edit data/voice-words.yaml review: to tune)
@@ -1245,15 +1245,15 @@ Here’s a slop ranking across all **58 blog posts**, plus what to do about it. 
 - Symmetrical bullets, “Bottom line” closers, numbered playbooks with no lived detail
 - Wiki/ideas.jorap.com exports without a full rewrite
 - Comparison tables + SEO link dumps instead of “what I actually bought”
-- Smooth but empty — no mistakes, no dates, no “this annoyed me”
+- Smooth but empty - no mistakes, no dates, no “this annoyed me”
 
-Your `pnpm lint:voice` scan shows **0 strict hits** — the obvious words (`delve`, `Furthermore`, etc.) are mostly gone. The slop left is **structural and tonal**, not vocabulary.
+Your `pnpm lint:voice` scan shows **0 strict hits** - the obvious words (`delve`, `Furthermore`, etc.) are mostly gone. The slop left is **structural and tonal**, not vocabulary.
 
 ---
 
 ## Most slop → least slop
 
-### Tier 5 — Peak slop (7 posts)
+### Tier 5 - Peak slop (7 posts)
 *Reads like a summary of what a good post should say.*
 
 | Rank | Post | Why |
@@ -1262,18 +1262,18 @@ Your `pnpm lint:voice` scan shows **0 strict hits** — the obvious words (`delv
 | 2 | **CRAFT Prompt Framework** (draft) | The embedded meta-prompt is literal slop (“one of the best ChatGPT prompts ever written”, “comprehensive details”). Monthly-goals example is oatmeal. |
 | 3 | **How to Create a Good Habit** (draft) | *Atomic Habits* cliff notes. Parallel four-law bullets, inverted table, “Expanded from ideas.jorap.com”. One personal paragraph at the end doesn’t save it. |
 | 4 | **Jobs to Be Done Framework** (draft) | Drill/hole cliché, ASCII flowchart, “Weak vs Stronger” copywriting example. Textbook JTBD, not your client work. |
-| 5 | **Immune Booster Supplements** (draft) | Wellness stack listicle. PubMed links, dose numbers, “boring stuff that works better” section — classic AI health-post shape. Jeepney line helps; not enough. |
+| 5 | **Immune Booster Supplements** (draft) | Wellness stack listicle. PubMed links, dose numbers, “boring stuff that works better” section - classic AI health-post shape. Jeepney line helps; not enough. |
 | 6 | **Remote Work Checklist** (draft) | Table checklist. “Obvious until it isn’t” energy. Could be any WFH blog circa 2021. |
-| 7 | **Make AI Articles More Human** (draft) | Ironic: teaches anti-slop but ends with SEO “Further reading” links and framework voice. The viral perplexity/burstiness block is acknowledged as slop — then the post still feels like a how-to guide. |
+| 7 | **Make AI Articles More Human** (draft) | Ironic: teaches anti-slop but ends with SEO “Further reading” links and framework voice. The viral perplexity/burstiness block is acknowledged as slop - then the post still feels like a how-to guide. |
 
 ---
 
-### Tier 4 — Heavy slop (11 posts)
+### Tier 4 - Heavy slop (11 posts)
 *Competent, but docs/tutorial voice or wiki expansion.*
 
 | Rank | Post | Why |
 |------|------|-----|
-| 8 | **What JoRap Notes Actually Does** (draft) | Feature encyclopedia. Tables, TL;DR, subsystem catalog — useful, not human. |
+| 8 | **What JoRap Notes Actually Does** (draft) | Feature encyclopedia. Tables, TL;DR, subsystem catalog - useful, not human. |
 | 9 | **Hugo Static Site Generator** (draft) | SSG explainer. JAMstack tradeoffs without a break-this-weekend story. |
 | 10 | **Hugo Go Templates** (draft) | Tutorial shaped. “Bottom line” closer. One break story helps; still docs voice. |
 | 11 | **Hugo Shortcodes Deep Dive** (draft) | Reference manual energy. |
@@ -1287,7 +1287,7 @@ Your `pnpm lint:voice` scan shows **0 strict hits** — the obvious words (`delv
 
 ---
 
-### Tier 3 — Moderate slop (14 posts)
+### Tier 3 - Moderate slop (14 posts)
 *Mixed: real voice in places, formula in others.*
 
 | Rank | Post | Why |
@@ -1297,7 +1297,7 @@ Your `pnpm lint:voice` scan shows **0 strict hits** — the obvious words (`delv
 | 21 | **Static Site or CMS?** (published) | Decision framework post. Useful, slightly committee voice. |
 | 22 | **How I Quote Client Websites** (draft) | Freelance process doc. TL;DR + line items, light personal thread. |
 | 23 | **What Happens After Your Website Goes Live** (draft) | Same bucket. |
-| 24 | **HugoPlate Theme Review** (published) | Great opening (Saturday theme trap). Middle devolves into shortcode catalog — reads like generated docs. |
+| 24 | **HugoPlate Theme Review** (published) | Great opening (Saturday theme trap). Middle devolves into shortcode catalog - reads like generated docs. |
 | 25 | **Why I Focused on Open Source** (published) | Mostly earned. Long policy-essay sections drift toward balanced nothingburgers in places. |
 | 26 | **Private Notes vs Hugo** (draft) | PKM explainer. Conceptual, light on “last Tuesday I…” |
 | 27 | **Why I Love the Inter Font** (draft) | Design opinion template. |
@@ -1309,12 +1309,12 @@ Your `pnpm lint:voice` scan shows **0 strict hits** — the obvious words (`delv
 
 ---
 
-### Tier 2 — Light slop (10 posts)
+### Tier 2 - Light slop (10 posts)
 *Mostly you. Minor tells: “Bottom line”, checklist sections, or thin middle.*
 
 | Rank | Post | Why |
 |------|------|-----|
-| 33 | **How I Built JoRap Notes** (published) | Real migration pain, version-pin story. Tutorial middle is long and step-list shaped — expected for how-to. |
+| 33 | **How I Built JoRap Notes** (published) | Real migration pain, version-pin story. Tutorial middle is long and step-list shaped - expected for how-to. |
 | 34 | **Why I Switched from Drupal to WordPress** (published) | Personal career arc. TL;DR is earned. |
 | 35 | **Getting Started with RSS** (published) | Gentle guide voice. “I was wrong about RSS dying” saves it. |
 | 36 | **Why I Still Run My Own Website** (published) | Opinion with platform-risk examples. |
@@ -1322,12 +1322,12 @@ Your `pnpm lint:voice` scan shows **0 strict hits** — the obvious words (`delv
 | 38 | **One Sheet, Eight Pages** (published) | How-to with real chess zine detail. |
 | 39 | **Worship Pads for Solo Guitar** (published) | Practice-room story. Mild gear-guide middle. |
 | 40 | **Worcestershire Sauce / Kewpie Mayo** (drafts) | Pantry reviews. Short, honest, a bit listy. |
-| 41 | **Alex Eala Pro Career Tracker** (published) | Not generic — it’s *your* scrapbook. Slop-adjacent because it’s reference density without narrative voice. Data wall, not essay. |
-| 42 | **Interesting Facts About JoRap** (draft) | Meta tables. Tool post, not slop — but zero story arc. |
+| 41 | **Alex Eala Pro Career Tracker** (published) | Not generic - it’s *your* scrapbook. Slop-adjacent because it’s reference density without narrative voice. Data wall, not essay. |
+| 42 | **Interesting Facts About JoRap** (draft) | Meta tables. Tool post, not slop - but zero story arc. |
 
 ---
 
-### Tier 1 — Authentic voice (16 posts)
+### Tier 1 - Authentic voice (16 posts)
 *Specific, uneven, earned. Your reference posts.*
 
 | Rank | Post | Why |
@@ -1343,7 +1343,7 @@ Your `pnpm lint:voice` scan shows **0 strict hits** — the obvious words (`delv
 | | **Set It and Forget It Arroz Caldo** | Friday nights, Hanabishi rice cooker lineage. |
 | | **Retheming Hanamikoji as Duopoly** | Build log, dull flags, mechanics over art. |
 | | **Facebook's Hidden Gem: The Favorites Feed** | Messenger hostage, stopped scrolling main feed. |
-| | **DNPAP - Song Resources** | Wife sings the vocal. Link hub, minimal prose — fine. |
+| | **DNPAP - Song Resources** | Wife sings the vocal. Link hub, minimal prose - fine. |
 | | **Blog Template** (empty draft) | No slop because no content. |
 
 ---
@@ -1352,9 +1352,9 @@ Your `pnpm lint:voice` scan shows **0 strict hits** — the obvious words (`delv
 
 | Signal | Posts affected | Slop risk |
 |--------|----------------|-----------|
-| `*Expanded from ideas.jorap.com*` footer | 8 drafts | **High** — wiki → blog without full rewrite |
-| `## Bottom line` closer | 28 posts | **Medium** — formulaic even when content is good |
-| `> **TL;DR**` block | 8 posts | **Low–medium** — fine when personal (Drupal, JoRap Notes build) |
+| `*Expanded from ideas.jorap.com*` footer | 8 drafts | **High** - wiki → blog without full rewrite |
+| `## Bottom line` closer | 28 posts | **Medium** - formulaic even when content is good |
+| `> **TL;DR**` block | 8 posts | **Low–medium** - fine when personal (Drupal, JoRap Notes build) |
 | `## Further reading` link farm | 3 drafts | **High** |
 | `image-template.jpg` placeholder | ~25 drafts | **Correlates** with unfinished/wiki exports |
 
@@ -1372,17 +1372,17 @@ Posts with `Expanded from ideas.jorap.com` are your sloppiest cluster. Treat the
 Minimum bar before `draft: false`:
 - One real scene per section (date, place, mistake, name)
 - Delete the “Expanded from…” footer or replace with one line of *why you cared enough to publish it now*
-- Run all **7 jorap-voice passes** — especially #1 Lived-In, #2 Strip AI Tells, #5 Sharper POV
+- Run all **7 jorap-voice passes** - especially #1 Lived-In, #2 Strip AI Tells, #5 Sharper POV
 
 ### 2. Kill or vary the formula closers
 `## Bottom line` appears in **28 posts**. It’s not wrong, but it’s a tell when every post lands the same way.
 
 Pick one:
-- Cut the heading — end on the last concrete sentence
+- Cut the heading - end on the last concrete sentence
 - Vary: “What I’d buy again”, “What I’d skip”, “What broke last week”
 - Reserve “Bottom line” for process/how-to only; never on opinion or story posts
 
-### 3. Ban generic framework posts — or reframe them as “how I used X once”
+### 3. Ban generic framework posts - or reframe them as “how I used X once”
 **Password Managers**, **JTBD**, **Atomic Habits**, **CRAFT** fail the swap test: pasteable into any blog.
 
 Fix pattern:
@@ -1394,10 +1394,10 @@ Same for CRAFT: show **one prompt you actually ran** for a Hugo migration, not a
 ### 4. Add friction checks (cheap, high yield)
 Before publish, one pass per post:
 
-1. **Swap test** — could this run on Medium unchanged? Rewrite until no.
-2. **Read aloud** — brochure voice = another pass.
-3. **One failure rule** — every section needs something that went wrong.
-4. **Cut 20%** — your humanize-AI post already says this; apply it to human drafts too.
+1. **Swap test** - could this run on Medium unchanged? Rewrite until no.
+2. **Read aloud** - brochure voice = another pass.
+3. **One failure rule** - every section needs something that went wrong.
+4. **Cut 20%** - your humanize-AI post already says this; apply it to human drafts too.
 
 ### 5. Use lint for structure, not just words
 `pnpm lint:voice` catches vocabulary. Slop is structural. Consider flagging in CI or a pre-publish checklist:
@@ -1405,10 +1405,10 @@ Before publish, one pass per post:
 - `## Bottom line` + `## Further reading` in same file → warn
 - `image-template.jpg` + `draft: true` → “not ready”
 
-No new dependency — a grep in an existing script is enough.
+No new dependency - a grep in an existing script is enough.
 
 ### 6. Split “docs” from “essays”
-**Hugo tutorials**, **JoRap Notes features**, **shortcode catalogs** aren’t slop — they’re **documentation wearing blog clothes**. Options:
+**Hugo tutorials**, **JoRap Notes features**, **shortcode catalogs** aren’t slop - they’re **documentation wearing blog clothes**. Options:
 - Keep as drafts until each has a **“I broke X last Tuesday”** opener
 - Or publish under a “Reference” category with different voice rules (scannable, less personal)
 - Don’t run them through the same essay voice pass and wonder why they feel flat
@@ -1438,11 +1438,11 @@ If you want the biggest slop reduction per hour:
 
 1. **Delete or deeply rewrite** Tier 5 drafts (Password Managers, CRAFT, Habits, JTBD, Immune, Remote Checklist)
 2. **Add one scene** to each Hugo tutorial draft before publishing any of them
-3. **Trim the HugoPlate shortcode catalog** — half reference doc, half blog post now
+3. **Trim the HugoPlate shortcode catalog** - half reference doc, half blog post now
 4. **Publish Humanize AI** only after it demonstrates a real edit, not just theory
 5. **Stop auto-expanding ideas.jorap.com tiddlers** into blog shape without pass #1 and #6
 
-I can run a slop pass on a specific tier (e.g. rewrite Password Managers into lived-in voice) or add structural warnings to your lint script — say which you want.
+I can run a slop pass on a specific tier (e.g. rewrite Password Managers into lived-in voice) or add structural warnings to your lint script - say which you want.
 
 ---
 
@@ -1839,7 +1839,7 @@ Concrete rule text will be grouped by layer: existing checks, easy YAML addition
 
 _**Agent (auto-low)**_
 
-You already have a solid **vocabulary** layer (`data/voice-words.yaml`, `pnpm lint:voice`, `jorap-voice` skill). Slop on your blog is mostly **structural** — and drafts never hit the linter at all.
+You already have a solid **vocabulary** layer (`data/voice-words.yaml`, `pnpm lint:voice`, `jorap-voice` skill). Slop on your blog is mostly **structural** - and drafts never hit the linter at all.
 
 ```173:174:scripts/notes-voice-lint.py
     elif meta.get("draft"):
@@ -1852,7 +1852,7 @@ Here are rules worth adding, grouped by where they should live.
 
 ## 1. Cursor rule (agent behavior)
 
-Add `.cursor/rules/blog-anti-slop.mdc` — fires when editing `content/english/blog/`:
+Add `.cursor/rules/blog-anti-slop.mdc` - fires when editing `content/english/blog/`:
 
 ```markdown
 # Blog anti-slop
@@ -1871,7 +1871,7 @@ Before finishing any blog edit, run jorap-voice seven passes (minimum: #1 Lived-
 ## Required human markers (at least one per major section)
 - A specific: duration, model name, place, date, failure, "what annoyed me".
 - A take: what YOU do, not what "one should consider".
-- Visible thinking: near-miss, tradeoff, or honest doubt — then land the pick.
+- Visible thinking: near-miss, tradeoff, or honest doubt - then land the pick.
 
 ## Structure
 - No "## Bottom line" on opinion/story posts. End on what you'd buy again or actually do.
@@ -1887,7 +1887,7 @@ Before finishing any blog edit, run jorap-voice seven passes (minimum: #1 Lived-
 
 ---
 
-## 2. `data/voice-words.yaml` — phrase additions
+## 2. `data/voice-words.yaml` - phrase additions
 
 Your word list catches obvious tells. Add these to `phrases:` (regex):
 
@@ -1901,10 +1901,10 @@ Your word list catches obvious tells. Add these to `phrases:` (regex):
 | `a testament to` | Significance inflation |
 | `it's no secret that` | Filler authority |
 | `the good news is` | Newsletter drone |
-| `without further ado` | Already listed — keep |
-| `game-?changer` | Already listed — keep |
+| `without further ado` | Already listed - keep |
+| `game-?changer` | Already listed - keep |
 | `not medical advice` alone as section opener | OK with disclaimer; flag if whole post is list + links |
-| `Expanded from` | Wiki-export tell — **warn on publish** |
+| `Expanded from` | Wiki-export tell - **warn on publish** |
 
 Add to `words:` (strict):
 
@@ -1935,7 +1935,7 @@ Add to `review:` (warn, don't fail):
 
 ---
 
-## 3. New lint script — `blog-slop-lint.py`
+## 3. New lint script - `blog-slop-lint.py`
 
 Vocabulary lint won't catch symmetrical nothingburgers. A small script (~80 lines, no new deps) can flag **structural slop**:
 
@@ -1976,7 +1976,7 @@ Extend `normalize-blog-frontmatter.py` `verify_file()` for published posts only:
 
 ---
 
-## 5. `jorap-voice` skill — add explicit slop rules
+## 5. `jorap-voice` skill - add explicit slop rules
 
 Add a **Slop gate** section to the skill (after the seven passes):
 
@@ -1992,7 +1992,7 @@ Add a **Slop gate** section to the skill (after the seven passes):
 
 ---
 
-## 6. Archetype guard — `archetypes/blog.md`
+## 6. Archetype guard - `archetypes/blog.md`
 
 Add commented checklist in the archetype body:
 
@@ -2034,32 +2034,32 @@ Draft prompt must include:
 - "First person. Include one failure or annoyance per section."
 - "No Bottom line section. End on what I'd actually do."
 - "No Furthermore/Additionally/Moreover."
-- Paste outline/notes — never "write me an article about X" alone.
+- Paste outline/notes - never "write me an article about X" alone.
 ```
 
-Post-draft: **cut 20%**, **read aloud**, **add one anecdote per section** (your own humanize post already says this — make it a rule, not a suggestion).
+Post-draft: **cut 20%**, **read aloud**, **add one anecdote per section** (your own humanize post already says this - make it a rule, not a suggestion).
 
 ---
 
 ## Priority order (smallest diff, biggest payoff)
 
-1. **Cursor rule** — costs one file, guides every future edit
-2. **`voice-words.yaml` phrase expansion** — ~15 patterns, 5 minutes
-3. **`blog-slop-lint.py`** — catches wiki exports, placeholder images, third-person voice
-4. **Lint drafts too** — or at least `--publish-only` fail mode
-5. **jorap-voice closer/category rules** — stops Bottom-line fatigue
-6. **Pre-commit on publish** — catches flip-to-published commits
+1. **Cursor rule** - costs one file, guides every future edit
+2. **`voice-words.yaml` phrase expansion** - ~15 patterns, 5 minutes
+3. **`blog-slop-lint.py`** - catches wiki exports, placeholder images, third-person voice
+4. **Lint drafts too** - or at least `--publish-only` fail mode
+5. **jorap-voice closer/category rules** - stops Bottom-line fatigue
+6. **Pre-commit on publish** - catches flip-to-published commits
 
 ---
 
 ## What not to add
 
-- **Don't** fail on every `## Bottom line` retroactively — 28 posts use it; warn first, tighten later
-- **Don't** ban all tables/lists — reference posts need them; cap ratio instead
-- **Don't** add an AI-detector dependency — your human markers + swap test work better
+- **Don't** fail on every `## Bottom line` retroactively - 28 posts use it; warn first, tighten later
+- **Don't** ban all tables/lists - reference posts need them; cap ratio instead
+- **Don't** add an AI-detector dependency - your human markers + swap test work better
 - **Don't** expand `lint:voice` to garden stricter words on blog without checking `landscape` in zine post context
 
-I can implement any layer — Cursor rule + `voice-words.yaml` patches + `blog-slop-lint.py` is probably a one-commit bundle. Say which you want.
+I can implement any layer - Cursor rule + `voice-words.yaml` patches + `blog-slop-lint.py` is probably a one-commit bundle. Say which you want.
 
 ---
 
@@ -3404,11 +3404,11 @@ cd /home/jorap/Documents/GitHub/jorap.com && pnpm slop:scan 2>&1 | head -100
 
 ```
 $ python3 scripts/slop-lint.py --summary
-Slop scan — 60 blog, 237 notes, 0 fail, 86 warn
+Slop scan - 60 blog, 237 notes, 0 fail, 86 warn
 Rules: data/slop-rules.yaml
 
 Warn (fix before publish)
-  bottom-line (29) — vary closers or end on a concrete take
+  bottom-line (29) - vary closers or end on a concrete take
     content/english/blog/__canon-g3000.md · body
     content/english/blog/__craft-prompt-framework.md · body
     content/english/blog/__how-to-create-a-good-habit.md · body
@@ -3418,7 +3418,7 @@ Warn (fix before publish)
     content/english/blog/__hugo-static-site-generator.md · body
     content/english/blog/__humanize-ai-articles.md · body
     … and 21 more
-  placeholder-image (29) — replace image-template.jpg before publish
+  placeholder-image (29) - replace image-template.jpg before publish
     content/english/blog/__canon-g3000.md · image
     content/english/blog/__craft-prompt-framework.md · image
     content/english/blog/__how-to-create-a-blog-template.md · image
@@ -3428,7 +3428,7 @@ Warn (fix before publish)
     content/english/blog/__hugo-shortcodes.md · image
     content/english/blog/__hugo-static-site-generator.md · image
     … and 21 more
-  wiki-export (18) — remove footer or rewrite before publish
+  wiki-export (18) - remove footer or rewrite before publish
     content/english/blog/__canon-g3000.md · body
     content/english/blog/__craft-prompt-framework.md · body
     content/english/blog/__how-to-create-a-good-habit.md · body
@@ -3438,7 +3438,7 @@ Warn (fix before publish)
     content/english/blog/__kewpie-mayo.md · body
     content/english/blog/__mcgill-big-three.md · body
     … and 10 more
-  parallel-bullets (8) — rewrite parallel Ensures/Provides bullets as plain speech
+  parallel-bullets (8) - rewrite parallel Ensures/Provides bullets as plain speech
     content/english/blog/__canon-g3000.md · body
     content/english/blog/__hugo-go-templates.md · body
     content/english/blog/__huma
@@ -3512,7 +3512,7 @@ Structural linter with `--check`, `--summary`, `--blog-only`, `--notes-only`, an
 ### 2. `data/slop-rules.yaml`
 Editable rule config (mirrors `voice-words.yaml` pattern).
 
-### 3. `data/voice-words.yaml` — expanded
+### 3. `data/voice-words.yaml` - expanded
 - **Strict words:** `boasts`, `empower`, `streamline`, `revolutionize`, `utilize`, `optimal`
 - **Strict phrases:** `At its core`, `Here's everything you need to know`, `Expanded from`, `Idea captured from`, etc.
 - **Review-only:** `hygiene`, `leverage`, `comprehensive`, `framework`, `seamless`, `robust`
@@ -3521,9 +3521,9 @@ Editable rule config (mirrors `voice-words.yaml` pattern).
 Agent rule for `content/english/blog/**` and `content/english/notes/**`.
 
 ### 5. Skills + archetype updated
-- `jorap-voice` — Slop gate section + voice check item
-- `garden-voice` — Slop gate section + voice check item  
-- `archetypes/blog.md` — pre-publish HTML checklist comment
+- `jorap-voice` - Slop gate section + voice check item
+- `garden-voice` - Slop gate section + voice check item  
+- `archetypes/blog.md` - pre-publish HTML checklist comment
 
 ### 6. `package.json` scripts
 | Command | What it does |
@@ -3541,7 +3541,7 @@ pnpm lint:blog   → OK
 pnpm slop:scan   → 86 warnings (mostly draft blog templates)
 ```
 
-Warnings cluster on draft posts: `Bottom line`, `image-template.jpg`, wiki footers. Expected — they'll block publish when you flip `draft: false`.
+Warnings cluster on draft posts: `Bottom line`, `image-template.jpg`, wiki footers. Expected - they'll block publish when you flip `draft: false`.
 
 `pnpm lint:voice` still fails on a pre-existing em-dash issue in `__grade-1-better-than-kumon.md` (unrelated to this change).
 
@@ -3593,11 +3593,11 @@ cd /home/jorap/Documents/GitHub/jorap.com && pnpm slop:scan 2>&1
 
 ```
 $ python3 scripts/slop-lint.py --summary
-Slop scan — 60 blog, 237 notes, 0 fail, 86 warn
+Slop scan - 60 blog, 237 notes, 0 fail, 86 warn
 Rules: data/slop-rules.yaml
 
 Warn (fix before publish)
-  bottom-line (29) — vary closers or end on a concrete take
+  bottom-line (29) - vary closers or end on a concrete take
     content/english/blog/__canon-g3000.md · body
     content/english/blog/__craft-prompt-framework.md · body
     content/english/blog/__how-to-create-a-good-habit.md · body
@@ -3607,7 +3607,7 @@ Warn (fix before publish)
     content/english/blog/__hugo-static-site-generator.md · body
     content/english/blog/__humanize-ai-articles.md · body
     … and 21 more
-  placeholder-image (29) — replace image-template.jpg before publish
+  placeholder-image (29) - replace image-template.jpg before publish
     content/english/blog/__canon-g3000.md · image
     content/english/blog/__craft-prompt-framework.md · image
     content/english/blog/__how-to-create-a-blog-template.md · image
@@ -3617,7 +3617,7 @@ Warn (fix before publish)
     content/english/blog/__hugo-shortcodes.md · image
     content/english/blog/__hugo-static-site-generator.md · image
     … and 21 more
-  wiki-export (18) — remove footer or rewrite before publish
+  wiki-export (18) - remove footer or rewrite before publish
     content/english/blog/__canon-g3000.md · body
     content/english/blog/__craft-prompt-framework.md · body
     content/english/blog/__how-to-create-a-good-habit.md · body
@@ -3627,7 +3627,7 @@ Warn (fix before publish)
     content/english/blog/__kewpie-mayo.md · body
     content/english/blog/__mcgill-big-three.md · body
     … and 10 more
-  parallel-bullets (8) — rewrite parallel Ensures/Provides bullets as plain speech
+  parallel-bullets (8) - rewrite parallel Ensures/Provides bullets as plain speech
     content/english/blog/__canon-g3000.md · body
     content/english/blog/__hugo-go-templates.md · body
     content/english/blog/__huma
@@ -3644,7 +3644,7 @@ cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/notes-voice-lint.py
 ```
 
 ```
-Voice scan — 310 files, 0 strict, 69 review-only
+Voice scan - 310 files, 0 strict, 69 review-only
 Word list: data/voice-words.yaml
 
 Review-only (edit data/voice-words.yaml review: to tune)
@@ -4396,11 +4396,11 @@ cd /home/jorap/Documents/GitHub/jorap.com && pnpm slop:scan 2>&1 && python3 scri
 
 ```
 $ python3 scripts/slop-lint.py --summary
-Slop scan — 60 blog, 237 notes, 0 fail, 35 warn
+Slop scan - 60 blog, 237 notes, 0 fail, 35 warn
 Rules: data/slop-rules.yaml
 
 Warn (fix before publish)
-  placeholder-image (29) — replace image-template.jpg before publish
+  placeholder-image (29) - replace image-template.jpg before publish
     content/english/blog/__canon-g3000.md · image
     content/english/blog/__craft-prompt-framework.md · image
     content/english/blog/__how-to-create-a-blog-template.md · image
@@ -4410,16 +4410,16 @@ Warn (fix before publish)
     content/english/blog/__hugo-shortcodes.md · image
     content/english/blog/__hugo-static-site-generator.md · image
     … and 21 more
-  parallel-bullets (5) — rewrite parallel Ensures/Provides bullets as plain speech
+  parallel-bullets (5) - rewrite parallel Ensures/Provides bullets as plain speech
     content/english/blog/__canon-g3000.md · body
     content/english/blog/__hugo-go-templates.md · body
     content/english/blog/__mi-box-s.md · body
     content/english/blog/alex-eala-pro-career-tracker.md · body
     content/english/notes/the-beatitudes.md · key_concept
-  passive-advice (1) — cut committee voice
+  passive-advice (1) - cut committee voice
     content/english/blog/__humanize-ai-articles.md · body
 
-pnpm lint:slop — fail CI on publish blockers
+pnpm lint:slop - fail CI on publish blockers
 Voice dash errors:
   content/english/blog/__grade-1-better-than-kumon.md: em/en dash found (32); use hyphen, comma, or parentheses (jorap-voice)
 
@@ -4798,11 +4798,11 @@ cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/slop-lint.py --self
 ```
 slop-lint self-check OK
 $ python3 scripts/slop-lint.py --summary
-Slop scan — 60 blog, 237 notes, 0 fail, 31 warn
+Slop scan - 60 blog, 237 notes, 0 fail, 31 warn
 Rules: data/slop-rules.yaml
 
 Warn (fix before publish)
-  placeholder-image (29) — replace image-template.jpg before publish
+  placeholder-image (29) - replace image-template.jpg before publish
     content/english/blog/__canon-g3000.md · image
     content/english/blog/__craft-prompt-framework.md · image
     content/english/blog/__how-to-create-a-blog-template.md · image
@@ -4812,12 +4812,12 @@ Warn (fix before publish)
     content/english/blog/__hugo-shortcodes.md · image
     content/english/blog/__hugo-static-site-generator.md · image
     … and 21 more
-  parallel-bullets (1) — rewrite parallel Ensures/Provides bullets as plain speech
+  parallel-bullets (1) - rewrite parallel Ensures/Provides bullets as plain speech
     content/english/blog/__mi-box-s.md · body
-  passive-advice (1) — cut committee voice
+  passive-advice (1) - cut committee voice
     content/english/blog/__humanize-ai-articles.md · body
 
-pnpm lint:slop — fail CI on publish blockers
+pnpm lint:slop - fail CI on publish blockers
 $ python3 scripts/normalize-blog-frontmatter.py --verify && python3 scripts/slop-lint.py --check --blog-only
 Blog frontmatter OK
 Slop lint OK
@@ -4960,7 +4960,7 @@ cd /home/jorap/Documents/GitHub/jorap.com && pnpm slop:scan 2>&1 | tail -15
 
 ```
 Warn (fix before publish)
-  placeholder-image (29) — replace image-template.jpg before publish
+  placeholder-image (29) - replace image-template.jpg before publish
     content/english/blog/__canon-g3000.md · image
     content/english/blog/__craft-prompt-framework.md · image
     content/english/blog/__how-to-create-a-blog-template.md · image
@@ -4970,10 +4970,10 @@ Warn (fix before publish)
     content/english/blog/__hugo-shortcodes.md · image
     content/english/blog/__hugo-static-site-generator.md · image
     … and 21 more
-  passive-advice (1) — cut committee voice
+  passive-advice (1) - cut committee voice
     content/english/blog/__humanize-ai-articles.md · body
 
-pnpm lint:slop — fail CI on publish blockers
+pnpm lint:slop - fail CI on publish blockers
 
 ```
 </details></tool-use>
@@ -5009,7 +5009,7 @@ cd /home/jorap/Documents/GitHub/jorap.com && pnpm slop:scan 2>&1 | tail -8
     content/english/blog/__hugo-static-site-generator.md · image
     … and 21 more
 
-pnpm lint:slop — fail CI on publish blockers
+pnpm lint:slop - fail CI on publish blockers
 
 ```
 </details></tool-use>
@@ -5096,7 +5096,7 @@ _**Agent (auto-low)**_
 
 Reviewed all **60 blog posts** against jorap-voice + slop rules. Summary:
 
-### Published posts (24 live) — clean
+### Published posts (24 live) - clean
 These already had strong voice. Fixed the six with slop warnings:
 
 | Post | Fix |
@@ -5108,16 +5108,16 @@ These already had strong voice. Fixed the six with slop warnings:
 
 The other **21 published posts** passed without edits (earphones, Marvel Snap, Isaiah David, Drupal essay, etc.).
 
-### Worst slop drafts — full rewrites (7)
+### Worst slop drafts - full rewrites (7)
 Replaced wiki-export / framework voice with lived-in prose:
 
-- `__password-managers.md` — Bitwarden migration afternoon, family vault, what broke
-- `__remote-work-checklist.md` — Biñan café failure story, bag ritual
-- `__humanize-ai-articles.md` — before/after edit, cut link farm, real prompt
-- `__how-to-create-a-good-habit.md` — personal cues, not Atomic Habits cliff notes
-- `__jobs-to-be-done-framework.md` — PHP hosting / Hugo hire, not drill cliché
-- `__craft-prompt-framework.md` — real Hugo migration prompt, not meta-slop
-- `__immune-booster-supplements.md` — personal stack, cut PubMed link dump
+- `__password-managers.md` - Bitwarden migration afternoon, family vault, what broke
+- `__remote-work-checklist.md` - Biñan café failure story, bag ritual
+- `__humanize-ai-articles.md` - before/after edit, cut link farm, real prompt
+- `__how-to-create-a-good-habit.md` - personal cues, not Atomic Habits cliff notes
+- `__jobs-to-be-done-framework.md` - PHP hosting / Hugo hire, not drill cliché
+- `__craft-prompt-framework.md` - real Hugo migration prompt, not meta-slop
+- `__immune-booster-supplements.md` - personal stack, cut PubMed link dump
 
 ### Mechanical cleanup (27 drafts)
 `scripts/blog-de-slop.py` removed:
@@ -5133,11 +5133,11 @@ pnpm lint:slop  → OK (0 publish blockers)
 pnpm slop:scan  → 29 warnings, all placeholder-image on drafts
 ```
 
-### Still open (not slop — publish blockers)
+### Still open (not slop - publish blockers)
 **29 drafts** still use `image-template.jpg`. Replace with real hero images before `draft: false`. The linter will catch these at publish time.
 
 ### Tooling added
-- `scripts/blog-de-slop.py` — batch wiki footer + Bottom line cleanup (reusable before publish batches)
+- `scripts/blog-de-slop.py` - batch wiki footer + Bottom line cleanup (reusable before publish batches)
 
 Want me to commit this, or tackle hero images for a specific draft batch next?
 
@@ -5173,7 +5173,7 @@ cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/slop-lint.py --chec
 ```
 Slop lint OK
 ---
-Garden voice — 237 files, 6 issues
+Garden voice - 237 files, 6 issues
   count=3: 5
   line1-wikilink: 1
 ---
@@ -5193,11 +5193,11 @@ cd /home/jorap/Documents/GitHub/jorap.com && pnpm slop:scan 2>&1 | rg -A200 "not
 ```
 
 ```
-Slop scan — 60 blog, 237 notes, 0 fail, 29 warn
+Slop scan - 60 blog, 237 notes, 0 fail, 29 warn
 Rules: data/slop-rules.yaml
 
 Warn (fix before publish)
-  placeholder-image (29) — replace image-template.jpg before publish
+  placeholder-image (29) - replace image-template.jpg before publish
     content/english/blog/__canon-g3000.md · image
     content/english/blog/__craft-prompt-framework.md · image
     content/english/blog/__how-to-create-a-blog-template.md · image
@@ -5208,7 +5208,7 @@ Warn (fix before publish)
     content/english/blog/__hugo-static-site-generator.md · image
     … and 21 more
 
-pnpm lint:slop — fail CI on publish blockers
+pnpm lint:slop - fail CI on publish blockers
 
 ```
 </details></tool-use>
@@ -6003,9 +6003,9 @@ The justification shareable[3] test failed. Confession restores fellowship when 
 
 shareable[3] now matches the key concept: standing versus fellowship keeps the verdict separate from daily closeness. Confession restores fellowship, it does not re-buy heaven.
 
-The sanctification shareable[3] now reads: "Discipleship is the daily walk with Jesus — hearing and doing what He said, not a one-time decision filed away."
+The sanctification shareable[3] now reads: "Discipleship is the daily walk with Jesus - hearing and doing what He said, not a one-time decision filed away."
 
-The signal-versus-noise shareable[3] reads: "If nothing would change this month, headline only — no mental slot and no save." This line is missing from the key concept. It needs to be added there or rephrased from the existing principle pool.
+The signal-versus-noise shareable[3] reads: "If nothing would change this month, headline only - no mental slot and no save." This line is missing from the key concept. It needs to be added there or rephrased from the existing principle pool.
 
 Signature-move shareables fail against the key concept. One line matches the description. Another about pressure shrinking the menu is missing from the key concept. The third line is close to key concept line nine.
 
@@ -7236,7 +7236,7 @@ cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/garden-voice-lint.p
 ```
 Garden voice lint OK
 Slop lint OK
-Slop scan — 0 blog, 237 notes, 0 fail, 0 warn
+Slop scan - 0 blog, 237 notes, 0 fail, 0 warn
 Rules: data/slop-rules.yaml
 
 No slop flags.
@@ -7863,7 +7863,7 @@ Garden-voice pass is done. **19 notes** edited; all garden voice, slop, and fron
 
 ## What changed
 
-**Shareable / frontmatter alignment** (13 notes) — `shareable_thought` lines now match the `description`/`key_concept` principle pool, with overlaps and meta language removed:
+**Shareable / frontmatter alignment** (13 notes) - `shareable_thought` lines now match the `description`/`key_concept` principle pool, with overlaps and meta language removed:
 `abide-in-me`, `first-principles-thinking`, `follow-christ-then-lead`, `forgiveness-at-work`, `god-centered-design`, `golden-rule-at-work`, `graph-view-analytics`, `justification`, `sanctification`, `signal-vs-noise`, `signature-move`, `steward-after-the-win`, `success-is-stewardship`, `the-garage-concept`
 
 **Structural slop trimmed**
@@ -7879,7 +7879,7 @@ Garden-voice pass is done. **19 notes** edited; all garden voice, slop, and fron
 |-------|--------|
 | `lint-notes-frontmatter` | OK |
 | `garden-voice-lint` | OK |
-| `slop-lint --notes-only` | OK — **0 fails, 0 warns** across 237 notes |
+| `slop-lint --notes-only` | OK - **0 fails, 0 warns** across 237 notes |
 | `lint:voice` | OK |
 
 `pnpm lint:garden` still fails on **pre-existing** repo issues unrelated to this pass: unsorted `relationships` in `faithfulness`, `peacemakers`, `risk-management`, and 8 north-star flashcard audit warnings in other notes.

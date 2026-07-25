@@ -45,8 +45,12 @@ cards:
     back: "Not tidy-only-in-panic."
   - front: "First Sunday I reconcile the budget. Why not wait for declined card?"
     back: "Schedule beats mid-commute panic."
-  - front: "I watch film every Monday, win or lose. Why not only after blowouts?"
+  - front: "I watch film every Monday even after ugly wins. Why not only after blowouts?"
     back: "Rhythm beats crisis review."
+  - front: "Wednesday and the evergreen folder has twenty orphans untouched since January."
+    back: "Thirty-minute review - promote or trash."
+  - front: "Captures piling in the bowl - last quarterly pass was October."
+    back: "Schedule the review - calendar beats backlog guilt."
 draft: false
 ---
 

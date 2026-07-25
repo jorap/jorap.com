@@ -290,7 +290,7 @@ for path in sorted(notes_dir.glob(&#39;*.md&#39;)):
             flags.append(&#39;wikilink&#39;)
         if &#39;Tension with&#39; in line or &#39;when the opposite&#39; in line:
             flags.append(&#39;tension/meta&#39;)
-        if &#39; — &#39; in line and path.stem.replace(&#39;-&#39;, &#39; &#39;).title() in line:
+        if &#39; - &#39; in line and path.stem.replace(&#39;-&#39;, &#39; &#39;).title() in line:
             flags.append(&#39;title+desc combo&#39;)
         if flags:
             issues.append((path.name, i+1, line[:100], flags))
@@ -342,7 +342,7 @@ for path in sorted(notes_dir.glob('*.md')):
             flags.append('wikilink')
         if 'Tension with' in line or 'when the opposite' in line:
             flags.append('tension/meta')
-        if ' — ' in line and path.stem.replace('-', ' ').title() in line:
+        if ' - ' in line and path.stem.replace('-', ' ').title() in line:
             flags.append('title+desc combo')
         if flags:
             issues.append((path.name, i+1, line[:100], flags))
@@ -610,7 +610,7 @@ def clamp(text, limit=MAX_LINE):
         cut = cut[:room]
     if len(cut) &lt; limit // 2:
         cut = text[:room]
-    return cut.rstrip(&#34;.,;:-— &#34;) + ellipsis
+    return cut.rstrip(&#34;.,;:-- &#34;) + ellipsis
 
 def add_candidate(bucket, raw):
     line = plain(raw.strip().lstrip(&#34;- &#34;))
@@ -674,7 +674,7 @@ def clamp(text, limit=MAX_LINE):
         cut = cut[:room]
     if len(cut) < limit // 2:
         cut = text[:room]
-    return cut.rstrip(".,;:-— ") + ellipsis
+    return cut.rstrip(".,;:-- ") + ellipsis
 
 def add_candidate(bucket, raw):
     line = plain(raw.strip().lstrip("- "))
@@ -956,7 +956,7 @@ for path in sorted(notes_dir.glob(&#39;*.md&#39;)):
                     example_hits.append((path.name, i+1, line[:80]))
         if &#39;Tension with&#39; in line or &#39;when the opposite frame&#39; in line.lower():
             tension_hits.append((path.name, i+1, line))
-        if f&#39;{title} —&#39; in line or f&#39;{title} -&#39; in line:
+        if f&#39;{title} -&#39; in line or f&#39;{title} -&#39; in line:
             title_combo.append((path.name, i+1, line[:80]))
 
 print(f&#34;Wrong count: {len(short_count)}&#34;)
@@ -1000,7 +1000,7 @@ for path in sorted(notes_dir.glob('*.md')):
                     example_hits.append((path.name, i+1, line[:80]))
         if 'Tension with' in line or 'when the opposite frame' in line.lower():
             tension_hits.append((path.name, i+1, line))
-        if f'{title} —' in line or f'{title} -' in line:
+        if f'{title} -' in line or f'{title} -' in line:
             title_combo.append((path.name, i+1, line[:80]))
 
 print(f"Wrong count: {len(short_count)}")
@@ -1830,7 +1830,7 @@ The seed script was pulling from `examples`, relationship tension (`Tension with
 
 ### What changed
 
-**214 notes regenerated** — shareable lines now come only from `description` and `key_concept`:
+**214 notes regenerated** - shareable lines now come only from `description` and `key_concept`:
 - No `examples` scenes
 - No relationship tension lines
 - No wikilinks or table rows
@@ -1838,18 +1838,18 @@ The seed script was pulling from `examples`, relationship tension (`Tension with
 
 **Before → after examples:**
 
-`deep-work.md` — removed `"Phone in the drawer while I help with math"` (example), kept:
+`deep-work.md` - removed `"Phone in the drawer while I help with math"` (example), kept:
 - `"I protect uninterrupted blocks for hard thinking…"`
 - `"Protected focus blocks; Capture handles the rest."`
 
-`capture.md` — now includes key-concept angles:
+`capture.md` - now includes key-concept angles:
 - `"Resonance is the filter, not FOMO."`
 - `"If I wouldn't act on it or cite it later, it doesn't get saved."`
 
 **Script + lint updates:**
-- `scripts/seed-note-shareable-lines.py` — principle-only sourcing with tiered priority (description → key_concept → clause splits)
-- `scripts/lint-notes-frontmatter.py` — fails on example bleed-through and `"Tension with"` in shareable lines
-- `jorap-voice` skill + features blog post — document the rule
+- `scripts/seed-note-shareable-lines.py` - principle-only sourcing with tiered priority (description → key_concept → clause splits)
+- `scripts/lint-notes-frontmatter.py` - fails on example bleed-through and `"Tension with"` in shareable lines
+- `jorap-voice` skill + features blog post - document the rule
 
 **Lint:** `pnpm lint:garden` / both frontmatter scripts pass clean.
 
@@ -2226,7 +2226,7 @@ Notes with only two distinct principles may need their contrast clauses split on
 
 The build-a-reliable-default note pairs paraphrased description and key_concept fields. Splitting the description on its contrast clause yields a distinct fragment. The deliberate-practice note offers four distinct candidates. The full description, the split fragment, the full key_concept, and the remaining contrast element.
 
-Candidate generation will be improved by splitting contrast clauses on patterns like ` - not ` and ` — not `. Description and key_concept lines will also be split on ` - ` whenever both resulting parts are at least fifteen characters and distinct.
+Candidate generation will be improved by splitting contrast clauses on patterns like ` - not ` and ` - not `. Description and key_concept lines will also be split on ` - ` whenever both resulting parts are at least fifteen characters and distinct.
 </details></think>
 
 _**Agent (auto-low)**_
@@ -2746,7 +2746,7 @@ def candidates(fm, include_desc=True):
             bf=seed.clean_raw(block.replace(&#39;\n&#39;,&#39; &#39;))
             for s in re.split(r&#39;(?&lt;=[.!?])\s+&#39;, bf):
                 add(s)
-            for s in re.split(r&#39;;\s*|\s[-—–]\s|\s+and\s+&#39;, bf):
+            for s in re.split(r&#39;;\s*|\s[--–]\s|\s+and\s+&#39;, bf):
                 add(s, 8)
     return out
 
@@ -2792,7 +2792,7 @@ def candidates(fm, include_desc=True):
             bf=seed.clean_raw(block.replace('\n',' '))
             for s in re.split(r'(?<=[.!?])\s+', bf):
                 add(s)
-            for s in re.split(r';\s*|\s[-—–]\s|\s+and\s+', bf):
+            for s in re.split(r';\s*|\s[--–]\s|\s+and\s+', bf):
                 add(s, 8)
     return out
 
@@ -3917,7 +3917,7 @@ overlap pairs: 0
 
 _**Agent (auto-low)**_
 
-**Done.** All shareable lines are now distinct — no duplicates, no prefix/suffix fragments of each other.
+**Done.** All shareable lines are now distinct - no duplicates, no prefix/suffix fragments of each other.
 
 ### What changed
 
@@ -3941,7 +3941,7 @@ _**Agent (auto-low)**_
 - Both `seed-note-shareable-lines.py --check` and `lint-notes-frontmatter.py` pass
 - Docs updated in `jorap-voice` skill and features blog post
 
-Example — `deep-work.md` before had `"Protected focus blocks"` plus the full sentence; now:
+Example - `deep-work.md` before had `"Protected focus blocks"` plus the full sentence; now:
 
 ```12:16:content/english/notes/deep-work.md
 shareable_lines:
@@ -4017,7 +4017,7 @@ for path in sorted(Path(&#39;content/english/notes&#39;).glob(&#39;*.md&#39;)):
         for src in (desc, key):
             if not src: continue
             pool.append(normalize_shareable_line(src))
-            for part in re.split(r&#39;(?&lt;=[.!?])\s+|\s[-—–]\s|;\s+&#39;, src.replace(&#39;\n&#39;,&#39; &#39;)):
+            for part in re.split(r&#39;(?&lt;=[.!?])\s+|\s[--–]\s|;\s+&#39;, src.replace(&#39;\n&#39;,&#39; &#39;)):
                 p = normalize_shareable_line(part)
                 if len(p) &gt;= 10: pool.append(p)
         nl = normalize_shareable_line(line)
@@ -4084,7 +4084,7 @@ for path in sorted(Path('content/english/notes').glob('*.md')):
         for src in (desc, key):
             if not src: continue
             pool.append(normalize_shareable_line(src))
-            for part in re.split(r'(?<=[.!?])\s+|\s[-—–]\s|;\s+', src.replace('\n',' ')):
+            for part in re.split(r'(?<=[.!?])\s+|\s[--–]\s|;\s+', src.replace('\n',' ')):
                 p = normalize_shareable_line(part)
                 if len(p) >= 10: pool.append(p)
         nl = normalize_shareable_line(line)
@@ -4205,7 +4205,7 @@ def principle_pool(fm):
         pool.append(normalize_shareable_line(text))
         flat = re.sub(r&#39;\[\[[^\]]+\]\]&#39;, lambda m: m.group(0)[2:-2].split(&#39;|&#39;)[0].split(&#39;#&#39;)[0], text)
         flat = &#39; &#39;.join(flat.replace(&#39;**&#39;,&#39;&#39;).replace(&#39;`&#39;,&#39;&#39;).split())
-        for part in re.split(r&#39;(?&lt;=[.!?])\s+|\s[-—–]\s|;\s+|\n+&#39;, flat):
+        for part in re.split(r&#39;(?&lt;=[.!?])\s+|\s[--–]\s|;\s+|\n+&#39;, flat):
             p = normalize_shareable_line(part)
             if len(p) &gt;= 10:
                 pool.append(p)
@@ -4264,7 +4264,7 @@ def principle_pool(fm):
         pool.append(normalize_shareable_line(text))
         flat = re.sub(r'\[\[[^\]]+\]\]', lambda m: m.group(0)[2:-2].split('|')[0].split('#')[0], text)
         flat = ' '.join(flat.replace('**','').replace('`','').split())
-        for part in re.split(r'(?<=[.!?])\s+|\s[-—–]\s|;\s+|\n+', flat):
+        for part in re.split(r'(?<=[.!?])\s+|\s[--–]\s|;\s+|\n+', flat):
             p = normalize_shareable_line(part)
             if len(p) >= 10:
                 pool.append(p)
@@ -5411,7 +5411,7 @@ The fourth line for build-a-reliable-default was invented rather than drawn from
 
 _**Agent (auto-low)**_
 
-Rewriting fixes: four distinct, non-overlapping principle lines—expanding sparse key_concepts where needed.
+Rewriting fixes: four distinct, non-overlapping principle lines-expanding sparse key_concepts where needed.
 
 
 _**Agent (auto-low)**_
@@ -6120,7 +6120,7 @@ FAIL shareable_lines need 4 items: the-12-week-year.md
 
 _**Agent (auto-low)**_
 
-Still 11 notes short of four shareable lines — I'll inspect the fix script and those notes to see why padding isn't filling the gap.
+Still 11 notes short of four shareable lines - I'll inspect the fix script and those notes to see why padding isn't filling the gap.
 
 
 _**Agent (auto-low)**_
@@ -6583,7 +6583,7 @@ The daily-notes line "let the rest fade" may serve as the fourth principle. It i
 
 _**Agent (auto-low)**_
 
-These notes only have three distinct principles — I'll read their frontmatter and add a fourth line to each.
+These notes only have three distinct principles - I'll read their frontmatter and add a fourth line to each.
 
 
 _**Agent (auto-low)**_
@@ -7554,10 +7554,10 @@ All shareable-line lint checks pass across the full notes garden.
 **11 notes** were stuck at 3 lines because every draft clause overlapped the curated set (prefix/suffix matching). For each, I expanded `key_concept` with a 4th distinct principle and set explicit non-overlapping `shareable_lines` in `fix-shareable-principles.py`.
 
 **4 more notes** had bad padding from the seed script:
-- `psychological-safety.md` — tension/meta fragments
-- `coaching-ethics.md` — clause fragment as line 4
-- `workplace-principles.md` / `issues.md` — truncated scaffold text
-- `accountability.md`, `hierarchy-of-controls.md`, `random-duo.md` — 2-word fragments from clause splits
+- `psychological-safety.md` - tension/meta fragments
+- `coaching-ethics.md` - clause fragment as line 4
+- `workplace-principles.md` / `issues.md` - truncated scaffold text
+- `accountability.md`, `hierarchy-of-controls.md`, `random-duo.md` - 2-word fragments from clause splits
 
 ### Verification
 
@@ -7571,8 +7571,8 @@ Garden-wide audit (principle-only, distinct, no fragments/tension/wikilinks)  �
 
 When regenerating in bulk:
 
-1. `python3 scripts/seed-note-shareable-lines.py` — all notes except curated overrides
-2. `python3 scripts/fix-shareable-principles.py` — ~30 sparse/hub/utility notes with hand-tuned lines
+1. `python3 scripts/seed-note-shareable-lines.py` - all notes except curated overrides
+2. `python3 scripts/fix-shareable-principles.py` - ~30 sparse/hub/utility notes with hand-tuned lines
 
 Running seed alone will overwrite the curated notes back to fragmented splits. `fix-shareable-principles.py` is worth keeping as the override layer unless you want to merge its `SHAREABLE` keys into the seed script's skip list.
 

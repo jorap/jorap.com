@@ -51,6 +51,10 @@ cards:
     back: "Reset agenda - my pace, not theirs."
   - front: "Party's getting louder and I am the host watching the stereo creep up."
     back: "End it early - I set the evening."
+  - front: "Kids still up fighting and I am matching their volume."
+    back: "Fifteen-minute pause - my pace tomorrow."
+  - front: "Meeting hijacked by the loudest agenda - my project buried."
+    back: "Reset the room - my agenda next."
 draft: false
 ---
 

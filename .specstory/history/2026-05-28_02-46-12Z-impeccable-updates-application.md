@@ -136,7 +136,7 @@ drwxr-xr-x  17 jonathanrapusas  staff    544 May  2 17:39 scripts
 _**Agent (auto-high)**_
 
 <think><details><summary>Thought Process</summary>
- I notice there's a mismatch in the reference file count—the source has 38 but mine only has 37—so I need to identify which one is missing and sync it over.</details></think>
+ I notice there's a mismatch in the reference file count-the source has 38 but mine only has 37-so I need to identify which one is missing and sync it over.</details></think>
 
 _**Agent (auto-high)**_
 

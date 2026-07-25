@@ -374,7 +374,7 @@ diff /Users/jonathanrapusas/Documents/GitHub/hugoplate/package.json /Users/jonat
 &lt;   "version": "3.5.1",
 ---
 &gt;   "name": "jorap-com",
-&gt;   "description": "JoRap's World — personal blog and portfolio (Hugo + Tailwind).",
+&gt;   "description": "JoRap's World - personal blog and portfolio (Hugo + Tailwind).",
 &gt;   "version": "2.2.0",
 6c6,9
 &lt;   "author": "zeon.studio",
@@ -1264,7 +1264,7 @@ index 0552eb8..9a25699 100644
 +++ b/themes/jorap/layouts/_partials/components/blog-card.html
 @@ -1,96 +1,37 @@
 -{{/*
--  components/blog-card — Renders a single blog card.
+-  components/blog-card - Renders a single blog card.
 -
 -  Accepts either:
 -    - A Page directly: {{ partial "components/blog-card" . }}
@@ -1292,7 +1292,7 @@ index 0552eb8..9a25699 100644
 -{{- $headingTag := printf "h%d" $headingLevel -}}
 -{{/*
 -  Go's html/template (which Hugo uses) auto-escapes dynamic HTML tag
--  names — writing &#96;&lt;{{ $headingTag }}&gt;&#96; literally renders as &#96;&amp;lt;h2&amp;gt;&#96;
+-  names - writing &#96;&lt;{{ $headingTag }}&gt;&#96; literally renders as &#96;&amp;lt;h2&amp;gt;&#96;
 -  text on the page. Build the open/close tags as strings and pipe them
 -  through &#96;safeHTML&#96; so they render as real elements.
 -*/}}
@@ -2106,7 +2106,7 @@ A symlink is broken. It points to a non-existent domain.</details></think>
 
 _**Agent (auto-low)**_
 
-The Impeccable symlink is broken — fixing it.
+The Impeccable symlink is broken - fixing it.
 
 
 _**Agent (auto-low)**_
@@ -2233,7 +2233,7 @@ theme-switcher.html was overwritten by upstream. It lost JoRap accessibility and
 
 _**Agent (auto-low)**_
 
-Restoring JoRap's `theme-switcher.html` — upstream removed CSP and accessibility customizations.
+Restoring JoRap's `theme-switcher.html` - upstream removed CSP and accessibility customizations.
 
 
 _**Agent (auto-low)**_
@@ -2383,7 +2383,7 @@ Both upstream repos were already up to date. Sync ran successfully; `pnpm build`
 | Scripts | `themeGenerator.js`, `themeUpdate.js`, `clearModules.js`, `removeMultilang.js` (unchanged vs upstream) |
 | Agent skills | `.agents/skills/hugo-template-guidance/` and `find-skills/` synced |
 
-**Preserved** (JoRap-only — restored after rsync to avoid breakage):
+**Preserved** (JoRap-only - restored after rsync to avoid breakage):
 
 - Essentials: `style.html`, `head.html`, `script.html`, `self-hosted-fonts.html`, `theme-init.html`
 - Shell: `baseof.html`, `home.html` (section partials)
@@ -2392,7 +2392,7 @@ Both upstream repos were already up to date. Sync ran successfully; `pnpm build`
 - Components: `theme-switcher.html` (CSP + a11y)
 - Custom layouts: `about/`, `contact/`, shortcodes, section partials
 
-**Manual review suggested:** `taxonomy.html` had the largest upstream diff — skim category/tag pages in the browser.
+**Manual review suggested:** `taxonomy.html` had the largest upstream diff - skim category/tag pages in the browser.
 
 ### Impeccable (design skill)
 
@@ -2400,7 +2400,7 @@ Both upstream repos were already up to date. Sync ran successfully; `pnpm build`
 - Linked to latest bundle via symlink: `.cursor/skills/impeccable` → `impeccable/dist/universal/...`
 - Fixed broken relative symlink from the CLI `link` command
 - `docs/PRODUCT.md` / `docs/DESIGN.md` untouched; `context.mjs` resolves project context correctly
-- Git shows many impeccable files as “deleted” because the old **copied** install became a **symlink** — expected
+- Git shows many impeccable files as “deleted” because the old **copied** install became a **symlink** - expected
 
 ### Not changed
 

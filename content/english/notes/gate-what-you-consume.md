@@ -5,7 +5,7 @@ description: "What you read and watch becomes raw material for judgment - gate i
 key_concept: |
   - Feeds are not neutral - gate what you consume before it becomes the mood you bring to work and home.
   - Level 1: Like checking expiry before you cook - bad input guarantees a worse dinner, no matter how skilled the chef.
-  - Level 2: Gating means default filters - unsub, mute, block, close tab - not white-knuckling willpower after the rage bait won.
+  - Level 2: Gating means default filters - unsub, mute, block, close tab - not forcing by will after the rage bait won.
   - Level 3: [[Guard Your Heart]] is the faith name - Proverbs intake valve before worship and anger downstream.
   - Level 4: [[Information Diet]] is the longer lane; gating is the daily habit at the door.
   - Level 5: [[Attention Economy]] fights you for the scroll - gates are defense, not guilt theater.
@@ -45,6 +45,20 @@ author: "JoRap"
 tags: ["Focus", "Attention", "Digital Minimalism", "PKM"]
 aliases: ["content gate", "filter your feeds"]
 featured: false
-review: false
+review: true
+card_sets: ["Focus", "Workflow"]
+cards:
+  - front: "Three outrage accounts ruined commute patience - mute still not done."
+    back: "Gate now - unfollow, mute, block."
+  - front: "News banner flashing mid deep-work block - heroic focus failing."
+    back: "One toggle off - gate at the door."
+  - front: "Bad input cooking in my mood before dinner with kids."
+    back: "Check expiry - close tab before kitchen."
+  - front: "Scroll won after rage bait - forcing by will after the door opened."
+    back: "Default filters - gate before intake, not after."
+  - front: "Podcast rage on the drive - patience at home already thin."
+    back: "Mute at the door - guard the spring."
+  - front: "Interesting thread saved - junk still flooding the feed. First fix?"
+    back: "Gate junk out - then signal-vs-noise filter."
 draft: false
 ---

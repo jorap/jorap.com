@@ -20,7 +20,7 @@ Git shows modifications to the file. Reading it now alongside the jorap-voice sk
 
 _**Agent (auto-low)**_
 
-Reviewing the Hanamikoji rules post again — I'll read the current draft and the blog voice skill for consistency.
+Reviewing the Hanamikoji rules post again - I'll read the current draft and the blog voice skill for consistency.
 
 
 _**Agent (auto-low)**_
@@ -243,7 +243,7 @@ Applying three fixes. Line 85 will change "lean builds" to something like "inste
 
 Removing the duplicate sleeve/cutter entry from line 111; keeping it in "Why flags" instead. Line 111 will list seven victory markers gone and one template. Adding an action card sentence after line 113 about poker-size cards with action names on the face.
 
-Deciding between merging the action card sentence into line 113 or keeping it as a separate line. The merged draft would read: "Action cards replace retail tiles — name on the face, readable from your side of the table. Secret and Trade-off tuck under their action card. Gift and Competition stay face-up so your rival sees the split."
+Deciding between merging the action card sentence into line 113 or keeping it as a separate line. The merged draft would read: "Action cards replace retail tiles - name on the face, readable from your side of the table. Secret and Trade-off tuck under their action card. Gift and Competition stay face-up so your rival sees the split."
 
 The action card rationale will precede the tuck sentence. The draft places it right after line 111, before the tuck detail.
 
@@ -299,9 +299,9 @@ _**Agent (auto-low)**_
 
 Done. Three edits:
 
-1. **Stale reference** — "lean builds" → printing the row on the zine instead.
-2. **Dedupe** — dropped the second "one cutter pass, one sleeve SKU" from Component budget (it stays in Why flags).
-3. **Action cards** — one sentence on why cards beat tiles, merged with the tuck/hidey-hole line.
+1. **Stale reference** - "lean builds" → printing the row on the zine instead.
+2. **Dedupe** - dropped the second "one cutter pass, one sleeve SKU" from Component budget (it stays in Why flags).
+3. **Action cards** - one sentence on why cards beat tiles, merged with the tuck/hidey-hole line.
 
 Voice lint is clean on the file. Ready to publish when you are.
 
@@ -459,7 +459,7 @@ Top-down photo of a homemade print-and-play card game on a plain wooden table. S
 Top-down photo of seven plain poker cards in a row, each with a simple country flag and a number, homemade print-and-play style, wooden table, soft daylight, no people, no character art.
 ```
 
-That matches the post: **dull flags, one card size, control by flip** — not a rules diagram or a Hanamikoji reskin.
+That matches the post: **dull flags, one card size, control by flip** - not a rules diagram or a Hanamikoji reskin.
 
 For the blog `image` field, a **16:9** crop with the seven-card row centered usually works best as a Hugo hero. If you want, I can drop the chosen prompt into frontmatter or generate a draft asset.
 
@@ -514,7 +514,7 @@ Use this as one block, or split **Scene** / **Cards** / **Negative** if your gen
 ```text
 Photorealistic top-down photograph, slight angle, homemade print-and-play card game called Duopoly on a plain light wooden table. Soft natural window light, shallow depth of field, no people, no hands.
 
-CENTER ROW — seven identical poker-size cards (63×88 mm), landscape, evenly spaced in a horizontal line, low to high market value left to right:
+CENTER ROW - seven identical poker-size cards (63×88 mm), landscape, evenly spaced in a horizontal line, low to high market value left to right:
 1) Germany, market value 2
 2) France, market value 2
 3) United Kingdom, market value 2
@@ -525,20 +525,20 @@ CENTER ROW — seven identical poker-size cards (63×88 mm), landscape, evenly s
 
 Most market cards are NEUTRAL: minimalist layout, country name and point number in black sans-serif text, two small identical flat country flags printed side by side on the card face, no portraits, no scenery, no decorative borders.
 
-One market card (Japan) is CONTROLLED: same poker size but flipped to its other face — one flag only, country name and points printed twice on the card, GREEN text on the half pointing toward the bottom edge of the frame (leader), RED text on the half pointing toward the top edge (rival). No victory tokens, no sliding markers, no chips.
+One market card (Japan) is CONTROLLED: same poker size but flipped to its other face - one flag only, country name and points printed twice on the card, GREEN text on the half pointing toward the bottom edge of the frame (leader), RED text on the half pointing toward the top edge (rival). No victory tokens, no sliding markers, no chips.
 
-BOTTOM PLAYER AREA — four poker-size action cards in a short row, text-only faces in black sans-serif:
+BOTTOM PLAYER AREA - four poker-size action cards in a short row, text-only faces in black sans-serif:
 Secret (face up), Trade-off (face up), Gift (face up), Competition (face up).
 Under Secret: one deal card tucked partially beneath, only the edge visible.
 Under Trade-off: two deal cards tucked partially beneath.
 Gift and Competition have nothing tucked under them.
 
-Deal cards (visible edges and a small fan of three near Gift): same poker size as market cards, plain white stock, tiny flag icon in one corner plus a single point number only — no illustration, no scenes.
+Deal cards (visible edges and a small fan of three near Gift): same poker size as market cards, plain white stock, tiny flag icon in one corner plus a single point number only - no illustration, no scenes.
 
-LEFT SIDE — neat stack of matte home-printed cards beside a small plain tuck box labeled Duopoly in simple type.
-RIGHT SIDE — one folded monochrome mini zine (single sheet, rules pamphlet), black text only, tucked next to the deck.
+LEFT SIDE - neat stack of matte home-printed cards beside a small plain tuck box labeled Duopoly in simple type.
+RIGHT SIDE - one folded monochrome mini zine (single sheet, rules pamphlet), black text only, tucked next to the deck.
 
-Overall look: deliberately boring, utilitarian, DIY print-and-play — matte cardstock, slightly imperfect home cutter edges, inkjet or laser print, not a commercial board game, not glossy retail packaging. Color palette mostly white cards, black type, small flat flags, green and red only on the one controlled market card. Empty table otherwise.
+Overall look: deliberately boring, utilitarian, DIY print-and-play - matte cardstock, slightly imperfect home cutter edges, inkjet or laser print, not a commercial board game, not glossy retail packaging. Color palette mostly white cards, black type, small flat flags, green and red only on the one controlled market card. Empty table otherwise.
 ```
 
 ---
@@ -546,7 +546,7 @@ Overall look: deliberately boring, utilitarian, DIY print-and-play — matte car
 ## Layout cheat sheet (for manual staging or inpainting)
 
 ```
-                    [ rival side — top of frame ]
+                    [ rival side - top of frame ]
 
    EU 4    US 5
    (black) (black)
@@ -556,7 +556,7 @@ Germany  France   UK    China   Japan    EU     US
  neutral  neutral neutral neutral CONTROL neutral neutral
                               green↓ red↑
 
-        [ deal fan: 3 cards — Gift pile hint ]
+        [ deal fan: 3 cards - Gift pile hint ]
 
 Secret  Trade-off   Gift   Competition
   └1       └└2       (up)      (up)
@@ -572,7 +572,7 @@ Secret  Trade-off   Gift   Competition
 
 | Element | Spec |
 |--------|------|
-| **Size** | All cards same poker size — market, deal, and action |
+| **Size** | All cards same poker size - market, deal, and action |
 | **Market row order** | Germany 2 → France 2 → UK 2 → China 3 → Japan 3 → EU 4 → US 5 |
 | **Neutral market** | Black name + points; two identical small flags on face |
 | **Controlled market** | One flag; green toward leader, red toward rival; no extra token |
@@ -597,7 +597,7 @@ geisha, Japanese traditional art, ornate illustrations, anime, character portrai
 |--------|------------|
 | **Aspect** | 16:9 (blog hero); crop row centered |
 | **Style weight** | Favor “documentary photo” / “flat lay” over “illustration” |
-| **Text** | Models mangle labels — expect to fix country names and action words in Figma/Canva afterward |
+| **Text** | Models mangle labels - expect to fix country names and action words in Figma/Canva afterward |
 | **Flags** | Ask for “simple flat flag rectangles, not official heraldic seals” to dodge trademark-looking EU/US renders |
 
 ---
@@ -609,7 +609,7 @@ If the full scene fights the model, generate in two passes:
 1. **Hero:** seven-card market row only, Japan controlled (green/red), rest neutral black.
 2. **Inset or second shot:** four action cards with Secret/Trade-off tuck visible.
 
-Composite in Canva — often faster than one overloaded prompt.
+Composite in Canva - often faster than one overloaded prompt.
 
 I can turn this into a one-page art brief (exact pixel size from your Hugo theme) if you want it sized for `/images/feature-duopoly.jpg`.
 
@@ -637,7 +637,7 @@ _**Agent (auto-low)**_
 
 ## Image prompt: seven market cards only
 
-Top-down photo of **seven identical poker-size cards** (63×88 mm, landscape) in a single horizontal row on a plain light wooden table. Soft daylight, shallow depth of field, no other components, no hands, no people. Matte home-printed cardstock, simple sans-serif text, flat flag rectangles only — no portraits, no scenery, no decorative borders.
+Top-down photo of **seven identical poker-size cards** (63×88 mm, landscape) in a single horizontal row on a plain light wooden table. Soft daylight, shallow depth of field, no other components, no hands, no people. Matte home-printed cardstock, simple sans-serif text, flat flag rectangles only - no portraits, no scenery, no decorative borders.
 
 **Row order left to right** (low market value → high): Germany, France, UK, China, Japan, EU, US.
 
@@ -645,7 +645,7 @@ All seven cards are **neutral** (no one leads): country name and market value in
 
 ---
 
-### Card 1 — Germany (leftmost)
+### Card 1 - Germany (leftmost)
 
 - **Market value:** 2  
 - **State:** Neutral  
@@ -656,7 +656,7 @@ All seven cards are **neutral** (no one leads): country name and market value in
 
 ---
 
-### Card 2 — France
+### Card 2 - France
 
 - **Market value:** 2  
 - **State:** Neutral  
@@ -666,7 +666,7 @@ All seven cards are **neutral** (no one leads): country name and market value in
 
 ---
 
-### Card 3 — United Kingdom
+### Card 3 - United Kingdom
 
 - **Market value:** 2  
 - **State:** Neutral  
@@ -676,7 +676,7 @@ All seven cards are **neutral** (no one leads): country name and market value in
 
 ---
 
-### Card 4 — China
+### Card 4 - China
 
 - **Market value:** 3  
 - **State:** Neutral  
@@ -686,7 +686,7 @@ All seven cards are **neutral** (no one leads): country name and market value in
 
 ---
 
-### Card 5 — Japan
+### Card 5 - Japan
 
 - **Market value:** 3  
 - **State:** Neutral  
@@ -696,17 +696,17 @@ All seven cards are **neutral** (no one leads): country name and market value in
 
 ---
 
-### Card 6 — European Union
+### Card 6 - European Union
 
 - **Market value:** 4  
 - **State:** Neutral  
 - **Layout:** “EU” in black, “4” in black  
-- **Flags:** Two identical small EU-style flags (blue field, circle of yellow stars), side by side — stylized, not an official seal  
+- **Flags:** Two identical small EU-style flags (blue field, circle of yellow stars), side by side - stylized, not an official seal  
 - **Colors:** Black text only  
 
 ---
 
-### Card 7 — United States (rightmost)
+### Card 7 - United States (rightmost)
 
 - **Market value:** 5  
 - **State:** Neutral  
@@ -732,10 +732,10 @@ All seven cards are **neutral** (no one leads): country name and market value in
 If you want control state in the row, keep **six cards neutral** and flip **Japan** only:
 
 - **One** Japan flag (not two)  
-- “Japan” and “3” printed **twice** on the card — once per half  
+- “Japan” and “3” printed **twice** on the card - once per half  
 - **Green** text on the half pointing toward the **bottom** of the frame (leader)  
 - **Red** text on the half pointing toward the **top** (rival)  
-- Still no tokens or markers — the card itself shows state  
+- Still no tokens or markers - the card itself shows state  
 
 ---
 
@@ -771,7 +771,7 @@ Checking the file for images and reviewing the publish workflow. The `__` prefix
 
 _**Agent (auto-low)**_
 
-Publishing the Hanamikoji post — checking the draft and repo publish conventions.
+Publishing the Hanamikoji post - checking the draft and repo publish conventions.
 
 
 _**Agent (auto-low)**_
@@ -1704,13 +1704,13 @@ _**Agent (auto-low)**_
 
 Done. No commit.
 
-**Slug:** added `slug: "duopoly"` — live URL will be `/blog/duopoly/` (filename stays `hanamikoji-rules.md`).
+**Slug:** added `slug: "duopoly"` - live URL will be `/blog/duopoly/` (filename stays `hanamikoji-rules.md`).
 
-**Skills updated** — all three content skills now say do not commit or push unless you explicitly ask:
+**Skills updated** - all three content skills now say do not commit or push unless you explicitly ask:
 
-- `jorap-voice` — new **Publishing** section + **Do not** rule
-- `garden-voice` — workflow step 6 + **Do not** rule  
-- `flashcards` — workflow step 9
+- `jorap-voice` - new **Publishing** section + **Do not** rule
+- `garden-voice` - workflow step 6 + **Do not** rule  
+- `flashcards` - workflow step 9
 
 Want a different slug than `duopoly`? Say what you prefer.
 
@@ -3023,7 +3023,7 @@ title → meta_title → description → slug → date → image
 
 - 6 published posts missing `slug` now have it
 - Recipe posts got quoted titles, dates with `Z`, quoted images
-- 29 drafts had `slug` after `tags` — moved up
+- 29 drafts had `slug` after `tags` - moved up
 - `alex-eala` and RSS `aliases`/`lastmod` kept, in the right slots
 
 ### Going forward
@@ -3033,4 +3033,4 @@ python3 scripts/normalize-blog-frontmatter.py --write  # fix after bulk edits
 pnpm lint:blog                                         # CI-style check
 ```
 
-Hugo build passes. Changes are uncommitted per your earlier rule — say the word when you want a commit.
+Hugo build passes. Changes are uncommitted per your earlier rule - say the word when you want a commit.

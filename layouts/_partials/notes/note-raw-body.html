@@ -1,7 +1,7 @@
 {{- /*
   Markdown body only (no frontmatter).
   ponytail: Hugo 0.163 .RawContent panics (slice bounds out of range) when the
-  frontmatter byte offset overshoots EOF — common on empty-body notes near ~2.8KB.
+  frontmatter byte offset overshoots EOF - common on empty-body notes near ~2.8KB.
   Strip via readFile + regex instead.
 */ -}}
 {{- $page := . -}}

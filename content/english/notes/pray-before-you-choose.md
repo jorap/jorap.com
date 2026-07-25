@@ -51,15 +51,15 @@ card_sets: ["Jesus Rhythms", "Gospel", "Faith", "Prayer"]
 cards:
   - front: "About to announce the new team lead - prayed yet?"
     back: "Pray before the commit - not after."
-  - front: "Spreadsheet done, prayer never happened. What did Jesus do before naming the twelve?"
-    back: "All night in prayer first."
-  - front: "Two offers ranked by salary, zero time on the mountain. What comes before the signature?"
+  - front: "Spreadsheet done, prayer never happened - list is ready to ship."
+    back: "All night in prayer - before you name them."
+  - front: "Two offers ranked by salary, zero time on the mountain."
     back: "Pray the fork - then choose."
-  - front: "Big hire feels urgent - skip prayer to move fast?"
+  - front: "Big hire feels urgent - skip prayer to move fast."
     back: "Night before the fork - depend first."
-  - front: "Decision already posted online, prayer in the car. Right order?"
+  - front: "Decision already posted online, prayer in the car - public first."
     back: "Pray before announce - not after."
-  - front: "Committing other people to my call without asking God. One move from His pattern?"
+  - front: "Committing other people to my call without asking God."
     back: "Pray before you choose."
 draft: false
 ---

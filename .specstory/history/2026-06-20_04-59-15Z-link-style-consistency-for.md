@@ -435,7 +435,7 @@ The three random links come from the `random-note.html` partial. I'll conditiona
 
 _**Agent (default)**_
 
-The random controls come from the shared toolbar partial — I'll hide them when `active` is `note` (single note pages).
+The random controls come from the shared toolbar partial - I'll hide them when `active` is `note` (single note pages).
 
 
 _**Agent (default)**_

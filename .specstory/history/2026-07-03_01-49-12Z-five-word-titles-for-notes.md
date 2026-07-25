@@ -296,7 +296,7 @@ Result:
           },
           {
             "lineNumber": 16,
-            "text": "  One sentence — the angle, not a second definition."
+            "text": "  One sentence - the angle, not a second definition."
           },
           {
             "lineNumber": 17
@@ -311,11 +311,11 @@ Result:
           },
           {
             "lineNumber": 20,
-            "text": "  - \"Mid-action scene where this principle fires — not a definition restated.\""
+            "text": "  - \"Mid-action scene where this principle fires - not a definition restated.\""
           },
           {
             "lineNumber": 21,
-            "text": "  - \"Second scene from a different field — jeepney, clinic, inbox, bedtime.\""
+            "text": "  - \"Second scene from a different field - jeepney, clinic, inbox, bedtime.\""
           },
           {
             "lineNumber": 22,
@@ -354,7 +354,7 @@ Result:
           },
           {
             "lineNumber": 31,
-            "text": "For habit spine notes (&#96;review: true&#96;), copy the frontmatter pattern from [/notes/flashcards/](/notes/flashcards/) or run &#96;hugo new content/english/notes/my-note.md --kind notes-review&#96;. Rules: double-quote every &#96;front&#96;, &#96;back&#96;, and set name; inline &#96;card_sets: [\"Set\"]&#96;; block list for &#96;cards&#96;; put &#96;draft&#96; last; do not add &#96;| JoRap Notes&#96; to &#96;meta_title&#96;. Don't &#96;[[wikilink]]&#96; utility pages (Graph, Issues, Flashcards, Review, Random Duo) — use URLs; see [[Getting Started]]."
+            "text": "For habit spine notes (&#96;review: true&#96;), copy the frontmatter pattern from [/notes/flashcards/](/notes/flashcards/) or run &#96;hugo new content/english/notes/my-note.md --kind notes-review&#96;. Rules: double-quote every &#96;front&#96;, &#96;back&#96;, and set name; inline &#96;card_sets: [\"Set\"]&#96;; block list for &#96;cards&#96;; put &#96;draft&#96; last; do not add &#96;| JoRap Notes&#96; to &#96;meta_title&#96;. Don't &#96;[[wikilink]]&#96; utility pages (Graph, Issues, Flashcards, Review, Random Duo) - use URLs; see [[Getting Started]]."
           }
         ],
         "range": {
@@ -656,7 +656,7 @@ Result:
           },
           {
             "lineNumber": 29,
-            "text": "  One sentence — the angle, not a second definition."
+            "text": "  One sentence - the angle, not a second definition."
           },
           {
             "lineNumber": 30
@@ -671,11 +671,11 @@ Result:
           },
           {
             "lineNumber": 33,
-            "text": "  - \"Mid-action scene where this principle fires — not a definition restated.\""
+            "text": "  - \"Mid-action scene where this principle fires - not a definition restated.\""
           },
           {
             "lineNumber": 34,
-            "text": "  - \"Second scene from a different field — jeepney, clinic, inbox, bedtime.\""
+            "text": "  - \"Second scene from a different field - jeepney, clinic, inbox, bedtime.\""
           },
           {
             "lineNumber": 35,
@@ -744,7 +744,7 @@ Result:
           },
           {
             "lineNumber": 140,
-            "text": "      \"   relationships — list of typed links:\","
+            "text": "      \"   relationships - list of typed links:\","
           },
           {
             "lineNumber": 141,
@@ -796,7 +796,7 @@ Result:
           },
           {
             "lineNumber": 153,
-            "text": "      \"   description: \\\"One breath definition — the single claim this note makes.\\\"\","
+            "text": "      \"   description: \\\"One breath definition - the single claim this note makes.\\\"\","
           },
           {
             "lineNumber": 154,
@@ -804,7 +804,7 @@ Result:
           },
           {
             "lineNumber": 155,
-            "text": "      \"     One sentence — the angle.\","
+            "text": "      \"     One sentence - the angle.\","
           },
           {
             "lineNumber": 156,
@@ -824,7 +824,7 @@ Result:
           },
           {
             "lineNumber": 160,
-            "text": "      \"     - \\\"Mid-action scene two — different field.\\\"\","
+            "text": "      \"     - \\\"Mid-action scene two - different field.\\\"\","
           },
           {
             "lineNumber": 161,
@@ -1061,7 +1061,7 @@ Result:
           },
           {
             "lineNumber": 96,
-            "text": "# Procedural how-tos only — not frameworks or principles."
+            "text": "# Procedural how-tos only - not frameworks or principles."
           },
           {
             "lineNumber": 97,
@@ -1652,7 +1652,7 @@ Result:
           },
           {
             "lineNumber": 4,
-            "text": "Categories are topical buckets for the notes index filter — not \\\"every note is an idea.\\\""
+            "text": "Categories are topical buckets for the notes index filter - not \\\"every note is an idea.\\\""
           },
           {
             "lineNumber": 5,
@@ -1667,23 +1667,23 @@ Result:
           },
           {
             "lineNumber": 8,
-            "text": "  Faith       — gospel cluster (Eternal Principles card_sets; not workplace translations)"
+            "text": "  Faith       - gospel cluster (Eternal Principles card_sets; not workplace translations)"
           },
           {
             "lineNumber": 9,
-            "text": "  Productivity — PKM, capture/distill/organize, garden meta and Hugo tooling"
+            "text": "  Productivity - PKM, capture/distill/organize, garden meta and Hugo tooling"
           },
           {
             "lineNumber": 10,
-            "text": "  Leadership  — workplace + pressure hubs, safety/ops, work ethics"
+            "text": "  Leadership  - workplace + pressure hubs, safety/ops, work ethics"
           },
           {
             "lineNumber": 11,
-            "text": "  Thinking    — mental models, decision lenses, strategy, cognitive bias"
+            "text": "  Thinking    - mental models, decision lenses, strategy, cognitive bias"
           },
           {
             "lineNumber": 12,
-            "text": "  Growth      — habits, performance loops, personal development (Systems for Growth hub)"
+            "text": "  Growth      - habits, performance loops, personal development (Systems for Growth hub)"
           },
           {
             "lineNumber": 13
@@ -2758,11 +2758,11 @@ Result:
           },
           {
             "lineNumber": 7,
-            "text": "random_blog_note_lede: One garden note picked at random — shuffle for a new pairing with this post."
+            "text": "random_blog_note_lede: One garden note picked at random - shuffle for a new pairing with this post."
           },
           {
             "lineNumber": 8,
-            "text": "random_note_lede: One garden note picked at random — shuffle for a new pairing with this note."
+            "text": "random_note_lede: One garden note picked at random - shuffle for a new pairing with this note."
           },
           {
             "lineNumber": 9,
@@ -2878,7 +2878,7 @@ Result:
           },
           {
             "lineNumber": 37,
-            "text": "prompt_copied_for_ai: Copied — paste in chat"
+            "text": "prompt_copied_for_ai: Copied - paste in chat"
           },
           {
             "lineNumber": 38,
@@ -3166,7 +3166,7 @@ Result:
           },
           {
             "lineNumber": 89,
-            "text": "      \"Atomic notes store the claim in frontmatter only — body stays empty. The site assembles ## Key Concept, ## Examples, and ## Note Relationships at build time from YAML fields.\","
+            "text": "      \"Atomic notes store the claim in frontmatter only - body stays empty. The site assembles ## Key Concept, ## Examples, and ## Note Relationships at build time from YAML fields.\","
           },
           {
             "lineNumber": 90,
@@ -3178,19 +3178,19 @@ Result:
           },
           {
             "lineNumber": 92,
-            "text": "      \"- description — one-breath definition (no \\\"Term =\\\" prefix, no [[wikilinks]])\","
+            "text": "      \"- description - one-breath definition (no \\\"Term =\\\" prefix, no [[wikilinks]])\","
           },
           {
             "lineNumber": 93,
-            "text": "      \"- key_concept — first paragraph: one sentence (the angle, not a second definition); optional second paragraph with stakes, distinctions, [[wikilinks]]\","
+            "text": "      \"- key_concept - first paragraph: one sentence (the angle, not a second definition); optional second paragraph with stakes, distinctions, [[wikilinks]]\","
           },
           {
             "lineNumber": 94,
-            "text": "      \"- examples — exactly two plain bullets from different fields (best scenes first, no genre labels)\","
+            "text": "      \"- examples - exactly two plain bullets from different fields (best scenes first, no genre labels)\","
           },
           {
             "lineNumber": 95,
-            "text": "      \"- relationships — typed rows (extends + contradicts minimum; optional implements, alternative); sort type a-z, then wikilink a-z\","
+            "text": "      \"- relationships - typed rows (extends + contradicts minimum; optional implements, alternative); sort type a-z, then wikilink a-z\","
           },
           {
             "lineNumber": 96,
@@ -3198,7 +3198,7 @@ Result:
           },
           {
             "lineNumber": 97,
-            "text": "      \"Page kinds: default atomic note (omit note_kind); hub/MOC use note_kind: index and may keep prose in body; utility/meta pages (Graph, Issues, Flashcards, Review, etc.) use note_kind: meta — never [[wikilink]] utility pages from content notes, use URLs.\","
+            "text": "      \"Page kinds: default atomic note (omit note_kind); hub/MOC use note_kind: index and may keep prose in body; utility/meta pages (Graph, Issues, Flashcards, Review, etc.) use note_kind: meta - never [[wikilink]] utility pages from content notes, use URLs.\","
           },
           {
             "lineNumber": 98,
@@ -3206,7 +3206,7 @@ Result:
           },
           {
             "lineNumber": 99,
-            "text": "      \"Created/updated timestamps come from the file at build time — do not add a date field.\","
+            "text": "      \"Created/updated timestamps come from the file at build time - do not add a date field.\","
           },
           {
             "lineNumber": 100,

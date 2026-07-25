@@ -54,6 +54,14 @@ cards:
     back: "Walk it first - adapt, do not defend."
   - front: "I own the outdoor court but tonight's indoor floor is slick and I am slipping everywhere."
     back: "New footwork - do not defend yesterday."
+  - front: "New floor opens tomorrow - still running last month's drills."
+    back: "Walk it once - adapt, don't defend."
+  - front: "Slick indoor court - tempted to blame the shoes only."
+    back: "New footwork tonight - not yesterday's game."
+  - front: "Outdoor game worked - indoor tomorrow - same moves?"
+    back: "Shorter steps, softer touch - retune first."
+  - front: "Slipped all first quarter on the slick floor - halftime and I'm steaming."
+    back: "New reads second half - adapt, don't rage."
 draft: false
 ---
 

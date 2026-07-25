@@ -69,6 +69,10 @@ cards:
     back: "Not drove off hoping nobody saw"
   - front: "After the missed free throw cost us the game, our point guard said \"that was on me\" in the huddle"
     back: "No blame theater"
+  - front: "Blame ping-pong in the chat after the patient mix-up."
+    back: "Name what I missed - fix my piece first."
+  - front: "Thumb hovering on excuse email - vendor fault sounds cleaner."
+    back: "Own my lane - state what I'll change."
 draft: false
 ---
 

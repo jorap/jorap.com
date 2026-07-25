@@ -270,7 +270,7 @@ Parameters:
   "caseInsensitive": true,
   "glob": "*.md",
   "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
-  "pattern": "—|–|\\bdelve\\b|\\btapestry\\b|\\bharness\\b|\\bfurthermore\\b|\\bmoreover\\b|\\badditionally\\b|\\butilize\\b|\\bleverage\\b|\\brobust\\b|\\bseamless\\b|\\bcomprehensive\\b|\\blandscape\\b|\\bnavigate\\b|\\bjourney\\b|\\btestament\\b|\\bunderscores\\b|\\bparamount\\b|\\bin today's\\b|\\bincreasingly important\\b|\\bplays a key role\\b|\\bit's important to remember\\b|\\bwhen it comes to\\b|\\bin the world of\\b"
+  "pattern": "-|–|\\bdelve\\b|\\btapestry\\b|\\bharness\\b|\\bfurthermore\\b|\\bmoreover\\b|\\badditionally\\b|\\butilize\\b|\\bleverage\\b|\\brobust\\b|\\bseamless\\b|\\bcomprehensive\\b|\\blandscape\\b|\\bnavigate\\b|\\bjourney\\b|\\btestament\\b|\\bunderscores\\b|\\bparamount\\b|\\bin today's\\b|\\bincreasingly important\\b|\\bplays a key role\\b|\\bit's important to remember\\b|\\bwhen it comes to\\b|\\bin the world of\\b"
 }
 ```
 Additional data:
@@ -280,7 +280,7 @@ Additional data:
   "isPruned": true,
   "outputMode": "content",
   "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
-  "pattern": "—|–|\\bdelve\\b|\\btapestry\\b|\\bharness\\b|\\bfurthermore\\b|\\bmoreover\\b|\\badditionally\\b|\\butilize\\b|\\bleverage\\b|\\brobust\\b|\\bseamless\\b|\\bcomprehensive\\b|\\blandscape\\b|\\bnavigate\\b|\\bjourney\\b|\\btestament\\b|\\bunderscores\\b|\\bparamount\\b|\\bin today's\\b|\\bincreasingly important\\b|\\bplays a key role\\b|\\bit's important to remember\\b|\\bwhen it comes to\\b|\\bin the world of\\b",
+  "pattern": "-|–|\\bdelve\\b|\\btapestry\\b|\\bharness\\b|\\bfurthermore\\b|\\bmoreover\\b|\\badditionally\\b|\\butilize\\b|\\bleverage\\b|\\brobust\\b|\\bseamless\\b|\\bcomprehensive\\b|\\blandscape\\b|\\bnavigate\\b|\\bjourney\\b|\\btestament\\b|\\bunderscores\\b|\\bparamount\\b|\\bin today's\\b|\\bincreasingly important\\b|\\bplays a key role\\b|\\bit's important to remember\\b|\\bwhen it comes to\\b|\\bin the world of\\b",
   "topFiles": [
     {
       "matchCount": 1,
@@ -603,7 +603,7 @@ Parameters:
   "caseInsensitive": false,
   "glob": "[!_]*.md",
   "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
-  "pattern": "—|–"
+  "pattern": "-|–"
 }
 ```
 Additional data:
@@ -613,7 +613,7 @@ Additional data:
   "isPruned": true,
   "outputMode": "content",
   "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
-  "pattern": "—|–",
+  "pattern": "-|–",
   "topFiles": [
     {
       "matchCount": 1,
@@ -1717,7 +1717,7 @@ _**Agent (composer-2.5-fast)**_
 <think><details><summary>Thought Process</summary>
 Found a factual error in hanamikoji-duopoly-retheme at line 83. The post claims seven geisha and seven tokens, but the actual game uses six geisha and six victory markers.
 
-The retheme’s seven markets and five-point scale do not map one-to-one onto the retail game’s six geishas and sixteen points. Its win condition—winning four countries versus four geisha—also changes the ratio. I am now compiling the full structured report. Twenty-four published posts were reviewed.
+The retheme’s seven markets and five-point scale do not map one-to-one onto the retail game’s six geishas and sixteen points. Its win condition-winning four countries versus four geisha-also changes the ratio. I am now compiling the full structured report. Twenty-four published posts were reviewed.
 
 Voice analysis reveals strong personal voices in mouse-wheel-click, drupal-to-wordpress, extension-cord, why-i-stopped-playing-marvel-snap, what-i-look-for-in-wireless-earphones, worship-pads, miracle-isaiah-david, drupal, facebook-favorites, hanamikoji, one-page-zine, and why-i-focused-on-open-source.
 
@@ -1755,24 +1755,24 @@ Frontmatter: all 24 have `slug`, pass `pnpm lint:blog`, field order looks correc
 ## CRITICAL
 
 ### Broken internal link (publish blocker)
-- **`static-site-vs-cms.md` line 79** — Links to `[Sveltia CMS](/blog/sveltia-cms/)`, but `__sveltia-cms.md` is `draft: true`. Live site will 404.
+- **`static-site-vs-cms.md` line 79** - Links to `[Sveltia CMS](/blog/sveltia-cms/)`, but `__sveltia-cms.md` is `draft: true`. Live site will 404.
 
 ### Factual / logical errors
 
 **`hanamikoji-duopoly-retheme.md`**
-- **Lines 41, 47–57, 83, 105–111** — Post says retail *Hanamikoji* has **7 geisha / 7 victory markers** and maps to **7 markets** (incl. US at 5 pts, 21 total). Retail *Hanamikoji* has **6 geisha** (charm 2/2/2/3/3/4, max 16), **6 victory markers**, win **4 of 6**. Duopoly uses **4 of 7** and a 21-point pool. That conflicts with “Mechanics unchanged” (line 41) and “One-to-one where it matters” (line 47).
-- **Line 57** — “21 total across all markets” does not match retail’s 16-point geisha pool.
+- **Lines 41, 47–57, 83, 105–111** - Post says retail *Hanamikoji* has **7 geisha / 7 victory markers** and maps to **7 markets** (incl. US at 5 pts, 21 total). Retail *Hanamikoji* has **6 geisha** (charm 2/2/2/3/3/4, max 16), **6 victory markers**, win **4 of 6**. Duopoly uses **4 of 7** and a 21-point pool. That conflicts with “Mechanics unchanged” (line 41) and “One-to-one where it matters” (line 47).
+- **Line 57** - “21 total across all markets” does not match retail’s 16-point geisha pool.
 
 **`alex-eala-pro-career-tracker.md`**
-- **Line 141** — “First Filipina to reach **WTA Tour Finals**” for Eastbourne 2025. Eastbourne is a WTA 250 **tournament final**, not the season-ending **WTA Finals**. Wrong term; overstates the milestone.
-- **Line 136** — Guadalajara R16 vs Lepchenko: `6-3, 7-6(3), 6-3` is three set scores for a best-of-two match. Almost certainly a typo (extra `6-3`).
+- **Line 141** - “First Filipina to reach **WTA Tour Finals**” for Eastbourne 2025. Eastbourne is a WTA 250 **tournament final**, not the season-ending **WTA Finals**. Wrong term; overstates the milestone.
+- **Line 136** - Guadalajara R16 vs Lepchenko: `6-3, 7-6(3), 6-3` is three set scores for a best-of-two match. Almost certainly a typo (extra `6-3`).
 
 ---
 
 ## LINT
 
 **`pnpm lint:voice` fails on published posts:**
-- **`one-page-zine.md` line 37** — Em dash in image caption: `60 × 85 mm — eight panels`. JoRap voice rule: no em dashes.
+- **`one-page-zine.md` line 37** - Em dash in image caption: `60 × 85 mm - eight panels`. JoRap voice rule: no em dashes.
 
 No banned words from `data/voice-words.yaml` (`delve`, `Furthermore`, `When it comes to`, etc.) in published post bodies.
 
@@ -1794,32 +1794,32 @@ Sections that read generic, framework-y, or thin vs JoRap reference posts (`mous
 
 **Strong voice (no rewrite flag):** `mouse-wheel-click`, `drupal-to-wordpress`, `extension-cord`, `why-i-focused-on-open-source`, `why-i-stopped-playing-marvel-snap`, `what-i-look-for-in-wireless-earphones`, `worship-pads-solo-guitar`, `facebook-favorites-feed`, `miracle-isaiah-david`, `one-page-zine` (body), `hanamikoji-duopoly-retheme` (tone; see CRITICAL for facts).
 
-**Intentionally non-voice:** `alex-eala-pro-career-tracker`, `dnpap-song-resources` — scrapbook/resource pages; that’s fine for the format.
+**Intentionally non-voice:** `alex-eala-pro-career-tracker`, `dnpap-song-resources` - scrapbook/resource pages; that’s fine for the format.
 
 ---
 
 ## MINOR
 
 ### Typos / awkward phrasing
-- **`alex-eala-pro-career-tracker.md` line 159** — “WTA 1000 Tour Semifinals” — redundant “Tour”; elsewhere you use “WTA 1000 semifinal” (line 29).
-- **`alex-eala-pro-career-tracker.md` line 249** — Australian Open 2026 loss vs Parks: no score, unlike other entries.
-- **`dnpap-song-resources.md` line 23** — “Pagibig” (one word); standard spelling is often “Pag-ibig” (minor).
+- **`alex-eala-pro-career-tracker.md` line 159** - “WTA 1000 Tour Semifinals” - redundant “Tour”; elsewhere you use “WTA 1000 semifinal” (line 29).
+- **`alex-eala-pro-career-tracker.md` line 249** - Australian Open 2026 loss vs Parks: no score, unlike other entries.
+- **`dnpap-song-resources.md` line 23** - “Pagibig” (one word); standard spelling is often “Pag-ibig” (minor).
 
 ### Frontmatter / meta nits
 - All published posts have `slug` and `meta_title`. No issues found.
-- **`hanamikoji-duopoly-retheme.md` line 15** — `aliases: ["hanamikoji-rules"]` reserves a URL for rules content that lives in a private zine, not this post. Could confuse routing if a real rules page is added later.
+- **`hanamikoji-duopoly-retheme.md` line 15** - `aliases: ["hanamikoji-rules"]` reserves a URL for rules content that lives in a private zine, not this post. Could confuse routing if a real rules page is added later.
 
 ### Structural / markup
-- **`instant-pot-chicken-adobo.md`** — Ends at Step 6 with no closing paragraph (abrupt for a published recipe post).
-- **`miracle-isaiah-david.md` line 31** — `image` shortcode with empty `height="" width=""`.
-- **`extension-cord.md` line 65** — “remote work checklist” with no link; checklist is still draft (`__remote-work-checklist.md`).
+- **`instant-pot-chicken-adobo.md`** - Ends at Step 6 with no closing paragraph (abrupt for a published recipe post).
+- **`miracle-isaiah-david.md` line 31** - `image` shortcode with empty `height="" width=""`.
+- **`extension-cord.md` line 65** - “remote work checklist” with no link; checklist is still draft (`__remote-work-checklist.md`).
 
 ### External links (not verified live; worth spot-check)
-- **`worship-pads-solo-guitar.md` line 75** — `http://bit.ly/WorshipAmbientPads` (short links rot).
-- **`alex-eala-pro-career-tracker.md` line 39** — `tnnslive.com` (less standard than WTA/tennis.com).
+- **`worship-pads-solo-guitar.md` line 75** - `http://bit.ly/WorshipAmbientPads` (short links rot).
+- **`alex-eala-pro-career-tracker.md` line 39** - `tnnslive.com` (less standard than WTA/tennis.com).
 
 ### Cross-post redundancy (not wrong, but inconsistent)
-- **`why-run-your-own-website.md`** vs **`sustainable-online-publishing.md`** — Same thesis (own your files; social is distribution). Different dates (2024 vs 2026) but overlapping arguments and stack table.
+- **`why-run-your-own-website.md`** vs **`sustainable-online-publishing.md`** - Same thesis (own your files; social is distribution). Different dates (2024 vs 2026) but overlapping arguments and stack table.
 
 ---
 
@@ -1829,9 +1829,9 @@ Sections that read generic, framework-y, or thin vs JoRap reference posts (`mous
 |-------|------|
 | **`__sveltia-cms.md`** | Linked from **published** `static-site-vs-cms.md`. Also links to draft `client-site-pass-off`. Highest priority to publish or unlink. |
 | **`__client-site-pass-off.md`** | Complete, publish-ready tone. Referenced from `__sveltia-cms.md` and `static-site-vs-cms` related_notes. |
-| **`__markdown-deep-dive.md`** | `draft: true`; body is complete (~87 lines). No conflicting frontmatter — `draft: false` is only in the frontmatter example block. |
+| **`__markdown-deep-dive.md`** | `draft: true`; body is complete (~87 lines). No conflicting frontmatter - `draft: false` is only in the frontmatter example block. |
 | **`__wifi-router.md`** | Full article; still uses placeholder `image: "/images/image-template.jpg"`. |
-| **`__humanize-ai-articles.md`** | Contains intentional AI slop examples (`When it comes to…`, line 44) as anti-patterns — fine for draft, do not publish as-is without framing. |
+| **`__humanize-ai-articles.md`** | Contains intentional AI slop examples (`When it comes to…`, line 44) as anti-patterns - fine for draft, do not publish as-is without framing. |
 | **Other `__` drafts** | Not fully read; no `draft: false` in frontmatter except the markdown-deep-dive code sample. |
 
 ---

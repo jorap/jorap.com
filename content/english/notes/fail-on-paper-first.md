@@ -11,7 +11,7 @@ key_concept: |
   - Level 5: [[Decision Quality]] rises when cost and failure modes are visible before ego attaches to the launch.
   - [[Risk Management]] without failing on paper first is optimism wearing a spreadsheet.
 examples:
-  - "Before the static site handoff we listed three ways the client would call angry - fixed DNS docs and scope line before go-live, not after."
+  - "Before we passed the static site to the client we listed three ways they would call angry - fixed DNS docs and scope line before go-live, not after."
   - "Team assumed the tournament format failed - whiteboard showed scheduling was the killer; we moved pools before registration opened."
 shareable_thought:
   - "Before you commit, imagine the launch failed - name why, then fix the plan while rollback is cheap."
@@ -37,14 +37,28 @@ relationships:
   - type: extends
     wikilink: "[[Rollback Principle]]"
     reason: "Know the revert trigger before deploy"
-slug: "run-a-pre-mortem"
+slug: "fail-on-paper-first"
 date: "2026-07-25 11:25:00+08:00"
 image: "/images/note.jpg"
 categories: ["Leadership"]
 author: "JoRap"
 tags: ["Decision Making", "Risk Management", "Systems Thinking"]
-aliases: ["pre-mortem", "premortem", "run a pre-mortem"]
+aliases: ["pre-mortem", "premortem", "run a pre-mortem", "run-a-pre-mortem"]
 featured: false
-review: false
+review: true
+card_sets: ["Ethics", "Focus"]
+cards:
+  - front: "Pass to client Friday - DNS anger scenarios still unlisted."
+    back: "Fail on paper first - fix docs before go-live."
+  - front: "Team assumes tournament format died - whiteboard empty."
+    back: "List causes - patch before registration opens."
+  - front: "Ego already attached to the launch date - failure modes invisible."
+    back: "Imagine it died - name why, then patch."
+  - front: "Rollback trigger still vague - deploy clock ticking."
+    back: "Write revert trigger - before users feel pain."
+  - front: "Optimism spreadsheet says ship - room never assumed failure."
+    back: "Room assumes project died - list causes first."
+  - front: "Public yes on vows without honest estimate - builder move?"
+    back: "Count failure on paper - before the wall stops mid-air."
 draft: false
 ---

@@ -68,6 +68,10 @@ cards:
     back: "Slept eight hours and did not snap at the barista"
   - front: "Elite athletes schedule rest days. What's the move?"
     back: "Not another heroic scrimmage"
+  - front: "Third late night this week - snapped at my kid over a spilled cup at breakfast."
+    back: "Stop at ten - judgment needs sleep."
+  - front: "Big decision after a brutal week - same facts feel heavier than Monday."
+    back: "Defer the call - rest first, decide rested."
 draft: false
 ---
 

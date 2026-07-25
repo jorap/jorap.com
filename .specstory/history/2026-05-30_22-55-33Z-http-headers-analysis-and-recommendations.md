@@ -102,7 +102,7 @@ Dries Buytaert · dries@buytaert.net
 _**Agent (auto-high)**_
 
 <think><details><summary>Thought Process</summary>
- Looking at the HTTP Headers Analyzer report for jorap.com, the site is scoring 8/10 with a few security gaps I need to address. The main issues are two missing headers—Content-Security-Policy and Cross-Origin-Embedder-Policy—plus a warning about the missing Content-Length header that I should resolve.
+ Looking at the HTTP Headers Analyzer report for jorap.com, the site is scoring 8/10 with a few security gaps I need to address. The main issues are two missing headers-Content-Security-Policy and Cross-Origin-Embedder-Policy-plus a warning about the missing Content-Length header that I should resolve.
 
 There's also a notice that the server is revealing it's running Cloudflare, which is a minor information disclosure concern. Let me start by examining the site's current configuration to understand what headers are already in place and how to implement the missing ones.</details></think>
 

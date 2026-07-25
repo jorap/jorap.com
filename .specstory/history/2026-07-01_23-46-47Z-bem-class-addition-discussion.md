@@ -294,19 +294,19 @@ Status: **completed**
 
 _**Agent (auto-low)**_
 
-**Partly — but only where you actually need component CSS, not as a blanket rename.**
+**Partly - but only where you actually need component CSS, not as a blanket rename.**
 
 This repo already runs a hybrid stack:
 
-1. **Theme utilities** — `container`, `btn`, `border-divider`, Tailwind-ish spacing/type
-2. **Namespaced component classes** — `notes-*`
-3. **`data-*` hooks for JS** — review uses these, not classes
+1. **Theme utilities** - `container`, `btn`, `border-divider`, Tailwind-ish spacing/type
+2. **Namespaced component classes** - `notes-*`
+3. **`data-*` hooks for JS** - review uses these, not classes
 
 BEM is already in use where it pays off. Backlinks, graph, and issues use real BEM (`notes-backlinks-group__summary`, `notes-graph__canvas`). Review uses flat prefixed names (`notes-review-start`, `notes-review-card`) that are namespaced but not strict BEM.
 
 ### Where BEM *does* make sense
 
-Add BEM blocks/elements when you’re writing **component rules in `custom.css`** — backgrounds, disclosure chevrons, card min-heights, state overrides. That’s what backlinks did well: block class + utilities in HTML, structural styling in CSS.
+Add BEM blocks/elements when you’re writing **component rules in `custom.css`** - backgrounds, disclosure chevrons, card min-heights, state overrides. That’s what backlinks did well: block class + utilities in HTML, structural styling in CSS.
 
 For review specifically, the useful move is less “rename everything to `__`” and more:
 
@@ -315,9 +315,9 @@ For review specifically, the useful move is less “rename everything to `__`”
 
 ### Where BEM *doesn’t* buy much
 
-- **Review page as-is** — only ~10 rules in `custom.css`; JS targets `data-notes-review-*`, not classes. Renaming `notes-review-start` → `notes-review__start` is churn with almost no behavioral win.
-- **Replacing utilities** — BEM doesn’t fix the long utility strings; you’d just get `notes-review__actions flex flex-wrap gap-2` instead of something shorter.
-- **Sitewide consistency drive** — graph/backlinks needed BEM because they have substantial CSS. Review and simpler layouts mostly don’t.
+- **Review page as-is** - only ~10 rules in `custom.css`; JS targets `data-notes-review-*`, not classes. Renaming `notes-review-start` → `notes-review__start` is churn with almost no behavioral win.
+- **Replacing utilities** - BEM doesn’t fix the long utility strings; you’d just get `notes-review__actions flex flex-wrap gap-2` instead of something shorter.
+- **Sitewide consistency drive** - graph/backlinks needed BEM because they have substantial CSS. Review and simpler layouts mostly don’t.
 
 ### Practical rule for this project
 
@@ -329,7 +329,7 @@ For review specifically, the useful move is less “rename everything to `__`”
 
 So: **yes for new notes component styling** (match backlinks/graph), **no for a wholesale BEM pass on review** unless you’re also moving the inline styles into CSS. The highest-value diff on review is probably 3–4 BEM blocks for surfaces/elevation, not renaming every child element.
 
-If you want, I can do that minimal pass on `review.html` only — block classes + CSS, no JS or naming churn elsewhere.
+If you want, I can do that minimal pass on `review.html` only - block classes + CSS, no JS or naming churn elsewhere.
 
 ---
 
@@ -856,7 +856,7 @@ _**Agent (auto-low)**_
 
 BEM only pays off where you have **component CSS in `assets/css/custom.css`**, not on every notes page. Here’s the file map for this repo.
 
-## Already BEM (or close enough) — don’t churn
+## Already BEM (or close enough) - don’t churn
 
 These already match the pattern: block + `__element` + `--modifier`, utilities for spacing.
 
@@ -880,10 +880,10 @@ CSS lives in the same places: `custom.css` sections for backlinks (~635+), graph
 |------|-----|
 | **`layouts/notes/review.html`** | ~15 component rules; inline `background:` on start/card/done panels. Good candidate for `notes-review__start`, `__card`, `__done` blocks. |
 | **`layouts/notes/cards.html`** | Anki export box has no block class (only inline style). `notes-random-prompt-*` is flat but has ~40 lines of CSS. |
-| **`layouts/notes/random-duo.html`** + **`layouts/_partials/notes/random-*.html`** | Heavy CSS: `notes-random-controls`, `notes-path-toolbar`, `notes-random-panel`, etc. — all flat, would benefit from `notes-random-duo__*` / `notes-path__*`. |
+| **`layouts/notes/random-duo.html`** + **`layouts/_partials/notes/random-*.html`** | Heavy CSS: `notes-random-controls`, `notes-path-toolbar`, `notes-random-panel`, etc. - all flat, would benefit from `notes-random-duo__*` / `notes-path__*`. |
 | **`layouts/_partials/notes/recent-new.html`**, **`recent-updated.html`** | `notes-recent-link`, `notes-recent-title` → natural `notes-recent__link`, `__title`. |
-| **`layouts/_partials/notes/note-card.html`** | Block exists (`notes-card`); children are flat (`notes-card-title`, `notes-card-overlay`) — optional `__title`, `__overlay` cleanup. |
-| **`layouts/notes/single.html`** | `notes-outgoing`, per-note `notes-backlinks` panels — small CSS (~769), mostly surface/background. |
+| **`layouts/_partials/notes/note-card.html`** | Block exists (`notes-card`); children are flat (`notes-card-title`, `notes-card-overlay`) - optional `__title`, `__overlay` cleanup. |
+| **`layouts/notes/single.html`** | `notes-outgoing`, per-note `notes-backlinks` panels - small CSS (~769), mostly surface/background. |
 
 Pairing file for all of the above: **`assets/css/custom.css`**.
 
@@ -910,7 +910,7 @@ layout/spacing/type?              → utilities (flex, gap-2, text-sm, …)
 
 **Highest ROI if you pick one cluster:** `review.html` + `cards.html` (small, self-contained, still have inline styles to move into CSS). **Biggest consistency gap:** random-duo + random partials (most CSS, least BEM).
 
-I can do the review/cards pass only, or map random-duo to BEM across HTML + `custom.css` — say which you want.
+I can do the review/cards pass only, or map random-duo to BEM across HTML + `custom.css` - say which you want.
 
 ---
 
@@ -1917,10 +1917,10 @@ _**Agent (auto-low)**_
 
 OKF Graph is now the first thing on that page, right after the toolbar:
 
-- **Primary button** — `OKF graph` (`btn-primary`) linking to `/exports/okf/viz.html`, with a short hint line beside it
-- **Content cleanup** — removed the duplicate link from the bottom “Browse the bundle” section so it isn’t buried twice
+- **Primary button** - `OKF graph` (`btn-primary`) linking to `/exports/okf/viz.html`, with a short hint line beside it
+- **Content cleanup** - removed the duplicate link from the bottom “Browse the bundle” section so it isn’t buried twice
 
-Reload `http://localhost:1313/notes/okf-export/` — the graph link should appear immediately below the notes toolbar, before the title.
+Reload `http://localhost:1313/notes/okf-export/` - the graph link should appear immediately below the notes toolbar, before the title.
 
 ---
 
@@ -2179,7 +2179,7 @@ Status: **completed**
 
 _**Agent (auto-low)**_
 
-Reverting the description change — markdown there would leak into meta tags. Using a plain intro paragraph in the body instead.
+Reverting the description change - markdown there would leak into meta tags. Using a plain intro paragraph in the body instead.
 
 
 _**Agent (auto-low)**_
@@ -2258,7 +2258,7 @@ Removed the layout button. There’s now a plain intro line at the top of the pa
 [OKF graph](/exports/okf/viz.html) - visual network of the exported bundle.
 ```
 
-It sits right before the ChatGPT workflow section — no extra template or button styling.
+It sits right before the ChatGPT workflow section - no extra template or button styling.
 
 ---
 
@@ -3178,9 +3178,9 @@ _**Agent (auto-low)**_
 
 Updated `okf-export.md` so abbreviations spell out on first use:
 
-- **description** — `Open Knowledge Format (OKF) bundle - …`
-- **Intro link** — `Open Knowledge Format (OKF) graph`
-- **Body** — first mentions of OKF, Maps of Content (MOC), and Personal Knowledge Management (PKM) expanded where they appear in prose/tables
+- **description** - `Open Knowledge Format (OKF) bundle - …`
+- **Intro link** - `Open Knowledge Format (OKF) graph`
+- **Body** - first mentions of OKF, Maps of Content (MOC), and Personal Knowledge Management (PKM) expanded where they appear in prose/tables
 
 Left **ChatGPT** as-is (product name). **Copy MD** stays as the button label.
 
@@ -3841,4 +3841,4 @@ Updated every note whose **title** contains an abbreviation so the `description`
 | `git-based-cms.md` | CMS | Content Management System (CMS) |
 | `crdt.md` | CRDT | Conflict-free Replicated Data Types (CRDT) |
 
-Notes like **Getting Things Done** and **Maps of Content** already use full names in the title, so they were left alone. **The Second Brain Workflow** mentions CODE/PARA only in the description, not the title — skipped per your rule.
+Notes like **Getting Things Done** and **Maps of Content** already use full names in the title, so they were left alone. **The Second Brain Workflow** mentions CODE/PARA only in the description, not the title - skipped per your rule.

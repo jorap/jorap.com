@@ -47,5 +47,9 @@ cards:
     back: "Gap list - name the checker this week."
   - front: "Notes graph shows five orphans with no inbound links. One move before I close the tab?"
     back: "Link them in - forgot to connect."
+  - front: "Garden graph shows one lonely note - no links in or out."
+    back: "Add three wikilinks - orphan is a signal."
+  - front: "Dense cluster in the graph - can't name why those notes connect."
+    back: "Write one MOC sentence - name the thread."
 draft: false
 ---

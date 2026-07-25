@@ -319,11 +319,11 @@ Status: **completed**
 _**Agent (auto-high)**_
 
 <think><details><summary>Thought Process</summary>
- I'm spotting the contrast issue — in dark mode, the light cream accent background makes white SVG icons invisible. The fix is to fill the icons with the surface color instead, so they'll always stand out against whatever background they're on.</details></think>
+ I'm spotting the contrast issue - in dark mode, the light cream accent background makes white SVG icons invisible. The fix is to fill the icons with the surface color instead, so they'll always stand out against whatever background they're on.</details></think>
 
 _**Agent (auto-high)**_
 
-Found it. In light mode, the share buttons have a dark accent background with white icons — which works. But in dark mode, the accent becomes light (`#f2efe9`), so the white icons disappear into a near-white background.
+Found it. In light mode, the share buttons have a dark accent background with white icons - which works. But in dark mode, the accent becomes light (`#f2efe9`), so the white icons disappear into a near-white background.
 
 The fix is to fill the icons with the surface color (which auto-inverts in dark mode) instead of hardcoding white.
 
@@ -349,7 +349,7 @@ _**Agent (auto-high)**_
 
 _**Agent (auto-high)**_
 
-The icons now use `fill-surface`, which resolves to the body background color — light in light mode (contrasting against the dark accent button) and dark in dark mode (contrasting against the light accent button).
+The icons now use `fill-surface`, which resolves to the body background color - light in light mode (contrasting against the dark accent button) and dark in dark mode (contrasting against the light accent button).
 
 Summary of the fix:
 

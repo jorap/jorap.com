@@ -972,9 +972,9 @@ Added two gospel spine notes and wired them into the garden.
 
 ## New notes
 
-**[[Mercy]]** (`content/english/notes/mercy.md`) — God withholds the punishment I deserve; I show the same to others.
+**[[Mercy]]** (`content/english/notes/mercy.md`) - God withholds the punishment I deserve; I show the same to others.
 
-**[[Grace]]** (`content/english/notes/grace.md`) — God's unmerited favor: He gives good I never earned, starting with salvation and continuing in the walk after.
+**[[Grace]]** (`content/english/notes/grace.md`) - God's unmerited favor: He gives good I never earned, starting with salvation and continuing in the walk after.
 
 Both have six review cards and sit under **Eternal Principles** in the gospel drill lane.
 
@@ -1001,7 +1001,7 @@ They meet in **[[Forgiveness]]** (mercy clears my debt; I extend it), **[[Free G
 - `love-your-neighbor.md`, `love-your-enemies.md`
 - `eternal-principles.md`
 
-Flashcard and voice lint both pass. I didn't commit — say if you want that.
+Flashcard and voice lint both pass. I didn't commit - say if you want that.
 
 ---
 
@@ -1424,7 +1424,7 @@ _**Agent (auto-low)**_
 
 _**Agent (auto-low)**_
 
-Added **[[Fruits of the Spirit]]** (`content/english/notes/fruits-of-the-spirit.md`) — Galatians 5:22-23: love, joy, peace, patience, kindness, goodness, faithfulness, gentleness, self-control. Character the Spirit grows when I walk by the Spirit, not a checklist I white-knuckle to earn heaven.
+Added **[[Fruits of the Spirit]]** (`content/english/notes/fruits-of-the-spirit.md`) - Galatians 5:22-23: love, joy, peace, patience, kindness, goodness, faithfulness, gentleness, self-control. Character the Spirit grows when I walk by the Spirit, not a checklist I white-knuckle to earn heaven.
 
 ## The nine fruits (with garden echoes)
 
@@ -1438,21 +1438,21 @@ Added **[[Fruits of the Spirit]]** (`content/english/notes/fruits-of-the-spirit.
 | Goodness | [[Let Your Light Shine]] |
 | Faithfulness | [[Faithful Steward]] |
 | Gentleness | [[Humility and Service]] |
-| Self-control | [[Self-Control]] (PKM skill — same word, different job) |
+| Self-control | [[Self-Control]] (PKM skill - same word, different job) |
 
 ## How it fits the graph
 
 **Engine:** [[Abide in Me]] → fruit from the vine; this note names the cluster that grows.
 
-**Process:** [[Sanctification]], [[Discipleship]], [[Grateful Obedience]], [[Grace]] — fruit follows salvation; it doesn't buy it.
+**Process:** [[Sanctification]], [[Discipleship]], [[Grateful Obedience]], [[Grace]] - fruit follows salvation; it doesn't buy it.
 
-**Inner life:** [[Heart Righteousness]] — Spirit applies Jesus' inner standard; fruit is what shows outward.
+**Inner life:** [[Heart Righteousness]] - Spirit applies Jesus' inner standard; fruit is what shows outward.
 
-**Kingdom character:** [[The Beatitudes]], [[Peacemakers]] — overlap with meek, merciful, peacemakers.
+**Kingdom character:** [[The Beatitudes]], [[Peacemakers]] - overlap with meek, merciful, peacemakers.
 
-**Don't confuse with:** [[By Their Fruits]] — discern teachers by outcome (Matthew 7), not believer character (Galatians 5).
+**Don't confuse with:** [[By Their Fruits]] - discern teachers by outcome (Matthew 7), not believer character (Galatians 5).
 
-**PKM cross-link:** [[Self-Control]] — general restraint skill vs Spirit-produced self-control (added to [[Eternal Principles]] PKM table).
+**PKM cross-link:** [[Self-Control]] - general restraint skill vs Spirit-produced self-control (added to [[Eternal Principles]] PKM table).
 
 ## Updated notes (backlinks)
 

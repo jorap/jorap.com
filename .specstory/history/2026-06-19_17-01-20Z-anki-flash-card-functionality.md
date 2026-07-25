@@ -596,13 +596,13 @@ Status: **completed**
 
 _**Agent (default)**_
 
-Your notes already spell out a clear split: the wiki holds linked ideas; Anki holds drill. You have no flashcard layer yet — but the garden is well set up to add one without merging those lanes.
+Your notes already spell out a clear split: the wiki holds linked ideas; Anki holds drill. You have no flashcard layer yet - but the garden is well set up to add one without merging those lanes.
 
 ## What you have today
 
-- **Atomic note shape** — almost every note opens with `**Term** = one-line definition`, which maps cleanly to front/back cards.
-- **Random discovery** — “Random note”, `/notes/random-two/`, `/notes/random-three/` (serendipity + AI prompts), not spaced repetition.
-- **No card markup** — no shortcodes, export script, or review page.
+- **Atomic note shape** - almost every note opens with `**Term** = one-line definition`, which maps cleanly to front/back cards.
+- **Random discovery** - “Random note”, `/notes/random-two/`, `/notes/random-three/` (serendipity + AI prompts), not spaced repetition.
+- **No card markup** - no shortcodes, export script, or review page.
 
 That matches [[Spaced Repetition Systems (SRS)]] and [[Spaced Repetition]]: facts for cold recall, not whole essays.
 
@@ -616,7 +616,7 @@ Keep markdown as source of truth; generate decks on build or via script.
 
 | Approach | How it works |
 |----------|----------------|
-| **Opt-in frontmatter** | `review: true` or tag `flashcard` — only those notes export |
+| **Opt-in frontmatter** | `review: true` or tag `flashcard` - only those notes export |
 | **Explicit cards in notes** | `## Cards` section or `Q::A` lines for multi-card notes |
 | **Shortcode** | `{{< card "What is X?" "One-line answer" >}}` |
 | **Auto from first line** | Parse `**Term** = …` → front: title/term, back: definition + link to note |
@@ -631,7 +631,7 @@ Output: `.txt` (tab-separated for Anki import) or `.apkg` via a small Python scr
 
 - Shortcode or marked sections render click-to-flip cards inside a note.
 - Optional `/notes/cards/` page listing all cards, filterable by tag.
-- No SRS — just study UI on the site.
+- No SRS - just study UI on the site.
 
 **Best for:** readers (or you) reviewing while browsing, without opening Anki.
 
@@ -645,7 +645,7 @@ A `/notes/review/` route:
 - Simple Again / Good / Easy buttons.
 - Schedules in `localStorage` (SM-2-ish).
 
-**Best for:** quick sessions on the site. Still not a full Anki replacement — no sync across devices unless you add a backend.
+**Best for:** quick sessions on the site. Still not a full Anki replacement - no sync across devices unless you add a backend.
 
 ---
 
@@ -667,7 +667,7 @@ Auto-generate “`[[Spaced Repetition]]` schedules reviews before…” → hide
 
 ## Suggested path (aligned with your own notes)
 
-**Phase A — opt-in export**
+**Phase A - opt-in export**
 
 ```yaml
 review: true   # or tag: flashcard
@@ -675,9 +675,9 @@ review: true   # or tag: flashcard
 
 Build script extracts the first-line `**Term** = …` pattern → Anki deck. Whole notes stay out unless marked.
 
-**Phase B — optional shortcode** for notes that need multiple cards (vocabulary, scripture refs, etc.).
+**Phase B - optional shortcode** for notes that need multiple cards (vocabulary, scripture refs, etc.).
 
-**Phase C — only if you want it** — in-site review page or flip cards on the note itself.
+**Phase C - only if you want it** - in-site review page or flip cards on the note itself.
 
 That keeps “Anki beside the wiki” instead of turning every evergreen note into a flashcard.
 
@@ -697,10 +697,10 @@ That keeps “Anki beside the wiki” instead of turning every evergreen note in
 
 Which direction fits how you actually study?
 
-1. **Export to Anki** — I’ll wire opt-in frontmatter + a build script from your `**Term** = …` pattern.  
-2. **On-site flip cards** — shortcode + optional cards index page.  
-3. **Both** — export for phone, flip cards for the site.  
-4. **Quiz mode first** — extend random notes before anything heavier.
+1. **Export to Anki** - I’ll wire opt-in frontmatter + a build script from your `**Term** = …` pattern.  
+2. **On-site flip cards** - shortcode + optional cards index page.  
+3. **Both** - export for phone, flip cards for the site.  
+4. **Quiz mode first** - extend random notes before anything heavier.
 
 Say which number (or mix), and whether cards should come from the first line only, explicit markup, or both.
 
@@ -1364,7 +1364,7 @@ print('raw snippet:', [l for l in text.splitlines() if 'card' in l])
 
 ```
 matches: []
-raw snippet: ["Vocabulary, definitions, scripture references - anything I'll be quizzed on or need instant recall for. Whole essays don't belong on flashcards. The wiki holds understanding; [[Spaced Repetition Systems (SRS)]] holds drill. Pairs with [[PKM]] and [[RSS for Research]].", '{{< card front="What belongs in SRS vs the wiki?" back="SRS: facts you need cold — vocabulary, definitions, references. Wiki: linked ideas and understanding." >}}']
+raw snippet: ["Vocabulary, definitions, scripture references - anything I'll be quizzed on or need instant recall for. Whole essays don't belong on flashcards. The wiki holds understanding; [[Spaced Repetition Systems (SRS)]] holds drill. Pairs with [[PKM]] and [[RSS for Research]].", '{{< card front="What belongs in SRS vs the wiki?" back="SRS: facts you need cold - vocabulary, definitions, references. Wiki: linked ideas and understanding." >}}']
 
 ```
 </details></tool-use>
@@ -1381,14 +1381,14 @@ _**Agent (default)**_
 <think><details><summary>Thought Process</summary>
 The shortcode regex fails because the closing tag is `>}}` but the pattern expects `[%>]>\}\}`.
 
-The regex expects `[%>]>` immediately after the attributes, but the actual closing is ` >}}` — a space, then `>`, then `}`. The pattern cannot match the real shortcode.
+The regex expects `[%>]>` immediately after the attributes, but the actual closing is ` >}}` - a space, then `>`, then `}`. The pattern cannot match the real shortcode.
 
 The regex should match `{{<` and `>}}` directly. The corrected pattern is `\{\{[%<]\s*card\s+front="([^"]+)"\s+back="([^"]+)"\s*>\}\}`.
 </details></think>
 
 _**Agent (default)**_
 
-Fixing the shortcode regex — the closing delimiter is `>}}`, not `%>`.
+Fixing the shortcode regex - the closing delimiter is `>}}`, not `%>`.
 
 
 _**Agent (default)**_
@@ -1734,7 +1734,7 @@ _**Agent (default)**_
 <summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; hugo config | rg -i &#34;review&#34; | head; python3 &lt;&lt;&#39;PY&#39;
 import re
 from pathlib import Path
-LEAD = re.compile(r&#39;^\*\*([^*]+)\*\*\s*(?:=\s*|—\s*|-\s*)(.+)$&#39;)
+LEAD = re.compile(r&#39;^\*\*([^*]+)\*\*\s*(?:=\s*|-\s*|-\s*)(.+)$&#39;)
 for name in [&#39;spaced-repetition.md&#39;,&#39;spaced-repetition-systems.md&#39;]:
     body = Path(&#39;content/english/notes/&#39;+name).read_text().split(&#39;---&#39;,2)[2].lstrip(&#39;\n&#39;)
     line = body.split(&#39;\n&#39;,1)[0]
@@ -1744,7 +1744,7 @@ PY</summary>
 cd /home/jorap/Documents/GitHub/jorap.com && hugo config | rg -i "review" | head; python3 <<'PY'
 import re
 from pathlib import Path
-LEAD = re.compile(r'^\*\*([^*]+)\*\*\s*(?:=\s*|—\s*|-\s*)(.+)$')
+LEAD = re.compile(r'^\*\*([^*]+)\*\*\s*(?:=\s*|-\s*|-\s*)(.+)$')
 for name in ['spaced-repetition.md','spaced-repetition-systems.md']:
     body = Path('content/english/notes/'+name).read_text().split('---',2)[2].lstrip('\n')
     line = body.split('\n',1)[0]
@@ -2350,13 +2350,13 @@ Three cards are displaying correctly. No extra documentation will be added beyon
 
 _**Agent (default)**_
 
-Both paths are in place — on-site flip cards and Anki export, kept as separate lanes from the wiki.
+Both paths are in place - on-site flip cards and Anki export, kept as separate lanes from the wiki.
 
 ## On-site flashcards
 
-**[/notes/cards/](https://www.jorap.com/notes/cards/)** — flip cards with tag filters. Linked from the notes toolbar and each note page.
+**[/notes/cards/](https://www.jorap.com/notes/cards/)** - flip cards with tag filters. Linked from the notes toolbar and each note page.
 
-**Opt in a note** — add to frontmatter:
+**Opt in a note** - add to frontmatter:
 
 ```yaml
 review: true
@@ -2382,8 +2382,8 @@ Writes `static/exports/jorap-notes-anki.txt` (tab-separated, HTML backs with “
 
 These are marked `review: true` as examples:
 
-- `spaced-repetition.md` — auto card + one `card` shortcode  
-- `spaced-repetition-systems.md` — auto card  
+- `spaced-repetition.md` - auto card + one `card` shortcode  
+- `spaced-repetition-systems.md` - auto card  
 
 That gives **3 cards** total on the site and in the export file.
 
@@ -2449,7 +2449,7 @@ _**Agent (default)**_
 
 _**Agent (default)**_
 
-Flashcards on JoRap Notes are a **drill lane beside the wiki** — same content source, two ways to study. Notes stay linked ideas; flashcards are for facts you want cold recall on.
+Flashcards on JoRap Notes are a **drill lane beside the wiki** - same content source, two ways to study. Notes stay linked ideas; flashcards are for facts you want cold recall on.
 
 That matches your own notes on [[Spaced Repetition]]: the wiki holds understanding, SRS holds drill.
 
@@ -2509,7 +2509,7 @@ If the first line of the note matches your atomic format:
 |-------|------|
 | `Spaced repetition` | `review facts on a schedule before you forget.` |
 
-It also accepts `—` or `-` instead of `=` after the bold term.
+It also accepts `-` or `-` instead of `=` after the bold term.
 
 ### 2. Explicit cards with a shortcode
 
@@ -2541,7 +2541,7 @@ You can also reach it from:
 
 Shortcode cards also render **inline** on the note page itself (same flip interaction).
 
-There is **no spaced repetition on the site** — just flip and browse. For scheduling/repetition, use Anki.
+There is **no spaced repetition on the site** - just flip and browse. For scheduling/repetition, use Anki.
 
 ---
 
@@ -2580,8 +2580,8 @@ So the garden can stay large; only what you flag enters the deck.
 
 Two notes are marked as examples:
 
-- `spaced-repetition.md` — auto card + one shortcode card  
-- `spaced-repetition-systems.md` — auto card  
+- `spaced-repetition.md` - auto card + one shortcode card  
+- `spaced-repetition-systems.md` - auto card  
 
 → **3 cards** on `/notes/cards/` and in the Anki export.
 
@@ -2607,7 +2607,7 @@ Set `enable_cards = false` to hide Flashcards links without removing the export 
 3. Flip through `/notes/cards/` on the site when browsing
 4. Run `npm run export:anki` and import into Anki when you want daily review on your phone
 
-Same markdown, two lanes — wiki for ideas, cards for drill.
+Same markdown, two lanes - wiki for ideas, cards for drill.
 
 ---
 
@@ -2720,7 +2720,7 @@ The site does **not** track right/wrong, shuffle a session, or schedule when to 
 
 ## How to actually memorize and be tested: Anki
 
-This is the path the flashcard system was built for — same cards, real SRS on your phone.
+This is the path the flashcard system was built for - same cards, real SRS on your phone.
 
 ### One-time setup
 
@@ -2741,8 +2741,8 @@ This is the path the flashcard system was built for — same cards, real SRS on 
 1. Open Anki → **Study** your JoRap deck.
 2. Anki shows the front → you **recall the answer** (out loud or in your head).
 3. Tap to reveal → rate yourself:
-   - **Again** — didn’t know it
-   - **Hard / Good / Easy** — how well you knew it
+   - **Again** - didn’t know it
+   - **Hard / Good / Easy** - how well you knew it
 4. Anki **schedules** the next review from those ratings.
 
 That’s the testing loop: active recall + feedback + spaced repetition.
@@ -2766,8 +2766,8 @@ After you edit notes or add `review: true` to more of them, run `npm run export:
 
 ## Other options (outside what’s built in)
 
-- **Random notes** (`/notes/random-two/`, etc.) — good for **serendipity**, not flashcard drill.
-- **Cover the screen** while reading a note’s opening line — same self-test idea as flip cards, no export needed.
+- **Random notes** (`/notes/random-two/`, etc.) - good for **serendipity**, not flashcard drill.
+- **Cover the screen** while reading a note’s opening line - same self-test idea as flip cards, no export needed.
 - **Any SRS app** that imports tab-separated text can use the same export file, not only Anki.
 
 ---
@@ -2776,8 +2776,8 @@ After you edit notes or add `review: true` to more of them, run `npm run export:
 
 That isn’t implemented yet. Possible additions:
 
-1. **Quiz mode** on `/notes/cards/` — one card at a time, shuffle, reveal, self-rate.
-2. **Light browser SRS** — Again/Good/Easy stored in `localStorage` (no phone sync unless we add a backend).
+1. **Quiz mode** on `/notes/cards/` - one card at a time, shuffle, reveal, self-rate.
+2. **Light browser SRS** - Again/Good/Easy stored in `localStorage` (no phone sync unless we add a backend).
 
 For serious memorization, **Anki + export** is the intended workflow today. If you want quiz mode or in-browser review on the site, say which you prefer and we can add it.
 
@@ -3139,7 +3139,7 @@ Review mode is live. You now have **quiz + spaced repetition in the browser** at
    - Click **Show answer** (or press `Space`)
    - Rate yourself: **Again · Hard · Good · Easy**
 
-That’s the testing loop — active recall, then honest self-rating.
+That’s the testing loop - active recall, then honest self-rating.
 
 ## What the ratings do
 
@@ -3156,14 +3156,14 @@ Next visit, **Start review** only pulls cards that are due (plus ones you’ve n
 
 ## Keyboard shortcuts
 
-- `Space` — reveal answer  
-- `1` / `2` / `3` / `4` — Again / Hard / Good / Easy  
+- `Space` - reveal answer  
+- `1` / `2` / `3` / `4` - Again / Hard / Good / Easy  
 
 ## Other controls
 
 - **Filter by tag** before starting (same tags as source notes)
-- **Reset progress** — clears all SRS data in this browser
-- **End session** — stops early and shows a summary
+- **Reset progress** - clears all SRS data in this browser
+- **End session** - stops early and shows a summary
 
 ## Site vs Anki
 

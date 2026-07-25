@@ -82,7 +82,7 @@ I'll ask about past agent failures and whether the em dash ban includes en dashe
 
 _**Agent (auto-low)**_
 
-A few high-leverage decisions will shape the rest — I'll start with those, then follow with open questions.
+A few high-leverage decisions will shape the rest - I'll start with those, then follow with open questions.
 
 
 _**Agent (auto-low)**_
@@ -113,7 +113,7 @@ Parameters:
         },
         {
           "id": "blog_meta",
-          "label": "Blog meta only (title, description) — body is usually fine"
+          "label": "Blog meta only (title, description) - body is usually fine"
         },
         {
           "id": "flashcards",
@@ -129,7 +129,7 @@ Parameters:
         },
         {
           "id": "even",
-          "label": "Roughly even — no one lane stands out"
+          "label": "Roughly even - no one lane stands out"
         }
       ],
       "prompt": "Where does jorap-voice miss most often today?"
@@ -139,11 +139,11 @@ Parameters:
       "options": [
         {
           "id": "keep_one",
-          "label": "Keep one skill — agents should read it all"
+          "label": "Keep one skill - agents should read it all"
         },
         {
           "id": "trim_blog",
-          "label": "Trim blog sections — garden is the main job now"
+          "label": "Trim blog sections - garden is the main job now"
         },
         {
           "id": "trim_scripture",
@@ -165,7 +165,7 @@ Parameters:
       "options": [
         {
           "id": "almost_cards",
-          "label": "Almost as plain as cards — wikilinks are the only density"
+          "label": "Almost as plain as cards - wikilinks are the only density"
         },
         {
           "id": "one_breath_punch",
@@ -177,17 +177,17 @@ Parameters:
         },
         {
           "id": "lane_dependent",
-          "label": "Depends on lane (faith denser than PKM, etc.) — spell that out"
+          "label": "Depends on lane (faith denser than PKM, etc.) - spell that out"
         }
       ],
-      "prompt": "Notes use \"two registers\" — wiki prose denser, cards plainest. How dense should key_concept / examples be?"
+      "prompt": "Notes use \"two registers\" - wiki prose denser, cards plainest. How dense should key_concept / examples be?"
     },
     {
       "id": "local_context",
       "options": [
         {
           "id": "when_natural",
-          "label": "Only when the example is actually from that life — current rule is right"
+          "label": "Only when the example is actually from that life - current rule is right"
         },
         {
           "id": "one_per_note",
@@ -195,17 +195,17 @@ Parameters:
         },
         {
           "id": "blog_more",
-          "label": "More in blog than garden — garden stays universal"
+          "label": "More in blog than garden - garden stays universal"
         },
         {
           "id": "rare",
-          "label": "Rarer than today — reads forced when agents add it"
+          "label": "Rarer than today - reads forced when agents add it"
         }
       ],
       "prompt": "Philippines / local context (Shopee, jeepney, sideline): how often should it show up?"
     }
   ],
-  "title": "Refining jorap-voice — priority picks"
+  "title": "Refining jorap-voice - priority picks"
 }
 ```
 Additional data:
@@ -307,11 +307,11 @@ Parameters:
       "options": [
         {
           "id": "garden_parent",
-          "label": "garden-voice (parent) + blog-voice (child) — garden is default"
+          "label": "garden-voice (parent) + blog-voice (child) - garden is default"
         },
         {
           "id": "ep_child",
-          "label": "garden-voice + ep-scripture-voice (child) — scripture is the heavy appendix"
+          "label": "garden-voice + ep-scripture-voice (child) - scripture is the heavy appendix"
         },
         {
           "id": "three_way",
@@ -330,31 +330,31 @@ Parameters:
       "options": [
         {
           "id": "description",
-          "label": "description — too generic / SEO-ish / not memorable"
+          "label": "description - too generic / SEO-ish / not memorable"
         },
         {
           "id": "key_concept",
-          "label": "key_concept — dictionary openers, wall of wikilinks"
+          "label": "key_concept - dictionary openers, wall of wikilinks"
         },
         {
           "id": "examples",
-          "label": "examples — same domain twice, too abstract"
+          "label": "examples - same domain twice, too abstract"
         },
         {
           "id": "shareable_thought",
-          "label": "shareable_thought — fragments, duplicates, or not paste-ready"
+          "label": "shareable_thought - fragments, duplicates, or not paste-ready"
         },
         {
           "id": "relationships",
-          "label": "relationships.reason — paragraph instead of clause"
+          "label": "relationships.reason - paragraph instead of clause"
         },
         {
           "id": "title_meta",
-          "label": "title / meta_title — wrong word count or subtitle shape"
+          "label": "title / meta_title - wrong word count or subtitle shape"
         },
         {
           "id": "cards",
-          "label": "cards — definition backs (flashcards skill territory)"
+          "label": "cards - definition backs (flashcards skill territory)"
         }
       ],
       "prompt": "Which frontmatter fields do agents get wrong most?"
@@ -364,19 +364,19 @@ Parameters:
       "options": [
         {
           "id": "first_person",
-          "label": "First person glosses — \"Jesus is saying I should…\""
+          "label": "First person glosses - \"Jesus is saying I should…\""
         },
         {
           "id": "second_person",
-          "label": "Second person — \"He's telling you to…\""
+          "label": "Second person - \"He's telling you to…\""
         },
         {
           "id": "neutral",
-          "label": "Neutral plain — \"The point is…\" / \"This means…\""
+          "label": "Neutral plain - \"The point is…\" / \"This means…\""
         },
         {
           "id": "mix",
-          "label": "Mix — first person for application, neutral for definition"
+          "label": "Mix - first person for application, neutral for definition"
         }
       ],
       "prompt": "EP verse glosses (plain line after NASB): what register?"
@@ -386,11 +386,11 @@ Parameters:
       "options": [
         {
           "id": "third_def",
-          "label": "Third-person definition — \"Eternal life is…\""
+          "label": "Third-person definition - \"Eternal life is…\""
         },
         {
           "id": "first_claim",
-          "label": "First-person claim when it's a conviction — \"I hold that…\" / \"For me…\""
+          "label": "First-person claim when it's a conviction - \"I hold that…\" / \"For me…\""
         },
         {
           "id": "either",
@@ -408,7 +408,7 @@ Parameters:
       "options": [
         {
           "id": "always",
-          "label": "Always — even a one-line relationship.reason fix"
+          "label": "Always - even a one-line relationship.reason fix"
         },
         {
           "id": "substantive",
@@ -420,13 +420,13 @@ Parameters:
         },
         {
           "id": "agent_judgment",
-          "label": "Agent judgment — \"would a reader notice this wasn't JoRap?\""
+          "label": "Agent judgment - \"would a reader notice this wasn't JoRap?\""
         }
       ],
-      "prompt": "\"De-AI pass mandatory, even on small edits\" — is that still what you want?"
+      "prompt": "\"De-AI pass mandatory, even on small edits\" - is that still what you want?"
     }
   ],
-  "title": "Refining jorap-voice — split \u0026 frontmatter"
+  "title": "Refining jorap-voice - split \u0026 frontmatter"
 }
 ```
 Additional data:
@@ -555,7 +555,7 @@ Parameters:
       "options": [
         {
           "id": "dict_open",
-          "label": "Dictionary opener — \"X is the process whereby…\""
+          "label": "Dictionary opener - \"X is the process whereby…\""
         },
         {
           "id": "link_wall",
@@ -563,7 +563,7 @@ Parameters:
         },
         {
           "id": "no_punch",
-          "label": "No punch line — reads like a summary paragraph"
+          "label": "No punch line - reads like a summary paragraph"
         },
         {
           "id": "too_long",
@@ -578,7 +578,7 @@ Parameters:
           "label": "EP notes: verse/gloss/commentary shape wrong"
         }
       ],
-      "prompt": "key_concept failures — which show up most? (pick all that apply)"
+      "prompt": "key_concept failures - which show up most? (pick all that apply)"
     },
     {
       "id": "examples_rule",
@@ -589,7 +589,7 @@ Parameters:
         },
         {
           "id": "two_scenes",
-          "label": "Two scenes that feel different — domain labels don't matter"
+          "label": "Two scenes that feel different - domain labels don't matter"
         },
         {
           "id": "one_concrete",
@@ -607,7 +607,7 @@ Parameters:
       "options": [
         {
           "id": "always_four",
-          "label": "Always exactly four — current rule stays"
+          "label": "Always exactly four - current rule stays"
         },
         {
           "id": "three_ok",
@@ -619,7 +619,7 @@ Parameters:
         },
         {
           "id": "drop_field",
-          "label": "Field causes more trouble than value — simplify or drop guidance"
+          "label": "Field causes more trouble than value - simplify or drop guidance"
         }
       ],
       "prompt": "shareable_thought: keep the \"four items\" rule?"
@@ -647,7 +647,7 @@ Parameters:
       "prompt": "When we split garden vs blog, blog-voice should own what?"
     }
   ],
-  "title": "Refining jorap-voice — the three problem fields"
+  "title": "Refining jorap-voice - the three problem fields"
 }
 ```
 Additional data:
@@ -745,7 +745,7 @@ Here’s what your answers lock in, plus the questions I still need from you bef
 | **`description`** | Third-person, one-breath definition |
 | **De-AI pass** | Always, even one-line fixes |
 | **`key_concept` failure mode** | No punch line (not dictionary openers or link walls) |
-| **`examples`** | Two scenes that *feel* different — domain labels don’t matter |
+| **`examples`** | Two scenes that *feel* different - domain labels don’t matter |
 | **`shareable_thought`** | Always exactly four |
 | **`blog-voice` owns** | Everything in the current skill that isn’t garden frontmatter or EP |
 
@@ -759,7 +759,7 @@ That’s enough to sketch the split. These open questions would sharpen the rewr
 
 2. **`jorap-voice` after the split?** Keep it as a thin index (“garden → `garden-voice`, blog → `blog-voice`”), or retire the name entirely?
 
-3. **EP in garden-voice** — one long scripture section (as now), or a short rule + link to `data/ep-verse-explanations.yaml` and the archive scripts?
+3. **EP in garden-voice** - one long scripture section (as now), or a short rule + link to `data/ep-verse-explanations.yaml` and the archive scripts?
 
 ---
 
@@ -773,17 +773,17 @@ That’s enough to sketch the split. These open questions would sharpen the rewr
 
 5. **Wikilinks in line 1?** OK if the linked term *is* the punch (`[[Capture]] is one inbox, emptied weekly.`), or should line 1 stay unlinked plain English?
 
-6. **Faith `key_concept` without a verse** — same punch-first rule as PKM, or verse-first only on EP spine notes?
+6. **Faith `key_concept` without a verse** - same punch-first rule as PKM, or verse-first only on EP spine notes?
 
 ---
 
 ### `examples` and `shareable_thought`
 
-7. **`shareable_thought` — what’s the usual bad output?** Fragments? Four copies of `description`? “Tension with [[Other Note]]”? One concrete bad example would help more than another rule paragraph.
+7. **`shareable_thought` - what’s the usual bad output?** Fragments? Four copies of `description`? “Tension with [[Other Note]]”? One concrete bad example would help more than another rule paragraph.
 
-8. **Four shareables — angle rule?** Must each item hit a *different* angle (definition / move / boundary / payoff), or is “four complete restatements of the same idea in different words” ever OK?
+8. **Four shareables - angle rule?** Must each item hit a *different* angle (definition / move / boundary / payoff), or is “four complete restatements of the same idea in different words” ever OK?
 
-9. **`examples` length** — one sentence each, or a short scene (2–3 sentences) when it needs a beat?
+9. **`examples` length** - one sentence each, or a short scene (2–3 sentences) when it needs a beat?
 
 ---
 
@@ -791,31 +791,31 @@ That’s enough to sketch the split. These open questions would sharpen the rewr
 
 10. **`voice-words.yaml` header** lists words you use on purpose (`landscape`, `leverage`, `robust`, …) while the skill bans “realm”, “seamless”, etc. Should the skill say explicitly: *lint list wins in CI; skill bans are stricter for new drafts*?
 
-11. **4-word titles** — hard gate (agent must trim), or aspirational (flag only when egregious)?
+11. **4-word titles** - hard gate (agent must trim), or aspirational (flag only when egregious)?
 
-12. **Contractions in garden frontmatter** — `description` is third person; are `don't`, `isn't`, `it's` fine there, or save contractions for blog body only?
+12. **Contractions in garden frontmatter** - `description` is third person; are `don't`, `isn't`, `it's` fine there, or save contractions for blog body only?
 
-13. **Understated humor in faith / EP notes** — yes in commentary after the gloss, or keep those lanes straight?
+13. **Understated humor in faith / EP notes** - yes in commentary after the gloss, or keep those lanes straight?
 
 ---
 
 ### Reference material
 
-14. **Gold-standard notes still right?** `capture.md`, `free-grace.md`, `the-golden-rule.md`, `blameless-after-action-review.md` — any you’d swap out because agents copy the wrong thing?
+14. **Gold-standard notes still right?** `capture.md`, `free-grace.md`, `the-golden-rule.md`, `blameless-after-action-review.md` - any you’d swap out because agents copy the wrong thing?
 
-15. **Anti-pattern samples** — is `examples.md` doing its job, or do you want 2–3 *garden frontmatter* before/after blocks (bad `key_concept` → fixed) inlined in the skill?
+15. **Anti-pattern samples** - is `examples.md` doing its job, or do you want 2–3 *garden frontmatter* before/after blocks (bad `key_concept` → fixed) inlined in the skill?
 
 ---
 
 ### Blog half (for later)
 
-16. **Gear posts** — when you say “not affiliate tone,” what *is* OK? Named product you own, price paid, “I’d buy again” — anything off limits (Amazon links, “best pick” language)?
+16. **Gear posts** - when you say “not affiliate tone,” what *is* OK? Named product you own, price paid, “I’d buy again” - anything off limits (Amazon links, “best pick” language)?
 
-17. **Blog reference set** — still `wireless-earphones`, `how-i-built-jorap-notes`, `favorites-feed`, `desktop-laptop` — or has the best on-voice post moved?
+17. **Blog reference set** - still `wireless-earphones`, `how-i-built-jorap-notes`, `favorites-feed`, `desktop-laptop` - or has the best on-voice post moved?
 
 ---
 
-Reply in whatever shape is easy — numbered answers, one paragraph, or “do X for all faith notes.” Once you answer (even partially), I can draft the `garden-voice` / `blog-voice` split and tighten the three problem fields.
+Reply in whatever shape is easy - numbered answers, one paragraph, or “do X for all faith notes.” Once you answer (even partially), I can draft the `garden-voice` / `blog-voice` split and tighten the three problem fields.
 
 ---
 
@@ -1707,7 +1707,7 @@ Considering a script for mechanical fixes and manual review for content. Searchi
 
 _**Agent (auto-low)**_
 
-Large pass across the whole garden — I'll audit scope and existing voice lint first, then fix notes systematically against garden-voice.
+Large pass across the whole garden - I'll audit scope and existing voice lint first, then fix notes systematically against garden-voice.
 
 
 _**Agent (auto-low)**_
@@ -2804,7 +2804,7 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The grep for `shareable_thought` returned empty matches across many files. YAML multiline formatting caused this. The gentleness list contains only three items.
 
-Two files report zero shareable thoughts: leadership-is-influence and discern-his-will-daily. I will write two scripts—lint and fix—and launch four parallel agents to handle content fixes.
+Two files report zero shareable thoughts: leadership-is-influence and discern-his-will-daily. I will write two scripts-lint and fix-and launch four parallel agents to handle content fixes.
 
 Expanding contractions like "don't" to "do not" would sound stiff. I will rephrase those phrases instead. First-person descriptions should shift to third person. The fix script will apply these rephrasing heuristics automatically.
 
@@ -3366,7 +3366,7 @@ cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/garden-voice-lint.p
 ```
 
 ```
-Garden voice — 238 files, 814 issues
+Garden voice - 238 files, 814 issues
   contraction: 639
   first-person: 122
   multi-sentence: 21
@@ -4118,7 +4118,7 @@ content/english/notes/the-narrow-way.md: fixed description
 content/english/notes/the-wise-builder.md: fixed description
 
 Updated 167 notes
-Garden voice — 238 files, 61 issues
+Garden voice - 238 files, 61 issues
   contraction: 42
   faith-no-verse: 9
   multi-sentence: 6
@@ -4363,7 +4363,7 @@ The migrate script broke multiline key_concept formatting across 167 files. I wi
 
 _**Agent (auto-low)**_
 
-The migrate script corrupted YAML formatting — restoring notes and reapplying fixes with a safer approach.
+The migrate script corrupted YAML formatting - restoring notes and reapplying fixes with a safer approach.
 
 
 _**Agent (auto-low)**_
@@ -5345,7 +5345,7 @@ Updated 66 notes
   finished content/english/notes/servant-leadership.md
   finished content/english/notes/set-calm-boundaries.md
 Finished 5 notes
-Garden voice — 238 files, 3 issues
+Garden voice - 238 files, 3 issues
   multi-sentence: 2
   contraction: 1
 
@@ -6176,7 +6176,7 @@ Reviewed and updated the full notes garden against **garden-voice**. Summary:
 
 ## Result
 
-`pnpm garden-voice:scan` / `python3 scripts/garden-voice-lint.py --check` — **clean** on all 223 regular notes (meta/index pages skipped).
+`pnpm garden-voice:scan` / `python3 scripts/garden-voice-lint.py --check` - **clean** on all 223 regular notes (meta/index pages skipped).
 
 ## What changed (~206 notes)
 
@@ -6190,7 +6190,7 @@ Reviewed and updated the full notes garden against **garden-voice**. Summary:
 | **shareable_thought** | Fragments fixed on reference notes (`capture`, `gentleness`, `pkm`, etc.) |
 | **key_concept bullets** | Re-bulleted 54 notes where migrate had dropped `- ` prefixes |
 
-Reference notes now match the skill shape — e.g. `capture.md`:
+Reference notes now match the skill shape - e.g. `capture.md`:
 
 ```5:18:content/english/notes/capture.md
 key_concept: |
@@ -6210,11 +6210,11 @@ shareable_thought:
 
 ## New tooling
 
-- `scripts/garden-voice-lint.py` — checks garden-voice rules
-- `scripts/garden-voice-migrate.py` — bulk mechanical fixes (preserves YAML shape)
-- `scripts/garden-voice-finish.py` — faith-verse prepends
-- `data/garden-voice-descriptions.yaml` — third-person description map
-- `data/garden-voice-finish.yaml` — faith verse map
+- `scripts/garden-voice-lint.py` - checks garden-voice rules
+- `scripts/garden-voice-migrate.py` - bulk mechanical fixes (preserves YAML shape)
+- `scripts/garden-voice-finish.py` - faith-verse prepends
+- `data/garden-voice-descriptions.yaml` - third-person description map
+- `data/garden-voice-finish.yaml` - faith verse map
 
 ```bash
 pnpm garden-voice:scan      # summary
@@ -6253,9 +6253,9 @@ Fixed garden-voice violations in 55 of 57 chunk-2 notes; all pass `garden-voice-
 All 57 unique files in this chunk pass `python3 scripts/garden-voice-lint.py` for the rules you listed.
 
 ### Already compliant (no edits needed)
-- `graph.md` — meta page; frontmatter already matched rules
-- `okf-export.md` — meta page; no `examples` field (lint skips meta/index)
-- `para-method.md` — already third-person, no contractions, four shareable thoughts
+- `graph.md` - meta page; frontmatter already matched rules
+- `okf-export.md` - meta page; no `examples` field (lint skips meta/index)
+- `para-method.md` - already third-person, no contractions, four shareable thoughts
 
 ### What changed across the other 55 files
 - **description** → third-person, ≤20 words, no wikilinks, no contractions
@@ -6296,7 +6296,7 @@ Main fixes: third-person descriptions (≤20 words), expanded contractions in fr
 **Fixed: 49 files** 
 **Already clean: 5 files** (`continuous-improvement.md`, `faithful-steward.md`, `systems-for-growth.md`, `there-is-no-perfect-solution.md`, `weekly-review-checklists.md`) 
 **Total in list: 54** 
-**Blockers: 0** — all pass `garden-voice-lint.py`
+**Blockers: 0** - all pass `garden-voice-lint.py`
 
 ### What changed (by rule)
 
@@ -6304,10 +6304,10 @@ Main fixes: third-person descriptions (≤20 words), expanded contractions in fr
 |------|----------|
 | **description** → third-person, ≤20 words | `anti-fragile-systems.md`, `ship-it.md`, `the-golden-rule.md` |
 | **Contractions** expanded in frontmatter | `shareable_thought`, `relationships.reason`, `key_concept` across faith + PKM notes |
-| **key_concept line 1** — no wikilinks | `pkm.md`, `risk-management.md`, `title-without-influence.md`, `the-12-week-year.md` |
-| **Faith notes** — Bible verse added | `servant-leadership.md` (Mark 10), `steward-after-the-win.md` (Matthew 25) |
-| **examples** — one sentence each | `accountability.md`, `set-calm-boundaries.md`, `secret-devotion.md` (avoided `5 a.m.` period trap) |
-| **shareable_thought** — 4 complete thoughts | `pkm.md` fragment expanded |
+| **key_concept line 1** - no wikilinks | `pkm.md`, `risk-management.md`, `title-without-influence.md`, `the-12-week-year.md` |
+| **Faith notes** - Bible verse added | `servant-leadership.md` (Mark 10), `steward-after-the-win.md` (Matthew 25) |
+| **examples** - one sentence each | `accountability.md`, `set-calm-boundaries.md`, `secret-devotion.md` (avoided `5 a.m.` period trap) |
+| **shareable_thought** - 4 complete thoughts | `pkm.md` fragment expanded |
 
 ### Already clean (no edits)
 `continuous-improvement.md`, `faithful-steward.md`, `systems-for-growth.md`, `there-is-no-perfect-solution.md`, `weekly-review-checklists.md`
@@ -6332,12 +6332,12 @@ agent_id: a0b7811f-d994-4a74-9523-dbc2a99d1711
 detail: <user_visible_high_level_summary>
 **57 of 58** chunk-1 notes fixed and passing `garden-voice-lint` (descriptions third-person, no frontmatter contractions, faith verses where required, four distinct shareable thoughts, etc.).
 
-**Blocker — `issues.md`:** Meta utility page (`note_kind: meta`) with a multi-paragraph reference `description` that intentionally uses wikilinks and has no `examples` field. `garden-voice-lint` skips meta/index notes by design; reshaping it to standard garden frontmatter would break the issues dashboard copy.
+**Blocker - `issues.md`:** Meta utility page (`note_kind: meta`) with a multi-paragraph reference `description` that intentionally uses wikilinks and has no `examples` field. `garden-voice-lint` skips meta/index notes by design; reshaping it to standard garden frontmatter would break the issues dashboard copy.
 </user_visible_high_level_summary>
 <response>
 ## Chunk 1 results
 
-**Fixed: 57 / 58** — all pass `garden-voice-lint`.
+**Fixed: 57 / 58** - all pass `garden-voice-lint`.
 
 ### What changed (representative)
 - **Descriptions** → third-person, ≤20 words, no wikilinks, no contractions (`habit-formation`, `information-diet`, `integrity`, etc.)
@@ -6352,7 +6352,7 @@ detail: <user_visible_high_level_summary>
 
 ### Blocker (1)
 
-**`issues.md`** — `note_kind: meta` utility page. Its multi-paragraph `description` deliberately uses wikilinks as reference copy, and it has no `examples` field. `garden-voice-lint` skips meta/index notes; forcing standard garden frontmatter would break the issues dashboard text. Needs a product decision if you want it reshaped.
+**`issues.md`** - `note_kind: meta` utility page. Its multi-paragraph `description` deliberately uses wikilinks as reference copy, and it has no `examples` field. `garden-voice-lint` skips meta/index notes; forcing standard garden frontmatter would break the issues dashboard text. Needs a product decision if you want it reshaped.
 </response>
 output_path: /home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/ffc430b2-e715-4209-bcb5-8d35f96dc1ab/subagents/a0b7811f-d994-4a74-9523-dbc2a99d1711.jsonl
 </task>
@@ -6392,13 +6392,13 @@ Every listed note was edited for garden-voice frontmatter. All 56 pass `scripts/
 
 ### Blockers / follow-ups
 
-1. **EP spine formatting** — Faith notes now use the bible shortcode pattern (like `abide-in-me.md`), but full NASB paragraph text + YAML glosses are not bulk-applied. Run when you want canonical EP spine output:
+1. **EP spine formatting** - Faith notes now use the bible shortcode pattern (like `abide-in-me.md`), but full NASB paragraph text + YAML glosses are not bulk-applied. Run when you want canonical EP spine output:
  - `python3 scripts/archive/normalize-verse-paragraphs.py`
  - `python3 scripts/archive/apply-verse-explanations.py`
 
-2. **Repo-wide `pnpm lint:voice`** — Still fails on an unrelated file (`content/english/blog/alex-eala-pro-career-tracker.md` em dash). Chunk notes themselves are clean.
+2. **Repo-wide `pnpm lint:voice`** - Still fails on an unrelated file (`content/english/blog/alex-eala-pro-career-tracker.md` em dash). Chunk notes themselves are clean.
 
-3. **Dense tech notes** (`free-tier-hosting-stack`, `git-based-cms`) — Kept operational detail in `key_concept` after the claim line; voice rules met, but they stay longer than a typical PKM note by design.
+3. **Dense tech notes** (`free-tier-hosting-stack`, `git-based-cms`) - Kept operational detail in `key_concept` after the claim line; voice rules met, but they stay longer than a typical PKM note by design.
 </response>
 output_path: /home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/ffc430b2-e715-4209-bcb5-8d35f96dc1ab/subagents/c71324da-4aa0-427c-8107-fae2daa03c5d.jsonl
 </task>
@@ -6429,7 +6429,7 @@ cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/garden-voice-lint.p
 ```
 
 ```
-Garden voice — 238 files, 0 issues
+Garden voice - 238 files, 0 issues
 Garden voice lint OK
 
 ```
@@ -6447,13 +6447,13 @@ _**Agent (auto-low)**_
 
 All four garden-voice chunks are done. The garden passes `garden-voice-lint` with **0 issues**.
 
-**Across chunks:** ~217 regular notes were edited; the rest were already clean or are meta/index pages the linter skips. The same rules landed everywhere — third-person `description`, no contractions in frontmatter, plain `key_concept` line 1 (no wikilinks), faith notes with Bible verses, two one-sentence `examples`, four complete `shareable_thought` angles.
+**Across chunks:** ~217 regular notes were edited; the rest were already clean or are meta/index pages the linter skips. The same rules landed everywhere - third-person `description`, no contractions in frontmatter, plain `key_concept` line 1 (no wikilinks), faith notes with Bible verses, two one-sentence `examples`, four complete `shareable_thought` angles.
 
-**Only intentional exception:** [`issues.md`](a0b7811f-d994-4a74-9523-dbc2a99d1711) stays meta utility copy (wikilinks in `description`, no `examples`) — not a garden note.
+**Only intentional exception:** [`issues.md`](a0b7811f-d994-4a74-9523-dbc2a99d1711) stays meta utility copy (wikilinks in `description`, no `examples`) - not a garden note.
 
 **Optional later (not blocking garden-voice):**
 - Run EP spine scripts (`normalize-verse-paragraphs`, `apply-verse-explanations`) if you want full NASB paragraph + gloss format on faith spine notes
-- ~117 `lint-notes-frontmatter` shareable mismatches from description rewrites — separate pass if you want that linter clean too
+- ~117 `lint-notes-frontmatter` shareable mismatches from description rewrites - separate pass if you want that linter clean too
 
 No further action required for garden-voice itself.
 
@@ -6462,7 +6462,7 @@ No further action required for garden-voice itself.
 _**User**_
 
 Run EP spine scripts (normalize-verse-paragraphs, apply-verse-explanations) if you want full NASB paragraph + gloss format on faith spine notes
-~117 lint-notes-frontmatter shareable mismatches from description rewrites — separate pass if you want that linter clean too
+~117 lint-notes-frontmatter shareable mismatches from description rewrites - separate pass if you want that linter clean too
 
 ---
 
@@ -7824,7 +7824,7 @@ The bug is a mismatched comparison. The code checks `new_kc == kc` where `kc` is
 
 _**Agent (auto-low)**_
 
-The comparison was against the expanded block instead of the original — fixing that so writes actually happen.
+The comparison was against the expanded block instead of the original - fixing that so writes actually happen.
 
 
 _**Agent (auto-low)**_
@@ -7901,7 +7901,7 @@ updated the-narrow-way
 updated christianity-and-politics
 updated render-unto-caesar
 updated great-commission
-Done — 52 note(s) updated
+Done - 52 note(s) updated
 updated mercy
 updated renewed-mind
 updated abide-in-me
@@ -7914,7 +7914,7 @@ updated secret-devotion
 updated discipleship-vs-leadership
 updated let-your-light-shine
 updated christianity-and-politics
-Done — 12 note(s) updated
+Done - 12 note(s) updated
 
 ```
 </details></tool-use>
@@ -9305,7 +9305,7 @@ Example (`free-grace.md`):
 | `lint-notes-frontmatter.py` | **PASS** |
 | `garden-voice-lint.py --check` | **PASS** |
 
-**Note:** A few EP notes still have duplicate gloss content (bare gloss line + matching bullet). Harmless for lint/render; say if you want those deduped. Notes with bible shortcodes only (`joy`, `peace`, etc.) were not in the EP slug list — they still use shortcodes until you add them to `ep-verse-explanations.yaml` or run normalize on them separately.
+**Note:** A few EP notes still have duplicate gloss content (bare gloss line + matching bullet). Harmless for lint/render; say if you want those deduped. Notes with bible shortcodes only (`joy`, `peace`, etc.) were not in the EP slug list - they still use shortcodes until you add them to `ep-verse-explanations.yaml` or run normalize on them separately.
 
 ---
 
@@ -9327,7 +9327,7 @@ I'll review the garden-voice rules and scan the affected notes to plan the conve
 
 _**Agent (auto-low)**_
 
-You want bible shortcodes plus a voice bullet, not inline NASB paragraphs — I'll check how notes are formatted now and what the conversion path should be.
+You want bible shortcodes plus a voice bullet, not inline NASB paragraphs - I'll check how notes are formatted now and what the conversion path should be.
 
 
 _**Agent (auto-low)**_
@@ -10116,7 +10116,7 @@ updated the-narrow-way
 updated the-wise-builder
 updated treasure-in-heaven
 updated turn-the-other-cheek
-Done — 52 note(s) updated
+Done - 52 note(s) updated
 
 ```
 </details></tool-use>
@@ -10599,7 +10599,7 @@ Lines 3–4 fail because they cite a Bible verse without the required shortcode 
 
 The shareable text omits the required shortcode and explanation bullet. It also uses "you" instead of "me" and contains wikilinks that fail lint. The corrected version replaces the verse citation with a plain explanation.
 
-Line 3 now reads: "I do not play final judge on souls — I pull my own plank before nitpicking someone's speck."
+Line 3 now reads: "I do not play final judge on souls - I pull my own plank before nitpicking someone's speck."
 </details></think>
 
 _**Agent (auto-low)**_
@@ -10716,7 +10716,7 @@ Converted **52 faith spine notes** from inline NASB paragraphs back to the forma
 ```
 
 ### What changed
-- Added `scripts/archive/format-faith-bible-blocks.py` — reads shortcodes from git HEAD, pulls explanation text from `data/ep-verse-explanations.yaml`, decontracts for frontmatter rules
+- Added `scripts/archive/format-faith-bible-blocks.py` - reads shortcodes from git HEAD, pulls explanation text from `data/ep-verse-explanations.yaml`, decontracts for frontmatter rules
 - Ran it across all notes that had inline `NASB1995` text in `key_concept`
 - Notes that already used shortcodes (`joy.md`, `peace.md`, work-lane notes, etc.) were already in the right shape
 
@@ -10735,7 +10735,7 @@ Converted **52 faith spine notes** from inline NASB paragraphs back to the forma
 Hugo renders the NASB text at build time; frontmatter stays shortcode + your gloss bullet only.
 
 ### Also updated
-- `garden-voice` skill — documents shortcode + explanation bullet as the canonical EP format (not inline NASB in frontmatter)
+- `garden-voice` skill - documents shortcode + explanation bullet as the canonical EP format (not inline NASB in frontmatter)
 - Both linters pass
 
 Re-run after future bulk edits:

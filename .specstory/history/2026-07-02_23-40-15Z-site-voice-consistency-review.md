@@ -18,7 +18,7 @@ The user wants a quick way to audit their entire site against their personal voi
 
 _**Agent (auto-low)**_
 
-A voice-consistency checker fits your notes/blog workflow — I'll read your voice guidelines and see what content tooling already exists in the repo.
+A voice-consistency checker fits your notes/blog workflow - I'll read your voice guidelines and see what content tooling already exists in the repo.
 
 
 _**Agent (auto-low)**_
@@ -204,7 +204,7 @@ There is already a `pnpm lint:voice` command with two scripts.
 
 _**Agent (auto-low)**_
 
-You already have `lint:voice` — I'll read those scripts and see how far they reach across the site.
+You already have `lint:voice` - I'll read those scripts and see how far they reach across the site.
 
 
 _**Agent (auto-low)**_
@@ -1199,7 +1199,7 @@ cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/notes-voice-lint.py
 ```
 notes-voice-lint self-check OK
 $ python3 scripts/notes-voice-lint.py --summary --review
-Voice scan — 289 files, 13 strict, 120 review-only
+Voice scan - 289 files, 13 strict, 120 review-only
 Word list: data/voice-words.yaml
 
 Strict (lint:voice fails on these)
@@ -1247,7 +1247,7 @@ The `navigate` word flagged a blog post about mouse wheel clicks. This appears t
 
 _**Agent (auto-low)**_
 
-`navigate` is too noisy in strict mode — moving it to review-only since the phrase patterns already catch the AI-slop cases.
+`navigate` is too noisy in strict mode - moving it to review-only since the phrase patterns already catch the AI-slop cases.
 
 
 _**Agent (auto-low)**_
@@ -1280,7 +1280,7 @@ _**Agent (auto-low)**_
 
 _**Agent (auto-low)**_
 
-You already had the bones of this — I wired it up so it's faster to use and easier to tune.
+You already had the bones of this - I wired it up so it's faster to use and easier to tune.
 
 ## Quick review: `pnpm voice:scan`
 
@@ -1293,7 +1293,7 @@ pnpm voice:scan
 Example output shape:
 
 ```
-Voice scan — 289 files, 10 strict, 123 review-only
+Voice scan - 289 files, 10 strict, 123 review-only
 
 Strict (lint:voice fails on these)
   vital (7) → cut unless life-or-death
@@ -1306,12 +1306,12 @@ Review-only (edit data/voice-words.yaml review: to tune)
     ...
 ```
 
-**Strict** = CI fails on these. **Review-only** = flagged for your judgment (context may be fine — e.g. `deploy` on a hosting note).
+**Strict** = CI fails on these. **Review-only** = flagged for your judgment (context may be fine - e.g. `deploy` on a hosting note).
 
 ## Edit your word list: `data/voice-words.yaml`
 
 ```yaml
-words:      # strict — lint:voice fails
+words:      # strict - lint:voice fails
   leverage: use
   landscape: what happens after
 
@@ -1319,7 +1319,7 @@ phrases:    # regex patterns, strict
   - When it comes to
   - Let'?s dive in
 
-review:     # scan only — garden swaps that may be OK in context
+review:     # scan only - garden swaps that may be OK in context
   deploy: push live
   postmortem: after-action review
 
@@ -1337,7 +1337,7 @@ Same list, but only **strict** hits + em/en dash check. Fails the build.
 
 Right now you have **10 strict hits** (mostly `vital` in Pareto flashcards and `repository` in the leftover Hugoplate `elements.md` page) plus **123 review-only** (`deploy`, `handoff`, `postmortem`, etc.).
 
-Want me to tune the default list — e.g. drop `vital` from strict since "vital few" is the actual Pareto term?
+Want me to tune the default list - e.g. drop `vital` from strict since "vital few" is the actual Pareto term?
 
 ---
 
@@ -1376,7 +1376,7 @@ cd /home/jorap/Documents/GitHub/jorap.com && pnpm voice:scan 2>&1
 
 ```
 $ python3 scripts/notes-voice-lint.py --summary --review
-Voice scan — 289 files, 10 strict, 123 review-only
+Voice scan - 289 files, 10 strict, 123 review-only
 Word list: data/voice-words.yaml
 
 Strict (lint:voice fails on these)
@@ -1526,7 +1526,7 @@ SUSPECT_PHRASES = [
     r&#34;furthermore|moreover|additionally&#34;,
 ]
 
-# Common plain words / tech OK — skip in rarity scan
+# Common plain words / tech OK - skip in rarity scan
 STOP = set(&#34;&#34;&#34;
 the and for are but not you all can had her was one our out day get has him his how its may new now old see way who boy did its let put say she too use any may own say she too use any may own
 that with have this will from they been were said each which their time would about there could other after first never these think where being under while might should those people through before
@@ -1616,7 +1616,7 @@ for pat in sorted(phrase_hits, key=lambda p: -len(phrase_hits[p])):
 
 print(&#34;\n=== RARE ACADEMIC-LOOKING WORDS (1-4 uses, 9+ letters) ===&#34;)
 for c, w, locs in rare_fancy[:40]:
-    print(f&#34;  {w} ({c}) — {&#39;, &#39;.join(locs)}&#34;)
+    print(f&#34;  {w} ({c}) - {&#39;, &#39;.join(locs)}&#34;)
 
 PY</summary>
 ````bash
@@ -1678,7 +1678,7 @@ SUSPECT_PHRASES = [
     r"furthermore|moreover|additionally",
 ]
 
-# Common plain words / tech OK — skip in rarity scan
+# Common plain words / tech OK - skip in rarity scan
 STOP = set("""
 the and for are but not you all can had her was one our out day get has him his how its may new now old see way who boy did its let put say she too use any may own say she too use any may own
 that with have this will from they been were said each which their time would about there could other after first never these think where being under while might should those people through before
@@ -1768,7 +1768,7 @@ for pat in sorted(phrase_hits, key=lambda p: -len(phrase_hits[p])):
 
 print("\n=== RARE ACADEMIC-LOOKING WORDS (1-4 uses, 9+ letters) ===")
 for c, w, locs in rare_fancy[:40]:
-    print(f"  {w} ({c}) — {', '.join(locs)}")
+    print(f"  {w} ({c}) - {', '.join(locs)}")
 
 PY
 ````
@@ -1783,29 +1783,29 @@ PY
     content/english/blog/what-i-look-for-in-wireless-earphones.md: …her I'd still be wearing them at the end of the day.  This post is that short list - the th…
 
 === RARE ACADEMIC-LOOKING WORDS (1-4 uses, 9+ letters) ===
-  achievement (1) — content/english/notes/workplace-principles.md
-  adaptation (1) — content/english/notes/pressure-reveals-weakness.md
-  adjustment (1) — content/english/blog/__craft-prompt-framework.md
-  administration (1) — content/english/about/_index.md
-  advertise (1) — content/english/blog/facebooks-hidden-gem-how-favorites-feed-transforms-your-social-media-experience.md
-  agreement (1) — content/english/blog/__client-site-handoff.md
-  amplification (1) — content/english/blog/__sustainable-online-publishing.md
-  announcement (1) — content/english/blog/__client-site-handoff.md
-  apartment (1) — content/english/blog/__wifi-router.md
-  archaeology (1) — content/english/blog/__kewpie-mayo.md
-  assignment (1) — content/english/blog/__why-i-stopped-playing-marvel-snap.md
-  attachment (1) — content/english/blog/__hugo-page-bundles.md
-  attribution (1) — content/english/blog/hugoplate-theme-review.md
-  authentication (1) — content/english/blog/__static-site-client-scope.md
-  automation (1) — content/english/blog/__smart-plug.md
-  cancellation (1) — content/english/blog/what-i-look-for-in-wireless-earphones.md
-  centralize (1) — content/english/blog/__hugo-shortcodes-deep-dive.md
-  collaboration (1) — content/english/about/_index.md
-  commandment (1) — content/english/notes/eternal-principles.md
-  commotion (1) — content/english/blog/miracle-isaiah-david.md
-  condemnation (1) — content/english/notes/eternal-principles.md
-  condiment (1) — content/english/blog/__kewpie-mayo.md
-  confirmation (1) — content/english/blog/hugoplate-theme-review.md
+  achievement (1) - content/english/notes/workplace-principles.md
+  adaptation (1) - content/english/notes/pressure-reveals-weakness.md
+  adjustment (1) - content/english/blog/__craft-prompt-framework.md
+  administration (1) - content/english/about/_index.md
+  advertise (1) - content/english/blog/facebooks-hidden-gem-how-favorites-feed-transforms-your-social-media-experience.md
+  agreement (1) - content/english/blog/__client-site-handoff.md
+  amplification (1) - content/english/blog/__sustainable-online-publishing.md
+  announcement (1) - content/english/blog/__client-site-handoff.md
+  apartment (1) - content/english/blog/__wifi-router.md
+  archaeology (1) - content/english/blog/__kewpie-mayo.md
+  assignment (1) - content/english/blog/__why-i-stopped-playing-marvel-snap.md
+  attachment (1) - content/english/blog/__hugo-page-bundles.md
+  attribution (1) - content/english/blog/hugoplate-theme-review.md
+  authentication (1) - content/english/blog/__static-site-client-scope.md
+  automation (1) - content/english/blog/__smart-plug.md
+  cancellation (1) - content/english/blog/what-i-look-for-in-wireless-earphones.md
+  centralize (1) - content/english/blog/__hugo-shortcodes-deep-dive.md
+  collaboration (1) - content/english/about/_index.md
+  commandment (1) - content/english/notes/eternal-principles.md
+  commotion (1) - content/english/blog/miracle-isaiah-david.md
+  condemnation (1) - content/english/notes/eternal-principles.md
+  condiment (1) - content/english/blog/__kewpie-mayo.md
+  confirmation (1) - content/english/blog/hugoplate-theme-review.md
   congregation (1
 … (output truncated)
 ```
@@ -2106,7 +2106,7 @@ from collections import Counter, defaultdict
 from pathlib import Path
 
 ROOT = Path(&#34;content/english&#34;)
-# Only authored lanes — skip theme boilerplate pages/sections and draft __ posts for &#34;your voice&#34;
+# Only authored lanes - skip theme boilerplate pages/sections and draft __ posts for &#34;your voice&#34;
 SKIP_PARTS = {&#34;pages&#34;, &#34;sections&#34;, &#34;drafts&#34;}
 paths = [p for p in ROOT.rglob(&#34;*.md&#34;) if not any(part in SKIP_PARTS for part in p.parts) and not p.name.startswith(&#34;__&#34;)]
 
@@ -2124,7 +2124,7 @@ for p in paths:
         counts[w] += 1
         locs[w].add(str(p.relative_to(ROOT)))
 
-# Plain/common — not interesting
+# Plain/common - not interesting
 COMMON = set(&#34;something everything anything themselves together different important something everything because through without between another however therefore everything something&#34;.split())
 COMMON |= {w*2 for w in &#34;about after again being could every first great little might never other place right small still their there these think those three under until where which while would write written&#34;.split()}
 
@@ -2138,10 +2138,10 @@ for c,w in candidates:
     if stiff.search(w) or w.endswith((&#34;ize&#34;,&#34;ise&#34;,&#34;ify&#34;,&#34;ous&#34;,&#34;ive&#34;)):
         picked.append((c,w,sorted(locs[w])[:3]))
 picked.sort()
-print(f&#34;Scanned {len(paths)} files (notes, blog, about, contact — no theme pages, no __ drafts)\n&#34;)
+print(f&#34;Scanned {len(paths)} files (notes, blog, about, contact - no theme pages, no __ drafts)\n&#34;)
 print(&#34;STIFF-LOOKING WORDS (2-6 uses):&#34;)
 for c,w,ls in picked[:35]:
-    print(f&#34;  {w} ({c}) — {&#39;; &#39;.join(ls)}&#34;)
+    print(f&#34;  {w} ({c}) - {&#39;; &#39;.join(ls)}&#34;)
 PY</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 <<'PY'
@@ -2150,7 +2150,7 @@ from collections import Counter, defaultdict
 from pathlib import Path
 
 ROOT = Path("content/english")
-# Only authored lanes — skip theme boilerplate pages/sections and draft __ posts for "your voice"
+# Only authored lanes - skip theme boilerplate pages/sections and draft __ posts for "your voice"
 SKIP_PARTS = {"pages", "sections", "drafts"}
 paths = [p for p in ROOT.rglob("*.md") if not any(part in SKIP_PARTS for part in p.parts) and not p.name.startswith("__")]
 
@@ -2168,7 +2168,7 @@ for p in paths:
         counts[w] += 1
         locs[w].add(str(p.relative_to(ROOT)))
 
-# Plain/common — not interesting
+# Plain/common - not interesting
 COMMON = set("something everything anything themselves together different important something everything because through without between another however therefore everything something".split())
 COMMON |= {w*2 for w in "about after again being could every first great little might never other place right small still their there these think those three under until where which while would write written".split()}
 
@@ -2182,42 +2182,42 @@ for c,w in candidates:
     if stiff.search(w) or w.endswith(("ize","ise","ify","ous","ive")):
         picked.append((c,w,sorted(locs[w])[:3]))
 picked.sort()
-print(f"Scanned {len(paths)} files (notes, blog, about, contact — no theme pages, no __ drafts)\n")
+print(f"Scanned {len(paths)} files (notes, blog, about, contact - no theme pages, no __ drafts)\n")
 print("STIFF-LOOKING WORDS (2-6 uses):")
 for c,w,ls in picked[:35]:
-    print(f"  {w} ({c}) — {'; '.join(ls)}")
+    print(f"  {w} ({c}) - {'; '.join(ls)}")
 PY
 ```
 
 ```
-Scanned 248 files (notes, blog, about, contact — no theme pages, no __ drafts)
+Scanned 248 files (notes, blog, about, contact - no theme pages, no __ drafts)
 
 STIFF-LOOKING WORDS (2-6 uses):
-  alternative (2) — blog/instant-pot-chicken-adobo.md; notes/getting-started.md
-  associative (2) — notes/eternal-principles.md; notes/maps-of-content.md
-  configuration (2) — blog/hugoplate-theme-review.md
-  consultation (2) — blog/miracle-isaiah-david.md
-  escalation (2) — notes/workplace-principles.md
-  execution (2) — notes/pressure-reveals-weakness.md
-  expensive (2) — blog/top-reasons-create-maintain-your-own-website.md; blog/top-reasons-why-you-still-need-use-desktop-laptop.md
-  faithfulness (2) — notes/eternal-principles.md
-  glutinous (2) — blog/set-it-forget-it-arroz-caldo.md
-  justification (2) — notes/eternal-principles.md
-  management (2) — blog/power-of-worship-pads-enhancing-your-worship-experience.md; notes/okf-export.md
-  notification (2) — blog/facebooks-hidden-gem-how-favorites-feed-transforms-your-social-media-experience.md
-  otherwise (2) — blog/hugoplate-theme-review.md
-  previous (2) — blog/power-of-the-mouse-wheel-click.md
-  responsive (2) — blog/how-i-built-jorap-notes.md; blog/hugoplate-theme-review.md
-  righteous (2) — notes/eternal-principles.md
-  sanctification (2) — notes/eternal-principles.md
-  solution (2) — notes/eternal-principles.md; notes/workplace-principles.md
-  tnnslive (2) — blog/alex-eala-pro-career-tracker.md
-  improvement (3) — blog/consistent-ai-output-wordpress-builds.md; notes/systems-for-growth.md
-  organize (3) — blog/top-reasons-create-maintain-your-own-website.md; notes/flashcards.md; notes/maps-of-content.md
-  reconciliation (3) — notes/eternal-principles.md; notes/workplace-principles.md
-  gorgeous (4) — blog/getting-started-with-rss-feeds-beginners-guide.md; blog/hugoplate-theme-review.md; blog/power-of-worship-pads-enhancing-your-worship-experience.md
-  salvation (4) — notes/eternal-principles.md
-  effective (5) — notes/eternal-principles.md; notes/pressure-reveals-weakness.md; notes/systems-for-growth.
+  alternative (2) - blog/instant-pot-chicken-adobo.md; notes/getting-started.md
+  associative (2) - notes/eternal-principles.md; notes/maps-of-content.md
+  configuration (2) - blog/hugoplate-theme-review.md
+  consultation (2) - blog/miracle-isaiah-david.md
+  escalation (2) - notes/workplace-principles.md
+  execution (2) - notes/pressure-reveals-weakness.md
+  expensive (2) - blog/top-reasons-create-maintain-your-own-website.md; blog/top-reasons-why-you-still-need-use-desktop-laptop.md
+  faithfulness (2) - notes/eternal-principles.md
+  glutinous (2) - blog/set-it-forget-it-arroz-caldo.md
+  justification (2) - notes/eternal-principles.md
+  management (2) - blog/power-of-worship-pads-enhancing-your-worship-experience.md; notes/okf-export.md
+  notification (2) - blog/facebooks-hidden-gem-how-favorites-feed-transforms-your-social-media-experience.md
+  otherwise (2) - blog/hugoplate-theme-review.md
+  previous (2) - blog/power-of-the-mouse-wheel-click.md
+  responsive (2) - blog/how-i-built-jorap-notes.md; blog/hugoplate-theme-review.md
+  righteous (2) - notes/eternal-principles.md
+  sanctification (2) - notes/eternal-principles.md
+  solution (2) - notes/eternal-principles.md; notes/workplace-principles.md
+  tnnslive (2) - blog/alex-eala-pro-career-tracker.md
+  improvement (3) - blog/consistent-ai-output-wordpress-builds.md; notes/systems-for-growth.md
+  organize (3) - blog/top-reasons-create-maintain-your-own-website.md; notes/flashcards.md; notes/maps-of-content.md
+  reconciliation (3) - notes/eternal-principles.md; notes/workplace-principles.md
+  gorgeous (4) - blog/getting-started-with-rss-feeds-beginners-guide.md; blog/hugoplate-theme-review.md; blog/power-of-worship-pads-enhancing-your-worship-experience.md
+  salvation (4) - notes/eternal-principles.md
+  effective (5) - notes/eternal-principles.md; notes/pressure-reveals-weakness.md; notes/systems-for-growth.
 … (output truncated)
 ```
 </details></tool-use>
@@ -2908,7 +2908,7 @@ Parameters:
   "caseInsensitive": false,
   "glob": "content/english/blog/how-i-built-jorap-notes.md",
   "path": "/home/jorap/Documents/GitHub/jorap.com",
-  "pattern": "—"
+  "pattern": "-"
 }
 ```
 Additional data:
@@ -2918,7 +2918,7 @@ Additional data:
   "isPruned": true,
   "outputMode": "content",
   "path": "/home/jorap/Documents/GitHub/jorap.com",
-  "pattern": "—",
+  "pattern": "-",
   "topFiles": [
     {
       "matchCount": 1,
@@ -2941,7 +2941,7 @@ _**Agent (auto-low)**_
 
 _**Agent (auto-low)**_
 
-Ran `pnpm voice:scan` plus a corpus pass over **248 authored files** (notes, blog, about — no theme pages, no `__` drafts). Here’s what’s worth your eyes, grouped by what to do with it.
+Ran `pnpm voice:scan` plus a corpus pass over **248 authored files** (notes, blog, about - no theme pages, no `__` drafts). Here’s what’s worth your eyes, grouped by what to do with it.
 
 ## Fix now (10 strict lint hits)
 
@@ -2949,27 +2949,27 @@ These fail `pnpm lint:voice` today:
 
 | Word | Count | Verdict |
 |------|-------|---------|
-| **vital** | 7 | Mostly **Pareto “vital few”** — real term, not AI slop. Consider moving `vital` to `review:` in `data/voice-words.yaml`. |
-| **prioritize** | 1 | `reconciliation-before-worship.md` — `when I prioritize ceremony over the neighbor…` → try **“when I put ceremony before…”** |
-| **repository** | 1 | `pages/elements.md` — leftover Hugoplate demo, not your voice |
-| **essential** | 1 | `facebooks-hidden-gem…` — **“essential oils”** (literal product). False positive; fine to keep. |
+| **vital** | 7 | Mostly **Pareto “vital few”** - real term, not AI slop. Consider moving `vital` to `review:` in `data/voice-words.yaml`. |
+| **prioritize** | 1 | `reconciliation-before-worship.md` - `when I prioritize ceremony over the neighbor…` → try **“when I put ceremony before…”** |
+| **repository** | 1 | `pages/elements.md` - leftover Hugoplate demo, not your voice |
+| **essential** | 1 | `facebooks-hidden-gem…` - **“essential oils”** (literal product). False positive; fine to keep. |
 
-Also one **em dash** in `how-i-built-jorap-notes.md` line 249 (`bill — a big change`).
+Also one **em dash** in `how-i-built-jorap-notes.md` line 249 (`bill - a big change`).
 
-## Review queue (123 hits — judgment calls)
+## Review queue (123 hits - judgment calls)
 
-These are flagged as `review:` — often OK in context, but read each lane:
+These are flagged as `review:` - often OK in context, but read each lane:
 
 | Word | Count | Where it clusters |
 |------|-------|-------------------|
-| **deploy** | 36 | Hosting/ops notes, `how-i-built-jorap-notes.md` — probably keep on tech notes |
-| **handoff** | 32 | `client-site-handoff.md`, `selling-static-sites.md`, `share-what-you-learn.md` — topic term; title note is literally named Handoff |
-| **postmortem** | 19 | `blameless-postmortem.md` spine — note title; body could still say **after-action review** in plain fields |
-| **distill** | 16 | PKM spine (`progressive-summarization`, `building-a-second-brain`) — swap candidate per your garden rules |
-| **contradicts** | 9 | `note-relationships.md` + card backs — relationship **type** name; prose could use **goes against** |
-| **metadata** | 5 | `metadata-strategy.md`, `taxonomy.md` — topic term; `key_concept` already partly plain |
+| **deploy** | 36 | Hosting/ops notes, `how-i-built-jorap-notes.md` - probably keep on tech notes |
+| **handoff** | 32 | `client-site-handoff.md`, `selling-static-sites.md`, `share-what-you-learn.md` - topic term; title note is literally named Handoff |
+| **postmortem** | 19 | `blameless-postmortem.md` spine - note title; body could still say **after-action review** in plain fields |
+| **distill** | 16 | PKM spine (`progressive-summarization`, `building-a-second-brain`) - swap candidate per your garden rules |
+| **contradicts** | 9 | `note-relationships.md` + card backs - relationship **type** name; prose could use **goes against** |
+| **metadata** | 5 | `metadata-strategy.md`, `taxonomy.md` - topic term; `key_concept` already partly plain |
 | **navigate** | 3 | Mouse-wheel blog (literal UI) + `taxonomy.md` |
-| **unmerited favor** | 3 | `free-grace.md`, `grace.md` — theology term; `free-grace` glosses it well; `grace.md` meta_title is dictionary-y |
+| **unmerited favor** | 3 | `free-grace.md`, `grace.md` - theology term; `free-grace` glosses it well; `grace.md` meta_title is dictionary-y |
 
 ## Found in content but not on your list yet
 
@@ -2977,29 +2977,29 @@ Worth adding to `data/voice-words.yaml` or fixing by hand:
 
 | Hit | File | Note |
 |-----|------|------|
-| **elevates** | `reconciliation-before-worship.md` `key_concept` | “Jesus **elevates** restored relationship…” — thesaurus; scanner misses `-s` forms. Try **“puts … above”** or **“ranks … higher than”** |
-| **stakeholders** | `about/_index.md` | Resume register — you might say **clients**, **teams**, or **people I worked with** |
-| **gorgeous** | 4× (earphones-adjacent, worship pads, RSS, outcomes note) | Food/gear enthusiasm — fine if that’s you; flag if it feels magazine-y |
+| **elevates** | `reconciliation-before-worship.md` `key_concept` | “Jesus **elevates** restored relationship…” - thesaurus; scanner misses `-s` forms. Try **“puts … above”** or **“ranks … higher than”** |
+| **stakeholders** | `about/_index.md` | Resume register - you might say **clients**, **teams**, or **people I worked with** |
+| **gorgeous** | 4× (earphones-adjacent, worship pads, RSS, outcomes note) | Food/gear enthusiasm - fine if that’s you; flag if it feels magazine-y |
 | **comprehensive** | `_index.md` (homepage), `__craft-prompt-framework.md` (draft) | Theme boilerplate / draft slop |
-| **cutting-edge** | `_index.md` homepage | Hugoplate marketing — not your voice |
-| **crucial** + **When it comes to** | `__make-ai-articles-more-human.md` (draft) | Intentional bad example — OK if draft stays draft |
+| **cutting-edge** | `_index.md` homepage | Hugoplate marketing - not your voice |
+| **crucial** + **When it comes to** | `__make-ai-articles-more-human.md` (draft) | Intentional bad example - OK if draft stays draft |
 
-**Earned phrase (no change):** “at the end of the day” in `what-i-look-for-in-wireless-earphones.md` — literal meaning (still wearing them at day’s end), not filler.
+**Earned phrase (no change):** “at the end of the day” in `what-i-look-for-in-wireless-earphones.md` - literal meaning (still wearing them at day’s end), not filler.
 
 ## Not your voice at all (theme leftovers)
 
-Skip these in a voice pass — replace or delete when you care:
+Skip these in a voice pass - replace or delete when you care:
 
-- `content/english/_index.md` — full Hugoplate homepage (“Ultimate Starter Template”, “comprehensive”, “cutting-edge”)
-- `content/english/pages/elements.md` — theme component demo
-- `content/english/sections/` — testimonial + CTA stubs
-- `content/english/authors/` — placeholder author bios
+- `content/english/_index.md` - full Hugoplate homepage (“Ultimate Starter Template”, “comprehensive”, “cutting-edge”)
+- `content/english/pages/elements.md` - theme component demo
+- `content/english/sections/` - testimonial + CTA stubs
+- `content/english/authors/` - placeholder author bios
 
-## Already plain (checked — leave alone)
+## Already plain (checked - leave alone)
 
-- `strategic-foresight.md` — title is jargony; `key_concept` and `description` are on-voice
-- `metadata-strategy.md` — uses “metadata” as the subject; description is plain
-- Theology terms (`sanctification`, `justification`) in `eternal-principles.md` — expected lane
+- `strategic-foresight.md` - title is jargony; `key_concept` and `description` are on-voice
+- `metadata-strategy.md` - uses “metadata” as the subject; description is plain
+- Theology terms (`sanctification`, `justification`) in `eternal-principles.md` - expected lane
 
 ---
 
@@ -3007,7 +3007,7 @@ Skip these in a voice pass — replace or delete when you care:
 
 ```bash
 pnpm voice:scan          # full grouped report (what you just got)
-pnpm lint:voice          # CI gate — strict + dashes only
+pnpm lint:voice          # CI gate - strict + dashes only
 ```
 
 **Suggested yaml tweaks** after this pass:
@@ -3047,7 +3047,7 @@ from pathlib import Path
 ROOT = Path(&#34;content/english&#34;)
 paths = sorted(ROOT.rglob(&#34;*.md&#34;))
 
-# Very common English — not &#34;complicated&#34;
+# Very common English - not &#34;complicated&#34;
 COMMON = set(&#34;&#34;&#34;
 the and for are but not you all can had her was one our out day get has him his how its may new now old see way who boy did let put say she too use any own
 that with have this will from they been were said each which their time would about there could other after first never these think where being under while might should those people through before
@@ -3061,7 +3061,7 @@ hugo cloudflare wordpress github tailwind bootstrap javascript markdown obsidian
 english philippines manila content section paragraph heading bullet list image link page site post posts recipe recipes chicken adobo rice soup sauce
 &#34;&#34;&#34;.split())
 
-# Theology/PKM/product names OK in this garden — exclude from &#34;complicated&#34; ranking
+# Theology/PKM/product names OK in this garden - exclude from &#34;complicated&#34; ranking
 ALLOW = set(&#34;&#34;&#34;
 hugo cloudflare wordpress tailwind bootstrap obsidian ankr github javascript markdown
 sanctification justification reconciliation forgiveness righteousness commandment congregation
@@ -3143,7 +3143,7 @@ from pathlib import Path
 ROOT = Path("content/english")
 paths = sorted(ROOT.rglob("*.md"))
 
-# Very common English — not "complicated"
+# Very common English - not "complicated"
 COMMON = set("""
 the and for are but not you all can had her was one our out day get has him his how its may new now old see way who boy did let put say she too use any own
 that with have this will from they been were said each which their time would about there could other after first never these think where being under while might should those people through before
@@ -3157,7 +3157,7 @@ hugo cloudflare wordpress github tailwind bootstrap javascript markdown obsidian
 english philippines manila content section paragraph heading bullet list image link page site post posts recipe recipes chicken adobo rice soup sauce
 """.split())
 
-# Theology/PKM/product names OK in this garden — exclude from "complicated" ranking
+# Theology/PKM/product names OK in this garden - exclude from "complicated" ranking
 ALLOW = set("""
 hugo cloudflare wordpress tailwind bootstrap obsidian ankr github javascript markdown
 sanctification justification reconciliation forgiveness righteousness commandment congregation
@@ -3276,7 +3276,7 @@ I'll filter the results to published notes and blog posts only, excluding drafts
 
 _**Agent (auto-low)**_
 
-The first pass was skewed by one-off draft words — rerunning on published notes and blog only.
+The first pass was skewed by one-off draft words - rerunning on published notes and blog only.
 
 
 _**Agent (auto-low)**_
@@ -3330,7 +3330,7 @@ def score(w: str, c: int) -&gt; float:
         s += 5
     if len(w) &gt;= 12:
         s += 2
-    # weight frequency lightly — repeated complicated words matter more for voice audit
+    # weight frequency lightly - repeated complicated words matter more for voice audit
     s += min(c, 12) * 1.2
     return s
 
@@ -3402,7 +3402,7 @@ def score(w: str, c: int) -> float:
         s += 5
     if len(w) >= 12:
         s += 2
-    # weight frequency lightly — repeated complicated words matter more for voice audit
+    # weight frequency lightly - repeated complicated words matter more for voice audit
     s += min(c, 12) * 1.2
     return s
 
@@ -3484,7 +3484,7 @@ paths = [
     if not any(d in SKIP_DIRS for d in p.parts) and not p.name.startswith(&#34;__&#34;)
 ]
 
-# Conversational / tech / proper nouns — not &#34;complicated&#34; for voice audit
+# Conversational / tech / proper nouns - not &#34;complicated&#34; for voice audit
 SKIP = set(&#34;&#34;&#34;
 actually usually different version performance creative attention audience position knowledge
 favorites hugoplate wtatennis quarterfinals semifinals tournament conversation automatically
@@ -3550,7 +3550,7 @@ paths = [
     if not any(d in SKIP_DIRS for d in p.parts) and not p.name.startswith("__")
 ]
 
-# Conversational / tech / proper nouns — not "complicated" for voice audit
+# Conversational / tech / proper nouns - not "complicated" for voice audit
 SKIP = set("""
 actually usually different version performance creative attention audience position knowledge
 favorites hugoplate wtatennis quarterfinals semifinals tournament conversation automatically
@@ -3888,7 +3888,7 @@ The merged list combines frequent stiff words with overlooked latinate academic 
 
 _**Agent (auto-low)**_
 
-Top 50 **complicated words** in your published site prose (244 files: notes, blog, about — no `__` drafts, no theme pages).
+Top 50 **complicated words** in your published site prose (244 files: notes, blog, about - no `__` drafts, no theme pages).
 
 **Method:** counts from the same prose fields `pnpm voice:scan` uses (notes frontmatter + cards + relationship reasons; blog/about body + frontmatter). Ranked by frequency, then length. “Complicated” = long Latinate words **or** words already on your voice-review list.
 
@@ -3896,54 +3896,54 @@ Top 50 **complicated words** in your published site prose (244 files: notes, blo
 |---|------|------|------|------------|
 | 1 | **deploy** | 49 | Tech/PKM | Often OK on hosting notes; plain swap: *push live* |
 | 2 | **handoff** | 34 | Tech | Topic term on client-site notes; OK in titles |
-| 3 | **justification** | 25 | Faith | Theology term — gloss once in plain English |
-| 4 | **discipleship** | 21 | Faith | Theology term — OK after gloss |
-| 5 | **sanctification** | 20 | Faith | Theology term — OK after gloss |
+| 3 | **justification** | 25 | Faith | Theology term - gloss once in plain English |
+| 4 | **discipleship** | 21 | Faith | Theology term - OK after gloss |
+| 5 | **sanctification** | 20 | Faith | Theology term - OK after gloss |
 | 6 | **postmortem** | 19 | Systems | Note title; body could use *after-action review* |
 | 7 | **distill** | 19 | PKM | Garden swap: *boil down* / *shorten* |
-| 8 | **stewardship** | 14 | Faith/ethics | Biblical term — usually OK |
+| 8 | **stewardship** | 14 | Faith/ethics | Biblical term - usually OK |
 | 9 | **contradicts** | 10 | Garden meta | Relationship type; prose swap: *goes against* |
-| 10 | **vital** | 7 | PKM | Mostly Pareto *vital few* — keep |
-| 11 | **obedience** | 6 | Faith | Theology — OK |
+| 10 | **vital** | 7 | PKM | Mostly Pareto *vital few* - keep |
+| 11 | **obedience** | 6 | Faith | Theology - OK |
 | 12 | **gorgeous** | 6 | Blog | Magazine-y? Fine for gear/food if that's you |
-| 13 | **reconciliation** | 6 | Faith | Theology — OK |
+| 13 | **reconciliation** | 6 | Faith | Theology - OK |
 | 14 | **forgiveness** | 5 | Faith | Plain enough |
-| 15 | **metadata** | 5 | PKM | Topic on `metadata-strategy` — OK as subject |
-| 16 | **fellowship** | 4 | Faith | Theology — OK |
-| 17 | **salvation** | 4 | Faith | Theology — OK |
-| 18 | **summarization** | 4 | PKM | PKM term — note title territory |
+| 15 | **metadata** | 5 | PKM | Topic on `metadata-strategy` - OK as subject |
+| 16 | **fellowship** | 4 | Faith | Theology - OK |
+| 17 | **salvation** | 4 | Faith | Theology - OK |
+| 18 | **summarization** | 4 | PKM | PKM term - note title territory |
 | 19 | **relationship** | 3 | Mixed | Plain in most uses |
 | 20 | **development** | 3 | About/resume | Resume register on about page |
 | 21 | **improvement** | 3 | Blog | Plain enough |
 | 22 | **instruction** | 3 | Blog | Plain enough |
 | 23 | **definition** | 3 | Meta/docs | OK in `getting-started` |
-| 24 | **navigation** | 3 | Tech | Literal UI sense — OK |
-| 25 | **assurance** | 3 | Faith | Theology — OK |
+| 24 | **navigation** | 3 | Tech | Literal UI sense - OK |
+| 25 | **assurance** | 3 | Faith | Theology - OK |
 | 26 | **navigate** | 3 | Mixed | UI literal vs stiff metaphor |
 | 27 | **faithfulness** | 2 | Faith | OK |
-| 28 | **associative** | 2 | PKM | PKM jargon — OK if note is about linking |
+| 28 | **associative** | 2 | PKM | PKM jargon - OK if note is about linking |
 | 29 | **environment** | 2 | Tech | Plain in dev context |
 | 30 | **maintenance** | 2 | Ops | Plain enough |
 | 31 | **allegiance** | 2 | Faith | OK |
 | 32 | **commitment** | 2 | Mixed | Plain enough |
-| 33 | **escalation** | 2 | Work | Slightly corporate — check context |
+| 33 | **escalation** | 2 | Work | Slightly corporate - check context |
 | 34 | **management** | 2 | Mixed | Plain enough |
 | 35 | **repetition** | 2 | PKM | Plain enough |
-| 36 | **execution** | 2 | Work | Slightly stiff — *doing the work*? |
-| 37 | **righteous** | 2 | Faith | Theology — OK |
+| 36 | **execution** | 2 | Work | Slightly stiff - *doing the work*? |
+| 37 | **righteous** | 2 | Faith | Theology - OK |
 | 38 | **essential** | 2 | Mixed | One is *essential oils* (fine) |
 | 39 | **strategic** | 2 | PKM | `strategic-foresight` title; body is plain |
 | 40 | **consultation** | 2 | Blog | Medical/formal register |
-| 41 | **faithfulness** | — | (dup) | — |
+| 41 | **faithfulness** | - | (dup) | - |
 | 42 | **prioritize** | 1 | Notes | Swap: *do first* |
-| 43 | **stakeholders** | 1 | About | Resume-speak — *clients* / *teams*? |
-| 44 | **elevate** / **elevates** | 1 | Notes | Thesaurus — *puts above* |
+| 43 | **stakeholders** | 1 | About | Resume-speak - *clients* / *teams*? |
+| 44 | **elevate** / **elevates** | 1 | Notes | Thesaurus - *puts above* |
 | 45 | **accountability** | 1 | Work | Note title term |
 | 46 | **administration** | 1 | About | Resume register |
 | 47 | **collaboration** | 1 | About | Resume register |
-| 48 | **righteousness** | 1 | Faith | Theology — OK |
-| 49 | **adaptability** | 1 | Notes | Note title — slightly abstract |
-| 50 | **condemnation** | 1 | Faith | Theology — OK |
+| 48 | **righteousness** | 1 | Faith | Theology - OK |
+| 49 | **adaptability** | 1 | Notes | Note title - slightly abstract |
+| 50 | **condemnation** | 1 | Faith | Theology - OK |
 
 ### Clusters worth a pass
 
@@ -5144,7 +5144,7 @@ The migration script corrupted voice-words.yaml.
 
 _**Agent (auto-low)**_
 
-The migration script mangled `voice-words.yaml` — fixing the banned-word keys now.
+The migration script mangled `voice-words.yaml` - fixing the banned-word keys now.
 
 
 _**Agent (auto-low)**_
@@ -5544,7 +5544,7 @@ URL aliases still contain banned words in their paths. Lint will flag "handoff" 
 
 _**Agent (auto-low)**_
 
-URL redirect aliases contain the old slugs — excluding path-style aliases from voice lint.
+URL redirect aliases contain the old slugs - excluding path-style aliases from voice lint.
 
 
 _**Agent (auto-low)**_
@@ -5594,7 +5594,7 @@ Done. Those four words are banned site-wide and wired into `lint:voice`.
 
 ---
 
-## Still worth a manual read (from the top 50 — allowed, but check context)
+## Still worth a manual read (from the top 50 - allowed, but check context)
 
 **Tech / garden (your call per note)**
 
@@ -5610,10 +5610,10 @@ Done. Those four words are banned site-wide and wired into `lint:voice`.
 
 | Word | Note |
 |------|------|
-| **vital** | Mostly Pareto *vital few* — consider moving to `review:` in yaml |
-| **prioritize** | 1 hit — swap to *do first* |
-| **essential** | 1 hit — *essential oils* in Facebook post (fine) |
-| **elevate** | 1 hit — *Jesus elevates…* in reconciliation note |
+| **vital** | Mostly Pareto *vital few* - consider moving to `review:` in yaml |
+| **prioritize** | 1 hit - swap to *do first* |
+| **essential** | 1 hit - *essential oils* in Facebook post (fine) |
+| **elevate** | 1 hit - *Jesus elevates…* in reconciliation note |
 | **repository** | Hugoplate `elements.md` boilerplate |
 
 **Resume / corporate register**
@@ -5634,7 +5634,7 @@ Done. Those four words are banned site-wide and wired into `lint:voice`.
 |------|------|
 | **gorgeous** | 6× (gear, worship pads, RSS, outcomes note) |
 
-**Faith lane — keep as-is**
+**Faith lane - keep as-is**
 
 justification, sanctification, discipleship, stewardship, reconciliation, obedience, forgiveness, fellowship, salvation, assurance, faithfulness, allegiance, righteous, righteousness, condemnation
 
@@ -5675,7 +5675,7 @@ These words are actively used by the user and should not be flagged or banned in
 
 _**Agent (auto-low)**_
 
-Removing those from the strict lint list — they're words you use on purpose.
+Removing those from the strict lint list - they're words you use on purpose.
 
 
 _**Agent (auto-low)**_
@@ -5852,7 +5852,7 @@ cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/notes-voice-lint.py
 ```
 notes-voice-lint self-check OK
 $ python3 scripts/notes-voice-lint.py --summary --review
-Voice scan — 289 files, 0 strict, 72 review-only
+Voice scan - 289 files, 0 strict, 72 review-only
 Word list: data/voice-words.yaml
 
 Review-only (edit data/voice-words.yaml review: to tune)
@@ -5883,7 +5883,7 @@ Updated. Those 16 words are **off the lint ban list** and documented as words yo
 - delve, tapestry, harness, Furthermore/Moreover/Additionally
 - handoff, postmortem, summarization, associative (from earlier)
 
-**Phrase patterns** still catch hollow constructions like `In the realm of…` and `comprehensive guide` even though you use *realm* and *comprehensive* as words — say the word if you mean it; the phrase lint only flags the stock AI shapes.
+**Phrase patterns** still catch hollow constructions like `In the realm of…` and `comprehensive guide` even though you use *realm* and *comprehensive* as words - say the word if you mean it; the phrase lint only flags the stock AI shapes.
 
 `pnpm voice:scan` now shows **0 strict hits** for prose. Remaining flags are `review:` only (deploy, distill, metadata, etc.).
 

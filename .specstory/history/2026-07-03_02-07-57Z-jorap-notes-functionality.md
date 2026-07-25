@@ -160,7 +160,7 @@ Result:
           },
           {
             "lineNumber": 89,
-            "text": "      \"Atomic notes store the claim in frontmatter only — body stays empty. The site assembles ## Key Concept, ## Examples, and ## Note Relationships at build time from YAML fields.\","
+            "text": "      \"Atomic notes store the claim in frontmatter only - body stays empty. The site assembles ## Key Concept, ## Examples, and ## Note Relationships at build time from YAML fields.\","
           },
           {
             "lineNumber": 90,
@@ -172,11 +172,11 @@ Result:
           },
           {
             "lineNumber": 92,
-            "text": "      \"- description — one-breath definition (no \\\"Term =\\\" prefix, no [[wikilinks]])\","
+            "text": "      \"- description - one-breath definition (no \\\"Term =\\\" prefix, no [[wikilinks]])\","
           },
           {
             "lineNumber": 93,
-            "text": "      \"- key_concept — first paragraph: one sentence (t
+            "text": "      \"- key_concept - first paragraph: one sentence (t
 … (output truncated)
 ```
 Status: **completed**
@@ -282,7 +282,7 @@ I've settled on a feature-tour structure. The draft will contrast notes with blo
 
 _**Agent (auto-low)**_
 
-Writing a feature-focused draft separate from the hosting post — personal tone, plain language, `draft: true` with the `__` prefix.
+Writing a feature-focused draft separate from the hosting post - personal tone, plain language, `draft: true` with the `__` prefix.
 
 
 _**Agent (auto-low)**_
@@ -714,7 +714,7 @@ The preferred implementation is to modify `single.html`. The content div will re
 
 The simplest approach is to assemble the note body through the examples section first, then render the tweet partial separately. This keeps the HTML styling intact while placing tweets before relationships.
 
-I'm refining the `assembled-content.html` approach. A `Through` parameter will let the partial stop at different sections—examples, relationships, or all content—so the main layout can render the note body, then the tweet partial, then the relationships partial separately.
+I'm refining the `assembled-content.html` approach. A `Through` parameter will let the partial stop at different sections-examples, relationships, or all content-so the main layout can render the note body, then the tweet partial, then the relationships partial separately.
 
 The concrete layout uses `From: "relationships"` to render the remaining body and relationships after the tweet partial. This is cleaner than the `Through` parameter.
 
@@ -823,7 +823,7 @@ The `toc.html` logic now builds a new headings slice by iterating over the origi
 
 _**Agent (auto-low)**_
 
-Moving tweets before Note Relationships in the page and TOC. Naming suggestions below — we can rename once you pick one.
+Moving tweets before Note Relationships in the page and TOC. Naming suggestions below - we can rename once you pick one.
 
 
 _**Agent (auto-low)**_
@@ -1863,10 +1863,10 @@ Renamed across the garden.
 **Code updates:**
 - `layouts/_partials/notes/note-shareable-lines.html` (replaces `note-tweets.html`)
 - CSS classes: `notes-shareable-lines*`
-- `scripts/lint-notes-frontmatter.py` — lints `shareable_lines`
+- `scripts/lint-notes-frontmatter.py` - lints `shareable_lines`
 - `scripts/seed-note-shareable-lines.py` (replaces `seed-note-tweets.py`)
 - `pnpm seed:shareable-lines` (was `seed:tweets`)
-- `scripts/notes_content.py` — field order and dump
+- `scripts/notes_content.py` - field order and dump
 
 `pnpm lint:frontmatter` and Hugo build both pass.
 
@@ -2153,10 +2153,10 @@ _**Agent (auto-low)**_
 Polished the Shareable lines block to match the notes garden and **The Quiet Study** tokens.
 
 **What was wrong**
-- **3px left accent stripe** — impeccable ban; reads as generic AI callout
-- **Card-in-card** — elevated aside + bordered surface items; fights the flat editorial system
-- **`ol` with `list-none`** — numbered list with numbers hidden
-- **Tight 15px type** — slightly under body scale for long quotable lines
+- **3px left accent stripe** - impeccable ban; reads as generic AI callout
+- **Card-in-card** - elevated aside + bordered surface items; fights the flat editorial system
+- **`ol` with `list-none`** - numbered list with numbers hidden
+- **Tight 15px type** - slightly under body scale for long quotable lines
 
 **What changed**
 
@@ -2166,10 +2166,10 @@ Polished the Shareable lines block to match the notes garden and **The Quiet Stu
 | Accent | Side stripe | Opening `"` in `ink-faint` (pull-quote cue) |
 | List | `ol` + grid gap | `ul`, hairline dividers between lines |
 | Type | 0.937rem / ink | 1rem / `ink-muted`, 1.55 lh, `max-width: 65ch` |
-| A11y | — | `aria-labelledby` on the aside |
+| A11y | - | `aria-labelledby` on the aside |
 | Heading | `mb-4` | `mb-3` (matches Backlinks / outgoing sections) |
 
-It now reads like **three quotable lines in one panel** — same shell as Flashcards and Links from this Note, without extra chrome.
+It now reads like **three quotable lines in one panel** - same shell as Flashcards and Links from this Note, without extra chrome.
 
 Refresh a note page (e.g. Success is Stewardship) to see it. If you want per-line copy buttons next, say the word.
 
@@ -2426,7 +2426,7 @@ Prose heading margins are small. They are not causing the excess space.
 
 _**Agent (auto-low)**_
 
-Stripping the boxed aside chrome and tightening gaps—it was adding padding on top of normal prose section spacing.
+Stripping the boxed aside chrome and tightening gaps-it was adding padding on top of normal prose section spacing.
 
 
 _**Agent (auto-low)**_
@@ -2466,7 +2466,7 @@ Tightened it by removing the bordered panel (`p-5`, `mb-6`, elevated background)
 - **Controlled margins** above/below the block and before Note Relationships
 - **Slightly smaller type** (15px) so it reads as supporting copy, not a second widget
 
-Refresh the note page — it should feel like part of the article flow, not a card dropped in the middle.
+Refresh the note page - it should feel like part of the article flow, not a card dropped in the middle.
 
 ---
 
@@ -2599,8 +2599,8 @@ _**Agent (auto-low)**_
 
 Shareable lines now mirror the flashcards block:
 
-- **Same panel shell** — `border-divider rounded border p-5`, elevated background, `h6 mb-4` heading
-- **Same card face** — surface fill, divider border, `0.5rem` radius, `10rem` min-height, centered semibold text
-- **3-column grid** — `grid gap-4 sm:grid-cols-3` (stacks to 1 column on narrow screens)
+- **Same panel shell** - `border-divider rounded border p-5`, elevated background, `h6 mb-4` heading
+- **Same card face** - surface fill, divider border, `0.5rem` radius, `10rem` min-height, centered semibold text
+- **3-column grid** - `grid gap-4 sm:grid-cols-3` (stacks to 1 column on narrow screens)
 
 Still sits between Examples and Note Relationships. Refresh to see it.

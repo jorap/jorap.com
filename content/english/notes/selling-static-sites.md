@@ -73,6 +73,14 @@ cards:
     back: "Build fee, domain, and a clear hosting line."
   - front: "Pastor wants sermon archive plus member login and comments. One scope call?"
     back: "Brochure plus archive - no login."
+  - front: "Quoted hourly hosting forever - forgot the one-liner on the sheet."
+    back: "Build, domain, hosting - say all three."
+  - front: "Pastor wants member portal - big ticket flashing."
+    back: "Brochure plus archive - no login."
+  - front: "Neighbor thinks static means cheap junk."
+    back: "Fast, secure, yours - not a toy."
+  - front: "Scope crept mid-build - awkward reset needed."
+    back: "Written scope - change order or cut."
 draft: false
 ---
 

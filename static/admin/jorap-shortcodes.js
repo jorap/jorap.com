@@ -617,7 +617,7 @@
     },
   ];
 
-  /** Id list for static/admin/config.yml editor_components — keep in sync. */
+  /** Id list for static/admin/config.yml editor_components - keep in sync. */
   global.JORAP_EDITOR_COMPONENT_IDS = ['code-block'].concat(
     global.JORAP_SHORTCODES.map((component) => component.id),
   );

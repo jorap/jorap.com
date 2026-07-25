@@ -65,6 +65,10 @@ cards:
     back: "Capture without debating whether today."
   - front: "Gym shoes by the bed every night. One check after thirty days?"
     back: "Did the cue kill the daily debate?"
+  - front: "Three-page journal goal died on day three - guilt instead of reps."
+    back: "Shrink to one sentence after coffee."
+  - front: "Stacking five new habits on Monday - collapse by Thursday."
+    back: "One tiny habit - attach to existing cue."
 draft: false
 ---
 

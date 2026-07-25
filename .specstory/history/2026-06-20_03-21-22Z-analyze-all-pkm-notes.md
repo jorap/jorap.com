@@ -932,12 +932,12 @@ Each entry: **Main claim** | **Conflict-prone assertions** | **Wikilinks in body
 
 | Note | Main claim | Conflict-prone assertions | Wikilinks |
 |------|-----------|--------------------------|-----------|
-| [PKM](/notes/pkm/) | Capture, organize, distill, express — backup brain, not productivity cosplay | Success = ship on schedule; PKM is NOT cosplay | Getting Started, Building a Second Brain, Active Knowledge Curation; See also: Capture, GTD vs PARA, PARA Method |
+| [PKM](/notes/pkm/) | Capture, organize, distill, express - backup brain, not productivity cosplay | Success = ship on schedule; PKM is NOT cosplay | Getting Started, Building a Second Brain, Active Knowledge Curation; See also: Capture, GTD vs PARA, PARA Method |
 | [Building a Second Brain](/notes/building-a-second-brain/) | Offload ideas so head can think; CODE loop | Fails when any CODE step is for show; quarterly review of each step | Capture, Active Knowledge Curation, PARA Method |
 | [Zettelkasten](/notes/zettelkasten/) | One idea per note, link heavily, draft by connections | Links matter more than file count | Slip-box History, The Zettelkasten Myth, Atomic Notes |
-| [Atomic Notes](/notes/atomic-notes/) | One claim out loud — too many `and`s, split it | Headings inside one file = probably two notes; MOCs/backlinks organize | Associative Linking, Atomic Design, Maps of Content; Zettelkasten, Digital Serendipity, Evergreen Notes |
-| [Maps of Content](/notes/maps-of-content/) | Hub notes index related ideas — curate TOC, don't auto-generate | (Hub only — 48 wikilinks across garden taxonomy) | Full garden index |
-| [Getting Started](/notes/getting-started/) | One claim per page, wikilinks, public graph | **No `##` sections** — link out instead; atomic rule enforced | Maps of Content, Atomic Notes, PARA Method |
+| [Atomic Notes](/notes/atomic-notes/) | One claim out loud - too many `and`s, split it | Headings inside one file = probably two notes; MOCs/backlinks organize | Associative Linking, Atomic Design, Maps of Content; Zettelkasten, Digital Serendipity, Evergreen Notes |
+| [Maps of Content](/notes/maps-of-content/) | Hub notes index related ideas - curate TOC, don't auto-generate | (Hub only - 48 wikilinks across garden taxonomy) | Full garden index |
+| [Getting Started](/notes/getting-started/) | One claim per page, wikilinks, public graph | **No `##` sections** - link out instead; atomic rule enforced | Maps of Content, Atomic Notes, PARA Method |
 
 ### Capture
 
@@ -945,9 +945,9 @@ Each entry: **Main claim** | **Conflict-prone assertions** | **Wikilinks in body
 |------|-----------|--------------------------|-----------|
 | [Capture](/notes/capture/) | Save what resonates into one trusted inbox; empty weekly | Resonance filter, not FOMO; friction kills capture | The Trusted Inbox, Building a Second Brain, Active Knowledge Curation |
 | [Context-Aware Capture](/notes/context-aware-capture/) | Save the *why*, not just the link | One line beats perfect title | Capture, Intellectual Sourcing, Mobile Capture Workflows |
-| [Analog Capture Tools](/notes/analog-capture-tools/) | Paper when screens fail — same trusted inbox | Medium changes; rule doesn't | Trusted Inbox, Capture, Bullet Journaling |
+| [Analog Capture Tools](/notes/analog-capture-tools/) | Paper when screens fail - same trusted inbox | Medium changes; rule doesn't | Trusted Inbox, Capture, Bullet Journaling |
 | [Mobile Capture Workflows](/notes/mobile-capture-workflows/) | Share sheet to inbox in two taps | Sparks die in twelve taps | Capture, Analog Capture Tools, Building a Second Brain |
-| [The Trusted Inbox](/notes/the-trusted-inbox/) | One pipe emptied every week or capture dies in your head | Trust is behavioral — rot breaks the pipe | Capture, Weekly Review Checklists, Context-Aware Capture |
+| [The Trusted Inbox](/notes/the-trusted-inbox/) | One pipe emptied every week or capture dies in your head | Trust is behavioral - rot breaks the pipe | Capture, Weekly Review Checklists, Context-Aware Capture |
 | [Newsletter Filtering](/notes/newsletter-filtering/) | Label, batch weekly, clip what resonates | Same diet as RSS | RSS for Research, Second Brain Daily Workflow |
 | [Signal vs Noise](/notes/signal-vs-noise/) | Save only what changes action/belief **this month** | If not signal: admire and **don't save** | Capture, Collector's Fallacy, Digital Minimalism |
 
@@ -955,22 +955,22 @@ Each entry: **Main claim** | **Conflict-prone assertions** | **Wikilinks in body
 
 | Note | Main claim | Conflict-prone assertions | Wikilinks |
 |------|-----------|--------------------------|-----------|
-| [PARA Method](/notes/para-method/) | Sort by life responsibility — Projects, Areas, Resources, Archive | Can't name project/area → stays in Resources | The Archive Method, GTD vs PARA, Organization |
-| [GTD vs PARA](/notes/gtd-vs-para/) | Tasks in task app; notes in PARA — cousins, not competitors | Refuse duplicate filing tax | PARA Method, Active Knowledge Curation, Capture |
-| [Organization](/notes/organization/) | Just enough structure — skip perfect tree | Life responsibility wins when rushed over topic sort | PARA Method, The Archive Method, GTD vs PARA |
-| [The Archive Method](/notes/the-archive-method/) | Move finished work out of active view — searchable, not deleted | Done = out of Projects | Organization, Active Knowledge Curation, PARA Method |
+| [PARA Method](/notes/para-method/) | Sort by life responsibility - Projects, Areas, Resources, Archive | Can't name project/area → stays in Resources | The Archive Method, GTD vs PARA, Organization |
+| [GTD vs PARA](/notes/gtd-vs-para/) | Tasks in task app; notes in PARA - cousins, not competitors | Refuse duplicate filing tax | PARA Method, Active Knowledge Curation, Capture |
+| [Organization](/notes/organization/) | Just enough structure - skip perfect tree | Life responsibility wins when rushed over topic sort | PARA Method, The Archive Method, GTD vs PARA |
+| [The Archive Method](/notes/the-archive-method/) | Move finished work out of active view - searchable, not deleted | Done = out of Projects | Organization, Active Knowledge Curation, PARA Method |
 | [The Knowledge Lifecycle](/notes/the-knowledge-lifecycle/) | Capture → use → polish → fade → archive | Not every note should be evergreen forever | Evergreen vs Fleeting Notes, The Archive Method |
-| [Metadata Strategy](/notes/metadata-strategy/) | Tag only what helps find notes — not a second job | If tagging > writing, system is wrong | Context-Aware Capture, Future-Proofing Knowledge, Organization |
+| [Metadata Strategy](/notes/metadata-strategy/) | Tag only what helps find notes - not a second job | If tagging > writing, system is wrong | Context-Aware Capture, Future-Proofing Knowledge, Organization |
 | [Daily Notes](/notes/daily-notes/) | Dump today; promote/delete in review, not forever | Daily notes are a lane, not the archive | Periodic Knowledge Review, The Archive, Interstitial Journaling |
 
 ### Distill & Review
 
 | Note | Main claim | Conflict-prone assertions | Wikilinks |
 |------|-----------|--------------------------|-----------|
-| [Progressive Summarization](/notes/progressive-summarization/) | Distill in layers **on reuse** — not on first save | Layer 3 summary only on second use | Second Brain, Intellectual Sourcing, Capture |
+| [Progressive Summarization](/notes/progressive-summarization/) | Distill in layers **on reuse** - not on first save | Layer 3 summary only on second use | Second Brain, Intellectual Sourcing, Capture |
 | [Weekly Review Checklists](/notes/weekly-review-checklists/) | Same steps weekly: inbox, calendar, projects, one ship | Boring is the feature | Trusted Inbox, Periodic Knowledge Review, GTD vs PARA |
 | [Periodic Knowledge Review](/notes/periodic-knowledge-review/) | Weekly rhythm + quarterly deep pass | Prune, promote, archive stale projects | Weekly Review Checklists, 12 Week Year, Digital Serendipity |
-| [Evergreen Notes](/notes/evergreen-notes/) | Claims you'll still cite — revise when reality shifts | Promote from fleeting when spark keeps returning | Periodic Knowledge Review, Associative Linking, Atomic Design for Notes |
+| [Evergreen Notes](/notes/evergreen-notes/) | Claims you'll still cite - revise when reality shifts | Promote from fleeting when spark keeps returning | Periodic Knowledge Review, Associative Linking, Atomic Design for Notes |
 | [Evergreen vs Fleeting Notes](/notes/evergreen-vs-fleeting-notes/) | Two lanes; promote winners on one path | Promotion test: still true + would cite to friend | Daily Notes, The Knowledge Lifecycle, The Feynman Technique |
 | [The 12 Week Year](/notes/the-12-week-year/) | One quarter-sized goal; ship before twelve weeks end | Beats annual goals that die in February | Archive Method, Bullet Journaling, Active Knowledge Curation |
 | [Serendipitous Resurfacing](/notes/serendipitous-resurfacing/) | Build so past notes return without relying on search memory | Review + backlinks beat search-only | Digital Serendipity, Periodic Knowledge Review, Synthesis as a Goal |
@@ -981,7 +981,7 @@ Each entry: **Main claim** | **Conflict-prone assertions** | **Wikilinks in body
 |------|-----------|--------------------------|-----------|
 | [Associative Linking](/notes/associative-linking/) | Link by meaning; min 2 neighbors (extends + contradicts) | Folders sort; links think | Zettelkasten, Digital Garden, Atomic Notes |
 | [The Power of Interconnectivity](/notes/the-power-of-interconnectivity/) | Link every note to two neighbors | **More links beat more files** | Associative Linking, Atomic Notes, Digital Serendipity |
-| [Graph View Analytics](/notes/graph-view-analytics/) | Fix orphans and overloaded hubs — don't worship wallpaper | Notes with too many links need splitting | The Power of Interconnectivity, Associative Linking, Atomic Notes |
+| [Graph View Analytics](/notes/graph-view-analytics/) | Fix orphans and overloaded hubs - don't worship wallpaper | Notes with too many links need splitting | The Power of Interconnectivity, Associative Linking, Atomic Notes |
 | [Digital Serendipity](/notes/digital-serendipity/) | Build systems where old notes surprise you | Luck isn't random when graph is dense | Serendipitous Resurfacing, Maps of Content, Associative Linking |
 | [Mind Mapping](/notes/mind-mapping/) | Sketch first; export to atomic notes **after, not instead** | Maps are compost, not compost bins | Atomic Notes, Bullet Journaling, Visual Thinking |
 | [Visual Thinking](/notes/visual-thinking/) | Boxes and arrows before prose piles | Ugly diagrams fine | Mind Mapping, Atomic Notes, Graph View Analytics |
@@ -990,12 +990,12 @@ Each entry: **Main claim** | **Conflict-prone assertions** | **Wikilinks in body
 
 | Note | Main claim | Conflict-prone assertions | Wikilinks |
 |------|-----------|--------------------------|-----------|
-| [Creative Output](/notes/creative-output/) | Ship from notes — posts, sermons, code | Every project gets express deadline | The Collector's Fallacy, Creative Blocks, Synthesis as a Goal |
+| [Creative Output](/notes/creative-output/) | Ship from notes - posts, sermons, code | Every project gets express deadline | The Collector's Fallacy, Creative Blocks, Synthesis as a Goal |
 | [Distraction-Free Writing](/notes/distraction-free-writing/) | Fullscreen, plain text, phone elsewhere | Fancy apps = tweak instead of type | Digital Minimalism, Creative Blocks, Formatting for Readability |
 | [Drafting in Public](/notes/drafting-in-public/) | Publish rough ideas before finished | Rough posts beat perfect drafts in folder | Evergreen Notes, Advantages of Digital Gardens, Digital Garden |
-| [From Note to Book](/notes/from-note-to-book/) | Compile don't invent — MOC as TOC, atoms as chapters | Expand what's already true | Maps of Content, Atomic Notes, Creative Output |
-| [Synthesis as a Goal](/notes/synthesis-as-a-goal/) | Put it in your own words — what you actually think | Without synthesis, PKM = bookmark graveyard | PKM, Creative Blocks, Creative Output |
-| [Creative Blocks](/notes/creative-blocks/) | Ship one small thing — more capture rarely fixes | Outline 3 bullets, publish stub | Creative Output, Process Over Outcomes, Synthesis as a Goal |
+| [From Note to Book](/notes/from-note-to-book/) | Compile don't invent - MOC as TOC, atoms as chapters | Expand what's already true | Maps of Content, Atomic Notes, Creative Output |
+| [Synthesis as a Goal](/notes/synthesis-as-a-goal/) | Put it in your own words - what you actually think | Without synthesis, PKM = bookmark graveyard | PKM, Creative Blocks, Creative Output |
+| [Creative Blocks](/notes/creative-blocks/) | Ship one small thing - more capture rarely fixes | Outline 3 bullets, publish stub | Creative Output, Process Over Outcomes, Synthesis as a Goal |
 
 ### Systems & Tools
 
@@ -1012,29 +1012,29 @@ Each entry: **Main claim** | **Conflict-prone assertions** | **Wikilinks in body
 
 | Note | Main claim | Conflict-prone assertions | Wikilinks |
 |------|-----------|--------------------------|-----------|
-| [Mental Models List](/notes/mental-models-list/) | Pick a lens before deciding — note only what changed behavior | Don't collect whole internet | 11 garden models + external models listed |
+| [Mental Models List](/notes/mental-models-list/) | Pick a lens before deciding - note only what changed behavior | Don't collect whole internet | 11 garden models + external models listed |
 | [First Principles Thinking](/notes/first-principles-thinking/) | Rebuild claim from scratch beside quotes | My claim sits beside attributed quotes | Mental Models List, Synthesis as a Goal, Minimum Effective Dose |
 | [Minimum Effective Dose](/notes/minimum-effective-dose/) | Smallest effort that still works | Weekly review beats daily if weekly holds; one capture app beats four | Slow Productivity, Digital Minimalism, Process Over Outcomes |
 | [Minimum Viable Product](/notes/minimum-viable-product/) | Smallest shippable version to learn | Not same as MED (size vs effort) | Drafting in Public, Creative Output |
 | [Sunk Cost Fallacy](/notes/sunk-cost-fallacy/) | Forward-only: would I start this today? | Cut PKM tools kept for weeks invested | First Principles Thinking, Active Knowledge Curation, MVP |
 | [Pareto Principle](/notes/pareto-principle/) | Find 20% slice; protect it, cut rest | Only ~15 spine notes get `review: true` | Minimum Effective Dose, Signal vs Noise, Slow Productivity |
 | [Low Hanging Fruit](/notes/low-hanging-fruit/) | Easy win now before hard climb | Used when avoiding work by planning harder work | Pareto, MED, Creative Output |
-| [Compounding](/notes/compounding/) | Small gains stack; boring repetition wins | First months look flat — that's the trap | Process Over Outcomes, Spaced Repetition, Evergreen Notes |
+| [Compounding](/notes/compounding/) | Small gains stack; boring repetition wins | First months look flat - that's the trap | Process Over Outcomes, Spaced Repetition, Evergreen Notes |
 | [Process Over Outcomes](/notes/process-over-outcomes/) | Focus on rerunnable habit; outcomes uneven | Outcomes still matter but process reruns when motivation dips | Weekly Review Checklists, Anti-Fragile Systems, Bullet Journaling |
-| [There Is No Perfect Solution](/notes/there-is-no-perfect-solution/) | Every choice is tradeoff — pick what works tired | Good enough today beats perfect someday | Anti-Fragile Systems, MVP, Sunk Cost Fallacy |
-| [Slow Productivity](/notes/slow-productivity/) | Cap active projects — notes become output, not guilt | Busy isn't depth; finish three vs juggle twelve | Process Over Outcomes, Creative Output, Digital Minimalism |
+| [There Is No Perfect Solution](/notes/there-is-no-perfect-solution/) | Every choice is tradeoff - pick what works tired | Good enough today beats perfect someday | Anti-Fragile Systems, MVP, Sunk Cost Fallacy |
+| [Slow Productivity](/notes/slow-productivity/) | Cap active projects - notes become output, not guilt | Busy isn't depth; finish three vs juggle twelve | Process Over Outcomes, Creative Output, Digital Minimalism |
 | [Anti-Fragile Systems](/notes/anti-fragile-systems/) | Plain files, open formats, tested backups | If app vanished tomorrow, can I still read notes? | Future-Proofing Knowledge, Local-first Software, There Is No Perfect Solution |
 
 ### Learning, Memory & Research
 
 | Note | Main claim | Conflict-prone assertions | Wikilinks |
 |------|-----------|--------------------------|-----------|
-| [Spaced Repetition](/notes/spaced-repetition/) | Review facts on schedule — not whole essays | Wiki holds understanding; SRS holds drill; ~20% spine only | Spaced Repetition Systems, PKM, Pareto Principle |
-| [Spaced Repetition Systems (SRS)](/notes/spaced-repetition-systems/) | Anki beside wiki — separate lanes | Facts cold → SRS; concepts → linked notes | Spaced Repetition, PKM, The Collector's Fallacy |
+| [Spaced Repetition](/notes/spaced-repetition/) | Review facts on schedule - not whole essays | Wiki holds understanding; SRS holds drill; ~20% spine only | Spaced Repetition Systems, PKM, Pareto Principle |
+| [Spaced Repetition Systems (SRS)](/notes/spaced-repetition-systems/) | Anki beside wiki - separate lanes | Facts cold → SRS; concepts → linked notes | Spaced Repetition, PKM, The Collector's Fallacy |
 | [The Feynman Technique](/notes/the-feynman-technique/) | Teach in plain speech; stumbles = gaps | No paste from source | Evergreen Notes, PKM, Formatting for Readability |
 | [Note-Taking for Researchers](/notes/note-taking-for-researchers/) | Source notes and own notes **never merge** | Never paste highlights without rewriting | Intellectual Sourcing, Associative Linking, Zettelkasten |
 | [Intellectual Sourcing](/notes/intellectual-sourcing/) | Minimum citation so future-you trusts the note | Quotes are trail, not product alone | Note-Taking for Researchers, Progressive Summarization, Evergreen Notes |
-| [RSS for Research](/notes/rss-for-research/) | Appointment reading — subscribe, batch, clip | **Subscribe generously, process ruthlessly** | Capture, PKM, Newsletter Filtering |
+| [RSS for Research](/notes/rss-for-research/) | Appointment reading - subscribe, batch, clip | **Subscribe generously, process ruthlessly** | Capture, PKM, Newsletter Filtering |
 
 ### Zettelkasten, Myth & History
 
@@ -1048,15 +1048,15 @@ Each entry: **Main claim** | **Conflict-prone assertions** | **Wikilinks in body
 | Note | Main claim | Conflict-prone assertions | Wikilinks |
 |------|-----------|--------------------------|-----------|
 | [Active Knowledge Curation](/notes/active-knowledge-curation/) | Revisit and cut what you wouldn't save again today | Hoarding links isn't curation | Periodic Knowledge Review, Building a Second Brain, Capture |
-| [Curation as Creation](/notes/curation-as-creation/) | Order is point of view — MOC is curated playlist | What you cut is as creative as what you draft | Maps of Content, Active Knowledge Curation |
+| [Curation as Creation](/notes/curation-as-creation/) | Order is point of view - MOC is curated playlist | What you cut is as creative as what you draft | Maps of Content, Active Knowledge Curation |
 | [The Second Brain Workflow](/notes/the-second-brain-workflow/) | CODE on a loop, weekly | Express before week ends | Second Brain Daily Workflow, Capture, PARA Method |
 | [Second Brain Daily Workflow](/notes/second-brain-daily-workflow/) | Middle-click tabs, clip in gaps, feed inbox | Wiki is the archive; day is how stuff gets in | Second Brain Workflow, The Archive, Capture |
-| [Building a Personal API](/notes/building-a-personal-api/) | Shape notes for tools/future-you — consistent metadata | Not OAuth microservices — pattern consistency | Metadata Strategy, Active Knowledge Curation |
+| [Building a Personal API](/notes/building-a-personal-api/) | Shape notes for tools/future-you - consistent metadata | Not OAuth microservices - pattern consistency | Metadata Strategy, Active Knowledge Curation |
 | [The Future of PKM](/notes/the-future-of-pkm/) | Loop stays: capture, connect, create | Agents shorten loop, don't replace thinking | Second Brain, Building a Personal API, Second Brain Workflow |
 | [Collaborative Knowledge](/notes/collaborative-knowledge/) | One owner per topic for teams; solo garden separate | Different jobs, different homes | Digital Garden, Active Knowledge Curation |
 | [The Garage Concept](/notes/the-garage-concept/) | Garden = messy workshop; blog = showroom | Don't mix them | Digital Garden, Drafting in Public, Getting Started |
 | [Bullet Journaling](/notes/bullet-journaling/) | Rapid-log on paper; migrate weekly | Paper is lane, not second brain | Capture, Analog Capture Tools |
-| [Interstitial Journaling](/notes/interstitial-journaling/) | 30 sec between tasks — buffer flush | Not a diary | Capture, Daily Notes, Mobile Capture Workflows |
+| [Interstitial Journaling](/notes/interstitial-journaling/) | 30 sec between tasks - buffer flush | Not a diary | Capture, Daily Notes, Mobile Capture Workflows |
 | [Atomic Design for Notes](/notes/atomic-design-for-notes/) | Split one idea per file; stack like Lego | Small linked notes beat one giant file | Atomic Notes, Associative Linking, Building a Second Brain |
 | [Formatting for Readability](/notes/formatting-for-readability/) | Short blocks, bold the claim | Same rules as Evergreen, tighter scope | Evergreen Notes, Future-Proofing Knowledge |
 
@@ -1065,23 +1065,23 @@ Each entry: **Main claim** | **Conflict-prone assertions** | **Wikilinks in body
 | Note | Main claim | Wikilinks |
 |------|-----------|-----------|
 | [Flashcards](/notes/cards/) | Drill lane beside wiki; ~15 spine notes with `review: true` | Pareto Principle |
-| [Review](/notes/review/) | Browser active recall; Anki for phone sync | — |
-| [Graph](/notes/graph/) | Live link map for orphans/hubs | — |
-| [2 Random Notes](/notes/random-two/) | Serendipitous pair shuffle | — |
-| [3 Random Notes](/notes/random-three/) | Three-note random resurfacing | — |
+| [Review](/notes/review/) | Browser active recall; Anki for phone sync | - |
+| [Graph](/notes/graph/) | Live link map for orphans/hubs | - |
+| [2 Random Notes](/notes/random-two/) | Serendipitous pair shuffle | - |
+| [3 Random Notes](/notes/random-three/) | Three-note random resurfacing | - |
 
 ---
 
 ## II. A) Contradictions & Tensions (precise, cited)
 
-The garden is largely **self-aware** — many tensions are named and resolved in paired notes. Below: real frictions, not failures.
+The garden is largely **self-aware** - many tensions are named and resolved in paired notes. Below: real frictions, not failures.
 
 ### 1. Capture generosity vs. capture austerity (strongest tension)
 
 | Position A | Position B |
 |-----------|-----------|
-| [Capture](/notes/capture/): "save what **resonates**" — would act on or cite later | [Signal vs Noise](/notes/signal-vs-noise/): if it won't change action/belief **this month**, admire and **don't save** |
-| [RSS for Research](/notes/rss-for-research/): "**subscribe generously**, process ruthlessly" | [The Collector's Fallacy](/notes/the-collectors-fallacy/): "**No Creative Output, no save** — harsh, but backlog shrank" |
+| [Capture](/notes/capture/): "save what **resonates**" - would act on or cite later | [Signal vs Noise](/notes/signal-vs-noise/): if it won't change action/belief **this month**, admire and **don't save** |
+| [RSS for Research](/notes/rss-for-research/): "**subscribe generously**, process ruthlessly" | [The Collector's Fallacy](/notes/the-collectors-fallacy/): "**No Creative Output, no save** - harsh, but backlog shrank" |
 
 **Nature:** Calibration tension, not logical contradiction. The garden stacks filters: resonance → monthly signal test → express deadline gate. Unresolved edge case: a resonant idea with no project yet may fail Collector's Fallacy test while passing Capture's resonance test.
 
@@ -1097,7 +1097,7 @@ The garden is largely **self-aware** — many tensions are named and resolved in
 
 | [Slow Productivity](/notes/slow-productivity/) | [The 12 Week Year](/notes/the-12-week-year/) |
 |-----------------------------------------------|---------------------------------------------|
-| "Cap active projects" — finish three, not twelve | "Pick **one quarter-sized goal** and ship before twelve weeks end" |
+| "Cap active projects" - finish three, not twelve | "Pick **one quarter-sized goal** and ship before twelve weeks end" |
 
 **Nature:** Mostly **complementary** (cap count + add urgency), but tension if 12-week intensity re-opens twelve parallel "season-tagged" projects, violating slow productivity's cap.
 
@@ -1105,7 +1105,7 @@ The garden is largely **self-aware** — many tensions are named and resolved in
 
 | [Process Over Outcomes](/notes/process-over-outcomes/) | [Creative Output](/notes/creative-output/) + [The 12 Week Year](/notes/the-12-week-year/) |
 |--------------------------------------------------------|------------------------------------------------------------------------------------------|
-| "Outcomes follow **unevenly**" — rerun process when motivation dips | "Every project gets an **express deadline**"; week-12 review |
+| "Outcomes follow **unevenly**" - rerun process when motivation dips | "Every project gets an **express deadline**"; week-12 review |
 
 **Nature:** Habit-first vs. ship-by-date. Garden holds both via [Weekly Review Checklists](/notes/weekly-review-checklists/) ("one ship action") as bridge.
 
@@ -1121,9 +1121,9 @@ The garden is largely **self-aware** — many tensions are named and resolved in
 
 | [Associative Linking](/notes/associative-linking/) | [Organization](/notes/organization/) + [PARA Method](/notes/para-method/) |
 |---------------------------------------------------|--------------------------------------------------------------------------|
-| "Folders sort; **links think**" — walkable without perfect folder tree | "Life responsibility **wins when rushed**" — PARA buckets by project/area |
+| "Folders sort; **links think**" - walkable without perfect folder tree | "Life responsibility **wins when rushed**" - PARA buckets by project/area |
 
-**Nature:** Explicitly **dual system** in [GTD vs PARA](/notes/gtd-vs-para/) and Organization — not contradiction if both lanes maintained; tension when rushed filing overrides link-first writing.
+**Nature:** Explicitly **dual system** in [GTD vs PARA](/notes/gtd-vs-para/) and Organization - not contradiction if both lanes maintained; tension when rushed filing overrides link-first writing.
 
 ### 7. Spaced repetition vs. progressive summarization vs. evergreen polish
 
@@ -1131,7 +1131,7 @@ The garden is largely **self-aware** — many tensions are named and resolved in
 |-----------------------------------------------|---------------------------------------------------------------|-------------------------------------------|
 | Review **facts on schedule**; whole essays don't belong on cards | Distill **only on reuse**, not first save | Timeless claims; **revise when reality shifts** |
 
-**Nature:** **Three lanes** (SRS drill / on-demand distill / standing claims). Tension only if same content forced through all three — garden says split wiki vs. SRS explicitly.
+**Nature:** **Three lanes** (SRS drill / on-demand distill / standing claims). Tension only if same content forced through all three - garden says split wiki vs. SRS explicitly.
 
 ### 8. Synthesis (merge) vs. atomicity (split)
 
@@ -1145,7 +1145,7 @@ The garden is largely **self-aware** — many tensions are named and resolved in
 
 | [Drafting in Public](/notes/drafting-in-public/) | [The Garage Concept](/notes/the-garage-concept/) |
 |-------------------------------------------------|-------------------------------------------------|
-| "Publish **rough ideas** before finished" | "Garden = **messy workshop**; blog = **polished showroom** — don't mix" |
+| "Publish **rough ideas** before finished" | "Garden = **messy workshop**; blog = **polished showroom** - don't mix" |
 
 **Nature:** Apparent tension resolved by venue split: garden drafts rough; blog showroom polishes. Tension if readers expect showroom quality on garden pages.
 
@@ -1155,7 +1155,7 @@ The garden is largely **self-aware** — many tensions are named and resolved in
 |--------------------------------------------------------------------------------------|-----------------------------------------------------|
 | Link heavily; method enabled Luhmann's output | "Luhmann **wrote the books**, the box didn't"; tools don't replace sentences |
 
-**Nature:** **Intentional dialectic** — method note vs. anti-hype note. Myth directly contradicts tool-shopping without writing.
+**Nature:** **Intentional dialectic** - method note vs. anti-hype note. Myth directly contradicts tool-shopping without writing.
 
 ### 11. Local-first sovereignty vs. personal API / AI retrieval
 
@@ -1169,17 +1169,17 @@ The garden is largely **self-aware** — many tensions are named and resolved in
 
 | [Getting Started](/notes/getting-started/) | Most other notes |
 |-------------------------------------------|-----------------|
-| "**No `##` sections**" — link out instead | Nearly all notes include `## See also` sections |
+| "**No `##` sections**" - link out instead | Nearly all notes include `## See also` sections |
 
 **Nature:** Meta-level inconsistency in the garden's own stated atomic rule vs. practice.
 
-### 13. GTD vs PARA (named pair — largely resolved)
+### 13. GTD vs PARA (named pair - largely resolved)
 
-[GTD vs PARA](/notes/gtd-vs-para/) explicitly denies competition: tasks in task app, notes in PARA, "**duplicate filing is the tax I refuse to pay**." Not a contradiction — a **boundary rule**.
+[GTD vs PARA](/notes/gtd-vs-para/) explicitly denies competition: tasks in task app, notes in PARA, "**duplicate filing is the tax I refuse to pay**." Not a contradiction - a **boundary rule**.
 
-### 14. Evergreen vs fleeting (named pair — complementary)
+### 14. Evergreen vs fleeting (named pair - complementary)
 
-[Evergreen vs Fleeting Notes](/notes/evergreen-vs-fleeting-notes/) defines two-speed system with promotion via [Periodic Knowledge Review](/notes/periodic-knowledge-review/). No contradiction — **lifecycle complement**.
+[Evergreen vs Fleeting Notes](/notes/evergreen-vs-fleeting-notes/) defines two-speed system with promotion via [Periodic Knowledge Review](/notes/periodic-knowledge-review/). No contradiction - **lifecycle complement**.
 
 ---
 
@@ -1303,4 +1303,4 @@ _**Agent (default)**_
 
 The full report above covers all **84 notes** (excluding `_index.md`), with per-note claims grouped by the [Maps of Content](/notes/maps-of-content/) taxonomy, 14 precise tension analyses for the pairs you named, and a relationship-type map including missing "contradicts" links the garden itself recommends.
 
-The headline finding: this is a coherent system with **staged guardrails** — the real friction is [Capture](/notes/capture/) generosity vs. [The Collector's Fallacy](/notes/the-collectors-fallacy/) / [Signal vs Noise](/notes/signal-vs-noise/) austerity, not outright logical contradictions in pairs like GTD/PARA or evergreen/fleeting.
+The headline finding: this is a coherent system with **staged guardrails** - the real friction is [Capture](/notes/capture/) generosity vs. [The Collector's Fallacy](/notes/the-collectors-fallacy/) / [Signal vs Noise](/notes/signal-vs-noise/) austerity, not outright logical contradictions in pairs like GTD/PARA or evergreen/fleeting.

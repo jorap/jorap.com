@@ -360,7 +360,7 @@ I'll examine additional reference notes and recent entries to understand structu
 
 _**Agent (auto-low)**_
 
-Found a prior mention of the garden's "signature move" — digging into that context and a few reference notes.
+Found a prior mention of the garden's "signature move" - digging into that context and a few reference notes.
 
 
 _**Agent (auto-low)**_
@@ -785,7 +785,7 @@ It is already in the work, just not named:
 | `getting-started.md` | "Exactly two plain bullets from different fields" |
 | Good notes | `capture.md` (wristband + jeepney), `the-golden-rule.md` (thumb on post + ref on sideline), `blameless-after-action-review.md` (Friday deploy + tipped cart) |
 
-A **Signature Move** note would name that pattern so it is linkable, flashcard-able, and teachable in the graph — the same role **Note Relationships** plays for typed links, or **Atomic Notes** for one-claim-per-file.
+A **Signature Move** note would name that pattern so it is linkable, flashcard-able, and teachable in the graph - the same role **Note Relationships** plays for typed links, or **Atomic Notes** for one-claim-per-file.
 
 ---
 
@@ -804,10 +804,10 @@ The move does work:
 
 Natural siblings:
 
-- [[Atomic Notes]] — one claim per file
-- [[Note Relationships]] — four typed links
-- [[Synthesis as a Goal]] — belief in prose you can defend
-- **Signature Move** — two-scene proof in `examples`
+- [[Atomic Notes]] - one claim per file
+- [[Note Relationships]] - four typed links
+- [[Synthesis as a Goal]] - belief in prose you can defend
+- **Signature Move** - two-scene proof in `examples`
 
 **3. It is self-demonstrating**
 
@@ -824,7 +824,7 @@ The note would eat its own cooking: its two examples should be from totally diff
 - What "feel different" means (vibe, not domain label)
 - Anti-patterns (two work scenes, two parenting scenes with the same emotional beat)
 - How `examples` pairs with `shareable_thought` (four angles, not four restatements)
-- When one scene is enough (probably never for atomic notes — worth stating)
+- When one scene is enough (probably never for atomic notes - worth stating)
 
 **2. Skill vs note duplication**
 
@@ -832,7 +832,7 @@ The note would eat its own cooking: its two examples should be from totally diff
 
 **3. Meta-note creep**
 
-You already have meta utilities (`create`, `flashcards`, `getting-started`). Signature Move is **not** a utility page — it is a garden idea about writing. That is the right lane (like Atomic Notes), not `note_kind: meta`.
+You already have meta utilities (`create`, `flashcards`, `getting-started`). Signature Move is **not** a utility page - it is a garden idea about writing. That is the right lane (like Atomic Notes), not `note_kind: meta`.
 
 ---
 
@@ -864,8 +864,8 @@ key_concept: |
 
 **Example pair (meta, self-referential):**
 
-- Writing a faith note: thumb on post + ref on sideline — same Golden Rule check, different rooms.
-- Writing a PKM note: wristband scribble + jeepney receipt — same capture move, different rooms.
+- Writing a faith note: thumb on post + ref on sideline - same Golden Rule check, different rooms.
+- Writing a PKM note: wristband scribble + jeepney receipt - same capture move, different rooms.
 
 **Relationships sketch:**
 
@@ -876,13 +876,13 @@ key_concept: |
 | contradicts | [[The Collector's Fallacy]] | Quote piles skip the lived proof |
 | implements | [[Getting Started]] | Examples field rule, named and sharpened |
 
-**Cards** would be strong here — cues like "both examples are from work" → "split surfaces until the vibe changes."
+**Cards** would be strong here - cues like "both examples are from work" → "split surfaces until the vibe changes."
 
 ---
 
 ## Recommendation
 
-**Yes, worth a note** — but only as a **sharp atomic claim**, not a second Getting Started.
+**Yes, worth a note** - but only as a **sharp atomic claim**, not a second Getting Started.
 
 Keep it narrow:
 
@@ -1021,7 +1021,7 @@ A concrete example: down two with seconds left, the player reaches for the same 
 
 The note now includes a second example: capturing a spark in the inbox by scribbling a wristband note and a jeepney receipt, applying the same one-inbox move across rooms that do not share a folder. The shareable thought is set to "Pressure shrinks the menu." A contradiction link to [[The Collector's Fallacy]] is added.
 
-Adding relationship links to the note. Contradicts: [[The Collector's Fallacy]] — quote piles store other people's moves, not one you would run under pressure. Extends: [[Atomic Notes]], [[Evergreen Notes]], [[Getting Started]], and [[Synthesis as a Goal]].
+Adding relationship links to the note. Contradicts: [[The Collector's Fallacy]] - quote piles store other people's moves, not one you would run under pressure. Extends: [[Atomic Notes]], [[Evergreen Notes]], [[Getting Started]], and [[Synthesis as a Goal]].
 
 An `implements` relationship is added to [[Capture]], treating one inbox under commute noise as a signature capture move in practice. The note also clarifies that scenes turn borrowed ideas into a move one would actually run.
 
@@ -1070,11 +1070,11 @@ The shareable thought now has four angles: definition, basketball pressure, gard
 The four shareable lines are:
 
 - The one practiced answer you reach for when the moment speeds up.
-- Pressure shrinks the menu — drill one go-to, not ten highlights.
+- Pressure shrinks the menu - drill one go-to, not ten highlights.
 - One principle in the claim, two unrelated scenes that prove it travels.
-- Domain labels do not count — split surfaces until the abstraction feels portable.
+- Domain labels do not count - split surfaces until the abstraction feels portable.
 
-The description will be written in third person and kept under twenty words: "The one practiced answer you reach for when the moment speeds up — on court and in a note." The two examples will contrast a basketball end-of-game situation with a garden writing scene. Next, create the file and update the Getting Started page.
+The description will be written in third person and kept under twenty words: "The one practiced answer you reach for when the moment speeds up - on court and in a note." The two examples will contrast a basketball end-of-game situation with a garden writing scene. Next, create the file and update the Getting Started page.
 </details></think>
 
 _**Agent (auto-low)**_

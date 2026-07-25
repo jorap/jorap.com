@@ -127,7 +127,7 @@ Updated the intro and description so your wife singing it is the main reason, no
 
 **Description:** "partly because Pia recorded it" → "mainly because my wife sings it"
 
-**Opening:** Leads with that. Dropped the line about the song holding up without the personal history — that undercut what you said. The second paragraph now names Pia directly and admits the studio version and her voice don't weigh the same.
+**Opening:** Leads with that. Dropped the line about the song holding up without the personal history - that undercut what you said. The second paragraph now names Pia directly and admits the studio version and her voice don't weigh the same.
 
 If you want Pia named as your wife in the first line too ("mainly because my wife, Pia, sings it"), say the word.
 
@@ -212,9 +212,9 @@ _**Agent (auto-low)**_
 
 Updated the second paragraph and description:
 
-- **She didn't write it** — Destiny Music did.
-- **You were there** — in the room for the remote vocal recording; that take is still the one in your head.
-- **This page** — official Destiny Music releases; her voice is why you went looking.
+- **She didn't write it** - Destiny Music did.
+- **You were there** - in the room for the remote vocal recording; that take is still the one in your head.
+- **This page** - official Destiny Music releases; her voice is why you went looking.
 
 The intro still leads with her singing as the main reason. The new paragraph separates writer from singer and grounds it in you being there for the session.
 
@@ -335,7 +335,7 @@ The second paragraph already aligns with "memorable."</details></think>
 
 _**Agent (auto-low)**_
 
-Swapped "favorite" for "memorable" in the description and opening line. The second paragraph already fits — "the reason it stuck" and "still the one in my head" read as memorable, not ranked as a favorite.
+Swapped "favorite" for "memorable" in the description and opening line. The second paragraph already fits - "the reason it stuck" and "still the one in my head" read as memorable, not ranked as a favorite.
 
 ---
 
@@ -391,7 +391,7 @@ The concern is that the song might not suit others' voices. The bias works both 
 
 _**Agent (auto-low)**_
 
-Adding a short paragraph addressing those misconceptions — Pia didn't write it, and the song isn't tied to only her voice.
+Adding a short paragraph addressing those misconceptions - Pia didn't write it, and the song isn't tied to only her voice.
 
 
 _**Agent (auto-low)**_
@@ -543,7 +543,7 @@ The piano difficulty is secondhand hearsay, not verified by JoRap. I'll phrase i
 
 _**Agent (auto-low)**_
 
-Adding the piano difficulty as another reason people hesitate — framed as something you heard, not a claim you verified.
+Adding the piano difficulty as another reason people hesitate - framed as something you heard, not a claim you verified.
 
 
 _**Agent (auto-low)**_
@@ -629,7 +629,7 @@ The opening now frames hesitation to play as the central theme, with specific re
 
 _**Agent (auto-low)**_
 
-Reframed that paragraph to open with **"hesitate to even play it"** — covering the whole song in worship, not just singing or leading. The writer/voice/piano points stay as the reasons underneath.
+Reframed that paragraph to open with **"hesitate to even play it"** - covering the whole song in worship, not just singing or leading. The writer/voice/piano points stay as the reasons underneath.
 
 ---
 
@@ -680,7 +680,7 @@ I will explain this clearly without editing unless asked. The user asks whether 
 
 _**Agent (auto-low)**_
 
-Yes — with that extra context, what you’re describing hangs together.
+Yes - with that extra context, what you’re describing hangs together.
 
 **What reads clearly in the post**
 - You’re memorable to *you* because Pia sang it, and you were there for the session.
@@ -694,16 +694,16 @@ That’s a normal mismatch: one voice on the official release, wrong credit in p
 That’s likely a big part of the “hesitation to even play it” feeling:
 
 - In circles that know Destiny Ministries / Destiny Music, **Pia and the org were linked**. Her voice on the release became the face of the song.
-- After she left, playing it can feel awkward — like you’re referencing someone who’s no longer “in the house,” or like you’re stepping into ministry politics you didn’t ask for.
+- After she left, playing it can feel awkward - like you’re referencing someone who’s no longer “in the house,” or like you’re stepping into ministry politics you didn’t ask for.
 - So people don’t just hesitate because of piano difficulty or “wrong voice.” They hesitate because **the song got person-bound**, and the person and the ministry diverged.
 
-The piano thing is separate — a practical barrier. The attribution and “only Pia’s version counts” stuff is social/ministry baggage on top.
+The piano thing is separate - a practical barrier. The attribution and “only Pia’s version counts” stuff is social/ministry baggage on top.
 
 **Does the post make sense without saying she left?**
 
 Mostly yes. The correction you need on the page is still: **Destiny Music’s song, released for worship, not Pia’s private solo.** That’s true regardless of her employment history.
 
-What the post doesn’t quite name — and maybe shouldn’t on a links page — is the **relational** reason people freeze: they’re not sure it’s “safe” or “current” to play anymore.
+What the post doesn’t quite name - and maybe shouldn’t on a links page - is the **relational** reason people freeze: they’re not sure it’s “safe” or “current” to play anymore.
 
 **If you ever want one line (optional)**
 
@@ -711,7 +711,7 @@ Something like: *“She’s not with Destiny Ministries anymore; that doesn’t 
 
 Only add that if you want insiders to stop guessing. Skip it if you want the page to stay neutral and resource-focused.
 
-**Bottom line:** Your read is sensible. The hesitations aren’t random — prominent feature vocal + wrong authorship assumptions + (quietly) organizational distance. The post already handles the first two; the third is the piece you’re feeling but choosing not to put on the page, and that’s a fair call.
+**Bottom line:** Your read is sensible. The hesitations aren’t random - prominent feature vocal + wrong authorship assumptions + (quietly) organizational distance. The post already handles the first two; the third is the piece you’re feeling but choosing not to put on the page, and that’s a fair call.
 
 ---
 
@@ -748,7 +748,7 @@ The user is asking whether to tone something down.
 
 Song resource pages should lead with links and embeds. The current draft wastes three paragraphs on personal bias and recording context before reaching the actual meaning. Speculating about others' motives risks sounding defensive or airing church drama. A tighter version would land directly on the definition.
 
-The opening paragraph stacks too much friction—piano hearsay, voice, writing, hesitation—while "none of that is the point" feels preachy for a utility page. A search for "DNPAP Destiny Music" probably just wants Spotify links. The personal Pia thread can condense to one short line. Keeping the full draft preserves JoRap's distinctive voice, corrects real misconceptions, and explains why he wrote about this song at all.
+The opening paragraph stacks too much friction-piano hearsay, voice, writing, hesitation-while "none of that is the point" feels preachy for a utility page. A search for "DNPAP Destiny Music" probably just wants Spotify links. The personal Pia thread can condense to one short line. Keeping the full draft preserves JoRap's distinctive voice, corrects real misconceptions, and explains why he wrote about this song at all.
 
 The user built this narrative intentionally over the conversation. A moderate cut is better than a full rewrite. Paragraph three should compress rather than disappear. Keep the wife-sings detail and merge the first two paragraphs. Replace the list of hesitations with a single understated line. The opening could simply read: "DNPAP is a memorable worship song for me mainly because my wife sings it."
 
@@ -756,20 +756,20 @@ A two-sentence draft keeps the personal thread but lands directly on resources. 
 
 _**Agent (auto-low)**_
 
-Yes — for this page, a lighter touch would probably work better.
+Yes - for this page, a lighter touch would probably work better.
 
-**What the page is:** A link hub. Most visitors want the acronym, Destiny Music, and the embeds. The personal thread matters on *your* site because it explains why you bothered — but it doesn’t need three paragraphs of context before the resources.
+**What the page is:** A link hub. Most visitors want the acronym, Destiny Music, and the embeds. The personal thread matters on *your* site because it explains why you bothered - but it doesn’t need three paragraphs of context before the resources.
 
-**What’s carrying too much weight:** Paragraph 3. It names fears you’ve heard (wrong writer, wrong voice, awkward piano) and then argues back with “None of that is the point.” On a resource post that can read defensive, like you’re answering church-room talk you haven’t put on the page. The DMI departure fits that same bucket — real, but heavy for a links page.
+**What’s carrying too much weight:** Paragraph 3. It names fears you’ve heard (wrong writer, wrong voice, awkward piano) and then argues back with “None of that is the point.” On a resource post that can read defensive, like you’re answering church-room talk you haven’t put on the page. The DMI departure fits that same bucket - real, but heavy for a links page.
 
 **What’s worth keeping:** One short personal note and one factual correction:
 - Memorable to you because Pia sang it
 - She didn’t write it; Destiny Music did
-- You were there for the remote recording (optional — one line of credibility)
+- You were there for the remote recording (optional - one line of credibility)
 
 **A toned-down shape might look like:**
 
-> **DNPAP** is memorable to me mainly because my wife sings it. Destiny Music wrote and released it — Pia was on the studio vocal, not the credits as songwriter. I put the studio single, live cut, videos, and artist links in one place.
+> **DNPAP** is memorable to me mainly because my wife sings it. Destiny Music wrote and released it - Pia was on the studio vocal, not the credits as songwriter. I put the studio single, live cut, videos, and artist links in one place.
 
 That’s enough. No speculation about why others hesitate, no piano hearsay, no rebuttal paragraph. People who know the backstory will read between the lines; everyone else gets a clean resource page with a human reason you made it.
 
@@ -855,7 +855,7 @@ Checking that the result reads well.</details></think>
 
 _**Agent (auto-low)**_
 
-Trimmed to one paragraph. It still says why the song matters to you, who wrote it, and that you were there for the recording — then it goes straight to the links. Dropped the hesitation, piano, and rebuttal stuff. Description matches the lighter tone.
+Trimmed to one paragraph. It still says why the song matters to you, who wrote it, and that you were there for the recording - then it goes straight to the links. Dropped the hesitation, piano, and rebuttal stuff. Description matches the lighter tone.
 
 ---
 
@@ -916,4 +916,4 @@ A brief addition ties the remote recording to real life without expanding the pa
 
 _**Agent (auto-low)**_
 
-Added one sentence: COVID-era remote session, your mother-in-law watching your son while Pia tracked her vocal. Same light tone — just enough context to make the memory real.
+Added one sentence: COVID-era remote session, your mother-in-law watching your son while Pia tracked her vocal. Same light tone - just enough context to make the memory real.

@@ -50,6 +50,14 @@ cards:
     back: "Fifteen-minute walk after standup - every Tuesday."
   - front: "Sunday after lunch and nothing big to report to my parents. Still call?"
     back: "Call anyway - same window every Sunday."
+  - front: "Tuesday walk skipped three weeks - connection lane went cold."
+    back: "Book the slot - fifteen minutes, no speech."
+  - front: "Dry spell means we're not close - gut says back off."
+    back: "Small touch - not a grand proof."
+  - front: "Kid bedtime story running long and Sunday call window is closing."
+    back: "Shorten the call - keep the window."
+  - front: "Missed last Sunday - guilt says skip until I have news."
+    back: "Call this week anyway - same time."
 draft: false
 ---
 

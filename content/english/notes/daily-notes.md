@@ -48,6 +48,10 @@ cards:
     back: "Today's scratch pad until review."
   - front: "Commute note caught \"pay Meralco, renew OR\" before it vanished. Archive forever?"
     back: "Not permanent by default."
+  - front: "Pocket slip fragments - shoes, ice, pharmacy, no order."
+    back: "Today's note - capture fragments, process tonight."
+  - front: "Commute caught three sparks - lose them before home?"
+    back: "Daily note first - triage at home."
 draft: false
 ---
 

@@ -48,6 +48,10 @@ cards:
     back: "Twelve-week arc - weekly numbers on the board."
   - front: "Garage clear-out's a someday project again."
     back: "Twelve weeks - boxes move by week ten."
+  - front: "Wiki refactor on the someday list for a year."
+    back: "Twelve weeks - weekly box on the board."
+  - front: "Hire-and-train still vague on the January board."
+    back: "Twelve-week arc with weekly numbers."
 draft: false
 ---
 

@@ -177,9 +177,9 @@ Status: **completed**
 _**Agent (auto-high)**_
 
 <think><details><summary>Thought Process</summary>
- Now I'm reviewing each description to make them more engaging and human. The chicken adobo post is way too formal and dense—it needs to feel more conversational. The second one about building Jora's world is closer to what I want, but there's room to make it more personal and compelling.
+ Now I'm reviewing each description to make them more engaging and human. The chicken adobo post is way too formal and dense-it needs to feel more conversational. The second one about building Jora's world is closer to what I want, but there's room to make it more personal and compelling.
 
-Looking through the rest, a few already have that human touch like the Facebook hidden gem piece and the miracle Isaiah David post, so those need minimal tweaking. Others like the career tracker and desktop laptop posts feel too generic and corporate—they need personality injected. The RSS feeds and worship pads posts are solid already. The song resources one leans a bit too hard into promotion, so I'll dial that back.
+Looking through the rest, a few already have that human touch like the Facebook hidden gem piece and the miracle Isaiah David post, so those need minimal tweaking. Others like the career tracker and desktop laptop posts feel too generic and corporate-they need personality injected. The RSS feeds and worship pads posts are solid already. The song resources one leans a bit too hard into promotion, so I'll dial that back.
 
 I should focus on the ones that really need work: the adobo post, the career tracker, the desktop laptop reasons, and the song resources. Template files don't need touching. Let me start reading through the actual content of each post to understand what makes them tick before I rewrite.</details></think>
 
@@ -333,7 +333,7 @@ _**Agent (auto-high)**_
 _**Agent (auto-high)**_
 
 <think><details><summary>Thought Process</summary>
- I'm getting a clearer picture of what these descriptions should feel like—authentic and specific rather than polished marketing copy. Each one needs to capture the actual voice and perspective from the post itself, drawing readers in with something genuine rather than generic hooks. I'll go through and rewrite them to sound more natural and personal, skipping the template files since those don't need descriptions. felt thin and awkward. Worship pads filled that gap — they gave me the foundation I needed to lead with confidence. Here's what changed for me.
+ I'm getting a clearer picture of what these descriptions should feel like-authentic and specific rather than polished marketing copy. Each one needs to capture the actual voice and perspective from the post itself, drawing readers in with something genuine rather than generic hooks. I'll go through and rewrite them to sound more natural and personal, skipping the template files since those don't need descriptions. felt thin and awkward. Worship pads filled that gap - they gave me the foundation I needed to lead with confidence. Here's what changed for me.
 
 I'm working through these meta descriptions for different pages, refining them to feel more personal and authentic rather than promotional or generic. Each one needs to capture the actual story or experience behind the content while staying concise enough to hook readers immediately.</details></think>
 
@@ -748,14 +748,14 @@ All 11 blog post descriptions are updated. Here's a quick before/after summary s
 
 | Post | New description |
 |---|---|
-| `alex-eala-pro-career-tracker.md` | A Filipino fan's running scrapbook of Alex Eala's WTA career — the rankings, the matches I'll never forget, and the matchups I'm watching for next. |
-| `dnpap-song-resources.md` | DNPAP has quietly become one of my favorite worship songs from the local scene. Here's everything in one place — the studio cut, the live recording, the music video, and the lyrics. |
-| `facebooks-hidden-gem-...` | I almost deleted Facebook a couple of years ago. Then I stumbled onto a built-in feature most people don't know exists — and it's the only reason I still open the app. |
-| `getting-started-with-rss-feeds-...` | I figured RSS quietly died around 2010. A friend pointed out it never actually did — it just stopped being trendy. Two weeks of using it later, I was a convert. |
-| `how-i-built-joraps-world.md` | I lost my old PHP hosting (and a chunk of my work with it). A weekend of fumbling later, I landed on Hugo + GitHub + Cloudflare Pages — free, faster, and honestly better than what I was paying for. |
-| `instant-pot-chicken-adobo.md` | My go-to chicken adobo, adjusted for the Instant Pot. Bone-in thighs, 10 minutes under pressure, and that classic soy-garlic-vinegar glaze — without the hours of waiting. |
-| `miracle-isaiah-david.md` | On May 8, 2020, Pia and I found out she was pregnant — and gave birth to our son the same day. Years later, that sentence still doesn't feel real. Here's how it actually unfolded. |
-| `power-of-worship-pads-...` | Leading worship with just an acoustic guitar always felt thin in a big room — until someone slid a pad track underneath me during practice. The whole night changed. |
+| `alex-eala-pro-career-tracker.md` | A Filipino fan's running scrapbook of Alex Eala's WTA career - the rankings, the matches I'll never forget, and the matchups I'm watching for next. |
+| `dnpap-song-resources.md` | DNPAP has quietly become one of my favorite worship songs from the local scene. Here's everything in one place - the studio cut, the live recording, the music video, and the lyrics. |
+| `facebooks-hidden-gem-...` | I almost deleted Facebook a couple of years ago. Then I stumbled onto a built-in feature most people don't know exists - and it's the only reason I still open the app. |
+| `getting-started-with-rss-feeds-...` | I figured RSS quietly died around 2010. A friend pointed out it never actually did - it just stopped being trendy. Two weeks of using it later, I was a convert. |
+| `how-i-built-joraps-world.md` | I lost my old PHP hosting (and a chunk of my work with it). A weekend of fumbling later, I landed on Hugo + GitHub + Cloudflare Pages - free, faster, and honestly better than what I was paying for. |
+| `instant-pot-chicken-adobo.md` | My go-to chicken adobo, adjusted for the Instant Pot. Bone-in thighs, 10 minutes under pressure, and that classic soy-garlic-vinegar glaze - without the hours of waiting. |
+| `miracle-isaiah-david.md` | On May 8, 2020, Pia and I found out she was pregnant - and gave birth to our son the same day. Years later, that sentence still doesn't feel real. Here's how it actually unfolded. |
+| `power-of-worship-pads-...` | Leading worship with just an acoustic guitar always felt thin in a big room - until someone slid a pad track underneath me during practice. The whole night changed. |
 | `set-it-forget-it-arroz-caldo.md` | My weekend reward system: prep Arroz Caldo on a Friday night, wake up Saturday to a kitchen that already smells like ginger and home. Five minutes of actual work, an hour of comfort. |
 | `top-reasons-create-maintain-your-own-website.md` | Every time I tell someone I run my own website, they ask why I don't just post on Facebook. After years of watching platforms die and rules change, here's why I keep my own corner of the internet. |
 | `top-reasons-why-you-still-need-use-desktop-laptop.md` | Every couple of years, someone tells me they're going mobile-only. A few months later, they're sheepishly asking to borrow my laptop for taxes, video edits, or a PDF form. Here's why I keep mine around. |
@@ -763,6 +763,6 @@ All 11 blog post descriptions are updated. Here's a quick before/after summary s
 A few notes on what I changed:
 
 - **Replaced generic marketing language** ("Discover everything about…", "Why owning… still matters") with **specific, first-person hooks** taken directly from each post's actual opening.
-- **Shortened the adobo description** dramatically — it was reading like the body of the post itself.
+- **Shortened the adobo description** dramatically - it was reading like the body of the post itself.
 - **Kept the conversational tone** consistent across all posts so the meta description matches the voice once a reader clicks through.
 - **Skipped** `_index.md`, `blog-template.md`, and `blank-blog-template.md` since they're scaffolding, not real posts. Let me know if you'd like those tightened too.

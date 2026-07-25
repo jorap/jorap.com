@@ -100,7 +100,7 @@ _**Agent (auto-high)**_
 _**Agent (auto-high)**_
 
 <think><details><summary>Thought Process</summary>
- I need to create two new shortcodes for the iframe-style Spotify embeds—one for artists and one for tracks—that will match the exact embed code the user provided.</details></think>
+ I need to create two new shortcodes for the iframe-style Spotify embeds-one for artists and one for tracks-that will match the exact embed code the user provided.</details></think>
 
 _**Agent (auto-high)**_
 
@@ -457,7 +457,7 @@ _**Agent (auto-high)**_
 
 _**Agent (auto-high)**_
 
-This file documents shortcodes — there are no raw Spotify iframes to replace here. Since it's a review of theme shortcodes, the best move is to document the two new ones alongside the existing `spotify` entry. Let me check the current section to match style.
+This file documents shortcodes - there are no raw Spotify iframes to replace here. Since it's a review of theme shortcodes, the best move is to document the two new ones alongside the existing `spotify` entry. Let me check the current section to match style.
 
 _**Agent (auto-high)**_
 
@@ -491,9 +491,9 @@ _**Agent (auto-high)**_
 
 Added documentation for the two new shortcodes in `content/english/blog/hugoplate-theme-review.md`, right after the existing `spotify` entry:
 
-- `spotify_iframe_track` — demoed with the DNPAP track
-- `spotify_iframe_artist` — demoed with Destiny Music
+- `spotify_iframe_track` - demoed with the DNPAP track
+- `spotify_iframe_artist` - demoed with Destiny Music
 
 Each has a live render plus a fenced code example, matching the style of the surrounding shortcode docs.
 
-Note: this file had no raw `<iframe>` embeds to replace — the only Spotify content was the existing `spotify` shortcode demo, which I left intact since it documents a different (still valid) shortcode. If you'd rather the review post showcase the new iframe shortcodes *instead* of the older `spotify` one, say the word and I'll swap that demo too.
+Note: this file had no raw `<iframe>` embeds to replace - the only Spotify content was the existing `spotify` shortcode demo, which I left intact since it documents a different (still valid) shortcode. If you'd rather the review post showcase the new iframe shortcodes *instead* of the older `spotify` one, say the word and I'll swap that demo too.

@@ -47,6 +47,10 @@ cards:
     back: "Three trays - sign, keep, trash."
   - front: "Receipts in one shoebox and tax season's coming."
     back: "Sort taxes, warranty, trash now."
+  - front: "Receipts in one shoebox - tax season three weeks out."
+    back: "Three piles now - tax, keep, trash."
+  - front: "Faith notes and PKM notes dumped in misc."
+    back: "Short tag list I'd actually click."
 draft: false
 ---
 

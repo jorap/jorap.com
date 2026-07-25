@@ -62,6 +62,10 @@ cards:
     back: "The outcome worth the tradeoffs."
   - front: "Vision poster on the wall but calendar says otherwise. What should vision do to Tuesday?"
     back: "Filter Tuesday's calendar - vision is not decoration."
+  - front: "Calendar full of urgent and nobody can name the year goal."
+    back: "One sentence on the board - then sort yes."
+  - front: "Said yes to three committees - main project still at draft two."
+    back: "Name the one outcome - cut the rest."
 draft: false
 ---
 

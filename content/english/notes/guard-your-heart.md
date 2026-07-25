@@ -47,6 +47,20 @@ author: "JoRap"
 tags: ["Gospel", "Eternal Principles", "Wisdom", "Discipleship"]
 aliases: ["guard the heart", "Proverbs 4:23"]
 featured: false
-review: false
+review: true
+card_sets: ["Eternal Principles", "Gospel", "Discipleship"]
+cards:
+  - front: "Political rage thread rotting patience with my kids - scroll still open."
+    back: "Mute thread - Scripture before scroll tonight."
+  - front: "Shows until midnight - hollow before six a.m. prayer again."
+    back: "Hard stop at ten - guard the spring."
+  - front: "Clean week streak treating guarding like heaven's price tag - wrong motive?"
+    back: "Wisdom after salvation - not entry fee."
+  - front: "Eyes and ears fed garbage - worship and anger both downstream."
+    back: "Guard intake - poison at the source."
+  - front: "Renewed mind starving - feeds still ungated after a week of rage bait."
+    back: "Filter eyes and ears - then Scripture fills."
+  - front: "Performance outside looks fine - motive inside starving."
+    back: "Guard the heart - inside counts first."
 draft: false
 ---

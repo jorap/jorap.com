@@ -14,7 +14,7 @@ blog:
       frontmatter: image
       equals: "/images/image-template.jpg"
     - id: body-too-short
-      detail: body under 80 words — outline or empty post
+      detail: body under 80 words - outline or empty post
       min_body_words: 80
 
   warn:

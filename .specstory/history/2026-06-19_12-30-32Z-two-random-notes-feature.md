@@ -1006,24 +1006,24 @@ Added a **2 random notes** option next to the existing Random note button on the
 
 ### What changed
 
-1. **Toolbar link** on `/notes/` — a new button beside “Random note” goes to `/notes/random-two/`.
+1. **Toolbar link** on `/notes/` - a new button beside “Random note” goes to `/notes/random-two/`.
 
-2. **New page** at `/notes/random-two/` — picks two distinct garden notes at random and shows them in two columns (stacked on mobile). Each column includes:
+2. **New page** at `/notes/random-two/` - picks two distinct garden notes at random and shows them in two columns (stacked on mobile). Each column includes:
    - Linked title
    - Status / dates
    - Full note body (with wikilinks and hover previews)
 
-3. **Shuffle button** on that page — loads another random pair without leaving the page.
+3. **Shuffle button** on that page - loads another random pair without leaving the page.
 
-4. **Exclusion from the garden pool** — the random-two meta page is excluded from the note list and random picker (same pattern as the graph page).
+4. **Exclusion from the garden pool** - the random-two meta page is excluded from the note list and random picker (same pattern as the graph page).
 
 Files touched:
-- `layouts/_partials/notes/random-note.html` — added the link
-- `content/english/notes/random-two.md` — page content
-- `layouts/notes/random-two.html` — two-column layout
-- `assets/js/notes-random-two.js` — random selection + fetch/render
-- `assets/css/custom.css` — panel styling
-- `layouts/_partials/notes/pages.html` — exclude meta layout from garden pages
+- `layouts/_partials/notes/random-note.html` - added the link
+- `content/english/notes/random-two.md` - page content
+- `layouts/notes/random-two.html` - two-column layout
+- `assets/js/notes-random-two.js` - random selection + fetch/render
+- `assets/css/custom.css` - panel styling
+- `layouts/_partials/notes/pages.html` - exclude meta layout from garden pages
 
 ---
 
@@ -1736,9 +1736,9 @@ _**Agent (default)**_
 
 Added **Shuffle left** and **Shuffle right** to the toolbar alongside **Shuffle both**.
 
-- **Shuffle both** — new pair on both sides (same as before)
-- **Shuffle left** — keeps the right note, picks a new left one
-- **Shuffle right** — keeps the left note, picks a new right one
+- **Shuffle both** - new pair on both sides (same as before)
+- **Shuffle left** - keeps the right note, picks a new left one
+- **Shuffle right** - keeps the left note, picks a new right one
 
 Side shuffles avoid picking the same note as the other column when possible. The AI prompt updates to match whichever note changed. Refresh the page to use the new buttons.
 
@@ -1957,7 +1957,7 @@ _**Agent (default)**_
 The AI prompt is now a collapsible section, **collapsed by default**.
 
 - Click **AI prompt** (or the chevron) to expand and see the full text
-- **Copy prompt** still works while collapsed — it won’t toggle the section open
+- **Copy prompt** still works while collapsed - it won’t toggle the section open
 - A small chevron rotates when expanded
 
 Refresh `/notes/random-two/` to see it.

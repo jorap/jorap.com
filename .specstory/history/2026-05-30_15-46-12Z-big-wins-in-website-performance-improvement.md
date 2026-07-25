@@ -118,7 +118,7 @@ _**Agent (auto-high)**_
 _**Agent (auto-high)**_
 
 <think><details><summary>Thought Process</summary>
- I'm analyzing their Hugo setup and noticing some quick wins — they're preconnecting to a lot of CDN resources like Font Awesome that might not even be in use, and they're loading Google Fonts through JavaScript instead of a more efficient approach. I'll focus my recommendations on the highest-impact optimizations specific to their current configuration. I need to see the next thinking chunk to rewrite it. You've provided the current rewritten thinking and the instructions, but the "next thinking" that I should rewrite is missing.
+ I'm analyzing their Hugo setup and noticing some quick wins - they're preconnecting to a lot of CDN resources like Font Awesome that might not even be in use, and they're loading Google Fonts through JavaScript instead of a more efficient approach. I'll focus my recommendations on the highest-impact optimizations specific to their current configuration. I need to see the next thinking chunk to rewrite it. You've provided the current rewritten thinking and the instructions, but the "next thinking" that I should rewrite is missing.
 
 Could you please provide the next thinking that needs to be rewritten?</details></think>
 
@@ -128,7 +128,7 @@ Here's how I rank performance wins by actual ROI, with notes on what I see in yo
 
 ## The wins that actually move the needle
 
-**1. Ship fewer bytes on the critical path** — biggest lever, always.
+**1. Ship fewer bytes on the critical path** - biggest lever, always.
 - Inline critical CSS, defer the rest. You already split eager/lazy CSS in `style.html`, but Tailwind output still ships unused utilities unless your `@source` globs are tight.
 - Self-host fonts and subset them (Latin-only WOFF2 is usually ~15–25 KB vs ~50–100 KB for full Google Fonts). You currently fetch fonts via injected JS:
 
@@ -157,16 +157,16 @@ This is slower than a plain `<link rel="stylesheet">` because the request can't 
 
 Only the first card (or hero) should be `eager` + `fetchpriority="high"`. Everything else should be `loading="lazy"` and `fetchpriority="auto"`. Right now you're racing 6–12 images on cold load and starving the LCP image of bandwidth.
 
-**3. Use `srcset` + AVIF/WebP, not just one resized image.** Your preload generates a single 413×208 WebP — phones on 2x/3x DPR get a blurry image and desktops get an oversized one for nothing. Hugo's image pipeline can emit a real `srcset` with sizes. AVIF first, WebP fallback, JPG last.
+**3. Use `srcset` + AVIF/WebP, not just one resized image.** Your preload generates a single 413×208 WebP - phones on 2x/3x DPR get a blurry image and desktops get an oversized one for nothing. Hugo's image pipeline can emit a real `srcset` with sizes. AVIF first, WebP fallback, JPG last.
 
 **4. Kill third-party JS, or quarantine it.** This is usually the difference between a 95 Lighthouse and a 70.
-- GTM/GA, AdSense, cookie consent, Font Awesome CDN — these are likely your biggest TBT/INP offenders. In `script.html` you load AdSense and GTM unconditionally.
+- GTM/GA, AdSense, cookie consent, Font Awesome CDN - these are likely your biggest TBT/INP offenders. In `script.html` you load AdSense and GTM unconditionally.
 - Concrete moves, in order of impact:
   - Drop the Font Awesome CDN. Use Hugo's `resources.Get` on a local subset SVG sprite for the ~10 icons you actually use (`fa-clock`, `fa-folder`, etc. in `blog-card.html`). You'll cut a render-blocking stylesheet + a webfont entirely.
   - Load GTM/GA on `requestIdleCallback` or first interaction, not on `load`.
   - Move AdSense behind Partytown or a viewport-triggered loader. AdSense's main-thread cost dwarfs everything else on this site.
 
-**5. Reduce request count on the critical path.** You already concat + fingerprint CSS and JS — good. Two cleanups:
+**5. Reduce request count on the critical path.** You already concat + fingerprint CSS and JS - good. Two cleanups:
 - Your `_partials/essentials/style.html` has 8+ `dns-prefetch` and 4 `preconnect`. Preconnect is expensive (DNS + TCP + TLS held open). Keep ≤3 preconnects for origins you'll hit in the first 500ms. Drop the rest, or downgrade them to `dns-prefetch`. LinkedIn / Twitter / Facebook prefetches almost never pay off.
 - You preconnect `use.fontawesome.com` even on pages with no icons.
 
@@ -176,15 +176,15 @@ Only the first card (or hero) should be `eager` + `fetchpriority="high"`. Everyt
 
 **7. Compression.** Make sure Cloudflare is serving Brotli (it is by default for HTML/CSS/JS, but double-check your `_headers` doesn't accidentally disable it). Brotli vs gzip is typically 15–25% smaller on text assets.
 
-**8. Avoid layout shift.** CLS hurts perceived speed even if numbers look fine. Your card has `aspect-[413/220]` on the link but `aspect-[413/208]` on the image — they don't match, so the image will shift inside the wrapper. Pick one.
+**8. Avoid layout shift.** CLS hurts perceived speed even if numbers look fine. Your card has `aspect-[413/220]` on the link but `aspect-[413/208]` on the image - they don't match, so the image will shift inside the wrapper. Pick one.
 
-**9. Lazy-load below-the-fold everything.** You did this beautifully for YouTube in `page-scripts.html` — apply the same facade pattern to anything heavy: Twitter embeds, CodePen, maps, comment widgets.
+**9. Lazy-load below-the-fold everything.** You did this beautifully for YouTube in `page-scripts.html` - apply the same facade pattern to anything heavy: Twitter embeds, CodePen, maps, comment widgets.
 
 **10. Service worker for repeat visits.** You have `pwa.html` registered. Make sure it precaches CSS/JS bundles and uses `stale-while-revalidate` for HTML. Repeat-visit LCP can go under 500ms.
 
 ## What I'd do first on your repo (highest ROI, lowest effort)
 
-1. Fix `blog-card.html` so only the first card is `eager`/`high` priority — this is a 5-minute change with a real LCP improvement.
+1. Fix `blog-card.html` so only the first card is `eager`/`high` priority - this is a 5-minute change with a real LCP improvement.
 2. Replace the Google Fonts JS injection in `style.html` with a direct `<link rel="stylesheet">` (or self-host).
 3. Self-host the ~5 Font Awesome icons you use as an SVG sprite; remove the FA CDN.
 4. Defer GTM until idle / first interaction.

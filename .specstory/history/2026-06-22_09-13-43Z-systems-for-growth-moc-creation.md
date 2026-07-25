@@ -2099,7 +2099,7 @@ Result:
           },
           {
             "lineNumber": 64,
-            "text": "{{- $content = replaceRE &#96;\\[\\[([^\\]]+)\\|([^\\]]+)\\]\\]&#96; (printf &#96;\u003cspan class=\"%s-broken\" title=\"Pipe wikilinks are not supported — use [[Note Title]] only\"\u003e$1|$2\u003c/span\u003e&#96; $class) $content -}}"
+            "text": "{{- $content = replaceRE &#96;\\[\\[([^\\]]+)\\|([^\\]]+)\\]\\]&#96; (printf &#96;\u003cspan class=\"%s-broken\" title=\"Pipe wikilinks are not supported - use [[Note Title]] only\"\u003e$1|$2\u003c/span\u003e&#96; $class) $content -}}"
           },
           {
             "lineNumber": 65,
@@ -2221,7 +2221,7 @@ Result:
           },
           {
             "lineNumber": 20,
-            "text": "    {{- $msg := printf \"pipe wikilink [[%s]] in %s — use [[%s]] only\" .raw $note.File.Path .target -}}"
+            "text": "    {{- $msg := printf \"pipe wikilink [[%s]] in %s - use [[%s]] only\" .raw $note.File.Path .target -}}"
           },
           {
             "lineNumber": 21,
@@ -2546,7 +2546,7 @@ Result:
           },
           {
             "lineNumber": 22,
-            "text": "            wikilink \u003ccode\u003e[[{{ .target }}]]\u003c/code\u003e — no page matches this title, slug, or alias."
+            "text": "            wikilink \u003ccode\u003e[[{{ .target }}]]\u003c/code\u003e - no page matches this title, slug, or alias."
           },
           {
             "lineNumber": 23,
@@ -2570,7 +2570,7 @@ Result:
           },
           {
             "lineNumber": 28,
-            "text": "            \u003ccode\u003e[[{{ .raw }}]]\u003c/code\u003e — use \u003ccode\u003e[[{{ .target }}]]\u003c/code\u003e only (no \u003ccode\u003e|label\u003c/code\u003e)."
+            "text": "            \u003ccode\u003e[[{{ .raw }}]]\u003c/code\u003e - use \u003ccode\u003e[[{{ .target }}]]\u003c/code\u003e only (no \u003ccode\u003e|label\u003c/code\u003e)."
           },
           {
             "lineNumber": 29,
@@ -2594,7 +2594,7 @@ Result:
           },
           {
             "lineNumber": 34,
-            "text": "            \"{{ .mention }}\" in prose — link"
+            "text": "            \"{{ .mention }}\" in prose - link"
           },
           {
             "lineNumber": 35,
@@ -2844,7 +2844,7 @@ Result:
           },
           {
             "lineNumber": 19,
-            "text": "**Missing note** means the wikilink target does not match any published note. **Pipe wikilink** means deprecated double-bracket syntax with a pipe label (&#96;[[target|label]]&#96;) - use &#96;[[Note Title]]&#96; only. **Unlinked mention** means another note's title appears in prose without a link — not in markdown headings (&#96;## …&#96;) or the **Note Relationships** table. **Structure issues** flag missing &#96;extends&#96; / &#96;contradicts&#96; rows in the **Note Relationships** table on garden notes (utility/meta pages are exempt). Frontmatter and flashcards are not checked - only the note body."
+            "text": "**Missing note** means the wikilink target does not match any published note. **Pipe wikilink** means deprecated double-bracket syntax with a pipe label (&#96;[[target|label]]&#96;) - use &#96;[[Note Title]]&#96; only. **Unlinked mention** means another note's title appears in prose without a link - not in markdown headings (&#96;## …&#96;) or the **Note Relationships** table. **Structure issues** flag missing &#96;extends&#96; / &#96;contradicts&#96; rows in the **Note Relationships** table on garden notes (utility/meta pages are exempt). Frontmatter and flashcards are not checked - only the note body."
           }
         ],
         "range": {
@@ -2875,11 +2875,11 @@ Result:
           },
           {
             "lineNumber": 4,
-            "text": "    byPath — map File.Path → { broken, pipe, unlinked, structure, total }"
+            "text": "    byPath - map File.Path → { broken, pipe, unlinked, structure, total }"
           },
           {
             "lineNumber": 5,
-            "text": "    notes — slice of { Page, broken, pipe, unlinked, structure, total }"
+            "text": "    notes - slice of { Page, broken, pipe, unlinked, structure, total }"
           },
           {
             "lineNumber": 6,
@@ -3131,7 +3131,7 @@ Result:
           },
           {
             "lineNumber": 46,
-            "text": "                        \u003ccode\u003e[[{{ .target }}]]\u003c/code\u003e — no matching page."
+            "text": "                        \u003ccode\u003e[[{{ .target }}]]\u003c/code\u003e - no matching page."
           },
           {
             "lineNumber": 47,
@@ -3155,7 +3155,7 @@ Result:
           },
           {
             "lineNumber": 52,
-            "text": "                        \u003ccode\u003e[[{{ .raw }}]]\u003c/code\u003e — use \u003ccode\u003e[[{{ .target }}]]\u003c/code\u003e only (no \u003ccode\u003e|label\u003c/code\u003e)."
+            "text": "                        \u003ccode\u003e[[{{ .raw }}]]\u003c/code\u003e - use \u003ccode\u003e[[{{ .target }}]]\u003c/code\u003e only (no \u003ccode\u003e|label\u003c/code\u003e)."
           },
           {
             "lineNumber": 53,
@@ -3486,7 +3486,7 @@ Result:
           },
           {
             "lineNumber": 71,
-            "text": "| &#96;note&#96; (default) | Atomic garden claim | Required (extends + contradicts minimum) | Yes — &#96;[[wikilink]]&#96; |"
+            "text": "| &#96;note&#96; (default) | Atomic garden claim | Required (extends + contradicts minimum) | Yes - &#96;[[wikilink]]&#96; |"
           },
           {
             "lineNumber": 72,
@@ -3566,7 +3566,7 @@ Result:
           },
           {
             "lineNumber": 82,
-            "text": "                f\"(use URL e.g. /notes/{hit.stem}/ — utility pages are not garden notes)\""
+            "text": "                f\"(use URL e.g. /notes/{hit.stem}/ - utility pages are not garden notes)\""
           },
           {
             "lineNumber": 83,
@@ -3616,7 +3616,7 @@ Result:
         "detailedLines": [
           {
             "lineNumber": 71,
-            "text": "| &#96;note&#96; (default) | Atomic garden claim | Required (extends + contradicts minimum) | Yes — &#96;[[wikilink]]&#96; |"
+            "text": "| &#96;note&#96; (default) | Atomic garden claim | Required (extends + contradicts minimum) | Yes - &#96;[[wikilink]]&#96; |"
           },
           {
             "lineNumber": 72,
@@ -3624,7 +3624,7 @@ Result:
           },
           {
             "lineNumber": 73,
-            "text": "| &#96;meta&#96; | Tool surface (Graph, Issues, Review, etc.) | Skip | No — URL only |"
+            "text": "| &#96;meta&#96; | Tool surface (Graph, Issues, Review, etc.) | Skip | No - URL only |"
           },
           {
             "lineNumber": 74
@@ -3638,7 +3638,7 @@ Result:
           },
           {
             "lineNumber": 77,
-            "text": "These pages are **meta tools** (&#96;note_kind: meta&#96;), not garden ideas: [Graph](/notes/graph/), [Issues](/notes/issues/), [Flashcards](/notes/flashcards/), [Review](/notes/review/), [Backlinks](/notes/backlinks/), [Random Duo](/notes/random-duo/). They are excluded from the graph node set, random pickers, and flashcard sources. **No &#96;## Note Relationships&#96; table** on utility pages — link by URL when pointing readers at a tool. **Don't &#96;[[wikilink]]&#96; to them** from content notes. &#96;npm run lint:utility-links&#96; catches violations."
+            "text": "These pages are **meta tools** (&#96;note_kind: meta&#96;), not garden ideas: [Graph](/notes/graph/), [Issues](/notes/issues/), [Flashcards](/notes/flashcards/), [Review](/notes/review/), [Backlinks](/notes/backlinks/), [Random Duo](/notes/random-duo/). They are excluded from the graph node set, random pickers, and flashcard sources. **No &#96;## Note Relationships&#96; table** on utility pages - link by URL when pointing readers at a tool. **Don't &#96;[[wikilink]]&#96; to them** from content notes. &#96;npm run lint:utility-links&#96; catches violations."
           },
           {
             "lineNumber": 78
@@ -4248,10 +4248,10 @@ The hub contrasts with [[Pressure Reveals Weakness]]: growth systems for ordinar
 
 ### Garden wiring
 
-- **[[Maps of Content]]** — new "Performance & growth" section with Systems for Growth, Pressure Reveals Weakness, and Workplace Principles
-- **[[Pressure Reveals Weakness]]** — `alternative` link to Systems for Growth
-- **[[Growth Mindset]]**, **[[Habit Formation]]**, **[[Continuous Improvement]]** — `implements` links back to the hub
-- **[[Standard Operating Procedures]]** — `extends` Systems Thinking
+- **[[Maps of Content]]** - new "Performance & growth" section with Systems for Growth, Pressure Reveals Weakness, and Workplace Principles
+- **[[Pressure Reveals Weakness]]** - `alternative` link to Systems for Growth
+- **[[Growth Mindset]]**, **[[Habit Formation]]**, **[[Continuous Improvement]]** - `implements` links back to the hub
+- **[[Standard Operating Procedures]]** - `extends` Systems Thinking
 
 Build lint passes for all three new pages.
 
@@ -5118,7 +5118,7 @@ The partial approach is preferred over direct `.Plain` replacements because it i
 
 _**Agent (default)**_
 
-Applying the same `.Summary` workaround used in `basic-seo.html` to the llms-txt templates — Hugo 0.163 panics on `.Summary` with `summaryLength = 10`.
+Applying the same `.Summary` workaround used in `basic-seo.html` to the llms-txt templates - Hugo 0.163 panics on `.Summary` with `summaryLength = 10`.
 
 
 _**Agent (default)**_

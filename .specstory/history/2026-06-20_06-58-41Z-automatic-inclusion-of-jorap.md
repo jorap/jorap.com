@@ -929,15 +929,15 @@ grep: public/pages/privacy-policy/index.html: No such file or directory
 
 _**Agent (default)**_
 
-This is already handled in your SEO partial — I tightened it up so you never need to add the suffix in frontmatter.
+This is already handled in your SEO partial - I tightened it up so you never need to add the suffix in frontmatter.
 
 **How it works:** `layouts/_partials/basic-seo.html` (your override of the basic-seo module) appends ` | JoRap Notes` to every non-homepage title. It resolves the page title from `meta_title` → `title` → taxonomy title, strips an existing suffix if present (so manual additions don’t double up), then appends the suffix.
 
 **What changed:**
-1. **`config/_default/params.toml`** — added `metadata.title_suffix = "JoRap Notes"` so the suffix is configured in one place
-2. **`layouts/_partials/basic-seo.html`** — uses that config and always normalizes before appending
-3. **Content cleanup** — removed manual `| JoRap Notes` from About, Contact, Privacy, Elements, and Drafts (and fixed legacy suffixes on Getting Started and Notes Graph)
-4. **`static/admin/config.yml`** — CMS hint notes the suffix is added automatically
+1. **`config/_default/params.toml`** - added `metadata.title_suffix = "JoRap Notes"` so the suffix is configured in one place
+2. **`layouts/_partials/basic-seo.html`** - uses that config and always normalizes before appending
+3. **Content cleanup** - removed manual `| JoRap Notes` from About, Contact, Privacy, Elements, and Drafts (and fixed legacy suffixes on Getting Started and Notes Graph)
+4. **`static/admin/config.yml`** - CMS hint notes the suffix is added automatically
 
 **Usage:** Set only the page-specific part in frontmatter:
 
@@ -945,7 +945,7 @@ This is already handled in your SEO partial — I tightened it up so you never n
 meta_title: "About"
 ```
 
-That renders as `About | JoRap Notes`. Same for pages without `meta_title` — they fall back to `title` and get the suffix.
+That renders as `About | JoRap Notes`. Same for pages without `meta_title` - they fall back to `title` and get the suffix.
 
 **Homepage exception:** The homepage uses `meta_title` verbatim (currently the full tagline), since it’s meant to be a custom title rather than `Page | JoRap Notes`.
 
@@ -2073,7 +2073,7 @@ The error on `getting-started.md` came from `graph-data.html` line 72. Hugo’s 
 Replaced it with an explicit `if gt $nodeCount 0` guard and `div (mul ...) 100` so empty graphs are safe.
 
 ### 2. Manual `| JoRap Notes` entries
-Your **working tree** content is already clean — no `meta_title` values with `| JoRap` or `| JoRap Notes` remain (except the homepage tagline, which is intentional).
+Your **working tree** content is already clean - no `meta_title` values with `| JoRap` or `| JoRap Notes` remain (except the homepage tagline, which is intentional).
 
 The **last commit** still has manual suffixes on About, Contact, Privacy, etc. Those are fixed locally but not committed yet.
 
@@ -2093,7 +2093,7 @@ meta_title: "About"
 
 That renders as `About | JoRap Notes`.
 
-Restart `hugo server` to pick up the graph fix — the getting-started page should load without the render error.
+Restart `hugo server` to pick up the graph fix - the getting-started page should load without the render error.
 
 ---
 
@@ -4109,12 +4109,12 @@ Total in 3429 ms
 
 _**Agent (default)**_
 
-Two different places this shows up — worth separating them:
+Two different places this shows up - worth separating them:
 
 ### In frontmatter (what you edit)
 Local markdown is already clean. No `meta_title` in `content/` ends with `| JoRap Notes` or `| JoRap`.
 
-Those fixes are **only local** — not committed yet. On **GitHub master** (and in Sveltia CMS if it reads master), these still have manual suffixes:
+Those fixes are **only local** - not committed yet. On **GitHub master** (and in Sveltia CMS if it reads master), these still have manual suffixes:
 
 - `about/_index.md`, `contact/_index.md`, `drafts/_index.md`
 - `pages/privacy-policy.md`, `pages/elements.md`
@@ -4123,7 +4123,7 @@ Those fixes are **only local** — not committed yet. On **GitHub master** (and 
 If CMS still shows `About | JoRap Notes`, it’s reading the old committed version. Commit and push the content changes to fix that.
 
 ### In the browser tab (what visitors see)
-Every non-homepage **should** show `| JoRap Notes` in the tab — that’s the template appending it from `config/_default/params.toml`. Examples:
+Every non-homepage **should** show `| JoRap Notes` in the tab - that’s the template appending it from `config/_default/params.toml`. Examples:
 
 - `About` → `About | JoRap Notes`
 - `Notes Flashcards` → `Notes Flashcards | JoRap Notes`
@@ -4135,14 +4135,14 @@ That’s expected. It doesn’t mean the suffix belongs in frontmatter.
 - **Posts about JoRap Notes** keep the name in the title *and* get the suffix, e.g. `How I Built JoRap Notes: … | JoRap Notes`
 
 ### What I added
-1. **`layouts/_partials/page-meta-title.html`** — central title logic; strips legacy suffixes (`JoRap Notes`, `JoRap`, `Notes Garden`) in a loop before appending
-2. **`scripts/strip-meta-title-suffix.py`** — batch cleanup for imports/CMS saves
+1. **`layouts/_partials/page-meta-title.html`** - central title logic; strips legacy suffixes (`JoRap Notes`, `JoRap`, `Notes Garden`) in a loop before appending
+2. **`scripts/strip-meta-title-suffix.py`** - batch cleanup for imports/CMS saves
 
 Even if frontmatter still has an old suffix, the rendered title won’t double up.
 
 ---
 
-**Quick check:** Open `content/english/about/_index.md` locally — it should say `meta_title: "About"`, not `"About | JoRap Notes"`. If your file still has the suffix, reload from disk; if CMS shows it, you’re on master until you push.
+**Quick check:** Open `content/english/about/_index.md` locally - it should say `meta_title: "About"`, not `"About | JoRap Notes"`. If your file still has the suffix, reload from disk; if CMS shows it, you’re on master until you push.
 
 Want me to commit these content + template changes?
 
@@ -4586,7 +4586,7 @@ _**Agent (default)**_
 
 This was a **stale `public/` directory**, not a template bug.
 
-Hugo’s dev server (`pnpm dev` uses `--buildDrafts`) had already rendered `/categories/games/` from the draft Marvel Snap post. A partial clean of `public/` left that file missing while the server still expected it — hence `renderDeferred: open .../categories/games/index.html: no such file or directory`.
+Hugo’s dev server (`pnpm dev` uses `--buildDrafts`) had already rendered `/categories/games/` from the draft Marvel Snap post. A partial clean of `public/` left that file missing while the server still expected it - hence `renderDeferred: open .../categories/games/index.html: no such file or directory`.
 
 **Fix applied:** removed `public/` and `.hugo_build.lock`, then ran a fresh build with drafts enabled. `public/categories/games/index.html` exists again.
 
@@ -4603,7 +4603,7 @@ If it happens again:
 rm -rf public .hugo_build.lock && pnpm dev
 ```
 
-Avoid running `hugo --cleanDestinationDir` while `hugo server` is still running — that’s what left `public/` in a broken half-clean state.
+Avoid running `hugo --cleanDestinationDir` while `hugo server` is still running - that’s what left `public/` in a broken half-clean state.
 
 ---
 
@@ -5938,7 +5938,7 @@ Updated all 12 spine notes with two `card_sets` each:
 | Signal vs Noise | Focus, Capture |
 | Pareto Principle | Focus, Review |
 
-Cards from a note now appear under **every** set it belongs to — e.g. Capture cards show up when you filter by **Capture** or **Workflow**. Example from `capture.md`:
+Cards from a note now appear under **every** set it belongs to - e.g. Capture cards show up when you filter by **Capture** or **Workflow**. Example from `capture.md`:
 
 ```yaml
 card_sets:
@@ -6363,11 +6363,11 @@ draft: false
 | Rule | Why |
 |------|-----|
 | **Double-quote** every `front`, `back`, and set name | Colons, apostrophes (`where's`), and `?` break unquoted YAML |
-| **Block lists** only — not `cards: [...]` inline | Hugo + export scripts expect `- front:` / `back:` pairs |
+| **Block lists** only - not `cards: [...]` inline | Hugo + export scripts expect `- front:` / `back:` pairs |
 | **4-space indent** on `back:` under each `- front:` | Wrong indent = card not parsed |
 | **`draft` last** | Keeps flashcard fields together; easier to scan |
 | **No `\| JoRap Notes` in `meta_title`** | Appended automatically by the theme |
-| **`card_sets` = short labels** (`Capture`, `Review`) | Review filter names — not note `tags` |
+| **`card_sets` = short labels** (`Capture`, `Review`) | Review filter names - not note `tags` |
 
 Optional per-card override:
 
@@ -6379,11 +6379,11 @@ Optional per-card override:
 
 ### What I added
 
-1. **`archetypes/notes-review.md`** — scaffold for new spine notes  
+1. **`archetypes/notes-review.md`** - scaffold for new spine notes  
    `hugo new content/english/notes/my-note.md --kind notes-review`
-2. **`scripts/lint-flashcard-frontmatter.py`** — catches missing sets, unquoted strings, bad layout  
+2. **`scripts/lint-flashcard-frontmatter.py`** - catches missing sets, unquoted strings, bad layout  
    Run: `npm run lint:cards`
 3. **Format docs** on the [[Flashcards]] page (`cards.md`)
-4. **Stricter Anki export parser** — requires quoted `front`/`back` (matches the safe format)
+4. **Stricter Anki export parser** - requires quoted `front`/`back` (matches the safe format)
 
 All 12 spine notes pass `npm run lint:cards` today.

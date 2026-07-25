@@ -102,7 +102,7 @@ Dries Buytaert · dries@buytaert.net
 _**Agent (auto-high)**_
 
 <think><details><summary>Thought Process</summary>
- Looking at the HTTP Headers Analyzer report for Dries Buytaert's site, it scored 8/10 with a couple of security gaps—missing Content-Security-Policy and Cross-Origin-Embedder-Policy headers—plus a warning about the absent Content-Length header and a notice that the Server header is exposing Cloudflare.
+ Looking at the HTTP Headers Analyzer report for Dries Buytaert's site, it scored 8/10 with a couple of security gaps-missing Content-Security-Policy and Cross-Origin-Embedder-Policy headers-plus a warning about the absent Content-Length header and a notice that the Server header is exposing Cloudflare.
 
 I'm checking the project structure and found a `static/_headers` file for Cloudflare Pages configuration and an untracked `scripts/cspHashes.mjs` script that likely handles CSP hash generation.</details></think>
 

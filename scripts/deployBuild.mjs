@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
  * Canonical production build for local CI and all deployment targets.
- * Runs theme generation, note dates, Hugo, and CSP hashing — never bare `hugo`.
+ * Runs theme generation, note dates, Hugo, and CSP hashing - never bare `hugo`.
  */
 import { createRequire } from "node:module";
 import { dirname, join } from "node:path";

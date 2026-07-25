@@ -49,6 +49,10 @@ cards:
     back: "Level, skill, variation - every year."
   - front: "Warehouse newbie hunting parts while the veteran's on break. What's the system?"
     back: "One label system - no tour needed."
+  - front: "Pantry rule written once - spouse still asks where snacks live."
+    back: "One documented rule - same place every time."
+  - front: "Newbie hunting parts while veteran's on break."
+    back: "Label the system - personal API on the wall."
 draft: false
 ---
 

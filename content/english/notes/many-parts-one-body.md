@@ -47,6 +47,20 @@ author: "JoRap"
 tags: ["Gospel", "Eternal Principles", "Community", "Church"]
 aliases: ["one body many members", "1 Corinthians 12"]
 featured: false
-review: false
+review: true
+card_sets: ["Eternal Principles", "Gospel", "Discipleship"]
+cards:
+  - front: "Volunteered for every ministry slot - burnout loading."
+    back: "Say no - your part isn't every part."
+  - front: "Envy at someone's platform gift - joy stolen serving kids."
+    back: "Faithful in your part - not their mic."
+  - front: "Foot wishing it were a hand - comparison spiral."
+    back: "Your gift serves the Head - not their slot."
+  - front: "Solo-body fantasy - I can cover every ministry hole."
+    back: "One part - let teachers teach."
+  - front: "Popularity contest for standing - wrong scoreboard?"
+    back: "Belonging settled - steward your gift."
+  - front: "Leader hoarding every role because it feels holy."
+    back: "Equip parts - don't absorb every slot."
 draft: false
 ---

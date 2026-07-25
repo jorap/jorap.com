@@ -541,7 +541,7 @@ All requested files were edited. Now preparing the summary of changes.
 
 _**Agent (auto-low)**_
 
-Updated **19 files** — each `shareable_thought` now has 4 distinct, paste-ready lines (scene/move/boundary/payoff), no copy from `description`/`key_concept`, no contractions.
+Updated **19 files** - each `shareable_thought` now has 4 distinct, paste-ready lines (scene/move/boundary/payoff), no copy from `description`/`key_concept`, no contractions.
 
 **Also fixed:** duplicate bullet in `grace.md` `key_concept`.
 

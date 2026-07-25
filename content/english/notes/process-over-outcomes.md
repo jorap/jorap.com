@@ -62,12 +62,16 @@ card_sets: ["Focus", "Review"]
 cards:
   - front: "I protect the Sunday review loop that produces the next note. Why?"
     back: "Process runs when motivation dips."
-  - front: "Same proofing steps whether slow Tuesday or wedding weekend. What's the bet?"
+  - front: "Same proofing steps on a slow Tuesday and on wedding weekend. What's the bet?"
     back: "Trust the loop - not one hero day."
   - front: "Same commute podcast and debrief voice memo. What's the move?"
     back: "Loop survives a bad week."
-  - front: "Same warmup whether bleachers empty or full. What's the bet?"
+  - front: "Same warmup when bleachers are empty and when they're full. What's the bet?"
     back: "Repeatable beats one big win."
+  - front: "Lost the game but the Tuesday film loop never skipped."
+    back: "Trust the loop - outcome was one night."
+  - front: "Kitchen nailed Friday service because Thursday prep matched slow Tuesday."
+    back: "Run the checklist - repeatable beats hero night."
 draft: false
 ---
 

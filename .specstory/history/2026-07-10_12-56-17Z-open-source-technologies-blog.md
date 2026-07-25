@@ -398,7 +398,7 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Starting to draft the blog post on open source technologies.
 
-The draft will follow a direct, JoRap-style voice without em dashes. It opens with a practical hook rather than ideology, then traces the career journey from hunting open source CMS options to the lost hosting incident that pushed the shift to Hugo and Git. The piece will explain what open source actually buys day to day—inspectability, forkability, migration paths, and community support—while clarifying it is not a purity test or a ban on paid tools. Specific current stack examples and advice for students or friends will close the post.
+The draft will follow a direct, JoRap-style voice without em dashes. It opens with a practical hook rather than ideology, then traces the career journey from hunting open source CMS options to the lost hosting incident that pushed the shift to Hugo and Git. The piece will explain what open source actually buys day to day-inspectability, forkability, migration paths, and community support-while clarifying it is not a purity test or a ban on paid tools. Specific current stack examples and advice for students or friends will close the post.
 
 Finalizing metadata: filename `__why-i-focused-on-open-source.md`, slug `why-i-fod-on-open-source`, date 2026-07-10. Tags include Open Source, FOSS, Hugo, WordPress, and Web Development. Related posts to link: drupal-to-wordpress, how-i-built-jorap-notes, sustainable-online-publishing, and hugoplate-theme-reviewcuse.
 </details></think>
@@ -457,7 +457,7 @@ Parameters:
 {
   "caseInsensitive": false,
   "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/__why-i-focused-on-open-source.md",
-  "pattern": "—|–"
+  "pattern": "-|–"
 }
 ```
 Additional data:
@@ -467,7 +467,7 @@ Additional data:
   "isPruned": true,
   "outputMode": "content",
   "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/__why-i-focused-on-open-source.md",
-  "pattern": "—|–",
+  "pattern": "-|–",
   "topFiles": [],
   "totalFiles": 0,
   "totalMatches": 0
@@ -487,8 +487,8 @@ cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/notes-voice-lint.py
 
 ```
 Voice lint warnings:
-  content/english/notes/selling-static-sites.md: relationships.reason: AI-tell word `handoff` — try: pass off / pass to client
-  content/english/notes/static-site-client-scope.md: relationships.reason: AI-tell word `handoff` — try: pass off / pass to client
+  content/english/notes/selling-static-sites.md: relationships.reason: AI-tell word `handoff` - try: pass off / pass to client
+  content/english/notes/static-site-client-scope.md: relationships.reason: AI-tell word `handoff` - try: pass off / pass to client
 
 ```
 </details></tool-use>

@@ -74,7 +74,7 @@ title: "Alex Eala Pro Career Tracker"
 date: 2026-04-01T05:00:00Z
 meta_title: "Alex Eala Pro Career Tracker"
 slug: "alex-eala-pro-career-tracker"
-description: "A Filipino fan's running scrapbook of Alex Eala's WTA career — the rankings, the matches I'll never forget, and the matchups I'm watching for next."
+description: "A Filipino fan's running scrapbook of Alex Eala's WTA career - the rankings, the matches I'll never forget, and the matchups I'm watching for next."
 image: "/images/alex-eala.jpg"
 categories: ["Sports"]
 author: "JoRap"
@@ -82,7 +82,7 @@ tags: ["Tennis", "Alex Eala"]
 draft: false
 ---
 
-I've been following Alex Eala's career since her amazing run at the 2025 Miami Open, and watching a Filipina rise through the WTA ranks in real time is something I never thought I'd get to do in my lifetime. This page is my running scrapbook — career-high rankings, the matches I'll always remember, the head-to-heads with Grand Slam champions, and the upcoming matchups I'm watching for. I update it as her career unfolds.
+I've been following Alex Eala's career since her amazing run at the 2025 Miami Open, and watching a Filipina rise through the WTA ranks in real time is something I never thought I'd get to do in my lifetime. This page is my running scrapbook - career-high rankings, the matches I'll always remember, the head-to-heads with Grand Slam champions, and the upcoming matchups I'm watching for. I update it as her career unfolds.
 
 ---
 
@@ -139,7 +139,7 @@ tags: ["AI", "WordPress", "Workflow", "Developer Life"]
 draft: false
 ---
 
-&gt; **TL;DR**: Most of what you build is variations on a small number of patterns. The real win with AI is having it *build the reusable code* for that 80% — the helpers, the templates, the boring scaffolding — so every future use case produces the same shape of output. Stop asking AI to write one feature at a time. Ask it to build the machinery that makes the next forty features look identical.
+&gt; **TL;DR**: Most of what you build is variations on a small number of patterns. The real win with AI is having it *build the reusable code* for that 80% - the helpers, the templates, the boring scaffolding - so every future use case produces the same shape of output. Stop asking AI to write one feature at a time. Ask it to build the machinery that makes the next forty features look identical.
 
 ## The thing nobody warns you about
 
@@ -160,11 +160,11 @@ author: "JoRap"
 tags: ["DNPAP", "Destiny Music", "Worship", "Spotify", "YouTube"]
 draft: false
 ---
-**DNPAP** has quietly become one of my favorite worship songs to come out of the local scene, so I put together this little page to collect everything in one place — the studio version, the live recording, the official music video, lyric video, and links to the artist. Bookmark it, share it, sing it.
+**DNPAP** has quietly become one of my favorite worship songs to come out of the local scene, so I put together this little page to collect everything in one place - the studio version, the live recording, the official music video, lyric video, and links to the artist. Bookmark it, share it, sing it.
 
 ## What does DNPAP mean?
 
-DNPAP stands for **"Diyos Ng Pagasa at Pagibig"** — Filipino for **"God of Hope and Love."** The acronym sticks; the meaning is the part worth carrying.
+DNPAP stands for **"Diyos Ng Pagasa at Pagibig"** - Filipino for **"God of Hope and Love."** The acronym sticks; the meaning is the part worth carrying.
 
 ---
 
@@ -173,7 +173,7 @@ DNPAP stands for **"Diyos Ng Pagasa at Pagibig"** — Filipino for **"God of Hop
 ---
 title: "Facebook's Hidden Gem: How the Favorites Feed Transforms Your Social Media Experience"
 meta_title: "Mastering Facebook's Favorites Feed: Your Ultimate Guide to a Personalized Experience"
-description: "I almost deleted Facebook a couple of years ago. Then I stumbled onto a built-in feature most people don't know exists — and it's the only reason I still open the app."
+description: "I almost deleted Facebook a couple of years ago. Then I stumbled onto a built-in feature most people don't know exists - and it's the only reason I still open the app."
 slug: "facebooks-hidden-gem-how-favorites-feed-transforms-your-social-media-experience"
 date: 2024-02-04T05:00:00Z
 image: "/images/fbf.jpg"
@@ -183,7 +183,7 @@ tags: ["Facebook", "Favorites Feed", "Social Media Tips", "Digital Wellbeing"]
 draft: false
 ---
 
-I almost deleted Facebook a couple of years ago. My feed had become a mess — random sponsored posts, distant cousins arguing about politics, people I went to high school with pitching essential oils, and somehow almost nothing from the friends I actually wanted to keep up with.
+I almost deleted Facebook a couple of years ago. My feed had become a mess - random sponsored posts, distant cousins arguing about politics, people I went to high school with pitching essential oils, and somehow almost nothing from the friends I actually wanted to keep up with.
 
 Then I stumbled onto a setting Facebook built but doesn't really advertise: the **Favorites feed**. It's not a hack, not a third-party app, just a built-in feature most people don't know exists. It's the only reason I still open the app.
 
@@ -195,7 +195,7 @@ It's a separate feed inside Facebook that only shows posts from people, pages, a
 ---
 title: "Getting Started with RSS Feeds: A Beginner's Guide"
 meta_title: "RSS Feeds for Streamlined Content Discovery | Complete Beginner's Guide"
-description: "I figured RSS quietly died around 2010. A friend pointed out it never actually did — it just stopped being trendy. Two weeks of using it later, I was a convert."
+description: "I figured RSS quietly died around 2010. A friend pointed out it never actually did - it just stopped being trendy. Two weeks of using it later, I was a convert."
 slug: "getting-started-with-rss-feeds-a-beginners-guide"
 date: 2024-03-30T05:00:00Z
 image: "/images/rss.jpg"
@@ -205,7 +205,7 @@ tags: ["RSS Feeds", "Inoreader", "Content Management", "Productivity Tools", "Di
 draft: false
 ---
 
-For a long time I had this routine: open browser, check tech blog, check news site, check forum, check another blog, find nothing new, repeat in two hours. Anyone who's ever been into a niche corner of the internet probably knows the feeling — the constant, low-key checking, just in case.
+For a long time I had this routine: open browser, check tech blog, check news site, check forum, check another blog, find nothing new, repeat in two hours. Anyone who's ever been into a niche corner of the internet probably knows the feeling - the constant, low-key checking, just in case.
 
 A friend asked me one day why I wasn't just using RSS. I told him I figured RSS had quietly died sometime around 2010. He laughed and pointed out that it never actually did. It just stopped being trendy.
 
@@ -217,7 +217,7 @@ Two weeks of using it later, I was a convert. Here's the short version of what R
 ---
 title: "How I Built JoRap's World: My Journey from Expensive Hosting to Free (and Better!)"
 meta_title: "How I Built JoRap's World: A Developer's Guide to Free Static Site Hosting"
-description: "I lost my old PHP hosting (and a chunk of my work with it). A weekend of fumbling later, I landed on Hugo + GitHub + Cloudflare Pages — free, faster, and honestly better than what I was paying for."
+description: "I lost my old PHP hosting (and a chunk of my work with it). A weekend of fumbling later, I landed on Hugo + GitHub + Cloudflare Pages - free, faster, and honestly better than what I was paying for."
 slug: "how-i-built-joraps-world"
 date: 2024-06-14T05:00:00Z
 image: "/images/joraps-world.jpg"
@@ -227,7 +227,7 @@ tags: ["Website Building", "Free Hosting", "Hugo CMS"]
 draft: false
 ---
 
-&gt; **TL;DR**: I lost my old PHP hosting and a chunk of my work with it. After a weekend of fumbling around, I landed on Hugo + GitHub + Cloudflare Pages, and the result is genuinely better than what I was paying $12/month for. Here's exactly how I did it — including the parts I messed up.
+&gt; **TL;DR**: I lost my old PHP hosting and a chunk of my work with it. After a weekend of fumbling around, I landed on Hugo + GitHub + Cloudflare Pages, and the result is genuinely better than what I was paying $12/month for. Here's exactly how I did it - including the parts I messed up.
 
 ## The short backstory
 
@@ -239,7 +239,7 @@ I'd been hearing about static site generators and the whole "JAMstack" thing for
 ---
 title: "HugoPlate: The Theme Quietly Powering This Site"
 meta_title: "HugoPlate Theme Review: Why It Powers JoRap's World"
-description: "After losing half a Saturday to theme-shopping, I picked HugoPlate — and a year and change later, I'm still on it. Here's what comes in the box, what I changed, and where it still bites."
+description: "After losing half a Saturday to theme-shopping, I picked HugoPlate - and a year and change later, I'm still on it. Here's what comes in the box, what I changed, and where it still bites."
 slug: "hugoplate-theme-review"
 date: 2026-05-29T05:00:00Z
 image: "/images/joraps-world.jpg"
@@ -251,7 +251,7 @@ draft: false
 
 If you've ever spent a Saturday "just browsing" Hugo themes, you already know the trap. Every one of them looks gorgeous on a landing page. Half of them haven't been touched in two years. The other half are tied to a styling system you'll spend a month fighting before you can change a button color.
 
-I gave myself one weekend to pick a theme for this site. I ended up on [HugoPlate](https://github.com/zeon-studio/hugoplate), and I'm still on it. This post is the long version of why — what's actually inside it, what I changed, and the parts that bit me along the way.
+I gave myself one weekend to pick a theme for this site. I ended up on [HugoPlate](https://github.com/zeon-studio/hugoplate), and I'm still on it. This post is the long version of why - what's actually inside it, what I changed, and the parts that bit me along the way.
 
 ---
 
@@ -262,7 +262,7 @@ I gave myself one weekend to pick a theme for this site. I ended up on [HugoPlat
 title: Instant Pot Chicken Adobo
 slug: ''
 meta_title: ''
-description: "My go-to chicken adobo, adjusted for the Instant Pot. Bone-in thighs, 10 minutes under pressure, and that classic soy-garlic-vinegar glaze — without the hours of waiting."
+description: "My go-to chicken adobo, adjusted for the Instant Pot. Bone-in thighs, 10 minutes under pressure, and that classic soy-garlic-vinegar glaze - without the hours of waiting."
 date: 2026-05-03T23:00:00
 author: JoRap
 image: /images/Chicken-Adobo.jpg
@@ -283,7 +283,7 @@ Using the Instant Pot for this Chicken Adobo recipe offers several key advantage
 ---
 title: "The Miracle of Isaiah David"
 meta_title: "The Miracle of Isaiah David – A Story of Hope and Faith"
-description: "On May 8, 2020, Pia and I found out she was pregnant — and gave birth to our son the same day. Years later, that sentence still doesn't feel real. Here's how it actually unfolded."
+description: "On May 8, 2020, Pia and I found out she was pregnant - and gave birth to our son the same day. Years later, that sentence still doesn't feel real. Here's how it actually unfolded."
 slug: "miracle-isaiah-david"
 date: 2023-05-08T05:00:00Z
 image: "/images/feature-isaiah-david.jpg"
@@ -295,7 +295,7 @@ draft: false
 
 There's no smooth way to start this story, so I'll just say it: on May 8, 2020, my wife Pia and I found out she was pregnant and gave birth to our son Isaiah David on the same day. That sentence still doesn't feel real, even years later.
 
-It happened in the middle of the strict ECQ lockdown in the Philippines. What started as a regular morning at home — Pia in some abdominal pain we thought was a bad case of dysmenorrhea — ended with us holding a healthy baby boy at 4:46 in the afternoon. The whole day was about ten hours long. Our entire transition into parenthood happened inside one of those.
+It happened in the middle of the strict ECQ lockdown in the Philippines. What started as a regular morning at home - Pia in some abdominal pain we thought was a bad case of dysmenorrhea - ended with us holding a healthy baby boy at 4:46 in the afternoon. The whole day was about ten hours long. Our entire transition into parenthood happened inside one of those.
 
 The story ended up reaching far more people than we ever imagined, but I want to start with how it actually unfolded.
 
@@ -305,7 +305,7 @@ The story ended up reaching far more people than we ever imagined, but I want to
 ---
 title: "The Power Of Worship Pads: Enhancing Your Worship When The Guitar Is Your Only Instrument"
 meta_title: "Worship Pads for Guitar: Enhance Solo Worship Leading"
-description: "Leading worship with just an acoustic guitar always felt thin in a big room — until someone slid a pad track underneath me during practice. The whole night changed."
+description: "Leading worship with just an acoustic guitar always felt thin in a big room - until someone slid a pad track underneath me during practice. The whole night changed."
 slug: "power-of-worship-pads-enhancing-your-worship-with-guitar"
 date: 2025-05-04T05:00:00Z
 image: "/images/worship-pads.jpg"
@@ -315,13 +315,13 @@ tags: ["Worship Pads", "Church Music", "Worship Leading", "Guitar Worship", "Sol
 draft: false
 ---
 
-I love leading worship with just my acoustic guitar. There's an intimacy to it that a full band can't quite reach. But anyone who's actually stood at the front of a room with just six strings and a microphone knows the other side of that — the silence between songs feels enormous, the guitar can sound thin in a big space, and you spend half the set worrying you're not filling the room well enough.
+I love leading worship with just my acoustic guitar. There's an intimacy to it that a full band can't quite reach. But anyone who's actually stood at the front of a room with just six strings and a microphone knows the other side of that - the silence between songs feels enormous, the guitar can sound thin in a big space, and you spend half the set worrying you're not filling the room well enough.
 
 For a long time I just lived with it. Then somebody put on a pad track underneath me during practice one night, and the whole room felt different. That's what this post is about.
 
 ## What's a worship pad, exactly?
 
-If the term is new to you, don't worry — I had no clue what people meant either at first.
+If the term is new to you, don't worry - I had no clue what people meant either at first.
 
 === content/english/blog/set-it-forget-it-arroz-caldo.md ===
 ---
@@ -402,6 +402,6 @@ I'm not anti-mobile. My phone does most of what I need for short, in-between mom
 _**Agent (auto-high)**_
 
 <think><details><summary>Thought Process</summary>
- I'm reviewing the existing category structure in the Hugo site—there are eleven categories ranging from Sports and Technology to Worship and Recipes—and checking if there's a taxonomy configuration I should be aware of before making changes. The user wants me to do something with these categories and tags, though their request got cut off.
+ I'm reviewing the existing category structure in the Hugo site-there are eleven categories ranging from Sports and Technology to Worship and Recipes-and checking if there's a taxonomy configuration I should be aware of before making changes. The user wants me to do something with these categories and tags, though their request got cut off.
 
 Now I'm looking at each blog post individually to add richer metadata. For the sports post about Alex Eala, I'd add categories like "People" and "Filipino" along with tags for WTA and Grand Slam tournaments. The WordPress and AI post would get categories for AI and Web Development with tags around automation tools and code generation. The worship music post would benefit from categories like Christian Living and tags for Filipino worship and OPM. I'm working through</details></think>

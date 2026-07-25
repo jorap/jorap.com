@@ -805,9 +805,9 @@ _**Agent (default)**_
 
 Updated the AI prompt in all three places that build it:
 
-- **`assets/js/notes-random-core.js`** — shared intro, note formatting, and full TASK / OUTPUT FORMAT / RULES block
-- **`assets/js/notes-random-duo.js`** — Random Duo page
-- **`assets/js/notes-random-single.js`** — random note pairings on note pages and blog posts
+- **`assets/js/notes-random-core.js`** - shared intro, note formatting, and full TASK / OUTPUT FORMAT / RULES block
+- **`assets/js/notes-random-duo.js`** - Random Duo page
+- **`assets/js/notes-random-single.js`** - random note pairings on note pages and blog posts
 
 Both flows now use the same structure:
 
@@ -942,7 +942,7 @@ Best fit for the **structured** side of your prompt. It’s strong at:
 Less wild than ChatGPT sometimes, but usually higher signal per section. For your site: **Copy prompt** → paste into a new Claude chat. Claude doesn’t support URL prefill like ChatGPT’s `?q=`, so the copy button is the right path.
 
 ### 2. **Gemini** ([gemini.google.com](https://gemini.google.com))
-Better when you want **lateral, surprising connections** — the “wait, those two notes connect *how*?” moments. It tends to:
+Better when you want **lateral, surprising connections** - the “wait, those two notes connect *how*?” moments. It tends to:
 - Jump across domains more freely (good for section 2)
 - Propose odd-but-useful note titles and tweet angles (sections 3 and 7)
 - Surface contradictions and paradoxes (your allowed tweet styles)
@@ -953,7 +953,7 @@ Tradeoff: formatting can be looser than Claude, so you may need a quick “follo
 
 **Quick pick:** Claude for **reliable PKM output**; Gemini for **weirder, more imaginative links**.
 
-**Honorable mention:** **NotebookLM** if you paste both notes as sources — it’s built for “how do these documents relate?” but it’s a different workflow (sources panel, not a single chat paste).
+**Honorable mention:** **NotebookLM** if you paste both notes as sources - it’s built for “how do these documents relate?” but it’s a different workflow (sources panel, not a single chat paste).
 
 Your site currently wires only ChatGPT for one-click open (`random_notes_ai_chat_url` in `params.toml`). If you want, I can add secondary buttons for Claude and Gemini that always use copy-then-open.
 

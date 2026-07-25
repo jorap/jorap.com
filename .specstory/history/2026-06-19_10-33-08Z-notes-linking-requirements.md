@@ -2356,7 +2356,7 @@ Drafting the `ensure_min_body_links` function. It strips the see-also section, r
 
 _**Agent (default)**_
 
-Most garden notes already have 3+ links via See also, but 67 lack 3 in the body—the pattern your mental-model notes use. I'll update the wire script to enforce that and run it.
+Most garden notes already have 3+ links via See also, but 67 lack 3 in the body-the pattern your mental-model notes use. I'll update the wire script to enforce that and run it.
 
 
 _**Agent (default)**_
@@ -2845,18 +2845,18 @@ All **79 garden notes** now link to at least 3 other notes in the body (the same
 
 ### What changed
 
-**67 notes** were short on body links — they only had 1–2 wikilinks in the prose and relied on the static See also block (which the site strips and replaces dynamically). Each now has at least 3 body links, e.g.:
+**67 notes** were short on body links - they only had 1–2 wikilinks in the prose and relied on the static See also block (which the site strips and replaces dynamically). Each now has at least 3 body links, e.g.:
 
 ```18:18:content/english/notes/capture.md
 Friction kills capture. One inbox, phone to desktop, weekly process - same as [[The Trusted Inbox]]. If I wouldn't act on it or cite it later, it doesn't get saved. Resonance is the filter, not FOMO. Pairs with [[Building a Second Brain]] and [[Active Knowledge Curation]].
 ```
 
 **`scripts/wire-notes-obsidian.py`** now enforces this going forward:
-- `MIN_BODY_LINKS = 3` — adds a “Pairs with …” clause when the body is short
-- `MIN_OUTGOING_LINKS = 3` — pads See also if total links would still be under 3
+- `MIN_BODY_LINKS = 3` - adds a “Pairs with …” clause when the body is short
+- `MIN_OUTGOING_LINKS = 3` - pads See also if total links would still be under 3
 - Skips non-resolvable targets (e.g. the `/notes/review/` meta page with `layout: review`)
 
-**3 broken links** to `[[Weekly Review]]` were fixed — that page isn’t in the wikilink registry, so those were swapped for resolvable notes like `[[Periodic Knowledge Review]]` and `[[Graph View Analytics]]`.
+**3 broken links** to `[[Weekly Review]]` were fixed - that page isn’t in the wikilink registry, so those were swapped for resolvable notes like `[[Periodic Knowledge Review]]` and `[[Graph View Analytics]]`.
 
 Notes that already had 3+ body links (Pareto Principle, Sunk Cost Fallacy, etc.) were left as-is. Run `npm run wire:notes` anytime you add notes and want the same wiring applied automatically.
 
@@ -2870,7 +2870,7 @@ remove the weekly review and daily notes functionality
 
 _**Agent (default)**_
 
-I'll map everywhere weekly review and daily notes are wired in — content, layouts, config, and scripts — then remove them cleanly.
+I'll map everywhere weekly review and daily notes are wired in - content, layouts, config, and scripts - then remove them cleanly.
 
 
 _**Agent (default)**_
@@ -3542,27 +3542,27 @@ The weekly review and daily notes functionality has been removed.
 
 _**Agent (default)**_
 
-Removed the weekly review and daily notes **features** — the dedicated routes, templates, and scaffolding. PKM concept notes like `daily-notes.md` and `weekly-review-checklists.md` are unchanged.
+Removed the weekly review and daily notes **features** - the dedicated routes, templates, and scaffolding. PKM concept notes like `daily-notes.md` and `weekly-review-checklists.md` are unchanged.
 
 ### Deleted
-- `content/english/notes/review.md` — `/notes/review/` page
-- `content/english/notes/daily/_index.md` — `/notes/daily/` archive
-- `layouts/notes/review.html` — weekly review template
-- `layouts/notes/daily/list.html` — daily archive template
-- `archetypes/notes/daily.md` — `hugo new notes/daily/...` scaffold
+- `content/english/notes/review.md` - `/notes/review/` page
+- `content/english/notes/daily/_index.md` - `/notes/daily/` archive
+- `layouts/notes/review.html` - weekly review template
+- `layouts/notes/daily/list.html` - daily archive template
+- `archetypes/notes/daily.md` - `hugo new notes/daily/...` scaffold
 
 ### Updated
-- **`layouts/notes/list.html`** — removed “Weekly review” and “Daily notes” toolbar buttons
-- **`layouts/_partials/notes/pages.html`** — dropped `layout: review` exclusion
-- **`layouts/_partials/notes/garden-pages.html`** — no longer excludes `note_kind: daily`
-- **`layouts/notes/single.html`** — removed “Daily note” label
-- **`layouts/_partials/notes/lint-unlinked-mentions.html`** — removed daily-note skip
-- **`assets/css/custom.css`** — removed `.notes-daily-*` and `.notes-review-section` styles
-- **`scripts/wire-notes-obsidian.py`** — removed review/daily linkability exclusions
-- **`getting-started.md`** — removed daily capture section and all `/notes/review/` / `/notes/daily/` references
+- **`layouts/notes/list.html`** - removed “Weekly review” and “Daily notes” toolbar buttons
+- **`layouts/_partials/notes/pages.html`** - dropped `layout: review` exclusion
+- **`layouts/_partials/notes/garden-pages.html`** - no longer excludes `note_kind: daily`
+- **`layouts/notes/single.html`** - removed “Daily note” label
+- **`layouts/_partials/notes/lint-unlinked-mentions.html`** - removed daily-note skip
+- **`assets/css/custom.css`** - removed `.notes-daily-*` and `.notes-review-section` styles
+- **`scripts/wire-notes-obsidian.py`** - removed review/daily linkability exclusions
+- **`getting-started.md`** - removed daily capture section and all `/notes/review/` / `/notes/daily/` references
 
 ### Kept (intentionally)
-- Status badges and inbox/stale/evergreen filters on `/notes/` — still useful without a dedicated review page
+- Status badges and inbox/stale/evergreen filters on `/notes/` - still useful without a dedicated review page
 - Concept notes about daily notes and weekly review as PKM ideas, not site features
 
 Build and lint pass with no new broken wikilinks.
@@ -3927,23 +3927,23 @@ _**Agent (default)**_
 
 _**Agent (default)**_
 
-Yes — Hugo can use the file’s real modification time. Your notes garden doesn’t use it today; it relies on manual `last_reviewed` frontmatter instead.
+Yes - Hugo can use the file’s real modification time. Your notes garden doesn’t use it today; it relies on manual `last_reviewed` frontmatter instead.
 
 ### What Hugo gives you
 
-1. **`.File.ModTime`** — filesystem mtime for the content file:
+1. **`.File.ModTime`** - filesystem mtime for the content file:
    ```go-html-template
    {{ with .File }}{{ .ModTime.Format "Jan 2, 2006" }}{{ end }}
    ```
 
-2. **`.Lastmod`** — Hugo’s page “last modified” field. With default config it only uses frontmatter `lastmod` if you set it. You can configure fallbacks in `hugo.toml`:
+2. **`.Lastmod`** - Hugo’s page “last modified” field. With default config it only uses frontmatter `lastmod` if you set it. You can configure fallbacks in `hugo.toml`:
    ```toml
    [frontmatter]
    lastmod = ["lastmod", ":fileModTime"]
    ```
    Then `.Lastmod` becomes: frontmatter `lastmod` if present, otherwise the file’s mtime.
 
-3. **`enableGitInfo = true`** — optional; `.Lastmod` can fall back to the last Git commit date for that file (useful in CI; less reliable locally if changes aren’t committed).
+3. **`enableGitInfo = true`** - optional; `.Lastmod` can fall back to the last Git commit date for that file (useful in CI; less reliable locally if changes aren’t committed).
 
 ### What your site does now
 
@@ -3964,12 +3964,12 @@ So for most evergreen notes, **stale detection follows `last_reviewed` in frontm
 | Source | Pros | Cons |
 |--------|------|------|
 | `last_reviewed` (current) | Intentional “I re-read this” date | Manual; drifts from actual edits |
-| `:fileModTime` | Automatic on every save | Any edit counts — even typo fixes |
+| `:fileModTime` | Automatic on every save | Any edit counts - even typo fixes |
 | Git last commit | Good for deployed builds | Needs commits; useless for uncommitted work |
 
 **Bottom line:** Hugo can determine the file’s updated date automatically. You’d wire it by either using `.File.ModTime` in templates or setting `lastmod = ["lastmod", ":fileModTime"]` and pointing `note-meta.html` at `.Lastmod` instead of (or as fallback before) `last_reviewed`.
 
-If you want that behavior, say whether stale should track **file edits** or **explicit review dates** — those are different workflows.
+If you want that behavior, say whether stale should track **file edits** or **explicit review dates** - those are different workflows.
 
 ---
 
@@ -5185,7 +5185,7 @@ Status: **completed**
 
 _**Agent (default)**_
 
-Done. Notes now track **filesystem created and edited dates** — no more `last_reviewed` frontmatter.
+Done. Notes now track **filesystem created and edited dates** - no more `last_reviewed` frontmatter.
 
 ### How dates work now
 
@@ -5195,11 +5195,11 @@ Done. Notes now track **filesystem created and edited dates** — no more `last_
 
 ### Template changes
 
-- **`file-dates.html`** — shared partial for Created / Updated
-- **`note-meta.html`** — stale filter uses **file edit age** (`UpdatedAgeDays`)
-- **`recent-updated.html`** — renamed to **“Recently Updated”**, sorted by edit time, shows `Created … · Updated …`
-- **`single.html`** — shows `Created … · Updated …` instead of “Last reviewed”
-- **`status-badge.html`** — tooltip says “Not updated in X days”
+- **`file-dates.html`** - shared partial for Created / Updated
+- **`note-meta.html`** - stale filter uses **file edit age** (`UpdatedAgeDays`)
+- **`recent-updated.html`** - renamed to **“Recently Updated”**, sorted by edit time, shows `Created … · Updated …`
+- **`single.html`** - shows `Created … · Updated …` instead of “Last reviewed”
+- **`status-badge.html`** - tooltip says “Not updated in X days”
 
 ### Removed
 
@@ -5285,7 +5285,7 @@ dead_ends = [n for n in catalog if len(out_deg[n[&#34;title&#34;]]) == 0]
 
 print(f&#34;Orphans ({len(orphans)}):&#34;)
 for n in orphans:
-    print(f&#34;  {n[&#39;path&#39;]} — {n[&#39;title&#39;]} (out: {len(out_deg[n[&#39;title&#39;]])})&#34;)
+    print(f&#34;  {n[&#39;path&#39;]} - {n[&#39;title&#39;]} (out: {len(out_deg[n[&#39;title&#39;]])})&#34;)
 
 print(f&#34;\nDead ends ({len(dead_ends)}):&#34;)
 for n in dead_ends[:10]:
@@ -5347,7 +5347,7 @@ dead_ends = [n for n in catalog if len(out_deg[n["title"]]) == 0]
 
 print(f"Orphans ({len(orphans)}):")
 for n in orphans:
-    print(f"  {n['path']} — {n['title']} (out: {len(out_deg[n['title']])})")
+    print(f"  {n['path']} - {n['title']} (out: {len(out_deg[n['title']])})")
 
 print(f"\nDead ends ({len(dead_ends)}):")
 for n in dead_ends[:10]:
@@ -5357,8 +5357,8 @@ PYEOF
 
 ```
 Orphans (2):
-  the-12-week-year.md — The 12 Week Year (out: 5)
-  the-knowledge-lifecycle.md — The Knowledge Lifecycle (out: 5)
+  the-12-week-year.md - The 12 Week Year (out: 5)
+  the-knowledge-lifecycle.md - The Knowledge Lifecycle (out: 5)
 
 Dead ends (0):
 
@@ -5747,7 +5747,7 @@ The visible link text is "12-week arc", not "12 Week Year". The alias likely doe
 
 _**Agent (default)**_
 
-Fixed the two orphans — **The 12 Week Year** and **The Knowledge Lifecycle** — by adding inbound links:
+Fixed the two orphans - **The 12 Week Year** and **The Knowledge Lifecycle** - by adding inbound links:
 
 | Orphan | Linked from |
 |--------|-------------|

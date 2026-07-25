@@ -50,6 +50,14 @@ cards:
     back: "Name the rebound - say what to repeat."
   - front: "Intern caught the duplicate invoice before I did. What goes in the email?"
     back: "Spell the catch - specific thanks."
+  - front: "Good rep happened - I only corrected the next mistake."
+    back: "Say the rebound out loud - tie to repeat."
+  - front: "Catch was obvious - tempted to skip praise, move on."
+    back: "Spell what they did - email or huddle."
+  - front: "Praise feels cheesy in front of the team - tempted to stay silent."
+    back: "Name the good - specific thanks they'll repeat."
+  - front: "Only critique in film - team never hears wins."
+    back: "One named good per session - then notes."
 draft: false
 ---
 

@@ -18,7 +18,7 @@ The user shared a Hugo build error from a terminal file.
 
 _**Agent (default)**_
 
-The Hugo error points to YAML frontmatter bleeding into the body — I'll open that note and fix the delimiter.
+The Hugo error points to YAML frontmatter bleeding into the body - I'll open that note and fix the delimiter.
 
 
 _**Agent (default)**_
@@ -213,7 +213,7 @@ Multiple files are missing a closing `---` before their body content.
 
 _**Agent (default)**_
 
-Same frontmatter issue appears in other notes — searching the repo for files missing the closing `---`.
+Same frontmatter issue appears in other notes - searching the repo for files missing the closing `---`.
 
 
 _**Agent (default)**_
@@ -686,7 +686,7 @@ The script likely inserted extra `---` delimiters into files that already had va
 
 _**Agent (default)**_
 
-The bulk fix may have been too aggressive — verifying the build and spot-checking a few files.
+The bulk fix may have been too aggressive - verifying the build and spot-checking a few files.
 
 
 _**Agent (default)**_
@@ -723,7 +723,7 @@ _**Agent (default)**_
 
 _**Agent (default)**_
 
-Build succeeded, but some notes have duplicate `---` delimiters — cleaning those up.
+Build succeeded, but some notes have duplicate `---` delimiters - cleaning those up.
 
 
 _**Agent (default)**_
@@ -1108,10 +1108,10 @@ _**Agent (default)**_
 
 _**Agent (default)**_
 
-The Hugo error was a **missing frontmatter delimiter**. In `ask-seek-knock.md`, the body started on line 29 while YAML was still open — Hugo tried to parse markdown as YAML and failed with `non-map value is specified`.
+The Hugo error was a **missing frontmatter delimiter**. In `ask-seek-knock.md`, the body started on line 29 while YAML was still open - Hugo tried to parse markdown as YAML and failed with `non-map value is specified`.
 
 The closing `---` had ended up at the bottom of the file instead of after the frontmatter fields.
 
 **Fix:** Move the closing `---` to immediately after the last frontmatter field (`aliases`), before the body.
 
-The same issue was present in several other notes (including `associative-linking.md`, `capture.md`, and others). Those are corrected too. Hugo builds successfully now — your dev server should recover on the next watch cycle, or you can restart it if needed.
+The same issue was present in several other notes (including `associative-linking.md`, `capture.md`, and others). Those are corrected too. Hugo builds successfully now - your dev server should recover on the next watch cycle, or you can restart it if needed.

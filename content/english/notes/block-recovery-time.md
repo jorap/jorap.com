@@ -45,6 +45,20 @@ author: "JoRap"
 tags: ["Energy", "Habits", "Sustainable Performance", "Work"]
 aliases: ["scheduled recovery", "recovery blocks"]
 featured: false
-review: false
+review: true
+card_sets: ["Focus", "Workflow"]
+cards:
+  - front: "Q4 crunch incoming - Wednesday walks never blocked on the calendar."
+    back: "Block the walk - immovable like meetings."
+  - front: "Team culture wears empty weekends as badges - my refill keeps slipping."
+    back: "Block Friday afternoon - no-meeting zone."
+  - front: "Recovery only happens if something else cancels - pattern breaking families."
+    back: "Schedule rest first - not leftover time."
+  - front: "Water bottle never on the bench before the drill - same move for my nap?"
+    back: "Block recovery before crunch owns the week."
+  - front: "Email screamed through lunch again - walk was flexible."
+    back: "Immovable block - walk stays when inbox pings."
+  - front: "Bedtime arguments spiked the weeks I skipped noon walks."
+    back: "Re-block Wednesday - refill is calendar work."
 draft: false
 ---

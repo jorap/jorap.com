@@ -45,7 +45,7 @@ featured: false
 review: true
 card_sets: ["Writing", "Review"]
 cards:
-  - front: "Friday film day - everyone's supposed to show one clip, rough or not. My note pile?"
+  - front: "Friday film day - everyone shows one rough clip. My note pile still polished only."
     back: "Publish one rough piece too."
   - front: "Sermon outline's still rough but truth hoarded in the garden helps nobody. Ship it?"
     back: "Publish before it's polished."
@@ -53,6 +53,10 @@ cards:
     back: "Inventory isn't the point - ship."
   - front: "Dinner's ready and I'm waiting for perfect photos before anyone eats. What's the move?"
     back: "Serve it - don't polish the post."
+  - front: "Friday film day - everyone shows rough clip but my notes stay polished."
+    back: "Ship one rough piece - inventory isn't output."
+  - front: "Perfect photos blocking dinner - family waiting."
+    back: "Serve food - polish the post later."
 draft: false
 ---
 

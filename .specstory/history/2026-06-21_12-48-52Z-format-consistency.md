@@ -619,7 +619,7 @@ Parameters:
   "caseInsensitive": false,
   "outputMode": "count",
   "path": "/Users/jonathanrapusas/Documents/GitHub/jorap.com/content/english/notes",
-  "pattern": "\\| — \\|"
+  "pattern": "\\| - \\|"
 }
 ```
 Additional data:
@@ -629,7 +629,7 @@ Additional data:
   "isPruned": true,
   "outputMode": "count",
   "path": "/Users/jonathanrapusas/Documents/GitHub/jorap.com/content/english/notes",
-  "pattern": "\\| — \\|",
+  "pattern": "\\| - \\|",
   "topFiles": [
     {
       "matchCount": 1,
@@ -1066,7 +1066,7 @@ _**Agent (auto-low)**_
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The specstory notes that over 90 extends rows currently show "—" in the Reason column. Standardizing these entries would improve consistency.</details></think>
+The specstory notes that over 90 extends rows currently show "-" in the Reason column. Standardizing these entries would improve consistency.</details></think>
 
 _**Agent (auto-low)**_
 
@@ -1340,7 +1340,7 @@ Parameters:
   "caseInsensitive": false,
   "outputMode": "count",
   "path": "/Users/jonathanrapusas/Documents/GitHub/jorap.com/content/english/notes",
-  "pattern": "\\| extends \\|.*\\| —"
+  "pattern": "\\| extends \\|.*\\| -"
 }
 ```
 Additional data:
@@ -1350,7 +1350,7 @@ Additional data:
   "isPruned": true,
   "outputMode": "count",
   "path": "/Users/jonathanrapusas/Documents/GitHub/jorap.com/content/english/notes",
-  "pattern": "\\| extends \\|.*\\| —",
+  "pattern": "\\| extends \\|.*\\| -",
   "topFiles": [],
   "totalFiles": 0,
   "totalMatches": 0
@@ -1550,10 +1550,10 @@ atomic-notes.md already contains reasons for extends. Some formatting work may a
 _**Agent (auto-low)**_
 
 <tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /Users/jonathanrapusas/Documents/GitHub/jorap.com && rg '\| extends \|' content/english/notes/*.md | rg '\| — \|' | wc -l && rg '\| extends \|' content/english/notes/*.md | rg -v '\| — \|' | wc -l</summary>
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /Users/jonathanrapusas/Documents/GitHub/jorap.com && rg '\| extends \|' content/english/notes/*.md | rg '\| - \|' | wc -l && rg '\| extends \|' content/english/notes/*.md | rg -v '\| - \|' | wc -l</summary>
 
 ```bash
-cd /Users/jonathanrapusas/Documents/GitHub/jorap.com && rg '\| extends \|' content/english/notes/*.md | rg '\| — \|' | wc -l && rg '\| extends \|' content/english/notes/*.md | rg -v '\| — \|' | wc -l
+cd /Users/jonathanrapusas/Documents/GitHub/jorap.com && rg '\| extends \|' content/english/notes/*.md | rg '\| - \|' | wc -l && rg '\| extends \|' content/english/notes/*.md | rg -v '\| - \|' | wc -l
 ```
 
 ```
@@ -1581,7 +1581,7 @@ Parameters:
 {
   "caseInsensitive": false,
   "path": "/Users/jonathanrapusas/Documents/GitHub/jorap.com/content/english/notes",
-  "pattern": "\\| extends \\|.*\\| — \\|"
+  "pattern": "\\| extends \\|.*\\| - \\|"
 }
 ```
 Additional data:
@@ -1591,7 +1591,7 @@ Additional data:
   "isPruned": true,
   "outputMode": "content",
   "path": "/Users/jonathanrapusas/Documents/GitHub/jorap.com/content/english/notes",
-  "pattern": "\\| extends \\|.*\\| — \\|",
+  "pattern": "\\| extends \\|.*\\| - \\|",
   "topFiles": [],
   "totalFiles": 0,
   "totalMatches": 0
@@ -1611,7 +1611,7 @@ Status: **completed**
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-No extends rows still use "—" as a reason. They appear to have been fixed already.
+No extends rows still use "-" as a reason. They appear to have been fixed already.
 
 Checking remaining format inconsistencies across notes, tables, and toolbar. Re-reading path.md, backlinks.md, and queue.md. Toolbar.html is the current focus.
 
@@ -1749,16 +1749,16 @@ Toolbar buttons are grouped inconsistently across conditional blocks. One Hugo t
 _**Agent (auto-low)**_
 
 <tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /Users/jonathanrapusas/Documents/GitHub/jorap.com && rg '\| — \|' content/english/notes/*.md | head -20 && echo "---count---" && rg '\| — \|' content/english/notes/*.md | wc -l</summary>
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /Users/jonathanrapusas/Documents/GitHub/jorap.com && rg '\| - \|' content/english/notes/*.md | head -20 && echo "---count---" && rg '\| - \|' content/english/notes/*.md | wc -l</summary>
 
 ```bash
-cd /Users/jonathanrapusas/Documents/GitHub/jorap.com && rg '\| — \|' content/english/notes/*.md | head -20 && echo "---count---" && rg '\| — \|' content/english/notes/*.md | wc -l
+cd /Users/jonathanrapusas/Documents/GitHub/jorap.com && rg '\| - \|' content/english/notes/*.md | head -20 && echo "---count---" && rg '\| - \|' content/english/notes/*.md | wc -l
 ```
 
 ```
-content/english/notes/eternal-principles.md:| index | — | Index for gospel notes in this garden |
-content/english/notes/getting-started.md:| index | — | Index for this site |
-content/english/notes/maps-of-content.md:| index | — | Index for the garden |
+content/english/notes/eternal-principles.md:| index | - | Index for gospel notes in this garden |
+content/english/notes/getting-started.md:| index | - | Index for this site |
+content/english/notes/maps-of-content.md:| index | - | Index for the garden |
 ---count---
        3
 
@@ -2457,11 +2457,11 @@ _**Agent (auto-low)**_
 
 Aligned two format inconsistencies:
 
-**Toolbar counts** — now match list/graph filters (`Label · count` with `notes-filter__count`):
+**Toolbar counts** - now match list/graph filters (`Label · count` with `notes-filter__count`):
 - `All 87 Notes` → `All · 87`
 - `Issues (5)` → `Issues · 5` (always shown, not only when > 0)
 
-**Structure issue hints** — updated from the old inline prose format to the table format:
+**Structure issue hints** - updated from the old inline prose format to the table format:
 - `Extends [[Note Title]]` → `| extends | [[Note Title]] | reason |` in **Note Relationships**
 - Same for contradicts rows
 
@@ -2743,7 +2743,7 @@ Rephrasing is preferred over adding redundant wikilinks inside the same table ro
 
 _**Agent (auto-low)**_
 
-Fixing the six mentions by rephrasing Reason cells so note titles aren't repeated in prose—the Wikilink column already has the link.
+Fixing the six mentions by rephrasing Reason cells so note titles aren't repeated in prose-the Wikilink column already has the link.
 
 
 _**Agent (auto-low)**_
@@ -2896,7 +2896,7 @@ cd /Users/jonathanrapusas/Documents/GitHub/jorap.com && hugo --gc 2>&1 | rg 'unl
 
 _**Agent (auto-low)**_
 
-All six unlinked mentions are cleared. Each one was in a **Note Relationships** Reason cell — the Wikilink column already had the link, so the fix was rephrasing the Reason text to avoid repeating the note title in prose:
+All six unlinked mentions are cleared. Each one was in a **Note Relationships** Reason cell - the Wikilink column already had the link, so the fix was rephrasing the Reason text to avoid repeating the note title in prose:
 
 | Note | Was | Now |
 |------|-----|-----|
@@ -2949,7 +2949,7 @@ _**User**_
       </p>
       <ul class="notes-issues__list mb-0 list-none space-y-2 p-0 text-sm"><li class="notes-issues__item notes-issues__item--broken">
             <strong>Missing note:</strong>
-            wikilink <code>[[Commonplace Book]]</code> — no page matches this title, slug, or alias.
+            wikilink <code>[[Commonplace Book]]</code> - no page matches this title, slug, or alias.
           </li></ul>
     </aside><div class="content notes-content mb-10">
               <p>I love my wiki, but sometimes paper wins - meetings, sermons, the pocket notebook that survives a dead phone battery. Sermon capture often becomes <a href="/notes/eternal-principles/" class="wikilink" data-wikilink-preview="/notes/eternal-principles/">Eternal Principles</a> notes after weekly review.</p>
@@ -2981,7 +2981,7 @@ _**User**_
 			<tr>
 					<td>extends</td>
 					<td><span class="wikilink-broken" title="No matching note for this wikilink">Commonplace Book</span></td>
-					<td>Historical paper capture habit — same low-friction lane</td>
+					<td>Historical paper capture habit - same low-friction lane</td>
 			</tr>
 	</tbody>
 </table>
@@ -3497,7 +3497,7 @@ The content heading should match Link issues at h6. The panel title should stay 
 
 _**Agent (auto-low)**_
 
-The panel title uses `h4`, Link issues uses `h6`, but markdown `##` headings still render at full `h2` size. I'll align them—panel titles to `h5` (matching other random views) and content headings to `h6`.
+The panel title uses `h4`, Link issues uses `h6`, but markdown `##` headings still render at full `h2` size. I'll align them-panel titles to `h5` (matching other random views) and content headings to `h6`.
 
 
 _**Agent (auto-low)**_
@@ -3541,9 +3541,9 @@ _**Agent (auto-low)**_
 
 Fixed the heading hierarchy in random note panels:
 
-**Panel title** — Featured Random now uses `h5` like duo and single random views (was `h4`, oversized).
+**Panel title** - Featured Random now uses `h5` like duo and single random views (was `h4`, oversized).
 
-**Content headings** — `## Note Relationships` and other markdown headings inside `.notes-random-panel` now render at `h6` size, matching **Link issues** and other aside labels instead of full article `h2` (~3rem).
+**Content headings** - `## Note Relationships` and other markdown headings inside `.notes-random-panel` now render at `h6` size, matching **Link issues** and other aside labels instead of full article `h2` (~3rem).
 
 Resulting hierarchy in the panel:
 - **Note title** → `h5`
@@ -3642,7 +3642,7 @@ Index is designed for hub pages that gather many notes together, not for pairs. 
 
 _**Agent (auto-low)**_
 
-**No — not for a pair of atomic notes.** In your garden, `index` means one note **gathers many others**, not a link between two peers.
+**No - not for a pair of atomic notes.** In your garden, `index` means one note **gathers many others**, not a link between two peers.
 
 From [[Note Relationships]]:
 
@@ -3654,14 +3654,14 @@ Your flashcard frames it the same way: a hub page gathering ~20 related notes �
 
 For **two notes**, the useful types are:
 
-- **extends** — A builds on B  
-- **contradicts** — A pushes against B (with a `when` in Reason)  
-- **implements** — A carries B out in practice  
-- **alternative** — A and B solve the same job different ways  
+- **extends** - A builds on B  
+- **contradicts** - A pushes against B (with a `when` in Reason)  
+- **implements** - A carries B out in practice  
+- **alternative** - A and B solve the same job different ways  
 
-If note A only “points at” note B, that’s **extends** (or **alternative** if they’re interchangeable tools). `index` would mislabel the relationship — it implies A is a table-of-contents for a cluster, not a single link to one neighbor.
+If note A only “points at” note B, that’s **extends** (or **alternative** if they’re interchangeable tools). `index` would mislabel the relationship - it implies A is a table-of-contents for a cluster, not a single link to one neighbor.
 
-**When index does help:** on the **hub note itself**, one row like `| index | — | Index for gospel notes in this garden |` tells the linter and graph “this page is the MOC, not a claim.” That’s why your spec says index/MOC pages use an **index** row **instead of** the usual extends+contradicts minimum — not as a pairwise link between two atomic notes.
+**When index does help:** on the **hub note itself**, one row like `| index | - | Index for gospel notes in this garden |` tells the linter and graph “this page is the MOC, not a claim.” That’s why your spec says index/MOC pages use an **index** row **instead of** the usual extends+contradicts minimum - not as a pairwise link between two atomic notes.
 
 **Rule of thumb:** pair of notes → extends/contradicts/implements/alternative. One note listing many → `index` on the hub only.
 
@@ -4145,18 +4145,18 @@ _**Agent (auto-low)**_
 | **implements** | What does this make real? |
 | **alternative** | What else could do this job? |
 
-Candidates people add elsewhere — **requires**, **enables**, **example of**, **refines**, **inspired by** — usually collapse into one of yours:
+Candidates people add elsewhere - **requires**, **enables**, **example of**, **refines**, **inspired by** - usually collapse into one of yours:
 
 - A needs B first → **extends** (with reason: "assumes X")
 - A is a case of B → **extends**
 - A and B are peers, pick one → **alternative**
 - A operationalizes B → **implements**
 
-I'd skip a fifth pair type unless you keep hitting the same gap. "Pairs with" is already informal **extends** in your docs. Pipeline order (capture → distill → express) stays prose — not a link type.
+I'd skip a fifth pair type unless you keep hitting the same gap. "Pairs with" is already informal **extends** in your docs. Pipeline order (capture → distill → express) stays prose - not a link type.
 
 ---
 
-**Index as a flag instead of a relationship type?** Yes — that's the cleaner model.
+**Index as a flag instead of a relationship type?** Yes - that's the cleaner model.
 
 `index` isn't pairwise. It describes the **page**: "this note gathers many others." Right now that's a table row on 3 hubs ([[Getting Started]], [[Eternal Principles]], [[Maps of Content]]), and the linter reads it from body text via `relationship-types.html`.
 
@@ -4166,7 +4166,7 @@ Utility already works this way:
 note_kind: meta   # Graph, Issues, Review, Flashcards, etc.
 ```
 
-Handled by `is-utility-page.html` — excluded from graph nodes, random pool, card sources; no `## Note Relationships` table; URL links only; `npm run lint:utility-links`.
+Handled by `is-utility-page.html` - excluded from graph nodes, random pool, card sources; no `## Note Relationships` table; URL links only; `npm run lint:utility-links`.
 
 Index could mirror that:
 
@@ -4179,23 +4179,23 @@ Then:
 - Hub pages skip the extends/contradicts minimum (already how `$rels.index` works in `collect-note-issues.html`)
 - Graph can treat hubs via frontmatter instead of parsing `| index |` rows
 - The table becomes **pair-only**: extends, contradicts, implements, alternative
-- Reason column stays meaningful on every row — no more `| index | — | Index for … |` filler
+- Reason column stays meaningful on every row - no more `| index | - | Index for … |` filler
 
 `getting-started` is a slight edge case: both site index and onboarding note. You could use `note_kind: index` plus normal extends/contradicts if you want typed links there too.
 
 ---
 
-**Does utility have a flag?** Yes — **`note_kind: meta`**, with layout name as fallback (`graph`, `review`, `queue`, etc.) in `is-utility-page.html`.
+**Does utility have a flag?** Yes - **`note_kind: meta`**, with layout name as fallback (`graph`, `review`, `queue`, etc.) in `is-utility-page.html`.
 
 | Kind | What it is | Relationships table | Wikilink from content notes? |
 |------|------------|---------------------|------------------------------|
 | `note` (default) | Atomic garden claim | Required (extends + contradicts) | Yes |
-| `meta` | Tool surface | Skipped | No — URL only |
-| `index` (proposed) | MOC / hub | Skipped or optional | Yes — hubs are ideas, not tools |
+| `meta` | Tool surface | Skipped | No - URL only |
+| `index` (proposed) | MOC / hub | Skipped or optional | Yes - hubs are ideas, not tools |
 
 ---
 
-**Recommendation:** Drop `index` from the five relationship types. Promote it to `note_kind: index` (or `moc`). Keep the table for **pairs only**. You already have the pattern with `meta`; index is the same idea — page role, not link semantics.
+**Recommendation:** Drop `index` from the five relationship types. Promote it to `note_kind: index` (or `moc`). Keep the table for **pairs only**. You already have the pattern with `meta`; index is the same idea - page role, not link semantics.
 
 Want me to implement that migration (frontmatter on the 3 hub notes, update linter/graph/templates, remove index rows from tables)?
 
@@ -4552,7 +4552,7 @@ from pathlib import Path
 
 NOTES = Path("content/english/notes")
 TYPE_ORDER = {"alternative": 0, "contradicts": 1, "extends": 2, "implements": 3}
-row_re = re.compile(r"^\|\s*(alternative|contradicts|extends|implements|index)\s*\|\s*(\[\[[^\]]+\]\]|—)\s*\|\s*(.+?)\s*\|$")
+row_re = re.compile(r"^\|\s*(alternative|contradicts|extends|implements|index)\s*\|\s*(\[\[[^\]]+\]\]|-)\s*\|\s*(.+?)\s*\|$")
 
 stats = {"notes": 0, "missing_alt": 0, "missing_impl": 0, "has_index_row": 0, "unsorted": 0, "meta": 0, "index_kind": 0}
 by_note = []
@@ -4606,7 +4606,7 @@ from pathlib import Path
 
 NOTES = Path("content/english/notes")
 TYPE_ORDER = {"alternative": 0, "contradicts": 1, "extends": 2, "implements": 3}
-row_re = re.compile(r"^\|\s*(alternative|contradicts|extends|implements|index)\s*\|\s*(\[\[[^\]]+\]\]|—)\s*\|\s*(.+?)\s*\|$")
+row_re = re.compile(r"^\|\s*(alternative|contradicts|extends|implements|index)\s*\|\s*(\[\[[^\]]+\]\]|-)\s*\|\s*(.+?)\s*\|$")
 
 stats = {"notes": 0, "missing_alt": 0, "missing_impl": 0, "has_index_row": 0, "unsorted": 0, "meta": 0, "index_kind": 0}
 by_note = []
@@ -4884,7 +4884,7 @@ import re
 from pathlib import Path
 
 NOTES = Path("content/english/notes")
-row_re = re.compile(r"^\|\s*(alternative|contradicts|extends|implements|index)\s*\|\s*(\[\[[^\]]+\]\]|—)\s*\|\s*(.+?)\s*\|$")
+row_re = re.compile(r"^\|\s*(alternative|contradicts|extends|implements|index)\s*\|\s*(\[\[[^\]]+\]\]|-)\s*\|\s*(.+?)\s*\|$")
 
 for f in sorted(NOTES.glob("*.md")):
     if f.name.startswith("_"): continue
@@ -4908,7 +4908,7 @@ import re
 from pathlib import Path
 
 NOTES = Path("content/english/notes")
-row_re = re.compile(r"^\|\s*(alternative|contradicts|extends|implements|index)\s*\|\s*(\[\[[^\]]+\]\]|—)\s*\|\s*(.+?)\s*\|$")
+row_re = re.compile(r"^\|\s*(alternative|contradicts|extends|implements|index)\s*\|\s*(\[\[[^\]]+\]\]|-)\s*\|\s*(.+?)\s*\|$")
 
 for f in sorted(NOTES.glob("*.md")):
     if f.name.startswith("_"): continue
@@ -5518,7 +5518,7 @@ The replace_table function splits on `\n## ` and keeps the old table text. This 
 
 _**Agent (auto-low)**_
 
-The sync script broke notes where `## Note Relationships` appears in prose — fixing the parser and repairing corrupted files.
+The sync script broke notes where `## Note Relationships` appears in prose - fixing the parser and repairing corrupted files.
 
 
 _**Agent (auto-low)**_
@@ -6379,7 +6379,7 @@ New partial `is-index-page.html` drives graph **Index** filter and list `data-no
 ### Four pair types only (sorted)
 Every atomic note table is sorted: **alternative → contradicts → extends → implements**.
 
-87 garden notes updated. PKM notes got **implements** and **alternative** where they fit (e.g. [[Analog Capture Tools]] now has all four). Gospel notes got alternatives only where sibling practices genuinely compete (e.g. [[Secret Devotion]] ↔ [[Let Your Light Shine]]) — not forced filler on every faith note.
+87 garden notes updated. PKM notes got **implements** and **alternative** where they fit (e.g. [[Analog Capture Tools]] now has all four). Gospel notes got alternatives only where sibling practices genuinely compete (e.g. [[Secret Devotion]] ↔ [[Let Your Light Shine]]) - not forced filler on every faith note.
 
 ~50 **future-note** `extends` stubs kept or added ([[Zettelkasten]], [[Sermon on the Mount]], [[Frictionless Capture]], etc.) as broken links for Issues.
 
@@ -6387,9 +6387,9 @@ Every atomic note table is sorted: **alternative → contradicts → extends →
 
 | `note_kind` | Role | Table required? |
 |-------------|------|-----------------|
-| `note` (default) | Atomic claim | Yes — extends + contradicts minimum |
-| `index` | Hub / MOC | No — optional |
-| `meta` | Utility tool | No — URL only, no wikilinks |
+| `note` (default) | Atomic claim | Yes - extends + contradicts minimum |
+| `index` | Hub / MOC | No - optional |
+| `meta` | Utility tool | No - URL only, no wikilinks |
 
 ### Files touched
 - Templates: `relationship-types.html`, `collect-note-issues.html`, `graph-data.html`, `list.html`, new `is-index-page.html`
@@ -7109,7 +7109,7 @@ Sections split into three buckets: what you write in markdown, what the theme in
 
 ## By page kind
 
-### `note_kind: note` (default — atomic garden notes)
+### `note_kind: note` (default - atomic garden notes)
 
 **Standard body sections (what almost every note has):**
 
@@ -7117,18 +7117,18 @@ Sections split into three buckets: what you write in markdown, what the theme in
 |---------|-----------|---------|
 | **Opening prose** | Yes | One-breath definition + claim (no `##` needed) |
 | **## Note Relationships** | Yes (linted) | Table: alternative → contradicts → extends → implements |
-| **## See also** | Optional in markdown | Legacy/editor hints; **stripped at render** — the theme builds See also from tags |
+| **## See also** | Optional in markdown | Legacy/editor hints; **stripped at render** - the theme builds See also from tags |
 
-That's the atomic pattern from [[Getting Started]] and [[Atomic Notes]]: *"No extra `##` sections beyond **Note Relationships**"* — one claim in prose, typed links in the table, everything else via wikilinks and hubs.
+That's the atomic pattern from [[Getting Started]] and [[Atomic Notes]]: *"No extra `##` sections beyond **Note Relationships**"* - one claim in prose, typed links in the table, everything else via wikilinks and hubs.
 
 **Extra `##` sections are discouraged** on atomic notes. If you need a second heading, you probably need a second note. The old "non-atomic heading" linter was removed for this reason.
 
 **Rare exceptions in the garden today:**
-- [[Mental Models List]] has **## Models** (list hub inside one note — borderline MOC, not atomic)
+- [[Mental Models List]] has **## Models** (list hub inside one note - borderline MOC, not atomic)
 
 ---
 
-### `note_kind: index` (hub / MOC — 3 pages)
+### `note_kind: index` (hub / MOC - 3 pages)
 
 These **can** have many `##` sections because they gather links, not one claim.
 
@@ -7142,7 +7142,7 @@ Optional **## Note Relationships** table (not required for index pages).
 
 ---
 
-### `note_kind: meta` (utility — Graph, Issues, Review, etc.)
+### `note_kind: meta` (utility - Graph, Issues, Review, etc.)
 
 No **## Note Relationships** table. Body is tool docs only.
 
@@ -7166,7 +7166,7 @@ These appear on `/notes/<slug>/` from templates, regardless of what you write:
 | **Table of contents** | Auto from body `##` headings (sidebar on desktop) |
 | **Flashcards** | Frontmatter `cards:` when `review: true` |
 | **Links from this Note** | Outgoing wikilinks in body |
-| **See also** | Tag-related notes (dynamic — not your markdown `## See also`) |
+| **See also** | Tag-related notes (dynamic - not your markdown `## See also`) |
 | **Backlinks** | Inbound wikilinks |
 
 ---
@@ -7178,7 +7178,7 @@ Atomic claim?     → prose + ## Note Relationships only
 Gathering many?   → note_kind: index + topic ## sections + wikilink lists  
 Tool/docs page?   → note_kind: meta + whatever ## sections help; URL links only
 Flashcards?       → frontmatter cards: (renders Flashcards block, not a ## section)
-Related notes?    → don't write ## See also — tags + theme handle it
+Related notes?    → don't write ## See also - tags + theme handle it
 ```
 
 **Rule of thumb:** For a normal note, the only structural section you should plan for is **## Note Relationships**. Everything else is either prose, a hub/index exception, or injected by the theme.
@@ -7200,7 +7200,7 @@ _**Agent (auto-low)**_
 
 Sections worth adding depend on **page kind**. Most new sections belong on **index/meta** pages or as **theme blocks**, not as extra `##` headings on atomic notes.
 
-## Atomic notes (`note_kind: note`) — add sparingly
+## Atomic notes (`note_kind: note`) - add sparingly
 
 The garden rule stays: **prose + ## Note Relationships**. Extra headings usually mean the note should split.
 
@@ -7209,30 +7209,30 @@ If you really need one more body section, these are the only ones that fit the a
 | Section | When it helps | Caveat |
 |---------|---------------|--------|
 | **## Example** | One concrete scenario that makes the claim stick | Keep to one example; second idea → new note |
-| **## When I use this** | Habit trigger — "I reach for this when…" | Good for PKM workflow notes; gospel notes rarely need it |
+| **## When I use this** | Habit trigger - "I reach for this when…" | Good for PKM workflow notes; gospel notes rarely need it |
 | **## Source** | One citation (book, verse block, talk) | Prefer [[Literature Notes]] as a separate note if the source is big |
 
-Everything else (related ideas, tensions, tools) already lives in **Note Relationships** and wikilinks. I'd avoid adding **Summary**, **Bottom line**, or **Pairs with** — those were old patterns you're moving away from.
+Everything else (related ideas, tensions, tools) already lives in **Note Relationships** and wikilinks. I'd avoid adding **Summary**, **Bottom line**, or **Pairs with** - those were old patterns you're moving away from.
 
 ---
 
-## Index pages (`note_kind: index`) — most room to grow
+## Index pages (`note_kind: index`) - most room to grow
 
 Hubs are where extra sections make sense. Useful additions:
 
 | Section | Purpose |
 |---------|---------|
 | **## Start here** | 3–5 entry notes for newcomers (Getting Started already does this informally) |
-| **## By topic** / **## Maps** | What MOCs already use — curated wikilink lists under `###` groups |
+| **## By topic** / **## Maps** | What MOCs already use - curated wikilink lists under `###` groups |
 | **## Orphans / gaps** | Notes you know you still need to write (broken links on purpose) |
-| **## Recently updated** | Could be theme-driven from file dates — no manual section needed |
-| **## Cross-links** | Eternal Principles' **Cross-links (PKM)** — faith ↔ productivity bridges |
+| **## Recently updated** | Could be theme-driven from file dates - no manual section needed |
+| **## Cross-links** | Eternal Principles' **Cross-links (PKM)** - faith ↔ productivity bridges |
 
-Eternal Principles could also use **## Drill** (link to Review + which `card_sets` match each section) — right now that's in prose.
+Eternal Principles could also use **## Drill** (link to Review + which `card_sets` match each section) - right now that's in prose.
 
 ---
 
-## Meta pages (`note_kind: meta`) — docs sections
+## Meta pages (`note_kind: meta`) - docs sections
 
 Utility pages can have whatever `##` sections explain the tool:
 
@@ -7247,7 +7247,7 @@ Utility pages can have whatever `##` sections explain the tool:
 
 ## Theme blocks (best bang for buck)
 
-These add "sections" **without** breaking the atomic rule — rendered from frontmatter or graph data, not extra `##` in markdown:
+These add "sections" **without** breaking the atomic rule - rendered from frontmatter or graph data, not extra `##` in markdown:
 
 | Block | Data source | Value |
 |-------|-------------|-------|
@@ -7273,18 +7273,18 @@ Sometimes better than `##` headings:
 | `aliases:` | Alternate link targets (already used) |
 | `status:` | seedling / evergreen / inbox / archived |
 | `note_kind:` | index / meta / note |
-| Future: `hub:` or `parent:` | Which MOC owns this note (optional — backlinks + MOC lists may be enough) |
+| Future: `hub:` or `parent:` | Which MOC owns this note (optional - backlinks + MOC lists may be enough) |
 
 ---
 
 ## What I'd **not** add
 
-- **## Tags** / **## Categories** — already in frontmatter chips
-- **## See also** in markdown — theme generates it; static lists rot
-- **## Backlinks** in markdown — theme generates it
-- **## Flashcards** in body — use frontmatter `cards:`
-- **## Pipeline** (capture → distill → express) — keep as prose in [[Building a Second Brain]], not a sixth relationship type or repeated section
-- **Per-note ## Contradicts / ## Extends** — that's what the table replaced
+- **## Tags** / **## Categories** - already in frontmatter chips
+- **## See also** in markdown - theme generates it; static lists rot
+- **## Backlinks** in markdown - theme generates it
+- **## Flashcards** in body - use frontmatter `cards:`
+- **## Pipeline** (capture → distill → express) - keep as prose in [[Building a Second Brain]], not a sixth relationship type or repeated section
+- **Per-note ## Contradicts / ## Extends** - that's what the table replaced
 
 ---
 
@@ -7292,13 +7292,13 @@ Sometimes better than `##` headings:
 
 **If you're choosing one thing to add:**
 
-1. **Theme blocks** first (relationship neighbors, stale badge) — zero markdown discipline cost  
-2. **Index-only sections** second (`## Start here`, `## Gaps`) — only on the 3 hub pages  
-3. **Atomic body sections** last — only `## Example` or `## Source` when one note truly needs it  
+1. **Theme blocks** first (relationship neighbors, stale badge) - zero markdown discipline cost  
+2. **Index-only sections** second (`## Start here`, `## Gaps`) - only on the 3 hub pages  
+3. **Atomic body sections** last - only `## Example` or `## Source` when one note truly needs it  
 
 The garden stays healthiest when atomic notes stay at **two blocks**: opening claim + **Note Relationships**. Hubs and the theme carry everything else.
 
-If you want to go further, we could pick one — e.g. a **Start here** block on index pages, or a **Contradicts neighbors** panel on single notes — and wire it up.
+If you want to go further, we could pick one - e.g. a **Start here** block on index pages, or a **Contradicts neighbors** panel on single notes - and wire it up.
 
 ---
 
@@ -7356,7 +7356,7 @@ Explaining to an X-year-old is the Feynman technique. It belongs as an optional 
 
 _**Agent (auto-low)**_
 
-These four map cleanly onto what you already have — but **not as four standard `##` sections on every atomic note**. Here's where each belongs.
+These four map cleanly onto what you already have - but **not as four standard `##` sections on every atomic note**. Here's where each belongs.
 
 ---
 
@@ -7366,10 +7366,10 @@ These four map cleanly onto what you already have — but **not as four standard
 
 | Approach | When |
 |----------|------|
-| **One line in opening prose** | Default — "Paper wins in sermons when the phone dies" |
+| **One line in opening prose** | Default - "Paper wins in sermons when the phone dies" |
 | **## Example** (single, optional) | When the claim needs one concrete scene to land |
 | **Second note + wikilink** | Second example = different claim → split |
-| **Flashcard front** | Spine notes already — scenario *is* the practical example |
+| **Flashcard front** | Spine notes already - scenario *is* the practical example |
 
 Your cards skill literally trains **life's cue → act now**. That's "practical example" without a section. Adding **## Practical Examples** on 87 notes would duplicate flashcards on spine notes and bloat atomic notes elsewhere.
 
@@ -7379,14 +7379,14 @@ Your cards skill literally trains **life's cue → act now**. That's "practical 
 
 ### Why Is This Important
 
-**Fit:** Usually **already covered** — redundant as its own section.
+**Fit:** Usually **already covered** - redundant as its own section.
 
 You already have:
 - Opening **one-breath definition** (the "why" in plain language)
 - **Reason** column on **extends** rows ("what this builds on")
 - **contradicts** with **when** (why the tradeoff matters)
 
-A **## Why Is This Important** section tends to become a second essay — the thing [[Atomic Notes]] pushes against ("mini blog post with multiple sections").
+A **## Why Is This Important** section tends to become a second essay - the thing [[Atomic Notes]] pushes against ("mini blog post with multiple sections").
 
 **Recommendation:** Skip as a section. If "why" isn't clear, fix the **opening sentence** or the **extends Reason**, not add a heading.
 
@@ -7396,7 +7396,7 @@ A **## Why Is This Important** section tends to become a second essay — the th
 
 **Fit:** Strong idea, **wrong default shape** as a body section.
 
-This *is* [[The Feynman Technique]] — teach-it-simple to expose gaps. Good content, but:
+This *is* [[The Feynman Technique]] - teach-it-simple to expose gaps. Good content, but:
 
 - Not every note needs it (garden meta, pure workflow labels)
 - Age varies by idea (gospel ethics → ~10–12; PKM abstractions → ~14–16; grace vs works → ~8 with a story)
@@ -7407,7 +7407,7 @@ Better homes:
 | Home | Use |
 |------|-----|
 | **One sentence in prose** | "I'd tell a kid: …" when it clarifies the claim |
-| **Flashcard back** | Spine notes — simple apply line *is* the kid version |
+| **Flashcard back** | Spine notes - simple apply line *is* the kid version |
 | **Optional frontmatter** | e.g. `explain_age: 12` + `explain: "..."` if you want it structured without `##` |
 | **Dedicated note** | Feynman technique already covers the *method*; each atom doesn't repeat the method |
 
@@ -7415,10 +7415,10 @@ Better homes:
 
 | Age band | Good for |
 |----------|----------|
-| **6–8** | Concrete actions — share, forgive, tell the truth |
+| **6–8** | Concrete actions - share, forgive, tell the truth |
 | **10–12** | Beatitudes, neighbor love, simple PKM habits |
-| **14–16** | Tradeoffs — PARA vs links, signal vs noise |
-| **Adult** | Skip kid frame — use normal prose |
+| **14–16** | Tradeoffs - PARA vs links, signal vs noise |
+| **Adult** | Skip kid frame - use normal prose |
 
 **Recommendation:** Optional **one line** in prose or a **card back** on review notes. Not a standard `##` block. If you formalize it, use frontmatter on spine notes only, not 87 headings.
 
@@ -7426,20 +7426,20 @@ Better homes:
 
 ### Source
 
-**Fit:** **Yes — but usually as a link, not a section**.
+**Fit:** **Yes - but usually as a link, not a section**.
 
 | Type | Pattern |
 |------|---------|
 | **Book / talk / article** | `extends` → [[Literature Notes]] or future [[Author Name]] stub; or one **## Source** line with title + optional URL |
 | **Scripture** | Verse in prose or `extends` → [[Matthew 5]] (you already do this on gospel notes) |
-| **Your own experience** | Prose — no section needed |
+| **Your own experience** | Prose - no section needed |
 | **Obvious lineage** | **extends** row + Reason (Zettelkasten, Forte, etc.) |
 
 [[Intellectual Sourcing]] is the home note for "where did this come from." Most atoms don't need **## Source** unless citation matters for trust or you'd cite it in conversation.
 
 **Recommendation:** 
 - Default: **extends** wikilink to source note (broken link OK for future literature note)
-- When you need attribution on-page: optional **## Source** — one bullet, not a bibliography
+- When you need attribution on-page: optional **## Source** - one bullet, not a bibliography
 
 ---
 
@@ -7459,7 +7459,7 @@ Better homes:
 ## Source           (one citation, optional)
 ```
 
-…and keep **Why** in prose + table, **Explain simple** on Feynman/spine flashcards — not four new headings on every note.
+…and keep **Why** in prose + table, **Explain simple** on Feynman/spine flashcards - not four new headings on every note.
 
 Want these two optional sections documented in [[Getting Started]] / [[Atomic Notes]], or a frontmatter schema (`example:`, `source:`, `explain_age:`) so the theme can render them without extra `##` blocks?
 
@@ -8645,9 +8645,9 @@ _**Agent (auto-low)**_
 ### What changed
 
 **Docs**
-- [[Getting Started]] — atomic rule allows optional **## Example** before **## Note Relationships**
-- [[Atomic Notes]] — includes a live **## Example** (split vs. kitchen-sink)
-- [[Note Relationships]] — body shape: prose → optional Example → relationships table
+- [[Getting Started]] - atomic rule allows optional **## Example** before **## Note Relationships**
+- [[Atomic Notes]] - includes a live **## Example** (split vs. kitchen-sink)
+- [[Note Relationships]] - body shape: prose → optional Example → relationships table
 
 **Lint** (`collect-note-issues.html`)
 - Atomic notes may only use: `## Example`, `## Note Relationships`, `## See also`

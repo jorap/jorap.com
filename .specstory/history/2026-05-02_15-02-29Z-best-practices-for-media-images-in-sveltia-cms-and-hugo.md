@@ -3611,8 +3611,8 @@ Here’s a concise best-practice picture for **Sveltia CMS + Hugo**, tuned to ho
 
 In `static/admin/config.yml` you have:
 
-- **`media_folder: "assets/images"`** — uploads land in Hugo’s `assets` tree (good for processing).
-- **`public_folder: "/images"`** — the CMS writes paths like `/images/…` into front matter and markdown.
+- **`media_folder: "assets/images"`** - uploads land in Hugo’s `assets` tree (good for processing).
+- **`public_folder: "/images"`** - the CMS writes paths like `/images/…` into front matter and markdown.
 
 Your theme’s `image` partial treats images in three ways (simplified): page bundle resources, files under `assets/<path>`, or `static/<path>` / full URLs. For **assets**, it does `fileExists` on `assets/` + the path and then `resources.Get` with a path **relative to the assets directory** (e.g. `images/foo.jpg`).
 
@@ -3629,7 +3629,7 @@ So the important detail: **paths that work best with your partial are usually `i
 
 | Location | Typical use |
 |----------|----------------|
-| **`assets/images/`** (your CMS target) | Processed images (resize, WebP, etc.) via `resources.Get` — matches your theme. |
+| **`assets/images/`** (your CMS target) | Processed images (resize, WebP, etc.) via `resources.Get` - matches your theme. |
 | **`static/`** | Pass-through files at a fixed URL; **no** Hugo image processing unless you add something else. |
 | **Page bundle** (`content/.../post-name/index.md` + images beside it) | Editorial “this post owns these files”; great for portability and `Resources.GetMatch`. |
 

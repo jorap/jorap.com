@@ -924,9 +924,9 @@ Each note in `data/feynman-batch-1.json` now has a grade-6 Feynman bullet insert
 
 Examples of what was added:
 
-- **deliberate-practice** — practice the hard part on purpose, like fixing your weak spot in a game
-- **dont-worry** — worry cannot make your life longer; trust the Father who feeds birds
-- **evergreen-vs-fleeting-notes** — quick notes for this week vs. trusted ideas for next year
-- **gentleness** — strong power held back, like a big dog that walks calmly
+- **deliberate-practice** - practice the hard part on purpose, like fixing your weak spot in a game
+- **dont-worry** - worry cannot make your life longer; trust the Father who feeds birds
+- **evergreen-vs-fleeting-notes** - quick notes for this week vs. trusted ideas for next year
+- **gentleness** - strong power held back, like a big dog that walks calmly
 
 All 43 slugs from the batch were found and edited; none were missing or skipped.

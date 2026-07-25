@@ -697,7 +697,7 @@ The evergreen body builder will use three distinct formatting rules. If the desc
 
 _**Agent (auto-low)**_
 
-I'll compare each note's description to its body — many were truncated to a single sentence by the atomize script and need the full evergreen text restored.
+I'll compare each note's description to its body - many were truncated to a single sentence by the atomize script and need the full evergreen text restored.
 
 
 _**Agent (auto-low)**_
@@ -896,35 +896,35 @@ print(f'Total multi-sentence descriptions: {truncated}')
 ```
 active-knowledge-curation.md (2 sents in desc)
   DESC: Saving links isn't curation. Here's how I try to keep notes useful - revisiting, pruning, and connecting what I actually care about.
-  BODY: **Active Knowledge Curation** — saving links isn't curation
+  BODY: **Active Knowledge Curation** - saving links isn't curation
 
 advantages-of-digital-gardens.md (2 sents in desc)
   DESC: A digital garden grows in public - messy, linked, alive. Here's why I prefer that over polishing every thought into a finished essay.
-  BODY: **Advantages of Digital Gardens** — a digital garden grows in public - messy, linked, alive
+  BODY: **Advantages of Digital Gardens** - a digital garden grows in public - messy, linked, alive
 
 anti-fragile-systems.md (2 sents in desc)
   DESC: Fragile systems break when an app shuts down. I try to build note workflows that get stronger under stress - plain files, open formats, owned exports.
-  BODY: **Anti-Fragile Systems** — fragile systems break when an app shuts down
+  BODY: **Anti-Fragile Systems** - fragile systems break when an app shuts down
 
 associative-linking.md (3 sents in desc)
   DESC: Folders sort. Links think. Here's how I use associative linking so notes meet each other without me remembering every filename.
-  BODY: **Associative Linking** — folders sort
+  BODY: **Associative Linking** - folders sort
 
 atomic-design-for-notes.md (3 sents in desc)
   DESC: Brad Frost's atomic design is for UI components. I borrowed the idea for notes - one idea per file, combinable later. Here's how that changed my wiki.
-  BODY: **Atomic Design for Notes** — brad Frost's atomic design is for UI components
+  BODY: **Atomic Design for Notes** - brad Frost's atomic design is for UI components
 
 building-a-personal-api.md (2 sents in desc)
   DESC: A personal API isn't OAuth and microservices. It's a way to hand your future self (and your tools) structured context without re-explaining everything.
-  BODY: **Building a Personal API** — a personal API isn't OAuth and microservices
+  BODY: **Building a Personal API** - a personal API isn't OAuth and microservices
 
 building-a-second-brain.md (2 sents in desc)
   DESC: Your brain is for having ideas, not storing them. Here's how I think about building a Second Brain - and why ideas.jorap.com exists in the first place.
-  BODY: **Building a Second Brain** — your brain is for having ideas, not storing them; the system starts with [[Capture]]
+  BODY: **Building a Second Brain** - your brain is for having ideas, not storing them; the system starts with [[Capture]]
 
 bullet-journaling.md (2 sents in desc)
   DESC: I don't bullet journal for pretty spreads. I use rapid logging when digital capture feels slow - tasks, events, notes on paper, migrated weekly.
-  BODY: **Bullet Journaling** — I don't bullet journal for pretty spreads
+  BODY: **Bullet Journaling** - I don't bullet journal for pretty spreads
 
 capture.md (2 sents in desc)
   DESC: Capture is where PKM lives or dies. I save what resonates, not everything I see - and I keep one inbox I actually trust.
@@ -932,23 +932,23 @@ capture.md (2 sents in desc)
 
 collaborative-knowledge.md (2 sents in desc)
   DESC: Most of my notes are solo. But teams need shared context too - here's what I look for when knowledge has more than one author.
-  BODY: **Collaborative Knowledge** — most of my notes are solo
+  BODY: **Collaborative Knowledge** - most of my notes are solo
 
 context-aware-capture.md (2 sents in desc)
   DESC: A link without context is a mystery six weeks later. I try to capture why I saved something - project, mood, question - while it's still obvious.
-  BODY: **Context-Aware Capture** — a link without context is a mystery six weeks later
+  BODY: **Context-Aware Capture** - a link without context is a mystery six weeks later
 
 creative-blocks.md (2 sents in desc)
   DESC: I have thousands of notes and still stare at a blank page sometimes. Creative blocks aren't solved by more capture - here's what actually unsticks me.
-  BODY: **Creative Blocks** — I have thousands of notes and still stare at a blank page sometimes
+  BODY: **Creative Blocks** - I have thousands of notes and still stare at a blank page sometimes
 
 creative-output.md (3 sents in desc)
   DESC: Notes are inventory. Output is the point - blog posts, sermons, code, dinner experiments. Here's how I push from archive to shipped.
-  BODY: **Creative Output** — notes are inventory
+  BODY: **Creative Output** - notes are inventory
 
 curation-as-creation.md (2 sents in desc)
   DESC: Selecting, ordering, and framing notes is creative work. I stopped treating curation as housekeeping.
-  BODY: **Curation as Creation** — selecting, ordering, and framing notes is creative work
+  BODY: **Curation as Creation** - selecting, ordering, and framing notes is creative work
 
 daily-notes.md (3 sents in desc)
   DESC: Daily notes are my scratch pad for the day - tasks, fragments, links. Not a diary. Not permanent by default.
@@ -956,83 +956,83 @@ daily-notes.md (3 sents in desc)
 
 digital-garden.md (2 sents in desc)
   DESC: A digital garden is a personal site where notes grow in public - linked, imperfect, alive. ideas.jorap.com is my version.
-  BODY: **Digital Garden** — a digital garden is a personal site where notes grow in public - linked, imperfect, alive
+  BODY: **Digital Garden** - a digital garden is a personal site where notes grow in public - linked, imperfect, alive
 
 digital-minimalism.md (2 sents in desc)
   DESC: Fewer apps, fewer sync layers, fewer notifications. My PKM got better when I stopped collecting tools.
-  BODY: **Digital Minimalism** — fewer apps, fewer sync layers, fewer notifications
+  BODY: **Digital Minimalism** - fewer apps, fewer sync layers, fewer notifications
 
 distraction-free-writing.md (2 sents in desc)
   DESC: Fullscreen, plain text, notifications off. I don't need a special app - I need fewer excuses to leave the sentence.
-  BODY: **Distraction-Free Writing** — fullscreen, plain text, notifications off
+  BODY: **Distraction-Free Writing** - fullscreen, plain text, notifications off
 
 drafting-in-public.md (2 sents in desc)
   DESC: I publish rough ideas before they're finished. Drafting in public keeps me honest and makes the garden grow.
-  BODY: **Drafting in Public** — I publish rough ideas before they're finished
+  BODY: **Drafting in Public** - I publish rough ideas before they're finished
 
 e2ee-security.md (2 sents in desc)
   DESC: End-to-end encryption matters when your notes are actually private. I balance convenience with what I'm willing to store in plain text.
-  BODY: **E2EE Security** — end-to-end encryption matters when your notes are actually private
+  BODY: **E2EE Security** - end-to-end encryption matters when your notes are actually private
 
 evergreen-vs-fleeting-notes.md (3 sents in desc)
   DESC: Fleeting notes catch sparks. Evergreen notes hold truth. I need both lanes and a clear promotion path.
-  BODY: **Evergreen vs Fleeting Notes** — fleeting notes catch sparks
+  BODY: **Evergreen vs Fleeting Notes** - fleeting notes catch sparks
 
 formatting-for-readability.md (2 sents in desc)
   DESC: Dense walls of text don't get reread. I format notes like I'd format a post - headings, bullets, bold for the point.
-  BODY: **Formatting for Readability** — dense walls of text don't get reread
+  BODY: **Formatting for Readability** - dense walls of text don't get reread
 
 from-note-to-book.md (2 sents in desc)
   DESC: Books aren't written; they're compiled. My path from atomic notes to long-form is outline, link, expand.
-  BODY: **From Note to Book** — books aren't written; they're compiled
+  BODY: **From Note to Book** - books aren't written; they're compiled
 
 future-proofing-knowledge.md (2 sents in desc)
   DESC: Future-proofing isn't predicting tech. It's plain text, open tools, and exports you test before you need them.
-  BODY: **Future-Proofing Knowledge** — future-proofing isn't predicting tech
+  BODY: **Future-Proofing Knowledge** - future-proofing isn't predicting tech
 
 graph-view-analytics.md (2 sents in desc)
   DESC: Graph view looks sci-fi. Mostly I use it to find orphans, hubs, and notes I forgot to link.
-  BODY: **Graph View Analytics** — graph view looks sci-fi
+  BODY: **Graph View Analytics** - graph view looks sci-fi
 
 gtd-vs-para.md (3 sents in desc)
   DESC: GTD runs my tasks. PARA runs my notes. They're cousins, not competitors - here's how I use both without doubling admin.
-  BODY: **GTD vs PARA** — GTD runs my tasks
+  BODY: **GTD vs PARA** - GTD runs my tasks
 
 interstitial-journaling.md (2 sents in desc)
   DESC: Between meetings and deep work, I jot what just happened and what's next. Interstitial journaling clears the buffer.
-  BODY: **Interstitial Journaling** — between meetings and deep work, I jot what just happened and what's next
+  BODY: **Interstitial Journaling** - between meetings and deep work, I jot what just happened and what's next
 
 local-first-software.md (2 sents in desc)
   DESC: Local-first means your device holds the truth; sync is optional icing. That's how I want my brain's backup to behave.
-  BODY: **Local-first Software** — local-first means your device holds the truth; sync is optional icing
+  BODY: **Local-first Software** - local-first means your device holds the truth; sync is optional icing
 
 mental-models-list.md (2 sents in desc)
   DESC: Mental models are shortcuts for thinking. I keep a short list of ones that survived contact with real decisions - not every model on Wikipedia.
-  BODY: **Mental Models List** — mental models are shortcuts for thinking
+  BODY: **Mental Models List** - mental models are shortcuts for thinking
 
 mind-mapping.md (2 sents in desc)
   DESC: Mind maps are for the messy first pass - branches, bubbles, relationships. I export to atomic notes after, not instead.
-  BODY: **Mind Mapping** — mind maps are for the messy first pass - branches, bubbles, relationships
+  BODY: **Mind Mapping** - mind maps are for the messy first pass - branches, bubbles, relationships
 
 mobile-capture-workflows.md (2 sents in desc)
   DESC: Most sparks die on mobile because capture takes twelve taps. I reduced mine to share sheet → inbox.
-  BODY: **Mobile Capture Workflows** — most sparks die on mobile because capture takes twelve taps
+  BODY: **Mobile Capture Workflows** - most sparks die on mobile because capture takes twelve taps
 
 newsletter-filtering.md (2 sents in desc)
   DESC: Newsletters are RSS with delivery guilt. I filter them to a label, batch read weekly, clip what resonates.
-  BODY: **Newsletter Filtering** — newsletters are RSS with delivery guilt
+  BODY: **Newsletter Filtering** - newsletters are RSS with delivery guilt
 
 note-taking-for-researchers.md (2 sents in desc)
   DESC: Researchers drown in PDF highlights. I borrow lit-review habits: source notes, synthesis notes, never merge the two.
-  BODY: **Note-Taking for Researchers** — researchers drown in PDF highlights
+  BODY: **Note-Taking for Researchers** - researchers drown in PDF highlights
 
 para-method.md (2 sents in desc)
   DESC: PARA is how I sort notes by life responsibility - not by topic alphabet soup. Four buckets, clear questions.
-  BODY: **PARA Method** — [[PARA]] sorts notes by life responsibility, not topic alphabet soup
+  BODY: **PARA Method** - [[PARA]] sorts notes by life responsibility, not topic alphabet soup
 
 periodic-knowledge-review.md (2 sents in desc)
   DESC: Notes rot without review. I calendar weekly and quarterly passes - inbox, projects, evergreens.
-  BODY: **Periodic Knowledge Review** — notes rot without review
+  BODY: **Periodic Knowledge Review** - notes rot without review
 
 pkm.md (2 sents in desc)
   DESC: PKM is the boring name for how you save, organize, and use what you learn. Here's my unspectacular definition.
@@ -1040,23 +1040,23 @@ pkm.md (2 sents in desc)
 
 process-over-outcomes.md (2 sents in desc)
   DESC: Results matter - but optimizing only for outcomes wins once. Optimizing for a repeatable process wins again and again.
-  BODY: **Process Over Outcomes** — results matter - but optimizing only for outcomes wins once
+  BODY: **Process Over Outcomes** - results matter - but optimizing only for outcomes wins once
 
 rss-for-research.md (2 sents in desc)
   DESC: RSS is how I research without Twitter. Subscribe to blogs, clip to notes, ignore the rest.
-  BODY: **RSS for Research** — RSS is how I research without Twitter
+  BODY: **RSS for Research** - RSS is how I research without Twitter
 
 second-brain-daily-workflow.md (2 sents in desc)
   DESC: A Second Brain isn't only notes - it's how you move through the day. Here's the daily workflow I actually use: middle-click tabs, curated feeds, and faster learning loops.
-  BODY: **Second Brain Daily Workflow** — a Second Brain isn't only notes - it's how you move through the day
+  BODY: **Second Brain Daily Workflow** - a Second Brain isn't only notes - it's how you move through the day
 
 signal-vs-noise.md (3 sents in desc)
   DESC: Most content is noise. PKM fails if capture doesn't filter. I save signal - stuff that changes action or belief.
-  BODY: **Signal vs Noise** — most content is noise
+  BODY: **Signal vs Noise** - most content is noise
 
 slip-box-history.md (2 sents in desc)
   DESC: The slip-box (Zettelkasten) wasn't magic software - Luhmann's physical note cards and links. History helps separate myth from method.
-  BODY: **Slip-box History** — the slip-box (Zettelkasten) wasn't magic software - Luhmann's physical note cards and links
+  BODY: **Slip-box History** - the slip-box (Zettelkasten) wasn't magic software - Luhmann's physical note cards and links
 
 slow-productivity.md (2 sents in desc)
   DESC: Slow productivity pushes back on busy-as-virtue. I run fewer active projects so notes become output, not backlog.
@@ -1064,7 +1064,7 @@ slow-productivity.md (2 sents in desc)
 
 spaced-repetition-systems.md (2 sents in desc)
   DESC: SRS apps implement the algorithm; you implement the discipline. Here's how I fit an SRS beside my wiki without merging them.
-  BODY: **Spaced Repetition Systems (SRS)** — SRS apps implement the algorithm; you implement the discipline
+  BODY: **Spaced Repetition Systems (SRS)** - SRS apps implement the algorithm; you implement the discipline
 
 spaced-repetition.md (2 sents in desc)
   DESC: Spaced repetition schedules reviews before you forget. I use it for facts I need cold, not for whole wiki pages.
@@ -1072,59 +1072,59 @@ spaced-repetition.md (2 sents in desc)
 
 synthesis-as-a-goal.md (2 sents in desc)
   DESC: Collecting quotes isn't PKM. Synthesis is merging sources into what you believe and can defend.
-  BODY: **Synthesis as a Goal** — collecting quotes isn't PKM
+  BODY: **Synthesis as a Goal** - collecting quotes isn't PKM
 
 the-12-week-year.md (2 sents in desc)
   DESC: Twelve-week years compress annual goals into quarters you actually feel. I map wiki projects to 12-week arcs.
-  BODY: **The 12 Week Year** — twelve-week years compress annual goals into quarters you actually feel
+  BODY: **The 12 Week Year** - twelve-week years compress annual goals into quarters you actually feel
 
 the-archive-method.md (2 sents in desc)
   DESC: Archive isn't delete. It's moving finished work out of active PARA so today's projects breathe.
-  BODY: **The Archive Method** — archive isn't delete
+  BODY: **The Archive Method** - archive isn't delete
 
 the-collectors-fallacy.md (3 sents in desc)
   DESC: Collecting articles feels like progress. It isn't. The collector's fallacy bit me until I tied saves to express deadlines.
-  BODY: **The Collector's Fallacy** — collecting articles feels like progress
+  BODY: **The Collector's Fallacy** - collecting articles feels like progress
 
 the-feynman-technique.md (2 sents in desc)
   DESC: Explain like you're teaching a kid. Gaps in your explanation show gaps in understanding - perfect note feedback.
-  BODY: **The Feynman Technique** — explain like you're teaching a kid
+  BODY: **The Feynman Technique** - explain like you're teaching a kid
 
 the-future-of-pkm.md (2 sents in desc)
   DESC: AI, agents, new apps - PKM hype cycles spin. The future still looks like capture, connect, create, with better search.
-  BODY: **The Future of PKM** — AI, agents, new apps - PKM hype cycles spin
+  BODY: **The Future of PKM** - AI, agents, new apps - PKM hype cycles spin
 
 the-garage-concept.md (3 sents in desc)
   DESC: The garage holds tools, scraps, experiments. The showroom is the blog. Don't confuse the two.
-  BODY: **The Garage Concept** — the garage holds tools, scraps, experiments
+  BODY: **The Garage Concept** - the garage holds tools, scraps, experiments
 
 the-knowledge-lifecycle.md (2 sents in desc)
   DESC: Ideas have lifecycles: capture, active use, evergreen, decay, archive. PKM should match the stage.
-  BODY: **The Knowledge Lifecycle** — Ideas have lifecycles: capture, active use, evergreen, decay, archive
+  BODY: **The Knowledge Lifecycle** - Ideas have lifecycles: capture, active use, evergreen, decay, archive
 
 the-power-of-interconnectivity.md (2 sents in desc)
   DESC: A note's value often lives in what it connects to. Interconnectivity turns files into a network you think inside.
-  BODY: **The Power of Interconnectivity** — a note's value often lives in what it connects to
+  BODY: **The Power of Interconnectivity** - a note's value often lives in what it connects to
 
 the-trusted-inbox.md (2 sents in desc)
   DESC: If you don't trust your inbox, you'll capture in your head instead. One pipe, weekly empty, no exceptions.
-  BODY: **The Trusted Inbox** — If you don't trust your inbox, you'll capture in your head instead
+  BODY: **The Trusted Inbox** - If you don't trust your inbox, you'll capture in your head instead
 
 the-zettelkasten-myth.md (2 sents in desc)
   DESC: Luhmann's output wasn't copy-paste from buying the right notebook. The Zettelkasten myth oversells tools and undersells writing.
-  BODY: **The Zettelkasten Myth** — luhmann's output wasn't copy-paste from buying the right notebook
+  BODY: **The Zettelkasten Myth** - luhmann's output wasn't copy-paste from buying the right notebook
 
 there-is-no-perfect-solution.md (3 sents in desc)
   DESC: Waiting for the perfect tool, plan, or answer feels responsible. It's often the nirvana fallacy. Here's why I choose good-enough tradeoffs on purpose.
-  BODY: **There Is No Perfect Solution** — waiting for the perfect tool, plan, or answer feels responsible
+  BODY: **There Is No Perfect Solution** - waiting for the perfect tool, plan, or answer feels responsible
 
 visual-thinking.md (2 sents in desc)
   DESC: Some thoughts need boxes and arrows before words. Visual thinking in PKM means diagrams beside Markdown.
-  BODY: **Visual Thinking** — some thoughts need boxes and arrows before words
+  BODY: **Visual Thinking** - some thoughts need boxes and arrows before words
 
 weekly-review-checklists.md (2 sents in desc)
   DESC: My weekly review is a checklist - inbox, calendar, projects, one express action. Boring on purpose.
-  BODY: **Weekly Review Checklists** — my weekly review is a checklist - inbox, calendar, projects, one express action
+  BODY: **Weekly Review Checklists** - my weekly review is a checklist - inbox, calendar, projects, one express action
 
 zettelkasten.md (2 sents in desc)
   DESC: Zettelkasten is one idea per note, dense links, writing from the network. My digital version lives in TiddlyWiki and Markdown.
@@ -1669,23 +1669,23 @@ Updated **70 notes** so each body carries the full evergreen claim from its desc
 
 ### What changed
 
-Most notes had been shortened by `atomize-notes.py`, which only pulled the opening sentence. Evergreen notes need the complete idea — timeless phrasing, clear claims, a few sentences when needed.
+Most notes had been shortened by `atomize-notes.py`, which only pulled the opening sentence. Evergreen notes need the complete idea - timeless phrasing, clear claims, a few sentences when needed.
 
 **Examples:**
-- **Associative Linking** — now includes all three beats: "folders sort. Links think. Here's how I use associative linking…"
-- **Evergreen vs Fleeting Notes** — full three-sentence distinction with the promotion path
-- **GTD vs PARA** — all three sentences about tasks, notes, and using both
+- **Associative Linking** - now includes all three beats: "folders sort. Links think. Here's how I use associative linking…"
+- **Evergreen vs Fleeting Notes** - full three-sentence distinction with the promotion path
+- **GTD vs PARA** - all three sentences about tasks, notes, and using both
 
 ### Timeless tweaks
 
 Removed site-specific references from a few notes:
-- **Building a Second Brain** — dropped `ideas.jorap.com`; body now ends with `[[Capture]]`
-- **Digital Garden** — dropped "ideas.jorap.com is my version"
-- **Zettelkasten** — dropped the TiddlyWiki/Markdown line
+- **Building a Second Brain** - dropped `ideas.jorap.com`; body now ends with `[[Capture]]`
+- **Digital Garden** - dropped "ideas.jorap.com is my version"
+- **Zettelkasten** - dropped the TiddlyWiki/Markdown line
 
 ### Left unchanged
 
-- **getting-started**, **maps-of-content**, **atomic-notes**, **graph**, **_index** — hub/meta pages with their own structure
+- **getting-started**, **maps-of-content**, **atomic-notes**, **graph**, **_index** - hub/meta pages with their own structure
 
 ### Scripts
 
@@ -2061,7 +2061,7 @@ for path in sorted(NOTES_DIR.glob('*.md')):
     body_text = ' '.join(body_lines).strip()
     # normalize for compare
     norm_desc = re.sub(r'\[\[([^\]|]+)(?:\|[^\]]+)?\]\]', r'\1', desc).lower()
-    norm_body = re.sub(r'\*\*[^*]+\*\*\s*[—-]?\s*', '', body_text).lower()
+    norm_body = re.sub(r'\*\*[^*]+\*\*\s*[--]?\s*', '', body_text).lower()
     norm_body = re.sub(r'\[\[([^\]|]+)(?:\|[^\]]+)?\]\]', r'\1', norm_body)
     if desc and body_text and norm_desc not in norm_body and norm_body not in norm_desc:
         # loose check - first 40 chars
@@ -2100,7 +2100,7 @@ for path in sorted(NOTES_DIR.glob('*.md')):
     body_text = ' '.join(body_lines).strip()
     # normalize for compare
     norm_desc = re.sub(r'\[\[([^\]|]+)(?:\|[^\]]+)?\]\]', r'\1', desc).lower()
-    norm_body = re.sub(r'\*\*[^*]+\*\*\s*[—-]?\s*', '', body_text).lower()
+    norm_body = re.sub(r'\*\*[^*]+\*\*\s*[--]?\s*', '', body_text).lower()
     norm_body = re.sub(r'\[\[([^\]|]+)(?:\|[^\]]+)?\]\]', r'\1', norm_body)
     if desc and body_text and norm_desc not in norm_body and norm_body not in norm_desc:
         # loose check - first 40 chars
@@ -2204,12 +2204,12 @@ The user repeated the same request. I will confirm that all notes are already up
 
 _**Agent (auto-low)**_
 
-This is already done from the earlier pass in this session. All **70 atomic notes** now have full evergreen bodies — not just the first sentence from each description.
+This is already done from the earlier pass in this session. All **70 atomic notes** now have full evergreen bodies - not just the first sentence from each description.
 
 **Current state (examples):**
-- **Mental Models List** — both sentences present
-- **From Note to Book** — "books aren't written; they're compiled" plus the outline/link/expand path
-- **Associative Linking**, **GTD vs PARA**, **Evergreen vs Fleeting Notes** — full multi-sentence claims
+- **Mental Models List** - both sentences present
+- **From Note to Book** - "books aren't written; they're compiled" plus the outline/link/expand path
+- **Associative Linking**, **GTD vs PARA**, **Evergreen vs Fleeting Notes** - full multi-sentence claims
 
 **Also handled:**
 - Site-specific refs removed (`ideas.jorap.com`, TiddlyWiki version line)
@@ -2217,9 +2217,9 @@ This is already done from the earlier pass in this session. All **70 atomic note
 - `scripts/atomize-notes.py` updated so it won't truncate again
 
 **Left as-is (by design):**
-- `getting-started`, `maps-of-content`, `atomic-notes`, `graph`, `_index` — hub/meta pages with their own structure
+- `getting-started`, `maps-of-content`, `atomic-notes`, `graph`, `_index` - hub/meta pages with their own structure
 
-If you meant something different — e.g. an `evergreen: true` frontmatter field, adding the "Evergreen Notes" tag to every note, or expanding the hub pages — say which and I can do that next.
+If you meant something different - e.g. an `evergreen: true` frontmatter field, adding the "Evergreen Notes" tag to every note, or expanding the hub pages - say which and I can do that next.
 
 ---
 
@@ -2546,7 +2546,7 @@ tags: Personal API, PKM, Automation, Second Brain, AI, Knowledge Management
 
 ### building-a-second-brain
 title: Building a Second Brain
-desc: Your brain is for having ideas, not storing them. A Second Brain is the system that holds them — starting with capture.
+desc: Your brain is for having ideas, not storing them. A Second Brain is the system that holds them - starting with capture.
 tags: Second Brain, PKM, Note Taking, Productivity, TiddlyWiki, Tiago Forte
 
 ### bullet-journaling
@@ -2591,7 +2591,7 @@ tags: Daily Notes, PKM, Journaling, Productivity, Note Taking, Review
 
 ### digital-garden
 title: Digital Garden
-desc: A digital garden is a personal site where notes grow in public — linked, imperfect, alive.
+desc: A digital garden is a personal site where notes grow in public - linked, imperfect, alive.
 tags: Digital Garden, PKM, Publishing, Wiki, Second Brain, TiddlyWiki
 
 ### digital-minimalism
@@ -3051,7 +3051,7 @@ Parameters:
 {
   "caseInsensitive": false,
   "glob": "content/english/notes/*.md",
-  "pattern": "—"
+  "pattern": "-"
 }
 ```
 Additional data:
@@ -3060,7 +3060,7 @@ Additional data:
 {
   "isPruned": true,
   "outputMode": "content",
-  "pattern": "—",
+  "pattern": "-",
   "topFiles": [
     {
       "matchCount": 5,
@@ -3398,19 +3398,19 @@ _**Agent (auto-low)**_
 
 Added a second practical paragraph to **71 notes**, following the `atomic-notes` pattern: lead claim, then how you actually use it, with wikilinks to related ideas.
 
-**Example — Mental Models List:**
+**Example - Mental Models List:**
 - Paragraph 1: the core claim (unchanged)
 - Paragraph 2: a dozen models you keep, one note per model, the list as a MOC
 
 **What the enrichments add:**
-- **Practical detail** — workflows, rules, what you do when it matters
-- **Wikilinks** — ties notes into the graph (`[[Capture]]`, `[[PARA Method]]`, etc.)
-- **Personal voice** — first person, concrete habits, no filler
+- **Practical detail** - workflows, rules, what you do when it matters
+- **Wikilinks** - ties notes into the graph (`[[Capture]]`, `[[PARA Method]]`, etc.)
+- **Personal voice** - first person, concrete habits, no filler
 
 **Sample expansions:**
-- **Evergreen Notes** — how to write, when to revise, promotion from fleeting during review
-- **From Note to Book** — MOC as TOC, chapters from linked atoms, assembly not invention
-- **Capture** — friction, trusted inbox, resonance as the filter
+- **Evergreen Notes** - how to write, when to revise, promotion from fleeting during review
+- **From Note to Book** - MOC as TOC, chapters from linked atoms, assembly not invention
+- **Capture** - friction, trusted inbox, resonance as the filter
 
 Added `scripts/enrich-evergreen-notes.py` so you can re-run or extend enrichments later. Hub pages (`getting-started`, `maps-of-content`) were left as-is since they serve a different role.
 

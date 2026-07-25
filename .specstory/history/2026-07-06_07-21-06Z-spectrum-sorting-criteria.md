@@ -500,15 +500,15 @@ _**Agent (auto-low)**_
 Spectrum is now **200 pairs**, ordered **best → worst**.
 
 **What changed**
-- `scripts/curate-randomizer-300.py`: added `SPECTRUM_TARGET = 200`, trimmed `SPECTRUM_CURATED` to the top 200 (dropped the weaker tail — lifestyle forks, scale metaphors like "Baby steps | Giant leap", duplicate poles).
+- `scripts/curate-randomizer-300.py`: added `SPECTRUM_TARGET = 200`, trimmed `SPECTRUM_CURATED` to the top 200 (dropped the weaker tail - lifestyle forks, scale metaphors like "Baby steps | Giant leap", duplicate poles).
 - `data/randomizer.yaml`: regenerated via the curation script.
 
 **Order** (already Wavelength-style, best first):
-1. **Hot | Cold** — universal scalar poles
+1. **Hot | Cold** - universal scalar poles
 2. Core adjective axes (Overrated/Underrated, Easy/Hard, etc.)
 3. Category-boundary cards (Sandwich/Not a sandwich, Sport/Not a sport)
 4. Lifestyle spectrums that still clue well
-5. **Fruit dessert | Chocolate dessert** — last of the 200
+5. **Fruit dessert | Chocolate dessert** - last of the 200
 
 The randomizer JS reads the list dynamically, so no frontend changes were needed. Re-run with:
 

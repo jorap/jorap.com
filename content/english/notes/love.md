@@ -51,12 +51,16 @@ review: true
 card_sets: ["Eternal Principles", "Gospel", "Discipleship"]
 cards:
   - front: "Polite at church, sharp at home after. What checks the motive?"
-    back: "Spirit-grown love - costs something real."
-  - front: "Neighbor needed a ride at an inconvenient hour. Love fruit or manners?"
-    back: "Inconvenience - not performance."
+    back: "Does it cost me - not just applause?"
+  - front: "Neighbor needed a ride at an inconvenient hour."
+    back: "Show up - inconvenience, not performance."
   - front: "Waiting to feel loving before I obey. Wrong order?"
-    back: "Walk by the Spirit - fruit follows."
-  - front: "Affection only when people are watching. Galatians test?"
+    back: "Walk by Spirit - obey, fruit follows."
+  - front: "Affection only when people are watching. Does it cost me anything?"
     back: "Not Spirit fruit - abide first."
+  - front: "Kid needs help past bedtime - I want to stay on the couch. One move?"
+    back: "Get up - love costs something real."
+  - front: "Sharp reply drafted after worship Sunday. What checks love at home?"
+    back: "Spirit fruit at home - soften before send."
 draft: false
 ---

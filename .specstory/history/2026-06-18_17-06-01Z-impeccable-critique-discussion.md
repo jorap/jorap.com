@@ -851,7 +851,7 @@ Parameters:
   "description": "Assessment A: design review",
   "model": "auto-low",
   "name": "general-purpose",
-  "prompt": "You are Assessment A for an Impeccable design critique. DO NOT run detect.mjs or any detector scripts.\n\n**Target**: JoRap.com homepage — Hugo personal brand site at &#96;themes/jorap/layouts/home.html&#96; (renders blog-list only; banner/features/testimonials commented out). Supporting partials: &#96;home-intro.html&#96;, &#96;header.html&#96;, &#96;blog-list.html&#96;, &#96;baseof.html&#96;.\n\n**Product context** (brand register):\n- Personal brand for potential clients/decision-makers who hire for strategic/technical work\n- Voice: Professional, idea-led, credible — NOT performative nerd/dev-bro, NOT generic SaaS, NOT chaotic personal brand\n- Design: \"The Quiet Study\" — warm paper neutrals, charcoal accent, Inter-only, editorial restraint\n\n**Your job**: Read the source files in /Users/jonathanrapusas/Documents/GitHub/jorap.com/themes/jorap/layouts/ and related config (hugo.toml, params). Think like a design director.\n\nEvaluate:\n1. AI slop verdict (absolute bans: side-stripe borders, gradient text, glassmorphism default, hero-metric template, identical card grids, tiny uppercase eyebrows on every section, numbered section markers 01/02/03)\n2. Brand register fit (brand.md: Inter is reflex-reject for NEW choices but identity-preservation wins for existing; warm neutral editorial lane risks second-order slop)\n3. Holistic design: hierarchy, IA, emotional fit, typography, color, accessibility, copy\n4. Cognitive load checklist (8 items — count failures)\n5. Emotional journey for a client skim\n6. Nielsen heuristics 0-4 for all 10\n\nReturn structured output ONLY:\n- AI slop verdict (yes/no + specifics)\n- Heuristic scores table (10 heuristics, scores, key issues)\n- Total score /40 and rating band\n- Cognitive load (failures count + which items failed)\n- Emotional journey notes\n- 2-3 strengths (specific)\n- 3-5 priority issues with P0-P3 severity, why, fix, suggested impeccable command\n- 2-3 persona red flags (Jordan first-timer, Casey mobile, plus 1 project-specific \"Morgan the hiring manager\" — client decision-maker skimming between meetings)\n- Minor observations\n- 2-3 provocative questions\n\nBe honest and specific. Read actual files before judging.",
+  "prompt": "You are Assessment A for an Impeccable design critique. DO NOT run detect.mjs or any detector scripts.\n\n**Target**: JoRap.com homepage - Hugo personal brand site at &#96;themes/jorap/layouts/home.html&#96; (renders blog-list only; banner/features/testimonials commented out). Supporting partials: &#96;home-intro.html&#96;, &#96;header.html&#96;, &#96;blog-list.html&#96;, &#96;baseof.html&#96;.\n\n**Product context** (brand register):\n- Personal brand for potential clients/decision-makers who hire for strategic/technical work\n- Voice: Professional, idea-led, credible - NOT performative nerd/dev-bro, NOT generic SaaS, NOT chaotic personal brand\n- Design: \"The Quiet Study\" - warm paper neutrals, charcoal accent, Inter-only, editorial restraint\n\n**Your job**: Read the source files in /Users/jonathanrapusas/Documents/GitHub/jorap.com/themes/jorap/layouts/ and related config (hugo.toml, params). Think like a design director.\n\nEvaluate:\n1. AI slop verdict (absolute bans: side-stripe borders, gradient text, glassmorphism default, hero-metric template, identical card grids, tiny uppercase eyebrows on every section, numbered section markers 01/02/03)\n2. Brand register fit (brand.md: Inter is reflex-reject for NEW choices but identity-preservation wins for existing; warm neutral editorial lane risks second-order slop)\n3. Holistic design: hierarchy, IA, emotional fit, typography, color, accessibility, copy\n4. Cognitive load checklist (8 items - count failures)\n5. Emotional journey for a client skim\n6. Nielsen heuristics 0-4 for all 10\n\nReturn structured output ONLY:\n- AI slop verdict (yes/no + specifics)\n- Heuristic scores table (10 heuristics, scores, key issues)\n- Total score /40 and rating band\n- Cognitive load (failures count + which items failed)\n- Emotional journey notes\n- 2-3 strengths (specific)\n- 3-5 priority issues with P0-P3 severity, why, fix, suggested impeccable command\n- 2-3 persona red flags (Jordan first-timer, Casey mobile, plus 1 project-specific \"Morgan the hiring manager\" - client decision-maker skimming between meetings)\n- Minor observations\n- 2-3 provocative questions\n\nBe honest and specific. Read actual files before judging.",
   "subagentType": "unspecified"
 }
 ```
@@ -896,7 +896,7 @@ Parameters:
   "description": "Assessment B: detector scan",
   "model": "auto-low",
   "name": "shell",
-  "prompt": "You are Assessment B for an Impeccable design critique. DO NOT do subjective design review — only run detector and report findings.\n\n**Target**: JoRap.com homepage — &#96;themes/jorap/layouts/&#96; directory\n\n**Working directory**: /Users/jonathanrapusas/Documents/GitHub/jorap.com\n\n**Tasks**:\n1. Run: &#96;node .cursor/skills/impeccable/scripts/detect.mjs --json themes/jorap/layouts&#96;\n2. Also scan broader site if needed: &#96;node .cursor/skills/impeccable/scripts/detect.mjs --json themes/jorap/layouts/_partials&#96;\n3. Check if &#96;public/&#96; exists with built HTML; if so, scan &#96;public/index.html&#96; too\n4. Browser visualization: Check if Hugo dev server can run. Try &#96;hugo server -D --port 1313&#96; in background if needed. The critique flow wants browser injection but you likely don't have browser automation — report \"browser visualization skipped: no browser automation available\" if so. Do NOT claim overlays exist.\n\nReturn structured output ONLY:\n- CLI findings: full JSON summary with counts per rule, file paths, line references\n- Exit code\n- False positives you identified\n- What was skipped and why (browser, missing build, etc.)\n- Any additional files scanned\n\nRun the commands yourself. Report exact detector output.",
+  "prompt": "You are Assessment B for an Impeccable design critique. DO NOT do subjective design review - only run detector and report findings.\n\n**Target**: JoRap.com homepage - &#96;themes/jorap/layouts/&#96; directory\n\n**Working directory**: /Users/jonathanrapusas/Documents/GitHub/jorap.com\n\n**Tasks**:\n1. Run: &#96;node .cursor/skills/impeccable/scripts/detect.mjs --json themes/jorap/layouts&#96;\n2. Also scan broader site if needed: &#96;node .cursor/skills/impeccable/scripts/detect.mjs --json themes/jorap/layouts/_partials&#96;\n3. Check if &#96;public/&#96; exists with built HTML; if so, scan &#96;public/index.html&#96; too\n4. Browser visualization: Check if Hugo dev server can run. Try &#96;hugo server -D --port 1313&#96; in background if needed. The critique flow wants browser injection but you likely don't have browser automation - report \"browser visualization skipped: no browser automation available\" if so. Do NOT claim overlays exist.\n\nReturn structured output ONLY:\n- CLI findings: full JSON summary with counts per rule, file paths, line references\n- Exit code\n- False positives you identified\n- What was skipped and why (browser, missing build, etc.)\n- Any additional files scanned\n\nRun the commands yourself. Report exact detector output.",
   "subagentType": "shell"
 }
 ```
@@ -1150,7 +1150,7 @@ _**Agent (auto-low)**_
 
 # Design Critique: JoRap.com Homepage
 
-**Target:** `themes/jorap/layouts/home.html` — the homepage renders only the blog-list grid with home intro.
+**Target:** `themes/jorap/layouts/home.html` - the homepage renders only the blog-list grid with home intro.
 
 ---
 
@@ -1168,7 +1168,7 @@ _**Agent (auto-low)**_
 | 8 | Aesthetic and Minimalist Design | 2 | Visually calm skin, but 12 equal-weight cards create noise; chrome-heavy for sparse content |
 | 9 | Error Recovery | 3 | N/A for primary home task |
 | 10 | Help and Documentation | 2 | No onboarding, proof framing, or task-focused guidance for buyers |
-| **Total** | | **26/40** | **Acceptable** — significant improvements needed before the primary audience is happy |
+| **Total** | | **26/40** | **Acceptable** - significant improvements needed before the primary audience is happy |
 
 **Cognitive load:** 6 of 8 checklist items failed (single focus, chunking, visual hierarchy, one thing at a time, minimal choices, progressive disclosure).
 
@@ -1176,41 +1176,41 @@ _**Agent (auto-low)**_
 
 ## Anti-Patterns Verdict
 
-**Does this look AI-generated? Moderate yes — not catastrophic, but identifiable.**
+**Does this look AI-generated? Moderate yes - not catastrophic, but identifiable.**
 
 **LLM assessment:** No absolute-ban hits on the live homepage (no side-stripe accents, gradient text, glassmorphism, hero-metric blocks, uppercase section eyebrows, or `01/02/03` scaffolding). What does read as template/AI grammar:
 
-- **Identical card grid** — 12 copies of the same `blog-card` pattern; icon + date + category + excerpt + outline button, repeated without curation
-- **Second-order lane slop** — warm paper, Inter-only, charcoal accent: competent "Quiet Study," but in the saturated warm-neutral editorial lane
-- **HugoPlate blog-index DNA** — `home.html` is only `blog-list`; banner/features/testimonials are commented out
-- **Hierarchy slop** — the page `<h1>` is "Latest Blog Posts"; the identity `<h1>` in `home-intro.html` is commented out
+- **Identical card grid** - 12 copies of the same `blog-card` pattern; icon + date + category + excerpt + outline button, repeated without curation
+- **Second-order lane slop** - warm paper, Inter-only, charcoal accent: competent "Quiet Study," but in the saturated warm-neutral editorial lane
+- **HugoPlate blog-index DNA** - `home.html` is only `blog-list`; banner/features/testimonials are commented out
+- **Hierarchy slop** - the page `<h1>` is "Latest Blog Posts"; the identity `<h1>` in `home-intro.html` is commented out
 
 Not dev-bro or SaaS-hero slop. It's polite blog-theme slop wearing good tokens.
 
 **Deterministic scan:** 6 findings in `themes/jorap/layouts` (exit 2), **0** in homepage source files. Built `public/index.html` adds 1 `flat-type-hierarchy` warning in shared header chrome. Five of seven hits are false positives (Hugo comments, template-bound `src`, Inter already in DESIGN.md).
 
-**Browser visualization:** Skipped — no browser automation in this session. No user-visible overlay was produced.
+**Browser visualization:** Skipped - no browser automation in this session. No user-visible overlay was produced.
 
 ---
 
 ## Overall Impression
 
-The skin is disciplined — warm paper, charcoal ink, thoughtful blog-card engineering — but the homepage IA contradicts the product brief. A hiring manager lands on a tagline that promises judgment, then gets reframed by "Latest Blog Posts" and twelve undifferentiated cards. **The single biggest opportunity: make the homepage answer "why hire JoRap?" in the first fold, then curate thinking — don't firehose the archive.**
+The skin is disciplined - warm paper, charcoal ink, thoughtful blog-card engineering - but the homepage IA contradicts the product brief. A hiring manager lands on a tagline that promises judgment, then gets reframed by "Latest Blog Posts" and twelve undifferentiated cards. **The single biggest opportunity: make the homepage answer "why hire JoRap?" in the first fold, then curate thinking - don't firehose the archive.**
 
 ---
 
 ## What's Working
 
-1. **Committed token system** — "Quiet Study" palette is intentional and dark-mode-aware; not random Tailwind defaults.
-2. **Subheading voice** — "Ideas, execution, and judgment, without the noise." is on-register.
-3. **Blog card engineering** — LCP-aware eager first image, configurable heading level, `motion-reduce` on hovers, accessible read-more labels.
+1. **Committed token system** - "Quiet Study" palette is intentional and dark-mode-aware; not random Tailwind defaults.
+2. **Subheading voice** - "Ideas, execution, and judgment, without the noise." is on-register.
+3. **Blog card engineering** - LCP-aware eager first image, configurable heading level, `motion-reduce` on hovers, accessible read-more labels.
 
 ---
 
 ## Priority Issues
 
 ### [P0] Homepage IA serves readers, not buyers
-- **Why:** `home.html` renders only `blog-list` — optimizes for blog subscribers, not client confidence.
+- **Why:** `home.html` renders only `blog-list` - optimizes for blog subscribers, not client confidence.
 - **Fix:** Purpose-built home fold (who you are, what you do, proof, one CTA) before or instead of a 12-post archive. Curate 3–4 posts max.
 - **Command:** `/impeccable shape`
 
@@ -1230,7 +1230,7 @@ The skin is disciplined — warm paper, charcoal ink, thoughtful blog-card engin
 - **Command:** `/impeccable clarify`
 
 ### [P2] No conversion path
-- **Why:** `navigation_button.enable = false` — no obvious next step after a positive skim.
+- **Why:** `navigation_button.enable = false` - no obvious next step after a positive skim.
 - **Fix:** Enable a restrained CTA in header and home intro.
 - **Command:** `/impeccable onboard`
 
@@ -1247,13 +1247,13 @@ The skin is disciplined — warm paper, charcoal ink, thoughtful blog-card engin
 
 **Casey (mobile):** Sticky header eats viewport. Twelve equal-weight cards = long scroll before signal.
 
-**Morgan (hiring manager):** Tagline promises judgment; grid delivers tennis trackers and recipes. No case study or contact CTA in first fold — "interesting, not hireable yet."
+**Morgan (hiring manager):** Tagline promises judgment; grid delivers tennis trackers and recipes. No case study or contact CTA in first fold - "interesting, not hireable yet."
 
 ---
 
 ## Minor Observations
 
-- `home_intro.lede` is empty — missed one-sentence buyer hook
+- `home_intro.lede` is empty - missed one-sentence buyer hook
 - Commented banner/features/testimonials suggest incomplete Hugoplate departure
 - Footer social icons slightly louder than "restraint" north star
 - `mainSections = ["blog"]` reinforces blog-first mental model
@@ -1267,19 +1267,19 @@ The skin is disciplined — warm paper, charcoal ink, thoughtful blog-card engin
 
 ## Questions
 
-**1. Priority direction** — The critique surfaced three clusters: **information architecture** (homepage purpose, heading hierarchy), **editorial curation** (12-card grid, nav simplification), and **brand voice alignment** (title, meta, CTA). Which matters most right now?
+**1. Priority direction** - The critique surfaced three clusters: **information architecture** (homepage purpose, heading hierarchy), **editorial curation** (12-card grid, nav simplification), and **brand voice alignment** (title, meta, CTA). Which matters most right now?
 
-- **IA first** — reshape what the homepage is for
-- **Curation first** — keep blog-index structure but edit what's shown
-- **Voice first** — fix copy/title/CTA without structural changes
+- **IA first** - reshape what the homepage is for
+- **Curation first** - keep blog-index structure but edit what's shown
+- **Voice first** - fix copy/title/CTA without structural changes
 
-**2. Design intent** — The warm-neutral Inter editorial lane is disciplined but generic for a personal brand. Is that the intended long-term identity, or should the homepage push bolder?
+**2. Design intent** - The warm-neutral Inter editorial lane is disciplined but generic for a personal brand. Is that the intended long-term identity, or should the homepage push bolder?
 
-- **Keep Quiet Study** — refine within current tokens
-- **More committed** — stronger positioning fold, still restrained palette
-- **Bolder register** — distinct typography or layout moves (within brand.md guardrails)
+- **Keep Quiet Study** - refine within current tokens
+- **More committed** - stronger positioning fold, still restrained palette
+- **Bolder register** - distinct typography or layout moves (within brand.md guardrails)
 
-**3. Scope** — Six issues tagged P0–P3. How much do you want to take on?
+**3. Scope** - Six issues tagged P0–P3. How much do you want to take on?
 
 - **Critical only** (2 P0s: IA + hierarchy)
 - **Top 3** (P0s + the 12-card grid)
@@ -1310,7 +1310,7 @@ I will begin implementing the full pass immediately. The first four priority ite
 
 _**Agent (auto-low)**_
 
-Full pass — implementing all six critique issues. Exploring the site structure and applying changes.
+Full pass - implementing all six critique issues. Exploring the site structure and applying changes.
 
 
 _**Agent (auto-low)**_
@@ -2223,32 +2223,32 @@ _**Agent (auto-low)**_
 
 ## What changed
 
-### P0 — Homepage IA (`shape`)
+### P0 - Homepage IA (`shape`)
 - Restored a positioning block in `home-intro.html`: name, tagline, buyer-focused lede, primary + secondary CTAs
 - Blog section reframed as **"Selected writing"** with a link to the full archive
 
-### P0 — Heading hierarchy (`clarify`)
+### P0 - Heading hierarchy (`clarify`)
 - **`<h1>`** → Jonathan Rapusas (identity)
 - **`<h2>`** → Selected writing (section)
 - **`<h3>`** → four card titles (`HeadingLevel: 3`)
 
 Built output: 1 h1, 1 h2, 4 h3s. "Latest Blog Posts" is gone.
 
-### P1 — Card grid (`layout`)
+### P1 - Card grid (`layout`)
 - Reduced from 12 posts to **4**
 - First post spans **`lg:col-8`** (asymmetric lead); others in `lg:col-4`
 - **View all posts →** links to `/blog`
 
-### P1 — Brand voice (`clarify`)
+### P1 - Brand voice (`clarify`)
 - Site title: `JoRap's World` → **`JoRap`**
 - Meta description rewritten for client-facing positioning
 - About page reframed for decision-makers (not generic freelancer template)
 
-### P2 — Conversion path (`onboard`)
+### P2 - Conversion path (`onboard`)
 - Header **Get in touch** button enabled (`navigation_button`)
 - Home intro CTAs: **Get in touch** + **About me**
 
-### P3 — Nav simplification (`distill`)
+### P3 - Nav simplification (`distill`)
 - Removed **Categories** and **Tags** from main nav (still in footer)
 - Added **Contact** to main nav
 
@@ -2270,14 +2270,14 @@ Hugo build passes (762 pages).
 
 ## Suggested next steps
 
-1. **`/impeccable polish`** — final pass on spacing, copy tone, and mobile thumb-zone for the new hero
-2. **`/impeccable critique`** — re-score; expect a meaningful jump from 26/40
+1. **`/impeccable polish`** - final pass on spacing, copy tone, and mobile thumb-zone for the new hero
+2. **`/impeccable critique`** - re-score; expect a meaningful jump from 26/40
 
 You can also tweak `config/_default/params.toml` without touching templates:
 
-- `home_intro.heading` / `lede` — positioning copy
-- `home_blog.post_limit` — how many posts show (currently 4)
-- `home_blog.section_title` — section heading (currently "Selected writing")
+- `home_intro.heading` / `lede` - positioning copy
+- `home_blog.post_limit` - how many posts show (currently 4)
+- `home_blog.section_title` - section heading (currently "Selected writing")
 
 Want me to run **`/impeccable polish`** on the homepage next, or **`/impeccable critique`** to measure the improvement?
 
@@ -2330,7 +2330,7 @@ Running a fresh critique now. I'll load the reference, resolve the target file, 
 
 _**Agent (auto-low)**_
 
-Re-running the critique on the updated homepage — checking current state and running both assessments.
+Re-running the critique on the updated homepage - checking current state and running both assessments.
 
 
 _**Agent (auto-low)**_
@@ -2546,7 +2546,7 @@ Parameters:
   "description": "Assessment A design review",
   "model": "auto-low",
   "name": "general-purpose",
-  "prompt": "You are Assessment A for Impeccable critique (post-fix re-run). DO NOT run detect.mjs.\n\n**Context**: JoRap.com homepage was critiqued at 26/40, then a full pass was implemented:\n- h1: Jonathan Rapusas, lede, CTAs (Get in touch, About me)\n- Blog section: \"Selected writing\", 4 posts (1 featured lg:col-8 + 3 smaller), h3 card titles\n- Nav: Home/About/Blog/Contact (Categories/Tags removed from main)\n- Site title: JoRap, meta and About rewritten for client-facing register\n- navigation_button enabled\n\n**Files to read** in /Users/jonathanrapusas/Documents/GitHub/jorap.com:\n- themes/jorap/layouts/_partials/sections/home-intro.html\n- themes/jorap/layouts/_partials/sections/blog-list.html\n- config/_default/params.toml, menus.en.toml, hugo.toml\n- content/english/about/_index.md\n- public/index.html (built output if exists)\n\n**PRODUCT.md register**: brand — personal brand for hiring decision-makers. Professional, idea-led, credible.\n\nEvaluate holistically vs BEFORE (26/40, 2 P0, 2 P1). Score all 10 Nielsen heuristics 0-4 honestly. Count cognitive load failures. AI slop verdict.\n\nReturn: scores table, total/40, cognitive load, 2-3 strengths, 3-5 priority issues (P0-P3 with fix + impeccable command), 2-3 persona red flags, minor observations, provocative questions.\n\nBe honest — don't inflate scores because fixes were made. Note remaining gaps (proof/case studies, contact page stub, card grid still present, editorial lane, etc.).",
+  "prompt": "You are Assessment A for Impeccable critique (post-fix re-run). DO NOT run detect.mjs.\n\n**Context**: JoRap.com homepage was critiqued at 26/40, then a full pass was implemented:\n- h1: Jonathan Rapusas, lede, CTAs (Get in touch, About me)\n- Blog section: \"Selected writing\", 4 posts (1 featured lg:col-8 + 3 smaller), h3 card titles\n- Nav: Home/About/Blog/Contact (Categories/Tags removed from main)\n- Site title: JoRap, meta and About rewritten for client-facing register\n- navigation_button enabled\n\n**Files to read** in /Users/jonathanrapusas/Documents/GitHub/jorap.com:\n- themes/jorap/layouts/_partials/sections/home-intro.html\n- themes/jorap/layouts/_partials/sections/blog-list.html\n- config/_default/params.toml, menus.en.toml, hugo.toml\n- content/english/about/_index.md\n- public/index.html (built output if exists)\n\n**PRODUCT.md register**: brand - personal brand for hiring decision-makers. Professional, idea-led, credible.\n\nEvaluate holistically vs BEFORE (26/40, 2 P0, 2 P1). Score all 10 Nielsen heuristics 0-4 honestly. Count cognitive load failures. AI slop verdict.\n\nReturn: scores table, total/40, cognitive load, 2-3 strengths, 3-5 priority issues (P0-P3 with fix + impeccable command), 2-3 persona red flags, minor observations, provocative questions.\n\nBe honest - don't inflate scores because fixes were made. Note remaining gaps (proof/case studies, contact page stub, card grid still present, editorial lane, etc.).",
   "subagentType": "unspecified"
 }
 ```
@@ -2666,7 +2666,7 @@ _**Agent (auto-low)**_
 
 # Design Critique: JoRap.com Homepage (Re-run)
 
-**Target:** `themes/jorap/layouts/home.html` — after the full-pass implementation
+**Target:** `themes/jorap/layouts/home.html` - after the full-pass implementation
 
 ---
 
@@ -2675,43 +2675,43 @@ _**Agent (auto-low)**_
 | # | Heuristic | Score | Key Issue |
 |---|-----------|-------|-----------|
 | 1 | Visibility of System Status | 3 | Nav, search, theme switcher work; no "evaluating a consultant" orientation beyond content |
-| 2 | Match System / Real World | 3 | Identity h1, buyer lede, CTAs align with PRODUCT.md — structure still blog-index with auto-picked posts |
+| 2 | Match System / Real World | 3 | Identity h1, buyer lede, CTAs align with PRODUCT.md - structure still blog-index with auto-picked posts |
 | 3 | User Control and Freedom | 3 | Clean escape hatches; no traps |
 | 4 | Consistency and Standards | 3 | Tokens cohere; minor fractures (`logo_text` "JoRap.com", footer Categories/Tags) |
 | 5 | Error Prevention | 3 | Static home is safe; contact form `action="#"` is a dead end |
-| 6 | Recognition Rather Than Recall | 3 | 4-item nav, dual CTAs, fixed hierarchy — no explicit "start here if hiring" lane |
+| 6 | Recognition Rather Than Recall | 3 | 4-item nav, dual CTAs, fixed hierarchy - no explicit "start here if hiring" lane |
 | 7 | Flexibility and Efficiency of Use | 2 | Search helps power users; no buyer filter or work shortcut |
 | 8 | Aesthetic and Minimalist Design | 3 | 4-card asymmetric grid is calmer than 12; still four identical `blog-card` shells |
 | 9 | Error Recovery | 3 | N/A for primary home task |
 | 10 | Help and Documentation | 2 | Lede frames positioning; zero proof, outcomes, or guided next step beyond reading |
-| **Total** | | **28/40** | **Good (low)** — meaningful fix pass; not yet "Morgan would reach out" |
+| **Total** | | **28/40** | **Good (low)** - meaningful fix pass; not yet "Morgan would reach out" |
 
 **Delta:** 26 → **28** (+2). P0 hierarchy and brand register are largely resolved. P0 count dropped from 2 → 1.
 
-**Cognitive load:** 3 failures (down from 6) — single focus, one thing at a time, minimal choices still fail.
+**Cognitive load:** 3 failures (down from 6) - single focus, one thing at a time, minimal choices still fail.
 
 ---
 
 ## Anti-Patterns Verdict
 
-**Does this look AI-generated? Moderate yes — improving, not cleared.**
+**Does this look AI-generated? Moderate yes - improving, not cleared.**
 
 **LLM assessment:** No longer raw Hugoplate blog-archive slop. Remaining tells:
 
-- **Identical card grid (soft ban)** — same `blog-card` × 4; asymmetric sizing helps layout, not pattern
-- **Positioning triads** — "Ideas, execution, and judgment" + "judgment, not just code" sit in the saturated consultant-voice band
-- **Quiet Study second-order** — warm paper, Inter, elevated bordered cards: competent, not distinctive
-- **"Selected writing" vs `ByDate.Reverse`** — label implies curation; implementation is chronology
+- **Identical card grid (soft ban)** - same `blog-card` × 4; asymmetric sizing helps layout, not pattern
+- **Positioning triads** - "Ideas, execution, and judgment" + "judgment, not just code" sit in the saturated consultant-voice band
+- **Quiet Study second-order** - warm paper, Inter, elevated bordered cards: competent, not distinctive
+- **"Selected writing" vs `ByDate.Reverse`** - label implies curation; implementation is chronology
 
 **Deterministic scan:** Exit **0**, **0 findings** on homepage templates and built `public/index.html`. Clean vs 6 findings pre-fix.
 
-**Browser visualization:** Skipped — no browser automation available.
+**Browser visualization:** Skipped - no browser automation available.
 
 ---
 
 ## Overall Impression
 
-The full pass fixed the biggest structural sins: hierarchy, register, nav noise, and card overload. The homepage now reads as a professional personal brand speaking to buyers — not a default blog index.
+The full pass fixed the biggest structural sins: hierarchy, register, nav noise, and card overload. The homepage now reads as a professional personal brand speaking to buyers - not a default blog index.
 
 The ceiling is now **proof and intent**: copy asserts judgment, but the grid still auto-surfaces whatever published last (currently a hobby/tech mix), and CTAs land on a contact form wired to `#`. The next leap is showing outcomes, not just describing them.
 
@@ -2719,15 +2719,15 @@ The ceiling is now **proof and intent**: copy asserts judgment, but the grid sti
 
 ## What's Working
 
-1. **Hierarchy repair is real** — Jonathan Rapusas is `<h1>`; "Selected writing" is `<h2>`; cards are `<h3>`. Person first, not archive first.
-2. **Buyer-facing register landed** — `JoRap` title, meta, About, and lede speak to stakeholders.
-3. **Conversion scaffolding exists** — Home CTAs + nav button; 4-post cap + featured column meaningfully reduce noise.
+1. **Hierarchy repair is real** - Jonathan Rapusas is `<h1>`; "Selected writing" is `<h2>`; cards are `<h3>`. Person first, not archive first.
+2. **Buyer-facing register landed** - `JoRap` title, meta, About, and lede speak to stakeholders.
+3. **Conversion scaffolding exists** - Home CTAs + nav button; 4-post cap + featured column meaningfully reduce noise.
 
 ---
 
 ## Priority Issues
 
-### [P0] No proof layer — still not hireable in 90 seconds
+### [P0] No proof layer - still not hireable in 90 seconds
 - **Why:** PRODUCT.md requires demonstrated credibility. Intro asserts judgment; home shows no outcomes, clients, or artifacts.
 - **Fix:** Add a proof fold: 2–3 outcome bullets, logos, or a case-study teaser before/alongside writing.
 - **Command:** `/impeccable shape`
@@ -2756,18 +2756,18 @@ The ceiling is now **proof and intent**: copy asserts judgment, but the grid sti
 
 | Prior issue | Status |
 |-------------|--------|
-| P0 IA serves readers, not buyers | **Partial** — copy/CTA fixed; structure/proof not |
+| P0 IA serves readers, not buyers | **Partial** - copy/CTA fixed; structure/proof not |
 | P0 Broken positioning hierarchy | **Resolved** |
-| P1 Identical 12-card grid | **Partial** — 4 + featured; same component |
+| P1 Identical 12-card grid | **Partial** - 4 + featured; same component |
 | P1 Brand register fracture | **Mostly resolved** |
-| P2 No conversion path | **Partial** — CTAs exist; contact broken |
-| P3 Blog-admin main nav | **Resolved** — footer remains |
+| P2 No conversion path | **Partial** - CTAs exist; contact broken |
+| P3 Blog-admin main nav | **Resolved** - footer remains |
 
 ---
 
 ## Persona Red Flags
 
-**Jordan (first-timer):** Name and lede help — largest visual below the fold may still be a hobby blog card. "What does he do for clients?" stays unanswered.
+**Jordan (first-timer):** Name and lede help - largest visual below the fold may still be a hobby blog card. "What does he do for clients?" stays unanswered.
 
 **Casey (mobile):** Sticky header + utilities compete with intro on a short viewport. Four stacked cards = long scroll before any proof.
 
@@ -2779,7 +2779,7 @@ The ceiling is now **proof and intent**: copy asserts judgment, but the grid sti
 
 - Duplicate "Get in touch" (intro + nav) both point to stub contact
 - `mainSections = ["blog"]` reinforces reader-not-buyer mental model
-- About page is solid — home links via secondary CTA only, not as proof
+- About page is solid - home links via secondary CTA only, not as proof
 - Featured `lg:col-8` layout is a real upgrade; card pattern repetition persists
 
 ---
@@ -2791,23 +2791,23 @@ The ceiling is now **proof and intent**: copy asserts judgment, but the grid sti
 
 ## Questions
 
-**1. Proof vs. curation — which first?** The two biggest remaining gaps are **no proof layer** (P0) and **chronological "Selected writing"** (P1). Which should we tackle next?
+**1. Proof vs. curation - which first?** The two biggest remaining gaps are **no proof layer** (P0) and **chronological "Selected writing"** (P1). Which should we tackle next?
 
-- **Proof first** — add outcomes/case-study fold before touching the grid
-- **Curation first** — manually pin buyer-relevant posts so the grid stops undermining the register
-- **Both together** — reshape home IA in one pass (`/impeccable shape`)
+- **Proof first** - add outcomes/case-study fold before touching the grid
+- **Curation first** - manually pin buyer-relevant posts so the grid stops undermining the register
+- **Both together** - reshape home IA in one pass (`/impeccable shape`)
 
-**2. Contact wiring** — CTAs now exist but the form posts to `#`. Do you have a Formspree/Airform endpoint ready, or should we use a mailto + expectations copy as an interim?
+**2. Contact wiring** - CTAs now exist but the form posts to `#`. Do you have a Formspree/Airform endpoint ready, or should we use a mailto + expectations copy as an interim?
 
-- **I have a form endpoint** — wire it up
-- **Interim mailto** — ship something functional now
-- **Skip contact for now** — focus on homepage proof/curation
+- **I have a form endpoint** - wire it up
+- **Interim mailto** - ship something functional now
+- **Skip contact for now** - focus on homepage proof/curation
 
-**3. Scope for the next pass** — three P1/P2 items remain plus polish. What scope?
+**3. Scope for the next pass** - three P1/P2 items remain plus polish. What scope?
 
-- **P0 only** — proof layer
-- **P0 + P1** — proof, curation, contact
-- **Full remaining** — all five open issues + `/impeccable polish`
+- **P0 only** - proof layer
+- **P0 + P1** - proof, curation, contact
+- **Full remaining** - all five open issues + `/impeccable polish`
 
 ---
 
@@ -4123,10 +4123,10 @@ _**Agent (auto-low)**_
 
 ## What shipped
 
-### P0 — Proof layer
+### P0 - Proof layer
 New `home-proof.html` section: **"What I bring to client work"** with three outcome-focused proof points (definition list, not a card grid). Copy is editable in `params.toml` under `[home_proof]`.
 
-### P1 — Curated writing
+### P1 - Curated writing
 `home_blog.post_slugs` pins four buyer-relevant posts instead of reverse-chron:
 - Consistent AI Output for WordPress Builds
 - How I Built JoRap's World
@@ -4135,20 +4135,20 @@ New `home-proof.html` section: **"What I bring to client work"** with three outc
 
 Alex Eala no longer appears in the home grid (only in search preload).
 
-### P1 — Contact conversion
+### P1 - Contact conversion
 - Expectations copy on the contact page (scope, reply time)
-- Formspree wired correctly — fixed a TOML nesting bug that had dropped the `action` attribute
+- Formspree wired correctly - fixed a TOML nesting bug that had dropped the `action` attribute
 - Hidden `_subject` field; submit button reads **Send message**
 
-### P2 — Homepage IA
+### P2 - Homepage IA
 `home.html` is now three sections:
-1. **Intro** — positioning + CTAs  
-2. **Proof** — what you bring to client work  
-3. **Writing** — curated posts  
+1. **Intro** - positioning + CTAs  
+2. **Proof** - what you bring to client work  
+3. **Writing** - curated posts  
 
 No longer a single blog-list template pretending to be a homepage.
 
-### P3 — Residual chrome
+### P3 - Residual chrome
 - `logo_text` → **JoRap** (matches header)
 - Footer: **Blog** + **Contact** replace Categories/Tags
 - Blog index meta description fixed
@@ -4164,7 +4164,7 @@ Hugo build passes. Detector clean on homepage templates.
 
 **Edit without touching templates:** proof points, curated slugs, and section titles all live in `config/_default/params.toml`.
 
-Re-run `/impeccable critique` when you want an updated score — expect a meaningful jump from 28/40.
+Re-run `/impeccable critique` when you want an updated score - expect a meaningful jump from 28/40.
 
 ---
 
@@ -4531,9 +4531,9 @@ _**Agent (auto-low)**_
 
 Two changes:
 
-**Tighter padding** — Homepage sections now use reduced vertical rhythm (`pt-10` intro, `py-8` proof/writing vs the default `py-14 md:py-20`). Internal gaps are smaller too (intro `mb-6`, proof list `space-y-6`, card `mb-8`).
+**Tighter padding** - Homepage sections now use reduced vertical rhythm (`pt-10` intro, `py-8` proof/writing vs the default `py-14 md:py-20`). Internal gaps are smaller too (intro `mb-6`, proof list `space-y-6`, card `mb-8`).
 
-**Fifth article** — Added `power-of-the-mouse-wheel-click` so the grid fills correctly: featured card (`lg:col-8`) + one beside it, then a **full row of three** below. `post_limit` is now 5.
+**Fifth article** - Added `power-of-the-mouse-wheel-click` so the grid fills correctly: featured card (`lg:col-8`) + one beside it, then a **full row of three** below. `post_limit` is now 5.
 
 Swap the fifth slug anytime in `config/_default/params.toml` under `home_blog.post_slugs`.
 
@@ -5510,7 +5510,7 @@ The featured blog card image needs higher quality.</details></think>
 
 _**Agent (auto-low)**_
 
-The featured card is likely served at 413×208 — too small for `lg:col-8`. Tracing how blog-card images are processed and sized.
+The featured card is likely served at 413×208 - too small for `lg:col-8`. Tracing how blog-card images are processed and sized.
 
 
 _**Agent (auto-low)**_
@@ -5931,7 +5931,7 @@ _**Agent (auto-low)**_
 The featured card was serving a **413×208** image into an **`lg:col-8`** slot (~880px wide), so the browser upscaled it and it looked soft.
 
 **Changes:**
-- **Featured card** (`Featured: true` on the first home post) now uses a responsive `<picture>` at **900 / 800 / 600 / 545px** wide — sharp on desktop without overserving mobile
+- **Featured card** (`Featured: true` on the first home post) now uses a responsive `<picture>` at **900 / 800 / 600 / 545px** wide - sharp on desktop without overserving mobile
 - **Other cards** bumped from 413px to **600px** wide for retina in the 3-column grid
 - Featured link wrapper uses **`aspect-video`** to match the larger image
 
@@ -6114,7 +6114,7 @@ _**Agent (auto-low)**_
 Done. The nav is now **Home · About · Blog · Get in touch** (button).
 
 - Removed **Contact** from the main menu
-- **Get in touch** sits as the last nav item — full-width on mobile, inline button on desktop
+- **Get in touch** sits as the last nav item - full-width on mobile, inline button on desktop
 - Removed the duplicate CTA from the search/theme utilities area
 
 Contact remains in the footer for discoverability.
@@ -6286,7 +6286,7 @@ _**Agent (auto-low)**_
 The first two homepage blocks were both capped at `max-w-3xl` (~768px) in a ~1320px container, so most of the row sat empty on the right.
 
 **Changes:**
-- **Desktop (`lg+`):** Intro and proof sit **side by side** — 7/12 for the hero copy, 5/12 for proof, with a left border on the proof column
+- **Desktop (`lg+`):** Intro and proof sit **side by side** - 7/12 for the hero copy, 5/12 for proof, with a left border on the proof column
 - **Mobile:** They still stack; proof is separated with a top border
 - Removed the `max-w-3xl` wrappers that were pinching both sections
 
@@ -6296,7 +6296,7 @@ The hero lede still uses `max-w-[65ch]` for readable line length inside its colu
 
 _**User**_
 
-i need padding at the top of the first section.  what content can i add here? <header class="mb-6 md:mb-0"><h1 class="text-balance text-h1-sm font-bold tracking-tight text-ink md:text-h1">Jonathan Rapusas</h1><p class="mt-3 text-balance text-xl font-semibold text-ink md:text-2xl">Ideas, execution, and judgment, without the noise.</p><p class="mt-5 max-w-[65ch] text-pretty text-base leading-relaxed text-ink-muted md:text-lg">I help organizations ship web experiences and technical systems with clear framing and reliable delivery—for teams who need judgment, not just code.</p><div class="mt-8 flex flex-wrap gap-3"><a class="btn btn-primary btn-sm" href="/contact">Get in touch</a>
+i need padding at the top of the first section.  what content can i add here? <header class="mb-6 md:mb-0"><h1 class="text-balance text-h1-sm font-bold tracking-tight text-ink md:text-h1">Jonathan Rapusas</h1><p class="mt-3 text-balance text-xl font-semibold text-ink md:text-2xl">Ideas, execution, and judgment, without the noise.</p><p class="mt-5 max-w-[65ch] text-pretty text-base leading-relaxed text-ink-muted md:text-lg">I help organizations ship web experiences and technical systems with clear framing and reliable delivery-for teams who need judgment, not just code.</p><div class="mt-8 flex flex-wrap gap-3"><a class="btn btn-primary btn-sm" href="/contact">Get in touch</a>
 <a class="btn btn-outline-primary btn-sm" href="/about">About me</a></div></header>
 
 ---
@@ -6374,7 +6374,7 @@ The header needs more top padding. I'll bump the pt-10 md:pt-12 classes to pt-14
 
 A sticky header would make tight spacing feel cramped. I'll suggest adding an optional role or label line above the heading, and verify which Tailwind padding values are available in the theme.
 
-A role line—such as "Web strategist & developer"—should sit directly above the heading. It explains what the visitor should expect from the site, since the name alone does not reveal the profession.
+A role line-such as "Web strategist & developer"-should sit directly above the heading. It explains what the visitor should expect from the site, since the name alone does not reveal the profession.
 
 I'll add a `role` parameter to the template and params, defaulting to a one-line profession description. A `status` field could also indicate availability. The sticky navbar may overlap the section, so extra top padding is needed.
 
@@ -6382,7 +6382,7 @@ The section padding will be `pt-16 md:pt-20` with `!py-0` to prevent vertical st
 
 _**Agent (auto-low)**_
 
-Adding top padding and an optional `role` line under your name—the main missing piece for visitors who don't yet know what you do.
+Adding top padding and an optional `role` line under your name-the main missing piece for visitors who don't yet know what you do.
 
 
 _**Agent (auto-low)**_
@@ -6438,11 +6438,11 @@ Added **`pt-16 md:pt-20`** to the first section and a new optional **`role`** li
 
 | Slot | Field in `params.toml` | Purpose |
 |------|------------------------|---------|
-| **Name** | `heading` | Who you are — keep as your name |
+| **Name** | `heading` | Who you are - keep as your name |
 | **Role** | `role` *(new)* | What you do in plain language, scannable in 2 seconds |
-| **Tagline** | `subheading` | Point of view / promise — your philosophical line |
-| **Lede** | `lede` | Who you help and how — buyer-focused, one short paragraph |
-| **CTAs** | `home_intro.cta` | Next step — contact + secondary (About) |
+| **Tagline** | `subheading` | Point of view / promise - your philosophical line |
+| **Lede** | `lede` | Who you help and how - buyer-focused, one short paragraph |
+| **CTAs** | `home_intro.cta` | Next step - contact + secondary (About) |
 
 Default role I added:
 
@@ -6453,9 +6453,9 @@ Edit or clear `role` in `config/_default/params.toml` to hide that line.
 ## What else *could* go here (if you want more later)
 
 **Fits the register:**
-- **Availability** — one line: `Open to remote projects starting Q3` (sets expectations, not hype)
-- **Scope** — `WordPress · front-end · migrations · stakeholder-ready delivery` (helps Morgan self-qualify)
-- **Portrait** — small photo beside or above the name (personal brand sites benefit from a face; you already have `jorap.png`)
+- **Availability** - one line: `Open to remote projects starting Q3` (sets expectations, not hype)
+- **Scope** - `WordPress · front-end · migrations · stakeholder-ready delivery` (helps Morgan self-qualify)
+- **Portrait** - small photo beside or above the name (personal brand sites benefit from a face; you already have `jorap.png`)
 
 **Usually better elsewhere:**
 - Client logos / case studies → proof column (you already have that)
@@ -6464,10 +6464,10 @@ Edit or clear `role` in `config/_default/params.toml` to hide that line.
 
 **Avoid:**
 - All-caps kickers (`WEB DEVELOPER`)
-- Big metrics (`10+ years`, `50+ projects`) — reads as SaaS hero template
-- Stack dumps (`PHP · JS · Hugo · …`) as the lead — reads as dev-bro, not buyer-facing
+- Big metrics (`10+ years`, `50+ projects`) - reads as SaaS hero template
+- Stack dumps (`PHP · JS · Hugo · …`) as the lead - reads as dev-bro, not buyer-facing
 
-The gap under the sticky nav was the main padding issue; the gap in *meaning* was a **role** line — name + tagline alone don’t say what you do for hire. Tweak `role`, `subheading`, and `lede` in `params.toml` until the block reads clearly in one skim.
+The gap under the sticky nav was the main padding issue; the gap in *meaning* was a **role** line - name + tagline alone don’t say what you do for hire. Tweak `role`, `subheading`, and `lede` in `params.toml` until the block reads clearly in one skim.
 
 ---
 
@@ -6704,14 +6704,14 @@ Fixed. The nav row was missing vertical centering, and the CTA sat in a plain `l
 - `.nav-item--cta` with flex alignment and consistent left margin
 - Button `leading-none` on large screens so its height matches the nav links
 
-Refresh the page — **Get in touch** should line up with Home, About, and Blog on desktop, and stay full-width below the links on mobile.
+Refresh the page - **Get in touch** should line up with Home, About, and Blog on desktop, and stay full-width below the links on mobile.
 
 ---
 
 _**User**_
 
-<section class="section section--home !py-0 pt-16 md:pt-20 !pb-8 md:!pb-10"><div class="container lg:grid lg:grid-cols-12 lg:items-start lg:gap-x-12 xl:gap-x-16"><div class="lg:col-span-7"><header class="mb-6 md:mb-0"><h1 class="text-balance text-h1-sm font-bold tracking-tight text-ink md:text-h1">Jonathan Rapusas</h1><p class="mt-2 text-pretty text-base font-medium text-ink-muted md:text-lg">Strategic web developer &amp; technical consultant · remote</p><p class="mt-3 text-balance text-xl font-semibold text-ink md:text-2xl">Ideas, execution, and judgment, without the noise.</p><p class="mt-5 max-w-[65ch] text-pretty text-base leading-relaxed text-ink-muted md:text-lg">I help organizations ship web experiences and technical systems with clear framing and reliable delivery—for teams who need judgment, not just code.</p><div class="mt-8 flex flex-wrap gap-3"><a class="btn btn-primary btn-sm" href="/contact">Get in touch</a>
-<a class="btn btn-outline-primary btn-sm" href="/about">About me</a></div></header></div><div class="mt-10 border-t border-divider pt-10 lg:col-span-5 lg:mt-0 lg:border-t-0 lg:border-l lg:pt-0 lg:pl-12 xl:pl-16"><h2 class="heading-title-case text-balance text-h3-sm font-bold tracking-tight text-ink md:text-h3">What I Bring to Client Work</h2><p class="mt-4 text-pretty text-base leading-relaxed text-ink-muted md:text-lg">Judgment shows up in delivery—not only in the headline.</p><dl class="mt-6 space-y-6"><div><dt class="text-lg font-semibold text-ink">WordPress and web systems at scale</dt><dd class="mt-2 text-pretty leading-relaxed text-ink-muted">Theming, migrations, performance, and the maintenance work that keeps sites fast, secure, and maintainable.</dd></div><div><dt class="text-lg font-semibold text-ink">Clear framing for stakeholders</dt><dd class="mt-2 text-pretty leading-relaxed text-ink-muted">Technical tradeoffs explained in plain language so teams align before code ships.</dd></div><div><dt class="text-lg font-semibold text-ink">Remote delivery, end to end</dt><dd class="mt-2 text-pretty leading-relaxed text-ink-muted">Hosting, troubleshooting, analytics, and training so what we build actually gets used.</dd></div></dl></div></div></section>
+<section class="section section--home !py-0 pt-16 md:pt-20 !pb-8 md:!pb-10"><div class="container lg:grid lg:grid-cols-12 lg:items-start lg:gap-x-12 xl:gap-x-16"><div class="lg:col-span-7"><header class="mb-6 md:mb-0"><h1 class="text-balance text-h1-sm font-bold tracking-tight text-ink md:text-h1">Jonathan Rapusas</h1><p class="mt-2 text-pretty text-base font-medium text-ink-muted md:text-lg">Strategic web developer &amp; technical consultant · remote</p><p class="mt-3 text-balance text-xl font-semibold text-ink md:text-2xl">Ideas, execution, and judgment, without the noise.</p><p class="mt-5 max-w-[65ch] text-pretty text-base leading-relaxed text-ink-muted md:text-lg">I help organizations ship web experiences and technical systems with clear framing and reliable delivery-for teams who need judgment, not just code.</p><div class="mt-8 flex flex-wrap gap-3"><a class="btn btn-primary btn-sm" href="/contact">Get in touch</a>
+<a class="btn btn-outline-primary btn-sm" href="/about">About me</a></div></header></div><div class="mt-10 border-t border-divider pt-10 lg:col-span-5 lg:mt-0 lg:border-t-0 lg:border-l lg:pt-0 lg:pl-12 xl:pl-16"><h2 class="heading-title-case text-balance text-h3-sm font-bold tracking-tight text-ink md:text-h3">What I Bring to Client Work</h2><p class="mt-4 text-pretty text-base leading-relaxed text-ink-muted md:text-lg">Judgment shows up in delivery-not only in the headline.</p><dl class="mt-6 space-y-6"><div><dt class="text-lg font-semibold text-ink">WordPress and web systems at scale</dt><dd class="mt-2 text-pretty leading-relaxed text-ink-muted">Theming, migrations, performance, and the maintenance work that keeps sites fast, secure, and maintainable.</dd></div><div><dt class="text-lg font-semibold text-ink">Clear framing for stakeholders</dt><dd class="mt-2 text-pretty leading-relaxed text-ink-muted">Technical tradeoffs explained in plain language so teams align before code ships.</dd></div><div><dt class="text-lg font-semibold text-ink">Remote delivery, end to end</dt><dd class="mt-2 text-pretty leading-relaxed text-ink-muted">Hosting, troubleshooting, analytics, and training so what we build actually gets used.</dd></div></dl></div></div></section>
 
 i need padding at the top. provide content at the left so it is balanced with the right
 
@@ -6929,19 +6929,19 @@ Section top spacing is now **`pt-24 md:pt-28`** (was `pt-16 md:pt-20`) so the he
 
 | Addition | Purpose |
 |----------|---------|
-| **Portrait** (`image`) | Visual anchor at the top — uses `jorap.png` |
+| **Portrait** (`image`) | Visual anchor at the top - uses `jorap.png` |
 | **Availability** | One line: who you’re open to working with |
 | **“Where Teams Bring Me In”** | h2 + 3 items (same dl pattern as the proof column) |
 
 The two columns now mirror each other on desktop:
 
-**Left** — who you are + typical engagements  
-**Right** — what you bring to client work
+**Left** - who you are + typical engagements  
+**Right** - what you bring to client work
 
 All editable in `config/_default/params.toml` under `[home_intro]`:
 
 - `image`, `availability`, `focus_title`
-- `[[home_intro.items]]` — title + description per row
+- `[[home_intro.items]]` - title + description per row
 
 Clear `image` or remove `[[home_intro.items]]` blocks to hide any piece. Refresh the site to see the update.
 
@@ -7035,8 +7035,8 @@ The left column is back to name, role, tagline, lede, availability, and CTAs. Th
 
 _**User**_
 
-<section class="section section--home !py-0 pt-24 md:pt-28 !pb-8 md:!pb-10"><div class="container lg:grid lg:grid-cols-12 lg:items-start lg:gap-x-12 xl:gap-x-16"><div class="lg:col-span-7"><header class="mb-6 md:mb-0"><h1 class="text-balance text-h1-sm font-bold tracking-tight text-ink md:text-h1">Jonathan Rapusas</h1><p class="mt-2 text-pretty text-base font-medium text-ink-muted md:text-lg">Strategic web developer &amp; technical consultant · remote</p><p class="mt-3 text-balance text-xl font-semibold text-ink md:text-2xl">Ideas, execution, and judgment, without the noise.</p><p class="mt-5 max-w-[65ch] text-pretty text-base leading-relaxed text-ink-muted md:text-lg">I help organizations ship web experiences and technical systems with clear framing and reliable delivery—for teams who need judgment, not just code.</p><p class="mt-4 text-pretty text-sm font-medium text-ink md:text-base">Open to remote projects and ongoing collaborations.</p><div class="mt-8 flex flex-wrap gap-3"><a class="btn btn-primary btn-sm" href="/contact">Get in touch</a>
-<a class="btn btn-outline-primary btn-sm" href="/about">About me</a></div></header></div><div class="mt-10 border-t border-divider pt-10 lg:col-span-5 lg:mt-0 lg:border-t-0 lg:border-l lg:pt-0 lg:pl-12 xl:pl-16"><h2 class="heading-title-case text-balance text-h3-sm font-bold tracking-tight text-ink md:text-h3">What I Bring to Client Work</h2><p class="mt-4 text-pretty text-base leading-relaxed text-ink-muted md:text-lg">Judgment shows up in delivery—not only in the headline.</p><dl class="mt-6 space-y-6"><div><dt class="text-lg font-semibold text-ink">WordPress and web systems at scale</dt><dd class="mt-2 text-pretty leading-relaxed text-ink-muted">Theming, migrations, performance, and the maintenance work that keeps sites fast, secure, and maintainable.</dd></div><div><dt class="text-lg font-semibold text-ink">Clear framing for stakeholders</dt><dd class="mt-2 text-pretty leading-relaxed text-ink-muted">Technical tradeoffs explained in plain language so teams align before code ships.</dd></div><div><dt class="text-lg font-semibold text-ink">Remote delivery, end to end</dt><dd class="mt-2 text-pretty leading-relaxed text-ink-muted">Hosting, troubleshooting, analytics, and training so what we build actually gets used.</dd></div></dl></div></div></section>
+<section class="section section--home !py-0 pt-24 md:pt-28 !pb-8 md:!pb-10"><div class="container lg:grid lg:grid-cols-12 lg:items-start lg:gap-x-12 xl:gap-x-16"><div class="lg:col-span-7"><header class="mb-6 md:mb-0"><h1 class="text-balance text-h1-sm font-bold tracking-tight text-ink md:text-h1">Jonathan Rapusas</h1><p class="mt-2 text-pretty text-base font-medium text-ink-muted md:text-lg">Strategic web developer &amp; technical consultant · remote</p><p class="mt-3 text-balance text-xl font-semibold text-ink md:text-2xl">Ideas, execution, and judgment, without the noise.</p><p class="mt-5 max-w-[65ch] text-pretty text-base leading-relaxed text-ink-muted md:text-lg">I help organizations ship web experiences and technical systems with clear framing and reliable delivery-for teams who need judgment, not just code.</p><p class="mt-4 text-pretty text-sm font-medium text-ink md:text-base">Open to remote projects and ongoing collaborations.</p><div class="mt-8 flex flex-wrap gap-3"><a class="btn btn-primary btn-sm" href="/contact">Get in touch</a>
+<a class="btn btn-outline-primary btn-sm" href="/about">About me</a></div></header></div><div class="mt-10 border-t border-divider pt-10 lg:col-span-5 lg:mt-0 lg:border-t-0 lg:border-l lg:pt-0 lg:pl-12 xl:pl-16"><h2 class="heading-title-case text-balance text-h3-sm font-bold tracking-tight text-ink md:text-h3">What I Bring to Client Work</h2><p class="mt-4 text-pretty text-base leading-relaxed text-ink-muted md:text-lg">Judgment shows up in delivery-not only in the headline.</p><dl class="mt-6 space-y-6"><div><dt class="text-lg font-semibold text-ink">WordPress and web systems at scale</dt><dd class="mt-2 text-pretty leading-relaxed text-ink-muted">Theming, migrations, performance, and the maintenance work that keeps sites fast, secure, and maintainable.</dd></div><div><dt class="text-lg font-semibold text-ink">Clear framing for stakeholders</dt><dd class="mt-2 text-pretty leading-relaxed text-ink-muted">Technical tradeoffs explained in plain language so teams align before code ships.</dd></div><div><dt class="text-lg font-semibold text-ink">Remote delivery, end to end</dt><dd class="mt-2 text-pretty leading-relaxed text-ink-muted">Hosting, troubleshooting, analytics, and training so what we build actually gets used.</dd></div></dl></div></div></section>
 
 add padding top like the bottom
 
@@ -7240,9 +7240,9 @@ Added a **Scope** block on the left column, below the intro and CTAs.
 
 **Left column** now has:
 1. Name, role, tagline, lede, availability, CTAs  
-2. **Scope** — three engagement types (builds, migrations, ongoing partnership)
+2. **Scope** - three engagement types (builds, migrations, ongoing partnership)
 
-**Right column** stays **What I Bring to Client Work** — capabilities and how you deliver.
+**Right column** stays **What I Bring to Client Work** - capabilities and how you deliver.
 
 Scope is configured in `params.toml` under `[home_scope]` and rendered via `home-scope.html`, using the same definition-list pattern as the proof column for visual balance.
 
@@ -7253,7 +7253,7 @@ Copy can be tweaked in `config/_default/params.toml` under `[home_scope]`.
 _**User**_
 
 i want this as 1 row:
-<header class="mb-6 md:mb-0"><h1 class="text-balance text-h1-sm font-bold tracking-tight text-ink md:text-h1">Jonathan Rapusas</h1><p class="mt-2 text-pretty text-base font-medium text-ink-muted md:text-lg">Strategic web developer &amp; technical consultant · remote</p><p class="mt-3 text-balance text-xl font-semibold text-ink md:text-2xl">Ideas, execution, and judgment, without the noise.</p><p class="mt-5 max-w-[65ch] text-pretty text-base leading-relaxed text-ink-muted md:text-lg">I help organizations ship web experiences and technical systems with clear framing and reliable delivery—for teams who need judgment, not just code.</p><p class="mt-4 text-pretty text-sm font-medium text-ink md:text-base">Open to remote projects and ongoing collaborations.</p><div class="mt-8 flex flex-wrap gap-3"><a class="btn btn-primary btn-sm" href="/contact">Get in touch</a>
+<header class="mb-6 md:mb-0"><h1 class="text-balance text-h1-sm font-bold tracking-tight text-ink md:text-h1">Jonathan Rapusas</h1><p class="mt-2 text-pretty text-base font-medium text-ink-muted md:text-lg">Strategic web developer &amp; technical consultant · remote</p><p class="mt-3 text-balance text-xl font-semibold text-ink md:text-2xl">Ideas, execution, and judgment, without the noise.</p><p class="mt-5 max-w-[65ch] text-pretty text-base leading-relaxed text-ink-muted md:text-lg">I help organizations ship web experiences and technical systems with clear framing and reliable delivery-for teams who need judgment, not just code.</p><p class="mt-4 text-pretty text-sm font-medium text-ink md:text-base">Open to remote projects and ongoing collaborations.</p><div class="mt-8 flex flex-wrap gap-3"><a class="btn btn-primary btn-sm" href="/contact">Get in touch</a>
 <a class="btn btn-outline-primary btn-sm" href="/about">About me</a></div></header>
 
 scope and what i bring to work are 2 cols
@@ -7460,9 +7460,9 @@ _**Agent (auto-low)**_
 
 Layout is updated:
 
-1. **Row 1 (full width)** — intro header: name, role, tagline, lede, availability, and CTAs span the container.
+1. **Row 1 (full width)** - intro header: name, role, tagline, lede, availability, and CTAs span the container.
 
-2. **Row 2 (two columns)** — **Scope** on the left, **What I Bring to Client Work** on the right (`lg:grid-cols-2`), separated by a top border under the intro and a vertical divider between columns on large screens.
+2. **Row 2 (two columns)** - **Scope** on the left, **What I Bring to Client Work** on the right (`lg:grid-cols-2`), separated by a top border under the intro and a vertical divider between columns on large screens.
 
 On mobile, scope and proof stack with a divider between them.
 
@@ -7833,7 +7833,7 @@ No DESIGN.md exists in that path. I'll check PRODUCT.md and the transcript for d
 
 A professional headshot would suit the right side of the intro row. It puts a face to the name and fits the personal consultancy brand.
 
-Other options include a warm, neutral environment shot showing a desk setup or subtle remote work vibe. A custom diagram or illustration—such as a blueprint or architecture sketch—would match the site tokens and support the technical judgment narrative without feeling like a generic blog post.</details></think>
+Other options include a warm, neutral environment shot showing a desk setup or subtle remote work vibe. A custom diagram or illustration-such as a blueprint or architecture sketch-would match the site tokens and support the technical judgment narrative without feeling like a generic blog post.</details></think>
 
 _**Agent (auto-low)**_
 
@@ -7924,7 +7924,7 @@ For the **first row** (intro copy left, visual right), these are the options tha
 
 **Use:** `assets/images/feature-consistent-ai-output.jpg`
 
-It reads well next to *“Ideas, execution, and judgment, without the noise”* — several inputs converging into one clear outcome. That matches strategic consulting better than a generic desk photo or stock headshot.
+It reads well next to *“Ideas, execution, and judgment, without the noise”* - several inputs converging into one clear outcome. That matches strategic consulting better than a generic desk photo or stock headshot.
 
 **Why it works**
 - Reinforces the message without competing with your name
@@ -7933,8 +7933,8 @@ It reads well next to *“Ideas, execution, and judgment, without the noise”* 
 
 **Caveats**
 - Dark background: check contrast in **light mode** (may need a subtle border or light wrapper)
-- Can feel slightly “AI blog” if cropped badly — crop to the blocks, not the full wide scene
-- Not a face — less personal trust than a real photo
+- Can feel slightly “AI blog” if cropped badly - crop to the blocks, not the full wide scene
+- Not a face - less personal trust than a real photo
 
 ---
 
@@ -7967,7 +7967,7 @@ Keep the intro row as **~7/5 columns** on large screens: copy left, image right,
 
 ---
 
-**My pick:** start with **`feature-consistent-ai-output.jpg`** cropped tight on the right — it’s on-brand and you can ship it today. If you want more human warmth, swap in a real headshot later.
+**My pick:** start with **`feature-consistent-ai-output.jpg`** cropped tight on the right - it’s on-brand and you can ship it today. If you want more human warmth, swap in a real headshot later.
 
 Want me to wire it into `home-intro` with a `home_intro.image` param in `params.toml`?
 
@@ -8317,7 +8317,7 @@ Homepage copy is updated to match your blog voice. Here’s what shifted:
 | “stakeholders,” “clear framing,” “at scale” | Plain takes: “three weeks into the wrong approach,” “sync meetings” |
 | Passive “teams can run what we ship” | “showing your team how to run what we ship” |
 
-**Kept as-is:** your tagline (*Ideas, execution, and judgment, without the noise.*) — it already sounds like you.
+**Kept as-is:** your tagline (*Ideas, execution, and judgment, without the noise.*) - it already sounds like you.
 
 **Also updated:** site `metadata.description` so search/social previews match the same tone.
 
@@ -9996,7 +9996,7 @@ Hugo's markdownify may consume the curly braces around `{year}`, leaving empty c
 
 _**Agent (auto-low)**_
 
-Replacing the `{year}` placeholder with Hugo's `now.Year` in the template — `markdownify` can strip or mishandle the placeholder.
+Replacing the `{year}` placeholder with Hugo's `now.Year` in the template - `markdownify` can strip or mishandle the placeholder.
 
 
 _**Agent (auto-low)**_
@@ -10052,7 +10052,7 @@ Copyright © 2026, JoRap
 
 _**Agent (auto-low)**_
 
-Fixed. The footer was relying on a `{year}` placeholder in `params.toml` plus a template `replace` — that’s fragile, and `markdownify` can interfere with the string.
+Fixed. The footer was relying on a `{year}` placeholder in `params.toml` plus a template `replace` - that’s fragile, and `markdownify` can interfere with the string.
 
 **Change:**
 - `params.toml` now only stores the name: `copyright = "JoRap"`
@@ -10398,8 +10398,8 @@ Updated the homepage and about page:
 - The **Fixes, analytics & training** scope item and its SSL/analytics/spam copy
 
 **Added / shifted**
-- **WordPress & static sites** — includes static site generators like Hugo
-- **Migrations & upkeep** — hosting moves, CMS migrations, updates, theme work
+- **WordPress & static sites** - includes static site generators like Hugo
+- **Migrations & upkeep** - hosting moves, CMS migrations, updates, theme work
 - Proof and about copy now emphasize WordPress + Hugo instead of Drupal
 
 **Scope is now 3 items:** Hosting, sites & email · WordPress & static sites · Migrations & upkeep
@@ -10480,8 +10480,8 @@ _**Agent (auto-low)**_
 
 Both background Hugo builds finished successfully:
 
-- **Copyright check** — build completed; footer output shows `Copyright © 2026, JoRap` (no literal `{year}`).
-- **Content update build** — completed with exit code 0 (762 pages, no errors).
+- **Copyright check** - build completed; footer output shows `Copyright © 2026, JoRap` (no literal `{year}`).
+- **Content update build** - completed with exit code 0 (762 pages, no errors).
 
 Each build took a few minutes because of image processing, but both are clean.
 
@@ -10719,7 +10719,7 @@ _**Agent (auto-low)**_
 
 Informatics and ADB were already gone from `params.toml` and the homepage. The About page still had “taught at computer institutes,” which I removed.
 
-If you still see those names, it’s likely a cached or old deploy — hard-refresh or rebuild to pick up the latest content.
+If you still see those names, it’s likely a cached or old deploy - hard-refresh or rebuild to pick up the latest content.
 
 ---
 
@@ -10794,10 +10794,10 @@ _**Agent (auto-low)**_
 
 The About page is rewritten around **what you've done**, not where you worked:
 
-- **Freelance (2013–present)** — hosting, WordPress, Hugo, migrations, updates, client training  
-- **In-house PHP systems** — requirements, support, Git deployments, UAT  
-- **Intranet & leadership** — catalogs, enrollment, evaluation tools, team supervision  
-- **Teaching** — curriculum, classroom/video training, post-training support, seminars  
+- **Freelance (2013–present)** - hosting, WordPress, Hugo, migrations, updates, client training  
+- **In-house PHP systems** - requirements, support, Git deployments, UAT  
+- **Intranet & leadership** - catalogs, enrollment, evaluation tools, team supervision  
+- **Teaching** - curriculum, classroom/video training, post-training support, seminars  
 
 No company names. UPLB stays as education only.
 
@@ -10906,7 +10906,7 @@ _**Agent (auto-low)**_
 
 Updated the About page with an international angle, still no company names:
 
-- New opening paragraph on **multicultural work across Australia, the U.S., and Asia** — time zones, accents, plain English, remote collaboration
+- New opening paragraph on **multicultural work across Australia, the U.S., and Asia** - time zones, accents, plain English, remote collaboration
 - In-house and teaching sections tied to that **international mix**
 - Meta description updated to match
 
@@ -11017,10 +11017,10 @@ Here are alternatives that keep the same shape but soften **judgment** and work 
 ### Direct swaps (closest to what you have)
 
 1. **Ideas, execution, and clarity, without the noise.**  
-   Simplest change — same rhythm, less heavy.
+   Simplest change - same rhythm, less heavy.
 
 2. **Ideas, clarity, and execution, without the noise.**  
-   Puts clarity before the build — reads more “think first, then ship.”
+   Puts clarity before the build - reads more “think first, then ship.”
 
 3. **Clarity, ideas, and execution, without the noise.**  
    Leads with clarity; good if you want the tagline to feel calmer up front.
@@ -11031,7 +11031,7 @@ Here are alternatives that keep the same shape but soften **judgment** and work 
    Still implies good calls, without sounding like you’re grading people.
 
 5. **Ideas, execution, and good sense, without the noise.**  
-   More conversational — very JoRap.
+   More conversational - very JoRap.
 
 6. **Ideas, clarity, and follow-through, without the noise.**  
    Emphasizes you finish what you start.
@@ -11039,7 +11039,7 @@ Here are alternatives that keep the same shape but soften **judgment** and work 
 ### Tighter / more distinctive
 
 7. **Clear ideas, steady execution, without the noise.**  
-   Two beats instead of three — punchier, less consultant-y.
+   Two beats instead of three - punchier, less consultant-y.
 
 8. **Ideas, clarity, delivery, without the noise.**  
    Compact; “delivery” grounds it in client work.
@@ -11214,18 +11214,18 @@ A hybrid approach would center the heading, role, subheading, and CTAs while kee
 
 _**Agent (auto-low)**_
 
-**Short answer:** Yes, it can work — especially as a **hero statement** above the two-column detail row. I wouldn’t center everything blindly though.
+**Short answer:** Yes, it can work - especially as a **hero statement** above the two-column detail row. I wouldn’t center everything blindly though.
 
 ### Why centering row 1 makes sense
 
-- **Name, role, and tagline** are short — they read well centered and feel like a deliberate intro, not a blog post.
+- **Name, role, and tagline** are short - they read well centered and feel like a deliberate intro, not a blog post.
 - Row 2 (**Scope** | **What You Actually Get**) stays left-aligned in columns, so you get a clear hierarchy: **who you are** → **what you do**.
 - With no image on the right, a centered first row fills the width better and avoids a heavy left block with empty space beside it.
-- Your design is **editorial-calm**, not corporate — a centered hero fits a personal brand site.
+- Your design is **editorial-calm**, not corporate - a centered hero fits a personal brand site.
 
 ### What to watch out for
 
-- **Long lede text** is harder to read when fully centered. Your lede is only two sentences, so it’s fine — but if it grows, readability drops.
+- **Long lede text** is harder to read when fully centered. Your lede is only two sentences, so it’s fine - but if it grows, readability drops.
 - **Full-width centered paragraphs** wider than ~60 characters get tiring. Keep a `max-w-*` and `mx-auto` if you center.
 
 ### What I’d do
@@ -11240,7 +11240,7 @@ A **hybrid** usually works best:
 
 That gives you a hero moment without turning the bio into a greeting card.
 
-**My pick for your site:** center the first row with `text-center`, `max-w-3xl mx-auto`, and `justify-center` on the buttons — it matches the tagline tone and contrasts nicely with the two-column row below.
+**My pick for your site:** center the first row with `text-center`, `max-w-3xl mx-auto`, and `justify-center` on the buttons - it matches the tagline tone and contrasts nicely with the two-column row below.
 
 Want me to apply that in `home-intro.html`?
 
@@ -11324,8 +11324,8 @@ _**Agent (auto-low)**_
 
 The intro row is centered:
 
-- **Header** — `mx-auto max-w-3xl text-center` for name, role, tagline, and availability  
-- **Lede** — `mx-auto max-w-[65ch]` so it stays readable inside the centered block  
-- **CTAs** — `justify-center` on the button row  
+- **Header** - `mx-auto max-w-3xl text-center` for name, role, tagline, and availability  
+- **Lede** - `mx-auto max-w-[65ch]` so it stays readable inside the centered block  
+- **CTAs** - `justify-center` on the button row  
 
 Scope and proof below stay left-aligned in two columns. Refresh the homepage to see it.

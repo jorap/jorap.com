@@ -47,6 +47,20 @@ author: "JoRap"
 tags: ["Gospel", "Eternal Principles", "Speech", "Community"]
 aliases: ["edifying speech", "Ephesians 4:29"]
 featured: false
-review: false
+review: true
+card_sets: ["Eternal Principles", "Gospel", "Ethics"]
+cards:
+  - front: "Sarcastic group-chat reply loaded - teammate never sees grace."
+    back: "Delete it - name one thing they did right."
+  - front: "Correction to kid loading - ears already shut from rotten lunch speech."
+    back: "Build up at dinner - then the lesson lands."
+  - front: "Flattery drafted - no truth the hearer can use."
+    back: "Deposit grace - truth that helps."
+  - front: "Hot room - demolition speech loading in my throat."
+    back: "Gentle build-up - de-escalate, then truth."
+  - front: "Unsolicited fix without listening - ears closed."
+    back: "Listen first - then words that build."
+  - front: "Speaking to earn standing - ledger already clean?"
+    back: "Forgiven lips - build up from grace received."
 draft: false
 ---

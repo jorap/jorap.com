@@ -20,7 +20,7 @@ Reading the blog post and jorap-voice skill examples. Running voice lint to chec
 
 _**Agent (auto-low)**_
 
-Reviewing the Hanamikoji post for sense, factual consistency, and JoRap voice — reading the draft and running voice lint.
+Reviewing the Hanamikoji post for sense, factual consistency, and JoRap voice - reading the draft and running voice lint.
 
 
 _**Agent (auto-low)**_
@@ -91,7 +91,7 @@ Parameters:
 {
   "caseInsensitive": false,
   "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/hanamikoji-duopoly-retheme.md",
-  "pattern": "—|–|mechannic"
+  "pattern": "-|–|mechannic"
 }
 ```
 Additional data:
@@ -101,7 +101,7 @@ Additional data:
   "isPruned": true,
   "outputMode": "content",
   "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/hanamikoji-duopoly-retheme.md",
-  "pattern": "—|–|mechannic",
+  "pattern": "-|–|mechannic",
   "topFiles": [
     {
       "matchCount": 3,
@@ -177,7 +177,7 @@ Line 83 claims fourteen moves to track per round. Seven victory markers with two
 
 The fourteen-move figure risks confusing readers into thinking there are fourteen physical moves per round rather than fourteen binary states. Component counts are accurate: forty-three distinct bits and thirty-six cards plus a zine. Oversized geisha boards correctly describe the larger geisha cards.
 
-The seven listed markets—Germany, France, UK, China, Japan, EU, US—align with the seven geisha charm values. The EU entry is a dry business retheme joke. The `hanamikoji-rules` alias may mislead readers expecting a rules sheet.
+The seven listed markets-Germany, France, UK, China, Japan, EU, US-align with the seven geisha charm values. The EU entry is a dry business retheme joke. The `hanamikoji-rules` alias may mislead readers expecting a rules sheet.
 
 Image paths still need verification.
 
@@ -283,7 +283,7 @@ Result:
   "isFinal": true,
   "references": [
     {
-      "chunk": "Links:\n1. [How to play Hanamikoji | Official Rules | UltraBoardGames](https://www.ultraboardgames.com/hanamikoji/game-rules.php)\n2. [Gamehelphanamikoji - Board Game Arena](https://en.boardgamearena.com/doc/Gamehelphanamikoji)\n3. [Memoirs of Seven Geishas--A Double-Take Review of Hanamikoji — Theology of Games](https://www.theologyofgames.com/blog/2018/7/23/memoirs-of-seven-geishas-a-double-take-review-of-hanamikoji)\n4. [Hanamikoji: Getting charm points with the geishas -](https://www.boardgamemeeplelady.com/2020/12/16/hanamikoji-getting-charm-points-with-the-geishas/)\n5. [Hanamikoji: Elegant Choices - The Family Gamers](https://www.thefamilygamers.com/hanamikoji/)\n\nSynthesis:\nHanamikoji is a two-player strategy game where players compete to earn the favor of seven geishas by collecting matching performance item cards [1][2].\n\nGame components include 7 geisha cards, 21 item cards, 8 action markers, and 7 victory markers [1][3]. Each geisha card displays a charm point value (from 2 to 5), which matches the number of corresponding item cards available in the deck [3][4].\n\nPlayers win by reaching 4 geishas or 11 or more total charm points [1][5]. If no winner emerges in a round, victory markers remain in place for the next round [3][6].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eHow to play Hanamikoji | Official Rules | UltraBoardGames\u003c/title\u003e\n\u003curl\u003ehttps://www.ultraboardgames.com/hanamikoji/game-rules.php\u003c/url\u003e\n\u003ccontent\u003eIn Hanamikoji, two players compete to earn the favors of the seven geisha masters by collecting the performance items with which they excel.\n...\n- 7 Geisha Cards\n- 21 Item Cards\n- 8 Action Markers\n- 7 Victory Markers\n...\n##### Geisha Cards\n...\n1 Charm Points (equal to the number of Item Cards of the corresponding type).\n...\n2 Corresponding Item.\n...\n##### Item Cards\n...\n1 Charm Points (equal to the number of
+      "chunk": "Links:\n1. [How to play Hanamikoji | Official Rules | UltraBoardGames](https://www.ultraboardgames.com/hanamikoji/game-rules.php)\n2. [Gamehelphanamikoji - Board Game Arena](https://en.boardgamearena.com/doc/Gamehelphanamikoji)\n3. [Memoirs of Seven Geishas--A Double-Take Review of Hanamikoji - Theology of Games](https://www.theologyofgames.com/blog/2018/7/23/memoirs-of-seven-geishas-a-double-take-review-of-hanamikoji)\n4. [Hanamikoji: Getting charm points with the geishas -](https://www.boardgamemeeplelady.com/2020/12/16/hanamikoji-getting-charm-points-with-the-geishas/)\n5. [Hanamikoji: Elegant Choices - The Family Gamers](https://www.thefamilygamers.com/hanamikoji/)\n\nSynthesis:\nHanamikoji is a two-player strategy game where players compete to earn the favor of seven geishas by collecting matching performance item cards [1][2].\n\nGame components include 7 geisha cards, 21 item cards, 8 action markers, and 7 victory markers [1][3]. Each geisha card displays a charm point value (from 2 to 5), which matches the number of corresponding item cards available in the deck [3][4].\n\nPlayers win by reaching 4 geishas or 11 or more total charm points [1][5]. If no winner emerges in a round, victory markers remain in place for the next round [3][6].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eHow to play Hanamikoji | Official Rules | UltraBoardGames\u003c/title\u003e\n\u003curl\u003ehttps://www.ultraboardgames.com/hanamikoji/game-rules.php\u003c/url\u003e\n\u003ccontent\u003eIn Hanamikoji, two players compete to earn the favors of the seven geisha masters by collecting the performance items with which they excel.\n...\n- 7 Geisha Cards\n- 21 Item Cards\n- 8 Action Markers\n- 7 Victory Markers\n...\n##### Geisha Cards\n...\n1 Charm Points (equal to the number of Item Cards of the corresponding type).\n...\n2 Corresponding Item.\n...\n##### Item Cards\n...\n1 Charm Points (equal to the number of
 … (output truncated)
 ```
 User decision: **accepted**
@@ -527,13 +527,13 @@ Mechanics unchanged. Visual noise stripped. Friction lowered. Early plays sugges
 - `mechannic` → `mechanic`
 - Subject-verb: `the mechanic and its simplicity` → **`hold`** (or shorten to `the mechanic still holds`)
 
-**2. Four em dashes (lines 143, 147)** — `pnpm lint:voice` fails. Swap for hyphens, commas, or parentheses per jorap-voice:
+**2. Four em dashes (lines 143, 147)** - `pnpm lint:voice` fails. Swap for hyphens, commas, or parentheses per jorap-voice:
 
 | Current | Suggested |
 |---------|-----------|
-| `*Hanamikoji* — mechanics, structure, scoring, the whole design — belongs` | `*Hanamikoji* (mechanics, structure, scoring, the whole design) belongs` |
-| `you do not need this — you have the real thing` | `you do not need this. You have the real thing` |
-| `fewer bits in the box — not permission` | `fewer bits in the box, not permission` |
+| `*Hanamikoji* - mechanics, structure, scoring, the whole design - belongs` | `*Hanamikoji* (mechanics, structure, scoring, the whole design) belongs` |
+| `you do not need this - you have the real thing` | `you do not need this. You have the real thing` |
+| `fewer bits in the box - not permission` | `fewer bits in the box, not permission` |
 
 ---
 

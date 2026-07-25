@@ -798,7 +798,7 @@ Result:
           },
           {
             "lineNumber": 7,
-            "text": "Multilingual — each language sets &#96;contentDir&#96; in &#96;config/_default/languages.toml&#96; (English → &#96;content/english/&#96;). **List the dir before assuming the language** (e.g. &#96;content/english/blog/post.md&#96; → English, not &#96;content/blog/post.md&#96;)."
+            "text": "Multilingual - each language sets &#96;contentDir&#96; in &#96;config/_default/languages.toml&#96; (English → &#96;content/english/&#96;). **List the dir before assuming the language** (e.g. &#96;content/english/blog/post.md&#96; → English, not &#96;content/blog/post.md&#96;)."
           },
           {
             "lineNumber": 8,
@@ -902,7 +902,7 @@ Result:
           },
           {
             "lineNumber": 35,
-            "text": "- Images go under &#96;assets/images/&#96; and use image module &#96;{{ partial \"image\" (dict \"Src\" .image \"Alt\" \"...\" \"Loading\" \"eager\" \"Class\" \"...\" \"DisplayXL\" \"800x\") }}&#96; — don't hand-write &#96;\u003cimg\u003e&#96;."
+            "text": "- Images go under &#96;assets/images/&#96; and use image module &#96;{{ partial \"image\" (dict \"Src\" .image \"Alt\" \"...\" \"Loading\" \"eager\" \"Class\" \"...\" \"DisplayXL\" \"800x\") }}&#96; - don't hand-write &#96;\u003cimg\u003e&#96;."
           }
         ],
         "range": {
@@ -1972,7 +1972,7 @@ Result:
           },
           {
             "lineNumber": 5,
-            "text": "There are three distinct things you'll be asked for — pick the matching recipe:"
+            "text": "There are three distinct things you'll be asked for - pick the matching recipe:"
           },
           {
             "lineNumber": 6
@@ -2002,7 +2002,7 @@ Result:
           },
           {
             "lineNumber": 13,
-            "text": "## Where new/overridden layouts go — root &#96;layouts/&#96;, never &#96;themes/\u003ctheme\u003e/layouts/&#96;"
+            "text": "## Where new/overridden layouts go - root &#96;layouts/&#96;, never &#96;themes/\u003ctheme\u003e/layouts/&#96;"
           },
           {
             "lineNumber": 14
@@ -2020,7 +2020,7 @@ Result:
           },
           {
             "lineNumber": 18,
-            "text": "- **Never create or edit files directly under &#96;themes/\u003ctheme\u003e/layouts/&#96;** — those are vendored and reset/overwritten on theme updates (&#96;\u003cpm\u003e update-theme&#96; etc.)."
+            "text": "- **Never create or edit files directly under &#96;themes/\u003ctheme\u003e/layouts/&#96;** - those are vendored and reset/overwritten on theme updates (&#96;\u003cpm\u003e update-theme&#96; etc.)."
           },
           {
             "lineNumber": 19,
@@ -2028,14 +2028,14 @@ Result:
           },
           {
             "lineNumber": 20,
-            "text": "- To add something brand new (a new partial, a new template, a new shortcode), just create it under root &#96;layouts/...&#96; directly — no theme copy needed."
+            "text": "- To add something brand new (a new partial, a new template, a new shortcode), just create it under root &#96;layouts/...&#96; directly - no theme copy needed."
           },
           {
             "lineNumber": 21
           },
           {
             "lineNumber": 22,
-            "text": "## Recipe 1 — Custom-templated page with frontmatter (like &#96;about&#96;)"
+            "text": "## Recipe 1 - Custom-templated page with frontmatter (like &#96;about&#96;)"
           }
         ],
         "range": {
@@ -2424,7 +2424,7 @@ Result:
         "detailedLines": [
           {
             "lineNumber": 1,
-            "text": "# JoRap Notes — Personal Blog \u0026 Portfolio Website"
+            "text": "# JoRap Notes - Personal Blog \u0026 Portfolio Website"
           },
           {
             "lineNumber": 2
@@ -5417,7 +5417,7 @@ Result:
   "isFinal": true,
   "references": [
     {
-      "chunk": "Links:\n1. [Feature List](https://quartz.jzhao.xyz/features/)\n2. [Obsidian Publish Alternatives: Simpler, Cheaper Options in 2026 | Unmarkdown™ Blog](https://unmarkdown.com/blog/obsidian-publish-alternatives)\n3. [Review - Site Generators - Never Complete Only Abandoned - Obsidian Publish](https://publish.obsidian.md/xybre/permalink/7b636b0a-552c-48f7-98f9-01184647150f)\n4. [hfactor/Grdn](https://github.com/hfactor/Grdn)\n5. [Grdn | Hugo Themes](https://www.gohugothemes.com/theme/hfactor-grdn/)\n\nSynthesis:\nQuartz is the most effective open-source tool for turning an Obsidian vault into a digital garden with features like graph view, backlinks, and wikilink support [1][2][3]. While built on Hugo, it functions as a comprehensive, \"batteries-included\" static site generator specifically optimized for Obsidian workflows [1][2][3].\n\nIf you prefer to use a standalone Hugo theme rather than the Quartz framework, options like Grdn provide built-in support for wikilinks and backlinks [4][5]. Generic Hugo setups require custom configuration to handle these features, as they do not support them natively [6][2].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eFeature List\u003c/title\u003e\n\u003curl\u003ehttps://quartz.jzhao.xyz/features/\u003c/url\u003e\n\u003ccontent\u003e- Obsidian compatibility— Full support for Obsidian-flavored Markdown\n- wikilinks— Link between notes using&#96;[[wikilinks]]&#96; syntax\n- callouts— Obsidian-style callout blocks\n- Latex— LaTeX math rendering\n- Mermaid diagrams— Diagram support via Mermaid\n- Syntax highlighting— Code block highlighting with themes\n- OxHugo compatibility— Support for ox-hugo Markdown\n- Roam Research compatibility— Support for Roam Research syntax\n- Citations— Academic citation support\n- Canvas— Render Obsidian Canvas files as interactive pages\n- Bases— Database-like views for your notes (tables, cards, galleries, and more)\n...\n- full-text search— Search across all your notes\n- graph view— Interactive graph visualization of note connections\n- backlinks— See which notes link to the current page\n- explorer— File tree sidebar for browsing notes\n- breadcrumbs— Breadcrumb navigation trail\n- table of contents— Per-page table of contents\n- folder and tag listings— Browse notes by folder or tag\n- recent notes— Display recently modified notes\n- popover previews— Hover previews for internal links\n- stacked pages— Andy Matuschak-style stacked sliding panes for tracing note connections\n- encrypted pages— Password-protect individual pages with client-side encryption\n...\n### Obsidian Compatibility\n...\n### OxHugo Compatibility\n...\n### Wikilinks\n...\nhttps://quartz.jzhao.\n...\nwikilinks\n...\n### Backlinks\n...\nhttps://quartz.jzhao.xyz/features/backlinks\n...\n### Graph View\n...\nhttps://quartz.jzhao.xyz/features/graph-view\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"2\"\u003e\n\u003ctitle\u003eObsidian Publish Alternatives: Simpler, Cheaper Options in 2026 | Unmarkdown™ Blog\u003c/title\u003e\n\u003curl\u003ehttps://unmarkdown.com/blog/obsidian-publish-alternatives\u003c/url\u003e\n\u003ccontent\u003eGraph view on the web. Obsidian's signature feature works on published sites. Visitors can explore connections between your notes visually.\n...\nQuartz is the closest feature match to Obsidian Publish. It's free, open-source, and produces a static site from your markdown files with graph view, backlinks, full-text search, and customizable themes.\n...\nWhat makes it compelling: Quartz delivers the signature Obsidian Publish features (graph, backlinks, search) without the subscription. The community is active, documentation is solid, and it supports wikilinks, tags, and most Obsidian markdown extensions.\n...\nThe tradeoff: These are web development tools. There's no out-of-the-box Obsidian integration, no graph view, no backlinks unless you build or install them yourself. The learning curve is steeper than any Obsidian-specific tool.\n...\nHugo/Jekyll/11ty\n...\n| Graph view | Yes | Yes | No | No (unless built) | Partial | No |\n...\n| Custom domain | Yes | Yes | Yes | Yes | Yes | Yes (Pro) |\n...\n| Wikilink support | Yes | Yes | No | No | Yes | Strips to clean text |\n...\n| N/\n...\nUnmarkdown™ is not a digital garden publisher. It doesn't have graph view, backlinks, or the networked note experience that makes Obsidian Publish distinctive. It solves a different problem.\n...\nChoose Obsidian Publish if: You want the most polished digital garden experience, you rely on graph view and backlinks for your audience, and you don't mind the subscription cost. The tight integration with Obsidian makes setup nearly effortless.\n...\nChoose Hugo, Jekyll, or Eleventy if: You want full control over your site and are comfortable with web development. These give you the most flexibility at zero cost.\n...\nFor digital gardens and networked knowledge bases, Quartz delivers comparable features at zero cost. For documentation, MkDocs is more mature and widely supported. For multi-destination publishing (getting your markdown into the apps where people actually work), Unmarkdown™ stands alone.\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"3\"\u003e\n\u003ctitle\u003eReview - Site Generators - Never Complete Only Abandoned - Obsidian Publish\u003c/title\u003e\n\u003curl\u003ehttps://publish.obsidian.md/xybre/permalink/7b636b0a-552c-48f7-98f9-01184647150f\u003c/url\u003e\n\u003ccontent\u003e]] and similar lightweight markup languages into full browseable static HTML files that can be deployed to a server without access to the original source files. # Markdown Plain Markdown to plain site. May supply some basic templating. - [[Hugo]] - [[Jekyll]] - [[werc]] # Digital Garden These create [[Obsidian Publish]]-style digital gardens. &#96;&#96;&#96;cardlink url: https://publishkit.dev/ title: \"KIT\" description: \"Publish full featured web apps with markdown\" host: publishkit.dev image: https://publishkit.dev/attachements/og.png &#96;&#96;&#96; &#96;&#96;&#96;cardlink url: https://blot.im/ title: \"Blot\" description: \"Turns a folder into a website\" host: blot.im favicon: https://cdn.blot.im/documentation/v-8d7d9d72/favicon-180x180.png &#96;&#96;&#96; ## Quartz 4 &#96;&#96;&#96;cardlink url: https://quartz.jzhao.xyz/ title: \"Welcome to Quartz 4\" description: \"Quartz is a fast, batteries-included static-site generator that transforms Markdown content into fully functional websites. Thousands of students, developers, and teachers are already using Quartz to publish personal notes, websites, and digital gardens to the web.\" host: quartz.jzhao.xyz favicon: ./static/icon.png image: https://quartz.jzhao.xyz/static/og-image.png &#96;&#96;&#96; \u003e Quartz is a fast, batteries-included static-site generator that transforms Markdown content into fully functional websites. - Obsidian compatibility, full-text search, graph view, note transclusion, wikilinks, backlinks, Latex, syntax highlighting, popover previews, Docker Support, and many more right out of the box - Hot-reload for both configuration and content - Simple JSX layouts and page components - Ridiculously fast page loads and tiny bundle sizes - Fully-customizable parsing, filtering, and page generation through plugins ## Misc &#96;&#96;&#96;cardlink url: https://github.com/MaggieAppleton/digital-gardeners title: \"GitHub - MaggieAppleton/digital-gardeners: Resources, links, projects, and ideas for gardeners tending their digital notes on the public interwebs\" description: \"Resources, links,\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"4\"\u003e\n\u003ctitle\u003ehfactor/Grdn\u003c/title\u003e\n\u003curl\u003ehttps://github.com/hfactor/Grdn\u003c/url\u003e\n\u003ccontent\u003eObsidian-first Digital Garden Publishing template using Hugo.\n...\n# Grdn - A Hugo Theme for Digital Gardens\n\n \n\nGrdn is a clean, minimal Hugo theme specifically designed for publishing your [Obsidian](https://obsidian.md/) notes as a beautiful digital garden. It maintains the integrity of your note connections while presenting them in a web-friendly format.\n...\n- Full support for &#96;[[wikilinks]]&#96; syntax\n - Hover previews for internal links\n - Backlinks section showing connections between notes\n - Graceful handling of broken links\n...\nfiltering for digital\n...\nworkflows\n - Shareable URLs that preserve filter state\n...\n- Flat URL structure regardless of folder hierarchy\n - All notes accessible under configurable base path\n - Support\n...\nfrontmatter metadata (title, category, growth stage)\n -\n...\n- [Hugo Extended](https://gohugo.io/installation/) (version 0.112.0 or later)\n- An [Obsidian](https://obsidian.md/) vault (optional, but recommended)\n...\nPlace your markdown files in the &#96;content/notes/&#96; directory. If you're using Obsidian, you can set this folder as your vault.\n...\n1. **Visit** &#96;http://localhost:1313&#96; to see your digital garden!\n...\nNote content with [[wikilinks]] to other notes.\n&#96;&#96;&#96;\n...\n&#96;&#96;&#96;toml\n[params]\n  # Core Features\n  enableSearch = true           # Enable/disable search functionality\n  enableCategoryFilter = true   # Enable/disable category filter\n  enableGrowthFilter = true     # Enable/disable growth stage filter\n  \n  # Path Configuration\n  notesPath = \"/notes/\"         # Base path for all notes\n  \n  # UI Configuration\n  defaultTheme = \"system\"       # \"light\", \"dark\", or \"system\"\n  \n  # Site Information\n  description = \"My digital garden of interconnected notes\"\n  author = \"Your Name\"\n...\n- [Obsidian](https://obsidian.md/) for the amazing note-taking experience\n- [Hugo](https://gohugo.io/) for the powerful static site generation\n- [Fuse.js](https://fusejs.io/) for client-side search capability\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"5\"\u003e\n\u003ctitle\u003eGrdn | Hugo Themes\u003c/title\u003e\n\u003curl\u003ehttps://www.gohugothemes.com/theme/hfactor-grdn/\u003c/url\u003e\n\u003ccontent\u003eGrdn | Hugo Themes\n\n# Grdn\n\nTheme by Hfactor\n\n|\n\nUpdated: 26 Apr 2025\n\n|\n\n13 Stars\n\nObsidian-first Digital Garden Publishing template using Hugo.\n\nGithub\n\n### Categories\n\nDigital garden\n\n## Overview\n\nGrdn is an elegant and minimalist Hugo theme tailored for those looking to showcase their Obsidian notes as a beautifully formatted digital garden. This theme brings life to your notes while preserving the interconnectedness that makes them valuable, allowing users to navigate their thoughts seamlessly. With a focus on readability and organization, Grdn is perfect for anyone seeking a distraction-free zone to explore their ideas.\n\nNot only does Grdn maintain a sleek and modern design, but it also incorporates various features designed to enhance user interaction and experience. Whether you’re a seasoned developer or just starting your journey in digital gardening, Grdn provides the tools necessary to curate a thoughtful online space for your notes.\n\n## Features\n\n- Shareable URLs: URLs that maintain filter states allow for easy sharing of your digital garden with others.\n- Growth Stage Support: Customizable growth stages that help visually indicate the maturity of your notes, from initial thoughts to well-developed content.\n- Flat URL Structure: Ensures accessibility of all notes under a configurable base path for straightforward navigation.\n- Responsive Design: Fully compatible with all devices, providing a seamless viewing experience no matter the screen size.\n- Light/Dark Mode: Automatically adjusts to system preferences, ensuring a comfortable reading experience in any lighting.\n- Dynamic Navigation: Real-time updates with a dynamic filter bar and full-text title search for effortless exploration.\n- Backlinks Section: Easily see connections between your notes, enriching the context of your thoughts.\n- Obsidian Compatibility: Full support for [[wikilinks]] syntax and internal link previews, making navigation intuitive.\u003c/content\u003e\n\u003c/result\u003e",
+      "chunk": "Links:\n1. [Feature List](https://quartz.jzhao.xyz/features/)\n2. [Obsidian Publish Alternatives: Simpler, Cheaper Options in 2026 | Unmarkdown™ Blog](https://unmarkdown.com/blog/obsidian-publish-alternatives)\n3. [Review - Site Generators - Never Complete Only Abandoned - Obsidian Publish](https://publish.obsidian.md/xybre/permalink/7b636b0a-552c-48f7-98f9-01184647150f)\n4. [hfactor/Grdn](https://github.com/hfactor/Grdn)\n5. [Grdn | Hugo Themes](https://www.gohugothemes.com/theme/hfactor-grdn/)\n\nSynthesis:\nQuartz is the most effective open-source tool for turning an Obsidian vault into a digital garden with features like graph view, backlinks, and wikilink support [1][2][3]. While built on Hugo, it functions as a comprehensive, \"batteries-included\" static site generator specifically optimized for Obsidian workflows [1][2][3].\n\nIf you prefer to use a standalone Hugo theme rather than the Quartz framework, options like Grdn provide built-in support for wikilinks and backlinks [4][5]. Generic Hugo setups require custom configuration to handle these features, as they do not support them natively [6][2].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eFeature List\u003c/title\u003e\n\u003curl\u003ehttps://quartz.jzhao.xyz/features/\u003c/url\u003e\n\u003ccontent\u003e- Obsidian compatibility- Full support for Obsidian-flavored Markdown\n- wikilinks- Link between notes using&#96;[[wikilinks]]&#96; syntax\n- callouts- Obsidian-style callout blocks\n- Latex- LaTeX math rendering\n- Mermaid diagrams- Diagram support via Mermaid\n- Syntax highlighting- Code block highlighting with themes\n- OxHugo compatibility- Support for ox-hugo Markdown\n- Roam Research compatibility- Support for Roam Research syntax\n- Citations- Academic citation support\n- Canvas- Render Obsidian Canvas files as interactive pages\n- Bases- Database-like views for your notes (tables, cards, galleries, and more)\n...\n- full-text search- Search across all your notes\n- graph view- Interactive graph visualization of note connections\n- backlinks- See which notes link to the current page\n- explorer- File tree sidebar for browsing notes\n- breadcrumbs- Breadcrumb navigation trail\n- table of contents- Per-page table of contents\n- folder and tag listings- Browse notes by folder or tag\n- recent notes- Display recently modified notes\n- popover previews- Hover previews for internal links\n- stacked pages- Andy Matuschak-style stacked sliding panes for tracing note connections\n- encrypted pages- Password-protect individual pages with client-side encryption\n...\n### Obsidian Compatibility\n...\n### OxHugo Compatibility\n...\n### Wikilinks\n...\nhttps://quartz.jzhao.\n...\nwikilinks\n...\n### Backlinks\n...\nhttps://quartz.jzhao.xyz/features/backlinks\n...\n### Graph View\n...\nhttps://quartz.jzhao.xyz/features/graph-view\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"2\"\u003e\n\u003ctitle\u003eObsidian Publish Alternatives: Simpler, Cheaper Options in 2026 | Unmarkdown™ Blog\u003c/title\u003e\n\u003curl\u003ehttps://unmarkdown.com/blog/obsidian-publish-alternatives\u003c/url\u003e\n\u003ccontent\u003eGraph view on the web. Obsidian's signature feature works on published sites. Visitors can explore connections between your notes visually.\n...\nQuartz is the closest feature match to Obsidian Publish. It's free, open-source, and produces a static site from your markdown files with graph view, backlinks, full-text search, and customizable themes.\n...\nWhat makes it compelling: Quartz delivers the signature Obsidian Publish features (graph, backlinks, search) without the subscription. The community is active, documentation is solid, and it supports wikilinks, tags, and most Obsidian markdown extensions.\n...\nThe tradeoff: These are web development tools. There's no out-of-the-box Obsidian integration, no graph view, no backlinks unless you build or install them yourself. The learning curve is steeper than any Obsidian-specific tool.\n...\nHugo/Jekyll/11ty\n...\n| Graph view | Yes | Yes | No | No (unless built) | Partial | No |\n...\n| Custom domain | Yes | Yes | Yes | Yes | Yes | Yes (Pro) |\n...\n| Wikilink support | Yes | Yes | No | No | Yes | Strips to clean text |\n...\n| N/\n...\nUnmarkdown™ is not a digital garden publisher. It doesn't have graph view, backlinks, or the networked note experience that makes Obsidian Publish distinctive. It solves a different problem.\n...\nChoose Obsidian Publish if: You want the most polished digital garden experience, you rely on graph view and backlinks for your audience, and you don't mind the subscription cost. The tight integration with Obsidian makes setup nearly effortless.\n...\nChoose Hugo, Jekyll, or Eleventy if: You want full control over your site and are comfortable with web development. These give you the most flexibility at zero cost.\n...\nFor digital gardens and networked knowledge bases, Quartz delivers comparable features at zero cost. For documentation, MkDocs is more mature and widely supported. For multi-destination publishing (getting your markdown into the apps where people actually work), Unmarkdown™ stands alone.\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"3\"\u003e\n\u003ctitle\u003eReview - Site Generators - Never Complete Only Abandoned - Obsidian Publish\u003c/title\u003e\n\u003curl\u003ehttps://publish.obsidian.md/xybre/permalink/7b636b0a-552c-48f7-98f9-01184647150f\u003c/url\u003e\n\u003ccontent\u003e]] and similar lightweight markup languages into full browseable static HTML files that can be deployed to a server without access to the original source files. # Markdown Plain Markdown to plain site. May supply some basic templating. - [[Hugo]] - [[Jekyll]] - [[werc]] # Digital Garden These create [[Obsidian Publish]]-style digital gardens. &#96;&#96;&#96;cardlink url: https://publishkit.dev/ title: \"KIT\" description: \"Publish full featured web apps with markdown\" host: publishkit.dev image: https://publishkit.dev/attachements/og.png &#96;&#96;&#96; &#96;&#96;&#96;cardlink url: https://blot.im/ title: \"Blot\" description: \"Turns a folder into a website\" host: blot.im favicon: https://cdn.blot.im/documentation/v-8d7d9d72/favicon-180x180.png &#96;&#96;&#96; ## Quartz 4 &#96;&#96;&#96;cardlink url: https://quartz.jzhao.xyz/ title: \"Welcome to Quartz 4\" description: \"Quartz is a fast, batteries-included static-site generator that transforms Markdown content into fully functional websites. Thousands of students, developers, and teachers are already using Quartz to publish personal notes, websites, and digital gardens to the web.\" host: quartz.jzhao.xyz favicon: ./static/icon.png image: https://quartz.jzhao.xyz/static/og-image.png &#96;&#96;&#96; \u003e Quartz is a fast, batteries-included static-site generator that transforms Markdown content into fully functional websites. - Obsidian compatibility, full-text search, graph view, note transclusion, wikilinks, backlinks, Latex, syntax highlighting, popover previews, Docker Support, and many more right out of the box - Hot-reload for both configuration and content - Simple JSX layouts and page components - Ridiculously fast page loads and tiny bundle sizes - Fully-customizable parsing, filtering, and page generation through plugins ## Misc &#96;&#96;&#96;cardlink url: https://github.com/MaggieAppleton/digital-gardeners title: \"GitHub - MaggieAppleton/digital-gardeners: Resources, links, projects, and ideas for gardeners tending their digital notes on the public interwebs\" description: \"Resources, links,\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"4\"\u003e\n\u003ctitle\u003ehfactor/Grdn\u003c/title\u003e\n\u003curl\u003ehttps://github.com/hfactor/Grdn\u003c/url\u003e\n\u003ccontent\u003eObsidian-first Digital Garden Publishing template using Hugo.\n...\n# Grdn - A Hugo Theme for Digital Gardens\n\n \n\nGrdn is a clean, minimal Hugo theme specifically designed for publishing your [Obsidian](https://obsidian.md/) notes as a beautiful digital garden. It maintains the integrity of your note connections while presenting them in a web-friendly format.\n...\n- Full support for &#96;[[wikilinks]]&#96; syntax\n - Hover previews for internal links\n - Backlinks section showing connections between notes\n - Graceful handling of broken links\n...\nfiltering for digital\n...\nworkflows\n - Shareable URLs that preserve filter state\n...\n- Flat URL structure regardless of folder hierarchy\n - All notes accessible under configurable base path\n - Support\n...\nfrontmatter metadata (title, category, growth stage)\n -\n...\n- [Hugo Extended](https://gohugo.io/installation/) (version 0.112.0 or later)\n- An [Obsidian](https://obsidian.md/) vault (optional, but recommended)\n...\nPlace your markdown files in the &#96;content/notes/&#96; directory. If you're using Obsidian, you can set this folder as your vault.\n...\n1. **Visit** &#96;http://localhost:1313&#96; to see your digital garden!\n...\nNote content with [[wikilinks]] to other notes.\n&#96;&#96;&#96;\n...\n&#96;&#96;&#96;toml\n[params]\n  # Core Features\n  enableSearch = true           # Enable/disable search functionality\n  enableCategoryFilter = true   # Enable/disable category filter\n  enableGrowthFilter = true     # Enable/disable growth stage filter\n  \n  # Path Configuration\n  notesPath = \"/notes/\"         # Base path for all notes\n  \n  # UI Configuration\n  defaultTheme = \"system\"       # \"light\", \"dark\", or \"system\"\n  \n  # Site Information\n  description = \"My digital garden of interconnected notes\"\n  author = \"Your Name\"\n...\n- [Obsidian](https://obsidian.md/) for the amazing note-taking experience\n- [Hugo](https://gohugo.io/) for the powerful static site generation\n- [Fuse.js](https://fusejs.io/) for client-side search capability\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"5\"\u003e\n\u003ctitle\u003eGrdn | Hugo Themes\u003c/title\u003e\n\u003curl\u003ehttps://www.gohugothemes.com/theme/hfactor-grdn/\u003c/url\u003e\n\u003ccontent\u003eGrdn | Hugo Themes\n\n# Grdn\n\nTheme by Hfactor\n\n|\n\nUpdated: 26 Apr 2025\n\n|\n\n13 Stars\n\nObsidian-first Digital Garden Publishing template using Hugo.\n\nGithub\n\n### Categories\n\nDigital garden\n\n## Overview\n\nGrdn is an elegant and minimalist Hugo theme tailored for those looking to showcase their Obsidian notes as a beautifully formatted digital garden. This theme brings life to your notes while preserving the interconnectedness that makes them valuable, allowing users to navigate their thoughts seamlessly. With a focus on readability and organization, Grdn is perfect for anyone seeking a distraction-free zone to explore their ideas.\n\nNot only does Grdn maintain a sleek and modern design, but it also incorporates various features designed to enhance user interaction and experience. Whether you’re a seasoned developer or just starting your journey in digital gardening, Grdn provides the tools necessary to curate a thoughtful online space for your notes.\n\n## Features\n\n- Shareable URLs: URLs that maintain filter states allow for easy sharing of your digital garden with others.\n- Growth Stage Support: Customizable growth stages that help visually indicate the maturity of your notes, from initial thoughts to well-developed content.\n- Flat URL Structure: Ensures accessibility of all notes under a configurable base path for straightforward navigation.\n- Responsive Design: Fully compatible with all devices, providing a seamless viewing experience no matter the screen size.\n- Light/Dark Mode: Automatically adjusts to system preferences, ensuring a comfortable reading experience in any lighting.\n- Dynamic Navigation: Real-time updates with a dynamic filter bar and full-text title search for effortless exploration.\n- Backlinks Section: Easily see connections between your notes, enriching the context of your thoughts.\n- Obsidian Compatibility: Full support for [[wikilinks]] syntax and internal link previews, making navigation intuitive.\u003c/content\u003e\n\u003c/result\u003e",
       "title": "Web search results"
     }
   ],
@@ -5706,9 +5706,9 @@ Short answer: **you can get a strong Obsidian-*like reading experience* in a Hug
 
 There is **no `content/english/notes/` folder yet**. The site has:
 
-- **Blog** (`content/english/blog/`) — polished, dated posts
-- **ideas.jorap.com** — your TiddlyWiki garden (separate from this repo)
-- Search, Mermaid, TOC — already wired in the theme
+- **Blog** (`content/english/blog/`) - polished, dated posts
+- **ideas.jorap.com** - your TiddlyWiki garden (separate from this repo)
+- Search, Mermaid, TOC - already wired in the theme
 - **No wikilinks, backlinks, or graph view** in Hugo yet
 
 ## What *can* live in `content/english/notes/`
@@ -5733,7 +5733,7 @@ These map well to a static Hugo section and match what you’d want from a digit
 - Real-time editing, plugins, Canvas, daily-note automation
 - Private vault, local-first sync, encrypted notes
 - Graph filters, workspaces, transclusion with live updates
-- “Write in Obsidian, publish subset” — that workflow is the right model
+- “Write in Obsidian, publish subset” - that workflow is the right model
 
 Your own draft on this is basically the architecture:
 
@@ -5745,10 +5745,10 @@ Your own draft on this is basically the architecture:
 
 Add `content/english/notes/` plus theme overrides:
 
-- `layouts/notes/single.html` — note layout with backlinks, tags, growth stage
-- `layouts/_markup/render-link.html` — resolve `[[Note Title]]` to `/notes/slug/`
-- `assets/js/notes-graph.js` — graph from a build-time `notes-index.json`
-- `hugo.toml` — `[permalinks]` for flat note URLs
+- `layouts/notes/single.html` - note layout with backlinks, tags, growth stage
+- `layouts/_markup/render-link.html` - resolve `[[Note Title]]` to `/notes/slug/`
+- `assets/js/notes-graph.js` - graph from a build-time `notes-index.json`
+- `hugo.toml` - `[permalinks]` for flat note URLs
 - Point Obsidian vault (or a subfolder) at `content/english/notes/` via Git
 
 **Pros:** Same design as jorap.com, one deploy, fits your constitution (static-first, Markdown-centric).  
@@ -5756,7 +5756,7 @@ Add `content/english/notes/` plus theme overrides:
 
 ### 2. Use [Grdn](https://github.com/hfactor/Grdn) patterns (Obsidian-first Hugo theme)
 
-Grdn already ships wikilinks, backlinks, hover previews, growth stages, and search — aimed exactly at `content/notes/`.
+Grdn already ships wikilinks, backlinks, hover previews, growth stages, and search - aimed exactly at `content/notes/`.
 
 **Pros:** Faster to a working garden.  
 **Cons:** Either a second site/subdomain or porting Grdn’s logic into your `jorap` theme.
@@ -5795,9 +5795,9 @@ That’s not “complete Obsidian,” but it’s a real digital garden inside th
 
 **Which direction do you want?**
 
-1. **Notes on jorap.com** — I can scaffold `content/english/notes/` and the wikilink/backlink/graph foundation in the existing theme.  
-2. **Replace ideas.jorap.com** — Quartz or Grdn as a separate garden site.  
-3. **Obsidian vault sync** — same as (1), but optimized so your vault folder *is* `content/english/notes/`.
+1. **Notes on jorap.com** - I can scaffold `content/english/notes/` and the wikilink/backlink/graph foundation in the existing theme.  
+2. **Replace ideas.jorap.com** - Quartz or Grdn as a separate garden site.  
+3. **Obsidian vault sync** - same as (1), but optimized so your vault folder *is* `content/english/notes/`.
 
 If you pick (1) or (3), say which Obsidian features matter most (wikilinks, graph, backlinks, callouts, daily notes listing, etc.) and I’ll implement the first slice.
 
@@ -7830,13 +7830,13 @@ Status: **completed**
 
 _**Agent (auto-low)**_
 
-Done. You now have a **localhost-only notes garden** — no Obsidian required.
+Done. You now have a **localhost-only notes garden** - no Obsidian required.
 
 ## How it works
 
-**Production (`npm run build`)** — notes and all `draft: true` content are **excluded**. Verified: no `/notes/` pages in `public/`.
+**Production (`npm run build`)** - notes and all `draft: true` content are **excluded**. Verified: no `/notes/` pages in `public/`.
 
-**Local dev (`npm run dev`)** — shows notes, blog drafts (`__*.md`), and future-dated posts via `--buildDrafts --buildFuture`.
+**Local dev (`npm run dev`)** - shows notes, blog drafts (`__*.md`), and future-dated posts via `--buildDrafts --buildFuture`.
 
 ## What was added
 
@@ -7845,14 +7845,14 @@ Done. You now have a **localhost-only notes garden** — no Obsidian required.
 | `content/english/notes/` | Note files (all `draft: true`) |
 | `[[wikilinks]]` | Link notes by title, alias, or filename |
 | **Backlinks** | Shown at the bottom of each note |
-| **Graph** | `/notes/graph/` — drag nodes to explore links |
+| **Graph** | `/notes/graph/` - drag nodes to explore links |
 | **Notes** nav link | Only appears when `hugo server` is running |
 | Yellow banner | Reminds you content is local-only |
 
 ## Sample notes included
 
-- [Getting Started](/notes/getting-started/) — how to use the system
-- [Atomic Notes](/notes/atomic-notes/) — linked to Getting Started
+- [Getting Started](/notes/getting-started/) - how to use the system
+- [Atomic Notes](/notes/atomic-notes/) - linked to Getting Started
 
 ## Create a new note
 
@@ -8370,9 +8370,9 @@ _**Agent (auto-low)**_
 
 Two changes:
 
-**1. Notes link moved to footer only** — removed from the header; it now appears in the footer only while `hugo server` is running.
+**1. Notes link moved to footer only** - removed from the header; it now appears in the footer only while `hugo server` is running.
 
-**2. 404 fixed** — notes are `draft: true`, so they only build when drafts are included. Your server on port 1313 was likely started without that flag.
+**2. 404 fixed** - notes are `draft: true`, so they only build when drafts are included. Your server on port 1313 was likely started without that flag.
 
 Added `config/development/hugo.toml` so `npm run dev` always builds drafts and future-dated posts. Also added those flags to `preview` and `watch`.
 
@@ -8383,7 +8383,7 @@ Added `config/development/hugo.toml` so `npm run dev` always builds drafts and f
 npm run dev
 ```
 
-Then open **http://localhost:1313/notes/** — the Notes link will be in the footer, not the header.
+Then open **http://localhost:1313/notes/** - the Notes link will be in the footer, not the header.
 
 Production builds still exclude notes entirely. The footer link only shows during local `hugo server`, not on the live site.
 
@@ -8681,9 +8681,9 @@ _**Agent (auto-low)**_
 
 Done. Here's what was added:
 
-**`/drafts/`** — a localhost-only index that lists unpublished blog posts in the same card grid as `/blog/` (sidebar, pagination, images, categories).
+**`/drafts/`** - a localhost-only index that lists unpublished blog posts in the same card grid as `/blog/` (sidebar, pagination, images, categories).
 
-**Footer** — **Drafts** and **Notes** links appear at the bottom only while `hugo server` is running.
+**Footer** - **Drafts** and **Notes** links appear at the bottom only while `hugo server` is running.
 
 Draft posts still live in `content/english/blog/` with `draft: true` (and the `__` prefix). The drafts page queries those and renders them with the same `blog-card` component.
 
@@ -8938,8 +8938,8 @@ _**Agent (auto-low)**_
 
 Updated the dev banner in two places:
 
-1. **Container** — wrapped in `<section class="notes-dev-banner-wrap"><div class="container">…</div></section>` so it lines up with the rest of the page. Also moved it out of nested containers on note single/graph pages.
+1. **Container** - wrapped in `<section class="notes-dev-banner-wrap"><div class="container">…</div></section>` so it lines up with the rest of the page. Also moved it out of nested containers on note single/graph pages.
 
-2. **Red styling** — light mode: red border/background (`#fef2f2` / `#dc2626`); dark mode: deep red background with lighter text.
+2. **Red styling** - light mode: red border/background (`#fef2f2` / `#dc2626`); dark mode: deep red background with lighter text.
 
 It appears on `/notes/`, `/notes/graph/`, and `/drafts/` after a refresh.

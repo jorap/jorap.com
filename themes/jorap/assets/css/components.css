@@ -29,7 +29,7 @@
 
 /* Content / prose style.
  * Uses semantic tokens (ink, ink-muted, elevated, divider, accent) so dark mode
- * is handled automatically by tailwind-plugin/tw-theme.js — no `dark:` twins needed.
+ * is handled automatically by tailwind-plugin/tw-theme.js - no `dark:` twins needed.
  */
 .content {
   @apply prose max-w-full font-primary;

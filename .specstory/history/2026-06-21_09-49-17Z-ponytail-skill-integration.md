@@ -899,7 +899,7 @@ _**Agent (auto-low)**_
 Ponytail is installed from [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail). Here's what was added:
 
 ### Always-on rule
-- `.cursor/rules/ponytail.mdc` — applies the YAGNI ladder on every session (stdlib → native → one line → minimum)
+- `.cursor/rules/ponytail.mdc` - applies the YAGNI ladder on every session (stdlib → native → one line → minimum)
 
 ### Skills (`.cursor/skills/`)
 | Skill | Use when |
@@ -912,12 +912,12 @@ Ponytail is installed from [DietrichGebert/ponytail](https://github.com/Dietrich
 | `ponytail-help` | Quick reference for all commands |
 
 ### How to use
-- **Default:** The rule is always on — agents should pick the simplest solution that works.
+- **Default:** The rule is always on - agents should pick the simplest solution that works.
 - **Intensity:** Say `/ponytail ultra` for maximum YAGNI, or `/ponytail lite` to build what's asked but mention the lazier option.
 - **Turn off:** Say "stop ponytail" or "normal mode".
 - **Review:** Ask for a ponytail review, or invoke `ponytail-review` / `ponytail-audit`.
 
-The core idea: before writing code, stop at the first rung that works — skip it (YAGNI), use stdlib, use a native feature, reuse an installed dep, one line, then minimum code. Validation, security, and accessibility stay non-negotiable.
+The core idea: before writing code, stop at the first rung that works - skip it (YAGNI), use stdlib, use a native feature, reuse an installed dep, one line, then minimum code. Validation, security, and accessibility stay non-negotiable.
 
 Want the always-on rule off so ponytail only runs when you invoke a skill? I can set `alwaysApply: false` on the rule.
 
@@ -2469,7 +2469,7 @@ Result:
           },
           {
             "lineNumber": 13,
-            "text": "# Lead paragraph (before ## See also). First person, no **Title** — dictionary openers."
+            "text": "# Lead paragraph (before ## See also). First person, no **Title** - dictionary openers."
           },
           {
             "lineNumber": 14,
@@ -2629,7 +2629,7 @@ Result:
           },
           {
             "lineNumber": 34,
-            "text": " * Run a command; throws nothing — exits the process on failure."
+            "text": " * Run a command; throws nothing - exits the process on failure."
           },
           {
             "lineNumber": 35,
@@ -2764,7 +2764,7 @@ Result:
           },
           {
             "lineNumber": 5,
-            "text": "    # PKM — capture \u0026 workflow"
+            "text": "    # PKM - capture \u0026 workflow"
           },
           {
             "lineNumber": 6,
@@ -5462,7 +5462,7 @@ cd /Users/jonathanrapusas/Documents/GitHub/jorap.com && wc -l scripts/*.py | sor
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Two deprecated lint checks—lint-all-wikilinks and lint-unlinked-mentions—have zero callers in actual layouts and are candidates for deletion.
+Two deprecated lint checks-lint-all-wikilinks and lint-unlinked-mentions-have zero callers in actual layouts and are candidates for deletion.
 
 garden-pages.html is a two-line wrapper with a semantic name; inlining it would violate YAGNI but is minor. backlinks-index-cached.html and graph-data-cached.html are one-liner wrappers that could inline partialCached directly. toolbar.html uses a stale note-issues-v2 cache key, which wastes rebuilds and risks wrong badge counts. pixi.js spans roughly 1265 lines and is a heavy dependency, though the user intentionally built an Obsidian-style graph. ensureHugo.mjs is 148 lines long, yet mise already pins hugo-extended, making it redundant.</details></think>
 
@@ -5738,7 +5738,7 @@ The ponytail skill is duplicated across five satellite skills and overlapping ru
 
 _**Agent (auto-low)**_
 
-# Ponytail audit — jorap.com
+# Ponytail audit - jorap.com
 
 Ranked biggest cut first. Over-engineering only; correctness, security, and performance are out of scope here.
 
@@ -5746,9 +5746,9 @@ Ranked biggest cut first. Over-engineering only; correctness, security, and perf
 
 `native:` 1,265-line PixiJS WebGL graph + `pixi.js` runtime dep. Canvas/SVG + `d3-force` (or static link list) covers a personal notes graph. [`assets/js/notes-graph.js`, `package.json`]
 
-`delete:` Orphan Playwright responsive scripts (413 lines), not in `package.json`, `playwright` not installed — dead tooling. Nothing. [`scripts/responsive-test.mjs`, `scripts/responsive-detail.mjs`]
+`delete:` Orphan Playwright responsive scripts (413 lines), not in `package.json`, `playwright` not installed - dead tooling. Nothing. [`scripts/responsive-test.mjs`, `scripts/responsive-detail.mjs`]
 
-`delete:` Hugoplate one-shot migration scripts (~569 lines): `removeDarkmode`, `removeMultilang`, `projectSetup`, `themeSetup` — already ran on a mature site. Archive or drop. [`scripts/removeDarkmode.js`, `scripts/removeMultilang.js`, `scripts/projectSetup.js`, `scripts/themeSetup.js`, `package.json`]
+`delete:` Hugoplate one-shot migration scripts (~569 lines): `removeDarkmode`, `removeMultilang`, `projectSetup`, `themeSetup` - already ran on a mature site. Archive or drop. [`scripts/removeDarkmode.js`, `scripts/removeMultilang.js`, `scripts/projectSetup.js`, `scripts/themeSetup.js`, `package.json`]
 
 `delete:` `themeUpdate.js` pulls `zeon-studio/hugoplate` into `themes/hugoplate`; active theme is `jorap`. Use `sync-upstreams` skill instead. [`scripts/themeUpdate.js`]
 
@@ -5760,13 +5760,13 @@ Ranked biggest cut first. Over-engineering only; correctness, security, and perf
 
 `delete:` Deprecated lint redirect partials, zero callers. Call `lint-note-issues.html` directly (already done everywhere). [`layouts/_partials/notes/lint-all-wikilinks.html`, `layouts/_partials/notes/lint-unlinked-mentions.html`]
 
-`shrink:` Stale `partialCached` key in toolbar (`note-issues-v2` vs `v3` elsewhere) — Hugo rebuilds issue data twice per build. `"note-issues-v3"` everywhere. [`layouts/_partials/notes/toolbar.html`]
+`shrink:` Stale `partialCached` key in toolbar (`note-issues-v2` vs `v3` elsewhere) - Hugo rebuilds issue data twice per build. `"note-issues-v3"` everywhere. [`layouts/_partials/notes/toolbar.html`]
 
 `delete:` `dev:example` / `build:example` / `preview:example` npm scripts. No `exampleSite/` directory. [`package.json`]
 
-`yagni:` `garden-pages.html` — 2-line alias over `pages.html`. `partial "notes/pages.html"` at 6 call sites. [`layouts/_partials/notes/garden-pages.html`]
+`yagni:` `garden-pages.html` - 2-line alias over `pages.html`. `partial "notes/pages.html"` at 6 call sites. [`layouts/_partials/notes/garden-pages.html`]
 
-`yagni:` `backlinks-index-cached.html` + `graph-data-cached.html` — 1-line `partialCached` wrappers. Inline at 4 call sites. [`layouts/_partials/notes/backlinks-index-cached.html`, `layouts/_partials/notes/graph-data-cached.html`]
+`yagni:` `backlinks-index-cached.html` + `graph-data-cached.html` - 1-line `partialCached` wrappers. Inline at 4 call sites. [`layouts/_partials/notes/backlinks-index-cached.html`, `layouts/_partials/notes/graph-data-cached.html`]
 
 `yagni:` Ponytail fan-out: always-on rule + 6 skills with overlapping text. Keep `.cursor/rules/ponytail.mdc` + `ponytail/SKILL.md`; drop satellite copies unless you invoke them by name. [`.cursor/skills/ponytail-audit/`, `ponytail-debt/`, `ponytail-gain/`, `ponytail-help/`, `ponytail-review/`]
 
@@ -6405,16 +6405,16 @@ Quick wins are in. Summary:
 | `removeDarkmode.js`, `removeMultilang.js`, `projectSetup.js`, `themeSetup.js` | One-time Hugoplate migrations, already done |
 
 ### Fixed
-- **`toolbar.html`** — `note-issues-v2` → `note-issues-v3` so issue counts share one cache with the issues page
+- **`toolbar.html`** - `note-issues-v2` → `note-issues-v3` so issue counts share one cache with the issues page
 
 ### `package.json` scripts removed
 - `dev:example`, `build:example`, `preview:example` (no `exampleSite/`)
 - `remove-darkmode`, `remove-multilang`, `project-setup`, `theme-setup`
 
 ### Also updated
-- **`sync-upstreams/SKILL.md`** — notes those Hugoplate scripts are gone so upstream sync doesn’t try to restore them
+- **`sync-upstreams/SKILL.md`** - notes those Hugoplate scripts are gone so upstream sync doesn’t try to restore them
 
-`README.md` still mentions `project-setup` in deploy docs — stale but harmless since CI already uses `pnpm run deploy`. I can clean that up next, or move on to the medium wins (merge random partials, inline cached wrappers).
+`README.md` still mentions `project-setup` in deploy docs - stale but harmless since CI already uses `pnpm run deploy`. I can clean that up next, or move on to the medium wins (merge random partials, inline cached wrappers).
 
 ---
 
@@ -6435,14 +6435,14 @@ Other medium wins include collapsing backlinks-index-cached.html and graph-data-
 
 _**Agent (auto-low)**_
 
-From the audit, **medium wins** are the next tier after the quick wins — more payoff than deleting dead files, but smaller and safer than the graph stack (`pixi.js` + 1,265-line renderer).
+From the audit, **medium wins** are the next tier after the quick wins - more payoff than deleting dead files, but smaller and safer than the graph stack (`pixi.js` + 1,265-line renderer).
 
 ### 1. Merge duplicate random-notes partials (~45 lines)
-**What:** `layouts/_partials/blog/random-unrelated-notes.html` and `layouts/_partials/notes/random-unrelated-notes.html` are nearly the same — same UI, different `data-*` attrs and JS bundles (`blog-random-notes.js` vs `notes-single-random-notes.js`).
+**What:** `layouts/_partials/blog/random-unrelated-notes.html` and `layouts/_partials/notes/random-unrelated-notes.html` are nearly the same - same UI, different `data-*` attrs and JS bundles (`blog-random-notes.js` vs `notes-single-random-notes.js`).
 
 **Fix:** One partial with a `scope` param (`blog` | `notes`).
 
-**Risk:** Low — mechanical merge, easy to spot-check on blog + note pages.
+**Risk:** Low - mechanical merge, easy to spot-check on blog + note pages.
 
 ---
 
@@ -6455,7 +6455,7 @@ From the audit, **medium wins** are the next tier after the quick wins — more 
 
 **Fix:** Call the target directly at ~10 call sites; delete the wrapper files.
 
-**Risk:** Low — no behavior change, just fewer hops.
+**Risk:** Low - no behavior change, just fewer hops.
 
 ---
 
@@ -6464,7 +6464,7 @@ From the audit, **medium wins** are the next tier after the quick wins — more 
 
 **Fix:** Local: `hugo version` check only. CI: keep download fallback when `CI=true`.
 
-**Risk:** Medium — test Netlify/GitLab/Cloudflare builds after.
+**Risk:** Medium - test Netlify/GitLab/Cloudflare builds after.
 
 ---
 
@@ -6473,7 +6473,7 @@ From the audit, **medium wins** are the next tier after the quick wins — more 
 
 **Fix:** Keep the rule + `ponytail/SKILL.md`; drop `ponytail-audit`, `ponytail-debt`, `ponytail-gain`, `ponytail-help`, `ponytail-review` unless you invoke them by name.
 
-**Risk:** Low — only affects agent tooling.
+**Risk:** Low - only affects agent tooling.
 
 ---
 
@@ -6482,12 +6482,12 @@ From the audit, **medium wins** are the next tier after the quick wins — more 
 
 **Fix:** Move to `scripts/archive/`; keep active linters (`lint-flashcard-frontmatter.py`, etc.).
 
-**Risk:** Low if you’re sure they won’t run again — mostly housekeeping.
+**Risk:** Low if you’re sure they won’t run again - mostly housekeeping.
 
 ---
 
-### Not medium — the big lever
-**Replace `pixi.js` graph** (~1,265 lines + dependency) — largest cut, but a feature decision, not a cleanup pass.
+### Not medium - the big lever
+**Replace `pixi.js` graph** (~1,265 lines + dependency) - largest cut, but a feature decision, not a cleanup pass.
 
 ---
 
@@ -7755,7 +7755,7 @@ All five medium wins are done. Hugo build passes (1560 pages, ~3s).
 - Call sites now use `pages.html` or `partialCached` directly (6 + 4 sites)
 
 ### 3. Slimmed `ensureHugo.mjs`
-- Local dev: PATH/mise only — wrong/missing Hugo exits with `mise use hugo-extended@…`
+- Local dev: PATH/mise only - wrong/missing Hugo exits with `mise use hugo-extended@…`
 - CI (`CI`, `GITHUB_ACTIONS`, `GITLAB_CI`, `NETLIFY`, `CF_PAGES`): keeps cache + download fallback
 
 ### 4. Trimmed ponytail skills
@@ -7786,7 +7786,7 @@ _**Agent (auto-low)**_
 
 That’s a solid reason to keep it.
 
-Obsidian Publish’s graph is Pixi/WebGL-based, so matching that stack buys you the same interaction model (force layout, zoom, pan, hover) without reinventing behavior or fighting a different renderer. The ponytail audit flagged `pixi.js` + `notes-graph.js` as the biggest *optional* cut — only if you were fine dropping that parity for a lighter SVG/canvas setup.
+Obsidian Publish’s graph is Pixi/WebGL-based, so matching that stack buys you the same interaction model (force layout, zoom, pan, hover) without reinventing behavior or fighting a different renderer. The ponytail audit flagged `pixi.js` + `notes-graph.js` as the biggest *optional* cut - only if you were fine dropping that parity for a lighter SVG/canvas setup.
 
 With your goal, I’d treat the graph as **intentional complexity**, not bloat. The quick and medium wins were the right trims; I wouldn’t touch the graph unless something concrete hurts (bundle size, mobile perf, maintenance pain).
 
@@ -7833,7 +7833,7 @@ _**Agent (auto-low)**_
 
 _**Agent (auto-low)**_
 
-In Cursor, ponytail is always on via `.cursor/rules/ponytail.mdc`, so new code should already follow the ladder. A **ponytail audit** is a separate one-shot review for over-engineering — and we removed the `ponytail-audit` skill during the medium-win trim, so `/ponytail-audit` is not a dedicated command anymore.
+In Cursor, ponytail is always on via `.cursor/rules/ponytail.mdc`, so new code should already follow the ladder. A **ponytail audit** is a separate one-shot review for over-engineering - and we removed the `ponytail-audit` skill during the medium-win trim, so `/ponytail-audit` is not a dedicated command anymore.
 
 ### Run an audit now (no extra setup)
 
@@ -7854,10 +7854,10 @@ what can we delete from scripts/?
 ```
 
 ```
-ponytail audit layouts/_partials/notes/ — skip pixi.js, that's intentional
+ponytail audit layouts/_partials/notes/ - skip pixi.js, that's intentional
 ```
 
-The agent should return a ranked delete-list (`delete:`, `stdlib:`, `native:`, `yagni:`, `shrink:`) and end with `net: -N lines…` — it won't apply fixes unless you ask.
+The agent should return a ranked delete-list (`delete:`, `stdlib:`, `native:`, `yagni:`, `shrink:`) and end with `net: -N lines…` - it won't apply fixes unless you ask.
 
 ### Useful follow-ups
 
@@ -7871,7 +7871,7 @@ The agent should return a ranked delete-list (`delete:`, `stdlib:`, `native:`, `
 
 ### If you want `/ponytail-audit` back
 
-We can restore `.cursor/skills/ponytail-audit/SKILL.md` from the [ponytail repo](https://github.com/DietrichGebert/ponytail) so you can attach it or invoke it by name — same as when you ran it earlier in this thread.
+We can restore `.cursor/skills/ponytail-audit/SKILL.md` from the [ponytail repo](https://github.com/DietrichGebert/ponytail) so you can attach it or invoke it by name - same as when you ran it earlier in this thread.
 
 **Bottom line:** ponytail guides *writing* automatically; for *auditing*, ask in chat with “ponytail audit” / “ponytail-review” and scope what to include or skip (e.g. keep Pixi). Want me to restore the `ponytail-audit` skill?
 
@@ -9304,7 +9304,7 @@ The Ponytail audit report contains good findings.</details></think>
 
 _**Agent (auto-low)**_
 
-# Ponytail audit — jorap.com (post-cleanup)
+# Ponytail audit - jorap.com (post-cleanup)
 
 After the quick + medium wins, the repo is leaner. Pixi/graph is **out of scope** (Obsidian Publish parity). Ranked by cut size:
 
@@ -9320,25 +9320,25 @@ After the quick + medium wins, the repo is leaner. Pixi/graph is **out of scope*
 
 `delete:` `themeUpdate.js` + `update-theme` npm script. Pulls `zeon-studio/hugoplate` into `themes/hugoplate`; active theme is `jorap`. Use `sync-upstreams` skill. [`scripts/themeUpdate.js`, `package.json`]
 
-`delete:` `shared-labels.html` — zero callers. Nothing. [`layouts/_partials/notes/shared-labels.html`]
+`delete:` `shared-labels.html` - zero callers. Nothing. [`layouts/_partials/notes/shared-labels.html`]
 
 `delete:` `scripts/__pycache__/` committed bytecode. Add `__pycache__/` to `.gitignore`, remove from repo. [`.gitignore`, `scripts/__pycache__/`]
 
 `shrink:` README still documents removed scripts (`project-setup`, `theme-setup`, `remove-darkmode`) and old deploy commands (~921 lines, many stale). Trim to `pnpm run deploy` + mise toolchain. [`README.md`]
 
-`yagni:` `cards-data.html` — reshapes `collect-cards.html` output for JSON only. Add `format: json` to `collect-cards.html`. [`layouts/_partials/notes/cards-data.html`, `layouts/notes/review.html`]
+`yagni:` `cards-data.html` - reshapes `collect-cards.html` output for JSON only. Add `format: json` to `collect-cards.html`. [`layouts/_partials/notes/cards-data.html`, `layouts/notes/review.html`]
 
-`yagni:` `random-pool.html` — 9-line url/title slice builder. Inline at 4 call sites. [`layouts/_partials/notes/random-pool.html`]
+`yagni:` `random-pool.html` - 9-line url/title slice builder. Inline at 4 call sites. [`layouts/_partials/notes/random-pool.html`]
 
 `shrink:` `preview` and `watch` npm scripts duplicate the same 200-char Hugo flags. Extract `"hugo:prod-watch": "hugo server …"` once, reference from both. [`package.json`]
 
-`yagni:` `lint-note-issues.html` on notes list only — full-site scan via `warnf` every list-page render. `pnpm run lint:notes` already exists; drop from `list.html` unless you want build-time warnings on every `hugo`. [`layouts/notes/list.html`]
+`yagni:` `lint-note-issues.html` on notes list only - full-site scan via `warnf` every list-page render. `pnpm run lint:notes` already exists; drop from `list.html` unless you want build-time warnings on every `hugo`. [`layouts/notes/list.html`]
 
 `yagni:` `spawnUtil.mjs` Windows `.cmd`/`.ps1` resolution (~88 lines). macOS + Linux CI only → inline `spawnSync` in `deployBuild.mjs`. [`scripts/spawnUtil.mjs`]
 
 ---
 
-**Skipped (intentional):** `pixi.js` + `notes-graph.js` — Obsidian Publish graph parity.
+**Skipped (intentional):** `pixi.js` + `notes-graph.js` - Obsidian Publish graph parity.
 
 **Already lean:** No `ponytail:` debt markers. Wrapper partials (`garden-pages`, cached graph/backlinks) are gone. Hugoplate one-shots and dead Playwright scripts are gone. `ensureHugo.mjs` is CI-only for downloads.
 
@@ -10837,10 +10837,10 @@ Random Trio is removed. Random Duo stays.
 - `assets/js/notes-random-trio.js`
 
 ### Updated
-- **Toolbar** — one button: Random Duo (`random-note.html`)
-- **Redirects** — `random-duo.md` aliases now include `random-trio` and `random-three` (old URLs land on duo)
-- **Utility filters** — `is-utility-page.html`, `lint-utility-wikilinks.py`, `export-anki-deck.py`
-- **Docs** — `getting-started.md`, `archetypes/notes.md` (five meta tools, not six)
+- **Toolbar** - one button: Random Duo (`random-note.html`)
+- **Redirects** - `random-duo.md` aliases now include `random-trio` and `random-three` (old URLs land on duo)
+- **Utility filters** - `is-utility-page.html`, `lint-utility-wikilinks.py`, `export-anki-deck.py`
+- **Docs** - `getting-started.md`, `archetypes/notes.md` (five meta tools, not six)
 
 ### Build
 Hugo build passes: 1557 pages, 92 notes.
@@ -11250,11 +11250,11 @@ The prompt now centers on **post ↔ note** connections:
 - Asks for unexpected links, atomic note titles, questions, and gaps/tensions **between the post and that note**
 
 ### Files touched
-- `i18n/en.yaml` — new blog-specific strings
-- `layouts/_partials/notes/random-unrelated-notes.html` — blog vs notes layout split
-- `assets/js/blog-random-notes.js` — single-note logic and updated prompt
+- `i18n/en.yaml` - new blog-specific strings
+- `layouts/_partials/notes/random-unrelated-notes.html` - blog vs notes layout split
+- `assets/js/blog-random-notes.js` - single-note logic and updated prompt
 
-Hugo build passes. The notes toolbar **Random Duo** link (utility page) is unchanged — only the footer block on blog posts was updated. Say if you want that toolbar label updated too.
+Hugo build passes. The notes toolbar **Random Duo** link (utility page) is unchanged - only the footer block on blog posts was updated. Say if you want that toolbar label updated too.
 
 ---
 
@@ -11995,7 +11995,7 @@ _**Agent (auto-low)**_
 Added a **note picker** alongside shuffle on all three surfaces:
 
 ### What you get
-- **Blog posts (Random Note):** dropdown above the note panel — pick any garden note or hit Shuffle
+- **Blog posts (Random Note):** dropdown above the note panel - pick any garden note or hit Shuffle
 - **Note pages (Random Duo footer):** left and right dropdowns above each column
 - **`/notes/random-duo/`:** same left/right dropdowns
 
@@ -12006,8 +12006,8 @@ Added a **note picker** alongside shuffle on all three surfaces:
 - On duo views, you can’t pick the same note in both slots (or the current note on note pages)
 
 ### Files
-- `layouts/_partials/notes/random-note-select.html` — shared select markup
-- `assets/js/notes-random-select.js` — shared picker wiring
+- `layouts/_partials/notes/random-note-select.html` - shared select markup
+- `assets/js/notes-random-select.js` - shared picker wiring
 - Updated: `random-unrelated-notes.html`, `random-duo.html`, `blog-random-notes.js`, `notes-single-random-notes.js`, `notes-random-duo.js`, `i18n/en.yaml`, `assets/css/custom.css`
 
 ---
@@ -12203,7 +12203,7 @@ Running another Ponytail audit on the repository.</details></think>
 
 _**Agent (auto-low)**_
 
-Running a Ponytail audit — loading the skill and audit workflow first.
+Running a Ponytail audit - loading the skill and audit workflow first.
 
 
 _**Agent (auto-low)**_
@@ -12781,7 +12781,7 @@ cd /Users/jonathanrapusas/Documents/GitHub/jorap.com && diff -u assets/js/blog-r
 +  var currentUrl = "";
    var aiChatUrl = "https://chatgpt.com/?q=";
    var aiChatOpenedLabel = "Opened";
-   var aiChatCopiedLabel = "Copied — paste in chat";
+   var aiChatCopiedLabel = "Copied - paste in chat";
 @@ -22,14 +23,11 @@
  
    try {
@@ -12845,7 +12845,7 @@ The audit is complete. I am formatting it now with delete, shrink, and yagni tag
 
 _**Agent (auto-low)**_
 
-# Ponytail audit — jorap.com
+# Ponytail audit - jorap.com
 
 Post–Random Note refactor. **Excluded:** `pixi.js`, `assets/js/notes-graph.js`, Obsidian graph parity.
 
@@ -12858,7 +12858,7 @@ Post–Random Note refactor. **Excluded:** `pixi.js`, `assets/js/notes-graph.js`
 | Target | Lines | Why |
 |--------|------:|-----|
 | `layouts/_partials/notes/shared-labels.html` | 16 | Zero `partial` callers |
-| `scripts/themeUpdate.js` + `update-theme` npm script | 19 | Pulls `zeon-studio/hugoplate` into `themes/hugoplate`; active theme is `jorap` — use `sync-upstreams` instead |
+| `scripts/themeUpdate.js` + `update-theme` npm script | 19 | Pulls `zeon-studio/hugoplate` into `themes/hugoplate`; active theme is `jorap` - use `sync-upstreams` instead |
 | `scripts/__pycache__/` | ~16K | Not source; add to `.gitignore` |
 
 ### `delete:` stale i18n keys (`i18n/en.yaml`)
@@ -12873,7 +12873,7 @@ No `T "..."` usage in layouts/themes after Random Note refactor:
 | `random_notes_prompt_loading`, `no_unrelated_notes` | Old duo empty/loading |
 | `send` | No template usage |
 
-**Or** wire `random-duo.html` to these keys — pick one path, not both.
+**Or** wire `random-duo.html` to these keys - pick one path, not both.
 
 ### `delete:` commit in-flight work (already in working tree)
 
@@ -12884,11 +12884,11 @@ No `T "..."` usage in layouts/themes after Random Note refactor:
 | `garden-pages.html`, `*-cached.html`, `lint-all-wikilinks.html`, `lint-unlinked-mentions.html` | Deleted ✓ |
 | Hugoplate one-shots (`projectSetup.js`, etc.) | Removed from `package.json` ✓ |
 
-**Action:** commit the cleanup batch — zero new code.
+**Action:** commit the cleanup batch - zero new code.
 
 ### `shrink:` npm aliases
 
-`package.json` — `build` and `deploy` both run `deployBuild.mjs`. Keep one, alias the other.
+`package.json` - `build` and `deploy` both run `deployBuild.mjs`. Keep one, alias the other.
 
 ---
 
@@ -12945,11 +12945,11 @@ Every notes JS file repeats:
 var bindTap = window.jorapBindTouchClick || function (el, fn) { el.addEventListener("click", fn); };
 ```
 
-`touch-controls.js` loads globally — assume globals on pages that load notes scripts, or put the fallback in one shared file.
+`touch-controls.js` loads globally - assume globals on pages that load notes scripts, or put the fallback in one shared file.
 
 ### `shrink:` `sort-by-connections.html` (23 lines)
 
-Pulls full `partialCached "notes/graph-data.html"` (148 lines, O(n²) wikilink scan) just to sort `/notes/` by edge count. Only worth optimizing if list builds feel slow — sort by `featured` + title is the lazy alternative.
+Pulls full `partialCached "notes/graph-data.html"` (148 lines, O(n²) wikilink scan) just to sort `/notes/` by edge count. Only worth optimizing if list builds feel slow - sort by `featured` + title is the lazy alternative.
 
 ---
 
@@ -12959,14 +12959,14 @@ Pulls full `partialCached "notes/graph-data.html"` (148 lines, O(n²) wikilink s
 |------|----------|
 | `notes-random-select.js` | Right-sized extraction |
 | `random-unrelated-notes.html` Scope param | Good blog/notes merge |
-| Two JS bundles (blog vs notes-single) | Different context/prompt — merge *internals*, not necessarily one bundle |
+| Two JS bundles (blog vs notes-single) | Different context/prompt - merge *internals*, not necessarily one bundle |
 | `random-duo.html` + `/notes/random-duo/` | Deliberate 2-note utility; aliases keep old trio URLs |
 | `graph-data-local.html` | Filter wrapper, not duplicate graph logic |
-| `link-registry` + `backlinks-index` + `resolve-target` | Cached resolve paths — justified |
+| `link-registry` + `backlinks-index` + `resolve-target` | Cached resolve paths - justified |
 | `spawnUtil.mjs` / `deployBuild.mjs` / `ensureHugo.mjs` | Deploy pipeline |
-| `pixi.js` + `notes-graph.js` | User intent — graph parity |
+| `pixi.js` + `notes-graph.js` | User intent - graph parity |
 | `preview-index.html` on note pages | Wikilink hover previews |
-| `scripts/archive/` (188K) | Historical migrations — move off-repo when confident |
+| `scripts/archive/` (188K) | Historical migrations - move off-repo when confident |
 
 ---
 
@@ -12975,7 +12975,7 @@ Pulls full `partialCached "notes/graph-data.html"` (148 lines, O(n²) wikilink s
 1. **Commit** in-flight deletes (trio, cached wrappers, merged partial, migration scripts)
 2. **`delete:`** `shared-labels.html`, stale i18n, `themeUpdate.js` + npm script, `__pycache__`
 3. **Wire i18n in `random-duo.html`** OR delete unused keys
-4. **`shrink:`** extract `notes-random-core.js` — biggest line win
+4. **`shrink:`** extract `notes-random-core.js` - biggest line win
 5. **Trim README** to current toolchain + deploy flow
 
 ---
@@ -14121,10 +14121,10 @@ Quick and medium ponytail wins are done. Hugo build passes.
 - **`.gitignore`:** added `scripts/__pycache__/`
 
 ### Medium wins
-- **`notes-random-core.js`** — shared fetch/render, AI helpers, prompt tail
-- **`notes-random-single.js`** — merged blog + note-page random note (one bundle)
+- **`notes-random-core.js`** - shared fetch/render, AI helpers, prompt tail
+- **`notes-random-single.js`** - merged blog + note-page random note (one bundle)
 - **Slimmed** `notes-random-duo.js` (409→220 lines) and `notes-featured-random.js` (102→35)
-- **`random-prompt-panel.html`** — shared AI prompt UI for unrelated-notes + duo
+- **`random-prompt-panel.html`** - shared AI prompt UI for unrelated-notes + duo
 - **README** trimmed 921→67 lines (current toolchain + commands)
 
 ### Line count (random JS)

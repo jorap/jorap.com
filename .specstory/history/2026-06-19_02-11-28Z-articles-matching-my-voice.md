@@ -238,9 +238,9 @@ Miracle of Isaiah David is a testimony with thin practical advice. Instant Pot C
 
 Miracle of Isaiah David opens with strong voice and ECQ context, yet later sections turn into a media roundup. Hugoplate Theme Review also loses voice once it becomes a reference manual. The final top ten is now fixed, with Set It and Forget It Arroz Caldo replacing Miracle of Isaiah David at tenth place.
 
-Miracle of Isaiah David is now ranked tenth. Its narrative moments—such as the ECQ daughter-comedy note—exceed the conversational depth of Set It and Forget It Arroz Caldo. Set It is demoted to honorable mention. Miracle may outrank Consistent AI Output because of its emotional authenticity. The top ten is being re-ranked against the voice pillars.
+Miracle of Isaiah David is now ranked tenth. Its narrative moments-such as the ECQ daughter-comedy note-exceed the conversational depth of Set It and Forget It Arroz Caldo. Set It is demoted to honorable mention. Miracle may outrank Consistent AI Output because of its emotional authenticity. The top ten is being re-ranked against the voice pillars.
 
-The top ten are being scored against specific voice pillars. Experiential, opinionated, practical, honest-failure, grounded-Philippine, and understated-humor traits are mapped to each article. Posts that fail these criteria—alex-eala tracker, dnpap song resources, and instant pot adobo—are set aside.
+The top ten are being scored against specific voice pillars. Experiential, opinionated, practical, honest-failure, grounded-Philippine, and understated-humor traits are mapped to each article. Posts that fail these criteria-alex-eala tracker, dnpap song resources, and instant pot adobo-are set aside.
 
 Miracle of Isaiah David is now ranked ninth. Its prose is unmistakably JoRap. Consistent AI Output is tenth. It reads slightly like a methodology post.
 </details></think>

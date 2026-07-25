@@ -902,12 +902,12 @@ _**Agent (default)**_
 .cursor/skills/impeccable → ../../../impeccable/dist/universal/.cursor/skills/impeccable
 ```
 
-Git still had ~94 real files tracked under that path. When you run `git add` (or your editor stages files individually), Git tries to follow paths like `.cursor/skills/impeccable/reference/adapt.md` through the symlink and refuses — it won't traverse paths beyond a symlink boundary.
+Git still had ~94 real files tracked under that path. When you run `git add` (or your editor stages files individually), Git tries to follow paths like `.cursor/skills/impeccable/reference/adapt.md` through the symlink and refuses - it won't traverse paths beyond a symlink boundary.
 
 **What I fixed:**
 
-1. Added `.cursor/skills/impeccable` to `.gitignore` — it’s meant to be linked locally per your [sync-upstreams skill](.cursor/skills/sync-upstreams/SKILL.md), not vendored in the repo.
-2. Removed impeccable from the Git index with `git rm -r --cached .cursor/skills/impeccable` — this stages deletion of the old vendored files without touching the symlink on disk.
+1. Added `.cursor/skills/impeccable` to `.gitignore` - it’s meant to be linked locally per your [sync-upstreams skill](.cursor/skills/sync-upstreams/SKILL.md), not vendored in the repo.
+2. Removed impeccable from the Git index with `git rm -r --cached .cursor/skills/impeccable` - this stages deletion of the old vendored files without touching the symlink on disk.
 
 Your symlink still works locally. `git add -A` and `git commit` should succeed now.
 
@@ -919,7 +919,7 @@ git rm -r --cached .cursor/skills/impeccable
 
 Then make sure `.cursor/skills/impeccable` is in `.gitignore` before running `git add -A`.
 
-I did **not** create a commit — your other staged changes are ready whenever you want to commit. The impeccable deletions and `.gitignore` update will be included in that commit.
+I did **not** create a commit - your other staged changes are ready whenever you want to commit. The impeccable deletions and `.gitignore` update will be included in that commit.
 
 ---
 
@@ -2355,7 +2355,7 @@ Random note panels fetch full note pages and clone the article body, but the ski
 - `assets/js/notes-single-random-notes.js` (bottom of single note pages)
 - `assets/js/blog-random-notes.js`
 
-Flashcards still show on the note’s own page — they’re just omitted from random/shuffle previews. Rebuild or refresh to pick up the JS change.
+Flashcards still show on the note’s own page - they’re just omitted from random/shuffle previews. Rebuild or refresh to pick up the JS change.
 
 ---
 

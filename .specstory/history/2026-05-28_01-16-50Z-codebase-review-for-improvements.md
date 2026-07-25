@@ -1193,17 +1193,17 @@ _**Agent (auto-high)**_
 <think><details><summary>Thought Process</summary>
  I'm ready to synthesize my findings into actionable recommendations. I've spotted a key issue where the image partial in the main layouts directory is just a thin wrapper delegating to the theme's image component, creating unnecessary indirection that could be simplified.
 
-The package metadata is outdated and needs to reflect the actual project. Hard-coded URLs in the social-share partial will break on staging deployments—I need to flag that `.Permalink` and `site.BaseURL` should be used instead. Several partials have inline JavaScript that should be moved into the asset pipeline so they can be properly bundled, minified, and fingerprinted alongside the rest of the codebase. The back-to-top script in particular has a fragile dependency that could crash if the progress ring element is missing.
+The package metadata is outdated and needs to reflect the actual project. Hard-coded URLs in the social-share partial will break on staging deployments-I need to flag that `.Permalink` and `site.BaseURL` should be used instead. Several partials have inline JavaScript that should be moved into the asset pipeline so they can be properly bundled, minified, and fingerprinted alongside the rest of the codebase. The back-to-top script in particular has a fragile dependency that could crash if the progress ring element is missing.
 
 I'm also noticing the "Latest Blog Posts" text is hard-coded in English, which blocks internationalization support. The codebase relies on deprecated `.Scratch` for state management when modern Hugo dictionaries would be cleaner and safer. The image partial itself has ballooned to 292 lines with branching logic that suggests it needs refactoring into smaller, focused components.
 
-There's also a conflict where table-of-contents functionality is duplicated—both in a dedicated `toc.js` file and as an inline script block in the blog single template, which could cause highlight conflicts. The image fallback handler has a subtle bug where the error handler is set to the string `"null"` instead of the actual null keyword, creating a recursive trap. The design system is in a half-migrated state between raw Tailwind classes like `bg-light` and newer semantic tokens like `bg-elevated`, and finishing that migration would eliminate a lot of duplication and the `!important` workarounds in the safe CSS. There's also leftover template metadata in the head, and scroll-padding math is duplicated between the base CSS and the TOC script when it should have a single source of truth.
+There's also a conflict where table-of-contents functionality is duplicated-both in a dedicated `toc.js` file and as an inline script block in the blog single template, which could cause highlight conflicts. The image fallback handler has a subtle bug where the error handler is set to the string `"null"` instead of the actual null keyword, creating a recursive trap. The design system is in a half-migrated state between raw Tailwind classes like `bg-light` and newer semantic tokens like `bg-elevated`, and finishing that migration would eliminate a lot of duplication and the `!important` workarounds in the safe CSS. There's also leftover template metadata in the head, and scroll-padding math is duplicated between the base CSS and the TOC script when it should have a single source of truth.
 
-Icon SVGs are scattered throughout components instead of being consolidated into a sprite or reusable partial, and the Hugo stats file is committed to git when it should only be generated at build time. The pagination partial still has hardcoded color values leaking through, the 404 page isn't internationalized, and the banner partial doesn't pass context when calling the image partial, which breaks for page bundles. There are also unnecessary DNS prefetches for unused third-party services, and the documentation is spread across multiple root-level files that should be consolidated into a `/docs` folder. One more thing—a couple of npm scripts still use `yarn` commands even though the project uses npm as its package manager.
+Icon SVGs are scattered throughout components instead of being consolidated into a sprite or reusable partial, and the Hugo stats file is committed to git when it should only be generated at build time. The pagination partial still has hardcoded color values leaking through, the 404 page isn't internationalized, and the banner partial doesn't pass context when calling the image partial, which breaks for page bundles. There are also unnecessary DNS prefetches for unused third-party services, and the documentation is spread across multiple root-level files that should be consolidated into a `/docs` folder. One more thing-a couple of npm scripts still use `yarn` commands even though the project uses npm as its package manager.
 
-The Hugo version isn't pinned anywhere, so I should add an `engines` field to package.json and create a `.tool-versions` or `.hugoversion` file. The `baseURL` is set to just `"/"` but the social sharing logic assumes the full domain, which breaks RSS, sitemaps, and OG tags—it should be `"https://jorap.com/"` and let Hugo handle environment-specific overrides. There's no CI linting or HTML validation despite having multiple deployment configs, though the inline theme-switcher script is actually necessary to prevent flash of unstyled content. The image partial uses `.Scratch.Set` inside a loop which works but could be cleaner with `with` patterns, and the back-to-top progress ring element could throw an error if the DOM element doesn't exist, so it needs a null check. The dark mode color tokens are also...
+The Hugo version isn't pinned anywhere, so I should add an `engines` field to package.json and create a `.tool-versions` or `.hugoversion` file. The `baseURL` is set to just `"/"` but the social sharing logic assumes the full domain, which breaks RSS, sitemaps, and OG tags-it should be `"https://jorap.com/"` and let Hugo handle environment-specific overrides. There's no CI linting or HTML validation despite having multiple deployment configs, though the inline theme-switcher script is actually necessary to prevent flash of unstyled content. The image partial uses `.Scratch.Set` inside a loop which works but could be cleaner with `with` patterns, and the back-to-top progress ring element could throw an error if the DOM element doesn't exist, so it needs a null check. The dark mode color tokens are also...
 
-Lots of `dark:` utilities scattered throughout when semantic tokens like `text-ink`, `bg-elevated`, and `border-divider` were meant to consolidate that repetition—many components haven't migrated yet. The related-config comment about categories not scoring above the threshold is misleading since the threshold is 80 and categories have weight 80, so they'd hit it exactly. The `mainSections` config is good, but the empty defaults for `home_intro` heading and lede create weird coupling with conditional logic in the blog list template. I think I have enough for a solid review now.</details></think>
+Lots of `dark:` utilities scattered throughout when semantic tokens like `text-ink`, `bg-elevated`, and `border-divider` were meant to consolidate that repetition-many components haven't migrated yet. The related-config comment about categories not scoring above the threshold is misleading since the threshold is 80 and categories have weight 80, so they'd hit it exactly. The `mainSections` config is good, but the empty defaults for `home_intro` heading and lede create weird coupling with conditional logic in the blog list template. I think I have enough for a solid review now.</details></think>
 
 _**Agent (auto-high)**_
 
@@ -1281,7 +1281,7 @@ Use `npm run format` to avoid silent failures on machines without yarn.
 
 ---
 
-## 2. Reusability — finish the semantic-token migration
+## 2. Reusability - finish the semantic-token migration
 
 You've already started the right thing in `tailwind-plugin/tw-theme.js`:
 
@@ -1306,7 +1306,7 @@ But across the theme, components still pair `bg-light dark:bg-darkmode-light`, `
 Each `X dark:darkmode-X` pair could become a single semantic class (`text-ink`, `bg-elevated`, `border-divider`, `bg-accent`, …). Wins:
 
 1. Roughly half the class soup disappears.
-2. Adding a new theme (e.g., a sepia mode) only requires changing `semanticLight`/`semanticDark` in `tw-theme.js` — no template edits.
+2. Adding a new theme (e.g., a sepia mode) only requires changing `semanticLight`/`semanticDark` in `tw-theme.js` - no template edits.
 3. The `!important` overrides in `themes/jorap/assets/css/safe.css` (lines 14–39) become unnecessary; those exist precisely because some components write raw colors that prose/dark vars cannot override cleanly.
 
 Recommended sequence:
@@ -1316,7 +1316,7 @@ Recommended sequence:
 
 ---
 
-## 3. Reusability — extract a single image partial and an `<Icon>` partial
+## 3. Reusability - extract a single image partial and an `<Icon>` partial
 
 `themes/jorap/layouts/partials/components/image.html` is 292 lines with three nearly identical `Resize/Fit/Fill/Crop` branches duplicated under "with $size", "image < 500", and "responsive sizes" paths. After fixing the `onerror` typo, refactor:
 
@@ -1328,7 +1328,7 @@ For SVG icons, `components/social-share.html` (268 lines) is 95% inline SVG. Cre
 
 ---
 
-## 4. Ease of updating — single source of truth for "header offset"
+## 4. Ease of updating - single source of truth for "header offset"
 
 Three places hard-code the sticky header height:
 
@@ -1341,36 +1341,36 @@ If you ever change header height, you have to remember three places. Pick one ap
 
 ---
 
-## 5. Ease of updating — i18n & content drift
+## 5. Ease of updating - i18n & content drift
 
-- `themes/jorap/layouts/partials/sections/blog-list.html` lines 11–17 hard-code "Latest Blog Posts" and even branch on `$h.enable` to pick between `text-h1` and `text-h2` — weird coupling. Move the text into `i18n/en.yaml` (you already have `i18n/`), and use a single heading class.
+- `themes/jorap/layouts/partials/sections/blog-list.html` lines 11–17 hard-code "Latest Blog Posts" and even branch on `$h.enable` to pick between `text-h1` and `text-h2` - weird coupling. Move the text into `i18n/en.yaml` (you already have `i18n/`), and use a single heading class.
 - `themes/jorap/layouts/404.en.html` lines 10–14 hard-code English copy. Use `T` lookups like the rest of the theme.
 - `themes/jorap/layouts/contact/list.html` lines 11–43 hard-code form labels. Same fix.
 
 ---
 
-## 6. Ease of updating — repo hygiene
+## 6. Ease of updating - repo hygiene
 
 - **Doc sprawl in repo root.** `README.md` (822 lines), `DESIGN.md`, `DESIGN.json`, `PRODUCT.md`, `TODO.md`, `TROUBLESHOOTING.md`, `SVELTIA_CMS_SETUP.md`, `_functions_test.txt`. Move to `/docs/` and have `README.md` link out. New contributors will browse the repo, not 800 lines of one file.
 - **Committed build artifacts.** `hugo_stats.json` (14.6 KB) is generated by Hugo; `.hugo_build.lock` too. Add to `.gitignore`. Keep `assets/notwatching/hugo_stats.json` mounted via `[module.mounts]` (already configured).
-- **`public/` and `resources/` in repo.** Check `.gitignore` — if they're tracked, they shouldn't be (resources is the Hugo image cache; public is build output).
-- **Multiple hosting configs.** `amplify.yml`, `vercel.json`, `netlify.toml`, `.gitlab-ci.yml`, `_redirects`, `vercel-build.sh` — pick the actual host(s) and delete the rest. Each one is a contract that drifts.
+- **`public/` and `resources/` in repo.** Check `.gitignore` - if they're tracked, they shouldn't be (resources is the Hugo image cache; public is build output).
+- **Multiple hosting configs.** `amplify.yml`, `vercel.json`, `netlify.toml`, `.gitlab-ci.yml`, `_redirects`, `vercel-build.sh` - pick the actual host(s) and delete the rest. Each one is a contract that drifts.
 - **Pin tool versions.** Add `engines` to `package.json` and either `.tool-versions` (asdf/mise) or `.nvmrc` + a `HUGO_VERSION` in your host's build env file (`netlify.toml`, etc.). README says "Hugo Extended v0.141.0+" but nothing enforces it.
 
 ---
 
-## 7. Performance — small wins
+## 7. Performance - small wins
 
 - **`essentials/head.html` lines 7–15:** Lots of DNS prefetches for services this site doesn't appear to use (`platform.linkedin.com`, `platform.twitter.com`, `connect.facebook.net`, `use.fontawesome.com`, `ajax.googleapis.com`). Each is a few bytes plus a connection cost on slow networks. Keep only the ones actually requested at runtime.
-- **Google Fonts injected by JS** (head.html lines 22–30) — the `<link rel="preconnect">` above it is good, but injecting the stylesheet via a runtime `document.createElement` defeats the preload. Either `<link rel="preload" as="style">` + `<link rel="stylesheet">` or use a self-hosted Inter via `npm i @fontsource-variable/inter`.
-- **Inline scripts skip the asset pipeline.** `back-to-top.html`, `theme-switcher.html` (the listener half), and the TOC IIFE in `blog/single.html` should live in `themes/jorap/assets/js/*.js` and get concatenated/minified/fingerprinted in `essentials/script.html`. The *first paint* portion of theme-switcher.html (lines 35–51) must stay inline to avoid FOUC — only that pre-DOMContentLoaded block.
+- **Google Fonts injected by JS** (head.html lines 22–30) - the `<link rel="preconnect">` above it is good, but injecting the stylesheet via a runtime `document.createElement` defeats the preload. Either `<link rel="preload" as="style">` + `<link rel="stylesheet">` or use a self-hosted Inter via `npm i @fontsource-variable/inter`.
+- **Inline scripts skip the asset pipeline.** `back-to-top.html`, `theme-switcher.html` (the listener half), and the TOC IIFE in `blog/single.html` should live in `themes/jorap/assets/js/*.js` and get concatenated/minified/fingerprinted in `essentials/script.html`. The *first paint* portion of theme-switcher.html (lines 35–51) must stay inline to avoid FOUC - only that pre-DOMContentLoaded block.
 
 ---
 
 ## 8. Accessibility & polish
 
 - `themes/jorap/layouts/partials/components/breadcrumb.html` line 11, 21: class `inlin-block` is a typo for `inline-block`.
-- The "preloader" partial is gated by `if hugo.IsProduction` in `baseof.html`, but `params.toml` has `[preloader] enable = false`. The cached partial is still being called every page even when disabled — fine if the partial early-returns, worth verifying.
+- The "preloader" partial is gated by `if hugo.IsProduction` in `baseof.html`, but `params.toml` has `[preloader] enable = false`. The cached partial is still being called every page even when disabled - fine if the partial early-returns, worth verifying.
 - The mobile menu toggler in `header.html` uses an `<input type="checkbox">` hack. It's CSS-only (`safe.css` lines 1–12) but doesn't communicate state to assistive tech (no `aria-expanded` on the trigger). Replace with a `<button aria-expanded>` toggled in `main.js`.
 
 ---
@@ -1558,7 +1558,7 @@ git status --short 2>&1 | head -40; echo "---"; git ls-files | rg -e '^public/' 
 _**Agent (auto-high)**_
 
 <think><details><summary>Thought Process</summary>
- The .gitignore is already handling most of the necessary files like hugo_stats.json, public, resources, and .hugo_build.lock. I'm noticing that package-lock.json and go.sum are both in there, though go.sum typically shouldn't be ignored for reproducibility in most projects — though with Hugo modules it can be regenerated anyway.
+ The .gitignore is already handling most of the necessary files like hugo_stats.json, public, resources, and .hugo_build.lock. I'm noticing that package-lock.json and go.sum are both in there, though go.sum typically shouldn't be ignored for reproducibility in most projects - though with Hugo modules it can be regenerated anyway.
 
 Wait, I need to double-check something about the theme.toml file location. I thought I saw it at the root, but let me verify that's actually where it is.</details></think>
 
@@ -1599,7 +1599,7 @@ git ls-files | grep -E '^public/|^resources/|hugo_stats|hugo_build.lock|package-
 _**Agent (auto-high)**_
 
 <think><details><summary>Thought Process</summary>
- I need to untrack that `.hugo_build.lock` file since it shouldn't be in version control, but I'm going to stay focused and jump straight into the fixes. Starting with Step 1a — there are typos in the onerror handlers in image.html that I need to correct on lines 156-157 and 213-214.</details></think>
+ I need to untrack that `.hugo_build.lock` file since it shouldn't be in version control, but I'm going to stay focused and jump straight into the fixes. Starting with Step 1a - there are typos in the onerror handlers in image.html that I need to correct on lines 156-157 and 213-214.</details></think>
 
 _**Agent (auto-high)**_
 
@@ -1849,7 +1849,7 @@ _**Agent (auto-high)**_
 _**Agent (auto-high)**_
 
 <think><details><summary>Thought Process</summary>
- Checking the head.html logic for handling absolute baseURLs with leading-slash asset paths — the image partial already accounts for this correctly. Now I'll update the social-share template to reference `.Context.Permalink` directly instead.</details></think>
+ Checking the head.html logic for handling absolute baseURLs with leading-slash asset paths - the image partial already accounts for this correctly. Now I'll update the social-share template to reference `.Context.Permalink` directly instead.</details></think>
 
 _**Agent (auto-high)**_
 
@@ -1938,7 +1938,7 @@ _**Agent (auto-high)**_
 
 ### 1f. .gitignore + untrack `.hugo_build.lock`
 
-`.gitignore` already covers `hugo_stats.json`, `public`, `resources`, `.hugo_build.lock` — but `.hugo_build.lock` is still tracked. Untrack it.
+`.gitignore` already covers `hugo_stats.json`, `public`, `resources`, `.hugo_build.lock` - but `.hugo_build.lock` is still tracked. Untrack it.
 
 _**Agent (auto-high)**_
 
@@ -2181,7 +2181,7 @@ _**Agent (auto-high)**_
 _**Agent (auto-high)**_
 
 <think><details><summary>Thought Process</summary>
- I need to verify where the `toc.js` file is actually located—it's in the project's `assets/` directory, not the theme. Looking at the hugo.toml configuration, the plugin is set to load `js/toc.js`, and since `resources.Get` checks the project assets first before falling back to the theme, this will correctly find the project file. I can add new JavaScript files to the project assets directory and they'll be picked up the same way.
+ I need to verify where the `toc.js` file is actually located-it's in the project's `assets/` directory, not the theme. Looking at the hugo.toml configuration, the plugin is set to load `js/toc.js`, and since `resources.Get` checks the project assets first before falling back to the theme, this will correctly find the project file. I can add new JavaScript files to the project assets directory and they'll be picked up the same way.
 
 My approach is to consolidate all TOC-related functionality into a single `toc.js` file that handles anchor scrolling, mobile menu toggling, and scroll-spy highlighting using the `--header-offset` CSS variable, then create a separate `back-to-top.js` file and wire both through hugo.toml. This means removing the inline scripts from the blog single template and the back-to-top component partial.
 
@@ -2479,7 +2479,7 @@ _**Agent (auto-high)**_
 <think><details><summary>Thought Process</summary>
  I'm looking at the semantic token definitions from the theme file and how they map to the existing Tailwind classes, establishing a consistent naming system for colors across text, backgrounds, and borders.
 
-Now I need to be strategic about which files to update first—the header is complex with multiple color states and dark mode variants, so I should start there and work through each file methodically to ensure the replacements are exact and don't break any logic. The user asked for steps 1-4, and step 3 is the riskiest since it involves the most intricate color combinations, so I'll prioritize getting the foundational files right before tackling those.</details></think>
+Now I need to be strategic about which files to update first-the header is complex with multiple color states and dark mode variants, so I should start there and work through each file methodically to ensure the replacements are exact and don't break any logic. The user asked for steps 1-4, and step 3 is the riskiest since it involves the most intricate color combinations, so I'll prioritize getting the foundational files right before tackling those.</details></think>
 
 _**Agent (auto-high)**_
 
@@ -2582,7 +2582,7 @@ Status: **completed**
 _**Agent (auto-high)**_
 
 <think><details><summary>Thought Process</summary>
- I'm planning out the token migrations for the dark mode refactor, mapping the old paired classes to the new unified tokens—things like `text-text-dark dark:text-darkmode-text-dark` becoming just `text-ink`, and I'll be conservative with the riskier conversions where the mapping isn't completely certain.</details></think>
+ I'm planning out the token migrations for the dark mode refactor, mapping the old paired classes to the new unified tokens-things like `text-text-dark dark:text-darkmode-text-dark` becoming just `text-ink`, and I'll be conservative with the riskier conversions where the mapping isn't completely certain.</details></think>
 
 _**Agent (auto-high)**_
 
@@ -3084,7 +3084,7 @@ _**Agent (auto-high)**_
 
 _**Agent (auto-high)**_
 
-Now sweep CSS files — both `module-overrides.css` (lots of `dark:`) and `safe.css` (the `!important` block we want to retire later):
+Now sweep CSS files - both `module-overrides.css` (lots of `dark:`) and `safe.css` (the `!important` block we want to retire later):
 
 _**Agent (auto-high)**_
 
@@ -3182,7 +3182,7 @@ Status: **completed**
 _**Agent (auto-high)**_
 
 <think><details><summary>Thought Process</summary>
- Checking the prose utility declarations in components.css — they're still referencing the old color system with dark mode variants. I need to convert those to use the semantic text variables instead, so `prose-headings` maps to `text-ink` and pulls from the semantic color system.</details></think>
+ Checking the prose utility declarations in components.css - they're still referencing the old color system with dark mode variants. I need to convert those to use the semantic text variables instead, so `prose-headings` maps to `text-ink` and pulls from the semantic color system.</details></think>
 
 _**Agent (auto-high)**_
 
@@ -3383,7 +3383,7 @@ _**Agent (auto-high)**_
 _**Agent (auto-high)**_
 
 <think><details><summary>Thought Process</summary>
- The theme-switcher toggle uses contrasting colors intentionally — dark background with a white knob in dark mode to ensure visibility. I'm keeping this approach as-is since it works well for the toggle's functionality.
+ The theme-switcher toggle uses contrasting colors intentionally - dark background with a white knob in dark mode to ensure visibility. I'm keeping this approach as-is since it works well for the toggle's functionality.
 
 Now moving on to buttons.css...</details></think>
 
@@ -4450,7 +4450,7 @@ Status: **completed**
 _**Agent (auto-high)**_
 
 <think><details><summary>Thought Process</summary>
- The fallback list already includes `docs`, so those files will still be discoverable after moving them—no code changes required. Now I need to check what the root README actually links to so I can update those references.</details></think>
+ The fallback list already includes `docs`, so those files will still be discoverable after moving them-no code changes required. Now I need to check what the root README actually links to so I can update those references.</details></think>
 
 _**Agent (auto-high)**_
 
@@ -4833,7 +4833,7 @@ ERROR error building site: render: [en v1.0.0 guest] failed to render pages: ren
 _**Agent (auto-high)**_
 
 <think><details><summary>Thought Process</summary>
- I'm realizing Hugo's `return` statement has stricter parsing rules than I expected — it seems to want zero arguments in certain contexts, even though the syntax `{{ return value }}` should work. The error message about wrong number of args is confusing since a single value should be valid, so maybe the issue is how it's being parsed inside conditional branches. Let me look into the Hugo documentation to understand the exact syntax requirements.</details></think>
+ I'm realizing Hugo's `return` statement has stricter parsing rules than I expected - it seems to want zero arguments in certain contexts, even though the syntax `{{ return value }}` should work. The error message about wrong number of args is confusing since a single value should be valid, so maybe the issue is how it's being parsed inside conditional branches. Let me look into the Hugo documentation to understand the exact syntax requirements.</details></think>
 
 _**Agent (auto-high)**_
 
@@ -5012,7 +5012,7 @@ All four steps are done and the site builds clean (150 pages, 250 images, 660 ms
 
 ## Summary of changes
 
-**Step 1 — bug fixes & hygiene**
+**Step 1 - bug fixes & hygiene**
 - `themes/jorap/layouts/partials/components/image.html`: fixed both `onerror="this.onerror='null';"` typos.
 - `themes/jorap/layouts/partials/components/breadcrumb.html`: `inlin-block` → `inline-block`.
 - `hugo.toml`: `baseURL = "https://jorap.com/"` (override per-environment with `HUGO_BASEURL`).
@@ -5022,19 +5022,19 @@ All four steps are done and the site builds clean (150 pages, 250 images, 660 ms
 - `theme.toml`: rewritten with jorap identity, attributes Hugoplate as the upstream origin under `[original]`.
 - `.gitignore`: grouped/commented; `.hugo_build.lock` untracked.
 
-**Step 2 — single header-offset truth + JS pipeline**
+**Step 2 - single header-offset truth + JS pipeline**
 - `themes/jorap/assets/css/base.css`: introduced `--header-offset` (mobile 80px → 100px → 110px on xl). `scroll-padding-top` references it.
 - `assets/js/toc.js`: rewritten to own anchor scroll, mobile TOC toggle, and scroll-spy; reads `--header-offset` via `getComputedStyle`.
 - `assets/js/back-to-top.js` (new), wired in `hugo.toml [[params.plugins.js]]`. Null-safe, `rAF`-throttled, `passive` scroll listener.
 - Inline `<script>` blocks deleted from `blog/single.html` and `components/back-to-top.html`. The progress-ring CSS moved to `components.css` with a `prefers-reduced-motion` guard.
 
-**Step 3 — semantic tokens / retire safe.css color hacks**
+**Step 3 - semantic tokens / retire safe.css color hacks**
 - All theme components migrated from `X dark:darkmode-X` pairs to `text-ink / text-ink-muted / text-ink-faint / bg-surface / bg-elevated / border-divider / bg-accent / text-accent`. Touched: blog-card, breadcrumb, pagination, header, footer, author-card, call-to-action, testimonials, widgets/tags, widgets/categories, authors/single, 404, _default/list, _default/terms, blog/single.
 - `themes/jorap/assets/css/components.css`: prose-* rules use semantic tokens; mermaid styling too.
 - `themes/jorap/assets/css/buttons.css`, `utilities.css`, `module-overrides.css`, `navigation.css`: same sweep.
 - `themes/jorap/assets/css/safe.css`: stripped the `!important .content` overrides; kept only the structural `nav-toggle` checkbox-hack and swiper bullet sizing.
 
-**Step 4 — image refactor + icon partial + docs move**
+**Step 4 - image refactor + icon partial + docs move**
 - `themes/jorap/layouts/partials/components/image.html`: rebuilt as a single linear pipeline (282 → ~150 lines). Resolution order is documented at the top; transforms are dispatched through `components/image-process` so the Resize/Fit/Fill/Crop ladder isn't repeated. `banner.html` now passes `Context`.
 - `data/icons.json` (new) + `themes/jorap/layouts/partials/components/icon.html` (new): inline-SVG registry.
 - `themes/jorap/layouts/partials/components/social-share.html`: rewritten from 261 lines (with inline `<script>` + inline `onclick` handlers) to ~70 lines that loop a service list and call the icon partial. Copy-link is now `data-share-copy` driven.
@@ -5044,21 +5044,21 @@ All four steps are done and the site builds clean (150 pages, 250 images, 660 ms
 ## What I deliberately did not touch
 
 - **Theme-switcher knob** in `navigation.css` (`bg-dark dark:bg-white`): the toggle thumb needs literal opposite-of-track contrast, not a semantic token.
-- **`dark:text-white` in the search button** when chosen explicitly (header.html lines 130, 134) — collapsed into `text-ink` along with the rest; if you want a starker white-against-dark search icon, this is the place to tweak.
-- **Hosting configs** (`amplify.yml`, `vercel.json`, `netlify.toml`, `_redirects`, `vercel-build.sh`, `.gitlab-ci.yml`) — kept as-is until you tell me which host is canonical.
+- **`dark:text-white` in the search button** when chosen explicitly (header.html lines 130, 134) - collapsed into `text-ink` along with the rest; if you want a starker white-against-dark search icon, this is the place to tweak.
+- **Hosting configs** (`amplify.yml`, `vercel.json`, `netlify.toml`, `_redirects`, `vercel-build.sh`, `.gitlab-ci.yml`) - kept as-is until you tell me which host is canonical.
 
 ## Visual-check checklist before deploying
 
 Because step 3 touched colors, walk these once in both themes:
 
-1. Homepage and blog list — blog cards, sidebar tags/categories.
-2. A blog post with a TOC — mobile toggle, scroll-spy highlight, share buttons, related posts, code blocks, blockquotes.
+1. Homepage and blog list - blog cards, sidebar tags/categories.
+2. A blog post with a TOC - mobile toggle, scroll-spy highlight, share buttons, related posts, code blocks, blockquotes.
 3. Tag/category landing pages (`/tags/`, `/categories/`).
 4. Author single page.
 5. Pagination (page 2 of the blog list).
 6. The back-to-top button (scroll past 300px).
 
-If any color looks off, it's almost certainly a missing semantic mapping — fix it once in `tailwind-plugin/tw-theme.js` (`semanticLight` / `semanticDark`) and the whole theme follows.
+If any color looks off, it's almost certainly a missing semantic mapping - fix it once in `tailwind-plugin/tw-theme.js` (`semanticLight` / `semanticDark`) and the whole theme follows.
 
 ---
 
@@ -5075,13 +5075,13 @@ arrow up has no color:
 _**Agent (auto-high)**_
 
 <think><details><summary>Thought Process</summary>
- I'm tracing through the HTML structure — the arrow SVG is nested inside the button with `text-white`, so `currentColor` should inherit white, but the progress ring circles are siblings outside the button in a container without text color styling, which might be why the arrow appears invisible. Ah, I see the issue now. In dark mode, the `bg-accent` background becomes a light off-white color while the arrow stroke stays white, making it invisible against the light background. That's why the arrow disappears in dark mode.
+ I'm tracing through the HTML structure - the arrow SVG is nested inside the button with `text-white`, so `currentColor` should inherit white, but the progress ring circles are siblings outside the button in a container without text color styling, which might be why the arrow appears invisible. Ah, I see the issue now. In dark mode, the `bg-accent` background becomes a light off-white color while the arrow stroke stays white, making it invisible against the light background. That's why the arrow disappears in dark mode.
 
 The fix is to add `dark:text-text-dark` to the button's text color classes, matching the pattern used in the primary button styling so the arrow color adapts properly in both light and dark modes.</details></think>
 
 _**Agent (auto-high)**_
 
-The arrow is white via `currentColor`, but the button is `text-white` only — in dark mode `bg-accent` resolves to near-white, so a white arrow disappears on a near-white pill. Same pattern as `.btn-primary` in `buttons.css`: it pairs `text-white dark:text-text-dark`. Mirror that.
+The arrow is white via `currentColor`, but the button is `text-white` only - in dark mode `bg-accent` resolves to near-white, so a white arrow disappears on a near-white pill. Same pattern as `.btn-primary` in `buttons.css`: it pairs `text-white dark:text-text-dark`. Mirror that.
 
 _**Agent (auto-high)**_
 
@@ -5143,7 +5143,7 @@ progress needs color as well
 _**Agent (auto-high)**_
 
 <think><details><summary>Thought Process</summary>
- The progress ring is currently inheriting the muted text color, which works visually but doesn't stand out as a progress indicator—I should switch it to use the accent color instead so it's more prominent and clearly signals progress to the user.</details></think>
+ The progress ring is currently inheriting the muted text color, which works visually but doesn't stand out as a progress indicator-I should switch it to use the accent color instead so it's more prominent and clearly signals progress to the user.</details></think>
 
 _**Agent (auto-high)**_
 
@@ -5206,7 +5206,7 @@ make the progress a color blue
 _**Agent (auto-high)**_
 
 <think><details><summary>Thought Process</summary>
- I need to make the progress ring blue while keeping the background track muted, so I'll set the stroke color explicitly to sky-400 on just the progress circle element rather than applying it globally. I'm realizing that applying `text-sky-500` to the progress circle will make `currentColor` resolve to sky-500 for just that element, while the parent SVG stays at `text-accent` for the background track — that's the cleanest approach.</details></think>
+ I need to make the progress ring blue while keeping the background track muted, so I'll set the stroke color explicitly to sky-400 on just the progress circle element rather than applying it globally. I'm realizing that applying `text-sky-500` to the progress circle will make `currentColor` resolve to sky-500 for just that element, while the parent SVG stays at `text-accent` for the background track - that's the cleanest approach.</details></think>
 
 _**Agent (auto-high)**_
 
@@ -5248,7 +5248,7 @@ Total in 1022 ms
 
 _**Agent (auto-high)**_
 
-Done. The progress arc is now `text-sky-500` (`#0ea5e9`) — matches the bright Tailwind sky blue the original template used. The background track stays on the parent SVG's `text-accent` at 20% opacity, so the contrast reads as "progress vs track" in both light and dark mode.
+Done. The progress arc is now `text-sky-500` (`#0ea5e9`) - matches the bright Tailwind sky blue the original template used. The background track stays on the parent SVG's `text-accent` at 20% opacity, so the contrast reads as "progress vs track" in both light and dark mode.
 
 If you want a different blue (e.g. `text-blue-500`, `text-cyan-500`, or a brand hex like `text-[#1e90ff]`), just swap the class on that one circle.
 
@@ -5263,13 +5263,13 @@ it destroyed the site
 _**Agent (auto-high)**_
 
 <think><details><summary>Thought Process</summary>
- I'm wondering if the issue is actually with how Tailwind v4 detects the `text-sky-500` class through `hugo_stats.json` — the build succeeded but the class might not have been picked up in time, or maybe the `stroke="currentColor"` attribute is the real culprit here.
+ I'm wondering if the issue is actually with how Tailwind v4 detects the `text-sky-500` class through `hugo_stats.json` - the build succeeded but the class might not have been picked up in time, or maybe the `stroke="currentColor"` attribute is the real culprit here.
 
-Let me think through what could cause a catastrophic failure: either the class doesn't exist in the Tailwind output and something else broke, or there's a CSS conflict I'm not seeing. The safest move is to revert my last change and see if that restores things — if it was working before I added `text-sky-500`, going back should confirm whether that's the problem.</details></think>
+Let me think through what could cause a catastrophic failure: either the class doesn't exist in the Tailwind output and something else broke, or there's a CSS conflict I'm not seeing. The safest move is to revert my last change and see if that restores things - if it was working before I added `text-sky-500`, going back should confirm whether that's the problem.</details></think>
 
 _**Agent (auto-high)**_
 
-Reverting the last change first — let me see what's actually broken before doing anything else.
+Reverting the last change first - let me see what's actually broken before doing anything else.
 
 _**Agent (auto-high)**_
 
@@ -5303,13 +5303,13 @@ ls terminals 2>/dev/null; ls /Users/jonathanrapusas/.cursor/projects/Users-jonat
 _**Agent (auto-high)**_
 
 <think><details><summary>Thought Process</summary>
- The file structure looks fine, so adding that class shouldn't cause issues. The real problem is probably a stale CSS cache from running the dev server — the `hugo_stats.json` and Tailwind layer can get out of sync, especially with how the `@source` directive works in the main stylesheet.
+ The file structure looks fine, so adding that class shouldn't cause issues. The real problem is probably a stale CSS cache from running the dev server - the `hugo_stats.json` and Tailwind layer can get out of sync, especially with how the `@source` directive works in the main stylesheet.
 
 But "destroyed" usually means the layout actually broke, so I should ask what's visibly wrong rather than guess. Let me suggest running a clean build first to rule out cache issues, then we can narrow down what's actually happening.</details></think>
 
 _**Agent (auto-high)**_
 
-The file looks fine — adding a class shouldn't break anything. Let me sanity-check with a clean build and then I need to know what you're actually seeing.
+The file looks fine - adding a class shouldn't break anything. Let me sanity-check with a clean build and then I need to know what you're actually seeing.
 
 _**Agent (auto-high)**_
 
@@ -5362,7 +5362,7 @@ Before I keep guessing, I need a hint. Could you tell me:
    - Layout broken / things in the wrong place? → Probably a CSS-selector regression from the semantic-token sweep.
    - Specific element looks ugly? → Just a color/contrast fix.
 
-2. **Where are you viewing it?** Dev (`hugo server`) or the built `public/`? If dev, please hard-reload (⌘⇧R) — Tailwind v4 in this repo regenerates from `hugo_stats.json` and stale dev caches do this sometimes.
+2. **Where are you viewing it?** Dev (`hugo server`) or the built `public/`? If dev, please hard-reload (⌘⇧R) - Tailwind v4 in this repo regenerates from `hugo_stats.json` and stale dev caches do this sometimes.
 
 3. **Did it break the moment I added `text-sky-500`**, or was it already broken after one of the earlier steps and you only noticed now?
 
@@ -5385,7 +5385,7 @@ Parameters:
       "options": [
         {
           "id": "unstyled",
-          "label": "Everything looks unstyled (no colors, no spacing) — Tailwind isn't loading"
+          "label": "Everything looks unstyled (no colors, no spacing) - Tailwind isn't loading"
         },
         {
           "id": "layout",
@@ -5397,11 +5397,11 @@ Parameters:
         },
         {
           "id": "progress",
-          "label": "Just the back-to-top progress ring looks bad — revert the blue"
+          "label": "Just the back-to-top progress ring looks bad - revert the blue"
         },
         {
           "id": "other",
-          "label": "Something else — I'll describe in the next message"
+          "label": "Something else - I'll describe in the next message"
         }
       ],
       "prompt": "What looks wrong?"
@@ -5455,13 +5455,13 @@ Status: **completed**
 _**Agent (auto-high)**_
 
 <think><details><summary>Thought Process</summary>
- I'm diagnosing why Tailwind isn't loading—it could be the progress-ring CSS I moved into components.css, an invalid class syntax, or the baseURL change in hugo.toml affecting asset paths on different domains.
+ I'm diagnosing why Tailwind isn't loading-it could be the progress-ring CSS I moved into components.css, an invalid class syntax, or the baseURL change in hugo.toml affecting asset paths on different domains.
 
 The real culprit is likely the baseURL change to `https://jorap.com/`. When viewing the built site locally or on a staging domain, the CSS link becomes an absolute URL pointing to production, which fails with CORS or 404 errors. I could fix this by reverting baseURL to `/`, using environment variables, or build-time flags, but that breaks the social share metadata I just fixed.
 
-The better approach is keeping baseURL absolute for OG tags and sitemaps while using relative URLs for assets—Hugo's `RelPermalink` generates root-relative paths like `/css/style.css` that work regardless of the baseURL setting. Let me verify the style.html partial is actually using `RelPermalink`...
+The better approach is keeping baseURL absolute for OG tags and sitemaps while using relative URLs for assets-Hugo's `RelPermalink` generates root-relative paths like `/css/style.css` that work regardless of the baseURL setting. Let me verify the style.html partial is actually using `RelPermalink`...
 
-Actually, if that's already in place, the issue might be something else entirely—maybe the Tailwind compilation failed silently or the generated CSS file is empty or malformed. I should check the actual output size of the compiled CSS.</details></think>
+Actually, if that's already in place, the issue might be something else entirely-maybe the Tailwind compilation failed silently or the generated CSS file is empty or malformed. I should check the actual output size of the compiled CSS.</details></think>
 
 _**Agent (auto-high)**_
 
@@ -5549,7 +5549,7 @@ _**Agent (auto-high)**_
 <think><details><summary>Thought Process</summary>
  The CSS file is being served from a root-relative path and is a substantial 258K, so it exists in the build. The user's complaint about unstyled content suggests either a dev mode issue with Hugo or something else preventing the stylesheet from loading properly.
 
-I'm thinking the most likely culprit is that `hugo server` was running before recent changes — Tailwind v4's deferred CSS pipeline can get confused when templates change rapidly, so restarting the dev server would probably fix it. There's also a chance that `text-sky-500` wasn't in the stale `hugo_stats.json` file when Tailwind tried to generate styles, though Tailwind v4 should regenerate on each build anyway.
+I'm thinking the most likely culprit is that `hugo server` was running before recent changes - Tailwind v4's deferred CSS pipeline can get confused when templates change rapidly, so restarting the dev server would probably fix it. There's also a chance that `text-sky-500` wasn't in the stale `hugo_stats.json` file when Tailwind tried to generate styles, though Tailwind v4 should regenerate on each build anyway.
 
 Let me check if `hugo_stats.json` actually contains `text-sky-500` to verify the class is being tracked properly.</details></think>
 
@@ -5653,7 +5653,7 @@ _**Agent (auto-high)**_
 <think><details><summary>Thought Process</summary>
  The CSS rules are being emitted correctly and the local stylesheet should be applying styles as expected. If everything appears unstyled, it's likely either because the dev server hasn't reloaded after the baseURL change, or they're viewing the production site which hasn't been redeployed yet.
 
-I'm thinking through a few other possibilities — browser cache with the old CSS fingerprint, or potentially they're viewing the built `public/` folder directly via `file://` which would break the absolute CSS path. But given that they were actively testing and seeing styling issues, they're probably running an old `hugo server` instance that needs restarting. Let me check if a dev server is currently running and walk them through the troubleshooting steps.</details></think>
+I'm thinking through a few other possibilities - browser cache with the old CSS fingerprint, or potentially they're viewing the built `public/` folder directly via `file://` which would break the absolute CSS path. But given that they were actively testing and seeing styling issues, they're probably running an old `hugo server` instance that needs restarting. Let me check if a dev server is currently running and walk them through the troubleshooting steps.</details></think>
 
 _**Agent (auto-high)**_
 
@@ -5682,11 +5682,11 @@ _**Agent (auto-high)**_
 <think><details><summary>Thought Process</summary>
  The CSS bundle looks fine at 258K with all classes present and a clean build, so the issue is likely one of two things: either they're viewing an old dev server that's caching the previous state and needs a restart, or they're opening the HTML file directly via `file://` which breaks the CSS path resolution and causes a 404.
 
-The quickest way to diagnose is to have them stop any running Hugo server, run a fresh dev server, and visit localhost:1313 — the stale cache from the dev server is the 99% likely culprit since we modified the Tailwind plugin with semantic tokens and CSS layer structure, which Hugo's deferred pipeline sometimes misses mid-watch.</details></think>
+The quickest way to diagnose is to have them stop any running Hugo server, run a fresh dev server, and visit localhost:1313 - the stale cache from the dev server is the 99% likely culprit since we modified the Tailwind plugin with semantic tokens and CSS layer structure, which Hugo's deferred pipeline sometimes misses mid-watch.</details></think>
 
 _**Agent (auto-high)**_
 
-OK — the built CSS is healthy (258 KB, all the new utilities like `.text-ink`, `.bg-accent`, `.text-sky-500` are present and the HTML correctly references the fingerprinted file). So the source-of-truth output is fine.
+OK - the built CSS is healthy (258 KB, all the new utilities like `.text-ink`, `.bg-accent`, `.text-sky-500` are present and the HTML correctly references the fingerprinted file). So the source-of-truth output is fine.
 
 If everything looks unstyled, the cause is almost certainly one of:
 

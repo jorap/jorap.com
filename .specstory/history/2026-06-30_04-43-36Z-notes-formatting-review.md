@@ -12,7 +12,7 @@ review all notes for consistent formatting. remove duplicates
 
 _**Agent (auto-low)**_
 
-I'll review all notes for formatting consistency and duplicates — starting by locating the notes and how they're structured in this repo.
+I'll review all notes for formatting consistency and duplicates - starting by locating the notes and how they're structured in this repo.
 
 
 _**Agent (auto-low)**_
@@ -390,7 +390,7 @@ for f in files:
         issues[&#39;no_trailing_newline&#39;].append(f.name)
     if &#39;\r\n&#39; in text:
         issues[&#39;crlf&#39;].append(f.name)
-    if &#39;—&#39; in text or &#39;–&#39; in text:
+    if &#39;-&#39; in text or &#39;–&#39; in text:
         issues[&#39;em_dash&#39;].append(f.name)
     if fm.get(&#39;draft&#39;) not in (None, &#39;false&#39;, &#39;False&#39;, False):
         issues[&#39;draft_true&#39;].append(f.name)
@@ -505,7 +505,7 @@ for f in files:
         issues['no_trailing_newline'].append(f.name)
     if '\r\n' in text:
         issues['crlf'].append(f.name)
-    if '—' in text or '–' in text:
+    if '-' in text or '–' in text:
         issues['em_dash'].append(f.name)
     if fm.get('draft') not in (None, 'false', 'False', False):
         issues['draft_true'].append(f.name)
@@ -2762,7 +2762,7 @@ The normalization script broke the frontmatter by removing the newline after the
 
 _**Agent (auto-low)**_
 
-The normalization script mangled frontmatter — fixing the script and re-running it across all notes.
+The normalization script mangled frontmatter - fixing the script and re-running it across all notes.
 
 
 _**Agent (auto-low)**_
@@ -3283,14 +3283,14 @@ Reviewed all 210 notes in `content/english/notes/`. Summary:
 
 Applied `scripts/normalize-notes-format.py` to every note:
 
-- **Frontmatter** — fixed `---` delimiters (one blank line after closing `---`, no stray blank inside FM)
-- **Trailing newlines** — all files end with `\n`
-- **Em/en dashes** — replaced with hyphens per jorap-voice (`okf-export.md`, `the-second-brain-workflow.md`)
-- **Card-echo examples** — removed ~50 example bullets that duplicated flashcard front/back Q&A text (cards belong in frontmatter; examples stay prose)
+- **Frontmatter** - fixed `---` delimiters (one blank line after closing `---`, no stray blank inside FM)
+- **Trailing newlines** - all files end with `\n`
+- **Em/en dashes** - replaced with hyphens per jorap-voice (`okf-export.md`, `the-second-brain-workflow.md`)
+- **Card-echo examples** - removed ~50 example bullets that duplicated flashcard front/back Q&A text (cards belong in frontmatter; examples stay prose)
 
 **Opening line patterns** (intentionally left as-is):
 - **167 notes** use `**Title** = claim` (gospel, safety, most atomic notes)
-- **43 notes** use alternate hooks (`**Title** is…`, punchy openers like "Folders sort. Links think.") — mostly PKM cluster; converting would flatten voice
+- **43 notes** use alternate hooks (`**Title** is…`, punchy openers like "Folders sort. Links think.") - mostly PKM cluster; converting would flatten voice
 
 ## Duplicates removed
 
@@ -3303,14 +3303,14 @@ Applied `scripts/normalize-notes-format.py` to every note:
 
 ## Lint fixes
 
-- `standing-vs-fellowship.md` — card front reworded to pass cue-only lint (no multiple-choice `or`)
-- `evergreen-notes.md`, `digital-minimalism.md` — added `**Title** =` definition lines
+- `standing-vs-fellowship.md` - card front reworded to pass cue-only lint (no multiple-choice `or`)
+- `evergreen-notes.md`, `digital-minimalism.md` - added `**Title** =` definition lines
 
 ## Verification
 
-- `npm run lint:cards` — OK  
-- `npm run lint:voice` — OK  
-- `hugo --buildFuture` — 0 broken wikilinks  
+- `npm run lint:cards` - OK  
+- `npm run lint:voice` - OK  
+- `hugo --buildFuture` - 0 broken wikilinks  
 - 0 cross-file duplicate example bullets remaining
 
 The normalization script is at `scripts/normalize-notes-format.py` (`--check` for dry-run) if you want to re-run after future edits.
@@ -3331,7 +3331,7 @@ A Hugo build error involving flashcards was reported.
 
 _**Agent (auto-low)**_
 
-The Hugo error points at broken YAML in `flashcards.md` frontmatter — I'll open that file and fix it.
+The Hugo error points at broken YAML in `flashcards.md` frontmatter - I'll open that file and fix it.
 
 
 _**Agent (auto-low)**_
@@ -3584,7 +3584,7 @@ The normalization pass left invalid YAML in `flashcards.md`: `aliases: []` with 
 
 ```yaml
 aliases: []
-  - /notes/cards/   # invalid — orphaned list item
+  - /notes/cards/   # invalid - orphaned list item
 ```
 
 Restored the correct block form:
@@ -3814,7 +3814,7 @@ No issues for reconcile-before
 
 _**Agent (auto-low)**_
 
-Fixed. The linter was tripping on **"Golden Rule"** as a substring inside `[[The Golden Rule at Work]]` in the relationships table — it read that as an unlinked mention of [[The Golden Rule]].
+Fixed. The linter was tripping on **"Golden Rule"** as a substring inside `[[The Golden Rule at Work]]` in the relationships table - it read that as an unlinked mention of [[The Golden Rule]].
 
 Added an explicit typed link in **Note Relationships**:
 
@@ -3822,7 +3822,7 @@ Added an explicit typed link in **Note Relationships**:
 | extends | [[The Golden Rule]] | I'd want someone to fix the rift before judging my performance |
 ```
 
-Hugo build is clean for that note now — garden link issues should show 0 across the board.
+Hugo build is clean for that note now - garden link issues should show 0 across the board.
 
 ---
 
@@ -4285,7 +4285,7 @@ Reconcile-before-the-review is a workplace note without cards and belongs in the
 
 _**Agent (auto-low)**_
 
-This is a large change across ~200 notes — I'll add tier rules (2/4/6/8), a sync script, and update the lint/docs.
+This is a large change across ~200 notes - I'll add tier rules (2/4/6/8), a sync script, and update the lint/docs.
 
 
 _**Agent (auto-low)**_
@@ -4535,7 +4535,7 @@ The "reconcile-before-the-review" cards have weak back sides. One example reads 
 
 Accountability cards lack a "What's the move?" prompt on their fronts. Their backs are too weak. The inject_cards function strips reviews and leaves blank lines. Generated extra cards are low quality. I will fix the injection logic. I will improve example_to_card to produce stronger imperative backs. I will repair the broken frontmatter in capture.md. Then I will re-run or manually fix the worst offenders.
 
-The reconcile card generator splits on the first dash. It keeps only the scenario text. The action portion is lost. This produces weak imperatives. Better backs should read "Short call first — own it before OKRs." or "Coffee first — slides second."
+The reconcile card generator splits on the first dash. It keeps only the scenario text. The action portion is lost. This produces weak imperatives. Better backs should read "Short call first - own it before OKRs." or "Coffee first - slides second."
 
 The compression logic favors the claim over the action clause when the action exceeds fifty-five characters. That explains why the back side reads "if a colleague still has something against me" instead of an imperative. The "one kid" back on the accountability card should be "Name one owner." I will fix the compression to prefer action imperatives, patch the inject_cards whitespace bug, and rerun the sync.
 
@@ -4558,7 +4558,7 @@ The 54 review notes that previously held six cards will be preserved; their coun
 
 _**Agent (auto-low)**_
 
-Generated cards need better backs, and `inject_cards` mangled some frontmatter — fixing the script and re-syncing.
+Generated cards need better backs, and `inject_cards` mangled some frontmatter - fixing the script and re-syncing.
 
 
 _**Agent (auto-low)**_
@@ -4670,7 +4670,7 @@ The bug is in `target_count`. It checks `review: true` to assign tier 6. Because
 
 _**Agent (auto-low)**_
 
-`target_count` was treating `review: true` as a tier signal — fixing that and re-syncing card counts.
+`target_count` was treating `review: true` as a tier signal - fixing that and re-syncing card counts.
 
 
 _**Agent (auto-low)**_
@@ -5308,9 +5308,9 @@ Every garden note now has flashcards, sized by importance.
 
 ## What changed
 
-- Added `scripts/sync-note-flashcards.py` — assigns tier, generates cue→apply cards from examples, sets `review: true` + `card_sets`
-- Updated `scripts/lint-flashcard-frontmatter.py` — all garden notes must have `review: true`, 2–8 cards (only 2, 4, 6, or 8)
-- Updated `content/english/notes/flashcards.md` — documents the new policy
+- Added `scripts/sync-note-flashcards.py` - assigns tier, generates cue→apply cards from examples, sets `review: true` + `card_sets`
+- Updated `scripts/lint-flashcard-frontmatter.py` - all garden notes must have `review: true`, 2–8 cards (only 2, 4, 6, or 8)
+- Updated `content/english/notes/flashcards.md` - documents the new policy
 - Hand-tuned spine decks (capture, free grace, golden rule, etc.) kept their original 6 cards; tier-8 notes got 2 extra cards written by hand where auto-generation was weak
 
 ## Commands
@@ -5321,4 +5321,4 @@ python3 scripts/sync-note-flashcards.py --rewrite  # regenerate auto decks (skip
 npm run lint:cards
 ```
 
-Auto-generated cards on the 142 newer notes are functional drill cues mined from each note's examples. The gospel/PKM spine decks are still the higher-quality reference set — worth a manual pass on any auto deck that feels flat when you review at `/notes/review/`.
+Auto-generated cards on the 142 newer notes are functional drill cues mined from each note's examples. The gospel/PKM spine decks are still the higher-quality reference set - worth a manual pass on any auto deck that feels flat when you review at `/notes/review/`.

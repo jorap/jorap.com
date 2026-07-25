@@ -154,7 +154,7 @@ The tags in `layouts/notes/single.html` are rendered as `<span>` elements rather
 
 _**Agent (default)**_
 
-Tags are plain `<span>` elements in the template — checking whether something else makes them behave like links.
+Tags are plain `<span>` elements in the template - checking whether something else makes them behave like links.
 
 
 _**Agent (default)**_
@@ -742,7 +742,7 @@ Reconsidering whether "clickable" means tags are incorrectly navigating to the n
 
 _**Agent (default)**_
 
-Tags are plain spans on note pages — I'll make them link to tag pages like the blog does.
+Tags are plain spans on note pages - I'll make them link to tag pages like the blog does.
 
 
 _**Agent (default)**_

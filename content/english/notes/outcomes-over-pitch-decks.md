@@ -58,6 +58,10 @@ cards:
     back: "Ask one mom if her kid actually learned."
   - front: "Phone plan salesman has slick slides. What's the move?"
     back: "Ask my neighbor his real bill."
+  - front: "Charismatic keynote sold me - no outcomes asked yet."
+    back: "Ask who finished - not who applauded."
+  - front: "Slick demo but nobody references real results."
+    back: "Outcomes over pitch - ask two users."
 draft: false
 ---
 

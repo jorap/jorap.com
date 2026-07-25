@@ -1994,8 +1994,8 @@ def q(s):
     return s
 
 sc = data[&#39;collections&#39;][0]
-new_tagline = &#34;Open situations and what-if scenarios. Name one example anyone at the table could say — the group ranks it from 1 to 100.&#34;
-new_hint = &#39;Give one real example a kid or grown-up could both mean (&#34;flashlight&#34;, &#34;nap&#34;, &#34;sandwich&#34;). 1 = weakest fit for the theme, 100 = strongest — rank what you meant, not what everyone else would pick. Don\&#39;t say your number.&#39;
+new_tagline = &#34;Open situations and what-if scenarios. Name one example anyone at the table could say - the group ranks it from 1 to 100.&#34;
+new_hint = &#39;Give one real example a kid or grown-up could both mean (&#34;flashlight&#34;, &#34;nap&#34;, &#34;sandwich&#34;). 1 = weakest fit for the theme, 100 = strongest - rank what you meant, not what everyone else would pick. Don\&#39;t say your number.&#39;
 
 block = (
     f&#34;- id: scale-clues\n&#34;
@@ -2375,8 +2375,8 @@ def q(s):
     return s
 
 sc = data['collections'][0]
-new_tagline = "Open situations and what-if scenarios. Name one example anyone at the table could say — the group ranks it from 1 to 100."
-new_hint = 'Give one real example a kid or grown-up could both mean ("flashlight", "nap", "sandwich"). 1 = weakest fit for the theme, 100 = strongest — rank what you meant, not what everyone else would pick. Don\'t say your number.'
+new_tagline = "Open situations and what-if scenarios. Name one example anyone at the table could say - the group ranks it from 1 to 100."
+new_hint = 'Give one real example a kid or grown-up could both mean ("flashlight", "nap", "sandwich"). 1 = weakest fit for the theme, 100 = strongest - rank what you meant, not what everyone else would pick. Don\'t say your number.'
 
 block = (
     f"- id: scale-clues\n"
@@ -3694,7 +3694,7 @@ Total in 17800 ms
 
 _**Agent (auto-low)**_
 
-**Ranking prompts** (`scale-clues`) are now tuned for mixed-age family play — any player can name a concrete clue without needing an adult frame of reference.
+**Ranking prompts** (`scale-clues`) are now tuned for mixed-age family play - any player can name a concrete clue without needing an adult frame of reference.
 
 ### What changed
 
@@ -4793,7 +4793,7 @@ Items are ranked by their position in the YAML list, with the first item as #1.
 
 _**Agent (auto-low)**_
 
-`scale-clues` is now ordered best-first in `data/randomizer.yaml` — **#1 is the strongest prompt**, #300 is the weakest.
+`scale-clues` is now ordered best-first in `data/randomizer.yaml` - **#1 is the strongest prompt**, #300 is the weakest.
 
 ### Top 5
 1. Things to bring on a deserted island.
@@ -5132,7 +5132,7 @@ _**Agent (auto-low)**_
 
 _**Agent (auto-low)**_
 
-`personal-scales` is now ordered best-first in `data/randomizer.yaml` — **#1 is the strongest icebreaker**.
+`personal-scales` is now ordered best-first in `data/randomizer.yaml` - **#1 is the strongest icebreaker**.
 
 ### Top 5
 1. How dramatic are you?

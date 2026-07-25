@@ -54,7 +54,7 @@ cards:
     back: "Outcome over credentials - what does it produce?"
   - front: "Wolf in sheep's clothing - credentials look perfect. Time tells what?"
     back: "Fruit over time - thorns don't grow grapes."
-  - front: "Can't tell if teaching helps or hurts. PKM parallel?"
+  - front: "Can't tell if this teaching helps or hurts. One filter from the garden?"
     back: "Signal vs noise - what produces good over time?"
   - front: "About to condemn the teacher's soul online. What do I do instead of playing judge?"
     back: "Look at fruit - don't judge their soul."

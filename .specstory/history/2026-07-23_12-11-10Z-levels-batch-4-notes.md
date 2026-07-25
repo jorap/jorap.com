@@ -866,7 +866,7 @@ The replacement logic was the real bug. It appended `suffix_key` while also appe
 
 _**Agent (composer-2.5-fast)**_
 
-Fixing a regex bug that merged `examples:` into the last bullet — restoring files and reapplying with corrected logic.
+Fixing a regex bug that merged `examples:` into the last bullet - restoring files and reapplying with corrected logic.
 
 
 _**Agent (composer-2.5-fast)**_
@@ -1050,10 +1050,10 @@ _**Agent (composer-2.5-fast)**_
 
 For each slug in `data/levels-batch-4.json`, `key_concept` now has:
 
-1. **Bullet 1** — unchanged (punch claim)
-2. **Old bullet 2** — removed (plain grade-6 simplification)
-3. **Level 1–5** — inserted with `Level N:` prefix, grade 6 → expert nuance
-4. **Bullets 3+** — unchanged (now positions 7+)
-5. **`{{< bible >}}` shortcodes** — unchanged
+1. **Bullet 1** - unchanged (punch claim)
+2. **Old bullet 2** - removed (plain grade-6 simplification)
+3. **Level 1–5** - inserted with `Level N:` prefix, grade 6 → expert nuance
+4. **Bullets 3+** - unchanged (now positions 7+)
+5. **`{{< bible >}}` shortcodes** - unchanged
 
 Level progression: analogy at grade 6 → plain language → cause-effect → actionable claim → full nuance (wikilinks OK at Level 5). No contractions. No blank lines between consecutive bullets.

@@ -311,22 +311,22 @@ Clicking a button sets it as active and applies the corresponding filter. Only n
 
 _**Agent (default)**_
 
-When you click **Orphans**, **Hubs**, or **Dead ends** on the note graph page, they act as **exclusive filters** — same idea as **All**, but showing only one category.
+When you click **Orphans**, **Hubs**, or **Dead ends** on the note graph page, they act as **exclusive filters** - same idea as **All**, but showing only one category.
 
 ## Intended behavior
 
-1. **Button state** — The clicked pill gets `is-active` and `aria-pressed="true"`; the others turn off (including **All**).
+1. **Button state** - The clicked pill gets `is-active` and `aria-pressed="true"`; the others turn off (including **All**).
 
-2. **Graph narrows to matching notes only** — Non-matching nodes and their edges are **not drawn**. It’s not a highlight-over-full-graph mode; everything else disappears.
+2. **Graph narrows to matching notes only** - Non-matching nodes and their edges are **not drawn**. It’s not a highlight-over-full-graph mode; everything else disappears.
 
 3. **Matching nodes keep their category color**:
    - **Orphans** → warning/orange (`--color-warning`)
    - **Hubs** → accent color
    - **Dead ends** → muted ink color
 
-4. **View reframes** — The canvas zooms/pans via `fitToView()` so only the filtered nodes are in frame.
+4. **View reframes** - The canvas zooms/pans via `fitToView()` so only the filtered nodes are in frame.
 
-5. **Hover resets** — Hover goes back to the focus node (or nothing), then the graph redraws.
+5. **Hover resets** - Hover goes back to the focus node (or nothing), then the graph redraws.
 
 ## What each filter means
 
@@ -335,19 +335,19 @@ From the graph data logic:
 | Filter | Shows notes where… |
 |--------|-------------------|
 | **Orphans** | No inbound wikilinks (`inDegree === 0`) |
-| **Hubs** | Highly connected — total links at or above the hub threshold (85th percentile by default, minimum 10) |
+| **Hubs** | Highly connected - total links at or above the hub threshold (85th percentile by default, minimum 10) |
 | **Dead ends** | No wikilinks in the note **body** (the “See also” section is excluded) |
 
-The page copy matches this: *“Filter by orphans (no inbound links), hubs (highly connected), or dead ends (no wikilinks in the note body — excluding See also).”*
+The page copy matches this: *“Filter by orphans (no inbound links), hubs (highly connected), or dead ends (no wikilinks in the note body - excluding See also).”*
 
 ## **All** vs a specific filter
 
-- **All** — Every note is visible; orphans/hubs/dead ends are still color-coded among the rest.
-- **Orphans / Hubs / Dead ends** — Only that subset is visible; the rest is hidden.
+- **All** - Every note is visible; orphans/hubs/dead ends are still color-coded among the rest.
+- **Orphans / Hubs / Dead ends** - Only that subset is visible; the rest is hidden.
 
 Clicking a visible node still works as usual (navigate to the note; Ctrl/Cmd+click opens in a new tab).
 
-If something else is happening on your side — e.g. nothing changes, or the graph goes empty — say what you see and we can trace whether it’s a bug or just no notes in that category.
+If something else is happening on your side - e.g. nothing changes, or the graph goes empty - say what you see and we can trace whether it’s a bug or just no notes in that category.
 
 ---
 
@@ -690,7 +690,7 @@ fitToView exits early when no nodes remain visible. The graph does not reframe. 
 
 _**Agent (default)**_
 
-Yes — clicking **Orphans**, **Hubs**, or **Dead ends** is supposed to update the **canvas**: hide everything that doesn’t match, show only that category in its color, and reframe the view.
+Yes - clicking **Orphans**, **Hubs**, or **Dead ends** is supposed to update the **canvas**: hide everything that doesn’t match, show only that category in its color, and reframe the view.
 
 What you’re likely seeing is a bug, not the intended design.
 
@@ -698,27 +698,27 @@ What you’re likely seeing is a bug, not the intended design.
 
 Click a filter → graph redraws showing **only** matching notes → view zooms to fit them.
 
-The stat line above (`1 orphans`, `13 hubs`, `17 dead ends`) is **static** — it does not change when you click. Only the filter pills get the active state.
+The stat line above (`1 orphans`, `13 hubs`, `17 dead ends`) is **static** - it does not change when you click. Only the filter pills get the active state.
 
 ## Why it may look like nothing happens
 
-The global graph always has a default focus node (`Maps of Content`). When a type filter is on, the draw logic still applies that focus highlight — nodes outside the focus neighborhood render at **8% opacity**.
+The global graph always has a default focus node (`Maps of Content`). When a type filter is on, the draw logic still applies that focus highlight - nodes outside the focus neighborhood render at **8% opacity**.
 
 On your site right now:
 
 | Filter | Matching notes | Visible at full opacity |
 |--------|----------------|-------------------------|
-| **Orphans** | 1 (`The Feynman Technique`) | **0** — not a neighbor of the focus node |
+| **Orphans** | 1 (`The Feynman Technique`) | **0** - not a neighbor of the focus node |
 | **Hubs** | 13 | 10 |
 | **Dead ends** | 17 | 5 |
 
-So **Orphans** looks completely broken: the one orphan is drawn but essentially invisible. **Hubs** and **Dead ends** look like they barely changed — most matches are ghosted out.
+So **Orphans** looks completely broken: the one orphan is drawn but essentially invisible. **Hubs** and **Dead ends** look like they barely changed - most matches are ghosted out.
 
 There’s a second issue: `fitToView()` only considers focus neighbors before applying the filter. For orphans that yields **0 visible nodes**, so the zoom never reframes.
 
 ## Bottom line
 
-The filters are wired up, but focus-node dimming and `fitToView` weren’t updated for type-filter mode — so the graph often doesn’t visibly “switch” the way it should.
+The filters are wired up, but focus-node dimming and `fitToView` weren’t updated for type-filter mode - so the graph often doesn’t visibly “switch” the way it should.
 
 The fix is straightforward: when a type filter is active, skip focus highlighting/dimming and fit the view to **all** matching nodes globally.
 
@@ -916,10 +916,10 @@ Fixed. Type filters now work independently of the default focus node (`Maps of C
 
 **Changes in `assets/js/notes-graph.js`:**
 
-1. **`viewNodes()`** — When a type filter is active, considers all matching nodes globally, not just focus neighbors.
-2. **`fitToView()`** — Centers and zooms to the full filtered set instead of anchoring on the focus node.
-3. **`draw()`** — Skips focus-node dimming while a type filter is active; all matching nodes render at full opacity.
-4. **Filter click** — Clears hover/focus highlight when switching to Orphans, Hubs, or Dead ends.
+1. **`viewNodes()`** - When a type filter is active, considers all matching nodes globally, not just focus neighbors.
+2. **`fitToView()`** - Centers and zooms to the full filtered set instead of anchoring on the focus node.
+3. **`draw()`** - Skips focus-node dimming while a type filter is active; all matching nodes render at full opacity.
+4. **Filter click** - Clears hover/focus highlight when switching to Orphans, Hubs, or Dead ends.
 
 **Orphans** should now show the single orphan (`The Feynman Technique`) clearly zoomed in. **Hubs** and **Dead ends** should show all 13 and 17 respectively, not just those near the focus node.
 
@@ -1087,7 +1087,7 @@ The reason for the orphaned Feynman Technique is now clear.
 
 _**Agent (default)**_
 
-It's orphaned because **nothing links to it** — not because it lacks outbound links.
+It's orphaned because **nothing links to it** - not because it lacks outbound links.
 
 In the graph, **orphan** means `inDegree === 0`: no other note has a wikilink pointing at this one.
 
@@ -1098,17 +1098,17 @@ For **The Feynman Technique**:
 | **Inbound** | 0 | No note in your vault contains `[[The Feynman Technique]]`, `[[Feynman Technique]]`, or `[[the-feynman-technique]]` |
 | **Outbound** | 5 | Its See also section links to Creative Blocks, Creative Output, Distraction-Free Writing, Drafting in Public, and Evergreen Notes |
 
-So it's a one-way street: it points at other notes, but nothing points back. The graph treats that as an orphan — a note that exists in the network but nothing references it.
+So it's a one-way street: it points at other notes, but nothing points back. The graph treats that as an orphan - a note that exists in the network but nothing references it.
 
 It's also flagged as a **dead end** for a separate reason: the main body has no wikilinks at all. Only the See also block does, and dead-end detection ignores that section.
 
 To un-orphan it, add a link from a related note in the body, for example:
 
 ```markdown
-Explain ideas simply — see [[The Feynman Technique]].
+Explain ideas simply - see [[The Feynman Technique]].
 ```
 
-Good candidates might be notes on learning, writing, or PKM — **Evergreen Notes** or **Active Knowledge Curation** would fit naturally. Want me to add a link somewhere sensible?
+Good candidates might be notes on learning, writing, or PKM - **Evergreen Notes** or **Active Knowledge Curation** would fit naturally. Want me to add a link somewhere sensible?
 
 ---
 
@@ -1228,14 +1228,14 @@ _**Agent (default)**_
 <think><details><summary>Thought Process</summary>
 Adding a wikilink to The Feynman Technique in evergreen-vs-fleeting-notes.md. That file already mentions "teach from", making it the natural fit.
 
-The exact wording is now settled: "evergreen lives where I link and teach from—[[The Feynman Technique]] is how I check whether I actually understand one."
+The exact wording is now settled: "evergreen lives where I link and teach from-[[The Feynman Technique]] is how I check whether I actually understand one."
 
 Drafting a full paragraph that places the link inside the body text. The minimal version felt awkward.
 </details></think>
 
 _**Agent (default)**_
 
-Adding an inbound wikilink from Evergreen vs Fleeting Notes — it already discusses teaching from notes, so it's a natural fit.
+Adding an inbound wikilink from Evergreen vs Fleeting Notes - it already discusses teaching from notes, so it's a natural fit.
 
 
 _**Agent (default)**_
@@ -1286,7 +1286,7 @@ Added an inbound link from **Evergreen vs Fleeting Notes**, which already covers
 Fleeting lives in [[Daily Notes]] and the inbox; evergreen lives where I link and teach from. The promotion question: is this still true, and would I cite it to a friend? If yes, rewrite in timeless voice, stress-test with [[The Feynman Technique]], and file as evergreen.
 ```
 
-**The Feynman Technique** now has `inDegree: 1` and is no longer an orphan. It's still a dead end (no wikilinks in its body — only in See also), which is separate from orphan status.
+**The Feynman Technique** now has `inDegree: 1` and is no longer an orphan. It's still a dead end (no wikilinks in its body - only in See also), which is separate from orphan status.
 
 ---
 
@@ -1298,7 +1298,7 @@ what are hubs?
 
 _**Agent (default)**_
 
-In your note graph, **hubs** are the most connected notes — the ones many other notes link to or from.
+In your note graph, **hubs** are the most connected notes - the ones many other notes link to or from.
 
 ## How they're defined
 
@@ -1319,14 +1319,14 @@ That threshold is the **85th percentile** of all notes' link counts, with a **mi
 | Term | Meaning |
 |------|---------|
 | **Orphan** | Nothing links *to* it |
-| **Hub** | Highly connected — central in the graph |
+| **Hub** | Highly connected - central in the graph |
 | **Dead end** | No wikilinks in the note body (See also doesn't count) |
 
-Hubs are often MOC-style notes like **Maps of Content** or **PKM** — notes that tie many topics together. The graph uses them as structural anchors; the default focus node is usually one of the best-connected hubs.
+Hubs are often MOC-style notes like **Maps of Content** or **PKM** - notes that tie many topics together. The graph uses them as structural anchors; the default focus node is usually one of the best-connected hubs.
 
 ## Why they matter
 
-The graph page describes them as **overloaded notes that should split** — if one note has too many links, it may be doing too much and could become several more focused notes.
+The graph page describes them as **overloaded notes that should split** - if one note has too many links, it may be doing too much and could become several more focused notes.
 
 On your site right now that's **13 hubs** out of 73 notes. Click **Hubs** on the graph page to see only those nodes.
 
@@ -1750,7 +1750,7 @@ dead ends: 0
 
 _**Agent (default)**_
 
-Done — **0 dead ends** now.
+Done - **0 dead ends** now.
 
 Added one body wikilink to each of the 17 notes that only had links in See also. Examples:
 

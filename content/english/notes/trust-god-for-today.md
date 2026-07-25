@@ -47,6 +47,20 @@ author: "JoRap"
 tags: ["Gospel", "Eternal Principles", "Prayer", "Jesus Christ"]
 aliases: ["daily bread", "give us this day", "Matthew 6:11"]
 featured: false
-review: false
+review: true
+card_sets: ["Eternal Principles", "Gospel", "Prayer"]
+cards:
+  - front: "2 a.m. spin about next year's tuition - sleep gone."
+    back: "Pray today's bread - not every future bill."
+  - front: "Pantry thin on lean month - heroic grocery run in my head."
+    back: "Give us today - trust one day at a time."
+  - front: "Tomorrow's worry pile eating today's shift."
+    back: "Enough for today - Father holds tomorrow."
+  - front: "Fantasy todo list borrowed from tomorrow's energy."
+    back: "Cap today - honest bread portion."
+  - front: "Kingdom first forgotten - anxiety stockpiling."
+    back: "Kingdom first - bread follows daily."
+  - front: "Worrying harder like it earns provision - wrong move?"
+    back: "Ask for today's portion - trust, don't hoard panic."
 draft: false
 ---

@@ -53,11 +53,13 @@ draft: false
 - [[Listen Before Fixing]] - mirror the problem before you pitch the solution
 - [[Name the Feeling]] - label what's carried before the performance talk
 - [[Set Calm Boundaries]] - steady limit on behavior, not character
+- [[Give Useful Feedback]] - one actionable truth the hearer can use tomorrow
 
 ## Judgment and priorities
 
 - [[Outcomes Over Pitch Decks]] - judge ideas by what they produce, not charisma or credentials
 - [[Priorities Before the Inbox]] - put the real priority first before the inbox sets the agenda
+- [[Fail on Paper First]] - imagine the launch failed; patch while rollback is cheap
 
 ## Leadership and craft
 
@@ -65,6 +67,9 @@ draft: false
 - [[Servant Leadership]] - greatness is making the team win, not grabbing the credit
 - [[Follow Christ, Then Lead]] - when leadership pressure and Christ's command collide, follow Christ first
 - [[Own Your Part]] - move your slice before permission arrives from upstairs
+- [[Know Your Lane]] - clarity on your slice beats hero coverage of every gap
+- [[Share the Heavy Lift]] - split the load early before one back breaks
+- [[Sharpen Each Other's Work]] - peer review that sharpens the draft, not the ego
 - [[People-Centered Design]] - real human needs first or the change won't stick
 - [[Shadow the Work]] - watch one person do the real job before you redraw the process
 - [[Share What You Learn]] - pass on what you know; don't hoard knowledge like private bookmarks
@@ -84,6 +89,7 @@ draft: false
 - [[Pressure Reveals Weakness]] - build habits and systems that work when heat rises
 - [[Finish Strong]] - close the commitment, not only the exciting start
 - [[Own the Error]] - name the miss and fix the process
+- [[Surface Bad News Early]] - name the slip while rollback is still cheap
 
 ## Source map
 
@@ -106,3 +112,9 @@ draft: false
 | [[Integrity Without an Audience]] | [[Secret Devotion]] |
 | [[Success is Stewardship]] | [[Faithful Steward]] |
 | [[Steward After the Win]] | [[Faithful Steward]] |
+| [[Give Useful Feedback]] | [[Words That Build Up]] |
+| [[Know Your Lane]] | [[Many Parts One Body]] |
+| [[Share the Heavy Lift]] | [[Bear Each Other's Burdens]] |
+| [[Sharpen Each Other's Work]] | [[Iron Sharpens Iron]] |
+| [[Surface Bad News Early]] | [[Confess to One Another]] |
+| [[Fail on Paper First]] | [[Count the Cost]] |

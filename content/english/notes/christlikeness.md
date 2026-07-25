@@ -86,7 +86,7 @@ cards:
     back: "Reshaping slowly - standing settled at faith."
   - front: "Kind at church, sharp with the cashier an hour later. What kind of change is Christlikeness?"
     back: "Ordinary Tuesdays - not one emotional Sunday."
-  - front: "Trying to look holy enough to feel saved. Which came first?"
+  - front: "Trying to look holy enough to feel saved - performance before standing."
     back: "Justified at faith - likeness follows."
   - front: "Virtue streak is my proof God accepts me. Mixing up what saves vs what grows?"
     back: "Faith saves you first - likeness grows on ordinary Tuesdays after."

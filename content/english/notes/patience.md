@@ -59,13 +59,17 @@ review: true
 card_sets: ["Eternal Principles", "Gospel", "Discipleship"]
 cards:
   - front: "Snapped at my kid after a dry prayer week. What grows the slow fuse?"
-    back: "Walk by Spirit - not willpower alone."
+    back: "Abide tonight - Scripture before news."
   - front: "Cut off in traffic - horn for horn incoming. One beat?"
-    back: "Slow the moment - Spirit slow fuse."
+    back: "One breath - slow the moment."
   - front: "Trying to checklist patience by Friday. What grows it?"
-    back: "Abide - fruit grows, not forced."
+    back: "Daily abide - fruit grows slow."
   - front: "Correction turned sharp - volume up, slow fuse gone. One beat?"
-    back: "Slow the moment - tone from Spirit."
+    back: "Drop volume - one breath first."
+  - front: "Delay stacking - resentment building in my chest. First move?"
+    back: "Name the spike - breathe before I speak."
+  - front: "Forced politeness all day, snapped the minute I got home. What's missing?"
+    back: "Spirit connection - not performance fuse."
 draft: false
 ---
 

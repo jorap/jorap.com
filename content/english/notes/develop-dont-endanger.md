@@ -70,12 +70,16 @@ card_sets: ["Ethics", "Focus"]
 cards:
   - front: "Planning fire evacuation drill at the clinic. What's the safe version?"
     back: "Walk-through - don't block the exit."
-  - front: "Conditioning set that could build endurance or trash knees. Pick how?"
+  - front: "Conditioning set might trash knees instead of building endurance. One design rule?"
     back: "Develop the skill - don't endanger."
   - front: "Tempted to throw a non-swimmer in deep water to \"build toughness.\" Better move?"
     back: "Shallow end - challenge without danger."
   - front: "Scout hike in summer heat and I'm tempted to go off-trail for grit. What's the develop move?"
     back: "Marked trail, water stops - build endurance safe."
+  - front: "Fire drill blocking the exit - walk-through instead?"
+    back: "Develop skill - don't endanger the room."
+  - front: "Off-trail grit hike in summer heat - trail marked?"
+    back: "Marked trail, water stops - build safe."
 draft: false
 ---
 

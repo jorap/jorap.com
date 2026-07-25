@@ -220,7 +220,7 @@ Status: **completed**
 _**Agent (auto-high)**_
 
 <think><details><summary>Thought Process</summary>
- I'm seeing two main problems to fix. First, Cloudflare's Web Analytics script is being blocked by the CSP policy—I need to allow `static.cloudflareinsights.com` in both `script-src` and `script-src-elem` directives, plus add it to `connect-src` so the beacon can report back. Second, there's a ServiceWorker issue that's also failing.
+ I'm seeing two main problems to fix. First, Cloudflare's Web Analytics script is being blocked by the CSP policy-I need to allow `static.cloudflareinsights.com` in both `script-src` and `script-src-elem` directives, plus add it to `connect-src` so the beacon can report back. Second, there's a ServiceWorker issue that's also failing.
 
 The service worker registration is trying to load a file that doesn't actually exist on the server, so I need to track down where that registration code is and either create the missing file or remove the registration if it's not needed.</details></think>
 
@@ -625,7 +625,7 @@ style.html
 _**Agent (auto-high)**_
 
 <think><details><summary>Thought Process</summary>
- I'm realizing the `manifest.html` partial doesn't actually exist in the theme, so Hugo's `partialCached` call would either fail silently or return nothing. I need to trace where the service-worker registration is actually coming from—it might be external code the user added, or it could be in the script partial itself.</details></think>
+ I'm realizing the `manifest.html` partial doesn't actually exist in the theme, so Hugo's `partialCached` call would either fail silently or return nothing. I need to trace where the service-worker registration is actually coming from-it might be external code the user added, or it could be in the script partial itself.</details></think>
 
 _**Agent (auto-high)**_
 
@@ -737,4 +737,4 @@ _**Agent (auto-high)**_
 _**Agent (auto-high)**_
 
 <think><details><summary>Thought Process</summary>
- There's no service worker registration in the main.js file, so it must be loading from somewhere else. The CSP error is pointing to `https://www.jorap.com/service-worker.js`, which suggests there's a script outside the codebase triggering this — possibly from Cloudflare or another external source that I need to track down.</details></think>
+ There's no service worker registration in the main.js file, so it must be loading from somewhere else. The CSP error is pointing to `https://www.jorap.com/service-worker.js`, which suggests there's a script outside the codebase triggering this - possibly from Cloudflare or another external source that I need to track down.</details></think>

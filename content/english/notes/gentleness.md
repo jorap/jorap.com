@@ -60,14 +60,18 @@ featured: false
 review: true
 card_sets: ["Eternal Principles", "Gospel", "Discipleship"]
 cards:
-  - front: "Correction with my kid - volume up, love thinned. Which fruit am I missing?"
+  - front: "Correction with my kid - volume up, love thinned."
     back: "Drop volume - strength under control."
   - front: "Group project and I am grasping for status credit. Kingdom move?"
     back: "Serve - do not strut for the spotlight."
-  - front: "Foot-washing feels below my role. What did Jesus model?"
+  - front: "Foot-washing feels below my role - status over serve."
     back: "Serve first - greatness is not grasping."
   - front: "Sacrifice story ready to post for applause. One check before send?"
     back: "Humble - let the Father get credit."
+  - front: "Kid melted down publicly - embarrassment tempting sharp correction."
+    back: "Lower voice - strength under control."
+  - front: "Team praise landing on me for their work - thumb on self-congratulation."
+    back: "Redirect praise - wash feet, don't strut."
 draft: false
 ---
 

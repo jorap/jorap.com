@@ -1400,7 +1400,7 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The file already exists and contains many connections.
 
-Three lanes in the note—Faith headline, Workplace, and PKM—suggest new atomic notes. Some overlap with existing concepts.
+Three lanes in the note-Faith headline, Workplace, and PKM-suggest new atomic notes. Some overlap with existing concepts.
 
 A platform risk concept is missing. The idea of borrowed reach on social platforms could become a new PKM note. Title candidates are being trimmed to four words.
 
@@ -1552,7 +1552,7 @@ The new notes will be dated 2026-07-05 to match renewed-mind. Eternal-principles
 
 _**Agent (auto-low)**_
 
-Creating two atomic notes from the stewardship spine—platform reach and post-win coasting—and wiring reciprocal links across the cluster.
+Creating two atomic notes from the stewardship spine-platform reach and post-win coasting-and wiring reciprocal links across the cluster.
 
 
 _**Agent (auto-low)**_
@@ -1824,7 +1824,7 @@ Created two atomic notes from [[Success is Stewardship]] and wired them into the
 ### New notes
 
 **[[Platform Reach Is Borrowed]]** (`platform-reach-is-borrowed.md`)  
-PKM/publishing lane from the stewardship card about rented land. Social reach is a tenant relationship — steward the megaphone, put the canonical copy on a domain you control.
+PKM/publishing lane from the stewardship card about rented land. Social reach is a tenant relationship - steward the megaphone, put the canonical copy on a domain you control.
 
 **[[Steward After the Win]]** (`steward-after-the-win.md`)  
 Faith/workplace lane from the coast-after-promotion and post-spike examples. An early win is entrusted, not permission to stop tending through the quiet middle.
@@ -1833,12 +1833,12 @@ Both have six review cards, full frontmatter, and reciprocal links to the stewar
 
 ### Wiring updates
 
-- **[[Success is Stewardship]]** — extends both new notes  
+- **[[Success is Stewardship]]** - extends both new notes  
 - **Backlinks added** to notes that extended it but hadn't linked back: Accountability, Compounding, Creative Output, Eternal Rewards, Humility and Service, Integrity Without an Audience, Judgment Seat, Servant Leadership, The Collector's Fallacy, Treasure in Heaven  
-- **[[Eternal Principles]]** — two new PKM cross-link rows  
-- **[[Workplace Principles]]** — Steward After the Win listed under Leadership; source map updated  
+- **[[Eternal Principles]]** - two new PKM cross-link rows  
+- **[[Workplace Principles]]** - Steward After the Win listed under Leadership; source map updated  
 - **Cluster links** on Faithful Steward, Finish Strong, Sustainable Performance, Digital Garden
 
-The spine note already existed — these split out its two biggest implied moves: **rented reach** (PKM) and **coast after the win** (faith/work). Lint is clean on the new notes; there's a pre-existing card lint issue in `own-your-part.md` unrelated to this batch.
+The spine note already existed - these split out its two biggest implied moves: **rented reach** (PKM) and **coast after the win** (faith/work). Lint is clean on the new notes; there's a pre-existing card lint issue in `own-your-part.md` unrelated to this batch.
 
 Want backlinks on more implicit siblings (Discipleship, Wood Hay Stubble, Own the Error), or `related_notes` on the publishing blog drafts?

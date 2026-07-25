@@ -96,7 +96,7 @@ Result:
           },
           {
             "lineNumber": 92,
-            "text": "      \"- ## Examples (up to five plain bullets — best scenes first, no genre labels)\","
+            "text": "      \"- ## Examples (up to five plain bullets - best scenes first, no genre labels)\","
           },
           {
             "lineNumber": 93,
@@ -112,7 +112,7 @@ Result:
           },
           {
             "lineNumber": 96,
-            "text": "      \"No other ## headings. Principles and actionable solutions belong in the opening prose and in the Examples — not in extra sections.\","
+            "text": "      \"No other ## headings. Principles and actionable solutions belong in the opening prose and in the Examples - not in extra sections.\","
           },
           {
             "lineNumber": 97,
@@ -418,7 +418,7 @@ Result:
           },
           {
             "lineNumber": 193,
-            "text": "    copiedLabel: \"Copied — paste in chat\","
+            "text": "    copiedLabel: \"Copied - paste in chat\","
           },
           {
             "lineNumber": 194,
@@ -518,7 +518,7 @@ Result:
           },
           {
             "lineNumber": 4,
-            "text": "description: \"Open Knowledge Format v0.1 export of the notes garden — plain markdown for agents and tools outside Hugo.\""
+            "text": "description: \"Open Knowledge Format v0.1 export of the notes garden - plain markdown for agents and tools outside Hugo.\""
           },
           {
             "lineNumber": 5,
@@ -569,7 +569,7 @@ Result:
           },
           {
             "lineNumber": 17,
-            "text": "**OKF export** = the same garden, flattened for agents — markdown paths, required &#96;type&#96;, no Hugo build."
+            "text": "**OKF export** = the same garden, flattened for agents - markdown paths, required &#96;type&#96;, no Hugo build."
           },
           {
             "lineNumber": 18
@@ -590,15 +590,15 @@ Result:
           },
           {
             "lineNumber": 23,
-            "text": "- **[OKF graph](/exports/okf/viz.html)** — Google's reference OKF visualizer (Cytoscape.js force layout, search, backlinks)"
+            "text": "- **[OKF graph](/exports/okf/viz.html)** - Google's reference OKF visualizer (Cytoscape.js force layout, search, backlinks)"
           },
           {
             "lineNumber": 24,
-            "text": "- [Bundle index](/exports/okf/index.md) — all concepts and hubs (&#96;okf_version: \"0.1\"&#96;)"
+            "text": "- [Bundle index](/exports/okf/index.md) - all concepts and hubs (&#96;okf_version: \"0.1\"&#96;)"
           },
           {
             "lineNumber": 25,
-            "text": "- [Update log](/exports/okf/log.md) — recent garden changes from git"
+            "text": "- [Update log](/exports/okf/log.md) - recent garden changes from git"
           },
           {
             "lineNumber": 26,
@@ -613,7 +613,7 @@ Result:
           },
           {
             "lineNumber": 29,
-            "text": "Raw &#96;.md&#96; links show plain markdown in the browser — fine for agents. Use **OKF graph** for the visual network."
+            "text": "Raw &#96;.md&#96; links show plain markdown in the browser - fine for agents. Use **OKF graph** for the visual network."
           },
           {
             "lineNumber": 30
@@ -925,7 +925,7 @@ Result:
           },
           {
             "lineNumber": 127,
-            "text": "      \"   - Keep it one idea. If you need a second heading inside the file, stop — that's two notes.\","
+            "text": "      \"   - Keep it one idea. If you need a second heading inside the file, stop - that's two notes.\","
           },
           {
             "lineNumber": 128,
@@ -933,7 +933,7 @@ Result:
           },
           {
             "lineNumber": 129,
-            "text": "      \"   ## Examples — up to five plain bullets (no genre labels), each showing principle → immediate move:\","
+            "text": "      \"   ## Examples - up to five plain bullets (no genre labels), each showing principle → immediate move:\","
           },
           {
             "lineNumber": 130,
@@ -953,7 +953,7 @@ Result:
           },
           {
             "lineNumber": 134,
-            "text": "      \"   ## Note Relationships — table:\","
+            "text": "      \"   ## Note Relationships - table:\","
           },
           {
             "lineNumber": 135,
@@ -977,7 +977,7 @@ Result:
           },
           {
             "lineNumber": 140,
-            "text": "      \"   ## See also — optional, 2–4 related notes with short tag hints\","
+            "text": "      \"   ## See also - optional, 2–4 related notes with short tag hints\","
           },
           {
             "lineNumber": 141,
@@ -3447,7 +3447,7 @@ Result:
           },
           {
             "lineNumber": 26,
-            "text": "LEAD_RE = re.compile(r\"^\\*\\*([^*]+)\\*\\*\\s*(?:=\\s*|—\\s*|-\\s*)(.+)$\")"
+            "text": "LEAD_RE = re.compile(r\"^\\*\\*([^*]+)\\*\\*\\s*(?:=\\s*|-\\s*|-\\s*)(.+)$\")"
           },
           {
             "lineNumber": 27,
@@ -3668,7 +3668,7 @@ Result:
           },
           {
             "lineNumber": 13,
-            "text": "# Lead paragraph (before ## See also). First person, no **Title** — dictionary openers."
+            "text": "# Lead paragraph (before ## See also). First person, no **Title** - dictionary openers."
           },
           {
             "lineNumber": 14,
@@ -4440,7 +4440,7 @@ Result:
           },
           {
             "lineNumber": 221,
-            "text": "  // ponytail: self-check — fails if prompt builder regresses"
+            "text": "  // ponytail: self-check - fails if prompt builder regresses"
           },
           {
             "lineNumber": 222,
@@ -6841,7 +6841,7 @@ ChatGPT is fully functional. I will outline the workflow for copying code, pasti
 
 _**Agent (default)**_
 
-You already had most of the ChatGPT plumbing — Create Note prompts, Random Note / Random Duo connection prompts, and the OKF export bundle. What was missing was an easy way to **copy individual note source files** and clear documentation tying it together. That's now wired up.
+You already had most of the ChatGPT plumbing - Create Note prompts, Random Note / Random Duo connection prompts, and the OKF export bundle. What was missing was an easy way to **copy individual note source files** and clear documentation tying it together. That's now wired up.
 
 ## What you can do now
 
@@ -6853,10 +6853,10 @@ On any note page, scroll to **Random Note** → shuffle → **Copy prompt** (inc
 
 ### 3. Copy markdown for ChatGPT context
 Every note page now has:
-- **Copy MD** — full Hugo source (frontmatter + `[[wikilinks]]`), ready to paste into ChatGPT or save back to the repo
-- **Agent copy →** — opens the OKF version with resolved markdown links (better when the model doesn't know your wikilink titles)
+- **Copy MD** - full Hugo source (frontmatter + `[[wikilinks]]`), ready to paste into ChatGPT or save back to the repo
+- **Agent copy →** - opens the OKF version with resolved markdown links (better when the model doesn't know your wikilink titles)
 
-For the whole garden: **[OKF bundle index](/exports/okf/index.md)** lists every concept and hub — open any `.md`, select all, paste.
+For the whole garden: **[OKF bundle index](/exports/okf/index.md)** lists every concept and hub - open any `.md`, select all, paste.
 
 ## Changes made
 
@@ -7604,7 +7604,7 @@ Additional copy-paste candidates include:
 
 _**Agent (default)**_
 
-Here’s a map of everything on the site that’s worth copying into ChatGPT — built-in buttons first, then manual copy that’s still high value.
+Here’s a map of everything on the site that’s worth copying into ChatGPT - built-in buttons first, then manual copy that’s still high value.
 
 ## Built-in copy buttons (best ROI)
 
@@ -7615,7 +7615,7 @@ Here’s a map of everything on the site that’s worth copying into ChatGPT —
 | **Copy MD** | Every note page | Full Hugo source (frontmatter + `[[wikilinks]]` + flashcard `cards:` if present) | Editing, fixing, or giving ChatGPT exact garden format |
 | **Agent copy →** | Next to Copy MD | OKF file with resolved markdown links | Context when the model doesn’t know your wikilink titles |
 
-**Open in ChatGPT** on those prompt panels copies to clipboard automatically when the prompt is too long for URL prefill (~1800 chars) — paste with Ctrl+V.
+**Open in ChatGPT** on those prompt panels copies to clipboard automatically when the prompt is too long for URL prefill (~1800 chars) - paste with Ctrl+V.
 
 ---
 
@@ -7625,11 +7625,11 @@ Open from [/notes/okf-export/](/notes/okf-export/) or `/exports/okf/`:
 
 | File | Paste into ChatGPT when… |
 |------|--------------------------|
-| **[index.md](/exports/okf/index.md)** | You want the full catalog — every note title + one-line description. Best “here’s my whole garden” context. |
+| **[index.md](/exports/okf/index.md)** | You want the full catalog - every note title + one-line description. Best “here’s my whole garden” context. |
 | **Any concept `.md`** | You want one note in agent-friendly link format |
-| **Hub `index.md`** (e.g. [Maps of Content](/exports/okf/hubs/maps-of-content/index.md)) | You’re expanding a topic cluster — paste the hub + ask what’s missing |
+| **Hub `index.md`** (e.g. [Maps of Content](/exports/okf/hubs/maps-of-content/index.md)) | You’re expanding a topic cluster - paste the hub + ask what’s missing |
 | **[log.md](/exports/okf/log.md)** | You want “what changed recently” as context before a review session |
-| **[graph.json](/exports/okf/graph.json)** | You’re asking graph questions — orphans, dense clusters, bridge notes (less readable than index, but structural) |
+| **[graph.json](/exports/okf/graph.json)** | You’re asking graph questions - orphans, dense clusters, bridge notes (less readable than index, but structural) |
 
 ---
 
@@ -7637,16 +7637,16 @@ Open from [/notes/okf-export/](/notes/okf-export/) or `/exports/okf/`:
 
 These don’t have copy buttons yet, but they’re designed to be pasted:
 
-**Link issues** — [/notes/issues/](/notes/issues/) or the **Link issues** panel on individual notes  
+**Link issues** - [/notes/issues/](/notes/issues/) or the **Link issues** panel on individual notes  
 → Paste into ChatGPT: *“Fix these wikilinks / add missing relationship rows / suggest `[[targets]]` for unlinked mentions.”*
 
-**See also** — bottom of each note  
+**See also** - bottom of each note  
 → Paste with Copy MD: *“Which of these should become real wikilinks in the Note Relationships table?”*
 
-**Backlinks + snippets** — bottom of each note  
+**Backlinks + snippets** - bottom of each note  
 → Paste when asking: *“How should this note’s relationships table reflect who links here?”*
 
-**Blog ↔ note pairing** — blog posts with the **Random Note** section at the bottom  
+**Blog ↔ note pairing** - blog posts with the **Random Note** section at the bottom  
 → Same connection prompt as notes, but pairs a **blog post + garden note** (good for turning posts into atomic notes or finding cross-links)
 
 ---
@@ -7678,14 +7678,14 @@ Copy the Issues summary + Copy MD on 3–5 affected notes
 
 **3. Flashcard pass**  
 Copy MD on a `review: true` spine note + Flashcards rules  
-→ *“Write six new scenario cards — cue on front, one-breath action on back.”*
+→ *“Write six new scenario cards - cue on front, one-breath action on back.”*
 
 **4. Blog from note**  
 Copy MD on the source note  
 → *“Distill this into a 800-word blog post. Keep JoRap voice. No extra ## sections.”*
 
 **5. Post-Create siblings**  
-After Create Note, the prompt already asks ChatGPT to list sibling atomic notes — run those as separate Create Note sessions.
+After Create Note, the prompt already asks ChatGPT to list sibling atomic notes - run those as separate Create Note sessions.
 
 **6. Orphan hunt**  
 Filter [/notes/graph/](/notes/graph/) for orphans → Copy MD on 2–3 orphan notes + paste OKF index  
@@ -7695,10 +7695,10 @@ Filter [/notes/graph/](/notes/graph/) for orphans → Copy MD on 2–3 orphan no
 
 ## What’s *not* on the site (yet)
 
-- **Anki deck** — CLI only: `npm run export:anki` (not a web copy target)
-- **Whole garden as one file** — use OKF index + open individual `.md` files; no single zip/concat download
-- **Graph screenshot/data export** from the live graph UI — use OKF `graph.json` instead
-- **CRAFT / human-writing blog prompts** — exist as draft blog posts (`craft-prompt-framework`, `make-ai-articles-more-human`) but aren’t published yet
+- **Anki deck** - CLI only: `npm run export:anki` (not a web copy target)
+- **Whole garden as one file** - use OKF index + open individual `.md` files; no single zip/concat download
+- **Graph screenshot/data export** from the live graph UI - use OKF `graph.json` instead
+- **CRAFT / human-writing blog prompts** - exist as draft blog posts (`craft-prompt-framework`, `make-ai-articles-more-human`) but aren’t published yet
 
 ---
 
@@ -7710,7 +7710,7 @@ If you’re picking three habits:
 2. **Random Duo** → mine connection prompts weekly
 3. **Copy MD + OKF index** → paste as standing context in a ChatGPT project
 
-If you want, I can add one more button — e.g. **Copy issues** on the Issues page, or **Copy hub cluster** on MOC pages that grabs the hub + all linked notes in one shot.
+If you want, I can add one more button - e.g. **Copy issues** on the Issues page, or **Copy hub cluster** on MOC pages that grabs the hub + all linked notes in one shot.
 
 ---
 
@@ -7727,31 +7727,31 @@ Copy the Issues summary + Copy MD on 3–5 affected notes
 
 3. Flashcard pass
 Copy MD on a review: true spine note + Flashcards rules
-→ “Write six new scenario cards — cue on front, one-breath action on back.”
+→ “Write six new scenario cards - cue on front, one-breath action on back.”
 
 4. Blog from note
 Copy MD on the source note
 → “Distill this into a 800-word blog post. Keep JoRap voice. No extra ## sections.”
 
 5. Post-Create siblings
-After Create Note, the prompt already asks ChatGPT to list sibling atomic notes — run those as separate Create Note sessions.
+After Create Note, the prompt already asks ChatGPT to list sibling atomic notes - run those as separate Create Note sessions.
 
 6. Orphan hunt
 Filter /notes/graph/ for orphans → Copy MD on 2–3 orphan notes + paste OKF index
 → “What wikilinks and relationship rows would connect these to the rest of the garden?”
 
 What’s not on the site (yet)
-Anki deck — CLI only: npm run export:anki (not a web copy target)
-Whole garden as one file — use OKF index + open individual .md files; no single zip/concat download
-Graph screenshot/data export from the live graph UI — use OKF graph.json instead
-CRAFT / human-writing blog prompts — exist as draft blog posts (craft-prompt-framework, make-ai-articles-more-human) but aren’t published yet
+Anki deck - CLI only: npm run export:anki (not a web copy target)
+Whole garden as one file - use OKF index + open individual .md files; no single zip/concat download
+Graph screenshot/data export from the live graph UI - use OKF graph.json instead
+CRAFT / human-writing blog prompts - exist as draft blog posts (craft-prompt-framework, make-ai-articles-more-human) but aren’t published yet
 Practical priority order
 If you’re picking three habits:
 
 Create Note → paste result back as new .md
 Random Duo → mine connection prompts weekly
 Copy MD + OKF index → paste as standing context in a ChatGPT project
-If you want, I can add one more button — e.g. Copy issues on the Issues page, or Copy hub cluster on MOC pages that grabs the hub + all linked notes in one shot.
+If you want, I can add one more button - e.g. Copy issues on the Issues page, or Copy hub cluster on MOC pages that grabs the hub + all linked notes in one shot.
 
 ---
 
@@ -8203,9 +8203,9 @@ Implemented the workflow combos as real buttons and documented them on the site.
 
 | Button | Where | What it copies |
 |--------|-------|----------------|
-| **Copy hub cluster** | Hub/MOC pages (`note_kind: index`) — e.g. [Maps of Content](/notes/maps-of-content/), [Eternal Principles](/notes/eternal-principles/) | Hub source + every direct wikilink target (up to 60 notes) |
+| **Copy hub cluster** | Hub/MOC pages (`note_kind: index`) - e.g. [Maps of Content](/notes/maps-of-content/), [Eternal Principles](/notes/eternal-principles/) | Hub source + every direct wikilink target (up to 60 notes) |
 | **Copy issues** | [Issues](/notes/issues/) summary header | Full structured report: broken links, pipe wikilinks, unlinked mentions, structure gaps |
-| **Copy catalog** | [OKF Export](/notes/okf-export/) page | Entire OKF index — every concept title + description |
+| **Copy catalog** | [OKF Export](/notes/okf-export/) page | Entire OKF index - every concept title + description |
 
 **Copy MD** still works on every note page. All buttons share one clipboard handler.
 
@@ -8222,7 +8222,7 @@ Documented on [/notes/okf-export/](/notes/okf-export/) with the ChatGPT ask for 
 
 **Standing context tip:** paste **Copy catalog** once into a ChatGPT project; add **Copy MD** or **Copy hub cluster** per session.
 
-Build passes. After deploy, try **Copy hub cluster** on [Maps of Content](/notes/maps-of-content/) — it should paste the hub plus ~50 linked note files in one shot.
+Build passes. After deploy, try **Copy hub cluster** on [Maps of Content](/notes/maps-of-content/) - it should paste the hub plus ~50 linked note files in one shot.
 
 ---
 
@@ -8508,8 +8508,8 @@ tags…
 ```
 
 Changes:
-- **Layout** — title and copy buttons share one row (`justify-between`); title left, buttons right
-- **Agent copy** — now a button that copies OKF markdown to clipboard (same as Copy MD), not a link
+- **Layout** - title and copy buttons share one row (`justify-between`); title left, buttons right
+- **Agent copy** - now a button that copies OKF markdown to clipboard (same as Copy MD), not a link
 - On narrow screens the buttons wrap under the title
 
 Hub pages still get **Copy hub cluster** in the same button group; OKF Export keeps **Copy catalog**.
@@ -8629,7 +8629,7 @@ The random note panel displays a linked h2 title. The injected note content also
 
 _**Agent (default)**_
 
-Featured random slot is pulling the full note page including the title — I'll find where that HTML is injected and strip the duplicate header.
+Featured random slot is pulling the full note page including the title - I'll find where that HTML is injected and strip the duplicate header.
 
 
 _**Agent (default)**_
@@ -8794,7 +8794,7 @@ Featured random uses cloneArticleBody, pulling meta and tags that create the red
 
 _**Agent (default)**_
 
-Adding `.notes-article-header` to the random-note skip list — the title moved there, so the old `.article-title` skip no longer applied.
+Adding `.notes-article-header` to the random-note skip list - the title moved there, so the old `.article-title` skip no longer applied.
 
 
 _**Agent (default)**_
@@ -8818,7 +8818,7 @@ Fixed. When we moved the title into `.notes-article-header`, the random-note fet
 
 Updated `SKIP_ARTICLE` in `notes-random-core.js` to skip `.notes-article-header` (and `.notes-copy-md`). The featured random slot now shows:
 
-- **h2** — linked title (panel header)
+- **h2** - linked title (panel header)
 - status, dates, tags
 - note body
 
@@ -8836,22 +8836,22 @@ clean up this interface:
             </label>
 
             <div class="notes-filters" role="group" aria-label="Filter notes by status">
-              <button type="button" class="notes-filter is-active" data-notes-filter="all" aria-pressed="true" aria-label="All — 185 notes">
+              <button type="button" class="notes-filter is-active" data-notes-filter="all" aria-pressed="true" aria-label="All - 185 notes">
                 All<span class="notes-filter__count"> · 185</span>
               </button>
-              <button type="button" class="notes-filter" data-notes-filter="seedling" aria-pressed="false" aria-label="Seedling — 42 notes">
+              <button type="button" class="notes-filter" data-notes-filter="seedling" aria-pressed="false" aria-label="Seedling - 42 notes">
                 Seedling<span class="notes-filter__count"> · 42</span>
               </button>
-              <button type="button" class="notes-filter" data-notes-filter="evergreen" aria-pressed="false" aria-label="Evergreen — 143 notes">
+              <button type="button" class="notes-filter" data-notes-filter="evergreen" aria-pressed="false" aria-label="Evergreen - 143 notes">
                 Evergreen<span class="notes-filter__count"> · 143</span>
               </button>
-              <button type="button" class="notes-filter" data-notes-filter="inbox" aria-pressed="false" aria-label="Inbox — 0 notes">
+              <button type="button" class="notes-filter" data-notes-filter="inbox" aria-pressed="false" aria-label="Inbox - 0 notes">
                 Inbox<span class="notes-filter__count"> · 0</span>
               </button>
-              <button type="button" class="notes-filter" data-notes-filter="archived" aria-pressed="false" aria-label="Archived — 0 notes">
+              <button type="button" class="notes-filter" data-notes-filter="archived" aria-pressed="false" aria-label="Archived - 0 notes">
                 Archived<span class="notes-filter__count"> · 0</span>
               </button>
-              <button type="button" class="notes-filter" data-notes-filter="stale" aria-pressed="false" aria-label="Stale — 0 notes">
+              <button type="button" class="notes-filter" data-notes-filter="stale" aria-pressed="false" aria-label="Stale - 0 notes">
                 Stale<span class="notes-filter__count"> · 0</span>
               </button>
             </div>
@@ -8874,13 +8874,13 @@ clean up this interface:
                 </label></div>
 
             <div class="notes-filters" role="group" aria-label="Additional note filters">
-              <button type="button" class="notes-filter" data-notes-toggle="featured" aria-pressed="false" aria-label="Featured — 3 notes">
+              <button type="button" class="notes-filter" data-notes-toggle="featured" aria-pressed="false" aria-label="Featured - 3 notes">
                 Featured<span class="notes-filter__count"> · 3</span>
               </button>
-              <button type="button" class="notes-filter" data-notes-toggle="cards" aria-pressed="false" aria-label="Has flashcards — 43 notes">
+              <button type="button" class="notes-filter" data-notes-toggle="cards" aria-pressed="false" aria-label="Has flashcards - 43 notes">
                 Cards<span class="notes-filter__count"> · 43</span>
               </button>
-              <button type="button" class="notes-filter" data-notes-toggle="issues" aria-pressed="false" aria-label="Has issues — 2 notes">
+              <button type="button" class="notes-filter" data-notes-toggle="issues" aria-pressed="false" aria-label="Has issues - 2 notes">
                 Issues<span class="notes-filter__count"> · 2</span>
               </button>
             </div>
@@ -9274,7 +9274,7 @@ Cleaned up the notes list controls. Here's what changed:
 | **Single filter bar** | All pills in one wrap with a vertical separator |
 | **Elevated panel** | Groups controls visually without adding another card layer |
 
-Search still filters titles, tags, and descriptions. URL params (`?status=`, `?tag=`, etc.) behave the same — Refine auto-opens when a tag or category is in the URL.
+Search still filters titles, tags, and descriptions. URL params (`?status=`, `?tag=`, etc.) behave the same - Refine auto-opens when a tag or category is in the URL.
 
 ---
 
@@ -10553,7 +10553,7 @@ Total in 9173 ms
 
 _**Agent (default)**_
 
-Removed the seedling/evergreen **status feature**. The concept notes ([[Evergreen Notes](/notes/evergreen-notes/), [[Evergreen vs Fleeting Notes](/notes/evergreen-vs-fleeting-notes/)]) are unchanged — those are garden content, not lifecycle labels.
+Removed the seedling/evergreen **status feature**. The concept notes ([[Evergreen Notes](/notes/evergreen-notes/), [[Evergreen vs Fleeting Notes](/notes/evergreen-vs-fleeting-notes/)]) are unchanged - those are garden content, not lifecycle labels.
 
 ## What changed
 
@@ -10568,9 +10568,9 @@ Removed the seedling/evergreen **status feature**. The concept notes ([[Evergree
 
 ## What still works
 
-- **Inbox** / **Archived** — optional `status:` in frontmatter for work queues
-- **Stale filter** — based on file edit age, not seedling/evergreen
-- **`draft: true`** — still hides notes from the public garden
+- **Inbox** / **Archived** - optional `status:` in frontmatter for work queues
+- **Stale filter** - based on file edit age, not seedling/evergreen
+- **`draft: true`** - still hides notes from the public garden
 
 Old bookmark URLs like `?status=seedling` fall back to **All** automatically.
 
@@ -10579,8 +10579,8 @@ Old bookmark URLs like `?status=seedling` fall back to **All** automatically.
 _**User**_
 
 remove as well:
-Inbox / Archived — optional status: in frontmatter for work queues
-Stale filter — based on file edit age, not seedling/evergreen
+Inbox / Archived - optional status: in frontmatter for work queues
+Stale filter - based on file edit age, not seedling/evergreen
 
 ---
 
@@ -12486,7 +12486,7 @@ Parameters:
 {
   "caseInsensitive": false,
   "path": "/home/jorap/Documents/GitHub/jorap.com/public/notes",
-  "pattern": "data-notes-filter|notes-status|data-note-stale|Inbox —|Stale —"
+  "pattern": "data-notes-filter|notes-status|data-note-stale|Inbox -|Stale -"
 }
 ```
 Additional data:
@@ -12496,7 +12496,7 @@ Additional data:
   "isPruned": true,
   "outputMode": "content",
   "path": "/home/jorap/Documents/GitHub/jorap.com/public/notes",
-  "pattern": "data-notes-filter|notes-status|data-note-stale|Inbox —|Stale —",
+  "pattern": "data-notes-filter|notes-status|data-note-stale|Inbox -|Stale -",
   "topFiles": [],
   "totalFiles": 0,
   "totalMatches": 0
@@ -12525,12 +12525,12 @@ Inbox / Archived status and the stale filter are fully removed. Here’s what wa
 **Removed from code**
 - `layouts/_partials/notes/status-badge.html` (deleted earlier)
 - `note-meta.html` now only returns `Created` / `Updated` dates
-- `assets/js/notes-list.js` — search, tag, category, and featured/cards/issues toggles only
+- `assets/js/notes-list.js` - search, tag, category, and featured/cards/issues toggles only
 - Dead CSS: `.notes-status*`, `.notes-recent-stale`, `.notes-filter-sep`
 
 **Config & docs**
 - `stale_days` removed from `config/_default/params.toml`
-- `getting-started.md` — no status frontmatter docs; Issues/lint lines restored in Explore
+- `getting-started.md` - no status frontmatter docs; Issues/lint lines restored in Explore
 - `hugo.toml` comment updated (mtime is for updated timestamps, not stale tracking)
 
 **Frontmatter**
@@ -13059,12 +13059,12 @@ _**Agent (default)**_
 
 Updated all filter button count labels from `·` to `|`:
 
-- **Toolbar** — `All | 185`, `Issues | N`
-- **Notes list** — `Featured | N`, `Cards | N`, `Issues | N`
-- **Flashcards / Review** — card set filters (`All sets | N`, etc.)
-- **Graph** — all graph and relationship filter buttons (`All | 185 notes | 923 links`, etc.)
+- **Toolbar** - `All | 185`, `Issues | N`
+- **Notes list** - `Featured | N`, `Cards | N`, `Issues | N`
+- **Flashcards / Review** - card set filters (`All sets | N`, etc.)
+- **Graph** - all graph and relationship filter buttons (`All | 185 notes | 923 links`, etc.)
 
-Hint text like “Scroll to zoom · drag to pan” and date lines like “Created · Updated” were left unchanged — only button count labels.
+Hint text like “Scroll to zoom · drag to pan” and date lines like “Created · Updated” were left unchanged - only button count labels.
 
 ---
 
@@ -13287,17 +13287,17 @@ _**Agent (default)**_
 
 Added `margin-inline-start: 0.35em` to `.notes-filter__count` and `.notes-graph-filter__count`, so every label/count button gets a consistent gap before the `|`.
 
-That covers toolbar (`All | 185`), list toggles, card-set filters, and graph filters — the margin sits between the label text and the count span, independent of HTML whitespace.
+That covers toolbar (`All | 185`), list toggles, card-set filters, and graph filters - the margin sits between the label text and the count span, independent of HTML whitespace.
 
 ---
 
 _**User**_
 
-remove <div class="notes-filters notes-list-controls__filters mt-3" role="group" aria-label="Filter notes"><button type="button" class="notes-filter" data-notes-toggle="featured" aria-pressed="false" aria-label="Featured — 3 notes">
+remove <div class="notes-filters notes-list-controls__filters mt-3" role="group" aria-label="Filter notes"><button type="button" class="notes-filter" data-notes-toggle="featured" aria-pressed="false" aria-label="Featured - 3 notes">
                     Featured<span class="notes-filter__count"> | 3</span>
-                  </button><button type="button" class="notes-filter" data-notes-toggle="cards" aria-pressed="false" aria-label="Has flashcards — 43 notes">
+                  </button><button type="button" class="notes-filter" data-notes-toggle="cards" aria-pressed="false" aria-label="Has flashcards - 43 notes">
                     Cards<span class="notes-filter__count"> | 43</span>
-                  </button><button type="button" class="notes-filter" data-notes-toggle="issues" aria-pressed="false" aria-label="Has issues — 2 notes">
+                  </button><button type="button" class="notes-filter" data-notes-toggle="issues" aria-pressed="false" aria-label="Has issues - 2 notes">
                     Issues<span class="notes-filter__count"> | 2</span>
                   </button></div>
 
@@ -13480,7 +13480,7 @@ Removed the Featured / Cards / Issues filter row from the notes list.
 - Dropped featured/cards/issues counting and related `data-note-*` attributes on grid items
 
 **`assets/js/notes-list.js`**
-- Search and tag/category Refine only — no toggle filter logic or URL params for `featured`, `cards`, or `issues`
+- Search and tag/category Refine only - no toggle filter logic or URL params for `featured`, `cards`, or `issues`
 
 Search, Refine dropdown, and the empty-state message still work. Issues are still reachable via the toolbar **Issues** link.
 
@@ -14365,9 +14365,9 @@ cd /home/jorap/Documents/GitHub/jorap.com && npm run build 2>&1 | tail -5 && rg 
 Total in 8077 ms
 [cspHashes] Rewrote 37 inline onerror= attribute(s) in 6 file(s).
 [cspHashes] Hashed 3971 inline &lt;script&gt; block(s) → 15 unique hash(es); injected into /home/jorap/Documents/GitHub/jorap.com/public/_headers.
-&lt;/a&gt;&lt;a class="btn btn-sm btn-outline-primary" href=/notes/random-duo/ aria-label="Random duo"&gt;&lt;span class=xl:hidden&gt;Duo&lt;/span&gt;&lt;span class="hidden xl:inline"&gt;Random Duo&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;&lt;div class="content notes-content mb-6"&gt;&lt;strong&gt;Review&lt;/strong&gt; = active recall in the browser - show the prompt, try the answer, rate myself. Filter by &lt;code&gt;card_sets&lt;/code&gt; to drill one group at a time (Capture, Linking, &lt;strong&gt;Eternal Principles&lt;/strong&gt;, &lt;strong&gt;Faith&lt;/strong&gt;, &lt;strong&gt;Commandments&lt;/strong&gt;, &lt;strong&gt;Ethics&lt;/strong&gt;, &lt;strong&gt;Prayer&lt;/strong&gt;, &lt;strong&gt;Priorities&lt;/strong&gt;, &lt;strong&gt;Discipleship&lt;/strong&gt;, etc.). Progress saves in this browser only; I use Anki export when I want phone sync.&lt;/div&gt;&lt;div class=notes-review data-notes-review&gt;&lt;div class="notes-review-start border-divider rounded border p-5" data-notes-review-start style=background:var(--color-elevated)&gt;&lt;p class="notes-review-stats text-ink-muted mb-4 text-sm" data-notes-review-stats&gt;Loading…&lt;/p&gt;&lt;div class="notes-filters mb-4" role=group aria-label="Filter review by set"&gt;&lt;button type=button class="notes-filter is-active" data-notes-review-set=all aria-pressed=true aria-label="All sets — 258 cards"&gt;
+&lt;/a&gt;&lt;a class="btn btn-sm btn-outline-primary" href=/notes/random-duo/ aria-label="Random duo"&gt;&lt;span class=xl:hidden&gt;Duo&lt;/span&gt;&lt;span class="hidden xl:inline"&gt;Random Duo&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;&lt;div class="content notes-content mb-6"&gt;&lt;strong&gt;Review&lt;/strong&gt; = active recall in the browser - show the prompt, try the answer, rate myself. Filter by &lt;code&gt;card_sets&lt;/code&gt; to drill one group at a time (Capture, Linking, &lt;strong&gt;Eternal Principles&lt;/strong&gt;, &lt;strong&gt;Faith&lt;/strong&gt;, &lt;strong&gt;Commandments&lt;/strong&gt;, &lt;strong&gt;Ethics&lt;/strong&gt;, &lt;strong&gt;Prayer&lt;/strong&gt;, &lt;strong&gt;Priorities&lt;/strong&gt;, &lt;strong&gt;Discipleship&lt;/strong&gt;, etc.). Progress saves in this browser only; I use Anki export when I want phone sync.&lt;/div&gt;&lt;div class=notes-review data-notes-review&gt;&lt;div class="notes-review-start border-divider rounded border p-5" data-notes-review-start style=background:var(--color-elevated)&gt;&lt;p class="notes-review-stats text-ink-muted mb-4 text-sm" data-notes-review-stats&gt;Loading…&lt;/p&gt;&lt;div class="notes-filters mb-4" role=group aria-label="Filter review by set"&gt;&lt;button type=button class="notes-filter is-active" data-notes-review-set=all aria-pressed=true aria-label="All sets - 258 cards"&gt;
 All sets&lt;span class=notes-filter__count&gt; | 258&lt;/span&gt;
-&lt;/button&gt;&lt;button type=button class=notes-filter data-notes-review-set=Capture aria-pressed=false aria-label="Capture — 24 cards"&gt;
+&lt;/button&gt;&lt;button type=button class=notes-filter data-notes-review-set=Capture aria-pressed=false aria-label="Capture - 24 cards"&gt;
 Capture&lt;span class=notes-filter__count&gt; | 24&lt;/span&gt;
 
 ```
@@ -14505,7 +14505,7 @@ _**Agent (default)**_
 
 _**Agent (default)**_
 
-The Review intro renders **without a `<p>` wrapper** — just bare text inside `.content.notes-content`. Paragraph styles (`prose-p:text-ink-muted`) never apply, so that text inherited Tailwind Typography’s default gray. **`strong`** and **`code`** had their own colors, which is why only parts of the sentence looked wrong.
+The Review intro renders **without a `<p>` wrapper** - just bare text inside `.content.notes-content`. Paragraph styles (`prose-p:text-ink-muted`) never apply, so that text inherited Tailwind Typography’s default gray. **`strong`** and **`code`** had their own colors, which is why only parts of the sentence looked wrong.
 
 Added explicit styling on `.content.notes-content`:
 
@@ -14805,7 +14805,7 @@ Result:
           },
           {
             "lineNumber": 67,
-            "text": "  {{- /* Headings are structure, not prose mentions — e.g. ## Note Relationships */ -}}"
+            "text": "  {{- /* Headings are structure, not prose mentions - e.g. ## Note Relationships */ -}}"
           },
           {
             "lineNumber": 68,
@@ -15147,7 +15147,7 @@ Result:
           },
           {
             "lineNumber": 64,
-            "text": "{{- $content = replaceRE &#96;\\[\\[([^\\]]+)\\|([^\\]]+)\\]\\]&#96; (printf &#96;\u003cspan class=\"%s-broken\" title=\"Pipe wikilinks are not supported — use [[Note Title]] only\"\u003e$1|$2\u003c/span\u003e&#96; $class) $content -}}"
+            "text": "{{- $content = replaceRE &#96;\\[\\[([^\\]]+)\\|([^\\]]+)\\]\\]&#96; (printf &#96;\u003cspan class=\"%s-broken\" title=\"Pipe wikilinks are not supported - use [[Note Title]] only\"\u003e$1|$2\u003c/span\u003e&#96; $class) $content -}}"
           },
           {
             "lineNumber": 65,
@@ -16931,7 +16931,7 @@ Result:
           },
           {
             "lineNumber": 14,
-            "text": "    r\"^\\|\\s*(alternative|contradicts|extends|implements|index)\\s*\\|\\s*(\\[\\[[^\\]]+\\]\\]|—)\\s*\\|\\s*(.+?)\\s*\\|$\""
+            "text": "    r\"^\\|\\s*(alternative|contradicts|extends|implements|index)\\s*\\|\\s*(\\[\\[[^\\]]+\\]\\]|-)\\s*\\|\\s*(.+?)\\s*\\|$\""
           },
           {
             "lineNumber": 15,
@@ -17171,11 +17171,11 @@ Result:
           },
           {
             "lineNumber": 4,
-            "text": "    byPath — map File.Path → { broken, pipe, unlinked, structure, total }"
+            "text": "    byPath - map File.Path → { broken, pipe, unlinked, structure, total }"
           },
           {
             "lineNumber": 5,
-            "text": "    notes — slice of { Page, broken, pipe, unlinked, structure, total }"
+            "text": "    notes - slice of { Page, broken, pipe, unlinked, structure, total }"
           },
           {
             "lineNumber": 6,
@@ -17395,7 +17395,7 @@ Result:
           },
           {
             "lineNumber": 22,
-            "text": "            wikilink \u003ccode\u003e[[{{ .target }}]]\u003c/code\u003e — no page matches this title, slug, or alias."
+            "text": "            wikilink \u003ccode\u003e[[{{ .target }}]]\u003c/code\u003e - no page matches this title, slug, or alias."
           },
           {
             "lineNumber": 23,
@@ -17419,7 +17419,7 @@ Result:
           },
           {
             "lineNumber": 28,
-            "text": "            \u003ccode\u003e[[{{ .raw }}]]\u003c/code\u003e — use \u003ccode\u003e[[{{ .target }}]]\u003c/code\u003e only (no \u003ccode\u003e|label\u003c/code\u003e)."
+            "text": "            \u003ccode\u003e[[{{ .raw }}]]\u003c/code\u003e - use \u003ccode\u003e[[{{ .target }}]]\u003c/code\u003e only (no \u003ccode\u003e|label\u003c/code\u003e)."
           },
           {
             "lineNumber": 29,
@@ -17443,7 +17443,7 @@ Result:
           },
           {
             "lineNumber": 34,
-            "text": "            \"{{ .mention }}\" in prose — link"
+            "text": "            \"{{ .mention }}\" in prose - link"
           },
           {
             "lineNumber": 35,
@@ -17769,7 +17769,7 @@ Result:
           },
           {
             "lineNumber": 20,
-            "text": "    {{- $msg := printf \"pipe wikilink [[%s]] in %s — use [[%s]] only\" .raw $note.File.Path .target -}}"
+            "text": "    {{- $msg := printf \"pipe wikilink [[%s]] in %s - use [[%s]] only\" .raw $note.File.Path .target -}}"
           },
           {
             "lineNumber": 21,
@@ -18111,7 +18111,7 @@ Result:
           },
           {
             "lineNumber": 55,
-            "text": "                        \u003ccode\u003e[[{{ .target }}]]\u003c/code\u003e — no matching page."
+            "text": "                        \u003ccode\u003e[[{{ .target }}]]\u003c/code\u003e - no matching page."
           },
           {
             "lineNumber": 56,
@@ -18135,7 +18135,7 @@ Result:
           },
           {
             "lineNumber": 61,
-            "text": "                        \u003ccode\u003e[[{{ .raw }}]]\u003c/code\u003e — use \u003ccode\u003e[[{{ .target }}]]\u003c/code\u003e only (no \u003ccode\u003e|label\u003c/code\u003e)."
+            "text": "                        \u003ccode\u003e[[{{ .raw }}]]\u003c/code\u003e - use \u003ccode\u003e[[{{ .target }}]]\u003c/code\u003e only (no \u003ccode\u003e|label\u003c/code\u003e)."
           },
           {
             "lineNumber": 62,
@@ -18359,7 +18359,7 @@ Wikilink resolution is case-insensitive.</details></think>
 
 _**Agent (default)**_
 
-No — **wikilink matching is case-insensitive**.
+No - **wikilink matching is case-insensitive**.
 
 The link registry lowercases every lookup key (title, slug, filename, and aliases) when building the index:
 
@@ -18391,7 +18391,7 @@ You can keep the casing you want in frontmatter for readability. What matters fo
 
 **Caveats:**
 
-- The link label is whatever you write in markdown — it is not auto-normalized to the note title.
+- The link label is whatever you write in markdown - it is not auto-normalized to the note title.
 - Two aliases that differ only by case would collide (last one wins); avoid that.
 - Unlinked-mention lint treats multi-word names like “Trusted Inbox” case-insensitively; single-word aliases are stricter.
 
@@ -18727,7 +18727,7 @@ A format constant will be added to file-dates.html and exported for use in both 
 
 _**Agent (default)**_
 
-Timestamps already include time in the data — updating the display format in one place.
+Timestamps already include time in the data - updating the display format in one place.
 
 
 _**Agent (default)**_
@@ -19300,7 +19300,7 @@ The output is UTC in 12-hour format. This is acceptable for now. Storing Manila-
 
 _**Agent (default)**_
 
-Reverting to the working format — Hugo's timezone helpers aren't available in this template context.
+Reverting to the working format - Hugo's timezone helpers aren't available in this template context.
 
 
 _**Agent (default)**_
@@ -20229,4 +20229,4 @@ _**Agent (default)**_
 
 _**Agent (default)**_
 
-The count is now in the same row as search, Clear, and Refine — aligned to the right with `ms-auto`. On small screens the search field still spans full width; the count sits on the row with the buttons below it.
+The count is now in the same row as search, Clear, and Refine - aligned to the right with `ms-auto`. On small screens the search field still spans full width; the count sits on the row with the buttons below it.

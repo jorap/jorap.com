@@ -11,7 +11,7 @@ Fix flashcards in JoRap notes garden at /home/jorap/Documents/GitHub/jorap.com
 ## North star (MUST follow)
 Cards exist so the right move is already loaded when life shows up.
 - Front: first-person, present-tense, mid-action life cue (could happen this week)
-- Back: immediate move — imperative or decision in one breath
+- Back: immediate move - imperative or decision in one breath
 - NEVER split examples: field sentences across front/back
 - NEVER use third-person narrative fronts ("Our trainer...", "The shop...", "I do the same with...")
 - Front longer than back
@@ -26,7 +26,7 @@ evergreen-vs-fleeting-notes, execution, expect-the-counter, first-principles-thi
 ## Process per note
 1. Read content/english/notes/{stem}.md
 2. Read description, key_concept for the move
-3. Rewrite cards section — reference good decks: capture.md, free-grace.md
+3. Rewrite cards section - reference good decks: capture.md, free-grace.md
 4. Verify front > back length for each card
 
 ## Verify
@@ -1273,7 +1273,7 @@ All batch stems pass `audit-flashcard-north-star.py` and `npm run lint:cards`.
 Every deck was rewritten to the north-star shape from `capture.md` / `free-grace.md`:
 
 - **Fronts:** first-person, present-tense, mid-action cues (could happen this week)
-- **Backs:** short imperatives or decisions — one breath, verb-first
+- **Backs:** short imperatives or decisions - one breath, verb-first
 - **Removed:** example splits, third-person narratives (`The coach…`, `We…`), note titles on backs, truncated/fragment backs, multiple-choice fronts (`A or B?`)
 
 Card counts (2/4/6) and all `card_sets` labels were kept unchanged.

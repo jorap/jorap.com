@@ -799,15 +799,15 @@ You ran **`/impeccable polish`** without a target; **git** only showed `baseof.h
 
 ### What changed
 
-1. **Hamburger icon** (`header.html`) — The third bar path ended with `H0V0z`, which drew the wrong geometry. Replaced with a standard triple-bar path: `M0 3h20v2H0zm0 6h20v2H0zm0 6h20v2H0z`.
+1. **Hamburger icon** (`header.html`) - The third bar path ended with `H0V0z`, which drew the wrong geometry. Replaced with a standard triple-bar path: `M0 3h20v2H0zm0 6h20v2H0zm0 6h20v2H0z`.
 
-2. **Design system / CSS bug** (`navigation.css`) — `.navbar-brand image` is not valid for HTML logos; it is now **`img`**, so logo sizing utilities actually apply.
+2. **Design system / CSS bug** (`navigation.css`) - `.navbar-brand image` is not valid for HTML logos; it is now **`img`**, so logo sizing utilities actually apply.
 
-3. **Mobile menu control** — `hidden` on the checkbox removed it from the tab order (`display: none`). Switched to **`sr-only`** so keyboard users can operate the menu, added **`aria-controls="nav-menu"`** and **`aria-label="Open and close site navigation"`**, **`aria-hidden="true"`** on the decorative SVGs (with redundant `<title>` removed), **`min-h-11 min-w-11`** on the label for touch target, and **`input#nav-toggle:focus-visible + label`** ring styling aligned with your nav focus pattern (`ring-accent`, theme-aware offset).
+3. **Mobile menu control** - `hidden` on the checkbox removed it from the tab order (`display: none`). Switched to **`sr-only`** so keyboard users can operate the menu, added **`aria-controls="nav-menu"`** and **`aria-label="Open and close site navigation"`**, **`aria-hidden="true"`** on the decorative SVGs (with redundant `<title>` removed), **`min-h-11 min-w-11`** on the label for touch target, and **`input#nav-toggle:focus-visible + label`** ring styling aligned with your nav focus pattern (`ring-accent`, theme-aware offset).
 
-4. **Search control** — `aria-label="search"` → **`"Search"`** for consistent sentence-style chrome copy.
+4. **Search control** - `aria-label="search"` → **`"Search"`** for consistent sentence-style chrome copy.
 
-5. **Swiper** (`main.js`) — Initializes only when **`.testimonial-slider`** exists, avoiding useless instantiation and possible console noise on pages without testimonials.
+5. **Swiper** (`main.js`) - Initializes only when **`.testimonial-slider`** exists, avoiding useless instantiation and possible console noise on pages without testimonials.
 
 `hugo --minify` completes successfully.
 
@@ -1706,7 +1706,7 @@ Result:
           },
           {
             "lineNumber": 67,
-            "text": "- When the strategy is Committed or Drenched, the color is load-bearing. Don't hedge with neutrals around the edges — commit."
+            "text": "- When the strategy is Committed or Drenched, the color is load-bearing. Don't hedge with neutrals around the edges - commit."
           },
           {
             "lineNumber": 68,
@@ -1728,11 +1728,11 @@ Result:
           },
           {
             "lineNumber": 73,
-            "text": "- Fluid spacing with &#96;clamp()&#96; that breathes on larger viewports. Vary for rhythm — generous separations, tight groupings."
+            "text": "- Fluid spacing with &#96;clamp()&#96; that breathes on larger viewports. Vary for rhythm - generous separations, tight groupings."
           },
           {
             "lineNumber": 74,
-            "text": "- Alternative: a strict, visible grid as the voice (brutalist / Swiss / tech-spec aesthetics). Either asymmetric or rigorously-gridded can be \"designed\" — the failure mode is splitting the difference into a generic centered stack."
+            "text": "- Alternative: a strict, visible grid as the voice (brutalist / Swiss / tech-spec aesthetics). Either asymmetric or rigorously-gridded can be \"designed\" - the failure mode is splitting the difference into a generic centered stack."
           },
           {
             "lineNumber": 75,
@@ -1740,7 +1740,7 @@ Result:
           },
           {
             "lineNumber": 76,
-            "text": "- When cards ARE the right affordance, use &#96;grid-template-columns: repeat(auto-fit, minmax(280px, 1fr))&#96; — breakpoint-free responsiveness."
+            "text": "- When cards ARE the right affordance, use &#96;grid-template-columns: repeat(auto-fit, minmax(280px, 1fr))&#96; - breakpoint-free responsiveness."
           },
           {
             "lineNumber": 77
@@ -1768,7 +1768,7 @@ Result:
           },
           {
             "lineNumber": 84,
-            "text": "- **For greenfield work without local assets, use stock imagery** — Unsplash is the default. The URL shape is &#96;https://images.unsplash.com/photo-{id}?auto=format\u0026fit=crop\u0026w=1600\u0026q=80&#96;. Pick real Unsplash photo IDs you're confident exist (&#96;photo-1559339352-11d035aa65de&#96;, &#96;photo-1590490360182-c33d57733427&#96;, etc.); if unsure, pick fewer photos but don't substitute colored &#96;\u003cdiv\u003e&#96; placeholders."
+            "text": "- **For greenfield work without local assets, use stock imagery** - Unsplash is the default. The URL shape is &#96;https://images.unsplash.com/photo-{id}?auto=format\u0026fit=crop\u0026w=1600\u0026q=80&#96;. Pick real Unsplash photo IDs you're confident exist (&#96;photo-1559339352-11d035aa65de&#96;, &#96;photo-1590490360182-c33d57733427&#96;, etc.); if unsure, pick fewer photos but don't substitute colored &#96;\u003cdiv\u003e&#96; placeholders."
           },
           {
             "lineNumber": 85,
@@ -1816,7 +1816,7 @@ Result:
           },
           {
             "lineNumber": 77,
-            "text": "- Use named grid areas (&#96;grid-template-areas&#96;) for complex page layouts — redefine at breakpoints."
+            "text": "- Use named grid areas (&#96;grid-template-areas&#96;) for complex page layouts - redefine at breakpoints."
           },
           {
             "lineNumber": 78
@@ -1830,11 +1830,11 @@ Result:
           },
           {
             "lineNumber": 81,
-            "text": "- Don't default to card grids for everything — spacing and alignment create visual grouping naturally"
+            "text": "- Don't default to card grids for everything - spacing and alignment create visual grouping naturally"
           },
           {
             "lineNumber": 82,
-            "text": "- Use cards only when content is truly distinct and actionable — never nest cards inside cards"
+            "text": "- Use cards only when content is truly distinct and actionable - never nest cards inside cards"
           },
           {
             "lineNumber": 83,
@@ -1852,11 +1852,11 @@ Result:
           },
           {
             "lineNumber": 87,
-            "text": "- Use the fewest dimensions needed for clear hierarchy. Space alone can be enough — generous whitespace around an element draws the eye. Some of the most sophisticated designs achieve rhythm with just space and weight. Add color or size contrast only when simpler means aren't sufficient."
+            "text": "- Use the fewest dimensions needed for clear hierarchy. Space alone can be enough - generous whitespace around an element draws the eye. Some of the most sophisticated designs achieve rhythm with just space and weight. Add color or size contrast only when simpler means aren't sufficient."
           },
           {
             "lineNumber": 88,
-            "text": "- Be aware of reading flow — in LTR languages, the eye naturally scans top-left to bottom-right, but primary action placement depends on context (e.g., bottom-right in dialogs, top in navigation)."
+            "text": "- Be aware of reading flow - in LTR languages, the eye naturally scans top-left to bottom-right, but primary action placement depends on context (e.g., bottom-right in dialogs, top in navigation)."
           },
           {
             "lineNumber": 89,
@@ -1878,7 +1878,7 @@ Result:
           },
           {
             "lineNumber": 94,
-            "text": "- Build a consistent shadow scale (sm → md → lg → xl) — shadows should be subtle"
+            "text": "- Build a consistent shadow scale (sm → md → lg → xl) - shadows should be subtle"
           },
           {
             "lineNumber": 95,
@@ -1896,7 +1896,7 @@ Result:
           },
           {
             "lineNumber": 99,
-            "text": "- If an icon looks visually off-center despite being geometrically centered, nudge it — but only if you're confident it actually looks wrong. Don't adjust speculatively."
+            "text": "- If an icon looks visually off-center despite being geometrically centered, nudge it - but only if you're confident it actually looks wrong. Don't adjust speculatively."
           },
           {
             "lineNumber": 100
@@ -2303,7 +2303,7 @@ Result:
           },
           {
             "lineNumber": 7,
-            "text": "8pt systems are too coarse—you'll frequently need 12px (between 8 and 16). Use 4pt for granularity: 4, 8, 12, 16, 24, 32, 48, 64, 96px."
+            "text": "8pt systems are too coarse-you'll frequently need 12px (between 8 and 16). Use 4pt for granularity: 4, 8, 12, 16, 24, 32, 48, 64, 96px."
           },
           {
             "lineNumber": 8
@@ -2317,7 +2317,7 @@ Result:
           },
           {
             "lineNumber": 11,
-            "text": "Name by relationship (&#96;--space-sm&#96;, &#96;--space-lg&#96;), not value (&#96;--spacing-8&#96;). Use &#96;gap&#96; instead of margins for sibling spacing—it eliminates margin collapse and cleanup hacks."
+            "text": "Name by relationship (&#96;--space-sm&#96;, &#96;--space-lg&#96;), not value (&#96;--spacing-8&#96;). Use &#96;gap&#96; instead of margins for sibling spacing-it eliminates margin collapse and cleanup hacks."
           },
           {
             "lineNumber": 12
@@ -2444,7 +2444,7 @@ Result:
           },
           {
             "lineNumber": 46,
-            "text": "Cards are overused. Spacing and alignment create visual grouping naturally. Use cards only when content is truly distinct and actionable, items need visual comparison in a grid, or content needs clear interaction boundaries. **Never nest cards inside cards**—use spacing, typography, and subtle dividers for hierarchy within a card."
+            "text": "Cards are overused. Spacing and alignment create visual grouping naturally. Use cards only when content is truly distinct and actionable, items need visual comparison in a grid, or content needs clear interaction boundaries. **Never nest cards inside cards**-use spacing, typography, and subtle dividers for hierarchy within a card."
           },
           {
             "lineNumber": 47
@@ -2567,7 +2567,7 @@ Result:
           },
           {
             "lineNumber": 98,
-            "text": "**Navigation**: Three stages—hamburger + drawer on mobile, horizontal compact on tablet, full with labels on desktop. **Tables**: Transform to cards on mobile using &#96;display: block&#96; and &#96;data-label&#96; attributes. **Progressive disclosure**: Use &#96;\u003cdetails\u003e/\u003csummary\u003e&#96; for content that can collapse on mobile."
+            "text": "**Navigation**: Three stages-hamburger + drawer on mobile, horizontal compact on tablet, full with labels on desktop. **Tables**: Transform to cards on mobile using &#96;display: block&#96; and &#96;data-label&#96; attributes. **Progressive disclosure**: Use &#96;\u003cdetails\u003e/\u003csummary\u003e&#96; for content that can collapse on mobile."
           },
           {
             "lineNumber": 99
@@ -2996,7 +2996,7 @@ Result:
           },
           {
             "lineNumber": 42,
-            "text": "**CRITICAL**: Layout problems are often the root cause of interfaces feeling \"off\" even when colors and fonts are fine. Space is a design material — use it with intention."
+            "text": "**CRITICAL**: Layout problems are often the root cause of interfaces feeling \"off\" even when colors and fonts are fine. Space is a design material - use it with intention."
           },
           {
             "lineNumber": 43
@@ -3024,7 +3024,7 @@ Result:
           },
           {
             "lineNumber": 50,
-            "text": "- **Spacing system**: Use a consistent scale — whether that's a framework's built-in scale (e.g., Tailwind), rem-based tokens, or a custom system. The specific values matter less than consistency."
+            "text": "- **Spacing system**: Use a consistent scale - whether that's a framework's built-in scale (e.g., Tailwind), rem-based tokens, or a custom system. The specific values matter less than consistency."
           },
           {
             "lineNumber": 51,
@@ -3057,7 +3057,7 @@ Result:
           },
           {
             "lineNumber": 59,
-            "text": "- Use a consistent spacing scale — framework scales (Tailwind, etc.), rem-based tokens, or a custom scale all work. What matters is that values come from a defined set, not arbitrary numbers."
+            "text": "- Use a consistent spacing scale - framework scales (Tailwind, etc.), rem-based tokens, or a custom scale all work. What matters is that values come from a defined set, not arbitrary numbers."
           },
           {
             "lineNumber": 60,
@@ -3065,7 +3065,7 @@ Result:
           },
           {
             "lineNumber": 61,
-            "text": "- Use &#96;gap&#96; for sibling spacing instead of margins — eliminates margin collapse hacks"
+            "text": "- Use &#96;gap&#96; for sibling spacing instead of margins - eliminates margin collapse hacks"
           },
           {
             "lineNumber": 62,
@@ -3091,11 +3091,11 @@ Result:
           },
           {
             "lineNumber": 68,
-            "text": "- **Varied spacing** within sections — not every row needs the same gap"
+            "text": "- **Varied spacing** within sections - not every row needs the same gap"
           },
           {
             "lineNumber": 69,
-            "text": "- **Asymmetric compositions** — break the predictable centered-content pattern when it makes sense"
+            "text": "- **Asymmetric compositions** - break the predictable centered-content pattern when it makes sense"
           },
           {
             "lineNumber": 70
@@ -3249,7 +3249,7 @@ Result:
         "detailedLines": [
           {
             "lineNumber": 1,
-            "text": "Assess and improve layout and spacing that feels monotonous, crowded, or structurally weak — turning generic arrangements into intentional, rhythmic compositions."
+            "text": "Assess and improve layout and spacing that feels monotonous, crowded, or structurally weak - turning generic arrangements into intentional, rhythmic compositions."
           },
           {
             "lineNumber": 2
@@ -3270,7 +3270,7 @@ Result:
           },
           {
             "lineNumber": 7,
-            "text": "Brand: asymmetric compositions, fluid spacing with &#96;clamp()&#96;, intentional grid-breaking for emphasis. Rhythm through contrast — tight groupings paired with generous separations."
+            "text": "Brand: asymmetric compositions, fluid spacing with &#96;clamp()&#96;, intentional grid-breaking for emphasis. Rhythm through contrast - tight groupings paired with generous separations."
           },
           {
             "lineNumber": 8
@@ -3328,11 +3328,11 @@ Result:
           },
           {
             "lineNumber": 23,
-            "text": "   - Apply the squint test: blur your (metaphorical) eyes — can you still identify the most important element, second most important, and clear groupings?"
+            "text": "   - Apply the squint test: blur your (metaphorical) eyes - can you still identify the most important element, second most important, and clear groupings?"
           },
           {
             "lineNumber": 24,
-            "text": "   - Is hierarchy achieved effectively? (Space and weight alone can be enough — but is the current approach working?)"
+            "text": "   - Is hierarchy achieved effectively? (Space and weight alone can be enough - but is the current approach working?)"
           },
           {
             "lineNumber": 25,
@@ -3697,7 +3697,7 @@ Result:
           },
           {
             "lineNumber": 99,
-            "text": "- If an icon looks visually off-center despite being geometrically centered, nudge it — but only if you're confident it actually looks wrong. Don't adjust speculatively."
+            "text": "- If an icon looks visually off-center despite being geometrically centered, nudge it - but only if you're confident it actually looks wrong. Don't adjust speculatively."
           },
           {
             "lineNumber": 100
@@ -3712,15 +3712,15 @@ Result:
           },
           {
             "lineNumber": 103,
-            "text": "- Make all spacing equal — variety creates hierarchy"
+            "text": "- Make all spacing equal - variety creates hierarchy"
           },
           {
             "lineNumber": 104,
-            "text": "- Wrap everything in cards — not everything needs a container"
+            "text": "- Wrap everything in cards - not everything needs a container"
           },
           {
             "lineNumber": 105,
-            "text": "- Nest cards inside cards — use spacing and dividers for hierarchy within"
+            "text": "- Nest cards inside cards - use spacing and dividers for hierarchy within"
           },
           {
             "lineNumber": 106,
@@ -3728,19 +3728,19 @@ Result:
           },
           {
             "lineNumber": 107,
-            "text": "- Center everything — left-aligned with asymmetry feels more designed"
+            "text": "- Center everything - left-aligned with asymmetry feels more designed"
           },
           {
             "lineNumber": 108,
-            "text": "- Default to the hero metric layout (big number, small label, stats, gradient) as a template. If showing real user data, a prominent metric can work — but it should display actual data, not decorative numbers."
+            "text": "- Default to the hero metric layout (big number, small label, stats, gradient) as a template. If showing real user data, a prominent metric can work - but it should display actual data, not decorative numbers."
           },
           {
             "lineNumber": 109,
-            "text": "- Default to CSS Grid when Flexbox would be simpler — use the simplest tool for the job"
+            "text": "- Default to CSS Grid when Flexbox would be simpler - use the simplest tool for the job"
           },
           {
             "lineNumber": 110,
-            "text": "- Use arbitrary z-index values (999, 9999) — build a semantic scale"
+            "text": "- Use arbitrary z-index values (999, 9999) - build a semantic scale"
           },
           {
             "lineNumber": 111
@@ -3795,7 +3795,7 @@ Result:
           },
           {
             "lineNumber": 125,
-            "text": "Each variant MUST declare a &#96;density&#96; param. Drive all spacing tokens in the variant's scoped CSS through &#96;calc(var(--p-density, 1) * \u003cbase\u003e)&#96; — paddings, gaps, column widths. Users slide from airy to packed and see layout re-breathe with no regeneration."
+            "text": "Each variant MUST declare a &#96;density&#96; param. Drive all spacing tokens in the variant's scoped CSS through &#96;calc(var(--p-density, 1) * \u003cbase\u003e)&#96; - paddings, gaps, column widths. Users slide from airy to packed and see layout re-breathe with no regeneration."
           },
           {
             "lineNumber": 126
@@ -3854,7 +3854,7 @@ Result:
         "detailedLines": [
           {
             "lineNumber": 24,
-            "text": "- Accent color used for primary actions, current selection, and state indicators only — not decoration."
+            "text": "- Accent color used for primary actions, current selection, and state indicators only - not decoration."
           },
           {
             "lineNumber": 25,
@@ -3872,7 +3872,7 @@ Result:
           },
           {
             "lineNumber": 29,
-            "text": "- Predictable grids. Consistency IS an affordance — users navigate faster when the structure is expected."
+            "text": "- Predictable grids. Consistency IS an affordance - users navigate faster when the structure is expected."
           },
           {
             "lineNumber": 30,
@@ -3923,11 +3923,11 @@ Result:
           },
           {
             "lineNumber": 43,
-            "text": "- 150–250 ms on most transitions. Users are in flow — don't make them wait for choreography."
+            "text": "- 150–250 ms on most transitions. Users are in flow - don't make them wait for choreography."
           },
           {
             "lineNumber": 44,
-            "text": "- Motion conveys state, not decoration. State change, feedback, loading, reveal — nothing else."
+            "text": "- Motion conveys state, not decoration. State change, feedback, loading, reveal - nothing else."
           },
           {
             "lineNumber": 45,
@@ -4439,7 +4439,7 @@ Result:
           },
           {
             "lineNumber": 47,
-            "text": "- **Component sub-tokens** are limited to 8 props: &#96;backgroundColor&#96;, &#96;textColor&#96;, &#96;typography&#96;, &#96;rounded&#96;, &#96;padding&#96;, &#96;size&#96;, &#96;height&#96;, &#96;width&#96;. Shadows, motion, focus rings, backdrop-filter — none of those fit. Carry them in the sidecar (Step 4b)."
+            "text": "- **Component sub-tokens** are limited to 8 props: &#96;backgroundColor&#96;, &#96;textColor&#96;, &#96;typography&#96;, &#96;rounded&#96;, &#96;padding&#96;, &#96;size&#96;, &#96;height&#96;, &#96;width&#96;. Shadows, motion, focus rings, backdrop-filter - none of those fit. Carry them in the sidecar (Step 4b)."
           }
         ],
         "range": {
@@ -4486,7 +4486,7 @@ Result:
           },
           {
             "lineNumber": 9,
-            "text": "Don't chase device sizes—let content tell you where to break. Start narrow, stretch until design breaks, add breakpoint there. Three breakpoints usually suffice (640, 768, 1024px). Use &#96;clamp()&#96; for fluid values without breakpoints."
+            "text": "Don't chase device sizes-let content tell you where to break. Start narrow, stretch until design breaks, add breakpoint there. Three breakpoints usually suffice (640, 768, 1024px). Use &#96;clamp()&#96; for fluid values without breakpoints."
           },
           {
             "lineNumber": 10
@@ -4500,7 +4500,7 @@ Result:
           },
           {
             "lineNumber": 13,
-            "text": "**Screen size doesn't tell you input method.** A laptop with touchscreen, a tablet with keyboard—use pointer and hover queries:"
+            "text": "**Screen size doesn't tell you input method.** A laptop with touchscreen, a tablet with keyboard-use pointer and hover queries:"
           },
           {
             "lineNumber": 14

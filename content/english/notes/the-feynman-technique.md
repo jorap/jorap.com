@@ -55,6 +55,10 @@ cards:
     back: "I do not understand it enough to fix anything."
   - front: "Friend asked my capture workflow and I could not explain it in two minutes."
     back: "Gaps in talk show gaps in understanding."
+  - front: "Kid asked why the fuse trips - I waved at the panel."
+    back: "I don't own it yet - study first."
+  - front: "Halftime question on the rule - answer died halfway."
+    back: "Don't teach what I can't explain clean."
 draft: false
 ---
 

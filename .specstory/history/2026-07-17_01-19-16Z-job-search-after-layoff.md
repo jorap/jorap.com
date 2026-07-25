@@ -897,11 +897,11 @@ No dedicated post-layoff note exists. I'll cluster relevant insights by phase an
 
 _**Agent (auto-low)**_
 
-Your notes garden does not have a dedicated “job search after layoff” note. Several notes still speak directly to that season — emotionally, tactically, and when you are choosing between offers. Here is how they cluster, in the order they tend to matter.
+Your notes garden does not have a dedicated “job search after layoff” note. Several notes still speak directly to that season - emotionally, tactically, and when you are choosing between offers. Here is how they cluster, in the order they tend to matter.
 
 ## First: weather the storm without confusing it with your identity
 
-**[The Wise Builder](/notes/the-wise-builder/)** is the most direct hit. One flashcard names “storm of job loss” and asks what reveals rock vs sand — obedience under stress, not just hearing good advice.
+**[The Wise Builder](/notes/the-wise-builder/)** is the most direct hit. One flashcard names “storm of job loss” and asks what reveals rock vs sand - obedience under stress, not just hearing good advice.
 
 Pair that with notes that keep a layoff from becoming an identity verdict:
 
@@ -909,9 +909,9 @@ Pair that with notes that keep a layoff from becoming an identity verdict:
 |------|---------------------------|
 | **[Failure as Feedback](/notes/failure-as-feedback/)** | A miss is signal about process or skill, not proof you are the wrong kind of person |
 | **[Growth Mindset](/notes/growth-mindset/)** | “I am bad at this” is a verdict; “I missed three” is data you can train on |
-| **[Resilience](/notes/resilience/)** | Take the hit, recover, stay useful — without pretending it did not hurt |
+| **[Resilience](/notes/resilience/)** | Take the hit, recover, stay useful - without pretending it did not hurt |
 | **[Don't Worry](/notes/dont-worry/)** | Tomorrow’s trouble does not need to be stacked on today |
-| **[Present a Living Sacrifice](/notes/present-a-living-sacrifice/)** | The search is not a tryout for worth — same move as “this Tuesday is worship, not a performance review with God” |
+| **[Present a Living Sacrifice](/notes/present-a-living-sacrifice/)** | The search is not a tryout for worth - same move as “this Tuesday is worship, not a performance review with God” |
 
 Layoffs land as pressure. The **[Pressure Reveals Weakness](/notes/pressure-reveals-weakness/)** hub is the index for what you built before the heat rose.
 
@@ -922,10 +922,10 @@ When interviews, networking, and deadlines compress your thinking:
 | Note | Job-search move |
 |------|-----------------|
 | **[Build a Reliable Default](/notes/build-a-reliable-default/)** | Pick your go-to pipeline, outreach script, and daily rhythm *before* panic owns the clock |
-| **[Signature Move](/notes/signature-move/)** | One practiced answer you reach for when the moment speeds up — not ten highlight-reel options |
+| **[Signature Move](/notes/signature-move/)** | One practiced answer you reach for when the moment speeds up - not ten highlight-reel options |
 | **[Priorities Before the Inbox](/notes/priorities-before-the-inbox/)** | One protected block on applications, outreach, or prep before reactive pings rewrite the morning |
 | **[Deep Work](/notes/deep-work/)** | Hard thinking (resume rewrite, portfolio, mock answers) earns a real protected block |
-| **[The Feynman Technique](/notes/the-feynman-technique/)** | Explain your work simply out loud — wherever you stumble, you do not understand it well enough to interview yet |
+| **[The Feynman Technique](/notes/the-feynman-technique/)** | Explain your work simply out loud - wherever you stumble, you do not understand it well enough to interview yet |
 
 For skill gaps exposed by rejections, **[Systems for Growth](/notes/systems-for-growth/)** is the hub: **[Deliberate Practice](/notes/deliberate-practice/)**, **[Accept the Starting Line](/notes/accept-the-starting-line/)**, and **[Measure Then Iterate](/notes/measure-then-iterate/)** keep targets realistic instead of fantasy.
 
@@ -935,7 +935,7 @@ Post-layoff searches often mean pivot, downgrade, contract, or new industry:
 
 | Note | Angle |
 |------|-------|
-| **[Strong Outside Your Comfort](/notes/stay-effective-in-new-conditions/)** | Explicitly names career pivots — the habit that worked in the last role can flop in the next room |
+| **[Strong Outside Your Comfort](/notes/stay-effective-in-new-conditions/)** | Explicitly names career pivots - the habit that worked in the last role can flop in the next room |
 | **[Versatility](/notes/versatility/)** | More than one lane to contribute when the old lane closes |
 | **[Adaptability](/notes/adaptability/)** | Parent note for retuning when terrain changes |
 
@@ -947,11 +947,11 @@ When offers start arriving:
 
 | Note | Filter |
 |------|--------|
-| **[Discern His Will Daily](/notes/discern-his-will-daily/)** | Has a literal “two job offers” scene — renew first, then ask which role serves the kingdom vs which title feeds ego |
-| **[Outcomes Over Pitch Decks](/notes/outcomes-over-pitch-decks/)** | Judge employers, teams, and champions by what they produce over time — not slide polish or LinkedIn aura |
+| **[Discern His Will Daily](/notes/discern-his-will-daily/)** | Has a literal “two job offers” scene - renew first, then ask which role serves the kingdom vs which title feeds ego |
+| **[Outcomes Over Pitch Decks](/notes/outcomes-over-pitch-decks/)** | Judge employers, teams, and champions by what they produce over time - not slide polish or LinkedIn aura |
 | **[Seek the Kingdom First](/notes/seek-the-kingdom-first/)** | What gets first place when everything feels urgent |
 
-The secular workplace version of much of this lives in **[Workplace Principles](/notes/workplace-principles/)** — ethics you can share in plain office language.
+The secular workplace version of much of this lives in **[Workplace Principles](/notes/workplace-principles/)** - ethics you can share in plain office language.
 
 ## Fifth: show up like someone worth hiring
 
@@ -959,9 +959,9 @@ Notes that shape how you present and operate, not just how you cope:
 
 | Note | Why |
 |------|-----|
-| **[Share What You Learn](/notes/share-what-you-learn/)** | Public proof beats a private hoard — write the doc, ship the pass-off, teach what you know |
-| **[Integrity Without an Audience](/notes/integrity-without-an-audience/)** | Honest work when nobody is watching — that is the person references will describe |
-| **[Plain Commitments at Work](/notes/plain-commitments-at-work/)** | Yes means yes — padded promises in Slack are a liability in a new team |
+| **[Share What You Learn](/notes/share-what-you-learn/)** | Public proof beats a private hoard - write the doc, ship the pass-off, teach what you know |
+| **[Integrity Without an Audience](/notes/integrity-without-an-audience/)** | Honest work when nobody is watching - that is the person references will describe |
+| **[Plain Commitments at Work](/notes/plain-commitments-at-work/)** | Yes means yes - padded promises in Slack are a liability in a new team |
 | **[The Feynman Technique](/notes/the-feynman-technique/)** | If you cannot explain your last role simply, interview answers will wobble |
 
 ## Suggested reading order
@@ -976,4 +976,4 @@ If you want a tight path through the garden:
 
 There is no single MOC for “career after layoff.” The closest hubs are **[Pressure Reveals Weakness](/notes/pressure-reveals-weakness/)**, **[Systems for Growth](/notes/systems-for-growth/)**, and **[Workplace Principles](/notes/workplace-principles/)**.
 
-If you want, I can sketch what a dedicated atomic note for this topic might look like in your garden’s format (`description`, `key_concept`, two scenes, `relationships`) — still in Ask mode, so guidance only unless you switch to Agent mode.
+If you want, I can sketch what a dedicated atomic note for this topic might look like in your garden’s format (`description`, `key_concept`, two scenes, `relationships`) - still in Ask mode, so guidance only unless you switch to Agent mode.

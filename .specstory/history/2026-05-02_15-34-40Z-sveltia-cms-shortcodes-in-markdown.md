@@ -90,11 +90,11 @@ Yes, in two different senses:
 
 ### 1. Shortcodes as text in markdown (no extra setup)
 
-The **Body** field in your config is `widget: "markdown"`. That field is saved as normal markdown in the file. Anything you type there—including Hugo shortcodes like `{{< figure src="..." >}}` or `{{% note %}}...{{% /note %}}`—is stored as literal text in the front matter’s `body` (or whatever your split setup uses). Hugo runs at build time and expands those shortcodes. The CMS does not need a special “shortcode” widget for that.
+The **Body** field in your config is `widget: "markdown"`. That field is saved as normal markdown in the file. Anything you type there-including Hugo shortcodes like `{{< figure src="..." >}}` or `{{% note %}}...{{% /note %}}`-is stored as literal text in the front matter’s `body` (or whatever your split setup uses). Hugo runs at build time and expands those shortcodes. The CMS does not need a special “shortcode” widget for that.
 
 ### 2. Reusable blocks with a toolbar (editor components)
 
-If you want **authors to insert shortcodes from a button** instead of memorizing syntax, Sveltia supports the same idea as Decap: **[custom editor components](https://sveltiacms.app/en/docs/api/editor-components)** (`CMS.registerEditorComponent`). You define `pattern`, `fromBlock`, and `toBlock` so the UI edits fields and reads/writes the matching shortcode (or HTML comment–wrapped block) in the markdown. That’s optional; it’s for UX, not for “storing” shortcodes differently—the repo still stores markdown strings.
+If you want **authors to insert shortcodes from a button** instead of memorizing syntax, Sveltia supports the same idea as Decap: **[custom editor components](https://sveltiacms.app/en/docs/api/editor-components)** (`CMS.registerEditorComponent`). You define `pattern`, `fromBlock`, and `toBlock` so the UI edits fields and reads/writes the matching shortcode (or HTML comment–wrapped block) in the markdown. That’s optional; it’s for UX, not for “storing” shortcodes differently-the repo still stores markdown strings.
 
 **Caveats:** In-editor preview often does **not** run real Hugo shortcodes unless you implement something like `toPreview` on those components or a custom preview. Block-style editor components are the common pattern; [inline-style support has been discussed](https://github.com/sveltia/sveltia-cms/discussions/560) as a limitation/improvement area.
 

@@ -373,7 +373,7 @@ Parameters:
 {
   "caseInsensitive": false,
   "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/__hanamikoji-rules.md",
-  "pattern": "—|–"
+  "pattern": "-|–"
 }
 ```
 Additional data:
@@ -383,7 +383,7 @@ Additional data:
   "isPruned": true,
   "outputMode": "content",
   "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/__hanamikoji-rules.md",
-  "pattern": "—|–",
+  "pattern": "-|–",
   "topFiles": [],
   "totalFiles": 0,
   "totalMatches": 0

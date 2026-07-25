@@ -37,5 +37,5 @@ static/exports/okf/
 .dev.vars
 .wrangler
 
-# Impeccable skill — linked locally via sync-upstreams (../impeccable)
+# Impeccable skill - linked locally via sync-upstreams (../impeccable)
 .cursor/skills/impeccable

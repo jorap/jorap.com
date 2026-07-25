@@ -72,7 +72,7 @@ cards:
     back: "Faith saves first - real faith acts."
   - front: "Listing good deeds when someone asks how to be saved. Lead with what?"
     back: "Trust Christ - works follow, don't pay."
-  - front: "Hearing sermons, saving verses, zero obedience. Which builder am I?"
+  - front: "Hearing sermons, saving verses, zero obedience - hearing without doing."
     back: "Wise builder - hear and do."
   - front: "Obedience to feel acceptable to God again. Mixing up what saves?"
     back: "Faith saves - obedience responds."

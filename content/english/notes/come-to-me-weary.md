@@ -5,7 +5,7 @@ description: "Jesus invites the weary to His rest - yoke with Him trades crushin
 key_concept: |
   {{< bible ref="Matthew 11:28-30" emphasize="28" >}}
 
-  - I do not have to white-knuckle exhaustion alone - Jesus invites the weary to rest and a yoke that fits, not heavier religion.
+  - I do not have to force through exhaustion by will alone - Jesus invites the weary to rest and a yoke that fits, not heavier religion.
   - Level 1: Like finally sitting down when your legs gave out - rest is an invitation, not a reward you must earn first.
   - Level 2: His yoke is shared labor - not absence of work, but work with Him instead of performative burnout.
   - Level 3: Under [[Free Grace]], rest is not a wage for good weeks - it is care from the Lord who already saved me.
@@ -47,6 +47,20 @@ author: "JoRap"
 tags: ["Gospel", "Eternal Principles", "Jesus Christ", "Rest"]
 aliases: ["come unto me weary", "Matthew 11:28"]
 featured: false
-review: false
+review: true
+card_sets: ["Eternal Principles", "Gospel", "Discipleship"]
+cards:
+  - front: "Outserved my burnout until Sunday collapsed - hero badge still on."
+    back: "Admit weary - come before you crack."
+  - front: "Ministry week left me hollow - guilt sermon to myself loading."
+    back: "Take the yoke - shorter yes list."
+  - front: "Trying to earn rest with a quiet-time streak first - wrong order?"
+    back: "Rest is invitation - not merit pay."
+  - front: "Another volunteer yes while my tank is empty - hero badge loading again."
+    back: "One honest nap - then the yoke fits."
+  - front: "Forcing through exhaustion by will alone - crushing solo labor."
+    back: "Come weary - shared weight with Him."
+  - front: "Prayer feels like another task I'll fail when drained."
+    back: "Pray as part of rest - not proof."
 draft: false
 ---

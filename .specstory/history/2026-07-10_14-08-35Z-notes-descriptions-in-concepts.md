@@ -990,7 +990,7 @@ SKIP = {&#34;_index.md&#34;}
 def desc_parts(desc):
     flat = &#34; &#34;.join(desc.split())
     parts = [flat]
-    parts.extend(re.split(r&#34;(?&lt;=[.!?])\s+|\s[-—–]\s|;\s+&#34;, flat))
+    parts.extend(re.split(r&#34;(?&lt;=[.!?])\s+|\s[--–]\s|;\s+&#34;, flat))
     return [normalize_shareable_line(p) for p in parts if len(normalize_shareable_line(p)) &gt;= 10]
 
 def kc_lines(kc):
@@ -1050,7 +1050,7 @@ SKIP = {"_index.md"}
 def desc_parts(desc):
     flat = " ".join(desc.split())
     parts = [flat]
-    parts.extend(re.split(r"(?<=[.!?])\s+|\s[-—–]\s|;\s+", flat))
+    parts.extend(re.split(r"(?<=[.!?])\s+|\s[--–]\s|;\s+", flat))
     return [normalize_shareable_line(p) for p in parts if len(normalize_shareable_line(p)) >= 10]
 
 def kc_lines(kc):
@@ -1219,7 +1219,7 @@ TABLE = re.compile(r&#34;^\s*\|&#34;)
 def desc_parts(desc):
     flat = &#34; &#34;.join(desc.split())
     parts = [flat]
-    parts.extend(re.split(r&#34;(?&lt;=[.!?])\s+|\s[-—–]\s|;\s+&#34;, flat))
+    parts.extend(re.split(r&#34;(?&lt;=[.!?])\s+|\s[--–]\s|;\s+&#34;, flat))
     return [normalize_shareable_line(p) for p in parts if len(normalize_shareable_line(p)) &gt;= 10]
 
 def overlaps(desc, line):
@@ -1285,7 +1285,7 @@ TABLE = re.compile(r"^\s*\|")
 def desc_parts(desc):
     flat = " ".join(desc.split())
     parts = [flat]
-    parts.extend(re.split(r"(?<=[.!?])\s+|\s[-—–]\s|;\s+", flat))
+    parts.extend(re.split(r"(?<=[.!?])\s+|\s[--–]\s|;\s+", flat))
     return [normalize_shareable_line(p) for p in parts if len(normalize_shareable_line(p)) >= 10]
 
 def overlaps(desc, line):
@@ -1626,11 +1626,11 @@ Fixed the-knowledge-lifecycle.md manually. Key_concept was too thin after s-Rege
 
 _**Agent (auto-low)**_
 
-Done. **144 notes** had their `description` repeated as the first `key_concept` bullet — those duplicates are removed.
+Done. **144 notes** had their `description` repeated as the first `key_concept` bullet - those duplicates are removed.
 
 **What changed**
 
-1. **Content** — Stripped overlapping bullets from `key_concept` across 144 notes. `description` stays the one-breath definition; `key_concept` now only adds angle, examples, and links. Example:
+1. **Content** - Stripped overlapping bullets from `key_concept` across 144 notes. `description` stays the one-breath definition; `key_concept` now only adds angle, examples, and links. Example:
 
 ```5:11:content/english/notes/compounding.md
 key_concept: |
@@ -1642,10 +1642,10 @@ key_concept: |
   - [[Loss of Reward]] is the other side: a bad season shrinks reward, it does not erase [[Free Grace]].
 ```
 
-2. **Lint guard** — `lint-notes-frontmatter.py` now fails if any `key_concept` bullet overlaps the `description` (runs with `pnpm lint:frontmatter` / `pnpm lint:garden`).
+2. **Lint guard** - `lint-notes-frontmatter.py` now fails if any `key_concept` bullet overlaps the `description` (runs with `pnpm lint:frontmatter` / `pnpm lint:garden`).
 
-3. **Fix script** — `scripts/strip-desc-from-key-concept.py` for reruns (`--check` to audit only).
+3. **Fix script** - `scripts/strip-desc-from-key-concept.py` for reruns (`--check` to audit only).
 
-4. **Edge case** — `the-knowledge-lifecycle.md` was left with one bullet after the strip; expanded `key_concept` and fixed `shareable_thought`. Six other notes had `shareable_thought` regenerated.
+4. **Edge case** - `the-knowledge-lifecycle.md` was left with one bullet after the strip; expanded `key_concept` and fixed `shareable_thought`. Six other notes had `shareable_thought` regenerated.
 
 All frontmatter lint passes. `capture.md`-style notes (description and key concept already distinct) were untouched.

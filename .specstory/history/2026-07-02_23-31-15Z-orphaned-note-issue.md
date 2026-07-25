@@ -790,7 +790,7 @@ A semantic error was identified: Building a Second Brain cannot implement the wo
 
 _**Agent (auto-low)**_
 
-Adding inbound wikilinks from natural parent notes — the note only has outbound relationships, so nothing links to it.
+Adding inbound wikilinks from natural parent notes - the note only has outbound relationships, so nothing links to it.
 
 
 _**Agent (auto-low)**_
@@ -954,8 +954,8 @@ _**Agent (auto-low)**_
 
 I added two:
 
-1. **[[Building a Second Brain]]** — key concept now points to the workflow as the day-to-day CODE + PARA loop
-2. **[[Maps of Content]]** — listed under Foundations, right after Building a Second Brain
+1. **[[Building a Second Brain]]** - key concept now points to the workflow as the day-to-day CODE + PARA loop
+2. **[[Maps of Content]]** - listed under Foundations, right after Building a Second Brain
 
 After rebuild: `inDegree: 2`, `orphan: false`. Refresh the graph page and it should drop out of the Orphans filter.
 

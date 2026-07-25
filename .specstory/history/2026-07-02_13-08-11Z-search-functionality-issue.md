@@ -830,7 +830,7 @@ The error points to line 314105, not the start of the file. The image partial is
 
 _**Agent (auto-low)**_
 
-Invalid JSON in `searchindex.json` — that's likely why search fails. I'll trace where the bad characters are coming from.
+Invalid JSON in `searchindex.json` - that's likely why search fails. I'll trace where the bad characters are coming from.
 
 
 _**Agent (auto-low)**_
@@ -1254,7 +1254,7 @@ _**Agent (auto-low)**_
 
 Search was broken because **`searchindex.json` was invalid JSON**.
 
-The Issues note (`content/english/notes/issues.md`) uses a multiline `description:` in frontmatter. The search index template wrapped descriptions in manual quotes with `htmlEscape`, which does not escape newlines for JSON. That put a literal line break inside the string and broke parsing for the **entire** index — so `fetch(indexURL).json()` failed silently and search showed nothing.
+The Issues note (`content/english/notes/issues.md`) uses a multiline `description:` in frontmatter. The search index template wrapped descriptions in manual quotes with `htmlEscape`, which does not escape newlines for JSON. That put a literal line break inside the string and broke parsing for the **entire** index - so `fetch(indexURL).json()` failed silently and search showed nothing.
 
 **Fix:** in `layouts/_default/list.searchindex.json`, string fields now use Hugo's `jsonify` filter instead of manual quoting:
 
@@ -1941,7 +1941,7 @@ all passed
 
 _**Agent (auto-low)**_
 
-Added a runnable search test suite — no new test framework.
+Added a runnable search test suite - no new test framework.
 
 ### Run it
 
@@ -1957,7 +1957,7 @@ node scripts/test-search.mjs --build
 
 ### What it covers
 
-**`scripts/test-search.mjs`** — end-to-end checks:
+**`scripts/test-search.mjs`** - end-to-end checks:
 
 | Area | Checks |
 |------|--------|
@@ -1970,9 +1970,9 @@ node scripts/test-search.mjs --build
 | **Section filter** | Grouped search returns expected results |
 | **HTML wiring** | `indexURL`, `includeSectionsInSearch`, modal, input, open trigger, JS bundle |
 
-**`scripts/search-core.mjs`** — pure match/rank helpers mirrored from `assets/js/search.js` (marked with a `ponytail:` comment to keep in sync).
+**`scripts/search-core.mjs`** - pure match/rank helpers mirrored from `assets/js/search.js` (marked with a `ponytail:` comment to keep in sync).
 
-Modal keyboard shortcuts and open/close behavior aren’t covered here — that would need a browser test. This suite catches the JSON breakage that took search down, plus the core query logic.
+Modal keyboard shortcuts and open/close behavior aren’t covered here - that would need a browser test. This suite catches the JSON breakage that took search down, plus the core query logic.
 
 Want this wired into `pnpm build` or CI as a gate?
 
@@ -4565,7 +4565,7 @@ Found duplicate "Links from this Note" sections on the page. Will fix index page
 
 _**Agent (auto-low)**_
 
-The main problem is duplicate link cards on hub pages—the body already lists every child note. I'll hide that redundant section and tighten the copy-button row on small screens.
+The main problem is duplicate link cards on hub pages-the body already lists every child note. I'll hide that redundant section and tighten the copy-button row on small screens.
 
 
 _**Agent (auto-low)**_
@@ -4798,14 +4798,14 @@ _**Agent (auto-low)**_
 
 On `/notes/pressure-reveals-weakness/` the main problem was **duplicate navigation**.
 
-This is a hub/MOC page (`note_kind: index`). The body already lists every child note under section headings (Execution, Judgment, etc.), but **"Links from this Note"** was also rendering **14 link cards** — the same wikilinks again, flat, including the four already in the Note Relationships table. That made the page feel broken: long scroll, repeated content, cluttered on mobile.
+This is a hub/MOC page (`note_kind: index`). The body already lists every child note under section headings (Execution, Judgment, etc.), but **"Links from this Note"** was also rendering **14 link cards** - the same wikilinks again, flat, including the four already in the Note Relationships table. That made the page feel broken: long scroll, repeated content, cluttered on mobile.
 
 ### Fix
 - Hub pages whose **body contains wikilinks** no longer show the redundant "Links from this Note" card grid.
-- Hubs with **no body links** (e.g. Mental Models) still show that section — it's their only link list.
+- Hubs with **no body links** (e.g. Mental Models) still show that section - it's their only link list.
 - On mobile, the **Copy MD / Agent copy / Copy hub cluster** buttons stack in a 2-column grid instead of crowding the title row.
 
-Refresh the page — you should see the structured body sections, then See also / Backlinks, without the duplicate card block in between.
+Refresh the page - you should see the structured body sections, then See also / Backlinks, without the duplicate card block in between.
 
 Still below the article (by design): related blog posts, random note picker, local graph, and backlinks. Say if you want any of those trimmed on hub pages too.
 
@@ -4833,7 +4833,7 @@ The `flex-wrap: nowrap` property is likely causing overflow on mobile. The exist
 
 _**Agent (auto-low)**_
 
-The random-note controls row is overflowing on small screens — I'll fix the select and Shuffle button layout.
+The random-note controls row is overflowing on small screens - I'll fix the select and Shuffle button layout.
 
 
 _**Agent (auto-low)**_
@@ -5008,8 +5008,8 @@ The select was forcing the row wider than the viewport. Native `<select>` elemen
 
 **Fix:** switched `.notes-random-controls` to CSS Grid:
 
-- **Desktop:** `minmax(0, 1fr) auto` — the select gets remaining space but can shrink (`minmax(0, …)` is the important part)
-- **Mobile (≤639px):** single column — select full width, Shuffle button full width below
+- **Desktop:** `minmax(0, 1fr) auto` - the select gets remaining space but can shrink (`minmax(0, …)` is the important part)
+- **Mobile (≤639px):** single column - select full width, Shuffle button full width below
 
 Hard-refresh the page. The dropdown should stay within the container on all breakpoints. Same fix applies to Random Note on note pages and Random Duo.
 
@@ -6446,7 +6446,7 @@ _**Agent (auto-low)**_
 
 Done. The **Review** link is out of the global notes toolbar and only shows on the flashcards flow.
 
-**`layouts/_partials/notes/toolbar.html`** — Review renders only when the active page is `flashcards` or `review`:
+**`layouts/_partials/notes/toolbar.html`** - Review renders only when the active page is `flashcards` or `review`:
 
 ```50:59:layouts/_partials/notes/toolbar.html
     {{- if or (eq $active "flashcards") (eq $active "review") -}}
@@ -6461,9 +6461,9 @@ Done. The **Review** link is out of the global notes toolbar and only shows on t
     {{- end -}}
 ```
 
-**`layouts/notes/cards.html`** — removed the duplicate “Start review” button from the Anki export block; the toolbar link covers that on `/notes/flashcards/`.
+**`layouts/notes/cards.html`** - removed the duplicate “Start review” button from the Anki export block; the toolbar link covers that on `/notes/flashcards/`.
 
 Built HTML checks:
-- `/notes/` — no Review in toolbar
-- `/notes/flashcards/` — Review appears after Flashcards
-- `/notes/review/` — Review stays (highlighted) so you can get back from the review page
+- `/notes/` - no Review in toolbar
+- `/notes/flashcards/` - Review appears after Flashcards
+- `/notes/review/` - Review stays (highlighted) so you can get back from the review page

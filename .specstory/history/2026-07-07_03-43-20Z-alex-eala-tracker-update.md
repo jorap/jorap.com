@@ -327,7 +327,7 @@ Result:
 
 ```json
 {
-  "markdown": "Paolini, Jasmine vs Eala, Alexandra · Round 4 · Wimbledon\n\nMatch details: Paolini, Jasmine vs Eala, Alexandra\n\nWomen's Singles\n\nRound 4\n\nCompleted\n\nJ. Paolini13\n\n646\n\nA. Eala29\n\n463\n\nJasmine Paolini\n\nAlexandra Eala\n\n| Player | J. Paolini | Statistic | A. Eala |\n| --- | --- | --- | --- |\n| 17 | Singles Ranking | 32 |\n| 15 | Doubles Ranking | 126 |\n| Jan 4, 1996 | Birth Date | May 23, 2005 |\n| 5'3\" (160 cm) | Height | — |\n| 4 | Career High Singles Ranking | 70 |\n| 6 | Career High Doubles Ranking | 192 |\n| 2011 | Year Turned Pro | — |\n| Right | Dominant Hand | Left |\n\n| overall | J. Paolini | Statistic | A. Eala |\n| --- | --- | --- | --- |\n| 2 | Aces | 2 |\n| 1 | Double Faults | 3 |\n| 71% (72/102) | 1st Serve % | 56% (49/88) |\n| 61% (44/72) | 1st Serve Points Won | 65% (32/49) |\n| 67% (20/30) | 2nd Serve Points Won | 53% (19/36) |\n| 70% (7/10) | Break Points Saved | 56% (5/9) |\n| 80% (12/15) | Service Games | 71% (10/14) |\n\n| Return | J. Paolini | Statistic | A. Eala |\n| --- | --- | --- | --- |\n| 35% (17/49) | 1st Return Points Won | 39% (28/72) |\n| 47% (17/36) | 2nd Return Points Won | 33% (10/30) |\n| 44% (4/9) | Break Points Won | 30% (3/10) |\n| 29% (4/14) | Return Games | 20% (3/15) |",
+  "markdown": "Paolini, Jasmine vs Eala, Alexandra · Round 4 · Wimbledon\n\nMatch details: Paolini, Jasmine vs Eala, Alexandra\n\nWomen's Singles\n\nRound 4\n\nCompleted\n\nJ. Paolini13\n\n646\n\nA. Eala29\n\n463\n\nJasmine Paolini\n\nAlexandra Eala\n\n| Player | J. Paolini | Statistic | A. Eala |\n| --- | --- | --- | --- |\n| 17 | Singles Ranking | 32 |\n| 15 | Doubles Ranking | 126 |\n| Jan 4, 1996 | Birth Date | May 23, 2005 |\n| 5'3\" (160 cm) | Height | - |\n| 4 | Career High Singles Ranking | 70 |\n| 6 | Career High Doubles Ranking | 192 |\n| 2011 | Year Turned Pro | - |\n| Right | Dominant Hand | Left |\n\n| overall | J. Paolini | Statistic | A. Eala |\n| --- | --- | --- | --- |\n| 2 | Aces | 2 |\n| 1 | Double Faults | 3 |\n| 71% (72/102) | 1st Serve % | 56% (49/88) |\n| 61% (44/72) | 1st Serve Points Won | 65% (32/49) |\n| 67% (20/30) | 2nd Serve Points Won | 53% (19/36) |\n| 70% (7/10) | Break Points Saved | 56% (5/9) |\n| 80% (12/15) | Service Games | 71% (10/14) |\n\n| Return | J. Paolini | Statistic | A. Eala |\n| --- | --- | --- | --- |\n| 35% (17/49) | 1st Return Points Won | 39% (28/72) |\n| 47% (17/36) | 2nd Return Points Won | 33% (10/30) |\n| 44% (4/9) | Break Points Won | 30% (3/10) |\n| 29% (4/14) | Return Games | 20% (3/15) |",
   "url": "https://www.tennis.com/tournaments/wimbledon/matches/j-paolini-vs-a-eala-2026-07-06"
 }
 ```
@@ -668,7 +668,7 @@ Result:
 
 ```json
 {
-  "markdown": "Eala, Alexandra vs Świątek, Iga · Round 3 · Wimbledon\n\nMatch details: Eala, Alexandra vs Świątek, Iga\n\nWomen's Singles\n\nRound 3\n\nCompleted\n\nA. Eala29\n\n7116\n\nI. Świątek3\n\n692\n\nAlexandra Eala\n\nIga Świątek\n\n| Player | A. Eala | Statistic | I. Świątek |\n| --- | --- | --- | --- |\n| 32 | Singles Ranking | 3 |\n| 126 | Doubles Ranking | — |\n| May 23, 2005 | Birth Date | May 31, 2001 |\n| — | Height | 5'9\" (176 cm) |\n| 70 | Career High Singles Ranking | 1 |\n| 192 | Career High Doubles Ranking | 29 |\n| — | Year Turned Pro | 2016 |\n| Left | Dominant Hand | Right |\n\n| overall | A. Eala | Statistic | I. Świątek |\n| --- | --- | --- | --- |\n| 4 | Aces | 1 |\n| 0 | Double Faults | 5 |\n| 62% (63/101) | 1st Serve % | 68% (47/69) |\n| 57% (36/63) | 1st Serve Points Won | 57% (27/47) |\n| 55% (21/38) | 2nd Serve Points Won | 41% (7/17) |\n| 73% (8/11) | Break Points Saved | 29% (2/7) |\n| 70% (7/10) | Service Games | 50% (5/10) |\n\n| Return | A. Eala | Statistic | I. Świątek |\n| --- | --- | --- | --- |\n| 43% (20/47) | 1st Return Points Won | 43% (27/63) |\n| 59% (10/17) | 2nd Return Points Won | 45% (17/38) |\n| 71% (5/7) | Break Points Won | 27% (3/11) |\n| 50% (5/10) | Return Games | 30% (3/10) |",
+  "markdown": "Eala, Alexandra vs Świątek, Iga · Round 3 · Wimbledon\n\nMatch details: Eala, Alexandra vs Świątek, Iga\n\nWomen's Singles\n\nRound 3\n\nCompleted\n\nA. Eala29\n\n7116\n\nI. Świątek3\n\n692\n\nAlexandra Eala\n\nIga Świątek\n\n| Player | A. Eala | Statistic | I. Świątek |\n| --- | --- | --- | --- |\n| 32 | Singles Ranking | 3 |\n| 126 | Doubles Ranking | - |\n| May 23, 2005 | Birth Date | May 31, 2001 |\n| - | Height | 5'9\" (176 cm) |\n| 70 | Career High Singles Ranking | 1 |\n| 192 | Career High Doubles Ranking | 29 |\n| - | Year Turned Pro | 2016 |\n| Left | Dominant Hand | Right |\n\n| overall | A. Eala | Statistic | I. Świątek |\n| --- | --- | --- | --- |\n| 4 | Aces | 1 |\n| 0 | Double Faults | 5 |\n| 62% (63/101) | 1st Serve % | 68% (47/69) |\n| 57% (36/63) | 1st Serve Points Won | 57% (27/47) |\n| 55% (21/38) | 2nd Serve Points Won | 41% (7/17) |\n| 73% (8/11) | Break Points Saved | 29% (2/7) |\n| 70% (7/10) | Service Games | 50% (5/10) |\n\n| Return | A. Eala | Statistic | I. Świątek |\n| --- | --- | --- | --- |\n| 43% (20/47) | 1st Return Points Won | 43% (27/63) |\n| 59% (10/17) | 2nd Return Points Won | 45% (17/38) |\n| 71% (5/7) | Break Points Won | 27% (3/11) |\n| 50% (5/10) | Return Games | 30% (3/10) |",
   "url": "https://www.tennis.com/tournaments/wimbledon/matches/a-eala-vs-i-swiatek-2026-07-04"
 }
 ```
@@ -740,7 +740,7 @@ Result:
   "isFinal": true,
   "references": [
     {
-      "chunk": "Links:\n1. [Alex Eala tops Maya Joint, reaches historic Wimbledon third round](https://sports.inquirer.net/684470/alex-eala-rallies-past-maya-joint-into-historic-wimbledon-third-round)\n2. [Alex Eala earns sweet revenge vs Maya Joint to extend Wimbledon run](https://www.rappler.com/sports/tennis-alex-eala-maya-joint-wimbledon-july-2-2026/)\n3. [Alex Eala barges into Wimbledon third round after thrilling win over Maya Joint | ABS-CBN Sports](https://www.abs-cbn.com/sports/othersports/2026/7/2/alex-eala-s-wimbledon-dream-remains-alive-after-outlasting-maya-joint-2212)\n4. [Eala advances to Wimbledon second round for the first time](https://www.wtatennis.com/news/4528897/eala-advances-to-wimbledon-second-round-awaits-williams-or-joint)\n5. [Alex Eala nails maiden Wimbledon main draw win with rout of Mexican](https://www.rappler.com/sports/tennis-alex-eala-renata-zarazua-wimbledon-june-30-2026/)\n\nSynthesis:\nAt the 2026 Wimbledon Championships, Alexandra Eala defeated Maya Joint in the second round with a score of 3-6, 6-2, 6-0 [1][2][3]. Eala previously defeated Renata Zarazúa 6-1, 6-2 in the first round [4][5][6].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eAlex Eala tops Maya Joint, reaches historic Wimbledon third round\u003c/title\u003e\n\u003curl\u003ehttps://sports.inquirer.net/684470/alex-eala-rallies-past-maya-joint-into-historic-wimbledon-third-round\u003c/url\u003e\n\u003ccontent\u003eAlex Eala tops Maya Joint, reaches historic Wimbledon third round\n...\n# Alex Eala rallies past Maya Joint into historic Wimbledon third round\n...\nINQUIRER.net/ 10:32 PM July 02, 2026\n...\nAlexandra Eala of the Philippines celebrates winning the second round women’s singles match against Maya Joint of Australia at the Wimbledon Tennis Championships in London, Thursday, July 2, 2026.(AP Photo/Kin Cheung)\n...\nMANILA, Philippines — Alex Eala continues to play her best tennis yet, making history w
+      "chunk": "Links:\n1. [Alex Eala tops Maya Joint, reaches historic Wimbledon third round](https://sports.inquirer.net/684470/alex-eala-rallies-past-maya-joint-into-historic-wimbledon-third-round)\n2. [Alex Eala earns sweet revenge vs Maya Joint to extend Wimbledon run](https://www.rappler.com/sports/tennis-alex-eala-maya-joint-wimbledon-july-2-2026/)\n3. [Alex Eala barges into Wimbledon third round after thrilling win over Maya Joint | ABS-CBN Sports](https://www.abs-cbn.com/sports/othersports/2026/7/2/alex-eala-s-wimbledon-dream-remains-alive-after-outlasting-maya-joint-2212)\n4. [Eala advances to Wimbledon second round for the first time](https://www.wtatennis.com/news/4528897/eala-advances-to-wimbledon-second-round-awaits-williams-or-joint)\n5. [Alex Eala nails maiden Wimbledon main draw win with rout of Mexican](https://www.rappler.com/sports/tennis-alex-eala-renata-zarazua-wimbledon-june-30-2026/)\n\nSynthesis:\nAt the 2026 Wimbledon Championships, Alexandra Eala defeated Maya Joint in the second round with a score of 3-6, 6-2, 6-0 [1][2][3]. Eala previously defeated Renata Zarazúa 6-1, 6-2 in the first round [4][5][6].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eAlex Eala tops Maya Joint, reaches historic Wimbledon third round\u003c/title\u003e\n\u003curl\u003ehttps://sports.inquirer.net/684470/alex-eala-rallies-past-maya-joint-into-historic-wimbledon-third-round\u003c/url\u003e\n\u003ccontent\u003eAlex Eala tops Maya Joint, reaches historic Wimbledon third round\n...\n# Alex Eala rallies past Maya Joint into historic Wimbledon third round\n...\nINQUIRER.net/ 10:32 PM July 02, 2026\n...\nAlexandra Eala of the Philippines celebrates winning the second round women’s singles match against Maya Joint of Australia at the Wimbledon Tennis Championships in London, Thursday, July 2, 2026.(AP Photo/Kin Cheung)\n...\nMANILA, Philippines - Alex Eala continues to play her best tennis yet, making history w
 … (output truncated)
 ```
 User decision: **accepted**
@@ -772,7 +772,7 @@ Result:
 
 ```json
 {
-  "markdown": "Eala, Alexandra vs Joint, Maya · Round 2 · Wimbledon\n\nMatch details: Eala, Alexandra vs Joint, Maya\n\nWomen's Singles\n\nRound 2\n\nCompleted\n\nA. Eala29\n\n366\n\nM. Joint\n\n620\n\nAlexandra Eala\n\nMaya Joint\n\n| Player | A. Eala | Statistic | M. Joint |\n| --- | --- | --- | --- |\n| 32 | Singles Ranking | 87 |\n| 126 | Doubles Ranking | 45 |\n| May 23, 2005 | Birth Date | Apr 16, 2006 |\n| — | Height | — |\n| 70 | Career High Singles Ranking | 78 |\n| 192 | Career High Doubles Ranking | 152 |\n| — | Year Turned Pro | — |\n| Left | Dominant Hand | — |\n\n| overall | A. Eala | Statistic | M. Joint |\n| --- | --- | --- | --- |\n| 4 | Aces | 1 |\n| 2 | Double Faults | 3 |\n| 60% (48/80) | 1st Serve % | 56% (54/97) |\n| 56% (27/48) | 1st Serve Points Won | 54% (29/54) |\n| 72% (21/29) | 2nd Serve Points Won | 55% (21/38) |\n| 67% (4/6) | Break Points Saved | 74% (14/19) |\n| 83% (10/12) | Service Games | 55% (6/11) |\n\n| Return | A. Eala | Statistic | M. Joint |\n| --- | --- | --- | --- |\n| 46% (25/54) | 1st Return Points Won | 44% (21/48) |\n| 45% (17/38) | 2nd Return Points Won | 28% (8/29) |\n| 26% (5/19) | Break Points Won | 33% (2/6) |\n| 45% (5/11) | Return Games | 17% (2/12) |",
+  "markdown": "Eala, Alexandra vs Joint, Maya · Round 2 · Wimbledon\n\nMatch details: Eala, Alexandra vs Joint, Maya\n\nWomen's Singles\n\nRound 2\n\nCompleted\n\nA. Eala29\n\n366\n\nM. Joint\n\n620\n\nAlexandra Eala\n\nMaya Joint\n\n| Player | A. Eala | Statistic | M. Joint |\n| --- | --- | --- | --- |\n| 32 | Singles Ranking | 87 |\n| 126 | Doubles Ranking | 45 |\n| May 23, 2005 | Birth Date | Apr 16, 2006 |\n| - | Height | - |\n| 70 | Career High Singles Ranking | 78 |\n| 192 | Career High Doubles Ranking | 152 |\n| - | Year Turned Pro | - |\n| Left | Dominant Hand | - |\n\n| overall | A. Eala | Statistic | M. Joint |\n| --- | --- | --- | --- |\n| 4 | Aces | 1 |\n| 2 | Double Faults | 3 |\n| 60% (48/80) | 1st Serve % | 56% (54/97) |\n| 56% (27/48) | 1st Serve Points Won | 54% (29/54) |\n| 72% (21/29) | 2nd Serve Points Won | 55% (21/38) |\n| 67% (4/6) | Break Points Saved | 74% (14/19) |\n| 83% (10/12) | Service Games | 55% (6/11) |\n\n| Return | A. Eala | Statistic | M. Joint |\n| --- | --- | --- | --- |\n| 46% (25/54) | 1st Return Points Won | 44% (21/48) |\n| 45% (17/38) | 2nd Return Points Won | 28% (8/29) |\n| 26% (5/19) | Break Points Won | 33% (2/6) |\n| 45% (5/11) | Return Games | 17% (2/12) |",
   "url": "https://www.tennis.com/tournaments/wimbledon/matches/a-eala-vs-m-joint-2026-07-02"
 }
 ```
@@ -798,7 +798,7 @@ Result:
 
 ```json
 {
-  "markdown": "Eala, Alexandra vs Zarazúa, Renata · Round 1 · Wimbledon\n\nMatch details: Eala, Alexandra vs Zarazúa, Renata\n\nWomen's Singles\n\nRound 1\n\nCompleted\n\nA. Eala29\n\n66\n\nR. Zarazúa\n\n12\n\nAlexandra Eala\n\nRenata Zarazúa\n\n| Player | A. Eala | Statistic | R. Zarazúa |\n| --- | --- | --- | --- |\n| 32 | Singles Ranking | 75 |\n| 126 | Doubles Ranking | 204 |\n| May 23, 2005 | Birth Date | Sep 30, 1997 |\n| — | Height | 5'3\" (160 cm) |\n| 70 | Career High Singles Ranking | 51 |\n| 192 | Career High Doubles Ranking | 87 |\n| — | Year Turned Pro | 2014 |\n| Left | Dominant Hand | Right |\n\n| overall | A. Eala | Statistic | R. Zarazúa |\n| --- | --- | --- | --- |\n| 0 | Aces | 0 |\n| 0 | Double Faults | 0 |\n| 60% (29/48) | 1st Serve % | 79% (45/57) |\n| 83% (24/29) | 1st Serve Points Won | 56% (25/45) |\n| 63% (12/19) | 2nd Serve Points Won | 33% (4/12) |\n| 100% (2/2) | Break Points Saved | 76% (13/17) |\n| 100% (8/8) | Service Games | 43% (3/7) |\n\n| Return | A. Eala | Statistic | R. Zarazúa |\n| --- | --- | --- | --- |\n| 44% (20/45) | 1st Return Points Won | 17% (5/29) |\n| 67% (8/12) | 2nd Return Points Won | 37% (7/19) |\n| 24% (4/17) | Break Points Won | 0% (0/2) |\n| 57% (4/7) | Return Games | 0% (0/8) |",
+  "markdown": "Eala, Alexandra vs Zarazúa, Renata · Round 1 · Wimbledon\n\nMatch details: Eala, Alexandra vs Zarazúa, Renata\n\nWomen's Singles\n\nRound 1\n\nCompleted\n\nA. Eala29\n\n66\n\nR. Zarazúa\n\n12\n\nAlexandra Eala\n\nRenata Zarazúa\n\n| Player | A. Eala | Statistic | R. Zarazúa |\n| --- | --- | --- | --- |\n| 32 | Singles Ranking | 75 |\n| 126 | Doubles Ranking | 204 |\n| May 23, 2005 | Birth Date | Sep 30, 1997 |\n| - | Height | 5'3\" (160 cm) |\n| 70 | Career High Singles Ranking | 51 |\n| 192 | Career High Doubles Ranking | 87 |\n| - | Year Turned Pro | 2014 |\n| Left | Dominant Hand | Right |\n\n| overall | A. Eala | Statistic | R. Zarazúa |\n| --- | --- | --- | --- |\n| 0 | Aces | 0 |\n| 0 | Double Faults | 0 |\n| 60% (29/48) | 1st Serve % | 79% (45/57) |\n| 83% (24/29) | 1st Serve Points Won | 56% (25/45) |\n| 63% (12/19) | 2nd Serve Points Won | 33% (4/12) |\n| 100% (2/2) | Break Points Saved | 76% (13/17) |\n| 100% (8/8) | Service Games | 43% (3/7) |\n\n| Return | A. Eala | Statistic | R. Zarazúa |\n| --- | --- | --- | --- |\n| 44% (20/45) | 1st Return Points Won | 17% (5/29) |\n| 67% (8/12) | 2nd Return Points Won | 37% (7/19) |\n| 24% (4/17) | Break Points Won | 0% (0/2) |\n| 57% (4/7) | Return Games | 0% (0/8) |",
   "url": "https://www.tennis.com/tournaments/wimbledon/matches/a-eala-vs-r-zarazua-2026-06-30"
 }
 ```
@@ -1329,7 +1329,7 @@ Updated the tracker after Eala’s Wimbledon exit to Paolini.
 - Kept Joint 2nd-round highlight (`bgSs0pKIAGI`); Swiatek extended highlights stay in the Swiatek H2H block only (dedup rule)
 
 ### Paolini (Other Top 20)
-- Added official Wimbledon highlights embed (`ZsJYg7q0ZnM` — Wimbledon channel)
+- Added official Wimbledon highlights embed (`ZsJYg7q0ZnM` - Wimbledon channel)
 - **Not promoted** to Grand Slam Champions: she has no singles major title (2024 RG/Wimbledon finalist; doubles RG 2025 only)
 
 ### Swiatek H2H
@@ -1340,7 +1340,7 @@ Updated the tracker after Eala’s Wimbledon exit to Paolini.
 
 ### Other checks (no changes)
 - Career highs still **No. 29 / No. 88**
-- Best Slam still **Wimbledon 2026 — Round of 16**
+- Best Slam still **Wimbledon 2026 - Round of 16**
 - No new WTA tour results to add (Indian Wells/Linz/Rome were below the QF threshold)
 - Watch list unchanged
 
@@ -1424,7 +1424,7 @@ Previous sessions showed HTTP 200 responses containing "Page Not Found" content.
 
 _**Agent (auto-low)**_
 
-Verifying each Wimbledon URL's page content—not just HTTP status—and cross-checking the WTA score IDs.
+Verifying each Wimbledon URL's page content-not just HTTP status-and cross-checking the WTA score IDs.
 
 
 _**Agent (auto-low)**_
@@ -3718,7 +3718,7 @@ The "eala" hits are false positives from the "New Zealand" entry in the country 
 
 _**Agent (auto-low)**_
 
-The earlier check was a false positive — "New Zealand" contains "eala". Verifying with stricter player-name patterns.
+The earlier check was a false positive - "New Zealand" contains "eala". Verifying with stricter player-name patterns.
 
 
 _**Agent (auto-low)**_
@@ -4529,7 +4529,7 @@ Status: **completed**
 
 _**Agent (auto-low)**_
 
-You were right — I verified each URL by checking page content, not just HTTP status.
+You were right - I verified each URL by checking page content, not just HTTP status.
 
 ### What was wrong
 
@@ -4539,7 +4539,7 @@ You were right — I verified each URL by checking page content, not just HTTP s
 | 3rd vs Swiatek | WTA `LS72362774` | **Sakkari vs. Tauson** |
 | 2nd vs Joint | WTA `LS72362773` | Generic WTA homepage (not the Joint match) |
 
-The `/scores/stats/{id}.html` pattern also redirects to the results index with no player names in the HTML — same dead end as `/match/` slugs.
+The `/scores/stats/{id}.html` pattern also redirects to the results index with no player names in the HTML - same dead end as `/match/` slugs.
 
 ### Corrected links (content-verified)
 
@@ -4556,7 +4556,7 @@ Same fixes applied in the Swiatek and Paolini H2H blocks.
 
 I could not find any `wimbledon.com` URL that serves actual match content for these four singles matches (checked `/match/` slugs and `/scores/stats/` IDs). Every candidate either 404s or redirects to the generic results page. Other Slams still have official links where they work (e.g. `ausopen.com`, `rolandgarros.com`, `usopen.org`).
 
-If you want a Wimbledon fallback anyway, the least-wrong option is the [results hub](https://www.wimbledon.com/en_GB/scores/results) — but it is not match-specific.
+If you want a Wimbledon fallback anyway, the least-wrong option is the [results hub](https://www.wimbledon.com/en_GB/scores/results) - but it is not match-specific.
 
 ---
 
@@ -4656,7 +4656,7 @@ _**Agent (auto-low)**_
 
 The WTA ID scans finished. They turned up two Eala/Swiatek-related pages in the `723627xx` range:
 
-- **`LS72362772`** — Eala vs. Zarazua (R1) — already correct in the tracker
-- **`LS72362766`** — Townsend vs. Swiatek — a different match, not Eala
+- **`LS72362772`** - Eala vs. Zarazua (R1) - already correct in the tracker
+- **`LS72362766`** - Townsend vs. Swiatek - a different match, not Eala
 
 Nothing in that range is the Swiatek vs. Eala third-round match. That one sits at **`LS72320392`** in the `723204xx` block, which the tracker already uses. No further edits needed.

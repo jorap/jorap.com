@@ -310,7 +310,7 @@ Updating flashcards across all notes.</details></think>
 
 _**Agent (default)**_
 
-Auditing all flashcard decks against the skill—finding every note with cards and reviewing them for vocabulary, cue→apply, and voice.
+Auditing all flashcard decks against the skill-finding every note with cards and reviewing them for vocabulary, cue→apply, and voice.
 
 
 _**Agent (default)**_

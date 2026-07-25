@@ -54,7 +54,7 @@ Result:
           },
           {
             "lineNumber": 3,
-            "text": "  \"description\": \"JoRap Notes — personal blog and portfolio (Hugo + Tailwind).\","
+            "text": "  \"description\": \"JoRap Notes - personal blog and portfolio (Hugo + Tailwind).\","
           },
           {
             "lineNumber": 4,
@@ -640,7 +640,7 @@ Result:
           },
           {
             "lineNumber": 63,
-            "text": "To sync Hugoplate or Impeccable upstreams, use the &#96;sync-upstreams&#96; Cursor skill — not the old Hugoplate one-shot setup scripts."
+            "text": "To sync Hugoplate or Impeccable upstreams, use the &#96;sync-upstreams&#96; Cursor skill - not the old Hugoplate one-shot setup scripts."
           },
           {
             "lineNumber": 64
@@ -1257,7 +1257,7 @@ Result:
           },
           {
             "lineNumber": 4,
-            "text": " * Runs theme generation, note dates, Hugo, and CSP hashing — never bare &#96;hugo&#96;."
+            "text": " * Runs theme generation, note dates, Hugo, and CSP hashing - never bare &#96;hugo&#96;."
           },
           {
             "lineNumber": 5,
@@ -2054,7 +2054,7 @@ Result:
         "detailedLines": [
           {
             "lineNumber": 1,
-            "text": "# Cloudflare Pages — output dir for the V2 build system."
+            "text": "# Cloudflare Pages - output dir for the V2 build system."
           },
           {
             "lineNumber": 2,
@@ -2062,11 +2062,11 @@ Result:
           },
           {
             "lineNumber": 3,
-            "text": "#   (CF runs pnpm install automatically; avoid npm run build — extra hop.)"
+            "text": "#   (CF runs pnpm install automatically; avoid npm run build - extra hop.)"
           },
           {
             "lineNumber": 4,
-            "text": "# Dashboard env (optional — deployBuild auto-installs pinned Hugo if PATH is wrong):"
+            "text": "# Dashboard env (optional - deployBuild auto-installs pinned Hugo if PATH is wrong):"
           },
           {
             "lineNumber": 5,
@@ -2184,7 +2184,7 @@ Result:
           },
           {
             "lineNumber": 23,
-            "text": "- If you get 404: Functions deployment issue — check the **Functions** tab in the dashboard"
+            "text": "- If you get 404: Functions deployment issue - check the **Functions** tab in the dashboard"
           },
           {
             "lineNumber": 24
@@ -3928,7 +3928,7 @@ Result:
           },
           {
             "lineNumber": 2,
-            "text": "  Random garden note — blog posts (scope blog) or note pages (scope notes)."
+            "text": "  Random garden note - blog posts (scope blog) or note pages (scope notes)."
           },
           {
             "lineNumber": 3,
@@ -4565,7 +4565,7 @@ Result:
         "detailedLines": [
           {
             "lineNumber": 71,
-            "text": "| &#96;meta&#96; | Tool surface (Graph, Issues, Review, etc.) | Skip | No — URL only |"
+            "text": "| &#96;meta&#96; | Tool surface (Graph, Issues, Review, etc.) | Skip | No - URL only |"
           },
           {
             "lineNumber": 72
@@ -4579,7 +4579,7 @@ Result:
           },
           {
             "lineNumber": 75,
-            "text": "These pages are **meta tools** (&#96;note_kind: meta&#96;), not garden ideas: [Graph](/notes/graph/), [Issues](/notes/issues/), [Flashcards](/notes/flashcards/), [Review](/notes/review/), [Backlinks](/notes/backlinks/), [Random Duo](/notes/random-duo/). They are excluded from the graph node set, random pickers, and flashcard sources. **No &#96;## Note Relationships&#96; table** on utility pages — link by URL when pointing readers at a tool. **Don't &#96;[[wikilink]]&#96; to them** from content notes. &#96;npm run lint:utility-links&#96; catches violations."
+            "text": "These pages are **meta tools** (&#96;note_kind: meta&#96;), not garden ideas: [Graph](/notes/graph/), [Issues](/notes/issues/), [Flashcards](/notes/flashcards/), [Review](/notes/review/), [Backlinks](/notes/backlinks/), [Random Duo](/notes/random-duo/). They are excluded from the graph node set, random pickers, and flashcard sources. **No &#96;## Note Relationships&#96; table** on utility pages - link by URL when pointing readers at a tool. **Don't &#96;[[wikilink]]&#96; to them** from content notes. &#96;npm run lint:utility-links&#96; catches violations."
           },
           {
             "lineNumber": 76
@@ -5014,7 +5014,7 @@ Result:
           },
           {
             "lineNumber": 50,
-            "text": "    copiedLabel: \"Copied — paste in chat\","
+            "text": "    copiedLabel: \"Copied - paste in chat\","
           },
           {
             "lineNumber": 51,
@@ -5917,7 +5917,7 @@ cd /home/jorap/Documents/GitHub/jorap.com && git show HEAD:content/english/notes
 ---
 title: "Build a Reliable Default"
 meta_title: "Build a Reliable Default - What You Do When There's No Time"
-description: "Under pressure you fall back on what's most practiced — make that fallback simple and dependable."
+description: "Under pressure you fall back on what's most practiced - make that fallback simple and dependable."
 date: 2026-06-22T08:00:00Z
 image: "/images/note.jpg"
 categories: ["Ideas", "Leadership", "Tips"]
@@ -6258,7 +6258,7 @@ Run `hugo list future` and `hugo list drafts` to audit content before deploying.
 
 _**Agent (default)**_
 
-Yes — and the gap usually comes from **how local dev builds** vs **how production builds**, not from Hugo “losing” files.
+Yes - and the gap usually comes from **how local dev builds** vs **how production builds**, not from Hugo “losing” files.
 
 I checked your repo and live site. Here’s what’s going on.
 
@@ -6289,11 +6289,11 @@ I confirmed on live:
 
 About **39 notes** are scheduled for `2026-06-22T08:00:00Z`. At ~07:11 UTC they’re still “in the future” for Hugo’s production build. Locally, `--buildFuture` shows them anyway.
 
-After 08:00 UTC they still **won’t appear on live automatically** unless Cloudflare Pages runs a **new build** (push, manual retry, etc.). Hugo is static — there’s no midnight cron in the deploy pipeline.
+After 08:00 UTC they still **won’t appear on live automatically** unless Cloudflare Pages runs a **new build** (push, manual retry, etc.). Hugo is static - there’s no midnight cron in the deploy pipeline.
 
 ### 3. Unpushed / undeployed commits
 
-Live only reflects what Cloudflare built from the last successful deploy. Your tree is currently synced with `origin` at `b15c67c`, so this isn’t the issue today — but it often is when content exists only locally.
+Live only reflects what Cloudflare built from the last successful deploy. Your tree is currently synced with `origin` at `b15c67c`, so this isn’t the issue today - but it often is when content exists only locally.
 
 ---
 
@@ -6315,7 +6315,7 @@ Or step by step:
 pnpm run deploy && pnpm run serve
 ```
 
-After a clean `pnpm run deploy`, future notes like `build-a-reliable-default` are **not** in `public/` — matching live.
+After a clean `pnpm run deploy`, future notes like `build-a-reliable-default` are **not** in `public/` - matching live.
 
 ---
 

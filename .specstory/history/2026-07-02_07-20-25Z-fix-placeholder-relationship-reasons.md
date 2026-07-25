@@ -444,9 +444,9 @@ Reversibility.md → Life Before Achievement reason is drafted: irreversible bet
 
 Incident-investigation.md → Heed Every Near-Miss reason is drafted: investigation starts where near-misses were logged. Incident-investigation.md → Own the Error reason is drafted: blameless ownership feeds system-level investigation. CRDT.md → Local-first Software reason is drafted: merge without a master server. Layered-reading.md → Literature Notes reason is drafted: pass through at increasing depth.
 
-Layered-reading.md → Progressive Summarization reason is drafted: skim, mark, extract—same cousin as progressive layers. Getting-things-done.md → GTD vs PARA reason is drafted: Allen owns the task side of the split. Getting-things-done.md → The Trusted Inbox reason is drafted: trusted inbox is the heart of the loop.
+Layered-reading.md → Progressive Summarization reason is drafted: skim, mark, extract-same cousin as progressive layers. Getting-things-done.md → GTD vs PARA reason is drafted: Allen owns the task side of the split. Getting-things-done.md → The Trusted Inbox reason is drafted: trusted inbox is the heart of the loop.
 
-Attention-economy.md → Digital Minimalism reason is drafted: cut tools before feeds eat the rest of your day. Attention-economy.md → Signal vs Noise reason is drafted: platforms sell noise — you guard signal. Sketchpad.md → Drafting in Public reason is drafted: private sketchpad before you draft in public. Sketchpad.md → The Garage Concept reason is drafted: rough shapes live in the garage before the show.
+Attention-economy.md → Digital Minimalism reason is drafted: cut tools before feeds eat the rest of your day. Attention-economy.md → Signal vs Noise reason is drafted: platforms sell noise - you guard signal. Sketchpad.md → Drafting in Public reason is drafted: private sketchpad before you draft in public. Sketchpad.md → The Garage Concept reason is drafted: rough shapes live in the garage before the show.
 
 Hierarchy-of-controls.md → Eliminate Before Managing reason is drafted: elimination tops the hierarchy, warnings come last.
 
@@ -458,15 +458,15 @@ Tony-buzan.md → Mind Mapping reason is drafted: mind mapping is the method, Bu
 
 Buzan reason refined to "Buzan is the name on the workshop slide." Spaced repetition reason drafted for forgetting-curve.md: spaced touch fights the curve's steep drop. Building a Personal API reason drafted for webhooks.md: callbacks are one pipe in a personal API. Life Before Achievement reason drafted for ethical-leadership.md: walked-past standards shouldn't buy achievement at people's expense.
 
-Servant Leadership reason drafted for ethical-leadership.md: serve the team — authority protects, not spectacle. Metadata Strategy reason drafted for taxonomy.md: strategy plans tags; taxonomy is the short list you’d click. PARA Method reason drafted for taxonomy.md: folders are taxonomy you actually navigate. Context-Aware Capture reason drafted for voice-memos.md: capture when hands are busy.
+Servant Leadership reason drafted for ethical-leadership.md: serve the team - authority protects, not spectacle. Metadata Strategy reason drafted for taxonomy.md: strategy plans tags; taxonomy is the short list you’d click. PARA Method reason drafted for taxonomy.md: folders are taxonomy you actually navigate. Context-Aware Capture reason drafted for voice-memos.md: capture when hands are busy.
 
 Voice-memos.md → Mobile Capture Workflows reason drafted: dictation lane when thumbs can't type. Safety-by-design.md → Eliminate Before Managing reason drafted: design out the hazard before you label it. Safety-by-design.md → Hierarchy of Controls reason drafted: hard-to-cause harm is elimination at the top of the ladder. Read-later-queue.md → The Collector's Fallacy reason drafted.
 
 Read-later-queue.md → The Collector's Fallacy reason drafted: saved links pile up like collected highlights nobody reads. Read-later-queue.md → The Trusted Inbox reason drafted: weekly drain keeps the queue from becoming guilt storage. Elon-musk.md → First Principles Thinking reason drafted: Musk is the pop-culture cite for strip-to-basics thinking. Inbox-zero.md → Getting Things Done reason drafted: process the inbox to empty.
 
-Inbox-zero.md → The Trusted Inbox reason drafted: empty the trusted inbox on schedule — zero is the proof. Literature-notes.md → Intellectual Sourcing reason drafted: source notes start where you track what you read. Literature-notes.md → Progressive Summarization reason drafted: each pass shrinks the source into your words. Lean-startup.md → Minimum Viable Product reason drafted: build the smallest test.
+Inbox-zero.md → The Trusted Inbox reason drafted: empty the trusted inbox on schedule - zero is the proof. Literature-notes.md → Intellectual Sourcing reason drafted: source notes start where you track what you read. Literature-notes.md → Progressive Summarization reason drafted: each pass shrinks the source into your words. Lean-startup.md → Minimum Viable Product reason drafted: build the smallest test.
 
-Coaching-ethics.md → Develop, Don't Endanger reason drafted: develop the person — unsafe drills don't get consent cover. Coaching-ethics.md → Servant Leadership reason drafted: serve people under you — consent isn't a shield for bad drills. Behavioral-economics.md → Decision Quality reason drafted: defaults and friction shape choices more than facts alone.
+Coaching-ethics.md → Develop, Don't Endanger reason drafted: develop the person - unsafe drills don't get consent cover. Coaching-ethics.md → Servant Leadership reason drafted: serve people under you - consent isn't a shield for bad drills. Behavioral-economics.md → Decision Quality reason drafted: defaults and friction shape choices more than facts alone.
 </details></think>
 
 _**Agent (auto-low)**_

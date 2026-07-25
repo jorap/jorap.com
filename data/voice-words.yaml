@@ -1,9 +1,9 @@
-# JoRap voice — words and phrases to flag in site prose.
+# JoRap voice - words and phrases to flag in site prose.
 # Edit this file, then run: pnpm voice:scan (review) or pnpm lint:voice (CI gate).
 #
-# words: fail lint:voice — words JoRap does not use in prose
+# words: fail lint:voice - words JoRap does not use in prose
 # phrases: regex patterns, same strictness
-# review: shown in voice:scan only — garden swaps that may be OK in context
+# review: shown in voice:scan only - garden swaps that may be OK in context
 # gloss: theology/PKM terms that need a plain-English gloss nearby
 #
 # JoRap uses on purpose (not linted): landscape, leverage, utilize, facilitate,
@@ -20,7 +20,7 @@ words:
   revolutionize: change / fix
   utilize: use
   optimal: best / good enough
-  Furthermore: delete — start the sentence
+  Furthermore: delete - start the sentence
   Moreover: delete
   Additionally: delete
   handoff: pass off / pass to client

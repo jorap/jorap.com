@@ -765,11 +765,11 @@ Active Knowledge Curation has 49 connections, one more than Maps of Content's 48
 
 _**Agent (auto-low)**_
 
-The notes homepage now sorts by **wikilink connections** — each note’s degree in the graph (incoming + outgoing links). The most connected note appears first.
+The notes homepage now sorts by **wikilink connections** - each note’s degree in the graph (incoming + outgoing links). The most connected note appears first.
 
 **Changes:**
-1. Added `layouts/_partials/notes/sort-by-connections.html` — builds connection counts from the same graph edge data used by the graph view, then sorts descending by count (title as tiebreaker).
-2. Updated `layouts/notes/list.html` — replaced the featured-first/title sort with the new connection-based sort.
+1. Added `layouts/_partials/notes/sort-by-connections.html` - builds connection counts from the same graph edge data used by the graph view, then sorts descending by count (title as tiebreaker).
+2. Updated `layouts/notes/list.html` - replaced the featured-first/title sort with the new connection-based sort.
 
 Right now **Active Knowledge Curation** (49 connections) is first, followed by **Maps of Content** (48). That order updates automatically as you add or remove `[[wikilinks]]`.
 
@@ -939,7 +939,7 @@ Press Ctrl+C to stop
 
 _**Agent (auto-low)**_
 
-Featured notes are pinned to the top again. Within that group they’re sorted by connections (so **Maps of Content** comes before **Getting Started**), then the rest follow by connection count — **Active Knowledge Curation** first among non-featured notes.
+Featured notes are pinned to the top again. Within that group they’re sorted by connections (so **Maps of Content** comes before **Getting Started**), then the rest follow by connection count - **Active Knowledge Curation** first among non-featured notes.
 
 ---
 
@@ -1523,4 +1523,4 @@ _**Agent (auto-low)**_
 
 _**Agent (auto-low)**_
 
-Done. The 200% default zoom now applies only on `/notes/graph/`, detected via the `notes-graph-panel--page` class on that page. Local graphs on individual note pages stay at normal auto-fit zoom. Hard-refresh if you still see the old behavior — the JS may be cached.
+Done. The 200% default zoom now applies only on `/notes/graph/`, detected via the `notes-graph-panel--page` class on that page. Local graphs on individual note pages stay at normal auto-fit zoom. Hard-refresh if you still see the old behavior - the JS may be cached.

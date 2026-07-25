@@ -184,7 +184,7 @@ _**Agent (auto-high)**_
 
 _**Agent (auto-high)**_
 
-Yes — Swiper's `loop: true` mode is bidirectional. When loop is enabled, going "previous" from the first slide wraps around to the last slide, and going "next" from the last slide wraps back to the first. There isn't a separate setting for "loop only at the start" or "loop only at the end" — it's all-or-nothing.
+Yes - Swiper's `loop: true` mode is bidirectional. When loop is enabled, going "previous" from the first slide wraps around to the last slide, and going "next" from the last slide wraps back to the first. There isn't a separate setting for "loop only at the start" or "loop only at the end" - it's all-or-nothing.
 
 Your testimonial slider already has it enabled here:
 
@@ -199,10 +199,10 @@ Your testimonial slider already has it enabled here:
 
 A few related options if "loop at the beginning" means something more specific to you:
 
-- **`rewind: true`** — alternative to `loop`. Instead of the seamless infinite-clone trick, when reaching the end (or beginning) it jumps back to slide 1 (or last). Cheaper, but the transition isn't seamless. Note: `loop` and `rewind` can't both be enabled.
-- **`loopAdditionalSlides`** — controls how many extra cloned slides Swiper renders on each side. Useful if you see flickering when wrapping from the first slide back to the last.
-- **`initialSlide: 0`** — just sets the slide the carousel opens on (0 is the default first slide).
+- **`rewind: true`** - alternative to `loop`. Instead of the seamless infinite-clone trick, when reaching the end (or beginning) it jumps back to slide 1 (or last). Cheaper, but the transition isn't seamless. Note: `loop` and `rewind` can't both be enabled.
+- **`loopAdditionalSlides`** - controls how many extra cloned slides Swiper renders on each side. Useful if you see flickering when wrapping from the first slide back to the last.
+- **`initialSlide: 0`** - just sets the slide the carousel opens on (0 is the default first slide).
 
-If you wanted to *disable* backward looping but keep forward looping (e.g. user can swipe forward forever but can't swipe back from slide 1), Swiper doesn't expose that as a flag — you'd have to listen to `slideChange` / `reachBeginning` and conditionally call `slider.allowSlidePrev = false`.
+If you wanted to *disable* backward looping but keep forward looping (e.g. user can swipe forward forever but can't swipe back from slide 1), Swiper doesn't expose that as a flag - you'd have to listen to `slideChange` / `reachBeginning` and conditionally call `slider.allowSlidePrev = false`.
 
 What behavior are you actually trying to get? I can wire it up if you describe the intent.

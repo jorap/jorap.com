@@ -1,4 +1,4 @@
-# TODO — JoRap Notes
+# TODO - JoRap Notes
 
 Working backlog. Shipped items stay listed for context; open items are what to pick up next.
 
@@ -8,7 +8,7 @@ Working backlog. Shipped items stay listed for context; open items are what to p
 
 ## Shipped (reference)
 
-Recent work already live or documented — no action unless regressing:
+Recent work already live or documented - no action unless regressing:
 
 - Skip-to-content link, nav keyboard nav, theme-switcher a11y
 - 44px touch targets and `focus-visible` rings (nav, filters, buttons, footer)
@@ -26,31 +26,31 @@ Recent work already live or documented — no action unless regressing:
 
 ---
 
-## Open — high value
+## Open - high value
 
-- [ ] **Site-wide voice review** — [CONTENT_VOICE_REVIEW.md](./CONTENT_VOICE_REVIEW.md): Sonnet 5 (Thinking) bulk pass, Opus 4.8 (Thinking) escalations, Composer for mechanical fixes only (~15 blogs + ~214 notes)
-- [ ] **Critical CSS / above-the-fold CSS** — inline or early-load key shell styles to improve FCP on slow networks
-- [ ] **Core Web Vitals pass** — run PageSpeed on home, blog post, notes list; fix any LCP/CLS regressions
-- [ ] **Image audit** — WebP/AVIF where missing; explicit dimensions on content images to prevent CLS
-- [ ] **Privacy policy refresh** — align with GTM, Cloudflare Web Analytics, Disqus embeds actually in use
+- [ ] **Site-wide voice review** - [CONTENT_VOICE_REVIEW.md](./CONTENT_VOICE_REVIEW.md): Sonnet 5 (Thinking) bulk pass, Opus 4.8 (Thinking) escalations, Composer for mechanical fixes only (~15 blogs + ~214 notes)
+- [ ] **Critical CSS / above-the-fold CSS** - inline or early-load key shell styles to improve FCP on slow networks
+- [ ] **Core Web Vitals pass** - run PageSpeed on home, blog post, notes list; fix any LCP/CLS regressions
+- [ ] **Image audit** - WebP/AVIF where missing; explicit dimensions on content images to prevent CLS
+- [ ] **Privacy policy refresh** - align with GTM, Cloudflare Web Analytics, Disqus embeds actually in use
 
 ---
 
-## Open — medium
+## Open - medium
 
 - [ ] **Reading progress bar** on long blog posts (optional; must respect reduced motion)
 - [ ] **Archive by date** page for blog (if SEO/discovery warrants it)
-- [ ] **Newsletter signup** — only if there is a sending workflow behind it
-- [ ] **Structured data audit** — Article/Person/BreadcrumbList JSON-LD consistency
-- [ ] **ESLint for `assets/js`** — catch regressions in graph/flashcard modules
+- [ ] **Newsletter signup** - only if there is a sending workflow behind it
+- [ ] **Structured data audit** - Article/Person/BreadcrumbList JSON-LD consistency
+- [ ] **ESLint for `assets/js`** - catch regressions in graph/flashcard modules
 
 ---
 
-## Open — low / exploratory
+## Open - low / exploratory
 
-- [ ] **Service worker / offline** — PWA module exists upstream; evaluate cost vs benefit on Cloudflare free tier
-- [ ] **Design direction prototype** — pick one page to try an alternative from `DESIGN.md` (institutional, typographic, committed color)
-- [ ] **Component extraction** — only if a third surface repeats the same markup; avoid premature abstraction
+- [ ] **Service worker / offline** - PWA module exists upstream; evaluate cost vs benefit on Cloudflare free tier
+- [ ] **Design direction prototype** - pick one page to try an alternative from `DESIGN.md` (institutional, typographic, committed color)
+- [ ] **Component extraction** - only if a third surface repeats the same markup; avoid premature abstraction
 
 ---
 

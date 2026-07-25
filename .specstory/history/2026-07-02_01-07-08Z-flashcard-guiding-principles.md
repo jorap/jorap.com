@@ -608,7 +608,7 @@ Updated the flashcard guiding principles across the skill, examples, and site me
 
 **What stayed the same:** cue→move card shape, six-card spine decks, lint rules, jorap-voice requirements, and the existing card content in the garden.
 
-Individual note decks weren’t audited against the new bar — say if you want a pass on decks that fail the keep-a-card rule or lean too hard on trivia.
+Individual note decks weren’t audited against the new bar - say if you want a pass on decks that fail the keep-a-card rule or lean too hard on trivia.
 
 ---
 
@@ -811,7 +811,7 @@ FIRST_PERSON = re.compile(r&#34;\b(I|I&#39;m|I&#39;ve|I&#39;d|my|me|we)\b&#34;, 
 DEFINITION_PATTERNS = [
     (re.compile(r&#34;^(.+?) is (?:the |a |an )&#34;, re.I), &#34;X is a/the&#34;),
     (re.compile(r&#34;^(.+?) means &#34;, re.I), &#34;X means&#34;),
-    (re.compile(r&#34;^(.+?) — &#34;, re.I), &#34;em-dash gloss&#34;),
+    (re.compile(r&#34;^(.+?) - &#34;, re.I), &#34;em-dash gloss&#34;),
     (re.compile(r&#34;^(.+?) - &#34;, re.I), &#34;dash gloss&#34;),
 ]
 TOO_LONG = 120  # chars
@@ -849,7 +849,7 @@ for p in sorted(NOTES.glob(&#34;*.md&#34;)):
         flags.append(&#34;question not definition&#34;)
     if FIRST_PERSON.search(desc):
         flags.append(&#34;first-person (experience not definition)&#34;)
-    if not re.search(r&#34;\b(is|means|—|-|:)\b&#34;, desc) and not FIRST_PERSON.search(desc):
+    if not re.search(r&#34;\b(is|means|-|-|:)\b&#34;, desc) and not FIRST_PERSON.search(desc):
         flags.append(&#34;no clear definitional shape&#34;)
     
     # memorable definition: short, states what X is/does in plain words
@@ -890,7 +890,7 @@ FIRST_PERSON = re.compile(r"\b(I|I'm|I've|I'd|my|me|we)\b", re.I)
 DEFINITION_PATTERNS = [
     (re.compile(r"^(.+?) is (?:the |a |an )", re.I), "X is a/the"),
     (re.compile(r"^(.+?) means ", re.I), "X means"),
-    (re.compile(r"^(.+?) — ", re.I), "em-dash gloss"),
+    (re.compile(r"^(.+?) - ", re.I), "em-dash gloss"),
     (re.compile(r"^(.+?) - ", re.I), "dash gloss"),
 ]
 TOO_LONG = 120  # chars
@@ -928,7 +928,7 @@ for p in sorted(NOTES.glob("*.md")):
         flags.append("question not definition")
     if FIRST_PERSON.search(desc):
         flags.append("first-person (experience not definition)")
-    if not re.search(r"\b(is|means|—|-|:)\b", desc) and not FIRST_PERSON.search(desc):
+    if not re.search(r"\b(is|means|-|-|:)\b", desc) and not FIRST_PERSON.search(desc):
         flags.append("no clear definitional shape")
     
     # memorable definition: short, states what X is/does in plain words
@@ -1232,7 +1232,7 @@ def score_description(title, slug, desc):
         score -= 2
     
     # memorable definition signals
-    if re.search(r&#39;\b(is|means|—|-|:)\b&#39;, desc):
+    if re.search(r&#39;\b(is|means|-|-|:)\b&#39;, desc):
         score += 1
     if re.search(r&#39;\b(not|instead|before|after|when|until)\b&#39;, desc_lower):
         score += 1  # contrast aids memory
@@ -1339,7 +1339,7 @@ def score_description(title, slug, desc):
         score -= 2
     
     # memorable definition signals
-    if re.search(r'\b(is|means|—|-|:)\b', desc):
+    if re.search(r'\b(is|means|-|-|:)\b', desc):
         score += 1
     if re.search(r'\b(not|instead|before|after|when|until)\b', desc_lower):
         score += 1  # contrast aids memory
@@ -1442,7 +1442,7 @@ def score_description(title, slug, desc):
     if desc.endswith(&#39;?&#39;) and &#39; - &#39; not in desc:
         flags.append(&#34;question only&#34;)
         score -= 2
-    if re.search(r&#39;\b(is|means|—|-|:)\b&#39;, desc):
+    if re.search(r&#39;\b(is|means|-|-|:)\b&#39;, desc):
         score += 1
     if re.search(r&#39;\b(not|instead|before|after|when|until)\b&#39;, desc_lower):
         score += 1
@@ -1539,7 +1539,7 @@ def score_description(title, slug, desc):
     if desc.endswith('?') and ' - ' not in desc:
         flags.append("question only")
         score -= 2
-    if re.search(r'\b(is|means|—|-|:)\b', desc):
+    if re.search(r'\b(is|means|-|-|:)\b', desc):
         score += 1
     if re.search(r'\b(not|instead|before|after|when|until)\b', desc_lower):
         score += 1
@@ -1666,7 +1666,7 @@ def score_description(title, slug, desc):
     if re.match(r&#39;^I (can|aim|run|keep|stop|pick|put|give|owe|charge|shape|merge|judge|treat|build|link|catch|drop|push|protect|slow|name|write|train|check|store|pay|learn|only|bend)&#39;, desc_lower):
         if not any(wd in desc_lower for wd in slug_words if len(wd) &gt; 3):
             flags.append(&#34;unnamed concept&#34;); score -= 2
-    if re.search(r&#39;\b(is|means|—|-|:)\b&#39;, desc): score += 1
+    if re.search(r&#39;\b(is|means|-|-|:)\b&#39;, desc): score += 1
     if re.search(r&#39;\b(not|instead|before|after|when|until)\b&#39;, desc_lower): score += 1
     if w &lt;= 15: score += 1
     return score, flags
@@ -1712,7 +1712,7 @@ def score_description(title, slug, desc):
     if re.match(r'^I (can|aim|run|keep|stop|pick|put|give|owe|charge|shape|merge|judge|treat|build|link|catch|drop|push|protect|slow|name|write|train|check|store|pay|learn|only|bend)', desc_lower):
         if not any(wd in desc_lower for wd in slug_words if len(wd) > 3):
             flags.append("unnamed concept"); score -= 2
-    if re.search(r'\b(is|means|—|-|:)\b', desc): score += 1
+    if re.search(r'\b(is|means|-|-|:)\b', desc): score += 1
     if re.search(r'\b(not|instead|before|after|when|until)\b', desc_lower): score += 1
     if w <= 15: score += 1
     return score, flags
@@ -2027,7 +2027,7 @@ Adding a description recall test to the flashcards skill or voice check.
 
 _**Agent (auto-low)**_
 
-**Yes — that's the design.** `description` is the memorable definition; `key_concept` expands it. The archetype already said "the angle, not a second definition," which only works if `description` carries the definitional claim.
+**Yes - that's the design.** `description` is the memorable definition; `key_concept` expands it. The archetype already said "the angle, not a second definition," which only works if `description` carries the definitional claim.
 
 ## Audit (216 garden notes)
 
@@ -2037,7 +2037,7 @@ _**Agent (auto-low)**_
 | **OK** | 84 | Slightly long or scene-first, but still works as a definition |
 | **Weak** | 10 | Too long, wikilinks, or buried the concept |
 
-**All 216 have a description** — none missing.
+**All 216 have a description** - none missing.
 
 ### What works
 
@@ -2060,7 +2060,7 @@ First-person is fine when it **states the claim**, not just a habit story.
 
 ### Remaining borderline (~9 notes)
 
-Still 23–24 words but readable — e.g. `analog-capture-tools`, `ask-seek-knock`, `share-sheet`. Fine for now; trim only if you want a hard ≤18-word cap everywhere.
+Still 23–24 words but readable - e.g. `analog-capture-tools`, `ask-seek-knock`, `share-sheet`. Fine for now; trim only if you want a hard ≤18-word cap everywhere.
 
 ## Recall test
 
@@ -2854,7 +2854,7 @@ Description lint passed. A comment about the ceiling in the lint script is likel
 
 _**Agent (auto-low)**_
 
-Done — both parts.
+Done - both parts.
 
 ### Borderline pass (9 notes)
 Tightened to memorable definitions, all ≤18 words: `adaptability`, `intellectual-sourcing`, `reconcile-before-the-review`, `static-site-client-scope`, `analog-capture-tools`, `ask-seek-knock`, `heart-righteousness`, `share-sheet`, `there-is-no-perfect-solution`.
@@ -2863,7 +2863,7 @@ Tightened to memorable definitions, all ≤18 words: `adaptability`, `intellectu
 Added to `scripts/lint-notes-frontmatter.py` (already runs via `npm run lint:garden`):
 
 - Garden notes: `description` ≤ **20 words**, no `[[wikilinks]]`
-- Utility/index pages (`note_kind: meta` / `index`) exempt — they use longer SEO blurbs
+- Utility/index pages (`note_kind: meta` / `index`) exempt - they use longer SEO blurbs
 
 ### Extra fixes (15 notes at 21–22 words)
 Caught when the lint ran: `active-knowledge-curation`, `build-a-reliable-default`, `decision-quality`, `joy`, `life-before-achievement`, `love-your-enemies`, `mercy`, `notice-the-good`, `peace`, `pkm`, `rollback-principle`, `safety-by-design`, `selling-static-sites`, `systems-thinking`, `the-narrow-way`.
@@ -3169,7 +3169,7 @@ _**Agent (auto-low)**_
 Updated the **All notes** grid in `layouts/notes/list.html`:
 
 - **Before:** 2 columns (`md:col-6`)
-- **After:** 2 on tablet, **3 on large screens** (`md:col-6 lg:col-4`) — same pattern as related notes and the home writing grid
+- **After:** 2 on tablet, **3 on large screens** (`md:col-6 lg:col-4`) - same pattern as related notes and the home writing grid
 
 Refresh `/notes/` to see it. If you want 3 columns starting at tablet (`md:col-4`), say the word.
 
@@ -4271,10 +4271,10 @@ Follow-Through is the workplace mirror - recap, owners, dates after you said yes
 (with `Follow-Through` highlighted in accent)
 
 ### Changes
-- **`backlinks-index.html`** — pulls full sentences from `key_concept` / examples first; falls back to relationship `reason`; highlights the link text with `<mark>` instead of `…`
-- **`backlink-item.html`** — shared partial: title + snippet (removed “Links here”)
-- **`backlinks.html`** + **`single.html`** — use the new partial
-- **`custom.css`** — highlight style for `.notes-backlink-hit`; dropped quote styling on snippets
+- **`backlinks-index.html`** - pulls full sentences from `key_concept` / examples first; falls back to relationship `reason`; highlights the link text with `<mark>` instead of `…`
+- **`backlink-item.html`** - shared partial: title + snippet (removed “Links here”)
+- **`backlinks.html`** + **`single.html`** - use the new partial
+- **`custom.css`** - highlight style for `.notes-backlink-hit`; dropped quote styling on snippets
 
 Refresh `/notes/backlinks/` or any note’s Backlinks section to see it.
 
@@ -4305,7 +4305,7 @@ The Hugo build completed successfully. The backlink template changes were verifi
 
 _**Agent (auto-low)**_
 
-The Hugo build completed successfully — 2,073 pages, no template errors.
+The Hugo build completed successfully - 2,073 pages, no template errors.
 
 Backlink snippets are working as intended: linking note title plus a full sentence with the wikilink highlighted (e.g. Faithfulness → *“**Follow-Through** is the workplace mirror - recap, owners, dates after you said yes.”*).
 
@@ -4511,9 +4511,9 @@ _**Agent (auto-low)**_
 
 Done.
 
-**3 columns** — Backlink lists on `/notes/backlinks/` and single-note Backlinks sections use `sm:grid-cols-2 lg:grid-cols-3`.
+**3 columns** - Backlink lists on `/notes/backlinks/` and single-note Backlinks sections use `sm:grid-cols-2 lg:grid-cols-3`.
 
-**No brackets** — Snippet sentences strip `[[Note Title]]` down to plain `Note Title`; the target link stays highlighted with `<mark>`.
+**No brackets** - Snippet sentences strip `[[Note Title]]` down to plain `Note Title`; the target link stays highlighted with `<mark>`.
 
 ---
 
@@ -5055,7 +5055,7 @@ for path in sorted(BLOG_DIR.glob(&#39;*.md&#39;)):
             seen.add(s)
             combined.append(s)
     combined = combined[:LIMIT]
-    print(f&#34;{slug}: {&#39;, &#39;.join(combined) if combined else &#39;—&#39;}&#34;)
+    print(f&#34;{slug}: {&#39;, &#39;.join(combined) if combined else &#39;-&#39;}&#34;)
 PY</summary>
 ````bash
 cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
@@ -5152,26 +5152,26 @@ for path in sorted(BLOG_DIR.glob('*.md')):
             seen.add(s)
             combined.append(s)
     combined = combined[:LIMIT]
-    print(f"{slug}: {', '.join(combined) if combined else '—'}")
+    print(f"{slug}: {', '.join(combined) if combined else '-'}")
 PY
 ````
 
 ```
-canon-g3000: —
+canon-g3000: -
 craft-prompt-framework: intellectual-sourcing, the-feynman-technique, evergreen-notes, progressive-summarization, commonplace-book, literature-notes
 drupal-to-wordpress: git-based-cms
-extension-cord: —
+extension-cord: -
 how-to-create-a-good-habit: process-over-outcomes, inbox-zero, information-diet, anti-fragile-systems, periodic-knowledge-review, getting-things-done
 hugo-go-templates: future-proofing-knowledge, metadata-strategy, drafting-in-public, the-garage-concept, digital-garden, building-a-personal-api
 hugo-page-bundles: future-proofing-knowledge, the-garage-concept, digital-garden, git-based-cms, free-tier-hosting-stack, selling-static-sites
 hugo-shortcodes-deep-dive: future-proofing-knowledge, metadata-strategy, drafting-in-public, evergreen-notes, creative-output, the-garage-concept
 hugo-static-site-generator: the-garage-concept, digital-garden, drafting-in-public, sketchpad, free-tier-hosting-stack, selling-static-sites
 jobs-to-be-done-framework: inbox-zero, information-diet, getting-things-done, attention-economy, deep-work, lean-startup
-kewpie-mayo: —
+kewpie-mayo: -
 make-ai-articles-more-human: intellectual-sourcing, the-feynman-technique, evergreen-notes, progressive-summarization, commonplace-book, literature-notes
 markdown-deep-dive: future-proofing-knowledge, evergreen-notes, metadata-strategy, commonplace-book, intellectual-sourcing, the-feynman-technique
 markdown-formatting: evergreen-notes, future-proofing-knowledge, commonplace-book, intellectual-sourcing, the-feynman-technique, drafting-in-public
-mi-box-s: —
+mi-box-s: -
 native-hugo-taxonomies: metadata-strategy, commonplace-book, future-proofing-knowledge, literature-notes, evergreen-vs-fleeting-notes, note-relationships
 obsidian-vs-hugo: the-garage-concept, drafting-in-public, future-proofing-knowledge, digital-garden, note-relationships, commonplace-book
 password-managers: local-first-software, commonplace-book, literature-notes, evergreen-vs-fleeting-notes, note-relationships, analog-capture-tools
@@ -5300,17 +5300,17 @@ cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/audit-blog-related-
 ```
 BLOG SLUG                                            MODE   NOTES
 ----------------------------------------------------------------------------------------------------
-canon-g3000                                          none   —
+canon-g3000                                          none   -
 craft-prompt-framework                               auto   tags: intellectual-sourcing, the-feynman-technique, evergreen-notes, progressive-summarization, commonplace-book, literature-notes | mentions: building-a-second-brain, kindness
 drupal-to-wordpress                                  auto   tags: git-based-cms
-extension-cord                                       none   —
+extension-cord                                       none   -
 how-to-create-a-good-habit                           auto   tags: process-over-outcomes, inbox-zero, information-diet, anti-fragile-systems, periodic-knowledge-review, getting-things-done | mentions: discipline
 hugo-go-templates                                    auto   tags: future-proofing-knowledge, metadata-strategy, drafting-in-public, the-garage-concept, digital-garden, building-a-personal-api
 hugo-page-bundles                                    auto   tags: future-proofing-knowledge, the-garage-concept, digital-garden, git-based-cms, free-tier-hosting-stack, selling-static-sites
 hugo-shortcodes-deep-dive                            auto   tags: future-proofing-knowledge, metadata-strategy, drafting-in-public, evergreen-notes, creative-output, the-garage-concept
 hugo-static-site-generator                           auto   tags: the-garage-concept, digital-garden, drafting-in-public, sketchpad, free-tier-hosting-stack, selling-static-sites
 jobs-to-be-done-framework                            auto   tags: inbox-zero, information-diet, getting-things-done, attention-economy, deep-work, lean-startup | mentions: discipline
-kewpie-mayo                                          none   —
+kewpie-mayo                                          none   -
 make-ai-articles-more-human                          auto   tags: intellectual-sourcing, the-feynman-technique, evergreen-notes, progressive-summarization, commonplace-book, literature-notes
 … (output truncated)
 ```
@@ -8280,14 +8280,14 @@ Category audit is complete. All **223 notes** now follow a consistent four-bucke
 
 | Categories | When |
 |---|---|
-| **Faith, Ideas** | Gospel cluster — `Eternal Principles` (or related gospel) in `card_sets`, and not a workplace translation |
+| **Faith, Ideas** | Gospel cluster - `Eternal Principles` (or related gospel) in `card_sets`, and not a workplace translation |
 | **Ideas, Leadership, Tips** | Workplace + pressure hub members, safety/ops notes, and work/leadership-tagged notes without PKM |
 | **Productivity, Ideas, Tips** | Systems for Growth hub, garden meta pages, PKM/Hugo/capture tags |
 | **Ideas, Tips** | General mental models and thinking tools (default) |
 
-**Overlap rule:** workplace/pressure hub membership wins over growth hub — so notes like `Own the Error` and `Build a Reliable Default` stay **Leadership** even though they also appear in Systems for Growth.
+**Overlap rule:** workplace/pressure hub membership wins over growth hub - so notes like `Own the Error` and `Build a Reliable Default` stay **Leadership** even though they also appear in Systems for Growth.
 
-**Workplace principle:** workplace ethics notes (`Golden Rule at Work`, `Forgiveness at Work`, etc.) get **Leadership**, not **Faith** — matching the hub note: *"Faith stays in the faith cluster."*
+**Workplace principle:** workplace ethics notes (`Golden Rule at Work`, `Forgiveness at Work`, etc.) get **Leadership**, not **Faith** - matching the hub note: *"Faith stays in the faith cluster."*
 
 ## What changed
 
@@ -8301,10 +8301,10 @@ Category audit is complete. All **223 notes** now follow a consistent four-bucke
 | 16 | Ideas, Tips |
 
 Notable moves:
-- **19 workplace notes** — Productivity → Leadership
-- **~25 PKM/growth notes** — Ideas+Tips → Productivity (e.g. `Taxonomy`, `GTD`, `Spaced Repetition` hub members)
-- **~20 safety/leadership notes** — Ideas+Tips → Leadership (e.g. `Blameless Postmortem`, `Psychological Safety`)
-- **3 order-only fixes** — normalized to `Productivity, Ideas, Tips`
+- **19 workplace notes** - Productivity → Leadership
+- **~25 PKM/growth notes** - Ideas+Tips → Productivity (e.g. `Taxonomy`, `GTD`, `Spaced Repetition` hub members)
+- **~20 safety/leadership notes** - Ideas+Tips → Leadership (e.g. `Blameless Postmortem`, `Psychological Safety`)
+- **3 order-only fixes** - normalized to `Productivity, Ideas, Tips`
 
 Hugo build passes. Re-audit anytime with:
 
@@ -10079,7 +10079,7 @@ _**Agent (auto-low)**_
 
 _**Agent (auto-low)**_
 
-**Ideas** is gone from every note — it was on all 223 and didn’t filter anything useful.
+**Ideas** is gone from every note - it was on all 223 and didn’t filter anything useful.
 
 ## New taxonomy
 
@@ -10088,11 +10088,11 @@ _**Agent (auto-low)**_
 | **Faith** | Gospel cluster (53 notes) |
 | **Productivity** | PKM, capture/distill/organize, garden meta, Hugo (62 notes) |
 | **Leadership** | Workplace + pressure hubs, safety/ops, work ethics (56 notes) |
-| **Growth** | Habits, performance loops, personal development — Systems for Growth hub (25 notes) |
+| **Growth** | Habits, performance loops, personal development - Systems for Growth hub (25 notes) |
 | **Thinking** | Mental models and decision lenses (13 notes) |
-| **Tips** | Procedural how-tos only — **14 notes**, always paired with a primary category |
+| **Tips** | Procedural how-tos only - **14 notes**, always paired with a primary category |
 
-**Tips** is no longer a default tag-along. Only notes in the explicit whitelist get it — things like `inbox-zero`, `weekly-review-checklists`, `voice-memos`, `progressive-summarization`. Frameworks like GTD, Second Brain, and Ship It stay **Productivity** or **Growth** without Tips.
+**Tips** is no longer a default tag-along. Only notes in the explicit whitelist get it - things like `inbox-zero`, `weekly-review-checklists`, `voice-memos`, `progressive-summarization`. Frameworks like GTD, Second Brain, and Ship It stay **Productivity** or **Growth** without Tips.
 
 ## Examples
 
@@ -10105,10 +10105,10 @@ _**Agent (auto-low)**_
 ## Updated files
 
 - All 223 note frontmatters
-- `scripts/audit-note-categories.py` — encodes the rules; re-run anytime
+- `scripts/audit-note-categories.py` - encodes the rules; re-run anytime
 - `content/english/notes/_index.md` and `archetypes/notes-review.md`
 
-Hugo build passes. If you want more buckets later — **Relationships**, **Business**, **Safety** as its own filter — say which clusters feel missing and we can extend the script.
+Hugo build passes. If you want more buckets later - **Relationships**, **Business**, **Safety** as its own filter - say which clusters feel missing and we can extend the script.
 
 ---
 

@@ -77,7 +77,7 @@ Step 5 is one standing instruction, not another build step. That’s why **five 
 
 ## 3 vs 4 vs 5
 
-**3 steps** — Best for the closing “if you only take one thing” line and social sharing. Works if you collapse the middle into something like:
+**3 steps** - Best for the closing “if you only take one thing” line and social sharing. Works if you collapse the middle into something like:
 
 1. Name the shapes that repeat  
 2. Have AI build the 80% layer (helper + canonical examples + rules)  
@@ -85,7 +85,7 @@ Step 5 is one standing instruction, not another build step. That’s why **five 
 
 **Downside:** You lose the distinction that matters in the article: the **helper** (identical openings, no drift) vs **canonical examples** (same shape for the rest of the file). Those are different problems; bundling them weakens the “real prize” argument in the middle of the post.
 
-**4 steps** — Sweet spot for this article:
+**4 steps** - Sweet spot for this article:
 
 1. Spot repeating shapes  
 2. Build the helper (boring opening)  
@@ -94,12 +94,12 @@ Step 5 is one standing instruction, not another build step. That’s why **five 
 
 Merge old steps 4 and 5: rules doc + per-task contract are both “governance the AI reads first.” Step 5 doesn’t need its own heading; it’s how you *use* step 4.
 
-**5 steps** — Keep it if you want maximum scanability and you’re okay with step 5 reading lighter than 2–4. It’s defensible because each step maps to a **different artifact** (shapes list → helper → example library → rules doc → prompt habit). Just know readers may remember “helper + examples + rules” as three things anyway (which your “what it feels like” section already does).
+**5 steps** - Keep it if you want maximum scanability and you’re okay with step 5 reading lighter than 2–4. It’s defensible because each step maps to a **different artifact** (shapes list → helper → example library → rules doc → prompt habit). Just know readers may remember “helper + examples + rules” as three things anyway (which your “what it feels like” section already does).
 
 ## Recommendation
 
-- **Default: retitle to a 4-step process** — merge “non-negotiables” and “mirror always” into one governance step.  
-- **Keep 5** only if you add a sentence under step 5 that it’s the **operating habit**, not a fourth file to build — so it doesn’t feel padded.  
+- **Default: retitle to a 4-step process** - merge “non-negotiables” and “mirror always” into one governance step.  
+- **Keep 5** only if you add a sentence under step 5 that it’s the **operating habit**, not a fourth file to build - so it doesn’t feel padded.  
 - **Use 3** in the TL;DR or summary only; keep 4 (or 5) in the main section so you don’t flatten the helper vs. examples insight.
 
 Also align the headline with the body: the H2 says “5-step” but the payoff list is four behaviors (helper → mirror → rules → cite). Pick one number and make the “feels like” list match that structure.
@@ -244,9 +244,9 @@ _**Agent (auto-low)**_
 
 Updated the post to a **4-step process**:
 
-1. **Heading** — `The 5-step process` → `The 4-step process`
-2. **Step 4** — Merged the old steps 4 and 5 into **“Codify the rules and the standing contract”** (non-negotiables doc + the “use the helper, mirror, follow the rules” instruction, with a note to put both where the AI reads them first)
-3. **“What it feels like”** — `Once those five things exist` → `Once those four pieces are in place`
+1. **Heading** - `The 5-step process` → `The 4-step process`
+2. **Step 4** - Merged the old steps 4 and 5 into **“Codify the rules and the standing contract”** (non-negotiables doc + the “use the helper, mirror, follow the rules” instruction, with a note to put both where the AI reads them first)
+3. **“What it feels like”** - `Once those five things exist` → `Once those four pieces are in place`
 
 Steps 1–3 are unchanged. The closing section already matched the 4-step flow, so it was left as-is.
 
@@ -391,9 +391,9 @@ _**Agent (auto-low)**_
 
 Updated the 20% thread in two places:
 
-1. **Teaser** — It now points to improvement and creativity, not only integrations and edge cases.
+1. **Teaser** - It now points to improvement and creativity, not only integrations and edge cases.
 
-2. **Section renamed** — `The weird 20%` → **The other 20%**, with a clearer angle:
+2. **Section renamed** - `The weird 20%` → **The other 20%**, with a clearer angle:
    - That slice is where you’re allowed to improve, experiment, and be creative
    - A tight 80% layer frees attention for that work
    - The “stop and ask” line stays as a **guardrail**, not the whole story
@@ -1231,7 +1231,7 @@ Here are solid alternatives, grouped by angle. Your current title is **benefit +
 - **The Consistency Problem Nobody Warns You About with AI Coding**
 
 ### 80/20 framing (closest to current)
-- **Use AI for the 80% That Repeats—Save Creativity for the Rest**
+- **Use AI for the 80% That Repeats-Save Creativity for the Rest**
 - **The 80% Layer: How I Made AI Output Match Every Time**
 - **Don’t Ask AI for Features. Ask It for the Code That Builds Them the Same Way.**
 - **Build Once with AI, Ship Forty Features That Look Identical**
@@ -1244,7 +1244,7 @@ Here are solid alternatives, grouped by angle. Your current title is **benefit +
 
 ### Contrarian / punchy (fits posts like the mouse-wheel one)
 - **Faster AI Isn’t the Win. Consistent AI Is.**
-- **The Best Use of AI on a Build Isn’t Speed—It’s Sameness**
+- **The Best Use of AI on a Build Isn’t Speed-It’s Sameness**
 - **Make Your AI Output Boring (On Purpose)**
 - **I Stopped Asking AI to Build Features**
 
@@ -1271,7 +1271,7 @@ Here are solid alternatives, grouped by angle. Your current title is **benefit +
 
 **Quick take:** Keep the current title if you want maximum “what’s in it for me” in the headline. Switch to **“AI Was Too Creative…”** or **“Don’t Ask AI for Features…”** if you want more curiosity and a stronger match to the post’s story. Use **“A 4-Step Way…”** if you want the clearest promise for scanners.
 
-Slug can stay `consistent-ai-output-wordpress-builds` regardless—you don’t need to change it when you pick a new title. If you tell me which direction you prefer (personal story vs. how-to vs. punchy), I can narrow to 2–3 finalists and update the front matter.
+Slug can stay `consistent-ai-output-wordpress-builds` regardless-you don’t need to change it when you pick a new title. If you tell me which direction you prefer (personal story vs. how-to vs. punchy), I can narrow to 2–3 finalists and update the front matter.
 
 ---
 

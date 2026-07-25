@@ -45,6 +45,20 @@ author: "JoRap"
 tags: ["Habits", "Productivity", "Process", "PKM"]
 aliases: ["cadence over crusade", "trust the rhythm"]
 featured: false
-review: false
+review: true
+card_sets: ["Workflow", "Review"]
+cards:
+  - front: "Two weeks nothing, then all-nighter - post that stuck came from where?"
+    back: "Thirty quiet minutes daily - not crash mode."
+  - front: "Friday review skipped because inspiration dipped - rhythm broken?"
+    back: "Review Friday anyway - cadence beats mood."
+  - front: "Crusade week felt holy - burnout next Tuesday incoming."
+    back: "Trust boring repeat - cap today's list."
+  - front: "Youth drills same footwork every Tuesday - game day clue for my habits?"
+    back: "Small move on schedule - not hero bursts."
+  - front: "Panic sprint finished the deck - rhythm was never real."
+    back: "Pick one beat - repeat until it's default."
+  - front: "Willpower theater collapsed by Friday - Spirit dependence needs what shape?"
+    back: "Calendar rhythm - not one heroic week."
 draft: false
 ---

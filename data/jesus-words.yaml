@@ -20,7 +20,7 @@ meta:
       name: New American Standard Bible (1995)
       source: jburson/bible-data (NASB, *r red-letter markers)
       red_letter: r
-      license: © Lockman Foundation — site quotes only
+      license: © Lockman Foundation - site quotes only
   verse_count: 1993
   kjv_verses: 1963
   bsb_verses: 1976
@@ -1488,12 +1488,12 @@ verses:
       words: 'And the rain descended, and the floods came, and the winds blew, and beat upon that house; and it fell: and great was the fall of it.'
       full: true
     bsb:
-      verse: The rain fell, the torrents raged, and the winds blew and beat against that house, and it fell— and great was its collapse!” The Authority of Jesus
-      words: The rain fell, the torrents raged, and the winds blew and beat against that house, and it fell— and great was its collapse!”
+      verse: The rain fell, the torrents raged, and the winds blew and beat against that house, and it fell- and great was its collapse!” The Authority of Jesus
+      words: The rain fell, the torrents raged, and the winds blew and beat against that house, and it fell- and great was its collapse!”
       full: false
     nasb1995:
-      verse: The rain fell, and the floods came, and the winds blew and slammed against that house; and it fell—and great was its fall.”
-      words: The rain fell, and the floods came, and the winds blew and slammed against that house; and it fell—and great was its fall.”
+      verse: The rain fell, and the floods came, and the winds blew and slammed against that house; and it fell-and great was its fall.”
+      words: The rain fell, and the floods came, and the winds blew and slammed against that house; and it fell-and great was its fall.”
       full: true
   Matthew 8:3:
     kjv:
@@ -1687,7 +1687,7 @@ verses:
       words: But so that you may know that the Son of Man has authority on earth to forgive sins...” “Get up, pick up your mat, and go home.”
       full: false
     nasb1995:
-      verse: But so that you may know that the Son of Man has authority on earth to forgive sins” —then He said to the paralytic, “Get up, pick up your bed and go home.”
+      verse: But so that you may know that the Son of Man has authority on earth to forgive sins” -then He said to the paralytic, “Get up, pick up your bed and go home.”
       words: But so that you may know that the Son of Man has authority on earth to forgive sins” “Get up, pick up your bed and go home.”
       full: false
   Matthew 9:9:
@@ -3178,8 +3178,8 @@ verses:
       words: But other fell into good ground, and brought forth fruit, some an hundredfold, some sixtyfold, some thirtyfold.
       full: true
     bsb:
-      verse: Still other seed fell on good soil and produced a crop — a hundredfold, sixtyfold, or thirtyfold.
-      words: Still other seed fell on good soil and produced a crop — a hundredfold, sixtyfold, or thirtyfold.
+      verse: Still other seed fell on good soil and produced a crop - a hundredfold, sixtyfold, or thirtyfold.
+      words: Still other seed fell on good soil and produced a crop - a hundredfold, sixtyfold, or thirtyfold.
       full: true
     nasb1995:
       verse: And others fell on the good soil and yielded a crop, some a hundredfold, some sixty, and some thirty.
@@ -3360,8 +3360,8 @@ verses:
       words: But he that received seed into the good ground is he that heareth the word, and understandeth it; which also beareth fruit, and bringeth forth, some an hundredfold, some sixty, some thirty.
       full: true
     bsb:
-      verse: But the seed sown on good soil is the one who hears the word and understands it. He indeed bears fruit and produces a crop — a hundredfold, sixtyfold, or thirtyfold.” The Parable of the Weeds (Ezekiel 17:1–10)
-      words: But the seed sown on good soil is the one who hears the word and understands it. He indeed bears fruit and produces a crop — a hundredfold, sixtyfold, or thirtyfold.”
+      verse: But the seed sown on good soil is the one who hears the word and understands it. He indeed bears fruit and produces a crop - a hundredfold, sixtyfold, or thirtyfold.” The Parable of the Weeds (Ezekiel 17:1–10)
+      words: But the seed sown on good soil is the one who hears the word and understands it. He indeed bears fruit and produces a crop - a hundredfold, sixtyfold, or thirtyfold.”
       full: false
     nasb1995:
       verse: And the one on whom seed was sown on the good soil, this is the man who hears the word and understands it; who indeed bears fruit and brings forth, some a hundredfold, some sixty, and some thirty.”
@@ -5406,8 +5406,8 @@ verses:
       words: 'And whosoever will be chief among you, let him be your servant:'
       full: true
     bsb:
-      verse: and whoever wants to be first among you must be your slave —
-      words: and whoever wants to be first among you must be your slave —
+      verse: and whoever wants to be first among you must be your slave -
+      words: and whoever wants to be first among you must be your slave -
       full: true
     nasb1995:
       verse: and whoever wishes to be first among you shall be your slave;
@@ -7469,8 +7469,8 @@ verses:
       words: And unto one he gave five talents, to another two, and to another one; to every man according to his several ability; and straightway took his journey.
       full: true
     bsb:
-      verse: To one he gave five talents, to another two talents, and to another one talent — each according to his own ability. And he went on his journey.
-      words: To one he gave five talents, to another two talents, and to another one talent — each according to his own ability. And he went on his journey.
+      verse: To one he gave five talents, to another two talents, and to another one talent - each according to his own ability. And he went on his journey.
+      words: To one he gave five talents, to another two talents, and to another one talent - each according to his own ability. And he went on his journey.
       full: true
     nasb1995:
       verse: To one he gave five talents, to another, two, and to another, one, each according to his own ability; and he went on his journey.
@@ -8528,7 +8528,7 @@ verses:
       words: But so that you may know that the Son of Man has authority on earth to forgive sins...”
       full: false
     nasb1995:
-      verse: But so that you may know that the Son of Man has authority on earth to forgive sins” —He said to the paralytic,
+      verse: But so that you may know that the Son of Man has authority on earth to forgive sins” -He said to the paralytic,
       words: But so that you may know that the Son of Man has authority on earth to forgive sins”
       full: false
   Mark 2:11:
@@ -8801,8 +8801,8 @@ verses:
       words: But whoever blasphemes against the Holy Spirit will never be forgiven; he is guilty of eternal sin.”
       full: true
     nasb1995:
-      verse: but whoever blasphemes against the Holy Spirit never has forgiveness, but is guilty of an eternal sin”—
-      words: but whoever blasphemes against the Holy Spirit never has forgiveness, but is guilty of an eternal sin”—
+      verse: but whoever blasphemes against the Holy Spirit never has forgiveness, but is guilty of an eternal sin”-
+      words: but whoever blasphemes against the Holy Spirit never has forgiveness, but is guilty of an eternal sin”-
       full: true
   Mark 3:33:
     kjv:
@@ -8914,8 +8914,8 @@ verses:
       words: And other fell on good ground, and did yield fruit that sprang up and increased; and brought forth, some thirty, and some sixty, and some an hundred.
       full: true
     bsb:
-      verse: Still other seed fell on good soil, where it sprouted, grew up, and produced a crop — one bearing thirtyfold, another sixtyfold, and another a hundredfold.”
-      words: Still other seed fell on good soil, where it sprouted, grew up, and produced a crop — one bearing thirtyfold, another sixtyfold, and another a hundredfold.”
+      verse: Still other seed fell on good soil, where it sprouted, grew up, and produced a crop - one bearing thirtyfold, another sixtyfold, and another a hundredfold.”
+      words: Still other seed fell on good soil, where it sprouted, grew up, and produced a crop - one bearing thirtyfold, another sixtyfold, and another a hundredfold.”
       full: true
     nasb1995:
       verse: Other seeds fell into the good soil, and as they grew up and increased, they yielded a crop and produced thirty, sixty, and a hundredfold.”
@@ -9057,8 +9057,8 @@ verses:
       words: And these are they which are sown on good ground; such as hear the word, and receive it, and bring forth fruit, some thirtyfold, some sixty, and some an hundred.
       full: true
     bsb:
-      verse: Still others are like the seeds sown on good soil. They hear the word, receive it, and produce a crop — thirtyfold, sixtyfold, or a hundredfold.” The Lesson of the Lamp (Luke 8:16–18)
-      words: Still others are like the seeds sown on good soil. They hear the word, receive it, and produce a crop — thirtyfold, sixtyfold, or a hundredfold.”
+      verse: Still others are like the seeds sown on good soil. They hear the word, receive it, and produce a crop - thirtyfold, sixtyfold, or a hundredfold.” The Lesson of the Lamp (Luke 8:16–18)
+      words: Still others are like the seeds sown on good soil. They hear the word, receive it, and produce a crop - thirtyfold, sixtyfold, or a hundredfold.”
       full: false
     nasb1995:
       verse: And those are the ones on whom seed was sown on the good soil; and they hear the word and accept it and bear fruit, thirty, sixty, and a hundredfold.”
@@ -9152,8 +9152,8 @@ verses:
       words: Night and day he sleeps and wakes, and the seed sprouts and grows, though he knows not how.
       full: true
     nasb1995:
-      verse: and he goes to bed at night and gets up by day, and the seed sprouts and grows—how, he himself does not know.
-      words: and he goes to bed at night and gets up by day, and the seed sprouts and grows—how, he himself does not know.
+      verse: and he goes to bed at night and gets up by day, and the seed sprouts and grows-how, he himself does not know.
+      words: and he goes to bed at night and gets up by day, and the seed sprouts and grows-how, he himself does not know.
       full: true
   Mark 4:28:
     kjv:
@@ -9161,8 +9161,8 @@ verses:
       words: For the earth bringeth forth fruit of herself; first the blade, then the ear, after that the full corn in the ear.
       full: true
     bsb:
-      verse: All by itself the earth produces a crop— first the stalk, then the head, then grain that ripens within.
-      words: All by itself the earth produces a crop— first the stalk, then the head, then grain that ripens within.
+      verse: All by itself the earth produces a crop- first the stalk, then the head, then grain that ripens within.
+      words: All by itself the earth produces a crop- first the stalk, then the head, then grain that ripens within.
       full: true
     nasb1995:
       verse: The soil produces crops by itself; first the blade, then the head, then the mature grain in the head.
@@ -9444,7 +9444,7 @@ verses:
       words: How many loaves have ye? go and see.
       full: false
     bsb:
-      verse: “Go and see how many loaves you have,” He told them. And after checking, they said, “Five — and two fish.”
+      verse: “Go and see how many loaves you have,” He told them. And after checking, they said, “Five - and two fish.”
       words: “Go and see how many loaves you have,”
       full: false
     nasb1995:
@@ -10533,8 +10533,8 @@ verses:
       words: But he shall receive an hundredfold now in this time, houses, and brethren, and sisters, and mothers, and children, and lands, with persecutions; and in the world to come eternal life.
       full: true
     bsb:
-      verse: will fail to receive a hundredfold in the present age — houses and brothers and sisters and mothers and children and fields, along with persecutions — and in the age to come, eternal life.
-      words: will fail to receive a hundredfold in the present age — houses and brothers and sisters and mothers and children and fields, along with persecutions — and in the age to come, eternal life.
+      verse: will fail to receive a hundredfold in the present age - houses and brothers and sisters and mothers and children and fields, along with persecutions - and in the age to come, eternal life.
+      words: will fail to receive a hundredfold in the present age - houses and brothers and sisters and mothers and children and fields, along with persecutions - and in the age to come, eternal life.
       full: true
     nasb1995:
       verse: but that he will receive a hundred times as much now in the present age, houses and brothers and sisters and mothers and children and farms, along with persecutions; and in the age to come, eternal life.
@@ -10850,8 +10850,8 @@ verses:
       words: The baptism of John, was it from heaven, or of men? answer me.
       full: true
     bsb:
-      verse: John’s baptism — was it from heaven or from men? Answer Me!”
-      words: John’s baptism — was it from heaven or from men? Answer Me!”
+      verse: John’s baptism - was it from heaven or from men? Answer Me!”
+      words: John’s baptism - was it from heaven or from men? Answer Me!”
       full: true
     nasb1995:
       verse: Was the baptism of John from heaven, or from men? Answer Me.”
@@ -11669,12 +11669,12 @@ verses:
       words: 'Watch ye therefore: for ye know not when the master of the house cometh, at even, or at midnight, or at the cockcrowing, or in the morning:'
       full: true
     bsb:
-      verse: Therefore keep watch, because you do not know when the master of the house will return — whether in the evening, at midnight, when the rooster crows, or in the morning.
-      words: Therefore keep watch, because you do not know when the master of the house will return — whether in the evening, at midnight, when the rooster crows, or in the morning.
+      verse: Therefore keep watch, because you do not know when the master of the house will return - whether in the evening, at midnight, when the rooster crows, or in the morning.
+      words: Therefore keep watch, because you do not know when the master of the house will return - whether in the evening, at midnight, when the rooster crows, or in the morning.
       full: true
     nasb1995:
-      verse: Therefore, be on the alert—for you do not know when the master of the house is coming, whether in the evening, at midnight, or when the rooster crows, or in the morning—
-      words: Therefore, be on the alert—for you do not know when the master of the house is coming, whether in the evening, at midnight, or when the rooster crows, or in the morning—
+      verse: Therefore, be on the alert-for you do not know when the master of the house is coming, whether in the evening, at midnight, or when the rooster crows, or in the morning-
+      words: Therefore, be on the alert-for you do not know when the master of the house is coming, whether in the evening, at midnight, or when the rooster crows, or in the morning-
       full: true
   Mark 13:36:
     kjv:
@@ -11803,8 +11803,8 @@ verses:
       words: “Truly I tell you, one of you who is eating with Me will betray Me.”
       full: false
     nasb1995:
-      verse: As they were reclining at the table and eating, Jesus said, “Truly I say to you that one of you will betray Me—one who is eating with Me.”
-      words: “Truly I say to you that one of you will betray Me—one who is eating with Me.”
+      verse: As they were reclining at the table and eating, Jesus said, “Truly I say to you that one of you will betray Me-one who is eating with Me.”
+      words: “Truly I say to you that one of you will betray Me-one who is eating with Me.”
       full: false
   Mark 14:20:
     kjv:
@@ -11812,8 +11812,8 @@ verses:
       words: It is one of the twelve, that dippeth with me in the dish.
       full: false
     bsb:
-      verse: He answered, “It is one of the Twelve — the one who is dipping his hand into the bowl with Me.
-      words: “It is one of the Twelve — the one who is dipping his hand into the bowl with Me.
+      verse: He answered, “It is one of the Twelve - the one who is dipping his hand into the bowl with Me.
+      words: “It is one of the Twelve - the one who is dipping his hand into the bowl with Me.
       full: false
     nasb1995:
       verse: And He said to them, “It is one of the twelve, one who dips with Me in the bowl.
@@ -12280,8 +12280,8 @@ verses:
       words: And many lepers were in Israel in the time of Eliseus the prophet; and none of them was cleansed, saving Naaman the Syrian.
       full: true
     bsb:
-      verse: And there were many lepers in Israel in the time of Elisha the prophet. Yet not one of them was cleansed— only Naaman the Syrian.”
-      words: And there were many lepers in Israel in the time of Elisha the prophet. Yet not one of them was cleansed— only Naaman the Syrian.”
+      verse: And there were many lepers in Israel in the time of Elisha the prophet. Yet not one of them was cleansed- only Naaman the Syrian.”
+      words: And there were many lepers in Israel in the time of Elisha the prophet. Yet not one of them was cleansed- only Naaman the Syrian.”
       full: true
     nasb1995:
       verse: And there were many lepers in Israel in the time of Elisha the prophet; and none of them was cleansed, but only Naaman the Syrian.”
@@ -12414,7 +12414,7 @@ verses:
       words: But so that you may know that the Son of Man has authority on the earth to forgive sins…” “I tell you, get up, pick up your mat, and go home.”
       full: false
     nasb1995:
-      verse: But, so that you may know that the Son of Man has authority on earth to forgive sins,” —He said to the paralytic— “I say to you, get up, and pick up your stretcher and go home.”
+      verse: But, so that you may know that the Son of Man has authority on earth to forgive sins,” -He said to the paralytic- “I say to you, get up, and pick up your stretcher and go home.”
       words: But, so that you may know that the Son of Man has authority on earth to forgive sins,” “I say to you, get up, and pick up your stretcher and go home.”
       full: false
   Luke 5:27:
@@ -12856,8 +12856,8 @@ verses:
       words: Give, and it will be given to you. A good measure, pressed down, shaken together, and running over will be poured into your lap. For with the measure you use, it will be measured back to you.”
       full: true
     nasb1995:
-      verse: Give, and it will be given to you. They will pour into your lap a good measure—pressed down, shaken together, and running over. For by your standard of measure it will be measured to you in return.”
-      words: Give, and it will be given to you. They will pour into your lap a good measure—pressed down, shaken together, and running over. For by your standard of measure it will be measured to you in return.”
+      verse: Give, and it will be given to you. They will pour into your lap a good measure-pressed down, shaken together, and running over. For by your standard of measure it will be measured to you in return.”
+      words: Give, and it will be given to you. They will pour into your lap a good measure-pressed down, shaken together, and running over. For by your standard of measure it will be measured to you in return.”
       full: true
   Luke 6:39:
     kjv:
@@ -12995,8 +12995,8 @@ verses:
       words: But he that heareth, and doeth not, is like a man that without a foundation built an house upon the earth; against which the stream did beat vehemently, and immediately it fell; and the ruin of that house was great.
       full: true
     bsb:
-      verse: But the one who hears My words and does not act on them is like a man who built his house on ground without a foundation. The torrent crashed against that house, and immediately it fell — and great was its destruction!”
-      words: But the one who hears My words and does not act on them is like a man who built his house on ground without a foundation. The torrent crashed against that house, and immediately it fell — and great was its destruction!”
+      verse: But the one who hears My words and does not act on them is like a man who built his house on ground without a foundation. The torrent crashed against that house, and immediately it fell - and great was its destruction!”
+      words: But the one who hears My words and does not act on them is like a man who built his house on ground without a foundation. The torrent crashed against that house, and immediately it fell - and great was its destruction!”
       full: true
     nasb1995:
       verse: But the one who has heard and has not acted accordingly, is like a man who built a house on the ground without any foundation; and the torrent burst against it and immediately it collapsed, and the ruin of that house was great.”
@@ -13372,8 +13372,8 @@ verses:
       words: And other fell on good ground, and sprang up, and bare fruit an hundredfold. He that hath ears to hear, let him hear.
       full: false
     bsb:
-      verse: Still other seed fell on good soil, where it sprang up and produced a crop — a hundredfold.” As Jesus said this, He called out, “He who has ears to hear, let him hear.”
-      words: Still other seed fell on good soil, where it sprang up and produced a crop — a hundredfold.” “He who has ears to hear, let him hear.”
+      verse: Still other seed fell on good soil, where it sprang up and produced a crop - a hundredfold.” As Jesus said this, He called out, “He who has ears to hear, let him hear.”
+      words: Still other seed fell on good soil, where it sprang up and produced a crop - a hundredfold.” “He who has ears to hear, let him hear.”
       full: false
     nasb1995:
       verse: Other seed fell into the good soil, and grew up, and produced a crop a hundred times as great.” As He said these things, He would call out, “He who has ears to hear, let him hear.”
@@ -16263,8 +16263,8 @@ verses:
       words: If any man come to me, and hate not his father, and mother, and wife, and children, and brethren, and sisters, yea, and his own life also, he cannot be my disciple.
       full: true
     bsb:
-      verse: “If anyone comes to Me and does not hate his father and mother and wife and children and brothers and sisters — yes, even his own life — he cannot be My disciple.
-      words: “If anyone comes to Me and does not hate his father and mother and wife and children and brothers and sisters — yes, even his own life — he cannot be My disciple.
+      verse: “If anyone comes to Me and does not hate his father and mother and wife and children and brothers and sisters - yes, even his own life - he cannot be My disciple.
+      words: “If anyone comes to Me and does not hate his father and mother and wife and children and brothers and sisters - yes, even his own life - he cannot be My disciple.
       full: true
     nasb1995:
       verse: “If anyone comes to Me, and does not hate his own father and mother and wife and children and brothers and sisters, yes, and even his own life, he cannot be My disciple.
@@ -17099,8 +17099,8 @@ verses:
       words: ‘Then I beg you, father,’ he said, ‘send Lazarus to my father’s house,
       full: true
     nasb1995:
-      verse: And he said, ‘Then I beg you, father, that you send him to my father’s house—
-      words: And he said, ‘Then I beg you, father, that you send him to my father’s house—
+      verse: And he said, ‘Then I beg you, father, that you send him to my father’s house-
+      words: And he said, ‘Then I beg you, father, that you send him to my father’s house-
       full: true
   Luke 16:28:
     kjv:
@@ -17112,8 +17112,8 @@ verses:
       words: for I have five brothers. Let him warn them, so that they will not also end up in this place of torment.’
       full: true
     nasb1995:
-      verse: for I have five brothers—in order that he may warn them, so that they will not also come to this place of torment.’
-      words: for I have five brothers—in order that he may warn them, so that they will not also come to this place of torment.’
+      verse: for I have five brothers-in order that he may warn them, so that they will not also come to this place of torment.’
+      words: for I have five brothers-in order that he may warn them, so that they will not also come to this place of torment.’
       full: true
   Luke 16:29:
     kjv:
@@ -17294,8 +17294,8 @@ verses:
       words: “Were not all ten cleansed?” “Where then are the other nine?
       full: false
     nasb1995:
-      verse: Then Jesus answered and said, “Were there not ten cleansed? But the nine—where are they?
-      words: “Were there not ten cleansed? But the nine—where are they?
+      verse: Then Jesus answered and said, “Were there not ten cleansed? But the nine-where are they?
+      words: “Were there not ten cleansed? But the nine-where are they?
       full: false
   Luke 17:18:
     kjv:
@@ -17663,8 +17663,8 @@ verses:
       words: The Pharisee stood and prayed thus with himself, God, I thank thee, that I am not as other men are, extortioners, unjust, adulterers, or even as this publican.
       full: true
     bsb:
-      verse: The Pharisee stood by himself and prayed, ‘God, I thank You that I am not like other men — swindlers, evildoers, adulterers — or even like this tax collector.
-      words: The Pharisee stood by himself and prayed, ‘God, I thank You that I am not like other men — swindlers, evildoers, adulterers — or even like this tax collector.
+      verse: The Pharisee stood by himself and prayed, ‘God, I thank You that I am not like other men - swindlers, evildoers, adulterers - or even like this tax collector.
+      words: The Pharisee stood by himself and prayed, ‘God, I thank You that I am not like other men - swindlers, evildoers, adulterers - or even like this tax collector.
       full: true
     nasb1995:
       verse: 'The Pharisee stood and was praying this to himself: ‘God, I thank You that I am not like other people: swindlers, unjust, adulterers, or even like this tax collector.'
@@ -17832,8 +17832,8 @@ verses:
       words: Who shall not receive manifold more in this present time, and in the world to come life everlasting.
       full: true
     bsb:
-      verse: will fail to receive many times more in this age — and in the age to come, eternal life.” The Third Prediction of the Passion (Matthew 20:17–19; Mark 10:32–34)
-      words: will fail to receive many times more in this age — and in the age to come, eternal life.”
+      verse: will fail to receive many times more in this age - and in the age to come, eternal life.” The Third Prediction of the Passion (Matthew 20:17–19; Mark 10:32–34)
+      words: will fail to receive many times more in this age - and in the age to come, eternal life.”
       full: false
     nasb1995:
       verse: who will not receive many times as much at this time and in the age to come, eternal life.”
@@ -18222,8 +18222,8 @@ verses:
       words: And shall lay thee even with the ground, and thy children within thee; and they shall not leave in thee one stone upon another; because thou knewest not the time of thy visitation.
       full: true
     bsb:
-      verse: They will level you to the ground — you and the children within your walls. They will not leave one stone on another, because you did not recognize the time of your visitation from God. ” Jesus Cleanses the Temple (Matthew 21:12–17; Mark 11:15–19; John 2:12–25)
-      words: They will level you to the ground — you and the children within your walls. They will not leave one stone on another, because you did not recognize the time of your visitation from God. ”
+      verse: They will level you to the ground - you and the children within your walls. They will not leave one stone on another, because you did not recognize the time of your visitation from God. ” Jesus Cleanses the Temple (Matthew 21:12–17; Mark 11:15–19; John 2:12–25)
+      words: They will level you to the ground - you and the children within your walls. They will not leave one stone on another, because you did not recognize the time of your visitation from God. ”
       full: false
     nasb1995:
       verse: and they will level you to the ground and your children within you, and they will not leave in you one stone upon another, because you did not recognize the time of your visitation.”
@@ -18261,8 +18261,8 @@ verses:
       words: The baptism of John, was it from heaven, or of men?
       full: true
     bsb:
-      verse: John’s baptism — was it from heaven, or from men?”
-      words: John’s baptism — was it from heaven, or from men?”
+      verse: John’s baptism - was it from heaven, or from men?”
+      words: John’s baptism - was it from heaven, or from men?”
       full: true
     nasb1995:
       verse: Was the baptism of John from heaven or from men?”
@@ -18968,8 +18968,8 @@ verses:
       words: ¶ And take heed to yourselves, lest at any time your hearts be overcharged with surfeiting, and drunkenness, and cares of this life, and so that day come upon you unawares.
       full: true
     bsb:
-      verse: But watch yourselves, or your hearts will be weighed down by dissipation, drunkenness, and the worries of life — and that day will spring upon you suddenly like a snare.
-      words: But watch yourselves, or your hearts will be weighed down by dissipation, drunkenness, and the worries of life — and that day will spring upon you suddenly like a snare.
+      verse: But watch yourselves, or your hearts will be weighed down by dissipation, drunkenness, and the worries of life - and that day will spring upon you suddenly like a snare.
+      words: But watch yourselves, or your hearts will be weighed down by dissipation, drunkenness, and the worries of life - and that day will spring upon you suddenly like a snare.
       full: true
     nasb1995:
       verse: “Be on guard, so that your hearts will not be weighted down with dissipation and drunkenness and the worries of life, and that day will not come on you suddenly like a trap;
@@ -19671,8 +19671,8 @@ verses:
       words: 'Behold my hands and my feet, that it is I myself: handle me, and see; for a spirit hath not flesh and bones, as ye see me have.'
       full: true
     bsb:
-      verse: Look at My hands and My feet. It is I Myself. Touch Me and see — for a spirit does not have flesh and bones, as you see I have.”
-      words: Look at My hands and My feet. It is I Myself. Touch Me and see — for a spirit does not have flesh and bones, as you see I have.”
+      verse: Look at My hands and My feet. It is I Myself. Touch Me and see - for a spirit does not have flesh and bones, as you see I have.”
+      words: Look at My hands and My feet. It is I Myself. Touch Me and see - for a spirit does not have flesh and bones, as you see I have.”
       full: true
     nasb1995:
       verse: See My hands and My feet, that it is I Myself; touch Me and see, for a spirit does not have flesh and bones as you see that I have.”
@@ -20035,8 +20035,8 @@ verses:
       words: And no man hath ascended up to heaven, but he that came down from heaven, even the Son of man which is in heaven.
       full: true
     bsb:
-      verse: No one has ascended into heaven except the One who descended from heaven— the Son of Man.
-      words: No one has ascended into heaven except the One who descended from heaven— the Son of Man.
+      verse: No one has ascended into heaven except the One who descended from heaven- the Son of Man.
+      words: No one has ascended into heaven except the One who descended from heaven- the Son of Man.
       full: true
     nasb1995:
       verse: 'No one has ascended into heaven, but He who descended from heaven: the Son of Man.'
@@ -20617,8 +20617,8 @@ verses:
       words: And shall come forth; they that have done good, unto the resurrection of life; and they that have done evil, unto the resurrection of damnation.
       full: true
     bsb:
-      verse: and come out — those who have done good to the resurrection of life, and those who have done evil to the resurrection of judgment.
-      words: and come out — those who have done good to the resurrection of life, and those who have done evil to the resurrection of judgment.
+      verse: and come out - those who have done good to the resurrection of life, and those who have done evil to the resurrection of judgment.
+      words: and come out - those who have done good to the resurrection of life, and those who have done evil to the resurrection of judgment.
       full: true
     nasb1995:
       verse: and will come forth; those who did the good deeds to a resurrection of life, those who committed the evil deeds to a resurrection of judgment.
@@ -20708,12 +20708,12 @@ verses:
       words: '¶ But I have greater witness than that of John: for the works which the Father hath given me to finish, the same works that I do, bear witness of me, that the Father hath sent me.'
       full: true
     bsb:
-      verse: But I have testimony more substantial than that of John. For the works that the Father has given Me to accomplish — the very works I am doing — testify about Me that the Father has sent Me.
-      words: But I have testimony more substantial than that of John. For the works that the Father has given Me to accomplish — the very works I am doing — testify about Me that the Father has sent Me.
+      verse: But I have testimony more substantial than that of John. For the works that the Father has given Me to accomplish - the very works I am doing - testify about Me that the Father has sent Me.
+      words: But I have testimony more substantial than that of John. For the works that the Father has given Me to accomplish - the very works I am doing - testify about Me that the Father has sent Me.
       full: true
     nasb1995:
-      verse: But the testimony which I have is greater than the testimony of John; for the works which the Father has given Me to accomplish—the very works that I do—testify about Me, that the Father has sent Me.
-      words: But the testimony which I have is greater than the testimony of John; for the works which the Father has given Me to accomplish—the very works that I do—testify about Me, that the Father has sent Me.
+      verse: But the testimony which I have is greater than the testimony of John; for the works which the Father has given Me to accomplish-the very works that I do-testify about Me, that the Father has sent Me.
+      words: But the testimony which I have is greater than the testimony of John; for the works which the Father has given Me to accomplish-the very works that I do-testify about Me, that the Father has sent Me.
       full: true
   John 5:37:
     kjv:
@@ -21103,8 +21103,8 @@ verses:
       words: It is written in the prophets, And they shall be all taught of God. Every man therefore that hath heard, and hath learned of the Father, cometh unto me.
       full: true
     bsb:
-      verse: 'It is written in the Prophets: ‘And they will all be taught by God.’ Everyone who has heard the Father and learned from Him comes to Me —'
-      words: 'It is written in the Prophets: ‘And they will all be taught by God.’ Everyone who has heard the Father and learned from Him comes to Me —'
+      verse: 'It is written in the Prophets: ‘And they will all be taught by God.’ Everyone who has heard the Father and learned from Him comes to Me -'
+      words: 'It is written in the Prophets: ‘And they will all be taught by God.’ Everyone who has heard the Father and learned from Him comes to Me -'
       full: true
     nasb1995:
       verse: It is written in the prophets, ‘And they shall all be taught of God.’ Everyone who has heard and learned from the Father, comes to Me.
@@ -22566,8 +22566,8 @@ verses:
       words: If he called them gods, unto whom the word of God came, and the scripture cannot be broken;
       full: true
     bsb:
-      verse: If he called them gods to whom the word of God came — and the Scripture cannot be broken —
-      words: If he called them gods to whom the word of God came — and the Scripture cannot be broken —
+      verse: If he called them gods to whom the word of God came - and the Scripture cannot be broken -
+      words: If he called them gods to whom the word of God came - and the Scripture cannot be broken -
       full: true
     nasb1995:
       verse: If he called them gods, to whom the word of God came (and the Scripture cannot be broken),
@@ -23321,8 +23321,8 @@ verses:
       words: If God be glorified in him, God shall also glorify him in himself, and shall straightway glorify him.
       full: true
     bsb:
-      verse: If God is glorified in Him, God will also glorify the Son in Himself — and will glorify Him at once.
-      words: If God is glorified in Him, God will also glorify the Son in Himself — and will glorify Him at once.
+      verse: If God is glorified in Him, God will also glorify the Son in Himself - and will glorify Him at once.
+      words: If God is glorified in Him, God will also glorify the Son in Himself - and will glorify Him at once.
       full: true
     nasb1995:
       verse: if God is glorified in Him, God will also glorify Him in Himself, and will glorify Him immediately.
@@ -23503,8 +23503,8 @@ verses:
       words: 'Believe me that I am in the Father, and the Father in me: or else believe me for the very works’ sake.'
       full: true
     bsb:
-      verse: Believe Me that I am in the Father and the Father is in Me — or at least believe on account of the works themselves.
-      words: Believe Me that I am in the Father and the Father is in Me — or at least believe on account of the works themselves.
+      verse: Believe Me that I am in the Father and the Father is in Me - or at least believe on account of the works themselves.
+      words: Believe Me that I am in the Father and the Father is in Me - or at least believe on account of the works themselves.
       full: true
     nasb1995:
       verse: Believe Me that I am in the Father and the Father is in Me; otherwise believe because of the works themselves.
@@ -23568,8 +23568,8 @@ verses:
       words: And I will pray the Father, and he shall give you another Comforter, that he may abide with you for ever;
       full: true
     bsb:
-      verse: And I will ask the Father, and He will give you another Advocate to be with you forever —
-      words: And I will ask the Father, and He will give you another Advocate to be with you forever —
+      verse: And I will ask the Father, and He will give you another Advocate to be with you forever -
+      words: And I will ask the Father, and He will give you another Advocate to be with you forever -
       full: true
     nasb1995:
       verse: I will ask the Father, and He will give you another Helper, that He may be with you forever;
@@ -23958,8 +23958,8 @@ verses:
       words: 'Ye have not chosen me, but I have chosen you, and ordained you, that ye should go and bring forth fruit, and that your fruit should remain: that whatsoever ye shall ask of the Father in my name, he may give it you.'
       full: true
     bsb:
-      verse: You did not choose Me, but I chose you. And I appointed you to go and bear fruit — fruit that will remain — so that whatever you ask the Father in My name, He will give you.
-      words: You did not choose Me, but I chose you. And I appointed you to go and bear fruit — fruit that will remain — so that whatever you ask the Father in My name, He will give you.
+      verse: You did not choose Me, but I chose you. And I appointed you to go and bear fruit - fruit that will remain - so that whatever you ask the Father in My name, He will give you.
+      words: You did not choose Me, but I chose you. And I appointed you to go and bear fruit - fruit that will remain - so that whatever you ask the Father in My name, He will give you.
       full: true
     nasb1995:
       verse: You did not choose Me but I chose you, and appointed you that you would go and bear fruit, and that your fruit would remain, so that whatever you ask of the Father in My name He may give to you.
@@ -24088,8 +24088,8 @@ verses:
       words: 'But when the Comforter is come, whom I will send unto you from the Father, even the Spirit of truth, which proceedeth from the Father, he shall testify of me:'
       full: true
     bsb:
-      verse: When the Advocate comes, whom I will send to you from the Father — the Spirit of truth who proceeds from the Father — He will testify about Me.
-      words: When the Advocate comes, whom I will send to you from the Father — the Spirit of truth who proceeds from the Father — He will testify about Me.
+      verse: When the Advocate comes, whom I will send to you from the Father - the Spirit of truth who proceeds from the Father - He will testify about Me.
+      words: When the Advocate comes, whom I will send to you from the Father - the Spirit of truth who proceeds from the Father - He will testify about Me.
       full: true
     nasb1995:
       verse: “When the Helper comes, whom I will send to you from the Father, that is the Spirit of truth who proceeds from the Father, He will testify about Me,
@@ -24782,8 +24782,8 @@ verses:
       words: 'And the glory which thou gavest me I have given them; that they may be one, even as we are one:'
       full: true
     bsb:
-      verse: I have given them the glory You gave Me, so that they may be one as We are one —
-      words: I have given them the glory You gave Me, so that they may be one as We are one —
+      verse: I have given them the glory You gave Me, so that they may be one as We are one -
+      words: I have given them the glory You gave Me, so that they may be one as We are one -
       full: true
     nasb1995:
       verse: The glory which You have given Me I have given to them, that they may be one, just as We are one;
@@ -24795,8 +24795,8 @@ verses:
       words: I in them, and thou in me, that they may be made perfect in one; and that the world may know that thou hast sent me, and hast loved them, as thou hast loved me.
       full: true
     bsb:
-      verse: I in them and You in Me — that they may be perfectly united, so that the world may know that You sent Me and have loved them just as You have loved Me.
-      words: I in them and You in Me — that they may be perfectly united, so that the world may know that You sent Me and have loved them just as You have loved Me.
+      verse: I in them and You in Me - that they may be perfectly united, so that the world may know that You sent Me and have loved them just as You have loved Me.
+      words: I in them and You in Me - that they may be perfectly united, so that the world may know that You sent Me and have loved them just as You have loved Me.
       full: true
     nasb1995:
       verse: I in them and You in Me, that they may be perfected in unity, so that the world may know that You sent Me, and loved them, even as You have loved Me.

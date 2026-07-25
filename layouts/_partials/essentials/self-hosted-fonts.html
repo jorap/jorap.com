@@ -1,5 +1,5 @@
 {{/*
-  essentials/self-hosted-fonts — Build-time self-hosted Google Fonts.
+  essentials/self-hosted-fonts - Build-time self-hosted Google Fonts.
 
   Replaces the legacy runtime injected <link> to fonts.googleapis.com with
   a same-origin, fingerprinted, immutable CSS file plus pre-fetched woff2
@@ -8,7 +8,7 @@
 
   Algorithm:
     1. Build the Google Fonts CSS URL from data/theme.json.
-    2. Fetch the CSS once at build with a desktop UA header — Google then
+    2. Fetch the CSS once at build with a desktop UA header - Google then
        returns modern woff2 sources segmented by unicode-range.
     3. Pull every fonts.gstatic.com URL out of the response, download
        each binary as a Hugo resource, fingerprint+publish it under the
@@ -33,7 +33,7 @@
 {{- with resources.GetRemote $url $opts -}}
   {{- $css := .Content -}}
   {{- $remotes := findRE `https://fonts\.gstatic\.com/[^)\s]+` $css -}}
-  {{- /* Deduplicate — Google often references the same woff2 across
+  {{- /* Deduplicate - Google often references the same woff2 across
          multiple @font-face blocks for different unicode-range slices. */ -}}
   {{- $seen := dict -}}
   {{- range $remotes -}}
@@ -57,7 +57,7 @@
   {{- $bundle := resources.FromString "css/fonts.css" $css -}}
   {{- $bundle = partial "essentials/publish-asset.html" (dict "resource" $bundle) -}}
 
-  {{/* Non-blocking stylesheet — paints with system fallback first, swaps
+  {{/* Non-blocking stylesheet - paints with system fallback first, swaps
        in webfont when ready. font-display:swap inside the CSS guarantees
        the same behavior for clients that ignore the media="print" hack. */}}
   <link

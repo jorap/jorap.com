@@ -226,7 +226,7 @@ A Random Trio feature already exists.</details></think>
 
 _**Agent (auto-low)**_
 
-Random Trio is already in the repo — I'll read how both features are implemented and what they're meant for.
+Random Trio is already in the repo - I'll read how both features are implemented and what they're meant for.
 
 
 _**Agent (auto-low)**_
@@ -407,7 +407,7 @@ You already have both: [Random Duo](/notes/random-duo/) and [Random Trio](/notes
 
 ## Short answer
 
-**Yes, trio can make sense — but as a different mode, not “duo with an extra column.”**
+**Yes, trio can make sense - but as a different mode, not “duo with an extra column.”**
 
 ## What each mode is good for
 
@@ -415,18 +415,18 @@ You already have both: [Random Duo](/notes/random-duo/) and [Random Trio](/notes
 |---|---|---|
 | **Mental model** | “Do these two ideas connect?” | “What emerges when a third idea enters the room?” |
 | **Best for** | Quick resurfacing, pairwise friction, daily serendipity | Synthesis sessions, finding bridge notes, “lock two, shuffle one” |
-| **Cognitive load** | Low — two columns, one pairing | Higher — three narrow columns, four analysis angles |
+| **Cognitive load** | Low - two columns, one pairing | Higher - three narrow columns, four analysis angles |
 | **AI prompt** | One combination | All three together + three pairs |
 
 Duo fits your [[Digital Serendipity]] goal for lightweight rediscovery: two notes side by side, easy to scan, low commitment.
 
-Trio adds something duo cannot: **triangulation**. Sometimes A and B feel unrelated until C reframes both. That’s a real PKM pattern (bridge notes, Maps of Content thinking). The “shuffle one column while keeping two” workflow in trio supports that — you’ve found an interesting pair and you’re hunting for a third connector.
+Trio adds something duo cannot: **triangulation**. Sometimes A and B feel unrelated until C reframes both. That’s a real PKM pattern (bridge notes, Maps of Content thinking). The “shuffle one column while keeping two” workflow in trio supports that - you’ve found an interesting pair and you’re hunting for a third connector.
 
 ## Where trio gets weaker
 
-1. **UI density** — three `md:col-4` columns are harder to read than two halves, especially on tablet and mobile.
-2. **Prompt bloat** — the trio prompt asks for analysis across four combinations, each with four output categories. That’s a lot for one AI pass, and you’re more likely to hit the ~1800-character ChatGPT URL prefill limit and fall back to copy-paste.
-3. **Duplication** — `notes-random-duo.js` and `notes-random-trio.js` are nearly identical. Two toolbar buttons for what could be one page with a “2 / 3 notes” toggle.
+1. **UI density** - three `md:col-4` columns are harder to read than two halves, especially on tablet and mobile.
+2. **Prompt bloat** - the trio prompt asks for analysis across four combinations, each with four output categories. That’s a lot for one AI pass, and you’re more likely to hit the ~1800-character ChatGPT URL prefill limit and fall back to copy-paste.
+3. **Duplication** - `notes-random-duo.js` and `notes-random-trio.js` are nearly identical. Two toolbar buttons for what could be one page with a “2 / 3 notes” toggle.
 
 ## Practical recommendation
 
@@ -435,11 +435,11 @@ Keep both **if you actually use them differently**:
 - **Duo** = default resurfacing tool (fast, readable, daily)
 - **Trio** = deliberate synthesis tool (when you want to write, link, or brainstorm)
 
-If you find yourself only ever using duo, trio is redundant surface area — merge into one configurable page or drop trio.
+If you find yourself only ever using duo, trio is redundant surface area - merge into one configurable page or drop trio.
 
 If you do keep both, consider tightening the trio AI prompt (e.g. “all three together” only, or pick one pair + the triplet) so it stays useful instead of overwhelming.
 
-So: trio isn’t just duo + 1. It’s a meaningfully different serendipity mode — but only worth maintaining as a separate feature if you reach for that third-note synthesis workflow regularly.
+So: trio isn’t just duo + 1. It’s a meaningfully different serendipity mode - but only worth maintaining as a separate feature if you reach for that third-note synthesis workflow regularly.
 
 ---
 

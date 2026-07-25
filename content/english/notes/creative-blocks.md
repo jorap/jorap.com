@@ -48,6 +48,10 @@ cards:
     back: "One messy sentence - start ugly."
   - front: "Thousands of notes in the garden and I'm still staring at a blank post. Capture more?"
     back: "No - one small ship action."
+  - front: "Kid stared at blank training log twenty minutes."
+    back: "Write one ugly sentence - unstick the block."
+  - front: "Thousands of garden notes - blank post still staring."
+    back: "Publish one rough paragraph - output unblocks."
 draft: false
 ---
 

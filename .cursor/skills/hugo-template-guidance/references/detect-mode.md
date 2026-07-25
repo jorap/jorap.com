@@ -1,11 +1,11 @@
 # Detect Setup Mode
 
-This theme ships in two structures; the same logical file lives at a different path in each. **Always detect the current mode first** — before reading or editing any content, config, layout, style, or script file.
+This theme ships in two structures; the same logical file lives at a different path in each. **Always detect the current mode first** - before reading or editing any content, config, layout, style, or script file.
 
 ## Detection
 
-- **`exampleSite/hugo.toml` exists → theme-setup** — theme at root (`layouts/`, `assets/`, `theme.toml`), demo site in `exampleSite/`.
-- **Root `hugo.toml` + `themes/` → project-setup** — site at root (`content/`, `config/`, `data/`, `hugo.toml`), theme vendored in `themes/<theme>/` (the single folder under `themes/` — run `ls themes/` to confirm its name; in this repo it's `hugoplate`).
+- **`exampleSite/hugo.toml` exists → theme-setup** - theme at root (`layouts/`, `assets/`, `theme.toml`), demo site in `exampleSite/`.
+- **Root `hugo.toml` + `themes/` → project-setup** - site at root (`content/`, `config/`, `data/`, `hugo.toml`), theme vendored in `themes/<theme>/` (the single folder under `themes/` - run `ls themes/` to confirm its name; in this repo it's `hugoplate`).
 
 ### Edge case
 
@@ -20,11 +20,11 @@ then treat the repository as **theme-setup**, not **project-setup**. So Before r
 
 ## Always work in `project-setup` mode
 
-If the repo or project is currently in theme-setup, run `<pm> project-setup` **before** editing or reading any content, config, layout, or style file — this is non-negotiable.
+If the repo or project is currently in theme-setup, run `<pm> project-setup` **before** editing or reading any content, config, layout, or style file - this is non-negotiable.
 
-- **Idempotent** — logs "Project already setup" and no-ops if already converted, so it's always safe to run.
-- **Never move files between modes by hand** — only `<pm> project-setup` / `<pm> theme-setup` (reverse) do this correctly.
-- `dev:example` / `build:example` / `preview:example` scripts exist only for theme-setup (run against `exampleSite/`). Once converted via `<pm> project-setup`, they no longer apply — don't reach for them as a shortcut to avoid converting.
+- **Idempotent** - logs "Project already setup" and no-ops if already converted, so it's always safe to run.
+- **Never move files between modes by hand** - only `<pm> project-setup` / `<pm> theme-setup` (reverse) do this correctly.
+- `dev:example` / `build:example` / `preview:example` scripts exist only for theme-setup (run against `exampleSite/`). Once converted via `<pm> project-setup`, they no longer apply - don't reach for them as a shortcut to avoid converting.
 
 ## After conversion
 

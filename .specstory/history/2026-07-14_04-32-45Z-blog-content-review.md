@@ -20,7 +20,7 @@ Scanning the blog directory for all posts. Reading reference posts first. Then r
 
 _**Agent (auto-low)**_
 
-I'll review all blog posts with the jorap-voice lens—checking sense, consistency, and errors. Starting by listing posts and running voice lint.
+I'll review all blog posts with the jorap-voice lens-checking sense, consistency, and errors. Starting by listing posts and running voice lint.
 
 
 _**Agent (auto-low)**_
@@ -136,7 +136,7 @@ cd /home/jorap/Documents/GitHub/jorap.com && pnpm voice:scan 2>&1 | head -200
 
 ```
 $ python3 scripts/notes-voice-lint.py --summary --review
-Voice scan — 306 files, 0 strict, 63 review-only
+Voice scan - 306 files, 0 strict, 63 review-only
 Word list: data/voice-words.yaml
 
 Review-only (edit data/voice-words.yaml review: to tune)
@@ -296,7 +296,7 @@ Parameters:
   "caseInsensitive": true,
   "glob": "content/english/blog/*.md",
   "outputMode": "content",
-  "pattern": "\\$[0-9]|₱|peso|em dash|—|–"
+  "pattern": "\\$[0-9]|₱|peso|em dash|-|–"
 }
 ```
 Additional data:
@@ -305,7 +305,7 @@ Additional data:
 {
   "isPruned": true,
   "outputMode": "content",
-  "pattern": "\\$[0-9]|₱|peso|em dash|—|–",
+  "pattern": "\\$[0-9]|₱|peso|em dash|-|–",
   "topFiles": [
     {
       "matchCount": 1,
@@ -708,7 +708,7 @@ Links to `/blog/sveltia-cms/`, but `__sveltia-cms.md` is still `draft: true`. Li
 
 | Post | Issue |
 |------|--------|
-| `one-page-zine.md` line 37 | Em dash in image caption (`60 × 85 mm — eight panels`). Swap for hyphen, comma, or parentheses. |
+| `one-page-zine.md` line 37 | Em dash in image caption (`60 × 85 mm - eight panels`). Swap for hyphen, comma, or parentheses. |
 
 No banned words (`delve`, `Furthermore`, `When it comes to`, etc.) in published bodies. `pnpm voice:scan` review-only hits (`deploy`, `navigate` in `mouse-wheel-click`) are fine in context.
 
@@ -1122,7 +1122,7 @@ I will verify the geisha count and update the post accordingly. I will search on
 
 _**Agent (auto-low)**_
 
-You're right to push back — I'll verify the retail 
+You're right to push back - I'll verify the retail 
 
 _**Agent (auto-low)**_
 
@@ -1596,7 +1596,7 @@ Parameters:
 {
   "caseInsensitive": false,
   "glob": "content/english/blog/*.md",
-  "pattern": "—|–|\\$[0-9]|₱|When it comes to|Furthermore|hope this helps|game-changer"
+  "pattern": "-|–|\\$[0-9]|₱|When it comes to|Furthermore|hope this helps|game-changer"
 }
 ```
 Additional data:
@@ -1605,7 +1605,7 @@ Additional data:
 {
   "isPruned": true,
   "outputMode": "content",
-  "pattern": "—|–|\\$[0-9]|₱|When it comes to|Furthermore|hope this helps|game-changer",
+  "pattern": "-|–|\\$[0-9]|₱|When it comes to|Furthermore|hope this helps|game-changer",
   "topFiles": [
     {
       "matchCount": 1,
@@ -2768,19 +2768,19 @@ _**Agent (auto-low)**_
 All audit items addressed. Summary:
 
 ### Minor nits
-- **alex-eala** — "WTA 1000 Tour Semifinals" → "WTA 1000 semifinal"
-- **extension-cord** — "remote work checklist" → "travel bag" (no link to unpublished draft)
-- **hanamikoji** — removed `aliases: ["hanamikoji-rules"]`
-- **miracle-isaiah-david** — image `height="750" width="1000"` (from 2048×1536 asset)
-- **worship-pads** — bit.ly → YouTube description link
-- **instant-pot-chicken-adobo** — closing paragraph on weeknight default
+- **alex-eala** - "WTA 1000 Tour Semifinals" → "WTA 1000 semifinal"
+- **extension-cord** - "remote work checklist" → "travel bag" (no link to unpublished draft)
+- **hanamikoji** - removed `aliases: ["hanamikoji-rules"]`
+- **miracle-isaiah-david** - image `height="750" width="1000"` (from 2048×1536 asset)
+- **worship-pads** - bit.ly → YouTube description link
+- **instant-pot-chicken-adobo** - closing paragraph on weeknight default
 
 ### Voice passes
-- **how-i-built-jorap-notes** — title → "After Losing PHP Hosting"
-- **why-keep-desktop-laptop** — sermon clip crash, `hugo server` + WP staging, client-build multitasking
-- **why-run-your-own-website** — opens with notes garden, extension-cord traffic, Eala tracker; Drupal post as writing example
-- **sustainable-online-publishing** — cross-links `why-run-your-own-website`; stack table replaced with link to build post (less overlap)
-- **getting-started-with-rss-feeds** — `jorap.com/blog/index.xml`; folder examples (WTA, board-game blogs)
-- **consistent-ai-output-wordpress-builds** — concrete `block.php`, `jorap_block_open()`, `inc/blocks/examples/card.php`, `.cursor/rules`
+- **how-i-built-jorap-notes** - title → "After Losing PHP Hosting"
+- **why-keep-desktop-laptop** - sermon clip crash, `hugo server` + WP staging, client-build multitasking
+- **why-run-your-own-website** - opens with notes garden, extension-cord traffic, Eala tracker; Drupal post as writing example
+- **sustainable-online-publishing** - cross-links `why-run-your-own-website`; stack table replaced with link to build post (less overlap)
+- **getting-started-with-rss-feeds** - `jorap.com/blog/index.xml`; folder examples (WTA, board-game blogs)
+- **consistent-ai-output-wordpress-builds** - concrete `block.php`, `jorap_block_open()`, `inc/blocks/examples/card.php`, `.cursor/rules`
 
 `pnpm lint:voice` and `pnpm lint:blog` both pass.

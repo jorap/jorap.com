@@ -14,7 +14,7 @@ the whole note card is clickable:
 
 _**Agent (default)**_
 
-The whole note card acting as a link usually means a stretched overlay or wrapper link — I'll find where `notes-card` is rendered and how click handling is wired.
+The whole note card acting as a link usually means a stretched overlay or wrapper link - I'll find where `notes-card` is rendered and how click handling is wired.
 
 
 _**Agent (default)**_
@@ -1012,7 +1012,7 @@ The shared partial will render only the anchor card itself, leaving callers to w
 
 _**Agent (default)**_
 
-The notes index still uses `<article>` with a title-only link while single-page cards were updated to be fully clickable — I'll align the list and related-notes templates with that pattern.
+The notes index still uses `<article>` with a title-only link while single-page cards were updated to be fully clickable - I'll align the list and related-notes templates with that pattern.
 
 
 _**Agent (default)**_

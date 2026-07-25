@@ -12,7 +12,7 @@ what needs to be saved in the page for this to be useful even if the links will 
 
 _**Agent (default)**_
 
-You're asking what to preserve on the page so it stays useful when external links break — I'll read the Alex Eala tracker post and its update skill for context.
+You're asking what to preserve on the page so it stays useful when external links break - I'll read the Alex Eala tracker post and its update skill for context.
 
 
 _**Agent (default)**_
@@ -47,14 +47,14 @@ For this tracker to stay useful when WTA, tennis.com, Grand Slam sites, and YouT
 
 These sections are mostly self-contained:
 
-- **At a glance** — career highs, titles, best Slam, notable firsts
-- **WTA Rankings** — career-high numbers
-- **Tournament lines** — event, year, tier, round reached (e.g. `Birmingham (WTA 125) - Winner`)
-- **Milestone sub-bullets** — “First Filipina in a Grand Slam main draw,” etc.
-- **H2H match headers** — opponent, tournament, surface, win/loss (e.g. `2025 Miami Open - Hard Court - Win`)
+- **At a glance** - career highs, titles, best Slam, notable firsts
+- **WTA Rankings** - career-high numbers
+- **Tournament lines** - event, year, tier, round reached (e.g. `Birmingham (WTA 125) - Winner`)
+- **Milestone sub-bullets** - “First Filipina in a Grand Slam main draw,” etc.
+- **H2H match headers** - opponent, tournament, surface, win/loss (e.g. `2025 Miami Open - Hard Court - Win`)
 - **Grand Slam titles tables** for opponents
-- **Watch-list notes** — why a matchup matters (Slam wins, Olympic gold, etc.)
-- **Doubles partner names** — `(with Janice Tjen)` etc.
+- **Watch-list notes** - why a matchup matters (Slam wins, Olympic gold, etc.)
+- **Doubles partner names** - `(with Janice Tjen)` etc.
 
 That’s enough for a **timeline of achievements**, but not a **match archive**.
 
@@ -73,7 +73,7 @@ A line like `Berlin (WTA 500) - Quarterfinals` tells you *how far* she got, not 
 Same for Grand Slam rounds:
 
 ```markdown
-- 1st Round — l. Parks 4-6, 3-6
+- 1st Round - l. Parks 4-6, 3-6
 ```
 
 ### 2. Scores / result detail
@@ -83,7 +83,7 @@ Links are where scores live today. Without them you lose the actual tennis.
 **Save:** full scoreline, retirements (`w/o`, `ret.`), tiebreaks.
 
 ```markdown
-- **2025 Miami Open - Hard Court - Win** — d. Swiatek 6-2, 7-5
+- **2025 Miami Open - Hard Court - Win** - d. Swiatek 6-2, 7-5
 ```
 
 ### 3. H2H running record
@@ -119,7 +119,7 @@ Year is there; **match date** helps ordering and future “on this day” use. L
 `{{< youtube ID >}}` shortcodes break when videos are removed or geo-blocked. If a clip mattered, save **what it was**:
 
 ```markdown
-<!-- Highlights: WTA Official — Miami 2025 QF vs Swiatek (video ID: maG9TzsuVeM) -->
+<!-- Highlights: WTA Official - Miami 2025 QF vs Swiatek (video ID: maG9TzsuVeM) -->
 ```
 
 Or a plain note: “Extended highlights, WTA channel, March 2025.” The embed stays for now; the text survives.
@@ -129,16 +129,16 @@ Or a plain note: “Extended highlights, WTA channel, March 2025.” The embed s
 That block is **100% outbound links**. For archival value, either:
 
 - Accept it as a “live dashboard” that will age out, or
-- Replace/ supplement with a small **static profile stub**: full name, DOB, plays, turned pro, nationality, handedness — facts that rarely change.
+- Replace/ supplement with a small **static profile stub**: full name, DOB, plays, turned pro, nationality, handedness - facts that rarely change.
 
 ## What can stay as links only
 
 Fine to link without duplicating on-page:
 
-- Live rankings (you already track career highs only — good)
+- Live rankings (you already track career highs only - good)
 - “Matches to Watch Out For” H2H URLs (watch list is forward-looking; once they play, promote to a full H2H block with saved facts)
 - Image credits (Wikimedia/CC links are relatively stable)
-- Match stats deep links — **if** opponent, score, and surface are already inline
+- Match stats deep links - **if** opponent, score, and surface are already inline
 
 ## Minimal “link-proof” entry template
 
@@ -531,7 +531,7 @@ Result:
   "isFinal": true,
   "references": [
     {
-      "chunk": "Links:\n1. [Alex Eala at the Berlin Tennis Open: Schedule and Draw | GMA News Online](https://www.gmanetwork.com/news/sports/othersports/992023/alex-eala-at-the-berlin-tennis-open-schedule-and-draw/story/)\n2. [Svitolina vs. Eala | Quarterfinals VANDA Pharmaceuticals Berlin Tennis Open 2026 | WTA Official](https://www.wtatennis.com/tournaments/2012/berlin/2026/scores/LS007)\n3. [Svitolina enjoys smooth passage into Berlin quarterfinals](https://www.wtatennis.com/videos/4521566/svitolina-enjoys-smooth-passage-into-berlin-quarterfinals)\n4. [Day 4 in Berlin featuring Eala, Svitolina, Keys and more | WTA Match Highlights](https://www.youtube.com/watch?v=W7mE-8W3V-Y)\n\nSynthesis:\nAs of June 19, 2026, the quarterfinal match between Alex Eala and Elina Svitolina at the Berlin Tennis Open is scheduled for later today [1]. No result has been finalized yet, as the match is slated to take place at 11:30 p.m. Philippine time [1].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eAlex Eala at the Berlin Tennis Open: Schedule and Draw | GMA News Online\u003c/title\u003e\n\u003curl\u003ehttps://www.gmanetwork.com/news/sports/othersports/992023/alex-eala-at-the-berlin-tennis-open-schedule-and-draw/story/\u003c/url\u003e\n\u003ccontent\u003eAlexandra “Alex” Eala advanced to the quarterfinals of the Berlin Tennis Open after pulling off a stunning upset over World No. 2 Elena Rybakina.\n...\nEala defeated Rybakina, 7-5, 6-4, in the Round of 16 to set up a quarterfinal showdown against World No. 8 Elina Svitolina.\n...\n- Quarterfinals: Alex Eala vs. Elina Svitolina — June 19, 11:30 p.m. (Philippine time)\n- Round of 16: Alex Eala def. Elena Rybakina, 7-5, 6-4\n- Round of 32: Alex Eala def. Donna Vekic, 7-5, 6-4\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"2\"\u003e\n\u003ctitle\u003eSvitolina vs. Eala | Quarterfinals VANDA Pharmaceuticals Berlin Tennis Open 2026 | WTA Official\u003c/title\u003
+      "chunk": "Links:\n1. [Alex Eala at the Berlin Tennis Open: Schedule and Draw | GMA News Online](https://www.gmanetwork.com/news/sports/othersports/992023/alex-eala-at-the-berlin-tennis-open-schedule-and-draw/story/)\n2. [Svitolina vs. Eala | Quarterfinals VANDA Pharmaceuticals Berlin Tennis Open 2026 | WTA Official](https://www.wtatennis.com/tournaments/2012/berlin/2026/scores/LS007)\n3. [Svitolina enjoys smooth passage into Berlin quarterfinals](https://www.wtatennis.com/videos/4521566/svitolina-enjoys-smooth-passage-into-berlin-quarterfinals)\n4. [Day 4 in Berlin featuring Eala, Svitolina, Keys and more | WTA Match Highlights](https://www.youtube.com/watch?v=W7mE-8W3V-Y)\n\nSynthesis:\nAs of June 19, 2026, the quarterfinal match between Alex Eala and Elina Svitolina at the Berlin Tennis Open is scheduled for later today [1]. No result has been finalized yet, as the match is slated to take place at 11:30 p.m. Philippine time [1].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eAlex Eala at the Berlin Tennis Open: Schedule and Draw | GMA News Online\u003c/title\u003e\n\u003curl\u003ehttps://www.gmanetwork.com/news/sports/othersports/992023/alex-eala-at-the-berlin-tennis-open-schedule-and-draw/story/\u003c/url\u003e\n\u003ccontent\u003eAlexandra “Alex” Eala advanced to the quarterfinals of the Berlin Tennis Open after pulling off a stunning upset over World No. 2 Elena Rybakina.\n...\nEala defeated Rybakina, 7-5, 6-4, in the Round of 16 to set up a quarterfinal showdown against World No. 8 Elina Svitolina.\n...\n- Quarterfinals: Alex Eala vs. Elina Svitolina - June 19, 11:30 p.m. (Philippine time)\n- Round of 16: Alex Eala def. Elena Rybakina, 7-5, 6-4\n- Round of 32: Alex Eala def. Donna Vekic, 7-5, 6-4\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"2\"\u003e\n\u003ctitle\u003eSvitolina vs. Eala | Quarterfinals VANDA Pharmaceuticals Berlin Tennis Open 2026 | WTA Official\u003c/title\u003
 … (output truncated)
 ```
 User decision: **accepted**
@@ -924,11 +924,11 @@ _**Agent (default)**_
 Updated **Best Performances → Singles** (lines 52–115) with link-proof match data. Each entry now carries:
 
 **On every line**
-- **Surface** — `(Grass)`, `(Hard)` after the tier
-- **Exit opponent + score** — e.g. `l. Gauff 0-6, 2-6` or `d. Bartunkova 5-7, 6-3, 7-5`
+- **Surface** - `(Grass)`, `(Hard)` after the tier
+- **Exit opponent + score** - e.g. `l. Gauff 0-6, 2-6` or `d. Bartunkova 5-7, 6-3, 7-5`
 
 **On sub-bullets**
-- **Earlier rounds** with opponent and score (exit-round rule unchanged — main line still links to deepest round played)
+- **Earlier rounds** with opponent and score (exit-round rule unchanged - main line still links to deepest round played)
 - Milestone bullets kept as-is
 
 **Examples of the new shape:**
@@ -945,11 +945,11 @@ Updated **Best Performances → Singles** (lines 52–115) with link-proof match
   - Semifinals, d. Masarova 6-2, 4-6, 6-3
 ```
 
-**Berlin** — still in progress; added R32/R16 wins (Vekić, Rybakina) and kept `On-going vs Svitolina` on the main line.
+**Berlin** - still in progress; added R32/R16 wins (Vekić, Rybakina) and kept `On-going vs Svitolina` on the main line.
 
 **Not changed:** YouTube embeds, links, doubles section, H2H blocks, `At a glance`.
 
-**Sources:** Wikipedia draw pages, WTA/GMA/ESPN/Olympics reports — cross-checked where possible.
+**Sources:** Wikipedia draw pages, WTA/GMA/ESPN/Olympics reports - cross-checked where possible.
 
 **`lastmod`** bumped to `2026-06-19T22:30:00Z`.
 
@@ -2900,7 +2900,7 @@ The Eastbourne final is confirmed as 6-7(10). The Abu Dhabi round-of-thirty-two 
 
 _**Agent (default)**_
 
-Using the WTA matches page you pasted as the source of truth — I'll read the tracker section and correct scores, opponents, and missing rounds.
+Using the WTA matches page you pasted as the source of truth - I'll read the tracker section and correct scores, opponents, and missing rounds.
 
 
 _**Agent (default)**_
@@ -3024,18 +3024,18 @@ Corrections applied using the WTA **Matches** page as source of truth.
 | **Ilkley 2025** R16 | 6-1, 6-0 | **6-1, 6-2** |
 
 ### Full runs added from WTA
-- **Birmingham 2026** — QF (Sawangkaew), R16 (Charaeva), R32 (Hon)
-- **Jingshan, Sao Paulo, Guadalajara, Eastbourne, Miami, Canberra** — earlier rounds filled in
-- **Miami 2025** — full main-draw path including Badosa **w/o**, Keys, Ostapenko, Volynets
+- **Birmingham 2026** - QF (Sawangkaew), R16 (Charaeva), R32 (Hon)
+- **Jingshan, Sao Paulo, Guadalajara, Eastbourne, Miami, Canberra** - earlier rounds filled in
+- **Miami 2025** - full main-draw path including Badosa **w/o**, Keys, Ostapenko, Volynets
 
 ### Formatting
 - Restored main-line format: `Round, opponent/score | links`
 - Milestone bullets un-nested (were incorrectly under Semifinals on Birmingham/Guadalajara)
 - Fixed Guadalajara link typo (`ttatennis` → `wtatennis`)
 
-**Not added:** London 2026 (HSBC Championships, R16 loss to Jovic) — below the QF+ threshold for this section. Say if you want it included anyway.
+**Not added:** London 2026 (HSBC Championships, R16 loss to Jovic) - below the QF+ threshold for this section. Say if you want it included anyway.
 
-**Berlin** unchanged — not in the WTA paste you shared; still shows R32/R16 wins and QF vs Svitolina on-going.
+**Berlin** unchanged - not in the WTA paste you shared; still shows R32/R16 wins and QF vs Svitolina on-going.
 
 ---
 
@@ -3155,7 +3155,7 @@ Result:
   "isFinal": true,
   "references": [
     {
-      "chunk": "Links:\n1. [Rain-hit semifinal ends with Alex Eala securing first final of 2026 season](https://tennisuptodate.com/wta/rain-hit-semifinal-ends-with-alex-eala-securing-first-final-of-2026-season)\n2. [SEA Sports News - 🎾 Tennis | Another weather interruption... | Facebook](https://www.facebook.com/SEASportsNews2011/posts/-tennis-another-weather-interruption-in-the-semifinal-match-between-alex-eala-an/968266379359857/)\n3. [Eala vs. Masarova | Semifinals Lexus Birmingham Open 2026 | WTA Official](https://www.wtatennis.com/tournaments/1126/birmingham-125/2026/scores/LS002)\n\nSynthesis:\nAlexandra Eala defeated Rebeka Masarova in the 2026 Lexus Birmingham Open semifinals with a final score of 6-2, 4-6, 6-3 [1][2]. The match featured a weather-related delay during the third set, which Eala ultimately closed out to secure her spot in the final [3][2].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eRain-hit semifinal ends with Alex Eala securing first final of 2026 season\u003c/title\u003e\n\u003curl\u003ehttps://tennisuptodate.com/wta/rain-hit-semifinal-ends-with-alex-eala-securing-first-final-of-2026-season\u003c/url\u003e\n\u003ccontent\u003eAlexandra Eala has advanced to the final of the WTA 125 Birmingham on grass after a sequence of wins marked by controlled baseline tennis and efficient service games. The world No. 37 player entered the event as the top seed in search of quickly gaining experience on grass courts.\n...\n6-0\n...\nThe semifinal, however, represented a complicated match against world No. 132 Rebeka Masarova — former world No. 62 and a player who has dropped in the rankings due to injuries. Nevertheless, the Filipina prevailed in a three-set match — marked by a rain interruption when she was leading 5-2 in the third set.\n...\nWhile the Roland Garros final was being played — with Mirra Andreeva crowned as the winner of her first Grand Slam — Eala was waiting to return to the c
+      "chunk": "Links:\n1. [Rain-hit semifinal ends with Alex Eala securing first final of 2026 season](https://tennisuptodate.com/wta/rain-hit-semifinal-ends-with-alex-eala-securing-first-final-of-2026-season)\n2. [SEA Sports News - 🎾 Tennis | Another weather interruption... | Facebook](https://www.facebook.com/SEASportsNews2011/posts/-tennis-another-weather-interruption-in-the-semifinal-match-between-alex-eala-an/968266379359857/)\n3. [Eala vs. Masarova | Semifinals Lexus Birmingham Open 2026 | WTA Official](https://www.wtatennis.com/tournaments/1126/birmingham-125/2026/scores/LS002)\n\nSynthesis:\nAlexandra Eala defeated Rebeka Masarova in the 2026 Lexus Birmingham Open semifinals with a final score of 6-2, 4-6, 6-3 [1][2]. The match featured a weather-related delay during the third set, which Eala ultimately closed out to secure her spot in the final [3][2].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eRain-hit semifinal ends with Alex Eala securing first final of 2026 season\u003c/title\u003e\n\u003curl\u003ehttps://tennisuptodate.com/wta/rain-hit-semifinal-ends-with-alex-eala-securing-first-final-of-2026-season\u003c/url\u003e\n\u003ccontent\u003eAlexandra Eala has advanced to the final of the WTA 125 Birmingham on grass after a sequence of wins marked by controlled baseline tennis and efficient service games. The world No. 37 player entered the event as the top seed in search of quickly gaining experience on grass courts.\n...\n6-0\n...\nThe semifinal, however, represented a complicated match against world No. 132 Rebeka Masarova - former world No. 62 and a player who has dropped in the rankings due to injuries. Nevertheless, the Filipina prevailed in a three-set match - marked by a rain interruption when she was leading 5-2 in the third set.\n...\nWhile the Roland Garros final was being played - with Mirra Andreeva crowned as the winner of her first Grand Slam - Eala was waiting to return to the c
 … (output truncated)
 ```
 User decision: **accepted**
@@ -3258,7 +3258,7 @@ Result:
   "isFinal": true,
   "references": [
     {
-      "chunk": "Links:\n1. [Eala, Alexandra vs Bartůňková, Nikola · Final · WTA 125K Birmingham](https://www.tennis.com/tournaments/lexus-birmingham-open/matches/a-eala-vs-n-bartunkova-2026-06-07)\n\nSynthesis:\nIn June 2026, Alexandra Eala competed in the WTA 125K tournament in Birmingham. She defeated Priscilla Hon in the first round [1] and Alina Charaeva in the second round [2]. Eala then advanced to the semifinals to beat Rebekah Masarova [3] before ultimately facing Nikola Bartunkova in the final [4]. In that final match, Eala was defeated by Bartunkova with a score of 5-7, 7-6, 5-7 [4].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eEala, Alexandra vs Bartůňková, Nikola · Final · WTA 125K Birmingham\u003c/title\u003e\n\u003curl\u003ehttps://www.tennis.com/tournaments/lexus-birmingham-open/matches/a-eala-vs-n-bartunkova-2026-06-07\u003c/url\u003e\n\u003ccontent\u003eEala, Alexandra vs Bartůňková, Nikola · Final · WTA 125K Birmingham\n...\n[](https://www.tennis.com/tournaments/lexus-birmingham-open/matches/a-eala-vs-n-bartunkova-2026-06-07)\n...\nWomen's Singles·Final\n...\n![PHL](https://media.prod.tennis.com/v1/tcf/images/flags/phl.jpg?w=3840\u0026fm=webp\u0026q=75)A. Eala1\n...\n![CZE](https://media.prod.tennis.com/v1/tcf/images/flags/cze.jpg?w=3840\u0026fm=webp\u0026q=75)N. Bartůňková5\n...\n![Alexandra Eala](https://media.prod.tennis.com/v1/tcf/images/players/88463070-8fad-4d59-a842-d4fdd6af7dd9/20260604_215101.png?w=3840\u0026fm=webp\u0026q=75)\n![PHL](https://\n...\n\u0026fm=webp\u0026q=75)\n...\nAlexandra Eala\n...\nNikola Bartůňková\n...\n-091\n...\n-4c61-a294-fd816fef8375\n...\n20260604_213637.png\n...\nw=3\n...\nPlayer|A. Eala|Statistic|N. Bartůňková|\n|35|Singles Ranking|62|\n|151|Doubles Ranking|—|\n|May 23, 2005|Birth Date|Feb 25, 2006|\n|—|Height|—|\n|70|Career High Singles Ranking|226|\n|192|Career High Doubles Ranking|320|\n|—|Year Turned Pro|—|\n|Left|Dominant Hand|Right|\n...\noveral
+      "chunk": "Links:\n1. [Eala, Alexandra vs Bartůňková, Nikola · Final · WTA 125K Birmingham](https://www.tennis.com/tournaments/lexus-birmingham-open/matches/a-eala-vs-n-bartunkova-2026-06-07)\n\nSynthesis:\nIn June 2026, Alexandra Eala competed in the WTA 125K tournament in Birmingham. She defeated Priscilla Hon in the first round [1] and Alina Charaeva in the second round [2]. Eala then advanced to the semifinals to beat Rebekah Masarova [3] before ultimately facing Nikola Bartunkova in the final [4]. In that final match, Eala was defeated by Bartunkova with a score of 5-7, 7-6, 5-7 [4].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eEala, Alexandra vs Bartůňková, Nikola · Final · WTA 125K Birmingham\u003c/title\u003e\n\u003curl\u003ehttps://www.tennis.com/tournaments/lexus-birmingham-open/matches/a-eala-vs-n-bartunkova-2026-06-07\u003c/url\u003e\n\u003ccontent\u003eEala, Alexandra vs Bartůňková, Nikola · Final · WTA 125K Birmingham\n...\n[](https://www.tennis.com/tournaments/lexus-birmingham-open/matches/a-eala-vs-n-bartunkova-2026-06-07)\n...\nWomen's Singles·Final\n...\n![PHL](https://media.prod.tennis.com/v1/tcf/images/flags/phl.jpg?w=3840\u0026fm=webp\u0026q=75)A. Eala1\n...\n![CZE](https://media.prod.tennis.com/v1/tcf/images/flags/cze.jpg?w=3840\u0026fm=webp\u0026q=75)N. Bartůňková5\n...\n![Alexandra Eala](https://media.prod.tennis.com/v1/tcf/images/players/88463070-8fad-4d59-a842-d4fdd6af7dd9/20260604_215101.png?w=3840\u0026fm=webp\u0026q=75)\n![PHL](https://\n...\n\u0026fm=webp\u0026q=75)\n...\nAlexandra Eala\n...\nNikola Bartůňková\n...\n-091\n...\n-4c61-a294-fd816fef8375\n...\n20260604_213637.png\n...\nw=3\n...\nPlayer|A. Eala|Statistic|N. Bartůňková|\n|35|Singles Ranking|62|\n|151|Doubles Ranking|-|\n|May 23, 2005|Birth Date|Feb 25, 2006|\n|-|Height|-|\n|70|Career High Singles Ranking|226|\n|192|Career High Doubles Ranking|320|\n|-|Year Turned Pro|-|\n|Left|Dominant Hand|Right|\n...\noveral
 … (output truncated)
 ```
 User decision: **accepted**
@@ -4204,7 +4204,7 @@ Result:
   "isFinal": true,
   "references": [
     {
-      "chunk": "Links:\n1. [Eala turns back Sakatsume to enter Philippine Women's Open quarterfinals | Philstar.com](https://qa.philstar.com/sports/2026/01/28/2504142/eala-turns-back-sakatsume-enter-philippine-womens-open-quarterfinals)\n2. [Alexandra Eala vs. Himeno Sakatsume 28.01.2026 - Philippine Women's Open - Manila | TennisLive.com](https://www.tennislive.net/wta/match/alexandra-eala-VS-himeno-sakatsume/philippine-womens-open-manila-2026/)\n3. [2026 Auckland QF: Alexandra Eala vs Magda Linette Detailed Stats | Tennis Abstract](https://www.tennisabstract.com/charting/20260109-W-Auckland-QF-Alexandra_Eala-Magda_Linette.html)\n4. [Sakatsume vs. Eala | Round of 16 Philippine Women's Open 2026 | WTA Official](https://www.wtatennis.com/tournaments/1153/manila-125/2026/scores/LS015)\n\nSynthesis:\nAlex Eala defeated Himeno Sakatsume 6-4, 6-0 during the second round of the 2026 Philippine Women's Open in Manila [1][2]. In the quarterfinals of the 2026 ASB Classic in Auckland, Eala defeated Magda Linette with a score of 6-3, 6-2 [3][4].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eEala turns back Sakatsume to enter Philippine Women's Open quarterfinals | Philstar.com\u003c/title\u003e\n\u003curl\u003ehttps://qa.philstar.com/sports/2026/01/28/2504142/eala-turns-back-sakatsume-enter-philippine-womens-open-quarterfinals\u003c/url\u003e\n\u003ccontent\u003eEala turns back Sakatsume to enter Philippine Women's Open quarterfinals | Philstar.com\n...\n# Eala turns back Sakatsume to enter Philippine Women's Open quarterfinals\n...\nJanuary 28, 2026 | 7:45pm\n...\nThe World No. 49 tennis ace will now face fifth-seeded Camila Osorio, ranked 84th in the world, in the Last Eight.\n...\nMANILA, Philippines — It took some time, but Alex Eala showcased her dominant self when it mattered most and punched a ticket to the WTA 125 Philippine Women’s Open quarterfinals after trouncing Himeno Sakatsume, 6-4, 6-0, Wednesday at t
+      "chunk": "Links:\n1. [Eala turns back Sakatsume to enter Philippine Women's Open quarterfinals | Philstar.com](https://qa.philstar.com/sports/2026/01/28/2504142/eala-turns-back-sakatsume-enter-philippine-womens-open-quarterfinals)\n2. [Alexandra Eala vs. Himeno Sakatsume 28.01.2026 - Philippine Women's Open - Manila | TennisLive.com](https://www.tennislive.net/wta/match/alexandra-eala-VS-himeno-sakatsume/philippine-womens-open-manila-2026/)\n3. [2026 Auckland QF: Alexandra Eala vs Magda Linette Detailed Stats | Tennis Abstract](https://www.tennisabstract.com/charting/20260109-W-Auckland-QF-Alexandra_Eala-Magda_Linette.html)\n4. [Sakatsume vs. Eala | Round of 16 Philippine Women's Open 2026 | WTA Official](https://www.wtatennis.com/tournaments/1153/manila-125/2026/scores/LS015)\n\nSynthesis:\nAlex Eala defeated Himeno Sakatsume 6-4, 6-0 during the second round of the 2026 Philippine Women's Open in Manila [1][2]. In the quarterfinals of the 2026 ASB Classic in Auckland, Eala defeated Magda Linette with a score of 6-3, 6-2 [3][4].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eEala turns back Sakatsume to enter Philippine Women's Open quarterfinals | Philstar.com\u003c/title\u003e\n\u003curl\u003ehttps://qa.philstar.com/sports/2026/01/28/2504142/eala-turns-back-sakatsume-enter-philippine-womens-open-quarterfinals\u003c/url\u003e\n\u003ccontent\u003eEala turns back Sakatsume to enter Philippine Women's Open quarterfinals | Philstar.com\n...\n# Eala turns back Sakatsume to enter Philippine Women's Open quarterfinals\n...\nJanuary 28, 2026 | 7:45pm\n...\nThe World No. 49 tennis ace will now face fifth-seeded Camila Osorio, ranked 84th in the world, in the Last Eight.\n...\nMANILA, Philippines - It took some time, but Alex Eala showcased her dominant self when it mattered most and punched a ticket to the WTA 125 Philippine Women’s Open quarterfinals after trouncing Himeno Sakatsume, 6-4, 6-0, Wednesday at t
 … (output truncated)
 ```
 User decision: **accepted**
@@ -4384,7 +4384,7 @@ Result:
   "isFinal": true,
   "references": [
     {
-      "chunk": "Links:\n1. [Alex Eala sweeps Magda Linette, advances to ASB Classic semifinal](https://sports.inquirer.net/657634/alex-eala-sweeps-magda-linette-advances-to-asb-classic-semifinal)\n\nSynthesis:\nAt the 2026 ASB Classic in Auckland, Alexandra Eala defeated Petra Marcinko 6-0, 6-2 in the Round of 16 [1][2]. Following that victory, Eala went on to defeat Magda Linette 6-3, 6-2 in the quarterfinals [3][4].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eAlex Eala sweeps Magda Linette, advances to ASB Classic semifinal\u003c/title\u003e\n\u003curl\u003ehttps://sports.inquirer.net/657634/alex-eala-sweeps-magda-linette-advances-to-asb-classic-semifinal\u003c/url\u003e\n\u003ccontent\u003eAlex Eala sweeps Magda Linette, advances to ASB Classic semifinal\n...\n# Alex Eala sweeps Magda Linette, advances to ASB Classic semifinal\n...\nINQUIRER.net/ 10:37 AM January 09, 2026\n...\nAlexandra Eala in action in the quarterfinal vs Magda Linette of the ASB Classic in Auckland, New Zealand.\n...\nMANILA, Philippines — Alex Eala sustained her fine form to start her new season, moving into the Final Four of the ASB Classic in Auckland, New Zealand.\n...\nEala remained nearly unstoppable after sweeping Poland’s Magda Linette, 6-3, 6-2, in the quarterfinal on Friday.\n...\nREAD: Alex Eala routs Petra Marcinko to reach ASB Classic quarterfinal\n...\nThe Filipino tennis ace dominated the second set with a blistering 4-0 start before the World No.52 Linette survived the tight fifth game to get her first point in the set and won another one to cut Eala’s lead down to two, 4-2.\n...\nThe Rafa Nadal Academy graduate bounced back in the seventh game to reach match point and dominated the last game to barge into the semifinal.\n...\nEala broke a 2-2 tie in the opening set en route to a 5-2 lead before the 33-year-old Linette halted her momentum, winning the eighth game. But the Filipino was quick to recover and finish th
+      "chunk": "Links:\n1. [Alex Eala sweeps Magda Linette, advances to ASB Classic semifinal](https://sports.inquirer.net/657634/alex-eala-sweeps-magda-linette-advances-to-asb-classic-semifinal)\n\nSynthesis:\nAt the 2026 ASB Classic in Auckland, Alexandra Eala defeated Petra Marcinko 6-0, 6-2 in the Round of 16 [1][2]. Following that victory, Eala went on to defeat Magda Linette 6-3, 6-2 in the quarterfinals [3][4].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eAlex Eala sweeps Magda Linette, advances to ASB Classic semifinal\u003c/title\u003e\n\u003curl\u003ehttps://sports.inquirer.net/657634/alex-eala-sweeps-magda-linette-advances-to-asb-classic-semifinal\u003c/url\u003e\n\u003ccontent\u003eAlex Eala sweeps Magda Linette, advances to ASB Classic semifinal\n...\n# Alex Eala sweeps Magda Linette, advances to ASB Classic semifinal\n...\nINQUIRER.net/ 10:37 AM January 09, 2026\n...\nAlexandra Eala in action in the quarterfinal vs Magda Linette of the ASB Classic in Auckland, New Zealand.\n...\nMANILA, Philippines - Alex Eala sustained her fine form to start her new season, moving into the Final Four of the ASB Classic in Auckland, New Zealand.\n...\nEala remained nearly unstoppable after sweeping Poland’s Magda Linette, 6-3, 6-2, in the quarterfinal on Friday.\n...\nREAD: Alex Eala routs Petra Marcinko to reach ASB Classic quarterfinal\n...\nThe Filipino tennis ace dominated the second set with a blistering 4-0 start before the World No.52 Linette survived the tight fifth game to get her first point in the set and won another one to cut Eala’s lead down to two, 4-2.\n...\nThe Rafa Nadal Academy graduate bounced back in the seventh game to reach match point and dominated the last game to barge into the semifinal.\n...\nEala broke a 2-2 tie in the opening set en route to a 5-2 lead before the 33-year-old Linette halted her momentum, winning the eighth game. But the Filipino was quick to recover and finish th
 … (output truncated)
 ```
 User decision: **accepted**
@@ -4498,7 +4498,7 @@ Result:
   "isFinal": true,
   "references": [
     {
-      "chunk": "Links:\n1. [Alexandra Eala def. Katie Volynets, 2025 Miami First Round | TennisDB](https://tennis-db.com/wta/matches/balldontlie_wta:331693/alexandra-eala-vs-katie-volynets)\n2. [Alexandra Eala vs Katie Volynets - Match WTA - Miami Open presented by Itau 1970 - First round - Tennis Majors](https://www.tennismajors.com/matches/wta/miami-open-presented-by-itau/alexandra-eala-vs-katie-volynets)\n3. [Alexandra Eala scores the Philippines' biggest WTA win against Jelena Ostapenko in Miami | Tennis.com](https://www.tennis.com/news/articles/alexandra-eala-scores-the-philippines-biggest-wta-win-against-jelena-ostapenko-in-miami)\n4. [2025 Miami Open – Women's singles](https://en.wikipedia.org/wiki/2025_Miami_Open_%E2%80%93_Women%27s_singles)\n\nSynthesis:\nAt the 2025 Miami Open, Alexandra Eala defeated Katie Volynets in the first round (Round of 128) with a score of 6-3, 7-6(3) [1][2][3]. In the following round, Eala achieved a major upset by defeating Jelena Ostapenko [4][5].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eAlexandra Eala def. Katie Volynets, 2025 Miami First Round | TennisDB\u003c/title\u003e\n\u003curl\u003ehttps://tennis-db.com/wta/matches/balldontlie_wta:331693/alexandra-eala-vs-katie-volynets\u003c/url\u003e\n\u003ccontent\u003eAlexandra Eala def. Katie Volynets, 2025 Miami First Round | TennisDB\n\nSite data updated: 2026-06-12 10:30 UTC\n\n# Alexandra Eala#137 def. Katie Volynets#63\n\n6-3 7-6(3)\n\n## Match Information\n\n| Date | Mar 19, 2025 |\n| --- | --- |\n| Tournament | Miami |\n| Category | WTA 1000 |\n| Surface | Hard |\n| Round | R128 |\n| Winner | Alexandra Eala |\n| Score | 6-3 7-6(3) |\n| Loser | Katie Volynets |\n\nNo match stats are available for this match.\n\n## Pre-match Comparison\n\n| Field | Alexandra Eala | Katie Volynets |\n| --- | --- | --- |\n| Country | PHI | USA |\n| Birth date | — | Dec 31, 2001 |\n| Age | — | 23 |\n| Height | 173 | 170 |\n| Handed
+      "chunk": "Links:\n1. [Alexandra Eala def. Katie Volynets, 2025 Miami First Round | TennisDB](https://tennis-db.com/wta/matches/balldontlie_wta:331693/alexandra-eala-vs-katie-volynets)\n2. [Alexandra Eala vs Katie Volynets - Match WTA - Miami Open presented by Itau 1970 - First round - Tennis Majors](https://www.tennismajors.com/matches/wta/miami-open-presented-by-itau/alexandra-eala-vs-katie-volynets)\n3. [Alexandra Eala scores the Philippines' biggest WTA win against Jelena Ostapenko in Miami | Tennis.com](https://www.tennis.com/news/articles/alexandra-eala-scores-the-philippines-biggest-wta-win-against-jelena-ostapenko-in-miami)\n4. [2025 Miami Open – Women's singles](https://en.wikipedia.org/wiki/2025_Miami_Open_%E2%80%93_Women%27s_singles)\n\nSynthesis:\nAt the 2025 Miami Open, Alexandra Eala defeated Katie Volynets in the first round (Round of 128) with a score of 6-3, 7-6(3) [1][2][3]. In the following round, Eala achieved a major upset by defeating Jelena Ostapenko [4][5].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eAlexandra Eala def. Katie Volynets, 2025 Miami First Round | TennisDB\u003c/title\u003e\n\u003curl\u003ehttps://tennis-db.com/wta/matches/balldontlie_wta:331693/alexandra-eala-vs-katie-volynets\u003c/url\u003e\n\u003ccontent\u003eAlexandra Eala def. Katie Volynets, 2025 Miami First Round | TennisDB\n\nSite data updated: 2026-06-12 10:30 UTC\n\n# Alexandra Eala#137 def. Katie Volynets#63\n\n6-3 7-6(3)\n\n## Match Information\n\n| Date | Mar 19, 2025 |\n| --- | --- |\n| Tournament | Miami |\n| Category | WTA 1000 |\n| Surface | Hard |\n| Round | R128 |\n| Winner | Alexandra Eala |\n| Score | 6-3 7-6(3) |\n| Loser | Katie Volynets |\n\nNo match stats are available for this match.\n\n## Pre-match Comparison\n\n| Field | Alexandra Eala | Katie Volynets |\n| --- | --- | --- |\n| Country | PHI | USA |\n| Birth date | - | Dec 31, 2001 |\n| Age | - | 23 |\n| Height | 173 | 170 |\n| Handed
 … (output truncated)
 ```
 User decision: **accepted**
@@ -4534,7 +4534,7 @@ Result:
   "isFinal": true,
   "references": [
     {
-      "chunk": "Links:\n1. [Alexandra Eala def. Magda Linette, 2026 Auckland Quarterfinal | TennisDB](https://tennis-db.com/wta/matches/balldontlie_wta:334420/alexandra-eala-vs-magda-linette)\n2. [Alexandra Eala vs. Magda Linette 09.01.2026 - ASB Classic - Auckland | TennisLive.com](https://www.tennislive.net/wta/match/magda-linette-VS-alexandra-eala/asb-classic-auckland-2026/)\n3. [Vekic vs. Eala | Round of 32 ASB Classic 2026 | WTA Official](https://www.wtatennis.com/tournaments/1049/auckland/2026/scores/LS027)\n\nSynthesis:\nIn the 2026 ASB Classic quarterfinals in Auckland, Alexandra Eala defeated Magda Linette with a score of 6-3, 6-2 [1][2][3]. Regarding your other queries, Alexandra Eala defeated Donna Vekic in the first round of the 2026 Auckland tournament with a score of 4-6, 6-4, 6-4 [1][4][5]. Alexandra Eala also defeated Jia-Jing Lu in the Jingshan Tennis Open, winning 6-4, 6-1 [6][7].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eAlexandra Eala def. Magda Linette, 2026 Auckland Quarterfinal | TennisDB\u003c/title\u003e\n\u003curl\u003ehttps://tennis-db.com/wta/matches/balldontlie_wta:334420/alexandra-eala-vs-magda-linette\u003c/url\u003e\n\u003ccontent\u003eAlexandra Eala def. Magda Linette, 2026 Auckland Quarterfinal | TennisDB\n\n# Alexandra Eala#53 def. Magda Linette#54\n\n6-3 6-2\n\n## Match information\n\n| Tournament | Auckland |\n| --- | --- |\n| Round | QF |\n| Date | Jan 9, 2026 |\n| Surface | Hard |\n| Category | WTA 250 |\n\n## Pre-match H2H\n\nAlexandra Eala 0–2 Magda Linette entering this match.\n\n## Player comparison\n\n| Field | Alexandra Eala | Magda Linette |\n| --- | --- | --- |\n| Country | PHI | POL |\n| Birth date | — | Feb 12, 1992 |\n| Height | 173 | 171 |\n| Handedness | Left-Handed | Right-Handed |\n| Backhand style | — | Two-Handed Backhand |\n| Ranking (entering) | 53 | 54 |\n| Latest ranking | 37 | 73 |\n| Ranking points | 1,340 | 931 |\n| Career W-L | 26–39 | 220
+      "chunk": "Links:\n1. [Alexandra Eala def. Magda Linette, 2026 Auckland Quarterfinal | TennisDB](https://tennis-db.com/wta/matches/balldontlie_wta:334420/alexandra-eala-vs-magda-linette)\n2. [Alexandra Eala vs. Magda Linette 09.01.2026 - ASB Classic - Auckland | TennisLive.com](https://www.tennislive.net/wta/match/magda-linette-VS-alexandra-eala/asb-classic-auckland-2026/)\n3. [Vekic vs. Eala | Round of 32 ASB Classic 2026 | WTA Official](https://www.wtatennis.com/tournaments/1049/auckland/2026/scores/LS027)\n\nSynthesis:\nIn the 2026 ASB Classic quarterfinals in Auckland, Alexandra Eala defeated Magda Linette with a score of 6-3, 6-2 [1][2][3]. Regarding your other queries, Alexandra Eala defeated Donna Vekic in the first round of the 2026 Auckland tournament with a score of 4-6, 6-4, 6-4 [1][4][5]. Alexandra Eala also defeated Jia-Jing Lu in the Jingshan Tennis Open, winning 6-4, 6-1 [6][7].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eAlexandra Eala def. Magda Linette, 2026 Auckland Quarterfinal | TennisDB\u003c/title\u003e\n\u003curl\u003ehttps://tennis-db.com/wta/matches/balldontlie_wta:334420/alexandra-eala-vs-magda-linette\u003c/url\u003e\n\u003ccontent\u003eAlexandra Eala def. Magda Linette, 2026 Auckland Quarterfinal | TennisDB\n\n# Alexandra Eala#53 def. Magda Linette#54\n\n6-3 6-2\n\n## Match information\n\n| Tournament | Auckland |\n| --- | --- |\n| Round | QF |\n| Date | Jan 9, 2026 |\n| Surface | Hard |\n| Category | WTA 250 |\n\n## Pre-match H2H\n\nAlexandra Eala 0–2 Magda Linette entering this match.\n\n## Player comparison\n\n| Field | Alexandra Eala | Magda Linette |\n| --- | --- | --- |\n| Country | PHI | POL |\n| Birth date | - | Feb 12, 1992 |\n| Height | 173 | 171 |\n| Handedness | Left-Handed | Right-Handed |\n| Backhand style | - | Two-Handed Backhand |\n| Ranking (entering) | 53 | 54 |\n| Latest ranking | 37 | 73 |\n| Ranking points | 1,340 | 931 |\n| Career W-L | 26–39 | 220
 … (output truncated)
 ```
 User decision: **accepted**
@@ -5915,7 +5915,7 @@ Result:
 
 ```json
 {
-  "markdown": "Match details: Udvardy, Panna vs Eala, Alexandra\n\nWomen's Singles\n\nCompleted\n\nP. Udvardy\n\n653\n\nA. Eala2\n\n176\n\nPanna Udvardy\n\nAlexandra Eala\n\n| Player | P. Udvardy | Statistic | A. Eala |\n| --- | --- | --- | --- |\n| 68 | Singles Ranking | 35 |\n| 196 | Doubles Ranking | 151 |\n| Sep 28, 1998 | Birth Date | May 23, 2005 |\n| 5'7\" (170 cm) | Height | — |\n| 76 | Career High Singles Ranking | 70 |\n| 65 | Career High Doubles Ranking | 192 |\n| — | Year Turned Pro | — |\n| Right | Dominant Hand | Left |\n\n| overall | P. Udvardy | Statistic | A. Eala |\n| --- | --- | --- | --- |\n| 5 | Aces | 0 |\n| 4 | Double Faults | 4 |\n| 56% (60/108) | 1st Serve % | 70% (62/89) |\n| 63% (38/60) | 1st Serve Points Won | 56% (35/62) |\n| 43% (19/44) | 2nd Serve Points Won | 43% (10/23) |\n| 71% (15/21) | Break Points Saved | 57% (8/14) |\n| 57% (8/14) | Service Games | 57% (8/14) |\n\n| Return | P. Udvardy | Statistic | A. Eala |\n| --- | --- | --- | --- |\n| 44% (27/62) | 1st Return Points Won | 37% (22/60) |\n| 57% (13/23) | 2nd Return Points Won | 57% (25/44) |\n| 43% (6/14) | Break Points Won | 29% (6/21) |\n| 43% (6/14) | Return Games | 43% (6/14) |\n\nUdvardy, Panna vs Eala, Alexandra · WTA 125K Guadalajara, Mexico",
+  "markdown": "Match details: Udvardy, Panna vs Eala, Alexandra\n\nWomen's Singles\n\nCompleted\n\nP. Udvardy\n\n653\n\nA. Eala2\n\n176\n\nPanna Udvardy\n\nAlexandra Eala\n\n| Player | P. Udvardy | Statistic | A. Eala |\n| --- | --- | --- | --- |\n| 68 | Singles Ranking | 35 |\n| 196 | Doubles Ranking | 151 |\n| Sep 28, 1998 | Birth Date | May 23, 2005 |\n| 5'7\" (170 cm) | Height | - |\n| 76 | Career High Singles Ranking | 70 |\n| 65 | Career High Doubles Ranking | 192 |\n| - | Year Turned Pro | - |\n| Right | Dominant Hand | Left |\n\n| overall | P. Udvardy | Statistic | A. Eala |\n| --- | --- | --- | --- |\n| 5 | Aces | 0 |\n| 4 | Double Faults | 4 |\n| 56% (60/108) | 1st Serve % | 70% (62/89) |\n| 63% (38/60) | 1st Serve Points Won | 56% (35/62) |\n| 43% (19/44) | 2nd Serve Points Won | 43% (10/23) |\n| 71% (15/21) | Break Points Saved | 57% (8/14) |\n| 57% (8/14) | Service Games | 57% (8/14) |\n\n| Return | P. Udvardy | Statistic | A. Eala |\n| --- | --- | --- | --- |\n| 44% (27/62) | 1st Return Points Won | 37% (22/60) |\n| 57% (13/23) | 2nd Return Points Won | 57% (25/44) |\n| 43% (6/14) | Break Points Won | 29% (6/21) |\n| 43% (6/14) | Return Games | 43% (6/14) |\n\nUdvardy, Panna vs Eala, Alexandra · WTA 125K Guadalajara, Mexico",
   "url": "https://www.tennis.com/tournaments/guadalajara-125-open/matches/p-udvardy-vs-a-eala-2025-09-06"
 }
 ```
@@ -6163,11 +6163,11 @@ _**Agent (default)**_
 
 Added `[wtatennis.com]` and `[tennis.com]` links to every round sub-bullet in the Singles section. Summary:
 
-**Fully linked (both sources)** — All rounds for Birmingham, Dubai, Abu Dhabi, Manila, Auckland, Jingshan, Sao Paulo, Guadalajara, Eastbourne, Ilkley, Miami, and Veneto.
+**Fully linked (both sources)** - All rounds for Birmingham, Dubai, Abu Dhabi, Manila, Auckland, Jingshan, Sao Paulo, Guadalajara, Eastbourne, Ilkley, Miami, and Veneto.
 
 **WTA-only (no tennis.com slug yet)**
-- **Berlin QF** vs Svitolina — ongoing; WTA `LS007` only
-- **Canberra SF** vs Wei — no tennis.com match page found
+- **Berlin QF** vs Svitolina - ongoing; WTA `LS007` only
+- **Canberra SF** vs Wei - no tennis.com match page found
 
 **Also fixed**
 - Birmingham milestone bullets (`Second Career WTA Win`, `First career title on grass`) are sibling bullets again, not nested under R32
@@ -6210,6 +6210,6 @@ Birmingham, Dubai, and Abu Dhabi returned all expected match IDs. Manila and Auc
 
 _**Agent (default)**_
 
-The WTA score-ID scan finished successfully. It confirmed all Eala match IDs for **Birmingham** (LS001, LS002, LS004, LS008, LS016), **Dubai** (LS005, LS011, LS023, LS046), and **Abu Dhabi** (LS007, LS014, LS029) — all match what's already in the tracker.
+The WTA score-ID scan finished successfully. It confirmed all Eala match IDs for **Birmingham** (LS001, LS002, LS004, LS008, LS016), **Dubai** (LS005, LS011, LS023, LS046), and **Abu Dhabi** (LS007, LS014, LS029) - all match what's already in the tracker.
 
 **Manila** and **Auckland** returned empty results, almost certainly from WTA rate limiting during the scan rather than missing matches. Those tournaments were already linked manually (e.g. Auckland QF Linette `LS006`, Manila `LS007`/`LS015`/`LS031`).

@@ -400,7 +400,7 @@ node /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/impeccable/scripts/de
   {
     "antipattern": "cramped-padding",
     "name": "Cramped padding",
-    "description": "Text is too close to the edge of its container. Two shapes: (1) an element with its own text where the padding is too low for the font size, and (2) a wrapper with text-bearing children and near-zero padding against a visible boundary (border, outline, or non-transparent background) — children land flush against the boundary line. Add at least 8px (ideally 12–16px) of padding inside bordered, outlined, or colored containers.",
+    "description": "Text is too close to the edge of its container. Two shapes: (1) an element with its own text where the padding is too low for the font size, and (2) a wrapper with text-bearing children and near-zero padding against a visible boundary (border, outline, or non-transparent background) - children land flush against the boundary line. Add at least 8px (ideally 12–16px) of padding inside bordered, outlined, or colored containers.",
     "severity": "warning",
     "file": "/home/jorap/Documents/GitHub/jorap.com/layouts/notes/cards.html",
     "line": 0,
@@ -1731,9 +1731,9 @@ The anti-patterns verdict is pass with caveats. The site reads as intentional Jo
 
 _**Agent (default)**_
 
-# Impeccable Audit — JoRap.com
+# Impeccable Audit - JoRap.com
 
-Technical quality audit across accessibility, performance, theming, responsive design, and anti-patterns. No fixes applied — findings only.
+Technical quality audit across accessibility, performance, theming, responsive design, and anti-patterns. No fixes applied - findings only.
 
 ---
 
@@ -1742,10 +1742,10 @@ Technical quality audit across accessibility, performance, theming, responsive d
 **Pass, with caveats.** This does not read as generic AI landing-page slop. The warm-paper + charcoal system is documented in `DESIGN.md` as intentional (“The Quiet Study”), and the home writing section breaks the identical-card-grid pattern with a featured-first asymmetric layout.
 
 **Specific tells (subtle, not damning):**
-- **Inter-only stack** — on Impeccable’s reflex-reject list, but committed in `DESIGN.md`; identity-preservation applies.
-- **Warm cream body (`#f5f3f0`)** — could be mistaken for the 2026 AI default from a distance, though here it’s a deliberate editorial choice, not drift.
-- **Uppercase tracked labels** — only on flashcard review (“Question” / “Answer”); not sitewide section eyebrows.
-- **Blog cards** — used, but with hierarchy (featured card + smaller siblings), not a flat icon-heading-text grid.
+- **Inter-only stack** - on Impeccable’s reflex-reject list, but committed in `DESIGN.md`; identity-preservation applies.
+- **Warm cream body (`#f5f3f0`)** - could be mistaken for the 2026 AI default from a distance, though here it’s a deliberate editorial choice, not drift.
+- **Uppercase tracked labels** - only on flashcard review (“Question” / “Answer”); not sitewide section eyebrows.
+- **Blog cards** - used, but with hierarchy (featured card + smaller siblings), not a flat icon-heading-text grid.
 
 **Not found:** gradient text, side-stripe borders, hero-metric blocks, glassmorphism-as-default, numbered section markers (01/02/03), bounce easing.
 
@@ -1760,7 +1760,7 @@ Technical quality audit across accessibility, performance, theming, responsive d
 | 3 | Responsive Design | **3** | Touch targets mostly 2.75rem; theme switcher control and footer social icons undersized |
 | 4 | Theming | **3** | Semantic token system works in light/dark; `custom.css` drifts with hard-coded status/warning colors |
 | 5 | Anti-Patterns | **3** | Intentional editorial restraint; Inter + warm paper are the main “could be anyone” signals |
-| **Total** | | **15/20** | **Good** — address weak dimensions before polish |
+| **Total** | | **15/20** | **Good** - address weak dimensions before polish |
 
 **Rating band:** Good (14–17). Significant work is not needed; targeted passes on a11y focus/touch and token drift will move the score up.
 
@@ -1781,10 +1781,10 @@ Technical quality audit across accessibility, performance, theming, responsive d
 
 ## Detailed Findings by Severity
 
-### P1 — Major
+### P1 - Major
 
 **[P1] Missing skip-to-content link**
-- **Location:** `themes/jorap/layouts/baseof.html` — `<main class="flex-1">` has no preceding skip link or `id`
+- **Location:** `themes/jorap/layouts/baseof.html` - `<main class="flex-1">` has no preceding skip link or `id`
 - **Category:** Accessibility
 - **Impact:** Keyboard and screen-reader users must tab through the full header on every page load
 - **WCAG:** 2.4.1 Bypass Blocks (Level A)
@@ -1792,7 +1792,7 @@ Technical quality audit across accessibility, performance, theming, responsive d
 - **Suggested command:** `/impeccable polish`
 
 **[P1] Theme switcher touch target too small**
-- **Location:** `themes/jorap/assets/css/navigation.css` — `.theme-switcher label` is `h-4 w-6` (~16×24px)
+- **Location:** `themes/jorap/assets/css/navigation.css` - `.theme-switcher label` is `h-4 w-6` (~16×24px)
 - **Category:** Responsive / Accessibility
 - **Impact:** Hard to tap on mobile; fails the 44×44px guideline despite `.theme-switcher` having `min-h-11`
 - **WCAG:** 2.5.5 Target Size (Level AAA; AA best practice for touch)
@@ -1800,7 +1800,7 @@ Technical quality audit across accessibility, performance, theming, responsive d
 - **Suggested command:** `/impeccable adapt`
 
 **[P1] Theme switcher missing focus indicator**
-- **Location:** `themes/jorap/assets/css/navigation.css` — no `#theme-switcher:focus-visible` rule
+- **Location:** `themes/jorap/assets/css/navigation.css` - no `#theme-switcher:focus-visible` rule
 - **Category:** Accessibility
 - **Impact:** Keyboard users cannot see when the switch is focused
 - **WCAG:** 2.4.7 Focus Visible (Level AA)
@@ -1809,10 +1809,10 @@ Technical quality audit across accessibility, performance, theming, responsive d
 
 ---
 
-### P2 — Minor
+### P2 - Minor
 
 **[P2] Notes filter pills lack focus-visible styles**
-- **Location:** `assets/css/custom.css` — `.notes-filter` (lines ~693–710)
+- **Location:** `assets/css/custom.css` - `.notes-filter` (lines ~693–710)
 - **Category:** Accessibility
 - **Impact:** Filter toggles on notes list, cards, graph, and review are hard to track by keyboard
 - **WCAG:** 2.4.7 Focus Visible
@@ -1820,14 +1820,14 @@ Technical quality audit across accessibility, performance, theming, responsive d
 - **Suggested command:** `/impeccable polish`
 
 **[P2] Hard-coded semantic colors outside design tokens**
-- **Location:** `assets/css/custom.css` — `.notes-dev-banner`, `.notes-issues`, `.notes-status--*`, graph filter count colors
+- **Location:** `assets/css/custom.css` - `.notes-dev-banner`, `.notes-issues`, `.notes-status--*`, graph filter count colors
 - **Category:** Theming
 - **Impact:** Amber/red/green status UI won’t stay coherent if tokens change; dark-mode pairs are hand-maintained
 - **Recommendation:** Add `--color-warning`, `--color-error`, `--color-success` to `data/theme.json` and document in `DESIGN.md`
 - **Suggested command:** `/impeccable colorize` or `/impeccable document`
 
 **[P2] Flashcard flip ignores reduced motion**
-- **Location:** `assets/css/custom.css` — `.notes-flashcard__inner { transition: transform 0.35s }` (lines ~987–992)
+- **Location:** `assets/css/custom.css` - `.notes-flashcard__inner { transition: transform 0.35s }` (lines ~987–992)
 - **Category:** Accessibility / Performance
 - **Impact:** 3D flip runs for users who requested reduced motion
 - **WCAG:** 2.3.3 Animation from Interactions
@@ -1835,14 +1835,14 @@ Technical quality audit across accessibility, performance, theming, responsive d
 - **Suggested command:** `/impeccable animate`
 
 **[P2] Footer social icons below touch-target minimum**
-- **Location:** `themes/jorap/assets/css/components.css` — `.social-icons li a` is `h-9 w-9` (36px)
+- **Location:** `themes/jorap/assets/css/components.css` - `.social-icons li a` is `h-9 w-9` (36px)
 - **Category:** Responsive
 - **Impact:** Small tap targets in footer on mobile
 - **Recommendation:** Bump to `min-h-11 min-w-11` or add padding on the anchor
 - **Suggested command:** `/impeccable adapt`
 
 **[P2] Nav dropdown lacks keyboard navigation beyond Escape**
-- **Location:** `themes/jorap/assets/js/main.js` — click toggle + Escape close only
+- **Location:** `themes/jorap/assets/js/main.js` - click toggle + Escape close only
 - **Category:** Accessibility
 - **Impact:** Mobile/tablet users can open dropdowns but cannot arrow through items; no roving tabindex
 - **WCAG:** 2.1.1 Keyboard (partial compliance)
@@ -1850,7 +1850,7 @@ Technical quality audit across accessibility, performance, theming, responsive d
 - **Suggested command:** `/impeccable harden`
 
 **[P2] Theme switcher transition not reduced-motion-safe**
-- **Location:** `themes/jorap/assets/css/navigation.css` — `.theme-switcher span { transition-all duration-300 }`
+- **Location:** `themes/jorap/assets/css/navigation.css` - `.theme-switcher span { transition-all duration-300 }`
 - **Category:** Accessibility
 - **Impact:** Knob slide animates even when user prefers reduced motion (unlike buttons, which use `motion-reduce:transition-none`)
 - **Recommendation:** Add `motion-reduce:transition-none` on the switcher span
@@ -1865,13 +1865,13 @@ Technical quality audit across accessibility, performance, theming, responsive d
 
 ---
 
-### P3 — Polish
+### P3 - Polish
 
 **[P3] Inter-only typography reads as training-data default**
 - **Location:** `data/theme.json`, sitewide
 - **Category:** Anti-Pattern
 - **Impact:** Brand register wants distinctiveness; Inter is committed but generic to outsiders
-- **Recommendation:** Only revisit if brand evolution is intentional — a second voice (serif display) would be a brand decision, not an audit fix
+- **Recommendation:** Only revisit if brand evolution is intentional - a second voice (serif display) would be a brand decision, not an audit fix
 - **Suggested command:** `/impeccable typeset` (if you choose to evolve)
 
 **[P3] Uppercase tracked labels on review page**
@@ -1897,35 +1897,35 @@ Technical quality audit across accessibility, performance, theming, responsive d
 
 ## Patterns & Systemic Issues
 
-1. **Focus ring coverage is uneven** — Buttons, nav, and graph icons have `focus-visible`; custom interactive surfaces (filters, theme switcher) do not. One shared utility or mixin would close the gap.
-2. **Semantic status colors live outside the token system** — Warning/error/success appear in ~15 places in `custom.css` with raw hex values. Any palette change requires manual dark-mode pairs.
-3. **Reduced motion is partial** — Document-level scroll and blog-card hovers respect it; notes flashcards and theme switcher do not.
-4. **Touch-target token exists but isn’t applied everywhere** — `--touch-target-min: 2.75rem` is used well in nav and notes filters; social icons and theme switcher label bypass it.
+1. **Focus ring coverage is uneven** - Buttons, nav, and graph icons have `focus-visible`; custom interactive surfaces (filters, theme switcher) do not. One shared utility or mixin would close the gap.
+2. **Semantic status colors live outside the token system** - Warning/error/success appear in ~15 places in `custom.css` with raw hex values. Any palette change requires manual dark-mode pairs.
+3. **Reduced motion is partial** - Document-level scroll and blog-card hovers respect it; notes flashcards and theme switcher do not.
+4. **Touch-target token exists but isn’t applied everywhere** - `--touch-target-min: 2.75rem` is used well in nav and notes filters; social icons and theme switcher label bypass it.
 
 ---
 
 ## Positive Findings
 
-- **Contrast ratios are solid** — Body ink on surface ~10.2:1; muted ink ~5.1:1; placeholders ~4.7:1 on elevated (passes AA).
-- **Notes tooling ARIA is excellent** — Filter groups use `role="group"`, `aria-pressed`, and descriptive `aria-label` counts throughout list, graph, cards, and review.
-- **Semantic token architecture** — `data/theme.json` → Tailwind plugin → CSS variables; dark mode inverts accent cleanly.
-- **Typography discipline** — `text-wrap: balance` on headings, ~70ch prose cap, restrained heading scale with `article-title` ramp.
-- **Performance basics in place** — Logo `fetchpriority="high"`, image partial supports lazy loading, `content-visibility: auto` on `.image--partial`, static Hugo output.
-- **Home writing layout shows judgment** — Featured post gets 8-col span; siblings stagger — not a reflex card grid.
-- **Blog cards respect reduced motion** — `motion-reduce:transition-none motion-reduce:hover:shadow-sm` in blog-card partial.
+- **Contrast ratios are solid** - Body ink on surface ~10.2:1; muted ink ~5.1:1; placeholders ~4.7:1 on elevated (passes AA).
+- **Notes tooling ARIA is excellent** - Filter groups use `role="group"`, `aria-pressed`, and descriptive `aria-label` counts throughout list, graph, cards, and review.
+- **Semantic token architecture** - `data/theme.json` → Tailwind plugin → CSS variables; dark mode inverts accent cleanly.
+- **Typography discipline** - `text-wrap: balance` on headings, ~70ch prose cap, restrained heading scale with `article-title` ramp.
+- **Performance basics in place** - Logo `fetchpriority="high"`, image partial supports lazy loading, `content-visibility: auto` on `.image--partial`, static Hugo output.
+- **Home writing layout shows judgment** - Featured post gets 8-col span; siblings stagger - not a reflex card grid.
+- **Blog cards respect reduced motion** - `motion-reduce:transition-none motion-reduce:hover:shadow-sm` in blog-card partial.
 
 ---
 
 ## Recommended Actions
 
-1. **[P1] `/impeccable polish`** — Skip link + `#main` landmark; theme-switcher focus ring; notes-filter `:focus-visible`
-2. **[P1] `/impeccable adapt`** — Theme switcher hit area; footer social icons to 44px minimum
-3. **[P2] `/impeccable colorize`** — Promote warning/error/success colors into theme tokens (issues panel, dev banner, status badges)
-4. **[P2] `/impeccable animate`** — Flashcard flip + theme-switcher knob under `prefers-reduced-motion`
-5. **[P2] `/impeccable harden`** — Nav dropdown keyboard navigation (Arrow keys + focus trap)
-6. **[P2] `/impeccable optimize`** — Notes graph lazy init and node cap on large gardens
-7. **[P3] `/impeccable quieter`** — Review page uppercase labels (optional)
-8. **`/impeccable polish`** — Final pass after the above
+1. **[P1] `/impeccable polish`** - Skip link + `#main` landmark; theme-switcher focus ring; notes-filter `:focus-visible`
+2. **[P1] `/impeccable adapt`** - Theme switcher hit area; footer social icons to 44px minimum
+3. **[P2] `/impeccable colorize`** - Promote warning/error/success colors into theme tokens (issues panel, dev banner, status badges)
+4. **[P2] `/impeccable animate`** - Flashcard flip + theme-switcher knob under `prefers-reduced-motion`
+5. **[P2] `/impeccable harden`** - Nav dropdown keyboard navigation (Arrow keys + focus trap)
+6. **[P2] `/impeccable optimize`** - Notes graph lazy init and node cap on large gardens
+7. **[P3] `/impeccable quieter`** - Review page uppercase labels (optional)
+8. **`/impeccable polish`** - Final pass after the above
 
 ---
 
@@ -2993,7 +2993,7 @@ All eight audit actions are implemented. Summary:
 ### 8. Final polish
 - Build verified: `hugo --minify` succeeds
 
-Re-run `/impeccable audit` when you want an updated score — expect roughly **17–18/20** (up from 15/20).
+Re-run `/impeccable audit` when you want an updated score - expect roughly **17–18/20** (up from 15/20).
 
 ---
 
@@ -3178,7 +3178,7 @@ The label will be fixed at 2.75rem wide, expanding to 3.25rem on desktop. It wil
 
 The track pill will be drawn with `label::after` rather than `::before`. The knob will be centered with `left: 50%` and a negative margin equal to half its width, paired with `transform: translateY(-50%)` for vertical centering. The checked-state left offset remains unchanged. The label itself may simply serve as the track background.
 
-The knob’s default `top-1` offset causes misalignment whenever the label grows taller. Without changing HTML, the label can be set to fixed track dimensions—1rem by 1.5rem—while the visible track background shrinks to a small pill. The surrounding padding would expand the touch target, keeping the knob vertically centered.
+The knob’s default `top-1` offset causes misalignment whenever the label grows taller. Without changing HTML, the label can be set to fixed track dimensions-1rem by 1.5rem-while the visible track background shrinks to a small pill. The surrounding padding would expand the touch target, keeping the knob vertically centered.
 
 The label will use `content-box` sizing so padding expands the touch target without stretching the background. The knob will be vertically centered with `top: 50%` and `transform: translateY(-50%)`.
 
@@ -3245,9 +3245,9 @@ _**Agent (default)**_
 
 Two alignment fixes:
 
-**Theme switcher knob** — The knob used `-top-1`, which pulled it above the track once we enlarged the touch target. It now sits at `top: 50%` with `translateY(-50%)`. The label uses `content-box` so the visible track stays `h-4` / `w-6` (or `w-10` on desktop) while padding around it preserves the 44px hit area.
+**Theme switcher knob** - The knob used `-top-1`, which pulled it above the track once we enlarged the touch target. It now sits at `top: 50%` with `translateY(-50%)`. The label uses `content-box` so the visible track stays `h-4` / `w-6` (or `w-10` on desktop) while padding around it preserves the 44px hit area.
 
-**Get in touch button** — On mobile/tablet the CTA had `block` on the button, which overrode `inline-flex` and dropped vertical centering inside the min-height touch target. The markup now uses `inline-flex items-center justify-center`, and `custom.css` reinforces that for `.nav-item--cta` below the `lg` breakpoint.
+**Get in touch button** - On mobile/tablet the CTA had `block` on the button, which overrode `inline-flex` and dropped vertical centering inside the min-height touch target. The markup now uses `inline-flex items-center justify-center`, and `custom.css` reinforces that for `.nav-item--cta` below the `lg` breakpoint.
 
 Changes are in `assets/css/custom.css` and `layouts/_partials/essentials/header.html`. Refresh and check the header on a narrow viewport to confirm both look right.
 
@@ -3718,8 +3718,8 @@ _**Agent (default)**_
 Created [`CHANGELOG.md`](CHANGELOG.md) at the repo root.
 
 **Structure**
-- **Unreleased** — impeccable audit work still local (skip link, tokens, graph lazy init, nav keyboard, alignment fixes, etc.)
-- **Dated sections** — backfilled from git history, grouped by deploy day (newest first)
+- **Unreleased** - impeccable audit work still local (skip link, tokens, graph lazy init, nav keyboard, alignment fixes, etc.)
+- **Dated sections** - backfilled from git history, grouped by deploy day (newest first)
 - **Short maintainer note** at the top: move Unreleased → dated section when you ship to `master`
 
 **Convention:** Production = push to `master` → Netlify runs `pnpm run deploy`. Each dated block is a deploy batch, not one line per commit (most commits are generic “Updates”).
@@ -3937,7 +3937,7 @@ The toggle is now a simple icon button, aligned with the search control.
 - Same behavior as before: `localStorage`, cross-tab sync, system preference when `theme_default = "system"`
 - Removed the old knob/track CSS from `custom.css`
 
-No flash-of-wrong-state workaround needed — buttons don’t have a checked state on first paint. Refresh and try it in the header.
+No flash-of-wrong-state workaround needed - buttons don’t have a checked state on first paint. Refresh and try it in the header.
 
 ---
 
@@ -4382,12 +4382,12 @@ Runs on `pnpm install` via `postinstall`. One-time manual install:
 pnpm run hooks:install
 ```
 
-Cloudflare only builds what you push — the hook runs locally before that, so the changelog stays in git with each commit.
+Cloudflare only builds what you push - the hook runs locally before that, so the changelog stays in git with each commit.
 
 ### Files added
-- `scripts/updateChangelog.mjs` — updater logic
-- `scripts/installGitHooks.mjs` — hook installer
-- `package.json` — `changelog` and `hooks:install` scripts
+- `scripts/updateChangelog.mjs` - updater logic
+- `scripts/installGitHooks.mjs` - hook installer
+- `package.json` - `changelog` and `hooks:install` scripts
 
 Historical **Content** sections were removed; the header now references Cloudflare Pages instead of Netlify.
 
@@ -4474,4 +4474,4 @@ Reinstall once:
 pnpm run hooks:install
 ```
 
-Then commit again — it should work. If you change Node versions with mise later, run `hooks:install` again so the path stays correct.
+Then commit again - it should work. If you change Node versions with mise later, run `hooks:install` again so the path stays correct.

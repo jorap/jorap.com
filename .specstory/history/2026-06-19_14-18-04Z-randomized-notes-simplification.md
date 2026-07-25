@@ -937,16 +937,16 @@ All randomized notes sections now pull from one shared pool of every note page.
 
 **What changed**
 
-1. **New `notes/random-pool.html` partial** — builds a single `{url, title}` list from `notes/pages.html` (all note pages, excluding graph/random layout shells only).
+1. **New `notes/random-pool.html` partial** - builds a single `{url, title}` list from `notes/pages.html` (all note pages, excluding graph/random layout shells only).
 
 2. **All random pickers use it:**
    - Notes index “Random note” button
    - `/notes/random-two/` and `/notes/random-three/`
    - Blog post “2 Random Notes” section
 
-3. **Removed `unrelated-notes-pool.html`** — blog posts no longer filter out notes that share tags/categories with the post.
+3. **Removed `unrelated-notes-pool.html`** - blog posts no longer filter out notes that share tags/categories with the post.
 
-4. **Copy updates** — lede and empty-state text no longer mention “unrelated” or “no shared tags.”
+4. **Copy updates** - lede and empty-state text no longer mention “unrelated” or “no shared tags.”
 
 **Before vs after**
 

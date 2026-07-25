@@ -298,7 +298,7 @@ Updated the **jorap-voice** skill to treat high-school vocabulary as a core rule
 ### `jorap-voice/SKILL.md`
 - Description and intro now call out **high-school-level vocabulary**
 - New voice pillar: **Plain words**
-- New section: **Vocabulary (high school level)** — everyday words, say-it-out-loud test, topic terms OK, no academic voice, vocab test
+- New section: **Vocabulary (high school level)** - everyday words, say-it-out-loud test, topic terms OK, no academic voice, vocab test
 - De-AI pass step 4: swap any word a typical high school reader would need to look up
 - Voice check: two new checklist items for vocab and read-aloud test
 
@@ -309,7 +309,7 @@ Updated the **jorap-voice** skill to treat high-school vocabulary as a core rule
 ### `flashcards/SKILL.md` (small cross-link)
 - Top voice blurb now points to jorap-voice as the source for vocabulary rules (card-specific vocab details stay in the flashcards skill)
 
-The bar is plain speech a typical teen gets on first read — same standard as your flashcards, now applied to blog posts, frontmatter, and notes too.
+The bar is plain speech a typical teen gets on first read - same standard as your flashcards, now applied to blog posts, frontmatter, and notes too.
 
 ---
 

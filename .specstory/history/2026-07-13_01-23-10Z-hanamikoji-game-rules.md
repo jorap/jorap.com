@@ -125,14 +125,14 @@ If someone hits 4 geisha or 11+ points, **game over**.
 
 If no one wins:
 - Pick up all item cards, reshuffle, remove 1 card again, deal 6 each.
-- **Victory Markers stay where they are** — geisha you already won can be stolen back.
+- **Victory Markers stay where they are** - geisha you already won can be stolen back.
 - Alternate the starting player.
 
 ---
 
 ## Strategy in one line
 
-You rarely keep the best cards yourself — you **offer sets** and try to steer what your opponent takes, while using **Trade-off** to remove cards they want.
+You rarely keep the best cards yourself - you **offer sets** and try to steer what your opponent takes, while using **Trade-off** to remove cards they want.
 
 ---
 
@@ -209,7 +209,7 @@ Result:
   "isFinal": true,
   "references": [
     {
-      "chunk": "Links:\n1. [Hanamikoji Mini Expansion 1 Review: New Action Tiles](https://whatsericplaying.com/2022/01/03/hanamikoji-1/)\n2. [Hanamikoji Mini Expansion 3 Review: Advanced Card Play](https://whatsericplaying.com/2022/01/17/hanamikoji-3/)\n3. [Gamehelphanamikoji • Board Game Arena](https://en.boardgamearena.com/doc/Gamehelphanamikoji)\n4. [Hanamikoji Expansions Game Review – Meeple Mountain](https://www.meeplemountain.com/reviews/hanamikoji-expansions/)\n\nSynthesis:\nHanamikoji mini-expansion action tiles are modular replacements for the standard game actions. You replace some or all of the four original action tiles with these new ones to vary gameplay, but the core rules—drawing one card, performing one action, and flipping the marker face-down—remain the same [1][2][3].\n\nCommon actions found in these expansions include:\n\nDiscard: Remove a card from your hand face-down, out of play [1].\nSecret: Play cards face-down to be revealed for scoring at round's end [1][4].\nTransmit: Present cards face-down; your opponent removes some, and you keep the remainder [1][2].\nGift: Show cards face-up; your opponent chooses which ones to keep [1][4][2].\nReveal: Play cards directly face-up [2][5].\nReferral: Move cards to the bottom of the deck to draw or play others [2][5].\nIntercept: Present cards face-up; your opponent chooses which you discard [2][5].\nGiveaway: Give a face-down card to your opponent to score at round's end [4][5].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eHanamikoji Mini Expansion 1 Review: New Action Tiles\u003c/title\u003e\n\u003curl\u003ehttps://whatsericplaying.com/2022/01/03/hanamikoji-1/\u003c/url\u003e\n\u003ccontent\u003eAlright, so each of the Hanamikoji expansions does not add more new content to the game; instead, they add four new action tiles that you can substitute for the existing action tiles:\n...\nThe actions themselves are fairly interesting, since they’
+      "chunk": "Links:\n1. [Hanamikoji Mini Expansion 1 Review: New Action Tiles](https://whatsericplaying.com/2022/01/03/hanamikoji-1/)\n2. [Hanamikoji Mini Expansion 3 Review: Advanced Card Play](https://whatsericplaying.com/2022/01/17/hanamikoji-3/)\n3. [Gamehelphanamikoji • Board Game Arena](https://en.boardgamearena.com/doc/Gamehelphanamikoji)\n4. [Hanamikoji Expansions Game Review – Meeple Mountain](https://www.meeplemountain.com/reviews/hanamikoji-expansions/)\n\nSynthesis:\nHanamikoji mini-expansion action tiles are modular replacements for the standard game actions. You replace some or all of the four original action tiles with these new ones to vary gameplay, but the core rules-drawing one card, performing one action, and flipping the marker face-down-remain the same [1][2][3].\n\nCommon actions found in these expansions include:\n\nDiscard: Remove a card from your hand face-down, out of play [1].\nSecret: Play cards face-down to be revealed for scoring at round's end [1][4].\nTransmit: Present cards face-down; your opponent removes some, and you keep the remainder [1][2].\nGift: Show cards face-up; your opponent chooses which ones to keep [1][4][2].\nReveal: Play cards directly face-up [2][5].\nReferral: Move cards to the bottom of the deck to draw or play others [2][5].\nIntercept: Present cards face-up; your opponent chooses which you discard [2][5].\nGiveaway: Give a face-down card to your opponent to score at round's end [4][5].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eHanamikoji Mini Expansion 1 Review: New Action Tiles\u003c/title\u003e\n\u003curl\u003ehttps://whatsericplaying.com/2022/01/03/hanamikoji-1/\u003c/url\u003e\n\u003ccontent\u003eAlright, so each of the Hanamikoji expansions does not add more new content to the game; instead, they add four new action tiles that you can substitute for the existing action tiles:\n...\nThe actions themselves are fairly interesting, since they’
 … (output truncated)
 ```
 User decision: **accepted**
@@ -234,7 +234,7 @@ Result:
 
 ```json
 {
-  "markdown": "Dale Yu: Review of Hanamikoji and 7 mini expansions | The Opinionated Gamers\n\n## Dale Yu: Review of Hanamikoji and 7 mini expansions\n\nhttps://opinionatedgamers.com/2021/10/22/dale-yu-review-of-hanamikoji-and-7-mini-expansions/\n\n# Hanamikoji and 7 mini expansions\n\nhttps://opinionatedgamers.com/2018/07/19/review-of-hanamikoji-deep-water-games/\n\n- Designer: Kota Nakayama\n- Publisher: EmperorS4\n- Players: 2\n- Ages: 10 and Up\n- Time: 15 Minutes\n- Times Played: at least 12 times with review copy provided by Taiwan Boardgame Design (TBD)\n\nHanamikoji, which was originally released in Japan under the name 21 Flowers back in 2016. Since then, there has been a US version (released at GenCon 2018) by Deep Water Games. Though I don’t have much room in my schedule for 2p games, this one has made the cut as a keeper in this very slim genre in my collection. I am looking at this title again because there is an upcoming Kickstarter campaign for a sequel, and I was sent a bundle of the two games to play.\n\nGameplay in Hanamikoji is quite simple – as once written by Chris Wray:\n\n—\n\nPlayers compete to either take four of seven cards in a card line, or they try to get to 11 points (which beats getting four cards). The cards range in value from 2-5, and the value on a given card is equal to the number of cards of its kind in the deck.\n\nOne card is set aside at the start of the game, players draw up to six, and the game begins.\n\nPlayers can take one of four actions on their turn:\n\n- Hide a card to be added to the card line at the end of the game,\n- Remove two cards from the game,\n- Put out three cards, at which time their opponent will pick one, and the player that picked the cards gets the remaining two, or\n- Put out two sets of cards, with the opponent picking the first set.\n\nEach action will be used only once each game, so unless the game ends without a winner, there will be eight turns in total. If there isn’t a winner, players take th
+  "markdown": "Dale Yu: Review of Hanamikoji and 7 mini expansions | The Opinionated Gamers\n\n## Dale Yu: Review of Hanamikoji and 7 mini expansions\n\nhttps://opinionatedgamers.com/2021/10/22/dale-yu-review-of-hanamikoji-and-7-mini-expansions/\n\n# Hanamikoji and 7 mini expansions\n\nhttps://opinionatedgamers.com/2018/07/19/review-of-hanamikoji-deep-water-games/\n\n- Designer: Kota Nakayama\n- Publisher: EmperorS4\n- Players: 2\n- Ages: 10 and Up\n- Time: 15 Minutes\n- Times Played: at least 12 times with review copy provided by Taiwan Boardgame Design (TBD)\n\nHanamikoji, which was originally released in Japan under the name 21 Flowers back in 2016. Since then, there has been a US version (released at GenCon 2018) by Deep Water Games. Though I don’t have much room in my schedule for 2p games, this one has made the cut as a keeper in this very slim genre in my collection. I am looking at this title again because there is an upcoming Kickstarter campaign for a sequel, and I was sent a bundle of the two games to play.\n\nGameplay in Hanamikoji is quite simple – as once written by Chris Wray:\n\n-\n\nPlayers compete to either take four of seven cards in a card line, or they try to get to 11 points (which beats getting four cards). The cards range in value from 2-5, and the value on a given card is equal to the number of cards of its kind in the deck.\n\nOne card is set aside at the start of the game, players draw up to six, and the game begins.\n\nPlayers can take one of four actions on their turn:\n\n- Hide a card to be added to the card line at the end of the game,\n- Remove two cards from the game,\n- Put out three cards, at which time their opponent will pick one, and the player that picked the cards gets the remaining two, or\n- Put out two sets of cards, with the opponent picking the first set.\n\nEach action will be used only once each game, so unless the game ends without a winner, there will be eight turns in total. If there isn’t a winner, players take th
 … (output truncated)
 ```
 User decision: **accepted**
@@ -331,7 +331,7 @@ Result:
   "isFinal": true,
   "references": [
     {
-      "chunk": "Links:\n1. [Hanamikoji: Mini Expansions (#1~#7) Taiwan Boardgame Design](https://www.tbd-gaming.com/en/products/hanamikoji-mini-expansions)\n2. [Hanamikoji | KLX for Board Games](https://kallax.io/boardgame/HXOUP-Hanamikoji)\n3. [Hanamikoji Expansions Game Review – Meeple Mountain](https://www.meeplemountain.com/reviews/hanamikoji-expansions/)\n4. [Hanamikoji Mini Expansion 1 Review: New Action Tiles](https://whatsericplaying.com/2022/01/03/hanamikoji-1/)\n5. [Hanamikoji: Mini Expansions 1-7](https://gameplay.pt/pt/jogos-de-tabuleiro/4000-hanamikoji-mini-expansions-17.html)\n\nSynthesis:\nThe seven Hanamikoji expansions are not uniquely named in the traditional sense; they are officially designated as Mini Expansions 1 through 7 [1][2]. While the packaging is inspired by Japanese omamori good luck charms—with themes like love, health, and prosperity—these titles refer to the aesthetic packaging rather than serving as formal content names for the sets [3]. Each expansion provides a unique set of four action tiles that can be substituted into the base game or the Geisha's Road sequel to vary gameplay [4][5][1].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eHanamikoji: Mini Expansions (#1~#7) Taiwan Boardgame Design\u003c/title\u003e\n\u003curl\u003ehttps://www.tbd-gaming.com/en/products/hanamikoji-mini-expansions\u003c/url\u003e\n\u003ccontent\u003eHanamikoji: Mini Expansions (#1~#7) Taiwan Boardgame Design\n...\n# Hanamikoji: Mini Expansions (#1~#7)\n...\nThis pack regroups the 7 mini expansions (#1 to #7) from the Kickstarter campaign for the retail market. The material differs from the Kickstarter version: you have two sets of four Action Markers (numbered #1 to #4) and seven Action Tile cards - each card provides a different combination of four actions for the game.\n...\nMini Expansions may only be played with the base game of Hanamikoji.\u003c/content\u003e\n\u003c/result\u003e\n\n\u003
+      "chunk": "Links:\n1. [Hanamikoji: Mini Expansions (#1~#7) Taiwan Boardgame Design](https://www.tbd-gaming.com/en/products/hanamikoji-mini-expansions)\n2. [Hanamikoji | KLX for Board Games](https://kallax.io/boardgame/HXOUP-Hanamikoji)\n3. [Hanamikoji Expansions Game Review – Meeple Mountain](https://www.meeplemountain.com/reviews/hanamikoji-expansions/)\n4. [Hanamikoji Mini Expansion 1 Review: New Action Tiles](https://whatsericplaying.com/2022/01/03/hanamikoji-1/)\n5. [Hanamikoji: Mini Expansions 1-7](https://gameplay.pt/pt/jogos-de-tabuleiro/4000-hanamikoji-mini-expansions-17.html)\n\nSynthesis:\nThe seven Hanamikoji expansions are not uniquely named in the traditional sense; they are officially designated as Mini Expansions 1 through 7 [1][2]. While the packaging is inspired by Japanese omamori good luck charms-with themes like love, health, and prosperity-these titles refer to the aesthetic packaging rather than serving as formal content names for the sets [3]. Each expansion provides a unique set of four action tiles that can be substituted into the base game or the Geisha's Road sequel to vary gameplay [4][5][1].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eHanamikoji: Mini Expansions (#1~#7) Taiwan Boardgame Design\u003c/title\u003e\n\u003curl\u003ehttps://www.tbd-gaming.com/en/products/hanamikoji-mini-expansions\u003c/url\u003e\n\u003ccontent\u003eHanamikoji: Mini Expansions (#1~#7) Taiwan Boardgame Design\n...\n# Hanamikoji: Mini Expansions (#1~#7)\n...\nThis pack regroups the 7 mini expansions (#1 to #7) from the Kickstarter campaign for the retail market. The material differs from the Kickstarter version: you have two sets of four Action Markers (numbered #1 to #4) and seven Action Tile cards - each card provides a different combination of four actions for the game.\n...\nMini Expansions may only be played with the base game of Hanamikoji.\u003c/content\u003e\n\u003c/result\u003e\n\n\u003
 … (output truncated)
 ```
 User decision: **accepted**
@@ -622,7 +622,7 @@ Result:
   "isFinal": true,
   "references": [
     {
-      "chunk": "Links:\n1. [Hanamikoji Expansions Game Review – Meeple Mountain](https://www.meeplemountain.com/reviews/hanamikoji-expansions/)\n2. [Hanamikoji Mini Expansion 1 Review: New Action Tiles](https://whatsericplaying.com/2022/01/03/hanamikoji-1/)\n3. [Hanamikoji Mini  Expansion Set 1](https://www.spelspul.nl/gb/promos/27592-hanamikoji-mini-expansion-set-1.html)\n4. [Hanamikoji: Mini Expansion #3 | Couples Play Aggregator by PEI Development](https://couples.peidev.com/Detail/Game/347152/hanamikoji-mini-expansion-3)\n5. [Hanamikoji: Mini Expansion #4 | Couples Play Aggregator by PEI Development](https://couples.peidev.com/Detail/Game/347153/hanamikoji-mini-expansion-4)\n\nSynthesis:\nThe Hanamikoji mini expansions are not individually named \"Ikebana\" [1][2]. They are a set of seven expansions packaged to resemble omamori, which are Japanese protective amulets [1]. Each expansion features a Japanese title related to traditional prayers—such as 戀愛 (to be in love) for the first set, 平安 (peace of mind) for the third, and 良緣 (serendipity) for the fourth—but none of these titles translate to Ikebana [1][3][2][4][5]. While the game carries a traditional Japanese aesthetic, Ikebana refers to the art of flower arrangement and is not the name of these specific components [1].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eHanamikoji Expansions Game Review – Meeple Mountain\u003c/title\u003e\n\u003curl\u003ehttps://www.meeplemountain.com/reviews/hanamikoji-expansions/\u003c/url\u003e\n\u003ccontent\u003eIf you’re publisher EmperorS4 the answer is to adopt a go-big-or-go-home mentality by simultaneously releasing a new game in the series (Hanamikoji: Geisha’s Road) and 7 new expansions that are all compatible with both the original game Hanamikoji and it’s new-born sequel. It’s an ambitious approach but does it pay off? Read on to find out!\n...\nIn truth they’re actually ‘mini-expansions’, but don’t be fool
+      "chunk": "Links:\n1. [Hanamikoji Expansions Game Review – Meeple Mountain](https://www.meeplemountain.com/reviews/hanamikoji-expansions/)\n2. [Hanamikoji Mini Expansion 1 Review: New Action Tiles](https://whatsericplaying.com/2022/01/03/hanamikoji-1/)\n3. [Hanamikoji Mini  Expansion Set 1](https://www.spelspul.nl/gb/promos/27592-hanamikoji-mini-expansion-set-1.html)\n4. [Hanamikoji: Mini Expansion #3 | Couples Play Aggregator by PEI Development](https://couples.peidev.com/Detail/Game/347152/hanamikoji-mini-expansion-3)\n5. [Hanamikoji: Mini Expansion #4 | Couples Play Aggregator by PEI Development](https://couples.peidev.com/Detail/Game/347153/hanamikoji-mini-expansion-4)\n\nSynthesis:\nThe Hanamikoji mini expansions are not individually named \"Ikebana\" [1][2]. They are a set of seven expansions packaged to resemble omamori, which are Japanese protective amulets [1]. Each expansion features a Japanese title related to traditional prayers-such as 戀愛 (to be in love) for the first set, 平安 (peace of mind) for the third, and 良緣 (serendipity) for the fourth-but none of these titles translate to Ikebana [1][3][2][4][5]. While the game carries a traditional Japanese aesthetic, Ikebana refers to the art of flower arrangement and is not the name of these specific components [1].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eHanamikoji Expansions Game Review – Meeple Mountain\u003c/title\u003e\n\u003curl\u003ehttps://www.meeplemountain.com/reviews/hanamikoji-expansions/\u003c/url\u003e\n\u003ccontent\u003eIf you’re publisher EmperorS4 the answer is to adopt a go-big-or-go-home mentality by simultaneously releasing a new game in the series (Hanamikoji: Geisha’s Road) and 7 new expansions that are all compatible with both the original game Hanamikoji and it’s new-born sequel. It’s an ambitious approach but does it pay off? Read on to find out!\n...\nIn truth they’re actually ‘mini-expansions’, but don’t be fool
 … (output truncated)
 ```
 User decision: **accepted**
@@ -833,7 +833,7 @@ Ikebana is a separate game paired with Hanabi in the "Hanabi & Ikebana" box. Thi
 
 _**Agent (auto-low)**_
 
-**Hanamikoji: Ikebana** is not a real product — I was wrong to mention it earlier. Sorry about that.
+**Hanamikoji: Ikebana** is not a real product - I was wrong to mention it earlier. Sorry about that.
 
 Here is what actually exists, and what you might have meant.
 
@@ -863,11 +863,11 @@ The number on each action (1–4) is how many cards it uses. **Gift 4** means sh
 
 ### New action types (beyond the base game)
 
-- **Reveal** — play cards face-up on your side immediately  
-- **Giveaway** — hide 1 card that scores for your **opponent** at round end  
-- **Transmit** — offer cards face-down; opponent discards some unseen; you keep one hidden  
-- **Intercept** — offer cards face-up; opponent discards some; you play the rest  
-- **Referral** — put cards on the bottom of the deck, draw replacements, hide some for end scoring  
+- **Reveal** - play cards face-up on your side immediately  
+- **Giveaway** - hide 1 card that scores for your **opponent** at round end  
+- **Transmit** - offer cards face-down; opponent discards some unseen; you keep one hidden  
+- **Intercept** - offer cards face-up; opponent discards some; you play the rest  
+- **Referral** - put cards on the bottom of the deck, draw replacements, hide some for end scoring  
 
 Only **4 of 28** tiles across all expansions are exact copies of the base actions; the rest are twists or new types.
 
@@ -877,8 +877,8 @@ Only **4 of 28** tiles across all expansions are exact copies of the base action
 
 ### Hanabi & Ikebana (different game entirely)
 **Ikebana** is a separate card game, often bundled with **Hanabi** in one box. Same 55-card deck, two rule sets:
-- **Hanabi** — cooperative fireworks game  
-- **Ikebana** — competitive “bouquet building” with poker-like combos  
+- **Hanabi** - cooperative fireworks game  
+- **Ikebana** - competitive “bouquet building” with poker-like combos  
 
 No connection to Hanamikoji.
 
@@ -886,7 +886,7 @@ No connection to Hanamikoji.
 A standalone follow-up with its **own** four actions, plus compatibility with the mini-expansion tiles. Not called Ikebana.
 
 ### Ikebana the art form
-Ikebana (flower arranging) is one of the traditional arts shown at **Gion Corner** on Hanamikoji street in Kyoto — thematic overlap with the game’s setting, but not an expansion name.
+Ikebana (flower arranging) is one of the traditional arts shown at **Gion Corner** on Hanamikoji street in Kyoto - thematic overlap with the game’s setting, but not an expansion name.
 
 ---
 
@@ -1394,7 +1394,7 @@ Result:
   "isFinal": true,
   "references": [
     {
-      "chunk": "Links:\n1. [Duopoly: The Table Game for Couples](https://www.laityfamilylife.va/content/laityfamilylife/en/news/2017/duopoly--il-gioco-da-tavola-per-coppie.html)\n2. [Marketplace Duopoly: A Business Version of Chess](https://education.gpsresearchpublishers.com/Free-Games/Marketplace-Duopoly)\n3. [Duopoly - Wikisimpsons, the Simpsons Wiki](https://simpsonswiki.com/wiki/Duopoly)\n4. [Let the Buyer Beware](https://moadoph.gov.au/explore/behind-the-lines/2024-no-guts-no-glory/away-from-centre-court/let-the-buyer-beware)\n5. [Duopoly, by clp](http://christianp.github.io/duopoly/)\n\nSynthesis:\nThere is no single widely known commercial board game simply titled Duopoly. Several unrelated items use the name:\n\nA game for couples titled Duopoly focuses on strengthening relationships through communication and planning using a board and question cards [1]. Another version, Marketplace Duopoly, is an educational simulation that adapts chess mechanics to model corporate business environments [2].\n\nIn popular culture, the term is sometimes used as a parody of Monopoly, such as in the animated series The Simpsons [3] or as a satirical political cartoon about supermarket dominance [4].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eDuopoly: The Table Game for Couples\u003c/title\u003e\n\u003curl\u003ehttps://www.laityfamilylife.va/content/laityfamilylife/en/news/2017/duopoly--il-gioco-da-tavola-per-coppie.html\u003c/url\u003e\n\u003ccontent\u003eDuopoly: The Table Game for Couples\n\n###### CHILE\n\n# Duopoly: The Table Game for Couples\n\n##### The Community of Christian Life proposes a resource by inspired Ignatian spirituality to strengthen relationships\n\nOne dice, two chips, 80 cards with questions, and a board of colored squares on which the four pillars of the couple—communication, daily life, sexuality, and planning—cross.\n\nThe table game “Duopoly” is one of the tools proposed by Chile’s Com
+      "chunk": "Links:\n1. [Duopoly: The Table Game for Couples](https://www.laityfamilylife.va/content/laityfamilylife/en/news/2017/duopoly--il-gioco-da-tavola-per-coppie.html)\n2. [Marketplace Duopoly: A Business Version of Chess](https://education.gpsresearchpublishers.com/Free-Games/Marketplace-Duopoly)\n3. [Duopoly - Wikisimpsons, the Simpsons Wiki](https://simpsonswiki.com/wiki/Duopoly)\n4. [Let the Buyer Beware](https://moadoph.gov.au/explore/behind-the-lines/2024-no-guts-no-glory/away-from-centre-court/let-the-buyer-beware)\n5. [Duopoly, by clp](http://christianp.github.io/duopoly/)\n\nSynthesis:\nThere is no single widely known commercial board game simply titled Duopoly. Several unrelated items use the name:\n\nA game for couples titled Duopoly focuses on strengthening relationships through communication and planning using a board and question cards [1]. Another version, Marketplace Duopoly, is an educational simulation that adapts chess mechanics to model corporate business environments [2].\n\nIn popular culture, the term is sometimes used as a parody of Monopoly, such as in the animated series The Simpsons [3] or as a satirical political cartoon about supermarket dominance [4].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eDuopoly: The Table Game for Couples\u003c/title\u003e\n\u003curl\u003ehttps://www.laityfamilylife.va/content/laityfamilylife/en/news/2017/duopoly--il-gioco-da-tavola-per-coppie.html\u003c/url\u003e\n\u003ccontent\u003eDuopoly: The Table Game for Couples\n\n###### CHILE\n\n# Duopoly: The Table Game for Couples\n\n##### The Community of Christian Life proposes a resource by inspired Ignatian spirituality to strengthen relationships\n\nOne dice, two chips, 80 cards with questions, and a board of colored squares on which the four pillars of the couple-communication, daily life, sexuality, and planning-cross.\n\nThe table game “Duopoly” is one of the tools proposed by Chile’s Com
 … (output truncated)
 ```
 User decision: **accepted**
@@ -1689,11 +1689,11 @@ Updated the draft with your double-sided country card design.
 - **Neutral:** two identical flags, country + points in **black** (no controller)
 - **Controlled:** one flag, **green** text toward the leader, **red** toward the rival
 
-**Setup** — country cards start neutral side up; separate control markers removed.
+**Setup** - country cards start neutral side up; separate control markers removed.
 
-**Scoring** — win the count → flip to single-flag side and orient green your way; tie → card stays as-is (neutral stays neutral, controlled keeps current orientation).
+**Scoring** - win the count → flip to single-flag side and orient green your way; tie → card stays as-is (neutral stays neutral, controlled keeps current orientation).
 
-**Example** — walks through neutral → flip green/red → tie keeps orientation.
+**Example** - walks through neutral → flip green/red → tie keeps orientation.
 
 The closing line notes this duopoly read uses your custom cards, not the retail geisha components.
 
@@ -2010,11 +2010,11 @@ _**Agent (auto-low)**_
 Restructured into a rules-sheet layout:
 
 - **# Duopoly** with **Players: 2** and time
-- **Contents** — component list plus country card and action card reference
-- **Objective** — win conditions and tie-breaker
-- **Preparation** — setup steps
-- **How to Play** — rounds, turns, four actions, between rounds
-- **Scoring** — scoring steps plus a short example
+- **Contents** - component list plus country card and action card reference
+- **Objective** - win conditions and tie-breaker
+- **Preparation** - setup steps
+- **How to Play** - rounds, turns, four actions, between rounds
+- **Scoring** - scoring steps plus a short example
 
 Removed the blog-style sections (TL;DR, strategy, expansions, Hanamikoji references). Frontmatter title is now **Duopoly**; slug stays `hanamikoji-rules` unless you want that changed too.
 
@@ -2096,9 +2096,9 @@ _**Agent (auto-low)**_
 
 Updated with your country list:
 
-- **Contents** — all seven countries with point values
-- **Objective** — full table (US 5 down to Germany/France/UK at 2), 21 points total
-- **Preparation** — row order left to right: Germany, France, UK, China, Japan, EU, US
-- **Scoring example** — uses Germany (2)
+- **Contents** - all seven countries with point values
+- **Objective** - full table (US 5 down to Germany/France/UK at 2), 21 points total
+- **Preparation** - row order left to right: Germany, France, UK, China, Japan, EU, US
+- **Scoring example** - uses Germany (2)
 
 Same-value countries are ordered Germany → France → UK, then China → Japan, matching your list. Say if you want a different left-to-right order on the table.

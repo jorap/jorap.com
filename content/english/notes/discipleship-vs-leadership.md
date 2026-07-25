@@ -68,7 +68,7 @@ featured: false
 review: true
 card_sets: ["Eternal Principles", "Gospel", "Discipleship", "Ethics"]
 cards:
-  - front: "Youth program runs smooth but I haven't prayed alone in weeks. Which seat got swapped?"
+  - front: "Youth program runs smooth but I haven't prayed alone in weeks - leadership ate discipleship."
     back: "Discipleship - who you follow when nobody watches."
   - front: "Promotion email and I'm skipping confession because the team needs a strong face. Two seats?"
     back: "Lead outward - still answer upward to Christ."
@@ -76,7 +76,7 @@ cards:
     back: "Vertical seat - follow Jesus, not only direct people."
   - front: "Title on the door and I stopped doing what Jesus said in private. Category error?"
     back: "Leadership isn't discipleship - obey Christ anyway."
-  - front: "Servant leadership workshop but zero private obedience. Overlap without which seat?"
+  - front: "Servant leadership workshop but zero private obedience - horizontal only."
     back: "Horizontal care - vertical allegiance still required."
   - front: "Team looks to me in the blackout - who do I follow while I set pace?"
     back: "Christ first - then lead from that footing."

@@ -1367,7 +1367,7 @@ The garden link audit is now clear. Broken wikilinks, unlinked mentions, and uti
 
 Three title mismatches need correction: People Centered Design, Blameless After Action Review, and Follow Christ Then Lead. Process Mapping is also missing and needs a new note or redirect.
 
-Three more missing notes need creation: Love, Atomic Habits, and Active Reading. They follow existing patterns—peace.md for Love, a book note for Atomic Habits, and layered-reading.md for Active Reading.
+Three more missing notes need creation: Love, Atomic Habits, and Active Reading. They follow existing patterns-peace.md for Love, a book note for Atomic Habits, and layered-reading.md for Active Reading.
 
 Several prose mentions lack wikilinks and need linking. Deep-work.md needs a link for "trusted inbox." Pray-when-drained needs a link for "recovery." Other notes need links for "follow-through," "Capture," "faith alone," and "hear and do."
 
@@ -2167,7 +2167,7 @@ I chose to reword the lean-startup prose to avoid the false positive match entir
 
 _**Agent (auto-low)**_
 
-Fixing the lean-startup edit — "faith alone" there means product validation, not theology, so I'll reword it instead of linking to Free Grace.
+Fixing the lean-startup edit - "faith alone" there means product validation, not theology, so I'll reword it instead of linking to Free Grace.
 
 
 _**Agent (auto-low)**_
@@ -2769,10 +2769,10 @@ All 26 garden link issues are resolved. The Issues page now reports **“No gard
 - `[[Follow Christ Then Lead]]` → `[[Follow Christ, Then Lead]]` in `humility-and-service.md`
 
 ### Missing notes (created)
-- `love.md` — Galatians fruit note (paired with `joy.md` / `peace.md`)
-- `atomic-habits.md` — James Clear book frame
-- `process-mapping.md` — workflow mapping from observation
-- `active-reading.md` — marks and extraction before highlights rot
+- `love.md` - Galatians fruit note (paired with `joy.md` / `peace.md`)
+- `atomic-habits.md` - James Clear book frame
+- `process-mapping.md` - workflow mapping from observation
+- `active-reading.md` - marks and extraction before highlights rot
 
 ### Utility wikilinks → URL paths
 - `graph-view-analytics.md`: `/notes/graph/`, `/notes/issues/`
@@ -2784,6 +2784,6 @@ All 26 garden link issues are resolved. The Issues page now reports **“No gard
 Wikilinks added across 13 notes (`deep-work`, `pray-when-drained`, `notice-the-good`, `getting-things-done`, `take-up-your-cross`, `let-your-yes-be-yes`, `the-narrow-way`, `evergreen-vs-fleeting-notes`, `low-hanging-fruit`, `minimum-effective-dose`, `minimum-viable-product`, etc.)
 
 ### Semantic reword (not a bad link)
-- **Lean Startup**: changed “faith alone” → “gut alone” — the phrase meant product validation, not theology, and was falsely matching the `[[Free Grace]]` alias “faith alone”
+- **Lean Startup**: changed “faith alone” → “gut alone” - the phrase meant product validation, not theology, and was falsely matching the `[[Free Grace]]` alias “faith alone”
 
 Utility wikilink lint passes. Hugo build shows zero remaining issues on `/notes/issues/`.

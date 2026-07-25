@@ -53,6 +53,10 @@ cards:
     back: "Write what I actually believe from scratch."
   - front: "HOA wants a fifth parking sign. One question before we add another?"
     back: "Why do people park wrong - fix that first."
+  - front: "Vendor pitch sounds smart - nobody named the actual problem yet."
+    back: "Ask what we're solving - not what they sell."
+  - front: "Copy-pasting gospel ethics like I invented them - wrong lane?"
+    back: "Received truth - don't reinvent the wheel."
 draft: false
 ---
 

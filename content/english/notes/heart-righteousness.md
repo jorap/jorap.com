@@ -55,11 +55,11 @@ featured: false
 review: true
 card_sets: ["Eternal Principles", "Gospel", "Ethics"]
 cards:
-  - front: "Anger simmering after traffic - treated them fine outwardly. What did Jesus call that?"
+  - front: "Anger simmering after traffic - treated them fine outwardly."
     back: "Murder in the heart - deal with anger."
   - front: "Lust logged mentally while marriage looks fine outside. Inner standard?"
     back: "Adultery in heart - cut off at motive."
-  - front: "Polished Sunday face, nursing grudge Monday. Which righteousness counts?"
+  - front: "Polished Sunday face, nursing grudge Monday - motions without heart."
     back: "Heart - not just going through motions."
   - front: "About to send cold reply while sounding righteous. One inner check?"
     back: "Motives - anger is heart murder."

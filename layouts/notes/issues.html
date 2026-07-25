@@ -57,13 +57,13 @@
                     {{- range .broken -}}
                       <li class="notes-issues__item notes-issues__item--broken">
                         <strong>Missing note:</strong>
-                        <code>[[{{ .target }}]]</code> — no matching page.
+                        <code>[[{{ .target }}]]</code> - no matching page.
                       </li>
                     {{- end -}}
                     {{- range .pipe -}}
                       <li class="notes-issues__item notes-issues__item--pipe">
                         <strong>Pipe wikilink:</strong>
-                        <code>[[{{ .raw }}]]</code> — use <code>[[{{ .target }}]]</code> only (no <code>|label</code>).
+                        <code>[[{{ .raw }}]]</code> - use <code>[[{{ .target }}]]</code> only (no <code>|label</code>).
                       </li>
                     {{- end -}}
                     {{- range .unlinked -}}
@@ -92,26 +92,26 @@
                       {{- else if eq .type "extraSection" -}}
                         <li class="notes-issues__item notes-issues__item--structure">
                           <strong>Extra section:</strong>
-                          <code>## {{ .heading }}</code> — use <code>## Examples</code>, <code>## Note Relationships</code>, or optional <code>## See also</code> only.
+                          <code>## {{ .heading }}</code> - use <code>## Examples</code>, <code>## Note Relationships</code>, or optional <code>## See also</code> only.
                         </li>
                       {{- end -}}
                     {{- end -}}
                     {{- range .orphan -}}
                       <li class="notes-issues__item notes-issues__item--orphan">
                         <strong>Orphan:</strong>
-                        no other note links here — add inbound wikilinks from parent notes or hubs. See <a class="text-accent no-underline hover:underline" href="{{ `/notes/graph/` | relLangURL }}">Graph</a> (Orphans filter).
+                        no other note links here - add inbound wikilinks from parent notes or hubs. See <a class="text-accent no-underline hover:underline" href="{{ `/notes/graph/` | relLangURL }}">Graph</a> (Orphans filter).
                       </li>
                     {{- end -}}
                     {{- range .deadEnd -}}
                       <li class="notes-issues__item notes-issues__item--dead-end">
                         <strong>Dead end:</strong>
-                        no wikilinks in the note body — link out to related notes in prose. See <a class="text-accent no-underline hover:underline" href="{{ `/notes/graph/` | relLangURL }}">Graph</a> (No body links filter).
+                        no wikilinks in the note body - link out to related notes in prose. See <a class="text-accent no-underline hover:underline" href="{{ `/notes/graph/` | relLangURL }}">Graph</a> (No body links filter).
                       </li>
                     {{- end -}}
                     {{- range .utility -}}
                       <li class="notes-issues__item notes-issues__item--utility">
                         <strong>Utility wikilink:</strong>
-                        <code>[[{{ .target }}]]</code> — use <code>/notes/{{ .slug }}/</code> instead (tool pages are not garden notes).
+                        <code>[[{{ .target }}]]</code> - use <code>/notes/{{ .slug }}/</code> instead (tool pages are not garden notes).
                       </li>
                     {{- end -}}
                     {{- range .relBroken -}}
@@ -120,13 +120,13 @@
                         {{- with .relType -}}
                           <code>{{ . }}</code>
                         {{- end -}}
-                        target <code>[[{{ .target }}]]</code> in <code>relationships:</code> — no matching page.
+                        target <code>[[{{ .target }}]]</code> in <code>relationships:</code> - no matching page.
                       </li>
                     {{- end -}}
                     {{- range .bodySection -}}
                       <li class="notes-issues__item notes-issues__item--body-section">
                         <strong>Body section:</strong>
-                        <code>## {{ .heading }}</code> still in markdown body —
+                        <code>## {{ .heading }}</code> still in markdown body -
                         {{- if eq .heading "Key Concept" -}}
                           move content to <code>key_concept:</code> frontmatter.
                         {{- else if eq .heading "Examples" -}}

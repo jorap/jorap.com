@@ -180,7 +180,7 @@ Status: **completed**
 
 _**Agent (auto-low)**_
 
-gaps — including Paolini's Slam-winner promotion and missing links.
+gaps - including Paolini's Slam-winner promotion and missing links.
 
 
 _**Agent (auto-low)**_
@@ -290,7 +290,7 @@ Result:
 
 ```json
 {
-  "markdown": "Alexandra Eala | Tennis.com\n\n# Alexandra Eala\n\nCurrent Singles Ranking\n\n28\n\nCurrent Doubles Ranking\n\n130\n\nKey Facts\n\n| Birth Date | May 23, 2005 (21) |\n| --- | --- |\n| Height | — |\n| Plays | Left-Handed |\n| Year Turned Pro | — |\n\nPlayer Ranking\n\n| Singles Ranking | 28 |\n| --- | --- |\n| Singles Points | 1,666 |\n| Doubles Ranking | 130 |\n| Doubles Points | 661 |\n| Career High Singles Ranking | 28 |\n| Career High Doubles Ranking | 130 |",
+  "markdown": "Alexandra Eala | Tennis.com\n\n# Alexandra Eala\n\nCurrent Singles Ranking\n\n28\n\nCurrent Doubles Ranking\n\n130\n\nKey Facts\n\n| Birth Date | May 23, 2005 (21) |\n| --- | --- |\n| Height | - |\n| Plays | Left-Handed |\n| Year Turned Pro | - |\n\nPlayer Ranking\n\n| Singles Ranking | 28 |\n| --- | --- |\n| Singles Points | 1,666 |\n| Doubles Ranking | 130 |\n| Doubles Points | 661 |\n| Career High Singles Ranking | 28 |\n| Career High Doubles Ranking | 130 |",
   "url": "https://www.tennis.com/players-rankings/alexandra-eala"
 }
 ```
@@ -336,7 +336,7 @@ Result:
   "isFinal": true,
   "references": [
     {
-      "chunk": "Links:\n1. [Eala surges to career-high No. 88 in WTA doubles rankings | The Manila Times](https://www.manilatimes.net/2026/05/04/sports/eala-surges-to-career-high-no-88in-wta-doubles-rankings/2334614)\n2. [Eala reaches career-best No. 88 in WTA doubles, climbs to No. 42 in singles](https://www.dzrh.com.ph/post/eala-reaches-career-best-no-88-in-wta-doubles-climbs-to-no-42-in-singles)\n3. [Alexandra Eala](https://en.wikipedia.org/wiki/Alexandra_Eala)\n4. [Alexandra Eala Stats | Player Stats \u0026 More – WTA Official](https://www.wtatennis.com/players/330332/-/stats)\n5. [Eala surges to career-high No. 88�in WTA doubles rankings - Worldnews.com](https://article.wn.com/view/2026/05/04/Eala_surges_to_careerhigh_No_88_in_WTA_doubles_rankings/)\n\nSynthesis:\nAlexandra Eala reached a career-high WTA doubles ranking of world number 88 on May 4, 2026 [1][2][3].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eEala surges to career-high No. 88 in WTA doubles rankings | The Manila Times\u003c/title\u003e\n\u003curl\u003ehttps://www.manilatimes.net/2026/05/04/sports/eala-surges-to-career-high-no-88in-wta-doubles-rankings/2334614\u003c/url\u003e\n\u003ccontent\u003eEala surges to career-high No. 88 in WTA doubles rankings | The Manila Times\n\n# Eala surges to career-high No. 88 in WTA doubles rankings\n\nMANILA, Philippines — Filipino sensation Alexandra \"Alex\" Eala rose to career-high No. 88 in the official Women's Tennis Association (WTA) doubles rankings on Monday.\n\nEala gained 120 ranking points for a total of 888, rising 13 spots from No. 101 two weeks ago and eclipsing her previous high of No. 99 by 11 notches.\n\nPremium + Digital Edition\n\nAd-free access\n\nP 80 per month (billed annually at P 960)\n\n- Unlimited ad-free access to website articles\n- Limited offer: Subscribe today and get digital edition access for free (accessible with up to 3 devices)\n\nTRY FREE FOR 14 DAYS\n\nSee details
+      "chunk": "Links:\n1. [Eala surges to career-high No. 88 in WTA doubles rankings | The Manila Times](https://www.manilatimes.net/2026/05/04/sports/eala-surges-to-career-high-no-88in-wta-doubles-rankings/2334614)\n2. [Eala reaches career-best No. 88 in WTA doubles, climbs to No. 42 in singles](https://www.dzrh.com.ph/post/eala-reaches-career-best-no-88-in-wta-doubles-climbs-to-no-42-in-singles)\n3. [Alexandra Eala](https://en.wikipedia.org/wiki/Alexandra_Eala)\n4. [Alexandra Eala Stats | Player Stats \u0026 More – WTA Official](https://www.wtatennis.com/players/330332/-/stats)\n5. [Eala surges to career-high No. 88�in WTA doubles rankings - Worldnews.com](https://article.wn.com/view/2026/05/04/Eala_surges_to_careerhigh_No_88_in_WTA_doubles_rankings/)\n\nSynthesis:\nAlexandra Eala reached a career-high WTA doubles ranking of world number 88 on May 4, 2026 [1][2][3].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eEala surges to career-high No. 88 in WTA doubles rankings | The Manila Times\u003c/title\u003e\n\u003curl\u003ehttps://www.manilatimes.net/2026/05/04/sports/eala-surges-to-career-high-no-88in-wta-doubles-rankings/2334614\u003c/url\u003e\n\u003ccontent\u003eEala surges to career-high No. 88 in WTA doubles rankings | The Manila Times\n\n# Eala surges to career-high No. 88 in WTA doubles rankings\n\nMANILA, Philippines - Filipino sensation Alexandra \"Alex\" Eala rose to career-high No. 88 in the official Women's Tennis Association (WTA) doubles rankings on Monday.\n\nEala gained 120 ranking points for a total of 888, rising 13 spots from No. 101 two weeks ago and eclipsing her previous high of No. 99 by 11 notches.\n\nPremium + Digital Edition\n\nAd-free access\n\nP 80 per month (billed annually at P 960)\n\n- Unlimited ad-free access to website articles\n- Limited offer: Subscribe today and get digital edition access for free (accessible with up to 3 devices)\n\nTRY FREE FOR 14 DAYS\n\nSee details
 … (output truncated)
 ```
 User decision: **accepted**
@@ -432,7 +432,7 @@ Wimbledon 2026 doubles links are also missing. The wimbledon.com URL pattern is 
 
 _**Agent (auto-low)**_
 
-Paolini stays in Other Top 20 — Roland Garros 2024 finalist, not a Slam singles winner. 
+Paolini stays in Other Top 20 - Roland Garros 2024 finalist, not a Slam singles winner. 
 
 _**Agent (auto-low)**_
 
@@ -453,7 +453,7 @@ Result:
   "isFinal": true,
   "references": [
     {
-      "chunk": "Links:\n1. [Alexandra Eala at the 2026 Wimbledon Championships - Tennis Tour Calendar](https://tennistourcalendar.com/alexandra-eala-at-the-wimbledon-championships/)\n2. [Jasmine Paolini vs Alexandra Eala 6-4 4-6 6-3 — Result, Box Score \u0026 Recap (Wimbledon 2026, Women's Singles) — Mungomash](https://mungomash.com/sports/tennis/wimbledon-2026/matches/womens-singles/2026-07-05-paolini-eala/)\n3. [Iga Świątek vs Alexandra Eala 7-6(9) 6-2 — Result, Box Score \u0026 Recap (Wimbledon 2026, Women's Singles)](https://mungomash.com/sports/tennis/wimbledon-2026/matches/womens-singles/2026-07-03-swiatek-eala/)\n4. [2026 Wimbledon Championships – Day-by-day summaries](https://en.wikipedia.org/wiki/2026_Wimbledon_Championships_%E2%80%93_Day-by-day_summaries)\n5. [Alexandra Eala vs Maya Joint 3-6 6-2 6-0 — Result, Box Score \u0026 Recap (Wimbledon 2026, Women's Singles) — Mungomash](https://mungomash.com/sports/tennis/wimbledon-2026/matches/womens-singles/2026-07-01-eala-joint/)\n\nSynthesis:\nAt the 2026 Wimbledon Championships, 21-year-old Alexandra Eala entered the tournament as the No. 29 seed, becoming the first player from the Philippines to be seeded at a Grand Slam [1]. She reached the fourth round (Round of 16) before being eliminated by Jasmine Paolini [1][2]. \n\nHer run included a notable third-round victory over the defending champion and No. 3 seed Iga Świątek [3][4]. Eala finished her campaign with a record of 3-1, having defeated Renata Zarazúa in the first round and Maya Joint in the second [1][2].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eAlexandra Eala at the 2026 Wimbledon Championships - Tennis Tour Calendar\u003c/title\u003e\n\u003curl\u003ehttps://tennistourcalendar.com/alexandra-eala-at-the-wimbledon-championships/\u003c/url\u003e\n\u003ccontent\u003eAlexandra Eala at the 2026 Wimbledon Championships - Tennis Tour Calendar\n...\nFilipino tennis sensation Alexandra “Alex” E
+      "chunk": "Links:\n1. [Alexandra Eala at the 2026 Wimbledon Championships - Tennis Tour Calendar](https://tennistourcalendar.com/alexandra-eala-at-the-wimbledon-championships/)\n2. [Jasmine Paolini vs Alexandra Eala 6-4 4-6 6-3 - Result, Box Score \u0026 Recap (Wimbledon 2026, Women's Singles) - Mungomash](https://mungomash.com/sports/tennis/wimbledon-2026/matches/womens-singles/2026-07-05-paolini-eala/)\n3. [Iga Świątek vs Alexandra Eala 7-6(9) 6-2 - Result, Box Score \u0026 Recap (Wimbledon 2026, Women's Singles)](https://mungomash.com/sports/tennis/wimbledon-2026/matches/womens-singles/2026-07-03-swiatek-eala/)\n4. [2026 Wimbledon Championships – Day-by-day summaries](https://en.wikipedia.org/wiki/2026_Wimbledon_Championships_%E2%80%93_Day-by-day_summaries)\n5. [Alexandra Eala vs Maya Joint 3-6 6-2 6-0 - Result, Box Score \u0026 Recap (Wimbledon 2026, Women's Singles) - Mungomash](https://mungomash.com/sports/tennis/wimbledon-2026/matches/womens-singles/2026-07-01-eala-joint/)\n\nSynthesis:\nAt the 2026 Wimbledon Championships, 21-year-old Alexandra Eala entered the tournament as the No. 29 seed, becoming the first player from the Philippines to be seeded at a Grand Slam [1]. She reached the fourth round (Round of 16) before being eliminated by Jasmine Paolini [1][2]. \n\nHer run included a notable third-round victory over the defending champion and No. 3 seed Iga Świątek [3][4]. Eala finished her campaign with a record of 3-1, having defeated Renata Zarazúa in the first round and Maya Joint in the second [1][2].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eAlexandra Eala at the 2026 Wimbledon Championships - Tennis Tour Calendar\u003c/title\u003e\n\u003curl\u003ehttps://tennistourcalendar.com/alexandra-eala-at-the-wimbledon-championships/\u003c/url\u003e\n\u003ccontent\u003eAlexandra Eala at the 2026 Wimbledon Championships - Tennis Tour Calendar\n...\nFilipino tennis sensation Alexandra “Alex” E
 … (output truncated)
 ```
 User decision: **accepted**
@@ -1028,7 +1028,7 @@ Miami 2026's round-of-sixteen loss is also below the quarterfinal threshold and 
 
 _**Agent (auto-low)**_
 
-No new results since July 13 — career high No. 28 is confirmed. Adding missing WTA/tennis.com links for 2025 Wimbledon and bumping `lastmod`. Leaving wimbledon.com links out per your earlier removal.
+No new results since July 13 - career high No. 28 is confirmed. Adding missing WTA/tennis.com links for 2025 Wimbledon and bumping `lastmod`. Leaving wimbledon.com links out per your earlier removal.
 
 
 _**Agent (auto-low)**_
@@ -1069,7 +1069,7 @@ The original H2H line used opponent-first scores. My first correction flipped se
 
 _**Agent (auto-low)**_
 
-Fixing the Krejcikova H2H score — set 2 should be 6-2, not 2-6.
+Fixing the Krejcikova H2H score - set 2 should be 6-2, not 2-6.
 
 
 _**Agent (auto-low)**_
@@ -1122,25 +1122,25 @@ _**Agent (auto-low)**_
 
 ## Alex Eala tracker refresh (July 19, 2026)
 
-No new match results since the July 13 update. Eala is on break after Wimbledon; the **Mubadala DC Open** (WTA 500, Washington) starts **July 27** — singles main draw plus a Venus Williams doubles wildcard.
+No new match results since the July 13 update. Eala is on break after Wimbledon; the **Mubadala DC Open** (WTA 500, Washington) starts **July 27** - singles main draw plus a Venus Williams doubles wildcard.
 
 ### Verified unchanged
-- **Career high singles:** No. 28 (WTA, July 13) — already correct in At a glance and WTA Rankings
-- **Career high doubles:** No. 88 — unchanged
-- **Best Slam:** Wimbledon 2026 — Round of 16
+- **Career high singles:** No. 28 (WTA, July 13) - already correct in At a glance and WTA Rankings
+- **Career high doubles:** No. 88 - unchanged
+- **Best Slam:** Wimbledon 2026 - Round of 16
 - All 2026 grass results (Birmingham title, Berlin SF, Wimbledon R16) already documented
 
 ### Edits made
 1. **`lastmod`** bumped to `2026-07-18T23:35:00Z`
-2. **2025 Wimbledon singles** — added WTA + tennis.com links (Grand Slam section)
-3. **2025 Wimbledon doubles** (with Eva Lys) — added WTA + tennis.com links
-4. **Krejcikova H2H** — fixed score to Eala-first (`3-6, 6-2, 1-6`; was opponent-first `6-3, 2-6, 1-6`) and added match links
+2. **2025 Wimbledon singles** - added WTA + tennis.com links (Grand Slam section)
+3. **2025 Wimbledon doubles** (with Eva Lys) - added WTA + tennis.com links
+4. **Krejcikova H2H** - fixed score to Eala-first (`3-6, 6-2, 1-6`; was opponent-first `6-3, 2-6, 1-6`) and added match links
 
 ### Not changed
-- **wimbledon.com links** — left out per your July 6 removal; verified match-page URLs exist if you want them back
-- **Paolini** — stays in Other Top 20 (Roland Garros 2024 singles finalist; doubles Slam titles don’t trigger promotion)
-- **2026 Wimbledon doubles** — no working tennis.com slug found; WTA link kept
-- **Watch list** — no promotions (Kenin meeting was doubles only)
+- **wimbledon.com links** - left out per your July 6 removal; verified match-page URLs exist if you want them back
+- **Paolini** - stays in Other Top 20 (Roland Garros 2024 singles finalist; doubles Slam titles don’t trigger promotion)
+- **2026 Wimbledon doubles** - no working tennis.com slug found; WTA link kept
+- **Watch list** - no promotions (Kenin meeting was doubles only)
 
 ### Gaps / next update triggers
 - DC Open results (from July 27)
@@ -1386,7 +1386,7 @@ The head-to-head workflow will direct users to the Walkovers rule. The watch lis
 
 _**Agent (auto-low)**_
 
-Adding the walkover rule to the skill and applying it to the tracker — removing walkover-only H2H and tournament match lines.
+Adding the walkover rule to the skill and applying it to the tracker - removing walkover-only H2H and tournament match lines.
 
 
 _**Agent (auto-low)**_
@@ -1626,7 +1626,7 @@ Paolini's WTA profile fetch failed with exit code 1. She was correctly not promo
 
 _**Agent (auto-low)**_
 
-The Paolini WTA profile fetch failed (curl returned no usable HTML — WTA pages are client-rendered). That didn’t block anything: her profile already showed she’s a Roland Garros 2024 **finalist**, not a singles champion, so she correctly stays in **Other Top 20** rather than Grand Slam Champions. No tracker change was needed from that fetch.
+The Paolini WTA profile fetch failed (curl returned no usable HTML - WTA pages are client-rendered). That didn’t block anything: her profile already showed she’s a Roland Garros 2024 **finalist**, not a singles champion, so she correctly stays in **Other Top 20** rather than Grand Slam Champions. No tracker change was needed from that fetch.
 
 ---
 
@@ -2143,10 +2143,10 @@ _**Agent (auto-low)**_
 
 Updated the walkover rules:
 
-**Best Performances in WTA Tournaments** — walkovers are allowed as round sub-bullets: `Round, d. Opponent w/o |` with match links, no set scores.
+**Best Performances in WTA Tournaments** - walkovers are allowed as round sub-bullets: `Round, d. Opponent w/o |` with match links, no set scores.
 
-**Still excluded from H2H** — walkover-only contact does not create or keep an H2H block; opponents stay on the watch list.
+**Still excluded from H2H** - walkover-only contact does not create or keep an H2H block; opponents stay on the watch list.
 
-**Grand Slam Main Draw Results** — walkover rounds still omitted (only rounds where the ball was struck).
+**Grand Slam Main Draw Results** - walkover rounds still omitted (only rounds where the ball was struck).
 
 Restored the three Best Performances walkover lines in the tracker (Miami 2025 Badosa, Ningbo 2024 doubles, Canberra 2024 doubles). Badosa remains on the watch list only.

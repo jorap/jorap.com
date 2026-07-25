@@ -52,18 +52,18 @@ featured: false
 review: true
 card_sets: ["Jesus Prayers", "Gospel", "Faith", "Prayer"]
 cards:
-  - front: "Church friction has me ready to bail on unity. What did He ask the Father for His own?"
-    back: "Keep them one - as We are one."
-  - front: "Praying for my kid's faith feels alone. Who else is in John 17:20's branch?"
-    back: "All who will believe - He already prayed."
-  - front: "Sanctification feels like self-improvement theater. What did He ask the Father to use?"
-    back: "Sanctify in truth - Your word."
-  - front: "Scared believers will fall away when I fail. What keeps them in His prayer?"
-    back: "Father's name - He asked the Father to keep them."
-  - front: "Small group wants a mission statement. What unity request did He make first?"
-    back: "One - as He and the Father are one."
-  - front: "Wondering if I am included in His intercession. Who is the prayer for in John 17:20?"
-    back: "Those who believe through their word - that includes me."
+  - front: "Church friction has me ready to bail on unity - split tempting."
+    back: "Pray they stay one - as Father and Son are one."
+  - front: "Praying for my kid's faith feels alone - intercession lonely."
+    back: "He prayed for all who will believe - you're included."
+  - front: "Sanctification feels like self-improvement theater."
+    back: "Ask Father - sanctify them in Your word."
+  - front: "Scared believers will fall away when I fail as leader."
+    back: "Pray Father keeps them - His name, not mine."
+  - front: "Small group wants a mission statement before unity."
+    back: "Pray for one - before you brand it."
+  - front: "Wondering if I'm included in His intercession - doubt loop."
+    back: "Believers through their word - includes me."
 draft: false
 ---
 

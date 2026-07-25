@@ -395,8 +395,8 @@ Initial positions are hash-seeded random scatter, then ~240–400 settling ticks
 
 Two data modes from Hugo:
 
-- **Global** (`graph-data.html`) — all notes and edges; picks a high-degree hub as `focus` for camera centering.
-- **Local** (`graph-data-local.html`) — 1-hop ego network around the current note (center + direct neighbors only).
+- **Global** (`graph-data.html`) - all notes and edges; picks a high-degree hub as `focus` for camera centering.
+- **Local** (`graph-data-local.html`) - 1-hop ego network around the current note (center + direct neighbors only).
 
 That local mode is already the right idea for large gardens: don’t lay out the whole graph at once.
 
@@ -424,9 +424,9 @@ Place the center at `(0, 0)`, ring 1 on a circle at radius `R`, ring 2 at `2R`, 
 ### 4. If you need the full graph at once
 You need different tooling:
 
-- **Barnes–Hut / spatial hash** for repulsion (D3-force, ngraph, sigma, etc.) — O(n log n) instead of O(n²).
+- **Barnes–Hut / spatial hash** for repulsion (D3-force, ngraph, sigma, etc.) - O(n log n) instead of O(n²).
 - **Precompute layout at build time** and ship `{ id, x, y }` in JSON.
-- **Clustering** — collapse communities into super-nodes, drill down on click.
+- **Clustering** - collapse communities into super-nodes, drill down on click.
 
 The current custom sim will choke on large *n* because of the nested repulsion loop and because global mode sends every node to the client.
 
@@ -754,17 +754,17 @@ The site serves vanilla JavaScript directly. No build step is involved.</details
 
 _**Agent (default)**_
 
-Yes — **Obsidian uses PixiJS for graph rendering**, and you *could* use it here. But **this site does not use PixiJS today**.
+Yes - **Obsidian uses PixiJS for graph rendering**, and you *could* use it here. But **this site does not use PixiJS today**.
 
 ## What Obsidian actually uses
 
-Obsidian’s graph is **PixiJS (WebGL) for drawing** plus **custom layout/simulation code**. An Obsidian dev ([joethei on the forum](https://forum.obsidian.md/t/understanding-the-graph-view-core/41020/2)) said they moved from D3 because it wasn’t fast enough for rendering; PixiJS handles the canvas/WebGL layer. The force layout, hit-testing, zoom/pan, and label logic are still Obsidian’s own code — not something PixiJS gives you out of the box.
+Obsidian’s graph is **PixiJS (WebGL) for drawing** plus **custom layout/simulation code**. An Obsidian dev ([joethei on the forum](https://forum.obsidian.md/t/understanding-the-graph-view-core/41020/2)) said they moved from D3 because it wasn’t fast enough for rendering; PixiJS handles the canvas/WebGL layer. The force layout, hit-testing, zoom/pan, and label logic are still Obsidian’s own code - not something PixiJS gives you out of the box.
 
 Obsidian Publish’s graph behaves the same way: WebGL canvas, CSS color tokens bridged in via classes like `.graph-view.color-fill` (see [Obsidian’s graph customization docs](https://publish.obsidian.md/hub/04+-+Guides%2C+Workflows%2C+%26+Courses/Guides/Graph+view+customization)).
 
 ## What this site uses now
 
-Your graph is described in code as “Obsidian Publish-**style**” — meaning similar *look/feel*, not the same stack:
+Your graph is described in code as “Obsidian Publish-**style**” - meaning similar *look/feel*, not the same stack:
 
 ```1:3:assets/js/notes-graph.js
 /**
@@ -779,7 +779,7 @@ It’s **Canvas 2D + vanilla JS**: custom force simulation, manual `ctx.arc` / `
 **Yes.** Technically straightforward:
 
 1. Add `pixi.js` (via npm or a vendored bundle in `assets/js/`).
-2. Replace the Canvas 2D draw loop with a `PIXI.Application` + `Graphics` (lines/circles) and text (Pixi `Text`, or HTML labels overlaid on the canvas — Obsidian-style).
+2. Replace the Canvas 2D draw loop with a `PIXI.Application` + `Graphics` (lines/circles) and text (Pixi `Text`, or HTML labels overlaid on the canvas - Obsidian-style).
 3. Keep your existing simulation, filters, local/global modes, and interaction logic; only swap the renderer.
 
 Your Hugo setup already fingerprints page scripts via `fingerprint-asset.html`, so a bundled `notes-graph.js` would fit the current pipeline.
@@ -790,10 +790,10 @@ Depends on the goal:
 
 | Goal | PixiJS helps? |
 |------|----------------|
-| Faster **drawing** of many nodes/edges | **Yes** — WebGL batching scales better than Canvas 2D redraws |
-| Faster **layout** on huge graphs | **No** — your O(n²) repulsion loop is still the bottleneck |
-| Match Obsidian Publish exactly | **Partially** — same renderer family, but you’d still reimplement their layout, labels, and interaction |
-| Keep zero dependencies / tiny JS | **No** — Pixi adds ~100–400KB depending on how you bundle |
+| Faster **drawing** of many nodes/edges | **Yes** - WebGL batching scales better than Canvas 2D redraws |
+| Faster **layout** on huge graphs | **No** - your O(n²) repulsion loop is still the bottleneck |
+| Match Obsidian Publish exactly | **Partially** - same renderer family, but you’d still reimplement their layout, labels, and interaction |
+| Keep zero dependencies / tiny JS | **No** - Pixi adds ~100–400KB depending on how you bundle |
 
 For your current garden size, **local 1-hop graphs** (already in `graph-data-local.html`) plus Canvas 2D is probably enough. PixiJS starts to pay off when you routinely render **hundreds/thousands** of nodes in the **global** view and redraw cost dominates.
 
@@ -802,7 +802,7 @@ For your current garden size, **local 1-hop graphs** (already in `graph-data-loc
 - **Obsidian Publish → PixiJS for rendering** ✓  
 - **JoRap.com today → Canvas 2D, no PixiJS** ✓  
 - **Switching is possible** ✓, but it’s a **renderer rewrite**, not a drop-in Obsidian graph  
-- **Big-network layout** still needs k-hop expansion, radial BFS, or a faster force algorithm — PixiJS alone won’t fix that
+- **Big-network layout** still needs k-hop expansion, radial BFS, or a faster force algorithm - PixiJS alone won’t fix that
 
 If you want to go that route, the lowest-risk path is: PixiJS renderer first (same sim + same JSON from Hugo), then tackle layout/scaling separately. I can outline that migration or spike a minimal Pixi proof-of-concept if you’d like.
 
@@ -1917,7 +1917,7 @@ The output is ESM with an external pixi import, which breaks script tags. Switch
 
 _**Agent (default)**_
 
-The bundle still has bare `import from "pixi.js"` — fixing the Hugo `js.Build` config so PixiJS is inlined.
+The bundle still has bare `import from "pixi.js"` - fixing the Hugo `js.Build` config so PixiJS is inlined.
 
 
 _**Agent (default)**_
@@ -2111,7 +2111,7 @@ The notes graph now renders with **PixiJS (WebGL)** instead of raw Canvas 2D.
 
 ## What changed
 
-1. **`assets/js/notes-graph.js`** — Rewritten to use PixiJS:
+1. **`assets/js/notes-graph.js`** - Rewritten to use PixiJS:
    - `Application` + WebGL renderer
    - `Container` for pan/zoom (replaces manual canvas transforms)
    - `Graphics` for edges and node circles
@@ -2120,9 +2120,9 @@ The notes graph now renders with **PixiJS (WebGL)** instead of raw Canvas 2D.
 
 2. **`pixi.js` added** to `package.json` (v8.19.0)
 
-3. **`fingerprint-asset.html`** — New `bundle` option runs Hugo’s `js.Build` (esbuild) with **`format: "iife"`** so PixiJS is inlined into one script tag
+3. **`fingerprint-asset.html`** - New `bundle` option runs Hugo’s `js.Build` (esbuild) with **`format: "iife"`** so PixiJS is inlined into one script tag
 
-4. **`graph.html` and `single.html`** — Graph script now loads with `"bundle" true`
+4. **`graph.html` and `single.html`** - Graph script now loads with `"bundle" true`
 
 ## Build output
 
@@ -2137,7 +2137,7 @@ npm run dev    # or hugo server
 
 Then open `/notes/graph/` or any note with the local graph panel. You should see the same graph behavior, now on a WebGL canvas (PixiJS appends its canvas with class `notes-graph__canvas`).
 
-Layout/simulation logic is unchanged — only the renderer switched. If you want to push bundle size down later, we can tree-shake Pixi imports or lazy-load the graph script only on graph pages.
+Layout/simulation logic is unchanged - only the renderer switched. If you want to push bundle size down later, we can tree-shake Pixi imports or lazy-load the graph script only on graph pages.
 
 ---
 
@@ -2166,7 +2166,7 @@ Preparing a brief update on the task result.</details></think>
 
 _**Agent (default)**_
 
-The standalone `npx esbuild` check failed — npm couldn't reach the registry (`ECONNRESET`), so that local bundle test never ran.
+The standalone `npx esbuild` check failed - npm couldn't reach the registry (`ECONNRESET`), so that local bundle test never ran.
 
 That didn't block the PixiJS migration. Hugo's built-in `js.Build` with `format: "iife"` already bundles PixiJS correctly (~527 KB minified in production). The graph should work at `/notes/graph/` and on note pages with the local graph panel.
 
@@ -2185,7 +2185,7 @@ The graph is not appearing at localhost:1313/notes/graph/.</details></think>
 
 _**Agent (default)**_
 
-Investigating why the graph isn't showing — checking the dev server, page output, and script loading.
+Investigating why the graph isn't showing - checking the dev server, page output, and script loading.
 
 
 _**Agent (default)**_
@@ -3742,7 +3742,7 @@ A simpler fix is better. I'll stop the Pixi ticker entirely and call `app.render
 
 _**Agent (default)**_
 
-The canvas mounts but nothing renders — likely missing `app.render()` and a ticker timing conflict. Fixing the render loop.
+The canvas mounts but nothing renders - likely missing `app.render()` and a ticker timing conflict. Fixing the render loop.
 
 
 _**Agent (default)**_
@@ -5706,7 +5706,7 @@ A quick fix is to cap node velocities to prevent runaway growth. Other options i
 
 _**Agent (default)**_
 
-NaN comes from force simulation instability at ~213 iterations with 87 nodes—not Pixi. Adding velocity caps and numerical guards.
+NaN comes from force simulation instability at ~213 iterations with 87 nodes-not Pixi. Adding velocity caps and numerical guards.
 
 
 _**Agent (default)**_
@@ -6373,13 +6373,13 @@ _**Agent (default)**_
 
 Found and fixed two bugs that together made the graph blank:
 
-1. **Pixi render pipeline not registered** — esbuild only imported `{ Application, Graphics, … }`, which tree-shook away Pixi’s init side effects. Added `import "pixi.js"` so WebGL rendering actually runs, plus explicit `app.render()` each frame.
+1. **Pixi render pipeline not registered** - esbuild only imported `{ Application, Graphics, … }`, which tree-shook away Pixi’s init side effects. Added `import "pixi.js"` so WebGL rendering actually runs, plus explicit `app.render()` each frame.
 
-2. **Force simulation blowing up to `NaN`** — with 87 nodes, the layout went unstable around iteration 213 and every node position became `NaN`. Added velocity caps, scaled repulsion for larger graphs, and guards in `fitToView`.
+2. **Force simulation blowing up to `NaN`** - with 87 nodes, the layout went unstable around iteration 213 and every node position became `NaN`. Added velocity caps, scaled repulsion for larger graphs, and guards in `fitToView`.
 
 **Hard refresh** the page (`Ctrl+Shift+R` / `Cmd+Shift+R`) so the browser picks up the rebuilt `/js/notes-graph.js` bundle. If `pnpm dev` is running, Hugo should have already rebuilt it.
 
-You should now see the full interactive graph at http://localhost:1313/notes/graph/ — nodes, links, labels, zoom/pan, and filters.
+You should now see the full interactive graph at http://localhost:1313/notes/graph/ - nodes, links, labels, zoom/pan, and filters.
 
 ---
 
@@ -6404,7 +6404,7 @@ _**Agent (default)**_
 
 The headless browser check initially failed (`jsdom` wasn’t installed, and a direct `npx playwright` run hit network errors). We worked around that by installing Playwright in `/tmp` and used it to debug the blank graph.
 
-That led to the two fixes now in place: `import "pixi.js"` for the render pipeline, and simulation stability guards so node positions don’t go `NaN`. The graph renders correctly in headless Chrome now — hard refresh `/notes/graph/` if you still see a blank canvas.
+That led to the two fixes now in place: `import "pixi.js"` for the render pipeline, and simulation stability guards so node positions don’t go `NaN`. The graph renders correctly in headless Chrome now - hard refresh `/notes/graph/` if you still see a blank canvas.
 
 ---
 
@@ -6519,7 +6519,7 @@ Result:
 
 ```json
 {
-  "markdown": "Notas sobre el ahora - Ouroboros lab\n\n# Notas sobre el ahora \u003e [!noteinfo] \u003e Última revisión el 08.06.2026[^1] · [[Info/Sobre esta web|Info]] · [[Info/Contact|Suscríbete]] · ![[Docs/Icons/lucide-image.svg#icon]][Portfolio](https://marconoris.com) · [Libellus](https://marconoris.com/libellus) · [News](https://marconoris.com/news/) \u003e [!Hint]- Vista de lectura / Reader view \u003e En la versión de escritorio puedes usar la tecla r para esconder (o mostrar) las dos barras laterales (icono superior derecho ![[Docs/Icons/lucide-maximize-2.svg#icon]]). \u003e \u003e *In the desktop version, you can use the r key to hide (or show) both sidebars (top-right icon ![[Docs/Icons/lucide-maximize-2.svg#icon]]).* *Estado actual (junio de 2026): la residencia EN RESiDÈNCiA en el Institut-Escola Trinitat Nova acaba de culminar con la exposición «Registres dels nostres caminars»; mientras, el trabajo sobre los ríos —[[Cos d'Ebre/● Index Cos d'Ebre|Cos d'Ebre]] y [[Libellus/_proyectos/La vora oberta - es|La vora oberta]]— continúa.* ##### La vora oberta Después de cinco días de camino y algo más de 90 km, el pasado 31 de marzo llegamos a la confluencia del río [[Territorium/Siurana|Siurana]] con el [[Territorium/Río Ebro|Ebro]]. Fue el cierre de la travesía que dio comienzo a La vora oberta, un proyecto que se adentra en un territorio marcado por el trasvase del Siurana hacia Riudecanyes, una herida histórica que condiciona la relación del [[Territorium/Priorat|Priorat]] con el agua. «La vora oberta» ha sido galardonado con el Premio Isabelle Meyer 2025. Seguir leyendo: [[Libellus/_posts/2026-04-11-Travesía del Siurana|La vora oberta. Travesía del Siurana]]. \u003e [!Links] \u003e - Proyecto y créditos: [[Libellus/_proyectos/La vora oberta - es|La vora oberta]] \u003e - [[Libellus/_posts/2026-03-10-El Siurana, anatomía de una extracción|El Siurana, anatomía de una extracción]] \u003e - [[Projects/La vora oberta/Rutes Siurana|Rutes Siurana / Live Track]] \u003e - [[../_registro-fotografico/2026 - El Priorat - es|Registro fotográfico]] (en construcción) \u003e - [[Territorium/Riu Siurana|Riu Siurana]] ##### En El Temps Eliseu T. Climent me entrevista en el número 2135 de *El Temps* (1 de mayo de 2026), en la sección *Art Nòmada*: el caminar como práctica artística, la frontera del Pirineo oriental y los ríos Segre, Ebro y Siurana. La fotografía que acompaña el artículo se tomó durante La vora oberta. Seguir leyendo: [[Libellus/_prensa-y-medios/2026 - Climent - La deambulación hecha arte - El Temps - es|La deambulación hecha arte]]. ##### Vivarium 22.03.2026 · Acabo de actualizar tres [[Vivarium/Vivarium de ideas. Cultivar notas perennes|notas perennes]]: - [[Vivarium/El río como identidad|El río como identidad]] - [[Vivarium/Caminar es conocer|Caminar es conocer]] - [[Vivarium/Tejer la memoria|Tejer la memoria]] ##### El cuerpo del río ![[Cos d'Ebre/files/Marco Noris - Cos Ebre - Piernas.jpg]] A lo largo de 2025 mi práctica se ha ido desplegando por el Ebro. Durante ochenta días caminé su curso completo, desde su fuente geológica en el pico Tres Mares (Cantabria) hasta la desembocadura en Riumar (Cataluña): el río como cuerpo, archivo, frontera y memoria. Esa experiencia se ha transformado en una [[Libellus/_news/2025/2025-08-29-exposicion-cos-ebre-lo-pati - es|exposición]] en Lo Pati – Centre d’Art Terres de l’Ebre. La tierra es de quien la trabaja, el territorio de quien lo camina: [[Cos d'Ebre/● Index Cos d'Ebre|Cos d'Ebre, Cuerpo Ebro]]. #CosEbre #CuerpoEbro #the__river Para todo lo relativo a ríos, utiliza la etiqueta #the__river como sistema de navegación en la web. ##### Webs Cansado de depender de servicios propietarios para construir mis webs —y de perder con ello el control sobre mis contenidos—, he decidido asumir hasta la médula la fórmula de Steph Ango, *[files over apps](https://stephango.com/file-over-app)*, y rehacer mi web desde cero, apoyándome en Jekyll. Más info en [[Libellus/Libellus — info|Libellus — info]]. La nueva web ya es accesible en [marconoris.com](https://marconoris.com). Las *news* se encuentran [aquí](https://marconoris.com/news). ##### En Residència Entre octubre de 2025 y mayo de 2026 desarrollé un proyecto en el Institut-Escola Trinitat Nova (Barcelona) en el marco del programa EN RESiDÈNCiA —17ª edición de *Artistes EN RESiDÈNCiA als instituts*—, impulsado por el Institut de Cultura de Barcelona (ICUB) y el Consorci d’Educació de Barcelona (CEB), con la mediación de A Bao A Qu. La residencia fue un proceso de creación colectiva con un grupo de alumnado de 3º de ESO y el profesorado del centro. A partir de mi práctica artística —caminar como herramienta de investigación, la memoria del territorio y el paisaje como archivo—, invité al alumnado a explorar su entorno cotidiano desde nuevas miradas. El proceso culminó en «Registres dels nostres caminars», una gran cartografía del barrio construida a partir de la experiencia compartida de recorrerlo, que se mostró del 26 al 28 de mayo de 2026 en Piramidón — Centre d’Art Contemporani (Barcelona). Seguir leyendo: [[Libellus/_news/2026/2026-05-26 - Registres dels nostres caminars|«Registres dels nostres caminars»]]. [Marco Noris en residencia en el Institut-Escola Trinitat Nova \\| Marco Noris - Libellus](https://marconoris.com/es/news/2025/en-residencia/) ##### El Dorado SFB Realicé la imagen de la programación del trimestre abril–mayo–junio 2026 de El Dorado – Sociedad Flamenca Barcelona, construida a partir de la toponimia de los espacios históricos del flamenco en la ciudad —cafés cantantes, teatros, ventas, colmaos y tablaos— entendidos como una red de memoria. En diálogo con mi serie [[Libellus/_series/Cartografía toponímica - es|Cartografía toponímica]] y con la investigación de Montse Madridejos. #toponyms Seguir leyendo: [[Libellus/_news/2026/2026-03-02-El Dorado SFB - es|El Dorado SFB. Cartografía de los lugares del flamenco]]. ##### Humano, humus - (Primeras reflexiones) sobre lo que está al principio y lo que está al final: ¿qué es lo [[Themarium/Filosofia de la Terra/Humano|humano]]? #language - Galimberti, \"[[Lecturas/Bibliografía/L'etica del viandante - Umberto Galimberti - Feltrinelli Editore|L'etica del viandante]]\": el libro (Feltrinelli, italiano) y la [[Themarium/Filosofia de la Terra/L'etica del viandante|conferencia]] (italiano con resumen en castellano) #books #biocentrism #philosophyOfLand - [[Libellus/_paratextos/Noris, Pacheco - 2025 - Caminar hacia una profunda humanidad|Caminar hacia una profunda humanidad]] (Noris, Pachecho González) #CosEbre #CuerpoEbro #walking ##### En la mesa \u003e [!routes|red] Ruta guiada \u003e [[Libellus/_incisiones/Implosionar las reglas del poder|Implosionar las reglas del poder]] · [[Themarium/Vipassana/Vipassana|Vipassana]] · [[Clippings/Visions/Dharma questions|Dharma questions]] · [[Themarium/The Machine/El contrato|El contrato]] · [[Libellus/_opacitas/Sull'opacità della realtà prossima|Sull'opacità della realtà prossima]] · [[Themarium/Filosofia de la Terra/Filosofia de la Terra|Filosofia de la Terra]] · [[Libellus/_posts/2025-01-27-Hay alternativas a las redes de los oligarcas|Hay alternativas a las redes de los oligarcas]] · [[Projects/Projects|Proyectos]] · [[Sequere/Sequere|Sequere]] · [[Libellus/Libellus — info|Libellus info]] · [[Cos d'Ebre/● Index Cos d'Ebre|Cos d'Ebre]] ● · [[Libellus/_posts/2021-11-30-Transmisión en vivo desde el desierto del Namib|Transmisión en vivo desde el desierto del Namib]] · [[Libellus/_proyectos/La vora oberta - es|La vora oberta]] ● \u003e \u003e #walking #CosEbre #CuerpoEbro #the__river #philosophyOfLand #water #Terra #ca-lang [[Libellus/_posts/2021-11-30-Transmisión en vivo desde el desierto del Namib|Transmisión en vivo desde el desierto del Namib]] - [[Libellus/_posts/2026-03-24-Máquina automática no alma|Macchina automatica no anima]] #the_machine #ruins #device - [[Libellus/_posts/2026-02-20-pong - es|Pong]], el primer videojuego de mi infancia reprogramado e incrustado en la web #code #videogames #device - Mario Benedetti, *[[Lecturas/Poesia/Benedetti, Defensa de la alegría|Defensa de la alegria]]* (1979) #poetry #Benedetti - *[[Clippings/Visions/Solo le pido a Dios|Solo le pido a Dios]]* que la guerra no nos sea indiferente #war #music #video - [[Libellus/_posts/2025-04-26-Crítica al excursionismo|Crítica al excursionismo]] - [[Libellus/_posts/2025-01-27-Hay alternativas a las redes de los oligarcas|2025-01-27-Hay alternativas a las redes de los oligarcas]] - [[Libellus/_versiculi/Haiku III|Haiku III]] - He publicado algunos apuntes sobre la [[Docs/Recursos y técnicas artísticas/Affresco|técnica del fresco]] #artistic_techniques #art - Una reflexión sobre [[Libellus/_posts/2023-05-03-Sísifo|Sísifo]], para contextualizar en algún [[Lecturas/Poesia/Lugar|lugar]], en algún momento #Sisifo #mythology - Le parole parole profetiche di [[Themarium/Pasolini/Pasolini|Pasolini]] in un estratto dell'intervista a Peter Dragadze pubblicata su [Città Pasolini](https://www.cittapasolini.com/post/quasi-un-testamento-pasolini-intervista-dragadze) risultano ora un vero e propio **[[Themarium/Pasolini/Pasolini, Neocapitalismo|manifesto]]** #philosophyOfLand ##### Bibliografía del ahora \u003e [!noteinfo] \u003e Última actualización: 15.02.2026 - [[Themarium/Personæ/Luciano Bianciardi|Bianciardi]], Luciano. *[[Lecturas/Books highlights/La Vita Agra|La vita agra]]*. Feltrinelli, 1962. - Bataille, Georges. *[[Lecturas/Bibliografía/La experiencia interior - Georges Bataille|La experiencia interior - Georges Bataille]]*. El Cuenco de Plata, 2016. - Cabrer, Miquel Àngel. *[Traces de silenci: Les arts del cos, del pinzell i del passeig](https://tresportals.cat/cataleg/traces-de-silenci-les-arts-del-cos-del-pinzell-i-del-passeig/)*. Barcelona: Tres Portals, 2025. - Chilanti, Felice. *[[Lecturas/Bibliografía/Gli ultimi giorni dell'età del pane - Felice Chilanti|Gli ultimi giorni dell’età del pane]]*. Arnoldo Mondadori, 1974. - Forster, Edward Morgan. *[[Lecturas/Bibliografía/The Machine stops - E. M. Forster|La máquina se para]]*. Barcelona: Ediciones El Salmón, 2021. Publicado originalmente en 1909. - Galimberti, Umberto. [[Lecturas/Bibliografía/L'etica del viandante - Umberto Galimberti - Feltrinelli Editore|L'etica del viandante]]. Feltrinelli, 2023. - Han, Byung-Chul. *[[Lecturas/Bibliografía/No-cosas - Byung-Chul Ha|No-cosas - Byung-Chul Ha]]*. Taurus, 2021. - London, Jack. [[Lecturas/Bibliografía/El talón de hierro - Jack London|El talón de hierro]]. Hiru Argitaletxea, 2012. - Moncada, Jesús. *[[Lecturas/Bibliografía/Jesús Moncada, Camí de Sirga|Camí de sirga]]*. 1a ed., Edicions 62, 2010. - Mujica, Hugo. 2018. *La carne y el mármol: Francis Bacon y el arte griego*. Madrid: Vaso Roto Ediciones. - [[Themarium/Pasolini/Pasolini|Pasolini]], Pier Paolo. *[[Themarium/Pasolini/Scritti corsari - Pier Paolo Pasolini|Scritti corsari]]*. Garzanti, 2023. - Ogawa, Yoko. *[[Lecturas/Bibliografía/La Policía de la Memoria - Yoko Ogawa|La policía de la memoria]]*. Translated by J. F. González Sánchez, Tusquets Editores, 1994. - Petrarca, Francesco. *[[Lecturas/Bibliografía/La lettera del Ventoso - Francesco Petrarca|La lettera del ventoso]]*. Tararà Edizioni, 2021. - [[Arte/Artistas/Perejaume|Perejaume]]. *[[Lecturas/Books highlights/Fonts Líquides I Fonts Lignificades|Fonts Líquides i Fonts Lignificades]]*. Primera edició, Tushita edicions, 2020. - Reclus, Élisée. *[[Lecturas/Bibliografía/Historia de un arroyo - Élisée Reclus|Historia de un arroyo]]*. José J. de Olañeta, 2008. - Said, Edward W. *[[Lecturas/Books highlights/Reflexiones sobre el exilio. Ensayos literarios y culturales|Reflexiones sobre el exilio. Ensayos literarios y culturales]]*. Debate, 2005. - Sales, Joan. *[[Lecturas/Bibliografía/Incerta glòria - Joan Sales|Incerta glòria]]*. 15a edició, Club Editor, 2014. - Solnit, Rebecca. *[[Lecturas/Bibliografía/Wanderlust. Una historia del caminar|Wanderlust]]: Una historia del caminar*. Capitán Swing, 2015. - Vernet, Roser. *[[Lecturas/Bibliografía/Lo mig del món - Roser Vernet|Lo mig del món]]*. Barcelona: Club Editor, 2023. [^1]: «Notas sobre el ahora» forma parte del [[Themarium/Tiempo/The now page movement|directorio de páginas “Now”]], popularizado por Derek Sivers en 2015.",
+  "markdown": "Notas sobre el ahora - Ouroboros lab\n\n# Notas sobre el ahora \u003e [!noteinfo] \u003e Última revisión el 08.06.2026[^1] · [[Info/Sobre esta web|Info]] · [[Info/Contact|Suscríbete]] · ![[Docs/Icons/lucide-image.svg#icon]][Portfolio](https://marconoris.com) · [Libellus](https://marconoris.com/libellus) · [News](https://marconoris.com/news/) \u003e [!Hint]- Vista de lectura / Reader view \u003e En la versión de escritorio puedes usar la tecla r para esconder (o mostrar) las dos barras laterales (icono superior derecho ![[Docs/Icons/lucide-maximize-2.svg#icon]]). \u003e \u003e *In the desktop version, you can use the r key to hide (or show) both sidebars (top-right icon ![[Docs/Icons/lucide-maximize-2.svg#icon]]).* *Estado actual (junio de 2026): la residencia EN RESiDÈNCiA en el Institut-Escola Trinitat Nova acaba de culminar con la exposición «Registres dels nostres caminars»; mientras, el trabajo sobre los ríos -[[Cos d'Ebre/● Index Cos d'Ebre|Cos d'Ebre]] y [[Libellus/_proyectos/La vora oberta - es|La vora oberta]]- continúa.* ##### La vora oberta Después de cinco días de camino y algo más de 90 km, el pasado 31 de marzo llegamos a la confluencia del río [[Territorium/Siurana|Siurana]] con el [[Territorium/Río Ebro|Ebro]]. Fue el cierre de la travesía que dio comienzo a La vora oberta, un proyecto que se adentra en un territorio marcado por el trasvase del Siurana hacia Riudecanyes, una herida histórica que condiciona la relación del [[Territorium/Priorat|Priorat]] con el agua. «La vora oberta» ha sido galardonado con el Premio Isabelle Meyer 2025. Seguir leyendo: [[Libellus/_posts/2026-04-11-Travesía del Siurana|La vora oberta. Travesía del Siurana]]. \u003e [!Links] \u003e - Proyecto y créditos: [[Libellus/_proyectos/La vora oberta - es|La vora oberta]] \u003e - [[Libellus/_posts/2026-03-10-El Siurana, anatomía de una extracción|El Siurana, anatomía de una extracción]] \u003e - [[Projects/La vora oberta/Rutes Siurana|Rutes Siurana / Live Track]] \u003e - [[../_registro-fotografico/2026 - El Priorat - es|Registro fotográfico]] (en construcción) \u003e - [[Territorium/Riu Siurana|Riu Siurana]] ##### En El Temps Eliseu T. Climent me entrevista en el número 2135 de *El Temps* (1 de mayo de 2026), en la sección *Art Nòmada*: el caminar como práctica artística, la frontera del Pirineo oriental y los ríos Segre, Ebro y Siurana. La fotografía que acompaña el artículo se tomó durante La vora oberta. Seguir leyendo: [[Libellus/_prensa-y-medios/2026 - Climent - La deambulación hecha arte - El Temps - es|La deambulación hecha arte]]. ##### Vivarium 22.03.2026 · Acabo de actualizar tres [[Vivarium/Vivarium de ideas. Cultivar notas perennes|notas perennes]]: - [[Vivarium/El río como identidad|El río como identidad]] - [[Vivarium/Caminar es conocer|Caminar es conocer]] - [[Vivarium/Tejer la memoria|Tejer la memoria]] ##### El cuerpo del río ![[Cos d'Ebre/files/Marco Noris - Cos Ebre - Piernas.jpg]] A lo largo de 2025 mi práctica se ha ido desplegando por el Ebro. Durante ochenta días caminé su curso completo, desde su fuente geológica en el pico Tres Mares (Cantabria) hasta la desembocadura en Riumar (Cataluña): el río como cuerpo, archivo, frontera y memoria. Esa experiencia se ha transformado en una [[Libellus/_news/2025/2025-08-29-exposicion-cos-ebre-lo-pati - es|exposición]] en Lo Pati – Centre d’Art Terres de l’Ebre. La tierra es de quien la trabaja, el territorio de quien lo camina: [[Cos d'Ebre/● Index Cos d'Ebre|Cos d'Ebre, Cuerpo Ebro]]. #CosEbre #CuerpoEbro #the__river Para todo lo relativo a ríos, utiliza la etiqueta #the__river como sistema de navegación en la web. ##### Webs Cansado de depender de servicios propietarios para construir mis webs -y de perder con ello el control sobre mis contenidos-, he decidido asumir hasta la médula la fórmula de Steph Ango, *[files over apps](https://stephango.com/file-over-app)*, y rehacer mi web desde cero, apoyándome en Jekyll. Más info en [[Libellus/Libellus - info|Libellus - info]]. La nueva web ya es accesible en [marconoris.com](https://marconoris.com). Las *news* se encuentran [aquí](https://marconoris.com/news). ##### En Residència Entre octubre de 2025 y mayo de 2026 desarrollé un proyecto en el Institut-Escola Trinitat Nova (Barcelona) en el marco del programa EN RESiDÈNCiA -17ª edición de *Artistes EN RESiDÈNCiA als instituts*-, impulsado por el Institut de Cultura de Barcelona (ICUB) y el Consorci d’Educació de Barcelona (CEB), con la mediación de A Bao A Qu. La residencia fue un proceso de creación colectiva con un grupo de alumnado de 3º de ESO y el profesorado del centro. A partir de mi práctica artística -caminar como herramienta de investigación, la memoria del territorio y el paisaje como archivo-, invité al alumnado a explorar su entorno cotidiano desde nuevas miradas. El proceso culminó en «Registres dels nostres caminars», una gran cartografía del barrio construida a partir de la experiencia compartida de recorrerlo, que se mostró del 26 al 28 de mayo de 2026 en Piramidón - Centre d’Art Contemporani (Barcelona). Seguir leyendo: [[Libellus/_news/2026/2026-05-26 - Registres dels nostres caminars|«Registres dels nostres caminars»]]. [Marco Noris en residencia en el Institut-Escola Trinitat Nova \\| Marco Noris - Libellus](https://marconoris.com/es/news/2025/en-residencia/) ##### El Dorado SFB Realicé la imagen de la programación del trimestre abril–mayo–junio 2026 de El Dorado – Sociedad Flamenca Barcelona, construida a partir de la toponimia de los espacios históricos del flamenco en la ciudad -cafés cantantes, teatros, ventas, colmaos y tablaos- entendidos como una red de memoria. En diálogo con mi serie [[Libellus/_series/Cartografía toponímica - es|Cartografía toponímica]] y con la investigación de Montse Madridejos. #toponyms Seguir leyendo: [[Libellus/_news/2026/2026-03-02-El Dorado SFB - es|El Dorado SFB. Cartografía de los lugares del flamenco]]. ##### Humano, humus - (Primeras reflexiones) sobre lo que está al principio y lo que está al final: ¿qué es lo [[Themarium/Filosofia de la Terra/Humano|humano]]? #language - Galimberti, \"[[Lecturas/Bibliografía/L'etica del viandante - Umberto Galimberti - Feltrinelli Editore|L'etica del viandante]]\": el libro (Feltrinelli, italiano) y la [[Themarium/Filosofia de la Terra/L'etica del viandante|conferencia]] (italiano con resumen en castellano) #books #biocentrism #philosophyOfLand - [[Libellus/_paratextos/Noris, Pacheco - 2025 - Caminar hacia una profunda humanidad|Caminar hacia una profunda humanidad]] (Noris, Pachecho González) #CosEbre #CuerpoEbro #walking ##### En la mesa \u003e [!routes|red] Ruta guiada \u003e [[Libellus/_incisiones/Implosionar las reglas del poder|Implosionar las reglas del poder]] · [[Themarium/Vipassana/Vipassana|Vipassana]] · [[Clippings/Visions/Dharma questions|Dharma questions]] · [[Themarium/The Machine/El contrato|El contrato]] · [[Libellus/_opacitas/Sull'opacità della realtà prossima|Sull'opacità della realtà prossima]] · [[Themarium/Filosofia de la Terra/Filosofia de la Terra|Filosofia de la Terra]] · [[Libellus/_posts/2025-01-27-Hay alternativas a las redes de los oligarcas|Hay alternativas a las redes de los oligarcas]] · [[Projects/Projects|Proyectos]] · [[Sequere/Sequere|Sequere]] · [[Libellus/Libellus - info|Libellus info]] · [[Cos d'Ebre/● Index Cos d'Ebre|Cos d'Ebre]] ● · [[Libellus/_posts/2021-11-30-Transmisión en vivo desde el desierto del Namib|Transmisión en vivo desde el desierto del Namib]] · [[Libellus/_proyectos/La vora oberta - es|La vora oberta]] ● \u003e \u003e #walking #CosEbre #CuerpoEbro #the__river #philosophyOfLand #water #Terra #ca-lang [[Libellus/_posts/2021-11-30-Transmisión en vivo desde el desierto del Namib|Transmisión en vivo desde el desierto del Namib]] - [[Libellus/_posts/2026-03-24-Máquina automática no alma|Macchina automatica no anima]] #the_machine #ruins #device - [[Libellus/_posts/2026-02-20-pong - es|Pong]], el primer videojuego de mi infancia reprogramado e incrustado en la web #code #videogames #device - Mario Benedetti, *[[Lecturas/Poesia/Benedetti, Defensa de la alegría|Defensa de la alegria]]* (1979) #poetry #Benedetti - *[[Clippings/Visions/Solo le pido a Dios|Solo le pido a Dios]]* que la guerra no nos sea indiferente #war #music #video - [[Libellus/_posts/2025-04-26-Crítica al excursionismo|Crítica al excursionismo]] - [[Libellus/_posts/2025-01-27-Hay alternativas a las redes de los oligarcas|2025-01-27-Hay alternativas a las redes de los oligarcas]] - [[Libellus/_versiculi/Haiku III|Haiku III]] - He publicado algunos apuntes sobre la [[Docs/Recursos y técnicas artísticas/Affresco|técnica del fresco]] #artistic_techniques #art - Una reflexión sobre [[Libellus/_posts/2023-05-03-Sísifo|Sísifo]], para contextualizar en algún [[Lecturas/Poesia/Lugar|lugar]], en algún momento #Sisifo #mythology - Le parole parole profetiche di [[Themarium/Pasolini/Pasolini|Pasolini]] in un estratto dell'intervista a Peter Dragadze pubblicata su [Città Pasolini](https://www.cittapasolini.com/post/quasi-un-testamento-pasolini-intervista-dragadze) risultano ora un vero e propio **[[Themarium/Pasolini/Pasolini, Neocapitalismo|manifesto]]** #philosophyOfLand ##### Bibliografía del ahora \u003e [!noteinfo] \u003e Última actualización: 15.02.2026 - [[Themarium/Personæ/Luciano Bianciardi|Bianciardi]], Luciano. *[[Lecturas/Books highlights/La Vita Agra|La vita agra]]*. Feltrinelli, 1962. - Bataille, Georges. *[[Lecturas/Bibliografía/La experiencia interior - Georges Bataille|La experiencia interior - Georges Bataille]]*. El Cuenco de Plata, 2016. - Cabrer, Miquel Àngel. *[Traces de silenci: Les arts del cos, del pinzell i del passeig](https://tresportals.cat/cataleg/traces-de-silenci-les-arts-del-cos-del-pinzell-i-del-passeig/)*. Barcelona: Tres Portals, 2025. - Chilanti, Felice. *[[Lecturas/Bibliografía/Gli ultimi giorni dell'età del pane - Felice Chilanti|Gli ultimi giorni dell’età del pane]]*. Arnoldo Mondadori, 1974. - Forster, Edward Morgan. *[[Lecturas/Bibliografía/The Machine stops - E. M. Forster|La máquina se para]]*. Barcelona: Ediciones El Salmón, 2021. Publicado originalmente en 1909. - Galimberti, Umberto. [[Lecturas/Bibliografía/L'etica del viandante - Umberto Galimberti - Feltrinelli Editore|L'etica del viandante]]. Feltrinelli, 2023. - Han, Byung-Chul. *[[Lecturas/Bibliografía/No-cosas - Byung-Chul Ha|No-cosas - Byung-Chul Ha]]*. Taurus, 2021. - London, Jack. [[Lecturas/Bibliografía/El talón de hierro - Jack London|El talón de hierro]]. Hiru Argitaletxea, 2012. - Moncada, Jesús. *[[Lecturas/Bibliografía/Jesús Moncada, Camí de Sirga|Camí de sirga]]*. 1a ed., Edicions 62, 2010. - Mujica, Hugo. 2018. *La carne y el mármol: Francis Bacon y el arte griego*. Madrid: Vaso Roto Ediciones. - [[Themarium/Pasolini/Pasolini|Pasolini]], Pier Paolo. *[[Themarium/Pasolini/Scritti corsari - Pier Paolo Pasolini|Scritti corsari]]*. Garzanti, 2023. - Ogawa, Yoko. *[[Lecturas/Bibliografía/La Policía de la Memoria - Yoko Ogawa|La policía de la memoria]]*. Translated by J. F. González Sánchez, Tusquets Editores, 1994. - Petrarca, Francesco. *[[Lecturas/Bibliografía/La lettera del Ventoso - Francesco Petrarca|La lettera del ventoso]]*. Tararà Edizioni, 2021. - [[Arte/Artistas/Perejaume|Perejaume]]. *[[Lecturas/Books highlights/Fonts Líquides I Fonts Lignificades|Fonts Líquides i Fonts Lignificades]]*. Primera edició, Tushita edicions, 2020. - Reclus, Élisée. *[[Lecturas/Bibliografía/Historia de un arroyo - Élisée Reclus|Historia de un arroyo]]*. José J. de Olañeta, 2008. - Said, Edward W. *[[Lecturas/Books highlights/Reflexiones sobre el exilio. Ensayos literarios y culturales|Reflexiones sobre el exilio. Ensayos literarios y culturales]]*. Debate, 2005. - Sales, Joan. *[[Lecturas/Bibliografía/Incerta glòria - Joan Sales|Incerta glòria]]*. 15a edició, Club Editor, 2014. - Solnit, Rebecca. *[[Lecturas/Bibliografía/Wanderlust. Una historia del caminar|Wanderlust]]: Una historia del caminar*. Capitán Swing, 2015. - Vernet, Roser. *[[Lecturas/Bibliografía/Lo mig del món - Roser Vernet|Lo mig del món]]*. Barcelona: Club Editor, 2023. [^1]: «Notas sobre el ahora» forma parte del [[Themarium/Tiempo/The now page movement|directorio de páginas “Now”]], popularizado por Derek Sivers en 2015.",
   "url": "https://lab.marconoris.com/now"
 }
 ```
@@ -6819,7 +6819,7 @@ The local graph on note pages now follows the [Obsidian Publish layout](https://
 
 **Styling**:
 - Compact **250px** height (matches the reference canvas)
-- No inner padding — canvas fills the box
+- No inner padding - canvas fills the box
 - Overlay icon buttons like Publish
 
 **Behavior**:
@@ -6827,7 +6827,7 @@ The local graph on note pages now follows the [Obsidian Publish layout](https://
 - Global icon links to the full graph page
 - JS recognizes both `.graph-view` and the old `.notes-graph` selectors
 
-Open any linked note (e.g. `/notes/getting-started/`) to see it. Hard refresh if the layout looks stale. The full `/notes/graph/` page is unchanged — still has search, filters, and the larger toolbar.
+Open any linked note (e.g. `/notes/getting-started/`) to see it. Hard refresh if the layout looks stale. The full `/notes/graph/` page is unchanged - still has search, filters, and the larger toolbar.
 
 ---
 
@@ -7129,9 +7129,9 @@ _**Agent (default)**_
 
 Two fixes:
 
-**Crisp labels** — Labels were inside the zoom-scaled world container, so Pixi rasterized them and then scaled again (blurry). They now render on a separate layer at a fixed **11px screen size** (12px when focused), positioned with `worldToScreen`, at **device pixel ratio** resolution.
+**Crisp labels** - Labels were inside the zoom-scaled world container, so Pixi rasterized them and then scaled again (blurry). They now render on a separate layer at a fixed **11px screen size** (12px when focused), positioned with `worldToScreen`, at **device pixel ratio** resolution.
 
-**Node size ∝ connections** — Radius now uses **actual link count in the current graph** (not the old capped `Math.min(7, …)` formula):
+**Node size ∝ connections** - Radius now uses **actual link count in the current graph** (not the old capped `Math.min(7, …)` formula):
 
 ```javascript
 3 + √(links) × 1.25   // clamped between 3.5px and 14px
@@ -7681,7 +7681,7 @@ Labels were inheriting the faint node dot color (`--color-ink-faint`), which was
 - **Font** bumped to 12px (13px when focused), weight 500
 - **Theme toggle** refreshes label colors when dark/light mode switches
 
-Hard refresh and check light mode — labels should read clearly now.
+Hard refresh and check light mode - labels should read clearly now.
 
 ---
 
@@ -8110,41 +8110,41 @@ The graph already uses a custom force-directed simulation. It settles automatica
 
 _**Agent (default)**_
 
-**Yes — you're already using a force layout.** The graph isn't manually positioned; it runs a custom force-directed simulation in `notes-graph.js` (Obsidian Publish-style, not D3).
+**Yes - you're already using a force layout.** The graph isn't manually positioned; it runs a custom force-directed simulation in `notes-graph.js` (Obsidian Publish-style, not D3).
 
 ## How it works today
 
-1. **Initial layout** — nodes start at random positions, then ~240 ticks of force simulation settle them:
+1. **Initial layout** - nodes start at random positions, then ~240 ticks of force simulation settle them:
    - **Link springs** pull connected notes together (~120px target distance)
    - **Repulsion** pushes nodes apart
    - **Center gravity** keeps the cluster on screen
 
-2. **After settle** — unless `prefers-reduced-motion` is on, the sim keeps running at low alpha so the graph gently moves when you drag nodes.
+2. **After settle** - unless `prefers-reduced-motion` is on, the sim keeps running at low alpha so the graph gently moves when you drag nodes.
 
 3. **Presentation-ish modes you already have**
-   - **Full screen** (↗ arrow) — good for showing the live force layout to an audience
-   - **Reset** on `/notes/graph/` — re-runs force layout from scratch
-   - **Reduced motion** — skips ongoing animation; layout is still force-computed, then frozen
+   - **Full screen** (↗ arrow) - good for showing the live force layout to an audience
+   - **Reset** on `/notes/graph/` - re-runs force layout from scratch
+   - **Reduced motion** - skips ongoing animation; layout is still force-computed, then frozen
 
 ## If you mean "present" as in demo / talk
 
 | Approach | What you get |
 |----------|----------------|
-| Full screen + wait ~2s | Nodes settle organically on screen — nice for live demos |
+| Full screen + wait ~2s | Nodes settle organically on screen - nice for live demos |
 | Reset → full screen | Fresh force layout each time |
-| `prefers-reduced-motion: reduce` | Static force layout (no drift) — cleaner for screenshots |
+| `prefers-reduced-motion: reduce` | Static force layout (no drift) - cleaner for screenshots |
 
 ## If you mean a different layout engine
 
-You *could* swap in **d3-force** or **ngraph** for Barnes–Hut scaling on huge graphs, but that's a library change — not required for "force layout" itself, which you already have.
+You *could* swap in **d3-force** or **ngraph** for Barnes–Hut scaling on huge graphs, but that's a library change - not required for "force layout" itself, which you already have.
 
 ## What we could add (if you want)
 
-- **"Present" mode** — full screen + longer settle + optional slow spin/zoom to center
-- **Layout toggle** — force vs radial-from-focus (rings around the current note)
-- **Freeze after settle** — stop drift once stable (good for talks without reduced-motion)
+- **"Present" mode** - full screen + longer settle + optional slow spin/zoom to center
+- **Layout toggle** - force vs radial-from-focus (rings around the current note)
+- **Freeze after settle** - stop drift once stable (good for talks without reduced-motion)
 
-If you say which you want — live animated demo, static snapshot, or radial around one note — we can wire that up.
+If you say which you want - live animated demo, static snapshot, or radial around one note - we can wire that up.
 
 ---
 
@@ -8156,14 +8156,14 @@ what is the present mode?
 
 _**Agent (default)**_
 
-**Present mode isn’t implemented** — it was something I suggested we could add.
+**Present mode isn’t implemented** - it was something I suggested we could add.
 
 Right now you have:
 
-- **Force layout** (always) — nodes settle via the simulation
-- **Full screen** (↗) — graph fills the viewport
-- **Reset** — reruns layout from scratch
-- **Reduced motion** — force layout runs once, then stops animating
+- **Force layout** (always) - nodes settle via the simulation
+- **Full screen** (↗) - graph fills the viewport
+- **Reset** - reruns layout from scratch
+- **Reduced motion** - force layout runs once, then stops animating
 
 **Present mode** would be a dedicated “show this to someone” state, something like:
 
@@ -8171,7 +8171,7 @@ Right now you have:
 2. **Re-settle** the force layout (maybe with more iterations so it looks smooth)
 3. **Hold the camera** on the focus node or the whole graph
 4. Optionally **stop drift** after settle so nodes don’t keep wiggling during a talk
-5. Maybe a **slow zoom/pan** intro — optional polish
+5. Maybe a **slow zoom/pan** intro - optional polish
 
 So: full screen + controlled force layout + stable framing, tuned for demos instead of everyday browsing.
 
@@ -9077,11 +9077,11 @@ _**Agent (default)**_
 Present mode is wired up. The ↗ button on local graphs and the ⤢ button on `/notes/graph/` now enter it.
 
 **What happens when you click Present**
-1. **Full screen** — local graph fills the viewport; the global graph page keeps the toolbar and expands the canvas below it
-2. **Force re-settle** — nodes get fresh positions and run **520 iterations** (360 with reduced motion) so the layout looks clean before you talk
-3. **Frame** — camera fits the focus node (local) or the full graph (global)
-4. **Zoom intro** — a short ease-in from slightly zoomed out (skipped if reduced motion is on)
-5. **Freeze** — simulation stops (`simAlpha = 0`) so nothing drifts during a demo
+1. **Full screen** - local graph fills the viewport; the global graph page keeps the toolbar and expands the canvas below it
+2. **Force re-settle** - nodes get fresh positions and run **520 iterations** (360 with reduced motion) so the layout looks clean before you talk
+3. **Frame** - camera fits the focus node (local) or the full graph (global)
+4. **Zoom intro** - a short ease-in from slightly zoomed out (skipped if reduced motion is on)
+5. **Freeze** - simulation stops (`simAlpha = 0`) so nothing drifts during a demo
 
 **While presenting**
 - Pan and zoom still work
@@ -9395,8 +9395,8 @@ _**Agent (default)**_
 The global graph page now matches the local graph:
 
 - **↗ corner button** on the canvas (same icon and placement)
-- **Toolbar ⤢ button** still works too — both enter present mode
-- **Full-viewport present mode** — the graph fills the screen; toolbar stays on the page behind it
+- **Toolbar ⤢ button** still works too - both enter present mode
+- **Full-viewport present mode** - the graph fills the screen; toolbar stays on the page behind it
 
 Hard refresh `/notes/graph/` to pick up the changes.
 
@@ -11658,14 +11658,14 @@ _**Agent (default)**_
 
 Cache busting now applies to **all** CSS and JS through Hugo’s asset pipeline, in both dev and production.
 
-**New shared partial** — `layouts/_partials/essentials/publish-asset.html`  
+**New shared partial** - `layouts/_partials/essentials/publish-asset.html`  
 Fingerprints every resource with a content hash (`filename.<hash>.js/css`). Minifies in production only.
 
 **Updated / overridden**
-- `fingerprint-asset.html` — page scripts (`notes-graph.js`, etc.)
-- `script.html` — main + lazy JS bundles
-- `style.html` — main + lazy CSS bundles
-- `self-hosted-fonts.html` — font CSS bundle
+- `fingerprint-asset.html` - page scripts (`notes-graph.js`, etc.)
+- `script.html` - main + lazy JS bundles
+- `style.html` - main + lazy CSS bundles
+- `self-hosted-fonts.html` - font CSS bundle
 
 **Also**
 - Added a Hugo build cachebuster for `assets/js/**/*.js`
@@ -11676,7 +11676,7 @@ Fingerprints every resource with a content hash (`filename.<hash>.js/css`). Mini
 - `/js/script.min.<hash>.js`
 - `/js/notes-graph.min.<hash>.js`
 
-These pair with your existing `static/_headers` 1-year immutable cache on `/css/*` and `/js/*` — safe because the hash changes whenever file content changes.
+These pair with your existing `static/_headers` 1-year immutable cache on `/css/*` and `/js/*` - safe because the hash changes whenever file content changes.
 
 Hard refresh once after deploy; future updates will load automatically when the hash changes.
 
@@ -12331,11 +12331,11 @@ _**Agent (default)**_
 
 Fixed the graph page present mode. Two issues were blocking it:
 
-1. **CSS override** — On `/notes/graph/`, the expanded graph height (`min(78vh, 48rem)`) was beating the present-mode rules, so the canvas only filled part of the screen and looked off-center. Added a higher-specificity override so present mode always uses full height.
+1. **CSS override** - On `/notes/graph/`, the expanded graph height (`min(78vh, 48rem)`) was beating the present-mode rules, so the canvas only filled part of the screen and looked off-center. Added a higher-specificity override so present mode always uses full height.
 
-2. **Layout trap** — The graph lived inside `.container > .row > .lg:col-10`, so `position: fixed` was tied to that column instead of the viewport. Present mode now **moves the graph container to `document.body`** on enter and puts it back on exit (same pattern as a lightbox).
+2. **Layout trap** - The graph lived inside `.container > .row > .lg:col-10`, so `position: fixed` was tied to that column instead of the viewport. Present mode now **moves the graph container to `document.body`** on enter and puts it back on exit (same pattern as a lightbox).
 
-Hard refresh `/notes/graph/` and try present mode again — ↗ on the canvas or ⤢ in the toolbar. Escape or the same button exits.
+Hard refresh `/notes/graph/` and try present mode again - ↗ on the canvas or ⤢ in the toolbar. Escape or the same button exits.
 
 ---
 
@@ -12514,7 +12514,7 @@ _**Agent (default)**_
 
 Leaving present mode on `/notes/graph/` now runs the same reset as the Reset button: clears search, re-lays out nodes, settles the force sim, and re-frames the view.
 
-Local note graphs are unchanged — exiting present mode only re-fits the view there. Hard refresh to pick up the update.
+Local note graphs are unchanged - exiting present mode only re-fits the view there. Hard refresh to pick up the update.
 
 ---
 
@@ -12604,7 +12604,7 @@ _**Agent (default)**_
 
 When you exit present mode on a single note page, the local graph now re-settles and frames on the **main node** (the current note).
 
-It clears hover back to that node, re-runs the force layout for the inline canvas size, and calls `fitToView` with focus-centering — same behavior as the initial local graph load. Search and filters are left as-is.
+It clears hover back to that node, re-runs the force layout for the inline canvas size, and calls `fitToView` with focus-centering - same behavior as the initial local graph load. Search and filters are left as-is.
 
 Hard refresh a note page to pick up the change.
 
@@ -13120,7 +13120,7 @@ _**Agent (default)**_
 
 _**Agent (default)**_
 
-Adding the PixiJS CSP-safe polyfill import — the site blocks `unsafe-eval`, which Pixi needs by default.
+Adding the PixiJS CSP-safe polyfill import - the site blocks `unsafe-eval`, which Pixi needs by default.
 
 
 _**Agent (default)**_
@@ -13267,16 +13267,16 @@ I have a clear answer about whether PixiJS is self-hosted.</details></think>
 
 _**Agent (default)**_
 
-Yes. PixiJS is **self-hosted** on your site — nothing is loaded from a CDN at runtime.
+Yes. PixiJS is **self-hosted** on your site - nothing is loaded from a CDN at runtime.
 
 How it works:
 
-1. **npm dependency** — `pixi.js` is in `package.json` and installed to `node_modules` at build time.
-2. **Bundled at build** — `assets/js/notes-graph.js` imports Pixi (plus `pixi.js/unsafe-eval`), and Hugo’s `js.Build` (esbuild) inlines it into one script.
-3. **Served from your domain** — the output is a fingerprinted file like `/js/notes-graph.min.<hash>.js` on jorap.com, with SRI and your long-cache headers.
-4. **Page-scoped** — that bundle is only included on graph pages (note singles with a local graph and `/notes/graph/`), not on every page.
+1. **npm dependency** - `pixi.js` is in `package.json` and installed to `node_modules` at build time.
+2. **Bundled at build** - `assets/js/notes-graph.js` imports Pixi (plus `pixi.js/unsafe-eval`), and Hugo’s `js.Build` (esbuild) inlines it into one script.
+3. **Served from your domain** - the output is a fingerprinted file like `/js/notes-graph.min.<hash>.js` on jorap.com, with SRI and your long-cache headers.
+4. **Page-scoped** - that bundle is only included on graph pages (note singles with a local graph and `/notes/graph/`), not on every page.
 
-So Pixi runs entirely from your origin, same as your main CSS/JS bundles — no third-party script host for the library itself.
+So Pixi runs entirely from your origin, same as your main CSS/JS bundles - no third-party script host for the library itself.
 
 ---
 
@@ -13517,9 +13517,9 @@ _**Agent (default)**_
 
 Done. Two updates:
 
-**Single note graph** — ↗ (present) and the global graph link sit in the **upper right** of the local graph canvas (same spacing as before, just moved from the bottom).
+**Single note graph** - ↗ (present) and the global graph link sit in the **upper right** of the local graph canvas (same spacing as before, just moved from the bottom).
 
-**Global graph page** (`/notes/graph/`) — opens in **present mode immediately** on load: full viewport, force layout settles, graph frames. Escape or ↗ exits; exiting still runs reset like before.
+**Global graph page** (`/notes/graph/`) - opens in **present mode immediately** on load: full viewport, force layout settles, graph frames. Escape or ↗ exits; exiting still runs reset like before.
 
 Hard refresh to pick up the changes.
 
@@ -13805,7 +13805,7 @@ I will add a `graph-icons-top` class to the fullscreen root via JavaScript insid
 
 _**Agent (default)**_
 
-Checking compiled CSS and fixing positioning — icons may lose the local-panel selector when the container is moved to `body` in present mode.
+Checking compiled CSS and fixing positioning - icons may lose the local-panel selector when the container is moved to `body` in present mode.
 
 
 _**Agent (default)**_
@@ -14053,8 +14053,8 @@ _**Agent (default)**_
 
 Fixed. Present mode was breaking icon placement in two ways:
 
-1. **Reparenting to `body`** — the local graph lost the `.notes-graph-panel--local` selector, so top positioning stopped applying.
-2. **Cascade** — the base `.graph-icon { bottom: … }` rule could still win in some cases.
+1. **Reparenting to `body`** - the local graph lost the `.notes-graph-panel--local` selector, so top positioning stopped applying.
+2. **Cascade** - the base `.graph-icon { bottom: … }` rule could still win in some cases.
 
 **Changes:**
 - Icons default to **top** (not bottom) everywhere
@@ -14146,8 +14146,8 @@ _**Agent (default)**_
 
 The global graph page now shows the same fork icon in the upper right as note pages, dimmed to show you’re already on the global graph.
 
-- **↗** — present mode (active)
-- **⎇** — global graph (dimmed, non-clickable, `aria-current="page"`)
+- **↗** - present mode (active)
+- **⎇** - global graph (dimmed, non-clickable, `aria-current="page"`)
 
 Hard refresh `/notes/graph/` to see it in inline and fullscreen views.
 
@@ -14295,7 +14295,7 @@ How it works:
 
 **Ctrl/Cmd-click** still opens a new tab without forcing present mode there.
 
-Hard refresh, enter present on a note, tap a linked node — you should land on the new note in fullscreen.
+Hard refresh, enter present on a note, tap a linked node - you should land on the new note in fullscreen.
 
 ---
 

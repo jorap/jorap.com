@@ -143,8 +143,8 @@ The polish workflow is loaded from the reference: **discovery against the design
 
 ### Missing inputs (polish reference)
 
-1. **Target** — What should be polished? (e.g. whole site, header/nav, blog single, footer, a specific page.) You invoked polish **without a target**.
-2. **Quality bar** — The reference calls this out: **MVP vs flagship** changes how deep we go and what we ship now vs later.
+1. **Target** - What should be polished? (e.g. whole site, header/nav, blog single, footer, a specific page.) You invoked polish **without a target**.
+2. **Quality bar** - The reference calls this out: **MVP vs flagship** changes how deep we go and what we ship now vs later.
 
 ### Design system in this repo (discovery snapshot)
 
@@ -297,11 +297,11 @@ What’s **not** decided from code: your intended **voice**, **anti-patterns**, 
 
 ## Round 1 (answer these, then I’ll draft `PRODUCT.md`)
 
-1. **Register** — From the codebase, the primary surface looks like **`brand`** (blog/portfolio; design *is* the product). Should **`PRODUCT.md`** default to **`brand`**, or do you want **`product`** (e.g. you mainly treat the site as infrastructure for your own workflow)?
+1. **Register** - From the codebase, the primary surface looks like **`brand`** (blog/portfolio; design *is* the product). Should **`PRODUCT.md`** default to **`brand`**, or do you want **`product`** (e.g. you mainly treat the site as infrastructure for your own workflow)?
 
-2. **Users & purpose** — Who is the **primary** visitor you care about (e.g. hiring managers, dev peers, students, clients), and what should a **typical** visit achieve for them?
+2. **Users & purpose** - Who is the **primary** visitor you care about (e.g. hiring managers, dev peers, students, clients), and what should a **typical** visit achieve for them?
 
-3. **Personality & guardrails** — In **three words**, how should the site feel? Name **one** anti-reference: a cliché, competitor look, or “template” vibe this site should **not** echo.
+3. **Personality & guardrails** - In **three words**, how should the site feel? Name **one** anti-reference: a cliché, competitor look, or “template” vibe this site should **not** echo.
 
 Reply with short answers; after that I’ll write **`PRODUCT.md`** to the project root, re-run **`load-context.mjs`**, and point you at **`/impeccable document`** for **`DESIGN.md`** when you’re ready.
 
@@ -415,11 +415,11 @@ Here is what **`/impeccable teach`** completed.
 
 ## Strategic principles (what future work should follow)
 
-1. **Ideas before optics** — UI supports the message; no decoration that fights clarity or trust.  
-2. **Professional is the baseline** — Calm hierarchy and restraint, suitable for a client skim.  
-3. **Credibility through restraint** — Judgment in what you show and skip.  
-4. **Speak to buyers, not only builders** — Depth when it supports decisions, not as default posture.  
-5. **Consistency builds trust** — One deliberate practice across nav, tone, and rhythm.
+1. **Ideas before optics** - UI supports the message; no decoration that fights clarity or trust.  
+2. **Professional is the baseline** - Calm hierarchy and restraint, suitable for a client skim.  
+3. **Credibility through restraint** - Judgment in what you show and skip.  
+4. **Speak to buyers, not only builders** - Depth when it supports decisions, not as default posture.  
+5. **Consistency builds trust** - One deliberate practice across nav, tone, and rhythm.
 
 Your positioning is captured as **client-facing, idea-led, and professional**, with explicit anti-references for **performative “nerd” energy**, **generic SaaS sameness**, and **chaotic personal brand**.
 
@@ -886,7 +886,7 @@ Parameters:
 {
   "caseInsensitive": false,
   "path": "/Users/jonathanrapusas/Documents/GitHub/jorap.com/DESIGN.md",
-  "pattern": "—"
+  "pattern": "-"
 }
 ```
 Additional data:
@@ -896,7 +896,7 @@ Additional data:
   "isPruned": true,
   "outputMode": "content",
   "path": "/Users/jonathanrapusas/Documents/GitHub/jorap.com/DESIGN.md",
-  "pattern": "—",
+  "pattern": "-",
   "topFiles": [],
   "totalFiles": 0,
   "totalMatches": 0

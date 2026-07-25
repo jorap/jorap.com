@@ -1118,7 +1118,7 @@ _**Agent (auto-low)**_
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Checking additional recent blogs—extension cord, one-page zine, sustainable publishing, and wireless earphones—to identify notes that could bridge better.
+Checking additional recent blogs-extension cord, one-page zine, sustainable publishing, and wireless earphones-to identify notes that could bridge better.
 
 Also checking specstory history for prior answers to this exact question.
 </details></think>
@@ -1324,7 +1324,7 @@ Additional recent drafts include alex-eala-pro-career-tracker, sustainable-onlin
 
 _**Agent (auto-low)**_
 
-Yes — several recent posts carry atomic claims that aren’t in the garden yet, or only touch existing notes lightly. Most posts already bridge well via `related_notes`; the gaps are **new one-claim pages**, not more blog links.
+Yes - several recent posts carry atomic claims that aren’t in the garden yet, or only touch existing notes lightly. Most posts already bridge well via `related_notes`; the gaps are **new one-claim pages**, not more blog links.
 
 ## Strong candidates (worth new notes)
 
@@ -1333,7 +1333,7 @@ From [Consistent AI Output for WordPress Builds](/blog/consistent-ai-output-word
 
 Claim: don’t ask AI for one-off features; name what repeats, build helpers + reference examples + house rules, then stack every task on that 80% layer.
 
-`building-a-personal-api` is close (structured context for tools), but this post’s move is different: **consistency over speed**. A note like *Build the Repeating Layer First* would pair well — `implements` → [[Building a Personal API]], `extends` → [[Standard Operating Procedures]].
+`building-a-personal-api` is close (structured context for tools), but this post’s move is different: **consistency over speed**. A note like *Build the Repeating Layer First* would pair well - `implements` → [[Building a Personal API]], `extends` → [[Standard Operating Procedures]].
 
 **2. Separate risk by device**  
 From [2nd Cellphone](/blog/second-cellphone/) (draft).
@@ -1359,7 +1359,7 @@ The garden has almost no parenting/education spine. This generalizes beyond kids
 **5. Stop while there’s still gas**  
 Same Kumon post, principle 1.
 
-Claim: end while they still want to come back — tired face = done.
+Claim: end while they still want to come back - tired face = done.
 
 Overlaps [[Minimum Effective Dose]] and [[Habit Formation]], but the **motivation** angle is distinct enough to be its own note or a flashcard deck on an existing habit note.
 
@@ -1381,17 +1381,17 @@ Overlaps [[Minimum Effective Dose]] and [[Habit Formation]], but the **motivatio
 
 ## Probably skip (blog is the right shape)
 
-- [Interesting Facts About JoRap](/blog/__interesting-facts-about-jorap/) — biography, not a reusable claim  
-- [Alex Eala Tracker](/blog/alex-eala-pro-career-tracker/) — living reference doc  
-- [JoRap Notes Features](/blog/__jorap-notes-features/) — product tour; garden *is* the product  
+- [Interesting Facts About JoRap](/blog/__interesting-facts-about-jorap/) - biography, not a reusable claim  
+- [Alex Eala Tracker](/blog/alex-eala-pro-career-tracker/) - living reference doc  
+- [JoRap Notes Features](/blog/__jorap-notes-features/) - product tour; garden *is* the product  
 
 ---
 
 ## If I were picking three to write first
 
-1. **Build the Repeating Layer First** — clearest gap, strong work/PKM fit, flashcard-friendly  
-2. **Separate Risk by Device** — practical, distinct from existing safety notes  
-3. **Rent the Rep Layer** — opens a parenting lane the garden doesn’t have yet  
+1. **Build the Repeating Layer First** - clearest gap, strong work/PKM fit, flashcard-friendly  
+2. **Separate Risk by Device** - practical, distinct from existing safety notes  
+3. **Rent the Rep Layer** - opens a parenting lane the garden doesn’t have yet  
 
 Honorable mention: **Strip to Test the Core** if you want more design/game notes beside [[Practice Small Experiments]].
 
@@ -1453,7 +1453,7 @@ _**Agent (auto-low)**_
 
 The repo scan finished. Recent blog activity clusters around **Jul 14–16**: published posts like Hanamikoji/Duopoly, DNPAP, and the 1-page zine; drafts touched the same week include Grade 1/Kumon, Inter font, Obsidian vs Hugo, and second cellphone.
 
-That lines up with the note candidates from earlier — **Build the Repeating Layer First**, **Separate Risk by Device**, and **Rent the Rep Layer** are still the strongest gaps. Say which ones you want drafted and I can write them.
+That lines up with the note candidates from earlier - **Build the Repeating Layer First**, **Separate Risk by Device**, and **Rent the Rep Layer** are still the strongest gaps. Say which ones you want drafted and I can write them.
 
 ---
 
@@ -1482,7 +1482,7 @@ Reading the garden-voice skill and current note files to prepare the edits. Veri
 
 _**Agent (auto-low)**_
 
-I'll strengthen the existing notes with bridge content from those posts — examples, shareable thoughts, and relationships — instead of creating new pages.
+I'll strengthen the existing notes with bridge content from those posts - examples, shareable thoughts, and relationships - instead of creating new pages.
 
 
 _**Agent (auto-low)**_
@@ -1798,14 +1798,14 @@ The 18 remaining failures are pre-existing. The changes pass lint.
 
 _**Agent (auto-low)**_
 
-Updated five existing notes to bridge recent blog posts — no new pages:
+Updated five existing notes to bridge recent blog posts - no new pages:
 
 | Note | Bridge from |
 |------|-------------|
-| **Information Diet** | Facebook Favorites — finite feed example + flashcard |
-| **The Garage Concept** | Obsidian vs Hugo — one capture habit, one publish pipe |
-| **Future-Proofing Knowledge** | Open source post — freedom over free in `key_concept`, host-migration example |
-| **Build a Reliable Default** | Inter font — pick once, stop reopening; `extends` → Minimum Effective Dose |
-| **Metadata Strategy** | Markdown deep dive — frontmatter vs body split |
+| **Information Diet** | Facebook Favorites - finite feed example + flashcard |
+| **The Garage Concept** | Obsidian vs Hugo - one capture habit, one publish pipe |
+| **Future-Proofing Knowledge** | Open source post - freedom over free in `key_concept`, host-migration example |
+| **Build a Reliable Default** | Inter font - pick once, stop reopening; `extends` → Minimum Effective Dose |
+| **Metadata Strategy** | Markdown deep dive - frontmatter vs body split |
 
-DNPAP and worship pads were left alone — resource/how-to posts, faith notes already linked.
+DNPAP and worship pads were left alone - resource/how-to posts, faith notes already linked.

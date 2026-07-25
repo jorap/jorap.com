@@ -317,7 +317,7 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Starting edits on the 14 remaining PKM notes. The main focus is fixing shareable_thought frontmatter fields. Key_concept duplicates and description or example issues will also be corrected.
 
-Reviewing recently fixed notes to match the established shareable_thought pattern. The four angles—definition, move, boundary, payoff—must be distinct and free of copy-paste from existing content.
+Reviewing recently fixed notes to match the established shareable_thought pattern. The four angles-definition, move, boundary, payoff-must be distinct and free of copy-paste from existing content.
 
 Auditing the first two files. building-a-personal-api.md needs its shareable_thought rewritten because it copies key_concept almost verbatim; key_concept contains a contraction and duplicate lines. commonplace-book.md also copies description and key_concept. Both will receive fresh shareable_thought angles.
 

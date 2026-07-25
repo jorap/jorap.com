@@ -36,7 +36,7 @@ _**Agent (copilot/auto)**_
 
 **Input:**
 
-- questions: `[map[allowFreeformInput:true header:Update Details options:[] question:Which latest results or sections should be updated—new tournaments, Grand Slams, rankings, or match records? Please provide specifics or links if available.]]`
+- questions: `[map[allowFreeformInput:true header:Update Details options:[] question:Which latest results or sections should be updated-new tournaments, Grand Slams, rankings, or match records? Please provide specifics or links if available.]]`
 
 **Result:**
 

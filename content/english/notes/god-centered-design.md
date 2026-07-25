@@ -79,7 +79,7 @@ cards:
     back: "Who does this schedule ultimately serve?"
   - front: "Side project feels like my kingdom now. Steward reframe?"
     back: "Borrowed platform - faithful use, not my brand."
-  - front: "I'm people-pleasing the room instead of obeying God. Which design wins?"
+  - front: "People-pleasing the room instead of obeying God - room sets the aim."
     back: "God's reign sets the aim - neighbor-love follows that order."
   - front: "Tuesday calendar full before Scripture opened. Kingdom-first move?"
     back: "Design the week around God's glory - then sort the rest."

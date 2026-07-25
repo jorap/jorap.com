@@ -753,7 +753,7 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The request lacks specificity. I need more details about the project, scope, and intended audience before drafting the specifications.
 
-Recent context suggests the user wants a comprehensive platform specification for JoRap Notes. This would complement existing design documents and the OKF comparison. The exact scope—whether for the entire product or a specific feature—remains unclear.
+Recent context suggests the user wants a comprehensive platform specification for JoRap Notes. This would complement existing design documents and the OKF comparison. The exact scope-whether for the entire product or a specific feature-remains unclear.
 </details></think>
 
 _**Agent (auto-low)**_
@@ -1031,21 +1031,21 @@ _**Agent (auto-low)**_
 
 _**Agent (auto-low)**_
 
-Created **`docs/SPEC.md`** — the canonical platform specification for JoRap Notes — and linked it from `docs/README.md`.
+Created **`docs/SPEC.md`** - the canonical platform specification for JoRap Notes - and linked it from `docs/README.md`.
 
 ### What it covers
 
-1. **Purpose & users** — client credibility, readers, author, agents/LLMs  
-2. **Prioritized scenarios** — P1 client skim through P6 agent handoff, each with acceptance criteria  
-3. **Architecture** — static Hugo stack, repo layout, environments  
-4. **Content surfaces** — blog, pages, notes garden, CMS  
-5. **Notes garden spec** — `note_kind`, frontmatter schema, relationship types, linking rules, tool surfaces, flashcards, OKF export  
-6. **Functional requirements** — numbered FR-001 through FR-306  
-7. **Non-functional requirements** — performance, a11y, security, compatibility, maintainability  
-8. **Visual/voice constraints** — points to `PRODUCT.md` and `DESIGN.md`  
-9. **Deploy & operations** — commands, Cloudflare, git hooks  
-10. **Out of scope** — accounts, e-commerce, PWA, etc.  
-11. **Success criteria** — measurable SC-001 through SC-008  
+1. **Purpose & users** - client credibility, readers, author, agents/LLMs  
+2. **Prioritized scenarios** - P1 client skim through P6 agent handoff, each with acceptance criteria  
+3. **Architecture** - static Hugo stack, repo layout, environments  
+4. **Content surfaces** - blog, pages, notes garden, CMS  
+5. **Notes garden spec** - `note_kind`, frontmatter schema, relationship types, linking rules, tool surfaces, flashcards, OKF export  
+6. **Functional requirements** - numbered FR-001 through FR-306  
+7. **Non-functional requirements** - performance, a11y, security, compatibility, maintainability  
+8. **Visual/voice constraints** - points to `PRODUCT.md` and `DESIGN.md`  
+9. **Deploy & operations** - commands, Cloudflare, git hooks  
+10. **Out of scope** - accounts, e-commerce, PWA, etc.  
+11. **Success criteria** - measurable SC-001 through SC-008  
 12. **Assumptions & revision history**
 
 It follows the speckit template spirit (user scenarios, requirements, success criteria) but is scoped to the **whole platform**, not a single feature branch. Companion docs (`PRODUCT.md`, `DESIGN.md`, constitution) stay the source of truth for voice and visuals; `SPEC.md` references them instead of duplicating.
@@ -1295,17 +1295,17 @@ Created the feature-specific speckit spec for **site search** (the example from 
 | Path | Purpose |
 | --- | --- |
 | `specs/001-site-search/spec.md` | User stories (P1–P2), 11 functional requirements, success criteria, edge cases |
-| `specs/001-site-search/checklists/requirements.md` | Quality checklist — all items pass; ready for plan/implement |
+| `specs/001-site-search/checklists/requirements.md` | Quality checklist - all items pass; ready for plan/implement |
 
 ### Also updated
 
-- `docs/README.md` — links to `specs/`
-- `docs/SPEC.md` — companion table includes `specs/`
+- `docs/README.md` - links to `specs/`
+- `docs/SPEC.md` - companion table includes `specs/`
 
 The search spec reflects what’s already shipped (including the `jsonify` fix for invalid `searchindex.json`) and frames ongoing requirements around `test-search.mjs`, ranking, and keyboard/mobile flows.
 
 **Next steps in speckit workflow:**
-- `/speckit.plan` — implementation plan from this spec
-- `/speckit.implement` — execute tasks
+- `/speckit.plan` - implementation plan from this spec
+- `/speckit.implement` - execute tasks
 
 If you meant a **different feature** (newsletter, Core Web Vitals, etc.) or wanted me to **commit** the docs, say which and I’ll do that instead.

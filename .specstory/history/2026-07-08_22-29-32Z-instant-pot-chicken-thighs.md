@@ -270,13 +270,13 @@ _**Agent (auto-low)**_
 
 Updated both posts to match how you actually cook now.
 
-**`set-it-forget-it-arroz-caldo.md`** — reframed as the old method:
+**`set-it-forget-it-arroz-caldo.md`** - reframed as the old method:
 - Opening is past tense; links to the [Instant Pot version](/blog/instant-pot-arroz-caldo/) up front
 - Notes the switch: bigger batch, faster, and boneless thigh fillets aren't reliably at your supermarket
 - Thigh fillet tip softened to "when you can find them"
 - Closing points to the Instant Pot as what you make now
 
-**`instant-pot-arroz-caldo.md`** — drumstick choice now includes the grocery reality:
+**`instant-pot-arroz-caldo.md`** - drumstick choice now includes the grocery reality:
 - Supermarket stocking is part of why drumsticks, not just collagen under pressure
 
-The rice cooker post stays useful as a smaller-batch reference for anyone with a congee setting. The Instant Pot post is still `draft: true` — say if you want that published.
+The rice cooker post stays useful as a smaller-batch reference for anyone with a congee setting. The Instant Pot post is still `draft: true` - say if you want that published.

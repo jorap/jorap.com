@@ -49,6 +49,14 @@ cards:
     back: "Classic sunk cost, not future value on the court"
   - front: "Kept the gym membership because \"I already paid\". What's the move?"
     back: "Classic sunk cost, not future value"
+  - front: "Auto-renew hit again - forgot I meant to cancel last month."
+    back: "List what it costs next month - not what I paid."
+  - front: "Flash sale cart full - 'limited time' pounding in my chest."
+    back: "Price if I walked away - not the countdown."
+  - front: "Two quotes on supplies - cheaper one has weird terms."
+    back: "Total cost after fees - not sticker price."
+  - front: "Picked the expensive gym because I already paid January."
+    back: "Cut the membership - sunk money is gone."
 draft: false
 ---
 

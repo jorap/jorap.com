@@ -2,7 +2,7 @@
 
 Common deploy, redirect, CMS, and build issues for JoRap Notes on Cloudflare Pages.
 
-**Canonical URL:** [https://www.jorap.com](https://www.jorap.com) — apex `jorap.com` should 301 to `www` (see [Redirects](#redirects-apex--www)).
+**Canonical URL:** [https://www.jorap.com](https://www.jorap.com) - apex `jorap.com` should 301 to `www` (see [Redirects](#redirects-apex--www)).
 
 ---
 
@@ -14,9 +14,9 @@ Common deploy, redirect, CMS, and build issues for JoRap Notes on Cloudflare Pag
 
 ### Checks
 
-1. **Both domains in Pages** — Workers & Pages → **jorap-com** → **Custom domains** must list `jorap.com` **and** `www.jorap.com`.
-2. **`static/_redirects`** — committed rules must copy to `public/_redirects` after `pnpm run deploy`. JoRap uses `301!` force redirects for apex → www.
-3. **Deploy includes the file** — inspect latest deployment → **Assets** → confirm `_redirects` exists at site root.
+1. **Both domains in Pages** - Workers & Pages → **jorap-com** → **Custom domains** must list `jorap.com` **and** `www.jorap.com`.
+2. **`static/_redirects`** - committed rules must copy to `public/_redirects` after `pnpm run deploy`. JoRap uses `301!` force redirects for apex → www.
+3. **Deploy includes the file** - inspect latest deployment → **Assets** → confirm `_redirects` exists at site root.
 
 ### Fix
 
@@ -40,13 +40,13 @@ CMS login fails; `https://www.jorap.com/api/auth` returns 404.
 ### Quick checks
 
 1. Pages dashboard → **Functions** tab → `api/auth` and `api/callback` listed.
-2. `wrangler.toml` — `[vars].GITHUB_CLIENT_ID` set (not empty).
+2. `wrangler.toml` - `[vars].GITHUB_CLIENT_ID` set (not empty).
 3. Secret `GITHUB_CLIENT_SECRET` set (dashboard or `pnpm exec wrangler pages secret put GITHUB_CLIENT_SECRET --project-name jorap-com`).
 4. Redeploy after credential changes.
 
 ### Test
 
-Visit `https://www.jorap.com/api/auth` — expect a redirect to GitHub with a real `client_id=`, not `undefined`.
+Visit `https://www.jorap.com/api/auth` - expect a redirect to GitHub with a real `client_id=`, not `undefined`.
 
 ### OAuth app URLs (GitHub)
 

@@ -1820,20 +1820,20 @@ Notes like `forgiveness.md`, `abide-in-me.md`, and `eternal-rewards.md` use mult
 
 ### Full verse text without the shortcode (14 instances, 10 files)
 
-These paste NASB text manually with a `NASB1995` suffix. `render-content.html` still styles them, but they bypass the YAML/JSON database — duplicated text, no single source of truth.
+These paste NASB text manually with a `NASB1995` suffix. `render-content.html` still styles them, but they bypass the YAML/JSON database - duplicated text, no single source of truth.
 
 | File | Reference(s) | Has shortcode for other verse? |
 |------|--------------|-------------------------------|
-| `justification.md` | Romans 3:24, 4:5, 5:1 | Yes — Luke 18:14 |
-| `free-grace.md` | Ephesians 2:8-9, 2:10; Romans 4:5 | Yes — John 5:24 |
-| `grace.md` | Ephesians 2:4-5 | Yes — John 3:16 |
-| `mercy.md` | Ephesians 2:4-5 | Yes — Matthew 5:7 |
-| `renewed-mind.md` | Romans 12:1-2 | Yes — John 8:31-32 |
-| `present-a-living-sacrifice.md` | Romans 12:1 | Yes — Matthew 16:24 |
-| `dont-copy-the-pattern.md` | Romans 12:2 | Yes — John 15:19 |
-| `fruits-of-the-spirit.md` | Galatians 5:22-23 | Yes — John 15:8 |
-| `judgment-seat.md` | 1 Corinthians 3:12-15 | Yes — Matthew 16:27 |
-| `loss-of-reward.md` | 1 Corinthians 3:12-15 | Yes — Matthew 25:29 |
+| `justification.md` | Romans 3:24, 4:5, 5:1 | Yes - Luke 18:14 |
+| `free-grace.md` | Ephesians 2:8-9, 2:10; Romans 4:5 | Yes - John 5:24 |
+| `grace.md` | Ephesians 2:4-5 | Yes - John 3:16 |
+| `mercy.md` | Ephesians 2:4-5 | Yes - Matthew 5:7 |
+| `renewed-mind.md` | Romans 12:1-2 | Yes - John 8:31-32 |
+| `present-a-living-sacrifice.md` | Romans 12:1 | Yes - Matthew 16:24 |
+| `dont-copy-the-pattern.md` | Romans 12:2 | Yes - John 15:19 |
+| `fruits-of-the-spirit.md` | Galatians 5:22-23 | Yes - John 15:8 |
+| `judgment-seat.md` | 1 Corinthians 3:12-15 | Yes - Matthew 16:27 |
+| `loss-of-reward.md` | 1 Corinthians 3:12-15 | Yes - Matthew 25:29 |
 
 **Pattern:** Pauline passages are often inline; gospel/Jesus quotes usually use the shortcode. All of these references exist in `data/scripture-nasb1995.json`, so the shortcode should work.
 
@@ -1849,18 +1849,18 @@ These paste NASB text manually with a `NASB1995` suffix. `render-content.html` s
 
 | File | Issue |
 |------|-------|
-| `forgiveness-at-work.md` | Embeds Matthew 18:22 text in prose — no shortcode at all |
-| `gentleness.md` | Partial Matthew 5:5 quote in `shareable_thought` — no shortcode |
+| `forgiveness-at-work.md` | Embeds Matthew 18:22 text in prose - no shortcode at all |
+| `gentleness.md` | Partial Matthew 5:5 quote in `shareable_thought` - no shortcode |
 
 ### Citation-only references (shortcode not required)
 
-These mention refs without quoting full NASB text — fine as-is:
+These mention refs without quoting full NASB text - fine as-is:
 
-- **Fruit sub-notes** (`peace.md`, `joy.md`, `kindness.md`, `patience.md`, `faithfulness.md`, `goodness.md`, `gentleness.md`, `self-control.md`) — parenthetical `(Galatians 5:22)` only
-- **`eternal-principles.md`** — index with short glosses like `(John 3:16)`
-- **Examples / shareable_thought / relationships / flashcards** — paraphrases with parenthetical refs (e.g. `(Matthew 7:13-14)` in `the-narrow-way.md`)
-- **`discern-his-will-daily.md`** — paraphrases Romans 12:2 outcome; John 7:17 already has shortcode
-- **`love-god.md`** — cites Deuteronomy 6:5 as background, not a quoted block
+- **Fruit sub-notes** (`peace.md`, `joy.md`, `kindness.md`, `patience.md`, `faithfulness.md`, `goodness.md`, `gentleness.md`, `self-control.md`) - parenthetical `(Galatians 5:22)` only
+- **`eternal-principles.md`** - index with short glosses like `(John 3:16)`
+- **Examples / shareable_thought / relationships / flashcards** - paraphrases with parenthetical refs (e.g. `(Matthew 7:13-14)` in `the-narrow-way.md`)
+- **`discern-his-will-daily.md`** - paraphrases Romans 12:2 outcome; John 7:17 already has shortcode
+- **`love-god.md`** - cites Deuteronomy 6:5 as background, not a quoted block
 
 ### Duplicate echo text (intentional, low priority)
 
@@ -3557,7 +3557,7 @@ Reviewed all 85 `{{< bible >}}` calls across 54 notes. Widened **42** references
 
 These are single-verse anchors where widening would bury the point:
 
-- **Beatitude fruit notes:** `peacemakers` (5:9), `mercy` (5:7), `gentleness` (5:5) — each names one beatitude; full list lives in `the-beatitudes`
+- **Beatitude fruit notes:** `peacemakers` (5:9), `mercy` (5:7), `gentleness` (5:5) - each names one beatitude; full list lives in `the-beatitudes`
 - **Paired passages kept separate:** `judge-not` (7:1-5 + 7:16-20), `the-narrow-way` / `the-wise-builder` / `faith-and-works` (already use `ref`/`label` for distinct sermon units)
 - **Synoptic parallels:** `love-your-neighbor` keeps Matthew 22:39 + Mark 12:31 alongside widened Luke 10:25-37
 - **Doctrinal stacks:** `justification` / `free-grace` keep separate Paul passages where each verse makes a distinct theological move
@@ -4103,7 +4103,7 @@ Running lint after applying the fixes to verify the results.
 
 _**Agent (auto-low)**_
 
-The linter matches note aliases in rendered text — `Romans 12:1` from the bible shortcode and `blessed are` in peacemakers prose. Adding the wikilinks it expects.
+The linter matches note aliases in rendered text - `Romans 12:1` from the bible shortcode and `blessed are` in peacemakers prose. Adding the wikilinks it expects.
 
 
 _**Agent (auto-low)**_
@@ -4152,9 +4152,9 @@ _**Agent (auto-low)**_
 
 Fixed both garden link issues. `npm run lint:notes` is clean.
 
-**`dont-copy-the-pattern.md`** — The `Romans 12:1-2` shortcode renders a citation containing `Romans 12:1`, which matches the `[[Present a Living Sacrifice]]` alias. Added an explicit wikilink in the commentary so the linter treats it as linked.
+**`dont-copy-the-pattern.md`** - The `Romans 12:1-2` shortcode renders a citation containing `Romans 12:1`, which matches the `[[Present a Living Sacrifice]]` alias. Added an explicit wikilink in the commentary so the linter treats it as linked.
 
-**`peacemakers.md`** — Rewrote the opening line from “Blessed are peacemakers” to “`[[The Beatitudes]]` beatitude for peacemakers” so the `blessed are` alias no longer appears as bare prose.
+**`peacemakers.md`** - Rewrote the opening line from “Blessed are peacemakers” to “`[[The Beatitudes]]` beatitude for peacemakers” so the `blessed are` alias no longer appears as bare prose.
 
 ---
 
@@ -9658,7 +9658,7 @@ _**Agent (auto-low)**_
 
 Fixed. When a gospel verse has `full: false` in the data, the shortcode now shows the **full verse** with narrative in the default text color and only Jesus' spoken words in red.
 
-**Before:** default mode pulled `.words` only and wrapped everything in `jesus-words` — so you lost narrative context.
+**Before:** default mode pulled `.words` only and wrapped everything in `jesus-words` - so you lost narrative context.
 
 **After:** default mode uses pre-marked HTML from `data/bible-red-letter-nasb1995.json`. Example from Matthew 22:15–22:
 
@@ -10215,21 +10215,21 @@ Updated the bible shortcode around your preference: **full context by default**,
 - Gospel red-letter: Jesus' words in red, narrative in normal text
 - Epistles: full verse, no red-letter styling
 
-**New `emphasize` param** — bold a specific verse inside a range:
+**New `emphasize` param** - bold a specific verse inside a range:
 
 ```markdown
 {{< bible ref="Matthew 22:15-22" emphasize="21" >}}
 ```
 
 Forms that work:
-- `emphasize="21"` — verse number within the cited chapter
-- `emphasize="22:21"` — chapter:verse shorthand
-- `emphasize="Matthew 22:21"` — full reference
-- `emphasize="21,35"` — multiple verses
+- `emphasize="21"` - verse number within the cited chapter
+- `emphasize="22:21"` - chapter:verse shorthand
+- `emphasize="Matthew 22:21"` - full reference
+- `emphasize="21,35"` - multiple verses
 
 When mixing named params, use `ref=` (Hugo won't allow positional ref + `emphasize=` together).
 
-**Removed `full`** — it was unused and overlapped with the data's `full` flag. Full context is now always on.
+**Removed `full`** - it was unused and overlapped with the data's `full` flag. Full context is now always on.
 
 Applied on [render-unto-caesar](content/english/notes/render-unto-caesar.md): the full Matthew 22:15–22 exchange, with verse 21 (the Caesar/God line) emphasized.
 
@@ -11573,7 +11573,7 @@ Reviewed all **69** bible shortcodes across **54** notes. Applied `emphasize` on
 
 | Shortcode | Why |
 |-----------|-----|
-| `Matthew 5:3-12` (beatitudes) | Full catalog — every verse matters equally |
+| `Matthew 5:3-12` (beatitudes) | Full catalog - every verse matters equally |
 | `Galatians 5:22-23` | Fruit list is the point |
 | `Matthew 5:5`, `5:7`, `5:9`, `7:12` | Single-verse beatitude / golden rule |
 | `Matthew 22:39`, `Mark 12:31` | Single-verse second command (Luke parable gets `37`) |
@@ -11760,4 +11760,4 @@ A quick change. I'll keep the response brief.
 
 _**Agent (auto-low)**_
 
-Done — the dotted underline now renders at 40% of the current text color, so it stays visible but softer than the verse text.
+Done - the dotted underline now renders at 40% of the current text color, so it stays visible but softer than the verse text.

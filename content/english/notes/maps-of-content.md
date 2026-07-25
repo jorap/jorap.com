@@ -57,6 +57,7 @@ draft: false
 
 ### Distill & review
 
+- [[Reading the Garden]]
 - [[Layered Reading]]
 - [[Weekly Review Checklists]]
 - [[Periodic Knowledge Review]]

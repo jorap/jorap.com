@@ -90,19 +90,19 @@ Hugo is already in the build. For a while it may print **nothing else** until it
 
 **Other plausible causes**
 
-1. **`hugo server`** — If you started the dev server, it **stays running** on purpose. It will look “stuck” after the initial build; that’s normal.
+1. **`hugo server`** - If you started the dev server, it **stays running** on purpose. It will look “stuck” after the initial build; that’s normal.
 
-2. **Module / dependency fetch** — First run or cache miss can pull modules over the network. Slow or blocked network can make that step feel frozen with little output.
+2. **Module / dependency fetch** - First run or cache miss can pull modules over the network. Slow or blocked network can make that step feel frozen with little output.
 
-3. **Image / resource processing** — Pipes that resize or process many images can be slow and quiet until they finish.
+3. **Image / resource processing** - Pipes that resize or process many images can be slow and quiet until they finish.
 
-4. **Very verbose / buffered output** — Less common in Hugo, but combined with a slow step you mostly see the version line for a long time.
+4. **Very verbose / buffered output** - Less common in Hugo, but combined with a slow step you mostly see the version line for a long time.
 
 **What to do**
 
 - Wait a bit longer on a first build or after clearing cache.
 - Run with more signal, e.g. `hugo --log --verbose` (or `--debug` if you need detail) to see which step it’s in.
-- If it’s `hugo server`, check for a line like `Web Server is available at` — that means it’s serving, not hung.
+- If it’s `hugo server`, check for a line like `Web Server is available at` - that means it’s serving, not hung.
 - If it never returns CPU (0% for a long time), that’s more suspicious for a deadlock; if CPU is high, it’s still working.
 
 So: **most likely it’s still building with sparse logging**, or **`hugo server` is waiting for requests**. If you say whether you ran `hugo` or `hugo server` and roughly how big the site is, we can narrow it further.

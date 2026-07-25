@@ -1561,11 +1561,11 @@ _**Agent (composer-2.5-fast)**_
 Updated all **43 notes** in batch 4 (`practice-small-experiments` through `signature-move`).
 
 **What changed**
-- **Level 1** — simpler, grade 2–3 (~20 words, concrete analogies where they help)
-- **Level 2** — grade 6 (previous L1 content shifted down)
-- **Level 3** — grade 10 (cause/effect, named concepts)
-- **Level 4** — adult actionable
-- **Level 5** — expert (wikilinks, tradeoffs, full claim)
+- **Level 1** - simpler, grade 2–3 (~20 words, concrete analogies where they help)
+- **Level 2** - grade 6 (previous L1 content shifted down)
+- **Level 3** - grade 10 (cause/effect, named concepts)
+- **Level 4** - adult actionable
+- **Level 5** - expert (wikilinks, tradeoffs, full claim)
 
 **Preserved**
 - Bullet 1 (claim line) unchanged

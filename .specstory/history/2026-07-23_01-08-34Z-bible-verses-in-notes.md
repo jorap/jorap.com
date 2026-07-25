@@ -2572,7 +2572,7 @@ The template will use `index site.Data "bible-books"` to preserve the hyphenated
 
 _**Agent (auto-low)**_
 
-The data file key was wrong — hyphenated YAML files need `index site.Data "bible-books"`, not dot notation.
+The data file key was wrong - hyphenated YAML files need `index site.Data "bible-books"`, not dot notation.
 
 
 _**Agent (auto-low)**_
@@ -2827,17 +2827,17 @@ When a note mentions a reference like `Luke 5:16` or `(Mark 1:35; Luke 5:16)`, t
 
 - Refs already covered by an explicit `{{< bible >}}` shortcode (no duplicates)
 - Lines that already have a full NASB paragraph
-- Chapter-only cites without a verse (`John 13`) — no DB key for those
+- Chapter-only cites without a verse (`John 13`) - no DB key for those
 
 **Files**
 
-- `layouts/_partials/notes/expand-bible-mentions.html` — mention scanner
-- `layouts/_partials/notes/render-content.html` — calls it before rendering
-- `data/bible-books.yaml` — book-name regex for all 66 books
+- `layouts/_partials/notes/expand-bible-mentions.html` - mention scanner
+- `layouts/_partials/notes/render-content.html` - calls it before rendering
+- `data/bible-books.yaml` - book-name regex for all 66 books
 
 **Example:** [Withdraw to Pray](public/notes/withdraw-to-pray/index.html) now shows Mark 1:35 (shortcode) **and** Luke 5:16 (auto-expanded from the bullet text).
 
-Shareable thought cards are unchanged — they stay short, paste-ready lines without full verse blocks. Say if you want those expanded too.
+Shareable thought cards are unchanged - they stay short, paste-ready lines without full verse blocks. Say if you want those expanded too.
 
 ---
 
@@ -2870,4 +2870,4 @@ _**Agent (auto-low)**_
 
 Done. Notes now auto-show full NASB1995 verses whenever a citation appears in the content.
 
-Mentions like `Luke 5:16` or `(Mark 1:35; Luke 5:16)` render as verse blocks after that line. Notes that already use `{{< bible >}}` shortcodes are left alone, so nothing gets duplicated. **Jesus' Rhythms** is a good example — it went from zero verse blocks to 25 from inline references alone.
+Mentions like `Luke 5:16` or `(Mark 1:35; Luke 5:16)` render as verse blocks after that line. Notes that already use `{{< bible >}}` shortcodes are left alone, so nothing gets duplicated. **Jesus' Rhythms** is a good example - it went from zero verse blocks to 25 from inline references alone.

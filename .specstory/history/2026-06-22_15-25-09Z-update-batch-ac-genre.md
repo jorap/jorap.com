@@ -960,4 +960,4 @@ _**Agent (default)**_
 
 Each note now has `## Examples` with four genre bullets (Sports, Non-technical work, Home with children, Real world). Existing example material was reused or adapted where it fit. Frontmatter and Note Relationships tables were untouched.
 
-Note: `/tmp/batch-ac` ended at `second-order-thinking.md`, not `share-what-you-learn.md` — everything in the batch file was processed.
+Note: `/tmp/batch-ac` ended at `second-order-thinking.md`, not `share-what-you-learn.md` - everything in the batch file was processed.

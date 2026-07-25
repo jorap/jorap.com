@@ -81,7 +81,7 @@ The context loader indicates missing PRODUCT.md, but user requested critique spe
 
 _**Agent (auto-low)**_
 
-PRODUCT.md and DESIGN.md are missing — we'll note limited formal brand context and proceed with the critique using the codebase and automated scan. Loading scoring references and scanning key surfaces.
+PRODUCT.md and DESIGN.md are missing - we'll note limited formal brand context and proceed with the critique using the codebase and automated scan. Loading scoring references and scanning key surfaces.
 
 
 
@@ -504,7 +504,7 @@ IMPECCABLE_PREFLIGHT: context=pass product=fail (no PRODUCT.md/DESIGN.md) comman
 
 **Assessment B (deterministic):** `npx impeccable --json themes/jorap/layouts` finished with exit **0** and output **`[]`** (no flagged patterns in scanned markup).
 
-**Assessment B — browser overlays:** Not run. This environment does not expose the scripted `[Human]` tab injection flow from the critique reference. To get overlays locally: start `npx impeccable live`, open your built site in a **new** tab, inject `detect.js` as in [critique.md](.cursor/skills/impeccable/reference/critique.md), read `[impeccable]` console lines, then `npx impeccable live stop`.
+**Assessment B - browser overlays:** Not run. This environment does not expose the scripted `[Human]` tab injection flow from the critique reference. To get overlays locally: start `npx impeccable live`, open your built site in a **new** tab, inject `detect.js` as in [critique.md](.cursor/skills/impeccable/reference/critique.md), read `[impeccable]` console lines, then `npx impeccable live stop`.
 
 ---
 
@@ -546,9 +546,9 @@ The shell is **readable and calm**: good body/heading scale (`scale` 1.25 in the
 
 ## What’s Working
 
-1. **Token-driven theming** — Light/dark semantic roles (`surface`, `elevated`, `ink`, `accent`) keep the UI consistent without scattering hex values in components.
-2. **Long-form ergonomics** — TOC split by breakpoint and `scroll-padding-top` tuned per breakpoint reduce friction for actual reading.
-3. **Restrained motion** — Transitions target color, shadow, and border — not layout — matching shared motion guidance.
+1. **Token-driven theming** - Light/dark semantic roles (`surface`, `elevated`, `ink`, `accent`) keep the UI consistent without scattering hex values in components.
+2. **Long-form ergonomics** - TOC split by breakpoint and `scroll-padding-top` tuned per breakpoint reduce friction for actual reading.
+3. **Restrained motion** - Transitions target color, shadow, and border - not layout - matching shared motion guidance.
 
 ---
 
@@ -584,7 +584,7 @@ The shell is **readable and calm**: good body/heading scale (`scale` 1.25 in the
 
 ---
 
-**[P3] What:** **Empty sidebar slot** — `<div class="sidebar-content mt-10 lg:mt-0"></div>` under the desktop TOC.
+**[P3] What:** **Empty sidebar slot** - `<div class="sidebar-content mt-10 lg:mt-0"></div>` under the desktop TOC.
 
 **Why it matters:** Wasted horizontal space on large screens and a slight “unfinished” cue next to a sticky TOC.
 
@@ -596,7 +596,7 @@ The shell is **readable and calm**: good body/heading scale (`scale` 1.25 in the
 
 ## Cognitive Load
 
-Eight-item checklist: **~1 failure mode** worth watching — **decision density in the header** (search + language + theme + optional CTA + many nav links) can exceed “≤4 visible options” **if** `main` menu is large; depends on your Hugo menu config. Chunking and hierarchy on the **blog meta row** (date + categories) are acceptable. **Progressive disclosure:** mobile TOC collapsed by default is **good**.
+Eight-item checklist: **~1 failure mode** worth watching - **decision density in the header** (search + language + theme + optional CTA + many nav links) can exceed “≤4 visible options” **if** `main` menu is large; depends on your Hugo menu config. Chunking and hierarchy on the **blog meta row** (date + categories) are acceptable. **Progressive disclosure:** mobile TOC collapsed by default is **good**.
 
 **Verdict:** ~**low** load for reading; **moderate** only if navigation/menu breadth grows without grouping.
 
@@ -604,11 +604,11 @@ Eight-item checklist: **~1 failure mode** worth watching — **decision density 
 
 ## Persona Red Flags
 
-**Jordan (first-time visitor)** — Primary action is “find something worth reading.” Red flags: **dropdown trigger looks like plain text** until you interact; **no onboarding** (fine if intentional). Social/footer links use **`aria-label`** — helpful.
+**Jordan (first-time visitor)** - Primary action is “find something worth reading.” Red flags: **dropdown trigger looks like plain text** until you interact; **no onboarding** (fine if intentional). Social/footer links use **`aria-label`** - helpful.
 
-**Riley (stress tester)** — **Related posts** use `shuffle` in `blog/single.html`, so related content **changes on rebuild**; predictable “related” semantics may not match user expectation. Worth validating empty categories/tags and posts **without** featured images (cards still work but visual rhythm shifts).
+**Riley (stress tester)** - **Related posts** use `shuffle` in `blog/single.html`, so related content **changes on rebuild**; predictable “related” semantics may not match user expectation. Worth validating empty categories/tags and posts **without** featured images (cards still work but visual rhythm shifts).
 
-**Casey (mobile)** — **Sticky header + scroll-padding** helps anchors; **touch-sized** `p-3` nav links help. **Theme toggle** control is small on the track (`h-4 w-6`) — may be tight for some thumbs (check 44px guidelines).
+**Casey (mobile)** - **Sticky header + scroll-padding** helps anchors; **touch-sized** `p-3` nav links help. **Theme toggle** control is small on the track (`h-4 w-6`) - may be tight for some thumbs (check 44px guidelines).
 
 ---
 
@@ -1007,7 +1007,7 @@ I'm updating the mobile TOC condition from `{{ if ne .TableOfContents` to `$hasT
 
 _**Agent (auto-low)**_
 
-Switching the dropdown to the disclosure pattern (removing `role="menu"` — we're not implementing full menu keyboard behavior). Using `$hasToc` for the mobile TOC block.
+Switching the dropdown to the disclosure pattern (removing `role="menu"` - we're not implementing full menu keyboard behavior). Using `$hasToc` for the mobile TOC block.
 
 
 
@@ -1249,17 +1249,17 @@ _**Agent (auto-low)**_
 
 Here’s what was implemented in your priority order **B → A → C**, keeping **Inter only**.
 
-### B — Typography (Inter-only stack)
+### B - Typography (Inter-only stack)
 - **`base.css`**: Clearer **heading ladder** with Inter: tighter **tracking** on large headings, **bold vs semibold** by level (`h3–h6` use `font-semibold`), adjusted **line-height**.
 - **Article titles**: New **`.article-title`** class so the post `<h1>` stays a real title but scales **h2 → h1** across breakpoints; global **`h1` sizing is scoped with `h1:not(.article-title)`** so those rules don’t fight the article style.
 - **`prefers-reduced-motion`**: `scroll-behavior: auto` when reduced motion is requested.
 
-### A — Navigation accessibility
+### A - Navigation accessibility
 - **`header.html`**: Dropdown triggers are **`<button type="button">`** with **`aria-expanded`**, **`aria-controls`**, **`aria-labelledby`**, stable **`id`s** per menu index (`nav-submenu-0`, …), and **`aria-hidden="true"`** on the chevron SVG.
 - **`main.js`**: Targets **`.nav-dropdown-trigger`**, keeps **`aria-expanded`** in sync, **closes on outside click** and **Escape**.
 - **`navigation.css`**: Button reset + **`focus-visible`** ring (including **`dark:`** ring offset).
 
-### C — Layout
+### C - Layout
 - **`blog/single.html`**: **`$hasToc`** drives layout: **no TOC** → wider column **`lg:col-10 xl:col-9`** and **no empty sidebar column**; **with TOC** → previous **8 / 4** split with **only** the TOC in the sidebar (removed the empty **`sidebar-content`** block).
 - **Related posts**: **`shuffle` removed**; uses **`first 3`** of Hugo’s related order so the block is stable between builds.
 

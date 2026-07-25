@@ -61,6 +61,14 @@ cards:
     back: "Never schedule"
   - front: "A line cook pulls a bad prep tray and fixes the station before service"
     back: "Small fixes daily, not one yearly overhaul"
+  - front: "Kaizen note died after week two - review template untouched."
+    back: "One line edit after the miss - tonight."
+  - front: "Big overhaul deck looks smarter than fixing one checklist line."
+    back: "Ship the small fix - deck can wait."
+  - front: "Missed again - gut says the whole system's broken."
+    back: "One process tweak - not a tear-down."
+  - front: "Five small slips this week - which one gets the fix first?"
+    back: "The one that repeats tomorrow."
 draft: false
 ---
 

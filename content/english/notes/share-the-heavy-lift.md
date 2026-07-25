@@ -45,6 +45,20 @@ author: "JoRap"
 tags: ["Leadership", "Work", "Teams", "Sustainable Performance"]
 aliases: ["shared load", "split the heavy lift"]
 featured: false
-review: false
+review: true
+card_sets: ["Ethics", "Focus"]
+cards:
+  - front: "On-call engineer three pages deep alone - midnight meltdown incoming."
+    back: "Split primary and secondary before tonight."
+  - front: "Mom's hospital week - one person doing all of it breaks Thursday."
+    back: "Split pickup and bills - grab a handle."
+  - front: "Hiding the load until the deadline makes it a crisis."
+    back: "Name weight now - who takes which handle."
+  - front: "Leader cheering from sideline - crate still on one back."
+    back: "Grab a handle - servant move."
+  - front: "Too proud to ask - solo lane hoarding the crate."
+    back: "Ask early - shared lift beats heroics."
+  - front: "Team can't admit crush - psychological safety missing?"
+    back: "Surface the load - split before snap."
 draft: false
 ---

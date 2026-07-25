@@ -49,17 +49,17 @@ featured: false
 review: true
 card_sets: ["Jesus Prayers", "Gospel", "Faith", "Prayer"]
 cards:
-  - front: "New believer saw the verse plain while I stacked commentaries. What did Jesus thank the Father for?"
-    back: "Revealed to little children - hidden from the proud."
-  - front: "Tempted to gatekeep who gets to understand Scripture. Whose economy did He praise?"
+  - front: "New believer saw the verse plain while I stacked three commentaries."
+    back: "Thank the Father - revelation is His gift."
+  - front: "Tempted to gatekeep who gets to understand Scripture."
     back: "Father reveals - not my credentials."
-  - front: "Small group turned into a flex session. What posture matches Luke 10:21?"
+  - front: "Small group turned into a flex session - my expertise on display."
     back: "Thank the Father - not my status."
-  - front: "Kid asked a simple Jesus question that floored me. Who gets truth in His prayer?"
-    back: "Little children - not the wise in their own eyes."
-  - front: "Frustrated that someone less studied got it first. What did He rejoice over?"
-    back: "Father's choice to reveal - not my rank."
-  - front: "Pride after teaching well. First move from His thanksgiving prayer?"
+  - front: "Kid asked a simple Jesus question that floored me."
+    back: "Receive it - little children see first."
+  - front: "Frustrated that someone less studied got it first."
+    back: "Thank the Father - rejoice at His choice."
+  - front: "Pride rising after teaching well - thumb on self-congratulation."
     back: "Thank the Father - He let them see."
 draft: false
 ---

@@ -590,7 +590,7 @@ I'm implementing the config fix using `complement` to filter related posts and c
 
 _**Agent (auto-low)**_
 
-Identifying the issue: Hugo's default related-content indices use `keywords`, `date`, and `tags` — not `categories`. Posts with empty `tags` (e.g. `instant-pot-chicken-adobo.md`) score below the default threshold (80), so `.Related` returns nothing and the template's `{{ with $related }}` hides the block. Adding a full `[related]` configuration that includes `categories`, and a template fallback to recent posts when nothing matches.
+Identifying the issue: Hugo's default related-content indices use `keywords`, `date`, and `tags` - not `categories`. Posts with empty `tags` (e.g. `instant-pot-chicken-adobo.md`) score below the default threshold (80), so `.Related` returns nothing and the template's `{{ with $related }}` hides the block. Adding a full `[related]` configuration that includes `categories`, and a template fallback to recent posts when nothing matches.
 
 
 
@@ -734,8 +734,8 @@ So for posts like `instant-pot-chicken-adobo.md` with `tags: []` and no `keyword
 ```
 
 ### Fixes
-1. **`hugo.toml`** — Added a full **`[related]`** section (Hugo requires the whole block when you customize it) that keeps the usual indices and adds **`categories`** with weight **80**, sets **`includeNewer = true`**, and uses **`pattern = '2006'`** on the date index so same-year posts can contribute a little.
-2. **`blog/single.html`** — If `.Related` still returns nothing, we fill the list with the **three newest other posts** in the `blog` section so the area is not blank.
+1. **`hugo.toml`** - Added a full **`[related]`** section (Hugo requires the whole block when you customize it) that keeps the usual indices and adds **`categories`** with weight **80**, sets **`includeNewer = true`**, and uses **`pattern = '2006'`** on the date index so same-year posts can contribute a little.
+2. **`blog/single.html`** - If `.Related` still returns nothing, we fill the list with the **three newest other posts** in the `blog` section so the area is not blank.
 
 After a build, `public/blog/instant-pot-chicken-adobo/index.html` includes the “Related Posts” heading again.
 
@@ -979,7 +979,7 @@ _**Agent (auto-low)**_
 Here is what changed.
 
 ### Updates
-- **`themes/jorap/layouts/blog/single.html`** — Related posts no longer use the compact list. They use the same **`components/blog-card`** partial as the blog index, in a **`row`** with **`md:col-6 lg:col-4 mb-14`** so the layout matches `sections/blog-list.html` (two columns on medium, three on large).
-- **Removed** `themes/jorap/layouts/partials/components/related-posts-compact.html` — it was only referenced from the single layout, so it is safe to drop.
+- **`themes/jorap/layouts/blog/single.html`** - Related posts no longer use the compact list. They use the same **`components/blog-card`** partial as the blog index, in a **`row`** with **`md:col-6 lg:col-4 mb-14`** so the layout matches `sections/blog-list.html` (two columns on medium, three on large).
+- **Removed** `themes/jorap/layouts/partials/components/related-posts-compact.html` - it was only referenced from the single layout, so it is safe to drop.
 
 Related posts now show image, title, meta, excerpt, and the same “Read more” control as the main blog grid.

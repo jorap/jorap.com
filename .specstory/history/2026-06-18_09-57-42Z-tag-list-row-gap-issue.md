@@ -19,7 +19,7 @@ The tag links lack row gap when wrapping to multiple lines.</details></think>
 
 _**Agent (auto-low)**_
 
-Tag links are wrapping without vertical spacing — I'll find where they're rendered and add row gap styling.
+Tag links are wrapping without vertical spacing - I'll find where they're rendered and add row gap styling.
 
 
 _**Agent (auto-low)**_
@@ -1440,7 +1440,7 @@ Result:
           },
           {
             "lineNumber": 2,
-            "text": "  components/blog-card — Renders a single blog card."
+            "text": "  components/blog-card - Renders a single blog card."
           },
           {
             "lineNumber": 3
@@ -1549,7 +1549,7 @@ Result:
           },
           {
             "lineNumber": 30,
-            "text": "  names — writing &#96;\u003c{{ $headingTag }}\u003e&#96; literally renders as &#96;\u0026lt;h2\u0026gt;&#96;"
+            "text": "  names - writing &#96;\u003c{{ $headingTag }}\u003e&#96; literally renders as &#96;\u0026lt;h2\u0026gt;&#96;"
           },
           {
             "lineNumber": 31,
@@ -4962,7 +4962,7 @@ _**Agent (auto-low)**_
 Tags were laid out with `inline-block` list items and only horizontal padding (`padding-inline-end`), so when they wrapped there was no row spacing.
 
 **Changes:**
-1. **`blog/single.html`** — `ul` is now `flex flex-wrap gap-2`; removed `inline-block` from each `li`.
-2. **`components.css`** — removed the old horizontal-only spacing rule for `.tags_section ul li.inline-block`.
+1. **`blog/single.html`** - `ul` is now `flex flex-wrap gap-2`; removed `inline-block` from each `li`.
+2. **`components.css`** - removed the old horizontal-only spacing rule for `.tags_section ul li.inline-block`.
 
 Wrapped tag rows now get the same `gap-2` (8px) spacing as columns. Rebuild or refresh the site to see it on the Alex Eala post.

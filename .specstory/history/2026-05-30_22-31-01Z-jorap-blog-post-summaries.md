@@ -33,7 +33,7 @@ HugoPlate: The Theme Quietly Powering This Site
 </h2>
  May 29, 2026
  Website, Technology, Web Development, Reviews
-After losing half a Saturday to theme-shopping, I picked HugoPlate — and a year and change later, I'm still on it. Here's what comes in the box, what I changed, and where it still bites.
+After losing half a Saturday to theme-shopping, I picked HugoPlate - and a year and change later, I'm still on it. Here's what comes in the box, what I changed, and where it still bites.
 
 Read More →
 Instant Pot Chicken Adobo
@@ -42,7 +42,7 @@ Instant Pot Chicken Adobo
 </h2>
  May 3, 2026
  Food, Recipes, Filipino
-My go-to chicken adobo, adjusted for the Instant Pot. Bone-in thighs, 10 minutes under pressure, and that classic soy-garlic-vinegar glaze — without the hours of waiting.
+My go-to chicken adobo, adjusted for the Instant Pot. Bone-in thighs, 10 minutes under pressure, and that classic soy-garlic-vinegar glaze - without the hours of waiting.
 
 Read More →
 Alex Eala Pro Career Tracker
@@ -51,7 +51,7 @@ Alex Eala Pro Career Tracker
 </h2>
  April 1, 2026
  Sports, Filipino, People
-A Filipino fan's running scrapbook of Alex Eala's WTA career — the rankings, the matches I'll never forget, and the matchups I'm watching for next.
+A Filipino fan's running scrapbook of Alex Eala's WTA career - the rankings, the matches I'll never forget, and the matchups I'm watching for next.
 
 Read More →
 The Power Of Worship Pads: Enhancing Your Worship When The Guitar Is Your Only Instrument
@@ -60,7 +60,7 @@ The Power Of Worship Pads: Enhancing Your Worship When The Guitar Is Your Only I
 </h2>
  May 4, 2025
  Worship, Music, Tips
-Leading worship with just an acoustic guitar always felt thin in a big room — until someone slid a pad track underneath me during practice. The whole night changed.
+Leading worship with just an acoustic guitar always felt thin in a big room - until someone slid a pad track underneath me during practice. The whole night changed.
 
 Read More →
 The Set It and Forget It Arroz Caldo
@@ -78,7 +78,7 @@ How I Built JoRap's World: My Journey from Expensive Hosting to Free (and Better
 </h2>
  June 14, 2024
  Website, Technology, Web Development, Tutorial
-I lost my old PHP hosting (and a chunk of my work with it). A weekend of fumbling later, I landed on Hugo + GitHub + Cloudflare Pages — free, faster, and honestly better than what I was paying for.
+I lost my old PHP hosting (and a chunk of my work with it). A weekend of fumbling later, I landed on Hugo + GitHub + Cloudflare Pages - free, faster, and honestly better than what I was paying for.
 
 Read More →
 Getting Started with RSS Feeds: A Beginner's Guide
@@ -87,7 +87,7 @@ Getting Started with RSS Feeds: A Beginner's Guide
 </h2>
  March 30, 2024
  Technology, Productivity, Tips
-I figured RSS quietly died around 2010. A friend pointed out it never actually did — it just stopped being trendy. Two weeks of using it later, I was a convert.
+I figured RSS quietly died around 2010. A friend pointed out it never actually did - it just stopped being trendy. Two weeks of using it later, I was a convert.
 
 Read More →
 Top Reasons to Create and Maintain Your Own Website
@@ -105,7 +105,7 @@ Facebook's Hidden Gem: How the Favorites Feed Transforms Your Social Media Exper
 </h2>
  February 4, 2024
  Social Media, Technology, Productivity, Tips
-I almost deleted Facebook a couple of years ago. Then I stumbled onto a built-in feature most people don't know exists — and it's the only reason I still open the app.
+I almost deleted Facebook a couple of years ago. Then I stumbled onto a built-in feature most people don't know exists - and it's the only reason I still open the app.
 
 Read More →
 The Miracle of Isaiah David
@@ -114,7 +114,7 @@ The Miracle of Isaiah David
 </h2>
  May 8, 2023
  Testimony, Family, Faith
-On May 8, 2020, Pia and I found out she was pregnant — and gave birth to our son the same day. Years later, that sentence still doesn't feel real. Here's how it actually unfolded.
+On May 8, 2020, Pia and I found out she was pregnant - and gave birth to our son the same day. Years later, that sentence still doesn't feel real. Here's how it actually unfolded.
 
 Read More →
 DNPAP – Song Resources
@@ -179,4 +179,4 @@ _**Agent (auto-high)**_
 _**Agent (auto-high)**_
 
 <think><details><summary>Thought Process</summary>
- I see the issue — the HTML markup is being rendered as plain text on the page instead of being parsed as actual HTML, which means the string is being output literally somewhere in the code.</details></think>
+ I see the issue - the HTML markup is being rendered as plain text on the page instead of being parsed as actual HTML, which means the string is being output literally somewhere in the code.</details></think>

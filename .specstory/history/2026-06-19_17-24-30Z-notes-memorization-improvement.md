@@ -785,7 +785,7 @@ import re
 from pathlib import Path
 
 NOTES_DIR = Path(&#34;content/english/notes&#34;)
-LEAD = re.compile(r&#39;^\*\*([^*]+)\*\*\s*(?:=\s*|—\s*|-\s*)(.+)$&#39;)
+LEAD = re.compile(r&#39;^\*\*([^*]+)\*\*\s*(?:=\s*|-\s*|-\s*)(.+)$&#39;)
 WIKI = re.compile(r&#39;\[\[[^\]]+\]\]&#39;)
 
 def split_fm(text):
@@ -828,7 +828,7 @@ import re
 from pathlib import Path
 
 NOTES_DIR = Path("content/english/notes")
-LEAD = re.compile(r'^\*\*([^*]+)\*\*\s*(?:=\s*|—\s*|-\s*)(.+)$')
+LEAD = re.compile(r'^\*\*([^*]+)\*\*\s*(?:=\s*|-\s*|-\s*)(.+)$')
 WIKI = re.compile(r'\[\[[^\]]+\]\]')
 
 def split_fm(text):
@@ -901,7 +901,7 @@ import re
 from pathlib import Path
 
 NOTES_DIR = Path(&#34;content/english/notes&#34;)
-LEAD = re.compile(r&#39;^\*\*([^*]+)\*\*\s*(?:=\s*|—\s*|-\s*)(.+)$&#39;)
+LEAD = re.compile(r&#39;^\*\*([^*]+)\*\*\s*(?:=\s*|-\s*|-\s*)(.+)$&#39;)
 
 def split_fm(text):
     if not text.startswith(&#39;---&#39;): return &#39;&#39;, text
@@ -929,7 +929,7 @@ import re
 from pathlib import Path
 
 NOTES_DIR = Path("content/english/notes")
-LEAD = re.compile(r'^\*\*([^*]+)\*\*\s*(?:=\s*|—\s*|-\s*)(.+)$')
+LEAD = re.compile(r'^\*\*([^*]+)\*\*\s*(?:=\s*|-\s*|-\s*)(.+)$')
 
 def split_fm(text):
     if not text.startswith('---'): return '', text
@@ -1029,13 +1029,13 @@ Drafting concrete card_back lines for the first seven notes. Examples include "r
 
 Drafting card backs for the next nine notes. Examples include "notes tools can read without a lecture," "ideas outside your head so you can think," and "too much inventory, not enough shipping."
 
-Drafting card backs for the next eight notes. Examples include "notes leaving the warehouse," "today's scratch pad — not a diary," and "publish rough, revise in public." The list continues through the end of the 78-note set.
+Drafting card backs for the next eight notes. Examples include "notes leaving the warehouse," "today's scratch pad - not a diary," and "publish rough, revise in public." The list continues through the end of the 78-note set.
 
-Drafting card backs for the remaining notes. Examples include "claims that stay true, updated when reality shifts," "sparks vs truth — two lanes, one promotion path," and "GTD runs tasks; PARA runs notes."
+Drafting card backs for the remaining notes. Examples include "claims that stay true, updated when reality shifts," "sparks vs truth - two lanes, one promotion path," and "GTD runs tasks; PARA runs notes."
 
 Drafting card backs for the next twelve notes. Examples include "minimum citation so future-you trusts it," "30 seconds between tasks: flush the buffer," and "smallest shippable version to learn."
 
-Drafting card backs for notes 42 through 50. Examples include "two taps to inbox — sparks die fast," "batch weekly, clip what resonates," and "capture, organize, distill, express."
+Drafting card backs for notes 42 through 50. Examples include "two taps to inbox - sparks die fast," "batch weekly, clip what resonates," and "capture, organize, distill, express."
 
 Drafting card backs for notes 51 through 58. Examples include "rerun the habit; outcomes follow unevenly," "subscribe, batch read, clip to notes," and "fewer projects, more finished work."
 
@@ -1184,7 +1184,7 @@ The `parse_scalar` regex appears to break on quoted strings containing commas or
 
 _**Agent (default)**_
 
-Only one card exported — investigating the export script.
+Only one card exported - investigating the export script.
 
 
 _**Agent (default)**_
@@ -1258,7 +1258,7 @@ The script included the `---` delimiters twice because `fm` already contains the
 
 _**Agent (default)**_
 
-The add-card script corrupted frontmatter — fixing it and repairing the affected notes.
+The add-card script corrupted frontmatter - fixing it and repairing the affected notes.
 
 
 _**Agent (default)**_
@@ -1498,7 +1498,7 @@ Split flashcard answers from wiki definitions so recall stays short and clean.
 
 ## What changed
 
-Flashcards were using the full opening line as the answer — including wikilinks like `[[PARA Method|PARA]]` and long clauses that are fine to read but hard to recall cold.
+Flashcards were using the full opening line as the answer - including wikilinks like `[[PARA Method|PARA]]` and long clauses that are fine to read but hard to recall cold.
 
 **New frontmatter fields** on every review note:
 
@@ -1508,9 +1508,9 @@ card_front: "Associative linking"
 card_back: "Folders sort, links think."
 ```
 
-- **`card_front`** — the prompt on the card  
-- **`card_back`** — short, memorable answer (no wikilinks)  
-- Opening `**Term** = …` line — unchanged wiki definition with full context  
+- **`card_front`** - the prompt on the card  
+- **`card_back`** - short, memorable answer (no wikilinks)  
+- Opening `**Term** = …` line - unchanged wiki definition with full context  
 
 **77 notes** updated with punchy recall answers. Examples:
 
@@ -1862,7 +1862,7 @@ Trimmed the review deck from **77 → 15 notes** (~20%). **16 cards** total on `
 | **Workflow** | GTD vs PARA, Progressive Summarization, Weekly Review Checklists |
 | **Mindset** | Collector's Fallacy |
 
-These are the frameworks and daily distinctions — the concepts that change how you actually work. Everything else stays in the wiki for browsing and linking, not drill.
+These are the frameworks and daily distinctions - the concepts that change how you actually work. Everything else stays in the wiki for browsing and linking, not drill.
 
 ## Removed from review (62 notes)
 
@@ -1870,9 +1870,9 @@ Examples: Zettelkasten, Digital Garden, Mind Mapping, E2EE, 12-Week Year, etc. S
 
 ## Docs updated
 
-- **[[Pareto Principle]]** — notes the ~15-card flashcard rule  
-- **[[Spaced Repetition]]** — opt in sparingly, spine only  
-- **`cards.md`** and **`archetypes/notes.md`** — `review: false` by default  
+- **[[Pareto Principle]]** - notes the ~15-card flashcard rule  
+- **[[Spaced Repetition]]** - opt in sparingly, spine only  
+- **`cards.md`** and **`archetypes/notes.md`** - `review: false` by default  
 
 Re-run anytime with `python3 scripts/trim-review-deck.py` (edit `REVIEW_KEEP` in that script to change the spine).
 
@@ -1900,7 +1900,7 @@ _**Agent (default)**_
 
 _**Agent (default)**_
 
-The flashcards page at **[/notes/cards/](https://www.jorap.com/notes/cards/)** is the **browse-and-flip view** of your note deck — separate from the wiki itself.
+The flashcards page at **[/notes/cards/](https://www.jorap.com/notes/cards/)** is the **browse-and-flip view** of your note deck - separate from the wiki itself.
 
 ## Big picture
 
@@ -1908,24 +1908,24 @@ Your notes garden has two lanes:
 
 | Lane | Purpose |
 |------|---------|
-| **Wiki** (`/notes/…`) | Linked ideas, context, wikilinks — understanding |
-| **Flashcards** (`/notes/cards/`) | Cold recall on a small set of spine facts — drill |
+| **Wiki** (`/notes/…`) | Linked ideas, context, wikilinks - understanding |
+| **Flashcards** (`/notes/cards/`) | Cold recall on a small set of spine facts - drill |
 
 The flashcards page does **not** replace reading notes. It collects the ~15 opt-in spine notes (plus any `card` shortcodes) into one place for quick self-testing.
 
 ## What the page actually does
 
-1. **Shows all cards in a grid** — front on one side, click to flip to the memorizable `card_back`
-2. **Filter by tag** — narrow to PKM, Capture, etc.
-3. **Links back to source notes** — each card points to the full note for context
-4. **Anki export hub** — download the same deck (`.txt`) or run `npm run export:anki` for phone SRS
-5. **Gateway to Review** — “Start review” goes to `/notes/review/` for quiz mode with scheduling
+1. **Shows all cards in a grid** - front on one side, click to flip to the memorizable `card_back`
+2. **Filter by tag** - narrow to PKM, Capture, etc.
+3. **Links back to source notes** - each card points to the full note for context
+4. **Anki export hub** - download the same deck (`.txt`) or run `npm run export:anki` for phone SRS
+5. **Gateway to Review** - “Start review” goes to `/notes/review/` for quiz mode with scheduling
 
 ## What it does *not* do
 
-- **No spaced repetition** on this page — just flip and browse
-- **No scoring** — you have to test yourself honestly before flipping
-- **Not every note** — only notes with `review: true` (your Pareto ~20% spine)
+- **No spaced repetition** on this page - just flip and browse
+- **No scoring** - you have to test yourself honestly before flipping
+- **Not every note** - only notes with `review: true` (your Pareto ~20% spine)
 
 ## Flashcards vs Review
 
@@ -1935,7 +1935,7 @@ The flashcards page does **not** replace reading notes. It collects the ~15 opt-
 | **SRS** | No | Yes (browser `localStorage`) |
 | **Best for** | Skimming the deck, checking what’s in it | Actual study sessions |
 
-**In one line:** the flashcards page is a **catalog and flip UI** for your drill deck, plus the export path to Anki — the wiki holds ideas; this page holds the facts worth memorizing.
+**In one line:** the flashcards page is a **catalog and flip UI** for your drill deck, plus the export path to Anki - the wiki holds ideas; this page holds the facts worth memorizing.
 
 ---
 
@@ -2040,7 +2040,7 @@ Status: **completed**
 
 _**Agent (default)**_
 
-On **[/notes/cards/](https://www.jorap.com/notes/cards/)**, each card is one big **button** — the whole card face is the tap/click target. There’s no swipe; flip is tap or click only.
+On **[/notes/cards/](https://www.jorap.com/notes/cards/)**, each card is one big **button** - the whole card face is the tap/click target. There’s no swipe; flip is tap or click only.
 
 ## Flashcards page (`/notes/cards/`)
 
@@ -2052,20 +2052,20 @@ On **[/notes/cards/](https://www.jorap.com/notes/cards/)**, each card is one big
 
 **Tap/click again** to flip back to the question.
 
-The card gets a colored border on hover (desktop) or focus. The **“From [note title]”** link sits **below** the card — tapping that opens the note; it does **not** flip the card.
+The card gets a colored border on hover (desktop) or focus. The **“From [note title]”** link sits **below** the card - tapping that opens the note; it does **not** flip the card.
 
 Visually, the card rotates on a 3D flip (`rotateY`) when the `is-flipped` class toggles.
 
 ---
 
-## Review page (`/notes/review/`) — different UI
+## Review page (`/notes/review/`) - different UI
 
 This page doesn’t use the flip animation. It’s a quiz flow:
 
 | Device | How it works |
 |--------|----------------|
 | **All** | Tap **Show answer**, then tap **Again / Hard / Good / Easy**. |
-| **Desktop only** | **Space** — reveal answer. **1–4** — rate after reveal. |
+| **Desktop only** | **Space** - reveal answer. **1–4** - rate after reveal. |
 
 On tablet and mobile there are no keyboard shortcuts; use the buttons.
 
@@ -2873,7 +2873,7 @@ public/css/style.css:  pointer-events: none;
 
 _**Agent (default)**_
 
-That was a real bug — not user error.
+That was a real bug - not user error.
 
 ## What was wrong
 
@@ -2881,13 +2881,13 @@ Each card stacks **two faces** on top of each other (front + back) for the 3D fl
 
 ## What we fixed
 
-1. **CSS** — `pointer-events: none` on card faces so clicks pass through to the flip button  
-2. **JS** — direct click handlers on each flip button (instead of document-level delegation)  
-3. **Accessibility** — `aria-label="Flip card"` on the button  
+1. **CSS** - `pointer-events: none` on card faces so clicks pass through to the flip button  
+2. **JS** - direct click handlers on each flip button (instead of document-level delegation)  
+3. **Accessibility** - `aria-label="Flip card"` on the button  
 
 After a refresh (hard refresh if cached: **Ctrl+Shift+R** / **Cmd+Shift+R**), clicking anywhere on the card face should flip it on desktop. Tablet and mobile taps should behave the same.
 
-If it still fails, tell me which browser — we can dig further.
+If it still fails, tell me which browser - we can dig further.
 
 ---
 
@@ -3199,7 +3199,7 @@ The `{{- with` trimmer removes leading whitespace before `data-flashcard-tags`, 
 
 _**Agent (default)**_
 
-The template fix may still merge attributes — rewriting the div tag cleanly.
+The template fix may still merge attributes - rewriting the div tag cleanly.
 
 
 _**Agent (default)**_
@@ -3296,9 +3296,9 @@ The JS looked for a parent with `[data-flashcard]`, found nothing, and **silentl
 
 ## Fix
 
-1. **Template** — attributes are now separate: `data-flashcard data-flashcard-tags="..."`
-2. **JS** — uses `.notes-flashcard` as the parent selector (more reliable)
+1. **Template** - attributes are now separate: `data-flashcard data-flashcard-tags="..."`
+2. **JS** - uses `.notes-flashcard` as the parent selector (more reliable)
 
 Verified on your dev server: **0 broken attrs, 16 correct cards**.
 
-**Hard refresh** the page (`Ctrl+Shift+R` / `Cmd+Shift+R`) at http://localhost:1313/notes/cards/ — clicks should flip the cards now. If not, say which browser and we’ll dig further.
+**Hard refresh** the page (`Ctrl+Shift+R` / `Cmd+Shift+R`) at http://localhost:1313/notes/cards/ - clicks should flip the cards now. If not, say which browser and we’ll dig further.

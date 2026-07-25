@@ -56,10 +56,14 @@ cards:
     back: "Watch one nurse one full shift - then cut fields."
   - front: "Checkout flow looks clean on the slide but customers stall. First move?"
     back: "Three rushes behind the counter - see where they stop."
-  - front: "Process rollout and by Friday everyone's using a workaround. What did we skip?"
+  - front: "Process rollout and by Friday everyone's using a workaround - nobody shadowed the floor."
     back: "Shadow one person doing the real job."
   - front: "I am redesigning from the flowchart, not from Tuesday. People-centered check?"
     back: "Watch the work - flowcharts lie politely."
+  - front: "New hire's first week and I am redesigning from the org chart."
+    back: "Watch their Tuesday - then fix the tool."
+  - front: "Flowchart says five taps - Friday workaround says twelve."
+    back: "Shadow one shift - map the real steps."
 draft: false
 ---
 

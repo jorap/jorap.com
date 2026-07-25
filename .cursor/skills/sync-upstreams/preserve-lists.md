@@ -1,12 +1,12 @@
 # Preserve Lists
 
-JoRap has **forked** Hugoplate’s theme — not just added a few partials. Upstream sync is a **diff triage**, not a copy.
+JoRap has **forked** Hugoplate’s theme - not just added a few partials. Upstream sync is a **diff triage**, not a copy.
 
 See [SKILL.md](SKILL.md) for the full workflow. Use [triage-hugoplate.sh](triage-hugoplate.sh) to classify changes before applying anything.
 
 ---
 
-## Tier 1 — Never overwrite from upstream
+## Tier 1 - Never overwrite from upstream
 
 ### Site root (not from Hugoplate)
 
@@ -14,7 +14,7 @@ See [SKILL.md](SKILL.md) for the full workflow. Use [triage-hugoplate.sh](triage
 - Root `layouts/`, `assets/`, `functions/`, `docs/`, `static/`, `_vendor/`
 - Deployment config (`vercel-build.sh.disabled`, etc.)
 
-### Theme layouts — JoRap-owned
+### Theme layouts - JoRap-owned
 
 JoRap uses different page structures, semantic markup, and partials. **Do not take upstream wholesale** for:
 
@@ -25,7 +25,7 @@ JoRap uses different page structures, semantic markup, and partials. **Do not ta
 | `blog/single.html` | Mobile TOC, social share, semantic tokens, icon partial |
 | `_partials/essentials/head.html` | `theme-init.html`, theme name `jorap`, CSP-friendly head |
 | `_partials/essentials/header.html` | Nav dropdown JS hooks, semantic classes |
-| `_partials/essentials/style.html` | Self-hosted fonts — **not** Google Fonts CDN |
+| `_partials/essentials/style.html` | Self-hosted fonts - **not** Google Fonts CDN |
 | `_partials/essentials/script.html` | JoRap script bundle order |
 | `_partials/essentials/footer.html` | JoRap footer markup |
 | `_partials/essentials/self-hosted-fonts.html` | JoRap-only |
@@ -40,7 +40,7 @@ JoRap uses different page structures, semantic markup, and partials. **Do not ta
 
 Also block: `about.html`, `contact.html` (upstream layouts JoRap intentionally removed).
 
-### Theme assets — JoRap design system
+### Theme assets - JoRap design system
 
 | Path | Why |
 | --- | --- |
@@ -49,7 +49,7 @@ Also block: `about.html`, `contact.html` (upstream layouts JoRap intentionally r
 | `assets/css/generated-theme.css` | Regenerate via `pnpm build` / `themeGenerator.js` |
 | `assets/js/main.js` | Nav dropdown handlers + guarded Swiper init |
 
-### Scripts — JoRap-only or customized
+### Scripts - JoRap-only or customized
 
 | File | Notes |
 | --- | --- |
@@ -65,7 +65,7 @@ Also block: `about.html`, `contact.html` (upstream layouts JoRap intentionally r
 
 ---
 
-## Tier 2 — Manual merge only (read diff, cherry-pick hunks)
+## Tier 2 - Manual merge only (read diff, cherry-pick hunks)
 
 Apply upstream changes **only when the diff is a clear bugfix** and does not touch JoRap fork signals.
 
@@ -87,7 +87,7 @@ When in doubt: **skip**.
 
 ---
 
-## Tier 3 — Usually safe (still read diff first)
+## Tier 3 - Usually safe (still read diff first)
 
 ### New upstream files JoRap doesn’t have
 
@@ -104,8 +104,8 @@ If JoRap’s copy already matches upstream (`diff -q`), skip.
 
 ### Agent skills from Hugoplate
 
-- `.cursor/skills/hugo-template-guidance/` — sync from Hugoplate `$HUGO/.agents/skills/`, then **re-apply JoRap local notes** (e.g. `__` draft-post convention in `content-management.md`)
-- `.cursor/skills/find-skills/` — sync wholesale from upstream
+- `.cursor/skills/hugo-template-guidance/` - sync from Hugoplate `$HUGO/.agents/skills/`, then **re-apply JoRap local notes** (e.g. `__` draft-post convention in `content-management.md`)
+- `.cursor/skills/find-skills/` - sync wholesale from upstream
 
 ### package.json
 
@@ -114,10 +114,10 @@ If JoRap’s copy already matches upstream (`diff -q`), skip.
 
 ---
 
-## Impeccable — preserve during skill sync
+## Impeccable - preserve during skill sync
 
 - `docs/PRODUCT.md`, `docs/DESIGN.md`, `docs/DESIGN.json`
-- `.impeccable/` — live config, critique ignores, session journals
+- `.impeccable/` - live config, critique ignores, session journals
 
 Verify with `node .cursor/skills/impeccable/scripts/context.mjs` (not `load-context.mjs`).
 
@@ -132,10 +132,10 @@ Verify with `node .cursor/skills/impeccable/scripts/context.mjs` (not `load-cont
 | `exampleSite/` demo | Site at repo root (project-setup) |
 | Old Tailwind token names + `dark:` twins | Semantic tokens in `semantic-tokens.css` |
 | Google Fonts CDN | Self-hosted fonts partial |
-| `pnpm update-theme` | **Do not run** — wrong path/name. Use this skill. |
+| `pnpm update-theme` | **Do not run** - wrong path/name. Use this skill. |
 
 ---
 
 ## What went wrong (2025 sync lesson)
 
-Bulk `rsync` of `layouts/` + `assets/` copied Hugoplate’s old token CSS while JoRap layouts still used `text-ink`, `bg-surface`, etc. — breaking typography, dark mode, prose, nav, and fonts. **Default workflow must triage diffs, not rsync.**
+Bulk `rsync` of `layouts/` + `assets/` copied Hugoplate’s old token CSS while JoRap layouts still used `text-ink`, `bg-surface`, etc. - breaking typography, dark mode, prose, nav, and fonts. **Default workflow must triage diffs, not rsync.**

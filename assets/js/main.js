@@ -1,4 +1,4 @@
-// main script (project override — nav keyboard + dropdown a11y)
+// main script (project override - nav keyboard + dropdown a11y)
 (function () {
   "use strict";
 

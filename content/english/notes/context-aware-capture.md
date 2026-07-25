@@ -45,6 +45,10 @@ cards:
     back: "Remember it wasn't just breakfast milk"
   - front: "I bookmark a link with one line about which project it feeds"
     back: "A link without context is a mystery six weeks later"
+  - front: "Parking lot after meeting - voice memo missing who said what."
+    back: "Capture context in the memo - names and next step."
+  - front: "Bookmark with no project tag - won't find it in review."
+    back: "One line which project it feeds."
 draft: false
 ---
 

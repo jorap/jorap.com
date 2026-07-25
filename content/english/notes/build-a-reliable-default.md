@@ -62,5 +62,13 @@ cards:
     back: "Run the posted order - no guessing."
   - front: "Blackout hit and my kid's half-asleep running our fire plan from the fridge. What made that work?"
     back: "One page, rehearsed - nobody guessed."
+  - front: "Crisis hit and I'm inventing triage from scratch again."
+    back: "Run the posted order - stop freestyle."
+  - front: "Blackout plan feels silly on a normal night - skipping the fridge read."
+    back: "Rehearse the one-pager - default beats memory."
+  - front: "Walk-in chaos - my gut says help whoever yells loudest."
+    back: "Posted sequence - not loudest voice."
+  - front: "Teammate wants to improvise the pass-off every shift."
+    back: "Default on the wall - adapt inside the steps."
 draft: false
 ---

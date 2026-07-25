@@ -1099,26 +1099,26 @@ Checked **Eternal Principles** against Hugo wikilink lint, flashcard lint, and u
 
 ## Issues found and fixed
 
-1. **Bare section links** — All 30 gospel notes were listed as `[[Note]]` only, with no reason they belong in that section. Each bullet now has a one-line connection (same idea as the cross-links table).
+1. **Bare section links** - All 30 gospel notes were listed as `[[Note]]` only, with no reason they belong in that section. Each bullet now has a one-line connection (same idea as the cross-links table).
 
-2. **Missing `contradicts` line** — Per your [[Note Relationships]] convention, the page only had `Extends [[Free Grace]]`. Added `Contradicts [[First Principles Thinking]]` to match `first-principles-thinking.md` and updated `wire-note-relationships.py`.
+2. **Missing `contradicts` line** - Per your [[Note Relationships]] convention, the page only had `Extends [[Free Grace]]`. Added `Contradicts [[First Principles Thinking]]` to match `first-principles-thinking.md` and updated `wire-note-relationships.py`.
 
-3. **Thin See also** — Only linked [[Mental Models List]]. Added [[Free Grace]] and [[Maps of Content]] (which already indexes this MOC).
+3. **Thin See also** - Only linked [[Mental Models List]]. Added [[Free Grace]] and [[Maps of Content]] (which already indexes this MOC).
 
-4. **Incomplete PKM cross-links** — Six indexed notes had no PKM partner in the table. Added pairs where connections already existed in child notes:
+4. **Incomplete PKM cross-links** - Six indexed notes had no PKM partner in the table. Added pairs where connections already existed in child notes:
    - Childlike Faith ↔ Getting Started
    - Ask Seek Knock ↔ Periodic Knowledge Review
    - The Beatitudes ↔ Evergreen Notes
    - Love Your Neighbor ↔ Associative Linking
    - The Golden Rule ↔ Note Relationships
 
-5. **Unlinked alias warnings** — Phrases like “greatest commandment”, “do unto others”, and “faith alone” matched note aliases without wikilinks. Rephrased those bullets so Hugo lint is clean.
+5. **Unlinked alias warnings** - Phrases like “greatest commandment”, “do unto others”, and “faith alone” matched note aliases without wikilinks. Rephrased those bullets so Hugo lint is clean.
 
-6. **Reciprocal PKM links** — Added matching prose/See also in `evergreen-notes.md`, `associative-linking.md`, and `note-relationships.md` for the new pairs.
+6. **Reciprocal PKM links** - Added matching prose/See also in `evergreen-notes.md`, `associative-linking.md`, and `note-relationships.md` for the new pairs.
 
 ## Still open (not changed)
 - **Eight section notes** still have no PKM cross-link row: Love God, Love Your Enemies, Peacemakers, Humility and Service, Judge Not, Secret Devotion, Render Unto Caesar, The Narrow Way. Say if you want PKM partners for those too.
-- **Child gospel notes** don’t link back to `[[Eternal Principles]]` in See also (same pattern as [[Maps of Content]] — the MOC indexes them, they don’t all link up). I can add that hub link across the cluster if you want bidirectional navigation.
+- **Child gospel notes** don’t link back to `[[Eternal Principles]]` in See also (same pattern as [[Maps of Content]] - the MOC indexes them, they don’t all link up). I can add that hub link across the cluster if you want bidirectional navigation.
 
 ---
 
@@ -1894,7 +1894,7 @@ hugo v0.163.2-19a5cec0b9618163bb519487382e861d29edf383+extended linux/amd64 Buil
  Cleaned          │    0 
 
 Total in 15194 ms
-923:            wikilink <code>[[Free Grace\]]</code> — no page matches this title, slug, or alias.
+923:            wikilink <code>[[Free Grace\]]</code> - no page matches this title, slug, or alias.
 1002:					<td><a href="/notes/free-grace/" class="wikilink" data-wikilink-preview="/notes/free-grace/">Faith alone</a> is the smallest sufficient act - not a works ladder</td>
 1062:					<td><a href="/notes/the-wise-builder/" class="wikilink" data-wikilink-preview="/notes/the-wise-builder/">Hear and do</a> - hearing alone is sand</td>
 
@@ -2553,9 +2553,9 @@ _**Agent (default)**_
 
 Removed all piped wikilinks and alias-style labels from the page:
 
-- **Intro:** `[[Free Grace|faith alone]]` → plain prose — “by faith in Christ, not works” with a single `[[Free Grace]]` link
+- **Intro:** `[[Free Grace|faith alone]]` → plain prose - “by faith in Christ, not works” with a single `[[Free Grace]]` link
 - **Cross-links table:** `[[Free Grace|Faith alone]]` → `[[Free Grace]] is the smallest sufficient act…`
-- **Cross-links table:** `[[The Wise Builder|Hear and do]]` → `[[The Wise Builder]] — obedience, not hearing alone` (avoids the “hear and do” alias lint)
+- **Cross-links table:** `[[The Wise Builder|Hear and do]]` → `[[The Wise Builder]] - obedience, not hearing alone` (avoids the “hear and do” alias lint)
 
 No `[[note|label]]` syntax remains on this page. Hugo lint is clean.
 
@@ -2673,7 +2673,7 @@ Reward theology is distinct from priorities. It covers judgment seats, crowns, a
 
 _**Agent (default)**_
 
-Yes — **if you scope it as its own atomic claim**, not as a second way to earn heaven.
+Yes - **if you scope it as its own atomic claim**, not as a second way to earn heaven.
 
 Jesus clearly taught reward language: the Father who sees in secret ([[Secret Devotion]]), treasure stored above ([[Treasure in Heaven]]), persecution’s “great reward” ([[The Beatitudes]]), and broader faithfulness language (e.g. Matthew 16:27, the talents parable, “well done, good and faithful servant”). Your [[Free Grace]] note already assumes this distinction: eternal life is the gift; “heavenly reward” is for the life **after** faith, not the price of admission.
 
@@ -2681,10 +2681,10 @@ Jesus clearly taught reward language: the Father who sees in secret ([[Secret De
 
 | Existing note | What it mainly holds |
 |---|---|
-| [[Treasure in Heaven]] | **Where** your heart and priorities go — store what lasts, not what rusts |
+| [[Treasure in Heaven]] | **Where** your heart and priorities go - store what lasts, not what rusts |
 | [[Secret Devotion]] | **Hidden** obedience rewarded by the Father, not applause |
 | [[The Beatitudes]] | **Persecution** and kingdom blessing |
-| [[Free Grace]] | **Salvation vs reward** — grace saves first; principles and reward follow |
+| [[Free Grace]] | **Salvation vs reward** - grace saves first; principles and reward follow |
 
 So the garden already touches rewards, but nothing owns the **theological hinge** in one place: *Jesus promised believers reward for faithful obedience, distinct from receiving eternal life by faith.*
 
@@ -2692,7 +2692,7 @@ So the garden already touches rewards, but nothing owns the **theological hinge*
 
 Add it if you want one note that states plainly:
 
-> **Eternal rewards** = Jesus promised believers additional reward from the Father for faithful obedience after salvation — not the same thing as receiving eternal life by faith.
+> **Eternal rewards** = Jesus promised believers additional reward from the Father for faithful obedience after salvation - not the same thing as receiving eternal life by faith.
 
 That would **extend [[Free Grace]]** and **contradict [[Compounding]]** (or merit-ladder thinking) when I treat rewards as payment for heaven.
 
@@ -2705,7 +2705,7 @@ It would sit under **Heart and priorities** or **Theological basis** on [[Eterna
 
 Skip a standalone note if “Eternal Rewards” would mostly repeat [[Treasure in Heaven]] and [[Secret Devotion]]. In your garden, overlap without a sharp single claim is a sign to merge, not split.
 
-**Bottom line:** Jesus did teach it, and your Free Grace framing already needs the distinction — so a note makes sense **only** if it owns *salvation free, rewards real, not the same transaction*. Otherwise strengthen [[Treasure in Heaven]] with one sentence on that hinge and link it from [[Free Grace]].
+**Bottom line:** Jesus did teach it, and your Free Grace framing already needs the distinction - so a note makes sense **only** if it owns *salvation free, rewards real, not the same transaction*. Otherwise strengthen [[Treasure in Heaven]] with one sentence on that hinge and link it from [[Free Grace]].
 
 Want me to draft the note (or add that one sentence to Treasure in Heaven instead)?
 
@@ -2982,17 +2982,17 @@ _**Agent (default)**_
 
 Created **`/notes/eternal-rewards/`** and wired it into the cluster.
 
-**Core claim:** Jesus promised believers the Father will repay faithful obedience after salvation — not as the price of eternal life.
+**Core claim:** Jesus promised believers the Father will repay faithful obedience after salvation - not as the price of eternal life.
 
 **Relationships:**
 - Extends [[Free Grace]]
 - Contradicts [[Compounding]] when stacked good works are treated as currency that bought heaven
 
 **Also updated:**
-- [[Eternal Principles]] — listed under Heart and priorities; PKM cross-link to [[Compounding]]
-- [[Treasure in Heaven]] — points here for the gift-vs-reward distinction
-- [[Free Grace]] — links `[[Eternal Rewards]]` instead of loose “heavenly reward” prose
-- [[Secret Devotion]], [[Compounding]] — reciprocal See also / faith parallels
+- [[Eternal Principles]] - listed under Heart and priorities; PKM cross-link to [[Compounding]]
+- [[Treasure in Heaven]] - points here for the gift-vs-reward distinction
+- [[Free Grace]] - links `[[Eternal Rewards]]` instead of loose “heavenly reward” prose
+- [[Secret Devotion]], [[Compounding]] - reciprocal See also / faith parallels
 
 **Split from [[Treasure in Heaven]]:**
 - Treasure in Heaven → where your heart stores
@@ -3502,4 +3502,4 @@ On [/notes/review/](/notes/review/) you can filter **Eternal Principles** (all 7
 
 Also updated [[Eternal Principles]], [[Flashcards]], and [[Review]] with the new filter names. Lint passes.
 
-Notes without spine cards yet (Childlike Faith, Don't Worry, Eternal Rewards, etc.) are unchanged — say if you want cards added for any of those sections.
+Notes without spine cards yet (Childlike Faith, Don't Worry, Eternal Rewards, etc.) are unchanged - say if you want cards added for any of those sections.

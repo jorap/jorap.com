@@ -668,7 +668,7 @@ Here’s what’s in the notes garden today.
 
 Only **one** note is marked evergreen in frontmatter:
 
-- [Getting Started](/notes/getting-started/) — `status: evergreen`, `last_reviewed: 2026-06-19`
+- [Getting Started](/notes/getting-started/) - `status: evergreen`, `last_reviewed: 2026-06-19`
 
 Everything else defaults to **seedling** (see `note-meta.html`). So the Evergreen filter on [/notes/](/notes/) currently shows just that page.
 
@@ -691,30 +691,30 @@ They’re indexed under **Distill & review** in [Maps of Content](/notes/maps-of
 
 ## The full garden (~70 notes)
 
-“Evergreen” in the layout sense means **garden pages** — all notes under `content/english/notes/` except daily captures and meta pages (`graph`, `review`, `maps-of-content` hub logic). That’s **70 atomic notes** right now.
+“Evergreen” in the layout sense means **garden pages** - all notes under `content/english/notes/` except daily captures and meta pages (`graph`, `review`, `maps-of-content` hub logic). That’s **70 atomic notes** right now.
 
 Grouped by your MOC:
 
-**Foundations** — PKM, Building a Second Brain, Zettelkasten, Atomic Notes, Getting Started
+**Foundations** - PKM, Building a Second Brain, Zettelkasten, Atomic Notes, Getting Started
 
-**Capture** — Capture, Context-Aware Capture, Analog Capture Tools, Mobile Capture Workflows, The Trusted Inbox, Newsletter Filtering, Signal vs Noise
+**Capture** - Capture, Context-Aware Capture, Analog Capture Tools, Mobile Capture Workflows, The Trusted Inbox, Newsletter Filtering, Signal vs Noise
 
-**Organize** — PARA Method, GTD vs PARA, Organization, The Archive Method, Metadata Strategy, Daily Notes
+**Organize** - PARA Method, GTD vs PARA, Organization, The Archive Method, Metadata Strategy, Daily Notes
 
-**Distill & review** — Progressive Summarization, Weekly Review Checklists, Periodic Knowledge Review, Evergreen Notes, Evergreen vs Fleeting Notes, Serendipitous Resurfacing
+**Distill & review** - Progressive Summarization, Weekly Review Checklists, Periodic Knowledge Review, Evergreen Notes, Evergreen vs Fleeting Notes, Serendipitous Resurfacing
 
-**Connect & explore** — Associative Linking, The Power of Interconnectivity, Graph View Analytics, Digital Serendipity, Mind Mapping, Visual Thinking
+**Connect & explore** - Associative Linking, The Power of Interconnectivity, Graph View Analytics, Digital Serendipity, Mind Mapping, Visual Thinking
 
-**Express** — Creative Output, Distraction-Free Writing, Drafting in Public, From Note to Book, Synthesis as a Goal, Creative Blocks
+**Express** - Creative Output, Distraction-Free Writing, Drafting in Public, From Note to Book, Synthesis as a Goal, Creative Blocks
 
-**Systems & tools** (near the ones you were viewing) — Digital Garden, Advantages of Digital Gardens, Local-first Software, Future-Proofing Knowledge, **Privacy and Data Sovereignty**, E2EE Security, Anti-Fragile Systems, The Garage Concept
+**Systems & tools** (near the ones you were viewing) - Digital Garden, Advantages of Digital Gardens, Local-first Software, Future-Proofing Knowledge, **Privacy and Data Sovereignty**, E2EE Security, Anti-Fragile Systems, The Garage Concept
 
-**Curation neighbors** (near Active Knowledge Curation) — Curation as Creation, The Collector’s Fallacy, Active Knowledge Curation, Building a Second Brain
+**Curation neighbors** (near Active Knowledge Curation) - Curation as Creation, The Collector’s Fallacy, Active Knowledge Curation, Building a Second Brain
 
 ## Not in the garden
 
-- `content/english/notes/daily/` — fleeting by design
-- `review.md`, `graph.md` — meta/tool pages (`note_kind: meta`)
+- `content/english/notes/daily/` - fleeting by design
+- `review.md`, `graph.md` - meta/tool pages (`note_kind: meta`)
 
 ---
 

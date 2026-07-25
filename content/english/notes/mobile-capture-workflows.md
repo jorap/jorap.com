@@ -45,6 +45,10 @@ cards:
     back: "one tap to notes before the next ride."
   - front: "School pickup, kid mentions a permission slip. What's the move?"
     back: "Share sheet to inbox before the next text buries it"
+  - front: "Brilliant thought in the parking lot - gone before I reached the door."
+    back: "One-tap capture - voice memo before walking."
+  - front: "Commute insight - trusting I'll remember at home again."
+    back: "Capture in motion - inbox when signal returns."
 draft: false
 ---
 

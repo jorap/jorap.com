@@ -17,7 +17,7 @@ Random notes and graphs are missing from the local Hugo site.</details></think>
 
 _**Agent (auto-low)**_
 
-Investigating why random notes and graphs aren't showing locally — I'll trace how those features are wired in the notes layout and related templates.
+Investigating why random notes and graphs aren't showing locally - I'll trace how those features are wired in the notes layout and related templates.
 
 
 _**Agent (auto-low)**_
@@ -345,22 +345,22 @@ index e836e36..01fb748 100644
 -            &lt;button type="button" class="notes-filter" data-notes-filter="inbox" aria-pressed="false"&gt;Inbox&lt;/button&gt;
 -            &lt;button type="button" class="notes-filter" data-notes-filter="archived" aria-pressed="false"&gt;Archived&lt;/button&gt;
 -            &lt;button type="button" class="notes-filter" data-notes-filter="stale" aria-pressed="false"&gt;Stale&lt;/button&gt;
-+            &lt;button type="button" class="notes-filter is-active" data-notes-filter="all" aria-pressed="true" aria-label="All — {{ $countAll }} notes"&gt;
++            &lt;button type="button" class="notes-filter is-active" data-notes-filter="all" aria-pressed="true" aria-label="All - {{ $countAll }} notes"&gt;
 +              All&lt;span class="notes-filter__count"&gt; · {{ $countAll }}&lt;/span&gt;
 +            &lt;/button&gt;
-+            &lt;button type="button" class="notes-filter" data-notes-filter="seedling" aria-pressed="false" aria-label="Seedling — {{ $countSeedling }} notes"&gt;
++            &lt;button type="button" class="notes-filter" data-notes-filter="seedling" aria-pressed="false" aria-label="Seedling - {{ $countSeedling }} notes"&gt;
 +              Seedling&lt;span class="notes-filter__count"&gt; · {{ $countSeedling }}&lt;/span&gt;
 +            &lt;/button&gt;
-+            &lt;button type="button" class="notes-filter" data-notes-filter="evergreen" aria-pressed="false" aria-label="Evergreen — {{ $countEvergreen }} notes"&gt;
++            &lt;button type="button" class="notes-filter" data-notes-filter="evergreen" aria-pressed="false" aria-label="Evergreen - {{ $countEvergreen }} notes"&gt;
 +              Evergreen&lt;span class="notes-filter__count"&gt; · {{ $countEvergreen }}&lt;/span&gt;
 +            &lt;/button&gt;
-+            &lt;button type="button" class="notes-filter" data-notes-filter="inbox" aria-pressed="false" aria-label="Inbox — {{ $countInbox }} notes"&gt;
++            &lt;button type="button" class="notes-filter" data-notes-filter="inbox" aria-pressed="false" aria-label="Inbox - {{ $countInbox }} notes"&gt;
 +              Inbox&lt;span class="notes-filter__count"&gt; · {{ $countInbox }}&lt;/span&gt;
 +            &lt;/button&gt;
-+            &lt;button type="button" class="notes-filter" data-notes-filter="archived" aria-pressed="false" aria-label="Archived — {{ $countArchived }} notes"&gt;
++            &lt;button type="button" class="notes-filter" data-notes-filter="archived" aria-pressed="false" aria-label="Archived - {{ $countArchived }} notes"&gt;
 +              Archived&lt;span class="notes-filter__count"&gt; · {{ $countArchived }}&lt;/span&gt;
 +            &lt;/button&gt;
-+            &lt;button type="button" class="notes-filter" data-notes-filter="stale" aria-pressed="false" aria-label="Stale — {{ $countStale }} notes"&gt;
++            &lt;button type="button" class="notes-filter" data-notes-filter="stale" aria-pressed="false" aria-label="Stale - {{ $countStale }} notes"&gt;
 +              Stale&lt;span class="notes-filter__count"&gt; · {{ $countStale }}&lt;/span&gt;
 +            &lt;/button&gt;
            &lt;/div&gt;

@@ -160,7 +160,7 @@ cards:
     back: "Renew the mind - read and abide daily."
   - front: "Waiting until my thoughts feel holy before I open the Bible. Wrong order?"
     back: "Saved first - feed the mind now."
-  - front: "Tuesday 7am fork - news feed or five minutes in Romans. First move?"
+  - front: "Tuesday 7am - thumb on news feed before Romans. First move?"
     back: "Scripture before the feed."
   - front: "Trying to discern God's will while my mind is full of culture's noise. One step before deciding?"
     back: "Renew first - then test His will."

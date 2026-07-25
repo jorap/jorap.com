@@ -61,6 +61,14 @@ cards:
     back: "Ten minutes on form - not 'never a shooter.'"
   - front: "New barista burned three lattes on the steam wand. Trainer move?"
     back: "One motion on repeat - not 'not a coffee person.'"
+  - front: "Clinic ended on three misses - no form work scheduled."
+    back: "Ten minutes tomorrow - train the motion."
+  - front: "Kid says they're not athletic - tempted to agree out loud."
+    back: "Name the rep - not the label."
+  - front: "Burned latte - trainee is not a coffee person."
+    back: "One motion again - not a verdict."
+  - front: "Parent wants to pull the kid after one bad game - quit energy in the room."
+    back: "One more week of reps - skill grows slow."
 draft: false
 ---
 

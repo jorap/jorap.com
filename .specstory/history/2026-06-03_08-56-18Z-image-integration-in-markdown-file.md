@@ -1047,10 +1047,10 @@ Updated the image shortcode with these changes:
 
 | Setting | Before | After |
 |--------|--------|--------|
-| **zoomable** | (default off) | `true` — click opens full-size image in a lightbox |
-| **Dimensions** | full 2752×1536 | `1000×558` — sized for the article column |
-| **command** | `fill` (can crop) | `fit` — keeps the full diagram |
-| **option** | `q100` | `q75` — smaller WebP at build time |
+| **zoomable** | (default off) | `true` - click opens full-size image in a lightbox |
+| **Dimensions** | full 2752×1536 | `1000×558` - sized for the article column |
+| **command** | `fill` (can crop) | `fit` - keeps the full diagram |
+| **option** | `q100` | `q75` - smaller WebP at build time |
 
 `webp="true"` is unchanged. Hugo still generates a compressed WebP for the page; the lightbox links to the original asset so readers can zoom in on detail.
 

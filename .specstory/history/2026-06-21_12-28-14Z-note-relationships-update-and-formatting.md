@@ -1306,15 +1306,15 @@ The parser will scan for "Extends [[...]]" lines and extract relationship types 
 
 Defining regex patterns for each relationship type. Extends and implements match simple wikilinks. Contradicts captures optional "only when" reasons. Index entries lack wikilinks.
 
-Contradict reasons will include the full "when" phrase. Index entries will show — for the wikilink and the description for the reason. The existing example table in note-relationships.md will be left intact; only its bottom Extends line will be replaced. The cross-links table in eternal-principles will remain untouched. The script will use Node.js file system modules.
+Contradict reasons will include the full "when" phrase. Index entries will show - for the wikilink and the description for the reason. The existing example table in note-relationships.md will be left intact; only its bottom Extends line will be replaced. The cross-links table in eternal-principles will remain untouched. The script will use Node.js file system modules.
 
 Settled on a single global regex to match all relationship segments in one pass. This avoids messy string splitting. The regex captures each relationship type and its trailing text until the next segment or the end of the line.
 
 Switched to a simpler parser strategy. Rather than one complex regex, the script will iterate through the line and match each relationship clause against a list of keyword handlers. This handles both linked and unlinked entries cleanly.
 
-The parser now extracts each wikilink and its trailing reason text. Empty reasons become "—". The script then advances to the next relationship clause.
+The parser now extracts each wikilink and its trailing reason text. Empty reasons become "-". The script then advances to the next relationship clause.
 
-Clarified how to handle index entries and plain implements. Index descriptions will be captured until the next keyword or line end. Plain implements may receive a default reason such as "Carries it out" or simply "—".
+Clarified how to handle index entries and plain implements. Index descriptions will be captured until the next keyword or line end. Plain implements may receive a default reason such as "Carries it out" or simply "-".
 
 The script will be tested on a single file before batch processing. Future-note wikilinks will be mapped conservatively, with only one obvious candidate per note. Candidates include Zettelkasten, CODE Method, the Forgetting Curve, Inbox Zero, and the Sermon on the Mount.
 
@@ -2413,7 +2413,7 @@ Parameters:
 {
   "caseInsensitive": false,
   "path": "/Users/jonathanrapusas/Documents/GitHub/jorap.com/content/english/notes",
-  "pattern": "\\| — \\|\\n\\| extends \\|\\[\\["
+  "pattern": "\\| - \\|\\n\\| extends \\|\\[\\["
 }
 ```
 Additional data:
@@ -2423,7 +2423,7 @@ Additional data:
   "isPruned": true,
   "outputMode": "content",
   "path": "/Users/jonathanrapusas/Documents/GitHub/jorap.com/content/english/notes",
-  "pattern": "\\| — \\|\\n\\| extends \\|\\[\\[",
+  "pattern": "\\| - \\|\\n\\| extends \\|\\[\\[",
   "topFiles": [],
   "totalFiles": 0,
   "totalMatches": 0
@@ -2472,7 +2472,7 @@ Updated **95 notes** to use a `## Note Relationships` table instead of inline `E
 
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
-| extends | [[PKM]] | — |
+| extends | [[PKM]] | - |
 | contradicts | [[Maps of Content]] | when I bury claims inside a hub instead of one file per idea |
 | extends | [[Zettelkasten]] | Luhmann one-idea-per-card method this note descends from |
 ```
@@ -2481,7 +2481,7 @@ Relationship types preserved: **extends**, **contradicts**, **implements**, **al
 
 ### Future-note wikilinks (~50 notes)
 
-Added obvious wikilinks to concepts that don’t have notes yet — they show as broken links in Issues until you write them. Examples:
+Added obvious wikilinks to concepts that don’t have notes yet - they show as broken links in Issues until you write them. Examples:
 
 | Note | Future wikilink | Why |
 |------|-----------------|-----|
@@ -2496,11 +2496,11 @@ Faith notes got scripture anchors ([[Matthew 5]], [[Shema]], [[Kingdom of God]])
 
 ### Supporting updates
 
-- **`note-relationships.md`** — documents the table format; its own relationships are in a table
-- **`getting-started.md`** — atomic rule now references the table section
-- **`relationship-types.html`** — graph filters still detect typed relationships from table rows (including `| index |`)
+- **`note-relationships.md`** - documents the table format; its own relationships are in a table
+- **`getting-started.md`** - atomic rule now references the table section
+- **`relationship-types.html`** - graph filters still detect typed relationships from table rows (including `| index |`)
 
-Hugo build passes. Notes without an obvious missing concept kept only their existing extends/contradicts/implements rows — no filler future links.
+Hugo build passes. Notes without an obvious missing concept kept only their existing extends/contradicts/implements rows - no filler future links.
 
 ---
 
@@ -3111,9 +3111,9 @@ _**Agent (auto-low)**_
 
 Removed **Non-atomic heading** from the issues pipeline:
 
-- **`collect-note-issues.html`** — no longer scans for `##` headings (except See also, which was already excluded)
-- **`issues.html`** and **`note-issues-panel.html`** — removed the heading issue display
-- **`issues.md`** — updated the structure-issues description to match
+- **`collect-note-issues.html`** - no longer scans for `##` headings (except See also, which was already excluded)
+- **`issues.html`** and **`note-issues-panel.html`** - removed the heading issue display
+- **`issues.md`** - updated the structure-issues description to match
 
 Structure issues now only cover missing **extends** / **contradicts** typed links. Notes with `## Note Relationships` or other `##` sections won't flag for that anymore.
 
@@ -3127,7 +3127,7 @@ remove issue where heading is not supposed to be a mention
 
 _**Agent (auto-low)**_
 
-Investigating how unlinked mentions are detected — headings like `## Note Relationships` are likely being flagged incorrectly.
+Investigating how unlinked mentions are detected - headings like `## Note Relationships` are likely being flagged incorrectly.
 
 
 _**Agent (auto-low)**_
@@ -3395,7 +3395,7 @@ The false positives are caused by `## Note Relationships` headings across many n
 
 _**Agent (auto-low)**_
 
-Stripping markdown headings from unlinked-mention scans — `## Note Relationships` was being flagged as prose.
+Stripping markdown headings from unlinked-mention scans - `## Note Relationships` was being flagged as prose.
 
 
 _**Agent (auto-low)**_
@@ -3526,7 +3526,7 @@ why is there no reason for extends?
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The user is asking why the "extends" relationship rows in the Note Relationships table show "—" instead of actual reasons.
+The user is asking why the "extends" relationship rows in the Note Relationships table show "-" instead of actual reasons.
 
 The migration script parsed the old inline format, which only included reasons for contradicts, leaving extends rows without explicit reasons. I will check the documentation to determine the correct format and either explain the cause or add the missing reasons.</details></think>
 
@@ -3561,7 +3561,7 @@ Parameters:
 {
   "caseInsensitive": false,
   "path": "/Users/jonathanrapusas/Documents/GitHub/jorap.com/content/english/notes",
-  "pattern": "\\| extends \\|.*\\| —"
+  "pattern": "\\| extends \\|.*\\| -"
 }
 ```
 Additional data:
@@ -3571,7 +3571,7 @@ Additional data:
   "isPruned": true,
   "outputMode": "content",
   "path": "/Users/jonathanrapusas/Documents/GitHub/jorap.com/content/english/notes",
-  "pattern": "\\| extends \\|.*\\| —",
+  "pattern": "\\| extends \\|.*\\| -",
   "topFiles": [
     {
       "matchCount": 1,
@@ -3667,7 +3667,7 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The user is asking why "extends" shows no reason.
 
-The old inline format only included a "when" clause for contradictions. The migration script defaulted extends to "—" because the original prose lacked a reason. The documentation does not explicitly require a reason for extends, leaving a gap.</details></think>
+The old inline format only included a "when" clause for contradictions. The migration script defaulted extends to "-" because the original prose lacked a reason. The documentation does not explicitly require a reason for extends, leaving a gap.</details></think>
 
 _**Agent (auto-low)**_
 
@@ -3683,7 +3683,7 @@ Parameters:
   "caseInsensitive": false,
   "outputMode": "count",
   "path": "/Users/jonathanrapusas/Documents/GitHub/jorap.com/content/english/notes",
-  "pattern": "\\| extends \\| \\[\\[[^\\]]+\\]\\] \\| — \\|"
+  "pattern": "\\| extends \\| \\[\\[[^\\]]+\\]\\] \\| - \\|"
 }
 ```
 Additional data:
@@ -3693,7 +3693,7 @@ Additional data:
   "isPruned": true,
   "outputMode": "count",
   "path": "/Users/jonathanrapusas/Documents/GitHub/jorap.com/content/english/notes",
-  "pattern": "\\| extends \\| \\[\\[[^\\]]+\\]\\] \\| — \\|",
+  "pattern": "\\| extends \\| \\[\\[[^\\]]+\\]\\] \\| - \\|",
   "topFiles": [
     {
       "matchCount": 1,

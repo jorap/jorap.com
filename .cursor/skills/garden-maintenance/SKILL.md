@@ -22,11 +22,11 @@ Plain-text issues also ship at `/notes/issues/index.txt` after build (same as **
 
 ## 2. Fix (priority order)
 
-1. **Broken wikilinks** and **broken relationship targets** — wrong title or missing note
-2. **Utility wikilinks** — swap `[[Graph]]` for `/notes/graph/` paths
-3. **Unlinked mentions** — only when the link adds navigation (skip false positives)
-4. **Structure** — missing extends/contradicts rows
-5. **Lint failures** — `pnpm lint:garden` output (voice, slop, cards, frontmatter)
+1. **Broken wikilinks** and **broken relationship targets** - wrong title or missing note
+2. **Utility wikilinks** - swap `[[Graph]]` for `/notes/graph/` paths
+3. **Unlinked mentions** - only when the link adds navigation (skip false positives)
+4. **Structure** - missing extends/contradicts rows
+5. **Lint failures** - `pnpm lint:garden` output (voice, slop, cards, frontmatter)
 
 Cap at **15 issues** per pass unless the user asks for a full sweep. Use garden-voice skill on note edits.
 
@@ -56,5 +56,5 @@ Schedule weekly (e.g. Sunday maintenance window):
 
 ## Boundaries
 
-- Do not edit OKF bundle files under `static/exports/okf/` by hand — regenerate.
+- Do not edit OKF bundle files under `static/exports/okf/` by hand - regenerate.
 - Orphans and dead ends are informational unless the user targets graph shape.

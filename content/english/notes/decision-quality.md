@@ -49,6 +49,14 @@ cards:
     back: "decision quality was one call to a current."
   - front: "Buying supplies on one vendor quote is how clinics overpay One check?"
     back: "decision quality was checking last month's invoice before."
+  - front: "Big calls on autopilot - same vendor, no second look."
+    back: "One comparison before commit."
+  - front: "Limited-seat offer expires tonight - hand on the card."
+    back: "Sleep on it - real deadline survives morning."
+  - front: "Signed the whole year lease after one trial session - gut still says go."
+    back: "Call a current family - cancel if it's wrong."
+  - front: "Committee wants my vote before lunch - whole budget on the table."
+    back: "Need one night - quality over speed."
 draft: false
 ---
 

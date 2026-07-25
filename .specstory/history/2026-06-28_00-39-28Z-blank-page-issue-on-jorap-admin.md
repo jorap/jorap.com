@@ -12,7 +12,7 @@ i go to https://www.jorap.com/admin/  and I get a blank page
 
 _**Agent (default)**_
 
-Investigating the admin setup — a blank page usually means a JS error, missing assets, or a misconfigured build.
+Investigating the admin setup - a blank page usually means a JS error, missing assets, or a misconfigured build.
 
 
 _**Agent (default)**_
@@ -426,7 +426,7 @@ alt-svc: h3=":443"; ma=86400
 &lt;/head&gt;
 
 &lt;body&gt;
-  &lt;!-- Sveltia CMS: https://sveltiacms.app/ — drop-in replacement for Decap/Netlify CMS --&gt;
+  &lt;!-- Sveltia CMS: https://sveltiacms.app/ - drop-in replacement for Decap/Netlify CMS --&gt;
   &lt;script data-cfasync="false" src="https://unpkg.com/@sveltia/cms/dist/sveltia-cms.js"&gt;&lt;/script&gt;
 &lt;!-- Cloudflare Pages Analytics --&gt;&lt;script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "fc52a6ea57da48d7b4424dd0a5f5e04b"}'&gt;&lt;/script&gt;&lt;!-- Cloudflare Pages Analytics --&gt;&lt;/body&gt;
 
@@ -494,7 +494,7 @@ Four approaches are being weighed. Applying the global CSP to every section sepa
 
 _**Agent (default)**_
 
-Found the issue: the live page sends two CSP headers — the global one blocks `unpkg.com`, which Sveltia needs. Checking deployment config and how to fix this.
+Found the issue: the live page sends two CSP headers - the global one blocks `unpkg.com`, which Sveltia needs. Checking deployment config and how to fix this.
 
 
 _**Agent (default)**_
@@ -581,7 +581,7 @@ A `_routes.json` file might allow a separate headers file for admin routes. List
 
 _**Agent (default)**_
 
-Dual CSP headers on `/admin/` — the global policy blocks `unpkg.com`, so Sveltia never loads. Checking how to fix this in the deployment setup.
+Dual CSP headers on `/admin/` - the global policy blocks `unpkg.com`, so Sveltia never loads. Checking how to fix this in the deployment setup.
 
 
 _**Agent (default)**_
@@ -826,22 +826,22 @@ The blank page is a **Content-Security-Policy conflict**, not a broken Sveltia i
 
 Cloudflare Pages **merges** headers from every matching `_headers` block. For `/admin/`, that means **two** CSP headers:
 
-1. **Site-wide** (`/*`) — allows `'self'`, GTM, Disqus, etc. No `unpkg.com`. No `'unsafe-inline'` (only build-time script hashes).
-2. **Admin** (`/admin/*`) — allows `unpkg.com` and `'unsafe-inline'`.
+1. **Site-wide** (`/*`) - allows `'self'`, GTM, Disqus, etc. No `unpkg.com`. No `'unsafe-inline'` (only build-time script hashes).
+2. **Admin** (`/admin/*`) - allows `unpkg.com` and `'unsafe-inline'`.
 
 Browsers enforce **both**. The Sveltia script fails the site-wide policy, so the CMS never boots and you get a blank page.
 
-I confirmed this on the live site — two `content-security-policy` headers on `https://www.jorap.com/admin/`.
+I confirmed this on the live site - two `content-security-policy` headers on `https://www.jorap.com/admin/`.
 
 ## Fix
 
-Added `functions/admin/_middleware.js` — a Cloudflare Pages middleware that strips all CSP headers on `/admin/*` and sets only the admin policy.
+Added `functions/admin/_middleware.js` - a Cloudflare Pages middleware that strips all CSP headers on `/admin/*` and sets only the admin policy.
 
 Also documented in `static/_headers` that the middleware and admin CSP block need to stay in sync.
 
 ## Next step
 
-**Deploy** this change to Cloudflare Pages (push and let the normal build run, or trigger a deploy manually). The middleware only runs on Cloudflare after deploy — it won’t affect local Hugo preview.
+**Deploy** this change to Cloudflare Pages (push and let the normal build run, or trigger a deploy manually). The middleware only runs on Cloudflare after deploy - it won’t affect local Hugo preview.
 
 After deploy, `/admin/` should show the Sveltia login screen instead of a blank page. If it’s still blank, open DevTools → Console and check for CSP errors; I can help from there.
 
@@ -860,7 +860,7 @@ Evaluating whether self-hosting Sveltia CMS is preferable to loading it from unp
 
 _**Agent (default)**_
 
-Good question — self-hosting changes CSP and reliability tradeoffs. Checking how Sveltia is loaded now and what self-hosting would look like in this repo.
+Good question - self-hosting changes CSP and reliability tradeoffs. Checking how Sveltia is loaded now and what self-hosting would look like in this repo.
 
 
 _**Agent (default)**_
@@ -1048,13 +1048,13 @@ For a personal blog CMS, unpkg with middleware is sufficient. Self-hosting is on
 
 _**Agent (default)**_
 
-**Short answer: slightly better, not urgent.** With the middleware fix deployed, unpkg is fine. Self-hosting is worth it mainly for version pinning and one less CDN dependency — it does **not** remove the need for admin-specific CSP or the middleware.
+**Short answer: slightly better, not urgent.** With the middleware fix deployed, unpkg is fine. Self-hosting is worth it mainly for version pinning and one less CDN dependency - it does **not** remove the need for admin-specific CSP or the middleware.
 
 ## What self-hosting would fix
 
 | Benefit | Why it matters |
 |--------|----------------|
-| **Pinned version** | Your script URL has no version — unpkg serves whatever `@sveltia/cms` latest is (~0.168.0 today). A bad release could break `/admin/` without you changing anything. |
+| **Pinned version** | Your script URL has no version - unpkg serves whatever `@sveltia/cms` latest is (~0.168.0 today). A bad release could break `/admin/` without you changing anything. |
 | **No unpkg dependency** | Admin works even if unpkg is slow or down. |
 | **Tighter CSP** | You can drop `https://unpkg.com` from the admin policy. |
 | **Same-origin load** | Script comes from your domain; one less third party in the trust chain. |
@@ -1078,7 +1078,7 @@ The bundle is **~1.9 MB**. I would not commit it to git. The lazy pattern:
 3. Point `index.html` at `/admin/sveltia-cms.js`  
 4. Drop `unpkg.com` from the admin CSP / middleware  
 
-That is a small, clean change — but it is maintenance you only need if unpkg or unpinned “latest” worries you.
+That is a small, clean change - but it is maintenance you only need if unpkg or unpinned “latest” worries you.
 
 ## Recommendation
 
@@ -1099,7 +1099,7 @@ why is sign in with github not working?
 
 _**Agent (default)**_
 
-Tracing the GitHub OAuth flow end-to-end — auth endpoint, callback, and CMS config.
+Tracing the GitHub OAuth flow end-to-end - auth endpoint, callback, and CMS config.
 
 
 _**Agent (default)**_
@@ -2528,7 +2528,7 @@ Result:
           },
           {
             "lineNumber": 23,
-            "text": "- If you get 404: Functions deployment issue — check the **Functions** tab in the dashboard"
+            "text": "- If you get 404: Functions deployment issue - check the **Functions** tab in the dashboard"
           },
           {
             "lineNumber": 24
@@ -2857,7 +2857,7 @@ Result:
           },
           {
             "lineNumber": 72,
-            "text": "- [Sveltia CMS — Getting started](https://sveltiacms.app/en/docs/start)"
+            "text": "- [Sveltia CMS - Getting started](https://sveltiacms.app/en/docs/start)"
           },
           {
             "lineNumber": 73,
@@ -2901,7 +2901,7 @@ Result:
           },
           {
             "lineNumber": 74,
-            "text": "# the static-build-time CSP hash pass cannot cover them — keep"
+            "text": "# the static-build-time CSP hash pass cannot cover them - keep"
           },
           {
             "lineNumber": 75,
@@ -2925,7 +2925,7 @@ Result:
           },
           {
             "lineNumber": 80,
-            "text": "# with this policy only — keep the two strings in sync."
+            "text": "# with this policy only - keep the two strings in sync."
           },
           {
             "lineNumber": 81,
@@ -3111,7 +3111,7 @@ Result:
           },
           {
             "lineNumber": 2,
-            "text": "# .dev.vars is gitignored — never commit secrets."
+            "text": "# .dev.vars is gitignored - never commit secrets."
           },
           {
             "lineNumber": 3,
@@ -3267,7 +3267,7 @@ Result:
           },
           {
             "lineNumber": 34,
-            "text": "          hint: \"Optional. Shown in browser tab and search results. ' | JoRap Notes' is appended automatically — do not include it here.\","
+            "text": "          hint: \"Optional. Shown in browser tab and search results. ' | JoRap Notes' is appended automatically - do not include it here.\","
           },
           {
             "lineNumber": 35,
@@ -4010,7 +4010,7 @@ Result:
           },
           {
             "lineNumber": 12,
-            "text": "  \u003c!-- Sveltia CMS: https://sveltiacms.app/ — drop-in replacement for Decap/Netlify CMS --\u003e"
+            "text": "  \u003c!-- Sveltia CMS: https://sveltiacms.app/ - drop-in replacement for Decap/Netlify CMS --\u003e"
           },
           {
             "lineNumber": 13,
@@ -4450,7 +4450,7 @@ Result:
           },
           {
             "lineNumber": 7,
-            "text": " *   Pass 1 — Rewrite inline &#96;onerror=\"…this.src='X'…\"&#96; attributes that some"
+            "text": " *   Pass 1 - Rewrite inline &#96;onerror=\"…this.src='X'…\"&#96; attributes that some"
           },
           {
             "lineNumber": 8,
@@ -4478,7 +4478,7 @@ Result:
           },
           {
             "lineNumber": 14,
-            "text": " *   Pass 2 — Extract the body of every inline \u003cscript\u003e block (no &#96;src=&#96;,"
+            "text": " *   Pass 2 - Extract the body of every inline \u003cscript\u003e block (no &#96;src=&#96;,"
           },
           {
             "lineNumber": 15,
@@ -4583,7 +4583,7 @@ Result:
           },
           {
             "lineNumber": 41,
-            "text": "// blocks (e.g. /admin/* which serves Sveltia CMS — a SPA that injects inline"
+            "text": "// blocks (e.g. /admin/* which serves Sveltia CMS - a SPA that injects inline"
           },
           {
             "lineNumber": 42,
@@ -4741,7 +4741,7 @@ Result:
           },
           {
             "lineNumber": 3,
-            "text": "  \"description\": \"JoRap Notes — personal blog and portfolio (Hugo + Tailwind).\","
+            "text": "  \"description\": \"JoRap Notes - personal blog and portfolio (Hugo + Tailwind).\","
           },
           {
             "lineNumber": 4,
@@ -5562,7 +5562,7 @@ Result:
   "isFinal": true,
   "references": [
     {
-      "chunk": "Links:\n1. [GitHub - sveltia/sveltia-cms: Git-based headless CMS. Successor to Netlify CMS (now Decap CMS). Modern UX, first-class i18n support, mobile support + 100s of improvements. Framework-agnostic, open source \u0026 free. · GitHub](https://github.com/sveltia/sveltia-cms)\n2. [GitHub Backend | Sveltia CMS](https://sveltiacms.app/en/docs/backends/github)\n3. [fix: oauth callback postMessage for Sveltia CMS compatibility · 865d2f9 · psf/wiki](https://github.com/psf/wiki/commit/865d2f9df04395e517515992601b32923949dda3)\n4. [GitHub - sveltia/sveltia-cms-auth: Cloudflare Workers script that allows Sveltia CMS users to authenticate with GitHub. · GitHub](https://github.com/sveltia/sveltia-cms-auth)\n5. [sveltia/sveltia-cms-auth](https://github.com/sveltia/sveltia-cms-auth?tab=readme-ov-file)\n\nSynthesis:\nSveltia CMS is a Git-based headless content management system designed as a modern successor to Netlify and Decap CMS [1].\n\nFor GitHub authentication via authorization code flow, you generally need a backend OAuth client to exchange codes for tokens [2]. Sveltia CMS communicates with the authentication popup using the postMessage protocol [3]. When the popup completes the OAuth flow, it sends a success message—typically authorization:github:success:[data]—to the parent window to finalize authentication [3]. You can configure this via the base_url property in your config.yml, pointing to your OAuth client's URL [2][4].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eGitHub - sveltia/sveltia-cms: Git-based headless CMS. Successor to Netlify CMS (now Decap CMS). Modern UX, first-class i18n support, mobile support + 100s of improvements. Framework-agnostic, open source \u0026 free. · GitHub\u003c/title\u003e\n\u003curl\u003ehttps://github.com/sveltia/sveltia-cms\u003c/url\u003e\n\u003ccontent\u003eGitHub - sveltia/sveltia-cms: Git-based headless CMS. Successor to Netlify CMS (now Decap CMS). Modern UX, first-class i18n support, mobile support + 100s of improvements. Framework-agnostic, open source \u0026 free. · GitHub\n...\n# Sveltia CMS\n...\nSveltia CMS is a free, open-source, Git-based headless content management system for Jamstack sites. It’s a complete rewrite of Netlify CMS, now known as Decap CMS.\n...\nDesigned for content editors and developers alike, Sveltia CMS delivers a modern UX/DX, powerful features, and first-class internationalization (i18n) support — all in a small, maintenance-free, single-page web application served from a CDN. Its framework-agnostic, generic-purpose approach makes it suitable for a wide range of projects, from personal blogs and portfolios to marketing sites and knowledge bases.\n...\nAs the de facto successor to Netlify CMS, Sveltia CMS addresses 300+ longstanding issues while maintaining high compatibility with existing installations. It far surpasses the neglected official successor, Decap CMS. More and more projects, including a U.S. government website, are switching from Netlify/Decap CMS to Sveltia CMS to benefit from its significantly improved performance, security, reliability, and experience.\n...\nWe provide comprehensive documentation to help you get started and make the most of Sveltia CMS:\n...\n- Introduction: Product highlights, use cases, project goals\n- Getting Started: Step-by-step setup instructions\n- Migration Guides: Instructions for migrating from other CMSs\n- Roadmap: Upcoming features and improvements\n...\nSuccessor to Netlify CMS (now Decap CMS). Modern UX, first-class i18n support, mobile support + 100s of improvements. Framework-agnostic, open source \u0026 free.\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"2\"\u003e\n\u003ctitle\u003eGitHub Backend | Sveltia CMS\u003c/title\u003e\n\u003curl\u003ehttps://sveltiacms.app/en/docs/backends/github\u003c/url\u003e\n\u003ccontent\u003eThere are multiple ways to\n...\nis used by multiple users or non\n...\nusers because it\n...\ns more user\n...\nfriendly and secure.\n...\n### Authorization Code Flow\n...\nThe authorization code flow requires you to set up an OAuth app on GitHub and deploy an OAuth client server to handle the authentication process.\n...\nThere are multiple options for the OAuth client, including our own Sveltia CMS Authenticator, third-party OAuth clients made for Netlify/Decap CMS, or using Netlify as an OAuth provider.\n...\n#### Using Sveltia CMS Authenticator\n...\nWe provide our own OAuth client called Sveltia CMS Authenticator that you can deploy on Cloudflare Workers. Follow the instructions in the repository to deploy the authenticator and update your CMS configuration file to include the &#96;base_url&#96; option pointing to your authenticator URL:\n...\n&#96;&#96;&#96;yaml [YAML]{4}\nbackend:\n  name: github\n  repo: owner/repo\n  base_url: YOUR_CLIENT_URL # URL of your OAuth client\n...\n#### Using Third-Party OAuth Client\n...\nYou can also use third-party OAuth clients made for Netlify/Decap CMS. These clients support various languages and hosting services, and they should work with Sveltia CMS as well without any modifications.\n...\nThe setup process is similar to using Sveltia CMS Authenticator. You need to register a new OAuth app on GitHub and configure the third-party client with the app credentials. Then, update your CMS configuration to include the &#96;base_url&#96; option pointing to your OAuth client URL, like in the example above.\n...\n#### Using Net\n...\nFor backward compatibility with Netlify CMS, Sveltia CMS supports the authorization code flow using Netlify as an OAuth client. It’s the default authentication method if you don’t configure authentication explicitly, and you don’t need to set up a backend server yourself.\n...\nIf you’re a Netlify\n...\n, follow the official guide to register a new OAuth app on GitHub and link it to your Netlify site. No configuration changes are needed in Sveltia CMS.\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"3\"\u003e\n\u003ctitle\u003efix: oauth callback postMessage for Sveltia CMS compatibility · 865d2f9 · psf/wiki\u003c/title\u003e\n\u003curl\u003ehttps://github.com/psf/wiki/commit/865d2f9df04395e517515992601b32923949dda3\u003c/url\u003e\n\u003ccontent\u003e## fix: oauth callback postMessage for Sveltia CMS compatibility\n...\nSupport both Sveltia CMS protocol (parent sends authorizing:github to\npopup) and Decap CMS protocol (popup notifies parent first). Also handle\nGitHub rejecting reused auth codes gracefully instead of 500ing.\n...\n&#96;&#96;&#96;diff\n@@ -35,18 +35,23 @@\n (function() {\n   const token = \"%s\";\n   const data = JSON.stringify({token: token, provider: \"github\"});\n+  const msg = \"authorization:github:success:\" + data;\n \n-  // Sveltia/Decap CMS sends \"authorizing:github\" to the popup;\n-  // the popup replies with the token and closes itself.\n+  function sendToken(origin) {\n+    window.opener.postMessage(msg, origin || \"*\");\n+    window.close();\n+  }\n+\n+  // Listen for \"authorizing:github\" from the parent (Sveltia CMS protocol)\n   window.addEventListener(\"message\", function(e) {\n     if (e.data === \"authorizing:github\") {\n-      window.opener.postMessage(\n-        \"authorization:github:success:\" + data,\n-        e.origin\n-      );\n-      window.close();\n+      sendToken(e.origin);\n     }\n   }, false);\n+\n+  // Also notify the parent we're ready (Decap CMS protocol),\n+  // which triggers it to send \"authorizing:github\" back to us.\n+  window.opener.postMessage(\"authorizing:github\", \"*\");\n })();\n \u003c/script\u003e\u003c/body\u003e\u003c/html\u003e\n \"\"\"\n...\n-        token = resp.json()[\"access_token\"]\n+        body = resp.json()\n+        token = body.get(\"access_token\")\n+        if not token:\n+            error = body.get(\"error_description\", body.get(\"error\", \"unknown error\"))\n+            return ASGIResponse(\n+                body=f\"OAuth token exchange failed: {error}\".encode(),\n+                media_type=\"text/plain\",\n+                status_code=400,\n+            )\n     return ASGIResponse(body=(CALLBACK_HTML % token).encode(), media_type=\"text/html\")\n \n \n&#96;&#96;&#96;\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"4\"\u003e\n\u003ctitle\u003eGitHub - sveltia/sveltia-cms-auth: Cloudflare Workers script that allows Sveltia CMS users to authenticate with GitHub. · GitHub\u003c/title\u003e\n\u003curl\u003ehttps://github.com/sveltia/sveltia-cms-auth\u003c/url\u003e\n\u003ccontent\u003eThis simple Cloudflare Workers script allows Sveltia CMS users to authenticate with GitHub.\n...\nIn most cases, you don’t need this authenticator. Sveltia CMS supports multiple authentication methods for GitHub and GitLab, so you can choose the one that best suits your needs without having to set up this OAuth client.\n...\nGitHub plans to support client-side PKCE authorization soon. Once that’s available, this authenticator will be deprecated since Sveltia CMS will be able to authenticate directly with GitHub without a backend, just like it already does with GitLab.\n...\nOnce deployed, open your Cloudflare Workers dashboard, select the&#96;sveltia-cms-auth&#96; service, then the worker URL (&#96;https://sveltia-cms-auth..workers.dev&#96;) will be displayed. Copy it for Step 2. It will also be used in Step 4.\n...\nRegister a new OAuth application on GitHub (details) with the following properties, including your Worker URL from Step 1:\n...\n- Application name:&#96;Sveltia CMS Authenticator&#96;(or whatever)\n- Homepage URL:&#96;https://github.com/sveltia/sveltia-cms-auth&#96;(or whatever)\n- Application description: (can be left empty)\n- Authorization callback URL:&#96;\u003cYOUR_WORKER_URL\u003e/callback&#96;\n...\nOnce registered, click on the Generate a new client secret button. The app’s Client ID and Client Secret will be displayed. We’ll use them in Step 3 below.\n...\nsveltia-cms-auth\n...\nthe Cloudflare dashboard, select Settings \u003e\n...\n, and add the\n...\nto your worker (details\n...\n- &#96;GITHUB_CLIENT_ID&#96;: Client ID from Step 2\n- &#96;GITHUB_CLIENT_SECRET&#96;: Client Secret from Step 2; click the Encrypt button to hide it\n- &#96;GITHUB_HOSTNAME&#96;: Required only if you’re using GitHub Enterprise Server. Default:&#96;github.com&#96;\n...\nOpen&#96;admin/config.yml&#96; locally or remotely, and add your Worker URL from Step 1 as the new&#96;base_url&#96; property under&#96;backend&#96;:\n...\n&#96;&#96;&#96;\n backend:\n   name: github # or gitlab\n   repo: username/repo\n   branch: main\n+  base_url: \u003cYOUR_WORKER_URL\u003e\n&#96;&#96;&#96;\n...\nCommit the change. Once deployed, you can\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"5\"\u003e\n\u003ctitle\u003esveltia/sveltia-cms-auth\u003c/title\u003e\n\u003curl\u003ehttps://github.com/sveltia/sveltia-cms-auth?tab=readme-ov-file\u003c/url\u003e\n\u003ccontent\u003eThis simple [Cloudflare Workers](https://workers.cloudflare.com/) script allows [Sveltia CMS](https://github.com/sveltia/sveltia-cms) users to authenticate with [GitHub](https://docs.github.com/en/apps/oauth-apps/building-oauth-apps/authorizing-oauth-apps) (or [GitLab](https://docs.gitlab.com/ee/api/oauth2.html#authorization-code-flow)).\n...\n- You or technical users are the only users of your CMS instance\n - Use the [access token method](https://sveltiacms.app/en/docs/backends/github#access-token) instead.\n...\n[!NOTE\n...\n\u003e GitHub plans to support [client\n...\nside PKCE authorization](\n...\n1153)\n...\n. Once that’s available, this\n...\nicator will be deprecated since Sveltia CMS will be able to authenticate directly with GitHub without a backend, just like it already does with GitLab.\n...\n[Register a new OAuth application](https://github.com/settings/applications/new) on GitHub ([details](https://docs.github.com/en/apps/oauth-apps/building-oauth-apps/creating-an-oauth-app)) with the following properties, including your Worker URL from Step 1:\n...\n- Application name: &#96;Sveltia CMS Authenticator&#96; (or whatever)\n- Homepage URL: &#96;https://github.com/sveltia/sveltia-cms-auth&#96; (or whatever)\n- Application description: (can be left empty)\n- Authorization callback URL: &#96;\u003cYOUR_WORKER_URL\u003e/callback&#96;\n...\nOnce registered, click on the **Generate a new client secret** button. The app’s **Client ID** and **Client Secret** will be displayed. We’ll use them in Step 3 below.\n...\n- &#96;GITHUB_CLIENT_ID&#96;: **Client ID** from Step 2\n- &#96;GITHUB_CLIENT_SECRET&#96;: **Client Secret** from Step 2; click the **Encrypt** button to hide it\n- &#96;GITHUB_HOSTNAME&#96;: Required only if you’re using GitHub Enterprise Server. Default: &#96;github.com&#96;\n...\nOpen &#96;admin/config.yml&#96; locally or remotely, and add your Worker URL from Step 1 as the new &#96;base_url&#96; property under &#96;backend&#96;:\n...\n&#96;&#96;&#96;diff\n backend:\n   name: github # or gitlab\n   repo: username/repo\n   branch: main\n+  base_url: \u003cYOUR_WORKER_URL\u003e\n&#96;&#96;&#96;\u003c/content\u003e\n\u003c/result\u003e",
+      "chunk": "Links:\n1. [GitHub - sveltia/sveltia-cms: Git-based headless CMS. Successor to Netlify CMS (now Decap CMS). Modern UX, first-class i18n support, mobile support + 100s of improvements. Framework-agnostic, open source \u0026 free. · GitHub](https://github.com/sveltia/sveltia-cms)\n2. [GitHub Backend | Sveltia CMS](https://sveltiacms.app/en/docs/backends/github)\n3. [fix: oauth callback postMessage for Sveltia CMS compatibility · 865d2f9 · psf/wiki](https://github.com/psf/wiki/commit/865d2f9df04395e517515992601b32923949dda3)\n4. [GitHub - sveltia/sveltia-cms-auth: Cloudflare Workers script that allows Sveltia CMS users to authenticate with GitHub. · GitHub](https://github.com/sveltia/sveltia-cms-auth)\n5. [sveltia/sveltia-cms-auth](https://github.com/sveltia/sveltia-cms-auth?tab=readme-ov-file)\n\nSynthesis:\nSveltia CMS is a Git-based headless content management system designed as a modern successor to Netlify and Decap CMS [1].\n\nFor GitHub authentication via authorization code flow, you generally need a backend OAuth client to exchange codes for tokens [2]. Sveltia CMS communicates with the authentication popup using the postMessage protocol [3]. When the popup completes the OAuth flow, it sends a success message-typically authorization:github:success:[data]-to the parent window to finalize authentication [3]. You can configure this via the base_url property in your config.yml, pointing to your OAuth client's URL [2][4].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eGitHub - sveltia/sveltia-cms: Git-based headless CMS. Successor to Netlify CMS (now Decap CMS). Modern UX, first-class i18n support, mobile support + 100s of improvements. Framework-agnostic, open source \u0026 free. · GitHub\u003c/title\u003e\n\u003curl\u003ehttps://github.com/sveltia/sveltia-cms\u003c/url\u003e\n\u003ccontent\u003eGitHub - sveltia/sveltia-cms: Git-based headless CMS. Successor to Netlify CMS (now Decap CMS). Modern UX, first-class i18n support, mobile support + 100s of improvements. Framework-agnostic, open source \u0026 free. · GitHub\n...\n# Sveltia CMS\n...\nSveltia CMS is a free, open-source, Git-based headless content management system for Jamstack sites. It’s a complete rewrite of Netlify CMS, now known as Decap CMS.\n...\nDesigned for content editors and developers alike, Sveltia CMS delivers a modern UX/DX, powerful features, and first-class internationalization (i18n) support - all in a small, maintenance-free, single-page web application served from a CDN. Its framework-agnostic, generic-purpose approach makes it suitable for a wide range of projects, from personal blogs and portfolios to marketing sites and knowledge bases.\n...\nAs the de facto successor to Netlify CMS, Sveltia CMS addresses 300+ longstanding issues while maintaining high compatibility with existing installations. It far surpasses the neglected official successor, Decap CMS. More and more projects, including a U.S. government website, are switching from Netlify/Decap CMS to Sveltia CMS to benefit from its significantly improved performance, security, reliability, and experience.\n...\nWe provide comprehensive documentation to help you get started and make the most of Sveltia CMS:\n...\n- Introduction: Product highlights, use cases, project goals\n- Getting Started: Step-by-step setup instructions\n- Migration Guides: Instructions for migrating from other CMSs\n- Roadmap: Upcoming features and improvements\n...\nSuccessor to Netlify CMS (now Decap CMS). Modern UX, first-class i18n support, mobile support + 100s of improvements. Framework-agnostic, open source \u0026 free.\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"2\"\u003e\n\u003ctitle\u003eGitHub Backend | Sveltia CMS\u003c/title\u003e\n\u003curl\u003ehttps://sveltiacms.app/en/docs/backends/github\u003c/url\u003e\n\u003ccontent\u003eThere are multiple ways to\n...\nis used by multiple users or non\n...\nusers because it\n...\ns more user\n...\nfriendly and secure.\n...\n### Authorization Code Flow\n...\nThe authorization code flow requires you to set up an OAuth app on GitHub and deploy an OAuth client server to handle the authentication process.\n...\nThere are multiple options for the OAuth client, including our own Sveltia CMS Authenticator, third-party OAuth clients made for Netlify/Decap CMS, or using Netlify as an OAuth provider.\n...\n#### Using Sveltia CMS Authenticator\n...\nWe provide our own OAuth client called Sveltia CMS Authenticator that you can deploy on Cloudflare Workers. Follow the instructions in the repository to deploy the authenticator and update your CMS configuration file to include the &#96;base_url&#96; option pointing to your authenticator URL:\n...\n&#96;&#96;&#96;yaml [YAML]{4}\nbackend:\n  name: github\n  repo: owner/repo\n  base_url: YOUR_CLIENT_URL # URL of your OAuth client\n...\n#### Using Third-Party OAuth Client\n...\nYou can also use third-party OAuth clients made for Netlify/Decap CMS. These clients support various languages and hosting services, and they should work with Sveltia CMS as well without any modifications.\n...\nThe setup process is similar to using Sveltia CMS Authenticator. You need to register a new OAuth app on GitHub and configure the third-party client with the app credentials. Then, update your CMS configuration to include the &#96;base_url&#96; option pointing to your OAuth client URL, like in the example above.\n...\n#### Using Net\n...\nFor backward compatibility with Netlify CMS, Sveltia CMS supports the authorization code flow using Netlify as an OAuth client. It’s the default authentication method if you don’t configure authentication explicitly, and you don’t need to set up a backend server yourself.\n...\nIf you’re a Netlify\n...\n, follow the official guide to register a new OAuth app on GitHub and link it to your Netlify site. No configuration changes are needed in Sveltia CMS.\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"3\"\u003e\n\u003ctitle\u003efix: oauth callback postMessage for Sveltia CMS compatibility · 865d2f9 · psf/wiki\u003c/title\u003e\n\u003curl\u003ehttps://github.com/psf/wiki/commit/865d2f9df04395e517515992601b32923949dda3\u003c/url\u003e\n\u003ccontent\u003e## fix: oauth callback postMessage for Sveltia CMS compatibility\n...\nSupport both Sveltia CMS protocol (parent sends authorizing:github to\npopup) and Decap CMS protocol (popup notifies parent first). Also handle\nGitHub rejecting reused auth codes gracefully instead of 500ing.\n...\n&#96;&#96;&#96;diff\n@@ -35,18 +35,23 @@\n (function() {\n   const token = \"%s\";\n   const data = JSON.stringify({token: token, provider: \"github\"});\n+  const msg = \"authorization:github:success:\" + data;\n \n-  // Sveltia/Decap CMS sends \"authorizing:github\" to the popup;\n-  // the popup replies with the token and closes itself.\n+  function sendToken(origin) {\n+    window.opener.postMessage(msg, origin || \"*\");\n+    window.close();\n+  }\n+\n+  // Listen for \"authorizing:github\" from the parent (Sveltia CMS protocol)\n   window.addEventListener(\"message\", function(e) {\n     if (e.data === \"authorizing:github\") {\n-      window.opener.postMessage(\n-        \"authorization:github:success:\" + data,\n-        e.origin\n-      );\n-      window.close();\n+      sendToken(e.origin);\n     }\n   }, false);\n+\n+  // Also notify the parent we're ready (Decap CMS protocol),\n+  // which triggers it to send \"authorizing:github\" back to us.\n+  window.opener.postMessage(\"authorizing:github\", \"*\");\n })();\n \u003c/script\u003e\u003c/body\u003e\u003c/html\u003e\n \"\"\"\n...\n-        token = resp.json()[\"access_token\"]\n+        body = resp.json()\n+        token = body.get(\"access_token\")\n+        if not token:\n+            error = body.get(\"error_description\", body.get(\"error\", \"unknown error\"))\n+            return ASGIResponse(\n+                body=f\"OAuth token exchange failed: {error}\".encode(),\n+                media_type=\"text/plain\",\n+                status_code=400,\n+            )\n     return ASGIResponse(body=(CALLBACK_HTML % token).encode(), media_type=\"text/html\")\n \n \n&#96;&#96;&#96;\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"4\"\u003e\n\u003ctitle\u003eGitHub - sveltia/sveltia-cms-auth: Cloudflare Workers script that allows Sveltia CMS users to authenticate with GitHub. · GitHub\u003c/title\u003e\n\u003curl\u003ehttps://github.com/sveltia/sveltia-cms-auth\u003c/url\u003e\n\u003ccontent\u003eThis simple Cloudflare Workers script allows Sveltia CMS users to authenticate with GitHub.\n...\nIn most cases, you don’t need this authenticator. Sveltia CMS supports multiple authentication methods for GitHub and GitLab, so you can choose the one that best suits your needs without having to set up this OAuth client.\n...\nGitHub plans to support client-side PKCE authorization soon. Once that’s available, this authenticator will be deprecated since Sveltia CMS will be able to authenticate directly with GitHub without a backend, just like it already does with GitLab.\n...\nOnce deployed, open your Cloudflare Workers dashboard, select the&#96;sveltia-cms-auth&#96; service, then the worker URL (&#96;https://sveltia-cms-auth..workers.dev&#96;) will be displayed. Copy it for Step 2. It will also be used in Step 4.\n...\nRegister a new OAuth application on GitHub (details) with the following properties, including your Worker URL from Step 1:\n...\n- Application name:&#96;Sveltia CMS Authenticator&#96;(or whatever)\n- Homepage URL:&#96;https://github.com/sveltia/sveltia-cms-auth&#96;(or whatever)\n- Application description: (can be left empty)\n- Authorization callback URL:&#96;\u003cYOUR_WORKER_URL\u003e/callback&#96;\n...\nOnce registered, click on the Generate a new client secret button. The app’s Client ID and Client Secret will be displayed. We’ll use them in Step 3 below.\n...\nsveltia-cms-auth\n...\nthe Cloudflare dashboard, select Settings \u003e\n...\n, and add the\n...\nto your worker (details\n...\n- &#96;GITHUB_CLIENT_ID&#96;: Client ID from Step 2\n- &#96;GITHUB_CLIENT_SECRET&#96;: Client Secret from Step 2; click the Encrypt button to hide it\n- &#96;GITHUB_HOSTNAME&#96;: Required only if you’re using GitHub Enterprise Server. Default:&#96;github.com&#96;\n...\nOpen&#96;admin/config.yml&#96; locally or remotely, and add your Worker URL from Step 1 as the new&#96;base_url&#96; property under&#96;backend&#96;:\n...\n&#96;&#96;&#96;\n backend:\n   name: github # or gitlab\n   repo: username/repo\n   branch: main\n+  base_url: \u003cYOUR_WORKER_URL\u003e\n&#96;&#96;&#96;\n...\nCommit the change. Once deployed, you can\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"5\"\u003e\n\u003ctitle\u003esveltia/sveltia-cms-auth\u003c/title\u003e\n\u003curl\u003ehttps://github.com/sveltia/sveltia-cms-auth?tab=readme-ov-file\u003c/url\u003e\n\u003ccontent\u003eThis simple [Cloudflare Workers](https://workers.cloudflare.com/) script allows [Sveltia CMS](https://github.com/sveltia/sveltia-cms) users to authenticate with [GitHub](https://docs.github.com/en/apps/oauth-apps/building-oauth-apps/authorizing-oauth-apps) (or [GitLab](https://docs.gitlab.com/ee/api/oauth2.html#authorization-code-flow)).\n...\n- You or technical users are the only users of your CMS instance\n - Use the [access token method](https://sveltiacms.app/en/docs/backends/github#access-token) instead.\n...\n[!NOTE\n...\n\u003e GitHub plans to support [client\n...\nside PKCE authorization](\n...\n1153)\n...\n. Once that’s available, this\n...\nicator will be deprecated since Sveltia CMS will be able to authenticate directly with GitHub without a backend, just like it already does with GitLab.\n...\n[Register a new OAuth application](https://github.com/settings/applications/new) on GitHub ([details](https://docs.github.com/en/apps/oauth-apps/building-oauth-apps/creating-an-oauth-app)) with the following properties, including your Worker URL from Step 1:\n...\n- Application name: &#96;Sveltia CMS Authenticator&#96; (or whatever)\n- Homepage URL: &#96;https://github.com/sveltia/sveltia-cms-auth&#96; (or whatever)\n- Application description: (can be left empty)\n- Authorization callback URL: &#96;\u003cYOUR_WORKER_URL\u003e/callback&#96;\n...\nOnce registered, click on the **Generate a new client secret** button. The app’s **Client ID** and **Client Secret** will be displayed. We’ll use them in Step 3 below.\n...\n- &#96;GITHUB_CLIENT_ID&#96;: **Client ID** from Step 2\n- &#96;GITHUB_CLIENT_SECRET&#96;: **Client Secret** from Step 2; click the **Encrypt** button to hide it\n- &#96;GITHUB_HOSTNAME&#96;: Required only if you’re using GitHub Enterprise Server. Default: &#96;github.com&#96;\n...\nOpen &#96;admin/config.yml&#96; locally or remotely, and add your Worker URL from Step 1 as the new &#96;base_url&#96; property under &#96;backend&#96;:\n...\n&#96;&#96;&#96;diff\n backend:\n   name: github # or gitlab\n   repo: username/repo\n   branch: main\n+  base_url: \u003cYOUR_WORKER_URL\u003e\n&#96;&#96;&#96;\u003c/content\u003e\n\u003c/result\u003e",
       "title": "Web search results"
     }
   ],
@@ -6251,7 +6251,7 @@ Status: **completed**
 
 _**Agent (default)**_
 
-Two separate problems — one config, one code.
+Two separate problems - one config, one code.
 
 ## 1. Missing Cloudflare env vars (blocks sign-in today)
 
@@ -6266,8 +6266,8 @@ So `GITHUB_CLIENT_ID` and `GITHUB_CLIENT_SECRET` are not set in Cloudflare Pages
 **Fix in Cloudflare dashboard:**
 1. Pages → **jorap-com** → **Settings** → **Environment variables**
 2. Add for **Production** (and Preview if you use it):
-   - `GITHUB_CLIENT_ID` — from your GitHub OAuth app
-   - `GITHUB_CLIENT_SECRET` — mark as encrypted
+   - `GITHUB_CLIENT_ID` - from your GitHub OAuth app
+   - `GITHUB_CLIENT_SECRET` - mark as encrypted
 3. Redeploy (env var changes need a new deployment)
 
 **GitHub OAuth app** (Settings → Developer settings → OAuth Apps) must have:
@@ -6285,8 +6285,8 @@ The old `callback.js` used Decap CMS’s `postMessage` format (a JSON object wit
 So even with valid credentials, GitHub auth could succeed and Sveltia would still sit there waiting.
 
 I updated both functions:
-- **`functions/api/callback.js`** — Sveltia-compatible postMessage (matches [sveltia-cms-auth](https://github.com/sveltia/sveltia-cms-auth)), plus `redirect_uri` on token exchange
-- **`functions/api/auth.js`** — clear error if env vars are missing, passes through `scope` from Sveltia
+- **`functions/api/callback.js`** - Sveltia-compatible postMessage (matches [sveltia-cms-auth](https://github.com/sveltia/sveltia-cms-auth)), plus `redirect_uri` on token exchange
+- **`functions/api/auth.js`** - clear error if env vars are missing, passes through `scope` from Sveltia
 
 ## What to do now
 
@@ -6294,7 +6294,7 @@ I updated both functions:
 2. Deploy the function changes
 3. Try **Sign in with GitHub** again
 
-Quick sanity check after deploy: visit `https://www.jorap.com/api/auth` — you should redirect to GitHub with a real client ID, not `undefined`.
+Quick sanity check after deploy: visit `https://www.jorap.com/api/auth` - you should redirect to GitHub with a real client ID, not `undefined`.
 
 ---
 
@@ -6311,7 +6311,7 @@ Environment variables are configured in wrangler.toml. Only encrypted secrets ar
 
 _**Agent (default)**_
 
-Cloudflare is managing env vars via `wrangler.toml`, not the dashboard — I'll check that config and how secrets should be set.
+Cloudflare is managing env vars via `wrangler.toml`, not the dashboard - I'll check that config and how secrets should be set.
 
 
 _**Agent (default)**_
@@ -6642,18 +6642,18 @@ _**Agent (default)**_
 
 _**Agent (default)**_
 
-Good catch — with wrangler-managed config, the dashboard is only for **secrets**, not plain vars.
+Good catch - with wrangler-managed config, the dashboard is only for **secrets**, not plain vars.
 
 ## What to set where
 
 | Variable | Where | How |
 |----------|--------|-----|
-| `GITHUB_CLIENT_ID` | `wrangler.toml` | `[vars]` — public, safe in git |
+| `GITHUB_CLIENT_ID` | `wrangler.toml` | `[vars]` - public, safe in git |
 | `GITHUB_CLIENT_SECRET` | Encrypted secret | Dashboard **or** Wrangler CLI |
 
 ## Steps
 
-**1. Client ID** — edit `wrangler.toml`:
+**1. Client ID** - edit `wrangler.toml`:
 
 ```toml
 [vars]
@@ -6662,7 +6662,7 @@ GITHUB_CLIENT_ID = "your_github_oauth_client_id"
 
 Commit and deploy.
 
-**2. Client secret** — one-time, encrypted (pick one):
+**2. Client secret** - one-time, encrypted (pick one):
 
 ```bash
 pnpm exec wrangler pages secret put GITHUB_CLIENT_SECRET --project-name jorap-com
@@ -6672,11 +6672,11 @@ Or in the dashboard: Pages → **jorap-com** → **Settings** → **Variables an
 
 **3. Redeploy** after both are set.
 
-**4. Sanity check:** open `https://www.jorap.com/api/auth` — the redirect should have a real `client_id=...`, not `undefined` or empty.
+**4. Sanity check:** open `https://www.jorap.com/api/auth` - the redirect should have a real `client_id=...`, not `undefined` or empty.
 
 ---
 
-I updated `wrangler.toml` with the `[vars]` / `[secrets]` scaffold, fixed the docs, and pointed the auth error message at wrangler instead of the dashboard. Paste your GitHub OAuth Client ID into `wrangler.toml` and add the secret — that’s why sign-in was failing (`client_id=undefined` on the live redirect).
+I updated `wrangler.toml` with the `[vars]` / `[secrets]` scaffold, fixed the docs, and pointed the auth error message at wrangler instead of the dashboard. Paste your GitHub OAuth Client ID into `wrangler.toml` and add the secret - that’s why sign-in was failing (`client_id=undefined` on the live redirect).
 
 ---
 
@@ -6699,7 +6699,7 @@ You get `GITHUB_CLIENT_ID` from a **GitHub OAuth App** tied to your site.
 
 1. Go to [GitHub → Settings → Developer settings → OAuth Apps](https://github.com/settings/developers)
 2. Open your app (e.g. “JoRap CMS”)
-3. Copy **Client ID** — that’s `GITHUB_CLIENT_ID`
+3. Copy **Client ID** - that’s `GITHUB_CLIENT_ID`
 
 Make sure these match your live site:
 - **Homepage URL:** `https://www.jorap.com`
@@ -6733,9 +6733,9 @@ pnpm exec wrangler pages secret put GITHUB_CLIENT_SECRET --project-name jorap-co
 ---
 
 **Client ID** = public, goes in `wrangler.toml`  
-**Client secret** = private, only as a Pages secret — never commit it
+**Client secret** = private, only as a Pages secret - never commit it
 
-After deploy, check `https://www.jorap.com/api/auth` — the redirect should show your real client ID, not `undefined`.
+After deploy, check `https://www.jorap.com/api/auth` - the redirect should show your real client ID, not `undefined`.
 
 ---
 
@@ -6753,7 +6753,7 @@ Icons are missing from the Sveltia CMS admin interface.</details></think>
 
 _**Agent (default)**_
 
-Icons use Material Symbols — likely blocked by the admin CSP not allowing Google Fonts. Checking the current policy.
+Icons use Material Symbols - likely blocked by the admin CSP not allowing Google Fonts. Checking the current policy.
 
 
 _**Agent (default)**_
@@ -6851,7 +6851,7 @@ The current Content Security Policy blocks `fonts.gstatic.com` and `fonts.google
 
 _**Agent (default)**_
 
-Icons are Material Symbols from Google Fonts — the admin CSP only allows `'self'` and `data:` for fonts, so they're blocked. Adding `fonts.googleapis.com` and `fonts.gstatic.com` to the admin policy.
+Icons are Material Symbols from Google Fonts - the admin CSP only allows `'self'` and `data:` for fonts, so they're blocked. Adding `fonts.googleapis.com` and `fonts.gstatic.com` to the admin policy.
 
 
 _**Agent (default)**_
@@ -6901,14 +6901,14 @@ _**Agent (default)**_
 
 Icons were blocked by CSP, not a Sveltia bug.
 
-Sveltia uses **Material Symbols** from Google Fonts — those `<span class="material-symbols-outlined">article</span>` elements are ligature icons, not SVGs. They need:
+Sveltia uses **Material Symbols** from Google Fonts - those `<span class="material-symbols-outlined">article</span>` elements are ligature icons, not SVGs. They need:
 
 - Stylesheet: `fonts.googleapis.com`
 - Font files: `fonts.gstatic.com`
 
 The admin CSP only allowed `font-src 'self' data:`, so the font never loaded and icons showed as blank (or as raw text like "article", "search").
 
-**Fix applied** — added Google Fonts to the admin CSP in both places (they must stay in sync):
+**Fix applied** - added Google Fonts to the admin CSP in both places (they must stay in sync):
 
 - `font-src … https://fonts.gstatic.com`
 - `style-src … https://fonts.googleapis.com`
@@ -6919,4 +6919,4 @@ Deploy this change, then hard-refresh `/admin/` (Ctrl+Shift+R). Icons should app
 1. Console → look for CSP errors mentioning `fonts.gstatic.com` or `fonts.googleapis.com`
 2. Network → filter "font" → confirm Material Symbols loads with 200
 
-You're signed in and seeing blog posts, so OAuth is working — this was just the font allowlist.
+You're signed in and seeing blog posts, so OAuth is working - this was just the font allowlist.

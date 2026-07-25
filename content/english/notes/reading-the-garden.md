@@ -1,0 +1,70 @@
+---
+title: "Reading the Garden"
+meta_title: "Reading the Garden - Wiki and Drill"
+description: "Learn in two lanes - wiki for understanding, cards for recall when life shows up."
+key_concept: |
+  - Learn from the garden in two lanes - wiki for understanding, cards for drill.
+  - Level 1: Read one note at a time for the idea, then drill the cards when you need the move under pressure - not one long scroll pretending you studied.
+  - Level 2: Each page stacks in order - definition, angle, two scenes, shareable thoughts, then links - like reading a recipe card before you cook, not skimming the whole cookbook.
+  - Level 3: One pass is not enough for hard ideas - skim the definition first, return for the angle, follow links for context, drill cards for recall; [[Layered Reading]] names the passes.
+  - Level 4: Success is recall and use when it matters - retention, application, explanation - not tab count or review streak length.
+  - Level 5: Wiki holds prose you can defend; ~20% spine notes opt into cards at [/notes/review/](/notes/review/) - same split as [[Spaced Repetition]]; [[Periodic Knowledge Review]] calendars the graph, cards handle timed drill.
+  - Read top to bottom on one note: `description`, `key_concept`, `examples`, shareable thoughts, relationships, then neighbors and backlinks.
+  - PKM track: start at [[Maps of Content]] or [[Getting Started]]; faith track: [[Eternal Principles]] then [[Free Grace]] when order matters.
+  - Drill lane: life cue on the card front, immediate move on the back - produce the answer before you flip.
+  - Question that matters: can I recall and use this when it matters?
+examples:
+  - "Opened six gospel tabs Sunday and could not quote one claim Monday - one note, description first, then drill at /notes/review/."
+  - "Kid asked why I forgive at work and I scrolled shareable thoughts until I found the line - should have drilled the card Tuesday so the move was already loaded."
+shareable_thought:
+  - "Learn in two lanes - wiki for understanding, cards for recall when life shows up."
+  - "Learn from the garden in two lanes - wiki for understanding, cards for drill."
+  - "Success is recall and use when it matters - retention, application, explanation - not tab count or review streak length."
+  - "Drill lane: life cue on the card front, immediate move on the back - produce the answer before you flip."
+relationships:
+  - type: contradicts
+    wikilink: "[[The Collector's Fallacy]]"
+    reason: "when saving and scrolling replaces recall and use"
+  - type: extends
+    wikilink: "[[Active Reading]]"
+    reason: "Mark and extract on external sources; this note is the garden read order"
+  - type: extends
+    wikilink: "[[Atomic Notes]]"
+    reason: "Field stack on each page - description, angle, scenes, links"
+  - type: extends
+    wikilink: "[[Eternal Principles]]"
+    reason: "Faith entry hub - gospel cards share the drill lane"
+  - type: extends
+    wikilink: "[[Layered Reading]]"
+    reason: "Skim, angle, links - same source, increasing depth"
+  - type: extends
+    wikilink: "[[Periodic Knowledge Review]]"
+    reason: "Calendar revisit for the graph; cards handle timed drill"
+  - type: extends
+    wikilink: "[[Spaced Repetition]]"
+    reason: "Drill lane on rhythm - wiki vs cards split"
+slug: "reading-the-garden"
+date: "2026-07-25 12:00:00+08:00"
+image: "/images/note.jpg"
+categories: ["Productivity"]
+author: "JoRap"
+tags: ["PKM", "Learning", "Notes", "Digital Garden", "Flashcards", "Second Brain"]
+aliases: ["learn from notes", "garden learning"]
+featured: false
+review: true
+card_sets: ["Focus", "Review"]
+cards:
+  - front: "Six note tabs open Sunday - cannot quote one claim Monday."
+    back: "One note - description first."
+  - front: "Scrolled shareable thoughts but the real test is tomorrow at work."
+    back: "Drill cards - produce the back first."
+  - front: "Finished key concept once and called it studied."
+    back: "Second pass - examples and links."
+  - front: "Gospel section feels huge - where do I start when order matters?"
+    back: "Free Grace first - then wander."
+  - front: "Tempted to marathon every card tonight before bed."
+    back: "Ten minutes at /notes/review/ - stop."
+  - front: "Wiki scroll feels productive but life still caught me flat."
+    back: "Recall test - cover the card, say the move."
+draft: false
+---

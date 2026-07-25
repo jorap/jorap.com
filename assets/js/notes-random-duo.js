@@ -47,7 +47,7 @@
     promptEl: promptEl,
     copyPromptBtn: copyPromptBtn,
     openedLabel: "Opened",
-    copiedLabel: "Copied — paste in chat",
+    copiedLabel: "Copied - paste in chat",
   });
 
   function pickTwo() {

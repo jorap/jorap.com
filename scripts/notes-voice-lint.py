@@ -185,11 +185,11 @@ def hit_message(hit: Hit) -> str:
         return f"{hit.field}: AI-slop phrase"
     if hit.kind == "gloss":
         gloss = hit.hint or "add plain gloss"
-        return f"{hit.field}: `{hit.match}` — {gloss}"
+        return f"{hit.field}: `{hit.match}` - {gloss}"
     if hit.kind == "review":
-        say = f" — try: {hit.hint}" if hit.hint else ""
+        say = f" - try: {hit.hint}" if hit.hint else ""
         return f"{hit.field}: review `{hit.match}`{say}"
-    say = f" — try: {hit.hint}" if hit.hint else ""
+    say = f" - try: {hit.hint}" if hit.hint else ""
     return f"{hit.field}: AI-tell word `{hit.match}`{say}"
 
 
@@ -200,7 +200,7 @@ def is_strict(hit: Hit) -> bool:
 def print_summary(hits: list[Hit], file_count: int) -> None:
     strict = [h for h in hits if is_strict(h)]
     review = [h for h in hits if h.kind == "review"]
-    print(f"Voice scan — {file_count} files, {len(strict)} strict, {len(review)} review-only")
+    print(f"Voice scan - {file_count} files, {len(strict)} strict, {len(review)} review-only")
     print(f"Word list: {VOICE_WORDS.relative_to(ROOT)}")
     print()
 
@@ -231,7 +231,7 @@ def print_summary(hits: list[Hit], file_count: int) -> None:
     if not hits:
         print("No voice flags. Plain words only.")
     else:
-        print("pnpm lint:voice — fail CI on strict hits")
+        print("pnpm lint:voice - fail CI on strict hits")
 
 
 def _self_check() -> None:

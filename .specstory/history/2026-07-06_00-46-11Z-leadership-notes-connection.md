@@ -21,7 +21,7 @@ Adding a note on leadership as influence. Existing notes will be connected. New 
 
 _**Agent (auto-low)**_
 
-I'll add a "Leadership is influence" note and wire it into your notes garden — first I'm checking how notes are structured and what leadership-related notes already exist.
+I'll add a "Leadership is influence" note and wire it into your notes garden - first I'm checking how notes are structured and what leadership-related notes already exist.
 
 
 _**Agent (auto-low)**_
@@ -1381,11 +1381,11 @@ Added a small leadership-influence cluster and wired it into your garden.
 
 ### New notes
 
-1. **[Leadership Is Influence](content/english/notes/leadership-is-influence.md)** — core claim: leadership is influence; if nobody's following, you're walking alone. Connects to `Leadership`, `Servant Leadership`, `Ethical Leadership`, `Discipleship vs Leadership`, and `Follow Christ, Then Lead`. Six review cards.
+1. **[Leadership Is Influence](content/english/notes/leadership-is-influence.md)** - core claim: leadership is influence; if nobody's following, you're walking alone. Connects to `Leadership`, `Servant Leadership`, `Ethical Leadership`, `Discipleship vs Leadership`, and `Follow Christ, Then Lead`. Six review cards.
 
-2. **[Influence Without Title](content/english/notes/influence-without-title.md)** — the positive case: people follow trust before badges (line cook, blackout neighbor). Pairs with the main note as `alternative` to Title Without Influence.
+2. **[Influence Without Title](content/english/notes/influence-without-title.md)** - the positive case: people follow trust before badges (line cook, blackout neighbor). Pairs with the main note as `alternative` to Title Without Influence.
 
-3. **[Title Without Influence](content/english/notes/title-without-influence.md)** — the hollow badge: meetings that change nothing, crew waiting out directives. `contradicts` Leadership Is Influence; repair path through servant leadership.
+3. **[Title Without Influence](content/english/notes/title-without-influence.md)** - the hollow badge: meetings that change nothing, crew waiting out directives. `contradicts` Leadership Is Influence; repair path through servant leadership.
 
 ### Updated connections
 
@@ -1397,9 +1397,9 @@ Added a small leadership-influence cluster and wired it into your garden.
 
 | Note | Role |
 |------|------|
-| **Leadership** | What you take on — direction, pace, care |
-| **Leadership Is Influence** | The test — are they actually following? |
+| **Leadership** | What you take on - direction, pace, care |
+| **Leadership Is Influence** | The test - are they actually following? |
 | **Influence Without Title** | Earned followership before the badge |
-| **Title Without Influence** | Badge without trust — not leading |
+| **Title Without Influence** | Badge without trust - not leading |
 
 All three new notes pass frontmatter, voice, and card lint. Say if you want this committed or published.

@@ -6,7 +6,7 @@ key_concept: |
   - If I cannot explain the path back in one sentence, I am not ready to ship.
   - Level 1: If you cannot say in one sentence how to undo a change, you are not ready to release it yet.
   - Level 2: If you cannot say in one sentence how you would undo a change, you are not ready to release it yet.
-  - Level 3: One-sentence path back - gate before ship, not postmortem invention.
+  - Level 3: One-sentence path back - gate before ship, not review-room invention.
   - Level 4: Because production surprises are guaranteed, rollback clarity is readiness, not pessimism.
   - Level 5: If I cannot explain the path back in one sentence, I am not ready to ship - pairs with [[Reversibility]] and [[Safety by Design]].
   - [[Reversibility]] is the decision frame; rollback is the rehearsed move.
@@ -79,6 +79,10 @@ cards:
     back: "Keep undo path - not two more weeks."
   - front: "New play bled points at halftime - Tuesday's inbound ready. Move?"
     back: "Run the drill we already walked."
+  - front: "Bad deploy Friday night - pride says push through the weekend."
+    back: "Revert first - after-action when calm."
+  - front: "New rule on the fridge - old routine still taped beside it."
+    back: "Keep undo path - ladles not lectures."
 draft: false
 ---
 

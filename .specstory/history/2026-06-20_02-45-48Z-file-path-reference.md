@@ -20,7 +20,7 @@ The error originates in the 404 page template. It fails while rendering `partial
 
 _**Agent (default)**_
 
-Investigating the Hugo build error in `style.html` — `resources.Concat` is receiving the wrong slice type.
+Investigating the Hugo build error in `style.html` - `resources.Concat` is receiving the wrong slice type.
 
 
 _**Agent (default)**_
@@ -450,7 +450,7 @@ Upstream changes affected the home page and about page.
 
 _**Agent (default)**_
 
-Upstream likely touched the home and about layouts or content — I'll read the sync-upstreams skill and compare those pages with what's in the repo now.
+Upstream likely touched the home and about layouts or content - I'll read the sync-upstreams skill and compare those pages with what's in the repo now.
 
 
 _**Agent (default)**_

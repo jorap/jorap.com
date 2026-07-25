@@ -934,11 +934,11 @@ _**Agent (composer-2.5-fast)**_
 **Files edited:** 43  
 **Skipped:** 0
 
-Every note in `data/feynman-batch-2.json` got a new second bullet in `key_concept` — plain-language restatement of bullet 1 for a grade-6 reader. Bullet 1 is unchanged; prior bullets 2+ moved down. Bible shortcodes and blank lines were kept where they already existed.
+Every note in `data/feynman-batch-2.json` got a new second bullet in `key_concept` - plain-language restatement of bullet 1 for a grade-6 reader. Bullet 1 is unchanged; prior bullets 2+ moved down. Bible shortcodes and blank lines were kept where they already existed.
 
 Examples of the new bullets:
 
-- **grace** — "God saved you as a free gift because you trust Him, not because you earned enough good points."
-- **growth-mindset** — "Saying you missed three shots is just counting what happened - saying you are bad at basketball sounds like you can never get better."
-- **heart-righteousness** — "God cares about anger and lust in your heart, not just whether you looked polite on the outside."
-- **graph** — "Find the notes that connect everything, the notes nobody links to, and the notes that link to nothing - then fix those problems, not just count links for fun."
+- **grace** - "God saved you as a free gift because you trust Him, not because you earned enough good points."
+- **growth-mindset** - "Saying you missed three shots is just counting what happened - saying you are bad at basketball sounds like you can never get better."
+- **heart-righteousness** - "God cares about anger and lust in your heart, not just whether you looked polite on the outside."
+- **graph** - "Find the notes that connect everything, the notes nobody links to, and the notes that link to nothing - then fix those problems, not just count links for fun."

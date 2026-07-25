@@ -1639,8 +1639,8 @@ collections:
 - id: grade-1-quiz
   title: Grade 1 quick quiz
   mode: quiz
-  tagline: Animals, colors, and facts — no arithmetic. Every answer is 3 to 5 letters.
-  play_hint: Read the question aloud. Let them guess before you reveal the answer. Tap Shuffle for a random question — about half are medium, a quarter easy, a quarter hard.
+  tagline: Animals, colors, and facts - no arithmetic. Every answer is 3 to 5 letters.
+  play_hint: Read the question aloud. Let them guess before you reveal the answer. Tap Shuffle for a random question - about half are medium, a quarter easy, a quarter hard.
   items:
   - q: "What animal says meow?"
     a: cat

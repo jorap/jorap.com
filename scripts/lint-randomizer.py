@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate data/randomizer.yaml — edit the YAML directly; no rebuild script."""
+"""Validate data/randomizer.yaml - edit the YAML directly; no rebuild script."""
 
 from __future__ import annotations
 

@@ -47,6 +47,14 @@ cards:
     back: "Leave earlier - stop cursing traffic."
   - front: "Semifinal loss - honest huddle, quiet week, simpler plan. What's the move?"
     back: "Come back - do not rage-quit mid-season."
+  - front: "Same late leave three days - traffic wins again."
+    back: "Leave earlier - change what I control."
+  - front: "Semifinal stings - tempted to blow up the whole playbook."
+    back: "Honest huddle - simpler plan next week."
+  - front: "Loss means the season's cooked - rage-quit energy."
+    back: "Quiet week - come back, don't quit."
+  - front: "Fans want a dramatic reset - kids need steady."
+    back: "One adjustment - not a brand-new system."
 draft: false
 ---
 

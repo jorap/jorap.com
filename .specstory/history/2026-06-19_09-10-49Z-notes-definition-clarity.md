@@ -575,7 +575,7 @@ A Python script will batch-update the note files. Each definition will begin wit
 
 Specific memory techniques are now chosen: acronyms, contrast pairs, analogies, and the "would I save this again today?" test. The PKM definition will be rewritten as a short formula: CODE (Capture, Organize, Distill, Express). A comprehensive update is planned.
 
-About seventy concept notes will be updated in batches. The Maps of Content note will get a one-liner opening: "A Map of Content (MOC) is a hand-written table of contents — a hub note that lists links, not folders."
+About seventy concept notes will be updated in batches. The Maps of Content note will get a one-liner opening: "A Map of Content (MOC) is a hand-written table of contents - a hub note that lists links, not folders."
 
 The getting-started guide will stay as-is because its section headers are intentional.
 
@@ -588,7 +588,7 @@ Paper capture keeps the same processing rule even when the medium changes. Anti-
 
 _**Agent (default)**_
 
-Updating all atomic concept notes with clearer, memorable definitions—plain “X = Y” openers, contrast pairs, and simple memory hooks—while keeping JoRap voice and wikilinks.
+Updating all atomic concept notes with clearer, memorable definitions-plain “X = Y” openers, contrast pairs, and simple memory hooks-while keeping JoRap voice and wikilinks.
 
 
 _**Agent (default)**_
@@ -847,7 +847,7 @@ The entire Maps section and all hub links were accidentally deleted from maps-of
 
 _**Agent (default)**_
 
-Restoring `maps-of-content.md` — the update script dropped the `## Maps` section. Fixing formatting next.
+Restoring `maps-of-content.md` - the update script dropped the `## Maps` section. Fixing formatting next.
 
 
 _**Agent (default)**_
@@ -998,7 +998,7 @@ The Hugo build passed without broken wikilinks.
 
 _**Agent (default)**_
 
-Updated **73 concept notes** with a consistent, easier-to-remember definition format. Left `_index.md` and `getting-started.md` alone — those are section/meta pages, not atomic definitions.
+Updated **73 concept notes** with a consistent, easier-to-remember definition format. Left `_index.md` and `getting-started.md` alone - those are section/meta pages, not atomic definitions.
 
 ### New pattern
 

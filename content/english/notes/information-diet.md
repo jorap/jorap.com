@@ -49,5 +49,9 @@ cards:
     back: "Unfollow - choose what I consume."
   - front: "Morning ruined by outrage accounts before breakfast again. What's the diet move?"
     back: "Unfollow - curate the feed on purpose."
+  - front: "Doomscroll before bed - thumb still moving though nothing's new."
+    back: "Close the pipe - curate inputs like meals."
+  - front: "Sixth newsletter this week - none changed what I did Tuesday."
+    back: "Unsubscribe - diet beats willpower."
 draft: false
 ---

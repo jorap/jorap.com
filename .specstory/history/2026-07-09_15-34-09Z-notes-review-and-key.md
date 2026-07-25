@@ -2040,9 +2040,9 @@ _**Agent (auto-low)**_
 **Review complete.** All 237 notes now use bullet format in `key_concept`.
 
 ### What changed
-- **237 notes** — prose paragraphs converted to `- ` bullets
-- **54 faith notes** — `{{< bible >}}` shortcodes left bare (not bulleted)
-- **Tables preserved** — e.g. the fruit mapping table in `fruits-of-the-spirit.md` stays as a table
+- **237 notes** - prose paragraphs converted to `- ` bullets
+- **54 faith notes** - `{{< bible >}}` shortcodes left bare (not bulleted)
+- **Tables preserved** - e.g. the fruit mapping table in `fruits-of-the-spirit.md` stays as a table
 
 ### Format pattern
 
@@ -2060,7 +2060,7 @@ key_concept: |
   - Paul names the same rescue from the dead side - alive with Christ by grace, not wages I stacked.
 ```
 
-PKM notes with no shortcodes — all bullets:
+PKM notes with no shortcodes - all bullets:
 
 ```5:12:content/english/notes/capture.md
 key_concept: |
@@ -2074,12 +2074,12 @@ key_concept: |
 ```
 
 ### Tooling added
-- `scripts/bulletize-key-concepts.py` — idempotent converter (re-run safe)
-- `lint-notes-frontmatter.py` — now fails if prose slips into `key_concept` outside bible shortcodes/tables
-- `notes_content.py` — `principle_line_pool` strips `- ` so `shareable_thought` lint still works
+- `scripts/bulletize-key-concepts.py` - idempotent converter (re-run safe)
+- `lint-notes-frontmatter.py` - now fails if prose slips into `key_concept` outside bible shortcodes/tables
+- `notes_content.py` - `principle_line_pool` strips `- ` so `shareable_thought` lint still works
 
 ### Pre-existing issues (unchanged)
-58 notes still fail `shareable_thought` lint (length, fragments, not-from-principle) — separate from this bullet pass.
+58 notes still fail `shareable_thought` lint (length, fragments, not-from-principle) - separate from this bullet pass.
 
 Want me to tackle those `shareable_thought` failures next, or commit this batch?
 
@@ -4648,7 +4648,7 @@ The fix targets `merge_fragments` directly. It will preserve contrast tails as s
 
 _**Agent (auto-low)**_
 
-Contrast tails were getting merged back in — fixing that and running one more split pass.
+Contrast tails were getting merged back in - fixing that and running one more split pass.
 
 
 _**Agent (auto-low)**_
@@ -4726,10 +4726,10 @@ _**Agent (auto-low)**_
 
 Both passes are done. Summary:
 
-### Shareable thought lint — fixed
+### Shareable thought lint - fixed
 All **58 failing notes** now pass `lint-notes-frontmatter.py`. Regenerated lines from `description` + `key_concept` via `scripts/fix-shareable-thought.py`, with manual fixes for 9 edge cases (thin principles, overlaps, markdown links).
 
-### Long bullets — split
+### Long bullets - split
 - **Before:** 130+ bullets over 35 words (some 100–160 words)
 - **After:** **19** bullets still over 25 words (mostly hub/meta notes like `selling-static-sites`, `flashcards`, `graph` at 26–38 words)
 - **~1,400 total bullets** across 237 notes
@@ -5719,7 +5719,7 @@ _**Agent (auto-low)**_
 Done. **0 bullets** remain over 25 words, and all notes pass frontmatter lint.
 
 ### What was trimmed
-The last **19 long bullets** across 17 notes — mostly hub/meta pages (`selling-static-sites`, `flashcards`, `review`, `eternal-principles`) and a few faith notes (`fruits-of-the-spirit`, `patience`, `discipleship`, `secret-devotion`).
+The last **19 long bullets** across 17 notes - mostly hub/meta pages (`selling-static-sites`, `flashcards`, `review`, `eternal-principles`) and a few faith notes (`fruits-of-the-spirit`, `patience`, `discipleship`, `secret-devotion`).
 
 ### Examples of the split pattern
 **Before** (38 words):

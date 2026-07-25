@@ -48,6 +48,10 @@ cards:
     back: "Next action on each - nothing stays fuzzy."
   - front: "Brain isn't a filing cabinet. Where do open loops live?"
     back: "Paper or app I trust - not my head at 2 a.m."
+  - front: "Tournament week - seventeen open loops rehearsing in my head at 2 a.m."
+    back: "Capture to trusted inbox - weekly review owns it."
+  - front: "School forms and dentist calls piled on the counter - all fuzzy."
+    back: "One inbox - next action on each item."
 draft: false
 ---
 

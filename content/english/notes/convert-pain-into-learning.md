@@ -8,7 +8,7 @@ key_concept: |
   - Level 2: A player loses the game and writes one fix on the locker - failure becomes useful only when it produces correction, not just stewing.
   - Level 3: Convert pain into learning means reflect, pull the lesson, design a better response, test it next time the situation shows up.
   - Level 4: Write one page on weak transitions after the bombed presentation - rehearse bridges ten times, two fewer slides, test on the next client call.
-  - Level 5: Pairs with [[Blameless After-Action Review]] without blame theater - pain that produces no process change is not learning, it is rumination with a notebook.
+  - Level 5: Pairs with [[Blameless After-Action Review]] without blame theater - pain that produces no process change is not learning, it is stewing with a notebook.
   - Reflect on what happened, pull out the lesson, design a better response, and test it the next time the situation shows up.
   - Stewing without change is just suffering.
 examples:
@@ -59,6 +59,14 @@ cards:
     back: "Cut two slides - test next time."
   - front: "Missed the turn twice on my new commute. Pain into learning?"
     back: "One note on where the sign hides."
+  - front: "Stewing a week - never wrote what went wrong."
+    back: "One note on the miss - test next time."
+  - front: "Vent thread typing - feels better than logging the lesson."
+    back: "Two bullet fixes - post later."
+  - front: "One bad pitch - gut says I'm not built for this."
+    back: "Mechanics fix - not identity."
+  - front: "Boss wants a full after-action review deck - I need one tweak."
+    back: "One page of changes - not a saga."
 draft: false
 ---
 

@@ -73,7 +73,7 @@
 {{- end -}}
 
 {{- /* Unresolved wikilinks and deprecated [[target|label]] syntax */ -}}
-{{- $content = replaceRE `\[\[([^\]]+)\|([^\]]+)\]\]` (printf `<span class="%s-broken" title="Pipe wikilinks are not supported — use [[Note Title]] only">$1|$2</span>` $class) $content -}}
+{{- $content = replaceRE `\[\[([^\]]+)\|([^\]]+)\]\]` (printf `<span class="%s-broken" title="Pipe wikilinks are not supported - use [[Note Title]] only">$1|$2</span>` $class) $content -}}
 {{- $content = replaceRE `\[\[([^\]]+)\]\]` (printf `<span class="%s-broken" title="No matching note for this wikilink">$1</span>` $class) $content -}}
 
 {{- range $protected -}}

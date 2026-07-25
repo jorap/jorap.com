@@ -62,7 +62,7 @@ card_sets: ["Eternal Principles", "Gospel", "Discipleship"]
 cards:
   - front: "Heard the Sermon preached many times - how I treat people unchanged. What's missing?"
     back: "Do one command today - not hear only."
-  - front: "Storm of job loss or betrayal hits hard. What reveals rock vs sand under me?"
+  - front: "Storm hit - job loss, betrayal, floor shaking. What reveals rock vs sand?"
     back: "Obedience under stress - not just hearing."
   - front: "Can quote the hard commands on money and enemies but skip them. What's showing?"
     back: "Obey the hard commands - today."

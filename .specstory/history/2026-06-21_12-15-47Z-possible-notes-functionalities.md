@@ -1761,14 +1761,14 @@ Result:
           },
           {
             "lineNumber": 18,
-            "text": "**{{ replace .Name \"-\" \" \" | title }}** — one idea, stated plainly. If you need &#96;and&#96; or a second heading, split into another note and link it with &#96;[[wikilinks]]&#96;."
+            "text": "**{{ replace .Name \"-\" \" \" | title }}** - one idea, stated plainly. If you need &#96;and&#96; or a second heading, split into another note and link it with &#96;[[wikilinks]]&#96;."
           },
           {
             "lineNumber": 19
           },
           {
             "lineNumber": 20,
-            "text": "For habit spine notes (&#96;review: true&#96;), copy the frontmatter pattern from [/notes/flashcards/](/notes/flashcards/) or run &#96;hugo new content/english/notes/my-note.md --kind notes-review&#96;. Rules: double-quote every &#96;front&#96;, &#96;back&#96;, and set name; inline &#96;card_sets: [\"Set\"]&#96;; block list for &#96;cards&#96;; put &#96;draft&#96; last; do not add &#96;| JoRap Notes&#96; to &#96;meta_title&#96;. Don't &#96;[[wikilink]]&#96; utility pages (Graph, Issues, Flashcards, Review, Random Duo) — use URLs; see [[Getting Started]]."
+            "text": "For habit spine notes (&#96;review: true&#96;), copy the frontmatter pattern from [/notes/flashcards/](/notes/flashcards/) or run &#96;hugo new content/english/notes/my-note.md --kind notes-review&#96;. Rules: double-quote every &#96;front&#96;, &#96;back&#96;, and set name; inline &#96;card_sets: [\"Set\"]&#96;; block list for &#96;cards&#96;; put &#96;draft&#96; last; do not add &#96;| JoRap Notes&#96; to &#96;meta_title&#96;. Don't &#96;[[wikilink]]&#96; utility pages (Graph, Issues, Flashcards, Review, Random Duo) - use URLs; see [[Getting Started]]."
           }
         ],
         "range": {
@@ -4853,7 +4853,7 @@ Review already stores some SRS data in localStorage.</details></think>
 
 _**Agent (auto-low)**_
 
-Your notes garden is already fairly full-featured. Here’s a map of what you have and what could still be worth adding — grouped by how much they’d help vs. how much code they’d need.
+Your notes garden is already fairly full-featured. Here’s a map of what you have and what could still be worth adding - grouped by how much they’d help vs. how much code they’d need.
 
 ## What you already have
 
@@ -4875,10 +4875,10 @@ That’s a solid PKM stack. Most worthwhile additions are **narrow extensions** 
 These reuse data you already compute at build time.
 
 **1. More list filters** (same pattern as status filters on `/notes/`)
-- **Tag / category** — filter by `tags` or `categories` frontmatter
-- **Has flashcards** — `review: true` or cards in frontmatter
-- **Featured** — `featured: true`
-- **Missing links** — notes that appear on the Issues page
+- **Tag / category** - filter by `tags` or `categories` frontmatter
+- **Has flashcards** - `review: true` or cards in frontmatter
+- **Featured** - `featured: true`
+- **Missing links** - notes that appear on the Issues page
 
 **2. Text search on the list page**
 Site search may already cover notes; a scoped search box on `/notes/` that filters the grid client-side would feel faster for garden browsing.
@@ -4890,7 +4890,7 @@ Your [[Note Relationships]] note defines rules the site doesn’t enforce yet:
 - Optional: notes with `##` headings (violates atomic-note rule from [[Atomic Notes]])
 
 **4. Review queue page**
-A “due today” view driven by the SRS state already in `notes-review.js` — surfacing what’s due without starting a full session.
+A “due today” view driven by the SRS state already in `notes-review.js` - surfacing what’s due without starting a full session.
 
 **5. Stale / inbox work queues**
 You already compute `stale` and `inbox`. Dedicated pages like “notes to revisit” or “inbox to process” turn filters into workflows ([[Periodic Knowledge Review]], [[The Trusted Inbox]]).
@@ -4903,19 +4903,19 @@ You already compute `stale` and `inbox`. Dedicated pages like “notes to revisi
 Parse body text for `extends`, `contradicts`, `implements`, `alternative`, `index` and let users filter by link *type*, not just link *count*. This makes your typed-relationship convention visible in the UI.
 
 **7. Tag / category graph coloring**
-Color nodes by primary tag or category on the global graph — quick visual clusters without new data.
+Color nodes by primary tag or category on the global graph - quick visual clusters without new data.
 
 **8. Shortest path between two notes**
 Pick two notes (like Random Duo’s selectors) and show the wikilink chain between them. Good for “how are these ideas connected?”
 
 **9. Backlinks index page**
-`backlinks-index.html` already builds a site-wide index with snippets — expose it as `/notes/backlinks/` or “most linked-to notes” leaderboard.
+`backlinks-index.html` already builds a site-wide index with snippets - expose it as `/notes/backlinks/` or “most linked-to notes” leaderboard.
 
 **10. MOC / hub detection**
 Surface notes that function as indexes: high inbound count, many outgoing links, or body contains `index` relationship language. Complements orphan detection on the graph.
 
 **11. Keyboard shortcuts on Review**
-`Space` to reveal, `1–4` for ratings, `j/k` to navigate — small UX win for daily drill.
+`Space` to reveal, `1–4` for ratings, `j/k` to navigate - small UX win for daily drill.
 
 ---
 
@@ -4925,7 +4925,7 @@ Surface notes that function as indexes: high inbound count, many outgoing links,
 [[Daily Notes]] exists as a concept note but there’s no daily-note *workflow*. A dated template + archive list (`/notes/daily/2026-06-21/`) is useful only if you’ll write daily notes on the site itself.
 
 **13. Full Obsidian / Markdown export**
-Zip of all notes with wikilinks intact — helpful for portability, but maintenance cost if you don’t need offline editing.
+Zip of all notes with wikilinks intact - helpful for portability, but maintenance cost if you don’t need offline editing.
 
 **14. Git history / changelog per note**
 “Last substantively edited” from git, not just file mtime. Nice for a digital garden, but adds build complexity.
@@ -4934,16 +4934,16 @@ Zip of all notes with wikilinks intact — helpful for portability, but maintena
 Browser localStorage doesn’t sync. You’d need a backend or leaning harder on Anki export ([[Spaced Repetition]] already treats Anki as the phone lane).
 
 **16. Community features**
-Comments, reactions, edit suggestions — probably YAGNI for a personal garden.
+Comments, reactions, edit suggestions - probably YAGNI for a personal garden.
 
 ---
 
 ## What I’d skip (for this site)
 
-- **Full-text semantic search** — overkill at ~90 notes; Hugo + client filter is enough
-- **Real-time collaborative editing** — conflicts with static-site simplicity
-- **Auto-generated MOCs** — your [[Maps of Content]] philosophy is hand-curated; automation fights that
-- **Note versioning UI** — git is the version history
+- **Full-text semantic search** - overkill at ~90 notes; Hugo + client filter is enough
+- **Real-time collaborative editing** - conflicts with static-site simplicity
+- **Auto-generated MOCs** - your [[Maps of Content]] philosophy is hand-curated; automation fights that
+- **Note versioning UI** - git is the version history
 
 ---
 
@@ -4951,13 +4951,13 @@ Comments, reactions, edit suggestions — probably YAGNI for a personal garden.
 
 If you want the most garden value per line of code:
 
-1. **Lint for missing extends/contradicts** — enforces your own atomic-note rules
-2. **Tag filter on list** — instant browse improvement
-3. **Due queue for Review** — makes SRS actionable daily
-4. **Relationship-type graph filter** — makes the graph match how you actually think about links
-5. **Stale/inbox work queues** — turns status metadata into a review habit
+1. **Lint for missing extends/contradicts** - enforces your own atomic-note rules
+2. **Tag filter on list** - instant browse improvement
+3. **Due queue for Review** - makes SRS actionable daily
+4. **Relationship-type graph filter** - makes the graph match how you actually think about links
+5. **Stale/inbox work queues** - turns status metadata into a review habit
 
-If you want to go deeper on one area — filters, graph, lint, or review — say which and we can sketch the smallest implementation that fits your existing partials/JS patterns.
+If you want to go deeper on one area - filters, graph, lint, or review - say which and we can sketch the smallest implementation that fits your existing partials/JS patterns.
 
 ---
 
@@ -4968,10 +4968,10 @@ These reuse data you already compute at build time.
 
 1. More list filters (same pattern as status filters on /notes/)
 
-Tag / category — filter by tags or categories frontmatter
-Has flashcards — review: true or cards in frontmatter
-Featured — featured: true
-Missing links — notes that appear on the Issues page
+Tag / category - filter by tags or categories frontmatter
+Has flashcards - review: true or cards in frontmatter
+Featured - featured: true
+Missing links - notes that appear on the Issues page
 2. Text search on the list page Site search may already cover notes; a scoped search box on /notes/ that filters the grid client-side would feel faster for garden browsing.
 
 3. Garden health lint (extend Issues) Your [[Note Relationships]] note defines rules the site doesn’t enforce yet:
@@ -4979,22 +4979,22 @@ Missing links — notes that appear on the Issues page
 Missing extends or contradicts in the body
 Pipe wikilinks and unlinked mentions (already done)
 Optional: notes with ## headings (violates atomic-note rule from [[Atomic Notes]])
-4. Review queue page A “due today” view driven by the SRS state already in notes-review.js — surfacing what’s due without starting a full session.
+4. Review queue page A “due today” view driven by the SRS state already in notes-review.js - surfacing what’s due without starting a full session.
 
 5. Stale / inbox work queues You already compute stale and inbox. Dedicated pages like “notes to revisit” or “inbox to process” turn filters into workflows ([[Periodic Knowledge Review]], [[The Trusted Inbox]]).
 
 Medium effort, strong fit
 6. Relationship-type filters on graph or list Parse body text for extends, contradicts, implements, alternative, index and let users filter by link type, not just link count. This makes your typed-relationship convention visible in the UI.
 
-7. Tag / category graph coloring Color nodes by primary tag or category on the global graph — quick visual clusters without new data.
+7. Tag / category graph coloring Color nodes by primary tag or category on the global graph - quick visual clusters without new data.
 
 8. Shortest path between two notes Pick two notes (like Random Duo’s selectors) and show the wikilink chain between them. Good for “how are these ideas connected?”
 
-9. Backlinks index page backlinks-index.html already builds a site-wide index with snippets — expose it as /notes/backlinks/ or “most linked-to notes” leaderboard.
+9. Backlinks index page backlinks-index.html already builds a site-wide index with snippets - expose it as /notes/backlinks/ or “most linked-to notes” leaderboard.
 
 10. MOC / hub detection Surface notes that function as indexes: high inbound count, many outgoing links, or body contains index relationship language. Complements orphan detection on the graph.
 
-11. Keyboard shortcuts on Review Space to reveal, 1–4 for ratings, j/k to navigate — small UX win for daily drill.
+11. Keyboard shortcuts on Review Space to reveal, 1–4 for ratings, j/k to navigate - small UX win for daily drill.
 
 
 
@@ -5015,7 +5015,7 @@ I mapped the full list to a concrete implementation plan. The first batch covers
 
 _**Agent (auto-low)**_
 
-That's a substantial list — I'll start with the high-value, low-complexity items and follow your existing notes patterns.
+That's a substantial list - I'll start with the high-value, low-complexity items and follow your existing notes patterns.
 
 
 _**Agent (auto-low)**_
@@ -7227,16 +7227,16 @@ _**Agent (auto-low)**_
 
 Implemented the feature list across the notes garden. Here's what's live:
 
-### `/notes/` — list upgrades
-- **Search** — filters title, description, and tags client-side
+### `/notes/` - list upgrades
+- **Search** - filters title, description, and tags client-side
 - **Tag & category** dropdowns
-- **Toggle filters** — Featured, Cards, Issues
-- **URL deep links** — e.g. `?status=inbox`, `?status=stale`, `?tag=pkm`, `?featured=1`, `?q=capture`
-- **Work queue links** — Inbox and Stale shortcuts above the facets
+- **Toggle filters** - Featured, Cards, Issues
+- **URL deep links** - e.g. `?status=inbox`, `?status=stale`, `?tag=pkm`, `?featured=1`, `?q=capture`
+- **Work queue links** - Inbox and Stale shortcuts above the facets
 
-### Issues — garden health lint
-- **Missing extends / contradicts** — flags notes without typed relationship lines
-- **Non-atomic headings** — flags `##` sections (except "See also")
+### Issues - garden health lint
+- **Missing extends / contradicts** - flags notes without typed relationship lines
+- **Non-atomic headings** - flags `##` sections (except "See also")
 - Shown on `/notes/issues/`, per-note issues panels, and the Issues toolbar count
 
 ### New pages (toolbar links added)
@@ -7247,18 +7247,18 @@ Implemented the feature list across the notes garden. Here's what's live:
 | **Path** | `/notes/path/` | Shortest wikilink chain between two notes |
 
 ### Graph upgrades
-- **Filters** — Hubs, Extends, Contradicts, Implements, Alternative, Index
-- **Tag colors** toggle — clusters by primary tag
-- **Hub detection** — top inbound % + (3+ outbound links or index relationship)
+- **Filters** - Hubs, Extends, Contradicts, Implements, Alternative, Index
+- **Tag colors** toggle - clusters by primary tag
+- **Hub detection** - top inbound % + (3+ outbound links or index relationship)
 
 ### Already done (no change needed)
-- **Review keyboard** — Space to reveal, 1–4 to rate (already in `notes-review.js`)
+- **Review keyboard** - Space to reveal, 1–4 to rate (already in `notes-review.js`)
 
 ### Ponytail choices
-- **Inbox/stale queues** — URL filters on `/notes/` instead of separate pages
-- **No j/k on Review** — doesn't fit the rate-then-advance SRS flow
+- **Inbox/stale queues** - URL filters on `/notes/` instead of separate pages
+- **No j/k on Review** - doesn't fit the rate-then-advance SRS flow
 
-Hugo build passes (1566 pages). Run `hugo server` and try `/notes/?status=stale`, `/notes/queue/`, and the new graph filters. The Issues count will jump until missing extends/contradicts are fixed in note bodies — that's the linter doing its job.
+Hugo build passes (1566 pages). Run `hugo server` and try `/notes/?status=stale`, `/notes/queue/`, and the new graph filters. The Issues count will jump until missing extends/contradicts are fixed in note bodies - that's the linter doing its job.
 
 ---
 

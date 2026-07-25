@@ -1514,23 +1514,23 @@ cards audit OK for renewed-mind
 
 _**Agent (auto-low)**_
 
-Created **Renewed Mind** at `content/english/notes/renewed-mind.md` — Romans 12:1-2: don't conform to the world's pattern; be transformed by renewing your mind so you can discern God's will.
+Created **Renewed Mind** at `content/english/notes/renewed-mind.md` - Romans 12:1-2: don't conform to the world's pattern; be transformed by renewing your mind so you can discern God's will.
 
 Also added it to the [[Eternal Principles]] hub (theological basis + two PKM cross-links).
 
 ## Connections wired (34 relationships)
 
-### Faith lane — extends (22)
+### Faith lane - extends (22)
 | Note | Why |
 |------|-----|
-| [[Mercy]] | Romans 12:1 — renewal responds to mercy already received |
+| [[Mercy]] | Romans 12:1 - renewal responds to mercy already received |
 | [[Free Grace]] | Renewal follows salvation; doesn't buy it |
 | [[Justification]] | Declared first; mind renewal second |
 | [[Sanctification]] | Inner engine of slow becoming |
 | [[Discipleship]] | Daily following reshapes the choosing mind |
 | [[Abide in Me]] | His words dwell where you actually read |
 | [[Repent and Believe]] | Repentance is change of mind; renewal keeps the turn |
-| [[Grateful Obedience]] | Romans 12:1-2 pair — living sacrifice + renewed mind |
+| [[Grateful Obedience]] | Romans 12:1-2 pair - living sacrifice + renewed mind |
 | [[Christlikeness]] | Conformed to Christ, not the world's pattern |
 | [[Heart Righteousness]] | Renewal starts at motive, not polished outside |
 | [[Fruits of the Spirit]] | Renewed mind walks by the Spirit |
@@ -1538,12 +1538,12 @@ Also added it to the [[Eternal Principles]] hub (theological basis + two PKM cro
 | [[The Wise Builder]] | Renewed hearing produces doing |
 | [[Seek the Kingdom First]] | What fills the mind before worry sets agenda |
 | [[Love God]] | Mind is one quarter of whole-person devotion |
-| [[Ask Seek Knock]] | Seek in Scripture — asking without opening the Book |
+| [[Ask Seek Knock]] | Seek in Scripture - asking without opening the Book |
 | [[God Centered Design]] | Don't conform life to culture's defaults |
 | [[Standing vs Fellowship]] | Fruitless week ≠ revoked standing |
 | [[Change Takes Repetition]] | Renewal bends on ordinary Tuesdays |
 
-### PKM lane — extends (10)
+### PKM lane - extends (10)
 | Note | Why |
 |------|-----|
 | [[Information Diet]] | Curate feeds that shape thinking |
@@ -1553,23 +1553,23 @@ Also added it to the [[Eternal Principles]] hub (theological basis + two PKM cro
 | [[Attention Economy]] | What fights for mind-share |
 | [[Behavioral Economics]] | World's defaults steer choices |
 | [[Habit Formation]] | Scripture-before-inbox reps bend the loop |
-| [[Growth Mindset]] | Mind can change — world's labels aren't final |
+| [[Growth Mindset]] | Mind can change - world's labels aren't final |
 | [[Process Over Outcomes]] | Daily renewal beats one retreat high |
 | [[Emotional Regulation]] | Renewed mind buys gap before reply |
 
 ### Alternative (3)
-- [[First Principles Thinking]] — derive ethics vs receive Scripture
-- [[Mental Models]] — worldly shortcuts vs word-shaped mind
-- [[Self-Control]] — PKM restraint skill vs Spirit-fed renewal
+- [[First Principles Thinking]] - derive ethics vs receive Scripture
+- [[Mental Models]] - worldly shortcuts vs word-shaped mind
+- [[Self-Control]] - PKM restraint skill vs Spirit-fed renewal
 
 ### Contradicts (2)
-- [[Compounding]] — when renewal is pure self-stacked discipline without abiding
-- [[There Is No Perfect Solution]] — when you delay feeding your mind until you feel holy
+- [[Compounding]] - when renewal is pure self-stacked discipline without abiding
+- [[There Is No Perfect Solution]] - when you delay feeding your mind until you feel holy
 
 ## Spine status
-`review: true` with 6 flashcards under **Eternal Principles / Gospel / Discipleship** — same drill lane as [[Sanctification]] and [[Abide in Me]].
+`review: true` with 6 flashcards under **Eternal Principles / Gospel / Discipleship** - same drill lane as [[Sanctification]] and [[Abide in Me]].
 
-`draft: false` — ready to publish when you are. Want reciprocal `relationships` rows added on the linked notes, or is the new note's frontmatter enough?
+`draft: false` - ready to publish when you are. Want reciprocal `relationships` rows added on the linked notes, or is the new note's frontmatter enough?
 
 ---
 
@@ -1589,7 +1589,7 @@ Reading renewed-mind.md to identify relationships. Reciprocal mappings are being
 
 _**Agent (auto-low)**_
 
-I'll add reciprocal `relationships` rows on each linked note — reading `renewed-mind.md` and those files first to match existing patterns.
+I'll add reciprocal `relationships` rows on each linked note - reading `renewed-mind.md` and those files first to match existing patterns.
 
 
 _**Agent (auto-low)**_
@@ -2028,7 +2028,7 @@ _**Agent (auto-low)**_
 from pathlib import Path
 import re
 
-# reciprocal: (filename, type, reason) — from each note&#39;s perspective
+# reciprocal: (filename, type, reason) - from each note&#39;s perspective
 RECIPROCALS = [
     (&#34;first-principles-thinking.md&#34;, &#34;alternative&#34;, &#34;Received gospel mind vs ethics derived from scratch&#34;),
     (&#34;mental-models.md&#34;, &#34;alternative&#34;, &#34;Scripture-shaped mind vs worldly thinking shortcuts&#34;),
@@ -2091,7 +2091,7 @@ cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
 from pathlib import Path
 import re
 
-# reciprocal: (filename, type, reason) — from each note's perspective
+# reciprocal: (filename, type, reason) - from each note's perspective
 RECIPROCALS = [
     ("first-principles-thinking.md", "alternative", "Received gospel mind vs ethics derived from scratch"),
     ("mental-models.md", "alternative", "Scripture-shaped mind vs worldly thinking shortcuts"),
@@ -2373,10 +2373,10 @@ Reciprocal `relationships` rows are in place on all **34 linked notes**. Each mi
 
 Examples:
 
-- **[[Sanctification]]** — `extends` — "Mind renewal is the inner engine of slow becoming"
-- **[[First Principles Thinking]]** — `alternative` — "Received gospel mind vs ethics derived from scratch"
-- **[[Compounding]]** — `contradicts` — "when self-stacked discipline mimics renewal without abiding"
-- **[[Information Diet]]** — `extends` — "Diet curates feeds; renewal feeds Scripture that reshapes judgment"
+- **[[Sanctification]]** - `extends` - "Mind renewal is the inner engine of slow becoming"
+- **[[First Principles Thinking]]** - `alternative` - "Received gospel mind vs ethics derived from scratch"
+- **[[Compounding]]** - `contradicts` - "when self-stacked discipline mimics renewal without abiding"
+- **[[Information Diet]]** - `extends` - "Diet curates feeds; renewal feeds Scripture that reshapes judgment"
 
 Ran `scripts/sync-note-relationships.py` afterward so rows are sorted and deduped across the garden (54 files normalized). Frontmatter lint is clean on the touched notes.
 

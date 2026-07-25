@@ -110,10 +110,10 @@ _**Agent (auto-low)**_
 
 Updated `free-tier-hosting-stack.md`:
 
-**Removed jorap.com** — dropped from `examples` and the first flashcard. No other site-name references remain.
+**Removed jorap.com** - dropped from `examples` and the first flashcard. No other site-name references remain.
 
-**Limits up front** — `key_concept` now opens with hard caps (500 builds/account/month, 1 concurrent build, 20k files, 20-min timeout) and calls out what actually breaks: multi-client accounts, fat repos, build queues. Bandwidth is noted as the generous part.
+**Limits up front** - `key_concept` now opens with hard caps (500 builds/account/month, 1 concurrent build, 20k files, 20-min timeout) and calls out what actually breaks: multi-client accounts, fat repos, build queues. Bandwidth is noted as the generous part.
 
-**Tone shift** — cut “normal brochure sites sit far below that.” Added a “Where free breaks first” section and tied failed builds to the monthly cap. `description` now leads with limits, not “$0 until upgrade.”
+**Tone shift** - cut “normal brochure sites sit far below that.” Added a “Where free breaks first” section and tied failed builds to the monthly cap. `description` now leads with limits, not “$0 until upgrade.”
 
-**Examples and cards** — both scenes are limit-driven (twelve clients burning the build budget; a failed Hugo pin still eating a build slot).
+**Examples and cards** - both scenes are limit-driven (twelve clients burning the build budget; a failed Hugo pin still eating a build slot).

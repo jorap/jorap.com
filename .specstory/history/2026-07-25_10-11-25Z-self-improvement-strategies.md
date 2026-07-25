@@ -20,7 +20,7 @@ No open files or prior context exist. "This" could mean the entire project, a sp
 
 _**Agent (auto-low)**_
 
-I need a bit more context on what “this” refers to — I’ll check recent work in the repo and any prior chat so the advice fits.
+I need a bit more context on what “this” refers to - I’ll check recent work in the repo and any prior chat so the advice fits.
 
 
 _**Agent (auto-low)**_
@@ -838,7 +838,7 @@ The remaining gaps are automation and feedback wiring. No system currently learn
 
 _**Agent (auto-low)**_
 
-“Self-improving” here means a loop that **measures → fixes → encodes the lesson** so the next session starts ahead, not at zero. You already have most of the pieces in jorap.com — what’s missing is closing the loop.
+“Self-improving” here means a loop that **measures → fixes → encodes the lesson** so the next session starts ahead, not at zero. You already have most of the pieces in jorap.com - what’s missing is closing the loop.
 
 ## What you already have
 
@@ -900,7 +900,7 @@ After any session where the agent had to be corrected twice on the same thing, w
 | Intentional shortcut | `ponytail:` comment → `/ponytail-debt` |
 | Shipped site behavior | `CHANGELOG.md` via changelog-update skill |
 
-**Rule of thumb:** if you explained it twice, it belongs in a skill or rule — not in your head.
+**Rule of thumb:** if you explained it twice, it belongs in a skill or rule - not in your head.
 
 ### 4. Verify (automated gate)
 Don’t call a session “done” until:
@@ -938,7 +938,7 @@ Add a workspace rule like:
 
 > After completing a task, if the user corrected the same class of mistake twice, propose a one-line addition to the relevant skill or rule before ending.
 
-That’s the `self-improvement.mdc` pattern from your older setup — every task ends with “should this become a rule?”
+That’s the `self-improvement.mdc` pattern from your older setup - every task ends with “should this become a rule?”
 
 ---
 
@@ -946,7 +946,7 @@ That’s the `self-improvement.mdc` pattern from your older setup — every task
 
 - A second wiki outside Hugo (OKF already is the export)
 - Vector DB / RAG for 254 notes
-- Auto-editing skills from every chat (too noisy — encode only on repeat failures)
+- Auto-editing skills from every chat (too noisy - encode only on repeat failures)
 - A big orchestration framework
 
 Your garden is small enough that **git + OKF + Issues + lint + skills** is the right stack.
@@ -962,7 +962,7 @@ Your garden is small enough that **git + OKF + Issues + lint + skills** is the r
 3. **Cursor agent setup overall** → standing OKF catalog + encode-into-skills ritual
 4. **Flashcards/review** → spaced repetition already self-improves at the human layer; automation would be “weak cards → flag in Issues”
 
-Tell me which one you meant and I can wire the smallest version — e.g. a maintenance Cursor Automation, a `self-improvement.mdc` rule, or a scripted weekly health report.
+Tell me which one you meant and I can wire the smallest version - e.g. a maintenance Cursor Automation, a `self-improvement.mdc` rule, or a scripted weekly health report.
 
 ---
 

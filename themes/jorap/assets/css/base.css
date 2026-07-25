@@ -1,7 +1,7 @@
 /*
  * Header offset: single source of truth for sticky-header height.
  * - CSS uses it for scroll-padding-top so anchor jumps clear the header.
- * - JS reads it via getComputedStyle(...) — see assets/js/toc.js + back-to-top.js.
+ * - JS reads it via getComputedStyle(...) - see assets/js/toc.js + back-to-top.js.
  * Update here only; do not duplicate in JS.
  */
 html {

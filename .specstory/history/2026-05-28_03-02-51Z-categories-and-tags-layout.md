@@ -579,7 +579,7 @@ _**Agent (auto-high)**_
 <think><details><summary>Thought Process</summary>
  Looking at the HTML structure for the tags section, I can see it's using Tailwind classes to style a list of tag links with hover effects and transitions.
 
-The real issue is that the `<ul>` inside `.content` inherits prose styles like disc bullets and left padding, and even though `tags_section` resets some of that, the bullet markers are still rendering. The tags themselves are set to `inline-block` but with minimal spacing between them, making them look cramped. For the categories row below the date, the date is `block` (taking full width) while categories are `inline-block`, which forces them onto separate lines — but the user wants both categories and tags displayed as horizontal lists of links instead.
+The real issue is that the `<ul>` inside `.content` inherits prose styles like disc bullets and left padding, and even though `tags_section` resets some of that, the bullet markers are still rendering. The tags themselves are set to `inline-block` but with minimal spacing between them, making them look cramped. For the categories row below the date, the date is `block` (taking full width) while categories are `inline-block`, which forces them onto separate lines - but the user wants both categories and tags displayed as horizontal lists of links instead.
 
 The cleanest fix is to add `not-prose` to the wrapper to strip out all the prose styling, then use flexbox to properly lay out both the categories and tags horizontally with consistent spacing and no bullets. Updating the template to render categories and tags as proper horizontal link lists with flex layout and appropriate spacing.</details></think>
 

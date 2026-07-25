@@ -1173,7 +1173,7 @@ A `[tasks]` block in `.mise.toml` could let users run `mise watch` instead of `n
 
 _**Agent (default)**_
 
-Your terminal shows `npm` isn't on PATH — I'll verify the mise setup and fix the `watch` script so it runs reliably.
+Your terminal shows `npm` isn't on PATH - I'll verify the mise setup and fix the `watch` script so it runs reliably.
 
 
 _**Agent (default)**_
@@ -1533,8 +1533,8 @@ _**Agent (default)**_
 
 `npm run watch` should work now after two fixes:
 
-1. **mise activation in `~/.bashrc`** — so `npm`, Node, and Hugo are on your PATH in new terminals.
-2. **`watch` script update** — runs `themeGenerator.js --watch` alongside Hugo, so theme/CSS changes reload live during a production preview.
+1. **mise activation in `~/.bashrc`** - so `npm`, Node, and Hugo are on your PATH in new terminals.
+2. **`watch` script update** - runs `themeGenerator.js --watch` alongside Hugo, so theme/CSS changes reload live during a production preview.
 
 In a **new terminal**:
 

@@ -62,6 +62,10 @@ cards:
     back: "Inventory strengths, gaps, limits - then set the target."
   - front: "I'm defending 'I'm just not a morning person' instead of looking at the data. What's acceptance here?"
     back: "Pick a target that matches the real starting line."
+  - front: "Blaming the ref after I coached sloppy transitions all week."
+    back: "Name my lane first - what I actually controlled."
+  - front: "Feedback stung - immediate urge to list everyone else's faults."
+    back: "One honest slice - what was mine."
 draft: false
 ---
 

@@ -94,7 +94,7 @@ Great question. Since this is a Hugo site (jorap.com), I'll focus on the levers 
 
 Before changing anything, get a baseline so you know what to fix and can prove improvement:
 
-- **Lighthouse / PageSpeed Insights** → [pagespeed.web.dev](https://pagespeed.web.dev) — gives you mobile + desktop scores and CWV (LCP, INP, CLS).
+- **Lighthouse / PageSpeed Insights** → [pagespeed.web.dev](https://pagespeed.web.dev) - gives you mobile + desktop scores and CWV (LCP, INP, CLS).
 - **WebPageTest** → real-device throttled runs (esp. "Moto G Power" + "Slow 4G") to see what mobile users actually experience.
 - **Chrome DevTools → Performance + Network tabs** with CPU 4× throttling and "Slow 4G".
 - **`hugo --templateMetrics --templateMetricsHints`** to find slow templates at build time.
@@ -124,7 +124,7 @@ This is where most Hugo sites bleed performance. Audit `images/`, `static/`, and
 />
 ```
 
-- **Always set `width` and `height`** — kills CLS (layout shift).
+- **Always set `width` and `height`** - kills CLS (layout shift).
 - **WebP or AVIF** instead of JPEG/PNG (30–60% smaller). Hugo supports both via `.webp` / `.avif` in `Resize`.
 - **`loading="lazy"` on below-the-fold images**, but `fetchpriority="high"` and **no lazy** on the LCP image (usually the hero).
 - **Preload the LCP image**: `<link rel="preload" as="image" href="…" imagesrcset="…" imagesizes="…">` in the head for the homepage hero.
@@ -133,12 +133,12 @@ This is where most Hugo sites bleed performance. Audit `images/`, `static/`, and
 
 - **Inline critical CSS** for above-the-fold, defer the rest. Hugo: `{{ $css := resources.Get "css/style.css" | resources.ToCSS | minify | fingerprint }}` and consider splitting into `critical.css` (inlined) + `main.css` (loaded async with `<link rel="preload" as="style" onload="this.rel='stylesheet'">`).
 - **Purge unused CSS.** If you're using Tailwind (Hugoplate does), make sure `content` globs in `tailwind.config.js` cover all template/markdown paths so production builds tree-shake properly.
-- **Minify + fingerprint** all CSS/JS — Hugo does this with `| minify | fingerprint`.
+- **Minify + fingerprint** all CSS/JS - Hugo does this with `| minify | fingerprint`.
 
 ## 4. JavaScript
 
 - **Defer everything non-critical**: `<script src="…" defer>` or `async` for analytics.
-- **Self-host fonts and analytics where possible** — third-party JS (GA, GTM, Facebook Pixel, ad networks) is usually the largest INP/blocking-time culprit. Audit your `<head>` ruthlessly.
+- **Self-host fonts and analytics where possible** - third-party JS (GA, GTM, Facebook Pixel, ad networks) is usually the largest INP/blocking-time culprit. Audit your `<head>` ruthlessly.
 - **Remove jQuery if it's still there** (Hugoplate doesn't need it).
 - **Hugo asset bundling**: use `js.Build` to bundle + tree-shake, then `| minify | fingerprint`.
 
@@ -147,7 +147,7 @@ This is where most Hugo sites bleed performance. Audit `images/`, `static/`, and
 - **Self-host** (don't hotlink Google Fonts) → 1 fewer DNS + TLS round trip.
 - **`font-display: swap`** so text renders immediately.
 - **Preload the 1–2 fonts used above the fold**: `<link rel="preload" as="font" type="font/woff2" crossorigin href="/fonts/inter-regular.woff2">`.
-- **Subset** to Latin (or whatever you need) — full Google Font files include hundreds of glyphs you'll never use.
+- **Subset** to Latin (or whatever you need) - full Google Font files include hundreds of glyphs you'll never use.
 - **Limit weights** to 2–3 max (e.g., 400 + 600).
 
 ## 6. Caching, compression, and delivery (CDN-side)
@@ -176,7 +176,7 @@ You're on Netlify (`netlify.toml` present). Add to `netlify.toml`:
     Cache-Control = "public, max-age=31536000, immutable"
 ```
 
-Hugo's fingerprinting makes the `immutable` cache safe — when assets change, the URL hash changes.
+Hugo's fingerprinting makes the `immutable` cache safe - when assets change, the URL hash changes.
 
 Netlify already serves Brotli/gzip and HTTP/2 by default, so you don't need to configure those.
 
@@ -184,16 +184,16 @@ Netlify already serves Brotli/gzip and HTTP/2 by default, so you don't need to c
 
 The biggest gap between devices is usually **CPU + bandwidth on mobile**, not layout. So:
 
-- **Serve smaller images to small viewports** via `srcset` + `sizes` (covered above) — a phone shouldn't download a 2000px hero.
+- **Serve smaller images to small viewports** via `srcset` + `sizes` (covered above) - a phone shouldn't download a 2000px hero.
 - **Conditionally load heavy widgets**: e.g., embedded YouTube → use a [lite-youtube-embed](https://github.com/paulirish/lite-youtube-embed) facade that only loads the iframe on click. Same for Twitter/Instagram embeds.
-- **Don't ship desktop-only animations to mobile**: gate with `@media (prefers-reduced-motion)` and `(min-width: 1024px)` — and where possible avoid `transform: translateZ` hacks that promote tons of layers on low-end Androids.
+- **Don't ship desktop-only animations to mobile**: gate with `@media (prefers-reduced-motion)` and `(min-width: 1024px)` - and where possible avoid `transform: translateZ` hacks that promote tons of layers on low-end Androids.
 - **`@media (hover: hover)`** for hover-only effects so they don't trigger sticky states on touch.
 
 ## 8. Hugo-specific build wins
 
 - `minify = true` in `hugo.toml` (HTML, CSS, JS, JSON, SVG, XML).
 - Use `partialCached` for partials that don't change per page (footer, nav, sidebar).
-- Disable page kinds you don't use (`disableKinds = ["taxonomy", "term"]` if you're not using them) — fewer pages built, smaller sitemap, faster crawl.
+- Disable page kinds you don't use (`disableKinds = ["taxonomy", "term"]` if you're not using them) - fewer pages built, smaller sitemap, faster crawl.
 
 ---
 
@@ -205,7 +205,7 @@ Want me to actually do this? I can:
 2. **Implement the top 3–5 changes** (responsive images partial, CSS critical-path split, Netlify cache headers, font preloading).
 3. **Show before/after Lighthouse scores** so the impact is measurable.
 
-Which would you like — full audit first, or jump straight to implementing the high-impact changes?
+Which would you like - full audit first, or jump straight to implementing the high-impact changes?
 
 ---
 
@@ -470,15 +470,15 @@ _**Agent (auto-high)**_
 _**Agent (auto-high)**_
 
 <think><details><summary>Thought Process</summary>
- Looking at the site's current setup, it's already quite well-optimized—Hugo is handling image processing with WebP and responsive pictures, the CSS and JS are bundled and minified with fingerprinting, there's a lazy CSS pattern using the print media trick, the LCP image is preloaded on the homepage, and JavaScript is being lazy-loaded.
+ Looking at the site's current setup, it's already quite well-optimized-Hugo is handling image processing with WebP and responsive pictures, the CSS and JS are bundled and minified with fingerprinting, there's a lazy CSS pattern using the print media trick, the LCP image is preloaded on the homepage, and JavaScript is being lazy-loaded.
 
-But there are some significant issues I can tackle. Google Fonts is being loaded via a render-blocking script with no preload, which is a major LCP hit. The fingerprinted assets don't have `immutable` cache headers, so repeat visits don't get the full benefit. All the non-lazy plugins like search and swiper are render-blocking because they lack `defer` attributes, and the main script bundle has the same problem. The critical CSS is enormous—Tailwind plus five plugin stylesheets including Font Awesome, which is probably overkill if only a handful of icons are actually used. The preloaded critical image only includes one WebP size without srcset variants. And plugins like swiper and glightbox are loaded eagerly even though they only run on specific pages, so they should be lazy or page-conditional instead.
+But there are some significant issues I can tackle. Google Fonts is being loaded via a render-blocking script with no preload, which is a major LCP hit. The fingerprinted assets don't have `immutable` cache headers, so repeat visits don't get the full benefit. All the non-lazy plugins like search and swiper are render-blocking because they lack `defer` attributes, and the main script bundle has the same problem. The critical CSS is enormous-Tailwind plus five plugin stylesheets including Font Awesome, which is probably overkill if only a handful of icons are actually used. The preloaded critical image only includes one WebP size without srcset variants. And plugins like swiper and glightbox are loaded eagerly even though they only run on specific pages, so they should be lazy or page-conditional instead.
 
 The highest-impact fixes with the lowest risk would be addressing the render-blocking scripts, self-hosting or properly preloading fonts to eliminate that JS loader bottleneck, and trimming down the critical CSS bundle. The LCP preload is only set for one size, but the hero might be larger on desktop, so I need to verify the actual dimensions. The safest wins to implement are Netlify cache headers for fingerprinted assets, replacing the JavaScript font-loading pattern with a non-blocking preload approach, and adding `decoding="async"` to images. Let me examine the hero and banner sections to identify the LCP image.</details></think>
 
 _**Agent (auto-high)**_
 
-I have enough context. Let me do a quick scan of two more key spots before implementing — the banner section (LCP) and current netlify headers.
+I have enough context. Let me do a quick scan of two more key spots before implementing - the banner section (LCP) and current netlify headers.
 
 _**Agent (auto-high)**_
 
@@ -668,9 +668,9 @@ Directory: **** (0 files)
 _**Agent (auto-high)**_
 
 <think><details><summary>Thought Process</summary>
- I'm spotting a critical issue in the Hugo config—several plugin CSS files that are being referenced don't actually exist in the local directory, specifically the Glightbox and Font Awesome stylesheets, which will likely cause styling and functionality problems.
+ I'm spotting a critical issue in the Hugo config-several plugin CSS files that are being referenced don't actually exist in the local directory, specifically the Glightbox and Font Awesome stylesheets, which will likely cause styling and functionality problems.
 
-Looking at how the template handles missing files, when `resources.Get` can't find a file, it silently skips it without generating the corresponding `<link>` or `<script>` tags. This means these dead config entries are essentially no-ops, so I can safely remove them. But wait—the live site clearly uses Font Awesome icons throughout the templates, so there's a disconnect here that I need to investigate further.</details></think>
+Looking at how the template handles missing files, when `resources.Get` can't find a file, it silently skips it without generating the corresponding `<link>` or `<script>` tags. This means these dead config entries are essentially no-ops, so I can safely remove them. But wait-the live site clearly uses Font Awesome icons throughout the templates, so there's a disconnect here that I need to investigate further.</details></think>
 
 _**Agent (auto-high)**_
 
@@ -807,7 +807,7 @@ Directory: **** (1 file)
 _**Agent (auto-high)**_
 
 <think><details><summary>Thought Process</summary>
- I'm realizing most of the plugin entries in hugo.toml are actually unused—the files were never kept locally after being inherited from Hugoplate. More importantly, FontAwesome icons are being used throughout the templates but there's no stylesheet loading them, which means they're broken on the live site. Let me check what's actually in the head section.</details></think>
+ I'm realizing most of the plugin entries in hugo.toml are actually unused-the files were never kept locally after being inherited from Hugoplate. More importantly, FontAwesome icons are being used throughout the templates but there's no stylesheet loading them, which means they're broken on the live site. Let me check what's actually in the head section.</details></think>
 
 _**Agent (auto-high)**_
 
@@ -964,9 +964,9 @@ Status: **completed**
 _**Agent (auto-high)**_
 
 <think><details><summary>Thought Process</summary>
- I'm seeing that Font Awesome icons aren't loading in production at all — the stylesheet is missing, so the `<i>` tags with FA classes are rendering as blank instead of showing arrows and clock icons, while the SVG icons for theme switching and search work fine. There's also something about plugin entries that got cut off.
+ I'm seeing that Font Awesome icons aren't loading in production at all - the stylesheet is missing, so the `<i>` tags with FA classes are rendering as blank instead of showing arrows and clock icons, while the SVG icons for theme switching and search work fine. There's also something about plugin entries that got cut off.
 
-Looking at the production setup, I notice the CSS link is deferred via `templates.Defer`, and the scripts are loaded in a specific order with the main script at the end of the body (render-blocking but acceptable), plus a lazy-loaded script with both defer and async attributes. The preconnect to Font Awesome is there but the stylesheet never actually loads. Most importantly, this site is running on Cloudflare Pages, not Netlify, so the `netlify.toml` config is irrelevant — I need to check what's actually controlling the deployment and redirects.</details></think>
+Looking at the production setup, I notice the CSS link is deferred via `templates.Defer`, and the scripts are loaded in a specific order with the main script at the end of the body (render-blocking but acceptable), plus a lazy-loaded script with both defer and async attributes. The preconnect to Font Awesome is there but the stylesheet never actually loads. Most importantly, this site is running on Cloudflare Pages, not Netlify, so the `netlify.toml` config is irrelevant - I need to check what's actually controlling the deployment and redirects.</details></think>
 
 _**Agent (auto-high)**_
 
@@ -1318,7 +1318,7 @@ _**Agent (auto-high)**_
 <think><details><summary>Thought Process</summary>
  I'm noticing that Swiper is only loaded for the testimonials section, which is currently commented out in the home template. This means the Swiper CSS and JavaScript are being unnecessarily loaded on every page. Let me check if the intro template uses it either.
 
-I should also verify whether `gallery-slider.js` is actually present in the codebase since it's referenced in the plugins configuration. Additionally, I'm seeing that every blog card is marked with eager loading and high fetch priority, which defeats the purpose of priority hints — only the first few cards above the fold should have those settings. I'll also need to check how `youtube-lite.js` is being used since it's referenced in the config.</details></think>
+I should also verify whether `gallery-slider.js` is actually present in the codebase since it's referenced in the plugins configuration. Additionally, I'm seeing that every blog card is marked with eager loading and high fetch priority, which defeats the purpose of priority hints - only the first few cards above the fold should have those settings. I'll also need to check how `youtube-lite.js` is being used since it's referenced in the config.</details></think>
 
 _**Agent (auto-high)**_
 
@@ -1410,7 +1410,7 @@ _**Agent (auto-high)**_
 _**Agent (auto-high)**_
 
 <think><details><summary>Thought Process</summary>
- I'm noticing a disconnect—the TOML file references JavaScript files like search, accordion, tab, modal, and various plugins that don't actually exist in the theme's assets directory, yet the production site is clearly functioning. Something's not adding up here.
+ I'm noticing a disconnect-the TOML file references JavaScript files like search, accordion, tab, modal, and various plugins that don't actually exist in the theme's assets directory, yet the production site is clearly functioning. Something's not adding up here.
 
 Let me check if those files might be living in the root assets folder instead of the theme-specific one.</details></think>
 
@@ -1457,7 +1457,7 @@ Directory: **** (21 files)
 _**Agent (auto-high)**_
 
 <think><details><summary>Thought Process</summary>
- I've got the full picture now. The project-level assets in `assets/` are overriding the theme assets—Hugo merges them together—so those three JavaScript files are actually being used. Everything else in `hugo.toml` is just dead configuration that silently does nothing, including entries for plugins that don't exist anywhere in the codebase.
+ I've got the full picture now. The project-level assets in `assets/` are overriding the theme assets-Hugo merges them together-so those three JavaScript files are actually being used. Everything else in `hugo.toml` is just dead configuration that silently does nothing, including entries for plugins that don't exist anywhere in the codebase.
 
 Looking at what's actually live, Swiper is being loaded but never used since the testimonials section is commented out, and main.js still has code checking for a `.testimonial-slider` element that doesn't exist. The bundles being shipped are script.js with Swiper, main, and TOC combined, plus a lazy-loaded script.js with back-to-top and share functionality. Let me check how large the Swiper bundle actually is.</details></think>
 
@@ -1543,12 +1543,12 @@ _**Agent (auto-high)**_
 I have enough context. Here's my picture of the site:
 
 - **Hosted on Cloudflare Pages** (not Netlify, despite the leftover `netlify.toml`).
-- **All assets served with `cache-control: public, max-age=0, must-revalidate`** — even fingerprinted JS/CSS and images. Massive missed win.
-- **Swiper (~330 KB JS + 18 KB CSS) is bundled site-wide but never used** — the testimonials section is commented out everywhere.
-- **`hugo.toml` references ~12 plugin files that don't exist** — silent no-ops, but make the config misleading.
-- **Google Fonts is loaded via a synchronous `<script>`** — a JS execution path on every page just to add a `<link>`.
-- **All 12 blog cards on the home page get `loading="eager" fetchpriority="high"`** — anti-pattern; only above-the-fold should be eager.
-- **Dead `<link rel="preconnect" href="use.fontawesome.com">`** — FontAwesome isn't actually loaded anywhere.
+- **All assets served with `cache-control: public, max-age=0, must-revalidate`** - even fingerprinted JS/CSS and images. Massive missed win.
+- **Swiper (~330 KB JS + 18 KB CSS) is bundled site-wide but never used** - the testimonials section is commented out everywhere.
+- **`hugo.toml` references ~12 plugin files that don't exist** - silent no-ops, but make the config misleading.
+- **Google Fonts is loaded via a synchronous `<script>`** - a JS execution path on every page just to add a `<link>`.
+- **All 12 blog cards on the home page get `loading="eager" fetchpriority="high"`** - anti-pattern; only above-the-fold should be eager.
+- **Dead `<link rel="preconnect" href="use.fontawesome.com">`** - FontAwesome isn't actually loaded anywhere.
 
 Let me implement the high-impact changes.
 
@@ -1766,7 +1766,7 @@ Status: **completed**
 
 _**Agent (auto-high)**_
 
-### 2 & 3. Clean up `hugo.toml` — remove Swiper + dead plugin entries
+### 2 & 3. Clean up `hugo.toml` - remove Swiper + dead plugin entries
 
 _**Agent (auto-high)**_
 
@@ -2061,7 +2061,7 @@ _**Agent (auto-high)**_
 
 ### 6. Fix blog-card eager-loading anti-pattern
 
-Currently every card is `eager` + `fetchpriority="high"` — which trains the browser to ignore the priority. Pass an index from the list partial and only the first card gets the priority hint.
+Currently every card is `eager` + `fetchpriority="high"` - which trains the browser to ignore the priority. Pass an index from the list partial and only the first card gets the priority hint.
 
 _**Agent (auto-high)**_
 
@@ -2102,7 +2102,7 @@ _**Agent (auto-high)**_
 <think><details><summary>Thought Process</summary>
  I'm realizing that passing a synthetic dict to the partial won't work because the template expects to access Page methods and fields like `.RelPermalink` and `.Title`, which don't exist on a plain map. The blog-card template uses both map-style access like `.Params.image` and method calls like `.RelPermalink`, so I need a different approach that preserves those capabilities.
 
-The cleanest solution is to change the partial's signature to accept a dict with explicit keys — something like `{ "page": $p, "index": $i }` — and then adjust the template to work with that structure instead of trying to make a dict behave like a Page object.</details></think>
+The cleanest solution is to change the partial's signature to accept a dict with explicit keys - something like `{ "page": $p, "index": $i }` - and then adjust the template to work with that structure instead of trying to make a dict behave like a Page object.</details></think>
 
 _**Agent (auto-high)**_
 
@@ -2167,7 +2167,7 @@ Status: **completed**
 _**Agent (auto-high)**_
 
 <think><details><summary>Thought Process</summary>
- I see the issue—multiple callers are passing a Page directly to the partial, so changing blog-list to expect a dict breaks that contract. I should revert to accepting a Page and either use `.Scratch` to store the index hint or handle the eager check inline with `range` and `$first`.
+ I see the issue-multiple callers are passing a Page directly to the partial, so changing blog-list to expect a dict breaks that contract. I should revert to accepting a Page and either use `.Scratch` to store the index hint or handle the eager check inline with `range` and `$first`.
 
 The cleanest approach is to leverage Hugo's `.Scratch` on each Page object: in blog-list, I'll set a flag on the page's scratch before calling the partial, then read it inside blog-card to determine if it's the LCP card and set the loading attribute accordingly.</details></think>
 
@@ -2553,7 +2553,7 @@ Total in 731 ms
 
 _**Agent (auto-high)**_
 
-Clean build — 731 ms, no errors. Let me verify the output looks right.
+Clean build - 731 ms, no errors. Let me verify the output looks right.
 
 _**Agent (auto-high)**_
 
@@ -2666,7 +2666,7 @@ grep -oE 'swiper|fontawesome|googleFont|fetchpriority|preload' public/index.html
 _**Agent (auto-high)**_
 
 <think><details><summary>Thought Process</summary>
- The bundle size reductions are dramatic — the main script is down to just over 3 KB from 155 KB, and the lazy bundle dropped to 1.2 KB after removing unnecessary HTML references, which represents nearly 98% compression on the primary bundle.
+ The bundle size reductions are dramatic - the main script is down to just over 3 KB from 155 KB, and the lazy bundle dropped to 1.2 KB after removing unnecessary HTML references, which represents nearly 98% compression on the primary bundle.
 
 I'm verifying the other optimizations: no Swiper, no FontAwesome, no Google Fonts JS pattern, and the LCP preload now includes responsive srcset with proper fetchpriority attributes. I notice the image partial is emitting `fetchpriority="auto"` on all 12 blog cards (plus the navbar logos), which adds some noise but is technically correct since "auto" is the default behavior.</details></think>
 
@@ -2761,11 +2761,11 @@ img fetchpriority=high decoding=async class="img img-dark" width=60 height=60 sr
 _**Agent (auto-high)**_
 
 <think><details><summary>Thought Process</summary>
- I'm reviewing where `fetchpriority=high` is being applied across the page — the LCP preload link and first blog card image make sense, but setting it on the header and footer logos seems counterproductive since they're small 60x60 assets that shouldn't compete for priority with actual content.</details></think>
+ I'm reviewing where `fetchpriority=high` is being applied across the page - the LCP preload link and first blog card image make sense, but setting it on the header and footer logos seems counterproductive since they're small 60x60 assets that shouldn't compete for priority with actual content.</details></think>
 
 _**Agent (auto-high)**_
 
-I notice the header/footer logo also has `fetchpriority="high"` — that competes with the actual LCP image. Let me check and fix.
+I notice the header/footer logo also has `fetchpriority="high"` - that competes with the actual LCP image. Let me check and fix.
 
 _**Agent (auto-high)**_
 
@@ -2917,7 +2917,7 @@ Directory: **** (0 files)
 _**Agent (auto-high)**_
 
 <think><details><summary>Thought Process</summary>
- I need to track down where the logo partial is defined—it's not in the theme, so it's likely in the project's assets or layouts directory.</details></think>
+ I need to track down where the logo partial is defined-it's not in the theme, so it's likely in the project's assets or layouts directory.</details></think>
 
 _**Agent (auto-high)**_
 
@@ -3114,7 +3114,7 @@ I could create a project-level partial to override the module's logo, but withou
 
 _**Agent (auto-high)**_
 
-Skipping the logo `fetchpriority` cleanup — it's a 60×60 image so the perf impact is minor, and the partial lives in a hugo-module (would need a project-level override). I'll flag it as a follow-up.
+Skipping the logo `fetchpriority` cleanup - it's a 60×60 image so the perf impact is minor, and the partial lives in a hugo-module (would need a project-level override). I'll flag it as a follow-up.
 
 Let me run lint check and finalize.
 
@@ -3315,13 +3315,13 @@ All changes implemented and verified. Here's what shipped.
 
 ## Files changed
 
-- `static/_headers` — **new**, sets long `Cache-Control: immutable` for fingerprinted JS/CSS, hashed images, and fonts. Cloudflare Pages picks this up automatically.
-- `hugo.toml` — removed 12 dead plugin entries (Swiper, FontAwesome, glightbox, gallery-slider, accordion, tab, modal, cookie, search, youtube-lite). Kept only the 3 that have real source files.
-- `themes/jorap/assets/js/main.js` — removed Swiper testimonial init (testimonials are commented out everywhere; lazy-load comment left for future use).
-- `themes/jorap/layouts/_partials/essentials/style.html` — replaced the JS-injected Google Fonts loader with a `preload` + `media="print" onload` pattern; removed dead FontAwesome preconnect/dns-prefetch.
-- `themes/jorap/layouts/_partials/essentials/head.html` — LCP preload now emits a real responsive `imagesrcset`, `imagesizes`, `fetchpriority="high"`, and `type="image/webp"`.
-- `themes/jorap/layouts/_partials/components/blog-card.html` — reads `Page.Scratch "isLcpCard"` to decide `loading`/`fetchpriority`. Default = lazy.
-- `themes/jorap/layouts/_partials/sections/blog-list.html` — sets the LCP flag on only the first card.
+- `static/_headers` - **new**, sets long `Cache-Control: immutable` for fingerprinted JS/CSS, hashed images, and fonts. Cloudflare Pages picks this up automatically.
+- `hugo.toml` - removed 12 dead plugin entries (Swiper, FontAwesome, glightbox, gallery-slider, accordion, tab, modal, cookie, search, youtube-lite). Kept only the 3 that have real source files.
+- `themes/jorap/assets/js/main.js` - removed Swiper testimonial init (testimonials are commented out everywhere; lazy-load comment left for future use).
+- `themes/jorap/layouts/_partials/essentials/style.html` - replaced the JS-injected Google Fonts loader with a `preload` + `media="print" onload` pattern; removed dead FontAwesome preconnect/dns-prefetch.
+- `themes/jorap/layouts/_partials/essentials/head.html` - LCP preload now emits a real responsive `imagesrcset`, `imagesizes`, `fetchpriority="high"`, and `type="image/webp"`.
+- `themes/jorap/layouts/_partials/components/blog-card.html` - reads `Page.Scratch "isLcpCard"` to decide `loading`/`fetchpriority`. Default = lazy.
+- `themes/jorap/layouts/_partials/sections/blog-list.html` - sets the LCP flag on only the first card.
 
 ## Highest-impact change in plain English
 
@@ -3331,13 +3331,13 @@ Every visitor was downloading **152 KB of JavaScript** containing the Swiper car
 
 1. **Push & deploy.** Once Cloudflare Pages picks up `_headers` (it lives in `static/`, so it copies into `public/`), all subsequent asset responses for fingerprinted JS/CSS will return `cache-control: public, max-age=31536000, immutable`.
 2. Run **[pagespeed.web.dev](https://pagespeed.web.dev/?url=https%3A%2F%2Fwww.jorap.com%2F)** before & after. Expect mobile LCP and TBT to improve noticeably.
-3. **Verify in DevTools → Network**: open `https://www.jorap.com/` post-deploy, look for the `script.min.*.js` response — Content-Length should be ~3 KB instead of ~152 KB, and Cache-Control should show `immutable`.
+3. **Verify in DevTools → Network**: open `https://www.jorap.com/` post-deploy, look for the `script.min.*.js` response - Content-Length should be ~3 KB instead of ~152 KB, and Cache-Control should show `immutable`.
 
 ## Suggested follow-ups (lower priority)
 
-1. **Logo `fetchpriority="high"`** — the header + footer logos (60×60) are flagged `high`, competing with the real LCP. They live in a hugo-module (`gethugothemes/hugo-modules`); to fix, create `layouts/_partials/logo.html` overriding the module partial without the priority hint.
-2. **FontAwesome icons** — the markup uses `<i class="fa fa-...">` in several places (banner CTA, blog-card meta, etc.) but no FA stylesheet is loaded, so they're invisible. Either remove the `<i>` tags or ship the icons (an SVG sprite for the ~5 icons used would cost ~2 KB vs. the ~80 KB FA web font).
-3. **Delete `netlify.toml`, `vercel.json.disabled`, `amplify.yml.disabled`** — site is on Cloudflare Pages now; these are stale and confusing.
+1. **Logo `fetchpriority="high"`** - the header + footer logos (60×60) are flagged `high`, competing with the real LCP. They live in a hugo-module (`gethugothemes/hugo-modules`); to fix, create `layouts/_partials/logo.html` overriding the module partial without the priority hint.
+2. **FontAwesome icons** - the markup uses `<i class="fa fa-...">` in several places (banner CTA, blog-card meta, etc.) but no FA stylesheet is loaded, so they're invisible. Either remove the `<i>` tags or ship the icons (an SVG sprite for the ~5 icons used would cost ~2 KB vs. the ~80 KB FA web font).
+3. **Delete `netlify.toml`, `vercel.json.disabled`, `amplify.yml.disabled`** - site is on Cloudflare Pages now; these are stale and confusing.
 4. **Cloudflare Pages Web Analytics** beacon is loading without `rel="dns-prefetch"`. Add `<link rel="preconnect" href="https://static.cloudflareinsights.com">` to shave a few ms.
 
 Want me to tackle any of those, or commit and push these changes?
@@ -3414,7 +3414,7 @@ Total in 736 ms
 
 _**Agent (auto-high)**_
 
-Build clean — 736 ms, no errors. Bundles still small (Swiper stays out unless you uncomment its line).
+Build clean - 736 ms, no errors. Bundles still small (Swiper stays out unless you uncomment its line).
 
 ---
 
@@ -3433,9 +3433,9 @@ Given this site's current setup with just a few JS files, the immediate need isn
 
 _**Agent (auto-high)**_
 
-Yes — and there are three good patterns, in order from least to most flexible. Each fits Hugo cleanly. Here's how they work and which one I'd pick for jorap.com.
+Yes - and there are three good patterns, in order from least to most flexible. Each fits Hugo cleanly. Here's how they work and which one I'd pick for jorap.com.
 
-## Pattern 1 — Per-page front matter flags (simplest, recommended for you)
+## Pattern 1 - Per-page front matter flags (simplest, recommended for you)
 
 Add a `plugins` field to a page's front matter, then have `script.html` / `style.html` only emit that plugin if the current page requests it.
 
@@ -3450,7 +3450,7 @@ plugins:
 ---
 ```
 
-**Plugin config** (`hugo.toml`) — extend each plugin entry with a `pages` flag:
+**Plugin config** (`hugo.toml`) - extend each plugin entry with a `pages` flag:
 
 ```toml
 [[params.plugins.js]]
@@ -3464,7 +3464,7 @@ lazy = false
 # no condition → always loaded
 ```
 
-**`script.html` change** — short addition to the existing range:
+**`script.html` change** - short addition to the existing range:
 
 ```go-html-template
 {{ range site.Params.plugins.js }}
@@ -3487,7 +3487,7 @@ lazy = false
 
 - Bundle is per-page combination → more URLs. Hugo will still hash + dedupe identical bundles, so most pages share a single hash.
 
-## Pattern 2 — Shortcode auto-detection (transparent)
+## Pattern 2 - Shortcode auto-detection (transparent)
 
 Have shortcodes themselves register their plugin needs via `Page.Store` (Hugo 0.130+) or `Page.Scratch`, and the head/foot reads that.
 
@@ -3508,17 +3508,17 @@ Have shortcodes themselves register their plugin needs via `Page.Store` (Hugo 0.
 
 **Pros**
 
-- Authors don't have to remember anything — using the shortcode auto-loads the plugin.
+- Authors don't have to remember anything - using the shortcode auto-loads the plugin.
 - Catches edge cases (e.g. a single old post still using a glightbox shortcode).
 
 **Cons**
 
 - Only works for things triggered by shortcodes, not raw HTML in markdown.
-- Page must render before head finalizes — works because Hugo defers `<head>` plugin bundling via `templates.Defer` (which jorap.com already uses for CSS).
+- Page must render before head finalizes - works because Hugo defers `<head>` plugin bundling via `templates.Defer` (which jorap.com already uses for CSS).
 
-## Pattern 3 — Lazy load from JS itself (most modern)
+## Pattern 3 - Lazy load from JS itself (most modern)
 
-Skip Hugo entirely for these — let the plugin lazy-load itself when its trigger element appears. This is what I left a comment hint for in `main.js` for Swiper:
+Skip Hugo entirely for these - let the plugin lazy-load itself when its trigger element appears. This is what I left a comment hint for in `main.js` for Swiper:
 
 ```js
 const root = document.querySelector(".testimonial-slider");
@@ -3554,13 +3554,13 @@ if (root) {
 **Cons**
 
 - Requires the plugin's bundle to be a real ES module *or* loadable as one (Swiper's `swiper-bundle.js` is a UMD; loading via `<script>` injection works but `import()` may need a tiny wrapper).
-- Doesn't help with CSS — for that you still need to pair with a `<link rel="stylesheet">` injection.
+- Doesn't help with CSS - for that you still need to pair with a `<link rel="stylesheet">` injection.
 
 ---
 
 ## My recommendation for jorap.com
 
-**Combine Pattern 1 (front-matter flags) for opt-in plugins like swiper / glightbox**, and **Pattern 3 (JS lazy-load)** for anything truly per-element — that gives you both author control and zero-cost defaults.
+**Combine Pattern 1 (front-matter flags) for opt-in plugins like swiper / glightbox**, and **Pattern 3 (JS lazy-load)** for anything truly per-element - that gives you both author control and zero-cost defaults.
 
 Concretely:
 
@@ -3568,8 +3568,8 @@ Concretely:
 |---|---|
 | Swiper for testimonials (only home page if re-enabled) | Pattern 3 (auto-load when `.testimonial-slider` exists) |
 | GLightbox / lightbox-style image galleries on specific posts | Pattern 1 (`plugins: [glightbox]` in front matter) |
-| YouTube embeds | Pattern 3 — wrap with a [lite-youtube facade](https://github.com/paulirish/lite-youtube-embed); it auto-loads on click |
-| `share.js`, `back-to-top.js`, `toc.js` (sitewide) | Stay in main bundle — too small to matter |
+| YouTube embeds | Pattern 3 - wrap with a [lite-youtube facade](https://github.com/paulirish/lite-youtube-embed); it auto-loads on click |
+| `share.js`, `back-to-top.js`, `toc.js` (sitewide) | Stay in main bundle - too small to matter |
 
 ## Want me to implement Pattern 1 now?
 
@@ -3579,7 +3579,7 @@ It's about 15 lines of template change and gets you a "just put it in front matt
 2. Update `themes/jorap/layouts/_partials/essentials/style.html` and `script.html` to skip entries whose `condition` isn't in the current page's `plugins` front-matter slice.
 3. Document it in a comment block at the top of `hugo.toml`.
 
-Say the word and I'll wire it up. Or if you'd rather wait until you actually need to re-enable one of these plugins, that's also fine — the cleanup we did already gets you the perf win.
+Say the word and I'll wire it up. Or if you'd rather wait until you actually need to re-enable one of these plugins, that's also fine - the cleanup we did already gets you the perf win.
 
 ---
 
@@ -3594,13 +3594,13 @@ _**Agent (auto-high)**_
 <think><details><summary>Thought Process</summary>
  The user is asking whether the shortcode auto-detection approach works consistently across both static pages and blog posts in Hugo. Since both are `Page` objects with access to `.Page.Store` and `.Page.Scratch`, the API should function the same way mechanically on either type of content.
 
-The real consideration is rendering order — shortcodes inside `.Content` only execute when that content is rendered, which happens after the `<head>` is assembled. So Pattern 2 works reliably in two scenarios: end-of-body script loading (which always works since `.Content` has already been rendered by then) and head loading via `templates.Defer` (which defers the head template until the page body is fully evaluated, allowing it to see what shortcodes have stored). Both pages and blog posts support this equally since they're both `Page` objects with `.Content` and `.Store`.
+The real consideration is rendering order - shortcodes inside `.Content` only execute when that content is rendered, which happens after the `<head>` is assembled. So Pattern 2 works reliably in two scenarios: end-of-body script loading (which always works since `.Content` has already been rendered by then) and head loading via `templates.Defer` (which defers the head template until the page body is fully evaluated, allowing it to see what shortcodes have stored). Both pages and blog posts support this equally since they're both `Page` objects with `.Content` and `.Store`.
 
-There are edge cases worth noting: list pages that don't render full content won't trigger shortcodes, and when pages include other pages' content, only the current page's Store is populated — child page stores don't automatically bubble up. On jorap.com specifically, the home page renders a blog list that shows cards without full post content, so shortcodes inside those posts wouldn't fire there anyway. Since Hugo 0.146+, `.Store` is the standard for non-template state (replacing `.Scratch`), and jorap.com is running a compatible version.</details></think>
+There are edge cases worth noting: list pages that don't render full content won't trigger shortcodes, and when pages include other pages' content, only the current page's Store is populated - child page stores don't automatically bubble up. On jorap.com specifically, the home page renders a blog list that shows cards without full post content, so shortcodes inside those posts wouldn't fire there anyway. Since Hugo 0.146+, `.Store` is the standard for non-template state (replacing `.Scratch`), and jorap.com is running a compatible version.</details></think>
 
 _**Agent (auto-high)**_
 
-Yes — Pattern 2 works on **both** regular pages (`/about`, `/contact`, etc.) and blog posts, because in Hugo they're all `Page` objects and `Page.Store` is available on every one of them. There's just one rendering-order quirk to understand.
+Yes - Pattern 2 works on **both** regular pages (`/about`, `/contact`, etc.) and blog posts, because in Hugo they're all `Page` objects and `Page.Store` is available on every one of them. There's just one rendering-order quirk to understand.
 
 ## How it actually works
 
@@ -3627,11 +3627,11 @@ Then later (typically in `script.html` near `</body>`):
 
 Hugo evaluates `<head>` **before** `.Content`. So if you put the lookup in `<head>` directly, the Store is still empty when it reads. Two ways around it:
 
-### Option A — load plugin assets at end of `<body>` (works everywhere, no extra setup)
+### Option A - load plugin assets at end of `<body>` (works everywhere, no extra setup)
 
-`</body>` is rendered after `.Content`, so `Page.Store` is fully populated by then. Put any conditionally-loaded `<script>` / `<link>` tags in `essentials/script.html` (which jorap.com already calls right before `</body>`). This works identically for any `.md` file with a `.Content` body — pages or posts, no difference.
+`</body>` is rendered after `.Content`, so `Page.Store` is fully populated by then. Put any conditionally-loaded `<script>` / `<link>` tags in `essentials/script.html` (which jorap.com already calls right before `</body>`). This works identically for any `.md` file with a `.Content` body - pages or posts, no difference.
 
-### Option B — use `templates.Defer` for `<head>` injection
+### Option B - use `templates.Defer` for `<head>` injection
 
 For things that *must* be in `<head>` (CSS, preloads), Hugo's `templates.Defer` (Hugo ≥ 0.128) re-runs that block after the body is fully evaluated. **jorap.com already uses this** for the Tailwind CSS bundle:
 
@@ -3649,22 +3649,22 @@ You'd wrap a similar deferred block to emit conditional `<link rel="stylesheet">
 |---|---|
 | Shortcode inside a blog post's `.Content` | ✅ Yes |
 | Shortcode inside an `/about` page's `.Content` | ✅ Yes |
-| Shortcode inside a section's `_index.md` description | ✅ Yes — it's still `.Content` |
-| Markdown content that uses raw HTML (no shortcode) | ❌ No — there's no shortcode invocation to register the need |
+| Shortcode inside a section's `_index.md` description | ✅ Yes - it's still `.Content` |
+| Markdown content that uses raw HTML (no shortcode) | ❌ No - there's no shortcode invocation to register the need |
 | Home page rendering `partial "components/blog-card"` for child posts | ❌ The child posts' shortcodes don't fire when only their summary/metadata is referenced |
 | List pages (`/blog/`) iterating over child pages | ❌ Same as above |
 
-The home page case is the main gotcha. If a blog post has a YouTube shortcode, the post page will load `youtube-lite`, but the **home page** card preview won't (and shouldn't — it's not rendering the embed).
+The home page case is the main gotcha. If a blog post has a YouTube shortcode, the post page will load `youtube-lite`, but the **home page** card preview won't (and shouldn't - it's not rendering the embed).
 
 ## Recommended split for jorap.com
 
 Use both patterns together:
 
 - **Pattern 1 (front matter flag)** when a list page or layout-level partial needs the plugin without rendering full `.Content`. Example: a category page that displays embedded testimonials.
-- **Pattern 2 (shortcode + `Page.Store`)** for plugins triggered by content shortcodes — `glightbox`, `lite-youtube`, `mermaid`, etc. Once a shortcode is wired, authors get it for free; nothing to add to front matter.
+- **Pattern 2 (shortcode + `Page.Store`)** for plugins triggered by content shortcodes - `glightbox`, `lite-youtube`, `mermaid`, etc. Once a shortcode is wired, authors get it for free; nothing to add to front matter.
 - **Pattern 3 (JS lazy `import()`)** for anything triggered purely by DOM presence of a class (Swiper carousels).
 
-If you'd like, I can wire Pattern 2 in for one concrete plugin so you can see the full flow (shortcode → `Page.Store` → end-of-body load). YouTube is the highest-value target on a blog because the iframe is huge — a lite-youtube facade can save 500 KB+ on any post that embeds a video. Want me to do that?
+If you'd like, I can wire Pattern 2 in for one concrete plugin so you can see the full flow (shortcode → `Page.Store` → end-of-body load). YouTube is the highest-value target on a blog because the iframe is huge - a lite-youtube facade can save 500 KB+ on any post that embeds a video. Want me to do that?
 
 ---
 
@@ -3677,13 +3677,13 @@ can i do 2 and 3 combined?
 _**Agent (auto-high)**_
 
 <think><details><summary>Thought Process</summary>
- The user's asking whether Patterns 2 and 3 can work together, and they absolutely can—Pattern 2 would conditionally emit a loader script that then uses Pattern 3's lazy `import()` to dynamically load the plugin, creating a really efficient combination.
+ The user's asking whether Patterns 2 and 3 can work together, and they absolutely can-Pattern 2 would conditionally emit a loader script that then uses Pattern 3's lazy `import()` to dynamically load the plugin, creating a really efficient combination.
 
 The key advantage: pages without the shortcode pay zero cost, and pages with it only load the full plugin when the element scrolls into view via IntersectionObserver. This is essentially what modern frameworks like Astro and SvelteKit do with their island architecture. I should walk through a concrete example to show how this composes in practice.</details></think>
 
 _**Agent (auto-high)**_
 
-Yes — and the combination is actually the strongest pattern of the three. Pattern 2 decides *whether* to ship anything, Pattern 3 decides *when* to actually execute it. Pages without the shortcode pay zero cost; pages with it pay nothing until the element is near the viewport.
+Yes - and the combination is actually the strongest pattern of the three. Pattern 2 decides *whether* to ship anything, Pattern 3 decides *when* to actually execute it. Pages without the shortcode pay zero cost; pages with it pay nothing until the element is near the viewport.
 
 ## How they compose
 
@@ -3695,7 +3695,7 @@ Yes — and the combination is actually the strongest pattern of the three. Patt
 
 Think of Pattern 2 as the *gate* and Pattern 3 as the *trigger*.
 
-## Concrete example — a lazy YouTube embed
+## Concrete example - a lazy YouTube embed
 
 **1. The shortcode** registers the need and emits a placeholder:
 
@@ -3710,7 +3710,7 @@ Think of Pattern 2 as the *gate* and Pattern 3 as the *trigger*.
 </div>
 ```
 
-**2. `script.html`** conditionally emits a tiny bootstrap — only on pages that actually have the shortcode:
+**2. `script.html`** conditionally emits a tiny bootstrap - only on pages that actually have the shortcode:
 
 ```go-html-template
 {{ $needs := .Store.Get "needs" | default slice }}
@@ -3752,13 +3752,13 @@ Think of Pattern 2 as the *gate* and Pattern 3 as the *trigger*.
 
 | Page | Network cost |
 |---|---|
-| Home page (no `{{< youtube >}}` shortcode) | **0 bytes** — bootstrap not emitted |
+| Home page (no `{{< youtube >}}` shortcode) | **0 bytes** - bootstrap not emitted |
 | Blog post with shortcode but user never scrolls to it | **~600 bytes inline JS only**, no iframe loaded, no YouTube CSS/JS |
 | Blog post, user clicks play | iframe loads only then |
 
-Compare to the default Hugoplate behavior: every YouTube embed loads a ~500 KB iframe on page render — even if the video is below the fold and the user never plays it.
+Compare to the default Hugoplate behavior: every YouTube embed loads a ~500 KB iframe on page render - even if the video is below the fold and the user never plays it.
 
-## Same pattern, more aggressive — for Swiper / GLightbox
+## Same pattern, more aggressive - for Swiper / GLightbox
 
 For libraries that need actual JS to run on the element (not just an iframe swap), use `import()` instead of inline iframe injection. Same outer skeleton:
 
@@ -3770,7 +3770,7 @@ For libraries that need actual JS to run on the element (not just an iframe swap
     new IntersectionObserver(async (entries, obs) => {
       if (!entries[0].isIntersecting) return;
       obs.disconnect();
-      // Real ESM import — Hugo emits the bundled URL at build time
+      // Real ESM import - Hugo emits the bundled URL at build time
       const { default: Swiper } = await import(
         "{{ (resources.Get "plugins/swiper/swiper-bundle.js" | resources.Fingerprint).RelPermalink }}"
       );
@@ -3785,13 +3785,13 @@ For libraries that need actual JS to run on the element (not just an iframe swap
 
 ## Trade-offs to know
 
-- **Inline `<script>` tags can't be cached cross-page.** That's fine because the bootstrap is tiny (~500 bytes — smaller than the request overhead of fetching it as a separate file). Save external files for plugins that exceed ~2 KB.
+- **Inline `<script>` tags can't be cached cross-page.** That's fine because the bootstrap is tiny (~500 bytes - smaller than the request overhead of fetching it as a separate file). Save external files for plugins that exceed ~2 KB.
 - **CSP**: if you ship a Content Security Policy that blocks inline scripts, you'd need a hash or nonce. Not currently a concern on jorap.com.
-- **`Page.Store` is per-page**, so list pages won't trigger when they merely link to posts that contain shortcodes — which is the correct behavior here.
+- **`Page.Store` is per-page**, so list pages won't trigger when they merely link to posts that contain shortcodes - which is the correct behavior here.
 
 ## Want me to wire this up?
 
-The highest-impact target on jorap.com is the YouTube shortcode — the existing one (`themes/jorap/layouts/shortcodes/youtube.html`) likely emits a full iframe today. Replacing it with the lazy-facade pattern saves ~500 KB on every blog post that embeds a video. I can:
+The highest-impact target on jorap.com is the YouTube shortcode - the existing one (`themes/jorap/layouts/shortcodes/youtube.html`) likely emits a full iframe today. Replacing it with the lazy-facade pattern saves ~500 KB on every blog post that embeds a video. I can:
 
 1. Rewrite `shortcodes/youtube.html` as the click-to-play facade with `Page.Store.Add`.
 2. Add the conditional bootstrap to `essentials/script.html`.
@@ -3916,7 +3916,7 @@ Status: **completed**
 _**Agent (auto-high)**_
 
 <think><details><summary>Thought Process</summary>
- I'm realizing the scope of the problem — there are dozens of YouTube embeds scattered across blog posts, with some posts like the Alex Eala piece containing around 30 videos each. Every page load is pulling in roughly 500KB of iframe code per video, even when users never actually watch them. I need to implement lazy loading to defer these embeds until they're actually needed, starting with a custom shortcode that handles the YouTube embeds efficiently.
+ I'm realizing the scope of the problem - there are dozens of YouTube embeds scattered across blog posts, with some posts like the Alex Eala piece containing around 30 videos each. Every page load is pulling in roughly 500KB of iframe code per video, even when users never actually watch them. I need to implement lazy loading to defer these embeds until they're actually needed, starting with a custom shortcode that handles the YouTube embeds efficiently.
 
 I'm creating a lightweight placeholder system using `.yt-lite` elements that display the thumbnail image with a play button overlay, storing the video ID and configuration in data attributes. When a user clicks or the element approaches the viewport, the placeholder gets replaced with the actual iframe. I'll also add a bootstrap script that handles the click interactions and uses IntersectionObserver to preconnect to YouTube's servers ahead of time.
 
@@ -3984,9 +3984,9 @@ _**Agent (auto-high)**_
 _**Agent (auto-high)**_
 
 <think><details><summary>Thought Process</summary>
- I'm seeing a caching issue with the script partial — it's wrapped in `partialCached` which means it persists across pages and can't access page-specific data from `Page.Store`. I need to either remove the caching to make it work per-page, but that sacrifices performance for non-YouTube pages, or find another way to handle the conditional logic.
+ I'm seeing a caching issue with the script partial - it's wrapped in `partialCached` which means it persists across pages and can't access page-specific data from `Page.Store`. I need to either remove the caching to make it work per-page, but that sacrifices performance for non-YouTube pages, or find another way to handle the conditional logic.
 
-The cleanest approach is to split the YouTube bootstrap into its own separate partial that runs after the main content block (where `Page.Store` gets populated) without caching, while keeping the main script bundle cached for performance. Now I'm looking at how the `youtube_time` shortcode handles the class parameter — it can either apply a custom class or fall back to inline styles. I'll simplify this by always wrapping in `.yt-lite` and standardizing the styling approach. Then I need to implement the full plan: update both shortcodes to use `Page.Store` for deduplication, add the CSS for `.yt-lite`, create the uncached `page-scripts.html` partial that emits the bootstrap only when needed, and wire it into `baseof.html`.
+The cleanest approach is to split the YouTube bootstrap into its own separate partial that runs after the main content block (where `Page.Store` gets populated) without caching, while keeping the main script bundle cached for performance. Now I'm looking at how the `youtube_time` shortcode handles the class parameter - it can either apply a custom class or fall back to inline styles. I'll simplify this by always wrapping in `.yt-lite` and standardizing the styling approach. Then I need to implement the full plan: update both shortcodes to use `Page.Store` for deduplication, add the CSS for `.yt-lite`, create the uncached `page-scripts.html` partial that emits the bootstrap only when needed, and wire it into `baseof.html`.
 
 For the YouTube embed URL, I'll preserve the `start` and `end` parameters with `?autoplay=1&start=X&end=Y` format, and place the new partial before the existing cached script call so it can read the populated Store after content renders. The play button will trigger the iframe load with autoplay enabled.</details></think>
 
@@ -4427,14 +4427,14 @@ Build clean. Let me verify the per-page conditional logic works as designed.
 _**Agent (auto-high)**_
 
 <tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: echo "=== Pages WITHOUT YT shortcodes — should have NO yt bootstrap ==="
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: echo "=== Pages WITHOUT YT shortcodes - should have NO yt bootstrap ==="
 echo "Home page:"
 grep -c 'yt-lite\|data-yt-id\|yt-lite__' public/index.html | head -1
 echo "About page:"
 grep -c 'yt-lite\|data-yt-id\|yt-lite__' public/about/index.html 2>/dev/null | head -1
 
 echo
-echo "=== Pages WITH YT shortcodes — should have yt-lite + bootstrap ==="
+echo "=== Pages WITH YT shortcodes - should have yt-lite + bootstrap ==="
 for f in public/dnpap-song-resources/index.html public/miracle-isaiah-david/index.html public/alex-eala-pro-career-tracker/index.html; do
   if [ -f "$f" ]; then
     echo "--- $f ---"
@@ -4449,14 +4449,14 @@ echo "=== Sample yt-lite markup from a post ==="
 grep -oE '<div class="yt-lite[^>]*>' public/dnpap-song-resources/index.html | head -2</summary>
 
 ```bash
-echo "=== Pages WITHOUT YT shortcodes — should have NO yt bootstrap ==="
+echo "=== Pages WITHOUT YT shortcodes - should have NO yt bootstrap ==="
 echo "Home page:"
 grep -c 'yt-lite\|data-yt-id\|yt-lite__' public/index.html | head -1
 echo "About page:"
 grep -c 'yt-lite\|data-yt-id\|yt-lite__' public/about/index.html 2>/dev/null | head -1
 
 echo
-echo "=== Pages WITH YT shortcodes — should have yt-lite + bootstrap ==="
+echo "=== Pages WITH YT shortcodes - should have yt-lite + bootstrap ==="
 for f in public/dnpap-song-resources/index.html public/miracle-isaiah-david/index.html public/alex-eala-pro-career-tracker/index.html; do
   if [ -f "$f" ]; then
     echo "--- $f ---"
@@ -4472,7 +4472,7 @@ grep -oE '<div class="yt-lite[^>]*>' public/dnpap-song-resources/index.html | he
 ```
 
 ```
-=== Pages WITHOUT YT shortcodes — should have NO yt bootstrap ===
+=== Pages WITHOUT YT shortcodes - should have NO yt bootstrap ===
 Home page:
 0
 
@@ -4572,7 +4572,7 @@ top-reasons-why-you-still-need-use-desktop-laptop
 _**Agent (auto-high)**_
 
 <tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: echo "=== Pages WITHOUT YT shortcodes — should have ZERO yt-lite + ZERO bootstrap ==="
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: echo "=== Pages WITHOUT YT shortcodes - should have ZERO yt-lite + ZERO bootstrap ==="
 echo "Home page:                        $(grep -c 'yt-lite\|function activate(el)' public/index.html) (expect 0)"
 echo "About:                            $(grep -c 'yt-lite\|function activate(el)' public/about/index.html) (expect 0)"
 echo "Consistent AI post (no YT):       $(grep -c 'yt-lite\|function activate(el)' public/blog/consistent-ai-output-wordpress-builds/index.html) (expect 0)"
@@ -4599,7 +4599,7 @@ echo "=== HTML size delta (per-page YT emission only) ==="
 ls -la public/blog/alex-eala-pro-career-tracker/index.html public/blog/consistent-ai-output-wordpress-builds/index.html | awk '{print $5"\t"$NF}'</summary>
 
 ```bash
-echo "=== Pages WITHOUT YT shortcodes — should have ZERO yt-lite + ZERO bootstrap ==="
+echo "=== Pages WITHOUT YT shortcodes - should have ZERO yt-lite + ZERO bootstrap ==="
 echo "Home page:                        $(grep -c 'yt-lite\|function activate(el)' public/index.html) (expect 0)"
 echo "About:                            $(grep -c 'yt-lite\|function activate(el)' public/about/index.html) (expect 0)"
 echo "Consistent AI post (no YT):       $(grep -c 'yt-lite\|function activate(el)' public/blog/consistent-ai-output-wordpress-builds/index.html) (expect 0)"
@@ -4627,7 +4627,7 @@ ls -la public/blog/alex-eala-pro-career-tracker/index.html public/blog/consisten
 ```
 
 ```
-=== Pages WITHOUT YT shortcodes — should have ZERO yt-lite + ZERO bootstrap ===
+=== Pages WITHOUT YT shortcodes - should have ZERO yt-lite + ZERO bootstrap ===
 Home page:                        0 (expect 0)
 About:                            0 (expect 0)
 Consistent AI post (no YT):       0 (expect 0)
@@ -4969,7 +4969,7 @@ Status: **completed**
 _**Agent (auto-high)**_
 
 <think><details><summary>Thought Process</summary>
- The YouTube shortcodes are in the markdown source file, but they're not appearing in the built HTML output — no YouTube embeds or lite-yt elements at all. Something's preventing the shortcodes from rendering during the build process.</details></think>
+ The YouTube shortcodes are in the markdown source file, but they're not appearing in the built HTML output - no YouTube embeds or lite-yt elements at all. Something's preventing the shortcodes from rendering during the build process.</details></think>
 
 _**Agent (auto-high)**_
 
@@ -5028,11 +5028,11 @@ _**Agent (auto-high)**_
 _**Agent (auto-high)**_
 
 <think><details><summary>Thought Process</summary>
- The YouTube lite placeholders are rendering correctly with the proper data attributes, including the start and end times from the youtube_time field where applicable.  Each one has the accessible play button SVG with proper ARIA labels and tab indices. The YT bootstrap script is embedded at the end of the body as a minified IIFE, and importantly, no actual iframes are being created until someone clicks — they're only generated on demand. The Spotify embeds remain inline since they use a different shortcode I didn't modify. All the other page elements like the table of contents, header, footer, and related posts are rendering without any issues. The grep searches came up empty because Hugo's minifier strips quotes from class attributes, so `class=yt-lite` doesn't match the pattern `class="yt-lite"` — but searching for just `yt-lite` works fine.</details></think>
+ The YouTube lite placeholders are rendering correctly with the proper data attributes, including the start and end times from the youtube_time field where applicable.  Each one has the accessible play button SVG with proper ARIA labels and tab indices. The YT bootstrap script is embedded at the end of the body as a minified IIFE, and importantly, no actual iframes are being created until someone clicks - they're only generated on demand. The Spotify embeds remain inline since they use a different shortcode I didn't modify. All the other page elements like the table of contents, header, footer, and related posts are rendering without any issues. The grep searches came up empty because Hugo's minifier strips quotes from class attributes, so `class=yt-lite` doesn't match the pattern `class="yt-lite"` - but searching for just `yt-lite` works fine.</details></think>
 
 _**Agent (auto-high)**_
 
-The output is correct (Hugo's HTML minifier strips quotes — `class=yt-lite` not `class="yt-lite"`, which is why my earlier grep with quotes returned 0). Let me verify with the right patterns:
+The output is correct (Hugo's HTML minifier strips quotes - `class=yt-lite` not `class="yt-lite"`, which is why my earlier grep with quotes returned 0). Let me verify with the right patterns:
 
 _**Agent (auto-high)**_
 
@@ -5091,7 +5091,7 @@ error: repetition quantifier expects a valid decimal
 _**Agent (auto-high)**_
 
 <think><details><summary>Thought Process</summary>
- Ripgrep's regex escaping is causing issues, so I'll switch back to shell grep which worked before. Looking at the file content confirms everything's actually working correctly — all YouTube shortcodes have been replaced with yt-lite placeholders, the bootstrap script is positioned at the end of body, and there are no iframes. The verification is complete, so I can wrap this up. Though it's odd that grep is now returning no matches when it shouldn't be.</details></think>
+ Ripgrep's regex escaping is causing issues, so I'll switch back to shell grep which worked before. Looking at the file content confirms everything's actually working correctly - all YouTube shortcodes have been replaced with yt-lite placeholders, the bootstrap script is positioned at the end of body, and there are no iframes. The verification is complete, so I can wrap this up. Though it's odd that grep is now returning no matches when it shouldn't be.</details></think>
 
 _**Agent (auto-high)**_
 
@@ -5102,7 +5102,7 @@ echo "YT placeholder count per page:"
 for f in public/blog/*/index.html; do
   c=$(grep -o "yt-lite" "$f" | wc -l | tr -d ' ')
   if [ "$c" != "0" ]; then
-    echo "  $c — $(basename $(dirname $f))"
+    echo "  $c - $(basename $(dirname $f))"
   fi
 done
 echo "---"
@@ -5111,7 +5111,7 @@ echo "  index.html: $(grep -c 'function activate(el)' public/index.html 2>/dev/n
 echo "  about/index.html: $(grep -c 'function activate(el)' public/about/index.html 2>/dev/null)"
 echo "  blog/consistent-ai-output-wordpress-builds: $(grep -c 'function activate(el)' public/blog/consistent-ai-output-wordpress-builds/index.html)"
 echo "---"
-echo "Inline iframe to youtube count (should be 0 — facade replaces with iframe only on click):"
+echo "Inline iframe to youtube count (should be 0 - facade replaces with iframe only on click):"
 grep -c 'iframe[^>]*youtube' public/blog/dnpap-song-resources/index.html
 grep -c 'iframe[^>]*youtube' public/blog/alex-eala-pro-career-tracker/index.html</summary>
 
@@ -5122,7 +5122,7 @@ echo "YT placeholder count per page:"
 for f in public/blog/*/index.html; do
   c=$(grep -o "yt-lite" "$f" | wc -l | tr -d ' ')
   if [ "$c" != "0" ]; then
-    echo "  $c — $(basename $(dirname $f))"
+    echo "  $c - $(basename $(dirname $f))"
   fi
 done
 echo "---"
@@ -5131,7 +5131,7 @@ echo "  index.html: $(grep -c 'function activate(el)' public/index.html 2>/dev/n
 echo "  about/index.html: $(grep -c 'function activate(el)' public/about/index.html 2>/dev/null)"
 echo "  blog/consistent-ai-output-wordpress-builds: $(grep -c 'function activate(el)' public/blog/consistent-ai-output-wordpress-builds/index.html)"
 echo "---"
-echo "Inline iframe to youtube count (should be 0 — facade replaces with iframe only on click):"
+echo "Inline iframe to youtube count (should be 0 - facade replaces with iframe only on click):"
 grep -c 'iframe[^>]*youtube' public/blog/dnpap-song-resources/index.html
 grep -c 'iframe[^>]*youtube' public/blog/alex-eala-pro-career-tracker/index.html
 ```
@@ -5145,7 +5145,7 @@ public/blog/power-of-worship-pads-enhancing-your-worship-with-guitar/index.html
 public/blog/set-it-forget-it-arroz-caldo/index.html
 ---
 YT placeholder count per page:
-  138 — alex-eala-pro-career-tracker
+  138 - alex-eala-pro-career-tracker
 
 ```
 </details>
@@ -5161,7 +5161,7 @@ _**Agent (auto-high)**_
 <think><details><summary>Thought Process</summary>
  The shell is dropping into a sandboxed sub-shell after the first multi-line command executed successfully. The search confirmed that 6 pages contain `yt-lite` markup, matching exactly with the 6 posts using YT shortcodes, while alex-eala shows 138 `yt-lite` matches across various class name variations like `yt-lite__thumb` and `yt-lite__play`.
 
-The YT facade is rendering correctly based on what I'm seeing—the dnpap page output shows 4 placeholders, 1 inline bootstrap script, and no inline YT iframes. I want to run another command to check whether other pages also lack the bootstrap script.</details></think>
+The YT facade is rendering correctly based on what I'm seeing-the dnpap page output shows 4 placeholders, 1 inline bootstrap script, and no inline YT iframes. I want to run another command to check whether other pages also lack the bootstrap script.</details></think>
 
 _**Agent (auto-high)**_
 
@@ -5177,7 +5177,7 @@ grep -c 'function activate' public/about/index.html
 grep -c 'function activate' public/blog/consistent-ai-output-wordpress-builds/index.html
 grep -c 'function activate' public/blog/how-i-built-joraps-world/index.html
 echo ""
-echo "Inline YT iframes anywhere (should be 0 — facade only injects iframe on click):"
+echo "Inline YT iframes anywhere (should be 0 - facade only injects iframe on click):"
 grep -l 'iframe[^>]*youtube' public/blog/*/index.html 2>/dev/null | wc -l | tr -d ' '</summary>
 
 ```bash
@@ -5192,7 +5192,7 @@ grep -c 'function activate' public/about/index.html
 grep -c 'function activate' public/blog/consistent-ai-output-wordpress-builds/index.html
 grep -c 'function activate' public/blog/how-i-built-joraps-world/index.html
 echo ""
-echo "Inline YT iframes anywhere (should be 0 — facade only injects iframe on click):"
+echo "Inline YT iframes anywhere (should be 0 - facade only injects iframe on click):"
 grep -l 'iframe[^>]*youtube' public/blog/*/index.html 2>/dev/null | wc -l | tr -d ' '
 ```
 
@@ -5245,46 +5245,46 @@ _**Agent (auto-high)**_
 _**Agent (auto-high)**_
 
 <tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
-<details><summary>Tool use: **run_terminal_command_v2** • Run command: echo "=== Pages WITH YT shortcodes — bootstrap present (search for stable minified marker) ==="
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: echo "=== Pages WITH YT shortcodes - bootstrap present (search for stable minified marker) ==="
 for f in dnpap-song-resources miracle-isaiah-david alex-eala-pro-career-tracker hugoplate-theme-review power-of-worship-pads-enhancing-your-worship-with-guitar set-it-forget-it-arroz-caldo; do
   c=$(grep -c "ytActive" "public/blog/$f/index.html" 2>/dev/null)
   echo "  blog/$f: bootstrap=$c"
 done
 
 echo
-echo "=== Pages WITHOUT YT shortcodes — bootstrap MUST be 0 ==="
+echo "=== Pages WITHOUT YT shortcodes - bootstrap MUST be 0 ==="
 for f in public/index.html public/about/index.html public/blog/consistent-ai-output-wordpress-builds/index.html public/blog/how-i-built-joraps-world/index.html public/blog/instant-pot-chicken-adobo/index.html public/blog/top-reasons-create-maintain-your-own-website/index.html; do
   c=$(grep -c "ytActive" "$f" 2>/dev/null)
   echo "  $f: bootstrap=$c"
 done
 
 echo
-echo "=== Inline YT iframes (must be 0 — facade only injects on click) ==="
+echo "=== Inline YT iframes (must be 0 - facade only injects on click) ==="
 grep -l "iframe[^>]*youtube" public/blog/*/index.html 2>/dev/null
 echo "  (above list is empty if facade is working correctly)"</summary>
 
 ```bash
-echo "=== Pages WITH YT shortcodes — bootstrap present (search for stable minified marker) ==="
+echo "=== Pages WITH YT shortcodes - bootstrap present (search for stable minified marker) ==="
 for f in dnpap-song-resources miracle-isaiah-david alex-eala-pro-career-tracker hugoplate-theme-review power-of-worship-pads-enhancing-your-worship-with-guitar set-it-forget-it-arroz-caldo; do
   c=$(grep -c "ytActive" "public/blog/$f/index.html" 2>/dev/null)
   echo "  blog/$f: bootstrap=$c"
 done
 
 echo
-echo "=== Pages WITHOUT YT shortcodes — bootstrap MUST be 0 ==="
+echo "=== Pages WITHOUT YT shortcodes - bootstrap MUST be 0 ==="
 for f in public/index.html public/about/index.html public/blog/consistent-ai-output-wordpress-builds/index.html public/blog/how-i-built-joraps-world/index.html public/blog/instant-pot-chicken-adobo/index.html public/blog/top-reasons-create-maintain-your-own-website/index.html; do
   c=$(grep -c "ytActive" "$f" 2>/dev/null)
   echo "  $f: bootstrap=$c"
 done
 
 echo
-echo "=== Inline YT iframes (must be 0 — facade only injects on click) ==="
+echo "=== Inline YT iframes (must be 0 - facade only injects on click) ==="
 grep -l "iframe[^>]*youtube" public/blog/*/index.html 2>/dev/null
 echo "  (above list is empty if facade is working correctly)"
 ```
 
 ```
-=== Pages WITH YT shortcodes — bootstrap present (search for stable minified marker) ===
+=== Pages WITH YT shortcodes - bootstrap present (search for stable minified marker) ===
   blog/dnpap-song-resources: bootstrap=1
   blog/miracle-isaiah-david: bootstrap=1
   blog/alex-eala-pro-career-tracker: bootstrap=1
@@ -5292,7 +5292,7 @@ echo "  (above list is empty if facade is working correctly)"
   blog/power-of-worship-pads-enhancing-your-worship-with-guitar: bootstrap=1
   blog/set-it-forget-it-arroz-caldo: bootstrap=1
 
-=== Pages WITHOUT YT shortcodes — bootstrap MUST be 0 ===
+=== Pages WITHOUT YT shortcodes - bootstrap MUST be 0 ===
 
 ```
 </details>
@@ -5306,7 +5306,7 @@ echo "  (above list is empty if facade is working correctly)"
 _**Agent (auto-high)**_
 
 <think><details><summary>Thought Process</summary>
- The sandbox timed out again, but I got the key result I needed—all six YouTube-using blog posts have the bootstrap pattern with exactly one inline script tag per page. Let me run the final verification checks separately to confirm the rest.</details></think>
+ The sandbox timed out again, but I got the key result I needed-all six YouTube-using blog posts have the bootstrap pattern with exactly one inline script tag per page. Let me run the final verification checks separately to confirm the rest.</details></think>
 
 _**Agent (auto-high)**_
 
@@ -5314,13 +5314,13 @@ _**Agent (auto-high)**_
 <details><summary>Tool use: **run_terminal_command_v2** • Run command: grep -c "ytActive" public/index.html public/about/index.html public/blog/consistent-ai-output-wordpress-builds/index.html public/blog/how-i-built-joraps-world/index.html public/blog/instant-pot-chicken-adobo/index.html 2>/dev/null
 echo "---"
 grep -l "iframe[^>]*youtube-nocookie\|iframe[^>]*youtube\.com" public/blog/*/index.html 2>/dev/null | wc -l | tr -d ' '
-echo "(0 = no inline YT iframes anywhere — facade is doing its job)"</summary>
+echo "(0 = no inline YT iframes anywhere - facade is doing its job)"</summary>
 
 ```bash
 grep -c "ytActive" public/index.html public/about/index.html public/blog/consistent-ai-output-wordpress-builds/index.html public/blog/how-i-built-joraps-world/index.html public/blog/instant-pot-chicken-adobo/index.html 2>/dev/null
 echo "---"
 grep -l "iframe[^>]*youtube-nocookie\|iframe[^>]*youtube\.com" public/blog/*/index.html 2>/dev/null | wc -l | tr -d ' '
-echo "(0 = no inline YT iframes anywhere — facade is doing its job)"
+echo "(0 = no inline YT iframes anywhere - facade is doing its job)"
 ```
 
 ```
@@ -5448,7 +5448,7 @@ grep -oE "data-yt-id" public/blog/alex-eala-pro-career-tracker/index.html | wc -
 _**Agent (auto-high)**_
 
 <think><details><summary>Thought Process</summary>
- I've verified the optimization worked—the Alex Eala post has 34 YouTube videos but loads zero actual iframes on page render, instead using lazy placeholders that only create the video players on click. This cuts down the initial page load from around 17 MB of video player code to just a single bootstrap script.</details></think>
+ I've verified the optimization worked-the Alex Eala post has 34 YouTube videos but loads zero actual iframes on page render, instead using lazy placeholders that only create the video players on click. This cuts down the initial page load from around 17 MB of video player code to just a single bootstrap script.</details></think>
 
 _**Agent (auto-high)**_
 
@@ -5553,7 +5553,7 @@ All wired up and verified. The combined Pattern 2 + Pattern 3 facade is live.
 
 ## Verification
 
-**Pages WITH YouTube shortcodes** — bootstrap emitted, placeholders rendered, zero iframes loaded:
+**Pages WITH YouTube shortcodes** - bootstrap emitted, placeholders rendered, zero iframes loaded:
 
 | Post | YT shortcodes | Inline iframes (must be 0) | Bootstrap script |
 |---|---|---|---|
@@ -5564,19 +5564,19 @@ All wired up and verified. The combined Pattern 2 + Pattern 3 facade is live.
 | `power-of-worship-pads-...` | 3 | 0 ✅ | 1 ✅ |
 | `set-it-forget-it-arroz-caldo` | 1 | 0 ✅ | 1 ✅ |
 
-**Pages WITHOUT YouTube** (home, about, posts that don't use the shortcode) — bootstrap not emitted at all. Zero JS overhead.
+**Pages WITHOUT YouTube** (home, about, posts that don't use the shortcode) - bootstrap not emitted at all. Zero JS overhead.
 
 ## What changed
 
-- `themes/jorap/layouts/shortcodes/youtube.html` — rewrote as click-to-play facade. Registers `Page.Store.Add "needs" "yt"`, emits a thumbnail + play button placeholder.
-- `themes/jorap/layouts/shortcodes/youtube_time.html` — same facade, with `data-yt-start` / `data-yt-end` carried through.
-- `themes/jorap/layouts/_partials/essentials/page-scripts.html` — **new**. Reads `Page.Store.Get "needs"` and emits the bootstrap *only* when `"yt"` is present. The bootstrap handles click→iframe injection and uses `IntersectionObserver` to preconnect to the YT origin when a placeholder approaches the viewport.
-- `themes/jorap/layouts/baseof.html` — calls `partial "essentials/page-scripts.html" .` after `block "main"` and before the cached script bundle. Critically *not* `partialCached` — must be per-page.
-- `themes/jorap/assets/css/components.css` — added `.yt-lite` styles: 16:9 aspect ratio, thumbnail cover, centered red play button on hover, focus-visible ring, `prefers-reduced-motion` honored.
+- `themes/jorap/layouts/shortcodes/youtube.html` - rewrote as click-to-play facade. Registers `Page.Store.Add "needs" "yt"`, emits a thumbnail + play button placeholder.
+- `themes/jorap/layouts/shortcodes/youtube_time.html` - same facade, with `data-yt-start` / `data-yt-end` carried through.
+- `themes/jorap/layouts/_partials/essentials/page-scripts.html` - **new**. Reads `Page.Store.Get "needs"` and emits the bootstrap *only* when `"yt"` is present. The bootstrap handles click→iframe injection and uses `IntersectionObserver` to preconnect to the YT origin when a placeholder approaches the viewport.
+- `themes/jorap/layouts/baseof.html` - calls `partial "essentials/page-scripts.html" .` after `block "main"` and before the cached script bundle. Critically *not* `partialCached` - must be per-page.
+- `themes/jorap/assets/css/components.css` - added `.yt-lite` styles: 16:9 aspect ratio, thumbnail cover, centered red play button on hover, focus-visible ring, `prefers-reduced-motion` honored.
 
-## The biggest win — the Alex Eala post
+## The biggest win - the Alex Eala post
 
-That post embeds **34 YouTube videos**. Before this change, every page view loaded 34 full YouTube iframes — roughly **15–25 MB** of bandwidth, hundreds of network requests, and several seconds of CPU time on a mid-range mobile.
+That post embeds **34 YouTube videos**. Before this change, every page view loaded 34 full YouTube iframes - roughly **15–25 MB** of bandwidth, hundreds of network requests, and several seconds of CPU time on a mid-range mobile.
 
 After: **0 iframes** on initial render. Just 34 thumbnail JPGs (browser-lazy-loaded as the user scrolls) and one ~600-byte inline bootstrap script. The full iframe loads only when a user actually clicks a video.
 
@@ -5584,9 +5584,9 @@ After: **0 iframes** on initial render. Just 34 thumbnail JPGs (browser-lazy-loa
 
 | Layer | Implementation |
 |---|---|
-| **Pattern 2** — gate ("does this page need it?") | Shortcode → `Page.Store.Add "needs" "yt"` |
+| **Pattern 2** - gate ("does this page need it?") | Shortcode → `Page.Store.Add "needs" "yt"` |
 | **Conditional emit** | `page-scripts.html` reads Store, emits bootstrap only if needed |
-| **Pattern 3** — trigger ("when do we actually run it?") | Click handler + `IntersectionObserver` for warm preconnect |
+| **Pattern 3** - trigger ("when do we actually run it?") | Click handler + `IntersectionObserver` for warm preconnect |
 
 ## Observed behavior
 
@@ -5598,7 +5598,7 @@ After: **0 iframes** on initial render. Just 34 thumbnail JPGs (browser-lazy-loa
 
 ## Want to extend the same pattern?
 
-The infrastructure is now in place — `essentials/page-scripts.html` is the single hook for any future "this plugin only loads on pages that use it" scenarios. Adding another (e.g., `mermaid` diagrams, `glightbox` galleries, `swiper` if you re-enable testimonials) is now just:
+The infrastructure is now in place - `essentials/page-scripts.html` is the single hook for any future "this plugin only loads on pages that use it" scenarios. Adding another (e.g., `mermaid` diagrams, `glightbox` galleries, `swiper` if you re-enable testimonials) is now just:
 
 1. In the shortcode/component: `{{ .Page.Store.Add "needs" "X" }}`.
 2. In `page-scripts.html`: `{{ if in $needs "X" }}<!-- bootstrap --> {{ end }}`.
@@ -5649,17 +5649,17 @@ _**Agent (auto-high)**_
 <think><details><summary>Thought Process</summary>
  I'm seeing that the YouTube shortcodes are embedded within markdown list items with indentation, which is causing Goldmark to parse them in a `<ul>/<li>` context rather than as standalone blocks. Let me check the actual rendered output to understand how they're being wrapped.
 
-Looking at the built page, the `.yt-lite` divs appear inside the `.content` prose container right after heading tags. The issue is likely a combination of things: the prose styles applying `max-w-full` and `rounded` to images, which could conflict with the absolute positioning and aspect-ratio setup of the thumbnail; potential margin doubling from prose's default spacing; and possibly the shortcodes not being recognized as block-level elements when they're nested in list items. The thumbnail has explicit width and height attributes but the CSS should override those with absolute positioning and object-fit, though the prose image utilities might be interfering. The Tailwind Typography plugin's `prose-img:max-w-full` is likely adding `height: auto` which overrides the container's `height: 100%`, causing the thumbnail to render at its intrinsic aspect ratio instead of filling the parent — that's probably why the alignment looks off.
+Looking at the built page, the `.yt-lite` divs appear inside the `.content` prose container right after heading tags. The issue is likely a combination of things: the prose styles applying `max-w-full` and `rounded` to images, which could conflict with the absolute positioning and aspect-ratio setup of the thumbnail; potential margin doubling from prose's default spacing; and possibly the shortcodes not being recognized as block-level elements when they're nested in list items. The thumbnail has explicit width and height attributes but the CSS should override those with absolute positioning and object-fit, though the prose image utilities might be interfering. The Tailwind Typography plugin's `prose-img:max-w-full` is likely adding `height: auto` which overrides the container's `height: 100%`, causing the thumbnail to render at its intrinsic aspect ratio instead of filling the parent - that's probably why the alignment looks off.
 
 I need to increase specificity on the `.yt-lite__thumb` rule to ensure the absolute positioning and object-fit properties take precedence over the prose styles, either by nesting the selector or using `!important`.
 
-Now I'm wondering if the real issue is that the iframe doesn't load when clicked — let me trace through the bootstrap logic. The click handler fires once and replaces the placeholder with the iframe, which should fill the 16:9 container since it's set to `width: 100%; height: 100%`. But I'm noticing the placeholder image uses `width=480 height=360` attributes, which creates a 4:3 aspect ratio instead of 16:9, so the browser might be reserving the wrong box size before CSS kicks in.
+Now I'm wondering if the real issue is that the iframe doesn't load when clicked - let me trace through the bootstrap logic. The click handler fires once and replaces the placeholder with the iframe, which should fill the 16:9 container since it's set to `width: 100%; height: 100%`. But I'm noticing the placeholder image uses `width=480 height=360` attributes, which creates a 4:3 aspect ratio instead of 16:9, so the browser might be reserving the wrong box size before CSS kicks in.
 
-The problem could be that Tailwind Typography's prose-img class is adding `height: auto`, which overrides our `height: 100%` and causes the image to render at its intrinsic 4:3 ratio inside the 16:9 parent — leaving black bars top and bottom. I need to increase specificity on our CSS rules to prevent this override, and maybe make the bootstrap more robust to handle cases where the click handler isn't firing or the iframe isn't visible after injection. Writing CSS specificity fixes... Writing the CSS fix...</details></think>
+The problem could be that Tailwind Typography's prose-img class is adding `height: auto`, which overrides our `height: 100%` and causes the image to render at its intrinsic 4:3 ratio inside the 16:9 parent - leaving black bars top and bottom. I need to increase specificity on our CSS rules to prevent this override, and maybe make the bootstrap more robust to handle cases where the click handler isn't firing or the iframe isn't visible after injection. Writing CSS specificity fixes... Writing the CSS fix...</details></think>
 
 _**Agent (auto-high)**_
 
-I see the issue. The `.content` prose styles (Tailwind Typography) apply `height: auto` and big margins to all `<img>` elements, which beats our `.yt-lite__thumb` selector and breaks the absolute fill — the thumbnail collapses to its 4:3 intrinsic aspect ratio inside the 16:9 parent, leaving gaps and pushing the play button off-center.
+I see the issue. The `.content` prose styles (Tailwind Typography) apply `height: auto` and big margins to all `<img>` elements, which beats our `.yt-lite__thumb` selector and breaks the absolute fill - the thumbnail collapses to its 4:3 intrinsic aspect ratio inside the 16:9 parent, leaving gaps and pushing the play button off-center.
 
 Let me confirm by reading the prose definition and then fix specificity.
 
@@ -5679,13 +5679,13 @@ _**Agent (auto-high)**_
 _**Agent (auto-high)**_
 
 <think><details><summary>Thought Process</summary>
- The prose image styles are conflicting with the thumbnail—the max-width, rounded corners, and large margins are all affecting it. I need to increase the specificity of the `.yt-lite__thumb` selector so it overrides the `.prose img` rules and resets those unwanted styles.
+ The prose image styles are conflicting with the thumbnail-the max-width, rounded corners, and large margins are all affecting it. I need to increase the specificity of the `.yt-lite__thumb` selector so it overrides the `.prose img` rules and resets those unwanted styles.
 
-Writing CSS fix... I'm wondering if the issue is actually a click handler problem rather than CSS—maybe the event isn't bubbling correctly or the target detection is off. Let me start a dev server to test this and see if the click listener is firing at all, then I can debug from there.</details></think>
+Writing CSS fix... I'm wondering if the issue is actually a click handler problem rather than CSS-maybe the event isn't bubbling correctly or the target detection is off. Let me start a dev server to test this and see if the click listener is firing at all, then I can debug from there.</details></think>
 
 _**Agent (auto-high)**_
 
-Confirmed — `prose-img` applies `height: auto` and big margins to *all* `<img>` inside `.content`, which has higher specificity than our `.yt-lite__thumb` rule. The thumbnail collapses to its intrinsic 4:3 aspect ratio inside the 16:9 parent, leaving black bars top/bottom and pushing the play button off-center.
+Confirmed - `prose-img` applies `height: auto` and big margins to *all* `<img>` inside `.content`, which has higher specificity than our `.yt-lite__thumb` rule. The thumbnail collapses to its intrinsic 4:3 aspect ratio inside the 16:9 parent, leaving black bars top/bottom and pushing the play button off-center.
 
 Let me fix the specificity and start a dev server to verify.
 
@@ -5799,7 +5799,7 @@ Result:
 
 ```json
 {
-  "result": "{\"content\":[{\"type\":\"text\",\"text\":\"### Action: snapshot\\n- Total refs: 147\\n- Interactive refs: 75\\n- Browser View ID: 184f55\\n\\n### Page state\\n- Page URL: http://localhost:1313/blog/dnpap-song-resources/\\n- Page Title: DNPAP – Song Resources by Destiny Music | Spotify, YouTube, Lyrics\\n- Page Snapshot:\\n&#96;&#96;&#96;yaml\\n- role: document\\n  name: DNPAP – Song Resources by Destiny Music | Spotify, YouTube, Lyrics\\n  ref: root\\n  children:\\n    - role: link\\n      name: JoRap's World\\n      ref: e0\\n    - role: checkbox\\n      name: Open and close site navigation\\n      ref: e1\\n      value: on\\n      states: [readonly]\\n    - role: link\\n      name: Home\\n      ref: e2\\n    - role: link\\n      name: About\\n      ref: e3\\n    - role: link\\n      name: Blog\\n      ref: e4\\n    - role: link\\n      name: Categories\\n      ref: e5\\n    - role: link\\n      name: Tags\\n      ref: e6\\n    - role: button\\n      name: Search\\n      ref: e7\\n    - role: checkbox\\n      name: theme switcher\\n      ref: e8\\n      value: on\\n      states: [checked, readonly]\\n    - role: link\\n      name: Worship,\\n      ref: e9\\n    - role: link\\n      name: Music,\\n      ref: e10\\n    - role: link\\n      name: Filipino\\n      ref: e11\\n    - role: link\\n      name: Destiny Music on Spotify\\n      ref: e12\\n    - role: button\\n      name: \\\"Play video: YouTube video\\\"\\n      ref: e13\\n    - role: button\\n      name: \\\"Play video: YouTube video\\\"\\n      ref: e14\\n      nth: 1\\n    - role: button\\n      name: \\\"Play video: YouTube video\\\"\\n      ref: e15\\n      nth: 2\\n    - role: button\\n      name: \\\"Play video: YouTube video\\\"\\n      ref: e16\\n      nth: 3\\n    - role: link\\n      name: Listen Here\\n      ref: e17\\n    - role: link\\n      name: Listen Here\\n      ref: e18\\n      nth: 1\\n    - role: link\\n      name: Listen Here\\n      ref: e19\\n      nth: 2\\n    - role: link\\n      name: Watch Here\\n      ref: e20\\n    - role: link\\n      name: Watch Here\\n      ref: e21\\n      nth: 1\\n    - role: link\\n      name: DNPAP\\n      ref: e22\\n    - role: link\\n      name: Destiny Music\\n      ref: e23\\n    - role: link\\n      name: Worship\\n      ref: e24\\n    - role: link\\n      name: Spotify\\n      ref: e25\\n    - role: link\\n      name: YouTube\\n      ref: e26\\n    - role: link\\n      name: Filipino Worship\\n      ref: e27\\n    - role: link\\n      name: OPM\\n      ref: e28\\n    - role: link\\n      name: Song Resources\\n      ref: e29\\n    - role: link\\n      name: Lyrics\\n      ref: e30\\n    - role: link\\n      name: Live Recording\\n      ref: e31\\n    - role: link\\n      name: Christian Music\\n      ref: e32\\n    - role: link\\n      name: share facebook\\n      ref: e33\\n    - role: link\\n      name: share x\\n      ref: e34\\n    - role: link\\n      name: share email\\n      ref: e35\\n    - role: link\\n      name: share linkedin\\n      ref: e36\\n    - role: button\\n      name: copy link\\n      ref: e37\\n    - role: link\\n      name: comments powered by Disqus\\n      ref: e38\\n    - role: link\\n      name: What does DNPAP mean?\\n      ref: e39\\n    - role: link\\n      name: The artist — Destiny Music\\n      ref: e40\\n    - role: link\\n      name: Where to listen and watch\\n      ref: e41\\n    - role: link\\n      name: Studio single (Spotify)\\n      ref: e42\\n    - role: link\\n      name: Studio single (YouTube)\\n      ref: e43\\n    - role: link\\n      name: Live version (Spotify)\\n      ref: e44\\n    - role: link\\n      name: Live performance (YouTube)\\n      ref: e45\\n    - role: link\\n      name: Official music video\\n      ref: e46\\n    - role: link\\n      name: Lyric video\\n      ref: e47\\n    - role: link\\n      name: Quick links\\n      ref: e48\\n    - role: link\\n      ref: e49\\n    - role: link\\n      name: \\\"The Power Of Worship Pads: Enhancing Your Worship When The Guitar Is Your Only Instrument\\\"\\n      ref: e50\\n    - role: link\\n      name: Worship,\\n      ref: e51\\n      nth: 1\\n    - role: link\\n      name: Music,\\n      ref: e52\\n      nth: 1\\n    - role: link\\n      name: Tips\\n      ref: e53\\n    - role: link\\n      name: Read More →\\n      ref: e54\\n    - role: link\\n      ref: e55\\n      nth: 1\\n    - role: link\\n      name: Instant Pot Chicken Adobo\\n      ref: e56\\n    - role: link\\n      name: Food,\\n      ref: e57\\n    - role: link\\n      name: Recipes,\\n      ref: e58\\n    - role: link\\n      name: Filipino\\n      ref: e59\\n      nth: 1\\n    - role: link\\n      name: Read More →\\n      ref: e60\\n      nth: 1\\n    - role: link\\n      ref: e61\\n      nth: 2\\n    - role: link\\n      name: Alex Eala Pro Career Tracker\\n      ref: e62\\n    - role: link\\n      name: Sports,\\n      ref: e63\\n    - role: link\\n      name: Filipino,\\n      ref: e64\\n    - role: link\\n      name: People\\n      ref: e65\\n    - role: link\\n      name: Read More →\\n      ref: e66\\n      nth: 2\\n    - role: link\\n      ref: e67\\n      nth: 3\\n    - role: link\\n      name: About\\n      ref: e68\\n      nth: 1\\n    - role: link\\n      name: Categories\\n      ref: e69\\n      nth: 1\\n    - role: link\\n      name: Tags\\n      ref: e70\\n      nth: 1\\n    - role: link\\n      name: facebook\\n      ref: e71\\n    - role: link\\n      name: twitter\\n      ref: e72\\n    - role: link\\n      name: github\\n      ref: e73\\n    - role: link\\n      name: linkedin\\n      ref: e74\\n    - role: listitem\\n      name: Home\\n      ref: e75\\n    - role: listitem\\n      name: About\\n      ref: e76\\n    - role: listitem\\n      name: Blog\\n      ref: e77\\n    - role: listitem\\n      name: Categories\\n      ref: e78\\n    - role: listitem\\n      name: Tags\\n      ref: e79\\n      name: theme switcher\\n      ref: e80\\n    - role: heading\\n      name: DNPAP – Song Resources\\n      ref: e81\\n      level: 1\\n    - role: listitem\\n      name: November 12, 2022\\n      ref: e82\\n    - role: listitem\\n      name: Worship, Music, Filipino\\n      ref: e83\\n    - role: listitem\\n      name: What does DNPAP mean?\\n      ref: e84\\n    - role: listitem\\n      name: The artist — Destiny Music\\n      ref: e85\\n    - role: listitem\\n      name: Where to listen and watchStudio single (Spotify)Studio single (YouTube)Live version (Spotify)Live performance (YouTube)Official music videoLyric video\\n      ref: e86\\n    - role: listitem\\n      name: Studio single (Spotify)\\n      ref: e87\\n    - role: listitem\\n      name: Studio single (YouTube)\\n      ref: e88\\n    - role: listitem\\n      name: Live version (Spotify)\\n      ref: e89\\n    - role: listitem\\n      name: Live performance (YouTube)\\n      ref: e90\\n    - role: listitem\\n      name: Official music video\\n      ref: e91\\n    - role: listitem\\n      name: Lyric video\\n      ref: e92\\n    - role: listitem\\n      name: Quick links\\n      ref: e93\\n      name: DNPAP has quietly become one of my favorite worship songs to come out of the local scene, so I put together this little page to collect everything in one place — the studio version, the live recording\\n      ref: e94\\n    - role: heading\\n      name: What does DNPAP mean?\\n      ref: e95\\n      level: 2\\n      name: DNPAP stands for “Diyos Ng Pagasa at Pagibig” — Filipino for “God of Hope and Love.” The acronym sticks; the meaning is the part worth carrying.\\n      ref: e96\\n    - role: heading\\n      name: The artist — Destiny Music\\n      ref: e97\\n      level: 2\\n      name: Destiny Music on Spotify\\n      ref: e98\\n    - role: heading\\n      name: Where to listen and watch\\n      ref: e99\\n      level: 2\\n    - role: heading\\n      name: Studio single (Spotify)\\n      ref: e100\\n      level: 3\\n    - role: heading\\n      name: Studio single (YouTube)\\n      ref: e101\\n      level: 3\\n    - role: heading\\n      name: Live version (Spotify)\\n      ref: e102\\n      level: 3\\n    - role: heading\\n      name: Live performance (YouTube)\\n      ref: e103\\n      level: 3\\n    - role: heading\\n      name: Official music video\\n      ref: e104\\n      level: 3\\n    - role: heading\\n      name: Lyric video\\n      ref: e105\\n      level: 3\\n    - role: heading\\n      name: Quick links\\n      ref: e106\\n      level: 2\\n      name: Tags\\n      ref: e107\\n    - role: listitem\\n      name: DNPAP\\n      ref: e108\\n    - role: listitem\\n      name: Destiny Music\\n      ref: e109\\n    - role: listitem\\n      name: Worship\\n      ref: e110\\n    - role: listitem\\n      name: Spotify\\n      ref: e111\\n    - role: listitem\\n      name: YouTube\\n      ref: e112\\n    - role: listitem\\n      name: Filipino Worship\\n      ref: e113\\n    - role: listitem\\n      name: OPM\\n      ref: e114\\n    - role: listitem\\n      name: Song Resources\\n      ref: e115\\n    - role: listitem\\n      name: Lyrics\\n      ref: e116\\n    - role: listitem\\n      name: Live Recording\\n      ref: e117\\n    - role: listitem\\n      name: Christian Music\\n      ref: e118\\n      name: Share\\n      ref: e119\\n      name: Table of Contents\\n      ref: e120\\n    - role: listitem\\n      name: What does DNPAP mean?\\n      ref: e121\\n    - role: listitem\\n      name: The artist — Destiny Music\\n      ref: e122\\n    - role: listitem\\n      name: Where to listen and watch Studio single (Spotify) Studio single (YouTube) Live version (Spotify) Live performance (YouTube) Official music video Lyric video\\n      ref: e123\\n    - role: listitem\\n      name: Studio single (Spotify)\\n      ref: e124\\n    - role: listitem\\n      name: Studio single (YouTube)\\n      ref: e125\\n    - role: listitem\\n      name: Live version (Spotify)\\n      ref: e126\\n    - role: listitem\\n      name: Live performance (YouTube)\\n      ref: e127\\n    - role: listitem\\n      name: Official music video\\n      ref: e128\\n    - role: listitem\\n      name: Lyric video\\n      ref: e129\\n    - role: listitem\\n      name: Quick links\\n      ref: e130\\n    - role: heading\\n      name: Related Posts\\n      ref: e131\\n      level: 2\\n    - role: heading\\n      name: \\\"The Power Of Worship Pads: Enhancing Your Worship When The Guitar Is Your Only Instrument\\\"\\n      ref: e132\\n      level: 3\\n    - role: listitem\\n      name: May 4, 2025\\n      ref: e133\\n    - role: listitem\\n      name: Worship, Music, Tips\\n      ref: e134\\n      name: Leading worship with just an acoustic guitar always felt thin in a big room — until someone slid a pad track underneath me during practice. The whole night changed.\\n      ref: e135\\n    - role: heading\\n      name: Instant Pot Chicken Adobo\\n      ref: e136\\n      level: 3\\n    - role: listitem\\n      name: May 3, 2026\\n      ref: e137\\n    - role: listitem\\n      name: Food, Recipes, Filipino\\n      ref: e138\\n      name: My go-to chicken adobo, adjusted for the Instant Pot. Bone-in thighs, 10 minutes under pressure, and that classic soy-garlic-vinegar glaze — without the hours of waiting.\\n      ref: e139\\n    - role: heading\\n      name: Alex Eala Pro Career Tracker\\n      ref: e140\\n      level: 3\\n    - role: listitem\\n      name: April 1, 2026\\n      ref: e141\\n    - role: listitem\\n      name: Sports, Filipino, People\\n      ref: e142\\n      name: A Filipino fan's running scrapbook of Alex Eala's WTA career — the rankings, the matches I'll never forget, and the matchups I'm watching for next.\\n      ref: e143\\n    - role: listitem\\n      name: About\\n      ref: e144\\n    - role: listitem\\n      name: Categories\\n      ref: e145\\n    - role: listitem\\n      name: Tags\\n      ref: e146\\n&#96;&#96;&#96;\"},{\"type\":\"text\",\"text\":\"{\\\"type\\\":\\\"metadata\\\",\\\"viewId\\\":\\\"184f55\\\",\\\"title\\\":\\\"DNPAP – Song Resources by Destiny Music | Spotify, YouTube, Lyrics\\\",\\\"url\\\":\\\"http://localhost:1313/blog/dnpap-song-resources/\\\",\\\"locked\\\":false}\"}]}"
+  "result": "{\"content\":[{\"type\":\"text\",\"text\":\"### Action: snapshot\\n- Total refs: 147\\n- Interactive refs: 75\\n- Browser View ID: 184f55\\n\\n### Page state\\n- Page URL: http://localhost:1313/blog/dnpap-song-resources/\\n- Page Title: DNPAP – Song Resources by Destiny Music | Spotify, YouTube, Lyrics\\n- Page Snapshot:\\n&#96;&#96;&#96;yaml\\n- role: document\\n  name: DNPAP – Song Resources by Destiny Music | Spotify, YouTube, Lyrics\\n  ref: root\\n  children:\\n    - role: link\\n      name: JoRap's World\\n      ref: e0\\n    - role: checkbox\\n      name: Open and close site navigation\\n      ref: e1\\n      value: on\\n      states: [readonly]\\n    - role: link\\n      name: Home\\n      ref: e2\\n    - role: link\\n      name: About\\n      ref: e3\\n    - role: link\\n      name: Blog\\n      ref: e4\\n    - role: link\\n      name: Categories\\n      ref: e5\\n    - role: link\\n      name: Tags\\n      ref: e6\\n    - role: button\\n      name: Search\\n      ref: e7\\n    - role: checkbox\\n      name: theme switcher\\n      ref: e8\\n      value: on\\n      states: [checked, readonly]\\n    - role: link\\n      name: Worship,\\n      ref: e9\\n    - role: link\\n      name: Music,\\n      ref: e10\\n    - role: link\\n      name: Filipino\\n      ref: e11\\n    - role: link\\n      name: Destiny Music on Spotify\\n      ref: e12\\n    - role: button\\n      name: \\\"Play video: YouTube video\\\"\\n      ref: e13\\n    - role: button\\n      name: \\\"Play video: YouTube video\\\"\\n      ref: e14\\n      nth: 1\\n    - role: button\\n      name: \\\"Play video: YouTube video\\\"\\n      ref: e15\\n      nth: 2\\n    - role: button\\n      name: \\\"Play video: YouTube video\\\"\\n      ref: e16\\n      nth: 3\\n    - role: link\\n      name: Listen Here\\n      ref: e17\\n    - role: link\\n      name: Listen Here\\n      ref: e18\\n      nth: 1\\n    - role: link\\n      name: Listen Here\\n      ref: e19\\n      nth: 2\\n    - role: link\\n      name: Watch Here\\n      ref: e20\\n    - role: link\\n      name: Watch Here\\n      ref: e21\\n      nth: 1\\n    - role: link\\n      name: DNPAP\\n      ref: e22\\n    - role: link\\n      name: Destiny Music\\n      ref: e23\\n    - role: link\\n      name: Worship\\n      ref: e24\\n    - role: link\\n      name: Spotify\\n      ref: e25\\n    - role: link\\n      name: YouTube\\n      ref: e26\\n    - role: link\\n      name: Filipino Worship\\n      ref: e27\\n    - role: link\\n      name: OPM\\n      ref: e28\\n    - role: link\\n      name: Song Resources\\n      ref: e29\\n    - role: link\\n      name: Lyrics\\n      ref: e30\\n    - role: link\\n      name: Live Recording\\n      ref: e31\\n    - role: link\\n      name: Christian Music\\n      ref: e32\\n    - role: link\\n      name: share facebook\\n      ref: e33\\n    - role: link\\n      name: share x\\n      ref: e34\\n    - role: link\\n      name: share email\\n      ref: e35\\n    - role: link\\n      name: share linkedin\\n      ref: e36\\n    - role: button\\n      name: copy link\\n      ref: e37\\n    - role: link\\n      name: comments powered by Disqus\\n      ref: e38\\n    - role: link\\n      name: What does DNPAP mean?\\n      ref: e39\\n    - role: link\\n      name: The artist - Destiny Music\\n      ref: e40\\n    - role: link\\n      name: Where to listen and watch\\n      ref: e41\\n    - role: link\\n      name: Studio single (Spotify)\\n      ref: e42\\n    - role: link\\n      name: Studio single (YouTube)\\n      ref: e43\\n    - role: link\\n      name: Live version (Spotify)\\n      ref: e44\\n    - role: link\\n      name: Live performance (YouTube)\\n      ref: e45\\n    - role: link\\n      name: Official music video\\n      ref: e46\\n    - role: link\\n      name: Lyric video\\n      ref: e47\\n    - role: link\\n      name: Quick links\\n      ref: e48\\n    - role: link\\n      ref: e49\\n    - role: link\\n      name: \\\"The Power Of Worship Pads: Enhancing Your Worship When The Guitar Is Your Only Instrument\\\"\\n      ref: e50\\n    - role: link\\n      name: Worship,\\n      ref: e51\\n      nth: 1\\n    - role: link\\n      name: Music,\\n      ref: e52\\n      nth: 1\\n    - role: link\\n      name: Tips\\n      ref: e53\\n    - role: link\\n      name: Read More →\\n      ref: e54\\n    - role: link\\n      ref: e55\\n      nth: 1\\n    - role: link\\n      name: Instant Pot Chicken Adobo\\n      ref: e56\\n    - role: link\\n      name: Food,\\n      ref: e57\\n    - role: link\\n      name: Recipes,\\n      ref: e58\\n    - role: link\\n      name: Filipino\\n      ref: e59\\n      nth: 1\\n    - role: link\\n      name: Read More →\\n      ref: e60\\n      nth: 1\\n    - role: link\\n      ref: e61\\n      nth: 2\\n    - role: link\\n      name: Alex Eala Pro Career Tracker\\n      ref: e62\\n    - role: link\\n      name: Sports,\\n      ref: e63\\n    - role: link\\n      name: Filipino,\\n      ref: e64\\n    - role: link\\n      name: People\\n      ref: e65\\n    - role: link\\n      name: Read More →\\n      ref: e66\\n      nth: 2\\n    - role: link\\n      ref: e67\\n      nth: 3\\n    - role: link\\n      name: About\\n      ref: e68\\n      nth: 1\\n    - role: link\\n      name: Categories\\n      ref: e69\\n      nth: 1\\n    - role: link\\n      name: Tags\\n      ref: e70\\n      nth: 1\\n    - role: link\\n      name: facebook\\n      ref: e71\\n    - role: link\\n      name: twitter\\n      ref: e72\\n    - role: link\\n      name: github\\n      ref: e73\\n    - role: link\\n      name: linkedin\\n      ref: e74\\n    - role: listitem\\n      name: Home\\n      ref: e75\\n    - role: listitem\\n      name: About\\n      ref: e76\\n    - role: listitem\\n      name: Blog\\n      ref: e77\\n    - role: listitem\\n      name: Categories\\n      ref: e78\\n    - role: listitem\\n      name: Tags\\n      ref: e79\\n      name: theme switcher\\n      ref: e80\\n    - role: heading\\n      name: DNPAP – Song Resources\\n      ref: e81\\n      level: 1\\n    - role: listitem\\n      name: November 12, 2022\\n      ref: e82\\n    - role: listitem\\n      name: Worship, Music, Filipino\\n      ref: e83\\n    - role: listitem\\n      name: What does DNPAP mean?\\n      ref: e84\\n    - role: listitem\\n      name: The artist - Destiny Music\\n      ref: e85\\n    - role: listitem\\n      name: Where to listen and watchStudio single (Spotify)Studio single (YouTube)Live version (Spotify)Live performance (YouTube)Official music videoLyric video\\n      ref: e86\\n    - role: listitem\\n      name: Studio single (Spotify)\\n      ref: e87\\n    - role: listitem\\n      name: Studio single (YouTube)\\n      ref: e88\\n    - role: listitem\\n      name: Live version (Spotify)\\n      ref: e89\\n    - role: listitem\\n      name: Live performance (YouTube)\\n      ref: e90\\n    - role: listitem\\n      name: Official music video\\n      ref: e91\\n    - role: listitem\\n      name: Lyric video\\n      ref: e92\\n    - role: listitem\\n      name: Quick links\\n      ref: e93\\n      name: DNPAP has quietly become one of my favorite worship songs to come out of the local scene, so I put together this little page to collect everything in one place - the studio version, the live recording\\n      ref: e94\\n    - role: heading\\n      name: What does DNPAP mean?\\n      ref: e95\\n      level: 2\\n      name: DNPAP stands for “Diyos Ng Pagasa at Pagibig” - Filipino for “God of Hope and Love.” The acronym sticks; the meaning is the part worth carrying.\\n      ref: e96\\n    - role: heading\\n      name: The artist - Destiny Music\\n      ref: e97\\n      level: 2\\n      name: Destiny Music on Spotify\\n      ref: e98\\n    - role: heading\\n      name: Where to listen and watch\\n      ref: e99\\n      level: 2\\n    - role: heading\\n      name: Studio single (Spotify)\\n      ref: e100\\n      level: 3\\n    - role: heading\\n      name: Studio single (YouTube)\\n      ref: e101\\n      level: 3\\n    - role: heading\\n      name: Live version (Spotify)\\n      ref: e102\\n      level: 3\\n    - role: heading\\n      name: Live performance (YouTube)\\n      ref: e103\\n      level: 3\\n    - role: heading\\n      name: Official music video\\n      ref: e104\\n      level: 3\\n    - role: heading\\n      name: Lyric video\\n      ref: e105\\n      level: 3\\n    - role: heading\\n      name: Quick links\\n      ref: e106\\n      level: 2\\n      name: Tags\\n      ref: e107\\n    - role: listitem\\n      name: DNPAP\\n      ref: e108\\n    - role: listitem\\n      name: Destiny Music\\n      ref: e109\\n    - role: listitem\\n      name: Worship\\n      ref: e110\\n    - role: listitem\\n      name: Spotify\\n      ref: e111\\n    - role: listitem\\n      name: YouTube\\n      ref: e112\\n    - role: listitem\\n      name: Filipino Worship\\n      ref: e113\\n    - role: listitem\\n      name: OPM\\n      ref: e114\\n    - role: listitem\\n      name: Song Resources\\n      ref: e115\\n    - role: listitem\\n      name: Lyrics\\n      ref: e116\\n    - role: listitem\\n      name: Live Recording\\n      ref: e117\\n    - role: listitem\\n      name: Christian Music\\n      ref: e118\\n      name: Share\\n      ref: e119\\n      name: Table of Contents\\n      ref: e120\\n    - role: listitem\\n      name: What does DNPAP mean?\\n      ref: e121\\n    - role: listitem\\n      name: The artist - Destiny Music\\n      ref: e122\\n    - role: listitem\\n      name: Where to listen and watch Studio single (Spotify) Studio single (YouTube) Live version (Spotify) Live performance (YouTube) Official music video Lyric video\\n      ref: e123\\n    - role: listitem\\n      name: Studio single (Spotify)\\n      ref: e124\\n    - role: listitem\\n      name: Studio single (YouTube)\\n      ref: e125\\n    - role: listitem\\n      name: Live version (Spotify)\\n      ref: e126\\n    - role: listitem\\n      name: Live performance (YouTube)\\n      ref: e127\\n    - role: listitem\\n      name: Official music video\\n      ref: e128\\n    - role: listitem\\n      name: Lyric video\\n      ref: e129\\n    - role: listitem\\n      name: Quick links\\n      ref: e130\\n    - role: heading\\n      name: Related Posts\\n      ref: e131\\n      level: 2\\n    - role: heading\\n      name: \\\"The Power Of Worship Pads: Enhancing Your Worship When The Guitar Is Your Only Instrument\\\"\\n      ref: e132\\n      level: 3\\n    - role: listitem\\n      name: May 4, 2025\\n      ref: e133\\n    - role: listitem\\n      name: Worship, Music, Tips\\n      ref: e134\\n      name: Leading worship with just an acoustic guitar always felt thin in a big room - until someone slid a pad track underneath me during practice. The whole night changed.\\n      ref: e135\\n    - role: heading\\n      name: Instant Pot Chicken Adobo\\n      ref: e136\\n      level: 3\\n    - role: listitem\\n      name: May 3, 2026\\n      ref: e137\\n    - role: listitem\\n      name: Food, Recipes, Filipino\\n      ref: e138\\n      name: My go-to chicken adobo, adjusted for the Instant Pot. Bone-in thighs, 10 minutes under pressure, and that classic soy-garlic-vinegar glaze - without the hours of waiting.\\n      ref: e139\\n    - role: heading\\n      name: Alex Eala Pro Career Tracker\\n      ref: e140\\n      level: 3\\n    - role: listitem\\n      name: April 1, 2026\\n      ref: e141\\n    - role: listitem\\n      name: Sports, Filipino, People\\n      ref: e142\\n      name: A Filipino fan's running scrapbook of Alex Eala's WTA career - the rankings, the matches I'll never forget, and the matchups I'm watching for next.\\n      ref: e143\\n    - role: listitem\\n      name: About\\n      ref: e144\\n    - role: listitem\\n      name: Categories\\n      ref: e145\\n    - role: listitem\\n      name: Tags\\n      ref: e146\\n&#96;&#96;&#96;\"},{\"type\":\"text\",\"text\":\"{\\\"type\\\":\\\"metadata\\\",\\\"viewId\\\":\\\"184f55\\\",\\\"title\\\":\\\"DNPAP – Song Resources by Destiny Music | Spotify, YouTube, Lyrics\\\",\\\"url\\\":\\\"http://localhost:1313/blog/dnpap-song-resources/\\\",\\\"locked\\\":false}\"}]}"
 }
 ```
 User decision: **accepted**
@@ -5822,7 +5822,7 @@ _**Agent (auto-high)**_
 
 _**Agent (auto-high)**_
 
-Good — accessibility tree shows 4 working "Play video" buttons (refs e13–e16). Let me take a screenshot and zoom into the first YT placeholder to verify visual alignment.
+Good - accessibility tree shows 4 working "Play video" buttons (refs e13–e16). Let me take a screenshot and zoom into the first YT placeholder to verify visual alignment.
 
 _**Agent (auto-high)**_
 
@@ -6025,7 +6025,7 @@ Looking closer, I think the images might be rendering with their intrinsic aspec
 
 _**Agent (auto-high)**_
 
-I can see the issue persists in the top placeholder — the play button is at the top edge instead of centered, meaning the thumbnail still isn't filling correctly. The dev server may not have hot-reloaded the CSS change. Let me hard-reload and inspect directly.
+I can see the issue persists in the top placeholder - the play button is at the top edge instead of centered, meaning the thumbnail still isn't filling correctly. The dev server may not have hot-reloaded the CSS change. Let me hard-reload and inspect directly.
 
 _**Agent (auto-high)**_
 
@@ -6058,7 +6058,7 @@ Result:
 
 ```json
 {
-  "result": "{\"content\":[{\"type\":\"text\",\"text\":\"### Action: snapshot\\n- Total refs: 147\\n- Interactive refs: 75\\n- Browser View ID: 184f55\\n\\n### Page state\\n- Page URL: http://localhost:1313/blog/dnpap-song-resources/\\n- Page Title: DNPAP – Song Resources by Destiny Music | Spotify, YouTube, Lyrics\\n- Page Snapshot:\\n&#96;&#96;&#96;yaml\\n- role: document\\n  name: DNPAP – Song Resources by Destiny Music | Spotify, YouTube, Lyrics\\n  ref: root\\n  children:\\n    - role: link\\n      name: JoRap's World\\n      ref: e0\\n    - role: checkbox\\n      name: Open and close site navigation\\n      ref: e1\\n      value: on\\n      states: [readonly]\\n    - role: link\\n      name: Home\\n      ref: e2\\n    - role: link\\n      name: About\\n      ref: e3\\n    - role: link\\n      name: Blog\\n      ref: e4\\n    - role: link\\n      name: Categories\\n      ref: e5\\n    - role: link\\n      name: Tags\\n      ref: e6\\n    - role: button\\n      name: Search\\n      ref: e7\\n    - role: checkbox\\n      name: theme switcher\\n      ref: e8\\n      value: on\\n      states: [checked, readonly]\\n    - role: link\\n      name: Worship,\\n      ref: e9\\n    - role: link\\n      name: Music,\\n      ref: e10\\n    - role: link\\n      name: Filipino\\n      ref: e11\\n    - role: link\\n      name: Destiny Music on Spotify\\n      ref: e12\\n    - role: button\\n      name: \\\"Play video: YouTube video\\\"\\n      ref: e13\\n    - role: button\\n      name: \\\"Play video: YouTube video\\\"\\n      ref: e14\\n      nth: 1\\n    - role: button\\n      name: \\\"Play video: YouTube video\\\"\\n      ref: e15\\n      nth: 2\\n    - role: button\\n      name: \\\"Play video: YouTube video\\\"\\n      ref: e16\\n      nth: 3\\n    - role: link\\n      name: Listen Here\\n      ref: e17\\n    - role: link\\n      name: Listen Here\\n      ref: e18\\n      nth: 1\\n    - role: link\\n      name: Listen Here\\n      ref: e19\\n      nth: 2\\n    - role: link\\n      name: Watch Here\\n      ref: e20\\n    - role: link\\n      name: Watch Here\\n      ref: e21\\n      nth: 1\\n    - role: link\\n      name: DNPAP\\n      ref: e22\\n    - role: link\\n      name: Destiny Music\\n      ref: e23\\n    - role: link\\n      name: Worship\\n      ref: e24\\n    - role: link\\n      name: Spotify\\n      ref: e25\\n    - role: link\\n      name: YouTube\\n      ref: e26\\n    - role: link\\n      name: Filipino Worship\\n      ref: e27\\n    - role: link\\n      name: OPM\\n      ref: e28\\n    - role: link\\n      name: Song Resources\\n      ref: e29\\n    - role: link\\n      name: Lyrics\\n      ref: e30\\n    - role: link\\n      name: Live Recording\\n      ref: e31\\n    - role: link\\n      name: Christian Music\\n      ref: e32\\n    - role: link\\n      name: share facebook\\n      ref: e33\\n    - role: link\\n      name: share x\\n      ref: e34\\n    - role: link\\n      name: share email\\n      ref: e35\\n    - role: link\\n      name: share linkedin\\n      ref: e36\\n    - role: button\\n      name: copy link\\n      ref: e37\\n    - role: link\\n      name: comments powered by Disqus\\n      ref: e38\\n    - role: link\\n      name: What does DNPAP mean?\\n      ref: e39\\n    - role: link\\n      name: The artist — Destiny Music\\n      ref: e40\\n    - role: link\\n      name: Where to listen and watch\\n      ref: e41\\n    - role: link\\n      name: Studio single (Spotify)\\n      ref: e42\\n    - role: link\\n      name: Studio single (YouTube)\\n      ref: e43\\n    - role: link\\n      name: Live version (Spotify)\\n      ref: e44\\n    - role: link\\n      name: Live performance (YouTube)\\n      ref: e45\\n    - role: link\\n      name: Official music video\\n      ref: e46\\n    - role: link\\n      name: Lyric video\\n      ref: e47\\n    - role: link\\n      name: Quick links\\n      ref: e48\\n    - role: link\\n      ref: e49\\n    - role: link\\n      name: \\\"The Power Of Worship Pads: Enhancing Your Worship When The Guitar Is Your Only Instrument\\\"\\n      ref: e50\\n    - role: link\\n      name: Worship,\\n      ref: e51\\n      nth: 1\\n    - role: link\\n      name: Music,\\n      ref: e52\\n      nth: 1\\n    - role: link\\n      name: Tips\\n      ref: e53\\n    - role: link\\n      name: Read More →\\n      ref: e54\\n    - role: link\\n      ref: e55\\n      nth: 1\\n    - role: link\\n      name: Instant Pot Chicken Adobo\\n      ref: e56\\n    - role: link\\n      name: Food,\\n      ref: e57\\n    - role: link\\n      name: Recipes,\\n      ref: e58\\n    - role: link\\n      name: Filipino\\n      ref: e59\\n      nth: 1\\n    - role: link\\n      name: Read More →\\n      ref: e60\\n      nth: 1\\n    - role: link\\n      ref: e61\\n      nth: 2\\n    - role: link\\n      name: Alex Eala Pro Career Tracker\\n      ref: e62\\n    - role: link\\n      name: Sports,\\n      ref: e63\\n    - role: link\\n      name: Filipino,\\n      ref: e64\\n    - role: link\\n      name: People\\n      ref: e65\\n    - role: link\\n      name: Read More →\\n      ref: e66\\n      nth: 2\\n    - role: link\\n      ref: e67\\n      nth: 3\\n    - role: link\\n      name: About\\n      ref: e68\\n      nth: 1\\n    - role: link\\n      name: Categories\\n      ref: e69\\n      nth: 1\\n    - role: link\\n      name: Tags\\n      ref: e70\\n      nth: 1\\n    - role: link\\n      name: facebook\\n      ref: e71\\n    - role: link\\n      name: twitter\\n      ref: e72\\n    - role: link\\n      name: github\\n      ref: e73\\n    - role: link\\n      name: linkedin\\n      ref: e74\\n    - role: listitem\\n      name: Home\\n      ref: e75\\n    - role: listitem\\n      name: About\\n      ref: e76\\n    - role: listitem\\n      name: Blog\\n      ref: e77\\n    - role: listitem\\n      name: Categories\\n      ref: e78\\n    - role: listitem\\n      name: Tags\\n      ref: e79\\n      name: theme switcher\\n      ref: e80\\n    - role: heading\\n      name: DNPAP – Song Resources\\n      ref: e81\\n      level: 1\\n    - role: listitem\\n      name: November 12, 2022\\n      ref: e82\\n    - role: listitem\\n      name: Worship, Music, Filipino\\n      ref: e83\\n    - role: listitem\\n      name: What does DNPAP mean?\\n      ref: e84\\n    - role: listitem\\n      name: The artist — Destiny Music\\n      ref: e85\\n    - role: listitem\\n      name: Where to listen and watchStudio single (Spotify)Studio single (YouTube)Live version (Spotify)Live performance (YouTube)Official music videoLyric video\\n      ref: e86\\n    - role: listitem\\n      name: Studio single (Spotify)\\n      ref: e87\\n    - role: listitem\\n      name: Studio single (YouTube)\\n      ref: e88\\n    - role: listitem\\n      name: Live version (Spotify)\\n      ref: e89\\n    - role: listitem\\n      name: Live performance (YouTube)\\n      ref: e90\\n    - role: listitem\\n      name: Official music video\\n      ref: e91\\n    - role: listitem\\n      name: Lyric video\\n      ref: e92\\n    - role: listitem\\n      name: Quick links\\n      ref: e93\\n      name: DNPAP has quietly become one of my favorite worship songs to come out of the local scene, so I put together this little page to collect everything in one place — the studio version, the live recording\\n      ref: e94\\n    - role: heading\\n      name: What does DNPAP mean?\\n      ref: e95\\n      level: 2\\n      name: DNPAP stands for “Diyos Ng Pagasa at Pagibig” — Filipino for “God of Hope and Love.” The acronym sticks; the meaning is the part worth carrying.\\n      ref: e96\\n    - role: heading\\n      name: The artist — Destiny Music\\n      ref: e97\\n      level: 2\\n      name: Destiny Music on Spotify\\n      ref: e98\\n    - role: heading\\n      name: Where to listen and watch\\n      ref: e99\\n      level: 2\\n    - role: heading\\n      name: Studio single (Spotify)\\n      ref: e100\\n      level: 3\\n    - role: heading\\n      name: Studio single (YouTube)\\n      ref: e101\\n      level: 3\\n    - role: heading\\n      name: Live version (Spotify)\\n      ref: e102\\n      level: 3\\n    - role: heading\\n      name: Live performance (YouTube)\\n      ref: e103\\n      level: 3\\n    - role: heading\\n      name: Official music video\\n      ref: e104\\n      level: 3\\n    - role: heading\\n      name: Lyric video\\n      ref: e105\\n      level: 3\\n    - role: heading\\n      name: Quick links\\n      ref: e106\\n      level: 2\\n      name: Tags\\n      ref: e107\\n    - role: listitem\\n      name: DNPAP\\n      ref: e108\\n    - role: listitem\\n      name: Destiny Music\\n      ref: e109\\n    - role: listitem\\n      name: Worship\\n      ref: e110\\n    - role: listitem\\n      name: Spotify\\n      ref: e111\\n    - role: listitem\\n      name: YouTube\\n      ref: e112\\n    - role: listitem\\n      name: Filipino Worship\\n      ref: e113\\n    - role: listitem\\n      name: OPM\\n      ref: e114\\n    - role: listitem\\n      name: Song Resources\\n      ref: e115\\n    - role: listitem\\n      name: Lyrics\\n      ref: e116\\n    - role: listitem\\n      name: Live Recording\\n      ref: e117\\n    - role: listitem\\n      name: Christian Music\\n      ref: e118\\n      name: Share\\n      ref: e119\\n      name: Table of Contents\\n      ref: e120\\n    - role: listitem\\n      name: What does DNPAP mean?\\n      ref: e121\\n    - role: listitem\\n      name: The artist — Destiny Music\\n      ref: e122\\n    - role: listitem\\n      name: Where to listen and watch Studio single (Spotify) Studio single (YouTube) Live version (Spotify) Live performance (YouTube) Official music video Lyric video\\n      ref: e123\\n    - role: listitem\\n      name: Studio single (Spotify)\\n      ref: e124\\n    - role: listitem\\n      name: Studio single (YouTube)\\n      ref: e125\\n    - role: listitem\\n      name: Live version (Spotify)\\n      ref: e126\\n    - role: listitem\\n      name: Live performance (YouTube)\\n      ref: e127\\n    - role: listitem\\n      name: Official music video\\n      ref: e128\\n    - role: listitem\\n      name: Lyric video\\n      ref: e129\\n    - role: listitem\\n      name: Quick links\\n      ref: e130\\n    - role: heading\\n      name: Related Posts\\n      ref: e131\\n      level: 2\\n    - role: heading\\n      name: \\\"The Power Of Worship Pads: Enhancing Your Worship When The Guitar Is Your Only Instrument\\\"\\n      ref: e132\\n      level: 3\\n    - role: listitem\\n      name: May 4, 2025\\n      ref: e133\\n    - role: listitem\\n      name: Worship, Music, Tips\\n      ref: e134\\n      name: Leading worship with just an acoustic guitar always felt thin in a big room — until someone slid a pad track underneath me during practice. The whole night changed.\\n      ref: e135\\n    - role: heading\\n      name: Instant Pot Chicken Adobo\\n      ref: e136\\n      level: 3\\n    - role: listitem\\n      name: May 3, 2026\\n      ref: e137\\n    - role: listitem\\n      name: Food, Recipes, Filipino\\n      ref: e138\\n      name: My go-to chicken adobo, adjusted for the Instant Pot. Bone-in thighs, 10 minutes under pressure, and that classic soy-garlic-vinegar glaze — without the hours of waiting.\\n      ref: e139\\n    - role: heading\\n      name: Alex Eala Pro Career Tracker\\n      ref: e140\\n      level: 3\\n    - role: listitem\\n      name: April 1, 2026\\n      ref: e141\\n    - role: listitem\\n      name: Sports, Filipino, People\\n      ref: e142\\n      name: A Filipino fan's running scrapbook of Alex Eala's WTA career — the rankings, the matches I'll never forget, and the matchups I'm watching for next.\\n      ref: e143\\n    - role: listitem\\n      name: About\\n      ref: e144\\n    - role: listitem\\n      name: Categories\\n      ref: e145\\n    - role: listitem\\n      name: Tags\\n      ref: e146\\n&#96;&#96;&#96;\"},{\"type\":\"text\",\"text\":\"{\\\"type\\\":\\\"metadata\\\",\\\"viewId\\\":\\\"184f55\\\",\\\"title\\\":\\\"DNPAP – Song Resources by Destiny Music | Spotify, YouTube, Lyrics\\\",\\\"url\\\":\\\"http://localhost:1313/blog/dnpap-song-resources/\\\",\\\"locked\\\":false}\"}]}"
+  "result": "{\"content\":[{\"type\":\"text\",\"text\":\"### Action: snapshot\\n- Total refs: 147\\n- Interactive refs: 75\\n- Browser View ID: 184f55\\n\\n### Page state\\n- Page URL: http://localhost:1313/blog/dnpap-song-resources/\\n- Page Title: DNPAP – Song Resources by Destiny Music | Spotify, YouTube, Lyrics\\n- Page Snapshot:\\n&#96;&#96;&#96;yaml\\n- role: document\\n  name: DNPAP – Song Resources by Destiny Music | Spotify, YouTube, Lyrics\\n  ref: root\\n  children:\\n    - role: link\\n      name: JoRap's World\\n      ref: e0\\n    - role: checkbox\\n      name: Open and close site navigation\\n      ref: e1\\n      value: on\\n      states: [readonly]\\n    - role: link\\n      name: Home\\n      ref: e2\\n    - role: link\\n      name: About\\n      ref: e3\\n    - role: link\\n      name: Blog\\n      ref: e4\\n    - role: link\\n      name: Categories\\n      ref: e5\\n    - role: link\\n      name: Tags\\n      ref: e6\\n    - role: button\\n      name: Search\\n      ref: e7\\n    - role: checkbox\\n      name: theme switcher\\n      ref: e8\\n      value: on\\n      states: [checked, readonly]\\n    - role: link\\n      name: Worship,\\n      ref: e9\\n    - role: link\\n      name: Music,\\n      ref: e10\\n    - role: link\\n      name: Filipino\\n      ref: e11\\n    - role: link\\n      name: Destiny Music on Spotify\\n      ref: e12\\n    - role: button\\n      name: \\\"Play video: YouTube video\\\"\\n      ref: e13\\n    - role: button\\n      name: \\\"Play video: YouTube video\\\"\\n      ref: e14\\n      nth: 1\\n    - role: button\\n      name: \\\"Play video: YouTube video\\\"\\n      ref: e15\\n      nth: 2\\n    - role: button\\n      name: \\\"Play video: YouTube video\\\"\\n      ref: e16\\n      nth: 3\\n    - role: link\\n      name: Listen Here\\n      ref: e17\\n    - role: link\\n      name: Listen Here\\n      ref: e18\\n      nth: 1\\n    - role: link\\n      name: Listen Here\\n      ref: e19\\n      nth: 2\\n    - role: link\\n      name: Watch Here\\n      ref: e20\\n    - role: link\\n      name: Watch Here\\n      ref: e21\\n      nth: 1\\n    - role: link\\n      name: DNPAP\\n      ref: e22\\n    - role: link\\n      name: Destiny Music\\n      ref: e23\\n    - role: link\\n      name: Worship\\n      ref: e24\\n    - role: link\\n      name: Spotify\\n      ref: e25\\n    - role: link\\n      name: YouTube\\n      ref: e26\\n    - role: link\\n      name: Filipino Worship\\n      ref: e27\\n    - role: link\\n      name: OPM\\n      ref: e28\\n    - role: link\\n      name: Song Resources\\n      ref: e29\\n    - role: link\\n      name: Lyrics\\n      ref: e30\\n    - role: link\\n      name: Live Recording\\n      ref: e31\\n    - role: link\\n      name: Christian Music\\n      ref: e32\\n    - role: link\\n      name: share facebook\\n      ref: e33\\n    - role: link\\n      name: share x\\n      ref: e34\\n    - role: link\\n      name: share email\\n      ref: e35\\n    - role: link\\n      name: share linkedin\\n      ref: e36\\n    - role: button\\n      name: copy link\\n      ref: e37\\n    - role: link\\n      name: comments powered by Disqus\\n      ref: e38\\n    - role: link\\n      name: What does DNPAP mean?\\n      ref: e39\\n    - role: link\\n      name: The artist - Destiny Music\\n      ref: e40\\n    - role: link\\n      name: Where to listen and watch\\n      ref: e41\\n    - role: link\\n      name: Studio single (Spotify)\\n      ref: e42\\n    - role: link\\n      name: Studio single (YouTube)\\n      ref: e43\\n    - role: link\\n      name: Live version (Spotify)\\n      ref: e44\\n    - role: link\\n      name: Live performance (YouTube)\\n      ref: e45\\n    - role: link\\n      name: Official music video\\n      ref: e46\\n    - role: link\\n      name: Lyric video\\n      ref: e47\\n    - role: link\\n      name: Quick links\\n      ref: e48\\n    - role: link\\n      ref: e49\\n    - role: link\\n      name: \\\"The Power Of Worship Pads: Enhancing Your Worship When The Guitar Is Your Only Instrument\\\"\\n      ref: e50\\n    - role: link\\n      name: Worship,\\n      ref: e51\\n      nth: 1\\n    - role: link\\n      name: Music,\\n      ref: e52\\n      nth: 1\\n    - role: link\\n      name: Tips\\n      ref: e53\\n    - role: link\\n      name: Read More →\\n      ref: e54\\n    - role: link\\n      ref: e55\\n      nth: 1\\n    - role: link\\n      name: Instant Pot Chicken Adobo\\n      ref: e56\\n    - role: link\\n      name: Food,\\n      ref: e57\\n    - role: link\\n      name: Recipes,\\n      ref: e58\\n    - role: link\\n      name: Filipino\\n      ref: e59\\n      nth: 1\\n    - role: link\\n      name: Read More →\\n      ref: e60\\n      nth: 1\\n    - role: link\\n      ref: e61\\n      nth: 2\\n    - role: link\\n      name: Alex Eala Pro Career Tracker\\n      ref: e62\\n    - role: link\\n      name: Sports,\\n      ref: e63\\n    - role: link\\n      name: Filipino,\\n      ref: e64\\n    - role: link\\n      name: People\\n      ref: e65\\n    - role: link\\n      name: Read More →\\n      ref: e66\\n      nth: 2\\n    - role: link\\n      ref: e67\\n      nth: 3\\n    - role: link\\n      name: About\\n      ref: e68\\n      nth: 1\\n    - role: link\\n      name: Categories\\n      ref: e69\\n      nth: 1\\n    - role: link\\n      name: Tags\\n      ref: e70\\n      nth: 1\\n    - role: link\\n      name: facebook\\n      ref: e71\\n    - role: link\\n      name: twitter\\n      ref: e72\\n    - role: link\\n      name: github\\n      ref: e73\\n    - role: link\\n      name: linkedin\\n      ref: e74\\n    - role: listitem\\n      name: Home\\n      ref: e75\\n    - role: listitem\\n      name: About\\n      ref: e76\\n    - role: listitem\\n      name: Blog\\n      ref: e77\\n    - role: listitem\\n      name: Categories\\n      ref: e78\\n    - role: listitem\\n      name: Tags\\n      ref: e79\\n      name: theme switcher\\n      ref: e80\\n    - role: heading\\n      name: DNPAP – Song Resources\\n      ref: e81\\n      level: 1\\n    - role: listitem\\n      name: November 12, 2022\\n      ref: e82\\n    - role: listitem\\n      name: Worship, Music, Filipino\\n      ref: e83\\n    - role: listitem\\n      name: What does DNPAP mean?\\n      ref: e84\\n    - role: listitem\\n      name: The artist - Destiny Music\\n      ref: e85\\n    - role: listitem\\n      name: Where to listen and watchStudio single (Spotify)Studio single (YouTube)Live version (Spotify)Live performance (YouTube)Official music videoLyric video\\n      ref: e86\\n    - role: listitem\\n      name: Studio single (Spotify)\\n      ref: e87\\n    - role: listitem\\n      name: Studio single (YouTube)\\n      ref: e88\\n    - role: listitem\\n      name: Live version (Spotify)\\n      ref: e89\\n    - role: listitem\\n      name: Live performance (YouTube)\\n      ref: e90\\n    - role: listitem\\n      name: Official music video\\n      ref: e91\\n    - role: listitem\\n      name: Lyric video\\n      ref: e92\\n    - role: listitem\\n      name: Quick links\\n      ref: e93\\n      name: DNPAP has quietly become one of my favorite worship songs to come out of the local scene, so I put together this little page to collect everything in one place - the studio version, the live recording\\n      ref: e94\\n    - role: heading\\n      name: What does DNPAP mean?\\n      ref: e95\\n      level: 2\\n      name: DNPAP stands for “Diyos Ng Pagasa at Pagibig” - Filipino for “God of Hope and Love.” The acronym sticks; the meaning is the part worth carrying.\\n      ref: e96\\n    - role: heading\\n      name: The artist - Destiny Music\\n      ref: e97\\n      level: 2\\n      name: Destiny Music on Spotify\\n      ref: e98\\n    - role: heading\\n      name: Where to listen and watch\\n      ref: e99\\n      level: 2\\n    - role: heading\\n      name: Studio single (Spotify)\\n      ref: e100\\n      level: 3\\n    - role: heading\\n      name: Studio single (YouTube)\\n      ref: e101\\n      level: 3\\n    - role: heading\\n      name: Live version (Spotify)\\n      ref: e102\\n      level: 3\\n    - role: heading\\n      name: Live performance (YouTube)\\n      ref: e103\\n      level: 3\\n    - role: heading\\n      name: Official music video\\n      ref: e104\\n      level: 3\\n    - role: heading\\n      name: Lyric video\\n      ref: e105\\n      level: 3\\n    - role: heading\\n      name: Quick links\\n      ref: e106\\n      level: 2\\n      name: Tags\\n      ref: e107\\n    - role: listitem\\n      name: DNPAP\\n      ref: e108\\n    - role: listitem\\n      name: Destiny Music\\n      ref: e109\\n    - role: listitem\\n      name: Worship\\n      ref: e110\\n    - role: listitem\\n      name: Spotify\\n      ref: e111\\n    - role: listitem\\n      name: YouTube\\n      ref: e112\\n    - role: listitem\\n      name: Filipino Worship\\n      ref: e113\\n    - role: listitem\\n      name: OPM\\n      ref: e114\\n    - role: listitem\\n      name: Song Resources\\n      ref: e115\\n    - role: listitem\\n      name: Lyrics\\n      ref: e116\\n    - role: listitem\\n      name: Live Recording\\n      ref: e117\\n    - role: listitem\\n      name: Christian Music\\n      ref: e118\\n      name: Share\\n      ref: e119\\n      name: Table of Contents\\n      ref: e120\\n    - role: listitem\\n      name: What does DNPAP mean?\\n      ref: e121\\n    - role: listitem\\n      name: The artist - Destiny Music\\n      ref: e122\\n    - role: listitem\\n      name: Where to listen and watch Studio single (Spotify) Studio single (YouTube) Live version (Spotify) Live performance (YouTube) Official music video Lyric video\\n      ref: e123\\n    - role: listitem\\n      name: Studio single (Spotify)\\n      ref: e124\\n    - role: listitem\\n      name: Studio single (YouTube)\\n      ref: e125\\n    - role: listitem\\n      name: Live version (Spotify)\\n      ref: e126\\n    - role: listitem\\n      name: Live performance (YouTube)\\n      ref: e127\\n    - role: listitem\\n      name: Official music video\\n      ref: e128\\n    - role: listitem\\n      name: Lyric video\\n      ref: e129\\n    - role: listitem\\n      name: Quick links\\n      ref: e130\\n    - role: heading\\n      name: Related Posts\\n      ref: e131\\n      level: 2\\n    - role: heading\\n      name: \\\"The Power Of Worship Pads: Enhancing Your Worship When The Guitar Is Your Only Instrument\\\"\\n      ref: e132\\n      level: 3\\n    - role: listitem\\n      name: May 4, 2025\\n      ref: e133\\n    - role: listitem\\n      name: Worship, Music, Tips\\n      ref: e134\\n      name: Leading worship with just an acoustic guitar always felt thin in a big room - until someone slid a pad track underneath me during practice. The whole night changed.\\n      ref: e135\\n    - role: heading\\n      name: Instant Pot Chicken Adobo\\n      ref: e136\\n      level: 3\\n    - role: listitem\\n      name: May 3, 2026\\n      ref: e137\\n    - role: listitem\\n      name: Food, Recipes, Filipino\\n      ref: e138\\n      name: My go-to chicken adobo, adjusted for the Instant Pot. Bone-in thighs, 10 minutes under pressure, and that classic soy-garlic-vinegar glaze - without the hours of waiting.\\n      ref: e139\\n    - role: heading\\n      name: Alex Eala Pro Career Tracker\\n      ref: e140\\n      level: 3\\n    - role: listitem\\n      name: April 1, 2026\\n      ref: e141\\n    - role: listitem\\n      name: Sports, Filipino, People\\n      ref: e142\\n      name: A Filipino fan's running scrapbook of Alex Eala's WTA career - the rankings, the matches I'll never forget, and the matchups I'm watching for next.\\n      ref: e143\\n    - role: listitem\\n      name: About\\n      ref: e144\\n    - role: listitem\\n      name: Categories\\n      ref: e145\\n    - role: listitem\\n      name: Tags\\n      ref: e146\\n&#96;&#96;&#96;\"},{\"type\":\"text\",\"text\":\"{\\\"type\\\":\\\"metadata\\\",\\\"viewId\\\":\\\"184f55\\\",\\\"title\\\":\\\"DNPAP – Song Resources by Destiny Music | Spotify, YouTube, Lyrics\\\",\\\"url\\\":\\\"http://localhost:1313/blog/dnpap-song-resources/\\\",\\\"locked\\\":false}\"}]}"
 }
 ```
 User decision: **accepted**
@@ -6124,7 +6124,7 @@ Status: **completed**
 _**Agent (auto-high)**_
 
 <think><details><summary>Thought Process</summary>
- I found the issue—the thumbnail box is 856 × 642 pixels, giving it a 4:3 aspect ratio, but it needs to match the parent's 16:9 ratio at 481.5 pixels tall. The extra height from the margin is pushing it beyond the parent container's bounds.
+ I found the issue-the thumbnail box is 856 × 642 pixels, giving it a 4:3 aspect ratio, but it needs to match the parent's 16:9 ratio at 481.5 pixels tall. The extra height from the margin is pushing it beyond the parent container's bounds.
 
 The problem is that even though I added a CSS rule to set `height: 100%` on the thumbnail, something's still computing the height as `auto` based on the image's natural 480 × 360 aspect ratio. The margins from the prose styles (32px top, 24px bottom) are also still being applied. I suspect the hot-reload isn't picking up my changes, or there's a CSS specificity issue I'm not catching. Let me verify the stylesheet actually contains my new rule and check if a manual reload is needed.
 
@@ -6132,7 +6132,7 @@ Adding margin reset...</details></think>
 
 _**Agent (auto-high)**_
 
-The CSS hot-reload didn't pick up — computed `marginTop: 32px` confirms my new `.yt-lite .yt-lite__thumb { margin: 0 }` rule isn't even loaded yet. Let me verify what's served.
+The CSS hot-reload didn't pick up - computed `marginTop: 32px` confirms my new `.yt-lite .yt-lite__thumb { margin: 0 }` rule isn't even loaded yet. Let me verify what's served.
 
 _**Agent (auto-high)**_
 
@@ -6184,7 +6184,7 @@ Status: **completed**
 _**Agent (auto-high)**_
 
 <think><details><summary>Thought Process</summary>
- The CSS being served still has the old specificity rules, which means the dev server hasn't picked up the changes yet—the Tailwind watcher might be stuck or the inline-imports rebuild didn't trigger. I'm checking the cachebuster pattern against where `components.css` actually lives, since it's looking for files in `assets/css/` but the path might not match.</details></think>
+ The CSS being served still has the old specificity rules, which means the dev server hasn't picked up the changes yet-the Tailwind watcher might be stuck or the inline-imports rebuild didn't trigger. I'm checking the cachebuster pattern against where `components.css` actually lives, since it's looking for files in `assets/css/` but the path might not match.</details></think>
 
 _**Agent (auto-high)**_
 

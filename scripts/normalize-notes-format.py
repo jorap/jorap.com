@@ -202,7 +202,7 @@ def normalize_file(path: Path, dry_run: bool = False) -> list[str]:
 
 
 def verify_notes() -> int:
-    """ponytail: one runnable check — fails if duplicates or >2 examples remain."""
+    """ponytail: one runnable check - fails if duplicates or >2 examples remain."""
     bad = 0
     for path in sorted(NOTES.glob("*.md")):
         if path.name in SKIP:

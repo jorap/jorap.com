@@ -430,13 +430,13 @@ Updated the garden notes guidance so faith-lane doctrine is explicitly GSOT-grou
 - New **Theological source (faith notes)** block under **Two registers**:
   - JoRap voice for gloss and examples
   - Doctrine from an experienced **Grace School of Theology** theologian (free grace: faith alone for eternal life; works for discipleship/rewards, not merit)
-  - No improvised or generic evangelical theology — check GSOT resources (Grace Theology Press, curriculum) when uncertain
+  - No improvised or generic evangelical theology - check GSOT resources (Grace Theology Press, curriculum) when uncertain
 - Cross-reference under **Faith notes need a Bible verse**
 - New voice-check item: doctrine aligns with GSOT free grace
 
-**`.cursor/skills/garden-voice/examples.md`** — one-line reminder in the Faith section
+**`.cursor/skills/garden-voice/examples.md`** - one-line reminder in the Faith section
 
-**`.cursor/skills/flashcards/SKILL.md`** — Gospel cards inherit doctrine from the parent note via the same rule
+**`.cursor/skills/flashcards/SKILL.md`** - Gospel cards inherit doctrine from the parent note via the same rule
 
 The split stays: **how** it reads = JoRap; **what** it teaches on faith topics = GSOT free grace.
 

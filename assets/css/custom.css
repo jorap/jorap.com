@@ -248,7 +248,7 @@ html.dark .content b {
   line-height: 1.625;
 }
 
-/* NASB verse paragraphs — text left, reference right on its own line (see render-content.html). */
+/* NASB verse paragraphs - text left, reference right on its own line (see render-content.html). */
 .content.notes-content p.scripture-verse {
   margin-block: 1.25rem;
   padding: 0.875rem 1rem;
@@ -266,7 +266,7 @@ html.dark .content b {
   color: var(--color-ink-faint);
 }
 
-/* Gospel NASB text — Jesus' words in red. */
+/* Gospel NASB text - Jesus' words in red. */
 .content.notes-content .jesus-words {
   color: var(--color-jesus-words);
 }
@@ -313,7 +313,7 @@ html.dark .content b {
   word-break: break-word;
 }
 
-/* Notes tables only: flat rows — blog `.content` keeps theme prose-table styling. */
+/* Notes tables only: flat rows - blog `.content` keeps theme prose-table styling. */
 .notes-content table :is(thead, tbody tr) {
   background-color: transparent;
 }

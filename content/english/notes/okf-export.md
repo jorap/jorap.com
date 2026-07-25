@@ -28,7 +28,7 @@ featured: false
 draft: false
 ---
 
-[Open Knowledge Format (OKF) graph](/exports/okf/viz.html) — visual network of the exported bundle.
+[Open Knowledge Format (OKF) graph](/exports/okf/viz.html) - visual network of the exported bundle.
 
 ## ChatGPT workflow
 

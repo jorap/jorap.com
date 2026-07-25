@@ -20,7 +20,7 @@ Reviewing the jorap-voice skill and existing blog post examples to match the sit
 
 _**Agent (auto-low)**_
 
-I'll draft this blog post in your voice — first I'm checking your blog conventions and an existing post for structure.
+I'll draft this blog post in your voice - first I'm checking your blog conventions and an existing post for structure.
 
 
 _**Agent (auto-low)**_
@@ -285,12 +285,12 @@ Draft is at `content/english/blog/__one-page-zine.md` (`draft: true`, publish sl
 
 **What it covers**
 
-- **The format** — one sheet folded into eight pages; what fits where
-- **Board game rules** — fits in the box, cheap prototypes, less table clutter than a trifold, forces tighter writing (ties lightly to your card-game rules work)
-- **Fold instructions** — short step-by-step plus a layout tip
-- **Other uses** — workshops, quick-start guides, event programs, recipes, kids' activities, client leave-behinds
-- **Limits** — small type, not for heavy art or long reference material, not for retail production
-- **Workflow** — write first, template, test fold, print
+- **The format** - one sheet folded into eight pages; what fits where
+- **Board game rules** - fits in the box, cheap prototypes, less table clutter than a trifold, forces tighter writing (ties lightly to your card-game rules work)
+- **Fold instructions** - short step-by-step plus a layout tip
+- **Other uses** - workshops, quick-start guides, event programs, recipes, kids' activities, client leave-behinds
+- **Limits** - small type, not for heavy art or long reference material, not for retail production
+- **Workflow** - write first, template, test fold, print
 
 Voice lint is clean. To publish: rename to `one-page-zine.md`, set `draft: false`, and drop the `slug` line if it matches the filename. Swap `image` from the template when you have a fold diagram or photo.
 
@@ -327,7 +327,7 @@ _**Agent (auto-low)**_
 
 Draft is ready at `content/english/blog/__one-page-zine.md`. Voice lint passed with no issues.
 
-It’s a draft (`draft: true`) about using a 1-page zine for board game rules booklets and other small print jobs — fold basics, why it works for games, other uses, limits, and a simple layout workflow. Publish slug will be `one-page-zine` when you drop the `__` prefix and set `draft: false`.
+It’s a draft (`draft: true`) about using a 1-page zine for board game rules booklets and other small print jobs - fold basics, why it works for games, other uses, limits, and a simple layout workflow. Publish slug will be `one-page-zine` when you drop the `__` prefix and set `draft: false`.
 
 ---
 
@@ -425,10 +425,10 @@ _**Agent (auto-low)**_
 
 Updated the draft with your preferences:
 
-- **Letter size only** — called out as the default (8.5 × 11 in), with a short note on why you skip A4 rescaling
-- **Cover + back = in-play reference** — win condition, turn summary, action list, scoring; what you see when the zine sits in a sleeve
-- **Inside pages = full teach** — setup, detailed actions, examples; open once, then leave it closed
-- **Sleeve workflow** — mentioned in the "fits the box" section and the layout section at the end
+- **Letter size only** - called out as the default (8.5 × 11 in), with a short note on why you skip A4 rescaling
+- **Cover + back = in-play reference** - win condition, turn summary, action list, scoring; what you see when the zine sits in a sleeve
+- **Inside pages = full teach** - setup, detailed actions, examples; open once, then leave it closed
+- **Sleeve workflow** - mentioned in the "fits the box" section and the layout section at the end
 
 ---
 
@@ -516,10 +516,10 @@ _**Agent (auto-low)**_
 
 Updated the draft with your sizing workflow:
 
-- **Card size drives the layout** — measure the deck first; letter paper is just the print substrate
-- **Slightly smaller than the card** — accounts for fold thickness so the booklet does not bind in the sleeve
-- **Layout steps reordered** — measure → size → write → template → test fold *in the sleeve* → final print
-- **Fold section** — note on working backward from finished dimensions (trim or scale after printing)
+- **Card size drives the layout** - measure the deck first; letter paper is just the print substrate
+- **Slightly smaller than the card** - accounts for fold thickness so the booklet does not bind in the sleeve
+- **Layout steps reordered** - measure → size → write → template → test fold *in the sleeve* → final print
+- **Fold section** - note on working backward from finished dimensions (trim or scale after printing)
 
 ---
 
@@ -633,7 +633,7 @@ Removing it would make the post leaner and more focused on board game rules. I'l
 
 _**Agent (auto-low)**_
 
-Yes — the post still works without it. Your sizing and layout workflow is in "How I lay one out"; the fold steps are generic and easy to find elsewhere. Removing that section.
+Yes - the post still works without it. Your sizing and layout workflow is in "How I lay one out"; the fold steps are generic and easy to find elsewhere. Removing that section.
 
 
 _**Agent (auto-low)**_
@@ -653,7 +653,7 @@ Checking what's currently in that section.
 
 _**Agent (auto-low)**_
 
-The spread/page-numbering tip was worth keeping — I'll fold it into "How I lay one out".
+The spread/page-numbering tip was worth keeping - I'll fold it into "How I lay one out".
 
 
 _**Agent (auto-low)**_
@@ -699,7 +699,7 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Drafting an image prompt for a one-page zine blog post.
 
-Reviewing the zine's content—letter-size format, board game rules, card sleeves, and cover/back—to match the image concept to the actual design.
+Reviewing the zine's content-letter-size format, board game rules, card sleeves, and cover/back-to match the image concept to the actual design.
 </details></think>
 
 _**Agent (auto-low)**_
@@ -814,17 +814,17 @@ Here are image concepts you can paste into a generator. Pick one direction; all 
 
 ---
 
-### Option A — Hero shot (recommended)
+### Option A - Hero shot (recommended)
 
 **Prompt:**
 
 > Top-down photograph of a casual board game table setup. Center: a small folded 8-page paper booklet (mini zine) sitting inside a clear standard card sleeve alongside a short stack of custom playing cards. The booklet cover faces up showing a simple rules layout (title "Game Rules", bullet points, small icons - readable but not real copyrighted text). The back cover peeks out from the sleeve edge with a quick-reference action list. Beside the sleeve: one unfolded letter-size sheet (8.5x11) with faint panel grid lines showing the zine layout before folding, scissors, and a home inkjet printer in soft background blur. Warm indoor lighting, wooden table, shallow depth of field. Practical DIY aesthetic, not corporate. No people's hands. Photorealistic, 16:9.
 
-**Why it works:** Shows the full story in one frame — letter sheet, folded zine, card sizing, sleeve workflow.
+**Why it works:** Shows the full story in one frame - letter sheet, folded zine, card sizing, sleeve workflow.
 
 ---
 
-### Option B — Before / after split
+### Option B - Before / after split
 
 **Prompt:**
 
@@ -834,13 +834,13 @@ Here are image concepts you can paste into a generator. Pick one direction; all 
 
 ---
 
-### Option C — In-play reference (sleeve-focused)
+### Option C - In-play reference (sleeve-focused)
 
 **Prompt:**
 
 > Close-up macro shot of a clear card sleeve holding a deck of cards and a thin folded rules booklet. Booklet is slightly narrower and shorter than the cards. Front cover visible through the sleeve: "Win: 4 markets or 11 points" and a one-line turn summary. Back cover visible on the reverse: four action names with tiny icons. Shallow depth of field, game night table bokeh in background. Photorealistic product-style photo, not 3D render. 16:9.
 
-**Why it works:** Matches your “don’t pull it out every round” angle — essentials readable through the sleeve.
+**Why it works:** Matches your “don’t pull it out every round” angle - essentials readable through the sleeve.
 
 ---
 
@@ -856,7 +856,7 @@ Here are image concepts you can paste into a generator. Pick one direction; all 
 - **16:9** works for blog feature images
 - Keep text on the mock booklet **short and fake** (“Action A, Action B”) so it reads as a prop, not a real product
 
-If you want one line to copy-paste, use **Option A** — it covers the most ground for this post.
+If you want one line to copy-paste, use **Option A** - it covers the most ground for this post.
 
 ---
 
@@ -982,7 +982,7 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The user wants a simpler image concept or prompt for an image generator. Earlier concepts were likely too complex.
 
-A stripped-down prompt will capture the key ideas—landscape booklet, card sleeve, and board game context—without unnecessary complexity. The blog post itself won't be edited unless requested.
+A stripped-down prompt will capture the key ideas-landscape booklet, card sleeve, and board game context-without unnecessary complexity. The blog post itself won't be edited unless requested.
 </details></think>
 
 _**Agent (auto-low)**_

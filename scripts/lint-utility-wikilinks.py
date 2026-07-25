@@ -69,7 +69,7 @@ def lint_file(path: Path, targets: dict[str, Path]) -> list[str]:
         if hit:
             errors.append(
                 f"{rel}: wikilink to utility page [[{target}]] "
-                f"(use URL e.g. /notes/{hit.stem}/ — utility pages are not garden notes)"
+                f"(use URL e.g. /notes/{hit.stem}/ - utility pages are not garden notes)"
             )
     return errors
 

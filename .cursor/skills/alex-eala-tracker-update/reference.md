@@ -1,13 +1,13 @@
-# Alex Eala Tracker — Reference
+# Alex Eala Tracker - Reference
 
 ## Player identifiers
 
 | Source | ID / URL |
 | --- | --- |
-| WTA player | `330332` — `https://www.wtatennis.com/players/330332/alexandra-eala` |
+| WTA player | `330332` - `https://www.wtatennis.com/players/330332/alexandra-eala` |
 | WTA matches (singles) | `https://www.wtatennis.com/players/330332/alexandra-eala/matches` |
 | WTA matches (doubles) | `https://www.wtatennis.com/players/330332/alexandra-eala/matches?type=D` |
-| Tennis.com | `627278` — `https://www.tennis.com/players-rankings/alexandra-eala` |
+| Tennis.com | `627278` - `https://www.tennis.com/players-rankings/alexandra-eala` |
 | TNNSLIVE | `627278` |
 
 H2H base: `https://www.wtatennis.com/head-to-head/330332/[OPPONENT_ID]`
@@ -29,7 +29,7 @@ H2H base: `https://www.wtatennis.com/head-to-head/330332/[OPPONENT_ID]`
 
 - **Career highs:** No. 29 singles · No. 88 doubles
 - **WTA titles:** 2 (Guadalajara 125, Birmingham 125)
-- **Best Slam (singles):** US Open 2025 — Round of 2
+- **Best Slam (singles):** US Open 2025 - Round of 2
 - **Notable firsts:** First Filipina in a Grand Slam main draw; first Filipina to win a Slam main-draw match (US Open 2025); first Filipina in a WTA 1000 semifinal (Miami 2025); first Filipina in the WTA top 100
 ```
 
@@ -45,26 +45,26 @@ Every WTA tournament entry must show the **tier** and **no sponsor brands**.
 | WTA 250 | `(WTA 250)` |
 | WTA 500 | `(WTA 500)` |
 | WTA 1000 | `(WTA 1000)` |
-| Grand Slam | No tier suffix — use `Australian Open`, `French Open`, `Wimbledon`, or `US Open` |
+| Grand Slam | No tier suffix - use `Australian Open`, `French Open`, `Wimbledon`, or `US Open` |
 
 **Entry format:** `**{City or event name} (WTA {tier})** - {round}`
 
 Strip sponsor names from the display label (Lexus, Mubadala, ASB, BNP Paribas, Porsche, National Bank, Vanda, etc.). URLs may keep branded slugs; visible text must not.
 
-**H2H match lines:** `**YYYY {brand-free name} - {Surface} - {Result}**` — e.g. `2026 Berlin`, `2026 Indian Wells`, `2025 Miami Open`.
+**H2H match lines:** `**YYYY {brand-free name} - {Surface} - {Result}**` - e.g. `2026 Berlin`, `2026 Indian Wells`, `2025 Miami Open`.
 
 Confirm tier on the WTA tournament page before adding or correcting an entry.
 
 ## Score format
 
-**Always list Eala's games first** in every set and match tiebreak — wins and losses, singles and doubles.
+**Always list Eala's games first** in every set and match tiebreak - wins and losses, singles and doubles.
 
 - Win: `d. Opponent 6-3, 6-4` (Eala's games left of the hyphen in each set)
-- Loss: `l. Opponent 2-6, 4-6` — not the winner's `6-2, 6-4`
+- Loss: `l. Opponent 2-6, 4-6` - not the winner's `6-2, 6-4`
 - Split sets: `l. Opponent 6-3, 4-6, 2-6` (Eala won set 1, lost sets 2–3)
-- Match tiebreak (doubles): Eala's points first — `7-5, 3-6, 7-10` not `10-7`
-- Retirements: score at stoppage from Eala's side — `6-4, 0-1 ret.`
-- Walkovers (Best Performances only): `d. Opponent w/o` or `l. Opponent w/o` — no set scores; include match links
+- Match tiebreak (doubles): Eala's points first - `7-5, 3-6, 7-10` not `10-7`
+- Retirements: score at stoppage from Eala's side - `6-4, 0-1 ret.`
+- Walkovers (Best Performances only): `d. Opponent w/o` or `l. Opponent w/o` - no set scores; include match links
 - Tiebreak notation unchanged: `7-6(5)` means Eala 7 games, opponent 6, TB 5–7
 
 When copying from WTA or tennis.com, flip any set or super-tiebreak segment that lists the opponent first.
@@ -73,8 +73,8 @@ When copying from WTA or tennis.com, flip any set or super-tiebreak segment that
 
 A **walkover** (`w/o`, opponent withdrew before the match was played) is **not an H2H meeting**:
 
-- **Best Performances** — list the round: `Round, d. Opponent w/o |` links (singles: WTA + tennis.com when available; doubles: WTA). No set scores.
-- **Grand Slam results** — omit walkover rounds.
+- **Best Performances** - list the round: `Round, d. Opponent w/o |` links (singles: WTA + tennis.com when available; doubles: WTA). No set scores.
+- **Grand Slam results** - omit walkover rounds.
 - Do not create or keep an H2H `###` block when walkover-only contact is the only meeting.
 - Opponent stays on **Matches to Watch Out For** until the ball is struck in a pro meeting.
 - **Retirements** (`ret.`) after play started still count as matches.
@@ -151,7 +151,7 @@ Same dual-link pattern as singles; include partner on the tournament line:
 {{< youtube VIDEO_ID >}}
 ```
 
-Add embeds when verified official/broadcaster doubles footage exists — one per round if available, otherwise omit.
+Add embeds when verified official/broadcaster doubles footage exists - one per round if available, otherwise omit.
 
 ### H2H section (Grand Slam champion)
 
@@ -204,7 +204,7 @@ List completed singles meetings **newest first**. Add official slam site link on
 - [Opponent Name](https://www.wtatennis.com/head-to-head/330332/OPPONENT_ID) - Career High No. XX; credential note
 ```
 
-**Criteria:** no completed pro H2H yet; opponent is a Slam winner, legend, or current top-tier draw Eala is likely to meet. Remove from this list once they play — promote to the correct H2H section instead.
+**Criteria:** no completed pro H2H yet; opponent is a Slam winner, legend, or current top-tier draw Eala is likely to meet. Remove from this list once they play - promote to the correct H2H section instead.
 
 ## Grand Slam Champions sort order
 
@@ -235,7 +235,7 @@ Recompute this table whenever a new Slam champion block is added or an opponent 
 
 When an Other Top 20 player **wins a new Slam**, promote on the next update (see Slam-winner promotion workflow in `SKILL.md`).
 
-## Watch list — known opponent WTA IDs
+## Watch list - known opponent WTA IDs
 
 Use when promoting to H2H or building watch-list links:
 
@@ -262,7 +262,7 @@ Use when promoting to H2H or building watch-list links:
 
 Sort **Other Top 20** and **Matches to Watch Out For** alphabetically by **last name** when adding or reordering entries.
 
-**Paolini (319280):** French Open 2024 **singles** champion, but Eala's only meeting is the Rome 2025 **doubles** QF vs Paolini/Errani — keep in **Other Top 20** until a singles H2H exists. Do **not** promote on doubles-Slam titles alone.
+**Paolini (319280):** French Open 2024 **singles** champion, but Eala's only meeting is the Rome 2025 **doubles** QF vs Paolini/Errani - keep in **Other Top 20** until a singles H2H exists. Do **not** promote on doubles-Slam titles alone.
 
 ## Surface labels
 
@@ -286,23 +286,23 @@ Use exactly: `Win`, `Loss`, or `Win (Retired)` when applicable
 
 Embed only when the video shows **actual tennis** (points, games, match action). Reject news segments that announce results without match footage.
 
-**Syntax:** each embed on its own line at **column 0** — `{{< youtube VIDEO_ID >}}` with no leading space (indented or inline shortcodes will not render in Hugo).
+**Syntax:** each embed on its own line at **column 0** - `{{< youtube VIDEO_ID >}}` with no leading space (indented or inline shortcodes will not render in Hugo).
 
 ### Placement (priority order)
 
 A `VIDEO_ID` appears in **one** section only. Higher priority wins.
 
-1. **Matches Against Grand Slam Champions** — **every** verified video for **all** completed singles meetings; place under the matching match line when possible
-2. **Matches Against Other Top 20 Players** — **every** verified video for **all** completed meetings; place under the matching **Matches:** line when possible
-3. **Best Performances in WTA Tournaments (singles and doubles)** — at most **two** embeds per run, **only** for opponents **not** in either H2H section; **last two** such matches in the run, earlier round first. Zero embeds when all deep rounds were vs H2H opponents (e.g. Miami 2025)
-4. **Grand Slam Main Draw Results (singles and doubles)** — one per round when separate verified uploads exist; deduplicate against H2H when the opponent is in an H2H section
+1. **Matches Against Grand Slam Champions** - **every** verified video for **all** completed singles meetings; place under the matching match line when possible
+2. **Matches Against Other Top 20 Players** - **every** verified video for **all** completed meetings; place under the matching **Matches:** line when possible
+3. **Best Performances in WTA Tournaments (singles and doubles)** - at most **two** embeds per run, **only** for opponents **not** in either H2H section; **last two** such matches in the run, earlier round first. Zero embeds when all deep rounds were vs H2H opponents (e.g. Miami 2025)
+4. **Grand Slam Main Draw Results (singles and doubles)** - one per round when separate verified uploads exist; deduplicate against H2H when the opponent is in an H2H section
 
 **Duplicate embeds:** H2H sections win over Best Performances and Grand Slam blocks. Tournament entries may have **no embeds** after dedup.
 
 Search in this order until a verified match video is found:
 
-1. **Official tour / slam channels** — WTA (`WTA`), LTA (`LTA`), Grand Slam channels (`Australian Open`, `Wimbledon`, `US Open Tennis Championships`, `Roland-Garros`), tournament organizers (`Tennis Canada`, `Tennis Australia`, etc.)
-2. **Rights-holding broadcasters (any region)** — verified uploads from networks that hold TV/streaming rights for that event. Accept when `author_name` is a known broadcaster and the title clearly names the match (both players or player + round), tournament, and includes match footage labels such as `Highlights`, `Extended Highlights`, `Match Highlights`, `Full Match`, `REPLAY`, `H/L`, or regional equivalents.
+1. **Official tour / slam channels** - WTA (`WTA`), LTA (`LTA`), Grand Slam channels (`Australian Open`, `Wimbledon`, `US Open Tennis Championships`, `Roland-Garros`), tournament organizers (`Tennis Canada`, `Tennis Australia`, etc.)
+2. **Rights-holding broadcasters (any region)** - verified uploads from networks that hold TV/streaming rights for that event. Accept when `author_name` is a known broadcaster and the title clearly names the match (both players or player + round), tournament, and includes match footage labels such as `Highlights`, `Extended Highlights`, `Match Highlights`, `Full Match`, `REPLAY`, `H/L`, or regional equivalents.
 
 Do **not** limit broadcaster search to one country. For every gap, search globally before omitting an embed.
 
@@ -311,7 +311,7 @@ Do **not** limit broadcaster search to one country. For every gap, search global
 Run multiple YouTube queries per missing match:
 
 1. `[Player A] [Player B] [Tournament] [Year] highlights`
-2. For **doubles:** `[Eala] [Partner] [Opponent pair or surnames] [Slam] [Year] doubles highlights` — also try partner-only pair names from the draw
+2. For **doubles:** `[Eala] [Partner] [Opponent pair or surnames] [Slam] [Year] doubles highlights` - also try partner-only pair names from the draw
 3. Same query + broadcaster names from the table below (e.g. `beIN`, `Eurosport`, `Tennis Channel`, `SPOTV`)
 3. Official channel scoped search: `site:youtube.com/c/WTA`, `/LTA`, `/rolandgarros`, `/Wimbledon`, etc.
 
@@ -321,15 +321,15 @@ Verify every candidate via oembed (`author_name` + `title`). Prefer official tou
 
 Accept when **all** are true:
 
-- Channel is a recognized sports broadcaster or the event's official broadcast partner — not a fan account, podcast, or highlight-aggregator
+- Channel is a recognized sports broadcaster or the event's official broadcast partner - not a fan account, podcast, or highlight-aggregator
 - Title identifies the specific match (players, round, and/or tournament)
-- Video is highlights, extended highlights, or a full-match replay — not a news segment, preview, or analysis-only clip
+- Video is highlights, extended highlights, or a full-match replay - not a news segment, preview, or analysis-only clip
 
 Reject broadcaster uploads that are clearly news wrappers (result announcements, studio segments) without sustained match action.
 
 ### Reject
 
-- **Unofficial reupload / fan channels** — including `Tennis Stories`, `CueTV`, `Nice One`, `Guil Signe`, `LUWALHATI`, `stateofsport211`, `Next Tennis Gems`, and similar third-party compilations (even when the title copies WTA wording)
+- **Unofficial reupload / fan channels** - including `Tennis Stories`, `CueTV`, `Nice One`, `Guil Signe`, `LUWALHATI`, `stateofsport211`, `Next Tennis Gems`, and similar third-party compilations (even when the title copies WTA wording)
 - News result clips: `TV Patrol`, `DZMM Teleradyo`, titles with `pasok`, `kampeon sa`, `umusad`, `falls short` without match highlights
 - Segments titled **Play by Play** on One Sports (news show name, not match coverage)
 - Interviews, vlogs, podcasts, fan reaction, or analysis without sustained match footage
@@ -339,11 +339,11 @@ Reject broadcaster uploads that are clearly news wrappers (result announcements,
 
 1. Confirm video via YouTube oembed API or fetch: `https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=VIDEO_ID&format=json`
 2. Check `author_name` and `title` match the intended match, round, and opponent
-3. Prefer official WTA/LTA/slam uploads when both exist; otherwise use verified regional broadcaster uploads — never use unofficial reupload channels
+3. Prefer official WTA/LTA/slam uploads when both exist; otherwise use verified regional broadcaster uploads - never use unofficial reupload channels
 
 ### Known channel quick reference
 
-Examples only — not an exhaustive list. Search other regional rights holders when these have no upload.
+Examples only - not an exhaustive list. Search other regional rights holders when these have no upload.
 
 | Region | Channel | Typical use |
 | --- | --- | --- |
@@ -353,7 +353,7 @@ Examples only — not an exhaustive list. Search other regional rights holders w
 | Americas | Tennis Channel, ESPN | WTA / Grand Slam highlights and replays |
 | Europe | Eurosport, Sky Sports Tennis, BBC Sport (Wimbledon), TNT Sports, France TV / `Roland-Garros` | Regional Grand Slam and WTA packages |
 | Middle East / Asia | beIN SPORTS, beIN SPORTS Asia, SPOTV ASIA | Grand Slam and WTA `Match Highlights` / `H/L` |
-| Philippines | One Sports, ABS-CBN News | One Sports: `FULL GAME HIGHLIGHTS` only. ABS-CBN: `REPLAY: … FULL MATCH` when sustained match tennis is shown — not `TV Patrol` result clips |
+| Philippines | One Sports, ABS-CBN News | One Sports: `FULL GAME HIGHLIGHTS` only. ABS-CBN: `REPLAY: … FULL MATCH` when sustained match tennis is shown - not `TV Patrol` result clips |
 | Canada | Tennis Canada | National Bank Open match packages |
 | Australia / NZ | Tennis Australia, Nine / Wide World of Sports | Home-tournament highlights when uploaded to YouTube |
 

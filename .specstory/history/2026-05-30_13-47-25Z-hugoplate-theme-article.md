@@ -151,8 +151,8 @@ disableAliases = false
 pagerSize = 10
 path = 'page'
 
-# Related posts (blog single). Defaults only index keywords, date, and tags — not
-# categories — so posts with empty tags never scored above threshold.
+# Related posts (blog single). Defaults only index keywords, date, and tags - not
+# categories - so posts with empty tags never scored above threshold.
 [related]
 
 ```

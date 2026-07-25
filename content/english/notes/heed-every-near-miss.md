@@ -64,6 +64,10 @@ cards:
     back: "Fix the hazard - luck blocked harm twice."
   - front: "Same exercise needed a rescue before and we're running it again. Read on the near-miss?"
     back: "Investigate and redesign - do not repeat."
+  - front: "Near-miss in the parking lot - nobody wrote it up, shrugged it off."
+    back: "Log it today - third time becomes normal."
+  - front: "Almost sent the wrong chart - caught it, moved on without a note."
+    back: "Write the near-miss - same mistake returns."
 draft: false
 ---
 

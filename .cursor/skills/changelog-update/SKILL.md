@@ -46,7 +46,7 @@ Match existing `CHANGELOG.md` spacing exactly:
 
 ## Scope
 
-Log **user-facing functionality** only — not content edits, agent paths, or
+Log **user-facing functionality** only - not content edits, agent paths, or
 raw file lists.
 
 **Include:** `layouts/`, `assets/js`, `assets/css`, `themes/`, `scripts/`,
@@ -59,10 +59,10 @@ etc.), `package.json` / lockfile when tooling changes, `static/_headers` /
 
 ## Workflow
 
-1. Read `CHANGELOG.md` — match tone and structure of recent date sections.
+1. Read `CHANGELOG.md` - match tone and structure of recent date sections.
 2. Gather changes:
    - `git log --oneline` and `git diff` (staged, unstaged, or since last
-     dated section — pick the scope the user implies).
+     dated section - pick the scope the user implies).
    - **SpecStory:** scan `.specstory/history/` for sessions on the target
      date (or matching the feature). User messages and agent summaries often
      name the *why* behind diffs that commit messages hide (`Updates`, `Fixes`).
@@ -73,7 +73,7 @@ etc.), `package.json` / lockfile when tooling changes, `static/_headers` /
 4. Upsert under `## YYYY-MM-DD` (today unless the user names a date):
    - Merge into existing categories; do not duplicate bullets.
    - Replace any prior raw `` `path/to/file` `` bullets with readable lines.
-5. Write concise bullets — what shipped and why it matters, not which files
+5. Write concise bullets - what shipped and why it matters, not which files
    moved. Follow prior sections (see 2026-06-21, 2026-06-22).
 
 ## Bullet style
@@ -90,7 +90,7 @@ etc.), `package.json` / lockfile when tooling changes, `static/_headers` /
 
 ## Header
 
-Keep the intro blurb accurate. Do **not** claim auto-updates on commit — this
+Keep the intro blurb accurate. Do **not** claim auto-updates on commit - this
 skill is the updater.
 
 ## Boundaries

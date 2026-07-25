@@ -54,6 +54,10 @@ cards:
     back: "Safer option - truth over spectacle."
   - front: "Broken stair rail and the owner wants another photo day on it instead of a repair report. My move?"
     back: "Report the hazard - protect people."
+  - front: "Unsafe drill still running - kids want the rougher version and nobody said stop."
+    back: "Kill the drill - protect people, not spectacle."
+  - front: "Small shortcut in front of the team - silence feels easier than calling it."
+    back: "Name the slip now - silence reads as yes."
 draft: false
 ---
 

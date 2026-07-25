@@ -1208,7 +1208,7 @@ _**Agent (default)**_
 <think><details><summary>Thought Process</summary>
 The structure is correct.
 
-The skip logic appears correct, yet flashcards may still appear due to lingering scripts or CSS. A more robust server-side approach—such as an embed query parameter—would be preferable.
+The skip logic appears correct, yet flashcards may still appear due to lingering scripts or CSS. A more robust server-side approach-such as an embed query parameter-would be preferable.
 </details></think>
 
 _**Agent (default)**_
@@ -1573,7 +1573,7 @@ index 0000000..f8959d0
 +  var pool;
 +  var aiChatUrl = "https://chatgpt.com/?q=";
 +  var aiChatOpenedLabel = "Opened";
-+  var aiChatCopiedLabel = "Copied — paste in chat";
++  var aiChatCopiedLabel = "Copied - paste in chat";
 +  var PROMPT_PREFILL_MAX_URL = 1800;
 +
 +  try {
@@ -1631,7 +1631,7 @@ The fix applies only to duo and trio. Replacing `cloneArticleBody` with `cloneNo
 
 _**Agent (default)**_
 
-Switching duo/trio to clone only `.notes-content` instead of filtering article children — flashcards live outside that block, so this reliably excludes them and avoids showing the local graph and meta panels.
+Switching duo/trio to clone only `.notes-content` instead of filtering article children - flashcards live outside that block, so this reliably excludes them and avoids showing the local graph and meta panels.
 
 
 _**Agent (default)**_
@@ -1701,7 +1701,7 @@ Random Duo and Trio now clone only the note body (`.notes-content`) instead of f
 
 **What changed**
 
-Previously, the skip-list approach cloned most article children and tried to exclude the flashcard block via `.notes-note-flashcards`. That was fragile — flashcards sit *outside* `.notes-content`, but the old approach still cloned graph panels, meta, tags, and issue panels into each column.
+Previously, the skip-list approach cloned most article children and tried to exclude the flashcard block via `.notes-note-flashcards`. That was fragile - flashcards sit *outside* `.notes-content`, but the old approach still cloned graph panels, meta, tags, and issue panels into each column.
 
 Now both `notes-random-duo.js` and `notes-random-trio.js` use `cloneNoteContent()`, which:
 

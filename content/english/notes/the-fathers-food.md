@@ -49,17 +49,17 @@ featured: false
 review: true
 card_sets: ["Jesus Rhythms", "Gospel", "Faith"]
 cards:
-  - front: "Disciples worried about lunch, He talked about food. Whose will was His meal?"
-    back: "The Father's will - obedience feeds."
-  - front: "Treating obedience like homework after the fun. What was His food?"
-    back: "Doing the Father's will."
-  - front: "Skipped hard obedience because I was hungry and tired. Samaritan woman story - what came first?"
+  - front: "Disciples worried about lunch - He kept talking about food instead."
+    back: "Father's will - obedience feeds."
+  - front: "Treating obedience like homework after the fun - dessert I might skip."
+    back: "Father's food - will is the meal."
+  - front: "Skipped hard obedience because I was hungry and tired."
     back: "Father's errand first - food later."
-  - front: "Nothing on my own initiative - copy John 5:19 pattern?"
+  - front: "Nothing on my own initiative - appetite leading the day."
     back: "Only what pleases the Father."
-  - front: "Cravings before kingdom. What nourished Him mid-journey?"
+  - front: "Cravings before kingdom - lunch louder than the Sender."
     back: "Father's will - not bread alone."
-  - front: "Obedience as side task, comfort as main course. Flip to His rhythm?"
+  - front: "Obedience as side task, comfort as main course - flipped priorities."
     back: "Father's food - will before cravings."
 draft: false
 ---

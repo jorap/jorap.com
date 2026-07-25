@@ -106,7 +106,7 @@ The file is a Map of Content rather than containing flashcards directly.</detail
 
 _**Agent (default)**_
 
-The MOC itself has no flashcards — I'll find the linked gospel notes that carry review cards and read those.
+The MOC itself has no flashcards - I'll find the linked gospel notes that carry review cards and read those.
 
 
 _**Agent (default)**_
@@ -553,17 +553,17 @@ _**Agent (default)**_
 
 _**Agent (default)**_
 
-I've read all **10 gospel spine notes** with `card_sets: ["Eternal Principles", "Gospel"]` — 60 cards total. Here is what stands out, centered on **Scripture as the foundation of daily life**.
+I've read all **10 gospel spine notes** with `card_sets: ["Eternal Principles", "Gospel"]` - 60 cards total. Here is what stands out, centered on **Scripture as the foundation of daily life**.
 
 ## What works well
 
 Several notes already match your garden rule: *front carries the scenario, back is the move*.
 
 **Strong scenario cards:**
-- **Golden Rule** — "Before I criticize someone publicly…" / "I'm waiting for them to treat me well first…"
-- **Love Your Enemies** — online slander → pray first
-- **Forgiveness** — repeat harm after apology → forgive with boundaries
-- **Free Grace** / **Repent and Believe** — grace-vs-works confusion, fellowship vs re-earning heaven
+- **Golden Rule** - "Before I criticize someone publicly…" / "I'm waiting for them to treat me well first…"
+- **Love Your Enemies** - online slander → pray first
+- **Forgiveness** - repeat harm after apology → forgive with boundaries
+- **Free Grace** / **Repent and Believe** - grace-vs-works confusion, fellowship vs re-earning heaven
 
 **Theological guardrails are clear:** faith saves first; principles shape life after. That shows up repeatedly and is worth keeping.
 
@@ -571,7 +571,7 @@ Several notes already match your garden rule: *front carries the scenario, back 
 
 ## Main gap: "God's word as foundation"
 
-Your MOC lists **The Wise Builder** (hear *and do*), **Abide in Me** (stay connected), and **Secret Devotion** — but **none of them have cards**. For the focus you named, those are the biggest holes.
+Your MOC lists **The Wise Builder** (hear *and do*), **Abide in Me** (stay connected), and **Secret Devotion** - but **none of them have cards**. For the focus you named, those are the biggest holes.
 
 Right now the deck leans toward:
 1. **Verse recall** ("What three verbs in Matthew 7:7?")
@@ -579,12 +579,12 @@ Right now the deck leans toward:
 3. **Grace theology** (saved by faith, not works)
 
 What's underrepresented:
-- **Daily intake** — reading, meditating, returning to Scripture before the day's noise
-- **Obedience** — hearing without doing (sand vs rock)
-- **Dependence on Christ/the Word** — fruit from abiding, not self-generated effort
+- **Daily intake** - reading, meditating, returning to Scripture before the day's noise
+- **Obedience** - hearing without doing (sand vs rock)
+- **Dependence on Christ/the Word** - fruit from abiding, not self-generated effort
 - **Scripture as the authority** when culture, feelings, or habit contradict Jesus' words
 
-**The Wise Builder** is the natural anchor for "foundation" — Jesus literally closes the Sermon on the Mount with two builders. I'd make it a spine note with cards before expanding others.
+**The Wise Builder** is the natural anchor for "foundation" - Jesus literally closes the Sermon on the Mount with two builders. I'd make it a spine note with cards before expanding others.
 
 ---
 
@@ -605,13 +605,13 @@ What's underrepresented:
 | Seek Kingdom First | 1 |
 | Take Up Your Cross | 1 |
 
-Recall isn't worthless — it anchors you in the text. But for *foundation*, scenario cards stick better. Compare:
+Recall isn't worthless - it anchors you in the text. But for *foundation*, scenario cards stick better. Compare:
 
 **Current (recall):**
-> Matthew 7:7 — Jesus names three verbs for how to come to the Father. What three?
+> Matthew 7:7 - Jesus names three verbs for how to come to the Father. What three?
 
 **Revised (foundation + action):**
-> Morning routine: email and news before any time in Scripture. What three verbs does Jesus give for how to come to the Father — and what's the first move today?
+> Morning routine: email and news before any time in Scripture. What three verbs does Jesus give for how to come to the Father - and what's the first move today?
 
 ---
 
@@ -619,46 +619,46 @@ Recall isn't worthless — it anchors you in the text. But for *foundation*, sce
 
 ### Free Grace
 Cards 3 and 5–6 are the right shape. Cards 1–2 could become scenarios:
-- *"Friend says 'I'm a good person — that should count.' One sentence from Ephesians 2:8-9?"*
-- Keep the grace/principles distinction — it's the theological bedrock.
+- *"Friend says 'I'm a good person - that should count.' One sentence from Ephesians 2:8-9?"*
+- Keep the grace/principles distinction - it's the theological bedrock.
 
 ### Repent and Believe
 Card 1 is pure Mark 1:15 recall. Reframe:
-- *"I keep putting off faith until I've fixed my habits. Mark 1:15 — kingdom at hand means enter when?"* → **Today, by faith.**
+- *"I keep putting off faith until I've fixed my habits. Mark 1:15 - kingdom at hand means enter when?"* → **Today, by faith.**
 
 Cards 3–6 are strong; keep them.
 
 ### Love God
-Missing the **Deuteronomy 6** connection your note makes — whole-person devotion includes **mind** (knowing God's word). Add something like:
+Missing the **Deuteronomy 6** connection your note makes - whole-person devotion includes **mind** (knowing God's word). Add something like:
 - *"I feel affection for God but rarely open the Bible. Which of heart/soul/mind/strength am I neglecting?"* → **Mind.**
 
-Card 2 (calendar full, prayer thin) is good — extend that pattern.
+Card 2 (calendar full, prayer thin) is good - extend that pattern.
 
 ### Love Your Neighbor / Golden Rule / Love Your Enemies
 Best-balanced notes. Minor tweaks:
-- **Golden Rule card 6** — "Start with the Golden Rule" is vague. Better: *"Ethical dilemma, no clear rule. Jesus capped the Sermon with one test — what question do I ask?"* → **How would I want to be treated?**
-- **Love Your Neighbor card 6** — the lawyer flip is good scripture knowledge; pair it with action: *"I ask 'who is my neighbor?' Jesus flips it — what question should I ask instead?"* → **"Which man was a neighbor?"** (then act like him)
+- **Golden Rule card 6** - "Start with the Golden Rule" is vague. Better: *"Ethical dilemma, no clear rule. Jesus capped the Sermon with one test - what question do I ask?"* → **How would I want to be treated?**
+- **Love Your Neighbor card 6** - the lawyer flip is good scripture knowledge; pair it with action: *"I ask 'who is my neighbor?' Jesus flips it - what question should I ask instead?"* → **"Which man was a neighbor?"** (then act like him)
 
 ### Forgiveness
-Solid. Card 2 (fellowship vs eternal life) is important under free grace — keep it prominent in review rotation.
+Solid. Card 2 (fellowship vs eternal life) is important under free grace - keep it prominent in review rotation.
 
 ### Ask Seek Knock
 Best candidate to carry **"Word + prayer as foundation."** Suggested rewrites:
-- Card 1 → scenario about stopping prayer when God doesn't comply (you already have this as card 6 — **merge or dedupe**)
-- Add: *"Lord's Prayer — whose will comes before my daily bread?"* → **Father's will first.** (card 4 is close; make it a Tuesday-morning scenario)
+- Card 1 → scenario about stopping prayer when God doesn't comply (you already have this as card 6 - **merge or dedupe**)
+- Add: *"Lord's Prayer - whose will comes before my daily bread?"* → **Father's will first.** (card 4 is close; make it a Tuesday-morning scenario)
 - Add: *"I know Matthew 7:7 by heart but haven't opened my Bible in a week. Ask/seek/knock applies to what first?"* → **Scripture, not just requests.**
 
 ### Seek the Kingdom First
-Card 6 back ("Prayer, integrity, mercy in small acts") is the weakest in the set — too many ideas, nothing drillable. Replace with:
-- *"Tuesday 7am — kingdom first looks like what one move before work?"* → **Scripture or prayer before inbox.**
+Card 6 back ("Prayer, integrity, mercy in small acts") is the weakest in the set - too many ideas, nothing drillable. Replace with:
+- *"Tuesday 7am - kingdom first looks like what one move before work?"* → **Scripture or prayer before inbox.**
 
 Card 1 is recall; the anxiety scenario (card 2) is better.
 
 ### Take Up Your Cross
-Card 6 references **[[Humility and Service]]** by note title — breaks self-contained review and isn't scripture-grounded. Replace with:
-- *"Sermon on the Mount ends with two builders — both heard Jesus. What separates wise from foolish?"* → **Doing what he said.**
+Card 6 references **[[Humility and Service]]** by note title - breaks self-contained review and isn't scripture-grounded. Replace with:
+- *"Sermon on the Mount ends with two builders - both heard Jesus. What separates wise from foolish?"* → **Doing what he said.**
 
-Cards 2 and 4 (grace vs earning, daily posture) are excellent — keep.
+Cards 2 and 4 (grace vs earning, daily posture) are excellent - keep.
 
 ---
 
@@ -666,19 +666,19 @@ Cards 2 and 4 (grace vs earning, daily posture) are excellent — keep.
 
 For "God's word as foundation," I'd add `review: true` to:
 
-1. **The Wise Builder** — hear + do; sand vs rock when life storms hit
-2. **Abide in Me** — fruit from staying in the vine; self-effort without connection
-3. **Secret Devotion** — prayer/Scripture without performing for an audience (pairs with daily foundation)
+1. **The Wise Builder** - hear + do; sand vs rock when life storms hit
+2. **Abide in Me** - fruit from staying in the vine; self-effort without connection
+3. **Secret Devotion** - prayer/Scripture without performing for an audience (pairs with daily foundation)
 
 Example card set for **The Wise Builder**:
 
 ```yaml
-- front: "I've heard the Sermon preached many times but nothing changed in how I treat people. Two builders — what's missing?"
+- front: "I've heard the Sermon preached many times but nothing changed in how I treat people. Two builders - what's missing?"
   back: "Doing what Jesus said."
-- front: "Job loss, diagnosis, betrayal — the storm hits. What reveals whether my foundation was rock or sand?"
+- front: "Job loss, diagnosis, betrayal - the storm hits. What reveals whether my foundation was rock or sand?"
   back: "Whether I obeyed, not just heard."
-- front: "I can quote Matthew 7 but skip hard commands. 'Lord, Lord' without doing — whose house is that?"
-  back: "The fool's — sand."
+- front: "I can quote Matthew 7 but skip hard commands. 'Lord, Lord' without doing - whose house is that?"
+  back: "The fool's - sand."
 ```
 
 ---
@@ -697,14 +697,14 @@ That's fine for SRS reinforcement, but when you add Wise Builder/Abide cards, **
 
 | Priority | Action |
 |----------|--------|
-| **High** | Add cards to **The Wise Builder** — direct "Scripture as foundation" spine |
+| **High** | Add cards to **The Wise Builder** - direct "Scripture as foundation" spine |
 | **High** | Shift ~30% of recall cards to **scenario + scripture** format |
 | **Medium** | Strengthen **Ask Seek Knock** and **Seek Kingdom First** with daily Word-before-world prompts |
 | **Medium** | Add **Abide in Me** cards (connection before effort) |
 | **Low** | Fix weak backs (Seek Kingdom card 6, Golden Rule card 6) |
 | **Low** | Replace Take Up Your Cross card 6 (wikilink meta) with hear-and-do |
 
-The deck is theologically sound and several notes (Golden Rule, Enemies, Forgiveness) already drill well. The main upgrade for your stated focus is **less verse trivia, more "what do I do Tuesday morning?" — anchored in specific passages**, plus **The Wise Builder** as a card-carrying spine note.
+The deck is theologically sound and several notes (Golden Rule, Enemies, Forgiveness) already drill well. The main upgrade for your stated focus is **less verse trivia, more "what do I do Tuesday morning?" - anchored in specific passages**, plus **The Wise Builder** as a card-carrying spine note.
 
 Want me to rewrite the cards across these notes, or start with The Wise Builder + the weakest offenders?
 
@@ -745,7 +745,7 @@ Seek Kingdom First card 1 is drafted as a Mark 1:15 scenario where the reader de
 
 Love God card 1 now asks the scribe’s question about the greatest commandment, with the back quoting Deuteronomy 6:5. Card 2 contrasts heart, soul, mind, and strength, prompting the reader to identify which part of themselves they neglect. Calendar and prayer reminders remain unchanged, and the church checkbox stays intact.
 
-Love Your Neighbor card 6 now asks how many commands sum the entire law, with the back answering two — love God first. The Matthew 7:12 Golden Rule card remains a foundational recall prompt rather than a scenario.
+Love Your Neighbor card 6 now asks how many commands sum the entire law, with the back answering two - love God first. The Matthew 7:12 Golden Rule card remains a foundational recall prompt rather than a scenario.
 
 The Golden Rule card now poses a scenario where a reader faces an ethical dilemma and wonders which rule to start with, with the back quoting the Sermon on the Mount test. The Matthew 7:7 card is drafted as a morning routine prompt contrasting inbox before God with the three verbs for coming to the Father.
 
@@ -1145,25 +1145,25 @@ Status: **completed**
 
 _**Agent (default)**_
 
-Done — **12 gospel spine notes**, each with **6 cards** (72 total). `npm run lint:cards` passes.
+Done - **12 gospel spine notes**, each with **6 cards** (72 total). `npm run lint:cards` passes.
 
-### High — new foundation notes
-- **The Wise Builder** — added `review: true` + 6 cards on hear-and-do, rock vs sand, obedience as proof of hearing
-- **Abide in Me** — added `review: true` + 6 cards on staying connected, Scripture abiding, fruit from the vine not willpower
+### High - new foundation notes
+- **The Wise Builder** - added `review: true` + 6 cards on hear-and-do, rock vs sand, obedience as proof of hearing
+- **Abide in Me** - added `review: true` + 6 cards on staying connected, Scripture abiding, fruit from the vine not willpower
 
-### High — recall → scenario (existing notes)
-- **Free Grace**, **Repent and Believe**, **Love God** — verse fill-ins reframed as real situations (friend claiming merit, delaying faith, affection without Bible)
-- **Love Your Neighbor**, **Love Your Enemies**, **Forgiveness** — prompts tied to moments, not bare quotes
+### High - recall → scenario (existing notes)
+- **Free Grace**, **Repent and Believe**, **Love God** - verse fill-ins reframed as real situations (friend claiming merit, delaying faith, affection without Bible)
+- **Love Your Neighbor**, **Love Your Enemies**, **Forgiveness** - prompts tied to moments, not bare quotes
 
-### Medium — Word-before-world
-- **Ask Seek Knock** — morning inbox-before-God; Scripture seeking, not just requests; Lord's Prayer order as a rushed-prayer scenario
-- **Seek the Kingdom First** — Tuesday 7am "Scripture or prayer before inbox"; deduped grace-vs-works card
+### Medium - Word-before-world
+- **Ask Seek Knock** - morning inbox-before-God; Scripture seeking, not just requests; Lord's Prayer order as a rushed-prayer scenario
+- **Seek the Kingdom First** - Tuesday 7am "Scripture or prayer before inbox"; deduped grace-vs-works card
 
-### Low — weak fixes
-- **Golden Rule** card 6 — "How would I want to be treated?" instead of vague "start with the Golden Rule"
-- **Take Up Your Cross** card 6 — hear-and-do (Wise Builder) instead of wikilink to Humility and Service
+### Low - weak fixes
+- **Golden Rule** card 6 - "How would I want to be treated?" instead of vague "start with the Golden Rule"
+- **Take Up Your Cross** card 6 - hear-and-do (Wise Builder) instead of wikilink to Humility and Service
 
-The Eternal Principles deck now drills **faith saves first**, **Scripture and prayer as daily foundation**, and **obedience that proves you heard** — not just ethics trivia. Filter by **Eternal Principles** at [/notes/review/](/notes/review/) to try the updated set.
+The Eternal Principles deck now drills **faith saves first**, **Scripture and prayer as daily foundation**, and **obedience that proves you heard** - not just ethics trivia. Filter by **Eternal Principles** at [/notes/review/](/notes/review/) to try the updated set.
 
 ---
 
@@ -1175,7 +1175,7 @@ _**User**_
 
 _**Agent (default)**_
 
-Reviewing all Eternal Principles flashcards against JoRap voice — reading the current card sets now.
+Reviewing all Eternal Principles flashcards against JoRap voice - reading the current card sets now.
 
 
 _**Agent (default)**_
@@ -1468,7 +1468,7 @@ Abide card 6 back uses awkward textbook phrasing. Repent cards 1 and 6 are nearl
 
 Love Your Neighbors cards 5 and 6 still read like quiz shows rather than personal scenarios. Forgiveness cards 3 and 6 rely on recall and quiz-style phrasing. Take Up Your Cross card 6 duplicates the Wise Builder answer, even if the cross-link was intentional. Several cards instead hit the right JoRap voice, using direct, first-person experiences like "I've heard the Sermon preached many times" or "My calendar is full but prayer is thin."
 
-Specific JoRap details land well: "Tuesday 7am — kingdom first before work," catching oneself thinking obedience to eternal principles qualifies one for heaven, and a busy week with no prayer snapping patience. Abstract fronts still lack "I" or "my" in Free Grace 6, Love God 5, and Golden Rule 1. Some cards remain catechism or Bible quiz rather than lived moments.
+Specific JoRap details land well: "Tuesday 7am - kingdom first before work," catching oneself thinking obedience to eternal principles qualifies one for heaven, and a busy week with no prayer snapping patience. Abstract fronts still lack "I" or "my" in Free Grace 6, Love God 5, and Golden Rule 1. Some cards remain catechism or Bible quiz rather than lived moments.
 
 Backs sometimes run long or rely on semicolons, unlike the tight capture backs. One card uses jargon like "self-help spiritual growth." The "under free grace" formula is repetitive. I will deliver a thorough audit and offer to apply obvious fixes.
 
@@ -1476,7 +1476,7 @@ The skill workflow mandates applying fixes during the voice check. I will conver
 
 Card 1 will drop the slander scenario and ask about three moves toward persecutors instead. Card 3 will keep its online slander version. This removes the duplicate scenario between the two cards.
 
-Repent card 6 will switch to a neighbor-sharing scenario: "I know I'm saved by grace but I haven't shared the gospel with my neighbor yet. Mark 1:15 — repent and believe applies to me how today?" The back will read "Turn and trust today — don't wait."
+Repent card 6 will switch to a neighbor-sharing scenario: "I know I'm saved by grace but I haven't shared the gospel with my neighbor yet. Mark 1:15 - repent and believe applies to me how today?" The back will read "Turn and trust today - don't wait."
 
 Free Grace card 6 will ask whether eternal principles are payment for heaven or something else. The back will explain they are a guide for life after faith, not payment.
 
@@ -1488,7 +1488,7 @@ _**Agent (default)**_
 
 ## Verdict
 
-**Mostly on-voice.** The new cards sound like you wrote them for yourself — calendar full, gossip on Monday, inbox before God, holding a grudge while praying. They pass the swap test better than the old verse-fill cards.
+**Mostly on-voice.** The new cards sound like you wrote them for yourself - calendar full, gossip on Monday, inbox before God, holding a grudge while praying. They pass the swap test better than the old verse-fill cards.
 
 A handful still read like **catechism prompts** or **PKM-card polish without the faith-card roughness**. Fix those and replace em dashes with hyphens to match your PKM cards and voice rules.
 
@@ -1500,13 +1500,13 @@ These could sit next to **Capture** without feeling off:
 
 | Card | Why it works |
 |------|----------------|
-| Wise Builder — "Bible study every week, same gossip on Monday" | Specific failure, not abstract |
-| Abide — "Busy week, no prayer, no Scripture — then surprised my patience snapped" | Lived sequence, honest |
-| Love God — "My calendar is full but prayer is thin" | Concrete, first person |
-| Ask Seek Knock — "Morning routine: inbox before any time with God" | Same shape as "mid-commute I get a spark" |
-| Seek Kingdom — "Tuesday 7am — kingdom first before work" | Exact time, one move |
-| Free Grace — "I catch myself thinking obedience… qualifies me for heaven" | Internal monologue, your theology |
-| Forgiveness — "Praying the Lord's Prayer but holding a grudge" | Tension you actually feel |
+| Wise Builder - "Bible study every week, same gossip on Monday" | Specific failure, not abstract |
+| Abide - "Busy week, no prayer, no Scripture - then surprised my patience snapped" | Lived sequence, honest |
+| Love God - "My calendar is full but prayer is thin" | Concrete, first person |
+| Ask Seek Knock - "Morning routine: inbox before any time with God" | Same shape as "mid-commute I get a spark" |
+| Seek Kingdom - "Tuesday 7am - kingdom first before work" | Exact time, one move |
+| Free Grace - "I catch myself thinking obedience… qualifies me for heaven" | Internal monologue, your theology |
+| Forgiveness - "Praying the Lord's Prayer but holding a grudge" | Tension you actually feel |
 
 **Voice pillars hit:** experiential, practical, honest, first person. No AI slop ("crucial", "delve", "landscape"). Backs stay short.
 
@@ -1516,10 +1516,10 @@ These could sit next to **Capture** without feeling off:
 
 ### 1. Em dashes everywhere (voice rule)
 
-Your skill says **no em dashes** — use hyphen, comma, or parentheses. PKM cards follow that (`Mid-commute…`, `Per my capture rule`). Gospel cards use `—` in almost every front.
+Your skill says **no em dashes** - use hyphen, comma, or parentheses. PKM cards follow that (`Mid-commute…`, `Per my capture rule`). Gospel cards use `-` in almost every front.
 
 **Example:**  
-❌ `"Job loss, diagnosis, betrayal — the storm hits hard."`  
+❌ `"Job loss, diagnosis, betrayal - the storm hits hard."`  
 ✅ `"Job loss, diagnosis, betrayal - the storm hits hard."` (or comma)
 
 Low effort, high consistency win.
@@ -1530,16 +1530,16 @@ These sound like a study app, not you at the kitchen table:
 
 | Note | Card | Issue |
 |------|------|-------|
-| **Free Grace** | 6 | "How do eternal principles relate…" — no "I", no scene |
+| **Free Grace** | 6 | "How do eternal principles relate…" - no "I", no scene |
 | **Love God** | 1, 6 | Scribe/lawyer quiz; fine for recall, weak on voice |
-| **Love God** | 5 | "Why does the second commandment hang…" — textbook |
+| **Love God** | 5 | "Why does the second commandment hang…" - textbook |
 | **Golden Rule** | 1 | Bare Matthew 7:12 recall |
 | **Love Neighbor** | 5–6 | Parable trivia, not a moment you're in |
 | **Love Enemies** | 2, 6 | Matthew 5:45 homework |
 | **Forgiveness** | 3, 6 | Peter's seventy-seven; unforgiving servant plot recall |
 | **Take Up Cross** | 1 | Luke 9:23 three-part fill-in |
 
-**Capture benchmark:** every front has a situation or "Per my rule…". Aim for that ratio on gospel cards too — maybe 4 scenario / 2 anchor per note, not 2/4.
+**Capture benchmark:** every front has a situation or "Per my rule…". Aim for that ratio on gospel cards too - maybe 4 scenario / 2 anchor per note, not 2/4.
 
 ### 3. Duplicates
 
@@ -1547,7 +1547,7 @@ These sound like a study app, not you at the kitchen table:
 |------|---------|
 | **Love Enemies** 1 & 3 | Both "someone slandered me" → same drill twice |
 | **Repent** 1 & 6 | Both "enter today by faith, not when fixed" |
-| **Take Up Cross** 6 & **Wise Builder** 2–4 | Same answer: "Doing what he said" — fine theologically, redundant in review |
+| **Take Up Cross** 6 & **Wise Builder** 2–4 | Same answer: "Doing what he said" - fine theologically, redundant in review |
 | **Golden Rule** 1 & 6 | Both land on "how would I want to be treated" |
 
 ### 4. Backs that drift preachy or long
@@ -1556,14 +1556,14 @@ These sound like a study app, not you at the kitchen table:
 |------|-------|
 | `"Grateful response to grace received."` | Sounds like a sermon outline, not what you'd mutter under breath |
 | `"Children of the Father who sends sun on just and unjust."` | Long for a back; hard to self-grade |
-| `"Refines the connected — branch stays in the vine."` | Semicolon + jargon |
-| `"His words — Scripture abiding in me."` | Double metaphor; `"His words in me."` is enough |
+| `"Refines the connected - branch stays in the vine."` | Semicolon + jargon |
+| `"His words - Scripture abiding in me."` | Double metaphor; `"His words in me."` is enough |
 
-Compare Capture: `"Friction. Simplify to one pipe."` — two beats, done.
+Compare Capture: `"Friction. Simplify to one pipe."` - two beats, done.
 
 ### 5. One meta phrase
 
-**Wise Builder** card 6 front opens with `"Scripture as foundation —"` — that's a section title, not your voice. The second half (`I have notes and sermons saved but no obedience`) is perfect. Drop the label, lead with the scene.
+**Wise Builder** card 6 front opens with `"Scripture as foundation -"` - that's a section title, not your voice. The second half (`I have notes and sermons saved but no obedience`) is perfect. Drop the label, lead with the scene.
 
 ---
 

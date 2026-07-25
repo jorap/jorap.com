@@ -537,7 +537,7 @@ WARN  unlinked mention of "Second Brain" (→ [[Building a Second Brain]]) in no
 
 _**Agent (default)**_
 
-Some warnings remain — checking note titles/aliases and how the linter treats piped wikilinks.
+Some warnings remain - checking note titles/aliases and how the linter treats piped wikilinks.
 
 
 _**Agent (default)**_
@@ -599,7 +599,7 @@ The alias text is not the link title. For example, `[[Building a Second Brain|Se
 
 _**Agent (default)**_
 
-The linter only treats a mention as linked when the wikilink target starts with the note title or alias — piped links like `[[Building a Second Brain|Second Brain]]` don't count. Switching to alias-first targets.
+The linter only treats a mention as linked when the wikilink target starts with the note title or alias - piped links like `[[Building a Second Brain|Second Brain]]` don't count. Switching to alias-first targets.
 
 
 _**Agent (default)**_
@@ -777,7 +777,7 @@ _**Agent (default)**_
 
 Fixed all 12 unlinked-mention warnings from your build output by adding wikilinks in the note body prose.
 
-The linter only counts a mention as linked when the wikilink **target** starts with the note title or alias — so `[[Building a Second Brain|Second Brain]]` still triggers a warning. Alias-first targets like `[[Second Brain]]` or `[[Trusted Inbox|trusted inbox]]` satisfy it.
+The linter only counts a mention as linked when the wikilink **target** starts with the note title or alias - so `[[Building a Second Brain|Second Brain]]` still triggers a warning. Alias-first targets like `[[Second Brain]]` or `[[Trusted Inbox|trusted inbox]]` satisfy it.
 
 | File | Fix |
 |------|-----|
@@ -1096,9 +1096,9 @@ _**Agent (default)**_
 
 Both warnings are resolved:
 
-1. **`IsSet` on page pointer** — `notes/pages.html` was called with page objects (`$page`, `site.Home`, `.`) as well as dicts. `isset . "ExcludeKinds"` only works on maps, so Hugo warned on every page-object call. Switched to `with .ExcludeKinds`, which safely no-ops when the key isn't present.
+1. **`IsSet` on page pointer** - `notes/pages.html` was called with page objects (`$page`, `site.Home`, `.`) as well as dicts. `isset . "ExcludeKinds"` only works on maps, so Hugo warned on every page-object call. Switched to `with .ExcludeKinds`, which safely no-ops when the key isn't present.
 
-2. **Unlinked "Daily Notes"** — In `getting-started.md`, linked the prose mention: `[[Daily Notes|Daily notes]] live under...`
+2. **Unlinked "Daily Notes"** - In `getting-started.md`, linked the prose mention: `[[Daily Notes|Daily notes]] live under...`
 
 `npm run lint:notes` and a full Hugo build now run clean with no warnings.
 
@@ -1220,8 +1220,8 @@ _**Agent (default)**_
 Fixed. The `with .ExcludeKinds` change assumed the partial always received a dict, but three callers passed page objects (`$page`, `site.Home`, `.`). Hugo can't read `.ExcludeKinds` on a `page.Page`, which caused the rebuild failure on blog posts.
 
 **Changes:**
-- **`pages.html`** — guard with `reflect.IsMap .` before reading `ExcludeKinds`
-- **`related-notes.html`**, **`link-registry.html`**, **`backlinks.html`** — pass `(dict)` instead of a page (the partial only uses `site.RegularPages` anyway)
+- **`pages.html`** - guard with `reflect.IsMap .` before reading `ExcludeKinds`
+- **`related-notes.html`**, **`link-registry.html`**, **`backlinks.html`** - pass `(dict)` instead of a page (the partial only uses `site.RegularPages` anyway)
 
 Hugo build completes cleanly now, with no `IsSet` warning and no render errors.
 

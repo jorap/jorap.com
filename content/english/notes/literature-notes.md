@@ -50,6 +50,10 @@ cards:
     back: "One page, my takeaway."
   - front: "Kid's ocean book report due - she wants to copy every quote. First fix?"
     back: "Three sentences she can explain."
+  - front: "Highlighted quote ready to paste - still in the author's words."
+    back: "Rewrite in my words - one claim per note."
+  - front: "Book finished - shelf it before I captured anything usable."
+    back: "One literature note - idea in my phrasing."
 draft: false
 ---
 

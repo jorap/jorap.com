@@ -127,7 +127,7 @@ drwxr-xr-x@  3 jonathanrapusas  staff     96 May  2 16:29 themes
 _**Agent (auto-high)**_
 
 <think><details><summary>Thought Process</summary>
- I'm diving into the Hugo theme structure to understand how this site is organized—looking at the themes directory, custom layouts, and asset files to see what modifications have been made.</details></think>
+ I'm diving into the Hugo theme structure to understand how this site is organized-looking at the themes directory, custom layouts, and asset files to see what modifications have been made.</details></think>
 
 _**Agent (auto-high)**_
 

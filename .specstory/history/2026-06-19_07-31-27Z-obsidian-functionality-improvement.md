@@ -1092,7 +1092,7 @@ You already have a solid Obsidian-style notes garden on the public site. [Gettin
 ## High-impact improvements
 
 ### 1. Dynamic “See also” at build time
-Right now “See also” is baked into markdown by `scripts/wire-notes-obsidian.py`. You already have the Hugo logic in `related-notes.html` — wire that into `single.html` as a live partial instead. Tags change, new notes appear, and you stop re-running the script to keep sections fresh.
+Right now “See also” is baked into markdown by `scripts/wire-notes-obsidian.py`. You already have the Hugo logic in `related-notes.html` - wire that into `single.html` as a live partial instead. Tags change, new notes appear, and you stop re-running the script to keep sections fresh.
 
 ### 2. Backlink context snippets
 Obsidian’s best backlink feature is *where* the link appears. Your backlinks partial only lists titles:
@@ -1114,9 +1114,9 @@ Extracting a sentence around each `[[...]]` match would make backlinks much more
 
 ### 3. Orphan / hub detection in the graph
 Your own [[Graph View Analytics]] note talks about orphans and overloaded hubs, but the graph UI doesn’t surface them. Add filters or badges for:
-- **Orphans** — zero inbound links  
-- **Hubs** — high degree (candidates to split)  
-- **Dead ends** — no outbound links  
+- **Orphans** - zero inbound links  
+- **Hubs** - high degree (candidates to split)  
+- **Dead ends** - no outbound links  
 
 That turns the graph from pretty to actionable.
 
@@ -1132,16 +1132,16 @@ You show backlinks but not **links from this note**. A symmetric “Links from t
 
 Your draft post `__obsidian-vs-hugo.md` describes vault → site publishing, but there’s no automation yet. Practical additions:
 
-- **`import-from-obsidian` script** — copy/sync from vault, strip Obsidian-only syntax, map folders → `content/english/notes/`
-- **Convert Obsidian syntax** — `![[Note]]` transclusions, `[[Note#Heading]]` block refs, `#tag` → frontmatter tags
-- **Pre-build wikilink lint** — fail CI on broken `[[links]]` (you already render them as `.wikilink-broken`, but nothing warns at build time)
-- **npm script hook** — `wire-notes-obsidian.py` + `hugo build` in one command so linking maintenance isn’t manual
+- **`import-from-obsidian` script** - copy/sync from vault, strip Obsidian-only syntax, map folders → `content/english/notes/`
+- **Convert Obsidian syntax** - `![[Note]]` transclusions, `[[Note#Heading]]` block refs, `#tag` → frontmatter tags
+- **Pre-build wikilink lint** - fail CI on broken `[[links]]` (you already render them as `.wikilink-broken`, but nothing warns at build time)
+- **npm script hook** - `wire-notes-obsidian.py` + `hugo build` in one command so linking maintenance isn’t manual
 
 ---
 
 ## Wikilink engine gaps
 
-Current resolver in `render-content.html` is title, filename, and alias only — no slug field, no case folding, no heading anchors:
+Current resolver in `render-content.html` is title, filename, and alias only - no slug field, no case folding, no heading anchors:
 
 ```12:28:layouts/_partials/notes/render-content.html
     {{- /* [[Title]] */ -}}
@@ -1162,7 +1162,7 @@ Worth adding:
 - `[[Note#Section]]` anchor links
 - Optional `![[Note]]` embed/transclusion (even just the first paragraph)
 
-Also: **blog posts don’t use `render-content.html`** — only notes do. If you want `[[wikilinks]]` in blog drafts that reference the garden, extend the blog single template the same way.
+Also: **blog posts don’t use `render-content.html`** - only notes do. If you want `[[wikilinks]]` in blog drafts that reference the garden, extend the blog single template the same way.
 
 ---
 
@@ -1188,10 +1188,10 @@ Low-effort wins:
 
 ## Notes index & discovery
 
-The list at `/notes/` sorts by connection degree (good), but tags are plain spans — not links. Making them filter or link to tag pages would help browsing without opening the graph.
+The list at `/notes/` sorts by connection degree (good), but tags are plain spans - not links. Making them filter or link to tag pages would help browsing without opening the graph.
 
 Other Obsidian-like discovery features not yet present:
-- **Unlinked mentions** — “PKM” appears in body text but isn’t linked
+- **Unlinked mentions** - “PKM” appears in body text but isn’t linked
 - **Random note** / **daily note resurfacing**
 - **Tag pane** or notes-only taxonomy view
 - **MOC breadcrumb** on each note (“Found in: Capture → …”)
@@ -1206,12 +1206,12 @@ Other Obsidian-like discovery features not yet present:
 
 ## Suggested priority order
 
-1. **Dynamic See also** + **outgoing links** — small template changes, big UX gain  
-2. **Backlink snippets** — makes review workflows actually work  
-3. **Build-time broken wikilink warnings** — keeps the garden healthy  
-4. **Graph orphan/hub filters** — matches what your Graph View Analytics note promises  
-5. **Obsidian import/sync script** — if you’re actually drafting in Obsidian  
-6. **Hover previews** — polish once the linking model is solid  
+1. **Dynamic See also** + **outgoing links** - small template changes, big UX gain  
+2. **Backlink snippets** - makes review workflows actually work  
+3. **Build-time broken wikilink warnings** - keeps the garden healthy  
+4. **Graph orphan/hub filters** - matches what your Graph View Analytics note promises  
+5. **Obsidian import/sync script** - if you’re actually drafting in Obsidian  
+6. **Hover previews** - polish once the linking model is solid  
 
 If you want to implement any of these, say which tier matters most (authoring workflow vs. reader UX vs. graph analytics) and I can start on the concrete changes.
 
@@ -1745,7 +1745,7 @@ Hugo's `split` function only accepts two arguments, so passing three like `split
 
 _**Agent (default)**_
 
-Fixing Hugo `split` usage — it only accepts two arguments.
+Fixing Hugo `split` usage - it only accepts two arguments.
 
 
 _**Agent (default)**_
@@ -2024,8 +2024,8 @@ _**Agent (default)**_
 All six improvements are implemented and the site builds cleanly. Here's what changed:
 
 ### 1. Dynamic See also + outgoing links
-- **`see-also.html`** — tag-related notes at build time, excluding notes already linked in the body
-- **`outgoing-links.html`** — parses wikilinks from each note and lists resolved targets
+- **`see-also.html`** - tag-related notes at build time, excluding notes already linked in the body
+- **`outgoing-links.html`** - parses wikilinks from each note and lists resolved targets
 - Static `## See also` sections are hidden in rendered content (still in source for reference)
 - Note page order: body → **Links from this note** → **See also** → **Backlinks**
 
@@ -2055,8 +2055,8 @@ Converts `[[wikilinks]]`, `#tags`, `![[embeds]]`, callouts, and `%%comments%%` i
 - Hover a wikilink (~280ms) to see title + description
 
 ### New npm scripts
-- `npm run wire:notes` — re-run the wikilink wiring script
-- `npm run import:obsidian` — vault import
-- `npm run lint:notes` — build + surface broken wikilinks
+- `npm run wire:notes` - re-run the wikilink wiring script
+- `npm run import:obsidian` - vault import
+- `npm run lint:notes` - build + surface broken wikilinks
 
 `getting-started.md` is updated to document the new features. Run `npm run dev` and open any note or `/notes/graph/` to try it out.

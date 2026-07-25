@@ -49,6 +49,10 @@ cards:
     back: "Stock for who shows up next - not just today's lunch rush."
   - front: "Condo board starts elevator fund three years before the repair quote."
     back: "Fund what's coming - not only tonight's quiet ride."
+  - front: "Bought the two-seat car while twins due next spring."
+    back: "Plan for who shows up next year."
+  - front: "Café skipped high chairs until families arrived soaking."
+    back: "Stock before the rainy-season rush."
 draft: false
 ---
 

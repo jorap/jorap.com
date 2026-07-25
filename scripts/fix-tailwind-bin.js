@@ -1,5 +1,5 @@
 /**
- * Hugo css.TailwindCSS must execute tailwindcss as a Node .mjs entry — not pnpm's shell shim.
+ * Hugo css.TailwindCSS must execute tailwindcss as a Node .mjs entry - not pnpm's shell shim.
  * See: https://github.com/gohugoio/hugo/issues/14852
  *
  * macOS/Linux: symlink to @tailwindcss/cli/dist/index.mjs

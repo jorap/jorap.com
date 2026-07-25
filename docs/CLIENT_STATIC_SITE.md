@@ -16,8 +16,8 @@ JoRap.com is the reference implementation. Clone this pattern for freelance clie
 - [ ] Production branch: `master` (or your default; JoRap uses `master`).
 - [ ] Build command: `pnpm run deploy` (or `npm run deploy` if no pnpm).
 - [ ] Build output directory: `public`.
-- [ ] **Settings → Build → Variables** — set `NODE_VERSION` and `GO_VERSION`. These are *build-time* vars; `wrangler.toml [vars]` are runtime-only and won't apply at build. Hugo version is handled in-repo by `scripts/ensureHugo.mjs`.
-- [ ] **Settings → Build → Build cache → Enable** (one-time; or `curl` the API — see below).
+- [ ] **Settings → Build → Variables** - set `NODE_VERSION` and `GO_VERSION`. These are *build-time* vars; `wrangler.toml [vars]` are runtime-only and won't apply at build. Hugo version is handled in-repo by `scripts/ensureHugo.mjs`.
+- [ ] **Settings → Build → Build cache → Enable** (one-time; or `curl` the API - see below).
 - [ ] **Settings → Git → Submodule cloning → Enable** (if theme is a submodule).
 
 Enable build cache without the dashboard:

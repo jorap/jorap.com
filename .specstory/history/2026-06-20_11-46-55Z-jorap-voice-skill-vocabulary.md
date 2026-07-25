@@ -199,7 +199,7 @@ Updated the **jorap-voice** skill to treat high-school vocabulary as a core rule
 ### `jorap-voice/SKILL.md`
 - Description and intro now call out **high-school-level vocabulary**
 - New voice pillar: **Plain words**
-- New section: **Vocabulary (high school level)** — everyday words, say-it-out-loud test, topic terms OK, no academic voice, vocab test
+- New section: **Vocabulary (high school level)** - everyday words, say-it-out-loud test, topic terms OK, no academic voice, vocab test
 - De-AI pass step 4: swap any word a typical high school reader would need to look up
 - Voice check: two new checklist items for vocab and read-aloud test
 
@@ -210,7 +210,7 @@ Updated the **jorap-voice** skill to treat high-school vocabulary as a core rule
 ### `flashcards/SKILL.md` (small cross-link)
 - Top voice blurb now points to jorap-voice as the source for vocabulary rules (card-specific vocab details stay in the flashcards skill)
 
-The bar is plain speech a typical teen gets on first read — same standard as your flashcards, now applied to blog posts, frontmatter, and notes too.
+The bar is plain speech a typical teen gets on first read - same standard as your flashcards, now applied to blog posts, frontmatter, and notes too.
 
 ---
 
@@ -353,7 +353,7 @@ Parameters:
 {
   "caseInsensitive": true,
   "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
-  "pattern": "—|delve|landscape|navigate|leverage|robust|seamless|elevate|realm|tapestry|harness|comprehensive|Furthermore|Additionally|Moreover|crucial|vital|essential|utilize|facilitate|implement|When it comes to|In today's|Let's dive|game-changer|must-have|It's worth noting|In conclusion|Unlock the|Without further ado|In the realm|Boasts|At the end of the day"
+  "pattern": "-|delve|landscape|navigate|leverage|robust|seamless|elevate|realm|tapestry|harness|comprehensive|Furthermore|Additionally|Moreover|crucial|vital|essential|utilize|facilitate|implement|When it comes to|In today's|Let's dive|game-changer|must-have|It's worth noting|In conclusion|Unlock the|Without further ado|In the realm|Boasts|At the end of the day"
 }
 ```
 Additional data:
@@ -363,7 +363,7 @@ Additional data:
   "isPruned": true,
   "outputMode": "content",
   "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
-  "pattern": "—|delve|landscape|navigate|leverage|robust|seamless|elevate|realm|tapestry|harness|comprehensive|Furthermore|Additionally|Moreover|crucial|vital|essential|utilize|facilitate|implement|When it comes to|In today's|Let's dive|game-changer|must-have|It's worth noting|In conclusion|Unlock the|Without further ado|In the realm|Boasts|At the end of the day",
+  "pattern": "-|delve|landscape|navigate|leverage|robust|seamless|elevate|realm|tapestry|harness|comprehensive|Furthermore|Additionally|Moreover|crucial|vital|essential|utilize|facilitate|implement|When it comes to|In today's|Let's dive|game-changer|must-have|It's worth noting|In conclusion|Unlock the|Without further ado|In the realm|Boasts|At the end of the day",
   "topFiles": [
     {
       "matchCount": 1,
@@ -445,7 +445,7 @@ Parameters:
 {
   "caseInsensitive": false,
   "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
-  "pattern": "—"
+  "pattern": "-"
 }
 ```
 Additional data:
@@ -455,7 +455,7 @@ Additional data:
   "isPruned": true,
   "outputMode": "content",
   "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
-  "pattern": "—",
+  "pattern": "-",
   "topFiles": [],
   "totalFiles": 0,
   "totalMatches": 0
@@ -1639,7 +1639,7 @@ Most blog posts were already on-voice. I edited roughly 15 files and extended li
 
 _**Agent (default)**_
 
-Ran jorap-voice across all **48 blog markdown files** (excluding `_index` section shell only). Most were already on voice — reference posts like `what-i-look-for-in-wireless-earphones.md`, `how-i-built-jorap-notes.md`, and `facebooks-hidden-gem-...` needed no changes.
+Ran jorap-voice across all **48 blog markdown files** (excluding `_index` section shell only). Most were already on voice - reference posts like `what-i-look-for-in-wireless-earphones.md`, `how-i-built-jorap-notes.md`, and `facebooks-hidden-gem-...` needed no changes.
 
 ### Edited (15 files)
 
@@ -1671,4 +1671,4 @@ Drafts: Marvel Snap, Shopee tips, wifi router, extension cord (body), Drupal→W
 
 **Skipped:** `__blog-template.md` and `__blank-blog-template.md` (reference scaffolds, not posts).
 
-Want a deeper pass on any single draft — e.g. expanding the 43-line Hugo stubs into full posts?
+Want a deeper pass on any single draft - e.g. expanding the 43-line Hugo stubs into full posts?

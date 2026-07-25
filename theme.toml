@@ -1,7 +1,7 @@
 name = "jorap"
 license = "MIT"
 licenselink = "https://github.com/jonathanrapusas/jorap.com/blob/main/LICENSE"
-description = "Theme powering jorap.com — Hugo + Tailwind CSS personal site."
+description = "Theme powering jorap.com - Hugo + Tailwind CSS personal site."
 homepage = "https://jorap.com"
 min_version = "0.158.0"
 

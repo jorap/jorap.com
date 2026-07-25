@@ -55,6 +55,10 @@ cards:
     back: "Routine changes or we accept it - then remove."
   - front: "Building chat logs one near-miss per month. Purpose?"
     back: "Change process - shame isn't the point."
+  - front: "Same mistake third month - after-action review never changed the runbook."
+    back: "Update the procedure - learning means the system moves."
+  - front: "Near-miss filed nowhere - team keeps improvising the fix."
+    back: "Write what we learned - share the fix."
 draft: false
 ---
 

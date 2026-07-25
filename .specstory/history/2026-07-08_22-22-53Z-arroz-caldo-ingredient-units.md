@@ -155,9 +155,9 @@ _**Agent (auto-low)**_
 
 Updated the ingredients in `set-it-forget-it-arroz-caldo.md` so every bullet has explicit units, matching the format in your Instant Pot arroz caldo post:
 
-- **Essentials** — cups with liters, grams, lbs, inches/cm, cloves, tablespoons with ml, and "to taste" for pepper
-- **Optional** — pinch for kasubha, medium onion
-- **Toppings** — counts and portions (kalamansi/lemon, tbsp for garlic, stalks for green onions, egg count)
+- **Essentials** - cups with liters, grams, lbs, inches/cm, cloves, tablespoons with ml, and "to taste" for pepper
+- **Optional** - pinch for kasubha, medium onion
+- **Toppings** - counts and portions (kalamansi/lemon, tbsp for garlic, stalks for green onions, egg count)
 
 The ingredient notes (fresh ginger, start light on fish sauce, etc.) were trimmed so the list stays scannable; those tips are still covered in the method and "Things I've Learned" sections.
 
@@ -220,7 +220,7 @@ _**Agent (auto-low)**_
 
 Updated the method steps so ingredients are called out with the same units as the list:
 
-- **Step 1** — chicken (kg/lbs), ginger (inches/cm), garlic (cloves), rice (cup/g), onion
-- **Step 2** — full dump-in list with water (cups/L), cube/powder, fish sauce (tbsp/ml), kasubha, onion
-- **Step 4** — thinning water in **1 cup (240 ml)** increments; serve line with topping amounts
-- **Tips** — starting water now reads **6 cups (1.4 L)**
+- **Step 1** - chicken (kg/lbs), ginger (inches/cm), garlic (cloves), rice (cup/g), onion
+- **Step 2** - full dump-in list with water (cups/L), cube/powder, fish sauce (tbsp/ml), kasubha, onion
+- **Step 4** - thinning water in **1 cup (240 ml)** increments; serve line with topping amounts
+- **Tips** - starting water now reads **6 cups (1.4 L)**

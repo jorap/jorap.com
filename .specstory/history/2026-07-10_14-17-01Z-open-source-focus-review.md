@@ -221,8 +221,8 @@ cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/notes-voice-lint.py
 
 ```
 Voice lint warnings:
-  content/english/notes/selling-static-sites.md: relationships.reason: AI-tell word `handoff` — try: pass off / pass to client
-  content/english/notes/static-site-client-scope.md: relationships.reason: AI-tell word `handoff` — try: pass off / pass to client
+  content/english/notes/selling-static-sites.md: relationships.reason: AI-tell word `handoff` - try: pass off / pass to client
+  content/english/notes/static-site-client-scope.md: relationships.reason: AI-tell word `handoff` - try: pass off / pass to client
 
 ```
 </details></tool-use>
@@ -334,7 +334,7 @@ Parameters:
 {
   "caseInsensitive": false,
   "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/__why-i-focused-on-open-source.md",
-  "pattern": "handoff|—|–"
+  "pattern": "handoff|-|–"
 }
 ```
 Additional data:
@@ -344,7 +344,7 @@ Additional data:
   "isPruned": true,
   "outputMode": "content",
   "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/__why-i-focused-on-open-source.md",
-  "pattern": "handoff|—|–",
+  "pattern": "handoff|-|–",
   "topFiles": [
     {
       "matchCount": 1,
@@ -519,14 +519,14 @@ _**Agent (auto-low)**_
 <summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; git add content/english/blog/why-i-focused-on-open-source.md assets/images/open-source.jpg &amp;&amp; git commit --trailer &#34;Co-authored-by: Cursor &lt;cursoragent@cursor.com&gt;&#34; -m &#34;$(cat &lt;&lt;&#39;EOF&#39;
 Publish Why I Focused on Open Source blog post.
 
-Practical take on choosing open tools for cost, portability, and community depth—not ideology.
+Practical take on choosing open tools for cost, portability, and community depth-not ideology.
 EOF
 )&#34; &amp;&amp; git status</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && git add content/english/blog/why-i-focused-on-open-source.md assets/images/open-source.jpg && git commit --trailer "Co-authored-by: Cursor <cursoragent@cursor.com>" -m "$(cat <<'EOF'
 Publish Why I Focused on Open Source blog post.
 
-Practical take on choosing open tools for cost, portability, and community depth—not ideology.
+Practical take on choosing open tools for cost, portability, and community depth-not ideology.
 EOF
 )" && git status
 ```
@@ -604,10 +604,10 @@ _**Agent (auto-low)**_
 **Published.** The post is committed locally; push when you're ready to deploy.
 
 ### Review summary
-The draft was in good shape — voice, structure, and frontmatter all read like JoRap. I fixed two things before publishing:
+The draft was in good shape - voice, structure, and frontmatter all read like JoRap. I fixed two things before publishing:
 
-1. **Broken link** — `/blog/sustainable-online-publishing/` still points at a draft (`__sustainable-online-publishing.md`). Dropped the link and kept plain text so nothing 404s on launch.
-2. **Voice lint** — Swapped "handoff" for "will the client still own it after I pass it off."
+1. **Broken link** - `/blog/sustainable-online-publishing/` still points at a draft (`__sustainable-online-publishing.md`). Dropped the link and kept plain text so nothing 404s on launch.
+2. **Voice lint** - Swapped "handoff" for "will the client still own it after I pass it off."
 
 Everything else checked out:
 - Internal links to `drupal-to-wordpress` and `how-i-built-jorap-notes` are live
@@ -1083,9 +1083,9 @@ The change is uncommitted. I'll explain what was done and leave it for the user 
 
 _**Agent (auto-low)**_
 
-Yes — but not automatically.
+Yes - but not automatically.
 
-The homepage **Selected Writing** grid is **curated**, not “latest 5 posts.” It reads from `home_blog.post_slugs` in `config/_default/params.toml`. Your post has `featured: false`, which only affects sort order on `/blog/` — not the homepage.
+The homepage **Selected Writing** grid is **curated**, not “latest 5 posts.” It reads from `home_blog.post_slugs` in `config/_default/params.toml`. Your post has `featured: false`, which only affects sort order on `/blog/` - not the homepage.
 
 I added it as the **second card**, right after `static-site-vs-cms` (same stack/ownership thread). To keep the limit at 5, I swapped out `top-reasons-why-you-still-need-use-desktop-laptop`.
 
@@ -1101,4 +1101,4 @@ post_slugs = [
 
 The first slug in the list gets the large hero card; yours will show as a smaller card in the row below.
 
-This change is local only — commit and push when you want it live. Want a different slot or a different post bumped instead?
+This change is local only - commit and push when you want it live. Want a different slot or a different post bumped instead?

@@ -49,17 +49,17 @@ featured: false
 review: true
 card_sets: ["Jesus Rhythms", "Gospel", "Faith", "Prayer"]
 cards:
-  - front: "Group chat blowing up before I am out of bed. Copy Jesus' morning move?"
+  - front: "Group chat blowing up before I'm out of bed - thumb hovering."
     back: "Door closed - pray before I reply."
-  - front: "Crowds want more of me and I have nothing left. What did He do first?"
-    back: "Slip away - pray alone."
-  - front: "Treating quiet time like optional when the calendar is full. What is solitude for?"
-    back: "Refuel - solitude before service."
-  - front: "Skipped prayer and brought empty fumes to the last meeting. What rhythm did He keep?"
+  - front: "Crowds want more of me and I have nothing left - fumes only."
+    back: "Slip away - pray alone first."
+  - front: "Calendar stacked - treating quiet time like optional skip."
+    back: "Slip away - pray before I serve."
+  - front: "Skipped prayer and brought empty fumes to the last meeting."
     back: "Withdraw to pray - before the push."
-  - front: "Posting my quiet time instead of having one. Who is the real audience?"
+  - front: "Posting my quiet time instead of having one - feed bait ready."
     back: "Father alone - not the feed."
-  - front: "Inbox before prayer most mornings. One move from His pattern?"
+  - front: "Inbox before prayer most mornings - phone wins again."
     back: "Pray first - then serve the day."
 draft: false
 ---

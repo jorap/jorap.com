@@ -49,18 +49,18 @@ featured: false
 review: true
 card_sets: ["Jesus Rhythms", "Gospel", "Faith", "Discipleship"]
 cards:
-  - front: "Dropped three verses in chat and walked away. His Emmaus move?"
-    back: "Explain - walk through the text."
-  - front: "Read the passage, application in ninety seconds. What did He do on the road?"
-    back: "Opened Scripture - took time."
-  - front: "Bible study feels like a citation contest. Make the Book what?"
-    back: "Legible - not impressive."
-  - front: "Hoarding quotes without helping anyone understand. Copy the Teacher?"
+  - front: "Dropped three verses in group chat and walked away - mic drop done."
+    back: "Walk through it - explain line by line."
+  - front: "Read the passage, application in ninety seconds - rushed to takeaway."
+    back: "Time on the road - open meaning with them."
+  - front: "Bible study feels like a citation contest - impressing not teaching."
+    back: "Make the Book legible - not impressive."
+  - front: "Hoarding quotes without helping anyone understand - index not opened word."
     back: "Explain Moses and the Prophets."
-  - front: "Minds still closed after I posted the verse. What did He open?"
-    back: "Understanding - not just the quote."
-  - front: "Truth shared as a mic drop. His Great Commission shape?"
-    back: "Open Scripture - teach, don't dump."
+  - front: "Posted the verse, minds still closed - quote landed, no light."
+    back: "Open understanding - not just the quote."
+  - front: "Truth shared as a mic drop in the thread - walked away proud."
+    back: "Teach - open Scripture, don't dump."
 draft: false
 ---
 

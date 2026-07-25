@@ -224,14 +224,14 @@ _**Agent (default)**_
 
 _**Agent (default)**_
 
-Updated the flashcard skill with explicit guidance on **subtle hint questions** — open questions at the end of a front that nudge retrieval without giving away the answer.
+Updated the flashcard skill with explicit guidance on **subtle hint questions** - open questions at the end of a front that nudge retrieval without giving away the answer.
 
 **What changed**
 
 In `.cursor/skills/flashcards/SKILL.md`:
 - New **Subtle hint questions** section with a table of hint types (`One check?`, `What comes first?`, `First fix I try?`, etc.)
 - Clear distinction: subtle hint = names the *shape* of the answer; telegraphy = names the *answer domain*
-- Note that pure cue-only fronts are still valid — hint questions are optional when the back is a check, filter, order, or stop line
+- Note that pure cue-only fronts are still valid - hint questions are optional when the back is a check, filter, order, or stop line
 - Workflow and checklist updated to reference the pattern
 
 In `.cursor/skills/flashcards/examples.md`:
@@ -239,7 +239,7 @@ In `.cursor/skills/flashcards/examples.md`:
 - Telegraphy vs subtle hint comparison table
 - Rewrite pass step updated
 
-**The pattern in one line:** cue first, then a short open question like `One check before send?` or `What comes first?` — enough to aim retrieval, not enough to answer without thinking.
+**The pattern in one line:** cue first, then a short open question like `One check before send?` or `What comes first?` - enough to aim retrieval, not enough to answer without thinking.
 
 ---
 
@@ -257,7 +257,7 @@ Running flashcards on all items. Likely means all notes with flashcards or revie
 
 _**Agent (default)**_
 
-Auditing all flashcard decks against the skill — finding every review note and checking current card quality.
+Auditing all flashcard decks against the skill - finding every review note and checking current card quality.
 
 
 _**Agent (default)**_
@@ -679,14 +679,14 @@ Applying the flashcards skill to all review notes.
 
 Auditing flashcard decks for telegraphy, weak multiple-choice, missing hints, and cue-only gaps. Starting with building-a-second-brain.md.
 
-Building-a-second-brain.md shows telegraphy in card 3 ("Name the acronym?") and a pure cue in card 5. Note-relationships.md uses telegraphy by asking "Which label?" and "Which typed link?" — these should be rewritten as cue-only without naming the specific label.
+Building-a-second-brain.md shows telegraphy in card 3 ("Name the acronym?") and a pure cue in card 5. Note-relationships.md uses telegraphy by asking "Which label?" and "Which typed link?" - these should be rewritten as cue-only without naming the specific label.
 
 Para-method.md telegraphs "Which PARA bucket?" and evergreen-notes.md uses a binary choice in card 2. Rewriting note-relationships as situational cues without naming link types.
 </details></think>
 
 _**Agent (default)**_
 
-Reviewing decks that likely need the most work—telegraphy, multiple-choice fronts, and missing subtle hints.
+Reviewing decks that likely need the most work-telegraphy, multiple-choice fronts, and missing subtle hints.
 
 
 _**Agent (default)**_
@@ -1145,14 +1145,14 @@ Audited and updated all **24 review decks** (~144 cards) against the flashcard s
 
 ### What changed
 
-**Telegraphy removed** — fronts no longer name the answer domain:
+**Telegraphy removed** - fronts no longer name the answer domain:
 - `building-a-second-brain`: dropped `CODE` / `Name the acronym?` trivia
 - `para-method`: dropped `PARA bucket`; fixed MC fork on card 1
 - `note-relationships`: replaced `Which label?` / `Which typed link?` with situational subtle hints
 - `the-wise-builder`: dropped `Which builder am I being?`
 - `weekly-review-checklists`: replaced abstract `When do I run weekly review?`
 
-**Multiple-choice fronts fixed** — removed `A or B?` patterns (lint-safe):
+**Multiple-choice fronts fixed** - removed `A or B?` patterns (lint-safe):
 - `love-your-enemies`: `Pretend it didn't happen?` → open cue
 - `seek-the-kingdom-first`: `Pick which?` → `Which gets priority?`
 - `evergreen-notes`: binary forks → `What's the move?` / `One check before I rewrite?`
@@ -1162,7 +1162,7 @@ Audited and updated all **24 review decks** (~144 cards) against the flashcard s
 
 ### Already in good shape (left as-is)
 
-`free-grace`, `atomic-notes`, `love-god`, `abide-in-me`, `love-your-neighbor` — already had strong cue → apply chains with subtle hints where needed.
+`free-grace`, `atomic-notes`, `love-god`, `abide-in-me`, `love-your-neighbor` - already had strong cue → apply chains with subtle hints where needed.
 
 ### Pattern now consistent across decks
 
@@ -2206,7 +2206,7 @@ _**Agent (default)**_
 
 _**Agent (default)**_
 
-Found and fixed **30 duplicate relationship lines** across the gospel cluster and a few PKM notes — the exact pattern you flagged in `the-beatitudes.md`.
+Found and fixed **30 duplicate relationship lines** across the gospel cluster and a few PKM notes - the exact pattern you flagged in `the-beatitudes.md`.
 
 ### Cause
 
@@ -2220,7 +2220,7 @@ Removed the bare duplicate from **30 notes**, keeping the qualified line in each
 Extends [[Free Grace]]. Contradicts [[Humility and Service]] when pride masquerades as strength.
 ```
 
-Also fixed **`repent-and-believe.md`** separately — it had two *different* contradicts lines (one with a broken `[[No Perfect Solution]]` link, one bare `[[Compounding]]`). Consolidated to:
+Also fixed **`repent-and-believe.md`** separately - it had two *different* contradicts lines (one with a broken `[[No Perfect Solution]]` link, one bare `[[Compounding]]`). Consolidated to:
 
 `Extends [[Free Grace]]. Contradicts [[There Is No Perfect Solution]] when I delay entry until I've fixed myself.`
 
@@ -2230,7 +2230,7 @@ Updated `scripts/wire-note-relationships.py` to:
 - Skip inserting a bare line when a qualified line for the same extends/contradicts pair already exists
 - Correct the `repent-and-believe` mapping to `There Is No Perfect Solution`
 
-Re-running the wire script now reports **0 notes updated** — no duplicates reintroduced.
+Re-running the wire script now reports **0 notes updated** - no duplicates reintroduced.
 
 ---
 
@@ -2713,13 +2713,13 @@ Gospel notes that already had qualifiers (e.g. `the-beatitudes`, `free-grace`) w
 
 - **52 PKM notes** updated with tradeoff explanations
 - **~30 gospel notes** already qualified from earlier work
-- **`note-relationships.md`** spec updated — contradicts must include a `when` clause; table example updated too
+- **`note-relationships.md`** spec updated - contradicts must include a `when` clause; table example updated too
 
 ### Tooling
 
-- `scripts/contradicts_when.py` — central map of qualifier phrases per note slug
-- `scripts/qualify-contradicts.py` — applies qualifiers to any bare lines (`python3 scripts/qualify-contradicts.py`)
-- `scripts/wire-note-relationships.py` — now emits qualified contradicts from the same map, so re-running the wire script won't strip explanations
+- `scripts/contradicts_when.py` - central map of qualifier phrases per note slug
+- `scripts/qualify-contradicts.py` - applies qualifiers to any bare lines (`python3 scripts/qualify-contradicts.py`)
+- `scripts/wire-note-relationships.py` - now emits qualified contradicts from the same map, so re-running the wire script won't strip explanations
 
 Every contradicts line in the garden now states **when the tension shows up**, not just which note it pushes against.
 
@@ -4002,11 +4002,11 @@ The cards.md file includes `review: true` in its YAML example block.
 
 _**Agent (default)**_
 
-You were right — the gap wasn't the existing spine decks (those already had 6 cards). It was **18 gospel notes in the Eternal Principles cluster with no flashcards at all**.
+You were right - the gap wasn't the existing spine decks (those already had 6 cards). It was **18 gospel notes in the Eternal Principles cluster with no flashcards at all**.
 
 ### What was wrong
 - **24 notes** already had full 6-card decks (12 PKM + 12 gospel)
-- **18 gospel notes** had zero cards — so `/flashcards` never really applied to them
+- **18 gospel notes** had zero cards - so `/flashcards` never really applied to them
 
 ### What I added (6 cards each, cue → apply)
 `the-beatitudes`, `dont-worry`, `judge-not`, `childlike-faith`, `the-narrow-way`, `treasure-in-heaven`, `eternal-rewards`, `secret-devotion`, `humility-and-service`, `let-your-light-shine`, `peacemakers`, `turn-the-other-cheek`, `by-their-fruits`, `heart-righteousness`, `reconciliation-before-worship`, `render-unto-caesar`, `great-commission`, `let-your-yes-be-yes`
@@ -4016,7 +4016,7 @@ Each deck follows the flashcard skill: mid-life cues, subtle hint questions wher
 ### Totals now
 - **42 review notes** × 6 cards = **252 drill cards**
 - `npm run lint:cards` passes
-- Updated `eternal-principles.md` — gospel spine notes now documented as carrying full review decks
+- Updated `eternal-principles.md` - gospel spine notes now documented as carrying full review decks
 
 Example from `the-beatitudes.md`:
 - Front: `Thumb itching to clap back and prove I'm strong. Which beatitude fork?`

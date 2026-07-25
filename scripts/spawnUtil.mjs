@@ -10,7 +10,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 export const projectRoot = resolve(__dirname, "..");
 const isWin = process.platform === "win32";
 
-/** Node binary running these scripts — reliable even when `node` is not on PATH. */
+/** Node binary running these scripts - reliable even when `node` is not on PATH. */
 export const nodeBin = process.execPath;
 
 /**
@@ -31,7 +31,7 @@ function needsShell(cmd) {
 }
 
 /**
- * Run a command; throws nothing — exits the process on failure.
+ * Run a command; throws nothing - exits the process on failure.
  */
 export function run(cmd, args = [], opts = {}) {
   const cwd = opts.cwd ?? projectRoot;

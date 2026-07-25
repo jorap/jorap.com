@@ -56,6 +56,10 @@ cards:
     back: "My focus for their revenue."
   - front: "Kid's \"educational\" game paused again for a purchase screen. What's it really after?"
     back: "Her attention - not learning."
+  - front: "New focus app downloaded - notifications still on every pipe."
+    back: "Kill the alerts first - app second."
+  - front: "Platform profits from my scroll - default is steal attention."
+    back: "Gate the pipe - don't blame willpower alone."
 draft: false
 ---
 

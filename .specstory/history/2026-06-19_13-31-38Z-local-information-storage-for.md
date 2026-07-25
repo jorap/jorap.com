@@ -69,15 +69,15 @@ The tracker functions as a living scrapbook. Local storage should preserve:
 
 _**Agent (default)**_
 
-The tracker is built as a **scrapbook with outbound links**, not a full offline record. After WTA, tennis.com, slam sites, and YouTube URLs rot, what still makes the page useful is whatever is written as **plain text in the markdown** — not what lives only behind `[Match Stats](…)` or profile links.
+The tracker is built as a **scrapbook with outbound links**, not a full offline record. After WTA, tennis.com, slam sites, and YouTube URLs rot, what still makes the page useful is whatever is written as **plain text in the markdown** - not what lives only behind `[Match Stats](…)` or profile links.
 
 ## What already survives link rot
 
 These sections are self-contained and keep working without any external URLs:
 
 **Career snapshot**
-- **At a glance** — career-high ranks, title count and names, best Slam run, notable firsts
-- **WTA Rankings** — career-high singles/doubles numbers and the “highest-ranked Filipina” note
+- **At a glance** - career-high ranks, title count and names, best Slam run, notable firsts
+- **WTA Rankings** - career-high singles/doubles numbers and the “highest-ranked Filipina” note
 
 **Tournament narrative**
 - Event name (brand-free), **WTA tier**, year, discipline (singles/doubles)
@@ -88,10 +88,10 @@ These sections are self-contained and keep working without any external URLs:
 **Head-to-head vs Slam champions** (the best-archived section)
 - Opponent name
 - **Grand Slam titles table** (which majors, which years)
-- **Match stat lines** in the form `YYYY Tournament - Surface - Win/Loss` — tournament, surface, and outcome are local even when the link dies
+- **Match stat lines** in the form `YYYY Tournament - Surface - Win/Loss` - tournament, surface, and outcome are local even when the link dies
 
 **Watch list**
-- Opponent **names** and **credential notes** (Slam wins, Olympic gold, etc.) — the “why this matchup matters” survives
+- Opponent **names** and **credential notes** (Slam wins, Olympic gold, etc.) - the “why this matchup matters” survives
 
 **YouTube embeds**
 - `{{< youtube VIDEO_ID >}}` IDs are stored locally; they outlast match-stat URLs more often than not, though the videos themselves can still disappear
@@ -100,7 +100,7 @@ These sections are self-contained and keep working without any external URLs:
 
 ## What must be stored locally but often isn’t yet
 
-For the page to stay a **useful scrapbook** (not just a list of rounds and dead links), these facts should live in the markdown itself — they’re currently missing from most tournament blocks and from the **Other Top 20** H2H section entirely:
+For the page to stay a **useful scrapbook** (not just a list of rounds and dead links), these facts should live in the markdown itself - they’re currently missing from most tournament blocks and from the **Other Top 20** H2H section entirely:
 
 | Fact | Why it matters after links die |
 |------|--------------------------------|
@@ -109,9 +109,9 @@ For the page to stay a **useful scrapbook** (not just a list of rounds and dead 
 | **Score** (at least on the exit match; ideally each round in a deep run) | The detail fans actually remember |
 | **Match date** (optional but helpful) | Disambiguates repeat events and orders the scrapbook |
 | **Earlier-round opponents** in deep runs | Currently only in URLs or scattered sub-bullets (e.g. Krejcikova at Wimbledon, Paolini/Errani in Rome doubles) |
-| **Retirements / walkovers** | Already noted in some H2H lines (`Win (Retired)`) — that pattern should be preserved locally everywhere it applies |
+| **Retirements / walkovers** | Already noted in some H2H lines (`Win (Retired)`) - that pattern should be preserved locally everywhere it applies |
 
-The **Grand Slam Champions** H2H blocks already follow the right model: opponent, titles table, and `Tournament - Surface - Result` lines. The **Other Top 20** section deliberately has **no match lines** — only profile/H2H links and embeds — so it becomes nearly empty if those links go dead.
+The **Grand Slam Champions** H2H blocks already follow the right model: opponent, titles table, and `Tournament - Surface - Result` lines. The **Other Top 20** section deliberately has **no match lines** - only profile/H2H links and embeds - so it becomes nearly empty if those links go dead.
 
 ---
 
@@ -128,7 +128,7 @@ These improve the live experience but aren’t required for long-term usefulness
 
 ## Practical rule
 
-If a fact would make you sad to lose in five years, it belongs in the markdown as text — not only in a URL slug like `c-gauff-vs-a-eala-2026-02-19`.
+If a fact would make you sad to lose in five years, it belongs in the markdown as text - not only in a URL slug like `c-gauff-vs-a-eala-2026-02-19`.
 
 **Minimum local record per notable match:** opponent, tournament (year + brand-free name + tier), surface, result, score, and any milestone context.
 

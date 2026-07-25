@@ -1648,7 +1648,7 @@ Draft blog posts currently appear on /blog/ in dev mode.
 
 A root-level blog list override will hide drafts from /blog/. Notes will be restricted to draft-only entries. Archetypes and a migration script will move PKM content. Existing notes will receive full frontmatter.
 
-The migration script will be written in Python. Category detection requires all three categories—Productivity, Ideas, and Tips—to be present in any order. Files like __process-over-outcomes and __there-is-no-perfect-solution already satisfy this rule. Both archetypes will include aliases. Frontmatter templates are being drafted.</details></think>
+The migration script will be written in Python. Category detection requires all three categories-Productivity, Ideas, and Tips-to be present in any order. Files like __process-over-outcomes and __there-is-no-perfect-solution already satisfy this rule. Both archetypes will include aliases. Frontmatter templates are being drafted.</details></think>
 
 _**Agent (auto-low)**_
 
@@ -2168,7 +2168,7 @@ Both content types now share the same fields: `title`, `meta_title`, `descriptio
 ### PKM drafts moved to notes
 **71 PKM drafts** (`categories: ["Productivity", "Ideas", "Tips"]`) moved from `content/english/blog/__*.md` → `content/english/notes/`. `atomic-notes` merged with the existing note (blog frontmatter + wikilink body).
 
-**33 blog drafts** stay in `content/english/blog/` — gear reviews, Hugo tutorials, food posts, etc.
+**33 blog drafts** stay in `content/english/blog/` - gear reviews, Hugo tutorials, food posts, etc.
 
 ### Visibility rules
 - **Notes**: only `draft: true` notes appear in the garden, graph, and backlinks (`layouts/_partials/notes/pages.html`)
@@ -3071,7 +3071,7 @@ The zettelkasten footer link was also left protected. The script will be fixed t
 
 _**Agent (auto-low)**_
 
-The script left protection tokens in some files — I'll fix that and restore the affected notes.
+The script left protection tokens in some files - I'll fix that and restore the affected notes.
 
 
 _**Agent (auto-low)**_
@@ -4175,20 +4175,20 @@ All 73 notes are now wired for the Obsidian-style features this site supports:
 
 ### What was added
 
-1. **Wikilinks** — `[[Note Title]]` links across note bodies, plus inline links where titles naturally appear (e.g. `[[PARA Method]]`, `[[Building a Second Brain]]`)
+1. **Wikilinks** - `[[Note Title]]` links across note bodies, plus inline links where titles naturally appear (e.g. `[[PARA Method]]`, `[[Building a Second Brain]]`)
 
-2. **Aliases** — frontmatter aliases on hub notes so short forms resolve:
+2. **Aliases** - frontmatter aliases on hub notes so short forms resolve:
    - `[[PARA]]` → PARA Method
    - `[[MOC]]` → Maps of Content
    - `[[atom]]` → Atomic Notes
    - `[[start]]` → Getting Started
    - plus ~35 others (Second Brain, GTD, E2EE, etc.)
 
-3. **See also** — tag-related notes at the bottom of every note (5 links each, shared-tag context)
+3. **See also** - tag-related notes at the bottom of every note (5 links each, shared-tag context)
 
-4. **Maps of Content** — `maps-of-content.md` is now a real MOC hub with clustered wikilinks (Foundations, Capture, Organize, Distill, Connect, Express, Systems)
+4. **Maps of Content** - `maps-of-content.md` is now a real MOC hub with clustered wikilinks (Foundations, Capture, Organize, Distill, Connect, Express, Systems)
 
-5. **Getting Started** — documents all Obsidian features and links to the main hubs
+5. **Getting Started** - documents all Obsidian features and links to the main hubs
 
 ### Graph connectivity
 
@@ -4204,7 +4204,7 @@ All 73 notes are now wired for the Obsidian-style features this site supports:
 python3 scripts/wire-notes-obsidian.py
 ```
 
-Run `npm run dev` and check `/notes/graph/` — the graph should be fully connected. Open any note to see rendered wikilinks and backlinks at the bottom.
+Run `npm run dev` and check `/notes/graph/` - the graph should be fully connected. Open any note to see rendered wikilinks and backlinks at the bottom.
 
 ---
 
@@ -4470,10 +4470,10 @@ _**Agent (auto-low)**_
 
 Notes cards now use the same equal-height pattern as blog cards:
 
-- **Column** — `flex` so the card can stretch to the row height
-- **Card** — `flex h-full w-full flex-col` fills the column
-- **Description** — `flex-1` absorbs extra space
-- **Tags** — `mt-auto` sit at the bottom of each card
+- **Column** - `flex` so the card can stretch to the row height
+- **Card** - `flex h-full w-full flex-col` fills the column
+- **Description** - `flex-1` absorbs extra space
+- **Tags** - `mt-auto` sit at the bottom of each card
 
 Cards in the same row should now align to the same height, with tags pinned to the bottom. Refresh `/notes/` in dev to confirm.
 
@@ -5437,14 +5437,14 @@ Notes are now public and linked in the header. Here's what changed:
 
 ### Public publishing
 - All **73 notes** set to `draft: false` so they ship in production builds
-- `pages.html` now lists **published** notes (`draft: false`) — draft notes stay hidden until you publish them
+- `pages.html` now lists **published** notes (`draft: false`) - draft notes stay hidden until you publish them
 - Production build went from **762 → 873 pages** (notes included)
 - Notes added to **site search** (`include_sections`)
 - Removed the "local only" dev banner from notes pages (drafts banner still shows on `/drafts/` in dev)
 
 ### Copy updates
 - `notes/_index.md` and `getting-started.md` updated to describe the public garden
-- New notes still default to `draft: true` in the archetype — set `draft: false` when ready to publish
+- New notes still default to `draft: true` in the archetype - set `draft: false` when ready to publish
 
 **Notes** should appear in the header between Blog and your CTA. Visit `/notes/` on the live site after deploy.
 
@@ -5631,7 +5631,7 @@ Considering Hugo's built-in `sort` function to order pages by the featured boole
 
 Hugo's `sort` function only supports one field, so the complement approach is required. Featured pages will be sorted by date or title first, then the remaining pages will be appended after them. For notes, the secondary sort will be ByTitle.
 
-A reusable partial will handle the featured-first sorting. It accepts a sort parameter—either "title" or "date"—and automatically applies the correct secondary sort to both featured and non-featured groups.
+A reusable partial will handle the featured-first sorting. It accepts a sort parameter-either "title" or "date"-and automatically applies the correct secondary sort to both featured and non-featured groups.
 
 The partial will use `return` to pass the combined collection back to the caller. The blog list override at `layouts/blog/list.html` will be updated; the theme version is not touched. Every existing content file will receive the `featured` field, defaulting to false.
 
@@ -5817,8 +5817,8 @@ _**Agent (auto-low)**_
 ### How it works
 - Add `featured: true` to pin an item to the **top** of its section list
 - Omit it or set `featured: false` for normal ordering (default)
-- **Blog & drafts** — featured first, then by date (newest)
-- **Notes** — featured first, then alphabetical by title
+- **Blog & drafts** - featured first, then by date (newest)
+- **Notes** - featured first, then alphabetical by title
 
 ### Usage
 ```yaml
@@ -5826,8 +5826,8 @@ featured: true
 ```
 
 ### Updated
-- Archetypes (`default.md`, `notes.md`) — `featured: false` by default
-- `layouts/_partials/sort-featured-first.html` — shared sort logic
+- Archetypes (`default.md`, `notes.md`) - `featured: false` by default
+- `layouts/_partials/sort-featured-first.html` - shared sort logic
 - List templates for `/blog/`, `/notes/`, and `/drafts/`
 
 ---
@@ -6957,9 +6957,9 @@ The atomize script introduced grammar bugs. It misformats titles and incorrectly
 
 The bug is in `atomize_body`. `lowercase_lead` lowercases the first word of descriptions, turning "I" into "i". I will fix that helper so it preserves capitalization when the description starts with "I".
 
-A `sentence_after_dash` helper will lowercase only the first letter of descriptions unless it is uppercase or an "I". The Capture note should use `**Capture** — where PKM lives or dies.` instead of a full sentence.
+A `sentence_after_dash` helper will lowercase only the first letter of descriptions unless it is uppercase or an "I". The Capture note should use `**Capture** - where PKM lives or dies.` instead of a full sentence.
 
-I will fix the atomize script itself rather than doing a manual search-replace pass. Body formatting will always use `**{title}** — {rest}`, stripping redundant title prefixes. I will also remove the "Related:" line from bodies because "See also" already covers those links.
+I will fix the atomize script itself rather than doing a manual search-replace pass. Body formatting will always use `**{title}** - {rest}`, stripping redundant title prefixes. I will also remove the "Related:" line from bodies because "See also" already covers those links.
 
 I will strip the "Related:" paragraph entirely and weave its link into the second sentence of the body instead. I also noticed capture.md has a missing newline after the frontmatter closing dashes, so I will add that too.
 
@@ -7068,7 +7068,7 @@ _**Agent (auto-low)**_
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The script generates redundant duplicates and malformed grammar like "— is where" when titles are stripped incorrectly.
+The script generates redundant duplicates and malformed grammar like "- is where" when titles are stripped incorrectly.
 
 Fixing desc_tail by stripping the title prefix and trimming leading punctuation. The description will become the first sentence after the bold title.
 
@@ -7078,7 +7078,7 @@ Links will be woven into the opener as a trailing semicolon-separated phrase rat
 
 _**Agent (auto-low)**_
 
-Fixing the atomizer—it was duplicating content—and hand-polishing key notes.
+Fixing the atomizer-it was duplicating content-and hand-polishing key notes.
 
 
 _**Agent (auto-low)**_
@@ -7546,7 +7546,7 @@ _**Agent (auto-low)**_
 
 _**Agent (auto-low)**_
 
-All **70 content notes** are now atomic — one claim per file, not mini blog posts.
+All **70 content notes** are now atomic - one claim per file, not mini blog posts.
 
 ### What changed
 
@@ -7556,18 +7556,18 @@ All **70 content notes** are now atomic — one claim per file, not mini blog po
 ### Format (every note)
 
 ```markdown
-**Title** — single claim, one sentence.
+**Title** - single claim, one sentence.
 
 ## See also
 
-- [[Related Note]] — shared tags
+- [[Related Note]] - shared tags
 ```
 
 ### Exceptions (hubs, not atoms)
 
-- **[[Getting Started]]** — docs + atomic rule
-- **[[Maps of Content]]** — MOC index (still grouped wikilinks)
-- **[[Atomic Notes]]** — defines the standard
+- **[[Getting Started]]** - docs + atomic rule
+- **[[Maps of Content]]** - MOC index (still grouped wikilinks)
+- **[[Atomic Notes]]** - defines the standard
 
 ### Examples
 
@@ -7577,8 +7577,8 @@ All **70 content notes** are now atomic — one claim per file, not mini blog po
 
 ### Tooling
 
-- `archetypes/notes.md` — atomic template for new notes  
-- `scripts/atomize-notes.py` — re-run if descriptions change and you want bodies synced
+- `archetypes/notes.md` - atomic template for new notes  
+- `scripts/atomize-notes.py` - re-run if descriptions change and you want bodies synced
 
 Long-form detail belongs in **blog posts**; the garden is for linkable atoms. Split any note that still needs `and` or a second heading.
 
@@ -7902,7 +7902,7 @@ _**Agent (auto-low)**_
 
 _**Agent (auto-low)**_
 
-The notes list was using `section-sm`, which isn’t defined in the theme — so it had no top padding. It now uses `section` (`py-14 md:py-20`), same as the blog index. Refresh `/notes/` and you should see proper spacing below the header.
+The notes list was using `section-sm`, which isn’t defined in the theme - so it had no top padding. It now uses `section` (`py-14 md:py-20`), same as the blog index. Refresh `/notes/` and you should see proper spacing below the header.
 
 ---
 
@@ -8479,7 +8479,7 @@ A header override is simpler than editing menus.toml. The footer link will be re
 
 _**Agent (auto-low)**_
 
-Drafts work at `/drafts/` in dev but aren't linked in the header—only in the footer on localhost. Adding a header link and verifying discoverability.
+Drafts work at `/drafts/` in dev but aren't linked in the header-only in the footer on localhost. Adding a header link and verifying discoverability.
 
 
 _**Agent (auto-low)**_
@@ -8538,7 +8538,7 @@ All notes are currently marked as non-drafts. This explains why no drafts are vi
 
 _**Agent (auto-low)**_
 
-Drafts exist at `/drafts/` in dev but aren't in the header—only a footer link on localhost. Adding a header link and showing draft notes in dev when `draft: true`.
+Drafts exist at `/drafts/` in dev but aren't in the header-only a footer link on localhost. Adding a header link and showing draft notes in dev when `draft: true`.
 
 
 _**Agent (auto-low)**_
@@ -8685,9 +8685,9 @@ _**Agent (auto-low)**_
 Drafts were working, but hard to find. Here's what was going on and what changed:
 
 ### Why you didn't see them
-1. **No header link** — Drafts only appeared in the footer on localhost, not in the main nav.
-2. **Dev-only by design** — Blog drafts (`draft: true` under `content/english/blog/`) only build with `npm run dev` (which passes `--buildDrafts`). Production deploys exclude them.
-3. **Not on `/blog/`** — Published blog list intentionally hides drafts; they live at **`/drafts/`**.
+1. **No header link** - Drafts only appeared in the footer on localhost, not in the main nav.
+2. **Dev-only by design** - Blog drafts (`draft: true` under `content/english/blog/`) only build with `npm run dev` (which passes `--buildDrafts`). Production deploys exclude them.
+3. **Not on `/blog/`** - Published blog list intentionally hides drafts; they live at **`/drafts/`**.
 
 ### Fixes
 - **Drafts** added to the header when running `hugo server` (localhost only).
@@ -8700,7 +8700,7 @@ npm run dev
 ```
 Then open **Drafts** in the header or go to [http://localhost:1313/drafts/](http://localhost:1313/drafts/).
 
-They won't appear on the live site after `npm run build` — that's intentional.
+They won't appear on the live site after `npm run build` - that's intentional.
 
 ---
 

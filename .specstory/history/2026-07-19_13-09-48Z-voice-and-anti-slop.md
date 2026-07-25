@@ -310,10 +310,10 @@ So this isn't new doctrine. It's the same rewrite lenses, repackaged as five ins
 
 Only a few ideas in your list aren't stated as clearly today:
 
-1. **"Unnecessary adjectives"** — implied by plain-words rules, but not named explicitly.
-2. **"Small imperfections / goal is not perfect writing"** — you have "imperfect rhythm" and Top-Editor's "roughen over-polish," but not this explicit permission.
-3. **"Skeptical reader" lens** — credibility pass exists; the skeptical-reader framing is a useful mental model.
-4. **"Written to impress / sound smart"** — partially covered by significance inflation and thesaurus voice; could be one line in AI tells.
+1. **"Unnecessary adjectives"** - implied by plain-words rules, but not named explicitly.
+2. **"Small imperfections / goal is not perfect writing"** - you have "imperfect rhythm" and Top-Editor's "roughen over-polish," but not this explicit permission.
+3. **"Skeptical reader" lens** - credibility pass exists; the skeptical-reader framing is a useful mental model.
+4. **"Written to impress / sound smart"** - partially covered by significance inflation and thesaurus voice; could be one line in AI tells.
 
 ## What your 5-fix set drops (and why that matters)
 
@@ -321,7 +321,7 @@ Your five fixes omit two things the current seven-pass stack deliberately keeps:
 
 | Missing from your 5 | Why jorap-voice keeps it |
 |---|---|
-| **Show the Thinking** (#3 in current stack) | Tradeoffs, near-misses, honest doubt before landing the take — not just "credible," but *how you decided* |
+| **Show the Thinking** (#3 in current stack) | Tradeoffs, near-misses, honest doubt before landing the take - not just "credible," but *how you decided* |
 | **Top-Editor Pass** (#7) | Anti-polish editor: cut summary sandwiches, symmetrical nothingburgers, generic closers |
 
 If you replaced the seven passes with these five, you'd lose the reflective layer and the "don't over-smooth it" editor bias. Both are important for JoRap voice.
@@ -332,23 +332,23 @@ If you replaced the seven passes with these five, you'd lose the reflective laye
 
 **Do** optionally strengthen existing passes with ~4 lines of new wording:
 
-- **Pass #1 or #4:** cut corporate phrasing and **unnecessary adjectives** — keep meaning, make it conversational.
-- **Pass #5:** recognizable voice beats perfect writing; **small imperfections are fine** — personality over polish.
-- **Pass #6:** read as a **skeptical reader** — flag anything exaggerated, generic, or written to sound smart; rewrite until it's earned.
+- **Pass #1 or #4:** cut corporate phrasing and **unnecessary adjectives** - keep meaning, make it conversational.
+- **Pass #5:** recognizable voice beats perfect writing; **small imperfections are fine** - personality over polish.
+- **Pass #6:** read as a **skeptical reader** - flag anything exaggerated, generic, or written to sound smart; rewrite until it's earned.
 - **Pass #2 AI tells:** add **"written to impress"** alongside significance inflation and thesaurus voice.
 
-`garden-voice` could get the skeptical-reader line in the de-AI pass checklist. `anti-slop.mdc` doesn't need changes — it's already the structural/lint gate, not the rewrite workflow.
+`garden-voice` could get the skeptical-reader line in the de-AI pass checklist. `anti-slop.mdc` doesn't need changes - it's already the structural/lint gate, not the rewrite workflow.
 
 ## Bottom line
 
 | Question | Answer |
 |---|---|
-| Can these be incorporated? | **Yes — mostly they already are.** |
+| Can these be incorporated? | **Yes - mostly they already are.** |
 | Should you add them as five new passes? | **No.** Redundant with the seven-pass workflow. |
 | Worth a small wording upgrade? | **Yes**, for skeptical-reader framing, unnecessary-adjectives, and imperfections-over-perfection. |
 | Keep seven passes or collapse to five? | **Keep seven.** Your five map onto a subset; dropping #3 and #7 would weaken the stack. |
 
-If you want, I can draft a minimal patch to `jorap-voice/SKILL.md` and `garden-voice/SKILL.md` with just those four wording additions — no structural rewrite.
+If you want, I can draft a minimal patch to `jorap-voice/SKILL.md` and `garden-voice/SKILL.md` with just those four wording additions - no structural rewrite.
 
 ---
 
@@ -461,7 +461,7 @@ All edits are complete. I'll now summarize the changes.
 
 _**Agent (auto-low)**_
 
-Done. Minimal wording upgrades only — no new pass structure.
+Done. Minimal wording upgrades only - no new pass structure.
 
 **`jorap-voice/SKILL.md`**
 - **Pass #1:** cut corporate phrasing and unnecessary adjectives

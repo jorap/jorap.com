@@ -53,6 +53,10 @@ cards:
     back: "Harm hard to cause - not fifty warnings."
   - front: "Crosswalk bump-out slows cars before the turn. What's the bet?"
     back: "Design beats another sign."
+  - front: "Breakaway rims installed - fewer shoulder tears without another safety speech."
+    back: "Design the hazard out - not more warnings."
+  - front: "Knife block moved off the counter edge before toddler phase."
+    back: "Move danger - warnings come second."
 draft: false
 ---
 

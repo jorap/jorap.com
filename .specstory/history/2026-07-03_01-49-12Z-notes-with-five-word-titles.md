@@ -768,7 +768,7 @@ Checking whether a voice lint rule or convention defines specific five-word note
 
 _**Agent (auto-low)**_
 
-Verifying edge cases — some five-word titles may have been missed.
+Verifying edge cases - some five-word titles may have been missed.
 
 
 _**Agent (auto-low)**_
@@ -1107,7 +1107,7 @@ Five notes in `content/english/notes/` have exactly five words in their `title` 
 | Stay Effective in New Conditions | `stay-effective-in-new-conditions` |
 | There Is No Perfect Solution | `there-is-no-perfect-solution` |
 
-That's 5 out of ~220 note pages (excluding `_index.md` and utility pages like `create.md`, `graph.md`, etc.). Counting is whitespace-split on the quoted `title` field — hyphenated compounds like "Near-Miss" count as one word.
+That's 5 out of ~220 note pages (excluding `_index.md` and utility pages like `create.md`, `graph.md`, etc.). Counting is whitespace-split on the quoted `title` field - hyphenated compounds like "Near-Miss" count as one word.
 
 ---
 
@@ -1374,7 +1374,7 @@ Here are 4-word alternatives for each of the five notes, with a recommended pick
 
 ---
 
-**If you want one consistent pass:** the recommended column keeps each note’s meaning while landing at four words. The two scripture notes are the trickiest — **Golden Rule at Work** and **Plain Yes, Plain No** trim without losing the reference.
+**If you want one consistent pass:** the recommended column keeps each note’s meaning while landing at four words. The two scripture notes are the trickiest - **Golden Rule at Work** and **Plain Yes, Plain No** trim without losing the reference.
 
 Want me to apply these (titles, slugs, wikilinks)?
 
@@ -2230,7 +2230,7 @@ Here’s a threshold that fits your garden as it exists today.
 ## Suggested rule
 
 **Default:** 4 words  
-**Exception:** 5 words only if `len(title) ≥ 28` (letters, spaces, punctuation — apostrophes count)
+**Exception:** 5 words only if `len(title) ≥ 28` (letters, spaces, punctuation - apostrophes count)
 
 In plain terms: *four words unless you’re already at 28 characters and still need the fifth word for clarity.*
 
@@ -2263,8 +2263,8 @@ If you want a rounder floor, **≥ 24** gives the same keep/trim split for all f
 
 **Let Your Yes Be Yes** is a fixed scripture phrase (5 words, 19 chars). It fails any character floor. Options:
 
-1. **Phrase exception** — quoted/formula titles can be 5 words regardless of length  
-2. **Retitle** — **Plain Yes, Plain No** (4w) and keep the full line in `key_concept` or an alias
+1. **Phrase exception** - quoted/formula titles can be 5 words regardless of length  
+2. **Retitle** - **Plain Yes, Plain No** (4w) and keep the full line in `key_concept` or an alias
 
 ## Draft lint line
 
@@ -2273,7 +2273,7 @@ title: 4 words; 5th word allowed only when len(title) ≥ 28
        (fixed phrases / scripture quotes exempt)
 ```
 
-**Recommendation: 28** — it matches the data, separates the three long titles from the two slack ones, and gives you a clear test when drafting: *can I say this in 4 words under 28 characters?* If yes, don’t add a fifth word.
+**Recommendation: 28** - it matches the data, separates the three long titles from the two slack ones, and gives you a clear test when drafting: *can I say this in 4 words under 28 characters?* If yes, don’t add a fifth word.
 
 ---
 
@@ -3022,7 +3022,7 @@ Result:
           },
           {
             "lineNumber": 69,
-            "text": "{{- $content = replaceRE &#96;\\[\\[([^\\]]+)\\|([^\\]]+)\\]\\]&#96; (printf &#96;\u003cspan class=\"%s-broken\" title=\"Pipe wikilinks are not supported — use [[Note Title]] only\"\u003e$1|$2\u003c/span\u003e&#96; $class) $content -}}"
+            "text": "{{- $content = replaceRE &#96;\\[\\[([^\\]]+)\\|([^\\]]+)\\]\\]&#96; (printf &#96;\u003cspan class=\"%s-broken\" title=\"Pipe wikilinks are not supported - use [[Note Title]] only\"\u003e$1|$2\u003c/span\u003e&#96; $class) $content -}}"
           },
           {
             "lineNumber": 70,
@@ -4139,7 +4139,7 @@ Result:
           },
           {
             "lineNumber": 20,
-            "text": "    {{- $msg := printf \"pipe wikilink [[%s]] in %s — use [[%s]] only\" .raw $note.File.Path .target -}}"
+            "text": "    {{- $msg := printf \"pipe wikilink [[%s]] in %s - use [[%s]] only\" .raw $note.File.Path .target -}}"
           },
           {
             "lineNumber": 21,
@@ -4343,7 +4343,7 @@ Result:
           },
           {
             "lineNumber": 22,
-            "text": "            wikilink \u003ccode\u003e[[{{ .target }}]]\u003c/code\u003e — no page matches this title, slug, or alias."
+            "text": "            wikilink \u003ccode\u003e[[{{ .target }}]]\u003c/code\u003e - no page matches this title, slug, or alias."
           },
           {
             "lineNumber": 23,
@@ -4367,7 +4367,7 @@ Result:
           },
           {
             "lineNumber": 28,
-            "text": "            \u003ccode\u003e[[{{ .raw }}]]\u003c/code\u003e — use \u003ccode\u003e[[{{ .target }}]]\u003c/code\u003e only (no \u003ccode\u003e|label\u003c/code\u003e)."
+            "text": "            \u003ccode\u003e[[{{ .raw }}]]\u003c/code\u003e - use \u003ccode\u003e[[{{ .target }}]]\u003c/code\u003e only (no \u003ccode\u003e|label\u003c/code\u003e)."
           },
           {
             "lineNumber": 29,
@@ -4391,7 +4391,7 @@ Result:
           },
           {
             "lineNumber": 34,
-            "text": "            \"{{ .mention }}\" in prose — link"
+            "text": "            \"{{ .mention }}\" in prose - link"
           },
           {
             "lineNumber": 35,
@@ -5209,8 +5209,8 @@ Rule is codified and the garden is aligned.
 
 | Note | Title | Words | Chars | Status |
 |---|---|---|---|---|
-| `integrity-when-no-ones-watching` | Integrity When No One's Watching | 5 | 32 | **Kept** — idiom beats *Integrity Without an Audience* |
-| `let-your-yes-be-yes` | Let Your Yes Be Yes | 5 | 19 | **Kept** — scripture exempt |
+| `integrity-when-no-ones-watching` | Integrity When No One's Watching | 5 | 32 | **Kept** - idiom beats *Integrity Without an Audience* |
+| `let-your-yes-be-yes` | Let Your Yes Be Yes | 5 | 19 | **Kept** - scripture exempt |
 | `golden-rule-at-work` | Golden Rule at Work | 4 | 19 | **Trimmed** (was 5w / 23c) |
 | `there-is-no-perfect-solution` | Pick What Works Tired | 4 | 21 | **Trimmed** (was 5w / 28c) |
 | `stay-effective-in-new-conditions` | Strong Outside Your Comfort | 4 | 27 | **Trimmed** (5w was ≥30 but 4w is stronger) |
@@ -6348,7 +6348,7 @@ Both notes are aligned:
 **Perfect-solution note**
 - Title restored to **There Is No Perfect Solution** (matches slug)
 - `Pick What Works Tired` kept as alias
-- Slug was already `there-is-no-perfect-solution` — unchanged
+- Slug was already `there-is-no-perfect-solution` - unchanged
 
 `noteFileDates.json` regenerated; frontmatter lint passes. `There Is No Perfect Solution` is in the phrase-exempt list (5 words, stable slug).
 
@@ -6846,7 +6846,7 @@ Replacing all "white-knuckle" instances with willpower, force, and principle lan
 
 Fruits-of-the-Spirit will use "willpower streaks" and "forcing patience by will." Patience lines six and nine will drop "gritted teeth" for "clenched will" and "one willpower Friday." The example will read "not forcing patience until Friday."
 
-The patience card will read "Walk by Spirit — not willpower alone." The sanctification card will warn against forcing holiness by will alone without prayer or Scripture. Patience people fixes change "endurance with people and providence" to "endurance under delay and providence" and "with real people" to "in the daily walk." Both "white-knuckle" and "white-knuckling" will be added to voice-words.yaml.</details></think>
+The patience card will read "Walk by Spirit - not willpower alone." The sanctification card will warn against forcing holiness by will alone without prayer or Scripture. Patience people fixes change "endurance with people and providence" to "endurance under delay and providence" and "with real people" to "in the daily walk." Both "white-knuckle" and "white-knuckling" will be added to voice-words.yaml.</details></think>
 
 _**Agent (auto-low)**_
 
@@ -7582,13 +7582,13 @@ Updated awkward church jargon:
 - `where altar talk would land wrong` → `where religious terms sound awkward`
 
 **Also cleaned**
-- `discipleship.md` — "one altar call" → "one emotional Sunday"
-- `sanctification.md` card — "altar-call high" → "emotional Sunday high"
-- `reconciliation-before-worship.md` card — "Altar call feeling high" → "Worship feeling high"
+- `discipleship.md` - "one altar call" → "one emotional Sunday"
+- `sanctification.md` card - "altar-call high" → "emotional Sunday high"
+- `reconciliation-before-worship.md` card - "Altar call feeling high" → "Worship feeling high"
 
-**Left as-is** — scriptural references in faith notes (`leave the altar`, `before the altar`) where Matthew 5:23–24 is the point.
+**Left as-is** - scriptural references in faith notes (`leave the altar`, `before the altar`) where Matthew 5:23–24 is the point.
 
-**Lint** — `altar talk` added to `voice-words.yaml` phrases so it fails CI if it comes back.
+**Lint** - `altar talk` added to `voice-words.yaml` phrases so it fails CI if it comes back.
 
 ---
 
@@ -10815,7 +10815,7 @@ The fix reserves one character for the ellipsis before truncating. If the result
 
 _**Agent (auto-low)**_
 
-Fixing the clamp function — ellipsis pushed some tweets to 131 characters.
+Fixing the clamp function - ellipsis pushed some tweets to 131 characters.
 
 
 _**Agent (auto-low)**_
@@ -10920,15 +10920,15 @@ tweets:
 ```
 
 ### Display
-- Partial: `layouts/_partials/notes/note-tweets.html` — card-style list below note body, above flashcards
+- Partial: `layouts/_partials/notes/note-tweets.html` - card-style list below note body, above flashcards
 - Wired into `layouts/notes/single.html`
 - TOC entry when tweets exist (`layouts/_partials/notes/toc.html`)
-- Styles in `assets/css/custom.css` — elevated panel, left accent border per tweet
+- Styles in `assets/css/custom.css` - elevated panel, left accent border per tweet
 
 ### Tooling
-- `scripts/seed-note-tweets.py` — generate or refresh tweets (`pnpm seed:tweets`)
-- `scripts/lint-notes-frontmatter.py` — enforces exactly 3 tweets, max 130 chars, no `[[wikilinks]]`
-- `scripts/notes_content.py` — preserves `tweets` order in frontmatter dumps
+- `scripts/seed-note-tweets.py` - generate or refresh tweets (`pnpm seed:tweets`)
+- `scripts/lint-notes-frontmatter.py` - enforces exactly 3 tweets, max 130 chars, no `[[wikilinks]]`
+- `scripts/notes_content.py` - preserves `tweets` order in frontmatter dumps
 
 Lint and Hugo build both pass. The seeded copy is a first pass from existing frontmatter; you can hand-edit any tweet in place and lint will keep it honest.
 

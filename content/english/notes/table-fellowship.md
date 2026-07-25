@@ -46,17 +46,17 @@ featured: false
 review: true
 card_sets: ["Jesus Rhythms", "Gospel", "Faith"]
 cards:
-  - front: "Invited only polished families to dinner. Who did He eat with?"
-    back: "Sinners and disciples - open table."
-  - front: "Posted community coffee, never sat with the awkward guy. Real move?"
+  - front: "Invited only polished families to dinner - awkward guy still alone."
+    back: "Open table - eat with sinners too."
+  - front: "Posted community coffee, never sat with the awkward guy - brand over plate."
     back: "One meal - presence, not brand."
-  - front: "Grumbling from the doorway about the wrong crowd. His response?"
-    back: "Physician with the sick - stay."
-  - front: "Fellowship as a program slot, not a plate shared. Copy Him?"
+  - front: "Grumbling from the doorway about the wrong crowd - judgment from the hall."
+    back: "Stay at the table - Physician with the sick."
+  - front: "Fellowship as a program slot, not a plate shared - calendar event."
     back: "Table fellowship - eat with them."
-  - front: "Avoiding the tax collector type at lunch. Luke 5:29-32 pattern?"
+  - front: "Avoiding the tax collector type at lunch - wrong crowd fear."
     back: "Recline with sinners - call them."
-  - front: "Table as stage for my reputation. His meal was what?"
+  - front: "Table as stage for my reputation - performance over presence."
     back: "Ministry - presence at the table."
 draft: false
 ---

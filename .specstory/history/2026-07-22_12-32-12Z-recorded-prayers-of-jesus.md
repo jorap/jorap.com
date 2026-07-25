@@ -218,10 +218,10 @@ The Gospels record Jesus praying often, but only in a handful of places do we ge
 The Father answers from heaven.
 
 ### 4. The High Priestly Prayer
-**John 17** — the longest recorded prayer. Jesus prays for:
+**John 17** - the longest recorded prayer. Jesus prays for:
 - His own glorification and the cross (vv. 1–5)
 - The disciples He is leaving (vv. 6–19)
-- All future believers — unity, protection, glory (vv. 20–26)
+- All future believers - unity, protection, glory (vv. 20–26)
 
 This is the fullest window into how Jesus talks to the Father.
 
@@ -246,7 +246,7 @@ Three distinct prayers:
 
 > “Our Father in heaven, hallowed be your name…”
 
-Jesus *teaches* this prayer to the disciples. It is a model for them, not clearly presented as a prayer He Himself prayed in the narrative — though many Christians treat it as words He would have used too.
+Jesus *teaches* this prayer to the disciples. It is a model for them, not clearly presented as a prayer He Himself prayed in the narrative - though many Christians treat it as words He would have used too.
 
 ---
 
@@ -254,13 +254,13 @@ Jesus *teaches* this prayer to the disciples. It is a model for them, not clearl
 
 The Gospels often say *that* He prayed without quoting the prayer:
 
-- **Before dawn**, alone (**Mark 1:35**) — your [[Withdraw to Pray]] note
+- **Before dawn**, alone (**Mark 1:35**) - your [[Withdraw to Pray]] note
 - **Often withdrew** to lonely places (**Luke 5:16**)
-- **All night** before choosing the twelve (**Luke 6:12**) — [[Pray Before You Choose]]
-- **After feeding the 5,000**, on the mountain (**Matthew 14:23**; **Mark 6:46**) — [[Pray When Drained]]
+- **All night** before choosing the twelve (**Luke 6:12**) - [[Pray Before You Choose]]
+- **After feeding the 5,000**, on the mountain (**Matthew 14:23**; **Mark 6:46**) - [[Pray When Drained]]
 - **At His baptism** while heaven opens (**Luke 3:21**)
 - **While praying**, appearance changes at the Transfiguration (**Luke 9:28–29**)
-- **Blessing / giving thanks** at meals and miracles (**Mark 6:41**, **Matthew 14:19**, **Luke 9:16**, Last Supper in **Luke 22:17–19**) — action noted, words not given
+- **Blessing / giving thanks** at meals and miracles (**Mark 6:41**, **Matthew 14:19**, **Luke 9:16**, Last Supper in **Luke 22:17–19**) - action noted, words not given
 
 Your `jesus-rhythms.md` summary fits here: Gethsemane and John 17 are the big *recorded* prayers at the end of His ministry; the rest is mostly rhythm without transcript.
 
@@ -270,14 +270,14 @@ Your `jesus-rhythms.md` summary fits here: Gethsemane and John 17 are the big *r
 
 If you want a tight canon of Jesus’ own words to God in prayer:
 
-1. Luke 10:21 — thanksgiving  
-2. John 11:41–42 — thanks at Lazarus  
-3. John 12:28 — “Glorify your name”  
-4. John 17 — High Priestly Prayer  
-5. Gethsemane — “Not my will, but yours”  
-6. Luke 23:34 — forgiveness from the cross  
-7. Matthew/Mark on the cross — Psalm 22 cry  
-8. Luke 23:46 — commending His spirit  
+1. Luke 10:21 - thanksgiving  
+2. John 11:41–42 - thanks at Lazarus  
+3. John 12:28 - “Glorify your name”  
+4. John 17 - High Priestly Prayer  
+5. Gethsemane - “Not my will, but yours”  
+6. Luke 23:34 - forgiveness from the cross  
+7. Matthew/Mark on the cross - Psalm 22 cry  
+8. Luke 23:46 - commending His spirit  
 
 Plus the Lord’s Prayer as *taught* prayer (Matthew 6 / Luke 11).
 
@@ -291,7 +291,7 @@ Plus the Lord’s Prayer as *taught* prayer (Matthew 6 / Luke 11).
 - **Trust under suffering**: cross prayers, especially Luke 23:46  
 - **Thanksgiving**: Luke 10:21, John 11:41–42  
 
-If you want, I can map each of these to atomic notes in your garden (e.g. a “John 17” or “Gethsemane” card set under Jesus Rhythms) — that would need Agent mode to create the files.
+If you want, I can map each of these to atomic notes in your garden (e.g. a “John 17” or “Gethsemane” card set under Jesus Rhythms) - that would need Agent mode to create the files.
 
 ---
 
@@ -510,7 +510,7 @@ _**Agent (auto-low)**_
 
 I'm in **Ask mode**, so I can't create the files yet. Switch to **Agent mode** and I'll add them.
 
-Here's the plan — **1 hub + 7 atomic notes**, matching your Jesus Rhythms lane:
+Here's the plan - **1 hub + 7 atomic notes**, matching your Jesus Rhythms lane:
 
 ## Hub: `jesus-prayers.md`
 Index note linking all seven verbatim prayers, cross-linked to [[Jesus' Rhythms]] and [[Ask Seek Knock]] (taught vs recorded).
@@ -522,7 +522,7 @@ Index note linking all seven verbatim prayers, cross-linked to [[Jesus' Rhythms]
 | **Thank Father for Revelation** | Luke 10:21 | Thanks for revealing truth to little children |
 | **Thank Father at Lazarus** | John 11:41-42 | Spoken thanks so the crowd would believe |
 | **Glorify Your Name** | John 12:28 | Father's glory as the hour arrives |
-| **Pray for His Own** | John 17 | High Priestly Prayer — twelve + future believers |
+| **Pray for His Own** | John 17 | High Priestly Prayer - twelve + future believers |
 | **Not My Will** | Luke 22:42 (+ Matt/Mark) | Gethsemane surrender |
 | **Father Forgive Them** | Luke 23:34 | Intercession from the cross |
 | **Into Your Hands** | Luke 23:46 | Final committal of His spirit |
@@ -535,9 +535,9 @@ Each atomic note gets:
 
 I'll also add a cross-link from `jesus-rhythms.md` in the Prayer section pointing to the new hub.
 
-**Not included as a separate note:** Psalm 22 on the cross ("Why have You forsaken Me?") — mentioned in the hub as context, since you asked for exactly 7 verbatim prayers and the forsaken cry is a quotation of David more than a free-form prayer.
+**Not included as a separate note:** Psalm 22 on the cross ("Why have You forsaken Me?") - mentioned in the hub as context, since you asked for exactly 7 verbatim prayers and the forsaken cry is a quotation of David more than a free-form prayer.
 
-Switch to Agent mode and say go — I'll create all 8 files and wire the links.
+Switch to Agent mode and say go - I'll create all 8 files and wire the links.
 
 ---
 
@@ -715,10 +715,10 @@ Everything looks good. I'll provide a summary now.
 
 _**Agent (auto-low)**_
 
-Created **8 notes** — hub plus 7 atomic verbatim prayers.
+Created **8 notes** - hub plus 7 atomic verbatim prayers.
 
 ## Hub
-- [`jesus-prayers.md`](content/english/notes/jesus-prayers.md) — index with sections for thanksgiving, surrender/intercession, and the cross
+- [`jesus-prayers.md`](content/english/notes/jesus-prayers.md) - index with sections for thanksgiving, surrender/intercession, and the cross
 
 ## Seven atomic notes (6 cards each, filter **Jesus Prayers**)
 | Note | Scripture |
@@ -2015,7 +2015,7 @@ _**Agent (auto-low)**_
 
 Garden link issues are resolved.
 
-The Hugo build completed cleanly — no broken wikilinks for the Jesus Prayers cluster. The main fix was backdating the new notes from 14:00 UTC (future at build time) to 12:12–12:19 UTC so they register in the link graph. Pipe wikilink, unlinked mentions, and missing `contradicts` rows were also fixed.
+The Hugo build completed cleanly - no broken wikilinks for the Jesus Prayers cluster. The main fix was backdating the new notes from 14:00 UTC (future at build time) to 12:12–12:19 UTC so they register in the link graph. Pipe wikilink, unlinked mentions, and missing `contradicts` rows were also fixed.
 
 Refresh `/notes/issues/` to confirm the report is clear on your side.
 
@@ -2517,7 +2517,7 @@ The development Hugo configuration enables `buildFuture`, but production likely 
 
 The user's server clock may have been before 12:19 UTC during the production build. The production hugo.toml needs inspection.
 
-Local development builds with `buildFuture` enabled would include future-dated notes, so the production-only failures are puzzling. I should verify whether those notes actually appear in the Hugo output. Another possibility is that typographer-curling apostrophes inside wikilinks—such as `[[Jesus' Prayers]]`—are breaking link parsing.
+Local development builds with `buildFuture` enabled would include future-dated notes, so the production-only failures are puzzling. I should verify whether those notes actually appear in the Hugo output. Another possibility is that typographer-curling apostrophes inside wikilinks-such as `[[Jesus' Prayers]]`-are breaking link parsing.
 
 The regex correctly parses `[[Pray for His Own]]`, so apostrophes are not breaking links. A content filter or tag restriction may be suppressing the pages. The missing contradicts entries might be stale data from before the fix was deployed.
 
@@ -4277,7 +4277,7 @@ Both notes already had `contradicts` rows in frontmatter; I ran `sync-note-relat
 
 After rebuild, **Pray for His Own** and **Thank Father at Lazarus** no longer appear on `/notes/issues/`. Refresh that page (restart `pnpm watch` if it’s still running).
 
-If you still see a single structure issue, it’s likely **Read in Synagogue** — a separate note missing `contradicts`, not part of the Jesus Prayers cluster. I can add that row if you want a fully clean issues page.
+If you still see a single structure issue, it’s likely **Read in Synagogue** - a separate note missing `contradicts`, not part of the Jesus Prayers cluster. I can add that row if you want a fully clean issues page.
 
 ---
 
@@ -4406,6 +4406,6 @@ _**Agent (auto-low)**_
 
 Added the missing `contradicts` row to **Read in Synagogue**:
 
-- `contradicts` → `[[Information Diet]]` — when solo feeds replace gathered hearing
+- `contradicts` → `[[Information Diet]]` - when solo feeds replace gathered hearing
 
 Rebuild confirms **no garden issues** on `/notes/issues/`. Refresh to verify on your side.

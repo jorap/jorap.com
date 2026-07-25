@@ -9,13 +9,13 @@ _**User**_
 You are doing a ponytail-audit (over-engineering only) of /home/jorap/Documents/GitHub/jorap.com. Read-only. Do NOT modify files.
 
 Focus areas:
-1. assets/js/* — especially notes-*.js, randomizer, gallery-slider, share, touch-controls. For each file: line count, whether it's loaded on every page or only some, and whether features look speculative/unused.
-2. layouts/_partials/notes/* — count partials; find thin wrappers, one-caller abstractions, duplicate TOC/related patterns vs blog.
-3. themes/jorap leftover Hugoplate: banner.html, features.html, testimonials.html, language-switcher, google-map, swiper — are they still referenced from live layouts/home?
+1. assets/js/* - especially notes-*.js, randomizer, gallery-slider, share, touch-controls. For each file: line count, whether it's loaded on every page or only some, and whether features look speculative/unused.
+2. layouts/_partials/notes/* - count partials; find thin wrappers, one-caller abstractions, duplicate TOC/related patterns vs blog.
+3. themes/jorap leftover Hugoplate: banner.html, features.html, testimonials.html, language-switcher, google-map, swiper - are they still referenced from live layouts/home?
 4. Duplicate CSS: assets/css/custom.css vs themes/jorap/assets/css/custom.css
-5. scripts/*.py and scripts/*.mjs — which look like one-off tooling vs required for deploy
-6. static/admin, functions/api — CMS complexity
-7. package.json deps: pixi.js, concurrently, prettier plugins, tailwind-bootstrap-grid — is bootstrap grid actually used?
+5. scripts/*.py and scripts/*.mjs - which look like one-off tooling vs required for deploy
+6. static/admin, functions/api - CMS complexity
+7. package.json deps: pixi.js, concurrently, prettier plugins, tailwind-bootstrap-grid - is bootstrap grid actually used?
 
 Return a ranked list of concrete cut candidates in this exact format (one line each):
 `<tag> <what to cut>. <replacement>. [path]`
@@ -36,7 +36,7 @@ I am now systematically scanning the codebase in parallel. I will read the audit
 
 _**Agent (composer-2.5-fast)**_
 
-I'll run a read-only ponytail audit across the focus areas you listed — starting with the audit skill and parallel scans of JS, partials, theme leftovers, and scripts.
+I'll run a read-only ponytail audit across the focus areas you listed - starting with the audit skill and parallel scans of JS, partials, theme leftovers, and scripts.
 
 
 _**Agent (composer-2.5-fast)**_
@@ -4127,7 +4127,7 @@ Preparing a structured audit report covering JavaScript assets, theme files, and
 
 _**Agent (composer-2.5-fast)**_
 
-# Ponytail audit — jorap.com (over-engineering only)
+# Ponytail audit - jorap.com (over-engineering only)
 
 **Scope:** 56 files in `layouts/_partials/notes/`, 22 files in `assets/js/` (~5,408 lines), dead Hugoplate remnants, scripts, CMS, deps.
 
@@ -4135,7 +4135,7 @@ _**Agent (composer-2.5-fast)**_
 
 ## Focus area summaries
 
-### 1. `assets/js/*` — line counts, load scope, speculative?
+### 1. `assets/js/*` - line counts, load scope, speculative?
 
 | File | Lines | Loaded where | Verdict |
 |------|------:|--------------|---------|
@@ -4153,7 +4153,7 @@ _**Agent (composer-2.5-fast)**_
 | `toc.js` | 137 | **Every page** | Earns keep |
 | `wikilink-preview.js` | 118 | Notes single/duo/random | Live |
 | `notes-featured-random.js` | 82 | Notes index | Over-split |
-| `gallery-slider.js` | 60 | **Every page** (lazy bundle) | Speculative — 3 content pages use gallery |
+| `gallery-slider.js` | 60 | **Every page** (lazy bundle) | Speculative - 3 content pages use gallery |
 | `notes-copy-md.js` | 52 | Notes single + issues | Live |
 | `notes-random-select.js` | 44 | Random duo + unrelated | Over-split |
 | `notes-cards.js` | 42 | Flashcards page | Live |
@@ -4163,27 +4163,27 @@ _**Agent (composer-2.5-fast)**_
 | `share.js` | 32 | **Every page** (lazy) | Used on blog via social-share |
 | `deferred-media.js` | 26 | **Every page** (style partial) | Earns keep (lazy CSS swap) |
 
-**Also eager on every page via `hugo.toml`:** `plugins/swiper/swiper-bundle.js` (~11,853 lines) + CSS (~667 lines) — used only on `elements.md`, `__blog-template.md`, `hugoplate-theme-review.md`.
+**Also eager on every page via `hugo.toml`:** `plugins/swiper/swiper-bundle.js` (~11,853 lines) + CSS (~667 lines) - used only on `elements.md`, `__blog-template.md`, `hugoplate-theme-review.md`.
 
 ---
 
-### 2. `layouts/_partials/notes/*` — 56 partials
+### 2. `layouts/_partials/notes/*` - 56 partials
 
 **Thin wrappers / one-caller (cut candidates):**
-- `cards-data.html` (27) — only `review.html`; duplicates `collect-cards.html`
-- `note-link-card.html` (11) — `<li>` + blurb wrapper around `note-card.html`
-- `index-has-body-wikilinks.html` (4) — one caller (`single.html`)
-- `backlinks.html` (6) — index lookup wrapper; used, but tiny
-- `is-index-page.html` (2) — used widely; keep (semantic guard)
+- `cards-data.html` (27) - only `review.html`; duplicates `collect-cards.html`
+- `note-link-card.html` (11) - `<li>` + blurb wrapper around `note-card.html`
+- `index-has-body-wikilinks.html` (4) - one caller (`single.html`)
+- `backlinks.html` (6) - index lookup wrapper; used, but tiny
+- `is-index-page.html` (2) - used widely; keep (semantic guard)
 
 **Dead (zero layout callers):**
 - `has-cards.html` (14)
-- `recent-updated.html` (37) — `recent-new.html` is what's wired
-- `lint-note-issues.html` (47) — removed from `list.html`; **`pnpm lint:notes` greps Hugo warnf but nothing invokes this partial anymore** (stale lint path)
+- `recent-updated.html` (37) - `recent-new.html` is what's wired
+- `lint-note-issues.html` (47) - removed from `list.html`; **`pnpm lint:notes` greps Hugo warnf but nothing invokes this partial anymore** (stale lint path)
 
 **Duplicate TOC/related vs blog:**
-- `layouts/_partials/notes/toc.html` (90) vs `layouts/_partials/blog/toc.html` (42) — both build extras from `random-pool.html`, related content, inject into Hugo TOC
-- `layouts/_partials/blog/related-notes.html` (25) — thin grid wrapper over `notes/related-notes.html` (133)
+- `layouts/_partials/notes/toc.html` (90) vs `layouts/_partials/blog/toc.html` (42) - both build extras from `random-pool.html`, related content, inject into Hugo TOC
+- `layouts/_partials/blog/related-notes.html` (25) - thin grid wrapper over `notes/related-notes.html` (133)
 
 **Heavy but earns keep:** `collect-note-issues.html` (291), `graph-data.html` (183), `related-notes.html` (133), `backlinks-index.html` (124), `render-content.html` (89), `toolbar.html` (99).
 
@@ -4200,10 +4200,10 @@ Live `themes/jorap/layouts/home.html` only calls: `home-intro`, `home-scope`, `h
 | `sections/features.html` | 39 | Dead |
 | `sections/testimonials.html` | 53 | Dead (was Swiper slider) |
 | `sections/blog-list.html` | 3 | Dead |
-| `sections/home-proof.html` | 27 | Dead — not in `home.html`; `[home_proof] enable = false` |
-| `call-to-action.html` | 33 | Dead — zero `partial "call-to-action"` callers |
-| `components/language-switcher.html` | 35 | Dead at runtime — only `en` in `languages.toml` |
-| `plugins/maps/google-map.js` | 179 | Dead — `google_map.enable = false` |
+| `sections/home-proof.html` | 27 | Dead - not in `home.html`; `[home_proof] enable = false` |
+| `call-to-action.html` | 33 | Dead - zero `partial "call-to-action"` callers |
+| `components/language-switcher.html` | 35 | Dead at runtime - only `en` in `languages.toml` |
+| `plugins/maps/google-map.js` | 179 | Dead - `google_map.enable = false` |
 | `plugins/swiper/*` | ~12,520 | Loaded site-wide anyway |
 
 Swiper still ships globally via `hugo.toml` `[[params.plugins.js/css]]` with `lazy = false`.
@@ -4212,23 +4212,23 @@ Swiper still ships globally via `hugo.toml` `[[params.plugins.js/css]]` with `la
 
 ### 4. Duplicate CSS
 
-**Not a real duplicate.** `assets/css/custom.css` = **2,405 lines** (all site CSS). `themes/jorap/assets/css/custom.css` = **2 lines** (Hugoplate stub: “write in `./assets/css/custom.css`”). No merge needed — delete stub only if you want tidiness (negligible).
+**Not a real duplicate.** `assets/css/custom.css` = **2,405 lines** (all site CSS). `themes/jorap/assets/css/custom.css` = **2 lines** (Hugoplate stub: “write in `./assets/css/custom.css`”). No merge needed - delete stub only if you want tidiness (negligible).
 
 ---
 
-### 5. `scripts/*` — deploy vs one-off
+### 5. `scripts/*` - deploy vs one-off
 
 **Deploy path (`deployBuild.mjs`):** `themeGenerator.js`, `noteFileDates.js`, `export-okf-bundle.py` (includes okf-viz), Hugo, `cspHashes.mjs`, `ensureHugo.mjs`, `spawnUtil.mjs`, `fix-tailwind-bin.js`.
 
 **Lint/garden (keep, not deploy):** `lint-notes-frontmatter.py` (184), `normalize-notes-format.py` (257), `lint-flashcard-frontmatter.py` (158), `audit-flashcard-north-star.py` (106), `lint-utility-wikilinks.py` (94), `notes-voice-*.py` (335), `notes_content.py` (500 shared lib).
 
 **One-off / maintainer (~cut or archive):**
-- `randomizer-maintain.py` — **1,981 lines**, not in deploy
+- `randomizer-maintain.py` - **1,981 lines**, not in deploy
 - Scripture/Jesus migration batch: `apply-jesus-quotes.py` (156), `apply-nasb-quotes.py` (249), `build-jesus-words-db.py` (288), `build-scripture-nasb1995-db.py` (155), `normalize-verse-paragraphs.py` (232), `apply-verse-explanations.py` (223), `apply-jesus-words-shortcode.py` (146), `build-grade1-quiz.py` (323)
 - `import-from-obsidian.py` (177), `seed-note-shareable-thought.py` (325), `sync-note-relationships.py` (93), `sync-note-flashcards.py` (393)
-- `okf-viz/*` (~1,031 lines) — required by `export-okf-bundle.py` at deploy
-- `test-responsive.mjs` (204) — local template grep checks, not CI
-- `test-search.mjs` (282) + `search-core.mjs` (72) — mirrors `search.js`
+- `okf-viz/*` (~1,031 lines) - required by `export-okf-bundle.py` at deploy
+- `test-responsive.mjs` (204) - local template grep checks, not CI
+- `test-search.mjs` (282) + `search-core.mjs` (72) - mirrors `search.js`
 
 ---
 
@@ -4248,10 +4248,10 @@ Swiper still ships globally via `hugo.toml` `[[params.plugins.js/css]]` with `la
 
 | Dep | Used? |
 |-----|-------|
-| `tailwind-bootstrap-grid` | **Yes** — `@plugin` in `themes/jorap/assets/css/main.css`; `row`/`col-*`/`container` in ~35 templates |
-| `pixi.js` | **Yes** — only `notes-graph.js` (~527KB prod bundle) |
-| `concurrently` | Dev watch only — fine |
-| `prettier` + go-template + tailwind plugins | `pnpm format` — fine unless you drop formatting |
+| `tailwind-bootstrap-grid` | **Yes** - `@plugin` in `themes/jorap/assets/css/main.css`; `row`/`col-*`/`container` in ~35 templates |
+| `pixi.js` | **Yes** - only `notes-graph.js` (~527KB prod bundle) |
+| `concurrently` | Dev watch only - fine |
+| `prettier` + go-template + tailwind plugins | `pnpm format` - fine unless you drop formatting |
 
 ---
 
@@ -4260,25 +4260,25 @@ Swiper still ships globally via `hugo.toml` `[[params.plugins.js/css]]` with `la
 ```
 delete: Eager site-wide Swiper JS+CSS (~12,520 lines) for gallery/slider on 3 demo pages. lazy=true or shortcode-conditional load. [hugo.toml, themes/jorap/assets/plugins/swiper/]
 delete: Vendored Swiper copy in theme (~12,520 lines) duplicating gallery-slider Hugo module in _vendor. Module mount only. [themes/jorap/assets/plugins/swiper/]
-native: pixi.js runtime + notes-graph.js (~1,534 lines, ~527KB bundle). Canvas/SVG force graph — skip if Obsidian Publish parity is intentional. [assets/js/notes-graph.js, package.json]
+native: pixi.js runtime + notes-graph.js (~1,534 lines, ~527KB bundle). Canvas/SVG force graph - skip if Obsidian Publish parity is intentional. [assets/js/notes-graph.js, package.json]
 delete: Orphan Hugoplate marketing partials: banner (27), features (39), testimonials (53), blog-list (3), call-to-action (33), call-to-action.md (14). Nothing references them from live layouts/home. [themes/jorap/layouts/_partials/sections/, themes/jorap/layouts/_partials/call-to-action.html, content/english/sections/]
-delete: home-proof.html (27) + dead [home_proof] params (~16 lines) — not wired in home.html even when enable=true. [themes/jorap/layouts/_partials/sections/home-proof.html, config/_default/params.toml]
-delete: google-map.js (179) + contact map block — google_map.enable=false. [themes/jorap/assets/plugins/maps/, themes/jorap/layouts/contact/list.html]
-delete: language-switcher.html (35) — single-language site; partial never renders. [themes/jorap/layouts/_partials/components/language-switcher.html, layouts/_partials/essentials/header.html]
+delete: home-proof.html (27) + dead [home_proof] params (~16 lines) - not wired in home.html even when enable=true. [themes/jorap/layouts/_partials/sections/home-proof.html, config/_default/params.toml]
+delete: google-map.js (179) + contact map block - google_map.enable=false. [themes/jorap/assets/plugins/maps/, themes/jorap/layouts/contact/list.html]
+delete: language-switcher.html (35) - single-language site; partial never renders. [themes/jorap/layouts/_partials/components/language-switcher.html, layouts/_partials/essentials/header.html]
 yagni: Split random-note JS stack (~1,066 lines): core (496) + single (194) + duo (250) + select (44) + featured (82). One notes-random.js with data-mode. [assets/js/notes-random-*.js, assets/js/notes-featured-random.js]
 delete: Dead notes partials (~98 lines): has-cards (14), recent-updated (37), lint-note-issues (47). Fix lint:notes to call lint explicitly or use Python lint. [layouts/_partials/notes/]
-yagni: cards-data.html (27) — one caller; inline collect-cards JSON in review.html. [layouts/_partials/notes/cards-data.html]
-yagni: note-link-card.html (11) — thin <li> wrapper; call note-card directly. [layouts/_partials/notes/note-link-card.html]
-shrink: Mirrored search helpers — search.js (547) + search-core.mjs (72). One shared module imported by both. [assets/js/search.js, scripts/search-core.mjs]
-shrink: Parallel TOC extras — notes/toc.html (90) vs blog/toc.html (42); extract shared random-pool + related extras partial. [layouts/_partials/notes/toc.html, layouts/_partials/blog/toc.html]
-delete: font-awesome Hugo module import — FA CSS removed; icons are inline SVG via data/icons.json. [config/_default/module.toml]
-delete: preloader + announcement Hugo module imports — both enable=false, still vendored. [config/_default/module.toml]
-delete: randomizer-maintain.py (~1,981 lines) — maintainer tool, not deploy. Archive outside repo. [scripts/randomizer-maintain.py]
+yagni: cards-data.html (27) - one caller; inline collect-cards JSON in review.html. [layouts/_partials/notes/cards-data.html]
+yagni: note-link-card.html (11) - thin <li> wrapper; call note-card directly. [layouts/_partials/notes/note-link-card.html]
+shrink: Mirrored search helpers - search.js (547) + search-core.mjs (72). One shared module imported by both. [assets/js/search.js, scripts/search-core.mjs]
+shrink: Parallel TOC extras - notes/toc.html (90) vs blog/toc.html (42); extract shared random-pool + related extras partial. [layouts/_partials/notes/toc.html, layouts/_partials/blog/toc.html]
+delete: font-awesome Hugo module import - FA CSS removed; icons are inline SVG via data/icons.json. [config/_default/module.toml]
+delete: preloader + announcement Hugo module imports - both enable=false, still vendored. [config/_default/module.toml]
+delete: randomizer-maintain.py (~1,981 lines) - maintainer tool, not deploy. Archive outside repo. [scripts/randomizer-maintain.py]
 yagni: Post-migration Python batch (~2,000+ lines): apply-jesus-*, apply-nasb-*, build-*-db, normalize-verse-*, build-grade1-quiz, seed-note-shareable-thought. scripts/archive/ or delete. [scripts/]
-yagni: CMS stack (~1,095 lines) if git-only editing — static/admin/, functions/api/, functions/admin/. Keep if Sveltia is live. [static/admin/, functions/]
+yagni: CMS stack (~1,095 lines) if git-only editing - static/admin/, functions/api/, functions/admin/. Keep if Sveltia is live. [static/admin/, functions/]
 shrink: Parallel root vs theme essentials partials (~560 lines, diffs on header/style/script/footer). Consolidate site overrides into theme once. [layouts/_partials/essentials/, themes/jorap/layouts/_partials/essentials/]
-delete: Glightbox + gallery-slider in global lazy bundle — same 3-page gallery use case; load per-page. [hugo.toml]
-delete: test-responsive.mjs (204) — not in CI; optional local grep. [scripts/test-responsive.mjs]
+delete: Glightbox + gallery-slider in global lazy bundle - same 3-page gallery use case; load per-page. [hugo.toml]
+delete: test-responsive.mjs (204) - not in CI; optional local grep. [scripts/test-responsive.mjs]
 shrink: assets/css/custom.css monolith (2,405 lines). Incremental Tailwind migration, not a second file problem. [assets/css/custom.css]
 ```
 
@@ -4286,13 +4286,13 @@ shrink: assets/css/custom.css monolith (2,405 lines). Incremental Tailwind migra
 
 ---
 
-## Keep — heavy but justified
+## Keep - heavy but justified
 
-- **deploy CSP pipeline** — `cspHashes.mjs` (230) + `fingerprint-asset.html`; non-negotiable for strict CSP
-- **`tailwind-bootstrap-grid`** — actively used (`row`/`lg:col-*` across blog, notes, footer, home)
-- **`touch-controls.js`** (33) — small global helper; notes random/flashcard/copy/graph depend on it
-- **`search.js`** (547) — site search is a first-class feature
-- **`collect-note-issues.html`** (291) — powers Issues page, toolbar badge, copy-md reports; heavy but central
-- **`export-okf-bundle.py` + okf-viz** — wired into production deploy
-- **`concurrently` / prettier plugins** — dev/format ergonomics, zero prod weight
-- **`pixi.js` + `notes-graph.js`** — keep if Obsidian Publish graph parity is a deliberate product choice (largest optional mass in the repo)
+- **deploy CSP pipeline** - `cspHashes.mjs` (230) + `fingerprint-asset.html`; non-negotiable for strict CSP
+- **`tailwind-bootstrap-grid`** - actively used (`row`/`lg:col-*` across blog, notes, footer, home)
+- **`touch-controls.js`** (33) - small global helper; notes random/flashcard/copy/graph depend on it
+- **`search.js`** (547) - site search is a first-class feature
+- **`collect-note-issues.html`** (291) - powers Issues page, toolbar badge, copy-md reports; heavy but central
+- **`export-okf-bundle.py` + okf-viz** - wired into production deploy
+- **`concurrently` / prettier plugins** - dev/format ergonomics, zero prod weight
+- **`pixi.js` + `notes-graph.js`** - keep if Obsidian Publish graph parity is a deliberate product choice (largest optional mass in the repo)

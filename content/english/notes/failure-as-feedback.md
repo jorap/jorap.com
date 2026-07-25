@@ -65,6 +65,14 @@ cards:
     back: "Adjust form - not \"I'm not a basketball person.\""
   - front: "I messed up the utility bill math again. What's the move?"
     back: "Fix the math - not proof I can't do numbers."
+  - front: "Three misses - walked off without adjusting form."
+    back: "One tweak at the line - not a verdict."
+  - front: "Group chat roasting my math - typing the self-own."
+    back: "Fix the number - laugh after."
+  - front: "Utility bill wrong again - I'm just bad with numbers."
+    back: "Redo the math - skill not fate."
+  - front: "Bad test score - tempted to grind random chapters all weekend."
+    back: "Find the gap - then drill that slice."
 draft: false
 ---
 

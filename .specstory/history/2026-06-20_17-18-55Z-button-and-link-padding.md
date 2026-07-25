@@ -1508,7 +1508,7 @@ Adding vertical padding to the accordion header risks doubling the existing 1rem
 
 _**Agent (default)**_
 
-Reverting the accordion change — vendor CSS already uses symmetric `1rem` padding, which is sufficient.
+Reverting the accordion change - vendor CSS already uses symmetric `1rem` padding, which is sufficient.
 
 
 _**Agent (default)**_

@@ -1798,7 +1798,7 @@ The heuristic script is too flimsy. I will delete it and either use Task subagen
 
 _**Agent (default)**_
 
-Generic templates won't meet the bar — I'll generate tailored examples per note via parallel agents instead.
+Generic templates won't meet the bar - I'll generate tailored examples per note via parallel agents instead.
 
 
 _**Agent (default)**_
@@ -2378,7 +2378,7 @@ Agents are still updating. I'll bump the cache version and process notes in para
 
 _**Agent (default)**_
 
-Processing notes directly while agents run — starting with the first batch.
+Processing notes directly while agents run - starting with the first batch.
 
 
 _**Agent (default)**_
@@ -3004,7 +3004,7 @@ Each bullet is one concrete scene that illustrates the note’s claim in that ge
 
 ### Also updated
 
-- **Meta docs:** `getting-started.md`, `note-relationships.md`, `atomic-notes.md` — rules now describe four genre examples
+- **Meta docs:** `getting-started.md`, `note-relationships.md`, `atomic-notes.md` - rules now describe four genre examples
 - **Hugo lint:** allowed section is `## Examples` (replacing `Example`); issue panel copy updated; cache bumped to `note-issues-v7`
 
 ### Sample
@@ -3012,13 +3012,13 @@ Each bullet is one concrete scene that illustrates the note’s claim in that ge
 ```37:42:content/english/notes/capture.md
 ## Examples
 
-- **Sports:** A play tweak hits during cooldown and I scribble it on my wristband before the locker room noise eats it — one inbox, file it Sunday when the spark is safe.
-- **Non-technical work:** A customer complaint gives me a fix idea mid-shift and I drop it in one inbox — no tagging yet, process it Friday when the spark is already saved.
-- **Home with children:** On the jeepney my kid says something I want to remember and I scribble it on a receipt before the station noise eats it — one pocket notebook, no sorting yet.
-- **Real world:** A commute thought lands and I voice-memo it before the jeepney drowns it out — one trusted pipe, weekly review empties it.
+- **Sports:** A play tweak hits during cooldown and I scribble it on my wristband before the locker room noise eats it - one inbox, file it Sunday when the spark is safe.
+- **Non-technical work:** A customer complaint gives me a fix idea mid-shift and I drop it in one inbox - no tagging yet, process it Friday when the spark is already saved.
+- **Home with children:** On the jeepney my kid says something I want to remember and I scribble it on a receipt before the station noise eats it - one pocket notebook, no sorting yet.
+- **Real world:** A commute thought lands and I voice-memo it before the jeepney drowns it out - one trusted pipe, weekly review empties it.
 ```
 
-`npm run lint:notes` passes — no broken wikilinks from this change. Two pre-existing unlinked mentions remain (unrelated to this edit).
+`npm run lint:notes` passes - no broken wikilinks from this change. Two pre-existing unlinked mentions remain (unrelated to this edit).
 
 ---
 
@@ -3127,7 +3127,7 @@ Updated all 42 garden notes from `/tmp/batch-ac`: each file now has a four-genre
 
 Each note now has `## Examples` with four genre bullets (Sports, Non-technical work, Home with children, Real world). Existing example material was reused or adapted where it fit. Frontmatter and Note Relationships tables were untouched.
 
-Note: `/tmp/batch-ac` ended at `second-order-thinking.md`, not `share-what-you-learn.md` — everything in the batch file was processed.
+Note: `/tmp/batch-ac` ended at `second-order-thinking.md`, not `share-what-you-learn.md` - everything in the batch file was processed.
 </response>
 output_path: /home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/a9a6b8b3-7189-4780-8532-2ac1b50f9546/subagents/25f52012-729e-4ec0-9602-c38ca37c796f.jsonl
 </task>

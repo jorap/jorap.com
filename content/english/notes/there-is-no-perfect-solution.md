@@ -50,6 +50,10 @@ cards:
     back: "Run ugly tonight - perfect can wait."
   - front: "Fifth round of supplier bids and Friday's deadline."
     back: "Pick good-enough - no imaginary perfect vendor."
+  - front: "Week three comparing strollers - baby still not walked outside."
+    back: "Pick lighter - go tired today."
+  - front: "Fifth vendor bid round - Friday deadline, no perfect quote."
+    back: "Good enough ships - imaginary vendor waits."
 draft: false
 ---
 

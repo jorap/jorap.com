@@ -178,7 +178,7 @@ def main() -> int:
         from collections import Counter, defaultdict
 
         by_rule = Counter(i.rule for i in issues)
-        print(f"Garden voice — {len(paths)} files, {len(issues)} issues")
+        print(f"Garden voice - {len(paths)} files, {len(issues)} issues")
         for rule, count in by_rule.most_common():
             print(f"  {rule}: {count}")
         return 0

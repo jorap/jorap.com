@@ -31,7 +31,7 @@ _**Agent (auto-high)**_
 _**Agent (auto-high)**_
 
 <think><details><summary>Thought Process</summary>
- I need to locate all the available shortcodes in the theme and gather examples for each one—youtube, notice, button, accordion, tabs, gallery, slider, image, and video—then check the blog-template.md file to see how they're being used.</details></think>
+ I need to locate all the available shortcodes in the theme and gather examples for each one-youtube, notice, button, accordion, tabs, gallery, slider, image, and video-then check the blog-template.md file to see how they're being used.</details></think>
 
 _**Agent (auto-high)**_
 
@@ -162,7 +162,7 @@ _**Agent (auto-high)**_
 _**Agent (auto-high)**_
 
 <think><details><summary>Thought Process</summary>
- I see what's needed here—the user wants me to add working examples for all the shortcodes available in HugoPlate, including both the standard ones and the custom additions like Spotify and YouTube with timestamps, then show how they render in the post.</details></think>
+ I see what's needed here-the user wants me to add working examples for all the shortcodes available in HugoPlate, including both the standard ones and the custom additions like Spotify and YouTube with timestamps, then show how they render in the post.</details></think>
 
 _**Agent (auto-high)**_
 
@@ -236,7 +236,7 @@ Directory: **** (0 files)
 _**Agent (auto-high)**_
 
 <think><details><summary>Thought Process</summary>
- I see that the shortcodes mentioned in the HugoPlate documentation—notice, accordion, button, tabs, gallery, slider, image, and video—aren't actually implemented on this site. The only functional shortcodes are the custom embeds for YouTube (with optional time parameters), Spotify, and YouTube with start/end times.
+ I see that the shortcodes mentioned in the HugoPlate documentation-notice, accordion, button, tabs, gallery, slider, image, and video-aren't actually implemented on this site. The only functional shortcodes are the custom embeds for YouTube (with optional time parameters), Spotify, and YouTube with start/end times.
 
 The user wants to see working examples with rendered output, but since most of those shortcodes don't exist, I need to decide whether to update the post to only show what actually works or add the missing shortcodes to the theme. The most practical approach is to update the post to feature only the three shortcodes that are actually available and provide realistic examples for each that will render properly when the site is built. I should just update the post to show only the shortcodes that actually work on this site (youtube, youtube_time, spotify) with live rendered examples and code blocks, and remove the false claims about the non-existent ones. I'll also check if the `toc` shortcode is available since the blog template uses it.</details></think>
 
@@ -288,7 +288,7 @@ Directory: **** (1 file)
 _**Agent (auto-high)**_
 
 <think><details><summary>Thought Process</summary>
- So the site only actually supports `youtube`, `youtube_time`, and `spotify` shortcodes—the other ones like `notice`, `button`, and `accordion` that were mentioned are from the vanilla HugoPlate template, not this specific implementation. I should look at how other posts on this site actually use shortcodes to get a better sense of what's really available.</details></think>
+ So the site only actually supports `youtube`, `youtube_time`, and `spotify` shortcodes-the other ones like `notice`, `button`, and `accordion` that were mentioned are from the vanilla HugoPlate template, not this specific implementation. I should look at how other posts on this site actually use shortcodes to get a better sense of what's really available.</details></think>
 
 _**Agent (auto-high)**_
 
@@ -392,7 +392,7 @@ Status: **completed**
 _**Agent (auto-high)**_
 
 <think><details><summary>Thought Process</summary>
- I'm noticing the `image` shortcode is being used in another markdown file, so it might be inherited from the theme rather than defined locally. Let me verify whether the site actually builds with this shortcode, or if Hugo has a fallback mechanism—or perhaps there's a custom shortcode defined in the project's layouts folder instead.</details></think>
+ I'm noticing the `image` shortcode is being used in another markdown file, so it might be inherited from the theme rather than defined locally. Let me verify whether the site actually builds with this shortcode, or if Hugo has a fallback mechanism-or perhaps there's a custom shortcode defined in the project's layouts folder instead.</details></think>
 
 _**Agent (auto-high)**_
 
@@ -444,13 +444,13 @@ drwxr-xr-x@  4 jonathanrapusas  staff   128 May 28 10:24 _partials
 _**Agent (auto-high)**_
 
 <think><details><summary>Thought Process</summary>
- So only three shortcodes are actually implemented across the site—`youtube`, `youtube_time`, and `spotify`—while the others like `image`, `notice`, `button`, and several more aren't wired up at all. I should check if the site is still functioning properly, particularly whether posts with images are displaying correctly or if Hugo is silently failing on those unsupported shortcodes.
+ So only three shortcodes are actually implemented across the site-`youtube`, `youtube_time`, and `spotify`-while the others like `image`, `notice`, `button`, and several more aren't wired up at all. I should check if the site is still functioning properly, particularly whether posts with images are displaying correctly or if Hugo is silently failing on those unsupported shortcodes.
 
 Given this reality, the most honest approach is to rewrite that section to acknowledge what HugoPlate ships with by default, then clarify that this particular site uses only the three working shortcodes. I'll provide live rendered examples for each one alongside the code so the user can actually see them in action in the browser, which is far more useful than claiming support for shortcodes that don't exist here.</details></think>
 
 _**Agent (auto-high)**_
 
-Before I rewrite the section, I should flag something: only three shortcodes are actually wired into this site's theme — `youtube`, `youtube_time`, and `spotify`. The post currently lists `notice`, `button`, `accordion`, `tabs`, `gallery`, `slider`, `image`, and `video` as if they're available, but those vanilla HugoPlate shortcodes were stripped from your fork. Live invocations of them would render as empty/broken.
+Before I rewrite the section, I should flag something: only three shortcodes are actually wired into this site's theme - `youtube`, `youtube_time`, and `spotify`. The post currently lists `notice`, `button`, `accordion`, `tabs`, `gallery`, `slider`, `image`, and `video` as if they're available, but those vanilla HugoPlate shortcodes were stripped from your fork. Live invocations of them would render as empty/broken.
 
 I'll do the honest version: update the section to show live, rendered examples for the three shortcodes that actually work on this site, and be straight about the trim-down. Then we'll preview it.
 
@@ -719,12 +719,12 @@ _**Agent (auto-high)**_
 
 _**Agent (auto-high)**_
 
-No problem — skipping the browser preview. The dev server already rebuilt cleanly with the new shortcodes (no errors, `spotify.html` rendered 4 times in the build trace). Here's the new section in place:
+No problem - skipping the browser preview. The dev server already rebuilt cleanly with the new shortcodes (no errors, `spotify.html` rendered 4 times in the build trace). Here's the new section in place:
 
 ```86:121:content/english/blog/hugoplate-theme-review.md
 ## Shortcodes worth knowing
 
-Vanilla HugoPlate ships with a wider set of shortcodes — `notice`, `button`, `accordion`, `tabs`, `gallery`, `slider`, `image`, `video`. When I forked the theme into this repo, I stripped most of that out and kept only the three I actually reach for. If you're starting from upstream HugoPlate today, the bundled `blog-template.md` is the single best cheat sheet for the full set.
+Vanilla HugoPlate ships with a wider set of shortcodes - `notice`, `button`, `accordion`, `tabs`, `gallery`, `slider`, `image`, `video`. When I forked the theme into this repo, I stripped most of that out and kept only the three I actually reach for. If you're starting from upstream HugoPlate today, the bundled `blog-template.md` is the single best cheat sheet for the full set.
 
 Here's what's wired up on this site, with live output so you can see exactly what each one does.
 
@@ -741,14 +741,14 @@ A privacy-respecting wrapper around Hugo's built-in YouTube shortcode. Renders a
 
 ## Summary of changes
 
-- `content/english/blog/hugoplate-theme-review.md` — replaced the "Shortcodes worth knowing" section. It now:
+- `content/english/blog/hugoplate-theme-review.md` - replaced the "Shortcodes worth knowing" section. It now:
   - Calls out honestly that vanilla HugoPlate has more shortcodes than your fork ships with.
   - Lists the three shortcodes that actually exist in `themes/jorap/layouts/shortcodes/`: `youtube`, `youtube_time`, `spotify`.
   - For each one, shows a **live invocation** (so the iframe renders on the page) followed by the escaped code.
 
 ## Why I didn't show `notice`, `button`, `accordion`, `tabs`, `gallery`, `slider`, `image`, `video`
 
-Your `themes/jorap/layouts/shortcodes/` only contains `youtube.html`, `youtube_time.html`, and `spotify.html`. There's no project-level `layouts/shortcodes/` either. Invoking the others would emit Hugo errors (or silently break `facebooks-hidden-gem-...md` already does this with `image` — that's a separate latent bug worth flagging).
+Your `themes/jorap/layouts/shortcodes/` only contains `youtube.html`, `youtube_time.html`, and `spotify.html`. There's no project-level `layouts/shortcodes/` either. Invoking the others would emit Hugo errors (or silently break `facebooks-hidden-gem-...md` already does this with `image` - that's a separate latent bug worth flagging).
 
 If you'd rather restore the full HugoPlate shortcode set so we can demo every one of them, I can pull `notice.html`, `button.html`, `accordion.html`, `tabs.html`, `gallery.html`, `slider.html`, `image.html`, and `video.html` from upstream HugoPlate into `themes/jorap/layouts/shortcodes/` and add live examples for each. Want me to?
 
@@ -763,7 +763,7 @@ add other useful shortcodes on this blog
 _**Agent (auto-high)**_
 
 <think><details><summary>Thought Process</summary>
- I'm thinking about what shortcodes would be most useful to add to this Hugo site—things like YouTube and Spotify embeds that fit with the existing Tailwind setup, then showcase them in a blog post to demonstrate their functionality.</details></think>
+ I'm thinking about what shortcodes would be most useful to add to this Hugo site-things like YouTube and Spotify embeds that fit with the existing Tailwind setup, then showcase them in a blog post to demonstrate their functionality.</details></think>
 
 _**Agent (auto-high)**_
 

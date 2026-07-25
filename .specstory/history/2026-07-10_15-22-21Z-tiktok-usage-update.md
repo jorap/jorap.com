@@ -207,7 +207,7 @@ _**Agent (auto-low)**_
 
 Updated three spots:
 
-1. **`sustainable-online-publishing.md`** — Dropped TikTok from the platforms you say you still use: now "Facebook, X, YouTube."
-2. **`platform-reach-is-borrowed.md`** — Swapped TikTok for "any social app" in both the key concept and shareable thought, so the note matches your actual habits.
+1. **`sustainable-online-publishing.md`** - Dropped TikTok from the platforms you say you still use: now "Facebook, X, YouTube."
+2. **`platform-reach-is-borrowed.md`** - Swapped TikTok for "any social app" in both the key concept and shareable thought, so the note matches your actual habits.
 
 Left TikTok in other posts (`top-reasons-create-maintain-your-own-website.md`, desktop/laptop piece) where it's a general platform-risk example, not something you claim to use. Say if you want those scrubbed too.

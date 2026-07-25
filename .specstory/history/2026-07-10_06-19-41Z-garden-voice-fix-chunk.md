@@ -1314,7 +1314,7 @@ A secret-devotion example appears truncated and broken. Something went wrong dur
 
 _**Agent (auto-low)**_
 
-Some files look corrupted — checking and fixing them.
+Some files look corrupted - checking and fixing them.
 
 
 _**Agent (auto-low)**_
@@ -1660,7 +1660,7 @@ _**Agent (auto-low)**_
 **Fixed: 49 files**  
 **Already clean: 5 files** (`continuous-improvement.md`, `faithful-steward.md`, `systems-for-growth.md`, `there-is-no-perfect-solution.md`, `weekly-review-checklists.md`)  
 **Total in list: 54**  
-**Blockers: 0** — all pass `garden-voice-lint.py`
+**Blockers: 0** - all pass `garden-voice-lint.py`
 
 ### What changed (by rule)
 
@@ -1668,10 +1668,10 @@ _**Agent (auto-low)**_
 |------|----------|
 | **description** → third-person, ≤20 words | `anti-fragile-systems.md`, `ship-it.md`, `the-golden-rule.md` |
 | **Contractions** expanded in frontmatter | `shareable_thought`, `relationships.reason`, `key_concept` across faith + PKM notes |
-| **key_concept line 1** — no wikilinks | `pkm.md`, `risk-management.md`, `title-without-influence.md`, `the-12-week-year.md` |
-| **Faith notes** — Bible verse added | `servant-leadership.md` (Mark 10), `steward-after-the-win.md` (Matthew 25) |
-| **examples** — one sentence each | `accountability.md`, `set-calm-boundaries.md`, `secret-devotion.md` (avoided `5 a.m.` period trap) |
-| **shareable_thought** — 4 complete thoughts | `pkm.md` fragment expanded |
+| **key_concept line 1** - no wikilinks | `pkm.md`, `risk-management.md`, `title-without-influence.md`, `the-12-week-year.md` |
+| **Faith notes** - Bible verse added | `servant-leadership.md` (Mark 10), `steward-after-the-win.md` (Matthew 25) |
+| **examples** - one sentence each | `accountability.md`, `set-calm-boundaries.md`, `secret-devotion.md` (avoided `5 a.m.` period trap) |
+| **shareable_thought** - 4 complete thoughts | `pkm.md` fragment expanded |
 
 ### Already clean (no edits)
 `continuous-improvement.md`, `faithful-steward.md`, `systems-for-growth.md`, `there-is-no-perfect-solution.md`, `weekly-review-checklists.md`

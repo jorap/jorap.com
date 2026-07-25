@@ -1,8 +1,8 @@
 {{- /*
-  llms-full.txt — Hugo Module by GetHugoThemes
+  llms-full.txt - Hugo Module by GetHugoThemes
   https://github.com/gethugothemes/hugo-modules/llms-txt
 
-  Generates /llms-full.txt — the full-content companion to llms.txt.
+  Generates /llms-full.txt - the full-content companion to llms.txt.
   Respects params.llms.generate_llms_full_txt, include, and exclude settings.
 */ -}}
 
@@ -102,7 +102,7 @@ url: {{ $url }}
 {{- end }}
 {{- end }}
 
-{{- /* Content sections: Blog, Docs, etc. — top-level only, all nested pages included */ -}}
+{{- /* Content sections: Blog, Docs, etc. - top-level only, all nested pages included */ -}}
 {{- range site.Home.Sections }}
 {{- if .RegularPagesRecursive }}
 

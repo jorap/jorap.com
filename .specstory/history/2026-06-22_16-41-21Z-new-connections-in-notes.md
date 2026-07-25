@@ -1335,7 +1335,7 @@ I will summarize the connections found and wired across all notes.
 
 _**Agent (default)**_
 
-Wired new connections across the garden — focused on the seven relationship notes and their strongest ties to faith, workplace, safety, and habit notes.
+Wired new connections across the garden - focused on the seven relationship notes and their strongest ties to faith, workplace, safety, and habit notes.
 
 ### Relationship cluster (internal chain)
 
@@ -1364,8 +1364,8 @@ The notes form a practical sequence:
 
 ### Index pages updated
 
-- **Maps of Content** — new **Relationships** section listing all seven notes
-- **Workplace Principles** — four connection notes added under “How to treat colleagues”
+- **Maps of Content** - new **Relationships** section listing all seven notes
+- **Workplace Principles** - four connection notes added under “How to treat colleagues”
 
 ### How it was applied
 

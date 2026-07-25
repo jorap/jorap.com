@@ -22,7 +22,7 @@ Will revise the open `__extension-cord.md` draft using the jorap-voice skill. Re
 
 _**Agent (auto-low)**_
 
-Improving the extension-cord draft in JoRap voice — reading the post and a reference for tone.
+Improving the extension-cord draft in JoRap voice - reading the post and a reference for tone.
 
 
 _**Agent (auto-low)**_
@@ -139,7 +139,7 @@ Parameters:
 {
   "caseInsensitive": false,
   "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/__extension-cord.md",
-  "pattern": "[—–]"
+  "pattern": "[-–]"
 }
 ```
 Additional data:
@@ -149,7 +149,7 @@ Additional data:
   "isPruned": true,
   "outputMode": "content",
   "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/__extension-cord.md",
-  "pattern": "[—–]",
+  "pattern": "[-–]",
   "topFiles": [],
   "totalFiles": 0,
   "totalMatches": 0
@@ -720,7 +720,7 @@ The meta title will read "The Short Extension Cord in My Laptop Bag - Hotel Outl
 
 _**Agent (auto-low)**_
 
-The opener is about what’s in the bag — updating the title to match that angle.
+The opener is about what’s in the bag - updating the title to match that angle.
 
 
 _**Agent (auto-low)**_

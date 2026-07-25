@@ -2284,11 +2284,11 @@ _**Agent (default)**_
 
 Here’s what I found after running `npm run lint:notes` (wikilinks) and scanning all internal links in content, config, layouts, and theme templates.
 
-## Wikilinks — clean
+## Wikilinks - clean
 
 No broken `[[wikilinks]]` in notes. The Hugo build lint reported nothing.
 
-## Dead internal links — 3 URLs (old blog slug)
+## Dead internal links - 3 URLs (old blog slug)
 
 All point to **`/blog/how-i-built-joraps-world`**, which doesn’t exist. The post slug is **`how-i-built-jorap-notes`** (`content/english/blog/how-i-built-jorap-notes.md`).
 
@@ -2300,9 +2300,9 @@ All point to **`/blog/how-i-built-joraps-world`**, which doesn’t exist. The po
 
 **Fix:** replace `/blog/how-i-built-joraps-world` with `/blog/how-i-built-jorap-notes` in those files.
 
-## Everything else — OK
+## Everything else - OK
 
-- `/contact`, `/about`, `/notes/graph/`, nav/footer menu URLs — all resolve
+- `/contact`, `/about`, `/notes/graph/`, nav/footer menu URLs - all resolve
 - Homepage `post_slugs` in `params.toml` already uses the correct `how-i-built-jorap-notes` slug
 - No broken wikilinks across the notes garden
 

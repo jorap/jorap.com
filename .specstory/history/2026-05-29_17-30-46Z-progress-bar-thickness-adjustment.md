@@ -125,4 +125,4 @@ _**Agent (auto-high)**_
 
 Done. Updated `stroke-width` from `4` → `6` on both the background and progress circles in `themes/jorap/layouts/_partials/components/back-to-top.html`. No changes needed in `back-to-top.js` since it only manages dash offset (radius is unchanged at `20`).
 
-If you want it even chunkier, bump to `8` — that's the max that still fits inside the 48×48 SVG without clipping (outer edge would sit exactly at the SVG bounds).
+If you want it even chunkier, bump to `8` - that's the max that still fits inside the 48×48 SVG without clipping (outer edge would sit exactly at the SVG bounds).

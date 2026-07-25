@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Classify Hugoplate vs JoRap theme diffs before applying anything.
-# Run from jorap.com root. Read-only — does not copy files.
+# Run from jorap.com root. Read-only - does not copy files.
 set -euo pipefail
 
 HUGO="${HUGO:-../hugoplate}"
@@ -53,7 +53,7 @@ classify_pair() {
   fi
 
   if [[ ! -e "$dst" ]]; then
-    echo "ADD-ONLY|$rel|New upstream file — safe to add if not JoRap-specific path"
+    echo "ADD-ONLY|$rel|New upstream file - safe to add if not JoRap-specific path"
     return
   fi
 
@@ -66,11 +66,11 @@ classify_pair() {
   diff -u "$dst" "$src" > "$tmp" || true
 
   if red_flags_in_diff "$tmp"; then
-    echo "MANUAL|$rel|JoRap customization detected — merge by hand or skip"
+    echo "MANUAL|$rel|JoRap customization detected - merge by hand or skip"
   elif upstream_regression_flags "$tmp"; then
     echo "SKIP|$rel|Would revert JoRap tokens, fonts, or CSP-friendly setup"
   else
-    echo "CANDIDATE|$rel|Likely safe — still read diff before copying"
+    echo "CANDIDATE|$rel|Likely safe - still read diff before copying"
   fi
 
   rm -f "$tmp"

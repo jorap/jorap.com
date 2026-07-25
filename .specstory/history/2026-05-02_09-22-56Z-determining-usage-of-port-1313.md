@@ -49,9 +49,9 @@ On your machine right now, **Hugo** is using port **1313** (PID **80168**, liste
 lsof -i :1313 -P -n
 ```
 
-- **COMMAND** — process name  
-- **PID** — process ID (stop with `kill <PID>` or `kill -9 <PID>` if needed)  
-- **NAME** — address and port  
+- **COMMAND** - process name  
+- **PID** - process ID (stop with `kill <PID>` or `kill -9 <PID>` if needed)  
+- **NAME** - address and port  
 
 **Alternatives:**
 

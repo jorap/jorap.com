@@ -1,6 +1,6 @@
 # Adding a New Language, Translations, i18n Strings, and Menu Items
 
-Multilingual via Hugo's standard system. Mirrors an existing language (`en`) — config, menu, i18n strings, content tree.
+Multilingual via Hugo's standard system. Mirrors an existing language (`en`) - config, menu, i18n strings, content tree.
 
 ## Files involved (all at root)
 
@@ -14,7 +14,7 @@ Multilingual via Hugo's standard system. Mirrors an existing language (`en`) —
 
 ## Adding New Language Checklist
 
-1. **`config/_default/languages.toml`** — add a block:
+1. **`config/_default/languages.toml`** - add a block:
 
    ```toml
    [xx]
@@ -24,17 +24,17 @@ Multilingual via Hugo's standard system. Mirrors an existing language (`en`) —
    weight = N
    ```
 
-2. **`config/_default/menus.<xx>.toml`** — copy `menus.en.toml`, translate `name` values (keep `url`/`weight`/`parent` keys as-is so routes still match).
+2. **`config/_default/menus.<xx>.toml`** - copy `menus.en.toml`, translate `name` values (keep `url`/`weight`/`parent` keys as-is so routes still match).
 
-3. **`i18n/<xx>.yaml`** — copy `i18n/en.yaml`, translate values.
+3. **`i18n/<xx>.yaml`** - copy `i18n/en.yaml`, translate values.
 
-4. **`content/<langdir>/`** — copy `content/english/` (or the existing language's content), keeping the same relative paths (e.g., `content/english/blog/post.md` → `content/<langdir>/blog/post.md`), then translate frontmatter and markdown.
+4. **`content/<langdir>/`** - copy `content/english/` (or the existing language's content), keeping the same relative paths (e.g., `content/english/blog/post.md` → `content/<langdir>/blog/post.md`), then translate frontmatter and markdown.
 
 ## Verify
 
-Build with `<pm> build` — **never bare `hugo`**
+Build with `<pm> build` - **never bare `hugo`**
 
 ## DO NOT
 
-- Don't translate paths/filenames in `content/<langdir>/` — Hugo matches translations by identical relative path.
-- Don't run `<pm> remove-multilang` to "reset" — it's destructive and permanent.
+- Don't translate paths/filenames in `content/<langdir>/` - Hugo matches translations by identical relative path.
+- Don't run `<pm> remove-multilang` to "reset" - it's destructive and permanent.

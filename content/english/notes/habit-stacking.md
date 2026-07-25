@@ -50,6 +50,14 @@ cards:
     back: "The shoes were the anchor, the stretch piggybacked"
   - front: "After I clock in, I scan the shift-change sheet. What's the move?"
     back: "No new time slot, just a chain"
+  - front: "New habit needs its own hour - calendar already full."
+    back: "Chain after shoes - no new slot."
+  - front: "Stack five habits Monday - collapse by Thursday."
+    back: "One chain - master it first."
+  - front: "Forgot the stretch three days straight - the shoe chain snapped."
+    back: "Lace shoes, stretch once - rebuild the link."
+  - front: "App says track twelve micro-habits - I'm drowning."
+    back: "One anchor, one piggyback - stop at two."
 draft: false
 ---
 

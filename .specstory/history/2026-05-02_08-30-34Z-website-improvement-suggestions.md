@@ -463,34 +463,34 @@ Here’s a concise improvement map based on the repo (Hugo + Hugoplate theme, de
 
 ## High: measurement and trust
 
-- **Google Analytics** in `hugo.toml` is still `G-MEASUREMENT_ID` — no real reporting until you set a real ID (or use Plausible/etc. and wire the partial you prefer).
-- **Contact form** — `contact_form_action = "#"` in `config/_default/params.toml` means the form does not post anywhere. Point it at Formspree, Airform, or your own endpoint so contact actually works.
-- **Copyright / year** — `params.toml` and `data/settings.json` use 2025; bump to 2026 (or use Hugo to output the current year) so the site doesn’t look stale.
-- **Search Console** — `site_verification` blocks are empty; adding Google verification helps Search Console and indexing.
+- **Google Analytics** in `hugo.toml` is still `G-MEASUREMENT_ID` - no real reporting until you set a real ID (or use Plausible/etc. and wire the partial you prefer).
+- **Contact form** - `contact_form_action = "#"` in `config/_default/params.toml` means the form does not post anywhere. Point it at Formspree, Airform, or your own endpoint so contact actually works.
+- **Copyright / year** - `params.toml` and `data/settings.json` use 2025; bump to 2026 (or use Hugo to output the current year) so the site doesn’t look stale.
+- **Search Console** - `site_verification` blocks are empty; adding Google verification helps Search Console and indexing.
 
 ## Medium: performance and UX (aligned with your TODO)
 
-- **Home hero preload** in `head.html` preloads the first blog post image on the home page, not necessarily the banner — worth aligning preload/LCP with whatever is actually above the fold after you customize the home page.
-- **Script loading** — the main concatenated bundle in `script.html` is a blocking `<script>` without `defer`; lazy scripts use `defer async`. Evaluating `defer` on the main bundle can reduce main-thread blocking (test after changes).
-- **Images** — Hugo imaging is configured; keep using responsive processing, WebP where appropriate, and explicit dimensions to limit CLS (your TODO already calls this out).
+- **Home hero preload** in `head.html` preloads the first blog post image on the home page, not necessarily the banner - worth aligning preload/LCP with whatever is actually above the fold after you customize the home page.
+- **Script loading** - the main concatenated bundle in `script.html` is a blocking `<script>` without `defer`; lazy scripts use `defer async`. Evaluating `defer` on the main bundle can reduce main-thread blocking (test after changes).
+- **Images** - Hugo imaging is configured; keep using responsive processing, WebP where appropriate, and explicit dimensions to limit CLS (your TODO already calls this out).
 
 ## Medium: SEO and structured data
 
 - **Default meta** in `params.toml` (`[metadata]`) uses a short tagline-style `description` and generic keywords. Once the homepage is yours, tune `description` / `keywords` for how you want to rank (personal brand vs blog topics).
-- **Internal linking** — after the homepage reflects real sections, add clear paths to blog categories, about, and contact (your TODO’s internal linking item).
+- **Internal linking** - after the homepage reflects real sections, add clear paths to blog categories, about, and contact (your TODO’s internal linking item).
 
 ## Security and ops
 
 - **`google_map` in `params.toml`** includes an API key–style string. If that key is real, it should be restricted in Google Cloud (HTTP referrer, APIs used only); if unused, keep `enable = false` and avoid committing live secrets (your TODO mentions dependency updates and headers).
-- **Vercel** — `vercel.json` only handles static build and 404 fallbacks. Adding **security headers** (e.g. HSTS, `X-Frame-Options`, `X-Content-Type-Options`) via `headers` in `vercel.json` matches the checklist in TODO.md.
+- **Vercel** - `vercel.json` only handles static build and 404 fallbacks. Adding **security headers** (e.g. HSTS, `X-Frame-Options`, `X-Content-Type-Options`) via `headers` in `vercel.json` matches the checklist in TODO.md.
 
 ## Content quality (small but visible)
 
-- **About page** — First sentence reads “I am web developer”; “I am **a** web developer” reads more naturally.
+- **About page** - First sentence reads “I am web developer”; “I am **a** web developer” reads more naturally.
 
 ---
 
-Your **TODO.md** already tracks performance (Core Web Vitals, critical CSS, preconnect), accessibility, SEO (sitemap — Hugo usually emits this; confirm in production), analytics, and newsletters. Treat the items above as **repo-specific** fixes on top of that list: especially **replace homepage boilerplate**, **wire analytics and contact**, **refresh copyright/metadata**, and **tighten forms and headers**.
+Your **TODO.md** already tracks performance (Core Web Vitals, critical CSS, preconnect), accessibility, SEO (sitemap - Hugo usually emits this; confirm in production), analytics, and newsletters. Treat the items above as **repo-specific** fixes on top of that list: especially **replace homepage boilerplate**, **wire analytics and contact**, **refresh copyright/metadata**, and **tighten forms and headers**.
 
 If you want implementation next, say which slice you prefer first (homepage copy + sections, contact/analytics, or Vercel headers) and we can do it in the codebase.
 
@@ -498,7 +498,7 @@ If you want implementation next, say which slice you prefer first (homepage copy
 
 _**User**_
 
-Copyright / year — params.toml and data/settings.json use 2025; bump to 2026 (or use Hugo to output the current year) so the site doesn’t look stale.
+Copyright / year - params.toml and data/settings.json use 2025; bump to 2026 (or use Hugo to output the current year) so the site doesn’t look stale.
 
 Change Decap CMS to Sveltia CMS
 
@@ -1592,14 +1592,14 @@ _**Agent (auto-low)**_
 Here is what was changed:
 
 ### Copyright / year
-- **`config/_default/params.toml`** — `copyright` is now `Copyright © {year}, JoRap` with a short comment.
-- **`themes/jorap/layouts/partials/essentials/footer.html`** — Renders that string with `{{ replace site.Params.copyright "{year}" (now.Format "2006") | markdownify }}`, so the year always matches the build date (e.g. 2026 for builds in 2026).
-- **`data/settings.json`** — `footer_text` is now `© JoRap's World. All rights reserved.` (no year, so that static JSON file does not go out of date). This file is not referenced in your layouts; the live footer comes from `params.copyright` + the template above.
+- **`config/_default/params.toml`** - `copyright` is now `Copyright © {year}, JoRap` with a short comment.
+- **`themes/jorap/layouts/partials/essentials/footer.html`** - Renders that string with `{{ replace site.Params.copyright "{year}" (now.Format "2006") | markdownify }}`, so the year always matches the build date (e.g. 2026 for builds in 2026).
+- **`data/settings.json`** - `footer_text` is now `© JoRap's World. All rights reserved.` (no year, so that static JSON file does not go out of date). This file is not referenced in your layouts; the live footer comes from `params.copyright` + the template above.
 
 ### Decap → Sveltia CMS
-- **`static/admin/index.html`** — Loads Sveltia from `https://unpkg.com/@sveltia/cms/dist/sveltia-cms.js`, with `data-cfasync="false"` for Cloudflare Rocket Loader. The old `nc-root` div and `window.CMS.init()` flow were removed; Sveltia starts from the script alone, per [their docs](https://sveltiacms.app/en/docs/start).
-- **`static/admin/config.yml`** — Added the YAML language server schema line for Sveltia. Your GitHub backend and blog collection are unchanged and stay compatible.
-- **`DECAP_CMS_SETUP.md`** — Removed and replaced with **`SVELTIA_CMS_SETUP.md`**, updated for Sveltia and the same Cloudflare + GitHub OAuth flow.
+- **`static/admin/index.html`** - Loads Sveltia from `https://unpkg.com/@sveltia/cms/dist/sveltia-cms.js`, with `data-cfasync="false"` for Cloudflare Rocket Loader. The old `nc-root` div and `window.CMS.init()` flow were removed; Sveltia starts from the script alone, per [their docs](https://sveltiacms.app/en/docs/start).
+- **`static/admin/config.yml`** - Added the YAML language server schema line for Sveltia. Your GitHub backend and blog collection are unchanged and stay compatible.
+- **`DECAP_CMS_SETUP.md`** - Removed and replaced with **`SVELTIA_CMS_SETUP.md`**, updated for Sveltia and the same Cloudflare + GitHub OAuth flow.
 
 A full `hugo` build was started but took a long time in this environment (module download). After a local `hugo` run, open `/admin/` and sign in with GitHub to confirm Sveltia loads. If anything looks off, check the [migration notes](https://sveltiacms.app/en/docs/migration/netlify-decap-cms) (Sveltia is still pre-1.0 and not 100% feature-identical to Decap).
 

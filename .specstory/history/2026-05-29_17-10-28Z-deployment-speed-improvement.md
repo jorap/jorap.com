@@ -84,7 +84,7 @@ drwxr-xr-x@  3 jonathanrapusas  staff     96 May  2 16:29 themes
 _**Agent (auto-high)**_
 
 <think><details><summary>Thought Process</summary>
- I'm looking at the deployment configuration files to understand what's slowing things down. There are several configs in place—Amplify, Netlify, Vercel, plus build scripts and redirect rules—so I need to check what the user's trying to optimize.</details></think>
+ I'm looking at the deployment configuration files to understand what's slowing things down. There are several configs in place-Amplify, Netlify, Vercel, plus build scripts and redirect rules-so I need to check what the user's trying to optimize.</details></think>
 
 _**Agent (auto-high)**_
 
@@ -190,7 +190,7 @@ echo "Running the build command..."
 npm run build
 {
   "name": "jorap-com",
-  "description": "JoRap's World — personal blog and portfolio (Hugo + Tailwind).",
+  "description": "JoRap's World - personal blog and portfolio (Hugo + Tailwind).",
   "version": "2.2.0",
   "license": "MIT",
   "author": "JoRap",
@@ -284,11 +284,11 @@ nothing to commit, working tree clean
 _**Agent (auto-high)**_
 
 <think><details><summary>Thought Process</summary>
- The user wants to speed up deployments, and I'm noticing they're running redundant builds across multiple platforms—Amplify, Netlify, and Vercel all independently downloading Go and Hugo each time. I need to look at their deployment configuration files to understand the full setup and identify where the bottlenecks are. The biggest culprit is `pnpm update-modules` in the build script — it clears the Hugo module cache on every build, which is the single largest optimization opportunity. I should also check what they were working on previously to give more targeted advice.</details></think>
+ The user wants to speed up deployments, and I'm noticing they're running redundant builds across multiple platforms-Amplify, Netlify, and Vercel all independently downloading Go and Hugo each time. I need to look at their deployment configuration files to understand the full setup and identify where the bottlenecks are. The biggest culprit is `pnpm update-modules` in the build script - it clears the Hugo module cache on every build, which is the single largest optimization opportunity. I should also check what they were working on previously to give more targeted advice.</details></think>
 
 _**Agent (auto-high)**_
 
-Looking at your setup, yes — there's a lot of low-hanging fruit. Your build is slow mostly because of three things, and your three deployment targets each have their own slowness on top.
+Looking at your setup, yes - there's a lot of low-hanging fruit. Your build is slow mostly because of three things, and your three deployment targets each have their own slowness on top.
 
 ## The big wins (in priority order)
 
@@ -312,5 +312,5 @@ Keep `update-modules` as a separate manual script you run when you actually want
 
 ### 2. Stop downloading Go + Hugo on every Amplify/Vercel build (~30–60s saved)
 
-- **Netlify is fine** — `HUGO_VERSION` / `GO_VERSION` env vars use Netlify's pre-cached binaries. No change needed.
+- **Netlify is fine** - `HUGO_VERSION` / `GO_VERSION` env vars use Netlify's pre-cached binaries. No change needed.
 - **Amplify** (`amplify.yml`) curls Go + Hugo tarballs every build. Cache them by

@@ -53,6 +53,10 @@ cards:
     back: "A visible tracker, not a slogan."
   - front: "Quarter's ending and the goal quietly slipped back in week four. When would thirteen weeks have caught it?"
     back: "Week ten - before it is too late."
+  - front: "January goals plastered - March and we have not looked since week two."
+    back: "Ninety-day check - reset week ten."
+  - front: "Fridge sticker says get fit - no number, no review date."
+    back: "Thirteen weeks with a visible score."
 draft: false
 ---
 

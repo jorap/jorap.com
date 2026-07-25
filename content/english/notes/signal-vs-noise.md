@@ -53,7 +53,7 @@ cards:
     back: "Skip - noise this month."
   - front: "Good content, wrong month, no action hook. What's the move?"
     back: "Skip the save."
-  - front: "Capture filter needs a time window on action or belief. How tight?"
+  - front: "Thumb hovering on save - which month does this change?"
     back: "This month - not someday."
 draft: false
 ---

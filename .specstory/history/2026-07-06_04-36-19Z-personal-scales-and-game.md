@@ -501,7 +501,7 @@ Here’s how **personal-scales** lines up with the real **Fun Facts** game (Repo
 
 | Aspect | Fun Facts (game) | personal-scales (yours) |
 |--------|------------------|-------------------------|
-| Core vibe | Self-reflective icebreaker about real people at the table | Same — tagline says “real habits, preferences, and memories” |
+| Core vibe | Self-reflective icebreaker about real people at the table | Same - tagline says “real habits, preferences, and memories” |
 | Scale cards | Some cards are explicitly 0–100 | All cards assume 1–100 (`scale_label` in UI) |
 | Play loop | Everyone writes a secret number, group orders low→high | Same mechanic works; `play_hint: Answer honestly.` |
 | No categories | Flat deck, draw and read | Flat 500-item list, direct play |
@@ -517,8 +517,8 @@ Overlap examples that *do* feel like Fun Facts cards:
 ### 1. Two card types in Fun Facts, one type in yours
 
 Fun Facts mixes:
-- **0–100 scale** — “How lazy are you?”, “To what degree are you a sore loser?”
-- **Open numeric answers** — sometimes with units (minutes, years, count)
+- **0–100 scale** - “How lazy are you?”, “To what degree are you a sore loser?”
+- **Open numeric answers** - sometimes with units (minutes, years, count)
 
 Examples from the real game:
 - “How many push-ups do you think you can do in a row?”
@@ -530,7 +530,7 @@ Your deck is **100% scale prompts**. There are **zero** “how many / how long /
 
 ### 2. Tone: preferences vs autobiography
 
-Fun Facts pushes **revealing facts** — numbers you’d actually be surprised to learn about someone.
+Fun Facts pushes **revealing facts** - numbers you’d actually be surprised to learn about someone.
 
 Your deck skews heavily toward **hypothetical preference**:
 - 286 × “How likely are you to…”
@@ -547,15 +547,15 @@ Game uses **0–100** on scale cards. Yours uses **1–100**. Minor, but 0 matte
 
 Fun Facts: **195** cards, wide topic spread (history, fitness, vices, relationships, daily routines).
 
-Yours: **500** cards, but narrower *shape* — lots of small domestic/habit variations that read similarly in play.
+Yours: **500** cards, but narrower *shape* - lots of small domestic/habit variations that read similarly in play.
 
 ### 5. Adult edge cases
 
-The commercial deck includes some **adults-only** prompts (e.g. drinks per week). Yours correctly omits those for a worldwide family audience — good for your site, less faithful to the full commercial deck.
+The commercial deck includes some **adults-only** prompts (e.g. drinks per week). Yours correctly omits those for a worldwide family audience - good for your site, less faithful to the full commercial deck.
 
 ## Summary
 
-**personal-scales captures the Fun Facts *scale-card* slice** — the “rate yourself 1–100 on a habit or feeling” part — but **misses the autobiography/count half** that makes Fun Facts spark real stories and surprises.
+**personal-scales captures the Fun Facts *scale-card* slice** - the “rate yourself 1–100 on a habit or feeling” part - but **misses the autobiography/count half** that makes Fun Facts spark real stories and surprises.
 
 ```mermaid
 Fun Facts deck
@@ -566,10 +566,10 @@ Fun Facts deck
 ## If you want it closer to Fun Facts
 
 Highest-impact additions (without bloating the deck):
-1. **Add ~50–100 count/measure prompts** — “How many books did you read last year?”, “How many pairs of shoes do you own?”, “How many minutes to get ready in the morning?”
-2. **Swap some “likely/enjoy” pairs for punchier self-ratings** — “How lazy are you?”, “How much of a sore loser are you?”, “How good a driver are you?”
+1. **Add ~50–100 count/measure prompts** - “How many books did you read last year?”, “How many pairs of shoes do you own?”, “How many minutes to get ready in the morning?”
+2. **Swap some “likely/enjoy” pairs for punchier self-ratings** - “How lazy are you?”, “How much of a sore loser are you?”, “How good a driver are you?”
 3. **Consider 0–100** to match the game card corner marker
-4. **Trim redundant enjoy/likely variants** — 500 similar-feeling cards vs Fun Facts’ 195 distinct ones
+4. **Trim redundant enjoy/likely variants** - 500 similar-feeling cards vs Fun Facts’ 195 distinct ones
 
 Want me to reshape the deck toward that mix (e.g. 300 scale + 100 count/measure, dedupe the repetitive enjoy/likely stems)?
 
@@ -589,7 +589,7 @@ Items 2 and 4 will be implemented. Count and measure will be excluded.
 
 _**Agent (auto-low)**_
 
-Reshaping `personal-scales`: punchier Fun Facts-style self-ratings and trimming redundant enjoy/likely stems—no count/measure prompts.
+Reshaping `personal-scales`: punchier Fun Facts-style self-ratings and trimming redundant enjoy/likely stems-no count/measure prompts.
 
 
 _**Agent (auto-low)**_
@@ -683,9 +683,9 @@ _**Agent (auto-low)**_
 <summary>Tool use: **run_terminal_command_v2** • Run command: python3 &lt;&lt; &#39;PY&#39;
 import re, yaml
 
-# Curated Fun Facts-style 1-100 scale prompts — no count/measure, minimal enjoy/likely filler
+# Curated Fun Facts-style 1-100 scale prompts - no count/measure, minimal enjoy/likely filler
 items = [
-  # Personality — punchy self-ratings
+  # Personality - punchy self-ratings
   &#34;How lazy are you?&#34;,
   &#34;To what degree would you call yourself a sore loser?&#34;,
   &#34;How competitive are you at board games?&#34;,
@@ -956,7 +956,7 @@ lines = [
     &#34;- id: personal-scales&#34;,
     &#34;  title: Personal icebreakers&#34;,
     &#34;  mode: personal&#34;,
-    &#34;  tagline: Honest 1-to-100 self-ratings about real habits and personality — one surprising answer at a time.&#34;,
+    &#34;  tagline: Honest 1-to-100 self-ratings about real habits and personality - one surprising answer at a time.&#34;,
     &#34;  play_hint: Answer honestly.&#34;,
     &#34;  scale_label: On a scale of 1 to 100&#34;,
     &#34;  items:&#34;,
@@ -987,9 +987,9 @@ PY</summary>
 python3 << 'PY'
 import re, yaml
 
-# Curated Fun Facts-style 1-100 scale prompts — no count/measure, minimal enjoy/likely filler
+# Curated Fun Facts-style 1-100 scale prompts - no count/measure, minimal enjoy/likely filler
 items = [
-  # Personality — punchy self-ratings
+  # Personality - punchy self-ratings
   "How lazy are you?",
   "To what degree would you call yourself a sore loser?",
   "How competitive are you at board games?",
@@ -1260,7 +1260,7 @@ lines = [
     "- id: personal-scales",
     "  title: Personal icebreakers",
     "  mode: personal",
-    "  tagline: Honest 1-to-100 self-ratings about real habits and personality — one surprising answer at a time.",
+    "  tagline: Honest 1-to-100 self-ratings about real habits and personality - one surprising answer at a time.",
     "  play_hint: Answer honestly.",
     "  scale_label: On a scale of 1 to 100",
     "  items:",
@@ -1361,7 +1361,7 @@ Total: 195
   likely: 19
   comfortable: 5
 
-Tagline: Honest 1-to-100 self-ratings about real habits and personality — one surprising answer at a time.
+Tagline: Honest 1-to-100 self-ratings about real habits and personality - one surprising answer at a time.
 
 ```
 </details></tool-use>
@@ -1381,18 +1381,18 @@ The changes look good.
 
 _**Agent (auto-low)**_
 
-**personal-scales** is now **195 cards** (down from 500), shaped closer to Fun Facts scale cards — no count/measure prompts.
+**personal-scales** is now **195 cards** (down from 500), shaped closer to Fun Facts scale cards - no count/measure prompts.
 
 ### What changed
 
-**Punchier self-ratings** — opens with Fun Facts-style questions:
+**Punchier self-ratings** - opens with Fun Facts-style questions:
 - "How lazy are you?"
 - "To what degree would you call yourself a sore loser?"
 - "How good a driver are you?"
 - "How much do you enjoy making lists?"
 - "How much do you enjoy hugs?"
 
-**Trimmed redundancy** — cut the long tail of near-duplicates ("How likely are you to enjoy walking barefoot on sand?", etc.).
+**Trimmed redundancy** - cut the long tail of near-duplicates ("How likely are you to enjoy walking barefoot on sand?", etc.).
 
 **Pattern mix** (was ~87% enjoy/likely):
 
@@ -1403,9 +1403,9 @@ _**Agent (auto-low)**_
 | "How likely are you to…" | 286 | **19** |
 | "How good…" | 20 | **25** |
 
-**Tagline** updated to match: *"Honest 1-to-100 self-ratings about real habits and personality — one surprising answer at a time."*
+**Tagline** updated to match: *"Honest 1-to-100 self-ratings about real habits and personality - one surprising answer at a time."*
 
-Still all 1–100 scale only — no "how many", "how long", or unit answers.
+Still all 1–100 scale only - no "how many", "how long", or unit answers.
 
 ---
 
@@ -1929,7 +1929,7 @@ Total in 19653 ms
 
 _**Agent (auto-low)**_
 
-When you pick a collection and enter play mode, the page switches to a **tablet focus view** — site chrome is hidden and the prompt card fills the screen.
+When you pick a collection and enter play mode, the page switches to a **tablet focus view** - site chrome is hidden and the prompt card fills the screen.
 
 ### Play mode (`body.randomizer-focus`)
 - **Hidden:** header, footer, announcement, page title/breadcrumb, intro text, back-to-top, play meta, hint, save-offline button
@@ -1937,7 +1937,7 @@ When you pick a collection and enter play mode, the page switches to a **tablet 
 - **Layout:** full viewport height (`100dvh`), safe-area padding, larger card text, centered stage
 
 ### Still normal on collection picker
-Home and categories views keep the regular site layout — focus only kicks in once you're shuffling prompts.
+Home and categories views keep the regular site layout - focus only kicks in once you're shuffling prompts.
 
 Back (←) exits play and restores the full page. Save offline is still in the DOM but hidden in focus mode; leave play to use it.
 
@@ -1968,6 +1968,6 @@ The user requested a brief summary of the task result and any follow-up actions.
 
 _**Agent (auto-low)**_
 
-The Hugo build completed successfully — 2,154 pages, no errors.
+The Hugo build completed successfully - 2,154 pages, no errors.
 
 The randomizer tablet focus mode is in place: when you pick a collection and start playing, the site chrome drops away and the prompt card takes the full screen. You can try it at `/randomizer` on a tablet or in a narrow browser window.

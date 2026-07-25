@@ -660,8 +660,8 @@ Added both images to the Hanamikoji post and renamed the files to match site con
 
 **Placement:**
 
-1. **Action cards** — right after the theme mapping table, where Secret, Trade-off, Gift, and Competition are listed
-2. **Country cards** — after the “Flip the country, not a token” section, where neutral vs. controlled states are explained
+1. **Action cards** - right after the theme mapping table, where Secret, Trade-off, Gift, and Competition are listed
+2. **Country cards** - after the “Flip the country, not a token” section, where neutral vs. controlled states are explained
 
 Both use the standard `{{< image >}}` shortcode with WebP processing and zoom. Hugo build completed successfully.
 
@@ -839,9 +839,9 @@ _**Agent (auto-low)**_
 
 Added the personal-use emphasis in two places:
 
-**Intro** — states upfront that this is a personal copy only, with no downloads or sales, and that the post is build notes rather than a print-and-play release.
+**Intro** - states upfront that this is a personal copy only, with no downloads or sales, and that the post is build notes rather than a print-and-play release.
 
-**New "Personal use only" section** at the end — covers:
+**New "Personal use only" section** at the end - covers:
 - The deck stays private; no PDFs or substitutes for the retail game
 - *Hanamikoji* belongs to its creators and publisher
 - Intent to respect copyright and trademark law (without over-lawyering)
@@ -950,15 +950,15 @@ _**Agent (auto-low)**_
 
 Updated the post to frame Duopoly as a design experiment, not just a retheme:
 
-**Intro** — You built it to strip the table down and test whether the split still hooks people without illustration. Called out explicitly as a component-streamlining exercise.
+**Intro** - You built it to strip the table down and test whether the split still hooks people without illustration. Called out explicitly as a component-streamlining exercise.
 
-**Why flags** — Reframed the goal as stress-testing two things: engagement without art, and how far components can be cut before something breaks.
+**Why flags** - Reframed the goal as stress-testing two things: engagement without art, and how far components can be cut before something breaks.
 
-**After component cuts** — Early observation that the tension still lands without geisha atmosphere.
+**After component cuts** - Early observation that the tension still lands without geisha atmosphere.
 
-**Component budget** — Opens as the heart of the exercise: every removed piece had to earn its keep.
+**Component budget** - Opens as the heart of the exercise: every removed piece had to earn its keep.
 
-**Publisher angle** — The lean build suggests the engine could wear other official themes (business, sci-fi, etc.) without touching the split. Framed as something you'd buy, not a knock on the retail art.
+**Publisher angle** - The lean build suggests the engine could wear other official themes (business, sci-fi, etc.) without touching the split. Framed as something you'd buy, not a knock on the retail art.
 
 The meta description now mentions the mechanics-only test as well.
 
@@ -1320,7 +1320,7 @@ Status: **completed**
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Checking related garden notes—minimum-effective-dose and practice-small-experiments from one-page-zine—for frontmatter updates.
+Checking related garden notes-minimum-effective-dose and practice-small-experiments from one-page-zine-for frontmatter updates.
 </details></think>
 
 _**Agent (auto-low)**_
@@ -1522,8 +1522,8 @@ Frontmatter is updated. Here's what I checked and changed:
 | Field | Change |
 |-------|--------|
 | `meta_title` | Now reflects the component-cuts + mechanics-test angle |
-| `description` | Personal build log framing, explicit "not a print-and-play — buy the retail game" |
-| `categories` | Dropped `Tutorial` — this is build notes, not a how-to |
+| `description` | Personal build log framing, explicit "not a print-and-play - buy the retail game" |
+| `categories` | Dropped `Tutorial` - this is build notes, not a how-to |
 | `tags` | Removed `Print and Play` (contradicts the post); added `Component Design` |
 | `related_notes` | Added `minimum-effective-dose`, `practice-small-experiments`, `signal-vs-noise` |
 | `lastmod` | Added for today's substantive edits |

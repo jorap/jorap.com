@@ -146,7 +146,7 @@ cd /home/jorap/Documents/GitHub/jorap.com && pnpm voice:scan 2>&1
 
 ```
 $ python3 scripts/notes-voice-lint.py --summary --review
-Voice scan — 305 files, 2 strict, 64 review-only
+Voice scan - 305 files, 2 strict, 64 review-only
 Word list: data/voice-words.yaml
 
 Strict (lint:voice fails on these)
@@ -233,7 +233,7 @@ Parameters:
   "caseInsensitive": false,
   "glob": "content/english/blog/**/*.md",
   "outputMode": "content",
-  "pattern": "—|–"
+  "pattern": "-|–"
 }
 ```
 Additional data:
@@ -242,7 +242,7 @@ Additional data:
 {
   "isPruned": true,
   "outputMode": "content",
-  "pattern": "—|–",
+  "pattern": "-|–",
   "topFiles": [
     {
       "matchCount": 1,
@@ -988,7 +988,7 @@ Parameters:
 {
   "caseInsensitive": false,
   "glob": "content/english/blog/**/*.md",
-  "pattern": "—|–|—"
+  "pattern": "-|–|-"
 }
 ```
 Additional data:
@@ -997,7 +997,7 @@ Additional data:
 {
   "isPruned": true,
   "outputMode": "content",
-  "pattern": "—|–|—",
+  "pattern": "-|–|-",
   "topFiles": [
     {
       "matchCount": 1,
@@ -1250,7 +1250,7 @@ Most published posts pass with minor notes. The audit will be structured as an e
 
 _**Agent (auto-low)**_
 
-## JoRap voice audit — all blogs
+## JoRap voice audit - all blogs
 
 Scanned **53 posts** under `content/english/blog/` (plus `_index.md`) with `pnpm lint:voice`, `pnpm voice:scan`, and a manual pass against the jorap-voice skill.
 
@@ -1262,45 +1262,45 @@ Scanned **53 posts** under `content/english/blog/` (plus `_index.md`) with `pnpm
 
 | Check | Blogs result |
 |-------|----------------|
-| `pnpm lint:voice` (strict) | **1 fail** — em dash in `alex-eala-pro-career-tracker.md` |
+| `pnpm lint:voice` (strict) | **1 fail** - em dash in `alex-eala-pro-career-tracker.md` |
 | Strict word list (`delve`, `Furthermore`, `handoff`, etc.) | **0 hits** in blogs |
 | AI-tell phrases (`When it comes to`, `ultimate guide`, etc.) | **0 in published**; only in draft `__make-ai-articles-more-human.md` as a quoted anti-example |
 | Engagement bait (`hope this helps`, `Let me know`) | **None** |
-| Review-only flags | `deploy` (2× in `how-i-built-jorap-notes`, 1× in `hugoplate-theme-review`) — fine in context; `navigate` (2× in `power-of-the-mouse-wheel-click`) — correct browser wording |
+| Review-only flags | `deploy` (2× in `how-i-built-jorap-notes`, 1× in `hugoplate-theme-review`) - fine in context; `navigate` (2× in `power-of-the-mouse-wheel-click`) - correct browser wording |
 
 **Fix to pass lint:**
 
 ```28:28:content/english/blog/alex-eala-pro-career-tracker.md
-- **Best Slam (singles):** Wimbledon 2026 — Round of 16
+- **Best Slam (singles):** Wimbledon 2026 - Round of 16
 ```
 
 Swap the em dash for a hyphen: `Wimbledon 2026 - Round of 16`.
 
 ---
 
-### Published posts (17) — voice tier
+### Published posts (17) - voice tier
 
 **On voice (no action needed)**
 
-- `what-i-look-for-in-wireless-earphones.md` — skill reference post; experiential, opinionated, plain
-- `why-i-stopped-playing-marvel-snap.md` — personal, specific; `must-have` is earned in context
-- `how-i-built-jorap-notes.md` — strong opening and specifics; meta_title is the weak spot (below)
-- `hugoplate-theme-review.md` — honest review tone, real friction
-- `consistent-ai-output-wordpress-builds.md` — lived workflow, not brochure
-- `power-of-the-mouse-wheel-click.md` — practical, direct
-- `miracle-isaiah-david.md` — personal testimony, no AI slop
-- `instant-pot-chicken-adobo.md` / `instant-pot-arroz-caldo.md` — recipe body is instructional; intros sound like you
-- `power-of-worship-pads-enhancing-your-worship-experience.md` — title/meta updated well; real practice story (VLC pads, app freezes)
-- `facebooks-hidden-gem-how-favorites-feed-transforms-your-social-media-experience.md` — opening is personal; body is a bit symmetrical in the “three things changed” bullets but still reads human
-- `getting-started-with-rss-feeds-beginners-guide.md` — good “I was wrong about RSS” hook; guide structure is fine
-- `dnpap-song-resources.md` — link roundup; short personal intro works
-- `alex-eala-pro-career-tracker.md` — scrapbook voice fits; only the em dash fails lint
+- `what-i-look-for-in-wireless-earphones.md` - skill reference post; experiential, opinionated, plain
+- `why-i-stopped-playing-marvel-snap.md` - personal, specific; `must-have` is earned in context
+- `how-i-built-jorap-notes.md` - strong opening and specifics; meta_title is the weak spot (below)
+- `hugoplate-theme-review.md` - honest review tone, real friction
+- `consistent-ai-output-wordpress-builds.md` - lived workflow, not brochure
+- `power-of-the-mouse-wheel-click.md` - practical, direct
+- `miracle-isaiah-david.md` - personal testimony, no AI slop
+- `instant-pot-chicken-adobo.md` / `instant-pot-arroz-caldo.md` - recipe body is instructional; intros sound like you
+- `power-of-worship-pads-enhancing-your-worship-experience.md` - title/meta updated well; real practice story (VLC pads, app freezes)
+- `facebooks-hidden-gem-how-favorites-feed-transforms-your-social-media-experience.md` - opening is personal; body is a bit symmetrical in the “three things changed” bullets but still reads human
+- `getting-started-with-rss-feeds-beginners-guide.md` - good “I was wrong about RSS” hook; guide structure is fine
+- `dnpap-song-resources.md` - link roundup; short personal intro works
+- `alex-eala-pro-career-tracker.md` - scrapbook voice fits; only the em dash fails lint
 
 **Fine but slightly generic framing**
 
-- `top-reasons-why-you-still-need-use-desktop-laptop.md` — “Top Reasons” title is listicle SEO; **body passes** (borrowed laptop for taxes, real multitasking examples). Closes with an honest “use both” take.
-- `top-reasons-create-maintain-your-own-website.md` — same pattern; opening and platform-death examples are strong. “So, should you build one?” section is a bit preachy (`yes. I think you should.`) but still first-person.
-- `set-it-forget-it-arroz-caldo.md` — mostly fine; “Set it and literally forget it” and “The Magic Rice Cooker Situation” are a touch food-blog cliché, not a voice fail.
+- `top-reasons-why-you-still-need-use-desktop-laptop.md` - “Top Reasons” title is listicle SEO; **body passes** (borrowed laptop for taxes, real multitasking examples). Closes with an honest “use both” take.
+- `top-reasons-create-maintain-your-own-website.md` - same pattern; opening and platform-death examples are strong. “So, should you build one?” section is a bit preachy (`yes. I think you should.`) but still first-person.
+- `set-it-forget-it-arroz-caldo.md` - mostly fine; “Set it and literally forget it” and “The Magic Rice Cooker Situation” are a touch food-blog cliché, not a voice fail.
 
 ---
 
@@ -1310,7 +1310,7 @@ These posts **sound like you in the prose** but **titles or slugs** still carry 
 
 | Post | Issue |
 |------|--------|
-| `how-i-built-jorap-notes.md` | `meta_title`: “A Developer's Guide to Static Site Hosting” — generic; `description` is much more JoRap |
+| `how-i-built-jorap-notes.md` | `meta_title`: “A Developer's Guide to Static Site Hosting” - generic; `description` is much more JoRap |
 | `dnpap-song-resources.md` | `meta_title` pipe list: `Spotify, YouTube, Lyrics` |
 | `top-reasons-*` (2 posts) | “Top Reasons” in `title` / `meta_title` |
 | `power-of-worship-pads-…md` | Slug still `…enhancing-your-worship-with-guitar`; title is already human |
@@ -1326,9 +1326,9 @@ Most drafts already follow jorap-voice in `description` and openings. Notable ex
 
 | Draft | Note |
 |-------|------|
-| `__blank-blog-template.md`, `__blog-template.md` | `description`: “Hugo CMS Reference for blog publishing.” — internal template, not author voice |
-| `__craft-prompt-framework.md` | Quotes a “Ultimate Prompt” with “comprehensive details” — intentional bad example, but watch the surrounding prose when you publish |
-| `__make-ai-articles-more-human.md` | Includes `When it comes to…` in a fenced bad-prompt block — fine as anti-pattern |
+| `__blank-blog-template.md`, `__blog-template.md` | `description`: “Hugo CMS Reference for blog publishing.” - internal template, not author voice |
+| `__craft-prompt-framework.md` | Quotes a “Ultimate Prompt” with “comprehensive details” - intentional bad example, but watch the surrounding prose when you publish |
+| `__make-ai-articles-more-human.md` | Includes `When it comes to…` in a fenced bad-prompt block - fine as anti-pattern |
 
 No `handoff` in any blog file (strict hits are only in notes).
 

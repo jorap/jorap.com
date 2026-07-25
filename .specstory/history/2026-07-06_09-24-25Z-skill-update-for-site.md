@@ -147,12 +147,12 @@ _**Agent (auto-low)**_
 Updated the skill with a **Polite fetching (mandatory)** section and wired it through the workflows. Main changes:
 
 **New fetch discipline**
-- Treat the tracker file as cache — only fetch gaps
+- Treat the tracker file as cache - only fetch gaps
 - One domain at a time, ≥2s between same-host requests
 - Hard per-session caps (e.g. WTA ≤6, Tennis.com ≤2, TNNSLIVE ≤1)
 - Web search for discovery, then one authoritative confirm
 - No retry loops or `curl`/User-Agent spam on empty WTA pages
-- Opponent profiles on demand only — no bulk Other Top 20 checks
+- Opponent profiles on demand only - no bulk Other Top 20 checks
 - Re-verify only new links and new YouTube IDs
 
 **Workflow tweaks**

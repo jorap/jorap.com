@@ -265,4 +265,4 @@ Status: **completed**
 _**Agent (auto-high)**_
 
 <think><details><summary>Thought Process</summary>
- I'm seeing a heading hierarchy conflict in the blog-card component—it needs to be h3 when nested under h2 in the related posts section, but h2 when used in list pages where the main heading is h1. I should make the heading level configurable as a parameter so it adapts to different contexts.</details></think>
+ I'm seeing a heading hierarchy conflict in the blog-card component-it needs to be h3 when nested under h2 in the related posts section, but h2 when used in list pages where the main heading is h1. I should make the heading level configurable as a parameter so it adapts to different contexts.</details></think>

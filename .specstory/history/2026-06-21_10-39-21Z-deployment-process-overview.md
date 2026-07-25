@@ -933,7 +933,7 @@ Build succeeded in ~50s. Nothing is broken. A few cheap wins and one real bottle
 
 ## Worth doing (small diff)
 
-**1. Pin Node patch — kills both warnings**
+**1. Pin Node patch - kills both warnings**
 
 `.node-version` is `22` → Cloudflare resolves `22.22.0`, which triggers the LTS maintenance warning and the `corepack@0.35.0` EBADENGINE (`^22.22.2` required).
 
@@ -944,7 +944,7 @@ Build succeeded in ~50s. Nothing is broken. A few cheap wins and one real bottle
 
 Also tighten `package.json` engines if you want CI to fail early: `"node": ">=22.22.2"`.
 
-**2. Dashboard build command — skip the npm hop**
+**2. Dashboard build command - skip the npm hop**
 
 Log shows `npm run build` → `pnpm run deploy`. Cloudflare already ran `pnpm install`. Use:
 
@@ -972,7 +972,7 @@ pnpm run deploy
 
 **Hugo: 19.5s** (~70% of `deployBuild`). 1557 pages + 331 images + Tailwind at build time. No lazy fix without profiling or Hugo build cache (Cloudflare Pages doesn’t persist `.cache` between builds).
 
-`functions/api/test.js` is a smoke-test endpoint — delete if you don’t use it.
+`functions/api/test.js` is a smoke-test endpoint - delete if you don’t use it.
 
 ---
 
@@ -1721,7 +1721,7 @@ cspHashes now reports 4238 inline script blocks, up from 2852.</details></think>
 
 _**Agent (auto-low)**_
 
-Build succeeded, but CSP hash count rose — checking whether the external script is emitted correctly.
+Build succeeded, but CSP hash count rose - checking whether the external script is emitted correctly.
 
 
 _**Agent (auto-low)**_
@@ -2628,15 +2628,15 @@ _**Agent (auto-low)**_
 
 Done. Build verified clean.
 
-**Node** — `.node-version` → `22.22.2`; `engines`, `deploy-versions.json`, `netlify.toml`, `.gitlab-ci.yml` aligned.
+**Node** - `.node-version` → `22.22.2`; `engines`, `deploy-versions.json`, `netlify.toml`, `.gitlab-ci.yml` aligned.
 
-**Build** — `build` and `deploy` both call `node scripts/deployBuild.mjs` directly (no `npm → pnpm` hop). `npm run build` on Cloudflare is fine as-is.
+**Build** - `build` and `deploy` both call `node scripts/deployBuild.mjs` directly (no `npm → pnpm` hop). `npm run build` on Cloudflare is fine as-is.
 
-**Inline script** — moved to `assets/js/deferred-media.js`, loaded from both `style.html` partials. CSP pass: **2852 → 2286** inline blocks, **8 → 7** unique hashes.
+**Inline script** - moved to `assets/js/deferred-media.js`, loaded from both `style.html` partials. CSP pass: **2852 → 2286** inline blocks, **8 → 7** unique hashes.
 
-**Deleted** — `functions/api/test.js`; `docs/TROUBLESHOOTING.md` now points at `/api/auth`.
+**Deleted** - `functions/api/test.js`; `docs/TROUBLESHOOTING.md` now points at `/api/auth`.
 
-**You still need in Cloudflare dashboard** (not repo-configurable): set `NODE_VERSION=22.22.2`. Build command can stay `npm run build` or switch to `pnpm run deploy` — either works now.
+**You still need in Cloudflare dashboard** (not repo-configurable): set `NODE_VERSION=22.22.2`. Build command can stay `npm run build` or switch to `pnpm run deploy` - either works now.
 
 ---
 
@@ -2886,7 +2886,7 @@ In **Cloudflare Pages → your project (`jorap-com`) → Settings**:
 
 | Setting | Value |
 |---------|--------|
-| **Build command** | `pnpm run deploy` *(or keep `npm run build` — both work now)* |
+| **Build command** | `pnpm run deploy` *(or keep `npm run build` - both work now)* |
 | **Build output directory** | `public` *(should already match `wrangler.toml`)* |
 | **Root directory** | `/` *(leave blank unless monorepo)* |
 
@@ -2898,9 +2898,9 @@ Set these for **Production** and **Preview**:
 
 | Variable | Value | Required? |
 |----------|--------|-----------|
-| `NODE_VERSION` | `22.22.2` | **Yes** — fixes the corepack/LTS warnings |
-| `HUGO_VERSION` | `0.163.3` | Optional — `deployBuild.mjs` installs pinned Hugo anyway |
-| `GO_VERSION` | `1.24.2` | Optional — modules are vendored in `_vendor/` |
+| `NODE_VERSION` | `22.22.2` | **Yes** - fixes the corepack/LTS warnings |
+| `HUGO_VERSION` | `0.163.3` | Optional - `deployBuild.mjs` installs pinned Hugo anyway |
+| `GO_VERSION` | `1.24.2` | Optional - modules are vendored in `_vendor/` |
 
 ## CMS / OAuth (only if you use `/admin`)
 
@@ -2913,8 +2913,8 @@ GitHub OAuth app callback URL: `https://jorap.com/api/callback`
 
 ## What you can skip
 
-- **Git submodules** — no `.gitmodules` in this repo
-- **`/api/test`** — removed; use `/api/auth` to verify Functions (expect GitHub redirect)
+- **Git submodules** - no `.gitmodules` in this repo
+- **`/api/test`** - removed; use `/api/auth` to verify Functions (expect GitHub redirect)
 
 ## After saving
 
@@ -3077,7 +3077,7 @@ Here’s what to change in that screen, mapped to what you pasted.
 
 | Field | Current | Set to |
 |-------|---------|--------|
-| **Build command** | `npm run build` | `pnpm run deploy` *(or leave `npm run build` — both work)* |
+| **Build command** | `npm run build` | `pnpm run deploy` *(or leave `npm run build` - both work)* |
 | **Build output** | `public` | leave as-is |
 | **Root directory** | *(empty)* | leave empty |
 
@@ -3130,7 +3130,7 @@ Environment variables are configured in wrangler.toml. Only encrypted secrets ar
 
 _**Agent (auto-low)**_
 
-Cloudflare is reading env from `wrangler.toml` — I'll check how to add the build variables there.
+Cloudflare is reading env from `wrangler.toml` - I'll check how to add the build variables there.
 
 
 _**Agent (auto-low)**_

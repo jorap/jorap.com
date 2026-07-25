@@ -67,7 +67,7 @@ cards:
     back: "Living sacrifice - offer the ordinary day, not the highlight reel."
   - front: "I quote Romans twelve one at breakfast but snap at dinner. Paired move in verse two?"
     back: "Renew the mind - sacrifice needs reshaped thinking."
-  - front: "Tuesday feels too small to count as worship. Romans 12:1 reframe?"
+  - front: "Tuesday feels too small to count as worship. What's the reframe?"
     back: "Present this day alive - not a dead ritual."
   - front: "Cross-bearing to feel qualified for heaven. Correct the motive?"
     back: "Saved first - offer the day from thanks."

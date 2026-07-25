@@ -883,11 +883,11 @@ The interface **matches the stated brand**: calm, hireable, idea-led. The bigges
 
 ## What is working
 
-1. **Card system** — `blog-card.html` uses the documented elevated surface, `ease-out` duration, and hover shadow without chroma noise; it supports scannable density for a blog index.
+1. **Card system** - `blog-card.html` uses the documented elevated surface, `ease-out` duration, and hover shadow without chroma noise; it supports scannable density for a blog index.
 
-2. **Typography contract** — Article shell uses `.article-title` and `.content` with a clear long-form lane; this supports PRODUCT’s “ideas before optics” for readers who land on posts from search.
+2. **Typography contract** - Article shell uses `.article-title` and `.content` with a clear long-form lane; this supports PRODUCT’s “ideas before optics” for readers who land on posts from search.
 
-3. **404 and error-adjacent tone** — The English 404 is short, non-technical, and gives one obvious recovery path, which fits “professional is the baseline.”
+3. **404 and error-adjacent tone** - The English 404 is short, non-technical, and gives one obvious recovery path, which fits “professional is the baseline.”
 
 ---
 
@@ -935,7 +935,7 @@ Utility cluster (search, language, theme) sits in the header’s right rail (`he
 **Sam (keyboard / AT)**  
 **Mobile TOC `div` toggle** is the clearest concrete failure: looks clickable, behaves like a button, is not exposed as one. Search uses `aria-label`; good contrast story is implied by tokens but not verified here without a built site and contrast tooling.
 
-**Project-aligned persona — “Morgan” (hiring stakeholder)**  
+**Project-aligned persona - “Morgan” (hiring stakeholder)**  
 Skims between meetings. **Red flag:** No above-the-fold **framing** of who you are for and what engagement looks like if the homepage stays blog-only. **Green flag:** Restrained visuals read as **low drama, high control**, which supports trust.
 
 ---

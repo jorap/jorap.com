@@ -1442,7 +1442,7 @@ Taps fail on 320px screens because `active: false`.
 
 _**Agent (default)**_
 
-Taps fail at 320px width — I'll dig into what's blocking or misaligning the filter controls there.
+Taps fail at 320px width - I'll dig into what's blocking or misaligning the filter controls there.
 
 
 _**Agent (default)**_
@@ -2436,7 +2436,7 @@ Click events alone are sufficient for filter selection on mobile; no extra touch
 
 _**Agent (default)**_
 
-Tests pass, but filter chips are only ~21px tall—too small for reliable touch. I'll improve touch targets, add a sticky toolbar on smaller screens, and enable horizontal scrolling on tablet.
+Tests pass, but filter chips are only ~21px tall-too small for reliable touch. I'll improve touch targets, add a sticky toolbar on smaller screens, and enable horizontal scrolling on tablet.
 
 
 _**Agent (default)**_
@@ -2780,7 +2780,7 @@ _**Agent (default)**_
 Graph filters on `/notes/graph/` are now tuned for phones and tablets. Here’s what was wrong and what changed.
 
 **Issues found**
-- Filter chips were only ~21px tall — too small for reliable touch
+- Filter chips were only ~21px tall - too small for reliable touch
 - On tablet (768–1023px), filters used `flex-wrap: nowrap` with no overflow scroll, so they could clip off-screen as the garden grows
 - Touch taps near the canvas could be less reliable than mouse clicks
 
@@ -2822,7 +2822,7 @@ Graph filter buttons are broken on tablet. The reset button still works.
 
 _**Agent (default)**_
 
-Filter buttons failing while Reset works points to something specific to the filter row on tablet — I'll trace their handlers and layout at that breakpoint.
+Filter buttons failing while Reset works points to something specific to the filter row on tablet - I'll trace their handlers and layout at that breakpoint.
 
 
 _**Agent (default)**_
@@ -3074,7 +3074,7 @@ The canvas is absolutely positioned inside the graph container, not fixed. It ca
 
 _**Agent (default)**_
 
-Reset uses a simple `click` handler; filters use `pointerup` plus a lock inside a horizontally scrollable row — likely why taps fail on real iPads. I'll align filters with Reset and fix the tablet layout.
+Reset uses a simple `click` handler; filters use `pointerup` plus a lock inside a horizontally scrollable row - likely why taps fail on real iPads. I'll align filters with Reset and fix the tablet layout.
 
 
 _**Agent (default)**_
@@ -3592,18 +3592,18 @@ The root cause was the filter row on tablet, not the filter logic itself.
 **Why Reset worked but filters didn't**
 - Reset uses a plain `click` handler and sits outside the filter row
 - Filters used a `pointerup` + `click` lock inside a horizontally scrollable row (`overflow-x: auto` + `nowrap` at 768–1023px)
-- On real iPad Safari, that combo often swallows taps — the touch is treated as a scroll attempt, so neither `pointerup` nor `click` fires
+- On real iPad Safari, that combo often swallows taps - the touch is treated as a scroll attempt, so neither `pointerup` nor `click` fires
 
 **Fixes applied**
 
-1. **`assets/js/notes-graph.js`** — Match Reset’s pattern: simple `click` handler, plus `touchend` with `preventDefault()` as an iOS fallback (with debounce to avoid double-firing)
+1. **`assets/js/notes-graph.js`** - Match Reset’s pattern: simple `click` handler, plus `touchend` with `preventDefault()` as an iOS fallback (with debounce to avoid double-firing)
 
 2. **`assets/css/custom.css`**
    - Removed the horizontal scroll container on tablet (filters wrap instead)
    - Extended sticky toolbar + touch targets to 1280px (covers iPad landscape at 1024px)
    - Added `touch-action: manipulation` and `z-index` on filter chips so they stay tappable above the graph
 
-After a refresh on your tablet, tapping **High · 15** or **Low · 31** should highlight the chip and refilter the graph. **No body links · 0** and **Orphans · 0** will show an empty graph — that’s expected with zero matches.
+After a refresh on your tablet, tapping **High · 15** or **Low · 31** should highlight the chip and refilter the graph. **No body links · 0** and **Orphans · 0** will show an empty graph - that’s expected with zero matches.
 
 ---
 
@@ -4087,7 +4087,7 @@ The partial also generates stylesheet links with integrity attributes. Fingerpri
 
 _**Agent (default)**_
 
-Page-specific JS like `notes-graph.js` isn’t fingerprinted but gets a 1-year immutable cache — that’s likely why tablet fixes didn’t show. I’ll add fingerprinting for all CSS/JS assets.
+Page-specific JS like `notes-graph.js` isn’t fingerprinted but gets a 1-year immutable cache - that’s likely why tablet fixes didn’t show. I’ll add fingerprinting for all CSS/JS assets.
 
 
 _**Agent (default)**_
@@ -4385,7 +4385,7 @@ Inside `with resources.Get`, the context `.` resolves to the resource itself rat
 
 _**Agent (default)**_
 
-The partial was losing the params dict inside `with resources.Get` — fixing the context so fingerprinting still works.
+The partial was losing the params dict inside `with resources.Get` - fixing the context so fingerprinting still works.
 
 
 _**Agent (default)**_
@@ -4423,7 +4423,7 @@ The production build now fingerprints JavaScript files. Notes-graph.js is cached
 
 _**Agent (default)**_
 
-Yes — and most of the site already had this, but not everywhere.
+Yes - and most of the site already had this, but not everywhere.
 
 **What was already in place**
 
@@ -4447,7 +4447,7 @@ Your `static/_headers` also sets 1-year immutable caching on all `/js/*` and `/c
 
 **What was missing**
 
-Page-specific scripts (`notes-graph.js`, `wikilink-preview.js`, etc.) were loaded with plain `.RelPermalink` — always `/js/notes-graph.js`. With immutable caching, browsers could keep an old copy for up to a year after a deploy. That likely explains why graph filter fixes didn’t show on your tablet.
+Page-specific scripts (`notes-graph.js`, `wikilink-preview.js`, etc.) were loaded with plain `.RelPermalink` - always `/js/notes-graph.js`. With immutable caching, browsers could keep an old copy for up to a year after a deploy. That likely explains why graph filter fixes didn’t show on your tablet.
 
 **What I added**
 
@@ -5440,18 +5440,18 @@ Status: **completed**
 
 _**Agent (default)**_
 
-Yes — and it’s now applied across the notes UI on tablet and mobile. Two problems were blocking taps:
+Yes - and it’s now applied across the notes UI on tablet and mobile. Two problems were blocking taps:
 
 1. **Touch targets too small** (~32px `btn-sm` pills vs the 44px iOS minimum)
-2. **Click-only handlers** — iOS Safari often swallows `click` on filter chips and toolbar buttons, especially with the sticky graph toolbar
+2. **Click-only handlers** - iOS Safari often swallows `click` on filter chips and toolbar buttons, especially with the sticky graph toolbar
 
-**CSS** (`assets/css/custom.css`) — for viewports up to 1280px (covers iPad portrait and landscape):
+**CSS** (`assets/css/custom.css`) - for viewports up to 1280px (covers iPad portrait and landscape):
 - 44px minimum height on graph controls, filter chips, notes toolbar buttons, review buttons, and random-note shuffle buttons
 - `touch-action: manipulation` to reduce gesture conflicts
 - Removed a rule that was *shrinking* button padding on mobile
 - Search input bumped to 44px with 16px font (prevents iOS zoom-on-focus)
 
-**JS** — new shared helper `assets/js/touch-controls.js` (in the main site bundle) exposes `jorapBindTouchClick`, which binds both `click` and `touchend` with debouncing. Wired into:
+**JS** - new shared helper `assets/js/touch-controls.js` (in the main site bundle) exposes `jorapBindTouchClick`, which binds both `click` and `touchend` with debouncing. Wired into:
 - Graph toolbar (filters, zoom, reset, expand)
 - Notes list / cards / review filters
 - Review session controls
@@ -5489,10 +5489,10 @@ _**Agent (default)**_
 
 **Summary of what was done**
 
-1. **Graph filters on tablet** — Filter chips were in a horizontally scrollable row with fragile touch handling; Reset worked because it used a simple click handler outside that row. Fixed layout (wrap instead of scroll), sticky toolbar, and reliable touch binding.
+1. **Graph filters on tablet** - Filter chips were in a horizontally scrollable row with fragile touch handling; Reset worked because it used a simple click handler outside that row. Fixed layout (wrap instead of scroll), sticky toolbar, and reliable touch binding.
 
-2. **Cache busting** — Page-specific JS (e.g. `notes-graph.js`) now fingerprints in production via `fingerprint-asset.html`, so immutable `/js/*` caching no longer serves stale files after deploy.
+2. **Cache busting** - Page-specific JS (e.g. `notes-graph.js`) now fingerprints in production via `fingerprint-asset.html`, so immutable `/js/*` caching no longer serves stale files after deploy.
 
-3. **All notes buttons on mobile/tablet** — Added `touch-controls.js` and 44px touch targets across graph controls, filter chips, toolbars, review, shuffle, and flashcards.
+3. **All notes buttons on mobile/tablet** - Added `touch-controls.js` and 44px touch targets across graph controls, filter chips, toolbars, review, shuffle, and flashcards.
 
-**To verify on your tablet:** deploy (or hard-refresh), open `/notes/graph/`, and tap **High** / **Low** — the chip should highlight and the graph should refilter.
+**To verify on your tablet:** deploy (or hard-refresh), open `/notes/graph/`, and tap **High** / **Low** - the chip should highlight and the graph should refilter.

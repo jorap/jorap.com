@@ -214,7 +214,7 @@ cd /home/jorap/Documents/GitHub/jorap.com && diff ../hugoplate/package.json pack
 <   "version": "3.5.1",
 ---
 >   "name": "jorap-com",
->   "description": "JoRap Notes — personal blog and portfolio (Hugo + Tailwind).",
+>   "description": "JoRap Notes - personal blog and portfolio (Hugo + Tailwind).",
 >   "version": "2.2.0",
 6c6,9
 <   "author": "zeon.studio",
@@ -1593,7 +1593,7 @@ Upstream sync is complete. Both checkouts were already current; `pnpm build` pas
 
 ## Hugoplate
 
-Synced shared theme files with rsync (JoRap-only paths excluded). **22 files changed** — mostly CSS/JS simplifications and minor layout/widget tweaks:
+Synced shared theme files with rsync (JoRap-only paths excluded). **22 files changed** - mostly CSS/JS simplifications and minor layout/widget tweaks:
 
 | Area | Files |
 |------|-------|
@@ -1603,7 +1603,7 @@ Synced shared theme files with rsync (JoRap-only paths excluded). **22 files cha
 
 **Preserved (not overwritten):** JoRap-only sections, shortcodes, `semantic-tokens.css`, `theme-init.html`, `self-hosted-fonts.html`, about/contact list layouts, and all site content/config.
 
-**Restored after sync** — upstream had replaced JoRap-customized layouts that should stay local:
+**Restored after sync** - upstream had replaced JoRap-customized layouts that should stay local:
 - `home.html`, `head.html`, `header.html`, `style.html`, `script.html`
 - `blog/single.html`, `blog-card.html`, `theme-switcher.html`, `baseof.html`
 
@@ -1622,9 +1622,9 @@ Git shows the old copied Impeccable skill as deleted and the new symlink as untr
 
 ## Manual review suggested
 
-1. **CSS/JS** — upstream removed a lot of custom rules (~406 lines net). Worth a visual pass on nav, cards, and dark mode with your semantic tokens.
-2. **Impeccable symlink** — decide whether to commit the symlink layout or keep the copied install in git.
-3. **Future syncs** — consider adding `home.html`, `head.html`, `header.html`, and `blog/single.html` to `hugoplate-rsync-excludes.txt` so they aren’t overwritten again.
+1. **CSS/JS** - upstream removed a lot of custom rules (~406 lines net). Worth a visual pass on nav, cards, and dark mode with your semantic tokens.
+2. **Impeccable symlink** - decide whether to commit the symlink layout or keep the copied install in git.
+3. **Future syncs** - consider adding `home.html`, `head.html`, `header.html`, and `blog/single.html` to `hugoplate-rsync-excludes.txt` so they aren’t overwritten again.
 
 Changes are unstaged. Say if you want a commit.
 
@@ -1712,7 +1712,7 @@ index 3fd5e2a..e7915ea
 -/*
 - * Header offset: single source of truth for sticky-header height.
 - * - CSS uses it for scroll-padding-top so anchor jumps clear the header.
-- * - JS reads it via getComputedStyle(...) — see assets/js/toc.js + back-to-top.js.
+- * - JS reads it via getComputedStyle(...) - see assets/js/toc.js + back-to-top.js.
 - * Update here only; do not duplicate in JS.
 - */
  html {
@@ -1831,7 +1831,7 @@ index 8593c2f..45ba65e
  
 -/* Content / prose style.
 - * Uses semantic tokens (ink, ink-muted, elevated, divider, accent) so dark mode
-- * is handled automatically by tailwind-plugin/tw-theme.js — no `dark:` twins needed.
+- * is handled automatically by tailwind-plugin/tw-theme.js - no `dark:` twins needed.
 - */
 +/* content style */
  .content {
@@ -2186,11 +2186,11 @@ cd /home/jorap/Documents/GitHub/jorap.com && git diff --stat HEAD -- themes/ && 
 
 _**Agent (default)**_
 
-The sync didn’t just “update templates” — it replaced JoRap’s design system with stock Hugoplate, while your layouts still speak JoRap’s language. That mismatch is what wrecked the site.
+The sync didn’t just “update templates” - it replaced JoRap’s design system with stock Hugoplate, while your layouts still speak JoRap’s language. That mismatch is what wrecked the site.
 
 ## Root cause: two different design systems colliding
 
-JoRap runs a **semantic token layer** (`semantic-tokens.css` + customized CSS) with utilities like `text-ink`, `bg-surface`, `border-divider`, `text-ink-muted`. Dark mode swaps via CSS variables — no `dark:` twins in markup.
+JoRap runs a **semantic token layer** (`semantic-tokens.css` + customized CSS) with utilities like `text-ink`, `bg-surface`, `border-divider`, `text-ink-muted`. Dark mode swaps via CSS variables - no `dark:` twins in markup.
 
 Upstream Hugoplate still uses the **old token names**: `text-text`, `bg-body`, `dark:bg-darkmode-body`, etc.
 
@@ -2221,11 +2221,11 @@ That conflicts with your CSP setup and the `self-hosted-fonts.html` partial JoRa
 
 ### 3. `main.js` dropped nav dropdown behavior
 
-JoRap’s header uses `.nav-dropdown-trigger` handlers. Upstream removed that block entirely — mobile/tablet menus would stop working.
+JoRap’s header uses `.nav-dropdown-trigger` handlers. Upstream removed that block entirely - mobile/tablet menus would stop working.
 
 ### 4. Layout/token mismatch on pages that weren’t restored
 
-Even after partial restores, files like `footer.html`, `list.html`, `404.en.html` still had upstream `text-text-dark` classes while the homepage used `text-ink` — inconsistent look sitewide.
+Even after partial restores, files like `footer.html`, `list.html`, `404.en.html` still had upstream `text-text-dark` classes while the homepage used `text-ink` - inconsistent look sitewide.
 
 ### 5. Homepage would have been nuked entirely
 
@@ -2233,15 +2233,15 @@ Upstream `home.html` is a generic Hugoplate marketing page (banner/features/test
 
 ## What I did
 
-1. **Restored the full theme** — `git checkout HEAD -- themes/jorap/`
-2. **Verified build** — 1470 pages, CSP hashes OK
-3. **Hardened future syncs** — expanded `hugoplate-rsync-excludes.txt` to exclude all `css/`, `js/main.js`, and JoRap-customized layouts
+1. **Restored the full theme** - `git checkout HEAD -- themes/jorap/`
+2. **Verified build** - 1470 pages, CSP hashes OK
+3. **Hardened future syncs** - expanded `hugoplate-rsync-excludes.txt` to exclude all `css/`, `js/main.js`, and JoRap-customized layouts
 
 The theme is back to pre-sync state. Remaining unstaged change is only the exclude-list update (plus the Impeccable symlink swap from earlier, which doesn’t affect the site render).
 
 ## Takeaway
 
-The sync skill treated “shared theme files” as safe to overwrite, but JoRap has **forked the entire styling layer**, not just a few partials. Future Hugoplate syncs should be surgical — pick individual upstream fixes, don’t rsync CSS/JS or core layouts wholesale.
+The sync skill treated “shared theme files” as safe to overwrite, but JoRap has **forked the entire styling layer**, not just a few partials. Future Hugoplate syncs should be surgical - pick individual upstream fixes, don’t rsync CSS/JS or core layouts wholesale.
 
 Want me to commit the exclude-list fix, or walk through the site in dev mode to spot-check pages visually?
 
@@ -2341,27 +2341,27 @@ chmod +x /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/sync-upstreams/tr
 ```
 
 ```
-MANUAL	layouts/authors/single.html	JoRap customization detected — merge by hand or skip
-CANDIDATE	layouts/baseof.html	Likely safe — still read diff before copying
-MANUAL	layouts/blog/single.html	JoRap customization detected — merge by hand or skip
-ADD-ONLY	layouts/contact.html	New upstream file — safe to add if not JoRap-specific path
-MANUAL	layouts/home.html	JoRap customization detected — merge by hand or skip
-MANUAL	layouts/list.html	JoRap customization detected — merge by hand or skip
-MANUAL	layouts/_partials/call-to-action.html	JoRap customization detected — merge by hand or skip
-MANUAL	layouts/_partials/components/author-card.html	JoRap customization detected — merge by hand or skip
-MANUAL	layouts/_partials/components/blog-card.html	JoRap customization detected — merge by hand or skip
+MANUAL	layouts/authors/single.html	JoRap customization detected - merge by hand or skip
+CANDIDATE	layouts/baseof.html	Likely safe - still read diff before copying
+MANUAL	layouts/blog/single.html	JoRap customization detected - merge by hand or skip
+ADD-ONLY	layouts/contact.html	New upstream file - safe to add if not JoRap-specific path
+MANUAL	layouts/home.html	JoRap customization detected - merge by hand or skip
+MANUAL	layouts/list.html	JoRap customization detected - merge by hand or skip
+MANUAL	layouts/_partials/call-to-action.html	JoRap customization detected - merge by hand or skip
+MANUAL	layouts/_partials/components/author-card.html	JoRap customization detected - merge by hand or skip
+MANUAL	layouts/_partials/components/blog-card.html	JoRap customization detected - merge by hand or skip
 SKIP	layouts/_partials/components/breadcrumb.html	Would revert JoRap tokens, fonts, or CSP-friendly setup
-MANUAL	layouts/_partials/components/pagination.html	JoRap customization detected — merge by hand or skip
-MANUAL	layouts/_partials/components/theme-switcher.html	JoRap customization detected — merge by hand or skip
-MANUAL	layouts/_partials/essentials/footer.html	JoRap customization detected — merge by hand or skip
-MANUAL	layouts/_partials/essentials/header.html	JoRap customization detected — merge by hand or skip
-MANUAL	layouts/_partials/essentials/head.html	JoRap customization detected — merge by hand or skip
-CANDIDATE	layouts/_partials/essentials/script.html	Likely safe — still read diff before copying
-MANUAL	layouts/_partials/essentials/style.html	JoRap customization detected — merge by hand or skip
-CANDIDATE	layouts/_partials/page-header.html	Likely safe — still read diff before copying
-MANUAL	layouts/_partials/widgets/categories.html	JoRap customization detected — merge by hand or skip
-MANUAL	layouts/_partials/widgets/tags.html	JoRap customization detected — merge by hand or skip
-MANUAL	layouts/taxonomy.html	JoRap customization detected — merge by hand or skip
+MANUAL	layouts/_partials/components/pagination.html	JoRap customization detected - merge by hand or skip
+MANUAL	layouts/_partials/components/theme-switcher.html	JoRap customization detected - merge by hand or skip
+MANUAL	layouts/_partials/essentials/footer.html	JoRap customization detected - merge by hand or skip
+MANUAL	layouts/_partials/essentials/header.html	JoRap customization detected - merge by hand or skip
+MANUAL	layouts/_partials/essentials/head.html	JoRap customization detected - merge by hand or skip
+CANDIDATE	layouts/_partials/essentials/script.html	Likely safe - still read diff before copying
+MANUAL	layouts/_partials/essentials/style.html	JoRap customization detected - merge by hand or skip
+CANDIDATE	layouts/_partials/page-header.html	Likely safe - still read diff before copying
+MANUAL	layouts/_partials/widgets/categories.html	JoRap customization detected - merge by hand or skip
+MANUAL	layouts/_partials/widgets/tags.html	JoRap customization detected - merge by hand or skip
+MANUAL	layouts/taxonomy.html	JoRap customization detected - merge by hand or skip
 CANDIDATE	la
 … (output truncated)
 ```
@@ -2377,7 +2377,7 @@ The exclude list entries are relative to the layouts/ folder, but the triage scr
 
 _**Agent (default)**_
 
-Fixing triage script path matching — excludes use layout-relative paths but the script compares full paths.
+Fixing triage script path matching - excludes use layout-relative paths but the script compares full paths.
 
 
 _**Agent (default)**_
@@ -2417,15 +2417,15 @@ cd /home/jorap/Documents/GitHub/jorap.com && bash .cursor/skills/sync-upstreams/
 ```
 
 ```
-MANUAL	assets/css/base.css	JoRap customization detected — merge by hand or skip
-MANUAL	assets/css/buttons.css	JoRap customization detected — merge by hand or skip
-MANUAL	assets/css/components.css	JoRap customization detected — merge by hand or skip
-CANDIDATE	assets/css/generated-theme.css	Likely safe — still read diff before copying
-MANUAL	assets/css/main.css	JoRap customization detected — merge by hand or skip
-MANUAL	assets/css/module-overrides.css	JoRap customization detected — merge by hand or skip
-MANUAL	assets/css/navigation.css	JoRap customization detected — merge by hand or skip
-MANUAL	assets/css/safe.css	JoRap customization detected — merge by hand or skip
-MANUAL	assets/css/utilities.css	JoRap customization detected — merge by hand or skip
+MANUAL	assets/css/base.css	JoRap customization detected - merge by hand or skip
+MANUAL	assets/css/buttons.css	JoRap customization detected - merge by hand or skip
+MANUAL	assets/css/components.css	JoRap customization detected - merge by hand or skip
+CANDIDATE	assets/css/generated-theme.css	Likely safe - still read diff before copying
+MANUAL	assets/css/main.css	JoRap customization detected - merge by hand or skip
+MANUAL	assets/css/module-overrides.css	JoRap customization detected - merge by hand or skip
+MANUAL	assets/css/navigation.css	JoRap customization detected - merge by hand or skip
+MANUAL	assets/css/safe.css	JoRap customization detected - merge by hand or skip
+MANUAL	assets/css/utilities.css	JoRap customization detected - merge by hand or skip
 Summary: BLOCKED=25 MANUAL=8 SKIP=0 CANDIDATE=1 ADD-ONLY=0
 Apply only CANDIDATE and ADD-ONLY after reading each diff. Never bulk-rsync CSS, JS, or core layouts.
 
@@ -2498,10 +2498,10 @@ The sync skill now **triages before it applies anything**. Here’s what changed
 
 ## New workflow
 
-1. **Run triage report** (`triage-hugoplate.sh`) — classifies every upstream diff as BLOCKED / SKIP / MANUAL / CANDIDATE / ADD-ONLY  
+1. **Run triage report** (`triage-hugoplate.sh`) - classifies every upstream diff as BLOCKED / SKIP / MANUAL / CANDIDATE / ADD-ONLY  
 2. **Read each diff** for anything that isn’t BLOCKED  
 3. **Copy one file at a time** only when the diff is clearly safe  
-4. **Build and summarize** — applied / skipped / needs review  
+4. **Build and summarize** - applied / skipped / needs review  
 
 Bulk `rsync` is no longer the default. It’s only allowed if the user explicitly asks **and** triage shows no MANUAL/SKIP rows.
 
@@ -2522,7 +2522,7 @@ Right now (theme restored):
 Summary: BLOCKED=35 MANUAL=0 SKIP=0 CANDIDATE=0 ADD-ONLY=0
 ```
 
-All differing theme files are blocked — the correct outcome is **“no safe Hugoplate changes to apply”** rather than copying anything.
+All differing theme files are blocked - the correct outcome is **“no safe Hugoplate changes to apply”** rather than copying anything.
 
 When upstream does have a real fix (e.g. a new plugin file or a widget typo), it’ll show as **CANDIDATE** or **ADD-ONLY** and the agent must still read the full diff before copying.
 
@@ -2649,23 +2649,23 @@ Only in themes/jorap/layouts: shortcodes
 
 _**Agent (default)**_
 
-Right now, **every Hugoplate theme diff is blocked** — 35 files, zero safe auto-applies. Here’s the breakdown by category and why.
+Right now, **every Hugoplate theme diff is blocked** - 35 files, zero safe auto-applies. Here’s the breakdown by category and why.
 
-## Theme: all 35 differing files — BLOCKED
+## Theme: all 35 differing files - BLOCKED
 
-### CSS (10 files) — cannot apply
+### CSS (10 files) - cannot apply
 
 `base.css`, `buttons.css`, `components.css`, `custom.css`, `generated-theme.css`, `main.css`, `module-overrides.css`, `navigation.css`, `safe.css`, `utilities.css`
 
-Upstream would revert JoRap’s **semantic token system** (`text-ink`, `bg-surface`, `border-divider`) back to Hugoplate’s old tokens (`text-text`, `bg-body`, `dark:*` twins). That breaks layouts that still use semantic classes — typography, dark mode, prose, TOC scroll offset, article titles, etc.
+Upstream would revert JoRap’s **semantic token system** (`text-ink`, `bg-surface`, `border-divider`) back to Hugoplate’s old tokens (`text-text`, `bg-body`, `dark:*` twins). That breaks layouts that still use semantic classes - typography, dark mode, prose, TOC scroll offset, article titles, etc.
 
-### JavaScript (1 file) — cannot apply
+### JavaScript (1 file) - cannot apply
 
 `main.js`
 
 Upstream removes JoRap’s **nav dropdown handlers** (`nav-dropdown-trigger`) and changes Swiper init. Mobile nav would break.
 
-### Core layouts (9 files) — cannot apply
+### Core layouts (9 files) - cannot apply
 
 | File | Why |
 |------|-----|
@@ -2675,7 +2675,7 @@ Upstream removes JoRap’s **nav dropdown handlers** (`nav-dropdown-trigger`) an
 | `404.en.html`, `list.html`, `taxonomy.html`, `term.html` | JoRap token classes and structure differ |
 | `authors/single.html` | JoRap markup customizations |
 
-### Essentials partials (5 files) — cannot apply
+### Essentials partials (5 files) - cannot apply
 
 | File | Why |
 |------|-----|
@@ -2685,11 +2685,11 @@ Upstream removes JoRap’s **nav dropdown handlers** (`nav-dropdown-trigger`) an
 | `footer.html` | JoRap footer markup |
 | `script.html` | JoRap script bundle order |
 
-### Components & widgets (8 files) — cannot apply
+### Components & widgets (8 files) - cannot apply
 
-`blog-card.html`, `theme-switcher.html`, `author-card.html`, `breadcrumb.html`, `pagination.html`, `call-to-action.html`, `categories.html`, `tags.html` — all use JoRap tokens or markup upstream would overwrite.
+`blog-card.html`, `theme-switcher.html`, `author-card.html`, `breadcrumb.html`, `pagination.html`, `call-to-action.html`, `categories.html`, `tags.html` - all use JoRap tokens or markup upstream would overwrite.
 
-### Upstream-only layouts — do not add
+### Upstream-only layouts - do not add
 
 | File | Why |
 |------|-----|
@@ -2697,26 +2697,26 @@ Upstream removes JoRap’s **nav dropdown handlers** (`nav-dropdown-trigger`) an
 
 ---
 
-## JoRap-only files upstream doesn’t have — never replace
+## JoRap-only files upstream doesn’t have - never replace
 
 These exist only in JoRap; applying upstream would mean **deleting** them if you ever used `--delete` rsync:
 
 - `_partials/sections/*` (homepage sections)
 - `_partials/essentials/self-hosted-fonts.html`, `theme-init.html`
-- `_partials/components/` — `icon`, `image`, `image-process`, `social-share`, `back-to-top`
-- `shortcodes/` — spotify, youtube variants
+- `_partials/components/` - `icon`, `image`, `image-process`, `social-share`, `back-to-top`
+- `shortcodes/` - spotify, youtube variants
 - `_markup/render-heading.html`
 - `about/`, `contact/` list layouts
 
 ---
 
-## Root scripts — manual merge only (3 files)
+## Root scripts - manual merge only (3 files)
 
 | File | Status |
 |------|--------|
-| `projectSetup.js` | Differs — JoRap uses theme name `jorap` |
-| `themeSetup.js` | Differs — JoRap uses theme name `jorap` |
-| `removeDarkmode.js` | Differs — may have JoRap edits |
+| `projectSetup.js` | Differs - JoRap uses theme name `jorap` |
+| `themeSetup.js` | Differs - JoRap uses theme name `jorap` |
+| `removeDarkmode.js` | Differs - may have JoRap edits |
 
 **Already in sync (nothing to apply):** `themeGenerator.js`, `themeUpdate.js`, `clearModules.js`, `removeMultilang.js`
 
@@ -2724,11 +2724,11 @@ These exist only in JoRap; applying upstream would mean **deleting** them if you
 
 ---
 
-## Agent skills — partial apply only
+## Agent skills - partial apply only
 
 | File | Rule |
 |------|------|
-| `content-management.md` | Upstream is missing JoRap’s `__` draft-post convention — sync wholesale would **remove** that note |
+| `content-management.md` | Upstream is missing JoRap’s `__` draft-post convention - sync wholesale would **remove** that note |
 
 Everything else under `.agents/skills/` is already matched.
 
@@ -2738,7 +2738,7 @@ Everything else under `.agents/skills/` is already matched.
 
 Triage found **0 CANDIDATE** and **0 ADD-ONLY** files. Hugoplate and JoRap are in sync on everything that’s safe to auto-apply (plugins, widgets JoRap doesn’t override, new upstream files in non-conflicting paths).
 
-The gap is entirely in **forked** areas: design tokens, fonts, homepage, blog layout, nav, and head/CSP setup. Those need hand-merge if you ever want a specific upstream fix — not bulk sync.
+The gap is entirely in **forked** areas: design tokens, fonts, homepage, blog layout, nav, and head/CSP setup. Those need hand-merge if you ever want a specific upstream fix - not bulk sync.
 
 Want a file-by-file diff summary for any one category (e.g. just CSS, or just `head.html`/`style.html`)?
 
@@ -3008,7 +3008,7 @@ The sync used npm because bun was unavailable. The symlink works locally. Git sh
 
 _**Agent (default)**_
 
-During `/sync-upstreams`, Impeccable wasn’t broken in day-to-day use — but its **install method** changed, and **git is in a messy state**.
+During `/sync-upstreams`, Impeccable wasn’t broken in day-to-day use - but its **install method** changed, and **git is in a messy state**.
 
 ## What the sync did
 
@@ -3020,7 +3020,7 @@ During `/sync-upstreams`, Impeccable wasn’t broken in day-to-day use — but i
   → ../../../impeccable/dist/universal/.cursor/skills/impeccable
 ```
 
-3. **Left alone** your project context: `docs/PRODUCT.md`, `docs/DESIGN.md`, `.impeccable/` — those were not touched.
+3. **Left alone** your project context: `docs/PRODUCT.md`, `docs/DESIGN.md`, `.impeccable/` - those were not touched.
 
 ## Does it work right now?
 
@@ -3028,7 +3028,7 @@ During `/sync-upstreams`, Impeccable wasn’t broken in day-to-day use — but i
 
 So functionally: same version, same commands, live install tracks your local `../impeccable` checkout.
 
-## What looks “destroyed” — git, not the skill
+## What looks “destroyed” - git, not the skill
 
 Before sync, **93 files** under `.cursor/skills/impeccable/` were **tracked in git** (a vendored copy).
 
@@ -3037,7 +3037,7 @@ After sync, that directory is a **symlink**. Git sees:
 - **93 deletions** (`D .cursor/skills/impeccable/...`)
 - **1 untracked symlink** (`?? .cursor/skills/impeccable`)
 
-Nothing was committed, so the repo is stuck between two install styles. A fresh clone would get the old copied files from git — but your working tree has the symlink instead.
+Nothing was committed, so the repo is stuck between two install styles. A fresh clone would get the old copied files from git - but your working tree has the symlink instead.
 
 ## Tradeoffs of the symlink install
 
@@ -3074,7 +3074,7 @@ Here’s how it works in your setup.
 
 ## What a symlink is
 
-A **symbolic link** (symlink) is a small pointer file. It doesn’t hold the skill content itself — it says “the real files live over there.”
+A **symbolic link** (symlink) is a small pointer file. It doesn’t hold the skill content itself - it says “the real files live over there.”
 
 When Cursor (or you) opens:
 
@@ -3129,7 +3129,7 @@ npm install   # if deps changed
 node scripts/build.js --skip-root-sync
 ```
 
-No re-copy into jorap.com — the symlink already points at `dist/`, so the skill updates as soon as the build finishes.
+No re-copy into jorap.com - the symlink already points at `dist/`, so the skill updates as soon as the build finishes.
 
 ## Why git looks weird
 
@@ -3245,7 +3245,7 @@ cd /home/jorap/Documents/GitHub/jorap.com && git checkout HEAD -- themes/jorap/a
 
 _**Agent (default)**_
 
-The Hugoplate layouts rsync was **aborted** — it hung in the sandbox partway through copying files. A later rerun with full permissions finished the sync, which is what caused the theme breakage; we rolled the theme back afterward.
+The Hugoplate layouts rsync was **aborted** - it hung in the sandbox partway through copying files. A later rerun with full permissions finished the sync, which is what caused the theme breakage; we rolled the theme back afterward.
 
 I also found one leftover from that episode (`buttons.css` had a small upstream tweak) and restored it. The theme tree is clean again. Uncommitted work is only the sync-upstreams skill updates and the Impeccable symlink swap.
 
@@ -3296,7 +3296,7 @@ cd /home/jorap/Documents/GitHub/jorap.com && git diff --stat HEAD -- themes/jora
 
 _**Agent (default)**_
 
-Both of those rsyncs were **aborted** mid-run — they hung in the sandbox like the layouts sync.
+Both of those rsyncs were **aborted** mid-run - they hung in the sandbox like the layouts sync.
 
 **Assets rsync (716485):** Partially copied CSS/JS before it was killed. A later full-permissions rerun applied upstream assets (which contributed to the site breakage). The theme was rolled back; `themes/jorap/assets/` now matches HEAD.
 

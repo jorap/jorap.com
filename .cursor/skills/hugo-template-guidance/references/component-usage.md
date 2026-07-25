@@ -22,7 +22,7 @@ themes/<theme>/layouts/
 
 ## Partials & Modules
 
-- `{{ partial "name.html" . }}`; `{{ partialCached ... }}` for page-invariant output (styles, scripts, announcement) — `baseof.html` does this deliberately; match it.
+- `{{ partial "name.html" . }}`; `{{ partialCached ... }}` for page-invariant output (styles, scripts, announcement) - `baseof.html` does this deliberately; match it.
 - Override a **module** partial by creating the same path in root `layouts/_partials/` (union FS wins).
 - `config/_default/module.toml` lists available `gethugothemes/hugo-modules` modules, check `https://github.com/gethugothemes/hugo-modules` for more.
 - **Active:** `llms-txt`, `search`, `pwa`, `images`, `videos`, `icons/font-awesome`, `gzip-caching`, `adsense`, `accordion`, `table-of-contents``tab`, `modal`, `gallery-slider`, `components/{preloader,announcement,cookie-consent,social-share,custom-script,open-remark,render-link}`, `shortcode{button,notice,mermaid}`, `seo-tools/{basic-seo,site-verifications,google-tag-manager}`.
@@ -49,6 +49,6 @@ Tailwind utilities + tokens (`text-primary`, `bg-body`, `dark:bg-darkmode-body`)
 ## DO NOT
 
 - Rename `_partials/`→`partials/`, `home.html`→`index.html`, or move `baseof.html` into `_default/`.
-- Assume a partial is missing because it's not in `themes/<theme>/layouts/` — check `module.toml` first.
-- Edit a vendored module in the Go cache, or files under `themes/<theme>/` directly — override via root `layouts/`.
-- Hand-roll `<img>` for content images — use `partial "image"`. Hardcode hex — use tokens.
+- Assume a partial is missing because it's not in `themes/<theme>/layouts/` - check `module.toml` first.
+- Edit a vendored module in the Go cache, or files under `themes/<theme>/` directly - override via root `layouts/`.
+- Hand-roll `<img>` for content images - use `partial "image"`. Hardcode hex - use tokens.

@@ -46,6 +46,14 @@ cards:
     back: "Different line, same goal."
   - front: "Rain killed our outdoor run mid-practice. Same reps goal - where do we move?"
     back: "Covered court. Keep drilling."
+  - front: "Morning route habit died when the lane closed - still auto-walking the old way."
+    back: "Name the goal - pick a new line today."
+  - front: "Plan B feels like quitting - thumb hovering on cancel-the-outing text."
+    back: "Keep the aim - different venue, not a bail."
+  - front: "New tool landed and my gut says abandon the whole project."
+    back: "Swap the step - keep the promise."
+  - front: "Boss wants a new deadline every time conditions shift."
+    back: "Adapt once - yes stays yes on the date."
 draft: false
 ---
 

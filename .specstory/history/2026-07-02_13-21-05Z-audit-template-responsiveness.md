@@ -41,7 +41,7 @@ Beginning a thorough audit of custom layout templates for mobile responsiveness 
 
 _**Agent (composer-2.5-fast)**_
 
-Auditing layout templates and CSS for responsiveness — I'll map the template files first, then read them for the issues you listed.
+Auditing layout templates and CSS for responsiveness - I'll map the template files first, then read them for the issues you listed.
 
 
 _**Agent (composer-2.5-fast)**_
@@ -2192,8 +2192,8 @@ Audited all site overrides under `layouts/`, theme layouts under `themes/jorap/l
 |---|---|---|
 | `assets/css/custom.css` **504** | `.notes-graph-search-wrap { min-width: 10rem; }` fights for space with zoom/color buttons in one toolbar row | `@media (max-width: 639px) { .notes-graph-search-wrap { flex: 1 1 100%; min-width: 0; } .notes-graph-actions { margin-left: 0; width: 100%; } }` |
 | `assets/css/custom.css` **758** | `.notes-backlinks-sort { min-width: 7.5rem; }` adds to a crowded control row | On mobile: `.notes-backlinks-sort-wrap { width: 100%; } .notes-backlinks-sort { width: 100%; min-width: 0; }` |
-| `layouts/notes/list.html` **84** | `sm:min-w-[16rem]` on refine dropdown body | Keep; already overridden to static layout below 640px in CSS **1261–1265**. No change needed unless dropdown clips on sm tablets — add `sm:max-w-[calc(100vw-2rem)]` |
-| `assets/css/custom.css` **746** | `.notes-backlinks-jump__title { max-width: 12rem; }` | Intentional truncation with ellipsis — OK |
+| `layouts/notes/list.html` **84** | `sm:min-w-[16rem]` on refine dropdown body | Keep; already overridden to static layout below 640px in CSS **1261–1265**. No change needed unless dropdown clips on sm tablets - add `sm:max-w-[calc(100vw-2rem)]` |
+| `assets/css/custom.css` **746** | `.notes-backlinks-jump__title { max-width: 12rem; }` | Intentional truncation with ellipsis - OK |
 
 ---
 
@@ -2201,11 +2201,11 @@ Audited all site overrides under `layouts/`, theme layouts under `themes/jorap/l
 
 | Location | Issue | Fix |
 |---|---|---|
-| `themes/jorap/layouts/_partials/sections/features.html` **5–7** | Typo `mb:md-0` (invalid) — `mb-6` always applies | Change to `md:mb-0` |
-| `layouts/notes/random-duo.html` **25, 34** | `md:col-6` only — stacks below 768px | OK; optionally add explicit `col-12` for clarity |
-| `layouts/_partials/notes/random-unrelated-notes.html` **45** | Random slot has no `md:col-*` — always full width | OK by design |
+| `themes/jorap/layouts/_partials/sections/features.html` **5–7** | Typo `mb:md-0` (invalid) - `mb-6` always applies | Change to `md:mb-0` |
+| `layouts/notes/random-duo.html` **25, 34** | `md:col-6` only - stacks below 768px | OK; optionally add explicit `col-12` for clarity |
+| `layouts/_partials/notes/random-unrelated-notes.html` **45** | Random slot has no `md:col-*` - always full width | OK by design |
 
-No hardcoded `grid-cols-N` without `sm:/md:/lg:` variants found in custom layouts — grids use Bootstrap `md:col-6 lg:col-4` or Tailwind `sm:grid-cols-2 lg:grid-cols-3` correctly.
+No hardcoded `grid-cols-N` without `sm:/md:/lg:` variants found in custom layouts - grids use Bootstrap `md:col-6 lg:col-4` or Tailwind `sm:grid-cols-2 lg:grid-cols-3` correctly.
 
 ---
 
@@ -2226,7 +2226,7 @@ No hardcoded `grid-cols-N` without `sm:/md:/lg:` variants found in custom layout
 |---|---|---|
 | `layouts/notes/graph.html` **42–104** | Two dense filter rows; "All \| N notes \| M links" pills are long | Already wraps via `.notes-graph-filters { flex-wrap: wrap; }`. On mobile also hide counts: extend CSS **1094–1096** to `@media (max-width: 639px) { .notes-graph-filter__count { display: none; } }` (counts remain in `aria-label`) |
 | `assets/css/custom.css` **1021** | `.notes-graph-filter { white-space: nowrap; }` | OK per-pill; combine with count-hiding above for narrow screens |
-| `assets/css/custom.css` **531–549** | Page graph `min-height: 17.5rem` / expanded `min-height: 28–32rem` | Vertical space, not horizontal overflow — OK. Optional: `@media (max-width: 639px) { .notes-graph.is-expanded { min-height: 20rem; height: min(70vh, 36rem); } }` |
+| `assets/css/custom.css` **531–549** | Page graph `min-height: 17.5rem` / expanded `min-height: 28–32rem` | Vertical space, not horizontal overflow - OK. Optional: `@media (max-width: 639px) { .notes-graph.is-expanded { min-height: 20rem; height: min(70vh, 36rem); } }` |
 
 #### Toolbars / control rows
 
@@ -2235,13 +2235,13 @@ No hardcoded `grid-cols-N` without `sm:/md:/lg:` variants found in custom layout
 | `layouts/notes/list.html` **61–117** | Control row: search + Clear + Refine + count (`whitespace-nowrap ms-auto shrink-0`) can overflow on ~320px when multiple controls share a wrapped row | Move count to its own row on xs: wrap count in `<div class="w-full sm:w-auto sm:ms-auto">` or add `@media (max-width: 639px) { .notes-list-count { width: 100%; margin-left: 0; } }` |
 | `layouts/notes/backlinks.html` **79–121** | Same pattern: sort + Expand + Collapse + nowrap count on one flex row | Same pattern: `@media (max-width: 639px) { .notes-backlinks-count { flex-basis: 100%; margin-left: 0; } }` |
 | `layouts/_partials/notes/toolbar.html` **6–77** | 8–10 nav pills with counts; wraps but very dense on phone | Optional: hide `.notes-filter__count` below `sm` in CSS, matching graph filters |
-| `assets/css/custom.css` **1356, 1384** | `.notes-random-controls`, `.notes-path-toolbar` use `flex-wrap: nowrap` | Path chain has `overflow-x: auto` (**1418**) — OK. For controls row on xs, change to `flex-wrap: wrap` and `.notes-random-controls .btn { width: 100%; }` at 639px |
+| `assets/css/custom.css` **1356, 1384** | `.notes-random-controls`, `.notes-path-toolbar` use `flex-wrap: nowrap` | Path chain has `overflow-x: auto` (**1418**) - OK. For controls row on xs, change to `flex-wrap: wrap` and `.notes-random-controls .btn { width: 100%; }` at 639px |
 
 #### Path chains
 
 | Location | Issue | Fix |
 |---|---|---|
-| `layouts/notes/random-duo.html` **19** | Path chain lacks `min-w-0 flex-wrap` (relies on CSS scroll) | Add `min-w-0` to chain div; scroll already handled in CSS **1411–1421** — OK |
+| `layouts/notes/random-duo.html` **19** | Path chain lacks `min-w-0 flex-wrap` (relies on CSS scroll) | Add `min-w-0` to chain div; scroll already handled in CSS **1411–1421** - OK |
 | `layouts/_partials/notes/random-unrelated-notes.html` **39** | Has `flex-wrap` in HTML but path-toolbar CSS forces `nowrap` + scroll | OK for toolbar context |
 
 ---
@@ -2250,7 +2250,7 @@ No hardcoded `grid-cols-N` without `sm:/md:/lg:` variants found in custom layout
 
 | Location | Issue | Fix |
 |---|---|---|
-| `layouts/notes/list.html` **112** | `whitespace-nowrap` on note count | See §3 — allow wrap or full-width row on xs |
+| `layouts/notes/list.html` **112** | `whitespace-nowrap` on note count | See §3 - allow wrap or full-width row on xs |
 | `layouts/notes/backlinks.html` **116** | Same on backlink count | Same |
 | `assets/css/custom.css` **745, 1021, 1378, 1426** | Jump titles, graph filters, shuffle btn, path links | Jump titles: OK (ellipsis). Graph filters: hide counts on xs. Shuffle btn: OK (short label). Path links: OK inside scroll container |
 
@@ -2260,9 +2260,9 @@ No hardcoded `grid-cols-N` without `sm:/md:/lg:` variants found in custom layout
 
 | Location | Issue | Fix |
 |---|---|---|
-| `layouts/notes/list.html` **84** | `sm:absolute sm:right-0` refine panel | Fallback exists: CSS **1261–1265** forces `position: static` below 640px — **OK** |
+| `layouts/notes/list.html` **84** | `sm:absolute sm:right-0` refine panel | Fallback exists: CSS **1261–1265** forces `position: static` below 640px - **OK** |
 | `assets/css/custom.css` **1127–1137** | `.wikilink-preview { position: absolute; max-width: 18rem; }` | JS-positioned; ensure JS clamps to viewport edges (not in templates) |
-| `themes/jorap/layouts/_partials/sections/features.html` **23** | Check icon `absolute left-0 top-2` | OK — parent `li` has `pl-6` |
+| `themes/jorap/layouts/_partials/sections/features.html` **23** | Check icon `absolute left-0 top-2` | OK - parent `li` has `pl-6` |
 | `layouts/notes/single.html` **76** | TOC `sticky top-[100px]` | Consider `top-[var(--header-offset,5rem)]` if mobile header height differs |
 
 ---
@@ -2271,12 +2271,12 @@ No hardcoded `grid-cols-N` without `sm:/md:/lg:` variants found in custom layout
 
 | Location | Issue | Fix |
 |---|---|---|
-| `themes/jorap/assets/css/components.css` **23–24** | Footer/social icons `h-9 w-9` (36px) — below 44px min | Already overridden in `assets/css/custom.css` **58–64** for `.social-icons li a` — **OK on site** |
+| `themes/jorap/assets/css/components.css` **23–24** | Footer/social icons `h-9 w-9` (36px) - below 44px min | Already overridden in `assets/css/custom.css` **58–64** for `.social-icons li a` - **OK on site** |
 | `themes/jorap/assets/css/module-overrides.css` **48–49** | Share icons `h-9 w-9` (36px) | Add `.share-icons .share-link { min-height: var(--touch-target-min); min-width: var(--touch-target-min); }` |
 | `themes/jorap/layouts/blog/single.html` **79** | Tag links `px-3 py-1` (~32px tall) | Change to `px-3 py-2 min-h-11 inline-flex items-center` |
 | `themes/jorap/layouts/taxonomy.html` **13** | Term pills `px-4 py-2 text-xl` (~40px) | Add `min-h-11 inline-flex items-center` |
-| `layouts/_partials/notes/note-card.html` **54** | Tag chips `px-2 py-0.5` | Secondary targets inside card — acceptable; optional `py-1.5` |
-| `assets/css/custom.css` **76–78** | `.btn-sm { min-height: 2.75rem; }` | **Good** — toolbar/buttons meet 44px |
+| `layouts/_partials/notes/note-card.html` **54** | Tag chips `px-2 py-0.5` | Secondary targets inside card - acceptable; optional `py-1.5` |
+| `assets/css/custom.css` **76–78** | `.btn-sm { min-height: 2.75rem; }` | **Good** - toolbar/buttons meet 44px |
 | `themes/jorap/assets/css/buttons.css` **15–19** | Touch min on `.btn`/`.btn-sm` below 1280px | **Good** |
 
 ---
@@ -2287,7 +2287,7 @@ No hardcoded `grid-cols-N` without `sm:/md:/lg:` variants found in custom layout
 |---|---|---|
 | `layouts/notes/single.html` **74** | TOC sidebar `hidden lg:block`; mobile TOC at **36–39** `lg:hidden` | **Correct** |
 | `themes/jorap/layouts/blog/single.html` **105–115** | Desktop TOC `hidden lg:block`; mobile collapsible **46–66** | **Correct** |
-| `layouts/blog/list.html` **23–27** | `lg:col-4` sidebar — Bootstrap stacks full-width below `lg` | **Correct** |
+| `layouts/blog/list.html` **23–27** | `lg:col-4` sidebar - Bootstrap stacks full-width below `lg` | **Correct** |
 | `layouts/drafts/list.html` **26–28** | Same | **Correct** |
 | `themes/jorap/layouts/term.html` **21–24** | Same | **Correct** |
 
@@ -2299,10 +2299,10 @@ No sidebar-stacking bugs found.
 
 | Location | Issue | Fix |
 |---|---|---|
-| `themes/jorap/layouts/contact/list.html` **79–94** | Bootstrap classes `input-group`, `w-75`, `input-group-text` — not in Tailwind theme; subscription row may not layout correctly | Replace with `flex flex-col sm:flex-row gap-2 w-full max-w-xl mx-auto` and theme `form-input` / `btn btn-primary` |
-| `layouts/_partials/notes/random-prompt-panel.html` **12–16** | Four AI buttons inside `<summary>` — wraps via CSS but cramped on 320px | Move actions out of summary into body, or `@media (max-width: 639px) { .notes-random-prompt-actions { width: 100%; } .notes-random-prompt-actions .btn { flex: 1 1 100%; } }` |
-| `layouts/notes/cards.html` **45–51** | Filter row `justify-between` — many set pills can crowd count | Add `flex-col sm:flex-row sm:items-center gap-3` on wrapper |
-| `layouts/notes/single.html` **36–39** | Mobile TOC always expanded (no toggle unlike blog) | UX gap, not overflow — mirror blog's collapsible TOC if notes are long |
+| `themes/jorap/layouts/contact/list.html` **79–94** | Bootstrap classes `input-group`, `w-75`, `input-group-text` - not in Tailwind theme; subscription row may not layout correctly | Replace with `flex flex-col sm:flex-row gap-2 w-full max-w-xl mx-auto` and theme `form-input` / `btn btn-primary` |
+| `layouts/_partials/notes/random-prompt-panel.html` **12–16** | Four AI buttons inside `<summary>` - wraps via CSS but cramped on 320px | Move actions out of summary into body, or `@media (max-width: 639px) { .notes-random-prompt-actions { width: 100%; } .notes-random-prompt-actions .btn { flex: 1 1 100%; } }` |
+| `layouts/notes/cards.html` **45–51** | Filter row `justify-between` - many set pills can crowd count | Add `flex-col sm:flex-row sm:items-center gap-3` on wrapper |
+| `layouts/notes/single.html` **36–39** | Mobile TOC always expanded (no toggle unlike blog) | UX gap, not overflow - mirror blog's collapsible TOC if notes are long |
 | `assets/css/custom.css` **1076–1107** | Graph toolbar sticky below 1280px | **Good** mobile/tablet pattern |
 
 ---
@@ -2319,10 +2319,10 @@ No sidebar-stacking bugs found.
 
 ## Recommended fix order (smallest high-impact diffs)
 
-1. **`themes/jorap/assets/css/components.css`** — add `prose-pre:overflow-x-auto` and change table overflow from `hidden` to `overflow-x-auto`.
-2. **`assets/css/custom.css`** — mobile rules for graph filter counts, list/backlinks count rows, random controls wrap.
-3. **`themes/jorap/layouts/blog/single.html`** — tag link padding / min-height.
-4. **`themes/jorap/assets/css/module-overrides.css`** — share icon touch targets.
-5. **`themes/jorap/layouts/contact/list.html`** — replace Bootstrap subscription markup.
+1. **`themes/jorap/assets/css/components.css`** - add `prose-pre:overflow-x-auto` and change table overflow from `hidden` to `overflow-x-auto`.
+2. **`assets/css/custom.css`** - mobile rules for graph filter counts, list/backlinks count rows, random controls wrap.
+3. **`themes/jorap/layouts/blog/single.html`** - tag link padding / min-height.
+4. **`themes/jorap/assets/css/module-overrides.css`** - share icon touch targets.
+5. **`themes/jorap/layouts/contact/list.html`** - replace Bootstrap subscription markup.
 
 Most grid/sidebar patterns are already sound; the real gaps are **prose overflow** (tables/pre/code) and **nowrap control rows** on notes utility pages. I can implement these in Agent mode if you want.

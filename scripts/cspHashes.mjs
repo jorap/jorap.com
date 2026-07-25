@@ -4,14 +4,14 @@
  *
  * Two passes over every HTML file under `public/`:
  *
- *   Pass 1 — Rewrite inline `onerror="…this.src='X'…"` attributes that some
+ *   Pass 1 - Rewrite inline `onerror="…this.src='X'…"` attributes that some
  *   third-party Hugo modules (logo, gallery-slider) emit on <img> elements
  *   into `data-fallback-src="X"`. A single delegated `error` listener in
  *   themes/jorap/layouts/_partials/essentials/style.html performs the swap
  *   in JS. Without this rewrite, the inline handlers would force
  *   `script-src-attr 'unsafe-hashes'` plus N per-URL hashes.
  *
- *   Pass 2 — Extract the body of every inline <script> block (no `src=`,
+ *   Pass 2 - Extract the body of every inline <script> block (no `src=`,
  *   JS-executable type) and SHA-256 hash it. Then rewrite
  *   `public/_headers` so the Content-Security-Policy `script-src` and
  *   `script-src-elem` directives
@@ -38,7 +38,7 @@ const HEADERS_FILE = join(PUBLIC_DIR, "_headers");
 const TARGET_DIRECTIVES = ["script-src"];
 
 // Only rewrite the CSP for these path-block patterns from _headers. Other
-// blocks (e.g. /admin/* which serves Sveltia CMS — a SPA that injects inline
+// blocks (e.g. /admin/* which serves Sveltia CMS - a SPA that injects inline
 // <script> at runtime, those scripts are not in the static HTML and cannot
 // be hashed at build time) are left untouched and keep their original CSP.
 const PATH_BLOCKS_TO_REWRITE = new Set(["/*"]);
@@ -99,7 +99,7 @@ function injectHashesIntoDirective(policy, directive, hashTokens) {
   // next `;` or end-of-string.
   const re = new RegExp(`(\\b${directive}\\s+)([^;]+)`, "i");
   const m = policy.match(re);
-  if (!m) return policy; // Directive not present — nothing to do.
+  if (!m) return policy; // Directive not present - nothing to do.
 
   let value = m[2];
 
@@ -141,7 +141,7 @@ async function main() {
     mutated = mutated.replace(ONERROR_ATTR_RE, (match, dq, sq) => {
       const body = dq !== undefined ? dq : sq;
       const urlMatch = body.match(THIS_SRC_RE);
-      if (!urlMatch) return match; // Not a fallback-src pattern — leave alone.
+      if (!urlMatch) return match; // Not a fallback-src pattern - leave alone.
       const url = urlMatch[1] || urlMatch[2];
       rewriteCount++;
       // HTML-safe: URLs from Hugo's RelPermalink are URL-encoded already,
@@ -190,7 +190,7 @@ async function main() {
   const updated = headers
     .split("\n")
     .map((line) => {
-      // Comment or blank line — keep state, don't change.
+      // Comment or blank line - keep state, don't change.
       if (line === "" || line.startsWith("#")) return line;
 
       // Path-pattern line (no leading whitespace).

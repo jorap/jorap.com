@@ -935,8 +935,8 @@ _**Agent (default)**_
 
 The Cloudflare build failed for two related reasons:
 
-1. **Wrong Hugo version** — Cloudflare used **0.147.7** (its default), but the site pins **0.163.2** (extended).
-2. **Template error** — `hugo.Data.icons` in `icon.html` needs Hugo ≥ 0.158. On 0.147.7 you get `can't evaluate field Data in type interface {}`.
+1. **Wrong Hugo version** - Cloudflare used **0.147.7** (its default), but the site pins **0.163.2** (extended).
+2. **Template error** - `hugo.Data.icons` in `icon.html` needs Hugo ≥ 0.158. On 0.147.7 you get `can't evaluate field Data in type interface {}`.
 
 The build only **warned** about the version mismatch and kept going with the old Hugo, so every page that renders the search icon failed.
 
@@ -948,7 +948,7 @@ I added `scripts/ensureHugo.mjs`, which the deploy build now runs first:
 - If PATH has the wrong version (like Cloudflare’s 0.147.7) → download **Hugo Extended 0.163.2** into `.cache/hugo/`
 - If Hugo isn’t on PATH → install the pinned version
 
-I verified this by simulating Cloudflare’s old Hugo on PATH — the build detects the mismatch, installs 0.163.2, and completes successfully.
+I verified this by simulating Cloudflare’s old Hugo on PATH - the build detects the mismatch, installs 0.163.2, and completes successfully.
 
 ## What you should do
 
@@ -959,7 +959,7 @@ Optional but still worth setting in **Cloudflare Pages → Settings → Environm
 - `HUGO_VERSION=0.163.2`
 - `NODE_VERSION=22`
 
-That skips the download step on each build. Your logs also show `npm run build` — `pnpm install --frozen-lockfile && pnpm run deploy` (from `wrangler.toml`) is fine too; either works once Hugo is correct.
+That skips the download step on each build. Your logs also show `npm run build` - `pnpm install --frozen-lockfile && pnpm run deploy` (from `wrangler.toml`) is fine too; either works once Hugo is correct.
 
 ---
 
@@ -2605,7 +2605,7 @@ Renamed both labels to **Graph** across the site:
 | `graph-view-analytics.md` opening line | "Graph view looks sci-fi…" | "Graph looks sci-fi…" |
 | `graph-view-analytics.md` | alias `Graph View`, tag `Graph View` | removed (kept `Graph` tag) |
 
-Also updated matching strings in `jorap-voice-notes.py` and removed the Obsidian `"Graph View"` alias from `wire-notes-obsidian.py` so it doesn't clash with the utility page title. The content note **Graph View Analytics** keeps its full name — only the shorter UI labels changed.
+Also updated matching strings in `jorap-voice-notes.py` and removed the Obsidian `"Graph View"` alias from `wire-notes-obsidian.py` so it doesn't clash with the utility page title. The content note **Graph View Analytics** keeps its full name - only the shorter UI labels changed.
 
 ---
 
@@ -2979,9 +2979,9 @@ _**Agent (default)**_
 All note graphs now share one force-directed layout in `notes-graph.js`:
 
 **What changed**
-- **Removed the pinned center node** on local graphs — the current note moves with link and repulsion forces like every other node
+- **Removed the pinned center node** on local graphs - the current note moves with link and repulsion forces like every other node
 - **Replaced the circular starting layout** with scattered seed positions, then ~240 simulation ticks to settle (400 for reduced-motion users, with no animation after)
-- **Unified physics** — same link distance, repulsion, and center gravity for the full graph page and per-note local graphs
+- **Unified physics** - same link distance, repulsion, and center gravity for the full graph page and per-note local graphs
 - **Reset and resize** re-run the full settle pass so layout stays force-directed after those events
 
 Local graphs still highlight the current note and only show its neighborhood; they just arrange organically instead of in a fixed ring around the center.
@@ -5299,7 +5299,7 @@ graph is not working at http://localhost:1313/notes/graph/
 
 _**Agent (default)**_
 
-Investigating the graph page — checking templates, JS, and the local build output.
+Investigating the graph page - checking templates, JS, and the local build output.
 
 
 _**Agent (default)**_

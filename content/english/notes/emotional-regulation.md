@@ -63,6 +63,14 @@ cards:
     back: "It's not mailing the first draft"
   - front: "I was furious at the ref's bad call and still ran the next play"
     back: "Feel the spike, don't steer the team with it"
+  - front: "Snapped at the kid again - cool-down routine skipped all week."
+    back: "Ten breaths before reply - rehearse tonight."
+  - front: "Customer yelling - my volume climbing to match."
+    back: "Lower voice - spike stays in my chest."
+  - front: "Furious at the ref - gut says litigate mid-game."
+    back: "Run the next play - argue later."
+  - front: "Slammed the door - chest still hot, kid flinching in the hall."
+    back: "Name the feeling first - fix after."
 draft: false
 ---
 

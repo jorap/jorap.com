@@ -49,17 +49,17 @@ featured: false
 review: true
 card_sets: ["Jesus Rhythms", "Gospel", "Faith"]
 cards:
-  - front: "Bible alone on the couch for months - gathered reading missing. His custom?"
+  - front: "Bible alone on the couch for months - gathered reading missing."
     back: "Read in synagogue - with God's people."
-  - front: "Streamed sermons in pajamas, Scripture feels thin. What lane did He keep?"
+  - front: "Streamed sermons in pajamas, Scripture feels thin - solo lane only."
     back: "Gathered worship - read aloud together."
-  - front: "Private devotions strong, never in the room when the text is read. Both lanes?"
+  - front: "Private devotions strong, never in the room when the text is read."
     back: "Private and gathered - both matter."
-  - front: "Sabbath is only me and an app. Copy His synagogue rhythm?"
+  - front: "Sabbath is only me and an app - no congregation in the loop."
     back: "Show up - hear Scripture together."
-  - front: "Kids memorize at home, never hear church read the text. His pattern?"
+  - front: "Kids memorize at home, never hear church read the text - home only."
     back: "Read in the gathering - custom."
-  - front: "Whole-person love but skip gathered worship. Which faculty is thin?"
+  - front: "Whole-person love but skip gathered worship - couch is enough."
     back: "Gathered lane - read with the church."
 draft: false
 ---

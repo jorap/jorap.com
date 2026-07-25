@@ -57,6 +57,10 @@ cards:
     back: "Sleep tonight - coffee buys one shift."
   - front: "Kitchen ran Friday pace five nights and quality slid by Wednesday."
     back: "Cut a night off - do not mortgage next week."
+  - front: "Third straight midnight email - Thursday already cracking."
+    back: "Close laptop - pace I can repeat."
+  - front: "Kitchen ran wedding pace five nights - quality slid Wednesday."
+    back: "Cut a night off - don't borrow next week."
 draft: false
 ---
 

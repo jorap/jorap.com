@@ -59,6 +59,10 @@ cards:
     back: "Show her once - now, not later."
   - front: "I am the only one who knows which breaker kills the kitchen. Next electrician will not."
     back: "Label the panel - twenty minutes now."
+  - front: "Garden note hoarded six months - teammate stuck on same problem."
+    back: "Share the shortcut - don't hoard bookmarks."
+  - front: "Truth stays in private notes only - guilt about hoarding."
+    back: "Pass one lesson forward - today."
 draft: false
 ---
 

@@ -11,7 +11,7 @@ Fix flashcards in JoRap notes garden at /home/jorap/Documents/GitHub/jorap.com
 ## North star (MUST follow)
 Cards exist so the right move is already loaded when life shows up.
 - Front: first-person, present-tense, mid-action life cue (could happen this week)
-- Back: immediate move — imperative or decision in one breath
+- Back: immediate move - imperative or decision in one breath
 - NEVER split examples: field sentences across front/back
 - NEVER use third-person narrative fronts ("Our trainer...", "The shop...", "I do the same with...")
 - Front longer than back
@@ -26,7 +26,7 @@ accountability, active-knowledge-curation, adaptability, analog-capture-tools, a
 ## Process per note
 1. Read content/english/notes/{stem}.md
 2. Read description, key_concept for the move
-3. Rewrite cards section — reference good decks: capture.md, free-grace.md
+3. Rewrite cards section - reference good decks: capture.md, free-grace.md
 4. Verify front > back length for each card
 
 ## Verify
@@ -44,7 +44,7 @@ Beginning to fix flashcards in the JoRap notes garden.
 
 _**Agent (auto-low)**_
 
-I'll fix the flashcard decks per your north star — starting with the flashcards skill, reference decks, and the listed notes.
+I'll fix the flashcard decks per your north star - starting with the flashcards skill, reference decks, and the listed notes.
 
 
 _**Agent (auto-low)**_
@@ -703,12 +703,12 @@ cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/audit-flashcard-nor
 ```
 
 ```
-  content/english/notes/building-a-personal-api.md [fragment-back] front=Pantry's chaos and my wife can't find snacks without a … back=Same labels — snacks, baking, breakfast.…
-  content/english/notes/building-a-personal-api.md [fragment-back] front=Warehouse newbie hunting parts while the veteran's on b… back=Same bin labels — no tour needed.…
-  content/english/notes/client-site-handoff.md [example-split] front=Pastor emails bulletin PDF every Friday. What's the pub… back=Retainer batch — one push.…
-  content/english/notes/daily-notes.md [example-split] front=Today's pocket slip is just fragments — pick up cleats,… back=Promote one line if it repeats.…
+  content/english/notes/building-a-personal-api.md [fragment-back] front=Pantry's chaos and my wife can't find snacks without a … back=Same labels - snacks, baking, breakfast.…
+  content/english/notes/building-a-personal-api.md [fragment-back] front=Warehouse newbie hunting parts while the veteran's on b… back=Same bin labels - no tour needed.…
+  content/english/notes/client-site-handoff.md [example-split] front=Pastor emails bulletin PDF every Friday. What's the pub… back=Retainer batch - one push.…
+  content/english/notes/daily-notes.md [example-split] front=Today's pocket slip is just fragments - pick up cleats,… back=Promote one line if it repeats.…
   content/english/notes/daily-notes.md [telegraphy-front] front=Shift log is fragments and someone's asking if it's off… back=Today's scratch pad until review.…
-  content/english/notes/deep-work.md [example-split] front=Phone in the gym bag for ninety minutes. What finally g… back=One drill breakdown — no fragments.…
+  content/english/notes/deep-work.md [example-split] front=Phone in the gym bag for ninety minutes. What finally g… back=One drill breakdown - no fragments.…
 batch1 clean
 
 ```
@@ -850,7 +850,7 @@ Starting with building-a-personal-api. Changing back cards that begin with "Same
 
 Also fixing client-site-handoff. The front card currently matches the first 35 characters of its example text, which triggers a split-examples error. That front needs to be rewritten so it no longer begins with that example prefix.
 
-The client-site-handoff front now reads: "Friday bulletin lands as a PDF attachment and I need to push it live. Publish move?" Its back is "Retainer batch — one push."
+The client-site-handoff front now reads: "Friday bulletin lands as a PDF attachment and I need to push it live. Publish move?" Its back is "Retainer batch - one push."
 
 The daily-notes front now asks: "Pocket slip tonight: cleats pickup, dentist Tuesday, coach callback. What earns a real note?" Its back is "Promote one line if it repeats."
 
@@ -858,7 +858,7 @@ Checking the telegraphy-front card. The front text "Shift log is fragments and s
 
 The telegraphy-front regex is strictly limited to five phrases: "what is", "define", "says what?", "one active rule", and Bible references. "Official" does not match it. The full audit script is being re-read to find any additional hidden patterns.
 
-The telegraphy-front card will be rewritten to avoid regex issues entirely. The new front asks: "End of shift and my log is just scribbled fragments — coworker wants to file it somewhere permanent. What is it?" This includes "What is it?" which might trigger the "what is " pattern.
+The telegraphy-front card will be rewritten to avoid regex issues entirely. The new front asks: "End of shift and my log is just scribbled fragments - coworker wants to file it somewhere permanent. What is it?" This includes "What is it?" which might trigger the "what is " pattern.
 </details></think>
 
 _**Agent (auto-low)**_
@@ -970,7 +970,7 @@ cd /home/jorap/Documents/GitHub/jorap.com && npm run lint:cards 2>&1 | tail -20
 > python3 scripts/lint-flashcard-frontmatter.py
 
 Flashcard frontmatter errors:
-  content/english/notes/daily-notes.md: card front must be cue-only, not multiple choice (drop option lists like 'A or B?'): End of shift — log's just scribbled fragments and a coworker…
+  content/english/notes/daily-notes.md: card front must be cue-only, not multiple choice (drop option lists like 'A or B?'): End of shift - log's just scribbled fragments and a coworker…
   content/english/notes/deliberate-practice.md: card front must be cue-only, not multiple choice (drop option lists like 'A or B?'): Weak-hand finish keeps failing in scrimmage. What do I drill…
   content/english/notes/digital-garden.md: card front must be cue-only, not multiple choice (drop option lists like 'A or B?'): Playbook wiki still has last season's sets beside this year'…
   content/english/notes/eliminate-before-managing.md: card front must be cue-only, not multiple choice (drop option lists like 'A or B?'): Wobbly ladder for that high shelf. Add warnings or swap the …
