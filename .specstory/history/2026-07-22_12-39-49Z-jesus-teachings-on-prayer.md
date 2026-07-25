@@ -692,5 +692,724 @@ Abiding in Christ will be included as well. Existing notes will be linked where 
 
 Checking slug conventions and hugo template behavior for index notes. Considering titles like "Jesus on Prayer" or "Jesus Teaches Prayer". Also planning updates to `eternal-principles.md` and existing prayer notes.
 
-The title must stay under five words. "Jesus on Prayer" risks colliding with the existing "Jesus' Prayers" note. Alternatives
+The title must stay under five words. "Jesus on Prayer" risks colliding with the existing "Jesus' Prayers" note. Alternatives like "Prayer Jesus Taught" are being weighed against the established patterns.
+
+Settling on "Jesus on Prayer" as the title, possibly with aliases like "what Jesus taught about prayer." "Prayer He Taught" was considered to avoid confusion with prayers He prayed.
+
+Finalized the title as "Jesus on Prayer" with meta_title "Jesus on Prayer - What He Taught About Talking to the Father". The slug will be `jesus-teaching-prayer` or `prayer-jesus-taught` to avoid confusion with `jesus-prayers`.
+
+Finalized the title as "Prayer Jesus Taught" and the slug as `prayer-jesus-taught`. The meta_title will be "Prayer Jesus Taught - How Jesus Taught His Disciples to Pray". This distinguishes the note from "Jesus' Prayers" (verbatim words to the Father) and "Jesus' Rhythms" (biography of prayer times).
+
+Reviewing the bodies of `jesus-prayers` and `jesus-rhythms` for section structure. Mapping out exact passages for each teaching lane: Ask, Seek, and Knock; secret devotion; forgiveness; loving enemies; justification; and abiding in Christ. Noted that "Don't Worry" and "Seek the Kingdom First" are related but not direct prayer teaching.
+
+Passages without dedicated notes will be listed in the hub body with Bible references only. These include the persistent widow in Luke 18, laborers in Matthew 9 and Luke 10, agreement in prayer in Matthew 18, asking in Jesus’ name in John 14 and 16, belief in Mark 11, watching and praying in Matthew 26, and the house of prayer in Matthew 21. Related notes will also be updated with cross-links in their relationships sections.
 </details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/noteFileDates.json</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "content/english/notes/*.md",
+  "pattern": "jesus-prayers|jesus-rhythms"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "jesus-prayers|jesus-rhythms",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/jesus-prayers.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/jesus-rhythms.md"
+    }
+  ],
+  "totalFiles": 2,
+  "totalMatches": 2
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/withdraw-to-pray.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Checking whether noteFileDates updates automatically or manually.
+
+Planning the note title "Prayer Jesus Taught" with display alias "Jesus teaching about prayer". Will model the structure on existing hub notes like jesus-prayers.md and jesus-rhythms.md. Sections will cover eternal principles, free grace, contrast with Jesus' prayers, and Jesus' rhythms. Will run lint:garden after creation.
+
+Mapping out specific sections and Bible references. Key topics include secret devotion, the Lord's Prayer, persistent prayer, posture before God, praying in Jesus' name, and praying for others. Inline citations will draw from Luke 11, 18, Matthew 9:38, 18:19-20, Mark 11, and John 15. A cross-links table and relationship updates are also planned.
+
+Cross-links will connect the new hub to jesus-prayers.md, jesus-rhythms.md, ask-seek-knock.md, secret-devotion.md, and eternal-principles.md. Index hubs may omit Bible verses in their key_concept fields.
+
+The note will carry tags Gospel, Jesus Christ, Faith, Prayer, and MOC. Date set to 2026-07-22. Still checking whether noteFileDates updates automatically during builds.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.{js,sh,py,json}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "noteFileDates"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "noteFileDates",
+  "topFiles": [
+    {
+      "matchCount": 4,
+      "uri": "./package.json"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./scripts/noteFileDates.js"
+    }
+  ],
+  "totalFiles": 2,
+  "totalMatches": 5
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/jesus-prayers.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Creating a new hub note on Jesus teaching about prayer and wiring up cross-links.
+
+Evaluating title options for the new hub note. "Prayer Jesus Taught" and "Jesus' Prayer Teaching" both clash with existing hub titles. "How Jesus Taught Prayer" and "Jesus Teaching Prayer" are being considered instead.
+
+Settled on "Prayer Jesus Taught" as the title and "prayer-jesus-taught" as the slug. This avoids confusion with the existing "Jesus' Prayers" hub.
+
+The existing "Jesus' Prayers" hub will link to the new hub. The new note will open with a key concept distinguishing Jesus' teachings from His spoken prayers. Body sections will cover the Lord's Prayer and rhythm, followed by four shareable thoughts.
+
+The body will run through nine sections: secret devotion, posture and persistence, praying for enemies, praying in His name, praying together, forgiveness loops, and a cross-links table. Updates are planned for five existing notes—jesus-prayers, jesus-rhythms, eternal-principles, ask-seek-knock, and secret-devotion—to link to the new hub. Lint will run after all edits.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Creating the hub note and wiring cross-links to the related prayer notes.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/prayer-jesus-taught.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/jesus-prayers.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/jesus-prayers.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/jesus-rhythms.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/jesus-rhythms.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-principles.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/ask-seek-knock.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/secret-devotion.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Running lint:garden to validate the note. Adding relationships to justification and love-your-enemies if appropriate.
+
+Confirmed the description is 18 words, within the 20-word limit.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm lint:garden 2&gt;&amp;1 | tail -40</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:garden 2>&1 | tail -40
+```
+
+```
+$ python3 scripts/lint-notes-frontmatter.py && python3 scripts/normalize-notes-format.py --verify && python3 scripts/lint-flashcard-frontmatter.py && python3 scripts/audit-flashcard-north-star.py && python3 scripts/lint-utility-wikilinks.py && python3 scripts/garden-voice-lint.py --check && python3 scripts/slop-lint.py --check --notes-only
+FAIL shareable_thought[1] not from principle: father-forgive-them.md
+FAIL shareable_thought[2] not from principle: father-forgive-them.md
+FAIL shareable_thought[2] not from principle: glorify-your-name.md
+FAIL description in key_concept (His last recorded words to the Father trust the outcome - Fa…): into-your-hands.md
+FAIL shareable_thought[1] not from principle: into-your-hands.md
+FAIL shareable_thought[2] not from principle: into-your-hands.md
+FAIL shareable_thought[3] not from principle: into-your-hands.md
+FAIL shareable_thought[2] not from principle: jesus-prayers.md
+FAIL description in key_concept (The cup was real - soul overwhelmed, sweat like blood - and …): not-my-will.md
+FAIL shareable_thought[1] not from principle: not-my-will.md
+FAIL shareable_thought[2] not from principle: not-my-will.md
+FAIL shareable_thought[3] not from principle: not-my-will.md
+FAIL shareable_thought[1] not from principle: pray-for-his-own.md
+FAIL shareable_thought[2] not from principle: pray-for-his-own.md
+FAIL shareable_thought[3] not from principle: pray-for-his-own.md
+FAIL shareable_thought[1] fragment: prayer-jesus-taught.md
+FAIL shareable_thought[2] not from principle: prayer-jesus-taught.md
+FAIL shareable_thought[2] not from principle: thank-father-at-lazarus.md
+FAIL shareable_thought[3] not from principle: thank-father-at-lazarus.md
+FAIL shareable_thought[2] not from principle: thank-father-for-revelation.md
+
+20 note(s) failed frontmatter lint
+[ELIFECYCLE] Command failed with exit code 1.
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The note on Jesus teaching about prayer failed to save.
+
+I am checking the lint rules for shareable_thought fragments. I will compare this note against the passing jesus-prayers example to find the exact failure.
+
+I suspect the first shareable_thought is a fragment because it begins with "What." The second failure means the text is not drawn from key_concept bullets. I will read the lint script to confirm these rules.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.py",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts",
+  "pattern": "shareable_thought|from principle|fragment"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts",
+  "pattern": "shareable_thought|from principle|fragment",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": "scripts/slop-lint.py"
+    },
+    {
+      "matchCount": 4,
+      "uri": "scripts/garden-voice-lint.py"
+    },
+    {
+      "matchCount": 16,
+      "uri": "scripts/lint-notes-frontmatter.py"
+    },
+    {
+      "matchCount": 7,
+      "uri": "scripts/notes_content.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/archive/format-faith-bible-blocks.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/garden-voice-migrate.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/garden-voice-finish.py"
+    },
+    {
+      "matchCount": 4,
+      "uri": "scripts/split-key-concept-bullets.py"
+    },
+    {
+      "matchCount": 4,
+      "uri": "scripts/fix-shareable-thought.py"
+    }
+  ],
+  "totalFiles": 9,
+  "totalMatches": 74
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Reviewing notes_content.py and fix-shareable-thought.py to understand fragment logic and shareable thought generation.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-notes-frontmatter.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Reviewing the shareable thought on Jesus teaching about prayer. Checking the shareable line format and fragment start.
+
+Drafted four lines following the jesus-prayers pattern. Line 1 failed validation. Will apply the fix script or manual correction.
+
+Line 1 likely fails because it opens with a question word. Line 2 diverges from the key_concept text. I will rewrite the shareable thought to mirror the description and key_concept bullets used in jesus-prayers.
+
+The description now covers secret devotion, the Lord's Prayer, persistence, and asking in His name. The shareable thought will be rewritten to match this framing.
+
+Four specific rewordings were pulled from the description and key_concept bullets. The shareable thought will drop the question word and instead cite the Gospels, the instruction lane, and the child-to-Father prayer framing. Next step is reading the shareable_line_from_principle function.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts",
+  "pattern": "def shareable_line_from_principle|FRAGMENT_START"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts",
+  "pattern": "def shareable_line_from_principle|FRAGMENT_START",
+  "topFiles": [
+    {
+      "matchCount": 3,
+      "uri": "scripts/notes_content.py"
+    },
+    {
+      "matchCount": 2,
+      "uri": "scripts/split-key-concept-bullets.py"
+    }
+  ],
+  "totalFiles": 2,
+  "totalMatches": 5
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Checking notes_content.py for fragment markers and shareable lines.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The phrase "Not the same lane..." fails the fragment check because the regex pattern matches starting words like "not", "and", "or", "but", and "then".
+
+Line [0] might fail because a PUNCH_VERB is required. I will read gets_point_across and gets_poi fully.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 -c &#34;
+from scripts.notes_content import gets_point_across, shareable_line_from_principle, principle_line_pool
+import yaml
+from pathlib import Path
+p = Path(&#39;content/english/notes/prayer-jesus-taught.md&#39;)
+text = p.read_text()
+fm = yaml.safe_load(text.split(&#39;---&#39;)[1])
+lines = fm[&#39;shareable_thought&#39;]
+for i, l in enumerate(lines):
+    print(i, &#39;complete&#39;, gets_point_across(l), &#39;from_principle&#39;, shareable_line_from_principle(l, fm))
+    print(&#39; &#39;, l[:80])
+&#34;
+</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 -c "
+from scripts.notes_content import gets_point_across, shareable_line_from_principle, principle_line_pool
+import yaml
+from pathlib import Path
+p = Path('content/english/notes/prayer-jesus-taught.md')
+text = p.read_text()
+fm = yaml.safe_load(text.split('---')[1])
+lines = fm['shareable_thought']
+for i, l in enumerate(lines):
+    print(i, 'complete', gets_point_across(l), 'from_principle', shareable_line_from_principle(l, fm))
+    print(' ', l[:80])
+"
+
+```
+
+```
+0 complete True from_principle True
+  What Jesus told disciples about prayer - secret devotion, the Lord's Prayer, per
+1 complete False from_principle True
+  Not the same lane as the prayers He spoke to the Father - this is instruction He
+2 complete True from_principle False
+  Eternal Principles holds the one-claim notes; this hub maps the prayer thread ac
+3 complete True from_principle True
+  Learning to pray is not the price of heaven - it is how a child talks to the Fat
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The test result shows the first item now passes both checks.
+
+Index 1 fails because it begins with "Not," making it a fragment. Index 2 fails the from-principle check. Rewording index 1 avoids starting with "Not."
+
+Index 2 is being rewritten to match the key concept more closely. The next step is verifying whether the revised text passes the remaining checks.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 -c &#34;
+from scripts.notes_content import gets_point_across, shareable_line_from_principle
+import yaml
+from pathlib import Path
+p = Path(&#39;content/english/notes/prayer-jesus-taught.md&#39;)
+fm = yaml.safe_load(p.read_text().split(&#39;---&#39;)[1])
+candidates = [
+  &#39;What Jesus told disciples about prayer - secret devotion, the Lord\&#39;s Prayer, persistence, and asking in His name.&#39;,
+  &#39;The Gospels record what He told disciples about prayer - not the same lane as speeches to the Father.&#39;,
+  &#39;Jesus Prayers holds verbatim speeches to the Father; this hub holds instruction He gave others.&#39;,
+  &#39;Learning to pray is not the price of heaven - it is how a child talks to the Father after the gift is received.&#39;,
+]
+for i,l in enumerate(candidates):
+    print(i, gets_point_across(l), shareable_line_from_principle(l, fm), len(l))
+&#34;
+</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 -c "
+from scripts.notes_content import gets_point_across, shareable_line_from_principle
+import yaml
+from pathlib import Path
+p = Path('content/english/notes/prayer-jesus-taught.md')
+fm = yaml.safe_load(p.read_text().split('---')[1])
+candidates = [
+  'What Jesus told disciples about prayer - secret devotion, the Lord\'s Prayer, persistence, and asking in His name.',
+  'The Gospels record what He told disciples about prayer - not the same lane as speeches to the Father.',
+  'Jesus Prayers holds verbatim speeches to the Father; this hub holds instruction He gave others.',
+  'Learning to pray is not the price of heaven - it is how a child talks to the Father after the gift is received.',
+]
+for i,l in enumerate(candidates):
+    print(i, gets_point_across(l), shareable_line_from_principle(l, fm), len(l))
+"
+
+```
+
+```
+0 True True 113
+1 True False 101
+2 True False 95
+3 True True 111
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Lines must pass the shareable_line_from_principle filter. They need to match either the description or key_concept pool.
+
+Now printing the principle_line_pool.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 -c &#34;
+from scripts.notes_content import principle_line_pool
+import yaml
+from pathlib import Path
+p = Path(&#39;content/english/notes/prayer-jesus-taught.md&#39;)
+fm = yaml.safe_load(p.read_text().split(&#39;---&#39;)[1])
+for x in principle_line_pool(fm):
+    print(&#39;-&#39;, x[:100])
+&#34;
+</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 -c "
+from scripts.notes_content import principle_line_pool
+import yaml
+from pathlib import Path
+p = Path('content/english/notes/prayer-jesus-taught.md')
+fm = yaml.safe_load(p.read_text().split('---')[1])
+for x in principle_line_pool(fm):
+    print('-', x[:100])
+"
+
+```
+
+```
+- what jesus told disciples about prayer - secret devotion, the lord's prayer, persistence, and asking
+- what jesus told disciples about prayer
+- secret devotion, the lord's prayer, persistence, and asking in his name
+- - the gospels record what jesus said to disciples about prayer - not the same lane as the prayers he
+- - the gospels record what jesus said to disciples about prayer
+- not the same lane as the prayers he spoke to the father
+- - eternal principles holds the one-claim notes
+- this hub maps the prayer thread across matthew, mark, luke, and john
+- - jesus' prayers holds verbatim speeches to the father
+- jesus' rhythms shows how often he prayed
+- this lane is the instruction he gave others
+- - spine notes below carry six review cards at [/notes/review/](/notes/review/) with filter prayer or
+- - under free grace, learning to pray is not the price of heaven
+- it is how a child talks to the father after the gift is received
+- the gospels record what jesus said to disciples about prayer - not the same lane as the prayers he s
+- the gospels record what jesus said to disciples about prayer
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+A shareable description is being drafted for the note. It will cover Jesus' teachings on prayer, including secret devotion, the Lord's Prayer, persistence, and asking in His name.
+
+Checking the note against the content pool. One line matches. Two need verification. The last may need splitting to match pool wording. Now testing.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 -c &#34;
+from scripts.notes_content import gets_point_across, shareable_line_from_principle
+import yaml
+from pathlib import Path
+p = Path(&#39;content/english/notes/prayer-jesus-taught.md&#39;)
+fm = yaml.safe_load(p.read_text().split(&#39;---&#39;)[1])
+candidates = [
+  &#39;What Jesus told disciples about prayer - secret devotion, the Lord\&#39;s Prayer, persistence, and asking in His name.&#39;,
+  &#39;The Gospels record what Jesus said to disciples about prayer - not the same lane as the prayers He spoke to the Father.&#39;,
+  &#39;Jesus\&#39; Rhythms shows how often He prayed; this lane is the instruction He gave others.&#39;,
+  &#39;Learning to pray is not the price of heaven - it is how a child talks to the Father after the gift is received.&#39;,
+]
+for i,l in enumerate(candidates):
+    print(i, gets_point_across(l), shareable_line_from_principle(l, fm))
+&#34;
+</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 -c "
+from scripts.notes_content import gets_point_across, shareable_line_from_principle
+import yaml
+from pathlib import Path
+p = Path('content/english/notes/prayer-jesus-taught.md')
+fm = yaml.safe_load(p.read_text().split('---')[1])
+candidates = [
+  'What Jesus told disciples about prayer - secret devotion, the Lord\'s Prayer, persistence, and asking in His name.',
+  'The Gospels record what Jesus said to disciples about prayer - not the same lane as the prayers He spoke to the Father.',
+  'Jesus\' Rhythms shows how often He prayed; this lane is the instruction He gave others.',
+  'Learning to pray is not the price of heaven - it is how a child talks to the Father after the gift is received.',
+]
+for i,l in enumerate(candidates):
+    print(i, gets_point_across(l), shareable_line_from_principle(l, fm))
+"
+
+```
+
+```
+0 True True
+1 True True
+2 True True
+3 True True
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Updating the shareable thought in the note file. Re-running lint for just this file.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/prayer-jesus-taught.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/lint-notes-frontmatter.py 2&gt;&amp;1 | rg prayer-jesus-taught || echo &#34;prayer-jesus-taught: OK&#34;</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/lint-notes-frontmatter.py 2>&1 | rg prayer-jesus-taught || echo "prayer-jesus-taught: OK"
+```
+
+```
+prayer-jesus-taught: OK
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Running slop and voice lint on the new file.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/garden-voice-lint.py --check 2&gt;&amp;1 | rg prayer-jesus-taught || echo &#34;voice OK&#34; &amp;&amp; python3 scripts/slop-lint.py --check --notes-only 2&gt;&amp;1 | rg prayer-jesus-taught || echo &#34;slop OK&#34;</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/garden-voice-lint.py --check 2>&1 | rg prayer-jesus-taught || echo "voice OK" && python3 scripts/slop-lint.py --check --notes-only 2>&1 | rg prayer-jesus-taught || echo "slop OK"
+```
+
+```
+voice OK
+slop OK
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Preparing a summary of the prayer note and its three-lane structure.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Created **`Prayer Jesus Taught`** at `content/english/notes/prayer-jesus-taught.md` — an index hub for what Jesus *taught* disciples about prayer, separate from the other two lanes:
+
+| Hub | Lane |
+|-----|------|
+| [[Prayer Jesus Taught]] | **Teaching** — Lord's Prayer, secret devotion, persistence, asking in His name |
+| [[Jesus' Prayers]] | **Verbatim** — seven recorded speeches to the Father |
+| [[Jesus' Rhythms]] | **Biography** — when and how often He prayed |
+
+The hub body groups passages into sections (Lord's Prayer, secret audience, posture, who to pray for, in His name, together, watch and pray) and links to existing spine notes: [[Ask Seek Knock]], [[Secret Devotion]], [[Justification]], [[Love Your Enemies]], [[Abide in Me]], [[Forgiveness]], [[Childlike Faith]].
+
+**Cross-links wired:**
+- [[Jesus' Prayers]] — points to the teaching hub instead of duplicating Lord's Prayer context
+- [[Jesus' Rhythms]] — garden links updated
+- [[Eternal Principles]] — "Heart and priorities" now opens with this hub
+- [[Ask Seek Knock]] and [[Secret Devotion]] — relationship back to the hub
+
+Alias: `Jesus teaching about prayer`. URL slug: `/notes/prayer-jesus-taught/`.

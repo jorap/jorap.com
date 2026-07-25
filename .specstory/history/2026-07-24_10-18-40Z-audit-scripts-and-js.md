@@ -338,6 +338,39 @@ _**Agent (composer-2.5-fast)**_
 ```bash
 wc -l /home/jorap/Documents/GitHub/jorap.com/scripts/*.py /home/jorap/Documents/GitHub/jorap.com/scripts/*.js /home/jorap/Documents/GitHub/jorap.com/scripts/*.mjs /home/jorap/Documents/GitHub/jorap.com/scripts/archive/*.py /home/jorap/Documents/GitHub/jorap.com/scripts/okf-viz/* /home/jorap/Documents/GitHub/jorap.com/assets/js/*.js 2>/dev/null | sort -rn
 ```
+
+```
+ 12453 total
+  1534 /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-graph.js
+   628 /home/jorap/Documents/GitHub/jorap.com/assets/js/randomizer.js
+   577 /home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py
+   505 /home/jorap/Documents/GitHub/jorap.com/assets/js/search.js
+   489 /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-random-core.js
+   441 /home/jorap/Documents/GitHub/jorap.com/scripts/okf-viz/viz.js
+   393 /home/jorap/Documents/GitHub/jorap.com/scripts/sync-note-flashcards.py
+   361 /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-review.js
+   358 /home/jorap/Documents/GitHub/jorap.com/scripts/slop-lint.py
+   345 /home/jorap/Documents/GitHub/jorap.com/scripts/export-okf-bundle.py
+   326 /home/jorap/Documents/GitHub/jorap.com/scripts/blog_shortcodes.py
+   304 /home/jorap/Documents/GitHub/jorap.com/scripts/test-search.mjs
+   284 /home/jorap/Documents/GitHub/jorap.com/scripts/okf-viz/generate.py
+   277 /home/jorap/Documents/GitHub/jorap.com/scripts/notes-voice-lint.py
+   257 /home/jorap/Documents/GitHub/jorap.com/scripts/normalize-notes-format.py
+   250 /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-random-duo.js
+   248 /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-creator.js
+   241 /home/jorap/Documents/GitHub/jorap.com/scripts/export-okf-blog-bundle.py
+   241 /home/jorap/Documents/GitHub/jorap.com/scripts/export-anki-deck.py
+   230 /home/jorap/Documents/GitHub/jorap.com/scripts/cspHashes.mjs
+   227 /home/jorap/Documents/GitHub/jorap.com/scripts/lint-notes-frontmatter.py
+   214 /home/jorap/Documents/GitHub/jorap.com/scripts/okf-viz/viz.css
+   198 /home/jorap/Documents/GitHub/jorap.com/scripts/garden-voice-lint.py
+   194 /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-random-single.js
+   193 /home/jorap/Documents/GitHub/jorap.com/scripts/themeGenerator.js
+   177 /home/jorap/Documents/GitHub/jorap.com/scripts/import-from-obsidian.py
+   173 /home/jorap/Documents/GitHub/jorap.com/scripts/ensureHugo.mjs
+   158
+… (output truncated)
+```
 </details></tool-use>
 
 _**Agent (composer-2.5-fast)**_
@@ -414,7 +447,100 @@ Parameters:
   "pattern": "scripts/(archive|voice-lint|garden-voice|notes-voice|normalize-|import-from|lint-randomizer|themeGenerator|okf-viz|export-okf|audit-flashcard|slop-lint|bible-red-letter|sync-note)"
 }
 ```
-Status: **loading**
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "scripts/(archive|voice-lint|garden-voice|notes-voice|normalize-|import-from|lint-randomizer|themeGenerator|okf-viz|export-okf|audit-flashcard|slop-lint|bible-red-letter|sync-note)",
+  "topFiles": [
+    {
+      "matchCount": 4,
+      "uri": ".specstory/history/2026-06-20_14-57-19Z-javascript-library-for-network-visualization.md"
+    },
+    {
+      "matchCount": 10,
+      "uri": ".specstory/history/2026-07-20_00-17-20Z-blog-review-for-jorap.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-07-06_07-13-26Z-garden-link-issues-summary.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": ".specstory/history/2026-05-29_17-10-28Z-deployment-speed-improvement.md"
+    },
+    {
+      "matchCount": 8,
+      "uri": ".specstory/history/2026-06-29_00-45-19Z-@tasks.workspaceid-6c9cecb364b8aca3f894dc941c3259bc-(1-28).md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".cursor/skills/flashcards/SKILL.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-20_11-46-55Z-jorap-voice-skill-vocabulary-adjustment.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": ".specstory/history/2026-07-20_00-17-20Z-blog-review-for-jorap-voice.md"
+    },
+    {
+      "matchCount": 8,
+      "uri": ".specstory/history/2026-07-19_13-09-48Z-voice-and-anti-slop-rules.md"
+    },
+    {
+      "matchCount": 21,
+      "uri": ".specstory/history/2026-07-14_02-39-51Z-blog-frontmatter-review.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-10_12-51-28Z-static-site-vs-cms.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": ".specstory/history/2026-07-20_00-45-49Z-git-as-an-open-source-innovation.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": ".specstory/history/2026-07-03_05-35-42Z-nasb1995-internal-storage.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-07-15_11-48-18Z-love-for-the-inter.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-06-19_03-07-38Z-notes-section-with-obsidian-functionality.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-06-20_14-14-13Z-npm-run-deployment-builds.md"
+    },
+    {
+      "matchCount": 32,
+      "uri": ".specstory/history/2026-07-07_14-32-44Z-nasb-1995-bible-verses.md"
+    },
+    {
+      "matchCount": 8,
+      "uri": ".specstory/history/2026-06-22_06-14-22Z-create-notes-based-on-this:.md"
+    },
+    {
+      "matchCount": 8,
+      "uri": ".specstory/history/2026-06-28_00-39-28Z-blank-page-issue-on-jorap-admin.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-03_11-30-08Z-additional-issues-for-notes.md"
+    }
+  ],
+  "totalFiles": 167,
+  "totalMatches": 2002
+}
+```
+Status: **completed**
 
 </details></tool-use>
 
@@ -431,3 +557,2330 @@ _**Agent (composer-2.5-fast)**_
 <summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/package.json</summary>
 
 </details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+voice-lint.py is a thin wrapper delegating to other scripts.
+
+Reading key files to map duplication. Checking archive line counts and whether garden-voice-lint and notes-voice-lint are invoked directly or only through voice-lint.py.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/voice-lint.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/garden-voice-lint.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes-voice-lint.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/slop-lint.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: wc -l /home/jorap/Documents/GitHub/jorap.com/scripts/archive/*.py 2&gt;/dev/null; ls -la /home/jorap/Documents/GitHub/jorap.com/scripts/archive/</summary>
+```bash
+wc -l /home/jorap/Documents/GitHub/jorap.com/scripts/archive/*.py 2>/dev/null; ls -la /home/jorap/Documents/GitHub/jorap.com/scripts/archive/
+```
+
+```
+ls: cannot access '/home/jorap/Documents/GitHub/jorap.com/scripts/archive/': No such file or directory
+
+```
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/search-core.js</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/search.js</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+The archive folder was found earlier but no longer exists in the workspace.
+
+The archive folder may be gitignored or cached by the glob. Next I will inspect the randomizer split files, normalize migration scripts, notes_content.py, test-search.mjs versus search duplication, vendor search.js, okf-viz duplication, and the import-from-obsidian one-shot script.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **13** results in **1** directory</summary>
+
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (13 files)
+
+| File |
+|------|
+| `scripts/archive/__pycache__/normalize-verse-paragraphs.cpython-312.pyc` |
+| `scripts/archive/apply-nasb-quotes.py` |
+| `scripts/archive/__pycache__/seed-note-shareable-thought.cpython-312.pyc` |
+| `scripts/archive/apply-verse-explanations.py` |
+| `scripts/archive/apply-jesus-quotes.py` |
+| `scripts/archive/README.md` |
+| `scripts/archive/build-scripture-nasb1995-db.py` |
+| `scripts/archive/apply-jesus-words-shortcode.py` |
+| `scripts/archive/format-faith-bible-blocks.py` |
+| `scripts/archive/seed-note-shareable-thought.py` |
+| `scripts/archive/normalize-verse-paragraphs.py` |
+| `scripts/archive/build-grade1-quiz.py` |
+| `scripts/archive/build-jesus-words-db.py` |
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-random-select.js</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-random-featured.js</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-random-single.js</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-random-duo.js</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/test-search.mjs</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.{json,md,sh,yml,yaml,toml,mjs,js,py,html}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "garden-voice-lint|notes-voice-lint|slop-lint|notes-voice-sanitize"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "garden-voice-lint|notes-voice-lint|slop-lint|notes-voice-sanitize",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-02_13-00-15Z-free-tier-hosting-limitations.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-28_00-39-28Z-blank-page-issue-on-jorap-admin.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": ".specstory/history/2026-07-09_15-34-09Z-notes-review-and-key.md"
+    },
+    {
+      "matchCount": 13,
+      "uri": ".specstory/history/2026-07-24_10-18-20Z-ponytail-audit.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-20_11-43-50Z-high-school-level-vocabulary.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-06-28_00-07-52Z-tinacms-compatibility.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": ".specstory/history/2026-07-03_00-01-14Z-difficult-words-for-blog.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": ".specstory/history/2026-06-20_11-46-55Z-jorap-voice-skill-vocabulary.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-07-03_02-07-57Z-jorap-notes-functionality.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": ".specstory/history/2026-06-30_04-43-36Z-notes-formatting-review.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": ".specstory/history/2026-07-20_00-45-49Z-git-as-an-open-source-innovation.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": ".specstory/history/2026-07-12_09-13-33Z-blog-items-review-criteria.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": ".specstory/history/2026-07-17_01-06-51Z-new-note-signature-move.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-14_02-39-51Z-blog-frontmatter-review.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-10_13-10-50Z-static-site-slug-update.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": ".specstory/history/2026-07-02_13-41-47Z-success-is-stewardship-notes.md"
+    },
+    {
+      "matchCount": 21,
+      "uri": ".specstory/history/2026-07-17_01-21-56Z-explore-repo-structure.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-11_23-21-02Z-laptop-companion-specifications.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-01_23-35-09Z-notes-layout-adjustment.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-15_11-48-18Z-love-for-the-inter-font.md"
+    }
+  ],
+  "totalFiles": 127,
+  "totalMatches": 921
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Starting the audit by checking archive script line counts with find.
+
+Now comparing search.js against vendor search.js, notes_content.py against its duplicates, and scanning okf-viz versus export overlap. Also checking randomizer.js against notes-random-core, plus blog_frontmatter.py against blog_shortcodes.py, and export bundle scripts for redundancy. Still pulling archive counts.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: find /home/jorap/Documents/GitHub/jorap.com/scripts/archive -type f \( -name &#39;*.py&#39; -o -name &#39;*.md&#39; \) -exec wc -l {} + 2&gt;/dev/null; find /home/jorap/Documents/GitHub/jorap.com/scripts/archive -type f -name &#39;*.pyc&#39; -exec wc -c {} + 2&gt;/dev/null</summary>
+```bash
+find /home/jorap/Documents/GitHub/jorap.com/scripts/archive -type f \( -name '*.py' -o -name '*.md' \) -exec wc -l {} + 2>/dev/null; find /home/jorap/Documents/GitHub/jorap.com/scripts/archive -type f -name '*.pyc' -exec wc -c {} + 2>/dev/null
+```
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+File not found
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/normalize-notes-format.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/normalize-blog-frontmatter.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts",
+  "pattern": "from notes_content|import notes_content|notes_content\\."
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts",
+  "pattern": "from notes_content|import notes_content|notes_content\\.",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "scripts/audit-flashcard-north-star.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/export-anki-deck.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/archive/seed-note-shareable-thought.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/import-from-obsidian.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/lint-flashcard-frontmatter.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/sync-note-relationships.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/normalize-notes-format.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/export-okf-bundle.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/export-okf-blog-bundle.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/lint-utility-wikilinks.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/okf_bundle.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/blog_frontmatter.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/lint-notes-frontmatter.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/sync-note-flashcards.py"
+    }
+  ],
+  "totalFiles": 14,
+  "totalMatches": 14
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+The archive folder is invisible to shell commands but discoverable by glob. Cursorignore may be blocking access.
+
+Now inspecting individual archive files directly. Comparing search.js against vendor search.js, tracing randomizer splits, flagging one-shot migrations like import-from-obsidian and bible-red-letter-mark, and checking overlap between okf-viz and lint-randomizer.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.{json,md,sh,yml,yaml,toml,mjs,js,py,html}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "scripts/archive/"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "scripts/archive/",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-20_11-48-28Z-fix-pkm-notes-shareable.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".cursor/skills/garden-voice/SKILL.md"
+    },
+    {
+      "matchCount": 61,
+      "uri": ".specstory/history/2026-06-21_09-49-17Z-ponytail-skill-integration.md"
+    },
+    {
+      "matchCount": 61,
+      "uri": ".specstory/history/2026-07-10_05-58-29Z-jorap-voice-refinement.md"
+    },
+    {
+      "matchCount": 11,
+      "uri": ".specstory/history/2026-07-01_11-55-29Z-key-concepts-from-notes.md"
+    },
+    {
+      "matchCount": 32,
+      "uri": ".specstory/history/2026-07-17_01-21-56Z-explore-repo-structure.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-28_03-27-44Z-rebranding-sveltia-cms.md"
+    },
+    {
+      "matchCount": 19,
+      "uri": ".specstory/history/2026-06-22_15-20-49Z-heading-replacement-and-genre-examples.md"
+    },
+    {
+      "matchCount": 59,
+      "uri": ".specstory/history/2026-07-09_14-07-18Z-site-improvement-suggestions.md"
+    },
+    {
+      "matchCount": 45,
+      "uri": ".specstory/history/2026-07-24_00-13-49Z-ponytail-audit.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-14_02-39-51Z-blog-frontmatter-review.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": ".specstory/history/2026-07-11_00-02-19Z-workplace-principles-notes.md"
+    },
+    {
+      "matchCount": 8,
+      "uri": ".specstory/history/2026-06-27_10-39-09Z-knowledge-catalog-specification-comparison.md"
+    },
+    {
+      "matchCount": 11,
+      "uri": ".specstory/history/2026-06-22_07-06-09Z-content-consistency-between-local.md"
+    },
+    {
+      "matchCount": 8,
+      "uri": ".specstory/history/2026-07-22_12-32-12Z-recorded-prayers-of-jesus.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/archive/README.md"
+    },
+    {
+      "matchCount": 26,
+      "uri": ".specstory/history/2026-07-15_03-18-12Z-mainstream-terms-for-principles.md"
+    },
+    {
+      "matchCount": 24,
+      "uri": ".specstory/history/2026-06-21_12-48-52Z-format-consistency.md"
+    },
+    {
+      "matchCount": 11,
+      "uri": ".specstory/history/2026-06-22_07-06-09Z-content-consistency-between-local-and-live.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-14_01-28-26Z-hanamikoji-rules-review.md"
+    }
+  ],
+  "totalFiles": 52,
+  "totalMatches": 785
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+File not found
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+File not found
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+File not found
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/_vendor/github.com/gethugothemes/hugo-modules/search/assets/js/search.js</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "notes-random*.js",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/assets/js",
+  "pattern": "function |export "
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/assets/js",
+  "pattern": "function |export ",
+  "topFiles": [
+    {
+      "matchCount": 14,
+      "uri": "assets/js/notes-random-single.js"
+    },
+    {
+      "matchCount": 5,
+      "uri": "assets/js/notes-random-select.js"
+    },
+    {
+      "matchCount": 41,
+      "uri": "assets/js/notes-random-core.js"
+    },
+    {
+      "matchCount": 4,
+      "uri": "assets/js/notes-random-featured.js"
+    },
+    {
+      "matchCount": 31,
+      "uri": "assets/js/notes-random-duo.js"
+    }
+  ],
+  "totalFiles": 5,
+  "totalMatches": 95
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/main.js</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Archive files cannot be read via the Read tool. They may be untracked git entries excluded by .cursorignore.
+
+Glob found the archive scripts. Line counts were pulled from specstory history. Now trying shell read access.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: wc -l /home/jorap/Documents/GitHub/jorap.com/scripts/archive/*.py /home/jorap/Documents/GitHub/jorap.com/scripts/archive/README.md 2&gt;&amp;1</summary>
+```bash
+wc -l /home/jorap/Documents/GitHub/jorap.com/scripts/archive/*.py /home/jorap/Documents/GitHub/jorap.com/scripts/archive/README.md 2>&1
+```
+
+```
+wc: '/home/jorap/Documents/GitHub/jorap.com/scripts/archive/*.py': No such file or directory
+wc: /home/jorap/Documents/GitHub/jorap.com/scripts/archive/README.md: No such file or directory
+0 total
+
+```
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-randomizer.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/randomizer.js</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts",
+  "pattern": "split_frontmatter|FRONTMATTER|FM = re\\.compile"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts",
+  "pattern": "split_frontmatter|FRONTMATTER|FM = re\\.compile",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": "scripts/import-from-obsidian.py"
+    },
+    {
+      "matchCount": 4,
+      "uri": "scripts/export-okf-blog-bundle.py"
+    },
+    {
+      "matchCount": 3,
+      "uri": "scripts/garden-voice-lint.py"
+    },
+    {
+      "matchCount": 3,
+      "uri": "scripts/normalize-blog-frontmatter.py"
+    },
+    {
+      "matchCount": 2,
+      "uri": "scripts/notes-voice-lint.py"
+    },
+    {
+      "matchCount": 3,
+      "uri": "scripts/archive/seed-note-shareable-thought.py"
+    },
+    {
+      "matchCount": 2,
+      "uri": "scripts/sync-note-flashcards.py"
+    },
+    {
+      "matchCount": 3,
+      "uri": "scripts/normalize-notes-format.py"
+    },
+    {
+      "matchCount": 2,
+      "uri": "scripts/audit-flashcard-north-star.py"
+    },
+    {
+      "matchCount": 2,
+      "uri": "scripts/notes_content.py"
+    },
+    {
+      "matchCount": 3,
+      "uri": "scripts/lint-utility-wikilinks.py"
+    },
+    {
+      "matchCount": 2,
+      "uri": "scripts/export-anki-deck.py"
+    },
+    {
+      "matchCount": 2,
+      "uri": "scripts/okf-viz/generate.py"
+    },
+    {
+      "matchCount": 3,
+      "uri": "scripts/export-okf-bundle.py"
+    },
+    {
+      "matchCount": 2,
+      "uri": "scripts/slop-lint.py"
+    },
+    {
+      "matchCount": 2,
+      "uri": "scripts/okf_bundle.py"
+    },
+    {
+      "matchCount": 2,
+      "uri": "scripts/lint-flashcard-frontmatter.py"
+    },
+    {
+      "matchCount": 2,
+      "uri": "scripts/sync-note-relationships.py"
+    },
+    {
+      "matchCount": 2,
+      "uri": "scripts/lint-notes-frontmatter.py"
+    }
+  ],
+  "totalFiles": 19,
+  "totalMatches": 46
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/export-okf-bundle.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/okf_bundle.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Archive files appear in glob and grep results but cannot be read. They are likely phantom entries from the git index or cursorignore.
+
+Git status confirms the archive directory is absent from the working tree. Grep can locate the files, so I will read them directly to measure line counts.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+Path does not exist: /home/jorap/Documents/GitHub/jorap.com/scripts/archive
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/search.js</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/test-search.mjs</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/import-from-obsidian.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/bible-red-letter-mark.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.{json,md,sh,yml,toml,mjs,py}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "bible-red-letter|import-from-obsidian|sync-note-relationships|audit-flashcard|blog_shortcodes"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "bible-red-letter|import-from-obsidian|sync-note-relationships|audit-flashcard|blog_shortcodes",
+  "topFiles": [
+    {
+      "matchCount": 3,
+      "uri": ".specstory/history/2026-07-02_00-24-02Z-notes-layout-preference.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-07-06_07-13-26Z-garden-link-issues-summary.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-07-14_02-39-51Z-blog-frontmatter-review.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": ".specstory/history/2026-07-02_13-08-11Z-search-functionality-issue.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-22_09-13-43Z-systems-for-growth-moc-creation.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": ".specstory/history/2026-06-27_10-39-09Z-knowledge-catalog-specification-comparison.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": ".specstory/history/2026-07-02_23-40-15Z-site-voice-consistency-review.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": ".specstory/history/2026-06-22_15-20-49Z-heading-replacement-and-genre.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-03_05-35-42Z-nasb1995-internal-storage.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-05_14-39-40Z-discipleship-and-leadership-notes.md"
+    },
+    {
+      "matchCount": 10,
+      "uri": ".specstory/history/2026-07-22_12-32-12Z-recorded-prayers-of-jesus.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-09_15-34-09Z-notes-review-and-key.md"
+    },
+    {
+      "matchCount": 22,
+      "uri": ".specstory/history/2026-07-17_01-21-56Z-explore-repo-structure.md"
+    },
+    {
+      "matchCount": 14,
+      "uri": ".specstory/history/2026-07-01_14-04-02Z-notes-frontmatter-conversion.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-10_23-18-53Z-redundant-notes-review.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-06_07-22-00Z-collection-suggestions.md"
+    },
+    {
+      "matchCount": 14,
+      "uri": ".specstory/history/2026-06-30_04-47-08Z-rollback-principle-connections.md"
+    },
+    {
+      "matchCount": 8,
+      "uri": ".specstory/history/2026-07-06_02-22-55Z-notes-review-for-connections.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-06-20_06-58-41Z-automatic-inclusion-of-jorap.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-29_00-45-19Z-@tasks.workspaceid-6c9cecb364b8aca3f894dc941c3259bc-(1-28).md"
+    }
+  ],
+  "totalFiles": 97,
+  "totalMatches": 628
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Checking notes_content.py for oversized logic that could be trimmed.
+
+Found okf-viz overlapping with export. sync-note-flashcards.py is 393 lines. Randomizer logic is split across notes-random-* files. Lint scripts in package.json duplicate voice-lint.py logic. Archive paths appear in git index but not on disk.
+
+Archive files may be tracked by git but blocked from reads by .cursorignore. Next steps include checking git ls-files for archive paths, inspecting notes_content structure for bloat, reviewing okf-viz generate.py, and comparing local export bundles.deleted.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: git -C /home/jorap/Documents/GitHub/jorap.com ls-files &#39;scripts/archive/*&#39; 2&gt;/dev/null | head -20; ls -la /home/jorap/Documents/GitHub/jorap.com/scripts/ 2&gt;/dev/null | head -30</summary>
+```bash
+git -C /home/jorap/Documents/GitHub/jorap.com ls-files 'scripts/archive/*' 2>/dev/null | head -20; ls -la /home/jorap/Documents/GitHub/jorap.com/scripts/ 2>/dev/null | head -30
+```
+
+```
+total 288
+drwxr-xr-x  4 root root  4096 Jul 24 15:13 .
+drwxr-xr-x 33 root root  4096 Jul 11 07:45 ..
+-rw-rw-r--  1 root root  3476 Jul  6 16:37 audit-flashcard-north-star.py
+-rw-rw-r--  1 root root  4720 Jul  9 23:00 bible-red-letter-mark.py
+-rw-rw-r--  1 root root  4097 Jul 14 10:00 blog_frontmatter.py
+-rw-rw-r--  1 root root 11974 Jul 15 23:11 blog_shortcodes.py
+-rw-r--r--  1 root root   396 May 29 08:30 clearModules.js
+-rw-r--r--  1 root root  7983 May 31 08:27 cspHashes.mjs
+-rw-rw-r--  1 root root  1213 Jul 15 22:54 deployBuild.mjs
+-rw-r--r--  1 root root    83 Jun 21 22:58 deploy-versions.json
+-rw-r--r--  1 root root  5021 Jun 21 22:58 ensureHugo.mjs
+-rw-r--r--  1 root root  7520 Jul  6 16:37 export-anki-deck.py
+-rw-rw-r--  1 root root  7481 Jul 15 23:11 export-okf-blog-bundle.py
+-rw-rw-r--  1 root root 10527 Jul 24 15:13 export-okf-bundle.py
+-rw-rw-r--  1 root root  1640 Jun 20 22:30 fix-tailwind-bin.js
+-rw-rw-r--  1 root root  6684 Jul 11 08:06 garden-voice-lint.py
+-rw-rw-r--  1 root root  5429 Jul  6 16:37 import-from-obsidian.py
+-rw-rw-r--  1 root root  5088 Jul  6 16:37 lint-flashcard-frontmatter.py
+-rw-rw-r--  1 root root  8443 Jul 10 22:10 lint-notes-frontmatter.py
+-rw-rw-r--  1 root root  2675 Jul 24 08:31 lint-randomizer.py
+-rw-r--r--  1 root root  2709 Jul  6 16:37 lint-utility-wikilinks.py
+-rw-rw-r--  1 root root  2626 Jul 14 09:59 normalize-blog-frontmatter.py
+-rw-rw-r--  1 root root  8395 Jul  1 22:11 normalize-notes-format.py
+-rw-rw-r--  1 root root  1584 Jun 20 10:38 noteFileDates.js
+-rw-rw-r--  1 root root 19757 Jul 10 22:10 notes_content.py
+-rw-rw-r--  1 root root  9601 Jul  3 08:01 notes-voice-lint.py
+-rw-rw-r--  1 root root  1596 Jul  3 07:46 notes-voice-sanitize.py
+-rw-rw-r--  1 root root  4527 Jul 15 22:54 okf_bundle.py
+drwxrwxr-x  2 root root  4096 Jul 24 15:13 okf-viz
+
+```
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.{py,json,md,sh}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "blog_shortcodes"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "blog_shortcodes",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-17_01-21-44Z-ponytail-audit.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": ".specstory/history/2026-07-24_00-13-49Z-ponytail-audit.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/blog_shortcodes.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-19_12-29-48Z-blog-understanding-difficulty-ranking.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-24_10-18-40Z-audit-scripts-and-js.md"
+    },
+    {
+      "matchCount": 10,
+      "uri": ".specstory/history/2026-07-15_14-44-16Z-blog-compliance-with-okf.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/export-okf-blog-bundle.py"
+    },
+    {
+      "matchCount": 3,
+      "uri": ".specstory/history/2026-07-17_01-21-56Z-explore-repo-structure.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-07-24_10-18-20Z-ponytail-audit.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-22_12-32-12Z-recorded-prayers-of-jesus.md"
+    }
+  ],
+  "totalFiles": 10,
+  "totalMatches": 24
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/okf-viz/generate.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/blog_shortcodes.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py",
+  "pattern": "^def "
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py",
+  "pattern": "^def ",
+  "topFiles": [
+    {
+      "matchCount": 29,
+      "uri": "scripts/notes_content.py"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 29
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.{html,md}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "notes-random-|randomizer\\.js|search-core|search\\.js"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "notes-random-|randomizer\\.js|search-core|search\\.js",
+  "topFiles": [
+    {
+      "matchCount": 15,
+      "uri": ".specstory/history/2026-06-20_10-42-35Z-graph-filters-on-mobile.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "specs/001-site-search/spec.md"
+    },
+    {
+      "matchCount": 8,
+      "uri": "layouts/_partials/notes/random-unrelated-notes.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/notes/random-note-select.html"
+    },
+    {
+      "matchCount": 3,
+      "uri": ".specstory/history/2026-06-20_07-32-04Z-capture.md-format-explanation.md"
+    },
+    {
+      "matchCount": 16,
+      "uri": ".specstory/history/2026-06-19_13-13-32Z-blog-random-notes-section.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": ".specstory/history/2026-06-20_10-42-35Z-graph-filters-on-mobile-and-tablet.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-20_06-58-41Z-automatic-inclusion-of-jorap-notes-in-meta-titles.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": ".specstory/history/2026-06-20_14-06-30Z-last-commit-comparison.md"
+    },
+    {
+      "matchCount": 100,
+      "uri": ".specstory/history/2026-07-09_14-07-18Z-site-improvement-suggestions.md"
+    },
+    {
+      "matchCount": 13,
+      "uri": ".specstory/history/2026-07-01_23-46-47Z-bem-class-addition-discussion.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-15_12-33-22Z-crisp-text-appearance.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": ".specstory/history/2026-06-22_15-46-06Z-atomic-note-creation-prompt.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-02_07-13-32Z-clarification-needed-on-notes.md"
+    },
+    {
+      "matchCount": 47,
+      "uri": ".specstory/history/2026-07-06_08-19-33Z-ponytail-audit.md"
+    },
+    {
+      "matchCount": 52,
+      "uri": ".specstory/history/2026-07-06_03-58-01Z-board-game-question-randomizer.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-05-30_15-20-47Z-website-performance-improvement-strategies.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-06-20_03-20-28Z-notes-review-and-relationship.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": ".specstory/history/2026-06-21_10-39-21Z-deployment-process-overview.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-21_11-42-01Z-possible-additional-filters.md"
+    }
+  ],
+  "totalFiles": 128,
+  "totalMatches": 1987
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+The archive directory does not exist on disk.
+
+Garden-voice skill references archive scripts for bulk edits. This confirms dead paths remain in documentation despite the directory being absent from disk. I will verify archive references in git history.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: git -C /home/jorap/Documents/GitHub/jorap.com ls-files scripts/archive 2&gt;/dev/null; git -C /home/jorap/Documents/GitHub/jorap.com status --short scripts/ 2&gt;/dev/null</summary>
+```bash
+git -C /home/jorap/Documents/GitHub/jorap.com ls-files scripts/archive 2>/dev/null; git -C /home/jorap/Documents/GitHub/jorap.com status --short scripts/ 2>/dev/null
+```
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/sync-note-flashcards.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.{py,json,md}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "principle_line_pool|gets_point_across|shareable_line_from_principle|key_concept_overlaps"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "principle_line_pool|gets_point_across|shareable_line_from_principle|key_concept_overlaps",
+  "topFiles": [
+    {
+      "matchCount": 6,
+      "uri": "scripts/lint-notes-frontmatter.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-20_11-48-28Z-fix-pkm-notes-shareable.md"
+    },
+    {
+      "matchCount": 28,
+      "uri": ".specstory/history/2026-07-03_05-14-19Z-shareable-thoughts-review.md"
+    },
+    {
+      "matchCount": 15,
+      "uri": ".specstory/history/2026-07-10_05-58-29Z-jorap-voice-refinement.md"
+    },
+    {
+      "matchCount": 13,
+      "uri": ".specstory/history/2026-07-06_00-46-11Z-leadership-notes-connection.md"
+    },
+    {
+      "matchCount": 10,
+      "uri": "scripts/archive/seed-note-shareable-thought.py"
+    },
+    {
+      "matchCount": 8,
+      "uri": ".specstory/history/2026-07-10_23-18-53Z-redundant-notes-review.md"
+    },
+    {
+      "matchCount": 25,
+      "uri": ".specstory/history/2026-07-03_06-41-32Z-shareable-thoughts-analysis.md"
+    },
+    {
+      "matchCount": 17,
+      "uri": ".specstory/history/2026-07-09_15-34-09Z-notes-review-and-key-concepts.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-07-03_06-55-32Z-review-voice-audit.md"
+    },
+    {
+      "matchCount": 30,
+      "uri": ".specstory/history/2026-07-03_03-10-34Z-key-concept-review-notes.md"
+    },
+    {
+      "matchCount": 8,
+      "uri": ".specstory/history/2026-07-20_11-43-35Z-garden-voice-notes-review.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": ".specstory/history/2026-07-05_14-39-40Z-discipleship-and-leadership-notes.md"
+    },
+    {
+      "matchCount": 17,
+      "uri": ".specstory/history/2026-07-09_15-34-09Z-notes-review-and-key.md"
+    },
+    {
+      "matchCount": 8,
+      "uri": ".specstory/history/2026-07-03_05-57-22Z-writing-quality-model.md"
+    },
+    {
+      "matchCount": 9,
+      "uri": ".specstory/history/2026-07-22_12-10-07Z-notes-in-biblical-devotions.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-05_14-32-06Z-new-notes-creation.md"
+    },
+    {
+      "matchCount": 14,
+      "uri": ".specstory/history/2026-07-19_12-29-48Z-blog-understanding-difficulty-ranking.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": ".specstory/history/2026-07-03_06-55-32Z-inspect-note-schema.md"
+    },
+    {
+      "matchCount": 14,
+      "uri": "scripts/notes_content.py"
+    }
+  ],
+  "totalFiles": 21,
+  "totalMatches": 301
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/export-okf-blog-bundle.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "layouts/**/*",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "search-core|randomizer|notes-random"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "search-core|randomizer|notes-random",
+  "topFiles": [
+    {
+      "matchCount": 39,
+      "uri": "layouts/randomizer.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/notes/featured-random-note.html"
+    },
+    {
+      "matchCount": 13,
+      "uri": "layouts/notes/random-duo.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/essentials/script.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/notes/random-note-select.html"
+    },
+    {
+      "matchCount": 6,
+      "uri": "layouts/_partials/notes/random-prompt-panel.html"
+    },
+    {
+      "matchCount": 8,
+      "uri": "layouts/_partials/notes/random-unrelated-notes.html"
+    },
+    {
+      "matchCount": 2,
+      "uri": "layouts/notes/list.html"
+    }
+  ],
+  "totalFiles": 8,
+  "totalMatches": 71
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+The archive directory is absent from git on the current branch.
+
+Grep found `scripts/archive/seed-note-shareable-thought.py`, yet read and shell tools cannot access it. This suggests `.cursorignore` may block read tools while grep still runs. I will use grep to extract the line count.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+Path does not exist: /home/jorap/Documents/GitHub/jorap.com/scripts/archive/seed-note-shareable-thought.py
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "scripts/archive/*.py",
+  "outputMode": "count",
+  "pattern": "^"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "count",
+  "pattern": "^",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/essentials/script.html</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts",
+  "pattern": "sync-note-flashcards|bible-red-letter"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts",
+  "pattern": "sync-note-flashcards|bible-red-letter",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "scripts/bible-red-letter-mark.py"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/audit-flashcard-north-star.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+The initial archive scan returned no results because the target directory does not exist on disk. The glob pattern was likely stale or incorrect.
+
+The audit now focuses on actual disk contents. Two major candidates stand out.
+
+The notes-random-* scripts total roughly 1,053 lines across four files. They should merge into a single notes-random.js with a data-mode flag.
+
+The voice lint stack spans about 950 lines across five files. It duplicates FRONTMATTER regex and YAML loading logic. This should collapse into one module.
+
+Archive scripts remain only as stale references in skills.
+
+voice-lint.py is a thin wrapper. Merging its linter profiles would trim roughly 150–200 lines of boilerplate.
+
+search.js duplicates about 400 lines of vendor UI logic. search-core.js already holds the core match logic, so the UI layer could be removed or reduced.
+
+test-search.mjs totals 304 lines. It could shrink by dropping some integration tests.
+
+notes_content.py holds roughly 250 lines of shared thought heuristics that only lint-notes-frontmatter consumes. Moving them into the lint script would shrink the module.
+
+sync-note-flashcards.py is a one-shot card generator still in the tree. It should be deleted after migration.
+
+normalize-notes-format.py is a verify-only migration tool.
+
+okf-viz/ is a standalone viewer that overlaps with export-okf. It could be dropped if rarely used.
+
+Three export-okf bundle scripts total 726 lines. Some overlap, but okf_bundle.py centralizes shared logic.
+
+blog_shortcodes.py is 326 lines. It is only consumed by export-og, so it is acceptable.
+
+randomizer.js is 628 lines. It handles game logic. lint-randomizer.py is 76 lines. It handles YAML lint. These are separate concerns, so they should not be merged with the notes-random split.
+
+search.js still aliases escapeHtml as escapeHTML. That one line can be dropped.
+
+notes-random-featured.js duplicates core.render patterns inside a local cardHtml helper. Those can be replaced with shared utilities.
+
+bible-red-letter-mark.py is a one-shot script that writes data/bible-red-letter-nasb1995.json. It should be deleted after running.
+
+import-from-obsidian.py is 177 lines and is kept in package.json for occasional use. It is acceptable.
+
+blog_frontmatter.py and normalize-blog-frontmatter.py are thin helpers used only by lint:blog. cspHashes.mjs and themeGenerator.js are deploy tools and needed files, so they are not bloat.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.{json,md,sh,yml,toml}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "sync-note-flashcards|okf-viz|export:okf-viz"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "sync-note-flashcards|okf-viz|export:okf-viz",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-06_04-27-35Z-scale-clues-without-categories.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-03_01-49-12Z-five-word-titles-for-notes.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-19_12-29-48Z-blog-understanding-difficulty-ranking.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": ".specstory/history/2026-07-08_00-42-13Z-verse-display-standards-update.md"
+    },
+    {
+      "matchCount": 68,
+      "uri": ".specstory/history/2026-07-24_07-09-26Z-okf-graph-location.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": ".specstory/history/2026-07-01_23-54-03Z-css-hidden-flex-properties.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-07-01_13-08-10Z-note-relationship-duplication.md"
+    },
+    {
+      "matchCount": 33,
+      "uri": ".specstory/history/2026-07-01_14-39-04Z-okf-standards-compliance.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": ".specstory/history/2026-06-28_17-06-25Z-free-grace-and-eternal.md"
+    },
+    {
+      "matchCount": 17,
+      "uri": ".specstory/history/2026-07-17_01-21-44Z-ponytail-audit.md"
+    },
+    {
+      "matchCount": 20,
+      "uri": ".specstory/history/2026-07-09_14-10-18Z-audit-notes-theme-bloat.md"
+    },
+    {
+      "matchCount": 21,
+      "uri": ".specstory/history/2026-07-06_08-19-33Z-ponytail-audit.md"
+    },
+    {
+      "matchCount": 100,
+      "uri": ".specstory/history/2026-06-27_10-39-09Z-knowledge-catalog-specification-comparison.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-02_00-21-58Z-fix-flashcards-batch-3.md"
+    },
+    {
+      "matchCount": 28,
+      "uri": ".specstory/history/2026-06-30_04-43-36Z-notes-formatting-review.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-07-08_02-18-55Z-search-functionality-issue.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-02_00-11-43Z-effective-flashcard-philosophy.md"
+    },
+    {
+      "matchCount": 12,
+      "uri": ".specstory/history/2026-07-01_14-04-02Z-notes-frontmatter-conversion.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-07-06_08-15-57Z-randomizer-in-jorap-voice.md"
+    },
+    {
+      "matchCount": 8,
+      "uri": ".specstory/history/2026-07-02_23-40-15Z-site-voice-consistency-review.md"
+    }
+  ],
+  "totalFiles": 64,
+  "totalMatches": 539
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/slop-lint.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "scripts/*.py",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "yaml\\.safe_load|FRONTMATTER|split_frontmatter"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "yaml\\.safe_load|FRONTMATTER|split_frontmatter",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "scripts/bible-red-letter-mark.py"
+    },
+    {
+      "matchCount": 3,
+      "uri": "scripts/lint-notes-frontmatter.py"
+    },
+    {
+      "matchCount": 2,
+      "uri": "scripts/notes_content.py"
+    },
+    {
+      "matchCount": 3,
+      "uri": "scripts/sync-note-relationships.py"
+    },
+    {
+      "matchCount": 4,
+      "uri": "scripts/normalize-notes-format.py"
+    },
+    {
+      "matchCount": 3,
+      "uri": "scripts/export-okf-bundle.py"
+    },
+    {
+      "matchCount": 4,
+      "uri": "scripts/export-okf-blog-bundle.py"
+    },
+    {
+      "matchCount": 2,
+      "uri": "scripts/lint-flashcard-frontmatter.py"
+    },
+    {
+      "matchCount": 4,
+      "uri": "scripts/notes-voice-lint.py"
+    },
+    {
+      "matchCount": 4,
+      "uri": "scripts/slop-lint.py"
+    },
+    {
+      "matchCount": 4,
+      "uri": "scripts/normalize-blog-frontmatter.py"
+    },
+    {
+      "matchCount": 4,
+      "uri": "scripts/lint-utility-wikilinks.py"
+    },
+    {
+      "matchCount": 2,
+      "uri": "scripts/import-from-obsidian.py"
+    },
+    {
+      "matchCount": 3,
+      "uri": "scripts/sync-note-flashcards.py"
+    },
+    {
+      "matchCount": 2,
+      "uri": "scripts/audit-flashcard-north-star.py"
+    },
+    {
+      "matchCount": 2,
+      "uri": "scripts/export-anki-deck.py"
+    },
+    {
+      "matchCount": 2,
+      "uri": "scripts/okf_bundle.py"
+    },
+    {
+      "matchCount": 3,
+      "uri": "scripts/garden-voice-lint.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/lint-randomizer.py"
+    }
+  ],
+  "totalFiles": 19,
+  "totalMatches": 53
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/garden-voice/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Confirmed okf-viz exists on disk.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: wc -l /home/jorap/Documents/GitHub/jorap.com/scripts/okf-viz/* 2&gt;&amp;1; rg -n &#34;generate_okf_viz|okf-viz&#34; /home/jorap/Documents/GitHub/jorap.com/scripts/export-okf-bundle.py 2&gt;&amp;1 | head -10</summary>
+```bash
+wc -l /home/jorap/Documents/GitHub/jorap.com/scripts/okf-viz/* 2>&1; rg -n "generate_okf_viz|okf-viz" /home/jorap/Documents/GitHub/jorap.com/scripts/export-okf-bundle.py 2>&1 | head -10
+```
+
+```
+  284 /home/jorap/Documents/GitHub/jorap.com/scripts/okf-viz/generate.py
+  214 /home/jorap/Documents/GitHub/jorap.com/scripts/okf-viz/viz.css
+   92 /home/jorap/Documents/GitHub/jorap.com/scripts/okf-viz/viz.html
+  441 /home/jorap/Documents/GitHub/jorap.com/scripts/okf-viz/viz.js
+ 1031 total
+277:    viz_stats = generate_okf_viz(out_dir)
+281:def generate_okf_viz(out_dir: Path) -> dict[str, int]:
+282:    script = ROOT / "scripts/okf-viz/generate.py"
+
+```
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "package.json",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "lint:garden-voice|garden-voice:scan|voice:scan|lint:slop"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "lint:garden-voice|garden-voice:scan|voice:scan|lint:slop",
+  "topFiles": [
+    {
+      "matchCount": 4,
+      "uri": "package.json"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 4
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/export-okf-bundle.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+okf-viz exists and is wired into export.
+
+Found duplicate `split_frontmatter` in okf-viz/generate.py. Voice linter wrappers share roughly 15 lines of duplicated FRONTMATTER parsing across three files. search.js is 505 lines; its vendor copy is ~542 lines, but both import search-core for match logic while the bulk is UI fork. test-search.mjs is 304 lines and correctly reuses search-core. package.json contains redundant lint scripts: `lint:garden` duplicates `lint:garden-voice`, and `lint:slop` duplicates part of `lint:garden`.
+
+`garden-voice:scan` and `voice:scan` are redundant npm scripts. `sync-note-flashcards` is a 393-line one-shot card writer outside package.json. `normalize-notes-format` could shrink to a verify-only mode by removing its write path. `export-okf-bundle` and `export-okf-blog-bundle` may contain duplicate logic. `spawnUtil` and `ensureHugo` are thin wrappers and acceptable. `themeGenerator` needs checking for dead branches.
+
+Skills still reference a dead archive path; that stale reference should be deleted. Merging the five voice linter scripts into one ~700-line file would remove roughly 300 lines of duplicated boilerplate and the voice-lint wrapper.
+
+notes-random-core shrinks to roughly 750 lines if merged into one file. That saves about 300 lines. The okf-viz duplicate split_frontmatter is only ~25 lines and should be shrunk rather than deleted. notes_content heuristics (~230 lines) are only used by lint-notes-frontmatter. Moving them out would not reduce total line count. bible-red-letter-mark is 151 lines and can be deleted once its JSON is built. import-from-obsidian is 177 lines and should stay because it is in package.json.
+
+escapeHtml is duplicated across main.js and search-core. Five files alias it as window.jorapEscapeHtml. search.js adds another alias. The core copy is only six lines. It can be imported from main.js instead. test-search.js could shrink by about one hundred lines if its HTML wiring tests are trimmed. search.js and its vendor copy are roughly four hundred lines of parallel UI. Cutting that without dropping theme sync is difficult.
+
+The escapeHtml duplication is only about six lines, so shrinking it is marginal. The game randomizer is a single 628-line file, while notes random is split across five files; lint-randomizer.py validates YAML separately, so that split is not UI duplication. blog_frontmatter and notes_content may overlap on YAML handling. slop-lint duplicates garden-voice-lint on notes frontmatter fields. The biggest immediate cut is deleting sync-note-flashcards.py (~393 lines).
+
+Stale skill references to `scripts/archive/*` are documentation debt, not file bloat. The okf-viz duplicate `split_frontmatter` is roughly thirty lines and should be replaced with `notes_content` plus `yaml`.
+
+normalize-blog-frontmatter.py reimplements split_frontmatter locally. Replacing it with notes_content would save about fifteen lines.
+
+The voice-lint.py wrapper is fifty-nine lines. Folding it into a single voice_lint.py with argparse subcommands would remove the wrapper entirely.
+
+search.js differs from its vendor copy by only about fifteen lines. Patching the vendor directly is too risky. The UI fork is probably not worth trimming.
+
+export-okf-blog-bundle and export-okf-bundle overlap by roughly two hundred lines of duplicated record parsing. The escapeHtml aliases in five JavaScript files total only five to ten lines, so shrinking them is negligible.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+rg: regex parse error:
+    (?:sync-note-flashcards|normalize-notes-format(?!\.py --verify))
+                                                  ^^^
+error: look-around, including look-ahead and look-behind, is not supported
+
+Consider enabling PCRE2 with the --pcre2 flag, which can handle backreferences
+and look-around.
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.{json,md,sh,yml,toml,py}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "normalize-notes-format\\.py"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "normalize-notes-format\\.py",
+  "topFiles": [
+    {
+      "matchCount": 17,
+      "uri": ".specstory/history/2026-07-19_12-29-48Z-blog-understanding-difficulty-ranking.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-01_11-55-29Z-key-concepts-from-notes.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": ".specstory/history/2026-07-17_01-21-56Z-explore-repo-structure.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-02_01-02-53Z-rewrite-note-descriptions-batch.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-01_23-35-09Z-notes-layout-adjustment.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-17_00-59-48Z-new-notes-from-blogs.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": ".specstory/history/2026-07-24_10-18-20Z-ponytail-audit.md"
+    },
+    {
+      "matchCount": 22,
+      "uri": ".specstory/history/2026-07-01_14-39-04Z-okf-standards-compliance.md"
+    },
+    {
+      "matchCount": 24,
+      "uri": ".specstory/history/2026-07-03_05-57-22Z-writing-quality-model.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-07_04-31-58Z-obsidian-features-discussion.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "docs/CONTENT_VOICE_REVIEW.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-07-02_00-08-55Z-difficult-words-list.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "package.json"
+    },
+    {
+      "matchCount": 5,
+      "uri": ".specstory/history/2026-07-03_06-55-32Z-inspect-note-schema.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-20_11-48-28Z-fix-pkm-notes-shareable.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-07-09_15-34-09Z-notes-review-and-key-concepts.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-03_05-35-42Z-nasb1995-internal-storage.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-22_12-10-07Z-notes-in-biblical-devotions.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-24_10-18-40Z-audit-scripts-and-js.md"
+    },
+    {
+      "matchCount": 14,
+      "uri": ".specstory/history/2026-06-30_04-43-36Z-notes-formatting-review.md"
+    }
+  ],
+  "totalFiles": 53,
+  "totalMatches": 236
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.{json,md,sh,yml,toml,py}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "bible-red-letter-mark"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "bible-red-letter-mark",
+  "topFiles": [
+    {
+      "matchCount": 3,
+      "uri": ".specstory/history/2026-07-24_10-18-20Z-ponytail-audit.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": ".specstory/history/2026-07-17_01-21-56Z-explore-repo-structure.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-15_03-18-12Z-mainstream-terms-for-principles.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-07-10_05-58-29Z-jorap-voice-refinement.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": ".specstory/history/2026-07-24_00-13-49Z-ponytail-audit.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-24_10-18-40Z-audit-scripts-and-js.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-17_01-21-44Z-ponytail-audit.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-19_12-29-48Z-blog-understanding-difficulty-ranking.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-11_00-02-19Z-workplace-principles-notes.md"
+    },
+    {
+      "matchCount": 10,
+      "uri": ".specstory/history/2026-07-09_14-18-35Z-bible-verse-shortcode-review.md"
+    }
+  ],
+  "totalFiles": 10,
+  "totalMatches": 28
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/normalize-notes-format.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+normalize-notes-format contains both a write path and a verify path. The verify path runs in CI. The write path is still occasionally useful. It spans roughly 120 lines in main after line 238.
+
+The final ranked list is being compiled. The archive script is absent from disk and git; its stale skill references should be deleted. The largest cut is a yagni finding: five `notes-random` files totaling roughly 1053 lines should collapse into one `notes-random.js` of about 700 lines.
+
+The voice-lint duplication spans five scripts totaling roughly 950 lines. These should collapse into one `voice_lint.py` with subcommands, cutting about 300 lines. A duplicate FRONTMATTER regex also appears three times and should be removed.
+
+`sync-note-flashcards.py` is a one-shot migration weighing 393 lines. It is no longer needed because card generation is now handled by `lint:cards` plus manual edits.
+
+`bible-red-letter-mark.py` is another one-shot script at 151 lines. Its output is frozen in a static JSON file.
+
+search.js duplicates roughly 505 lines of vendor search UI. Only about 91 lines of match logic remain in search-core.js. The realistic cut is 50–100 lines. The replacement is to extend the vendor search via a js.Build patch hook or accept the fork.
+
+normalize-notes-format.py’s write path is roughly 120 lines. CI only uses --verify, so the script should become verify-only or fold verification into lint-notes-frontmatter.
+
+okf-viz/generate.py contains a 25-line hand-rolled split_frontmatter helper. It should use notes_content and yaml.safe_load instead.
+
+normalize-blog-frontmatter.py duplicates that same 20-line split_frontmatter logic. It should use notes_content directly.
+
+voice-lint.py wraps the merged linter in a 59-line dynamic-import wrapper. That wrapper should be dropped.
+
+`escapeHtml` is duplicated across five IIFE files and `search-core.js`. It should live in one shared `assets/js/escape-html.js` or be replaced by the global `window.jorapEscapeHtml`, saving roughly fifteen lines total.
+
+`notes_content.py` holds roughly 280 lines of shareable-thought heuristics used only by `lint-notes-frontmatter.py`. Those heuristics should be relocated into the lint file or simplified.
+
+`export-okf-blog-bundle.py` and `export-okf-bundle.py` share about 150 lines of record scanning. They should merge into a single helper inside `okf_bundle.py`.
+
+`import-from-obsidian.py` is kept; it remains in `package.json`.
+
+`randomizer.js` and `lint-randomizer.py` are fine as-is.
+
+test-search.mjs carries about 304 lines of necessary checks, though roughly 50 lines of redundant assertions could be trimmed. blog_shortcodes.py and sync-note-relationships.py are kept as-is. The net line estimate for deletions and merges is roughly 1,000 lines.
+
+The realistic net cut is roughly 1,533 lines, conservatively between 900 and 1,100. The archive script is already gone from disk and git; stale skill references pointing to it should be updated rather than deleting the scripts themselves. The flashcards skill still lists a dead `fix-flashcard-lengths.py` path. `notes-graph.js` is excluded from totals.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: git -C /home/jorap/Documents/GitHub/jorap.com log --oneline -3 -- scripts/archive 2&gt;/dev/null; git -C /home/jorap/Documents/GitHub/jorap.com show HEAD:scripts/archive/README.md 2&gt;/dev/null | head -5</summary>
+```bash
+git -C /home/jorap/Documents/GitHub/jorap.com log --oneline -3 -- scripts/archive 2>/dev/null; git -C /home/jorap/Documents/GitHub/jorap.com show HEAD:scripts/archive/README.md 2>/dev/null | head -5
+```
+
+```
+ed9d09f1 Update
+80784cb3 Update
+50dbc98f Update
+
+```
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": ".cursor/skills/**/*.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "scripts/archive/"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "scripts/archive/",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": ".cursor/skills/flashcards/SKILL.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".cursor/skills/garden-voice/SKILL.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".cursor/skills/sync-upstreams/SKILL.md"
+    }
+  ],
+  "totalFiles": 3,
+  "totalMatches": 4
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+The archive script was already deleted in commit ed9d09f1.
+
+Stale documentation references to the deleted archive remain in skills files. These should be removed rather than the scripts themselves.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: git -C /home/jorap/Documents/GitHub/jorap.com ls-tree -r ed9d09f1^ --name-only scripts/archive/*.py 2&gt;/dev/null | wc -l; git -C /home/jorap/Documents/GitHub/jorap.com show ed9d09f1^:scripts/archive/ 2&gt;/dev/null | head -5; git -C /home/jorap/Documents/GitHub/jorap.com diff ed9d09f1^ ed9d09f1 --stat -- scripts/archive/ 2&gt;/dev/null | tail -3</summary>
+```bash
+git -C /home/jorap/Documents/GitHub/jorap.com ls-tree -r ed9d09f1^ --name-only scripts/archive/*.py 2>/dev/null | wc -l; git -C /home/jorap/Documents/GitHub/jorap.com show ed9d09f1^:scripts/archive/ 2>/dev/null | head -5; git -C /home/jorap/Documents/GitHub/jorap.com diff ed9d09f1^ ed9d09f1 --stat -- scripts/archive/ 2>/dev/null | tail -3
+```
+
+```
+0
+tree ed9d09f1^:scripts/archive/
+
+README.md
+__pycache__/
+apply-jesus-quotes.py
+ scripts/archive/normalize-verse-paragraphs.py      | 283 ------------------
+ scripts/archive/seed-note-shareable-thought.py     | 327 ---------------------
+ 13 files changed, 2398 deletions(-)
+
+```
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+A ~2,400-line archive script was deleted in commit ed9d09f1.
+
+Stale skill references to the deleted archive scripts remain. The game randomizer is appropriately centralized in a single file. Notes random logic is unnecessarily split across five files. search-core.js correctly centralizes matching and ranking; search.js duplicates that work for theme UI. lint-randomizer.py properly validates YAML separately from the UI randomizer.
+
+test-search.mjs correctly imports search-core.js. A parallel copy of search.js lives in _vendor (~542 lines).
+
+voice-lint.py is a thin importlib wrapper. The underlying four scripts remain separate files. Most package.json calls use the wrapper. Direct calls to garden-voice-lint and notes-voice-lint still appear in legacy specstory and agent files.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="update_current_step"><details>
+<summary>Tool use: **update_current_step**</summary>
+An unknown error occurred
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Preparing the final audit report with ranked findings, tags, file paths, and line counts.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+# Ponytail audit: `scripts/` + `assets/js/`
+
+Scope: ~11,900 lines across active scripts and JS (excluding `assets/js/notes-graph.js` at 1,534). `scripts/archive/` was deleted in commit `ed9d09f1` (~2,400 lines already cut); skills still reference missing archive paths.
+
+---
+
+## Ranked findings (biggest cut first)
+
+| # | Tag | What to cut | Replacement | Path(s) | ~Lines |
+|---|-----|-------------|-------------|---------|--------|
+| 1 | **yagni** | Five-file notes-random split (core + single + duo + select + featured) | One `notes-random.js` with `data-mode` / root selectors | `assets/js/notes-random-core.js` (489), `notes-random-single.js` (194), `notes-random-duo.js` (250), `notes-random-select.js` (44), `notes-random-featured.js` (76) | **~350** net |
+| 2 | **yagni** | Four voice linters + dynamic-import wrapper, duplicated `FRONTMATTER` regex + yaml load in each | One `voice_lint.py` with `--profile garden\|site\|dashes\|slop`; shared `load_note(path)` | `scripts/garden-voice-lint.py` (198), `notes-voice-lint.py` (277), `slop-lint.py` (358), `notes-voice-sanitize.py` (58), `voice-lint.py` (59) | **~300** net |
+| 3 | **delete** | Auto card writer (tier tables, card synthesis) — not in `lint:garden`, garden cards stable | `lint:cards` + manual edits | `scripts/sync-note-flashcards.py` | **393** |
+| 4 | **delete** | One-shot red-letter JSON builder; output already in `data/` | Nothing (re-run from git history if NASB data changes) | `scripts/bible-red-letter-mark.py` | **151** |
+| 5 | **shrink** | Theme search UI fork (~505 lines) parallel to vendor module; only rank/filter differs | Keep override minimal: import `search-core.js` (already done) + diff-only patch vs `_vendor/.../search.js` | `assets/js/search.js` | **~100–400** (100 if trim dead template fallback; 400 if vendor diff eliminated) |
+| 6 | **shrink** | Write/migrate path in normalize tool; CI only runs `--verify` | Move verify into `lint-notes-frontmatter.py`; drop write path or `--write` only | `scripts/normalize-notes-format.py` (257 total; ~120 write) | **~120** |
+| 7 | **stdlib** | Hand-rolled frontmatter parser in OKF viz generator | `from notes_content import split_frontmatter_parts` + `yaml.safe_load` | `scripts/okf-viz/generate.py` | **~25** |
+| 8 | **stdlib** | Blog frontmatter splitter (yaml regex reimplementation) | `notes_content.split_frontmatter` + `yaml.safe_load` | `scripts/normalize-blog-frontmatter.py` | **~20** |
+| 9 | **delete** | Stale skill references to removed archive migrations | Point skills at git history or active scripts; archive already deleted | `.cursor/skills/garden-voice/SKILL.md`, `.cursor/skills/flashcards/SKILL.md` | **0** (doc debt; ~2,400 lines already removed from tree) |
+| 10 | **shrink** | Duplicate `escapeHtml`: `search-core.js` reimplements `main.js` `jorapEscapeHtml`; 5 IIFEs alias the global | Single `assets/js/escape-html.js` loaded before bundles, or drop aliases and call `window.jorapEscapeHtml` directly | `assets/js/search-core.js`, `assets/js/main.js`, `notes-random-featured.js`, `notes-random-core.js`, `randomizer.js`, `notes-review.js`, `wikilink-preview.js` | **~15** |
+| 11 | **yagni** | `voice-lint.py` importlib hop (59-line wrapper) | Inline subcommands in merged linter (folds into #2) | `scripts/voice-lint.py` | **59** |
+| 12 | **yagni** | OKF notes + blog export duplicate record scanning / wikilink parsing | Shared `scan_content_dir()` in `okf_bundle.py` | `scripts/export-okf-bundle.py` (345), `export-okf-blog-bundle.py` (241) | **~80–150** |
+| 13 | **shrink** | Oversized shared module: ~280 lines of shareable-thought heuristics used only by one linter | Colocate with `lint-notes-frontmatter.py` (moves, doesn't delete logic) | `scripts/notes_content.py` (577 total) | **0 net** (reorg; clarifies 577-line “library”) |
+| 14 | **yagni** | Redundant npm lint aliases mirroring `voice-lint.py` modes | Keep `lint:garden` + `lint:voice`; drop `lint:garden-voice`, `garden-voice:scan`, duplicate `lint:slop` | `package.json` | **~0** (not in audited dirs) |
+
+---
+
+## Already lean (don't cut)
+
+- **`assets/js/search-core.js` (91)** + **`scripts/test-search.mjs` (304)** — match/rank logic correctly shared; not duplicated in `search.js` body.
+- **`assets/js/randomizer.js` (628)** + **`scripts/lint-randomizer.py` (76)** — game UI vs YAML validator; not over-split. The split problem is **notes-random-***, not randomizer.
+- **`scripts/okf-viz/` (~1,031)** — wired from `export-okf-bundle.py`; separate from Obsidian graph. Keep unless OKF viz is dropped entirely.
+- **`scripts/import-from-obsidian.py` (177)** — `import:obsidian` in package.json; occasional maintainer tool, not migration cruft.
+- **`scripts/blog_shortcodes.py` (326)** — single caller (`export-okf-blog-bundle.py`); justified.
+
+---
+
+## Randomizer vs notes-random (clarification)
+
+```mermaid
+flowchart LR
+  subgraph game ["Game randomizer — OK"]
+    YAML[data/randomizer.yaml]
+    LR[lint-randomizer.py]
+    RJ[randomizer.js]
+    YAML --> LR
+    YAML --> RJ
+  end
+  subgraph notes ["Notes random — over-split"]
+    RC[notes-random-core.js]
+    RS[notes-random-single.js]
+    RD[notes-random-duo.js]
+    RSel[notes-random-select.js]
+    RF[notes-random-featured.js]
+    RC --> RS
+    RC --> RD
+    RC --> RF
+    RSel --> RS
+    RSel --> RD
+  end
+```
+
+---
+
+## escapeHtml status
+
+Consolidation to `window.jorapEscapeHtml` in `main.js` is mostly done. Remaining duplication:
+
+- Second implementation in `search-core.js` (ES module boundary for `js.Build` bundle)
+- Six `var escapeHtml = window.jorapEscapeHtml` aliases
+- `const escapeHTML = escapeHtml` alias in `search.js`
+
+---
+
+## net
+
+**Conservative:** −~900 lines, 0 deps  
+**Aggressive** (includes search vendor diff + OKF export dedupe): −~1,400 lines, 0 deps  
+
+Archive cut (~2,400 lines) is already landed; remaining work is merge/delete/shrink above.
+
+**Lean already. Ship** for: deploy helpers (`deployBuild.mjs`, `cspHashes.mjs`, `ensureHugo.mjs`), `sync-note-relationships.py` (93), `audit-flashcard-north-star.py` (106), `lint-randomizer.py` (76).

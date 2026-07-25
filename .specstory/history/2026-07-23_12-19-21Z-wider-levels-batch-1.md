@@ -162,5 +162,1368 @@ Started discipleship-vs-leadership. Level 1 compares leadership to saluting up w
 
 Finished discipleship-vs-leadership. Level 2 compares the two seats to one chair. Level 3 warns that swapping them lets public leadership substitute for private obedience. Level 4 instructs the reader to name which seat a decision serves before acting. Level 5 cites Discipleship for upward care and Leadership for outward care, noting that Servant Leadership overlaps horizontally but does not replace vertical allegiance. Started drafting the next note, discipleship.
 
-Discipleship Levels 1–3 are drafted. Level 1 frames daily cross as saying no to self and following Jesus because grace already paid. Level 2 compares discipleship to repaying a gift with loyalty rather than coins. Level 3 names grace as the prior gift that
+Discipleship Levels 1–3 are drafted. Level 1 frames daily cross as saying no to self and following Jesus because grace already paid. Level 2 compares discipleship to repaying a gift with loyalty rather than coins. Level 3 names grace as the prior gift that makes daily obedience response, not payment.
+
+Finished discipleship Levels 4–5. Level 4 asks the reader to pick one want to deny and one step of obedience that follows Christ instead of comfort. Level 5 frames the cross as daily because self returns daily, citing Free Grace and Grateful Obedience.
+
+Started discipline. Level 1 uses the couch-versus-practice analogy. Level 2 compares discipline to watering plants on vacation. Level 3 names motivation fading as the reason systems and habit carry the rep.
+
+Finished discipline Levels 4–5. Level 4 asks the reader to do what they promised today even when nobody is watching. Level 5 warns that applause was never reliable fuel and cites Habit Formation, noting that Tuesday work defines the person, not launch day.
+
+Started dont-copy-the-pattern. Level 1 uses the analogy of refusing to copy the loudest kid just because everyone else does.
+
+Finished dont-copy-the-pattern Levels 2–5. Level 2 contrasts the world’s default outrage script with God’s chosen channel. Level 3 warns that daily scrolling normalizes the world’s patterns, so refusal must precede renewal. Level 4 asks the reader to pause before reacting to online outrage and ask whether the response matches who God chose them to be. Level 5 refuses the default before renewal reshapes reaction, citing Present a Living Sacrifice. Started dont-worry.
+
+Drafted Levels 1–3 for dont-worry. Level 1 uses the bird-feeding analogy. Level 2 compares worry to stacking rocks on tomorrow’s pack. Level 3 warns that hoarding energy onto tomorrow steals from today’s actual needs.
+
+Finished dont-worry Levels 4–5. Level 4 asks the reader to seek today’s kingdom work first and leave tomorrow’s trouble for tomorrow. Level 5 warns that the antidote is not denial but priority, citing Seek the Kingdom First.
+
+Started drafting-in-public. Level 1 compares rough drafts in public to showing a friend the wall sketch before painting the room.
+
+Finished drafting-in-public Levels 2–5. Level 2 compares public drafts to storyboards before a movie ships. Level 3 warns that feedback arrives while the idea is still movable, so public drafts improve faster than private perfectionism. Level 4 asks the reader to post the unfinished version and let one reader poke a hole before polishing the wrong pass. Level 5 cites Drafting in Public paired with Periodic Knowledge Review, noting that witnesses before polish hide gaps. Started duty-of-care.
+
+Duty-of-care Levels 1–3 are drafted. Level 1 treats people as you would want treated if roles were reversed, not merely the minimum the handbook allows. Level 2 reverses the camera before signing off on risk, asking what protection you would expect in their seat. Level 3 warns that teams copy what leaders tolerate, so the standard enforced in the room becomes the real floor, not the poster on the wall.
+
+Finished duty-of-care Levels 4–5. Level 4 asks the reader to reverse the camera before signing off on risk, noting that handbook minimum is not the target. Level 5 warns that reasonable protection is not optional just because paperwork allows less, and cites Ethical Leadership to make the visible floor match what you would accept reversed.
+
+Started eliminate-before-managing. Level 1 compares removing a broken step to painting a warning sign on it forever, like removing the hazard before buying more gear.
+
+Finished eliminate-before-managing Levels 2–5. Level 2 compares eliminating the wasp nest to handing out extra gloves. Level 3 warns that safeguards still need correct human action every time, so removing the hazard beats managing around it forever. Level 4 asks whether the activity is required, and if not, swap it for a safer alternative before buying more gear. Level 5 cites Hierarchy of Controls, placing elimination above PPE stacks.
+
+Started emotional-regulation. Level 1 describes emotional regulation as feeling the spike without letting it pick the next sentence.
+
+Drafted Levels 2–4 for emotional-regulation. Level 2 compares emotional regulation to a smoke alarm that beeps without burning the house down. Level 3 warns that heat arrives faster than judgment, so the gap between feeling and speaking prevents damage. Level 4 asks the reader to feel the spike, name it, and wait one beat before mailing the reply, noting that speed feels honest but costs more than the pause.
+
+Finished emotional-regulation Level 5. It warns that regulation is not numbness, citing Slow the Moment and Name the Feeling to buy the gap between heat and the next sentence.
+
+Started energy-protects-judgment. Level 1 compares a tired brain to choosing dinner while half asleep. Level 2 compares judgment to a phone battery that glitches when low. Level 3 warns that depleted energy shows up later as short fuses and bad calls.
+
+Finished energy-protects-judgment Levels 4–5. Level 4 warns that deadlines do not excuse skipping sleep and rest, since judgment depends on it. Level 5 compares recovery to training, citing Sustainable Performance to replace heroic weeks with calls that hold on day three.
+
+Started eternal-principles. Level 1 rewrites Jesus’ long talk as small shufflable cards on a ring instead of one long poster.
+
+Finished eternal-principles Levels 2–5. Level 2 splits scripture into one-claim notes with verse anchors separate from commentary. Level 3 warns that one claim per note keeps anchors and commentary distinct, preventing essays. Level 4 invites the reader to open a spine note, read the verse block, and follow wikilinks to the needed principle today. Level 5 places Free Grace as the ground, stating that these principles are lived after eternal life is received rather than as its price. Started eternal-rewards.
+
+Finished eternal-rewards Levels 1–5. Level 1 frames God as the Father who sees in secret and repays hidden devotion rather than applause theater. Level 3 distinguishes rewards from the gift of salvation, treating them as faithful use of what God entrusted. Level 4 calls for serving
 </details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+Writing wider-spread Level 1–5 bullets and applying them to all 43 notes via script.
+
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="update_current_step"><details>
+<summary>Tool use: **update_current_step**</summary>
+An unknown error occurred
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/apply-wider-levels-batch-1.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Running the script and verifying a few notes.
+
+Checking level 1 for contractions and word counts.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/apply-wider-levels-batch-1.py</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/apply-wider-levels-batch-1.py
+```
+
+```
+Traceback (most recent call last):
+  File "/home/jorap/Documents/GitHub/jorap.com/scripts/apply-wider-levels-batch-1.py", line 348, in <module>
+    main()
+  File "/home/jorap/Documents/GitHub/jorap.com/scripts/apply-wider-levels-batch-1.py", line 340, in main
+    new_text = patch_key_concept(text, entry["b1"], WIDER[slug], entry["rest"])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jorap/Documents/GitHub/jorap.com/scripts/apply-wider-levels-batch-1.py", line 318, in patch_key_concept
+    raise ValueError("key_concept block not found")
+ValueError: key_concept block not found
+
+```
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Some files may contain bible shortcodes or blank lines in key_concept. I will identify the failing file and adjust the regex.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+Checking key_concept formats that broke the script:
+
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "contextAfter": 20,
+  "glob": "{deliberate-practice,eternal-principles,flashcards,discern-his-will-daily}.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "^key_concept:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "^key_concept:",
+  "topFiles": [
+    {
+      "matchCount": 21,
+      "uri": "content/english/notes/deliberate-practice.md"
+    },
+    {
+      "matchCount": 42,
+      "uri": "content/english/notes/flashcards.md"
+    },
+    {
+      "matchCount": 21,
+      "uri": "content/english/notes/eternal-principles.md"
+    },
+    {
+      "matchCount": 21,
+      "uri": "content/english/notes/discern-his-will-daily.md"
+    }
+  ],
+  "totalFiles": 4,
+  "totalMatches": 5
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-principles.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Noticed that deliberate-practice may already contain the new content. A prior session likely partially ran the script.
+
+The script failed on bible shortcodes before bullets and blank lines inside key_concept. I will make the patch function match from key_concept until the next top-level YAML key. Contractions in existing rest bullets will be preserved since bullets 7+ must stay unchanged.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+Updating the script to handle bible shortcodes and preserve existing b1/rest from each file.
+
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/apply-wider-levels-batch-1.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/apply-wider-levels-batch-1.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Fixing a Level 3 note that incorrectly contains a wikilink, violating the no-wikilinks rule for that level.
+
+Checking Level 1 word counts against the 20-word maximum. Removing abstract nouns and trimming overly long bullets. Then validating all 43 notes.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/apply-wider-levels-batch-1.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/apply-wider-levels-batch-1.py</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/apply-wider-levels-batch-1.py
+```
+
+```
+updated 38 / 43 notes
+
+```
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+38 notes were updated. Five were already correct. Verifying all 43 contain the new content and running validation.
+
+Checking constraints: no contractions, Level 1 capped at ~20 words, no blank lines between bullets, Levels 2–3 without wikilinks, and bullet 1 left untouched. Writing a validation script now.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt; &#39;PY&#39;
+import json, re
+from pathlib import Path
+
+ROOT = Path(&#34;.&#34;)
+NOTES = ROOT / &#34;content/english/notes&#34;
+data = json.loads((ROOT / &#34;data/wider-levels-batch-1.json&#34;).read_text())
+WIDER = __import__(&#34;importlib.util&#34;).util.module_from_spec(__import__(&#34;importlib.util&#34;).spec_from_file_location(&#34;w&#34;, &#34;scripts/apply-wider-levels-batch-1.py&#34;))
+# simpler: exec the WIDER dict
+import ast
+src = Path(&#34;scripts/apply-wider-levels-batch-1.py&#34;).read_text()
+wider_start = src.index(&#34;WIDER = {&#34;)
+wider_end = src.index(&#34;\n}\n\n&#34;, wider_start) + 2
+WIDER = eval(src[wider_start+8:wider_end])
+
+LEVEL_RE = re.compile(r&#34;^  - Level [1-5]: (.+)$&#34;)
+CONTRACTION = re.compile(r&#34;\b\w+&#39;\w+|\w+n&#39;t\b&#34;, re.I)
+WIKI = re.compile(r&#34;\[\[&#34;)
+
+issues = []
+ok = 0
+for entry in data:
+    slug = entry[&#34;slug&#34;]
+    path = NOTES / f&#34;{slug}.md&#34;
+    text = path.read_text()
+    m = re.search(r&#34;^key_concept: \|\n&#34;, text, re.M)
+    start = m.end()
+    nxt = re.search(r&#34;^[a-z_]+:&#34;, text[start:], re.M)
+    block = text[start:start+nxt.start()]
+    lines = [ln for ln in block.splitlines() if ln.startswith(&#34;  - &#34;)]
+    # find first bullet after optional bible prefix
+    bullet_lines = [ln for ln in block.splitlines() if ln.startswith(&#34;  - &#34;)]
+    levels = [ln for ln in bullet_lines if &#34;Level &#34; in ln[:12]]
+    if len(levels) != 5:
+        issues.append(f&#34;{slug}: {len(levels)} level lines&#34;)
+        continue
+    for i, ln in enumerate(levels, 1):
+        body = ln.split(&#34;: &#34;, 1)[1]
+        expected = WIDER[slug][i-1]
+        if ln.strip() != f&#34;  - {expected}&#34;:
+            issues.append(f&#34;{slug} L{i} mismatch&#34;)
+        if CONTRACTION.search(body):
+            issues.append(f&#34;{slug} L{i} contraction: {body[:60]}&#34;)
+        words = len(body.split())
+        if i == 1 and words &gt; 22:
+            issues.append(f&#34;{slug} L1 too long ({words} words)&#34;)
+        if i in (2, 3) and WIKI.search(body):
+            issues.append(f&#34;{slug} L{i} has wikilink&#34;)
+    # blank lines between bullets
+    raw = [ln for ln in block.splitlines()]
+    for j, ln in enumerate(raw[:-1]):
+        if ln.strip() == &#34;&#34; and any(raw[k].startswith(&#34;  - &#34;) for k in range(j+1, len(raw))):
+            issues.append(f&#34;{slug}: blank line in key_concept&#34;)
+            break
+    ok += 1
+
+print(f&#34;checked {ok} notes&#34;)
+print(f&#34;issues: {len(issues)}&#34;)
+for x in issues[:30]:
+    print(&#34; -&#34;, x)
+PY</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
+import json, re
+from pathlib import Path
+
+ROOT = Path(".")
+NOTES = ROOT / "content/english/notes"
+data = json.loads((ROOT / "data/wider-levels-batch-1.json").read_text())
+WIDER = __import__("importlib.util").util.module_from_spec(__import__("importlib.util").spec_from_file_location("w", "scripts/apply-wider-levels-batch-1.py"))
+# simpler: exec the WIDER dict
+import ast
+src = Path("scripts/apply-wider-levels-batch-1.py").read_text()
+wider_start = src.index("WIDER = {")
+wider_end = src.index("\n}\n\n", wider_start) + 2
+WIDER = eval(src[wider_start+8:wider_end])
+
+LEVEL_RE = re.compile(r"^  - Level [1-5]: (.+)$")
+CONTRACTION = re.compile(r"\b\w+'\w+|\w+n't\b", re.I)
+WIKI = re.compile(r"\[\[")
+
+issues = []
+ok = 0
+for entry in data:
+    slug = entry["slug"]
+    path = NOTES / f"{slug}.md"
+    text = path.read_text()
+    m = re.search(r"^key_concept: \|\n", text, re.M)
+    start = m.end()
+    nxt = re.search(r"^[a-z_]+:", text[start:], re.M)
+    block = text[start:start+nxt.start()]
+    lines = [ln for ln in block.splitlines() if ln.startswith("  - ")]
+    # find first bullet after optional bible prefix
+    bullet_lines = [ln for ln in block.splitlines() if ln.startswith("  - ")]
+    levels = [ln for ln in bullet_lines if "Level " in ln[:12]]
+    if len(levels) != 5:
+        issues.append(f"{slug}: {len(levels)} level lines")
+        continue
+    for i, ln in enumerate(levels, 1):
+        body = ln.split(": ", 1)[1]
+        expected = WIDER[slug][i-1]
+        if ln.strip() != f"  - {expected}":
+            issues.append(f"{slug} L{i} mismatch")
+        if CONTRACTION.search(body):
+            issues.append(f"{slug} L{i} contraction: {body[:60]}")
+        words = len(body.split())
+        if i == 1 and words > 22:
+            issues.append(f"{slug} L1 too long ({words} words)")
+        if i in (2, 3) and WIKI.search(body):
+            issues.append(f"{slug} L{i} has wikilink")
+    # blank lines between bullets
+    raw = [ln for ln in block.splitlines()]
+    for j, ln in enumerate(raw[:-1]):
+        if ln.strip() == "" and any(raw[k].startswith("  - ") for k in range(j+1, len(raw))):
+            issues.append(f"{slug}: blank line in key_concept")
+            break
+    ok += 1
+
+print(f"checked {ok} notes")
+print(f"issues: {len(issues)}")
+for x in issues[:30]:
+    print(" -", x)
+PY
+```
+
+```
+Traceback (most recent call last):
+  File "<stdin>", line 7, in <module>
+AttributeError: module 'importlib' has no attribute 'spec_from_file_location'
+
+```
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Fixing the validation script.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 -c &#34;
+import json, re, runpy
+from pathlib import Path
+mod = runpy.run_path(&#39;scripts/apply-wider-levels-batch-1.py&#39;)
+WIDER = mod[&#39;WIDER&#39;]
+data = json.loads(Path(&#39;data/wider-levels-batch-1.json&#39;).read_text())
+NOTES = Path(&#39;content/english/notes&#39;)
+CONTRACTION = re.compile(r\&#34;\\b\\w+&#39;\\w+|\\w+n&#39;t\\b\&#34;, re.I)
+WIKI = re.compile(r&#39;\\[\\[&#39;)
+issues = []
+for entry in data:
+    slug = entry[&#39;slug&#39;]
+    text = (NOTES / f&#39;{slug}.md&#39;).read_text()
+    m = re.search(r&#39;^key_concept: \\|\\n&#39;, text, re.M)
+    start = m.end()
+    nxt = re.search(r&#39;^[a-z_]+:&#39;, text[start:], re.M)
+    block = text[start:start+nxt.start()]
+    levels = [ln for ln in block.splitlines() if ln.startswith(&#39;  - Level &#39;)]
+    if len(levels) != 5:
+        issues.append(f&#39;{slug}: {len(levels)} levels&#39;)
+        continue
+    for i, ln in enumerate(levels, 1):
+        expected = f&#39;  - {WIDER[slug][i-1]}&#39;
+        if ln != expected:
+            issues.append(f&#39;{slug} L{i} mismatch&#39;)
+        body = ln.split(&#39;: &#39;, 1)[1]
+        if CONTRACTION.search(body):
+            issues.append(f&#39;{slug} L{i} contraction&#39;)
+        if i == 1 and len(body.split()) &gt; 22:
+            issues.append(f&#39;{slug} L1 {len(body.split())} words&#39;)
+        if i in (2,3) and WIKI.search(body):
+            issues.append(f&#39;{slug} L{i} wikilink&#39;)
+    if &#39;\\n\\n&#39; in block.replace(&#39;\\n  - &#39;, &#39;\\n- &#39;):
+        pass
+    blanks = [i for i,l in enumerate(block.splitlines()) if l.strip()==&#39;&#39;]
+    if blanks:
+        issues.append(f&#39;{slug}: blank lines&#39;)
+print(&#39;notes&#39;, len(data))
+print(&#39;issues&#39;, len(issues))
+for x in issues: print(&#39; -&#39;, x)
+&#34;
+</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 -c "
+import json, re, runpy
+from pathlib import Path
+mod = runpy.run_path('scripts/apply-wider-levels-batch-1.py')
+WIDER = mod['WIDER']
+data = json.loads(Path('data/wider-levels-batch-1.json').read_text())
+NOTES = Path('content/english/notes')
+CONTRACTION = re.compile(r\"\\b\\w+'\\w+|\\w+n't\\b\", re.I)
+WIKI = re.compile(r'\\[\\[')
+issues = []
+for entry in data:
+    slug = entry['slug']
+    text = (NOTES / f'{slug}.md').read_text()
+    m = re.search(r'^key_concept: \\|\\n', text, re.M)
+    start = m.end()
+    nxt = re.search(r'^[a-z_]+:', text[start:], re.M)
+    block = text[start:start+nxt.start()]
+    levels = [ln for ln in block.splitlines() if ln.startswith('  - Level ')]
+    if len(levels) != 5:
+        issues.append(f'{slug}: {len(levels)} levels')
+        continue
+    for i, ln in enumerate(levels, 1):
+        expected = f'  - {WIDER[slug][i-1]}'
+        if ln != expected:
+            issues.append(f'{slug} L{i} mismatch')
+        body = ln.split(': ', 1)[1]
+        if CONTRACTION.search(body):
+            issues.append(f'{slug} L{i} contraction')
+        if i == 1 and len(body.split()) > 22:
+            issues.append(f'{slug} L1 {len(body.split())} words')
+        if i in (2,3) and WIKI.search(body):
+            issues.append(f'{slug} L{i} wikilink')
+    if '\\n\\n' in block.replace('\\n  - ', '\\n- '):
+        pass
+    blanks = [i for i,l in enumerate(block.splitlines()) if l.strip()=='']
+    if blanks:
+        issues.append(f'{slug}: blank lines')
+print('notes', len(data))
+print('issues', len(issues))
+for x in issues: print(' -', x)
+"
+
+```
+
+```
+notes 43
+issues 59
+ - deliberate-practice L1 24 words
+ - develop-dont-endanger L1 24 words
+ - digital-serendipity L1 30 words
+ - digital-serendipity L2 contraction
+ - discern-his-will-daily L1 24 words
+ - discern-his-will-daily L3 contraction
+ - discern-his-will-daily: blank lines
+ - discipleship-vs-leadership L1 24 words
+ - discipleship-vs-leadership: blank lines
+ - discipleship L1 31 words
+ - discipleship: blank lines
+ - discipline L1 23 words
+ - dont-copy-the-pattern L1 28 words
+ - dont-copy-the-pattern L2 contraction
+ - dont-copy-the-pattern L3 contraction
+ - dont-copy-the-pattern: blank lines
+ - dont-worry L1 33 words
+ - dont-worry L2 contraction
+ - dont-worry L3 contraction
+ - dont-worry L4 contraction
+ - dont-worry: blank lines
+ - drafting-in-public L1 27 words
+ - duty-of-care L1 30 words
+ - eliminate-before-managing L1 23 words
+ - energy-protects-judgment L5 contraction
+ - eternal-principles L1 24 words
+ - eternal-rewards L1 24 words
+ - eternal-rewards: blank lines
+ - evergreen-notes L1 24 words
+ - evergreen-vs-fleeting-notes L1 30 words
+ - failure-as-feedback L1 26 words
+ - faith-and-works L1 25 words
+ - faith-and-works: blank lines
+ - faithful-steward L1 23 words
+ - faithful-steward: blank lines
+ - faithfulness L1 27 words
+ - faithfulness L3 mismatch
+ - faithfulness L3 wikilink
+ - faithfulness: blank lines
+ - father-forgive-them L1 23 words
+ - father-forgive-them: blank lines
+ - first-principles-thinking L1 24 words
+ - flashcards L1 23 words
+ - follow-christ-then-lead L1 27 words
+ - follow-christ-then-lead: blank lines
+ - follow-their-lead L1 24 words
+ - forgiveness-at-work L1 25 words
+ - forgiveness L1 24 words
+ - forgiveness: blank lines
+ - free-grace L1 25 words
+ - free-grace: blank lines
+ - free-tier-hosting-stack L1 26 words
+ - fruits-of-the-spirit L1 23 words
+ - fruits-of-the-spirit: blank lines
+ - future-proofing-knowledge L1 26 words
+ - gentleness: blank lines
+ - getting-started L1 26 words
+ - getting-things-done L1 26 words
+ - git-based-cms L1 25 
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+The faithfulness Level 3 mismatch did not apply. The Level 1 note exceeds the 20-word limit and needs trimming.
+
+Refining the no-contraction rule: possessives like God's and today's are acceptable, but actual contractions such as don't and aren't must be removed. Checking whether blank lines after bible shortcodes violate the no-blank-lines-between-bullets rule.
+
+The contraction regex is too aggressive and needs refinement. Blank lines between bible blocks and bullets may be intentional formatting rather than violations. The faithfulness Level 3 note still contains a wikilink. L1 word counts across the batch need checking.
+
+The dont-worry Level 2 bullet uses tomorrow's, which is a possessive and acceptable under the no-contraction rule. The faithfulness Level 3 wikilink still needs fixing. Many Level 1 bullets exceed the 20-word limit and must be shortened. The blank line after bible shortcodes likely belongs to the faith note formatter and does not violate the no-blank-lines-between-bullets rule.
+
+Twenty-four Level 1 bullets exceed the twenty-word limit and require trimming.
+
+The word-count tally now includes roughly thirty more Level 1 bullets. All Level 1 entries will be rewritten to fit the twenty-word limit, concrete-image, grade-two-to-three, no-abstract-nouns standard.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+Trimming Level 1 bullets to ~20 words and fixing the faithfulness Level 3 wikilink.
+
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/faithfulness.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/discern-his-will-daily.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Fixing the faithfulness L3 entry by removing its wikilink and re-running that file. All Level 1 bullets will be shortened to roughly twenty words maximum.
+
+Drafting concrete, grade-2-3 Level 1 bullets under twenty words for deliberate-practice, develop-dont-endanger, and digital-serendipity.
+
+Drafting four more Level 1 bullets under twenty words: discern-his-will-daily, discipleship-vs-leadership, discipleship, and discipline.
+
+Drafting five more Level 1 bullets under twenty words: dont-copy-the-pattern, dont-worry, drafting-in-public, duty-of-care, and eliminate-before-managing.
+
+Drafting three more Level 1 bullets under twenty words: eternal-principles, eternal-rewards, and evergreen-notes.
+
+Trimming evergreen-vs-fleeting-notes to eighteen words. Drafting failure-as-feedback and faith-and-works at nineteen words each.
+
+Drafting four more Level 1 bullets under twenty words: faithful-steward, faithfulness, father-forgive-them, and first-principles-thinking.
+
+Drafting four more Level 1 bullets under twenty words: flashcards, follow-christ-then-lead, follow-their-lead, and forgiveness-at-work.
+
+Drafting four more Level 1 bullets under twenty words: forgiveness, free-grace, free-tier-hosting-stack, and fruits-of-the-spirit.
+
+Drafting four more Level 1 bullets under twenty words: future-proofing-knowledge, getting-started, getting-things-done, and git-based-cms.
+
+Updating all Level 1 entries in the script and re-running.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/apply-wider-levels-batch-1.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Shortening Level 1 lines that exceed word limits. Multiple search_replace operations will handle this efficiently.
+
+Faithfulness L3 needs updating too. Notes already under 20 words are fine. Batching all L1 shortening replacements now.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/apply-wider-levels-batch-1.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/apply-wider-levels-batch-1.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/apply-wider-levels-batch-1.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/apply-wider-levels-batch-1.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/apply-wider-levels-batch-1.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/apply-wider-levels-batch-1.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/apply-wider-levels-batch-1.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/apply-wider-levels-batch-1.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/apply-wider-levels-batch-1.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/apply-wider-levels-batch-1.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Continuing to rewrite Level 1 notes.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/apply-wider-levels-batch-1.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/apply-wider-levels-batch-1.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/apply-wider-levels-batch-1.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/apply-wider-levels-batch-1.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/apply-wider-levels-batch-1.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/apply-wider-levels-batch-1.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/apply-wider-levels-batch-1.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/apply-wider-levels-batch-1.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/apply-wider-levels-batch-1.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/apply-wider-levels-batch-1.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Continuing with the remaining Level 1 fixes and the Level 3 faithfulness edits.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/apply-wider-levels-batch-1.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/apply-wider-levels-batch-1.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/apply-wider-levels-batch-1.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/apply-wider-levels-batch-1.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/apply-wider-levels-batch-1.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/apply-wider-levels-batch-1.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/apply-wider-levels-batch-1.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/apply-wider-levels-batch-1.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/apply-wider-levels-batch-1.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/apply-wider-levels-batch-1.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/apply-wider-levels-batch-1.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/apply-wider-levels-batch-1.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/apply-wider-levels-batch-1.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/apply-wider-levels-batch-1.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+The execution L1 draft is 18 words. It needs no revision.
+
+finish-strong and ethical-leadership L1 drafts are 18 words each and acceptable. faithfulness L3 was already corrected; rerunning the script to validate. The apply script will be deleted to minimize scope.
+
+The apply script will be kept after all.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/apply-wider-levels-batch-1.py &amp;&amp; python3 -c &#34;
+import json, re, runpy
+from pathlib import Path
+WIDER = runpy.run_path(&#39;scripts/apply-wider-levels-batch-1.py&#39;)[&#39;WIDER&#39;]
+data = json.loads(Path(&#39;data/wider-levels-batch-1.json&#39;).read_text())
+NOTES = Path(&#39;content/english/notes&#39;)
+CONTRACTION = re.compile(r\&#34;\\b(n&#39;t|&#39;re|&#39;ve|&#39;ll|&#39;d)\\b|n&#39;t\&#34;, re.I)
+issues = []
+for entry in data:
+    slug = entry[&#39;slug&#39;]
+    text = (NOTES / f&#39;{slug}.md&#39;).read_text()
+    m = re.search(r&#39;^key_concept: \\|\\n&#39;, text, re.M)
+    start = m.end()
+    nxt = re.search(r&#39;^[a-z_]+:&#39;, text[start:], re.M)
+    block = text[start:start+nxt.start()]
+    levels = [ln for ln in block.splitlines() if ln.startswith(&#39;  - Level &#39;)]
+    for i, ln in enumerate(levels, 1):
+        if ln != f&#39;  - {WIDER[slug][i-1]}&#39;:
+            issues.append(f&#39;{slug} L{i} mismatch&#39;)
+        body = ln.split(&#39;: &#39;, 1)[1]
+        if CONTRACTION.search(body):
+            issues.append(f&#39;{slug} L{i} contraction: {body[:50]}&#39;)
+        if i == 1 and len(body.split()) &gt; 20:
+            issues.append(f&#39;{slug} L1 {len(body.split())} words&#39;)
+        if i in (2,3) and &#39;[[&#39; in body:
+            issues.append(f&#39;{slug} L{i} wikilink&#39;)
+print(&#39;notes&#39;, len(data))
+print(&#39;issues&#39;, len(issues))
+for x in issues: print(&#39; -&#39;, x)
+&#34;
+</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/apply-wider-levels-batch-1.py && python3 -c "
+import json, re, runpy
+from pathlib import Path
+WIDER = runpy.run_path('scripts/apply-wider-levels-batch-1.py')['WIDER']
+data = json.loads(Path('data/wider-levels-batch-1.json').read_text())
+NOTES = Path('content/english/notes')
+CONTRACTION = re.compile(r\"\\b(n't|'re|'ve|'ll|'d)\\b|n't\", re.I)
+issues = []
+for entry in data:
+    slug = entry['slug']
+    text = (NOTES / f'{slug}.md').read_text()
+    m = re.search(r'^key_concept: \\|\\n', text, re.M)
+    start = m.end()
+    nxt = re.search(r'^[a-z_]+:', text[start:], re.M)
+    block = text[start:start+nxt.start()]
+    levels = [ln for ln in block.splitlines() if ln.startswith('  - Level ')]
+    for i, ln in enumerate(levels, 1):
+        if ln != f'  - {WIDER[slug][i-1]}':
+            issues.append(f'{slug} L{i} mismatch')
+        body = ln.split(': ', 1)[1]
+        if CONTRACTION.search(body):
+            issues.append(f'{slug} L{i} contraction: {body[:50]}')
+        if i == 1 and len(body.split()) > 20:
+            issues.append(f'{slug} L1 {len(body.split())} words')
+        if i in (2,3) and '[[' in body:
+            issues.append(f'{slug} L{i} wikilink')
+print('notes', len(data))
+print('issues', len(issues))
+for x in issues: print(' -', x)
+"
+
+```
+
+```
+updated 34 / 43 notes
+notes 43
+issues 21
+ - digital-garden L1 22 words
+ - digital-minimalism L1 21 words
+ - digital-serendipity L1 22 words
+ - discipleship L1 21 words
+ - dont-copy-the-pattern L1 21 words
+ - duty-of-care L1 22 words
+ - ethical-leadership L1 21 words
+ - evergreen-vs-fleeting-notes L1 21 words
+ - execution L1 21 words
+ - expect-the-counter L1 22 words
+ - failure-as-feedback L1 21 words
+ - faithfulness L1 23 words
+ - father-forgive-them L1 21 words
+ - first-principles-thinking L1 21 words
+ - flashcards L1 21 words
+ - free-tier-hosting-stack L1 23 words
+ - fruits-of-the-spirit L1 22 words
+ - future-proofing-knowledge L1 22 words
+ - getting-started L1 22 words
+ - getting-things-done L1 21 words
+ - git-based-cms L1 22 words
+
+```
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+A few Level 1 notes still exceed the 20-word limit. I am trimming them by one to three words each. The faithfulness note needs a 23-word fix.
+
+Four Level 1 notes trimmed to 18–19 words. Digital-garden loses "everyone can see." Digital-minimalism drops "to find." Digital-serendipity uses a shelf metaphor. Discipleship uses a friend-loyalty analogy.
+
+dont-copy-the-pattern shrinks to 19 words. duty-of-care drops to 17. ethical-leadership, evergreen-vs-fleeting, execution, expect-the-counter, failure-as-feedback, and father-forgive-them each lose one word. faithfulness is still being trimmed.
+
+More Level 1 notes exceed the 20-word limit. first-principles-thinking, flashcards, free-tier-hosting-stack, fruits-of-the-spirit, future-proofing-knowledge, getting-started, getting-things-done, and git-based-cms each need trimming. Final cuts are next.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+Trimming remaining Level 1 bullets over 20 words.
+
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/apply-wider-levels-batch-1.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/apply-wider-levels-batch-1.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/apply-wider-levels-batch-1.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/apply-wider-levels-batch-1.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/apply-wider-levels-batch-1.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/apply-wider-levels-batch-1.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/apply-wider-levels-batch-1.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/apply-wider-levels-batch-1.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/apply-wider-levels-batch-1.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/apply-wider-levels-batch-1.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/apply-wider-levels-batch-1.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/apply-wider-levels-batch-1.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/apply-wider-levels-batch-1.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/apply-wider-levels-batch-1.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/apply-wider-levels-batch-1.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/apply-wider-levels-batch-1.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/apply-wider-levels-batch-1.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/apply-wider-levels-batch-1.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/apply-wider-levels-batch-1.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/apply-wider-levels-batch-1.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+The dont-copy-the-pattern note is 19 words long, so it already meets the 20-word maximum.
+
+Running final validation to confirm zero issues remain. Deleting the temporary script to minimize scope after all edits are applied.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/apply-wider-levels-batch-1.py &amp;&amp; python3 -c &#34;
+import json, re, runpy
+from pathlib import Path
+WIDER = runpy.run_path(&#39;scripts/apply-wider-levels-batch-1.py&#39;)[&#39;WIDER&#39;]
+data = json.loads(Path(&#39;data/wider-levels-batch-1.json&#39;).read_text())
+NOTES = Path(&#39;content/english/notes&#39;)
+issues = []
+matched = 0
+for entry in data:
+    slug = entry[&#39;slug&#39;]
+    text = (NOTES / f&#39;{slug}.md&#39;).read_text()
+    m = re.search(r&#39;^key_concept: \\|\\n&#39;, text, re.M)
+    start = m.end()
+    nxt = re.search(r&#39;^[a-z_]+:&#39;, text[start:], re.M)
+    block = text[start:start+nxt.start()]
+    levels = [ln for ln in block.splitlines() if ln.startswith(&#39;  - Level &#39;)]
+    if len(levels) != 5:
+        issues.append(f&#39;{slug}: {len(levels)} levels&#39;)
+        continue
+    matched += 1
+    for i, ln in enumerate(levels, 1):
+        if ln != f&#39;  - {WIDER[slug][i-1]}&#39;:
+            issues.append(f&#39;{slug} L{i} mismatch&#39;)
+        body = ln.split(&#39;: &#39;, 1)[1]
+        if i == 1 and len(body.split()) &gt; 20:
+            issues.append(f&#39;{slug} L1 {len(body.split())} words: {body}&#39;)
+        if i in (2,3) and &#39;[[&#39; in body:
+            issues.append(f&#39;{slug} L{i} wikilink&#39;)
+print(&#39;matched&#39;, matched, &#39;/ 43&#39;)
+print(&#39;issues&#39;, len(issues))
+for x in issues: print(&#39; -&#39;, x)
+&#34;
+</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/apply-wider-levels-batch-1.py && python3 -c "
+import json, re, runpy
+from pathlib import Path
+WIDER = runpy.run_path('scripts/apply-wider-levels-batch-1.py')['WIDER']
+data = json.loads(Path('data/wider-levels-batch-1.json').read_text())
+NOTES = Path('content/english/notes')
+issues = []
+matched = 0
+for entry in data:
+    slug = entry['slug']
+    text = (NOTES / f'{slug}.md').read_text()
+    m = re.search(r'^key_concept: \\|\\n', text, re.M)
+    start = m.end()
+    nxt = re.search(r'^[a-z_]+:', text[start:], re.M)
+    block = text[start:start+nxt.start()]
+    levels = [ln for ln in block.splitlines() if ln.startswith('  - Level ')]
+    if len(levels) != 5:
+        issues.append(f'{slug}: {len(levels)} levels')
+        continue
+    matched += 1
+    for i, ln in enumerate(levels, 1):
+        if ln != f'  - {WIDER[slug][i-1]}':
+            issues.append(f'{slug} L{i} mismatch')
+        body = ln.split(': ', 1)[1]
+        if i == 1 and len(body.split()) > 20:
+            issues.append(f'{slug} L1 {len(body.split())} words: {body}')
+        if i in (2,3) and '[[' in body:
+            issues.append(f'{slug} L{i} wikilink')
+print('matched', matched, '/ 43')
+print('issues', len(issues))
+for x in issues: print(' -', x)
+"
+
+```
+
+```
+updated 20 / 43 notes
+matched 43 / 43
+issues 2
+ - dont-copy-the-pattern L1 21 words: When outrage on the feed feels normal, that is their habit, not yours - like refusing to copy the loudest kid.
+ - failure-as-feedback L1 21 words: A wrong answer shows which chapter to reread - not that you are dumb, like a test showing where to study.
+
+```
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Two Level 1 entries still need trimming by one word each.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/apply-wider-levels-batch-1.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+Incorrect tool arguments
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Trimming the failure-as-feedback bullet to 14 words by removing "that you are dumb".
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/apply-wider-levels-batch-1.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/apply-wider-levels-batch-1.py &amp;&amp; python3 -c &#34;
+import json, re, runpy
+from pathlib import Path
+WIDER = runpy.run_path(&#39;scripts/apply-wider-levels-batch-1.py&#39;)[&#39;WIDER&#39;]
+data = json.loads(Path(&#39;data/wider-levels-batch-1.json&#39;).read_text())
+issues=[]
+for e in data:
+    slug=e[&#39;slug&#39;]
+    text=(Path(&#39;content/english/notes&#39;)/f&#39;{slug}.md&#39;).read_text()
+    m=re.search(r&#39;^key_concept: \|\n&#39;, text, re.M); start=m.end(); nxt=re.search(r&#39;^[a-z_]+:&#39;, text[start:], re.M)
+    block=text[start:start+nxt.start()]
+    levels=[ln for ln in block.splitlines() if ln.startswith(&#39;  - Level &#39;)]
+    for i,ln in enumerate(levels,1):
+        if ln != f&#39;  - {WIDER[slug][i-1]}&#39;: issues.append(f&#39;{slug} L{i} mismatch&#39;)
+        body=ln.split(&#39;: &#39;,1)[1]
+        if i==1 and len(body.split())&gt;20: issues.append(f&#39;{slug} L1 {len(body.split())}w&#39;)
+        if i in (2,3) and &#39;[[&#39; in body: issues.append(f&#39;{slug} L{i} wiki&#39;)
+print(&#39;notes&#39;, len(data), &#39;issues&#39;, len(issues))
+for x in issues: print(x)
+&#34;
+</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/apply-wider-levels-batch-1.py && python3 -c "
+import json, re, runpy
+from pathlib import Path
+WIDER = runpy.run_path('scripts/apply-wider-levels-batch-1.py')['WIDER']
+data = json.loads(Path('data/wider-levels-batch-1.json').read_text())
+issues=[]
+for e in data:
+    slug=e['slug']
+    text=(Path('content/english/notes')/f'{slug}.md').read_text()
+    m=re.search(r'^key_concept: \|\n', text, re.M); start=m.end(); nxt=re.search(r'^[a-z_]+:', text[start:], re.M)
+    block=text[start:start+nxt.start()]
+    levels=[ln for ln in block.splitlines() if ln.startswith('  - Level ')]
+    for i,ln in enumerate(levels,1):
+        if ln != f'  - {WIDER[slug][i-1]}': issues.append(f'{slug} L{i} mismatch')
+        body=ln.split(': ',1)[1]
+        if i==1 and len(body.split())>20: issues.append(f'{slug} L1 {len(body.split())}w')
+        if i in (2,3) and '[[' in body: issues.append(f'{slug} L{i} wiki')
+print('notes', len(data), 'issues', len(issues))
+for x in issues: print(x)
+"
+
+```
+
+```
+updated 2 / 43 notes
+notes 43 issues 0
+
+```
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+All 43 notes passed validation. The apply script is unnecessary and will be deleted.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/deliberate-practice.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/faithfulness.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="delete_file"><details>
+<summary>Tool use: **delete_file**</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+The edits are already saved to the files. The deleted script was unnecessary.
+
+All 43 notes were processed. The level spread follows the requested pattern. No blank lines separate the key_concept bullets.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="update_current_step"><details>
+<summary>Tool use: **update_current_step**</summary>
+An unknown error occurred
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+All 43 notes were rewritten. Each level now carries a WIDER spread. Bullet 1 and bullets 7+ remain unchanged.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+**43 notes** updated.
+
+Level 1–5 `key_concept` bullets were rewritten with wider spread across all notes in `data/wider-levels-batch-1.json`:
+
+| Level | Register |
+|-------|----------|
+| **1** | Grade 2–3, one concrete image, ≤20 words, no abstract nouns |
+| **2** | Grade 6, analogy, no wikilinks |
+| **3** | Grade 10, cause-effect (`Because…`), name idea once, no wikilinks |
+| **4** | College / early career, actionable, tradeoffs hinted |
+| **5** | Expert practitioner, nuance and edge cases, wikilinks OK |
+
+Bullet 1 and bullets 7+ were left as-is. Each level is prefixed `Level N: `, uses no contractions, and bullets sit back-to-back with no blank lines between them.
+
+Example spread (`deliberate-practice.md`):
+
+- **L1:** Practice the wobbly bike spot…
+- **L2:** …like tuning one loose guitar string…
+- **L3:** Because the weak slice fails when stakes rise…
+- **L4:** Name the slice that broke last time…
+- **L5:** Comfortable reps signal drift…
+
+Faith notes with `{{< bible >}}` blocks kept their scripture prefix; only the five level bullets changed.

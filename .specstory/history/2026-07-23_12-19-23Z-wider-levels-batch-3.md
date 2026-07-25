@@ -329,3 +329,540 @@ Additional data:
 Status: **completed**
 
 </details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Planning the wider spread rewrite for Level 1–5. Keeping bullet 1 and bullets 7+. Applying the specified grades and prefixes. All 43 notes will be updated.
+
+L1 is now grade 2–3 image rather than grade 6. Reviewing batch-2 examples to ensure the wider spread format matches.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/wider-levels-batch-2.json</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/glorify-your-name.md",
+  "pattern": "Level 1:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/glorify-your-name.md",
+  "pattern": "Level 1:",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/glorify-your-name.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Reviewing the wider-spread pattern from batch-2.
+
+The current batch-3 levels are too close together. L1 lacks the "like..." image analogies. I will rewrite all 43 level sets and apply them via a Python script. I am starting to list the slugs.
+
+Continuing the slug inventory through item 33. The full set of 43 notes is now mapped.
+
+The 43 slugs are now fully listed. The five-level spread is defined: L1 uses grade 2–3 image analogies; L2 is grade 6 plain language; L3 names concepts with cause-effect; L4 is adult and actionable; L5 is expert with wikilinks. No contractions will be used. A Python script will read the existing JSON and apply the new levels.
+
+Drafting the complete updated JSON and apply script. Starting with the first note, "let-your-yes-be-yes," and its Level 1 bullet.
+
+The Level 1 bullet for "let-your-yes-be-yes" uses a friend-party analogy. Level 2 cites extra swearing and hype as signs of lost trust. Level 3 names the concept with a cause-effect reference to Jesus. Level 4 is adult and actionable, advising plain yes-or-no speech and fixing follow-through instead of spinning.
+
+Level 5 for "let-your-yes-be-yes" links speech integrity to Heart Righteousness and contrasts padded oaths with Atomic Notes. Drafting the next note, "life-before-achievement": Level 1 uses a race analogy where winning only counts if no one gets badly hurt; Level 2 states that goals matter only when the path respects safety and leaves no permanent damage.
+
+Level 3 for "life-before-achievement" names the concept: a win that costs health or trust is not a real win. Level 4 is adult and actionable, asking whether the route protects people before chasing metrics. Level 5 links Safety by Design and Duty of Care upstream of any target, warning that achievement without them is borrowed time. I will continue drafting the remaining 41 notes. I will also check the repository for an existing apply script before running it.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **1** directory</summary>
+
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (0 files)
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts",
+  "pattern": "wider-levels|levels-batch"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts",
+  "pattern": "wider-levels|levels-batch",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+A Python script will apply the level rewrites.
+
+The apply script will parse each note's key_concept, preserve bullet 1, replace Levels 1–5, and keep all bullets after Level 5. The markdown structure varies across notes, complicating the replacement logic.
+
+The script will target lines beginning with "  - Level N:" for replacement. It will read the updated JSON and apply the changes to the markdown files. All 43 wider levels will be written out carefully.
+
+The batch-2 pattern is the template. Contractions are forbidden. L1 and L2 avoid wikilinks. L5 may include them. The JSON will be written directly with careful prose. A few more notes need review to handle bible blocks and faith note structures.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/love-god.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/loss-of-reward.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/pkm.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+The note "loss-of-reward" contains a second bible block after Level 5.
+
+Only Level 1–5 bullets will be replaced. All other content stays untouched. A Python script will handle the find-and-replace. The updated JSON will contain all 43 rewritten notes.
+
+The script will read the markdown files and replace each Level 1–5 line individually using regex. The JSON already contains the full "Level N: " prefix, so the replacement string needs no extra formatting.
+
+Drafting the Level 1–4 text for the first note, "let-your-yes-be-yes." The first draft uses plain language about saying yes without extra oaths, while later levels address trust, padded promises, and plain speech.
+
+Level 5 for "let-your-yes-be-yes" contrasts padded oaths with plain integrity. Drafting Level 1–3 for "life-before-achievement": winning without hurting others, goals that do not break safety rules, and methods that protect health and trust.
+
+Level 4 and 5 for "life-before-achievement" stress asking whether the route protects people before chasing metrics, and placing Safety by Design and Duty of Care upstream of any target. Drafting Level 1 and 2 for "linking-by-meaning," contrasting folders with physical separation against links that thread ideas together like strings between pictures.
+
+Level 3 for "linking-by-meaning" explains that links carry relationships across topics, unlike folder labels. Level 4 says connecting notes that extend or push back on each other keeps the graph walkable months later. Level 5 contrasts typed links with folder paths, noting that two links per note often outlast forgotten bucket structures. Drafting Level 1 for "listen-before-fixing," which uses the example of repeating a friend’s story before giving advice.
+
+Drafted Levels 2 through 5 for "listen-before-fixing." Level 2 uses the example of repeating someone’s words in your own voice before offering advice. Level 3 says prescribe only after the other person feels heard; otherwise advice lands like correction. Level 4 mirrors what they said, pauses, then responds, noting that one sentence of playback buys trust. Level 5 ties this sequence to Follow Their Lead and Gentleness, with Safety Coming First as the exception when delay would let harm continue. The next note is "literature-notes."
+
+Drafting Levels 1 through 4 for "literature-notes." Level 1 says write the story in your own voice rather than reading every highlighted line back. Level 2 treats literature notes as your own take on the source, not a paste of yellow marks. Level 3 places them between reading and evergreen writing, translating the author into your vocabulary before linking ideas. Level 4 asks for one page of your words after reading; if it sounds like a highlight reel, you captured the book, not your thinking.
+
+Level 5 for "literature-notes" says Atomic Notes grow from literature notes once one claim earns its own page, with Layered Reading feeding the stack without a highlight dump.
+
+Drafting Levels 1 through 3 for "local-first-software": the device owns the master copy first, like a diary kept at home; online sync copies changes rather than replacing the local file; truth stays on the device and cloud sync acts as redundancy.
+
+Level 4 for "local-first-software" says pick tools that work offline with full features; sync is insurance, not the vault you would crawl to after an outage. Level 5 ties Building a Personal API and Digital Minimalism to reading and writing without begging a server, warning that cloud-only stacks fail when the tenant changes the rules.
+
+Drafting Levels 1 and 2 for "loss-of-reward": use what you are given and it can grow, like watering a plant instead of hiding the seed in a drawer where nothing happens. The faithful servant compounds what the master gave; burying it and even that talent can be lost, while salvation stays on Christ alone.
+
+Level 3 for "loss-of-reward" warns that worthless works burn at the judgment seat, while eternal life remains secure on faith. Level 4 says serve with what you have now, because wasted seasons may cost reward at the Judgment Seat without reopening justification. Level 5 introduces two ledgers: Free Grace settles eternal life at faith, and Eternal Rewards settle what lasted—wood, hay, and stubble burn, but gold stays, and Standing versus Fellowship keeps shame from collapsing standing. The next note is "love-god."
+
+Drafting Levels 1 through 4 for "love-god." Level 1 compares loving God with your whole life to loving your family all week, not only on Sunday. Level 2 frames whole-person devotion as heart, mind, and daily choices rather than a weekly corner visit. Level 3 demands all of you—heart, soul, mind, and strength—not a compartment opened once a week. Level 4 calls for auditing where time and attention actually go; if God gets one hour and everything else gets the week, devotion is partitioned, not whole.
+
+Level 5 for "love-god" tests whether loving God first reshapes calendar and attention, not just worship attendance. Drafting Levels 1 through 3 for "love-your-enemies": pray for those who hurt you, copying God’s rain on both good and weed patches; bless persecutors because the Father treats just and unjust alike; enemy-love means prayer and blessing, not agreement or denial of harm.
+
+Level 4 for "love-your-enemies" says pray before replying when slandered; ordinary love rewards those who love back, but divine-shaped love blesses the persecutor. Level 5 contrasts the Father’s Free Grace toward the unjust with Turn the Other Cheek for personal insult, and sees enemy-love as the pattern for sustained opposition without retaliation.
+
+Drafting Level 1 for "love-your-neighbor": treat the person right in front of you the way you would want someone to treat you if you switched places, like helping a kid who fell off a bike the way you would want help.
+
+Levels 2 through 5 for "love-your-neighbor" pair the command with the first command. Level 3 treats love as active, not abstract; the Samaritan bandaged, paid, and stayed, and debate over who counts misses the command. Level 4 asks what you would want if you were stranded, then act like that neighbor. Level 5 says [[Mercy]] shows up in the body, and [[Free Grace]] frees you to love without keeping score for salvation, though the command stays after the gift lands. The next note is "low-hanging-fruit."
+
+Levels 1 through 4 for "low-hanging-fruit" treat easy wins as small jobs, not the biggest battle. Level 1 compares them to picking the easy apples on the bottom branch first. Level 2 says tackle them with normal effort, not hero energy reserved for hard fights. Level 3 says not every task deserves peak focus; quick wins clear noise before the real work. Level 4 says do the two-minute fix first, saving deep work for problems that actually need it. Level 5 ties this to the Pareto Principle and Minimum Effective Dose, spending disproportionate effort only where the return earns it.
+
+Drafting Levels 1 through 4 for "maintenance-window." Level 1 compares scheduling a note cleanup to setting aside Saturday morning to tidy the room. Level 2 defines a maintenance window as planned pruning and archiving, not crisis cleaning. Level 3 warns that PKM systems rot without a fixed review slot; broken links and orphaned tags compound when you wait for panic. Level 4 recommends blocking ninety minutes weekly for garden hygiene, since stale tags and broken links multiply faster than you think.
+
+Level 5 for "maintenance-window" warns that random Sunday panic lets [[Normalization of Deviance]] creep into the note stack. [[Periodic Knowledge Review]] and [[Maps of Content]] both assume rhythm.
+
+Drafting Levels 1 through 3 for "maps-of-content": when one topic sprawls across too many files, draw one hub page that links them, like a hand-drawn table of contents for a messy binder. A map of content is a hand-built index when memory fails, and the hub beats whatever the folder tree implies.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+Writing wider-spread Level 1–5 content and a script to apply it across all 43 notes.
+
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="update_current_step"><details>
+<summary>Tool use: **update_current_step**</summary>
+An unknown error occurred
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/apply-wider-levels-batch-3.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Writing the complete updated JSON with all 43 wider spread levels.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/wider-levels-batch-3.json</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Running the apply script now. Verifying all 43 notes were updated.
+
+Checking for extra bible blocks in notes like loss-of-reward.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="update_current_step"><details>
+<summary>Tool use: **update_current_step**</summary>
+An unknown error occurred
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 /home/jorap/Documents/GitHub/jorap.com/scripts/apply-wider-levels-batch-3.py</summary>
+```bash
+python3 /home/jorap/Documents/GitHub/jorap.com/scripts/apply-wider-levels-batch-3.py
+```
+
+```
+edited=43 skipped=0 total=43
+
+```
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+All 43 notes were edited. Now verifying the results.
+
+Sample notes show correct levels. Bullet 1 and later bullets remain unchanged. Levels contain no contractions. Blank lines appear only between bible blocks. The loss-of-reward note keeps its second bible block.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 - &lt;&lt;&#39;PY&#39;
+import json, re
+from pathlib import Path
+
+batch = json.loads(Path(&#34;data/wider-levels-batch-3.json&#34;).read_text())
+notes = Path(&#34;content/english/notes&#34;)
+issues = []
+contraction = re.compile(r&#34;\b(don&#39;t|doesn&#39;t|didn&#39;t|won&#39;t|can&#39;t|couldn&#39;t|shouldn&#39;t|wouldn&#39;t|isn&#39;t|aren&#39;t|wasn&#39;t|weren&#39;t|haven&#39;t|hasn&#39;t|hadn&#39;t|it&#39;s|that&#39;s|what&#39;s|who&#39;s|you&#39;re|they&#39;re|we&#39;re|I&#39;m|you&#39;ve|they&#39;ve|we&#39;ve|I&#39;ll|you&#39;ll|they&#39;ll|let&#39;s)\b&#34;, re.I)
+
+for entry in batch:
+    slug = entry[&#34;slug&#34;]
+    text = (notes / f&#34;{slug}.md&#34;).read_text()
+    # extract key_concept block
+    m = re.search(r&#34;^key_concept: \|\n(.*?)(?=^[a-z_]+:|\Z)&#34;, text, re.M | re.S)
+    if not m:
+        issues.append(f&#34;{slug}: no key_concept&#34;)
+        continue
+    block = m.group(1)
+    bullets = [ln for ln in block.splitlines() if ln.startswith(&#34;  - &#34;)]
+    if not bullets:
+        issues.append(f&#34;{slug}: no bullets&#34;)
+        continue
+    # b1 check - first bullet should match (strip leading dash space)
+    b1_file = bullets[0][4:].strip()
+    if b1_file != entry[&#34;b1&#34;]:
+        issues.append(f&#34;{slug}: b1 changed: {b1_file[:50]!r}&#34;)
+    # levels
+    level_bullets = [b for b in bullets if b.startswith(&#34;  - Level &#34;)]
+    if len(level_bullets) != 5:
+        issues.append(f&#34;{slug}: {len(level_bullets)} level bullets&#34;)
+    for i, (lb, expected) in enumerate(zip(level_bullets, entry[&#34;levels&#34;]), 1):
+        got = lb[4:].strip()
+        if got != expected:
+            issues.append(f&#34;{slug}: L{i} mismatch&#34;)
+        if contraction.search(got):
+            issues.append(f&#34;{slug}: contraction in L{i}&#34;)
+    # rest bullets after level 5
+    idx = bullets.index(level_bullets[-1])
+    rest_file = [b[4:].strip() for b in bullets[idx+1:]]
+    if rest_file != entry[&#34;rest&#34;]:
+        # loss-of-reward has extra content after levels - check rest is prefix
+        if slug == &#34;loss-of-reward&#34;:
+            if rest_file[:len(entry[&#34;rest&#34;])] != entry[&#34;rest&#34;]:
+                issues.append(f&#34;{slug}: rest mismatch&#34;)
+        else:
+            issues.append(f&#34;{slug}: rest mismatch file={rest_file} json={entry[&#39;rest&#39;]}&#34;)
+
+print(f&#34;issues={len(issues)} notes={len(batch)}&#34;)
+for i in issues[:20]:
+    print(&#34; &#34;, i)
+PY</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 - <<'PY'
+import json, re
+from pathlib import Path
+
+batch = json.loads(Path("data/wider-levels-batch-3.json").read_text())
+notes = Path("content/english/notes")
+issues = []
+contraction = re.compile(r"\b(don't|doesn't|didn't|won't|can't|couldn't|shouldn't|wouldn't|isn't|aren't|wasn't|weren't|haven't|hasn't|hadn't|it's|that's|what's|who's|you're|they're|we're|I'm|you've|they've|we've|I'll|you'll|they'll|let's)\b", re.I)
+
+for entry in batch:
+    slug = entry["slug"]
+    text = (notes / f"{slug}.md").read_text()
+    # extract key_concept block
+    m = re.search(r"^key_concept: \|\n(.*?)(?=^[a-z_]+:|\Z)", text, re.M | re.S)
+    if not m:
+        issues.append(f"{slug}: no key_concept")
+        continue
+    block = m.group(1)
+    bullets = [ln for ln in block.splitlines() if ln.startswith("  - ")]
+    if not bullets:
+        issues.append(f"{slug}: no bullets")
+        continue
+    # b1 check - first bullet should match (strip leading dash space)
+    b1_file = bullets[0][4:].strip()
+    if b1_file != entry["b1"]:
+        issues.append(f"{slug}: b1 changed: {b1_file[:50]!r}")
+    # levels
+    level_bullets = [b for b in bullets if b.startswith("  - Level ")]
+    if len(level_bullets) != 5:
+        issues.append(f"{slug}: {len(level_bullets)} level bullets")
+    for i, (lb, expected) in enumerate(zip(level_bullets, entry["levels"]), 1):
+        got = lb[4:].strip()
+        if got != expected:
+            issues.append(f"{slug}: L{i} mismatch")
+        if contraction.search(got):
+            issues.append(f"{slug}: contraction in L{i}")
+    # rest bullets after level 5
+    idx = bullets.index(level_bullets[-1])
+    rest_file = [b[4:].strip() for b in bullets[idx+1:]]
+    if rest_file != entry["rest"]:
+        # loss-of-reward has extra content after levels - check rest is prefix
+        if slug == "loss-of-reward":
+            if rest_file[:len(entry["rest"])] != entry["rest"]:
+                issues.append(f"{slug}: rest mismatch")
+        else:
+            issues.append(f"{slug}: rest mismatch file={rest_file} json={entry['rest']}")
+
+print(f"issues={len(issues)} notes={len(batch)}")
+for i in issues[:20]:
+    print(" ", i)
+PY
+```
+
+```
+issues=2 notes=43
+  love-your-neighbor: rest mismatch file=['Jesus echoed Moses on the second command - no command ranks higher than loving God and neighbor.', 'The Samaritan acted as neighbor - go and do the same, do not debate who counts.', '[[Mercy]] shows up in the body - bandage, ride, cost covered.', '[[Free Grace]] does not erase the command - it frees me to love without keeping score for salvation.', 'Love others the way I would want care if our roles flipped.'] json=[]
+  mercy: rest mismatch file=['Paul keeps mercy and grace in one breath - rich in mercy, saved by grace while I was still dead in sin.', '[[Grace]] gives good I could not earn; mercy spares bad I had coming.', '[[Free Grace]] is how that pair lands on eternal life - gift through faith, wrath withheld, heaven given.', '[[Forgiveness]] is mercy toward a debtor: release what you are owed because the King already cleared yours.', '[[The Beatitudes]] promise mercy to the merciful.', '[[Judge Not]] starts from the same ground - I needed mercy before I play judge.', '[[Love Your Neighbor]] and [[Love Your Enemies]] turn mercy outward: act for the hurt person, bless the persecutor.', 'PKM mirror: [[Sunk Cost Fallacy]] in reverse - stop treating old hurt like a debt I am still collecting when mercy already closed the ledger.', 'Mercy withholds the punishment I deserve and calls me to show the same compassion to others.'] json=[]
+
+```
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/let-your-yes-be-yes.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/loss-of-reward.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+The JSON contains empty rest arrays, but the notes include rest bullets 7 through 10. This mismatch explains the discrepancy.
+
+The apply script only replaced Levels 1–5, leaving bullets 7+ untouched. The verification flag is a false positive from incomplete source JSON. I am confirming the original rest bullets remain intact.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/love-your-neighbor.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/mercy.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; rg -l &#34;Level 1:&#34; content/english/notes/{let-your-yes-be-yes,life-before-achievement,linking-by-meaning,listen-before-fixing,literature-notes,local-first-software,loss-of-reward,love-god,love-your-enemies,love-your-neighbor,low-hanging-fruit,maintenance-window,maps-of-content,measure-then-iterate,mental-models,mercy,metadata-strategy,mind-mapping,minimum-effective-dose,minimum-viable-product,mobile-capture-workflows,moved-with-compassion,name-the-feeling,network-analysis,normalization-of-deviance,not-my-will,note-relationships,notice-the-good,okf-export,opened-scripture,outcomes-over-pitch-decks,own-the-error,own-your-part,para-method,pareto-principle,patience,peace,peacemakers,people-centered-design,periodic-knowledge-review,pkm,plain-commitments-at-work,platform-reach-is-borrowed}.md | wc -l</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && rg -l "Level 1:" content/english/notes/{let-your-yes-be-yes,life-before-achievement,linking-by-meaning,listen-before-fixing,literature-notes,local-first-software,loss-of-reward,love-god,love-your-enemies,love-your-neighbor,low-hanging-fruit,maintenance-window,maps-of-content,measure-then-iterate,mental-models,mercy,metadata-strategy,mind-mapping,minimum-effective-dose,minimum-viable-product,mobile-capture-workflows,moved-with-compassion,name-the-feeling,network-analysis,normalization-of-deviance,not-my-will,note-relationships,notice-the-good,okf-export,opened-scripture,outcomes-over-pitch-decks,own-the-error,own-your-part,para-method,pareto-principle,patience,peace,peacemakers,people-centered-design,periodic-knowledge-review,pkm,plain-commitments-at-work,platform-reach-is-borrowed}.md | wc -l
+```
+
+```
+43
+
+```
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+The love-your-neighbor and mercy notes contain complex structures with Bible blocks after Level 5. The remaining bullets were preserved correctly because they follow Bible shortcodes rather than appearing immediately after Level 5.
+
+All 43 notes were updated successfully. The apply script will remain to document the batch process.
+
+Running a quick voice lint check on the batch. Verifying that Level 1 notes include "like" analogies for the grade 2-3 image requirement.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 - &lt;&lt;&#39;PY&#39;
+import json, re
+from pathlib import Path
+
+batch = json.loads(Path(&#34;data/wider-levels-batch-3.json&#34;).read_text())
+notes = Path(&#34;content/english/notes&#34;)
+missing_like = []
+for entry in batch:
+    l1 = entry[&#34;levels&#34;][0]
+    if &#34;like &#34; not in l1.lower() and &#34; - like &#34; not in l1.lower():
+        # some use &#34;Like medicine&#34; at start
+        if not l1.lower().startswith(&#34;level 1: like&#34;):
+            missing_like.append(entry[&#34;slug&#34;])
+
+print(f&#34;L1 without &#39;like&#39; analogy: {len(missing_like)}&#34;)
+for s in missing_like:
+    l1 = next(e[&#34;levels&#34;][0] for e in batch if e[&#34;slug&#34;]==s)
+    print(f&#34;  {s}: {l1[:90]}...&#34;)
+PY</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 - <<'PY'
+import json, re
+from pathlib import Path
+
+batch = json.loads(Path("data/wider-levels-batch-3.json").read_text())
+notes = Path("content/english/notes")
+missing_like = []
+for entry in batch:
+    l1 = entry["levels"][0]
+    if "like " not in l1.lower() and " - like " not in l1.lower():
+        # some use "Like medicine" at start
+        if not l1.lower().startswith("level 1: like"):
+            missing_like.append(entry["slug"])
+
+print(f"L1 without 'like' analogy: {len(missing_like)}")
+for s in missing_like:
+    l1 = next(e["levels"][0] for e in batch if e["slug"]==s)
+    print(f"  {s}: {l1[:90]}...")
+PY
+```
+
+```
+L1 without 'like' analogy: 0
+
+```
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+All Level 1 notes contain "like" analogies.
+
+The apply script will remain. It ensures reproducibility for future batches.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="update_current_step"><details>
+<summary>Tool use: **update_current_step**</summary>
+An unknown error occurred
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+All 43 notes were rewritten. Level 1–5 wider spreads were kept with bullet 1 and bullets 7+. Grade2–3 images go to level 1. Grade6 goes to level 2. Grade10 goes to level 3. Adult goes to level 4. Expert goes to level 5. Each note uses the `Level N: ` prefix. Contractions were removed. Blank lines were removed.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+Updated **43/43** notes from `data/wider-levels-batch-3.json` with wider-spread Level 1–5 bullets.
+
+**What changed**
+- **Level 1** — grade 2–3 image: every note now opens with a concrete `like...` analogy
+- **Level 2** — grade 6 plain language
+- **Level 3** — grade 10, names the idea with cause-effect
+- **Level 4** — adult, actionable
+- **Level 5** — expert nuance with wikilinks where the note already used them
+
+**What stayed the same**
+- Bullet 1 (`b1`) unchanged in every note
+- Bullets 7+ unchanged, including faith notes with extra bible blocks (`loss-of-reward`, `mercy`, `love-your-neighbor`, etc.)
+- `Level N: ` prefix, no contractions, no blank lines between level bullets
+
+**Sample** (`let-your-yes-be-yes`):
+
+```9:13:content/english/notes/let-your-yes-be-yes.md
+  - Level 1: Say yes when you mean yes - like promising a friend you will come to their party without stacking ten extra oaths so they believe you.
+  - Level 2: Extra swearing and hype mean people did not trust your plain word before you piled on more.
+  - Level 3: Jesus taught let your yes be yes because padded promises show your ordinary word was never enough on its own.
+  - Level 4: Say yes or no plainly at work and home - if you need spin to sound believable, fix your follow-through, not your vocabulary.
+  - Level 5: [[Integrity]] of speech is [[Heart Righteousness]], not performance - padded oaths mirror [[Atomic Notes]] stuffed with prose to sound smart instead of one plain claim.
+```
+
+Updated JSON is in `data/wider-levels-batch-3.json`. Apply script: `scripts/apply-wider-levels-batch-3.py` (already run). Say if you want this committed.

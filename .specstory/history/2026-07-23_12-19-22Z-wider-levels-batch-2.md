@@ -242,5 +242,482 @@ Level 1 will be a concrete image for ages 7–8 (~20 words). Level 2 will be a g
 
 A Python script will handle all 43 notes. New Level 1–5 text must be written first. Then the markdown files will be rebuilt from bullet 1, the rewritten levels, and the remaining bullets.
 
-I am reading the 43 note files to check for bible shortcodes and other structural differences. The plan is to build an updated JSON with the new wider-spread levels, then run a Python script to patch all markdown files.
+I am reading the 43 note files to check for bible shortcodes and other structural differences. The plan is to build an updated JSON with the new wider-spread levels, then run a Python script to patch all markdown files. I will now draft the new Level 1 through Level 5 text for every note.
+
+I am now drafting the new Level 1 through Level 5 text for each of the 43 notes. The first entry is the glorify-your-name note. Level 1 will be a concrete image for ages 7–8. Level 2 will be a grade 6 analogy. Level 3 will be a grade 10 cause-effect chain. Level 4 will be adult actionable. Level 5 will be expert nuance with wikilinks. No contractions will appear in any level.
+
+The first note’s new Levels 1–4 are drafted. Level 1 compares the hard thing ahead to finishing a race so the team cheers God. Level 2 uses a runner who wants the coach praised rather than taking an exit ramp. Level 3 frames the costly hour as glory through obedience instead of comfort. Level 4 asks that God be honored through one’s own obedience rather than escaping the cup.
+
+Level 5 for the glorify-your-name note will cite [[Not My Will]] and [[Free Grace]], contrasting surrender with bargaining out of cost. The current levels already show some spread, but the user wants a wider gap between Level 1 and Level 5. The abide-in-me example shows Level 1 can reach about thirty words, so the new Level 1 must shrink to roughly twenty words for ages 7–8.
+
+The script will update the JSON with the new wider-spread levels first, then patch the markdown files. I will read all 43 note files to check for bible shortcodes and key_concept structure before writing the script.
 </details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+Reviewing note structures, then drafting wider-spread levels for all 43 notes.
+
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="update_current_step"><details>
+<summary>Tool use: **update_current_step**</summary>
+An unknown error occurred
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "contextAfter": 20,
+  "glob": "{glorify-your-name,god-centered-design,graph,grace,jesus-prayers,judgment-seat,issues}.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "^key_concept:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "^key_concept:",
+  "topFiles": [
+    {
+      "matchCount": 21,
+      "uri": "content/english/notes/jesus-prayers.md"
+    },
+    {
+      "matchCount": 21,
+      "uri": "content/english/notes/graph.md"
+    },
+    {
+      "matchCount": 21,
+      "uri": "content/english/notes/glorify-your-name.md"
+    },
+    {
+      "matchCount": 21,
+      "uri": "content/english/notes/issues.md"
+    },
+    {
+      "matchCount": 21,
+      "uri": "content/english/notes/grace.md"
+    },
+    {
+      "matchCount": 21,
+      "uri": "content/english/notes/god-centered-design.md"
+    },
+    {
+      "matchCount": 21,
+      "uri": "content/english/notes/judgment-seat.md"
+    }
+  ],
+  "totalFiles": 7,
+  "totalMatches": 7
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Some notes contain complex key_concept structures with multiple Bible blocks.
+
+A Python script will replace only the Level 1–5 lines. It will leave b1 and rest bullets untouched. This avoids misplacing Bible shortcodes that appear between those bullets.
+
+Drafting the new Level 1–5 text for all 43 notes now. Each level follows the requested grade spread: concrete image, analogy, cause-effect, actionable, and expert nuance. The first draft is for glorify-your-name.
+
+The second draft covers god-centered-design. The first note’s Levels 2 through 5 are now fully written.
+
+The god-centered-design Levels 1 through 5 are now fully drafted. The next note is being prepared.
+
+Golden-rule-at-work is now fully drafted. Levels 1 through 5 are complete.
+
+Goodness is now fully drafted. Levels 1 through 5 are complete. The grace note is next.
+
+Grace is now fully drafted. Levels 1 through 5 are complete. The next note is graph-view-analytics.
+
+Graph-view-analytics Levels 1 through 4 are now drafted. The Levels 5 drafts for the remaining notes are still pending.
+
+Graph-view-analytics Level 5 is now drafted. The graph note is next.
+
+Graph Level 4 is now drafted. It directs pruning around top hubs, rescuing orphans, and adding body links to dead ends. Graph Level 5 is also drafted. It prioritizes maintenance on the top twenty percent of wikilink anchors and the bottom twenty percent of orphan notes. The next note is grateful-obedience. Its Levels 1 and 2 are now fully written.
+
+Grateful-obedience Levels 3 through 5 are now fully drafted. The next note is great-commission. Its Levels 1 and 2 are now written.
+
+Great-commission Levels 3 through 5 are now fully drafted. The next note is growth-mindset, beginning with Level 1.
+
+Growth-mindset Levels 3 through 5 are now fully drafted. The next note is gtd-vs-para.
+
+GTD-versus-PARA Levels 1 through 4 are now fully drafted. The Levels 5 drafts for the remaining notes are still pending.
+
+GTD-versus-PARA Level 5 is now drafted. It warns that mixing next-action ownership with project and resource storage creates rot.
+
+Habit-formation Levels 1 through 3 are now fully written. They frame the habit as a single upfront choice that becomes automatic, replacing daily motivation with default behavior.
+
+Habit-formation Level 4 is now drafted. It frames the habit as autopilot rather than motivation. Level 5 is drafted too, using Habit Stacking and Atomic Habits. The habit-stacking note is next, starting with Level 1.
+
+Habit-stacking Levels 3 through 5 are now fully drafted. The Levels 1 and 2 drafts for heart-righteousness are ready.
+
+Heart-righteousness Levels 3 through 5 are now fully drafted. The Levels 1 and 2 drafts for heed-every-near-miss are ready.
+
+Heed-every-near-miss Levels 3 through 5 are now fully drafted. The Levels 1 and 2 drafts for hierarchy-of-controls are ready.
+
+Hierarchy-of-controls Levels 1 through 5 are now fully drafted. Level 1 favors removing the danger first. Level 2 eliminates the hazard before warnings or PPE. Level 3 treats PPE as a last resort. Level 4 asks whether the hazard can be engineered out before buying gear. Level 5 links near-miss data to elimination, using admin controls and PPE only as backups.
+
+Honest-self-awareness Levels 1 through 4 are now fully drafted. The Levels 5 drafts for the remaining notes are still pending.
+
+Honest-self-awareness Level 5 is now drafted. It cites Accept the Starting Line and Growth Mindset. Humility-and-service Levels 1 through 4 are now fully written. The Levels 5 drafts for the remaining notes are still pending.
+
+Humility-and-service Level 5 is now drafted. It cites Servant Leadership and Follow Christ Then Lead. The inbox-zero Levels 1 through 3 are now fully written. They frame the inbox as a dish-pile that rots if left unsorted.
+
+Inbox-zero Level 4 is now drafted. It mandates one processing pass per message, deciding, delegating, deferring with a date, or deleting before leaving the inbox empty. Level 5 cites The Trusted Inbox and Getting Things Done to prevent performative tidying. Incident-investigation Levels 1 and 2 are now fully written. Level 1 asks what in the setup caused the breakage rather than who was standing nearby. Level 2 uses a blameless tone to focus on system causes, comparing the approach to fixing a leaky pipe instead of blaming the puddle.
+
+Incident-investigation Levels 3 through 5 are now fully drafted. Level 3 distinguishes blame from investigation by targeting the condition that made failure possible. Level 4 prioritizes post-incident reviews for system causes, treating who was nearby as context rather than root cause. Level 5 cites Blameless After Action Review and Heed Every Near Miss. The influence-without-title note begins with Level 1, defining leadership by following direction regardless of official title.
+
+Influence-without-title Levels 3 through 5 are now fully drafted. Level 3 contrasts title authority with influence that moves behavior. Level 4 leads by driving a shared outcome without waiting for a badge. Level 5 cites Leadership Is Influence and Title Without Influence. The next note is information-diet.
+
+Information-diet Levels 1 through 4 are now fully drafted. Level 1 warns that scrolling shapes thought, comparing feeds to junk food left on the counter. Level 2 treats feeds as non-neutral noise that trains attention and mood. Level 3 demands intentional subscription and unsubscription, equating feeds to daily food. Level 4 cites Signal vs Noise and Digital Minimalism to cut pipes that cannot be babysat. The next note is integrity-without-an-audience.
+
+Integrity-without-an-audience Levels 1 through 5 are now fully drafted. Level 1 compares doing the right thing when nobody watches to cleaning your room when guests are not coming. Level 2 treats honest work as its own reward, like practicing alone before the game. Level 3 warns that private corners still rot when integrity only appears on stage. Level 4 demands the same honest standard in private tasks you would defend in public. Level 5 cites Secret Devotion and Integrity, noting that Judgment Seat evaluates what nobody saw. The next note is integrity.
+
+Integrity Levels 1 through 4 are now fully drafted. Level 1 demands that actions match words even when telling the truth slows you down or makes you look bad. Level 2 frames integrity as keeping your word when honesty costs speed or applause. Level 3 warns that convenience shortcuts reveal themselves in the gap between claim and deed. Level 4 requires aligning words and deeds even when honesty costs speed, comfort, or applause.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+Writing a script to apply wider-spread levels across all 43 notes.
+
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/apply-wider-levels-batch-2.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Running the script now and verifying a few notes.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/apply-wider-levels-batch-2.py</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/apply-wider-levels-batch-2.py
+```
+
+```
+Traceback (most recent call last):
+  File "/home/jorap/Documents/GitHub/jorap.com/scripts/apply-wider-levels-batch-2.py", line 360, in <module>
+    main()
+  File "/home/jorap/Documents/GitHub/jorap.com/scripts/apply-wider-levels-batch-2.py", line 355, in main
+    patch_note(slug, levels)
+  File "/home/jorap/Documents/GitHub/jorap.com/scripts/apply-wider-levels-batch-2.py", line 346, in patch_note
+    assert not CONTRACTION_RE.search(level), f"{slug}: contraction in {level}"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: glorify-your-name: contraction in Level 3: When the costly hour arrives, glorifying the Father's name outweighs escape - obedience shows His glory, comfort does not.
+
+```
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+The contraction check is too aggressive. It incorrectly flags possessive forms like "Father's" as contractions.
+
+Fixing the regex to only catch true contractions like don't and can't. Possessives will be excluded.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+Fixing the contraction check — it was flagging possessives like "Father's".
+
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/apply-wider-levels-batch-2.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/apply-wider-levels-batch-2.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Removing unused contraction regex variables before rerunning.
+
+Checking for blank lines in key_concept fields that the script should strip out.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/apply-wider-levels-batch-2.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/apply-wider-levels-batch-2.py</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/apply-wider-levels-batch-2.py
+```
+
+```
+patched glorify-your-name
+patched god-centered-design
+patched golden-rule-at-work
+patched goodness
+patched grace
+patched graph-view-analytics
+patched graph
+patched grateful-obedience
+patched great-commission
+patched growth-mindset
+patched gtd-vs-para
+patched habit-formation
+patched habit-stacking
+patched heart-righteousness
+patched heed-every-near-miss
+patched hierarchy-of-controls
+patched honest-self-awareness
+patched humility-and-service
+patched inbox-zero
+patched incident-investigation
+patched influence-without-title
+patched information-diet
+patched integrity-without-an-audience
+patched integrity
+patched intellectual-sourcing
+patched into-your-hands
+patched invest-in-the-few
+patched issues
+patched it-is-written
+patched jesus-prayers
+patched jesus-rhythms
+patched joy
+patched judge-not
+patched judgment-seat
+patched justification
+patched kindness
+patched kingdom-on-the-road
+patched layered-reading
+patched leadership-is-influence
+patched leadership
+patched lean-startup
+patched learning-organizations
+patched let-your-light-shine
+done: 43 notes
+
+```
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+All 43 notes have been patched. Now verifying the results.
+
+Sample notes look correct. Blank lines are absent from key_concept. Bullets 1 and 7+ are preserved. Skipping JSON updates. Running voice lint next.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+Verifying samples and running lint checks:
+
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/glorify-your-name.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/grace.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/growth-mindset.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 -c &#34;
+import re, json
+from pathlib import Path
+notes = json.load(open(&#39;data/wider-levels-batch-2.json&#39;))
+errors = []
+for n in notes:
+    slug = n[&#39;slug&#39;]
+    text = Path(f&#39;content/english/notes/{slug}.md&#39;).read_text()
+    m = re.search(r&#39;key_concept: \|\n(.*?)(?=\nexamples:|\nshareable_thought:|\nslug:|\nrelationships:|\ncategories:)&#39;, text, re.S)
+    if not m:
+        errors.append(f&#39;{slug}: no key_concept&#39;)
+        continue
+    block = m.group(1)
+    if re.search(r\&#34;\\b\\w+&#39;(?:t|re|ve|ll|d)\\b\&#34;, block, re.I):
+        errors.append(f&#39;{slug}: contraction in key_concept&#39;)
+    if re.search(r&#39;  - Level [1-5]:&#39;, block) and re.search(r&#39;\n\n&#39;, block):
+        errors.append(f&#39;{slug}: blank line in key_concept&#39;)
+    levels = re.findall(r&#39;  - (Level [1-5]:.*)&#39;, block)
+    if len(levels) != 5:
+        errors.append(f&#39;{slug}: {len(levels)} levels found&#39;)
+    if n[&#39;b1&#39;] not in block:
+        errors.append(f&#39;{slug}: b1 missing&#39;)
+    for r in n[&#39;rest&#39;]:
+        if r not in block:
+            errors.append(f&#39;{slug}: rest missing: {r[:40]}...&#39;)
+print(&#39;errors:&#39;, len(errors))
+for e in errors[:10]:
+    print(e)
+print(&#39;checked&#39;, len(notes), &#39;notes&#39;)
+&#34;
+</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 -c "
+import re, json
+from pathlib import Path
+notes = json.load(open('data/wider-levels-batch-2.json'))
+errors = []
+for n in notes:
+    slug = n['slug']
+    text = Path(f'content/english/notes/{slug}.md').read_text()
+    m = re.search(r'key_concept: \|\n(.*?)(?=\nexamples:|\nshareable_thought:|\nslug:|\nrelationships:|\ncategories:)', text, re.S)
+    if not m:
+        errors.append(f'{slug}: no key_concept')
+        continue
+    block = m.group(1)
+    if re.search(r\"\\b\\w+'(?:t|re|ve|ll|d)\\b\", block, re.I):
+        errors.append(f'{slug}: contraction in key_concept')
+    if re.search(r'  - Level [1-5]:', block) and re.search(r'\n\n', block):
+        errors.append(f'{slug}: blank line in key_concept')
+    levels = re.findall(r'  - (Level [1-5]:.*)', block)
+    if len(levels) != 5:
+        errors.append(f'{slug}: {len(levels)} levels found')
+    if n['b1'] not in block:
+        errors.append(f'{slug}: b1 missing')
+    for r in n['rest']:
+        if r not in block:
+            errors.append(f'{slug}: rest missing: {r[:40]}...')
+print('errors:', len(errors))
+for e in errors[:10]:
+    print(e)
+print('checked', len(notes), 'notes')
+"
+
+```
+
+```
+errors: 0
+checked 43 notes
+
+```
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+All 43 notes were validated successfully.
+
+Updating the JSON file to match the new levels for consistency. The apply script will be deleted.
+
+Reconsidering whether to delete the apply script. It may be needed for other batches, but the user did not request it.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **4** results in **1** directory</summary>
+
+Directory: **`/home/jorap/Documents/GitHub/jorap.com/scripts`** (4 files)
+
+| File |
+|------|
+| `apply-wider-levels-batch-2.py` |
+| `apply-wider-levels-batch.py` |
+| `apply-wider-levels-batch-1.py` |
+| `apply-wider-levels-batch-3.py` |
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm lint:voice -- content/english/notes/glorify-your-name.md content/english/notes/grace.md content/english/notes/graph.md 2&gt;&amp;1 | tail -20</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:voice -- content/english/notes/glorify-your-name.md content/english/notes/grace.md content/english/notes/graph.md 2>&1 | tail -20
+```
+
+```
+$ python3 scripts/notes-voice-sanitize.py --check && python3 scripts/notes-voice-lint.py --check -- content/english/notes/glorify-your-name.md content/english/notes/grace.md content/english/notes/graph.md
+Voice dash lint OK
+Voice lint warnings:
+  content/english/notes/convert-pain-into-learning.md: key_concept: AI-tell word `rumination` — try: stewing / replaying without change
+  content/english/notes/rollback-principle.md: key_concept: AI-tell word `postmortem` — try: after-action review
+  content/english/notes/selling-static-sites.md: key_concept: AI-tell word `handoff` — try: pass off / pass to client
+[ELIFECYCLE] Command failed with exit code 1.
+
+```
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Voice lint passed for the edited files. Remaining warnings come from other files.
+
+All 43 notes validated. Skipping JSON updates since that was not requested. Keeping the helper script for consistency with other batches. The edits are complete.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="update_current_step"><details>
+<summary>Tool use: **update_current_step**</summary>
+An unknown error occurred
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Finished rewriting all 43 notes. Levels 1 through 5 now use a wider spread: concrete image to expert nuance. Bullet 1 and bullets 7 onward remain unchanged. Each note follows the `Level N:` prefix. Contractions and blank lines were removed from key_concept.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+All **43 notes** from `wider-levels-batch-2.json` are updated. Bullet 1 and bullets 7+ are unchanged; Levels 1–5 are rewritten with wider spread.
+
+**Spread pattern (example: `growth-mindset`):**
+- **L1** (~20 words, concrete): Missing three shots is counting what happened - saying you are bad at basketball sounds like you can never improve.
+- **L2** (grade 6 analogy): I am bad at this is a fixed label; I missed three is data you can train on - like a score sheet versus a name tag.
+- **L3** (cause-effect): When one rough outing becomes identity, you stop collecting reps - mistakes stay verdicts instead of feedback you could use.
+- **L4** (actionable): Replace I am bad at this with I missed three - then train the slice that broke.
+- **L5** (expert + wikilinks): [[Failure as Feedback]] only works when skill is trainable; [[Deliberate Practice]] is what you do with the data instead of fixing the ceiling.
+
+**Notes covered:** glorify-your-name through let-your-light-shine (43 slugs total).
+
+**Checks passed:** all 43 have 5 level bullets, b1 and rest preserved, no contractions in levels, no blank lines in `key_concept`. Faith notes with bible shortcodes (grace, judgment-seat, etc.) kept their multi-block structure intact.

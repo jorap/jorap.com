@@ -356,4 +356,254 @@ _**Agent (auto-low)**_
 ```bash
 rg -n 'site\.Data|\.Site\.Data' /home/jorap/Documents/GitHub/jorap.com --glob '!**/.specstory/**' --glob '!**/node_modules/**'
 ```
+
+```
+/home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/expand-bible-mentions.html:7:{{- $bookRe := index site.Data "bible-books" "pattern" -}}
+
+```
 </details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Only one file uses `site.Data` directly.
+
+The warning persists despite the single direct usage. Other access patterns may trigger it. The fix is to replace `site.Data` with `hugo.Data`.
+
+The search may have missed ignored directories. I will check generated files and Hugo modules. I will also search for `site.Data.` patterns and randomizer.html.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: rg -n &#39;site\.Data|\.Site\.Data|hugo\.Data&#39; /home/jorap/Documents/GitHub/jorap.com --no-ignore -g &#39;!**/.specstory/**&#39; -g &#39;!**/node_modules/**&#39; -g &#39;!**/public/**&#39; 2&gt;/dev/null | head -100</summary>
+```bash
+rg -n 'site\.Data|\.Site\.Data|hugo\.Data' /home/jorap/Documents/GitHub/jorap.com --no-ignore -g '!**/.specstory/**' -g '!**/node_modules/**' -g '!**/public/**' 2>/dev/null | head -100
+```
+
+```
+/home/jorap/Documents/GitHub/jorap.com/scripts/archive/build-scripture-nasb1995-db.py:5:Same structure as data/jesus-words.yaml; hugo.Data key stays scripture-nasb1995.
+/home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/_partials/components/icon.html:25:{{- $icon := index hugo.Data.icons $name -}}
+/home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/_partials/essentials/self-hosted-fonts.html:23:{{- $pf := hugo.Data.theme.fonts.font_family.primary -}}
+/home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/_partials/essentials/self-hosted-fonts.html:24:{{- $sf := hugo.Data.theme.fonts.font_family.secondary -}}
+/home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/_partials/essentials/footer.html:36:          {{ range hugo.Data.social.main }}
+/home/jorap/Documents/GitHub/jorap.com/layouts/randomizer.html:2:  {{- $data := hugo.Data.randomizer -}}
+/home/jorap/Documents/GitHub/jorap.com/layouts/partials/shortcodes/bible.html:8:{{- $jesusDb := index hugo.Data "jesus-words" -}}
+/home/jorap/Documents/GitHub/jorap.com/layouts/partials/shortcodes/bible.html:9:{{- $scriptureDb := index hugo.Data "scripture-nasb1995" -}}
+/home/jorap/Documents/GitHub/jorap.com/layouts/partials/shortcodes/bible.html:10:{{- $redLetterDb := index hugo.Data "bible-red-letter-nasb1995" -}}
+/home/jorap/Documents/GitHub/jorap.com/layouts/_partials/essentials/footer.html:41:          {{ range hugo.Data.social.main }}
+/home/jorap/Documents/GitHub/jorap.com/layouts/_partials/essentials/self-hosted-fonts.html:23:{{- $pf := hugo.Data.theme.fonts.font_family.primary -}}
+/home/jorap/Documents/GitHub/jorap.com/layouts/_partials/essentials/self-hosted-fonts.html:24:{{- $sf := hugo.Data.theme.fonts.font_family.secondary -}}
+/home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/expand-bible-mentions.html:7:{{- $bookRe := index site.Data "bible-books" "pattern" -}}
+/home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/file-dates.html:11:  {{- with index hugo.Data.noteFi
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **95** results in **1** directory</summary>
+
+Directory: **`/home/jorap/Documents/GitHub/jorap.com/layouts`** (95 files)
+
+| File |
+|------|
+| `_partials/notes/local-graph.html` |
+| `_partials/notes/build-issues-report.html` |
+| `_partials/notes/preview-index.html` |
+| `notes/single.html` |
+| `_partials/sort-featured-first.html` |
+| `_partials/notes/graph-layout-controls.html` |
+| `_partials/blog/related-notes.html` |
+| `_partials/notes/related-notes.html` |
+| `_partials/blog/related-posts-lookup.html` |
+| `_partials/notes/card-set-filter-buttons.html` |
+| `shortcodes/card.html` |
+| `_partials/notes/outgoing-links.html` |
+| `_partials/search-index.html` |
+| `_partials/components/scroll-progress.html` |
+| `_partials/notes/note-flashcards.html` |
+| `_partials/notes/note-card.html` |
+| `_partials/notes/backlinks-index.html` |
+| `_partials/notes/pages.html` |
+| `baseof.html` |
+| `_partials/blog/related-posts.html` |
+| `_partials/image.html` |
+| `_partials/notes/copy-markdown.html` |
+| `blog/single.html` |
+| `_partials/essentials/self-hosted-fonts.html` |
+| `_partials/notes/featured-random-note.html` |
+| `_partials/essentials/script.html` |
+| `_partials/notes/flashcard.html` |
+| `_partials/notes/random-note-select.html` |
+| `randomizer.html` |
+| `partials/shortcodes/bible.html` |
+| `notes/random-duo.html` |
+| `_partials/page-meta-title.html` |
+| `_partials/notes/build-hub-cluster.html` |
+| `_partials/notes/dev-banner.html` |
+| `_partials/llms-page-body-fallback.html` |
+| `blog/list.html` |
+| `notes/create.html` |
+| `_partials/logo.html` |
+| `_partials/notes/graph-data-local.html` |
+| `_partials/notes/note-link-card.html` |
+| `_partials/notes/random-note.html` |
+| `_partials/notes/random-prompt-panel.html` |
+| `_partials/notes/backlink-item.html` |
+| `_partials/blog/toc.html` |
+| `_partials/notes/note-blurb.html` |
+| `_partials/notes/search-index-fields.html` |
+| `_partials/notes/note-meta.html` |
+| `notes/cards.html` |
+| `_partials/notes/card-sets.html` |
+| `_partials/notes/random-unrelated-notes.html` |
+| `_partials/notes/random-pool.html` |
+| `notes/review.html` |
+| `_partials/notes/note-raw-body.html` |
+| `_partials/essentials/footer.html` |
+| `_partials/notes/toc.html` |
+| `_partials/notes/sort-by-connections.html` |
+| `_partials/notes/file-dates.html` |
+| `_partials/notes/expand-bible-mentions.html` |
+| `_partials/notes/is-index-page.html` |
+| `_partials/essentials/header.html` |
+| `drafts/list.html` |
+| `notes/issues.html` |
+| `_partials/toc-related-extras.html` |
+| `_partials/notes/see-also.html` |
+| `_partials/notes/note-shareable-thought.html` |
+| `_partials/llms-page-blurb.html` |
+| `_partials/essentials/fingerprint-asset.html` |
+| `notes/graph.html` |
+| `shortcodes/bible.html` |
+| `_partials/notes/graph-data.html` |
+| `_partials/notes/link-registry.html` |
+| `_partials/notes/toc-headings.html` |
+| `_partials/notes/collect-note-issues.html` |
+| `notes/list.html` |
+| `_partials/notes/is-utility-page.html` |
+| `_partials/notes/resolve-target.html` |
+| `_partials/notes/backlinks.html` |
+| `_partials/essentials/publish-asset.html` |
+| `_partials/notes/note-issues-panel.html` |
+| `_partials/notes/render-content.html` |
+| `_partials/notes/toolbar.html` |
+| `_partials/notes/relationships-index.html` |
+| `_partials/notes/relationship-neighbors.html` |
+| `_partials/blog/copy-markdown.html` |
+| `_partials/essentials/style.html` |
+| `_partials/components/theme-switcher.html` |
+| `_partials/notes/relationship-types.html` |
+| `_partials/basic-seo.html` |
+| `_partials/notes/assembled-content.html` |
+| `_partials/notes/cards-for-page.html` |
+| `notes/backlinks.html` |
+| `_partials/notes/collect-cards.html` |
+| `_partials/notes/tag-chips.html` |
+| `_partials/notes/index-has-body-wikilinks.html` |
+| `_partials/notes/recent-new.html` |
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The only remaining `site.Data` usage is in `layouts/_partials/notes/expand-bible-mentions.html` at line 7.
+
+Reading the remaining file to replace `site.Data` with `hugo`, then verifying with `hugo build`.
+</details></think>
+
+_**Agent (auto-low)**_
+
+One remaining `site.Data` reference — I'll update it to `hugo.Data`.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/expand-bible-mentions.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+A simple one-line fix is needed for the site.
+
+Change `site.Data` to `hugo.Data`, then run `hugo build` to verify the warning disappears.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/expand-bible-mentions.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; hugo --buildDrafts --buildFuture -e development 2&gt;&amp;1 | rg -i &#39;deprecated|site\.Data|error|built in&#39; || true</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && hugo --buildDrafts --buildFuture -e development 2>&1 | rg -i 'deprecated|site\.Data|error|built in' || true
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Ripgrep found no matches. Rebuilding without filters to check for warnings.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; hugo --buildDrafts --buildFuture -e development 2&gt;&amp;1 | tail -20</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && hugo --buildDrafts --buildFuture -e development 2>&1 | tail -20
+```
+
+```
+Start building sites … 
+hugo v0.163.3-4d22555aebf458d5d150500c9ac4bee5b24cf0d3+extended linux/amd64 BuildDate=2026-06-18T16:18:24Z VendorInfo=gohugoio
+
+
+                  │  EN  
+──────────────────┼──────
+ Pages            │ 2796 
+ Paginator pages  │   30 
+ Non-page files   │    0 
+ Static files     │  269 
+ Processed images │  525 
+ Aliases          │  993 
+ Cleaned          │    0 
+
+Total in 25889 ms
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The warning disappeared after replacing `site.Data` with `hugo.Data` in one remaining file.
+</details></think>
+
+_**Agent (auto-low)**_
+
+That Hugo warning came from one leftover `site.Data` reference. Everything else in the repo already uses `hugo.Data`.
+
+**Change:** In `layouts/_partials/notes/expand-bible-mentions.html`, replaced:
+
+```go
+index site.Data "bible-books" "pattern"
+```
+
+with:
+
+```go
+index hugo.Data "bible-books" "pattern"
+```
+
+A fresh `hugo` build completes without the deprecation warning. Restart `npm run dev` if the server is still running and you want a clean log.

@@ -433,5 +433,477 @@ Drafted six more grade-6 bullets. Topics include winning without hurting others,
 
 Drafted six more grade-6 bullets covering reward loss, loving God, praying for enemies, loving neighbors, and avoiding low-hanging fruit.
 
-Drafted seven more grade-6 bullets. Topics include scheduling cleanup windows, creating hub pages for scattered topics, measuring progress before changing plans, keeping only useful mental models, and 
+Drafted seven more grade-6 bullets. Topics include scheduling cleanup windows, creating hub pages for scattered topics, measuring progress before changing plans, keeping only useful mental models, and showing mercy.
+
+Drafted five more grade-6 bullets. Topics include metadata tags, mind-mapping, minimum effective dose, minimum viable product, and mobile capture workflows.
+
+Drafted five more grade-6 bullets. Topics include compassion before planning, naming frustration before giving tasks, network analysis for disconnected notes, normalization of deviance, and surrendering after an honest request.
+
+Drafted four more grade-6 bullets. Topics include note relationships, noticing what works, exporting flat OKF copies, and explaining scripture like Jesus did on the road to Emmaus.
+
+Drafted five more grade-6 bullets. Topics include judging outcomes over pitch decks, owning mistakes, fixing your own corner, sorting by owner and deadline, and the 80/20 shortcut.
+
+Drafted five more grade-6 bullets. Topics include waiting without bitterness, inner calm from trusting God, making peace by fixing broken things, designing around real people, reviewing notes on a schedule, and learning to save and reuse knowledge.
+
+Finished drafting the last two grade-6 bullets. One warns that borrowed platform reach can vanish overnight. The other calls for plain yes or no at work rather than fancy hype.
+
+I am now applying StrReplace to each file. Special care is needed for bible shortcodes: patience.md and peace.md place the shortcode directly before bullet 1 with no blank line in between. mercy.md has a blank line after bullet 1 before the next bible shortcode, so the grade-6 bullet goes between them.
+
+I am now executing the StrReplace edits across all 43 files in batches.
 </details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+Inserting grade-6 simplifications into all 43 notes.
+
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="update_current_step"><details>
+<summary>Tool use: **update_current_step**</summary>
+An unknown error occurred
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/let-your-yes-be-yes.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/life-before-achievement.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/linking-by-meaning.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/listen-before-fixing.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/literature-notes.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/local-first-software.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/loss-of-reward.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/love-god.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/love-your-enemies.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/love-your-neighbor.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/low-hanging-fruit.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/maintenance-window.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/maps-of-content.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/measure-then-iterate.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/mental-models.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Fifteen notes processed. Continuing with the remaining 28.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/mercy.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/metadata-strategy.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/mind-mapping.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/minimum-effective-dose.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/minimum-viable-product.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/mobile-capture-workflows.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/moved-with-compassion.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/name-the-feeling.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/network-analysis.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/normalization-of-deviance.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/not-my-will.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/note-relationships.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/notice-the-good.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/okf-export.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/opened-scripture.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+28 of 43 notes are complete. The remaining 15 are outcomes-over-pitch-decks, own-the-error, own-your-part, para-method, pareto-principle, patience, peace, peacemakers, people-centered-design, and periodic-knowledge-review.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/outcomes-over-pitch-decks.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/own-the-error.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/own-your-part.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/para-method.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/pareto-principle.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/patience.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/peace.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/peacemakers.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/people-centered-design.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/periodic-knowledge-review.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/pkm.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/plain-commitments-at-work.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/platform-reach-is-borrowed.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Verifying all 43 notes received the new grade-6 bullet. Counting edited files and checking for skipped notes.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+Verifying all 43 notes received the new grade-6 bullet.
+
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt; &#39;PY&#39;
+import json, re, pathlib
+batch = json.load(open(&#34;data/feynman-batch-3.json&#34;))
+notes_dir = pathlib.Path(&#34;content/english/notes&#34;)
+missing = []
+no_second = []
+for item in batch:
+    slug = item[&#34;slug&#34;]
+    path = notes_dir / f&#34;{slug}.md&#34;
+    if not path.exists():
+        missing.append(slug)
+        continue
+    text = path.read_text()
+    m = re.search(r&#34;key_concept:\s*\|\s*\n((?:  .*\n)+)&#34;, text)
+    if not m:
+        no_second.append((slug, &#34;no key_concept block&#34;))
+        continue
+    block = m.group(1)
+    lines = block.splitlines()
+    bullets = [l for l in lines if l.strip().startswith(&#34;- &#34;)]
+    if len(bullets) &lt; 2:
+        no_second.append((slug, f&#34;only {len(bullets)} bullets&#34;))
+        continue
+    b1 = item[&#34;b1&#34;]
+    if bullets[0].strip()[2:].strip() != b1:
+        # allow bible shortcode before first bullet
+        idx = next((i for i,l in enumerate(lines) if l.strip().startswith(&#34;- &#34;)), None)
+        first = lines[idx].strip()[2:].strip() if idx is not None else &#34;&#34;
+        if first != b1:
+            no_second.append((slug, f&#34;b1 mismatch: {first[:60]}...&#34;))
+
+print(f&#34;Batch size: {len(batch)}&#34;)
+print(f&#34;Missing files: {len(missing)}&#34;)
+for s in missing: print(f&#34;  MISSING: {s}&#34;)
+print(f&#34;Issues: {len(no_second)}&#34;)
+for s, why in no_second: print(f&#34;  {s}: {why}&#34;)
+print(f&#34;OK: {len(batch) - len(missing) - len(no_second)}&#34;)
+PY</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
+import json, re, pathlib
+batch = json.load(open("data/feynman-batch-3.json"))
+notes_dir = pathlib.Path("content/english/notes")
+missing = []
+no_second = []
+for item in batch:
+    slug = item["slug"]
+    path = notes_dir / f"{slug}.md"
+    if not path.exists():
+        missing.append(slug)
+        continue
+    text = path.read_text()
+    m = re.search(r"key_concept:\s*\|\s*\n((?:  .*\n)+)", text)
+    if not m:
+        no_second.append((slug, "no key_concept block"))
+        continue
+    block = m.group(1)
+    lines = block.splitlines()
+    bullets = [l for l in lines if l.strip().startswith("- ")]
+    if len(bullets) < 2:
+        no_second.append((slug, f"only {len(bullets)} bullets"))
+        continue
+    b1 = item["b1"]
+    if bullets[0].strip()[2:].strip() != b1:
+        # allow bible shortcode before first bullet
+        idx = next((i for i,l in enumerate(lines) if l.strip().startswith("- ")), None)
+        first = lines[idx].strip()[2:].strip() if idx is not None else ""
+        if first != b1:
+            no_second.append((slug, f"b1 mismatch: {first[:60]}..."))
+
+print(f"Batch size: {len(batch)}")
+print(f"Missing files: {len(missing)}")
+for s in missing: print(f"  MISSING: {s}")
+print(f"Issues: {len(no_second)}")
+for s, why in no_second: print(f"  {s}: {why}")
+print(f"OK: {len(batch) - len(missing) - len(no_second)}")
+PY
+```
+
+```
+Batch size: 43
+Missing files: 0
+Issues: 0
+OK: 43
+
+```
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+All 43 notes were processed. No notes were skipped.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="update_current_step"><details>
+<summary>Tool use: **update_current_step**</summary>
+An unknown error occurred
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+All 43 notes in the batch have been processed. Each received a grade-6 plain-language explanation inserted as a second bullet, with existing bullets pushed down. The final count and any skipped notes are ready.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+**Files edited:** 43 / 43
+
+**Skipped:** none
+
+Every note in `data/feynman-batch-3.json` got a new 2nd bullet in `key_concept` — a grade-6 plain-language restatement of bullet 1. Original bullet 1 and any `{{< bible >}}` shortcodes were left as-is; former bullets 2+ shifted down.
+
+Notes with bible shortcodes handled: `let-your-yes-be-yes`, `loss-of-reward`, `love-god`, `love-your-enemies`, `love-your-neighbor`, `mercy`, `moved-with-compassion`, `not-my-will`, `opened-scripture`, `patience`, `peace`, `peacemakers`.

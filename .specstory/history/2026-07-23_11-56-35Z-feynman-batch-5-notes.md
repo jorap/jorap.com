@@ -385,4 +385,540 @@ Drafting is underway. First three grade-6 bullets cover situational control, slo
 Four more grade-6 bullets are drafted. They cover stress and urgency, spaced repetition, staged rollout, and standard operating procedures.
 
 Three more grade-6 bullets are drafted. They cover written checklists for repeated tasks, God’s secure place in His family, and scoping static site sales calls before quoting.
+
+Three more grade-6 bullets are drafted. They cover staying effective in new conditions, the temptation to relax after a win, and strategic foresight.
+
+Three more grade-6 bullets are drafted. They cover stewardship of gifts, and the sunk-cost fallacy.
+
+Three more grade-6 bullets are drafted. They cover sustainable performance, writing your own beliefs instead of collecting quotes, and letting systems run before expecting results.
+
+Three more grade-6 bullets are drafted. Systems thinking traces hidden causes and delays behind symptoms. Table fellowship shows Jesus welcoming sinners rather than the self-righteous. Take-up-your-cross frames daily self-denial as following God’s will, not accumulating suffering.
+
+Taxonomy is drafted: a few useful tags beat a long list of unused ones. The Lazarus note is drafted: Jesus prayed to thank the Father before raising Lazarus, so the crowd would know God sent Him.
+
+The thank-father-for-revelation bullet is drafted. It thanks God for letting ordinary people understand, not for personal status. The 12-week-year bullet is drafted. It splits goals into twelve-week arcs so deadlines feel real. The beatitudes bullet is drafted. It flips the scoreboard so kingdom favor goes to the spiritually needy, not the self-sufficient.
+
+The collectors-fallacy bullet is drafted. It warns that saving articles feels like progress but it is not. Each save needs a date to use it or a deadline to delete it.
+
+The fathers-food bullet is drafted. It tells the story of disciples worrying about lunch. Jesus said His food was doing the will of the one who sent Him. Obedience fed Him more than bread.
+
+The Feynman technique bullet is drafted. It says to explain an idea in simple words on a blank page; when you get stuck, that is the gap. The garage concept bullet is drafted. It compares messy drafts to a garage and finished posts to a showroom, warning not to confuse the two.
+
+The golden-rule bullet is drafted. It asks how you would want to be spoken to, helped, forgiven, or included before you act.
+
+The knowledge-lifecycle bullet is drafted. It says to tag and date raw captures first, then polish them only when you actually reuse them.
+
+The narrow-way bullet is drafted. It contrasts the crowded broad road with the narrow gate that costs self-rule, noting few find it but it is the way Jesus named.
+
+The second-brain bullet is drafted. It pairs daily capture with weekly expression in one loop. The trusted-inbox bullet is drafted. It warns that an empty inbox makes the brain hold ideas again.
+
+The wise-builder bullet is drafted. It warns that building on rock means hearing Jesus and obeying, while listening without acting is like sand that washes away in a storm. The no-perfect-solution bullet is drafted. It says waiting forever for the ideal choice is still a choice, and usually means staying stuck with the messy status quo.
+
+The title-without-influence bullet is drafted. It defines leadership as whether anyone follows, not as a fancy title. The treasure-in-heaven bullet is drafted. It warns that earthly things rust and get stolen, so your heart follows whatever you value most.
+
+Turn-the-other-cheek is drafted. It warns that turning the other cheek does not mean passive acceptance of evil; it means refusing
 </details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+Inserting grade-6 Feynman bullets into all 43 notes, working through them in batches.
+
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/situational-control.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/slow-productivity.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/slow-the-moment.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/spaced-repetition.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/staged-rollout.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/standard-operating-procedures.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/standing-vs-fellowship.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/static-site-client-scope.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/stay-effective-in-new-conditions.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/steward-after-the-win.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/strategic-foresight.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Eleven notes have been processed. Continuing with the next batch.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/success-is-stewardship.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/sunk-cost-fallacy.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/sustainable-performance.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/synthesis-as-a-goal.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/systems-for-growth.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/systems-thinking.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/table-fellowship.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/take-up-your-cross.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/taxonomy.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/thank-father-at-lazarus.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/thank-father-for-revelation.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Twenty-two notes have been processed. Twenty-one remain.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-12-week-year.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-beatitudes.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-collectors-fallacy.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-fathers-food.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-feynman-technique.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-garage-concept.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-golden-rule.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-knowledge-lifecycle.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-narrow-way.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-second-brain-workflow.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-trusted-inbox.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+32 of 43 notes are done. Eleven remain: the-wise-builder, there-is-no-perfect-solution, title-without-influence, transformation-principles, treasure-in-heaven, turn-the-other-cheek, versatility, weekly-review-checklists, and withdraw-to-pray.
+
+The remaining notes are now ten: the-wise-builder, there-is-no-perfect-solution, title-without-influence, transformation-principles, treasure-in-heaven, turn-the-other-cheek, versatility, weekly-review-checklists, withdraw-to-pray, and workplace-principles. The total is 43.
+
+Batch 1 contains eleven notes: situational-control, slow-productivity, slow-the-moment, spaced-repetition, staged-rollout, standard-operating-procedures, standing-vs-fellowship, static-site-client-scope, stay-effective-in-new-conditions, steward-after-the-win, and strategic-foresight.
+
+Batch 2 contains eleven notes: success-is-stewardship, sunk-cost-fallacy, sustainable-performance, synthesis-as-a-goal, systems-for-growth, systems-thinking, table-fellowship, take-up-your-cross, taxonomy, thank-father-at-lazarus, and thank-father-for-revelation.
+
+Batch 3 contains eleven notes. The running total is 42. One note is missing from the JSON. I am checking the list to find it.
+
+The missing note is th-e-trusted-inbox. The JSON contains forty-three entries. Thirty-three are done. Ten remain.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-wise-builder.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/there-is-no-perfect-solution.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/title-without-influence.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/transformation-principles.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/treasure-in-heaven.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/turn-the-other-cheek.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/versatility.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/weekly-review-checklists.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/withdraw-to-pray.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/workplace-principles.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Verifying all 43 notes received the grade-6 bullet. Checking git status to confirm the edit count.
+
+Running a validation script to confirm every file has the grade-6 bullet. Noting that some notes had pre-existing contractions in their original bullet 1, such as "isn't" in transformation-principles.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+Verifying all 43 notes were updated.
+
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 - &lt;&lt;&#39;PY&#39;
+import json, re, pathlib
+batch = json.loads(pathlib.Path(&#39;data/feynman-batch-5.json&#39;).read_text())
+base = pathlib.Path(&#39;content/english/notes&#39;)
+missing = []
+wrong_b1 = []
+no_second = []
+for item in batch:
+    slug = item[&#39;slug&#39;]
+    b1 = item[&#39;b1&#39;]
+    p = base / f&#39;{slug}.md&#39;
+    if not p.exists():
+        missing.append(slug)
+        continue
+    text = p.read_text()
+    m = re.search(r&#39;key_concept:\s*\|\s*\n(.*?)(?=\n[a-z_]+:|\Z)&#39;, text, re.S)
+    if not m:
+        no_second.append((slug, &#39;no key_concept block&#39;))
+        continue
+    block = m.group(1)
+    bullets = re.findall(r&#39;^\s*-\s+(.+)$&#39;, block, re.M)
+    if not bullets:
+        no_second.append((slug, &#39;no bullets&#39;))
+        continue
+    if bullets[0].strip() != b1.strip():
+        wrong_b1.append((slug, bullets[0][:60], b1[:60]))
+    if len(bullets) &lt; 2:
+        no_second.append((slug, f&#39;only {len(bullets)} bullet(s)&#39;))
+print(&#39;batch count:&#39;, len(batch))
+print(&#39;missing files:&#39;, missing or &#39;none&#39;)
+print(&#39;wrong bullet 1:&#39;, wrong_b1 or &#39;none&#39;)
+print(&#39;insufficient bullets:&#39;, no_second or &#39;none&#39;)
+print(&#39;git modified notes:&#39;, len([l for l in pathlib.Path(&#39;.&#39;).glob(&#39;content/english/notes/*.md&#39;)]))
+PY
+git diff --name-only content/english/notes/ | wc -l</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 - <<'PY'
+import json, re, pathlib
+batch = json.loads(pathlib.Path('data/feynman-batch-5.json').read_text())
+base = pathlib.Path('content/english/notes')
+missing = []
+wrong_b1 = []
+no_second = []
+for item in batch:
+    slug = item['slug']
+    b1 = item['b1']
+    p = base / f'{slug}.md'
+    if not p.exists():
+        missing.append(slug)
+        continue
+    text = p.read_text()
+    m = re.search(r'key_concept:\s*\|\s*\n(.*?)(?=\n[a-z_]+:|\Z)', text, re.S)
+    if not m:
+        no_second.append((slug, 'no key_concept block'))
+        continue
+    block = m.group(1)
+    bullets = re.findall(r'^\s*-\s+(.+)$', block, re.M)
+    if not bullets:
+        no_second.append((slug, 'no bullets'))
+        continue
+    if bullets[0].strip() != b1.strip():
+        wrong_b1.append((slug, bullets[0][:60], b1[:60]))
+    if len(bullets) < 2:
+        no_second.append((slug, f'only {len(bullets)} bullet(s)'))
+print('batch count:', len(batch))
+print('missing files:', missing or 'none')
+print('wrong bullet 1:', wrong_b1 or 'none')
+print('insufficient bullets:', no_second or 'none')
+print('git modified notes:', len([l for l in pathlib.Path('.').glob('content/english/notes/*.md')]))
+PY
+git diff --name-only content/english/notes/ | wc -l
+```
+
+```
+batch count: 43
+missing files: none
+wrong bullet 1: none
+insufficient bullets: none
+git modified notes: 259
+258
+
+```
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Git diff shows 258 modified notes, though only 43 were edited. The extra changes likely come from prior work in the repository. I am checking that all 43 target files appear in the diff.
+
+Validation passed. All 43 notes were processed successfully. No files were skipped.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 - &lt;&lt;&#39;PY&#39;
+import json, pathlib
+batch = json.loads(pathlib.Path(&#39;data/feynman-batch-5.json&#39;).read_text())
+slugs = [x[&#39;slug&#39;] for x in batch]
+diff = set(pathlib.Path(&#39;content/english/notes&#39;).glob(&#39;*.md&#39;))
+# check our files have changes via git
+import subprocess
+out = subprocess.check_output([&#39;git&#39;,&#39;diff&#39;,&#39;--name-only&#39;,&#39;content/english/notes/&#39;], text=True).strip().split(&#39;\n&#39;)
+changed = [pathlib.Path(p).stem for p in out if p]
+missing_from_diff = [s for s in slugs if s not in changed]
+extra = [s for s in changed if s in slugs]
+print(&#39;batch slugs in git diff:&#39;, len(extra), &#39;/&#39;, len(slugs))
+print(&#39;batch slugs NOT in git diff:&#39;, missing_from_diff or &#39;none&#39;)
+PY</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 - <<'PY'
+import json, pathlib
+batch = json.loads(pathlib.Path('data/feynman-batch-5.json').read_text())
+slugs = [x['slug'] for x in batch]
+diff = set(pathlib.Path('content/english/notes').glob('*.md'))
+# check our files have changes via git
+import subprocess
+out = subprocess.check_output(['git','diff','--name-only','content/english/notes/'], text=True).strip().split('\n')
+changed = [pathlib.Path(p).stem for p in out if p]
+missing_from_diff = [s for s in slugs if s not in changed]
+extra = [s for s in changed if s in slugs]
+print('batch slugs in git diff:', len(extra), '/', len(slugs))
+print('batch slugs NOT in git diff:', missing_from_diff or 'none')
+PY
+```
+
+```
+batch slugs in git diff: 43 / 43
+batch slugs NOT in git diff: none
+
+```
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="update_current_step"><details>
+<summary>Tool use: **update_current_step**</summary>
+An unknown error occurred
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+All 43 notes in the batch have been processed. Each file received a simplified second bullet explaining the first in plain language. I am now compiling the final summary of edits and any skipped items.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+**43 files edited, 0 skipped.**
+
+Every note in `data/feynman-batch-5.json` got a new grade-6 Feynman bullet inserted as bullet 2 in `key_concept`. Bullet 1 is unchanged; former bullets 2+ shifted down. Notes with `{{< bible >}}` shortcodes kept those blocks intact (e.g. `standing-vs-fellowship`, `success-is-stewardship`, `the-beatitudes`, `the-golden-rule`, `the-narrow-way`, `the-wise-builder`, and others).
+
+Validation: all 43 files exist, bullet 1 matches the batch JSON, and each has at least two bullets after the edit.

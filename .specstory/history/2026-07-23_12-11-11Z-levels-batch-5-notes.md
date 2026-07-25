@@ -75,6 +75,1582 @@ Parameters:
   "pattern": "^key_concept:"
 }
 ```
-Status: **loading**
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "^key_concept:",
+  "topFiles": [
+    {
+      "matchCount": 16,
+      "uri": "content/english/notes/reconciliation-before-worship.md"
+    },
+    {
+      "matchCount": 16,
+      "uri": "content/english/notes/creative-output.md"
+    },
+    {
+      "matchCount": 16,
+      "uri": "content/english/notes/mental-models.md"
+    },
+    {
+      "matchCount": 16,
+      "uri": "content/english/notes/table-fellowship.md"
+    },
+    {
+      "matchCount": 16,
+      "uri": "content/english/notes/sabbath-for-good.md"
+    }
+  ],
+  "totalFiles": 5,
+  "totalMatches": 127
+}
+```
+Status: **completed**
 
 </details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Reviewing the expected markdown format before editing the 43 notes.
+
+The JSON contains only b1, b2, and rest_n. Level 1 through Level 5 replacements must come from another source or follow a batch pattern.
+
+Searching other notes and batch files for how Level 1 through Level 5 were previously applied.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+Checking how Level 1–5 were applied in earlier batches.
+
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **6** results in **1** directory</summary>
+
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (6 files)
+
+| File |
+|------|
+| `data/levels-batch-0.json` |
+| `data/levels-batch-1.json` |
+| `data/levels-batch-2.json` |
+| `data/levels-batch-5.json` |
+| `data/levels-batch-4.json` |
+| `data/levels-batch-3.json` |
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "content/english/notes/*.md",
+  "pattern": "Level 1:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "Level 1:",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "levels-batch"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "levels-batch",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+No Level 1 field was found in the current batch. Another batch file will be checked for level fields. Notes already updated from earlier batches will also be reviewed.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/levels-batch-4.json</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "content/english/notes/*.md",
+  "pattern": "Level [1-5]:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "Level [1-5]:",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **1** directory</summary>
+
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (0 files)
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+The notes currently lack Level 1 through Level 5 entries.
+
+Searching earlier batches and scripts for where the level data originates.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "Level [0-9]"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "Level [0-9]",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "themes/jorap/layouts/_partials/components/blog-card.html"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-07-23_11-54-09Z-feynman-technique-for-notes.md"
+    }
+  ],
+  "totalFiles": 2,
+  "totalMatches": 3
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **8** results in **1** directory</summary>
+
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (8 files)
+
+| File |
+|------|
+| `.specstory/history/2026-06-20_11-43-50Z-high-school-level-vocabulary-for-flashcards.md` |
+| `data/levels-batch-1.json` |
+| `data/levels-batch-2.json` |
+| `data/levels-batch-0.json` |
+| `data/levels-batch-4.json` |
+| `.specstory/history/2026-06-20_11-43-50Z-high-school-level-vocabulary.md` |
+| `data/levels-batch-5.json` |
+| `data/levels-batch-3.json` |
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/levels-batch-0.json</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Checking the specstory history file to understand how Level 1–5 were generated in a prior batch.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-23_11-54-09Z-feynman-technique-for-notes.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/abide-in-me.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+The note `abide-in-me` still contains the grade-6 line rather than the Level 1–5 entries.
+
+Searching for a script or specstory that generates the Level 1–5 entries.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **1** directory</summary>
+
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (0 files)
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **1** result in **1** directory</summary>
+
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (1 file)
+
+| File |
+|------|
+| `scripts/apply-feynman-grade6.py` |
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-23_11-54-09Z-feynman-technique-for-notes.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+The specstory was truncated. I will read the apply-feynman-grade6.py script and search for level-related data files or notes with Level prefixes.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/apply-feynman-grade6.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "\"l[1-5]\""
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "\"l[1-5]\"",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": true,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/data",
+  "pattern": "level"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/data",
+  "pattern": "level",
+  "topFiles": [
+    {
+      "matchCount": 4,
+      "uri": "data/jesus-words.yaml"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 4
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+The JSON contains only b1 and b2. Level 1 through Level 5 must be inserted.
+
+Searching for the source of levels 2–5. b2 may be Level 1. Other files might contain the remaining levels.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "Level 1:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "Level 1:",
+  "topFiles": [
+    {
+      "matchCount": 3,
+      "uri": ".specstory/history/2026-07-23_12-11-07Z-levels-batch-1-notes.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-07-23_12-11-06Z-levels-batch-0-notes.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": ".specstory/history/2026-07-23_12-11-08Z-levels-batch-2-notes.md"
+    }
+  ],
+  "totalFiles": 3,
+  "totalMatches": 9
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **6** results in **1** directory</summary>
+
+Directory: **`/home/jorap/Documents/GitHub/jorap.com/data`** (6 files)
+
+| File |
+|------|
+| `levels-batch-5.json` |
+| `levels-batch-2.json` |
+| `levels-batch-1.json` |
+| `levels-batch-3.json` |
+| `levels-batch-4.json` |
+| `levels-batch-0.json` |
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts",
+  "pattern": "levels-batch-5"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts",
+  "pattern": "levels-batch-5",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "../../../.cursor/projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/27ebd9be-28f6-44d9-8139-ef14c1ec9bf6/subagents/6505cbb7-13eb-483a-adc1-6b5991f33dae.jsonl"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Reviewing earlier specstory files to understand the schema and level generation before processing the 43 notes.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-23_12-11-06Z-levels-batch-0-notes.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-23_12-11-07Z-levels-batch-1-notes.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+The Level 1–5 entries must be generated by the agent; they are not present in the JSON file.
+
+The JSON supplies bullet 1 and the grade-6 line to remove for validation. I will process all 43 notes, preserving bible blocks and leaving later bullets untouched. I am also checking whether batch-0 was already completed.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/abide-in-me.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "outputMode": "count",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "Level 1:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "count",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "Level 1:",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/pray-for-his-own.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+No note files have been modified yet.
+
+Planning to batch-read all 43 note files to inspect their current key_concept content. Then I'll generate the five Level 1–5 bullets and apply them via StrReplace.
+
+A Python script could handle the replacements, but generating 215 unique Level 1–5 bullet texts manually is the more practical route. I'll extract each note's existing key_concept bullets with grep first.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+Extracting `key_concept` from all 43 batch-5 notes so I can craft Level 1–5 bullets for each.
+
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="update_current_step"><details>
+<summary>Tool use: **update_current_step**</summary>
+An unknown error occurred
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt; &#39;PY&#39;
+import json, re, yaml
+from pathlib import Path
+
+NOTES = Path(&#34;content/english/notes&#34;)
+batch = json.loads(Path(&#34;data/levels-batch-5.json&#34;).read_text())
+
+def parse_kc(text):
+    m = re.match(r&#34;^---\n(.*?)\n---&#34;, text, re.S)
+    if not m: return None
+    fm = yaml.safe_load(m.group(1))
+    kc = fm.get(&#34;key_concept&#34;, &#34;&#34;)
+    prefix, bullets = [], []
+    in_b = False
+    for line in kc.splitlines():
+        if re.match(r&#39;^\s*-\s+&#39;, line):
+            in_b = True
+            bullets.append(line.strip()[2:].strip())
+        elif not in_b and line.strip():
+            prefix.append(line.strip())
+    return prefix, bullets
+
+for item in batch:
+    slug = item[&#34;slug&#34;]
+    path = NOTES / f&#34;{slug}.md&#34;
+    if not path.exists():
+        print(f&#34;MISSING {slug}&#34;)
+        continue
+    prefix, bullets = parse_kc(path.read_text())
+    print(f&#34;=== {slug} (rest_n={item[&#39;rest_n&#39;]}, bullets={len(bullets)}) ===&#34;)
+    if prefix: print(&#34;PREFIX:&#34;, prefix[0][:80])
+    for i, b in enumerate(bullets[:4]):
+        print(f&#34;  b{i+1}: {b[:100]}&#34;)
+    if len(bullets) &gt; 4:
+        print(f&#34;  ... +{len(bullets)-4} more&#34;)
+    print()
+PY</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
+import json, re, yaml
+from pathlib import Path
+
+NOTES = Path("content/english/notes")
+batch = json.loads(Path("data/levels-batch-5.json").read_text())
+
+def parse_kc(text):
+    m = re.match(r"^---\n(.*?)\n---", text, re.S)
+    if not m: return None
+    fm = yaml.safe_load(m.group(1))
+    kc = fm.get("key_concept", "")
+    prefix, bullets = [], []
+    in_b = False
+    for line in kc.splitlines():
+        if re.match(r'^\s*-\s+', line):
+            in_b = True
+            bullets.append(line.strip()[2:].strip())
+        elif not in_b and line.strip():
+            prefix.append(line.strip())
+    return prefix, bullets
+
+for item in batch:
+    slug = item["slug"]
+    path = NOTES / f"{slug}.md"
+    if not path.exists():
+        print(f"MISSING {slug}")
+        continue
+    prefix, bullets = parse_kc(path.read_text())
+    print(f"=== {slug} (rest_n={item['rest_n']}, bullets={len(bullets)}) ===")
+    if prefix: print("PREFIX:", prefix[0][:80])
+    for i, b in enumerate(bullets[:4]):
+        print(f"  b{i+1}: {b[:100]}")
+    if len(bullets) > 4:
+        print(f"  ... +{len(bullets)-4} more")
+    print()
+PY
+```
+
+```
+=== situational-control (rest_n=2, bullets=4) ===
+  b1: Situational control is using the levers available - pace, venue, agenda, boundaries - when you canno
+  b2: When you cannot control everything, you still choose what you can change - how fast things move, whe
+  b3: I steer pace, format, and who speaks in the room when I cannot own the whole outcome.
+  b4: The room notices who's steering even when nobody announced it.
+
+=== slow-productivity (rest_n=2, bullets=4) ===
+  b1: Busy is not the same as finished.
+  b2: Racing around and feeling busy does not mean the real work is done - it just means you are moving a 
+  b3: I run fewer active projects so notes become shipped work, not a guilt backlog.
+  b4: Four half-started builds eat the one client site that was supposed to ship this month.
+
+=== slow-the-moment (rest_n=3, bullets=5) ===
+  b1: Pressure creates urgency, but urgency should not erase judgment.
+  b2: Stress makes everything feel like it must happen right now - but you still need a moment to think be
+  b3: Before you react, buy enough mental space to understand what's happening, weigh consequences, and ch
+  b4: I slow down one breath before I answer.
+  ... +1 more
+
+=== spaced-repetition (rest_n=4, bullets=6) ===
+  b1: Review on a schedule before I forget - for **retention**, **application**, and **explanation**, not 
+  b2: Go back to what you learned on a timer before it slips away - so you remember it, use it, and can ex
+  b3: The wiki holds understanding; cards and SRS hold drill - separate lanes, algorithm handles timing.
+  b4: In this garden, spine notes (~20%, [[Pareto Principle]]) opt in with `review: true`
+  ... +2 more
+
+=== staged-rollout (rest_n=2, bullets=4) ===
+  b1: Full-blast deploy turns every user into a test subject.
+  b2: If you launch the change to everyone at once, every person becomes your guinea pig when something br
+  b3: Staged rollout - preview branch, one table section, scrimmage Tuesday - keeps [[Reversibility]] real
+  b4: [[Safety 
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Writing Levels 1 through 5 for all 43 notes.
+
+Level 1 will reuse the grade-6 line with a "Level 1: " prefix. Levels 2 through 5 will increase in complexity. Checking batch-0 examples for reference.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-23_12-11-06Z-levels-batch-0-notes.md",
+  "pattern": "Level 5:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-23_12-11-06Z-levels-batch-0-notes.md",
+  "pattern": "Level 5:",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-23_12-11-06Z-levels-batch-0-notes.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-23_12-11-06Z-levels-batch-0-notes.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Batch 0 was incomplete. I'll generate all Level 1–5 bullets manually for each of the 43 notes.
+
+A single Python script will define all 43 notes' Level 1–5 bullets and apply the StrReplace edits.
+
+The script will embed all Level 1–5 bullets directly. Level 1 uses grade-6 analogies without wikilinks. Level 2 uses grade-8 plain language. Level 3 uses grade-10 cause-effect. Level 4 uses adult actionable claims. Level 5 uses nuance with wikilinks allowed. Level 1 may adapt existing JSON text. No contractions appear in frontmatter.
+
+I'm now mapping out the exact Level 1 and Level 2 text for each slug. For situational-control, the original bullet 1 stays untouched, while bullet 2 is removed and replaced with five new Level 1–5 bullets.
+
+For situational-control, Level 1 reuses the original bullet 2 text at grade 6. Level 2 uses plain language. Level 3 explains how small levers change outcomes.
+
+Level 4 for situational-control will ask the reader to pick one lever before reacting. Level 5 must avoid duplicating bullet 3, so it needs fresh wording that differs from the existing third bullet.
+
+Situational-control Level 5 will use wikilinks to Humility and Service. It will contrast steering through levers against dominating the room. All 43 Level 1–5 sets will be stored in a JSON file and applied by script.
+
+Checking whether another batch already defines a levels data file format to reuse.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **1** directory</summary>
+
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (0 files)
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts",
+  "pattern": "apply.*level"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts",
+  "pattern": "apply.*level",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+A Python script will apply the level updates.
+
+The script will embed a LEVELS dictionary directly. The existing notes_content module will be reviewed for reference.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Creating a JSON file with all level bullets and a script to apply them.
+
+Consolidating into a single Python script containing the full levels dictionary. Most Level 1 bullets will reuse the existing grade-6 text. Bible blocks stay intact, preserving their blank-line separators.
+
+The apply script will split each note at the first bullet, keep bullet 1, delete bullet 2, insert Levels 1–5, and preserve bullets 3 onward. Blank lines after bible blocks remain; none will be added between bullets. The levels data will be kept in a separate JSON file.
+
+Existing contractions in current bullets will be preserved. New level bullets will avoid contractions. Notes with only two bullets will expand to six. Starting to write all 43 level sets now.
+
+Drafting the four Level 1–4 bullets for the situational-control note.
+
+Finished the situational-control Level 5 bullet. Drafted the Level 1–4 bullets for slow-productivity.
+
+Revised the slow-productivity Level 5 bullet to avoid duplicating existing content. Started drafting Level 1 and Level 2 for the slow-the-moment note.
+
+Drafted Levels 3–5 for slow-the-moment. Level 5 overlaps with bullet 3, so the draft needs revision to avoid duplication.
+
+Revised the slow-the-moment Level 5 bullet to avoid duplicating bullet 3. The new draft frames the pause as a choice between paralysis and deliberate decision-making, rather than copying the existing content.
+
+Started drafting Level 1 and Level 2 for the spaced-repetition note.
+
+Completed the Level 3–5 bullets for the spaced-repetition note. Level 5 now contrasts prose retention with spaced drill, avoiding overlap with bullet 3.
+
+Drafted all five Level bullets for the staged-rollout note. The set warns against full-blast deployment, frames staged rollout as limiting blast radius, and anchors the final bullet to Reversibility and Safety by Design.
+
+Drafted Levels 1–4 for the standard-operating-procedures note. The set frames SOPs as written checklists for recurring tasks, noting that adrenaline narrows working memory and short steps replace heroic improvisation.
+
+Finished the standard-operating-procedures Level 5 bullet. It frames the checklist as competence under pressure rather than incompetence.
+
+Drafted the first three Level bullets for the standing-vs-fellowship note. The set distinguishes eternal standing from fellowship, stating that standing is a permanent verdict while fellowship rises and falls with obedience and prayer.
+
+Finished the standing-vs-fellowship Level 5 bullet. It frames standing as a settled declaration on Christ, not a status that can be reopened by a bad week; fellowship is the closeness lane restored through confession and obedience.
+
+Started drafting Level 1 for the static-site-client-scope note. The draft frames the first level as deciding what kind of website job fits before naming a price, saying no face-to-face rather than after payment.
+
+Completed the static-site-client-scope Level 5 bullet. It places good and bad fit checks in the initial sales call, not after deposit, and separates workshop drafts from client deliverables. Started drafting the stay-effective-in-new-conditions note.
+
+Drafted Levels 1–4 for the stay-effective-in-new-conditions note. The set warns that confidence imported from a past room often outruns competence in a new place. It frames effectiveness as swapping methods while the old habit still feels like the smart play. The fourth level advises testing one new move before trusting the habit that worked last time.
+
+Revised the stay-effective-in-new-conditions Level 5 bullet to avoid duplicating bullet 3. The new draft warns that imported certainty is the trap, advising learning the new room’s rules before scaling the old playbook.
+
+Started drafting the steward-after-the-win note. The first two levels warn that right after a big success, it is easy to relax and treat the win as the finish line instead of the start of stewardship.
+
+Completed the steward-after-the-win note. Levels 3–5 warn that attention and trust peak right after a win, so neglect does the most damage then; the fourth level schedules the next tending move before the spike fades; the fifth anchors the note to Success is Stewardship and Faithful Steward, framing the win as entrusted rather than a viral week.
+
+Started drafting the strategic-foresight note. The first level states that foresight means getting ready before the numbers change, since life keeps moving regardless of planning.
+
+Drafted Levels 2–4 for the strategic-foresight note. The fourth level asks what the scoreboard will show in six months if nobody plans, then installs one move before that update lands. The fifth level duplicates bullet 3, so it needs revision.
+
+Finalized the strategic-foresight Level 5 bullet. It warns that reactive teams win the night but lose the season, and frames foresight as installing moves before the lag catches up.
+
+Drafted the first three Level bullets for the success-is-stewardship note. The first level says gifts like time and money are meant for others, not hidden to protect pride. The second level treats promotion and platform as entrusted, not owned. The third level places stewardship after salvation in order, noting that Free Grace settles eternity while gifts settle how the platform is used afterward.
+
+Completed the success-is-stewardship Level 4 and Level 5 bullets. Level 4 asks what faithful use looks like this quarter when influence grows, entering the master’s joy rather than burying talent in ego. Level 5 states that success is not ownership, and that burying talent to protect pride fails the same test as the unfaithful servant.
+
+Started drafting the sunk-cost-fallacy note. Level 1 asks whether you would actually begin the project today if you just discovered it now. Level 2 warns that past time and money already spent should not force future spending, since the question is whether you would start fresh today.
+
+Finished the sunk-cost-fallacy note. Level 3 explains that loss feels louder than opportunity, keeping people funding what they would not choose anew. Level 4 demands a fresh-start test before the next deposit of time or money. Level 5 links [[Forgiveness]] to relational debt and [[Turn the Other Cheek]] to stopping more anger after sunk hurt.
+
+Started drafting the sustainable-performance note. Level 1 warns that work must be paced to survive next month without collapsing from exhaustion or skipping safety steps.
+
+Completed the sustainable-performance note. Level 2 warns that a sprint that mortgages next month is borrowing trouble, not performance. Level 3 ties burnout and corner-cutting to lagging indicators. Level 4 sets this month’s pace by what can be repeated next month without cutting safety or sleep. Level 5 duplicates bullet 3, so it needs revision.
+
+Finalized the sustainable-performance Level 5 bullet. It warns that hero weeks skipping safety or sleep borrow against next month, and frames sustainable performance as the pace you can hold when nobody is watching.
+
+Started drafting the synthesis-as-a-goal note. The first level says saving other people’s quotes is not enough; you must write what you actually believe in your own words. The second level warns that quote collection feels like learning but does not produce belief you can defend until you merge sources into one claim. The third level frames synthesis as turning PKM into thinking, because prose you would ship forces gaps in understanding to surface.
+
+Finalized the synthesis-as-a-goal note. Level 4 demands merging borrowed lines into one page in your own words before linking them; if you cannot defend it, you have not learned it. Level 5 states that the wiki can hold borrowed lines, but synthesis begins when learning starts—only one claim you would ship, not a pile of quotes nobody wrote.
+
+Started drafting the systems-for-growth note. Level 1 frames each note as one habit to set up early, already running when needed later. Level 2 describes growth systems as moves installed before results become urgent, with each linked note acting as a lever ready when pressure rises.
+
+Completed the systems-for-growth note. Level 3 uses Pressure Reveals Weakness to show what breaks under heat, installing what you build on purpose before the heat arrives. Level 4 picks one growth loop from the hub and runs it for a month before the outcome is needed. Level 5 warns that hoping discipline appears when the calendar turns; it is better to install one move at a time.
+
+Started drafting the systems-thinking note. Level 1 asks what feeds the visible problem, what slows it down, and what keeps it coming back. Level 2 notes that symptoms flare in the open, while systems thinking traces inputs, delays, and feedback loops behind the fire.
+
+Completed the systems-thinking note. Level 3 warns that patching tonight’s symptom fails when the same fire returns next week; the real target is the loop that produces the fire. Level 4 asks mapping one input and one feedback path before the next fix, since the same fire coming back signals the loop was left untouched. Level 5 was revised to warn that delays hide cause from effect, so trace feedback before celebrating a quiet week. Started drafting the table-fellowship note.
+
+Drafted Levels 1–4 for the table-fellowship note. Level 1 says Jesus ate with people others looked down on, coming for the messy rather than those who thought they were already good enough. Level 2 uses Levi’s feast to show that presence at the meal was the point, not status. Level 3 frames table fellowship as modeling ministry at a meal, because eating with the wrong crowd revealed who the Physician came to heal. Level 4 invites one real meal with someone outside your polished circle before calling it fellowship.
+
+Finalized the table-fellowship Level 5 bullet. It cites [[Humility and Service]] and [[Love Your Neighbor]], clarifying that eating with sinners under [[Free Grace]] is the Physician with the sick, not endorsement of sin.
+
+Began drafting the take-up-your-cross note. Level 1 frames daily following Jesus as a cost, not a display of endurance. Level 2 defines self-denial as choosing God’s will over self-will, calling the cross follow-through rather than suffering theater. Level 3 notes that cross-bearing follows faith, that eternal life is received
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+Writing a script with all Level 1–5 content and applying it across the 43 notes.
+
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="update_current_step"><details>
+<summary>Tool use: **update_current_step**</summary>
+An unknown error occurred
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/levels-batch-5-content.json</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Writing and running the apply script.
+
+Basing the script on apply-feynman-grade6.py, then adapting it for levels.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/apply-levels-batch.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Running the script and verifying the results.
+
+Checking the level bullets for contractions and blank lines between them.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/apply-levels-batch.py</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/apply-levels-batch.py
+```
+
+```
+{'ok': 43}
+
+```
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+All 43 notes were updated successfully. Now verifying the changes.
+
+situational-control and bible notes verified. No blank lines or contractions found.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/situational-control.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/standing-vs-fellowship.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-narrow-way.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/apply-levels-batch.py &amp;&amp; python3 &lt;&lt; &#39;PY&#39;
+import json, re, yaml
+from pathlib import Path
+
+NOTES = Path(&#34;content/english/notes&#34;)
+batch = json.loads(Path(&#34;data/levels-batch-5.json&#34;).read_text())
+issues = []
+for item in batch:
+    slug = item[&#34;slug&#34;]
+    text = (NOTES / f&#34;{slug}.md&#34;).read_text()
+    m = re.match(r&#34;^---\n(.*?)\n---&#34;, text, re.S)
+    kc = yaml.safe_load(m.group(1))[&#34;key_concept&#34;]
+    lines = kc.splitlines()
+    bullets = [l for l in lines if re.match(r&#39;^\s*-\s+&#39;, l)]
+    if len(bullets) &lt; 7 and item[&#34;rest_n&#34;] &gt; 0:
+        issues.append(f&#34;{slug}: expected &gt;=7 bullets, got {len(bullets)}&#34;)
+    if not bullets[1].startswith(&#34;Level 1:&#34;):
+        issues.append(f&#34;{slug}: bullet 2 not Level 1&#34;)
+    for i in range(1,6):
+        if not bullets[i].startswith(f&#34;Level {i}:&#34;):
+            issues.append(f&#34;{slug}: missing Level {i}&#34;)
+    # blank between bullets
+    in_b = False
+    prev_was_bullet = False
+    for l in lines:
+        if re.match(r&#39;^\s*-\s+&#39;, l):
+            if prev_was_bullet and not l.strip():
+                issues.append(f&#34;{slug}: blank between bullets?&#34;)
+            prev_was_bullet = True
+        elif prev_was_bullet and l.strip() == &#39;&#39;:
+            issues.append(f&#34;{slug}: blank line between bullets&#34;)
+            prev_was_bullet = False
+    # contractions in level bullets
+    for b in bullets[1:6]:
+        if re.search(r&#34;\b\w+&#39;\w+\b&#34;, b):
+            issues.append(f&#34;{slug}: contraction in {b[:50]}&#34;)
+print(&#34;issues:&#34;, len(issues))
+for i in issues[:20]:
+    print(i)
+PY</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/apply-levels-batch.py && python3 << 'PY'
+import json, re, yaml
+from pathlib import Path
+
+NOTES = Path("content/english/notes")
+batch = json.loads(Path("data/levels-batch-5.json").read_text())
+issues = []
+for item in batch:
+    slug = item["slug"]
+    text = (NOTES / f"{slug}.md").read_text()
+    m = re.match(r"^---\n(.*?)\n---", text, re.S)
+    kc = yaml.safe_load(m.group(1))["key_concept"]
+    lines = kc.splitlines()
+    bullets = [l for l in lines if re.match(r'^\s*-\s+', l)]
+    if len(bullets) < 7 and item["rest_n"] > 0:
+        issues.append(f"{slug}: expected >=7 bullets, got {len(bullets)}")
+    if not bullets[1].startswith("Level 1:"):
+        issues.append(f"{slug}: bullet 2 not Level 1")
+    for i in range(1,6):
+        if not bullets[i].startswith(f"Level {i}:"):
+            issues.append(f"{slug}: missing Level {i}")
+    # blank between bullets
+    in_b = False
+    prev_was_bullet = False
+    for l in lines:
+        if re.match(r'^\s*-\s+', l):
+            if prev_was_bullet and not l.strip():
+                issues.append(f"{slug}: blank between bullets?")
+            prev_was_bullet = True
+        elif prev_was_bullet and l.strip() == '':
+            issues.append(f"{slug}: blank line between bullets")
+            prev_was_bullet = False
+    # contractions in level bullets
+    for b in bullets[1:6]:
+        if re.search(r"\b\w+'\w+\b", b):
+            issues.append(f"{slug}: contraction in {b[:50]}")
+print("issues:", len(issues))
+for i in issues[:20]:
+    print(i)
+PY
+```
+
+```
+{'skip': 43}
+issues: 271
+situational-control: bullet 2 not Level 1
+situational-control: missing Level 1
+situational-control: missing Level 2
+situational-control: missing Level 3
+situational-control: missing Level 4
+situational-control: missing Level 5
+slow-productivity: bullet 2 not Level 1
+slow-productivity: missing Level 1
+slow-productivity: missing Level 2
+slow-productivity: missing Level 3
+slow-productivity: missing Level 4
+slow-productivity: missing Level 5
+slow-the-moment: bullet 2 not Level 1
+slow-the-moment: missing Level 1
+slow-the-moment: missing Level 2
+slow-the-moment: missing Level 3
+slow-the-moment: missing Level 4
+slow-the-moment: missing Level 5
+spaced-repetition: bullet 2 not Level 1
+spaced-repetition: missing Level 1
+
+```
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+The validation script checked the wrong bullet index for Level 1.
+
+The situational-control output confirms bullets[1] is correctly parsed as Level 1. The validation script's failure likely stems from YAML parsing rather than bullet indexing.
+
+The high failure count suggests YAML is misinterpreting bullet lines containing colons as nested mappings rather than strings. I will inspect the raw yaml.safe_load output for key_concept.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt; &#39;PY&#39;
+import re, yaml
+from pathlib import Path
+text = Path(&#34;content/english/notes/situational-control.md&#34;).read_text()
+m = re.match(r&#34;^---\n(.*?)\n---&#34;, text, re.S)
+kc = yaml.safe_load(m.group(1))[&#34;key_concept&#34;]
+print(repr(kc[:200]))
+print(type(kc))
+PY</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
+import re, yaml
+from pathlib import Path
+text = Path("content/english/notes/situational-control.md").read_text()
+m = re.match(r"^---\n(.*?)\n---", text, re.S)
+kc = yaml.safe_load(m.group(1))["key_concept"]
+print(repr(kc[:200]))
+print(type(kc))
+PY
+```
+
+```
+'- Situational control is using the levers available - pace, venue, agenda, boundaries - when you cannot control everything.\n- Level 1: When you cannot control everything, you still choose what you can'
+<class 'str'>
+
+```
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+The validation script had a bug where it checked bullets incorrectly because the value is a string.
+
+Fixing validation to catch contractions and blank lines. Verifying bullet counts for the-narrow-way and the-wise-builder. Checking that bible blocks remain intact.
+
+The contraction in situational-control is part of the original bullet 4, so it remains untouched. I will grep only the newly inserted Level bullets for contractions. I used a script for efficiency rather than individual StrReplace edits. I am leaving the script and JSON files in place since the user did not request their removal.
+
+I will delete the auxiliary script and JSON file to keep the diff focused on the 43 note files only.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt; &#39;PY&#39;
+import json, re
+from pathlib import Path
+import yaml
+
+NOTES = Path(&#34;content/english/notes&#34;)
+batch = json.loads(Path(&#34;data/levels-batch-5.json&#34;).read_text())
+issues = []
+for item in batch:
+    slug = item[&#34;slug&#34;]
+    text = (NOTES / f&#34;{slug}.md&#34;).read_text()
+    m = re.match(r&#34;^---\n(.*?)\n---&#34;, text, re.S)
+    kc = yaml.safe_load(m.group(1))[&#34;key_concept&#34;]
+    bullets = [l.strip()[2:].strip() for l in kc.splitlines() if re.match(r&#39;^\s*-\s+&#39;, l)]
+    expected = 1 + 5 + item[&#34;rest_n&#34;]
+    if len(bullets) != expected:
+        issues.append(f&#34;{slug}: bullets={len(bullets)} expected={expected}&#34;)
+    for i in range(5):
+        want = f&#34;Level {i+1}:&#34;
+        if not bullets[1+i].startswith(want):
+            issues.append(f&#34;{slug}: bullets[{1+i}] bad prefix: {bullets[1+i][:40]}&#34;)
+    for b in bullets[1:6]:
+        if re.search(r&#34;\b\w+&#39;\w+\b|\b\w+n&#39;t\b|\bit&#39;s\b|\bisn&#39;t\b&#34;, b, re.I):
+            issues.append(f&#34;{slug}: contraction in level: {b[:60]}&#34;)
+    # consecutive blank lines between bullets in raw block
+    raw_lines = kc.splitlines()
+    prev_b = False
+    for l in raw_lines:
+        if re.match(r&#39;^\s*-\s+&#39;, l):
+            prev_b = True
+        elif prev_b and l.strip() == &#39;&#39;:
+            issues.append(f&#34;{slug}: blank between bullets&#34;)
+            prev_b = False
+print(f&#34;checked {len(batch)} notes, issues={len(issues)}&#34;)
+for i in issues:
+    print(i)
+PY</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
+import json, re
+from pathlib import Path
+import yaml
+
+NOTES = Path("content/english/notes")
+batch = json.loads(Path("data/levels-batch-5.json").read_text())
+issues = []
+for item in batch:
+    slug = item["slug"]
+    text = (NOTES / f"{slug}.md").read_text()
+    m = re.match(r"^---\n(.*?)\n---", text, re.S)
+    kc = yaml.safe_load(m.group(1))["key_concept"]
+    bullets = [l.strip()[2:].strip() for l in kc.splitlines() if re.match(r'^\s*-\s+', l)]
+    expected = 1 + 5 + item["rest_n"]
+    if len(bullets) != expected:
+        issues.append(f"{slug}: bullets={len(bullets)} expected={expected}")
+    for i in range(5):
+        want = f"Level {i+1}:"
+        if not bullets[1+i].startswith(want):
+            issues.append(f"{slug}: bullets[{1+i}] bad prefix: {bullets[1+i][:40]}")
+    for b in bullets[1:6]:
+        if re.search(r"\b\w+'\w+\b|\b\w+n't\b|\bit's\b|\bisn't\b", b, re.I):
+            issues.append(f"{slug}: contraction in level: {b[:60]}")
+    # consecutive blank lines between bullets in raw block
+    raw_lines = kc.splitlines()
+    prev_b = False
+    for l in raw_lines:
+        if re.match(r'^\s*-\s+', l):
+            prev_b = True
+        elif prev_b and l.strip() == '':
+            issues.append(f"{slug}: blank between bullets")
+            prev_b = False
+print(f"checked {len(batch)} notes, issues={len(issues)}")
+for i in issues:
+    print(i)
+PY
+```
+
+```
+checked 43 notes, issues=15
+stay-effective-in-new-conditions: contraction in level: Level 5: Imported certainty is the trap - stay useful by lea
+strategic-foresight: contraction in level: Level 3: Foresight beats reactive scrambling because the boa
+success-is-stewardship: contraction in level: Level 4: When influence grows, ask what faithful use looks l
+sustainable-performance: contraction in level: Level 4: Set this month's pace by what you can repeat next m
+synthesis-as-a-goal: contraction in level: Level 1: Saving other people's quotes is not enough - you ha
+systems-thinking: contraction in level: Level 3: Patching tonight's symptom fails when the same fire
+table-fellowship: contraction in level: Level 2: Levi's feast put Jesus at a table with tax collecto
+take-up-your-cross: contraction in level: Level 2: Daily self-denial means choosing God's will over se
+take-up-your-cross: contraction in level: Level 5: [[Free Grace]] keeps the order: eternal life is rec
+the-beatitudes: contraction in level: Level 3: Beatitude means supreme blessedness - each line nam
+the-fathers-food: contraction in level: Level 4: When duty and comfort collide, ask what the Sender'
+the-narrow-way: bullets=12 expected=6
+the-wise-builder: bullets=14 expected=6
+the-wise-builder: contraction in level: Level 5: Lord Lord without doing the Father's will is empty 
+treasure-in-heaven: contraction in level: Level 3: Heart follows treasure because what you store shows
+
+```
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "{situational-control,slow-productivity,the-wise-builder,workplace-principles}.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "^\\s+- Level [1-5]:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "^\\s+- Level [1-5]:",
+  "topFiles": [
+    {
+      "matchCount": 5,
+      "uri": "content/english/notes/workplace-principles.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "content/english/notes/the-wise-builder.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "content/english/notes/slow-productivity.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "content/english/notes/situational-control.md"
+    }
+  ],
+  "totalFiles": 4,
+  "totalMatches": 20
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+The contraction regex is incorrectly flagging possessives like "people's" and "Levi's" as contractions.
+
+Possessive apostrophes such as "people's" and "God's" are not contractions. These warnings are false positives.
+
+The JSON lists rest_n=0 for the-narrow-way and the-wise-builder, yet both files contain 8 and 10 bullets respectively. This suggests rest_n does not mean "remaining bullets after b2".
+
+The script preserved all original bullets from index 2 onward. The narrow-way and wise-builder counts were off because the JSON rest_n values were wrong. The actual file structures appear correct. Now verifying the-wise-builder.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-wise-builder.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="delete_file"><details>
+<summary>Tool use: **delete_file**</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="delete_file"><details>
+<summary>Tool use: **delete_file**</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+I accidentally deleted the content JSON file and script.
+
+All 43 files were edited successfully. Grade-6 bullet 2 was removed and Level 1–5 bullets were inserted with the required prefix. Contractions in transformation-principles bullet 1 were preserved. No files were skipped.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "outputMode": "count",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "Level 1:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "count",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "Level 1:",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/signature-move.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/signal-vs-noise.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/ship-it.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/share-what-you-learn.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/shadow-the-work.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/set-calm-boundaries.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/servant-leadership.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/selling-static-sites.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/self-control.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/seek-the-kingdom-first.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/secret-devotion.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/second-order-thinking.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/sanctification.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/safety-comes-first.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/safety-by-design.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/sabbath-for-good.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/rollback-principle.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/risk-management.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/review.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/reversibility.md"
+    }
+  ],
+  "totalFiles": 215,
+  "totalMatches": 215
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt; &#39;PY&#39;
+import json, re
+from pathlib import Path
+import yaml
+
+NOTES = Path(&#34;content/english/notes&#34;)
+batch = json.loads(Path(&#34;data/levels-batch-5.json&#34;).read_text())
+slugs = [x[&#34;slug&#34;] for x in batch]
+ok = skip = missing = 0
+for slug in slugs:
+    p = NOTES / f&#34;{slug}.md&#34;
+    if not p.exists():
+        missing += 1
+        continue
+    text = p.read_text()
+    m = re.match(r&#34;^---\n(.*?)\n---&#34;, text, re.S)
+    kc = yaml.safe_load(m.group(1))[&#34;key_concept&#34;]
+    bullets = [l.strip()[2:].strip() for l in kc.splitlines() if re.match(r&#39;^\s*-\s+&#39;, l)]
+    if len(bullets) &gt;= 6 and all(bullets[i].startswith(f&#34;Level {i}:&#34;) for i in range(1,6)):
+        ok += 1
+    else:
+        skip += 1
+        print(&#39;FAIL&#39;, slug)
+print({&#39;edited&#39;: ok, &#39;skipped&#39;: skip, &#39;missing&#39;: missing, &#39;total&#39;: len(slugs)})
+PY</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
+import json, re
+from pathlib import Path
+import yaml
+
+NOTES = Path("content/english/notes")
+batch = json.loads(Path("data/levels-batch-5.json").read_text())
+slugs = [x["slug"] for x in batch]
+ok = skip = missing = 0
+for slug in slugs:
+    p = NOTES / f"{slug}.md"
+    if not p.exists():
+        missing += 1
+        continue
+    text = p.read_text()
+    m = re.match(r"^---\n(.*?)\n---", text, re.S)
+    kc = yaml.safe_load(m.group(1))["key_concept"]
+    bullets = [l.strip()[2:].strip() for l in kc.splitlines() if re.match(r'^\s*-\s+', l)]
+    if len(bullets) >= 6 and all(bullets[i].startswith(f"Level {i}:") for i in range(1,6)):
+        ok += 1
+    else:
+        skip += 1
+        print('FAIL', slug)
+print({'edited': ok, 'skipped': skip, 'missing': missing, 'total': len(slugs)})
+PY
+```
+
+```
+{'edited': 43, 'skipped': 0, 'missing': 0, 'total': 43}
+
+```
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="update_current_step"><details>
+<summary>Tool use: **update_current_step**</summary>
+An unknown error occurred
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+All 43 notes were updated successfully.
+
+Helper files were deleted to keep the diff minimal. Only the 43 markdown files changed. A count, skips, and example will follow.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+Updated all **43** batch-5 garden notes, including `situational-control`.
+
+**Edited: 43**  
+**Skipped: 0**
+
+For each note:
+- Bullet 1 kept unchanged
+- Old grade-6 bullet 2 removed
+- Level 1 through Level 5 inserted with `Level N: ` prefix
+- Bullets 3+ kept in order
+- Bible shortcodes preserved (with their spacing)
+
+Example from `situational-control.md`:
+
+```6:13:content/english/notes/situational-control.md
+  - Situational control is using the levers available - pace, venue, agenda, boundaries - when you cannot control everything.
+  - Level 1: When you cannot control everything, you still choose what you can change - how fast things move, where you meet, what gets talked about, and what lines you will not cross.
+  - Level 2: You cannot run the whole room, but you can still set pace, place, agenda, and boundaries even when someone else holds the final say.
+  - Level 3: Situational control works because small levers change how a conflict or meeting plays out before the outcome is settled.
+  - Level 4: Before you react, pick one lever: slow the pace, change the venue, reset the agenda, or name a boundary you will hold.
+  - Level 5: Steer without becoming the loudest voice - influence through levers, not domination, when you cannot own the whole outcome.
+  - I steer pace, format, and who speaks in the room when I cannot own the whole outcome.
+  - The room notices who's steering even when nobody announced it.
+```
+
+Notes with bible blocks (e.g. `standing-vs-fellowship`, `the-narrow-way`, `the-wise-builder`) kept their shortcodes and original trailing bullets intact.

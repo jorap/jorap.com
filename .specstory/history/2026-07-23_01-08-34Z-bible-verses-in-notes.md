@@ -795,3 +795,2079 @@ Additional data:
 Status: **completed**
 
 </details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Two systems handle bible references in notes.
+
+The bible shortcode already renders verses in key_concept frontmatter. Plain text references in note content are not yet auto-converted. Need to determine whether to auto-detect these references or apply the shortcode format. Will check how assembled-content handles this.
+
+jesus-rhythms.md contains many verse references in its body text without any bible shortcodes. This confirms the gap between plain text references and the shortcode system.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/assembled-content.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.{html,js,py,md}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "bible-ref|scripture-ref|verse-ref|mention.*verse"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "bible-ref|scripture-ref|verse-ref|mention.*verse",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-02_01-03-05Z-rewrite-note-descriptions-batch.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": ".specstory/history/2026-07-07_14-32-44Z-nasb-1995-bible-verses.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/partials/shortcodes/bible.html"
+    },
+    {
+      "matchCount": 8,
+      "uri": ".specstory/history/2026-07-09_14-18-35Z-bible-verse-shortcode-review.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": "layouts/_partials/notes/render-content.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-15_18-39-15Z-wife's-singing-appreciation.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": ".specstory/history/2026-07-08_01-33-43Z-nasb1995-bible-yaml-format.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-15_18-39-15Z-wife-s-singing-appreciation.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/notes/collect-note-issues.html"
+    },
+    {
+      "matchCount": 9,
+      "uri": ".specstory/history/2026-07-08_02-17-18Z-ephesians-2-8-9.md"
+    }
+  ],
+  "totalFiles": 10,
+  "totalMatches": 35
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/garden-voice/examples.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The system already supports bible verse references via a `{{< bible ref="..."` syntax.
+
+Auto-detection of Bible references in plain text is needed. Verses currently require explicit shortcodes. Existing scripts and prior context should reveal how to implement this.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.{html,js,py,md}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "expand.*verse|verse.*mention|auto.*bible|bible.*auto"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "expand.*verse|verse.*mention|auto.*bible|bible.*auto",
+  "topFiles": [
+    {
+      "matchCount": 11,
+      "uri": ".specstory/history/2026-07-07_14-32-44Z-nasb-1995-bible-verses.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-07_15-20-52Z-fair-use-of-biblical-text.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-10_01-09-33Z-bible-notes-review.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-08_00-42-13Z-verse-display-standards-update.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-10_06-19-24Z-garden-voice-fix-chunk.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-15_14-44-16Z-blog-compliance-with-okf.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-10_06-19-41Z-garden-voice-fix-chunk.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-20_08-12-04Z-eternal-principles-and-jesus'-teachings.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/notes/collect-note-issues.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-08_01-33-43Z-nasb1995-bible-yaml-format.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-06_08-19-33Z-ponytail-audit.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-09_15-34-09Z-notes-review-and-key.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": ".specstory/history/2026-07-08_00-50-03Z-nasb1995-addition-request.md"
+    },
+    {
+      "matchCount": 9,
+      "uri": ".specstory/history/2026-07-09_14-18-35Z-bible-verse-shortcode-review.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-07-02_00-24-02Z-notes-layout-preference.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-10_06-19-21Z-garden-voice-fix-chunk.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-20_11-43-35Z-garden-voice-notes-review.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/archive/normalize-verse-paragraphs.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-09_15-34-09Z-notes-review-and-key-concepts.md"
+    },
+    {
+      "matchCount": 9,
+      "uri": ".specstory/history/2026-07-10_05-58-29Z-jorap-voice-refinement.md"
+    }
+  ],
+  "totalFiles": 20,
+  "totalMatches": 49
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/collect-note-issues.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.{html,toml,json}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "scripture-nasb1995|jesus-words"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "scripture-nasb1995|jesus-words",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": "layouts/_partials/notes/render-content.html"
+    },
+    {
+      "matchCount": 3,
+      "uri": "layouts/partials/shortcodes/bible.html"
+    }
+  ],
+  "totalFiles": 2,
+  "totalMatches": 5
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Bible verses mentioned in notes should display their full text. Multiple verses per note are supported.
+
+Auto-expansion should happen at the rendering layer rather than through manual shortcodes. Inline references without explicit bible shortcodes also need to resolve to full verses.
+
+Render-time expansion in render-content.html is the preferred approach. It avoids migrating existing notes and handles inline references across all body content. The next step is checking the scripture database and reference formatting in notes.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **1** result in **1** directory</summary>
+
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (1 file)
+
+| File |
+|------|
+| `data/scripture-nasb1995.json` |
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/jesus-rhythms.md",
+  "pattern": "\\([A-Za-z0-9 ]+ \\d+:\\d+"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/jesus-rhythms.md",
+  "pattern": "\\([A-Za-z0-9 ]+ \\d+:\\d+",
+  "topFiles": [
+    {
+      "matchCount": 16,
+      "uri": "content/english/notes/jesus-rhythms.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 16
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/withdraw-to-pray.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+withdraw-to-pray contains a bible shortcode for Mark 1:35 and a key_concept mention of Luke 5:16. The verse is not displayed.
+
+A post-processing step could scan rendered HTML for Bible references and inject verse blocks after them. This is complex with HTML. A simpler alternative is being considered.
+
+Pre-processing raw markdown before rendering is now preferred over post-processing HTML. Bible references appear in various formats, including continuations and parentheticals. The database needs to be checked for available books. Existing scripture blocks and double-rendering must be avoided. The next step is inspecting the scripture data structure and checking for an existing bible reference parser.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/scripture-nasb1995.json</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "layouts/**/*",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "bible|scripture"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "bible|scripture",
+  "topFiles": [
+    {
+      "matchCount": 9,
+      "uri": "layouts/partials/shortcodes/bible.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/shortcodes/bible.html"
+    },
+    {
+      "matchCount": 4,
+      "uri": "layouts/_partials/notes/render-content.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/notes/collect-note-issues.html"
+    }
+  ],
+  "totalFiles": 4,
+  "totalMatches": 15
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; hugo build 2&gt;&amp;1 | tail -3 &amp;&amp; rg -c &#39;scripture-verse&#39; public/notes/jesus-rhythms/index.html public/notes/withdraw-to-pray/index.html 2&gt;/dev/null</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && hugo build 2>&1 | tail -3 && rg -c 'scripture-verse' public/notes/jesus-rhythms/index.html public/notes/withdraw-to-pray/index.html 2>/dev/null
+```
+
+```
+]633;C Cleaned          │    0 
+
+Total in 22825 ms
+public/notes/withdraw-to-pray/index.html:1
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The Hugo build finished. The withdraw-to-pray note contains one scripture verse from a shortcode. The jesus-rhythms note appears to have none.
+
+Planning to detect Bible references in note content and render full NASB verse text for each mention. Multiple verses per note will be supported. A lazy approach using Hugo partials is being considered, but a cleaner method may be better.
+
+Pre-render injection is the chosen approach. Bible references will be detected in raw markdown before rendering, then replaced with bible shortcodes. This leverages existing shortcode logic rather than post-render HTML manipulation.
+
+Each Bible reference will appear in its own paragraph below the note text. Inline placement was considered but rejected. The withdraw-to-pray note already contains a verse paragraph for Mark 1:35; it still needs one for the mentioned Luke 5:16. The jesus-rhythms note contains multiple references that will each receive their own verse paragraph.
+
+Reconsidering the placement strategy. Inline expansion near each mention is now preferred over standalone paragraphs. Verses would appear after the specific line or bullet that contains the reference.
+
+The plan is now concrete. A new `expand-bible-mentions.html` partial will scan raw markdown for Bible references. It will skip references already inside `{{< bible ...>}}` shortcodes. Each new reference will trigger a bible shortcode inserted after the line that contains it. This partial will run inside `render-content.html` before `RenderString`. The exact regex pattern and available book names still need to be determined.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 -c &#34;
+import json
+with open(&#39;/home/jorap/Documents/GitHub/jorap.com/data/scripture-nasb1995.json&#39;) as f:
+    d=json.load(f)
+verses=d.get(&#39;verses&#39;,{})
+books=set(k.rsplit(&#39; &#39;,1)[0] for k in verses)
+print(&#39;count&#39;, len(verses))
+print(&#39;books sample&#39;, sorted(books)[:30])
+print(&#39;... total books&#39;, len(books))
+&#34;</summary>
+```bash
+python3 -c "
+import json
+with open('/home/jorap/Documents/GitHub/jorap.com/data/scripture-nasb1995.json') as f:
+    d=json.load(f)
+verses=d.get('verses',{})
+books=set(k.rsplit(' ',1)[0] for k in verses)
+print('count', len(verses))
+print('books sample', sorted(books)[:30])
+print('... total books', len(books))
+"
+```
+
+```
+count 31103
+books sample ['1 Chronicles', '1 Corinthians', '1 John', '1 Kings', '1 Peter', '1 Samuel', '1 Thessalonians', '1 Timothy', '2 Chronicles', '2 Corinthians', '2 John', '2 Kings', '2 Peter', '2 Samuel', '2 Thessalonians', '2 Timothy', '3 John', 'Acts', 'Amos', 'Colossians', 'Daniel', 'Deuteronomy', 'Ecclesiastes', 'Ephesians', 'Esther', 'Exodus', 'Ezekiel', 'Ezra', 'Galatians', 'Genesis']
+... total books 66
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/terminals/951602.txt</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.py",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts",
+  "pattern": "BOOK|book.*regex|bible.*ref"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts",
+  "pattern": "BOOK|book.*regex|bible.*ref",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": "scripts/bulletize-key-concepts.py"
+    },
+    {
+      "matchCount": 6,
+      "uri": "scripts/archive/normalize-verse-paragraphs.py"
+    },
+    {
+      "matchCount": 6,
+      "uri": "scripts/archive/build-jesus-words-db.py"
+    },
+    {
+      "matchCount": 4,
+      "uri": "scripts/archive/build-scripture-nasb1995-db.py"
+    },
+    {
+      "matchCount": 6,
+      "uri": "scripts/archive/apply-verse-explanations.py"
+    },
+    {
+      "matchCount": 6,
+      "uri": "scripts/archive/format-faith-bible-blocks.py"
+    }
+  ],
+  "totalFiles": 6,
+  "totalMatches": 30
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Checking the BOOK regex from normalize-verse-paragraphs.py for potential reuse in Hugo.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/archive/normalize-verse-paragraphs.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "assets/**/*",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "scripture-verse|scripture-ref"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "scripture-verse|scripture-ref",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": "assets/css/custom.css"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 2
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Planning a Hugo template solution to display Bible verses mentioned in notes. Multiple verses per note will be supported.
+
+Evaluating implementation approaches. A Hugo partial could scan note content for Bible references and expand them using the existing shortcode logic. Regex parsing in templates is tricky, and a JavaScript build step would be overkill. The current bible shortcode partial already handles rendering verses.
+
+A three-pass approach seems viable. First pass extracts existing shortcodes. Second pass finds parenthetical and inline references. Third pass appends bible shortcodes after lines containing mentions. Hugo functions like findRE and replaceRE can handle the regex scanning.
+
+A simpler approach is emerging. Rather than scanning rendered HTML, the plan is to process raw markdown line by line inside the Hugo template. A dedicated partial will accept raw markdown and return expanded raw markdown. Splitting the content by newlines allows regex to match Bible references directly in the source text.
+
+Drafting the line-by-line template loop. Each line will feed into a new `find-bible-refs.html` partial. The regex pattern targets books, chapters, and optional verse ranges. Parenthetical lists and multi-verse passages need special handling. Chapter-only references like "John 13" may require whole-chapter interpretation.
+
+Chapter-only references like "John 13" may not work with the existing shortcode. Comma-separated verses within the same chapter add further complexity. Replicating Python-level reference parsing in Hugo is too cumbersome. A lightweight regex partial that covers the site's actual patterns is the pragmatic choice.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; rg -o &#39;\([A-Za-z0-9 ]+ \d+:[\d,-]+\)|\([A-Za-z0-9 ]+ \d+\)|(?:Matthew|Mark|Luke|John|Romans|Ephesians|Galatians|Deuteronomy|James|Hebrews|Psalm|Psalms|Proverbs|1 Corinthians|2 Corinthians) \d+:\d+(?:-\d+)?&#39; content/english/notes --no-heading | sort -u | head -80</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && rg -o '\([A-Za-z0-9 ]+ \d+:[\d,-]+\)|\([A-Za-z0-9 ]+ \d+\)|(?:Matthew|Mark|Luke|John|Romans|Ephesians|Galatians|Deuteronomy|James|Hebrews|Psalm|Psalms|Proverbs|1 Corinthians|2 Corinthians) \d+:\d+(?:-\d+)?' content/english/notes --no-heading | sort -u | head -80
+```
+
+```
+content/english/notes/abide-in-me.md:John 15:1-11
+content/english/notes/ask-seek-knock.md:Matthew 6:9-13
+content/english/notes/ask-seek-knock.md:Matthew 7:7
+content/english/notes/ask-seek-knock.md:Matthew 7:7-11
+content/english/notes/assurance.md:John 6:35-40
+content/english/notes/by-their-fruits.md:Matthew 7:15-20
+content/english/notes/childlike-faith.md:Mark 10:13-16
+content/english/notes/christianity-and-politics.md:Matthew 22:21
+content/english/notes/christlikeness.md:Luke 6:39-40
+content/english/notes/christlikeness.md:Romans 12:2
+content/english/notes/christlikeness.md:Romans 8:29
+content/english/notes/discern-his-will-daily.md:John 7:16-18
+content/english/notes/discern-his-will-daily.md:Romans 12:2
+content/english/notes/discipleship.md:Luke 9:23-24
+content/english/notes/discipleship-vs-leadership.md:Matthew 20:26-28
+content/english/notes/dont-copy-the-pattern.md:John 15:19
+content/english/notes/dont-copy-the-pattern.md:Romans 12:1-2
+content/english/notes/dont-copy-the-pattern.md:Romans 12:2
+content/english/notes/dont-worry.md:Matthew 6:25-34
+content/english/notes/eternal-principles.md:John 15:19
+content/english/notes/eternal-principles.md:(John 17:17)
+content/english/notes/eternal-principles.md:(John 3:16)
+content/english/notes/eternal-principles.md:(John 5:24)
+content/english/notes/eternal-principles.md:John 7:17
+content/english/notes/eternal-principles.md:John 8:31-32
+content/english/notes/eternal-principles.md:(Luke 18:14)
+content/english/notes/eternal-principles.md:Matthew 16:24
+content/english/notes/eternal-principles.md:(Matthew 5:7)
+content/english/notes/eternal-principles.md:(NASB 1995)
+content/english/notes/eternal-principles.md:Romans 12:1
+content/english/notes/eternal-principles.md:Romans 12:2
+content/english/notes/eternal-rewards.md:Matthew 16:24-27
+content/english/notes/eternal-rewards.md:Matthew 25:14-30
+content/english/notes/eternal-rewards.md:Matthew 6:1-4
+content/english/notes/eternal-rewards.md:Matthew 6:16-18
+content/english/notes/faith-and
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "outputMode": "count",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "\\{\\{\u003c bible"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "count",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "\\{\\{\u003c bible",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/peacemakers.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/follow-christ-then-lead.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/kingdom-on-the-road.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/the-fathers-food.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/table-fellowship.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/invest-in-the-few.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/god-centered-design.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/dont-copy-the-pattern.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/pray-for-his-own.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/dont-worry.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/goodness.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/discipleship.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/turn-the-other-cheek.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/seek-the-kingdom-first.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/abide-in-me.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/the-wise-builder.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/moved-with-compassion.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/let-your-yes-be-yes.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/into-your-hands.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/withdraw-to-pray.md"
+    }
+  ],
+  "totalFiles": 79,
+  "totalMatches": 105
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Hugo's limited support for complex reference parsing is complicating the implementation. I'm weighing a few alternative approaches.
+
+A Python build script would violate ponytail. Post-processing rendered HTML is another option. The preferred approach is a Hugo partial that uses regex to extract references and renders them via the existing bible partial.
+
+The approach is shifting to a render-time template partial. It would scan raw markdown line by line, skip existing bible shortcodes and full verse paragraphs, extract references with regex, and append bible shortcodes for any remaining mentions.
+
+The plan now includes deduplication against existing page references. Each extracted reference gets a bible shortcode appended after its line, with cite set to false since the inline mention already displays the citation. A full verse paragraph will follow the inline reference.
+
+Range references like Matthew 4:1-11 will collapse into a single bible block. The existing shortcode already handles ranges. Duplicate verses will appear only once. The bible shortcode also needs to cover all 66 books from the full database.
+
+Regex patterns will match books with optional number prefixes. False positives are unlikely in this garden. Special cases include whole chapters without verse numbers, verse continuations after semicolons, and comma-separated references.
+
+The bible shortcode likely misinterprets bare chapter references like "John 13" as a verse number rather than a full chapter. The "(NASB 1995)" text in eternal-principles is a false positive that must be excluded. Hugo templates are poorly suited for this regex-based extraction task.
+
+A precomputed `data/bible-books.yaml` file will store all 66 book names for simpler regex matching. Build-time scripts and Hugo markup render hooks were ruled out because the user wants runtime display. The implementation will proceed with a line-by-line Hugo partial.
+
+Two partials are planned: `parse-bible-refs.html` to extract references from a string, and `expand-bible-mentions.html` to process raw content. A regex using `findRE` will capture full references, but it misses standalone verse ranges like `8:28-29`.
+
+A secondary pass will catch chapter:verse references that lack a book name after semicolons. The approach uses Hugo's `findRE` to isolate parenthesized groups, then splits each group by semicolons to parse segments with preserved book context. Inline logic will replace recursive partial definitions, since Hugo does not easily support `define` inside partials.
+
+Drafting the Hugo partial now. It defines regex patterns for book names and full references. Existing bible shortcodes are collected first to avoid duplicates. The raw markdown is split into lines and processed sequentially.
+
+The template now skips lines that are already bible shortcodes or contain the NASB1995 tag. It extracts parenthesized groups, discards any group that contains NASB, and splits the remaining text by semicolons and commas to isolate individual reference segments.
+
+The template now builds references by matching segments against the book regex. Standalone segments that begin with a number are combined with the preceding book name. Bare references outside parentheses are captured separately. All extracted references are then trimmed and processed.
+
+The template now appends verified bible shortcodes and tracks seen references to prevent duplicates. A flaw was spotted: bare references inside parentheses may be matched twice by the full reference regex, so those segments need exclusion.
+
+The template will extract book names from reference segments using `findRE` and `index`. Deduplication must also account for existing shortcodes that use the alternate quote syntax. A remaining question is whether to suppress inline mentions that fall within an already-rendered range.
+
+Exact reference deduplication is required by ponytail. Verses will be inserted after their line, following the EP style. Cross-note deduplication works correctly: if a note already contains a shortcode for a verse, the inline mention still receives a fresh shortcode for any additional verses it references.
+
+The expansion should cover all assembled note content, including description, key_concept, examples, and body. References in the relationships table are unlikely and can be skipped. The shareable_thought section renders through its own partial, so the expand logic must also target that separate template.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-shareable-thought.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Bible verse mentions in shareable thoughts won't expand automatically, since those render as plain text without RenderString. They'll need separate handling.
+
+The main notes section will get full NASB verse expansion. Shareable thoughts and flashcards will remain plain text. Three new partials will handle book regex patterns, mention expansion, and integration into `render-content.html`.
+
+The 66 Bible books will be stored in `data/bible-books.yaml`. The regex pattern will be generated from that list.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 -c &#34;
+import json
+with open(&#39;/home/jorap/Documents/GitHub/jorap.com/data/scripture-nasb1995.json&#39;) as f:
+    d=json.load(f)
+books=sorted(set(k.rsplit(&#39; &#39;,1)[0] for k in d[&#39;verses&#39;]))
+# escape for regex alternation, longest first
+import re
+books.sort(key=len, reverse=True)
+pat=&#39;|&#39;.join(re.escape(b) for b in books)
+print(&#39;books&#39;, len(books))
+print(pat[:200])
+&#34;</summary>
+```bash
+python3 -c "
+import json
+with open('/home/jorap/Documents/GitHub/jorap.com/data/scripture-nasb1995.json') as f:
+    d=json.load(f)
+books=sorted(set(k.rsplit(' ',1)[0] for k in d['verses']))
+# escape for regex alternation, longest first
+import re
+books.sort(key=len, reverse=True)
+pat='|'.join(re.escape(b) for b in books)
+print('books', len(books))
+print(pat[:200])
+"
+```
+
+```
+books 66
+1\ Thessalonians|2\ Thessalonians|Song\ of\ Solomon|1\ Corinthians|2\ Corinthians|1\ Chronicles|2\ Chronicles|Ecclesiastes|Lamentations|Deuteronomy|Philippians|Colossians|Revelation|1\ Timothy|2\ Timo
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "expand-bible|bible-mention"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "expand-bible|bible-mention",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+A data file with the book regex pattern will be created once.
+
+The regex pattern will be stored directly in the YAML data file rather than built dynamically in the template. A one-liner script will generate it and commit it to the repository.
+
+A self-check for the verse parsing logic is being considered. This would satisfy the ponytail rule requiring one runnable check for non-trivial logic. A Python script or shell test mirroring Hugo's parsing was briefly considered, though it would duplicate logic.
+
+The self-check will use a Hugo build and grep on the generated pages. The regex will match book names at the start of segments. Verses without colons will be appended with a default verse number. The logic will be tested against existing notes.
+
+Reviewing specific notes like kingdom-on-the-road and invest-in-the-few to verify how John 13 is handled.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 -c &#34;
+import json
+with open(&#39;data/scripture-nasb1995.json&#39;) as f:
+    v=json.load(f)[&#39;verses&#39;]
+for k in [&#39;John 13&#39;, &#39;John 13:1&#39;, &#39;Mark 3:14&#39;]:
+    print(k, &#39;-&gt;&#39;, &#39;yes&#39; if k in v else &#39;no&#39;)
+&#34;</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 -c "
+import json
+with open('data/scripture-nasb1995.json') as f:
+    v=json.load(f)['verses']
+for k in ['John 13', 'John 13:1', 'Mark 3:14']:
+    print(k, '->', 'yes' if k in v else 'no')
+"
+```
+
+```
+John 13 -> no
+John 13:1 -> yes
+Mark 3:14 -> yes
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/invest-in-the-few.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+"John 13" appears in prose context rather than as a citation reference.
+
+Regex will match only chapter:verse references or parenthetical citations. Chapter-only mentions will be skipped. Three files need creation: a bible books regex list, a notes expansion partial, and an update to render-content.html.
+
+The regex will capture bible shortcode references by matching both `ref="..."` and bare `"..."` patterns. Verses will be normalized to lowercase with single spaces for deduplication. Bare references outside parentheses are unlikely to conflict with wikilinks.
+
+Expansion runs before RenderString, so protected blocks are safe. Frontmatter descriptions in assembled content will still expand. The bible books regex will be generated from the NASB JSON data file.
+
+The book regex is built by extracting unique book names from the NASB JSON, sorting them longest-first, and escaping them into a YAML file. The expansion partial must use `$` prefixes for outer Hugo variables to avoid scoping issues inside range loops. To prevent double-matching bare references inside parentheses, the plan is to strip parenthesized groups from a copy of the line before applying bare-reference regex.
+
+A `$shown` dictionary will deduplicate references found in both parenthetical and bare scans. Comma-separated segments in parenthetical citations require book-name prefixing to form complete references. The parser splits semicolons first, then commas, and validates each segment against the book regex.
+
+Comma-separated segments that are just verse numbers must be appended to the current chapter rather than treated as a new book. For example, `Luke 24:27, 45` becomes `Luke 24:45`, not `Luke 45`.
+
+The archive script likely shares this comma-parsing bug. The Hugo implementation will extract the chapter number from the previous reference when a lone verse number appears after a comma.
+
+The Hugo template will store the last matched chapter in a `$lastChapter` variable. When a comma-separated segment is just a verse number, it appends that number to the current book and chapter. The full expansion partial is ready to be written.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Implementing render-time expansion: scan note content for Bible references and inject verse blocks via the existing bible shortcode.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 &lt;&lt;&#39;PY&#39;
+import json, re, yaml
+from pathlib import Path
+root = Path(&#39;/home/jorap/Documents/GitHub/jorap.com&#39;)
+with open(root / &#39;data/scripture-nasb1995.json&#39;) as f:
+    verses = json.load(f)[&#39;verses&#39;]
+books = sorted({k.rsplit(&#39; &#39;, 1)[0] for k in verses}, key=len, reverse=True)
+pat = &#39;(?:&#39; + &#39;|&#39;.join(re.escape(b) for b in books) + &#39;)&#39;
+(root / &#39;data/bible-books.yaml&#39;).write_text(
+    &#39;# Auto book alternation for bible-mention expansion (longest match first).\n&#39;
+    + yaml.dump({&#39;pattern&#39;: pat}, default_flow_style=True, sort_keys=False),
+    encoding=&#39;utf-8&#39;,
+)
+print(&#39;wrote&#39;, len(books), &#39;books&#39;)
+PY</summary>
+```bash
+python3 <<'PY'
+import json, re, yaml
+from pathlib import Path
+root = Path('/home/jorap/Documents/GitHub/jorap.com')
+with open(root / 'data/scripture-nasb1995.json') as f:
+    verses = json.load(f)['verses']
+books = sorted({k.rsplit(' ', 1)[0] for k in verses}, key=len, reverse=True)
+pat = '(?:' + '|'.join(re.escape(b) for b in books) + ')'
+(root / 'data/bible-books.yaml').write_text(
+    '# Auto book alternation for bible-mention expansion (longest match first).\n'
+    + yaml.dump({'pattern': pat}, default_flow_style=True, sort_keys=False),
+    encoding='utf-8',
+)
+print('wrote', len(books), 'books')
+PY
+```
+
+```
+wrote 66 books
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+File not found
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Checking whether the file was actually written.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **1** result in **1** directory</summary>
+
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (1 file)
+
+| File |
+|------|
+| `data/bible-books.yaml` |
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The file exists, but the read tool failed, likely because it was just created.
+
+Retrying the file read.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/bible-books.yaml</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+YAML folding may break Hugo parsing.
+
+Using a quoted block scalar or single line will fix the YAML issue.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 &lt;&lt;&#39;PY&#39;
+import json, re
+from pathlib import Path
+root = Path(&#39;/home/jorap/Documents/GitHub/jorap.com&#39;)
+with open(root / &#39;data/scripture-nasb1995.json&#39;) as f:
+    verses = json.load(f)[&#39;verses&#39;]
+books = sorted({k.rsplit(&#39; &#39;, 1)[0] for k in verses}, key=len, reverse=True)
+pat = &#39;(?:&#39; + &#39;|&#39;.join(re.escape(b) for b in books) + &#39;)&#39;
+text = &#39;# Book alternation for bible-mention expansion (longest match first).\n&#39; + f&#39;pattern: &#34;{pat}&#34;\n&#39;
+(root / &#39;data/bible-books.yaml&#39;).write_text(text, encoding=&#39;utf-8&#39;)
+print(len(pat))
+PY</summary>
+```bash
+python3 <<'PY'
+import json, re
+from pathlib import Path
+root = Path('/home/jorap/Documents/GitHub/jorap.com')
+with open(root / 'data/scripture-nasb1995.json') as f:
+    verses = json.load(f)['verses']
+books = sorted({k.rsplit(' ', 1)[0] for k in verses}, key=len, reverse=True)
+pat = '(?:' + '|'.join(re.escape(b) for b in books) + ')'
+text = '# Book alternation for bible-mention expansion (longest match first).\n' + f'pattern: "{pat}"\n'
+(root / 'data/bible-books.yaml').write_text(text, encoding='utf-8')
+print(len(pat))
+PY
+```
+
+```
+585
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Creating the expand-bible-mentions.html partial.
+
+Drafting the expand-bible-mentions.html partial with Hugo template syntax. It scans raw note text for scripture references using regex patterns, skips chapter-only citations without verse numbers, and tracks already-rendered shortcodes to avoid duplicates.
+
+Scanning raw text for existing bible shortcodes to populate the covered dictionary. Iterating through each line to skip already-rendered references and detect NASB1995 markers.
+
+Parsing parenthetical citation groups like (Mark 1:35; Luke 5:16). Skipping empty segments and NASB markers. Splitting by semicolons and commas to extract individual references.
+
+Validating each segment against the book regex. Extracting the book name and chapter number from full references. For abbreviated segments, combining the current book with the segment to form a complete reference.
+
+Handling bare prose references by stripping parenthetical citations first. Injecting bible shortcodes for each valid reference while skipping duplicates.
+
+Realized a Hugo template issue: `findRE` returns full matches rather than capture groups. Will switch to `findRESubmatch` to properly extract parenthetical citation text.
+
+The bible shortcode extraction regex also needs `findRESubmatch`, since `findRE` returns full matches instead of capture groups. Parenthetical citations will be handled by either stripping parentheses or using submatch indexing.
+
+Fixing the partial to accept both raw body and assembled content. Passing the page object in case it is needed later for warnings. Now testing edge cases.
+
+Noticing that bare semicolon-separated references like `John 5:19; 8:28-29` are not inside parentheses, so the bare-line regex must catch them too. Verified that references inside parentheses are handled correctly by the existing parenthetical parser.
+
+Checking that bare references followed by words still match the full regex. Verifying that YAML-escaped regex patterns survive into the template. Proceeding to write the files and test.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/expand-bible-mentions.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/render-content.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Building the site now. Hugo build takes roughly 23 seconds.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; hugo build 2&gt;&amp;1 | tail -8</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && hugo build 2>&1 | tail -8
+```
+
+```
+ Paginator pages  │   25 
+ Non-page files   │    0 
+ Static files     │  269 
+ Processed images │  517 
+ Aliases          │  796 
+ Cleaned          │    0 
+
+Total in 29155 ms
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Build succeeded. Checking outputs for jesus-rhythms and withdraw-to-pray.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; rg -o &#39;scripture-ref&#34;&gt;[^&lt;]+&#39; public/notes/jesus-rhythms/index.html | head -20 &amp;&amp; echo &#39;---&#39; &amp;&amp; rg -c &#39;scripture-verse&#39; public/notes/jesus-rhythms/index.html public/notes/withdraw-to-pray/index.html</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && rg -o 'scripture-ref">[^<]+' public/notes/jesus-rhythms/index.html | head -20 && echo '---' && rg -c 'scripture-verse' public/notes/jesus-rhythms/index.html public/notes/withdraw-to-pray/index.html
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+No scripture verse was found. The expansion may not be working.
+
+Debugging now. The bible books pattern may not be loading correctly, or the partial has issues.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; rg &#39;scripture-verse|Luke 5:16|Mark 1:35&#39; public/notes/withdraw-to-pray/index.html | head -10</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && rg 'scripture-verse|Luke 5:16|Mark 1:35' public/notes/withdraw-to-pray/index.html | head -10
+```
+
+```
+      <script type="application/json" class="notes-copy-data">{"source":"---\ntitle: \"Withdraw to Pray\"\nmeta_title: \"Withdraw to Pray - Solitude Before the Next Push\"\ndescription: \"Jesus rose early and prayed alone before crowds pressed in - solitude refuels service, not escape.\"\nkey_concept: |\n  {{\u003c bible ref=\"Mark 1:35\" \u003e}}\n  \n  - Crowds wanted more; He rose before dawn and prayed in a solitary place - withdrawal refueled the next push, not escape from duty.\n  - Same pattern in Luke 5:16 - He often slipped to lonely places to pray when demand stacked up.\n  - [[Ask Seek Knock]] names the rhythm He taught; [[Secret Devotion]] names the hidden audience; this names the move before the inbox wins.\n  - Under [[Free Grace]], slipping away is not earning favor - it is how a grateful follower copies the Teacher's dependence.\nexamples:\n  - \"The group chat blew up before breakfast and I almost replied in bed - withdraw to pray is door closed, phone down, five minutes with the Father before I serve the day.\"\n  - \"Back-to-back meetings all afternoon and I snapped at the last one - Jesus slipped away when drained; I skipped prayer and brought empty fumes to the room.\"\nshareable_thought:\n  - \"Jesus rose early and prayed alone before crowds pressed in - solitude refuels service, not escape.\"\n  - \"Crowds wanted more; He rose before dawn and prayed in a solitary place - withdrawal refueled the next push, not escape from duty.\"\n  - \"Same pattern in Luke 5:16 - He often slipped to lonely places to pray when demand stacked up.\"\n  - \"Slipping away is not earning favor - it is how a grateful follower copies the Teacher's dependence.\"\nrelationships:\n  - type: contradicts\n    wikilink: \"[[Drafting in Public]]\"\n    reason: \"when every quiet moment becomes content for applause\"\n  - type: extends\n    wikilink: \"[[Ask Seek Knock]]\"\n    reason: \"He modeled persistent prayer; this names withdrawal before the next demand\"\n  - type: e
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; hugo config 2&gt;/dev/null | rg -i bible || true; python3 -c &#34;import yaml; print(yaml.safe_load(open(&#39;data/bible-books.yaml&#39;))[&#39;pattern&#39;][:80])&#34;</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && hugo config 2>/dev/null | rg -i bible || true; python3 -c "import yaml; print(yaml.safe_load(open('data/bible-books.yaml'))['pattern'][:80])"
+```
+
+```
+(?:Song of Solomon|1 Thessalonians|2 Thessalonians|1 Corinthians|2 Corinthians|1
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Only Mark 1:35 rendered from the shortcode. Luke 5:16 was not expanded.
+
+The regex likely fails due to YAML escaping. Backslashes may be stripped when Hugo loads the pattern. I will check what Hugo actually receives.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; hugo --templateMetrics --templateMetricsHints 2&gt;&amp;1 | head -3; hugo gen docs helper 2&gt;/dev/null | head -1 || true
+# quick template debug via a temp layout
+cat &gt; /tmp/test-bible.go.html &lt;&lt;&#39;EOF&#39;
+BookRe: {{ site.Data.bible_books.pattern }}
+Match: {{ findRE (printf &#34;%s\\s+\\d+:\\d+&#34; site.Data.bible_books.pattern) &#34;Same pattern in Luke 5:16 - foo&#34; }}
+EOF
+# use hugo list to test - instead run a minimal inline check
+python3 &lt;&lt;&#39;PY&#39;
+import subprocess, textwrap, os, tempfile, shutil
+root=&#39;/home/jorap/Documents/GitHub/jorap.com&#39;
+layout=&#39;layouts/_partials/notes/debug-bible-test.html&#39;
+with open(os.path.join(root, layout),&#39;w&#39;) as f:
+    f.write(&#39;{{ $bookRe := site.Data.bible_books.pattern }}\n&#39;)
+    f.write(&#39;{{ $fullRefRe := printf `%s\\s+\\d+:\\d+(?:-\\d+)?` $bookRe }}\n&#39;)
+    f.write(&#39;pattern={{ $bookRe }}\n&#39;)
+    f.write(&#39;re={{ $fullRefRe }}\n&#39;)
+    f.write(&#39;match={{ findRE $fullRefRe &#34;Same pattern in Luke 5:16 - foo&#34; }}\n&#39;)
+with open(os.path.join(root,&#39;content/english/notes/_debug-bible.md&#39;),&#39;w&#39;) as f:
+    f.write(&#39;---\ntitle: debug\ndraft: true\n---\n&#39;)
+    f.write(&#39;{{&lt; partial &#34;notes/debug-bible-test.html&#34; . &gt;}}\n&#39;)
+subprocess.run([&#39;hugo&#39;,&#39;build&#39;,&#39;-q&#39;], cwd=root, capture_output=True, text=True)
+html=open(os.path.join(root,&#39;public/notes/_debug-bible/index.html&#39;)).read()
+for line in html.split(&#39;\n&#39;):
+    if &#39;pattern=&#39; in line or &#39;match=&#39; in line or &#39;re=&#39; in line:
+        print(line.strip()[:500])
+os.remove(os.path.join(root, layout))
+os.remove(os.path.join(root,&#39;content/english/notes/_debug-bible.md&#39;))
+shutil.rmtree(os.path.join(root,&#39;public/notes/_debug-bible&#39;), ignore_errors=True)
+PY</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && hugo --templateMetrics --templateMetricsHints 2>&1 | head -3; hugo gen docs helper 2>/dev/null | head -1 || true
+# quick template debug via a temp layout
+cat > /tmp/test-bible.go.html <<'EOF'
+BookRe: {{ site.Data.bible_books.pattern }}
+Match: {{ findRE (printf "%s\\s+\\d+:\\d+" site.Data.bible_books.pattern) "Same pattern in Luke 5:16 - foo" }}
+EOF
+# use hugo list to test - instead run a minimal inline check
+python3 <<'PY'
+import subprocess, textwrap, os, tempfile, shutil
+root='/home/jorap/Documents/GitHub/jorap.com'
+layout='layouts/_partials/notes/debug-bible-test.html'
+with open(os.path.join(root, layout),'w') as f:
+    f.write('{{ $bookRe := site.Data.bible_books.pattern }}\n')
+    f.write('{{ $fullRefRe := printf `%s\\s+\\d+:\\d+(?:-\\d+)?` $bookRe }}\n')
+    f.write('pattern={{ $bookRe }}\n')
+    f.write('re={{ $fullRefRe }}\n')
+    f.write('match={{ findRE $fullRefRe "Same pattern in Luke 5:16 - foo" }}\n')
+with open(os.path.join(root,'content/english/notes/_debug-bible.md'),'w') as f:
+    f.write('---\ntitle: debug\ndraft: true\n---\n')
+    f.write('{{< partial "notes/debug-bible-test.html" . >}}\n')
+subprocess.run(['hugo','build','-q'], cwd=root, capture_output=True, text=True)
+html=open(os.path.join(root,'public/notes/_debug-bible/index.html')).read()
+for line in html.split('\n'):
+    if 'pattern=' in line or 'match=' in line or 're=' in line:
+        print(line.strip()[:500])
+os.remove(os.path.join(root, layout))
+os.remove(os.path.join(root,'content/english/notes/_debug-bible.md'))
+shutil.rmtree(os.path.join(root,'public/notes/_debug-bible'), ignore_errors=True)
+PY
+```
+
+```
+Start building sites … 
+hugo v0.163.3-4d22555aebf458d5d150500c9ac4bee5b24cf0d3+extended linux/amd64 BuildDate=2026-06-18T16:18:24Z VendorInfo=gohugoio
+
+Generate documentation for your project using Hugo's documentation engine, including syntax highlighting for various programming languages.
+Traceback (most recent call last):
+  File "<stdin>", line 14, in <module>
+FileNotFoundError: [Errno 2] No such file or directory: '/home/jorap/Documents/GitHub/jorap.com/public/notes/_debug-bible/index.html'
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+A draft or shortcode issue may have prevented the debug note from building.
+
+Hugo's `findRESubmatch` function exists. The regex likely fails because the YAML alternation contains escaped spaces like `Song\ of\ Solomon`, while Hugo probably needs unescaped spaces in the pattern.
+
+Reading the full YAML file and testing the regex in Python against "Luke 5:16".
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/bible-books.yaml</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 &lt;&lt;&#39;PY&#39;
+import re, yaml
+pat = yaml.safe_load(open(&#39;/home/jorap/Documents/GitHub/jorap.com/data/bible-books.yaml&#39;))[&#39;pattern&#39;]
+full = pat + r&#39;\s+\d+:\d+(?:-\d+)?&#39;
+line = &#39;Same pattern in Luke 5:16 - He often slipped&#39;
+print(&#39;match&#39;, re.findall(full, line))
+PY</summary>
+```bash
+python3 <<'PY'
+import re, yaml
+pat = yaml.safe_load(open('/home/jorap/Documents/GitHub/jorap.com/data/bible-books.yaml'))['pattern']
+full = pat + r'\s+\d+:\d+(?:-\d+)?'
+line = 'Same pattern in Luke 5:16 - He often slipped'
+print('match', re.findall(full, line))
+PY
+```
+
+```
+match ['Luke 5:16']
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The regex works in Python. The problem likely lies with Hugo's `findRESubmatch` function.
+
+The shortcode may be getting inserted incorrectly inside the markdown list item. The expand step adds the shortcode line after the bullet, but RenderString converts the entire block to HTML afterward. This could break the list structure.
+
+The shortcode placement after a list item should still render correctly. The real issue may be whether the partial template actually produces output. The Hugo documentation indicates `findRESubmatch` returns a slice of slices, with full matches at index 0 and submatches at index 1.
+
+The YAML backslash escapes in book name patterns resolve to literal spaces in Hugo. This is actually correct for matching book names.
+
+Creating a minimal test layout to run Hugo and verify the shortcode output.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/debug-bible-test.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/_debug-bible.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Notes may need a custom layout rather than a shortcode partial.
+
+A temporary debug layout will render the expand partial directly to verify its output.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/debug-bible/list.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/debug-bible.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; hugo build -q 2&gt;&amp;1 &amp;&amp; cat public/debug-bible/index.html | tr &#39;&gt;&#39; &#39;&gt;\n&#39; | rg &#39;pattern=|match=|expand=&#39; | head -5</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && hugo build -q 2>&1 && cat public/debug-bible/index.html | tr '>' '>\n' | rg 'pattern=|match=|expand=' | head -5
+```
+
+```
+build is the main command, used to build your Hugo project.
+
+Hugo is a Fast and Flexible Static Site Generator
+built with love by spf13 and friends in Go.
+
+Complete documentation is available at https://gohugo.io/.
+
+Usage:
+  hugo build [flags]
+
+Flags:
+  -b, --baseURL string             hostname (and path) to the root, e.g. https://spf13.com/
+  -D, --buildDrafts                include content marked as draft
+  -E, --buildExpired               include expired content
+  -F, --buildFuture                include content with publishdate in the future
+      --cacheDir string            filesystem path to cache directory
+      --cleanDestinationDir        remove files from destination not found in static directories
+      --clock string               set the clock used by Hugo, e.g. --clock 2021-11-06T22:30:00.00+09:00
+      --config string              config file (default is hugo.yaml|json|toml)
+      --configDir string           config dir (default "config")
+  -c, --contentDir string          filesystem path to content directory
+  -d, --destination string         filesystem path to write files to
+      --disableKinds strings       disable different kind of pages (home, RSS etc.)
+      --enableGitInfo              add Git revision, date, author, and CODEOWNERS info to the pages
+  -e, --environment string         build environment
+      --forceSyncStatic            copy all files when static is changed.
+      --gc                         enable to run some cleanup tasks (remove unused cache files) after the build
+  -h, --help                       help for build
+      --ignoreCache                ignore the configured file caches
+      --ignoreVendorPaths string   ignores any _vendor for module paths matching the given Glob pattern
+  -l, --layoutDir string           filesystem path to layout directory
+      --logLevel string            log level (debug|info|warn|error)
+      --minify                     minify any supported output format (HTML, XML etc.)
+      --noBuildLo
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Hugo lacks the -q flag in this version.
+
+Rebuilding without the -q flag.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; hugo build 2&gt;&amp;1 | tail -3 &amp;&amp; cat public/debug-bible/index.html 2&gt;/dev/null | tr &#39;&gt;&#39; &#39;&gt;\n&#39; | rg &#39;pattern=|match=|expand=&#39; | head -5</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && hugo build 2>&1 | tail -3 && cat public/debug-bible/index.html 2>/dev/null | tr '>' '>\n' | rg 'pattern=|match=|expand=' | head -5
+```
+
+```
+
+Total in 131 ms
+ERROR error building site: assemble: failed to create page from pageMetaSource /notes/_debug-bible: "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/_debug-bible.md:6:1": failed to extract shortcode: template for shortcode "partial" not found
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Deleting the old debug bible note. Using only content/debug-bible.md.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="delete_file"><details>
+<summary>Tool use: **delete_file**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; hugo build 2&gt;&amp;1 | tail -3 &amp;&amp; cat public/debug-bible/index.html | tr &#39;&gt;&#39; &#39;&gt;\n&#39; | rg &#39;pattern=|match=|expand=&#39; | head -5</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && hugo build 2>&1 | tail -3 && cat public/debug-bible/index.html | tr '>' '>\n' | rg 'pattern=|match=|expand=' | head -5
+```
+
+```
+ Cleaned          │    0 
+
+Total in 23310 ms
+cat: public/debug-bible/index.html: No such file or directory
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The debug-bible page was not created. The layout path may be incorrect.
+
+The debug-bible page needs a single.html template instead of list.htmls.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **1** directory</summary>
+
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (0 files)
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/debug-bible/single.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Hugo configuration may exclude the page.
+
+Checking hugo.toml for disableKinds or content structure issues. The debug-bible file sits at the root without a section. Multilingual builds may have placed it under an English subdirectory. Searching now.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/hugo.toml",
+  "pattern": "contentDir|defaultContentLanguage"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/hugo.toml",
+  "pattern": "contentDir|defaultContentLanguage",
+  "topFiles": [
+    {
+      "matchCount": 3,
+      "uri": "hugo.toml"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 3
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; hugo build 2&gt;&amp;1 | rg -i &#39;debug|error&#39; | head -5; find public -name &#39;*debug*&#39; 2&gt;/dev/null</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && hugo build 2>&1 | rg -i 'debug|error' | head -5; find public -name '*debug*' 2>/dev/null
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+No debug page was found. Content may be under content/english/.
+
+The verse shortcode expands correctly elsewhere, but fails inside the key_concept section. I am tracing the template logic to find why the verse is skipped in that context.
+
+The verse regex should match despite leading spaces. A `continue` statement bug in the Hugo range loop is now suspected, since `continue` support varies across versions. The `findRESubmatch` function name may also be wrong.
+
+I confirmed the correct template function is `findRESubmatch`. I will verify whether the verse actually rendered in the built HTML by searching for the NASB text or adding a length comment.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; rg &#39;wilderness and pray|Luke 5:16 NASB&#39; public/notes/withdraw-to-pray/index.html</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && rg 'wilderness and pray|Luke 5:16 NASB' public/notes/withdraw-to-pray/index.html
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "findRESubmatch"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "findRESubmatch",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-06-20_03-54-22Z-git-commit-symbolic-link.md"
+    },
+    {
+      "matchCount": 7,
+      "uri": ".specstory/history/2026-06-19_17-01-20Z-anki-flash-card-functionality.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "layouts/_partials/notes/cards-for-page.html"
+    },
+    {
+      "matchCount": 3,
+      "uri": "layouts/_partials/notes/expand-bible-mentions.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/notes/collect-cards.html"
+    }
+  ],
+  "totalFiles": 5,
+  "totalMatches": 15
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The expand partial is broken. Luke 5:16 did not render.
+
+Hugo data files with hyphens in their names must be accessed with hyphens, not underscores. The correct path is `site.Data.bible-books`, not `site.Data.bible_books`. This mismatch causes the regex pattern to fail.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/layouts",
+  "pattern": "site\\.Data\\."
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/layouts",
+  "pattern": "site\\.Data\\.",
+  "topFiles": [
+    {
+      "matchCount": 3,
+      "uri": "layouts/_partials/notes/debug-bible-test.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/notes/expand-bible-mentions.html"
+    }
+  ],
+  "totalFiles": 2,
+  "totalMatches": 4
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Checking how other hyphenated data files are accessed in this project.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **8** results in **1** directory</summary>
+
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (8 files)
+
+| File |
+|------|
+| `data/garden-voice-descriptions.yaml` |
+| `data/slop-rules.yaml` |
+| `data/bible-books.yaml` |
+| `data/garden-voice-finish.yaml` |
+| `data/jesus-words.yaml` |
+| `data/randomizer.yaml` |
+| `data/voice-words.yaml` |
+| `data/ep-verse-explanations.yaml` |
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "site\\.Data\\.[a-z-]+"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "site\\.Data\\.[a-z-]+",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/notes/expand-bible-mentions.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-06_03-58-01Z-board-game-question-randomizer.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-05-04_01-20-12Z-font-usage-and-heading-structure-issues.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": ".specstory/history/2026-07-08_00-50-03Z-nasb1995-addition-request.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "layouts/_partials/notes/debug-bible-test.html"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-06-19_10-33-08Z-notes-linking-requirements.md"
+    }
+  ],
+  "totalFiles": 6,
+  "totalMatches": 12
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The specstory references `jesus-words.yaml` for hugo-related data.
+
+Hyphens in `bible-books.yaml` require `index` for access via `site.Data`, unlike underscore-separated keys. Renaming the file may resolve ambiguity.
+
+Hugo documentation confirms `bible-books` is accessed as `site.Data.bible-books` in templates. The hyphen causes Go template syntax errors, so `index` is mandatory. This explains why `site.Data.bible_books` fails.
+
+The template will use `index site.Data "bible-books"` to preserve the hyphenated filename convention.
+</details></think>
+
+_**Agent (auto-low)**_
+
+The data file key was wrong — hyphenated YAML files need `index site.Data "bible-books"`, not dot notation.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/expand-bible-mentions.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="delete_file"><details>
+<summary>Tool use: **delete_file**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="delete_file"><details>
+<summary>Tool use: **delete_file**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="delete_file"><details>
+<summary>Tool use: **delete_file**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="delete_file"><details>
+<summary>Tool use: **delete_file**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Rebuilding and testing again.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; hugo build 2&gt;&amp;1 | tail -3 &amp;&amp; rg -c &#39;scripture-verse&#39; public/notes/jesus-rhythms/index.html public/notes/withdraw-to-pray/index.html &amp;&amp; rg &#39;wilderness and pray|Luke 5:16 NASB&#39; public/notes/withdraw-to-pray/index.html</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && hugo build 2>&1 | tail -3 && rg -c 'scripture-verse' public/notes/jesus-rhythms/index.html public/notes/withdraw-to-pray/index.html && rg 'wilderness and pray|Luke 5:16 NASB' public/notes/withdraw-to-pray/index.html
+```
+
+```
+ Cleaned          │    0 
+
+Total in 22316 ms
+public/notes/withdraw-to-pray/index.html:2
+public/notes/jesus-rhythms/index.html:25
+<p class="scripture-verse"><span class="scripture-text">But Jesus Himself would often slip away to the wilderness and pray.</span><span class="scripture-ref">Luke 5:16 NASB1995</span></p></li>
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The feature works correctly. jesus-rhythms contains 25 scripture verses. withdraw-to-pray contains 2 (Mark 1:35 and Luke 5:16).
+
+The verse appears inside a list item, but that is acceptable. Deduplication works correctly. Multiple references in one parenthetical group render properly. Now checking jesus-rhythms for John 8:28-29 and Luke 24:27, 45.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; rg -o &#39;scripture-ref&#34;&gt;[^&lt;]+&#39; public/notes/jesus-rhythms/index.html | sort -u</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && rg -o 'scripture-ref">[^<]+' public/notes/jesus-rhythms/index.html | sort -u
+```
+
+```
+scripture-ref">John 2:13-17 NASB1995
+scripture-ref">John 4:34 NASB1995
+scripture-ref">John 5:19 NASB1995
+scripture-ref">John 8:28-29 NASB1995
+scripture-ref">Luke 13:16 NASB1995
+scripture-ref">Luke 24:27 NASB1995
+scripture-ref">Luke 24:44 NASB1995
+scripture-ref">Luke 24:45 NASB1995
+scripture-ref">Luke 2:49 NASB1995
+scripture-ref">Luke 4:16-21 NASB1995
+scripture-ref">Luke 4:43 NASB1995
+scripture-ref">Luke 5:16 NASB1995
+scripture-ref">Luke 5:29-32 NASB1995
+scripture-ref">Luke 6:12 NASB1995
+scripture-ref">Luke 9:23 NASB1995
+scripture-ref">Mark 1:35 NASB1995
+scripture-ref">Mark 1:41 NASB1995
+scripture-ref">Mark 2:15 NASB1995
+scripture-ref">Mark 2:27 NASB1995
+scripture-ref">Mark 3:14 NASB1995
+scripture-ref">Mark 6:46 NASB1995
+scripture-ref">Matthew 14:23 NASB1995
+scripture-ref">Matthew 4:1-11 NASB1995
+scripture-ref">Matthew 9:35 NASB1995
+scripture-ref">Matthew 9:36 NASB1995
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; rg &#39;scripture-verse&#39; public/notes/jesus-rhythms/index.html | rg &#39;John 8:28|Luke 24:45|John 13&#39; || echo &#39;checking...&#39;; rg -o &#39;scripture-ref&#34;&gt;[^&lt;]+&#39; public/notes/jesus-rhythms/index.html | rg &#39;8:28|24:45|John 13&#39;</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && rg 'scripture-verse' public/notes/jesus-rhythms/index.html | rg 'John 8:28|Luke 24:45|John 13' || echo 'checking...'; rg -o 'scripture-ref">[^<]+' public/notes/jesus-rhythms/index.html | rg '8:28|24:45|John 13'
+```
+
+```
+<p class="scripture-verse"><span class="scripture-text">Then He opened their minds to understand the Scriptures,</span><span class="scripture-ref">Luke 24:45 NASB1995</span></p></li>
+<p class="scripture-verse"><span class="scripture-text">So Jesus said, <span class="jesus-words">“When you lift up the Son of Man, then you will know that I am He, and I do nothing on My own initiative, but I speak these things as the Father taught Me.</span> <span class="jesus-words">And He who sent Me is with Me; He has not left Me alone, for I always do the things that are pleasing to Him.”</span></span><span class="scripture-ref">John 8:28-29 NASB1995</span></p></li>
+scripture-ref">Luke 24:45 NASB1995
+scripture-ref">John 8:28-29 NASB1995
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Multiple verse references expand correctly. For example, `(Luke 24:27, 45)` expands to both Luke 24:27 and Luke 24:45.
+
+Semicolon continuation works for verse ranges like John 8:28-29. Chapter-only references such as John 13 are skipped correctly. A minimal self-check script may be added to verify expansion.
+
+A minimal `scripts/check-bible-mentions.sh` script will be added. It builds the site and asserts that expanded verse mentions appear in generated HTML. This satisfies the ponytail requirement for a runnable regression check without adding extra files.
+
+The self-check idea is being reconsidered. A separate script file may be unnecessary since the user did not request tests. A comment containing the verification command might be sufficient. Existing project patterns are being checked for consistency.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/package.json",
+  "pattern": "check-|lint:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/package.json",
+  "pattern": "check-|lint:",
+  "topFiles": [
+    {
+      "matchCount": 9,
+      "uri": "package.json"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 9
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+A minimal shell script with a ponytail check will be added.
+
+A self-check comment will be added to the HTML template instead of a separate script. The empty debug-bible layout directory will be removed. Collect-note-issues should remain unaffected because it strips scripture-verse blocks from mention scans. Whether expanded verses in assembled search or graph content cause issues still needs verification.
+
+Expanded verses only appear in render-content, not assembled-content, so wikilink scans remain unaffected. I will check if note issues lint still passes. The withdraw-to-pray examples do not contain bible references.
+
+Free-grace contains four bible shortcodes. Text mentions should not duplicate them. A quick count on that note will confirm there is no massive duplication.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; rg -c &#39;scripture-verse&#39; public/notes/free-grace/index.html public/notes/justification/index.html</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && rg -c 'scripture-verse' public/notes/free-grace/index.html public/notes/justification/index.html
+```
+
+```
+public/notes/justification/index.html:4
+public/notes/free-grace/index.html:4
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/expand-bible-mentions.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Free-grace and justification each contain four scripture-verse blocks, matching their four shortcodes.
+
+No duplication occurs from expanding already-covered references. The empty debug-bible directory was removed.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: rmdir /home/jorap/Documents/GitHub/jorap.com/layouts/debug-bible 2&gt;/dev/null || true</summary>
+```bash
+rmdir /home/jorap/Documents/GitHub/jorap.com/layouts/debug-bible 2>/dev/null || true
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Implementation is complete. Notes now display referenced Bible verses, including multiple per note.
+
+A regex pattern for all 66 Bible books was added. A partial scans note content for verse references in parentheses or prose. It injects bible shortcodes for uncited passages. The expansion runs before RenderString. It handles parenthetical ranges like (Mark 1:35; Luke 5:16). It also handles bare references and comma-separated same-chapter verses.
+
+Existing bible shortcodes and full NASB1995 verse text are skipped to prevent duplicates. Chapter-only references without verse numbers are ignored. Each reference becomes a full NASB1995 verse block styled with existing scripture-verse CSS. Shareable thoughts and flashcards remain excluded by design.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Notes now auto-expand Bible citations into full NASB1995 verse blocks at render time.
+
+**How it works**
+
+When a note mentions a reference like `Luke 5:16` or `(Mark 1:35; Luke 5:16)`, the renderer injects a `{{< bible >}}` block right after that line. It reuses your existing scripture styling (verse text + reference on the right, red-letter for Gospels).
+
+**Handles**
+
+- Parenthetical groups: `(Mark 1:35; Luke 5:16)`
+- Same-book continuations: `(John 5:19; 8:28-29)`
+- Same-chapter commas: `(Luke 24:27, 45)`
+- Bare mentions in prose: `Same pattern in Luke 5:16`
+- Multiple different verses in one note (e.g. **Jesus' Rhythms** now shows 25 verse blocks)
+
+**Skips**
+
+- Refs already covered by an explicit `{{< bible >}}` shortcode (no duplicates)
+- Lines that already have a full NASB paragraph
+- Chapter-only cites without a verse (`John 13`) — no DB key for those
+
+**Files**
+
+- `layouts/_partials/notes/expand-bible-mentions.html` — mention scanner
+- `layouts/_partials/notes/render-content.html` — calls it before rendering
+- `data/bible-books.yaml` — book-name regex for all 66 books
+
+**Example:** [Withdraw to Pray](public/notes/withdraw-to-pray/index.html) now shows Mark 1:35 (shortcode) **and** Luke 5:16 (auto-expanded from the bullet text).
+
+Shareable thought cards are unchanged — they stay short, paste-ready lines without full verse blocks. Say if you want those expanded too.
+
+---
+
+_**User**_
+
+<system_notification>
+The following task has finished. If you were already aware, ignore this notification and do not restate prior responses.
+
+<task>
+kind: shell
+status: success
+task_id: 951602
+title: Build site and count scripture verses on sample notes
+output_path: /home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/terminals/951602.txt
+</task>
+</system_notification>
+<user_query>Briefly inform the user about the task result and perform any follow-up actions (if needed). If there's no follow-ups needed, don't explicitly say that.</user_query>
+
+---
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Preparing a brief update on the task result.
+
+Bible verse display for note mentions is now implemented. The shell task was just initial build verification. No follow-up actions are needed.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Done. Notes now auto-show full NASB1995 verses whenever a citation appears in the content.
+
+Mentions like `Luke 5:16` or `(Mark 1:35; Luke 5:16)` render as verse blocks after that line. Notes that already use `{{< bible >}}` shortcodes are left alone, so nothing gets duplicated. **Jesus' Rhythms** is a good example — it went from zero verse blocks to 25 from inline references alone.

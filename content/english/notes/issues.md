@@ -1,6 +1,7 @@
 ---
 note_kind: "meta"
 layout: "issues"
+outputs: ["HTML", "ISSUES"]
 title: "Issues"
 meta_title: "Garden Link Issues"
 description: |

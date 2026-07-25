@@ -146,3 +146,2416 @@ _**Agent (composer-2.5-fast)**_
 <summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/discipleship-vs-leadership.md</summary>
 
 </details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Checking levels-batch-0.json for existing level bullet examples or generation scripts.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "Level 1:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "Level 1:",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **6** results in **1** directory</summary>
+
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (6 files)
+
+| File |
+|------|
+| `data/levels-batch-0.json` |
+| `data/levels-batch-3.json` |
+| `data/levels-batch-5.json` |
+| `data/levels-batch-1.json` |
+| `data/levels-batch-2.json` |
+| `data/levels-batch-4.json` |
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/levels-batch-0.json</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+The repository does not yet contain the Level 1–5 bullet format. I will generate those five bullets for each note.
+
+Searching for existing level documentation or scripts.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "Level [1-5]"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "Level [1-5]",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": "./.specstory/history/2026-07-23_11-54-09Z-feynman-technique-for-notes.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./themes/jorap/layouts/_partials/components/blog-card.html"
+    }
+  ],
+  "totalFiles": 2,
+  "totalMatches": 3
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "levels-batch"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "levels-batch",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Checking specstory history for Level 1–5 guidelines.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-23_11-54-09Z-feynman-technique-for-notes.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "abide-in-me.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "Level 1:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "Level 1:",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/abide-in-me.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Batch-0 has not yet been updated with the Level 1–5 bullets.
+
+A Python script could automate the edits across all 43 notes. The JSON only provides the first and second bullets, so the Level 1–5 text must be generated manually from those two starting points.
+
+Reviewing the specstory and scripts for guidance on generating the Level 1–5 bullet text.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **1** result in **1** directory</summary>
+
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (1 file)
+
+| File |
+|------|
+| `scripts/apply-feynman-grade6.py` |
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.specstory",
+  "pattern": "Level 1:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.specstory",
+  "pattern": "Level 1:",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-07-23_12-11-06Z-levels-batch-0-notes.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": ".specstory/history/2026-07-23_12-11-07Z-levels-batch-1-notes.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": ".specstory/history/2026-07-23_12-11-08Z-levels-batch-2-notes.md"
+    }
+  ],
+  "totalFiles": 3,
+  "totalMatches": 9
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Reading specstory files for batch-1 notes to find examples of generated levels.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-23_12-11-07Z-levels-batch-1-notes.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/apply-feynman-grade6.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Checking batch-0 specstory for completed Level bullet examples.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-23_12-11-06Z-levels-batch-0-notes.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/data",
+  "pattern": "levels"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/data",
+  "pattern": "levels",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Batch-0 appears to have been in progress.
+
+Checking whether any notes already contain Level bullets from the previous batch.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **1** directory</summary>
+
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (0 files)
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "Level 1:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "Level 1:",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+None of the 43 notes currently contain Level bullets.
+
+I will generate 215 level bullets across all 43 notes and apply them via script. I am reading several notes in parallel to understand existing patterns, particularly faith notes with bible shortcodes.
+
+A fully automated script would be too mechanical. I will generate the five level bullets manually for each note, adapting the original content to match the required grade and voice.
+
+I will read all 43 notes' key_concept sections via shell script first. Then I will create a YAML data file containing all level bullets and run a single apply script across every file.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+Reading all 43 batch notes' `key_concept` sections to plan the level bullets.
+
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="update_current_step"><details>
+<summary>Tool use: **update_current_step**</summary>
+An unknown error occurred
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 &lt;&lt; &#39;PY&#39;
+import json, re
+from pathlib import Path
+
+ROOT = Path(&#34;/home/jorap/Documents/GitHub/jorap.com&#34;)
+batch = json.loads((ROOT / &#34;data/levels-batch-1.json&#34;).read_text())
+BULLET_RE = re.compile(r&#34;^\s*-\s+&#34;)
+
+for item in batch:
+    slug = item[&#34;slug&#34;]
+    path = ROOT / &#34;content/english/notes&#34; / f&#34;{slug}.md&#34;
+    if not path.exists():
+        print(f&#34;MISSING: {slug}&#34;)
+        continue
+    text = path.read_text()
+    m = re.search(r&#34;^key_concept:\s*\|\s*\n((?:  .*\n)+)&#34;, text, re.M)
+    if not m:
+        print(f&#34;NO KC: {slug}&#34;)
+        continue
+    block = m.group(1)
+    bullets = []
+    prefix = []
+    in_bullets = False
+    for line in block.splitlines():
+        if BULLET_RE.match(line):
+            in_bullets = True
+            bullets.append(line.strip()[2:].strip())
+        elif not in_bullets and line.strip():
+            prefix.append(line.strip())
+    b2 = bullets[1] if len(bullets) &gt; 1 else &#34;?&#34;
+    match = &#34;OK&#34; if b2 == item[&#34;b2&#34;] else f&#34;MISMATCH: {b2[:60]}&#34;
+    print(f&#34;{slug}: bullets={len(bullets)} rest_n={item[&#39;rest_n&#39;]} prefix={len(prefix)} {match}&#34;)
+PY</summary>
+```bash
+python3 << 'PY'
+import json, re
+from pathlib import Path
+
+ROOT = Path("/home/jorap/Documents/GitHub/jorap.com")
+batch = json.loads((ROOT / "data/levels-batch-1.json").read_text())
+BULLET_RE = re.compile(r"^\s*-\s+")
+
+for item in batch:
+    slug = item["slug"]
+    path = ROOT / "content/english/notes" / f"{slug}.md"
+    if not path.exists():
+        print(f"MISSING: {slug}")
+        continue
+    text = path.read_text()
+    m = re.search(r"^key_concept:\s*\|\s*\n((?:  .*\n)+)", text, re.M)
+    if not m:
+        print(f"NO KC: {slug}")
+        continue
+    block = m.group(1)
+    bullets = []
+    prefix = []
+    in_bullets = False
+    for line in block.splitlines():
+        if BULLET_RE.match(line):
+            in_bullets = True
+            bullets.append(line.strip()[2:].strip())
+        elif not in_bullets and line.strip():
+            prefix.append(line.strip())
+    b2 = bullets[1] if len(bullets) > 1 else "?"
+    match = "OK" if b2 == item["b2"] else f"MISMATCH: {b2[:60]}"
+    print(f"{slug}: bullets={len(bullets)} rest_n={item['rest_n']} prefix={len(prefix)} {match}")
+PY
+```
+
+```
+deliberate-practice: bullets=3 rest_n=1 prefix=0 OK
+develop-dont-endanger: bullets=2 rest_n=0 prefix=0 OK
+digital-garden: bullets=4 rest_n=2 prefix=0 OK
+digital-minimalism: bullets=2 rest_n=0 prefix=0 OK
+digital-serendipity: bullets=5 rest_n=3 prefix=0 OK
+discern-his-will-daily: bullets=2 rest_n=0 prefix=1 OK
+discipleship-vs-leadership: bullets=6 rest_n=4 prefix=1 OK
+discipleship: bullets=2 rest_n=0 prefix=1 OK
+discipline: bullets=5 rest_n=3 prefix=0 OK
+dont-copy-the-pattern: bullets=5 rest_n=3 prefix=1 OK
+dont-worry: bullets=4 rest_n=2 prefix=1 OK
+drafting-in-public: bullets=4 rest_n=2 prefix=0 OK
+duty-of-care: bullets=4 rest_n=2 prefix=0 OK
+eliminate-before-managing: bullets=5 rest_n=3 prefix=0 OK
+emotional-regulation: bullets=6 rest_n=4 prefix=0 OK
+energy-protects-judgment: bullets=6 rest_n=4 prefix=0 OK
+eternal-principles: bullets=10 rest_n=8 prefix=0 OK
+eternal-rewards: bullets=11 rest_n=9 prefix=1 OK
+ethical-leadership: bullets=2 rest_n=0 prefix=0 OK
+evergreen-notes: bullets=4 rest_n=2 prefix=0 OK
+evergreen-vs-fleeting-notes: bullets=5 rest_n=3 prefix=0 OK
+execution: bullets=2 rest_n=0 prefix=0 OK
+expect-the-counter: bullets=2 rest_n=0 prefix=0 OK
+failure-as-feedback: bullets=5 rest_n=3 prefix=0 OK
+faith-and-works: bullets=5 rest_n=3 prefix=1 OK
+faithful-steward: bullets=10 rest_n=8 prefix=1 OK
+faithfulness: bullets=5 rest_n=3 prefix=1 OK
+father-forgive-them: bullets=5 rest_n=3 prefix=1 OK
+finish-strong: bullets=2 rest_n=0 prefix=0 OK
+first-principles-thinking: bullets=4 rest_n=2 prefix=0 OK
+flashcards: bullets=12 rest_n=10 prefix=0 OK
+follow-christ-then-lead: bullets=9 rest_n=7 prefix=1 OK
+follow-their-lead: bullets=4 rest_n=2 prefix=0 OK
+forgiveness-at-work: bullets=5 rest_n=3 prefix=0 OK
+forgiveness: bullets=7 rest_n=5 prefix=1 OK
+free-grace: bullets=7 rest_n=5 prefix=1 OK
+free-tier-hosting-stack: bullets=7 rest_n=5 prefix=0 OK
+fruits-of-the-spirit: bullets=5 rest_n=3 prefix=1 OK
+future-proofing-knowledge: bullets=4 rest_n=2 prefix=0 OK
+gentleness: bullets=
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+All 43 notes exist and match the expected criteria.
+
+A Python script will batch-generate the five level bullets for all 43 notes. I'll first review representative files to ensure the analogies and plain language fit each topic. Level 1 will use grade 6 analogies without wikilinks. Level 2 will use grade 8 plain text.
+
+Levels 3–5 are now defined: grade 10 cause-effect, adult actionable claims, and nuanced text with wikilinks. The existing key_concept bullets will guide the wording for Levels 4 and 5.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 &lt;&lt; &#39;PY&#39;
+import json, re
+from pathlib import Path
+
+ROOT = Path(&#34;/home/jorap/Documents/GitHub/jorap.com&#34;)
+batch = json.loads((ROOT / &#34;data/levels-batch-1.json&#34;).read_text())
+BULLET_RE = re.compile(r&#34;^\s*-\s+&#34;)
+
+for item in batch:
+    slug = item[&#34;slug&#34;]
+    path = ROOT / &#34;content/english/notes&#34; / f&#34;{slug}.md&#34;
+    text = path.read_text()
+    m = re.search(r&#34;^key_concept:\s*\|\s*\n((?:  .*\n)+)&#34;, text, re.M)
+    block = m.group(1)
+    bullets = []
+    prefix = []
+    in_bullets = False
+    for line in block.splitlines():
+        if BULLET_RE.match(line):
+            in_bullets = True
+            bullets.append(line.strip()[2:].strip())
+        elif not in_bullets and line.strip():
+            prefix.append(line.strip())
+    print(f&#34;=== {slug} ===&#34;)
+    if prefix:
+        print(&#34;PREFIX:&#34;, prefix[0][:80])
+    for i, b in enumerate(bullets):
+        print(f&#34;  [{i}] {b[:120]}{&#39;...&#39; if len(b)&gt;120 else &#39;&#39;}&#34;)
+    print()
+PY</summary>
+```bash
+python3 << 'PY'
+import json, re
+from pathlib import Path
+
+ROOT = Path("/home/jorap/Documents/GitHub/jorap.com")
+batch = json.loads((ROOT / "data/levels-batch-1.json").read_text())
+BULLET_RE = re.compile(r"^\s*-\s+")
+
+for item in batch:
+    slug = item["slug"]
+    path = ROOT / "content/english/notes" / f"{slug}.md"
+    text = path.read_text()
+    m = re.search(r"^key_concept:\s*\|\s*\n((?:  .*\n)+)", text, re.M)
+    block = m.group(1)
+    bullets = []
+    prefix = []
+    in_bullets = False
+    for line in block.splitlines():
+        if BULLET_RE.match(line):
+            in_bullets = True
+            bullets.append(line.strip()[2:].strip())
+        elif not in_bullets and line.strip():
+            prefix.append(line.strip())
+    print(f"=== {slug} ===")
+    if prefix:
+        print("PREFIX:", prefix[0][:80])
+    for i, b in enumerate(bullets):
+        print(f"  [{i}] {b[:120]}{'...' if len(b)>120 else ''}")
+    print()
+PY
+```
+
+```
+=== deliberate-practice ===
+  [0] Deliberate practice is focused reps on the part that breaks - not mindless repetition of what already works.
+  [1] You practice the hard part on purpose until it works, like fixing your weak spot in a game instead of doing the easy mov...
+  [2] The discomfort is the signal you are in the right spot - comfortable reps mean you drifted back to what you already do w...
+
+=== develop-dont-endanger ===
+  [0] Hard alone does not make an exercise worth running.
+  [1] Just because something is hard does not mean it helps you grow - a drill should build skill without hurting people on pu...
+
+=== digital-garden ===
+  [0] My digital garden is a personal site where notes grow in public.
+  [1] It is my own website where I post notes while I am still learning, like planting seeds in a garden other people can watc...
+  [2] Public, linked, imperfect notes beat a private hoard.
+  [3] Update in public instead of hoarding drafts until they feel ready.
+
+=== digital-minimalism ===
+  [0] Every new app is a pipe you have to babysit.
+  [1] Each new app is another thing you must check and fix, like adding another hose in the yard that can leak if you forget i...
+
+=== digital-serendipity ===
+  [0] Serendipity is not luck - it is systems where old notes resurface at the right time.
+  [1] Good surprises happen when your old notes show up at the right time because your system brings them back, not because yo...
+  [2] Old notes surprise on schedule because they were linked on purpose, not because someone got lucky.
+  [3] Link notes on purpose so forgotten ideas surprise when a new problem rhymes.
+  [4] A walkable graph beats hoping you will remember the right filename.
+
+=== discern-his-will-daily ===
+PREFIX: {{< bible ref="John 7:16-18" emphasize="17" >}}
+  [0] Willing to obey first - then you can tell whether the teaching is God's or noise.
+  [1] You choose to obey God first - then you can tell real teaching from noise that only sounds good.
+
+=== discipleship-vs
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Generating Level 1–5 bullets for all 43 notes.
+
+Drafting a Python script to apply the changes. Each note gets a tailored Level 1–5 bullet based on its existing content: analogy, plain grade-8, cause-effect, actionable claim, and nuanced wikilinked text.
+
+Notes with only two bullets will generate Levels 4–5 from the first bullet alone. Now mapping out the specific Level 1–5 text for each slug, starting with deliberate-practice.
+
+Finished Level 1–5 for deliberate-practice. Now drafting levels for develop-dont-endanger.
+
+Drafted Levels 1–2 for develop-dont-endanger. Level 1 uses a coach stopping a drill to avoid injury. Level 2 states that difficulty alone does not prove a drill is worthwhile.
+
+Finished Levels 3–5 for develop-dont-endanger. Now drafting Levels 1–5 for digital-garden, beginning with a Grade 6 analogy of planting seeds in a garden.
+
+Finished Levels 2–5 for digital-garden. Levels 2–4 describe a public personal site, linked visibility accelerating feedback, and posting rough notes in public. Level 5 contrasts public imperfect drafts with private hoarding. Drafting all 43 notes manually is too long. The plan is to embed all Level 1–5 text into a Python script or YAML file and run it against the JSON.
+
+The apply script will use a Python dictionary of all 43 slugs and their five levels. Bullet 2 will be replaced after the first markdown bullet only. Bible shortcode prefixes and blank lines will be preserved.
+
+Bible shortcodes sit before bullet 1, so the first bullet stays untouched. The apply script follows the apply-feynman-grade6.py pattern and will generate all 43 notes in one pass.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+Creating level bullets for all 43 notes and an apply script to update each file.
+
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="update_current_step"><details>
+<summary>Tool use: **update_current_step**</summary>
+An unknown error occurred
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+A YAML file and apply script will be created to manage the five level bullets.
+
+The script will contain a LEVELS dictionary mapping each note to its five bullets. Systematic review ensures no contractions and correct grade levels for each position.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+Writing the levels data file and apply script.
+
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/apply-levels-batch-1.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Writing the YAML file with all 43 notes and five levels each.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/levels-batch-1-bullets.yaml</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Running the apply script and verifying the results.
+
+Checking for contractions in the level bullets and verifying YAML integrity.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/apply-levels-batch-1.py</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/apply-levels-batch-1.py
+```
+
+```
+Traceback (most recent call last):
+  File "/home/jorap/Documents/GitHub/jorap.com/scripts/apply-levels-batch-1.py", line 100, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "/home/jorap/Documents/GitHub/jorap.com/scripts/apply-levels-batch-1.py", line 76, in main
+    levels_map = yaml.safe_load(LEVELS.read_text(encoding="utf-8")) or {}
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/yaml/__init__.py", line 125, in safe_load
+    return load(stream, SafeLoader)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/yaml/__init__.py", line 81, in load
+    return loader.get_single_data()
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/yaml/constructor.py", line 49, in get_single_data
+    node = self.get_single_node()
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/yaml/composer.py", line 36, in get_single_node
+    document = self.compose_document()
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/yaml/composer.py", line 55, in compose_document
+    node = self.compose_node(None, None)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/yaml/composer.py", line 84, in compose_node
+    node = self.compose_mapping_node(anchor)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/yaml/composer.py", line 133, in compose_mapping_node
+    item_value = self.compose_node(node, item_key)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/yaml/composer.py", line 82, in compose_node
+    node = self.compose_sequence_node(anchor)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/yaml/composer.py", line 110, in compose_sequence_node
+    while not self.check_event(SequenceEndEvent):
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/ya
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+The `[[Discipleship]]` wikilink contains a colon that may break YAML parsing.
+
+The YAML error at line 48 stems from a bullet item containing `: ` after a wikilink, which the parser interprets as a key-value pair.
+
+The colon after `[[Leadership]]` is not the problem. Semicolons are unlikely culprits too. The exact trigger for the YAML parse error remains unclear.
+
+The YAML error likely originates earlier in the file, not near line 48. The `dont-worry` level 5 bullet contains a wikilink and semicolon. The `getting-started` level 1 bullet uses backticks.
+
+A colon at the start of a bullet value—such as `Something: rest`—would be parsed as a nested YAML mapping key. This would explain the parse error.
+
+The script prepends the "Level N:" prefix, so the raw YAML lacks it. The exact bullet text around the error line is being inspected to locate the parse trigger.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/levels-batch-1-bullets.yaml</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Line 48 contains a bullet referencing Discipleship and Leadership that needs updating.
+
+Checking whether the bullet containing `[[Discipleship]]` and `[[Leadership]]` could be parsed as nested YAML structure.
+
+Line 45 was ruled out as the source of the YAML parse error. The failure is isolated to line 48, where the parser fails at column 22 near the `[[Leadership]]` reference.
+
+PyYAML may be misreading the bullet text as a `key: value` pair because of embedded colons or dashes. Searching for colons in the problematic lines to confirm.
+
+Other bullets checked out cleanly. Quoting strings containing `[[` or colons would fix the parse error, but switching the levels file to JSON is the cleaner solution. A quick Python test on line 48 will confirm the exact trigger.
+
+The parse error is caused by bullets beginning with `[[`. In YAML, the opening bracket starts a flow sequence, so the parser misreads the dash and text as a key-value pair. All level strings must be quoted in YAML to prevent this.
+
+Grepping the YAML file for bullets starting with `[[` to identify every string that needs quoting.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+YAML is choking on bullets that start with `[[` — I'll quote those entries and rerun the apply script.
+
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/data/levels-batch-1-bullets.yaml",
+  "pattern": "^  - \\[\\["
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/data/levels-batch-1-bullets.yaml",
+  "pattern": "^  - \\[\\[",
+  "topFiles": [
+    {
+      "matchCount": 7,
+      "uri": "data/levels-batch-1-bullets.yaml"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 7
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/data/levels-batch-1-bullets.yaml",
+  "pattern": "^  - .*\\[\\["
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/data/levels-batch-1-bullets.yaml",
+  "pattern": "^  - .*\\[\\[",
+  "topFiles": [
+    {
+      "matchCount": 16,
+      "uri": "data/levels-batch-1-bullets.yaml"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 16
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Switching the levels file to JSON to avoid YAML parsing issues with `[[` wikilinks.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+Switching the levels data to JSON to avoid YAML parsing issues with wikilinks.
+
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt; &#39;PY&#39;
+import yaml, json
+from pathlib import Path
+text = Path(&#39;data/levels-batch-1-bullets.yaml&#39;).read_text()
+# fix by converting manually - read as line-based instead
+import re
+ROOT = Path(&#39;data/levels-batch-1-bullets.yaml&#39;)
+lines = ROOT.read_text().splitlines()
+data = {}
+current = None
+for line in lines:
+    m = re.match(r&#39;^([a-z0-9-]+):\s*$&#39;, line)
+    if m:
+        current = m.group(1)
+        data[current] = []
+        continue
+    m = re.match(r&#39;^  - (.*)$&#39;, line)
+    if m and current:
+        data[current].append(m.group(1))
+Path(&#39;data/levels-batch-1-bullets.json&#39;).write_text(json.dumps(data, indent=2, ensure_ascii=False) + &#39;\n&#39;)
+print(len(data), &#39;slugs&#39;)
+for slug, lv in data.items():
+    if len(lv) != 5:
+        print(&#39;BAD&#39;, slug, len(lv))
+PY</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
+import yaml, json
+from pathlib import Path
+text = Path('data/levels-batch-1-bullets.yaml').read_text()
+# fix by converting manually - read as line-based instead
+import re
+ROOT = Path('data/levels-batch-1-bullets.yaml')
+lines = ROOT.read_text().splitlines()
+data = {}
+current = None
+for line in lines:
+    m = re.match(r'^([a-z0-9-]+):\s*$', line)
+    if m:
+        current = m.group(1)
+        data[current] = []
+        continue
+    m = re.match(r'^  - (.*)$', line)
+    if m and current:
+        data[current].append(m.group(1))
+Path('data/levels-batch-1-bullets.json').write_text(json.dumps(data, indent=2, ensure_ascii=False) + '\n')
+print(len(data), 'slugs')
+for slug, lv in data.items():
+    if len(lv) != 5:
+        print('BAD', slug, len(lv))
+PY
+```
+
+```
+43 slugs
+
+```
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+All 43 slugs contain five levels.
+
+Updating the script to use JSON and run it.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/apply-levels-batch-1.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/apply-levels-batch-1.py</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/apply-levels-batch-1.py
+```
+
+```
+{'ok': 43}
+
+```
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/apply-levels-batch-1.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+All 43 notes were updated. Now verifying the changes.
+
+Verifying structure, bullet formatting, and preservation of bible shortcodes.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+Verifying structure across all 43 notes:
+
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt; &#39;PY&#39;
+import json, re, yaml
+from pathlib import Path
+
+ROOT = Path(&#39;.&#39;)
+batch = json.loads((ROOT / &#39;data/levels-batch-1.json&#39;).read_text())
+BULLET_RE = re.compile(r&#39;^\s*-\s+&#39;)
+CONTRACTION = re.compile(r&#34;\b\w+&#39;\w+|\w+n&#39;t\b|\bit&#39;s\b|\bdon&#39;t\b|\bcan&#39;t\b&#34;, re.I)
+
+def parse_kc(block):
+    prefix, bullets = [], []
+    in_b = False
+    for line in block.splitlines():
+        if BULLET_RE.match(line):
+            in_b = True
+            bullets.append(line.strip()[2:].strip())
+        elif not in_b and line.strip():
+            prefix.append(line.strip())
+    return prefix, bullets
+
+edited = skipped = errors = []
+for item in batch:
+    slug = item[&#39;slug&#39;]
+    path = ROOT / &#39;content/english/notes&#39; / f&#39;{slug}.md&#39;
+    text = path.read_text()
+    m = re.search(r&#39;^key_concept:\s*\|\s*\n((?:  .*\n)+)&#39;, text, re.M)
+    if not m:
+        errors.append((slug, &#39;no kc&#39;))
+        continue
+    prefix, bullets = parse_kc(m.group(1))
+    if bullets[0] != item[&#39;b1&#39;]:
+        errors.append((slug, &#39;b1 changed&#39;))
+    for i in range(1, 6):
+        if not bullets[i].startswith(f&#39;Level {i}: &#39;):
+            errors.append((slug, f&#39;bullet {i+1} not Level {i}&#39;))
+    if bullets[6:6+item[&#39;rest_n&#39;]] != []:
+        # compare old bullet 3+ with new 7+
+        old_text = path.read_text()  # already updated - load expected from rest count
+    # check no blank lines between bullets in block
+    block_lines = [l for l in m.group(1).splitlines() if BULLET_RE.match(l)]
+    if any(not l.strip() for l in m.group(1).splitlines() if l.strip()==&#39;&#39; and BULLET_RE):
+        pass
+    # contractions in level bullets
+    for b in bullets[1:6]:
+        if CONTRACTION.search(b):
+            errors.append((slug, f&#39;contraction: {b[:50]}&#39;))
+    # count
+    if len(bullets) == 1 + 5 + item[&#39;rest_n&#39;]:
+        edited.append(slug)
+    else:
+        errors.append((slug, f&#39;bullet count {len(bullets)} expected {1+5+item[&#34;rest_n&#34;]}&#39;))
+
+print(f&#39;Edited: {len(edited)}&#39;)
+print(f&#39;Skipped: {skipped}&#39;)
+print(f&#39;Errors: {len(errors)}&#39;)
+for e in errors[:20]:
+    print(&#39; &#39;, e)
+PY</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
+import json, re, yaml
+from pathlib import Path
+
+ROOT = Path('.')
+batch = json.loads((ROOT / 'data/levels-batch-1.json').read_text())
+BULLET_RE = re.compile(r'^\s*-\s+')
+CONTRACTION = re.compile(r"\b\w+'\w+|\w+n't\b|\bit's\b|\bdon't\b|\bcan't\b", re.I)
+
+def parse_kc(block):
+    prefix, bullets = [], []
+    in_b = False
+    for line in block.splitlines():
+        if BULLET_RE.match(line):
+            in_b = True
+            bullets.append(line.strip()[2:].strip())
+        elif not in_b and line.strip():
+            prefix.append(line.strip())
+    return prefix, bullets
+
+edited = skipped = errors = []
+for item in batch:
+    slug = item['slug']
+    path = ROOT / 'content/english/notes' / f'{slug}.md'
+    text = path.read_text()
+    m = re.search(r'^key_concept:\s*\|\s*\n((?:  .*\n)+)', text, re.M)
+    if not m:
+        errors.append((slug, 'no kc'))
+        continue
+    prefix, bullets = parse_kc(m.group(1))
+    if bullets[0] != item['b1']:
+        errors.append((slug, 'b1 changed'))
+    for i in range(1, 6):
+        if not bullets[i].startswith(f'Level {i}: '):
+            errors.append((slug, f'bullet {i+1} not Level {i}'))
+    if bullets[6:6+item['rest_n']] != []:
+        # compare old bullet 3+ with new 7+
+        old_text = path.read_text()  # already updated - load expected from rest count
+    # check no blank lines between bullets in block
+    block_lines = [l for l in m.group(1).splitlines() if BULLET_RE.match(l)]
+    if any(not l.strip() for l in m.group(1).splitlines() if l.strip()=='' and BULLET_RE):
+        pass
+    # contractions in level bullets
+    for b in bullets[1:6]:
+        if CONTRACTION.search(b):
+            errors.append((slug, f'contraction: {b[:50]}'))
+    # count
+    if len(bullets) == 1 + 5 + item['rest_n']:
+        edited.append(slug)
+    else:
+        errors.append((slug, f'bullet count {len(bullets)} expected {1+5+item["rest_n"]}'))
+
+print(f'Edited: {len(edited)}')
+print(f'Skipped: {skipped}')
+print(f'Errors: {len(errors)}')
+for e in errors[:20]:
+    print(' ', e)
+PY
+```
+
+```
+Edited: 54
+Skipped: ['deliberate-practice', ('develop-dont-endanger', 'bullet count 9 expected 6'), 'digital-garden', ('digital-minimalism', 'bullet count 9 expected 6'), 'digital-serendipity', ('discern-his-will-daily', "contraction: Level 3: Because a heart set on doing God's will f"), ('discern-his-will-daily', 'contraction: Level 5: Willing to obey first - then you can tell'), ('discern-his-will-daily', 'bullet count 12 expected 6'), 'discipleship-vs-leadership', ('discipleship', 'bullet count 10 expected 6'), 'discipline', ('dont-copy-the-pattern', 'contraction: Level 1: God chose you to live differently - so wh'), ('dont-copy-the-pattern', "contraction: Level 2: Chosen out of the world means the feed's "), ('dont-copy-the-pattern', "contraction: Level 3: Because the world's patterns feel normal "), 'dont-copy-the-pattern', ('dont-worry', 'contraction: Level 3: Because tomorrow carries its own trouble,'), ('dont-worry', "contraction: Level 4: Seek today's kingdom work first and leave"), 'dont-worry', 'drafting-in-public', 'duty-of-care', 'eliminate-before-managing', 'emotional-regulation', 'energy-protects-judgment', 'eternal-principles', 'eternal-rewards', ('ethical-leadership', 'bullet count 9 expected 6'), 'evergreen-notes', 'evergreen-vs-fleeting-notes', ('execution', 'bullet count 7 expected 6'), ('expect-the-counter', 'bullet count 9 expected 6'), 'failure-as-feedback', 'faith-and-works', 'faithful-steward', 'faithfulness', 'father-forgive-them', ('finish-strong', 'bullet count 9 expected 6'), 'first-principles-thinking', 'flashcards', ('follow-christ-then-lead', "contraction: Level 2: When the captain's chair and Christ's com"), 'follow-christ-then-lead', 'follow-their-lead', ('forgiveness-at-work', "contraction: Level 2: Release a colleague's debt without preten"), 'forgiveness-at-work', 'forgiveness', ('free-grace', "contraction: Level 2: Hear Christ's word and believe - you have"), 'free-grace', 'free-tier-hosting-stack', 'fruits-of-the-spirit', 'futu
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/deliberate-practice.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/discipleship-vs-leadership.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+The deliberate-practice note has a duplicate Level 5 bullet. It copies the old bullet 3 instead of Level 5 text.
+
+The verification script counts incorrectly. Possessive apostrophes like "God's" are not contractions and should remain. I need to fix Level 5 bullets that duplicate kept bullets.
+
+The garden-voice rule limits contractions to note bodies and cards, not frontmatter fields. The verification regex was too broad. I am checking how many notes have Level 5 bullets that duplicate the first remaining bullet.
+
+I mistakenly copied the first remaining bullet into Level 5 for many notes. I am scanning for duplicates and fixing Level 5 and other levels that repeat kept bullets. I also need to verify develop-dont-endanger has six total bullets.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/develop-dont-endanger.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt; &#39;PY&#39;
+import json, re
+from pathlib import Path
+
+ROOT = Path(&#39;.&#39;)
+batch = json.loads((ROOT / &#39;data/levels-batch-1.json&#39;).read_text())
+BULLET_RE = re.compile(r&#39;^\s*-\s+&#39;)
+
+def parse_kc(block):
+    bullets = []
+    for line in block.splitlines():
+        if BULLET_RE.match(line):
+            bullets.append(line.strip()[2:].strip())
+    return bullets
+
+dups = []
+for item in batch:
+    slug = item[&#39;slug&#39;]
+    text = (ROOT / f&#39;content/english/notes/{slug}.md&#39;).read_text()
+    m = re.search(r&#39;^key_concept:\s*\|\s*\n((?:  .*\n)+)&#39;, text, re.M)
+    bullets = parse_kc(m.group(1))
+    rest = bullets[6:]
+    for i in range(1, 6):
+        lvl_text = bullets[i][len(f&#39;Level {i}: &#39;):]
+        for j, r in enumerate(rest):
+            if lvl_text == r:
+                dups.append((slug, f&#39;Level {i} dup rest[{j}]&#39;, lvl_text[:60]))
+print(f&#39;duplicates: {len(dups)}&#39;)
+for d in dups:
+    print(d)
+PY</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
+import json, re
+from pathlib import Path
+
+ROOT = Path('.')
+batch = json.loads((ROOT / 'data/levels-batch-1.json').read_text())
+BULLET_RE = re.compile(r'^\s*-\s+')
+
+def parse_kc(block):
+    bullets = []
+    for line in block.splitlines():
+        if BULLET_RE.match(line):
+            bullets.append(line.strip()[2:].strip())
+    return bullets
+
+dups = []
+for item in batch:
+    slug = item['slug']
+    text = (ROOT / f'content/english/notes/{slug}.md').read_text()
+    m = re.search(r'^key_concept:\s*\|\s*\n((?:  .*\n)+)', text, re.M)
+    bullets = parse_kc(m.group(1))
+    rest = bullets[6:]
+    for i in range(1, 6):
+        lvl_text = bullets[i][len(f'Level {i}: '):]
+        for j, r in enumerate(rest):
+            if lvl_text == r:
+                dups.append((slug, f'Level {i} dup rest[{j}]', lvl_text[:60]))
+print(f'duplicates: {len(dups)}')
+for d in dups:
+    print(d)
+PY
+```
+
+```
+duplicates: 11
+('deliberate-practice', 'Level 5 dup rest[0]', 'The discomfort is the signal you are in the right spot - com')
+('discipleship', 'Level 5 dup rest[0]', 'Daily cross - deny self and follow after faith, not to buy h')
+('drafting-in-public', 'Level 5 dup rest[0]', 'Posting before it is finished keeps the garden honest and le')
+('duty-of-care', 'Level 5 dup rest[0]', 'Duty of care is the legal and moral floor, not a target to h')
+('eliminate-before-managing', 'Level 5 dup rest[1]', 'When a dangerous activity is not required, swap it for a saf')
+('energy-protects-judgment', 'Level 5 dup rest[2]', 'Skipping recovery does not show up immediately - it shows up')
+('follow-their-lead', 'Level 5 dup rest[1]', 'The redirect lands better once they know you actually unders')
+('forgiveness', 'Level 2 dup rest[1]', 'Forgive others or the Father will not forgive you - daily rh')
+('forgiveness', 'Level 5 dup rest[0]', 'Forgiveness extends the forgiveness already received, not le')
+('free-grace', 'Level 5 dup rest[4]', '[[Justification]] is free and finished at faith; [[Sanctific')
+('gentleness', 'Level 4 dup rest[3]', 'Hear before you prescribe - loud correction without love is ')
+
+```
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+The note `develop-dont-endanger` contains more bullets than expected.
+
+`develop-dont-endanger` actually contains three extra bullets beyond its original two. The JSON indicates `rest_n=0`, but the file now holds five bullets total.
+
+The file now holds nine bullets total. The extra three appear to have been introduced by a prior script run.
+
+The extra bullets may have been present in the file all along. The regex used to extract bullets likely missed some lines that lacked the required indentation prefix. The raw file will be re-read to verify.
+
+The apply script formula should yield six bullets for a two-bullet source, not nine. This points to either a script bug or an incomplete initial read. A git diff will be checked to see what changed the file.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; git diff content/english/notes/develop-dont-endanger.md | head -40</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && git diff content/english/notes/develop-dont-endanger.md | head -40
+```
+
+```
+diff --git a/content/english/notes/develop-dont-endanger.md b/content/english/notes/develop-dont-endanger.md
+index 7c13acd7..7a88f348 100644
+--- a/content/english/notes/develop-dont-endanger.md
++++ b/content/english/notes/develop-dont-endanger.md
+@@ -4,8 +4,11 @@ meta_title: "Develop, Don't Endanger - Challenge Without Disproportionate Risk"
+ description: "People grow through drills that build skill without pain or risk replacing the actual skill."
+ key_concept: |
+   - Hard alone does not make an exercise worth running.
+-  - Just because something is hard does not mean it helps you grow - a drill should build skill without hurting people on purpose.
+-
++  - Level 1: Just because something is hard does not mean it helps you grow - a drill should build skill without hurting people on purpose, like a coach who stops when someone could get hurt.
++  - Level 2: Difficulty is not proof a drill is worth running - it must build skill without endangering people.
++  - Level 3: Because hard drills feel serious, teams keep dangerous ones - but harm blocks growth even when the reps were tough.
++  - Level 4: Before you run a hard drill, ask whether it develops skill or only risks injury you could remove.
++  - Level 5: Hard alone does not make an exercise worth running - develop skill, do not endanger people for intensity alone.
+   - A demanding drill needs [[Purpose and Vision]], a measurable benefit, qualified supervision, and defined safety limits.
+   - When pain becomes the point, leaders start treating harm like proof of growth.
+   - Push people to grow without picking drills where pain or risk replaces the actual skill.
+@@ -77,3 +80,4 @@ draft: false
+ ---
+ 
+ 
++
+
+```
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt; &#39;PY&#39;
+import json, re
+from pathlib import Path
+
+ROOT = Path(&#39;.&#39;)
+batch = json.loads((ROOT / &#39;data/levels-batch-1.json&#39;).read_text())
+BULLET_RE = re.compile(r&#39;^\s*-\s+&#39;)
+
+ok = skip = bad = []
+for item in batch:
+    slug = item[&#39;slug&#39;]
+    text = (ROOT / f&#39;content/english/notes/{slug}.md&#39;).read_text()
+    m = re.search(r&#39;^key_concept:\s*\|\s*\n((?:  .*\n)+)&#39;, text, re.M)
+    bullets = [line.strip()[2:].strip() for line in m.group(1).splitlines() if BULLET_RE.match(line)]
+    exp = 1 + 5 + item[&#39;rest_n&#39;]
+    if bullets[0] != item[&#39;b1&#39;]:
+        bad.append((slug, &#39;b1&#39;))
+    elif not all(bullets[i].startswith(f&#39;Level {i}: &#39;) for i in range(1,6)):
+        bad.append((slug, &#39;levels&#39;))
+    elif len(bullets) != exp:
+        bad.append((slug, f&#39;count {len(bullets)} vs {exp}&#39;))
+    elif bullets[1].startswith(&#39;Level 1:&#39;) and &#39;Level 1:&#39; in bullets[0]:
+        skip.append(slug)
+    else:
+        ok.append(slug)
+
+print(&#39;OK:&#39;, len(ok))
+print(&#39;BAD:&#39;, len(bad))
+for b in bad:
+    print(&#39; &#39;, b)
+PY</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
+import json, re
+from pathlib import Path
+
+ROOT = Path('.')
+batch = json.loads((ROOT / 'data/levels-batch-1.json').read_text())
+BULLET_RE = re.compile(r'^\s*-\s+')
+
+ok = skip = bad = []
+for item in batch:
+    slug = item['slug']
+    text = (ROOT / f'content/english/notes/{slug}.md').read_text()
+    m = re.search(r'^key_concept:\s*\|\s*\n((?:  .*\n)+)', text, re.M)
+    bullets = [line.strip()[2:].strip() for line in m.group(1).splitlines() if BULLET_RE.match(line)]
+    exp = 1 + 5 + item['rest_n']
+    if bullets[0] != item['b1']:
+        bad.append((slug, 'b1'))
+    elif not all(bullets[i].startswith(f'Level {i}: ') for i in range(1,6)):
+        bad.append((slug, 'levels'))
+    elif len(bullets) != exp:
+        bad.append((slug, f'count {len(bullets)} vs {exp}'))
+    elif bullets[1].startswith('Level 1:') and 'Level 1:' in bullets[0]:
+        skip.append(slug)
+    else:
+        ok.append(slug)
+
+print('OK:', len(ok))
+print('BAD:', len(bad))
+for b in bad:
+    print(' ', b)
+PY
+```
+
+```
+OK: 43
+BAD: 43
+  deliberate-practice
+  ('develop-dont-endanger', 'count 9 vs 6')
+  digital-garden
+  ('digital-minimalism', 'count 9 vs 6')
+  digital-serendipity
+  ('discern-his-will-daily', 'count 12 vs 6')
+  discipleship-vs-leadership
+  ('discipleship', 'count 10 vs 6')
+  discipline
+  dont-copy-the-pattern
+  dont-worry
+  drafting-in-public
+  duty-of-care
+  eliminate-before-managing
+  emotional-regulation
+  energy-protects-judgment
+  eternal-principles
+  eternal-rewards
+  ('ethical-leadership', 'count 9 vs 6')
+  evergreen-notes
+  evergreen-vs-fleeting-notes
+  ('execution', 'count 7 vs 6')
+  ('expect-the-counter', 'count 9 vs 6')
+  failure-as-feedback
+  faith-and-works
+  faithful-steward
+  faithfulness
+  father-forgive-them
+  ('finish-strong', 'count 9 vs 6')
+  first-principles-thinking
+  flashcards
+  follow-christ-then-lead
+  follow-their-lead
+  forgiveness-at-work
+  forgiveness
+  free-grace
+  free-tier-hosting-stack
+  fruits-of-the-spirit
+  future-proofing-knowledge
+  gentleness
+  getting-started
+  getting-things-done
+  git-based-cms
+
+```
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+The JSON `rest_n` values were incorrect compared to the actual files.
+
+The original file had three bullets after the second one, separated by a blank line. This means rest_n is 3, not 0.
+
+The apply logic is correct. The JSON rest_n field is likely stale metadata. The verification script had a duplicate-append bug that caused every note to appear both OK and BAD. I am fixing duplicate Level bullet copies.
+
+Duplicate Level 1 text appears in 11 JSON entries. Re-applying would skip these notes since Level 1 already exists. I will fix the duplicates in the levels JSON and update the script to overwrite existing Levels 1–5. Then I will re-run.
+
+Ten duplicate Level 1 copies remain across ten JSON entries. Forgiveness has two duplicates. I will read the original rest bullets and rewrite fresh Level 1 text for each. The develop-dont-endanger rest_n value is correct. I am updating the script to overwrite existing Levels 1–5.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+Fixing 11 level bullets that duplicate kept content, then re-applying.
+
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/levels-batch-1-bullets.json</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Fixing duplicates and updating the JSON with revised text.
+
+Drafting unique Level 5 text for deliberate-practice, discipleship, drafting-in-public, and duty-of-care. Checking rest bullets to avoid duplication.
+
+Adding Level 5 text for eliminate-before-managing, energy-protects-judgment, follow-their-lead, forgiveness, free-grace, and gentleness. Ensuring no duplicates with existing bullets. Scanning for remaining overlaps.
+
+Found Level 5 duplicates across several notes: develop-dont-endanger, digital-minimalism, execution, expect-the-counter, failure-as-feedback, faith-and-works, faithfulness, and finish-strong. Repeating bullet 1 is forbidden. Checking leadership next.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt; &#39;PY&#39;
+import json, re
+from pathlib import Path
+
+ROOT = Path(&#39;.&#39;)
+batch = {x[&#39;slug&#39;]: x for x in json.loads((ROOT / &#39;data/levels-batch-1.json&#39;).read_text())}
+levels = json.loads((ROOT / &#39;data/levels-batch-1-bullets.json&#39;).read_text())
+BULLET_RE = re.compile(r&#39;^\s*-\s+&#39;)
+
+for slug, lv in levels.items():
+    text = (ROOT / f&#39;content/english/notes/{slug}.md&#39;).read_text()
+    m = re.search(r&#39;^key_concept:\s*\|\s*\n((?:  .*\n)+)&#39;, text, re.M)
+    bullets = [line.strip()[2:].strip() for line in m.group(1).splitlines() if BULLET_RE.match(line)]
+    b1 = bullets[0]
+    rest = bullets[6:]
+    for i, t in enumerate(lv, 1):
+        if t == b1 or t in rest or any(t == r for r in rest):
+            print(f&#39;{slug} L{i}: DUP&#39;)
+        if b1 in t and len(t) - len(b1) &lt; 20:
+            print(f&#39;{slug} L{i}: near b1&#39;)
+PY</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
+import json, re
+from pathlib import Path
+
+ROOT = Path('.')
+batch = {x['slug']: x for x in json.loads((ROOT / 'data/levels-batch-1.json').read_text())}
+levels = json.loads((ROOT / 'data/levels-batch-1-bullets.json').read_text())
+BULLET_RE = re.compile(r'^\s*-\s+')
+
+for slug, lv in levels.items():
+    text = (ROOT / f'content/english/notes/{slug}.md').read_text()
+    m = re.search(r'^key_concept:\s*\|\s*\n((?:  .*\n)+)', text, re.M)
+    bullets = [line.strip()[2:].strip() for line in m.group(1).splitlines() if BULLET_RE.match(line)]
+    b1 = bullets[0]
+    rest = bullets[6:]
+    for i, t in enumerate(lv, 1):
+        if t == b1 or t in rest or any(t == r for r in rest):
+            print(f'{slug} L{i}: DUP')
+        if b1 in t and len(t) - len(b1) < 20:
+            print(f'{slug} L{i}: near b1')
+PY
+```
+
+```
+deliberate-practice L5: DUP
+discern-his-will-daily L5: DUP
+discern-his-will-daily L5: near b1
+discipleship L5: DUP
+discipleship L5: near b1
+drafting-in-public L2: DUP
+drafting-in-public L2: near b1
+drafting-in-public L5: DUP
+duty-of-care L5: DUP
+eliminate-before-managing L5: DUP
+energy-protects-judgment L2: DUP
+energy-protects-judgment L2: near b1
+energy-protects-judgment L5: DUP
+execution L2: DUP
+execution L2: near b1
+expect-the-counter L5: DUP
+expect-the-counter L5: near b1
+failure-as-feedback L2: DUP
+failure-as-feedback L2: near b1
+faith-and-works L5: DUP
+faith-and-works L5: near b1
+faithful-steward L2: DUP
+faithful-steward L2: near b1
+faithfulness L2: DUP
+faithfulness L2: near b1
+faithfulness L5: DUP
+faithfulness L5: near b1
+finish-strong L2: DUP
+finish-strong L2: near b1
+finish-strong L5: DUP
+finish-strong L5: near b1
+first-principles-thinking L2: DUP
+first-principles-thinking L2: near b1
+follow-their-lead L2: DUP
+follow-their-lead L2: near b1
+follow-their-lead L5: DUP
+forgiveness-at-work L2: DUP
+forgiveness-at-work L2: near b1
+forgiveness L2: DUP
+forgiveness L2: near b1
+forgiveness L5: DUP
+free-grace L2: DUP
+free-grace L2: near b1
+free-grace L5: DUP
+fruits-of-the-spirit L2: DUP
+fruits-of-the-spirit L2: near b1
+future-proofing-knowledge L2: DUP
+future-proofing-knowledge L2: near b1
+gentleness L2: DUP
+gentleness L2: near b1
+gentleness L4: DUP
+getting-things-done L2: DUP
+getting-things-done L2: near b1
+git-based-cms L2: DUP
+git-based-cms L2: near b1
+
+```
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Level 2 bullets intentionally duplicate the first bullet because grade 8 plain rephrases the original.
+
+Exact duplicates of the first bullet and of later bullets must be removed. Eleven rest duplicates were found. Level 5 entries matching the first bullet exactly also need correction.
+
+The JSON will be updated to fix all duplicate cases. The apply script will be revised to replace existing levels.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+Updating duplicate level bullets and enabling re-apply in the script.
+
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/apply-levels-batch-1.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/levels-batch-1-bullets.json</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/levels-batch-1-bullets.json</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/levels-batch-1-bullets.json</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/levels-batch-1-bullets.json</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/levels-batch-1-bullets.json</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/levels-batch-1-bullets.json</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/levels-batch-1-bullets.json</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/levels-batch-1-bullets.json</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/levels-batch-1-bullets.json</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Fixing duplicate entries in the JSON file.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/levels-batch-1-bullets.json</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/levels-batch-1-bullets.json</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/levels-batch-1-bullets.json</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/levels-batch-1-bullets.json</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/levels-batch-1-bullets.json</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/levels-batch-1-bullets.json</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/levels-batch-1-bullets.json</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+The faithfulness replacement failed because two identical strings were present.
+
+Reading the faithfulness section to fix the replacement properly.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "contextAfter": 8,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/data/levels-batch-1-bullets.json",
+  "pattern": "faithfulness"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/data/levels-batch-1-bullets.json",
+  "pattern": "faithfulness",
+  "topFiles": [
+    {
+      "matchCount": 27,
+      "uri": "data/levels-batch-1-bullets.json"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 5
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Fixing a JSON syntax error caused by a missing comma after line 186.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/levels-batch-1-bullets.json</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/levels-batch-1-bullets.json</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/levels-batch-1-bullets.json</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/levels-batch-1-bullets.json</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/levels-batch-1-bullets.json</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/levels-batch-1-bullets.json</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/levels-batch-1-bullets.json</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/levels-batch-1-bullets.json</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/levels-batch-1-bullets.json</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/levels-batch-1-bullets.json</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/levels-batch-1-bullets.json</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/levels-batch-1-bullets.json</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/levels-batch-1-bullets.json</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/levels-batch-1-bullets.json</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/levels-batch-1-bullets.json</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/levels-batch-1-bullets.json</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/levels-batch-1-bullets.json</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+The finish-strong L5 note may have a duplicated or failed replacement.
+
+Checking the finish-strong section and fixing L2 if needed.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "contextAfter": 7,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/data/levels-batch-1-bullets.json",
+  "pattern": "finish-strong"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/data/levels-batch-1-bullets.json",
+  "pattern": "finish-strong",
+  "topFiles": [
+    {
+      "matchCount": 8,
+      "uri": "data/levels-batch-1-bullets.json"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 -c &#34;import json; json.load(open(&#39;data/levels-batch-1-bullets.json&#39;))&#34; &amp;&amp; python3 scripts/apply-levels-batch-1.py</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 -c "import json; json.load(open('data/levels-batch-1-bullets.json'))" && python3 scripts/apply-levels-batch-1.py
+```
+
+```
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/usr/lib/python3.12/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 110 column 5 (char 9965)
+
+```
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+The JSON file contains syntax errors due to missing commas.
+
+Fixing the finish-strong entry and checking line 110.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/levels-batch-1-bullets.json</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/levels-batch-1-bullets.json</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+A missing comma was found after Level 2 in the energy-protects-judgment note.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/levels-batch-1-bullets.json</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 -c &#34;import json; json.load(open(&#39;data/levels-batch-1-bullets.json&#39;)); print(&#39;json ok&#39;)&#34; &amp;&amp; python3 scripts/apply-levels-batch-1.py</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 -c "import json; json.load(open('data/levels-batch-1-bullets.json')); print('json ok')" && python3 scripts/apply-levels-batch-1.py
+```
+
+```
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/usr/lib/python3.12/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 152 column 5 (char 13977)
+
+```
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Missing commas were found in JSON arrays. A script will locate and fix all instances.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt; &#39;PY&#39;
+import re
+from pathlib import Path
+p = Path(&#39;data/levels-batch-1-bullets.json&#39;)
+lines = p.read_text().splitlines()
+out = []
+for i, line in enumerate(lines):
+    out.append(line)
+    if re.match(r&#39;^\s+&#34;[^&#34;]+&#34;\s*$&#39;, line):
+        # string line without comma - if next line is also a string in same array, need comma
+        if i + 1 &lt; len(lines) and re.match(r&#39;^\s+&#34;&#39;, lines[i+1]):
+            out[-1] = line + &#39;,&#39;
+p.write_text(&#39;\n&#39;.join(out) + &#39;\n&#39;)
+import json
+json.load(open(&#39;data/levels-batch-1-bullets.json&#39;))
+print(&#39;fixed, json ok&#39;)
+PY</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
+import re
+from pathlib import Path
+p = Path('data/levels-batch-1-bullets.json')
+lines = p.read_text().splitlines()
+out = []
+for i, line in enumerate(lines):
+    out.append(line)
+    if re.match(r'^\s+"[^"]+"\s*$', line):
+        # string line without comma - if next line is also a string in same array, need comma
+        if i + 1 < len(lines) and re.match(r'^\s+"', lines[i+1]):
+            out[-1] = line + ','
+p.write_text('\n'.join(out) + '\n')
+import json
+json.load(open('data/levels-batch-1-bullets.json'))
+print('fixed, json ok')
+PY
+```
+
+```
+fixed, json ok
+
+```
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Re-applying the edits and verifying the changes.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/apply-levels-batch-1.py &amp;&amp; python3 &lt;&lt; &#39;PY&#39;
+import json, re
+from pathlib import Path
+
+ROOT = Path(&#39;.&#39;)
+batch = json.loads((ROOT / &#39;data/levels-batch-1.json&#39;).read_text())
+BULLET_RE = re.compile(r&#39;^\s*-\s+&#39;)
+
+ok = skipped = bad = []
+for item in batch:
+    slug = item[&#39;slug&#39;]
+    text = (ROOT / f&#39;content/english/notes/{slug}.md&#39;).read_text()
+    m = re.search(r&#39;^key_concept:\s*\|\s*\n((?:  .*\n)+)&#39;, text, re.M)
+    bullets = [line.strip()[2:].strip() for line in m.group(1).splitlines() if BULLET_RE.match(line)]
+    if bullets[0] != item[&#39;b1&#39;]:
+        bad.append((slug, &#39;b1 changed&#39;))
+        continue
+    if not all(bullets[i].startswith(f&#39;Level {i}: &#39;) for i in range(1, 6)):
+        bad.append((slug, &#39;missing levels&#39;))
+        continue
+    if bullets[1].startswith(&#39;Level 1:&#39;):
+        ok.append(slug)
+    else:
+        skipped.append(slug)
+    # blank lines between bullets
+    raw = m.group(1)
+    bullet_lines = [l for l in raw.splitlines() if BULLET_RE.match(l)]
+    for bl in bullet_lines:
+        pass
+    # check dup with rest
+    rest = bullets[6:]
+    for i in range(1,6):
+        t = bullets[i][len(f&#39;Level {i}: &#39;):]
+        if t in rest:
+            bad.append((slug, f&#39;L{i} dup rest&#39;))
+
+print(f&#39;Edited: {len(ok)}&#39;)
+print(f&#39;Skipped: {len(skipped)}&#39;)
+print(f&#39;Issues: {len(bad)}&#39;)
+for b in bad[:15]:
+    print(&#39; &#39;, b)
+PY</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/apply-levels-batch-1.py && python3 << 'PY'
+import json, re
+from pathlib import Path
+
+ROOT = Path('.')
+batch = json.loads((ROOT / 'data/levels-batch-1.json').read_text())
+BULLET_RE = re.compile(r'^\s*-\s+')
+
+ok = skipped = bad = []
+for item in batch:
+    slug = item['slug']
+    text = (ROOT / f'content/english/notes/{slug}.md').read_text()
+    m = re.search(r'^key_concept:\s*\|\s*\n((?:  .*\n)+)', text, re.M)
+    bullets = [line.strip()[2:].strip() for line in m.group(1).splitlines() if BULLET_RE.match(line)]
+    if bullets[0] != item['b1']:
+        bad.append((slug, 'b1 changed'))
+        continue
+    if not all(bullets[i].startswith(f'Level {i}: ') for i in range(1, 6)):
+        bad.append((slug, 'missing levels'))
+        continue
+    if bullets[1].startswith('Level 1:'):
+        ok.append(slug)
+    else:
+        skipped.append(slug)
+    # blank lines between bullets
+    raw = m.group(1)
+    bullet_lines = [l for l in raw.splitlines() if BULLET_RE.match(l)]
+    for bl in bullet_lines:
+        pass
+    # check dup with rest
+    rest = bullets[6:]
+    for i in range(1,6):
+        t = bullets[i][len(f'Level {i}: '):]
+        if t in rest:
+            bad.append((slug, f'L{i} dup rest'))
+
+print(f'Edited: {len(ok)}')
+print(f'Skipped: {len(skipped)}')
+print(f'Issues: {len(bad)}')
+for b in bad[:15]:
+    print(' ', b)
+PY
+```
+
+```
+{'ok': 43}
+Edited: 43
+Skipped: 43
+Issues: 43
+  deliberate-practice
+  develop-dont-endanger
+  digital-garden
+  digital-minimalism
+  digital-serendipity
+  discern-his-will-daily
+  discipleship-vs-leadership
+  discipleship
+  discipline
+  dont-copy-the-pattern
+  dont-worry
+  drafting-in-public
+  duty-of-care
+  eliminate-before-managing
+  emotional-regulation
+
+```
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+The verification script has a bug. Every note contains Level 1, so the script appends to both ok and skipped lists.
+
+The verification script has flawed control flow. Items appended to the ok list continue through duplicate checks, so the bad list receives no entries. This explains why the Issues count appears wrong.
+
+The exact mechanism is now clear: the first bullet check routes every note into the ok list, while duplicate checks only append to bad when duplicates are found. A cleaner verification run is needed to confirm whether all 43 notes truly lack duplicate rest entries.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt; &#39;PY&#39;
+import json, re
+from pathlib import Path
+
+ROOT = Path(&#39;.&#39;)
+batch = json.loads((ROOT / &#39;data/levels-batch-1.json&#39;).read_text())
+BULLET_RE = re.compile(r&#39;^\s*-\s+&#39;)
+CONTRACTIONS = re.compile(r&#34;\b(don&#39;t|won&#39;t|can&#39;t|n&#39;t|&#39;re|&#39;ve|&#39;ll|&#39;d|it&#39;s|that&#39;s)\b&#34;, re.I)
+
+issues = []
+for item in batch:
+    slug = item[&#39;slug&#39;]
+    text = (ROOT / f&#39;content/english/notes/{slug}.md&#39;).read_text()
+    m = re.search(r&#39;^key_concept:\s*\|\s*\n((?:  .*\n)+)&#39;, text, re.M)
+    block = m.group(1)
+    bullets = [line.strip()[2:].strip() for line in block.splitlines() if BULLET_RE.match(line)]
+    if bullets[0] != item[&#39;b1&#39;]:
+        issues.append(f&#39;{slug}: b1 changed&#39;)
+    for i in range(1, 6):
+        if not bullets[i].startswith(f&#39;Level {i}: &#39;):
+            issues.append(f&#39;{slug}: bullet {i+1} bad prefix&#39;)
+    rest = bullets[6:]
+    for i in range(1, 6):
+        t = bullets[i][len(f&#39;Level {i}: &#39;):]
+        if t == bullets[0]:
+            issues.append(f&#39;{slug}: L{i} dup b1&#39;)
+        if t in rest:
+            issues.append(f&#39;{slug}: L{i} dup rest&#39;)
+        if CONTRACTIONS.search(t):
+            issues.append(f&#39;{slug}: L{i} contraction&#39;)
+    # blank line between consecutive bullets only
+    lines = block.splitlines()
+    prev_bullet = False
+    for line in lines:
+        if line.strip() == &#39;&#39;:
+            if prev_bullet:
+                issues.append(f&#39;{slug}: blank inside bullets&#39;)
+            prev_bullet = False
+        elif BULLET_RE.match(line):
+            prev_bullet = True
+        else:
+            prev_bullet = False
+
+print(f&#39;Total notes: {len(batch)}&#39;)
+print(f&#39;Issues: {len(issues)}&#39;)
+for i in issues[:20]:
+    print(&#39; &#39;, i)
+PY</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
+import json, re
+from pathlib import Path
+
+ROOT = Path('.')
+batch = json.loads((ROOT / 'data/levels-batch-1.json').read_text())
+BULLET_RE = re.compile(r'^\s*-\s+')
+CONTRACTIONS = re.compile(r"\b(don't|won't|can't|n't|'re|'ve|'ll|'d|it's|that's)\b", re.I)
+
+issues = []
+for item in batch:
+    slug = item['slug']
+    text = (ROOT / f'content/english/notes/{slug}.md').read_text()
+    m = re.search(r'^key_concept:\s*\|\s*\n((?:  .*\n)+)', text, re.M)
+    block = m.group(1)
+    bullets = [line.strip()[2:].strip() for line in block.splitlines() if BULLET_RE.match(line)]
+    if bullets[0] != item['b1']:
+        issues.append(f'{slug}: b1 changed')
+    for i in range(1, 6):
+        if not bullets[i].startswith(f'Level {i}: '):
+            issues.append(f'{slug}: bullet {i+1} bad prefix')
+    rest = bullets[6:]
+    for i in range(1, 6):
+        t = bullets[i][len(f'Level {i}: '):]
+        if t == bullets[0]:
+            issues.append(f'{slug}: L{i} dup b1')
+        if t in rest:
+            issues.append(f'{slug}: L{i} dup rest')
+        if CONTRACTIONS.search(t):
+            issues.append(f'{slug}: L{i} contraction')
+    # blank line between consecutive bullets only
+    lines = block.splitlines()
+    prev_bullet = False
+    for line in lines:
+        if line.strip() == '':
+            if prev_bullet:
+                issues.append(f'{slug}: blank inside bullets')
+            prev_bullet = False
+        elif BULLET_RE.match(line):
+            prev_bullet = True
+        else:
+            prev_bullet = False
+
+print(f'Total notes: {len(batch)}')
+print(f'Issues: {len(issues)}')
+for i in issues[:20]:
+    print(' ', i)
+PY
+```
+
+```
+Total notes: 43
+Issues: 0
+
+```
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+All 43 notes passed verification.
+
+The broken YAML file was deleted. The JSON and apply script were kept for reruns.
+
+Hugo or lint will be run to verify the YAML remains valid.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="delete_file"><details>
+<summary>Tool use: **delete_file**</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt; &#39;PY&#39;
+import yaml, re, json
+from pathlib import Path
+
+batch = json.loads(Path(&#39;data/levels-batch-1.json&#39;).read_text())
+errors = []
+for item in batch:
+    slug = item[&#39;slug&#39;]
+    text = Path(f&#39;content/english/notes/{slug}.md&#39;).read_text()
+    fm = yaml.safe_load(text.split(&#39;---&#39;, 2)[1])
+    if not fm.get(&#39;key_concept&#39;):
+        errors.append(f&#39;{slug}: no key_concept&#39;)
+print(&#39;YAML parse errors:&#39;, len(errors))
+for e in errors:
+    print(e)
+PY</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
+import yaml, re, json
+from pathlib import Path
+
+batch = json.loads(Path('data/levels-batch-1.json').read_text())
+errors = []
+for item in batch:
+    slug = item['slug']
+    text = Path(f'content/english/notes/{slug}.md').read_text()
+    fm = yaml.safe_load(text.split('---', 2)[1])
+    if not fm.get('key_concept'):
+        errors.append(f'{slug}: no key_concept')
+print('YAML parse errors:', len(errors))
+for e in errors:
+    print(e)
+PY
+```
+
+```
+YAML parse errors: 0
+
+```
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/flashcards.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+All 43 notes were processed. The key_concept updates are complete.
+
+All 43 notes were edited. Zero were skipped. A script was used instead of individual StrReplace calls for efficiency. YAML references were updated while JSON was kept.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="update_current_step"><details>
+<summary>Tool use: **update_current_step**</summary>
+An unknown error occurred
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Beginning edits on all 43 garden notes. Each file will receive five new level bullets inserted after the first bullet, replacing the second bullet while preserving all existing markdown formatting.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+**43 notes edited, 0 skipped.**
+
+For every slug in `data/levels-batch-1.json`, `key_concept` was updated as specified:
+
+1. **Bullet 1** — unchanged (claim line)
+2. **Old bullet 2** — removed (plain simplification)
+3. **Levels 1–5** — inserted at positions 2–6 with `Level N:` prefix
+4. **Former bullets 3+** — unchanged, now bullets 7+
+5. **Bible shortcodes and blank lines** — preserved (e.g. `discipleship-vs-leadership`, `gentleness`)
+
+**Level progression applied:**
+- Level 1: grade 6, analogy, no wikilinks
+- Level 2: grade 8 plain
+- Level 3: grade 10, cause-effect
+- Level 4: adult actionable claim
+- Level 5: nuance, wikilinks where appropriate
+
+Example (`deliberate-practice.md`):
+
+```5:12:content/english/notes/deliberate-practice.md
+  - Deliberate practice is focused reps on the part that breaks - not mindless repetition of what already works.
+  - Level 1: You practice the hard part on purpose until it works, like fixing your weak spot in a game instead of doing the easy moves over and over.
+  - Level 2: Focused practice means working on the part that fails, not repeating what you already do well.
+  - Level 3: Because the weak spot breaks under pressure, drilling it builds skill where autopilot leaves you exposed.
+  - Level 4: Name the slice that failed last time and run only that slice until it holds.
+  - Level 5: Comfortable reps feel productive but mean you left the weak slice - stay on what breaks until it holds.
+  - The discomfort is the signal you are in the right spot - comfortable reps mean you drifted back to what you already do well.
+```
+
+Supporting files for reruns: `data/levels-batch-1-bullets.json` and `scripts/apply-levels-batch-1.py`. All 43 notes parse cleanly as YAML frontmatter.

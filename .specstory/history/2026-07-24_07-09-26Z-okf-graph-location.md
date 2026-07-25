@@ -1703,3 +1703,133 @@ _**Agent (auto-low)**_
 cd /home/jorap/Documents/GitHub/jorap.com && git checkout ed9d09f1^ -- scripts/okf-viz/
 ```
 </details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Restored okf-viz. Proceeding with the next steps.
+
+Re-wiring export-okf-bundle.py to call generate_okf_viz. Adding a link to the okf-export page at the top of okf-export.md. Adding a link to the graph page in graph.html.
+
+Drafting the exact link text for both pages. Checking export-okf-bundle.py to find the right place to patch.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/export-okf-bundle.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/graph.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Patching export-okf-bundle.py to add subprocess imports and generate_okf_viz.
+
+Adding a link to the OKF graph at the top of okf-export.md and after the intro paragraph in graph.html.
+
+The graph.html link will use a button style with a muted description. Next step is running export:okf to verify the restored okf-viz.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Restoring viz generation and adding links on both pages.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/export-okf-bundle.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/export-okf-bundle.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/export-okf-bundle.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/export-okf-bundle.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/okf-export.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/okf-export.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/graph.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Running export:okf to verify it works.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/export-okf-bundle.py 2&gt;&amp;1 | tail -3 &amp;&amp; test -f static/exports/okf/viz.html &amp;&amp; echo &#34;viz.html OK&#34;</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/export-okf-bundle.py 2>&1 | tail -3 && test -f static/exports/okf/viz.html && echo "viz.html OK"
+```
+
+```
+Wrote OKF bundle to /home/jorap/Documents/GitHub/jorap.com/static/exports/okf (243 concepts, 11 hubs, 2051 graph edges → viz.html)
+viz.html OK
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The export works. I'll provide the link summary now.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Added OKF graph links on both pages and restored the build step so `/exports/okf/viz.html` works again after deploy.
+
+**[OKF Export](/notes/okf-export/)** (`okf-export.md`)
+- Link at the top of the body, before the ChatGPT workflow section
+- Same link in **Browse the bundle**
+
+**[Graph](/notes/graph/)** (`graph.html`)
+- Inline link in the intro line: “Also see the Open Knowledge Format (OKF) graph…”
+
+**Build fix** — `scripts/okf-viz/` was restored and wired back into `export-okf-bundle.py`, so `pnpm run export:okf` / `pnpm build` regenerates `viz.html`. Verified locally: 243 concepts, 2051 edges.
+
+After you deploy, both pages will point to a working graph at `/exports/okf/viz.html`.

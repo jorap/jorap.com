@@ -457,3 +457,1309 @@ Additional data:
 Status: **completed**
 
 </details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The user wants notes mentioning only a Bible chapter to include a verse range.
+
+Several modified notes appear in the git status. The user may be referring to a specific note from a prior conversation.
+
+Searching modified notes for chapter-only references. Scanning for patterns like "Matthew 5" without verse ranges.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Checking recently modified notes and scanning for chapter-only citations.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; rg --pcre2 -n &#39;\b([1-3]?\s?(?:John|Matthew|Mark|Luke|Romans|Galatians|Ephesians|Corinthians|Acts|Psalm|Isaiah|Deuteronomy|Peter|James|Hebrews|Timothy|Titus|Revelation))\s+\d+\b(?!\s*[:.]\d)&#39; content/english/notes/*.md</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && rg --pcre2 -n '\b([1-3]?\s?(?:John|Matthew|Mark|Luke|Romans|Galatians|Ephesians|Corinthians|Acts|Psalm|Isaiah|Deuteronomy|Peter|James|Hebrews|Timothy|Titus|Revelation))\s+\d+\b(?!\s*[:.]\d)' content/english/notes/*.md
+```
+
+```
+content/english/notes/assurance.md:83:  - front: "Romans 8 in my head but guilt still runs the show. What can't separate me?"
+content/english/notes/fruits-of-the-spirit.md:122:aliases: ["fruit of the Spirit", "Galatians 5 fruit"]
+content/english/notes/fruits-of-the-spirit.md:129:  - front: "Galatians 5 - flesh works on one side, Spirit fruit on the other. Which side am I feeding?"
+content/english/notes/jesus-prayers.md:12:  - Level 5: [[Withdraw to Pray]] is one rhythm; this index holds John 17, Gethsemane, and the cross - text you can review card by card.
+content/english/notes/jesus-prayers.md:64:- [[Pray for His Own]] - John 17: prayer for Himself, the twelve, and all future believers
+content/english/notes/jesus-prayers.md:71:Matthew and Mark also record Psalm 22 on the cross - "My God, My God, why have You forsaken Me?" - a cry of dereliction, not a separate hub note here.
+content/english/notes/grace.md:19:  - "Romans 4 in my head but guilt still treats every bad week like a revoked passport - grace settled standing; the walk is a different category."
+content/english/notes/grace.md:80:  - front: "Ephesians 2 pairs mercy and the gift in one rescue. Which one names what I receive?"
+content/english/notes/invest-in-the-few.md:13:  - John 13 shows the same logic at the end - washed their feet in the room, not from a stage.
+content/english/notes/invest-in-the-few.md:55:  - front: "Platform before presence with anyone. Mark 3 order?"
+content/english/notes/moved-with-compassion.md:62:  - front: "Policy says not my problem. His Matthew 9 move?"
+content/english/notes/into-your-hands.md:18:  - "My grandfather's last breath was calm quoting Psalm 31 - Jesus gave the whole church that sentence on the cross."
+content/english/notes/into-your-hands.md:55:  - front: "Anxiety spike feels like the end. Psalm 31 line He quoted?"
+content/english/notes/prayer-jesus-taught.md:10:  - Level 3: Two lanes in the text - Jesus speaking to the Father in John 17, and Jesus coaching disciples o
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "\\b(Matthew|Mark|Luke|John|Romans|Galatians|Ephesians|Corinthians|Acts|Psalm|Isaiah|Deuteronomy)\\s+\\d+[^:.\\d-]"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "\\b(Matthew|Mark|Luke|John|Romans|Galatians|Ephesians|Corinthians|Acts|Psalm|Isaiah|Deuteronomy)\\s+\\d+[^:.\\d-]",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/jesus-rhythms.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/assurance.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/grace.md"
+    },
+    {
+      "matchCount": 11,
+      "uri": "content/english/notes/pray-for-his-own.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/fruits-of-the-spirit.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/table-fellowship.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/great-commission.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/into-your-hands.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/invest-in-the-few.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/thank-father-at-lazarus.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/sabbath-for-good.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/prayer-jesus-taught.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/moved-with-compassion.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/justification.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/the-fathers-food.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/glorify-your-name.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/jesus-prayers.md"
+    }
+  ],
+  "totalFiles": 17,
+  "totalMatches": 35
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-23_12-44-59Z-garden-link-issues.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The user likely means notes from a recent editing session.
+
+Searching modified notes for bible shortcodes and frontmatter fields that reference specific chapters.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.md",
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "\\b(Matthew|Mark|Luke|John|Romans|Galatians|Ephesians|Corinthians|Acts|Psalm|Isaiah|Deuteronomy)\\s+\\d+\\b"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "\\b(Matthew|Mark|Luke|John|Romans|Galatians|Ephesians|Corinthians|Acts|Psalm|Isaiah|Deuteronomy)\\s+\\d+\\b",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/love.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/the-narrow-way.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/pray-when-drained.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/take-up-your-cross.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/let-your-yes-be-yes.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/humility-and-service.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/the-golden-rule.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/standing-vs-fellowship.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": "content/english/notes/table-fellowship.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/turn-the-other-cheek.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "content/english/notes/thank-father-for-revelation.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": "content/english/notes/withdraw-to-pray.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/success-is-stewardship.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": "content/english/notes/the-fathers-food.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/the-wise-builder.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/the-beatitudes.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "content/english/notes/thank-father-at-lazarus.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/treasure-in-heaven.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/dont-copy-the-pattern.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/fruits-of-the-spirit.md"
+    }
+  ],
+  "totalFiles": 84,
+  "totalMatches": 246
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": true,
+  "glob": "*.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "focus|chapter"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "focus|chapter",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/name-the-feeling.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/information-diet.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/life-before-achievement.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/the-knowledge-lifecycle.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/lean-startup.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/accountability.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/duty-of-care.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/the-second-brain-workflow.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/outcomes-over-pitch-decks.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/spaced-repetition.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/influence-without-title.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/building-a-personal-api.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/mind-mapping.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/listen-before-fixing.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/ethical-leadership.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/expect-the-counter.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/share-what-you-learn.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/purpose-and-vision.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/active-knowledge-curation.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/own-your-part.md"
+    }
+  ],
+  "totalFiles": 38,
+  "totalMatches": 178
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; git diff --name-only content/english/notes/</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && git diff --name-only content/english/notes/
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Git diff returned empty output. The files may be unstaged.
+
+Searching recently viewed faith notes for bible chapter references that lack verse ranges.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "\\{\\{\u003c bible[^\u003e]*\"\\s*[A-Za-z0-9 ]+\\s+\\d+\"\\s*\u003e}}"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "\\{\\{\u003c bible[^\u003e]*\"\\s*[A-Za-z0-9 ]+\\s+\\d+\"\\s*\u003e}}",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "bible ref=\"[^\"]*\\s\\d+\""
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "bible ref=\"[^\"]*\\s\\d+\"",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/take-up-your-cross.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/humility-and-service.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-narrow-way.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Notes mentioning only a Bible chapter should specify a verse range.
+
+Searching for chapter-only bible references in frontmatter fields and shortcodes. Reviewing specstory history for context.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "bible_focus|scripture_focus|verse_range|focus_verse"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "bible_focus|scripture_focus|verse_range|focus_verse",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "\\b(Matthew|Mark|Luke|John|Romans)\\s+\\d+\\s*[-–]"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "\\b(Matthew|Mark|Luke|John|Romans)\\s+\\d+\\s*[-–]",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-23_12-44-59Z-garden-link-issues.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Searching the specstory file for bible chapters and verse ranges.
+
+Also checking agent transcripts for recent conversation about this.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.specstory",
+  "pattern": "chapter only|verse range|bible chapter"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.specstory",
+  "pattern": "chapter only|verse range|bible chapter",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-07-07_14-32-44Z-nasb-1995-bible-verses.md"
+    },
+    {
+      "matchCount": 13,
+      "uri": ".specstory/history/2026-07-09_14-18-35Z-bible-verse-shortcode-review.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": ".specstory/history/2026-07-23_12-53-22Z-bible-chapter-verse-range.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": ".specstory/history/2026-07-10_05-58-29Z-jorap-voice-refinement.md"
+    },
+    {
+      "matchCount": 9,
+      "uri": ".specstory/history/2026-07-08_00-50-03Z-nasb1995-addition-request.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-08_02-17-18Z-ephesians-2-8-9.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": ".specstory/history/2026-07-08_01-33-43Z-nasb1995-bible-yaml-format.md"
+    }
+  ],
+  "totalFiles": 7,
+  "totalMatches": 35
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts",
+  "pattern": "chapter only|verse range|bible chapter"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts",
+  "pattern": "chapter only|verse range|bible chapter",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": "../../../.cursor/projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/d9e2a612-d7ae-4b14-99e7-73f8fdc351fb/d9e2a612-d7ae-4b14-99e7-73f8fdc351fb.jsonl"
+    },
+    {
+      "matchCount": 1,
+      "uri": "../../../.cursor/projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/ffc430b2-e715-4209-bcb5-8d35f96dc1ab/ffc430b2-e715-4209-bcb5-8d35f96dc1ab.jsonl"
+    },
+    {
+      "matchCount": 3,
+      "uri": "../../../.cursor/projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/6010ba1d-c782-46c4-b511-e99f375bcf79/6010ba1d-c782-46c4-b511-e99f375bcf79.jsonl"
+    },
+    {
+      "matchCount": 1,
+      "uri": "../../../.cursor/projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/d3b5f82c-55d5-4290-a04f-74e2a070aa74/d3b5f82c-55d5-4290-a04f-74e2a070aa74.jsonl"
+    }
+  ],
+  "totalFiles": 4,
+  "totalMatches": 7
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "\\b(Matthew|Mark|Luke|John|Romans|Galatians|Ephesians|Corinthians|Acts|Psalm|Isaiah|Deuteronomy)\\s+\\d+[^:0-9]"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "\\b(Matthew|Mark|Luke|John|Romans|Galatians|Ephesians|Corinthians|Acts|Psalm|Isaiah|Deuteronomy)\\s+\\d+[^:0-9]",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/the-fathers-food.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/glorify-your-name.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/grace.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/assurance.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/invest-in-the-few.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/table-fellowship.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/thank-father-at-lazarus.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/justification.md"
+    },
+    {
+      "matchCount": 11,
+      "uri": "content/english/notes/pray-for-his-own.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/jesus-rhythms.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/sabbath-for-good.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/jesus-prayers.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/into-your-hands.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/fruits-of-the-spirit.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/prayer-jesus-taught.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/moved-with-compassion.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/great-commission.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/sanctification.md"
+    }
+  ],
+  "totalFiles": 18,
+  "totalMatches": 36
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Adding verse ranges to notes that mention only a Bible chapter.
+
+Reviewing the specstory file for context. Searching for chapter-only bible shortcodes to identify which notes need verse ranges.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-23_12-53-22Z-bible-chapter-verse-range.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "\\{\\{\u003c bible[^\u003e]+(Matthew|Mark|Luke|John|Romans|Galatians|Ephesians|Acts|Psalm)\\s+\\d+\\s*\"\\s*\u003e}}"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "\\{\\{\u003c bible[^\u003e]+(Matthew|Mark|Luke|John|Romans|Galatians|Ephesians|Acts|Psalm)\\s+\\d+\\s*\"\\s*\u003e}}",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "ref=\"(Matthew|Mark|Luke|John|Romans|Galatians|Ephesians|Acts|Psalm) \\d+\""
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "ref=\"(Matthew|Mark|Luke|John|Romans|Galatians|Ephesians|Acts|Psalm) \\d+\"",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+There are no Bible shortcodes with chapter-only references.
+
+Adding verse ranges to chapter-only references. Flashcard shorthand and aliases will remain unchanged.
+
+The scope includes both prose references and the `{{< bible >}}` shortcode `ref` attribute. Chapter-only mentions will be paired with a relevant verse range based on the note's content.
+
+I've mapped out the specific verse ranges for each chapter-only reference across the affected files. Examples include Romans 8:38-39, Galatians 5:22-23, John 17:1-26, Romans 4:4-5, Ephesians 2:8-9, Psalm 31:5, and Matthew 9:36.
+
+More files are mapped. Ranges include John 13:1-17, Mark 3:14, John 12:27-28, Luke 5:29-32, John 5:19-30, John 11:41-42, Luke 13:10-16, and Matthew 28:18-20.
+
+I am checking the remaining modified notes from git status for any additional chapter-only references I may have missed. Adding verse ranges to flashcards will lengthen them slightly, but that should improve focus.
+
+I will run a script to find all chapter-only references and apply the verse ranges in a batch edit.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Getting the full list and reading key files to pick the right verse ranges.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; rg --pcre2 -n &#39;\b([1-3]?\s?(?:John|Matthew|Mark|Luke|Romans|Galatians|Ephesians|Corinthians|Acts|Psalm|Isaiah|Deuteronomy|Peter|James|Hebrews|Timothy|Titus|Revelation))\s+\d+\b(?!\s*[:.]\d)&#39; content/english/notes/*.md</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && rg --pcre2 -n '\b([1-3]?\s?(?:John|Matthew|Mark|Luke|Romans|Galatians|Ephesians|Corinthians|Acts|Psalm|Isaiah|Deuteronomy|Peter|James|Hebrews|Timothy|Titus|Revelation))\s+\d+\b(?!\s*[:.]\d)' content/english/notes/*.md
+```
+
+```
+content/english/notes/assurance.md:83:  - front: "Romans 8 in my head but guilt still runs the show. What can't separate me?"
+content/english/notes/fruits-of-the-spirit.md:122:aliases: ["fruit of the Spirit", "Galatians 5 fruit"]
+content/english/notes/fruits-of-the-spirit.md:129:  - front: "Galatians 5 - flesh works on one side, Spirit fruit on the other. Which side am I feeding?"
+content/english/notes/grace.md:19:  - "Romans 4 in my head but guilt still treats every bad week like a revoked passport - grace settled standing; the walk is a different category."
+content/english/notes/grace.md:80:  - front: "Ephesians 2 pairs mercy and the gift in one rescue. Which one names what I receive?"
+content/english/notes/invest-in-the-few.md:13:  - John 13 shows the same logic at the end - washed their feet in the room, not from a stage.
+content/english/notes/invest-in-the-few.md:55:  - front: "Platform before presence with anyone. Mark 3 order?"
+content/english/notes/jesus-prayers.md:12:  - Level 5: [[Withdraw to Pray]] is one rhythm; this index holds John 17, Gethsemane, and the cross - text you can review card by card.
+content/english/notes/jesus-prayers.md:64:- [[Pray for His Own]] - John 17: prayer for Himself, the twelve, and all future believers
+content/english/notes/jesus-prayers.md:71:Matthew and Mark also record Psalm 22 on the cross - "My God, My God, why have You forsaken Me?" - a cry of dereliction, not a separate hub note here.
+content/english/notes/into-your-hands.md:18:  - "My grandfather's last breath was calm quoting Psalm 31 - Jesus gave the whole church that sentence on the cross."
+content/english/notes/into-your-hands.md:55:  - front: "Anxiety spike feels like the end. Psalm 31 line He quoted?"
+content/english/notes/moved-with-compassion.md:62:  - front: "Policy says not my problem. His Matthew 9 move?"
+content/english/notes/glorify-your-name.md:53:  - front: "Soul troubled before a costly yes. One prayer line from John 12?"
+content/english/notes/glorify-yo
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/pray-for-his-own.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/assurance.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/grace.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+All chapter-only references will be updated to include verse ranges.
+
+Drafting verse ranges for each file now. Examples include Romans 8:38-39, Galatians 5:22-23, and John 13:1-17.
+
+The remaining files are mapped. John 12:27-28, Luke 5:29-32, John 5:19, John 11:41-42, Matthew 28:18-20, and Luke 13:10-16 are added. John 17:20 already has a verse.
+
+Sanctification.md is mapped to Galatians 5:22-23. Prose references and meta fields will receive verse ranges. Aliases will keep short, recognizable names rather than full verse ranges.
+
+Meta titles will also gain verse ranges for consistency. Proceeding to read the remaining files for batch editing.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/invest-in-the-few.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/jesus-prayers.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/into-your-hands.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/glorify-your-name.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/great-commission.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Starting systematic edits to add verse ranges for notes mentioning only a Bible chapter.
+
+Adding verse ranges to four files:
+
+- invest-in-the-few.md: John 13:1–17 and Mark 3:14
+- jesus-prayers.md: John 17:1–26 and Psalm 22:1
+- into-your-hands.md: Psalm 31:5
+- glorify-your-name.md: John 12:27–28
+
+Most remaining files need only straightforward verse ranges. For jesus-prayers.md line 64, the colon after "John 17" is punctuation, not a verse separator, so the range should read "John 17:1-26 - prayer for Himself..."
+
+For "pray-for-his-own.md", the replacement must be precise: "John 17:20" stays untouched, while "John 17" becomes "John 17:1-26" across all surrounding contexts including punctuation and meta titles.
+
+For "pray-for-his-own.md", the safest approach is targeted replacements rather than bulk replace_all. The phrase "John 17's branch" could be refined to "John 17:20's branch" to point directly to the verse about future believers.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Updating chapter-only references with focused verse ranges across the affected notes.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/assurance.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/fruits-of-the-spirit.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/grace.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/invest-in-the-few.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/justification.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/moved-with-compassion.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/fruits-of-the-spirit.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/grace.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/invest-in-the-few.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/sanctification.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Continuing with the remaining files.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/jesus-prayers.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/jesus-prayers.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/jesus-prayers.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/into-your-hands.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/into-your-hands.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/glorify-your-name.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/glorify-your-name.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/table-fellowship.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-fathers-food.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/prayer-jesus-taught.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Continuing with the remaining notes: thank-father-at-lazarus, jesus-rhythms, great-commission, sabbath-for-good, and pray-for-his-own.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/thank-father-at-lazarus.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/thank-father-at-lazarus.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/jesus-rhythms.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/jesus-rhythms.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/great-commission.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/sabbath-for-good.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/pray-for-his-own.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/pray-for-his-own.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/pray-for-his-own.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/pray-for-his-own.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Updating the examples line in pray-for-his-own.md. There are two occurrences of the church drama line; one may be a duplicate.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/pray-for-his-own.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/pray-for-his-own.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/pray-for-his-own.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/pray-for-his-own.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; rg --pcre2 -n &#39;\b([1-3]?\s?(?:John|Matthew|Mark|Luke|Romans|Galatians|Ephesians|Corinthians|Acts|Psalm|Isaiah|Deuteronomy|Peter|James|Hebrews|Timothy|Titus|Revelation))\s+\d+\b(?!\s*[:.]\d)&#39; content/english/notes/*.md</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && rg --pcre2 -n '\b([1-3]?\s?(?:John|Matthew|Mark|Luke|Romans|Galatians|Ephesians|Corinthians|Acts|Psalm|Isaiah|Deuteronomy|Peter|James|Hebrews|Timothy|Titus|Revelation))\s+\d+\b(?!\s*[:.]\d)' content/english/notes/*.md
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+All chapter-only references now include verse ranges. No remaining matches were found.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Updated **18 notes** that cited Bible chapters without verses. Each reference now points at the specific passage the note is about:
+
+| Note | Was | Now |
+|------|-----|-----|
+| `pray-for-his-own.md` | John 17 | John 17:1-26 (unity branch: 17:11-23, future believers: 17:20) |
+| `assurance.md` | Romans 8 | Romans 8:38-39 |
+| `grace.md` | Romans 4, Ephesians 2 | Romans 4:4-5, Ephesians 2:8-9 |
+| `justification.md` | Romans 4 | Romans 4:4-5 |
+| `fruits-of-the-spirit.md`, `sanctification.md` | Galatians 5 | Galatians 5:22-23 |
+| `invest-in-the-few.md`, `jesus-rhythms.md` | John 13, Mark 3 | John 13:1-17, Mark 3:14 |
+| `jesus-prayers.md`, `prayer-jesus-taught.md` | John 17 | John 17:1-26 |
+| `into-your-hands.md` | Psalm 31 | Psalm 31:5 |
+| `jesus-prayers.md` | Psalm 22 | Psalm 22:1 |
+| `glorify-your-name.md` | John 12 | John 12:27-28 |
+| `thank-father-at-lazarus.md` | John 11 | John 11:41-42 |
+| `table-fellowship.md` | Luke 5 | Luke 5:29-32 |
+| `the-fathers-food.md` | John 5 | John 5:19 |
+| `sabbath-for-good.md` | Luke 13 | Luke 13:10-16 |
+| `moved-with-compassion.md` | Matthew 9 | Matthew 9:36 |
+| `great-commission.md` | Matthew 28 | Matthew 28:18-20 |
+
+`{{< bible >}}` shortcodes were already verse-specific — this pass only touched prose, cards, aliases, and metadata. A full scan shows no remaining chapter-only references in the notes garden.

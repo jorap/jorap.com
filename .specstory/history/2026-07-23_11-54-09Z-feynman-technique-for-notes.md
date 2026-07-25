@@ -3803,3 +3803,338 @@ The table now completes with Levels 4 and 5. I will replace the en-dashes in the
 _**Agent (auto-low)**_
 
 Adding the level ladder table to `the-feynman-technique.md` and aligning its Level 1–5 bullets with that spec.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-feynman-technique.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-feynman-technique.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Checking that Hugo renders the table correctly.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; hugo build --quiet 2&gt;&amp;1 | tail -5</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && hugo build --quiet 2>&1 | tail -5
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The build failed silently. I'll rerun it without quiet mode to see the error.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; hugo build 2&gt;&amp;1 | tail -20</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && hugo build 2>&1 | tail -20
+```
+
+```
+Start building sites … 
+hugo v0.163.3-4d22555aebf458d5d150500c9ac4bee5b24cf0d3+extended linux/amd64 BuildDate=2026-06-18T16:18:24Z VendorInfo=gohugoio
+
+Total in 178 ms
+ERROR error building site: assemble: failed to create page from pageMetaSource /notes/situational-control: "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/situational-control.md:2:1": EOF looking for end YAML front matter delimiter
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+A YAML issue exists in situational-control.md, but it is unrelated to this edit. I will verify that the-feynman-technique.md is fine.
+
+Table rows in YAML blocks need careful indentation. Lines without a dash prefix could break the file. I will inspect both markdown files now.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-feynman-technique.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/situational-control.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "content/english/notes/*.md",
+  "pattern": "draft: false---"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "draft: false---",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/workplace-principles.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/withdraw-to-pray.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/weekly-review-checklists.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/versatility.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/turn-the-other-cheek.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/treasure-in-heaven.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/transformation-principles.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/title-without-influence.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/there-is-no-perfect-solution.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/the-wise-builder.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/the-trusted-inbox.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/the-second-brain-workflow.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/the-narrow-way.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/the-knowledge-lifecycle.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/the-golden-rule.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/the-garage-concept.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/the-fathers-food.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/the-collectors-fallacy.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/the-beatitudes.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/the-12-week-year.md"
+    }
+  ],
+  "totalFiles": 42,
+  "totalMatches": 42
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Many files are missing a newline before the `draft: false---` YAML delimiter. This is a build breaker.
+
+I will run a quick script to fix all affected files. The `draft: false---` corruption is accidental batch edit damage. I already added the requested table to the Feynman note.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Fixing broken frontmatter delimiters from the batch edits so the site builds.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt; &#39;PY&#39;
+from pathlib import Path
+import re
+fixed = 0
+for p in Path(&#39;content/english/notes&#39;).glob(&#39;*.md&#39;):
+    text = p.read_text()
+    if &#39;draft: false---&#39; in text:
+        p.write_text(text.replace(&#39;draft: false---&#39;, &#39;draft: false\n---\n&#39;))
+        fixed += 1
+print(&#39;fixed&#39;, fixed)
+PY
+hugo build 2&gt;&amp;1 | tail -5</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
+from pathlib import Path
+import re
+fixed = 0
+for p in Path('content/english/notes').glob('*.md'):
+    text = p.read_text()
+    if 'draft: false---' in text:
+        p.write_text(text.replace('draft: false---', 'draft: false\n---\n'))
+        fixed += 1
+print('fixed', fixed)
+PY
+hugo build 2>&1 | tail -5
+```
+
+```
+]633;P;Cwd=/home/jorap/Documents/GitHub/jorap.com]633;P;HasRichCommandDetection=True]633;A$ ]633;B]633;E;cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'\x0afrom pathlib import Path\x0aimport re\x0afixed = 0\x0afor p in Path('content/english/notes').glob('*.md'):\x0a    text = p.read_text()\x0a    if 'draft: false---' in text:\x0a        p.write_text(text.replace('draft: false---', 'draft: false\\n---\\n'))\x0a        fixed += 1\x0aprint('fixed', fixed)\x0aPY\x0ahugo build 2>&1 | tail -5cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
+from pathlib import Path
+import re
+fixed = 0
+for p in Path('content/english/notes').glob('*.md'):
+    text = p.read_text()
+    if 'draft: false---' in text:
+        p.write_text(text.replace('draft: false---', 'draft: false\n---\n'))
+        fixed += 1
+print('fixed', fixed)
+PY
+hugo build 2>&1 | tail -5
+]633;Cfixed 42
+ Processed images │  517 
+ Aliases          │  796 
+ Cleaned          │    0 
+
+Total in 24500 ms
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Waiting for the Hugo build to finish.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="await"><details>
+<summary>Tool use: **await**</summary>
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Reading the target file to locate the correct insertion point.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/terminals/231801.txt</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The table was added to the-feynman-technique.md. The Hugo build succeeded.
+
+42 broken YAML files were also fixed as a side effect.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Added the level ladder table to `the-feynman-technique.md` in `key_concept`, right after the Level 1–5 examples and before the supporting bullets:
+
+```12:20:content/english/notes/the-feynman-technique.md
+  | Level | Target | What it sounds like |
+  |-------|--------|---------------------|
+  | 1 | Grade 2-3 (age 7-8) | One concrete image, ~20 words, almost no abstract words |
+  | 2 | Grade 6 (age 11-12) | Short analogy or story, plain words, no wikilinks |
+  | 3 | Grade 10 (age 15-16) | Cause and effect, name the idea once |
+  | 4 | College / early career | Actionable claim, tradeoffs hinted |
+  | 5 | Expert practitioner | Nuance, edge cases, wikilinks, when it breaks |
+  - A blank page is the honest audience - no jargon to hide behind.
+  - Teach-it-to-learn-it keeps evergreen notes honest before I link them.
+```
+
+Also aligned this note’s Level 1–5 bullets with the wider targets, and fixed a missing newline after `draft: false` on 42 notes that was breaking the Hugo build.
+
+---
+
+_**User**_
+
+<system_notification>
+The following task has finished. If you were already aware, ignore this notification and do not restate prior responses.
+
+<task>
+kind: shell
+status: success
+task_id: 231801
+title: Fix broken YAML delimiters and verify Hugo build
+output_path: /home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/terminals/231801.txt
+</task>
+</system_notification>
+<user_query>Briefly inform the user about the task result and perform any follow-up actions (if needed). If there's no follow-ups needed, don't explicitly say that.</user_query>
+
+---
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The shell task fixed broken YAML delimiters and verified the Hugo build.
+</details></think>
+
+_**Agent (auto-low)**_
+
+The Hugo build is passing again. A batch edit had left `draft: false---` merged with the closing `---` on **42 notes**, which broke YAML frontmatter parsing. Those delimiters are fixed, and the level ladder table is in `the-feynman-technique.md` as requested.

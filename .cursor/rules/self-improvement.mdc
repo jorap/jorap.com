@@ -1,0 +1,38 @@
+---
+description: Encode repeat mistakes into skills and rules so the next session starts ahead
+alwaysApply: true
+---
+
+# Self-improvement loop
+
+After substantive work, look for missing guidance before ending.
+
+## Encode trigger
+
+Update a skill or rule when **any** of these are true:
+
+- The user corrected the same class of mistake twice in one session
+- A lint or `pnpm garden:health` failure recurred after you thought it was fixed
+- You improvised a convention that should be standard (voice, wikilinks, deploy, ponytail)
+
+## Where to write it
+
+| Domain | Target |
+|--------|--------|
+| Notes garden voice/shape | `.cursor/skills/garden-voice/SKILL.md` or `anti-slop.mdc` |
+| Blog voice | `.cursor/skills/jorap-voice/SKILL.md` |
+| Flashcards | `.cursor/skills/flashcards/SKILL.md` |
+| Hugo/theme | `.cursor/skills/hugo-template-guidance/SKILL.md` |
+| Repo tooling / deploy | `.cursor/rules/*.mdc` or `package.json` scripts |
+| Intentional shortcut | `ponytail:` comment in code → `/ponytail-debt` |
+
+One line per lesson. Delete obsolete guidance when you add the new line.
+
+## Do not encode
+
+- One-off typos, one-time user preferences, or content facts that belong in notes under `content/`
+- Speculative rules for problems that have not happened yet (YAGNI)
+
+## Pair with maintenance
+
+Weekly: `pnpm garden:health` (see `garden-maintenance` skill). Monthly: `/ponytail-debt` on `ponytail:` markers.

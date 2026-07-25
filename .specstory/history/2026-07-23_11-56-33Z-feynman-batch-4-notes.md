@@ -435,5 +435,594 @@ The seventh note frames following Jesus as daily surrender of one's will, not th
 
 The ninth note protects the most important task from inbox rewrites by blocking email first. The tenth note says one hero sprint cannot survive a bad week; a steady routine is better. The eleventh note suggests joining the group's framing before redirecting blame.
 
-The eleventh note adds that listening to the group's perspective before redirecting blame prevents jumping straight to fault. The twelfth note uses a highway map analogy: without a clear destination, every exit looks equally
+The eleventh note adds that listening to the group's perspective before redirecting blame prevents jumping straight to fault. The twelfth note uses a highway map analogy: without a clear destination, every exit looks equally urgent. The thirteenth note recommends stepping back every ninety days so weekly noise does not swallow the yearly aim.
+
+The fourteenth note suggests pairing two unrelated ideas side by side so your brain notices links you missed earlier. The fifteenth note describes Jesus reading Isaiah aloud in the synagogue on the Sabbath, then sitting down to teach.
+
+The fifteenth note warns that a read-later queue becomes a graveyard of unread links. The sixteenth note says to fix a relationship breach before performance reviews or big meetings.
+
+The eighteenth note warns that worship with an unreconciled heart is hollow. The nineteenth note says small reliability compounds: showing up on time again and again eventually wins trust for bigger things.
+
+The twentieth note tells people to pay taxes and keep worship for God, warning against revolutionary tax refusal or idolizing the state. The twenty-first note says staying in God’s word makes you a true disciple; truth frees the mind from the culture of hurry and outrage.
+
+The twenty-second note tells people to repent and believe today rather than waiting until their habits look respectable. The twenty-third note says to feel the blow, recover, and keep being useful instead of pretending it never hurt. The twenty-fourth note suggests having a concrete undo path for choices that involve deploying or releasing something.
+
+The twenty-fifth note says the point of studying is whether you can recall and apply the idea when it matters, not how many flashcards you flipped or how long your streak lasted. The twenty-sixth note says to eliminate the strongest hazard first, then rank the remaining risks.
+
+The twenty-seventh note warns that if you cannot explain the undo path in one sentence, the change is not ready to ship. The twenty-eighth note uses the Sabbath as an example: rest was made for people, not to trap them in rules, and Jesus chose mercy and healing over empty religious performance.
 </details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+Inserting grade-6 explanation bullets after bullet 1 in all 43 notes.
+
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="update_current_step"><details>
+<summary>Tool use: **update_current_step**</summary>
+An unknown error occurred
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/practice-small-experiments.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/pray-before-you-choose.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/pray-for-his-own.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/pray-when-drained.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/prayer-jesus-taught.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/preparedness.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/present-a-living-sacrifice.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/pressure-reveals-weakness.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/priorities-before-the-inbox.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/process-over-outcomes.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/psychological-safety.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/purpose-and-vision.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/quarterly-planning.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/random-duo.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/read-in-synagogue.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/read-later-queue.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/reconcile-before-the-review.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/reconciliation-before-worship.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/reliability.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/render-unto-caesar.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Twenty notes are complete. Twenty-three remain.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/renewed-mind.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/repent-and-believe.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/resilience.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/reversibility.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/review.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/risk-management.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/rollback-principle.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/sabbath-for-good.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/safety-by-design.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/safety-comes-first.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/sanctification.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/second-order-thinking.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/secret-devotion.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/seek-the-kingdom-first.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/self-control.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/selling-static-sites.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/servant-leadership.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/set-calm-boundaries.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/shadow-the-work.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/share-what-you-learn.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/ship-it.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/signal-vs-noise.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/signature-move.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Verifying the total count of 43 notes before editing.
+
+Confirmed 24 notes so far. Continuing through the remaining items in the batch.
+
+All 43 notes have been processed. Now verifying the new bullet structure across all files.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+Verifying all 43 notes were updated.
+
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 -c &#34;
+import json, re
+from pathlib import Path
+
+batch = json.loads(Path(&#39;data/feynman-batch-4.json&#39;).read_text())
+edited = 0
+skipped = []
+for item in batch:
+    slug = item[&#39;slug&#39;]
+    path = Path(f&#39;content/english/notes/{slug}.md&#39;)
+    if not path.exists():
+        skipped.append((slug, &#39;file not found&#39;))
+        continue
+    text = path.read_text()
+    m = re.search(r&#39;key_concept:\s*\|\s*\n((?:  .*\n)+)&#39;, text)
+    if not m:
+        skipped.append((slug, &#39;no key_concept block&#39;))
+        continue
+    block = m.group(1)
+    bullets = [ln.strip()[2:] for ln in block.split(&#39;\n&#39;) if ln.strip().startswith(&#39;- &#39;)]
+    # find first bullet (may be after bible shortcode)
+    if not bullets:
+        skipped.append((slug, &#39;no bullets found&#39;))
+        continue
+    b1 = bullets[0]
+    if item[&#39;b1&#39;] not in b1 and b1 not in item[&#39;b1&#39;]:
+        skipped.append((slug, f&#39;bullet 1 mismatch: {b1[:60]}...&#39;))
+        continue
+    if len(bullets) &lt; 2:
+        skipped.append((slug, &#39;only one bullet - feynman missing&#39;))
+        continue
+    edited += 1
+print(f&#39;Edited: {edited}/{len(batch)}&#39;)
+if skipped:
+    for s, why in skipped:
+        print(f&#39;SKIP {s}: {why}&#39;)
+else:
+    print(&#39;All notes verified.&#39;)
+&#34;
+</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 -c "
+import json, re
+from pathlib import Path
+
+batch = json.loads(Path('data/feynman-batch-4.json').read_text())
+edited = 0
+skipped = []
+for item in batch:
+    slug = item['slug']
+    path = Path(f'content/english/notes/{slug}.md')
+    if not path.exists():
+        skipped.append((slug, 'file not found'))
+        continue
+    text = path.read_text()
+    m = re.search(r'key_concept:\s*\|\s*\n((?:  .*\n)+)', text)
+    if not m:
+        skipped.append((slug, 'no key_concept block'))
+        continue
+    block = m.group(1)
+    bullets = [ln.strip()[2:] for ln in block.split('\n') if ln.strip().startswith('- ')]
+    # find first bullet (may be after bible shortcode)
+    if not bullets:
+        skipped.append((slug, 'no bullets found'))
+        continue
+    b1 = bullets[0]
+    if item['b1'] not in b1 and b1 not in item['b1']:
+        skipped.append((slug, f'bullet 1 mismatch: {b1[:60]}...'))
+        continue
+    if len(bullets) < 2:
+        skipped.append((slug, 'only one bullet - feynman missing'))
+        continue
+    edited += 1
+print(f'Edited: {edited}/{len(batch)}')
+if skipped:
+    for s, why in skipped:
+        print(f'SKIP {s}: {why}')
+else:
+    print('All notes verified.')
+"
+
+```
+
+```
+Edited: 42/43
+SKIP signature-move: only one bullet - feynman missing
+
+```
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+A blank line between bullets may be breaking the regex match for the signature-move note.
+
+Reading the file to diagnose the regex failure.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/signature-move.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+The signature-move file does contain the feynman bullet. The verification script had a bug: it only counted consecutive bullets and ignored blank lines between them.
+
+All 43 notes were edited correctly. Each file keeps the original bullet 1, inserts a grade-6 simplification as bullet 2, and pushes existing bullets 3 onward down. Now re-running verification with a corrected script that properly counts bullets across blank lines.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 -c &#34;
+import json, re
+from pathlib import Path
+
+batch = json.loads(Path(&#39;data/feynman-batch-4.json&#39;).read_text())
+edited = 0
+skipped = []
+for item in batch:
+    slug = item[&#39;slug&#39;]
+    path = Path(f&#39;content/english/notes/{slug}.md&#39;)
+    if not path.exists():
+        skipped.append((slug, &#39;file not found&#39;))
+        continue
+    text = path.read_text()
+    m = re.search(r&#39;key_concept:\s*\|\s*\n((?:.*\n)+?)(?=examples:|shareable_thought:|slug:|cards:|relationships:|\Z)&#39;, text)
+    if not m:
+        skipped.append((slug, &#39;no key_concept block&#39;))
+        continue
+    block = m.group(1)
+    bullets = [ln.strip()[2:] for ln in block.split(&#39;\n&#39;) if ln.strip().startswith(&#39;- &#39;)]
+    if not bullets:
+        skipped.append((slug, &#39;no bullets found&#39;))
+        continue
+    b1 = bullets[0]
+    expected = item[&#39;b1&#39;]
+    if expected not in b1:
+        skipped.append((slug, f&#39;bullet 1 mismatch&#39;))
+        continue
+    if len(bullets) &lt; 2:
+        skipped.append((slug, &#39;only one bullet&#39;))
+        continue
+    edited += 1
+print(f&#39;Edited: {edited}/{len(batch)}&#39;)
+for s, why in skipped:
+    print(f&#39;SKIP {s}: {why}&#39;)
+&#34;
+</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 -c "
+import json, re
+from pathlib import Path
+
+batch = json.loads(Path('data/feynman-batch-4.json').read_text())
+edited = 0
+skipped = []
+for item in batch:
+    slug = item['slug']
+    path = Path(f'content/english/notes/{slug}.md')
+    if not path.exists():
+        skipped.append((slug, 'file not found'))
+        continue
+    text = path.read_text()
+    m = re.search(r'key_concept:\s*\|\s*\n((?:.*\n)+?)(?=examples:|shareable_thought:|slug:|cards:|relationships:|\Z)', text)
+    if not m:
+        skipped.append((slug, 'no key_concept block'))
+        continue
+    block = m.group(1)
+    bullets = [ln.strip()[2:] for ln in block.split('\n') if ln.strip().startswith('- ')]
+    if not bullets:
+        skipped.append((slug, 'no bullets found'))
+        continue
+    b1 = bullets[0]
+    expected = item['b1']
+    if expected not in b1:
+        skipped.append((slug, f'bullet 1 mismatch'))
+        continue
+    if len(bullets) < 2:
+        skipped.append((slug, 'only one bullet'))
+        continue
+    edited += 1
+print(f'Edited: {edited}/{len(batch)}')
+for s, why in skipped:
+    print(f'SKIP {s}: {why}')
+"
+
+```
+
+```
+Edited: 43/43
+
+```
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+All 43 notes were edited successfully.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="update_current_step"><details>
+<summary>Tool use: **update_current_step**</summary>
+An unknown error occurred
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+All 43 notes were processed. Each received a grade-six simplification inserted as the second bullet under `key_concept`. Existing bullets shifted down. The original bullet remained unchanged. Any skipped notes and their reasons will be included.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+## Feynman batch 4 complete
+
+**Files edited:** 43  
+**Skipped:** 0
+
+Each note in `data/feynman-batch-4.json` now has a new 2nd bullet in `key_concept` that restates bullet 1 in plain grade-6 language. Bullet 1 is unchanged; prior bullets 2+ were pushed down.
+
+Faith notes with `{{< bible >}}` shortcodes kept those blocks and blank lines as-is; the grade-6 bullet sits right after the first `-` bullet.
+
+Examples of the new bullets:
+
+| Note | Grade-6 bullet (new #2) |
+|------|-------------------------|
+| `practice-small-experiments` | When you change everything at once it looks bold, but people usually slide back to old habits within a few months. |
+| `pray-when-drained` | After feeding five thousand people Jesus was tired, but He still went up a mountain alone to pray instead of skipping prayer because He was worn out. |
+| `rollback-principle` | If you cannot say in one sentence how you would undo a change, you are not ready to release it yet. |
+| `signature-move` | When pressure hits, you reach for the one response you have practiced so many times it comes automatically - not ten untried options. |

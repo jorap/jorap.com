@@ -199,6 +199,12 @@ baseName = "searchindex"
 isPlainText = true
 notAlternative = true
 
+[outputFormats.ISSUES]
+mediaType = "text/plain"
+baseName = "index"
+isPlainText = true
+notAlternative = true
+
 
 ############################# Plugins ##############################
 

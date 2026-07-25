@@ -351,3 +351,323 @@ _**Agent (auto-low)**_
 <summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.gitignore</summary>
 
 </details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+`tina` and `tmp` are not tracked by git.
+
+The `tina` folder contains `collections` and `__generated__` directories but appears empty otherwise.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: find /home/jorap/Documents/GitHub/jorap.com/tina -ls 2&gt;/dev/null; echo &#34;---&#34;; ls -laR /home/jorap/Documents/GitHub/jorap.com/tina/</summary>
+```bash
+find /home/jorap/Documents/GitHub/jorap.com/tina -ls 2>/dev/null; echo "---"; ls -laR /home/jorap/Documents/GitHub/jorap.com/tina/
+```
+
+```
+  8127824      4 drwxrwxr-x   4 root     root         4096 Jun 28 08:36 /home/jorap/Documents/GitHub/jorap.com/tina
+  8127828      4 drwxrwxr-x   2 root     root         4096 Jun 28 08:36 /home/jorap/Documents/GitHub/jorap.com/tina/collections
+  8127833      4 drwxrwxr-x   3 root     root         4096 Jun 28 08:37 /home/jorap/Documents/GitHub/jorap.com/tina/__generated__
+  8127834      4 drwxrwxr-x   2 root     root         4096 Jun 28 08:32 /home/jorap/Documents/GitHub/jorap.com/tina/__generated__/.cache
+---
+/home/jorap/Documents/GitHub/jorap.com/tina/:
+total 16
+drwxrwxr-x  4 root root 4096 Jun 28 08:36 .
+drwxr-xr-x 33 root root 4096 Jul 11 07:45 ..
+drwxrwxr-x  2 root root 4096 Jun 28 08:36 collections
+drwxrwxr-x  3 root root 4096 Jun 28 08:37 __generated__
+
+/home/jorap/Documents/GitHub/jorap.com/tina/collections:
+total 8
+drwxrwxr-x 2 root root 4096 Jun 28 08:36 .
+drwxrwxr-x 4 root root 4096 Jun 28 08:36 ..
+
+/home/jorap/Documents/GitHub/jorap.com/tina/__generated__:
+total 12
+drwxrwxr-x 3 root root 4096 Jun 28 08:37 .
+drwxrwxr-x 4 root root 4096 Jun 28 08:36 ..
+drwxrwxr-x 2 root root 4096 Jun 28 08:32 .cache
+
+/home/jorap/Documents/GitHub/jorap.com/tina/__generated__/.cache:
+total 8
+drwxrwxr-x 2 root root 4096 Jun 28 08:32 .
+drwxrwxr-x 3 root root 4096 Jun 28 08:37 ..
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": true,
+  "glob": "*.{json,toml,yml,yaml,md,sh,js,mjs,ts,html}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "tinacms|tina/"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "tinacms|tina/",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-08_22-19-42Z-arroz-caldo-instant-pot.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-14_02-39-51Z-blog-frontmatter-review.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-07-14_02-01-30Z-blog-slug-and-filename.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-01_04-00-53Z-brave-shortcuts-organization.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": ".specstory/history/2026-06-28_17-06-25Z-free-grace-and-eternal.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-01_15-11-32Z-build-command-error.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-01_11-55-29Z-key-concepts-from-notes.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-02_01-59-11Z-blog-item-related-notes.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-03_00-01-14Z-difficult-words-for-blog.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": ".specstory/history/2026-07-09_14-10-18Z-audit-notes-theme-bloat.md"
+    },
+    {
+      "matchCount": 7,
+      "uri": ".specstory/history/2026-07-01_14-39-04Z-okf-standards-compliance.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-02_23-31-15Z-orphaned-note-issue.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-11_00-02-19Z-workplace-principles-notes.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": ".specstory/history/2026-06-28_00-07-52Z-tinacms-compatibility.md"
+    }
+  ],
+  "totalFiles": 14,
+  "totalMatches": 210
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "package.json",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "tina"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "tina",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Both folders are untracked by git.
+
+`tina/` is leftover from a June 2023 TinaCMS experiment; the site now uses Sveltia CMS. `tmp/` is an empty scratch folder. Checking package.json and lockfiles for remaining references.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.{json,toml,yml,yaml,md,sh,js,mjs,ts,py}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "(^|[^/])tmp/|\\\"tmp\\\"|'tmp'"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "(^|[^/])tmp/|\\\"tmp\\\"|'tmp'",
+  "topFiles": [
+    {
+      "matchCount": 3,
+      "uri": ".specstory/history/2026-06-19_07-07-52Z-responsiveness-testing-on-tablet.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-19_07-31-27Z-obsidian-functionality-improvement.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-19_12-30-32Z-two-random-notes-feature.md"
+    }
+  ],
+  "totalFiles": 3,
+  "totalMatches": 5
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.{json,toml,html,md}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "sveltia|decap|netlify-cms"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "sveltia|decap|netlify-cms",
+  "topFiles": [
+    {
+      "matchCount": 16,
+      "uri": ".specstory/history/2026-07-14_04-32-45Z-blog-content-review.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-06_07-13-26Z-garden-link-issues-summary.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-08_22-49-08Z-blog-post-sorting-issue.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-03_01-49-12Z-five-word-titles-for-notes.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-01_23-35-09Z-notes-layout-adjustment.md"
+    }
+  ],
+  "totalFiles": 5,
+  "totalMatches": 554
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The `tmp/` folder at the repository root is currently empty. It was previously used for responsive screenshots.
+
+The `tina/` folder is also unused. Both folders are empty, unreferenced in source code, and safe to remove.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Both folders are safe to remove — they're untracked leftovers with no references in the live codebase. Removing them now.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: rm -rf /home/jorap/Documents/GitHub/jorap.com/tina /home/jorap/Documents/GitHub/jorap.com/tmp &amp;&amp; ls -d /home/jorap/Documents/GitHub/jorap.com/tina /home/jorap/Documents/GitHub/jorap.com/tmp 2&gt;&amp;1 || echo &#34;Both removed successfully&#34;</summary>
+```bash
+rm -rf /home/jorap/Documents/GitHub/jorap.com/tina /home/jorap/Documents/GitHub/jorap.com/tmp && ls -d /home/jorap/Documents/GitHub/jorap.com/tina /home/jorap/Documents/GitHub/jorap.com/tmp 2>&1 || echo "Both removed successfully"
+```
+
+```
+ls: cannot access '/home/jorap/Documents/GitHub/jorap.com/tina': No such file or directory
+ls: cannot access '/home/jorap/Documents/GitHub/jorap.com/tmp': No such file or directory
+Both removed successfully
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The requested folders have been removed.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Yes — both were safe to delete, and they're gone now.
+
+**`tina/`** — Leftover from the June TinaCMS experiment. It only had empty `collections/` and `__generated__/.cache/` dirs. The site uses Sveltia CMS instead; nothing in `package.json`, scripts, or Hugo config referenced it.
+
+**`tmp/`** — Empty scratch folder. Past sessions used it for responsive screenshots (`tmp/responsive-screenshots/`), but that was never committed. `.gitignore` already covers `.tmp`, not `tmp/`.
+
+Neither folder was tracked in git, so this was just local cleanup — no commit needed.
