@@ -13,6 +13,8 @@ try:
 except ImportError:
     sys.exit("pip install pyyaml required for garden-voice-lint")
 
+from notes_content import bible_verse_ref_in_text
+
 ROOT = Path(__file__).resolve().parents[1]
 NOTES = ROOT / "content/english/notes"
 FM = re.compile(r"^---\s*\n(.*?)\n---", re.DOTALL)
@@ -154,6 +156,10 @@ def scan_note(path: Path) -> list[Issue]:
         reason = row.get("reason")
         if isinstance(reason, str) and CONTRACTION.search(reason):
             issues.append(Issue(rel, "relationships.reason", "contraction", CONTRACTION.search(reason).group(0)))
+        if isinstance(reason, str):
+            hit = bible_verse_ref_in_text(reason)
+            if hit:
+                issues.append(Issue(rel, "relationships.reason", "bible-verse", hit))
 
     return issues
 

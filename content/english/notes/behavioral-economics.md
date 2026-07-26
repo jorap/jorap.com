@@ -45,17 +45,17 @@ featured: false
 review: true
 card_sets: ["Focus", "Review"]
 cards:
-  - front: "I kept paying for the unused gym membership because \"I already paid\""
+  - front: "I kept paying for the unused gym membership because \\\"I already paid\\\". What's the move?"
     back: "Classic sunk cost, not future value on the court"
   - front: "Kept the gym membership because \"I already paid\". What's the move?"
     back: "Classic sunk cost, not future value"
-  - front: "Auto-renew hit again - forgot I meant to cancel last month."
+  - front: "Auto-renew hit again - forgot I meant to cancel last month. What's the move?"
     back: "List what it costs next month - not what I paid."
-  - front: "Flash sale cart full - 'limited time' pounding in my chest."
+  - front: "Flash sale cart full - 'limited time' pounding in my chest. What's the reframe?"
     back: "Price if I walked away - not the countdown."
-  - front: "Two quotes on supplies - cheaper one has weird terms."
+  - front: "Two quotes on supplies - cheaper one has weird terms. What's the move?"
     back: "Total cost after fees - not sticker price."
-  - front: "Picked the expensive gym because I already paid January."
+  - front: "Picked the expensive gym because I already paid January. What's the move?"
     back: "Cut the membership - sunk money is gone."
 draft: false
 ---

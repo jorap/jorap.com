@@ -50,9 +50,9 @@ cards:
     back: "Ten minutes ball-handling a week."
   - front: "Forty activity flyers on the fridge and we froze. What's the move?"
     back: "Three fit budget - register now."
-  - front: "Stuck on one framing - same argument looping in my head."
+  - front: "Stuck on one framing - same argument looping in my head. What's the move?"
     back: "Swap the lens - what would inversion say."
-  - front: "Complex decision - treating it like last year's playbook."
+  - front: "Complex decision - treating it like last year's playbook. What's the move?"
     back: "Name the model - fit the tool to the problem."
 draft: false
 ---

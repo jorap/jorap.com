@@ -48,13 +48,13 @@ cards:
     back: "Run only those bridges ten times."
   - front: "Weak-hand finish keeps failing in scrimmage. What slice do I actually drill?"
     back: "Fifty weak-hand reps - not autopilot."
-  - front: "Open gym again - shooting without the weakness on purpose."
+  - front: "Open gym again - shooting without the weakness on purpose. What's missing?"
     back: "Ten minutes on the ugly slice only."
-  - front: "Scrimmage feels real - tempted to play my whole game."
+  - front: "Scrimmage feels real - tempted to play my whole game. What's the reframe?"
     back: "Reps on the weak finish - not the highlight."
-  - front: "Bad quarter - gut says I'm just not a shooter."
+  - front: "Bad quarter - gut says I'm just not a shooter. What's the move?"
     back: "One motion on repeat - trainable."
-  - front: "Coach adds five new drills - I have twenty minutes."
+  - front: "Coach adds five new drills - I have twenty minutes. What's the move?"
     back: "One slice until it's clean - then next."
 draft: false
 ---

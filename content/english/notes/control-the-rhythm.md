@@ -62,9 +62,9 @@ cards:
     back: "I run drills, call water, end clock."
   - front: "Bedtime spiraled into \"five more minutes\" chaos. Who takes the tempo back?"
     back: "Clock on the wall - not their negotiation."
-  - front: "Parent texted for more reps before I watched the kid play."
+  - front: "Parent texted for more reps before I watched the kid play. What's the move?"
     back: "Set the rhythm - you control the pace."
-  - front: "Bedtime spiraled - schedule owned by the kids' chaos."
+  - front: "Bedtime spiraled - schedule owned by the kids' chaos. What's the move?"
     back: "Anchor the evening - one fixed beat."
 draft: false
 ---

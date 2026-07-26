@@ -48,13 +48,13 @@ cards:
     back: "Pull him aside - behavior line, steady voice."
   - front: "Client's ringing my personal cell at 9pm again. What's the boundary?"
     back: "Six on this number - office line after."
-  - front: "Boundary script died - I'm ranting in the group chat again."
+  - front: "Boundary script died - I'm ranting in the group chat again. Where do I stop?"
     back: "Pull him aside - steady voice, behavior line."
-  - front: "Client's tone sharp - my reply sharpening to match."
+  - front: "Client's tone sharp - my reply sharpening to match. What's the move?"
     back: "Name the line - office hours, calm tone."
-  - front: "Kid pushes past bedtime - gut says negotiate forever."
+  - front: "Kid pushes past bedtime - gut says negotiate forever. What's the move?"
     back: "Hold the rule - calm repeat, not new deal."
-  - front: "Teammate crosses the line again - jaw clenched, group chat open."
+  - front: "Teammate crosses the line again - jaw clenched, group chat open. What's the reframe?"
     back: "One calm boundary now - not a blowup."
 draft: false
 ---

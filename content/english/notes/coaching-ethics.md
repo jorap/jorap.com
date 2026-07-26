@@ -53,9 +53,9 @@ cards:
     back: "Still my job to pick safe drills."
   - front: "Gym selling a dangerous cleanse because customers clicked agree. Still owe them what?"
     back: "Reasonable protection - consent isn't cover."
-  - front: "Near-drown and coach said they signed the waiver."
+  - front: "Near-drown and coach said they signed the waiver. What's the move?"
     back: "Duty of care beats the checkbox."
-  - front: "Gym selling dangerous cleanse - customers clicked agree."
+  - front: "Gym selling dangerous cleanse - customers clicked agree. What's the move?"
     back: "Refuse the product - ethics over revenue."
 draft: false
 ---

@@ -43,6 +43,7 @@ Structural slop is caught by `pnpm lint:slop` / `pnpm slop:scan` (`data/slop-rul
 - `key_concept`: plain claim first, then 2–4 tight sentences, then wikilink stack.
 - `examples`: two scenes that feel different - one sentence each.
 - `shareable_thought`: exactly four complete thoughts, paste-ready alone.
+- Bible quotes: specific verses only (`John 15:5`, `Matthew 7:24-27`) - never a whole chapter (`John 17:1-26`) or chapter-only ref (`Matthew 5`).
 
 ## Publish checklist
 

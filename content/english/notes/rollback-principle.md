@@ -79,9 +79,9 @@ cards:
     back: "Keep undo path - not two more weeks."
   - front: "New play bled points at halftime - Tuesday's inbound ready. Move?"
     back: "Run the drill we already walked."
-  - front: "Bad deploy Friday night - pride says push through the weekend."
+  - front: "Bad deploy Friday night - pride says push through the weekend. What comes first?"
     back: "Revert first - after-action when calm."
-  - front: "New rule on the fridge - old routine still taped beside it."
+  - front: "New rule on the fridge - old routine still taped beside it. What's the move?"
     back: "Keep undo path - ladles not lectures."
 draft: false
 ---

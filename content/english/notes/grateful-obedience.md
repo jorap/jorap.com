@@ -57,13 +57,13 @@ relationships:
     reason: "Holiness grows from received mercy, not earned acceptance"
   - type: extends
     wikilink: "[[Present a Living Sacrifice]]"
-    reason: "Romans 12:1 shape of thanks-motivated obedience"
+    reason: "Living-sacrifice shape of thanks-motivated obedience"
   - type: extends
     wikilink: "[[Process Over Outcomes]]"
     reason: "Obey gratefully in the process - not only when outcomes reward"
   - type: extends
     wikilink: "[[Renewed Mind]]"
-    reason: "Romans 12:1-2 pair - living sacrifice needs a renewed mind"
+    reason: "Sacrifice-renewal pair - living sacrifice needs a renewed mind"
   - type: extends
     wikilink: "[[Repent and Believe]]"
     reason: "Believe first - obedience flows from repentance and faith"

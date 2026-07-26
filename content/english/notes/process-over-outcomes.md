@@ -68,9 +68,9 @@ cards:
     back: "Loop survives a bad week."
   - front: "Same warmup when bleachers are empty and when they're full. What's the bet?"
     back: "Repeatable beats one big win."
-  - front: "Lost the game but the Tuesday film loop never skipped."
+  - front: "Lost the game but the Tuesday film loop never skipped. What's the move?"
     back: "Trust the loop - outcome was one night."
-  - front: "Kitchen nailed Friday service because Thursday prep matched slow Tuesday."
+  - front: "Kitchen nailed Friday service because Thursday prep matched slow Tuesday. What's the move?"
     back: "Run the checklist - repeatable beats hero night."
 draft: false
 ---

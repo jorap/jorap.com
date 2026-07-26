@@ -31,7 +31,7 @@ relationships:
     reason: "Prayed mercy before I asked - grace at the cross"
   - type: extends
     wikilink: "[[Jesus' Prayers]]"
-    reason: "Verbatim cross prayer - Luke 23:34"
+    reason: "Verbatim cross prayer for the mob"
   - type: extends
     wikilink: "[[Love Your Neighbor]]"
     reason: "Neighbor includes enemy at the worst moment"
@@ -49,17 +49,17 @@ featured: false
 review: true
 card_sets: ["Jesus Prayers", "Gospel", "Faith", "Prayer"]
 cards:
-  - front: "Someone slandered me online - thumb on the angry reply."
+  - front: "Someone slandered me online - thumb on the angry reply. What's the move?"
     back: "Pray - Father, forgive them."
-  - front: "Enemy just hurt me - I want them to feel it."
+  - front: "Enemy just hurt me - I want them to feel it. What comes first?"
     back: "Pray for their forgiveness first."
-  - front: "They don't know what they're doing - tempted to use it as excuse."
+  - front: "They don't know what they're doing - tempted to use it as excuse. What's the move?"
     back: "Intercede now - don't wait for repentance."
-  - front: "Waiting until I win before I forgive - grudge on hold."
+  - front: "Waiting until I win before I forgive - grudge on hold. What's the move?"
     back: "Forgive while it hurts - He did at the nails."
-  - front: "Coworker sabotaged me and walked by - grudge loading."
+  - front: "Coworker sabotaged me and walked by - grudge loading. What's the move?"
     back: "Father, forgive them."
-  - front: "Apology still has not come - forgiveness on hold."
+  - front: "Apology still has not come - forgiveness on hold. What comes first?"
     back: "Pray forgiveness first - no apology required."
 draft: false
 ---

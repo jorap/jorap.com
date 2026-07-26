@@ -50,17 +50,17 @@ featured: false
 review: true
 card_sets: ["Eternal Principles", "Gospel", "Discipleship"]
 cards:
-  - front: "Said yes to small group lead without counting Thursday travel season."
+  - front: "Said yes to small group lead without counting Thursday travel season. What's missing?"
     back: "Name the cost - adjust or decline before March wall."
   - front: "Kid wanted to follow until he heard no spare bed - honesty needed?"
     back: "Count cost before the public yes."
-  - front: "Treating discipleship vow like free mood - surprise debt incoming."
+  - front: "Treating discipleship vow like free mood - surprise debt incoming. What's the move?"
     back: "Name time, comfort, reputation - then yes."
-  - front: "Tower half-built in my calendar - embarrassed mid-wall."
+  - front: "Tower half-built in my calendar - embarrassed mid-wall. What's the move?"
     back: "Estimate before ground breaks - honest math."
   - front: "Eternal life is free - cross still has weight this season. One check?"
     back: "Gift is free - discipleship costs honesty."
-  - front: "Stage allegiance before spreadsheet - fork ahead."
+  - front: "Stage allegiance before spreadsheet - fork ahead. What comes first?"
     back: "Count the cost - before the spotlight yes."
 draft: false
 ---

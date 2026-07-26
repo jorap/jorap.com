@@ -49,17 +49,17 @@ featured: false
 review: true
 card_sets: ["Jesus Rhythms", "Gospel", "Faith", "Discipleship"]
 cards:
-  - front: "Dropped three verses in group chat and walked away - mic drop done."
+  - front: "Dropped three verses in group chat and walked away - mic drop done. What's the move?"
     back: "Walk through it - explain line by line."
-  - front: "Read the passage, application in ninety seconds - rushed to takeaway."
+  - front: "Read the passage, application in ninety seconds - rushed to takeaway. What's the move?"
     back: "Time on the road - open meaning with them."
-  - front: "Bible study feels like a citation contest - impressing not teaching."
+  - front: "Bible study feels like a citation contest - impressing not teaching. What's the move?"
     back: "Make the Book legible - not impressive."
-  - front: "Hoarding quotes without helping anyone understand - index not opened word."
+  - front: "Hoarding quotes without helping anyone understand - index not opened word. What's missing?"
     back: "Explain Moses and the Prophets."
-  - front: "Posted the verse, minds still closed - quote landed, no light."
+  - front: "Posted the verse, minds still closed - quote landed, no light. What's the move?"
     back: "Open understanding - not just the quote."
-  - front: "Truth shared as a mic drop in the thread - walked away proud."
+  - front: "Truth shared as a mic drop in the thread - walked away proud. What's the move?"
     back: "Teach - open Scripture, don't dump."
 draft: false
 ---

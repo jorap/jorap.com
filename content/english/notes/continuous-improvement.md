@@ -57,15 +57,15 @@ featured: false
 review: true
 card_sets: ["Focus", "Review"]
 cards:
-  - front: "I tweak one line in my weekly review checklist after each miss"
+  - front: "I tweak one line in my weekly review checklist after each miss. What's the move?"
     back: "Never schedule"
-  - front: "A line cook pulls a bad prep tray and fixes the station before service"
+  - front: "A line cook pulls a bad prep tray and fixes the station before service. First fix?"
     back: "Small fixes daily, not one yearly overhaul"
-  - front: "Kaizen note died after week two - review template untouched."
+  - front: "Kaizen note died after week two - review template untouched. What's the move?"
     back: "One line edit after the miss - tonight."
-  - front: "Big overhaul deck looks smarter than fixing one checklist line."
+  - front: "Big overhaul deck looks smarter than fixing one checklist line. First fix?"
     back: "Ship the small fix - deck can wait."
-  - front: "Missed again - gut says the whole system's broken."
+  - front: "Missed again - gut says the whole system's broken. First fix?"
     back: "One process tweak - not a tear-down."
   - front: "Five small slips this week - which one gets the fix first?"
     back: "The one that repeats tomorrow."

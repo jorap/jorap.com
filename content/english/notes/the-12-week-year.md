@@ -40,17 +40,17 @@ featured: false
 review: true
 card_sets: ["Focus", "Workflow"]
 cards:
-  - front: "\"Fix free-throw rate\" lived on my someday list until I put twelve weeks on the locker scoreboard."
+  - front: "\\\"Fix free-throw rate\\\" lived on my someday list until I put twelve weeks on the locker scoreboard. First fix?"
     back: "Week ten finally bit."
-  - front: "\"Hire and train\" was vague until the twelve-week arc had weekly numbers."
+  - front: "\\\"Hire and train\\\" was vague until the twelve-week arc had weekly numbers. What's the move?"
     back: "Feel the quarter - not January fiction."
-  - front: "Wiki refactor's been 'when I have time' for a year."
+  - front: "Wiki refactor's been 'when I have time' for a year. What's the move?"
     back: "Twelve-week arc - weekly numbers on the board."
-  - front: "Garage clear-out's a someday project again."
+  - front: "Garage clear-out's a someday project again. What's the move?"
     back: "Twelve weeks - boxes move by week ten."
-  - front: "Wiki refactor on the someday list for a year."
+  - front: "Wiki refactor on the someday list for a year. What's the move?"
     back: "Twelve weeks - weekly box on the board."
-  - front: "Hire-and-train still vague on the January board."
+  - front: "Hire-and-train still vague on the January board. What's the move?"
     back: "Twelve-week arc with weekly numbers."
 draft: false
 ---

@@ -64,7 +64,7 @@ cards:
     back: "Kingdom first - Scripture before inbox."
   - front: "Tuesday 7am, house loud, Bible still closed on the counter. What comes first?"
     back: "Open Scripture before the inbox."
-  - front: "Work hustle and Sunday worship pulling opposite - two masters, one calendar."
+  - front: "Work hustle and Sunday worship pulling opposite - two masters, one calendar. What's the move?"
     back: "God - not money."
   - front: "Wallet and calendar both pulling hard. One reframe before I chase either?"
     back: "Move treasure - heart follows."

@@ -69,9 +69,9 @@ cards:
     back: "A small test small enough to fail cheap."
   - front: "March and the January rollout already snapped back. What beats big-bang?"
     back: "Daily reps plus tiny tests - keep what works."
-  - front: "Tempted to overhaul the whole practice plan before one drill proves out."
+  - front: "Tempted to overhaul the whole practice plan before one drill proves out. What's the move?"
     back: "One tiny trial - two weeks, then decide."
-  - front: "New meal plan for the whole family starting Monday - nobody asked for it yet."
+  - front: "New meal plan for the whole family starting Monday - nobody asked for it yet. What's the move?"
     back: "Test one dinner - expand if it survives."
 draft: false
 ---

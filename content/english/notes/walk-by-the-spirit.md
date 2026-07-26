@@ -35,7 +35,7 @@ relationships:
     reason: "Spirit-led walk follows salvation - does not purchase it"
   - type: extends
     wikilink: "[[Fruits of the Spirit]]"
-    reason: "Galatians 5 fruit grows on this walk"
+    reason: "Spirit fruit grows on this walk"
   - type: extends
     wikilink: "[[Grateful Obedience]]"
     reason: "Thanks-motivated steps, not wage-motivated ones"
@@ -50,15 +50,15 @@ featured: false
 review: true
 card_sets: ["Eternal Principles", "Gospel", "Discipleship"]
 cards:
-  - front: "White-knuckled patience until Thursday - snapped anyway."
+  - front: "White-knuckled patience until Thursday - snapped anyway. What comes first?"
     back: "Ask Spirit before the meeting - not perform virtue."
-  - front: "Travel week temptation - phone the easy exit."
+  - front: "Travel week temptation - phone the easy exit. What's the move?"
     back: "One prayed no - before scroll wins."
-  - front: "Willpower sprint collapsed by Friday - badge useless."
+  - front: "Willpower sprint collapsed by Friday - badge useless. What's the move?"
     back: "Walk daily - depend, not willpower alone."
-  - front: "Flesh wants shortcut - fork in the hallway."
+  - front: "Flesh wants shortcut - fork in the hallway. What's the move?"
     back: "Choose Spirit path - one step now."
-  - front: "Fruit performance without connection - dry inside."
+  - front: "Fruit performance without connection - dry inside. What's missing?"
     back: "Abide first - walk follows union."
   - front: "Walk feels like buying heaven - motive check?"
     back: "Grateful steps - grace already received."

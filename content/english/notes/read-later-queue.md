@@ -48,9 +48,9 @@ cards:
     back: "Parking lot - drain weekly."
   - front: "Read-later count climbing again Sunday night. What's the move?"
     back: "Empty the queue - inbox drain."
-  - front: "Pocket saved seventeen articles during the commute - zero read."
+  - front: "Pocket saved seventeen articles during the commute - zero read. What's missing?"
     back: "Weekly drain - read or delete."
-  - front: "Browser tab graveyard hit sixty - guilt every Sunday."
+  - front: "Browser tab graveyard hit sixty - guilt every Sunday. What's the move?"
     back: "Empty the queue - act or cut."
 draft: false
 ---

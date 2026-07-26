@@ -48,15 +48,15 @@ featured: false
 review: true
 card_sets: ["Focus", "Workflow"]
 cards:
-  - front: "Three outrage accounts ruined commute patience - mute still not done."
+  - front: "Three outrage accounts ruined commute patience - mute still not done. What's the move?"
     back: "Gate now - unfollow, mute, block."
-  - front: "News banner flashing mid deep-work block - heroic focus failing."
+  - front: "News banner flashing mid deep-work block - heroic focus failing. What's the move?"
     back: "One toggle off - gate at the door."
-  - front: "Bad input cooking in my mood before dinner with kids."
+  - front: "Bad input cooking in my mood before dinner with kids. What's the move?"
     back: "Check expiry - close tab before kitchen."
-  - front: "Scroll won after rage bait - forcing by will after the door opened."
+  - front: "Scroll won after rage bait - forcing by will after the door opened. What comes first?"
     back: "Default filters - gate before intake, not after."
-  - front: "Podcast rage on the drive - patience at home already thin."
+  - front: "Podcast rage on the drive - patience at home already thin. What's the move?"
     back: "Mute at the door - guard the spring."
   - front: "Interesting thread saved - junk still flooding the feed. First fix?"
     back: "Gate junk out - then signal-vs-noise filter."

@@ -48,15 +48,15 @@ card_sets: ["Focus", "Workflow"]
 cards:
   - front: "Set play lost four straight but we drilled it all preseason. Keep running it?"
     back: "Would I pick it fresh today? No."
-  - front: "Software keeps crashing but I already paid the annual license."
+  - front: "Software keeps crashing but I already paid the annual license. One check?"
     back: "Would I buy it today? Cancel."
-  - front: "Gym membership charging since February and I have not gone."
+  - front: "Gym membership charging since February and I have not gone. What's the move?"
     back: "Cancel it - past money's gone."
-  - front: "Board game's boring and we are an hour in."
+  - front: "Board game's boring and we are an hour in. What's the move?"
     back: "Stop - do not finish because we started."
-  - front: "POS keeps crashing but the install fee still stings."
+  - front: "POS keeps crashing but the install fee still stings. What's the move?"
     back: "Would I buy fresh today - cut it."
-  - front: "Boring board game hour two - everyone miserable."
+  - front: "Boring board game hour two - everyone miserable. What's the move?"
     back: "Stop - sunk time is gone."
 draft: false
 ---

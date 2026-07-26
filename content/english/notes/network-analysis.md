@@ -50,9 +50,9 @@ cards:
     back: "Spread tasks - fix the bottleneck."
   - front: "Garden graph shows one note linking twelve others. What do I prune first?"
     back: "That hub note."
-  - front: "Note links to everything - can't say what role it plays."
+  - front: "Note links to everything - can't say what role it plays. What's the move?"
     back: "Map inbound vs outbound - hub or dead end."
-  - front: "Orphan note keeps surfacing - zero backlinks in the garden."
+  - front: "Orphan note keeps surfacing - zero backlinks in the garden. What's missing?"
     back: "Link it to three parents - or archive."
 draft: false
 ---

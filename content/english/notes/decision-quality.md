@@ -45,17 +45,17 @@ featured: false
 review: true
 card_sets: ["Focus", "Review"]
 cards:
-  - front: "Signing a year-long club fee on one trial session is how people miss the schedule clash"
+  - front: "Signing a year-long club fee on one trial session is how people miss the schedule clash. What's the move?"
     back: "decision quality was one call to a current."
   - front: "Buying supplies on one vendor quote is how clinics overpay One check?"
     back: "decision quality was checking last month's invoice before."
-  - front: "Big calls on autopilot - same vendor, no second look."
+  - front: "Big calls on autopilot - same vendor, no second look. What's the move?"
     back: "One comparison before commit."
-  - front: "Limited-seat offer expires tonight - hand on the card."
+  - front: "Limited-seat offer expires tonight - hand on the card. What's the move?"
     back: "Sleep on it - real deadline survives morning."
-  - front: "Signed the whole year lease after one trial session - gut still says go."
+  - front: "Signed the whole year lease after one trial session - gut still says go. What's the move?"
     back: "Call a current family - cancel if it's wrong."
-  - front: "Committee wants my vote before lunch - whole budget on the table."
+  - front: "Committee wants my vote before lunch - whole budget on the table. What's the move?"
     back: "Need one night - quality over speed."
 draft: false
 ---

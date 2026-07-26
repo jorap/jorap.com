@@ -50,17 +50,17 @@ featured: false
 review: true
 card_sets: ["Eternal Principles", "Gospel", "Discipleship"]
 cards:
-  - front: "Political rage thread rotting patience with my kids - scroll still open."
+  - front: "Political rage thread rotting patience with my kids - scroll still open. What comes first?"
     back: "Mute thread - Scripture before scroll tonight."
-  - front: "Shows until midnight - hollow before six a.m. prayer again."
+  - front: "Shows until midnight - hollow before six a.m. prayer again. What's the move?"
     back: "Hard stop at ten - guard the spring."
   - front: "Clean week streak treating guarding like heaven's price tag - wrong motive?"
     back: "Wisdom after salvation - not entry fee."
-  - front: "Eyes and ears fed garbage - worship and anger both downstream."
+  - front: "Eyes and ears fed garbage - worship and anger both downstream. What's the move?"
     back: "Guard intake - poison at the source."
-  - front: "Renewed mind starving - feeds still ungated after a week of rage bait."
+  - front: "Renewed mind starving - feeds still ungated after a week of rage bait. What's the move?"
     back: "Filter eyes and ears - then Scripture fills."
-  - front: "Performance outside looks fine - motive inside starving."
+  - front: "Performance outside looks fine - motive inside starving. What comes first?"
     back: "Guard the heart - inside counts first."
 draft: false
 ---

@@ -106,7 +106,7 @@ cards:
     back: "Do what He said - act today."
   - front: "Notes garden full, gospel never leaves my mouth. Hoarding truth without passing it on?"
     back: "Make disciples - share, don't hoard."
-  - front: "Cross-bearing to feel saved - mixing up what buys heaven vs what follows after."
+  - front: "Cross-bearing to feel saved - mixing up what buys heaven vs what follows after. Wrong order?"
     back: "Faith saves - cross shapes daily following."
   - front: "One big surrender last year, same comfort zone today. What frequency does following need?"
     back: "Daily - pick up cross again today."

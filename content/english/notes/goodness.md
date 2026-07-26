@@ -58,11 +58,11 @@ cards:
     back: "Shine so God gets credit."
   - front: "Hiding help from false modesty when it should point up. Who should get credit?"
     back: "Let it shine - glorify the Father."
-  - front: "Practicing righteousness for the audience in the room - applause is the fuel."
+  - front: "Practicing righteousness for the audience in the room - applause is the fuel. What's the move?"
     back: "Father's glory - not applause."
-  - front: "Hiding help from false modesty - light should point up."
+  - front: "Hiding help from false modesty - light should point up. What's the move?"
     back: "Let it shine - Father gets glory."
-  - front: "Good deed draft ready - caption asking for applause."
+  - front: "Good deed draft ready - caption asking for applause. What's the move?"
     back: "Post nothing - Father saw it."
 draft: false
 ---

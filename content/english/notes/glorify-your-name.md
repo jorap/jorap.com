@@ -27,7 +27,7 @@ relationships:
     reason: "when I delay costly obedience until the path feels painless"
   - type: extends
     wikilink: "[[Jesus' Prayers]]"
-    reason: "Verbatim prayer as the hour arrived - John 12:28"
+    reason: "Verbatim prayer as the hour arrived"
   - type: extends
     wikilink: "[[Not My Will]]"
     reason: "Same surrender arc - glory of the Father over escape"
@@ -48,17 +48,17 @@ featured: false
 review: true
 card_sets: ["Jesus Prayers", "Gospel", "Faith", "Prayer"]
 cards:
-  - front: "Hard hour coming - I want an easy out, not the cup."
+  - front: "Hard hour coming - I want an easy out, not the cup. What's the move?"
     back: "Pray - glorify Your name, not skip the cup."
-  - front: "Soul troubled before a costly yes - finger on decline."
+  - front: "Soul troubled before a costly yes - finger on decline. What's the move?"
     back: "Father, glorify Your name."
-  - front: "Tempted to protect my reputation when obedience will cost."
+  - front: "Tempted to protect my reputation when obedience will cost. What comes first?"
     back: "Father's glory first - not my comfort."
-  - front: "Prayer feels like bargaining for escape - dread building."
+  - front: "Prayer feels like bargaining for escape - dread building. What's the move?"
     back: "Father glorified - even through the cross."
-  - front: "Crowd watching as the fork arrives - stage fright on me."
+  - front: "Crowd watching as the fork arrives - stage fright on me. What's the move?"
     back: "Trust His answer - glorify again."
-  - front: "Choosing visible sacrifice over hidden ease - shortcut tempting."
+  - front: "Choosing visible sacrifice over hidden ease - shortcut tempting. What comes first?"
     back: "Glorify Your name - before I say yes."
 draft: false
 ---

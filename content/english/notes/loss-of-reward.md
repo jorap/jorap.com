@@ -91,7 +91,7 @@ cards:
     back: "Eternal life by faith - rewards separate."
   - front: "Lord Lord with no fruit - same as believer who stumbled?"
     back: "No - false profession never believed."
-  - front: "Lazy in obedience, panic God will un-save me - reward dread mixing with standing."
+  - front: "Lazy in obedience, panic God will un-save me - reward dread mixing with standing. Wrong order?"
     back: "Justification stands - repent, walk, reward at stake."
   - front: "Hidden sin exposed - shame says heaven access revoked. Fellowship vs standing?"
     back: "Confess, restore walk - standing on Christ stays."

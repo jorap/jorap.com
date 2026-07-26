@@ -39,15 +39,15 @@ card_sets: ["Capture", "Workflow"]
 cards:
   - front: "Halftime idea on the bench. What's the move? One check?"
     back: "Voice-memo'd it before the third quarter wiped it"
-  - front: "Grocery line, kid asks for something, thought gone unless I scribble on the receipt back"
+  - front: "Grocery line, kid asks for something, thought gone unless I scribble on the receipt back. What's the move?"
     back: "Two seconds, one place"
   - front: "Jeepney stop, blog idea hits. What's the move?"
     back: "one tap to notes before the next ride."
   - front: "School pickup, kid mentions a permission slip. What's the move?"
     back: "Share sheet to inbox before the next text buries it"
-  - front: "Brilliant thought in the parking lot - gone before I reached the door."
+  - front: "Brilliant thought in the parking lot - gone before I reached the door. What's the move?"
     back: "One-tap capture - voice memo before walking."
-  - front: "Commute insight - trusting I'll remember at home again."
+  - front: "Commute insight - trusting I'll remember at home again. What's the move?"
     back: "Capture in motion - inbox when signal returns."
 draft: false
 ---

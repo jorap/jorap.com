@@ -1,24 +1,27 @@
 ---
 title: "Pray for His Own"
-meta_title: "Pray for His Own - John 17:1-26 High Priestly Prayer"
-description: "Jesus prayed in John 17:1-26 for Himself, the twelve, and every future believer - unity, protection, and glory."
+meta_title: "Pray for His Own - High Priestly Prayer"
+description: "Jesus prayed the high priestly prayer for Himself, the twelve, and every future believer - unity, protection, and glory."
 key_concept: |
-  {{< bible ref="John 17:1-26" emphasize="11" >}}
-  
-  - John 17:1-26 is the longest prayer the Gospels record - Jesus talks to the Father about glory, the hour, and the people the Father gave Him.
-  - Level 1: In John 17:1-26 Jesus talks to God about His friends and everyone who will believe - it is the longest prayer in the Gospels.
-  - Level 2: In John 17:1-26 Jesus talks to God the Father about Himself, His twelve followers, and everyone who will believe later - it is the longest prayer in the Gospels.
+  {{< bible ref="John 17:11" emphasize="11" >}}
+
+  - Jesus asks the Father to keep His own one - unity under the Father's name, not my grip alone.
+  - Level 1: In the high priestly prayer Jesus talks to God about His friends and everyone who will believe - it is the longest prayer in the Gospels.
+  - Level 2: In the high priestly prayer Jesus talks to God the Father about Himself, His twelve followers, and everyone who will believe later - it is the longest prayer in the Gospels.
   - Level 3: The prayer moves in three rings - Jesus for Himself, the twelve for keeping and unity, then every future believer through their word.
   - Level 4: Because He is leaving, He asks the Father to keep what He bought - sanctify in truth, guard in the Father's name, make them one.
-  - Level 5: John 17:1-26 is the longest prayer the Gospels record - glory, the hour, and the people the Father gave Him; [[Free Grace]] puts me in the those who will believe branch.
-  - He prays for the twelve to be kept, sanctified in truth, and one as He and the Father are one - then extends the same request to all who will believe through their word.
+  - Level 5: The high priestly prayer is the longest the Gospels record - glory, the hour, and the people the Father gave Him; [[Free Grace]] puts me in the those who will believe branch.
+
+  {{< bible ref="John 17:20-23" emphasize="20" >}}
+
+  - He extends the same prayer to everyone who will believe through their word - kept by the Father's name, not by my grip on Him.
   - [[Invest in the Few]] names who He chose; this prayer names what He asks the Father to do for them after He leaves.
   - Under [[Free Grace]], I am in the "those who will believe" branch - kept by the Father's name, not by my grip on Him.
 examples:
   - "Church drama had me ready to quit - John 17:11-23 says Jesus asked the Father to keep and unify people like us, not that we would never fray."
   - "I prayed for my kids' faith and realized He already prayed for every future believer to see His glory - my parenting joins His intercession, not replaces it."
 shareable_thought:
-  - "Jesus prayed in John 17:1-26 for Himself, the twelve, and every future believer - unity, protection, and glory."
+  - "Jesus prayed the high priestly prayer for Himself, the twelve, and every future believer - unity, protection, and glory."
   - "Longest prayer the Gospels record - glory, the hour, and the people the Father gave Him."
   - "He asks the Father to keep them, sanctify them in truth, and make them one."
   - "I am in the those who will believe branch - kept by the Father's name, not by my grip."
@@ -37,7 +40,7 @@ relationships:
     reason: "Intercession for the twelve He chose"
   - type: extends
     wikilink: "[[Jesus' Prayers]]"
-    reason: "Verbatim high priestly prayer - John 17:1-26"
+    reason: "Verbatim high priestly prayer for believers"
   - type: extends
     wikilink: "[[Sanctification]]"
     reason: "Sanctify them in the truth - Your word is truth"
@@ -47,22 +50,22 @@ image: "/images/note.jpg"
 categories: ["Faith"]
 author: "JoRap"
 tags: ["Gospel", "Jesus Christ", "Jesus Prayers", "Faith", "Prayer"]
-aliases: ["John 17:1-26 prayer", "high priestly prayer"]
+aliases: ["high priestly prayer"]
 featured: false
 review: true
 card_sets: ["Jesus Prayers", "Gospel", "Faith", "Prayer"]
 cards:
-  - front: "Church friction has me ready to bail on unity - split tempting."
+  - front: "Church friction has me ready to bail on unity - split tempting. What's the move?"
     back: "Pray they stay one - as Father and Son are one."
-  - front: "Praying for my kid's faith feels alone - intercession lonely."
+  - front: "Praying for my kid's faith feels alone - intercession lonely. What's the move?"
     back: "He prayed for all who will believe - you're included."
-  - front: "Sanctification feels like self-improvement theater."
+  - front: "Sanctification feels like self-improvement theater. What's the move?"
     back: "Ask Father - sanctify them in Your word."
-  - front: "Scared believers will fall away when I fail as leader."
+  - front: "Scared believers will fall away when I fail as leader. What's the move?"
     back: "Pray Father keeps them - His name, not mine."
-  - front: "Small group wants a mission statement before unity."
+  - front: "Small group wants a mission statement before unity. What's the move?"
     back: "Pray for one - before you brand it."
-  - front: "Wondering if I'm included in His intercession - doubt loop."
+  - front: "Wondering if I'm included in His intercession - doubt loop. What's the move?"
     back: "Believers through their word - includes me."
 draft: false
 ---

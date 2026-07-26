@@ -6,6 +6,94 @@ from __future__ import annotations
 import re
 from typing import Any
 
+_BIBLE_BOOKS = (
+    r"(?:1|2|3)?\s*(?:Matthew|Mark|Luke|John|Acts|Romans|Corinthians|Galatians|"
+    r"Ephesians|Philippians|Colossians|James|Peter|Hebrews|Proverbs|Psalms?|"
+    r"Isaiah|Jeremiah|Deuteronomy)"
+)
+BIBLE_VERSE_REF_RE = re.compile(
+    rf"(?:"
+    rf"\b{_BIBLE_BOOKS}\b\s*(?:\d+\s*:\s*\d+(?:\s*[-–]\d+)?|\d+\s+lane|\d+(?:\s*[-–]\d+)?(?=\s+(?:fruit|cluster|names)))"
+    rf"|\b{_BIBLE_BOOKS}\b\s+(?:one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve)"
+    rf"(?:\s+(?:one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve))?(?!\w)"
+    rf"|\b(?:the\s+)?{_BIBLE_BOOKS}\b\s+quote\b"
+    rf"|\bverse\s+(?:one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|\d+)\b"
+    rf"|\bbefore\s+{_BIBLE_BOOKS}\b"
+    rf"|\b(?:quotes?|says)\s+{_BIBLE_BOOKS}\b"
+    rf"|\b{_BIBLE_BOOKS}\b\s+(?:would|says)\b"
+    rf")",
+    re.I,
+)
+
+
+def bible_verse_ref_in_text(text: str) -> str | None:
+    """Return first bible verse locator in text, or None. Skips 'mark three' verb false positives."""
+    for match in BIBLE_VERSE_REF_RE.finditer(text):
+        if re.match(r"^mark\s+three\b", match.group(0), re.I):
+            continue
+        return match.group(0)
+    return None
+
+
+MC_COMMA_OR_RE = re.compile(r",\s*[^,\n]+,\s*or\s+", re.I)
+MC_FORK_OR_RE = re.compile(r"\bor\b[^.?!\n]*\?", re.I)
+MC_PICK_RE = re.compile(r"\b(pick one|choose between|one of)\b", re.I)
+
+
+def is_multiple_choice_front(front: str) -> bool:
+    if MC_PICK_RE.search(front):
+        return True
+    if MC_COMMA_OR_RE.search(front):
+        return True
+    if MC_FORK_OR_RE.search(front):
+        return True
+    return False
+
+
+def front_has_clear_question(front: str) -> bool:
+    """True when front ends with an open retrieval question after a life cue."""
+    text = front.strip()
+    if not text.endswith("?"):
+        return False
+    if len(text) < 15:
+        return False
+    return not is_multiple_choice_front(text)
+
+
+def append_flashcard_hint_question(front: str, back: str) -> str:
+    """Add a subtle hint question so the front nudges retrieval without telegraphy."""
+    if front_has_clear_question(front):
+        return front
+    base = front.rstrip(". ")
+    fl, bl = base.lower(), back.lower()
+    if any(w in fl for w in ("wrong order", "mixing", "confus", "same order", " versus")):
+        hint = "Wrong order?"
+    elif any(w in fl for w in ("missing", "zero ", "none ", "without ")):
+        hint = "What's missing?"
+    elif any(
+        w in bl for w in ("first", "before inbox", "before the", "before i", "scripture before")
+    ):
+        hint = "What comes first?"
+    elif any(
+        w in fl for w in ("lead with", "one sentence", "how to be saved", "asks why", "asks how")
+    ):
+        hint = "One sentence back?"
+    elif any(w in fl for w in ("fix", "broken", "outage", "failed", "shut down", "won't load")):
+        hint = "First fix?"
+    elif any(w in fl for w in ("stop", "boundary", "where", " sit", "goes")):
+        hint = "Where do I stop?"
+    elif any(w in bl for w in ("reframe", "not a ", "not the ")):
+        hint = "What's the reframe?"
+    elif "?" in back:
+        hint = "One check?"
+    else:
+        hint = "What's the move?"
+    updated = f"{base}. {hint}"
+    if len(updated) <= len(back):
+        updated = f"{base}. What's the move right now?"
+    return updated
+
+
 FM_ORDER = (
     "note_kind",
     "layout",
@@ -562,6 +650,15 @@ def _self_check() -> None:
     assert gets_point_across("Friction kills capture.")
     assert gets_point_across("The point isn't passivity toward all evil - it's refusing to become what hurt you.")
     assert ensure_terminal_punct("Keep the goal") == "Keep the goal."
+    assert bible_verse_ref_in_text("Romans 12:1 shape of obedience") == "Romans 12:1"
+    assert bible_verse_ref_in_text("Galatians tender regard") is None
+    assert bible_verse_ref_in_text("Mark three sections - explain aloud") is None
+    assert front_has_clear_question("Mid-commute spark. What's the move?")
+    assert not front_has_clear_question("Mid-commute spark I might forget.")
+    assert is_multiple_choice_front("Inbox or organize on the spot?")
+    assert append_flashcard_hint_question("Gate broken three weeks.", "Name the owner.").endswith(
+        "First fix?"
+    )
 
 
 def shareable_line_from_principle(line: str, fm: dict) -> bool:
@@ -575,3 +672,17 @@ def shareable_line_from_principle(line: str, fm: dict) -> bool:
         if len(nl) >= 10 and (p.startswith(nl) or nl.startswith(p) or nl in p or p in nl):
             return True
     return False
+
+
+def _flashcard_hint_self_check() -> None:
+    assert front_has_clear_question("Mid-commute spark. What's the move?")
+    assert not front_has_clear_question("Mid-commute spark I might forget.")
+    assert is_multiple_choice_front("Inbox or organize on the spot?")
+    assert append_flashcard_hint_question("Gate broken three weeks.", "Name the owner.").endswith(
+        "First fix?"
+    )
+
+
+if __name__ == "__main__":
+    _flashcard_hint_self_check()
+    print("flashcard hint self-check OK")

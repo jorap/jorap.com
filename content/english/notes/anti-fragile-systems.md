@@ -51,9 +51,9 @@ cards:
     back: "Plain spreadsheet backup."
   - front: "Family recipe box survived three phone upgrades while the sync app died. What's the lesson?"
     back: "Boring format that outlives apps."
-  - front: "Booking app shut down - paper log still had the season."
+  - front: "Booking app shut down - paper log still had the season. First fix?"
     back: "Keep the analog backup - stress reveals weak links."
-  - front: "One vendor outage took the whole workflow offline."
+  - front: "One vendor outage took the whole workflow offline. First fix?"
     back: "Design so one break doesn't kill the system."
 draft: false
 ---

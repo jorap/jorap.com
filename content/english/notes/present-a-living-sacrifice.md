@@ -35,7 +35,7 @@ relationships:
     reason: "when sacrifice streaks become proof I am saved"
   - type: extends
     wikilink: "[[Grateful Obedience]]"
-    reason: "Living sacrifice is the Romans 12:1 shape of thanks-motivated obedience"
+    reason: "Living sacrifice is the thanks-motivated obedience shape"
   - type: extends
     wikilink: "[[Mercy]]"
     reason: "In view of God's mercy - offer responds to gift already received"
@@ -44,7 +44,7 @@ relationships:
     reason: "Faithful offering on ordinary Tuesdays beats one heroic week"
   - type: extends
     wikilink: "[[Renewed Mind]]"
-    reason: "Romans 12:1-2 pair - sacrifice needs a mind being reshaped"
+    reason: "Sacrifice-renewal pair - sacrifice needs a mind being reshaped"
   - type: extends
     wikilink: "[[Take Up Your Cross]]"
     reason: "Daily death to self-will - body offered alive, not buried in comfort"
@@ -65,7 +65,7 @@ cards:
     back: "Faith at justification - sacrifice grows after."
   - front: "Religious performance for the group chat, zero change at home. What's missing?"
     back: "Living sacrifice - offer the ordinary day, not the highlight reel."
-  - front: "I quote Romans twelve one at breakfast but snap at dinner. Paired move in verse two?"
+  - front: "I quote living sacrifice at breakfast but snap at dinner. Paired move for the mind?"
     back: "Renew the mind - sacrifice needs reshaped thinking."
   - front: "Tuesday feels too small to count as worship. What's the reframe?"
     back: "Present this day alive - not a dead ritual."

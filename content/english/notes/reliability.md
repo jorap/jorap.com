@@ -46,13 +46,13 @@ cards:
     back: "Who shows at 7:00, not around seven."
   - front: "Leak spreading Tuesday morning - who do I call? One filter?"
     back: "Who says Tuesday 9 and actually shows."
-  - front: "Called the flaker again - same 7:15 no-show."
+  - front: "Called the flaker again - same 7:15 no-show. What's the move?"
     back: "Who shows at seven - not around seven."
-  - front: "Friend's always late but fun - booking them for the leak."
+  - front: "Friend's always late but fun - booking them for the leak. What's the move?"
     back: "Pick the boring on-time tech."
-  - front: "Cheapest quote says tomorrow - trust the vibe."
+  - front: "Cheapest quote says tomorrow - trust the vibe. What's the move?"
     back: "Tuesday nine and shows - verify it."
-  - front: "Missed the appointment window - need a redo."
+  - front: "Missed the appointment window - need a redo. What's the move?"
     back: "New person with a written time - not hope."
 draft: false
 ---

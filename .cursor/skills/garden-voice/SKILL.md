@@ -119,6 +119,8 @@ Doctrinal claims after the verse must pass the **Theological source** check abov
 
 **Eternal Principles** notes anchor on **Jesus' words** (Matthew, Mark, Luke, John) in **NASB 1995**. Use the `{{< bible >}}` shortcode for scripture in `key_concept` - Hugo renders NASB 1995 at build time from `data/scripture-nasb1995.json`. Paul and other writers may follow as expansion, not as the primary anchor.
 
+**Verse refs, not whole chapters.** `ref` and `label` must name specific verses (`Matthew 7:24`, `John 15:5-8`) - never a chapter alone (`Matthew 5`, `John 17`) and never a full-chapter span (`John 17:1-26`). Quote only the verses the note teaches; use `emphasize` for the punchline. Inline citations in body text follow the same rule (`John 17:11`, not `John 17`).
+
 After each shortcode, add one **explanation bullet** in JoRap voice (first person where natural). Gloss text lives in `data/ep-verse-explanations.yaml`. Run `python3 scripts/archive/format-faith-bible-blocks.py` after bulk edits to restore shortcode + bullet shape.
 
 ```
@@ -252,10 +254,10 @@ Vocabulary: `pnpm lint:voice` (`data/voice-words.yaml`). Structure: `pnpm lint:s
 - [ ] `key_concept` has 2-4 tight sentences before the link stack runs long
 - [ ] Faith note includes a Bible verse in `key_concept` (skip when `Workplace` tag - workplace lane)
 - [ ] Faith note doctrine aligns with GSOT free grace (experienced Grace School of Theology theologian - not improvised)
-- [ ] EP scripture: `{{< bible >}}` shortcode, explanation bullet in JoRap voice, then claim stack
+- [ ] EP scripture: `{{< bible >}}` shortcode with specific verses (not a whole chapter), explanation bullet in JoRap voice, then claim stack
 - [ ] Two `examples`, one sentence each, scenes feel different
 - [ ] `shareable_thought` is exactly four complete thoughts, four different angles - no fragments
-- [ ] `relationships.reason` is a clause, not a paragraph
+- [ ] `relationships.reason` is a clause, not a paragraph; no bible verse citations (book chapter:verse or spoken chapter refs)
 - [ ] Cards pass [flashcards](../flashcards/SKILL.md) and plain-words test
 - [ ] Theology/PKM term glossed in plain English before the wikilink stack
 - [ ] No contractions in frontmatter (body/cards OK)
@@ -270,5 +272,7 @@ Vocabulary: `pnpm lint:voice` (`data/voice-words.yaml`). Structure: `pnpm lint:s
 - Use em dashes; use a normal hyphen (-), comma, or parentheses instead
 - Open `key_concept` with "X is the process whereby…"
 - Put wikilinks on line 1 of `key_concept`
+- Cite bible verses in `relationships.reason` - use plain-English links instead
+- Quote a whole Bible chapter in `{{< bible >}}` `ref`/`label` or inline citations - name the verses (`John 17:11`, not `John 17:1-26`)
 - Write `shareable_thought` fragments or four near-duplicates
 - Force Philippines/local color when the scene isn't local

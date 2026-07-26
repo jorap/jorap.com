@@ -55,13 +55,13 @@ cards:
     back: "Trust first - pray, then act."
   - front: "Two friends feuding - I stay quiet to keep my peace. Enough?"
     back: "No - peacemaking is work too."
-  - front: "Conflict avoided so nobody gets upset - I stayed silent instead of making peace."
+  - front: "Conflict avoided so nobody gets upset - I stayed silent instead of making peace. What's the move?"
     back: "Trust God - make peace, don't fake quiet."
   - front: "Anxiety scrolling finances at midnight. What fruit replaces the loop?"
     back: "Trust Father - pray, then act."
-  - front: "Friends feuding - I keep peace by never naming the hurt."
+  - front: "Friends feuding - I keep peace by never naming the hurt. What's the move?"
     back: "Make peace - don't fake quiet."
-  - front: "Bill panic at 2 a.m. - trust loop still spinning."
+  - front: "Bill panic at 2 a.m. - trust loop still spinning. What comes first?"
     back: "Pray first - then one practical step."
 draft: false
 ---

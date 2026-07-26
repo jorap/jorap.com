@@ -50,17 +50,17 @@ featured: false
 review: true
 card_sets: ["Eternal Principles", "Gospel", "Discipleship"]
 cards:
-  - front: "Anger streak eating the marriage - still hiding from accountability brother."
+  - front: "Anger streak eating the marriage - still hiding from accountability brother. What's the move?"
     back: "Confess tonight - prayer, not podcast."
-  - front: "Hidden bitterness toward teammate - every huddle poisoned."
+  - front: "Hidden bitterness toward teammate - every huddle poisoned. What's the move?"
     back: "One honest coffee - speak the sin."
   - front: "Treating confession like re-earning heaven - wrong motive?"
     back: "Already His - restore fellowship."
   - front: "Performance image blocking small group honesty - what's rotting?"
     back: "Confess to trusted believer - healing lane."
-  - front: "Sin festering three weeks - fellowship lane cracking."
+  - front: "Sin festering three weeks - fellowship lane cracking. What's the move?"
     back: "Speak it - invite prayer this week."
-  - front: "Tempted to vent sin as gossip instead of confession."
+  - front: "Tempted to vent sin as gossip instead of confession. What's the move?"
     back: "Trusted room - pray together, don't post."
 draft: false
 ---

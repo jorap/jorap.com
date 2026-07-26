@@ -49,9 +49,9 @@ cards:
     back: "Name who does what by when."
   - front: "Wedding invite sent but venue still unbooked. What earns nothing until it lands?"
     back: "Book the venue - plans aren't delivery."
-  - front: "Group chat full of enthusiasm for block cleanup - zero bags on the curb."
+  - front: "Group chat full of enthusiasm for block cleanup - zero bags on the curb. What's missing?"
     back: "Name who shows up with gloves and when."
-  - front: "Beautiful play on the whiteboard - nobody on the field yet."
+  - front: "Beautiful play on the whiteboard - nobody on the field yet. What's the move?"
     back: "Players on the field - name who cuts where."
 draft: false
 ---

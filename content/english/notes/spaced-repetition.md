@@ -45,17 +45,17 @@ featured: false
 review: true
 card_sets: ["Focus", "Review"]
 cards:
-  - front: "Tempted to cram every capture and gospel card into one long Sunday session."
+  - front: "Tempted to cram every capture and gospel card into one long Sunday session. What's the move?"
     back: "Five cards today. Same time tomorrow."
-  - front: "New spine note landed and I want to marathon-review the whole deck tonight."
+  - front: "New spine note landed and I want to marathon-review the whole deck tonight. What's the move?"
     back: "Short reps on rhythm - not one binge."
-  - front: "Kid's spelling quiz is tomorrow and I have not opened the list all week."
+  - front: "Kid's spelling quiz is tomorrow and I have not opened the list all week. What's the move?"
     back: "Five words now while rice cooks - not cram at midnight."
-  - front: "Friday inbox clear but I skipped note review all week again."
+  - front: "Friday inbox clear but I skipped note review all week again. What's the move?"
     back: "Open /notes/review/ - ten minutes, then stop."
   - front: "Pressure rising and I am about to skip today's card drill. One move?"
     back: "Ten minutes now - rhythm beats cramming later."
-  - front: "Anki export sitting untouched while I tell myself I will batch-review someday."
+  - front: "Anki export sitting untouched while I tell myself I will batch-review someday. What comes first?"
     back: "Review on schedule before I forget - not one marathon later."
 draft: false
 ---

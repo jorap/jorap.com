@@ -48,15 +48,15 @@ featured: false
 review: true
 card_sets: ["Ethics", "Focus"]
 cards:
-  - front: "On-call engineer three pages deep alone - midnight meltdown incoming."
+  - front: "On-call engineer three pages deep alone - midnight meltdown incoming. What's the move?"
     back: "Split primary and secondary before tonight."
-  - front: "Mom's hospital week - one person doing all of it breaks Thursday."
+  - front: "Mom's hospital week - one person doing all of it breaks Thursday. What's the move?"
     back: "Split pickup and bills - grab a handle."
-  - front: "Hiding the load until the deadline makes it a crisis."
+  - front: "Hiding the load until the deadline makes it a crisis. What's the move?"
     back: "Name weight now - who takes which handle."
-  - front: "Leader cheering from sideline - crate still on one back."
+  - front: "Leader cheering from sideline - crate still on one back. What's the move?"
     back: "Grab a handle - servant move."
-  - front: "Too proud to ask - solo lane hoarding the crate."
+  - front: "Too proud to ask - solo lane hoarding the crate. What's the move?"
     back: "Ask early - shared lift beats heroics."
   - front: "Team can't admit crush - psychological safety missing?"
     back: "Surface the load - split before snap."

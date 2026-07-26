@@ -51,9 +51,9 @@ cards:
     back: "One capture path - stop collecting tools."
   - front: "Front desk running four scheduling apps and reminders are slipping. Cut to what?"
     back: "One app - fewer sync layers."
-  - front: "Second gym bag and backup rope - never used in a year."
+  - front: "Second gym bag and backup rope - never used in a year. What's the move?"
     back: "Drop the extra - fewer things, clearer path."
-  - front: "Four scheduling apps on front desk - reminders slipping."
+  - front: "Four scheduling apps on front desk - reminders slipping. What's the move?"
     back: "Cut to one scheduler - simplify the stack."
 draft: false
 ---

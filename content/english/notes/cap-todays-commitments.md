@@ -48,13 +48,13 @@ featured: false
 review: true
 card_sets: ["Focus", "Workflow"]
 cards:
-  - front: "Twelve todos before coffee - shame at midnight guaranteed."
+  - front: "Twelve todos before coffee - shame at midnight guaranteed. What's the move?"
     back: "Cap at three after breakfast - honest capacity."
   - front: "Lunch box won't close - same signal as my task list?"
     back: "Cut until it closes - three real wins."
-  - front: "Depleted at 4 p.m. - still signing tonight's fantasy list."
+  - front: "Depleted at 4 p.m. - still signing tonight's fantasy list. What's the move?"
     back: "Stop at honest cap - rest is on the list."
-  - front: "Coach over-drilled Tuesday - legs were gone by game night."
+  - front: "Coach over-drilled Tuesday - legs were gone by game night. What's the move?"
     back: "Match the list to today's legs."
   - front: "Borrowing tomorrow's energy on today's list - what's wrong?"
     back: "Three finished beats twelve half-done."

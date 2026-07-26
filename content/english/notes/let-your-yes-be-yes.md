@@ -51,11 +51,11 @@ featured: false
 review: true
 card_sets: ["Eternal Principles", "Gospel", "Ethics"]
 cards:
-  - front: "Padding a promise with extra oaths so they'll believe me."
+  - front: "Padding a promise with extra oaths so they'll believe me. What's the move?"
     back: "Yes is yes - word stands alone."
   - front: "Contract needs flashy language to feel binding. [[Integrity]] move?"
     back: "Plain yes - no spin."
-  - front: "Public post promises more than private life delivers - words ahead of life."
+  - front: "Public post promises more than private life delivers - words ahead of life. What comes first?"
     back: "Private honesty first - words match life."
   - front: "Kitchen-sink promise covering six things at once. Speech parallel?"
     back: "One plain yes - no padded speech."

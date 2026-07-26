@@ -41,17 +41,17 @@ featured: false
 review: true
 card_sets: ["Linking", "Review"]
 cards:
-  - front: "A random graph walk linked \"jeepney delay\" to \"leave earlier\" six weeks after I saved both"
+  - front: "A random graph walk linked \\\"jeepney delay\\\" to \\\"leave earlier\\\" six weeks after I saved both. What's the move?"
     back: "old notes surprised me at the right time."
-  - front: "I'm flipping through old drill cards before practice and last month's footwork note bumps into today's injury log"
+  - front: "I'm flipping through old drill cards before practice and last month's footwork note bumps into today's injury log. What's the move?"
     back: "Didn't plan the meeting, the link did"
-  - front: "I'm searching old SOPs for \"label printer\" and a note on vendor callbacks from last quarter surfaces"
+  - front: "I'm searching old SOPs for \\\"label printer\\\" and a note on vendor callbacks from last quarter surfaces. What's the move?"
     back: "Serendipity isn't luck, it's links plus review"
-  - front: "I'm flipping through old recipe cards while packing lunch and a card on quick weeknight meals bumps into one I wrote last month on batch cooking"
+  - front: "I'm flipping through old recipe cards while packing lunch and a card on quick weeknight meals bumps into one I wrote last month on batch cooking. What's the move?"
     back: "The \"see also\" arrow on the adobo card did the work"
-  - front: "Random wikilink resurfaced - forgot note led to blog post."
+  - front: "Random wikilink resurfaced - forgot note led to blog post. What's the move?"
     back: "Follow the link - serendipity needs walking the garden."
-  - front: "Old recipe card while packing lunch - unexpected connection."
+  - front: "Old recipe card while packing lunch - unexpected connection. What's the move?"
     back: "Browse the stacks - leave room for accidental finds."
 draft: false
 ---

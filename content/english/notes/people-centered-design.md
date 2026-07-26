@@ -57,15 +57,15 @@ card_sets: ["Ethics", "Focus"]
 cards:
   - front: "New chart template and nurses are charting after shift. First design move?"
     back: "Watch one nurse twenty minutes - cut what does not fit the shift."
-  - front: "Checkout 'improvement' added taps customers hate - nobody watched real checkouts."
+  - front: "Checkout 'improvement' added taps customers hate - nobody watched real checkouts. What's the move?"
     back: "Shadow three checkouts - remove friction they actually hit."
-  - front: "Process rollout and by Friday everyone's using a workaround - designed without humans inside."
+  - front: "Process rollout and by Friday everyone's using a workaround - designed without humans inside. What's missing?"
     back: "Design for the humans inside it - not only the flowchart."
   - front: "I am optimizing the slide before talking to one user. People-centered check?"
     back: "Hear the need first - then ship the fix."
-  - front: "Tablet order form has twelve fields nurses skip at bedside."
+  - front: "Tablet order form has twelve fields nurses skip at bedside. What's the move?"
     back: "Shadow one nurse - cut what never gets filled."
-  - front: "Self-checkout beeps twice - customers bag before paying every rush."
+  - front: "Self-checkout beeps twice - customers bag before paying every rush. What's the move?"
     back: "Watch three checkouts - design for real hands."
 draft: false
 ---

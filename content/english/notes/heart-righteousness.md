@@ -55,11 +55,11 @@ featured: false
 review: true
 card_sets: ["Eternal Principles", "Gospel", "Ethics"]
 cards:
-  - front: "Anger simmering after traffic - treated them fine outwardly."
+  - front: "Anger simmering after traffic - treated them fine outwardly. What's the move?"
     back: "Murder in the heart - deal with anger."
   - front: "Lust logged mentally while marriage looks fine outside. Inner standard?"
     back: "Adultery in heart - cut off at motive."
-  - front: "Polished Sunday face, nursing grudge Monday - motions without heart."
+  - front: "Polished Sunday face, nursing grudge Monday - motions without heart. What's missing?"
     back: "Heart - not just going through motions."
   - front: "About to send cold reply while sounding righteous. One inner check?"
     back: "Motives - anger is heart murder."

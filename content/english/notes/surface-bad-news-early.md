@@ -48,17 +48,17 @@ featured: false
 review: true
 card_sets: ["Ethics", "Focus"]
 cards:
-  - front: "Migration will slip - tempted to silence until Friday."
+  - front: "Migration will slip - tempted to silence until Friday. What's the move?"
     back: "Tell client Tuesday - ugly early truth."
-  - front: "Lineup error at halftime - postgame confession instinct."
+  - front: "Lineup error at halftime - postgame confession instinct. What's the move?"
     back: "Flag it now - quarters left to adjust."
-  - front: "Deploy wrong - users not angry yet - room quiet."
+  - front: "Deploy wrong - users not angry yet - room quiet. What comes first?"
     back: "Surface miss - revert before the thread."
-  - front: "Punishment theater last time someone spoke - late surprise brewing."
+  - front: "Punishment theater last time someone spoke - late surprise brewing. What's the move?"
     back: "Name slip early - rebuild safety."
-  - front: "Hunting fall guy instead of naming my call."
+  - front: "Hunting fall guy instead of naming my call. What's the move?"
     back: "Own it - surface before blame hunt."
-  - front: "Miss aging in Slack - crater going public Monday."
+  - front: "Miss aging in Slack - crater going public Monday. What's the move?"
     back: "Surface while rollback is cheap."
 draft: false
 ---

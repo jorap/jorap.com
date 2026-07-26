@@ -47,9 +47,9 @@ cards:
     back: "Schedule beats mid-commute panic."
   - front: "I watch film every Monday even after ugly wins. Why not only after blowouts?"
     back: "Rhythm beats crisis review."
-  - front: "Wednesday and the evergreen folder has twenty orphans untouched since January."
+  - front: "Wednesday and the evergreen folder has twenty orphans untouched since January. What's the move?"
     back: "Thirty-minute review - promote or trash."
-  - front: "Captures piling in the bowl - last quarterly pass was October."
+  - front: "Captures piling in the bowl - last quarterly pass was October. What's the move?"
     back: "Schedule the review - calendar beats backlog guilt."
 draft: false
 ---

@@ -47,7 +47,7 @@ featured: false
 review: true
 card_sets: ["Eternal Principles", "Gospel", "Commandments"]
 cards:
-  - front: "Sunday worship felt high but I haven't opened the Bible all week - mind lane empty."
+  - front: "Sunday worship felt high but I haven't opened the Bible all week - mind lane empty. What's the move?"
     back: "Mind - open Scripture today."
   - front: "Calendar full, prayer thin - reordering the day. What comes first?"
     back: "Pray before inbox."

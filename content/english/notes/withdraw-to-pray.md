@@ -49,17 +49,17 @@ featured: false
 review: true
 card_sets: ["Jesus Rhythms", "Gospel", "Faith", "Prayer"]
 cards:
-  - front: "Group chat blowing up before I'm out of bed - thumb hovering."
+  - front: "Group chat blowing up before I'm out of bed - thumb hovering. What comes first?"
     back: "Door closed - pray before I reply."
-  - front: "Crowds want more of me and I have nothing left - fumes only."
+  - front: "Crowds want more of me and I have nothing left - fumes only. What comes first?"
     back: "Slip away - pray alone first."
-  - front: "Calendar stacked - treating quiet time like optional skip."
+  - front: "Calendar stacked - treating quiet time like optional skip. What comes first?"
     back: "Slip away - pray before I serve."
-  - front: "Skipped prayer and brought empty fumes to the last meeting."
+  - front: "Skipped prayer and brought empty fumes to the last meeting. What comes first?"
     back: "Withdraw to pray - before the push."
-  - front: "Posting my quiet time instead of having one - feed bait ready."
+  - front: "Posting my quiet time instead of having one - feed bait ready. What's the reframe?"
     back: "Father alone - not the feed."
-  - front: "Inbox before prayer most mornings - phone wins again."
+  - front: "Inbox before prayer most mornings - phone wins again. What comes first?"
     back: "Pray first - then serve the day."
 draft: false
 ---

@@ -48,17 +48,17 @@ featured: false
 review: true
 card_sets: ["Jesus Rhythms", "Gospel", "Faith", "Discipleship"]
 cards:
-  - front: "Chasing bigger audience, neglecting three faithful people - metrics up."
+  - front: "Chasing bigger audience, neglecting three faithful people - metrics up. What comes first?"
     back: "Invest in the few - depth first."
-  - front: "Quarterly all-hands, never ate with the core four - broadcast only."
+  - front: "Quarterly all-hands, never ate with the core four - broadcast only. What's the move?"
     back: "Disproportionate time - eat with the few."
-  - front: "Platform before presence with anyone - stage over room."
+  - front: "Platform before presence with anyone - stage over room. What's the move?"
     back: "Be with them - then send out."
-  - front: "Teaching crowds, no one knows me up close - distant teacher mode."
+  - front: "Teaching crowds, no one knows me up close - distant teacher mode. What's the move?"
     back: "Invest in the few - room, not stage."
-  - front: "Hoarding truth in my head, no one to pass it to - solo expert."
+  - front: "Hoarding truth in my head, no one to pass it to - solo expert. What comes first?"
     back: "Few first - then multiply."
-  - front: "Favoritism fear keeps me shallow with everyone - afraid to go deep."
+  - front: "Favoritism fear keeps me shallow with everyone - afraid to go deep. What's the move?"
     back: "Depth before send - not elitism."
 draft: false
 ---

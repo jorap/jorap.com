@@ -55,7 +55,7 @@ cards:
     back: "Move them up high - remove the hazard."
   - front: "Same reply-all near-miss every month. First fix I try?"
     back: "Fix what started it - don't manage forever."
-  - front: "Wobbly ladder still in the corner - more warning signs added."
+  - front: "Wobbly ladder still in the corner - more warning signs added. What's the move?"
     back: "Swap for stable stool - eliminate the hazard."
   - front: "Same reply-all near-miss every month - more procedure docs?"
     back: "Remove the trigger - don't stack process on broken."

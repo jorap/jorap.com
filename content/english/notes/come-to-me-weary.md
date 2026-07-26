@@ -50,17 +50,17 @@ featured: false
 review: true
 card_sets: ["Eternal Principles", "Gospel", "Discipleship"]
 cards:
-  - front: "Outserved my burnout until Sunday collapsed - hero badge still on."
+  - front: "Outserved my burnout until Sunday collapsed - hero badge still on. What's the move?"
     back: "Admit weary - come before you crack."
-  - front: "Ministry week left me hollow - guilt sermon to myself loading."
+  - front: "Ministry week left me hollow - guilt sermon to myself loading. What's the move?"
     back: "Take the yoke - shorter yes list."
   - front: "Trying to earn rest with a quiet-time streak first - wrong order?"
     back: "Rest is invitation - not merit pay."
-  - front: "Another volunteer yes while my tank is empty - hero badge loading again."
+  - front: "Another volunteer yes while my tank is empty - hero badge loading again. What's the move?"
     back: "One honest nap - then the yoke fits."
-  - front: "Forcing through exhaustion by will alone - crushing solo labor."
+  - front: "Forcing through exhaustion by will alone - crushing solo labor. What's the move?"
     back: "Come weary - shared weight with Him."
-  - front: "Prayer feels like another task I'll fail when drained."
+  - front: "Prayer feels like another task I'll fail when drained. What's the move?"
     back: "Pray as part of rest - not proof."
 draft: false
 ---

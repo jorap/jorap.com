@@ -60,15 +60,15 @@ card_sets: ["Eternal Principles", "Gospel", "Discipleship"]
 cards:
   - front: "One mission trip as my whole eternal report card. Faithfulness fruit lens?"
     back: "Steady use over years - not one week."
-  - front: "Buried the talent - played safe, never used what God gave."
+  - front: "Buried the talent - played safe, never used what God gave. What's the move?"
     back: "Use faithfully - don't hide it."
   - front: "Small daily obedience feels too small to matter. Steward view?"
     back: "Faithful in little - master sees."
   - front: "Stacked service feels like proof I earned heaven. Correct order?"
     back: "Saved by faith - faithfulness follows."
-  - front: "Platform reach vanished overnight - tempted to coast on old faithfulness."
+  - front: "Platform reach vanished overnight - tempted to coast on old faithfulness. What's the move?"
     back: "Steady today - borrowed reach, faithful use."
-  - front: "Hidden talent from fear of failure - master's return looming."
+  - front: "Hidden talent from fear of failure - master's return looming. What's the move?"
     back: "Invest what's entrusted - don't bury it."
 draft: false
 ---

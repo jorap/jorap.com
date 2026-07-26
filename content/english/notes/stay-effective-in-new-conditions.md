@@ -50,17 +50,17 @@ featured: false
 review: true
 card_sets: ["Focus", "Review"]
 cards:
-  - front: "New counter at work and lunch rush is tomorrow. I am still defending last month's habits."
+  - front: "New counter at work and lunch rush is tomorrow. I am still defending last month's habits. What comes first?"
     back: "Walk it first - adapt, do not defend."
-  - front: "I own the outdoor court but tonight's indoor floor is slick and I am slipping everywhere."
+  - front: "I own the outdoor court but tonight's indoor floor is slick and I am slipping everywhere. Where do I stop?"
     back: "New footwork - do not defend yesterday."
-  - front: "New floor opens tomorrow - still running last month's drills."
+  - front: "New floor opens tomorrow - still running last month's drills. What's the move?"
     back: "Walk it once - adapt, don't defend."
-  - front: "Slick indoor court - tempted to blame the shoes only."
+  - front: "Slick indoor court - tempted to blame the shoes only. What's the move?"
     back: "New footwork tonight - not yesterday's game."
   - front: "Outdoor game worked - indoor tomorrow - same moves?"
     back: "Shorter steps, softer touch - retune first."
-  - front: "Slipped all first quarter on the slick floor - halftime and I'm steaming."
+  - front: "Slipped all first quarter on the slick floor - halftime and I'm steaming. What's the move?"
     back: "New reads second half - adapt, don't rage."
 draft: false
 ---

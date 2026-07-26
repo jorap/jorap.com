@@ -48,9 +48,9 @@ cards:
     back: "Device holds truth - sync is icing."
   - front: "Phone dies mid-grocery run. List that still works?"
     back: "Fridge list - not cloud-only."
-  - front: "Phone died mid-grocery run - cloud-only list vanished with it."
+  - front: "Phone died mid-grocery run - cloud-only list vanished with it. What's the move?"
     back: "Fridge backup - device holds truth, sync is icing."
-  - front: "Recipe app might shut down - grandma's cards still in the drawer."
+  - front: "Recipe app might shut down - grandma's cards still in the drawer. What comes first?"
     back: "Local master copy - export before the vendor dies."
 draft: false
 ---

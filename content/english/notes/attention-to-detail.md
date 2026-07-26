@@ -42,17 +42,17 @@ featured: false
 review: true
 card_sets: ["Focus", "Review"]
 cards:
-  - front: "I almost sent the permission slip to the wrong teacher because the forms looked the same"
+  - front: "I almost sent the permission slip to the wrong teacher because the forms looked the same. What's the move?"
     back: "One more check of the name line saved the field trip"
-  - front: "I use the same pause before I sign anything that can't be undone"
+  - front: "I use the same pause before I sign anything that can't be undone. What's the move?"
     back: "The boring second look beats the big mistake"
-  - front: "Rushing the permission slip sign - name line half-read."
+  - front: "Rushing the permission slip sign - name line half-read. What's the move?"
     back: "Stop - read the name line out loud."
-  - front: "Both forms look identical - gut says they're the same kid."
+  - front: "Both forms look identical - gut says they're the same kid. What's the reframe?"
     back: "Match the student ID - not the vibe."
   - front: "Stack of papers on the counter - what gets the slow read first?"
     back: "Anything that ships or signs - check twice."
-  - front: "Friend says I'm overchecking - it's just a receipt."
+  - front: "Friend says I'm overchecking - it's just a receipt. What's the move?"
     back: "Thirty seconds now - or a week fixing it."
 draft: false
 ---

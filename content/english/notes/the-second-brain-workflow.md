@@ -43,17 +43,17 @@ featured: false
 review: true
 card_sets: ["Focus", "Workflow"]
 cards:
-  - front: "Post-game notes still in my pocket and Sunday review's coming."
+  - front: "Post-game notes still in my pocket and Sunday review's coming. What's the move?"
     back: "One inbox - sort, toss, ship one play."
-  - front: "Links piled in inbox all week and review day's tomorrow."
+  - front: "Links piled in inbox all week and review day's tomorrow. What's the move?"
     back: "Empty inbox - ship one note."
-  - front: "Friday night and captures are scattered in three apps again."
+  - front: "Friday night and captures are scattered in three apps again. What's the move?"
     back: "One jar - Sunday sort and file."
-  - front: "School slips in the bowl and Sunday review's in an hour."
+  - front: "School slips in the bowl and Sunday review's in an hour. What's the move?"
     back: "Sort, trash, pick one action."
-  - front: "Captures in three apps Friday night - Sunday review in hours."
+  - front: "Captures in three apps Friday night - Sunday review in hours. What's the move?"
     back: "One jar - sort, trash, ship one."
-  - front: "Post-game notes still in pocket - review tomorrow morning."
+  - front: "Post-game notes still in pocket - review tomorrow morning. What's the move?"
     back: "Inbox dump - pick one action."
 draft: false
 ---

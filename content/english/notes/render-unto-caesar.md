@@ -46,7 +46,7 @@ cards:
     back: "God ultimate - Caesar gets what's his."
   - front: "State feels like lord of everything lately. Sort the two?"
     back: "Render each properly - do not idolize Rome."
-  - front: "Revolutionary tax refusal sounds faithful - kingdom protest through nonpayment."
+  - front: "Revolutionary tax refusal sounds faithful - kingdom protest through nonpayment. What's the move?"
     back: "Pay taxes - kingdom higher, still pay."
   - front: "God's image bearer - what do I owe Him vs the state?"
     back: "Self to God - coin to Caesar."

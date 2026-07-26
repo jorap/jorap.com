@@ -44,7 +44,7 @@ featured: false
 review: true
 card_sets: ["Capture", "Workflow"]
 cards:
-  - front: "Mid-commute spark I might forget before I'm home."
+  - front: "Mid-commute spark I might forget before I'm home. What's the move?"
     back: "Drop in one inbox. Don't organize yet."
   - front: "Thumb hovering over save on an interesting link I'm unsure about. One question before it hits the inbox?"
     back: "Would I act on it or cite it later?"

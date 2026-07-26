@@ -41,17 +41,17 @@ featured: false
 review: true
 card_sets: ["Focus", "Review"]
 cards:
-  - front: "New note just landed - not sure if it is fleeting or evergreen yet."
+  - front: "New note just landed - not sure if it is fleeting or evergreen yet. What's the move?"
     back: "Match effort to where it actually sits."
-  - front: "New set play's in 'learning' folder - three weeks till game plan."
+  - front: "New set play's in 'learning' folder - three weeks till game plan. What's the move?"
     back: "Graduate when game-ready - archive when offense changes."
-  - front: "Tomato seedling's been on the windowsill three good weeks."
+  - front: "Tomato seedling's been on the windowsill three good weeks. What's the move?"
     back: "Move to the bed - pull when frost hits."
-  - front: "School FAQ note got updated all semester and the kid's changing schools."
+  - front: "School FAQ note got updated all semester and the kid's changing schools. What's the move?"
     back: "Archive it - capture served its season."
-  - front: "Seedling on sill three weeks - still in the starter cup."
+  - front: "Seedling on sill three weeks - still in the starter cup. What's the move?"
     back: "Move to bed when ready - archive at frost."
-  - front: "School FAQ updated all semester - kid switching schools."
+  - front: "School FAQ updated all semester - kid switching schools. What's the move?"
     back: "Archive it - season served."
 draft: false
 ---

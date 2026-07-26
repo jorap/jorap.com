@@ -31,7 +31,7 @@ relationships:
     reason: "Belief tied to who sent Him - not to our show"
   - type: extends
     wikilink: "[[Jesus' Prayers]]"
-    reason: "Verbatim thanksgiving at the tomb - John 11:41-42"
+    reason: "Verbatim thanksgiving at the tomb"
   - type: extends
     wikilink: "[[Moved with Compassion]]"
     reason: "Same Lazarus scene - wept, then prayed, then called him out"
@@ -49,17 +49,17 @@ featured: false
 review: true
 card_sets: ["Jesus Prayers", "Gospel", "Faith", "Prayer"]
 cards:
-  - front: "Asked to pray out loud before a hard moment - crowd watching."
+  - front: "Asked to pray out loud before a hard moment - crowd watching. What's the move?"
     back: "Thank the Father aloud - then move."
-  - front: "Tempted to whisper prayer no one can hear when faith is on the line."
+  - front: "Tempted to whisper prayer no one can hear when faith is on the line. What's the move?"
     back: "Speak thanks - Father always hears."
-  - front: "About to act in someone's crisis - team watching my face."
+  - front: "About to act in someone's crisis - team watching my face. What's the move?"
     back: "Look up - thank the Father, then move."
-  - front: "Worried public prayer sounds showy - showing-off fear loaded."
+  - front: "Worried public prayer sounds showy - showing-off fear loaded. What's the move?"
     back: "Point them to the Father - not to me."
-  - front: "Team waiting for me to pray before bad news hits."
+  - front: "Team waiting for me to pray before bad news hits. What's the move?"
     back: "Thank You, Father - You hear Me."
-  - front: "Doubting God heard my private prayer - silence feels safer."
+  - front: "Doubting God heard my private prayer - silence feels safer. What's the move?"
     back: "Trust and speak - Father always hears."
 draft: false
 ---

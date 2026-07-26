@@ -62,9 +62,9 @@ cards:
     back: "Fix it - no public humiliation."
   - front: "Nurse reported a near-mix-up because charge nurse thanked the catch. What culture is that?"
     back: "Name mistakes without retaliation."
-  - front: "Rookie swallowed a bad call instead of asking the veteran."
+  - front: "Rookie swallowed a bad call instead of asking the veteran. What's the move?"
     back: "Thank the catch - fix it quiet."
-  - front: "Kid admitted the lie before I found proof - my face is already angry."
+  - front: "Kid admitted the lie before I found proof - my face is already angry. What's the move?"
     back: "Thank honesty - anger can wait."
 draft: false
 ---

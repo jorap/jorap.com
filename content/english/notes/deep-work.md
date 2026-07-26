@@ -47,9 +47,9 @@ cards:
     back: "The error I'd been rushing past."
   - front: "Ninety minutes, phone in the drawer, and that note's been \"almost done\" for weeks. Move?"
     back: "Draft it - one uninterrupted block."
-  - front: "Notifications pinging through closed door - chart review derailed."
+  - front: "Notifications pinging through closed door - chart review derailed. What's the move?"
     back: "Notifications off - protect the block."
-  - front: "Almost-done note for weeks - meeting in twenty minutes."
+  - front: "Almost-done note for weeks - meeting in twenty minutes. What's the move?"
     back: "One block now - drawer the phone."
 draft: false
 ---

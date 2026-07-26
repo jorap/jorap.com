@@ -40,7 +40,7 @@ relationships:
     reason: "Discernment orders the aim toward His glory, not applause"
   - type: extends
     wikilink: "[[Renewed Mind]]"
-    reason: "Romans 12:2 outcome - renewal enables testing His will"
+    reason: "Mind renewal outcome - renewal enables testing His will"
   - type: extends
     wikilink: "[[Seek the Kingdom First]]"
     reason: "Kingdom-first is what fills the mind before worry sets the agenda"
@@ -68,7 +68,7 @@ cards:
     back: "Saved first - discern from a fed mind now."
   - front: "Big fork tomorrow and I haven't opened Scripture all week. What's missing?"
     back: "Renew first - then approve His will."
-  - front: "Choosing comfort over the hard right thing - mind renewed, fork still easy."
+  - front: "Choosing comfort over the hard right thing - mind renewed, fork still easy. What's the move?"
     back: "Test His will - good and acceptable and perfect."
 draft: false
 ---

@@ -54,17 +54,17 @@ featured: false
 review: true
 card_sets: ["Focus", "Review"]
 cards:
-  - front: "Six note tabs open Sunday - cannot quote one claim Monday."
+  - front: "Six note tabs open Sunday - cannot quote one claim Monday. What comes first?"
     back: "One note - description first."
-  - front: "Scrolled shareable thoughts but the real test is tomorrow at work."
+  - front: "Scrolled shareable thoughts but the real test is tomorrow at work. What comes first?"
     back: "Drill cards - produce the back first."
-  - front: "Finished key concept once and called it studied."
+  - front: "Finished key concept once and called it studied. What's the move?"
     back: "Second pass - examples and links."
   - front: "Gospel section feels huge - where do I start when order matters?"
     back: "Free Grace first - then wander."
-  - front: "Tempted to marathon every card tonight before bed."
+  - front: "Tempted to marathon every card tonight before bed. What's the move?"
     back: "Ten minutes at /notes/review/ - stop."
-  - front: "Wiki scroll feels productive but life still caught me flat."
+  - front: "Wiki scroll feels productive but life still caught me flat. What's the move?"
     back: "Recall test - cover the card, say the move."
 draft: false
 ---

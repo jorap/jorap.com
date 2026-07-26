@@ -70,9 +70,9 @@ cards:
     back: "Repeat the same small levers for weeks - not one breakthrough day."
   - front: "I'm waiting for motivation before I run the move again. Repetition reframe?"
     back: "The system bends on Tuesdays - not on inspiration."
-  - front: "Inbound play worked week six - gave up week two."
+  - front: "Inbound play worked week six - gave up week two. What's the move?"
     back: "Six weeks of same rep - change bends slow."
-  - front: "Transformation waiting for inspiration before next rep."
+  - front: "Transformation waiting for inspiration before next rep. What's the move?"
     back: "Run the Tuesday again - motivation follows."
 draft: false
 ---

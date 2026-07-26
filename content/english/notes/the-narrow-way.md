@@ -49,15 +49,15 @@ featured: false
 review: true
 card_sets: ["Eternal Principles", "Gospel", "Discipleship"]
 cards:
-  - front: "Comfortable path everyone else is on - crowd makes it feel safe."
+  - front: "Comfortable path everyone else is on - crowd makes it feel safe. What's the move?"
     back: "Narrow - hard road, life at the end."
-  - front: "Saying Lord Lord but same secret sin unchanged - words without walk."
+  - front: "Saying Lord Lord but same secret sin unchanged - words without walk. What's missing?"
     back: "Not everyone who says Lord enters - do his words."
   - front: "Cross feels optional because grace saved me. What's still costly?"
     back: "Daily following - not the salvation price."
   - front: "Broad road tempting because it is crowded and easy. One move?"
     back: "Pick narrow - even if few find it."
-  - front: "Moral performance as salvation ticket - earning road, not grace gate."
+  - front: "Moral performance as salvation ticket - earning road, not grace gate. What's the reframe?"
     back: "Broad earning-your-way road - not the grace gate."
   - front: "Tempted to skip hard obedience because everyone's comfortable. Who moves first?"
     back: "I take narrow - do not follow the crowd."

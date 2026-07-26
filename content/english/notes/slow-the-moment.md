@@ -71,17 +71,17 @@ featured: false
 review: true
 card_sets: ["Focus", "Review"]
 cards:
-  - front: "Cut off in traffic and my hand's already on the horn."
+  - front: "Cut off in traffic and my hand's already on the horn. What's the move?"
     back: "One breath - do not become that driver."
-  - front: "Free throw to win it and my chest is thumping."
+  - front: "Free throw to win it and my chest is thumping. What's the move?"
     back: "One breath - run the routine."
-  - front: "Horn reflex after every cut-off - never practiced the pause."
+  - front: "Horn reflex after every cut-off - never practiced the pause. What's the move?"
     back: "Hand off horn - one breath."
-  - front: "Chest pounding means rush the routine."
+  - front: "Chest pounding means rush the routine. What's the move?"
     back: "One breath - run the same feet."
-  - front: "Argument heating - my voice climbing with theirs."
+  - front: "Argument heating - my voice climbing with theirs. What's the move?"
     back: "Lower voice - slow the moment."
-  - front: "Already honked - kid in the back seat."
+  - front: "Already honked - kid in the back seat. What comes first?"
     back: "Own it - reset before the next turn."
 draft: false
 ---

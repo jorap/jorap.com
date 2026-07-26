@@ -68,9 +68,9 @@ cards:
     back: "Accept where I start - then set the target."
   - front: "I am calling acceptance 'giving up' on the hard goal. What's the reframe?"
     back: "Refuse to plan for a person who does not exist yet."
-  - front: "Dream schedule assumes morning person - I'm night-shift dad."
+  - front: "Dream schedule assumes morning person - I'm night-shift dad. What's the move?"
     back: "Start from tonight's ten minutes - not fantasy morning."
-  - front: "Jeepney commute only - fifty-note goal still on the board."
+  - front: "Jeepney commute only - fifty-note goal still on the board. What's the move?"
     back: "Accept the line - build from what commute allows."
 draft: false
 ---

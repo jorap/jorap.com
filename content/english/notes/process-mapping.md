@@ -50,13 +50,13 @@ cards:
     back: "Map one full shift from observation."
   - front: "Checkout flow looks clean on the slide but customers stall. Mapping move?"
     back: "Three rushes behind the counter - then draw."
-  - front: "Flowchart from memory says five steps - Friday workaround says eight."
+  - front: "Flowchart from memory says five steps - Friday workaround says eight. What's the move?"
     back: "The one drawn from watching real work."
   - front: "Redesign meeting tomorrow, nobody shadowed the floor. First move tonight?"
     back: "Watch one person one full cycle."
-  - front: "Committee drew a flowchart nobody on the floor recognizes."
+  - front: "Committee drew a flowchart nobody on the floor recognizes. What's the reframe?"
     back: "Map from one real shift - not the slide."
-  - front: "Workaround sticky notes lining the monitor - official map says five steps."
+  - front: "Workaround sticky notes lining the monitor - official map says five steps. What's the move?"
     back: "Redraw from watching Tuesday rush."
 draft: false
 ---

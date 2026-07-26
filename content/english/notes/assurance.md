@@ -80,7 +80,7 @@ cards:
     back: "Rest on His promise - not your report card."
   - front: "Waiting to feel holy enough before I trust I'm His. Wrong order?"
     back: "Believe first - assurance follows faith."
-  - front: "Guilt looping even though I memorized the verse - shame won't quit."
+  - front: "Guilt looping even though I memorized the verse - shame won't quit. What's the move?"
     back: "Nothing from God's love in Christ."
 draft: false
 ---

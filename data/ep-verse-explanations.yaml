@@ -154,10 +154,12 @@ verses:
     - ref: Matthew 6:9-13
       explain: "Lord's Prayer order - Father's name, kingdom, will first, then daily bread and forgiveness."
   secret-devotion:
-    - ref: Matthew 6:1
-      explain: "Piety for an audience is its own reward - give, pray, fast for the Father who sees in secret."
-    - ref: Matthew 6:1-18
-      explain: "Some good shines publicly; some stays hidden so the left hand doesn't know what the right is doing."
+    - ref: Matthew 6:3-4
+      explain: "Give in secret - left hand does not know what the right is doing."
+    - ref: Matthew 6:5-6
+      explain: "Pray behind closed doors - Father who sees in secret is the audience."
+    - ref: Matthew 6:17-18
+      explain: "Fast without performing - wash your face for the Father, not the crowd."
   seek-the-kingdom-first:
     - ref: Matthew 6:33
       explain: "Kingdom and righteousness first - food, status, and tomorrow sort behind that, not before my inbox."

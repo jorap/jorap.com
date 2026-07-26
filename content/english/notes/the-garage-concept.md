@@ -46,17 +46,17 @@ featured: false
 review: true
 card_sets: ["Focus", "Review"]
 cards:
-  - front: "Draft post's half-finished in my private folder and I am tempted to publish tonight."
+  - front: "Draft post's half-finished in my private folder and I am tempted to publish tonight. What's the move?"
     back: "Blog gets the finished essay only."
-  - front: "Back kitchen's full of experiments but the dining room plate leaves in ten."
+  - front: "Back kitchen's full of experiments but the dining room plate leaves in ten. What's the move?"
     back: "Workshop stays back - showroom goes out."
-  - front: "Practice film library's a mess but parents want a highlight reel tonight."
+  - front: "Practice film library's a mess but parents want a highlight reel tonight. What's the move?"
     back: "One clean cut - scraps stay in the garage."
-  - front: "Garage bench is half-sanded and the neighbor's walking up the driveway."
+  - front: "Garage bench is half-sanded and the neighbor's walking up the driveway. What's the move?"
     back: "Porch shows the finished piece only."
-  - front: "Rough draft in private folder - tempted to polish before anyone sees."
+  - front: "Rough draft in private folder - tempted to polish before anyone sees. What's the move?"
     back: "Show finished work only - garage stays messy."
-  - front: "Practice film library chaos - parents want highlight reel tonight."
+  - front: "Practice film library chaos - parents want highlight reel tonight. What's the move?"
     back: "One clean cut - scraps stay back."
 draft: false
 ---

@@ -51,17 +51,17 @@ featured: false
 review: true
 card_sets: ["Focus", "Workflow"]
 cards:
-  - front: "New play's still ugly but we've drilled it a month. Scrimmage's tomorrow and I am tempted to drill another month."
+  - front: "New play's still ugly but we've drilled it a month. Scrimmage's tomorrow and I am tempted to drill another month. What's the move?"
     back: "Run it ugly - feedback beats the whiteboard."
-  - front: "Menu typo spotted mid-service but kitchen's rolling. Perfectionist urge to hold the launch."
+  - front: "Menu typo spotted mid-service but kitchen's rolling. Perfectionist urge to hold the launch. What's the move?"
     back: "Go live - customers eat tonight."
-  - front: "Birthday slideshow has one rough slide and the party's tomorrow."
+  - front: "Birthday slideshow has one rough slide and the party's tomorrow. What's the move?"
     back: "Ship it - do not miss the party."
-  - front: "Blog post's 90% there and I've been editing a month."
+  - front: "Blog post's 90% there and I've been editing a month. What's the move?"
     back: "Publish - feedback beats another draft month."
-  - front: "Blog draft at ninety percent for the sixth week."
+  - front: "Blog draft at ninety percent for the sixth week. What's the move?"
     back: "Publish tonight - polish can follow."
-  - front: "Client site ready except the about page font."
+  - front: "Client site ready except the about page font. Where do I stop?"
     back: "Ship the site - font Tuesday."
 draft: false
 ---

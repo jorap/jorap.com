@@ -46,17 +46,17 @@ featured: false
 review: true
 card_sets: ["Jesus Rhythms", "Gospel", "Faith"]
 cards:
-  - front: "Invited only polished families to dinner - awkward guy still alone."
+  - front: "Invited only polished families to dinner - awkward guy still alone. What's the move?"
     back: "Open table - eat with sinners too."
-  - front: "Posted community coffee, never sat with the awkward guy - brand over plate."
+  - front: "Posted community coffee, never sat with the awkward guy - brand over plate. What's the move?"
     back: "One meal - presence, not brand."
-  - front: "Grumbling from the doorway about the wrong crowd - judgment from the hall."
+  - front: "Grumbling from the doorway about the wrong crowd - judgment from the hall. What's the move?"
     back: "Stay at the table - Physician with the sick."
-  - front: "Fellowship as a program slot, not a plate shared - calendar event."
+  - front: "Fellowship as a program slot, not a plate shared - calendar event. What's the move?"
     back: "Table fellowship - eat with them."
-  - front: "Avoiding the tax collector type at lunch - wrong crowd fear."
+  - front: "Avoiding the tax collector type at lunch - wrong crowd fear. What's the move?"
     back: "Recline with sinners - call them."
-  - front: "Table as stage for my reputation - performance over presence."
+  - front: "Table as stage for my reputation - performance over presence. What's the move?"
     back: "Ministry - presence at the table."
 draft: false
 ---

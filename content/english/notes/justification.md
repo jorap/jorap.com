@@ -78,7 +78,7 @@ cards:
     back: "Justified at faith - obedience follows."
   - front: "Tempted to treat baptism as the moment God finally said yes. What finished it?"
     back: "Faith in Christ - declared once."
-  - front: "Know the Romans quote but still feel on probation with God. What changed at faith?"
+  - front: "Know the justification truth but still feel on probation with God. What changed at faith?"
     back: "Standing settled - walk is separate."
   - front: "Someone says they're 'working toward' being saved. One sentence back?"
     back: "Trust Christ now - declared righteous at faith."

@@ -47,13 +47,13 @@ cards:
     back: "Said I'd do when applause isn't pushing me"
   - front: "A marathon isn't won on race-day adrenaline. What's the move?"
     back: "It's won on rainy Tuesday runs nobody films"
-  - front: "Brilliant draft excuse - thumb hovering on skip tonight."
+  - front: "Brilliant draft excuse - thumb hovering on skip tonight. What's the reframe?"
     back: "Show up on the clock - mood is not the boss."
-  - front: "Rainy Tuesday - gut says the streak doesn't count."
+  - front: "Rainy Tuesday - gut says the streak doesn't count. What's the move?"
     back: "Run anyway - nobody's filming."
-  - front: "Hour left on publish night - thumb hovering on one more polish pass."
+  - front: "Hour left on publish night - thumb hovering on one more polish pass. What's the move?"
     back: "Ship on schedule - polish in the next slot."
-  - front: "Friend invites epic night before race morning."
+  - front: "Friend invites epic night before race morning. What's the move?"
     back: "Bed on time - race owns dawn."
 draft: false
 ---

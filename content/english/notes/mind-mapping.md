@@ -45,9 +45,9 @@ cards:
     back: "Each branch becomes a sticky on the dash."
   - front: "Rooms sketched on a napkin before the quote. What comes next?"
     back: "Each bubble becomes a line item."
-  - front: "Brain dump on the whiteboard - branches everywhere, no center."
+  - front: "Brain dump on the whiteboard - branches everywhere, no center. Where do I stop?"
     back: "One center node - radiate from the core idea."
-  - front: "Meeting notes as a flat list - connections still invisible."
+  - front: "Meeting notes as a flat list - connections still invisible. What's the move?"
     back: "Sketch the map - show how ideas touch."
 draft: false
 ---

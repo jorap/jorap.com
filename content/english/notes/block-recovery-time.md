@@ -48,17 +48,17 @@ featured: false
 review: true
 card_sets: ["Focus", "Workflow"]
 cards:
-  - front: "Q4 crunch incoming - Wednesday walks never blocked on the calendar."
+  - front: "Q4 crunch incoming - Wednesday walks never blocked on the calendar. What's the move?"
     back: "Block the walk - immovable like meetings."
-  - front: "Team culture wears empty weekends as badges - my refill keeps slipping."
+  - front: "Team culture wears empty weekends as badges - my refill keeps slipping. What's the move?"
     back: "Block Friday afternoon - no-meeting zone."
-  - front: "Recovery only happens if something else cancels - pattern breaking families."
+  - front: "Recovery only happens if something else cancels - pattern breaking families. What comes first?"
     back: "Schedule rest first - not leftover time."
   - front: "Water bottle never on the bench before the drill - same move for my nap?"
     back: "Block recovery before crunch owns the week."
-  - front: "Email screamed through lunch again - walk was flexible."
+  - front: "Email screamed through lunch again - walk was flexible. What's the move?"
     back: "Immovable block - walk stays when inbox pings."
-  - front: "Bedtime arguments spiked the weeks I skipped noon walks."
+  - front: "Bedtime arguments spiked the weeks I skipped noon walks. What's the move?"
     back: "Re-block Wednesday - refill is calendar work."
 draft: false
 ---

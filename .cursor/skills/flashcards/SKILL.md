@@ -104,6 +104,7 @@ Wiki = nuance. Cards = spine habits (~20%) you drill weekly so the chain is auto
 - **Review-only recall** - passes in Anki, never fires in life (cue too abstract)
 - **Principle without apply** - backs that teach but don't direct the next move
 - **Definitions, trivia, verse fill-in-the-blank**
+- **Bible verse citations on front or back** - no book chapter:verse, spoken chapter refs, or book-name answer keys; wiki holds scripture
 - **Telegraphy** - answer visible on the front
 - **Multiple choice** - front lists options (`X, Y, or Z?`, `A or B?`); back must hold the move, not a menu of picks
 - **Cards on every note** - understanding in the garden; drill in the spine
@@ -156,7 +157,7 @@ draft: false
 | **Front longer than back** | Scenario on front; short apply back (lint: `len(front) > len(back)`) |
 | **Present-tense cues** | Mid-action, not textbook setup |
 | **Verb-first backs** | Do / decide / say - not define |
-| **Subtle hint questions** | After the cue, optional open question that nudges retrieval - not telegraphy |
+| **Subtle hint questions** | After the cue, a short open question nudges retrieval - required on every front |
 | **Cue only - no multiple choice** | Front = the moment; never list options to pick from |
 | **Double-quoted strings** | Every `front`, `back`, set name |
 | **Block `cards`**, inline `card_sets` | |
@@ -177,7 +178,7 @@ Many strong fronts end with a **short open question** after the cue. The questio
 
 **Bad telegraphy:** names the *answer domain* so you don't need retrieval - note title, concept name, verse-as-answer-key, fill-in-the-blank (`Free grace says what?`, `Matthew 7:12 - what is it?`).
 
-**Pure cue-only is also fine** - not every front needs a question tail. Use a hint question when the back is a specific check, filter, order, or stop line that's easier to retrieve when nudged.
+**Pure cue-only is not enough** - every front needs a question tail that nudges the *kind* of move to recall (`one question`, `first fix`, `what comes first`). Use a hint question when the back is a specific check, filter, order, or stop line.
 
 ### No answer telegraphy
 
@@ -247,7 +248,7 @@ Each card:
 - [ ] Sounds like JoRap typed it - garden-voice de-AI pass done (no textbook / AI slop)
 - [ ] Plain words only - no jargon or thesaurus words you wouldn't say out loud
 - [ ] Front is cue only - no multiple choice (`X, Y, or Z?`, `A or B?` on the front)
-- [ ] Subtle hint question OR pure cue-only - never telegraphy; front longer than back; one move on back
+- [ ] Subtle hint question on every front - never telegraphy; front longer than back; one move on back
 - [ ] `npm run lint:cards`, `npm run audit:cards`, and `npm run lint:voice` pass
 
 Deck:

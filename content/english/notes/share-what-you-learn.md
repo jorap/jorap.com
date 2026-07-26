@@ -51,17 +51,17 @@ featured: false
 review: true
 card_sets: ["Ethics", "Focus"]
 cards:
-  - front: "Three clinic visits and I finally know the parking trick. Parent behind me looks lost."
+  - front: "Three clinic visits and I finally know the parking trick. Parent behind me looks lost. What's the move?"
     back: "Tell them - do not hoard the shortcut."
-  - front: "Week wrestling school forms - spouse starts from zero Monday unless I leave something."
+  - front: "Week wrestling school forms - spouse starts from zero Monday unless I leave something. What's missing?"
     back: "Leave a sticky on the fridge - pass it forward."
-  - front: "Rookie keeper keeps guessing on corner stands. I've got twenty minutes before warmups."
+  - front: "Rookie keeper keeps guessing on corner stands. I've got twenty minutes before warmups. What's the move?"
     back: "Show her once - now, not later."
-  - front: "I am the only one who knows which breaker kills the kitchen. Next electrician will not."
+  - front: "I am the only one who knows which breaker kills the kitchen. Next electrician will not. What's the move?"
     back: "Label the panel - twenty minutes now."
-  - front: "Garden note hoarded six months - teammate stuck on same problem."
+  - front: "Garden note hoarded six months - teammate stuck on same problem. What's the move?"
     back: "Share the shortcut - don't hoard bookmarks."
-  - front: "Truth stays in private notes only - guilt about hoarding."
+  - front: "Truth stays in private notes only - guilt about hoarding. What's the move?"
     back: "Pass one lesson forward - today."
 draft: false
 ---

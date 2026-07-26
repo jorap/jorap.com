@@ -49,17 +49,17 @@ featured: false
 review: true
 card_sets: ["Ethics", "Focus"]
 cards:
-  - front: "Third straight night of bedtime-and-homework heroics and Thursday's melting down."
+  - front: "Third straight night of bedtime-and-homework heroics and Thursday's melting down. What's the move?"
     back: "Earlier lights-out tonight - pace I can repeat."
-  - front: "Thumb on work email at midnight again and tomorrow's already packed."
+  - front: "Thumb on work email at midnight again and tomorrow's already packed. What's the move?"
     back: "Close the laptop - heroics do not scale."
-  - front: "Third coffee today and it is only Tuesday - eyelids already heavy at pickup."
+  - front: "Third coffee today and it is only Tuesday - eyelids already heavy at pickup. What's the move?"
     back: "Sleep tonight - coffee buys one shift."
-  - front: "Kitchen ran Friday pace five nights and quality slid by Wednesday."
+  - front: "Kitchen ran Friday pace five nights and quality slid by Wednesday. What's the move?"
     back: "Cut a night off - do not mortgage next week."
-  - front: "Third straight midnight email - Thursday already cracking."
+  - front: "Third straight midnight email - Thursday already cracking. What's the move?"
     back: "Close laptop - pace I can repeat."
-  - front: "Kitchen ran wedding pace five nights - quality slid Wednesday."
+  - front: "Kitchen ran wedding pace five nights - quality slid Wednesday. What's the move?"
     back: "Cut a night off - don't borrow next week."
 draft: false
 ---

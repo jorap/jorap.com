@@ -39,15 +39,15 @@ card_sets: ["Capture", "Workflow"]
 cards:
   - front: "At the clinic I scribble \"follow up\" with nothing else. What's the move?"
     back: "Remember it wasn't a generic callback"
-  - front: "I saved a drill clip titled \"use when our pick-and-roll breaks down\""
+  - front: "I saved a drill clip titled \\\"use when our pick-and-roll breaks down\\\". What's the move?"
     back: "Knew why I kept it, not just what it showed"
   - front: "At the grocery I scribble \"milk\" with nothing else. What's the move?"
     back: "Remember it wasn't just breakfast milk"
-  - front: "I bookmark a link with one line about which project it feeds"
+  - front: "I bookmark a link with one line about which project it feeds. What's the move?"
     back: "A link without context is a mystery six weeks later"
-  - front: "Parking lot after meeting - voice memo missing who said what."
+  - front: "Parking lot after meeting - voice memo missing who said what. What's missing?"
     back: "Capture context in the memo - names and next step."
-  - front: "Bookmark with no project tag - won't find it in review."
+  - front: "Bookmark with no project tag - won't find it in review. What's the move?"
     back: "One line which project it feeds."
 draft: false
 ---

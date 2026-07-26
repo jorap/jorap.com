@@ -72,7 +72,7 @@ featured: false
 review: true
 card_sets: ["Eternal Principles", "Gospel", "Discipleship"]
 cards:
-  - front: "Buried the talent - played it safe, never used what God gave."
+  - front: "Buried the talent - played it safe, never used what God gave. What's the move?"
     back: "Use it faithfully - not hide it."
   - front: "One heroic mission trip I treat as my whole eternal report card. What gets reviewed?"
     back: "Faithful use over years - not one week."

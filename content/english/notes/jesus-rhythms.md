@@ -62,7 +62,7 @@ Jesus prayed often, usually alone, often before the crowd's next demand.
 - [[Withdraw to Pray]] - rose before dawn; often slipped to lonely places (Mark 1:35; Luke 5:16)
 - [[Pray Before You Choose]] - all night in prayer before naming the twelve (Luke 6:12)
 - [[Pray When Drained]] - alone on the mountain after feeding five thousand (Matthew 14:23; Mark 6:46)
-- [[Jesus' Prayers]] - seven verbatim prayers the Gospels quote (thanksgiving, John 17:1-26, Gethsemane, the cross)
+- [[Jesus' Prayers]] - seven verbatim prayers the Gospels quote (thanksgiving, high priestly prayer, Gethsemane, the cross)
 
 Garden links: [[Prayer Jesus Taught]] - teaching hub for Lord's Prayer, [[Secret Devotion]], persistence; [[Jesus' Prayers]] - verbatim words to the Father.
 

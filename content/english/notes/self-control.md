@@ -57,17 +57,17 @@ featured: false
 review: true
 card_sets: ["Focus", "Review"]
 cards:
-  - front: "My thumb hovered over a snarky reply in the pickup-line group chat"
+  - front: "My thumb hovered over a snarky reply in the pickup-line group chat. What's the move?"
     back: "Wasn't drunk on cortisol"
   - front: "Thumb on the post button at midnight after a rough day. What's the move?"
     back: "Send tomorrow"
-  - front: "Scroll before bed again - snarky replies follow."
+  - front: "Scroll before bed again - snarky replies follow. What's the move?"
     back: "Phone in kitchen - send tomorrow."
-  - front: "Rough day means the post is justified."
+  - front: "Rough day means the post is justified. What's the move?"
     back: "Draft sleeps - thumb off send."
-  - front: "Angry text ready in the draft - thumb on send after midnight."
+  - front: "Angry text ready in the draft - thumb on send after midnight. What's the move?"
     back: "Morning send - keep the receipt."
-  - front: "Hit send at midnight - damage control morning."
+  - front: "Hit send at midnight - damage control morning. What's the move?"
     back: "Apologize clean - policy is overnight wait."
 draft: false
 ---

@@ -50,15 +50,15 @@ featured: false
 review: true
 card_sets: ["Eternal Principles", "Gospel", "Discipleship"]
 cards:
-  - front: "Brother asked if temper matched Bible reading - sting that night."
+  - front: "Brother asked if temper matched Bible reading - sting that night. What's the move?"
     back: "Stay in the friction - love sharpens."
-  - front: "Small group friend pushed on spending story after I bragged."
+  - front: "Small group friend pushed on spending story after I bragged. What's the move?"
     back: "Receive the push - iron, not jealousy."
-  - front: "Flattery from church friends - still dull on the real sin."
+  - front: "Flattery from church friends - still dull on the real sin. What's the move?"
     back: "Invite hard follow-up - not safe praise."
-  - front: "Avoiding the friend who asks the uncomfortable question."
+  - front: "Avoiding the friend who asks the uncomfortable question. What's the move?"
     back: "Schedule sharpening contact - friction is the point."
-  - front: "Tempted cruel correction disguised as honesty."
+  - front: "Tempted cruel correction disguised as honesty. What's the move?"
     back: "Truth in love - sharpen, don't shred."
   - front: "Sharpening feels like earning favor this week - wrong order?"
     back: "Already accepted - sharpen as fruit."

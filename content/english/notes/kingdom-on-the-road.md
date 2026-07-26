@@ -48,17 +48,17 @@ featured: false
 review: true
 card_sets: ["Jesus Rhythms", "Gospel", "Faith"]
 cards:
-  - front: "Sunday preaching, weekday integrity split - same fork, different masks."
+  - front: "Sunday preaching, weekday integrity split - same fork, different masks. What's the move?"
     back: "One bag - teach, preach, heal."
-  - front: "Big conference planned, neighbor ignored - stage over street."
+  - front: "Big conference planned, neighbor ignored - stage over street. What's the move?"
     back: "Kingdom on the road - next face too."
-  - front: "Sunday preaching, weekday sales, neighbor never gets a visit."
+  - front: "Sunday preaching, weekday sales, neighbor never gets a visit. What's the move?"
     back: "One journey - teach, preach, heal together."
-  - front: "Announce kingdom but hands stay clean of hurting people."
+  - front: "Announce kingdom but hands stay clean of hurting people. What's the move?"
     back: "Teach and touch - together."
-  - front: "Hoard truth in one comfortable town - other cities never hear."
+  - front: "Hoard truth in one comfortable town - other cities never hear. What's the move?"
     back: "Other cities - keep going."
-  - front: "Word without deed on Tuesday - talk only, no touch."
+  - front: "Word without deed on Tuesday - talk only, no touch. What's missing?"
     back: "Kingdom on the road - both."
 draft: false
 ---

@@ -50,9 +50,9 @@ cards:
     back: "Full weight every time - claim matches action."
   - front: "Tempted to round down the practice hours when nobody audits the sheet. Move?"
     back: "Log the real hours - especially when it costs."
-  - front: "Expense line I could round down - auditor not looking this quarter."
+  - front: "Expense line I could round down - auditor not looking this quarter. What's the move?"
     back: "Log the real number - especially offstage."
-  - front: "Shortcut tempting because everyone else pads the hours."
+  - front: "Shortcut tempting because everyone else pads the hours. What's the move?"
     back: "Match claim and action - log true hours."
 draft: false
 ---

@@ -59,17 +59,17 @@ featured: false
 review: true
 card_sets: ["Focus", "Review"]
 cards:
-  - front: "A customer snapped at the cashier and she kept her voice level"
+  - front: "A customer snapped at the cashier and she kept her voice level. What comes first?"
     back: "It's not mailing the first draft"
-  - front: "I was furious at the ref's bad call and still ran the next play"
+  - front: "I was furious at the ref's bad call and still ran the next play. What's the move?"
     back: "Feel the spike, don't steer the team with it"
-  - front: "Snapped at the kid again - cool-down routine skipped all week."
+  - front: "Snapped at the kid again - cool-down routine skipped all week. What's the move?"
     back: "Ten breaths before reply - rehearse tonight."
-  - front: "Customer yelling - my volume climbing to match."
+  - front: "Customer yelling - my volume climbing to match. What's the move?"
     back: "Lower voice - spike stays in my chest."
-  - front: "Furious at the ref - gut says litigate mid-game."
+  - front: "Furious at the ref - gut says litigate mid-game. What's the move?"
     back: "Run the next play - argue later."
-  - front: "Slammed the door - chest still hot, kid flinching in the hall."
+  - front: "Slammed the door - chest still hot, kid flinching in the hall. What comes first?"
     back: "Name the feeling first - fix after."
 draft: false
 ---

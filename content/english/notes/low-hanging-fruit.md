@@ -45,9 +45,9 @@ cards:
     back: "Wash dishes - ten minutes."
   - front: "Mapped a whole errand route - one package blocks the counter. What do I grab first?"
     back: "Mail the package."
-  - front: "Grand roadmap on the whiteboard - broken step still tripping everyone daily."
+  - front: "Grand roadmap on the whiteboard - broken step still tripping everyone daily. What comes first?"
     back: "Fix the tripping hazard - easy win first."
-  - front: "Chasing the clever optimization - inbox reply takes thirty seconds unreplied."
+  - front: "Chasing the clever optimization - inbox reply takes thirty seconds unreplied. What's the move?"
     back: "Clear the thirty-second win - then chase hard."
 draft: false
 ---

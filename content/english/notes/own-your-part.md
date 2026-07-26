@@ -60,9 +60,9 @@ cards:
     back: "Move what I can in my lane before the memo."
   - front: "Process is stale and I am only complaining in Slack. What's missing?"
     back: "Change my pass-off - do not wait for headquarters."
-  - front: "Front desk inbox overflowing - still waiting on corporate to fix filing."
+  - front: "Front desk inbox overflowing - still waiting on corporate to fix filing. First fix?"
     back: "Clear my corner today - rename folders and post the map."
-  - front: "Neighbor keeps asking who owns the broken gate - I know the latch fix."
+  - front: "Neighbor keeps asking who owns the broken gate - I know the latch fix. What comes first?"
     back: "Fix the latch - own my slice first."
 draft: false
 ---

@@ -50,17 +50,17 @@ featured: false
 review: true
 card_sets: ["Eternal Principles", "Gospel", "Discipleship"]
 cards:
-  - front: "Volunteered for every ministry slot - burnout loading."
+  - front: "Volunteered for every ministry slot - burnout loading. What's the move?"
     back: "Say no - your part isn't every part."
-  - front: "Envy at someone's platform gift - joy stolen serving kids."
+  - front: "Envy at someone's platform gift - joy stolen serving kids. What's the move?"
     back: "Faithful in your part - not their mic."
-  - front: "Foot wishing it were a hand - comparison spiral."
+  - front: "Foot wishing it were a hand - comparison spiral. What's the move?"
     back: "Your gift serves the Head - not their slot."
-  - front: "Solo-body fantasy - I can cover every ministry hole."
+  - front: "Solo-body fantasy - I can cover every ministry hole. What's the move?"
     back: "One part - let teachers teach."
   - front: "Popularity contest for standing - wrong scoreboard?"
     back: "Belonging settled - steward your gift."
-  - front: "Leader hoarding every role because it feels holy."
+  - front: "Leader hoarding every role because it feels holy. What's the move?"
     back: "Equip parts - don't absorb every slot."
 draft: false
 ---

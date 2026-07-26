@@ -63,9 +63,9 @@ cards:
     back: "Repeat one steam motion."
   - front: "Tempted to rebuild the whole capture system again. What beats it?"
     back: "One notebook by the door."
-  - front: "Two-hour workout plan - skipped three days because there's no window."
+  - front: "Two-hour workout plan - skipped three days because there's no window. What's the move?"
     back: "Twenty minutes counts - dose that repeats beats heroics."
-  - front: "Perfect garden note blocking publish - six paragraphs of polish."
+  - front: "Perfect garden note blocking publish - six paragraphs of polish. What's the move?"
     back: "Ship the minimum - enough to be useful."
 draft: false
 ---

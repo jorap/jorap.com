@@ -61,7 +61,7 @@ cards:
     back: "Window plus shared runbook - not heroics at midnight"
   - front: "Friday night deploy bit us - Tuesday standup move?"
     back: "Schedule risky changes in the window."
-  - front: "Only I know git revert - team deploys blind."
+  - front: "Only I know git revert - team deploys blind. What comes first?"
     back: "Teach revert before the risky push."
 draft: false
 ---

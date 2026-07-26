@@ -50,15 +50,15 @@ featured: false
 review: true
 card_sets: ["Eternal Principles", "Gospel", "Ethics"]
 cards:
-  - front: "Sarcastic group-chat reply loaded - teammate never sees grace."
+  - front: "Sarcastic group-chat reply loaded - teammate never sees grace. What's the move?"
     back: "Delete it - name one thing they did right."
-  - front: "Correction to kid loading - ears already shut from rotten lunch speech."
+  - front: "Correction to kid loading - ears already shut from rotten lunch speech. What's the move?"
     back: "Build up at dinner - then the lesson lands."
-  - front: "Flattery drafted - no truth the hearer can use."
+  - front: "Flattery drafted - no truth the hearer can use. What's the move?"
     back: "Deposit grace - truth that helps."
-  - front: "Hot room - demolition speech loading in my throat."
+  - front: "Hot room - demolition speech loading in my throat. What's the move?"
     back: "Gentle build-up - de-escalate, then truth."
-  - front: "Unsolicited fix without listening - ears closed."
+  - front: "Unsolicited fix without listening - ears closed. What's missing?"
     back: "Listen first - then words that build."
   - front: "Speaking to earn standing - ledger already clean?"
     back: "Forgiven lips - build up from grace received."

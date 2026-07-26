@@ -60,11 +60,11 @@ cards:
     back: "Today's enough - don't borrow tomorrow's trouble."
   - front: "Treating worry like it'll add hours to my life. What does it actually do?"
     back: "Nothing useful - trust the Father."
-  - front: "Calendar packed, soul thin - anxious about everything at once."
+  - front: "Calendar packed, soul thin - anxious about everything at once. What comes first?"
     back: "Seek kingdom first - needs follow."
   - front: "Good week but still replaying what might go wrong Sunday. What's the antidote?"
     back: "Trust provision - Father knows what I need."
-  - front: "Work hustle and trust in God pulling opposite - two bosses in my chest."
+  - front: "Work hustle and trust in God pulling opposite - two bosses in my chest. What's the move?"
     back: "One Master - drop anxious serving of tomorrow."
 draft: false
 ---

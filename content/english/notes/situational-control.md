@@ -43,17 +43,17 @@ featured: false
 review: true
 card_sets: ["Ethics", "Focus"]
 cards:
-  - front: "Fighting with my sister and the kids should have been asleep twenty minutes ago."
+  - front: "Fighting with my sister and the kids should have been asleep twenty minutes ago. What's the move?"
     back: "Fifteen-minute break - pick up tomorrow."
-  - front: "Down twelve at halftime and they are running our pace. Captain's hand's up for timeout."
+  - front: "Down twelve at halftime and they are running our pace. Captain's hand's up for timeout. What's the move?"
     back: "Slow the game - do not match their tempo."
-  - front: "Meeting's sideways and the loudest voice owns the room."
+  - front: "Meeting's sideways and the loudest voice owns the room. What's the move?"
     back: "Reset agenda - my pace, not theirs."
-  - front: "Party's getting louder and I am the host watching the stereo creep up."
+  - front: "Party's getting louder and I am the host watching the stereo creep up. What's the move?"
     back: "End it early - I set the evening."
-  - front: "Kids still up fighting and I am matching their volume."
+  - front: "Kids still up fighting and I am matching their volume. What's the move?"
     back: "Fifteen-minute pause - my pace tomorrow."
-  - front: "Meeting hijacked by the loudest agenda - my project buried."
+  - front: "Meeting hijacked by the loudest agenda - my project buried. What's the move?"
     back: "Reset the room - my agenda next."
 draft: false
 ---

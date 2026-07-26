@@ -55,7 +55,7 @@ featured: false
 review: true
 card_sets: ["Ethics", "Focus"]
 cards:
-  - front: "Parent emailed the principal with a snarky line about our field trip delay. Thumb on reply-all."
+  - front: "Parent emailed the principal with a snarky line about our field trip delay. Thumb on reply-all. What's the move?"
     back: "State facts. Do not match tone."
   - front: "Parent yelling at the ref from the sideline and my voice is climbing too. One move?"
     back: "Let the insult die - no audience."
@@ -63,9 +63,9 @@ cards:
     back: "Do not pour fuel on it."
   - front: "Neighbor's group-chat jab about parking sitting in my drafts - sharp reply loaded. Send that?"
     back: "Facts and the plan only."
-  - front: "Reply-all war heating - insult landed, my draft matches their venom."
+  - front: "Reply-all war heating - insult landed, my draft matches their venom. What's the move?"
     back: "Close the tab - break the cycle."
-  - front: "Tempted to perform outrage for the audience watching the thread."
+  - front: "Tempted to perform outrage for the audience watching the thread. What's the move?"
     back: "Facts only - refuse the spectacle."
 draft: false
 ---

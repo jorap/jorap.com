@@ -61,10 +61,10 @@ relationships:
     reason: "Neighbor-love shows mercy to the person in front of me"
   - type: extends
     wikilink: "[[Present a Living Sacrifice]]"
-    reason: "Romans 12:1 - in view of God's mercy, then the offering"
+    reason: "In view of God's mercy - then the offering"
   - type: extends
     wikilink: "[[Renewed Mind]]"
-    reason: "Romans 12:1 - renewal responds to mercy already received"
+    reason: "Mercy received first - renewal responds to the gift"
   - type: extends
     wikilink: "[[The Beatitudes]]"
     reason: "Merciful obtain mercy - character Jesus blessed"
@@ -83,7 +83,7 @@ cards:
     back: "Ask mercy - release the debt too."
   - front: "Someone who wronged me needs help on the road. First merciful move?"
     back: "Act - mercy shows up in the body."
-  - front: "About to quote their failure online - thumb on the post, grudge hot."
+  - front: "About to quote their failure online - thumb on the post, grudge hot. What's the move?"
     back: "Release the debt - I'm not final judge."
   - front: "Beatitude check after a sharp reply. What do the merciful obtain?"
     back: "Show mercy - merciful obtain mercy."

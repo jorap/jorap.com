@@ -42,17 +42,17 @@ featured: false
 review: true
 card_sets: ["Focus", "Workflow"]
 cards:
-  - front: "Week three comparing strollers and we still haven't walked with the baby we have."
+  - front: "Week three comparing strollers and we still haven't walked with the baby we have. What's the move?"
     back: "Pick the lighter one - go out tired today."
-  - front: "Note app comparison tab's open again on my phone."
+  - front: "Note app comparison tab's open again on my phone. What's the move?"
     back: "Ship with what works tired."
-  - front: "Star player's still in protocol and game's tonight - secondary lineup's ugly."
+  - front: "Star player's still in protocol and game's tonight - secondary lineup's ugly. What's the move?"
     back: "Run ugly tonight - perfect can wait."
-  - front: "Fifth round of supplier bids and Friday's deadline."
+  - front: "Fifth round of supplier bids and Friday's deadline. What's the move?"
     back: "Pick good-enough - no imaginary perfect vendor."
-  - front: "Week three comparing strollers - baby still not walked outside."
+  - front: "Week three comparing strollers - baby still not walked outside. What's the move?"
     back: "Pick lighter - go tired today."
-  - front: "Fifth vendor bid round - Friday deadline, no perfect quote."
+  - front: "Fifth vendor bid round - Friday deadline, no perfect quote. What's the move?"
     back: "Good enough ships - imaginary vendor waits."
 draft: false
 ---

@@ -51,17 +51,17 @@ featured: false
 review: true
 card_sets: ["Eternal Principles", "Gospel", "Discipleship"]
 cards:
-  - front: "Teammate buried under elder-care stress - my calendar has one free hour."
+  - front: "Teammate buried under elder-care stress - my calendar has one free hour. What's the move?"
     back: "Run the errand - hands on the load."
-  - front: "Small group keeps praying about his job loss - resume still untouched."
+  - front: "Small group keeps praying about his job loss - resume still untouched. What's the move?"
     back: "Show up with edits - not commentary."
-  - front: "Thumb hovering over advice text - their crate still on their back alone."
+  - front: "Thumb hovering over advice text - their crate still on their back alone. What's the move?"
     back: "Delete the sermon - carry a handle."
   - front: "Tuesday errand free, their crisis is tonight - my move?"
     back: "Offer the hour - share the weight."
-  - front: "I only sent thoughts and prayers last week - relationship cooling."
+  - front: "I only sent thoughts and prayers last week - relationship cooling. What's the move?"
     back: "Hands on the load this time - not hints."
-  - front: "Volunteer slot open - I want the credit without the crate."
+  - front: "Volunteer slot open - I want the credit without the crate. What's missing?"
     back: "Pick up a handle - love, not theater."
 draft: false
 ---

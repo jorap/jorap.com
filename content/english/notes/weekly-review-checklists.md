@@ -41,7 +41,7 @@ card_sets: ["Focus", "Review"]
 cards:
   - front: "Friday review - inbox and calendar done. Fourth step before I close?"
     back: "Pick one ship action."
-  - front: "Review feels stale - tempted to reinvent the checklist for creativity."
+  - front: "Review feels stale - tempted to reinvent the checklist for creativity. What's the move?"
     back: "Keep same checklist - boring on purpose."
   - front: "Finished inbox and calendar but skipping express. Required before I close review?"
     back: "Pick one ship action."

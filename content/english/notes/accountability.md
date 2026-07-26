@@ -56,9 +56,9 @@ cards:
     back: "Name the caller before the next possession."
   - front: "Patient mix-up on shift and the chart's getting vague blame. Who owns the honest note?"
     back: "One owner, one timeline."
-  - front: "Gate broken three weeks - hallway says someone should fix it."
+  - front: "Gate broken three weeks - hallway says someone should fix it. First fix?"
     back: "Name the owner - one person, one deadline."
-  - front: "Blame ping-pong in the chat after the patient mix-up."
+  - front: "Blame ping-pong in the chat after the patient mix-up. What's the move?"
     back: "Name who owns the chart - stop vague blame."
 draft: false
 ---

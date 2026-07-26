@@ -52,9 +52,9 @@ cards:
     back: "Undo-able trial - not fifty servings."
   - front: "Haircut at home with clippers that still leave length. Why?"
     back: "Not the zero guard first."
-  - front: "Haircut with guards that still leave length before the zero clip."
+  - front: "Haircut with guards that still leave length before the zero clip. What's missing?"
     back: "Undo path first - not irreversible."
-  - front: "Trying the construction shortcut with no exit ramp mapped."
+  - front: "Trying the construction shortcut with no exit ramp mapped. What's the move?"
     back: "Keep the longer route with exits."
 draft: false
 ---

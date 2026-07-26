@@ -70,7 +70,7 @@ cards:
     back: "Show mercy - next door counts."
   - front: "Deciding how much help to give someone hard to love. What standard do I use?"
     back: "Care I'd want if roles reversed."
-  - front: "Worship felt fine but I'm snapping at family tonight - God and neighbor split."
+  - front: "Worship felt fine but I'm snapping at family tonight - God and neighbor split. What's the move?"
     back: "Stop splitting - love both today."
   - front: "Walking past someone hurt on the road. What defines neighbor here?"
     back: "Act with mercy - that's neighbor."

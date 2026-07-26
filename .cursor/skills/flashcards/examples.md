@@ -22,7 +22,7 @@ If the back only explains and doesn't direct, rewrite as a move.
 | Cue (front) | Apply (back) | Why it works |
 |-------------|--------------|--------------|
 | `Thumb hovering over send on a public critique.` | `Reverse roles - would I want this said about me, this way?` | Mid-action; back is the check before click |
-| `Mid-commute spark I might forget before I'm home.` | `Drop in one inbox. Don't organize yet.` | Cue only; back is the first move |
+| `Mid-commute spark I might forget before I'm home. What's the move?` | `Drop in one inbox. Don't organize yet.` | Cue + hint; back is the first move |
 | `Someone slandered me online. Thumb hovering over reply.` | `Pray for them.` | Emotional cue; back is immediate act |
 | `Calendar filled before I opened Scripture.` | `Kingdom first - Scripture or prayer before inbox.` | Tuesday-morning failure; back redirects next ten minutes |
 | `Obedience feels like what qualifies me for heaven.` | `Faith in Christ saves. Principles guide life after.` | Wrong instinct in head; back corrects before the spiral |

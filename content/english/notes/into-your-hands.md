@@ -33,7 +33,7 @@ relationships:
     reason: "Death trusted, not bargained - way opened by Him"
   - type: extends
     wikilink: "[[Jesus' Prayers]]"
-    reason: "Verbatim final prayer to the Father - Luke 23:46"
+    reason: "Verbatim final prayer to the Father"
   - type: extends
     wikilink: "[[Not My Will]]"
     reason: "Garden surrender and cross entrusting - same Father"
@@ -48,17 +48,17 @@ featured: false
 review: true
 card_sets: ["Jesus Prayers", "Gospel", "Faith", "Prayer"]
 cards:
-  - front: "Fear of dying alone at night - chest tight in the dark."
+  - front: "Fear of dying alone at night - chest tight in the dark. What's the move?"
     back: "Father, into Your hands I commit my spirit."
-  - front: "Everything hurts and control is gone - panic rising."
+  - front: "Everything hurts and control is gone - panic rising. What's the move?"
     back: "Commit my spirit - trust the Father."
-  - front: "Anxiety spike feels like the end - can't catch my breath."
+  - front: "Anxiety spike feels like the end - can't catch my breath. What's the move?"
     back: "Into Your hands - entrust, don't panic."
-  - front: "Said not my will in the garden - cross moment arriving."
+  - front: "Said not my will in the garden - cross moment arriving. What's the move?"
     back: "Into Your hands - same Father as the garden."
-  - front: "Bedside vigil - they're slipping and I'm wordless."
+  - front: "Bedside vigil - they're slipping and I'm wordless. What's the move?"
     back: "Father, into Your hands."
-  - front: "Trying to control every outcome as life narrows."
+  - front: "Trying to control every outcome as life narrows. What's the move?"
     back: "Commit spirit - Father holds it."
 draft: false
 ---

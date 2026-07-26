@@ -49,17 +49,17 @@ featured: false
 review: true
 card_sets: ["Jesus Rhythms", "Gospel", "Faith", "Prayer"]
 cards:
-  - front: "Hosted all morning, collapsed without talking to God."
+  - front: "Hosted all morning, collapsed without talking to God. What's missing?"
     back: "Up the mountain - pray alone."
-  - front: "Ministry day ended, I numbed out on my phone - scroll loop."
+  - front: "Ministry day ended, I numbed out on my phone - scroll loop. What comes first?"
     back: "Pray first - not numb out."
-  - front: "Fed a lot of people today, tank empty - couch calling."
+  - front: "Fed a lot of people today, tank empty - couch calling. What's the move?"
     back: "Drained is the cue - pray anyway."
-  - front: "Project shipped at midnight, scroll until 2am - earned rest."
+  - front: "Project shipped at midnight, scroll until 2am - earned rest. What comes first?"
     back: "Pray first - not scroll."
-  - front: "Skipping prayer because I earned rest - God can wait."
+  - front: "Skipping prayer because I earned rest - God can wait. What's the move?"
     back: "Pray on the mountain - tired still talks."
-  - front: "Crowd gone, still buzzing - can't settle without noise."
+  - front: "Crowd gone, still buzzing - can't settle without noise. What's missing?"
     back: "Alone with the Father - pray."
 draft: false
 ---

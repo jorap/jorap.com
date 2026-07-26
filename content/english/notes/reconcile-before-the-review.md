@@ -58,9 +58,9 @@ cards:
     back: "Fifteen minutes with her before the parents."
   - front: "Launch demo is ready but my neighbor sponsor is still hurt from a snub. What comes first?"
     back: "Coffee first - slides second."
-  - front: "Performance deck polished - spouse still cold from Tuesday fight."
+  - front: "Performance deck polished - spouse still cold from Tuesday fight. What's the move?"
     back: "Reconcile at home - slides second."
-  - front: "Worship this morning - brother I snapped at yesterday sits behind me."
+  - front: "Worship this morning - brother I snapped at yesterday sits behind me. What comes first?"
     back: "Settle first - worship second."
 draft: false
 ---

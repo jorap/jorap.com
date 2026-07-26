@@ -50,13 +50,13 @@ cards:
     back: "Fifteen-minute walk after standup - every Tuesday."
   - front: "Sunday after lunch and nothing big to report to my parents. Still call?"
     back: "Call anyway - same window every Sunday."
-  - front: "Tuesday walk skipped three weeks - connection lane went cold."
+  - front: "Tuesday walk skipped three weeks - connection lane went cold. What's the move?"
     back: "Book the slot - fifteen minutes, no speech."
-  - front: "Dry spell means we're not close - gut says back off."
+  - front: "Dry spell means we're not close - gut says back off. What's the reframe?"
     back: "Small touch - not a grand proof."
-  - front: "Kid bedtime story running long and Sunday call window is closing."
+  - front: "Kid bedtime story running long and Sunday call window is closing. What's the move?"
     back: "Shorten the call - keep the window."
-  - front: "Missed last Sunday - guilt says skip until I have news."
+  - front: "Missed last Sunday - guilt says skip until I have news. What's the move?"
     back: "Call this week anyway - same time."
 draft: false
 ---

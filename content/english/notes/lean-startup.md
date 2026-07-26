@@ -54,9 +54,9 @@ cards:
     back: "Measure interest - don't scale blind."
   - front: "Lunch special sells ten plates before we rewrite the whole menu. Validation check?"
     back: "Learn first - don't scale before proof."
-  - front: "Six months building features nobody asked for - launch still distant."
+  - front: "Six months building features nobody asked for - launch still distant. What's the move?"
     back: "Ship the smallest test - learn from real use."
-  - front: "Perfect deck before one customer conversation - slides multiplying."
+  - front: "Perfect deck before one customer conversation - slides multiplying. What's the move?"
     back: "Talk to one user - build what they need."
 draft: false
 ---

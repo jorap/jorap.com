@@ -45,9 +45,9 @@ cards:
     back: "Three depths - skim, highlight, summarize."
   - front: "First commute listen for gist on the podcast. Second pass when?"
     back: "Notebook pass on parts I'd cite later."
-  - front: "Highlighted the whole chapter - can't explain one idea aloud."
+  - front: "Highlighted the whole chapter - can't explain one idea aloud. What's the move?"
     back: "Second pass - one sentence per flagged section."
-  - front: "Coaching manual first skim done - explain step still missing."
+  - front: "Coaching manual first skim done - explain step still missing. What's missing?"
     back: "Mark three sections - summarize in my words."
 draft: false
 ---

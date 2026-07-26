@@ -47,17 +47,17 @@ featured: false
 review: true
 card_sets: ["Writing", "Review"]
 cards:
-  - front: "Halftime and someone's asking about the three-second violation - I am stalling halfway through."
+  - front: "Halftime and someone's asking about the three-second violation - I am stalling halfway through. What's the move?"
     back: "Do not own it yet - study before teaching."
-  - front: "New hire asked why we batch invoices and I stumbled mid-sentence."
+  - front: "New hire asked why we batch invoices and I stumbled mid-sentence. What comes first?"
     back: "One more pass before I teach it."
-  - front: "Kid pointed at the fuse box and I waved vaguely."
+  - front: "Kid pointed at the fuse box and I waved vaguely. What's the move?"
     back: "I do not understand it enough to fix anything."
-  - front: "Friend asked my capture workflow and I could not explain it in two minutes."
+  - front: "Friend asked my capture workflow and I could not explain it in two minutes. What's the move?"
     back: "Gaps in talk show gaps in understanding."
-  - front: "Kid asked why the fuse trips - I waved at the panel."
+  - front: "Kid asked why the fuse trips - I waved at the panel. What comes first?"
     back: "I don't own it yet - study first."
-  - front: "Halftime question on the rule - answer died halfway."
+  - front: "Halftime question on the rule - answer died halfway. What's the move?"
     back: "Don't teach what I can't explain clean."
 draft: false
 ---

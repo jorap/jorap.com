@@ -71,13 +71,13 @@ cards:
     back: "Menu page plus link to existing delivery app"
   - front: "Freelance designer needed portfolio and case studies. What's the move?"
     back: "Yes, static, live in a week"
-  - front: "Every client gets custom scope - no template on disk."
+  - front: "Every client gets custom scope - no template on disk. What's the move?"
     back: "Yes/no menu - static fits or link out."
-  - front: "Online ordering sounds impressive - big build beckoning."
+  - front: "Online ordering sounds impressive - big build beckoning. What's the reframe?"
     back: "Menu page plus app link - not a cart."
-  - front: "They need a portal - gut says yes to everything."
+  - front: "They need a portal - gut says yes to everything. What's the move?"
     back: "Brochure plus archive - pass the rest."
-  - front: "Scope crept to login mid-build - reset talk."
+  - front: "Scope crept to login mid-build - reset talk. What's the move?"
     back: "Written scope - change order or cut."
 draft: false
 ---

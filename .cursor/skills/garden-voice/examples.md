@@ -42,6 +42,12 @@ Read `capture.md`, `rollback-principle.md`, `abide-in-me.md`, `the-golden-rule.m
 
 ## Faith - verse required, gloss first person
 
+### ❌ Whole chapter in `ref`
+
+> `{{< bible ref="John 17:1-26" emphasize="11" >}}`
+
+Whole chapter dumps - pick the verses the note teaches (`John 17:11-12`, `John 17:20-23`).
+
 ### ✅ EP shape (`abide-in-me.md`)
 
 > [John 15:5 NASB 1995 verse paragraph]

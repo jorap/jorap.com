@@ -43,7 +43,7 @@ featured: false
 review: true
 card_sets: ["Focus", "Review"]
 cards:
-  - front: "Finished the chapter, yellow on every page, cannot explain one idea - marks without extraction."
+  - front: "Finished the chapter, yellow on every page, cannot explain one idea - marks without extraction. What's missing?"
     back: "Extract - marks need a next step."
   - front: "Coaching manual skim done - three sections flagged. Before I shelve it?"
     back: "Second pass - sentences in my words."
@@ -51,9 +51,9 @@ cards:
     back: "Literature note while marks are fresh."
   - front: "Kid underlined a paragraph but cannot explain it. Active reading check?"
     back: "Say it back - mark is not enough."
-  - front: "Highlighted the whole chapter - can't explain one idea."
+  - front: "Highlighted the whole chapter - can't explain one idea. What's the move?"
     back: "Second pass - write one sentence per section."
-  - front: "Coaching manual first pass done - explain step still missing."
+  - front: "Coaching manual first pass done - explain step still missing. What's missing?"
     back: "Mark three sections - explain aloud before filing."
 draft: false
 ---

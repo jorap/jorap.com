@@ -61,7 +61,7 @@ relationships:
     reason: "Declared righteous first - Christlikeness follows, does not reopen the verdict"
   - type: extends
     wikilink: "[[Renewed Mind]]"
-    reason: "Romans 12:2 engine for conformity to Christ, not the world"
+    reason: "Mind renewal engine for conformity to Christ, not the world"
   - type: extends
     wikilink: "[[Sanctification]]"
     reason: "Sanctification is the process; Christlikeness is the shape it aims at"
@@ -86,7 +86,7 @@ cards:
     back: "Reshaping slowly - standing settled at faith."
   - front: "Kind at church, sharp with the cashier an hour later. What kind of change is Christlikeness?"
     back: "Ordinary Tuesdays - not one emotional Sunday."
-  - front: "Trying to look holy enough to feel saved - performance before standing."
+  - front: "Trying to look holy enough to feel saved - performance before standing. What's the move?"
     back: "Justified at faith - likeness follows."
   - front: "Virtue streak is my proof God accepts me. Mixing up what saves vs what grows?"
     back: "Faith saves you first - likeness grows on ordinary Tuesdays after."

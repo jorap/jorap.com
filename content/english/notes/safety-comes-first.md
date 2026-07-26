@@ -53,9 +53,9 @@ cards:
     back: "Take keys - call a ride."
   - front: "Kid wants truck bed on a bumpy road. Where does choice end?"
     back: "Seatbelt - not hospital route."
-  - front: "Teammate shaking after the head hit - wants to stay in."
+  - front: "Teammate shaking after the head hit - wants to stay in. What comes first?"
     back: "Trainer first - stop the play."
-  - front: "Coworker reaching past the jammed press without lockout tag."
+  - front: "Coworker reaching past the jammed press without lockout tag. What's missing?"
     back: "Tag out - then troubleshoot."
 draft: false
 ---

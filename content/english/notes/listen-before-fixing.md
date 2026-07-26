@@ -50,17 +50,17 @@ featured: false
 review: true
 card_sets: ["Focus", "Review"]
 cards:
-  - front: "A younger player kept explaining why he missed the free throw"
+  - front: "A younger player kept explaining why he missed the free throw. What's the move?"
     back: "Then offered one drill"
   - front: "A nurse vented about a scheduling mix-up. What's the move?"
     back: "Then asked what she wanted done about it"
-  - front: "Jumped in with fixes again before they finished the story."
+  - front: "Jumped in with fixes again before they finished the story. First fix?"
     back: "Hold the fix - mirror back one line."
-  - front: "I know the answer - thumb twitching while they talk."
+  - front: "I know the answer - thumb twitching while they talk. What's the move?"
     back: "Listen until the pause - then ask."
-  - front: "Venting sounds like permission to redesign their workflow."
+  - front: "Venting sounds like permission to redesign their workflow. What's the move?"
     back: "What do you want done - not my draft."
-  - front: "They didn't ask for advice - just needed air."
+  - front: "They didn't ask for advice - just needed air. What's the move?"
     back: "Stay with them - fix only if invited."
 draft: false
 ---

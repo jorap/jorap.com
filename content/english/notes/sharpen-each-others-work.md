@@ -48,17 +48,17 @@ featured: false
 review: true
 card_sets: ["Writing", "Review"]
 cards:
-  - front: "Teammate marked three vague paragraphs before publish - ten minutes saved."
+  - front: "Teammate marked three vague paragraphs before publish - ten minutes saved. What's the move?"
     back: "Peer sharpen - friction on the draft."
-  - front: "Env var gap in code review - Friday deploy still blind."
+  - front: "Env var gap in code review - Friday deploy still blind. What's the move?"
     back: "Comment thread now - iron before ship."
-  - front: "Silent approval on weak draft - ego scoreboard tempting."
+  - front: "Silent approval on weak draft - ego scoreboard tempting. What's the move?"
     back: "Name weak spots - same respect, sharper work."
-  - front: "Ship tomorrow - peer review still skipped on the draft."
+  - front: "Ship tomorrow - peer review still skipped on the draft. What's the move?"
     back: "Sharpen before ship - one scheduled pass."
-  - front: "Tone eating the truth in review comments - draft still broken."
+  - front: "Tone eating the truth in review comments - draft still broken. First fix?"
     back: "Useful tone - fix the draft, not ego."
-  - front: "Early draft in public - rollback still cheap."
+  - front: "Early draft in public - rollback still cheap. What's the move?"
     back: "Invite sharpen now - comments before crowd."
 draft: false
 ---

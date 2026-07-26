@@ -67,11 +67,11 @@ cards:
     back: "Not \"the teacher never emailed.\""
   - front: "I merged wrong and clipped a bumper. What's the move?"
     back: "Not drove off hoping nobody saw"
-  - front: "After the missed free throw cost us the game, our point guard said \"that was on me\" in the huddle"
+  - front: "After the missed free throw cost us the game, our point guard said \\\"that was on me\\\" in the huddle. What's the move?"
     back: "No blame theater"
-  - front: "Blame ping-pong in the chat after the patient mix-up."
+  - front: "Blame ping-pong in the chat after the patient mix-up. What comes first?"
     back: "Name what I missed - fix my piece first."
-  - front: "Thumb hovering on excuse email - vendor fault sounds cleaner."
+  - front: "Thumb hovering on excuse email - vendor fault sounds cleaner. What's the move?"
     back: "Own my lane - state what I'll change."
 draft: false
 ---

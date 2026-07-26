@@ -64,15 +64,15 @@ featured: false
 review: true
 card_sets: ["Eternal Principles", "Gospel", "Faith"]
 cards:
-  - front: "Coworker quotes James - faith without works is dead - like salvation takes both. One sentence?"
+  - front: "Coworker says good deeds earn heaven - like salvation takes both. One sentence?"
     back: "Works prove faith - they don't buy heaven."
-  - front: "Confident I'm saved but life unchanged. James would ask what?"
+  - front: "Confident I'm saved but life unchanged. What should show?"
     back: "Show me your faith by what you do."
-  - front: "Paul says not by works; James says faith without works is dead. Same order?"
+  - front: "Saved-by-faith versus works-prove-faith - same order?"
     back: "Faith saves first - real faith acts."
   - front: "Listing good deeds when someone asks how to be saved. Lead with what?"
     back: "Trust Christ - works follow, don't pay."
-  - front: "Hearing sermons, saving verses, zero obedience - hearing without doing."
+  - front: "Hearing sermons, saving verses, zero obedience - hearing without doing. What's missing?"
     back: "Wise builder - hear and do."
   - front: "Obedience to feel acceptable to God again. Mixing up what saves?"
     back: "Faith saves - obedience responds."

@@ -48,17 +48,17 @@ featured: false
 review: true
 card_sets: ["Jesus Rhythms", "Gospel", "Faith"]
 cards:
-  - front: "Group chat baited me to fire back - adrenaline up, no verse loaded."
+  - front: "Group chat baited me to fire back - adrenaline up, no verse loaded. What's the move?"
     back: "It is written - load before pressure."
-  - front: "Tempted to pad the report because nobody would know."
+  - front: "Tempted to pad the report because nobody would know. What's the move?"
     back: "It is written - what God already said."
-  - front: "Hunger, pride, shortcut power - wilderness fork in my chest."
+  - front: "Hunger, pride, shortcut power - wilderness fork in my chest. What's the move?"
     back: "Scripture already loaded - not invented."
-  - front: "Adrenaline hit before I thought - typing the comeback."
+  - front: "Adrenaline hit before I thought - typing the comeback. What's the move?"
     back: "Loaded before - It is written."
-  - front: "Scrolled outrage all week - baited again, nothing in memory."
+  - front: "Scrolled outrage all week - baited again, nothing in memory. What comes first?"
     back: "Reps now - load Scripture before the fork."
-  - front: "Improvised ethics when cornered - making up my own rule."
+  - front: "Improvised ethics when cornered - making up my own rule. What's the move?"
     back: "It is written - not invented."
 draft: false
 ---

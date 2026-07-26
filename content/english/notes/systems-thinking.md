@@ -52,17 +52,17 @@ featured: false
 review: true
 card_sets: ["Focus", "Review"]
 cards:
-  - front: "We're losing every third possession on turnovers again."
+  - front: "We're losing every third possession on turnovers again. What's the move?"
     back: "Trace the warmup drill - not 'focus harder.'"
-  - front: "Busy Friday and the restaurant just ran out of rice mid-rush."
+  - front: "Busy Friday and the restaurant just ran out of rice mid-rush. What's the move?"
     back: "Fix prep checklist - not 'cook faster.'"
-  - front: "Turnover sermon again - never touched the warmup drill."
+  - front: "Turnover sermon again - never touched the warmup drill. What's the move?"
     back: "Trace the drill - not yell focus."
-  - front: "Rush hour - yell cook faster instead of fixing prep."
+  - front: "Rush hour - yell cook faster instead of fixing prep. First fix?"
     back: "Checklist before open - not hero speed."
-  - front: "Lost possession - players just don't care."
+  - front: "Lost possession - players just don't care. What's the move?"
     back: "Find the system leak - one fix."
-  - front: "Blame the rookie - pattern's in the playbook."
+  - front: "Blame the rookie - pattern's in the playbook. What's the move?"
     back: "Fix the process - stop pinching people."
 draft: false
 ---

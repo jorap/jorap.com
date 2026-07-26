@@ -79,9 +79,9 @@ cards:
     back: "I take it - not my highlight reel."
   - front: "Worst section on Mother's Day and the busser saved us last night. Who goes on the thank-you board?"
     back: "The busser - not me."
-  - front: "Team carried the launch - my name on the all-staff email."
+  - front: "Team carried the launch - my name on the all-staff email. What's the move?"
     back: "Their names on praise - mine off the send."
-  - front: "Messy shift nobody wants - title lets me skip it."
+  - front: "Messy shift nobody wants - title lets me skip it. What's the move?"
     back: "Take the messy shift - give them the break."
 draft: false
 ---

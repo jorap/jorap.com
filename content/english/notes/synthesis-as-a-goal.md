@@ -40,17 +40,17 @@ featured: false
 review: true
 card_sets: ["Writing", "Review"]
 cards:
-  - front: "Three press clips in my folder and Tuesday practice needs a drill."
+  - front: "Three press clips in my folder and Tuesday practice needs a drill. What's the move?"
     back: "Merge into one drill I would actually run."
-  - front: "Three recipe clippings on the fridge and dinner's tonight."
+  - front: "Three recipe clippings on the fridge and dinner's tonight. What's the reframe?"
     back: "One merged recipe - not a collage."
-  - front: "Quote-saved productivity notes and I still cannot explain my capture system."
+  - front: "Quote-saved productivity notes and I still cannot explain my capture system. What's the move?"
     back: "Write one page in my words."
-  - front: "Five parenting articles saved and the fridge is still blank."
+  - front: "Five parenting articles saved and the fridge is still blank. What's the move?"
     back: "One rule we believe - not quotes."
-  - front: "Five productivity quotes saved - still cannot explain my system."
+  - front: "Five productivity quotes saved - still cannot explain my system. What's the move?"
     back: "Write one page in my words."
-  - front: "Three coaching clips in the folder - practice needs one drill."
+  - front: "Three coaching clips in the folder - practice needs one drill. What's the move?"
     back: "Merge into one drill I'd run."
 draft: false
 ---

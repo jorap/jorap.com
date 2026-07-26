@@ -130,7 +130,7 @@ cards:
     back: "Feed Spirit - stay connected, crucify flesh."
   - front: "Performing joy at church, empty at home. What's missing?"
     back: "Abide first - fruit grows from connection."
-  - front: "Correction turned sharp with my kid - volume up, gentleness gone."
+  - front: "Correction turned sharp with my kid - volume up, gentleness gone. What's the move?"
     back: "Gentleness - tone from Spirit, not force."
   - front: "Love and peace showing up after a hard season I didn't manufacture. Who produces it?"
     back: "The Spirit - not my merit streak."

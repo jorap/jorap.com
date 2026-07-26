@@ -62,9 +62,9 @@ cards:
     back: "Christ's promise - not this week's score."
   - front: "Waiting to feel happy before I trust I am saved. Wrong order?"
     back: "Rest on promise first - gladness follows."
-  - front: "Sunday high wore off by Wednesday - performing gladness again."
+  - front: "Sunday high wore off by Wednesday - performing gladness again. What's the move?"
     back: "Abide daily - gladness from connection."
-  - front: "Compliment at church felt like proof God accepts me."
+  - front: "Compliment at church felt like proof God accepts me. What's the move?"
     back: "Rest on Christ's promise - not applause."
 draft: false
 ---

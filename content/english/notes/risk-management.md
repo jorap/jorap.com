@@ -57,9 +57,9 @@ cards:
     back: "Move the station - eliminate first."
   - front: "Space heater on the rug - tempted to lecture the kids again. Move?"
     back: "Move the heater - then teach."
-  - front: "Space heater on the rug again - tempted to post another warning sign."
+  - front: "Space heater on the rug again - tempted to post another warning sign. What comes first?"
     back: "Move the heater - eliminate first."
-  - front: "Wet floor sign but the leak is still dripping on the walkway."
+  - front: "Wet floor sign but the leak is still dripping on the walkway. What's the move?"
     back: "Fix the leak - signs are backup."
 draft: false
 ---

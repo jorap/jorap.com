@@ -60,9 +60,9 @@ cards:
     back: "Grow in public - history shows the edit."
   - front: "Blog post feels too rough to publish because the links aren't perfect yet. Garden move?"
     back: "Ship linked and imperfect."
-  - front: "Playbook wiki has last season's sets still live."
+  - front: "Playbook wiki has last season's sets still live. What's the move?"
     back: "Prune stale pages - garden stays walkable."
-  - front: "Links not perfect - post held for months."
+  - front: "Links not perfect - post held for months. What's the move?"
     back: "Publish rough - wikilinks can follow."
 draft: false
 ---

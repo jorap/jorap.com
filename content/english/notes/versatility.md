@@ -42,17 +42,17 @@ featured: false
 review: true
 card_sets: ["Focus", "Review"]
 cards:
-  - front: "Lunch rush hit and dishes are piled - line cook's buried in tickets."
+  - front: "Lunch rush hit and dishes are piled - line cook's buried in tickets. What's the move?"
     back: "Jump on dishes - I am not running the grill."
-  - front: "Sick day and I am lunch packer, tutor, and IT help before noon."
+  - front: "Sick day and I am lunch packer, tutor, and IT help before noon. What's the move?"
     back: "Pick up the lane that opens - do not fake expertise."
-  - front: "Only ever play my position - dishes pile when I'm idle."
+  - front: "Only ever play my position - dishes pile when I'm idle. What's the move?"
     back: "Jump the open lane - grill isn't mine."
-  - front: "Want to coach from the dish pit - not my expertise."
+  - front: "Want to coach from the dish pit - not my expertise. What's the move?"
     back: "Scrub - don't fake the grill."
-  - front: "Sick day chaos - try to do everything at once."
+  - front: "Sick day chaos - try to do everything at once. What's the move?"
     back: "Pick the lane that clears - one at a time."
-  - front: "Captain asks me to run point - I'm the big."
+  - front: "Captain asks me to run point - I'm the big. What's the move?"
     back: "Contribute off-ball - don't fake the role."
 draft: false
 ---

@@ -3,14 +3,22 @@ title: "Secret Devotion"
 meta_title: "Secret Devotion - For the Father's Eyes Alone"
 description: "Give, pray, and fast for God to see - not for applause in the group chat."
 key_concept: |
-  {{< bible ref="Matthew 6:1-18" emphasize="6" >}}
-  
-  - Some good shines publicly; some stays hidden so the left hand does not know what the right is doing.
+  {{< bible ref="Matthew 6:3-4" emphasize="4" >}}
+
+  - Give in secret - left hand does not know what the right is doing.
   - Level 1: Some good deeds stay private - give, pray, and fast for God to see, not for applause from other people.
   - Level 2: Some good deeds belong in public and some stay private - give, pray, and fast for God to see, not for applause.
   - Level 3: Left hand does not know what the right is doing - hidden devotion, public fruit where appropriate.
   - Level 4: Because applause rewires motive, secret lanes keep worship aimed at the Father, not the feed.
   - Level 5: Some good shines publicly; some stays hidden so the left hand does not know what the right is doing - audience of One, not performance religion.
+
+  {{< bible ref="Matthew 6:5-6" emphasize="6" >}}
+
+  - Pray behind closed doors - the Father who sees in secret is the audience, not the feed.
+
+  {{< bible ref="Matthew 6:17-18" emphasize="18" >}}
+
+  - Fast without performing hunger - wash your face, live normal before the Father.
   - Piety for an audience is its own reward - give, pray, fast for the Father who sees in secret.
   - [[Ask Seek Knock]] names how to pray; this names who the audience is.
   - [[Let Your Light Shine]] is the public lane - not every act belongs there.
@@ -61,7 +69,7 @@ cards:
     back: "Pray in secret - real audience is Father."
   - front: "Fasting but making sure people notice I am suffering. What's the move?"
     back: "Fast in secret - wash face, live normal."
-  - front: "Every piety act becoming content for applause - feed before Father."
+  - front: "Every piety act becoming content for applause - feed before Father. What's the move?"
     back: "Hidden devotion - not content for applause."
   - front: "Tempted to skip secret prayer because no one saw. Who saw?"
     back: "Father sees hidden - that's enough."

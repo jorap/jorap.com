@@ -56,7 +56,7 @@ cards:
     back: "Shrink until bad days still work."
   - front: "Three-page journal goal died on day three - one sentence after coffee?"
     back: "Shrink the habit - two-minute version sticks."
-  - front: "Stacking five new habits on Monday - collapse by Thursday."
+  - front: "Stacking five new habits on Monday - collapse by Thursday. What's the move?"
     back: "One tiny habit - attach to existing cue."
 draft: false
 ---

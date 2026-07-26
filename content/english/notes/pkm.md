@@ -51,9 +51,9 @@ cards:
     back: "Keep what I use - cut the hoard."
   - front: "Shift card file - only what I need tonight, not the whole library. One sentence I would tell a friend?"
     back: "Save, organize, use - boring name."
-  - front: "Friend asks why I have three capture apps and two still empty."
+  - front: "Friend asks why I have three capture apps and two still empty. One sentence back?"
     back: "One inbox I actually open - cut the rest."
-  - front: "Notebook in the glove box, app on the phone, sticky notes on the desk."
+  - front: "Notebook in the glove box, app on the phone, sticky notes on the desk. What's the move?"
     back: "Pick one lane - merge captures Sunday."
 draft: false
 ---

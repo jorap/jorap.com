@@ -65,7 +65,7 @@ cards:
     back: "Their good - keep serving, do not coast."
   - front: "Traffic spiked two weeks ago and I have not published since. Steward move?"
     back: "Ship while the window's warm."
-  - front: "Early win landed and I am tempted to coast on what I was given."
+  - front: "Early win landed and I am tempted to coast on what I was given. What's the move?"
     back: "Keep using the gift - quiet Tuesdays count."
   - front: "One heroic volunteer week and I am skipping the boring follow-through. What gets reviewed?"
     back: "Faithful use over years - not one week."

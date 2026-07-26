@@ -59,9 +59,9 @@ cards:
     back: "Run the real check - no audience test."
   - front: "Support ticket I could close sloppy - nobody would audit this week. Move?"
     back: "Close it correctly - manager isn't the test."
-  - front: "Kitchen closed - tempted to skip the deep clean nobody inspects."
+  - front: "Kitchen closed - tempted to skip the deep clean nobody inspects. What's the move?"
     back: "Clean it right - Father sees offstage."
-  - front: "Remote week - could close tickets sloppy, metrics look fine."
+  - front: "Remote week - could close tickets sloppy, metrics look fine. What's the move?"
     back: "Close correctly - audience isn't the test."
 draft: false
 ---

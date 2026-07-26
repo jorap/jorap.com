@@ -54,15 +54,15 @@ card_sets: ["Focus", "Review"]
 cards:
   - front: "Match just ended, everyone's gassed, and ice hasn't hit yet. What's the move?"
     back: "Run the posted close - ice, tape, log."
-  - front: "Restaurant door unlocks at eleven and I am opening solo."
+  - front: "Restaurant door unlocks at eleven and I am opening solo. What's the move?"
     back: "Clipboard checklist - do not improvise."
-  - front: "Everyone's gassed - skip the log, head to cars."
+  - front: "Everyone's gassed - skip the log, head to cars. What's the move?"
     back: "Posted close - ice, tape, log."
-  - front: "Slow night - improvise open, skip clipboard."
+  - front: "Slow night - improvise open, skip clipboard. What's the move?"
     back: "Checklist start to finish - no solo hero."
-  - front: "Forgot ice after last game - parents waiting, kids still on the bench."
+  - front: "Forgot ice after last game - parents waiting, kids still on the bench. What's the move?"
     back: "Run the close now - process beats apology."
-  - front: "Manager says wing it when short-staffed."
+  - front: "Manager says wing it when short-staffed. What's the move?"
     back: "SOP on the board - adapt inside steps."
 draft: false
 ---

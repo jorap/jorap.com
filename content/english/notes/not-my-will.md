@@ -52,17 +52,17 @@ featured: false
 review: true
 card_sets: ["Jesus Prayers", "Gospel", "Faith", "Prayer"]
 cards:
-  - front: "Praying for a different outcome - dread building in my chest."
+  - front: "Praying for a different outcome - dread building in my chest. What's the move?"
     back: "Not my will - Yours be done."
-  - front: "Hard yes still undecided after one quick prayer."
+  - front: "Hard yes still undecided after one quick prayer. What's the move?"
     back: "Pray it three times - same surrender."
-  - front: "Cup feels unbearable - escape fantasy looping."
+  - front: "Cup feels unbearable - escape fantasy looping. What's the move?"
     back: "Abba, Father - then yield the cup."
-  - front: "Obedience will cost friendships - still bargaining."
+  - front: "Obedience will cost friendships - still bargaining. What's the move?"
     back: "Not my will - Father's will."
-  - front: "Treating surrender like weakness - dread feels cowardly."
+  - front: "Treating surrender like weakness - dread feels cowardly. What's the move?"
     back: "Pray it out - then yield anyway."
-  - front: "Bargaining with God for an easier path - if You are willing loaded."
+  - front: "Bargaining with God for an easier path - if You are willing loaded. What's the move?"
     back: "Yet not my will - Yours be done."
 draft: false
 ---

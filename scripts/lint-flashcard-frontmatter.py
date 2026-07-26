@@ -8,7 +8,14 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from notes_content import split_frontmatter
+from notes_content import (
+    append_flashcard_hint_question,
+    bible_verse_ref_in_text,
+    front_has_clear_question,
+    is_multiple_choice_front,
+    split_frontmatter,
+    yaml_quote,
+)
 
 ROOT = Path(__file__).resolve().parents[1]
 NOTES_DIR = ROOT / "content/english/notes"
@@ -32,20 +39,6 @@ CARD_ITEM_RE = re.compile(
     re.M,
 )
 QUOTED_RE = re.compile(r'^"(?:[^"\\]|\\.)*"$')
-
-MC_COMMA_OR_RE = re.compile(r",\s*[^,\n]+,\s*or\s+", re.I)
-MC_FORK_OR_RE = re.compile(r"\bor\b[^.?!\n]*\?", re.I)
-MC_PICK_RE = re.compile(r"\b(pick one|choose between|one of)\b", re.I)
-
-
-def is_multiple_choice_front(front: str) -> bool:
-    if MC_PICK_RE.search(front):
-        return True
-    if MC_COMMA_OR_RE.search(front):
-        return True
-    if MC_FORK_OR_RE.search(front):
-        return True
-    return False
 
 
 def parse_bool(block: str, key: str) -> bool:
@@ -129,6 +122,15 @@ def lint_file(path: Path) -> list[str]:
                 f"{rel}: card front must be cue-only, not multiple choice "
                 f"(drop option lists like 'A or B?'): {front_text[:60]}…"
             )
+        if not front_has_clear_question(front_text):
+            errors.append(
+                f"{rel}: card front needs a clear retrieval question "
+                f"(cue + hint like 'What's the move?'): {front_text[:60]}…"
+            )
+        for side, text in (("front", front_text), ("back", back_text)):
+            hit = bible_verse_ref_in_text(text)
+            if hit:
+                errors.append(f"{rel}: card {side} must not cite bible verses (found {hit!r}): {text[:60]}…")
 
     if re.search(r"^cards:\s*\[", block, re.M):
         errors.append(f"{rel}: cards must use block list format, not inline [...]")
@@ -137,6 +139,35 @@ def lint_file(path: Path) -> list[str]:
         errors.append(f"{rel}: remove | JoRap Notes from meta_title (appended automatically)")
 
     return errors
+
+
+def fix_questions(path: Path) -> int:
+    text = path.read_text(encoding="utf-8")
+    block, body = split_frontmatter(text)
+    if not block or not is_garden_note(block, path.stem):
+        return 0
+    if not parse_bool(block, "review"):
+        return 0
+
+    updated = 0
+    for front, back, raw in parse_cards(block):
+        if not is_quoted(front) or not is_quoted(back):
+            continue
+        front_text = front[1:-1]
+        back_text = back[1:-1]
+        new_front = append_flashcard_hint_question(front_text, back_text)
+        if new_front == front_text:
+            continue
+        new_raw = (
+            f'  - front: {yaml_quote(new_front)}\n    back: {back}'
+        )
+        block = block.replace(raw, new_raw, 1)
+        updated += 1
+
+    if not updated:
+        return 0
+    path.write_text(f"---\n{block}\n---{body}", encoding="utf-8")
+    return updated
 
 
 def main() -> int:
@@ -155,4 +186,8 @@ def main() -> int:
 
 
 if __name__ == "__main__":
+    if "--fix-questions" in sys.argv:
+        total = sum(fix_questions(path) for path in sorted(NOTES_DIR.glob("*.md")))
+        print(f"Added hint questions to {total} card(s)")
+        sys.exit(0)
     sys.exit(main())

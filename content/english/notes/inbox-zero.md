@@ -49,9 +49,9 @@ cards:
     back: "Triage to zero - decisions made, not dread."
   - front: "Kitchen catch-all tray overflowing Sunday night. School week starts when?"
     back: "Each slip gets a decision tonight."
-  - front: "Inbox at forty - organizing folders instead of deciding."
+  - front: "Inbox at forty - organizing folders instead of deciding. What's the move?"
     back: "Process to zero - decide or delete each item."
-  - front: "Unread pile feels productive to sort - nothing actually closed."
+  - front: "Unread pile feels productive to sort - nothing actually closed. What's the move?"
     back: "Empty the inbox - not rearrange it."
 draft: false
 ---

@@ -74,15 +74,15 @@ card_sets: ["Focus", "Review"]
 cards:
   - front: "Halftime talk ended with \"we'll fix the press tomorrow\" and the whiteboard's blank. What closes it?"
     back: "Write the one drill now."
-  - front: "\"I'll look into it\" without a date is how school projects die after the group chat goes quiet"
+  - front: "\\\"I'll look into it\\\" without a date is how school projects die after the group chat goes quiet. What's missing?"
     back: "Recap with owners and dates before anyone leaves."
   - front: "Parent-teacher night wrapped with \"we'll email the action plan.\" Who owns what before we leave?"
     back: "Name owner and deadline tonight."
-  - front: "I told my kid I'd help with the project \"soon\" and watched it die in the backpack"
+  - front: "I told my kid I'd help with the project \\\"soon\\\" and watched it die in the backpack. What's the move?"
     back: "Name when and what I'll bring."
-  - front: "Halftime vague promise - no drill written down."
+  - front: "Halftime vague promise - no drill written down. What's the move?"
     back: "Close the loop - one drill on the board."
-  - front: "Kid project half-started - promise without finish."
+  - front: "Kid project half-started - promise without finish. What's missing?"
     back: "Complete the cycle - finish the slice tonight."
 draft: false
 ---

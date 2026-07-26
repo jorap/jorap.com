@@ -59,13 +59,13 @@ cards:
     back: "Cut two slides - test next time."
   - front: "Missed the turn twice on my new commute. Pain into learning?"
     back: "One note on where the sign hides."
-  - front: "Stewing a week - never wrote what went wrong."
+  - front: "Stewing a week - never wrote what went wrong. What's the move?"
     back: "One note on the miss - test next time."
-  - front: "Vent thread typing - feels better than logging the lesson."
+  - front: "Vent thread typing - feels better than logging the lesson. What's the move?"
     back: "Two bullet fixes - post later."
-  - front: "One bad pitch - gut says I'm not built for this."
+  - front: "One bad pitch - gut says I'm not built for this. What's the move?"
     back: "Mechanics fix - not identity."
-  - front: "Boss wants a full after-action review deck - I need one tweak."
+  - front: "Boss wants a full after-action review deck - I need one tweak. What's the reframe?"
     back: "One page of changes - not a saga."
 draft: false
 ---

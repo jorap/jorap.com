@@ -56,7 +56,7 @@ featured: false
 review: true
 card_sets: ["Focus", "Review"]
 cards:
-  - front: "Organic reach on my page dropped overnight - years of posting only there."
+  - front: "Organic reach on my page dropped overnight - years of posting only there. What's the move?"
     back: "Ownership - point home to your site."
   - front: "Post spiked on X and I am refreshing likes like I built a kingdom. One reframe?"
     back: "Borrowed reach - steward, do not hoard ego."
@@ -66,7 +66,7 @@ cards:
     back: "I am a tenant there - I own my corner."
   - front: "Saving threads and bookmarks only on an app that might pivot. Steward move?"
     back: "Export to plain text - own the vault."
-  - front: "Traffic week felt like proof the platform is mine - rented land, grip tightening."
+  - front: "Traffic week felt like proof the platform is mine - rented land, grip tightening. What's the move?"
     back: "Reach on rented land - tend it, do not grip."
 draft: false
 ---

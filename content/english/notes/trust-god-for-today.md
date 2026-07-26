@@ -29,7 +29,7 @@ relationships:
     reason: "Garden echo - today's honest capacity cap"
   - type: extends
     wikilink: "[[Don't Worry]]"
-    reason: "Same Matthew 6 lane - bread today, Father holds tomorrow"
+    reason: "Same daily-bread lane - Father holds tomorrow"
   - type: extends
     wikilink: "[[Free Grace]]"
     reason: "Provision prayer is not merit - gift rhythm"
@@ -50,15 +50,15 @@ featured: false
 review: true
 card_sets: ["Eternal Principles", "Gospel", "Prayer"]
 cards:
-  - front: "2 a.m. spin about next year's tuition - sleep gone."
+  - front: "2 a.m. spin about next year's tuition - sleep gone. What's the move?"
     back: "Pray today's bread - not every future bill."
-  - front: "Pantry thin on lean month - heroic grocery run in my head."
+  - front: "Pantry thin on lean month - heroic grocery run in my head. What's the move?"
     back: "Give us today - trust one day at a time."
-  - front: "Tomorrow's worry pile eating today's shift."
+  - front: "Tomorrow's worry pile eating today's shift. What's the move?"
     back: "Enough for today - Father holds tomorrow."
-  - front: "Fantasy todo list borrowed from tomorrow's energy."
+  - front: "Fantasy todo list borrowed from tomorrow's energy. What's the move?"
     back: "Cap today - honest bread portion."
-  - front: "Kingdom first forgotten - anxiety stockpiling."
+  - front: "Kingdom first forgotten - anxiety stockpiling. What comes first?"
     back: "Kingdom first - bread follows daily."
   - front: "Worrying harder like it earns provision - wrong move?"
     back: "Ask for today's portion - trust, don't hoard panic."

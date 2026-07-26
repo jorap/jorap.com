@@ -49,17 +49,17 @@ featured: false
 review: true
 card_sets: ["Jesus Rhythms", "Gospel", "Faith"]
 cards:
-  - front: "Teammate stranded on my off day - rest feels holy, help feels wrong."
+  - front: "Teammate stranded on my off day - rest feels holy, help feels wrong. What's the move?"
     back: "Sabbath for good - help the person."
-  - front: "Skipped mercy because the rules felt holy - policy over person."
+  - front: "Skipped mercy because the rules felt holy - policy over person. What's the move?"
     back: "Mercy over show - help anyway."
-  - front: "Rest day but someone is bound and hurting - off-limits day."
+  - front: "Rest day but someone is bound and hurting - off-limits day. What's the move?"
     back: "Free them - Sabbath serves people."
-  - front: "Rigid Sabbath rules with no compassion - rest as scorekeeping."
+  - front: "Rigid Sabbath rules with no compassion - rest as scorekeeping. What comes first?"
     back: "Rest serves love - mercy first."
-  - front: "Rigid rule-keeping with no compassion - worship of the schedule."
+  - front: "Rigid rule-keeping with no compassion - worship of the schedule. What's the move?"
     back: "Good on the Sabbath - not theater."
-  - front: "Family needed me Sunday, I quoted policy - rest over mercy."
+  - front: "Family needed me Sunday, I quoted policy - rest over mercy. What's the move?"
     back: "Mercy beats empty rules."
 draft: false
 ---

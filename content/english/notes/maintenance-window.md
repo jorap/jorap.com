@@ -51,9 +51,9 @@ cards:
     back: "Broken links, stale drafts."
   - front: "Saturday morning toy-bin purge and mending. Why not wait for guests?"
     back: "Not panicked cleaning at the door."
-  - front: "Broken wikilinks piling up - waiting for a random Sunday panic."
+  - front: "Broken wikilinks piling up - waiting for a random Sunday panic. First fix?"
     back: "Block ninety minutes - prune on the calendar."
-  - front: "Garden hasn't been touched since spring - guilt instead of rhythm."
+  - front: "Garden hasn't been touched since spring - guilt instead of rhythm. What's the move?"
     back: "Schedule the slot - oil change, not check-engine light."
 draft: false
 ---

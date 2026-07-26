@@ -47,9 +47,9 @@ cards:
     back: "Trust my synthesis - find the original six months out."
   - front: "My summary started feeling like gospel because the source line got lost. One restore move?"
     back: "Put the source line back under the quote."
-  - front: "Hot take ready to post - can't name where the claim came from."
+  - front: "Hot take ready to post - can't name where the claim came from. Where do I stop?"
     back: "Find the source - or don't publish."
-  - front: "Stat sounded perfect in the meeting - nobody asked who counted."
+  - front: "Stat sounded perfect in the meeting - nobody asked who counted. What's the move?"
     back: "One citation - credit the origin."
 draft: false
 ---

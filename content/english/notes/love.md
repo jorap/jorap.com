@@ -52,7 +52,7 @@ card_sets: ["Eternal Principles", "Gospel", "Discipleship"]
 cards:
   - front: "Polite at church, sharp at home after. What checks the motive?"
     back: "Does it cost me - not just applause?"
-  - front: "Neighbor needed a ride at an inconvenient hour."
+  - front: "Neighbor needed a ride at an inconvenient hour. What's the move?"
     back: "Show up - inconvenience, not performance."
   - front: "Waiting to feel loving before I obey. Wrong order?"
     back: "Walk by Spirit - obey, fruit follows."

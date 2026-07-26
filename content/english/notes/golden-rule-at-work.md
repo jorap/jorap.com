@@ -54,9 +54,9 @@ cards:
     back: "Say it how I'd want it on my worst shift."
   - front: "About to snap at my kid over spilled milk. What comes first?"
     back: "How would I want that mistake handled?"
-  - front: "Performance review draft loaded - critique true, tone cruel."
+  - front: "Performance review draft loaded - critique true, tone cruel. What's the move?"
     back: "Say it how I'd want it on my worst day."
-  - front: "Waiting for fair treatment before I act well toward the intern."
+  - front: "Waiting for fair treatment before I act well toward the intern. What comes first?"
     back: "I go first - reverse roles before I post."
 draft: false
 ---

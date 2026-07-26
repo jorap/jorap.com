@@ -46,7 +46,7 @@ relationships:
     reason: "Curate feeds that shape thinking - diet cuts noise, refusal blocks the default"
   - type: extends
     wikilink: "[[Renewed Mind]]"
-    reason: "Romans 12:2 pair - refuse the pattern, then renew the mind"
+    reason: "Renewal pair - refuse the pattern, then renew the mind"
   - type: extends
     wikilink: "[[Signal vs Noise]]"
     reason: "Kingdom signal before culture noise - refusal is the first filter"

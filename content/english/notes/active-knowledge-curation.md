@@ -53,7 +53,7 @@ cards:
     back: "Trash what won't get cooked."
   - front: "Neighborhood little free library's stuffed with books nobody's swapped in months. One job?"
     back: "Weed it - room for what gets borrowed."
-  - front: "Saved links folder never shrinks - first Sunday review skipped again."
+  - front: "Saved links folder never shrinks - first Sunday review skipped again. What's the move?"
     back: "Trash what nobody would act on today."
   - front: "Hoarding articles for someday citation - garden echo?"
     back: "Cut saves that won't change action this month."

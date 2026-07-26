@@ -48,17 +48,17 @@ featured: false
 review: true
 card_sets: ["Ethics", "Focus"]
 cards:
-  - front: "Finger on send - you always miss deadlines drafted."
+  - front: "Finger on send - you always miss deadlines drafted. What's the move?"
     back: "One change: Tuesday draft needs buffer day."
-  - front: "Player slow - tempted to yell character verdict from bleachers."
+  - front: "Player slow - tempted to yell character verdict from bleachers. What's the move?"
     back: "One cue: foot placement next rep."
-  - front: "Hot room - feedback loading as demolition."
+  - front: "Hot room - feedback loading as demolition. What's the move?"
     back: "Pause - one move they can try tomorrow."
-  - front: "Vague good job in the email - nothing will change."
+  - front: "Vague good job in the email - nothing will change. What's the move?"
     back: "Name what to change and how - one truth."
-  - front: "Correction without context - missed the real problem."
+  - front: "Correction without context - missed the real problem. What's missing?"
     back: "Listen first - then one actionable deposit."
-  - front: "Peer draft weak in three paragraphs - silent approval tempting."
+  - front: "Peer draft weak in three paragraphs - silent approval tempting. What's the move?"
     back: "Mark three spots - useful friction, same respect."
 draft: false
 ---

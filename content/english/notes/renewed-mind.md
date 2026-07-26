@@ -64,19 +64,19 @@ relationships:
     reason: "Mind renewal bends on ordinary Tuesdays - not one retreat weekend"
   - type: extends
     wikilink: "[[Christlikeness]]"
-    reason: "Conformed to Christ, not the world's pattern - Romans 8:29 aim, Romans 12:2 engine"
+    reason: "Conformed to Christ, not the world's pattern - aim and renewal engine"
   - type: extends
     wikilink: "[[Digital Minimalism]]"
     reason: "Cut feeds that conform the mind to outrage and hurry"
   - type: extends
     wikilink: "[[Discern His Will Daily]]"
-    reason: "Romans 12:2 outcome - renewal enables testing His will"
+    reason: "Mind renewal outcome - renewal enables testing His will"
   - type: extends
     wikilink: "[[Discipleship]]"
     reason: "Daily following reshapes the mind that chooses obedience"
   - type: extends
     wikilink: "[[Don't Copy the Pattern]]"
-    reason: "Romans 12:2 refusal - do not conform before renewal reshapes the mind"
+    reason: "Refuse the pattern before renewal reshapes the mind"
   - type: extends
     wikilink: "[[Emotional Regulation]]"
     reason: "Renewed mind buys the gap before the world's script mails the reply"
@@ -91,7 +91,7 @@ relationships:
     reason: "Do not conform life to culture's design defaults - God's glory orders the aim"
   - type: extends
     wikilink: "[[Grateful Obedience]]"
-    reason: "Romans 12:1-2 pair - living sacrifice flows from a mind being renewed"
+    reason: "Sacrifice-renewal pair - living sacrifice flows from a mind being renewed"
   - type: extends
     wikilink: "[[Growth Mindset]]"
     reason: "Mind can change - world's fixed labels are not the verdict"
@@ -115,7 +115,7 @@ relationships:
     reason: "In view of God's mercy - renewal responds to gift already received"
   - type: extends
     wikilink: "[[Present a Living Sacrifice]]"
-    reason: "Romans 12:1-2 pair - living sacrifice needs a renewed mind"
+    reason: "Sacrifice-renewal pair - living sacrifice needs a renewed mind"
   - type: extends
     wikilink: "[[Priorities Before the Inbox]]"
     reason: "Scripture before algorithm defaults rewrite the morning"
@@ -139,7 +139,7 @@ relationships:
     reason: "Fruitless week does not mean standing revoked - keep renewing, keep abiding"
   - type: extends
     wikilink: "[[Take Up Your Cross]]"
-    reason: "Choosing God's will over self-will - Romans 12:2 names the outcome renewal enables"
+    reason: "Choosing God's will over self-will - renewal names the outcome it enables"
   - type: extends
     wikilink: "[[The Wise Builder]]"
     reason: "Renewed hearing produces doing - sand is hear-only religion"
@@ -160,7 +160,7 @@ cards:
     back: "Renew the mind - read and abide daily."
   - front: "Waiting until my thoughts feel holy before I open the Bible. Wrong order?"
     back: "Saved first - feed the mind now."
-  - front: "Tuesday 7am - thumb on news feed before Romans. First move?"
+  - front: "Tuesday 7am - thumb on news feed before Scripture. First move?"
     back: "Scripture before the feed."
   - front: "Trying to discern God's will while my mind is full of culture's noise. One step before deciding?"
     back: "Renew first - then test His will."

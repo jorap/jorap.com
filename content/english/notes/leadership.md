@@ -62,9 +62,9 @@ cards:
     back: "Take responsibility - calm voice, no blame spiral."
   - front: "Blackout on our block and neighbors looking for pace. What do I set?"
     back: "Who checks elders - who handles the generator."
-  - front: "Team waiting on me - I've been in the weeds fixing their tasks."
+  - front: "Team waiting on me - I've been in the weeds fixing their tasks. First fix?"
     back: "Name the next move - lead, don't hoard."
-  - front: "Quiet room after bad news - filling silence with a pep talk."
+  - front: "Quiet room after bad news - filling silence with a pep talk. What comes first?"
     back: "Listen first - then point the direction."
 draft: false
 ---

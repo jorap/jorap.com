@@ -34,7 +34,7 @@ relationships:
     reason: "Little children see what pride blocks"
   - type: extends
     wikilink: "[[Jesus' Prayers]]"
-    reason: "Verbatim thanksgiving prayer - Luke 10:21"
+    reason: "Verbatim thanksgiving prayer to the Father"
   - type: extends
     wikilink: "[[Jesus' Rhythms]]"
     reason: "Prayer lane inside biography rhythms"
@@ -49,17 +49,17 @@ featured: false
 review: true
 card_sets: ["Jesus Prayers", "Gospel", "Faith", "Prayer"]
 cards:
-  - front: "New believer saw the verse plain while I stacked three commentaries."
+  - front: "New believer saw the verse plain while I stacked three commentaries. What's the move?"
     back: "Thank the Father - revelation is His gift."
-  - front: "Tempted to gatekeep who gets to understand Scripture."
+  - front: "Tempted to gatekeep who gets to understand Scripture. What's the move?"
     back: "Father reveals - not my credentials."
-  - front: "Small group turned into a flex session - my expertise on display."
+  - front: "Small group turned into a flex session - my expertise on display. What's the move?"
     back: "Thank the Father - not my status."
-  - front: "Kid asked a simple Jesus question that floored me."
+  - front: "Kid asked a simple Jesus question that floored me. What comes first?"
     back: "Receive it - little children see first."
-  - front: "Frustrated that someone less studied got it first."
+  - front: "Frustrated that someone less studied got it first. What's the move?"
     back: "Thank the Father - rejoice at His choice."
-  - front: "Pride rising after teaching well - thumb on self-congratulation."
+  - front: "Pride rising after teaching well - thumb on self-congratulation. What's the move?"
     back: "Thank the Father - He let them see."
 draft: false
 ---

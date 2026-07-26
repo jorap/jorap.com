@@ -49,13 +49,13 @@ cards:
     back: "Run it once - connection before critique."
   - front: "Coworker walks me through her patient callback spreadsheet. Columns look wrong. First move?"
     back: "Watch the whole flow before I reorder."
-  - front: "I always jump in with the fix before they finish talking."
+  - front: "I always jump in with the fix before they finish talking. First fix?"
     back: "Mute the correction - let them finish."
-  - front: "Their spreadsheet looks wrong - reorder before I understand."
+  - front: "Their spreadsheet looks wrong - reorder before I understand. What's the move?"
     back: "Watch the whole flow - then one question."
-  - front: "Interrupted my teammate mid-demo - need a redo."
+  - front: "Interrupted my teammate mid-demo - need a redo. What's the move?"
     back: "Sorry - run it again, I'm listening."
-  - front: "They want my version of the play - not theirs."
+  - front: "They want my version of the play - not theirs. What's the move?"
     back: "Their lead this rep - critique after."
 draft: false
 ---

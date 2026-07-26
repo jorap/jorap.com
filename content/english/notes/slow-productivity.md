@@ -42,17 +42,17 @@ featured: false
 review: true
 card_sets: ["Focus", "Workflow"]
 cards:
-  - front: "Six active home projects and none are finished - Pinterest boards everywhere."
+  - front: "Six active home projects and none are finished - Pinterest boards everywhere. What's missing?"
     back: "Cut to three - finish one bookcase."
-  - front: "Three side hobbies pulling me and the blog series is stuck at post two."
+  - front: "Three side hobbies pulling me and the blog series is stuck at post two. What's the move?"
     back: "Drop two hobbies - finish the series."
-  - front: "Four side projects open and my one client build keeps stalling."
+  - front: "Four side projects open and my one client build keeps stalling. What's the move?"
     back: "One deep build this month - kill the rest."
-  - front: "Busy every night but nothing shipped last quarter."
+  - front: "Busy every night but nothing shipped last quarter. What's the move?"
     back: "Fewer projects - depth beats breadth."
-  - front: "Four open projects and none shipped last quarter."
+  - front: "Four open projects and none shipped last quarter. What's missing?"
     back: "Kill two - finish one deep."
-  - front: "Busy every night - blog stuck on post two since March."
+  - front: "Busy every night - blog stuck on post two since March. What's the move?"
     back: "One project this month - depth wins."
 draft: false
 ---

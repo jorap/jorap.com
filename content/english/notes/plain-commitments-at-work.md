@@ -63,9 +63,9 @@ cards:
     back: "We'll try maybe around four."
   - front: "I told my neighbor I will fix his fence Saturday by noon. What makes it plain?"
     back: "One deadline, one owner."
-  - front: "Slack yes loaded - padding with probably and maybe."
+  - front: "Slack yes loaded - padding with probably and maybe. What's the move?"
     back: "Delete the padding - one plain deadline."
-  - front: "Afraid to say no - softening into non-commitment."
+  - front: "Afraid to say no - softening into non-commitment. What's the move?"
     back: "No is plain - don't owe a padded yes."
 draft: false
 ---

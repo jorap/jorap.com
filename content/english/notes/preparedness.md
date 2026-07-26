@@ -57,9 +57,9 @@ cards:
     back: "Walk it once before the rush owns you."
   - front: "Fire drill on a calm Tuesday - kids still guessing exits. What should they know?"
     back: "Two exits before anyone smells smoke."
-  - front: "Storm warning tonight and kids' go-bags still in the attic."
+  - front: "Storm warning tonight and kids' go-bags still in the attic. What's the move?"
     back: "Pack tonight - not when sirens start."
-  - front: "Playoff week and we have not walked the inbound since October."
+  - front: "Playoff week and we have not walked the inbound since October. What's the move?"
     back: "Run the drill calm Tuesday - not panic Thursday."
 draft: false
 ---

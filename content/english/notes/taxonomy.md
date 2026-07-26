@@ -39,17 +39,17 @@ featured: false
 review: true
 card_sets: ["Focus", "Review"]
 cards:
-  - front: "Film folders dumped in one 'misc clips' pile and I need the corner-kick reel."
+  - front: "Film folders dumped in one 'misc clips' pile and I need the corner-kick reel. What's the move?"
     back: "Split by opponent and phase."
-  - front: "Faith notes, PKM notes, all in one junk folder called misc."
+  - front: "Faith notes, PKM notes, all in one junk folder called misc. What's the move?"
     back: "Short tag list I would actually click."
-  - front: "School papers in one counter pile and permission slips keep getting lost."
+  - front: "School papers in one counter pile and permission slips keep getting lost. What's the move?"
     back: "Three trays - sign, keep, trash."
-  - front: "Receipts in one shoebox and tax season's coming."
+  - front: "Receipts in one shoebox and tax season's coming. What's the move?"
     back: "Sort taxes, warranty, trash now."
-  - front: "Receipts in one shoebox - tax season three weeks out."
+  - front: "Receipts in one shoebox - tax season three weeks out. What's the move?"
     back: "Three piles now - tax, keep, trash."
-  - front: "Faith notes and PKM notes dumped in misc."
+  - front: "Faith notes and PKM notes dumped in misc. What's the move?"
     back: "Short tag list I'd actually click."
 draft: false
 ---

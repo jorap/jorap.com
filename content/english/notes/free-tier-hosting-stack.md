@@ -68,13 +68,13 @@ cards:
     back: "Client-owned Cloudflare account or Pages Pro before month-end crunch"
   - front: "Build failed until Hugo was pinned. What's the move?"
     back: "Env var on every new project template now"
-  - front: "Deploy script worked once - skipped the env var checklist."
+  - front: "Deploy script worked once - skipped the env var checklist. What's the move?"
     back: "Pin Hugo on every new project - template now."
-  - front: "Free tier fine for demo - tempted to stack twelve clients on my account."
+  - front: "Free tier fine for demo - tempted to stack twelve clients on my account. What's the move?"
     back: "Client-owned account before go-live."
-  - front: "Build failed - gut says ditch Cloudflare."
+  - front: "Build failed - gut says ditch Cloudflare. First fix?"
     back: "Fix the pin - stack still works."
-  - front: "Client wants unlimited rebuilds on my free quota."
+  - front: "Client wants unlimited rebuilds on my free quota. What's the move?"
     back: "Their account or Pro - not my meter."
 draft: false
 ---

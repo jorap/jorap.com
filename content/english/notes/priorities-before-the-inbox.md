@@ -60,7 +60,7 @@ cards:
     back: "Lunches and bags - then messages."
   - front: "Road trip Friday and I still haven't booked the oil change. One check?"
     back: "Book the slot before I scroll drama."
-  - front: "Inbox at forty - real priority still untouched at nine a.m."
+  - front: "Inbox at forty - real priority still untouched at nine a.m. What comes first?"
     back: "Kingdom task first - inbox waits."
   - front: "Notification glow beat Scripture this morning - order fork?"
     back: "Priority before inbox - open what matters."

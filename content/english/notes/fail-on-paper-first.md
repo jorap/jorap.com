@@ -48,15 +48,15 @@ featured: false
 review: true
 card_sets: ["Ethics", "Focus"]
 cards:
-  - front: "Pass to client Friday - DNS anger scenarios still unlisted."
+  - front: "Pass to client Friday - DNS anger scenarios still unlisted. What comes first?"
     back: "Fail on paper first - fix docs before go-live."
-  - front: "Team assumes tournament format died - whiteboard empty."
+  - front: "Team assumes tournament format died - whiteboard empty. What's the move?"
     back: "List causes - patch before registration opens."
-  - front: "Ego already attached to the launch date - failure modes invisible."
+  - front: "Ego already attached to the launch date - failure modes invisible. What's the move?"
     back: "Imagine it died - name why, then patch."
-  - front: "Rollback trigger still vague - deploy clock ticking."
+  - front: "Rollback trigger still vague - deploy clock ticking. What's the move?"
     back: "Write revert trigger - before users feel pain."
-  - front: "Optimism spreadsheet says ship - room never assumed failure."
+  - front: "Optimism spreadsheet says ship - room never assumed failure. What comes first?"
     back: "Room assumes project died - list causes first."
   - front: "Public yes on vows without honest estimate - builder move?"
     back: "Count failure on paper - before the wall stops mid-air."
