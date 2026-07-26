@@ -1,4 +1,4 @@
-"""Shared OKF v0.1 bundle helpers for notes and blog exports."""
+"""Shared OKF v0.2 bundle helpers for notes and blog exports."""
 
 from __future__ import annotations
 
@@ -11,7 +11,7 @@ from notes_content import parse_scalar, split_frontmatter_parts as split_frontma
 
 ROOT = Path(__file__).resolve().parents[1]
 HUGO_TOML = ROOT / "hugo.toml"
-OKF_VERSION = "0.1"
+OKF_VERSION = "0.2"
 BASEURL_RE = re.compile(r'^baseURL\s*=\s*"([^"]+)"', re.M)
 
 
@@ -29,6 +29,10 @@ def yaml_frontmatter(fields: dict[str, object]) -> str:
     lines = ["---"]
     for key, value in fields.items():
         if value is None or value == "":
+            continue
+        if isinstance(value, dict):
+            pairs = ", ".join(f"{k}: {v}" for k, v in value.items() if v)
+            lines.append(f"{key}: {{ {pairs} }}")
             continue
         if isinstance(value, list):
             if not value:
@@ -132,6 +136,8 @@ def validate_bundle(out_dir: Path) -> list[str]:
 def _self_check() -> None:
     fm = yaml_frontmatter({"type": "Test", "title": "Hello: world"})
     assert 'title: "Hello: world"' in fm
+    generated = yaml_frontmatter({"generated": {"by": "process:test", "at": "2026-07-26T00:00:00Z"}})
+    assert "generated: { by: process:test, at: 2026-07-26T00:00:00Z }" in generated
     assert validate_bundle  # imported
 
 

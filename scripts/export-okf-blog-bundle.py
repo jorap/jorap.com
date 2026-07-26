@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Export published blog posts to a separate OKF v0.1 bundle (not in the notes graph)."""
+"""Export published blog posts to a separate OKF v0.2 bundle (not in the notes graph)."""
 
 from __future__ import annotations
 
@@ -27,6 +27,7 @@ BLOG_DIR = ROOT / "content/english/blog"
 NOTES_DIR = ROOT / "content/english/notes"
 DEFAULT_OUT = ROOT / "static/exports/okf-blog"
 SKIP_STEMS = {"_index"}
+GENERATED_BY = "process:export-okf-blog-bundle"
 
 
 @dataclass(frozen=True)
@@ -150,7 +151,7 @@ def write_article(record: PostRecord, body: str, out_dir: Path) -> None:
             "description": record.description,
             "resource": record.resource,
             "tags": record.tags,
-            "timestamp": record.timestamp,
+            "generated": {"by": GENERATED_BY, "at": record.timestamp},
         }
     )
     dest.write_text(fm + body, encoding="utf-8")
@@ -197,13 +198,13 @@ def export_bundle(out_dir: Path) -> int:
     write_update_log(
         out_dir,
         git_subpath="content/english/blog/",
-        export_message="Generated OKF v0.1 blog bundle from Hugo blog posts.",
+        export_message="Generated OKF v0.2 blog bundle from Hugo blog posts.",
     )
     return count
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Export JoRap blog posts as an OKF v0.1 bundle.")
+    parser = argparse.ArgumentParser(description="Export JoRap blog posts as an OKF v0.2 bundle.")
     parser.add_argument(
         "-o",
         "--output",

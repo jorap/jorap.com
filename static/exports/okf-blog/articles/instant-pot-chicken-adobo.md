@@ -4,7 +4,7 @@ title: Instant Pot Chicken Adobo
 description: "My go-to chicken adobo for the Instant Pot. Bone-in thighs, 10 minutes under pressure, classic soy-garlic-vinegar glaze without the hours of waiting."
 resource: "https://www.jorap.com/blog/instant-pot-chicken-adobo/"
 tags: ["Chicken Adobo", "Filipino Recipes", "Instant Pot", "Comfort Food", "Chicken Recipes", "Filipino Food", "Weeknight Dinner", "Pressure Cooking"]
-timestamp: "2026-05-03T23:00:00Z"
+generated: { by: process:export-okf-blog-bundle, at: 2026-05-03T23:00:00Z }
 ---
 I usually make adobo in a bigger batch - about 2 kg of bone-in thighs - and this version is tuned for an 8-quart Instant Pot. Enough liquid to pressure-cook without a burn notice, not so much that you're waiting forever for the glaze.
 
@@ -68,6 +68,8 @@ The adjusted liquid base is about 425-430 ml total, or roughly 1.8 cups. This fi
 
 ### Step 1: Marinate
 
+I usually start this the night before and forget it's in the fridge until lunch - works either way.
+
 In a bowl, combine:
 
 - 160 ml soy sauce, about ⅔ cup
@@ -108,7 +110,7 @@ Do not stir for the first 2 minutes after adding the vinegar. Let it simmer brie
 
 ### Step 4: Pressure Cook
 
-Seal the Instant Pot.
+Seal the Instant Pot. Browning the chicken using a separate pot ensures I will not experience a burn notice.
 
 Cook on:
 
@@ -121,7 +123,7 @@ After 10 minutes of natural release, release the remaining pressure manually.
 
 Remove the chicken temporarily.
 
-**Now** use Sauté mode - simmer the sauce for 8-12 minutes, or until slightly reduced.
+**Now** use Sauté mode - simmer the sauce for 8-12 minutes, or until slightly reduced. I walked away once at twelve minutes and came back to glue - eight is my safer number now.
 
 Add sweetener, if using:
 
@@ -135,7 +137,7 @@ If a thicker sauce is desired, whisk ½-⅔ tsp xanthan gum with a little hot sa
 
 ### Step 6: Optional Crisping
 
-For restaurant-style adobo, pan-sear the cooked chicken skin-side down for 2-3 minutes, or until lightly crisp.
+For restaurant-style adobo, pan-sear the cooked chicken skin-side down for 2-3 minutes, or until lightly crisp. Wear an apron - the sauce splatters when the skin finally crackles.
 
 Return the chicken to the sauce before serving.
 

@@ -4,7 +4,7 @@ title: "How I Built JoRap Notes: After Losing PHP Hosting"
 description: I lost my old PHP hosting and a chunk of my work. A weekend later I landed on Hugo + GitHub + Cloudflare Pages - faster and better than what I was paying for.
 resource: "https://www.jorap.com/blog/how-i-built-jorap-notes/"
 tags: ["Hugo", "GitHub", "Cloudflare Pages", "Static Sites", "Website Building", "PHP", "Migration", "Digital Garden", "Self-Hosting"]
-timestamp: "2024-06-14T05:00:00Z"
+generated: { by: process:export-okf-blog-bundle, at: 2024-06-14T05:00:00Z }
 ---
 > **TL;DR**: I lost my old PHP hosting and a chunk of my work with it. After a weekend of fumbling around, I landed on Hugo + GitHub + Cloudflare Pages, and the result is genuinely better than what I was paying for shared hosting. Here's exactly how I did it - including the parts I messed up.
 

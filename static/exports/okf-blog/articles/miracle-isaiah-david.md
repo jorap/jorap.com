@@ -4,7 +4,7 @@ title: The Miracle of Isaiah David
 description: "On May 8, 2020, Pia and I found out she was pregnant and gave birth to our son the same day. Years later, that sentence still doesn't feel real."
 resource: "https://www.jorap.com/blog/miracle-isaiah-david/"
 tags: ["Isaiah David", "Miracle Story", "Faith Story", "Parenthood", "Birth Story", "Filipino Family", "Christian Testimony", "Philippines"]
-timestamp: "2023-05-08T05:00:00Z"
+generated: { by: process:export-okf-blog-bundle, at: 2023-05-08T05:00:00Z }
 ---
 There's no smooth way to start this story, so I'll just say it: on May 8, 2020, my wife Pia and I found out she was pregnant and gave birth to our son Isaiah David on the same day. That sentence still doesn't feel real, even years later.
 

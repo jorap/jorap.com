@@ -1836,6 +1836,15 @@
       "provider": "cursoride",
       "last_updated": "2026-07-25T10:11:42Z"
     },
+    "8387bc44-9825-4069-8bcb-1816d6b7623e": {
+      "user_message_count": 1,
+      "agent_message_count": 7,
+      "start_timestamp": "2026-07-26T23:04:10+08:00",
+      "end_timestamp": "2026-07-26T23:04:10+08:00",
+      "markdown_size_bytes": 5926,
+      "provider": "cursoride",
+      "last_updated": "2026-07-26T15:05:20Z"
+    },
     "83a0abdd-e24c-4576-a191-f6ba8c25fc54": {
       "user_message_count": 3,
       "agent_message_count": 113,

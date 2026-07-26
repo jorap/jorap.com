@@ -4,7 +4,7 @@ title: The Short Extension Cord in My Laptop Bag
 description: "A short extension cord lives in my laptop bag. Hotel outlets behind the bed, blocked café sockets, full meeting-room strips - here's what I look for."
 resource: "https://www.jorap.com/blog/extension-cord/"
 tags: ["Extension Cord", "Laptop", "Travel Gear", "Remote Work", "Power", "Home Office", "Electrical Safety", "Cable", "Hotel", "Work From Anywhere"]
-timestamp: "2026-07-11T05:04:00Z"
+generated: { by: process:export-okf-blog-bundle, at: 2026-07-11T05:04:00Z }
 ---
 The thing I reach for most from my laptop bag isn't a dongle or a power bank. It's a **short extension cord**.
 
@@ -63,13 +63,7 @@ It's in my **travel bag** too - same pouch as the charger - because a dead batte
 - **Replace** anything with cracked plastic, bent prongs, or a warm smell
 - **Don't treat it as a doorstop** - foot traffic kills the outer jacket over time
 
----
-
-## Bottom line
-
-For a laptop, a short extension cord is boring gear that actually gets used. You want about **2 metres** and a plug shape that fits tight spaces.
-
-Buy once, leave it in the bag, and stop crawling to the outlet behind the bed.
+For a laptop, a short extension cord is boring gear that actually gets used. About **2 metres**, flat plug, leave it in the bag - and stop crawling to the outlet behind the bed.
 
 ## Related garden notes
 

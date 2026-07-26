@@ -4,7 +4,7 @@ title: "The Mouse Wheel Click: One Button, Three Operating Systems"
 description: "Most people right-click every link to open a new tab. There's a faster button under their finger - same gesture on every OS, and almost nobody uses it."
 resource: "https://www.jorap.com/blog/mouse-wheel-click/"
 tags: ["Mouse", "Mouse Wheel Click", "Browser Tips", "Windows", "macOS", "Linux", "Middle Click", "Productivity"]
-timestamp: "2026-05-28T05:00:00Z"
+generated: { by: process:export-okf-blog-bundle, at: 2026-05-28T05:00:00Z }
 ---
 I notice this all the time. Someone next to me, on their own laptop or at a shared screen, right-clicks a link, hovers down to "Open link in new tab," clicks, then goes back and does the same thing for the next link. And the next. And the next. Twenty times in a row while researching something.
 

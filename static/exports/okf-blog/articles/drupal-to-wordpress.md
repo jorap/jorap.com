@@ -4,7 +4,7 @@ title: Why I Switched from Drupal to WordPress
 description: "I fell hard for Drupal's architecture and still couldn't find work with it. WordPress had familiar building blocks and a community big enough to pay the bills."
 resource: "https://www.jorap.com/blog/drupal-to-wordpress/"
 tags: ["Drupal", "WordPress", "CMS", "Web Development", "Developer Life", "Open Source", "Gutenberg", "WordCamp"]
-timestamp: "2026-05-27T06:30:00Z"
+generated: { by: process:export-okf-blog-bundle, at: 2026-05-27T06:30:00Z }
 ---
 > **TL;DR**: I picked Drupal after a long open-source CMS search because the architecture made sense. The community was small, updates were a chore, and I couldn't find work with it. WordPress had familiar building blocks (ACF, Gutenberg), a massive plugin shelf, and better timing. Then WordCamp Asia landed in Manila and Matt Mullenweg showed up with old Philippines WordCamp stories. That didn't hurt.
 

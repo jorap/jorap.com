@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Export the published notes garden to an OKF v0.1 bundle."""
+"""Export the published notes garden to an OKF v0.2 bundle."""
 
 from __future__ import annotations
 
@@ -30,6 +30,7 @@ from okf_bundle import (
 
 NOTES_DIR = ROOT / "content/english/notes"
 DEFAULT_OUT = ROOT / "static/exports/okf"
+GENERATED_BY = "process:export-okf-bundle"
 SKIP_STEMS = {"_index"}
 UTILITY_LAYOUTS = frozenset(
     {"graph", "cards", "review", "issues", "random-duo", "create", "backlinks"}
@@ -195,7 +196,7 @@ def write_concept(record: NoteRecord, body: str, out_dir: Path) -> None:
             "description": record.description,
             "resource": record.resource,
             "tags": record.tags,
-            "timestamp": record.timestamp,
+            "generated": {"by": GENERATED_BY, "at": record.timestamp},
         }
     )
     dest.write_text(fm + body, encoding="utf-8")
@@ -271,7 +272,7 @@ def export_bundle(out_dir: Path) -> tuple[int, int, dict[str, int]]:
     write_update_log(
         out_dir,
         git_subpath="content/english/notes/",
-        export_message="Generated OKF v0.1 bundle from the Hugo notes garden.",
+        export_message="Generated OKF v0.2 bundle from the Hugo notes garden.",
     )
 
     viz_stats = generate_okf_viz(out_dir)
@@ -304,7 +305,7 @@ def generate_okf_viz(out_dir: Path) -> dict[str, int]:
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Export JoRap notes garden as an OKF v0.1 bundle.")
+    parser = argparse.ArgumentParser(description="Export JoRap notes garden as an OKF v0.2 bundle.")
     parser.add_argument(
         "-o",
         "--output",

@@ -4,7 +4,7 @@ title: Static Site or CMS? How I Pick the Stack
 description: "Who publishes, what changes live, and whether you need logins pick static vs WordPress better than any framework ranking."
 resource: "https://www.jorap.com/blog/static-site-vs-cms/"
 tags: ["Website Building", "Static Site Generator", "CMS", "WordPress", "Hugo", "Sveltia CMS", "Web Development", "Tips"]
-timestamp: "2026-07-10T06:00:00Z"
+generated: { by: process:export-okf-blog-bundle, at: 2026-07-10T06:00:00Z }
 ---
 > **TL;DR**: I don't pick Hugo because I like Hugo. I pick it when the site is mostly pages that change occasionally, nobody needs a login wall, and the publish path can stay simple. Two or more "dynamic" yes answers - logins, live database, cart you host, five daily non-technical editors with no plan - and I'm looking at WordPress or Shopify, not a markdown repo.
 
@@ -27,6 +27,8 @@ A static site is pre-built HTML (and assets) served from a CDN. No database at r
 That sounds technical. Day to day it mostly means **fast, cheap hosting and almost nothing to patch**.
 
 **Portfolios and case studies.** Show work in order, with context, without an algorithm shuffling it. Push when you add a project. Done.
+
+A freelance designer friend asked me to "just add a login so the team can edit the portfolio." The site was six case studies and a contact form. We talked for twenty minutes, landed on a static build plus a quarterly batch update instead, and nobody has asked for WordPress since. Wrong tool would have meant plugin updates for a site that changes twice a year.
 
 **Brochure sites.** Hours, location, services, team photos, contact form. A cafe menu with a link to the delivery app they already use. Text and images on git push.
 

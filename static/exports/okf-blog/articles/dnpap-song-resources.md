@@ -4,7 +4,7 @@ title: DNPAP - Song Resources
 description: "DNPAP by Destiny Music is memorable to me because my wife sings the studio vocal. Destiny Music wrote it. Studio track, live cut, videos, and links in one place."
 resource: "https://www.jorap.com/blog/dnpap-song-resources/"
 tags: ["DNPAP", "Destiny Music", "Filipino Worship", "Worship Resources", "OPM", "Christian Music", "Spotify", "YouTube"]
-timestamp: "2022-11-12T05:00:00Z"
+generated: { by: process:export-okf-blog-bundle, at: 2022-11-12T05:00:00Z }
 ---
 **DNPAP** is memorable to me mainly because my wife sings it. Destiny Music wrote and released it - Pia was on the studio vocal, not the songwriter. I was there for the remote recording during COVID; my mother-in-law watched our son while Pia tracked her vocal. This page collects the studio single, live cut, official videos, and artist links. Bookmark it if you sing it too.
 
@@ -23,6 +23,8 @@ DNPAP stands for **"Diyos Ng Pagasa at Pagibig"** - Filipino for **"God of Hope 
 ---
 
 ## Where to listen and watch
+
+The **live cut** is the one that hits when you've heard the room. Pia tracked the studio vocal remotely during COVID while my mother-in-law watched our son in the next room - I still hear that session when I play the Spotify version.
 
 ### Studio single (Spotify)
 
@@ -59,6 +61,8 @@ DNPAP stands for **"Diyos Ng Pagasa at Pagibig"** - Filipino for **"God of Hope 
 ---
 
 ## Quick links
+
+Same links as above, in table form for copy-paste. Spotify embeds break sometimes on slow hotel Wi-Fi - the direct links still work.
 
 | Platform | Link |
 | :---------------------- | :-------------------------------------------------------------------- |

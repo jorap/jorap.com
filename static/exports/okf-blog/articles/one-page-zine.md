@@ -4,7 +4,7 @@ title: "One Sheet, Eight Pages: Why I Use a 1-Page Zine for Rules Booklets"
 description: "One sheet of paper, folded into an eight-page booklet. I use it for board game rules and quick guides that fit in a pocket or game box."
 resource: "https://www.jorap.com/blog/one-page-zine/"
 tags: ["Zine", "Board Games", "Print Design", "Rules Booklet", "DIY", "Game Design", "Papercraft", "Quick Reference", "Print and Play", "Tutorial"]
-timestamp: "2026-07-13T14:15:00Z"
+generated: { by: process:export-okf-blog-bundle, at: 2026-07-13T14:15:00Z }
 ---
 I was writing rules for a two-player card game and hit the usual wall. A full rulebook felt like overkill for a 15-minute game. A single reference card could not hold setup, scoring, and the four different actions without turning into unreadable microtype.
 
@@ -59,7 +59,7 @@ Once you have the fold in your head, the format shows up everywhere:
 
 **Quick-start guides.** New tool at work, new appliance at home, volunteer onboarding. Cover plus six steps plus troubleshooting fits fine.
 
-**Event programs.** Community meetup, small church gathering, game night at a cafe. Schedule, map, house rules, contact info. Print a stack, leave them on the sign-in table.
+**Event programs.** Community meetup, small church gathering, game night at a cafe. Last month I printed eight-panel zines for a **Hanamikoji** teach - setup on the cover, action reference on the back, full rules inside. Stack on the sign-in table, no one asked for the PDF.
 
 **Recipe collections.** Not a full cookbook - one meal, variations, shopping list on the back.
 
@@ -96,13 +96,7 @@ Be honest about the limits.
 
 For game rules specifically, I treat the **cover and back cover as the in-play reference** - win condition, turn order, action names, scoring. That is what you see when the rulebook sits in its sleeve beside the deck. **Setup and the full teach live inside** - open it once at the table, then close it and leave it there.
 
----
-
-## Bottom line
-
-If you need a booklet and you do not need a binding, the 1-page zine is the fastest honest answer. One sheet, one cut, eight pages. I reach for it whenever the content is small enough to respect the limit and the reader needs something they can hold, not a PDF on their phone.
-
-For board games, that limit is a feature. It keeps the rules tight and the component count at one.
+If you need a booklet and you do not need a binding, the 1-page zine is the fastest honest answer. One sheet, one cut, eight pages. I reach for it whenever the content is small enough to respect the limit and the reader needs something they can hold, not a PDF on their phone. For board games, that limit is a feature - it keeps the rules tight and the component count at one.
 
 ## Related garden notes
 

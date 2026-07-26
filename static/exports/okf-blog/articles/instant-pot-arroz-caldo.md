@@ -4,7 +4,7 @@ title: Instant Pot Arroz Caldo
 description: "My arroz caldo now lives in an 8-quart Instant Pot. Bone-in drumsticks, 25 minutes under pressure, big batch in about 45 minutes start to bowl."
 resource: "https://www.jorap.com/blog/instant-pot-arroz-caldo/"
 tags: ["Arroz Caldo", "Filipino Recipes", "Instant Pot", "Congee", "Comfort Food", "Chicken Recipes", "Filipino Food", "One-Pot Meals"]
-timestamp: "2026-07-09T06:00:00Z"
+generated: { by: process:export-okf-blog-bundle, at: 2026-07-09T06:00:00Z }
 ---
 I used to make arroz caldo in a Hanabishi rice cooker - congee button, dump everything in, walk away. That worked for a while. I don't do it anymore. This is the version I actually make now: **10-12 bowls** from an 8-quart Instant Pot in about 45 minutes.
 
@@ -35,6 +35,8 @@ I run this in an **8-quart Instant Pot** - enough room for 2.5 cups malagkit and
 One rule that does not bend: **do not quick release.** Starchy congee sprays hot porridge out the vent. Natural release for 15 minutes, then release whatever pressure is left.
 
 ## What You'll Need
+
+I tried powdered ginger once when I was out of fresh - never again. At this batch size you taste the difference.
 
 **The essentials (don't skip these):**
 - 10-11 cups (2.4-2.6 L) water or chicken broth
@@ -69,12 +71,12 @@ Pour **10-11 cups (2.4-2.6 L) water or broth** into the Instant Pot. Add the gin
 Do not add the chicken yet. You will not taste again until everything is fully cooked.
 
 **Step 3:** Add the chicken and rice
-Add the rinsed rice and **1 kg (2.2 lbs) chicken drumsticks**. Stir well so the rice is not clumped at the bottom.
+Add the rinsed rice and **1 kg (2.2 lbs) chicken drumsticks**. Stir well so the rice is not clumped at the bottom - I learned that one the hard way when half the pot came out gummy and half stayed raw.
 
 From this point on, do not taste the mixture again.
 
 **Step 4:** Pressure cook
-Secure the lid. Venting knob to **Sealing**. High pressure for **25 minutes**.
+Secure the lid. Venting knob to **Sealing**. High pressure for **25 minutes**. Double-check Sealing - I left it on Vent once and wondered why nothing was happening for twenty minutes.
 
 **Step 5:** Natural release - no shortcuts
 When the timer beeps, let it sit for **15 minutes** of natural pressure release. Do not flip to quick release.
@@ -82,7 +84,7 @@ When the timer beeps, let it sit for **15 minutes** of natural pressure release.
 After 15 minutes, turn the venting knob to **Release** for whatever pressure is left.
 
 **Step 6:** Stir, thin, and taste
-Open the lid and stir hard to break up the rice and release the starch. With this ratio it will probably be thicker than you want - add **hot water 1 cup (240 ml) at a time** until you hit the consistency you like.
+Open the lid and stir hard to break up the rice and release the starch. With this ratio it will probably be thicker than you want - add **hot water 1 cup (240 ml) at a time** until you hit the consistency you like. First time I dumped three cups at once and ended up with soup I had to simmer down.
 
 Taste one final time. If the extra water diluted things, add more fish sauce.
 

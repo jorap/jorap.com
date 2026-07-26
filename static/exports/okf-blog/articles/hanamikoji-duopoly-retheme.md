@@ -4,7 +4,7 @@ title: Retheming Hanamikoji as Duopoly
 description: "I love Hanamikoji for the mechanics, not the geisha art. Duopoly is my build log - fewer components, dull flags, same hook without the illustration."
 resource: "https://www.jorap.com/blog/hanamikoji-duopoly-retheme/"
 tags: ["Duopoly", "Hanamikoji", "Board Games", "Card Games", "Game Design", "Component Design", "Retheme", "I Split You Choose", "Zine", "DIY"]
-timestamp: "2026-07-15T11:45:00Z"
+generated: { by: process:export-okf-blog-bundle, at: 2026-07-15T11:45:00Z }
 ---
 I love *Hanamikoji* for the mechanics. The retail game has gorgeous art - colorful geisha portraits, illustrated performance items, a table presence that pulls you in. I kept playing for the **I split, you choose** puzzle: how you bundle cards, what you force your rival to take, when to burn a Trade-off. The theme is atmosphere. The split is the game.
 

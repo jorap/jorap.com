@@ -4,7 +4,7 @@ title: "Worship Pads for Solo Guitar: What Changed When I Finally Tried Them"
 description: Leading worship with just an acoustic guitar felt thin in a big room - until someone slid a pad track underneath me during practice.
 resource: "https://www.jorap.com/blog/worship-pads-solo-guitar/"
 tags: ["Worship Pads", "Worship Leading", "Guitar Worship", "Acoustic Guitar", "Pad Tracks", "Church Music", "Live Worship", "Backing Tracks"]
-timestamp: "2025-05-04T05:00:00Z"
+generated: { by: process:export-okf-blog-bundle, at: 2025-05-04T05:00:00Z }
 ---
 I love leading worship with just my acoustic guitar. There's an intimacy to it that a full band can't quite reach. But anyone who's actually stood at the front of a room with just six strings and a microphone knows the other side of that - the silence between songs feels enormous, the guitar can sound thin in a big space, and you spend half the set worrying you're not filling the room well enough.
 
@@ -12,7 +12,7 @@ For a long time I just lived with it. Then somebody put on a pad track underneat
 
 ## What's a worship pad, exactly?
 
-If the term is new to you, don't worry - I had no clue what people meant either at first.
+The first time someone said "put a pad under you," I nodded like I knew what they meant. I didn't.
 
 A pad is just a sustained, ambient soundscape. Soft strings, warm synths, the kind of thing you don't really notice on its own but immediately miss when it's gone. It sits underneath everything else and gives the music a floor to rest on. Your guitar isn't floating in empty air anymore; it's surrounded by something.
 

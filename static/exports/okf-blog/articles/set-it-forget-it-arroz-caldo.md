@@ -4,7 +4,7 @@ title: The Set It and Forget It Arroz Caldo
 description: "How I used to make arroz caldo in a rice cooker with a congee feature - five minutes of prep, an hour hands-off. I use an Instant Pot now."
 resource: "https://www.jorap.com/blog/set-it-forget-it-arroz-caldo/"
 tags: ["Arroz Caldo", "Filipino Recipes", "Rice Cooker Recipes", "Congee", "Comfort Food", "Chicken Recipes", "Filipino Food", "One-Pot Meals"]
-timestamp: "2025-03-29T05:00:00Z"
+generated: { by: process:export-okf-blog-bundle, at: 2025-03-29T05:00:00Z }
 ---
 I used to make **Arroz Caldo** most Friday nights this way - prep it, hit the rice cooker's congee button, go to bed. Saturday morning the kitchen already smelled like ginger before I was fully awake.
 
@@ -48,13 +48,17 @@ Also, pro tip for this method: boneless chicken thigh fillets when you can find 
 Cut the **1 kg (2.2 lbs) chicken thigh fillets** into bite-sized chunks. Mince **3 inches (7-8 cm) fresh ginger** and chop **4 cloves garlic**. Rinse **1 cup (200 g) glutinous rice** until the water runs clear. Dice the **1 medium onion** if you're using it. Don't stress about perfect cuts - it all breaks down anyway.
 
 **Step 2:** Dump it all in
+Friday night ritual: everything goes into the rice cooker. Later in the evening, people who are still awake are asking why it is smelling like ginger already.
+
 Everything goes into the rice cooker: the rinsed rice, chicken, **6-7 cups (1.4-1.7 L) water or broth**, **1 Knorr chicken cube** (or **1 teaspoon / 5 g powder**), ginger, garlic, **2-3 tablespoons (30-45 ml) fish sauce**, and black pepper to taste. Add the **1 pinch kasubha** and onion now if you're using them. Taste the liquid and adjust the fish sauce - it should taste slightly salty since the rice will absorb a lot of it.
 
 **Step 3:** Press the button and walk away
-Hit that congee setting and go do something else for **45-60 minutes**. This is literally the best part - no stirring, no babysitting, just pure hands-off cooking.
+Hit that congee setting and go do something else for **45-60 minutes**. I'd usually fall asleep on the couch and wake up to the kitchen smelling like Saturday already started.
 
 **Step 4:** Check and fix
-When it's done, give it a stir and see how the consistency looks. Too thick? Add **hot water 1 cup (240 ml) at a time**. Too soupy? Let it sit on keep warm for a bit longer, or run the congee cycle again for **10 more minutes**.
+When it's done, give it a stir and see how the consistency looks. The first bowl was always mine - I'd taste, add a squeeze of kalamansi, then decide if the pot needed more water.
+
+Too thick? Add **hot water 1 cup (240 ml) at a time**. Too soupy? Let it sit on keep warm for a bit longer, or run the congee cycle again for **10 more minutes**.
 
 Serve with **2-3 kalamansi** (or **1 lemon**), **2-3 tablespoons (30-45 ml) crispy garlic**, **2-3 stalks green onions**, and **2-4 hard-boiled eggs**, halved.
 

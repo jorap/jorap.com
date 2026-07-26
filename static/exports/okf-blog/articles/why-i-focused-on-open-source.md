@@ -4,7 +4,7 @@ title: Why I Focused on Open Source Technologies
 description: "Open source wasn't a purity test for me. Freedom mattered more than free - install tonight, read the code, move your files, own the stack."
 resource: "https://www.jorap.com/blog/why-i-focused-on-open-source/"
 tags: ["Open Source", "FOSS", "Hugo", "WordPress", "Web Development", "Developer Life", "Free Software", "Static Site Generator"]
-timestamp: "2026-07-04T12:00:00Z"
+generated: { by: process:export-okf-blog-bundle, at: 2026-07-04T12:00:00Z }
 ---
 > **TL;DR**: I didn't pick open source because it's morally superior on a slide deck. I picked it because I could install it tonight, read the code when something broke, move my files when a host died, and find work in communities big enough to hire from. **Freedom mattered more than free.** Learning still ate months. That's still the filter.
 
@@ -50,7 +50,7 @@ That's the open-source win I care about day to day - not stickers on a laptop. *
 
 ## What open source actually buys me
 
-After years of building and teaching on this stuff, the benefits aren't abstract.
+After years of building and teaching on this stuff, the benefits aren't abstract. Last month a Hugo partial threw a blank page - I opened the theme file, found a nil check someone forgot, fixed it in ten minutes. No ticket queue.
 
 **I can see what's broken.** When a Hugo template misbehaves or a WordPress plugin throws a fatal error, the code is right there. I'm not waiting on a support ticket to learn whether the bug is mine or theirs.
 
@@ -66,7 +66,7 @@ After years of building and teaching on this stuff, the benefits aren't abstract
 
 ## What it doesn't mean
 
-I don't treat open source as a purity test.
+I don't treat open source as a purity test. I still have a lot of WordPress plugins I installed once and never touched again - open source doesn't mean maintained.
 
 **Open doesn't mean good.** Plenty of open-source plugins are junk. "View source" doesn't help if nobody maintains the project. I still evaluate tools like anything else - does it solve the job, is it maintained, will the client still own it after I pass it off.
 
@@ -84,7 +84,7 @@ The filter is practical: **can I inspect it, move it, and find help when I'm stu
 
 ## How that shows up in my stack now
 
-[jorap.com](/) runs on Hugo, an open-source theme, markdown in Git, deployed through Cloudflare Pages. JoRap Notes is the same shape.
+[jorap.com](/) runs on Hugo, an open-source theme, markdown in Git, deployed through Cloudflare Pages. JoRap Notes is the same shape. When Cloudflare's Node version drifted last year, I pinned `NODE_VERSION` in ten minutes because the whole stack is files I can read - not a black box dashboard.
 
 Client work still goes WordPress when the job needs logins, carts, or five non-technical editors - also open source, also chosen for fit, not fanboyism.
 

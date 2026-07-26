@@ -1,5 +1,5 @@
 ---
-okf_version: "0.1"
+okf_version: "0.2"
 ---
 
 # JoRap Blog
@@ -27,6 +27,7 @@ OKF export of published blog posts. Separate from the notes garden bundle at `/e
 * [The Short Extension Cord in My Laptop Bag](/articles/extension-cord.md) - A short extension cord lives in my laptop bag. Hotel outlets behind the bed, blocked café sockets, full meeting-room strips - here's what I look for.
 * [What I Look For in Wireless Earphones](/articles/what-i-look-for-in-wireless-earphones.md) - After years of cycling through earbuds, neckbands, and over-ears, here's what I care about in wireless earphones - and the pair I keep reaching for.
 * [Why I Focused on Open Source Technologies](/articles/why-i-focused-on-open-source.md) - Open source wasn't a purity test for me. Freedom mattered more than free - install tonight, read the code, move your files, own the stack.
+* [Why I Prefer the Google Ecosystem Over Apple](/articles/google-over-apple-ecosystem.md) - I run a MacBook Pro M4 and an 11th-gen iPad - and I still live in Google's ecosystem. One Google account glues my Mac, Android, Linux, and TV together. No compelling reason to add an iPhone or Apple Watch on top.
 * [Why I Still Keep a Desktop or Laptop](/articles/why-keep-desktop-laptop.md) - Every couple of years someone goes mobile-only. I keep a laptop because real work happens faster there - upright, keyboard, full apps - not because I'm lending gear.
 * [Why I Still Run My Own Website](/articles/why-run-your-own-website.md) - People ask why I don't just post on Facebook. After years of watching platforms die and rules change, here's why I keep my own corner of the internet.
 * [Why I Stopped Playing Marvel Snap](/articles/why-i-stopped-playing-marvel-snap.md) - Marvel Snap hooked me with three-minute matches. Then the meta treadmill and cube anxiety turned a snack game into homework. I never spent a cent.

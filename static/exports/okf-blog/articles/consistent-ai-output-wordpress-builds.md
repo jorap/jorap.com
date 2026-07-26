@@ -4,7 +4,7 @@ title: Consistent AI Output for WordPress Builds
 description: "Month one with AI on WordPress builds I was thrilled. Month three I got consistent output - helpers, reference examples, and a short rules doc."
 resource: "https://www.jorap.com/blog/consistent-ai-output-wordpress-builds/"
 tags: ["WordPress", "Developer Life", "AI Coding", "Cursor", "Workflow", "PHP", "Theme Development", "Documentation", "Prompt Engineering"]
-timestamp: "2026-05-30T05:00:00Z"
+generated: { by: process:export-okf-blog-bundle, at: 2026-05-30T05:00:00Z }
 ---
 > **TL;DR**: Most of what you build repeats the same patterns. Have AI build the reusable code for that 80% - helpers, templates, scaffolding - so the next forty features look the same. Stop asking for one feature at a time. Ask for the system that makes every feature match.
 
@@ -65,13 +65,15 @@ This is what I do on WordPress builds - and any project where AI does a lot of t
 
 ### Step 1 - Name what repeats
 
-Look at recent projects. What do you build again and again? For me, it's content blocks - pages are mostly blocks stacked together.
+Look at recent projects. What do you build again and again? For me, it's content blocks - pages are mostly blocks stacked together. Tuesday I asked for a testimonial card. Thursday I got a team grid with different file names and a different ACF field pattern. Same job, two shapes.
 
 Name each repeating shape. One line each. That's what AI will build reusable code for. Skip this and nothing else clicks.
 
 ### Step 2 - One helper for the boring opening
 
 Every shape starts with the same few lines of setup. On WordPress builds that's usually registering the block, enqueuing assets, and pulling ACF fields - the opening of every `block.php` looks identical before the markup diverges.
+
+First helper I tried was named `block_setup()`. Next chat invented `init_block()`. Same file, three names, zero consistency until I locked one function in `inc/blocks/helpers.php`.
 
 Ask AI for **one helper** - something like `jorap_block_open( $block_name )` in `inc/blocks/helpers.php` - that wraps that boilerplate and exposes a single function call.
 
@@ -83,15 +85,19 @@ You're not saving keystrokes. **The first ~25 lines of every file match**, so th
 
 With the helper in place, ask AI for one polished example per shape - one card block, one banner, one list. You don't ship these as features. They're **references** in something like `inc/blocks/examples/card.php` - the recipe book.
 
+I skipped this once and asked for "a testimonial card like the other cards." AI invented a fourth card style because it had nothing to point at.
+
 "Build me a testimonial card" becomes "build me a card like `examples/card.php`." AI copies well when you point at a file. It invents poorly when you don't.
 
 ### Step 4 - Rules plus a standing instruction
 
 Write down rules that aren't taste - they're safety. Mine look like:
 
-- Always escape user input
-- Always use the project's exact labels (typos break translations)
-- Always bump a timestamp when a config file changes (or sync breaks quietly)
+- Escape user input on every field you render
+- Match the project's exact labels (typos break translations)
+- Bump a timestamp when a config file changes (or sync breaks quietly)
+
+A client name field rendered unescaped once - fine in staging, ugly in production. That's when "escape everything" went into the rules doc instead of my head.
 
 Ask AI to put five to ten rules in one plain-English doc in the project.
 

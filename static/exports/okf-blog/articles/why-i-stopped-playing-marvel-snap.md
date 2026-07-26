@@ -4,7 +4,7 @@ title: Why I Stopped Playing Marvel Snap
 description: Marvel Snap hooked me with three-minute matches. Then the meta treadmill and cube anxiety turned a snack game into homework. I never spent a cent.
 resource: "https://www.jorap.com/blog/why-i-stopped-playing-marvel-snap/"
 tags: ["Marvel Snap", "Card Games", "Gaming", "Mobile Games", "Digital Collectibles", "FOMO", "Game Design", "Marvel", "Free to Play", "Quit Gaming"]
-timestamp: "2026-07-05T06:11:00Z"
+generated: { by: process:export-okf-blog-bundle, at: 2026-07-05T06:11:00Z }
 ---
 I still get the itch sometimes. Three locations, six turns, snap on turn four - my brain knows the rhythm even months after I stopped opening the app.
 

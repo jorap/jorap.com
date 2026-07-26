@@ -62,7 +62,7 @@ Each row maps to a site button plus a ChatGPT ask.
 ## Browse the bundle
 
 - [Open Knowledge Format (OKF) graph](/exports/okf/viz.html) - Cytoscape force layout, search, backlinks
-- [Bundle index](/exports/okf/index.md) - all concepts and hubs (`okf_version: "0.1"`)
+- [Bundle index](/exports/okf/index.md) - all concepts and hubs (`okf_version: "0.2"`)
 - [Update log](/exports/okf/log.md) - recent garden changes from git
 - [Example concept: Personal Knowledge Management (PKM)](/exports/okf/concepts/pkm.md)
 - [Example hub: Maps of Content](/exports/okf/hubs/maps-of-content/index.md)
@@ -79,4 +79,4 @@ Each row maps to a site button plus a ChatGPT ask.
 
 Regenerate bundle + graph: `npm run export:okf` (runs automatically on `pnpm build`).
 
-Spec: [Open Knowledge Format v0.1](https://github.com/GoogleCloudPlatform/knowledge-catalog/blob/main/okf/SPEC.md). Graph viewer adapted from [Google's OKF reference visualizer](https://github.com/GoogleCloudPlatform/knowledge-catalog/tree/main/okf#visualize). Pairs with [[Create Note]], [[Random Duo]], and [[Getting Started]].
+Spec: [Open Knowledge Format v0.2](https://github.com/GoogleCloudPlatform/knowledge-catalog/blob/main/okf/SPEC.md). Graph viewer adapted from [Google's OKF reference visualizer](https://github.com/GoogleCloudPlatform/knowledge-catalog/tree/main/okf#visualize). Pairs with [[Create Note]], [[Random Duo]], and [[Getting Started]].

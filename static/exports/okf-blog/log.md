@@ -1,7 +1,19 @@
 # Directory Update Log
 
-## 2026-07-17
-* **Export**: Generated OKF v0.1 blog bundle from Hugo blog posts.
+## 2026-07-26
+* **Export**: Generated OKF v0.2 blog bundle from Hugo blog posts.
+* **Update**: Update
+* **Update**: Update
+* **Update**: Update
+
+## 2026-07-20
+* **Update**: Update
+* **Update**: Update
+* **Update**: Update
+
+## 2026-07-19
+* **Update**: Update
+* **Update**: Update
 
 ## 2026-07-16
 * **Update**: Update

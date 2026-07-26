@@ -4,7 +4,7 @@ title: "HugoPlate: The Theme Quietly Powering This Site"
 description: "After losing half a Saturday to theme-shopping, I picked HugoPlate - a year later I'm still on it. What I changed and where it still bites."
 resource: "https://www.jorap.com/blog/hugoplate-theme-review/"
 tags: ["Hugoplate", "Hugo", "Tailwind CSS", "Themes", "Static Sites", "Open Source", "Website Building", "Digital Garden"]
-timestamp: "2026-05-29T05:00:00Z"
+generated: { by: process:export-okf-blog-bundle, at: 2026-05-29T05:00:00Z }
 ---
 If you've ever spent a Saturday "just browsing" Hugo themes, you already know the trap. Every one of them looks gorgeous on a landing page. Half of them haven't been touched in two years. The other half are tied to a styling system you'll spend a month fighting before you can change a button color.
 
@@ -33,6 +33,8 @@ I turned off or ignored half the demo templates - Pricing, FAQ pages I wasn't sh
 ## The Tailwind v4 piece
 
 The version of HugoPlate I'm on ships with **Tailwind CSS v4**. If you've only used v3, the headline change is that there's no more `tailwind.config.js` - configuration moved into your CSS with `@theme` blocks.
+
+First time I edited the `@theme` block I broke dark mode for an afternoon - one wrong token and the whole site went light-only until I diffed the CSS. Worth the fifteen-minute rebrand once you know where the knobs live.
 
 In practice that means your colors, fonts, and spacing tokens live in plain CSS:
 
@@ -66,7 +68,9 @@ The thing I appreciate is that HugoPlate respects Hugo's conventions. Nothing's 
 
 ## Shortcodes worth knowing
 
-This is where HugoPlate quietly punches above its weight. Most themes give you `youtube` and call it a day. HugoPlate (via [`gethugothemes/hugo-modules`](https://github.com/gethugothemes/hugo-modules)) hands you a small content design system: callouts, buttons, tabs, accordions, image galleries, video, diagrams, and more - all loaded as Hugo Modules so they live outside your theme folder and stay easy to update. I've added a few of my own (`spotify`, `youtube_time`) on top of that.
+This is where HugoPlate quietly punches above its weight. I broke a `notice` shortcode once by nesting bold inside it - the build passed, the page rendered garbage. Now I keep `blog-template.md` open whenever I'm composing.
+
+Most themes give you `youtube` and call it a day. HugoPlate (via [`gethugothemes/hugo-modules`](https://github.com/gethugothemes/hugo-modules)) hands you a small content design system: callouts, buttons, tabs, accordions, image galleries, video, diagrams, and more - all loaded as Hugo Modules so they live outside your theme folder and stay easy to update. I've added a few of my own (`spotify`, `youtube_time`) on top of that.
 
 Here's the full set this site renders, with live output for each so you can see exactly what they do.
 

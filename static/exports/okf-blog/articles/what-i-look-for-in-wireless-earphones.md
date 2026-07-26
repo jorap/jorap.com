@@ -4,7 +4,7 @@ title: What I Look For in Wireless Earphones
 description: "After years of cycling through earbuds, neckbands, and over-ears, here's what I care about in wireless earphones - and the pair I keep reaching for."
 resource: "https://www.jorap.com/blog/what-i-look-for-in-wireless-earphones/"
 tags: ["Wireless Earphones", "Open-Ear Earphones", "Bluetooth", "Soundpeats RunFree", "Earbuds", "Buying Guide", "Running Gear", "Everyday Carry"]
-timestamp: "2026-05-27T05:00:00Z"
+generated: { by: process:export-okf-blog-bundle, at: 2026-05-27T05:00:00Z }
 ---
 I've been through a lot of wireless earphones. True wireless buds, neckbands, sport clips, over-ears, the cheap ones from the checkout aisle, the not-so-cheap ones I felt guilty about. Most of them ended up in a drawer within a month.
 
