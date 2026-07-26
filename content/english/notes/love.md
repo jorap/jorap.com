@@ -3,9 +3,9 @@ title: "Love"
 meta_title: "Love - Fruit the Spirit Grows"
 description: "Love is Spirit-grown care for God and neighbor - not performance affection that collapses when nobody is watching."
 key_concept: |
-  {{< bible ref="Galatians 5:22-23" emphasize="22" >}}
+  {{< bible ref="Romans 5:5" emphasize="5" >}}
 
-  - [[Fruits of the Spirit]] names love first in the cluster - before joy, peace, and the rest.
+  - Love of God poured through the Holy Spirit - not performance affection I manufacture for an audience.
   - Level 1: Real love grows when you stay close to God - not fake niceness you perform for the room.
   - Level 2: Love fruit sits beside [[Joy]] and [[Peace]] in one Spirit-grown cluster - deeper than manners on display.
   - Level 3: Manufactured affection for church credit is not Spirit fruit - love outlasts the audience.

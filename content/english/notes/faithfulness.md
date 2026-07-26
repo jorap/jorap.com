@@ -3,9 +3,9 @@ title: "Faithfulness"
 meta_title: "Faithfulness - Steady Use the Spirit Grows"
 description: "The Spirit grows steady follow-through with what God entrusted, not one heroic sprint mistaken for earned salvation."
 key_concept: |
-  {{< bible ref="Galatians 5:22-23" emphasize="22" >}}
+  {{< bible ref="Matthew 25:21" emphasize="21" >}}
   
-  - [[Fruits of the Spirit]] names faithfulness beside gentleness - steady use of what God entrusted, not one heroic week mistaken for earned salvation.
+  - Well done for faithful use of what He entrusted - steady follow-through, not one heroic sprint mistaken for earned salvation.
   - Level 1: Use what God gave you in small steady ways - not one big week to earn heaven, like watering daily.
   - Level 2: Faithfulness is like showing up to the same shift on time - steady use over months, not one heroic week that tries to buy a seat already gifted.
   - Level 3: Because grace already saved, steady obedience responds to a gift - it does not purchase heaven or replace performance with the entry fee.

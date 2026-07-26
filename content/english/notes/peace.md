@@ -3,9 +3,9 @@ title: "Peace"
 meta_title: "Peace - Calm the Spirit Grows"
 description: "Peace is Spirit-grown calm in believers who trust the Father - not silence at any price."
 key_concept: |
-  {{< bible ref="Galatians 5:22-23" emphasize="22" >}}
+  {{< bible ref="John 14:27" emphasize="27" >}}
 
-  - [[Fruits of the Spirit]] lists peace beside love and joy - inner calm from God's reign, not denial.
+  - Christ's peace - inner calm from God's reign, not denial at any price when trouble arrives.
   - Level 1: Peace is calm inside because God is in charge - like sleeping through a storm because someone you trust is steering the boat, not pretending the wind stopped.
   - Level 2: Peace fruit is inner calm from God's reign - not denial when circumstances are hard.
   - Level 3: Galatians lists peace beside love and joy - shalom from trusting God's rule, not stuffing emotion.

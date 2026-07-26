@@ -1560,7 +1560,6 @@ _**Agent (auto-low)**_
 
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
 <summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/fruits-of-the-spirit.md</summary>
-Status: **loading**
 
 </details></tool-use>
 
@@ -1568,6 +1567,467 @@ _**Agent (auto-low)**_
 
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
 <summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/ep-verse-explanations.yaml</summary>
-Status: **loading**
 
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Verifying all nine items have proper Bible blocks and running lint.
+
+Grepping hub connected notes for chapter-only references in the fruit cluster. Verifying the self-control key concept has no duplicate "You choose" text. Running voice lint on edited files.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "content/english/notes/{love,joy,peace,patience,kindness,goodness,faithfulness,gentleness,self-control}.md",
+  "pattern": "\\{\\{\u003c bible"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "\\{\\{\u003c bible",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/self-control.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "./content/english/notes/gentleness.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/faithfulness.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/goodness.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/kindness.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/patience.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/peace.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/love.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/joy.md"
+    }
+  ],
+  "totalFiles": 9,
+  "totalMatches": 10
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm lint:voice -- content/english/notes/self-control.md content/english/notes/gentleness.md content/english/notes/fruits-of-the-spirit.md 2&gt;&amp;1</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:voice -- content/english/notes/self-control.md content/english/notes/gentleness.md content/english/notes/fruits-of-the-spirit.md 2>&1
+```
+
+```
+$ python3 scripts/voice-lint.py dashes --check && python3 scripts/voice-lint.py site --check -- content/english/notes/self-control.md content/english/notes/gentleness.md content/english/notes/fruits-of-the-spirit.md
+Voice dash lint OK
+Voice lint OK
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+All nine fruits now have Bible shortcodes.
+
+Gentleness now uses both Matthew 5:5 and Galatians 5:22-23. Self-control was added. Chapter-only fixes in the hub include John 15 to John 15:5 and Matthew 7 to Matthew 7:20.
+
+No chapter-only references remain in the fruit notes or hub body.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Audit complete. All nine fruit notes now have scripture blocks with specific verses.
+
+| Fruit | Scripture |
+|-------|-----------|
+| Love, Joy, Peace, Patience, Kindness, Goodness, Faithfulness | `Galatians 5:22-23` |
+| Gentleness | `Matthew 5:5` + `Galatians 5:22-23` |
+| Self-Control | `Galatians 5:22-23` (was missing — added) |
+
+**Fixes made:**
+- **Self-Control** — added `{{< bible ref="Galatians 5:22-23" >}}` with a gloss; kept the PKM/faith split
+- **Gentleness** — fixed legacy shortcode format (`{{< bible "Matthew 5:5" >}}` → `ref=` + `emphasize=`) and added a gloss after the Matthew block
+- **Fruits of the Spirit hub body** — `John 15` → `John 15:5`, `Matthew 7` → `Matthew 7:20`
+- **ep-verse-explanations.yaml** — removed stale `John 15:8` entry from the hub slug (hub now anchors on Galatians)
+
+No chapter-only refs remain in the nine fruit notes or the hub body. All citations name specific verses.
+
+## Session close
+- Fixed: All nine fruit notes have verse-specific scripture; hub chapter refs tightened
+- Encode: none
+- Open: clean
+
+---
+
+_**User**_
+
+all items need bible verses:
+
+Love - first in the cluster; every other fruit flows from it
+Joy - gladness rooted in Christ's promise, not a good-week performance
+Peace - inner calm from God's reign, not denial at any price
+Patience - slow fuse under delay; the Spirit changes what waiting does to you
+Kindness - tender regard for the person in front, not performance niceness
+Goodness - upright deeds that point to God, not a personal brand
+Faithfulness - steady use of what God entrusted, not one heroic sprint
+Gentleness - strength under control, not loud correction without love
+Self-Control - PKM restraint skill; Galatians names Spirit-grown control in the same cluster - same word, different job (see note)
+
+---
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Every item in the fruits-of-the-spirit.md hub needs inline Bible verse references, not just gloss text.
+
+Galatians 5:22-23 provides the base verses for all nine fruits. Individual notes may add extra references. The formatting should mirror the eternal-principles pattern, with each line containing its own inline citation.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Adding verse references to each fruit line in the hub body, matching the Eternal Principles index pattern.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/fruits-of-the-spirit.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-principles.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+I need to add Bible verses to each of the nine fruit lines.
+
+All nine fruits are listed in Galatians 5:22. I'll use that verse for each entry, following the same citation pattern as the other principles.
+
+Galatians 5:22 contains the full list of nine fruits, while verse 23 provides the "against such things there is no law" contrast. Self-Control may need a brief note distinguishing the PKM skill from the Spirit-grown control. Matthew 5:5 offers a relevant verse for Gentleness.
+
+Drafting the first five entries now. Each line pairs the fruit name with Galatians 5:22 and the descriptive gloss.
+
+The remaining four entries are drafted. Goodness, faithfulness, and self-control each cite Galatians 5:22. Gentleness pairs that verse with Matthew 5:5. Self-control notes the PKM skill versus Spirit-grown control. The two-verse format for gentleness follows the eternal-principles pattern.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/fruits-of-the-spirit.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+All requested Bible verse assignments are now complete. The repository files were updated accordingly.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Each of the nine fruit lines in the hub now follows the Eternal Principles pattern: NASB snippet, verse ref in parens, then the gloss.
+
+All eight cluster fruits anchor on **Galatians 5:22**. **Gentleness** also gets **Matthew 5:5** (from its spine note). **Self-Control** keeps the PKM vs Spirit split with **Galatians 5:22** for the faith lane.
+
+## Session close
+- Fixed: Nine fruit hub lines now each cite specific Bible verses
+- Encode: none
+- Open: clean
+
+---
+
+_**User**_
+
+can they have unique verses not gal 5:22
+
+---
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Each of the nine fruits should have its own unique Bible verse rather than all referencing Galatians 5:22.
+
+I am reviewing each fruit note to find unique verses aligned with free grace theology and the NASB 1995 Garden Voice. Existing spine notes and overlapping eternal principles will guide the selection.
+
+Drafting unique verse options for the first four fruits. Love may use Matthew 22:37 or John 13:34. Joy may use John 15:11 or Philippians 4:4. Peace may use John 14:27 or Philippians 4:7. Patience may use James 5:7 or 2 Peter 3:9.
+
+Drafted unique verse options for the remaining five fruits. Kindness may use Ephesians 4:32 or Luke 6:35. Goodness may use Romans 15:14 or Matthew 5:16. Faithfulness may use Matthew 25:21 or 1 Corinthians 4:2. Gentleness may use 2 Timothy 2:24 or Philippians 4:5. Self-Control may use 2 Peter 1:6 or Titus 2:11-12.
+
+The garden prefers Jesus' words for Eternal Principles. The Fruit of the Spirit cluster remains anchored in Paul's Galatians teaching.
+
+The request targets the hub body list items, not the individual spine notes. Each of the nine hub entries currently cites Galatians 5:22. The individual fruit notes still use Galatians 5:22-23 in their key concepts.
+
+Spine notes may also receive unique verses for consistency. The selection criteria favor specific passages over whole chapters, match each note's teaching, and prefer Jesus' words for kingdom echoes while keeping Paul's Spirit details. For Love, Matthew 22:37-39 is chosen because it aligns with the note's focus on loving God and neighbor.
+
+Finalized the unique verse choices for the first four hub entries. Joy will use John 15:11, Peace will use John 14:27, Patience will use James 5:7, and Kindness will use Ephesians 4:32. These selections align directly with each note's teaching on abiding, peacemaking, slow fuse, and tender regard.
+
+Goodness will use Matthew 5:16, Faithfulness will use Matthew 25:21, and Self-Control will use 2 Peter 1:6 or 1 Corinthians 9:25. The Gentleness verse is already set to Matthew 5:5. I will now verify these verses in the scripture data and review the individual fruit notes to confirm the best fit.
+
+The hub list item format will change from Galatians 5:22 to a unique verse. The first entry will read: "You shall love the Lord your God (Matthew 22:37); first in the cluster, every other fruit flows from it."
+
+The individual fruit notes will also receive matching unique verses in their `{{< bible >}}` shortcodes. This ensures consistency between the hub and the spine notes.
+
+Reconsidering the Love verse. Matthew 22:37 is the greatest commandment rather than a direct fruit definition. 1 Corinthians 13:4, John 15:12, and Romans 5:5 are being weighed as more fitting Spirit-related anchors.
+
+Romans 5:5 is now the favored Love verse because it explicitly links God’s love to the Holy Spirit. Joy may use Romans 14:17, which frames the kingdom of God as righteousness, peace, and joy in the Spirit. Patience may use Romans 12:12, and Kindness may use Colossians 3:12. Goodness may use Galatians 6:10, “do good to all people.”
+
+Faithfulness may use Luke 16:10, “faithful in little.” Self-Control may use 1 Corinthians 9:27. I will grep the garden notes to avoid duplicate verses.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Picking a distinct scripture anchor for each fruit and aligning the hub lines with the spine notes.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "content/english/notes/**",
+  "pattern": "ref=\"(Matthew 22:37|John 15:11|John 14:27|James 5:7|Ephesians 4:32|Matthew 5:16|Matthew 25:21|2 Peter 1:6|Romans 5:5|Philippians 4:7)\""
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "ref=\"(Matthew 22:37|John 15:11|John 14:27|James 5:7|Ephesians 4:32|Matthew 5:16|Matthew 25:21|2 Peter 1:6|Romans 5:5|Philippians 4:7)\"",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/love.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/joy.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/peace.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/patience.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/kindness.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/goodness.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/faithfulness.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/gentleness.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/self-control.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/fruits-of-the-spirit.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Each fruit will be paired with a unique verse rather than Galatians 5:22.
+
+The verse selection criteria include NASB availability, alignment with linked notes, and preference for Jesus where possible. For Love, options include Romans 5:5, 1 Corinthians 13:4, or Matthew 22:37. Patience is excluded because it is already assigned to another fruit.
+
+Romans 5:5 was selected for Love. Joy will use John 15:11. Peace will use John 14:27. Patience will use James 5:7. Kindness will use Ephesians 4:32.
+
+Goodness will use Matthew 5:16. Faithfulness will use Matthew 25:21. Gentleness will use Matthew 5:5. Self-Control will use 2 Peter 1:6.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/data/scripture-nasb1995.json",
+  "pattern": "\"Romans 5:5\"|\"John 15:11\"|\"John 14:27\"|\"James 5:7\"|\"Ephesians 4:32\"|\"Matthew 5:16\"|\"Matthew 25:21\"|\"2 Peter 1:6\""
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/data/scripture-nasb1995.json",
+  "pattern": "\"Romans 5:5\"|\"John 15:11\"|\"John 14:27\"|\"James 5:7\"|\"Ephesians 4:32\"|\"Matthew 5:16\"|\"Matthew 25:21\"|\"2 Peter 1:6\"",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "data/scripture-nasb1995.json"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/love-god.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/faithful-steward.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/let-your-light-shine.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Verifying specific verse text by searching the scripture file.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 -c &#34;
+import json
+d=json.load(open(&#39;/home/jorap/Documents/GitHub/jorap.com/data/scripture-nasb1995.json&#39;))[&#39;verses&#39;]
+refs=[&#39;Romans 5:5&#39;,&#39;John 15:11&#39;,&#39;John 14:27&#39;,&#39;James 5:7&#39;,&#39;Ephesians 4:32&#39;,&#39;Matthew 5:16&#39;,&#39;Matthew 25:21&#39;,&#39;Matthew 5:5&#39;,&#39;2 Peter 1:6&#39;,&#39;1 Corinthians 13:4&#39;,&#39;Luke 16:10&#39;]
+for r in refs:
+    v=d.get(r,{}).get(&#39;nasb1995&#39;,&#39;MISSING&#39;)
+    print(f&#39;{r}: {v[:100]}...&#39; if len(v)&gt;100 else f&#39;{r}: {v}&#39;)
+&#34;</summary>
+```bash
+python3 -c "
+import json
+d=json.load(open('/home/jorap/Documents/GitHub/jorap.com/data/scripture-nasb1995.json'))['verses']
+refs=['Romans 5:5','John 15:11','John 14:27','James 5:7','Ephesians 4:32','Matthew 5:16','Matthew 25:21','Matthew 5:5','2 Peter 1:6','1 Corinthians 13:4','Luke 16:10']
+for r in refs:
+    v=d.get(r,{}).get('nasb1995','MISSING')
+    print(f'{r}: {v[:100]}...' if len(v)>100 else f'{r}: {v}')
+"
+```
+
+```
+Romans 5:5: {'verse': 'and hope does not disappoint, because the love of God has been poured out within our hearts through the Holy Spirit who was given to us.', 'words': '', 'full': False}
+John 15:11: {'verse': 'These things I have spoken to you so that My joy may be in you, and that your joy may be made full.', 'words': 'These things I have spoken to you so that My joy may be in you, and that your joy may be made full.', 'full': True}
+John 14:27: {'verse': 'Peace I leave with you; My peace I give to you; not as the world gives do I give to you. Do not let your heart be troubled, nor let it be fearful.', 'words': 'Peace I leave with you; My peace I give to you; not as the world gives do I give to you. Do not let your heart be troubled, nor let it be fearful.', 'full': True}
+James 5:7: {'verse': 'Therefore be patient, brethren, until the coming of the Lord. The farmer waits for the precious produce of the soil, being patient about it, until it gets the early and late rains.', 'words': '', 'full': False}
+Ephesians 4:32: {'verse': 'Be kind to one another, tender-hearted, forgiving each other, just as God in Christ also has forgiven you.', 'words': '', 'full': False}
+Matthew 5:16: {'verse': 'Let your light shine before men in such a way that they may see your good works, and glorify your Father who is in heaven.', 'words': 'Let your light shine before men in such a way that they may see your good works, and glorify your Father who is in heaven.', 'full': True}
+Matthew 25:21: {'verse': 'His master said to him, ‘Well done, good and faithful slave. You were faithful with a few things, I will put you in charge of many things; enter into the joy of your master.’', 'words': 'His master said to him, ‘Well done, good and faithful slave. You were faithful with a few things, I will put you in charge of many things; enter into the joy of your master.’', 'full': True}
+Matthew 5:5: {'verse': '“Blessed are the gentle, for they shall inherit the earth.', 'words': '“Blessed are the ge
+… (output truncated)
+```
 </details></tool-use>

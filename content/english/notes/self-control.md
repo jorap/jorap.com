@@ -3,9 +3,9 @@ title: "Self-Control"
 meta_title: "Self-Control - Choosing the Next Move on Purpose"
 description: "Self-control picks the next move on purpose - the urge does not get to drive."
 key_concept: |
-  {{< bible ref="Galatians 5:22-23" emphasize="22" >}}
+  {{< bible ref="1 Corinthians 9:25" emphasize="25" >}}
 
-  - Galatians lists self-control last in the cluster - Spirit-grown restraint, not a merit streak.
+  - The athlete exercises self-control in all things - Spirit-grown restraint in the [[Fruits of the Spirit]] cluster, not a merit streak.
   - You choose the next move instead of the urge choosing for you.
   - Level 1: You pick what you do next on purpose - the sudden want does not get to drive you.
   - Level 2: You pick what you do next on purpose - the sudden want does not get to drive.

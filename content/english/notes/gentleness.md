@@ -5,11 +5,7 @@ description: "Gentleness fruit is strength held back on purpose, not weakness or
 key_concept: |
   {{< bible ref="Matthew 5:5" emphasize="5" >}}
 
-  - Blessed are the meek - strength without grasping for status, kingdom greatness upside down.
-
-  {{< bible ref="Galatians 5:22-23" emphasize="22" >}}
-
-  - [[Fruits of the Spirit]] lists gentleness beside patience and self-control - power restrained, not power absent.
+  - Blessed are the gentle - strength under control, not loud correction without love.
   - Level 1: A big dog that walks calmly instead of jumping on people - strong power held back on purpose.
   - Level 2: Gentleness is like a hand on a hot pan with a mitt - power restrained on purpose, sitting beside patience and self-control in the Spirit cluster.
   - Level 3: Because unrestrained strength intimidates instead of serves, gentleness is strength under control, not weakness or absence of power.

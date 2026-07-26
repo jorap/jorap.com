@@ -3,9 +3,9 @@ title: "Joy"
 meta_title: "Joy - Gladness the Spirit Grows"
 description: "Joy is Spirit-grown gladness in believers who rest on Christ's promise - not a good-week performance."
 key_concept: |
-  {{< bible ref="Galatians 5:22-23" emphasize="22" >}}
+  {{< bible ref="John 15:11" emphasize="11" >}}
 
-  - [[Fruits of the Spirit]] names joy beside love and peace in one cluster.
+  - Christ's joy in me - gladness rooted in His promise, not a good-week performance I fake on command.
   - Level 1: Joy is deep gladness that grows when you walk with God - not fake happiness you perform for other people.
   - Level 2: Joy grows with love and peace as fruit of the Spirit - deeper than performing happiness for a crowd, like roots versus a painted smile.
   - Level 3: Joy rooted in God survives bad weeks; performed happiness collapses when the audience leaves - circumstance cannot kill what the Spirit grows.

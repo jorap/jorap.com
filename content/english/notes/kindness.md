@@ -3,9 +3,9 @@ title: "Kindness"
 meta_title: "Kindness - Tender Regard the Spirit Grows"
 description: "Tender regard the Spirit grows for the person in front of you - not polite distance or performance niceness."
 key_concept: |
-  {{< bible ref="Galatians 5:22-23" emphasize="22" >}}
+  {{< bible ref="Ephesians 4:32" emphasize="32" >}}
 
-  - [[Fruits of the Spirit]] names kindness beside goodness - soft strength toward actual people, not a generic nice-guy pose.
+  - Be kind and tender-hearted - soft strength toward the person in front, not performance niceness for an audience.
   - Level 1: Kindness is gentle care for the real person in front of you - not acting polite just to look good.
   - Level 2: Fruits of the Spirit names kindness beside goodness - soft strength toward actual people, like a hand on a shoulder, not a generic nice-guy pose.
   - Level 3: Generic niceness performs for observers; kindness meets the person in front of you with soft strength - audience applause is not the aim.

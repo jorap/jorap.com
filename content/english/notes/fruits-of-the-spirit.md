@@ -73,15 +73,15 @@ draft: false
 
 Paul names one cluster in Galatians 5:22-23. Each fruit has its own spine note with six review cards at [/notes/review/](/notes/review/) - filter **Discipleship** or **Eternal Principles**.
 
-- [[Love]] - first in the cluster; every other fruit flows from it
-- [[Joy]] - gladness rooted in Christ's promise, not a good-week performance
-- [[Peace]] - inner calm from God's reign, not denial at any price
-- [[Patience]] - slow fuse under delay; the Spirit changes what waiting does to you
-- [[Kindness]] - tender regard for the person in front, not performance niceness
-- [[Goodness]] - upright deeds that point to God, not a personal brand
-- [[Faithfulness]] - steady use of what God entrusted, not one heroic sprint
-- [[Gentleness]] - strength under control, not loud correction without love
-- [[Self-Control]] - PKM restraint skill; Galatians names Spirit-grown control in the same cluster - same word, different job (see note)
+- [[Love]] - love of God poured out through the Holy Spirit (Romans 5:5); first in the cluster, every other fruit flows from it
+- [[Joy]] - that My joy may be in you (John 15:11); gladness rooted in Christ's promise, not a good-week performance
+- [[Peace]] - Peace I leave with you (John 14:27); inner calm from God's reign, not denial at any price
+- [[Patience]] - be patient until the coming of the Lord (James 5:7); slow fuse under delay - the Spirit changes what waiting does to you
+- [[Kindness]] - be kind to one another, tender-hearted (Ephesians 4:32); tender regard for the person in front, not performance niceness
+- [[Goodness]] - let your light shine - good works glorify your Father (Matthew 5:16); upright deeds that point to God, not a personal brand
+- [[Faithfulness]] - well done, good and faithful slave (Matthew 25:21); steady use of what God entrusted, not one heroic sprint
+- [[Gentleness]] - blessed are the gentle (Matthew 5:5); strength under control, not loud correction without love
+- [[Self-Control]] - exercises self-control in all things (1 Corinthians 9:25); PKM restraint skill vs Spirit-grown control - same word, different job (see note)
 
 ## Kingdom echoes
 

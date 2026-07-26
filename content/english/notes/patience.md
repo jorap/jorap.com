@@ -3,9 +3,9 @@ title: "Patience"
 meta_title: "Patience - Slow Fuse the Spirit Grows"
 description: "Wait without turning brittle - the Spirit grows a slow fuse, not a countdown to snapping."
 key_concept: |
-  {{< bible ref="Galatians 5:22-23" emphasize="22" >}}
+  {{< bible ref="James 5:7" emphasize="7" >}}
 
-  - The Spirit does not shortcut the wait - it changes what waiting does to you, so the delay does not calcify into resentment.
+  - Be patient until the Lord comes - the Spirit changes what waiting does to you, not shortcuts the wait.
   - Level 1: The Spirit does not make waiting disappear - it keeps waiting from turning you bitter, like rain on a seed that takes weeks to sprout instead of rotting in the mud.
   - Level 2: Patience fruit means the Spirit changes what delay does to you - the wait stays, resentment does not calcify.
   - Level 3: Galatians lists patience beside gentleness and self-control - endurance under providence because you are connected to the vine, not performing virtue.
