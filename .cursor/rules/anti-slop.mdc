@@ -55,10 +55,15 @@ For notes: `pnpm lint:garden` (includes slop + garden-voice).
 
 ## Reference voice (blog)
 
+These define the voice - read them to calibrate, don't rewrite them in a site-wide voice pass.
+
 - `content/english/blog/what-i-look-for-in-wireless-earphones.md`
 - `content/english/blog/why-i-stopped-playing-marvel-snap.md`
 - `content/english/blog/mouse-wheel-click.md`
 - `content/english/blog/miracle-isaiah-david.md`
+- `content/english/blog/how-i-built-jorap-notes.md`
+
+Never rename H2s in `alex-eala-pro-career-tracker.md` - the `alex-eala-tracker-update` skill matches those headings by exact name.
 
 ## Reference voice (notes)
 
