@@ -1,7 +1,7 @@
 ---
 title: "Why I Prefer the Google Ecosystem Over Apple"
 meta_title: "Google vs Apple - Why I Stay on Google's Side"
-description: "I'm not anti-Apple. I just keep landing on Google because it fits how I work - Android phone, Brave for daily browsing, Chrome for client builds, Meet calls, Chromecast under the TV, and hardware I can swap without a sermon."
+description: "I'm not anti-Apple. I just keep landing on Google because it fits how I work - Android phone, Brave for daily browsing, Chrome for client builds, Meet calls, Chromecast under the TV, and hardware I can swap without any arguments."
 slug: "google-over-apple-ecosystem"
 date: "2026-07-26T02:51:00Z"
 image: "/images/google-vs-apple.jpg"
@@ -31,7 +31,7 @@ Gmail works in every browser. Google Meet runs on the phone I already have. Sign
 
 Apple can do cross-platform now - iCloud on Windows, FaceTime links, all of that. I still feel like a guest in someone else's house when I use Apple services off-Apple hardware. Google is built for that mix.
 
-Google is also the **more open side, relatively**. Not saintly open - it's still a big company with its own lock-in tricks. When the TV's built-in apps rotted, I plugged in a **Mi Box S** without asking anyone. When I wanted banking on a separate handset, I bought a cheap Android on Shopee and tucked it in my bag - no lecture about buying a second iPhone. Apple wants you on Apple hardware with Apple cables doing Apple things. Google's pitch is closer to "sign in here, use whatever screen you've got."
+Google is also the **more open side, relatively**. Not saintly open - it's still a big company with its own lock-in tricks. When the TV's built-in apps rotted, I plugged in a **Mi Box S** without asking anyone. When I wanted banking on a separate handset, I bought a cheap Android and tucked it in my bag. Apple wants you on Apple hardware with Apple cables doing Apple things. Google's pitch is closer to "sign in here, use whatever screen you've got."
 
 ---
 
@@ -97,7 +97,7 @@ Most clients I touch look like that - mixed gear, tight budgets, people in the P
 
 Apple can run a business too. I've seen shops where everyone got issued a Mac and it was fine. But **that's a budget line**, not just taste. Premium hardware for every seat, then dongles, monitor adapters, replacements after spills. Google lets you keep the Windows fleet or hand people a workable Android, then layer the same inbox and shared drive on top.
 
-Shared files are where it gets ugly. I've watched page copy live in personal Gmail, logos stuck in someone's iCloud, and Word docs with `_final_v3` in the filename floating between inboxes. A Google Doc with one link and comments is boring. Boring is what you want when three people need to sign off on the same homepage before launch.
+
 
 New hire? Create an account, share the Drive folders, add them to Meet. You don't need to procure a specific laptop before they can log in. **Google's stack is the practical default** for messy orgs. Apple shines when the whole company can afford to buy in together. Most shops I've touched can't, or won't.
 
@@ -106,6 +106,16 @@ New hire? Create an account, share the Drive folders, add them to Meet. You don'
 ## What I give up (on purpose)
 
 I'm not pretending Google is the privacy champion or that Android is immune to bloat. My phone still ships with apps I'd delete if the OS let me. Google still nudges me toward services I didn't ask for. Some Android skins are ugly in ways Apple would never ship.
+
+Apple's privacy story gets a lot of credit. Some of it is earned. A lot of it is oversold.
+
+Privacy from Apple is not the same as privacy. Most iCloud data isn't end-to-end encrypted by default. Apple can still see a lot. In China they hand iCloud operations to a local partner. "What happens on iPhone stays on iPhone" is marketing, not architecture.
+
+It's mostly privacy from other companies. App Tracking Transparency hurt ad networks more than it hurt Apple. Conveniently, it also kneecapped competitors who relied on tracking while Apple's own ad business grew. That's not fake privacy - but it's not purely altruistic either.
+
+Then there's the Google search deal. Apple takes billions to keep Google the default search engine in Safari. Hard to claim you're the privacy company while that's your browser's default.
+
+And it's relative, not absolute. "Better than Google's ad stack" is a low bar. My actual life runs through Gmail, Chrome, Meet, and Drive. Apple's device privacy is a smaller slice of the pie once your data already lives in Google's cloud.
 
 Apple wins on polish, resale value, and the calm feeling that things will just work if you stay inside the fence. If your whole family runs iMessage and FaceTime, switching to Android is social friction, not just a settings change. I won't pretend that's trivial.
 
