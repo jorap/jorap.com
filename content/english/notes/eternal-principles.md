@@ -61,79 +61,79 @@ Biography lane - what the Gospels show He did day to day. Hub: [[Jesus' Rhythms]
 - [[Renewed Mind]] - continue in My word; be transformed by renewing your mind (John 8:31-32; Romans 12:2)
 - [[Don't Copy the Pattern]] - not of the world; refuse culture's default script (John 15:19; Romans 12:2)
 - [[Discern His Will Daily]] - willing to do His will; test and approve what God wants (John 7:17; Romans 12:2)
-- [[Christlikeness]] - shaped to look and love more like Jesus; the aim sanctification moves toward
-- [[Faith and Works]] - faith alone saves; real faith shows up in obedience
-- [[Repent and Believe]] - kingdom at hand now; turn and trust, don't wait until you're "ready"
-- [[Childlike Faith]] - receive like a child; stop negotiating merit before you enter
-- [[Abide in Me]] - fruit from staying connected to Christ, not self-generated effort alone
+- [[Christlikeness]] - fully trained will be like the Teacher (Luke 6:40); the aim sanctification moves toward
+- [[Faith and Works]] - hear and do what Jesus said (Matthew 7:24); faith alone saves, real faith shows up in obedience
+- [[Repent and Believe]] - kingdom at hand, repent and believe (Mark 1:15); turn and trust, don't wait until you're "ready"
+- [[Childlike Faith]] - receive the kingdom like a child (Mark 10:15); stop negotiating merit before you enter
+- [[Abide in Me]] - apart from Me you can do nothing (John 15:5); fruit from staying connected, not self-generated effort alone
 
 ## Salvation and reward
 
-- [[Judgment Seat]] - believers evaluated for works; rewards repaid, not re-deciding eternal life
-- [[Loss of Reward]] - saved through fire with loss vs never saved; worthless works burn (wood, hay, stubble)
-- [[Standing vs Fellowship]] - standing settled at faith; fellowship restored by confession
-- [[Assurance]] - rest on Christ's promise, not this week's report card
-- [[Grateful Obedience]] - obey because grace already saved, not to buy the ticket
-- [[Faithful Steward]] - faithfulness with what God entrusted; well done at review
-- [[Success is Stewardship]] - success is borrowed accountability, not permanent ownership
+- [[Judgment Seat]] - repaid at the resurrection according to works (Matthew 16:27); rewards repaid, not re-deciding eternal life
+- [[Loss of Reward]] - saved through fire with loss (1 Corinthians 3:15); worthless works burn - wood, hay, stubble
+- [[Standing vs Fellowship]] - eternal life I give them (John 10:28); standing settled at faith, fellowship restored by confession
+- [[Assurance]] - the one who comes to Me I will never cast out (John 6:37); rest on Christ's promise, not this week's report card
+- [[Grateful Obedience]] - if you love Me, keep My commandments (John 14:15); obey because grace already saved, not to buy the ticket
+- [[Faithful Steward]] - well done, good and faithful servant (Matthew 25:23); faithfulness with what God entrusted
+- [[Success is Stewardship]] - well done, good and faithful servant (Matthew 25:23); borrowed accountability, not permanent ownership
 
 ## The two great commandments
 
-- [[Love God]] - first commandment; heart, soul, mind, strength - whole-person devotion
-- [[Love Your Neighbor]] - second command; hangs on the first, not a separate ladder
+- [[Love God]] - love the Lord your God (Matthew 22:37); heart, soul, mind, strength - whole-person devotion
+- [[Love Your Neighbor]] - love your neighbor as yourself (Matthew 22:39); hangs on the first, not a separate ladder
 
 ## How to treat others
 
-- [[The Golden Rule]] - treat others the way you want to be treated
-- [[Love Your Enemies]] - pray for persecutors; love beyond your own tribe
-- [[Forgiveness]] - release the debt; forgive as you've been forgiven under grace
-- [[Reconciliation Before Worship]] - settle with your brother before the altar
-- [[Peacemakers]] - those who actively pursue peace inherit blessing
-- [[Turn the Other Cheek]] - refuse the cycle of retaliation; stop investing anger
-- [[Let Your Yes Be Yes]] - plain speech; one claim, no oath-padding
-- [[Judge Not]] - no hypocritical condemnation; remove your plank first
-- [[By Their Fruits]] - discern teachers by outcome, not hype or credentials
-- [[Heart Righteousness]] - inner motive counts, not only outward acts
-- [[Words That Build Up]] - edifying speech gives grace to hearers, not debris
+- [[The Golden Rule]] - treat others as you want to be treated (Matthew 7:12); active care, not just avoiding harm
+- [[Love Your Enemies]] - love your enemies, pray for persecutors (Matthew 5:44); love beyond your own tribe
+- [[Forgiveness]] - forgive so your Father may forgive you (Matthew 6:15); release the debt under grace
+- [[Reconciliation Before Worship]] - first be reconciled to your brother (Matthew 5:24); settle before the altar
+- [[Peacemakers]] - blessed are the peacemakers (Matthew 5:9); those who actively pursue peace inherit blessing
+- [[Turn the Other Cheek]] - turn the other cheek (Matthew 5:39); refuse retaliation, stop investing anger
+- [[Let Your Yes Be Yes]] - let your yes be yes (Matthew 5:37); plain speech, one claim, no oath-padding
+- [[Judge Not]] - remove the log from your eye first (Matthew 7:5); no hypocritical condemnation
+- [[By Their Fruits]] - by their fruits you will know them (Matthew 7:20); discern teachers by outcome, not hype
+- [[Heart Righteousness]] - lust in the heart is adultery (Matthew 5:28); inner motive counts, not only outward acts
+- [[Words That Build Up]] - only speech that edifies (Ephesians 4:29); grace to hearers, not debris
 
 ## Heart and priorities
 
 Hub: [[Prayer Jesus Taught]] - maps Jesus' prayer teaching across the Gospels (Lord's Prayer, secret devotion, persistence, asking in His name).
 
-- [[Ask Seek Knock]] - keep asking, seeking, knocking on rhythm
-- [[Secret Devotion]] - prayer and giving without performing for an audience
-- [[Seek the Kingdom First]] - God's reign gets first place in the week
-- [[God Centered Design]] - build life and work for God's glory first, not applause or ego
-- [[Don't Worry]] - trust provision; one Master, not many anxieties fighting for attention
-- [[Treasure in Heaven]] - store what lasts, not what rusts or rots on earth
-- [[Eternal Rewards]] - the Father repays faithful obedience after salvation; not how eternal life is received
-- [[The Beatitudes]] - kingdom character in nine blessings; who inherits what
-- [[Trust God for Today]] - daily bread for today; Father holds tomorrow
-- [[Come to Me Weary]] - Jesus invites the overloaded to rest and a fitting yoke
-- [[Guard Your Heart]] - filter intake before worship and anger downstream
+- [[Ask Seek Knock]] - ask, seek, knock (Matthew 7:7); keep asking on rhythm
+- [[Secret Devotion]] - pray to your Father in secret (Matthew 6:6); prayer and giving without performing for an audience
+- [[Seek the Kingdom First]] - seek first His kingdom (Matthew 6:33); God's reign gets first place in the week
+- [[God Centered Design]] - let your light shine before men (Matthew 5:16); build life and work for God's glory first
+- [[Don't Worry]] - do not worry about your life (Matthew 6:25); one Master, not many anxieties fighting for attention
+- [[Treasure in Heaven]] - store treasure in heaven (Matthew 6:21); not what rusts or rots on earth
+- [[Eternal Rewards]] - your Father who sees in secret will reward you (Matthew 6:4); Father repays faithful obedience after salvation
+- [[The Beatitudes]] - blessed are the poor in spirit (Matthew 5:3-12); kingdom character in nine blessings
+- [[Trust God for Today]] - give us this day our daily bread (Matthew 6:11); Father holds tomorrow
+- [[Come to Me Weary]] - come to Me, all who are weary (Matthew 11:28); rest and a fitting yoke
+- [[Guard Your Heart]] - guard your heart above all (Proverbs 4:23); filter intake before worship and anger downstream
 
 ## Character and witness
 
-- [[Fruits of the Spirit]] - love through self-control; character the Spirit grows when I [[Walk by the Spirit]]
-- [[Discipleship]] - following Jesus after faith; learn, obey, pass it on - not salvation's price tag
-- [[Discipleship vs Leadership]] - two seats: follow Christ upward; own direction and care outward
-- [[Humility and Service]] - serve the team; wash feet, don't grasp status
-- [[Let Your Light Shine]] - visible good works so others see and glorify God, not you
-- [[Take Up Your Cross]] - daily self-denial; follow behind, not a one-time hero sprint
-- [[The Wise Builder]] - hear Jesus and do; sand collapses when the storm hits
-- [[The Narrow Way]] - few find it; costly discipleship, not the broad comfortable path
-- [[Walk by the Spirit]] - daily Spirit dependence over willpower sprints
-- [[Count the Cost]] - honest estimate before the public yes
+- [[Fruits of the Spirit]] - bear much fruit, abide in Me (John 15:5); love through self-control when I [[Walk by the Spirit]]
+- [[Discipleship]] - deny yourself, take up your cross (Luke 9:23); following Jesus after faith - not salvation's price tag
+- [[Discipleship vs Leadership]] - the Son of Man came to serve (Matthew 20:28); follow Christ upward, own direction outward
+- [[Humility and Service]] - ransom for many by serving (Mark 10:45); wash feet, don't grasp status
+- [[Let Your Light Shine]] - let your light shine before men (Matthew 5:16); visible good works glorify God, not you
+- [[Take Up Your Cross]] - deny yourself daily (Luke 9:23); follow behind, not a one-time hero sprint
+- [[The Wise Builder]] - built his house on the rock (Matthew 7:24); sand collapses when the storm hits
+- [[The Narrow Way]] - narrow gate, few find it (Matthew 7:14); costly discipleship, not the broad path
+- [[Walk by the Spirit]] - walk by the Spirit (Galatians 5:16); daily Spirit dependence over willpower sprints
+- [[Count the Cost]] - estimate before you build the tower (Luke 14:28); honest estimate before the public yes
 
 ## Church and world
 
-- [[Many Parts One Body]] - one Christ, many gifts; no solo-body fantasy
-- [[Bear Each Other's Burdens]] - hands on the load, not sidewalk commentary
-- [[Iron Sharpens Iron]] - growth through honest friction with friends who love you
-- [[Confess to One Another]] - hidden failure rots; spoken failure finds prayer
-- [[Christianity and Politics]] - dual allegiance without idolatry; civic duty, neighbor-love, Christ supreme
-- [[Render Unto Caesar]] - sort civic duty from ultimate allegiance; dual obligations clarified
-- [[Great Commission]] - make disciples; truth shared, not hoarded in the garden
+- [[Many Parts One Body]] - one body in Christ (1 Corinthians 12:12); many gifts, no solo-body fantasy
+- [[Bear Each Other's Burdens]] - bear one another's burdens (Galatians 6:2); hands on the load, not sidewalk commentary
+- [[Iron Sharpens Iron]] - iron sharpens iron (Proverbs 27:17); growth through honest friction with friends who love you
+- [[Confess to One Another]] - confess your sins one to another (James 5:16); spoken failure finds prayer
+- [[Christianity and Politics]] - render to Caesar and to God (Matthew 22:21); dual allegiance without idolatry
+- [[Render Unto Caesar]] - render to Caesar what is Caesar's (Matthew 22:21); civic duty vs ultimate allegiance clarified
+- [[Great Commission]] - make disciples of all nations (Matthew 28:20); truth shared, not hoarded in the garden
 
 ## At work
 
