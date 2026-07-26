@@ -23,7 +23,7 @@ Draft posts are marked *(draft)*.
 
 ---
 
-## Family and home
+## Pia, Isaiah, and Friday arroz caldo
 
 | Fact | Where I said it |
 | :--- | :--- |
@@ -40,7 +40,7 @@ Draft posts are marked *(draft)*.
 
 ---
 
-## Work and the site
+## Freelance WordPress, Hugo on Cloudflare
 
 | Fact | Where I said it |
 | :--- | :--- |
@@ -62,7 +62,7 @@ Draft posts are marked *(draft)*.
 
 ---
 
-## Gear, tools, and habits
+## Earphones in a drawer, a cord in the bag
 
 | Fact | Where I said it |
 | :--- | :--- |
@@ -85,7 +85,7 @@ Draft posts are marked *(draft)*.
 
 ---
 
-## Worship and music
+## Acoustic guitar, VLC pads, and DNPAP (yes, bias)
 
 | Fact | Where I said it |
 | :--- | :--- |
@@ -96,7 +96,7 @@ Draft posts are marked *(draft)*.
 
 ---
 
-## Games, sports, and hobbies
+## Alex Eala, quitting Marvel Snap, Hanamikoji rethemes
 
 | Fact | Where I said it |
 | :--- | :--- |
@@ -109,13 +109,13 @@ Draft posts are marked *(draft)*.
 
 ---
 
-## What this is good for
+## A sanity check, not an identity document
 
-**For me:** a quick read to see if the facts still line up - same kid age, same stack, same worship setup, same earphones in the drawer.
+For me this is a quick read to see if the facts still line up - same kid age, same stack, same worship setup, same earphones in the drawer.
 
-**For you:** if you're new here and want the human version before the essays, start with the rows that sound most like a person and click through. If Pia, Isaiah, the Instant Pot, and the VLC pads all show up in the linked posts, it's probably still me typing.
+If you're new here and want the human version before the essays, start with the rows that sound most like a person and click through. If Pia, Isaiah, the Instant Pot, and the VLC pads all show up in the linked posts, it's probably still me typing.
 
-**What it misses:** opinions, half-finished drafts, and everything I never wrote down. This table is only what made it into a post.
+What it misses: opinions, half-finished drafts, and everything I never wrote down. This table is only what made it into a post.
 
 ---
 

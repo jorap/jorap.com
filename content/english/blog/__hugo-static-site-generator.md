@@ -36,15 +36,15 @@ The surprise wasn't speed - though pages feel instant. It was **boring infrastru
 
 ---
 
-## Speed at build and browse
+## Thousands of pages in seconds, nothing to patch
 
-Hugo builds thousands of pages in seconds on a laptop. Served pages are plain files on a CDN. No WordPress plugin stack waiting to break on a security update.
+Hugo builds thousands of pages in seconds on my laptop. Served pages are plain files on a CDN. I don't have a WordPress plugin stack waiting to break on a security update.
 
 For a text-heavy personal site, that trade is easy: give up the admin panel, gain sleep.
 
 ---
 
-## Content as files in Git
+## When the posts are in Git, you're holding the deed
 
 Every post is a Markdown file. Diffable. Revertible. Movable to another host by pointing DNS and pushing the same repo.
 
@@ -71,8 +71,5 @@ I say no out loud for:
 For those, WordPress, Shopify, or a hosted tool wins. [Static vs CMS](/blog/static-site-vs-cms/) is the longer fit check I use with clients.
 
 For a blog, portfolio, brochure site, sermon archive, or docs that change occasionally - Hugo is hard to beat on cost and calm.
-
-
-Hugo fits **personal publishing with technical comfort:** Markdown, Git, hatred of monthly hosting bills for static pages.
 
 It doesn't fit every job. When it fits, the workflow is push and forget. That's the feature I sell - including to myself.

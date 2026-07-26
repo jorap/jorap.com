@@ -22,13 +22,11 @@ Rechargeable batteries are one of those upgrades that sound fussy until you use 
 
 ---
 
-## Why I switched
+## Why I stopped buying blister packs
 
-**Cost.** A good charger and a set of AAs pays for itself if you burn through remotes, kids' toys, flashlights, and wireless peripherals.
+A good charger and a set of AAs pays for itself if you burn through remotes, kids' toys, flashlights, and wireless peripherals. There's less packaging and less trash, and less guilt every time a toy screams for batteries at 9 PM.
 
-**Waste.** Less packaging, less trash, less guilt every time a toy screams for batteries at 9 PM.
-
-**Performance is finally good enough.** Modern NiMH rechargeables (especially low-self-discharge types like Eneloop) hold charge for months and handle the loads most household stuff needs.
+The part that actually changed my mind is that the performance is finally good enough. Modern NiMH rechargeables, especially low-self-discharge types like Eneloop, hold charge for months and handle the loads most household stuff needs.
 
 ---
 
@@ -36,11 +34,7 @@ Rechargeable batteries are one of those upgrades that sound fussy until you use 
 
 **AA and AAA** cover 95% of our house. I standardized on one reputable brand of low-self-discharge cells and bought **twice as many as I think I need** - because half are always charging or living in devices.
 
-**The charger matters more than people admit.** I wanted one that:
-
-- Charges individual slots (not only in pairs)
-- Stops cleanly when done - no cooking batteries overnight
-- Shows per-battery status at a glance
+**The charger matters more than people admit.** I wanted individual slots rather than pair-only charging, a clean shutoff so nothing cooks overnight, and per-battery status I could read at a glance.
 
 A cheap dumb charger works until it doesn't. I spent a little more once instead of replacing batteries twice a year forever.
 
@@ -78,6 +72,4 @@ Smoke detectors and true emergency flashlights stay on alkalines in our house. T
 
 And I don't chase the absolute highest capacity numbers on the label. Consistent performance and low self-discharge beat bragging rights.
 
-
 If your house eats AAs like snacks, rechargeables are the most boring, sensible upgrade available. One good charger, two sets of cells, a simple swap habit - and that checkout-aisle battery tax mostly disappears.
-

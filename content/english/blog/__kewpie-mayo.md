@@ -1,7 +1,7 @@
 ---
 title: "Kewpie Mayo"
 meta_title: "Kewpie Mayo - Why This Japanese Mayo Earned a Permanent Spot"
-description: "Kewpie isn't just yellow mayo in a squeeze bottle. Here's what makes it different, how we use it, and whether it's worth the shelf space."
+description: "Kewpie isn't just yellow mayo in a squeeze bottle. Richer, eggier, tangier - and the one we reach for when the mayo should actually taste like something."
 slug: "kewpie-mayo"
 date: "2026-06-18T05:06:00Z"
 image: "/images/Chicken-Adobo.jpg"
@@ -31,17 +31,11 @@ There's a version with and without MSG depending on region and label. Both are g
 
 ---
 
-## How we use it
+## How it actually gets used here
 
-**Sandwiches and burgers.** The obvious lane. Especially egg sandwiches, chicken sandwiches, anything that needs moisture without sogginess.
+**Sandwiches and burgers** are the obvious lane, especially egg and chicken, anything that needs moisture without sogginess.
 
-**Salad dressings.** Thin it with a little rice vinegar and soy for a quick creamy Asian-style dressing.
-
-**Sushi night at home.** Inside rolls, spicy mayo drizzle, mixed with sriracha when we want heat.
-
-**Vegetables.** Roasted corn, grilled asparagus, cold cucumber - a stripe of Kewpie and you're done.
-
-**Dipping sauce base.** Mayo + sriracha + lime is lazy and undefeated.
+For salad dressing I thin it with a little rice vinegar and soy and call it a creamy Asian-style dressing. On sushi night it goes into inside rolls and spicy mayo drizzle, mixed with sriracha when we want heat. Vegetables get a stripe of it and nothing else - roasted corn, grilled asparagus, cold cucumber. And mayo plus sriracha plus lime is a lazy, undefeated dipping sauce.
 
 ---
 
@@ -64,7 +58,3 @@ Asian grocery sections, import aisles, online. Price is higher than generic mayo
 If you only mayo twice a year at picnics, probably not. If you make sandwiches, bowls, and home sushi regularly, **one bottle changes the baseline**.
 
 I still keep regular mayo for recipes that expect neutral flavor. Kewpie is the one I reach for when I want the mayo to actually taste like something.
-
-
-Kewpie is the mayo upgrade I didn't know I wanted until I tried it on the right sandwich. Not essential for everyone. For our kitchen, it's a permanent resident in the fridge door.
-

@@ -41,7 +41,7 @@ KeePass people will tell you local-only is purer. They're not wrong. I wanted sy
 
 I didn't move everything at once. That way lies quitting at login number thirty.
 
-**Top twenty first:** email, bank, GCash, social, the shopping sites I actually use. Generate a new random password for each. Save. Move on.
+**I did the top twenty first:** email, bank, GCash, social, the shopping sites I actually use. Generate a new random password for each. Save. Move on.
 
 **Master password:** a long passphrase I can say out loud once and type without thinking. Not a clever string of symbols I'll forget in a month.
 

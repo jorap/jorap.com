@@ -25,7 +25,7 @@ The prompts I keep in my notes share a structure. I call it **CRAFT** - Context,
 
 ---
 
-## What CRAFT stands for
+## Five boxes before I hit enter
 
 | Letter | Section | Job |
 |---|---|---|
@@ -77,15 +77,10 @@ Reuse the skeleton. Don't rewrite from scratch every Tuesday.
 
 ---
 
-## Common failures
+## Where my prompts still break
 
-- **Role without context** - "You're an expert" at what, for whom?
-- **Action as a paragraph** - numbered steps win
-- **Format omitted** - you get essay when you needed HTML
-- **Audience omitted** - you get academic when you needed blog casual
+Role without context gets me "you're an expert" at what, for whom. Action as a paragraph loses to numbered steps every time. Skip the format and I get an essay when I needed HTML. Skip the audience and I get academic when I wanted blog casual.
 
 ---
 
 CRAFT isn't bureaucracy. It's **kindness to future-you** - and to the model.
-
-Context, Role, Action, Format, Target Audience. Five boxes. Fill them before you hit enter, and "good prompts" stop being luck.

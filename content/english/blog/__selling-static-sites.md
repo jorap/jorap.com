@@ -89,7 +89,7 @@ Each job teaches me what to put in the base template so the next quote takes les
 
 ---
 
-## When the default setup isn't enough
+## When the starter hosting line isn't enough
 
 Heavy deploy habits, huge media folders, or policy requirements can push a site past what the starter hosting line covers. Some clients want their own Cloudflare org from day one. Concurrent builds can queue when volume spikes.
 
@@ -105,4 +105,4 @@ Ask who publishes after launch **before** you sign. "We'll figure it out at go-l
 
 Ask what happens if the fit is wrong. A yes on every job is not credibility. A clear no with a referral is.
 
-I charge for work that moves the needle and hosting that's priced to match the job - not a padded monthly line left over from when every brochure needed cheap PHP hosting. That's the whole pitch - and I'd rather lose a job than hide what's in the quote.
+I charge for work that actually ships and hosting that's priced to match the job - not a padded monthly line left over from when every brochure needed cheap PHP hosting. That's the whole pitch - and I'd rather lose a job than hide what's in the quote.

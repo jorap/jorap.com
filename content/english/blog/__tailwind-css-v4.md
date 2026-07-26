@@ -51,7 +51,7 @@ When the upstream theme merged v4, I pulled, ran `hugo server`, clicked around -
 
 ---
 
-## Build pipeline coupling (Hugo + assets)
+## Hugo and Tailwind have to agree
 
 Hugo's asset pipeline and Tailwind's new engine have to agree. Hugoplate documents how PostCSS/Vite wiring works in their repo - I didn't invent it.
 
@@ -64,7 +64,6 @@ If you're on an old fork frozen on v3, budget an afternoon, not ten minutes. Com
 Faster rebuilds on my laptop. Slightly smaller CSS output. Zero change to how a blog post reads.
 
 That's fine. Infrastructure churn isn't content. **Sync theme, test locally, push live** is the whole playbook.
-
 
 Tailwind v4 is maintainers' work, not writers'. I let Hugoplate carry most of it and kept my custom CSS thin.
 

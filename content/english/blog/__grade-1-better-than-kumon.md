@@ -1,7 +1,7 @@
 ---
 title: "Kumon for the Reps. Math Games at Home Because Numbers Feel Hard"
 meta_title: "Grade 1 Math Games at Home - Better Than Kumon"
-description: "He doesn't like math because it's harder than reading. He wants games. Tablet math games first, one printed line, handwriting he owns - ten principles and a one-week plan."
+description: "He picked Kumon reading, not math - numbers feel hard, games don't. Here's the tablet-and-printer routine we run at home instead of doubling down on worksheets."
 slug: "grade-1-better-than-kumon"
 date: "2026-07-15T01:20:00Z"
 image: "/images/note.jpg"
@@ -93,26 +93,26 @@ If home feels like Kumon with a different logo - or like school homework - I've 
 
 ## The principles (and how they beat Kumon reading)
 
-Kumon reading is built for **volume, speed, and sameness** - same pages for every kid, neater and faster until the next level. I learned on my own trial that "correct" isn't enough there. You have to be **fast**.
+Kumon reading is built for **volume, speed, and sameness** - same pages for every kid, neater and faster until the next level. I learned on my own trial that "correct" isn't enough there. I had to be **fast**.
 
 Home is built on different rules. Ten of them. **Five, six, and seven are the handwriting half** - the part I actually want better than Kumon rows. The week below follows all ten.
 
 | Principle | What Kumon reading does | What home does instead |
 |-----------|-------------------------|------------------------|
-| **1. Want-to-come-back** (intrinsic motivation) | Finish the packet. Next level waits. | Stop while he still has gas. Tired face = done. "Try again." Laugh. Move on. |
-| **2. Two layers, not double homework** (skill practice vs. transfer) | Kumon owns the pencil reps. | Kumon = gym. Home = sport. No copy pages after center. |
-| **3. Games, not factories** (game-based learning) | Quiet table, timed rows. | **Math games on the tablet** - shuffle, score, beat dad - then maybe one printed line. |
-| **4. Easy wins before hard rows** (scaffolding) | Next level whether you're ready or not. | Start where he wins. Reading is easy - math stays on easy until he asks for more. |
-| **5. His words on paper** (authentic literacy) | Same worksheet for every kid. Copy row seventeen. | He picks the words. He has to **care** what it says - a quiz card, his drawing, his postcard - or we switch sheets. |
-| **6. Say it, then handwrite it** (language experience approach) | Pencil from minute one. Trace and copy cold. | Mouth wins first. He talks. I write once. He copies. Spelling and letter shape fixed together. |
-| **7. Real audience** (authentic audience) | Sheet goes in a folder. | Note on the fridge, postcard to lola, sign on his door - **someone reads what he wrote.** |
-| **8. Passion transfers** (modeling) | Instructor enforces pace. | I get excited when he sees the pattern. He can tell. |
-| **9. Concrete before abstract** (CPA: concrete-pictorial-abstract) | Symbols on a page. | Picture cards on the tablet first - then one equation on the math line. |
-| **10. Explain it back** (metacognition) | Neater letters, faster completion. | "Tell me how you got that." Not "fill the row." |
+| **1. Want-to-come-back** | Finish the packet. Next level waits. | Stop while he still has gas. Tired face = done. "Try again." Laugh. Move on. |
+| **2. Two layers, not double homework** | Kumon owns the pencil reps. | Kumon = gym. Home = sport. No copy pages after center. |
+| **3. Games, not factories** | Quiet table, timed rows. | **Math games on the tablet** - shuffle, score, beat dad - then maybe one printed line. |
+| **4. Easy wins before hard rows** | Next level whether you're ready or not. | Start where he wins. Reading is easy - math stays on easy until he asks for more. |
+| **5. His words on paper** | Same worksheet for every kid. Copy row seventeen. | He picks the words. He has to **care** what it says - a quiz card, his drawing, his postcard - or we switch sheets. |
+| **6. Say it, then handwrite it** | Pencil from minute one. Trace and copy cold. | Mouth wins first. He talks. I write once. He copies. Spelling and letter shape fixed together. |
+| **7. Real audience** | Sheet goes in a folder. | Note on the fridge, postcard to lola, sign on his door - **someone reads what he wrote.** |
+| **8. Passion transfers** | Instructor enforces pace. | I get excited when he sees the pattern. He can tell. |
+| **9. Concrete before abstract** | Symbols on a page. | Picture cards on the tablet first - then one equation on the math line. |
+| **10. Explain it back** | Neater letters, faster completion. | "Tell me how you got that." Not "fill the row." |
 
-**The short version:** Kumon reading asks *did you finish, and was it fast enough?* Home asks *did you want to play again?* For math - **hard** is his word, games are his word. For handwriting - *did he pick up the pencil without a fight, and can someone else read it?*
+Kumon reading asks *did you finish, and was it fast enough?* Home asks *did you want to play again?* For handwriting: did he pick up the pencil without a fight, and can someone else read it?
 
-Principles **3**, **4**, and **9** lean math. **5**, **6**, and **7** lean handwriting. Principle **4** is the only math-only gate: never open with the hard part. Open with the game. The equation on paper is the trophy, not the assignment.
+Principle **4** is the only math-only gate: never open with the hard part. Open with the game. The equation on paper is the trophy, not the assignment.
 
 ---
 
@@ -192,28 +192,17 @@ If he can't tell me why we're putting it on paper, we pick a different sheet. Ku
 
 ---
 
-## The quiz decks on the tablet (his favorite math game so far)
+## Why the tablet goes first
 
 Worksheets alone will lose him. He said so. **Hard.**
 
-Same flow for both decks:
-
-1. Tap shuffle.
-2. He guesses out loud.
-3. Tap reveal - did you beat dad?
-4. Again. Five cards. Done.
-
-**[Grade 1 quiz](/randomizer/?set=grade-1-quiz)** is the warmup - animals, colors, no plus or minus. He asks for this one by name because it's a **game**, not a test.
-
-**[Grade 1 math quiz](/randomizer/?set=grade-1-math-quiz)** is the separate math deck - addition, subtraction, bonds. Principle **4**: easy cards first, always. We pull **one** math card into a round only when the general cards went well. Wrong guess is still "nice try."
-
-That's principles **3**, **4**, and **6** on glass. Kumon wants a pencil from minute one on the **hard** subject. The tablet lets him win with his mouth first. **Then** - if he wants - the math line sheet gets one equation as a trophy.
+He asks for the [general quiz](/randomizer/?set=grade-1-quiz) by name because it's a game, not a test, and a wrong guess is still "nice try." That's principles **3**, **4**, and **6** on glass. Kumon wants a pencil from minute one on the subject he already calls hard. The tablet lets him win with his mouth first, and then - if he wants - the math line sheet gets one equation as a trophy.
 
 ---
 
-## The week
+## One sample week: tablet first, sheet second
 
-One week. Same shape every day: **tablet first, one printed sheet second.** Ten to fifteen minutes. Sunday off.
+Same shape every day: **tablet first, one printed sheet second.** Ten to fifteen minutes. Sunday off.
 
 **Principles in play:** 4, 3, 6, 5 - plus **7** on Saturday (postcard).  
 **Math:** general quiz Mon-Thu; **one** card from the [math quiz](/randomizer/?set=grade-1-math-quiz) on Fri if he still has gas. Math line optional all week.  
@@ -290,11 +279,9 @@ If he asks to shuffle again, or grabs a blank sheet without being told, add a se
 
 ## What I'm not trying to do
 
-- **Replace Kumon reading.** That's the rep layer - pencil habit, copy rows, someone else enforcing it. Home math and home handwriting are the **better** layer on top.
-- **Duplicate Kumon at home.** No printed workbook. No thirty-page packs. No extra props. Four half-page templates, one face per day, plus the tablet.
-- **Make a prodigy.** I want him comfortable with numbers, curious about puzzles, and handwritten notes someone else can read - not a six-year-old who dreads pencils.
-- **Win a comparison.** Some kid in Kumon math will blast past us on paper. Fine. I'm playing a longer game.
-- **Force enthusiasm.** Week one win = he asks for another round. Not "loves math." Just doesn't dread it.
+I'm not replacing Kumon reading. That's the rep layer - pencil habit, copy rows, someone else enforcing it - and home math and handwriting sit on top of it. I'm also not cloning it at home: no printed workbook, no thirty-page packs, no extra props. Four half-page templates, one face per day, plus the tablet.
+
+I'm not building a prodigy either. I want him comfortable with numbers, curious about puzzles, and writing notes someone else can read - not a six-year-old who dreads pencils. Some kid in Kumon math will blast past us on paper and that's fine, because I'm playing a longer game. The week-one win is that he asks for another round. Not "loves math." Just doesn't dread it.
 
 ---
 
@@ -302,9 +289,9 @@ If he asks to shuffle again, or grabs a blank sheet without being told, add a se
 
 Not test scores. Wrong metric at six. He still says math is **hard**. I'm watching for whether it stays hard-but-playable, or hard-and-he-runs.
 
-**He asks to play the quiz.** **He catches dad's wrong answer on purpose.** **He says "five more cards" before I say done.**
+On math, the tells are him asking to play the quiz, catching dad's wrong answer on purpose, and saying "five more cards" before I call it done.
 
-For handwriting: **he picks the sentence to copy** on the printed sheet. **He reads his own note out loud** and tapes it somewhere real. **His Kumon sheets get neater** - that's Kumon's scoreboard.
+On handwriting, it's him picking the sentence to copy, reading his own note out loud and taping it somewhere real, and his Kumon sheets getting neater - that last one is Kumon's scoreboard, not mine.
 
 The big win: he doesn't groan when I open the tablet to math games. Someday maybe he brings a puzzle from school. Week one? **He stopped treating math like the subject you only do when you're trapped.**
 

@@ -19,17 +19,17 @@ draft: true
 
 I'm not a physiotherapist. I sit for work. My back reminded me hard after a WordPress build week where I skipped lunch breaks and worked from the couch with the laptop in my lap.
 
-**Stuart McGill's "Big Three"** - curl-up, side plank, bird dog - is the low-back maintenance routine I keep in my notes because it's **simple, evidence-backed, and doesn't require a gym.**
+**Stuart McGill's "Big Three"** - curl-up, side plank, bird dog - is the low-back maintenance routine I keep in my notes because it's simple, it's McGill's usual trio, and it doesn't require a gym.
 
 Not medical advice. If you're injured, see a professional. This is what I use for **prevention and stiff-days maintenance.**
 
 ---
 
-## Why McGill's approach is different
+## Bracing and endurance, not crunch reps
 
 A lot of "core work" is flexion-heavy - crunches, sit-ups, endless curling your spine under load. McGill focuses on **bracing and endurance** - teaching your trunk to stabilize without grinding the lower back.
 
-The Big Three builds capacity in neutral-ish positions you actually live in.
+That's the part I needed. The trio trains the trunk in the neutral-ish positions I actually sit in all day.
 
 ---
 
@@ -96,8 +96,6 @@ Simple circuit, 2-3 rounds:
 - [Stuart McGill's Big Three overview](https://www.chirocentre.com.au/stuart-mcgills-big-three-low-back-exercises/)
 - [McGill Big 3 for core stability](https://northernnevadachiropractic.com/blog/back-pain-prevention/the-mcgill-big-3-exercises-for-core-stability/)
 
-
 Low back care doesn't have to mean fancy equipment. **Curl-up, side plank, bird dog** - done consistently, with form over heroics.
 
 Bookmark the demos, run the circuit, go sit down again with a slightly more honest spine.
-

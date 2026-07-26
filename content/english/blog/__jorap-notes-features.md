@@ -1,6 +1,6 @@
 ---
 title: "What JoRap Notes Actually Does"
-meta_title: "JoRap Notes - Features, Applications, and Principles"
+meta_title: "What JoRap Notes Actually Does - Garden, Graph, Flashcards"
 description: "My blog is for essays. JoRap Notes is a linked garden of one-claim pages - graph, flashcards, typed links, all on the same Hugo site."
 slug: "jorap-notes-features"
 date: "2026-07-03T02:00:00Z"
@@ -20,7 +20,7 @@ featured: false
 draft: true
 ---
 
-> **TL;DR**: JoRap Notes is not a separate app. It is a second surface on this site - short linked pages, each holding one claim I'd say out loud, with a graph, flashcard review, typed relationships, shareable thoughts, and copy buttons that hand the whole garden to ChatGPT. The blog is for long essays. The garden is for ideas I want to walk through and reuse.
+> **TL;DR**: Same Hugo site as the blog. `/notes/` is a linked garden of one-claim pages - I built the hosting stack first, and the graph, flashcards, and copy buttons grew on top once I had somewhere to put atomic notes in public. The blog is for long essays. The garden is for ideas I want to walk through and reuse.
 
 ## Two surfaces, one site
 
@@ -36,7 +36,7 @@ I built the hosting stack first (Hugo, GitHub, Cloudflare - [that story is here]
 
 ---
 
-## Features at a glance
+## What's in the garden, quick map
 
 | Feature | What it does | Apply it when… |
 |--------|--------------|----------------|
@@ -72,9 +72,9 @@ Each atomic note stores its whole argument in frontmatter - not in the body:
 
 Hugo assembles `## Key Concept`, `## Examples`, `## Shareable thoughts`, and `## Note Relationships` at build time. The Markdown body stays empty for atomic notes. That keeps every note the same shape when you browse, copy, or export.
 
-**Application:** When a coworker asks "what's your take on X?", you open one URL and read the description aloud. When you need a pull-quote for a deck, you grab a shareable thought. When an idea won't fit one breath, that's your signal to split.
+So when a coworker asks what my take on something is, I open one URL and read the description aloud. When I need a pull-quote for a deck, I grab a shareable thought. And when an idea won't fit in one breath, that's my signal to split it.
 
-**Principle:** Compression forces clarity. If you cannot state the claim in one sentence, you do not understand it yet - or you are smuggling two ideas into one file.
+The compression is the point. If I can't state the claim in one sentence, I don't understand it yet, or I'm smuggling two ideas into one file.
 
 Hub pages like [Maps of Content](/notes/maps-of-content/) and [Workplace Principles](/notes/workplace-principles/) break the rule on purpose. They are indexes - curated lists with prose in the body. Tool pages like [Graph](/notes/graph/) and [Review](/notes/review/) are meta surfaces, not garden ideas. You link to those by URL, not `[[wikilink]]`.
 
@@ -92,9 +92,9 @@ The rules are tight on purpose:
 - Pulled from `description` and `key_concept` only - the claim and its angle, not `examples` or relationship tension
 - All four must be distinct - no duplicate claims or one thought that is a fragment of another
 
-**Application:** Paste into Slack when someone asks for your framing. Drop into a slide without rewriting. Feed a social post. Hand an AI session a quotable summary without the full frontmatter dump.
+I paste these into Slack when someone asks for my framing, drop them into a slide without rewriting, or hand an AI session a quotable summary without the full frontmatter dump.
 
-**Principle:** Ideas you cannot quote are ideas you cannot reuse. Shareable thoughts are the garden's "out loud" layer - what you'd actually say when someone interrupts you mid-coffee.
+Ideas I can't quote are ideas I can't reuse. Shareable thoughts are the garden's "out loud" layer - what I'd actually say if someone interrupted me mid-coffee.
 
 ---
 
@@ -104,7 +104,7 @@ Linking is the whole point.
 
 In note text I write `[[Golden Rule at Work]]` and Hugo resolves it to `/notes/golden-rule-at-work/`. If a note has an alias - say `aliases: ["PARA"]` on the PARA note - `[[PARA]]` works too.
 
-On every note page you get:
+Every note page shows me:
 
 - **Outgoing links** - where this note points
 - **Backlinks** - who points here, with a snippet of the sentence around the link
@@ -113,9 +113,9 @@ On every note page you get:
 
 Pipe labels (`[[note|display text]]`) are not supported. I kept the resolver simple on purpose.
 
-**Application:** Write the way you think - name the idea, link it, move on. Backlinks surface connections you forgot you made. See also nudges you to link notes that share tags but not yet prose.
+That lets me write the way I think: name the idea, link it, move on. Backlinks surface connections I forgot I made, and "see also" nudges me toward notes that share tags but not yet prose.
 
-**Principle:** The graph is the product. Folders sort files; links sort ideas. A note nobody links to is a note nobody will find when they need it.
+The graph is the product. Folders sort files; links sort ideas. A note nobody links to is a note nobody finds when they need it.
 
 ---
 
@@ -138,15 +138,15 @@ Minimum on every atomic note: at least one `extends` and one `contradicts`. That
 
 The [Graph](/notes/graph/) view shows the same links as edges. Filters let you hide noisy nodes, surface orphans, or focus on notes with few body links. It runs in the browser with PixiJS - only loads on the graph page, not on every note.
 
-**Application:** Before you publish a new note, ask "what does this extend?" and "what does this push against?" The reason field is your future self explaining the link in one breath. Use the graph filter when a hub feels bloated or when you suspect duplicate claims.
+Before I publish a new note I ask what it extends and what it pushes against. The reason field is future-me explaining the link in one breath. When a hub feels bloated or I suspect duplicate claims, the graph filter is where I go.
 
-**Principle:** Ideas live in tension. Naming `contradicts` keeps you honest about tradeoffs instead of pretending every note agrees with every other note.
+Ideas live in tension. Naming `contradicts` keeps me honest about tradeoffs instead of pretending every note agrees with every other note.
 
 ---
 
-## Tool pages
+## Built-in utilities, not ideas in the garden
 
-These are built-in utilities, not ideas in the garden:
+These are tool pages, not garden notes:
 
 | Tool | URL | What it does | Apply it when… |
 |------|-----|--------------|----------------|
@@ -178,9 +178,9 @@ Hub pages add **Copy hub cluster** - the hub plus every note it wikilinks to, in
 
 The full garden exports to `/exports/okf/` on every production build. Static viz included. Regenerate locally with `pnpm export:okf`.
 
-**Application:** Copy MD when you are editing in your IDE. Agent copy when you are pair-writing with AI and need resolved links. Copy hub cluster when you are briefing someone on a whole topic lane. Copy catalog when you are onboarding an agent to the entire garden.
+I use Copy MD when I'm editing in the IDE, Agent copy when I'm pair-writing with AI and need resolved links, Copy hub cluster when I'm briefing someone on a whole topic lane, and Copy catalog when I'm onboarding an agent to the entire garden.
 
-**Principle:** Your notes should travel. If copying context takes longer than writing the prompt, you will stop using the garden as source of truth.
+I need notes that travel. If copying context takes longer than writing the prompt, I stop using the garden as source of truth.
 
 ---
 
@@ -199,9 +199,9 @@ Card count scales with importance: six on core PKM and faith spine notes, fewer 
 
 I can also export to Anki when I want drills on my phone. The garden stays the source; Anki is a mirror.
 
-**Application:** Drill before the hard conversation, not after you fumbled it. Filter Review by `card_sets` when you only have five minutes. Use flashcard fronts as scenario prompts in team retros.
+The idea is to drill before the hard conversation, not after fumbling it. When I only have five minutes I filter Review by `card_sets`, and the flashcard fronts double as scenario prompts in team retros.
 
-**Principle:** Understanding and recall are different jobs. The note holds the claim; the card holds the move you'd make when the claim meets real life.
+Understanding and recall are different jobs. The note holds the claim; the card holds the move I'd make when the claim meets real life.
 
 ---
 
@@ -217,9 +217,9 @@ Titles stay short - four words by default, five only when the phrase is long eno
 
 These are not features you brag about at a party. They are why the graph still works six months after I wrote half the notes on a tired Sunday.
 
-**Application:** Run Issues before a big publish batch. Paste Copy issues into an AI session and ask for fix suggestions. Use voice lint when prose starts sounding like a textbook.
+I run Issues before a big publish batch, paste Copy issues into an AI session when I want fix suggestions, and lean on voice lint when the prose starts sounding like a textbook.
 
-**Principle:** Constraints are features. The garden stays usable because broken links and vague titles fail the build instead of silently degrading.
+Constraints are features here. The garden stays usable because broken links and vague titles fail the build instead of quietly rotting.
 
 ---
 
@@ -231,9 +231,9 @@ When a note outgrows one screen, I distill it into a blog post under `content/en
 
 Faith notes, PKM notes, and workplace principles share the same machinery. Only the subject changes. [Workplace Principles](/notes/workplace-principles/) is the clearest example of audience-specific application: the same ethics as [Eternal Principles](/notes/eternal-principles/), rewritten in language that fits a secular standup or 1:1.
 
-**Application:** Write the essay once; link the claims you want readers to keep. When a team will not open a theology note, build a workplace hub that wikilinks back to the source when depth is needed.
+So I write the essay once and link the claims I want readers to keep. When a team won't open a theology note, I build a workplace hub that wikilinks back to the source for anyone who wants the depth.
 
-**Principle:** Long form and atomic notes serve different memory. The post persuades; the note persists.
+Long form and atomic notes serve different memory. The post persuades; the note persists.
 
 ---
 
@@ -254,23 +254,18 @@ You do not need my exact Hugo setup to benefit from the pattern. These are the m
 
 ---
 
-## Who this is for (and who it is not)
+## Who I'd hand this pattern to
 
-**Good fit** if you already think in linked notes, want a public garden without a monthly wiki bill, and are fine editing Markdown in Git. The copy buttons, shareable thoughts, and OKF export matter if you pair the garden with AI editing sessions or need quotable output for work.
+This fits if you already think in linked notes, want a public garden without a monthly wiki bill, and don't mind editing Markdown in Git. The copy buttons, shareable thoughts, and OKF export only matter if you pair the garden with AI editing sessions or need quotable output for work.
 
-**Bad fit** if you need real-time collaboration, a WYSIWYG editor for non-technical co-authors, or private notes behind a login. This is a static site. Everything published is public. Private thinking stays in [the garage](/notes/the-garage-concept/) - drafts, offline captures, stuff not ready for the garden - not a second wiki app I maintain in parallel.
+Skip it if you need real-time collaboration, a WYSIWYG editor for non-technical co-authors, or private notes behind a login. This is a static site, so everything published is public. Private thinking stays in [the garage](/notes/the-garage-concept/) - drafts, offline captures, stuff not ready for the garden - not a second wiki app I maintain in parallel.
 
 I am not selling JoRap Notes as a product. It is my corner of the internet, documented in case the pattern helps you build your own.
 
 ---
 
-## Where to start
+## Start with one claim per file
 
-- Walk the garden: [/notes/](/notes/)
-- Read the rules: [Getting Started](/notes/getting-started/)
-- Browse by hub: [Maps of Content](/notes/maps-of-content/)
-- Office-friendly ethics lane: [Workplace Principles](/notes/workplace-principles/)
-- Pick a random pair: [Random Duo](/notes/random-duo/)
-- Hosting and deploy: [How I Built JoRap Notes](/blog/how-i-built-jorap-notes/)
+Walk [/notes/](/notes/) if you want to see it, or read [Getting Started](/notes/getting-started/) for the rules I hold myself to. The hosting and deploy side is [its own post](/blog/how-i-built-jorap-notes/).
 
 If you build something similar, start with one claim per file and working wikilinks. Add shareable thoughts, the graph, flashcards, and agent export after you have twenty notes worth linking - not before.

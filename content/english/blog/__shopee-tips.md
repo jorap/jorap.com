@@ -23,17 +23,13 @@ I've bought plenty of good stuff there. I've also bought junk because the algori
 
 ---
 
-## Local first
+## Local first, because fewer hops means fewer surprises
 
-**Why local matters:** faster shipping, easier returns, less "where is my package" anxiety when the sorting center is one island over instead of three.
+Buying local means faster shipping, easier returns, and less "where is my package" anxiety when the sorting center is one island over instead of three.
 
-**How I filter:**
+So before anything goes in the cart, I check seller location and the estimated delivery window, prefer shops with high ratings and recent reviews that include photos, and stay skeptical of prices that only make sense if shipping crosses half the country.
 
-- Check seller location and estimated delivery window before carting
-- Prefer shops with **high ratings and recent reviews with photos**
-- Be skeptical of prices that only make sense if shipping crosses half the country
-
-**Red flags:**
+The listings I walk away from:
 
 - Generic product photos stolen from other listings
 - Thousands of sales but almost no written reviews
@@ -47,21 +43,9 @@ Shopee's sorting centers (SOCs) move a lot of volume - Paranaque, Biñan, Plarid
 
 Shopee's shipping promos change, but the logic stays the same: **don't pay full freight on a cheap item** unless you truly need it tomorrow.
 
-**What I do:**
+So I bundle small items from the same shop or warehouse cluster, park things in the cart and wait for platform-wide free-shipping vouchers when the order isn't urgent, and compare "cheaper item plus expensive ship" against "slightly pricier item plus promo ship" - sometimes the total flips.
 
-- **Bundle** small items from the same shop or same warehouse cluster
-- Add to cart and wait for platform-wide free-shipping vouchers if the order isn't urgent
-- Compare "cheaper item + expensive ship" vs "slightly pricier item + promo ship" - sometimes the total flips
-
-**When I pay for speed:**
-
-- Replacement parts for something broken now
-- Gifts with a hard date
-- Perishables (obviously)
-
-**When I wait:**
-
-- Pantry restocks, cable organizers, anything where "next week" is fine
+I'll pay full freight for replacement parts for something broken now, gifts with a hard date, and perishables. Pantry restocks and cable organizers can wait for the next voucher.
 
 The goal isn't free shipping at all costs. It's **not paying courier prices that dwarf the product**.
 
@@ -71,21 +55,11 @@ The goal isn't free shipping at all costs. It's **not paying courier prices that
 
 "Top sales" and "best selling" badges are useful **starting points**, not verdicts.
 
-**Reviews that matter:**
+The reviews I actually read are the ones with buyer photos showing real size and quality, and the complaints about **specific** defects - size off, weak motor, wrong shade - rather than a vague "nice." I weight recent ones heaviest, because a listing that was great a year ago might have switched suppliers since.
 
-- Photos from buyers showing real size and quality
-- Complaints about **specific** defects (size off, weak motor, wrong shade) vs vague "nice"
-- Recent reviews - a listing that was great a year ago might have switched suppliers
+When the same product image shows up on five shops, I dig into shop age and review patterns. Wild price gaps usually mean different materials or a bait-and-switch history.
 
-**Compare listings:**
-
-- Same product image on five shops? Dig into shop age and review patterns
-- Wild price gaps often mean different materials or bait-and-switch history
-
-**Sale events:**
-
-- 3.3, 6.6, 11.11 - real discounts exist, but **pre-load your cart early** and check historical prices if a tool allows it
-- Vouchers stack differently each event - read the checkout screen before celebrating
+On the big events (3.3, 6.6, 11.11) real discounts do exist, but I pre-load the cart early and read the checkout screen before celebrating, because vouchers stack differently every time.
 
 ---
 
@@ -96,8 +70,6 @@ The goal isn't free shipping at all costs. It's **not paying courier prices that
 - **Save reliable shops** instead of re-searching from scratch every time
 - **Use ShopeePay / linked payment carefully** - convenience shouldn't mean tap-first, think-never
 
-
 Shopee rewards patience and punishes impulse. Local sellers, bundled shipping, and reviews with photos beat any flashy banner.
 
 The app will always try to make you scroll. These filters are how I shop like I mean it - and close the app when I'm done.
-

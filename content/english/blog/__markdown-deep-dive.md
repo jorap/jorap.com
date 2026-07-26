@@ -1,6 +1,6 @@
 ---
 title: "Markdown Deep Dive"
-meta_title: "Markdown Deep Dive - The Plain-Text Layer Under Everything"
+meta_title: "Markdown Deep Dive - What I Use Beyond Bold and Bullets"
 description: "Markdown is the format behind JoRap, Hugo, GitHub, and my notes. Here's what I actually use beyond bold and bullets - and where flavors diverge."
 slug: "markdown-deep-dive"
 date: "2026-06-19T06:00:00Z"
@@ -75,10 +75,6 @@ Same words, different dialects. Like PHP and WordPress - related, not identical.
 
 When [I lost PHP hosting](/blog/how-i-built-jorap-notes/), the posts I could recover as files were the ones that mattered. Markdown in a repo is backup strategy, not just format preference.
 
-- **Diffable** in Git - see exactly what changed line by line
-- **Portable** - move hosts without export wizard grief
-- **Durable** - readable in twenty years without a proprietary app
+Plain text diffs cleanly in Git so I can see exactly what changed line by line, moves hosts without export-wizard grief, and stays readable in twenty years without a proprietary app.
 
-Markdown deep dive, for me, meant mastering the boring basics and code fences. Everything else is optional.
-
-If you're building on Hugo, learn frontmatter and shortcodes next. If you're capturing notes, learn your app's link syntax. The Markdown middle stays the same.
+If you're building on Hugo, learn frontmatter and shortcodes next. If you're capturing notes, learn your app's link syntax. The boring basics and code fences are the whole middle, and they don't change.

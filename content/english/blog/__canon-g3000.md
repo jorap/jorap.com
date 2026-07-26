@@ -1,7 +1,7 @@
 ---
 title: "Canon G3000"
 meta_title: "Canon G3000 - Ink Tank Printer Notes"
-description: "The Canon G3000 is an ink-tank printer for people tired of cartridge roulette. Here's what it's good at, what annoyed me, and who should consider one."
+description: "The Canon G3000 is an ink-tank printer for people tired of cartridge roulette. Here's what it's good at, what annoyed me, and whether I'd buy ink tank again."
 slug: "canon-g3000"
 date: "2026-06-18T05:09:00Z"
 image: "/images/feature-desktop.jpg"
@@ -22,25 +22,17 @@ The **Canon G3000** series sits in the **ink tank** camp: refill bottles instead
 
 We bought one when cartridge math stopped making sense - school forms, random scans, the occasional recipe printout. It's still in the house. That's the bar for this review.
 
-## Why ink tank at all
+## Bottle refills beat cartridge roulette
 
-**Cost per page** is the whole argument. Bottle refills beat cartridges over time if you actually use the printer.
-
-**Transparency.** You see ink levels in tanks instead of guessing what "25% remaining" means on a chipped cartridge.
-
-**Less cartridge roulette.** Fewer trips to buy proprietary carts that cost more than the printer seemed to.
+Cost per page is the whole argument, and bottle refills beat cartridges over time if you actually use the printer. You also see ink levels in the tanks instead of guessing what "25% remaining" means on a chipped cartridge, and you stop making trips to buy proprietary carts that cost more than the printer seemed to.
 
 The tradeoff: **higher upfront price**, bigger footprint, and you still have to maintain the thing or nozzles clog.
 
 ---
 
-## What the G3000 does well
+## School forms and boring home documents
 
-**Home document printing** - forms, school paperwork, receipts, light graphics. It handles the boring jobs without drama when it's healthy.
-
-**Wireless printing** from laptops and phones is convenient enough that USB feels like a backup.
-
-**Scan and copy** (on the AIO variants) cover the "I don't need a office copier, I need one decent page" use case.
+Forms, school paperwork, receipts, light graphics: it handles the boring jobs without drama when it's healthy. Wireless printing from laptops and phones is convenient enough that USB feels like a backup, and scan and copy on the AIO variants cover the "I don't need an office copier, I need one decent page" job.
 
 For a home office that prints **a few times a week**, the math usually favors tanks.
 
@@ -67,22 +59,12 @@ For a home office that prints **a few times a week**, the math usually favors ta
 
 ---
 
-## Who should buy one
+## Buy it if you print weekly, skip it if twice a year
 
-**Good fit:**
+We bought ours when the cartridge math stopped making sense, and that's still who it's for: a family with school forms, bills, and IDs, or a home office that prints weekly rather than hundreds of pages daily. If cartridge costs have burned you and you'll actually refill the bottles, this is the trade.
 
-- Family with school forms, bills, IDs, occasional docs
-- Home office that prints weekly, not daily hundreds
-- Anyone burned by cartridge costs who will actually refill bottles
-
-**Skip if:**
-
-- Twice-a-year printing - you'll clog it before you save money
-- Fast duplex office volume - wrong tool
-- Gallery-quality photos - wrong tool
-
+Skip it if you print twice a year, because you'll clog it before you save anything. Skip it for fast duplex office volume or gallery-quality photos too - wrong tool in both directions.
 
 The Canon G3000 isn't exciting. It's **practical** - a refillable home printer for people who got tired of feeding cartridges.
 
 Buy it if you'll use it often enough to justify the space and the occasional head-cleaning ritual. Otherwise, the print shop counter might still be cheaper peace of mind.
-

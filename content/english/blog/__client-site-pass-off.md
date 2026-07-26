@@ -113,12 +113,10 @@ I ask the same questions from my side. If the answers are fuzzy, we fix them bef
 
 ---
 
-## Why this matters for credibility
+## Tuesday's announcement, without a crisis
 
 Anyone can make a pretty homepage. The hireable part is whether the site **keeps working** when the meeting ends.
 
 Clients don't remember your build pipeline. They remember whether Tuesday's announcement went live without a crisis. They remember whether the pass-off doc existed when your phone was off.
 
 I'd rather lose a job than promise a publish path I won't support. I'd rather price training honestly than absorb unlimited "small tweaks" until I resent the client.
-
-Launch is not the finish line. It's the pass-off. Get that right and the build actually earns its keep.

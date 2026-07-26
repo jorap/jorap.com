@@ -24,13 +24,13 @@ Most of mine stuck. A few didn't. Here's what I learned.
 
 ---
 
-## What they're genuinely good at
+## Lamps, fans, and the "did I leave that on?" check
 
 **Lamps and fans** are the winners. Schedule the living room lamp to come on before you get home. Turn off the bedroom fan without getting out of bed. Set a Christmas tree on a timer without hunting for those old mechanical dial boxes.
 
-**Hard-to-reach outlets** are the quiet use case. Behind the TV, under a desk, behind a bookshelf - if reaching the switch is annoying, a smart plug pays for itself in saved contortions.
+Hard-to-reach outlets are the quiet use case. Behind the TV, under a desk, behind a bookshelf - if reaching the switch is annoying, a smart plug earns its spot in saved contortions.
 
-**"Did I leave that on?"** anxiety is real. Being able to check from the phone and kill power remotely is worth more than it sounds, especially for irons, wax warmers, or anything that makes you nervous when you're already in the car.
+And the "did I leave that on?" anxiety is real. Being able to check from the phone and kill power remotely is worth more than it sounds, especially for irons, wax warmers, or anything that makes you nervous once you're already in the car.
 
 ---
 
@@ -86,8 +86,6 @@ Before I buy another smart plug:
 
 If I can't answer yes to the first three, I skip it.
 
-
-Smart plugs are boring technology in the best way. They don't impress anyone at a party. They just quietly remove small daily friction - lights, fans, worry - for the cost of a nice lunch.
+Smart plugs are boring technology in the best way. They don't impress anyone at a party. They just quietly remove small daily friction - lights, fans, worry - for budget-tier money.
 
 That's enough for me to keep a few in every room that needs one.
-

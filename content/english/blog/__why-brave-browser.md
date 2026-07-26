@@ -32,7 +32,7 @@ On a stock Chromium install, that rhythm turns into a negotiation. Accept cookie
 
 Brave ships with **Shields already on**. Trackers and a lot of the noisy stuff get blocked before I think about it. I'm not pretending that makes me invisible on the internet. It does mean fewer "your computer has a virus" banners and less RAM burned on autoplay junk I'll never watch.
 
-The first week felt almost suspicious - pages loading faster, fewer modals, fewer tabs I opened and immediately regretted. Then I stopped noticing, which is the point. **A tool that works should disappear into the background.**
+The first week felt almost suspicious - pages loading faster, fewer modals, fewer tabs I opened and immediately regretted. Then I stopped noticing it at all, which is the part I actually wanted.
 
 ---
 
@@ -122,17 +122,7 @@ That's the whole pitch for me. I'm not paying for a browser variant when the fre
 
 Origin also happens to be the stripped-down build - wallet, rewards, AI sidebar clutter, most of the upsell noise turned off by default. I would've ignored that stuff in regular Brave anyway. **Free on Linux plus less junk is a nice two-for-one**, not the reason I switched.
 
-Regular Brave stays on Android. Origin stays on the desktop. Sync still ties them together.
-
----
-
-## On phone and desktop
-
-**Desktop (Linux):** Brave Origin for personal links - free on Linux, which is why it's there. Chrome sits one click away for client QA.
-
-**Phone:** Regular Brave on Android - shields on, Chromium-ish behavior, less garbage in mobile article views. Banking and OTP-heavy stuff still goes through the slow second phone I wrote about elsewhere. Habit, not Brave doctrine.
-
-The two installs stay aligned through **Brave Sync**, not because I manually copy links between devices. Same personal browser, two screens.
+Regular Brave stays on Android with shields on, and Chrome sits one click away on the desktop for client QA. Brave Sync ties the two installs together so I'm not copying links between devices by hand. Banking and OTP-heavy stuff still goes through the slow second phone I wrote about elsewhere - habit, not Brave doctrine.
 
 ---
 

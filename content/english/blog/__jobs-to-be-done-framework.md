@@ -1,7 +1,7 @@
 ---
 title: "Jobs to Be Done Framework"
 meta_title: "Jobs to Be Done - What Job Is Your Product Hired For?"
-description: "Features don't sell products. Jobs do. A plain-language walkthrough of the Jobs to Be Done framework - with the questions I use before building anything."
+description: "Features don't sell products. Jobs do. These are the Jobs to Be Done questions I run before I spec anything."
 slug: "jobs-to-be-done-framework"
 date: "2026-06-18T06:02:00Z"
 image: "/images/note.jpg"
@@ -55,11 +55,11 @@ If I can't answer trigger and outcome, I'm not ready to spec.
 
 Two people with the same demographics can hire the same product for opposite reasons. Fancy camera to feel creative. Fancy camera to document inventory. Same SKU. Different job.
 
-Personas describe **who**. Jobs describe **why now.** JTBD doesn't replace talking to people - it **focuses** the conversation on causality.
+Personas describe **who**. Jobs describe **why now.** JTBD doesn't replace talking to people - it points the conversation at what actually triggered them to go looking today.
 
 ---
 
-## Messaging shift
+## Same product, different hire
 
 Weak: "Cloud-native static site generator with fast builds."
 
@@ -71,10 +71,9 @@ Same product. Different hire.
 
 ## Mistakes I still catch myself making
 
-- Listing activities instead of progress ("manage email" vs "reply before the client panics")
-- Ignoring **doing nothing** as the biggest competitor
-- Treating the job as frozen - jobs shift after launch
-- Feature factory immunity - JTBD isn't permission to never ship; it's permission to ship **on purpose**
+I still list activities instead of progress ("manage email" instead of "reply before the client panics"). I forget that **doing nothing** is the biggest competitor. And I treat the job as frozen when jobs actually shift after launch.
+
+One more, and it's the sneaky one: JTBD isn't permission to never ship. It's permission to ship **on purpose**.
 
 ---
 

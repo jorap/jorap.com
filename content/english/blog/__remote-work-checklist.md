@@ -63,7 +63,7 @@ The power cord rule is the one that saved me most: **if it only lives on the des
 
 ## What stays home
 
-Monitor, desk chair, printer - the **home anchor**. Remote days are portable adequacy, not duplicating the office. I'd rather pack light and suffer one missing item once than haul a monitor I use twice a year.
+Monitor, desk chair, printer - the **home anchor**. Remote days are about being good enough on the road, not duplicating the office. I'd rather pack light and suffer one missing item once than haul a monitor I use twice a year.
 
 ---
 

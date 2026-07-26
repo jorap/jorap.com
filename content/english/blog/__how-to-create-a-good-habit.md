@@ -61,5 +61,3 @@ Clear's line I keep in my notes: optimize for outcome, you win once. Optimize fo
 ---
 
 Good habits aren't character tests. They're **design problems** - cue, friction, reward.
-
-Make the good thing obvious and easy. Make the bad thing invisible and annoying. Repeat until it's boring.

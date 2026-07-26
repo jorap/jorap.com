@@ -30,13 +30,13 @@ It's deliberately **boring hardware** - slow enough that I'm not tempted to use 
 
 ---
 
-## Other jobs a second phone can do
+## Emergency backup, travel SIM, work split
 
-**Emergency backup.** When the primary dies, gets lost, or needs a week in repair, life doesn't pause. OTPs, maps, messaging, payments - modern life assumes you have a screen in your pocket.
+The obvious job is emergency backup. When the primary dies, gets lost, or needs a week in repair, life doesn't pause - OTPs, maps, messaging, payments, all of it assumes you have a screen in your pocket.
 
-**Travel phone.** Some people load a local SIM in a cheap Android and leave the main phone on wifi-only abroad. Less risk if it gets stolen. Less panic if it gets cracked on a tour bus.
+The travel version is a local SIM in a cheap Android with the main phone left on wifi-only abroad. Less risk if it gets stolen, less panic if it gets cracked on a tour bus.
 
-**Work / personal split.** Not everyone wants work Slack on the same device as family photos. A second phone can be the "work SIM only" box that stays in the bag after hours.
+Then there's the work and personal split. Not everyone wants work Slack on the same device as family photos, so the second phone becomes the work-SIM box that stays in the bag after hours.
 
 ---
 
@@ -69,8 +69,6 @@ If you're careful, insured, and live somewhere with easy phone repair, you might
 
 I still like the **instant swap** - SIM out, SIM in, back online in ten minutes without borrowing hardware.
 
-
 A second cellphone isn't about having more gadgets. For me it's about **separating daily-driver chaos from the apps I don't want on that screen** - and having a swap-ready phone in the bag if the main one dies.
 
 Cheap Android, older iPhone, whatever fits your ecosystem - the model matters less than knowing which phone holds what, and charging it before you forget it exists.
-

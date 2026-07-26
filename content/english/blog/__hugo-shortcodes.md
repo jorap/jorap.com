@@ -34,17 +34,15 @@ When YouTube changed embed attributes years ago, I fixed one `youtube.html` part
 
 ## What I use on this site
 
-**Image shortcode** - Facebook walkthrough posts, blueprint diagrams, testimony screenshots. Params for caption, dimensions, `webp="true"`, zoom. Way better than hand-writing `<figure>` tags in every draft.
+I lean on three of them here. The **image shortcode** carries Facebook walkthrough posts, blueprint diagrams, and testimony screenshots, with params for caption, dimensions, `webp="true"`, and zoom - much better than hand-writing `<figure>` tags in every draft.
 
-**YouTube / Spotify** - the DNPAP song resources page embeds tracks without iframe copy-paste drift. Params stay consistent; if YouTube changes embed attributes, I fix one file.
-
-**TOC** - long template reference posts can drop a table of contents without maintaining it by hand.
+YouTube and Spotify embeds run the DNPAP song resources page without iframe copy-paste drift. Params stay consistent, so if YouTube changes embed attributes I fix one file. And TOC lets long template reference posts drop a table of contents without me maintaining it by hand.
 
 Built-ins like `ref` and `relref` handle internal links when filenames move. I use permalinks in prose more often, but `relref` saves you when a slug changes and you forgot to grep the site.
 
 ---
 
-## Custom shortcode anatomy
+## One file in `layouts/shortcodes/`
 
 File: `layouts/shortcodes/youtube.html`
 
@@ -79,8 +77,7 @@ Get this wrong once and you'll wonder why your bold text stopped working inside 
 
 Rule of thumb: **third time you paste the same HTML block, make a shortcode.**
 
-Alert boxes, button links, responsive embeds, author bios - anything that might change site-wide. Markdown writers keep writing; theme maintainers keep one template.
-
+Alert boxes, button links, responsive embeds, author bios - anything that might change site-wide. I keep writing Markdown, and when the embed markup changes I fix one template instead of forty posts.
 
 Shortcodes are the DRY layer between "I write posts" and "I maintain a theme." I didn't build many custom ones - Hugoplate shipped the heavy lifting. The few I added paid for themselves the first time an embed format changed.
 

@@ -30,7 +30,7 @@ Sveltia (and tools like it) sit in the gap: **static hosting economics, CMS-shap
 
 ---
 
-## Git stays source of truth
+## The CMS still commits to the repo
 
 The CMS doesn't replace the repo. It commits Markdown (and media) like you would - with auth, forms, and guardrails.
 
@@ -60,9 +60,6 @@ I haven't rolled it out on every static job. When the fit is right, it's cheaper
 Solo blogger. Developer who already lives in Git. Client who happily emails copy for retainer batches.
 
 Also skip when the job needs real CMS features - member areas, ecommerce, complex workflows. [Static vs CMS](/blog/static-site-vs-cms/) still applies. Sveltia doesn't make Hugo into WordPress.
-
-
-Sveltia CMS solves the **Hugo accessibility gap** for non-technical editors.
 
 You might not need it. Your collaborator might. Know it exists before defaulting to WordPress again - or before forcing Git on someone who'll never use it.
 

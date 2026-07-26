@@ -1,6 +1,6 @@
 ---
 title: "Why Git Might Be the Best Thing Open Source Ever Shipped"
-meta_title: "Why Git Is One of Open Source's Greatest Innovations"
+meta_title: "Why Git Might Be the Best Thing Open Source Shipped"
 description: "I don't romanticize every tool in my stack. Git earned its place - distributed history, branches that actually save you, and the plumbing that let Linux, GitHub, and my own site survive bad hosting and worse Fridays."
 slug: "why-git-greatest-open-source-innovation"
 date: "2026-07-20T00:47:00Z"
@@ -61,7 +61,7 @@ Git's design matches that reality:
 - **Cheap branches** - try an idea, throw it away, nobody writes a memo.
 - **Content-addressed storage** - if the hash matches, the bits are the bits. Corruption shows up.
 
-The kernel shipped. GitHub showed up a few years later and put a web UI on top. GitLab, Bitbucket, Gitea, Forgejo - same plumbing, different front doors. **The innovation wasn't a website.** It was the object model underneath that made the websites possible.
+The kernel shipped. GitHub showed up a few years later and put a web UI on top. GitLab, Bitbucket, Gitea, Forgejo - same plumbing, different front doors. GitHub came later; the object model underneath is what made all those sites possible.
 
 Open source before Git was heroic. Patches by email. Tarballs named `project-final-REAL-v3.tar.gz`. Maintainers who deserved medals. After Git, contributing got closer to normal engineering: fork, branch, pull request, review, merge. The social layer still matters. The tooling stopped being the bottleneck as often.
 
@@ -121,7 +121,7 @@ And yes, other version control systems exist. Mercurial deserved better marketin
 
 If you stripped Git out of my workflow tomorrow, I'd still write. I'd still build sites. I'd just be back in the file-based days with more fear.
 
-Fear of the one bad deploy with no rollback. Fear of the client who asks what changed last week and I only have vibes. Fear of editing `functions.php` on the live server at midnight because that's where the working copy lives. Fear of the hosting company that dies overnight and takes the only copy with it - I already lived a smaller version of that story.
+I'd be back to fearing the one bad deploy with no rollback, the client who asks what changed last week when all I have is vibes, the midnight `functions.php` edit on the live server because that's where the working copy lives, and the hosting company that dies overnight and takes the only copy with it. I already lived a smaller version of that last one.
 
 Git didn't invent backups, branching, or collaboration. It packaged them for a distributed world and gave open source a shared dialect. Linux needed it. GitHub rode it. My little Hugo blog runs on it every time I push.
 

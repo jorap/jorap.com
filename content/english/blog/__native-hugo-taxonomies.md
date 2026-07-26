@@ -39,7 +39,7 @@ Tags: useful for recurring topics, embarrassing when every post invents a new sy
 
 ---
 
-## categories vs tags (how I split them)
+## Categories vs tags - how I split them
 
 | | Categories | Tags |
 |---|---|---|
@@ -76,9 +76,6 @@ I haven't needed a custom taxonomy on JoRap yet. Hugoplate already ships multi-a
 
 Theme handles display. **You** handle not creating 400 empty tag pages.
 
-
 Native Hugo taxonomies organize the **public** site. My private wiki can be messier - wikilinks, backlinks, whatever.
 
-Published taxonomy should be intentional. Hugo makes grouping free. Curation is still work.
-
-When in doubt, fewer tags. Readers and future-you win.
+I'll keep categories under a dozen and tags short. Hugo makes grouping free; I still have to curate what ships. When in doubt, fewer tags. Readers and future-me win.

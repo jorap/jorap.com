@@ -49,25 +49,22 @@ Logical outline = readable outline. If the TOC looks weird, the post probably is
 
 ---
 
-## Lists vs tables vs prose
+## Checklists get lists, takes stay prose
 
-**Lists** for checklists, gear picks, steps with parallel structure.
+I use lists for checklists, gear picks, and steps with parallel structure. Tables go to comparisons that need columns, like the remote work bag or quote line items, and I keep them narrow because wide tables break on mobile.
 
-**Tables** for comparisons that need columns - remote work bag, quote line items. I keep them narrow; wide tables break on mobile.
-
-**Prose** for arguments, stories, opinions. Not everything should be bullets. The Marvel Snap post is mostly prose because the point is a take, not a checklist.
+Prose gets the arguments, stories, and opinions. Not everything should be bullets. The Marvel Snap post is mostly prose because the point is a take, not a checklist.
 
 ---
 
-## Bold, rules, and code
+## One bold phrase, not bold everything
 
 One **bold phrase** per section for the line I'd quote if I summarized the post aloud. Not bold everything.
 
 `---` between major sections on long posts - visual breath.
 
-Backticks for commands and filenames. Fences for multi-line code. Readers should know what's copy-pasteable.
+Backticks for commands and filenames, fences for multi-line code. I mark what's copy-pasteable so nobody has to guess.
 
-
-Markdown formatting is UX. **Format while you write**, not in a panic before publish.
+**Format while you write**, not in a panic before publish.
 
 Future readers include you at 11 PM trying to remember how you fixed a Hugo build. Make it easy on that person.

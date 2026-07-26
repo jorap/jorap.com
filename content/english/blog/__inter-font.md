@@ -26,7 +26,7 @@ It stuck. Inter is the only font family on [jorap.com](/) now - headings, body, 
 
 ## What pulled me in first
 
-**Inter** is a free sans-serif built for screens - tall lowercase letters, open shapes, spacing tuned so text still reads at small sizes. Rasmus Andersson released it in 2016 and kept iterating. You've seen it even if you don't know the name: app UIs, dashboards, docs sites, half the internet's "clean modern" phase.
+**Inter** is a free sans-serif built for screens - tall lowercase letters, open shapes, spacing tuned so text still reads at small sizes. Rasmus Andersson released it in 2016 and kept iterating. I'd already seen it on app UIs and docs sites before the book named it; it just took *Refactoring UI* to make me stop shopping.
 
 *Refactoring UI* didn't sell me on novelty. It sold me on **a font that stays readable while you're fixing the rest of the page** - buttons, cards, forms, the stuff I was actually learning from the book.
 
@@ -50,12 +50,7 @@ A lot of templates push the two-font trick: a display serif for headings, a neut
 
 Here I run **Inter only**. Hierarchy comes from scale, weight, and a little negative letter-spacing on big headings - not from importing a second personality.
 
-Rough ladder on this site:
-
-- **Body**: 400, normal tracking
-- **Labels and small UI**: 500 or 600
-- **Section headings**: 600 semibold, tighter tracking
-- **Page titles**: 700 bold, tighter still
+Rough ladder on this site: body at 400 with normal tracking, labels and small UI at 500 or 600, section headings at 600 semibold with tighter tracking, page titles at 700 bold and tighter still.
 
 Same family throughout. The page feels like one person talking, which matches what I want from a personal site.
 
@@ -65,7 +60,7 @@ I still get tempted by a contrast font when I'm bored. I've learned to sit on th
 
 ## Screen-first without looking like a spreadsheet
 
-Inter sits in a sweet spot between **system UI** and **designed sans**.
+Inter sits between **system UI** and a **designed sans** - close enough to native, plain enough for essays.
 
 `system-ui` is fast and native, but it changes face by OS. Windows visitors get Segoe. Mac visitors get San Francisco. Fine for apps. Odd for a site that's supposed to feel like *mine*.
 
@@ -79,11 +74,7 @@ Inter reads like a product interface font that still works for essays. Structure
 
 jorap.com doesn't load Inter from Google at page view time. The build fetches the woff2 files once, rewrites the CSS to local paths, and ships fingerprinted assets from my own origin.
 
-Why bother?
-
-- **Privacy**: visitors aren't hitting Google's font CDN on every page load.
-- **Reliability**: a third-party font request can't block first paint because I blocked myself on a bad hotel Wi-Fi day.
-- **Consistency**: same files everywhere, not "whatever Google serves this week."
+I do it for privacy, so visitors aren't hitting Google's font CDN on every page load. For reliability, so a third-party font request can't block first paint - I blocked myself that way once on bad hotel Wi-Fi. And for consistency: the same files everywhere, not whatever Google serves this week.
 
 The tradeoff is honest: **Hugo has to reach the internet at build time** to pull the font binaries. If that fetch fails, the build fails loud. I'd rather a broken deploy than a silent fallback to the wrong face in production.
 

@@ -1,5 +1,5 @@
 ---
-title: "Wifi Router"
+title: "What I Look For in a Home Wifi Router"
 meta_title: "Wifi Router - What I Look For and What I'd Buy Again"
 description: "After one too many dead zones and mystery reboots, here's what I care about in a home wifi router - and the habits that matter more than the box."
 slug: "wifi-router"
@@ -56,7 +56,7 @@ I also check how long the manufacturer actually supports the model. A cheap rout
 
 ---
 
-## Wired ports still matter
+## Everything is wireless until it isn't
 
 Everything is wireless until it isn't. The desktop, the TV box, the printer that refuses to join wifi gracefully - I want **at least a few gigabit LAN ports** on the back.
 
@@ -72,20 +72,6 @@ I'm not loyal to one mesh brand - I just want nodes that are easy to add and don
 
 ---
 
-## The shortlist, again
-
-If I'm shopping for a home wifi router today, I scan for:
-
-1. Coverage for the rooms we actually use - not lab Mbps
-2. Stability; no ritual reboots
-3. Sensible placement, or a mesh plan if placement can't be fixed
-4. Firmware support that isn't already end-of-life
-5. Enough wired ports for the stubborn devices
-6. Setup my family won't need me to redo every month
-
----
-
 ## What I'd do right now
 
-If my router died tomorrow, I'd map the house first, check what's still getting security updates, and buy for **coverage and calm** - not the biggest number on the box. The internet coming into the house is only as good as the wifi that actually reaches your chair.
-
+If my router died tomorrow, I'd sketch the floor plan first - bedroom, kitchen, home office - check what's still getting security updates, and buy for **coverage and calm** rather than the biggest number on the box. The internet coming into the house is only as good as the wifi that actually reaches your chair.

@@ -44,7 +44,7 @@ Hugo picks templates in a hierarchy:
 
 When something renders wrong, I check **which template Hugo chose** before inventing a new file. Nine times out of ten the theme already had a hook I should have edited.
 
-Name things the way Hugo expects. Fighting the lookup order means duplicate layouts and confusion.
+I name things the way Hugo expects now. Fighting the lookup order got me duplicate layouts and a confusing afternoon.
 
 ---
 
@@ -72,7 +72,6 @@ Not a Go developer. These patterns cover almost everything I touch:
 - `{{ .Title | safeHTML }}` - filters on values
 
 When I need something weirder, I grep the theme for a working example. Hugoplate is thousands of lines of answers.
-
 
 Hugo Go templates reward small experiments on a local build. **Don't start from the official docs cover to cover.** Break one page you care about, fix it with the theme's partials as a cheat sheet.
 

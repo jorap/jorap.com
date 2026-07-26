@@ -32,15 +32,11 @@ Lee & Perrins is the original. Other brands exist. I've tried a few. I keep comi
 
 ## How we use it at home
 
-**Marinades.** A splash in soy-based marinades for pork or chicken adds depth you can't get from soy alone.
+**Marinades** get a splash alongside soy for pork or chicken, which adds a depth soy can't reach on its own. In burgers and meatballs I mix it into the ground meat before cooking - not enough to taste "Worcestershire," just enough to taste *more like meat*.
 
-**Burgers and meatballs.** Mixed into ground meat before cooking - not enough to taste "Worcestershire," just enough to taste *more like meat*.
+A teaspoon into stir-fries or fried rice at the end, off heat, wakes up leftover rice better than extra salt does. Same trick for soups and stews that taste flat after you've already adjusted the salt: small dash first, then taste.
 
-**Stir-fries and fried rice.** A teaspoon at the end, off heat, wakes up leftover rice better than extra salt.
-
-**Soups and stews.** When something tastes flat and you've already adjusted salt - try a small dash first.
-
-**Emergency BBQ sauce hack.** Ketchup, brown sugar, vinegar, Worcestershire. Not authentic anywhere. Delicious anyway.
+The emergency BBQ sauce is ketchup, brown sugar, vinegar, and Worcestershire. Not authentic anywhere. Still works.
 
 ---
 
@@ -52,7 +48,7 @@ Shake well. It settles. And wipe the neck - a sticky cap is how bottles get aban
 
 ---
 
-## Storage
+## Pantry before opening, fridge after
 
 Pantry before opening. **Refrigerate after opening** if you want it to stay sharp for months - especially in a hot kitchen. It keeps a long time either way, but the fridge slows flavor drift.
 
@@ -68,8 +64,4 @@ There's no perfect 1:1 swap. Close-ish options:
 
 None of them are Lee & Perrins. That's why I restock before the bottle rattles empty.
 
-
 If your cooking has a recurring problem - "it's fine but kind of flat" - Worcestershire is a cheap fix with a long shelf life. Lee & Perrins is the bottle I trust to taste the same every time.
-
-Worth a permanent spot next to the soy sauce.
-

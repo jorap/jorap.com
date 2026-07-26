@@ -1,6 +1,6 @@
 ---
 title: "Personal Immune Booster Supplements"
-meta_title: "Personal Immune Booster Supplements - What's In My Stack"
+meta_title: "What's In My Supplement Stack (Not Medical Advice)"
 description: "Not medical advice - just the immune-support supplements I keep in rotation, what the research-ish case is, and how I actually take them."
 slug: "immune-booster-supplements"
 date: "2026-06-18T06:10:00Z"
@@ -30,7 +30,7 @@ Supplements don't replace vaccines, hand washing, or rest. They're **margin**, n
 
 ---
 
-## What's in my rotation
+## D3, zinc, C, and elderberry when everyone's sniffling
 
 **Vitamin D3** - I take it with a meal that has fat. Lab numbers matter more than guessing; I don't mega-dose blind.
 
@@ -54,10 +54,7 @@ Supplements don't replace vaccines, hand washing, or rest. They're **margin**, n
 
 ## What actually works better
 
-- **Sleep** - seven hours beats seven supplements
-- **Water and real meals** - not just gummies
-- **Walks** - they count
-- **Stress** - cortisol isn't a meme; it matters
+Seven hours of sleep beats seven supplements. Water and real meals beat gummies. Walks count. And cortisol isn't a meme - the weeks I'm stressed are the weeks I get sick, supplements or not.
 
 I still get sick. The stack doesn't make me invincible. It makes me feel like I did the boring baseline when life gets loud.
 
