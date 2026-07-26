@@ -114,7 +114,7 @@ Hub: [[Prayer Jesus Taught]] - maps Jesus' prayer teaching across the Gospels (L
 
 ## Character and witness
 
-- [[Fruits of the Spirit]] - bear much fruit, abide in Me (John 15:5); love through self-control when I [[Walk by the Spirit]]
+- [[Fruits of the Spirit]] - hub: Galatians 5:22-23 cluster; love through self-control when I [[Walk by the Spirit]]
 - [[Discipleship]] - deny yourself, take up your cross (Luke 9:23); following Jesus after faith - not salvation's price tag
 - [[Discipleship vs Leadership]] - the Son of Man came to serve (Matthew 20:28); follow Christ upward, own direction outward
 - [[Humility and Service]] - ransom for many by serving (Mark 10:45); wash feet, don't grasp status

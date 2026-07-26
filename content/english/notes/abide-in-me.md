@@ -13,7 +13,7 @@ key_concept: |
   - Level 5: Under [[Free Grace]], fruit never earns the branch its place - pruning hurts but serves yield; self-powered "fruit" without abiding is dead wood, same trap as treating [[Sanctification]] as pure self-stacked effort.
   - Abiding is ongoing dependence, not a one-time conversion event - pruning hurts but serves fruitfulness over time.
   - Under [[Free Grace]], fruit does not earn the branch's place in the vine - the branch bears fruit because it is connected.
-  - [[Fruits of the Spirit]] names the cluster Galatians lists - love through self-control - grown by walking in the Spirit, not sheer willpower.
+  - [[Fruits of the Spirit]] hub lists the cluster Galatians names - love through self-control - grown by walking in the Spirit, not sheer willpower.
   - [[Sanctification]] is the slow becoming that abiding produces over time.
   - Self-powered "fruit" without abiding is the dead wood Jesus removes - same trap as [[Compounding]] when I treat spiritual growth as pure self-stacked effort.
 examples:

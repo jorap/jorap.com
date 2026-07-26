@@ -3,8 +3,9 @@ title: "Goodness"
 meta_title: "Goodness - Upright Deeds the Spirit Grows"
 description: "Goodness fruit is upright action that points to God, not hidden virtue or good deeds performed for applause."
 key_concept: |
-  {{< bible "Galatians 5:22-23" >}}
-  - Fruits of the Spirit pairs goodness with kindness - outward integrity that points to God, not a personal brand.
+  {{< bible ref="Galatians 5:22-23" emphasize="22" >}}
+
+  - [[Fruits of the Spirit]] pairs goodness with kindness - outward integrity that points to God, not a personal brand.
   - Level 1: Goodness is doing the right thing so people think of God - like helping quietly so others thank Him.
   - Level 2: Goodness is outward integrity that points people toward God - like a flashlight aimed at the sky, not at your own name tag.
   - Level 3: Fruits of the Spirit pairs goodness with kindness - when goodness becomes a personal brand, the fruit rots into performance.

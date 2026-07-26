@@ -5,13 +5,12 @@ description: "The Spirit grows steady follow-through with what God entrusted, no
 key_concept: |
   {{< bible ref="Galatians 5:22-23" emphasize="22" >}}
   
-  - Faithfulness is steady use of what God entrusted, not one heroic week mistaken for earned salvation.
+  - [[Fruits of the Spirit]] names faithfulness beside gentleness - steady use of what God entrusted, not one heroic week mistaken for earned salvation.
   - Level 1: Use what God gave you in small steady ways - not one big week to earn heaven, like watering daily.
   - Level 2: Faithfulness is like showing up to the same shift on time - steady use over months, not one heroic week that tries to buy a seat already gifted.
   - Level 3: Because grace already saved, steady obedience responds to a gift - it does not purchase heaven or replace performance with the entry fee.
   - Level 4: Do the small entrusted task today with the same care you would bring to a visible stage - quiet lanes count.
-  - Level 5: Grace already secured salvation - [[Fruits of the Spirit]] names faithfulness beside gentleness; [[Eternal Rewards]] may follow steady use without becoming the entry fee.
-  - [[Fruits of the Spirit]] names faithfulness beside gentleness - reliable follow-through because the Spirit sustains the walk, not because merit bought your seat.
+  - Level 5: Grace already secured salvation - [[Eternal Rewards]] may follow steady use without becoming the entry fee.
   - [[Faithful Steward]] is the garden echo: well done for faithful use over quiet Tuesdays, not burying what He gave or performing for applause.
   - [[Eternal Rewards]] names what steady faithfulness may receive; [[Free Grace]] keeps it from becoming the entry fee.
 examples:

@@ -1,27 +1,21 @@
 ---
+note_kind: "index"
 title: "Fruits of the Spirit"
 meta_title: "Fruits of the Spirit - Character the Spirit Produces"
-description: "Love through self-control is one Spirit-grown cluster in believers, not a merit checklist that buys heaven."
+description: "Paul's Galatians cluster grown by the Spirit - love through self-control, not a merit checklist."
 key_concept: |
-  {{< bible ref="John 15:1-8" emphasize="5" >}}
-  
-  - Much fruit glorifies the Father and proves discipleship - grown on the vine, not manufactured for credit.
-  - Level 1: Good character grows when you stay hooked to Jesus like fruit on a branch - not fake apples for show.
-  - Level 2: Fruit of the Spirit is like apples that only grow on branches still attached to the tree - connection first, performance for credit second.
-  - Level 3: Because branches bear fruit by abiding, self-powered virtue theater cannot substitute for staying connected to the vine.
-  - Level 4: Stay in the vine today through prayer and obedience before you perform character for an audience - manufacture fails under stress.
-  - Level 5: [[Abide in Me]] names the engine in John; [[Sanctification]] is the slow becoming that fruit marks - Paul lists love through self-control as one cluster, not a merit checklist.
-  - Paul lists the cluster - one Spirit, love through self-control, not a merit checklist.
-  - [[Abide in Me]] names the engine in John: branches bear fruit because they stay in the vine.
-  - [[Sanctification]] is the slow becoming that fruit marks.
-examples:
-  - "I snapped at my kid after a week with almost no prayer and wondered why patience vanished - Galatians fruit comes from [[Walk by the Spirit]], not forcing virtue until Friday."
-  - "Performing joy at church while empty at home told me I was manufacturing fruit - abiding first, then the cluster grows."
+  {{< bible ref="Galatians 5:22-23" emphasize="22" >}}
+
+  - Love through self-control is one Spirit-grown cluster - not nine separate badges you earn for heaven.
+  - I split each fruit into one-claim notes so I can link and drill them like the rest of the garden.
+  - [[Walk by the Spirit]] is the daily lane; [[Abide in Me]] is the vine picture John gives - fruit grows from connection, not willpower theater.
+  - Under [[Free Grace]], fruit confirms belonging and answers grace already received - it does not buy the ticket.
+  - Start at [[Walk by the Spirit]] if you need the engine. Wander the nine fruits below by what you lack today.
 shareable_thought:
-  - "Love through self-control is one Spirit-grown cluster in believers, not a merit checklist that buys heaven."
-  - "Much fruit glorifies the Father and proves discipleship."
-  - "Grown on the vine, not manufactured for credit."
-  - "Paul lists the cluster - one Spirit, love through self-control, not a merit checklist."
+  - "Paul lists one cluster - love through self-control - not a merit checklist that buys heaven."
+  - "I split each fruit into one-claim notes I can link and drill."
+  - "Fruit grows from walking in the Spirit and abiding in Christ - not manufactured for credit."
+  - "Spirit fruit confirms belonging - it does not earn it."
 relationships:
   - type: alternative
     wikilink: "[[By Their Fruits]]"
@@ -34,7 +28,7 @@ relationships:
     reason: "when willpower streaks mimic fruit to prove you are saved"
   - type: extends
     wikilink: "[[Abide in Me]]"
-    reason: "Fruit comes from staying in the vine - Galatians names what grows"
+    reason: "Vine picture behind the cluster - fruit from staying connected"
   - type: extends
     wikilink: "[[Assurance]]"
     reason: "Spirit fruit confirms belonging - not earns it"
@@ -43,102 +37,79 @@ relationships:
     reason: "Galatians cluster is what Christlikeness looks like up close"
   - type: extends
     wikilink: "[[Discipleship]]"
-    reason: "Daily following is where love, patience, and gentleness show up"
+    reason: "Daily following is where the cluster shows up"
   - type: extends
-    wikilink: "[[Don't Worry]]"
-    reason: "Peace fruit pushes back on anxiety's grip"
+    wikilink: "[[Eternal Principles]]"
+    reason: "Character spine lives in the teaching lane; this hub groups Galatians fruit"
   - type: extends
-    wikilink: "[[Faithful Steward]]"
-    reason: "Stewardship fruit - faithful use of what was entrusted"
-  - type: extends
-    wikilink: "[[Faithfulness]]"
-    reason: "Galatians steady use of what He entrusted"
-  - type: extends
-    wikilink: "[[Gentleness]]"
-    reason: "Galatians strength under control"
-  - type: extends
-    wikilink: "[[Goodness]]"
-    reason: "Galatians upright deeds that glorify the Father"
-  - type: extends
-    wikilink: "[[Grace]]"
+    wikilink: "[[Free Grace]]"
     reason: "Fruit follows grace received - not wages that buy heaven"
   - type: extends
-    wikilink: "[[Grateful Obedience]]"
-    reason: "Obedience from thanks produces fruit; merit-motive produces theater"
-  - type: extends
-    wikilink: "[[Heart Righteousness]]"
-    reason: "Spirit applies the inner standard Jesus taught - motive, not polish"
-  - type: extends
-    wikilink: "[[Humility and Service]]"
-    reason: "Gentleness and service - kingdom greatness through serving"
-  - type: extends
-    wikilink: "[[Joy]]"
-    reason: "Galatians gladness rooted in Christ's promise"
-  - type: extends
-    wikilink: "[[Kindness]]"
-    reason: "Galatians tender regard for the person in front"
-  - type: extends
-    wikilink: "[[Let Your Light Shine]]"
-    reason: "Good works fruit - visible light from inner life"
-  - type: extends
-    wikilink: "[[Love God]]"
-    reason: "Love fruit - greatest commandment cluster"
-  - type: extends
-    wikilink: "[[Love Your Enemies]]"
-    reason: "Love fruit when it is hard - bless persecutors"
-  - type: extends
-    wikilink: "[[Love Your Neighbor]]"
-    reason: "Love fruit outward - second commandment pair"
-  - type: extends
-    wikilink: "[[Mercy]]"
-    reason: "Mercy named among the fruit cluster"
-  - type: extends
-    wikilink: "[[Patience]]"
-    reason: "Galatians slow fuse from the Spirit"
-  - type: extends
-    wikilink: "[[Peace]]"
-    reason: "Galatians calm from trusting the Father"
-  - type: extends
-    wikilink: "[[Peacemakers]]"
-    reason: "Peacemaking fruit - blessed are those who mend"
-  - type: extends
-    wikilink: "[[Renewed Mind]]"
-    reason: "Renewed mind walks by the Spirit - flesh defaults lose steering"
-  - type: extends
     wikilink: "[[Sanctification]]"
-    reason: "Becoming holy over time - fruit is what that walk looks like"
+    reason: "Slow becoming the cluster marks over years"
   - type: extends
-    wikilink: "[[Slow the Moment]]"
-    reason: "Self-control fruit needs a slowed moment before reaction"
-  - type: extends
-    wikilink: "[[The Beatitudes]]"
-    reason: "Kingdom character overlaps - poor in spirit, merciful, peacemakers"
+    wikilink: "[[Walk by the Spirit]]"
+    reason: "Daily lane where the cluster grows"
 slug: "fruits-of-the-spirit"
 date: "2026-07-01 20:15:00+08:00"
 image: "/images/note.jpg"
 categories: ["Faith"]
 author: "JoRap"
-tags: ["Gospel", "Eternal Principles", "Galatians", "Theology", "Discipleship"]
+tags: ["Gospel", "Eternal Principles", "Galatians", "Theology", "Discipleship", "MOC"]
 aliases: ["fruit of the Spirit", "Galatians 5:22-23 fruit"]
 featured: false
-review: true
-card_sets: ["Eternal Principles", "Gospel", "Discipleship"]
-cards:
-  - front: "Snapped at my kid after a dry week - no prayer, just forcing patience by will. Where does Spirit fruit come from?"
-    back: "Walk by the Spirit - not flesh willpower."
-  - front: "Flesh habits winning this week - Spirit fruit flat. Which side am I feeding?"
-    back: "Feed Spirit - stay connected, crucify flesh."
-  - front: "Performing joy at church, empty at home. What's missing?"
-    back: "Abide first - fruit grows from connection."
-  - front: "Correction turned sharp with my kid - volume up, gentleness gone. What's the move?"
-    back: "Gentleness - tone from Spirit, not force."
-  - front: "Love and peace showing up after a hard season I didn't manufacture. Who produces it?"
-    back: "The Spirit - not my merit streak."
-  - front: "Trying to checklist all nine fruits by Friday. What's the engine?"
-    back: "Abide - fruit grows, not forced."
 draft: false
 ---
 
+## Start here
 
+- [[Walk by the Spirit]] - Galatians 5:16; daily dependence over willpower sprints
+- [[Abide in Me]] - John 15:5; vine picture behind the cluster
+- [[Free Grace]] - fruit follows the gift - does not purchase heaven
+- [[Sanctification]] - slow becoming the cluster marks over years
+- [[Eternal Principles]] - teaching lane hub; this page groups Paul's fruit list
 
+## The nine fruits
 
+Paul names one cluster in Galatians 5:22-23. Each fruit has its own spine note with six review cards at [/notes/review/](/notes/review/) - filter **Discipleship** or **Eternal Principles**.
+
+- [[Love]] - first in the cluster; every other fruit flows from it
+- [[Joy]] - gladness rooted in Christ's promise, not a good-week performance
+- [[Peace]] - inner calm from God's reign, not denial at any price
+- [[Patience]] - slow fuse under delay; the Spirit changes what waiting does to you
+- [[Kindness]] - tender regard for the person in front, not performance niceness
+- [[Goodness]] - upright deeds that point to God, not a personal brand
+- [[Faithfulness]] - steady use of what God entrusted, not one heroic sprint
+- [[Gentleness]] - strength under control, not loud correction without love
+- [[Self-Control]] - PKM restraint skill; Galatians names Spirit-grown control in the same cluster - same word, different job (see note)
+
+## Kingdom echoes
+
+Jesus taught character that overlaps the cluster. These spine notes cross-link the Galatians list to the Sermon on the Mount and the commandments.
+
+- [[Love God]] / [[Love Your Neighbor]] - two directions love fruit takes
+- [[Love Your Enemies]] - love when it costs
+- [[The Beatitudes]] - poor in spirit, merciful, peacemakers
+- [[Peacemakers]] - active mending, not silence only
+- [[Don't Worry]] - anxiety's opposite when peace fruit holds
+- [[Let Your Light Shine]] - visible goodness that glorifies the Father
+- [[Heart Righteousness]] - motive before polish
+- [[Humility and Service]] - gentleness in kingdom greatness
+- [[Faithful Steward]] - stewardship echo beside faithfulness fruit
+- [[Grateful Obedience]] - thanks-motivated walk produces fruit, not theater
+- [[Renewed Mind]] - flesh defaults lose steering when the mind is renewed
+- [[Slow the Moment]] - one beat before reaction; patience and self-control echo
+
+## Same word, different job
+
+- [[By Their Fruits]] - Matthew 7:20; discern teachers by outcome over time, not polished talk
+- [[Compounding]] - when virtue streaks stack into proof you are saved
+
+## Cross-links (PKM)
+
+| Faith note | PKM partner | Link |
+|------------|-------------|------|
+| [[Fruits of the Spirit]] | [[Self-Control]] | Spirit-grown restraint vs general next-move skill |
+| [[Patience]] | [[Slow the Moment]] | One beat before reaction |
+| [[Joy]] | [[Compounding]] | Good-week streak is not gospel gladness |
+| [[Peace]] | [[Don't Worry]] | Trust before the 2am scroll loop |

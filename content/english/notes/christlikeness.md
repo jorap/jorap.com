@@ -10,10 +10,10 @@ key_concept: |
   - Level 2: A student athlete mirrors the coach's footwork drill after drill - less old selfish habits on display, more of the pattern shown.
   - Level 3: Christlikeness settles who you are becoming - more patience in traffic, less default self on display; standing was settled at faith.
   - Level 4: Apologize slower than you used to snap - growth after faith, not the entry fee; ordinary Tuesdays matter more than one emotional Sunday.
-  - Level 5: [[Sanctification]] is the slow process; [[Abide in Me]] is the engine; [[Fruits of the Spirit]] is what people notice - you do not manufacture Christlikeness to earn [[Justification]] already settled.
+  - Level 5: [[Sanctification]] is the slow process; [[Abide in Me]] is the engine; [[Fruits of the Spirit]] hub is what people notice - you do not manufacture Christlikeness to earn [[Justification]] already settled.
   - [[Free Grace]] settles where I spend forever.
   - Christlikeness settles who I am becoming - more of His patience in traffic, more of His gentleness at dinner, less of my default self on display.
-  - [[Sanctification]] is the slow process, [[Discipleship]] is the daily walk, [[Abide in Me]] is the engine, [[Fruits of the Spirit]] is what people notice when the walk is real.
+  - [[Sanctification]] is the slow process, [[Discipleship]] is the daily walk, [[Abide in Me]] is the engine, [[Fruits of the Spirit]] hub is what people notice when the walk is real.
   - Romans 8:29 names the aim - to become conformed to the image of His Son.
   - I do not manufacture Christlikeness to earn standing - [[Justification]] already settled that.
   - PKM mirror: [[God Centered Design]] - build the week toward His likeness, not applause.
