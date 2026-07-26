@@ -16,15 +16,15 @@ examples:
 shareable_thought:
   - "Name the slip while rollback is cheap - late surprises cost trust more than early ugly truth."
   - "Bad news does not age well - surface the miss while the team can still steer."
-  - "Early surfacing pairs with owning the call, then fixing the runbook."
+  - "Name your call, then fix the runbook together."
   - "Punishment theater guarantees late surprises."
 relationships:
-  - type: contradicts
-    wikilink: "[[Normalization of Deviance]]"
-    reason: "when late silence normalizes the miss"
   - type: alternative
     wikilink: "[[Confess to One Another]]"
     reason: "Faith lane names sin confession; this names project misses"
+  - type: contradicts
+    wikilink: "[[Normalization of Deviance]]"
+    reason: "when late silence normalizes the miss"
   - type: extends
     wikilink: "[[Blameless After-Action Review]]"
     reason: "Early surfacing feeds honest postmortems"

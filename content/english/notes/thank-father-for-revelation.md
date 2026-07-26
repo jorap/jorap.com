@@ -20,7 +20,7 @@ examples:
 shareable_thought:
   - "Jesus thanked the Father for hiding truth from the proud and revealing it to little children."
   - "He rejoiced in the Spirit and thanked the Father - not for His own status, but for who gets let in."
-  - "Hidden from the wise, revealed to little children - an upside-down economy the Father runs."
+  - "Thank God for understanding you did not earn before you teach what you received."
   - "I did not crack the code by intellect - the Father revealed what I could not earn."
 relationships:
   - type: contradicts

@@ -3,15 +3,15 @@ title: "Maintenance Window"
 meta_title: "Maintenance Window"
 description: "Block garden time on the calendar so broken links do not ambush on a random Sunday."
 key_concept: |
-  - Scheduled time to prune, fix links, and archive - not random Sunday panic.
-  - Level 1: Pick a set time to clean up your notes - like setting aside Saturday morning to tidy your room, not panicking on a random Sunday.
+  - Scheduled time to prune, fix links, and archive - a standing slot, not a mood.
+  - Level 1: Pick a set time to clean up your notes - like setting aside Saturday morning to tidy your room instead of waiting until the mess gets scary.
   - Level 2: A maintenance window is scheduled time to prune links and archive - not crisis cleaning when something breaks.
   - Level 3: PKM systems rot without a fixed review slot - prune, fix orphans, and archive on calendar, not guilt.
   - Level 4: Block ninety minutes weekly for garden hygiene - broken links and stale tags compound when you wait for panic.
-  - Level 5: [[Periodic Knowledge Review]] and [[Maps of Content]] both assume rhythm - random Sunday panic is how [[Normalization of Deviance]] enters your note stack.
+  - Level 5: [[Periodic Knowledge Review]] and [[Maps of Content]] both assume rhythm - skipped slots are how [[Normalization of Deviance]] enters your note stack.
   - Calendar the prune before the garden rots - same habit as oil changes, not panic Sundays.
   - [[Periodic Knowledge Review]] calendars the pass; this note names the scheduled slot.
-  - I block garden time on the calendar so broken links do not ambush me on a random Sunday.
+  - When I skip two slots in a row, the orphan list tells me before any feeling does.
 examples:
   - "First Sunday I swap the car fluids and rotate tires - not waiting for the check-engine light."
   - "Saturday morning is toy-bin purge and mending - not panicked cleaning when guests are at the door."
@@ -19,7 +19,7 @@ shareable_thought:
   - "Block garden time on the calendar so broken links do not ambush on a random Sunday."
   - "Calendar the prune before the garden rots."
   - "Same habit as oil changes, not panic Sundays."
-  - "Scheduled time to prune, fix links, and archive - not random Sunday panic."
+  - "Scheduled time to prune, fix links, and archive - a standing slot, not a mood."
 relationships:
   - type: alternative
     wikilink: "[[Change Window]]"

@@ -5,7 +5,7 @@ description: "Jesus chose twelve and gave them disproportionate time - depth wit
 key_concept: |
   {{< bible ref="Mark 3:14" emphasize="14" >}}
   - He appointed twelve to be with Him and to send out - presence before platform, depth before scale.
-  - Level 1: Jesus spent real time with a small group before sending them out - depth with a few beats chasing a huge crowd.
+  - Level 1: Jesus spent real time with a small group before sending them out - close time with twelve beats chasing every crowd.
   - Level 2: Jesus picked twelve to stay close before He sent them - presence before platform, like training a few workers well before opening every branch.
   - Level 3: Mass platform without presence produces spectators; time with a few produces sendable people - depth scales through people, not headcount alone.
   - Level 4: Invest disproportionate presence in a small circle before you scale the message outward.

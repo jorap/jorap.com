@@ -18,7 +18,7 @@ examples:
   - "The neighbor needed a ride at an inconvenient hour - love fruit showed up as inconvenience, not a sermon about caring."
 shareable_thought:
   - "Love is Spirit-grown care for God and neighbor - not performance affection that collapses when nobody is watching."
-  - "Fruits of the Spirit names love first in the cluster - before joy, peace, and the rest."
+  - "Fruits of the Spirit lists love first because every other fruit flows from it."
   - "Love is grown by walking in the Spirit, not manufactured for applause."
   - "Manufactured affection for church credit is not Spirit fruit."
 relationships:

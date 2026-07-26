@@ -6,8 +6,8 @@ key_concept: |
   {{< bible ref="Matthew 6:3-4" emphasize="4" >}}
 
   - Give in secret - left hand does not know what the right is doing.
-  - Level 1: Some good deeds stay private - give, pray, and fast for God to see, not for applause from other people.
-  - Level 2: Some good deeds belong in public and some stay private - give, pray, and fast for God to see, not for applause.
+  - Level 1: Some good things you do stay quiet - God already saw them, and that is enough.
+  - Level 2: Some good belongs on stage and some belongs behind a closed door - the tell is who you want watching.
   - Level 3: Left hand does not know what the right is doing - hidden devotion, public fruit where appropriate.
   - Level 4: Because applause rewires motive, secret lanes keep worship aimed at the Father, not the feed.
   - Level 5: Some good shines publicly; some stays hidden so the left hand does not know what the right is doing - audience of One, not performance religion.

@@ -15,16 +15,16 @@ examples:
   - "Player heard foot placement not you are slow - one cue he could fix next rep, same respect, better second half."
 shareable_thought:
   - "Useful feedback names what to change and how - truth the hearer can act on, not performance scoring."
-  - "Deposit one actionable truth - not a personality audit."
-  - "Timed, concrete, kind enough to land in the same conversation."
+  - "Feedback that helps deposits one actionable truth - not a personality audit."
+  - "Useful feedback is timed, concrete, and kind enough to land - same conversation, same respect."
   - "Pause, then one move they can try tomorrow."
 relationships:
-  - type: contradicts
-    wikilink: "[[Judge Not]]"
-    reason: "when condemnation masquerades as feedback"
   - type: alternative
     wikilink: "[[Words That Build Up]]"
     reason: "Faith lane names Ephesians edifying speech"
+  - type: contradicts
+    wikilink: "[[Judge Not]]"
+    reason: "when condemnation masquerades as feedback"
   - type: extends
     wikilink: "[[Composure]]"
     reason: "Cool delivery keeps feedback useful"

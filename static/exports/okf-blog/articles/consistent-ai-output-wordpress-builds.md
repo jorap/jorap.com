@@ -28,6 +28,8 @@ So you give them a short guide. After that, they stop guessing and start matchin
 
 AI works the same way. Plenty of skill, zero memory of your project. Every new chat is day one.
 
+I learned this the annoying way on one build: Tuesday's testimonial card and Thursday's team grid landed in different folders, with different helper names, doing the same job. Same project, same me, same prompts more or less.
+
 Write down your house rules and put them where the AI will actually read them.
 
 ---
@@ -134,25 +136,17 @@ Full system for the 80%. One light rule for the 20%. Creativity where it belongs
 
 ---
 
-## The bigger lesson
+## What this actually changed for me
 
 **Stop asking AI to build features. Ask it to build the layer that makes every feature match.**
 
-Using AI as a faster typist - one feature at a time - gives you speed and drift in equal measure. Spend early time on reusable code for your 80%, then stack every task on top. Speed compounds. Consistency compounds more.
+Using AI as a faster typist, one feature at a time, gives you speed and drift in equal measure. The layer is mostly a once-per-project cost, and every chat after it benefits. That hour on `helpers.php` paid for itself the first time I didn't have to read a whole block file to know what was in it.
 
-Building the layer is mostly once per project. Every chat and feature after benefits. An hour on helpers and rules saved me dozens of "why did it do *that?*"
+These days I open a chat with one line: use the helper, mirror `card.php`, follow the rules doc. I barely read the diff anymore, and the codebase got boring in the good way.
 
----
+I still get caught out. When a client invents a new ACF field label with a typo in it, nothing in the rules doc covers that, and I find the unescaped output the hard way. That's the 20% doing what the 20% does.
 
-## If you only take one thing
-
-> **Don't use AI for one feature at a time. Use it to build the reusable code for 80% of your work - then get the same output every time.**
-
-You don't need a huge playbook. Name what repeats. Have AI build a helper, a few reference examples, and a short rules doc. Then tell it to mirror and reuse, not invent.
-
-Work stops varying. The codebase gets boring in a good way. You stop reading every AI line because you already know the shape.
-
-Not faster. *Consistent.* Once you feel that, you won't want to go back.
+Not faster. *Consistent.* That's the part I wasn't expecting to care about this much.
 
 ## Related garden notes
 

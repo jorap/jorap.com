@@ -20,7 +20,7 @@ examples:
   - "I covered a coworker's shift quietly and almost made it a LinkedIn moment - let the Father get credit, not my personal brand."
 shareable_thought:
   - "Goodness fruit is upright action that points to God, not hidden virtue or good deeds performed for applause."
-  - "Fruits of the Spirit pairs goodness with kindness - outward integrity that points to God, not a personal brand."
+  - "When goodness becomes a personal brand, the fruit rots into performance."
   - "Upright deeds from motive beat polish over poison on the inside."
   - "Some good stays hidden; goodness fruit still refuses to bury what should point to God."
 relationships:

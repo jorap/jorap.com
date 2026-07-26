@@ -38,7 +38,7 @@ Think of it as a smaller, hand-picked version of your timeline. Your mom's photo
 
 Sunday morning test: open Favorites, scroll to the bottom, close the app. Ten minutes, maybe less. I see my mom's trip photos, one church update, a friend's kid milestone - then I'm done. No cousin politics, no sponsored reel hole.
 
-**I spend less time on Facebook, and like it more.** The Favorites feed is finite. I can scroll through everything in five or ten minutes and be done. No infinite hole.
+**The feed ends.** That's the part that changed things for me. There's a bottom, I reach it, and the app has nothing left to feed me.
 
 **I stopped missing things from people I care about.** Important life updates from close friends weren't getting buried under noise anymore.
 
@@ -46,7 +46,7 @@ Sunday morning test: open Favorites, scroll to the bottom, close the app. Ten mi
 
 **My phone time went down.** I check it, I close it. The dopamine slot machine just isn't built into this feed.
 
-## How to set it up
+## Where Facebook hid it (I missed it for years)
 
 Facebook tucks this thing away pretty deep. I missed it for years because it's buried under Feeds, not on the home screen where you'd expect it.
 
@@ -70,13 +70,9 @@ Here's where it actually lives.
 
 If you can't find "Feeds," the sidebar may have collapsed it. Expand the sidebar, or scroll the menu - Facebook moves things around occasionally.
 
-## Adding people, pages, and groups
+## Who I actually put on the list
 
-This is the fun part: deciding who gets in.
-
-- **Friends:** open their profile → tap **Friends** → choose **Add to Favorites**.
-- **Pages:** open the page → tap **Following** (or "Liked") → choose **Favorites**.
-- **Groups:** open the group → tap **Joined** → **Add to Favorites**.
+This is the fun part: deciding who gets in. The path is the same everywhere once you know it. Open the profile, page, or group, tap the status button (**Friends**, **Following**, or **Joined** depending on what you're looking at), and pick **Favorites**.
 
 ## A few things I learned by overdoing it first
 
@@ -100,4 +96,4 @@ This is the fun part: deciding who gets in.
 
 Facebook gets a lot wrong, but this one feature is genuinely good - it just doesn't get the spotlight it should. It takes about five minutes to set up. Start with the obvious people in your life, see how it feels for a week, and adjust from there.
 
-If it doesn't click for you, no harm done. But if you're anything like me, you'll wonder why you didn't find it sooner.
+Messenger still gets opened daily around here. Favorites is the only feed I scroll, and the main one has stayed closed for months.

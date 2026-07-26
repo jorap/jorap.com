@@ -1,7 +1,7 @@
 ---
 title: "Into Your Hands"
 meta_title: "Into Your Hands - Luke 23:46"
-description: "Jesus' last recorded prayer commended His spirit to the Father - into Your hands I commit My spirit."
+description: "Jesus' last recorded prayer entrusted His spirit to the Father instead of clutching control at the end."
 key_concept: |
   {{< bible ref="Luke 23:46" >}}
   - His last recorded words to the Father trust the outcome - Father, into Your hands I commit My spirit - echoing Psalm 31:5.
@@ -10,17 +10,17 @@ key_concept: |
   - Level 3: Death arrives and Jesus commits His spirit to the Father - trust at the finish, not panic control, because surrender completes what the garden began.
   - Level 4: At the end, commit the outcome to the Father's hands - echo Psalm 31:5 instead of clutching control.
   - Level 5: [[Not My Will]] surrendered the cup; here surrender completes at death - trust holds when control is gone.
-  - After forgiveness for enemies and the forsaken cry, this is release: death met as entrusting, not panic.
+  - After forgiveness for enemies and the forsaken cry, death met as entrusting, not panic - release, not defeat.
   - [[Not My Will]] surrendered the cup in the garden; the cross ends with committing His spirit to the same Father.
-  - Under [[Free Grace]], my death can mirror the posture - not earning heaven at the end, but resting in the Father's hands because Jesus already opened the way.
+  - Under [[Free Grace]], my death can mirror His posture - resting in the Father's hands because Jesus already opened the way, not earning heaven at the end.
 examples:
   - "Panic attack at 2am felt like dying - into Your hands is the line I clung to, not because I am Jesus, but because He showed how to die trusting the Father."
   - "My grandfather's last breath was calm quoting Psalm 31:5 - Jesus gave the whole church that sentence on the cross."
 shareable_thought:
-  - "Jesus' last recorded prayer commended His spirit to the Father - into Your hands I commit My spirit."
-  - "After forgiveness and the forsaken cry, death met as entrusting, not panic."
-  - "Echoes Psalm 31:5 - the same Father who heard Him all His life receives Him at the end."
-  - "Rest in the Father's hands because Jesus opened the way - not because I earn the ending."
+  - "Father, into Your hands I commit My spirit - His last recorded words trust the outcome."
+  - "After forgiveness for enemies and the forsaken cry, death met as entrusting, not panic."
+  - "Echoing Psalm 31:5, the trust He prayed in life is the trust He died with."
+  - "Resting in the Father's hands because Jesus already opened the way, not earning heaven at the end."
 relationships:
   - type: contradicts
     wikilink: "[[Don't Worry]]"

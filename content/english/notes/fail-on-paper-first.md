@@ -19,12 +19,12 @@ shareable_thought:
   - "The room assumes the project died - list causes, then patch."
   - "Failing on paper first asks what triggers the revert before users feel pain."
 relationships:
-  - type: contradicts
-    wikilink: "[[Ship It]]"
-    reason: "when ship-now beats fail-on-paper first"
   - type: alternative
     wikilink: "[[Count the Cost]]"
     reason: "Faith lane names honest cost before vows"
+  - type: contradicts
+    wikilink: "[[Ship It]]"
+    reason: "when ship-now beats fail-on-paper first"
   - type: extends
     wikilink: "[[Decision Quality]]"
     reason: "Visible failure modes improve the call"

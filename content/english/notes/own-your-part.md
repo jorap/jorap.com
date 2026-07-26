@@ -4,7 +4,7 @@ meta_title: "Own Your Part - Change Your Slice Without Waiting"
 description: "Change your slice of the problem - do not wait for a hand-down fix from upstairs."
 key_concept: |
   - Waiting for headquarters to fix your lane is how stale processes survive years.
-  - Level 1: Do not wait for headquarters to fix your corner - like sweeping your own room instead of waiting for someone else to clean the whole house.
+  - Level 1: Sweep your own room instead of waiting for someone else to clean the whole house - fix your corner first.
   - Level 2: Own-your-part means fix your lane instead of waiting for headquarters to rewrite stale process.
   - Level 3: Stale processes survive years when everyone waits for someone upstream - change what you can touch today.
   - Level 4: List three steps in your control before you escalate - if you never tried your lane, you are renting the excuse.
@@ -13,7 +13,7 @@ key_concept: |
   - Not filing complaints until someone else acts.
   - [[Accountability]] names who answers for the outcome; [[Own the Error]] names the miss after it lands.
   - This note is the proactive lane: start the fix before permission arrives.
-  - I change my slice of the problem - not wait for a hand-down fix from upstairs.
+  - I would rather fix my pass-off this week than win the argument about who should have fixed it.
 examples:
   - "The shared drive was chaos for months until one teammate renamed folders and posted a one-page map - own your part, not another ticket to IT."
   - "I stopped waiting for the coach to fix my defense and asked for ten minutes of footwork after practice - my gap, my rep request."

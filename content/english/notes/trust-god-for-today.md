@@ -11,22 +11,22 @@ key_concept: |
   - Level 3: Under [[Free Grace]], eternal life is settled - daily bread is fellowship provision, not a wage I earn by worrying harder.
   - Level 4: [[Seek the Kingdom First]] orders priorities; today's bread keeps anxiety from eating the mission.
   - Level 5: [[Cap Today's Commitments]] is the garden echo - honest capacity for today, not a fantasy list borrowed from tomorrow's energy.
-  - [[Don't Worry]] in Matthew 6 is the same chapter - bread today, Father tomorrow.
+  - [[Do not Worry]] in Matthew 6 is the same chapter - bread today, Father tomorrow.
 examples:
-  - "I spun at 2 a.m. about next year's tuition instead of sleeping - Matthew 6 bread is enough for today's shift, not every future bill at once."
+  - "I spun at two in the morning about next year's tuition instead of sleeping - Matthew 6 bread is enough for today's shift, not every future bill at once."
   - "Pantry looked thin on a lean month and I still prayed give us today - groceries showed up one day at a time, not in one heroic grocery run in my head."
 shareable_thought:
   - "Jesus taught asking for today's bread - enough grace for this day, not stockpiled anxiety about tomorrow."
   - "Tomorrow's pile of worry does not feed today."
-  - "Daily bread keeps provision in today's hands."
-  - "Honest capacity for today beats a fantasy list from tomorrow's energy."
+  - "Daily bread prayer keeps provision in today's hands."
+  - "Honest capacity for today, not a fantasy list borrowed from tomorrow's energy."
 relationships:
-  - type: contradicts
-    wikilink: "[[Compounding]]"
-    reason: "when tomorrow's stockpile eats today's bread prayer"
   - type: alternative
     wikilink: "[[Cap Today's Commitments]]"
     reason: "Garden echo - today's honest capacity cap"
+  - type: contradicts
+    wikilink: "[[Compounding]]"
+    reason: "when tomorrow's stockpile eats today's bread prayer"
   - type: extends
     wikilink: "[[Don't Worry]]"
     reason: "Same daily-bread lane - Father holds tomorrow"

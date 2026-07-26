@@ -18,8 +18,8 @@ examples:
   - "I organized snacks for my kid's team and wanted credit all week - the master reviews faithful use, not buried gifts or performance."
 shareable_thought:
   - "The Spirit grows steady follow-through with what God entrusted, not one heroic sprint mistaken for earned salvation."
-  - "Fruits of the Spirit names faithfulness beside gentleness."
-  - "Reliable follow-through because the Spirit sustains the walk, not because merit bought your seat."
+  - "Use what God gave you in small steady ways - not one big week to earn heaven."
+  - "Because grace already saved, steady obedience responds to a gift."
   - "Eternal Rewards names what steady faithfulness may receive; Free Grace keeps it from becoming the entry fee."
 relationships:
   - type: contradicts

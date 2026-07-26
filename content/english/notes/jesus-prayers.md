@@ -16,7 +16,7 @@ key_concept: |
 shareable_thought:
   - "Seven prayers the Gospels quote word for word - thanksgiving, surrender, intercession, and the cross."
   - "Jesus' Rhythms shows how often He prayed; this hub holds the prayers we can read verbatim."
-  - "Many prayer moments have no transcript - dawn solitude, all night on the mountain, after feeding five thousand."
+  - "The Gospels name many prayer moments without quoting them - dawn solitude, all night on the mountain."
   - "Copying His words is not earning heaven - it is learning how the Son talked to His Father."
 relationships:
   - type: alternative

@@ -1,7 +1,7 @@
 ---
 title: "The Feynman Technique"
 meta_title: "The Feynman Technique - Teach It to Learn It"
-description: "Teach the idea out loud to a blank page - wherever you stumble, you do not understand yet."
+description: "Teach the idea out loud to the blank page - wherever you stumble, you do not understand yet."
 key_concept: |
   - Explain it simply to a blank page - the stumble marks the gap.
   - Level 1: Like telling a younger kid how something works - when you cannot say it simply, you do not know it yet.
@@ -22,7 +22,7 @@ examples:
   - "My kid asked how the fuse box works and I waved vaguely - explaining it simply showed I did not understand it well enough to fix anything."
   - "The new hire asked why we batch invoices that way and I stumbled mid-sentence."
 shareable_thought:
-  - "Teach the idea out loud to a blank page."
+  - "Teach the idea out loud to the blank page."
   - "Wherever you stumble, you do not understand yet."
   - "Explain it simply to a blank page."
   - "The stumble marks the gap."

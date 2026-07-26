@@ -11,7 +11,7 @@ key_concept: |
   - Level 3: Because intercession came at the moment of greatest wrong, the prayer models mercy when condemnation would be easier.
   - Level 4: Pray for someone who wronged you before you rehearse the case against them - intercession first, ledger second.
   - Level 5: The prayer is intercession for enemies at maximum injustice - under [[Free Grace]], I am among the forgiven who did not know the weight of what we rejected.
-  - The prayer is intercession for enemies at the moment of maximum injustice, not a delayed lecture after He won.
+  - Mercy spoke before anyone apologized: intercession for enemies at maximum injustice - not a lecture after He won.
   - [[Moved with Compassion]] bent His calendar for hurting people; here mercy speaks when He had every right to condemn.
   - Under [[Free Grace]], I am among the forgiven who did not know the weight of what we rejected - His prayer bought space for [[Repent and Believe]] later.
 examples:
@@ -20,7 +20,7 @@ examples:
 shareable_thought:
   - "From the cross Jesus prayed Father forgive them for they do not know what they do."
   - "Intercession for enemies at maximum injustice - not a lecture after He won."
-  - "Nailed and mocked, He prayed for the people driving the nails."
+  - "Nailed and mocked, Jesus prayed for the people driving the nails."
   - "I am among the forgiven who did not know the weight of what we rejected."
 relationships:
   - type: contradicts

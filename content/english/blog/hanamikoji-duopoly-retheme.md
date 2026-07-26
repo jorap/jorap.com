@@ -23,25 +23,25 @@ For a **personal copy only** I went the other way on purpose. **Duopoly** - two 
 
 Same skeleton. Deliberately dull theme. One card size. Fewer physical pieces. **No files to download, no copies for sale** - one deck for my shelf, built as a component-streamlining exercise.
 
-This post is the retheme map and the component cuts. Not a rules sheet - those live in the zine I tuck beside the deck. Build notes for private play, not a print-and-play release.
+The rules live in the zine I tuck beside the deck, so what follows is the retheme map and what I cut from the box. Build notes for private play, not a print-and-play release.
 
 ---
 
 ## Why flags instead of a reskin
 
-A straight reskin chases the retail look - new geisha art, new item illustrations, same component sprawl. I was not trying to match *Hanamikoji*'s production. I was trying to **stress-test two things**: whether the mechanic and its simplicity still engages without illustration, and how far I could cut components before something broke.
+A straight reskin chases the retail look - new geisha art, new item illustrations, same component sprawl. I was not trying to match *Hanamikoji*'s production. I wanted to see two things: whether the mechanic still grabs people without illustration, and how far I could cut components before something broke.
 
 Country flags are boring on purpose. Black while the round is still open. After scoring, green toward whoever took the market, red toward the rival. Deal cards repeat the same flag small in the corner plus a point number. No scene to admire mid-turn. That is the point. When someone lays out a Gift or a Competition, the question on the table is **which pile hurts me less** - not what pretty picture landed in front of me. If the game still bites with flags and numbers, the mechanics are doing the heavy lifting.
 
 The business frame helps the same way. Geisha favor becomes **market control**. Item cards become **deal cards**. Charm points become **market value**. The four actions still read clean: backroom **Secret #1**, painful **Trade-off #2**, public **Gift #3**, head-to-head **Competition #4**. One of each per player. Dry nouns. Sharp decisions.
 
-Practical wins stack on top. Retail *Hanamikoji* uses **oversized geisha boards** and **smaller item cards** - two print templates, two sleeve sizes at home. I print poker-size everything. One cutter pass, one sleeve SKU, one stack in a tuck box.
+Retail *Hanamikoji* uses **oversized geisha boards** and **smaller item cards**, which means two print templates and two sleeve sizes at home. I print poker-size everything. One cutter pass, one sleeve SKU, one stack in a tuck box.
 
-Mechanics unchanged. Visual noise stripped. Friction lowered. Early plays suggest the mechanic still holds - you still lean in when someone fans out a Competition. The geisha atmosphere is gone; the tension is not.
+Same mechanics, less table clutter. People still lean in when someone fans out a Competition. The geisha atmosphere is gone; the tension is not.
 
 ---
 
-## Theme mapping
+## Geisha favor becomes market control
 
 One-to-one where it matters. If the retail name does not appear in the left column, I did not rename it.
 
@@ -93,9 +93,9 @@ You never hunt for a marker. You never bump one off-center. The country card *is
 
 ---
 
-## Component budget
+## From 43 bits down to 36 cards and a zine
 
-This section is the heart of the exercise. Every piece I removed had to prove it earned its spot. Seven victory markers, two card sizes, separate action tiles - gone if the flip and the action cards could cover the same job.
+Every piece I removed had to prove it earned its spot. Seven victory markers, two card sizes, separate action tiles - gone if the flip and the action cards could cover the same job.
 
 Retail *Hanamikoji* (approximate):
 

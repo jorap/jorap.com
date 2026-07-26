@@ -1,14 +1,14 @@
 ---
 title: "Sanctification"
 meta_title: "Sanctification - Becoming Holy After Faith"
-description: "After God declares me righteous, he keeps shaping my habits and heart - growth, not the ticket in."
+description: "After God declares me righteous, He keeps shaping my habits and heart - growth, not the ticket in."
 key_concept: |
   {{< bible ref="John 17:17-19" emphasize="17" >}}
   
   - Jesus asks the Father to make us holy through truth - Scripture shapes the slow becoming, not one heroic week.
   - Level 1: Jesus asks God to make us more like Him through truth in the Bible - slow daily change, not one perfect week.
   - Level 2: Holiness through truth in Scripture - slow walk after faith, not one heroic streak.
-  - Level 3: Because standing was settled at belief, sanctification shapes becoming - growth, not the ticket in.
+  - Level 3: Because standing was settled at belief, sanctification changes the walk, not the verdict.
   - Level 4: Treat a fruitless week as lagging growth, not revoked standing - open the word that retrains the habit loop.
   - Level 5: Jesus asks the Father to make us holy through truth - Scripture shapes the slow becoming; [[Christlikeness]] is aim, [[Justification]] already settled the verdict.
   - [[Christlikeness]] names the aim; sanctification names the slow walk after standing was settled at faith.
@@ -27,7 +27,7 @@ examples:
   - "I knew the verse on anger and still lost it at dinner - sanctification is slow; my standing was settled at faith, and I am still being changed."
   - "I treated my quiet-time streak like proof God accepts me - faith saves; sanctification grows me after, it does not re-open the verdict."
 shareable_thought:
-  - "After God declares me righteous, he keeps shaping my habits and heart."
+  - "After God declares me righteous, He keeps shaping my habits and heart."
   - "Growth, not the ticket in."
   - "Jesus asks the Father to make us holy through truth."
   - "Scripture shapes the slow becoming, not one heroic week."

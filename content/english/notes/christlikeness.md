@@ -9,7 +9,7 @@ key_concept: |
   - Level 1: Like when you copy how your teacher writes the letter A - the goal is to look more like Jesus over years.
   - Level 2: A student athlete mirrors the coach's footwork drill after drill - less old selfish habits on display, more of the pattern shown.
   - Level 3: Christlikeness settles who you are becoming - more patience in traffic, less default self on display; standing was settled at faith.
-  - Level 4: Apologize slower than you used to snap - growth after faith, not the entry fee; ordinary Tuesdays matter more than one emotional Sunday.
+  - Level 4: Apologize slower than you used to snap - ordinary Tuesdays matter more than one emotional Sunday.
   - Level 5: [[Sanctification]] is the slow process; [[Abide in Me]] is the engine; [[Fruits of the Spirit]] hub is what people notice - you do not manufacture Christlikeness to earn [[Justification]] already settled.
   - [[Free Grace]] settles where I spend forever.
   - Christlikeness settles who I am becoming - more of His patience in traffic, more of His gentleness at dinner, less of my default self on display.

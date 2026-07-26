@@ -44,7 +44,7 @@ Keeping it here also forces a small honesty check: if I'm not willing to give an
 
 ---
 
-## Writing things out makes you smarter
+## Writing the Drupal post showed me what I didn't actually know
 
 The act of writing a blog post - having to organize my thoughts well enough that a stranger could follow them - has taught me more than any course. When I wrote [why I switched from Drupal to WordPress](/articles/drupal-to-wordpress.md), I found out fast which parts I actually understood and which I'd been hand-waving for years.
 
@@ -52,21 +52,21 @@ And when other people start finding those posts through search, you realize you'
 
 ---
 
-## Search engines still send people your way
+## Google still finds my extension-cord post years later
 
 Social media is great for connecting with people who already follow you. Search engines are great for being found by people who *don't*.
 
-Most online journeys still start at Google. A well-written post on your own site can keep pulling in visitors years after you publish it, with no extra effort from you. A friend's Facebook post about the same topic is buried within a day. SEO isn't magic and it isn't instant, but if you publish consistently and write things people actually want to read, the search traffic compounds in a way social posts simply don't.
+My [extension-cord](/articles/extension-cord.md) post still gets hits every week. I wrote it years ago and barely touch it now. A Facebook thread about the same cord would be gone by lunch.
 
-My [extension-cord](/articles/extension-cord.md) post still gets hits every week - I wrote it years ago and barely touch it now. A Facebook thread about the same cord would be gone by lunch.
+SEO isn't magic and it isn't instant. But if you publish consistently and write things people actually want to read, the search traffic compounds in a way social posts simply don't.
 
 ---
 
-## You can see what's actually working
+## Analytics told me to keep writing the long career posts
 
-With your own site, you can install analytics and find out what people are reading, where they came from, how long they stuck around, and what made them leave. Not vanity metrics, real ones.
+I installed analytics and found out my Drupal essay was still pulling search traffic two years after I thought everyone had moved on. That's what convinced me to keep long-form career posts on the site instead of dumping them into threads.
 
-I found out my Drupal essay was still pulling search traffic two years after I thought everyone had moved on - that told me to keep long-form career posts on the site instead of threads.
+You get what people are reading, where they came from, how long they stuck around, and what made them leave. Not vanity metrics, real ones.
 
 Social platforms give you a thin slice of this, and only for the content you've posted there. With your own site you get the whole picture, and you can use it to write better, design better, and stop wasting time on things nobody cares about.
 
@@ -78,7 +78,7 @@ People assume websites are expensive. Some are. Mine isn't.
 
 This site runs on Hugo, hosted free on Cloudflare Pages, with source on GitHub. The only thing I pay for is the domain - a small annual renewal. That's less than two months of any halfway-serious social media ad campaign.
 
-Even if you don't want to mess with code, modern site builders (Squarespace, Wix, WordPress) will get you a clean, mobile-friendly site for the cost of a couple of coffees a month. The financial barrier mostly doesn't exist anymore.
+Even if you don't want to mess with code, modern site builders (Squarespace, Wix, WordPress) will get you a clean, mobile-friendly site on a cheap monthly plan. The money barrier mostly doesn't exist anymore. Time is the real cost, and nobody bills you for that upfront.
 
 (If you're curious how I built this one, [I wrote about that too](/articles/how-i-built-jorap-notes.md).)
 

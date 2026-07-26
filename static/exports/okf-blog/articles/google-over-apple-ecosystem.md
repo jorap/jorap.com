@@ -10,7 +10,7 @@ I get the pitch. Apple hardware feels polished. The **whole ecosystem** - iMessa
 
 I'm still on the Google side of the fence. Not because I hate Apple. I run a **MacBook Pro M4** for paid work and an **11th-gen iPad** for reading and couch browsing. Both are excellent machines. I still sign into **Gmail, Chrome, Drive, and Meet** on them like everywhere else. Because **Google's ecosystem matches how I actually live** - freelance work on a laptop, family life in the Philippines, a TV that needed cheap smarts, an Android phone in my pocket, and a backup handset buried in my bag where it's not easy to grab by accident.
 
-This isn't a phone-versus-phone argument. An ecosystem is the whole bundle: **accounts, cloud storage, messaging, video calls, the browser, the app store, the TV layer, and the hardware that sits on top**. Apple sells that as one polished package. Google sells the services first and lets the hardware be a mix-and-match layer underneath. **Google is the glue across my Mac, my iPad, my Android phones, and the Linux boxes I actually build on.** I care about the whole stack, not just which slab of glass is in my pocket.
+This isn't a phone-versus-phone argument. Apple sells the accounts, storage, messaging, calls, browser, app store, and TV layer as one polished package. Google sells the services first and lets the hardware underneath be whatever you already own. That difference is the whole post: **Google is the glue across my Mac, my iPad, my Android phones, and the Linux boxes I actually build on**, and no single vendor has to approve the combination.
 
 ---
 
@@ -46,7 +46,7 @@ That's the real split. Apple wants you to **finish the set**. Google already **f
 
 I'm not saying Apple gear is bad. I bought some of it. I'm saying **the whole Apple stack is expensive**, and each year's price bump buys less than it used to.
 
-The hardware is only the entry fee. After that you stack **iCloud storage tiers, Apple Music or Apple One, App Store prices baked into subscriptions, AirPods if you want the seamless pairing story, maybe an Apple TV box so the living room isn't second-class**. You're not buying a phone. You're buying into a price band where even the "budget" iPhone still costs more than the cheap Android I keep in my bag for banking - and the services keep asking for more on top.
+The hardware is only the entry fee. After that you stack **iCloud storage tiers, Apple Music or Apple One, App Store prices baked into subscriptions, AirPods if you want the instant-pairing story from the keynote, maybe an Apple TV box so the living room isn't second-class**. You're not buying a phone. You're buying into a price band where even the "budget" iPhone still costs more than the cheap Android I keep in my bag for banking - and the services keep asking for more on top.
 
 The hardware hikes are the part that annoys me most. Every cycle the phone and laptop cost more. The camera gets a little better. The chip gets a little faster. The port might change again so you buy new cables. **I don't feel the jump in daily life enough to pay the premium again.** Apple optimizes for people who want the best-feeling object in the room. I optimize for **good enough hardware with money left over for the rest of life**.
 
@@ -98,7 +98,7 @@ Apple's version - **iCloud, Photos, Keychain, device backups** - can be elegant 
 
 ---
 
-## Even corporations are better off on Google's side
+## Client work runs on Meet links, not matching laptops
 
 This isn't just my phone in my pocket. **The same pattern shows up on WordPress client work.**
 
@@ -106,11 +106,9 @@ My client workflow is boring on purpose: send a Meet link, share screen in Chrom
 
 Most clients I touch look like that - mixed gear, tight budgets, people in the Philippines bringing their own phones. Gmail, Drive, Docs, and Meet in a browser beats telling everyone to standardize on one premium vendor before they can answer email.
 
-Apple can run a business too. I've seen shops where everyone got issued a Mac and it was fine. But **that's a budget line**, not just taste. Premium hardware for every seat, then dongles, monitor adapters, replacements after spills. Google lets you keep the Windows fleet or hand people a workable Android, then layer the same inbox and shared drive on top.
+I've seen all-Mac shops that worked fine, and paid for every seat, dongle, monitor adapter, and spill replacement along the way. **That's a budget line, not just taste.** Google lets you keep the Windows fleet or hand someone a workable Android, then layer the same inbox and shared drive on top.
 
-
-
-New hire? Create an account, share the Drive folders, add them to Meet. You don't need to procure a specific laptop before they can log in. **Google's stack is the practical default** for messy orgs. Apple shines when the whole company can afford to buy in together. Most shops I've touched can't, or won't.
+New hire? Create an account, share the Drive folders, add them to Meet. Nobody has to buy matching laptops before that person can log in and answer email. Apple shines when the whole company can afford to buy in together, on the same cycle. The shops I actually touch can't, or won't.
 
 ---
 
@@ -138,19 +136,13 @@ I'm not looking for friends who treat hardware like a dress code. If staying in 
 
 ## What I actually run
 
-**Account layer:** One Google account - Gmail, Calendar, Drive, Photos, Meet links, Play Store apps.
+One Google account holds the whole thing together: Gmail, Calendar, Drive, Photos, Meet links, Play Store apps. Everything below signs into that.
 
-**Computer:** MacBook Pro M4 with Brave for daily browsing, Chrome for client work and site testing, plus terminal and the full apps paid work needs.
+The MacBook Pro M4 does paid work, with Brave for daily browsing and Chrome for client work and site testing. The 11th-gen iPad handles reading and couch browsing, still on the same Google account rather than a second Apple life. My Linux build boxes share that same Chrome profile and Drive folders, because Google's stack doesn't care which kernel is underneath.
 
-**Tablet:** 11th-gen iPad for reading and light browsing - still signed into the same Google account, not a second Apple life.
+Phones are an Android daily driver plus a cheap Android in the bag for banking, buried deep enough that I won't grab it by reflex. No iPhone. No smartwatch either - it's a weak phone on your wrist and my pocket already has a real one.
 
-**Phone:** Android daily driver, cheap Android in the bag for banking - tucked where I won't pull it out by reflex. No iPhone, no smartwatch - overrated for me; it's a weak phone on your wrist, and my pocket already has a real one.
-
-**Linux:** Build and test boxes signed into the same Chrome profile and Drive folders as the Mac. Google's stack doesn't care which kernel is underneath.
-
-**Living room:** Android TV box with Chromecast and YouTube signed in, not a full smart-home religion.
-
-**Calls and files:** Google Meet on the open-ear pair I wear all day - I need to hear the doorbell between calls - Drive when Git isn't enough.
+The living room is an Android TV box with Chromecast and YouTube signed in, which is as far as my smart-home ambitions go. Calls run through Meet on the open-ear pair I wear all day, because I need to hear the doorbell between them. Drive picks up whatever Git isn't the right tool for.
 
 That's the ecosystem I picked: **Google services first, mixed hardware underneath, swap parts without apologizing**. I own Apple screens. I don't live in Apple's walled garden - the flowers cost more every season and the new blooms look a lot like last year's. I live in a house with a lot of doors.
 

@@ -5,7 +5,7 @@ description: "Jesus prayed all night before a major fork - prayer first, not aft
 key_concept: |
   {{< bible ref="Luke 6:12" emphasize="12" >}}
   
-  - Choosing [[Invest in the Few]] was not a spreadsheet decision - He spent the night in prayer on the mountain before He named them.
+  - The biggest calls deserve a night of prayer before a pros-and-cons list - He chose the twelve after praying, not after ranking them.
   - Level 1: Before Jesus picked His twelve helpers, He prayed all night on a mountain - not from a pros-and-cons list.
   - Level 2: Jesus did not pick His closest helpers from a pros-and-cons list - He prayed all night on the mountain before He chose them.
   - Level 3: Before naming the twelve, He spent the night alone with the Father - the roster was prayer-shaped, not spreadsheet-shaped.

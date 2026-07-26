@@ -18,15 +18,15 @@ examples:
 shareable_thought:
   - "Paul tells believers to speak words that build up - edifying speech gives grace to hearers, not debris."
   - "Words either deposit grace or debris."
-  - "Building up is truth that helps - not flattery, not demolition."
-  - "Forgiven lips speak because Christ cleaned the ledger, not to earn standing."
+  - "Building up does not mean flattery - it means truth that helps, timed so the hearer can actually use it."
+  - "I speak from forgiven lips - not to earn standing, but because Christ already cleaned the ledger."
 relationships:
-  - type: contradicts
-    wikilink: "[[Iron Sharpens Iron]]"
-    reason: "when honest friction skips the grace deposit"
   - type: alternative
     wikilink: "[[Give Useful Feedback]]"
     reason: "Garden echo - feedback that deposits grace"
+  - type: contradicts
+    wikilink: "[[Iron Sharpens Iron]]"
+    reason: "when honest friction skips the grace deposit"
   - type: extends
     wikilink: "[[Free Grace]]"
     reason: "Build-up flows from grace received"

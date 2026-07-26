@@ -8,7 +8,7 @@ key_concept: |
   - Sin grows in the dark - confession to a trusted believer invites prayer and healing, not performance religion.
   - Level 1: Like telling the coach about the bad habit before game film exposes it - honesty is how the fix starts.
   - Level 2: James pairs confession with prayer for one another - the goal is healing fellowship, not gossip fuel.
-  - Level 3: [[Standing vs Fellowship]] keeps salvation settled while fellowship gets repaired through confession.
+  - Level 3: [[Standing vs Fellowship]] holds the line - salvation stays settled while fellowship gets repaired through confession.
   - Level 4: Under [[Free Grace]], I confess because I am already His - not to re-earn standing I never lost.
   - Level 5: [[Surface Bad News Early]] is the workplace echo - same honesty before the miss becomes a crater.
   - [[Forgiveness]] toward others and vertical confession both unblock closeness with God and people.
@@ -18,15 +18,15 @@ examples:
 shareable_thought:
   - "James calls believers to confess sins to each other - hidden failure rots; spoken failure finds prayer and repair."
   - "Sin grows in the dark - confession invites prayer and healing."
-  - "Standing stays settled; fellowship gets repaired through honesty."
+  - "Salvation stays settled while fellowship gets repaired through confession."
   - "I confess because I am already His - not to re-earn standing."
 relationships:
-  - type: contradicts
-    wikilink: "[[Let Your Light Shine]]"
-    reason: "when performance image blocks James confession"
   - type: alternative
     wikilink: "[[Surface Bad News Early]]"
     reason: "Workplace echo - honest miss before the crater"
+  - type: contradicts
+    wikilink: "[[Let Your Light Shine]]"
+    reason: "when performance image blocks James confession"
   - type: extends
     wikilink: "[[Forgiveness]]"
     reason: "Confession opens the repair lane"

@@ -16,15 +16,15 @@ examples:
 shareable_thought:
   - "Today's list should fit today's energy - three real wins beat twelve borrowed from tomorrow's fuel."
   - "Cap today's commitments to what honest capacity can finish."
-  - "Three finished tasks beat twelve half-done ones at bedtime."
+  - "Three finished tasks beat twelve half-done ones that guilt-trip you at bedtime."
   - "The cap includes rest - depleted brains sign bad lists."
 relationships:
-  - type: contradicts
-    wikilink: "[[Compounding]]"
-    reason: "when tomorrow's stack eats today's honest cap"
   - type: alternative
     wikilink: "[[Trust God for Today]]"
     reason: "Faith lane names daily bread; cap is the calendar version"
+  - type: contradicts
+    wikilink: "[[Compounding]]"
+    reason: "when tomorrow's stack eats today's honest cap"
   - type: extends
     wikilink: "[[Energy Protects Judgment]]"
     reason: "Capacity cap protects call quality"

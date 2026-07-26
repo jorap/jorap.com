@@ -58,7 +58,7 @@ Drupal has modules. WordPress has **plugins**, and there are so many of them tha
 
 Forms. SEO basics. Caching helpers. Migration tools. E-commerce add-ons. Backup plugins. Stuff clients ask for on Tuesday afternoon. On WordPress I often install, configure, and move on. On Drupal I'd sometimes end up evaluating three contrib modules, checking issue queues, and wondering if any of them would survive the next core bump.
 
-I'm not saying every WordPress plugin is good. Plenty are junk. But the **ecosystem** is the product feature nobody puts on the homepage. When you freelance or run small builds, that shelf saves weeks.
+I'm not saying every WordPress plugin is good. Plenty are junk. But the **plugin shelf** is the thing that actually saves my week, and nobody puts that on a homepage. When you freelance or run small builds, that shelf saves weeks.
 
 ---
 

@@ -10,7 +10,7 @@ key_concept: |
   - Level 3: When the costly hour arrives, glorifying the Father's name outweighs escape - obedience shows His glory, comfort does not.
   - Level 4: When the hard hour arrives, pray that God is honored through your obedience - not that you can skip the cup.
   - Level 5: [[Not My Will]] repeats the same surrender in Gethsemane; under [[Free Grace]] the cross is where the Father's name shines - not where you bargain out of cost.
-  - The Father answered from heaven: "I have glorified it, and will glorify it again."
+  - The Father answered from heaven: I have glorified it, and will glorify it again.
   - [[Not My Will]] repeats the same surrender in Gethsemane; here the glory of the Father's name is the point before the arrest.
   - Under [[Free Grace]], the cross is where the Father's name shines - not where I bargain my way out of cost.
 examples:
@@ -19,7 +19,7 @@ examples:
 shareable_thought:
   - "Facing the cross, Jesus asked the Father to glorify His name and the Father answered from heaven."
   - "Soul troubled, crowd listening - He asked for the Father's name to shine, not to skip the cup."
-  - "The Father answered: I have glorified it, and will glorify it again."
+  - "The Father answered from heaven: I have glorified it, and will glorify it again."
   - "The cross is where the Father's name shines - not where I bargain my way out of cost."
 relationships:
   - type: contradicts

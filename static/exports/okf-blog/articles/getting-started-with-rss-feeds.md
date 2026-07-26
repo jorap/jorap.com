@@ -10,9 +10,9 @@ For a long time I had this routine: open browser, check tech blog, check news si
 
 A friend asked me one day why I wasn't just using RSS. I told him I figured RSS had quietly died sometime around 2010. He laughed and pointed out that it never actually did. It just stopped being trendy.
 
-Two weeks of using it later, I was a convert. Here's the short version of what RSS is and how to actually get started without overcomplicating it.
+Two weeks of using it later, I was a convert.
 
-## What RSS actually is
+## RSS in plain English, after my friend called me out
 
 The week after my friend called me out, I subscribed to maybe eight sites and opened **Inoreader** instead of my usual tab loop. First morning: one list, everything new since yesterday. No sponsored post pretending to be a friend. No "people you may know." Just titles in order.
 
@@ -22,13 +22,13 @@ That's it. No algorithm. No "for you" page. No ads (unless the site puts them in
 
 Same idea as email newsletters, but without cluttering your inbox.
 
-## Why it's worth bothering with
+## What actually changed after two weeks
 
-Three things changed for me once I switched - after years of refreshing the same five sites like a nervous habit:
+Three things, after years of refreshing the same five sites like a nervous habit:
 
 **I stopped hunting for content.** Instead of visiting ten sites to see if anything was new, I open one app and see exactly what's new across all of them. The hunting time goes to zero.
 
-**I stopped missing things.** Algorithms decide what they want you to see. RSS shows you everything from sources you chose. If a blog you love only posts once every three months, you'll still see that post - it won't be buried.
+**Nothing slips past me anymore.** Algorithms decide what they want you to see. RSS shows you everything from sources you chose. If a blog you love only posts once every three months, you'll still see that post - it won't be buried.
 
 **My social media use went down.** A lot of what I was doing on Twitter and Reddit was just trying to keep up with stuff. RSS does that better, faster, and without the dopamine slot machine.
 
@@ -36,7 +36,7 @@ Three things changed for me once I switched - after years of refreshing the same
 
 There are dozens of RSS readers. Most are fine. I use **Inoreader** - the free tier gives you 150 feeds, which sounds tight but is actually way more than most people use. Most realistic personal setups end up around 20-30.
 
-Some others worth knowing about: **Feedly** (clean, popular), **NetNewsWire** (Mac/iOS, free, open source), **Reeder** (paid, gorgeous interface). Try whichever - they all do the same core job. You can export and switch readers anytime, so the choice isn't permanent.
+A few others I've tried or had recommended: **Feedly** (clean, popular), **NetNewsWire** (Mac/iOS, free, open source), **Reeder** (paid, nicer to look at). Try whichever - they all do the same core job. You can export and switch readers anytime, so the choice isn't permanent.
 
 Sign up, ignore most of the menus for now, and let's add some feeds.
 
@@ -76,13 +76,13 @@ A couple of rules I follow now:
 
 **Daily folder with morning coffee. Weekly folder on Sunday night.** That's the whole routine. Maybe fifteen minutes total.
 
-## A few things you might run into
+## Problems I hit in the first month
 
-**"This site doesn't seem to have RSS."** It probably does - just hidden. If you've really tried and there's nothing, services like RSS Bridge or Kill the Newsletter can sometimes generate feeds from sites or newsletters that don't expose one.
+**A site with no findable feed.** It probably does have one, just hidden. I hit a couple where I genuinely couldn't find it, and RSS Bridge generated one for me. Kill the Newsletter does the same trick for email-only newsletters.
 
-**"I have too many unread items and I'm stressed."** Mark all as read. Seriously. The backlog isn't going anywhere.
+**Two hundred unread items and a vague sense of dread.** I marked them all as read and nothing bad happened. That's the whole fix.
 
-**"I keep forgetting to check it."** Pin the tab. Put the app on your phone's home screen where Instagram used to be. The trick is to swap a habit, not add one.
+**Forgetting the app existed.** I put Inoreader on my phone's home screen where Instagram used to be. Swapping a habit worked; adding one didn't.
 
 ## The quieter benefits I didn't expect
 
@@ -96,9 +96,9 @@ And there's something satisfying - almost meditative - about clearing a feed to 
 
 RSS is not exciting. It will not get you likes. It's older than most of the apps on your phone and looks like it.
 
-But it works. It's been quietly working for over twenty years. And while everyone else is trying to keep up with whatever new platform is supposed to fix our content overload, you can just... read what you wanted to read, in the order it was published, when you have time.
+But it works, and it's been quietly working for over twenty years. I stopped checking Twitter for news I could have pulled from fifteen feeds I picked myself.
 
-Start with five feeds. Three folders. One coffee. See how it feels.
+Start with five feeds and three folders. I still open Inoreader with my morning coffee, and Instagram isn't on my home screen anymore.
 
 ## Related garden notes
 

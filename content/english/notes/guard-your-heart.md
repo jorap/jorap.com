@@ -14,19 +14,19 @@ key_concept: |
   - [[Heart Righteousness]] cares about motive inside, not performance outside - guarding protects the inside.
 examples:
   - "I knew the political rage thread was rotting my patience with my kids - Proverbs guarding meant mute and Scripture before scroll."
-  - "Late-night shows left me hollow before morning prayer - guarding the heart was a hard stop at ten, not willpower at six a.m."
+  - "Late-night shows left me hollow before morning prayer - guarding the heart was a hard stop at ten, not willpower at sunrise."
 shareable_thought:
   - "Proverbs says guard your heart - what you feed the inner life shapes everything downstream."
   - "Everything flows from the heart - guard what enters through eyes, ears, and habits."
-  - "Guarding is active filtering - love for God, not legalism theater."
-  - "Renewed mind needs clean fuel at the intake valve."
+  - "Guarding is active filtering - not legalism theater, but love for God that refuses garbage intake."
+  - "A renewed mind needs clean fuel - guarding is the intake valve before renewal can work."
 relationships:
-  - type: contradicts
-    wikilink: "[[Digital Serendipity]]"
-    reason: "when unguarded intake beats filtering the spring"
   - type: alternative
     wikilink: "[[Gate What You Consume]]"
     reason: "Garden echo - filter feeds before they feed you"
+  - type: contradicts
+    wikilink: "[[Digital Serendipity]]"
+    reason: "when unguarded intake beats filtering the spring"
   - type: extends
     wikilink: "[[Emotional Regulation]]"
     reason: "Input shapes what emotions have to work with"

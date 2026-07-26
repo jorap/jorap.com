@@ -8,7 +8,7 @@ key_concept: |
   - Level 2: Lane clarity means yes to your work and clean handoffs for the rest - not martyrdom coverage that hides missing owners.
   - Level 3: [[Many Parts One Body]] is the faith picture - one Christ, many gifts; lane clarity is humility in practice.
   - Level 4: [[Accountability]] names who owns the outcome; know your lane names what is not your outcome to carry solo.
-  - Level 5: [[Pareto Principle]] picks where your lane matters most - not every open gap is your assignment.
+  - Level 5: [[Pareto Principle]] picks where your lane matters most - some open gaps belong to someone else.
   - [[Invest in the Few]] goes deep in your lane instead of thin across every lane.
 examples:
   - "I took every client firefight until deploys slipped - knowing my lane was architecture docs, not every support ticket."
@@ -17,14 +17,14 @@ shareable_thought:
   - "Clarity on your role beats hero coverage of every gap - know the lane you actually run."
   - "You win when each leg stays in their lane."
   - "Yes to your work and clean handoffs for the rest."
-  - "Not every open gap is your assignment."
+  - "Some open gaps belong to someone else."
 relationships:
-  - type: contradicts
-    wikilink: "[[Influence Without Title]]"
-    reason: "when crisis heroics in every lane replace your slice"
   - type: alternative
     wikilink: "[[Many Parts One Body]]"
     reason: "Faith lane names one body, many parts"
+  - type: contradicts
+    wikilink: "[[Influence Without Title]]"
+    reason: "when crisis heroics in every lane replace your slice"
   - type: extends
     wikilink: "[[Accountability]]"
     reason: "Lane clarity feeds clean ownership"

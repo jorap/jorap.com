@@ -1,6 +1,6 @@
 ---
 title: "Instant Pot Chicken Adobo"
-meta_title: "Instant Pot Chicken Adobo - Filipino Comfort Food"
+meta_title: "Instant Pot Chicken Adobo - 10 Minutes Under Pressure"
 description: "My go-to chicken adobo for the Instant Pot. Bone-in thighs, 10 minutes under pressure, classic soy-garlic-vinegar glaze without the hours of waiting."
 slug: "instant-pot-chicken-adobo"
 date: "2026-05-03T23:00:00Z"
@@ -17,7 +17,9 @@ featured: false
 draft: false
 ---
 
-I usually make adobo in a bigger batch - about 2 kg of bone-in thighs - and this version is tuned for an 8-quart Instant Pot. Enough liquid to pressure-cook without a burn notice, not so much that you're waiting forever for the glaze.
+Adobo used to mean standing at the stove for an hour and a half, poking at it. I got tired of that on a Wednesday and moved the whole thing to the Instant Pot.
+
+I make it in a bigger batch, about 2 kg of bone-in thighs, and the numbers here are tuned for an 8-quart. Enough liquid to pressure-cook without a burn notice, not so much that you're waiting forever for the glaze.
 
 ## Why I use the Instant Pot for adobo
 
@@ -27,7 +29,7 @@ The other thing I like: pressure cook in the Instant Pot, reduce the sauce in sa
 
 ---
 
-## Recipe: Instant Pot Chicken Adobo
+## My 2 kg thigh batch
 
 ### Ingredients
 
@@ -69,34 +71,23 @@ or
 
 - ½-⅔ tsp xanthan gum
 
-### Instant Pot Liquid Check
+### The liquid number that stopped the burn notices
 
-The adjusted liquid base is about 425-430 ml total, or roughly 1.8 cups. This fits common 8-quart Instant Pot guidance of about 1.5 to 2 cups of liquid.
+That adds up to about 425-430 ml, roughly 1.8 cups. I kept hitting burn notices before I landed on this, because the generic "minimum 1 cup" advice leaves an 8-quart too dry at the bottom and too soupy once the thighs release their own liquid.
 
 ---
 
-## Method
+## How I run it
 
 ### Step 1: Marinate
 
 I usually start this the night before and forget it's in the fridge until lunch - works either way.
 
-In a bowl, combine:
+Combine the marinade from the list above (soy sauce, crushed garlic, peppercorns, bay leaves), add the thighs, and coat them thoroughly.
 
-- 160 ml soy sauce, about ⅔ cup
-- 10-11 cloves garlic, crushed
-- 1⅓ tsp whole black peppercorns
-- 4 dried bay leaves
+Thirty minutes gets you something. I aim for overnight, but two hours has worked plenty of times when I started late.
 
-Add 2 kg bone-in, skin-on chicken thighs and coat thoroughly.
-
-Marination time:
-
-- Minimum: 30 minutes
-- Recommended: 2-8 hours
-- Best: overnight
-
-Do not add vinegar to the marinade.
+Keep the vinegar out of the marinade. It goes in later, and I'll explain why in a second.
 
 ### Step 2: Brown the Chicken
 
@@ -106,7 +97,7 @@ Remove the chicken from the marinade and reserve the marinade.
 
 Brown the chicken skin-side down for 3-4 minutes. Flip and brown the other side briefly.
 
-Since this recipe uses 2 kg of chicken, brown in 2 batches so the pieces sear properly instead of steaming.
+At 2 kg I brown in two batches. Crowding the pan once got me pale, steamed skin and no fond, which defeats the point of the step.
 
 ### Step 3: Build the Cooking Base
 
@@ -117,11 +108,11 @@ Transfer the browned chicken to the Instant Pot. Add:
 
 Add 105-110 ml vinegar last (7 tbsp, or ⅓ cup + 2 tbsp).
 
-Do not stir for the first 2 minutes after adding the vinegar. Let it simmer briefly so the acidity mellows.
+Then leave it alone for two minutes. No stirring. I picked that up from stovetop adobo, not the Instant Pot manual - stir the vinegar in right away and the whole pot tastes sharp for the rest of the cook.
 
 ### Step 4: Pressure Cook
 
-Seal the Instant Pot. Browning the chicken using a separate pot ensures I will not experience a burn notice.
+Seal it and go.
 
 Cook on:
 
@@ -144,7 +135,7 @@ or
 
 - 1⅓-2 tsp allulose
 
-If a thicker sauce is desired, whisk ½-⅔ tsp xanthan gum with a little hot sauce, then stir it back into the pot.
+If you want it thicker, whisk ½-⅔ tsp xanthan gum into a little of the hot sauce first, then stir that back into the pot. Dumping it in dry gives you lumps, which I learned the obvious way.
 
 ### Step 6: Optional Crisping
 

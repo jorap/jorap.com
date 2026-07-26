@@ -3,9 +3,9 @@ title: "Plain Commitments at Work"
 meta_title: "Plain Commitments at Work - Yes Means Yes"
 description: "Say yes or no clearly - no \"definitely maybe,\" no stack of qualifiers so people trust a weak promise."
 key_concept: |
-  - Say yes or no plainly - hype on a weak promise is the real problem.
+  - Say yes or no plainly - padding the answer is how trust leaks.
   - Level 1: Say yes or no plainly at work - like telling the boss you can finish by Friday without stacking extra promises to sound brave.
-  - Level 2: Plain commitments mean yes or no without padded assurances - hype on a weak promise is the failure mode.
+  - Level 2: Plain commitments mean yes or no without padded assurances - swagger on a promise you cannot keep is the failure mode.
   - Level 3: Let your yes be yes at work - extra spin on a deadline you will miss destroys trust faster than an honest no.
   - Level 4: Before you promise, check capacity - if you need swagger to sound credible, the problem is overload, not vocabulary.
   - Level 5: [[Let Your Yes Be Yes]] and [[Integrity]] apply the same rule - [[Drafting in Public]] outruns private honesty when commitments get performative.
@@ -18,10 +18,10 @@ examples:
   - "I said yes to Friday delivery in the meeting and meant it - no silent scope creep over Slack that night."
   - "The coach promised equal minutes and tracked them on the whiteboard - parents stopped guessing."
 shareable_thought:
-  - "Say yes or no clearly."
-  - "No \"definitely maybe,\" no stack of qualifiers so people trust a weak promise."
-  - "Say yes or no plainly."
-  - "Hype on a weak promise is the real problem."
+  - "Say yes or no clearly - no stack of qualifiers so people trust a weak promise."
+  - "One deadline, one owner, one plain answer in Slack."
+  - "Extra spin on a deadline you will miss destroys trust faster than an honest no."
+  - "If you need swagger to sound credible, the problem is overload, not vocabulary."
 relationships:
   - type: contradicts
     wikilink: "[[Minimum Viable Product]]"

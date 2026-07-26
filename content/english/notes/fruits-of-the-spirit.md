@@ -12,10 +12,10 @@ key_concept: |
   - Under [[Free Grace]], fruit confirms belonging and answers grace already received - it does not buy the ticket.
   - Start at [[Walk by the Spirit]] if you need the engine. Wander the nine fruits below by what you lack today.
 shareable_thought:
-  - "Paul lists one cluster - love through self-control - not a merit checklist that buys heaven."
-  - "I split each fruit into one-claim notes I can link and drill."
-  - "Fruit grows from walking in the Spirit and abiding in Christ - not manufactured for credit."
-  - "Spirit fruit confirms belonging - it does not earn it."
+  - "Love through self-control is one Spirit-grown cluster, not nine separate badges you earn for heaven."
+  - "I split each fruit into one-claim notes so I can link and drill them."
+  - "Fruit grows from connection, not willpower theater."
+  - "Fruit confirms belonging and answers grace already received - it does not buy the ticket."
 relationships:
   - type: alternative
     wikilink: "[[By Their Fruits]]"

@@ -38,7 +38,7 @@ I measure once: from the typical bad outlet to where I'd actually sit. Then I ad
 
 A laptop charger pulls a light load - somewhere between a bright desk lamp and a small fan. You are **not** running a microwave through this cord.
 
-If a cord feels warm under a normal laptop load, something is wrong: thin wire, a damaged jacket, or too many things chained together. Unplug it and replace it.
+I grabbed the thinnest cheap cord I could find once and it ran warm under nothing but a laptop. Now I check the jacket before anything goes in the bag. If a cord warms up under a normal laptop load, something is wrong: thin wire, a damaged jacket, or too many things chained together. Unplug it and replace it.
 
 ---
 
@@ -60,9 +60,7 @@ In the **laptop bag**, I carry a plain light cord. Less bulk, less weight, and h
 
 ## What I actually pack
 
-One **2-metre cord** with a flat plug, coiled with a velcro strap, in the same pouch as the charger. It weighs almost nothing. I've lost count of how many dying-battery emergencies it fixed.
-
-It's in my **travel bag** too - same pouch as the charger - because a dead battery at the wrong outlet kills a meeting, and borrowing someone else's cord always takes longer than you think.
+One **2-metre cord** with a flat plug, coiled with a velcro strap, living in the same pouch as the charger in both my laptop bag and my travel bag. It weighs almost nothing and I've lost count of how many dying-battery emergencies it fixed. A dead battery at the wrong outlet kills a meeting, and borrowing someone else's cord always takes longer than you think.
 
 ---
 

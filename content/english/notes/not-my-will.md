@@ -5,7 +5,7 @@ description: "In Gethsemane Jesus prayed Abba, Father - not My will, but Yours b
 key_concept: |
   {{< bible ref="Luke 22:42" >}}
   
-  - The cup was real - soul overwhelmed, sweat like blood - and Jesus asked if the Father could remove it, then surrendered: not My will, but Yours be done.
+  - Jesus brought the dread out loud before He handed over the outcome - the honest ask and the yes came in one prayer.
   - Level 1: Jesus asked the Father to take the hard cup away, then said do Your will, not mine - like telling a parent you are scared, then doing what is right anyway.
   - Level 2: Not my will means Jesus prayed to escape the cup, then submitted - honest request before surrender.
   - Level 3: The cup was real - soul overwhelmed, sweat like blood - and surrender followed the ask, not instead of it.
@@ -19,9 +19,9 @@ examples:
   - "Leading a team meant a conversation that could cost me friends - I delayed a week; Jesus prayed three times the same yes before the arrest."
 shareable_thought:
   - "In Gethsemane Jesus prayed Abba, Father - not My will, but Yours be done."
-  - "Soul overwhelmed, cup real - He asked if it could pass, then surrendered."
-  - "Matthew and Mark record the same surrender prayed three times."
-  - "Costly obedience in prayer - not a template to earn favor, but the Son showing real dread and real yes."
+  - "Soul overwhelmed, sweat like blood - He asked if the cup could pass, then surrendered."
+  - "Matthew and Mark record Him praying the same surrender three times."
+  - "Under Free Grace, this is not a template to earn favor - it is the Son showing how costly obedience sounds in prayer."
 relationships:
   - type: contradicts
     wikilink: "[[There Is No Perfect Solution]]"

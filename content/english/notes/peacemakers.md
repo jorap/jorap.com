@@ -8,7 +8,7 @@ key_concept: |
   - Peacemaking is work: reconciliation, truth spoken in love, de-escalation when others want a fight.
   - Level 1: Making peace is hard work - like fixing a broken fence with your neighbor instead of yelling over it from your yards.
   - Level 2: Peacemakers reconcile, speak truth in love, and de-escalate - not silence while wrong stays unaddressed.
-  - Level 3: Matthew 5:9 blesses those who pursue peace on purpose - repair and truth, not avoiding conflict to keep comfort.
+  - Level 3: Matthew 5:9 blesses the ones who go do the repair - reconciling work, not avoiding conflict to keep comfort.
   - Level 4: Before you pick a side in a feud, ask what repair would require - then do that work before the next meeting.
   - Level 5: The blessing ties peacemaking to family resemblance - acting like the Father who reconciled you through [[Free Grace]] before you reconciled with anyone.
   - The blessing ties peacemaking to family resemblance - acting like the Father who reconciled me to Himself through [[Free Grace]] before I reconciled with anyone.

@@ -6,7 +6,7 @@ resource: "https://www.jorap.com/blog/alex-eala-pro-career-tracker/"
 tags: ["Tennis", "Alex Eala", "WTA", "Grand Slam", "Philippines", "Career Tracker", "Pro Tennis", "Sports Fan"]
 generated: { by: process:export-okf-blog-bundle, at: 2026-07-18T23:50:00Z }
 ---
-I've been following Alex Eala's career since her run at the **2025 Miami Open** - watching a Filipina rise through the WTA ranks in real time is something I never thought I'd get to do in my lifetime. This page is my running scrapbook: career-high rankings, the matches I'll always remember, head-to-heads with Grand Slam champions, and upcoming matchups I'm watching for. I update it when something happens worth pinning, not on a schedule.
+I've been following Alex Eala's career since her run at the **2025 Miami Open** - watching a Filipina rise through the WTA ranks in real time is something I never thought I'd get to do in my lifetime. This page is my running scrapbook for it. I update it when something happens worth pinning, not on a schedule.
 
 ---
 

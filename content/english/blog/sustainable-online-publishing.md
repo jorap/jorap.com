@@ -21,7 +21,7 @@ draft: false
 
 Every few months someone asks why I bother with a website when I could just post on Facebook. Fair question. I already wrote [why I still run my own site](/blog/why-run-your-own-website/) for the philosophy side. This post is the **habit** side - how I keep publishing without treating social as my archive.
 
-Signing up on Facebook takes five minutes. The audience is already there. You don't have to think about hosting or deploys or why your build failed at 11pm.
+Signing up on Facebook takes five minutes. The audience is already there. You don't have to think about hosting or Git pushes or why your build failed at 11pm.
 
 I still wanted **my work on the web** without begging an algorithm for reach. Social makes starting easy. The catch is you don't own the platform. Rules change. Reach throttles. Accounts get restricted when enough people complain. I learned that the hard way when I lost old PHP hosting and a chunk of my work with it - not a social ban, but the same lesson: **rented land is rented land.**
 
@@ -41,7 +41,7 @@ I don't treat social as my archive. I treat it as the thing I point at my archiv
 
 ---
 
-## Sustainable publishing = a domain and files you control
+## What I actually mean by owning the files
 
 **Domain** - cheap annual rent on a name people can remember (`jorap.com`). Buy something you won't cringe at in five years. I almost registered a joke domain in 2019 and I'm still glad I didn't.
 
@@ -61,16 +61,18 @@ What I mean is simpler: **the real copy lives somewhere you control.** Social is
 
 ---
 
-## If you're starting from zero
+## What I'd do if I were starting today
 
 1. Buy a domain you won't hate in five years
 2. Pick a static generator you can live with (Hugo worked for me; write down the version number the day you install it)
 3. Put content in Git from day one - that's your backup whether you think you need it yet or not
-4. Connect Cloudflare Pages (or Netlify, etc.) to auto-deploy on push
+4. Hook up Cloudflare Pages (or Netlify) so it rebuilds when you push
 5. Share links on social - don't write only in the social text box
 
-My first deploy was one page and a broken favicon. It still counted - I owned the URL before I owned the design.
+Step 2 is where I lost an evening. One bad indent in a YAML file broke the build and Hugo's error pointed at the wrong line. Fixed it the same night, and it still counted as progress.
 
-You don't need the full stack on day one. Domain + Git + static hosting is enough.
+My first push was one page and a broken favicon. I owned the URL before I owned the design.
 
-Social media is a great lobby. It's a bad foundation. I still post links there - the archive lives on my domain, in Git, on a deploy I control. The stack can be free. **Owning the files** is the part that compounds.
+You don't need the full stack on day one. Domain, Git, static hosting is enough.
+
+Social media is a great lobby. It's a bad foundation. I still post links there, but the archive lives on my domain, in Git, on a build I control. The stack can be free. **Owning the files** is the part that compounds.

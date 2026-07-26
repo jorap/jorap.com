@@ -370,6 +370,10 @@ def dump_frontmatter(fm: dict[str, Any]) -> str:
 
 
 WIKILINK_PLAIN = re.compile(r"\[\[([^\]|#]+)(?:#[^\]]+)?\]\]")
+# Sentence end, spaced dash, or semicolon. The dash class must stay hyphen-first:
+# writing it as [--–] is a range from "-" to "–" that swallows letters and digits,
+# so "to a blank page" would split at " a ".
+CLAUSE_SPLIT_RE = re.compile(r"(?<=[.!?])\s+|\s[-–—]\s|;\s+")
 
 
 def normalize_shareable_line(text: str) -> str:
@@ -421,7 +425,7 @@ def principle_line_pool(fm: dict) -> list[str]:
             flat = WIKILINK_PLAIN.sub(r"\1", chunk)
             flat = " ".join(flat.replace("**", "").replace("*", "").replace("`", "").split())
             parts = [flat]
-            parts.extend(re.split(r"(?<=[.!?])\s+|\s[--–]\s|;\s+", flat))
+            parts.extend(CLAUSE_SPLIT_RE.split(flat))
             for part in parts:
                 norm = normalize_shareable_line(part)
                 if len(norm) >= 10 and norm not in seen:
@@ -440,8 +444,12 @@ INCOMPLETE_SPLIT_HEAD = re.compile(
     re.I,
 )
 POINTER_PREFIX = re.compile(
-    r"^(Garden parallel|Same shape|Same rhythm|Same logic|Same math|Same fruit|Same rescue|Faith parallel|More on|Cousins,?|Listed below|Use Note Title|The \[|Goes further than|Pairs with|Ancestor of|See [A-Z]|On [A-Z][a-z]+ [A-Z])\b",
-    re.I,
+    # Case-sensitive on purpose: the See/On branches point at a capitalized note title, and a
+    # lookahead is needed because the trailing \b applies to the last matched character, so
+    # "See [A-Z]\b" never matches "See The". Shareable lines must start capitalized anyway.
+    r"^(Garden parallel|Same shape|Same rhythm|Same logic|Same math|Same fruit|Same rescue|"
+    r"Faith parallel|More on|Cousins,?|Listed below|Use Note Title|The \[|Goes further than|"
+    r"Pairs with|Ancestor of|See(?=\s+[A-Z])|On(?=\s+[A-Z][a-z]+\s+[A-Z]))\b",
 )
 META_NOTE_LANG = re.compile(
     r"\b(this note|teach the note|where the note|stage the note|note garden|when a note is only)\b",
@@ -572,7 +580,7 @@ def description_clause_parts(desc: str) -> list[str]:
     """Normalized description clauses for overlap checks."""
     flat = " ".join(desc.split())
     parts = [flat]
-    parts.extend(re.split(r"(?<=[.!?])\s+|\s[--–]\s|;\s+", flat))
+    parts.extend(CLAUSE_SPLIT_RE.split(flat))
     out: list[str] = []
     seen: set[str] = set()
     for part in parts:
@@ -628,6 +636,11 @@ def strip_description_from_key_concept(kc: str, desc: str) -> str:
 
 
 def _self_check() -> None:
+    assert description_clause_parts("Teach the idea out loud to a blank page - where you stumble") == [
+        "teach the idea out loud to a blank page - where you stumble",
+        "teach the idea out loud to a blank page",
+        "where you stumble",
+    ]
     desc = "Faith alone saves; works show faith is alive, they do not buy heaven."
     kc = "- Faith alone saves; works show faith is alive, they do not buy heaven.\n- Hear Jesus and do."
     assert line_overlaps_description(desc, "Faith alone saves; works show faith is alive.")
@@ -645,6 +658,7 @@ def _self_check() -> None:
     assert not gets_point_across("Same inbox rule.")
     assert not gets_point_across("That's the pushback on busy-as-virtue.")
     assert not gets_point_across("See The Narrow Way and Loss of Reward for false profession.")
+    assert gets_point_across("See which notes the garden treats as anchors.")
     assert not gets_point_across("Integrity in general; this note is the team-visible lane.")
     assert not gets_point_across("So you change the process, not only patch today's fire.")
     assert gets_point_across("Friction kills capture.")
@@ -684,5 +698,6 @@ def _flashcard_hint_self_check() -> None:
 
 
 if __name__ == "__main__":
+    _self_check()
     _flashcard_hint_self_check()
-    print("flashcard hint self-check OK")
+    print("notes_content self-check OK")

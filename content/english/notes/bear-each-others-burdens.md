@@ -19,15 +19,15 @@ examples:
 shareable_thought:
   - "Believers carry each other's heavy loads - bearing is shared weight, not solo heroics or gossip."
   - "I cannot shoulder every weight alone - bearing means showing up with hands on the load."
-  - "Under Free Grace, I bear burdens from love, not to earn standing."
-  - "Load-sharing and gentle restoration belong in the same breath."
+  - "I bear burdens from love, not to earn standing or look holy."
+  - "Load-sharing and repair belong in the same breath."
 relationships:
-  - type: contradicts
-    wikilink: "[[Judge Not]]"
-    reason: "when sidewalk commentary replaces hands on the load"
   - type: alternative
     wikilink: "[[Share the Heavy Lift]]"
     reason: "Same load-sharing move in the workplace lane"
+  - type: contradicts
+    wikilink: "[[Judge Not]]"
+    reason: "when sidewalk commentary replaces hands on the load"
   - type: extends
     wikilink: "[[Free Grace]]"
     reason: "Bearing flows from love already saved - not merit theater"

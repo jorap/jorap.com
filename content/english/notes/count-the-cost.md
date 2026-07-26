@@ -18,15 +18,15 @@ examples:
 shareable_thought:
   - "Jesus told builders to estimate before breaking ground - discipleship costs honesty, not surprise debt."
   - "Count the cost before you claim the tower is half built."
-  - "Eternal life is free; discipleship weight still needs honest math."
-  - "Naming the cost before the public yes is love, not scare tactics."
+  - "The cost Jesus names is discipleship weight, not a price tag on heaven."
+  - "Discipleship without cost honesty breeds quitters who thought faith was a mood."
 relationships:
-  - type: contradicts
-    wikilink: "[[Getting Started]]"
-    reason: "when cost-counting fear blocks the childlike yes"
   - type: alternative
     wikilink: "[[Fail on Paper First]]"
     reason: "Garden echo - estimate failure before you commit"
+  - type: contradicts
+    wikilink: "[[Getting Started]]"
+    reason: "when cost-counting fear blocks the childlike yes"
   - type: extends
     wikilink: "[[Decision Quality]]"
     reason: "Better calls start with honest cost visibility"

@@ -1,7 +1,7 @@
 ---
 title: "Getting Things Done"
 meta_title: "Getting Things Done"
-description: "David Allen's capture-clarify-organize loop gives a trusted inbox, next actions, and a weekly review."
+description: "David Allen's capture-clarify-organize loop turns scattered tasks into one trusted inbox with weekly review."
 key_concept: |
   - GTD is David Allen's capture-clarify-organize loop for a trusted inbox, next actions, and weekly review.
   - Level 1: Empty your mind into a tray, pick the next step, sort it, review weekly - like clearing pockets into boxes.
@@ -16,8 +16,8 @@ examples:
   - "Tournament week and the brain is not a filing cabinet - GTD is one trusted inbox and a weekly review so open loops live on paper, not at 2am."
   - "Commute errands and neighbor requests hit one pocket notebook - each item gets a next action so nothing rots as background worry."
 shareable_thought:
-  - "David Allen's capture-clarify-organize loop gives a trusted inbox, next actions, and a weekly review."
-  - "GTD is David Allen's capture-clarify-organize loop for a trusted inbox, next actions, and weekly review."
+  - "David Allen's capture-clarify-organize loop turns scattered tasks into one trusted inbox with weekly review."
+  - "Capture everything on your mind today, clarify the next action for each item, and schedule weekly review."
   - "Tasks and notes live in separate systems."
   - "Capture and weekly review own the task lane."
 relationships:

@@ -5,7 +5,7 @@ description: "Analog capture wins when the phone dies or the meeting blocks scre
 key_concept: |
   - The scrap gets copied into the real system later - paper is capture, not storage.
   - Level 1: Like when you scribble on a napkin at lunch - paper grabs the idea, then you copy it into your real notebook later.
-  - Level 2: Phone dead on the bus, so you write on the back of a receipt - same inbox rule, different surface.
+  - Level 2: Phone dead on the bus, so you write on the back of a receipt - the surface changed, the inbox did not.
   - Level 3: Analog capture wins because the scrap must land in the real system later - paper is for grabbing sparks, not for long-term storage.
   - Level 4: Scribble on whatever is handy, then copy into your trusted inbox the same day - one pocket notebook, no sorting yet.
   - Level 5: Pairs with [[Capture]] and [[The Trusted Inbox]] - margin notes and receipt scraps die unless they land in the real system before memory fades.

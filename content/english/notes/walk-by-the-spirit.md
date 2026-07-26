@@ -8,7 +8,7 @@ key_concept: |
   - Willpower alone cannot carry what God asked - walking by the Spirit is daily dependence, not a one-time decision badge.
   - Level 1: Like pedaling while Dad steadies the bike - the ride works because someone stronger holds the line.
   - Level 2: Walk by the Spirit means choosing His path when the flesh wants the shortcut - same battle Paul names in Galatians 5.
-  - Level 3: [[Fruits of the Spirit]] hub lists what shows up when the walk is real - love through self-control grown, not performed.
+  - Level 3: [[Fruits of the Spirit]] lists what the Spirit grows - love through self-control shows up when the walk is real, not performed.
   - Level 4: Under [[Free Grace]], the walk does not buy heaven - it answers grace already received through [[Grateful Obedience]].
   - Level 5: [[Abide in Me]] is the vine picture; walking by the Spirit is the daily lane - [[Follow the Rhythm]] is the garden echo for habits that hold.
   - [[Sanctification]] is slow becoming on this path - not a merit report card.
@@ -18,15 +18,15 @@ examples:
 shareable_thought:
   - "The Christian life runs on Spirit-led steps - not willpower sprints that collapse by Friday."
   - "Walking by the Spirit is daily dependence, not a one-time decision badge."
-  - "Fruits show up when the walk is real - grown, not performed."
-  - "The walk answers grace already received - it does not buy heaven."
+  - "Love through self-control shows up when the walk is real, not performed."
+  - "The walk does not buy heaven - it answers grace already received."
 relationships:
-  - type: contradicts
-    wikilink: "[[Compounding]]"
-    reason: "when willpower stacks mimic Spirit walk"
   - type: alternative
     wikilink: "[[Follow the Rhythm]]"
     reason: "Garden echo - cadence beats heroic willpower bursts"
+  - type: contradicts
+    wikilink: "[[Compounding]]"
+    reason: "when willpower stacks mimic Spirit walk"
   - type: extends
     wikilink: "[[Abide in Me]]"
     reason: "Vine union is the engine; walking is the daily step"

@@ -21,25 +21,25 @@ draft: false
 
 If you've ever spent a Saturday "just browsing" Hugo themes, you already know the trap. Every one of them looks gorgeous on a landing page. Half of them haven't been touched in two years. The other half are tied to a styling system you'll spend a month fighting before you can change a button color.
 
-I gave myself one weekend to pick a theme for this site. I ended up on [HugoPlate](https://github.com/zeon-studio/hugoplate), and I'm still on it. This post is the long version of why - what's actually inside it, what I changed, and the parts that bit me along the way.
+I gave myself one weekend to pick a theme for this site. I ended up on [HugoPlate](https://github.com/zeon-studio/hugoplate), and a year later I still haven't replaced it.
 
 ---
 
 ## What HugoPlate actually is
 
-HugoPlate is a free, open-source Hugo theme from [Zeon Studio](https://zeon.studio). The headline feature is that it's built on **Tailwind CSS** - which sounds like a small detail and is actually the whole reason I picked it.
+HugoPlate is a free, open-source Hugo theme from [Zeon Studio](https://zeon.studio). The real reason I picked it: it's built on **Tailwind CSS**. Sounds like a small detail. It was the whole decision.
 
 Most Hugo themes rely on their own bespoke CSS, often layered on Bootstrap or a custom SCSS pipeline. Tweaking them means learning that one theme's specific conventions. With HugoPlate, if you know any Tailwind, you already know how to restyle 90% of the site. Want a tighter card? Change `p-8` to `p-6`. Want a different accent color? Edit a config file. No theme-specific dialect to learn.
 
-The other thing worth knowing up front: it's a **starter**, not a finished product you drop in. The README literally tells you to fork or clone it as the base of your project. That framing matters - it means you should expect to live inside the theme's code, not sit on top of a black box.
+One thing the README makes clear: it's a **starter**, not a finished product you drop in. It tells you to fork or clone it as the base of your project. That framing matters, because it meant I had to live inside the theme's code rather than sit on top of a black box. I was fine with that. If you're not, this is the wrong theme.
 
 ---
 
-## What you get out of the box
+## Enough wiring that month one wasn't "build a blog from scratch"
 
-Enough that I didn't spend month one building a blog from scratch: homepage sections, blog list and single templates, categories, tags, dark mode, search, SEO tags, contact form hooks, WebP image processing.
+I published before I rebuilt the homepage, which is the actual test. Homepage sections, blog list and single templates, categories, tags, dark mode, search, SEO tags, contact form hooks, WebP image processing - all already there.
 
-I turned off or ignored half the demo templates - Pricing, FAQ pages I wasn't shipping - and kept the blog and notes paths I actually use. The repo screenshot undersells how much wiring is done. It also oversells how much you'll need. Treat the demo pages as spare parts, not a site map you must launch day one.
+Then I turned off Pricing and FAQ, because I'm not shipping a SaaS landing page, and kept the blog and notes paths I actually use. The repo screenshot undersells how much wiring is done and oversells how much of it you'll need. I treated the demo pages as spare parts, not a site map I had to launch day one.
 
 ---
 
@@ -79,13 +79,13 @@ The thing I appreciate is that HugoPlate respects Hugo's conventions. Nothing's 
 
 ---
 
-## Shortcodes worth knowing
+## Shortcodes that bit me once, then saved hours
 
 This is where HugoPlate quietly punches above its weight. I broke a `notice` shortcode once by nesting bold inside it - the build passed, the page rendered garbage. Now I keep `blog-template.md` open whenever I'm composing.
 
-Most themes give you `youtube` and call it a day. HugoPlate (via [`gethugothemes/hugo-modules`](https://github.com/gethugothemes/hugo-modules)) hands you a small content design system: callouts, buttons, tabs, accordions, image galleries, video, diagrams, and more - all loaded as Hugo Modules so they live outside your theme folder and stay easy to update. I've added a few of my own (`spotify`, `youtube_time`) on top of that.
+Most themes give you `youtube` and call it a day. HugoPlate (via [`gethugothemes/hugo-modules`](https://github.com/gethugothemes/hugo-modules)) hands you callouts, buttons, tabs, accordions, image galleries, video, and diagrams - all loaded as Hugo Modules, so they live outside your theme folder and stay easy to update. I've added a few of my own (`spotify`, `youtube_time`) on top of that.
 
-Here's the full set this site renders, with live output for each so you can see exactly what they do.
+Below is the full set this site renders, with live output for each. Mostly so I don't have to grep the repo when I forget a parameter.
 
 ### Callouts and CTAs
 
@@ -102,7 +102,7 @@ This is a `tip` - the helpful little nudge you wish someone had given you on day
 {{< /notice >}}
 
 {{< notice "info" >}}
-This is an `info` - additional context that's worth surfacing but not strictly required reading.
+This is an `info` - extra context you can skip on a first read.
 {{< /notice >}}
 
 {{< notice "warning" >}}
@@ -147,7 +147,7 @@ Nothing. It's free and open source under the MIT license. The only money you'd s
 {{< /accordion >}}
 
 {{< accordion "Do I need to know Tailwind?" >}}
-Helpful but not required. If you're only editing content, you'll never touch Tailwind. The moment you want to restyle anything - colors, spacing, components - knowing Tailwind makes it five-minute work instead of a half-day.
+You can ignore Tailwind until you want to change spacing or colors. If you're only editing content, you'll never touch it. The moment you want to restyle anything - colors, spacing, components - knowing Tailwind makes it five-minute work instead of a half-day.
 {{< /accordion >}}
 
 ```
@@ -335,13 +335,13 @@ I'd be lying if I said this was all smooth.
 
 ---
 
-## Who I'd recommend it to
+## Who I'd point at HugoPlate
 
-**Good fit:** anyone building a personal site, blog, portfolio, small docs site, or a marketing landing page who's comfortable editing config files and Markdown. If you know any Tailwind, you'll feel at home in about an hour.
+I'd send a friend who already knows Markdown, doesn't mind editing TOML, and wants a personal site, blog, portfolio, or small docs site. If they know any Tailwind at all, they'll feel at home in about an hour.
 
-**Bad fit:** anyone who wants a no-code admin panel. HugoPlate is content-via-Markdown - that's the deal. A non-technical team is not going to be happy editing TOML and pushing to Git. For that case, pick something with a CMS layer (or pair HugoPlate with a headless CMS like Tina or Decap, which is doable but a bigger lift).
+I'd steer a non-technical team away from it. HugoPlate is content-via-Markdown, and that's the deal - nobody on a marketing team is going to enjoy editing TOML and pushing to Git. For that job I'd pick something with a CMS layer, or pair HugoPlate with Tina or Decap, which works but is a bigger lift than it sounds.
 
-**Also probably not great** if you want something with strong opinions about an exotic visual style - HugoPlate is intentionally clean and modern. It's a great canvas, not a statement.
+I'd also skip it if you want a strong visual opinion out of the box. HugoPlate is deliberately clean and modern. It's a canvas, not a statement.
 
 ---
 

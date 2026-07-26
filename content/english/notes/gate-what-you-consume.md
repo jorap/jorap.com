@@ -16,15 +16,15 @@ examples:
 shareable_thought:
   - "What you read and watch becomes raw material for judgment - gate intake before output rots."
   - "Feeds are not neutral - gate before it becomes the mood you bring home."
-  - "Default filters beat white-knuckling willpower after rage bait wins."
-  - "Gates are defense in the attention economy, not guilt theater."
+  - "Gating means default filters - unsub, mute, block, close tab - not forcing by will after the rage bait won."
+  - "The attention economy fights you for the scroll - gates are defense, not guilt theater."
 relationships:
-  - type: contradicts
-    wikilink: "[[Digital Serendipity]]"
-    reason: "when open feeds stay on for accidental discovery"
   - type: alternative
     wikilink: "[[Guard Your Heart]]"
     reason: "Faith lane names Proverbs heart guard"
+  - type: contradicts
+    wikilink: "[[Digital Serendipity]]"
+    reason: "when open feeds stay on for accidental discovery"
   - type: extends
     wikilink: "[[Attention Economy]]"
     reason: "Platforms profit from ungated intake"

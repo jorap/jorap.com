@@ -19,12 +19,12 @@ shareable_thought:
   - "Blocked time makes refill real - not theoretical recovery."
   - "Planned downtime beats emergency collapse."
 relationships:
-  - type: contradicts
-    wikilink: "[[Ship It]]"
-    reason: "when skip-rest hustle beats blocked refill"
   - type: alternative
     wikilink: "[[Come to Me Weary]]"
     reason: "Faith invitation to rest; block is calendar obedience"
+  - type: contradicts
+    wikilink: "[[Ship It]]"
+    reason: "when skip-rest hustle beats blocked refill"
   - type: extends
     wikilink: "[[Energy Protects Judgment]]"
     reason: "Blocked rest protects call quality"

@@ -18,15 +18,15 @@ examples:
 shareable_thought:
   - "Jesus invites the weary to His rest - yoke with Him trades crushing solo labor for shared weight."
   - "Rest is an invitation, not a reward you must earn first."
-  - "His yoke is shared labor - work with Him, not performative burnout."
-  - "Calendar rest protects the soul the way sleep protects judgment."
+  - "His yoke is shared labor - not absence of work, but work with Him instead of performative burnout."
+  - "Calendar rest protects the soul the same way sleep protects judgment."
 relationships:
-  - type: contradicts
-    wikilink: "[[Ship It]]"
-    reason: "when grind push beats admitting weary"
   - type: alternative
     wikilink: "[[Block Recovery Time]]"
     reason: "Garden echo - [[Block Recovery Time]] on the calendar"
+  - type: contradicts
+    wikilink: "[[Ship It]]"
+    reason: "when grind push beats admitting weary"
   - type: extends
     wikilink: "[[Free Grace]]"
     reason: "Rest is care from the Savior - not merit pay"

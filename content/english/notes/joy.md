@@ -5,7 +5,7 @@ description: "Joy is Spirit-grown gladness in believers who rest on Christ's pro
 key_concept: |
   {{< bible ref="John 15:11" emphasize="11" >}}
 
-  - Christ's joy in me - gladness rooted in His promise, not a good-week performance I fake on command.
+  - Christ's joy in me - gladness rooted in His promise, not something I switch on for a good week.
   - Level 1: Joy is deep gladness that grows when you walk with God - not fake happiness you perform for other people.
   - Level 2: Joy grows with love and peace as fruit of the Spirit - deeper than performing happiness for a crowd, like roots versus a painted smile.
   - Level 3: Joy rooted in God survives bad weeks; performed happiness collapses when the audience leaves - circumstance cannot kill what the Spirit grows.
@@ -19,7 +19,7 @@ examples:
   - "Performing joy at church while empty at home told me I was manufacturing fruit - abide first, then gladness shows up."
 shareable_thought:
   - "Joy is Spirit-grown gladness in believers who rest on Christ's promise - not a good-week performance."
-  - "Fruits of the Spirit names joy beside love and peace in one cluster."
+  - "Joy grows with love and peace as fruit of the Spirit."
   - "Joy is grown by walking in the Spirit, not manufactured for credit."
   - "Manufactured gladness for church credit is not Spirit fruit."
 relationships:

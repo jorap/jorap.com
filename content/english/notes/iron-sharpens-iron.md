@@ -19,14 +19,14 @@ shareable_thought:
   - "Proverbs says iron sharpens iron - believers grow through honest friction with friends who love the Lord and you."
   - "Growth needs contact with someone who will push back."
   - "Sharpening friends speak truth in love - not cruelty, not empty praise."
-  - "Discipleship needs at least one hard follow-up question."
+  - "Discipleship in community needs at least one person who will ask the hard follow-up question."
 relationships:
-  - type: contradicts
-    wikilink: "[[Gentleness]]"
-    reason: "when soft avoidance blocks needed friction"
   - type: alternative
     wikilink: "[[Sharpen Each Other's Work]]"
     reason: "Garden echo - peer friction that improves the work"
+  - type: contradicts
+    wikilink: "[[Gentleness]]"
+    reason: "when soft avoidance blocks needed friction"
   - type: extends
     wikilink: "[[Accountability]]"
     reason: "Named ownership plus sharpening friendship"

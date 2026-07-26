@@ -60,37 +60,23 @@ I am using this format for a card game rules draft right now. Setup, the four ac
 
 ---
 
-## Other places I would use it
+## The Hanamikoji teach night, and where else I'd print one
 
-Once you have the fold in your head, the format shows up everywhere:
+Last month I printed eight-panel zines for a **Hanamikoji** teach: setup on the cover, action reference on the back, full rules inside. I put a stack on the sign-in table and nobody asked me for the PDF. That's the whole pitch.
 
-**Workshop handouts.** One topic, eight pages, fits in a folder. Cheaper than a bound workbook for a two-hour session.
-
-**Quick-start guides.** New tool at work, new appliance at home, volunteer onboarding. Cover plus six steps plus troubleshooting fits fine.
-
-**Event programs.** Community meetup, small church gathering, game night at a cafe. Last month I printed eight-panel zines for a **Hanamikoji** teach - setup on the cover, action reference on the back, full rules inside. Stack on the sign-in table, no one asked for the PDF.
-
-**Recipe collections.** Not a full cookbook - one meal, variations, shopping list on the back.
-
-**Kids' activities.** Story prompts, scavenger hunt clues, origami instructions. One sheet per kid, no collation nightmare.
-
-**Leave-behinds.** Portfolio piece, service menu, "here is what we talked about" after a client call. Professional enough to hand someone, casual enough that nobody feels guilty tossing it later.
+Once the fold is in your head it shows up everywhere else too. A workshop handout for a two-hour session, cheaper than a bound workbook. A quick-start card for a new tool at work or volunteer onboarding, where a cover plus six steps plus troubleshooting fits without squeezing. One meal with its variations and a shopping list on the back, instead of a whole cookbook. Story prompts or scavenger hunt clues, one sheet per kid, no collation nightmare. A leave-behind after a client call, professional enough to hand over and casual enough that nobody feels guilty tossing it later.
 
 The pattern is always the same: **bounded information, pocket-sized, one print job.**
 
 ---
 
-## What it is not good for
+## Where the format falls apart
 
-Be honest about the limits.
+Eight pages on one sheet means small panels, so tiny type is the first limit you hit. If the people reading it need large print, bump up to a two-sheet zine or a simple folded letter and stop fighting it.
 
-**Tiny type.** Eight pages on one sheet means small panels. If your audience needs large print, bump up to a two-sheet zine or a simple folded letter.
+Photos and full-bleed illustrations fight the format too. Rules, text, simple diagrams, and icons are where it works. Long reference material is the other miss - strategy guides, full card lists, expansion rules all belong online or on a separate sheet. The zine is the learn-to-play layer, not the encyclopedia.
 
-**Heavy art books.** Photos and full-bleed illustrations fight the format. Rules, text, simple diagrams, icons - that is where it shines.
-
-**Long reference material.** Strategy guides, full card lists, expansion rules - put those online or in a separate sheet. The zine is the "learn to play" layer, not the encyclopedia.
-
-**Premium retail expectations.** If you are pitching a boxed game to a publisher, they will want proper components. The 1-page zine is a dev tool and a print-and-play staple, not a replacement for production values on a shelf product.
+And if you are pitching a boxed game to a publisher, they will want proper components. This is a dev tool and a print-and-play staple, not a stand-in for production values on a shelf product.
 
 ---
 

@@ -6,10 +6,9 @@ key_concept: |
   - Context-aware capture saves the why while memory is fresh - project, mood, question - not just the link.
   - Level 1: Like when you write why you saved a photo - the picture alone will not tell you later.
   - Level 2: You bookmark an article but add "for Q3 budget slide" in the margin - context-aware capture saves the why while memory is fresh.
-  - Level 3: A saved link is a mystery six weeks later unless the why was captured while it was still obvious.
+  - Level 3: The link alone is a mystery six weeks later unless the why was captured while it was still obvious.
   - Level 4: Voice-memo in the parking lot with why the meeting mattered - almost saved just the link and caught yourself while context was still in your head.
   - Level 5: Six weeks later, only the why saves a bookmark from becoming junk - pairs with [[Capture]] when resonance alone cannot reconstruct the spark.
-  - A saved link is a mystery six weeks later unless the why was captured while it was still obvious.
   - Six weeks later, only the why saves a bookmark from becoming junk.
 examples:
   - "Voice memo in the parking lot after the meeting - I almost saved just the link and caught myself; context was still in my head."
@@ -18,7 +17,7 @@ shareable_thought:
   - "A saved link is a mystery six weeks later unless the why is jotted while memory is fresh."
   - "Context-aware capture saves the why while memory is fresh."
   - "Project, mood, question - not just the link."
-  - "A saved link is a mystery six weeks later unless the why was captured while it was still obvious."
+  - "Six weeks later, only the why saves a bookmark from becoming junk."
 relationships:
   - type: contradicts
     wikilink: "[[Metadata Strategy]]"

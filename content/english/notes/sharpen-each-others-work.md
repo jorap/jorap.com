@@ -15,16 +15,16 @@ examples:
   - "Code review caught the env var gap before Friday deploy - iron sharpening was the comment thread, not a blame DM."
 shareable_thought:
   - "Peer review should make the draft better - friction with care, not performance theater or silent approval."
-  - "Sharpening names what is weak and what would fix it in the same session."
-  - "Iron Sharpens Iron is the faith name for the same friction."
+  - "Sharpening review names what is weak and what would fix it - same session, same respect."
+  - "Iron Sharpens Iron is the faith name - Proverbs friction between people who want each other sharper."
   - "Sharpening fails when the tone eats the truth."
 relationships:
-  - type: contradicts
-    wikilink: "[[Ship It]]"
-    reason: "when ship-now skips peer sharpening"
   - type: alternative
     wikilink: "[[Iron Sharpens Iron]]"
     reason: "Faith lane names Proverbs sharpening between believers"
+  - type: contradicts
+    wikilink: "[[Ship It]]"
+    reason: "when ship-now skips peer sharpening"
   - type: extends
     wikilink: "[[Deliberate Practice]]"
     reason: "Outside eyes are part of deliberate reps"
@@ -34,9 +34,6 @@ relationships:
   - type: extends
     wikilink: "[[Give Useful Feedback]]"
     reason: "Useful feedback is how sharpening lands"
-  - type: extends
-    wikilink: "[[Ship It]]"
-    reason: "Sharpen before ship - not instead of ship"
 slug: "sharpen-each-others-work"
 date: "2026-07-25 11:55:00+08:00"
 image: "/images/note.jpg"

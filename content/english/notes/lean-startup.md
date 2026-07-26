@@ -9,7 +9,7 @@ key_concept: |
   - Level 3: Big builds before demand burn cash and morale - small tests produce learning loops cheap enough to repeat when the first guess is wrong.
   - Level 4: Ship the smallest test, measure response, learn, then scale - never the full product on gut alone.
   - Level 5: [[Practice Small Experiments]] keeps trials small; [[Ship It]] pushes the test out before perfection hoarding wins.
-  - I would rather ship a rough test and learn than polish a product nobody wanted.
+  - I would rather learn from ten real buyers this week than guess for a quarter.
   - Measure what happened, then fix the template - not the pitch deck.
   - The waitlist number matters less than whether those people would actually pay today.
 examples:
@@ -19,7 +19,7 @@ shareable_thought:
   - "Ship a rough test and learn rather than polish a product nobody wanted."
   - "Build the smallest test, measure, learn."
   - "Do not scale before validation."
-  - "I would rather ship a rough test and learn than polish a product nobody wanted."
+  - "The waitlist number matters less than whether those people would actually pay today."
 relationships:
   - type: contradicts
     wikilink: "[[Finish Strong]]"

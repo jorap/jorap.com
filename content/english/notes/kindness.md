@@ -19,7 +19,7 @@ examples:
   - "I was polite in the office and sharp with my family at dinner - Galatians kindness is tender regard at home too, not performance for an audience."
 shareable_thought:
   - "Tender regard the Spirit grows for the person in front of you - not polite distance or performance niceness."
-  - "Fruits of the Spirit names kindness beside goodness - soft strength toward actual people, not a generic nice-guy pose."
+  - "Soft strength toward actual people, like a hand on a shoulder, not a generic nice-guy pose."
   - "Kindness at home counts - not only polite distance at the office."
   - "Tender regard for the person in front, not performance niceness for an audience."
 relationships:

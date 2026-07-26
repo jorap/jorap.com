@@ -153,6 +153,8 @@ Good pair (`capture.md`): wristband during cooldown + receipt on the jeepney.
 
 Each item must hit a **different angle** (definition, move, boundary, payoff) - not four fragments, not four restatements of the same line.
 
+Every line must be **drawn from `description` or `key_concept` wording** - lint accepts a line that contains, or sits inside, one of those clauses. Never open with not/and/or/but/then, "That's", "So", or a pointer like "See Note Title" or "Pairs with".
+
 Bad: `"Growth, not the ticket."` (fragment)
 
 Bad: four copies of `description` with tiny word swaps.
@@ -256,7 +258,7 @@ Vocabulary: `pnpm lint:voice` (`data/voice-words.yaml`). Structure: `pnpm lint:s
 - [ ] Faith note doctrine aligns with GSOT free grace (experienced Grace School of Theology theologian - not improvised)
 - [ ] EP scripture: `{{< bible >}}` shortcode with specific verses (not a whole chapter), explanation bullet in JoRap voice, then claim stack
 - [ ] Two `examples`, one sentence each, scenes feel different
-- [ ] `shareable_thought` is exactly four complete thoughts, four different angles - no fragments
+- [ ] `shareable_thought` is exactly four complete thoughts, four different angles, each echoing `description` or `key_concept` wording - no fragments
 - [ ] `relationships.reason` is a clause, not a paragraph; no bible verse citations (book chapter:verse or spoken chapter refs)
 - [ ] Cards pass [flashcards](../flashcards/SKILL.md) and plain-words test
 - [ ] Theology/PKM term glossed in plain English before the wikilink stack

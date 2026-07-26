@@ -22,15 +22,15 @@ draft: false
 
 Every couple of years someone tells me they're "going mobile-only." A tablet, a phone, maybe a foldable. I get the appeal. I still keep a laptop because that's where I actually get work done - sitting upright, full keyboard, big screen, the real version of the software.
 
-I'm not anti-mobile. My phone handles short, in-between moments fine. But when I need more than ten focused minutes, nothing beats a real computer at a desk or table. I don't lend mine out. I use it all day. Here's why I won't go phone-only for the work that pays the bills.
+I'm not anti-mobile. My phone handles short, in-between moments fine. But when I need more than ten focused minutes, nothing beats a real computer at a desk or table. I don't lend mine out. I use it all day.
 
 ---
 
-## Power you can actually feel
+## Speed that holds up for more than a minute
 
-Phones have gotten ridiculously fast. The problem is sustaining that speed. Once a phone heats up - and it heats up quickly under load - it throttles, the fans (if it even has any) give up, and everything slows down.
+I'm not going to find out whether my phone can run a Hugo build and a WordPress staging site at the same time. On the laptop I just open both and get on with it.
 
-A laptop or desktop, with proper cooling and a bigger battery, can hold its performance for hours. I'm not going to find out whether my phone can run a Hugo build and a WordPress staging site at the same time. On a laptop I just open both and work.
+Phones have gotten ridiculously fast. Sustaining that speed is the problem. Once a phone heats up, and it heats up quickly under load, it throttles and everything slows down. A laptop with proper cooling and a bigger battery holds its performance for hours.
 
 Same story with RAM. My phone aggressively kills background apps the moment I switch away. My laptop just... keeps them there. All twenty of them, exactly where I left them.
 
@@ -54,7 +54,7 @@ Last week I had the Alex Eala tracker, a WordPress staging tab, Slack, and a ter
 
 ---
 
-## Your back and wrists will thank you
+## A forty-minute call with the phone propped on books taught me this
 
 This is the boring one, but it might be the most important. I learned it on a long client call with the phone propped on a stack of books - neck locked, shoulder climbing toward my ear, typing replies with my thumb like I was sixteen again. Forty minutes in I was useless for the actual work after.
 
@@ -70,11 +70,11 @@ On the laptop I keep Hugo builds, client exports, years of photos, and three hal
 
 ---
 
-## Repairable, upgradeable, longer-lived
+## An SSD swap bought my old laptop four more years
 
 Most phones become slow paperweights in three to four years. The battery dies, the OS stops getting updates, and replacing parts is either expensive or impossible.
 
-My old laptop got a second life from a cheap SSD swap - same machine, new drive, another four years. Try that with a phone whose back glass is glued shut.
+My old laptop got a second life from a cheap SSD swap. Same machine, new drive, another four years of use. Try that with a phone whose back glass is glued shut.
 
 A desktop can run for a decade if you swap in more RAM, a bigger SSD, or a new GPU when you need it. Even laptops, especially the ones with user-replaceable storage and memory, can be revived for the cost of one component instead of the price of a whole new device.
 
@@ -90,13 +90,11 @@ On desktop I have my password manager, my ad blocker, my dark-mode extension, my
 
 ---
 
-## Games and movies, the way they're meant to be
+## I stopped watching movies on my phone after dropping it on my face
 
-I'll watch a YouTube short on my phone. I won't watch a two-hour movie on it - I tried once in bed with headphones and gave up twenty minutes in when I kept dropping the phone on my face.
+I'll watch a YouTube short on my phone. I won't watch a two-hour movie on it. I tried once in bed with headphones and gave up twenty minutes in, because I kept dropping the phone on my face.
 
-And I definitely won't try to play a "real" game on a phone when a proper screen, keyboard, and controller exist a few feet away.
-
-For PC gaming, emulators, VR, or just kicking back with a film, a bigger screen and real audio make the whole thing feel like an event instead of a chore.
+I won't play a real game on a phone either, not when a proper screen, keyboard, and controller are a few feet away. PC gaming, emulators, a film on a Friday night: bigger screen and real audio make it feel like something I chose to do instead of something I'm putting up with.
 
 ---
 

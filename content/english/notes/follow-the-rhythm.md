@@ -19,12 +19,12 @@ shareable_thought:
   - "The review happens Friday whether you feel inspired or not."
   - "Crusade mode feels holy until burnout."
 relationships:
-  - type: contradicts
-    wikilink: "[[Ship It]]"
-    reason: "when one heroic ship beats the boring repeat"
   - type: alternative
     wikilink: "[[Walk by the Spirit]]"
     reason: "Faith lane names Spirit dependence; rhythm is the calendar shape"
+  - type: contradicts
+    wikilink: "[[Ship It]]"
+    reason: "when one heroic ship beats the boring repeat"
   - type: extends
     wikilink: "[[Cap Today's Commitments]]"
     reason: "Rhythm needs honest daily caps"

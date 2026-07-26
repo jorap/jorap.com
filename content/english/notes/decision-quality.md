@@ -8,7 +8,7 @@ key_concept: |
   - Level 2: A family calls one neighbor about the flood-prone pickup lane before signing the year-long club fee - facts and time test the choice.
   - Level 3: Decision quality is how often choices hold up after information, time, and energy are factored in - not just in the excited meeting.
   - Level 4: Call one current member before you sign the year-long club fee - one neighbor call about the flood-prone pickup lane before you pay.
-  - Level 5: Pairs with [[Control the Rhythm]] when urgency pushes a fast yes - quality decisions survive new facts and the real bill, not the meeting high alone.
+  - Level 5: Pairs with [[Control the Rhythm]] when urgency pushes a fast yes - quality decisions survive new facts and the real bill, not the buzz in the room.
   - A choice that only looks good in the meeting room is not a quality decision.
   - Sleep on it, then check whether the choice still holds.
 examples:

@@ -1,7 +1,7 @@
 ---
 type: Blog Post
 title: Static Site or CMS? How I Pick the Stack
-description: "Who publishes, what changes live, and whether you need logins pick static vs WordPress better than any framework ranking."
+description: "I pick static or WordPress by who publishes, what changes live, and whether anyone needs a login - not by which one wins the argument online."
 resource: "https://www.jorap.com/blog/static-site-vs-cms/"
 tags: ["Website Building", "Static Site Generator", "CMS", "WordPress", "Hugo", "Sveltia CMS", "Web Development", "Tips"]
 generated: { by: process:export-okf-blog-bundle, at: 2026-07-10T06:00:00Z }
@@ -82,7 +82,7 @@ Pick it when static is right but Git won't land - not when you actually need log
 
 ## Five questions that pick the stack
 
-Forget framework rankings for a minute. Answer these:
+Skip the Hugo-vs-WordPress threads for a minute. These five questions have picked the stack correctly on every project I've taken, and the one time I skipped question two it cost me a rebuild.
 
 1. **Who updates content, and how often?** Daily from five people is a CMS job. Monthly from one owner might be static with a simple path.
 
@@ -124,7 +124,7 @@ If you're building for a team that expects an admin panel, or you need accounts 
 
 And if you're hiring someone: bring the hard questions in the first call. Who publishes? Anything behind login? What breaks if they're gone for a month? Those answers pick the stack more reliably than any "Hugo vs WordPress" thread.
 
-The goal isn't to win a framework debate. It's to **ship something that still works six months after launch** without surprise invoices or a repo nobody can touch.
+The goal isn't to win a stack argument on Reddit. It's to **ship something that still works six months after launch** without surprise invoices or a repo nobody can touch.
 
 ## Related garden notes
 

@@ -20,9 +20,9 @@ examples:
   - "The contractor's portfolio was gorgeous - I asked two neighbors who lived through the remodel about permit fights and cracked tile."
 shareable_thought:
   - "Judge vendors, frameworks, and internal champions by what they produce - not slide polish, not LinkedIn aura."
-  - "On Static Site Client Scope, same filter: pick WordPress or Shopify when the fruit requires it."
+  - "Before you hire or partner, ask for three past outcomes with names attached."
   - "Do not sell Free Tier Hosting Stack because it is my favorite hammer."
-  - "Judge vendors and champions by fruit over time, not slide polish or LinkedIn aura."
+  - "Polish without fruit is expensive theater."
 relationships:
   - type: contradicts
     wikilink: "[[Life Before Achievement]]"

@@ -18,15 +18,15 @@ examples:
 shareable_thought:
   - "The church is one body with many parts - different roles, same Head, no solo-body fantasy."
   - "The win needs every position, not five point guards."
-  - "Different gifts serve the same Head - envy at another part misses the design."
+  - "Envy at another part is as silly as the foot wishing it were a hand."
   - "Clarity on your slice beats pretending you cover every position."
 relationships:
-  - type: contradicts
-    wikilink: "[[Let Your Light Shine]]"
-    reason: "when solo platform ministry grabs every part"
   - type: alternative
     wikilink: "[[Know Your Lane]]"
     reason: "Garden echo - own your slice of the body"
+  - type: contradicts
+    wikilink: "[[Let Your Light Shine]]"
+    reason: "when solo platform ministry grabs every part"
   - type: extends
     wikilink: "[[Free Grace]]"
     reason: "Belonging is settled; gifts are stewardship"

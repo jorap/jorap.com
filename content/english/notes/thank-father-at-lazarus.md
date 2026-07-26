@@ -20,8 +20,8 @@ examples:
 shareable_thought:
   - "Jesus thanked the Father aloud at Lazarus' tomb so the crowd would believe God sent Him."
   - "He said the Father always hears Him - the spoken thanks was for witnesses, not for His own nerves."
-  - "Before He called Lazarus out, He looked up and thanked the Father."
-  - "Public prayer here points eyes to the Father who hears - not performance theater."
+  - "Before He called Lazarus out, Jesus looked up and thanked the Father."
+  - "Public prayer here is not performance theater - it points eyes to the Father who hears."
 relationships:
   - type: contradicts
     wikilink: "[[Drafting in Public]]"

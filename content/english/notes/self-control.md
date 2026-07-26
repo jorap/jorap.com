@@ -5,14 +5,14 @@ description: "Self-control picks the next move on purpose - the urge does not ge
 key_concept: |
   {{< bible ref="1 Corinthians 9:25" emphasize="25" >}}
 
-  - The athlete exercises self-control in all things - Spirit-grown restraint in the [[Fruits of the Spirit]] cluster, not a merit streak.
+  - The athlete exercises self-control in all things - Spirit-grown restraint, not a merit streak.
   - You choose the next move instead of the urge choosing for you.
   - Level 1: You pick what you do next on purpose - the sudden want does not get to drive you.
   - Level 2: You pick what you do next on purpose - the sudden want does not get to drive.
   - Level 3: Choose the next move - urge proposes, you decide.
   - Level 4: Because autopilot favors the loudest impulse, self-control is deliberate selection under pressure.
   - Level 5: You choose the next move instead of the urge choosing for you - not suppression theater, chosen response.
-  - [[Fruits of the Spirit]] hub holds the faith lane; this note is the general skill - close the app, sleep on the reply, stick to the list.
+  - [[Fruits of the Spirit]] holds the faith lane for that cluster; this note is the general skill - close the app, sleep on the reply, stick to the list.
   - Same word, different job unless the Spirit is doing the growing.
   - I pick the next move on purpose.
 examples:
@@ -21,8 +21,8 @@ examples:
 shareable_thought:
   - "Self-control picks the next move on purpose."
   - "The urge does not get to drive."
-  - "Fruits of the Spirit lists self-control as one trait the Spirit grows in believers."
-  - "Gospel fruit, not a merit streak."
+  - "Close the app, sleep on the reply, stick to the list."
+  - "Spirit-grown restraint, not a merit streak."
 relationships:
   - type: alternative
     wikilink: "[[Fruits of the Spirit]]"

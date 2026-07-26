@@ -12,7 +12,7 @@ key_concept: |
   - Level 4: Because exhaustion followed heavy service, prayer was [[Energy Protects Judgment]] - drained was the cue to meet the Father, not the excuse to skip.
   - Level 5: After feeding five thousand, He dismissed the crowds and went up the mountain alone to pray - drained was the cue, not the excuse.
   - Mark 6:46 says the same move after that long day - service finished, then prayer, not collapse without God.
-  - [[Don't Worry]] trusts provision; this names what to do when the day already emptied the tank.
+  - [[Do not Worry]] trusts provision; this names what to do when the day already emptied the tank.
   - Under [[Free Grace]], prayer when drained is not merit - it is the Son copying dependence on the Father after heavy work.
 examples:
   - "I collapsed on the couch after hosting Sunday school and skipped prayer - Jesus went up the mountain when the crowd finally left."

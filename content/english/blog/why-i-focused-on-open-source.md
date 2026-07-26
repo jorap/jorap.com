@@ -18,8 +18,6 @@ featured: false
 draft: false
 ---
 
-> **TL;DR**: I didn't pick open source because it's morally superior on a slide deck. I picked it because I could install it tonight, read the code when something broke, move my files when a host died, and find work in communities big enough to hire from. **Freedom mattered more than free.** Learning still ate months. That's still the filter.
-
 ## It started as a money and access problem
 
 When I got serious about web work, "open source" wasn't a brand I wore on a conference lanyard. It was the shelf I could afford.
@@ -78,17 +76,11 @@ After years of building and teaching on this stuff, the benefits aren't abstract
 
 ## What it doesn't mean
 
-I don't treat open source as a purity test. I still have a lot of WordPress plugins I installed once and never touched again - open source doesn't mean maintained.
+I don't treat open source as a purity test. There's a gallery-slider plugin still sitting in one client install that hasn't seen a commit since 2019, and "view source" has never once helped me with it. Open doesn't mean maintained, and it definitely doesn't mean good. I evaluate open tools the same way as anything else: does it solve the job, is somebody still fixing it, will the client still own it after I pass it off.
 
-**Open doesn't mean good.** Plenty of open-source plugins are junk. "View source" doesn't help if nobody maintains the project. I still evaluate tools like anything else - does it solve the job, is it maintained, will the client still own it after I pass it off.
+No license fee also isn't no cost. I paid in evenings - tutorials, broken staging sites, plugin configs that almost worked. I took that trade because the skills stuck and because I wasn't renting permission to touch my own stack. Domains still cost money, and Bitwarden's paid family plan is one I hand over money for happily. Open at the core, paid where the hosted convenience earns it.
 
-**Freedom isn't free time.** No monthly license is not the same as no cost. You still spend evenings on tutorials, broken staging sites, and plugin configs that almost work. I accepted that trade because the skills stuck - and because I wasn't renting permission to touch my own stack.
-
-**Open doesn't mean I never pay.** Domains cost money. Some hosted services are worth it. Bitwarden has a paid family plan I happily use. Open source at the core; paid where the hosted convenience earns its keep.
-
-**Open doesn't mean I build everything from scratch.** I'd rather use Hugoplate than hand-roll a theme for ego. The whole point is standing on work other people already tested.
-
-**Open doesn't mean free labor.** Using open-source software doesn't obligate me to contribute patches or evangelize at meetups. Gratitude is fine. Guilt isn't part of the license.
+I also don't build from scratch to prove anything. I'd rather start from Hugoplate than hand-roll a theme for ego, since the whole point is standing on work other people already tested. And using this stuff doesn't put me in debt to it - I'm not obligated to ship patches or talk at meetups. Gratitude is fine. Guilt isn't part of the license.
 
 The filter is practical: **can I inspect it, move it, and find help when I'm stuck?** If yes, it gets a serious look.
 
@@ -108,11 +100,11 @@ Teaching hasn't changed either. I still point students at stacks they can instal
 
 ## What I'd tell someone starting out
 
-Don't start with a manifesto. Start with a problem.
+I wouldn't start with a manifesto. I'd start with the problem in front of me.
 
-Need a site you can afford to keep running? Look at static generators and markdown in Git. Need client work next quarter? Look at where the job posts are - in my market, that was WordPress for a long time. Need to trust a tool with secrets? Open source plus a real security track record beats marketing copy.
+If I needed a site I could afford to keep running, I'd look at static generators and markdown in Git. If I needed client work next quarter, I'd go where the job posts are, which in my market meant WordPress for a long time. If I needed to trust a tool with my secrets, I'd want open source plus a real security track record, not marketing copy.
 
-Pick for **freedom, ownership, and community depth** - not just "is it free." Skip the tools that only let you work inside their garden unless the garden is worth the rent. Budget time to learn. There's no shortcut past that.
+I pick for **freedom, ownership, and community depth**, not just "is it free." I skip tools that only let me work inside their garden, unless the garden is genuinely worth the rent. And I budget time to learn, because there's no shortcut past that part.
 
 I focused on open source because it let me learn without begging for licenses, survive a hosting disaster, find work, and hand clients something they could keep. The freedom was worth the months. Still is.
 

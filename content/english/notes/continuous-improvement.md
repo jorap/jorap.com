@@ -8,7 +8,7 @@ key_concept: |
   - Level 2: A barista adjusts one step in the morning routine after each spill - each miss feeds the next version of how you work.
   - Level 3: Continuous improvement is steady small upgrades to process and skill - not one heroic overhaul you never schedule.
   - Level 4: Tweak one line in your weekly review checklist after each miss - kaizen in the steam wand, not a grand retraining day.
-  - Level 5: Pairs with [[Blameless After-Action Review]] on the learn side - fix the runbook one line at a time instead of a lecture about trying harder.
+  - Level 5: Pairs with [[Blameless After-Action Review]] on the learn side - fix the runbook one line at a time instead of a pep talk about trying harder.
   - Continuous improvement is steady small upgrades to process and skill - not one heroic overhaul.
 examples:
   - "I tweak one line in my weekly review checklist after each miss - steady small upgrades beat the heroic overhaul I never schedule."

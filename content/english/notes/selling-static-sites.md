@@ -7,7 +7,7 @@ key_concept: |
   - Level 1: I make money from building the site, not from marking up cheap hosting and reselling it.
   - Level 2: I make money from the work I do building the site, not from marking up cheap hosting and reselling it.
   - Level 3: Margin lives in labor - design, content, setup - not hosting markup.
-  - Level 4: Because static hosting is commodity cheap, the sale is craftsmanship and transfer, not inflated infra bills.
+  - Level 4: Because static hosting costs pennies, the sale is craftsmanship and transfer, not inflated infra bills.
   - Level 5: My margin is labor, not hosting markup - static sites stay profitable when delivery and care are the product, not reseller spread.
   - **What I quote:** discovery and [[Static Site Client Scope]] yes/no before I touch a theme repo.
   - Cloudflare setup with `HUGO_VERSION` and `NODE_VERSION` pinned.

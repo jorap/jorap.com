@@ -19,7 +19,7 @@ examples:
   - "Two coworkers wanted me to pick a side - peace was not avoiding them; it was asking what it would take to fix things."
 shareable_thought:
   - "Peace is Spirit-grown calm in believers who trust the Father - not silence at any price."
-  - "Fruits of the Spirit lists peace beside love and joy - inner calm from God's reign, not denial."
+  - "Galatians lists peace beside love and joy - shalom from trusting God's rule, not stuffing emotion."
   - "Stop borrowing tomorrow's trouble - the trust echo when anxiety replaces rest."
   - "Pursue reconciliation where you can - peacemaking is the active echo, not silence only."
 relationships:
