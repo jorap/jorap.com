@@ -11,6 +11,7 @@ from dataclasses import dataclass
 from datetime import datetime, timezone
 from pathlib import Path
 
+from bible_shortcode import expand_bible_shortcodes
 from notes_content import (
     assemble_markdown,
     parse_bool,
@@ -259,6 +260,7 @@ def export_bundle(out_dir: Path) -> tuple[int, int, dict[str, int]]:
         _, inner, body = split_frontmatter(text)
         fm = parse_display_fields(inner)
         body = body_without_see_also(assemble_markdown(fm, body))
+        body = expand_bible_shortcodes(body)
         body = rewrite_wikilinks(body, by_key, base_url)
 
         if record.note_kind == "index":
