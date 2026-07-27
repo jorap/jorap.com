@@ -3,26 +3,26 @@ title: "Servant Leadership"
 meta_title: "Servant Leadership - Last Becomes First at Work"
 description: "Servant leaders unblock the team, coach through mess, take blame up, and pass credit down."
 key_concept: |
-  - Greatness is serving the team, not grabbing credit from it.
-  - Level 1: Real leadership means helping the team succeed, not taking credit for work they did.
-  - Level 2: Greatness is serving the team - upward credit flows out, support flows in.
-  - Level 3: Because teams follow safety and clarity, servant leaders remove blockers and share wins.
-  - Level 4: In the next review, name three contributions that were theirs, not yours.
-  - Level 5: Greatness is serving the team, not grabbing credit from it - authority used to elevate others, not to hoard spotlight.
+  - Greatness means serve the team, not grab credit from it.
+  - Level 1: Real leadership helps the team succeed, not take credit for work they did.
+  - Level 2: Serve the team - credit flows up, support flows in.
+  - Level 3: Teams follow safety and clarity, so servant leaders remove blockers and share wins.
+  - Level 4: In the next review, name three contributions the team owned, not yours.
+  - Level 5: Authority elevates others, not hoards spotlight - same move as line one at scale.
   - The corporate ladder rewards visibility; this principle runs the other way.
   - Wash feet in the sprint, not only in the all-hands speech.
   - Gospel depth: [[Humility and Service]].
   - I can explain this in a leadership book club without opening a sermon.
   - I unblock the team, coach through the mess, take blame up, and pass credit down.
-  - Servant leadership has gospel depth in humility and service - greatness is serving, not being served.
+  - Servant leadership has gospel depth in humility and service - serve first, do not demand service.
 examples:
   - "I had the title at home but noticed I was hoarding easy wins - servant leadership meant the messy bedtime shift while my partner got the break."
   - "I got promoted and realized I had been grabbing credit for work the team carried - servant leadership was my name off the slide and hers on the praise email."
 shareable_thought:
   - "Servant leaders unblock the team, coach through mess, take blame up, and pass credit down."
   - "Servant leadership has gospel depth in humility and service."
-  - "Greatness is serving, not being served."
-  - "Greatness is serving the team, not grabbing credit from it."
+  - "Greatness means serve the team, not grab credit from it."
+  - "Serve first, do not demand service."
 relationships:
   - type: alternative
     wikilink: "[[Let Your Light Shine]]"
