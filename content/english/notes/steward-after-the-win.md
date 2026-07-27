@@ -1,15 +1,15 @@
 ---
 title: "Steward After the Win"
 meta_title: "Steward After the Win - Keep Using the Gift"
-description: "An early win is entrusted, not a license to coast - keep using the gift through the quiet tail."
+description: "An early win comes entrusted, not as a license to coast - keep using the gift through the quiet tail."
 key_concept: |
   - Launch day, promotion email, traffic spike - the temptation is to act like the hard part is done.
   - Level 1: Right after something big goes well, it is easy to relax and act like all the real work is over.
   - Level 2: Launch day and traffic spikes tempt you to treat the win as the finish line instead of the start of stewardship.
   - Level 3: Wins create a stewardship window because attention and trust peak right when neglect does the most damage.
   - Level 4: After launch, schedule the next tending move - sharing, serving, and maintenance - before the spike fades.
-  - Level 5: [[Success is Stewardship]] says the win was entrusted; [[Faithful Steward]] names the long game - well done for faithful use over years, not one viral week.
-  - [[Success is Stewardship]] says the win was entrusted: keep tending, sharing, and serving through the boring middle, not coast on what landed.
+  - Level 5: [[Success is Stewardship]] says the master entrusted the win; [[Faithful Steward]] names the long game - well done for faithful use over years, not one viral week.
+  - [[Success is Stewardship]] says the master entrusted the win: keep tending, sharing, and serving through the boring middle, not coast on what landed.
   - Gospel depth lives in [[Faithful Steward]] - well done for faithful use over years, buried talent for playing it safe after one good season.
   - [[Finish Strong]] closes the last commitment; this note guards the gap right after the exciting start.
   - [[Sustainable Performance]] is the pace lens - do not burn the gift in a victory lap sprint.
@@ -18,7 +18,7 @@ examples:
   - "Promotion email landed Monday and by Thursday I was delegating the messy work and grabbing the visible wins - the title was for their good, not a trophy to coast on."
   - "Site traffic spiked after one post hit and I stopped publishing for two weeks - steward after the win meant three more notes shipped while the window was warm."
 shareable_thought:
-  - "An early win is entrusted, not a license to coast."
+  - "An early win comes entrusted, not as a license to coast."
   - "Keep using the gift through the quiet tail."
   - "Launch day, promotion email, traffic spike - the temptation is to act like the hard part is done."
   - "Gospel depth lives in Faithful Steward."

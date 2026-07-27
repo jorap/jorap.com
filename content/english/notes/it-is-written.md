@@ -4,21 +4,21 @@ meta_title: "It Is Written - Scripture Under Pressure"
 description: "Jesus answered temptation with Scripture already in Him - not improvised slogans under pressure."
 key_concept: |
   {{< bible ref="Matthew 4:1-11" emphasize="4" >}}
-  - Each attack in the wilderness got "It is written" - Deuteronomy already loaded, not a panic Google search mid-temptation.
+  - Each wilderness attack met Scripture already loaded - Deuteronomy in memory, not a panic search mid-temptation.
   - Level 1: When Satan tempted Jesus, He answered with Bible verses He already knew - not words He had to look up in a hurry.
-  - Level 2: Each attack in the wilderness got It is written - Deuteronomy already loaded, not a panic search mid-temptation, like answers memorized before the test.
+  - Level 2: Each attack met stored word - Deuteronomy loaded before the fight, like answers memorized before the test.
   - Level 3: Temptation meets pre-loaded Scripture - scrambling for a verse mid-crisis loses to memory trained before the fight arrives.
-  - Level 4: Load Scripture before temptation arrives so It is written is ready without a panic lookup.
+  - Level 4: Load Scripture before temptation arrives so the answer is ready without a panic lookup.
   - Level 5: [[Jesus' Rhythms]] includes living in Scripture; wilderness answers show stored word, not improvised slogans.
   - He did not invent new ethics on the spot; He answered from what the Father had already spoken.
   - [[Renewed Mind]] names letting Scripture reshape judgment; [[Abide in Me]] names staying in His words - this names the reflex under pressure.
   - Under [[Free Grace]], memorized Scripture is not a merit badge - it is ammunition for the fork when hunger, pride, and shortcut power show up.
 examples:
-  - "The group chat baited me to fire back and I almost typed a sermon - It is written means the verse was already loaded before the adrenaline hit."
+  - "The group chat baited me to fire back and I almost typed a sermon - Scripture was already loaded before the adrenaline hit."
   - "Tempted to pad the expense report because nobody would know - no new argument invented in the moment, just what God already said about honesty."
 shareable_thought:
   - "Jesus answered temptation with Scripture already in Him - not improvised slogans under pressure."
-  - "Each attack in the wilderness got It is written - Deuteronomy already loaded, not a panic Google search mid-temptation."
+  - "Each wilderness attack met Scripture already loaded - Deuteronomy in memory, not a panic search mid-temptation."
   - "He did not invent new ethics on the spot; He answered from what the Father had already spoken."
   - "Memorized Scripture is not a merit badge - it is ammunition for the fork when hunger, pride, and shortcut power show up."
 relationships:
