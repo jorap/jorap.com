@@ -20,7 +20,7 @@ Starting by locating all blog posts under `content/english/blog/`. Will run the 
 
 _**Agent (auto-low)**_
 
-I'll review every blog post against the JoRap voice skill-starting by listing posts and running the voice/slop linters.
+I'll review every blog post against the JoRap voice skill—starting by listing posts and running the voice/slop linters.
 
 
 _**Agent (auto-low)**_
@@ -166,7 +166,7 @@ $ python3 scripts/slop-lint.py --check
 Slop lint OK
 ---
 $ python3 scripts/notes-voice-lint.py --summary --review
-Voice scan - 310 files, 0 strict, 69 review-only
+Voice scan — 310 files, 0 strict, 69 review-only
 Word list: data/voice-words.yaml
 
 Review-only (edit data/voice-words.yaml review: to tune)
@@ -252,11 +252,11 @@ cd /home/jorap/Documents/GitHub/jorap.com && pnpm slop:scan 2>&1
 
 ```
 $ python3 scripts/slop-lint.py --summary
-Slop scan - 60 blog, 237 notes, 0 fail, 29 warn
+Slop scan — 60 blog, 237 notes, 0 fail, 29 warn
 Rules: data/slop-rules.yaml
 
 Warn (fix before publish)
-  placeholder-image (29) - replace image-template.jpg before publish
+  placeholder-image (29) — replace image-template.jpg before publish
     content/english/blog/__canon-g3000.md · image
     content/english/blog/__craft-prompt-framework.md · image
     content/english/blog/__how-to-create-a-blog-template.md · image
@@ -267,7 +267,7 @@ Warn (fix before publish)
     content/english/blog/__hugo-static-site-generator.md · image
     … and 21 more
 
-pnpm lint:slop - fail CI on publish blockers
+pnpm lint:slop — fail CI on publish blockers
 
 ```
 </details></tool-use>
@@ -667,7 +667,7 @@ Parameters:
 {
   "caseInsensitive": false,
   "glob": "content/english/blog/**/*.md",
-  "pattern": "-"
+  "pattern": "—"
 }
 ```
 Additional data:
@@ -676,7 +676,7 @@ Additional data:
 {
   "isPruned": true,
   "outputMode": "content",
-  "pattern": "-",
+  "pattern": "—",
   "topFiles": [],
   "totalFiles": 0,
   "totalMatches": 0
@@ -1263,7 +1263,7 @@ Several drafts need targeted fixes. The box and router pieces need one lived fai
 
 _**Agent (auto-low)**_
 
-# JoRap Voice Review - All Blogs
+# JoRap Voice Review — All Blogs
 
 **Scope:** 60 files under `content/english/blog/` (24 published, 35 drafts, 1 section index). Reviewed against jorap-voice seven passes, slop gate, and voice check.
 
@@ -1271,8 +1271,8 @@ _**Agent (auto-low)**_
 
 | Check | Result |
 |-------|--------|
-| `pnpm lint:voice` | Pass - no strict hits, no em dashes |
-| `pnpm lint:slop` | Pass - no publish blockers on live posts |
+| `pnpm lint:voice` | Pass — no strict hits, no em dashes |
+| `pnpm lint:slop` | Pass — no publish blockers on live posts |
 | `pnpm voice:scan` | 0 strict hits on blogs; review-only words (`deploy`, `framework`, `navigate`) are fine in dev context |
 
 Published posts have no wiki-export footers, no `users should` / `it is recommended`, no placeholder heroes, and all meet the 80-word floor.
@@ -1281,15 +1281,15 @@ Published posts have no wiki-export footers, no `users should` / `it is recommen
 
 ## Overall verdict
 
-**The published corpus is in good shape.** Most live posts sound like JoRap - first person, specific friction, clear takes. The weak spots are not vocabulary slop; they're **guide-shaped middle sections** (could paste into any blog) and a few **overlapping ownership essays**.
+**The published corpus is in good shape.** Most live posts sound like JoRap — first person, specific friction, clear takes. The weak spots are not vocabulary slop; they're **guide-shaped middle sections** (could paste into any blog) and a few **overlapping ownership essays**.
 
 Drafts split into three buckets: **publish-ready with a hero image**, **needs one lived-in pass**, and **outline/thin** (especially Hugo tutorial stubs).
 
 ---
 
-## Published - tiered
+## Published — tiered
 
-### Tier A - reference voice (swap test passes)
+### Tier A — reference voice (swap test passes)
 
 These match the skill's reference posts. Keep them as models.
 
@@ -1308,41 +1308,41 @@ These match the skill's reference posts. Keep them as models.
 | `consistent-ai-output-wordpress-builds.md` | Month-one vs month-three arc, contractor metaphor |
 | `facebook-favorites-feed.md` | "Can't quit Messenger" opener, over-favoriting mistake |
 
-### Tier B - good, polish if you touch them
+### Tier B — good, polish if you touch them
 
 Voice is there; some H2 sections fail the **one-failure-per-section** rule or the swap test.
 
 | Post | Issue | Suggested pass |
 |------|-------|----------------|
 | `getting-started-with-rss-feeds.md` | Strong opener and closer; middle ("What RSS actually is", "Why it's worth bothering") reads like a solid beginner guide | Add one scene per definitional section (your old tab-hunting routine, the friend conversation) |
-| `why-run-your-own-website.md` | "You get to make it look like *you*" and "It's a real portfolio" shift to second-person generic | Rewrite with *your* site choices - why Hugoplate, why the notes garden layout |
+| `why-run-your-own-website.md` | "You get to make it look like *you*" and "It's a real portfolio" shift to second-person generic | Rewrite with *your* site choices — why Hugoplate, why the notes garden layout |
 | `why-keep-desktop-laptop.md` | Ergonomics/storage sections are advice-shaped | One body-wrist or disk-full story each |
 | `static-site-vs-cms.md` | "When I reach for a static site" is criteria without a client misfire | Name one project that went wrong on the wrong stack |
-| `sustainable-online-publishing.md` | Thin (563w), overlaps `why-run-your-own-website` | Fine as habit companion - sharpen "What I don't mean" with one hosting-loss callback (you have it; make the sections less parallel) |
-| `worship-pads-solo-guitar.md` | Definitional opener section is fine for tips genre | Already recovers in "VLC near-disaster" - no urgent fix |
+| `sustainable-online-publishing.md` | Thin (563w), overlaps `why-run-your-own-website` | Fine as habit companion — sharpen "What I don't mean" with one hosting-loss callback (you have it; make the sections less parallel) |
+| `worship-pads-solo-guitar.md` | Definitional opener section is fine for tips genre | Already recovers in "VLC near-disaster" — no urgent fix |
 | `one-page-zine.md` | Mostly strong | Minor: "Other places I would use it" could use one named game night |
 | Recipe trio (`instant-pot-*`, `set-it-forget-it-*`) | Instructional by design | Section intros already human; OK |
 
-### Tier C - different genre (voice rules apply differently)
+### Tier C — different genre (voice rules apply differently)
 
 | Post | Notes |
 |------|-------|
 | `dnpap-song-resources.md` (206w) | Link hub, not essay. Intro is personal (Pia, COVID recording). Voice OK for purpose. |
-| `alex-eala-pro-career-tracker.md` (5.9k w) | Scrapbook/data page. Opener has `I`; body is reference by design. Not an essay - don't force narrative into stat blocks. |
+| `alex-eala-pro-career-tracker.md` (5.9k w) | Scrapbook/data page. Opener has `I`; body is reference by design. Not an essay — don't force narrative into stat blocks. |
 
 ---
 
 ## Recurring patterns (published)
 
-1. **TL;DR blocks** on dev posts (`consistent-ai-output`, `why-i-focused-on-open-source`) - works for that audience; fine to keep.
-2. **Bold lead-ins on list items** (`getting-started-with-rss-feeds`, `facebook-favorites-feed`) - slightly listicle-shaped but saved by first-person framing.
-3. **"What X actually is" headings** - fine when followed by a story; weak when followed by definition only.
+1. **TL;DR blocks** on dev posts (`consistent-ai-output`, `why-i-focused-on-open-source`) — works for that audience; fine to keep.
+2. **Bold lead-ins on list items** (`getting-started-with-rss-feeds`, `facebook-favorites-feed`) — slightly listicle-shaped but saved by first-person framing.
+3. **"What X actually is" headings** — fine when followed by a story; weak when followed by definition only.
 4. **No currency violations** on published posts.
-5. **Review-only lint words** (`deploy`, `framework`, `navigate`) appear in dev posts - context-appropriate; no action needed.
+5. **Review-only lint words** (`deploy`, `framework`, `navigate`) appear in dev posts — context-appropriate; no action needed.
 
 ---
 
-## Drafts - publish readiness
+## Drafts — publish readiness
 
 ### Ready-ish (voice mostly there → hero image + light pass)
 
@@ -1353,7 +1353,7 @@ Voice is there; some H2 sections fail the **one-failure-per-section** rule or th
 | `__humanize-ai-articles.md` | 487 | Meta but on-brand; ironic "When it comes to" quote is intentional |
 | `__password-managers.md` | 538 | Run passes #1 + #6 before publish |
 | `__smart-plug.md` | 653 | Same |
-| `__shopee-tips.md` | 524 | Philippines grounding - good fit |
+| `__shopee-tips.md` | 524 | Philippines grounding — good fit |
 | `__second-cellphone.md` | 588 | |
 | `__canon-g3000.md` | 491 | |
 | `__client-site-pass-off.md` | 946 | |
@@ -1375,14 +1375,14 @@ Voice is there; some H2 sections fail the **one-failure-per-section** rule or th
 | `__how-to-create-a-good-habit.md` | 341 | Generic habit-post shape |
 | `__immune-booster-supplements.md` | 305 | Needs personal trial/failure or cut |
 
-**Tutorial drafts** (`__hugo-*`, `__markdown-formatting.md`, etc.): structurally fine as references, but jorap-voice wants **one real project scar per section** - not "here's how bundles work."
+**Tutorial drafts** (`__hugo-*`, `__markdown-formatting.md`, etc.): structurally fine as references, but jorap-voice wants **one real project scar per section** — not "here's how bundles work."
 
 ### Not a post yet
 
 | Draft | Words |
 |-------|------:|
-| `__how-to-create-a-blog-template.md` | 0 - empty shell |
-| `__blog-template.md` | 1682 - internal Hugo reference, not JoRap essay |
+| `__how-to-create-a-blog-template.md` | 0 — empty shell |
+| `__blog-template.md` | 1682 — internal Hugo reference, not JoRap essay |
 
 ---
 
@@ -1390,15 +1390,15 @@ Voice is there; some H2 sections fail the **one-failure-per-section** rule or th
 
 **Published (low effort, high swap-test gain):**
 
-1. `getting-started-with-rss-feeds.md` - personal scene in "What RSS actually is"
-2. `why-run-your-own-website.md` - rewrite two second-person sections in first person
-3. `sustainable-online-publishing.md` - trim overlap with #2 or merge long-term
+1. `getting-started-with-rss-feeds.md` — personal scene in "What RSS actually is"
+2. `why-run-your-own-website.md` — rewrite two second-person sections in first person
+3. `sustainable-online-publishing.md` — trim overlap with #2 or merge long-term
 
 **Drafts (before first publish):**
 
 1. Replace `image-template.jpg` on anything you plan to ship
-2. `__obsidian-vs-hugo.md` - expand from bullets to one garage→garden workflow story
-3. `__mi-box-s.md` / `__wifi-router.md` - closest to done; images + one failure each
+2. `__obsidian-vs-hugo.md` — expand from bullets to one garage→garden workflow story
+3. `__mi-box-s.md` / `__wifi-router.md` — closest to done; images + one failure each
 
 ---
 
@@ -2633,7 +2633,7 @@ cd /home/jorap/Documents/GitHub/jorap.com && pnpm slop:scan 2>&1 | head -25
 
 ```
 $ python3 scripts/slop-lint.py --summary
-Slop scan - 60 blog, 237 notes, 0 fail, 0 warn
+Slop scan — 60 blog, 237 notes, 0 fail, 0 warn
 Rules: data/slop-rules.yaml
 
 No slop flags.
@@ -2774,7 +2774,7 @@ Done. All tiers polished, all 35 drafts touched, lints clean.
 
 ## Published (Tier B + C)
 
-**Tier B** - added lived-in scenes and first-person fixes:
+**Tier B** — added lived-in scenes and first-person fixes:
 
 | Post | Change |
 |------|--------|
@@ -2786,9 +2786,9 @@ Done. All tiers polished, all 35 drafts touched, lints clean.
 | `one-page-zine.md` | Hanamikoji teach-night zine example |
 | `worship-pads-solo-guitar.md` | "Nodded like I knew" pad intro |
 
-**Tier C** - light opener polish on `dnpap-song-resources.md` (COVID recording detail) and `alex-eala-pro-career-tracker.md` (Miami Open, update cadence).
+**Tier C** — light opener polish on `dnpap-song-resources.md` (COVID recording detail) and `alex-eala-pro-career-tracker.md` (Miami Open, update cadence).
 
-**Tier A** - unchanged (already reference voice).
+**Tier A** — unchanged (already reference voice).
 
 ## Drafts (all 35)
 
@@ -2796,13 +2796,13 @@ Done. All tiers polished, all 35 drafts touched, lints clean.
 - **Full rewrites:** `__obsidian-vs-hugo.md` (garage→garden story), `__markdown-deep-dive.md` (forum asterisks, YAML build break).
 - **Empty draft:** `__how-to-create-a-blog-template.md` is now a pointer to `__blog-template.md` with publish reminders.
 - **Failure scenes added** across gear/food/health/tutorial drafts: smart plug wifi dead zone, Mi Box storage, wifi weekly reboot, Shopee USB hub, Canon post-vacation clog, second-phone OTP on lock screen, immune stack rainy season, McGill couch-laptop back, Worcestershire adobo, CRAFT oatmeal newsletter, Hugo shortcodes YouTube embed fix, etc.
-- **Already strong drafts** (`__jorap-notes-features`, `__grade-1-better-than-kumon`, `__interesting-facts-about-jorap`, `__client-site-pass-off`, `__selling-static-sites`, Hugo tutorial set) - image fixes + spot checks; voice was already there.
+- **Already strong drafts** (`__jorap-notes-features`, `__grade-1-better-than-kumon`, `__interesting-facts-about-jorap`, `__client-site-pass-off`, `__selling-static-sites`, Hugo tutorial set) — image fixes + spot checks; voice was already there.
 
 ## Lint
 
 ```
 pnpm lint:voice  ✓
-pnpm lint:slop   ✓  (0 warn - no placeholder images left)
+pnpm lint:slop   ✓  (0 warn — no placeholder images left)
 pnpm lint:blog   ✓
 ```
 

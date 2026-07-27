@@ -549,7 +549,7 @@ All scores have been updated to favor Eala.
 
 _**Agent (auto-low)**_
 
-Updated the tracker so **Eala's games always come first** in every set and match tiebreak - wins and losses, singles and doubles.
+Updated the tracker so **Eala's games always come first** in every set and match tiebreak — wins and losses, singles and doubles.
 
 ### Scores flipped (14 lines)
 
@@ -675,7 +675,7 @@ Result:
 
 ```json
 {
-  "markdown": "Alexandra Eala | Tennis.com\n\n# AlexandraEala\n\nCurrent Singles Ranking\n\n32\n\nCurrent Doubles Ranking\n\n126\n\n| Key Facts |\n| --- |\n| Birth Date | May 23, 2005 (21) |\n| Height | - |\n| Plays | Left-Handed |\n| Year Turned Pro | - |\n\n| Player Ranking |\n| --- |\n| Singles Ranking | 32 |\n| Singles Points | 1,436 |\n| Doubles Ranking | 126 |\n| Doubles Points | 661 |\n| Career High Singles Ranking | 70 |\n| Career High Doubles Ranking | 192 |",
+  "markdown": "Alexandra Eala | Tennis.com\n\n# AlexandraEala\n\nCurrent Singles Ranking\n\n32\n\nCurrent Doubles Ranking\n\n126\n\n| Key Facts |\n| --- |\n| Birth Date | May 23, 2005 (21) |\n| Height | — |\n| Plays | Left-Handed |\n| Year Turned Pro | — |\n\n| Player Ranking |\n| --- |\n| Singles Ranking | 32 |\n| Singles Points | 1,436 |\n| Doubles Ranking | 126 |\n| Doubles Points | 661 |\n| Career High Singles Ranking | 70 |\n| Career High Doubles Ranking | 192 |",
   "url": "https://www.tennis.com/players-rankings/alexandra-eala"
 }
 ```
@@ -1265,17 +1265,17 @@ H2H audit complete. Cross-checked all **17** opponent blocks (7 Grand Slam Champ
 
 ### Gap found and fixed
 
-**Linda Noskova** - tracker had **1 of 2** pro singles meetings.
+**Linda Noskova** — tracker had **1 of 2** pro singles meetings.
 
 | Missing match | Result (Eala-first) |
 |---|---|
-| **2026 Indian Wells** - Round of 16 | LOSS, 2-6, 0-6 |
+| **2026 Indian Wells** — Round of 16 | LOSS, 2-6, 0-6 |
 
 Added to her **Matches:** block (newest-first, below Berlin). Links: [wtatennis.com LS010](https://www.wtatennis.com/tournaments/indian-wells/scores/LS010) | [tennis.com](https://www.tennis.com/tournaments/bnp-paribas-open-indian-wells/matches/a-eala-vs-l-noskova-2026-03-11).
 
 Noskova H2H is now **0-2** (Indian Wells R16, Berlin SF).
 
-### All other H2H sections - complete
+### All other H2H sections — complete
 
 | Opponent | Meetings | Tracker |
 |---|---|---|
@@ -1302,6 +1302,6 @@ Noskova H2H is now **0-2** (Indian Wells R16, Berlin SF).
 
 ### Unverified
 
-Official **match highlights** on YouTube for Noskova–Eala at Indian Wells 2026 - only previews/interviews turned up, so no embed was added.
+Official **match highlights** on YouTube for Noskova–Eala at Indian Wells 2026 — only previews/interviews turned up, so no embed was added.
 
 `lastmod` bumped to `2026-07-10T12:02:00Z`. No commit made.

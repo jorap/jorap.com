@@ -464,11 +464,11 @@ New concept image is in place at `assets/images/drupal-to-wp.jpg`. The post fron
 
 It replaces the old flat logo-split graphic with the same late-night desk style as `static-vs-cms.jpg` and `open-source.jpg`. The scene is built around the post’s real arguments, not brand icons:
 
-- **Clipboard checklist** - “Pick a CMS” with the tradeoffs you actually weighed: architecture, jobs, upgrade weekends, plugin shelf for Tuesday clients
-- **Bottom line** - “Drupal taught me structure. WordPress pays the rent.”
-- **Sticky note** - “Views / Paragraphs” crossed out, “ACF + Blocks” circled
-- **Plugin shelf** in the background - the “I chose the shelf” metaphor from the closing
-- **Phone with a meetup photo** - WordCamp/community angle
-- **City night through the window** - Manila without making it a travel poster
+- **Clipboard checklist** — “Pick a CMS” with the tradeoffs you actually weighed: architecture, jobs, upgrade weekends, plugin shelf for Tuesday clients
+- **Bottom line** — “Drupal taught me structure. WordPress pays the rent.”
+- **Sticky note** — “Views / Paragraphs” crossed out, “ACF + Blocks” circled
+- **Plugin shelf** in the background — the “I chose the shelf” metaphor from the closing
+- **Phone with a meetup photo** — WordCamp/community angle
+- **City night through the window** — Manila without making it a travel poster
 
-If you want tweaks - less Drupal logo, different checklist wording, warmer/cooler light - say what to change and I’ll regenerate.
+If you want tweaks — less Drupal logo, different checklist wording, warmer/cooler light — say what to change and I’ll regenerate.

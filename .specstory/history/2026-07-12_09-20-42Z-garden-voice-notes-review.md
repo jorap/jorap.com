@@ -336,7 +336,7 @@ cd /home/jorap/Documents/GitHub/jorap.com && pnpm garden-voice:scan 2>&1
 
 ```
 $ python3 scripts/garden-voice-lint.py --summary
-Garden voice - 236 files, 2 issues
+Garden voice — 236 files, 2 issues
   faith-no-verse: 1
   contraction: 1
 
@@ -384,7 +384,7 @@ cd /home/jorap/Documents/GitHub/jorap.com && pnpm voice:scan 2>&1 | head -80
 
 ```
 $ python3 scripts/notes-voice-lint.py --summary --review
-Voice scan - 304 files, 0 strict, 63 review-only
+Voice scan — 304 files, 0 strict, 63 review-only
 Word list: data/voice-words.yaml
 
 Review-only (edit data/voice-words.yaml review: to tune)
@@ -523,7 +523,7 @@ for path in notes_only:
     if isinstance(desc, str) and re.search(r&#34;\b(?:comprehensive|optimal|facilitate|leverage|utilize|robust|landscape|navigate)\b&#34;, desc, re.I):
         issues[&#34;desc-ai-tell&#34;].append((rel, desc[:90]))
 
-print(f&#34;Extended audit - {len(notes_only)} note files\n&#34;)
+print(f&#34;Extended audit — {len(notes_only)} note files\n&#34;)
 for rule, items in sorted(issues.items(), key=lambda x: -len(x[1])):
     print(f&#34;## {rule} ({len(items)})&#34;)
     for item in items[:8]:
@@ -614,7 +614,7 @@ for path in notes_only:
     if isinstance(desc, str) and re.search(r"\b(?:comprehensive|optimal|facilitate|leverage|utilize|robust|landscape|navigate)\b", desc, re.I):
         issues["desc-ai-tell"].append((rel, desc[:90]))
 
-print(f"Extended audit - {len(notes_only)} note files\n")
+print(f"Extended audit — {len(notes_only)} note files\n")
 for rule, items in sorted(issues.items(), key=lambda x: -len(x[1])):
     print(f"## {rule} ({len(items)})")
     for item in items[:8]:
@@ -631,7 +631,7 @@ PYEOF
 ```
 
 ```
-Extended audit - 236 note files
+Extended audit — 236 note files
 
 ## shareable-short (2)
   content/english/notes/justification.md
@@ -654,7 +654,7 @@ cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/notes-voice-lint.py
 ```
 
 ```
-Voice scan - 304 files, 0 strict, 63 review-only
+Voice scan — 304 files, 0 strict, 63 review-only
 Word list: data/voice-words.yaml
 
 Review-only (edit data/voice-words.yaml review: to tune)
@@ -1403,7 +1403,7 @@ Across all 219 garden notes:
 
 ### `shareable_thought` fragments
 
-Lint only flags items under 4 words. Garden-voice wants **four complete thoughts, four angles** - not chip-sized fragments.
+Lint only flags items under 4 words. Garden-voice wants **four complete thoughts, four angles** — not chip-sized fragments.
 
 **Clearest violations** (match the skill’s bad examples):
 
@@ -1414,7 +1414,7 @@ Lint only flags items under 4 words. Garden-voice wants **four complete thoughts
 | `follow-christ-then-lead.md` | "Upward allegiance and outward care." |
 | `great-commission.md` | "Go, baptize, teach obedience." |
 | `turn-the-other-cheek.md` | "Break the retaliation loop." |
-| `notice-the-good.md` | `"Good job" teaches nothing.` (borderline - punchy but thin) |
+| `notice-the-good.md` | `"Good job" teaches nothing.` (borderline — punchy but thin) |
 
 Broader heuristic scan flagged **~76 files** with at least one short or verb-light shareable line. Many are borderline ("Sleep and recovery protect judgment." reads fine). Priority is the fragment-style items above.
 
@@ -1424,7 +1424,7 @@ Broader heuristic scan flagged **~76 files** with at least one short or verb-lig
 |------|---------|
 | `first-principles-thinking.md` | Items 0 and 1 are almost the same sentence |
 | `graph-view-analytics.md` | Same |
-| `signal-vs-noise.md` | Same - only "feeds" vs "content" differs |
+| `signal-vs-noise.md` | Same — only "feeds" vs "content" differs |
 | `god-centered-design.md` | Items 0 and 1 restate the same definition with tiny swaps |
 | `abide-in-me.md` | Items 2 and 3 near-duplicate ("ongoing dependence" twice) |
 
@@ -1433,7 +1433,7 @@ Broader heuristic scan flagged **~76 files** with at least one short or verb-lig
 Beyond missing scripture:
 
 - `shareable_thought` items 2–3 are fragments, not standalone thoughts
-- `key_concept` opens with a situational line, not a punch claim - workable, but weaker than reference notes like `sanctification.md`
+- `key_concept` opens with a situational line, not a punch claim — workable, but weaker than reference notes like `sanctification.md`
 
 ---
 
@@ -1467,14 +1467,14 @@ Faith coverage: **71** faith-tagged notes; **1** missing verse (`follow-christ-t
 
 ## Priority fix list
 
-1. **`follow-christ-then-lead.md`** - add EP scripture block; rewrite fragment shareables
-2. **`justification.md`**, **`sanctification.md`** - expand fragment shareables into full thoughts
-3. **`first-principles-thinking.md`**, **`graph-view-analytics.md`**, **`signal-vs-noise.md`**, **`god-centered-design.md`**, **`abide-in-me.md`** - dedupe near-identical shareable pairs
-4. **`god-centered-design.md`** - optionally reword the `relationships.reason` wikilink so lint stops flagging `Don't`
+1. **`follow-christ-then-lead.md`** — add EP scripture block; rewrite fragment shareables
+2. **`justification.md`**, **`sanctification.md`** — expand fragment shareables into full thoughts
+3. **`first-principles-thinking.md`**, **`graph-view-analytics.md`**, **`signal-vs-noise.md`**, **`god-centered-design.md`**, **`abide-in-me.md`** — dedupe near-identical shareable pairs
+4. **`god-centered-design.md`** — optionally reword the `relationships.reason` wikilink so lint stops flagging `Don't`
 
 ---
 
-**Bottom line:** ~99% structural compliance. The garden reads like JoRap on structure and voice lint. The main drift is `shareable_thought` fragments and a few near-duplicates - especially on faith spine notes. Two lint failures; one is real (`follow-christ-then-lead`), one is probably a wikilink-title edge case.
+**Bottom line:** ~99% structural compliance. The garden reads like JoRap on structure and voice lint. The main drift is `shareable_thought` fragments and a few near-duplicates — especially on faith spine notes. Two lint failures; one is real (`follow-christ-then-lead`), one is probably a wikilink-title edge case.
 
 Want me to fix the priority list in a batch?
 
@@ -1698,7 +1698,7 @@ The key concept will mirror the abide-in-me and discipleship-vs-leadership templ
 
 The first claim line after the gloss will be plain text without a wikilink. The duplicate entry was merged into a single gloss followed by claim bullets.
 
-The exact template now follows the John 15:1-11 skill pattern. After the bible shortcode, the structure is a first-person gloss bullet, a plain claim line with no wikilink, two to four tight sentences, and a link stack. The follow-christ draft uses the first-person gloss: when the captain’s chair and Christ’s command pull opposite ways, I deny the shortcut first-daily cross before I set pace for the room.
+The exact template now follows the John 15:1-11 skill pattern. After the bible shortcode, the structure is a first-person gloss bullet, a plain claim line with no wikilink, two to four tight sentences, and a link stack. The follow-christ draft uses the first-person gloss: when the captain’s chair and Christ’s command pull opposite ways, I deny the shortcut first—daily cross before I set pace for the room.
 
 The shareable thought fixes for follow-christ are now drafted. The first bullet states that when leadership pressure collides with Christ’s command, I follow Christ first and then lead from that footing. The second distinguishes Discipleship as upward allegiance and Leadership as outward care. The third clarifies that running the standup is not the same as obeying Christ in private.
 

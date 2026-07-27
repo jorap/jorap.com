@@ -72,7 +72,7 @@ Result:
   "isFinal": true,
   "references": [
     {
-      "chunk": "Links:\n1. [Alex Eala returns to WTA Top 30 after historic Wimbledon run | The Manila Times](https://www.manilatimes.net/2026/07/13/sports/alex-eala-returns-to-wta-top-30-after-historic-wimbledon-run/2383033)\n2. [Alex Eala climbs to career-high world No. 28 in WTA rankings](https://www.spin.ph/tennis/alex-eala-climbs-to-career-high-world-no-28-after-historic-wimbledon-run-a6035-20260713)\n3. [Alex Eala returns home with new career-high ranking](https://www.rappler.com/people/athletes/alex-eala-ranking-july-13-2026/)\n4. [Trailblazing Alex Eala climbs to career-high No. 28 in WTA live rankings – Tempo](https://tempo.mb.com.ph/2026/07/07/alex-eala-climbs-to-career-high-no-28-in-wta-live-rankings/)\n5. [Alex Eala on track for a first-round bye in WTA 1000 Toronto | The Manila Times](https://www.manilatimes.net/2026/07/08/sports/alex-eala-on-track-for-a-first-round-bye-in-wta-1000-toronto/2380467)\n\nSynthesis:\nAs of July 13, 2026, Alex Eala holds a career-high WTA singles ranking of No. 28 [1][2][3]. She achieved this milestone following her historic performance at the 2026 Wimbledon Championships, where she became the first Filipino singles player to reach the fourth round [1][4][3]. Eala currently holds 1,666 ranking points [1][3].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eAlex Eala returns to WTA Top 30 after historic Wimbledon run | The Manila Times\u003c/title\u003e\n\u003curl\u003ehttps://www.manilatimes.net/2026/07/13/sports/alex-eala-returns-to-wta-top-30-after-historic-wimbledon-run/2383033\u003c/url\u003e\n\u003ccontent\u003eAlex Eala returns to WTA Top 30 after historic Wimbledon run | The Manila Times\n...\n# Alex Eala returns to WTA Top 30 after historic Wimbledon run\n...\nMANILA, Philippines - Banking on a historic Wimbledon run, Filipino tennis ace Alexandra \"Alex\" Eala surged four spots to a new career-high rank of No. 28 in the latest WTA rankings on Monday.\n...\nAs 
+      "chunk": "Links:\n1. [Alex Eala returns to WTA Top 30 after historic Wimbledon run | The Manila Times](https://www.manilatimes.net/2026/07/13/sports/alex-eala-returns-to-wta-top-30-after-historic-wimbledon-run/2383033)\n2. [Alex Eala climbs to career-high world No. 28 in WTA rankings](https://www.spin.ph/tennis/alex-eala-climbs-to-career-high-world-no-28-after-historic-wimbledon-run-a6035-20260713)\n3. [Alex Eala returns home with new career-high ranking](https://www.rappler.com/people/athletes/alex-eala-ranking-july-13-2026/)\n4. [Trailblazing Alex Eala climbs to career-high No. 28 in WTA live rankings – Tempo](https://tempo.mb.com.ph/2026/07/07/alex-eala-climbs-to-career-high-no-28-in-wta-live-rankings/)\n5. [Alex Eala on track for a first-round bye in WTA 1000 Toronto | The Manila Times](https://www.manilatimes.net/2026/07/08/sports/alex-eala-on-track-for-a-first-round-bye-in-wta-1000-toronto/2380467)\n\nSynthesis:\nAs of July 13, 2026, Alex Eala holds a career-high WTA singles ranking of No. 28 [1][2][3]. She achieved this milestone following her historic performance at the 2026 Wimbledon Championships, where she became the first Filipino singles player to reach the fourth round [1][4][3]. Eala currently holds 1,666 ranking points [1][3].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eAlex Eala returns to WTA Top 30 after historic Wimbledon run | The Manila Times\u003c/title\u003e\n\u003curl\u003ehttps://www.manilatimes.net/2026/07/13/sports/alex-eala-returns-to-wta-top-30-after-historic-wimbledon-run/2383033\u003c/url\u003e\n\u003ccontent\u003eAlex Eala returns to WTA Top 30 after historic Wimbledon run | The Manila Times\n...\n# Alex Eala returns to WTA Top 30 after historic Wimbledon run\n...\nMANILA, Philippines — Banking on a historic Wimbledon run, Filipino tennis ace Alexandra \"Alex\" Eala surged four spots to a new career-high rank of No. 28 in the latest WTA rankings on Monday.\n...\nAs 
 … (output truncated)
 ```
 User decision: **accepted**
@@ -83,7 +83,7 @@ Status: **completed**
 
 _**Agent (auto-low)**_
 
-July 12 update-searching recent results and fetching WTA profile data.
+July 12 update—searching recent results and fetching WTA profile data.
 
 
 _**Agent (auto-low)**_
@@ -262,7 +262,7 @@ Result:
   "isFinal": true,
   "references": [
     {
-      "chunk": "Links:\n1. [Wimbledon 2026 results: Jasmine Paolini holds off Alexandra Eala to reach quarter-finals - BBC Sport](https://www.bbc.co.uk/sport/tennis/articles/c2lyyw2e4d7o)\n2. [Jasmine Paolini vs Alexandra Eala - Wimbledon Round of 16](https://umpiry.com/match/2026-07-06/eala-vs-paolini-wimbledon-r16)\n3. [Wimbledon 2026: Jasmine Paolini ends Alexandra Eala’s fairytale run to return to quarter-finals](https://www.olympics.com/en/news/wimbledon-2026-jasmine-paolini-alexandra-eala-fourth-round-results)\n4. [Paolini outlasts Eala to reach second Wimbledon quarterfinal, will face Kostyuk](https://www.wtatennis.com/news/4531622/paolini-pips-eala-becomes-first-italian-woman-with-multiple-wimbledon-quarterfinals)\n\nSynthesis:\nJasmine Paolini defeated Alexandra Eala 6-4, 4-6, 6-3 in the fourth round of the 2026 Wimbledon Championships on Monday, July 6, 2026 [1][2][3]. The match lasted two hours and 22 minutes on Centre Court [1][4][5]. You can access the official match data and statistics via the Wimbledon website's IBM SlamTracker records for the 2026 fourth round [6]. Eala had reached this stage after defeating defending champion Iga Swiatek in the previous round [1][7][8]. Following the win, Paolini advanced to the quarter-finals to face Marta Kostyuk [4][3].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eWimbledon 2026 results: Jasmine Paolini holds off Alexandra Eala to reach quarter-finals - BBC Sport\u003c/title\u003e\n\u003curl\u003ehttps://www.bbc.co.uk/sport/tennis/articles/c2lyyw2e4d7o\u003c/url\u003e\n\u003ccontent\u003eWimbledon 2026 results: Jasmine Paolini holds off Alexandra Eala to reach quarter-finals - BBC Sport\n...\nPaolini fends off Eala to return to Wimbledon quarter-finals\n...\nJasmine Paolini secured a gritty win over Alexandra Eala to reach the Wimbledon quarter-finals and end the Filipina's historic run.\n...\nEala became the first player from the Philippines to reach 
+      "chunk": "Links:\n1. [Wimbledon 2026 results: Jasmine Paolini holds off Alexandra Eala to reach quarter-finals - BBC Sport](https://www.bbc.co.uk/sport/tennis/articles/c2lyyw2e4d7o)\n2. [Jasmine Paolini vs Alexandra Eala — Wimbledon Round of 16](https://umpiry.com/match/2026-07-06/eala-vs-paolini-wimbledon-r16)\n3. [Wimbledon 2026: Jasmine Paolini ends Alexandra Eala’s fairytale run to return to quarter-finals](https://www.olympics.com/en/news/wimbledon-2026-jasmine-paolini-alexandra-eala-fourth-round-results)\n4. [Paolini outlasts Eala to reach second Wimbledon quarterfinal, will face Kostyuk](https://www.wtatennis.com/news/4531622/paolini-pips-eala-becomes-first-italian-woman-with-multiple-wimbledon-quarterfinals)\n\nSynthesis:\nJasmine Paolini defeated Alexandra Eala 6-4, 4-6, 6-3 in the fourth round of the 2026 Wimbledon Championships on Monday, July 6, 2026 [1][2][3]. The match lasted two hours and 22 minutes on Centre Court [1][4][5]. You can access the official match data and statistics via the Wimbledon website's IBM SlamTracker records for the 2026 fourth round [6]. Eala had reached this stage after defeating defending champion Iga Swiatek in the previous round [1][7][8]. Following the win, Paolini advanced to the quarter-finals to face Marta Kostyuk [4][3].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eWimbledon 2026 results: Jasmine Paolini holds off Alexandra Eala to reach quarter-finals - BBC Sport\u003c/title\u003e\n\u003curl\u003ehttps://www.bbc.co.uk/sport/tennis/articles/c2lyyw2e4d7o\u003c/url\u003e\n\u003ccontent\u003eWimbledon 2026 results: Jasmine Paolini holds off Alexandra Eala to reach quarter-finals - BBC Sport\n...\nPaolini fends off Eala to return to Wimbledon quarter-finals\n...\nJasmine Paolini secured a gritty win over Alexandra Eala to reach the Wimbledon quarter-finals and end the Filipina's historic run.\n...\nEala became the first player from the Philippines to reach 
 … (output truncated)
 ```
 User decision: **accepted**
@@ -273,7 +273,7 @@ Status: **completed**
 
 _**Agent (auto-low)**_
 
- finalist, not a singles champion - she stays in Other Top 20. Promoting Badosa from the watch list and fetching Wimbledon official links.
+ finalist, not a singles champion — she stays in Other Top 20. Promoting Badosa from the watch list and fetching Wimbledon official links.
 
 
 _**Agent (auto-low)**_
@@ -292,7 +292,7 @@ Result:
 
 ```json
 {
-  "markdown": "Alexandra Eala | Tennis.com\n\n# AlexandraEala\n\nCurrent Singles Ranking\n\n28\n\nCurrent Doubles Ranking\n\n130\n\n| Key Facts |\n| --- |\n| Birth Date | May 23, 2005 (21) |\n| Height | - |\n| Plays | Left-Handed |\n| Year Turned Pro | - |\n\n| Player Ranking |\n| --- |\n| Singles Ranking | 28 |\n| Singles Points | 1,666 |\n| Doubles Ranking | 130 |\n| Doubles Points | 661 |\n| Career High Singles Ranking | 70 |\n| Career High Doubles Ranking | 192 |",
+  "markdown": "Alexandra Eala | Tennis.com\n\n# AlexandraEala\n\nCurrent Singles Ranking\n\n28\n\nCurrent Doubles Ranking\n\n130\n\n| Key Facts |\n| --- |\n| Birth Date | May 23, 2005 (21) |\n| Height | — |\n| Plays | Left-Handed |\n| Year Turned Pro | — |\n\n| Player Ranking |\n| --- |\n| Singles Ranking | 28 |\n| Singles Points | 1,666 |\n| Doubles Ranking | 130 |\n| Doubles Points | 661 |\n| Career High Singles Ranking | 70 |\n| Career High Doubles Ranking | 192 |",
   "url": "https://www.tennis.com/players-rankings/alexandra-eala"
 }
 ```
@@ -735,14 +735,14 @@ _**Agent (auto-low)**_
 Full refresh complete. Here’s what changed:
 
 ### At a glance & rankings
-- **Career-high singles:** No. 29 → **No. 28** (WTA official rankings, July 13, 2026 - after the Wimbledon R16 run)
+- **Career-high singles:** No. 29 → **No. 28** (WTA official rankings, July 13, 2026 — after the Wimbledon R16 run)
 - Doubles career high unchanged at **No. 88**
 
 ### Head-to-head
 - **Paula Badosa** moved from **Matches to Watch Out For** → **Other Top 20 Players** (2025 Miami Open R16 walkover win was already in the tournament log but not in H2H)
 
 ### Grand Slam
-- **2026 Wimbledon doubles** - added WTA match link for the Ostapenko/Kenin first-round loss
+- **2026 Wimbledon doubles** — added WTA match link for the Ostapenko/Kenin first-round loss
 
 ### Unchanged (verified current)
 - Wimbledon singles results through R16 vs Paolini (6-4, 4-6, 3-6)
@@ -751,10 +751,10 @@ Full refresh complete. Here’s what changed:
 - No new WTA tour results since Wimbledon; next listed event is **Washington DC Open** (July 27)
 
 ### Not added
-- **wimbledon.com** links - left out per your earlier request that those URLs were incorrect
-- **wimbledon.com** doubles tennis.com link - no verified URL found within fetch budget
+- **wimbledon.com** links — left out per your earlier request that those URLs were incorrect
+- **wimbledon.com** doubles tennis.com link — no verified URL found within fetch budget
 
-`lastmod` bumped to `2026-07-13T15:20:00Z`. Not committed - say if you want that.
+`lastmod` bumped to `2026-07-13T15:20:00Z`. Not committed — say if you want that.
 
 ---
 
@@ -1488,8 +1488,8 @@ Each opponent block now has this line after the H2H link:
 Numbers verified from WTA profiles (Keys, Fernandez) and WTA ranking history for the rest.
 
 ### Skill updates
-- `SKILL.md` - required field in Step 5, verify checklist, link-format table, head-to-head workflow, slam-winner promotion
-- `reference.md` - H2H templates, placement table, Badosa in the opponent list
+- `SKILL.md` — required field in Step 5, verify checklist, link-format table, head-to-head workflow, slam-winner promotion
+- `reference.md` — H2H templates, placement table, Badosa in the opponent list
 
 Future updates: pull `Career High` from the opponent's WTA profile when adding or promoting a block, and bump it when they set a new peak.
 
@@ -1921,7 +1921,7 @@ Result:
 
 ```json
 {
-  "markdown": "Match details: Lepchenko, Varvara vs Eala, Alexandra\n\nWomen's Singles\n\nCompleted\n\nV. Lepchenko\n\n77633\n\nA. Eala2\n\n63776\n\nVarvara Lepchenko\n\nAlexandra Eala\n\n| Player |\n| --- |\n| V. Lepchenko | Statistic | A. Eala |\n| 172 | Singles Ranking | 28 |\n| 413 | Doubles Ranking | 130 |\n| May 21, 1986 | Birth Date | May 23, 2005 |\n| 5'11\" (180 cm) | Height | - |\n| 19 | Career High Singles Ranking | 70 |\n| 40 | Career High Doubles Ranking | 192 |\n| 2001 | Year Turned Pro | - |\n| Left | Dominant Hand | Left |\n\n| overall |\n| --- |\n| V. Lepchenko | Statistic | A. Eala |\n| 8 | Aces | 2 |\n| 3 | Double Faults | 6 |\n| 63% (80/128) | 1st Serve % | 63% (78/124) |\n| 63% (50/80) | 1st Serve Points Won | 68% (53/78) |\n| 42% (19/45) | 2nd Serve Points Won | 53% (21/40) |\n| 60% (9/15) | Break Points Saved | 55% (6/11) |\n| 63% (10/16) | Service Games | 71% (12/17) |\n\n| Return |\n| --- |\n| V. Lepchenko | Statistic | A. Eala |\n| 32% (25/78) | 1st Return Points Won | 38% (30/80) |\n| 48% (19/40) | 2nd Return Points Won | 58% (26/45) |\n| 45% (5/11) | Break Points Won | 40% (6/15) |\n| 29% (5/17) | Return Games | 38% (6/16) |\n\nLepchenko, Varvara vs Eala, Alexandra · WTA 125K Guadalajara, Mexico",
+  "markdown": "Match details: Lepchenko, Varvara vs Eala, Alexandra\n\nWomen's Singles\n\nCompleted\n\nV. Lepchenko\n\n77633\n\nA. Eala2\n\n63776\n\nVarvara Lepchenko\n\nAlexandra Eala\n\n| Player |\n| --- |\n| V. Lepchenko | Statistic | A. Eala |\n| 172 | Singles Ranking | 28 |\n| 413 | Doubles Ranking | 130 |\n| May 21, 1986 | Birth Date | May 23, 2005 |\n| 5'11\" (180 cm) | Height | — |\n| 19 | Career High Singles Ranking | 70 |\n| 40 | Career High Doubles Ranking | 192 |\n| 2001 | Year Turned Pro | — |\n| Left | Dominant Hand | Left |\n\n| overall |\n| --- |\n| V. Lepchenko | Statistic | A. Eala |\n| 8 | Aces | 2 |\n| 3 | Double Faults | 6 |\n| 63% (80/128) | 1st Serve % | 63% (78/124) |\n| 63% (50/80) | 1st Serve Points Won | 68% (53/78) |\n| 42% (19/45) | 2nd Serve Points Won | 53% (21/40) |\n| 60% (9/15) | Break Points Saved | 55% (6/11) |\n| 63% (10/16) | Service Games | 71% (12/17) |\n\n| Return |\n| --- |\n| V. Lepchenko | Statistic | A. Eala |\n| 32% (25/78) | 1st Return Points Won | 38% (30/80) |\n| 48% (19/40) | 2nd Return Points Won | 58% (26/45) |\n| 45% (5/11) | Break Points Won | 40% (6/15) |\n| 29% (5/17) | Return Games | 38% (6/16) |\n\nLepchenko, Varvara vs Eala, Alexandra · WTA 125K Guadalajara, Mexico",
   "url": "https://www.tennis.com/tournaments/guadalajara-125-open/matches/v-lepchenko-vs-a-eala-2025-09-03"
 }
 ```
@@ -2075,7 +2075,7 @@ All 186 links returned HTTP 200. Three match detail lines have no links at all. 
 
 _**Agent (auto-low)**_
 
-Link check complete - polite pass, no site hammering.
+Link check complete — polite pass, no site hammering.
 
 ### Method
 - **186** tournament/slam URLs only (scores + match pages; skipped profiles, H2H, watch list, images)
@@ -2095,18 +2095,18 @@ Link check complete - polite pass, no site hammering.
 **0 broken links** among match-detail URLs.
 
 ### Spot-check notes
-- **Wimbledon R4 vs Paolini** (`LS72320404`) - title confirms *Paolini vs. Eala*
-- **Guadalajara R16 vs Lepchenko** (`LS015`) - title confirms *Lepchenko vs. Eala*
-- **Wimbledon doubles** (`LD72362771`) - HTTP 200, but WTA’s client-rendered page doesn’t expose opponent names in static HTML (known SPA limitation; link still resolves)
+- **Wimbledon R4 vs Paolini** (`LS72320404`) — title confirms *Paolini vs. Eala*
+- **Guadalajara R16 vs Lepchenko** (`LS015`) — title confirms *Lepchenko vs. Eala*
+- **Wimbledon doubles** (`LD72362771`) — HTTP 200, but WTA’s client-rendered page doesn’t expose opponent names in static HTML (known SPA limitation; link still resolves)
 
 ### Match details with no links (3 gaps, not broken URLs)
-1. **2025 Wimbledon singles** - Krejcikova 1st round (`3-6, 6-2, 1-6`)
-2. **2025 Wimbledon doubles** - Gleason/Martins loss (`4-6, 2-6`)
-3. **Krejcikova H2H** - 2025 Wimbledon line has score only, no match-stats links
+1. **2025 Wimbledon singles** — Krejcikova 1st round (`3-6, 6-2, 1-6`)
+2. **2025 Wimbledon doubles** — Gleason/Martins loss (`4-6, 2-6`)
+3. **Krejcikova H2H** — 2025 Wimbledon line has score only, no match-stats links
 
 Verified URLs exist in prior sessions (e.g. WTA `LS61511608`, tennis.com `a-eala-e-lys-vs-q-gleason-i-martins-2025-07-03`) if you want those three lines filled in.
 
 ### Possible score typo (not a link issue)
-Guadalajara 2025 R16 vs Lepchenko shows `6-3, 7-6(3), 6-3` - three set scores for a two-set win. Likely should be `6-3, 7-6(3)`.
+Guadalajara 2025 R16 vs Lepchenko shows `6-3, 7-6(3), 6-3` — three set scores for a two-set win. Likely should be `6-3, 7-6(3)`.
 
 No file changes made. Want me to add the three missing link sets and/or fix the Lepchenko score?

@@ -303,6 +303,119 @@ _**Agent (auto-low)**_
 
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
 <summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/count-the-cost.md</summary>
-Status: **loading**
 
 </details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/run-a-pre-mortem.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/run-a-pre-mortem.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/run-a-pre-mortem.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/run-a-pre-mortem.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/run-a-pre-mortem.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/count-the-cost.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Checking for remaining Pre-mortem references and whether file or slug renames are needed.
+
+Grepping for other wikilinks to the old title.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "Pre-mortem|Run a Pre-mortem"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "Pre-mortem|Run a Pre-mortem",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "./.specstory/history/2026-07-25_11-31-07Z-garden-link-issues-summary.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+All references updated. Specstory history was left unchanged.
+
+The URL slug remains unchanged for stability. Aliases now include pre-mortem for discovery.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Renamed **Pre-mortem** to **Fail on Paper First** — the plain-English phrase already in the subtitle.
+
+**`run-a-pre-mortem.md`**
+- Title: `Fail on Paper First`
+- Meta title: `Fail on Paper First - Imagine the Launch Failed`
+- Body copy uses “fail on paper first” / “failing on paper first” instead of “pre-mortem”
+- Aliases keep `pre-mortem` and `premortem` for search; slug stays `run-a-pre-mortem` so URLs don’t break
+
+**`count-the-cost.md`**
+- Wikilinks updated to `[[Fail on Paper First]]`
+
+If you want the filename and slug to match the new title (`fail-on-paper-first`), say the word and I’ll rename those too.
+
+## Session close
+- Fixed: Replaced Pre-mortem jargon with Fail on Paper First across the note and Count the Cost backlink.
+- Encode: none
+- Open: clean

@@ -523,7 +523,7 @@ cd /home/jorap/Documents/GitHub/jorap.com && pnpm slop:scan --notes-only 2>&1 | 
 
 ```
 $ python3 scripts/slop-lint.py --summary --notes-only
-Slop scan - 0 blog, 237 notes, 0 fail, 0 warn
+Slop scan — 0 blog, 237 notes, 0 fail, 0 warn
 Rules: data/slop-rules.yaml
 
 No slop flags.
@@ -702,7 +702,7 @@ by_type = Counter(t for _,t,_ in issues)
 by_file = defaultdict(list)
 for f,t,d in issues: by_file[f].append((t,d))
 
-print(f&#34;Likability heuristic scan - {len(list(NOTES.glob(&#39;*.md&#39;)))} files, {len(by_file)} flagged, {len(issues)} hits\n&#34;)
+print(f&#34;Likability heuristic scan — {len(list(NOTES.glob(&#39;*.md&#39;)))} files, {len(by_file)} flagged, {len(issues)} hits\n&#34;)
 print(&#34;By rule:&#34;)
 for t,c in by_type.most_common():
     print(f&#34;  {t}: {c}&#34;)
@@ -807,7 +807,7 @@ by_type = Counter(t for _,t,_ in issues)
 by_file = defaultdict(list)
 for f,t,d in issues: by_file[f].append((t,d))
 
-print(f"Likability heuristic scan - {len(list(NOTES.glob('*.md')))} files, {len(by_file)} flagged, {len(issues)} hits\n")
+print(f"Likability heuristic scan — {len(list(NOTES.glob('*.md')))} files, {len(by_file)} flagged, {len(issues)} hits\n")
 print("By rule:")
 for t,c in by_type.most_common():
     print(f"  {t}: {c}")
@@ -824,7 +824,7 @@ PYEOF
 ```
 
 ```
-Likability heuristic scan - 237 files, 213 flagged, 607 hits
+Likability heuristic scan — 237 files, 213 flagged, 607 hits
 
 By rule:
   ex[0]-no-friction: 115
@@ -997,7 +997,7 @@ weak = [r for r in rows if r[0] &lt;= 5]
 mid = [r for r in rows if 5 &lt; r[0] &lt;= 7]
 strong = [r for r in rows if r[0] &gt; 7]
 
-print(f&#34;Likability pillar scores (0-8) - {len(rows)} notes&#34;)
+print(f&#34;Likability pillar scores (0-8) — {len(rows)} notes&#34;)
 print(f&#34;  Strong (8): {len([r for r in rows if r[0]==8])}&#34;)
 print(f&#34;  Good (7): {len([r for r in rows if r[0]==7])}&#34;)
 print(f&#34;  Mid (5-6): {len(mid)}&#34;)
@@ -1005,7 +1005,7 @@ print(f&#34;  Weak (≤5): {len(weak)}&#34;)
 
 print(&#34;\n=== WEAKEST 25 (fix first) ===&#34;)
 for total, name, issues, p in rows[:25]:
-    print(f&#34;  {total}/8  {name:&lt;42} missing: {&#39;,&#39;.join(issues) or &#39;-&#39;}  ({p})&#34;)
+    print(f&#34;  {total}/8  {name:&lt;42} missing: {&#39;,&#39;.join(issues) or &#39;—&#39;}  ({p})&#34;)
 
 print(&#34;\n=== STRONGEST REFERENCE SET ===&#34;)
 for total, name, issues, p in rows[-10:]:
@@ -1107,7 +1107,7 @@ weak = [r for r in rows if r[0] <= 5]
 mid = [r for r in rows if 5 < r[0] <= 7]
 strong = [r for r in rows if r[0] > 7]
 
-print(f"Likability pillar scores (0-8) - {len(rows)} notes")
+print(f"Likability pillar scores (0-8) — {len(rows)} notes")
 print(f"  Strong (8): {len([r for r in rows if r[0]==8])}")
 print(f"  Good (7): {len([r for r in rows if r[0]==7])}")
 print(f"  Mid (5-6): {len(mid)}")
@@ -1115,7 +1115,7 @@ print(f"  Weak (≤5): {len(weak)}")
 
 print("\n=== WEAKEST 25 (fix first) ===")
 for total, name, issues, p in rows[:25]:
-    print(f"  {total}/8  {name:<42} missing: {','.join(issues) or '-'}  ({p})")
+    print(f"  {total}/8  {name:<42} missing: {','.join(issues) or '—'}  ({p})")
 
 print("\n=== STRONGEST REFERENCE SET ===")
 for total, name, issues, p in rows[-10:]:
@@ -1134,7 +1134,7 @@ PYEOF
 ```
 
 ```
-Likability pillar scores (0-8) - 220 notes
+Likability pillar scores (0-8) — 220 notes
   Strong (8): 6
   Good (7): 46
   Mid (5-6): 136
@@ -1183,7 +1183,7 @@ _**Agent (auto-low)**_
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Data looks solid. I'll break it down by lane-PKM, faith, workplace, and ethics-and pull a few weaker notes for concrete examples.
+Data looks solid. I'll break it down by lane—PKM, faith, workplace, and ethics—and pull a few weaker notes for concrete examples.
 
 Seventeen files were skipped, likely meta or drafts. The automated lint passed cleanly. The main gap is likability. One hundred seventeen notes copy `key_concept` or `description` into `shareable_thought`. Examples often lack honest friction. Seventy-five of two hundred twenty notes scored weak or below. Only six scored perfect eight out of eight. I will categorize the weak notes and provide actionable recommendations without editing.
 
@@ -1340,7 +1340,7 @@ Reviewed **220 live notes** (`content/english/notes/`) against garden-voice, wit
 | `pnpm lint:voice` | OK |
 | `pnpm lint:slop --notes-only` | OK (0 fail, 0 warn) |
 | `pnpm lint:garden-voice` | OK |
-| `pnpm lint:garden` | Fails on **3 unsorted relationships** only (`faithfulness.md`, `peacemakers.md`, `risk-management.md`) - not voice |
+| `pnpm lint:garden` | Fails on **3 unsorted relationships** only (`faithfulness.md`, `peacemakers.md`, `risk-management.md`) — not voice |
 
 Structure, vocabulary, and shape rules are in good shape. Likability is a content-quality layer those linters do not fully catch.
 
@@ -1354,8 +1354,8 @@ Heuristic scoring on the four pillars (0–2 each, **8 max**):
 |------|-------|----------------|
 | **8/8** | 6 | Strong on all four pillars |
 | **7/8** | 46 | Solid; minor polish |
-| **5–6/8** | 136 | Mid - readable, but one pillar thin |
-| **≤5/8** | 75 | Weak - likability gap is visible |
+| **5–6/8** | 136 | Mid — readable, but one pillar thin |
+| **≤5/8** | 75 | Weak — likability gap is visible |
 
 **Best reference notes:** `rollback-principle.md`, `assurance.md`, `digital-garden.md`, `digital-minimalism.md`, `expect-the-counter.md`, `practice-small-experiments.md`, `grace.md`, `integrity.md`, `capture.md` (examples/cards; shareable still thin)
 
@@ -1376,7 +1376,7 @@ By lane:
 
 Garden-voice wants **four complete thoughts, four different angles** (definition, move, boundary, payoff). Most notes currently treat `shareable_thought` as a **frontmatter echo chamber**.
 
-**Worst case - `daily-notes.md`:**
+**Worst case — `daily-notes.md`:**
 
 ```13:17:content/english/notes/daily-notes.md
 shareable_thought:
@@ -1388,7 +1388,7 @@ shareable_thought:
 
 Lines 1–2 are the same idea twice; lines 3–4 are copied straight from `key_concept`. A skeptical reader gets no new angle.
 
-**Also weak - `pkm.md`:**
+**Also weak — `pkm.md`:**
 
 ```14:18:content/english/notes/pkm.md
 shareable_thought:
@@ -1408,7 +1408,7 @@ Even strong notes slip here. `abide-in-me.md` has honest examples and a real glo
 
 Many notes use a **parallel mirror pattern**: same sentence skeleton, sports scene + home/work scene. Human on paper, but after dozens of notes it reads like a formula.
 
-Example - `evergreen-vs-fleeting-notes.md`:
+Example — `evergreen-vs-fleeting-notes.md`:
 
 ```10:12:content/english/notes/evergreen-vs-fleeting-notes.md
 examples:
@@ -1416,9 +1416,9 @@ examples:
   - "The shift manager's scribble about today's rush stays on the clipboard; the safety rule we would cite in training next year lives in the binder."
 ```
 
-Both are "temporary surface vs permanent binder" - different domains, **same vibe**. Likability **honest** pillar wants friction (miss, temptation, cost), not just clean contrast pairs.
+Both are "temporary surface vs permanent binder" — different domains, **same vibe**. Likability **honest** pillar wants friction (miss, temptation, cost), not just clean contrast pairs.
 
-**What good looks like** - `rollback-principle.md`:
+**What good looks like** — `rollback-principle.md`:
 
 ```10:12:content/english/notes/rollback-principle.md
 examples:
@@ -1428,7 +1428,7 @@ examples:
 
 First-person admission, named failure, specific move. That passes honest + human.
 
-**What good looks like** - `grace.md`:
+**What good looks like** — `grace.md`:
 
 ```17:19:content/english/notes/grace.md
 examples:
@@ -1436,7 +1436,7 @@ examples:
   - "Romans 4 in my head but guilt still treats every bad week like a revoked passport - grace settled standing; the walk is a different category."
 ```
 
-Friction is theological and personal - not wallpaper.
+Friction is theological and personal — not wallpaper.
 
 ---
 
@@ -1476,11 +1476,11 @@ Human specificity is mostly fine corpus-wide. **Useful** and **Honest** are the 
 
 ## What's already working
 
-- **`description`** - mostly third-person, one-breath, memorable. Only ~5 textbook-tone hits.
-- **`key_concept` line 1** - slop dictionary-opener warnings are zero; claims generally arguable.
-- **Faith lane** - verses, glosses, first-person commentary (`abide-in-me`, `grace`, `the-golden-rule`) land as human.
-- **Cards** - generally plain and cue-driven; stronger than frontmatter echo on many notes.
-- **Workplace lane** - corporate-friendly without being lecture-y; smallest shareable-copy cluster (8 notes).
+- **`description`** — mostly third-person, one-breath, memorable. Only ~5 textbook-tone hits.
+- **`key_concept` line 1** — slop dictionary-opener warnings are zero; claims generally arguable.
+- **Faith lane** — verses, glosses, first-person commentary (`abide-in-me`, `grace`, `the-golden-rule`) land as human.
+- **Cards** — generally plain and cue-driven; stronger than frontmatter echo on many notes.
+- **Workplace lane** — corporate-friendly without being lecture-y; smallest shareable-copy cluster (8 notes).
 
 ---
 
@@ -1488,13 +1488,13 @@ Human specificity is mostly fine corpus-wide. **Useful** and **Honest** are the 
 
 If you want a batch pass, this order gives the most likability per edit:
 
-1. **`shareable_thought` sweep** - 121 notes. For each: keep `description` as definition angle; pull move/boundary/payoff from `key_concept` *ideas*, not copy-paste. Target: four lines a friend could paste into Slack without three feeling redundant.
+1. **`shareable_thought` sweep** — 121 notes. For each: keep `description` as definition angle; pull move/boundary/payoff from `key_concept` *ideas*, not copy-paste. Target: four lines a friend could paste into Slack without three feeling redundant.
 
-2. **Template example refresh** - ~40 PKM/meta notes with sports+home mirror pairs. Swap one scene for a failure, near-miss, or "I almost didn't" moment.
+2. **Template example refresh** — ~40 PKM/meta notes with sports+home mirror pairs. Swap one scene for a failure, near-miss, or "I almost didn't" moment.
 
-3. **Worst 25** - start with `daily-notes.md`, `pkm.md`, `evergreen-vs-fleeting-notes.md`, `periodic-knowledge-review.md`.
+3. **Worst 25** — start with `daily-notes.md`, `pkm.md`, `evergreen-vs-fleeting-notes.md`, `periodic-knowledge-review.md`.
 
-4. **Faith shareable pass** - 23 notes. Keep straight tone; add boundary/payoff angles (what guilt gets wrong, what changes Monday morning).
+4. **Faith shareable pass** — 23 notes. Keep straight tone; add boundary/payoff angles (what guilt gets wrong, what changes Monday morning).
 
 Per-field minimum from garden-voice still applies: de-AI pass, likability lens, voice check, then `pnpm lint:garden`.
 
@@ -1504,7 +1504,7 @@ Per-field minimum from garden-voice still applies: de-AI pass, likability lens, 
 
 The garden **passes lint** and reads **competent and respectful** almost everywhere. Likability drops when a note feels like a **well-organized summary** instead of something JoRap typed after living it. The single biggest tell: **`shareable_thought` that restates instead of angles**.
 
-Want me to start fixing? I'd batch by lane (PKM first - 42 notes) or hit the worst 25 one by one.
+Want me to start fixing? I'd batch by lane (PKM first — 42 notes) or hit the worst 25 one by one.
 
 ---
 
@@ -1618,7 +1618,7 @@ Cleaning up duplicate bullets in pkm.md key_concept. Each note will get a four-a
 
 The daily-notes claim is now punchier: fragments belong on a scratch pad, not a diary built to last forever. The four-angle shareable thought is set: definition, capture between tasks, one-off errands fading by Friday, and repeating ideas earning real notes while the inbox stays light.
 
-Pkm.md will get a four-angle shareable thought: PKM is save, organize, and reuse-not a hobby of collecting apps; output beats tuning the system alone; one card file sorted by game-day use beats forty unused folders; if nothing ships from the pile this month, the system is theater. Example 2 in daily-notes.md will add friction by showing a dentist reminder almost being filed as a permanent wiki page. Next up is evergreen-vs-fleeting.
+Pkm.md will get a four-angle shareable thought: PKM is save, organize, and reuse—not a hobby of collecting apps; output beats tuning the system alone; one card file sorted by game-day use beats forty unused folders; if nothing ships from the pile this month, the system is theater. Example 2 in daily-notes.md will add friction by showing a dentist reminder almost being filed as a permanent wiki page. Next up is evergreen-vs-fleeting.
 
 The evergreen-vs-fleeting note will use a concrete friction example: forcing a hot take into the garden and embarrassing oneself six months later. Its four-angle shareable thought covers definition, promotion on a second read, fading by Friday, and evergreen claims worth citing next year.
 
@@ -2003,7 +2003,7 @@ A smarter bulk approach is being considered. Reading all PKM note frontmatter to
 
 _**Agent (auto-low)**_
 
-Continuing with the remaining weak notes and the PKM batch - listing notes that still need fixes.
+Continuing with the remaining weak notes and the PKM batch — listing notes that still need fixes.
 
 
 _**Agent (auto-low)**_
@@ -2758,7 +2758,7 @@ The linter likely requires shareable_thought to derive from key_concept or descr
 
 _**Agent (auto-low)**_
 
-There's a lint rule on `shareable_thought` - checking what it requires so our edits stay valid.
+There's a lint rule on `shareable_thought` — checking what it requires so our edits stay valid.
 
 
 _**Agent (auto-low)**_
@@ -3735,7 +3735,7 @@ _**Agent (auto-low)**_
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-The fix script reset several shareable entries-including goodness, joy, kindness, patience, peace, and graph-to a single line. Those need to be restored.
+The fix script reset several shareable entries—including goodness, joy, kindness, patience, peace, and graph—to a single line. Those need to be restored.
 </details></think>
 
 _**Agent (auto-low)**_
@@ -4692,7 +4692,7 @@ Likability pass is done across the notes garden. **`pnpm lint:garden` passes.**
 
 ## What changed
 
-**175 notes** touched. The work followed how this repo actually gates content: likability lives mainly in **`description` + `key_concept`** (four distinct angles), then **`shareable_thought`** is picked from that pool - it cannot be free-floating copy.
+**175 notes** touched. The work followed how this repo actually gates content: likability lives mainly in **`description` + `key_concept`** (four distinct angles), then **`shareable_thought`** is picked from that pool — it cannot be free-floating copy.
 
 ### Structural fixes (worst offenders first)
 - **PKM / productivity:** `daily-notes`, `pkm`, `evergreen-vs-fleeting-notes`, `para-method`, `gtd-vs-para`, `periodic-knowledge-review`, `the-trusted-inbox`, `capture`, and ~30 more PKM notes
@@ -4707,7 +4707,7 @@ Likability pass is done across the notes garden. **`pnpm lint:garden` passes.**
 | `shareable_thought` | Regenerated via `fix-shareable-thought.py` from the expanded principle pool |
 | `relationships` | Sorted `faithfulness`, `peacemakers`, `risk-management` for lint |
 
-### Sample - `daily-notes.md` before → after
+### Sample — `daily-notes.md` before → after
 - **Before:** `shareable_thought` was copy-paste of `description` + `key_concept` (same line twice)
 - **After:** Claim tightened; example adds honest friction; shareable pulls four non-overlapping clauses from the principle pool
 
@@ -4717,7 +4717,7 @@ Likability pass is done across the notes garden. **`pnpm lint:garden` passes.**
 
 ## Repo constraint worth knowing
 
-`shareable_thought` **must** trace to `description` or `key_concept` (`shareable_line_from_principle`). Garden-voice likability and the linter agree: **put the four angles in `key_concept` first**, then derive shareable - not the other way around.
+`shareable_thought` **must** trace to `description` or `key_concept` (`shareable_line_from_principle`). Garden-voice likability and the linter agree: **put the four angles in `key_concept` first**, then derive shareable — not the other way around.
 
 ## Still open (optional next pass)
 
@@ -4740,10 +4740,10 @@ title: Fix other lane shareable_thought
 tool_call_id: tool_bc0c57f4-3df8-41c4-975e-c877fecb3b2
 agent_id: 49603d0a-2402-412b-b9bd-60fed4f2d2f3
 detail: <user_visible_high_level_summary>
-Updated `shareable_thought` on 19 notes (faith, ethics, systems, and one PKM note you listed). Each now has four paste-ready lines at different angles-scene, move, boundary, payoff-with no copy from `description`/`key_concept` and no contractions. Also removed a duplicate bullet in `grace.md` `key_concept`. Voice lint passes; no commit made.
+Updated `shareable_thought` on 19 notes (faith, ethics, systems, and one PKM note you listed). Each now has four paste-ready lines at different angles—scene, move, boundary, payoff—with no copy from `description`/`key_concept` and no contractions. Also removed a duplicate bullet in `grace.md` `key_concept`. Voice lint passes; no commit made.
 </user_visible_high_level_summary>
 <response>
-Updated **19 files** - each `shareable_thought` now has 4 distinct, paste-ready lines (scene/move/boundary/payoff), no copy from `description`/`key_concept`, no contractions.
+Updated **19 files** — each `shareable_thought` now has 4 distinct, paste-ready lines (scene/move/boundary/payoff), no copy from `description`/`key_concept`, no contractions.
 
 **Also fixed:** duplicate bullet in `grace.md` `key_concept`.
 
@@ -4888,7 +4888,7 @@ The PKM subagent produced 27 notes. The other lane subagent produced 19 notes. P
 
 _**Agent (auto-low)**_
 
-Both subagents are done. No further fixes needed - `pnpm lint:garden` passes.
+Both subagents are done. No further fixes needed — `pnpm lint:garden` passes.
 
 Together, [Fix PKM notes shareable_thought](71221fe2-6f64-485d-aa14-749b1abe00b6) (27 PKM notes) and [Fix other lane shareable_thought](49603d0a-2402-412b-b9bd-60fed4f2d2f3) (19 faith/ethics/systems notes) covered the planned likability batches. Their first pass put some `shareable_thought` lines outside the `description`/`key_concept` principle pool; that was reconciled in the parent session via `key_concept` expansion, `fix-shareable-thought.py`, and a few manual faith/flashcard fixes.
 

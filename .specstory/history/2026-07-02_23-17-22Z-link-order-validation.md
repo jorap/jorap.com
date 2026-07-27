@@ -450,7 +450,7 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Starting to analyze the link order.
 
-The nine links form a logical flow from primary list view through graph, backlinks, issues, flashcards, OKF export, create, and random discovery. The browse cluster-All, Graph, and Backlinks-groups navigation and exploration tools together.
+The nine links form a logical flow from primary list view through graph, backlinks, issues, flashcards, OKF export, create, and random discovery. The browse cluster—All, Graph, and Backlinks—groups navigation and exploration tools together.
 
 Issues fits naturally between Graph and Flashcards as a maintainer workflow. Flashcards and Review form a study cluster. OKF export is a separate integration action. Create and Random Duo sit at the end as additive authoring and serendipitous discovery.
 
@@ -538,11 +538,11 @@ The order is **mostly coherent**, but it isn’t the clearest possible grouping.
 
 ## What works
 
-- **All first** - correct; it’s the anchor.
-- **Graph second** - good; the main alternate view of the same corpus.
-- **Issues early with a count** - sensible for a garden you maintain; broken links are visible without digging.
-- **Create near the end** - conventional for a primary action.
-- **Review after Flashcards** (on those pages only) - right sub-nav behavior.
+- **All first** — correct; it’s the anchor.
+- **Graph second** — good; the main alternate view of the same corpus.
+- **Issues early with a count** — sensible for a garden you maintain; broken links are visible without digging.
+- **Create near the end** — conventional for a primary action.
+- **Review after Flashcards** (on those pages only) — right sub-nav behavior.
 
 ## Where the logic wobbles
 
@@ -565,7 +565,7 @@ if export/context is the heavier workflow.
 
 **3. Random Duo last underplays a reader-facing entry point**
 
-On `/notes/`, discovery already happens in the page body (featured random, recent). Still, Duo is exploration, not authoring - it fits nearer Graph/Backlinks than Create/OKF. `getting-started.md` also treats resurfacing as an early feature, not a trailing one.
+On `/notes/`, discovery already happens in the page body (featured random, recent). Still, Duo is exploration, not authoring — it fits nearer Graph/Backlinks than Create/OKF. `getting-started.md` also treats resurfacing as an early feature, not a trailing one.
 
 **4. Review is missing from the main toolbar**
 
@@ -593,7 +593,7 @@ Keep it if your priority is **maintainer-first**: Graph → Issues says “map t
 
 ## Bottom line
 
-The order isn’t wrong - **All → Graph → Issues** is a defensible maintainer opening. The weak spots are **Backlinks after Issues** (explore/fix sequence), **OKF between study and create** (author tools split), and **Random Duo at the far end** (discovery buried).
+The order isn’t wrong — **All → Graph → Issues** is a defensible maintainer opening. The weak spots are **Backlinks after Issues** (explore/fix sequence), **OKF between study and create** (author tools split), and **Random Duo at the far end** (discovery buried).
 
 If you want one pass on the template, the smallest high-impact tweak is swapping **Backlinks** and **Issues**, then moving **Random Duo** before **Create**. I can apply that in `layouts/_partials/notes/toolbar.html` if you want.
 

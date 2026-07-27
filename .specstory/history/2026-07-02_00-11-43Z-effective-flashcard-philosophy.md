@@ -342,11 +342,11 @@ Life shows up (cue) → I recall the principle → I do the next right thing now
 
 Passing a review session is a side effect. Success is acting correctly in the next five seconds of real life.
 
-**Litmus test:** Read only the front. Could that exact moment happen this week? Cover the back - do you know what to **do or decide right now**, not what to study later?
+**Litmus test:** Read only the front. Could that exact moment happen this week? Cover the back — do you know what to **do or decide right now**, not what to study later?
 
 ## Two lanes, not one copy of the note
 
-The wiki holds linked understanding, nuance, and context. Flashcards hold **spine habits** - the ~20% you drill weekly so the chain becomes automatic.
+The wiki holds linked understanding, nuance, and context. Flashcards hold **spine habits** — the ~20% you drill weekly so the chain becomes automatic.
 
 | Lane | Holds |
 |------|--------|
@@ -357,9 +357,9 @@ If a card just restates the note’s definition, it belongs in the wiki, not the
 
 ## Design around real moments, not textbook prompts
 
-**Front = life’s cue.** Present tense, mid-action, sensory or emotional - `thumb on post button`, `inbox at 40`, `guilt after snapping`. Mine cues from actual failures, bodily urges, and time/place forks.
+**Front = life’s cue.** Present tense, mid-action, sensory or emotional — `thumb on post button`, `inbox at 40`, `guilt after snapping`. Mine cues from actual failures, bodily urges, and time/place forks.
 
-**Back = immediate apply.** Verb-first imperatives: `Pray for them.`, `One inbox. Don't organize.`, `Kingdom first - Scripture before inbox.` The back can name a principle only when naming it *is* the move.
+**Back = immediate apply.** Verb-first imperatives: `Pray for them.`, `One inbox. Don't organize.`, `Kingdom first — Scripture before inbox.` The back can name a principle only when naming it *is* the move.
 
 Your capture deck does this well:
 
@@ -370,13 +370,13 @@ That is not “what is capture?” It is “what do I do when this happens Tuesd
 
 ## Seven principles that make cards stick
 
-1. **Cue recognition in the wild** - fronts match how life arrives, messy and mid-habit, not how the note is titled.
-2. **Immediate application** - backs direct the next breath, not explain a concept.
-3. **Active retrieval** - produce the answer from memory; no telegraphy on the front. Subtle hint questions (`One check before send?`) nudge retrieval without giving the answer away.
-4. **One move per card** - one cue, one apply. Multi-step backs split or collapse to the first physical move.
-5. **Transfer across surfaces** - same principle, different cues (time, place, emotion) so recall is not locked to one phrasing.
-6. **Durable recall on rhythm** - spaced review so the link survives until life triggers it again.
-7. **Pareto the deck** - drill only what you need cold under pressure; everything else stays in the garden.
+1. **Cue recognition in the wild** — fronts match how life arrives, messy and mid-habit, not how the note is titled.
+2. **Immediate application** — backs direct the next breath, not explain a concept.
+3. **Active retrieval** — produce the answer from memory; no telegraphy on the front. Subtle hint questions (`One check before send?`) nudge retrieval without giving the answer away.
+4. **One move per card** — one cue, one apply. Multi-step backs split or collapse to the first physical move.
+5. **Transfer across surfaces** — same principle, different cues (time, place, emotion) so recall is not locked to one phrasing.
+6. **Durable recall on rhythm** — spaced review so the link survives until life triggers it again.
+7. **Pareto the deck** — drill only what you need cold under pressure; everything else stays in the garden.
 
 ## What to avoid
 
@@ -391,7 +391,7 @@ That is not “what is capture?” It is “what do I do when this happens Tuesd
 
 Most flashcard systems optimize for **recognition in the app**. Yours should optimize for **recognition in the moment**.
 
-You are not building a second brain on cards. You are building **reflexes** for the principles you already wrote down - so when the inbox hits 40, when someone slanders you online, when obedience starts to feel like what qualifies you, the right move is already loaded.
+You are not building a second brain on cards. You are building **reflexes** for the principles you already wrote down — so when the inbox hits 40, when someone slanders you online, when obedience starts to feel like what qualifies you, the right move is already loaded.
 
 Spaced repetition handles *when* to review. Card design handles *what* review is for: not re-reading what you know, but rehearsing the jump from **this happened** to **this is what I do**.
 
@@ -459,7 +459,7 @@ Considering this question from a philosophical angle.
 
 The current north star may be too cognitive. Explicit principle recall can fail to trigger action. Relational moves and procedural tasks need different triggers. Implementation intentions offer a simpler if-then model.
 
-Gollwitzer's validated if-then model removes the cognitive burden of recalling principles. The card should simply bind the situation to the move. Recognizing the fork before the wrong move offers a sharper impulse target. Replacement framing-wrong default loads → right default loads-works well for habit change.
+Gollwitzer's validated if-then model removes the cognitive burden of recalling principles. The card should simply bind the situation to the move. Recognizing the fork before the wrong move offers a sharper impulse target. Replacement framing—wrong default loads → right default loads—works well for habit change.
 
 Transfer is the real learning gold standard, but it feels less motivating.
 
@@ -482,7 +482,7 @@ Short answer: your current north star is already in the top tier. If you want so
 Life shows up (cue) → I recall the principle → I do the next right thing now
 ```
 
-That is basically **implementation intentions** from the research: *if this situation, then this move*. The litmus test you already use - *could this front happen this week, and does the back tell me what to do right now?* - is the operational version of the same idea.
+That is basically **implementation intentions** from the research: *if this situation, then this move*. The litmus test you already use — *could this front happen this week, and does the back tell me what to do right now?* — is the operational version of the same idea.
 
 So the problem is not direction. It is one word in the middle.
 
@@ -496,7 +496,7 @@ It runs:
 
 > recognize moment → move
 
-The principle still matters - it lives in the wiki, it shaped the card, it explains *why* the back is right. But under pressure, the card is training a **reflex**, not a lecture.
+The principle still matters — it lives in the wiki, it shaped the card, it explains *why* the back is right. But under pressure, the card is training a **reflex**, not a lecture.
 
 Naming “principle” in the north star can quietly push you toward backs that explain instead of direct. That is the main failure mode your anti-goals already fight.
 
@@ -541,10 +541,10 @@ Your original chain is still a good **teaching** north star. It explains the sys
 
 ## What I would not promote
 
-- **“Remember more”** - too Anki-brained; rewards trivia.
-- **“Understand deeper”** - belongs in the wiki.
-- **“Master the concept”** - vague; produces definition cards.
-- **“Become a better person”** - true, but not actionable when writing card #4.
+- **“Remember more”** — too Anki-brained; rewards trivia.
+- **“Understand deeper”** — belongs in the wiki.
+- **“Master the concept”** — vague; produces definition cards.
+- **“Become a better person”** — true, but not actionable when writing card #4.
 
 ## Practical recommendation
 
@@ -554,7 +554,7 @@ Keep the philosophy, shorten the slogan:
 
 Use the old chain when explaining the system. Use the litmus test when writing or auditing cards. If a card needs a middle step, make it **pause**, not **principle**.
 
-That is a better north star not because it changes the project, but because it matches what your best cards already do - like `Drop in one inbox. Don't organize yet.` No principle on the back. Just the move.
+That is a better north star not because it changes the project, but because it matches what your best cards already do — like `Drop in one inbox. Don't organize yet.` No principle on the back. Just the move.
 
 ---
 
@@ -1773,7 +1773,7 @@ Parameters:
   "description": "Fix flashcards batch 1",
   "model": "auto-low",
   "name": "general-purpose",
-  "prompt": "Fix flashcards in JoRap notes garden at /home/jorap/Documents/GitHub/jorap.com\n\n## North star (MUST follow)\nCards exist so the right move is already loaded when life shows up.\n- Front: first-person, present-tense, mid-action life cue (could happen this week)\n- Back: immediate move - imperative or decision in one breath\n- NEVER split examples: field sentences across front/back\n- NEVER use third-person narrative fronts (\"Our trainer...\", \"The shop...\", \"I do the same with...\")\n- Front longer than back\n- No multiple choice on front\n- Keep same card count (2, 4, 6, or 8) per note\n- Keep card_sets unchanged\n- JoRap voice: plain words, contractions, specific details\n\n## Notes to fix (rewrite ALL cards in each file that fail audit, or rewrite entire deck if mostly bad)\naccountability, active-knowledge-curation, adaptability, analog-capture-tools, anti-fragile-systems, attention-economy, break-the-escalation-cycle, build-a-reliable-default, building-a-personal-api, client-site-handoff, coaching-ethics, commonplace-book, complete-the-cycle, composure, compounding, control-the-rhythm, convert-pain-into-learning, create-regular-connection, creative-blocks, creative-output, daily-notes, deep-work, deliberate-practice, develop-dont-endanger, digital-garden, digital-minimalism, drafting-in-public, duty-of-care, eliminate-before-managing, elon-musk, energy-protects-judgment, ethical-leadership\n\n## Process per note\n1. Read content/english/notes/{stem}.md\n2. Read description, key_concept for the move\n3. Rewrite cards section - reference good decks: capture.md, free-grace.md\n4. Verify front \u003e back length for each card\n\n## Verify\nRun: cd /home/jorap/Documents/GitHub/jorap.com \u0026\u0026 python3 scripts/audit-flashcard-north-star.py 2\u003e\u00261 | rg \"accountability|active-knowledge|adaptability|analog|anti-fragile|attention-economy|break-the|build-a-reliable|building-a-personal|client-site|coaching|commonplace|complete-the|composure|compounding|control-the|convert-pain|create-regular|creative|daily-notes|deep-work|deliberate|develop-dont|digital-garden|digital-minimalism|drafting|duty-of-care|eliminate-before|elon-musk|energy-protects|ethical-leadership\" || echo \"batch1 clean\"\n\nReturn: count of notes fixed and any notes you couldn't fix.",
+  "prompt": "Fix flashcards in JoRap notes garden at /home/jorap/Documents/GitHub/jorap.com\n\n## North star (MUST follow)\nCards exist so the right move is already loaded when life shows up.\n- Front: first-person, present-tense, mid-action life cue (could happen this week)\n- Back: immediate move — imperative or decision in one breath\n- NEVER split examples: field sentences across front/back\n- NEVER use third-person narrative fronts (\"Our trainer...\", \"The shop...\", \"I do the same with...\")\n- Front longer than back\n- No multiple choice on front\n- Keep same card count (2, 4, 6, or 8) per note\n- Keep card_sets unchanged\n- JoRap voice: plain words, contractions, specific details\n\n## Notes to fix (rewrite ALL cards in each file that fail audit, or rewrite entire deck if mostly bad)\naccountability, active-knowledge-curation, adaptability, analog-capture-tools, anti-fragile-systems, attention-economy, break-the-escalation-cycle, build-a-reliable-default, building-a-personal-api, client-site-handoff, coaching-ethics, commonplace-book, complete-the-cycle, composure, compounding, control-the-rhythm, convert-pain-into-learning, create-regular-connection, creative-blocks, creative-output, daily-notes, deep-work, deliberate-practice, develop-dont-endanger, digital-garden, digital-minimalism, drafting-in-public, duty-of-care, eliminate-before-managing, elon-musk, energy-protects-judgment, ethical-leadership\n\n## Process per note\n1. Read content/english/notes/{stem}.md\n2. Read description, key_concept for the move\n3. Rewrite cards section — reference good decks: capture.md, free-grace.md\n4. Verify front \u003e back length for each card\n\n## Verify\nRun: cd /home/jorap/Documents/GitHub/jorap.com \u0026\u0026 python3 scripts/audit-flashcard-north-star.py 2\u003e\u00261 | rg \"accountability|active-knowledge|adaptability|analog|anti-fragile|attention-economy|break-the|build-a-reliable|building-a-personal|client-site|coaching|commonplace|complete-the|composure|compounding|control-the|convert-pain|create-regular|creative|daily-notes|deep-work|deliberate|develop-dont|digital-garden|digital-minimalism|drafting|duty-of-care|eliminate-before|elon-musk|energy-protects|ethical-leadership\" || echo \"batch1 clean\"\n\nReturn: count of notes fixed and any notes you couldn't fix.",
   "subagentType": "unspecified"
 }
 ```
@@ -1809,7 +1809,7 @@ Parameters:
   "description": "Fix flashcards batch 2",
   "model": "auto-low",
   "name": "general-purpose",
-  "prompt": "Fix flashcards in JoRap notes garden at /home/jorap/Documents/GitHub/jorap.com\n\n## North star (MUST follow)\nCards exist so the right move is already loaded when life shows up.\n- Front: first-person, present-tense, mid-action life cue (could happen this week)\n- Back: immediate move - imperative or decision in one breath\n- NEVER split examples: field sentences across front/back\n- NEVER use third-person narrative fronts (\"Our trainer...\", \"The shop...\", \"I do the same with...\")\n- Front longer than back\n- No multiple choice on front\n- Keep same card count (2, 4, 6, or 8) per note\n- Keep card_sets unchanged\n- JoRap voice: plain words, contractions, specific details\n\n## Notes to fix (rewrite ALL cards in each file that fail audit, or rewrite entire deck if mostly bad)\nevergreen-vs-fleeting-notes, execution, expect-the-counter, first-principles-thinking, follow-their-lead, forgiveness-at-work, future-proofing-knowledge, gentleness, getting-things-done, git-based-cms, golden-rule-at-work, goodness, grace, graph-view-analytics, growth-mindset, gtd-vs-para, habit-formation, heed-every-near-miss, hierarchy-of-controls, inbox-zero, incident-investigation, information-diet, integrity, integrity-when-no-ones-watching, intellectual-sourcing, joy, justification, layered-reading, leadership, lean-startup, learning-organizations, life-before-achievement\n\n## Process per note\n1. Read content/english/notes/{stem}.md\n2. Read description, key_concept for the move\n3. Rewrite cards section - reference good decks: capture.md, free-grace.md\n4. Verify front \u003e back length for each card\n\n## Verify\nRun audit and confirm no issues remain for your batch stems.\n\nReturn: count of notes fixed and any notes you couldn't fix.",
+  "prompt": "Fix flashcards in JoRap notes garden at /home/jorap/Documents/GitHub/jorap.com\n\n## North star (MUST follow)\nCards exist so the right move is already loaded when life shows up.\n- Front: first-person, present-tense, mid-action life cue (could happen this week)\n- Back: immediate move — imperative or decision in one breath\n- NEVER split examples: field sentences across front/back\n- NEVER use third-person narrative fronts (\"Our trainer...\", \"The shop...\", \"I do the same with...\")\n- Front longer than back\n- No multiple choice on front\n- Keep same card count (2, 4, 6, or 8) per note\n- Keep card_sets unchanged\n- JoRap voice: plain words, contractions, specific details\n\n## Notes to fix (rewrite ALL cards in each file that fail audit, or rewrite entire deck if mostly bad)\nevergreen-vs-fleeting-notes, execution, expect-the-counter, first-principles-thinking, follow-their-lead, forgiveness-at-work, future-proofing-knowledge, gentleness, getting-things-done, git-based-cms, golden-rule-at-work, goodness, grace, graph-view-analytics, growth-mindset, gtd-vs-para, habit-formation, heed-every-near-miss, hierarchy-of-controls, inbox-zero, incident-investigation, information-diet, integrity, integrity-when-no-ones-watching, intellectual-sourcing, joy, justification, layered-reading, leadership, lean-startup, learning-organizations, life-before-achievement\n\n## Process per note\n1. Read content/english/notes/{stem}.md\n2. Read description, key_concept for the move\n3. Rewrite cards section — reference good decks: capture.md, free-grace.md\n4. Verify front \u003e back length for each card\n\n## Verify\nRun audit and confirm no issues remain for your batch stems.\n\nReturn: count of notes fixed and any notes you couldn't fix.",
   "subagentType": "unspecified"
 }
 ```
@@ -1845,7 +1845,7 @@ Parameters:
   "description": "Fix flashcards batch 3",
   "model": "auto-low",
   "name": "general-purpose",
-  "prompt": "Fix flashcards in JoRap notes garden at /home/jorap/Documents/GitHub/jorap.com\n\n## North star (MUST follow)\nCards exist so the right move is already loaded when life shows up.\n- Front: first-person, present-tense, mid-action life cue (could happen this week)\n- Back: immediate move - imperative or decision in one breath\n- NEVER split examples: field sentences across front/back\n- NEVER use third-person narrative fronts (\"Our trainer...\", \"The shop...\", \"I do the same with...\")\n- Front longer than back\n- No multiple choice on front\n- Keep same card count (2, 4, 6, or 8) per note\n- Keep card_sets unchanged\n- JoRap voice: plain words, contractions, specific details\n\n## Notes to fix (rewrite ALL cards in each file that fail audit, or rewrite entire deck if mostly bad)\nliterature-notes, local-first-software, love-god, low-hanging-fruit, maintenance-window, mental-models, mercy, metadata-strategy, mind-mapping, minimum-effective-dose, minimum-viable-product, network-analysis, normalization-of-deviance, notice-the-good, outcomes-over-pitch-decks, pareto-principle, patience, peace, periodic-knowledge-review, pkm, plain-commitments-at-work, preparedness, process-over-outcomes, psychological-safety, read-later-queue, reliability, resilience, reversibility, risk-management, rollback-principle, safety-by-design, safety-comes-first\n\n## Process per note\n1. Read content/english/notes/{stem}.md\n2. Read description, key_concept for the move\n3. Rewrite cards section - reference good decks: capture.md, free-grace.md\n4. Verify front \u003e back length for each card\n\n## Verify\nRun audit and confirm no issues remain for your batch stems.\n\nReturn: count of notes fixed and any notes you couldn't fix.",
+  "prompt": "Fix flashcards in JoRap notes garden at /home/jorap/Documents/GitHub/jorap.com\n\n## North star (MUST follow)\nCards exist so the right move is already loaded when life shows up.\n- Front: first-person, present-tense, mid-action life cue (could happen this week)\n- Back: immediate move — imperative or decision in one breath\n- NEVER split examples: field sentences across front/back\n- NEVER use third-person narrative fronts (\"Our trainer...\", \"The shop...\", \"I do the same with...\")\n- Front longer than back\n- No multiple choice on front\n- Keep same card count (2, 4, 6, or 8) per note\n- Keep card_sets unchanged\n- JoRap voice: plain words, contractions, specific details\n\n## Notes to fix (rewrite ALL cards in each file that fail audit, or rewrite entire deck if mostly bad)\nliterature-notes, local-first-software, love-god, low-hanging-fruit, maintenance-window, mental-models, mercy, metadata-strategy, mind-mapping, minimum-effective-dose, minimum-viable-product, network-analysis, normalization-of-deviance, notice-the-good, outcomes-over-pitch-decks, pareto-principle, patience, peace, periodic-knowledge-review, pkm, plain-commitments-at-work, preparedness, process-over-outcomes, psychological-safety, read-later-queue, reliability, resilience, reversibility, risk-management, rollback-principle, safety-by-design, safety-comes-first\n\n## Process per note\n1. Read content/english/notes/{stem}.md\n2. Read description, key_concept for the move\n3. Rewrite cards section — reference good decks: capture.md, free-grace.md\n4. Verify front \u003e back length for each card\n\n## Verify\nRun audit and confirm no issues remain for your batch stems.\n\nReturn: count of notes fixed and any notes you couldn't fix.",
   "subagentType": "unspecified"
 }
 ```
@@ -1881,7 +1881,7 @@ Parameters:
   "description": "Fix flashcards batch 4",
   "model": "auto-low",
   "name": "general-purpose",
-  "prompt": "Fix flashcards in JoRap notes garden at /home/jorap/Documents/GitHub/jorap.com\n\n## North star (MUST follow)\nCards exist so the right move is already loaded when life shows up.\n- Front: first-person, present-tense, mid-action life cue (could happen this week)\n- Back: immediate move - imperative or decision in one breath\n- NEVER split examples: field sentences across front/back\n- NEVER use third-person narrative fronts (\"Our trainer...\", \"The shop...\", \"I do the same with...\")\n- Front longer than back\n- No multiple choice on front\n- Keep same card count (2, 4, 6, or 8) per note\n- Keep card_sets unchanged\n- JoRap voice: plain words, contractions, specific details\n\n## Notes to fix (rewrite ALL cards in each file that fail audit, or rewrite entire deck if mostly bad)\nsanctification, second-order-thinking, selling-static-sites, servant-leadership, set-calm-boundaries, share-sheet, share-what-you-learn, ship-it, situational-control, sketchpad, slow-productivity, slow-the-moment, standard-operating-procedures, stay-effective-in-new-conditions, sunk-cost-fallacy, sustainable-performance, synthesis-as-a-goal, systems-thinking, taxonomy, the-12-week-year, the-feynman-technique, the-garage-concept, the-knowledge-lifecycle, the-second-brain-workflow, there-is-no-perfect-solution, tony-buzan, versatility, voice-memos, webhooks, weekly-review-checklists, wood-hay-stubble\n\n## Process per note\n1. Read content/english/notes/{stem}.md\n2. Read description, key_concept for the move\n3. Rewrite cards section - reference good decks: capture.md, free-grace.md\n4. Verify front \u003e back length for each card\n\n## Verify\nRun audit and confirm no issues remain for your batch stems.\n\nReturn: count of notes fixed and any notes you couldn't fix.",
+  "prompt": "Fix flashcards in JoRap notes garden at /home/jorap/Documents/GitHub/jorap.com\n\n## North star (MUST follow)\nCards exist so the right move is already loaded when life shows up.\n- Front: first-person, present-tense, mid-action life cue (could happen this week)\n- Back: immediate move — imperative or decision in one breath\n- NEVER split examples: field sentences across front/back\n- NEVER use third-person narrative fronts (\"Our trainer...\", \"The shop...\", \"I do the same with...\")\n- Front longer than back\n- No multiple choice on front\n- Keep same card count (2, 4, 6, or 8) per note\n- Keep card_sets unchanged\n- JoRap voice: plain words, contractions, specific details\n\n## Notes to fix (rewrite ALL cards in each file that fail audit, or rewrite entire deck if mostly bad)\nsanctification, second-order-thinking, selling-static-sites, servant-leadership, set-calm-boundaries, share-sheet, share-what-you-learn, ship-it, situational-control, sketchpad, slow-productivity, slow-the-moment, standard-operating-procedures, stay-effective-in-new-conditions, sunk-cost-fallacy, sustainable-performance, synthesis-as-a-goal, systems-thinking, taxonomy, the-12-week-year, the-feynman-technique, the-garage-concept, the-knowledge-lifecycle, the-second-brain-workflow, there-is-no-perfect-solution, tony-buzan, versatility, voice-memos, webhooks, weekly-review-checklists, wood-hay-stubble\n\n## Process per note\n1. Read content/english/notes/{stem}.md\n2. Read description, key_concept for the move\n3. Rewrite cards section — reference good decks: capture.md, free-grace.md\n4. Verify front \u003e back length for each card\n\n## Verify\nRun audit and confirm no issues remain for your batch stems.\n\nReturn: count of notes fixed and any notes you couldn't fix.",
   "subagentType": "unspecified"
 }
 ```
@@ -2572,7 +2572,7 @@ _**Agent (auto-low)**_
 
 **Governing slogan:** Cards exist so the right move is already loaded when life shows up.
 
-**Litmus test:** Could this front happen this week? Cover the back - do you know what to do or decide right now?
+**Litmus test:** Could this front happen this week? Cover the back — do you know what to do or decide right now?
 
 **Teaching chain:** `cue → [pause] → move` (PKM often skips straight to move; gospel/impulse cards earn a pause)
 
@@ -2584,7 +2584,7 @@ Updated in:
 
 ## Full deck review
 
-Audited **884 cards** across all `review: true` notes. Found **~260 violations** in **132 notes** - mostly:
+Audited **884 cards** across all `review: true` notes. Found **~260 violations** in **132 notes** — mostly:
 - Example-split fronts (copied from `examples:`)
 - Third-person narrative fronts (`The shop…`, `Our trainer…`)
 - Truncated/fragment backs
@@ -2594,8 +2594,8 @@ Audited **884 cards** across all `review: true` notes. Found **~260 violations**
 
 ## New tooling
 
-- `scripts/audit-flashcard-north-star.py` - catches example-splits, narrative fronts, truncated backs, telegraphy, note titles on backs
-- `npm run audit:cards` - standalone audit
+- `scripts/audit-flashcard-north-star.py` — catches example-splits, narrative fronts, truncated backs, telegraphy, note titles on backs
+- `npm run audit:cards` — standalone audit
 - Added to `lint:garden` chain
 
 All checks pass:

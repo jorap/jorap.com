@@ -888,7 +888,7 @@ The fifth note is "Assurance of Salvation." It bridges free grace, justification
 
 _**Agent (default)**_
 
-The theology spine from the last round is in place (**Justification**, **Sanctification**, **Faith and Works**, **Judgment Seat**, **Loss of Reward**). These five fill the next layer - concepts already named in prose but missing an anchor note, each with multiple hooks into the cluster.
+The theology spine from the last round is in place (**Justification**, **Sanctification**, **Faith and Works**, **Judgment Seat**, **Loss of Reward**). These five fill the next layer — concepts already named in prose but missing an anchor note, each with multiple hooks into the cluster.
 
 ---
 
@@ -914,9 +914,9 @@ The theology spine from the last round is in place (**Justification**, **Sanctif
 
 ## 2. Faithful Steward
 
-**Thesis:** God entrusts time, gifts, and opportunities; faithfulness with what He gave is what earns "well done" - not a down payment on salvation.
+**Thesis:** God entrusts time, gifts, and opportunities; faithfulness with what He gave is what earns "well done" — not a down payment on salvation.
 
-**Why it's not redundant:** [[Eternal Rewards]] names repayment; [[Compounding]] names daily stacking. This note anchors Matthew 25 / Luke 19 - the parable Jesus used for reward language.
+**Why it's not redundant:** [[Eternal Rewards]] names repayment; [[Compounding]] names daily stacking. This note anchors Matthew 25 / Luke 19 — the parable Jesus used for reward language.
 
 **Solid connections:**
 
@@ -934,16 +934,16 @@ The theology spine from the last round is in place (**Justification**, **Sanctif
 
 ## 3. Wood Hay Stubble
 
-**Thesis:** Some works survive evaluation; some burn - saved through fire, but the worthless work is gone.
+**Thesis:** Some works survive evaluation; some burn — saved through fire, but the worthless work is gone.
 
-**Why it's not redundant:** [[Loss of Reward]] states the outcome; [[Judgment Seat]] names the event. This note holds the 1 Corinthians 3:12–15 material - what *kinds* of work burn vs last.
+**Why it's not redundant:** [[Loss of Reward]] states the outcome; [[Judgment Seat]] names the event. This note holds the 1 Corinthians 3:12–15 material — what *kinds* of work burn vs last.
 
 **Solid connections:**
 
 | Relationship | Link | Reason |
 |---|---|---|
 | extends | [[Judgment Seat]] | Where the fire test happens |
-| extends | [[Loss of Reward]] | Saved with loss - two categories stay separate |
+| extends | [[Loss of Reward]] | Saved with loss — two categories stay separate |
 | extends | [[Treasure in Heaven]] | Gold/silver/precious stones vs rust |
 | extends | [[Failure as Feedback]] | Burned work signals what to build differently |
 | contradicts | [[Compounding]] | when one visible heroic week masks years of empty busyness |
@@ -954,9 +954,9 @@ The theology spine from the last round is in place (**Justification**, **Sanctif
 
 ## 4. Grateful Obedience
 
-**Thesis:** Obedience after salvation flows from gratitude for grace already received - not from trying to qualify for it.
+**Thesis:** Obedience after salvation flows from gratitude for grace already received — not from trying to qualify for it.
 
-**Why it's not redundant:** [[Discipleship]] is the daily walk; [[Sanctification]] is slow becoming. This note is the *posture* - the "why" behind obeying without climbing a merit ladder.
+**Why it's not redundant:** [[Discipleship]] is the daily walk; [[Sanctification]] is slow becoming. This note is the *posture* — the "why" behind obeying without climbing a merit ladder.
 
 **Solid connections:**
 
@@ -965,7 +965,7 @@ The theology spine from the last round is in place (**Justification**, **Sanctif
 | extends | [[Free Grace]] | Grace saves first; obedience answers with thanks |
 | extends | [[Discipleship]] | Grateful walk, not optional payment |
 | extends | [[Sanctification]] | Holiness grows from received mercy, not earned acceptance |
-| extends | [[Faith and Works]] | Works prove faith alive - motive is gratitude, not wages |
+| extends | [[Faith and Works]] | Works prove faith alive — motive is gratitude, not wages |
 | contradicts | [[Compounding]] | when obedience streaks become proof I'm saved |
 
 **Backlinks to add:** [[Repent and Believe]], [[Abide in Me]], [[Take Up Your Cross]]
@@ -974,9 +974,9 @@ The theology spine from the last round is in place (**Justification**, **Sanctif
 
 ## 5. Assurance
 
-**Thesis:** Eternal life rests on Christ's finished work and promise - not on my performance this week.
+**Thesis:** Eternal life rests on Christ's finished work and promise — not on my performance this week.
 
-**Why it's not redundant:** [[Free Grace]] states the gift; [[Justification]] states the verdict. This note addresses the *doubt loop* - bad weeks, hidden sin, dread at the judgment seat.
+**Why it's not redundant:** [[Free Grace]] states the gift; [[Justification]] states the verdict. This note addresses the *doubt loop* — bad weeks, hidden sin, dread at the judgment seat.
 
 **Solid connections:**
 
@@ -985,7 +985,7 @@ The theology spine from the last round is in place (**Justification**, **Sanctif
 | extends | [[Free Grace]] | Gift received by faith, not re-earned daily |
 | extends | [[Justification]] | Verdict doesn't reopen when I stumble |
 | extends | [[Loss of Reward]] | Can lose reward, not salvation |
-| extends | [[Childlike Faith]] | Receive the promise like a child - stop re-negotiating merit |
+| extends | [[Childlike Faith]] | Receive the promise like a child — stop re-negotiating merit |
 | alternative | [[The Narrow Way]] | False "Lord, Lord" never believed vs believer who doubts |
 
 **Backlinks to add:** [[Judgment Seat]], [[Minimum Effective Dose]], [[Don't Worry]]
@@ -1012,7 +1012,7 @@ Add a third block under **Salvation and reward** in [[Eternal Principles]]:
 | Candidate | Why wait |
 |---|---|
 | **Imputation** | Overlaps [[Justification]] almost completely |
-| **Unforgiving Servant** | Strong, but narrower - [[Forgiveness]] already carries the parable |
+| **Unforgiving Servant** | Strong, but narrower — [[Forgiveness]] already carries the parable |
 | **Good Samaritan** | [[Love Your Neighbor]] already owns Luke 10 |
 | **False Profession** | Useful, but [[The Narrow Way]] + [[Faith and Works]] already split "Lord, Lord" from stumbled believer |
 
@@ -1465,7 +1465,7 @@ cd /home/jorap/Documents/GitHub/jorap.com && hugo --buildFuture --gc 2>&1 | rg -
 ```
 
 ```
-WARN  pipe wikilink [[Repent and Believe|repentance]] in notes/standing-vs-fellowship.md - use [[Repent and Believe]] only
+WARN  pipe wikilink [[Repent and Believe|repentance]] in notes/standing-vs-fellowship.md — use [[Repent and Believe]] only
 
 ```
 </details></tool-use>
@@ -1499,9 +1499,9 @@ All five notes are in the garden, wired into the cluster, and listed on the **Et
 
 | Note | Role |
 |------|------|
-| [Standing vs Fellowship](/notes/standing-vs-fellowship/) | Verdict at faith vs daily closeness - don't collapse them |
+| [Standing vs Fellowship](/notes/standing-vs-fellowship/) | Verdict at faith vs daily closeness — don't collapse them |
 | [Assurance](/notes/assurance/) | Rest on Christ's promise when doubt hits |
-| [Grateful Obedience](/notes/grateful-obedience/) | Obey from thanks - not to qualify |
+| [Grateful Obedience](/notes/grateful-obedience/) | Obey from thanks — not to qualify |
 | [Faithful Steward](/notes/faithful-steward/) | "Well done" for faithful use of what God entrusted |
 | [Wood Hay Stubble](/notes/wood-hay-stubble/) | Works that last vs works that burn at evaluation |
 
@@ -1515,7 +1515,7 @@ Updated **18 existing notes** with body links and relationship rows, including:
 - **Reward spine:** [[Eternal Rewards]], [[Judgment Seat]], [[Loss of Reward]], [[Treasure in Heaven]]
 - **Ethics/fellowship:** [[Forgiveness]], [[Reconciliation Before Worship]], [[Humility and Service]]
 - **Posture:** [[Childlike Faith]], [[Don't Worry]]
-- **MOC:** [[Eternal Principles]] - new Salvation and reward entries + PKM cross-links
+- **MOC:** [[Eternal Principles]] — new Salvation and reward entries + PKM cross-links
 
 ## Read order
 

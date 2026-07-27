@@ -335,7 +335,7 @@ index 0000000..d295bb2
 --- /dev/null
 +++ b/assets/js/main.js
 @@ -0,0 +1,139 @@
-+// main script (project override - nav keyboard + dropdown a11y)
++// main script (project override — nav keyboard + dropdown a11y)
 +(function () {
 +  "use strict";
 +
@@ -1079,7 +1079,7 @@ Retrying the hook deletion with smart mode approval. The user explicitly request
 
 _**Agent (default)**_
 
-Retrying hook removal with approval - you asked to remove commit-time changelog updates.
+Retrying hook removal with approval — you asked to remove commit-time changelog updates.
 
 
 _**Agent (default)**_
@@ -1180,10 +1180,10 @@ Trigger with “update changelog”, “refresh CHANGELOG.md”, etc. The skill:
 
 ### Docs updated
 
-- `CHANGELOG.md` - header points to the skill; today’s entry notes the switch
-- `README.md` - deploy section updated
+- `CHANGELOG.md` — header points to the skill; today’s entry notes the switch
+- `README.md` — deploy section updated
 
-**Usage:** ask to update the changelog (or invoke the `update-changelog` skill) before deploy - same workflow as your earlier “update @CHANGELOG.md” request, but now codified.
+**Usage:** ask to update the changelog (or invoke the `update-changelog` skill) before deploy — same workflow as your earlier “update @CHANGELOG.md” request, but now codified.
 
 ---
 
@@ -1324,7 +1324,7 @@ The request to standardize content spacing is ambiguous. It could refer to the c
 
 _**Agent (default)**_
 
-Content spacing could mean the site, the skill file, or the changelog - I'll check how spacing is defined across the repo first.
+Content spacing could mean the site, the skill file, or the changelog — I'll check how spacing is defined across the repo first.
 
 
 _**Agent (default)**_

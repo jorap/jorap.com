@@ -18,7 +18,7 @@ Considering effective strategies to make definitions easier to memorize.
 
 _**Agent (default)**_
 
-You’re working in a PKM notes setup - I’ll look at how definitions are written in your notes and any existing guidance on memorization.
+You’re working in a PKM notes setup — I’ll look at how definitions are written in your notes and any existing guidance on memorization.
 
 
 _**Agent (default)**_
@@ -116,7 +116,7 @@ Result:
           },
           {
             "lineNumber": 17,
-            "text": "**Readable notes** = format for rereading - short blocks, bold the claim, no wall of text."
+            "text": "**Readable notes** = format for rereading — short blocks, bold the claim, no wall of text."
           },
           {
             "lineNumber"
@@ -296,7 +296,7 @@ I understand the user's system.
 
 _**Agent (default)**_
 
-Your notes garden already splits **understanding** (wiki definition) from **recall** (flashcard). That split is the right instinct - memorization gets easier when you improve each lane differently.
+Your notes garden already splits **understanding** (wiki definition) from **recall** (flashcard). That split is the right instinct — memorization gets easier when you improve each lane differently.
 
 ## Your current pattern
 
@@ -313,14 +313,14 @@ card_back: "One claim out loud - too many ands, split it."
 card_front: "Atomic notes"
 ```
 
-Your [[Flashcards]] note says the opening line stays the wiki definition; `card_back` is the memorable answer. That’s the right architecture - don’t try to make one sentence do both jobs.
+Your [[Flashcards]] note says the opening line stays the wiki definition; `card_back` is the memorable answer. That’s the right architecture — don’t try to make one sentence do both jobs.
 
 ---
 
 ## Ways to make definitions stick
 
 ### 1. One breath, one claim
-If you can’t say it aloud without pausing, it’s not memorizable yet. Your [[Getting Started]] rule - “quote in one breath” - is also a memory rule. Too many `and`s means split the note, not lengthen the definition.
+If you can’t say it aloud without pausing, it’s not memorizable yet. Your [[Getting Started]] rule — “quote in one breath” — is also a memory rule. Too many `and`s means split the note, not lengthen the definition.
 
 ### 2. Concrete beats abstract
 Weak: “A system for organizing knowledge.”  
@@ -345,7 +345,7 @@ Prefer verbs over nouns: “review facts on a schedule” beats “a method of s
 ### 6. Feynman-test before you finalize
 From your [[The Feynman Technique]] note: explain it without looking. Every stumble is a gap in the definition. Rewrite until you wouldn’t stumble teaching a friend.
 
-### 7. Wiki vs card - two layers
+### 7. Wiki vs card — two layers
 
 | Layer | Job | Style |
 |-------|-----|--------|
@@ -354,16 +354,16 @@ From your [[The Feynman Technique]] note: explain it without looking. Every stum
 
 Example from your garden:
 
-- **Wiki:** “Write claims you'll still cite - timeless voice, revise when reality shifts.”
+- **Wiki:** “Write claims you'll still cite — timeless voice, revise when reality shifts.”
 - **Card:** “Write claims you'll still cite; revise when reality shifts.”
 
 The card drops nuance you don’t need at recall time.
 
 ### 8. Don’t flashcard everything
-You already cap `review: true` to ~15 spine notes. Memorize **distinctions you use weekly** - PARA vs GTD, atomic vs evergreen, capture vs organize - not every evergreen page. Understanding lives in wikilinks; drill lives in SRS.
+You already cap `review: true` to ~15 spine notes. Memorize **distinctions you use weekly** — PARA vs GTD, atomic vs evergreen, capture vs organize — not every evergreen page. Understanding lives in wikilinks; drill lives in SRS.
 
 ### 9. Extra cards for multi-part ideas
-Use the `card` shortcode when one definition isn’t enough - e.g. your spaced-repetition note’s “What belongs in SRS vs the wiki?” card. Split **what / when / not** into separate prompts instead of one bloated back.
+Use the `card` shortcode when one definition isn’t enough — e.g. your spaced-repetition note’s “What belongs in SRS vs the wiki?” card. Split **what / when / not** into separate prompts instead of one bloated back.
 
 ### 10. Link = memory hook
 Associative linking isn’t just organization. “Atomic notes” + link to [[Zettelkasten]] + [[Maps of Content]] gives you three retrieval paths. A definition alone is one path; a small graph is several.
@@ -374,7 +374,7 @@ Associative linking isn’t just organization. “Atomic notes” + link to [[Ze
 
 1. Can I say it in one breath?
 2. Is there a verb or concrete action?
-3. What would I confuse it with - is that contrast in the text or on a card?
+3. What would I confuse it with — is that contrast in the text or on a card?
 4. Is there one tiny example?
 5. Does `card_back` strip everything except what I’d want under exam pressure?
 6. Does this note actually need `review: true`, or is rereading + links enough?
@@ -1830,7 +1830,7 @@ Multi-card flashcards are in place. Summary of what changed:
 
 ## Functionality
 
-**New `cards:` frontmatter** - multiple cards per note:
+**New `cards:` frontmatter** — multiple cards per note:
 
 ```yaml
 cards:
@@ -1843,8 +1843,8 @@ cards:
 Legacy `card_front` / `card_back` still work as a single-card fallback.
 
 **New partials:**
-- `cards-for-page.html` - collects frontmatter cards, legacy fields, lead line, and `{{< card >}}` shortcodes for one note
-- `note-flashcards.html` - renders all cards in a grid on each note page
+- `cards-for-page.html` — collects frontmatter cards, legacy fields, lead line, and `{{< card >}}` shortcodes for one note
+- `note-flashcards.html` — renders all cards in a grid on each note page
 
 **Updated flows:** `collect-cards.html`, review deck, Anki export (`75 cards` = 15 notes × 5), and `trim-review-deck.py` all use the new format.
 
@@ -2458,7 +2458,7 @@ Wrote 90 cards to /home/jorap/Documents/GitHub/jorap.com/static/exports/jorap-no
 
 _**Agent (default)**_
 
-All 15 spine notes with `review: true` now have **6 cards** each (90 total in the deck). Each note got a sixth card that extends the set - contrasts, CODE steps, pairings, or symptoms - for example:
+All 15 spine notes with `review: true` now have **6 cards** each (90 total in the deck). Each note got a sixth card that extends the set — contrasts, CODE steps, pairings, or symptoms — for example:
 
 - **Atomic notes:** "Atomic notes pair with → Associative linking and Atomic Design for Notes."
 - **PARA:** "R in PARA → Resources - reference until tied to a project or area."
@@ -3388,10 +3388,10 @@ _**Agent (default)**_
 
 Noted. The linter already scoped to the body via `.RawContent` (frontmatter excluded). I've made that explicit and undone the unnecessary card rewrites.
 
-**Documented** in `lint-unlinked-mentions.html` and `getting-started.md` - unlinked-mention lint applies to the **body only**; frontmatter (`cards:`, tags, etc.) is not checked.
+**Documented** in `lint-unlinked-mentions.html` and `getting-started.md` — unlinked-mention lint applies to the **body only**; frontmatter (`cards:`, tags, etc.) is not checked.
 
 **Restored** frontmatter card text that had been weakened (e.g. "Feynman technique for gaps", "The Collector's Fallacy", "Empty the Trusted Inbox").
 
-**Kept** the body wikilink fixes - those were the actual lint issues (`[[Atomic Design]]`, `[[Second Brain]]`, `[[Collector's Fallacy]]`, `[[Trusted Inbox]]`).
+**Kept** the body wikilink fixes — those were the actual lint issues (`[[Atomic Design]]`, `[[Second Brain]]`, `[[Collector's Fallacy]]`, `[[Trusted Inbox]]`).
 
 `npm run lint:notes` still passes clean.

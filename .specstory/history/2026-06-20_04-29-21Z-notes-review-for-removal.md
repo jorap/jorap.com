@@ -419,7 +419,7 @@ Reviewing all 87 notes to identify what can be removed.
 
 _**Agent (default)**_
 
-Analyzing note content for overlap, stubs, and redundancy - reading notes in thematic clusters.
+Analyzing note content for overlap, stubs, and redundancy — reading notes in thematic clusters.
 
 
 _**Agent (default)**_
@@ -1934,7 +1934,7 @@ Status: **completed**
 
 _**Agent (default)**_
 
-I reviewed all **87 note files** (86 content notes + section `_index`). The garden is in good shape - `npm run lint:notes` reports **no broken wikilinks**. Nothing is a draft or stub. Most notes follow your atomic pattern (one claim, extends/contradicts, ~120–250 words).
+I reviewed all **87 note files** (86 content notes + section `_index`). The garden is in good shape — `npm run lint:notes` reports **no broken wikilinks**. Nothing is a draft or stub. Most notes follow your atomic pattern (one claim, extends/contradicts, ~120–250 words).
 
 Below is a removal audit organized by confidence, not a blanket delete list. Many “duplicates” are **intentional tension pairs** for the graph (`extends` / `contradicts`). Removing them shrinks the garden but also removes edges.
 
@@ -1976,7 +1976,7 @@ These are thin, heavily overlapping, and weakly connected (0–2 inbound wikilin
 ### 4. Atomic notes metaphor
 - **Remove/merge:** `atomic-design-for-notes.md`
 - **Into:** `atomic-notes.md` (one Brad Frost sentence)
-- **Why:** Explicitly says “same idea as Atomic Notes.” **10 inbound links** - mostly “See also” boilerplate, so cleanup is easy but tedious.
+- **Why:** Explicitly says “same idea as Atomic Notes.” **10 inbound links** — mostly “See also” boilerplate, so cleanup is easy but tedious.
 
 ### 5. Digital garden pair
 - **Remove/merge:** `advantages-of-digital-gardens.md`
@@ -1996,7 +1996,7 @@ These are thin, heavily overlapping, and weakly connected (0–2 inbound wikilin
 ### 8. Visual capture pair
 - **Remove/merge:** one of `visual-thinking.md` / `mind-mapping.md`
 - **Into:** the other (they already extend each other circularly)
-- **Why:** Same workflow - sketch first, atomic notes after.
+- **Why:** Same workflow — sketch first, atomic notes after.
 
 ### 9. Speculative / thin futures note
 - **Remove/merge:** `the-future-of-pkm.md`
@@ -2033,14 +2033,14 @@ These are valid but **peripheral** to a solo PKM/digital-garden focus. Fine to k
 
 ---
 
-## Keep (core spine - don’t cut)
+## Keep (core spine — don’t cut)
 
 These anchor the garden structurally:
 
 - **Concepts:** `pkm`, `capture`, `atomic-notes`, `associative-linking`, `note-relationships`, `zettelkasten`, `evergreen-notes`, `para-method`, `building-a-second-brain`
 - **Workflows:** `the-second-brain-workflow`, `weekly-review-checklists`, `periodic-knowledge-review`, `the-trusted-inbox`, `the-knowledge-lifecycle`
-- **Flashcard spine (`review: true`, 18 notes):** includes `pkm`, `capture`, `atomic-notes`, `associative-linking`, `note-relationships`, `para-method`, `gtd-vs-para`, `building-a-second-brain`, `evergreen-notes`, `spaced-repetition`, `pareto-principle`, `signal-vs-noise`, `progressive-summarization`, `the-collectors-fallacy`, `the-trusted-inbox`, `weekly-review-checklists` - removing any of these breaks `/notes/review/` and `/notes/cards/`
-- **Hubs:** `mental-models-list` (684 words - intentionally large MOC), `maps-of-content`
+- **Flashcard spine (`review: true`, 18 notes):** includes `pkm`, `capture`, `atomic-notes`, `associative-linking`, `note-relationships`, `para-method`, `gtd-vs-para`, `building-a-second-brain`, `evergreen-notes`, `spaced-repetition`, `pareto-principle`, `signal-vs-noise`, `progressive-summarization`, `the-collectors-fallacy`, `the-trusted-inbox`, `weekly-review-checklists` — removing any of these breaks `/notes/review/` and `/notes/cards/`
+- **Hubs:** `mental-models-list` (684 words — intentionally large MOC), `maps-of-content`
 - **Tension pairs worth keeping:** `slow-productivity` ↔ `the-12-week-year`, `digital-garden` ↔ `the-garage-concept`, `zettelkasten` ↔ `the-zettelkasten-myth`, `evergreen-notes` ↔ `evergreen-vs-fleeting-notes`
 
 ---
@@ -2084,7 +2084,7 @@ If you want the biggest payoff with least graph damage:
 | Moderate / scope-dependent | ~12 |
 | Core spine + flashcards | ~54 |
 
-Nothing **must** go - the garden is coherent and lint-clean. The best removals are **thin pairs** where one note only restates its parent. The riskiest removals are notes used as **`contradicts` targets** (`organization`, `atomic-design-for-notes`, `digital-minimalism` vs serendipity) - update those edges if you merge.
+Nothing **must** go — the garden is coherent and lint-clean. The best removals are **thin pairs** where one note only restates its parent. The riskiest removals are notes used as **`contradicts` targets** (`organization`, `atomic-design-for-notes`, `digital-minimalism` vs serendipity) — update those edges if you merge.
 
 Want me to execute a specific tier (e.g. “do the strong merge candidates only”) and update MOC + wikilinks?
 
@@ -3121,9 +3121,9 @@ All five merges are done. **6 notes removed**, **80 notes** remain, and `npm run
 | `advantages-of-digital-gardens` | `digital-garden` | Advantages of Digital Gardens |
 
 ### Also updated
-- **MOC** - removed 5 duplicate entries; `Digital Serendipity` stays under Connect & explore only
+- **MOC** — removed 5 duplicate entries; `Digital Serendipity` stays under Connect & explore only
 - **Wikilinks** in 8 notes (`graph-view-analytics`, `note-relationships`, `visual-thinking`, `the-garage-concept`, `the-future-of-pkm`, `from-note-to-book`, `creative-output`, `mind-mapping`)
-- **`scripts/wire-note-relationships.py`** and **`scripts/enrich-evergreen-notes.py`** - removed deleted slugs, merged enrichment text
+- **`scripts/wire-note-relationships.py`** and **`scripts/enrich-evergreen-notes.py`** — removed deleted slugs, merged enrichment text
 
 Old wikilink titles still resolve via aliases on the survivor notes.
 
@@ -4186,13 +4186,13 @@ Completed the remaining **strongest merge candidates** from the audit. Combined 
 | Metric | Before | After |
 |--------|--------|-------|
 | Note count | 86 | **75** |
-| Files removed | - | **11** |
+| Files removed | — | **11** |
 
 ### Also updated
-- **MOC** - dropped Organization, Visual Thinking, and duplicate entries
+- **MOC** — dropped Organization, Visual Thinking, and duplicate entries
 - **Wikilinks** across 15+ notes (`contradicts`/`extends` retargeted to `[[PARA Method]]`, `[[Atomic Notes]]`, etc.)
-- **`wire-note-relationships.py`** - removed deleted slugs, fixed duplicate `active-knowledge-curation` entry
-- **`enrich-evergreen-notes.py`** - merged enrichment text into survivors
+- **`wire-note-relationships.py`** — removed deleted slugs, fixed duplicate `active-knowledge-curation` entry
+- **`enrich-evergreen-notes.py`** — merged enrichment text into survivors
 
 `npm run lint:notes` passes clean. Old titles still resolve via aliases on the survivor notes.
 
@@ -5238,14 +5238,14 @@ Done. **8 notes removed**, **2 kept** as you specified. Garden is now **67 notes
 
 | Removed | Content moved to |
 |---------|------------------|
-| `from-note-to-book` | - (MOC express link removed) |
+| `from-note-to-book` | — (MOC express link removed) |
 | `note-taking-for-researchers` | `synthesis-as-a-goal` (+ aliases Research Notes) |
-| `collaborative-knowledge` | - (`local-first-software` now contradicts only `[[Drafting in Public]]`) |
+| `collaborative-knowledge` | — (`local-first-software` now contradicts only `[[Drafting in Public]]`) |
 
 ### Kept unchanged
 
-- `bullet-journaling` - still the `alternative` to `daily-notes`
-- `second-brain-daily-workflow` - day-scale detail preserved
+- `bullet-journaling` — still the `alternative` to `daily-notes`
+- `second-brain-daily-workflow` — day-scale detail preserved
 
 ### Other updates
 - **MOC** trimmed 6 entries; added `RSS for Research` under Capture
@@ -5260,8 +5260,8 @@ Done. **8 notes removed**, **2 kept** as you specified. Garden is now **67 notes
 _**User**_
 
 remove:
-bullet-journaling - still the alternative to daily-notes
-second-brain-daily-workflow - day-scale detail preserved
+bullet-journaling — still the alternative to daily-notes
+second-brain-daily-workflow — day-scale detail preserved
 
 ---
 
@@ -5762,14 +5762,14 @@ _**Agent (default)**_
 Removed both notes. **65 notes** remain; lint is clean.
 
 ### Removed
-- `bullet-journaling.md` - cut entirely (paper capture still covered in `analog-capture-tools`)
-- `second-brain-daily-workflow.md` - day-scale detail folded into `the-second-brain-workflow`
+- `bullet-journaling.md` — cut entirely (paper capture still covered in `analog-capture-tools`)
+- `second-brain-daily-workflow.md` — day-scale detail folded into `the-second-brain-workflow`
 
 ### Updated
-- **`the-second-brain-workflow`** - merged daily habits (middle-click tabs, feeds, gap capture); aliases `Second Brain Daily Workflow`, `Daily Workflow`
-- **`daily-notes`** - dropped `alternative` link to bullet journal
-- **`note-relationships`** - example `alternative` row now uses mobile vs analog capture
-- **`mind-mapping`**, **`rss-for-research`** - see-also links retargeted
+- **`the-second-brain-workflow`** — merged daily habits (middle-click tabs, feeds, gap capture); aliases `Second Brain Daily Workflow`, `Daily Workflow`
+- **`daily-notes`** — dropped `alternative` link to bullet journal
+- **`note-relationships`** — example `alternative` row now uses mobile vs analog capture
+- **`mind-mapping`**, **`rss-for-research`** — see-also links retargeted
 - Maintenance scripts updated
 
 **Running total:** 86 → **65 notes** (−21).
@@ -6409,7 +6409,7 @@ ERROR error building site: "/home/jorap/Documents/GitHub/jorap.com/themes/jorap/
 
 _**Agent (default)**_
 
-Other layout files may be truncated too - checking them all.
+Other layout files may be truncated too — checking them all.
 
 
 _**Agent (default)**_
@@ -7438,11 +7438,11 @@ _**Agent (default)**_
 The flashcard deck is now trimmed to **12 habit spine notes** (~20% of the garden) with **72 scenario cards** (down from 16 notes / 96 definition-style cards).
 
 ### Cut from review (4 notes)
-These were reference or meta - useful in the wiki, not daily habit drill:
-- **PKM** - covered by Capture + Second Brain
-- **GTD vs PARA** - comparison, not a weekly ritual
-- **Progressive Summarization** - distill-on-reuse, not core habit loop
-- **Spaced Repetition** - meta about the tool itself
+These were reference or meta — useful in the wiki, not daily habit drill:
+- **PKM** — covered by Capture + Second Brain
+- **GTD vs PARA** — comparison, not a weekly ritual
+- **Progressive Summarization** — distill-on-reuse, not core habit loop
+- **Spaced Repetition** — meta about the tool itself
 
 ### Kept (12 habit spine notes)
 The daily PKM loop:
@@ -7456,7 +7456,7 @@ The daily PKM loop:
 Prompts are now **“what do you do when…”** instead of **“define X”**:
 
 - Before: `PARA (four buckets)` → `Projects, Areas, Resources, Archive`
-- After: `Active work with a deadline lands in your notes.` → `Projects bucket - name it or it stays Resources.`
+- After: `Active work with a deadline lands in your notes.` → `Projects bucket — name it or it stays Resources.`
 
 Updated meta copy in `cards.md`, `getting-started.md`, `pareto-principle.md`, and `spaced-repetition.md`. Anki export regenerated (`72 cards`). Build and lint pass clean.
 
@@ -8367,12 +8367,12 @@ public/notes/note-relationships/index.html
 
 _**Agent (default)**_
 
-The crash came from Hugo’s built-in `.TableOfContents` generator - it can panic with a slice bounds error on certain note content (notably `note-relationships.md` with its markdown table, and `spaced-repetition.md`).
+The crash came from Hugo’s built-in `.TableOfContents` generator — it can panic with a slice bounds error on certain note content (notably `note-relationships.md` with its markdown table, and `spaced-repetition.md`).
 
 **Fix:** Replaced `.TableOfContents` with a custom TOC built from `.Fragments.Headings`, which avoids that code path:
 
-- `layouts/_partials/notes/toc.html` - assembles the nav wrapper, skips `#see-also`
-- `layouts/_partials/notes/toc-headings.html` - recursive heading renderer (matches your `startLevel=2`, `endLevel=5`, ordered list config)
+- `layouts/_partials/notes/toc.html` — assembles the nav wrapper, skips `#see-also`
+- `layouts/_partials/notes/toc-headings.html` — recursive heading renderer (matches your `startLevel=2`, `endLevel=5`, ordered list config)
 
 The site builds cleanly again. Notes with only a “See also” section show no TOC (same as before, since that heading was always stripped). Notes like Getting Started still get a full sidebar TOC.
 
@@ -8547,7 +8547,7 @@ The early return exits when `[data-notes-grid]` is missing. That element does no
 
 _**Agent (default)**_
 
-The random-note handler lives in `notes-list.js`, which exits early unless `[data-notes-grid]` exists - so it never runs on toolbar pages like graph, issues, or cards.
+The random-note handler lives in `notes-list.js`, which exits early unless `[data-notes-grid]` exists — so it never runs on toolbar pages like graph, issues, or cards.
 
 
 _**Agent (default)**_
@@ -8741,14 +8741,14 @@ The build looks good. The notes-random.js script is included on the graph, issue
 
 _**Agent (default)**_
 
-The **Random note** button had no handler on most toolbar pages. Its click logic lived in `notes-list.js`, which bails out immediately unless `[data-notes-grid]` exists - that element is only on `/notes/`, not on Graph, Issues, Flashcards, etc.
+The **Random note** button had no handler on most toolbar pages. Its click logic lived in `notes-list.js`, which bails out immediately unless `[data-notes-grid]` exists — that element is only on `/notes/`, not on Graph, Issues, Flashcards, etc.
 
 **Fix:**
 - Added `assets/js/notes-random.js` with the picker logic
 - Load it from the shared toolbar partial (every page that has the button)
 - Removed the duplicate handler from `notes-list.js` (that file now only handles status filters)
 
-Reload and try **Random note** from any toolbar page - it should jump to a random garden note.
+Reload and try **Random note** from any toolbar page — it should jump to a random garden note.
 
 ---
 
@@ -8783,7 +8783,7 @@ Parameters:
   "caseInsensitive": false,
   "outputMode": "count",
   "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
-  "pattern": "-"
+  "pattern": "—"
 }
 ```
 Additional data:
@@ -8793,7 +8793,7 @@ Additional data:
   "isPruned": true,
   "outputMode": "count",
   "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
-  "pattern": "-",
+  "pattern": "—",
   "topFiles": [
     {
       "matchCount": 4,
@@ -9188,7 +9188,7 @@ Parameters:
   "caseInsensitive": false,
   "glob": "content/english/notes/*.md",
   "outputMode": "files_with_matches",
-  "pattern": "-"
+  "pattern": "—"
 }
 ```
 Additional data:
@@ -9197,7 +9197,7 @@ Additional data:
 {
   "isPruned": true,
   "outputMode": "files_with_matches",
-  "pattern": "-",
+  "pattern": "—",
   "topFiles": [
     {
       "matchCount": 1,
@@ -9349,7 +9349,7 @@ Parameters:
   "caseInsensitive": false,
   "outputMode": "count",
   "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
-  "pattern": "-"
+  "pattern": "—"
 }
 ```
 Additional data:
@@ -9359,7 +9359,7 @@ Additional data:
   "isPruned": true,
   "outputMode": "count",
   "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
-  "pattern": "-",
+  "pattern": "—",
   "topFiles": [
     {
       "matchCount": 5,
@@ -9820,7 +9820,7 @@ Parameters:
   "caseInsensitive": false,
   "outputMode": "count",
   "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
-  "pattern": "-"
+  "pattern": "—"
 }
 ```
 Additional data:
@@ -9830,7 +9830,7 @@ Additional data:
   "isPruned": true,
   "outputMode": "count",
   "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
-  "pattern": "-",
+  "pattern": "—",
   "topFiles": [],
   "totalFiles": 0,
   "totalMatches": 0
@@ -10191,7 +10191,7 @@ Applied a full JoRap voice pass across the notes garden, including all 72 flashc
 
 | Before | After |
 |--------|-------|
-| `Drop it in the one trusted inbox - don't organize yet.` | `One trusted inbox. Don't organize yet.` |
+| `Drop it in the one trusted inbox — don't organize yet.` | `One trusted inbox. Don't organize yet.` |
 | `You finish writing a new note. Minimum links?` | `I finish a new note. Minimum links?` |
 | `Save only what changes what you do…` (description) | `I save only what changes what I do…` |
 

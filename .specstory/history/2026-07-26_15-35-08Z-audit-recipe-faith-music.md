@@ -573,4 +573,372 @@ The Verses/Choruses/Prayer/Key labels in the worship-pads technique section are 
 The chicken adobo post reads like a recipe manual. Its "Recipe" heading duplicates the title, and its "Instant Pot Liquid Check" section feels mechanical and lacks human voice.
 
 The chicken adobo opening paragraph lacks a story or frustration hook. Its method steps are purely mechanical, with only Steps 1, 5, and 6 offering personal asides. The marination timing block uses parallel structure that sounds like product manual voice. Line 49’s instruction to add extra vinegar at the end is impersonal.
+
+The instant-pot-arroz-caldo post does not violate the one-failure rule; it merely repeats rather than adding a new failure.
+
+The set-it-forget-it post contains a contradiction between “4-6 people” and “feeding a crowd,” plus “perfect for” that borders on banned food-blog filler. Line 30 repeats the post title as cliché. Step 2 lines 61–64 form a duplicate summary paragraph.
+
+Now reviewing the worship-pads section intros more closely.
+
+The worship-pads post suffers from parallelism-disease-lite at line 69, where three consecutive "all" phrases create redundant parallelism. The "A last thought" closing heading is too weak per the guide. The direct-address phrase at line 95 is acceptable. The technique note at line 119 is fine. Now moving to miracle-isaiah-david.
+
+The miracle-isaiah-david section body at "What I think about now, looking back" is weak. The phrase "I started to realize" is slightly generic.
+
+The miracle-isaiah-david section body is thin compared to the rest of the post. Line 111 uses a bare link bullet that reads like an outline. The dnpap post repeats COVID recording details at line 37 that were already stated at line 19. The first four hundred characters of opinion posts all correctly use first-person pronouns. Now checking meta titles and descriptions for SEO stuffing.
+
+The chicken adobo meta title uses mild generic phrasing, though its description reads well in first person. The adobo recipe also repeats its full ingredients list inside Step 1, creating a summary-sandwich pattern. Verdicts are being assigned: instant-pot-arroz-caldo gets LIGHT POLISH for redundancy and flat headings; set-it-forget-it-arroz-caldo gets LIGHT POLISH for duplicate step text and a pro tip. The chicken adobo verdict is still undecided between DEEP REWRITE and LIGHT POLISH.
+
+The chicken adobo verdict is now DEEP REWRITE. Its method sections and headings are too mechanical.
+
+Miracle-isaiah-david receives LIGHT POLISH. Its "What I think about now" section is weak.
+
+Worship-pads-solo-guitar is mostly CLEAN or LIGHT POLISH.
+
+Dnpap-song-resources is CLEAN.
+
+Line 112 of instant-pot-arroz-caldo repeats the generic food-writing comparison from set-it-forget-it.
+
+The two arroz caldo posts share nearly identical closing texture paragraphs, which fails the swap test. The H2 sections needing the most work are:
+
+- instant-pot: "The 8-Quart Instant Pot Setup", "What You'll Need", and "Things I've Learned"
+- set-it-forget-it: "What You'll Need", "How I Made It", and "Things I've Learned"
+- chicken adobo: "Recipe: Instant Pot Chicken Adobo", "Method", and all step subsections
+- miracle: "What I think about now, looking back"
+
+The chicken adobo post uses "Choose one:" at lines 60 and 139, which reads like a recipe manual. Its "Instant Pot Liquid Check" section contains no first-person voice at all. The full audit report is now being compiled.
 </details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+Checking a few more patterns and whether `miracle-isaiah-david` appears in the style guide as a reference post.
+
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "{instant-pot-arroz-caldo,set-it-forget-it-arroz-caldo,instant-pot-chicken-adobo,miracle-isaiah-david,worship-pads-solo-guitar,dnpap-song-resources}.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "\\bI\\b|\\bmy\\b|\\bwe\\b"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "\\bI\\b|\\bmy\\b|\\bwe\\b",
+  "topFiles": [
+    {
+      "matchCount": 5,
+      "uri": "content/english/blog/instant-pot-chicken-adobo.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 76
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "{instant-pot-arroz-caldo,set-it-forget-it-arroz-caldo,instant-pot-chicken-adobo}.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "reheats perfectly|creamy but not mushy|between risotto and congee"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "reheats perfectly|creamy but not mushy|between risotto and congee",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": "content/english/blog/instant-pot-arroz-caldo.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/blog/set-it-forget-it-arroz-caldo.md"
+    }
+  ],
+  "totalFiles": 2,
+  "totalMatches": 4
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Checking chicken adobo for first-person voice in Method sections after step 1.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "instant-pot-chicken-adobo.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "\\bI\\b|\\bmy\\b"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "\\bI\\b|\\bmy\\b",
+  "topFiles": [
+    {
+      "matchCount": 9,
+      "uri": "content/english/blog/instant-pot-chicken-adobo.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 9
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+The chicken adobo recipe contains impersonal, SEO-stuffed language across its Instant Pot Liquid Check, marination time block, and steps 3–4. These sections need a personal rewrite.
+
+The chicken adobo recipe suffers a sharp voice drop around line 124. That line contradicts the natural tone at line 103 and uses stiff corporate phrasing.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="update_current_step"><details>
+<summary>Tool use: **update_current_step**</summary>
+An unknown error occurred
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Preparing a comprehensive audit report grouped by file.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+## Audit summary
+
+No em/en dashes (`—` / `–`) or currency amounts found in any of the six posts. No classic AI transition spam (`Additionally`, `Furthermore`, `When it comes to`, etc.). First-person voice is present in every opening.
+
+Verdicts at a glance:
+
+| Post | Verdict |
+|------|---------|
+| `instant-pot-arroz-caldo.md` | **LIGHT POLISH** |
+| `set-it-forget-it-arroz-caldo.md` | **LIGHT POLISH** |
+| `instant-pot-chicken-adobo.md` | **DEEP REWRITE** |
+| `miracle-isaiah-david.md` | **LIGHT POLISH** |
+| `worship-pads-solo-guitar.md` | **LIGHT POLISH** |
+| `dnpap-song-resources.md` | **CLEAN** |
+
+---
+
+## `content/english/blog/instant-pot-arroz-caldo.md`
+
+**Verdict: LIGHT POLISH**
+
+**H2 sections needing most work:** `The 8-Quart Instant Pot Setup`, `What You'll Need`, `Things I've Learned Along the Way`
+
+### Findings
+
+| Line | Quote | Rule | Suggested fix |
+|------|-------|------|---------------|
+| 40 | `**Takes about 45 minutes total, feeds 10-12 people (great for meal prep or a hungry house)**` | Generic food-blog filler / recipe-card tone | Cut the standalone bold line or fold into the opening: "I get 10-12 bowls out of one pot in about 45 minutes." |
+| 42–46 | `## The 8-Quart Instant Pot Setup` … repeats bone-in drumsticks and natural-release warnings already covered in lines 28–36 | Summary sandwich / section with no new failure or surprise | Merge into "Why I switched" or open with a new mistake: "I quick-released once and cleaned porridge off the ceiling." |
+| 48 | `## What You'll Need` | Flat/generic H2 heading (product-manual voice) | Rename to something personal: `## What goes in my pot` or `## Ingredients (and the ginger rule)` |
+| 52 | `**The essentials (don't skip these):**` | Generic recipe-template voice | Fine in the method body; optional tweak: `**Don't skip these:**` |
+| 104 | `## Things I've Learned Along the Way` | Flat/generic H2 heading | `## What I'd tell you after the third batch` or `## Mistakes I already made for you` |
+| 106 | `It tastes even better after sitting overnight and reheats perfectly.` | Generic food-blog filler ("perfectly") | `It tastes better the next day and reheats fine in the microwave.` |
+| 107 | `Fresh ginger makes ALL the difference. At this batch size you'll definitely taste it.` | Repeats line 50 almost verbatim | Cut from tips or swap in a different lesson (e.g., the three-cups-at-once thinning mistake from line 98). |
+| 112 | `The texture should be creamy but not mushy - somewhere between risotto and congee.` | Section intro with no specific detail (swap-test fail) | Tie to your pot: "First time I opened the lid it looked like solid rice - normal at 2.5 cups malagkit. Stir hard, then thin." |
+
+### Frontmatter
+
+`description` and `meta_title` are on-voice: specific, first-person, not SEO-stuffed. No changes needed.
+
+---
+
+## `content/english/blog/set-it-forget-it-arroz-caldo.md`
+
+**Verdict: LIGHT POLISH**
+
+**H2 sections needing most work:** `What You'll Need`, `How I Made It` (Step 2), `Things I've Learned Along the Way`
+
+### Findings
+
+| Line | Quote | Rule | Suggested fix |
+|------|-------|------|---------------|
+| 26 | `(perfect for meal prep or feeding a crowd)` | Generic food-blog filler (near "perfect for any occasion") | `feeds 4-6, enough for leftovers through the week` |
+| 30 | `Set it and literally forget it.` | Cliché / title-echo filler | Cut "literally" or replace with your Friday ritual: "I'd hit congee and fall asleep on the couch." |
+| 32 | `Also, pro tip for this method:` | Generic blogger phrase | `One thing I learned:` or `Thigh fillets, not breast:` |
+| 34 | `## What You'll Need` | Flat/generic H2 heading | `## What went in the Hanabishi` |
+| 61–64 | `Everything goes into the rice cooker: the rinsed rice, chicken, **6-7 cups...` (repeated after line 62 already says "everything goes into the rice cooker") | Summary sandwich | Delete the second "Everything goes into the rice cooker" sentence; keep the ingredient list once. |
+| 76 | `## Things I've Learned Along the Way` | Flat/generic H2 heading | Same as Instant Pot sibling: give it a personal angle |
+| 78 | `It tastes even better after sitting overnight and reheats perfectly.` | Generic food-blog filler | Same fix as Instant Pot post |
+| 83 | `If you've never had good arroz caldo before, think somewhere between risotto and congee.` | Generic explainer with no personal detail | `Mine always landed thicker than restaurant arroz caldo - I'd thin with hot water one cup at a time.` |
+| 85 | `## For Reference` | Flat/generic H2 heading | `## Where I started (Panlasang Pinoy)` |
+
+### Frontmatter
+
+On-voice. The description honestly flags the Instant Pot switch. Good.
+
+---
+
+## `content/english/blog/instant-pot-chicken-adobo.md`
+
+**Verdict: DEEP REWRITE**
+
+**H2 sections needing most work:** `Recipe: Instant Pot Chicken Adobo`, `Method` (especially Steps 2–4, `Instant Pot Liquid Check`, marination block)
+
+This post has a strong "Why I use the Instant Pot" section and a good closing paragraph, but the recipe body drops into manual/corporate voice for most of its length.
+
+### Findings
+
+| Line | Quote | Rule | Suggested fix |
+|------|-------|------|---------------|
+| 20 | Opening jumps straight to batch size and liquid math with no hook | Missing first-person opening with relatable situation | Add a line like: "Weeknight adobo used to mean an hour at the stove. I moved it to the Instant Pot when I got tired of babysitting the pot." |
+| 30 | `## Recipe: Instant Pot Chicken Adobo` | Flat/generic H2 heading (manual voice) | Cut this H2 or rename: `## My 2 kg thigh batch` |
+| 72–74 | `### Instant Pot Liquid Check` / `The adjusted liquid base is about 425-430 ml total...` | Corporate/no-subject voice; section intro with no personal failure | `I kept getting burn notices until I landed on about 430 ml total liquid in my 8-quart - not the generic one-cup minimum.` |
+| 78 | `## Method` | Flat/generic H2 heading | `## How I run it` |
+| 93–97 | `- Minimum: 30 minutes` / `- Recommended: 2-8 hours` / `- Best: overnight` | Parallel bullet drone + corporate/no-subject voice | Prose: `Thirty minutes works. I usually marinate overnight and forget it's there until lunch.` |
+| 96 | `Recommended: 2-8 hours` | Corporate/no-subject voice ("Recommended" label) | `I aim for overnight, but two hours has worked when I started late.` |
+| 101–109 | Step 2 body (brown 3-4 minutes, 2 batches) - pure instruction, no "I" | Missing first-person voice in body | Add one line: `I brown in two batches so the skin actually crisps instead of steaming.` |
+| 111–120 | Step 3 - no first person | Missing first-person voice | `I add vinegar last and don't stir for two minutes - learned that from stovetop adobo, not the IP manual.` |
+| 124 | `Browning the chicken using a separate pot ensures I will not experience a burn notice.` | Corporate/no-subject voice | `I brown in a skillet first - that's the only way I avoid a burn notice in my pot.` |
+| 147 | `If a thicker sauce is desired, whisk ½-⅔ tsp xanthan gum...` | Corporate/no-subject voice ("is desired") | `If you want it thicker, I whisk ½ tsp xanthan gum into a little hot sauce first.` |
+| 86–89 vs 40–43 | Full ingredient list duplicated in Step 1 | Summary sandwich | Reference the marinade block above instead of re-listing four lines. |
+
+### Frontmatter
+
+| Line | Quote | Rule | Suggested fix |
+|------|-------|------|---------------|
+| 3 | `meta_title: "Instant Pot Chicken Adobo - Filipino Comfort Food"` | Mild SEO/generic tag stacking | `Instant Pot Chicken Adobo - 10 Minutes Under Pressure` (matches the post's actual hook) |
+
+`description` is fine.
+
+---
+
+## `content/english/blog/miracle-isaiah-david.md`
+
+**Verdict: LIGHT POLISH**
+
+**H2 sections needing most work:** `What I think about now, looking back`
+
+Overall this is strong faith/family voice: specific dates, names, the daughter mix-up, ECQ context. Most media sections have good intros.
+
+### Findings
+
+| Line | Quote | Rule | Suggested fix |
+|------|-------|------|---------------|
+| 37 | `this amazing story` | Significance inflation (inside quoted Facebook post) | Leave as historical quote, or trim in the blockquote if you rewrite the archived post text |
+| 63 | `They turned it into a beautiful piece called` | Mild significance inflation / generic praise | `They turned it into a piece called` or name one detail: `...a piece with our living room in the background and Isaiah in Pia's arms.` |
+| 109–111 | `## What I think about now, looking back` followed by a lone bullet link `- [Facebook Video - 7 Million Views]` | Section intro with no specific detail; outline-y structure | Replace the bare link with a sentence: `The Facebook clip passed seven million views - I still don't know how to say that out loud.` |
+| 113–115 | `I started to realize that it had become bigger than us. It had quietly become something other people held on to during a really dark year.` | Generic reflection / swap-test fail (could be any viral story) | Ground it: `Strangers messaged us that they'd been praying for a baby for years. That part hit harder than the view count.` |
+| 115 | `We didn't set out to inspire anyone. We just wrote a long Facebook post.` | Good honest line - keep | (No change) |
+
+### Frontmatter
+
+Both fields are personal and specific. No issues.
+
+---
+
+## `content/english/blog/worship-pads-solo-guitar.md`
+
+**Verdict: LIGHT POLISH**
+
+**H2 sections needing most work:** `Where to get pads (free)`, `A last thought`
+
+This is the closest to the earphones calibration post: lived experience, failures (app freeze, wrong key), clear "what I do."
+
+### Findings
+
+| Line | Quote | Rule | Suggested fix |
+|------|-------|------|---------------|
+| 69 | `These are the three I keep coming back to. All free, all in standard keys, all good quality.` | Parallelism disease (three "all..." phrases) | `Three sources I actually use - free, standard keys, good enough for Sunday.` |
+| 83 | `gorgeous, atmospheric, a little more textured` | Mild thesaurus/adjective stack | `warmer and more textured than the Churchfront set` |
+| 123 | `The pad will carry it beautifully.` | Generic filler adverb | `The pad will carry it without you strumming.` |
+| 130 | `## A last thought` | Weak closing heading (near "in conclusion" structure) | `## What I'd do if I were starting today` or fold into prior section |
+| 136 | `See what happens.` | Slightly generic closing | Stronger landing: `I waited too long to try this. One pad in C, one Sunday - that's enough to know.` (You already say this at line 132; consider cutting 136.) |
+
+### Frontmatter
+
+On-voice. Description opens with the practice-room moment. Good.
+
+---
+
+## `content/english/blog/dnpap-song-resources.md`
+
+**Verdict: CLEAN**
+
+**H2 sections needing most work:** None required for a short resource-list post.
+
+This post matches what the guide expects for its type: personal hook (Pia on vocals, COVID recording), then links. No padding, no corporate voice, no banned patterns.
+
+### Minor notes (optional, not violations)
+
+| Line | Quote | Rule | Suggested fix |
+|------|-------|------|---------------|
+| 37 | Repeats the COVID recording detail from line 19 | Light redundancy | Cut from one location if you ever touch the post |
+| 27 | `## The artist - Destiny Music` | Flat heading (acceptable for resource post) | Optional: `## Destiny Music links` |
+
+### Frontmatter
+
+Personal and specific. Not SEO-stuffed.
+
+---
+
+## Cross-post pattern (informational)
+
+Both arroz caldo posts share nearly identical "Things I've Learned" bullets and texture closers (lines 106–112 vs 78–83). Not a voice violation inside a single post, but if you edit one, sync or differentiate the other so they don't read like copy-paste.
+
+---
+
+## Priority order if you edit
+
+1. **`instant-pot-chicken-adobo.md`** - rewrite Method section in first person; kill "Recommended:" / "is desired" / "ensures I will not experience"
+2. **`set-it-forget-it-arroz-caldo.md`** - fix Step 2 duplicate paragraph; cut "perfect for" filler
+3. **`instant-pot-arroz-caldo.md`** - merge or cut redundant Setup section; sharpen tips/closer
+4. **`miracle-isaiah-david.md`** - flesh out "What I think about now" with one concrete stranger message or family moment
+5. **`worship-pads-solo-guitar.md`** - small heading/closing tweaks only
+6. **`dnpap-song-resources.md`** - no action needed

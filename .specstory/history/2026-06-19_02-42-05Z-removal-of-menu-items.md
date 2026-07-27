@@ -749,7 +749,7 @@ Categories and Tags were promoted to the main navigation in April 2025. They wer
 
 _**Agent (default)**_
 
-Yes - it was intentional, and it came from the Impeccable homepage pass, not from Hugo or the theme breaking anything.
+Yes — it was intentional, and it came from the Impeccable homepage pass, not from Hugo or the theme breaking anything.
 
 ## Why they were removed
 
@@ -780,7 +780,7 @@ Taxonomies still work:
 
 So this was an **IA / positioning** choice: fewer nav items, less “blog CMS” feel, more “hire this person” framing.
 
-If you want them back, the usual compromise Impeccable suggested is **footer or blog-context only** - not top-level header nav. I can restore them that way if you want.
+If you want them back, the usual compromise Impeccable suggested is **footer or blog-context only** — not top-level header nav. I can restore them that way if you want.
 
 ---
 
@@ -818,7 +818,7 @@ _**Agent (default)**_
 
 _**Agent (default)**_
 
-Done. **Categories** and **Tags** are back in the footer only - header nav is unchanged.
+Done. **Categories** and **Tags** are back in the footer only — header nav is unchanged.
 
 Footer order: About · Blog · Categories · Tags · Contact
 

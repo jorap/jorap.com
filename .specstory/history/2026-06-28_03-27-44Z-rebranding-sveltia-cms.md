@@ -360,9 +360,9 @@ I can provide a clear answer.
 
 _**Agent (default)**_
 
-**Partially - for your editors, yes. As a product swap, no.**
+**Partially — for your editors, yes. As a product swap, no.**
 
-Your site runs **Sveltia CMS** (`@sveltia/cms` from unpkg). **Static CMS** is a different, **archived** Netlify CMS fork (discontinued Sept 2024). **“Static Site CMS”** isn’t an official rename of Sveltia - it would be your own label for the admin UI.
+Your site runs **Sveltia CMS** (`@sveltia/cms` from unpkg). **Static CMS** is a different, **archived** Netlify CMS fork (discontinued Sept 2024). **“Static Site CMS”** isn’t an official rename of Sveltia — it would be your own label for the admin UI.
 
 ## What you can rebrand
 
@@ -394,8 +394,8 @@ So editors would mostly see “Static Site CMS,” but Sveltia attribution would
 
 | Approach | Verdict |
 |---|---|
-| Call the engine “Static CMS” | Misleading - that’s the dead fork |
-| Swap to Static CMS | Bad idea - archived, no updates |
+| Call the engine “Static CMS” | Misleading — that’s the dead fork |
+| Swap to Static CMS | Bad idea — archived, no updates |
 | Pretend it’s a different product in public docs | Inaccurate |
 
 ## Practical recommendation
@@ -406,7 +406,7 @@ For JoRap, something site-specific is clearer than a generic name:
 app_title: JoRap Content Manager
 ```
 
-If you really want “Static Site CMS,” that works as an `app_title` - just note in setup docs that the engine is still Sveltia.
+If you really want “Static Site CMS,” that works as an `app_title` — just note in setup docs that the engine is still Sveltia.
 
 Want me to add `app_title: Static Site CMS` (or “JoRap Content Manager”) to your `config.yml` and rename the setup doc?
 
@@ -420,7 +420,7 @@ yes. can we change the login logo to site logo?
 
 _**Agent (default)**_
 
-I'll add the branding to `config.yml` and point the CMS login logo at your site logo - checking the logo path and setup doc references first.
+I'll add the branding to `config.yml` and point the CMS login logo at your site logo — checking the logo path and setup doc references first.
 
 
 _**Agent (default)**_
@@ -1165,7 +1165,7 @@ Done. Here's what changed:
 **Branding in `static/admin/config.yml`**
 - `app_title: Static Site CMS`
 - `site_url: https://www.jorap.com`
-- `logo.src: /images/jorap.png` - same asset as the site header (`assets/images/jorap.png`)
+- `logo.src: /images/jorap.png` — same asset as the site header (`assets/images/jorap.png`)
 
 **`static/admin/index.html`**
 - Page title updated to match: `Static Site CMS`
@@ -1176,7 +1176,7 @@ Done. Here's what changed:
 
 On the login page you should now see the JoRap logo and "Static Site CMS" as the title. After login, the logo also appears in the admin header.
 
-**To verify:** open [http://localhost:1313/admin/](http://localhost:1313/admin/) - both `/images/jorap.png` and `/admin/config.yml` return 200 on your dev server.
+**To verify:** open [http://localhost:1313/admin/](http://localhost:1313/admin/) — both `/images/jorap.png` and `/admin/config.yml` return 200 on your dev server.
 
 **Note:** Sveltia still shows a small "Powered by Sveltia CMS" footer on the login page; that can't be removed without forking the product.
 
@@ -2691,21 +2691,21 @@ OK: no leading/inline spaces before shortcodes in content/
 
 _**Agent (default)**_
 
-Shortcodes in Hugo must start at **column 0** - a leading space before `{{<` makes Hugo treat them as plain text, and Sveltia’s editor patterns won’t match them either.
+Shortcodes in Hugo must start at **column 0** — a leading space before `{{<` makes Hugo treat them as plain text, and Sveltia’s editor patterns won’t match them either.
 
 **What I found**
 
 All 159 shortcodes under `content/` were already at column 0, except one inline case: two `button` shortcodes on the same line in `hugoplate-theme-review.md`.
 
-The Alex Eala tracker skill templates had a leading space before `{{< youtube` - that would cause bad embeds when the skill is used to update the tracker.
+The Alex Eala tracker skill templates had a leading space before `{{< youtube` — that would cause bad embeds when the skill is used to update the tracker.
 
 **Fixes**
 
-1. **`hugoplate-theme-review.md`** - split the two inline buttons onto separate lines
-2. **`.cursor/skills/alex-eala-tracker-update/reference.md`** - removed leading spaces from all 5 YouTube templates; added a column-0 rule under YouTube embed rules
-3. **Image shortcodes** - cleaned double spaces before `webp=` in `elements.md`, `__blog-template.md`, and the Facebook post
-4. **`scripts/checkShortcodeSpacing.mjs`** - fails if any markdown under `content/` has indented or inline-space-before shortcodes
-5. **`jorap-shortcodes.js`** - comment noting the column-0 requirement
+1. **`hugoplate-theme-review.md`** — split the two inline buttons onto separate lines
+2. **`.cursor/skills/alex-eala-tracker-update/reference.md`** — removed leading spaces from all 5 YouTube templates; added a column-0 rule under YouTube embed rules
+3. **Image shortcodes** — cleaned double spaces before `webp=` in `elements.md`, `__blog-template.md`, and the Facebook post
+4. **`scripts/checkShortcodeSpacing.mjs`** — fails if any markdown under `content/` has indented or inline-space-before shortcodes
+5. **`jorap-shortcodes.js`** — comment noting the column-0 requirement
 
 Validation passes:
 

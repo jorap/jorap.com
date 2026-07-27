@@ -1287,7 +1287,7 @@ Re-reading the files and running lint again.
 
 _**Agent (auto-low)**_
 
-Files may have changed - re-reading current state and re-running lint.
+Files may have changed — re-reading current state and re-running lint.
 
 
 _**Agent (auto-low)**_
@@ -1745,7 +1745,7 @@ Checking whether prior edits to follow-christ-then-lead and break-the-escalation
 
 _**Agent (auto-low)**_
 
-Files appear reverted - running a comprehensive fix script for all chunk-2 notes.
+Files appear reverted — running a comprehensive fix script for all chunk-2 notes.
 
 
 _**Agent (auto-low)**_
@@ -2260,7 +2260,7 @@ The remaining 47 issues span six categories: six faith entries still missing bib
 
 _**Agent (auto-low)**_
 
-47 issues remain - applying targeted fixes for the rest.
+47 issues remain — applying targeted fixes for the rest.
 
 
 _**Agent (auto-low)**_
@@ -2944,9 +2944,9 @@ _**Agent (auto-low)**_
 All 57 unique files in this chunk pass `python3 scripts/garden-voice-lint.py` for the rules you listed.
 
 ### Already compliant (no edits needed)
-- `graph.md` - meta page; frontmatter already matched rules
-- `okf-export.md` - meta page; no `examples` field (lint skips meta/index)
-- `para-method.md` - already third-person, no contractions, four shareable thoughts
+- `graph.md` — meta page; frontmatter already matched rules
+- `okf-export.md` — meta page; no `examples` field (lint skips meta/index)
+- `para-method.md` — already third-person, no contractions, four shareable thoughts
 
 ### What changed across the other 55 files
 - **description** → third-person, ≤20 words, no wikilinks, no contractions

@@ -721,7 +721,7 @@ STOP = {
     &#34;way&#34;,&#34;who&#34;,&#34;did&#34;,&#34;let&#34;,&#34;put&#34;,&#34;say&#34;,&#34;she&#34;,&#34;too&#34;,&#34;use&#34;,&#34;any&#34;,&#34;per&#34;,&#34;via&#34;,&#34;etc&#34;,&#34;ll&#34;,&#34;ve&#34;,&#34;re&#34;,
 }
 
-# ponytail: syllable heuristic, not CMU dict - good enough for ranking
+# ponytail: syllable heuristic, not CMU dict — good enough for ranking
 VOWELS = &#34;aeiouy&#34;
 def syllables(word: str) -&gt; int:
     w = word.lower()
@@ -867,7 +867,7 @@ STOP = {
     "way","who","did","let","put","say","she","too","use","any","per","via","etc","ll","ve","re",
 }
 
-# ponytail: syllable heuristic, not CMU dict - good enough for ranking
+# ponytail: syllable heuristic, not CMU dict — good enough for ranking
 VOWELS = "aeiouy"
 def syllables(word: str) -> int:
     w = word.lower()
@@ -1500,7 +1500,7 @@ print()
 for i,(_,w,c,r,syl,cat) in enumerate(scored[:100],1):
     rs = str(r) if r else &#34;rare&#34;
     samp = &#34;, &#34;.join(sorted(notes[w])[:3])
-    print(f&#34;{i:3d}. {w} ({c} uses, {rs}, {syl} syl, {cat}) - {samp}&#34;)
+    print(f&#34;{i:3d}. {w} ({c} uses, {rs}, {syl} syl, {cat}) — {samp}&#34;)
 PYEOF</summary>
 ```bash
 python3 << 'PYEOF'
@@ -1615,32 +1615,32 @@ print()
 for i,(_,w,c,r,syl,cat) in enumerate(scored[:100],1):
     rs = str(r) if r else "rare"
     samp = ", ".join(sorted(notes[w])[:3])
-    print(f"{i:3d}. {w} ({c} uses, {rs}, {syl} syl, {cat}) - {samp}")
+    print(f"{i:3d}. {w} ({c} uses, {rs}, {syl} syl, {cat}) — {samp}")
 PYEOF
 ```
 
 ```
 Notes analyzed: 210 | reader-facing prose from titles, descriptions, key concepts, examples, flashcards
 
-  1. obedience (53 uses, rare, 3 syl, theology) - assurance, discipleship, eternal-rewards
-  2. inbox (70 uses, 9080, 2 syl, pkm) - analog-capture-tools, ask-seek-knock, attention-economy
-  3. neighbor (56 uses, 9191, 2 syl, general) - associative-linking, break-the-escalation-cycle, christianity-and-politics
-  4. faithful (39 uses, rare, 2 syl, general) - christianity-and-politics, eternal-rewards, faithful-steward
-  5. eternal (52 uses, 7979, 3 syl, general) - analog-capture-tools, assurance, compounding
-  6. drill (51 uses, 7143, 1 syl, general) - active-knowledge-curation, coaching-ethics, complete-the-cycle
-  7. galatians (27 uses, rare, 3 syl, theology) - abide-in-me, faithfulness, fruits-of-the-spirit
-  8. reward (45 uses, 7439, 2 syl, general) - assurance, compounding, discipleship
-  9. tempted (27 uses, rare, 2 syl, general) - associative-linking, atomic-notes, building-a-second-brain
- 10. rollback (27 uses, rare, 2 syl, pkm) - blameless-postmortem, change-window, hierarchy-of-controls
- 11. mercy (41 uses, 8158, 1 syl, theology) - forgiveness, fruits-of-the-spirit, grace
- 12. salvation (32 uses, 9265, 3 syl, theology) - assurance, christianity-and-politics, eternal-rewards
- 13. gentleness (23 uses, rare, 3 syl, theology) - discipleship, faithfulness, fruits-of-the-spirit
- 14. stays (33 uses, 9418, 1 syl, general) - assurance, composure, develop-dont-endanger
- 15. sanctification (20 uses, rare, 5 syl, theology) - abide-in-me, discipleship, faith-and-works
- 16. justification (20 uses, rare, 5 syl, theology) - assurance, faith-and-works, free-grace
- 17. faithfulness (21 uses, rare, 3 syl, theology) - compounding, eternal-rewards, faithful-steward
- 18. patience (23 uses, rare, 2 syl, general) - abide-in-me, discipleship, energy-protects-judgment
- 19. handoff (23 uses, rare, 2 syl, pkm) - client-site-handoff, crdt, drafting-in-public
+  1. obedience (53 uses, rare, 3 syl, theology) — assurance, discipleship, eternal-rewards
+  2. inbox (70 uses, 9080, 2 syl, pkm) — analog-capture-tools, ask-seek-knock, attention-economy
+  3. neighbor (56 uses, 9191, 2 syl, general) — associative-linking, break-the-escalation-cycle, christianity-and-politics
+  4. faithful (39 uses, rare, 2 syl, general) — christianity-and-politics, eternal-rewards, faithful-steward
+  5. eternal (52 uses, 7979, 3 syl, general) — analog-capture-tools, assurance, compounding
+  6. drill (51 uses, 7143, 1 syl, general) — active-knowledge-curation, coaching-ethics, complete-the-cycle
+  7. galatians (27 uses, rare, 3 syl, theology) — abide-in-me, faithfulness, fruits-of-the-spirit
+  8. reward (45 uses, 7439, 2 syl, general) — assurance, compounding, discipleship
+  9. tempted (27 uses, rare, 2 syl, general) — associative-linking, atomic-notes, building-a-second-brain
+ 10. rollback (27 uses, rare, 2 syl, pkm) — blameless-postmortem, change-window, hierarchy-of-controls
+ 11. mercy (41 uses, 8158, 1 syl, theology) — forgiveness, fruits-of-the-spirit, grace
+ 12. salvation (32 uses, 9265, 3 syl, theology) — assurance, christianity-and-politics, eternal-rewards
+ 13. gentleness (23 uses, rare, 3 syl, theology) — discipleship, faithfulness, fruits-of-the-spirit
+ 14. stays (33 uses, 9418, 1 syl, general) — assurance, composure, develop-dont-endanger
+ 15. sanctification (20 uses, rare, 5 syl, theology) — abide-in-me, discipleship, faith-and-works
+ 16. justification (20 uses, rare, 5 syl, theology) — assurance, faith-and-works, free-grace
+ 17. faithfulness (21 uses, rare, 3 syl, theology) — compounding, eternal-rewards, faithful-steward
+ 18. patience (23 uses, rare, 2 syl, general) — abide-in-me, discipleship, energy-protects-judgment
+ 19. handoff (23 uses, rare, 2 syl, pkm) — client-site-handoff, crdt, drafting-in-public
  20. cloudflare (22 uses,
 … (output truncated)
 ```
@@ -2791,7 +2791,7 @@ Below are the **top 100 words most likely to slow a reader down**, grouped by th
 
 **jorap-voice swap candidates** (plain alternatives exist): `deploy` → “push live”, `handoff` → “pass off”, `postmortem` → “after-action review”, `distill` → “boil down”, `metadata` → “tags and fields”, `irreversible` → “can’t undo”, `sustainable` → “keeps working”, `intellectual` → “honest”, `contradicts` → “goes against”, `reconciliation` → “making things right”.
 
-**Keep as topic terms:** Bible book names, `sanctification`/`justification`, `wikilinks`, `evergreen`, `atomic` - they’re the actual subject.
+**Keep as topic terms:** Bible book names, `sanctification`/`justification`, `wikilinks`, `evergreen`, `atomic` — they’re the actual subject.
 
 Want this turned into a flashcard deck, a lint rule that flags these in new notes, or a prioritized rewrite list for the worst offenders?
 
@@ -3079,7 +3079,7 @@ The description mentions flashcards, but ~90% of the guidance is blog-shaped (H2
 | `key_concept` | Spine teaching prose + wikilinks | Nothing |
 | `examples` | Cross-domain scenarios (jeepney, deploy, scrimmage) | Nothing |
 | `relationships.reason` | Short telegraphic clause | Nothing |
-| `cards` | Drill cues | “use flashcards skill” - one line |
+| `cards` | Drill cues | “use flashcards skill” — one line |
 
 Your best notes use a **two-register** pattern the skill never names:
 
@@ -3098,9 +3098,9 @@ Right now an agent could flatten `key_concept` into card-speak, or let theology 
 
 The skill should say:
 
-- **Faith notes:** theology terms OK in `title` / `key_concept` after a plain gloss in the same breath (“declared right with God - justification”)
+- **Faith notes:** theology terms OK in `title` / `key_concept` after a plain gloss in the same breath (“declared right with God — justification”)
 - **PKM notes:** prefer plain verbs (“boil down” over “distill”; “after-action review” over “postmortem” unless the note is *about* that term)
-- **Cards:** always plainest - term only if the back *is* the immediate move
+- **Cards:** always plainest — term only if the back *is* the immediate move
 
 **2. No guidance on the examples pattern**
 
@@ -3124,7 +3124,7 @@ Recurring shape across good notes:
 
 **4. Anti-patterns list is bleeding into the garden**
 
-`strategic-foresight.md` description uses **“landscape”** - literally on the AI-tells list. `grace.md` / `free-grace.md` use **“unmerited favor”** without always pairing plain English.
+`strategic-foresight.md` description uses **“landscape”** — literally on the AI-tells list. `grace.md` / `free-grace.md` use **“unmerited favor”** without always pairing plain English.
 
 The skill catches blog slop well but doesn’t scan notes frontmatter.
 
@@ -3159,13 +3159,13 @@ That prevents the two skills from fighting.
 
 **8. No link to enforcement**
 
-`notes-voice-sanitize.py` only lints em dashes. The skill could say: “If `--check` fails on dashes, fix before commit.” A vocabulary lint doesn’t exist yet - worth a `ponytail:` deferred note or a short “swap candidates” table from your vocab audit.
+`notes-voice-sanitize.py` only lints em dashes. The skill could say: “If `--check` fails on dashes, fix before commit.” A vocabulary lint doesn’t exist yet — worth a `ponytail:` deferred note or a short “swap candidates” table from your vocab audit.
 
 ---
 
 ## Recommended improvements (priority order)
 
-### P0 - Add a “Notes garden” section to `SKILL.md`
+### P0 — Add a “Notes garden” section to `SKILL.md`
 
 Keep it short (~40 lines). Cover:
 
@@ -3174,11 +3174,11 @@ Keep it short (~40 lines). Cover:
 - Topic-term decision tree (faith / PKM / tools)
 - Reference notes by type: faith `free-grace.md`, PKM `capture.md`, ethics `the-golden-rule.md`, systems `blameless-postmortem.md`
 
-### P0 - Extend voice check with a notes block
+### P0 — Extend voice check with a notes block
 
 Six checkboxes (above). One line: “Blog checks below still apply to any prose body.”
 
-### P1 - Add garden examples to `examples.md`
+### P1 — Add garden examples to `examples.md`
 
 At minimum:
 
@@ -3186,9 +3186,9 @@ At minimum:
 - ✅ punch-line `key_concept`
 - ❌ “Strategic foresight is the practice of…” dictionary opener
 - ❌ “landscape” / “unmerited favor” without gloss
-- faith gloss pattern: “God declares me right at faith - that’s justification”
+- faith gloss pattern: “God declares me right at faith — that’s justification”
 
-### P1 - Add a swap table for your actual friction words
+### P1 — Add a swap table for your actual friction words
 
 From the vocab audit, top swap candidates to embed:
 
@@ -3203,33 +3203,33 @@ From the vocab audit, top swap candidates to embed:
 | landscape | what things look like after / what happens next |
 | contradicts | goes against (in `relationships.reason`) |
 
-### P2 - Broaden the description frontmatter
+### P2 — Broaden the description frontmatter
 
 Current: “Write and edit JoRap **blog posts**…”
 
 Suggested: “Write and edit JoRap **blog posts and notes garden prose** (descriptions, key concepts, examples, relationship reasons, flashcard text)…”
 
-### P2 - Optional `notes-voice.md` split
+### P2 — Optional `notes-voice.md` split
 
 If `SKILL.md` gets long, move garden detail to `notes-voice.md` and link from the main skill. Keeps blog agents from loading garden rules they don’t need.
 
-### P3 - Vocabulary lint script
+### P3 — Vocabulary lint script
 
-Small `scripts/notes-voice-lint.py`: flag AI-tells list + top swap candidates in `description`, `key_concept`, `examples`, card text. Run beside `notes-voice-sanitize.py --check`. No new dependency - just a word list.
+Small `scripts/notes-voice-lint.py`: flag AI-tells list + top swap candidates in `description`, `key_concept`, `examples`, card text. Run beside `notes-voice-sanitize.py --check`. No new dependency — just a word list.
 
 ---
 
 ## One structural fix worth making
 
-**`progressive-summarization.md` cards look broken/off-voice** (truncated backs like “sticky on the fridge only when I'm blocking.”). That’s not a skill failure - but the skill should say: *if cards read like sentence fragments or note titles, rewrite per flashcards skill before calling voice done.*
+**`progressive-summarization.md` cards look broken/off-voice** (truncated backs like “sticky on the fridge only when I'm blocking.”). That’s not a skill failure — but the skill should say: *if cards read like sentence fragments or note titles, rewrite per flashcards skill before calling voice done.*
 
 ---
 
 ## Bottom line
 
-Jorap-voice is a solid **blog** skill. It’s underspecified for the **notes garden**, where most of your content and hardest vocabulary actually lives. The highest-leverage upgrade isn’t more anti-AI phrases - it’s documenting the two-register model, the cross-domain examples pattern, and when theology/PKM terms are allowed vs when they need a plain gloss.
+Jorap-voice is a solid **blog** skill. It’s underspecified for the **notes garden**, where most of your content and hardest vocabulary actually lives. The highest-leverage upgrade isn’t more anti-AI phrases — it’s documenting the two-register model, the cross-domain examples pattern, and when theology/PKM terms are allowed vs when they need a plain gloss.
 
-I can draft the `SKILL.md` + `examples.md` patches, or start with the vocabulary lint script - say which you want first.
+I can draft the `SKILL.md` + `examples.md` patches, or start with the vocabulary lint script — say which you want first.
 
 ---
 
@@ -3419,11 +3419,11 @@ cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/notes-voice-lint.py
 ```
 notes-voice-lint self-check OK
 Voice lint warnings:
-  content/english/notes/free-grace.md: key_concept: `unmerited favor` - add plain gloss (e.g. gift you didn't earn)
-  content/english/notes/grace.md: meta_title: `Unmerited Favor` - add plain gloss (e.g. gift you didn't earn)
-  content/english/notes/grace.md: description: `unmerited favor` - add plain gloss (e.g. gift you didn't earn)
-  content/english/notes/grace.md: aliases[0]: `unmerited favor` - add plain gloss (e.g. gift you didn't earn)
-  content/english/notes/grateful-obedience.md: relationships.reason: `Unmerited favor` - add plain gloss (e.g. gift you didn't earn)
+  content/english/notes/free-grace.md: key_concept: `unmerited favor` — add plain gloss (e.g. gift you didn't earn)
+  content/english/notes/grace.md: meta_title: `Unmerited Favor` — add plain gloss (e.g. gift you didn't earn)
+  content/english/notes/grace.md: description: `unmerited favor` — add plain gloss (e.g. gift you didn't earn)
+  content/english/notes/grace.md: aliases[0]: `unmerited favor` — add plain gloss (e.g. gift you didn't earn)
+  content/english/notes/grateful-obedience.md: relationships.reason: `Unmerited favor` — add plain gloss (e.g. gift you didn't earn)
   content/english/notes/judge-not.md: relationships.reason: AI-tell word `elevate`
   content/english/blog/power-of-the-mouse-wheel-click.md: body: AI-tell word `navigate`
   content/english/blog/power-of-the-mouse-wheel-click.md: body: AI-tell word `navigate`
@@ -3537,7 +3537,7 @@ cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/notes-voice-lint.py
 
 ```
 Voice lint warnings:
-  content/english/notes/grateful-obedience.md: relationships.reason: `Unmerited favor` - add plain gloss (e.g. gift you didn't earn)
+  content/english/notes/grateful-obedience.md: relationships.reason: `Unmerited favor` — add plain gloss (e.g. gift you didn't earn)
   content/english/blog/power-of-the-mouse-wheel-click.md: body: AI-tell word `navigate`
   content/english/blog/power-of-the-mouse-wheel-click.md: body: AI-tell word `navigate`
 exit:1
@@ -3725,7 +3725,7 @@ Implemented. Here's what changed:
 - Flags `unmerited favor` without a nearby plain gloss (`earned`, `gift`, etc.)
 - Self-check: `python3 scripts/notes-voice-lint.py --self-check`
 
-**`package.json`** - `lint:voice` now runs dash lint + vocabulary lint
+**`package.json`** — `lint:voice` now runs dash lint + vocabulary lint
 
 ## Content fixes (aligned with new rules)
 
@@ -3737,7 +3737,7 @@ Implemented. Here's what changed:
 | `judge-not.md` | `elevate` → `lift myself up` |
 | `grateful-obedience.md` | Plain relationship reason |
 
-`notes-voice-lint.py --check` passes on the garden. Full `lint:voice` still fails on a pre-existing em dash in `__blog-template.md` - unrelated to this batch.
+`notes-voice-lint.py --check` passes on the garden. Full `lint:voice` still fails on a pre-existing em dash in `__blog-template.md` — unrelated to this batch.
 
 Want me to sweep more notes for `unmerited favor` / truncated card backs next, or fix the template dash so `lint:voice` goes green?
 
@@ -3757,7 +3757,7 @@ The user wants all cards polished, but they are not referring to flashcards.
 
 _**Agent (auto-low)**_
 
-The user means UI note cards, not flashcard content - I'll find where those are rendered and what needs polishing.
+The user means UI note cards, not flashcard content — I'll find where those are rendered and what needs polishing.
 
 
 _**Agent (auto-low)**_
@@ -4170,7 +4170,7 @@ The user wants all cards polished. They clarified this does not involve flashcar
 
 This likely refers to UI note cards or card blurbs rather than flashcards.
 
-Polishing likely targets the card blurb text-first lines from key_concept or description fields-across all notes so they display cleanly on the UI.
+Polishing likely targets the card blurb text—first lines from key_concept or description fields—across all notes so they display cleanly on the UI.
 
 The note-blurb component only renders the first line of key_concept. Raw wikilinks may still appear on cards. Long blurbs and dictionary definitions also need review.
 </details></think>
@@ -5014,34 +5014,34 @@ _**Agent (auto-low)**_
 
 _**Agent (auto-low)**_
 
-Polished **note cards** (browse/related/backlinks UI) - not flashcard `cards:` content.
+Polished **note cards** (browse/related/backlinks UI) — not flashcard `cards:` content.
 
 ## Display layer
 
-**`note-blurb.html`** - Smarter one-liner selection:
+**`note-blurb.html`** — Smarter one-liner selection:
 - Scores first 4 `key_concept` lines + `description`
 - Strips wikilinks, markdown, bold
 - Skips table rows and headings
 - Prefers short punch lines over dictionary openers (`"X is…"`)
 - Truncates at ~120 chars
 
-**`note-card.html`** - Visual polish:
+**`note-card.html`** — Visual polish:
 - `rounded-xl`, `shadow-sm`, hover shadow (aligned with blog cards)
 - BEM classes (`notes-card__title`, `__body`, `__overlay`, `__tags`)
 - 3-line clamp on body text
 - “Shared:” label on related-note cards
 
-**`note-link-card.html`** - Auto-injects blurb on outgoing links, see-also, and backlinks (title-only before)
+**`note-link-card.html`** — Auto-injects blurb on outgoing links, see-also, and backlinks (title-only before)
 
-**`backlinks.html`** - Anchor rows use `note-blurb` instead of raw `description`
+**`backlinks.html`** — Anchor rows use `note-blurb` instead of raw `description`
 
-**`list.html`** - Search index includes card blurb text
+**`list.html`** — Search index includes card blurb text
 
 ## Content layer
 
-**`scripts/polish-note-card-blurbs.py`** - Reordered weak opening `key_concept` lines when a better line already existed in the note (66 notes updated). Example:
+**`scripts/polish-note-card-blurbs.py`** — Reordered weak opening `key_concept` lines when a better line already existed in the note (66 notes updated). Example:
 
-- `adaptability`: punch line moved to top - *“Keep the goal, swap the method when the ground moves.”*
+- `adaptability`: punch line moved to top — *“Keep the goal, swap the method when the ground moves.”*
 - `fruits-of-the-spirit`: added short card opener before the long Paul contrast
 
 Hugo build passes. Cards on `/notes/`, blog Related Notes, note single pages (outgoing / see also / backlinks) should all show consistent blurbs now.

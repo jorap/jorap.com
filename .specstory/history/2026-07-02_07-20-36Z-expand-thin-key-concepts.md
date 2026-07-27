@@ -208,7 +208,7 @@ notice-the-good.md will also move from a single line to a fuller key_concept.
 
 _**Agent (auto-low)**_
 
-Expanding each thin `key_concept` with punchy openings, angle/stakes, and wikilinks-matching reference notes like `capture.md`.
+Expanding each thin `key_concept` with punchy openings, angle/stakes, and wikilinks—matching reference notes like `capture.md`.
 
 
 _**Agent (auto-low)**_
@@ -379,7 +379,7 @@ Parameters:
 {
   "caseInsensitive": false,
   "glob": "content/english/notes/{associative-linking,digital-minimalism,emotional-regulation,evergreen-vs-fleeting-notes,expect-the-counter,growth-mindset,gtd-vs-para,listen-before-fixing,mobile-capture-workflows,name-the-feeling,notice-the-good,periodic-knowledge-review,process-over-outcomes,set-calm-boundaries,slow-productivity}.md",
-  "pattern": "-|delve|landscape|leverage|robust|seamless|navigate|harness|comprehensive|crucial|vital|essential"
+  "pattern": "—|delve|landscape|leverage|robust|seamless|navigate|harness|comprehensive|crucial|vital|essential"
 }
 ```
 Additional data:
@@ -388,7 +388,7 @@ Additional data:
 {
   "isPruned": true,
   "outputMode": "content",
-  "pattern": "-|delve|landscape|leverage|robust|seamless|navigate|harness|comprehensive|crucial|vital|essential",
+  "pattern": "—|delve|landscape|leverage|robust|seamless|navigate|harness|comprehensive|crucial|vital|essential",
   "topFiles": [],
   "totalFiles": 0,
   "totalMatches": 0

@@ -141,7 +141,7 @@ The user requested an impeccable critique but did not specify a target. I need t
 
 _**Agent (default)**_
 
-No target was specified - defaulting to the homepage from the prior critique and gathering source files for both assessments.
+No target was specified — defaulting to the homepage from the prior critique and gathering source files for both assessments.
 
 
 _**Agent (default)**_
@@ -204,7 +204,7 @@ The user ran `/impeccable critique` without providing a target.
 
 _**Agent (default)**_
 
-Running both assessments on the homepage (`themes/jorap/layouts/home.html`) - reading source and launching the detector scan.
+Running both assessments on the homepage (`themes/jorap/layouts/home.html`) — reading source and launching the detector scan.
 
 
 _**Agent (default)**_
@@ -1094,19 +1094,19 @@ _**Agent (default)**_
 
 _**Agent (default)**_
 
-**Target:** `themes/jorap/layouts/home.html` (no target specified - critiquing the homepage, consistent with your last run)
+**Target:** `themes/jorap/layouts/home.html` (no target specified — critiquing the homepage, consistent with your last run)
 
 ---
 
 ## Anti-Patterns Verdict
 
-**Does this look AI-generated? Moderate yes - copy is human; structure still template-shaped.**
+**Does this look AI-generated? Moderate yes — copy is human; structure still template-shaped.**
 
-**LLM assessment:** The writing passes the slop test. "Usually on the same project" and the 2013 freelancing anchor sound edited by a person. The layout does not: hero → two-column `<dl>` blocks → blog grid is Hugoplate starter geometry with renamed section titles. Scope and proof use the same markup and tell overlapping stories. Five identical blog-card shells with matching "Read more" buttons create visual sameness. "Quiet Study" (warm paper, Inter-only, elevated cards) is competent editorial restraint - a second-order training-data lane - not a distinctive POV.
+**LLM assessment:** The writing passes the slop test. "Usually on the same project" and the 2013 freelancing anchor sound edited by a person. The layout does not: hero → two-column `<dl>` blocks → blog grid is Hugoplate starter geometry with renamed section titles. Scope and proof use the same markup and tell overlapping stories. Five identical blog-card shells with matching "Read more" buttons create visual sameness. "Quiet Study" (warm paper, Inter-only, elevated cards) is competent editorial restraint — a second-order training-data lane — not a distinctive POV.
 
-**Deterministic scan:** Homepage markup - **0 findings**. Broader theme scan - **12 findings**, all outside `home-*` partials (Hugo template false positives, vendored Swiper, Spotify shortcodes).
+**Deterministic scan:** Homepage markup — **0 findings**. Broader theme scan — **12 findings**, all outside `home-*` partials (Hugo template false positives, vendored Swiper, Spotify shortcodes).
 
-**Browser visualization:** Not available - no browser automation MCP, no live config. No overlay to inspect.
+**Browser visualization:** Not available — no browser automation MCP, no live config. No overlay to inspect.
 
 ---
 
@@ -1139,7 +1139,7 @@ The homepage reads as a professional speaking to clients, not a raw blog index. 
 
 ## What's Working
 
-1. **The lede's closing clause is genuinely differentiated.** "Web development, technical support, and training - usually on the same project" is the strongest sentence on the page.
+1. **The lede's closing clause is genuinely differentiated.** "Web development, technical support, and training — usually on the same project" is the strongest sentence on the page.
 
 2. **Hierarchy repair holds.** Jonathan Rapusas is h1; Selected Posts is h2; cards are h3. Person before archive.
 
@@ -1150,7 +1150,7 @@ The homepage reads as a professional speaking to clients, not a raw blog index. 
 ## Priority Issues
 
 **[P0] Scope + proof are the same story twice**
-- **Why:** A client skimming both columns sees padding, not clarity - trust dip while you're selling judgment.
+- **Why:** A client skimming both columns sees padding, not clarity — trust dip while you're selling judgment.
 - **Fix:** Merge into one section, or replace proof with hard evidence (client quote, outcome, logo strip).
 - **Command:** `/impeccable distill themes/jorap/layouts/home.html`
 
@@ -1159,7 +1159,7 @@ The homepage reads as a professional speaking to clients, not a raw blog index. 
 - **Fix:** Curate toward client problems; demote peer-content on the homepage.
 - **Command:** `/impeccable clarify config/_default/params.toml`
 
-**[P1] "JoRap Notes" vs "Jonathan Rapusas" - dual identity**
+**[P1] "JoRap Notes" vs "Jonathan Rapusas" — dual identity**
 - **Why:** Header, `<title>`, and `title_suffix` say product; hero says person.
 - **Fix:** Person as primary marketing identity; "JoRap Notes" as subbrand on `/notes/`.
 - **Command:** `/impeccable clarify layouts/_partials/essentials/header.html`
@@ -1178,9 +1178,9 @@ The homepage reads as a professional speaking to clients, not a raw blog index. 
 
 ## Persona Red Flags
 
-**Jordan (potential client):** "Jonathan Rapusas" in hero vs "JoRap Notes" in tab/header - immediate brand confusion. Two similar bullet columns don't answer "can you do my project?" vs "why trust you?" Post titles like "Hugoplate Theme Review" read as insider blog.
+**Jordan (potential client):** "Jonathan Rapusas" in hero vs "JoRap Notes" in tab/header — immediate brand confusion. Two similar bullet columns don't answer "can you do my project?" vs "why trust you?" Post titles like "Hugoplate Theme Review" read as insider blog.
 
-**Morgan (VP evaluating a consultant):** Hero passes the stakeholder-room test. Then scope and proof both list WordPress/Hugo/migrations - résumé padding, not outcomes. No client names, no metrics. Would bookmark, not email.
+**Morgan (VP evaluating a consultant):** Hero passes the stakeholder-room test. Then scope and proof both list WordPress/Hugo/migrations — résumé padding, not outcomes. No client names, no metrics. Would bookmark, not email.
 
 **Sam (accessibility-dependent):** No skip link in source `baseof.html`. Theme switcher improved (`role="switch"`, `aria-checked`) but no `aria-live` on mode change.
 
@@ -1190,7 +1190,7 @@ The homepage reads as a professional speaking to clients, not a raw blog index. 
 
 - `heading-title-case` on h2s feels slightly formal for JoRap voice.
 - Featured card (8-col) vs siblings (4-col) is good hierarchy; four smaller cards still feel uniform after the calm hero.
-- Duplicate "Get in touch" in hero + nav - fine for recognition, slightly redundant visually.
+- Duplicate "Get in touch" in hero + nav — fine for recognition, slightly redundant visually.
 
 ---
 
@@ -1232,15 +1232,15 @@ _**Agent (default)**_
 
 ## Action Summary
 
-Top 3 only - P0 + both P1s, in impact order:
+Top 3 only — P0 + both P1s, in impact order:
 
-1. **`/impeccable distill themes/jorap/layouts/home.html`** - Merge or restructure scope + proof so you're not telling the same capability story twice. Either one combined section, or proof becomes evidence (quote/outcome) instead of a second `<dl>` of skills.
+1. **`/impeccable distill themes/jorap/layouts/home.html`** — Merge or restructure scope + proof so you're not telling the same capability story twice. Either one combined section, or proof becomes evidence (quote/outcome) instead of a second `<dl>` of skills.
 
-2. **`/impeccable clarify config/_default/params.toml`** - Re-curate `home_blog.post_slugs` toward buyer-relevant posts (migrations, hiring a freelancer, owning your site). Demote build logs and theme reviews from the homepage grid.
+2. **`/impeccable clarify config/_default/params.toml`** — Re-curate `home_blog.post_slugs` toward buyer-relevant posts (migrations, hiring a freelancer, owning your site). Demote build logs and theme reviews from the homepage grid.
 
-3. **`/impeccable clarify layouts/_partials/essentials/header.html`** - Resolve the identity split: person-first in the marketing shell (header brand line, logo alt), "JoRap Notes" demoted to subbrand on `/notes/` and in meta where appropriate.
+3. **`/impeccable clarify layouts/_partials/essentials/header.html`** — Resolve the identity split: person-first in the marketing shell (header brand line, logo alt), "JoRap Notes" demoted to subbrand on `/notes/` and in meta where appropriate.
 
-4. **`/impeccable polish themes/jorap/layouts/home.html`** - Final pass after the three fixes: spacing rhythm, section transitions, and consistency check so the distilled structure doesn't feel patched.
+4. **`/impeccable polish themes/jorap/layouts/home.html`** — Final pass after the three fixes: spacing rhythm, section transitions, and consistency check so the distilled structure doesn't feel patched.
 
 **Deferred (P2, out of scope for now):** skip link + `#main` landmark, social proof in home-proof.
 
@@ -1659,28 +1659,28 @@ Team training
 
 _**Agent (default)**_
 
-**Step 1 done: `/impeccable distill`** - scope + proof merged.
+**Step 1 done: `/impeccable distill`** — scope + proof merged.
 
 ### What changed
 
 **Removed the duplicate column.** The two-column grid (`Work I Take On` | `What You Actually Get`) is gone. One section now carries the capability story.
 
-**Single "Work I Take On" section** - centered, `max-w-3xl`, aligned with the hero:
+**Single "Work I Take On" section** — centered, `max-w-3xl`, aligned with the hero:
 
 1. Hosting, sites & email  
 2. WordPress & static sites  
 3. Migrations & upkeep  
-4. Team training *(moved from proof - the only item scope didn't already cover)*
+4. Team training *(moved from proof — the only item scope didn't already cover)*
 
 **Proof disabled, not deleted.** `[home_proof] enable = false` in `params.toml`; `home-proof.html` stays for when you add real social proof (P2).
 
-**Layout:** `home.html` is a linear flow - intro → one bordered scope block → writing grid.
+**Layout:** `home.html` is a linear flow — intro → one bordered scope block → writing grid.
 
 Hugo build passes. Verified in output: "Work I Take On" and "Team training" present; "What You Actually Get" gone.
 
 ---
 
-**Next (when you're ready):** `/impeccable clarify config/_default/params.toml` - re-curate homepage blog slugs toward buyer-relevant posts.
+**Next (when you're ready):** `/impeccable clarify config/_default/params.toml` — re-curate homepage blog slugs toward buyer-relevant posts.
 
 Say the word and I'll run step 2.
 
@@ -2558,7 +2558,7 @@ Four cards remain. Developer posts are gone. Facebook and three buyer posts are 
 
 _**Agent (default)**_
 
-**Step 2 done: `/impeccable clarify`** - homepage blog curation and framing updated.
+**Step 2 done: `/impeccable clarify`** — homepage blog curation and framing updated.
 
 ### Copy changes
 
@@ -2569,10 +2569,10 @@ _**Agent (default)**_
 
 ### New curation (4 posts)
 
-1. **Top Reasons to Create and Maintain Your Own Website** - featured; the clearest buyer entry point  
-2. **Consistent AI Output for WordPress Builds** - one WordPress credibility piece (client-facing process, not theme nerdery)  
-3. **Top Reasons Why You Still Need a Desktop or Laptop** - practical advice for people running a business  
-4. **Facebook's Hidden Gem: The Favorites Feed** - platform dependence / algorithm control; pairs with the "own your site" argument  
+1. **Top Reasons to Create and Maintain Your Own Website** — featured; the clearest buyer entry point  
+2. **Consistent AI Output for WordPress Builds** — one WordPress credibility piece (client-facing process, not theme nerdery)  
+3. **Top Reasons Why You Still Need a Desktop or Laptop** — practical advice for people running a business  
+4. **Facebook's Hidden Gem: The Favorites Feed** — platform dependence / algorithm control; pairs with the "own your site" argument  
 
 ### Removed from homepage
 
@@ -2584,7 +2584,7 @@ Build verified: 4 cards, dev peer titles gone.
 
 ---
 
-**Next (step 3):** `/impeccable clarify layouts/_partials/essentials/header.html` - resolve "JoRap Notes" vs "Jonathan Rapusas" in the marketing shell.
+**Next (step 3):** `/impeccable clarify layouts/_partials/essentials/header.html` — resolve "JoRap Notes" vs "Jonathan Rapusas" in the marketing shell.
 
 Say when to run it.
 
@@ -2699,7 +2699,7 @@ The fallback now searches by file translation base name. Renaming the frontmatte
 
 _**Agent (default)**_
 
-RSS still isn't resolving via `GetPage` - fixing the lookup in `home-writing.html`.
+RSS still isn't resolving via `GetPage` — fixing the lookup in `home-writing.html`.
 
 
 _**Agent (default)**_
@@ -2787,7 +2787,7 @@ Hugo templates cannot reassign variables inside loops. The fallback lookup will 
 
 _**Agent (default)**_
 
-GetPage fails when the frontmatter slug differs from the filename - adding a fallback lookup in `home-writing.html`.
+GetPage fails when the frontmatter slug differs from the filename — adding a fallback lookup in `home-writing.html`.
 
 
 _**Agent (default)**_
@@ -2823,8 +2823,8 @@ _**Agent (default)**_
 
 Added **Getting Started with RSS Feeds** to the homepage grid and fixed why it wasn't showing.
 
-**`params.toml`** - swapped the Facebook post for `getting-started-with-rss-feeds-a-beginners-guide` (the slug from that post's frontmatter).
+**`params.toml`** — swapped the Facebook post for `getting-started-with-rss-feeds-a-beginners-guide` (the slug from that post's frontmatter).
 
-**`home-writing.html`** - `site.GetPage` was failing when frontmatter `slug` didn't match what GetPage expected (this file: filename `…-beginners-guide`, slug `…-a-beginners-guide`). Added fallbacks via `Params.slug` and a path without the leading slash.
+**`home-writing.html`** — `site.GetPage` was failing when frontmatter `slug` didn't match what GetPage expected (this file: filename `…-beginners-guide`, slug `…-a-beginners-guide`). Added fallbacks via `Params.slug` and a path without the leading slash.
 
 Homepage now has 4 cards; RSS is included. Build verified.

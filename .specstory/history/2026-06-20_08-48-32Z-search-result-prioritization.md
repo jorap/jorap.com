@@ -884,8 +884,8 @@ Search results now rank **title matches first**, then **body-only matches**.
 
 I added a local override at `assets/js/search.js` (same pattern as `gallery-slider.js`) so the vendored Hugo search module isn’t edited directly. Results are sorted within each section group:
 
-1. **Title match** - query appears in the note title  
-2. **Body match** - query appears only in content  
-3. **Other** - description, keywords, tags, or categories only
+1. **Title match** — query appears in the note title  
+2. **Body match** — query appears only in content  
+3. **Other** — description, keywords, tags, or categories only
 
 The sorting applies to both the displayed results and keyboard navigation (↑/↓). Rebuild or refresh the dev server to pick it up.

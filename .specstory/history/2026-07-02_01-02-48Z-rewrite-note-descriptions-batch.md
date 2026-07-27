@@ -603,7 +603,7 @@ for stem in files:
         return &#39; &#39;.join(s.split())
     if norm(desc) == norm(first):
         issues.append((stem, &#39;duplicates key_concept line 1&#39;, desc, first))
-    if &#39;-&#39; in desc or &#39;–&#39; in desc:
+    if &#39;—&#39; in desc or &#39;–&#39; in desc:
         issues.append((stem, &#39;em/en dash&#39;, desc))
     if re.search(r&#39;\([A-Za-z]+ \d&#39;, desc):
         issues.append((stem, &#39;possible verse ref&#39;, desc))
@@ -638,7 +638,7 @@ for stem in files:
         return ' '.join(s.split())
     if norm(desc) == norm(first):
         issues.append((stem, 'duplicates key_concept line 1', desc, first))
-    if '-' in desc or '–' in desc:
+    if '—' in desc or '–' in desc:
         issues.append((stem, 'em/en dash', desc))
     if re.search(r'\([A-Za-z]+ \d', desc):
         issues.append((stem, 'possible verse ref', desc))
@@ -667,7 +667,7 @@ _**Agent (auto-low)**_
 **53 files updated** with fresh one-breath `description` hooks in JoRap voice (first person where natural, plain words, no verse refs, no em dashes, no duplication of `key_concept` line 1).
 
 **2 files skipped** (not in the directory):
-- `gentle.md` - file not found
-- `frictionless-capture.md` - file not found
+- `gentle.md` — file not found
+- `frictionless-capture.md` — file not found
 
 All updates used `split_frontmatter` / `dump_frontmatter` from `scripts/notes_content.py` to preserve frontmatter formatting. A quick validation pass found no em dashes, verse refs, or first-line `key_concept` duplicates in the new descriptions.

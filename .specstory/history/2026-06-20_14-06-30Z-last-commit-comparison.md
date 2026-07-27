@@ -239,7 +239,7 @@ _**Agent (default)**_
 
 _**Agent (default)**_
 
-**Last commit:** `e125acb` - "Updates"
+**Last commit:** `e125acb` — "Updates"
 
 **Current vs HEAD:** 31 tracked files changed (+763 / −282 lines). 8 untracked files not included in that diff.
 
@@ -268,8 +268,8 @@ References updated across README, scripts, skills, toolbar, review/random layout
 - “Show more” pagination (24 at a time)
 
 **New partials:**
-- `filter-set-button.html` - reusable filter chip
-- `sort-sets-by-count.html` - sort sets by card count
+- `filter-set-button.html` — reusable filter chip
+- `sort-sets-by-count.html` — sort sets by card count
 
 **JS** (`notes-cards.js`): search, pagination, toggle filter on/off, dynamic stats, empty states.
 
@@ -312,8 +312,8 @@ References updated across README, scripts, skills, toolbar, review/random layout
 
 ## Minor / housekeeping
 
-- `.specstory/statistics.json` - chat session stats
-- `data/noteFileDates.json` - date bumps
+- `.specstory/statistics.json` — chat session stats
+- `data/noteFileDates.json` — date bumps
 - `graph.md` title shortened to “Graph”
 - Script path updates (`cards` → `flashcards` in lint/export/voice scripts)
 
@@ -557,9 +557,9 @@ index 836002f..139b1cd 100644
  #### Development vs Production
 -- **Development**: `npm run dev` - rebuilds on every change
 -- **Production**: `npm run build` - optimized for deployment
-+- **Development**: `npm run dev` (or `npm run watch`) - fast rebuilds with Hugo Fast Render
-+- **Production preview**: `npm run preview` - minified, production env, full rebuilds (before deploy)
-+- **Production build**: `npm run build` - optimized static output for deployment
++- **Development**: `npm run dev` (or `npm run watch`) — fast rebuilds with Hugo Fast Render
++- **Production preview**: `npm run preview` — minified, production env, full rebuilds (before deploy)
++- **Production build**: `npm run build` — optimized static output for deployment
  
  ---
  
@@ -571,7 +571,7 @@ index 836002f..139b1cd 100644
 -npm run dev                 # Start development server
 -npm run preview            # Preview production build
 -npm run watch              # Watch mode with minification
-+# Development (fast - daily editing)
++# Development (fast — daily editing)
 +npm run dev                 # Fast watch + live reload (default)
 +npm run watch               # Alias for npm run dev
 +npm run preview             # Production-like preview (slower, minified)
@@ -585,7 +585,7 @@ index 5e1bfa8..db80781 100644
 +++ b/archetypes/notes.md
 @@ -17,4 +17,4 @@ draft: true
  
- **{{ replace .Name "-" " " | title }}** - one idea, stated plainly. If you need `and` or a second heading, split into another note and link it with `[[wikilinks]]`.
+ **{{ replace .Name "-" " " | title }}** — one idea, stated plainly. If you need `and` or a second heading, split into another note and link it with `[[wikilinks]]`.
  
 -For habit spine notes (`review: true`), copy the frontmatter pattern from [/notes/cards/](/notes/cards/) or run `hugo new content/english/notes/my-note.md --kind notes-review`. Rules: double-quote every `front`, `back`, and set name; inline `card_sets: ["Set"]`; block list for `cards`; put `draft` last; do not add `| JoRap Notes` to `meta_title`. Don't `[[wikilink]]` utility pages (Graph, Issues, Flashcards, Review, Random D
 … (output truncated)

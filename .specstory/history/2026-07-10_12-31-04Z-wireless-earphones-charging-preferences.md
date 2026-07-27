@@ -784,14 +784,14 @@ _**Agent (auto-low)**_
 
 Noted. I removed currency from the earphones post and baked the rule into `jorap-voice` so future drafts skip dollar/peso amounts.
 
-**Earphones post** - swapped `$150`, `$30–$60`, and `~$50` for relative terms: "expensive bud", "budget tier", "priced like budget gear, not premium".
+**Earphones post** — swapped `$150`, `$30–$60`, and `~$50` for relative terms: "expensive bud", "budget tier", "priced like budget gear, not premium".
 
 **Other published posts** cleaned the same way:
-- `how-i-built-jorap-notes.md` - hosting/domain amounts
-- `power-of-the-mouse-wheel-click.md` - mouse price range
-- `hugoplate-theme-review.md` - `$0`
-- `top-reasons-create-maintain-your-own-website.md` - "twelve dollars a year"
+- `how-i-built-jorap-notes.md` — hosting/domain amounts
+- `power-of-the-mouse-wheel-click.md` — mouse price range
+- `hugoplate-theme-review.md` — `$0`
+- `top-reasons-create-maintain-your-own-website.md` — "twelve dollars a year"
 
-**`jorap-voice` skill** - now says no currency values; use terms like budget, premium, cheap, annual renewal instead.
+**`jorap-voice` skill** — now says no currency values; use terms like budget, premium, cheap, annual renewal instead.
 
 Left alone: draft `__selling-static-sites.md` (it's about quoting and line items) and `__blog-template.md` (demo table placeholders). Say if you want those adjusted too.

@@ -908,7 +908,7 @@ HUGO_VERSION and NODE_VERSION belong in the Cloudflare dashboard build environme
 
 _**Agent (default)**_
 
-Removing build-tool version vars from `wrangler.toml` - they belong in the dashboard, not runtime function vars.
+Removing build-tool version vars from `wrangler.toml` — they belong in the dashboard, not runtime function vars.
 
 
 _**Agent (default)**_
@@ -944,17 +944,17 @@ _**Agent (default)**_
 Deployment builds are now unified across platforms. Here’s what changed and what to do on Cloudflare.
 
 ### Root issues
-- **Version drift** - Hugo was pinned at 0.141.0–0.146.5 in CI while local uses **0.163.2**
-- **Wrong build steps** - Netlify/GitLab ran `project-setup` (only needed for fresh Hugoplate theme conversion)
-- **Incomplete builds** - Cloudflare docs still suggested bare `hugo`, which skips theme generation, note dates, and CSP hashing
-- **Package manager mismatch** - GitLab used `npm` while the repo uses `pnpm`
+- **Version drift** — Hugo was pinned at 0.141.0–0.146.5 in CI while local uses **0.163.2**
+- **Wrong build steps** — Netlify/GitLab ran `project-setup` (only needed for fresh Hugoplate theme conversion)
+- **Incomplete builds** — Cloudflare docs still suggested bare `hugo`, which skips theme generation, note dates, and CSP hashing
+- **Package manager mismatch** — GitLab used `npm` while the repo uses `pnpm`
 
 ### What was added
-- **`scripts/deployBuild.mjs`** - single production build entry (theme CSS → note dates → Hugo → CSP hashes)
-- **`scripts/deploy-versions.json`** - canonical pins: Hugo 0.163.2, Node 22, Go 1.24.2, pnpm 11.7.0
-- **`pnpm run deploy`** / **`npm run deploy`** - same pipeline as `build`, for CI
-- **`wrangler.toml`** - Cloudflare Pages output dir (`public`)
-- **`.node-version`** - Node 22 for host auto-detection
+- **`scripts/deployBuild.mjs`** — single production build entry (theme CSS → note dates → Hugo → CSP hashes)
+- **`scripts/deploy-versions.json`** — canonical pins: Hugo 0.163.2, Node 22, Go 1.24.2, pnpm 11.7.0
+- **`pnpm run deploy`** / **`npm run deploy`** — same pipeline as `build`, for CI
+- **`wrangler.toml`** — Cloudflare Pages output dir (`public`)
+- **`.node-version`** — Node 22 for host auto-detection
 
 ### Config updates
 | Target | Build command | Notes |
@@ -971,7 +971,7 @@ In the Cloudflare dashboard, set:
 - **Output directory:** `public`
 - **Environment variables:** `HUGO_VERSION=0.163.2`, `GO_VERSION=1.24.2`, `NODE_VERSION=22`
 
-Both `pnpm run deploy` and `npm run deploy` were verified locally - 1563 pages, ~10s build time.
+Both `pnpm run deploy` and `npm run deploy` were verified locally — 1563 pages, ~10s build time.
 
 ---
 
@@ -1274,7 +1274,7 @@ Wrangler `pages dev` serves the directory and defaults to port 8788. Adding it a
 
 _**Agent (default)**_
 
-Local deployment wasn't covered - `preview` uses Hugo's dev server and skips CSP hashing. Adding scripts to build and serve `public/` the same way Cloudflare does (headers + Functions).
+Local deployment wasn't covered — `preview` uses Hugo's dev server and skips CSP hashing. Adding scripts to build and serve `public/` the same way Cloudflare does (headers + Functions).
 
 
 _**Agent (default)**_
@@ -1450,16 +1450,16 @@ Testing serve locally is complicated by wrangler's network dependency for npx.
 
 _**Agent (default)**_
 
-Good catch - the CI work didn’t cover a true **local production preview**. Here’s how it fits together now.
+Good catch — the CI work didn’t cover a true **local production preview**. Here’s how it fits together now.
 
 ### Three local modes
 
 | Command | What it does | Matches production deploy? |
 |---------|--------------|------------------------------|
-| `pnpm dev` | Live Hugo dev server, drafts on | No - fast iteration |
-| `pnpm preview` | Hugo server in production mode, live reload | Partial - skips CSP hashing |
-| **`pnpm run deploy`** | Full build → `public/` | **Yes - same as Cloudflare/Netlify** |
-| **`pnpm run preview:prod`** | `deploy` + local server | **Yes - closest to live site** |
+| `pnpm dev` | Live Hugo dev server, drafts on | No — fast iteration |
+| `pnpm preview` | Hugo server in production mode, live reload | Partial — skips CSP hashing |
+| **`pnpm run deploy`** | Full build → `public/` | **Yes — same as Cloudflare/Netlify** |
+| **`pnpm run preview:prod`** | `deploy` + local server | **Yes — closest to live site** |
 | **`pnpm run serve`** | Serves existing `public/` | Yes (if you already built) |
 
 ### Local production preview
@@ -1492,11 +1492,11 @@ Wrangler reads `.dev.vars` automatically when serving locally.
 
 ### Toolchain
 
-Local builds use whatever `mise` gives you (`.mise.toml`: Hugo 0.163.2, Node 22). `deployBuild.mjs` warns if Hugo doesn’t match the pinned version but still builds - useful when you’re slightly ahead/behind.
+Local builds use whatever `mise` gives you (`.mise.toml`: Hugo 0.163.2, Node 22). `deployBuild.mjs` warns if Hugo doesn’t match the pinned version but still builds — useful when you’re slightly ahead/behind.
 
 ### What didn’t change
 
-`pnpm preview` is still the right tool for **editing** - it rebuilds on save and is much faster than a full deploy cycle. Use `preview:prod` when you want to verify headers, CSP, and Functions before pushing.
+`pnpm preview` is still the right tool for **editing** — it rebuilds on save and is much faster than a full deploy cycle. Use `preview:prod` when you want to verify headers, CSP, and Functions before pushing.
 
 I also added a **“Preview production build”** task in `.vscode/tasks.json` if you prefer running it from the IDE.
 
@@ -1718,19 +1718,19 @@ Local deploy/build scripts are now cross-platform. Changes:
 
 ### Cross-platform fixes
 
-1. **`scripts/spawnUtil.mjs`** - shared helpers for macOS, Linux, and Windows:
+1. **`scripts/spawnUtil.mjs`** — shared helpers for macOS, Linux, and Windows:
    - Uses `process.execPath` instead of `"node"` (works when Node isn’t on PATH)
    - Resolves `node_modules/.bin` with `.cmd` / `.ps1` on Windows
    - Enables `shell` when spawning `.cmd` / `.bat` shims
 
-2. **`scripts/fix-tailwind-bin.js`** - Windows symlink fallback:
+2. **`scripts/fix-tailwind-bin.js`** — Windows symlink fallback:
    - macOS/Linux: symlink to `@tailwindcss/cli/dist/index.mjs` (unchanged)
    - Windows: copies `index.mjs` when symlinks fail (no Developer Mode / admin)
    - Skips re-fixing when the copy is already in place
 
-3. **`scripts/previewProd.mjs`** - chains build + serve in Node instead of `&&`, so behavior matches on Windows cmd, PowerShell, and Unix shells
+3. **`scripts/previewProd.mjs`** — chains build + serve in Node instead of `&&`, so behavior matches on Windows cmd, PowerShell, and Unix shells
 
-4. **`deployBuild.mjs` / `servePublic.mjs`** - use the shared spawn helpers for Hugo, wrangler, and npx
+4. **`deployBuild.mjs` / `servePublic.mjs`** — use the shared spawn helpers for Hugo, wrangler, and npx
 
 ### Commands (same on all platforms)
 
@@ -1800,7 +1800,7 @@ npm run still works. Build and deploy were verified.
 
 _**Agent (default)**_
 
-Yes. **`npm run` still works** - I verified `npm run build` and `npm run deploy` locally.
+Yes. **`npm run` still works** — I verified `npm run build` and `npm run deploy` locally.
 
 All deploy-related scripts call Node directly (`node scripts/...`), so they behave the same whether you use npm or pnpm:
 
@@ -1815,7 +1815,7 @@ npm requires the `run` keyword for custom scripts; pnpm doesn’t. That’s norm
 
 **Notes:**
 - Run `npm install` first so `postinstall` fixes the Tailwind bin (same as with pnpm).
-- `package.json` declares `"packageManager": "pnpm@11.7.0"` - npm may warn about that but still runs fine.
+- `package.json` declares `"packageManager": "pnpm@11.7.0"` — npm may warn about that but still runs fine.
 - Hugo Extended must be on your PATH for any of the build commands.
 
 One unrelated quirk: `remove-darkmode` still calls `pnpm format` internally, so use pnpm for that script or run `npm run format` yourself after. The build/deploy scripts are not affected.
@@ -1887,14 +1887,14 @@ kill 10483 2>/dev/null || true
 
 _**Agent (default)**_
 
-Yes - **`npm run watch` still works** and wasn’t changed by the deploy work. I smoke-tested it; Hugo came up at `http://localhost:1313/`.
+Yes — **`npm run watch` still works** and wasn’t changed by the deploy work. I smoke-tested it; Hugo came up at `http://localhost:1313/`.
 
 ### What it does
 It runs three things in parallel via `concurrently`:
 
-1. `themeGenerator.js --watch` - regenerates theme CSS when `data/theme.json` changes  
-2. `noteFileDates.js --watch` - updates note dates when notes change  
-3. `hugo server … -e production --minify` - live-reloading server in **production mode**
+1. `themeGenerator.js --watch` — regenerates theme CSS when `data/theme.json` changes  
+2. `noteFileDates.js --watch` — updates note dates when notes change  
+3. `hugo server … -e production --minify` — live-reloading server in **production mode**
 
 So it’s a **dev-style live preview**, not a full deploy build.
 
@@ -1902,12 +1902,12 @@ So it’s a **dev-style live preview**, not a full deploy build.
 
 | Script | Purpose |
 |--------|---------|
-| `npm run watch` | Live editing - rebuilds on save, includes drafts |
+| `npm run watch` | Live editing — rebuilds on save, includes drafts |
 | `npm run dev` | Same idea, development mode (no production flags) |
 | `npm run deploy` | One-shot production build → `public/` (+ CSP hashing) |
 | `npm run preview:prod` | Full deploy build, then serves `public/` with wrangler |
 
-`watch` skips `cspHashes.mjs` and doesn’t write a final `public/` artifact for deployment - that’s intentional for speed while you edit.
+`watch` skips `cspHashes.mjs` and doesn’t write a final `public/` artifact for deployment — that’s intentional for speed while you edit.
 
 ### npm vs pnpm
 Both work the same:
@@ -1941,4 +1941,4 @@ output_path: /home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/
 
 _**Agent (default)**_
 
-`npm run watch` was smoke-tested successfully before the run was stopped - Hugo started and was serving at `http://localhost:1313/` with theme and note-date watchers running. Nothing else needed on your side.
+`npm run watch` was smoke-tested successfully before the run was stopped — Hugo started and was serving at `http://localhost:1313/` with theme and note-date watchers running. Nothing else needed on your side.

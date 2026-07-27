@@ -52,88 +52,88 @@ Biography lane - what the Gospels show He did day to day. Hub: [[Jesus' Rhythms]
 
 ## Theological basis
 
-- [[Grace]] - For God so loved the world (John 3:16); gift I never earned
-- [[Mercy]] - Blessed are the merciful (Matthew 5:7); withholds punishment I deserve
-- [[Free Grace]] - eternal life by faith, not works (John 5:24); principles follow, they don't pay the fare
-- [[Justification]] - justified at faith (Luke 18:14); finished before the walk catches up
-- [[Sanctification]] - sanctified in the truth (John 17:17); grateful growth after the verdict
-- [[Present a Living Sacrifice]] - deny yourself, take up your cross; offer your body as worship that's alive (Matthew 16:24; Romans 12:1)
-- [[Renewed Mind]] - continue in My word; be transformed by renewing your mind (John 8:31-32; Romans 12:2)
-- [[Don't Copy the Pattern]] - not of the world; refuse culture's default script (John 15:19; Romans 12:2)
-- [[Discern His Will Daily]] - willing to do His will; test and approve what God wants (John 7:17; Romans 12:2)
-- [[Christlikeness]] - fully trained will be like the Teacher (Luke 6:40); the aim sanctification moves toward
-- [[Faith and Works]] - hear and do what Jesus said (Matthew 7:24); faith alone saves, real faith shows up in obedience
-- [[Repent and Believe]] - kingdom at hand, repent and believe (Mark 1:15); turn and trust, don't wait until you're "ready"
-- [[Childlike Faith]] - receive the kingdom like a child (Mark 10:15); stop negotiating merit before you enter
-- [[Abide in Me]] - apart from Me you can do nothing (John 15:5); fruit from staying connected, not self-generated effort alone
+- [[Grace]] - God loved the world and sent His Son so whoever believes has eternal life, not condemnation (John 3:16-18); gift I never earned
+- [[Mercy]] - blessed are the merciful in the Beatitudes (Matthew 5:7); God made us alive when we were dead in sins (Ephesians 2:1-5)
+- [[Free Grace]] - hears My word and believes has eternal life, passes from death to life (John 5:24-29); principles follow, they don't pay the fare
+- [[Justification]] - tax collector went home justified, not the boasting Pharisee (Luke 18:9-14); finished before the walk catches up
+- [[Sanctification]] - Father, sanctify them in the truth; Jesus prays before the cross (John 17:17-19); grateful growth after the verdict
+- [[Present a Living Sacrifice]] - deny yourself, take up your cross, lose life to save it (Matthew 16:24-26); offer your body as worship that's alive (Romans 12:1)
+- [[Renewed Mind]] - continue in My word and know the truth (John 8:31-32); be transformed by renewing your mind (Romans 12:1-2)
+- [[Don't Copy the Pattern]] - chosen out of the world, not of the world (John 15:19); refuse culture's default script (Romans 12:2)
+- [[Discern His Will Daily]] - teaching at the Feast, willing to do His will knows the doctrine (John 7:16-18); test and approve what God wants (Romans 12:2)
+- [[Christlikeness]] - fully trained disciple will be like the Teacher (Luke 6:39-40); the aim sanctification moves toward
+- [[Faith and Works]] - wise man hears Jesus' words and builds on the rock (Matthew 7:24-27); faith alone saves, real faith shows up in obedience
+- [[Repent and Believe]] - after John was arrested, Jesus proclaimed the kingdom at hand (Mark 1:14-15); turn and trust, don't wait until you're "ready"
+- [[Childlike Faith]] - let the children come, receive the kingdom like a child (Mark 10:13-16); stop negotiating merit before you enter
+- [[Abide in Me]] - vine and branches: apart from Me you can do nothing (John 15:1-11); fruit from staying connected, not self-generated effort alone
 
 ## Salvation and reward
 
-- [[Judgment Seat]] - repaid at the resurrection according to works (Matthew 16:27); rewards repaid, not re-deciding eternal life
-- [[Loss of Reward]] - saved through fire with loss (1 Corinthians 3:15); worthless works burn - wood, hay, stubble
-- [[Standing vs Fellowship]] - eternal life I give them (John 10:28); standing settled at faith, fellowship restored by confession
-- [[Assurance]] - the one who comes to Me I will never cast out (John 6:37); rest on Christ's promise, not this week's report card
-- [[Grateful Obedience]] - if you love Me, keep My commandments (John 14:15); obey because grace already saved, not to buy the ticket
-- [[Faithful Steward]] - well done, good and faithful servant (Matthew 25:23); faithfulness with what God entrusted
-- [[Success is Stewardship]] - well done, good and faithful servant (Matthew 25:23); borrowed accountability, not permanent ownership
+- [[Judgment Seat]] - deny self, take up cross, then Son of Man repays each at the resurrection (Matthew 16:24-27); rewards repaid, not re-deciding eternal life
+- [[Loss of Reward]] - talents parable: unfaithful servant cast out (Matthew 25:14-30); saved through fire with loss (1 Corinthians 3:12-15)
+- [[Standing vs Fellowship]] - My sheep hear My voice; I give eternal life, none snatch from My hand (John 10:27-30); standing settled at faith, fellowship restored by confession
+- [[Assurance]] - bread of life: whoever comes to Me I will never cast out (John 6:35-40); rest on Christ's promise, not this week's report card
+- [[Grateful Obedience]] - if you love Me, keep My commandments; Father sends the Spirit (John 14:15-17); obey because grace already saved, not to buy the ticket
+- [[Faithful Steward]] - talents parable: well done, good and faithful servant (Matthew 25:14-30); faithfulness with what God entrusted
+- [[Success is Stewardship]] - talents parable: well done, good and faithful servant (Matthew 25:14-30); borrowed accountability, not permanent ownership
 
 ## The two great commandments
 
-- [[Love God]] - love the Lord your God (Matthew 22:37); heart, soul, mind, strength - whole-person devotion
-- [[Love Your Neighbor]] - love your neighbor as yourself (Matthew 22:39); hangs on the first, not a separate ladder
+- [[Love God]] - lawyer's test: love the Lord your God with all heart, soul, mind, strength (Matthew 22:37-40); whole-person devotion
+- [[Love Your Neighbor]] - second command like the first; Good Samaritan shows who counts as neighbor (Matthew 22:39; Luke 10:25-37); hangs on the first, not a separate ladder
 
 ## How to treat others
 
-- [[The Golden Rule]] - treat others as you want to be treated (Matthew 7:12); active care, not just avoiding harm
-- [[Love Your Enemies]] - love your enemies, pray for persecutors (Matthew 5:44); love beyond your own tribe
-- [[Forgiveness]] - forgive so your Father may forgive you (Matthew 6:15); release the debt under grace
-- [[Reconciliation Before Worship]] - first be reconciled to your brother (Matthew 5:24); settle before the altar
-- [[Peacemakers]] - blessed are the peacemakers (Matthew 5:9); those who actively pursue peace inherit blessing
-- [[Turn the Other Cheek]] - turn the other cheek (Matthew 5:39); refuse retaliation, stop investing anger
-- [[Let Your Yes Be Yes]] - let your yes be yes (Matthew 5:37); plain speech, one claim, no oath-padding
-- [[Judge Not]] - remove the log from your eye first (Matthew 7:5); no hypocritical condemnation
-- [[By Their Fruits]] - by their fruits you will know them (Matthew 7:20); discern teachers by outcome, not hype
-- [[Heart Righteousness]] - lust in the heart is adultery (Matthew 5:28); inner motive counts, not only outward acts
-- [[Words That Build Up]] - only speech that edifies (Ephesians 4:29); grace to hearers, not debris
+- [[The Golden Rule]] - whatever you want others to do, do the same - sums Law and Prophets (Matthew 7:12); active care, not just avoiding harm
+- [[Love Your Enemies]] - Sermon antithesis: love enemies, bless cursers, pray for persecutors (Matthew 5:43-48); love beyond your own tribe
+- [[Forgiveness]] - Lord's Prayer section: if you forgive others, your Father forgives you (Matthew 6:14-15); release the debt under grace
+- [[Reconciliation Before Worship]] - anger equals murder; leave your gift, first be reconciled (Matthew 5:21-24); settle before the altar
+- [[Peacemakers]] - blessed are the peacemakers in the Beatitudes (Matthew 5:9); those who actively pursue peace inherit blessing
+- [[Turn the Other Cheek]] - eye for eye antithesis: turn the other cheek, go the second mile (Matthew 5:38-42); refuse retaliation, stop investing anger
+- [[Let Your Yes Be Yes]] - oaths antithesis: let your yes be yes, no oath-padding (Matthew 5:33-37); plain speech, one claim
+- [[Judge Not]] - do not judge; remove the log from your eye first (Matthew 7:1-5); no hypocritical condemnation
+- [[By Their Fruits]] - wolves in sheep's clothing known by their fruits (Matthew 7:15-20); discern teachers by outcome, not hype
+- [[Heart Righteousness]] - anger and lust antitheses: heart murder and heart adultery (Matthew 5:21-30); inner motive counts, not only outward acts
+- [[Words That Build Up]] - only speech that builds up and gives grace to hearers (Ephesians 4:29); grace to hearers, not debris
 
 ## Heart and priorities
 
 Hub: [[Prayer Jesus Taught]] - maps Jesus' prayer teaching across the Gospels (Lord's Prayer, secret devotion, persistence, asking in His name).
 
-- [[Ask Seek Knock]] - ask, seek, knock (Matthew 7:7); keep asking on rhythm
-- [[Secret Devotion]] - pray to your Father in secret (Matthew 6:6); prayer and giving without performing for an audience
-- [[Seek the Kingdom First]] - seek first His kingdom (Matthew 6:33); God's reign gets first place in the week
-- [[God Centered Design]] - let your light shine before men (Matthew 5:16); build life and work for God's glory first
-- [[Don't Worry]] - do not worry about your life (Matthew 6:25); one Master, not many anxieties fighting for attention
-- [[Treasure in Heaven]] - store treasure in heaven (Matthew 6:21); not what rusts or rots on earth
-- [[Eternal Rewards]] - your Father who sees in secret will reward you (Matthew 6:4); Father repays faithful obedience after salvation
-- [[The Beatitudes]] - blessed are the poor in spirit (Matthew 5:3-12); kingdom character in nine blessings
-- [[Trust God for Today]] - give us this day our daily bread (Matthew 6:11); Father holds tomorrow
-- [[Come to Me Weary]] - come to Me, all who are weary (Matthew 11:28); rest and a fitting yoke
-- [[Guard Your Heart]] - guard your heart above all (Proverbs 4:23); filter intake before worship and anger downstream
+- [[Ask Seek Knock]] - ask, seek, knock; Father gives good gifts like earthly fathers do (Matthew 7:7-11); keep asking on rhythm
+- [[Secret Devotion]] - when you give or pray, not like the hypocrites who perform for crowds (Matthew 6:1-18); prayer and giving without performing for an audience
+- [[Seek the Kingdom First]] - do not worry about life; seek first His kingdom and righteousness (Matthew 6:25-34); God's reign gets first place in the week
+- [[God Centered Design]] - you are the light of the world; let your light shine before men (Matthew 5:14-16); build life and work for God's glory first
+- [[Don't Worry]] - birds and lilies: do not worry about your life or tomorrow (Matthew 6:25-34); one Master, not many anxieties fighting for attention
+- [[Treasure in Heaven]] - do not store treasure on earth; store treasure in heaven (Matthew 6:19-21); not what rusts or rots on earth
+- [[Eternal Rewards]] - do not practice righteousness before men to be seen; Father who sees in secret rewards (Matthew 6:1-4); Father repays faithful obedience after salvation
+- [[The Beatitudes]] - Sermon opening: blessed are the poor in spirit through those persecuted for righteousness (Matthew 5:3-12); kingdom character in nine blessings
+- [[Trust God for Today]] - Lord's Prayer: give us this day our daily bread (Matthew 6:11); Father holds tomorrow
+- [[Come to Me Weary]] - after cities rejected Him: come to Me all who are weary; My yoke is easy (Matthew 11:28-30); rest and a fitting yoke
+- [[Guard Your Heart]] - watch over your heart with all diligence; life flows from it (Proverbs 4:23); filter intake before worship and anger downstream
 
 ## Character and witness
 
-- [[Fruits of the Spirit]] - hub: Galatians 5:22-23 cluster; love through self-control when I [[Walk by the Spirit]]
-- [[Discipleship]] - deny yourself, take up your cross (Luke 9:23); following Jesus after faith - not salvation's price tag
-- [[Discipleship vs Leadership]] - the Son of Man came to serve (Matthew 20:28); follow Christ upward, own direction outward
-- [[Humility and Service]] - ransom for many by serving (Mark 10:45); wash feet, don't grasp status
-- [[Let Your Light Shine]] - let your light shine before men (Matthew 5:16); visible good works glorify God, not you
-- [[Take Up Your Cross]] - deny yourself daily (Luke 9:23); follow behind, not a one-time hero sprint
-- [[The Wise Builder]] - built his house on the rock (Matthew 7:24); sand collapses when the storm hits
-- [[The Narrow Way]] - narrow gate, few find it (Matthew 7:14); costly discipleship, not the broad path
-- [[Walk by the Spirit]] - walk by the Spirit (Galatians 5:16); daily Spirit dependence over willpower sprints
-- [[Count the Cost]] - estimate before you build the tower (Luke 14:28); honest estimate before the public yes
+- [[Fruits of the Spirit]] - walk by the Spirit: love through self-control (Galatians 5:22-23); cluster hub when I [[Walk by the Spirit]]
+- [[Discipleship]] - deny yourself, take up your cross daily, lose life to save it (Luke 9:23-24); following Jesus after faith - not salvation's price tag
+- [[Discipleship vs Leadership]] - greatest shall be your servant; Son of Man came to serve and give His life (Matthew 20:26-28); follow Christ upward, own direction outward
+- [[Humility and Service]] - James and John wanted thrones; Son of Man came to serve and give His life as ransom (Mark 10:42-45); wash feet, don't grasp status
+- [[Let Your Light Shine]] - light of the world: let your light shine before men (Matthew 5:14-16); visible good works glorify God, not you
+- [[Take Up Your Cross]] - deny yourself daily, take up cross, follow behind (Luke 9:23-24); not a one-time hero sprint
+- [[The Wise Builder]] - hears Jesus' words and builds house on rock; sand collapses in storm (Matthew 7:24-27); sand collapses when the storm hits
+- [[The Narrow Way]] - enter through narrow gate; broad way leads to destruction (Matthew 7:13-14); costly discipleship, not the broad path
+- [[Walk by the Spirit]] - walk by the Spirit and you will not carry out the flesh's desires (Galatians 5:16); daily Spirit dependence over willpower sprints
+- [[Count the Cost]] - who builds a tower without sitting down and counting the cost first (Luke 14:28-30); honest estimate before the public yes
 
 ## Church and world
 
-- [[Many Parts One Body]] - one body in Christ (1 Corinthians 12:12); many gifts, no solo-body fantasy
-- [[Bear Each Other's Burdens]] - bear one another's burdens (Galatians 6:2); hands on the load, not sidewalk commentary
-- [[Iron Sharpens Iron]] - iron sharpens iron (Proverbs 27:17); growth through honest friction with friends who love you
-- [[Confess to One Another]] - confess your sins one to another (James 5:16); spoken failure finds prayer
-- [[Christianity and Politics]] - render to Caesar and to God (Matthew 22:21); dual allegiance without idolatry
-- [[Render Unto Caesar]] - render to Caesar what is Caesar's (Matthew 22:21); civic duty vs ultimate allegiance clarified
-- [[Great Commission]] - make disciples of all nations (Matthew 28:20); truth shared, not hoarded in the garden
+- [[Many Parts One Body]] - as the body is one with many members, so we are one body in Christ (1 Corinthians 12:12); many gifts, no solo-body fantasy
+- [[Bear Each Other's Burdens]] - bear one another's burdens and fulfill the law of Christ (Galatians 6:2); hands on the load, not sidewalk commentary
+- [[Iron Sharpens Iron]] - iron sharpens iron, so one person sharpens another (Proverbs 27:17); growth through honest friction with friends who love you
+- [[Confess to One Another]] - confess sins to one another and pray for each other (James 5:16); spoken failure finds prayer
+- [[Christianity and Politics]] - Pharisees' trap with the coin: render to Caesar and to God (Matthew 22:15-22); dual allegiance without idolatry
+- [[Render Unto Caesar]] - whose image on the coin? Render to Caesar what is Caesar's, to God what is God's (Matthew 22:15-22); civic duty vs ultimate allegiance clarified
+- [[Great Commission]] - risen Jesus with all authority: make disciples of all nations, teach them to obey (Matthew 28:19-20); truth shared, not hoarded in the garden
 
 ## At work
 

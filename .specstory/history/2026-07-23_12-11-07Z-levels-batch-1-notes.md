@@ -911,7 +911,7 @@ The colon after `[[Leadership]]` is not the problem. Semicolons are unlikely cul
 
 The YAML error likely originates earlier in the file, not near line 48. The `dont-worry` level 5 bullet contains a wikilink and semicolon. The `getting-started` level 1 bullet uses backticks.
 
-A colon at the start of a bullet value-such as `Something: rest`-would be parsed as a nested YAML mapping key. This would explain the parse error.
+A colon at the start of a bullet value—such as `Something: rest`—would be parsed as a nested YAML mapping key. This would explain the parse error.
 
 The script prepends the "Level N:" prefix, so the raw YAML lacks it. The exact bullet text around the error line is being inspected to locate the parse trigger.
 </details></think>
@@ -943,7 +943,7 @@ Grepping the YAML file for bullets starting with `[[` to identify every string t
 
 _**Agent (composer-2.5-fast)**_
 
-YAML is choking on bullets that start with `[[` - I'll quote those entries and rerun the apply script.
+YAML is choking on bullets that start with `[[` — I'll quote those entries and rerun the apply script.
 
 
 _**Agent (composer-2.5-fast)**_
@@ -2533,11 +2533,11 @@ _**Agent (composer-2.5-fast)**_
 
 For every slug in `data/levels-batch-1.json`, `key_concept` was updated as specified:
 
-1. **Bullet 1** - unchanged (claim line)
-2. **Old bullet 2** - removed (plain simplification)
-3. **Levels 1–5** - inserted at positions 2–6 with `Level N:` prefix
-4. **Former bullets 3+** - unchanged, now bullets 7+
-5. **Bible shortcodes and blank lines** - preserved (e.g. `discipleship-vs-leadership`, `gentleness`)
+1. **Bullet 1** — unchanged (claim line)
+2. **Old bullet 2** — removed (plain simplification)
+3. **Levels 1–5** — inserted at positions 2–6 with `Level N:` prefix
+4. **Former bullets 3+** — unchanged, now bullets 7+
+5. **Bible shortcodes and blank lines** — preserved (e.g. `discipleship-vs-leadership`, `gentleness`)
 
 **Level progression applied:**
 - Level 1: grade 6, analogy, no wikilinks

@@ -977,7 +977,7 @@ Finalized the sustainable-performance Level 5 bullet. It warns that hero weeks s
 
 Started drafting the synthesis-as-a-goal note. The first level says saving other people’s quotes is not enough; you must write what you actually believe in your own words. The second level warns that quote collection feels like learning but does not produce belief you can defend until you merge sources into one claim. The third level frames synthesis as turning PKM into thinking, because prose you would ship forces gaps in understanding to surface.
 
-Finalized the synthesis-as-a-goal note. Level 4 demands merging borrowed lines into one page in your own words before linking them; if you cannot defend it, you have not learned it. Level 5 states that the wiki can hold borrowed lines, but synthesis begins when learning starts-only one claim you would ship, not a pile of quotes nobody wrote.
+Finalized the synthesis-as-a-goal note. Level 4 demands merging borrowed lines into one page in your own words before linking them; if you cannot defend it, you have not learned it. Level 5 states that the wiki can hold borrowed lines, but synthesis begins when learning starts—only one claim you would ship, not a pile of quotes nobody wrote.
 
 Started drafting the systems-for-growth note. Level 1 frames each note as one habit to set up early, already running when needed later. Level 2 describes growth systems as moves installed before results become urgent, with each linked note acting as a lever ready when pressure rises.
 

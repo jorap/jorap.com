@@ -904,6 +904,6 @@ _**Agent (composer-2.5-fast)**_
 
 **Skipped:** none
 
-Every note in `data/feynman-batch-3.json` got a new 2nd bullet in `key_concept` - a grade-6 plain-language restatement of bullet 1. Original bullet 1 and any `{{< bible >}}` shortcodes were left as-is; former bullets 2+ shifted down.
+Every note in `data/feynman-batch-3.json` got a new 2nd bullet in `key_concept` — a grade-6 plain-language restatement of bullet 1. Original bullet 1 and any `{{< bible >}}` shortcodes were left as-is; former bullets 2+ shifted down.
 
 Notes with bible shortcodes handled: `let-your-yes-be-yes`, `loss-of-reward`, `love-god`, `love-your-enemies`, `love-your-neighbor`, `mercy`, `moved-with-compassion`, `not-my-will`, `opened-scripture`, `patience`, `peace`, `peacemakers`.

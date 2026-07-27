@@ -816,9 +816,9 @@ Each blog post now ends with a **3 Random Notes** section, placed after Related 
 
 ### What it does
 
-- **Unrelated pool only** - notes are excluded if they share tags/categories with the post (same logic as Related Notes) or are already linked from the post body via wikilinks.
-- **Shuffle controls** - shuffle all three, or shuffle left / center / right individually.
-- **AI prompt** - collapsible panel with a copy button. The prompt includes the full blog post plus the three loaded notes, and asks for cross-links, new note titles, questions, and tensions.
+- **Unrelated pool only** — notes are excluded if they share tags/categories with the post (same logic as Related Notes) or are already linked from the post body via wikilinks.
+- **Shuffle controls** — shuffle all three, or shuffle left / center / right individually.
+- **AI prompt** — collapsible panel with a copy button. The prompt includes the full blog post plus the three loaded notes, and asks for cross-links, new note titles, questions, and tensions.
 
 ### Files added
 
@@ -830,8 +830,8 @@ Each blog post now ends with a **3 Random Notes** section, placed after Related 
 
 ### Wired in
 
-- `themes/jorap/layouts/blog/single.html` - includes the new partial
-- `i18n/en.yaml` - section labels and button text
+- `themes/jorap/layouts/blog/single.html` — includes the new partial
+- `i18n/en.yaml` — section labels and button text
 
 The section reuses the same styling as the `/notes/random-three/` page. It only renders when at least one unrelated note exists in the garden. On load it picks three at random and fetches their content into columns.
 
@@ -946,7 +946,7 @@ The `truncateText` helper normalizes input, cuts to `maxLen - 1`, finds the last
 
 The prompt instructions now also ask for proposed questions and flagging gaps, tensions, or contradictions. The intro text is kept minimal. The prompt builder will first construct a shell without note bodies to measure fixed overhead before allocating remaining space.
 
-The prompt builder is being restructured into a two-pass allocation. Header lines and URLs are assembled first to measure fixed overhead. Body text is then collected into weighted slots-blog posts get double weight, and notes get equal weight-so the remaining character budget can be distributed precisely before truncation.
+The prompt builder is being restructured into a two-pass allocation. Header lines and URLs are assembled first to measure fixed overhead. Body text is then collected into weighted slots—blog posts get double weight, and notes get equal weight—so the remaining character budget can be distributed precisely before truncation.
 
 Fixed caps were rejected because they would truncate short posts unnecessarily. Dynamic allocation is now preferred: an `allocateBodyBudget` helper distributes the remaining character budget proportionally by weight, giving the blog post double the share of each note. This keeps the prompt compact for brief posts while still reserving enough space for longer ones.
 
@@ -1041,7 +1041,7 @@ The blog AI prompt is now capped at **4,500 characters** so it copies cleanly in
 
 **How it works:**
 - Titles, URLs, and the instruction block are always kept intact
-- Body text is budgeted dynamically - the blog post gets roughly twice the space of each note
+- Body text is budgeted dynamically — the blog post gets roughly twice the space of each note
 - Long bodies are cut at word boundaries with `…`
 - If the prompt still exceeds the limit, body budgets shrink iteratively until it fits (instructions are never cut)
 
@@ -1443,7 +1443,7 @@ Settled on a single configurable button labeled "Open in ChatGPT" rather than a 
 
 The button will use a 1800-character limit for direct URL prefill. If the prompt exceeds that, it copies to the clipboard instead. The handler also skips empty or loading states.
 
-The button will flash "Opened" when the prompt fits within the URL limit, or "Copied - paste" when falling back to clipboard. To handle the fallback cleanly, the HTML will pass the base AI URL separately from the query parameter template.
+The button will flash "Opened" when the prompt fits within the URL limit, or "Copied — paste" when falling back to clipboard. To handle the fallback cleanly, the HTML will pass the base AI URL separately from the query parameter template.
 
 The AI URL will be pulled from params.toml and injected into the HTML. I am weighing whether to attach it directly to the existing notes grid element or place it on a wrapper or hidden meta tag.
 
@@ -1558,8 +1558,8 @@ _**Agent (default)**_
 Added an **Open in ChatGPT** button to the right of **Copy prompt** on blog posts.
 
 ### Behavior
-- **Short prompts** - opens a new tab with the prompt prefilled via `?q=` (ChatGPT fills the input; you still send it)
-- **Long prompts** (over URL limits) - copies the prompt to clipboard, opens ChatGPT, and briefly shows **Copied - paste in chat**
+- **Short prompts** — opens a new tab with the prompt prefilled via `?q=` (ChatGPT fills the input; you still send it)
+- **Long prompts** (over URL limits) — copies the prompt to clipboard, opens ChatGPT, and briefly shows **Copied — paste in chat**
 
 ### Configuration
 In `config/_default/params.toml`:
@@ -1623,7 +1623,7 @@ _**Agent (default)**_
 _**Agent (default)**_
 
 <think><details><summary>Thought Process</summary>
-I interpreted "unrelated tags" as meaning "unrelated notes" - specifically notes that lack overlapping tags.
+I interpreted "unrelated tags" as meaning "unrelated notes" — specifically notes that lack overlapping tags.
 
 The section may be hidden because the related-notes fallback marks too many notes as related. When a post has no tags, Hugo's `.Related` function can over-mark entries, leaving the unrelated pool empty. A large number of tags or categories can also shrink the pool to zero.
 
@@ -1748,7 +1748,7 @@ Reconsidering the threshold. The user may want the random notes section to alway
 
 _**Agent (default)**_
 
-Checking a blog post's tags and pool size - unrelated pool may be over-excluding notes via Hugo's Related fallback.
+Checking a blog post's tags and pool size — unrelated pool may be over-excluding notes via Hugo's Related fallback.
 
 
 _**Agent (default)**_
@@ -2144,7 +2144,7 @@ The limit will be read from `site.Params.blog.related_notes_limit` with a 12-not
 
 _**Agent (default)**_
 
-Treating "unrelated" as notes outside the Related Notes list (top 12 by tag score), not every note that shares any tag - that was hiding the section on PKM posts like `how-i-built-jorap-notes`.
+Treating "unrelated" as notes outside the Related Notes list (top 12 by tag score), not every note that shares any tag — that was hiding the section on PKM posts like `how-i-built-jorap-notes`.
 
 
 _**Agent (default)**_
@@ -2229,18 +2229,18 @@ instant-pot-chicken-adobo: pool=79, section=yes
 
 _**Agent (default)**_
 
-Fixed how "unrelated" was defined - it was too strict before.
+Fixed how "unrelated" was defined — it was too strict before.
 
 **Before:** Any note sharing *any* tag/category with the post was excluded. On PKM-heavy posts like `how-i-built-jorap-notes`, that wiped out the whole pool (0 notes), so the section never appeared.
 
-**Now:** "Unrelated" means **outside the Related Notes list** (the top 12 by tag overlap). The 2 Random Notes section shows whenever at least **2** such notes remain - so you always get two fillable slots when it appears.
+**Now:** "Unrelated" means **outside the Related Notes list** (the top 12 by tag overlap). The 2 Random Notes section shows whenever at least **2** such notes remain — so you always get two fillable slots when it appears.
 
 | Blog post | Pool size |
 |-----------|-----------|
 | `how-i-built-jorap-notes` | 67 |
 | `alex-eala-pro-career-tracker` | 79 |
 
-The lede now reads: *"Two garden notes outside the related list above - shuffle for serendipity."*
+The lede now reads: *"Two garden notes outside the related list above — shuffle for serendipity."*
 
 ---
 
@@ -2358,4 +2358,4 @@ The pool logic is updated:
 
 The lede now says: *"Two garden notes with no shared tags or categories with this post."*
 
-On posts with broad tags (e.g. `how-i-built-jorap-notes` with PKM, Hugo, Blogging), every note may overlap and the section won’t appear. On posts with narrower tags (e.g. `alex-eala-pro-career-tracker`), most of the garden stays eligible - 79 notes in that case.
+On posts with broad tags (e.g. `how-i-built-jorap-notes` with PKM, Hugo, Blogging), every note may overlap and the section won’t appear. On posts with narrower tags (e.g. `alex-eala-pro-career-tracker`), most of the garden stays eligible — 79 notes in that case.

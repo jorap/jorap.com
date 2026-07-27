@@ -1073,7 +1073,7 @@ The next homepage post should be the first of three drafts for "Writing for site
 
 The Impeccable critique recommends replacing the current homepage pins with buyer-relevant topics such as migrations, hiring freelancers, and owning your site. The existing pins are mixed, with only two fully buyer-focused and several less relevant.
 
-Facebook favorites and RSS/desktop guides are the weakest buyer-relevant pins. The next post should be the first unpublished client-work draft, either `client-site-pass-off` or the scope post. Publishing them in sequence-scope, then quote, then pass-off-maximizes homepage impact.
+Facebook favorites and RSS/desktop guides are the weakest buyer-relevant pins. The next post should be the first unpublished client-work draft, either `client-site-pass-off` or the scope post. Publishing them in sequence—scope, then quote, then pass-off—maximizes homepage impact.
 
 `static-site-client-scope` is the best candidate for the next homepage pin. It directly addresses whether static sites are right for buyers and aligns with the "WordPress & static sites" and "Migrations & upkeep" home_scope topics. The "consistent-ai-output-wordpress-builds" post already holds the hero slot.
 
@@ -1177,11 +1177,11 @@ The homepage is already set up as a **buyer-facing** surface, not a reverse-chro
 
 From `config/_default/params.toml`:
 
-- **Intro** - person-first positioning (Jonathan Rapusas, remote freelance since 2013)
-- **Scope** - WordPress/static sites, hosting, migrations, training
-- **Writing grid** - section title **"Writing for site owners"**, with 5 pinned slugs
+- **Intro** — person-first positioning (Jonathan Rapusas, remote freelance since 2013)
+- **Scope** — WordPress/static sites, hosting, migrations, training
+- **Writing grid** — section title **"Writing for site owners"**, with 5 pinned slugs
 
-The lead card (largest slot) is always the **first slug** in that list - currently `consistent-ai-output-wordpress-builds`.
+The lead card (largest slot) is always the **first slug** in that list — currently `consistent-ai-output-wordpress-builds`.
 
 ## Gap in the current grid
 
@@ -1193,10 +1193,10 @@ Three pins are strong for buyers:
 
 Two are weaker for a hiring decision-maker:
 
-- `facebooks-hidden-gem-how-favorites-feed-transforms-your-social-media-experience` - useful, but lifestyle/social, not “why hire JoRap”
-- `getting-started-with-rss-feeds-beginners-guide` - adjacent, but tool-tip energy, not proof of client judgment
+- `facebooks-hidden-gem-how-favorites-feed-transforms-your-social-media-experience` — useful, but lifestyle/social, not “why hire JoRap”
+- `getting-started-with-rss-feeds-beginners-guide` — adjacent, but tool-tip energy, not proof of client judgment
 
-Your Impeccable critiques said the same thing: curate toward **migrations, hiring a freelancer, owning your site** - not peer build logs or hobby posts.
+Your Impeccable critiques said the same thing: curate toward **migrations, hiring a freelancer, owning your site** — not peer build logs or hobby posts.
 
 ## The next post to focus on: **`static-site-client-scope`**
 
@@ -1205,12 +1205,12 @@ You already have a draft trilogy aimed exactly at homepage buyers:
 | Draft slug | Title | Why it fits |
 |---|---|---|
 | **`static-site-client-scope`** | *When I Say Yes to a Client Website (and When I Send You to WordPress)* | Answers the buyer’s first question: “Is this the right stack / the right person?” Mirrors **Work I Take On** directly. |
-| `selling-static-sites` | *How I Quote Client Websites* | Trust signal - transparent pricing, no mystery bundles |
-| `client-site-pass-off` | *What Happens After Your Website Goes Live* | Post-launch pain - “who publishes next?” |
+| `selling-static-sites` | *How I Quote Client Websites* | Trust signal — transparent pricing, no mystery bundles |
+| `client-site-pass-off` | *What Happens After Your Website Goes Live* | Post-launch pain — “who publishes next?” |
 
 **Publish `static-site-client-scope` first.** It’s the top of the funnel; the other two assume the reader is already considering hiring you.
 
-Runner-up if you want a migration angle instead: **`drupal-to-wordpress`** (already `featured: true`, still draft) - fits **Migrations & upkeep**, but reads more as your career story than a buyer’s decision guide.
+Runner-up if you want a migration angle instead: **`drupal-to-wordpress`** (already `featured: true`, still draft) — fits **Migrations & upkeep**, but reads more as your career story than a buyer’s decision guide.
 
 ## How to wire it in
 
@@ -1218,7 +1218,7 @@ After you publish (drop `draft: true`, remove the `__` filename prefix if you us
 
 1. Add `"static-site-client-scope"` to `home_blog.post_slugs`
 2. Swap out `facebooks-hidden-gem-...` (and optionally RSS)
-3. Consider promoting it to **slot 2** - keep AI/WordPress as the hero, put scope right under it
+3. Consider promoting it to **slot 2** — keep AI/WordPress as the hero, put scope right under it
 
 Something like:
 
@@ -1234,7 +1234,7 @@ post_slugs = [
 
 ## After that
 
-Publish in order: **scope → quote (`selling-static-sites`) → pass-off (`client-site-pass-off`)**. That gives you a complete “how I think about client sites” arc without writing anything new - just finishing what’s already drafted.
+Publish in order: **scope → quote (`selling-static-sites`) → pass-off (`client-site-pass-off`)**. That gives you a complete “how I think about client sites” arc without writing anything new — just finishing what’s already drafted.
 
 `anti-fragile-systems` (the note you had open) is a strong *ideas* piece, but for homepage buyer focus it’s better as a notes-garden depth link from one of the client posts (`future-proofing-knowledge`, plain files, tested backups) than as the next homepage hero.
 

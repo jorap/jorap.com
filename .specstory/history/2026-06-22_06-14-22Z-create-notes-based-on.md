@@ -1801,10 +1801,10 @@ All 27 related concepts were created as full notes. No stubs remain from the use
 
 _**Agent (default)**_
 
-Created **38 notes** - one hub, ten principles, and **27 related concept notes** so every wikilink in your relationship lists resolves.
+Created **38 notes** — one hub, ten principles, and **27 related concept notes** so every wikilink in your relationship lists resolves.
 
 ### Hub
-**[[Pressure Reveals Weakness]]** (`pressure-reveals-weakness.md`) - MOC with four sections grouping the ten principles.
+**[[Pressure Reveals Weakness]]** (`pressure-reveals-weakness.md`) — MOC with four sections grouping the ten principles.
 
 ### Ten principles
 | Note | Slug |
@@ -1824,9 +1824,9 @@ Created **38 notes** - one hub, ten principles, and **27 related concept notes**
 Discipline, Execution, Reliability, Emotional Regulation, Decision Quality, Self-Control, Adaptability, Second-Order Thinking, Strategic Foresight, Versatility, Resilience, Follow-Through, Attention to Detail, Accountability, Recovery, Sustainable Performance, Habit Formation, Standard Operating Procedures, Preparedness, Composure, Leadership, Situational Control, Integrity, Growth Mindset, Deliberate Practice, Failure as Feedback, Continuous Improvement.
 
 ### Wired into existing notes
-- **Workplace Principles** - new "Performance under pressure" section
-- **Mental Models** - added Second-Order Thinking to the example list
-- **Process Over Outcomes**, **Break the Escalation Cycle**, **Slow Productivity**, **Integrity When No One's Watching**, **Heed Every Near-Miss**, **Develop, Don't Endanger** - reciprocal links where they fit
+- **Workplace Principles** — new "Performance under pressure" section
+- **Mental Models** — added Second-Order Thinking to the example list
+- **Process Over Outcomes**, **Break the Escalation Cycle**, **Slow Productivity**, **Integrity When No One's Watching**, **Heed Every Near-Miss**, **Develop, Don't Endanger** — reciprocal links where they fit
 
 Each principle note has an example, typed relationships to its three related concepts, and cross-links to the pressure cluster. Related concept notes are shorter atoms that link back to the principles that use them.
 
@@ -2182,7 +2182,7 @@ cd /home/jorap/Documents/GitHub/jorap.com && for f in accountability adaptabilit
 === adaptability ===
 ## Example
 
-The API we built against got deprecated. Adaptability was rewriting the integration in a week - not defending the old design in every meeting.
+The API we built against got deprecated. Adaptability was rewriting the integration in a week — not defending the old design in every meeting.
 
 ## Note Relationships
 ## Note Relationships
@@ -2245,117 +2245,117 @@ NOTES = Path(&#39;content/english/notes&#39;)
 # slug -&gt; (new_example_paragraph, contradicts_link, contradicts_reason)
 UPDATES = {
     &#34;accountability&#34;: (
-        &#34;After a bad deploy, our manager said \&#34;we all own this\&#34; - which meant nobody owned anything for a week. Accountability was one name in the channel, one rollback deadline, and one postmortem doc with real causes - the way a hospital names who is running the code, not \&#34;the team.\&#34;&#34;,
+        &#34;After a bad deploy, our manager said \&#34;we all own this\&#34; — which meant nobody owned anything for a week. Accountability was one name in the channel, one rollback deadline, and one postmortem doc with real causes — the way a hospital names who is running the code, not \&#34;the team.\&#34;&#34;,
         &#34;Forgiveness at Work&#34;,
         &#34;when naming who owns the fix turns into a blame thread that blocks repair&#34;,
     ),
     &#34;adaptability&#34;: (
-        &#34;Our payment provider changed API rules with thirty days&#39; notice. Half the team argued the old integration was \&#34;fine.\&#34; Adaptability was rewriting the webhook handler on a branch before the cutoff - like a restaurant switching suppliers mid-season instead of defending last month&#39;s menu.&#34;,
+        &#34;Our payment provider changed API rules with thirty days&#39; notice. Half the team argued the old integration was \&#34;fine.\&#34; Adaptability was rewriting the webhook handler on a branch before the cutoff — like a restaurant switching suppliers mid-season instead of defending last month&#39;s menu.&#34;,
         &#34;Let Your Yes Be Yes&#34;,
         &#34;when constant pivot breaks plain commitments people were counting on&#34;,
     ),
     &#34;attention-to-detail&#34;: (
-        &#34;A nurse almost gave the wrong dose because two bags looked identical - the second read of the label caught it. At work, attention to detail was re-reading the production config before deploy: one character off took staging down for an hour.&#34;,
+        &#34;A nurse almost gave the wrong dose because two bags looked identical — the second read of the label caught it. At work, attention to detail was re-reading the production config before deploy: one character off took staging down for an hour.&#34;,
         &#34;Minimum Viable Product&#34;,
         &#34;when polish past the dose delays shipping the learning slice&#34;,
     ),
     &#34;build-a-reliable-default&#34;: (
-        &#34;Flight attendants don&#39;t invent evacuation steps mid-emergency - they run the drill they practiced. Build a reliable default was our one-page on-call card: three dashboards, who to page, what to post. Night two on call, the new hire ran it half-asleep and nobody guessed.&#34;,
+        &#34;Flight attendants don&#39;t invent evacuation steps mid-emergency — they run the drill they practiced. Build a reliable default was our one-page on-call card: three dashboards, who to page, what to post. Night two on call, the new hire ran it half-asleep and nobody guessed.&#34;,
         &#34;First Principles Thinking&#34;,
         &#34;when the script blocks a novel fix the runbook never covered&#34;,
     ),
     &#34;complete-the-cycle&#34;: (
-        &#34;Parent-teacher night ended with \&#34;we&#39;ll email the action plan.\&#34; By Friday, half the parents never got it. Complete the cycle was the recap sent before anyone left the parking lot - same as closing a support ticket only after the customer confirms the fix, not when you hit Send on the first reply.&#34;,
+        &#34;Parent-teacher night ended with \&#34;we&#39;ll email the action plan.\&#34; By Friday, half the parents never got it. Complete the cycle was the recap sent before anyone left the parking lot — same as closing a support ticket only after the customer confirms the fix, not when you hit Send on the first reply.&#34;,
         &#34;Minimum Viable Product&#34;,
         &#34;when closing every loop blocks shipping the smallest useful slice&#34;,
     ),
     &#34;composure&#34;: (
-        &#34;A referee stays calm when players yell - not because the foul didn&#39;t matter, but because the room takes cues from the steadiest person. Composure on my exec call was slower speech and one clarifying question while metrics got attacked - not matching their volume.&#34;,
+        &#34;A referee stays calm when players yell — not because the foul didn&#39;t matter, but because the room takes cues from the steadiest person. Composure on my exec call was slower speech and one clarifying question while metrics got attacked — not matching their volume.&#34;,
         &#34;The 12 Week Year&#34;,
         &#34;when performed calm misses a real deadline the team actually committed to&#34;,
     ),
     &#34;continuous-improvement&#34;: (
-        &#34;Toyota&#39;s line workers pull a cord when something is off - small fixes daily, not one yearly overhaul. Our deploy checklist grew one line per incident; six months later rollbacks were boring because each pain had already become a step.&#34;,
+        &#34;Toyota&#39;s line workers pull a cord when something is off — small fixes daily, not one yearly overhaul. Our deploy checklist grew one line per incident; six months later rollbacks were boring because each pain had already become a step.&#34;,
         &#34;There Is No Perfect Solution&#34;,
         &#34;when endless tweaking never ships the good-enough version&#34;,
     ),
     &#34;control-the-rhythm&#34;: (
-        &#34;Good therapists don&#39;t let the loudest emotion set session length - they pause, redirect, close on time. A client pinged \&#34;need this today\&#34; before I&#39;d read the brief. Control the rhythm was \&#34;I&#39;ll have a read by Thursday\&#34; instead of half-answers that bred three more panicked pings.&#34;,
+        &#34;Good therapists don&#39;t let the loudest emotion set session length — they pause, redirect, close on time. A client pinged \&#34;need this today\&#34; before I&#39;d read the brief. Control the rhythm was \&#34;I&#39;ll have a read by Thursday\&#34; instead of half-answers that bred three more panicked pings.&#34;,
         &#34;Plain Commitments at Work&#34;,
         &#34;when slowing the room breaks a response time you already promised&#34;,
     ),
     &#34;convert-pain-into-learning&#34;: (
-        &#34;A pilot debriefs every rough landing - not to wallow, but so the next approach is cleaner. I bombed a talk and stewed for a week. Convert pain into learning was one page: weak transitions, rehearse bridges ten times, cut two slides. Next audience got the version the failure paid for.&#34;,
+        &#34;A pilot debriefs every rough landing — not to wallow, but so the next approach is cleaner. I bombed a talk and stewed for a week. Convert pain into learning was one page: weak transitions, rehearse bridges ten times, cut two slides. Next audience got the version the failure paid for.&#34;,
         &#34;Forgiveness&#34;,
         &#34;when re-analyzing the wound becomes an excuse not to release or move on&#34;,
     ),
     &#34;decision-quality&#34;: (
-        &#34;Buying a house on one sunny open-house visit is how people miss the flood zone. Decision quality was one reference call before we signed the cheap vendor - the integration pain cost more than the savings we&#39;d celebrated in the meeting.&#34;,
+        &#34;Buying a house on one sunny open-house visit is how people miss the flood zone. Decision quality was one reference call before we signed the cheap vendor — the integration pain cost more than the savings we&#39;d celebrated in the meeting.&#34;,
         &#34;Low Hanging Fruit&#34;,
         &#34;when extra diligence blocks an obvious quick win that was already good enough&#34;,
     ),
     &#34;deliberate-practice&#34;: (
-        &#34;A pianist runs the hard measure fifty times, not the whole concerto on autopilot. My talks died in the handoffs between sections. Deliberate practice was rehearsing only those bridges ten times - the rest I already knew.&#34;,
+        &#34;A pianist runs the hard measure fifty times, not the whole concerto on autopilot. My talks died in the handoffs between sections. Deliberate practice was rehearsing only those bridges ten times — the rest I already knew.&#34;,
         &#34;Compounding&#34;,
         &#34;when drilling one weak slice ignores breadth the next role will demand&#34;,
     ),
     &#34;discipline&#34;: (
-        &#34;A marathon isn&#39;t won on race-day adrenaline - it&#39;s won on rainy Tuesday runs nobody films. Sunday review on week twelve isn&#39;t exciting. Discipline is opening the notes folder anyway, like brushing teeth when you&#39;re already late.&#34;,
+        &#34;A marathon isn&#39;t won on race-day adrenaline — it&#39;s won on rainy Tuesday runs nobody films. Sunday review on week twelve isn&#39;t exciting. Discipline is opening the notes folder anyway, like brushing teeth when you&#39;re already late.&#34;,
         &#34;Don&#39;t Worry&#34;,
         &#34;when rigid routine becomes anxiety about missing a streak, not doing the work&#34;,
     ),
     &#34;emotional-regulation&#34;: (
-        &#34;You can be furious at a driver who cut you off and still not chase them - feel it, don&#39;t steer with it. The email that made my face hot got a kitchen walk before the reply. Regulation isn&#39;t numbness; it&#39;s not mailing the first draft.&#34;,
+        &#34;You can be furious at a driver who cut you off and still not chase them — feel it, don&#39;t steer with it. The email that made my face hot got a kitchen walk before the reply. Regulation isn&#39;t numbness; it&#39;s not mailing the first draft.&#34;,
         &#34;Turn the Other Cheek&#34;,
         &#34;when staying calm becomes avoiding a boundary that needed to be named&#34;,
     ),
     &#34;energy-protects-judgment&#34;: (
-        &#34;Hospitals limit surgeon hours because tired hands slip - judgment is a motor skill too. I took a vendor call at 11 p.m. after a sixteen-hour day and escalated over a typo. At 9 a.m. it would&#39;ve been two calm sentences. The vendor wasn&#39;t the problem; I was.&#34;,
+        &#34;Hospitals limit surgeon hours because tired hands slip — judgment is a motor skill too. I took a vendor call at 11 p.m. after a sixteen-hour day and escalated over a typo. At 9 a.m. it would&#39;ve been two calm sentences. The vendor wasn&#39;t the problem; I was.&#34;,
         &#34;The 12 Week Year&#34;,
         &#34;when protecting energy misses a real sprint window the team committed to&#34;,
     ),
     &#34;execution&#34;: (
-        &#34;A wedding invite means nothing if nobody books the venue. Our roadmap had color-coded phases and zero tickets. Execution started when one person named owners and dates - the way a coach&#39;s play only exists once players are on the field.&#34;,
+        &#34;A wedding invite means nothing if nobody books the venue. Our roadmap had color-coded phases and zero tickets. Execution started when one person named owners and dates — the way a coach&#39;s play only exists once players are on the field.&#34;,
         &#34;Slow Productivity&#34;,
         &#34;when rushing to \&#34;done\&#34; on six fronts beats finishing three properly&#34;,
     ),
     &#34;expect-the-counter&#34;: (
-        &#34;Discount a product and competitors match by Friday - the first move isn&#39;t the game. We won a quarter on price, then three rivals copied the number. Expect the counter meant building retention before the copy arrived, not treating the first win like a forever advantage.&#34;,
+        &#34;Discount a product and competitors match by Friday — the first move isn&#39;t the game. We won a quarter on price, then three rivals copied the number. Expect the counter meant building retention before the copy arrived, not treating the first win like a forever advantage.&#34;,
         &#34;Low Hanging Fruit&#34;,
         &#34;when fear of the counter blocks a simple first move that was still worth taking&#34;,
     ),
     &#34;failure-as-feedback&#34;: (
-        &#34;A smoke alarm isn&#39;t moral judgment - it&#39;s data. Our beta feature flopped; failure as feedback was the survey and funnel, not \&#34;users are dumb\&#34; or \&#34;I&#39;m bad at product.\&#34; Treat the miss as instrument reading, not identity.&#34;,
+        &#34;A smoke alarm isn&#39;t moral judgment — it&#39;s data. Our beta feature flopped; failure as feedback was the survey and funnel, not \&#34;users are dumb\&#34; or \&#34;I&#39;m bad at product.\&#34; Treat the miss as instrument reading, not identity.&#34;,
         &#34;Integrity When No One&#39;s Watching&#34;,
         &#34;when \&#34;it&#39;s just feedback\&#34; excuses sloppy work nobody would ship on purpose&#34;,
     ),
     &#34;follow-through&#34;: (
-        &#34;\&#34;I&#39;ll look into it\&#34; without a ticket is how school projects die after the group chat goes quiet. Follow-through was the recap email with owners and dates before the standup ended - like a plumber texting when they&#39;re actually en route, not \&#34;soon.\&#34;&#34;,
+        &#34;\&#34;I&#39;ll look into it\&#34; without a ticket is how school projects die after the group chat goes quiet. Follow-through was the recap email with owners and dates before the standup ended — like a plumber texting when they&#39;re actually en route, not \&#34;soon.\&#34;&#34;,
         &#34;Forgiveness at Work&#34;,
         &#34;when endless check-ins become nagging that erodes trust&#34;,
     ),
     &#34;growth-mindset&#34;: (
-        &#34;You&#39;re \&#34;not a math person\&#34; until you practice fractions long enough - skill isn&#39;t fixed. I failed a system design interview. Growth mindset was a study plan for weak areas, not deciding seniority was permanently out of reach.&#34;,
+        &#34;You&#39;re \&#34;not a math person\&#34; until you practice fractions long enough — skill isn&#39;t fixed. I failed a system design interview. Growth mindset was a study plan for weak areas, not deciding seniority was permanently out of reach.&#34;,
         &#34;By Their Fruits&#34;,
         &#34;when \&#34;still learning\&#34; excuses the same bad outcome quarter after quarter&#34;,
     ),
     &#34;habit-formation&#34;: (
-        &#34;Same door, same notebook, same pocket - after thirty days you stop debating capture. Habit formation was the pad by the keys, not the color-coded Notion dashboard I never opened. Like gym shoes by the bed: remove the decision.&#34;,
+        &#34;Same door, same notebook, same pocket — after thirty days you stop debating capture. Habit formation was the pad by the keys, not the color-coded Notion dashboard I never opened. Like gym shoes by the bed: remove the decision.&#34;,
         &#34;First Principles Thinking&#34;,
         &#34;when automatic habit runs past its sell-by date and nobody questions it&#34;,
     ),
     &#34;integrity&#34;: (
-        &#34;A scale that reads honest when the customer isn&#39;t looking is integrity in hardware. I could&#39;ve marked the ticket done after a shallow patch. Integrity was the full test pass - the same standard I tell juniors we use when the manager isn&#39;t watching.&#34;,
+        &#34;A scale that reads honest when the customer isn&#39;t looking is integrity in hardware. I could&#39;ve marked the ticket done after a shallow patch. Integrity was the full test pass — the same standard I tell juniors we use when the manager isn&#39;t watching.&#34;,
         &#34;Drafting in Public&#34;,
         &#34;when hidden quality never helps the team because nobody sees the standard&#34;,
     ),
     &#34;leadership&#34;: (
-        &#34;When the kitchen catches fire, someone points to exits and counts heads - title optional. Nobody named me incident lead; leadership was status posts, owners, and keeping the channel off blame. Like a parent on a trip: calm voice, clear next step.&#34;,
+        &#34;When the kitchen catches fire, someone points to exits and counts heads — title optional. Nobody named me incident lead; leadership was status posts, owners, and keeping the channel off blame. Like a parent on a trip: calm voice, clear next step.&#34;,
         &#34;Servant Leadership&#34;,
         &#34;when grabbing credit and visibility replaces making the team win&#34;,
     ),
     &#34;own-the-error&#34;: (
-        &#34;Surgeons do morbidity rounds - name the miss, fix the process, no fairy tales. I shipped the config that took staging down. Own the error was saying it in the channel, rolling back, adding a deploy check - not \&#34;the tool glitched\&#34; when I&#39;d skipped the diff.&#34;,
+        &#34;Surgeons do morbidity rounds — name the miss, fix the process, no fairy tales. I shipped the config that took staging down. Own the error was saying it in the channel, rolling back, adding a deploy check — not \&#34;the tool glitched\&#34; when I&#39;d skipped the diff.&#34;,
         &#34;Forgiveness at Work&#34;,
         &#34;when public self-flagellation replaces fixing the system and moving on&#34;,
     ),
@@ -2365,62 +2365,62 @@ UPDATES = {
         &#34;when prep past the dose delays action on a problem that needed a move today&#34;,
     ),
     &#34;recovery&#34;: (
-        &#34;Elite athletes schedule rest days - not because they&#39;re soft, because muscle rebuilds off the field. Three late nights made my code reviews cruel. Recovery was stopping at ten instead of a fourth heroic hour that would&#39;ve hurt the team.&#34;,
+        &#34;Elite athletes schedule rest days — not because they&#39;re soft, because muscle rebuilds off the field. Three late nights made my code reviews cruel. Recovery was stopping at ten instead of a fourth heroic hour that would&#39;ve hurt the team.&#34;,
         &#34;Finish Strong&#34;,
         &#34;when rest becomes an excuse to leave the boring tail of the job open&#34;,
     ),
     &#34;reliability&#34;: (
-        &#34;The friend who shows up at 7:00, not \&#34;around seven,\&#34; is who you call in a crisis. The teammate I trust sends the recap every time and doesn&#39;t vanish when it&#39;s tedious - not the flashiest presenter, the one whose yes means yes.&#34;,
+        &#34;The friend who shows up at 7:00, not \&#34;around seven,\&#34; is who you call in a crisis. The teammate I trust sends the recap every time and doesn&#39;t vanish when it&#39;s tedious — not the flashiest presenter, the one whose yes means yes.&#34;,
         &#34;Minimum Viable Product&#34;,
         &#34;when waiting for perfect reliability blocks shipping something useful now&#34;,
     ),
     &#34;resilience&#34;: (
-        &#34;A tree that bends in a storm and keeps growing isn&#39;t pretending the wind didn&#39;t hit. Our launch flopped. Resilience was an honest postmortem, a quiet week, and a smaller bet - not rage-quitting or posting victory laps.&#34;,
+        &#34;A tree that bends in a storm and keeps growing isn&#39;t pretending the wind didn&#39;t hit. Our launch flopped. Resilience was an honest postmortem, a quiet week, and a smaller bet — not rage-quitting or posting victory laps.&#34;,
         &#34;Own the Error&#34;,
         &#34;when \&#34;bounce back\&#34; skips naming what broke and who fixes it&#34;,
     ),
     &#34;second-order-thinking&#34;: (
-        &#34;Free candy at the door grows foot traffic - then rent rises because landlords see the crowd. Our free tier spiked signups; second-order thinking asked who stays, who burns support hours, and what happens when we raise price.&#34;,
+        &#34;Free candy at the door grows foot traffic — then rent rises because landlords see the crowd. Our free tier spiked signups; second-order thinking asked who stays, who burns support hours, and what happens when we raise price.&#34;,
         &#34;Low Hanging Fruit&#34;,
         &#34;when downstream analysis blocks the obvious first move that was still worth it&#34;,
     ),
     &#34;self-control&#34;: (
-        &#34;The grocery store puts candy at checkout because impulse is predictable - self-control is the list in your hand. Thumb on the post button at midnight after a bad day: save to drafts, sleep, send tomorrow. Win the argument when you&#39;re not drunk on cortisol.&#34;,
+        &#34;The grocery store puts candy at checkout because impulse is predictable — self-control is the list in your hand. Thumb on the post button at midnight after a bad day: save to drafts, sleep, send tomorrow. Win the argument when you&#39;re not drunk on cortisol.&#34;,
         &#34;Let Your Light Shine&#34;,
         &#34;when restraint hides a good work that should&#39;ve been visible&#34;,
     ),
     &#34;situational-control&#34;: (
-        &#34;A good host ends the party before the stereo gets louder - they control the evening, not the loudest guest. The negotiation was eating my hard stop. Situational control was a fifteen-minute break and an agenda for round two - not surrendering my calendar because they talked faster.&#34;,
+        &#34;A good host ends the party before the stereo gets louder — they control the evening, not the loudest guest. The negotiation was eating my hard stop. Situational control was a fifteen-minute break and an agenda for round two — not surrendering my calendar because they talked faster.&#34;,
         &#34;Humility and Service&#34;,
         &#34;when steering the room becomes manipulation instead of service&#34;,
     ),
     &#34;slow-the-moment&#34;: (
-        &#34;ER triage nurses ask three questions before anyone sprints - speed without sorting kills. My kid melted in the grocery aisle; my first instinct matched volume for volume. Slow the moment was one breath, quieter voice, question before consequence - aisle got shorter, not louder.&#34;,
+        &#34;ER triage nurses ask three questions before anyone sprints — speed without sorting kills. My kid melted in the grocery aisle; my first instinct matched volume for volume. Slow the moment was one breath, quieter voice, question before consequence — aisle got shorter, not louder.&#34;,
         &#34;Plain Commitments at Work&#34;,
         &#34;when pausing breaks a response time a client or colleague was already promised&#34;,
     ),
     &#34;standard-operating-procedures&#34;: (
-        &#34;Checklists in cockpits exist because memory fails at 30,000 feet. Our on-call runbook is one page: dashboards, who to page, what to post. The new hire handled a 2 a.m. alert on night two without inventing steps - same as a recipe when guests are already at the table.&#34;,
+        &#34;Checklists in cockpits exist because memory fails at 30,000 feet. Our on-call runbook is one page: dashboards, who to page, what to post. The new hire handled a 2 a.m. alert on night two without inventing steps — same as a recipe when guests are already at the table.&#34;,
         &#34;Adaptability&#34;,
         &#34;when the script can&#39;t handle the novel case the runbook never saw&#34;,
     ),
     &#34;stay-effective-in-new-conditions&#34;: (
-        &#34;A great street-food cook still has to learn a new kitchen layout when the mall lease starts - same food, new tools. I was fastest on the old stack; migration meant learning the new debugger before I needed to be heroic, not defending last year&#39;s tricks in every meeting.&#34;,
+        &#34;A great street-food cook still has to learn a new kitchen layout when the mall lease starts — same food, new tools. I was fastest on the old stack; migration meant learning the new debugger before I needed to be heroic, not defending last year&#39;s tricks in every meeting.&#34;,
         &#34;Compounding&#34;,
         &#34;when chasing every new tool abandons depth that was still compounding&#34;,
     ),
     &#34;strategic-foresight&#34;: (
-        &#34;You don&#39;t buy a two-seat car the year before twins arrive. We hired for this quarter&#39;s launch; strategic foresight sketched the team at double traffic - not only filling today&#39;s gap like the org chart would never change.&#34;,
+        &#34;You don&#39;t buy a two-seat car the year before twins arrive. We hired for this quarter&#39;s launch; strategic foresight sketched the team at double traffic — not only filling today&#39;s gap like the org chart would never change.&#34;,
         &#34;Minimum Viable Product&#34;,
         &#34;when twelve-month planning blocks shipping what you can learn from this week&#34;,
     ),
     &#34;sustainable-performance&#34;: (
-        &#34;Coffee gets you through one deadline; sleep gets you through a career. The team pulled two all-nighters for a demo and shipped bugs for a month. Sustainable performance would&#39;ve cut scope and slept - same deadline, smaller slice that didn&#39;t mortgage next month.&#34;,
+        &#34;Coffee gets you through one deadline; sleep gets you through a career. The team pulled two all-nighters for a demo and shipped bugs for a month. Sustainable performance would&#39;ve cut scope and slept — same deadline, smaller slice that didn&#39;t mortgage next month.&#34;,
         &#34;The 12 Week Year&#34;,
         &#34;when a real quarterly sprint window needs short-term intensity you can&#39;t repeat all year&#34;,
     ),
     &#34;versatility&#34;: (
-        &#34;When the star striker covers defense for ten minutes, the team survives - but you don&#39;t want them forgetting their position. Design was underwater; I wrote release notes, tested builds, ran standup. Versatility kept me useful without pretending I was suddenly a designer.&#34;,
+        &#34;When the star striker covers defense for ten minutes, the team survives — but you don&#39;t want them forgetting their position. Design was underwater; I wrote release notes, tested builds, ran standup. Versatility kept me useful without pretending I was suddenly a designer.&#34;,
         &#34;Pareto Principle&#34;,
         &#34;when being helpful everywhere dilutes the core twenty percent you&#39;re actually best at&#34;,
     ),
@@ -2463,117 +2463,117 @@ NOTES = Path('content/english/notes')
 # slug -> (new_example_paragraph, contradicts_link, contradicts_reason)
 UPDATES = {
     "accountability": (
-        "After a bad deploy, our manager said \"we all own this\" - which meant nobody owned anything for a week. Accountability was one name in the channel, one rollback deadline, and one postmortem doc with real causes - the way a hospital names who is running the code, not \"the team.\"",
+        "After a bad deploy, our manager said \"we all own this\" — which meant nobody owned anything for a week. Accountability was one name in the channel, one rollback deadline, and one postmortem doc with real causes — the way a hospital names who is running the code, not \"the team.\"",
         "Forgiveness at Work",
         "when naming who owns the fix turns into a blame thread that blocks repair",
     ),
     "adaptability": (
-        "Our payment provider changed API rules with thirty days' notice. Half the team argued the old integration was \"fine.\" Adaptability was rewriting the webhook handler on a branch before the cutoff - like a restaurant switching suppliers mid-season instead of defending last month's menu.",
+        "Our payment provider changed API rules with thirty days' notice. Half the team argued the old integration was \"fine.\" Adaptability was rewriting the webhook handler on a branch before the cutoff — like a restaurant switching suppliers mid-season instead of defending last month's menu.",
         "Let Your Yes Be Yes",
         "when constant pivot breaks plain commitments people were counting on",
     ),
     "attention-to-detail": (
-        "A nurse almost gave the wrong dose because two bags looked identical - the second read of the label caught it. At work, attention to detail was re-reading the production config before deploy: one character off took staging down for an hour.",
+        "A nurse almost gave the wrong dose because two bags looked identical — the second read of the label caught it. At work, attention to detail was re-reading the production config before deploy: one character off took staging down for an hour.",
         "Minimum Viable Product",
         "when polish past the dose delays shipping the learning slice",
     ),
     "build-a-reliable-default": (
-        "Flight attendants don't invent evacuation steps mid-emergency - they run the drill they practiced. Build a reliable default was our one-page on-call card: three dashboards, who to page, what to post. Night two on call, the new hire ran it half-asleep and nobody guessed.",
+        "Flight attendants don't invent evacuation steps mid-emergency — they run the drill they practiced. Build a reliable default was our one-page on-call card: three dashboards, who to page, what to post. Night two on call, the new hire ran it half-asleep and nobody guessed.",
         "First Principles Thinking",
         "when the script blocks a novel fix the runbook never covered",
     ),
     "complete-the-cycle": (
-        "Parent-teacher night ended with \"we'll email the action plan.\" By Friday, half the parents never got it. Complete the cycle was the recap sent before anyone left the parking lot - same as closing a support ticket only after the customer confirms the fix, not when you hit Send on the first reply.",
+        "Parent-teacher night ended with \"we'll email the action plan.\" By Friday, half the parents never got it. Complete the cycle was the recap sent before anyone left the parking lot — same as closing a support ticket only after the customer confirms the fix, not when you hit Send on the first reply.",
         "Minimum Viable Product",
         "when closing every loop blocks shipping the smallest useful slice",
     ),
     "composure": (
-        "A referee stays calm when players yell - not because the foul didn't matter, but because the room takes cues from the steadiest person. Composure on my exec call was slower speech and one clarifying question while metrics got attacked - not matching their volume.",
+        "A referee stays calm when players yell — not because the foul didn't matter, but because the room takes cues from the steadiest person. Composure on my exec call was slower speech and one clarifying question while metrics got attacked — not matching their volume.",
         "The 12 Week Year",
         "when performed calm misses a real deadline the team actually committed to",
     ),
     "continuous-improvement": (
-        "Toyota's line workers pull a cord when something is off - small fixes daily, not one yearly overhaul. Our deploy checklist grew one line per incident; six months later rollbacks were boring because each pain had already become a step.",
+        "Toyota's line workers pull a cord when something is off — small fixes daily, not one yearly overhaul. Our deploy checklist grew one line per incident; six months later rollbacks were boring because each pain had already become a step.",
         "There Is No Perfect Solution",
         "when endless tweaking never ships the good-enough version",
     ),
     "control-the-rhythm": (
-        "Good therapists don't let the loudest emotion set session length - they pause, redirect, close on time. A client pinged \"need this today\" before I'd read the brief. Control the rhythm was \"I'll have a read by Thursday\" instead of half-answers that bred three more panicked pings.",
+        "Good therapists don't let the loudest emotion set session length — they pause, redirect, close on time. A client pinged \"need this today\" before I'd read the brief. Control the rhythm was \"I'll have a read by Thursday\" instead of half-answers that bred three more panicked pings.",
         "Plain Commitments at Work",
         "when slowing the room breaks a response time you already promised",
     ),
     "convert-pain-into-learning": (
-        "A pilot debriefs every rough landing - not to wallow, but so the next approach is cleaner. I bombed a talk and stewed for a week. Convert pain into learning was one page: weak transitions, rehearse bridges ten times, cut two slides. Next audience got the version the failure paid for.",
+        "A pilot debriefs every rough landing — not to wallow, but so the next approach is cleaner. I bombed a talk and stewed for a week. Convert pain into learning was one page: weak transitions, rehearse bridges ten times, cut two slides. Next audience got the version the failure paid for.",
         "Forgiveness",
         "when re-analyzing the wound becomes an excuse not to release or move on",
     ),
     "decision-quality": (
-        "Buying a house on one sunny open-house visit is how people miss the flood zone. Decision quality was one reference call before we signed the cheap vendor - the integration pain cost more than the savings we'd celebrated in the meeting.",
+        "Buying a house on one sunny open-house visit is how people miss the flood zone. Decision quality was one reference call before we signed the cheap vendor — the integration pain cost more than the savings we'd celebrated in the meeting.",
         "Low Hanging Fruit",
         "when extra diligence blocks an obvious quick win that was already good enough",
     ),
     "deliberate-practice": (
-        "A pianist runs the hard measure fifty times, not the whole concerto on autopilot. My talks died in the handoffs between sections. Deliberate practice was rehearsing only those bridges ten times - the rest I already knew.",
+        "A pianist runs the hard measure fifty times, not the whole concerto on autopilot. My talks died in the handoffs between sections. Deliberate practice was rehearsing only those bridges ten times — the rest I already knew.",
         "Compounding",
         "when drilling one weak slice ignores breadth the next role will demand",
     ),
     "discipline": (
-        "A marathon isn't won on race-day adrenaline - it's won on rainy Tuesday runs nobody films. Sunday review on week twelve isn't exciting. Discipline is opening the notes folder anyway, like brushing teeth when you're already late.",
+        "A marathon isn't won on race-day adrenaline — it's won on rainy Tuesday runs nobody films. Sunday review on week twelve isn't exciting. Discipline is opening the notes folder anyway, like brushing teeth when you're already late.",
         "Don't Worry",
         "when rigid routine becomes anxiety about missing a streak, not doing the work",
     ),
     "emotional-regulation": (
-        "You can be furious at a driver who cut you off and still not chase them - feel it, don't steer with it. The email that made my face hot got a kitchen walk before the reply. Regulation isn't numbness; it's not mailing the first draft.",
+        "You can be furious at a driver who cut you off and still not chase them — feel it, don't steer with it. The email that made my face hot got a kitchen walk before the reply. Regulation isn't numbness; it's not mailing the first draft.",
         "Turn the Other Cheek",
         "when staying calm becomes avoiding a boundary that needed to be named",
     ),
     "energy-protects-judgment": (
-        "Hospitals limit surgeon hours because tired hands slip - judgment is a motor skill too. I took a vendor call at 11 p.m. after a sixteen-hour day and escalated over a typo. At 9 a.m. it would've been two calm sentences. The vendor wasn't the problem; I was.",
+        "Hospitals limit surgeon hours because tired hands slip — judgment is a motor skill too. I took a vendor call at 11 p.m. after a sixteen-hour day and escalated over a typo. At 9 a.m. it would've been two calm sentences. The vendor wasn't the problem; I was.",
         "The 12 Week Year",
         "when protecting energy misses a real sprint window the team committed to",
     ),
     "execution": (
-        "A wedding invite means nothing if nobody books the venue. Our roadmap had color-coded phases and zero tickets. Execution started when one person named owners and dates - the way a coach's play only exists once players are on the field.",
+        "A wedding invite means nothing if nobody books the venue. Our roadmap had color-coded phases and zero tickets. Execution started when one person named owners and dates — the way a coach's play only exists once players are on the field.",
         "Slow Productivity",
         "when rushing to \"done\" on six fronts beats finishing three properly",
     ),
     "expect-the-counter": (
-        "Discount a product and competitors match by Friday - the first move isn't the game. We won a quarter on price, then three rivals copied the number. Expect the counter meant building retention before the copy arrived, not treating the first win like a forever advantage.",
+        "Discount a product and competitors match by Friday — the first move isn't the game. We won a quarter on price, then three rivals copied the number. Expect the counter meant building retention before the copy arrived, not treating the first win like a forever advantage.",
         "Low Hanging Fruit",
         "when fear of the counter blocks a simple first move that was still worth taking",
     ),
     "failure-as-feedback": (
-        "A smoke alarm isn't moral judgment - it's data. Our beta feature flopped; failure as feedback was the survey and funnel, not \"users are dumb\" or \"I'm bad at product.\" Treat the miss as instrument reading, not identity.",
+        "A smoke alarm isn't moral judgment — it's data. Our beta feature flopped; failure as feedback was the survey and funnel, not \"users are dumb\" or \"I'm bad at product.\" Treat the miss as instrument reading, not identity.",
         "Integrity When No One's Watching",
         "when \"it's just feedback\" excuses sloppy work nobody would ship on purpose",
     ),
     "follow-through": (
-        "\"I'll look into it\" without a ticket is how school projects die after the group chat goes quiet. Follow-through was the recap email with owners and dates before the standup ended - like a plumber texting when they're actually en route, not \"soon.\"",
+        "\"I'll look into it\" without a ticket is how school projects die after the group chat goes quiet. Follow-through was the recap email with owners and dates before the standup ended — like a plumber texting when they're actually en route, not \"soon.\"",
         "Forgiveness at Work",
         "when endless check-ins become nagging that erodes trust",
     ),
     "growth-mindset": (
-        "You're \"not a math person\" until you practice fractions long enough - skill isn't fixed. I failed a system design interview. Growth mindset was a study plan for weak areas, not deciding seniority was permanently out of reach.",
+        "You're \"not a math person\" until you practice fractions long enough — skill isn't fixed. I failed a system design interview. Growth mindset was a study plan for weak areas, not deciding seniority was permanently out of reach.",
         "By Their Fruits",
         "when \"still learning\" excuses the same bad outcome quarter after quarter",
     ),
     "habit-formation": (
-        "Same door, same notebook, same pocket - after thirty days you stop debating capture. Habit formation was the pad by the keys, not the color-coded Notion dashboard I never opened. Like gym shoes by the bed: remove the decision.",
+        "Same door, same notebook, same pocket — after thirty days you stop debating capture. Habit formation was the pad by the keys, not the color-coded Notion dashboard I never opened. Like gym shoes by the bed: remove the decision.",
         "First Principles Thinking",
         "when automatic habit runs past its sell-by date and nobody questions it",
     ),
     "integrity": (
-        "A scale that reads honest when the customer isn't looking is integrity in hardware. I could've marked the ticket done after a shallow patch. Integrity was the full test pass - the same standard I tell juniors we use when the manager isn't watching.",
+        "A scale that reads honest when the customer isn't looking is integrity in hardware. I could've marked the ticket done after a shallow patch. Integrity was the full test pass — the same standard I tell juniors we use when the manager isn't watching.",
         "Drafting in Public",
         "when hidden quality never helps the team because nobody sees the standard",
     ),
     "leadership": (
-        "When the kitchen catches fire, someone points to exits and counts heads - title optional. Nobody named me incident lead; leadership was status posts, owners, and keeping the channel off blame. Like a parent on a trip: calm voice, clear next step.",
+        "When the kitchen catches fire, someone points to exits and counts heads — title optional. Nobody named me incident lead; leadership was status posts, owners, and keeping the channel off blame. Like a parent on a trip: calm voice, clear next step.",
         "Servant Leadership",
         "when grabbing credit and visibility replaces making the team win",
     ),
     "own-the-error": (
-        "Surgeons do morbidity rounds - name the miss, fix the process, no fairy tales. I shipped the config that took staging down. Own the error was saying it in the channel, rolling back, adding a deploy check - not \"the tool glitched\" when I'd skipped the diff.",
+        "Surgeons do morbidity rounds — name the miss, fix the process, no fairy tales. I shipped the config that took staging down. Own the error was saying it in the channel, rolling back, adding a deploy check — not \"the tool glitched\" when I'd skipped the diff.",
         "Forgiveness at Work",
         "when public self-flagellation replaces fixing the system and moving on",
     ),
@@ -2583,62 +2583,62 @@ UPDATES = {
         "when prep past the dose delays action on a problem that needed a move today",
     ),
     "recovery": (
-        "Elite athletes schedule rest days - not because they're soft, because muscle rebuilds off the field. Three late nights made my code reviews cruel. Recovery was stopping at ten instead of a fourth heroic hour that would've hurt the team.",
+        "Elite athletes schedule rest days — not because they're soft, because muscle rebuilds off the field. Three late nights made my code reviews cruel. Recovery was stopping at ten instead of a fourth heroic hour that would've hurt the team.",
         "Finish Strong",
         "when rest becomes an excuse to leave the boring tail of the job open",
     ),
     "reliability": (
-        "The friend who shows up at 7:00, not \"around seven,\" is who you call in a crisis. The teammate I trust sends the recap every time and doesn't vanish when it's tedious - not the flashiest presenter, the one whose yes means yes.",
+        "The friend who shows up at 7:00, not \"around seven,\" is who you call in a crisis. The teammate I trust sends the recap every time and doesn't vanish when it's tedious — not the flashiest presenter, the one whose yes means yes.",
         "Minimum Viable Product",
         "when waiting for perfect reliability blocks shipping something useful now",
     ),
     "resilience": (
-        "A tree that bends in a storm and keeps growing isn't pretending the wind didn't hit. Our launch flopped. Resilience was an honest postmortem, a quiet week, and a smaller bet - not rage-quitting or posting victory laps.",
+        "A tree that bends in a storm and keeps growing isn't pretending the wind didn't hit. Our launch flopped. Resilience was an honest postmortem, a quiet week, and a smaller bet — not rage-quitting or posting victory laps.",
         "Own the Error",
         "when \"bounce back\" skips naming what broke and who fixes it",
     ),
     "second-order-thinking": (
-        "Free candy at the door grows foot traffic - then rent rises because landlords see the crowd. Our free tier spiked signups; second-order thinking asked who stays, who burns support hours, and what happens when we raise price.",
+        "Free candy at the door grows foot traffic — then rent rises because landlords see the crowd. Our free tier spiked signups; second-order thinking asked who stays, who burns support hours, and what happens when we raise price.",
         "Low Hanging Fruit",
         "when downstream analysis blocks the obvious first move that was still worth it",
     ),
     "self-control": (
-        "The grocery store puts candy at checkout because impulse is predictable - self-control is the list in your hand. Thumb on the post button at midnight after a bad day: save to drafts, sleep, send tomorrow. Win the argument when you're not drunk on cortisol.",
+        "The grocery store puts candy at checkout because impulse is predictable — self-control is the list in your hand. Thumb on the post button at midnight after a bad day: save to drafts, sleep, send tomorrow. Win the argument when you're not drunk on cortisol.",
         "Let Your Light Shine",
         "when restraint hides a good work that should've been visible",
     ),
     "situational-control": (
-        "A good host ends the party before the stereo gets louder - they control the evening, not the loudest guest. The negotiation was eating my hard stop. Situational control was a fifteen-minute break and an agenda for round two - not surrendering my calendar because they talked faster.",
+        "A good host ends the party before the stereo gets louder — they control the evening, not the loudest guest. The negotiation was eating my hard stop. Situational control was a fifteen-minute break and an agenda for round two — not surrendering my calendar because they talked faster.",
         "Humility and Service",
         "when steering the room becomes manipulation instead of service",
     ),
     "slow-the-moment": (
-        "ER triage nurses ask three questions before anyone sprints - speed without sorting kills. My kid melted in the grocery aisle; my first instinct matched volume for volume. Slow the moment was one breath, quieter voice, question before consequence - aisle got shorter, not louder.",
+        "ER triage nurses ask three questions before anyone sprints — speed without sorting kills. My kid melted in the grocery aisle; my first instinct matched volume for volume. Slow the moment was one breath, quieter voice, question before consequence — aisle got shorter, not louder.",
         "Plain Commitments at Work",
         "when pausing breaks a response time a client or colleague was already promised",
     ),
     "standard-operating-procedures": (
-        "Checklists in cockpits exist because memory fails at 30,000 feet. Our on-call runbook is one page: dashboards, who to page, what to post. The new hire handled a 2 a.m. alert on night two without inventing steps - same as a recipe when guests are already at the table.",
+        "Checklists in cockpits exist because memory fails at 30,000 feet. Our on-call runbook is one page: dashboards, who to page, what to post. The new hire handled a 2 a.m. alert on night two without inventing steps — same as a recipe when guests are already at the table.",
         "Adaptability",
         "when the script can't handle the novel case the runbook never saw",
     ),
     "stay-effective-in-new-conditions": (
-        "A great street-food cook still has to learn a new kitchen layout when the mall lease starts - same food, new tools. I was fastest on the old stack; migration meant learning the new debugger before I needed to be heroic, not defending last year's tricks in every meeting.",
+        "A great street-food cook still has to learn a new kitchen layout when the mall lease starts — same food, new tools. I was fastest on the old stack; migration meant learning the new debugger before I needed to be heroic, not defending last year's tricks in every meeting.",
         "Compounding",
         "when chasing every new tool abandons depth that was still compounding",
     ),
     "strategic-foresight": (
-        "You don't buy a two-seat car the year before twins arrive. We hired for this quarter's launch; strategic foresight sketched the team at double traffic - not only filling today's gap like the org chart would never change.",
+        "You don't buy a two-seat car the year before twins arrive. We hired for this quarter's launch; strategic foresight sketched the team at double traffic — not only filling today's gap like the org chart would never change.",
         "Minimum Viable Product",
         "when twelve-month planning blocks shipping what you can learn from this week",
     ),
     "sustainable-performance": (
-        "Coffee gets you through one deadline; sleep gets you through a career. The team pulled two all-nighters for a demo and shipped bugs for a month. Sustainable performance would've cut scope and slept - same deadline, smaller slice that didn't mortgage next month.",
+        "Coffee gets you through one deadline; sleep gets you through a career. The team pulled two all-nighters for a demo and shipped bugs for a month. Sustainable performance would've cut scope and slept — same deadline, smaller slice that didn't mortgage next month.",
         "The 12 Week Year",
         "when a real quarterly sprint window needs short-term intensity you can't repeat all year",
     ),
     "versatility": (
-        "When the star striker covers defense for ten minutes, the team survives - but you don't want them forgetting their position. Design was underwater; I wrote release notes, tested builds, ran standup. Versatility kept me useful without pretending I was suddenly a designer.",
+        "When the star striker covers defense for ten minutes, the team survives — but you don't want them forgetting their position. Design was underwater; I wrote release notes, tested builds, ran standup. Versatility kept me useful without pretending I was suddenly a designer.",
         "Pareto Principle",
         "when being helpful everywhere dilutes the core twenty percent you're actually best at",
     ),
@@ -2786,7 +2786,7 @@ All 36 notes now include contradictions and improved real-world examples.
 
 _**Agent (default)**_
 
-Updated **36 atomic notes** that were missing a `contradicts` row - all from the pressure-performance cluster. Each now has:
+Updated **36 atomic notes** that were missing a `contradicts` row — all from the pressure-performance cluster. Each now has:
 
 1. A **`contradicts`** link with a `when …` clause (per garden convention)
 2. A richer **## Example** using familiar scenes (parenting, hospitals, kitchens, sports, work incidents)

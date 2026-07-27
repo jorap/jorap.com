@@ -737,12 +737,12 @@ The [Issues page](https://www.jorap.com/notes/issues/) is driven by `collect-not
 
 ---
 
-## High value - logic already exists elsewhere
+## High value — logic already exists elsewhere
 
 These are the best candidates because the garden already computes or lints them; Issues just does not surface them yet.
 
 ### 1. Orphan notes
-**No inbound wikilinks** (`inDegree = 0`). Already computed in `graph-data.html` and filterable on [Graph](https://www.jorap.com/notes/graph/). This is the exact problem you hit with *The Second Brain Workflow* - outbound relationships do not count as inbound links.
+**No inbound wikilinks** (`inDegree = 0`). Already computed in `graph-data.html` and filterable on [Graph](https://www.jorap.com/notes/graph/). This is the exact problem you hit with *The Second Brain Workflow* — outbound relationships do not count as inbound links.
 
 ### 2. Dead ends
 **No outbound wikilinks in the body** (See also excluded). Also already in graph data. Different from orphan: a note can be well-linked *to* but still not link *out* in prose.
@@ -751,7 +751,7 @@ These are the best candidates because the garden already computes or lints them;
 Evergreen notes linking to tool/meta pages via `[[Graph]]` instead of `/notes/graph/`. Already enforced by `lint-utility-wikilinks.py` at deploy time, but invisible on Issues.
 
 ### 4. Broken relationship targets
-Wikilinks inside `relationships:` frontmatter that do not resolve - currently only body wikilinks are scanned. A note can pass Issues while its typed edges point nowhere.
+Wikilinks inside `relationships:` frontmatter that do not resolve — currently only body wikilinks are scanned. A note can pass Issues while its typed edges point nowhere.
 
 ### 5. Body sections that belong in frontmatter
 `## Key Concept`, `## Examples`, `## Note Relationships` still in the markdown body. `lint-notes-frontmatter.py` already flags these; Issues ignores them.
@@ -773,7 +773,7 @@ Same target linked twice in one note's body. Minor hygiene.
 `[[Note Title#Heading]]` where the heading does not exist on the target. Harder (need heading extraction per note) but high signal when it fires.
 
 ### 10. Relationship-only links
-Note has `extends` / `contradicts` rows but never mentions those targets in `key_concept`, `examples`, or description. The graph edge exists only in the table - weak for discovery and backlinks.
+Note has `extends` / `contradicts` rows but never mentions those targets in `key_concept`, `examples`, or description. The graph edge exists only in the table — weak for discovery and backlinks.
 
 ### 11. Missing `implements` / `alternative`
 Structure checks only require `extends` and `contradicts`. If those types matter for your model, flag their absence the same way.
@@ -802,11 +802,11 @@ Worth adding only if you want Issues to be the **one dashboard** for all garden 
 
 ## Probably skip (too noisy or subjective)
 
-- **Symmetric relationships** - A extends B but B does not extend A
-- **Title similarity / collisions** - two notes with near-identical titles
-- **Stale notes** - no edits in N months
-- **See also redundancy** - already-linked note repeated in See also
-- **Broadcast / isolated** - subsets of orphan/dead-end already covered above
+- **Symmetric relationships** — A extends B but B does not extend A
+- **Title similarity / collisions** — two notes with near-identical titles
+- **Stale notes** — no edits in N months
+- **See also redundancy** — already-linked note repeated in See also
+- **Broadcast / isolated** — subsets of orphan/dead-end already covered above
 
 ---
 
@@ -814,14 +814,14 @@ Worth adding only if you want Issues to be the **one dashboard** for all garden 
 
 If you want the smallest diff with the most maintenance payoff:
 
-1. **Orphans** + **dead ends** - reuse `graph-data.html`, link each issue to Graph with the right filter
-2. **Utility wikilinks** - port the Python target list into Hugo (or call the same registry)
-3. **Broken relationship targets** - extend the existing wikilink scan to `relationships:` frontmatter
-4. **Body sections in body** - one regex pass on `RawContent`
+1. **Orphans** + **dead ends** — reuse `graph-data.html`, link each issue to Graph with the right filter
+2. **Utility wikilinks** — port the Python target list into Hugo (or call the same registry)
+3. **Broken relationship targets** — extend the existing wikilink scan to `relationships:` frontmatter
+4. **Body sections in body** — one regex pass on `RawContent`
 
 That keeps Issues focused on **graph shape and linking** while `lint:garden` stays the gate for **authoring rules**.
 
-If you want me to implement a batch, say which tier - graph issues (1–3) are the fastest win and match how you already use Graph + Issues together.
+If you want me to implement a batch, say which tier — graph issues (1–3) are the fastest win and match how you already use Graph + Issues together.
 
 ---
 
@@ -1185,7 +1185,7 @@ The correct frontmatter keys are `key_concept`, `examples`, and `relationships`.
 
 _**Agent (auto-low)**_
 
-Fixing the body-section hint - frontmatter keys don't match heading names.
+Fixing the body-section hint — frontmatter keys don't match heading names.
 
 
 _**Agent (auto-low)**_
@@ -2180,19 +2180,19 @@ Implemented the five new issue types on the [Issues page](https://www.jorap.com/
 
 ## Files touched
 
-- `layouts/_partials/notes/collect-note-issues.html` - core scanner (reuses `graph-data.html` for orphan/dead end)
-- `layouts/notes/issues.html` - summary stats + per-note list
-- `layouts/_partials/notes/note-issues-panel.html` - per-note panel on singles
-- `layouts/_partials/notes/build-issues-report.html` - Copy issues output
-- `layouts/_partials/notes/issues-total-count.html` - new helper for toolbar badge
-- `layouts/_partials/notes/toolbar.html` - badge now counts all issue types (including pipe wikilinks, which were missing before)
-- `layouts/_partials/notes/lint-note-issues.html` - build warnings for utility, broken relationship, and body section
-- `content/english/notes/issues.md` - updated glossary
+- `layouts/_partials/notes/collect-note-issues.html` — core scanner (reuses `graph-data.html` for orphan/dead end)
+- `layouts/notes/issues.html` — summary stats + per-note list
+- `layouts/_partials/notes/note-issues-panel.html` — per-note panel on singles
+- `layouts/_partials/notes/build-issues-report.html` — Copy issues output
+- `layouts/_partials/notes/issues-total-count.html` — new helper for toolbar badge
+- `layouts/_partials/notes/toolbar.html` — badge now counts all issue types (including pipe wikilinks, which were missing before)
+- `layouts/_partials/notes/lint-note-issues.html` — build warnings for utility, broken relationship, and body section
+- `content/english/notes/issues.md` — updated glossary
 
 Cache key bumped to `note-issues-v10`.
 
 ## Current garden state
 
-After a local build, the page reports **0 issues** - the garden is clean on link errors, graph shape (0 orphans, 0 dead ends per Graph), and format. The live site's unlinked `"clear purpose"` mention was in `shareable_thought` frontmatter locally; Issues only scans assembled body content (description, key_concept, examples, relationships), not shareable lines.
+After a local build, the page reports **0 issues** — the garden is clean on link errors, graph shape (0 orphans, 0 dead ends per Graph), and format. The live site's unlinked `"clear purpose"` mention was in `shareable_thought` frontmatter locally; Issues only scans assembled body content (description, key_concept, examples, relationships), not shareable lines.
 
 Rebuild or refresh `/notes/issues/` to see the new summary lines and issue types when anything flags.

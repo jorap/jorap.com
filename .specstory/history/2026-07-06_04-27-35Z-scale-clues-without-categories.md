@@ -235,7 +235,7 @@ _**Agent (auto-low)**_
 <summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt; &#39;PYEOF&#39;
 import yaml, textwrap
 
-# Templates: (pattern, subjects list) - family-friendly, worldwide audience
+# Templates: (pattern, subjects list) — family-friendly, worldwide audience
 templates = [
     (&#34;{s} from least to most stressful on a Monday morning.&#34;, [
         &#34;Jobs&#34;, &#34;School subjects&#34;, &#34;Household chores&#34;, &#34;Errands&#34;, &#34;Morning routines&#34;,
@@ -532,7 +532,7 @@ scale_clues = {
     &#34;id&#34;: &#34;scale-clues&#34;,
     &#34;title&#34;: &#34;Ranking prompts&#34;,
     &#34;mode&#34;: &#34;ranked-prompts&#34;,
-    &#34;tagline&#34;: &#34;A topic plus a worst-to-best or least-to-most scale. Invent a clue from everyday life - no personal questions about players.&#34;,
+    &#34;tagline&#34;: &#34;A topic plus a worst-to-best or least-to-most scale. Invent a clue from everyday life — no personal questions about players.&#34;,
     &#34;play_hint&#34;: &#34;Think of a plain example that fits this ranking. Your clue should land on the 1–100 scale without saying the number.&#34;,
     &#34;items&#34;: items,
 }
@@ -550,7 +550,7 @@ PYEOF
 cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PYEOF'
 import yaml, textwrap
 
-# Templates: (pattern, subjects list) - family-friendly, worldwide audience
+# Templates: (pattern, subjects list) — family-friendly, worldwide audience
 templates = [
     ("{s} from least to most stressful on a Monday morning.", [
         "Jobs", "School subjects", "Household chores", "Errands", "Morning routines",
@@ -847,7 +847,7 @@ scale_clues = {
     "id": "scale-clues",
     "title": "Ranking prompts",
     "mode": "ranked-prompts",
-    "tagline": "A topic plus a worst-to-best or least-to-most scale. Invent a clue from everyday life - no personal questions about players.",
+    "tagline": "A topic plus a worst-to-best or least-to-most scale. Invent a clue from everyday life — no personal questions about players.",
     "play_hint": "Think of a plain example that fits this ranking. Your clue should land on the 1–100 scale without saying the number.",
     "items": items,
 }
@@ -899,7 +899,7 @@ A Python script using yaml.dump likely altered the file's formatting.
 
 _**Agent (auto-low)**_
 
-Checking the generated YAML - PyYAML may have altered formatting and some filler items look weak.
+Checking the generated YAML — PyYAML may have altered formatting and some filler items look weak.
 
 
 _**Agent (auto-low)**_
@@ -956,7 +956,7 @@ The script generated exactly 500 items from templates without needing fillers.
 
 _**Agent (auto-low)**_
 
-The YAML structure broke - `personal-scales` was nested under `scale-clues`. Fixing the file structure and verifying the item count.
+The YAML structure broke — `personal-scales` was nested under `scale-clues`. Fixing the file structure and verifying the item count.
 
 
 _**Agent (auto-low)**_
@@ -1087,14 +1087,14 @@ Done. Here's what changed:
 **`scale-clues` (Ranking prompts)**
 - Removed the 3 categories (15 prompts total)
 - Flat `items` list with **500** ranking prompts (template-generated, family-friendly)
-- Tapping the collection goes straight to shuffle - same flow as personal icebreakers and spectrums
+- Tapping the collection goes straight to shuffle — same flow as personal icebreakers and spectrums
 
 **`randomizer.js`**
 - `ranked-prompts` is now direct-play (no category step)
 - Collection card shows "500 prompts" instead of category count
 
 **`randomizer.md`**
-- Page copy updated - no mention of choosing categories
+- Page copy updated — no mention of choosing categories
 
 Examples from the new set:
 - "Jobs from least to most stressful on a Monday morning."
@@ -1129,7 +1129,7 @@ Preparing a brief summary of the task result.
 
 _**Agent (auto-low)**_
 
-**Ranking prompts** (`scale-clues`) now has **500 flat items** and no categories - tap the collection and shuffle, same as the other two decks.
+**Ranking prompts** (`scale-clues`) now has **500 flat items** and no categories — tap the collection and shuffle, same as the other two decks.
 
 `randomizer.js` treats `ranked-prompts` as direct-play, and the page copy no longer mentions categories. Hugo build completed successfully.
 
@@ -1149,7 +1149,7 @@ Scale-clues prompts should be easy to answer. Players can easily provide clues o
 
 _**Agent (auto-low)**_
 
-Reviewing scale-clues prompts for clarity and answerability - vague or abstract ones are the main risk.
+Reviewing scale-clues prompts for clarity and answerability — vague or abstract ones are the main risk.
 
 
 _**Agent (auto-low)**_
@@ -1192,7 +1192,7 @@ The best prompts are simple and unambiguous. They follow three clear formats: "H
 
 The 500-item set repeats templates with different subjects but identical scales. It includes single scenarios that cannot be ranked, ambiguous plural headers, and heavy meta-prompts. The plan is to regenerate all 500 clues around a single clear scale dimension, requiring exactly one concrete everyday noun or phrase per answer.
 
-Concrete prompts avoid ranking categories entirely. They use a direct "How [adjective] is [noun]?" structure. Examples include "How stressful is this job?" and "How loud is this animal?" The original style pairs a category with a worst-to-best scale, such as "Jobs - least to most stressful on a Monday morning."
+Concrete prompts avoid ranking categories entirely. They use a direct "How [adjective] is [noun]?" structure. Examples include "How stressful is this job?" and "How loud is this animal?" The original style pairs a category with a worst-to-best scale, such as "Jobs — least to most stressful on a Monday morning."
 
 The generator will use large categories such as foods, animals, jobs, places, sports, movies, and household objects. Scales will be limited to one clear axis, including size, heat, cost, noise, mess, danger, fun, stress, sweetness, and speed.
 
@@ -1200,7 +1200,7 @@ Likelihood scales and duplicate templates will be avoided. The 500-item list wil
 
 New axes include smell, weight, age, formality, popularity, convenience, and warmth. Clue categories now span fruits, vegetables, snacks, jobs, sports, places, weather, vehicles, clothing, kitchen items, school subjects, musical instruments, board games, household chores, colors, and materials.
 
-Four prompt formats are chosen: "Category - from low to high," "Worst to best category for situation," and "Category: least to most adjective." A Python script will generate 500 diverse clues. The play hint will be updated to require one real concrete example.
+Four prompt formats are chosen: "Category — from low to high," "Worst to best category for situation," and "Category: least to most adjective." A Python script will generate 500 diverse clues. The play hint will be updated to require one real concrete example.
 
 The 500-item set will mix roughly 200 unique category-plus-scale combinations, 150 worst-to-best-for-a-situation prompts, and 150 one-line how-questions. The goal is to vary the scale itself rather than swap only the category noun. Abstract categories like notifications or equipment sales will be eliminated, along with single-item prompts that act as their own category.
 
@@ -1209,7 +1209,7 @@ Phrases and social traits are poor clues. Pizza toppings, breakfast foods, and b
 
 _**Agent (auto-low)**_
 
-Many prompts are too abstract or meta - they ask players to rank categories instead of naming one concrete clue. Regenerating all 500 with clearer scales and answerable categories.
+Many prompts are too abstract or meta — they ask players to rank categories instead of naming one concrete clue. Regenerating all 500 with clearer scales and answerable categories.
 
 
 _**Agent (auto-low)**_
@@ -1265,7 +1265,7 @@ food_scales = [
 ]
 for cat in food_cats[:25]:
     for scale in food_scales[:4]:
-        add(f&#34;{cat} - {scale}.&#34;)
+        add(f&#34;{cat} — {scale}.&#34;)
 
 # --- Animals ---
 animal_cats = [
@@ -1290,7 +1290,7 @@ animal_scales = [
 ]
 for cat in animal_cats:
     for scale in animal_scales[:3]:
-        add(f&#34;{cat} - {scale}.&#34;)
+        add(f&#34;{cat} — {scale}.&#34;)
 
 # --- Jobs ---
 job_scales = [
@@ -1316,7 +1316,7 @@ jobs = [
 ]
 for j in jobs:
     for s in job_scales[:5]:
-        add(f&#34;{j} - {s}.&#34;)
+        add(f&#34;{j} — {s}.&#34;)
 
 # --- Places ---
 place_cats = [
@@ -1340,7 +1340,7 @@ place_scales = [
 ]
 for p in place_cats:
     for s in place_scales[:3]:
-        add(f&#34;{p} - {s}.&#34;)
+        add(f&#34;{p} — {s}.&#34;)
 
 # --- Sports &amp; activities ---
 sport_cats = [
@@ -1361,7 +1361,7 @@ sport_scales = [
 ]
 for c in sport_cats:
     for s in sport_scales[:2]:
-        add(f&#34;{c} - {s}.&#34;)
+        add(f&#34;{c} — {s}.&#34;)
 
 # --- Objects &amp; household ---
 object_cats = [
@@ -1387,7 +1387,7 @@ object_scales = [
 ]
 for c in object_cats:
     for s in object_scales[:2]:
-        add(f&#34;{c} - {s}.&#34;)
+        add(f&#34;{c} — {s}.&#34;)
 
 # --- Worst to best (situation + category, clue = one item) ---
 worst_best = [
@@ -1447,329 +1447,329 @@ for wb in worst_best:
 
 # --- Simple A-to-B scales (name one thing on the scale) ---
 simple = [
-    &#34;Common animals - least scary to most scary.&#34;,
-    &#34;Common jobs - least outdoor to most outdoor.&#34;,
-    &#34;Breakfast cereals - least sweet to most sweet.&#34;,
-    &#34;Sodas - least fizzy to most fizzy.&#34;,
-    &#34;Cheeses - mildest to strongest smell.&#34;,
-    &#34;Chocolates - least dark to most dark.&#34;,
-    &#34;Bread - softest to crunchiest.&#34;,
-    &#34;Fruits - least juicy to most juicy.&#34;,
-    &#34;Vegetables - least bitter to most bitter.&#34;,
-    &#34;Meats - leanest to fattiest.&#34;,
-    &#34;Fish - mildest to fishiest taste.&#34;,
-    &#34;Noodles - thinnest to thickest.&#34;,
-    &#34;Pasta shapes - least to most sauce-holding ability.&#34;,
-    &#34;Pizza crusts - thinnest to thickest.&#34;,
-    &#34;Ice cream - least creamy to most creamy.&#34;,
-    &#34;Coffee drinks - least to most caffeinated.&#34;,
-    &#34;Tea types - mildest to strongest flavor.&#34;,
-    &#34;Sandwich breads - softest to hardest crust.&#34;,
-    &#34;Chip flavors - blandest to boldest.&#34;,
-    &#34;Candy - least sour to most sour.&#34;,
-    &#34;Fruits - easiest to hardest to peel.&#34;,
-    &#34;Nuts - easiest to hardest to crack.&#34;,
-    &#34;Herbs - mildest to strongest smell.&#34;,
-    &#34;Peppers - mildest to hottest.&#34;,
-    &#34;Milk types - least to most creamy.&#34;,
-    &#34;Yogurt flavors - tartest to sweetest.&#34;,
-    &#34;House pets - least to most maintenance.&#34;,
-    &#34;Dog sizes - smallest to largest breed.&#34;,
-    &#34;Cat behaviors - calmest to wildest.&#34;,
-    &#34;Birds as pets - quietest to noisiest.&#34;,
-    &#34;Fish tank fish - easiest to hardest to keep alive.&#34;,
-    &#34;Farm animals - calmest to most chaotic.&#34;,
-    &#34;Zoo animals - slowest to fastest.&#34;,
-    &#34;Insects - least to most creepy.&#34;,
-    &#34;Spiders - smallest to largest (common ones).&#34;,
-    &#34;Bugs - least to most likely to fly at your face.&#34;,
-    &#34;Sea animals - shallowest to deepest habitat.&#34;,
-    &#34;Whales and dolphins - smallest to largest.&#34;,
-    &#34;Sharks - least to most feared (reputation).&#34;,
-    &#34;Dinosaurs - smallest to largest.&#34;,
-    &#34;Reptiles - slowest to fastest.&#34;,
-    &#34;Amphibians - least to most slimy.&#34;,
-    &#34;Colors - calmest to most energetic feeling.&#34;,
-    &#34;Colors - coolest to warmest feeling.&#34;,
-    &#34;Fabrics - softest to scratchiest.&#34;,
-    &#34;Metals - lightest to heaviest (common ones).&#34;,
-    &#34;Wood types - softest to hardest.&#34;,
-    &#34;Rocks - smoothest to roughest.&#34;,
-    &#34;Gemstones - least to most valuable (common knowledge).&#34;,
-    &#34;Flowers - least to most fragrant.&#34;,
-    &#34;Trees - shortest to tallest (typical).&#34;,
-    &#34;Houseplants - hardest to easiest to kill.&#34;,
-    &#34;Vegetables - fastest to slowest to cook.&#34;,
-    &#34;Fruits - fastest to slowest to ripen.&#34;,
-    &#34;Leftovers - shortest to longest fridge life.&#34;,
-    &#34;Snacks - least to most addictive.&#34;,
-    &#34;Desserts - least to most decadent.&#34;,
-    &#34;Holiday candies - least to most nostalgic.&#34;,
-    &#34;Soups - thinnest to thickest.&#34;,
-    &#34;Sauces - mildest to spiciest.&#34;,
-    &#34;Dips - creamiest to chunkiest.&#34;,
-    &#34;Spreads - sweetest to savoriest.&#34;,
-    &#34;Breakfast items - quickest to slowest to prepare.&#34;,
-    &#34;Microwave meals - worst to best quality.&#34;,
-    &#34;Frozen pizzas - thinnest to thickest crust.&#34;,
-    &#34;Fast food burgers - smallest to largest.&#34;,
-    &#34;Taco fillings - mildest to spiciest.&#34;,
-    &#34;Burrito sizes - smallest to largest.&#34;,
-    &#34;Sushi types - mildest to strongest flavor.&#34;,
-    &#34;Ramen toppings - mildest to boldest.&#34;,
-    &#34;Curry dishes - mildest to hottest.&#34;,
-    &#34;Stir-fry vegetables - quickest to slowest to cook.&#34;,
-    &#34;Smoothie fruits - least to most tart.&#34;,
-    &#34;Juice flavors - sweetest to tartest.&#34;,
-    &#34;Sodas - least to most sugary tasting.&#34;,
-    &#34;Energy drinks - mildest to strongest kick.&#34;,
-    &#34;Mocktails - least to most fancy.&#34;,
-    &#34;Cocktail names - mildest to strongest (reputation).&#34;,
-    &#34;Wine types - sweetest to driest (reputation).&#34;,
-    &#34;Beer types - lightest to darkest.&#34;,
-    &#34;Rooms - coldest to warmest in winter.&#34;,
-    &#34;Rooms - brightest to dimmest.&#34;,
-    &#34;Furniture - hardest to softest to sit on.&#34;,
-    &#34;Chairs - least to most comfortable.&#34;,
-    &#34;Beds - narrowest to widest.&#34;,
-    &#34;Pillows - flattest to fluffiest.&#34;,
-    &#34;Blankets - lightest to heaviest.&#34;,
-    &#34;Towels - roughest to softest.&#34;,
-    &#34;Soap scents - mildest to strongest.&#34;,
-    &#34;Shampoo scents - mildest to strongest.&#34;,
-    &#34;Toothpaste flavors - mildest to strongest.&#34;,
-    &#34;Cleaning products - mildest to harshest smell.&#34;,
-    &#34;Vacuum sounds - quietest to loudest.&#34;,
-    &#34;Appliances - quietest to noisiest.&#34;,
-    &#34;Kitchen gadgets - least to most useful.&#34;,
-    &#34;Knives - dullest to sharpest (when new).&#34;,
-    &#34;Pots - smallest to largest.&#34;,
-    &#34;Plates - smallest to largest.&#34;,
-    &#34;Cups - smallest to largest.&#34;,
-    &#34;Water bottles - smallest to largest.&#34;,
-    &#34;Lunch boxes - smallest to largest.&#34;,
-    &#34;Backpacks - smallest to largest.&#34;,
-    &#34;Suitcases - smallest to largest.&#34;,
-    &#34;Cars - smallest to largest.&#34;,
-    &#34;Trucks - smallest to largest.&#34;,
-    &#34;Buses - shortest to longest.&#34;,
-    &#34;Trains - slowest to fastest.&#34;,
-    &#34;Planes - smallest to largest (passenger).&#34;,
-    &#34;Boats - smallest to largest.&#34;,
-    &#34;Bikes - slowest to fastest (types).&#34;,
-    &#34;Scooters - slowest to fastest.&#34;,
-    &#34;Skateboards - stablest to wobbliest for beginners.&#34;,
-    &#34;Roller skates - easiest to hardest for beginners.&#34;,
-    &#34;Sports balls - smallest to largest.&#34;,
-    &#34;Rackets - lightest to heaviest.&#34;,
-    &#34;Gym weights - lightest to heaviest.&#34;,
-    &#34;Yoga poses - easiest to hardest.&#34;,
-    &#34;Stretches - easiest to hardest.&#34;,
-    &#34;Running distances - shortest to longest.&#34;,
-    &#34;Swimming strokes - slowest to fastest.&#34;,
-    &#34;Dance moves - easiest to hardest.&#34;,
-    &#34;Martial arts - gentlest to roughest reputation.&#34;,
-    &#34;Playground equipment - safest to scariest for parents.&#34;,
-    &#34;Theme park rides - mildest to wildest.&#34;,
-    &#34;Carnival rides - mildest to wildest.&#34;,
-    &#34;Roller coasters - shortest to longest ride.&#34;,
-    &#34;Water slides - mildest to steepest.&#34;,
-    &#34;Board games - shortest to longest play time.&#34;,
-    &#34;Card games - simplest to most complex rules.&#34;,
-    &#34;Puzzles - fewest to most pieces (typical boxes).&#34;,
-    &#34;LEGO sets - smallest to largest piece count.&#34;,
-    &#34;Video games - easiest to hardest (reputation).&#34;,
-    &#34;Movie lengths - shortest to longest (typical).&#34;,
-    &#34;Book lengths - shortest to longest (typical).&#34;,
-    &#34;Comic books - thinnest to thickest.&#34;,
-    &#34;Magazines - thinnest to thickest.&#34;,
-    &#34;Newspaper sections - thinnest to thickest.&#34;,
-    &#34;School subjects - easiest to hardest (typical student view).&#34;,
-    &#34;Homework tasks - quickest to longest.&#34;,
-    &#34;Tests - easiest to hardest (reputation).&#34;,
-    &#34;College majors - easiest to hardest (reputation).&#34;,
-    &#34;Languages - easiest to hardest for English speakers.&#34;,
-    &#34;Musical instruments - easiest to hardest to learn.&#34;,
-    &#34;Songs to sing - easiest to hardest (range).&#34;,
-    &#34;Band instruments - quietest to loudest.&#34;,
-    &#34;Orchestra sections - quietest to loudest.&#34;,
-    &#34;Art mediums - messiest to cleanest.&#34;,
-    &#34;Paint colors - lightest to darkest.&#34;,
-    &#34;Drawing tools - thinnest to thickest line.&#34;,
-    &#34;Craft supplies - messiest to tidiest.&#34;,
-    &#34;Sewing projects - simplest to most complex.&#34;,
-    &#34;Knitting projects - quickest to longest.&#34;,
-    &#34;Woodworking projects - simplest to most ambitious.&#34;,
-    &#34;DIY repairs - easiest to hardest.&#34;,
-    &#34;Tools - least to most dangerous if misused.&#34;,
-    &#34;Power tools - quietest to loudest.&#34;,
-    &#34;Hand tools - smallest to largest.&#34;,
-    &#34;Screws - smallest to largest (common).&#34;,
-    &#34;Nails - shortest to longest.&#34;,
-    &#34;Glue types - weakest to strongest bond.&#34;,
-    &#34;Tape types - weakest to strongest stick.&#34;,
-    &#34;Batteries - shortest to longest life (typical use).&#34;,
-    &#34;Light bulbs - dimmest to brightest.&#34;,
-    &#34;Candles - shortest to longest burn.&#34;,
-    &#34;Matches - hardest to easiest to light in wind.&#34;,
-    &#34;Umbrellas - smallest to largest.&#34;,
-    &#34;Rain boots - shortest to tallest.&#34;,
-    &#34;Winter coats - lightest to heaviest.&#34;,
-    &#34;Gloves - thinnest to thickest.&#34;,
-    &#34;Scarves - shortest to longest.&#34;,
-    &#34;Sunglasses - darkest to lightest tint.&#34;,
-    &#34;Watches - cheapest to most expensive (brands people know).&#34;,
-    &#34;Phones - oldest to newest generation feel.&#34;,
-    &#34;Laptops - lightest to heaviest.&#34;,
-    &#34;Tablets - smallest to largest screen.&#34;,
-    &#34;Headphones - cheapest to most expensive (reputation).&#34;,
-    &#34;Speakers - quietest to loudest.&#34;,
-    &#34;TV sizes - smallest to largest.&#34;,
-    &#34;Monitors - smallest to largest.&#34;,
-    &#34;Keyboards - quietest to loudest typing.&#34;,
-    &#34;Mice - smallest to largest.&#34;,
-    &#34;Chargers - slowest to fastest (reputation).&#34;,
-    &#34;Wi-Fi spots - weakest to strongest signal (typical places).&#34;,
-    &#34;Apps - most to least used daily (typical person).&#34;,
-    &#34;Social media platforms - calmest to most chaotic.&#34;,
-    &#34;Emojis - least to most used.&#34;,
-    &#34;Text abbreviations - oldest to newest generation.&#34;,
-    &#34;Memes - oldest to newest format (internet eras).&#34;,
-    &#34;Holidays - least to most festive.&#34;,
-    &#34;Birthday traditions - simplest to most elaborate.&#34;,
-    &#34;Wedding traditions - simplest to most elaborate.&#34;,
-    &#34;Greeting styles - most to least formal.&#34;,
-    &#34;Handshakes - weakest to firmest.&#34;,
-    &#34;Hugs - briefest to longest (social norm).&#34;,
-    &#34;Party sizes - intimate to massive.&#34;,
-    &#34;Restaurants - casual to fancy.&#34;,
-    &#34;Hotels - budget to luxury.&#34;,
-    &#34;Airlines - budget to premium (reputation).&#34;,
-    &#34;Seats on a plane - worst to best.&#34;,
-    &#34;Train seats - worst to best.&#34;,
-    &#34;Bus seats - worst to best.&#34;,
-    &#34;Traffic - lightest to heaviest (time of day).&#34;,
-    &#34;Parking spots - worst to best.&#34;,
-    &#34;Roads - smoothest to bumpiest.&#34;,
-    &#34;Bridges - shortest to longest (famous ones).&#34;,
-    &#34;Tunnels - shortest to longest.&#34;,
-    &#34;Elevators - slowest to fastest.&#34;,
-    &#34;Escalators - shortest to longest.&#34;,
-    &#34;Stairs - fewest to most steps (everyday places).&#34;,
-    &#34;Doors - lightest to heaviest to open.&#34;,
-    &#34;Windows - smallest to largest.&#34;,
-    &#34;Keys - fewest to most on a keyring.&#34;,
-    &#34;Locks - easiest to hardest to pick (movie reputation).&#34;,
-    &#34;Safes - smallest to largest.&#34;,
-    &#34;Wallets - thinnest to thickest when full.&#34;,
-    &#34;Coins - least to most value.&#34;,
-    &#34;Bills - smallest to largest denomination.&#34;,
-    &#34;Piggy banks - smallest to largest.&#34;,
-    &#34;Prizes - cheapest to most exciting at a fair.&#34;,
-    &#34;Lottery tickets - worst to best odds (reputation).&#34;,
-    &#34;Coupons - smallest to biggest savings.&#34;,
-    &#34;Sales - smallest to biggest discount events.&#34;,
-    &#34;Thrift finds - least to most surprising quality.&#34;,
-    &#34;Garage sale items - least to most valuable surprise.&#34;,
-    &#34;Antiques - least to most valuable (common sense).&#34;,
-    &#34;Collectibles - least to most valuable (reputation).&#34;,
-    &#34;Stamps - least to most valuable (reputation).&#34;,
-    &#34;Coins (collectible) - least to most valuable (reputation).&#34;,
-    &#34;Baseball cards - least to most valuable (reputation).&#34;,
-    &#34;Comic issues - least to most valuable (reputation).&#34;,
-    &#34;Action figures - least to most valuable (nostalgia).&#34;,
-    &#34;Dolls - least to most creepy (reputation).&#34;,
-    &#34;Stuffed animals - smallest to largest.&#34;,
-    &#34;Teddy bears - least to most cuddly.&#34;,
-    &#34;Toy cars - smallest to largest.&#34;,
-    &#34;Toy blocks - smallest to largest set.&#34;,
-    &#34;Dolls houses - smallest to largest.&#34;,
-    &#34;Pretend food - least to most realistic.&#34;,
-    &#34;Costumes - simplest to most elaborate.&#34;,
-    &#34;Halloween candies - least to most desired.&#34;,
-    &#34;Christmas gifts - least to most exciting unwrap.&#34;,
-    &#34;Easter candies - least to most desired.&#34;,
-    &#34;Valentine chocolates - least to most romantic.&#34;,
-    &#34;Fireworks - quietest to loudest.&#34;,
-    &#34;Sparklers - shortest to longest burn.&#34;,
-    &#34;Balloons - smallest to largest.&#34;,
-    &#34;Bubbles - smallest to largest wand.&#34;,
-    &#34;Kites - easiest to hardest to fly.&#34;,
-    &#34;Frisbees - easiest to hardest to throw straight.&#34;,
-    &#34;Yo-yos - easiest to hardest tricks.&#34;,
-    &#34;Jacks - easiest to hardest (game speed).&#34;,
-    &#34;Marbles - smallest to largest.&#34;,
-    &#34;Jump ropes - shortest to longest.&#34;,
-    &#34;Hula hoops - smallest to largest.&#34;,
-    &#34;Trampolines - smallest to largest.&#34;,
-    &#34;Pools - shallowest to deepest (backyard).&#34;,
-    &#34;Water guns - weakest to strongest stream.&#34;,
-    &#34;Sandcastles - simplest to most ambitious.&#34;,
-    &#34;Snowmen accessories - least to most essential.&#34;,
-    &#34;Sleds - slowest to fastest hill ride.&#34;,
-    &#34;Skis - shortest to longest.&#34;,
-    &#34;Snowboards - easiest to hardest for beginners.&#34;,
-    &#34;Gloves for snow - thinnest to warmest.&#34;,
-    &#34;Scarves for wind - shortest to longest protection.&#34;,
-    &#34;Campfires - smallest to largest.&#34;,
-    &#34;Tents - smallest to largest.&#34;,
-    &#34;Sleeping bags - thinnest to warmest.&#34;,
-    &#34;Camp stoves - simplest to most elaborate.&#34;,
-    &#34;Trail snacks - least to most energizing.&#34;,
-    &#34;Hiking trails - easiest to hardest (reputation).&#34;,
-    &#34;Mountain peaks - shortest to tallest climb (famous).&#34;,
-    &#34;Lakes - smallest to largest (well-known).&#34;,
-    &#34;Rivers - calmest to wildest.&#34;,
-    &#34;Waterfalls - shortest to tallest (famous).&#34;,
-    &#34;Caves - smallest to largest tourist cave.&#34;,
-    &#34;Islands - smallest to largest (famous).&#34;,
-    &#34;Deserts - driest to hottest reputation.&#34;,
-    &#34;Rainforests - wettest to densest reputation.&#34;,
-    &#34;Volcanoes - dormant to active reputation.&#34;,
-    &#34;Earthquakes - weakest to strongest (Richter examples people know).&#34;,
-    &#34;Storms - mildest to wildest.&#34;,
-    &#34;Cloud types - fluffiest to darkest.&#34;,
-    &#34;Rain - lightest to heaviest downpour words.&#34;,
-    &#34;Snow - lightest to heaviest fall words.&#34;,
-    &#34;Wind - gentlest to strongest (Beaufort words).&#34;,
-    &#34;Temperature words - coldest to hottest.&#34;,
-    &#34;Seasons - least to most favorite for outdoor BBQ.&#34;,
-    &#34;Months - coldest to hottest (Northern Hemisphere).&#34;,
-    &#34;Days of the week - most to least liked (typical).&#34;,
-    &#34;Times of day - sleepiest to most alert feeling.&#34;,
-    &#34;Alarms - gentlest to harshest sound.&#34;,
-    &#34;Morning drinks - weakest to strongest wake-up.&#34;,
-    &#34;Commutes - shortest to longest (typical).&#34;,
-    &#34;Traffic jams - briefest to longest (typical story).&#34;,
-    &#34;Meetings - shortest to longest (office joke scale).&#34;,
-    &#34;Emails - shortest to longest (typical).&#34;,
-    &#34;Phone calls - briefest to longest (typical).&#34;,
-    &#34;Texts - shortest to longest (typical).&#34;,
-    &#34;Notifications - least to most annoying.&#34;,
-    &#34;Chores - quickest to longest.&#34;,
-    &#34;Laundry loads - smallest to largest.&#34;,
-    &#34;Dishes - fewest to most after a dinner party.&#34;,
-    &#34;Trash bags - smallest to largest.&#34;,
-    &#34;Recycling bins - emptiest to fullest (typical week).&#34;,
-    &#34;Closets - tidiest to messiest (typical).&#34;,
-    &#34;Drawers - tidiest to messiest (typical).&#34;,
-    &#34;Desks - tidiest to messiest (typical).&#34;,
-    &#34;Cars inside - cleanest to messiest.&#34;,
-    &#34;Garages - tidiest to messiest.&#34;,
-    &#34;Yards - tidiest to wildest.&#34;,
-    &#34;Fences - shortest to tallest.&#34;,
-    &#34;Gates - narrowest to widest.&#34;,
-    &#34;Driveways - shortest to longest.&#34;,
-    &#34;Sidewalks - smoothest to bumpiest.&#34;,
-    &#34;Lawns - smallest to largest.&#34;,
-    &#34;Garden beds - smallest to largest.&#34;,
-    &#34;Compost piles - smallest to largest.&#34;,
-    &#34;Wood piles - smallest to largest.&#34;,
-    &#34;Tool sheds - smallest to largest.&#34;,
-    &#34;Bird feeders - simplest to most elaborate.&#34;,
-    &#34;Dog houses - smallest to largest.&#34;,
-    &#34;Chicken coops - smallest to largest.&#34;,
-    &#34;Beehives - calmest to busiest reputation.&#34;,
+    &#34;Common animals — least scary to most scary.&#34;,
+    &#34;Common jobs — least outdoor to most outdoor.&#34;,
+    &#34;Breakfast cereals — least sweet to most sweet.&#34;,
+    &#34;Sodas — least fizzy to most fizzy.&#34;,
+    &#34;Cheeses — mildest to strongest smell.&#34;,
+    &#34;Chocolates — least dark to most dark.&#34;,
+    &#34;Bread — softest to crunchiest.&#34;,
+    &#34;Fruits — least juicy to most juicy.&#34;,
+    &#34;Vegetables — least bitter to most bitter.&#34;,
+    &#34;Meats — leanest to fattiest.&#34;,
+    &#34;Fish — mildest to fishiest taste.&#34;,
+    &#34;Noodles — thinnest to thickest.&#34;,
+    &#34;Pasta shapes — least to most sauce-holding ability.&#34;,
+    &#34;Pizza crusts — thinnest to thickest.&#34;,
+    &#34;Ice cream — least creamy to most creamy.&#34;,
+    &#34;Coffee drinks — least to most caffeinated.&#34;,
+    &#34;Tea types — mildest to strongest flavor.&#34;,
+    &#34;Sandwich breads — softest to hardest crust.&#34;,
+    &#34;Chip flavors — blandest to boldest.&#34;,
+    &#34;Candy — least sour to most sour.&#34;,
+    &#34;Fruits — easiest to hardest to peel.&#34;,
+    &#34;Nuts — easiest to hardest to crack.&#34;,
+    &#34;Herbs — mildest to strongest smell.&#34;,
+    &#34;Peppers — mildest to hottest.&#34;,
+    &#34;Milk types — least to most creamy.&#34;,
+    &#34;Yogurt flavors — tartest to sweetest.&#34;,
+    &#34;House pets — least to most maintenance.&#34;,
+    &#34;Dog sizes — smallest to largest breed.&#34;,
+    &#34;Cat behaviors — calmest to wildest.&#34;,
+    &#34;Birds as pets — quietest to noisiest.&#34;,
+    &#34;Fish tank fish — easiest to hardest to keep alive.&#34;,
+    &#34;Farm animals — calmest to most chaotic.&#34;,
+    &#34;Zoo animals — slowest to fastest.&#34;,
+    &#34;Insects — least to most creepy.&#34;,
+    &#34;Spiders — smallest to largest (common ones).&#34;,
+    &#34;Bugs — least to most likely to fly at your face.&#34;,
+    &#34;Sea animals — shallowest to deepest habitat.&#34;,
+    &#34;Whales and dolphins — smallest to largest.&#34;,
+    &#34;Sharks — least to most feared (reputation).&#34;,
+    &#34;Dinosaurs — smallest to largest.&#34;,
+    &#34;Reptiles — slowest to fastest.&#34;,
+    &#34;Amphibians — least to most slimy.&#34;,
+    &#34;Colors — calmest to most energetic feeling.&#34;,
+    &#34;Colors — coolest to warmest feeling.&#34;,
+    &#34;Fabrics — softest to scratchiest.&#34;,
+    &#34;Metals — lightest to heaviest (common ones).&#34;,
+    &#34;Wood types — softest to hardest.&#34;,
+    &#34;Rocks — smoothest to roughest.&#34;,
+    &#34;Gemstones — least to most valuable (common knowledge).&#34;,
+    &#34;Flowers — least to most fragrant.&#34;,
+    &#34;Trees — shortest to tallest (typical).&#34;,
+    &#34;Houseplants — hardest to easiest to kill.&#34;,
+    &#34;Vegetables — fastest to slowest to cook.&#34;,
+    &#34;Fruits — fastest to slowest to ripen.&#34;,
+    &#34;Leftovers — shortest to longest fridge life.&#34;,
+    &#34;Snacks — least to most addictive.&#34;,
+    &#34;Desserts — least to most decadent.&#34;,
+    &#34;Holiday candies — least to most nostalgic.&#34;,
+    &#34;Soups — thinnest to thickest.&#34;,
+    &#34;Sauces — mildest to spiciest.&#34;,
+    &#34;Dips — creamiest to chunkiest.&#34;,
+    &#34;Spreads — sweetest to savoriest.&#34;,
+    &#34;Breakfast items — quickest to slowest to prepare.&#34;,
+    &#34;Microwave meals — worst to best quality.&#34;,
+    &#34;Frozen pizzas — thinnest to thickest crust.&#34;,
+    &#34;Fast food burgers — smallest to largest.&#34;,
+    &#34;Taco fillings — mildest to spiciest.&#34;,
+    &#34;Burrito sizes — smallest to largest.&#34;,
+    &#34;Sushi types — mildest to strongest flavor.&#34;,
+    &#34;Ramen toppings — mildest to boldest.&#34;,
+    &#34;Curry dishes — mildest to hottest.&#34;,
+    &#34;Stir-fry vegetables — quickest to slowest to cook.&#34;,
+    &#34;Smoothie fruits — least to most tart.&#34;,
+    &#34;Juice flavors — sweetest to tartest.&#34;,
+    &#34;Sodas — least to most sugary tasting.&#34;,
+    &#34;Energy drinks — mildest to strongest kick.&#34;,
+    &#34;Mocktails — least to most fancy.&#34;,
+    &#34;Cocktail names — mildest to strongest (reputation).&#34;,
+    &#34;Wine types — sweetest to driest (reputation).&#34;,
+    &#34;Beer types — lightest to darkest.&#34;,
+    &#34;Rooms — coldest to warmest in winter.&#34;,
+    &#34;Rooms — brightest to dimmest.&#34;,
+    &#34;Furniture — hardest to softest to sit on.&#34;,
+    &#34;Chairs — least to most comfortable.&#34;,
+    &#34;Beds — narrowest to widest.&#34;,
+    &#34;Pillows — flattest to fluffiest.&#34;,
+    &#34;Blankets — lightest to heaviest.&#34;,
+    &#34;Towels — roughest to softest.&#34;,
+    &#34;Soap scents — mildest to strongest.&#34;,
+    &#34;Shampoo scents — mildest to strongest.&#34;,
+    &#34;Toothpaste flavors — mildest to strongest.&#34;,
+    &#34;Cleaning products — mildest to harshest smell.&#34;,
+    &#34;Vacuum sounds — quietest to loudest.&#34;,
+    &#34;Appliances — quietest to noisiest.&#34;,
+    &#34;Kitchen gadgets — least to most useful.&#34;,
+    &#34;Knives — dullest to sharpest (when new).&#34;,
+    &#34;Pots — smallest to largest.&#34;,
+    &#34;Plates — smallest to largest.&#34;,
+    &#34;Cups — smallest to largest.&#34;,
+    &#34;Water bottles — smallest to largest.&#34;,
+    &#34;Lunch boxes — smallest to largest.&#34;,
+    &#34;Backpacks — smallest to largest.&#34;,
+    &#34;Suitcases — smallest to largest.&#34;,
+    &#34;Cars — smallest to largest.&#34;,
+    &#34;Trucks — smallest to largest.&#34;,
+    &#34;Buses — shortest to longest.&#34;,
+    &#34;Trains — slowest to fastest.&#34;,
+    &#34;Planes — smallest to largest (passenger).&#34;,
+    &#34;Boats — smallest to largest.&#34;,
+    &#34;Bikes — slowest to fastest (types).&#34;,
+    &#34;Scooters — slowest to fastest.&#34;,
+    &#34;Skateboards — stablest to wobbliest for beginners.&#34;,
+    &#34;Roller skates — easiest to hardest for beginners.&#34;,
+    &#34;Sports balls — smallest to largest.&#34;,
+    &#34;Rackets — lightest to heaviest.&#34;,
+    &#34;Gym weights — lightest to heaviest.&#34;,
+    &#34;Yoga poses — easiest to hardest.&#34;,
+    &#34;Stretches — easiest to hardest.&#34;,
+    &#34;Running distances — shortest to longest.&#34;,
+    &#34;Swimming strokes — slowest to fastest.&#34;,
+    &#34;Dance moves — easiest to hardest.&#34;,
+    &#34;Martial arts — gentlest to roughest reputation.&#34;,
+    &#34;Playground equipment — safest to scariest for parents.&#34;,
+    &#34;Theme park rides — mildest to wildest.&#34;,
+    &#34;Carnival rides — mildest to wildest.&#34;,
+    &#34;Roller coasters — shortest to longest ride.&#34;,
+    &#34;Water slides — mildest to steepest.&#34;,
+    &#34;Board games — shortest to longest play time.&#34;,
+    &#34;Card games — simplest to most complex rules.&#34;,
+    &#34;Puzzles — fewest to most pieces (typical boxes).&#34;,
+    &#34;LEGO sets — smallest to largest piece count.&#34;,
+    &#34;Video games — easiest to hardest (reputation).&#34;,
+    &#34;Movie lengths — shortest to longest (typical).&#34;,
+    &#34;Book lengths — shortest to longest (typical).&#34;,
+    &#34;Comic books — thinnest to thickest.&#34;,
+    &#34;Magazines — thinnest to thickest.&#34;,
+    &#34;Newspaper sections — thinnest to thickest.&#34;,
+    &#34;School subjects — easiest to hardest (typical student view).&#34;,
+    &#34;Homework tasks — quickest to longest.&#34;,
+    &#34;Tests — easiest to hardest (reputation).&#34;,
+    &#34;College majors — easiest to hardest (reputation).&#34;,
+    &#34;Languages — easiest to hardest for English speakers.&#34;,
+    &#34;Musical instruments — easiest to hardest to learn.&#34;,
+    &#34;Songs to sing — easiest to hardest (range).&#34;,
+    &#34;Band instruments — quietest to loudest.&#34;,
+    &#34;Orchestra sections — quietest to loudest.&#34;,
+    &#34;Art mediums — messiest to cleanest.&#34;,
+    &#34;Paint colors — lightest to darkest.&#34;,
+    &#34;Drawing tools — thinnest to thickest line.&#34;,
+    &#34;Craft supplies — messiest to tidiest.&#34;,
+    &#34;Sewing projects — simplest to most complex.&#34;,
+    &#34;Knitting projects — quickest to longest.&#34;,
+    &#34;Woodworking projects — simplest to most ambitious.&#34;,
+    &#34;DIY repairs — easiest to hardest.&#34;,
+    &#34;Tools — least to most dangerous if misused.&#34;,
+    &#34;Power tools — quietest to loudest.&#34;,
+    &#34;Hand tools — smallest to largest.&#34;,
+    &#34;Screws — smallest to largest (common).&#34;,
+    &#34;Nails — shortest to longest.&#34;,
+    &#34;Glue types — weakest to strongest bond.&#34;,
+    &#34;Tape types — weakest to strongest stick.&#34;,
+    &#34;Batteries — shortest to longest life (typical use).&#34;,
+    &#34;Light bulbs — dimmest to brightest.&#34;,
+    &#34;Candles — shortest to longest burn.&#34;,
+    &#34;Matches — hardest to easiest to light in wind.&#34;,
+    &#34;Umbrellas — smallest to largest.&#34;,
+    &#34;Rain boots — shortest to tallest.&#34;,
+    &#34;Winter coats — lightest to heaviest.&#34;,
+    &#34;Gloves — thinnest to thickest.&#34;,
+    &#34;Scarves — shortest to longest.&#34;,
+    &#34;Sunglasses — darkest to lightest tint.&#34;,
+    &#34;Watches — cheapest to most expensive (brands people know).&#34;,
+    &#34;Phones — oldest to newest generation feel.&#34;,
+    &#34;Laptops — lightest to heaviest.&#34;,
+    &#34;Tablets — smallest to largest screen.&#34;,
+    &#34;Headphones — cheapest to most expensive (reputation).&#34;,
+    &#34;Speakers — quietest to loudest.&#34;,
+    &#34;TV sizes — smallest to largest.&#34;,
+    &#34;Monitors — smallest to largest.&#34;,
+    &#34;Keyboards — quietest to loudest typing.&#34;,
+    &#34;Mice — smallest to largest.&#34;,
+    &#34;Chargers — slowest to fastest (reputation).&#34;,
+    &#34;Wi-Fi spots — weakest to strongest signal (typical places).&#34;,
+    &#34;Apps — most to least used daily (typical person).&#34;,
+    &#34;Social media platforms — calmest to most chaotic.&#34;,
+    &#34;Emojis — least to most used.&#34;,
+    &#34;Text abbreviations — oldest to newest generation.&#34;,
+    &#34;Memes — oldest to newest format (internet eras).&#34;,
+    &#34;Holidays — least to most festive.&#34;,
+    &#34;Birthday traditions — simplest to most elaborate.&#34;,
+    &#34;Wedding traditions — simplest to most elaborate.&#34;,
+    &#34;Greeting styles — most to least formal.&#34;,
+    &#34;Handshakes — weakest to firmest.&#34;,
+    &#34;Hugs — briefest to longest (social norm).&#34;,
+    &#34;Party sizes — intimate to massive.&#34;,
+    &#34;Restaurants — casual to fancy.&#34;,
+    &#34;Hotels — budget to luxury.&#34;,
+    &#34;Airlines — budget to premium (reputation).&#34;,
+    &#34;Seats on a plane — worst to best.&#34;,
+    &#34;Train seats — worst to best.&#34;,
+    &#34;Bus seats — worst to best.&#34;,
+    &#34;Traffic — lightest to heaviest (time of day).&#34;,
+    &#34;Parking spots — worst to best.&#34;,
+    &#34;Roads — smoothest to bumpiest.&#34;,
+    &#34;Bridges — shortest to longest (famous ones).&#34;,
+    &#34;Tunnels — shortest to longest.&#34;,
+    &#34;Elevators — slowest to fastest.&#34;,
+    &#34;Escalators — shortest to longest.&#34;,
+    &#34;Stairs — fewest to most steps (everyday places).&#34;,
+    &#34;Doors — lightest to heaviest to open.&#34;,
+    &#34;Windows — smallest to largest.&#34;,
+    &#34;Keys — fewest to most on a keyring.&#34;,
+    &#34;Locks — easiest to hardest to pick (movie reputation).&#34;,
+    &#34;Safes — smallest to largest.&#34;,
+    &#34;Wallets — thinnest to thickest when full.&#34;,
+    &#34;Coins — least to most value.&#34;,
+    &#34;Bills — smallest to largest denomination.&#34;,
+    &#34;Piggy banks — smallest to largest.&#34;,
+    &#34;Prizes — cheapest to most exciting at a fair.&#34;,
+    &#34;Lottery tickets — worst to best odds (reputation).&#34;,
+    &#34;Coupons — smallest to biggest savings.&#34;,
+    &#34;Sales — smallest to biggest discount events.&#34;,
+    &#34;Thrift finds — least to most surprising quality.&#34;,
+    &#34;Garage sale items — least to most valuable surprise.&#34;,
+    &#34;Antiques — least to most valuable (common sense).&#34;,
+    &#34;Collectibles — least to most valuable (reputation).&#34;,
+    &#34;Stamps — least to most valuable (reputation).&#34;,
+    &#34;Coins (collectible) — least to most valuable (reputation).&#34;,
+    &#34;Baseball cards — least to most valuable (reputation).&#34;,
+    &#34;Comic issues — least to most valuable (reputation).&#34;,
+    &#34;Action figures — least to most valuable (nostalgia).&#34;,
+    &#34;Dolls — least to most creepy (reputation).&#34;,
+    &#34;Stuffed animals — smallest to largest.&#34;,
+    &#34;Teddy bears — least to most cuddly.&#34;,
+    &#34;Toy cars — smallest to largest.&#34;,
+    &#34;Toy blocks — smallest to largest set.&#34;,
+    &#34;Dolls houses — smallest to largest.&#34;,
+    &#34;Pretend food — least to most realistic.&#34;,
+    &#34;Costumes — simplest to most elaborate.&#34;,
+    &#34;Halloween candies — least to most desired.&#34;,
+    &#34;Christmas gifts — least to most exciting unwrap.&#34;,
+    &#34;Easter candies — least to most desired.&#34;,
+    &#34;Valentine chocolates — least to most romantic.&#34;,
+    &#34;Fireworks — quietest to loudest.&#34;,
+    &#34;Sparklers — shortest to longest burn.&#34;,
+    &#34;Balloons — smallest to largest.&#34;,
+    &#34;Bubbles — smallest to largest wand.&#34;,
+    &#34;Kites — easiest to hardest to fly.&#34;,
+    &#34;Frisbees — easiest to hardest to throw straight.&#34;,
+    &#34;Yo-yos — easiest to hardest tricks.&#34;,
+    &#34;Jacks — easiest to hardest (game speed).&#34;,
+    &#34;Marbles — smallest to largest.&#34;,
+    &#34;Jump ropes — shortest to longest.&#34;,
+    &#34;Hula hoops — smallest to largest.&#34;,
+    &#34;Trampolines — smallest to largest.&#34;,
+    &#34;Pools — shallowest to deepest (backyard).&#34;,
+    &#34;Water guns — weakest to strongest stream.&#34;,
+    &#34;Sandcastles — simplest to most ambitious.&#34;,
+    &#34;Snowmen accessories — least to most essential.&#34;,
+    &#34;Sleds — slowest to fastest hill ride.&#34;,
+    &#34;Skis — shortest to longest.&#34;,
+    &#34;Snowboards — easiest to hardest for beginners.&#34;,
+    &#34;Gloves for snow — thinnest to warmest.&#34;,
+    &#34;Scarves for wind — shortest to longest protection.&#34;,
+    &#34;Campfires — smallest to largest.&#34;,
+    &#34;Tents — smallest to largest.&#34;,
+    &#34;Sleeping bags — thinnest to warmest.&#34;,
+    &#34;Camp stoves — simplest to most elaborate.&#34;,
+    &#34;Trail snacks — least to most energizing.&#34;,
+    &#34;Hiking trails — easiest to hardest (reputation).&#34;,
+    &#34;Mountain peaks — shortest to tallest climb (famous).&#34;,
+    &#34;Lakes — smallest to largest (well-known).&#34;,
+    &#34;Rivers — calmest to wildest.&#34;,
+    &#34;Waterfalls — shortest to tallest (famous).&#34;,
+    &#34;Caves — smallest to largest tourist cave.&#34;,
+    &#34;Islands — smallest to largest (famous).&#34;,
+    &#34;Deserts — driest to hottest reputation.&#34;,
+    &#34;Rainforests — wettest to densest reputation.&#34;,
+    &#34;Volcanoes — dormant to active reputation.&#34;,
+    &#34;Earthquakes — weakest to strongest (Richter examples people know).&#34;,
+    &#34;Storms — mildest to wildest.&#34;,
+    &#34;Cloud types — fluffiest to darkest.&#34;,
+    &#34;Rain — lightest to heaviest downpour words.&#34;,
+    &#34;Snow — lightest to heaviest fall words.&#34;,
+    &#34;Wind — gentlest to strongest (Beaufort words).&#34;,
+    &#34;Temperature words — coldest to hottest.&#34;,
+    &#34;Seasons — least to most favorite for outdoor BBQ.&#34;,
+    &#34;Months — coldest to hottest (Northern Hemisphere).&#34;,
+    &#34;Days of the week — most to least liked (typical).&#34;,
+    &#34;Times of day — sleepiest to most alert feeling.&#34;,
+    &#34;Alarms — gentlest to harshest sound.&#34;,
+    &#34;Morning drinks — weakest to strongest wake-up.&#34;,
+    &#34;Commutes — shortest to longest (typical).&#34;,
+    &#34;Traffic jams — briefest to longest (typical story).&#34;,
+    &#34;Meetings — shortest to longest (office joke scale).&#34;,
+    &#34;Emails — shortest to longest (typical).&#34;,
+    &#34;Phone calls — briefest to longest (typical).&#34;,
+    &#34;Texts — shortest to longest (typical).&#34;,
+    &#34;Notifications — least to most annoying.&#34;,
+    &#34;Chores — quickest to longest.&#34;,
+    &#34;Laundry loads — smallest to largest.&#34;,
+    &#34;Dishes — fewest to most after a dinner party.&#34;,
+    &#34;Trash bags — smallest to largest.&#34;,
+    &#34;Recycling bins — emptiest to fullest (typical week).&#34;,
+    &#34;Closets — tidiest to messiest (typical).&#34;,
+    &#34;Drawers — tidiest to messiest (typical).&#34;,
+    &#34;Desks — tidiest to messiest (typical).&#34;,
+    &#34;Cars inside — cleanest to messiest.&#34;,
+    &#34;Garages — tidiest to messiest.&#34;,
+    &#34;Yards — tidiest to wildest.&#34;,
+    &#34;Fences — shortest to tallest.&#34;,
+    &#34;Gates — narrowest to widest.&#34;,
+    &#34;Driveways — shortest to longest.&#34;,
+    &#34;Sidewalks — smoothest to bumpiest.&#34;,
+    &#34;Lawns — smallest to largest.&#34;,
+    &#34;Garden beds — smallest to largest.&#34;,
+    &#34;Compost piles — smallest to largest.&#34;,
+    &#34;Wood piles — smallest to largest.&#34;,
+    &#34;Tool sheds — smallest to largest.&#34;,
+    &#34;Bird feeders — simplest to most elaborate.&#34;,
+    &#34;Dog houses — smallest to largest.&#34;,
+    &#34;Chicken coops — smallest to largest.&#34;,
+    &#34;Beehives — calmest to busiest reputation.&#34;,
 ]
 add(*simple)
 
@@ -1777,7 +1777,7 @@ add(*simple)
 prompts = prompts[:500]
 while len(prompts) &lt; 500:
     i = len(prompts)
-    prompts.append(f&#34;Everyday objects - least to most useful (#{i+1}).&#34;)
+    prompts.append(f&#34;Everyday objects — least to most useful (#{i+1}).&#34;)
 
 print(f&#34;Count: {len(prompts)}&#34;)
 
@@ -1786,7 +1786,7 @@ bad = []
 for p in prompts:
     if re.search(r&#34;likely to (start|become|need|teach|improve)&#34;, p):
         bad.append(p)
-    if &#34;from least to most likely&#34; in p and &#34;-&#34; not in p:
+    if &#34;from least to most likely&#34; in p and &#34;—&#34; not in p:
         bad.append(p)
     if &#34;#&#34; in p:
         bad.append(p)
@@ -1799,13 +1799,13 @@ data[&#34;collections&#34;][0] = {
     &#34;id&#34;: &#34;scale-clues&#34;,
     &#34;title&#34;: &#34;Ranking prompts&#34;,
     &#34;mode&#34;: &#34;ranked-prompts&#34;,
-    &#34;tagline&#34;: &#34;A clear scale plus a category of everyday things. Name one concrete example - food, animal, job, place, or object.&#34;,
+    &#34;tagline&#34;: &#34;A clear scale plus a category of everyday things. Name one concrete example — food, animal, job, place, or object.&#34;,
     &#34;play_hint&#34;: &#34;Give one real example everyone knows (\&#34;pizza\&#34;, \&#34;nurse\&#34;, \&#34;giraffe\&#34;). It should land on the 1–100 scale without saying the number.&#34;,
     &#34;items&#34;: prompts,
 }
 
 with open(&#34;data/randomizer.yaml&#34;, &#34;w&#34;) as f:
-    f.write(&#34;# Game prompt collections. Names describe the prompt type - not branded deck titles.\n&#34;)
+    f.write(&#34;# Game prompt collections. Names describe the prompt type — not branded deck titles.\n&#34;)
     f.write(&#34;# All prompts are family-friendly and generic for a worldwide audience.\n&#34;)
     yaml.dump(data, f, default_flow_style=False, allow_unicode=True, sort_keys=False, width=1000)
 
@@ -1862,7 +1862,7 @@ food_scales = [
 ]
 for cat in food_cats[:25]:
     for scale in food_scales[:4]:
-        add(f"{cat} - {scale}.")
+        add(f"{cat} — {scale}.")
 
 # --- Animals ---
 animal_cats = [
@@ -1887,7 +1887,7 @@ animal_scales = [
 ]
 for cat in animal_cats:
     for scale in animal_scales[:3]:
-        add(f"{cat} - {scale}.")
+        add(f"{cat} — {scale}.")
 
 # --- Jobs ---
 job_scales = [
@@ -1913,7 +1913,7 @@ jobs = [
 ]
 for j in jobs:
     for s in job_scales[:5]:
-        add(f"{j} - {s}.")
+        add(f"{j} — {s}.")
 
 # --- Places ---
 place_cats = [
@@ -1937,7 +1937,7 @@ place_scales = [
 ]
 for p in place_cats:
     for s in place_scales[:3]:
-        add(f"{p} - {s}.")
+        add(f"{p} — {s}.")
 
 # --- Sports & activities ---
 sport_cats = [
@@ -1958,7 +1958,7 @@ sport_scales = [
 ]
 for c in sport_cats:
     for s in sport_scales[:2]:
-        add(f"{c} - {s}.")
+        add(f"{c} — {s}.")
 
 # --- Objects & household ---
 object_cats = [
@@ -1984,7 +1984,7 @@ object_scales = [
 ]
 for c in object_cats:
     for s in object_scales[:2]:
-        add(f"{c} - {s}.")
+        add(f"{c} — {s}.")
 
 # --- Worst to best (situation + category, clue = one item) ---
 worst_best = [
@@ -2044,329 +2044,329 @@ for wb in worst_best:
 
 # --- Simple A-to-B scales (name one thing on the scale) ---
 simple = [
-    "Common animals - least scary to most scary.",
-    "Common jobs - least outdoor to most outdoor.",
-    "Breakfast cereals - least sweet to most sweet.",
-    "Sodas - least fizzy to most fizzy.",
-    "Cheeses - mildest to strongest smell.",
-    "Chocolates - least dark to most dark.",
-    "Bread - softest to crunchiest.",
-    "Fruits - least juicy to most juicy.",
-    "Vegetables - least bitter to most bitter.",
-    "Meats - leanest to fattiest.",
-    "Fish - mildest to fishiest taste.",
-    "Noodles - thinnest to thickest.",
-    "Pasta shapes - least to most sauce-holding ability.",
-    "Pizza crusts - thinnest to thickest.",
-    "Ice cream - least creamy to most creamy.",
-    "Coffee drinks - least to most caffeinated.",
-    "Tea types - mildest to strongest flavor.",
-    "Sandwich breads - softest to hardest crust.",
-    "Chip flavors - blandest to boldest.",
-    "Candy - least sour to most sour.",
-    "Fruits - easiest to hardest to peel.",
-    "Nuts - easiest to hardest to crack.",
-    "Herbs - mildest to strongest smell.",
-    "Peppers - mildest to hottest.",
-    "Milk types - least to most creamy.",
-    "Yogurt flavors - tartest to sweetest.",
-    "House pets - least to most maintenance.",
-    "Dog sizes - smallest to largest breed.",
-    "Cat behaviors - calmest to wildest.",
-    "Birds as pets - quietest to noisiest.",
-    "Fish tank fish - easiest to hardest to keep alive.",
-    "Farm animals - calmest to most chaotic.",
-    "Zoo animals - slowest to fastest.",
-    "Insects - least to most creepy.",
-    "Spiders - smallest to largest (common ones).",
-    "Bugs - least to most likely to fly at your face.",
-    "Sea animals - shallowest to deepest habitat.",
-    "Whales and dolphins - smallest to largest.",
-    "Sharks - least to most feared (reputation).",
-    "Dinosaurs - smallest to largest.",
-    "Reptiles - slowest to fastest.",
-    "Amphibians - least to most slimy.",
-    "Colors - calmest to most energetic feeling.",
-    "Colors - coolest to warmest feeling.",
-    "Fabrics - softest to scratchiest.",
-    "Metals - lightest to heaviest (common ones).",
-    "Wood types - softest to hardest.",
-    "Rocks - smoothest to roughest.",
-    "Gemstones - least to most valuable (common knowledge).",
-    "Flowers - least to most fragrant.",
-    "Trees - shortest to tallest (typical).",
-    "Houseplants - hardest to easiest to kill.",
-    "Vegetables - fastest to slowest to cook.",
-    "Fruits - fastest to slowest to ripen.",
-    "Leftovers - shortest to longest fridge life.",
-    "Snacks - least to most addictive.",
-    "Desserts - least to most decadent.",
-    "Holiday candies - least to most nostalgic.",
-    "Soups - thinnest to thickest.",
-    "Sauces - mildest to spiciest.",
-    "Dips - creamiest to chunkiest.",
-    "Spreads - sweetest to savoriest.",
-    "Breakfast items - quickest to slowest to prepare.",
-    "Microwave meals - worst to best quality.",
-    "Frozen pizzas - thinnest to thickest crust.",
-    "Fast food burgers - smallest to largest.",
-    "Taco fillings - mildest to spiciest.",
-    "Burrito sizes - smallest to largest.",
-    "Sushi types - mildest to strongest flavor.",
-    "Ramen toppings - mildest to boldest.",
-    "Curry dishes - mildest to hottest.",
-    "Stir-fry vegetables - quickest to slowest to cook.",
-    "Smoothie fruits - least to most tart.",
-    "Juice flavors - sweetest to tartest.",
-    "Sodas - least to most sugary tasting.",
-    "Energy drinks - mildest to strongest kick.",
-    "Mocktails - least to most fancy.",
-    "Cocktail names - mildest to strongest (reputation).",
-    "Wine types - sweetest to driest (reputation).",
-    "Beer types - lightest to darkest.",
-    "Rooms - coldest to warmest in winter.",
-    "Rooms - brightest to dimmest.",
-    "Furniture - hardest to softest to sit on.",
-    "Chairs - least to most comfortable.",
-    "Beds - narrowest to widest.",
-    "Pillows - flattest to fluffiest.",
-    "Blankets - lightest to heaviest.",
-    "Towels - roughest to softest.",
-    "Soap scents - mildest to strongest.",
-    "Shampoo scents - mildest to strongest.",
-    "Toothpaste flavors - mildest to strongest.",
-    "Cleaning products - mildest to harshest smell.",
-    "Vacuum sounds - quietest to loudest.",
-    "Appliances - quietest to noisiest.",
-    "Kitchen gadgets - least to most useful.",
-    "Knives - dullest to sharpest (when new).",
-    "Pots - smallest to largest.",
-    "Plates - smallest to largest.",
-    "Cups - smallest to largest.",
-    "Water bottles - smallest to largest.",
-    "Lunch boxes - smallest to largest.",
-    "Backpacks - smallest to largest.",
-    "Suitcases - smallest to largest.",
-    "Cars - smallest to largest.",
-    "Trucks - smallest to largest.",
-    "Buses - shortest to longest.",
-    "Trains - slowest to fastest.",
-    "Planes - smallest to largest (passenger).",
-    "Boats - smallest to largest.",
-    "Bikes - slowest to fastest (types).",
-    "Scooters - slowest to fastest.",
-    "Skateboards - stablest to wobbliest for beginners.",
-    "Roller skates - easiest to hardest for beginners.",
-    "Sports balls - smallest to largest.",
-    "Rackets - lightest to heaviest.",
-    "Gym weights - lightest to heaviest.",
-    "Yoga poses - easiest to hardest.",
-    "Stretches - easiest to hardest.",
-    "Running distances - shortest to longest.",
-    "Swimming strokes - slowest to fastest.",
-    "Dance moves - easiest to hardest.",
-    "Martial arts - gentlest to roughest reputation.",
-    "Playground equipment - safest to scariest for parents.",
-    "Theme park rides - mildest to wildest.",
-    "Carnival rides - mildest to wildest.",
-    "Roller coasters - shortest to longest ride.",
-    "Water slides - mildest to steepest.",
-    "Board games - shortest to longest play time.",
-    "Card games - simplest to most complex rules.",
-    "Puzzles - fewest to most pieces (typical boxes).",
-    "LEGO sets - smallest to largest piece count.",
-    "Video games - easiest to hardest (reputation).",
-    "Movie lengths - shortest to longest (typical).",
-    "Book lengths - shortest to longest (typical).",
-    "Comic books - thinnest to thickest.",
-    "Magazines - thinnest to thickest.",
-    "Newspaper sections - thinnest to thickest.",
-    "School subjects - easiest to hardest (typical student view).",
-    "Homework tasks - quickest to longest.",
-    "Tests - easiest to hardest (reputation).",
-    "College majors - easiest to hardest (reputation).",
-    "Languages - easiest to hardest for English speakers.",
-    "Musical instruments - easiest to hardest to learn.",
-    "Songs to sing - easiest to hardest (range).",
-    "Band instruments - quietest to loudest.",
-    "Orchestra sections - quietest to loudest.",
-    "Art mediums - messiest to cleanest.",
-    "Paint colors - lightest to darkest.",
-    "Drawing tools - thinnest to thickest line.",
-    "Craft supplies - messiest to tidiest.",
-    "Sewing projects - simplest to most complex.",
-    "Knitting projects - quickest to longest.",
-    "Woodworking projects - simplest to most ambitious.",
-    "DIY repairs - easiest to hardest.",
-    "Tools - least to most dangerous if misused.",
-    "Power tools - quietest to loudest.",
-    "Hand tools - smallest to largest.",
-    "Screws - smallest to largest (common).",
-    "Nails - shortest to longest.",
-    "Glue types - weakest to strongest bond.",
-    "Tape types - weakest to strongest stick.",
-    "Batteries - shortest to longest life (typical use).",
-    "Light bulbs - dimmest to brightest.",
-    "Candles - shortest to longest burn.",
-    "Matches - hardest to easiest to light in wind.",
-    "Umbrellas - smallest to largest.",
-    "Rain boots - shortest to tallest.",
-    "Winter coats - lightest to heaviest.",
-    "Gloves - thinnest to thickest.",
-    "Scarves - shortest to longest.",
-    "Sunglasses - darkest to lightest tint.",
-    "Watches - cheapest to most expensive (brands people know).",
-    "Phones - oldest to newest generation feel.",
-    "Laptops - lightest to heaviest.",
-    "Tablets - smallest to largest screen.",
-    "Headphones - cheapest to most expensive (reputation).",
-    "Speakers - quietest to loudest.",
-    "TV sizes - smallest to largest.",
-    "Monitors - smallest to largest.",
-    "Keyboards - quietest to loudest typing.",
-    "Mice - smallest to largest.",
-    "Chargers - slowest to fastest (reputation).",
-    "Wi-Fi spots - weakest to strongest signal (typical places).",
-    "Apps - most to least used daily (typical person).",
-    "Social media platforms - calmest to most chaotic.",
-    "Emojis - least to most used.",
-    "Text abbreviations - oldest to newest generation.",
-    "Memes - oldest to newest format (internet eras).",
-    "Holidays - least to most festive.",
-    "Birthday traditions - simplest to most elaborate.",
-    "Wedding traditions - simplest to most elaborate.",
-    "Greeting styles - most to least formal.",
-    "Handshakes - weakest to firmest.",
-    "Hugs - briefest to longest (social norm).",
-    "Party sizes - intimate to massive.",
-    "Restaurants - casual to fancy.",
-    "Hotels - budget to luxury.",
-    "Airlines - budget to premium (reputation).",
-    "Seats on a plane - worst to best.",
-    "Train seats - worst to best.",
-    "Bus seats - worst to best.",
-    "Traffic - lightest to heaviest (time of day).",
-    "Parking spots - worst to best.",
-    "Roads - smoothest to bumpiest.",
-    "Bridges - shortest to longest (famous ones).",
-    "Tunnels - shortest to longest.",
-    "Elevators - slowest to fastest.",
-    "Escalators - shortest to longest.",
-    "Stairs - fewest to most steps (everyday places).",
-    "Doors - lightest to heaviest to open.",
-    "Windows - smallest to largest.",
-    "Keys - fewest to most on a keyring.",
-    "Locks - easiest to hardest to pick (movie reputation).",
-    "Safes - smallest to largest.",
-    "Wallets - thinnest to thickest when full.",
-    "Coins - least to most value.",
-    "Bills - smallest to largest denomination.",
-    "Piggy banks - smallest to largest.",
-    "Prizes - cheapest to most exciting at a fair.",
-    "Lottery tickets - worst to best odds (reputation).",
-    "Coupons - smallest to biggest savings.",
-    "Sales - smallest to biggest discount events.",
-    "Thrift finds - least to most surprising quality.",
-    "Garage sale items - least to most valuable surprise.",
-    "Antiques - least to most valuable (common sense).",
-    "Collectibles - least to most valuable (reputation).",
-    "Stamps - least to most valuable (reputation).",
-    "Coins (collectible) - least to most valuable (reputation).",
-    "Baseball cards - least to most valuable (reputation).",
-    "Comic issues - least to most valuable (reputation).",
-    "Action figures - least to most valuable (nostalgia).",
-    "Dolls - least to most creepy (reputation).",
-    "Stuffed animals - smallest to largest.",
-    "Teddy bears - least to most cuddly.",
-    "Toy cars - smallest to largest.",
-    "Toy blocks - smallest to largest set.",
-    "Dolls houses - smallest to largest.",
-    "Pretend food - least to most realistic.",
-    "Costumes - simplest to most elaborate.",
-    "Halloween candies - least to most desired.",
-    "Christmas gifts - least to most exciting unwrap.",
-    "Easter candies - least to most desired.",
-    "Valentine chocolates - least to most romantic.",
-    "Fireworks - quietest to loudest.",
-    "Sparklers - shortest to longest burn.",
-    "Balloons - smallest to largest.",
-    "Bubbles - smallest to largest wand.",
-    "Kites - easiest to hardest to fly.",
-    "Frisbees - easiest to hardest to throw straight.",
-    "Yo-yos - easiest to hardest tricks.",
-    "Jacks - easiest to hardest (game speed).",
-    "Marbles - smallest to largest.",
-    "Jump ropes - shortest to longest.",
-    "Hula hoops - smallest to largest.",
-    "Trampolines - smallest to largest.",
-    "Pools - shallowest to deepest (backyard).",
-    "Water guns - weakest to strongest stream.",
-    "Sandcastles - simplest to most ambitious.",
-    "Snowmen accessories - least to most essential.",
-    "Sleds - slowest to fastest hill ride.",
-    "Skis - shortest to longest.",
-    "Snowboards - easiest to hardest for beginners.",
-    "Gloves for snow - thinnest to warmest.",
-    "Scarves for wind - shortest to longest protection.",
-    "Campfires - smallest to largest.",
-    "Tents - smallest to largest.",
-    "Sleeping bags - thinnest to warmest.",
-    "Camp stoves - simplest to most elaborate.",
-    "Trail snacks - least to most energizing.",
-    "Hiking trails - easiest to hardest (reputation).",
-    "Mountain peaks - shortest to tallest climb (famous).",
-    "Lakes - smallest to largest (well-known).",
-    "Rivers - calmest to wildest.",
-    "Waterfalls - shortest to tallest (famous).",
-    "Caves - smallest to largest tourist cave.",
-    "Islands - smallest to largest (famous).",
-    "Deserts - driest to hottest reputation.",
-    "Rainforests - wettest to densest reputation.",
-    "Volcanoes - dormant to active reputation.",
-    "Earthquakes - weakest to strongest (Richter examples people know).",
-    "Storms - mildest to wildest.",
-    "Cloud types - fluffiest to darkest.",
-    "Rain - lightest to heaviest downpour words.",
-    "Snow - lightest to heaviest fall words.",
-    "Wind - gentlest to strongest (Beaufort words).",
-    "Temperature words - coldest to hottest.",
-    "Seasons - least to most favorite for outdoor BBQ.",
-    "Months - coldest to hottest (Northern Hemisphere).",
-    "Days of the week - most to least liked (typical).",
-    "Times of day - sleepiest to most alert feeling.",
-    "Alarms - gentlest to harshest sound.",
-    "Morning drinks - weakest to strongest wake-up.",
-    "Commutes - shortest to longest (typical).",
-    "Traffic jams - briefest to longest (typical story).",
-    "Meetings - shortest to longest (office joke scale).",
-    "Emails - shortest to longest (typical).",
-    "Phone calls - briefest to longest (typical).",
-    "Texts - shortest to longest (typical).",
-    "Notifications - least to most annoying.",
-    "Chores - quickest to longest.",
-    "Laundry loads - smallest to largest.",
-    "Dishes - fewest to most after a dinner party.",
-    "Trash bags - smallest to largest.",
-    "Recycling bins - emptiest to fullest (typical week).",
-    "Closets - tidiest to messiest (typical).",
-    "Drawers - tidiest to messiest (typical).",
-    "Desks - tidiest to messiest (typical).",
-    "Cars inside - cleanest to messiest.",
-    "Garages - tidiest to messiest.",
-    "Yards - tidiest to wildest.",
-    "Fences - shortest to tallest.",
-    "Gates - narrowest to widest.",
-    "Driveways - shortest to longest.",
-    "Sidewalks - smoothest to bumpiest.",
-    "Lawns - smallest to largest.",
-    "Garden beds - smallest to largest.",
-    "Compost piles - smallest to largest.",
-    "Wood piles - smallest to largest.",
-    "Tool sheds - smallest to largest.",
-    "Bird feeders - simplest to most elaborate.",
-    "Dog houses - smallest to largest.",
-    "Chicken coops - smallest to largest.",
-    "Beehives - calmest to busiest reputation.",
+    "Common animals — least scary to most scary.",
+    "Common jobs — least outdoor to most outdoor.",
+    "Breakfast cereals — least sweet to most sweet.",
+    "Sodas — least fizzy to most fizzy.",
+    "Cheeses — mildest to strongest smell.",
+    "Chocolates — least dark to most dark.",
+    "Bread — softest to crunchiest.",
+    "Fruits — least juicy to most juicy.",
+    "Vegetables — least bitter to most bitter.",
+    "Meats — leanest to fattiest.",
+    "Fish — mildest to fishiest taste.",
+    "Noodles — thinnest to thickest.",
+    "Pasta shapes — least to most sauce-holding ability.",
+    "Pizza crusts — thinnest to thickest.",
+    "Ice cream — least creamy to most creamy.",
+    "Coffee drinks — least to most caffeinated.",
+    "Tea types — mildest to strongest flavor.",
+    "Sandwich breads — softest to hardest crust.",
+    "Chip flavors — blandest to boldest.",
+    "Candy — least sour to most sour.",
+    "Fruits — easiest to hardest to peel.",
+    "Nuts — easiest to hardest to crack.",
+    "Herbs — mildest to strongest smell.",
+    "Peppers — mildest to hottest.",
+    "Milk types — least to most creamy.",
+    "Yogurt flavors — tartest to sweetest.",
+    "House pets — least to most maintenance.",
+    "Dog sizes — smallest to largest breed.",
+    "Cat behaviors — calmest to wildest.",
+    "Birds as pets — quietest to noisiest.",
+    "Fish tank fish — easiest to hardest to keep alive.",
+    "Farm animals — calmest to most chaotic.",
+    "Zoo animals — slowest to fastest.",
+    "Insects — least to most creepy.",
+    "Spiders — smallest to largest (common ones).",
+    "Bugs — least to most likely to fly at your face.",
+    "Sea animals — shallowest to deepest habitat.",
+    "Whales and dolphins — smallest to largest.",
+    "Sharks — least to most feared (reputation).",
+    "Dinosaurs — smallest to largest.",
+    "Reptiles — slowest to fastest.",
+    "Amphibians — least to most slimy.",
+    "Colors — calmest to most energetic feeling.",
+    "Colors — coolest to warmest feeling.",
+    "Fabrics — softest to scratchiest.",
+    "Metals — lightest to heaviest (common ones).",
+    "Wood types — softest to hardest.",
+    "Rocks — smoothest to roughest.",
+    "Gemstones — least to most valuable (common knowledge).",
+    "Flowers — least to most fragrant.",
+    "Trees — shortest to tallest (typical).",
+    "Houseplants — hardest to easiest to kill.",
+    "Vegetables — fastest to slowest to cook.",
+    "Fruits — fastest to slowest to ripen.",
+    "Leftovers — shortest to longest fridge life.",
+    "Snacks — least to most addictive.",
+    "Desserts — least to most decadent.",
+    "Holiday candies — least to most nostalgic.",
+    "Soups — thinnest to thickest.",
+    "Sauces — mildest to spiciest.",
+    "Dips — creamiest to chunkiest.",
+    "Spreads — sweetest to savoriest.",
+    "Breakfast items — quickest to slowest to prepare.",
+    "Microwave meals — worst to best quality.",
+    "Frozen pizzas — thinnest to thickest crust.",
+    "Fast food burgers — smallest to largest.",
+    "Taco fillings — mildest to spiciest.",
+    "Burrito sizes — smallest to largest.",
+    "Sushi types — mildest to strongest flavor.",
+    "Ramen toppings — mildest to boldest.",
+    "Curry dishes — mildest to hottest.",
+    "Stir-fry vegetables — quickest to slowest to cook.",
+    "Smoothie fruits — least to most tart.",
+    "Juice flavors — sweetest to tartest.",
+    "Sodas — least to most sugary tasting.",
+    "Energy drinks — mildest to strongest kick.",
+    "Mocktails — least to most fancy.",
+    "Cocktail names — mildest to strongest (reputation).",
+    "Wine types — sweetest to driest (reputation).",
+    "Beer types — lightest to darkest.",
+    "Rooms — coldest to warmest in winter.",
+    "Rooms — brightest to dimmest.",
+    "Furniture — hardest to softest to sit on.",
+    "Chairs — least to most comfortable.",
+    "Beds — narrowest to widest.",
+    "Pillows — flattest to fluffiest.",
+    "Blankets — lightest to heaviest.",
+    "Towels — roughest to softest.",
+    "Soap scents — mildest to strongest.",
+    "Shampoo scents — mildest to strongest.",
+    "Toothpaste flavors — mildest to strongest.",
+    "Cleaning products — mildest to harshest smell.",
+    "Vacuum sounds — quietest to loudest.",
+    "Appliances — quietest to noisiest.",
+    "Kitchen gadgets — least to most useful.",
+    "Knives — dullest to sharpest (when new).",
+    "Pots — smallest to largest.",
+    "Plates — smallest to largest.",
+    "Cups — smallest to largest.",
+    "Water bottles — smallest to largest.",
+    "Lunch boxes — smallest to largest.",
+    "Backpacks — smallest to largest.",
+    "Suitcases — smallest to largest.",
+    "Cars — smallest to largest.",
+    "Trucks — smallest to largest.",
+    "Buses — shortest to longest.",
+    "Trains — slowest to fastest.",
+    "Planes — smallest to largest (passenger).",
+    "Boats — smallest to largest.",
+    "Bikes — slowest to fastest (types).",
+    "Scooters — slowest to fastest.",
+    "Skateboards — stablest to wobbliest for beginners.",
+    "Roller skates — easiest to hardest for beginners.",
+    "Sports balls — smallest to largest.",
+    "Rackets — lightest to heaviest.",
+    "Gym weights — lightest to heaviest.",
+    "Yoga poses — easiest to hardest.",
+    "Stretches — easiest to hardest.",
+    "Running distances — shortest to longest.",
+    "Swimming strokes — slowest to fastest.",
+    "Dance moves — easiest to hardest.",
+    "Martial arts — gentlest to roughest reputation.",
+    "Playground equipment — safest to scariest for parents.",
+    "Theme park rides — mildest to wildest.",
+    "Carnival rides — mildest to wildest.",
+    "Roller coasters — shortest to longest ride.",
+    "Water slides — mildest to steepest.",
+    "Board games — shortest to longest play time.",
+    "Card games — simplest to most complex rules.",
+    "Puzzles — fewest to most pieces (typical boxes).",
+    "LEGO sets — smallest to largest piece count.",
+    "Video games — easiest to hardest (reputation).",
+    "Movie lengths — shortest to longest (typical).",
+    "Book lengths — shortest to longest (typical).",
+    "Comic books — thinnest to thickest.",
+    "Magazines — thinnest to thickest.",
+    "Newspaper sections — thinnest to thickest.",
+    "School subjects — easiest to hardest (typical student view).",
+    "Homework tasks — quickest to longest.",
+    "Tests — easiest to hardest (reputation).",
+    "College majors — easiest to hardest (reputation).",
+    "Languages — easiest to hardest for English speakers.",
+    "Musical instruments — easiest to hardest to learn.",
+    "Songs to sing — easiest to hardest (range).",
+    "Band instruments — quietest to loudest.",
+    "Orchestra sections — quietest to loudest.",
+    "Art mediums — messiest to cleanest.",
+    "Paint colors — lightest to darkest.",
+    "Drawing tools — thinnest to thickest line.",
+    "Craft supplies — messiest to tidiest.",
+    "Sewing projects — simplest to most complex.",
+    "Knitting projects — quickest to longest.",
+    "Woodworking projects — simplest to most ambitious.",
+    "DIY repairs — easiest to hardest.",
+    "Tools — least to most dangerous if misused.",
+    "Power tools — quietest to loudest.",
+    "Hand tools — smallest to largest.",
+    "Screws — smallest to largest (common).",
+    "Nails — shortest to longest.",
+    "Glue types — weakest to strongest bond.",
+    "Tape types — weakest to strongest stick.",
+    "Batteries — shortest to longest life (typical use).",
+    "Light bulbs — dimmest to brightest.",
+    "Candles — shortest to longest burn.",
+    "Matches — hardest to easiest to light in wind.",
+    "Umbrellas — smallest to largest.",
+    "Rain boots — shortest to tallest.",
+    "Winter coats — lightest to heaviest.",
+    "Gloves — thinnest to thickest.",
+    "Scarves — shortest to longest.",
+    "Sunglasses — darkest to lightest tint.",
+    "Watches — cheapest to most expensive (brands people know).",
+    "Phones — oldest to newest generation feel.",
+    "Laptops — lightest to heaviest.",
+    "Tablets — smallest to largest screen.",
+    "Headphones — cheapest to most expensive (reputation).",
+    "Speakers — quietest to loudest.",
+    "TV sizes — smallest to largest.",
+    "Monitors — smallest to largest.",
+    "Keyboards — quietest to loudest typing.",
+    "Mice — smallest to largest.",
+    "Chargers — slowest to fastest (reputation).",
+    "Wi-Fi spots — weakest to strongest signal (typical places).",
+    "Apps — most to least used daily (typical person).",
+    "Social media platforms — calmest to most chaotic.",
+    "Emojis — least to most used.",
+    "Text abbreviations — oldest to newest generation.",
+    "Memes — oldest to newest format (internet eras).",
+    "Holidays — least to most festive.",
+    "Birthday traditions — simplest to most elaborate.",
+    "Wedding traditions — simplest to most elaborate.",
+    "Greeting styles — most to least formal.",
+    "Handshakes — weakest to firmest.",
+    "Hugs — briefest to longest (social norm).",
+    "Party sizes — intimate to massive.",
+    "Restaurants — casual to fancy.",
+    "Hotels — budget to luxury.",
+    "Airlines — budget to premium (reputation).",
+    "Seats on a plane — worst to best.",
+    "Train seats — worst to best.",
+    "Bus seats — worst to best.",
+    "Traffic — lightest to heaviest (time of day).",
+    "Parking spots — worst to best.",
+    "Roads — smoothest to bumpiest.",
+    "Bridges — shortest to longest (famous ones).",
+    "Tunnels — shortest to longest.",
+    "Elevators — slowest to fastest.",
+    "Escalators — shortest to longest.",
+    "Stairs — fewest to most steps (everyday places).",
+    "Doors — lightest to heaviest to open.",
+    "Windows — smallest to largest.",
+    "Keys — fewest to most on a keyring.",
+    "Locks — easiest to hardest to pick (movie reputation).",
+    "Safes — smallest to largest.",
+    "Wallets — thinnest to thickest when full.",
+    "Coins — least to most value.",
+    "Bills — smallest to largest denomination.",
+    "Piggy banks — smallest to largest.",
+    "Prizes — cheapest to most exciting at a fair.",
+    "Lottery tickets — worst to best odds (reputation).",
+    "Coupons — smallest to biggest savings.",
+    "Sales — smallest to biggest discount events.",
+    "Thrift finds — least to most surprising quality.",
+    "Garage sale items — least to most valuable surprise.",
+    "Antiques — least to most valuable (common sense).",
+    "Collectibles — least to most valuable (reputation).",
+    "Stamps — least to most valuable (reputation).",
+    "Coins (collectible) — least to most valuable (reputation).",
+    "Baseball cards — least to most valuable (reputation).",
+    "Comic issues — least to most valuable (reputation).",
+    "Action figures — least to most valuable (nostalgia).",
+    "Dolls — least to most creepy (reputation).",
+    "Stuffed animals — smallest to largest.",
+    "Teddy bears — least to most cuddly.",
+    "Toy cars — smallest to largest.",
+    "Toy blocks — smallest to largest set.",
+    "Dolls houses — smallest to largest.",
+    "Pretend food — least to most realistic.",
+    "Costumes — simplest to most elaborate.",
+    "Halloween candies — least to most desired.",
+    "Christmas gifts — least to most exciting unwrap.",
+    "Easter candies — least to most desired.",
+    "Valentine chocolates — least to most romantic.",
+    "Fireworks — quietest to loudest.",
+    "Sparklers — shortest to longest burn.",
+    "Balloons — smallest to largest.",
+    "Bubbles — smallest to largest wand.",
+    "Kites — easiest to hardest to fly.",
+    "Frisbees — easiest to hardest to throw straight.",
+    "Yo-yos — easiest to hardest tricks.",
+    "Jacks — easiest to hardest (game speed).",
+    "Marbles — smallest to largest.",
+    "Jump ropes — shortest to longest.",
+    "Hula hoops — smallest to largest.",
+    "Trampolines — smallest to largest.",
+    "Pools — shallowest to deepest (backyard).",
+    "Water guns — weakest to strongest stream.",
+    "Sandcastles — simplest to most ambitious.",
+    "Snowmen accessories — least to most essential.",
+    "Sleds — slowest to fastest hill ride.",
+    "Skis — shortest to longest.",
+    "Snowboards — easiest to hardest for beginners.",
+    "Gloves for snow — thinnest to warmest.",
+    "Scarves for wind — shortest to longest protection.",
+    "Campfires — smallest to largest.",
+    "Tents — smallest to largest.",
+    "Sleeping bags — thinnest to warmest.",
+    "Camp stoves — simplest to most elaborate.",
+    "Trail snacks — least to most energizing.",
+    "Hiking trails — easiest to hardest (reputation).",
+    "Mountain peaks — shortest to tallest climb (famous).",
+    "Lakes — smallest to largest (well-known).",
+    "Rivers — calmest to wildest.",
+    "Waterfalls — shortest to tallest (famous).",
+    "Caves — smallest to largest tourist cave.",
+    "Islands — smallest to largest (famous).",
+    "Deserts — driest to hottest reputation.",
+    "Rainforests — wettest to densest reputation.",
+    "Volcanoes — dormant to active reputation.",
+    "Earthquakes — weakest to strongest (Richter examples people know).",
+    "Storms — mildest to wildest.",
+    "Cloud types — fluffiest to darkest.",
+    "Rain — lightest to heaviest downpour words.",
+    "Snow — lightest to heaviest fall words.",
+    "Wind — gentlest to strongest (Beaufort words).",
+    "Temperature words — coldest to hottest.",
+    "Seasons — least to most favorite for outdoor BBQ.",
+    "Months — coldest to hottest (Northern Hemisphere).",
+    "Days of the week — most to least liked (typical).",
+    "Times of day — sleepiest to most alert feeling.",
+    "Alarms — gentlest to harshest sound.",
+    "Morning drinks — weakest to strongest wake-up.",
+    "Commutes — shortest to longest (typical).",
+    "Traffic jams — briefest to longest (typical story).",
+    "Meetings — shortest to longest (office joke scale).",
+    "Emails — shortest to longest (typical).",
+    "Phone calls — briefest to longest (typical).",
+    "Texts — shortest to longest (typical).",
+    "Notifications — least to most annoying.",
+    "Chores — quickest to longest.",
+    "Laundry loads — smallest to largest.",
+    "Dishes — fewest to most after a dinner party.",
+    "Trash bags — smallest to largest.",
+    "Recycling bins — emptiest to fullest (typical week).",
+    "Closets — tidiest to messiest (typical).",
+    "Drawers — tidiest to messiest (typical).",
+    "Desks — tidiest to messiest (typical).",
+    "Cars inside — cleanest to messiest.",
+    "Garages — tidiest to messiest.",
+    "Yards — tidiest to wildest.",
+    "Fences — shortest to tallest.",
+    "Gates — narrowest to widest.",
+    "Driveways — shortest to longest.",
+    "Sidewalks — smoothest to bumpiest.",
+    "Lawns — smallest to largest.",
+    "Garden beds — smallest to largest.",
+    "Compost piles — smallest to largest.",
+    "Wood piles — smallest to largest.",
+    "Tool sheds — smallest to largest.",
+    "Bird feeders — simplest to most elaborate.",
+    "Dog houses — smallest to largest.",
+    "Chicken coops — smallest to largest.",
+    "Beehives — calmest to busiest reputation.",
 ]
 add(*simple)
 
@@ -2374,7 +2374,7 @@ add(*simple)
 prompts = prompts[:500]
 while len(prompts) < 500:
     i = len(prompts)
-    prompts.append(f"Everyday objects - least to most useful (#{i+1}).")
+    prompts.append(f"Everyday objects — least to most useful (#{i+1}).")
 
 print(f"Count: {len(prompts)}")
 
@@ -2383,7 +2383,7 @@ bad = []
 for p in prompts:
     if re.search(r"likely to (start|become|need|teach|improve)", p):
         bad.append(p)
-    if "from least to most likely" in p and "-" not in p:
+    if "from least to most likely" in p and "—" not in p:
         bad.append(p)
     if "#" in p:
         bad.append(p)
@@ -2396,13 +2396,13 @@ data["collections"][0] = {
     "id": "scale-clues",
     "title": "Ranking prompts",
     "mode": "ranked-prompts",
-    "tagline": "A clear scale plus a category of everyday things. Name one concrete example - food, animal, job, place, or object.",
+    "tagline": "A clear scale plus a category of everyday things. Name one concrete example — food, animal, job, place, or object.",
     "play_hint": "Give one real example everyone knows (\"pizza\", \"nurse\", \"giraffe\"). It should land on the 1–100 scale without saying the number.",
     "items": prompts,
 }
 
 with open("data/randomizer.yaml", "w") as f:
-    f.write("# Game prompt collections. Names describe the prompt type - not branded deck titles.\n")
+    f.write("# Game prompt collections. Names describe the prompt type — not branded deck titles.\n")
     f.write("# All prompts are family-friendly and generic for a worldwide audience.\n")
     yaml.dump(data, f, default_flow_style=False, allow_unicode=True, sort_keys=False, width=1000)
 
@@ -2581,7 +2581,7 @@ print('sample:', items[0], '|', items[200], '|', items[-1])
 
 ```
 count 500
-sample: Fruits - least to most messy to eat. | Science jobs - least to most stressful on a Monday morning. | Rooms - brightest to dimmest.
+sample: Fruits — least to most messy to eat. | Science jobs — least to most stressful on a Monday morning. | Rooms — brightest to dimmest.
 
 ```
 </details></tool-use>
@@ -2591,18 +2591,18 @@ _**Agent (auto-low)**_
 The scale-clues deck is rebuilt for **one concrete answer per prompt**.
 
 **What was wrong before**
-Many prompts were meta or abstract - e.g. “Morning rituals from least to most refreshing” or “Traffic patterns from least to most likely to teach patience.” Those don’t give a clear thing to name.
+Many prompts were meta or abstract — e.g. “Morning rituals from least to most refreshing” or “Traffic patterns from least to most likely to teach patience.” Those don’t give a clear thing to name.
 
 **New format**
 Each prompt is **category + clear scale**, with an em dash:
 
-- `Fruits - least to most messy to eat.` → clue: “watermelon”
-- `Jobs - least to most stressful on a Monday morning.` → clue: “dentist”
+- `Fruits — least to most messy to eat.` → clue: “watermelon”
+- `Jobs — least to most stressful on a Monday morning.` → clue: “dentist”
 - `Worst to best snacks to eat in a quiet library.` → clue: “carrots”
 
 **Also updated**
-- **play_hint** - name one real example (`"pizza"`, `"nurse"`, `"giraffe"`)
-- **tagline** - states you’re naming a concrete thing
+- **play_hint** — name one real example (`"pizza"`, `"nurse"`, `"giraffe"`)
+- **tagline** — states you’re naming a concrete thing
 - Removed alcohol prompts; swapped in family-friendly ones (milkshakes, lemonade, popcorn, cotton candy)
 
 Still **500 prompts**, all aimed at nouns everyone knows: foods, animals, jobs, places, objects, games.
@@ -2843,7 +2843,7 @@ Result:
 
 ```json
 {
-  "markdown": "Get Your Thoughts in Order in ‘ito’ – GeekDad\n\nOn a scale of 1 to 100 of things that make you happy, what would 37 be?\n\n## What Is ito?\n\nito is a cooperative party game for 2 to 10 players, ages 8 and up, and takes about 10 minutes to play (though that can vary based on player count and how much time you spend gabbing). It retails for $14.99 and is available in stores; Arcane Wonders is currently sold out but you can be notified when it’s back in stock. The version in this review is from Arcane Wonders, though there are previously published versions-this appears to take some of the rules of ito Rainbow from 2022, itself a variation from 2019’s ito.\n\nito was designed by Mitsuru Nakamura and published by Arclight Games with Arcane Wonders, with illustrations by Nadia Carrim.\n\nito components. Photo: Jonathan H. Liu\n\n## ito Components\n\nito‘s components are pretty simple:\n\n- Visit GeekMom\n- Zero card\n- 100 Number cards\n- 50 Category cards\n- 30 Player cards (3 per player)\n\nThe 3 Promises of ito. Photo: Jonathan H. Liu\n\nThe zero card has a 0 on one side, and on the other has “3 Promises of ito” to help set expectations: the main goal is for everyone to have fun, you can help other people think of ideas, and enjoy the different ways of thinking.\n\nEvery number card has a little thread decoration at the bottom. Photo: Jonathan H. Liu\n\nThe number cards go from 1 to 100 and the cards are easy to read: a large number on a white background, with a little decoration at the bottom. The decorations are all one-line drawings that extend to both edges of the card, so that when you play all of the numbers in a line, it forms a continuous line across them, representing a connecting “thread,” one of the translations of the Japanese word “ito.”\n\nCategory cards: everyone, family, and action. Photo: Jonathan H. Liu\n\nCategory cards are double-sided and there’s a wide variety of topics. Some are simply phrased like “Popular ____” and others are
+  "markdown": "Get Your Thoughts in Order in ‘ito’ – GeekDad\n\nOn a scale of 1 to 100 of things that make you happy, what would 37 be?\n\n## What Is ito?\n\nito is a cooperative party game for 2 to 10 players, ages 8 and up, and takes about 10 minutes to play (though that can vary based on player count and how much time you spend gabbing). It retails for $14.99 and is available in stores; Arcane Wonders is currently sold out but you can be notified when it’s back in stock. The version in this review is from Arcane Wonders, though there are previously published versions—this appears to take some of the rules of ito Rainbow from 2022, itself a variation from 2019’s ito.\n\nito was designed by Mitsuru Nakamura and published by Arclight Games with Arcane Wonders, with illustrations by Nadia Carrim.\n\nito components. Photo: Jonathan H. Liu\n\n## ito Components\n\nito‘s components are pretty simple:\n\n- Visit GeekMom\n- Zero card\n- 100 Number cards\n- 50 Category cards\n- 30 Player cards (3 per player)\n\nThe 3 Promises of ito. Photo: Jonathan H. Liu\n\nThe zero card has a 0 on one side, and on the other has “3 Promises of ito” to help set expectations: the main goal is for everyone to have fun, you can help other people think of ideas, and enjoy the different ways of thinking.\n\nEvery number card has a little thread decoration at the bottom. Photo: Jonathan H. Liu\n\nThe number cards go from 1 to 100 and the cards are easy to read: a large number on a white background, with a little decoration at the bottom. The decorations are all one-line drawings that extend to both edges of the card, so that when you play all of the numbers in a line, it forms a continuous line across them, representing a connecting “thread,” one of the translations of the Japanese word “ito.”\n\nCategory cards: everyone, family, and action. Photo: Jonathan H. Liu\n\nCategory cards are double-sided and there’s a wide variety of topics. Some are simply phrased like “Popular ____” and others are
 … (output truncated)
 ```
 User decision: **accepted**
@@ -2864,7 +2864,7 @@ with open(&#39;data/randomizer.yaml&#39;) as f:
 items = data[&#39;collections&#39;][0][&#39;items&#39;]
 
 # Pattern stats
-has_em_dash = sum(1 for i in items if &#39; - &#39; in i)
+has_em_dash = sum(1 for i in items if &#39; — &#39; in i)
 worst_best = sum(1 for i in items if i.startswith(&#39;Worst to best&#39;))
 popularity = sum(1 for i in items if &#39;popular&#39; in i.lower() or &#39;reputation&#39; in i.lower())
 personal = sum(1 for i in items if any(x in i.lower() for x in [&#39;typical&#39;, &#39;office joke&#39;, &#39;your &#39;, &#39;person on&#39;]))
@@ -2872,8 +2872,8 @@ personal = sum(1 for i in items if any(x in i.lower() for x in [&#39;typical&#39
 # Extract scale endings
 scales = Counter()
 for i in items:
-    if &#39; - &#39; in i:
-        scales[i.split(&#39; - &#39;,1)[1]] += 1
+    if &#39; — &#39; in i:
+        scales[i.split(&#39; — &#39;,1)[1]] += 1
     elif i.startswith(&#39;Worst to best&#39;):
         scales[&#39;worst-to-best situational&#39;] += 1
 
@@ -2893,7 +2893,7 @@ with open('data/randomizer.yaml') as f:
 items = data['collections'][0]['items']
 
 # Pattern stats
-has_em_dash = sum(1 for i in items if ' - ' in i)
+has_em_dash = sum(1 for i in items if ' — ' in i)
 worst_best = sum(1 for i in items if i.startswith('Worst to best'))
 popularity = sum(1 for i in items if 'popular' in i.lower() or 'reputation' in i.lower())
 personal = sum(1 for i in items if any(x in i.lower() for x in ['typical', 'office joke', 'your ', 'person on']))
@@ -2901,8 +2901,8 @@ personal = sum(1 for i in items if any(x in i.lower() for x in ['typical', 'offi
 # Extract scale endings
 scales = Counter()
 for i in items:
-    if ' - ' in i:
-        scales[i.split(' - ',1)[1]] += 1
+    if ' — ' in i:
+        scales[i.split(' — ',1)[1]] += 1
     elif i.startswith('Worst to best'):
         scales['worst-to-best situational'] += 1
 
@@ -2945,14 +2945,14 @@ Hypothetical scenarios like desert island items or zombie combat gear appear in 
 
 Scale-clues is taxonomy-driven and repetitive. It lacks personal prompts, popularity scales, and action cards. The content is fully family-friendly and globally generic. It does not use secret numbers or cooperative ordering. It simply displays prompts without those mechanics.
 
-Scale-clues favors objective attributes like messy, loud, and heavy over subjective ones. Playfulness is lower because the game treats rankings as textbook facts rather than playful debate. One overlap example is the Ito prompt "spiciest food" matching scale-clues "Peppers - mildest to hottest" and "Sauces - mildest to spiciest."
+Scale-clues favors objective attributes like messy, loud, and heavy over subjective ones. Playfulness is lower because the game treats rankings as textbook facts rather than playful debate. One overlap example is the Ito prompt "spiciest food" matching scale-clues "Peppers — mildest to hottest" and "Sauces — mildest to spiciest."
 </details></think>
 
 _**Agent (auto-low)**_
 
 ## How they relate
 
-Both use the same core loop: a **1–100 scale**, one **clue** per player, no numbers in the clue. In **Ito** everyone has a secret number and lines cards up cooperatively; your **scale-clues** deck only supplies the theme - no numbers, no ordering mechanic.
+Both use the same core loop: a **1–100 scale**, one **clue** per player, no numbers in the clue. In **Ito** everyone has a secret number and lines cards up cooperatively; your **scale-clues** deck only supplies the theme — no numbers, no ordering mechanic.
 
 ---
 
@@ -2962,11 +2962,11 @@ From rules, reviews, and the [full Japanese theme list](https://gamearekore.com/
 
 | Ito style | Examples | Share of deck |
 |-----------|----------|----------------|
-| **Popularity** | “Food popularity”, “Movie popularity”, “Board game popularity” | Large - maybe half |
+| **Popularity** | “Food popularity”, “Movie popularity”, “Board game popularity” | Large — maybe half |
 | **Situational / open sentence** | “Things you want to do when you are tired”, “Superpowers you would like to have” | Common; [GeekDad notes groups prefer these](https://geekdad.com/2025/03/get-your-thoughts-in-order-in-ito/) over bare popularity |
 | **Hypothetical** | “Things to bring to a deserted island”, “Things to bring when fighting zombies” | Several |
 | **Attribute scale** | “Spiciest food”, “Biggest animal”, “Scary things”, “Soft things” | Common |
-| **Personal / subjective** | “Things that make you happy”, “Powers you’d want” - ranked by **your** intention | Core to the fun |
+| **Personal / subjective** | “Things that make you happy”, “Powers you’d want” — ranked by **your** intention | Core to the fun |
 | **Action** | “Most ridiculous dance (act it out!)” | Small black-card set |
 | **Adult / local** | Dating spots, bar snacks, anime idols, convenience-store items | Pink cards / Japan edition |
 
@@ -2978,13 +2978,13 @@ From rules, reviews, and the [full Japanese theme list](https://gamearekore.com/
 
 | Your style | Examples | Share |
 |------------|----------|-------|
-| **Category + explicit axis** | `Fruits - least to most messy to eat.` | ~90% |
+| **Category + explicit axis** | `Fruits — least to most messy to eat.` | ~90% |
 | **Situation ranking** | `Worst to best snacks to eat in a quiet library.` | ~10% |
 | **Popularity** | Rare (`reputation`, almost no “how popular”) | Low |
 | **Personal / situational** | Avoided on purpose (“no personal questions about players”) | None |
 | **Action / silly hypotheticals** | None | None |
 
-**Your example:** `Peppers - mildest to hottest.` → clue: “bell pepper” vs “habanero”. Clear axis, concrete noun - easy to answer, less room for “what did you *mean*?” debate.
+**Your example:** `Peppers — mildest to hottest.` → clue: “bell pepper” vs “habanero”. Clear axis, concrete noun — easy to answer, less room for “what did you *mean*?” debate.
 
 ---
 
@@ -2993,9 +2993,9 @@ From rules, reviews, and the [full Japanese theme list](https://gamearekore.com/
 | | **Ito** | **scale-clues** |
 |---|---------|-----------------|
 | **Count** | ~50 themes | 500 |
-| **Wording** | Short theme sentence | `Category - scale` |
+| **Wording** | Short theme sentence | `Category — scale` |
 | **Clue type** | Thing, phrase, sometimes action | Almost always one noun |
-| **Subjectivity** | High - intention matters | Lower - more “objective” ranking |
+| **Subjectivity** | High — intention matters | Lower — more “objective” ranking |
 | **Popularity prompts** | Very common | Rare |
 | **Situational prompts** | Common, fan-favorite | 50 prompts |
 | **Culture** | Japan-local + fandom | Worldwide generic |
@@ -3003,9 +3003,9 @@ From rules, reviews, and the [full Japanese theme list](https://gamearekore.com/
 | **Repetition** | Low (50 unique voices) | Higher (food × sweet/spicy/salty/messy grid) |
 
 **Strong overlap (same vibe):**
-- Ito “spiciest food” ↔ `Sauces - mildest to spiciest.`
-- Ito “animal size” ↔ `Farm animals - smallest to largest.`
-- Ito “scary things” ↔ `Common animals - least scary to most scary.`
+- Ito “spiciest food” ↔ `Sauces — mildest to spiciest.`
+- Ito “animal size” ↔ `Farm animals — smallest to largest.`
+- Ito “scary things” ↔ `Common animals — least scary to most scary.`
 - Ito “desert island items” ↔ `Worst to best items to forget on a camping trip.` (partial)
 
 **Ito has, you don’t:**
@@ -3030,11 +3030,11 @@ From rules, reviews, and the [full Japanese theme list](https://gamearekore.com/
 
 If you want it to *feel* more like Ito without copying the game, the biggest gaps are:
 1. More **open situational** prompts (“Things to do when you can’t sleep”)
-2. Some **popularity** themes (“Snack brands - least to most popular”)
+2. Some **popularity** themes (“Snack brands — least to most popular”)
 3. A few **hypothetical** rounds (“Things to bring on a deserted island”)
 4. Less **template repetition** (fewer `Food type × same 4 scales` variants)
 
-I can reshape the deck toward that mix if you want - e.g. 60% Ito-like situational/popularity, 40% current attribute style.
+I can reshape the deck toward that mix if you want — e.g. 60% Ito-like situational/popularity, 40% current attribute style.
 
 ---
 
@@ -3616,13 +3616,13 @@ data[&#39;collections&#39;][0] = {
     &#39;id&#39;: &#39;scale-clues&#39;,
     &#39;title&#39;: &#39;Ranking prompts&#39;,
     &#39;mode&#39;: &#39;ranked-prompts&#39;,
-    &#39;tagline&#39;: &#39;Open situations and what-if scenarios. Name one concrete example - the group ranks it from 1 to 100.&#39;,
+    &#39;tagline&#39;: &#39;Open situations and what-if scenarios. Name one concrete example — the group ranks it from 1 to 100.&#39;,
     &#39;play_hint&#39;: &#39;Give one real example (&#34;flashlight&#34;, &#34;take a nap&#34;, &#34;duct tape&#34;). Your clue should land on the scale without saying the number.&#39;,
     &#39;items&#39;: prompts,
 }
 
 with open(&#39;data/randomizer.yaml&#39;, &#39;w&#39;) as f:
-    f.write(&#39;# Game prompt collections. Names describe the prompt type - not branded deck titles.\n&#39;)
+    f.write(&#39;# Game prompt collections. Names describe the prompt type — not branded deck titles.\n&#39;)
     f.write(&#39;# All prompts are family-friendly and generic for a worldwide audience.\n&#39;)
     yaml.dump(data, f, default_flow_style=False, allow_unicode=True, sort_keys=False, width=1000)
 
@@ -4124,13 +4124,13 @@ data['collections'][0] = {
     'id': 'scale-clues',
     'title': 'Ranking prompts',
     'mode': 'ranked-prompts',
-    'tagline': 'Open situations and what-if scenarios. Name one concrete example - the group ranks it from 1 to 100.',
+    'tagline': 'Open situations and what-if scenarios. Name one concrete example — the group ranks it from 1 to 100.',
     'play_hint': 'Give one real example ("flashlight", "take a nap", "duct tape"). Your clue should land on the scale without saying the number.',
     'items': prompts,
 }
 
 with open('data/randomizer.yaml', 'w') as f:
-    f.write('# Game prompt collections. Names describe the prompt type - not branded deck titles.\n')
+    f.write('# Game prompt collections. Names describe the prompt type — not branded deck titles.\n')
     f.write('# All prompts are family-friendly and generic for a worldwide audience.\n')
     yaml.dump(data, f, default_flow_style=False, allow_unicode=True, sort_keys=False, width=1000)
 
@@ -4149,7 +4149,7 @@ Last 3: ["Things you'd want during a neighborhood block party.", "Things you'd w
 
 _**Agent (auto-low)**_
 
-Only 415 prompts generated - adding more unique situational and hypothetical prompts to reach 500.
+Only 415 prompts generated — adding more unique situational and hypothetical prompts to reach 500.
 
 
 _**Agent (auto-low)**_
@@ -4296,7 +4296,7 @@ print(&#39;count&#39;, len(prompts))
 data[&#39;collections&#39;][0][&#39;items&#39;] = prompts[:500]
 
 with open(&#39;data/randomizer.yaml&#39;, &#39;w&#39;) as f:
-    f.write(&#39;# Game prompt collections. Names describe the prompt type - not branded deck titles.\n&#39;)
+    f.write(&#39;# Game prompt collections. Names describe the prompt type — not branded deck titles.\n&#39;)
     f.write(&#39;# All prompts are family-friendly and generic for a worldwide audience.\n&#39;)
     yaml.dump(data, f, default_flow_style=False, allow_unicode=True, sort_keys=False, width=1000)
 
@@ -4444,7 +4444,7 @@ print('count', len(prompts))
 data['collections'][0]['items'] = prompts[:500]
 
 with open('data/randomizer.yaml', 'w') as f:
-    f.write('# Game prompt collections. Names describe the prompt type - not branded deck titles.\n')
+    f.write('# Game prompt collections. Names describe the prompt type — not branded deck titles.\n')
     f.write('# All prompts are family-friendly and generic for a worldwide audience.\n')
     yaml.dump(data, f, default_flow_style=False, allow_unicode=True, sort_keys=False, width=1000)
 
@@ -4595,7 +4595,7 @@ Status: **completed**
 
 _**Agent (auto-low)**_
 
-**scale-clues** is now Ito-style situational + hypothetical - not category×axis grids.
+**scale-clues** is now Ito-style situational + hypothetical — not category×axis grids.
 
 **Format:** open sentences like Ito’s theme cards  
 - Situational: `Things you'd want to do when you're very tired.` → “take a nap”, “stretch”, “make tea”  
@@ -4607,9 +4607,9 @@ _**Agent (auto-low)**_
 - Tagline: open situations and what-if scenarios  
 - Play hint: concrete examples like `"flashlight"`, `"take a nap"`, `"duct tape"`
 
-**Removed:** `Fruits - least to most sweet.` style prompts and popularity themes.
+**Removed:** `Fruits — least to most sweet.` style prompts and popularity themes.
 
-Still family-friendly and worldwide - no table-specific personal prompts (“person on your left”) or adult cards. Clues stay subjective like Ito: the group ranks by what the clue-giver meant, not objective truth.
+Still family-friendly and worldwide — no table-specific personal prompts (“person on your left”) or adult cards. Clues stay subjective like Ito: the group ranks by what the clue-giver meant, not objective truth.
 
 ---
 
@@ -4704,7 +4704,7 @@ Line 31 contains a typo. Meta-ranking prompts such as "Chores you'd postpone" re
 
 _**Agent (auto-low)**_
 
-**Yes - mostly.** These prompts fit Ito-style play: you hold a secret number (1–100), name one example, and the group places it on the scale without you saying the number.
+**Yes — mostly.** These prompts fit Ito-style play: you hold a secret number (1–100), name one example, and the group places it on the scale without you saying the number.
 
 ### How it maps
 
@@ -4714,35 +4714,35 @@ _**Agent (auto-low)**_
 | **Bring / survive** | Less useful | More essential | *Things to bring on a deserted island* → “souvenir mug” (low) vs “water filter” (high) |
 | **Effect** | Weak effect | Strong effect | *Things that would cheer you up* → “gray weather” (low) vs “a call from a friend” (high) |
 
-That matches Ito: the scale is **how much the example fits the theme**, ranked by what **you** mean - not objective truth.
+That matches Ito: the scale is **how much the example fits the theme**, ranked by what **you** mean — not objective truth.
 
 ### What works well
 
-- **“Things you'd want…”** - clear direction (low = don’t want much, high = want a lot)
-- **“Things to bring if…”** - clear (low = nice-to-have, high = must-have)
-- **Concrete answers** - nouns or short phrases (“duct tape”, “stretch”, “pizza”) all work
+- **“Things you'd want…”** — clear direction (low = don’t want much, high = want a lot)
+- **“Things to bring if…”** — clear (low = nice-to-have, high = must-have)
+- **Concrete answers** — nouns or short phrases (“duct tape”, “stretch”, “pizza”) all work
 
 ### Where it gets fuzzy (like real Ito)
 
 A minority of cards need extra table agreement on which way is “up”:
 
-- *Things that aren't worth the hype* - is high = **more** overrated, or more worth it?
-- *Chores you'd postpone as long as possible* - you name a chore; high = you'd postpone it longest
-- *Things you'd buy with only ten dollars* - high = best purchase for $10, or most expensive item?
+- *Things that aren't worth the hype* — is high = **more** overrated, or more worth it?
+- *Chores you'd postpone as long as possible* — you name a chore; high = you'd postpone it longest
+- *Things you'd buy with only ten dollars* — high = best purchase for $10, or most expensive item?
 
-Ito has the same issue - groups negotiate meaning. That's part of the game.
+Ito has the same issue — groups negotiate meaning. That's part of the game.
 
 ### Small deck issues (not blockers)
 
-- Line 65: grammar - “Chores you'd actually **don't** mind doing”
-- Line 31: typo - “a **ordinary** day”
+- Line 65: grammar — “Chores you'd actually **don't** mind doing”
+- Line 31: typo — “a **ordinary** day”
 - A few cards are vague about whether the answer is a **thing** or an **activity** (*Things you'd want in a three-legged race*)
 
 ### Bottom line
 
-**Suitable for secret-number clues** - especially survival/hypothetical and “things you'd want when…” prompts. Subjective mismatch is expected, same as Ito.
+**Suitable for secret-number clues** — especially survival/hypothetical and “things you'd want when…” prompts. Subjective mismatch is expected, same as Ito.
 
-If you want it tighter, we could add one line to `play_hint`: *“1 = weakest fit for the theme, 100 = strongest - rank what you meant, not what everyone else would pick.”* I can also fix the grammar typos and trim the ~10 most ambiguous prompts.
+If you want it tighter, we could add one line to `play_hint`: *“1 = weakest fit for the theme, 100 = strongest — rank what you meant, not what everyone else would pick.”* I can also fix the grammar typos and trim the ~10 most ambiguous prompts.
 
 ---
 
@@ -4936,7 +4936,7 @@ print(d['collections'][0]['play_hint'])
 
 ```
 500
-Give one real example ("flashlight", "take a nap", "duct tape"). 1 = weakest fit for the theme, 100 = strongest - rank what you meant, not what everyone else would pick. Don't say your number.
+Give one real example ("flashlight", "take a nap", "duct tape"). 1 = weakest fit for the theme, 100 = strongest — rank what you meant, not what everyone else would pick. Don't say your number.
 
 ```
 </details></tool-use>
@@ -4945,7 +4945,7 @@ _**Agent (auto-low)**_
 
 Done.
 
-**`play_hint`** now states the scale: 1 = weakest fit, 100 = strongest - rank what you meant, don’t say your number.
+**`play_hint`** now states the scale: 1 = weakest fit, 100 = strongest — rank what you meant, don’t say your number.
 
 **Fixed / replaced 11 fuzzy prompts:**
 - Grammar: “an ordinary day”, “Chores you actually don't mind doing”

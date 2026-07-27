@@ -574,6 +574,6 @@ _**Agent (auto-low)**_
 
 Updated the post to match:
 
-- **Zine** - rules only. Dropped the market-row rotation trick, inside-cover parking zones, and action tracker on the covers.
-- **Action cards** - removed the long "Action cards, not tiles" section. The mapping table and one tuck line are enough.
-- **What I actually print** - now **36 cards** (deals + markets + action cards) plus a rules zine, aligned with the full Duopoly build.
+- **Zine** — rules only. Dropped the market-row rotation trick, inside-cover parking zones, and action tracker on the covers.
+- **Action cards** — removed the long "Action cards, not tiles" section. The mapping table and one tuck line are enough.
+- **What I actually print** — now **36 cards** (deals + markets + action cards) plus a rules zine, aligned with the full Duopoly build.

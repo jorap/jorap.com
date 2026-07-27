@@ -1791,8 +1791,8 @@ Updated `key_concept` on all **43** notes from `levels-batch-2.json`.
 **Skipped: 0**
 
 For each note:
-- Bullet 1 (first `-` line) - unchanged
-- Old bullet 2 (plain simplification) - removed
+- Bullet 1 (first `-` line) — unchanged
+- Old bullet 2 (plain simplification) — removed
 - Level 1–5 inserted in its place (grade 6 analogy → grade 8 → grade 10 cause-effect → adult claim → nuance with wikilinks where relevant)
 - Prior bullets 3+ kept as bullets 7+
 - `{{< bible >}}` shortcodes and blank lines preserved; levels only added after the first `-` bullet

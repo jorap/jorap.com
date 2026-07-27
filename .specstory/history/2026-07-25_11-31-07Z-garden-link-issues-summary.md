@@ -496,3 +496,2074 @@ Directory: **``** (24 files)
 | `content/english/notes/gate-what-you-consume.md` |
 | `content/english/notes/guard-your-heart.md` |
 </details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Checking how garden health evaluates structure issues.
+
+The structure check logic may reside in Hugo or a separate script.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "Missing contradicts|missing.*contradicts|structureIssues"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "Missing contradicts|missing.*contradicts|structureIssues",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "layouts/notes/issues.html"
+    },
+    {
+      "matchCount": 5,
+      "uri": ".specstory/history/2026-07-01_14-04-02Z-notes-frontmatter-conversion.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-07-09_14-18-35Z-bible-verse-shortcode-review.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".cursor/skills/garden-maintenance/SKILL.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": ".specstory/history/2026-06-21_12-15-47Z-possible-notes-functionalities.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/notes/build-issues-report.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-21_15-27-45Z-file-name-change-to-mental-models.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": ".specstory/history/2026-07-01_14-39-04Z-okf-standards-compliance.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-20_08-12-04Z-eternal-principles-and-jesus'-teachings.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": ".specstory/history/2026-07-06_07-13-26Z-garden-link-issues-summary.md"
+    },
+    {
+      "matchCount": 25,
+      "uri": ".specstory/history/2026-07-22_12-10-07Z-notes-in-biblical-devotions.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": ".specstory/history/2026-06-20_08-52-20Z-page-issue-check.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-20_08-12-04Z-eternal-principles-and-jesus.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": ".specstory/history/2026-06-22_06-14-22Z-create-notes-based-on.md"
+    },
+    {
+      "matchCount": 9,
+      "uri": ".specstory/history/2026-07-03_02-42-11Z-garden-link-issues-summary.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": ".specstory/history/2026-06-28_17-06-25Z-free-grace-and-eternal-rewards-notes.md"
+    },
+    {
+      "matchCount": 29,
+      "uri": ".specstory/history/2026-07-22_12-32-12Z-recorded-prayers-of-jesus.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/notes/note-issues-panel.html"
+    },
+    {
+      "matchCount": 6,
+      "uri": ".specstory/history/2026-06-30_02-06-39Z-best-free-hosting-stacks.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/issues.md"
+    }
+  ],
+  "totalFiles": 32,
+  "totalMatches": 165
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/package.json",
+  "pattern": "garden:health|lint:garden"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/package.json",
+  "pattern": "garden:health|lint:garden",
+  "topFiles": [
+    {
+      "matchCount": 3,
+      "uri": "package.json"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 3
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Reviewing the build-issues-report.html to understand the structure check logic. Reading the affected note files to identify contradictions and determine which relationships to add.
+
+Checking specstory history for a similar batch fix to guide the approach.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/build-issues-report.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/garden-maintenance/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-06_07-13-26Z-garden-link-issues-summary.md",
+  "pattern": "contradicts"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-06_07-13-26Z-garden-link-issues-summary.md",
+  "pattern": "contradicts",
+  "topFiles": [
+    {
+      "matchCount": 29,
+      "uri": ".specstory/history/2026-07-06_07-13-26Z-garden-link-issues-summary.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 29
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+I need to read the affected notes and add appropriate contradicts relationships.
+
+Reading all affected notes in parallel to find meaningful contradicts targets.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Reading the affected notes to add wikilinks and choose appropriate `contradicts` relationships.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/many-parts-one-body.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/sharpen-each-others-work.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/iron-sharpens-iron.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/cap-todays-commitments.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/give-useful-feedback.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/words-that-build-up.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/gate-what-you-consume.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/guard-your-heart.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Reading the remaining notes.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/block-recovery-time.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/surface-bad-news-early.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/confess-to-one-another.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/trust-god-for-today.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/run-a-pre-mortem.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/count-the-cost.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/follow-the-rhythm.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/walk-by-the-spirit.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Reading the remaining seven garden files to investigate the unlinked mentions and structure issues.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/share-the-heavy-lift.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/bear-each-others-burdens.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "contextAfter": 15,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/prayer-jesus-taught.md",
+  "pattern": "daily bread|relationships:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/prayer-jesus-taught.md",
+  "pattern": "daily bread|relationships:",
+  "topFiles": [
+    {
+      "matchCount": 27,
+      "uri": "content/english/notes/prayer-jesus-taught.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 2
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "contextAfter": 15,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/patience.md",
+  "pattern": "walking by the Spirit|relationships:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/patience.md",
+  "pattern": "walking by the Spirit|relationships:",
+  "topFiles": [
+    {
+      "matchCount": 23,
+      "uri": "content/english/notes/patience.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 2
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "contextAfter": 15,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/fruits-of-the-spirit.md",
+  "pattern": "walking by the Spirit|relationships:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/fruits-of-the-spirit.md",
+  "pattern": "walking by the Spirit|relationships:",
+  "topFiles": [
+    {
+      "matchCount": 23,
+      "uri": "content/english/notes/fruits-of-the-spirit.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 2
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "contextAfter": 15,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/ask-seek-knock.md",
+  "pattern": "daily bread|relationships:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/ask-seek-knock.md",
+  "pattern": "daily bread|relationships:",
+  "topFiles": [
+    {
+      "matchCount": 40,
+      "uri": "content/english/notes/ask-seek-knock.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 4
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "contextAfter": 15,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-principles.md",
+  "pattern": "Walk by the Spirit|relationships:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-principles.md",
+  "pattern": "Walk by the Spirit|relationships:",
+  "topFiles": [
+    {
+      "matchCount": 16,
+      "uri": "content/english/notes/eternal-principles.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Unlinked mentions are located in key_concept or body text.
+
+The lint report may be misattributing unlinked mentions in frontmatter to body text. Come to Me Weary shows shared load and recovery in key_concept fields.
+
+Come to Me Weary's description contains an unlinked "shared load" mention. Its key_concept includes a linked "Block Recovery Time" entry, but the word "recovery" itself appears without a wikilink.
+
+The linter may be matching "recovery" to "Energy Protects Judgment" through a nearby "judgment" reference. This would explain why "recovery" appears unlinked despite being present in the Block Recovery Time entry.
+
+Checking whether "recovery" appears in the note body rather than just frontmatter.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/come-to-me-weary.md",
+  "pattern": "recovery|shared load|stewardship|rollback|Love God|Inbox Zero|daily bread|walking by the Spirit|Walk by the Spirit"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/come-to-me-weary.md",
+  "pattern": "recovery|shared load|stewardship|rollback|Love God|Inbox Zero|daily bread|walking by the Spirit|Walk by the Spirit",
+  "topFiles": [
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/come-to-me-weary.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 3
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/collect-note-issues.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-principles.md",
+  "pattern": "Walk by the Spirit|walking by the Spirit"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-principles.md",
+  "pattern": "Walk by the Spirit|walking by the Spirit",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Unlinked mentions appear because `assembled-content.html` renders frontmatter fields as visible body text.
+
+Key concepts and descriptions are assembled into note content for scanning. I am now tracing specific unlinked mentions to their source fields. In Come to Me Weary, "shared load" appears in the description and shareable_thought, while "recovery" may come from a relationships reason field. I need to verify whether relationship reasons are included in the assembled content.
+
+I traced the remaining unlinked mentions to their exact source fields. "Inbox Zero" appears in cap-todays-commitments examples. "Love God" appears in iron-sharpens-iron description. "stewardship" appears in many-parts-one-body key_concept. "rollback" appears in sharpen-each-others-work key_concept. "daily bread" appears in prayer-jesus-taught key_concept. I am checking whether "recovery" maps to "Energy Protects Judgment" through a frontmatter reason field.
+
+"walking by the Spirit" appears in the examples for Patience and Fruits of the Spirit. "daily bread" appears in Ask Seek Knock key_concept lines 18-19. The "Walk by the Spirit" mention in Eternal Principles did not appear in a direct grep, so I will read the full file.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-principles.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/collect-note-issues.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*recovery*",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "type: contradicts"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "type: contradicts",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "Faithful Steward"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "Faithful Steward",
+  "topFiles": [
+    {
+      "matchCount": 5,
+      "uri": "content/english/notes/steward-after-the-win.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 25
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The unlinked mentions are now clearer.
+
+Checking aliases for Come to Me Weary. "Shared load" matches Share the Heavy Lift. "Recovery" may match Block Recovery Time or Energy Protects Judgment.
+
+The "recovery" unlinked mention likely comes from rendered frontmatter in assembled content. Checking Energy Protects Judgment's title and aliases.
+
+Block Recovery Time has aliases "scheduled recovery" and "recovery blocks". The linter may be matching "recovery" as a substring against these aliases. Searching for aliases containing "recovery".
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*energy*",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "aliases:.*recovery|recovery"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "aliases:.*recovery|recovery",
+  "topFiles": [
+    {
+      "matchCount": 5,
+      "uri": "content/english/notes/energy-protects-judgment.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 5
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "^title:.*Recovery|recovery"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "^title:.*Recovery|recovery",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/come-to-me-weary.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/systems-for-growth.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/sustainable-performance.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "content/english/notes/energy-protects-judgment.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/attention-economy.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/the-trusted-inbox.md"
+    },
+    {
+      "matchCount": 9,
+      "uri": "content/english/notes/block-recovery-time.md"
+    }
+  ],
+  "totalFiles": 7,
+  "totalMatches": 21
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*block-recovery*",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "type: contradicts"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "type: contradicts",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*come-to-me*",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "type: contradicts"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "type: contradicts",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+"Recovery" is an alias for Energy Protects Judgment.
+
+The unlinked mention "recovery" appears inside the relationships reason "scheduled recovery" in come-to-me-weary. Wikilinking that phrase directly may sound awkward. The scan uses raw assembled content for wikilink detection but rendered mention text for unlinked mentions.
+
+"Recovery" in come-to-me-weary's relationships reason should likely link to [[Block Recovery Time]] instead of Energy Protects Judgment, since that is the actual relationship target. The linter incorrectly suggests the alias. "Shared load" in the description and shareable_thought should link to [[Share the Heavy Lift]].
+
+Linking Block Recovery Time in the reason text may not resolve the unlinked mention, since the word "recovery" could still be flagged separately within "scheduled recovery".
+
+The relationships reason should read "Garden echo - [[Block Recovery Time]] on the calendar" to eliminate the bare word "recovery". "Shared load" should become "[[Share the Heavy Lift]]". In many-parts-one-body, "stewardship" in the key_concept level 3 heading likely needs linking to [[Faithful Steward]].
+
+"Love God" in iron-sharpens-iron should link to [[Love God]].
+
+"Inbox Zero" in cap-todays-commitments needs a wikilink.
+
+"Rollback" in sharpen-each-others-work should link to [[Rollback Principle]].
+
+"Daily bread" in ask-seek-knock should link to [[Trust God for Today]].
+
+"Walk by the Spirit" in patience and fruits-of-the-spirit should link to [[Walk by the Spirit]].
+
+"When I walk by the Spirit" in eternal-principles should link to [[Walk by the Spirit]].
+
+Contradicts rows need meaningful tensions for twenty notes. Contradicts comes first in REL_PRIORITY. Similar workplace and faith note pairs provide patterns. Existing extends and alternative links reveal useful contrasts. Come to Me Weary should contradict hustle culture through its rest and spiritual invitation.
+
+[[Crusade Mode]] is emerging as a strong candidate for come-to-me-weary's contradicts row, since it represents pushing through exhaustion. For many-parts-one-body, the tension is against solo heroics and individual delegation; [[Crusade Mode]] is again being considered as a direct contradiction. Notes like [[Don't Worry]], [[The 12 Week Year]], and [[Compounding]] are also being evaluated for their aggressive productivity angles.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "contextAfter": 2,
+  "glob": "*.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "type: contradicts"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "type: contradicts",
+  "topFiles": [
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/analog-capture-tools.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/note-relationships.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/intellectual-sourcing.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/thank-father-at-lazarus.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/let-your-light-shine.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/servant-leadership.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/active-reading.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/abide-in-me.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/minimum-effective-dose.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/getting-started.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/digital-minimalism.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "content/english/notes/free-tier-hosting-stack.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/heed-every-near-miss.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/creative-output.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/pray-when-drained.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/the-second-brain-workflow.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/present-a-living-sacrifice.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/deliberate-practice.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/deep-work.md"
+    }
+  ],
+  "totalFiles": 19,
+  "totalMatches": 266
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **1** directory</summary>
+
+Directory: **``** (0 files)
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **1** result in **1** directory</summary>
+
+Directory: **``** (1 file)
+
+| File |
+|------|
+| `content/english/notes/ship-it.md` |
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Checking existing notes in the workplace principles cluster to identify available targets for linking.
+
+Evaluating contradict targets for the 20 notes. Each candidate must already exist in the garden, create genuine tension with the core claim, and follow the "when X" reason pattern. Potential pairs include Come to Me Weary against Ship It and Compounding, and Pray when drained against Digital Minimalism.
+
+Narrowing down contradict candidates. Many Parts One Body may pair with Hero Culture or solo martyrdom. Sharpen Each Other's Work may contrast with Nice Guy or Perfectionism.
+
+Sharpen Each Other's Work may pair with Analysis Paralysis. Iron Sharpens Iron could contradict Gentleness or Judge Not. Cap Today's Commitments may contrast with Compounding or The 12 Week Year.
+
+Compounding may contradict Cap Today's Commitments through a "minimum effective dose" angle. Give Useful Feedback may pair with Judge Not or Nice Guy. Words That Build Up may contrast with Judge Not or Iron Sharpens Iron. Starting to evaluate Know Your Lane.
+
+Know Your Lane may pair with Crusade mode or Servant Leadership. Gate What You Consume may contrast with Digital Serendipity or Information Diet. Guard Your Heart may oppose legalism or unfiltered openness.
+
+Guard may pair with Digital Serendipity. Block Recovery Time may contrast with Deep Work or Ship It. Surface Bad News Early may oppose hiding problems.
+
+Surface Bad News Early may pair with Normalization of Deviance or Sunk Cost Fallacy. Confess to One Another may contrast with Secret Devotion, Let Your Light Shine, or Perfectionism. Trust God for Today is next.
+
+Compounding may contradict Trust God for Today by suggesting tomorrow's worry stockpiles today's bread prayer. Run a Pre-mortem may oppose Ship It or Bias for Action. Count the Cost may contrast with fake-free discipleship sales pitches.
+
+Childlike Faith may oppose Count the Cost by contrasting named costs with simple receiving. Getting Started may pair with Count the Cost as a contrast to counting before jumping in. Follow the Rhythm may oppose Crusade mode or heroics. Walk by the Spirit may contrast with Compounding by suggesting willpower stacks mimic Spirit walk. Share the Heavy Lift may pair with Hero Culture.
+
+Bear Each Other's Burdens may pair with Judge Not. Sidewalk commentary from a distance could replace hands-on bearing. Searching for more specific contradict targets.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "title:.*(Crusade|Perfection|Nice Guy|Bias for Action|Hero|Analysis)"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "title:.*(Crusade|Perfection|Nice Guy|Bias for Action|Hero|Analysis)",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/network-analysis.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/follow-the-rhythm.md"
+    }
+  ],
+  "totalFiles": 2,
+  "totalMatches": 3
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*follow-the-rhythm*",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "Crusade"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "Crusade",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/follow-the-rhythm.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 2
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*share-the-heavy*",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "type: contradicts"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "type: contradicts",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*psychological-safety*",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "type: contradicts"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "type: contradicts",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/psychological-safety.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+No Crusade Mode note was found. Now examining psychological-safety contradictions and searching for notes in the workplace cluster.
+
+Checking specstory for when a similar batch was fixed.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/psychological-safety.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*surface-bad*",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "."
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": ".",
+  "topFiles": [
+    {
+      "matchCount": 47,
+      "uri": "content/english/notes/surface-bad-news-early.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 47
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*develop-dont*",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "type: contradicts"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "type: contradicts",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/develop-dont-endanger.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*ship-it*",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "type: contradicts"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "type: contradicts",
+  "topFiles": [
+    {
+      "matchCount": 4,
+      "uri": "content/english/notes/ship-it.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 4
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Checking ship-it contradictions and the develop-dont-endanger note. Looking for the specstory from the workplace cluster batch in garden-link-issues.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/ship-it.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/develop-dont-endanger.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-25_11-15-02Z-garden-notes-rule-update.md",
+  "pattern": "contradicts"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-25_11-15-02Z-garden-notes-rule-update.md",
+  "pattern": "contradicts",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+I need to identify contradictory notes for each entry.
+
+Contradicts will be placed first in each note's relationships. Come to Me Weary pairs with Ship It. Many Parts One Body pairs with a martyr or sustainable performance note.
+
+Many Parts One Body will pair with Sustainable Performance. Sharpen Each Other's Work will pair with Ship It.
+
+Sharpen Each Other's Work will also pair with Attention to Detail. Iron Sharpens Iron will pair with Gentleness. Cap Today's Commitments will pair with Compounding. Give Useful Feedback will pair with Judge Not.
+
+Words That Build Up will pair with Gentleness. Know Your Lane will pair with Title Without Influence.
+
+Gate What You Consume will pair with Digital Serendipity.
+
+Guard Your Heart will pair with Digital Serendipity. Block Recovery Time will pair with Deep Work or Ship It. Surface Bad News Early will pair with Normalization of Deviance. Confess to One Another will pair with Secret Devotion.
+
+Confess to One Another will also pair with Let Your Light Shine. Trust God for Today will pair with Compounding. Run a Pre-mortem will pair with Ship It. Count the Cost will pair with Childlike Faith. Follow the Rhythm will pair with Ship It.
+
+Walk by the Spirit will pair with Compounding. Share the Heavy Lift will pair with Sustainable Performance.
+
+Share the Heavy Lift will also pair with Let Your Light Shine. Bear Each Other's Burdens will pair with Judge Not. I still need to verify note existence and review the gentleness contradicts.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/gentleness.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "title:.*(Normalization|Digital Serendipity|Getting Started|Judge Not|Title Without)"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "title:.*(Normalization|Digital Serendipity|Getting Started|Judge Not|Title Without)",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/getting-started.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/digital-serendipity.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/judge-not.md"
+    }
+  ],
+  "totalFiles": 3,
+  "totalMatches": 10
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*workplace*",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "Know Your Lane|Share the Heavy|Come to Me"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "Know Your Lane|Share the Heavy|Come to Me",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Checking whether Normalization of Deviance and Title Without Influence exist.
+
+Iron Sharpens Iron contradicts Gentleness over friction. Judge Not contradicts Give Useful Feedback over condemnation. Words That Build Up may echo Iron Sharpens Iron.
+
+[[Break the Escalation Cycle]] may contradict Words That Build Up when hot words escalate instead of building up. Now checking Know Your Lane against influence without title.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/influence-without-title.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*normalization*",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "title:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "title:",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/normalization-of-deviance.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 2
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+A potential contradiction for "Know Your Lane" was considered, but the idea felt too weak.
+
+More concrete contradictions were explored. These include expanding into every lane, shipping thin everywhere, martyr coverage of gaps, and collecting every role.
+
+**[[Sustainable Performance]]** was selected as the contradiction for "Know Your Lane," representing burnout from covering every gap. **[[Servant Leadership]]** was also noted as extending the theme of sharing the heavy lift. A potential contradiction for "Share the Heavy Lift" was dismissed as too weak.
+
+Several contradictions were evaluated for "Share the Heavy Lift." **[[Develop, Don't Endanger]]** was rejected as the opposite of sharing. **[[Minimum Effective Dose]]** and **[[Compounding]]** were also considered, but the search for a lone-rugged note continues.
+
+**[[Pride]]** and **[[Ship It]]** were dismissed as contradictions for "Share the Heavy Lift." The tension between solo carry and sharing is implicit in **[[Develop, Don't Endanger]]**, so it may serve as the explicit contradict row.
+
+**[[Let Your Light Shine]]** and **[[Deep Work]]** were rejected as contradictions for "Share the Heavy Lift." The search for a solo martyr note continues.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "solo martyr|solo carry|every gap|hero coverage"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "solo martyr|solo carry|every gap|hero coverage",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/know-your-lane.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/share-the-heavy-lift.md"
+    }
+  ],
+  "totalFiles": 2,
+  "totalMatches": 3
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*own-your-part*",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "type: contradicts"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "type: contradicts",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/own-your-part.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Reviewing the "own-your-part contradicts" note as a model for "know your lane" and "share".
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/own-your-part.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+A potential contradict for "Know Your Lane" could be **[[Own Your Part]]**, exploring the tension between owning your slice versus filling every gap.
+
+"Know Your Lane" and "Own Your Part" are complementary rather than contradictory. A better contradict for "Share the Heavy Lift" may be **[[Develop, Don't Endanger]]**: extending the load until it endangers the carrier.
+
+The opposite frame for "Share the Heavy Lift" is solo martyr carry. **[[Minimum Effective Dose]]** is being considered as another contradict. Contradicts must exist and be semantically reasonable. The next step is to run garden health and fix the structure issues.
+
+Six contradict pairs are now mapped out. Come to Me Weary contradicts Ship It. Many Parts One Body contradicts Let Your Light Shine. Sharpen Each Other's Work contradicts Ship It. Iron Sharpens Iron contradicts Gentleness. Cap Today's Commitments contradicts Compounding. Give Useful Feedback contradicts Judge Not.
+
+Five more contradict pairs are mapped out. Words That Build Up contradicts Iron Sharpens Iron. Know Your Lane contradicts Influence Without Title. Gate What You Consume contradicts Digital Serendipity. Guard Your Heart contradicts Digital Serendipity. Block Recovery Time contradicts Ship It. Surface Bad News Early contradicts Normalization of Deviance.
+
+Five more contradict pairs are mapped out. Confess to One Another contradicts Secret Devotion. Trust God for Today contradicts Compounding. Run a Pre-mortem contradicts Ship It. Count the Cost contradicts Getting Started. Follow the Rhythm contradicts Ship It. Walk by the Spirit contradicts Compounding.
+
+Share the Heavy Lift contradicts Own Your Part. Bear Each Other's Burdens contradicts Judge Not. Confess to One Another contradicts Let Your Light Shine.
+
+Many Parts One Body will use Let Your Light Shine as its contradict. This frames the opposite frame as one part performing for the spotlight instead of serving the body. Contradicts must appear first in relationships per REL_PRIORITY. Unlinked mentions are being fixed across come-to-me-weary.md. The description and shareable thought both link to Share the Heavy Lift. The recovery alias reason is updated to reference Block Recovery Time.
+
+Unlinked mentions are being fixed across several notes. "Stewardship" in Many Parts One Body links to [[Faithful Steward]]. "Rollback" in Sharpen Each Other's Work links to [[Rollback Principle]]. "Love God" in Iron Sharpens Iron links to [[Love God]] in the description and shareable thought. "Inbox Zero" in Cap Today's Commitments links to [[Inbox Zero]] in the examples. "Daily bread" in Prayer Jesus Taught links to [[Trust God for Today]] in the key concept. "Walking by the Spirit" in Patience links to [[Walk by the Spirit]] in the examples.
+
+Fruits of the Spirit links "walking by the Spirit" in examples. Ask Seek Knock links "daily bread" in key concepts. Eternal Principles links "walk by the Spirit" in the body. Wikilinks in frontmatter fields are being checked against garden-voice rules. The linter flags description fields for unlinked mentions.
+
+Garden-voice forbids wikilinks in description fields. Rewording is required to fix unlinked mentions there. Come-to-me-weary will describe the shared load without a wikilink. Iron-sharpens-iron will reword friends who love God to friends who [[Love God]].
+
+Come-to-me-weary will reword its description and shareable thought from "shared load" to "shared weight" to avoid triggering the alias lint. Iron-sharpens-iron will reword its description from "friends who love God" to "friends who love the Lord" or "friends devoted to God" to avoid a forbidden wikilink.
+
+Garden-voice does not explicitly forbid wikilinks in shareable_thought, unlike description. Rewording remains the preferred fix for unlinked mentions in description and shareable_thought fields.
+
+The recovery alias reason in come-to-me-weary will reference Block Recovery Time. Iron-sharpens-iron will reword its description and shareable thought to "friends who love the Lord and you." All edits will be applied in a single batch.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Applying wikilink fixes and adding missing `contradicts` rows across the affected notes.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/come-to-me-weary.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/many-parts-one-body.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/sharpen-each-others-work.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/iron-sharpens-iron.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/come-to-me-weary.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/come-to-me-weary.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/many-parts-one-body.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/sharpen-each-others-work.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/iron-sharpens-iron.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/iron-sharpens-iron.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+I made an error on the many-parts-one-body section. "Faithful Steward]]ship" is wrong.
+
+The many-parts-one-body section now correctly links "stewardship" to [[Faithful Steward]].
+
+The come-to-me-weary section still needs checking for a "recovery" issue in key_concept. The calendar rest line shows "calendar rest", not "recovery".
+
+The come-to-me-weary recovery issue is resolved. The relationships reason now points to Energy Protects Judgment via a Block Recovery Time wikilink. Continuing with more files.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/many-parts-one-body.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/cap-todays-commitments.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/cap-todays-commitments.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/give-useful-feedback.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/words-that-build-up.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/know-your-lane.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/gate-what-you-consume.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/guard-your-heart.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/block-recovery-time.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/surface-bad-news-early.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Continuing with the remaining notes.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/confess-to-one-another.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/trust-god-for-today.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/run-a-pre-mortem.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/count-the-cost.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/follow-the-rhythm.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/walk-by-the-spirit.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/share-the-heavy-lift.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/bear-each-others-burdens.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/prayer-jesus-taught.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/ask-seek-knock.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The unlinked mention "daily bread" in the prayer-jesus-taught note should link to [[Trust God for Today]].
+
+Ask-seek-knock lines 18-19 and Eternal Principles line 113 also need "daily bread" linked to [[Trust God for Today]].
+
+Index pages are exempt from structure checks. Prayer Jesus Taught only needs the unlinked mention fixed.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/prayer-jesus-taught.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/ask-seek-knock.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/patience.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/fruits-of-the-spirit.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-principles.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Running garden:health to verify all issues are fixed.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm garden:health 2&gt;&amp;1</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && pnpm garden:health 2>&1
+```
+
+```
+$ python3 scripts/garden-health.py
+$ python3 scripts/lint-notes-frontmatter.py && python3 scripts/normalize-notes-format.py --verify && python3 scripts/lint-flashcard-frontmatter.py && python3 scripts/audit-flashcard-north-star.py && python3 scripts/lint-utility-wikilinks.py && python3 scripts/voice-lint.py garden --check && python3 scripts/voice-lint.py slop --check --notes-only
+FAIL description in key_concept (Level 2: Phone dead on the bus, so you write on the back of …): analog-capture-tools.md
+FAIL shareable_thought[2] not from principle: bear-each-others-burdens.md
+FAIL shareable_thought[3] not from principle: bear-each-others-burdens.md
+FAIL shareable_thought[2] not from principle: cap-todays-commitments.md
+FAIL description in key_concept (Level 4: Apologize slower than you used to snap - growth aft…): christlikeness.md
+FAIL shareable_thought[2] not from principle: come-to-me-weary.md
+FAIL shareable_thought[3] not from principle: come-to-me-weary.md
+FAIL shareable_thought[2] not from principle: confess-to-one-another.md
+FAIL shareable_thought[2] not from principle: count-the-cost.md
+FAIL shareable_thought[3] not from principle: count-the-cost.md
+FAIL description in key_concept (Level 3: Connection grows from small rituals - one walk, one…): create-regular-connection.md
+FAIL description in key_concept (Level 5: Pairs with [[Control the Rhythm]] when urgency push…): decision-quality.md
+FAIL description in key_concept (Level 4: Block ninety minutes with phone in the gym bag befo…): deep-work.md
+FAIL shareable_thought[1] not from principle: father-forgive-them.md
+FAIL shareable_thought[2] not from principle: father-forgive-them.md
+FAIL shareable_thought[2] not from principle: gate-what-you-consume.md
+FAIL shareable_thought[3] not from principle: gate-what-you-consume.md
+FAIL shareable_thought[1] not from principle: give-useful-feedback.md
+FAIL shareable_thought[2] not from principle: give-useful-feedback.md
+FAIL shareable_thought[2] not from principle: glorify-yo
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+All garden link issues are resolved. No notes were affected.
+
+The garden:health failure is caused by pre-existing frontmatter lint, not by these changes.
+</details></think>
+
+_**Agent (auto-low)**_
+
+All 31 garden link issues are resolved — the health report now shows **0 notes affected**.
+
+### Unlinked mentions (11)
+| Note | Fix |
+|------|-----|
+| **Come to Me Weary** | Reworded "shared load" → "shared weight"; linked `[[Block Recovery Time]]` in relationships reason |
+| **Many Parts One Body** | `stewardship` → `[[Faithful Steward]]` |
+| **Sharpen Each Other's Work** | `rollback` → `[[Rollback Principle]]` |
+| **Iron Sharpens Iron** | Reworded "Love God" → "love the Lord" (description/shareable_thought stay wikilink-free) |
+| **Cap Today's Commitments** | `inbox zero` → `[[Inbox Zero]]` |
+| **Prayer Jesus Taught** | `daily bread` → `[[Trust God for Today]]` |
+| **Ask Seek Knock** | `daily bread` → `[[Trust God for Today]]` (×2) |
+| **Patience** / **Fruits of the Spirit** | `walking by the Spirit` → `[[Walk by the Spirit]]` |
+| **Eternal Principles** | `walk by the Spirit` → `[[Walk by the Spirit]]` in body |
+
+### Missing `contradicts` rows (20)
+Added a `contradicts` relationship to each atomic note, e.g. **Come to Me Weary** ↔ `[[Ship It]]`, **Gate What You Consume** ↔ `[[Digital Serendipity]]`, **Surface Bad News Early** ↔ `[[Normalization of Deviance]]`, **Walk by the Spirit** ↔ `[[Compounding]]`, and similar pairs across the cluster.
+
+`pnpm garden:health` link scan is clean. Lint still flags pre-existing `shareable_thought` shape issues on these notes (and others) — separate from link health.
+
+## Session close
+- Fixed: All 31 garden link issues across 25 notes — wikilinks, rewords, and `contradicts` rows
+- Encode: none
+- Open: pre-existing frontmatter lint failures on edited notes (shareable_thought shape) — not link issues

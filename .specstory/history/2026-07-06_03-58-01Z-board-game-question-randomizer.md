@@ -76,11 +76,11 @@ Result:
           },
           {
             "lineNumber": 7,
-            "text": "random_blog_note_lede: One garden note picked at random - shuffle for a new pairing with this post."
+            "text": "random_blog_note_lede: One garden note picked at random — shuffle for a new pairing with this post."
           },
           {
             "lineNumber": 8,
-            "text": "random_note_lede: One garden note picked at random - shuffle for a new pairing with this note."
+            "text": "random_note_lede: One garden note picked at random — shuffle for a new pairing with this note."
           },
           {
             "lineNumber": 9,
@@ -1502,16 +1502,16 @@ The randomizer is live at **`/randomizer/`** (e.g. `https://www.jorap.com/random
 
 ### How it works
 
-1. **Pick a collection** - three copyright-safe names for the game types:
+1. **Pick a collection** — three copyright-safe names for the game types:
    - **Scale clues** (Ito-style: rank 1–100 without saying the number)
    - **Spectrum clues** (Wavelength-style: clue between two poles)
    - **Quick facts** (open trivia prompts)
 
-2. **Pick a category** - titles describe the question type (e.g. “How expensive is it?”, “How hot is this food?”), not branded deck names.
+2. **Pick a category** — titles describe the question type (e.g. “How expensive is it?”, “How hot is this food?”), not branded deck names.
 
-3. **Shuffle** - large prompt card, **Shuffle** for the next random item.
+3. **Shuffle** — large prompt card, **Shuffle** for the next random item.
 
-4. **Save offline HTML** - downloads a self-contained `.html` file with embedded prompts and shuffle logic (no network needed).
+4. **Save offline HTML** — downloads a self-contained `.html` file with embedded prompts and shuffle logic (no network needed).
 
 ### Files added
 
@@ -1829,7 +1829,7 @@ The `safeJS` filter is needed in the layout template to prevent double-encoding.
 
 _**Agent (auto-low)**_
 
-Double-encoded JSON in the template - `JSON.parse` returns a string, so `collections` is empty. Fixing that and verifying.
+Double-encoded JSON in the template — `JSON.parse` returns a string, so `collections` is empty. Fixing that and verifying.
 
 
 _**Agent (auto-low)**_
@@ -1877,7 +1877,7 @@ typeof object collections 3
 
 _**Agent (auto-low)**_
 
-The bug was double-encoded JSON in the page. Hugo wrapped the data as a string, so `JSON.parse` succeeded but `data.collections` was always `undefined` - nothing rendered after the intro.
+The bug was double-encoded JSON in the page. Hugo wrapped the data as a string, so `JSON.parse` succeeded but `data.collections` was always `undefined` — nothing rendered after the intro.
 
 Fixed by adding `| safeJS` to the data script tag (same pattern as the notes randomizer pages).
 
@@ -2015,24 +2015,24 @@ Updated the randomizer to match how the three games actually work:
 
 ### 1. Ranking prompts (Ito-style)
 - **Categories:** Pop culture, Scenarios, Fantasy hierarchies
-- **Cards:** Full ranking lines - e.g. *"Superheroes from least likely to most likely to forget your birthday."*
+- **Cards:** Full ranking lines — e.g. *"Superheroes from least likely to most likely to forget your birthday."*
 - **Play hint:** Invent a fictional scenario; clue without saying the number
 
 ### 2. Personal icebreakers (Fun Facts-style)
 - **Categories:** Habits and quirks, Autobiography, Morals and memories
-- **Cards:** Direct personal questions - e.g. *"On a scale of 0 to 100, how long can you go without checking your phone?"*
+- **Cards:** Direct personal questions — e.g. *"On a scale of 0 to 100, how long can you go without checking your phone?"*
 - **Play hint:** Honest number or short answer from real life
 
 ### 3. Concept spectrums (Wavelength-style)
-- **No categories** - click the collection and go straight to shuffle
-- **Cards:** Binary pairs only - e.g. `Hot ↔ Cold`, `Evil ↔ Good`, `Sandwich ↔ Taco`
+- **No categories** — click the collection and go straight to shuffle
+- **Cards:** Binary pairs only — e.g. `Hot ↔ Cold`, `Evil ↔ Good`, `Sandwich ↔ Taco`
 - **Play hint:** Name one word or phrase in the grey area between the poles
 
 ### Flow
 - **Ranking / Personal:** Collection → category → shuffle
 - **Spectrum:** Collection → shuffle (skips categories)
 
-All prompts live in `data/randomizer.yaml`. Add more under the right section - ranking lines for Ito-style, personal questions for Fun Facts, and `left`/`right` pairs under `spectrums` for Wavelength.
+All prompts live in `data/randomizer.yaml`. Add more under the right section — ranking lines for Ito-style, personal questions for Fun Facts, and `left`/`right` pairs under `spectrums` for Wavelength.
 
 ---
 
@@ -2071,7 +2071,7 @@ Drafting more scenario prompts around weather, road trips, excuses, spills, and 
 
 _**Agent (auto-low)**_
 
-Rewriting all prompts to be family-friendly and generic-removing pop-culture references.
+Rewriting all prompts to be family-friendly and generic—removing pop-culture references.
 
 
 _**Agent (auto-low)**_
@@ -2092,9 +2092,9 @@ _**Agent (auto-low)**_
 Updated `data/randomizer.yaml` so everything is family-friendly and generic:
 
 **Ranking prompts**
-- Renamed *Pop culture* → **Everyday people and roles** (neighbors, jobs, party guests - no heroes, films, or shows)
-- **Everyday scenarios** - road trips, family dinner, school trip (no dating/boss-text angles)
-- **Nature and everyday things** - animals, fruit, colors, board games, rooms (no dragons, zombies, or apps)
+- Renamed *Pop culture* → **Everyday people and roles** (neighbors, jobs, party guests — no heroes, films, or shows)
+- **Everyday scenarios** — road trips, family dinner, school trip (no dating/boss-text angles)
+- **Nature and everyday things** — animals, fruit, colors, board games, rooms (no dragons, zombies, or apps)
 
 **Personal icebreakers**
 - Removed Titanic, famous-movie lies, driver bragging, password reuse
@@ -3408,13 +3408,13 @@ _**Agent (auto-low)**_
 from pathlib import Path
 root = Path(&#39;/home/jorap/Documents/GitHub/jorap.com/data&#39;)
 personal = (root / &#39;randomizer-personal-items.yaml&#39;).read_text()
-header = &#39;&#39;&#39;# Game prompt collections. Names describe the prompt type - not branded deck titles.
-# All prompts are family-friendly and generic - no pop culture or branded references.
+header = &#39;&#39;&#39;# Game prompt collections. Names describe the prompt type — not branded deck titles.
+# All prompts are family-friendly and generic — no pop culture or branded references.
 collections:
   - id: scale-clues
     title: Ranking prompts
     mode: ranked-prompts
-    tagline: A topic plus a worst-to-best or least-to-most scale. Invent a clue from everyday life - no personal questions about players.
+    tagline: A topic plus a worst-to-best or least-to-most scale. Invent a clue from everyday life — no personal questions about players.
     play_hint: Think of a plain example that fits this ranking. Your clue should land on the 1–100 scale without saying the number.
     categories:
       - id: everyday-people
@@ -3445,7 +3445,7 @@ collections:
   - id: personal-scales
     title: Personal icebreakers
     mode: personal
-    tagline: Self-reflective scales from 1 to 100 about real habits, preferences, and memories - for the people at the table.
+    tagline: Self-reflective scales from 1 to 100 about real habits, preferences, and memories — for the people at the table.
     play_hint: Answer honestly with a number from 1 to 100.
     items:
 &#39;&#39;&#39;
@@ -3453,7 +3453,7 @@ footer = &#39;&#39;&#39;
   - id: spectrum
     title: Concept spectrums
     mode: spectrum
-    tagline: Two opposing ideas - no categories, no questions. Name one word or phrase that sits in the grey area between them.
+    tagline: Two opposing ideas — no categories, no questions. Name one word or phrase that sits in the grey area between them.
     play_hint: Think of a single noun or short phrase that lands between these extremes. Expect a friendly group debate.
     spectrums:
       - left: Hot
@@ -3490,13 +3490,13 @@ python3 << 'PYEOF'
 from pathlib import Path
 root = Path('/home/jorap/Documents/GitHub/jorap.com/data')
 personal = (root / 'randomizer-personal-items.yaml').read_text()
-header = '''# Game prompt collections. Names describe the prompt type - not branded deck titles.
-# All prompts are family-friendly and generic - no pop culture or branded references.
+header = '''# Game prompt collections. Names describe the prompt type — not branded deck titles.
+# All prompts are family-friendly and generic — no pop culture or branded references.
 collections:
   - id: scale-clues
     title: Ranking prompts
     mode: ranked-prompts
-    tagline: A topic plus a worst-to-best or least-to-most scale. Invent a clue from everyday life - no personal questions about players.
+    tagline: A topic plus a worst-to-best or least-to-most scale. Invent a clue from everyday life — no personal questions about players.
     play_hint: Think of a plain example that fits this ranking. Your clue should land on the 1–100 scale without saying the number.
     categories:
       - id: everyday-people
@@ -3527,7 +3527,7 @@ collections:
   - id: personal-scales
     title: Personal icebreakers
     mode: personal
-    tagline: Self-reflective scales from 1 to 100 about real habits, preferences, and memories - for the people at the table.
+    tagline: Self-reflective scales from 1 to 100 about real habits, preferences, and memories — for the people at the table.
     play_hint: Answer honestly with a number from 1 to 100.
     items:
 '''
@@ -3535,7 +3535,7 @@ footer = '''
   - id: spectrum
     title: Concept spectrums
     mode: spectrum
-    tagline: Two opposing ideas - no categories, no questions. Name one word or phrase that sits in the grey area between them.
+    tagline: Two opposing ideas — no categories, no questions. Name one word or phrase that sits in the grey area between them.
     play_hint: Think of a single noun or short phrase that lands between these extremes. Expect a friendly group debate.
     spectrums:
       - left: Hot
@@ -3739,12 +3739,12 @@ _**Agent (auto-low)**_
 Updated **Personal icebreakers**:
 
 - **200 prompts**, all `On a scale of 1 to 100, …`
-- **No categories** - click the collection and go straight to shuffle (same flow as Concept spectrums)
+- **No categories** — click the collection and go straight to shuffle (same flow as Concept spectrums)
 - Family-friendly, generic topics (habits, food, school, travel, kindness, home life, etc.)
 
 Play hint is now: *Answer honestly with a number from 1 to 100.*
 
-Hard refresh `/randomizer/` if you still see the old three-category layout. Ranking prompts and Concept spectrums are unchanged - say if you want 200 for those too.
+Hard refresh `/randomizer/` if you still see the old three-category layout. Ranking prompts and Concept spectrums are unchanged — say if you want 200 for those too.
 
 ---
 
@@ -4430,7 +4430,7 @@ pattern = r&#39;(  - id: personal-scales\n.*?)(\n  - id: spectrum)&#39;
 personal_block = &#39;&#39;&#39;  - id: personal-scales
     title: Personal icebreakers
     mode: personal
-    tagline: Self-reflective scales from 1 to 100 about real habits and memories - with everyday Philippine life context foreigners can follow.
+    tagline: Self-reflective scales from 1 to 100 about real habits and memories — with everyday Philippine life context foreigners can follow.
     play_hint: Answer honestly with a number from 1 to 100.
     items:
 &#39;&#39;&#39; + &#39;\n&#39;.join(f&#39;      - {q}&#39; for q in items) + &#39;\n&#39;
@@ -5025,7 +5025,7 @@ pattern = r'(  - id: personal-scales\n.*?)(\n  - id: spectrum)'
 personal_block = '''  - id: personal-scales
     title: Personal icebreakers
     mode: personal
-    tagline: Self-reflective scales from 1 to 100 about real habits and memories - with everyday Philippine life context foreigners can follow.
+    tagline: Self-reflective scales from 1 to 100 about real habits and memories — with everyday Philippine life context foreigners can follow.
     play_hint: Answer honestly with a number from 1 to 100.
     items:
 ''' + '\n'.join(f'      - {q}' for q in items) + '\n'
@@ -5204,7 +5204,7 @@ The randomizer needs to be made fully generic for a worldwide audience.
 
 _**Agent (auto-low)**_
 
-Making all randomizer content generic for a worldwide audience-reviewing the full data file and regenerating prompts.
+Making all randomizer content generic for a worldwide audience—reviewing the full data file and regenerating prompts.
 
 
 _**Agent (auto-low)**_
@@ -5821,13 +5821,13 @@ while len(items) &lt; 500:
         seen.add(q)
         items.append(q)
 
-yaml = &#39;&#39;&#39;# Game prompt collections. Names describe the prompt type - not branded deck titles.
+yaml = &#39;&#39;&#39;# Game prompt collections. Names describe the prompt type — not branded deck titles.
 # All prompts are family-friendly and generic for a worldwide audience.
 collections:
   - id: scale-clues
     title: Ranking prompts
     mode: ranked-prompts
-    tagline: A topic plus a worst-to-best or least-to-most scale. Invent a clue from everyday life - no personal questions about players.
+    tagline: A topic plus a worst-to-best or least-to-most scale. Invent a clue from everyday life — no personal questions about players.
     play_hint: Think of a plain example that fits this ranking. Your clue should land on the 1–100 scale without saying the number.
     categories:
       - id: everyday-people
@@ -5858,7 +5858,7 @@ collections:
   - id: personal-scales
     title: Personal icebreakers
     mode: personal
-    tagline: Self-reflective scales from 1 to 100 about real habits, preferences, and memories - for anyone at the table.
+    tagline: Self-reflective scales from 1 to 100 about real habits, preferences, and memories — for anyone at the table.
     play_hint: Answer honestly with a number from 1 to 100.
     items:
 &#39;&#39;&#39; + &#39;\n&#39;.join(f&#39;      - {q}&#39; for q in items) + &#39;&#39;&#39;
@@ -5866,7 +5866,7 @@ collections:
   - id: spectrum
     title: Concept spectrums
     mode: spectrum
-    tagline: Two opposing ideas - no categories, no questions. Name one word or phrase that sits in the grey area between them.
+    tagline: Two opposing ideas — no categories, no questions. Name one word or phrase that sits in the grey area between them.
     play_hint: Think of a single noun or short phrase that lands between these extremes. Expect a friendly group debate.
     spectrums:
       - left: Hot
@@ -6487,13 +6487,13 @@ while len(items) < 500:
         seen.add(q)
         items.append(q)
 
-yaml = '''# Game prompt collections. Names describe the prompt type - not branded deck titles.
+yaml = '''# Game prompt collections. Names describe the prompt type — not branded deck titles.
 # All prompts are family-friendly and generic for a worldwide audience.
 collections:
   - id: scale-clues
     title: Ranking prompts
     mode: ranked-prompts
-    tagline: A topic plus a worst-to-best or least-to-most scale. Invent a clue from everyday life - no personal questions about players.
+    tagline: A topic plus a worst-to-best or least-to-most scale. Invent a clue from everyday life — no personal questions about players.
     play_hint: Think of a plain example that fits this ranking. Your clue should land on the 1–100 scale without saying the number.
     categories:
       - id: everyday-people
@@ -6524,7 +6524,7 @@ collections:
   - id: personal-scales
     title: Personal icebreakers
     mode: personal
-    tagline: Self-reflective scales from 1 to 100 about real habits, preferences, and memories - for anyone at the table.
+    tagline: Self-reflective scales from 1 to 100 about real habits, preferences, and memories — for anyone at the table.
     play_hint: Answer honestly with a number from 1 to 100.
     items:
 ''' + '\n'.join(f'      - {q}' for q in items) + '''
@@ -6532,7 +6532,7 @@ collections:
   - id: spectrum
     title: Concept spectrums
     mode: spectrum
-    tagline: Two opposing ideas - no categories, no questions. Name one word or phrase that sits in the grey area between them.
+    tagline: Two opposing ideas — no categories, no questions. Name one word or phrase that sits in the grey area between them.
     play_hint: Think of a single noun or short phrase that lands between these extremes. Expect a friendly group debate.
     spectrums:
       - left: Hot
@@ -6649,13 +6649,13 @@ _**Agent (auto-low)**_
 
 Everything is now generic for a worldwide audience:
 
-**Personal icebreakers** - 500 prompts, all `On a scale of 1 to 100, …`. Removed all Philippine-specific references (food, transport, customs, etc.). Topics are universal: habits, food, weather, school/work, travel, home, kindness, technology, hobbies.
+**Personal icebreakers** — 500 prompts, all `On a scale of 1 to 100, …`. Removed all Philippine-specific references (food, transport, customs, etc.). Topics are universal: habits, food, weather, school/work, travel, home, kindness, technology, hobbies.
 
-**Ranking prompts** - unchanged (already generic).
+**Ranking prompts** — unchanged (already generic).
 
-**Concept spectrums** - expanded to 15 universal pairs (e.g. city/country life, planned/spontaneous trip, early bird/night owl). Replaced sandwich/wrap with formal/casual hangout.
+**Concept spectrums** — expanded to 15 universal pairs (e.g. city/country life, planned/spontaneous trip, early bird/night owl). Replaced sandwich/wrap with formal/casual hangout.
 
-**Copy** - taglines and page description no longer mention Philippine context.
+**Copy** — taglines and page description no longer mention Philippine context.
 
 Hard refresh `/randomizer/` to load the updated deck.
 
@@ -6936,7 +6936,7 @@ Done. Personal icebreakers now store only the question text:
 
 - **Data:** `How much do you enjoy waking up early?` (no repeated prefix in all 500 items)
 - **UI:** `On a scale of 1 to 100` shows above the question on the card via `scale_label` in `data/randomizer.yaml`
-- **Offline HTML:** Same layout - scale line above the shuffled question
+- **Offline HTML:** Same layout — scale line above the shuffled question
 
 Play hint is now simply *Answer honestly.* Hard refresh `/randomizer/` to see it.
 
@@ -8030,7 +8030,7 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Expanding the spectrum to 500 pairs risks weaker later entries. Some generated pairs may sound odd or repetitive.
 
-Prioritizing meaningful concept pairs first, then filling the remaining slots. The script will update randomizer.yaml directly. Redundant or nonsensical combinations-such as "Cheap | Ancient"-will be filtered out.
+Prioritizing meaningful concept pairs first, then filling the remaining slots. The script will update randomizer.yaml directly. Redundant or nonsensical combinations—such as "Cheap | Ancient"—will be filtered out.
 </details></think>
 
 _**Agent (auto-low)**_
@@ -10747,13 +10747,13 @@ spec.loader.exec_module(mod)
 spectrums = mod.load_pairs()
 print(&#39;spectrums&#39;, len(spectrums))
 
-header = &#39;&#39;&#39;# Game prompt collections. Names describe the prompt type - not branded deck titles.
+header = &#39;&#39;&#39;# Game prompt collections. Names describe the prompt type — not branded deck titles.
 # All prompts are family-friendly and generic for a worldwide audience.
 collections:
   - id: scale-clues
     title: Ranking prompts
     mode: ranked-prompts
-    tagline: A topic plus a worst-to-best or least-to-most scale. Invent a clue from everyday life - no personal questions about players.
+    tagline: A topic plus a worst-to-best or least-to-most scale. Invent a clue from everyday life — no personal questions about players.
     play_hint: Think of a plain example that fits this ranking. Your clue should land on the 1–100 scale without saying the number.
     categories:
       - id: everyday-people
@@ -10784,7 +10784,7 @@ collections:
   - id: personal-scales
     title: Personal icebreakers
     mode: personal
-    tagline: Self-reflective scales from 1 to 100 about real habits, preferences, and memories - for anyone at the table.
+    tagline: Self-reflective scales from 1 to 100 about real habits, preferences, and memories — for anyone at the table.
     play_hint: Answer honestly.
     scale_label: On a scale of 1 to 100
     items:
@@ -10798,7 +10798,7 @@ spectrum_header = &#39;&#39;&#39;
   - id: spectrum
     title: Concept spectrums
     mode: spectrum
-    tagline: Two opposing ideas - no categories, no questions. Name one word or phrase that sits in the grey area between them.
+    tagline: Two opposing ideas — no categories, no questions. Name one word or phrase that sits in the grey area between them.
     play_hint: Think of a single noun or short phrase that lands between these extremes. Expect a friendly group debate.
     spectrums:
 &#39;&#39;&#39;
@@ -10848,13 +10848,13 @@ spec.loader.exec_module(mod)
 spectrums = mod.load_pairs()
 print('spectrums', len(spectrums))
 
-header = '''# Game prompt collections. Names describe the prompt type - not branded deck titles.
+header = '''# Game prompt collections. Names describe the prompt type — not branded deck titles.
 # All prompts are family-friendly and generic for a worldwide audience.
 collections:
   - id: scale-clues
     title: Ranking prompts
     mode: ranked-prompts
-    tagline: A topic plus a worst-to-best or least-to-most scale. Invent a clue from everyday life - no personal questions about players.
+    tagline: A topic plus a worst-to-best or least-to-most scale. Invent a clue from everyday life — no personal questions about players.
     play_hint: Think of a plain example that fits this ranking. Your clue should land on the 1–100 scale without saying the number.
     categories:
       - id: everyday-people
@@ -10885,7 +10885,7 @@ collections:
   - id: personal-scales
     title: Personal icebreakers
     mode: personal
-    tagline: Self-reflective scales from 1 to 100 about real habits, preferences, and memories - for anyone at the table.
+    tagline: Self-reflective scales from 1 to 100 about real habits, preferences, and memories — for anyone at the table.
     play_hint: Answer honestly.
     scale_label: On a scale of 1 to 100
     items:
@@ -10899,7 +10899,7 @@ spectrum_header = '''
   - id: spectrum
     title: Concept spectrums
     mode: spectrum
-    tagline: Two opposing ideas - no categories, no questions. Name one word or phrase that sits in the grey area between them.
+    tagline: Two opposing ideas — no categories, no questions. Name one word or phrase that sits in the grey area between them.
     play_hint: Think of a single noun or short phrase that lands between these extremes. Expect a friendly group debate.
     spectrums:
 '''
@@ -11389,6 +11389,6 @@ _**Agent (auto-low)**_
 
 **Concept spectrums** is now **500 binary pairs** (up from 15). Examples: `Hot ↔ Cold`, `City life ↔ Country life`, `Indoor snack ↔ Outdoor snack`, and similar everyday opposites.
 
-Click **Concept spectrums** on `/randomizer/` to shuffle straight away - no category step. The tile shows **500 spectrums**. Offline HTML export includes all 500.
+Click **Concept spectrums** on `/randomizer/` to shuffle straight away — no category step. The tile shows **500 spectrums**. Offline HTML export includes all 500.
 
 `scripts/build-spectrum-500.py` can regenerate the spectrum list if you want to edit or expand it later. Hard refresh the page if you still see the old count.

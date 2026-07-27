@@ -51,3 +51,745 @@ FORBIDDEN:
 - Keep edits minimal and surgical: change the offending clause, not the whole field.
 
 REPORT BACK: one line per file naming what you changed, plus confirmation that both linters are silent for all 14 of your files.
+
+---
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+I'll start by reading the voice skill, then diagnose all 14 files.
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="update_current_step"><details>
+<summary>Tool use: **update_current_step**</summary>
+An unknown error occurred
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/garden-voice/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<think><details><summary>Thought Process</summary>
+I'm going to examine the worked examples and then apply the probe across all 14 files.
+</details></think>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+Now let me look at the worked examples and probe my files.
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/guard-your-heart.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/into-your-hands.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /tmp/probe.py</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<think><details><summary>Thought Process</summary>
+I'm going to execute the probe across all 14 files and apply the two linters as filters.
+</details></think>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 /tmp/probe.py analog-capture-tools.md bear-each-others-burdens.md cap-todays-commitments.md christlikeness.md client-site-pass-off.md come-to-me-weary.md confess-to-one-another.md 2&gt;&amp;1</summary>
+```bash
+python3 /tmp/probe.py analog-capture-tools.md bear-each-others-burdens.md cap-todays-commitments.md christlikeness.md client-site-pass-off.md come-to-me-weary.md confess-to-one-another.md 2>&1
+```
+
+```
+
+======================================================================
+analog-capture-tools.md
+DESC: Analog capture wins when the phone dies or the meeting blocks screens - same inbox rule.
+  KC-DUP: Level 2: Phone dead on the bus, so you write on the back of a receipt - same inbox rule, different surface.
+     overlaps desc clause: ['same inbox rule']
+  ST[0] OK: Analog capture wins when the phone dies or the meeting blocks screens - same inbox rule.
+  ST[1] OK: The scrap gets copied into the real system later.
+  ST[2] OK: Paper is capture, not storage.
+  ST[3] OK: Paper still goes in the same inbox when screens are off limits.
+  POOL (clauses a shareable line may echo):
+     - analog capture wins when the phone dies or the meeting blocks screens - same inbox rule
+     - analog capture wins when the phone dies or the meeting blocks screens
+     - - the scrap gets copied into the real system later - paper is capture, not storage. - level 1: like when you scribble on a napkin at lunch - paper gra
+     - - the scrap gets copied into the real system later
+     - paper is capture, not storage
+     - - level 1: like when you scribble on
+     - paper grabs the idea, then you copy it into your real notebook later
+     - - level 2: phone dead on the bus, so you write on the back of
+     - same inbox rule, different surface
+     - - level 3: analog capture wins because the scrap must land in the real system later
+     - paper is for grabbing sparks, not for long-term storage
+     - - level 4: scribble on whatever is handy, then copy into your trusted inbox the same day
+     - one pocket notebook, no sorting yet
+     - - level 5: pairs with capture and the trusted inbox
+     - margin notes and receipt scraps die unless they land in the real system before memory fades
+     - - paper still goes in the same inbox when screens are off limits
+     - the scrap gets copied into the real system later - paper is capture, not storage. - level 1: like when you scribble on a napkin at l
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 /tmp/probe.py context-aware-capture.md continuous-improvement.md count-the-cost.md create-regular-connection.md decision-quality.md deep-work.md faithfulness.md 2&gt;&amp;1</summary>
+```bash
+python3 /tmp/probe.py context-aware-capture.md continuous-improvement.md count-the-cost.md create-regular-connection.md decision-quality.md deep-work.md faithfulness.md 2>&1
+```
+
+```
+
+======================================================================
+context-aware-capture.md
+DESC: A saved link is a mystery six weeks later unless the why is jotted while memory is fresh.
+  KC-DUP: Level 3: A saved link is a mystery six weeks later unless the why was captured while it was still obvious.
+     overlaps desc clause: ['a saved link is']
+  KC-DUP: A saved link is a mystery six weeks later unless the why was captured while it was still obvious.
+     overlaps desc clause: ['a saved link is']
+  ST[0] OK: A saved link is a mystery six weeks later unless the why is jotted while memory is fresh.
+  ST[1] OK: Context-aware capture saves the why while memory is fresh.
+  ST[2] OK: Project, mood, question - not just the link.
+  ST[3] OK: A saved link is a mystery six weeks later unless the why was captured while it was still obvious.
+  POOL (clauses a shareable line may echo):
+     - a saved link is a mystery six weeks later unless the why is jotted while memory is fresh
+     - mystery six weeks later unless the why is jotted while memory is fresh
+     - - context-aware capture saves the why while memory is fresh - project, mood, question - not just the link. - level 1: like when you write why you save
+     - - context-aware capture saves the why while memory is fresh
+     - - level 1: like when you write why you saved
+     - the picture alone will not tell you later
+     - - level 2: you bookmark an article but add "for q3 budget slide" in the margin
+     - context-aware capture saves the why while memory is fresh
+     - mystery six weeks later unless the why was captured while it was still obvious
+     - - level 4: voice-memo in the parking lot with why the meeting mattered
+     - almost saved just the link and caught yourself while context was still in your head
+     - - level 5: six weeks later, only the why saves
+     - bookmark from becoming junk
+     - pairs with capture when resonance alone cannot reconstruct the spark
+     - - six weeks later, only th
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<think><details><summary>Thought Process</summary>
+I should run the linters directly to see the exact failures across all 14 files and check if there are any other issues beyond what I've already identified.
+</details></think>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+Now let me get the actual linter output for my files.
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: FILES=&#39;analog-capture-tools|bear-each-others-burdens|cap-todays-commitments|christlikeness|client-site-pass-off|come-to-me-weary|confess-to-one-another|context-aware-capture|continuous-improvement|count-the-cost|create-regular-connection|decision-quality|deep-work|faithfulness&#39;; echo &#34;=== FRONTMATTER ===&#34;; python3 scripts/lint-notes-frontmatter.py 2&gt;&amp;1 | rg &#34;$FILES&#34;; echo &#34;=== VOICE ===&#34;; python3 scripts/garden-voice-lint.py 2&gt;&amp;1 | rg &#34;$FILES&#34;</summary>
+```bash
+FILES='analog-capture-tools|bear-each-others-burdens|cap-todays-commitments|christlikeness|client-site-pass-off|come-to-me-weary|confess-to-one-another|context-aware-capture|continuous-improvement|count-the-cost|create-regular-connection|decision-quality|deep-work|faithfulness'; echo "=== FRONTMATTER ==="; python3 scripts/lint-notes-frontmatter.py 2>&1 | rg "$FILES"; echo "=== VOICE ==="; python3 scripts/garden-voice-lint.py 2>&1 | rg "$FILES"
+```
+
+```
+=== FRONTMATTER ===
+FAIL description in key_concept (Level 2: Phone dead on the bus, so you write on the back of …): analog-capture-tools.md
+FAIL shareable_thought[2] not from principle: bear-each-others-burdens.md
+FAIL shareable_thought[3] not from principle: bear-each-others-burdens.md
+FAIL shareable_thought[2] not from principle: cap-todays-commitments.md
+FAIL description in key_concept (Level 4: Apologize slower than you used to snap - growth aft…): christlikeness.md
+FAIL description in key_concept (Level 3: Client site pass-off names who publishes next befor…): client-site-pass-off.md
+FAIL shareable_thought[2] not from principle: come-to-me-weary.md
+FAIL shareable_thought[3] not from principle: come-to-me-weary.md
+FAIL shareable_thought[2] not from principle: confess-to-one-another.md
+FAIL description in key_concept (Level 3: A saved link is a mystery six weeks later unless th…): context-aware-capture.md
+FAIL description in key_concept (Level 5: Pairs with [[Blameless After-Action Review]] on the…): continuous-improvement.md
+FAIL shareable_thought[2] not from principle: count-the-cost.md
+FAIL shareable_thought[3] not from principle: count-the-cost.md
+FAIL description in key_concept (Level 3: Connection grows from small rituals - one walk, one…): create-regular-connection.md
+FAIL description in key_concept (Level 5: Pairs with [[Control the Rhythm]] when urgency push…): decision-quality.md
+FAIL description in key_concept (Level 4: Block ninety minutes with phone in the gym bag befo…): deep-work.md
+FAIL shareable_thought[1] not from principle: faithfulness.md
+FAIL shareable_thought[2] not from principle: faithfulness.md
+=== VOICE ===
+
+```
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<think><details><summary>Thought Process</summary>
+The voice linting is already passing, so I'm focusing on the frontmatter issues—18 failures across 14 files. I'm noticing the linter only reports the first duplicate key per file, but the probe found multiple instances, so I need to fix all of them. Let me start reading through each file to make targeted edits.
+</details></think>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+Voice lint is already clean; 18 frontmatter failures to fix. Let me read the files.
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/analog-capture-tools.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/christlikeness.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/client-site-pass-off.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/context-aware-capture.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<think><details><summary>Thought Process</summary>
+Looking at the analog-capture-tools document, I notice the description and a level 2 bullet both repeat the phrase "same inbox rule." I need to rework that bullet point to eliminate the repetition while keeping the core idea about capturing notes on unconventional surfaces when circumstances prevent normal methods.
+
+The revised version—"Phone dead on the bus, so you write on the back of a receipt - the surface changed, the inbox did not"—removes the problematic phrase while preserving the concept that the capture method adapts but the destination stays consistent. I should verify this new wording doesn't accidentally echo any description clauses, and I'm also noting that a later statement about paper going into the same inbox when screens are unavailable aligns with the existing bullet I'm keeping.
+
+For the christlikeness section, the description clause "growth after faith, not the entry fee" is already appearing in Level 4, which creates redundancy since it's also in the description pool. I need to reframe that level with a different angle while keeping the core idea intact.
+
+The phrase "apologize slower than you used to snap" is the author's original wording from the examples, so I'll preserve it and just remove the redundant description clause. The revised Level 4 becomes: "Apologize slower than you used to snap - ordinary Tuesdays matter more than one emotional Sunday." This avoids the description clause duplication while maintaining the meaning.
+
+Now I'm checking whether "guessing game" in the client-site-pass-off description actually functions as a description clause, and I need to look at how the parsing logic splits these components to understand what's being flagged.
+
+I'm noticing there are two near-duplicate entries here — the Level 3 statement and the bullet point both essentially say the same thing about not having a guessing game when pricing is set upfront. Since the description itself is already in the pool, the ST[0] check passes regardless. Deleting the redundant bullet would be cleaner than keeping it, though I need to be careful about the constraint against removing "Level N:" formatted items. I'm checking whether the reworded Level 3 bullet passes the linting requirements—it needs to avoid descriptor clauses and meet the minimum word count. The new version "Client site pass-off names who publishes next before deposit - the model is priced upfront, so nobody argues about it launch week" seems to work, though I'm verifying it doesn't contain any of the problematic phrasing from the original pool.
+
+For the duplicate bullet point, I'm deciding whether to delete it or reword it to something like "The pass-off model is priced in the quote, not discovered on launch day." Since it's essentially restating the description itself, deletion is the cleaner approach—the linter already flags that as a defect anyway.
+
+Now I need to check the notes_content.py file to understand the exact clause splitting rules, because there's another duplicate issue in context-aware-capture.md. The description mentions "A saved link is a mystery six weeks later unless the why is jotted while memory is fresh," but the actual bullet says "unless the why was captured while it was still obvious." Both Level 3 and a standalone bullet have the identical text, so if I reword one, I need to handle both together to avoid breaking the reference.
+</details></think>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+Let me read the checker source to get the exact clause-splitting rules.
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<think><details><summary>Thought Process</summary>
+I'm working through how to identify overlapping description clauses by checking if shorter ones are prefixes or suffixes of longer ones, or if they appear as substrings within each other. The descriptions get split on sentence boundaries and certain punctuation patterns like dashes and semicolons.
+
+Wait, I'm realizing the regex pattern `[--–]` is actually a character range from hyphen (U+002D) to en-dash (U+2013), which captures way more characters than intended — it includes letters, digits, and punctuation marks in that Unicode range. So the split pattern `\s[--–]\s` matches whitespace around any single character in that range, which means it's splitting on things like " a " or " the " where those letters fall within the range. That's why the example description splits at " a " and creates those two fragments.
+
+Now I'm checking the KC-DUP logic: each normalized description clause needs to be at least 10 characters, and if any KC bullet contains that clause as a substring, it gets marked as a duplicate. So "a saved link is" (15 chars) and "guessing game" (13 chars) are both checked against every bullet in the pool.
+
+I'm starting to map out how each file will be processed — looking at the description, identifying where the splitter breaks it into clauses, then checking each clause against the KC pool for duplicates.
+
+For the analog-capture-tools file, the description splits on the " - " delimiter, giving me the full text plus the individual segments. The Level 2 bullet needs to be rewritten to avoid containing "same inbox rule" as a substring, and I need to verify the normalization process strips wikilinks and certain punctuation before doing the comparison.
+
+Now checking the bear-each-others-burdens file — the second statement about bearing burdens from love without earning standing appears in the pool, so I need to see how much of it overlaps with what's already documented.
+
+I'm realizing the pool structure splits content by blank lines into chunks, and each chunk gets treated as a separate entry. If a knowledge card has no blank lines between bullets, it becomes one block, but the pool seems to show individual bullets with leading dashes. Let me trace through how the chunking actually works when there are no paragraph breaks within the content. The regex alternation tries each pattern in order, so after matching the space following "sidewalk.", it continues scanning from the dash, but the `\s[--–]\s` pattern requires whitespace before the dash, so it doesn't match there—meaning "- Level 1:" stays attached to that segment.
+
+Now I'm checking whether shareable lines qualify by being substrings of normalized pool entries or containing pool entries of at least 10 characters. For the statement about bearing burdens from love under Free Grace, I need to verify if it appears in the pool or if the pool contains a matching substring, but the longer version with "or look holy" at the end doesn't match exactly. The split is happening on " I " because the regex pattern for dashes matches that character range. The pool entry "under free grace" is indeed a substring of the normalized text, which contains "under free grace," followed by the rest of the sentence about bearing burdens.
+
+But the probe output shows the full entry as "- level 3: under free grace" with the prefix included, so that's what's actually stored in the pool. The probe is the authoritative source here, and it only displays entries longer than 25 characters, so I need to trust what it prints rather than trying to reconstruct the entries from the split logic.
+
+For ST[2] to work, I should use a contiguous span from existing text. The phrase "I bear burdens from love, not to earn standing or look holy" appears to be a direct pool entry and meets all the constraints: it's under 130 characters, has no wikilinks, doesn't start with forbidden words, ends with a period, has enough words, and isn't a prefix or suffix of another line.
+
+Now I'm checking ST[3] against the pool—there's a similar entry about load-sharing and repair that I can work with.
+
+The tricky part is whether mentioning "Galatians" in the shareable thought violates the garden-voice rule against bible verse citations in relationships.reason. I notice other notes like confess-to-one-another already reference book names like James, so it seems the linter isn't flagging that pattern.
+
+A simpler fix might be to replace the whole phrase with "Load-sharing and repair belong in the same breath" — that's an exact pool entry with eight words, distinct from the other shareable thoughts, and it trades the softer "gentle restoration" for plainer "repair" which fits the voice better. I need to verify ST[3] is actually different from ST[2] and check whether the frontmatter linter has any overlap restrictions for shareable lines.
+
+For cap-todays-commitments.md, ST[2] currently reads "Three finished tasks beat twelve half-done ones at bedtime" but the pool entry includes "that guilt-trip you at bedtime." Adding that phrase makes it a proper substring match at 78 characters and 12 words, staying well within limits.
+
+Now checking the other entries in that file — ST[0], ST[1], and ST[3] — for any prefix or suffix overlaps with each other, and there aren't any, so the minimal fix is just that one addition.
+
+Moving to christlikeness.md, I'm removing "growth after faith, not the entry fee" from level 4 and replacing it with "Apologize slower than you used to snap - ordinary Tuesdays matter more than one emotional Sunday." The description clause checks out fine since it's already in the pool. Now I'm looking at another file with duplicate KC entries that both mention "guessing game" — one at Level 3 describing the client site pass-off process, and another shorter version that captures the same idea about naming who publishes next and pricing the pass-off upfront so the launch isn't uncertain.
+
+I'm fixing the Level 3 entry to remove the "guessing game" phrase and replace it with "negotiation" instead, then verifying it no longer matches the duplicate or the description clause that's already flagged. I'm leaning toward deletion since the linter's own auto-fix removes these kinds of redundant bullets, and it doesn't break the description validation. The phrase "price the pass-off" only appears here and in the description anyway. Moving on to check the other statements — ST[1] about the Showroom branch still validates at 118 characters, and ST[2] references "pick one pass-off model" which should match against the pool entry. Now I'm moving on to the next file and checking its content. The second statement needs adjustment to clarify that it's not about eliminating work, but rather shifting from burnout-driven effort to collaborative work with Him. I'm verifying the pool entries match the corrected text and confirming the character count passes the filtering threshold.
+
+For the third statement, I'm comparing it against the pool entry and making sure the wording aligns exactly - the key change is adding "the same way" to strengthen the parallel between rest and sleep's protective functions.
+
+Now I'm working through the confession statement, checking whether my rephrasing captures the pool entry accurately. The original phrasing needs adjustment to match the pool's structure while keeping the meaning intact about how fellowship repairs through confession while salvation remains settled. The entry passes the length and word checks, and starts correctly. But "Standing vs fellowship" reads like it's referencing a wikilink from the knowledge base, which won't work in a shareable line — I need plain text. So I should edit both the knowledge base bullet and the shareable line together to make the phrasing work naturally without the wikilink syntax. I'm checking whether this sentence works as a standalone point by validating it against several criteria—does it have enough length, proper punctuation, capitalization, and does it avoid looking like a title fragment or containing problematic patterns like dangling clauses or bare noun lists.
+
+The sentence feels slightly incomplete without a linking verb, so I'm considering rewording the Level 3 bullet to insert "stays" and restructure it with a dash to create two distinct chunks that read more naturally when split apart. The filter excluded "hidden failure rots" because it's under 25 characters, so the new Level 3 bullet avoids that duplication. I'm considering whether to rephrase the KC Level 3 to lead with the core idea—"Salvation stays settled while fellowship gets repaired through confession"—and place the wikilink later since the character limit only applies to the first line anyway. I'm checking whether the span "Standing vs fellowship keeps salvation settled while fellowship gets repaired through confession" works as a valid summary tag, considering how other ST lines in the note are structured and whether they reference the note's titles.
+
+I'm leaning toward a small tweak to improve the voice — changing the KC level 3 bullet to frame it as "Standing vs Fellowship holds the line" with the corresponding ST line simplified to just "Salvation stays settled while fellowship gets repaired through confession," then comparing this against the next statement about confessing because standing is already secure.
+
+Now I'm checking the angles across the support text for context-aware-capture.md. The description clause and KC duplicates both use the same phrasing about a saved link becoming a mystery, so I need to reword those occurrences to avoid the repetition.
+
+I'll delete the standalone bullet 12 since it's identical to Level 3, then rephrase Level 3 to say the bookmark turns into a mystery instead. This removes the "a saved link is" phrase while keeping the core idea about why being captured while obvious, which should satisfy the overlap check. Now checking if that new Level 3 text overlaps with the existing ST[0] — they start differently ("a saved link" vs "the bookmark turns into"), so there's no prefix/suffix issue, though I'm wondering if they're too semantically similar to allow both.
+
+Looking at the pool for a different angle, I notice there's a payoff-focused option: "six weeks later, only the why saves a bookmark from becoming junk." This could work better as ST[3] since it emphasizes the consequence rather than restating the mystery concept. Let me verify if this version fits the constraints. The reworded Level 3 bullet works at 65 characters and 12 words. After removing the duplicate bullet 12, bullet 13 stays intact. Since Level 3 contains the duplicate phrase "a saved link is," I need to reword it—I can't just delete a Level bullet. Something like "The bookmark turns into a mystery six weeks later" captures the same voice and meaning. Now I'm checking the continuous-improvement.md file for duplicate descriptions. The descriptor "Each miss becomes one tweak to the process, not a lecture about trying harder" appears to overlap with Level 5, which already contains "lecture about trying harder" in its text. I need to revise Level 5 to remove the duplicate phrase and use something like "scolding" instead to maintain the meaning while eliminating the overlap. I'm checking whether the alternative phrasing "instead of a pep talk about trying harder" would work better, since "scolding the team" shifts the note from personal reflection to team dynamics, but I need to verify it doesn't introduce the forbidden phrase about trying harder. The Level 5 pairs with the After-Action Review on the learn side, replacing the pep talk with a practical approach to fixing the runbook incrementally. Now looking at the count-the-cost document — the statement about eternal life being free under grace versus the cost of discipleship seems to be splitting into two distinct concepts, where the gift itself is free but the commitment has weight that requires honest evaluation. I'm looking at the exact text that came through in the output, trying to verify what was actually received versus what I'm seeing displayed. Let me check the create-regular-connection file and see what's happening with that duplication. The description mentions small repeated rituals like one walk and one check-in, but the level 3 content is repeating those same phrases, so I need to reword level 3 to remove that overlap while keeping the core idea intact.
+
+After rewording level 3 to focus on keeping rituals on schedule rather than listing specific examples, I'm verifying that the new version doesn't accidentally reintroduce any of the original phrases from the description. I also need to check if any other statement templates depend on the old level 3 wording before finalizing this change.
+
+Now I'm moving on to decision-quality.md, where the description emphasizes that choices should be evaluated by their durability through sleep, new information, and real consequences—not just the momentum of a meeting. The key concept already appears in a level 5 pairing with Control the Rhythm, so I'm checking for any duplication issues there.
+
+I'm verifying that my reworded version avoids repeating the core dependency phrase about how choices are judged, while still capturing the distinction between meeting-room excitement and actual quality decisions. There's an existing pool entry about choices that only look good in the meeting room, so I need to make sure my edit doesn't inadvertently duplicate that phrasing.
+
+Let me try swapping "meeting high" for "buzz in the room" instead—that keeps the meaning intact while sidestepping the duplication issue. The revised bullet would read: "Pairs with [[Control the Rhythm]] when urgency pushes a fast yes - quality decisions survive new facts and the real bill, not the buzz in the room." That avoids the flagged dependency phrase and feels natural enough.
+
+Now moving on to check the deep-work.md file. I'm simplifying Level 4 by cutting the redundant capture phrase and ending cleanly at "another week" — it stands on its own without the duplication. Now I need to strip the same phrase from Level 5 to avoid losing the pairing structure across the ladder. Checking the ST lines to confirm none depend on Levels 4 or 5, and verifying that ST[3]'s negation phrasing passes the safety check.
+
+Now I need to read through the remaining files to find good spans for the faithfulness principle and the others on the list.
+</details></think>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+Now let me read the remaining files.
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/bear-each-others-burdens.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/cap-todays-commitments.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/come-to-me-weary.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/confess-to-one-another.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<think><details><summary>Thought Process</summary>
+I'm noticing the split on the dash isn't working as expected—the earlier output showed "level 3: under free grace" and "i am already accepted" as separate items, but now it's combining them differently with "i bear burdens from love, not to earn standing or look holy" as the second part. Verifying that the normalized pool entries match correctly across the different sections—the "I bear burdens" chunk is 60 characters and doesn't overlap with the previous line, and the "Load-sharing and repair" entry checks out. Moving on to verify the cap-todays-commitments section where "Three finished tasks beat twelve half-done ones..." needs to match against its pool entry.
+
+For come-to-me-weary, the ST[2] line about shared labor contains the pool entry and is 97 characters without overlapping with the rest entry, and the calendar rest line matches exactly. Now checking the final batch.
+</details></think>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/continuous-improvement.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/count-the-cost.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/create-regular-connection.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<think><details><summary>Thought Process</summary>
+I'm working through how to parse this concept about discipleship costs under free grace theology. The core idea is that eternal life itself is free as a gift, but Jesus names a different kind of cost—the weight of discipleship commitment—rather than a price for heaven. I'm breaking down the text by splitting on key phrases to isolate the distinct parts of this argument.
+
+Now I'm validating that the rewritten statement captures the boundary between free grace doctrine and the cost of following through. I'm also checking ST[3] against the pool of related concepts about counting costs honestly before making public commitments, making sure the language about naming costs as an act of love rather than fear tactics stays consistent with the broader theological framework. Checking whether that pool entry actually contains the substring I need — the bullet point has a dash prefix, so the full text starts with "- " but my candidate string doesn't, which means it's not a direct substring match. I need to verify if this is the complete bullet point and whether the formatting affects the matching. Oh right, the first chunk in the array is actually the entire flattened key concept as a single normalized string, so any shareable line that appears as a contiguous substring within that full flattened text would pass the check. That's the key insight—I'm looking for whether the line exists as a span within the complete flattened concept. So the substring check is working correctly here too — "a renewed mind needs clean fuel - guarding is the intake valve before renewal can work" appears in the pool entry from that bullet point, confirming the match. Looking at the four structural angles for count-the-cost, I'm mapping out how each one serves a different purpose: the definition establishes what we're talking about, the move creates the action moment, the boundary clarifies what the cost actually is versus what it isn't, and now I need the payoff angle to explain why this matters—the consequence or the deeper reason for counting. The word count check would fail that phrase anyway since "same move before deploy" has four words. A better fix is to rewrite ST[3] entirely to capture the same core idea about cost honesty being love rather than manipulation, but frame it as a consequence: "Discipleship without cost honesty breeds quitters who thought faith was a mood." This keeps the plain, honest voice and avoids any KC edits. Let me check the remaining criteria against the other statements.
+
+Now I'm working through the Level 3 connection fix — the new phrasing is "Connection grows from small rituals kept on schedule, even when there is nothing big to report." I'm verifying it doesn't overlap with the existing description points about repeated rituals, single actions, or avoiding big gestures after gaps.
+</details></think>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/decision-quality.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/deep-work.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/faithfulness.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<think><details><summary>Thought Process</summary>
+I'm reviewing the faithfulness section and finding that two statements don't align with the source material—neither the reference to fruits of the Spirit alongside gentleness nor the claim about the Spirit sustaining the walk appear in the KC text. I need to find two replacement statements from the KC spans that approach this differently, one matching the definitional angle from the first statement and another addressing the rewards boundary like the fourth statement does.
+
+I'm working through candidate levels of faithfulness from the KC material: starting with small, steady use of what's given rather than one grand gesture to earn heaven, moving to the metaphor of showing up consistently to a shift over months instead of attempting one heroic week, and finally to the core insight that because grace already saved us, steady obedience is a response to that gift rather than a purchase of heaven or a performance-based entry fee. I need to verify that the normalized text is actually a contiguous substring of the flattened knowledge component. The original level 1 entry uses a dash separator, so I should match that exact span: "use what god gave you in small steady ways - not one big week to earn heaven" appears in the flattened text with the proper formatting intact.
+
+Now checking the third span about grace and obedience as the mechanism behind steady practice — this comes from level 3 and captures the "why" angle, distinct from the movement and boundary concepts already identified. I'm checking whether the grace doctrine framing works with that phrasing, and it does—the idea that grace already saved means steady obedience is a response to a gift. Now I'm mapping out the structural angles across these statements: definition, movement, mechanism with boundaries, and the payoff in terms of rewards. For the Level 5 decision-quality fix, I'm replacing the vague "meeting high" language with something more concrete like "the buzz in the room" to better capture what distracts from real quality choices. I'm refining Level 5 to move the interruption-handling concept into the trusted inbox rather than framing it as "capture catches" — the new wording avoids that duplicate phrase while keeping the core idea intact. Now checking the last bullet point to see if it contains any of the flagged duplicate phrases. irely, but bullets 13 and 6 still reference capture handling interruptions, so that's covered. I could revise Level 5 to explicitly pair capture with the trusted inbox — something like "Capture takes the interruption so deep work survives, because a spark gets sorted into the inbox instead of derailing mid-thought." That keeps the core pairing intact without bloating the length. Let me verify this doesn't create overlap with the duplicate check by testing the substring matching against the existing lines.
+
+Now I'm moving through the fixes: Level 4 gets trimmed to remove the redundant tail, the analog-capture-tools note gets its Level 2 update, christlikeness gets the Level 4 adjustment, and client-site-pass-off needs the Level 3 fix plus deletion of bullet 16.
+
+For the client-site-pass-off Level 3, I'm settling on: "Level 3: Client site pass-off names who publishes next before deposit - the model is priced in the quote, so launch week is not a scramble." This captures the core without the guessing game language, and the phrasing aligns with what I'm checking against.
+
+Since bullet 12 is an exact duplicate of the Level 3 text about saved links becoming mysteries without captured context, I'm deleting it outright rather than rewording both. Now I need to verify that ST[1] of context-aware-capture ("Context-aware capture saves the why while memory is fresh") actually exists in the pool or if it needs to be added.
+
+I'm starting to make the edits now, beginning with the Level 2 description in analog-capture-tools.md — changing it from "same inbox rule, different surface" to "the surface changed, the inbox did not" to better emphasize the consistency of the capture method despite the medium shift.
+
+Now I need to work through the remaining files: bear-each-others-burdens.md, cap-todays-commitments.md, christlikeness.md, client-site-pass-off.md, come-to-me-weary.md, confess-to-one-another.md, and context-aware-capture.md, making similar targeted edits to remove the duplicate phrasing while preserving the core meaning.
+</details></think>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+Now I'll make the edits. Starting with the key_concept duplication fixes.
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/analog-capture-tools.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/christlikeness.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/create-regular-connection.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/continuous-improvement.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/decision-quality.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<think><details><summary>Thought Process</summary>
+I'm thinking through how to hand off work to the client, capture the context they need, focus on deep work, and be transparent about what we've accomplished together.
+</details></think>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/client-site-pass-off.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/client-site-pass-off.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/context-aware-capture.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/context-aware-capture.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/context-aware-capture.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/deep-work.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/confess-to-one-another.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+Now the shareable_thought fixes.
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/bear-each-others-burdens.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/cap-todays-commitments.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/come-to-me-weary.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/confess-to-one-another.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/count-the-cost.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/faithfulness.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+Now let me re-probe and run both linters.
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="update_current_step"><details>
+<summary>Tool use: **update_current_step**</summary>
+An unknown error occurred
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 /tmp/probe.py analog-capture-tools.md bear-each-others-burdens.md cap-todays-commitments.md christlikeness.md client-site-pass-off.md come-to-me-weary.md confess-to-one-another.md context-aware-capture.md continuous-improvement.md count-the-cost.md create-regular-connection.md decision-quality.md deep-work.md faithfulness.md 2&gt;&amp;1 | rg -v &#39;^     - &#39; </summary>
+```bash
+python3 /tmp/probe.py analog-capture-tools.md bear-each-others-burdens.md cap-todays-commitments.md christlikeness.md client-site-pass-off.md come-to-me-weary.md confess-to-one-another.md context-aware-capture.md continuous-improvement.md count-the-cost.md create-regular-connection.md decision-quality.md deep-work.md faithfulness.md 2>&1 | rg -v '^     - ' 
+```
+
+```
+
+======================================================================
+analog-capture-tools.md
+DESC: Analog capture wins when the phone dies or the meeting blocks screens - same inbox rule.
+  ST[0] OK: Analog capture wins when the phone dies or the meeting blocks screens - same inbox rule.
+  ST[1] OK: The scrap gets copied into the real system later.
+  ST[2] OK: Paper is capture, not storage.
+  ST[3] OK: Paper still goes in the same inbox when screens are off limits.
+  POOL (clauses a shareable line may echo):
+
+======================================================================
+bear-each-others-burdens.md
+DESC: Believers carry each other's heavy loads - bearing is shared weight, not solo heroics or gossip.
+  ST[0] OK: Believers carry each other's heavy loads - bearing is shared weight, not solo heroics or gossip.
+  ST[1] OK: I cannot shoulder every weight alone - bearing means showing up with hands on the load.
+  ST[2] OK: I bear burdens from love, not to earn standing or look holy.
+  ST[3] OK: Load-sharing and repair belong in the same breath.
+  POOL (clauses a shareable line may echo):
+
+======================================================================
+cap-todays-commitments.md
+DESC: Today's list should fit today's energy - three real wins beat twelve borrowed from tomorrow's fuel.
+  ST[0] OK: Today's list should fit today's energy - three real wins beat twelve borrowed from tomorrow's fuel.
+  ST[1] OK: Cap today's commitments to what honest capacity can finish.
+  ST[2] OK: Three finished tasks beat twelve half-done ones that guilt-trip you at bedtime.
+  ST[3] OK: The cap includes rest - depleted brains sign bad lists.
+  POOL (clauses a shareable line may echo):
+
+======================================================================
+christlikeness.md
+DESC: God keeps reshaping me to look and love more like Jesus - growth after faith, not the entry fee.
+  ST[0] OK: God keeps reshaping me to look and love more like Jesus.
+  ST[1] OK: Growth after faith, not t
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<think><details><summary>Thought Process</summary>
+No duplicate KC lines found and all ST checks passed, so I'm ready to run both linters with the appropriate filters applied.
+</details></think>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+All probe findings cleared. Now the real linters.
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: FILES=&#39;analog-capture-tools|bear-each-others-burdens|cap-todays-commitments|christlikeness|client-site-pass-off|come-to-me-weary|confess-to-one-another|context-aware-capture|continuous-improvement|count-the-cost|create-regular-connection|decision-quality|deep-work|faithfulness&#39;; echo &#34;=== FRONTMATTER ===&#34;; python3 scripts/lint-notes-frontmatter.py 2&gt;&amp;1 | rg &#34;$FILES&#34;; echo &#34;(frontmatter done)&#34;; echo &#34;=== VOICE ===&#34;; python3 scripts/garden-voice-lint.py 2&gt;&amp;1 | rg &#34;$FILES&#34;; echo &#34;(voice done)&#34;</summary>
+```bash
+FILES='analog-capture-tools|bear-each-others-burdens|cap-todays-commitments|christlikeness|client-site-pass-off|come-to-me-weary|confess-to-one-another|context-aware-capture|continuous-improvement|count-the-cost|create-regular-connection|decision-quality|deep-work|faithfulness'; echo "=== FRONTMATTER ==="; python3 scripts/lint-notes-frontmatter.py 2>&1 | rg "$FILES"; echo "(frontmatter done)"; echo "=== VOICE ==="; python3 scripts/garden-voice-lint.py 2>&1 | rg "$FILES"; echo "(voice done)"
+```
+
+```
+=== FRONTMATTER ===
+(frontmatter done)
+=== VOICE ===
+(voice done)
+
+```
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<think><details><summary>Thought Process</summary>
+I should verify that my changes only affected the 14 files I edited and didn't inadvertently break linting in other files, then check the git diff to confirm the scope of my changes and make sure the voice lint checks pass.
+</details></think>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: git diff --stat -- content/english/notes/ &amp;&amp; echo &#34;---- full diff ----&#34; &amp;&amp; git diff -- content/english/notes/analog-capture-tools.md content/english/notes/christlikeness.md content/english/notes/client-site-pass-off.md content/english/notes/context-aware-capture.md content/english/notes/continuous-improvement.md content/english/notes/create-regular-connection.md content/english/notes/decision-quality.md content/english/notes/deep-work.md content/english/notes/faithfulness.md</summary>
+```bash
+git diff --stat -- content/english/notes/ && echo "---- full diff ----" && git diff -- content/english/notes/analog-capture-tools.md content/english/notes/christlikeness.md content/english/notes/client-site-pass-off.md content/english/notes/context-aware-capture.md content/english/notes/continuous-improvement.md content/english/notes/create-regular-connection.md content/english/notes/decision-quality.md content/english/notes/deep-work.md content/english/notes/faithfulness.md
+```
+
+```
+ content/english/notes/analog-capture-tools.md      |  2 +-
+ content/english/notes/bear-each-others-burdens.md  | 10 +++++-----
+ content/english/notes/block-recovery-time.md       |  6 +++---
+ content/english/notes/cap-todays-commitments.md    |  8 ++++----
+ content/english/notes/christlikeness.md            |  2 +-
+ content/english/notes/client-site-pass-off.md      |  3 +--
+ content/english/notes/come-to-me-weary.md          | 10 +++++-----
+ content/english/notes/confess-to-one-another.md    | 10 +++++-----
+ content/english/notes/context-aware-capture.md     |  5 ++---
+ content/english/notes/continuous-improvement.md    |  2 +-
+ content/english/notes/count-the-cost.md            | 10 +++++-----
+ content/english/notes/create-regular-connection.md |  2 +-
+ content/english/notes/decision-quality.md          |  2 +-
+ content/english/notes/deep-work.md                 |  4 ++--
+ content/english/notes/fail-on-paper-first.md       |  6 +++---
+ content/english/notes/faithfulness.md              |  4 ++--
+ content/english/notes/father-forgive-them.md       |  4 ++--
+ content/english/notes/follow-the-rhythm.md         |  6 +++---
+ content/english/notes/fruits-of-the-spirit.md      |  6 +++---
+ content/english/notes/gate-what-you-consume.md     | 10 +++++-----
+ content/english/notes/gentleness.md                |  2 +-
+ content/english/notes/getting-things-done.md       |  6 +++---
+ content/english/notes/give-useful-feedback.md      | 10 +++++-----
+ content/english/notes/glorify-your-name.md         |  4 ++--
+ content/english/notes/growth-mindset.md            |  4 ++--
+ content/english/notes/guard-your-heart.md          | 12 ++++++------
+ content/english/notes/into-your-hands.md           | 12 ++++++------
+ content/english/notes/invest-in-the-few.md         |  2 +-
+ content/english/notes/iron-sharpens-iron.md        |  8 ++++----
+ content/english/notes/jesus-prayers.md             |  2 +-
+ content/english/notes/joy.md                       |  4 ++--
+ content/english/notes/k
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<think><details><summary>Thought Process</summary>
+The diff shows many files were already modified before I started — those are from the initial git status snapshot and changes being made by other agents working in parallel. My 14 files are all accounted for in the list, while files like block-recovery-time.md and fruits-of-the-spirit.md are being edited concurrently by other agents that the parent orchestrator is managing.
+
+I'm confident I only touched my 14 files since I only issued StrReplace commands on those specific files. Checking the christlikeness levels — the Level 4 bullet no longer has the free-grace note, but Level 3 and Level 5 have their respective content intact. The count-the-cost ST[3] line about "quitters who thought faith was a mood" is fine as-is since it's addressing discipleship cost honesty rather than salvation doctrine, and it's an existing unchanged KC bullet. The linters have already run silently, including the voice/slop checks for dash issues, so I'm ready for a final combined verification.
+
+Now I need to write up the report with the file-by-file changes and include the session close block. Going through each file: analog-capture-tools.md got a Level 2 tail reword to avoid repeating the description clause, bear-each-others-burdens.md now has shareables 3 and 4 echoing their corresponding level wording, cap-todays-commitments.md restored the full Level 2 clause in shareable 3, christlikeness.md dropped the duplicated growth-after-faith phrase from Level 4, and I'm moving through the remaining files with their specific edits. Continuing through the remaining files: Level 3 in create-regular-connection.md now reads "small rituals kept on schedule" so the specific example stays in the description. Decision-quality.md's Level 5 shifted to "not the buzz in the room" for a cleaner ending. Deep-work.md restructured Level 4 and 5 around the ninety-minute block and how Capture handles interruptions. Faithfulness.md swapped shareable 2 and 3 to pull directly from Level 1 and Level 3. I'm noticing a pattern worth encoding about how the description-clause splitter handles single characters between spaces.
+</details></think>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+Both linters are silent for all 14 files. Here is what changed, one line per file:
+
+| File | Change |
+|---|---|
+| `analog-capture-tools.md` | Level 2 tail reworded to "the surface changed, the inbox did not" so it stops repeating the description's "same inbox rule". |
+| `bear-each-others-burdens.md` | Shareable lines 3 and 4 now echo the note's own wording: "I bear burdens from love, not to earn standing or look holy" and "Load-sharing and repair belong in the same breath". |
+| `cap-todays-commitments.md` | Shareable line 3 restored the full Level 2 clause, "...half-done ones that guilt-trip you at bedtime". |
+| `christlikeness.md` | Dropped the duplicated "growth after faith, not the entry fee" from Level 4, leaving the ordinary-Tuesdays angle to carry that bullet. |
+| `client-site-pass-off.md` | Level 3 now says the model is priced in the quote instead of repeating "guessing game"; deleted the trailing bullet that restated the description word for word. |
+| `come-to-me-weary.md` | Shareable lines 3 and 4 now quote Level 2 and Level 5 exactly ("not absence of work, but work with Him...", "the same way sleep protects judgment"). |
+| `confess-to-one-another.md` | Level 3 split into "holds the line - salvation stays settled while fellowship gets repaired through confession", and shareable line 3 echoes that clause. |
+| `context-aware-capture.md` | Level 3 opens "The link alone..." instead of the description clause, the duplicate bullet below the ladder is gone, and shareable line 4 became the payoff line about the why saving a bookmark. |
+| `continuous-improvement.md` | Level 5 ends "instead of a pep talk about trying harder" so it no longer carries the description's "lecture about trying harder". |
+| `count-the-cost.md` | Shareable lines 3 and 4 now quote Level 3 ("the cost Jesus names is discipleship weight, not a price tag on heaven") and the discipleship bullet. |
+| `create-regular-connection.md` | Level 3 reworded to "small rituals kept on schedule" so "one walk, one check-in" only lives in the description and its shareable line. |
+| `decision-quality.md` | Level 5 ends "not the buzz in the room" rather than repeating "not the meeting high". |
+| `deep-work.md` | Level 4 stops at the ninety-minute move; Level 5 rewritten around Capture taking the interruption so the block survives. |
+| `faithfulness.md` | Shareable lines 2 and 3 replaced with Level 1 and Level 3 spans ("Use what God gave you in small steady ways - not one big week to earn heaven", "Because grace already saved, steady obedience responds to a gift"). |
+
+Every Level 1 to Level 5 rung is intact in all eight ladders I touched, the two deletions were bullets that restated the description verbatim (the same thing the linter's own auto-fix removes), and free grace stayed straight in the four faith notes: the cost is discipleship weight, obedience responds to a gift, standing never reopens.
+
+One thing worth knowing for the rest of this batch: the clause splitter's character class spans `-` through `–`, so it also splits on any single character between spaces. That is why description tails like "a guessing game" and "a saved link is" become their own clauses and trip the check in places that look harmless.
+
+## Session close
+- Fixed: 18 frontmatter lint failures across my 14 notes, both linters now silent for all of them.
+- Encode: none from me - the clause-splitter gotcha above belongs in `garden-voice/SKILL.md`, but that file is outside my assigned list.
+- Open: clean for my 14; other notes in the diff belong to the parallel agents.

@@ -575,7 +575,7 @@ _**Agent (auto-low)**_
 
 Robust sentence splitting is needed. Edge cases include wikilinks, abbreviations, semicolons, bible references, and draft flags. The script will split after the first real sentence-ending punctuation.
 
-Semicolons within a single sentence will remain in the first paragraph. The script will skip periods inside wikilinks. It will split at the first valid sentence boundary-followed by a space and uppercase letter or bracket-then place the remainder in the second paragraph.
+Semicolons within a single sentence will remain in the first paragraph. The script will skip periods inside wikilinks. It will split at the first valid sentence boundary—followed by a space and uppercase letter or bracket—then place the remainder in the second paragraph.
 
 The script will keep the first paragraph as exactly one sentence. All remaining explanation will move to the second paragraph. Longer notes with three or more paragraphs will be merged into a single continuation paragraph.
 
@@ -1236,7 +1236,7 @@ Status: **completed**
 
 _**Agent (auto-low)**_
 
-Checking `selling-static-sites.md` - the script may have corrupted it.
+Checking `selling-static-sites.md` — the script may have corrupted it.
 
 
 _**Agent (auto-low)**_
@@ -1830,4 +1830,4 @@ Friction kills capture.
 One inbox, phone to desktop, weekly process - same as [[The Trusted Inbox]]. If I wouldn't act on it or cite it later, it doesn't get saved. Resonance is the filter, not FOMO.
 ```
 
-**Exception:** `note-relationships.md` still leads with its type table (not a prose sentence) - the docs paragraph now calls out the one-sentence rule for normal atomic notes.
+**Exception:** `note-relationships.md` still leads with its type table (not a prose sentence) — the docs paragraph now calls out the one-sentence rule for normal atomic notes.

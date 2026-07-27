@@ -430,5 +430,369 @@ _**Agent (auto-low)**_
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Renaming the file to
+Renaming the file to `fail-on-paper-first.md` using git mv.
+
+Updating the frontmatter slug and adding the old filename to aliases for URL continuity. Running noteFileDates.js to regenerate the JSON. Checking whether existing wikilinks will still resolve correctly.
 </details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "**/hugo.toml",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "aliases"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "aliases",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/layouts",
+  "pattern": "alias|wikilink"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/layouts",
+  "pattern": "alias|wikilink",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": "layouts/_partials/notes/assembled-content.html"
+    },
+    {
+      "matchCount": 2,
+      "uri": "layouts/_partials/notes/build-hub-cluster.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/notes/resolve-target.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/notes/search-index-fields.html"
+    },
+    {
+      "matchCount": 5,
+      "uri": "layouts/_partials/notes/collect-note-issues.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/notes/is-index-page.html"
+    },
+    {
+      "matchCount": 2,
+      "uri": "layouts/notes/single.html"
+    },
+    {
+      "matchCount": 5,
+      "uri": "layouts/_partials/notes/relationship-types.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/notes/sort-by-connections.html"
+    }
+  ],
+  "totalFiles": 9,
+  "totalMatches": 86
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Checking resolve-target.html to determine whether wikilinks resolve by title, slug, or filename.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/resolve-target.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Checking link-registry.html to identify registered keys such as title, slug, aliases, and filename.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/link-registry.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Wikilinks resolve by title, slug, filename, and aliases.
+
+Renaming the file to `fail-on-paper-first.md` and updating its slug to `fail-on-paper-first`. Adding `run-a-pre-mortem` to aliases for backward compatibility. The `[[Fail on Paper First]]` wikilink will still resolve by title. Next steps are to run `git mv`, update frontmatter, and execute `noteFileDates.js`.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Renaming the file to `fail-on-paper-first.md` and updating the slug to match the title.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; git mv content/english/notes/run-a-pre-mortem.md content/english/notes/fail-on-paper-first.md</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && git mv content/english/notes/run-a-pre-mortem.md content/english/notes/fail-on-paper-first.md
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+File not found: 
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+File not found: 
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Checking whether the git mv command succeeded and verifying the updated file path.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **1** result in **1** directory</summary>
+
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (1 file)
+
+| File |
+|------|
+| `content/english/notes/fail-on-paper-first.md` |
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **1** directory</summary>
+
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (0 files)
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The rename succeeded. The StrReplace likely failed due to a timing or path issue.
+
+Reading the file to apply the update.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/fail-on-paper-first.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Updating the slug and aliases.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/fail-on-paper-first.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/fail-on-paper-first.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; node scripts/noteFileDates.js</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && node scripts/noteFileDates.js
+```
+
+```
+✅ Note file dates written: /home/jorap/Documents/GitHub/jorap.com/data/noteFileDates.json (282 notes)
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Verifying noteFileDates updates and scanning deploy-relevant files for remaining run-a-pre-mortem references.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.{md,json,yaml,js,mjs,html}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "run-a-pre-mortem"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "run-a-pre-mortem",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/fail-on-paper-first.md"
+    },
+    {
+      "matchCount": 19,
+      "uri": "./.specstory/history/2026-07-25_11-49-59Z-filename-update-for-pre.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./hugo_stats.json"
+    },
+    {
+      "matchCount": 6,
+      "uri": "./.specstory/history/2026-07-25_11-31-55Z-word-change-for-pre.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./.specstory/history/2026-07-25_11-31-07Z-garden-link-issues-summary.md"
+    }
+  ],
+  "totalFiles": 5,
+  "totalMatches": 28
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+hugo_stats.json still references the old filename. It was likely generated by the Hugo build.
+
+No manual edit is needed; the file will update on the next build. Verifying noteFileDates contains the new path.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/data/noteFileDates.json",
+  "pattern": "fail-on-paper-first|run-a-pre-mortem"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/data/noteFileDates.json",
+  "pattern": "fail-on-paper-first|run-a-pre-mortem",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "data/noteFileDates.json"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The filename now matches the title and slug.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Renamed `run-a-pre-mortem.md` → `fail-on-paper-first.md` to match the title **Fail on Paper First**.
+
+Also updated:
+- **slug** → `fail-on-paper-first`
+- **aliases** → added `run-a-pre-mortem` so old URLs and wikilinks still resolve
+- **`data/noteFileDates.json`** → regenerated
+
+`[[Fail on Paper First]]` in `count-the-cost.md` still works via title resolution.
+
+## Session close
+- Fixed: Renamed note to `fail-on-paper-first.md` and aligned slug with title.
+- Encode: none
+- Open: clean

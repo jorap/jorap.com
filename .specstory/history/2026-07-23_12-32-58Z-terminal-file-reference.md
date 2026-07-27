@@ -20,7 +20,7 @@ Replacing `.Site.Data` with `hugo.Data` should resolve the warning. Searching th
 
 _**Agent (auto-low)**_
 
-Hugo is warning that `.Site.Data` is deprecated - I'll find where it's used and switch those references to `hugo.Data`.
+Hugo is warning that `.Site.Data` is deprecated — I'll find where it's used and switch those references to `hugo.Data`.
 
 
 _**Agent (auto-low)**_
@@ -516,7 +516,7 @@ Reading the remaining file to replace `site.Data` with `hugo`, then verifying wi
 
 _**Agent (auto-low)**_
 
-One remaining `site.Data` reference - I'll update it to `hugo.Data`.
+One remaining `site.Data` reference — I'll update it to `hugo.Data`.
 
 
 _**Agent (auto-low)**_

@@ -18,7 +18,7 @@ Checking how closely the notes align with the Open Knowledge Format specificatio
 
 _**Agent (default)**_
 
-Comparing your notes setup to the OKF spec - I'll inspect structure, frontmatter, and linking conventions.
+Comparing your notes setup to the OKF spec — I'll inspect structure, frontmatter, and linking conventions.
 
 
 _**Agent (default)**_
@@ -876,7 +876,7 @@ The two formats share a core markdown plus YAML frontmatter structure. They dive
 
 _**Agent (default)**_
 
-Your notes garden is **philosophically close** to [OKF v0.1](https://github.com/GoogleCloudPlatform/knowledge-catalog/blob/main/okf/SPEC.md) - same substrate (markdown + YAML, git-diffable, linkable concepts) - but it is **not OKF-conformant** and is shaped for a Hugo digital garden, not a portable knowledge catalog bundle.
+Your notes garden is **philosophically close** to [OKF v0.1](https://github.com/GoogleCloudPlatform/knowledge-catalog/blob/main/okf/SPEC.md) — same substrate (markdown + YAML, git-diffable, linkable concepts) — but it is **not OKF-conformant** and is shaped for a Hugo digital garden, not a portable knowledge catalog bundle.
 
 ## Short verdict
 
@@ -895,15 +895,15 @@ Your notes garden is **philosophically close** to [OKF v0.1](https://github.com/
 | Conventional `## Examples` | Documented in [[Getting Started]] and used widely |
 | Cross-links between concepts | `[[wikilinks]]` resolve via title/slug/aliases |
 | Permissive extensions | Lots of extra frontmatter (`status`, `aliases`, `cards`, etc.) |
-| Hub / index pages | MOCs like [[Maps of Content]] - but implemented differently (see below) |
+| Hub / index pages | MOCs like [[Maps of Content]] — but implemented differently (see below) |
 
-OKF’s core bet - *human-readable, agent-parseable, version-controlled knowledge* - matches what you’ve built.
+OKF’s core bet — *human-readable, agent-parseable, version-controlled knowledge* — matches what you’ve built.
 
 ---
 
 ## Where you diverge from OKF
 
-### 1. Required `type` field - the main conformance gap
+### 1. Required `type` field — the main conformance gap
 
 OKF requires a non-empty `type` (e.g. `BigQuery Table`, `Playbook`, `Metric`).
 
@@ -921,7 +921,7 @@ That’s a **routing/presentation** taxonomy, not OKF’s open-ended concept typ
 
 OKF: standard markdown links, preferably bundle-relative (`/tables/orders.md`).
 
-You: **`[[wikilinks]]`** resolved at Hugo build time through a title/slug/alias registry - not raw markdown paths. OKF treats all links as untyped edges; you add **typed relationships** in body tables:
+You: **`[[wikilinks]]`** resolved at Hugo build time through a title/slug/alias registry — not raw markdown paths. OKF treats all links as untyped edges; you add **typed relationships** in body tables:
 
 ```27:34:content/english/notes/evergreen-vs-fleeting-notes.md
 ## Note Relationships
@@ -951,11 +951,11 @@ You:
 
 OKF suggests `# Schema`, `# Examples`, `# Citations`.
 
-You use `## Examples` and `## Note Relationships`; you have **no `# Citations`** sections and no `# Schema` (expected - you’re not cataloging tables/APIs).
+You use `## Examples` and `## Note Relationships`; you have **no `# Citations`** sections and no `# Schema` (expected — you’re not cataloging tables/APIs).
 
 ### 5. `resource` URI
 
-OKF’s `resource:` ties a concept to a canonical external asset. Your notes describe ideas, not bound resources - so this field is absent by design.
+OKF’s `resource:` ties a concept to a canonical external asset. Your notes describe ideas, not bound resources — so this field is absent by design.
 
 ### 6. Site coupling
 
@@ -997,13 +997,13 @@ These are strengths for *your* use case, but they move you further from intercha
 
 ## Practical takeaway
 
-**For a human or generic LLM:** very close - markdown files, frontmatter, cross-links, examples. Readable without special tooling.
+**For a human or generic LLM:** very close — markdown files, frontmatter, cross-links, examples. Readable without special tooling.
 
 **For an OKF v0.1 consumer:** not conformant. Missing `type`, wrong link syntax, no path-based concept IDs, no OKF index/log files, Hugo-only fields everywhere.
 
 **Closest mental model:** OKF and your garden are both in the “markdown knowledge corpus” family. Yours is **Obsidian/digital-garden shaped** (wikilinks, MOCs, maturity status, flashcards). OKF is **catalog/metadata shaped** (typed concepts, resource URIs, progressive-disclosure indexes).
 
-If you ever wanted OKF interchange, the smallest bridge would be: add `type: Note` (or finer types) to garden notes, emit bundle-relative markdown links in export, and treat `note_kind: index` pages as OKF-style indexes - but that’s an export/adapter layer, not what the live site is today.
+If you ever wanted OKF interchange, the smallest bridge would be: add `type: Note` (or finer types) to garden notes, emit bundle-relative markdown links in export, and treat `note_kind: index` pages as OKF-style indexes — but that’s an export/adapter layer, not what the live site is today.
 
 I can sketch a field-mapping table (`note_kind` → OKF `type`, wikilinks → paths) if you’re thinking about agent export or cross-org sharing.
 
@@ -1033,7 +1033,7 @@ The system does not natively enforce or consume OKF semantics. Dropping an OKF b
 
 _**Agent (default)**_
 
-**No - not in any strict sense.** Your garden and OKF overlap a lot, but neither fully contains the other.
+**No — not in any strict sense.** Your garden and OKF overlap a lot, but neither fully contains the other.
 
 ## Superset would mean…
 
@@ -1044,7 +1044,7 @@ Every OKF-conformant bundle could live in your system unchanged, and your toolin
 | OKF requirement / convention | Your system |
 |------------------------------|-------------|
 | Required `type` on every concept | You use `note_kind`, not OKF `type`; no `type:` field |
-| Markdown links (`/path/concept.md`) | Wikilinks `[[Title]]` - different syntax and resolution |
+| Markdown links (`/path/concept.md`) | Wikilinks `[[Title]]` — different syntax and resolution |
 | Reserved `index.md` format (no frontmatter, directory listing) | Hugo `_index.md` + MOC pages with full frontmatter |
 | Optional `log.md` (dated changelog) | Not used |
 | Conventional `# Citations` | Not used |
@@ -1070,7 +1070,7 @@ OKF is not a superset of you either.
 
 ## The softer version: “Can OKF express what I do?”
 
-**Mostly yes, via extensions** - OKF allows arbitrary frontmatter keys and freeform markdown bodies. In theory you could encode wikilinks as prose, relationships as tables, flashcards as YAML extensions.
+**Mostly yes, via extensions** — OKF allows arbitrary frontmatter keys and freeform markdown bodies. In theory you could encode wikilinks as prose, relationships as tables, flashcards as YAML extensions.
 
 **But OKF is not designed for that.** It standardizes catalog-style concepts (`type`, `resource`, `# Schema`, `# Citations`). Your garden standardizes PKM-style atomic notes (one claim, wikilinks, relationship tables, review cards). Different defaults, different required shape.
 
@@ -1096,15 +1096,15 @@ OKF is not a superset of you either.
 
 **Overlapping siblings**, not superset/subset.
 
-- **OKF ⊂ JoRap?** No - missing required OKF fields and link/index conventions.
-- **JoRap ⊂ OKF?** No - wikilinks, typed relationships, flashcards, Hugo coupling aren’t in the spec.
+- **OKF ⊂ JoRap?** No — missing required OKF fields and link/index conventions.
+- **JoRap ⊂ OKF?** No — wikilinks, typed relationships, flashcards, Hugo coupling aren’t in the spec.
 - **JoRap with an export adapter?** You could emit an OKF bundle (add `type: Note`, rewrite wikilinks to paths, map MOCs to `index.md`). That would be a **projection**, not “already a superset.”
 
 ---
 
 ## One-line answer
 
-Your system is **richer for personal knowledge gardening** and **weaker for OKF interchange** - same family, different contract. Calling it a superset overstates it; calling it unrelated understates it. **Parallel formats with ~half shared DNA** is the honest fit.
+Your system is **richer for personal knowledge gardening** and **weaker for OKF interchange** — same family, different contract. Calling it a superset overstates it; calling it unrelated understates it. **Parallel formats with ~half shared DNA** is the honest fit.
 
 ---
 
@@ -1563,7 +1563,7 @@ Your garden already satisfies (1). You’re missing (2), and your index/hub mode
 
 Keep `content/english/notes/` as the authoring source. Add a script that emits something like `exports/okf/` (or a sibling repo) that *is* conformant.
 
-**Why this fits you:** Hugo treats frontmatter `type` as the content type. Adding `type: Note` on every note can break layout lookup (`layouts/notes/single.html` vs `layouts/Note/...`). Your wikilinks, relationship tables, flashcards, and Hugo fields are site features - OKF doesn’t need them in the source tree.
+**Why this fits you:** Hugo treats frontmatter `type` as the content type. Adding `type: Note` on every note can break layout lookup (`layouts/notes/single.html` vs `layouts/Note/...`). Your wikilinks, relationship tables, flashcards, and Hugo fields are site features — OKF doesn’t need them in the source tree.
 
 ### Export mapping
 
@@ -1576,10 +1576,10 @@ Keep `content/english/notes/` as the authoring source. Add a script that emits s
 | `note_kind: note` | `type: Concept` (or `Atomic Note`, `Reference`) |
 | `note_kind: index` | Becomes **`index.md`** in a folder, not a typed concept |
 | `note_kind: meta` | **Omit** from bundle (Graph, Review, etc. aren’t knowledge concepts) |
-| `[[PKM]]` / `[[PARA Method]]` | `[PKM](/pkm.md)` - resolve via your existing link registry |
+| `[[PKM]]` / `[[PARA Method]]` | `[PKM](/pkm.md)` — resolve via your existing link registry |
 | `## Note Relationships` table | Keep as markdown body (OKF allows extra structure; links stay untyped per spec) |
 | `review`, `cards`, `card_sets`, Hugo blog fields | Drop from export (OKF extensions you don’t need to ship) |
-| `status`, `aliases` | Optional OKF extension keys - OKF consumers must preserve unknown fields |
+| `status`, `aliases` | Optional OKF extension keys — OKF consumers must preserve unknown fields |
 
 ### Bundle skeleton
 
@@ -1638,7 +1638,7 @@ Suggested type values for your garden:
 | `note_kind` | OKF `type` |
 |-------------|------------|
 | `note` (default) | `Concept` or `Atomic Note` |
-| `index` | Don’t use as concept - convert to `index.md` |
+| `index` | Don’t use as concept — convert to `index.md` |
 | `meta` | Exclude from OKF scope entirely |
 
 ### 2. Replace wikilinks with bundle-relative markdown links
@@ -1656,7 +1656,7 @@ That means:
 - Replacing or extending `resolve-target.html`, graph, issues lint, and `lint:notes` to understand markdown links instead of `[[...]]`.
 - Losing alias resolution unless you add a preprocessor (`[[PARA]]` → `/para-method.md`).
 
-You *can* keep wikilinks as non-conformant authoring and only emit markdown links in export - again pointing to Path A.
+You *can* keep wikilinks as non-conformant authoring and only emit markdown links in export — again pointing to Path A.
 
 ### 3. Restructure indexes
 
@@ -1678,7 +1678,7 @@ Your MOCs (`note_kind: index`) are full Hugo pages with frontmatter and wikilink
 
 ### 5. Handle Hugo-only pages
 
-These aren’t OKF concepts - exclude or put outside the bundle:
+These aren’t OKF concepts — exclude or put outside the bundle:
 
 - `graph`, `review`, `flashcards`, `issues`, `create`, `backlinks`, `random-duo`
 - `_index.md` (Hugo section page, not OKF `index.md`)
@@ -1693,23 +1693,23 @@ Smallest in-repo change set (still awkward):
 2. Add an export step that copies files and renames `okf_type` → `type`.
 3. Leave wikilinks in source; export rewrites them to `/slug.md` links.
 
-That’s still Path A with a thin source field - you’re not truly OKF-conformant until export runs.
+That’s still Path A with a thin source field — you’re not truly OKF-conformant until export runs.
 
 ---
 
 ## What I would not do
 
-- **Bulk replace wikilinks in source** just for OKF - high churn, breaks Obsidian workflow, graph/issues tooling is built around `[[...]]`.
-- **Flatten `note_kind` into OKF `type` only** - you lose the meta/index distinction your linters rely on.
-- **Claim full compliance while meta tools live in the same tree** - OKF bundles are knowledge documents; Graph/Review are app surfaces.
+- **Bulk replace wikilinks in source** just for OKF — high churn, breaks Obsidian workflow, graph/issues tooling is built around `[[...]]`.
+- **Flatten `note_kind` into OKF `type` only** — you lose the meta/index distinction your linters rely on.
+- **Claim full compliance while meta tools live in the same tree** — OKF bundles are knowledge documents; Graph/Review are app surfaces.
 
 ---
 
 ## Practical recommendation (ponytail order)
 
-1. **Export bundle** (`exports/okf/`) with field mapping and wikilink rewriting - one script, one npm task, one validator.
+1. **Export bundle** (`exports/okf/`) with field mapping and wikilink rewriting — one script, one npm task, one validator.
 2. Add **`okf_type`** (or similar) to the archetype if you want source docs to declare intent before export.
-3. Add **`log.md`** at export time from git - free changelog, no manual maintenance.
+3. Add **`log.md`** at export time from git — free changelog, no manual maintenance.
 4. Only migrate **in-repo links and index shape** if you need third parties to consume the raw `content/english/notes/` tree without running your exporter.
 
 ---
@@ -1725,7 +1725,7 @@ Before calling it done, verify:
 - [ ] Meta/tool pages excluded
 - [ ] Hugo site still builds (`npm run lint:notes`, graph, review unchanged)
 
-If you want this implemented, switch to Agent mode and say whether you prefer **export-only** or **in-repo migration** - export-only is a few hours; in-repo is a multi-day refactor across notes and layouts.
+If you want this implemented, switch to Agent mode and say whether you prefer **export-only** or **in-repo migration** — export-only is a few hours; in-repo is a multi-day refactor across notes and layouts.
 
 ---
 
@@ -1745,7 +1745,7 @@ OKF is not universally superior. Their system likely suits their workflow better
 
 _**Agent (default)**_
 
-**It isn’t, for what you built.** OKF is better *for a specific job* - portable, org-to-org knowledge exchange about data and systems - not for a public Hugo digital garden with wikilinks, flashcards, and a typed idea graph.
+**It isn’t, for what you built.** OKF is better *for a specific job* — portable, org-to-org knowledge exchange about data and systems — not for a public Hugo digital garden with wikilinks, flashcards, and a typed idea graph.
 
 “Better” only makes sense once you name the goal.
 
@@ -1760,7 +1760,7 @@ _**Agent (default)**_
 - Bundles get **handed between tools and organizations** with minimal custom adapters
 - The format stays **boring and specified** so consumers tolerate unknown types and broken links
 
-For that job, OKF is better than your notes system - not because the ideas are richer, but because the **contract is smaller and portable**.
+For that job, OKF is better than your notes system — not because the ideas are richer, but because the **contract is smaller and portable**.
 
 ---
 
@@ -1782,7 +1782,7 @@ OKF requires one field: `type`. Your atomic-note contract is stricter: Hugo blog
 
 ### 4. Catalog-shaped knowledge
 
-OKF’s sweet spot is “this BigQuery table, this API, this metric” with optional `# Schema` and `# Citations`. Your notes describe **ideas and principles**, not bound infrastructure. OKF is better when the note *is* metadata about something with a canonical URI - which most of your pages aren’t.
+OKF’s sweet spot is “this BigQuery table, this API, this metric” with optional `# Schema` and `# Citations`. Your notes describe **ideas and principles**, not bound infrastructure. OKF is better when the note *is* metadata about something with a canonical URI — which most of your pages aren’t.
 
 ### 5. Explicit provenance
 
@@ -1790,7 +1790,7 @@ OKF nudges `# Citations` for external claims. Your garden optimizes for **intern
 
 ### 6. Spec-defined indexes and changelogs
 
-OKF `index.md` and `log.md` are part of the interchange story: browse the tree, read the history. You use MOCs and git history - **better on the live site**, weaker as a **standalone bundle spec** for a stranger’s agent.
+OKF `index.md` and `log.md` are part of the interchange story: browse the tree, read the history. You use MOCs and git history — **better on the live site**, weaker as a **standalone bundle spec** for a stranger’s agent.
 
 ---
 
@@ -1798,7 +1798,7 @@ OKF `index.md` and `log.md` are part of the interchange story: browse the tree, 
 
 | Your garden | OKF |
 |-------------|-----|
-| `[[wikilinks]]` by title - fast authoring | Markdown paths - stable for export |
+| `[[wikilinks]]` by title — fast authoring | Markdown paths — stable for export |
 | Typed relationships (`extends`, `contradicts`, …) | Untyped links; meaning is in prose |
 | `status`: seedling / evergreen / inbox | No lifecycle model |
 | Flashcards + Review + Anki export | Not in spec |
@@ -1806,7 +1806,7 @@ OKF `index.md` and `log.md` are part of the interchange story: browse the tree, 
 | One claim per page + voice rules | Format-only; no PKM semantics |
 | Public website, SEO, blog integration | Not a publishing model |
 
-For **personal knowledge, spaced repetition, and a browsable idea graph on jorap.com**, your system is not a worse OKF - it’s a **more capable PKM product** built on Hugo. OKF doesn’t offer those features; it offers **a wire format**.
+For **personal knowledge, spaced repetition, and a browsable idea graph on jorap.com**, your system is not a worse OKF — it’s a **more capable PKM product** built on Hugo. OKF doesn’t offer those features; it offers **a wire format**.
 
 ---
 
@@ -1853,7 +1853,7 @@ Not worth optimizing for if:
 
 OKF isn’t better than your notes system in general. It’s **better at being a neutral, agent-friendly interchange format** for catalog-style knowledge. Your system is **better at being a personal digital garden with tooling you’ve already built**.
 
-If both matter, the usual move isn’t “replace the garden with OKF” - it’s **keep authoring your way, export an OKF bundle when something external needs to read you**. That’s acknowledging what each layer is for, not picking a winner.
+If both matter, the usual move isn’t “replace the garden with OKF” — it’s **keep authoring your way, export an OKF bundle when something external needs to read you**. That’s acknowledging what each layer is for, not picking a winner.
 
 ---
 
@@ -2461,7 +2461,7 @@ OKF export is in place. Author in the garden as usual; run export when something
 
 ## What was added
 
-**`scripts/export-okf-bundle.py`** - builds an OKF v0.1 bundle at `exports/okf/`:
+**`scripts/export-okf-bundle.py`** — builds an OKF v0.1 bundle at `exports/okf/`:
 
 | Source | OKF output |
 |--------|------------|
@@ -2477,7 +2477,7 @@ OKF export is in place. Author in the garden as usual; run export when something
 
 Each concept also gets `resource:` pointing at the canonical note URL (e.g. `https://www.jorap.com/notes/pkm/`).
 
-**`npm run export:okf`** - added to `package.json`.
+**`npm run export:okf`** — added to `package.json`.
 
 ## Bundle layout
 
@@ -2499,7 +2499,7 @@ pnpm export:okf
 python3 scripts/export-okf-bundle.py --validate-only
 ```
 
-The bundle is generated on demand - not wired into `build`. Commit `exports/okf/` if you want it in git for agents; otherwise regenerate before sharing.
+The bundle is generated on demand — not wired into `build`. Commit `exports/okf/` if you want it in git for agents; otherwise regenerate before sharing.
 
 ---
 
@@ -2517,13 +2517,13 @@ The user wants to understand how Open Knowledge Format works.
 
 _**Agent (default)**_
 
-**OKF (Open Knowledge Format)** is a minimal spec for shipping *knowledge* - not raw data, but the curated context around it - as a folder of markdown files with YAML frontmatter. Google’s draft is [OKF v0.1](https://github.com/GoogleCloudPlatform/knowledge-catalog/blob/main/okf/SPEC.md); your `exports/okf/` bundle follows it.
+**OKF (Open Knowledge Format)** is a minimal spec for shipping *knowledge* — not raw data, but the curated context around it — as a folder of markdown files with YAML frontmatter. Google’s draft is [OKF v0.1](https://github.com/GoogleCloudPlatform/knowledge-catalog/blob/main/okf/SPEC.md); your `exports/okf/` bundle follows it.
 
 ## Core idea
 
 A **Knowledge Bundle** is a directory tree you can `git clone`, tarball, or drop in a repo. No schema registry, no required SDK. If you can read markdown, you can read OKF.
 
-Each `.md` file (except reserved names) is one **Concept** - a table, API, metric, playbook, or abstract idea.
+Each `.md` file (except reserved names) is one **Concept** — a table, API, metric, playbook, or abstract idea.
 
 ---
 
@@ -2531,11 +2531,11 @@ Each `.md` file (except reserved names) is one **Concept** - a table, API, metri
 
 ```
 my_bundle/
-├── index.md              # optional - what's in this bundle
-├── log.md                # optional - change history
+├── index.md              # optional — what's in this bundle
+├── log.md                # optional — change history
 ├── sales.md              # concept at root
 └── tables/
-    ├── index.md          # optional - what's in this folder
+    ├── index.md          # optional — what's in this folder
     ├── orders.md
     └── customers.md
 ```
@@ -2555,16 +2555,16 @@ Every concept file has two parts:
 
 ```yaml
 ---
-type: BigQuery Table          # REQUIRED - what kind of thing this is
+type: BigQuery Table          # REQUIRED — what kind of thing this is
 title: Customer Orders        # recommended
 description: One row per order  # recommended
-resource: https://...         # optional - canonical URI of the real asset
+resource: https://...         # optional — canonical URI of the real asset
 tags: [sales, orders]           # optional
-timestamp: 2026-05-28T14:30:00Z # optional - last meaningful change
+timestamp: 2026-05-28T14:30:00Z # optional — last meaningful change
 ---
 ```
 
-**Required:** `type` - a short string like `Playbook`, `Metric`, `API Endpoint`. Not centrally registered; consumers treat unknown types as generic concepts.
+**Required:** `type` — a short string like `Playbook`, `Metric`, `API Endpoint`. Not centrally registered; consumers treat unknown types as generic concepts.
 
 **Extensions:** Any extra keys are allowed. Consumers should preserve them and not reject unknown fields.
 
@@ -2590,16 +2590,16 @@ Joined with [customers](/tables/customers.md) on `customer_id`.
 
 Two forms:
 
-- **Bundle-relative (recommended):** starts with `/` - stable when files move within the bundle
+- **Bundle-relative (recommended):** starts with `/` — stable when files move within the bundle
 - **Relative:** `./other.md`
 
-Links are **untyped edges** - the prose around them carries meaning (“joins with”, “depends on”, etc.). Broken links are fine; they may mean “not written yet.”
+Links are **untyped edges** — the prose around them carries meaning (“joins with”, “depends on”, etc.). Broken links are fine; they may mean “not written yet.”
 
 ---
 
 ## Index files (`index.md`)
 
-For **progressive disclosure** - browse before opening every file.
+For **progressive disclosure** — browse before opening every file.
 
 - **No frontmatter** (except bundle-root `index.md` may declare `okf_version: "0.1"`)
 - Body is grouped bullet lists:
@@ -2674,7 +2674,7 @@ flowchart TD
 4. Use `resource:` to jump to the real system (BigQuery console, API docs, etc.)  
 5. Check `log.md` for what changed recently  
 
-No build step, no Hugo, no wikilink resolver - just files.
+No build step, no Hugo, no wikilink resolver — just files.
 
 ---
 
@@ -2690,7 +2690,7 @@ Your live garden stays Hugo + wikilinks. `pnpm export:okf` produces a conformant
 | Changelog | `exports/okf/log.md` from git |
 | Links | `[[PKM]]` → `[PKM](/concepts/pkm.md)` |
 | Live canonical URL | `resource: https://www.jorap.com/notes/pkm/` |
-| Site tools (Graph, Review) | Excluded - not knowledge concepts |
+| Site tools (Graph, Review) | Excluded — not knowledge concepts |
 
 ---
 
@@ -2970,7 +2970,7 @@ pnpm dev
 | **Example hub** | http://localhost:1313/exports/okf/hubs/maps-of-content/index.md |
 | **Changelog** | http://localhost:1313/exports/okf/log.md |
 
-The browser shows **raw markdown** - that’s intentional. OKF is meant to be read as files, not rendered through your theme.
+The browser shows **raw markdown** — that’s intentional. OKF is meant to be read as files, not rendered through your theme.
 
 ## Production
 
@@ -2982,7 +2982,7 @@ The browser shows **raw markdown** - that’s intentional. OKF is meant to be re
 - New meta page at `/notes/okf-export/` with browse links
 - Production build runs `export-okf-bundle.py` automatically
 
-Your live garden is unchanged - still wikilinks, graph, flashcards. OKF is the parallel copy for anything that reads files without Hugo.
+Your live garden is unchanged — still wikilinks, graph, flashcards. OKF is the parallel copy for anything that reads files without Hugo.
 
 ---
 
@@ -3563,25 +3563,25 @@ cd /home/jorap/Documents/GitHub/jorap.com && node scripts/themeGenerator.js && n
  Cleaned          │   14 
 
 Total in 9396 ms
-data-note-search="okf export open knowledge format v0.1 export of the notes garden - plain markdown for agents and tools outside hugo. notes meta pkm okf okf okf export"
+data-note-search="okf export open knowledge format v0.1 export of the notes garden — plain markdown for agents and tools outside hugo. notes meta pkm okf okf okf export"
 
 ```
 </details></tool-use>
 
 _**Agent (default)**_
 
-The OKF page was missing because **meta/utility pages are excluded from the `/notes/` grid and its search** - same as Graph, Flashcards, and Review. OKF Export had `note_kind: meta` with no way in.
+The OKF page was missing because **meta/utility pages are excluded from the `/notes/` grid and its search** — same as Graph, Flashcards, and Review. OKF Export had `note_kind: meta` with no way in.
 
 ## Fix
 
-1. **`notes_search: true`** on `okf-export.md` - opts a meta page into the notes list search only (not graph, random picker, etc.)
-2. **Search terms** - added `OKF` tag and aliases; list search now includes aliases too
-3. **Toolbar** - **OKF** button next to Review for direct access
-4. **Toolbar highlight** - OKF button active on `/notes/okf-export/`
+1. **`notes_search: true`** on `okf-export.md` — opts a meta page into the notes list search only (not graph, random picker, etc.)
+2. **Search terms** — added `OKF` tag and aliases; list search now includes aliases too
+3. **Toolbar** — **OKF** button next to Review for direct access
+4. **Toolbar highlight** — OKF button active on `/notes/okf-export/`
 
 ## Try it
 
-On [/notes/](http://localhost:1313/notes/), search **`okf`** - you should see **OKF Export** in the grid.
+On [/notes/](http://localhost:1313/notes/), search **`okf`** — you should see **OKF Export** in the grid.
 
 Or use the **OKF** button in the toolbar.
 
@@ -3686,7 +3686,7 @@ _**Agent (default)**_
 
 _**Agent (default)**_
 
-Done. OKF Export is out of the notes grid and search again - use the **OKF** toolbar button instead.
+Done. OKF Export is out of the notes grid and search again — use the **OKF** toolbar button instead.
 
 Also removed the unused `notes_search` plumbing. Aliases still count in search for regular garden notes.
 
@@ -3706,14 +3706,14 @@ The user wants to know how to use or experience OKF on their site.
 
 _**Agent (default)**_
 
-Here’s how OKF fits into **your** site - it’s a parallel copy of the garden, not a replacement for how you browse notes day to day.
+Here’s how OKF fits into **your** site — it’s a parallel copy of the garden, not a replacement for how you browse notes day to day.
 
 ## What you’re looking at
 
 | Layer | Role |
 |-------|------|
-| **Live garden** (`/notes/…`) | How you read and write - wikilinks, graph, flashcards |
-| **OKF bundle** (`/exports/okf/…`) | Handoff copy for agents/tools - raw markdown, OKF rules |
+| **Live garden** (`/notes/…`) | How you read and write — wikilinks, graph, flashcards |
+| **OKF bundle** (`/exports/okf/…`) | Handoff copy for agents/tools — raw markdown, OKF rules |
 
 OKF isn’t meant to be a prettier notes UI. It’s the **portable export** of the same ideas.
 
@@ -3723,12 +3723,12 @@ OKF isn’t meant to be a prettier notes UI. It’s the **portable export** of t
 
 1. Open **Notes** → click **OKF** in the toolbar (next to Review).
 2. On that page, follow links to:
-   - [Bundle index](/exports/okf/index.md) - full concept/hub listing
+   - [Bundle index](/exports/okf/index.md) — full concept/hub listing
    - [Example concept: PKM](/exports/okf/concepts/pkm.md)
    - [Example hub: Maps of Content](/exports/okf/hubs/maps-of-content/index.md)
    - [Update log](/exports/okf/log.md)
 
-Your browser shows **raw markdown**. That’s correct - OKF is file-first.
+Your browser shows **raw markdown**. That’s correct — OKF is file-first.
 
 Direct URLs work too:
 
@@ -3756,9 +3756,9 @@ Pick one note you know well, e.g. [PKM](/notes/pkm/), then open the export:
 
 Notice:
 
-- **Links become paths** - stable for another repo/agent
+- **Links become paths** — stable for another repo/agent
 - **`resource:`** points back to the canonical live URL
-- **Meta tools** (Graph, Review, Flashcards) are **omitted** - they’re app surfaces, not knowledge
+- **Meta tools** (Graph, Review, Flashcards) are **omitted** — they’re app surfaces, not knowledge
 - **Hub/MOC pages** become `hubs/.../index.md` with no frontmatter (OKF index style)
 
 That diff is the point: same garden, boring envelope for anything that reads files without Hugo.
@@ -3767,9 +3767,9 @@ That diff is the point: same garden, boring envelope for anything that reads fil
 
 ## What OKF is *not* on your site
 
-- Not in the notes search grid (by design - toolbar only)
+- Not in the notes search grid (by design — toolbar only)
 - Not rendered through the theme
-- Not where you edit - keep authoring in `content/english/notes/` with wikilinks
+- Not where you edit — keep authoring in `content/english/notes/` with wikilinks
 
 ---
 
@@ -3781,7 +3781,7 @@ Site renders here  →  /notes/                  (human + your tools)
 Agents read here   →  /exports/okf/            (OKF bundle)
 ```
 
-Use the garden for daily thinking; use OKF when you want to **hand the corpus to something that isn’t your Hugo stack** - or when you want to see exactly what an external agent would get.
+Use the garden for daily thinking; use OKF when you want to **hand the corpus to something that isn’t your Hugo stack** — or when you want to see exactly what an external agent would get.
 
 ---
 
@@ -3854,7 +3854,7 @@ Result:
   "isFinal": true,
   "references": [
     {
-      "chunk": "Links:\n1. [knowledge-catalog/okf at main · GoogleCloudPlatform/knowledge-catalog · GitHub](https://github.com/GoogleCloudPlatform/knowledge-catalog/tree/main/okf)\n2. [How the Open Knowledge Format can improve data sharing | Google Cloud Blog](https://cloud.google.com/blog/products/data-analytics/how-the-open-knowledge-format-can-improve-data-sharing)\n3. [Open Knowledge Format | Definition, Scope and Compliance (Grounding Page)](https://groundingpage.com/facts/open-knowledge-format/)\n4. [okf/bundles/stackoverflow/viz.html](https://github.com/GoogleCloudPlatform/knowledge-catalog/blob/main/okf/bundles/stackoverflow/viz.html)\n5. [thetechgeekko/okf-skills](https://github.com/thetechgeekko/okf-skills)\n\nSynthesis:\nThe Open Knowledge Format (OKF) is a vendor-neutral, open specification for representing metadata and context as a directory of markdown files with YAML frontmatter [1][2][3]. Because concepts are linked using standard markdown, the file structure forms a knowledge graph [1][3].\n\nGoogle’s reference implementation includes a self-contained HTML visualizer that renders these bundles as interactive, force-directed graphs [1][2]. It uses Cytoscape.js to display nodes and edges, allowing users to browse relationships, filter by type, and search across concept bodies without needing a backend or local installation [1][4][5].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eknowledge-catalog/okf at main · GoogleCloudPlatform/knowledge-catalog · GitHub\u003c/title\u003e\n\u003curl\u003ehttps://github.com/GoogleCloudPlatform/knowledge-catalog/tree/main/okf\u003c/url\u003e\n\u003ccontent\u003eOKF is a universal, vendor-neutral format for representing knowledge as plain markdown files with YAML frontmatter. It is not tied to any particular agent, framework, model provider, or serving system. The goal is simple:\n...\n- Anyone can serve and consume OKF - a static file server, a knowledge-man
+      "chunk": "Links:\n1. [knowledge-catalog/okf at main · GoogleCloudPlatform/knowledge-catalog · GitHub](https://github.com/GoogleCloudPlatform/knowledge-catalog/tree/main/okf)\n2. [How the Open Knowledge Format can improve data sharing | Google Cloud Blog](https://cloud.google.com/blog/products/data-analytics/how-the-open-knowledge-format-can-improve-data-sharing)\n3. [Open Knowledge Format | Definition, Scope and Compliance (Grounding Page)](https://groundingpage.com/facts/open-knowledge-format/)\n4. [okf/bundles/stackoverflow/viz.html](https://github.com/GoogleCloudPlatform/knowledge-catalog/blob/main/okf/bundles/stackoverflow/viz.html)\n5. [thetechgeekko/okf-skills](https://github.com/thetechgeekko/okf-skills)\n\nSynthesis:\nThe Open Knowledge Format (OKF) is a vendor-neutral, open specification for representing metadata and context as a directory of markdown files with YAML frontmatter [1][2][3]. Because concepts are linked using standard markdown, the file structure forms a knowledge graph [1][3].\n\nGoogle’s reference implementation includes a self-contained HTML visualizer that renders these bundles as interactive, force-directed graphs [1][2]. It uses Cytoscape.js to display nodes and edges, allowing users to browse relationships, filter by type, and search across concept bodies without needing a backend or local installation [1][4][5].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eknowledge-catalog/okf at main · GoogleCloudPlatform/knowledge-catalog · GitHub\u003c/title\u003e\n\u003curl\u003ehttps://github.com/GoogleCloudPlatform/knowledge-catalog/tree/main/okf\u003c/url\u003e\n\u003ccontent\u003eOKF is a universal, vendor-neutral format for representing knowledge as plain markdown files with YAML frontmatter. It is not tied to any particular agent, framework, model provider, or serving system. The goal is simple:\n...\n- Anyone can serve and consume OKF — a static file server, a knowledge-man
 … (output truncated)
 ```
 User decision: **accepted**
@@ -3871,29 +3871,29 @@ OKF uses a reference visualizer from Google's knowledge-catalog repository.
 
 _**Agent (default)**_
 
-**Partly yes** - OKF the *format* does not include a graph UI, but Google ships a **reference graph viewer** for OKF bundles. Your site today only exposes the **raw bundle**, not that viewer.
+**Partly yes** — OKF the *format* does not include a graph UI, but Google ships a **reference graph viewer** for OKF bundles. Your site today only exposes the **raw bundle**, not that viewer.
 
 ## Two different graphs on your setup
 
 | | **Your Hugo graph** (`/notes/graph/`) | **OKF visualizer** (Google reference) |
 |---|--------------------------------------|----------------------------------------|
 | **Reads** | Live garden (`[[wikilinks]]`, typed relationships) | OKF export (`/exports/okf/`, markdown links) |
-| **Built into your site?** | Yes | No - not wired up yet |
-| **Part of OKF spec?** | No | No - it's optional consumer tooling |
+| **Built into your site?** | Yes | No — not wired up yet |
+| **Part of OKF spec?** | No | No — it's optional consumer tooling |
 
-OKF itself is just markdown files + links. The **link graph is implicit** in the files. A graph display is something a **consumer** builds on top - like Google's [`okf visualize`](https://github.com/GoogleCloudPlatform/knowledge-catalog/tree/main/okf) command, which emits a self-contained `viz.html` (Cytoscape.js force-directed graph, search, type filter, backlinks panel). See their [Stack Overflow sample viz.html](https://github.com/GoogleCloudPlatform/knowledge-catalog/blob/main/okf/bundles/stackoverflow/viz.html).
+OKF itself is just markdown files + links. The **link graph is implicit** in the files. A graph display is something a **consumer** builds on top — like Google's [`okf visualize`](https://github.com/GoogleCloudPlatform/knowledge-catalog/tree/main/okf) command, which emits a self-contained `viz.html` (Cytoscape.js force-directed graph, search, type filter, backlinks panel). See their [Stack Overflow sample viz.html](https://github.com/GoogleCloudPlatform/knowledge-catalog/blob/main/okf/bundles/stackoverflow/viz.html).
 
 ## What you have on jorap.com now
 
 - **OKF toolbar button** → `/notes/okf-export/` (explainer + links)
 - **Raw bundle** → `/exports/okf/index.md`, `/exports/okf/concepts/…`, etc.
-- **No OKF graph page** - clicking export files shows plain markdown in the browser, not a network view
+- **No OKF graph page** — clicking export files shows plain markdown in the browser, not a network view
 
 Your `/notes/graph/` is still the garden graph, not the OKF graph.
 
 ## How to see OKF's graph with your export
 
-**Option A - Google's visualizer (official POC)**
+**Option A — Google's visualizer (official POC)**
 
 1. Clone [GoogleCloudPlatform/knowledge-catalog](https://github.com/GoogleCloudPlatform/knowledge-catalog)
 2. Point it at your bundle after export:
@@ -3906,7 +3906,7 @@ pnpm export:okf
 
 That writes a single `viz.html` you open locally or host as a static file.
 
-**Option B - Host viz on your site**
+**Option B — Host viz on your site**
 
 Run the visualizer at build time, output e.g. `static/exports/okf/viz.html`, link from `/notes/okf-export/`. Then you'd have OKF's graph at something like `/exports/okf/viz.html`.
 
@@ -3951,7 +3951,7 @@ Result:
 
 ```json
 {
-  "markdown": "# Open Knowledge Format (OKF)\n\n### 📖 [Read the Open Knowledge Format v0.1 specification → SPEC.md](SPEC.md)\n\n\u003e **This repository is primarily about the [Open Knowledge Format\n\u003e (OKF)](SPEC.md).**\n\u003e\n\u003e OKF is a **universal, vendor-neutral format** for representing knowledge\n\u003e as plain markdown files with YAML frontmatter. It is **not tied to any\n\u003e particular agent, framework, model provider, or serving system**. The\n\u003e goal is simple:\n\u003e\n\u003e - **Anyone can produce** OKF - humans authoring by hand, agents built on\n\u003e any framework (Google ADK, LangChain, custom), export pipelines from\n\u003e existing catalogs (Dataplex, Unity Catalog, Collibra, …), or scripts\n\u003e walking a database.\n\u003e - **Anyone can serve and consume** OKF - a static file server, a\n\u003e knowledge-management UI (Obsidian, Notion, MkDocs), an LLM loading\n\u003e files into context, a search index, or a graph viewer like the one\n\u003e bundled in this repo.\n\u003e\n\u003e The agent below is a **proof of concept** demonstrating *one* way to\n\u003e produce OKF bundles automatically. The format itself is the\n\u003e contribution; this agent and the visualizer exist to make the format\n\u003e tangible at both ends - production and consumption.\n\u003e\n\u003e **See OKF in practice** - three ready-to-browse bundles produced by this\n\u003e agent, checked into [`bundles/`](bundles/):\n\u003e\n\u003e - [`bundles/ga4/`](bundles/ga4/) - GA4 e-commerce dataset\n\u003e ([viz.html](bundles/ga4/viz.html))\n\u003e - [`bundles/stackoverflow/`](bundles/stackoverflow/) - Stack Overflow\n\u003e public dataset ([viz.html](bundles/stackoverflow/viz.html))\n\u003e - [`bundles/crypto_bitcoin/`](bundles/crypto_bitcoin/) - Bitcoin\n\u003e blocks/transactions ([viz.html](bundles/crypto_bitcoin/viz.html))\n\n## Why OKF?\n\nOKF represents catalog knowledge as plain markdown files with YAML\nfrontmatter, organized in a directory hierarchy. Th
+  "markdown": "# Open Knowledge Format (OKF)\n\n### 📖 [Read the Open Knowledge Format v0.1 specification → SPEC.md](SPEC.md)\n\n\u003e **This repository is primarily about the [Open Knowledge Format\n\u003e (OKF)](SPEC.md).**\n\u003e\n\u003e OKF is a **universal, vendor-neutral format** for representing knowledge\n\u003e as plain markdown files with YAML frontmatter. It is **not tied to any\n\u003e particular agent, framework, model provider, or serving system**. The\n\u003e goal is simple:\n\u003e\n\u003e - **Anyone can produce** OKF — humans authoring by hand, agents built on\n\u003e any framework (Google ADK, LangChain, custom), export pipelines from\n\u003e existing catalogs (Dataplex, Unity Catalog, Collibra, …), or scripts\n\u003e walking a database.\n\u003e - **Anyone can serve and consume** OKF — a static file server, a\n\u003e knowledge-management UI (Obsidian, Notion, MkDocs), an LLM loading\n\u003e files into context, a search index, or a graph viewer like the one\n\u003e bundled in this repo.\n\u003e\n\u003e The agent below is a **proof of concept** demonstrating *one* way to\n\u003e produce OKF bundles automatically. The format itself is the\n\u003e contribution; this agent and the visualizer exist to make the format\n\u003e tangible at both ends — production and consumption.\n\u003e\n\u003e **See OKF in practice** — three ready-to-browse bundles produced by this\n\u003e agent, checked into [`bundles/`](bundles/):\n\u003e\n\u003e - [`bundles/ga4/`](bundles/ga4/) — GA4 e-commerce dataset\n\u003e ([viz.html](bundles/ga4/viz.html))\n\u003e - [`bundles/stackoverflow/`](bundles/stackoverflow/) — Stack Overflow\n\u003e public dataset ([viz.html](bundles/stackoverflow/viz.html))\n\u003e - [`bundles/crypto_bitcoin/`](bundles/crypto_bitcoin/) — Bitcoin\n\u003e blocks/transactions ([viz.html](bundles/crypto_bitcoin/viz.html))\n\n## Why OKF?\n\nOKF represents catalog knowledge as plain markdown files with YAML\nfrontmatter, organized in a directory hierarchy. Th
 … (output truncated)
 ```
 User decision: **accepted**
@@ -4729,7 +4729,7 @@ OKF graph viewer is wired in. Here’s what you get:
 
 ## What was added
 
-- **`scripts/okf-viz/`** - Google’s OKF reference visualizer (template + Cytoscape.js), adapted to handle your **absolute links** (`/concepts/pkm.md`) and **hub** `index.md` pages
+- **`scripts/okf-viz/`** — Google’s OKF reference visualizer (template + Cytoscape.js), adapted to handle your **absolute links** (`/concepts/pkm.md`) and **hub** `index.md` pages
 - **`viz.html`** is generated automatically when you run `pnpm export:okf` (and on `pnpm build`)
 - **`/notes/okf-export/`** now links to the graph first
 
@@ -4748,7 +4748,7 @@ OKF graph viewer is wired in. Here’s what you get:
 - Search, type filter, layout switcher, detail panel, **Cited by** backlinks
 - Starts on **Maps of Content** when present
 
-The Hugo graph at `/notes/graph/` is unchanged - wikilinks and typed relationships. The OKF graph reads the **export bundle** only.
+The Hugo graph at `/notes/graph/` is unchanged — wikilinks and typed relationships. The OKF graph reads the **export bundle** only.
 
 ---
 
@@ -4766,7 +4766,7 @@ Determining the strategic benefits of configuring OKF.
 
 _**Agent (default)**_
 
-You’ve set up OKF as an **export lane**, not a replacement for your garden. The benefits are real, but mostly on the **handoff** side - not in day-to-day note-taking.
+You’ve set up OKF as an **export lane**, not a replacement for your garden. The benefits are real, but mostly on the **handoff** side — not in day-to-day note-taking.
 
 ## Benefits you have now
 
@@ -4799,7 +4799,7 @@ Every concept has:
 
 Wikilinks become paths: `[PKM](/concepts/pkm.md)`.
 
-The OKF graph at `/exports/okf/viz.html` shows **923 edges** from those links - searchable, with backlinks and a detail panel.
+The OKF graph at `/exports/okf/viz.html` shows **923 edges** from those links — searchable, with backlinks and a detail panel.
 
 **Gain:** Same ideas, graph-shaped for tools that don’t speak `[[wikilinks]]`.
 
@@ -4827,7 +4827,7 @@ OKF is vendor-neutral. If later you want to:
 
 …you already have the artifact.
 
-**Gain:** Option value - the hard part (mapping garden → OKF) is done.
+**Gain:** Option value — the hard part (mapping garden → OKF) is done.
 
 ---
 
@@ -4841,16 +4841,16 @@ Being honest keeps this useful:
 | Org-to-org exchange | Personal public garden |
 | Producer/consumer independence at scale | Mostly you + your site readers |
 
-You’re using OKF as a **personal knowledge export format**, not as a data catalog. That’s valid - you get portability and agent-readability, not “enterprise metadata governance.”
+You’re using OKF as a **personal knowledge export format**, not as a data catalog. That’s valid — you get portability and agent-readability, not “enterprise metadata governance.”
 
 ---
 
 ## What you did **not** gain (and shouldn’t expect)
 
-- **Better daily PKM** - Hugo graph, flashcards, and wikilinks are still better for that
-- **Automatic sync with Obsidian/other tools** - export is one-way unless you build import
-- **Richer semantics in OKF** - typed `extends` / `contradicts` stay in prose/tables; OKF links are untyped
-- **SEO or reader UX** - visitors still use `/notes/`; OKF is for agents and tooling
+- **Better daily PKM** — Hugo graph, flashcards, and wikilinks are still better for that
+- **Automatic sync with Obsidian/other tools** — export is one-way unless you build import
+- **Richer semantics in OKF** — typed `extends` / `contradicts` stay in prose/tables; OKF links are untyped
+- **SEO or reader UX** — visitors still use `/notes/`; OKF is for agents and tooling
 
 ---
 
@@ -4868,7 +4868,7 @@ After OKF setup:
     • regenerates on build
 ```
 
-**You gain interchangeability:** the ability to hand your knowledge to something that isn’t your website, in a format others (and agents) are starting to standardize on - without giving up the garden you already built.
+**You gain interchangeability:** the ability to hand your knowledge to something that isn’t your website, in a format others (and agents) are starting to standardize on — without giving up the garden you already built.
 
 ---
 
@@ -4881,7 +4881,7 @@ After OKF setup:
 
 If none of that happens soon, OKF still costs you little: one export script, one static `viz.html`, one toolbar page. The benefit is **ready when you need handoff**, not **better every day**.
 
-If you want to push further toward OKF’s catalog strengths, the next step would be adding `# Citations` and `resource:` on notes that point at real external sources - but that’s optional unless you’re cataloging assets, not just ideas.
+If you want to push further toward OKF’s catalog strengths, the next step would be adding `# Citations` and `resource:` on notes that point at real external sources — but that’s optional unless you’re cataloging assets, not just ideas.
 
 ---
 
@@ -4990,7 +4990,7 @@ Wrote 185 concept(s), 923 edge(s), 539309 bytes → /home/jorap/Documents/GitHub
 
 _**Agent (default)**_
 
-Yes - spacing comes from the Cytoscape **cose** layout. I tuned it for your ~185-node garden.
+Yes — spacing comes from the Cytoscape **cose** layout. I tuned it for your ~185-node garden.
 
 ## Changes
 
@@ -4998,7 +4998,7 @@ Yes - spacing comes from the Cytoscape **cose** layout. I tuned it for your ~185
 - **Longer ideal edges** (`idealEdgeLength: 140`)
 - **More layout padding** (80px instead of 30)
 - **Slightly smaller nodes** so labels overlap less
-- **Zoom out on load** - graph fits the pane after layout
+- **Zoom out on load** — graph fits the pane after layout
 - **Other layouts** (circle, concentric, etc.) also get more spacing
 
 ## Refresh
@@ -5014,11 +5014,11 @@ Then reload `http://localhost:1313/exports/okf/viz.html` (Ctrl+Shift+R).
 ## If it still feels tight
 
 - **Scroll/pinch** to zoom out (`minZoom` is now 0.08)
-- **Reset view** button - refits with padding
-- Try **circle** or **concentric** in the layout dropdown - often clearer for dense graphs
+- **Reset view** button — refits with padding
+- Try **circle** or **concentric** in the layout dropdown — often clearer for dense graphs
 - **Search** or **filter by type** to hide nodes and reduce clutter
 
-If you want it even looser, we can bump `idealEdgeLength` and `nodeRepulsion` further - tradeoff is more scrolling to pan around.
+If you want it even looser, we can bump `idealEdgeLength` and `nodeRepulsion` further — tradeoff is more scrolling to pan around.
 
 ---
 
@@ -5042,7 +5042,7 @@ Hiding labels until zoom or hover would reduce clutter. Filtering to fewer nodes
 
 _**Agent (default)**_
 
-Checking the Hugo notes graph for layout patterns and fixing the OKF viewer - the last tuning likely overshot.
+Checking the Hugo notes graph for layout patterns and fixing the OKF viewer — the last tuning likely overshot.
 
 
 _**Agent (default)**_
@@ -5274,15 +5274,15 @@ Wrote 185 concept(s), 923 edge(s), 539620 bytes → /home/jorap/Documents/GitHub
 
 _**Agent (default)**_
 
-Fair - cranking the layout forces made a 185-node graph sprawl and fight the zoom. Reverted that and fixed readability a different way.
+Fair — cranking the layout forces made a 185-node graph sprawl and fight the zoom. Reverted that and fixed readability a different way.
 
 ## New approach (like your Hugo graph)
 
-- **Labels hidden by default** - only the selected node and its **neighbors** get labels
-- **Focus mode** - everything else dims when you click a node
-- **Smaller uniform nodes** (22px) - less blob, less overlap
-- **No zoom punch on load** - starts zoomed out; MOC shows in the panel without jumping the graph
-- **Gentle pan on click** - centers the node without forcing zoom to 1.0
+- **Labels hidden by default** — only the selected node and its **neighbors** get labels
+- **Focus mode** — everything else dims when you click a node
+- **Smaller uniform nodes** (22px) — less blob, less overlap
+- **No zoom punch on load** — starts zoomed out; MOC shows in the panel without jumping the graph
+- **Gentle pan on click** — centers the node without forcing zoom to 1.0
 
 ## Refresh
 
@@ -5294,7 +5294,7 @@ Hard-refresh `http://localhost:1313/exports/okf/viz.html`.
 
 **Reset view** brings back the full graph. Click any node to focus it and see labels on nearby notes. Search still works as before.
 
-With 185 nodes and 923 edges, no layout will make it feel empty - focus + hidden labels is the practical fix. If it's still rough, say whether it's **too dense** or **too sparse** and we can tune from there.
+With 185 nodes and 923 edges, no layout will make it feel empty — focus + hidden labels is the practical fix. If it's still rough, say whether it's **too dense** or **too sparse** and we can tune from there.
 
 ---
 
@@ -5478,20 +5478,20 @@ Wrote OKF bundle to /home/jorap/Documents/GitHub/jorap.com/static/exports/okf (1
 
 _**Agent (default)**_
 
-Done - the OKF graph now behaves much closer to your Hugo notes graph.
+Done — the OKF graph now behaves much closer to your Hugo notes graph.
 
 ## What changed
 
 **Force-directed layout** (same physics idea as `/notes/graph/`):
 - Link spring + node repulsion + center gravity
 - 520 settle iterations on load
-- **Draggable nodes** - release and it re-settles
+- **Draggable nodes** — release and it re-settles
 
 **Bidirectional linking**:
 - A↔B merged into **one undirected edge** (923 directed → **746** unique links)
 - **Solid lines** = mutual links (both notes link to each other)
 - **Dashed lines** = one-way only
-- No arrows - relationships read as mutual, like Obsidian/your garden graph
+- No arrows — relationships read as mutual, like Obsidian/your garden graph
 - Node size scales with **link count**
 
 **Focus mode** (unchanged):
@@ -5506,7 +5506,7 @@ pnpm export:okf
 
 Hard-refresh `http://localhost:1313/exports/okf/viz.html`.
 
-**Reset view** re-runs the force layout. **Drag** any node to nudge the graph. Layout dropdown still has circle/concentric/etc. if you want a static alternative - default is **force**.
+**Reset view** re-runs the force layout. **Drag** any node to nudge the graph. Layout dropdown still has circle/concentric/etc. if you want a static alternative — default is **force**.
 
 ---
 
@@ -6073,7 +6073,7 @@ generate.py will write graph.json and an external viz.js file alongside viz.html
 
 _**Agent (default)**_
 
-Splitting the huge inline JSON into `graph.json` and fixing init timing - likely causes: script parse failure or zero-size container before layout.
+Splitting the huge inline JSON into `graph.json` and fixing init timing — likely causes: script parse failure or zero-size container before layout.
 
 
 _**Agent (default)**_
@@ -6197,11 +6197,11 @@ nodes 185 edges 746 sample {'id': 'concepts/continuous-improvement__concepts/con
 
 _**Agent (default)**_
 
-Fixed - the graph was likely failing silently. Three problems stacked up:
+Fixed — the graph was likely failing silently. Three problems stacked up:
 
-1. **500KB+ inline JSON** in one `<script>` tag - fragile and easy to break parsing  
-2. **Invalid Cytoscape selector** `edge[!bidirectional]` - can abort stylesheet setup  
-3. **Layout ran before `#graph` had size** - force sim collapsed nodes to a invisible point  
+1. **500KB+ inline JSON** in one `<script>` tag — fragile and easy to break parsing  
+2. **Invalid Cytoscape selector** `edge[!bidirectional]` — can abort stylesheet setup  
+3. **Layout ran before `#graph` had size** — force sim collapsed nodes to a invisible point  
 
 ## What changed
 
@@ -6251,7 +6251,7 @@ Reverting to Google's original viz.js, viz.css, and viz.html. The HTML will embe
 
 _**Agent (default)**_
 
-Reverting the OKF visualizer to Google's reference defaults - restoring the original assets and a minimal generator adapter for our bundle.
+Reverting the OKF visualizer to Google's reference defaults — restoring the original assets and a minimal generator adapter for our bundle.
 
 
 _**Agent (default)**_
@@ -6441,7 +6441,7 @@ The OKF graph viewer is back on Google's reference default.
 - Updated `okf-export.md` to describe the default viewer
 
 **Still in place (needed for your bundle)**
-- Absolute-path link resolution and hub `index.md` nodes in `generate.py` - without those, Google's default edge extractor would miss most JoRap links
+- Absolute-path link resolution and hub `index.md` nodes in `generate.py` — without those, Google's default edge extractor would miss most JoRap links
 
 Open it at `/exports/okf/viz.html` after your next build (or now if `static/` is served as-is).
 
@@ -6691,7 +6691,7 @@ Wrote OKF bundle to /home/jorap/Documents/GitHub/jorap.com/static/exports/okf (1
 
 _**Agent (default)**_
 
-**Layouts - what's already there vs what you could add**
+**Layouts — what's already there vs what you could add**
 
 The dropdown already has all five layouts that are useful for switching in Cytoscape core:
 
@@ -6707,16 +6707,16 @@ The dropdown already has all five layouts that are useful for switching in Cytos
 
 **Extensions** (extra CDN scripts via `cytoscape.use(...)`):
 
-- **dagre** - hierarchical DAG; often the best fit for directed note links
-- **cose-bilkent** / **fcose** - better force layouts than stock `cose`
-- **cola** - constraint-based spacing
-- **elk** - large hierarchical graphs
+- **dagre** — hierarchical DAG; often the best fit for directed note links
+- **cose-bilkent** / **fcose** — better force layouts than stock `cose`
+- **cola** — constraint-based spacing
+- **elk** — large hierarchical graphs
 
 I'd only add **random** if you want a quick shuffle. **dagre** is the one worth adding if you want a meaningfully different view for your wikilink graph.
 
 ---
 
-**Light / dark mode - added**
+**Light / dark mode — added**
 
 New **System / Light / Dark** select in the header toolbar:
 
@@ -6997,7 +6997,7 @@ console.log(html.slice(idx, idx+800));
 ```
 viz js present: true
 const THEME_KEY = "okf-viz-theme";
-  document.title = `${bundleName} - OKF Viewer`;
+  document.title = `${bundleName} — OKF Viewer`;
   document.getElementById("bundle-name").textContent = bundleName;
 
   const graphThemes = {
@@ -7194,7 +7194,7 @@ no exports rule
 
 _**Agent (default)**_
 
-Checking whether embedded bundle JSON breaks the inline script tag - a common cause of silent JS failures.
+Checking whether embedded bundle JSON breaks the inline script tag — a common cause of silent JS failures.
 
 
 _**Agent (default)**_
@@ -7701,8 +7701,8 @@ _**Agent (default)**_
 Fixed. Two things were breaking it:
 
 **Root cause**
-1. **CSP on production** - The viz was one giant inline script (~525KB). Site CSP only allows hashed inline scripts, and that hash changes every export. If you ran `export:okf` without a full `pnpm build`, the theme JS (and sometimes the whole app) could be blocked silently.
-2. **Wrong dark-mode hook** - CSS used `html[data-theme="dark"]` while the rest of the site uses `html.dark`. The Cytoscape canvas also kept a white background in dark mode.
+1. **CSP on production** — The viz was one giant inline script (~525KB). Site CSP only allows hashed inline scripts, and that hash changes every export. If you ran `export:okf` without a full `pnpm build`, the theme JS (and sometimes the whole app) could be blocked silently.
+2. **Wrong dark-mode hook** — CSS used `html[data-theme="dark"]` while the rest of the site uses `html.dark`. The Cytoscape canvas also kept a white background in dark mode.
 
 **What changed**
 - Split into `viz.html` + `viz.js` + `viz.css` + `graph.json` (external `viz.js` loads via `'self'`, no hash churn)
@@ -7768,7 +7768,7 @@ Looking into additional Cytoscape layout algorithms that could be added to the d
 
 _**Agent (default)**_
 
-**Already in the dropdown** - all five layouts that are worth switching to from Cytoscape core:
+**Already in the dropdown** — all five layouts that are worth switching to from Cytoscape core:
 
 | Layout | Role |
 |--------|------|
@@ -7782,15 +7782,15 @@ _**Agent (default)**_
 
 | Layout | Worth adding? |
 |--------|----------------|
-| `random` | Novelty only - shuffles positions |
+| `random` | Novelty only — shuffles positions |
 | `preset` | Only if nodes already have fixed `position` in data |
-| `null` | Keeps current positions - not useful as a layout choice |
+| `null` | Keeps current positions — not useful as a layout choice |
 
 **Extensions** (extra CDN script + `cytoscape.use(...)`)
 
 | Layout | Best for |
 |--------|----------|
-| **dagre** | Directed wikilink graphs - clear top-down hierarchy |
+| **dagre** | Directed wikilink graphs — clear top-down hierarchy |
 | **fcose** | Better force layout than stock `cose` (faster, cleaner) |
 | **cose-bilkent** | Improved `cose`, slower but often nicer |
 | **cola** | Constraint-based spacing (avoid overlap) |
@@ -7800,9 +7800,9 @@ _**Agent (default)**_
 
 **Practical picks for your notes graph**
 
-1. **`random`** - one line, no dependency, quick “reshuffle”
-2. **`dagre`** - most useful new view for directed note links
-3. **`fcose`** - if `cose` feels crowded and you want a better force layout
+1. **`random`** — one line, no dependency, quick “reshuffle”
+2. **`dagre`** — most useful new view for directed note links
+3. **`fcose`** — if `cose` feels crowded and you want a better force layout
 
 I can wire up any of these if you say which you want.
 
@@ -7824,7 +7824,7 @@ Reading the current HTML and JS files first. Then adding CDN links for the dagre
 
 _**Agent (default)**_
 
-Adding `random`, `dagre`, and `fcose` layouts - checking the viz setup and extension CDN requirements.
+Adding `random`, `dagre`, and `fcose` layouts — checking the viz setup and extension CDN requirements.
 
 
 _**Agent (default)**_
@@ -7989,11 +7989,11 @@ _**Agent (default)**_
 
 Added all three to the layout dropdown:
 
-- **fcose (force+)** - improved force layout (cleaner than stock `cose` on dense graphs)
-- **dagre (hierarchy)** - top-down directed layout for wikilink flow
-- **random** - built-in shuffle
+- **fcose (force+)** — improved force layout (cleaner than stock `cose` on dense graphs)
+- **dagre (hierarchy)** — top-down directed layout for wikilink flow
+- **random** — built-in shuffle
 
-`dagre` and `fcose` load from jsDelivr (with their deps). Bundle regenerated - hard-refresh `/exports/okf/viz.html` to try them.
+`dagre` and `fcose` load from jsDelivr (with their deps). Bundle regenerated — hard-refresh `/exports/okf/viz.html` to try them.
 
 ---
 
@@ -8157,7 +8157,7 @@ Wrote OKF bundle to /home/jorap/Documents/GitHub/jorap.com/static/exports/okf (1
 
 _**Agent (default)**_
 
-Added **circular grid** - a custom layout (no extra dependency) that places nodes on concentric rings with even spacing: one node at the center, then each outer ring fills based on circumference before moving outward.
+Added **circular grid** — a custom layout (no extra dependency) that places nodes on concentric rings with even spacing: one node at the center, then each outer ring fills based on circumference before moving outward.
 
 It's in the layout dropdown between **circle** and **grid**. Hard-refresh `/exports/okf/viz.html` to try it.
 
@@ -8165,7 +8165,7 @@ It's in the layout dropdown between **circle** and **grid**. Hard-refresh `/expo
 
 _**User**_
 
-Could not load graph.json - regenerate with npm run export:okf.
+Could not load graph.json — regenerate with npm run export:okf.
 
 ---
 
@@ -8515,7 +8515,7 @@ _**Agent (default)**_
 
 The graph data is embedded in `viz.html` again at export time, so the viewer no longer depends on a separate `fetch("graph.json")`. That fetch was failing when `graph.json` wasn’t on the server (the whole `static/exports/okf/` folder is generated at build time and isn’t in git).
 
-`graph.json` is still written for agents/tools - only the viewer changed.
+`graph.json` is still written for agents/tools — only the viewer changed.
 
 Run `npm run export:okf` (or `pnpm build`), then hard-refresh `/exports/okf/viz.html`.
 
@@ -8547,7 +8547,7 @@ The circular grid code needs to become a proper constructor function. Cytoscape 
 
 _**Agent (default)**_
 
-Investigating what's broken - likely the custom layout registration.
+Investigating what's broken — likely the custom layout registration.
 
 
 _**Agent (default)**_
@@ -8641,9 +8641,9 @@ Wrote OKF bundle to /home/jorap/Documents/GitHub/jorap.com/static/exports/okf (1
 
 _**Agent (default)**_
 
-The circular grid layout was registered with the wrong Cytoscape API - a plain `{ run() }` object instead of a layout constructor. That threw on `viz.js` load, so `initOkfViz` never got defined and the whole viewer died.
+The circular grid layout was registered with the wrong Cytoscape API — a plain `{ run() }` object instead of a layout constructor. That threw on `viz.js` load, so `initOkfViz` never got defined and the whole viewer died.
 
-It now positions nodes directly when you pick **circular grid** from the dropdown, without registering a custom Cytoscape layout. Bundle regenerated - hard-refresh `/exports/okf/viz.html`.
+It now positions nodes directly when you pick **circular grid** from the dropdown, without registering a custom Cytoscape layout. Bundle regenerated — hard-refresh `/exports/okf/viz.html`.
 
 ---
 
@@ -8689,7 +8689,7 @@ Wrote OKF bundle to /home/jorap/Documents/GitHub/jorap.com/static/exports/okf (1
 
 _**Agent (default)**_
 
-Circular grid now sorts nodes by connection count (total degree) before placing them - the most connected hub sits at the center, with less connected notes on outer rings. Hard-refresh and pick **circular grid** to see it.
+Circular grid now sorts nodes by connection count (total degree) before placing them — the most connected hub sits at the center, with less connected notes on outer rings. Hard-refresh and pick **circular grid** to see it.
 
 ---
 
@@ -8843,7 +8843,7 @@ Clicking a node now highlights its connections:
 - **Connecting edges** turn amber and thicken
 - **Everything else** fades to 15% opacity
 
-Click empty canvas or **Reset view** to clear the focus. Search and type filters still work - they take over when nothing is selected. Hard-refresh `/exports/okf/viz.html` to try it.
+Click empty canvas or **Reset view** to clear the focus. Search and type filters still work — they take over when nothing is selected. Hard-refresh `/exports/okf/viz.html` to try it.
 
 ---
 
@@ -8861,33 +8861,33 @@ Evaluating the circular grid layout and exploring alternative design suggestions
 
 _**Agent (default)**_
 
-The **circular grid** you have now is a **degree-sorted bullseye**: highest-connection node dead center, then rings filled outward with evenly spaced slots. For ~185 notes it reads as a **hub-and-spoke radar** - PKM-style hubs (MOCs, big concepts) in the middle, leaf notes on the outer rings.
+The **circular grid** you have now is a **degree-sorted bullseye**: highest-connection node dead center, then rings filled outward with evenly spaced slots. For ~185 notes it reads as a **hub-and-spoke radar** — PKM-style hubs (MOCs, big concepts) in the middle, leaf notes on the outer rings.
 
 **How it probably feels**
 
 | Good | Weak |
 |------|------|
-| Instantly shows “what’s central” | **Link structure is hidden** - edges cross the whole disk |
-| Stable, fast, no layout jank | **Dense outer rings** - labels overlap on ring 3+ |
-| Nice for “importance map” | **Direction doesn’t matter** - inbound vs outbound looks the same |
-| Works well after you’ve picked a node (focus mode helps) | **Not geographic** - related clusters don’t stay together unless they share a hub |
+| Instantly shows “what’s central” | **Link structure is hidden** — edges cross the whole disk |
+| Stable, fast, no layout jank | **Dense outer rings** — labels overlap on ring 3+ |
+| Nice for “importance map” | **Direction doesn’t matter** — inbound vs outbound looks the same |
+| Works well after you’ve picked a node (focus mode helps) | **Not geographic** — related clusters don’t stay together unless they share a hub |
 
 So: good as an **importance lens**, weak as a **relationship map**. With connection focus on click, it’s usable; without it, it’s mostly decorative.
 
 **Better options for your garden**
 
-1. **fcose (force+)** - best default for wikilink graphs. Clusters form naturally; neighbors sit near each other. You already have this - I’d use it more than circular grid.
+1. **fcose (force+)** — best default for wikilink graphs. Clusters form naturally; neighbors sit near each other. You already have this — I’d use it more than circular grid.
 
-2. **concentric (built-in, by degree)** - similar vibe to circular grid but Cytoscape places by metric and handles spacing better. Worth comparing side-by-side with your custom grid.
+2. **concentric (built-in, by degree)** — similar vibe to circular grid but Cytoscape places by metric and handles spacing better. Worth comparing side-by-side with your custom grid.
 
-3. **breadthfirst from a hub** - pick a MOC as root (`roots: ['hubs/maps-of-content/...']`); great for “tree from this note outward.” Best when you’re exploring one topic, not the whole garden.
+3. **breadthfirst from a hub** — pick a MOC as root (`roots: ['hubs/maps-of-content/...']`); great for “tree from this note outward.” Best when you’re exploring one topic, not the whole garden.
 
 4. **Tweak circular grid** (if you keep it):
    - Put **top N hubs** in ring 0–1 (not just one center node)
    - **Hide labels** on outer rings until hover/focus
    - **Sort within each ring** by shared neighbor (group siblings)
 
-5. **Skip for this graph**: dagre (you dropped it - too slow), random, plain **circle** (one ring = unreadable at 185 nodes).
+5. **Skip for this graph**: dagre (you dropped it — too slow), random, plain **circle** (one ring = unreadable at 185 nodes).
 
 **Practical recommendation**
 
@@ -8895,7 +8895,7 @@ So: good as an **importance lens**, weak as a **relationship map**. With connect
 - **“What’s central?”:** circular grid or concentric
 - **“Explore from this note”:** breadthfirst with root = selected node (would need a small feature: “Layout from here”)
 
-If you want one change with the most payoff: **breadthfirst rooted on the clicked node** - circular grid answers “who’s big,” that answers “what’s reachable from here.” I can wire that up if you want.
+If you want one change with the most payoff: **breadthfirst rooted on the clicked node** — circular grid answers “who’s big,” that answers “what’s reachable from here.” I can wire that up if you want.
 
 ---
 
@@ -9218,7 +9218,7 @@ _**Agent (default)**_
 
 Spacing is now derived from the largest node in the graph:
 
-**Unit** = `max(node size) + 120` - largest node diameter plus label width (`text-max-width: 120`)
+**Unit** = `max(node size) + 120` — largest node diameter plus label width (`text-max-width: 120`)
 
 **fcose** scales from that:
 - `nodeSeparation` / `idealEdgeLength` → 2× unit
@@ -9498,9 +9498,9 @@ All three now share one spacing unit: **`max(node size) + 120`** (largest node +
 - `componentSpacing` → unit
 - `nodeDimensionsIncludeLabels: true`
 
-**random** - built-in random ignores node size, so it uses a custom placement: minimum center distance **2× unit** between nodes.
+**random** — built-in random ignores node size, so it uses a custom placement: minimum center distance **2× unit** between nodes.
 
-**fcose** / **circular grid** - unchanged logic, same `spacingUnit`.
+**fcose** / **circular grid** — unchanged logic, same `spacingUnit`.
 
 Hard-refresh and re-run the layout to apply.
 
@@ -9727,7 +9727,7 @@ Wrote OKF bundle to /home/jorap/Documents/GitHub/jorap.com/static/exports/okf (1
 
 _**Agent (default)**_
 
-The title block now links to the OKF export page at `/notes/okf-export/` - **JoRap Notes** and **OKF bundle** together. Underline on hover only; colors follow the active theme. Hard-refresh to see it.
+The title block now links to the OKF export page at `/notes/okf-export/` — **JoRap Notes** and **OKF bundle** together. Underline on hover only; colors follow the active theme. Hard-refresh to see it.
 
 ---
 
@@ -10329,7 +10329,7 @@ That drives:
 
 Settle iterations bumped 240 → 320 so the wider layout has time to converge. `fitToView` still auto-zooms to fit.
 
-Hard-refresh `/notes/graph/` - Hugo serves the updated `notes-graph.js` from assets (rebuild if you're on a production build). Labels should have more room; the graph may look more zoomed-out until you pan in.
+Hard-refresh `/notes/graph/` — Hugo serves the updated `notes-graph.js` from assets (rebuild if you're on a production build). Labels should have more room; the graph may look more zoomed-out until you pan in.
 
 ---
 
@@ -10681,7 +10681,7 @@ Wrote OKF bundle to /home/jorap/Documents/GitHub/jorap.com/static/exports/okf (1
 
 _**Agent (default)**_
 
-**Random** is back on Cytoscape’s built-in layout - no custom node-spacing logic. It scatters nodes in the viewport with the default tight padding (30px). cose, fcose, and circular grid still use the largest-node spacing. Hard-refresh to pick it up.
+**Random** is back on Cytoscape’s built-in layout — no custom node-spacing logic. It scatters nodes in the viewport with the default tight padding (30px). cose, fcose, and circular grid still use the largest-node spacing. Hard-refresh to pick it up.
 
 ---
 
@@ -10917,7 +10917,7 @@ Git is available on both Cloudflare and Netlify.
 
 _**Agent (default)**_
 
-**Yes - it already runs on both**, as long as the deploy uses your canonical build command.
+**Yes — it already runs on both**, as long as the deploy uses your canonical build command.
 
 Both platforms call the same pipeline:
 
@@ -10940,14 +10940,14 @@ Flow on deploy:
 2. Hugo copies `static/` → `public/`
 3. Site serves at `/exports/okf/…`
 
-You do **not** need to commit `static/exports/okf/` - it's generated each build (currently untracked in git, which is fine).
+You do **not** need to commit `static/exports/okf/` — it's generated each build (currently untracked in git, which is fine).
 
 **CI requirements** (both images have these by default):
 
-- **Python 3** - export script uses stdlib only
-- **Git** - used for `log.md` history; if git log fails (e.g. very shallow clone), export still succeeds with a minimal log entry
+- **Python 3** — export script uses stdlib only
+- **Git** — used for `log.md` history; if git log fails (e.g. very shallow clone), export still succeeds with a minimal log entry
 
-**Local vs CI:** `hugo server` alone does **not** run the export - use `pnpm build` / `pnpm export:okf` locally, or rely on deploy.
+**Local vs CI:** `hugo server` alone does **not** run the export — use `pnpm build` / `pnpm export:okf` locally, or rely on deploy.
 
 **Cloudflare dashboard check:** Build command = `pnpm run deploy`, output directory = `public` (matches `wrangler.toml`). Optional env vars: `HUGO_VERSION`, `GO_VERSION`, `NODE_VERSION` as noted in `wrangler.toml`.
 
@@ -11070,7 +11070,7 @@ Committing the export is unnecessary since production serves it directly. Add `s
 
 _**Agent (default)**_
 
-Yes - gitignore it. CI regenerates it on every deploy; committing it would bloat the repo and create noisy diffs (especially `viz.html`). Adding the entry.
+Yes — gitignore it. CI regenerates it on every deploy; committing it would bloat the repo and create noisy diffs (especially `viz.html`). Adding the entry.
 
 
 _**Agent (default)**_
@@ -11082,10 +11082,10 @@ _**Agent (default)**_
 
 _**Agent (default)**_
 
-**Yes** - that's the right call for OKF.
+**Yes** — that's the right call for OKF.
 
 Added `static/exports/okf/` to `.gitignore`. Cloudflare/Netlify run `export-okf-bundle.py` during `pnpm deploy`, so production always gets a fresh bundle.
 
-**Locally:** `hugo server` won't create it - run `pnpm export:okf` or `pnpm build` first, then hit `/exports/okf/viz.html`.
+**Locally:** `hugo server` won't create it — run `pnpm export:okf` or `pnpm build` first, then hit `/exports/okf/viz.html`.
 
-**Note:** `static/exports/jorap-notes-anki.txt` is still tracked (small, single file). OKF is a whole tree plus a ~500KB `viz.html`, so ignoring it keeps git clean. If you ever want agents to clone the bundle without building, you'd commit it instead - but the live URL is usually enough.
+**Note:** `static/exports/jorap-notes-anki.txt` is still tracked (small, single file). OKF is a whole tree plus a ~500KB `viz.html`, so ignoring it keeps git clean. If you ever want agents to clone the bundle without building, you'd commit it instead — but the live URL is usually enough.

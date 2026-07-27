@@ -564,16 +564,16 @@ The post isn’t really about stack choice (that’s `static-vs-cms.jpg`). It’
 
 That’s a stronger visual hook than another checklist or logo collage.
 
-### Composition (3:2, ~1536×1024 - same family as your other feature images)
+### Composition (3:2, ~1536×1024 — same family as your other feature images)
 
 | Zone | What’s in frame |
 |------|-----------------|
-| **Center** | Open laptop showing a **clean personal homepage** - warm typography, a short welcome line, a few post titles. Not a social feed grid. |
+| **Center** | Open laptop showing a **clean personal homepage** — warm typography, a short welcome line, a few post titles. Not a social feed grid. |
 | **Left** | Small stack of **hand-printed coffee-shop flyers**, slightly worn: “New post!”, “Follow along”, sketched square-grid icons (generic, not real logos). Disposable reach. |
 | **Right** | Small vintage **OPEN** sign or a **key on a ring** with a handwritten tag (e.g. `yoursite.com`). Ownership made physical. |
 | **Desk edge** | Sticky note in blue ink: **“flyers ≠ home”** or **“you own this”**. |
-| **Background (soft)** | Phone **face-down** or pushed aside - notifications off, noise out of frame. |
-| **Lighting** | Yellow desk lamp, dark window, wood desk - same cozy night-work mood as your other posts. |
+| **Background (soft)** | Phone **face-down** or pushed aside — notifications off, noise out of frame. |
+| **Lighting** | Yellow desk lamp, dark window, wood desk — same cozy night-work mood as your other posts. |
 
 ### Mood
 Calm, intentional, lasting. The opposite of the algorithm treadmill. A **well-tended corner** of the internet, not a rented room.
@@ -587,7 +587,7 @@ Calm, intentional, lasting. The opposite of the algorithm treadmill. A **well-te
 ### Suggested asset
 - **File:** `assets/images/own-website.jpg`
 - **Frontmatter:** `image: "/images/own-website.jpg"` (replaces missing `website.jpg`)
-- **Alt:** *Desk with a laptop showing a personal website, coffee-shop flyers pushed aside, and a small open sign - owning your corner of the web.*
+- **Alt:** *Desk with a laptop showing a personal website, coffee-shop flyers pushed aside, and a small open sign — owning your corner of the web.*
 
 ### AI generation prompt (if you want to render it)
 

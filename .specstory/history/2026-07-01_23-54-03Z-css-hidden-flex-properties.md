@@ -744,7 +744,7 @@ The issue is fixed. The same conflict exists in random-unrelated-notes.
 
 _**Agent (auto-low)**_
 
-`hidden` and `flex` both set `display`, so when both were on the ratings row whichever utility came last in the stylesheet won - `hidden` did not reliably hide it.
+`hidden` and `flex` both set `display`, so when both were on the ratings row whichever utility came last in the stylesheet won — `hidden` did not reliably hide it.
 
 Layout now lives on `.notes-review__ratings` in CSS; the HTML only toggles `hidden`. The existing `.notes-review__ratings.hidden { display: none !important; }` rule still wins when the panel is hidden.
 

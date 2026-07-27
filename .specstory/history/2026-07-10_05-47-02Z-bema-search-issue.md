@@ -772,11 +772,11 @@ From the built index, Judgment Seat looks like this:
 
 | Field | Contains "bema"? |
 |---|---|
-| title | No - "Judgment Seat" |
+| title | No — "Judgment Seat" |
 | description | No |
 | searchKeyword | Empty |
 | tags / categories | No |
-| content | **Empty** - no markdown body |
+| content | **Empty** — no markdown body |
 
 So **zero pages** in `searchindex.json` contain "bema". Aliases and `key_concept` are used for wikilinks and page rendering, but they are not fed into the search index.
 
@@ -953,7 +953,7 @@ Drafting a `search-fields.html` partial to gather searchable text. It slices tog
 
 The partial will return a single space-delimited string. Separate searchable fields are preferable to merging everything into the main content field. These will be keyConcept, shareableThought, and flattened relationships. The search template will inject them alongside the existing content. matchesSearch and the JavaScript duplicate filter need updating to handle these new fields. They will carry the same priority as the main content field.
 
-A `searchableText` helper will concatenate the four searchable fields-content, keyConcept, shareableThought, and relationships-into a single string for JavaScript matching. The `searchMatchPriority` function will check title matches first, then fall back to scanning that combined text across all four fields.
+A `searchableText` helper will concatenate the four searchable fields—content, keyConcept, shareableThought, and relationships—into a single string for JavaScript matching. The `searchMatchPriority` function will check title matches first, then fall back to scanning that combined text across all four fields.
 
 Optional chaining with empty-string defaults will safely handle missing fields. The JSON template will use camelCase keys such as `keyConcept` to match existing conventions. The override for `list.searchindex.json` is confirmed in place. Next step is to run the build and test.
 
@@ -1110,9 +1110,9 @@ Search now indexes `key_concept`, `shareable_thought`, and `relationships` from 
 
 **What changed**
 
-1. **`layouts/_partials/notes/search-index-fields.html`** - flattens those three fields into searchable text.
-2. **`layouts/_default/list.searchindex.json`** - adds `keyConcept`, `shareableThought`, and `relationships` to each index entry.
-3. **`assets/js/search-core.js`** and **`assets/js/search.js`** - match and rank against the combined body text (markdown body + those fields).
-4. **`scripts/test-search.mjs`** - validates the new fields; includes a regression check that `"bema"` finds Judgment Seat.
+1. **`layouts/_partials/notes/search-index-fields.html`** — flattens those three fields into searchable text.
+2. **`layouts/_default/list.searchindex.json`** — adds `keyConcept`, `shareableThought`, and `relationships` to each index entry.
+3. **`assets/js/search-core.js`** and **`assets/js/search.js`** — match and rank against the combined body text (markdown body + those fields).
+4. **`scripts/test-search.mjs`** — validates the new fields; includes a regression check that `"bema"` finds Judgment Seat.
 
 Title matches still rank above frontmatter/body matches. Searching **bema** should now return the Judgment Seat note after deploy.

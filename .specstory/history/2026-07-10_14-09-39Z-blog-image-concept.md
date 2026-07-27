@@ -193,7 +193,7 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 A concept is needed for a featured image for the open source blog post.
 
-Key themes include practicality over ideology, affordability, choice within open source, portability, inspectable code, community depth, and free tiers. A filter metaphor-inspect, move, find help-could anchor the visual concept.
+Key themes include practicality over ideology, affordability, choice within open source, portability, inspectable code, community depth, and free tiers. A filter metaphor—inspect, move, find help—could anchor the visual concept.
 
 The image should avoid manifesto imagery, purity tests, and cliché open-source tropes. It should instead feel practical and grounded. One concrete concept is a simple cardboard box labeled "my stuff" being lifted out of a generic server rack, symbolizing ownership and portability.
 
@@ -218,15 +218,15 @@ Here’s a concept that fits the post’s tone: **practical survival, not open-s
 
 **Scene:** A lived-in home desk (not a startup office). Three objects in focus, nothing preachy:
 
-1. **Inspect** - laptop or printed page with real code/template visible; a magnifying glass or reading glasses nearby  
-2. **Move** - plain folder labeled `posts` or a USB drive beside a simple Git repo tree on screen  
-3. **Find help** - phone showing a forum thread or search results (blurred enough to stay generic)
+1. **Inspect** — laptop or printed page with real code/template visible; a magnifying glass or reading glasses nearby  
+2. **Move** — plain folder labeled `posts` or a USB drive beside a simple Git repo tree on screen  
+3. **Find help** — phone showing a forum thread or search results (blurred enough to stay generic)
 
 Background stays soft: coffee mug, cheap lamp, maybe a student-style setup nodding to the Philippines teaching angle. No penguin stickers, no “FREE SOFTWARE” posters, no hands-reaching-together stock photo.
 
-**Why it works:** The post’s real filter is *inspect it, move it, find help when stuck* - not morality or manifestos. This image says that without turning into a logo collage.
+**Why it works:** The post’s real filter is *inspect it, move it, find help when stuck* — not morality or manifestos. This image says that without turning into a logo collage.
 
-**Alt text:** “Home desk with code on a laptop, a folder of site files, and a phone showing a help forum - practical open-source tools.”
+**Alt text:** “Home desk with code on a laptop, a folder of site files, and a phone showing a help forum — practical open-source tools.”
 
 ---
 
@@ -253,13 +253,13 @@ Background stays soft: coffee mug, cheap lamp, maybe a student-style setup noddi
 
 ## Style notes (to match your other custom images)
 
-- **Mood:** Warm, slightly worn, honest - same lane as `drupal-to-wp.jpg` and `static-vs-cms.jpg`  
-- **Palette:** Muted (wood desk, off-white walls, soft screen glow) - not neon cyberpunk  
-- **Text in image:** Minimal - maybe one folder label; no headline baked in (Hugo handles title)  
+- **Mood:** Warm, slightly worn, honest — same lane as `drupal-to-wp.jpg` and `static-vs-cms.jpg`  
+- **Palette:** Muted (wood desk, off-white walls, soft screen glow) — not neon cyberpunk  
+- **Text in image:** Minimal — maybe one folder label; no headline baked in (Hugo handles title)  
 - **Filename suggestion:** `open-source-practical.jpg` → `assets/images/open-source-practical.jpg`
 
 ---
 
-**My pick:** **“The three-part filter”** - it covers the whole arc (access → portability → community) without duplicating the Drupal/WordPress or static-vs-CMS posts.
+**My pick:** **“The three-part filter”** — it covers the whole arc (access → portability → community) without duplicating the Drupal/WordPress or static-vs-CMS posts.
 
 Want me to generate a draft image from that brief, or write a tighter prompt for Midjourney/DALL·E/Figma?

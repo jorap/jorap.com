@@ -890,7 +890,7 @@ Wimbledon.com stats URLs will replace tennis.com for Wimbledon Grand Slam entrie
 
 _**Agent (auto-low)**_
 
-Using working `/scores/stats/` URLs - `/match/` slugs still 404 in the SPA. Updating Wimbledon entries to `wtatennis.com | wimbledon.com` per Grand Slam format.
+Using working `/scores/stats/` URLs — `/match/` slugs still 404 in the SPA. Updating Wimbledon entries to `wtatennis.com | wimbledon.com` per Grand Slam format.
 
 
 _**Agent (auto-low)**_
@@ -994,18 +994,18 @@ The three “failures” were false positives or bot blocks:
 
 | URL | Issue |
 |-----|--------|
-| Wikimedia / CC BY-SA image credits | Regex cut URLs at `(` in the filename - both return **200** with a proper GET |
+| Wikimedia / CC BY-SA image credits | Regex cut URLs at `(` in the filename — both return **200** with a proper GET |
 | TNNSLIVE | **403** to automated requests; still fine in a browser |
 
 All WTA, tennis.com, ausopen, rolandgarros, usopen, H2H, and profile links checked out.
 
-## Wimbledon links - retried
+## Wimbledon links — retried
 
 Wimbledon has two URL patterns:
 
 | Pattern | Result |
 |---------|--------|
-| `/en_GB/match/2026-...-ws00N` | HTTP 200 but SPA body says **“Page Not Found”** - same issue as last session |
+| `/en_GB/match/2026-...-ws00N` | HTTP 200 but SPA body says **“Page Not Found”** — same issue as last session |
 | `/en_GB/scores/stats/{matchId}.html` | **200 with real match content** |
 
 Working stats URLs (derived from WTA `LS…` / `LD…` IDs, numeric part only):
@@ -1019,10 +1019,10 @@ Working stats URLs (derived from WTA `LS…` / `LD…` IDs, numeric part only):
 
 All six Wimbledon Grand Slam lines now use **`wtatennis.com | wimbledon.com`** (stats URLs), matching the other Slams and dropping the broken `/match/` slugs:
 
-- 2026 singles - 3 rounds
-- 2025 singles - Krejcikova
-- 2026 doubles - Bartunkova/Ostapenko-Kenin
-- 2025 doubles - Lys/Gleason-Martins
+- 2026 singles — 3 rounds
+- 2025 singles — Krejcikova
+- 2026 doubles — Bartunkova/Ostapenko-Kenin
+- 2025 doubles — Lys/Gleason-Martins
 
 H2H Wimbledon match lines still point at **tennis.com** (those URLs verified 200).
 
@@ -1030,7 +1030,7 @@ H2H Wimbledon match lines still point at **tennis.com** (those URLs verified 200
 
 ## Not added
 
-**4th round vs Paolini** - scheduled for Monday 6 July; not in the tracker yet. Say the word if you want that result added once it’s final.
+**4th round vs Paolini** — scheduled for Monday 6 July; not in the tracker yet. Say the word if you want that result added once it’s final.
 
 ---
 
@@ -1232,7 +1232,7 @@ Result:
   "isFinal": true,
   "references": [
     {
-      "chunk": "Links:\n1. [Alycia Parks navigates “difficult” atmosphere vs. Alexandra Eala at Australian Open | Tennis.com](https://www.tennis.com/news/articles/alycia-parks-navigates-difficult-atmosphere-vs-alexandra-eala-at-australian-open)\n2. [Channeling pro-Alexandra Eala crowd, Coco Gauff storms into Dubai semifinals | Tennis.com](https://www.tennis.com/news/articles/channeling-pro-alexandra-eala-crowd-coco-gauff-storms-into-dubai-semifinals)\n3. [Alexandra Eala’s breakthrough culminates with Grand Slam debut at Roland Garros | Tennis.com](https://www.tennis.com/news/articles/alexandra-eala-coco-gauff-grand-slam-debut-roland-garros)\n4. [Aryna Sabalenka, Iga Swiatek land in same half of Roland Garros women’s draw | Tennis.com](https://www.tennis.com/news/articles/aryna-sabalenka-iga-swiatek-2025-roland-garros-womens-draw)\n5. [Siniaková, Kateřina vs Arango, Emiliana · Round 2 · French Open](https://prod.tennis.com/tournaments/roland-garros/matches/siniakova-k-townsend-t-vs-arango-e-jovic-i-2026-05-29)\n\nSynthesis:\nAlexandra Eala played in the 2026 Australian Open, where she was defeated by Alycia Parks in the first round [1][2]. Emiliana Arango competed in the 2025 French Open (Roland Garros) main draw, where she faced Alexandra Eala in the first round [3][4]. Iva Jovic competed in the 2026 French Open doubles draw alongside Emiliana Arango, where they reached the second round [5].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eAlycia Parks navigates “difficult” atmosphere vs. Alexandra Eala at Australian Open | Tennis.com\u003c/title\u003e\n\u003curl\u003ehttps://www.tennis.com/news/articles/alycia-parks-navigates-difficult-atmosphere-vs-alexandra-eala-at-australian-open\u003c/url\u003e\n\u003ccontent\u003eAlycia Parks navigates “difficult” atmosphere vs. Alexandra Eala at Australian Open | Tennis.com\n...\nMELBOURNE, Australia-Alexandra Eala made a high-wattage debut at the 2026 Australian Open 
+      "chunk": "Links:\n1. [Alycia Parks navigates “difficult” atmosphere vs. Alexandra Eala at Australian Open | Tennis.com](https://www.tennis.com/news/articles/alycia-parks-navigates-difficult-atmosphere-vs-alexandra-eala-at-australian-open)\n2. [Channeling pro-Alexandra Eala crowd, Coco Gauff storms into Dubai semifinals | Tennis.com](https://www.tennis.com/news/articles/channeling-pro-alexandra-eala-crowd-coco-gauff-storms-into-dubai-semifinals)\n3. [Alexandra Eala’s breakthrough culminates with Grand Slam debut at Roland Garros | Tennis.com](https://www.tennis.com/news/articles/alexandra-eala-coco-gauff-grand-slam-debut-roland-garros)\n4. [Aryna Sabalenka, Iga Swiatek land in same half of Roland Garros women’s draw | Tennis.com](https://www.tennis.com/news/articles/aryna-sabalenka-iga-swiatek-2025-roland-garros-womens-draw)\n5. [Siniaková, Kateřina vs Arango, Emiliana · Round 2 · French Open](https://prod.tennis.com/tournaments/roland-garros/matches/siniakova-k-townsend-t-vs-arango-e-jovic-i-2026-05-29)\n\nSynthesis:\nAlexandra Eala played in the 2026 Australian Open, where she was defeated by Alycia Parks in the first round [1][2]. Emiliana Arango competed in the 2025 French Open (Roland Garros) main draw, where she faced Alexandra Eala in the first round [3][4]. Iva Jovic competed in the 2026 French Open doubles draw alongside Emiliana Arango, where they reached the second round [5].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eAlycia Parks navigates “difficult” atmosphere vs. Alexandra Eala at Australian Open | Tennis.com\u003c/title\u003e\n\u003curl\u003ehttps://www.tennis.com/news/articles/alycia-parks-navigates-difficult-atmosphere-vs-alexandra-eala-at-australian-open\u003c/url\u003e\n\u003ccontent\u003eAlycia Parks navigates “difficult” atmosphere vs. Alexandra Eala at Australian Open | Tennis.com\n...\nMELBOURNE, Australia—Alexandra Eala made a high-wattage debut at the 2026 Australian Open 
 … (output truncated)
 ```
 User decision: **accepted**
@@ -1588,7 +1588,7 @@ Result:
   "isFinal": true,
   "references": [
     {
-      "chunk": "Links:\n1. [From 5-1 down in the third, Alexandra Eala stuns Clara Tauson for first US Open match win | Tennis.com](https://www.tennis.com/news/articles/5-1-down-third-set-alexandra-eala-stuns-clara-tauson-first-us-open-match-win)\n2. [Eala vs. Tauson | Round of 128 US Open 2025 | WTA Official](https://www.wtatennis.com/tournaments/us-open/scores/LS63131469)\n3. [When does history-making Alex Eala play next at the US Open? Who is she up against?](https://www.espn.com/tennis/story/_/id/46077960/when-does-history-making-alex-eala-play-next-us-open-up-against)\n4. [2025 US Open: Alex Eala vs. Cristina Bucsa – Player Comparison | GMA News Online](https://www.gmanetwork.com/news/sports/othersports/957081/2025-us-open-alex-eala-vs-cristina-bucsa-player-comparison/story/?amp=)\n5. [Alex Eala sets sights on second-round clash vs. world no. 95 Cristina Bucsa in US Open | GMA News Online](https://www.gmanetwork.com/news/sports/othersports/957029/us-open-second-round-alex-eala-vs-world-no-95-cristina-busca/story/?amp=)\n\nSynthesis:\nAlexandra Eala defeated Clara Tauson in the first round of the 2025 US Open, winning 6-3, 2-6, 7-6(11) on August 24, 2025 [1][2][3]. This victory made Eala the first Filipino player to win a main-draw match at a Grand Slam in the Open Era [1][3][4]. Following this, she faced Cristina Bucsa in the second round [3][5][6].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eFrom 5-1 down in the third, Alexandra Eala stuns Clara Tauson for first US Open match win | Tennis.com\u003c/title\u003e\n\u003curl\u003ehttps://www.tennis.com/news/articles/5-1-down-third-set-alexandra-eala-stuns-clara-tauson-first-us-open-match-win\u003c/url\u003e\n\u003ccontent\u003eFrom 5-1 down in the third, Alexandra Eala stuns Clara Tauson for first US Open match win | Tennis.com\n...\nNEW YORK-Alexandra Eala scored her first Grand Slam main-draw victory in thrilling fashion at the 2025 US Open, roaring 
+      "chunk": "Links:\n1. [From 5-1 down in the third, Alexandra Eala stuns Clara Tauson for first US Open match win | Tennis.com](https://www.tennis.com/news/articles/5-1-down-third-set-alexandra-eala-stuns-clara-tauson-first-us-open-match-win)\n2. [Eala vs. Tauson | Round of 128 US Open 2025 | WTA Official](https://www.wtatennis.com/tournaments/us-open/scores/LS63131469)\n3. [When does history-making Alex Eala play next at the US Open? Who is she up against?](https://www.espn.com/tennis/story/_/id/46077960/when-does-history-making-alex-eala-play-next-us-open-up-against)\n4. [2025 US Open: Alex Eala vs. Cristina Bucsa – Player Comparison | GMA News Online](https://www.gmanetwork.com/news/sports/othersports/957081/2025-us-open-alex-eala-vs-cristina-bucsa-player-comparison/story/?amp=)\n5. [Alex Eala sets sights on second-round clash vs. world no. 95 Cristina Bucsa in US Open | GMA News Online](https://www.gmanetwork.com/news/sports/othersports/957029/us-open-second-round-alex-eala-vs-world-no-95-cristina-busca/story/?amp=)\n\nSynthesis:\nAlexandra Eala defeated Clara Tauson in the first round of the 2025 US Open, winning 6-3, 2-6, 7-6(11) on August 24, 2025 [1][2][3]. This victory made Eala the first Filipino player to win a main-draw match at a Grand Slam in the Open Era [1][3][4]. Following this, she faced Cristina Bucsa in the second round [3][5][6].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eFrom 5-1 down in the third, Alexandra Eala stuns Clara Tauson for first US Open match win | Tennis.com\u003c/title\u003e\n\u003curl\u003ehttps://www.tennis.com/news/articles/5-1-down-third-set-alexandra-eala-stuns-clara-tauson-first-us-open-match-win\u003c/url\u003e\n\u003ccontent\u003eFrom 5-1 down in the third, Alexandra Eala stuns Clara Tauson for first US Open match win | Tennis.com\n...\nNEW YORK—Alexandra Eala scored her first Grand Slam main-draw victory in thrilling fashion at the 2025 US Open, roaring 
 … (output truncated)
 ```
 User decision: **accepted**
@@ -2178,9 +2178,9 @@ Updated all match links to the triple format where it applies.
 |------------|--------|
 | **WTA tour (singles)** | `wtatennis.com` \| `tennis.com` *(already in place)* |
 | **Grand Slam** | `wtatennis.com` \| `tennis.com` \| official slam site |
-| **H2H (Grand Slam Champions)** | Same - dual for WTA meetings, triple for Slam meetings |
+| **H2H (Grand Slam Champions)** | Same — dual for WTA meetings, triple for Slam meetings |
 
-## Grand Slam Main Draw - added `tennis.com`
+## Grand Slam Main Draw — added `tennis.com`
 
 All 14 singles/doubles Slam lines now have three links, including:
 
@@ -2192,12 +2192,12 @@ All 14 singles/doubles Slam lines now have three links, including:
 
 Official slam sites unchanged (`wimbledon.com` stats URLs, `rolandgarros.com`, `ausopen.com`, `usopen.org`).
 
-## H2H section - replaced `[Match Stats]` with full link sets
+## H2H section — replaced `[Match Stats]` with full link sets
 
 All 13 match stat lines in **Matches Against Grand Slam Champions** now use labeled `wtatennis.com` \| `tennis.com` links, plus the slam site for Wimbledon meetings (Swiatek 2026, Krejcikova 2025).
 
 ## Unchanged
 
-**WTA tour doubles** in Best Performances (Bad Homburg, Abu Dhabi, Guangzhou, Rome, etc.) still link to `wtatennis.com` only - tennis.com doesn't reliably host match pages for those doubles draws. Say if you want those hunted down anyway.
+**WTA tour doubles** in Best Performances (Bad Homburg, Abu Dhabi, Guangzhou, Rome, etc.) still link to `wtatennis.com` only — tennis.com doesn't reliably host match pages for those doubles draws. Say if you want those hunted down anyway.
 
 `lastmod` → `2026-07-06T12:52:00Z`

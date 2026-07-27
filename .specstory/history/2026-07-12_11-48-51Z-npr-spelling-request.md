@@ -80,7 +80,7 @@ The search located "NPR" in the instant-pot-arroz-caldo.md blog post, not in ext
 
 _**Agent (auto-low)**_
 
-Found "NPR" in the Instant Pot post - likely "Natural Pressure Release". Reading that file to spell it out.
+Found "NPR" in the Instant Pot post — likely "Natural Pressure Release". Reading that file to spell it out.
 
 
 _**Agent (auto-low)**_

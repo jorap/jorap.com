@@ -207,7 +207,7 @@ _**Agent (default)**_
 
 _**Agent (default)**_
 
-Reading PKM-focused notes next - those are most likely to use stiff or jargon-heavy language.
+Reading PKM-focused notes next — those are most likely to use stiff or jargon-heavy language.
 
 
 _**Agent (default)**_
@@ -877,7 +877,7 @@ _**Agent (default)**_
 
 ## Summary
 
-I read all **80** markdown files in `/home/jorap/Documents/GitHub/jorap.com/content/english/notes/` (excluding `daily/`). Most notes share the same voice: a one-line definition, a personal example, plain verbs. **~55+ files are already fine** - skip them.
+I read all **80** markdown files in `/home/jorap/Documents/GitHub/jorap.com/content/english/notes/` (excluding `daily/`). Most notes share the same voice: a one-line definition, a personal example, plain verbs. **~55+ files are already fine** — skip them.
 
 Below are only the **mental model and PKM notes** that still read stiff or jargon-heavy in the **body** (not frontmatter tags), worst first.
 
@@ -892,9 +892,9 @@ Reference page with the densest academic stack.
 | Stiff phrase | Plain replacement |
 |---|---|
 | "one hour that moves many hours of **downstream work**" | "one hour that saves you work later" |
-| "**Theory of constraints** - the slowest step caps the whole system" | "find the slowest step - fixing that fixes the rest" |
-| "**OODA loop** - observe, orient, decide, act" | spell out once: "watch → decide → act → repeat" |
-| "**Expected value** - probability × payoff" | "what you gain on average, not the best-case story" |
+| "**Theory of constraints** — the slowest step caps the whole system" | "find the slowest step — fixing that fixes the rest" |
+| "**OODA loop** — observe, orient, decide, act" | spell out once: "watch → decide → act → repeat" |
+| "**Expected value** — probability × payoff" | "what you gain on average, not the best-case story" |
 | "**Circle of competence**" | "stick to topics where your judgment is earned" |
 | "don't **overfit** one great or terrible week" | "don't read too much into one good or bad week" |
 | "**Availability heuristic**" | "recent or vivid stories feel more common than they are" (drop the label) |
@@ -959,7 +959,7 @@ Reference page with the densest academic stack.
 
 | Stiff phrase | Plain replacement |
 |---|---|
-| "**Synthesis** = your words merging sources into what you believe and **can defend**" | "put it in your own words - what you actually think, and why" |
+| "**Synthesis** = your words merging sources into what you believe and **can defend**" | "put it in your own words — what you actually think, and why" |
 | "Without synthesis, PKM is a **bookmark graveyard**" | fine as-is (already conversational) |
 
 ---
@@ -973,7 +973,7 @@ Reference page with the densest academic stack.
 
 ---
 
-## Moderate - worth a light pass
+## Moderate — worth a light pass
 
 ### `/home/jorap/Documents/GitHub/jorap.com/content/english/notes/graph-view-analytics.md` (+ `/graph.md`)
 
@@ -1001,13 +1001,13 @@ Reference page with the densest academic stack.
 
 | Stiff phrase | Plain replacement |
 |---|---|
-| "**Data sovereignty**" | "you control where your notes live and who can read them" (body already close - title is the stiff part) |
+| "**Data sovereignty**" | "you control where your notes live and who can read them" (body already close — title is the stiff part) |
 
 ### `/home/jorap/Documents/GitHub/jorap.com/content/english/notes/context-aware-capture.md`
 
 | Stiff phrase | Plain replacement |
 |---|---|
-| "**Context-aware capture**" | "capture the why, not just the link" (body already says this - lead with it) |
+| "**Context-aware capture**" | "capture the why, not just the link" (body already says this — lead with it) |
 
 ### `/home/jorap/Documents/GitHub/jorap.com/content/english/notes/active-knowledge-curation.md`
 
@@ -1066,7 +1066,7 @@ Reference page with the densest academic stack.
 
 ---
 
-## Already plain - skip (mental models)
+## Already plain — skip (mental models)
 
 These read conversational; no simplification needed:
 
@@ -1081,7 +1081,7 @@ These read conversational; no simplification needed:
 - `the-collectors-fallacy.md`
 - `anti-fragile-systems.md` (niche term, but body is clear)
 
-## Already plain - skip (PKM core)
+## Already plain — skip (PKM core)
 
 - `pkm.md`, `capture.md`, `para-method.md`, `progressive-summarization.md`, `atomic-notes.md`, `maps-of-content.md`, `evergreen-notes.md`, `the-zettelkasten-myth.md`, `the-archive-method.md`, `associative-linking.md`, `organization.md`, `gtd-vs-para.md`, `periodic-knowledge-review.md`, `evergreen-vs-fleeting-notes.md`, `the-trusted-inbox.md`, `signal-vs-noise.md`, `creative-output.md`, `slow-productivity.md`, `digital-minimalism.md`, and most workflow/capture notes.
 

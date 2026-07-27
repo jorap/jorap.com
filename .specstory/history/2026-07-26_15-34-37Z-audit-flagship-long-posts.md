@@ -404,3 +404,688 @@ Voice lint OK
 
 ```
 </details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Running slop lint and scanning for patterns like summary sandwiches and parallel bullets.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm lint:slop -- content/english/blog/google-over-apple-ecosystem.md content/english/blog/hugoplate-theme-review.md content/english/blog/hanamikoji-duopoly-retheme.md content/english/blog/alex-eala-pro-career-tracker.md 2&gt;&amp;1 | head -80</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:slop -- content/english/blog/google-over-apple-ecosystem.md content/english/blog/hugoplate-theme-review.md content/english/blog/hanamikoji-duopoly-retheme.md content/english/blog/alex-eala-pro-career-tracker.md 2>&1 | head -80
+```
+
+```
+$ python3 scripts/voice-lint.py slop --check -- content/english/blog/google-over-apple-ecosystem.md content/english/blog/hugoplate-theme-review.md content/english/blog/hanamikoji-duopoly-retheme.md content/english/blog/alex-eala-pro-career-tracker.md
+Slop lint OK
+
+```
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "{google-over-apple-ecosystem,hugoplate-theme-review,hanamikoji-duopoly-retheme,alex-eala-pro-career-tracker}.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "This post is|This page is|This section|In this section|We'll cover|Let's look"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "This post is|This page is|This section|In this section|We'll cover|Let's look",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/alex-eala-pro-career-tracker.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/hugoplate-theme-review.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/blog/hanamikoji-duopoly-retheme.md"
+    }
+  ],
+  "totalFiles": 3,
+  "totalMatches": 5
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "{google-over-apple-ecosystem,hugoplate-theme-review,hanamikoji-duopoly-retheme,alex-eala-pro-career-tracker}.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "^\\*\\*[A-Z][^*]+:\\*\\*"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "^\\*\\*[A-Z][^*]+:\\*\\*",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": "content/english/blog/hanamikoji-duopoly-retheme.md"
+    },
+    {
+      "matchCount": 7,
+      "uri": "content/english/blog/google-over-apple-ecosystem.md"
+    },
+    {
+      "matchCount": 27,
+      "uri": "content/english/blog/alex-eala-pro-career-tracker.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/blog/hugoplate-theme-review.md"
+    }
+  ],
+  "totalFiles": 4,
+  "totalMatches": 38
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Now examining each post for voice violations.
+
+Checking google-over-apple-ecosystem.md. Frontmatter is personal. The opening paragraph uses first-person voice well.
+
+Line 58 contains the AI tell "seamless pairing story," violating Rule 1. Line 22 reads like a summary sandwich. The corporate section heading is somewhat flat. Line 120 drops into generic advice without first-person voice.
+
+Line 134 uses "Conveniently," a transition word. Line 138 reads as fake balance. Lines 150–162 repeat the same bold-label structure across seven items, risking parallel bullet drone. First-person voice holds strong through line 144.
+
+Line 58 uses relative cost, not a dollar amount, so it passes currency rules. Line 136 cites a factual Apple deal rather than the author’s own price, which is acceptable. The corporate section still carries concrete client workflow specifics. All H2 headings retain personality and opinion. The closing at line 164 lands on a genuine personal choice, which is effective.
+
+Now auditing hugoplate-theme-review.md. The frontmatter description is personal and effective. The meta title is slightly SEO-heavy but acceptable.
+
+Line 34 uses the AI tell "The other thing worth knowing up front." This violates Rule 1. Line 38 is a flat product-manual heading, violating Rule 6.
+
+Line 40 lists homepage sections, dark mode, and search without personality. Line 82 is a manual-style heading. The recommendation section at line 338 uses corporate third-person labels like "Good fit" and "Bad fit" instead of personal advice. Lines 340–344 drop into third-person advice without first-person voice.
+
+The shortcodes section is large reference documentation. Its voice is instructional rather than personal in many places.
+
+Lines 352–356 use bold imperative phrases in the “What I wish I’d known” section. The structure is similar but not identical.
+
+Line 40 of the hugoplate review is not a true parallel-bullet list. The “What you get out of the box” section is thin despite a few personal touches.
+
+Auditing hanamikoji-duopoly-retheme.md. The frontmatter description and meta title are personal and acceptable. Line 40 uses a three-sentence parallel -ing/-ed drone violating Rule 4. Line 44 is a flat manual heading violating Rule 6.
+
+Line 96 is a flat build-log heading. Line 98 uses a summary-sandwich announcement. Line 26 is a meta announcement. The “How I actually win” section uses bold strategy tips. Its parallel structure may read as drone.
+
+The “How I actually win” tips in the duopoly post vary too widely to qualify as parallel drone. Line 38 uses the generic transition “stacks on top.” The opening and closing of that post hold strong first-person voice. Now beginning the Alex-Eala career tracker audit.
+
+The Alex-Eala career tracker audit continues. Lines 26 and 35 use flat manual headings, violating Rule 6. Lines 37, 49, 64, 238, and 305 keep the first-person voice strong and personal.
+
+The Alex-Eala tracker audit continues. Line 20 opens with a summary-sandwich announcement. The post ends with Image Credits and lacks a closing prose section. Most H2 headings are flat manual labels, violating Rule 6.
+
+The tracker post lacks a closing landing pick; it ends with Image Credits, violating Rule 9. The first four hundred characters correctly use first-person voice. Flat headings in the tracker are noted as acceptable tradeoffs, though violations will be reported per the guide. Now scanning for subtler issues across all posts.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": true,
+  "glob": "{google-over-apple-ecosystem,hugoplate-theme-review,hanamikoji-duopoly-retheme,alex-eala-pro-career-tracker}.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "important|crucial|essential|key role|landscape|elevate|comprehensive|At the end of the day|game-changer|must-have"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "important|crucial|essential|key role|landscape|elevate|comprehensive|At the end of the day|game-changer|must-have",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "{google-over-apple-ecosystem,hugoplate-theme-review,hanamikoji-duopoly-retheme,alex-eala-pro-career-tracker}.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "you should|one should|people should|anyone who|anyone building|Pick something|Create an account|Treat the|Expect to|Helpful but not required"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "you should|one should|people should|anyone who|anyone building|Pick something|Create an account|Treat the|Expect to|Helpful but not required",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/hanamikoji-duopoly-retheme.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/google-over-apple-ecosystem.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "content/english/blog/hugoplate-theme-review.md"
+    }
+  ],
+  "totalFiles": 3,
+  "totalMatches": 7
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "google-over-apple-ecosystem.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "^[^#\\n].*\\b(I|my|I'm|I've)\\b"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "^[^#\\n].*\\b(I|my|I'm|I've)\\b",
+  "topFiles": [
+    {
+      "matchCount": 5,
+      "uri": "content/english/blog/google-over-apple-ecosystem.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 41
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Beginning a careful review of specific sections.
+
+Checking for significance inflation, fake balance, summary sandwiches, and missing specifics. Re-examining google-over-apple-ecosystem.md: line 22 reads like a committee explanation, lines 34-36 repeat prior points, line 50 is solid, and line 58 confirms a violation.
+
+Line 96 carries a borderline fake balance; one honest doubt is acceptable. Lines 110-122 shift to third-person corporate advice with imperatives and a generic claim about Google’s stack. The privacy section at lines 128-138 keeps the personal voice and specific details.
+
+google-over-apple-ecosystem.md lines 150-162 read like a spec sheet. Line 134 uses cynical AI polish. hugoplate-theme-review.md lines 82-297 are a reference manual with almost no first-person voice. Demo notices at line 105 and demo content at lines 97-98 carry corporate phrasing.
+
+hugoplate-theme-review.md lines 38 and 338-344 read like flat manual entries. Lines 300-316 and 352-356 rely on parallel noun phrases and bold fragments. Line 338 shifts to third person.
+
+hugoplate-theme-review.md line 24 is a meta announcement that reads like a summary sandwich. Line 34 uses second-person corporate phrasing. hanamikoji-duopoly-retheme.md line 26 is meta. Line 40 contains three parallel fragments.
+
+hanamikoji-duopoly-retheme.md line 98 is another summary sandwich. Line 44 is flat. Lines 64-76 are acceptable as build-log tables. Lines 150-164 and 164-170 keep the personal voice. Line 32 may use slight corporate jargon.
+
+alex-eala-pro-career-tracker.md has prose sections only at lines 20, 26, 37, 49, 64, 238, 305, and 502. The rest are bullet lists.
+
+alex-eala-pro-career-tracker.md line 26 keeps the personal voice. Line 644 is also strong. The post lacks closing prose and ends at Image Credits. Flat headings throughout need reporting. Line 502 may contain a slight contradiction.
+
+alex-eala-pro-career-tracker.md line 502 is awkward. The post ends without closing prose, which violates rule 9. Frontmatter description at line 4 is personal and effective. The meta_title at line 3 is slightly SEO-stuffed. The hugoplate meta_title at line 3 is product-review SEO. Now scanning for passive verbs like "features" and "offers".
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": true,
+  "glob": "{google-over-apple-ecosystem,hugoplate-theme-review,hanamikoji-duopoly-retheme,alex-eala-pro-career-tracker}.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "\\bfeatures\\b|\\boffers a\\b|headline feature|worth surfacing|practical default|stress-test|framing matters"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "\\bfeatures\\b|\\boffers a\\b|headline feature|worth surfacing|practical default|stress-test|framing matters",
+  "topFiles": [
+    {
+      "matchCount": 4,
+      "uri": "content/english/blog/hugoplate-theme-review.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/hanamikoji-duopoly-retheme.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/google-over-apple-ecosystem.md"
+    }
+  ],
+  "totalFiles": 3,
+  "totalMatches": 6
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/google-over-apple-ecosystem.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/hugoplate-theme-review.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/hanamikoji-duopoly-retheme.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Checking the Google post for fake balance issues and the HugoPlate shortcodes section for vague, unspecified detail.
+
+The HugoPlate shortcodes section contains specific details but lacks personal friction or memory. The Google post line 22 shows a summary-sandwich pattern. Line 118 contains fake balance. The hanamikoji post uses corporate jargon at line 32. The HugoPlate meta_title may be slightly SEO-stuffed. The Google post opens with a strong personal hook.
+
+The HugoPlate post opens with a descriptive hook rather than an "I" sentence. The author appears only after roughly 350 characters, so the opening does not violate the personal-voice rule.
+
+The HugoPlate post uses a generic second-person hook ("If you've ever spent...") instead of a personal one. This is a minor violation of the review-post voice rule.
+
+The Google post repeats MacBook, iPad, and Android across lines 28–30 and 20. The Alex post’s meta description and prose still need review.
+
+The Alex post has strong specificity throughout its H2 sections. Its main issues are flat headings and missing closing prose. The HugoPlate post needs checking for overused words like "genuinely" and "intentionally," plus its closing. The Google post line 136 uses "billions" without referencing the author's actual payment.
+
+The Google post line 136 is factually accurate and acceptable. The seven H2 labels beginning with "Account layer," "Computer," "Tablet," and so on follow a repetitive structural pattern. They do not break the parallel-bullet rule because none start with the same word or verb form.
+
+The Google post’s H2 labels are borderline parallel structure drone. The hanamikoji post at line 40 violates the parallel-bullet rule with three past-participle phrases: “Mechanics unchanged,” “Visual noise stripped,” and “Friction lowered.”
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/hugoplate-theme-review.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/hugoplate-theme-review.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/google-over-apple-ecosystem.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Line 86 of hugoplate contains jargon: "content design system."
+
+Hugoplate lines 88–89 announce a reference dump with a listicle intro. Lines 90–295 read like product docs with minimal first-person voice. Line 105 uses AI-style phrasing: “worth surfacing.” Google line 22 defines an ecosystem as a “whole bundle,” which sounds like a summary.
+
+Google line 118 uses fake balance: “Apple can run a business too...” The Alex post meta_title is catalog-style SEO.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "{google-over-apple-ecosystem,hugoplate-theme-review,hanamikoji-duopoly-retheme,alex-eala-pro-career-tracker}.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "quietly|punches above|whole game|That's the whole|content design system|design system|procure|standardize"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "quietly|punches above|whole game|That's the whole|content design system|design system|procure|standardize",
+  "topFiles": [
+    {
+      "matchCount": 3,
+      "uri": "content/english/blog/google-over-apple-ecosystem.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/blog/hugoplate-theme-review.md"
+    }
+  ],
+  "totalFiles": 2,
+  "totalMatches": 6
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "google-over-apple-ecosystem.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "^This |^An ecosystem|^Google is|^Apple |^The hardware|^Neither |^Privacy |^New hire"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "^This |^An ecosystem|^Google is|^Apple |^The hardware|^Neither |^Privacy |^New hire",
+  "topFiles": [
+    {
+      "matchCount": 11,
+      "uri": "content/english/blog/google-over-apple-ecosystem.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 11
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Checking hanamikoji for contractions. The post uses "I am not" instead of "I'm not" in several places. This may be overly formal but likely does not violate the style guide.
+
+The formal "I am not" in hanamikoji is intentional for the legal section. The full audit report is being compiled now. google-over-apple-ecosystem.md gets a LIGHT POLISH verdict. Its corporate voice and fake balance in the "corporations" H2 need the most work. The Shortcodes section in hugoplate-theme-review.md reads like a reference manual and needs the most work too.
+
+hanamikoji-duopoly-retheme.md is LIGHT POLISH. Minor issues include a flat theme-mapping heading, parallel sentences, a summary-sandwich effect, jargon, and meta announcements. alex-eala-pro-career-tracker.md is also LIGHT POLISH. Its prose is solid, but flat H2s and a missing closing need work.
+
+No em dashes were found in the google post. The "billions" figure refers to Apple's deal, not the author's spending. The hugoplate post uses product-marketing phrasing like "headline feature" and jargon such as "content design system." The fake balance claim at line 140 is confirmed.
+
+The fake-balance suspicion at line 140 is likely earned balance, not fake balance, because the doubt is intentional and earned. Line 118 in the corporate section is more genuinely fake. The Google post’s inventory-style closing around lines 150–162 is a spec-sheet dump; it should be tightened into a single line. The hugoplate opener uses “you” rather than “I,” but that is acceptable because the piece is a review, not an opinion post.
+
+alex-eala-pro-career-tracker.md’s meta_title may be catalog-style and violate rule 10. The hanamikoji “Personal use only” H2 is flat despite strong content. Exact line numbers and quotes are being finalized for the report.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+Compiling the audit report with exact line references.
+
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="update_current_step"><details>
+<summary>Tool use: **update_current_step**</summary>
+An unknown error occurred
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Preparing a thorough, organized audit report.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+# Blog voice audit report
+
+Calibrated against `jorap-voice/SKILL.md`, `examples.md`, and the reference posts. Automated checks: `pnpm lint:voice` and `pnpm lint:slop` both clean on all four files. No em dashes (—), en dashes (–), or banned currency amounts found.
+
+---
+
+## 1. `/home/jorap/Documents/GitHub/jorap.com/content/english/blog/google-over-apple-ecosystem.md`
+
+**Verdict: LIGHT POLISH**
+
+**H2 sections needing the most work:** `Even corporations are better off on Google's side`, `Apple's ecosystem tax keeps climbing`, opening block before first H2
+
+### Frontmatter
+
+| Line | Quote | Rule | Suggested fix |
+|------|-------|------|---------------|
+| 3 | `"Google vs Apple - Why I Stay on Google's Side"` | Minor SEO-template shape (rule 10) | `"Why I Still Live in Google, Not Apple"` |
+
+(`description` line 4 is on-voice: first-person, specific hardware, plain thesis.)
+
+### Body findings
+
+| Line | Quote | Rule | Suggested fix |
+|------|-------|------|---------------|
+| 22 | `"This isn't a phone-versus-phone argument. An ecosystem is the whole bundle: **accounts, cloud storage, messaging, video calls, the browser, the app store, the TV layer, and the hardware that sits on top**."` | Summary sandwich / definitional opener (rules 4, 5) | `"I'm not arguing phone vs phone. I care about the whole stack - Gmail on the MacBook, Meet on the Android, Drive when Git isn't enough - and Google already spans all of it."` |
+| 58 | `"AirPods if you want the seamless pairing story"` | AI tell: `seamless` (rule 1) | `"AirPods if you want the instant-pairing story Apple sells in every keynote"` |
+| 118–122 | `"Apple can run a business too. I've seen shops where everyone got issued a Mac and it was fine. But **that's a budget line**, not just taste."` / `"New hire? Create an account, share the Drive folders, add them to Meet. You don't need to procure a specific laptop before they can log in. **Google's stack is the practical default** for messy orgs."` | Fake balance + corporate/no-subject voice (rules 2, 4) | `"I've seen all-Mac shops that worked fine - and paid for every seat, dongle, and spill replacement. For the mixed Windows-and-Android clients I actually touch, I send a Meet link and they join from whatever's on the desk. No procurement step first."` |
+| 122 | `"procure a specific laptop"` | Corporate phrasing (rule 2) | `"buy everyone matching laptops first"` |
+| 150–162 | Seven consecutive `**Label:**` inventory lines (`**Account layer:**`, `**Computer:**`, `**Tablet:**` …) | Parallel structure drone (rule 4) | Fold into two short prose paragraphs, or cut to the three items you'd actually miss if you switched tomorrow. |
+| 110 | `## Even corporations are better off on Google's side` | Flat/generic H2 (rule 6) | `## Client work runs on Meet links, not matching laptops` |
+
+### What's working
+
+- Strong first-person opener (`"I get the pitch"`).
+- Specifics throughout: MacBook Pro M4, Mi Box S, Shopee, banking handset in the bag, Brave/Chrome split.
+- Closing lands on a real pick (`"I live in a house with a lot of doors"`).
+- Privacy section has earned friction, not hollow hype.
+
+---
+
+## 2. `/home/jorap/Documents/GitHub/jorap.com/content/english/blog/hugoplate-theme-review.md`
+
+**Verdict: LIGHT POLISH** (main post on-voice; shortcodes block reads like product docs)
+
+**H2 sections needing the most work:** `Shortcodes worth knowing`, `What you get out of the box`, `Who I'd recommend it to`
+
+### Frontmatter
+
+| Line | Quote | Rule | Suggested fix |
+|------|-------|------|---------------|
+| 3 | `"HugoPlate Theme Review: Why It Powers JoRap Notes"` | Slight SEO/product-review template (rule 10) | `"HugoPlate - The Theme I Still Haven't Replaced"` |
+
+(`description` line 4 is strong: Saturday lost, still on it a year later, where it bites.)
+
+### Body findings
+
+| Line | Quote | Rule | Suggested fix |
+|------|-------|------|---------------|
+| 24 | `"This post is the long version of why - what's actually inside it, what I changed, and the parts that bit me along the way."` | Summary sandwich / meta announcement (rule 4) | Cut the sentence; the prior line already says you're still on HugoPlate. |
+| 30 | `"The headline feature is that it's built on **Tailwind CSS**"` | Product-marketing phrasing (rule 1) | `"The real reason I picked it: **Tailwind CSS**"` |
+| 34 | `"The other thing worth knowing up front:"` | AI tell cousin of "it's worth noting" (rule 1) | `"One thing the README makes clear:"` |
+| 34 | `"it means you should expect to live inside the theme's code"` | Corporate second-person (rule 2) | `"I had to live inside the theme's code, not sit on top of a black box"` |
+| 38 | `## What you get out of the box` | Flat/manual H2 (rule 6) | `## Enough wiring that month one wasn't "build a blog from scratch"` |
+| 40 | `"homepage sections, blog list and single templates, categories, tags, dark mode, search, SEO tags, contact form hooks, WebP image processing"` | Generic feature dump, swap-test fail (rules 5, 6) | `"Enough that I published before I rebuilt the homepage - then turned off Pricing and FAQ because I wasn't shipping a SaaS landing page."` |
+| 42 | `"Treat the demo pages as spare parts, not a site map you must launch day one."` | No-subject advice (rule 2) | `"I treated the demo pages as spare parts, not a site map I had to launch day one."` |
+| 82 | `## Shortcodes worth knowing` | Flat/manual H2 (rule 6) | `## Shortcodes that bit me once, then saved hours` |
+| 86 | `"hands you a small content design system"` | Jargon / written-to-impress (rules 1, 5) | `"hands you a small set of callouts, buttons, tabs, and galleries"` |
+| 88–89 | `"Here's the full set this site renders, with live output for each so you can see exactly what they do."` | Hollow listicle bridge before 200+ lines of reference (rules 4, 5) | `"Below is the full set - mostly so I don't have to grep the repo when I forget a parameter."` |
+| 105 | `"additional context that's worth surfacing but not strictly required reading"` | AI tell: `worth surfacing` (rule 1) | `"extra context you can skip on first read"` (demo copy) |
+| 150 | `"Helpful but not required."` | Generic buyer-guide voice (rule 2) | `"You can ignore Tailwind until you want to change spacing or colors."` |
+| 338–342 | `## Who I'd recommend it to` / `**Good fit:** anyone building a personal site…` / `**Bad fit:** anyone who wants a no-code admin panel.` | Corporate/no-subject recommendation voice (rules 2, 6) | `## Who I'd point at HugoPlate` / `"I'd send a dev-friend who knows Markdown and doesn't mind editing TOML. I'd skip it for a team that wants a click-to-edit CMS without touching Git."` |
+
+### What's working
+
+- Opener matches calibration posts (Saturday theme-shopping trap).
+- `"The rough edges"` and `"What I actually changed"` are lived-in and specific (case-sensitivity, submodule friction, nested-bold notice bug).
+- Closing lands well: `"Hard to argue with that."` after domain-only cost note.
+
+---
+
+## 3. `/home/jorap/Documents/GitHub/jorap.com/content/english/blog/hanamikoji-duopoly-retheme.md`
+
+**Verdict: LIGHT POLISH** (strongest voice of the four; small structural slop)
+
+**H2 sections needing the most work:** `Theme mapping`, `Component budget` (headings only; body is fine)
+
+### Frontmatter
+
+Both `description` (line 4) and `meta_title` (line 3) are on-voice. No changes needed.
+
+### Body findings
+
+| Line | Quote | Rule | Suggested fix |
+|------|-------|------|---------------|
+| 26 | `"This post is the retheme map and the component cuts. Not a rules sheet - those live in the zine I tuck beside the deck."` | Summary sandwich / meta announcement (rule 4) | `"The rules live in the zine beside the deck. What follows is the retheme map and what I cut from the box."` |
+| 32 | `"I was trying to **stress-test two things**:"` | Corporate/jargon (rule 1) | `"I wanted to see two things:"` |
+| 38 | `"Practical wins stack on top."` | Generic transition / hollow bridge (rule 1) | Cut; start with `"Retail *Hanamikoji* uses oversized geisha boards…"` |
+| 40 | `"Mechanics unchanged. Visual noise stripped. Friction lowered."` | Parallel -ed fragment drone (rule 4) | `"Same mechanics, less table clutter - and people still lean in when someone fans a Competition."` |
+| 44 | `## Theme mapping` | Flat/manual H2 (rule 6) | `## Geisha favor → market control (one-to-one rename)` |
+| 96 | `## Component budget` | Flat/manual H2 (rule 6) | `## 43 bits down to 36 cards plus a zine` |
+| 98 | `"This section is the heart of the exercise."` | Summary sandwich (rule 4) | Cut; open with `"Every piece I removed had to prove it earned its spot."` |
+
+### What's working
+
+- First-person opener with clear thesis (`"I love *Hanamikoji* for the mechanics"`).
+- `"How I actually win"` is excellent: specific countries, card counts, tactics from real losses.
+- `"Personal use only"` closing is honest and lands on buying the retail box.
+- No currency, no AI transition spam, strong Philippines-adjacent practicality (one sleeve, one cutter pass).
+
+---
+
+## 4. `/home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md`
+
+**Verdict: LIGHT POLISH** (prose sections on-voice; structure is the issue)
+
+**H2 sections needing the most work:** flat heading set (`At a glance`, `Player Profile`, `WTA Rankings`, etc.); no closing prose section
+
+*Tables, match logs, and YouTube embeds excluded per scope.*
+
+### Frontmatter
+
+| Line | Quote | Rule | Suggested fix |
+|------|-------|------|---------------|
+| 3 | `"Alex Eala WTA Career Tracker - Rankings and Matches"` | Catalog/SEO label, not personal (rule 10) | `"Alex Eala - Rankings and Matches I'm Pinning"` |
+
+(`description` line 4 is good: scrapbook framing, `"matches I'll never forget"`.)
+
+### Prose findings
+
+| Line | Quote | Rule | Suggested fix |
+|------|-------|------|---------------|
+| 20 | `"This page is my running scrapbook: career-high rankings, the matches I'll always remember, head-to-heads with Grand Slam champions, and upcoming matchups I'm watching for."` | Mild summary sandwich after strong hook (rule 4) | End intro after `"…in my lifetime."` - the list that follows already shows what's pinned. |
+| 24 | `## At a glance` | Flat/manual H2 (rule 6) | `## What I check first when Twitter breaks at 2am` |
+| 35 | `## Player Profile` | Flat/manual H2 (rule 6) | `## Links I keep open during Slams` |
+| 47 | `## WTA Rankings` | Flat/manual H2 (rule 6) | `## Career-high numbers (I still screenshot these)` |
+| 62 | `## Best Performances in WTA Tournaments` | Flat/manual H2 (rule 6) | `## The week-to-week grind (125s and 500s)` |
+| 236 | `## Grand Slam Main Draw Results` | Flat/manual H2 (rule 6) | `## Slams - including the Wimbledon run I still can't believe` |
+| 303 | `## Matches Against Grand Slam Champions` | Flat/manual H2 (rule 6) | `## Head-to-heads vs Slam champions (I started this after Miami 2025)` |
+| 500 | `## Matches Against Other Top 20 Players` | Flat/manual H2 (rule 6) | `## Other top-20 fixtures I'm tracking` |
+| 642 | `## Matches to Watch Out For` | Flat/manual H2 (rule 6) | `## Draw roulette - no H2H yet` (reuse your line 644 voice) |
+| 661 | Page ends at `## Image Credits` with no prose after | Weak closing (rule 9) | Add 2–3 sentences before credits: what you're watching next (e.g. Andreeva H2H) and when you last updated. |
+
+### Prose that's already on-voice (no changes needed)
+
+- Line 26: `"The numbers I refresh first when something breaks on Twitter at 2am"`
+- Line 37: `"I keep all of these open during Slams because WTA's site is best for live scores"`
+- Line 238: `"Wimbledon 2026 is the run I still can't quite believe - Swiatek on Centre Court, then Paolini ending it in three."`
+- Line 305: `"I started this section after Miami 2025 because I kept losing track of who she'd already beaten."`
+- Line 644: `"Draw roulette - no H2H yet… Andreeva is the one I circle because of the 2022 junior US Open final."`
+
+---
+
+## Summary verdicts
+
+| Post | Verdict | Priority H2s |
+|------|---------|--------------|
+| `google-over-apple-ecosystem.md` | **LIGHT POLISH** | Corporate section, ecosystem-tax section, opening definitional block |
+| `hugoplate-theme-review.md` | **LIGHT POLISH** | Shortcodes reference block, out-of-the-box section, recommend-to section |
+| `hanamikoji-duopoly-retheme.md` | **LIGHT POLISH** | Theme mapping / Component budget headings; trim meta lines |
+| `alex-eala-pro-career-tracker.md` | **LIGHT POLISH** | All catalog-style H2s; add a closing prose beat |
+
+None of the four need a **DEEP REWRITE**. The biggest gap is structural in `hugoplate-theme-review.md` (shortcodes as live docs) and `alex-eala-pro-career-tracker.md` (flat headings, no sign-off). Voice pillars - first person, specifics, honest friction, plain closes - are already present in the opinion/build-log posts.

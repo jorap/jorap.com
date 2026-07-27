@@ -56,3 +56,1096 @@ FORBIDDEN:
 - Keep edits minimal and surgical: change the offending clause, not the whole field.
 
 REPORT BACK: one line per file naming what you changed, plus confirmation that both linters are silent for all 12 of your files.
+
+---
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+I'll start by reading the voice skill and the worked examples.
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="update_current_step"><details>
+<summary>Tool use: **update_current_step**</summary>
+An unknown error occurred
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/garden-voice/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<think><details><summary>Thought Process</summary>
+I'm going to look at some worked examples and examine the files to understand the problem better.
+</details></think>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/guard-your-heart.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/into-your-hands.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /tmp/probe.py</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<think><details><summary>Thought Process</summary>
+Running the linters against just those 12 files to check for issues.
+</details></think>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 scripts/lint-notes-frontmatter.py 2&gt;&amp;1 | rg &#39;secret-devotion|self-control|selling-static-sites|share-the-heavy-lift|sharpen-each-others-work|surface-bad-news-early|thank-father-at-lazarus|thank-father-for-revelation|the-feynman-technique|trust-god-for-today|walk-by-the-spirit|words-that-build-up&#39;; echo &#34;=== VOICE ===&#34;; python3 scripts/garden-voice-lint.py 2&gt;&amp;1 | rg &#39;secret-devotion|self-control|selling-static-sites|share-the-heavy-lift|sharpen-each-others-work|surface-bad-news-early|thank-father-at-lazarus|thank-father-for-revelation|the-feynman-technique|trust-god-for-today|walk-by-the-spirit|words-that-build-up&#39;</summary>
+```bash
+python3 scripts/lint-notes-frontmatter.py 2>&1 | rg 'secret-devotion|self-control|selling-static-sites|share-the-heavy-lift|sharpen-each-others-work|surface-bad-news-early|thank-father-at-lazarus|thank-father-for-revelation|the-feynman-technique|trust-god-for-today|walk-by-the-spirit|words-that-build-up'; echo "=== VOICE ==="; python3 scripts/garden-voice-lint.py 2>&1 | rg 'secret-devotion|self-control|selling-static-sites|share-the-heavy-lift|sharpen-each-others-work|surface-bad-news-early|thank-father-at-lazarus|thank-father-for-revelation|the-feynman-technique|trust-god-for-today|walk-by-the-spirit|words-that-build-up'
+```
+
+```
+FAIL description in key_concept (Level 1: Some good deeds stay private - give, pray, and fast…): secret-devotion.md
+FAIL shareable_thought[2] not from principle: self-control.md
+FAIL description in key_concept (Level 4: Because static hosting is commodity cheap, the sale…): selling-static-sites.md
+FAIL shareable_thought[2] not from principle: share-the-heavy-lift.md
+FAIL shareable_thought[1] not from principle: sharpen-each-others-work.md
+FAIL shareable_thought[2] not from principle: sharpen-each-others-work.md
+FAIL shareable_thought[2] not from principle: surface-bad-news-early.md
+FAIL shareable_thought[2] not from principle: thank-father-at-lazarus.md
+FAIL shareable_thought[3] not from principle: thank-father-at-lazarus.md
+FAIL shareable_thought[2] not from principle: thank-father-for-revelation.md
+FAIL description in key_concept (Explain it simply to a blank page - the stumble marks the ga…): the-feynman-technique.md
+FAIL shareable_thought[2] not from principle: trust-god-for-today.md
+FAIL shareable_thought[3] not from principle: trust-god-for-today.md
+FAIL shareable_thought[2] not from principle: walk-by-the-spirit.md
+FAIL shareable_thought[3] not from principle: walk-by-the-spirit.md
+FAIL shareable_thought[2] not from principle: words-that-build-up.md
+FAIL shareable_thought[3] not from principle: words-that-build-up.md
+=== VOICE ===
+  content/english/notes/self-control.md: key_concept: line1-wikilink (The athlete exercises self-control in all things - Spirit-grown restraint in the)
+  content/english/notes/share-the-heavy-lift.md: examples[0]: multi-sentence (The on-call engineer was three pages deep alone until we split primary and secon)
+  content/english/notes/trust-god-for-today.md: examples[0]: multi-sentence (I spun at 2 a.m. about next year's tuition instead of sleeping - Matthew 6 bread)
+  content/english/notes/trust-god-for-today.md: key_concept: contraction (Don't)
+
+```
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<think><details><summary>Thought Process</summary>
+I'm going to examine all 12 files now.
+</details></think>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 /tmp/probe.py secret-devotion.md self-control.md selling-static-sites.md share-the-heavy-lift.md 2&gt;&amp;1</summary>
+```bash
+python3 /tmp/probe.py secret-devotion.md self-control.md selling-static-sites.md share-the-heavy-lift.md 2>&1
+```
+
+```
+
+======================================================================
+secret-devotion.md
+DESC: Give, pray, and fast for God to see - not for applause in the group chat.
+  KC-DUP: Level 1: Some good deeds stay private - give, pray, and fast for God to see, not for applause from other people.
+     overlaps desc clause: ['give, pray, and fast for god to see']
+  KC-DUP: Level 2: Some good deeds belong in public and some stay private - give, pray, and fast for God to see, not for applause.
+     overlaps desc clause: ['give, pray, and fast for god to see']
+  ST[0] OK: Give, pray, and fast for God to see - not for applause in the group chat.
+  ST[1] OK: Piety for an audience is its own reward.
+  ST[2] OK: Give, pray, fast for the Father who sees in secret.
+  ST[3] OK: Some good shines publicly; some stays hidden so the left hand does not know what the right is doing.
+  POOL (clauses a shareable line may echo):
+     - give, pray, and fast for god to see - not for applause in the group chat
+     - give, pray, and fast for god to see
+     - not for applause in the group chat
+     - {{< bible ref="matthew 6:3-4" emphasize="4" >}} - give in secret - left hand does not know what the right is doing. - level 1: some good deeds stay pr
+     - {{< bible ref="matthew 6:3-4" emphasize="4" >}}
+     - left hand does not know what the right is doing
+     - - level 1: some good deeds stay private
+     - give, pray, and fast for god to see, not for applause from other people
+     - - level 2: some good deeds belong in public and some stay private
+     - give, pray, and fast for god to see, not for applause
+     - - level 3: left hand does not know what the right is doing
+     - hidden devotion, public fruit where appropriate
+     - - level 4: because applause rewires motive, secret lanes keep worship aimed at the father, not the feed
+     - - level 5: some good shines publicly
+     - some stays hidden so the left hand does not know what the right is doing
+     - audience of one, not perf
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<think><details><summary>Thought Process</summary>
+I'm seeing some inconsistencies in the probe results — secret-devotion shows KC-DUP for two Level bullets, but the self-control probe didn't print KC-DUP despite the line1-wikilink issue. Let me check the remaining eight cases to understand the pattern better.
+</details></think>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 /tmp/probe.py sharpen-each-others-work.md surface-bad-news-early.md thank-father-at-lazarus.md thank-father-for-revelation.md 2&gt;&amp;1</summary>
+```bash
+python3 /tmp/probe.py sharpen-each-others-work.md surface-bad-news-early.md thank-father-at-lazarus.md thank-father-for-revelation.md 2>&1
+```
+
+```
+
+======================================================================
+sharpen-each-others-work.md
+DESC: Peer review should make the draft better - friction with care, not performance theater or silent approval.
+  ST[0] OK: Peer review should make the draft better - friction with care, not performance theater or silent approval.
+  ST[1] NOT-FROM-PRINCIPLE: Sharpening names what is weak and what would fix it in the same session.
+  ST[2] NOT-FROM-PRINCIPLE: Iron Sharpens Iron is the faith name for the same friction.
+  ST[3] OK: Sharpening fails when the tone eats the truth.
+  POOL (clauses a shareable line may echo):
+     - peer review should make the draft better - friction with care, not performance theater or silent approval
+     - peer review should make the draft better
+     - friction with care, not performance theater or silent approval
+     - - dull work stays dull when nobody pushes - sharpening is peer review that improves the artifact, not the ego scoreboard. - level 1: like a training p
+     - - dull work stays dull when nobody pushes
+     - sharpening is peer review that improves the artifact, not the ego scoreboard
+     - training partner calling out foot placement
+     - friction on the move, not insults from the bleachers
+     - - level 2: sharpening review names what is weak and what would fix it
+     - same session, same respect
+     - - level 3: iron sharpens iron is the faith name
+     - proverbs friction between people who want each other sharper
+     - - level 4: deliberate practice needs outside eyes
+     - sharpening review is one scheduled pass before ship
+     - - level 5: give useful feedback is the delivery skill
+     - sharpening fails when the tone eats the truth
+     - - drafting in public invites sharpening early when rollback principle is still cheap
+     - dull work stays dull when nobody pushes - sharpening is peer review that improves the artifact, not the ego scoreboard. - level 1: like a training par
+     - dull work stays dull w
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<think><details><summary>Thought Process</summary>
+I'm noticing a mismatch in the Lazarus passage — the pool entry says "Jesus looked up" but the original text just says "He looked up," so there's no substring match. I need to adjust the wording to "Before He called Lazarus out, Jesus looked up and thanked the Father" to align with the pool entry, though I should verify there's no overlap with other entries first.
+
+For the public prayer line, the pool contains two separate phrases but the current version is missing "it" from "it points eyes to the Father who hears." Rewording to "Public prayer here is not performance theater - it points eyes to the Father who hears" would capture both pool entries and stay within the character limit. Now I should check the remaining lines.
+</details></think>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 /tmp/probe.py the-feynman-technique.md trust-god-for-today.md walk-by-the-spirit.md words-that-build-up.md 2&gt;&amp;1</summary>
+```bash
+python3 /tmp/probe.py the-feynman-technique.md trust-god-for-today.md walk-by-the-spirit.md words-that-build-up.md 2>&1
+```
+
+```
+
+======================================================================
+the-feynman-technique.md
+DESC: Teach the idea out loud to a blank page - wherever you stumble, you do not understand yet.
+  KC-DUP: Explain it simply to a blank page - the stumble marks the gap.
+     overlaps desc clause: ['blank page']
+  KC-DUP: Level 5: A blank page is the honest audience - no jargon to hide behind; the stumble is the syllabus, same honesty check as [[Synthesis as a Goal]] before you publish.
+     overlaps desc clause: ['blank page']
+  KC-DUP: A blank page is the honest audience - no jargon to hide behind.
+     overlaps desc clause: ['blank page']
+  ST[0] OK: Teach the idea out loud to a blank page.
+  ST[1] OK: Wherever you stumble, you do not understand yet.
+  ST[2] OK: Explain it simply to a blank page.
+  ST[3] OK: The stumble marks the gap.
+  POOL (clauses a shareable line may echo):
+     - teach the idea out loud to a blank page - wherever you stumble, you do not understand yet
+     - teach the idea out loud to
+     - wherever you stumble, you do not understand yet
+     - - explain it simply to a blank page - the stumble marks the gap. - level 1: like telling a younger kid how something works - when you cannot say it si
+     - younger kid how something works
+     - when you cannot say it simply, you do not know it yet
+     - - level 2: explain an idea out loud as if no smart words exist
+     - wherever you stall, that is the gap you still need to study
+     - - level 3: teaching-to-learn works because plain speech exposes holes that polished notes hide behind vocabulary
+     - - level 4: write one paragraph with no jargon
+     - mark every stall and study that slice before you link the note
+     - blank page is the honest audience
+     - the stumble is the syllabus, same honesty check as synthesis as
+     - |-------|--------|---------------------|
+     - one concrete image, ~20 words, almost no abstract words
+     - short analogy or story, plain words, no wikilinks
+     - 
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<think><details><summary>Thought Process</summary>
+I'm starting to review the actual files for edits, and I'm noticing something about the Feynman Technique entry—specifically the "blank page" description. When I split it on the dash, I get two parts: the main instruction about teaching the idea out loud, and then the clarification about where stumbling indicates a gap in understanding. But the probe seems to be flagging an overlap issue with the description clause that I need to work through.
+
+Let me check the notes_content.py file to see how the description clause parsing actually works.
+</details></think>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: rg -n &#39;def description_clause_parts|def key_concept_overlaps_description|def shareable_lines_overlap|def principle_line_pool|def shareable_line_from_principle|def gets_point_across|def normalize_shareable_line&#39; scripts/notes_content.py</summary>
+```bash
+rg -n 'def description_clause_parts|def key_concept_overlaps_description|def shareable_lines_overlap|def principle_line_pool|def shareable_line_from_principle|def gets_point_across|def normalize_shareable_line' scripts/notes_content.py
+```
+
+```
+375:def normalize_shareable_line(text: str) -> str:
+383:def shareable_lines_overlap(a: str, b: str) -> bool:
+402:def principle_line_pool(fm: dict) -> list[str]:
+533:def gets_point_across(line: str) -> bool:
+571:def description_clause_parts(desc: str) -> list[str]:
+598:def key_concept_overlaps_description(desc: str, kc: str) -> list[str]:
+664:def shareable_line_from_principle(line: str, fm: dict) -> bool:
+
+```
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<think><details><summary>Thought Process</summary>
+The `shareable_line_from_principle` function also matches when one string is a prefix of the other, so partial matches at the start count. For KC-DUP, I'm checking if lines overlap using `shareable_lines_overlap`, which looks for cases where the longer string starts or ends with the shorter one (minimum 10 characters), capturing KC bullets that begin, end, or contain description clauses.
+
+I'm tracing through a specific example with the Feynman principle where the description "Teach the idea out loud to a blank page - wherever you stumble..." gets split on the em-dash, but the probe output shows "blank page" as a clause fragment, which suggests there might be a wikilink or other markup affecting how the text is being parsed. I need to actually look at the file directly to understand what's happening with the description and how it's being parsed.
+</details></think>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-feynman-technique.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/secret-devotion.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<think><details><summary>Thought Process</summary>
+I'm working through how to parse the Feynman technique description by splitting on sentence boundaries and separators like dashes and semicolons, but I'm noticing the probe output seems truncated even though the full description is relatively short.
+</details></think>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 -c &#34;
+import sys; sys.path.insert(0,&#39;scripts&#39;)
+from notes_content import description_clause_parts
+d=&#39;Teach the idea out loud to a blank page - wherever you stumble, you do not understand yet.&#39;
+print(repr(description_clause_parts(d)))
+&#34;</summary>
+```bash
+python3 -c "
+import sys; sys.path.insert(0,'scripts')
+from notes_content import description_clause_parts
+d='Teach the idea out loud to a blank page - wherever you stumble, you do not understand yet.'
+print(repr(description_clause_parts(d)))
+"
+```
+
+```
+['teach the idea out loud to a blank page - wherever you stumble, you do not understand yet', 'teach the idea out loud to', 'blank page', 'wherever you stumble, you do not understand yet']
+
+```
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<think><details><summary>Thought Process</summary>
+I'm realizing the regex character class `[--–]` is actually a range from the hyphen-minus (U+002D) to the en-dash (U+2013), which captures a huge swath of characters including digits and letters—so the pattern would match " a " as a valid split point.
+
+For the Feynman technique, I need to either reword the description to avoid standalone single-character tokens surrounded by spaces, or remove "blank page" from the key concept bullets. If I change "to a blank page" to something like "to an empty page," the splitter won't trigger since "an" is two characters and the regex only matches single characters between whitespace.
+
+The tricky part is keeping the shareable thoughts consistent with the principle pool—if the description shifts from "blank page" to "empty page," the first shareable line should mirror that change. But then I'd have overlapping shareable lines that need careful checking. I'm weighing whether rewording the description is worth it, since "blank page" is really the core image of this note and appears in the bullets intentionally. I'm checking whether changing "a blank page" to "the blank page" resolves the duplication issue, and verifying that the updated statement still aligns with the principle by confirming the phrase appears in the description pool. The chunk splits correctly on the regex boundaries, so the substring check passes. ST[2] remains unchanged after the description update, and I'm adjusting ST[0] to match the new wording. The voice feels consistent — "Teach the idea out loud to the blank page" works fine.
+
+Now I'm verifying that the KC bullet doesn't get flagged after the description change. The description pool has no overlap with the bullet text, and the related bullets about the blank page as honest audience check out. I need to verify the remaining guidelines as well.
+
+Actually, I'm reconsidering the approach — should I just reword the three bullets to remove "blank page" entirely instead of changing the description? That would be three edits and lose the metaphor, whereas a one-word description fix is simpler and keeps the voice intact.
+
+Let me verify the logic: after changing "a" to "the" in the description, the normalized chunks would be "teach the idea out loud to the blank page". But checking against the pool — the full note text starts with "teach the idea out loud to the blank page - wherever..." which doesn't match the description chunk exactly, and the key_concept pool still contains the buggy "blank page" fragment from the regex split. So I do need to handle the ST[0] edit as well.
+
+Actually, wait — let me trace through this more carefully. The "blank page" substring appears in both the description and the key_concept pool, so the substring check would pass regardless. The minimal approach is to keep ST[0] unchanged since it already works, even if there's a minor voice inconsistency between "a blank page" and "the blank page". I'll stick with that.
+
+Now for the secret-devotion entry, I'm checking whether the Level 1 and Level 2 bullets contain the clause "give, pray, and fast for God to see, not for applause in the group chat." They do, so I need to reword them with a different angle. The Level 1 bullet should stay at the grade 2-3 concrete image level, so I'm reframing it as "Some good things you do stay quiet - God sees them, and that is the whole point" to avoid repeating that specific clause while keeping the meaning intact. I'm refining the Level 2 description to be more story-like and accessible — something about doing good in secret feeling pointless until you remember who it's really for. I need to make sure there are no contractions or wikilink issues in the key concept section, and that the description doesn't accidentally contain any of the problematic clause patterns I've been checking for.
+
+Looking at the supporting text lines, they're all pulling from valid sources and won't be affected by my rewrites. The level headers all follow the same "Level N" format, so there's no risk of duplicate opening words. Now I'm moving through the remaining files to apply the same refinement process.
+</details></think>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/self-control.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/selling-static-sites.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<think><details><summary>Thought Process</summary>
+I'm refining the first bullet point about self-control to lead with a clear claim and move the wikilink reference to a later point, keeping the focus on the core idea that this restraint comes from spiritual growth rather than personal merit. I'm checking whether "merit streak" survives the split logic after removing the wikilink — it does, since that phrase appears in both the pool and the target line. Now I need to address ST[2], which states the Fruits of the Spirit lists self-control but doesn't echo the principle itself; I'm looking for a way to reframe it using definition, boundary, or payoff angles, and I notice the pool has some good "move" language like "close the app, sleep on the reply, stick to the list" that could work better. The bare noun list check fails because each item has more than two words, so it's not formatted as a simple noun list. The phrase passes the other requirements—it's ten words, ends with a period, has no wiki links, and stays under the character limit. The entry already exists in the pool, so it qualifies. I'm wondering if it stands well enough on its own as a complete thought, though it feels a bit disconnected without more context.
+
+I could use the definition "Self-control is deliberate selection under pressure" from another level instead, but that would overlap with the definition angle I'm already using. Better to keep the four-angle structure: definition, boundary, move, and payoff. The "close the app" line works as the move, but rephrasing it as "Self-control looks like closing the app, sleeping on the reply, and sticking to the list" might read more naturally. I need to check if that revised version contains a pool entry that meets the minimum length requirement. I'll just run the linters iteratively to catch any issues. Now looking at the selling-static-sites entry—there's a Level 4 clause that overlaps with the description. The phrase "hosting is" appears in both the level text and the description clause, so I need to identify the exact offending clause by parsing the description properly.
+
+I can either reword the description to avoid "hosting is" as a clause, or adjust Level 4 itself. Rewording Level 4 to say "static hosting costs almost nothing" instead of "is commodity cheap" seems more surgical, but I should compute the actual description clauses first to see what other overlaps might exist before deciding on the best fix.
+</details></think>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/share-the-heavy-lift.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/sharpen-each-others-work.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<think><details><summary>Thought Process</summary>
+I'm working through an example about shared on-call responsibilities, where splitting primary and secondary duties before midnight prevented the typical crisis that hits after 2 a.m. — trying to rephrase it more naturally by removing the time abbreviation and focusing on how the shared load prevented the predictable meltdown.
+
+Now I'm checking whether a second example about naming the weight and assigning handles before a deadline turns into a crisis is actually drawn from the principle or if it's a separate statement, and I'm realizing I need to make it a contiguous span from the pool rather than mixing paraphrased and original text. Any substring of the flattened key_concept block will pass the validation, so I'm considering whether "Heavy lift sharing means naming the weight and who takes which handle before the deadline" works as a standalone statement, though it reads a bit awkwardly. I could rephrase the Level 2 bullet itself to something like "Name the weight and say who takes which handle before the deadline turns it into a crisis" to make the language flow better.
+
+That revised version pulls directly from the flattened chunk, avoids duplicating the description's core clauses about splitting early and shared weight beating late heroics, and "Name" as a starting word passes the fragment check since it's not a blocked conjunction. I'm also verifying that "name" qualifies as a punch verb, which it does.
+
+Now I'm working through the span fixes for the next two statements. The first one extracts the core bullet text about sharpening review and naming weaknesses in the same session with equal respect — that's 88 characters and ready. The second statement maps "Iron Sharpens Iron" as the faith name tied to Proverbs friction, and I'm pulling the contiguous span from the Level 3 bullet while flattening the wikilinks to plain text. Both the normalized line and pool entry match with the " - " preserved, and the structure checks out—the faith name section is under the character limit. Let me move on to reviewing the remaining files.
+</details></think>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/surface-bad-news-early.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/thank-father-at-lazarus.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<think><details><summary>Thought Process</summary>
+I'm working through how to phrase the connection between early surfacing and owning the error—trying to find language that doesn't make "Own the Error" sound like a formal title, while keeping the idea that you name the call and then fix the runbook together. I need to check whether ST[3] triggers the incomplete negation line validation by looking at the relevant section of the notes.
+</details></think>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/thank-father-for-revelation.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<think><details><summary>Thought Process</summary>
+I'm working through a biblical passage about how Jesus praises the Father for revealing divine wisdom to the humble rather than the learned, describing this as an inverted kingdom economy. I'm considering different ways to capture this concept in a span element, aiming for around 80 characters while keeping the text contiguous. I'm weighing whether to use the upside-down economy angle or shift to a "move" angle for ST[2]. The move option—"Thank God for understanding you did not earn before you teach what you received"—gives a distinct perspective from the definition and scene, but "childlike hearers" in the economy version feels a bit stiff. I'm leaning toward the move angle since it creates better separation across the four angles and keeps the voice plainer.
+</details></think>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/trust-god-for-today.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/walk-by-the-spirit.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<think><details><summary>Thought Process</summary>
+I'm running into a linting issue with a contraction in a wikilink target — the note is titled "Don't Worry" but the linter wants "Do not" instead. Since changing the link text would break the reference, I need to figure out if I can use wikilink alias syntax to keep the target intact while displaying the expanded form.
+</details></think>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/garden-voice-lint.py</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<think><details><summary>Thought Process</summary>
+I need to rework that bullet point to remove the wikilink that's triggering the contraction check — I can reframe it as something like "Matthew 6 keeps worry and bread in the same chapter - bread today, Father tomorrow" instead. The [[Don't Worry]] link will disappear from the key_concept, but since it's still in the relationships section, the graph connection stays intact.
+
+Now I'm wondering if removing that wikilink breaks any validation rules that require relationships to be mentioned in key_concept, so I should check what lint-notes-frontmatter actually validates. Alternatively, I could keep the wikilink if the note file has an alias without a contraction — like [[Do Not Worry]] instead of [[Don't Worry]]. Let me look at the note's title and aliases to see if that's an option.
+
+I'm also reviewing the other statements — the "Daily bread" one looks good with a minor fix to match the pool text exactly, and I'm checking the "Honest capacity" statement to see where it's cut off in the pool. I'm checking whether this line passes the completeness filters—it has enough words, ends with a period, starts capitalized, and contains the required pool entry about fantasy lists. But the garden-voice constraint flags it as a fragment since it lacks a main verb, which creates a tension between the technical checks and the stylistic requirement.
+
+I'm revising it to "Today's honest capacity beats a fantasy list borrowed from tomorrow's energy" to add that verb and make it read more naturally while still hitting all the validation marks. The other examples like the 2 a.m. anecdote and the daily bread prayer line are working well, so I'm keeping those as-is.
+
+Now I'm looking at the walk-by-the-spirit section and trying to decide whether to rewrite the Fruits of the Spirit statement to be more direct—something like "Love through self-control shows up when the walk is real - grown, not performed" instead of the current phrasing that feels a bit meta with the "hub" reference. I'm checking the new Level 4 bullet against the description clauses to make sure there's no duplication - the Christian life and willpower language don't appear in the new bullet, so that's clear. Now I'm working through ST[3] about grace and obedience, extracting the span that will work as a substring of the flattened content.
+
+I need to verify there's no overlap between the shareable thought lines themselves, then look at what the linting script actually checks for on these overlaps.
+</details></think>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/words-that-build-up.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/lint-notes-frontmatter.py",
+  "pattern": "shareable|overlap|130|wikilink"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/lint-notes-frontmatter.py",
+  "pattern": "shareable|overlap|130|wikilink",
+  "topFiles": [
+    {
+      "matchCount": 26,
+      "uri": "scripts/lint-notes-frontmatter.py"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 26
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-notes-frontmatter.py</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<think><details><summary>Thought Process</summary>
+I'm working through a validation check to ensure lines don't start with the first 45 characters of an example header, then examining how to properly frame the concept of "building up" as truth that helps rather than flattery, making sure the phrasing captures the distinction between genuine support and empty praise. I'm checking whether the Free Grace span works as a shareable quote—it's 96 characters, starts with "I" in first person, and is a clean substring of the original text. The overlap check with other selections passes, and I'm now validating the self-control statement to ensure it doesn't read like a bare list. The example reads well as a standalone note for self-control. Now I'm refining the wikilink placement in the self-control line—removing the inline reference to Fruits of the Spirit and consolidating it into a later bullet point that already mentions it, to keep the main definition cleaner.
+
+I need to verify that dropping "in the Fruits of the Spirit cluster" from the first line doesn't break the Gospel fruit validation, since the merit streak phrase should still anchor it through the pool entry. Now I'm moving through the remaining levels, starting with secret-devotion. I need to verify that Level 1's description clause doesn't appear in the bullet text — checking if "give, pray, and fast for god to see" or "not for applause in the group chat" show up, and they don't, so it passes. Let me work through the edits systematically by running the linters after making changes rather than checking each one manually. I'm adjusting the phrasing to reduce repetition across levels—changing Level 1 to "Some good things you do stay quiet" while keeping Level 2's "Some good belongs on stage" distinction, and confirming Level 5's statement about public versus hidden good remains unchanged. Then moving on to trim the first bullet in self-control.md and refine the line there.
+
+Now I'm working through selling-static-sites.md, updating Level 4 to emphasize that static hosting is cheap so the real value is in the craftsmanship and handoff, not inflated infrastructure costs. I'm analyzing the description clause to identify natural split points—looking for sentence boundaries, semicolons, and single-character words to break it into logical chunks. Finishing that sentence, the new Level 4 text passes the filter since none of those flagged phrases appear in it. I'm also verifying the other bullets still pass and confirming the voice is appropriately plain. The static hosting cost line remains unaffected. Now moving to the next file where I need to de-abbreviate an example and revise Level 2 to be more explicit about naming the weight and assigning responsibilities before deadlines create crises. Checking for overlaps between the sharpening statements and verifying the Proverbs reference only applies to the relationships context. Moving through the surface-bad-news-early file, confirming the call-naming statement meets word count and principle requirements.
+
+Now examining the thank-father-at-lazarus file — the statement about Jesus thanking the Father before calling Lazarus out has no overlap with other statements, and the follow-up about public prayer not being performance theater correctly extracts from the Free Grace principle chunk.
+
+For the thank-father-for-revelation file, the statement about thanking God for understanding you didn't earn before teaching what you received checks out as a substring match, hits the word count, uses a strong action verb, and doesn't overlap with other entries.
+
+Moving to the Feynman Technique file, I'm adjusting the description from "a blank page" to "the blank page" and verifying that the teaching clauses align with the bullet points about explaining simply and identifying where understanding breaks down. I'm checking whether the pool entry "blank page" still matches after the description change, and it does. For consistency, I should update ST[0] to use "the blank page" instead, which would make it a direct substring of the description and keep the voice aligned between the two versions.
+
+Now I'm verifying there's no overlap issue between ST[0] and ST[1] — the shorter one doesn't appear at the start or end of the longer one, so they can coexist without conflict.
+
+Looking at the trust-god file, I need to convert "2 a.m." to "two in the morning" in the examples, and I'm reconsidering the last bullet point under key_concept. Removing the [[Don't Worry]] wikilink would clean up the text, but I'm checking whether that creates a lint issue elsewhere since relationships still reference it. I could potentially use [[Do Not Worry]] as an alias instead to preserve the link while keeping the prose cleaner.
+
+Now I'm examining the contraction regex rules to see if "Today's" triggers the pattern—checking against the list of words that shouldn't have contractions, and it looks like "today" isn't included, so that possessive form should be fine. The substring checks out, so I'm moving on to verify the rewrites for walk-by-the-spirit.md and words-that-build-up.md, then I'll double-check the Don't Worry note.
+</details></think>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: rg -n &#39;^title:|^aliases:|^slug:&#39; content/english/notes/dont-worry.md 2&gt;/dev/null; echo &#34;---&#34;; rg -l &#34;Do Not Worry&#34; content/english/notes | head -5</summary>
+```bash
+rg -n '^title:|^aliases:|^slug:' content/english/notes/dont-worry.md 2>/dev/null; echo "---"; rg -l "Do Not Worry" content/english/notes | head -5
+```
+
+```
+2:title: "Don't Worry"
+46:slug: "dont-worry"
+52:aliases: ["do not worry", "sufficient unto the day", "dont worry"]
+---
+
+```
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<think><details><summary>Thought Process</summary>
+I'm checking whether wikilinks resolve through aliases in this repository, and I need to look at how the wikilink resolution works—likely through a Hugo partial or script that matches against titles, aliases, or slugs. Let me search for other notes that reference "Do Not Worry" to see if there's a pattern for how these links are handled.
+</details></think>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: rg -n &#39;Do Not Worry&#39; content/english/notes | head; echo &#34;=== resolver ===&#34;; ls scripts | rg -i &#39;wikilink|link&#39;</summary>
+```bash
+rg -n 'Do Not Worry' content/english/notes | head; echo "=== resolver ==="; ls scripts | rg -i 'wikilink|link'
+```
+
+```
+=== resolver ===
+lint-utility-wikilinks.py
+
+```
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<think><details><summary>Thought Process</summary>
+I'm checking whether there's an existing lint rule that flags orphaned relationships or wikilinks that don't appear in key concepts, since relying on alias resolution for the [[Do Not Worry]] wikilink feels risky without verification. Relationships can exist outside of key_concept, so I can safely remove the wikilink. I'll rewrite that last bullet to drop the contraction and keep the Matthew 6 context, then move forward with all the edits.
+</details></think>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+Now I'll make the edits, starting with the two key_concept duplication files.
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/secret-devotion.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/selling-static-sites.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-feynman-technique.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-feynman-technique.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/self-control.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/self-control.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<think><details><summary>Thought Process</summary>
+I need to clarify the note metadata rules — the shareable lines restriction doesn't apply to key concepts. Now moving on to check the self-control parameter for the second item.
+</details></think>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/self-control.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/share-the-heavy-lift.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/share-the-heavy-lift.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/share-the-heavy-lift.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/sharpen-each-others-work.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/surface-bad-news-early.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/thank-father-at-lazarus.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/thank-father-for-revelation.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+Now the trust, walk, and words notes.
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/trust-god-for-today.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/trust-god-for-today.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/trust-god-for-today.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/walk-by-the-spirit.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/walk-by-the-spirit.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/words-that-build-up.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="update_current_step"><details>
+<summary>Tool use: **update_current_step**</summary>
+An unknown error occurred
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: P=&#39;secret-devotion|self-control|selling-static-sites|share-the-heavy-lift|sharpen-each-others-work|surface-bad-news-early|thank-father-at-lazarus|thank-father-for-revelation|the-feynman-technique|trust-god-for-today|walk-by-the-spirit|words-that-build-up&#39;; echo &#34;=== FRONTMATTER ===&#34;; python3 scripts/lint-notes-frontmatter.py 2&gt;&amp;1 | rg &#34;$P&#34;; echo &#34;=== VOICE ===&#34;; python3 scripts/garden-voice-lint.py 2&gt;&amp;1 | rg &#34;$P&#34;; echo &#34;=== DONE ===&#34;</summary>
+```bash
+P='secret-devotion|self-control|selling-static-sites|share-the-heavy-lift|sharpen-each-others-work|surface-bad-news-early|thank-father-at-lazarus|thank-father-for-revelation|the-feynman-technique|trust-god-for-today|walk-by-the-spirit|words-that-build-up'; echo "=== FRONTMATTER ==="; python3 scripts/lint-notes-frontmatter.py 2>&1 | rg "$P"; echo "=== VOICE ==="; python3 scripts/garden-voice-lint.py 2>&1 | rg "$P"; echo "=== DONE ==="
+```
+
+```
+=== FRONTMATTER ===
+=== VOICE ===
+=== DONE ===
+
+```
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<think><details><summary>Thought Process</summary>
+I should verify that my edits didn't affect other notes' counts and that the total issue counts haven't grown elsewhere. Let me run the linters to check everything is working properly — I'll make sure I'm using plain hyphens rather than em dashes and verify the voice linter passes.
+</details></think>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: P=&#39;secret-devotion|self-control|selling-static-sites|share-the-heavy-lift|sharpen-each-others-work|surface-bad-news-early|thank-father-at-lazarus|thank-father-for-revelation|the-feynman-technique|trust-god-for-today|walk-by-the-spirit|words-that-build-up&#39;; python3 /tmp/probe.py secret-devotion.md self-control.md selling-static-sites.md share-the-heavy-lift.md sharpen-each-others-work.md surface-bad-news-early.md thank-father-at-lazarus.md thank-father-for-revelation.md the-feynman-technique.md trust-god-for-today.md walk-by-the-spirit.md words-that-build-up.md 2&gt;&amp;1 | rg &#39;KC-DUP|NOT-FROM|FRAGMENT|^===|^[a-z].*\.md$&#39;; echo &#34;=== git ===&#34;; git status --porcelain content/english/notes | rg &#34;$P&#34;</summary>
+```bash
+P='secret-devotion|self-control|selling-static-sites|share-the-heavy-lift|sharpen-each-others-work|surface-bad-news-early|thank-father-at-lazarus|thank-father-for-revelation|the-feynman-technique|trust-god-for-today|walk-by-the-spirit|words-that-build-up'; python3 /tmp/probe.py secret-devotion.md self-control.md selling-static-sites.md share-the-heavy-lift.md sharpen-each-others-work.md surface-bad-news-early.md thank-father-at-lazarus.md thank-father-for-revelation.md the-feynman-technique.md trust-god-for-today.md walk-by-the-spirit.md words-that-build-up.md 2>&1 | rg 'KC-DUP|NOT-FROM|FRAGMENT|^===|^[a-z].*\.md$'; echo "=== git ==="; git status --porcelain content/english/notes | rg "$P"
+```
+
+```
+======================================================================
+secret-devotion.md
+======================================================================
+self-control.md
+======================================================================
+selling-static-sites.md
+======================================================================
+share-the-heavy-lift.md
+======================================================================
+sharpen-each-others-work.md
+======================================================================
+surface-bad-news-early.md
+======================================================================
+thank-father-at-lazarus.md
+======================================================================
+thank-father-for-revelation.md
+======================================================================
+the-feynman-technique.md
+======================================================================
+trust-god-for-today.md
+======================================================================
+walk-by-the-spirit.md
+======================================================================
+words-that-build-up.md
+=== git ===
+ M content/english/notes/secret-devotion.md
+ M content/english/notes/self-control.md
+ M content/english/notes/selling-static-sites.md
+ M content/english/notes/share-the-heavy-lift.md
+ M content/english/notes/sharpen-each-others-work.md
+ M content/english/notes/surface-bad-news-early.md
+ M content/english/notes/thank-father-at-lazarus.md
+ M content/english/notes/thank-father-for-revelation.md
+ M content/english/notes/the-feynman-technique.md
+ M content/english/notes/trust-god-for-today.md
+ M content/english/notes/walk-by-the-spirit.md
+ M content/english/notes/words-that-build-up.md
+
+```
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<think><details><summary>Thought Process</summary>
+Running a grep scan across my 12 modified files to check for em/en dashes and verify the diff reads cleanly.
+</details></think>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: git diff -U0 -- content/english/notes | rg &#39;^[+-][^+-]&#39; ; echo &#34;=== dashes ===&#34;; rg -n &#39;[—–]&#39; content/english/notes/{secret-devotion,self-control,selling-static-sites,share-the-heavy-lift,sharpen-each-others-work,surface-bad-news-early,thank-father-at-lazarus,thank-father-for-revelation,the-feynman-technique,trust-god-for-today,walk-by-the-spirit,words-that-build-up}.md || echo &#34;no em/en dashes&#34;</summary>
+```bash
+git diff -U0 -- content/english/notes | rg '^[+-][^+-]' ; echo "=== dashes ==="; rg -n '[—–]' content/english/notes/{secret-devotion,self-control,selling-static-sites,share-the-heavy-lift,sharpen-each-others-work,surface-bad-news-early,thank-father-at-lazarus,thank-father-for-revelation,the-feynman-technique,trust-god-for-today,walk-by-the-spirit,words-that-build-up}.md || echo "no em/en dashes"
+```
+
+```
+-  - Level 2: Phone dead on the bus, so you write on the back of a receipt - same inbox rule, different surface.
++  - Level 2: Phone dead on the bus, so you write on the back of a receipt - the surface changed, the inbox did not.
+-  - "Under Free Grace, I bear burdens from love, not to earn standing."
+-  - "Load-sharing and gentle restoration belong in the same breath."
++  - "I bear burdens from love, not to earn standing or look holy."
++  - "Load-sharing and repair belong in the same breath."
+-  - type: contradicts
+-    wikilink: "[[Judge Not]]"
+-    reason: "when sidewalk commentary replaces hands on the load"
++  - type: contradicts
++    wikilink: "[[Judge Not]]"
++    reason: "when sidewalk commentary replaces hands on the load"
+-  - type: contradicts
+-    wikilink: "[[Ship It]]"
+-    reason: "when skip-rest hustle beats blocked refill"
++  - type: contradicts
++    wikilink: "[[Ship It]]"
++    reason: "when skip-rest hustle beats blocked refill"
+-  - "Three finished tasks beat twelve half-done ones at bedtime."
++  - "Three finished tasks beat twelve half-done ones that guilt-trip you at bedtime."
+-  - type: contradicts
+-    wikilink: "[[Compounding]]"
+-    reason: "when tomorrow's stack eats today's honest cap"
++  - type: contradicts
++    wikilink: "[[Compounding]]"
++    reason: "when tomorrow's stack eats today's honest cap"
+-  - Level 4: Apologize slower than you used to snap - growth after faith, not the entry fee; ordinary Tuesdays matter more than one emotional Sunday.
++  - Level 4: Apologize slower than you used to snap - ordinary Tuesdays matter more than one emotional Sunday.
+-  - Level 3: Client site pass-off names who publishes next before deposit - launch is not a guessing game when the model is priced upfront.
++  - Level 3: Client site pass-off names who publishes next before deposit - the model is priced in the quote, so launch week is not a scramble.
+-  - Before deposit, I name who publishes next and price the pass-off so launch is not a guessing game
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<think><details><summary>Thought Process</summary>
+The diff shows changes from parallel work by other agents on various files, and my own modifications to twelve files look good. I notice one agent changed a wiki link from `[[Don't Worry]]` to `[[Do not Worry]]`, which suggests they're standardizing the alias format.
+
+I'm wondering if I should match that convention for consistency across the garden, but since I removed the link entirely from my file, I need to verify how the wikilink resolver handles aliases first. The alias in dont-worry.md is lowercase "do not worry," and Hugo's resolution is probably case-insensitive, but I want to check the render hook to confirm how wikilinks actually resolve before deciding whether to add it back.
+</details></think>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+Path does not exist: /home/jorap/Documents/GitHub/jorap.com/layouts/_default/_markup
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": true,
+  "outputMode": "files_with_matches",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/layouts",
+  "pattern": "wikilink"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "files_with_matches",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/layouts",
+  "pattern": "wikilink",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/notes/sort-by-connections.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/notes/backlinks-index.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/notes/note-card.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/notes/backlinks.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/notes/build-issues-report.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/notes/index-has-body-wikilinks.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/notes/issues.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/notes/random-unrelated-notes.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/notes/assembled-content.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/notes/backlinks.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/notes/single.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/notes/relationship-types.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/notes/collect-note-issues.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/notes/is-utility-page.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/notes/build-hub-cluster.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/notes/graph.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/notes/outgoing-links.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/notes/pages.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/notes/search-index-fields.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/notes/backlink-item.html"
+    }
+  ],
+  "totalFiles": 26,
+  "totalMatches": 26
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/resolve-target.html</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/link-registry.html</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<think><details><summary>Thought Process</summary>
+Aliases resolve when lowercased, so `[[Do not Worry]]` will match the key "do not worry" and keep the link intact. I can restore the reference in trust-god-for-today.md using the alias without contractions: "- [[Do not Worry]] in Matthew 6 is the same chapter - bread today, Father tomorrow." This maintains the graph connection while staying consistent with the sibling note's style.
+
+Now I'm running through the linting checks: the contraction regex won't flag "Do not Worry," the bullet structure stays intact with the bible shortcode on line 1, the key_concept_overlaps_description rule passes since I'm only changing "Don't" to "Do not," and no shareable lines depend on this bullet. Ready to apply the changes.
+</details></think>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+Aliases resolve in the wikilink registry, so I can keep that link instead of dropping it.
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/trust-god-for-today.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: P=&#39;secret-devotion|self-control|selling-static-sites|share-the-heavy-lift|sharpen-each-others-work|surface-bad-news-early|thank-father-at-lazarus|thank-father-for-revelation|the-feynman-technique|trust-god-for-today|walk-by-the-spirit|words-that-build-up&#39;; echo &#34;=== FRONTMATTER ===&#34;; python3 scripts/lint-notes-frontmatter.py 2&gt;&amp;1 | rg &#34;$P&#34;; echo &#34;=== VOICE ===&#34;; python3 scripts/garden-voice-lint.py 2&gt;&amp;1 | rg &#34;$P&#34;; echo &#34;=== END ===&#34;</summary>
+```bash
+P='secret-devotion|self-control|selling-static-sites|share-the-heavy-lift|sharpen-each-others-work|surface-bad-news-early|thank-father-at-lazarus|thank-father-for-revelation|the-feynman-technique|trust-god-for-today|walk-by-the-spirit|words-that-build-up'; echo "=== FRONTMATTER ==="; python3 scripts/lint-notes-frontmatter.py 2>&1 | rg "$P"; echo "=== VOICE ==="; python3 scripts/garden-voice-lint.py 2>&1 | rg "$P"; echo "=== END ==="
+```
+
+```
+=== FRONTMATTER ===
+=== VOICE ===
+=== END ===
+
+```
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="update_current_step"><details>
+<summary>Tool use: **update_current_step**</summary>
+An unknown error occurred
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+Both linters are silent for all 12 files. Here is what changed, one line per file.
+
+- **secret-devotion.md** - rewrote Level 1 and Level 2 so neither repeats the description clause "give, pray, and fast for God to see"; Level 1 is now the plain quiet-good image, Level 2 asks who you want watching.
+- **self-control.md** - pulled the `[[Fruits of the Spirit]]` wikilink out of key_concept line 1 (now a plain claim about Spirit-grown restraint) and moved the cluster mention into the later hub bullet; replaced shareable[2] with the move line "Close the app, sleep on the reply, stick to the list."
+- **selling-static-sites.md** - Level 4 now reads "static hosting costs pennies" so it no longer carries the description clause "hosting is".
+- **share-the-heavy-lift.md** - de-abbreviated examples[0] ("2 a.m." became "middle-of-the-night") so it is one sentence, and rewrote Level 2 plus shareable[2] together as "Name the weight and say who takes which handle before the deadline turns it into a crisis."
+- **sharpen-each-others-work.md** - shareable[1] and [2] now echo the Level 2 and Level 3 bullets verbatim (same session/same respect; Iron Sharpens Iron as the Proverbs friction line).
+- **surface-bad-news-early.md** - shareable[2] became the actual move from Level 2: "Name your call, then fix the runbook together."
+- **thank-father-at-lazarus.md** - shareable[2] now matches the opening bullet exactly ("Jesus looked up"), and shareable[3] flipped to the note's own order: not performance theater, it points eyes to the Father who hears.
+- **thank-father-for-revelation.md** - shareable[2] swapped to the Level 4 move about thanking God for understanding you did not earn before you teach it.
+- **the-feynman-technique.md** - changed "a blank page" to "the blank page" in the description (the clause splitter was cutting "blank page" loose and flagging three bullets), and matched shareable[0] to it.
+- **trust-god-for-today.md** - the contraction went away by linking the alias `[[Do not Worry]]`, which resolves through the note registry so the link survives; examples[0] now says "two in the morning"; shareable[2] and [3] echo the daily-bread-prayer and borrowed-energy wording from the bullets.
+- **walk-by-the-spirit.md** - reshaped Level 3 so the fruit claim reads as one span, then took shareable[2] from it; shareable[3] now follows the Level 4 order (does not buy heaven, answers grace already received).
+- **words-that-build-up.md** - shareable[2] carries the full Level 2 line including the timing clause, and shareable[3] speaks in first person from the Level 3 free-grace bullet.
+
+Faith notes kept the free grace framing (works answer grace, never buy it) and the verse commentary stayed straight. No relationships, cards, titles, tags, or dates were touched, nothing outside the 12 files was edited, and nothing was staged or committed.
+
+## Session close
+- Fixed: 12 notes now clear both `lint-notes-frontmatter.py` and `garden-voice-lint.py`.
+- Encode: none.
+- Open: clean for these files; note that `description_clause_parts` splits on any single character between `-` and `–` surrounded by spaces, so a bare "a" in a description creates spurious short clauses.

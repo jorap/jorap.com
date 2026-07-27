@@ -1802,7 +1802,7 @@ The revealBtn and shuffleBtn updates should be inside the render() function rath
 
 _**Agent (auto-low)**_
 
-Added **Grade 1 quick quiz** to the randomizer - 200 questions, ordered easiest to hardest, every answer 3–5 letters.
+Added **Grade 1 quick quiz** to the randomizer — 200 questions, ordered easiest to hardest, every answer 3–5 letters.
 
 ### Collection: `grade-1-quiz`
 - **200 questions** in `data/randomizer.yaml`
@@ -1814,15 +1814,15 @@ Added **Grade 1 quick quiz** to the randomizer - 200 questions, ordered easiest 
 On `/randomizer/`, pick **Grade 1 quick quiz**:
 1. Read the question aloud
 2. Tap **Show answer** to reveal
-3. Tap **Next** to move in order (no shuffle - difficulty stays sequential)
+3. Tap **Next** to move in order (no shuffle — difficulty stays sequential)
 
 ### Files touched
-- `data/randomizer.yaml` - new collection
-- `scripts/build-grade1-quiz.py` - generator + validation (re-run only if you need to rebuild)
-- `assets/js/randomizer.js` - new `quiz` mode
-- `layouts/randomizer.html` - answer display + reveal button
-- `assets/css/custom.css` - answer styling
-- `content/english/pages/randomizer.md` - copy updated to six decks
+- `data/randomizer.yaml` — new collection
+- `scripts/build-grade1-quiz.py` — generator + validation (re-run only if you need to rebuild)
+- `assets/js/randomizer.js` — new `quiz` mode
+- `layouts/randomizer.html` — answer display + reveal button
+- `assets/css/custom.css` — answer styling
+- `content/english/pages/randomizer.md` — copy updated to six decks
 
 Hugo build completed successfully. Open `/randomizer/?set=grade-1-quiz` to try it.
 
@@ -2766,10 +2766,10 @@ _**Agent (auto-low)**_
 Audited and rebuilt the full deck. Summary of changes:
 
 ### Verification (all 200 questions)
-- **Removed ambiguous questions** - rhyme puzzles, US-only references (July fireworks, pennies), hemisphere-specific seasons, letter-name riddles (zed/zee), and questions with multiple valid answers (spider/web, selfie/phone/camera, swing/slide, icing/frosting, etc.)
-- **Tightened wording** - each question now includes enough detail for one answer (e.g. “What animal says cluck?” → `hen`, not “farm bird wakes up early”)
-- **Checked every answer** - all 3–5 letters, alphabetic, factually correct
-- **Removed duplicates** - no repeated question text; trimmed near-duplicate animal-sound items at the end
+- **Removed ambiguous questions** — rhyme puzzles, US-only references (July fireworks, pennies), hemisphere-specific seasons, letter-name riddles (zed/zee), and questions with multiple valid answers (spider/web, selfie/phone/camera, swing/slide, icing/frosting, etc.)
+- **Tightened wording** — each question now includes enough detail for one answer (e.g. “What animal says cluck?” → `hen`, not “farm bird wakes up early”)
+- **Checked every answer** — all 3–5 letters, alphabetic, factually correct
+- **Removed duplicates** — no repeated question text; trimmed near-duplicate animal-sound items at the end
 
 ### Random order
 - Quiz mode now **shuffles randomly** like the other decks (no more sequential “Next”)
@@ -2815,9 +2815,9 @@ _**Agent (auto-low)**_
 
 The grade-1 quiz deck is updated and ready.
 
-**200 questions** - each reviewed for a single, clear answer (3–5 letters), with US-only, ambiguous, and duplicate items removed.
+**200 questions** — each reviewed for a single, clear answer (3–5 letters), with US-only, ambiguous, and duplicate items removed.
 
-**Random shuffle** - quiz mode now picks questions at random; tap **Show answer**, then **Shuffle** for the next one.
+**Random shuffle** — quiz mode now picks questions at random; tap **Show answer**, then **Shuffle** for the next one.
 
 **Regenerate anytime:** `python3 scripts/build-grade1-quiz.py`
 
@@ -3662,7 +3662,7 @@ The goose question is rewritten as "What bird flies in a V?" The lamp question b
 
 _**Agent (auto-low)**_
 
-Simplifying wording across the deck-shorter sentences and grade-1 vocabulary.
+Simplifying wording across the deck—shorter sentences and grade-1 vocabulary.
 
 
 _**Agent (auto-low)**_
@@ -3907,10 +3907,10 @@ _**Agent (auto-low)**_
 
 Simplified **60+ questions** so a first grader can follow them when read aloud. Main changes:
 
-- **Shorter sentences** - e.g. “What furniture do you sleep on?” → “What do you sleep on?”
-- **Everyday words** - dropped adult terms like *organ*, *furniture*, *fastener*, *tropical*, *orbit*, *graceful*, *limb*, *mammal*, *device*
-- **Kid phrasing** - e.g. “What goes ding-dong at the door?”, “What rides on tracks and says choo-choo?”
-- **Clearer prompts** - e.g. “What do you drink when you are thirsty?” instead of “What clear liquid do you drink?”
+- **Shorter sentences** — e.g. “What furniture do you sleep on?” → “What do you sleep on?”
+- **Everyday words** — dropped adult terms like *organ*, *furniture*, *fastener*, *tropical*, *orbit*, *graceful*, *limb*, *mammal*, *device*
+- **Kid phrasing** — e.g. “What goes ding-dong at the door?”, “What rides on tracks and says choo-choo?”
+- **Clearer prompts** — e.g. “What do you drink when you are thirsty?” instead of “What clear liquid do you drink?”
 
 Answers are unchanged (still 3–5 letters, grade-1 words). YAML is regenerated and validation still passes.
 
@@ -3930,7 +3930,7 @@ The user is asking about the mango question in the grade 1 quiz.
 
 _**Agent (auto-low)**_
 
-Mangoes are often yellow when ripe, not orange - I'll find that question and fix it.
+Mangoes are often yellow when ripe, not orange — I'll find that question and fix it.
 
 
 _**Agent (auto-low)**_
@@ -4005,7 +4005,7 @@ Wrote grade-1-quiz (200 items) to /home/jorap/Documents/GitHub/jorap.com/data/ra
 
 _**Agent (auto-low)**_
 
-Yes - ripe mangoes are usually **yellow** (sometimes green or red-orange), so calling them orange was wrong.
+Yes — ripe mangoes are usually **yellow** (sometimes green or red-orange), so calling them orange was wrong.
 
 Updated the question to:
 
@@ -4883,7 +4883,7 @@ Easy 50 is confirmed. Medium has 112 entries; 12 need removal.
 
 Hard has 42 entries and needs 8 more. The 12 excess medium entries will be trimmed, including duplicates like book, knife, lion, and zebra. Eight hardest items will be moved from medium to hard.
 
-Duplicate entries in hard-lion and zebra-were mistakenly added and will be removed. Hard now has 40 items and still needs 10 more. Medium will drop two duplicates and possibly softer entries to send harder ones to hard.
+Duplicate entries in hard—lion and zebra—were mistakenly added and will be removed. Hard now has 40 items and still needs 10 more. Medium will drop two duplicates and possibly softer entries to send harder ones to hard.
 
 Medium will be trimmed to 100 entries. The 10 remaining items to remove are book, one duplicate knife, and lion. The 8 hardest questions will be moved to hard, including onion cry, octopus, aunt/uncle, chart, tack, ruler, brain, spider, planets, seasons, star, circle, goose, rice, shelf, daisy, shop, cart, ship, and hive.
 
@@ -5009,7 +5009,7 @@ _**Agent (auto-low)**_
 
 _**Agent (auto-low)**_
 
-Medium is two short and there's a duplicate onion question - I'll fix the tier lists and regenerate.
+Medium is two short and there's a duplicate onion question — I'll fix the tier lists and regenerate.
 
 
 _**Agent (auto-low)**_
@@ -5026,7 +5026,7 @@ Removing the duplicate onion entry from HARD (line 184). Keeping it in MEDIUM.
 
 Medium needs 2 more questions. Hard needs 1. Total reaches 200. Searching for grade-1 clues with 3–5 letter answers.
 
-Grepping the original selection to avoid duplicates. Found two color clues-stop signs and fire trucks-that may fit medium or hard.
+Grepping the original selection to avoid duplicates. Found two color clues—stop signs and fire trucks—that may fit medium or hard.
 
 Sun is likely too easy for medium. Jam and bus are duplicates. Scanning the original YAML against the current lists to find valid new clues.
 
@@ -5293,7 +5293,7 @@ Adding underline placeholders for hints in the grade-1 quiz.
 
 _**Agent (auto-low)**_
 
-Underline placeholders for answer hints - I'll check how quiz mode renders questions and answers first.
+Underline placeholders for answer hints — I'll check how quiz mode renders questions and answers first.
 
 
 _**Agent (auto-low)**_
@@ -5715,7 +5715,7 @@ Implementation complete. Underline placeholders for hints are now in place.
 
 _**Agent (auto-low)**_
 
-Quiz mode now shows spaced underscore hints before reveal - one `_` per letter in the answer.
+Quiz mode now shows spaced underscore hints before reveal — one `_` per letter in the answer.
 
 **Behavior**
 - Before reveal: e.g. `cat` → `_ _ _`, `water` → `_ _ _ _ _`
@@ -5723,9 +5723,9 @@ Quiz mode now shows spaced underscore hints before reveal - one `_` per letter i
 - **Shuffle** resets to hints
 
 **Touched**
-- `layouts/randomizer.html` - hint element
-- `assets/js/randomizer.js` - `answerPlaceholder()`, live + offline render
-- `assets/css/custom.css` - muted hint styling (large on grade-1 card)
+- `layouts/randomizer.html` — hint element
+- `assets/js/randomizer.js` — `answerPlaceholder()`, live + offline render
+- `assets/css/custom.css` — muted hint styling (large on grade-1 card)
 
 ---
 
@@ -5743,7 +5743,7 @@ Underline placeholders should match the answer font size.
 
 _**Agent (auto-low)**_
 
-Underscore placeholders should match the revealed answer typography - checking current hint and answer styles.
+Underscore placeholders should match the revealed answer typography — checking current hint and answer styles.
 
 
 _**Agent (auto-low)**_
@@ -6182,7 +6182,7 @@ The CSS now sets `width: 1ch` with `border-bottom` and `vertical-align: baseline
 
 _**Agent (auto-low)**_
 
-Transparent letters are leaking the answer - switching to empty underline slots with no characters in the DOM.
+Transparent letters are leaking the answer — switching to empty underline slots with no characters in the DOM.
 
 
 _**Agent (auto-low)**_
@@ -6245,7 +6245,7 @@ Removing text-transform from the hint element, since it contains no text. Letter
 
 _**Agent (auto-low)**_
 
-Fixed. Hints no longer put answer letters in the DOM - only empty slots with underlines, one per letter.
+Fixed. Hints no longer put answer letters in the DOM — only empty slots with underlines, one per letter.
 
 **Before:** transparent letters (still visible in some browsers / on select)  
 **Now:** empty `1ch`-wide bars, same font size as the answer, spaced to match
@@ -6268,7 +6268,7 @@ The user cannot see the underline hints.
 
 _**Agent (auto-low)**_
 
-Empty underline slots may have zero height - checking hint rendering and CSS.
+Empty underline slots may have zero height — checking hint rendering and CSS.
 
 
 _**Agent (auto-low)**_
@@ -6411,7 +6411,7 @@ Switched to a `::after` pseudo-element with an explicit `border-bottom` instead 
 
 _**Agent (auto-low)**_
 
-Empty slots have no height, so borders collapse - switching to pseudo-element underlines with explicit dimensions.
+Empty slots have no height, so borders collapse — switching to pseudo-element underlines with explicit dimensions.
 
 
 _**Agent (auto-low)**_
@@ -7157,4 +7157,4 @@ Fixed. Empty slots had no height, so the underlines never drew.
 - Hint row uses full-width flex layout with `min-height: 1em`
 - Slightly darker underline color (`#6b6358`)
 
-Hard refresh the page (`Ctrl+Shift+R`). You should see muted bars under the question - e.g. three for `cat`, five for `water` - before tapping **Show answer**.
+Hard refresh the page (`Ctrl+Shift+R`). You should see muted bars under the question — e.g. three for `cat`, five for `water` — before tapping **Show answer**.

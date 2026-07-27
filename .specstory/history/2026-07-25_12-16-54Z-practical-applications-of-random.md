@@ -174,3 +174,169 @@ Directory: **``** (2 files)
 | `layouts/notes/random-duo.html` |
 | `content/english/notes/random-duo.md` |
 </details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Reviewing the core module's connection prompt and layout to understand the full workflow.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/assets/js",
+  "pattern": "connectionPrompt"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/assets/js",
+  "pattern": "connectionPrompt",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": "assets/js/notes-random-single.js"
+    },
+    {
+      "matchCount": 2,
+      "uri": "assets/js/notes-random-duo.js"
+    },
+    {
+      "matchCount": 4,
+      "uri": "assets/js/notes-random-core.js"
+    }
+  ],
+  "totalFiles": 3,
+  "totalMatches": 8
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/random-duo.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Checking the notes-random-core documentation for context on random duo.
+
+Examining JavaScript files to identify suggested AI synthesis prompts.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-random-core.js</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+Glob pattern "**/*" matches every file and is not allowed. Use a more specific glob or no glob.
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Reviewing the output format and prior discussions for practical use cases.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-random-core.js</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-wise-builder.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The user's "The Wise Builder" file already demonstrates a PKM mirror pattern. Its key_concept links to Collector's Fallacy and Creative Output.
+
+Random Duo could force serendipity to discover missing wikilinks between unrelated notes. It would juxtapose two notes, show the shortest path, and generate an AI synthesis prompt.
+
+AI prompts can generate sibling atomic note stubs and relationship rows to scaffold new notes or frontmatter updates. Cross-domain synthesis pairs unrelated domains like PKM with faith or ethics. MOC and hub building benefit by pairing theme-related notes; the shortest path reveals existing garden connections. Random pair skimming can warm up connections before flashcard review sessions.
+
+Intentional pairing lets users select specific notes via dropdowns instead of shuffling. Weekly garden hygiene uses random shuffles to spark new relationships or stub notes. Study and discipleship pair gospel notes with eternal principles to find obedience bridges. Contradiction checking compares existing paths against relationship types like extends versus contradicts. Unexpected AI-generated links can become blog post angles.
+</details></think>
+
+_**Agent (auto-low)**_
+
+**Random Duo** (`/notes/random-duo/`) is a forced-serendipity tool: two garden notes side by side, optional shortest wikilink path between them, and a copy-paste AI prompt to turn the juxtaposition into links, stubs, and actions.
+
+## What it’s for
+
+The core idea from your meta note: put two claims next to each other so you notice connections you missed when reading one topic at a time. “Same category” doesn’t count — you want a real link worth adding.
+
+## Practical uses
+
+**1. Find missing wikilinks**  
+Shuffle until something clicks. If the pair feels related but no path shows up, that’s a gap to close — add a `relationships` row or a `[[wikilink]]` in `key_concept`. Your open note is a good example: *The Wise Builder* already mirrors PKM via [[The Collector's Fallacy]] and [[Creative Output]]; Duo is how you discover those bridges in notes that don’t have them yet.
+
+**2. Cross-domain synthesis (faith ↔ PKM ↔ systems)**  
+The AI prompt is built for this. Paste it when you get e.g. a gospel note + a productivity note and want:
+- core relationship in plain language  
+- unexpected links with a concrete move  
+- new atomic note stubs  
+- `relationships` rows ready to paste into frontmatter  
+
+**3. Intentional pairing, not just random**  
+Use the left/right dropdowns when you already have two notes in mind (“how do these connect?”). Shuffle only the side that’s wrong. Shortest path shows whether the garden already links them and how many hops away they are.
+
+**4. Garden maintenance loop**  
+Pair with [[Backlinks]] and [[Issues]]:
+- Duo → spot a weak or missing link  
+- Add relationship / wikilink  
+- Issues catches structure problems; Backlinks shows if the new link landed  
+
+**5. Note drafting**  
+When a pair sparks but no note exists yet, use section 3 of the prompt (“Sibling Atomic Note Stubs”) as scaffolding for `hugo new` + frontmatter, then wire it with section 4’s relationship rows.
+
+**6. Review / thinking warm-up**  
+Before flashcard review or a writing session: one or two shuffles to resurface old ideas and loosen retrieval — same pool as Featured Random on `/notes/`, but with full note bodies and synthesis tooling.
+
+**7. Contradiction vs extension checks**  
+Two notes that feel in tension? Read them together, then decide whether the honest row is `extends` or `contradicts`. The path bar helps: direct link = you may already have an opinion in the graph; no path = the tension might be unwritten.
+
+**8. Blog or sermon angles**  
+A strong “3 Unexpected Links” block from the prompt is often enough outline for a post — especially when the connection is non-obvious (hear-and-do obedience + collector’s fallacy, etc.).
+
+## When to shuffle again
+
+Your own rule applies: if the pair doesn’t spark a link worth making, hit **Shuffle** (or shuffle one side). Forced serendipity only works if you’re willing to reject boring pairs.
+
+## Quick workflow
+
+1. Open `/notes/random-duo/`  
+2. Shuffle (or pick two notes on purpose)  
+3. Read both columns; check shortest path if shown  
+4. Copy prompt → paste in chat  
+5. Ship one thing: a relationship row, a new note stub, or one wikilink in `key_concept`  
+
+If you want, we can run one shuffle mentally with *The Wise Builder* locked on one side and walk through what a useful second note might be.

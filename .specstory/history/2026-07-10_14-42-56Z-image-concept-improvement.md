@@ -635,46 +635,46 @@ The current mouse-wheel-click image uses a neon sci-fi style that clashes with t
 
 The concept centers on a warm desk scene with a real mouse wheel, clipboard, and sticky notes. The visual arc shows three right-click steps collapsing into one wheel press, ending with a stack of background tabs. Cross-platform compatibility appears subtly without logos. A generation prompt and file path will accompany the concept.
 
-The scene will use a 3/4 angle over a wooden desk. A browser window shows a long row of tabs across the top. A mouse sits in the foreground with its scroll wheel visibly pressed down. A yellow sticky note carries a struck-through "right-click → new tab" line and an arrow pointing to the wheel. A second note reads "Win · Mac · Linux - same click." Warm afternoon light replaces the neon glow. Props like a red pen and coffee mug echo the sibling images.
+The scene will use a 3/4 angle over a wooden desk. A browser window shows a long row of tabs across the top. A mouse sits in the foreground with its scroll wheel visibly pressed down. A yellow sticky note carries a struck-through "right-click → new tab" line and an arrow pointing to the wheel. A second note reads "Win · Mac · Linux — same click." Warm afternoon light replaces the neon glow. Props like a red pen and coffee mug echo the sibling images.
 
 A faintly ghosted context menu on screen will mark the slow path. The mouse and finger on the wheel must stay large and clear for thumbnail readability. Sticky text should be two to three words maximum. The image should use a 3:2 aspect ratio such as 1536 by 1024.
 </details></think>
 
 _**Agent (auto-low)**_
 
-The current `feature-mouse-wheel-click.jpg` doesn’t match where your newer blog art landed. It’s a dark neon product shot with floating OS logos - fine as generic tech stock, but it misses the post’s actual hook and looks nothing like `static-vs-cms.jpg`, `drupal-to-wp.jpg`, or `open-source.jpg`.
+The current `feature-mouse-wheel-click.jpg` doesn’t match where your newer blog art landed. It’s a dark neon product shot with floating OS logos — fine as generic tech stock, but it misses the post’s actual hook and looks nothing like `static-vs-cms.jpg`, `drupal-to-wp.jpg`, or `open-source.jpg`.
 
-Your post isn’t really “look, a mouse.” It’s: **people take the slow right-click path hundreds of times a day, and the faster button is already under their finger - same on every OS.**
+Your post isn’t really “look, a mouse.” It’s: **people take the slow right-click path hundreds of times a day, and the faster button is already under their finger — same on every OS.**
 
 ---
 
 ## Recommended concept: **“Press the wheel, not the menu”**
 
-A warm desk scene in the same family as your recent feature images - wooden surface, natural light, handwritten note, real hardware.
+A warm desk scene in the same family as your recent feature images — wooden surface, natural light, handwritten note, real hardware.
 
 ### Scene
 - **3/4 overhead** of a desk during a research session (article or search results on screen, lots of clickable links).
-- **Browser tab bar** crowded with tabs - the visual payoff of wheel-clicking links into the background.
+- **Browser tab bar** crowded with tabs — the visual payoff of wheel-clicking links into the background.
 - **Mouse in the foreground**, index finger **pressing the scroll wheel down** (slight depression visible). Ordinary Logitech-style mouse, not a glowing sci-fi prop.
 - **Yellow sticky note** on the desk, handwritten in pen:
   - Struck through: `right-click → new tab`
   - Below, with a small arrow pointing at the wheel: **`press the wheel`**
-- Optional tiny second sticky in the corner: **`Win · Mac · Linux`** - same gesture, no hologram logos.
+- Optional tiny second sticky in the corner: **`Win · Mac · Linux`** — same gesture, no hologram logos.
 - Props for continuity: red pen, coffee mug edge, shallow depth of field.
 
 ### On screen (subtle)
-- A **faded context menu** on the laptop - “Open link in new tab” visible but ghosted, like the path you’re leaving behind.
+- A **faded context menu** on the laptop — “Open link in new tab” visible but ghosted, like the path you’re leaving behind.
 - Current page still in focus; new tabs stacking above. Shows *what the gesture does*, not just *where the button is*.
 
 ### Mood
 - Afternoon workspace, not cyberpunk.
-- Practical tip energy - the “I noticed this at the desk next to mine” vibe from the post opener.
+- Practical tip energy — the “I noticed this at the desk next to mine” vibe from the post opener.
 
 ### Why this works
 | Current image | New concept |
 |---|---|
 | Neon glow, floating logos | Handwritten note, real desk |
-| “Cool mouse button” | “Slow path vs fast path” - the post’s thesis |
+| “Cool mouse button” | “Slow path vs fast path” — the post’s thesis |
 | Generic tech hero | Matches your newer blog art language |
 | OS logos as decoration | Cross-platform as a quiet sticky, not a billboard |
 
@@ -689,15 +689,15 @@ Warm lifestyle desk photograph, 3:2 aspect ratio, shallow depth of field. Wooden
 ```
 
 **Output path:** `assets/images/feature-mouse-wheel-click.jpg`  
-**Frontmatter:** already points to `/images/feature-mouse-wheel-click.jpg` - no markdown change needed.
+**Frontmatter:** already points to `/images/feature-mouse-wheel-click.jpg` — no markdown change needed.
 
 ---
 
 ## Alternatives (if you want a different angle)
 
-1. **Split sticky** - two stickies side by side: “3 clicks” (right-click path) vs “1 press” (wheel). More literal, very readable at card size.
-2. **Tab stack close-up** - monitor fills frame, finger on wheel at bottom edge, tabs multiplying across the top. Less desk props, more “browser workflow” focus.
-3. **Bookmark folder** - wheel-click on a bookmark folder opening a morning-routine tab burst. Better if you want to highlight that section instead of link-opening.
+1. **Split sticky** — two stickies side by side: “3 clicks” (right-click path) vs “1 press” (wheel). More literal, very readable at card size.
+2. **Tab stack close-up** — monitor fills frame, finger on wheel at bottom edge, tabs multiplying across the top. Less desk props, more “browser workflow” focus.
+3. **Bookmark folder** — wheel-click on a bookmark folder opening a morning-routine tab burst. Better if you want to highlight that section instead of link-opening.
 
 ---
 

@@ -194,7 +194,7 @@ Parameters:
   "caseInsensitive": false,
   "glob": "*.md",
   "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
-  "pattern": "-"
+  "pattern": "—"
 }
 ```
 Additional data:
@@ -204,7 +204,7 @@ Additional data:
   "isPruned": true,
   "outputMode": "content",
   "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
-  "pattern": "-",
+  "pattern": "—",
   "topFiles": [],
   "totalFiles": 0,
   "totalMatches": 0
@@ -352,7 +352,7 @@ Checking the skill's length and reviewing patterns for recipe voice drift, worsh
 
 The skill is 156 lines, well under the 500-line limit. Recommendations include adding triggers for ideas.jorap.com expansions, recipe posts, tracker pages, and draft posts. Missing content types to cover include living documents, tutorials, and blog templates.
 
-Worship content may need a distinct voice treatment. Scope boundaries should protect code blocks, data tables, legal pages, and factual accuracy. Edit severity tiers-light touch, rewrite, or expand outline-would let users choose their desired level of intervention. The reference post map also needs updating with hugoplate-theme-review, set-it-forget-it-arroz-caldo, alex-eala-pro-career-tracker, and __make-ai-articles-more-human.md.
+Worship content may need a distinct voice treatment. Scope boundaries should protect code blocks, data tables, legal pages, and factual accuracy. Edit severity tiers—light touch, rewrite, or expand outline—would let users choose their desired level of intervention. The reference post map also needs updating with hugoplate-theme-review, set-it-forget-it-arroz-caldo, alex-eala-pro-career-tracker, and __make-ai-articles-more-human.md.
 
 Sports, Filipino, and worship categories are still missing from the reference map.
 
@@ -404,7 +404,7 @@ I read `jorap-voice` end to end, compared it against published posts and several
 
 ## What’s working well
 
-**The primary test is excellent.** “Would a reader think a real person typed this after using the thing?” matches how the best posts read - earphones, desktop/laptop, worship pads, Shopee tips.
+**The primary test is excellent.** “Would a reader think a real person typed this after using the thing?” matches how the best posts read — earphones, desktop/laptop, worship pads, Shopee tips.
 
 **Voice pillars align with real writing.** Experiential, opinionated, practical, honest, grounded, understated humor all show up in published work:
 
@@ -414,11 +414,11 @@ I've been through a lot of wireless earphones. True wireless buds, neckbands, sp
 Over time, the list of things I actually care about has gotten shorter and pickier. Specs stopped mattering. Brand stopped mattering. What mattered was whether I'd still be wearing them at the end of the day.
 ```
 
-**The de-AI pass is actionable.** The three questions per paragraph are better than a generic “make it more human” instruction. `examples.md` is well split out - good progressive disclosure.
+**The de-AI pass is actionable.** The three questions per paragraph are better than a generic “make it more human” instruction. `examples.md` is well split out — good progressive disclosure.
 
 **Site-specific draft workflow is valuable.** The `__` prefix, `slug`, and publish steps are exactly the kind of thing agents wouldn’t infer.
 
-**The “do not” list matches actual conventions.** No emoji, no engagement bait, no em dashes - all consistent with the corpus.
+**The “do not” list matches actual conventions.** No emoji, no engagement bait, no em dashes — all consistent with the corpus.
 
 ---
 
@@ -431,7 +431,7 @@ Right now the skill treats most posts the same. The site has distinct shapes tha
 | Type | Reference post | Voice applies where |
 |------|----------------|---------------------|
 | Gear / reviews | `what-i-look-for-in-wireless-earphones.md`, `__extension-cord.md` | Full prose |
-| How-to / tutorial | `how-i-built-joraps-world.md` | Intro, explanations, asides - **not** code blocks |
+| How-to / tutorial | `how-i-built-joraps-world.md` | Intro, explanations, asides — **not** code blocks |
 | Tips / local | `__shopee-tips.md`, Facebook favorites post | Full prose |
 | Theme / product review | `hugoplate-theme-review.md` | Full prose; feature lists OK when scannable |
 | Recipe | `set-it-forget-it-arroz-caldo.md` | Section intros + “why this method”; steps stay instructional |
@@ -440,7 +440,7 @@ Right now the skill treats most posts the same. The site has distinct shapes tha
 
 A short routing table at the top of the workflow (like `update-alex-eala-tracker` does) would stop the agent from humanizing tournament tables or rewriting `hugo version` commands.
 
-### 2. Define scope boundaries - what not to touch
+### 2. Define scope boundaries — what not to touch
 
 Missing today and important for edits:
 
@@ -469,7 +469,7 @@ These appear repeatedly in drafts but aren’t in `SKILL.md`:
 > **TL;DR**: I lost my old PHP hosting and a chunk of my work with it. After a weekend of fumbling around, I landed on Hugo + GitHub + Cloudflare Pages, and the result is genuinely better than what I was paying $12/month for. Here's exactly how I did it - including the parts I messed up.
 ```
 
-**ideas.jorap.com footers** - two variants:
+**ideas.jorap.com footers** — two variants:
 - `*Idea captured from [ideas.jorap.com](https://ideas.jorap.com/).*`
 - `*Expanded from [Title](https://ideas.jorap.com/) on [ideas.jorap.com](https://ideas.jorap.com/).*`
 
@@ -480,7 +480,7 @@ These appear repeatedly in drafts but aren’t in `SKILL.md`:
 Current defaults are good but thin. Add:
 
 - Reviews: `hugoplate-theme-review.md`
-- Recipes: `set-it-forget-it-arroz-caldo.md` (also as a “what to fix” example - it has food-blog filler the skill would flag)
+- Recipes: `set-it-forget-it-arroz-caldo.md` (also as a “what to fix” example — it has food-blog filler the skill would flag)
 - Worship: `power-of-worship-pads-enhancing-your-worship-experience.md`
 - Local/PH: `__shopee-tips.md`
 - Meta/de-AI: `__make-ai-articles-more-human.md` (companion to this skill)
@@ -509,7 +509,7 @@ The recipe section is one paragraph. Older posts like arroz caldo still have phr
 
 ### 8. Add a minimal frontmatter template
 
-Agents often need to create drafts from scratch. A 10-line template with required fields (`title`, `meta_title`, `description`, `date`, `image`, `categories`, `author: "JoRap"`, `tags`, `draft`, optional `slug`) would reduce guesswork. Note: tags are generous in this site - that’s fine, not spam.
+Agents often need to create drafts from scratch. A 10-line template with required fields (`title`, `meta_title`, `description`, `date`, `image`, `categories`, `author: "JoRap"`, `tags`, `draft`, optional `slug`) would reduce guesswork. Note: tags are generous in this site — that’s fine, not spam.
 
 ### 9. Fold in the “cut 20%” step from your own meta post
 
@@ -521,7 +521,7 @@ That’s a better workflow step 3 than jumping straight to voice check. Link tha
 
 ### 10. Clarify hyphen rules
 
-The skill bans em dashes (`-`). Drafts sometimes use en dashes in ranges (`10–15 feet` in `__extension-cord.md`). Add: **ranges use a plain hyphen** (`10-15 feet`) for consistency.
+The skill bans em dashes (`—`). Drafts sometimes use en dashes in ranges (`10–15 feet` in `__extension-cord.md`). Add: **ranges use a plain hyphen** (`10-15 feet`) for consistency.
 
 ### 11. Filipino / local context guidance
 
@@ -539,15 +539,15 @@ The AI-tells list in `SKILL.md` overlaps heavily with `examples.md`. Consider ke
 
 The checklist is good but binary. One extra line helps:
 
-> If 3+ items fail in a section, rewrite the section from one real memory - don’t polish.
+> If 3+ items fail in a section, rewrite the section from one real memory — don’t polish.
 
 ### 14. Cross-link sibling skills
 
 At the bottom of `SKILL.md`:
 
-- `hugo-template-guidance` - layout, shortcodes, frontmatter quirks
-- `update-alex-eala-tracker` - tracker voice + data rules
-- `jorap-voice/examples.md` - anti-patterns
+- `hugo-template-guidance` — layout, shortcodes, frontmatter quirks
+- `update-alex-eala-tracker` — tracker voice + data rules
+- `jorap-voice/examples.md` — anti-patterns
 
 ---
 
@@ -576,15 +576,15 @@ If you want to implement, these two blocks would give the most bang for the buck
 ```markdown
 ## Edit intensity
 
-- **Polish** - de-AI changed paragraphs only
-- **Rewrite** - full de-AI pass on the draft
-- **Expand** - outline → prose; keep section order; `draft: true`; `__` filename
+- **Polish** — de-AI changed paragraphs only
+- **Rewrite** — full de-AI pass on the draft
+- **Expand** — outline → prose; keep section order; `draft: true`; `__` filename
 ```
 
 ---
 
 ## Bottom line
 
-The skill already captures JoRap’s voice accurately. The main gap isn’t *what* the voice is - it’s *when and how much* to apply it across different post types on this site. Adding routing, scope boundaries, edit modes, and the `ideas.jorap.com`/TL;DR conventions would make it much more reliable in practice.
+The skill already captures JoRap’s voice accurately. The main gap isn’t *what* the voice is — it’s *when and how much* to apply it across different post types on this site. Adding routing, scope boundaries, edit modes, and the `ideas.jorap.com`/TL;DR conventions would make it much more reliable in practice.
 
 Want me to implement these changes in `SKILL.md` and `examples.md`? I can do a focused pass that adds routing + boundaries without bloating the file.

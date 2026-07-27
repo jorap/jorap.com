@@ -616,4 +616,363 @@ _**Agent (composer-2.5-fast)**_
 
 <think><details><summary>Thought Process</summary>
 Beginning the thorough audit.
+
+Systematically checking ten specific style rules across all drafts. Starting with __hugo-go-templates.md; its frontmatter and opening both read as personal and authentic.
+
+__hugo-go-templates.md shows a formatting artifact: doubled blank lines and a missing `---` separator before the final closing paragraph around lines 77–78. Its H2 headings mostly retain personality, though one reads slightly manual. A single line at line 47 uses generic imperative phrasing. The parallel bullets at lines 69–72 are code examples rather than flat drone. Still checking for summary sandwiches.
+
+__hugo-go-templates.md is LIGHT POLISH. The closing paragraph slightly restates earlier content.
+
+__hugo-page-bundles.md is LIGHT POLISH. Line 81 uses second person. Line 76 uses "navigate," which is literal. The closing lacks a `---` separator.
+
+__hugo-page-bundles.md is LIGHT POLISH. Line 79 opens the closing with a summary-like phrase. The draft is otherwise solid.
+
+__hugo-shortcodes.md is LIGHT POLISH. Line 85 uses dev jargon. The bold labels at lines 37–41 form a parallel drone. The closing paragraph lacks a `---` separator.
+
+__hugo-static-site-generator.md is LIGHT POLISH. The closing paragraph lacks a `---` separator. Two H2 headings are flat and manual. One line omits specific detail required by the instructions.
+
+__hugo-static-site-generator.md is confirmed LIGHT POLISH. The closing paragraph begins with a summary-like opener. The frontmatter metadata is acceptable.
+
+__native-hugo-taxonomies.md is LIGHT POLISH. The H2 heading "categories vs tags" reads as manual. The closing paragraph lacks a `---` separator. The parallel bullets around lines 78–84 are being checked.
+
+__native-hugo-taxonomies.md is confirmed LIGHT POLISH. The closing paragraph is a generic wrap-up. The frontmatter description is acceptable.
+
+__markdown-deep-dive.md is now under review. Its meta_title reads as SEO-heavy. The H2 headings are strong and retain personality.
+
+__markdown-deep-dive.md is LIGHT POLISH. Three bold adjectives at lines 78–80 form a parallel bullet drone. Line 82 restates the title and creates a summary sandwich. Line 84 uses direct-address advice. The closing paragraph lacks a `---` separator.
+
+__markdown-formatting.md is LIGHT POLISH. Line 68 uses corporate no-subject voice. Three H2 headings are flat and manual. The closing paragraph lacks a `---` separator. Line 71 uses jargon abbreviation. The frontmatter description is acceptable.
+
+__sveltia-cms.md is now under review.
+
+__sveltia-cms.md is LIGHT POLISH. The closing paragraph lacks a `---` separator. Line 65 opens the closing with a summary-like phrase. The H2 "Git stays source of truth" reads as manual. Direct-address advice is acceptable for this genre.
+
+__tailwind-css-v4.md is now under review. It has the known formatting artifact: doubled blank lines and a missing `---` separator before the final closing paragraph around lines 67–71. The H2 "Build pipeline coupling (Hugo + assets)" is slightly manual.
+
+__tailwind-css-v4.md is confirmed LIGHT POLISH. Direct-address advice appears at lines 21 and 58. The H2 "What readers never see" retains personality. The frontmatter metadata is acceptable.
+
+__obsidian-vs-hugo.md is now under review. It ends abruptly at line 58 without a closing paragraph. The H2 headings carry good personality. Direct-address advice appears at line 50. The frontmatter is solid.
+
+Reconsidering __obsidian-vs-hugo.md: the closing line 58 lands on a strong take, so the verdict may shift from LIGHT POLISH to CLEAN. Re-examining __hugo-static-site-generator.md for the slop gate rule—specifically whether its H2 sections include concrete failures or friction, since "Speed at build and browse" reads as a generic benefits list. Also flagging __hugo-go-templates.md line 47 as a potential AI tell.
+
+Line 40 in __markdown-formatting.md uses imperative advice. The style guide permits direct address for advice, so "Readers should" is flagged as the real problem. __hugo-go-templates.md line 47 is generic imperative without "I". Now verifying the parallel bold-label pattern in __hugo-shortcodes.md.
+
+__hugo-page-bundles.md line 79 repeats the closing announcement. __sveltia-cms.md line 65 does the same. For __hugo-static-site-generator.md, the flat H2 "Speed at build and browse" should be replaced with a punchy fact drawn from the draft itself, such as "Thousands of pages in seconds, nothing to patch."
+
+__hugo-static-site-generator.md line 36 is stronger than the earlier flat heading. The draft itself offers a punchy alternative: "When the posts are in Git, you're holding the deed."
+
+__markdown-formatting.md lines 47–49 are manual. The draft contains concrete rules already: lists for checklists, tables for comparisons, prose for takes. One bold phrase per section, with a `---` between sections.
+
+__hugo-shortcodes.md line 41 is also manual.
+
+__hugo-shortcodes.md line 41 should use the draft’s own concrete example: “One file in layouts/shortcodes/” with the actual file path. __tailwind-css-v4.md line 56 already states the simpler truth, so the manual H2 can collapse to “Hugo and Tailwind have to agree.” __native-hugo-taxonomies.md line 47 uses lowercase “categories,” which feels off. __sveltia-cms.md line 65 should drop the corporate “Git stays source of truth” and instead cite the draft’s own example: “CMS commits like you would, Cloudflare still builds.”
+
+__sveltia-cms.md line 65 should read "The CMS still commits to the repo" or "No database appears." Every draft opens with first-person; __obsidian-vs-hugo.md leads with "I ran," while __markdown-deep-dive.md line 22 opens with a dictionary-style definition before shifting to personal experience. No draft closes with "hope this helps" or "in conclusion."
+
+__hugo-go-templates.md, __hugo-page-bundles.md, __hugo-shortcodes.md, __hugo-static-site-generator.md, and __native-hugo-taxonomies.md each contain doubled blank lines around lines 75–79. Currency is absent from all drafts.
+
+__obsidian-vs-hugo.md is CLEAN on format. The closing paragraph sits inside the last section, so no orphan closing exists.
+
+__markdown-deep-dive.md line 72 ends with a `---` separator, and the following closing paragraph lacks one. This confirms the missing `---` artifact at the end of that draft.
+
+__markdown-deep-dive.md does not have an orphan closing paragraph. Its final closing paragraph is embedded within the last section, separated by only a single blank line rather than a `---` divider. The orphaned
 </details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "__{hugo-go-templates,hugo-page-bundles,hugo-shortcodes,hugo-static-site-generator,native-hugo-taxonomies,markdown-deep-dive,markdown-formatting,sveltia-cms,tailwind-css-v4,obsidian-vs-hugo}.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "\\b(While |That said|With that in mind|At the end of the day|It's worth|important to remember|plays a key|In this |Here's everything|When it comes to)\\b"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "\\b(While |That said|With that in mind|At the end of the day|It's worth|important to remember|plays a key|In this |Here's everything|When it comes to)\\b",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "__{hugo-go-templates,hugo-page-bundles,hugo-shortcodes,hugo-static-site-generator,native-hugo-taxonomies,markdown-deep-dive,markdown-formatting,sveltia-cms,tailwind-css-v4,obsidian-vs-hugo}.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "^\\*\\*[^*]+\\*\\* -"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "^\\*\\*[^*]+\\*\\* -",
+  "topFiles": [
+    {
+      "matchCount": 3,
+      "uri": "content/english/blog/__hugo-shortcodes.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 3
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "__{hugo-go-templates,hugo-page-bundles,hugo-shortcodes,hugo-static-site-generator,native-hugo-taxonomies,markdown-deep-dive,markdown-formatting,sveltia-cms,tailwind-css-v4,obsidian-vs-hugo}.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "^-\\s+\\*\\*"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "^-\\s+\\*\\*",
+  "topFiles": [
+    {
+      "matchCount": 3,
+      "uri": "content/english/blog/__markdown-deep-dive.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 3
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Checking for overused terms like "functionality" and "utilization".
+
+No drafts need deep rewrite. Most are clean or light-polish. The hugo-go-templates H2 looks flat. The markdown-formatting file needs the most work. All other findings are minor.
+
+The "holding the deed" metaphor in __hugo-static-site-generator is slightly written-to-impress but acceptable. Meta descriptions across all four drafts are clean and free of SEO stuffing.
+
+__markdown-deep-dive’s meta title is slightly grand. __hugo-go-templates line 47 lacks first-person. All other drafts are clean.
+
+__native-hugo-taxonomies line 56 uses an instructional "You can add" phrase. __markdown-formatting lines 54–58 contain three parallel bold labels—Lists, Tables, Prose—that share the same first word, creating a parallel-label drone.
+
+__obsidian-vs-hugo line 26 is a solid metaphor. Titles containing "Deep Dive" in __markdown-deep-dive and __hugo-shortcodes may feel SEO-stuffed. __hugo-static-site-generator’s “Speed at build and browse” section lacks first-person and a concrete failure example; it reads as generic benefit prose.
+
+__hugo-static-site-generator lines 41–43 lack first-person and a concrete failure example. The “trade” line is punchy but generic. Verdicts are being compiled now.
+
+All ten drafts now have verdicts. __hugo-page-bundles, __hugo-shortcodes, __hugo-static-site-generator, __native-hugo-taxonomies, __markdown-deep-dive, and __markdown-formatting are all LIGHT POLISH. __tailwind-css-v4 and __obsidian-vs-hugo are CLEAN.
+
+__sveltia-cms is LIGHT POLISH. __tailwind-css-v4 is LIGHT POLISH. __obsidian-vs-hugo is CLEAN. __markdown-formatting remains LIGHT POLISH despite its UX jargon and multiple flat H2s.
+
+Exact line numbers are being verified. __hugo-go-templates line 47 lacks first-person. Lines 76–77 and 77–79 show doubled blank lines and a missing `---` before the closing paragraph. __hugo-page-bundles line 79 is a bold closing statement. Lines 77–78 show doubled blank lines.
+
+Line 68 in __hugo-page-bundles is direct-address advice rather than corporate jargon. __hugo-shortcodes lines 83–84 show doubled blank lines and a missing `---` before the closing paragraph. __hugo-static-site-generator line 51 lacks a concrete failure example; the author must supply the specific lesson. __hugo-static-site-generator lines 74–75 also show doubled blank lines.
+
+__hugo-go-templates line 22 is borderline definitional but acceptable. The opener in __hugo-go-templates is personal enough. __sveltia-cms line 54 is fine. Now scanning for summary-sandwich violations.
+
+__hugo-go-templates line 77 and __hugo-shortcodes lines 85–87 are mild summary-sandwich violations. __hugo-go-templates line 79 restates the lazy-path point. __hugo-shortcodes line 87 repeats the DRY layer thesis. __sveltia-cms line 65 is a summary-sandwich. __hugo-static-site-generator line 76 is a summary-sandwich. __markdown-formatting line 68 is corporate voice. __sveltia-cms line 65 is a summary-sandwich. __hugo-static-site-generator line 76 is a summary-sandwich.
+
+__hugo-shortcodes line 82 uses third-person generic roles and corporate impersonal phrasing. The report is now being finalized.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="update_current_step"><details>
+<summary>Tool use: **update_current_step**</summary>
+An unknown error occurred
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+The audit report is ready.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+Voice audit complete. Calibrated against `how-i-built-jorap-notes.md` and the jorap-voice skill. No em/en dashes, currency amounts, or hard-block phrases (`users should`, `it is recommended`, `Furthermore`, etc.) anywhere in the ten drafts.
+
+---
+
+## `__hugo-go-templates.md` — **LIGHT POLISH**
+
+| Line | Quote | Rule | Suggested replacement |
+|------|-------|------|----------------------|
+| 47 | "Name things the way Hugo expects. Fighting the lookup order means duplicate layouts and confusion." | Missing first-person / no-subject advice | "I name things the way Hugo expects now. Fighting the lookup order meant duplicate layouts and confusion for me." |
+| 76–77 | (double blank line after line 74) | Formatting artifact | Delete one blank line. |
+| 77–79 | Closing block after last `---` with no separator | Missing `---` before closing | Add `---` before line 77. |
+
+**Frontmatter:** CLEAN.
+
+**Verdict notes:** Strongest draft in the batch. Voice, headings, and opener all calibrate well.
+
+---
+
+## `__hugo-page-bundles.md` — **LIGHT POLISH**
+
+| Line | Quote | Rule | Suggested replacement |
+|------|-------|------|----------------------|
+| 77–78 | (double blank before closing paragraphs) | Formatting artifact | Delete one blank line. |
+| 79 | "Page bundles are **colocate what ships together.**" | Summary sandwich (announce thesis, then restate) | Cut line 79; open with line 80: "I haven't moved the whole blog over - most posts are still one file." |
+
+**Frontmatter:** CLEAN.
+
+---
+
+## `__hugo-shortcodes.md` — **LIGHT POLISH**
+
+| Line | Quote | Rule | Suggested replacement |
+|------|-------|------|----------------------|
+| 37–41 | "**Image shortcode** - …" / "**YouTube / Spotify** - …" / "**TOC** - …" | Parallel bold-label drone (3+ same shape) | "I lean on three shortcodes here: image (Facebook walkthroughs, blueprint diagrams), YouTube/Spotify (DNPAP song resources page), and TOC on long template posts." |
+| 47 | `## Custom shortcode anatomy` | Flat/manual H2 | `## One file in layouts/shortcodes/` (from line 49) |
+| 82 | "Markdown writers keep writing; theme maintainers keep one template." | Corporate/no-subject voice | "I keep writing Markdown; I fix one template when embed markup changes." |
+| 83–84 | (double blank before closing) | Formatting artifact | Delete one blank line; add `---` before line 85. |
+
+**Frontmatter:** CLEAN.
+
+---
+
+## `__hugo-static-site-generator.md` — **LIGHT POLISH**
+
+| Line | Quote | Rule | Suggested replacement |
+|------|-------|------|----------------------|
+| 39 | `## Speed at build and browse` | Flat/manual H2 | `## Thousands of pages in seconds, nothing to patch` (from lines 41–43) |
+| 47 | `## Content as files in Git` | Flat/manual H2 | `## When the posts are in Git, you're holding the deed` (from line 51) |
+| 51 | "I learned that lesson the expensive way once." | Lacks specific detail (author must supply) | Keep the line; add the actual loss/hosting story when you have it - the file only gestures at it via the link in line 33. |
+| 41–43 | "Hugo builds thousands of pages in seconds on a laptop. Served pages are plain files on a CDN. No WordPress plugin stack waiting to break on a security update." | Missing first-person in body section | "Hugo builds thousands of pages in seconds on my laptop. Served pages are plain files on a CDN. I don't have a WordPress plugin stack waiting to break on a security update." |
+| 74–75 | (double blank before closing) | Formatting artifact | Delete one blank line; add `---` before line 76. |
+| 76 | "Hugo fits **personal publishing with technical comfort:**" | Summary sandwich opener | Cut line 76; start closing with line 78: "When it fits, the workflow is push and forget. That's the feature I sell - including to myself." |
+
+**Frontmatter:** CLEAN.
+
+---
+
+## `__native-hugo-taxonomies.md` — **LIGHT POLISH**
+
+| Line | Quote | Rule | Suggested replacement |
+|------|-------|------|----------------------|
+| 42 | `## categories vs tags (how I split them)` | Flat/manual H2 (lowercase reads like docs) | `## Categories vs tags - how I split them` |
+| 78–79 | (double blank before closing) | Formatting artifact | Delete one blank line; add `---` before line 80. |
+| 80–84 | "Native Hugo taxonomies organize the **public** site. My private wiki can be messier - wikilinks, backlinks, whatever." / "Published taxonomy should be intentional. Hugo makes grouping free. Curation is still work." | Weak/generic closing (restates section without a landed pick) | "I'll keep categories under a dozen and tags short. Hugo makes grouping free; I still have to curate what ships." |
+
+**Frontmatter:** CLEAN.
+
+---
+
+## `__markdown-deep-dive.md` — **LIGHT POLISH**
+
+| Line | Quote | Rule | Suggested replacement |
+|------|-------|------|----------------------|
+| 3 | `meta_title: "Markdown Deep Dive - The Plain-Text Layer Under Everything"` | SEO-stuffed / bot-written meta | `meta_title: "Markdown Deep Dive - What I Actually Use Beyond Bold and Bullets"` (from line 5 description) |
+| 78–80 | "- **Diffable** in Git - …" / "- **Portable** - …" / "- **Durable** - …" | Parallel bullet drone (3 same shape) | "Plain text diffs cleanly in Git, moves hosts without export wizards, and stays readable in twenty years without a proprietary app." |
+| 82 | "Markdown deep dive, for me, meant mastering the boring basics and code fences." | Summary sandwich (restates title/section) | Delete line 82; keep lines 84 or merge: "If you're on Hugo, learn frontmatter and shortcodes next. The boring basics and code fences are the whole middle." |
+
+**Frontmatter `description`:** CLEAN.
+
+---
+
+## `__markdown-formatting.md` — **LIGHT POLISH**
+
+| Line | Quote | Rule | Suggested replacement |
+|------|-------|------|----------------------|
+| 52 | `## Lists vs tables vs prose` | Flat/manual H2 | `## Checklists get lists, takes stay prose` (from lines 54–58) |
+| 54–58 | "**Lists** for checklists…" / "**Tables** for comparisons…" / "**Prose** for arguments…" | Parallel bold-label drone | "I use lists for checklists and gear picks, tables when columns matter, prose when the point is a take - like the Marvel Snap post." |
+| 62 | `## Bold, rules, and code` | Flat/manual H2 | `## One bold phrase, not bold everything` (from line 64) |
+| 68 | "Readers should know what's copy-pasteable." | Corporate/no-subject voice | "I mark what's copy-pasteable with backticks and fences." |
+| 71 | "Markdown formatting is UX." | Written-to-impress / jargon | "Markdown formatting is how the post reads on a phone at 11 PM." (from line 73) |
+| 69–70 | (double blank before closing) | Formatting artifact | Delete one blank line; add `---` before line 71. |
+
+**Frontmatter:** CLEAN.
+
+---
+
+## `__sveltia-cms.md` — **LIGHT POLISH**
+
+| Line | Quote | Rule | Suggested replacement |
+|------|-------|------|----------------------|
+| 33 | `## Git stays source of truth` | Flat/corporate H2 | `## The CMS still commits to the repo` (from lines 35–37) |
+| 63–64 | (double blank before closing) | Formatting artifact | Delete one blank line; add `---` before line 65. |
+| 65 | "Sveltia CMS solves the **Hugo accessibility gap** for non-technical editors." | Summary sandwich / jargon opener | Cut line 65; open with line 67: "You might not need it. Your collaborator might." |
+
+**Frontmatter:** CLEAN.
+
+---
+
+## `__tailwind-css-v4.md` — **LIGHT POLISH**
+
+| Line | Quote | Rule | Suggested replacement |
+|------|-------|------|----------------------|
+| 54 | `## Build pipeline coupling (Hugo + assets)` | Flat/manual H2 | `## Hugo and Tailwind have to agree` (from line 56) |
+| 67–68 | (double blank before closing paragraphs) | Formatting artifact (known) | Delete one blank line; add `---` before line 69. |
+
+**Frontmatter:** CLEAN.
+
+---
+
+## `__obsidian-vs-hugo.md` — **CLEAN**
+
+No actionable violations under the ten rules. First-person throughout, H2s have personality, closing lands on a take ("Think private, ship public"), no formatting artifacts, frontmatter reads human.
+
+**Optional nit (not flagged as violation):** Line 50 uses direct "You don't need…" advice, which matches the calibration post's second-person fit-check sections.
+
+---
+
+## Cross-batch summary
+
+| File | Verdict |
+|------|---------|
+| `__hugo-go-templates.md` | LIGHT POLISH |
+| `__hugo-page-bundles.md` | LIGHT POLISH |
+| `__hugo-shortcodes.md` | LIGHT POLISH |
+| `__hugo-static-site-generator.md` | LIGHT POLISH |
+| `__native-hugo-taxonomies.md` | LIGHT POLISH |
+| `__markdown-deep-dive.md` | LIGHT POLISH |
+| `__markdown-formatting.md` | LIGHT POLISH |
+| `__sveltia-cms.md` | LIGHT POLISH |
+| `__tailwind-css-v4.md` | LIGHT POLISH |
+| `__obsidian-vs-hugo.md` | CLEAN |
+
+**Recurring pattern (9/10 files):** orphan closing paragraphs after the last `---`, often preceded by a doubled blank line. Fix is mechanical: one blank line, insert `---` before the closing block.
+
+**No DEEP REWRITE warranted** under prose-only scope - voice is largely on-calibration; issues are headings, parallel list shapes, one corporate phrase, summary closers, and formatting.

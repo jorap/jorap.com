@@ -612,15 +612,15 @@ _**Agent (default)**_
 Done. The title suffix is now handled in the SEO partial.
 
 **`layouts/_partials/basic-seo.html`**
-- **Home page** - uses `meta_title` as-is (or falls back to `site.Title`)
-- **All other pages** - builds the title from `meta_title`, `title`, or the page name, then appends ` | JoRap Notes` automatically
+- **Home page** — uses `meta_title` as-is (or falls back to `site.Title`)
+- **All other pages** — builds the title from `meta_title`, `title`, or the page name, then appends ` | JoRap Notes` automatically
 - Pages that already include the suffix are left unchanged (no doubling)
 
-**Archetypes** - removed the manual ` | JoRap Notes` from `meta_title` in `default.md` and `notes.md`, since new content gets it from the template.
+**Archetypes** — removed the manual ` | JoRap Notes` from `meta_title` in `default.md` and `notes.md`, since new content gets it from the template.
 
 Verified output:
 - Home: `JoRap Notes | Ideas, execution, and good sense, without the noise.`
 - Note: `Slow Productivity - Fewer Projects, Deeper Notes | JoRap Notes`
 - Blog: `How I Built JoRap Notes: ... | JoRap Notes`
 
-You can drop ` | JoRap Notes` from any existing `meta_title` fields when you touch those files - it’s optional cleanup, not required.
+You can drop ` | JoRap Notes` from any existing `meta_title` fields when you touch those files — it’s optional cleanup, not required.

@@ -1566,7 +1566,7 @@ The write logic duplicates frontmatter because `fm` already contains the inner c
 
 _**Agent (default)**_
 
-The script duplicated frontmatter - I'll fix that across the affected notes.
+The script duplicated frontmatter — I'll fix that across the affected notes.
 
 
 _**Agent (default)**_
@@ -1966,7 +1966,7 @@ All notes in the garden are now smart and distilled.
 
 ### What changed
 
-**64 notes marked `status: evergreen`** - they were already distilled in content but defaulted to "Seedling" in the UI because `status` wasn't set. They now show as Evergreen on `/notes/` and in status badges.
+**64 notes marked `status: evergreen`** — they were already distilled in content but defaulted to "Seedling" in the UI because `status` wasn't set. They now show as Evergreen on `/notes/` and in status badges.
 
 **7 notes normalized to the `**Title** = definition` opener:**
 

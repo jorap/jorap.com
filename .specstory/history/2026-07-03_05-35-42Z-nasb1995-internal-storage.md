@@ -954,13 +954,13 @@ No environment variable patterns exist in the scripts.
 
 _**Agent (auto-low)**_
 
-Yes - with one important licensing constraint, and your garden is already well inside the safe zone.
+Yes — with one important licensing constraint, and your garden is already well inside the safe zone.
 
 ## What you have now
 
 There’s no Bible text in the repo. Notes cite references in `key_concept` (e.g. Matthew 22:37–38) and paraphrase; scripts like `migrate-description-verses.py` only move refs around, they don’t fetch wording.
 
-Your faith notes reference about **45 passages (~248 verses)** - far under Lockman’s **1,000-verse** limit for electronic storage without a separate license.
+Your faith notes reference about **45 passages (~248 verses)** — far under Lockman’s **1,000-verse** limit for electronic storage without a separate license.
 
 ## What Lockman allows (NASB1995)
 
@@ -1004,8 +1004,8 @@ data/bible/COPYRIGHT.txt        # Lockman notice
 
 Plus a one-liner in `jorap-voice` skill: use the script for verbatim NASB1995 when writing `key_concept` or cards.
 
-**One thing to confirm:** API.Bible lists “NASB” - we’d pick the **1995** edition’s `bible_id` from their `/bibles` endpoint (not 2020; wording differs on things like “brethren” vs “brothers and sisters”).
+**One thing to confirm:** API.Bible lists “NASB” — we’d pick the **1995** edition’s `bible_id` from their `/bibles` endpoint (not 2020; wording differs on things like “brethren” vs “brothers and sisters”).
 
 ---
 
-Do you want me to scaffold option **1** (API + cache)? If you already have an API.Bible key, drop it in `.dev.vars` as `API_BIBLE_KEY=...` and I can wire it up and pre-warm the cache for your existing garden refs. If you’d rather stay fully offline, option **2** or **3** works too - say which you prefer.
+Do you want me to scaffold option **1** (API + cache)? If you already have an API.Bible key, drop it in `.dev.vars` as `API_BIBLE_KEY=...` and I can wire it up and pre-warm the cache for your existing garden refs. If you’d rather stay fully offline, option **2** or **3** works too — say which you prefer.

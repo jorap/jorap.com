@@ -1913,15 +1913,15 @@ _**Agent (default)**_
 Dark mode contrast is improved across tokens, semantic utilities, and several components that were still using light-mode-only colors.
 
 ### Theme tokens (`data/theme.json`)
-- **Elevated surfaces** (`darkmode-light`): `#1a1816` → `#2a2824` - panels, cards, and chips read more clearly against the page background (~1.28:1 vs ~1.07:1).
-- **Borders** (`darkmode-border`): `#3a3835` → `#504d48` - dividers and chip edges are easier to see (~2.24:1 vs ~1.61:1).
+- **Elevated surfaces** (`darkmode-light`): `#1a1816` → `#2a2824` — panels, cards, and chips read more clearly against the page background (~1.28:1 vs ~1.07:1).
+- **Borders** (`darkmode-border`): `#3a3835` → `#504d48` — dividers and chip edges are easier to see (~2.24:1 vs ~1.61:1).
 
 ### New semantic token: `text-on-accent`
 Accent buttons in dark mode use a cream fill (`#f2efe9`). White text on that was only **1.15:1** contrast. `on-accent` is white in light mode and dark ink in dark mode, so primary buttons, social icons, pagination, back-to-top, and similar controls stay readable in both themes.
 
 ### Component fixes
-- **Pagination** - disabled arrows now use `text-ink-faint` (theme-aware) instead of `text-text-light` (stayed at 3.36:1 on dark backgrounds).
-- **Tag chips & taxonomy badges** - use `bg-surface` + `border-divider` on `bg-elevated` panels instead of near-identical dark backgrounds.
-- **Templates** - footer, widgets, breadcrumbs, page headers, lists, and 404 migrated to semantic tokens (`bg-elevated`, `text-ink`, `text-accent`, `border-divider`) so dark mode swaps automatically.
+- **Pagination** — disabled arrows now use `text-ink-faint` (theme-aware) instead of `text-text-light` (stayed at 3.36:1 on dark backgrounds).
+- **Tag chips & taxonomy badges** — use `bg-surface` + `border-divider` on `bg-elevated` panels instead of near-identical dark backgrounds.
+- **Templates** — footer, widgets, breadcrumbs, page headers, lists, and 404 migrated to semantic tokens (`bg-elevated`, `text-ink`, `text-accent`, `border-divider`) so dark mode swaps automatically.
 
 `generated-theme.css` was updated to match `theme.json`. When you have Node available, run `node scripts/themeGenerator.js` (or `pnpm build`) to regenerate it from source.

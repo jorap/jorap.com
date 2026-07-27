@@ -86,7 +86,7 @@ The file loss-of-reward.md contains only frontmatter. It has no body text with t
 
 _**Agent (auto-low)**_
 
-The note may only have frontmatter - I'll search for "stewardship" and check how the link checker flags unlinked mentions.
+The note may only have frontmatter — I'll search for "stewardship" and check how the link checker flags unlinked mentions.
 
 
 _**Agent (auto-low)**_
@@ -521,4 +521,4 @@ Updated the reason to:
     reason: "Ignoring [[Faithful Steward]] shrinks reward, not salvation"
 ```
 
-`npm run lint:notes` is clean - no broken wikilinks or unlinked mentions.
+`npm run lint:notes` is clean — no broken wikilinks or unlinked mentions.

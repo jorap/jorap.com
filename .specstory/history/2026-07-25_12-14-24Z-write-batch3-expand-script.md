@@ -444,5 +444,205 @@ New drafts now cover browser tabs, haircuts, and space heaters. One pair empties
 
 More drafts are being added. One pair warns against pushing through a bad deploy weekend; the back calls for reverting first and reviewing after calm. Another pairs a new fridge rule with the old routine beside it, keeping the undo path and avoiding lectures. A third pairs breakaway rims with fewer shoulder tears against a safety speech, designing the hazard out rather than adding warnings. A fourth pairs moving a knife block off the counter edge against a toddler phase with moving danger before warnings. The final pair stops a teammate from playing through a head hit, calling for a trainer to halt the play first.
 
-New drafts now cover a coworker skipping lockout on a jammed press, a new hire’s first week redesigning from the org chart, and a flowchart five taps versus a twelve-tap workaround. One pair
+New drafts now cover a coworker skipping lockout on a jammed press, a new hire’s first week redesigning from the org chart, and a flowchart five taps versus a twelve-tap workaround. One pair publishes a ninety-percent blog draft tonight while deferring polish. Another ships a client site except for the about page font, deferring the font to Tuesday. A fifth pairs a fifteen-minute pause with matching kids’ volume.
+
+More drafts are being added. One pair resets a hijacked meeting agenda. Another kills two open projects to finish one deeply. A third pairs busy nights with a blog stuck since March. One new pair runs a new play on Tuesday before Friday. Another pairs a whole-house screen rule with a one-week trial. The final pair warns against buying a two-seat car while expecting twins next year.
+
+New drafts now cover a café skipping high chairs until families arrive, a POS crash with a lingering install fee, a boring board game hour two, a third straight midnight email, and five saved productivity quotes.
+
+New drafts are being added. One pairs three coaching clips with a single drill to run. Another splits a receipt shoebox into tax, keep, and trash piles. A third pairs faith notes and PKM notes with a short clickable tag list. A fourth replaces a yearly wiki refactor with a twelve-week arc and weekly board boxes. The final pair warns against waving at a fuse panel without studying it first.
+
+New drafts cover teaching rules without clean explanations, showing rough drafts before they are polished, and keeping messy practice film libraries when parents need a highlight reel. One pair moves a seedling to a bed once it is ready, archiving it at frost. Another pairs an archived school FAQ with a kid switching schools.
+
+New drafts now cover capture apps, post-game notes, stroller comparisons, vendor bids, and weekly syncs.
+
+A crew-waiting-for-a-senior-tech scenario was added. Fronts must stay longer than backs. Subtle multiple-choice cues and concept-name telegraphing are being avoided. The file is now being written.
 </details></think>
+
+_**Agent (auto-low)**_
+
+Drafting batch3 with 68 new cue→move pairs, distinct from each note's existing four cards.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/archive/expand-four-card-batch3.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Verifying that all 34 stems are present.
+
+Confirmed all 34 stems are present. Verified each flashcard pair has a longer front than back. Checked Python syntax validity.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Verifying stem count, front/back lengths, and Python syntax.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 -c &#34;
+import ast
+from pathlib import Path
+p = Path(&#39;/home/jorap/Documents/GitHub/jorap.com/scripts/archive/expand-four-card-batch3.py&#39;)
+ast.parse(p.read_text())
+ns = {}
+exec(p.read_text(), ns)
+batch = ns[&#39;BATCH&#39;]
+expected = [&#39;own-your-part&#39;,&#39;people-centered-design&#39;,&#39;periodic-knowledge-review&#39;,&#39;pkm&#39;,&#39;practice-small-experiments&#39;,&#39;preparedness&#39;,&#39;process-mapping&#39;,&#39;process-over-outcomes&#39;,&#39;psychological-safety&#39;,&#39;purpose-and-vision&#39;,&#39;quarterly-planning&#39;,&#39;read-later-queue&#39;,&#39;reversibility&#39;,&#39;risk-management&#39;,&#39;rollback-principle&#39;,&#39;safety-by-design&#39;,&#39;safety-comes-first&#39;,&#39;shadow-the-work&#39;,&#39;ship-it&#39;,&#39;situational-control&#39;,&#39;slow-productivity&#39;,&#39;staged-rollout&#39;,&#39;strategic-foresight&#39;,&#39;sunk-cost-fallacy&#39;,&#39;sustainable-performance&#39;,&#39;synthesis-as-a-goal&#39;,&#39;taxonomy&#39;,&#39;the-12-week-year&#39;,&#39;the-feynman-technique&#39;,&#39;the-garage-concept&#39;,&#39;the-knowledge-lifecycle&#39;,&#39;the-second-brain-workflow&#39;,&#39;there-is-no-perfect-solution&#39;,&#39;title-without-influence&#39;]
+missing = [s for s in expected if s not in batch]
+extra = [s for s in batch if s not in expected]
+bad_len = []
+for stem, pairs in batch.items():
+    if len(pairs) != 2:
+        print(f&#39;bad pair count {stem}: {len(pairs)}&#39;)
+    for i,(f,b) in enumerate(pairs):
+        if len(f) &lt;= len(b):
+            bad_len.append((stem,i,len(f),len(b),f,b))
+print(&#39;stems:&#39;, len(batch))
+print(&#39;missing:&#39;, missing)
+print(&#39;extra:&#39;, extra)
+print(&#39;short fronts:&#39;, len(bad_len))
+for x in bad_len[:10]:
+    print(x)
+&#34;
+</summary>
+```bash
+python3 -c "
+import ast
+from pathlib import Path
+p = Path('/home/jorap/Documents/GitHub/jorap.com/scripts/archive/expand-four-card-batch3.py')
+ast.parse(p.read_text())
+ns = {}
+exec(p.read_text(), ns)
+batch = ns['BATCH']
+expected = ['own-your-part','people-centered-design','periodic-knowledge-review','pkm','practice-small-experiments','preparedness','process-mapping','process-over-outcomes','psychological-safety','purpose-and-vision','quarterly-planning','read-later-queue','reversibility','risk-management','rollback-principle','safety-by-design','safety-comes-first','shadow-the-work','ship-it','situational-control','slow-productivity','staged-rollout','strategic-foresight','sunk-cost-fallacy','sustainable-performance','synthesis-as-a-goal','taxonomy','the-12-week-year','the-feynman-technique','the-garage-concept','the-knowledge-lifecycle','the-second-brain-workflow','there-is-no-perfect-solution','title-without-influence']
+missing = [s for s in expected if s not in batch]
+extra = [s for s in batch if s not in expected]
+bad_len = []
+for stem, pairs in batch.items():
+    if len(pairs) != 2:
+        print(f'bad pair count {stem}: {len(pairs)}')
+    for i,(f,b) in enumerate(pairs):
+        if len(f) <= len(b):
+            bad_len.append((stem,i,len(f),len(b),f,b))
+print('stems:', len(batch))
+print('missing:', missing)
+print('extra:', extra)
+print('short fronts:', len(bad_len))
+for x in bad_len[:10]:
+    print(x)
+"
+
+```
+
+```
+Traceback (most recent call last):
+  File "<string>", line 7, in <module>
+  File "<string>", line 5, in <module>
+NameError: name '__file__' is not defined. Did you mean: '__name__'?
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The script failed to execute because `__file__` is undefined.
+
+Trying a different import method.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt;&#39;PY&#39;
+import ast, importlib.util
+p = &#34;scripts/archive/expand-four-card-batch3.py&#34;
+ast.parse(open(p).read())
+spec = importlib.util.spec_from_file_location(&#34;batch3&#34;, p)
+m = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(m)
+batch = m.BATCH
+expected = [&#39;own-your-part&#39;,&#39;people-centered-design&#39;,&#39;periodic-knowledge-review&#39;,&#39;pkm&#39;,&#39;practice-small-experiments&#39;,&#39;preparedness&#39;,&#39;process-mapping&#39;,&#39;process-over-outcomes&#39;,&#39;psychological-safety&#39;,&#39;purpose-and-vision&#39;,&#39;quarterly-planning&#39;,&#39;read-later-queue&#39;,&#39;reversibility&#39;,&#39;risk-management&#39;,&#39;rollback-principle&#39;,&#39;safety-by-design&#39;,&#39;safety-comes-first&#39;,&#39;shadow-the-work&#39;,&#39;ship-it&#39;,&#39;situational-control&#39;,&#39;slow-productivity&#39;,&#39;staged-rollout&#39;,&#39;strategic-foresight&#39;,&#39;sunk-cost-fallacy&#39;,&#39;sustainable-performance&#39;,&#39;synthesis-as-a-goal&#39;,&#39;taxonomy&#39;,&#39;the-12-week-year&#39;,&#39;the-feynman-technique&#39;,&#39;the-garage-concept&#39;,&#39;the-knowledge-lifecycle&#39;,&#39;the-second-brain-workflow&#39;,&#39;there-is-no-perfect-solution&#39;,&#39;title-without-influence&#39;]
+missing = [s for s in expected if s not in batch]
+extra = [s for s in batch if s not in expected]
+bad_len = []
+for stem, pairs in batch.items():
+    if len(pairs) != 2:
+        print(f&#39;bad pair count {stem}: {len(pairs)}&#39;)
+    for i,(f,b) in enumerate(pairs):
+        if len(f) &lt;= len(b):
+            bad_len.append((stem,i,len(f),len(b)))
+print(&#39;stems:&#39;, len(batch))
+print(&#39;missing:&#39;, missing)
+print(&#39;extra:&#39;, extra)
+print(&#39;short fronts:&#39;, bad_len)
+PY</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 <<'PY'
+import ast, importlib.util
+p = "scripts/archive/expand-four-card-batch3.py"
+ast.parse(open(p).read())
+spec = importlib.util.spec_from_file_location("batch3", p)
+m = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(m)
+batch = m.BATCH
+expected = ['own-your-part','people-centered-design','periodic-knowledge-review','pkm','practice-small-experiments','preparedness','process-mapping','process-over-outcomes','psychological-safety','purpose-and-vision','quarterly-planning','read-later-queue','reversibility','risk-management','rollback-principle','safety-by-design','safety-comes-first','shadow-the-work','ship-it','situational-control','slow-productivity','staged-rollout','strategic-foresight','sunk-cost-fallacy','sustainable-performance','synthesis-as-a-goal','taxonomy','the-12-week-year','the-feynman-technique','the-garage-concept','the-knowledge-lifecycle','the-second-brain-workflow','there-is-no-perfect-solution','title-without-influence']
+missing = [s for s in expected if s not in batch]
+extra = [s for s in batch if s not in expected]
+bad_len = []
+for stem, pairs in batch.items():
+    if len(pairs) != 2:
+        print(f'bad pair count {stem}: {len(pairs)}')
+    for i,(f,b) in enumerate(pairs):
+        if len(f) <= len(b):
+            bad_len.append((stem,i,len(f),len(b)))
+print('stems:', len(batch))
+print('missing:', missing)
+print('extra:', extra)
+print('short fronts:', bad_len)
+PY
+```
+
+```
+stems: 34
+missing: []
+extra: []
+short fronts: []
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Validations passed. Finalizing the file and confirming its creation.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="update_current_step"><details>
+<summary>Tool use: **update_current_step**</summary>
+An unknown error occurred
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The script will return confirmation once the file is written.
+</details></think>
+
+_**Agent (auto-low)**_
+
+**Confirmed.** `scripts/archive/expand-four-card-batch3.py` is written.
+
+- Same structure as batch1: `BATCH` dict + `main()` inserting 2 cards before `draft: false` when exactly 4 cards exist
+- All **34 stems** included, **2 pairs each** (68 cards total)
+- Validated: Python parses cleanly, all fronts longer than backs, no missing/extra stems

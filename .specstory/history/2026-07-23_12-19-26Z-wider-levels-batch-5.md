@@ -172,7 +172,7 @@ The user wants a wider-spread rewrite of the 43 notes in `wider-levels-batch-5.j
 
 Checking whether the existing notes already match the wider-levels-batch-5.json targets, or if all 43 need rewriting.
 
-Planning a Python script to bulk-update all 43 notes. Need to verify exact file structure first-some notes may contain bible blocks or other formatting that must be preserved during the rewrite.
+Planning a Python script to bulk-update all 43 notes. Need to verify exact file structure first—some notes may contain bible blocks or other formatting that must be preserved during the rewrite.
 </details></think>
 
 _**Agent (composer-2.5-fast)**_
@@ -2003,8 +2003,8 @@ cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:voice -- --notes-only 2>&
 $ python3 scripts/notes-voice-sanitize.py --check && python3 scripts/notes-voice-lint.py --check -- --notes-only
 Voice dash lint OK
 Voice lint warnings:
-  content/english/notes/convert-pain-into-learning.md: key_concept: AI-tell word `rumination` - try: stewing / replaying without change
-  content/english/notes/rollback-principle.md: key_concept: AI-tell word `postmortem` - try: after-action review
+  content/english/notes/convert-pain-into-learning.md: key_concept: AI-tell word `rumination` — try: stewing / replaying without change
+  content/english/notes/rollback-principle.md: key_concept: AI-tell word `postmortem` — try: after-action review
 [ELIFECYCLE] Command failed with exit code 1.
 
 ```

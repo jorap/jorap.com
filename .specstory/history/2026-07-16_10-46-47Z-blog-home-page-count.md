@@ -20,7 +20,7 @@ Searching hugo.toml and theme templates for pagination settings.
 
 _**Agent (auto-low)**_
 
-I'll trace how the blog home page lists posts-pagination and any limits in Hugo config or theme templates.
+I'll trace how the blog home page lists posts—pagination and any limits in Hugo config or theme templates.
 
 
 _**Agent (auto-low)**_

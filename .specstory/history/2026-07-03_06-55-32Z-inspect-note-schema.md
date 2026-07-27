@@ -1599,26 +1599,26 @@ _**Agent (composer-2.5-fast)**_
 - `/home/jorap/Documents/GitHub/jorap.com/content/english/notes/*.md`
 
 **Canonical spec and voice:**
-- `/home/jorap/Documents/GitHub/jorap.com/docs/SPEC.md` - atomic note frontmatter (§5.3); documents `description` and `key_concept` but **not** `shareable_thought` yet
-- `/home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md` - editorial rules for all three fields
-- `/home/jorap/Documents/GitHub/jorap.com/docs/CONTENT_VOICE_REVIEW.md` - batch review checklist
-- `/home/jorap/Documents/GitHub/jorap.com/content/english/notes/getting-started.md` - in-body docs for atomic structure
+- `/home/jorap/Documents/GitHub/jorap.com/docs/SPEC.md` — atomic note frontmatter (§5.3); documents `description` and `key_concept` but **not** `shareable_thought` yet
+- `/home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md` — editorial rules for all three fields
+- `/home/jorap/Documents/GitHub/jorap.com/docs/CONTENT_VOICE_REVIEW.md` — batch review checklist
+- `/home/jorap/Documents/GitHub/jorap.com/content/english/notes/getting-started.md` — in-body docs for atomic structure
 
 **Templates / archetypes:**
-- `/home/jorap/Documents/GitHub/jorap.com/archetypes/notes.md` - new-note scaffold (`description`, `key_concept`, `examples`, `relationships`; **no** `shareable_thought` yet)
-- `/home/jorap/Documents/GitHub/jorap.com/layouts/notes/single.html` - renders shareable block between intro and tail
-- `/home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-shareable-thought.html` - 2-column UI
-- `/home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/assembled-content.html` - rebuilds page from frontmatter (description → key_concept → examples → relationships)
-- `/home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-blurb.html` - card/search blurbs from `description` or first lines of `key_concept`
-- `/home/jorap/Documents/GitHub/jorap.com/static/admin/config.yml` - Decap CMS fields for `description` and `key_concept` only (no `shareable_thought`)
+- `/home/jorap/Documents/GitHub/jorap.com/archetypes/notes.md` — new-note scaffold (`description`, `key_concept`, `examples`, `relationships`; **no** `shareable_thought` yet)
+- `/home/jorap/Documents/GitHub/jorap.com/layouts/notes/single.html` — renders shareable block between intro and tail
+- `/home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-shareable-thought.html` — 2-column UI
+- `/home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/assembled-content.html` — rebuilds page from frontmatter (description → key_concept → examples → relationships)
+- `/home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-blurb.html` — card/search blurbs from `description` or first lines of `key_concept`
+- `/home/jorap/Documents/GitHub/jorap.com/static/admin/config.yml` — Decap CMS fields for `description` and `key_concept` only (no `shareable_thought`)
 
 **Lint / tooling:**
-- `/home/jorap/Documents/GitHub/jorap.com/scripts/lint-notes-frontmatter.py` - primary gate (`pnpm lint:frontmatter` / `lint:garden`)
-- `/home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py` - shared helpers, canonical `FM_ORDER`, `shareable_line_from_principle()`, overlap detection
-- `/home/jorap/Documents/GitHub/jorap.com/scripts/seed-note-shareable-thought.py` - draft/regenerate shareable lines (`pnpm seed:shareable-thought`)
-- `/home/jorap/Documents/GitHub/jorap.com/scripts/notes-voice-lint.py` - AI-tell / plain-word scan on `description` + `key_concept`
-- `/home/jorap/Documents/GitHub/jorap.com/scripts/normalize-notes-format.py` - examples/relationships dedupe (not these three fields)
-- `/home/jorap/Documents/GitHub/jorap.com/scripts/reformat-note-frontmatter.py` - enforces `key_concept: |` block scalar
+- `/home/jorap/Documents/GitHub/jorap.com/scripts/lint-notes-frontmatter.py` — primary gate (`pnpm lint:frontmatter` / `lint:garden`)
+- `/home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py` — shared helpers, canonical `FM_ORDER`, `shareable_line_from_principle()`, overlap detection
+- `/home/jorap/Documents/GitHub/jorap.com/scripts/seed-note-shareable-thought.py` — draft/regenerate shareable lines (`pnpm seed:shareable-thought`)
+- `/home/jorap/Documents/GitHub/jorap.com/scripts/notes-voice-lint.py` — AI-tell / plain-word scan on `description` + `key_concept`
+- `/home/jorap/Documents/GitHub/jorap.com/scripts/normalize-notes-format.py` — examples/relationships dedupe (not these three fields)
+- `/home/jorap/Documents/GitHub/jorap.com/scripts/reformat-note-frontmatter.py` — enforces `key_concept: |` block scalar
 - One-off helpers tied to shareable quality: `fix-shareable-principles.py`, `fix-shareable-thought-review.py`, `pad-thin-key-concepts.py`, `fold-key-concept-refs.py`, `migrate-description-verses.py`
 
 **npm scripts (`package.json`):**
@@ -1653,8 +1653,8 @@ shareable_thought:
 
 | Field | Role |
 |-------|------|
-| `description` | One-breath **definition** - quotable cold, ≤20 words |
-| `key_concept` | **Angle + expansion** - punch sentence first, then stakes/distinctions/wikilinks; block scalar `\|` |
+| `description` | One-breath **definition** — quotable cold, ≤20 words |
+| `key_concept` | **Angle + expansion** — punch sentence first, then stakes/distinctions/wikilinks; block scalar `\|` |
 | `shareable_thought` | **Four paste-ready lines** derived from the two fields above |
 
 **Canonical frontmatter order** (`scripts/notes_content.py`):  
@@ -1712,15 +1712,15 @@ shareable_thought:
    - **`meta` / `index` (~dozen):** same shareable rules apply; body prose can stay.
 
 2. **Work in layers:**
-   - **Layer A - mechanical:** run `pnpm lint:garden` to get a fail list; use `seed:shareable-thought` only after `key_concept` has enough distinct sentences (seed drops overlong lines rather than truncating).
-   - **Layer B - voice:** `pnpm lint:voice` on `description` + `key_concept`.
-   - **Layer C - editorial (lint-blind):** no description/key_concept duplication; four **distinct** shareable ideas (definition / contrast / application / stakes), not four restatements; thin `key_concept` blocks need human expansion before seeding will pass.
+   - **Layer A — mechanical:** run `pnpm lint:garden` to get a fail list; use `seed:shareable-thought` only after `key_concept` has enough distinct sentences (seed drops overlong lines rather than truncating).
+   - **Layer B — voice:** `pnpm lint:voice` on `description` + `key_concept`.
+   - **Layer C — editorial (lint-blind):** no description/key_concept duplication; four **distinct** shareable ideas (definition / contrast / application / stakes), not four restatements; thin `key_concept` blocks need human expansion before seeding will pass.
 
-3. **Batch by category** (as in `CONTENT_VOICE_REVIEW.md`) - one deploy commit per publish batch to conserve Cloudflare builds.
+3. **Batch by category** (as in `CONTENT_VOICE_REVIEW.md`) — one deploy commit per publish batch to conserve Cloudflare builds.
 
 4. **Update scaffolding in the same PR:**
    - Add `shareable_thought` to `archetypes/notes.md`, `static/admin/config.yml`, and `docs/SPEC.md §5.3` so new notes and CMS edits match lint.
 
-5. **Exit criteria:** `pnpm lint:garden && pnpm lint:voice && hugo --gc` clean; spot-read ~3 notes per category for self-contained shareable lines (lint can pass while lines still read like fragments or duplicates - that gap is documented in recent voice-review sessions).
+5. **Exit criteria:** `pnpm lint:garden && pnpm lint:voice && hugo --gc` clean; spot-read ~3 notes per category for self-contained shareable lines (lint can pass while lines still read like fragments or duplicates — that gap is documented in recent voice-review sessions).
 
-6. **Avoid:** bulk-regenerating all `shareable_thought` before fixing thin/duplicate `key_concept` - that produces “passes lint but fails intent” results (duplicate description in first shareable line, bookend repetition in `key_concept`).
+6. **Avoid:** bulk-regenerating all `shareable_thought` before fixing thin/duplicate `key_concept` — that produces “passes lint but fails intent” results (duplicate description in first shareable line, bookend repetition in `key_concept`).

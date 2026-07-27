@@ -995,9 +995,9 @@ _**Agent (auto-low)**_
 
 Both garden link issues are fixed.
 
-**Don't Copy the Pattern** - Added a `contradicts` row for [[There Is No Perfect Solution]]: *when I wait for a clean feed before I refuse the world's script*. That matches the Romans 12 cluster (same tension as [[Renewed Mind]]) and satisfies the required extends + contradicts structure.
+**Don't Copy the Pattern** — Added a `contradicts` row for [[There Is No Perfect Solution]]: *when I wait for a clean feed before I refuse the world's script*. That matches the Romans 12 cluster (same tension as [[Renewed Mind]]) and satisfies the required extends + contradicts structure.
 
-**God Centered Design** - In the [[Success is Stewardship]] relationship reason, replaced the bare alias "Borrowed platform" with `[[Platform Reach Is Borrowed]]`, which clears the unlinked mention in the assembled Note Relationships table.
+**God Centered Design** — In the [[Success is Stewardship]] relationship reason, replaced the bare alias "Borrowed platform" with `[[Platform Reach Is Borrowed]]`, which clears the unlinked mention in the assembled Note Relationships table.
 
 Hugo build reports no warnings for either note.
 
@@ -1030,8 +1030,8 @@ _**Agent (auto-low)**_
 
 Both garden link issues are resolved.
 
-**Don't Copy the Pattern** - Added a `contradicts` relationship to [[There Is No Perfect Solution]].
+**Don't Copy the Pattern** — Added a `contradicts` relationship to [[There Is No Perfect Solution]].
 
-**God Centered Design** - Linked the "borrowed platform" mention to [[Platform Reach Is Borrowed]] in the Note Relationships reason field.
+**God Centered Design** — Linked the "borrowed platform" mention to [[Platform Reach Is Borrowed]] in the Note Relationships reason field.
 
 Hugo builds clean with no link or structure warnings for these notes.

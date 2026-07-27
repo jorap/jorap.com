@@ -2255,18 +2255,18 @@ Review complete across all 237 notes with `key_concept` frontmatter.
 - Blank lines around bible shortcodes and other non-bullet content are unchanged.
 
 **Split bullets merged** (text that had been cropped into separate bullets):
-- `accept-the-starting-line.md` - "I accept where I actually start" + "Then pick targets..."
-- `change-takes-repetition.md` - description split reunited
-- `own-your-part.md` - description split reunited
-- `forgiveness.md` - Sunk Cost Fallacy continuation merged
-- `forgiveness-at-work.md` - Gospel depth + Sunk Cost merge
-- `grace.md` - PKM mirror + Minimum Effective Dose (also fixed missing semicolon)
-- `minimum-effective-dose.md` - Free Grace/Justification continuation merged
-- `free-tier-hosting-stack.md` - walkthrough + pipeline merge
+- `accept-the-starting-line.md` — "I accept where I actually start" + "Then pick targets..."
+- `change-takes-repetition.md` — description split reunited
+- `own-your-part.md` — description split reunited
+- `forgiveness.md` — Sunk Cost Fallacy continuation merged
+- `forgiveness-at-work.md` — Gospel depth + Sunk Cost merge
+- `grace.md` — PKM mirror + Minimum Effective Dose (also fixed missing semicolon)
+- `minimum-effective-dose.md` — Free Grace/Justification continuation merged
+- `free-tier-hosting-stack.md` — walkthrough + pipeline merge
 
 **Verification**
 - 0 blank lines remain between consecutive bullets
 - 0 lowercase-start fragment bullets (cropped continuations)
 - 0 short truncated bullets without ending punctuation
 
-Some notes still have redundant bullets that repeat the description in different words (e.g. `attention-economy.md`, `by-their-fruits.md`). Those read as intentional emphasis, not cropping errors - say if you want those deduped too.
+Some notes still have redundant bullets that repeat the description in different words (e.g. `attention-economy.md`, `by-their-fruits.md`). Those read as intentional emphasis, not cropping errors — say if you want those deduped too.

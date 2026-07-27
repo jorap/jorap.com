@@ -607,7 +607,7 @@ Status: **completed**
 
 _**Agent (auto-low)**_
 
-There's an audit script for this - I'll run it to see which posts are still missing `related_notes`.
+There's an audit script for this — I'll run it to see which posts are still missing `related_notes`.
 
 
 _**Agent (auto-low)**_
@@ -635,11 +635,11 @@ facebooks-hidden-gem-how-favorites-feed-transforms-your-social-media-experience 
 getting-started-with-rss-feeds-a-beginners-guide     auto   tags: synthesis-as-a-goal, literature-notes, digital-minimalism, digital-serendipity, the-second-brain-workflow, attention-economy
 how-i-built-jorap-notes                              auto   tags: free-tier-hosting-stack, digital-garden, drafting-in-public, the-garage-concept, selling-static-sites, note-relationships | mentions: patience
 hugoplate-theme-review                               auto   tags: the-garage-concept, digital-garden, drafting-in-public, git-based-cms, free-tier-hosting-stack, selling-static-sites
-instant-pot-chicken-adobo                            none   -
+instant-pot-chicken-adobo                            none   —
 miracle-isaiah-david                                 manual (empty manual list)
 power-of-the-mouse-wheel-click                       auto   tags: context-aware-capture, the-second-brain-workflow, commonplace-book, crdt, inbox-zero, information-diet
 power-of-worship-pads-enhancing-your-worship-with-guitar manual (empty manual list)
-set-it-forget-it-arroz-caldo                         none   -
+set-it-forget-it-arroz-caldo                         none   —
 top-reasons-create-maintain-your-own-website         auto   tags: drafting-in-public, digital-garden, commonplace-book, sketchpad, note-relationships, the-garage-concept
 top-reasons-why-you-still-need-use-desktop-laptop    au
 … (output truncated)
@@ -665,28 +665,28 @@ cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/audit-blog-related-
 ```
 BLOG SLUG                                            MODE   NOTES
 ----------------------------------------------------------------------------------------------------
-canon-g3000                                          none   -
+canon-g3000                                          none   —
 craft-prompt-framework                               manual (empty manual list)
 drupal-to-wordpress                                  manual (empty manual list)
-extension-cord                                       none   -
+extension-cord                                       none   —
 how-to-create-a-good-habit                           manual (empty manual list)
 hugo-go-templates                                    manual (empty manual list)
 hugo-page-bundles                                    manual (empty manual list)
 hugo-shortcodes-deep-dive                            manual (empty manual list)
 hugo-static-site-generator                           manual (empty manual list)
 jobs-to-be-done-framework                            manual (empty manual list)
-kewpie-mayo                                          none   -
+kewpie-mayo                                          none   —
 make-ai-articles-more-human                          manual (empty manual list)
 markdown-deep-dive                                   manual (empty manual list)
 markdown-formatting                                  manual (empty manual list)
-mi-box-s                                             none   -
+mi-box-s                                             none   —
 native-hugo-taxonomies                               manual (empty manual list)
 obsidian-vs-hugo                                     manual (empty manual list)
 password-managers                                    manual (empty manual list)
 personal-immune-booster-supplements                  manual (empty manual list)
 rechargeable-batteries                               manual (empty manual list)
 remote-work-checklist                                manual (empty manual list)
-second-cellphone                                     none   -
+second-cellphone                                     none   —
 shopee-tips                                          manual (empty manual list)
 smart-plug                                           manual (empty manual list)
 stu
@@ -1578,22 +1578,22 @@ All blog items now have related_notes.
 
 _**Agent (auto-low)**_
 
-Every blog post under `content/english/blog/` now has `related_notes` in frontmatter - **18 posts** were missing it.
+Every blog post under `content/english/blog/` now has `related_notes` in frontmatter — **18 posts** were missing it.
 
-**Published posts (8)** - matched from tag overlap via the audit script:
+**Published posts (8)** — matched from tag overlap via the audit script:
 - `consistent-ai-output-wordpress-builds`, `facebooks-hidden-gem-…`, `getting-started-with-rss-feeds-…`, `how-i-built-jorap-notes`, `hugoplate-theme-review`, `power-of-the-mouse-wheel-click`, `top-reasons-create-maintain-your-own-website`, `top-reasons-why-you-still-need-use-desktop-laptop`
 
-**Drafts & gear/food posts (10)** - hand-picked garden notes where tags didn’t overlap:
+**Drafts & gear/food posts (10)** — hand-picked garden notes where tags didn’t overlap:
 - Recipe posts → `habit-formation`, `slow-productivity`, `preparedness`, `recovery`
 - Gear reviews → `reliability`, `preparedness`, `digital-minimalism`, etc.
 - Marvel Snap → `attention-economy`, `digital-minimalism`, `signal-vs-noise`, `sunk-cost-fallacy`
 - Tailwind v4 → Hugo/site-building notes
 
-**Templates** - `__blog-template.md` and `__blank-blog-template.md` now include `related_notes` as a required example field.
+**Templates** — `__blog-template.md` and `__blank-blog-template.md` now include `related_notes` as a required example field.
 
 Also fixed a small bug in `scripts/audit-blog-related-notes.py` that was showing manual lists as empty.
 
-`_index.md` is the section listing page, not an article - left without `related_notes`. Say if you want that too.
+`_index.md` is the section listing page, not an article — left without `related_notes`. Say if you want that too.
 
 ---
 
@@ -2075,13 +2075,13 @@ _**Agent (auto-low)**_
 
 Updated `layouts/_partials/notes/related-notes.html` so `related_notes` frontmatter is **prioritized**, not exclusive.
 
-**Before:** If `related_notes` was set, only those slugs were shown - tag overlap, body mentions, and Hugo `.Related` were skipped entirely.
+**Before:** If `related_notes` was set, only those slugs were shown — tag overlap, body mentions, and Hugo `.Related` were skipped entirely.
 
 **After:**
-1. **Frontmatter first** - slugs from `related_notes` appear first, in the order you listed them (scores 10, 9, 8… so they stay ahead of auto matches)
-2. **Tag overlap** - fills remaining slots up to the limit
-3. **Title mentions** (blog only) - if still under the limit
-4. **Hugo `.Related`** - last resort filler
+1. **Frontmatter first** — slugs from `related_notes` appear first, in the order you listed them (scores 10, 9, 8… so they stay ahead of auto matches)
+2. **Tag overlap** — fills remaining slots up to the limit
+3. **Title mentions** (blog only) — if still under the limit
+4. **Hugo `.Related`** — last resort filler
 
 So a post like `hugoplate-theme-review` with 6 curated notes still shows those 6 first; if you only list 3, the block can fill out to the limit with auto-matched garden notes.
 

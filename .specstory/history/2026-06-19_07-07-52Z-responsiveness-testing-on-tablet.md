@@ -452,39 +452,39 @@ cd /home/jorap/Documents/GitHub/jorap.com && node scripts/responsive-test.mjs ht
 
 ```
 
-Responsive audit - http://localhost:1313
+Responsive audit — http://localhost:1313
 ============================================================
 
 
 ## iPhone 14 (390×844)
 
   [WARN] Home (/)
-       WARN: small-touch-targets - 5+ interactive elements under 44×44px
+       WARN: small-touch-targets — 5+ interactive elements under 44×44px
          → <input> "Open and close site navigation" 1×1px
          → <input> "Toggle dark mode" 13×13px
          → <a> "Get in touch" 97×28px
   [WARN] About (/about/)
-       WARN: small-touch-targets - 5+ interactive elements under 44×44px
+       WARN: small-touch-targets — 5+ interactive elements under 44×44px
          → <input> "Open and close site navigation" 1×1px
          → <input> "Toggle dark mode" 13×13px
          → <a> "get in touch" 90×20px
   [WARN] Blog (/blog/)
-       WARN: small-touch-targets - 5+ interactive elements under 44×44px
+       WARN: small-touch-targets — 5+ interactive elements under 44×44px
          → <input> "Open and close site navigation" 1×1px
          → <input> "Toggle dark mode" 13×13px
          → <a> "Home" 50×20px
   [WARN] Notes (/notes/)
-       WARN: small-touch-targets - 5+ interactive elements under 44×44px
+       WARN: small-touch-targets — 5+ interactive elements under 44×44px
          → <input> "Open and close site navigation" 1×1px
          → <input> "Toggle dark mode" 13×13px
          → <a> "Home" 50×20px
   [WARN] Contact (/contact/)
-       WARN: small-touch-targets - 5+ interactive elements under 44×44px
+       WARN: small-touch-targets — 5+ interactive elements under 44×44px
          → <input> "Open and close site navigation" 1×1px
          → <input> "Toggle dark mode" 13×13px
          → <a> "Home" 50×20px
   [WARN] Blog post (/blog/how-i-built-jorap-notes/)
-       WARN: small-touch-targets - 5+ interactive elements under 44×44px
+       WARN: small-touch-targets — 5+ interactive elements under 44×44px
          → <input> "Open and close site navigation" 1×1px
          → <input> "Toggle dark mode" 13×13px
          → <a> "Website," 70×20px
@@ -492,12 +492,12 @@ Responsive audit - http://localhost:1313
 ## iPhone SE (320×568)
 
   [WARN] Home (/)
-       WARN: small-touch-targets - 5+ interactive elements under 44×44px
+       WARN: small-touch-targets — 5+ interactive elements under 44×44px
          → <input> "Open and close site navigation" 1×1px
          → <input> "Toggle dark mode" 13×13px
          → <a> "Get in touch" 97×28px
   [WARN] About (/about/)
-       WARN: small-touch-targets - 5+ interactive elements under 44×44px
+       WARN: small-touch-targets — 5+ interactive elements under 44×44px
          → <input> "Open and close site navigation" 1×1px
          → <input> "Tog
 … (output truncated)
@@ -687,7 +687,7 @@ The responsive test shows a broken, unstyled site. CSS likely failed to load in 
 
 _**Agent (default)**_
 
-The screenshots look unstyled - I'll verify what's actually being served on port 1313.
+The screenshots look unstyled — I'll verify what's actually being served on port 1313.
 
 
 _**Agent (default)**_
@@ -945,7 +945,7 @@ Offset 100 is beyond file length (93 lines)
 
 _**Agent (default)**_
 
-The Hugo server is returning 500 errors - I'll restart it and rerun the responsive tests.
+The Hugo server is returning 500 errors — I'll restart it and rerun the responsive tests.
 
 
 _**Agent (default)**_
@@ -1544,7 +1544,7 @@ tablet-land (1024px)
 
 _**Agent (default)**_
 
-Mobile blog post shows horizontal overflow - I'll track down what's causing it.
+Mobile blog post shows horizontal overflow — I'll track down what's causing it.
 
 
 _**Agent (default)**_
@@ -2176,8 +2176,8 @@ The site is in good shape on mobile and tablet. No horizontal page overflow on a
 
 - **Navigation:** Still uses the hamburger menu. Desktop nav kicks in at the `lg` breakpoint (1024px), which is intentional with your current Tailwind setup.
 - **Home:** Scope + proof sections remain stacked until 1024px.
-- **Blog:** Two-column card grid (`md:col-6`) works - cards are ~384px wide. Sidebar drops below the posts (full width).
-- **Nav toggle:** 44×44px - meets touch-target guidelines.
+- **Blog:** Two-column card grid (`md:col-6`) works — cards are ~384px wide. Sidebar drops below the posts (full width).
+- **Nav toggle:** 44×44px — meets touch-target guidelines.
 
 ### Tablet landscape / small desktop (1024px+)
 
@@ -2187,9 +2187,9 @@ The site is in good shape on mobile and tablet. No horizontal page overflow on a
 
 ## Minor notes (not blockers)
 
-1. **Tablet still feels “mobile” for nav** - At 768px you still get the hamburger. That’s consistent with `lg:hidden` / `lg:flex` in your header, but some sites switch to horizontal nav earlier. Worth a design call, not a bug.
-2. **Touch targets in prose** - Inline links in article text are smaller than 44px, which is normal for body copy. Header controls and the menu toggle are appropriately sized.
-3. **Long code lines in blog posts** - Syntax-highlighted code blocks scroll inside `<pre>` rather than breaking the page layout.
+1. **Tablet still feels “mobile” for nav** — At 768px you still get the hamburger. That’s consistent with `lg:hidden` / `lg:flex` in your header, but some sites switch to horizontal nav earlier. Worth a design call, not a bug.
+2. **Touch targets in prose** — Inline links in article text are smaller than 44px, which is normal for body copy. Header controls and the menu toggle are appropriately sized.
+3. **Long code lines in blog posts** — Syntax-highlighted code blocks scroll inside `<pre>` rather than breaking the page layout.
 
 ## Screenshots
 
@@ -2204,6 +2204,6 @@ npx -p playwright node scripts/responsive-test.mjs http://localhost:1313
 npx -p playwright node scripts/responsive-detail.mjs http://localhost:1313
 ```
 
-**Note:** Your `npm run watch` server briefly hit a Tailwind build error (`tailwindcss` binary not a Node script) after a dependency install. That’s fixed - the symlink is restored and port 1313 is returning 200 again. Restart `npm run watch` if you still see stale errors in the browser.
+**Note:** Your `npm run watch` server briefly hit a Tailwind build error (`tailwindcss` binary not a Node script) after a dependency install. That’s fixed — the symlink is restored and port 1313 is returning 200 again. Restart `npm run watch` if you still see stale errors in the browser.
 
-Want me to adjust anything - e.g. show desktop nav at 768px, or tighten code-block overflow handling on small screens?
+Want me to adjust anything — e.g. show desktop nav at 768px, or tighten code-block overflow handling on small screens?

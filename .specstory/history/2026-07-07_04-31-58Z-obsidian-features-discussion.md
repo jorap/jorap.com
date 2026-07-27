@@ -1748,7 +1748,7 @@ Your notes garden already covers a large slice of what people mean by “Obsidia
 | Search | Site-wide search includes notes |
 | Flashcards / review | `/notes/review/` with spaced repetition in `localStorage` |
 | Random resurfacing | Featured random, Random Duo |
-| Link linting | `/notes/issues/` - broken links, unlinked mentions |
+| Link linting | `/notes/issues/` — broken links, unlinked mentions |
 | Agent export | Copy MD, OKF bundle |
 | Mermaid | Hugo module exists (used on blog; available site-wide) |
 
@@ -1762,31 +1762,31 @@ Grouped by how well they fit a static Hugo garden.
 
 ### High fit (reader-side, small diffs)
 
-1. **Relationship neighbors panel** - On each note, show “Also extends [[X]]”, “Contradicts cluster”, etc. from the typed `relationships` graph. Already discussed in your format-consistency work; data exists, UI doesn’t.
+1. **Relationship neighbors panel** — On each note, show “Also extends [[X]]”, “Contradicts cluster”, etc. from the typed `relationships` graph. Already discussed in your format-consistency work; data exists, UI doesn’t.
 
-2. **Hub distance / path** - “2 hops from [[PKM]]” using existing wikilink graph data (Random Duo already finds shortest paths).
+2. **Hub distance / path** — “2 hops from [[PKM]]” using existing wikilink graph data (Random Duo already finds shortest paths).
 
-3. **Note status / growth stage** - `status: seedling | evergreen | archived` + a stale badge (“untouched 90+ days”) from `noteFileDates.json`.
+3. **Note status / growth stage** — `status: seedling | evergreen | archived` + a stale badge (“untouched 90+ days”) from `noteFileDates.json`.
 
-4. **Tag explorer for notes** - Dedicated `/notes/tags/` or filter-by-tag on the list page (tags exist; no notes-specific tag browser).
+4. **Tag explorer for notes** — Dedicated `/notes/tags/` or filter-by-tag on the list page (tags exist; no notes-specific tag browser).
 
-5. **Mermaid in index pages** - Flowcharts, timelines, and **mindmaps** on MOC/hub pages. Mermaid is already in the theme; index pages (`note_kind: index`) are allowed body prose.
+5. **Mermaid in index pages** — Flowcharts, timelines, and **mindmaps** on MOC/hub pages. Mermaid is already in the theme; index pages (`note_kind: index`) are allowed body prose.
 
-6. **Callouts** - `> [!note]` style blocks if you add a Goldmark extension or shortcode. Nice for hub pages, not atomic notes.
+6. **Callouts** — `> [!note]` style blocks if you add a Goldmark extension or shortcode. Nice for hub pages, not atomic notes.
 
-7. **Embeds (read-only)** - `![[Note Title]]` rendering note summary/cards inline on hub pages. Pipe labels (`[[x|y]]`) are explicitly out of scope in your SPEC.
+7. **Embeds (read-only)** — `![[Note Title]]` rendering note summary/cards inline on hub pages. Pipe labels (`[[x|y]]`) are explicitly out of scope in your SPEC.
 
 ### Medium fit (new tool page or JS)
 
-8. **Radial / tree graph layout** - Same graph data, different layout: center a MOC or current note, branches = links. Feels like mind mapping without a canvas editor.
+8. **Radial / tree graph layout** — Same graph data, different layout: center a MOC or current note, branches = links. Feels like mind mapping without a canvas editor.
 
-9. **Markmap** - Turn a markdown bullet list (e.g. a MOC’s `## Maps` section) into an interactive collapsible mind map. One JS module, lazy-loaded like the graph.
+9. **Markmap** — Turn a markdown bullet list (e.g. a MOC’s `## Maps` section) into an interactive collapsible mind map. One JS module, lazy-loaded like the graph.
 
-10. **Excalidraw / image embeds** - Your [[Mind Mapping]] note tags Excalidraw; you could support `static/` SVG/PNG exports or a read-only Excalidraw viewer for hub pages. Author in Obsidian/Excalidraw, publish the export.
+10. **Excalidraw / image embeds** — Your [[Mind Mapping]] note tags Excalidraw; you could support `static/` SVG/PNG exports or a read-only Excalidraw viewer for hub pages. Author in Obsidian/Excalidraw, publish the export.
 
-11. **Dataview-lite** - Hugo templates that query frontmatter: “all notes with `review: true`”, “notes contradicting [[Slow Productivity]]”, etc. Static at build time, not live queries.
+11. **Dataview-lite** — Hugo templates that query frontmatter: “all notes with `review: true`”, “notes contradicting [[Slow Productivity]]”, etc. Static at build time, not live queries.
 
-12. **Outline / backlinks sidebar** - Sticky TOC + backlinks on wide screens (partially there via TOC partial).
+12. **Outline / backlinks sidebar** — Sticky TOC + backlinks on wide screens (partially there via TOC partial).
 
 ### Low fit or explicitly out of scope
 
@@ -1807,7 +1807,7 @@ Grouped by how well they fit a static Hugo garden.
 Three approaches that match your garden philosophy (spatial view **of** the graph, not a second authoring surface):
 
 ### 1. Radial graph mode (best bang for buck)
-Add a “tree / radial” toggle on the existing graph - center = current note or selected MOC, children = outbound wikilinks. Reuses `notes-graph.js` and `graph-data.html`. This is the closest thing to a live mind map of **your actual garden**.
+Add a “tree / radial” toggle on the existing graph — center = current note or selected MOC, children = outbound wikilinks. Reuses `notes-graph.js` and `graph-data.html`. This is the closest thing to a live mind map of **your actual garden**.
 
 ### 2. Mermaid mindmap on hub pages
 On [[Maps of Content]] or topic hubs, a fenced `mindmap` block for curated structure:
@@ -1836,11 +1836,11 @@ Parse the bullet lists already in hub pages and render them as a zoomable mind m
 
 If you want one mind-mapping feature:
 
-**Radial local graph** - extends what you have, stays read-only, matches “branches and bubbles → atomic notes.”
+**Radial local graph** — extends what you have, stays read-only, matches “branches and bubbles → atomic notes.”
 
 If you want one general Obsidian gap filled:
 
-**Relationship neighbors panel** - zero new authoring rules; makes typed `relationships` visible on every note page.
+**Relationship neighbors panel** — zero new authoring rules; makes typed `relationships` visible on every note page.
 
 ---
 
@@ -2229,7 +2229,7 @@ Incoming neighbors will be grouped by relationship type, with each reason shown 
 
 Relationship types will use directional labels. Extends becomes "Extended by," contradicts becomes "Contradicted by," implements becomes "Implemented by," and alternative becomes "Alternative to." The table of contents will also include this panel.
 
-Incoming labels will use simple headings: "Builds on," "Pushes against," "Operationalizes," and "Different path." The panel will remain strictly incoming-only, omitting outgoing links. Sibling neighbors-notes that also extend the same target-are noted as more complex.
+Incoming labels will use simple headings: "Builds on," "Pushes against," "Operationalizes," and "Different path." The panel will remain strictly incoming-only, omitting outgoing links. Sibling neighbors—notes that also extend the same target—are noted as more complex.
 
 The panel title may be "Typed backlinks" or "Linked here by type." Backlinks already capture wikilink mentions, so the panel should not duplicate that data.
 
@@ -2815,7 +2815,7 @@ _**Agent (auto-low)**_
 Done. Both features are in place:
 
 ### 1. Relationship neighbors panel
-On note pages, when other notes link here via typed `relationships:` frontmatter, a new **Relationship neighbors** section appears - grouped by type:
+On note pages, when other notes link here via typed `relationships:` frontmatter, a new **Relationship neighbors** section appears — grouped by type:
 
 - Builds on this note
 - Pushes against this note
@@ -2824,7 +2824,7 @@ On note pages, when other notes link here via typed `relationships:` frontmatter
 
 Each row is a card with the source note title and the relationship `reason`. Example: `/notes/decision-quality/` shows incoming links from [[Slow the Moment]], [[Discern His Will Daily]], etc.
 
-Outgoing relationships stay in the existing table in the note body - this panel is for **incoming** typed links only (backlinks don’t show relationship type).
+Outgoing relationships stay in the existing table in the note body — this panel is for **incoming** typed links only (backlinks don’t show relationship type).
 
 ### 2. Radial graph toggle
 **Force** / **Radial** buttons on:
@@ -2836,14 +2836,14 @@ Radial mode centers the focus note (or the most-connected node on the global gra
 ---
 
 **Files touched:**
-- `layouts/_partials/notes/relationships-index.html` - reverse relationship index
-- `layouts/_partials/notes/relationship-neighbors.html` - panel data + grouping
-- `layouts/notes/single.html` - renders panel
-- `layouts/_partials/notes/toc.html` - TOC entry
-- `layouts/_partials/notes/local-graph.html` - layout toggle
-- `layouts/notes/graph.html` - layout toggle
-- `assets/js/notes-graph.js` - radial layout
-- `assets/css/custom.css` - panel styling
+- `layouts/_partials/notes/relationships-index.html` — reverse relationship index
+- `layouts/_partials/notes/relationship-neighbors.html` — panel data + grouping
+- `layouts/notes/single.html` — renders panel
+- `layouts/_partials/notes/toc.html` — TOC entry
+- `layouts/_partials/notes/local-graph.html` — layout toggle
+- `layouts/notes/graph.html` — layout toggle
+- `assets/js/notes-graph.js` — radial layout
+- `assets/css/custom.css` — panel styling
 
 Hugo build passes. Try **Radial** on a note with a few links, or open Decision Quality to see the neighbors panel.
 
@@ -2940,7 +2940,7 @@ Three panels, three different questions. They share the same card UI but scan di
 | **Direction** | Incoming → this note | Outgoing ← this note | Incoming → this note |
 | **Question it answers** | Who *typed* a link to me, and how? | What does *this* note point at? | Who mentions me anywhere? |
 | **Data source** | Other notes’ `relationships:` frontmatter only | Any `[[wikilink]]` in *this* note’s assembled content | Any `[[wikilink]]` in *any* note’s assembled content |
-| **Link types** | Typed: extends, contradicts, implements, alternative | Untyped - just a link | Untyped - just a link |
+| **Link types** | Typed: extends, contradicts, implements, alternative | Untyped — just a link | Untyped — just a link |
 | **Grouping** | By relationship type | Flat, deduped | Flat |
 | **Card subtitle** | Source note’s `reason` field | Target note’s description blurb | Context snippet (sentence from prose, or `reason` if from relationships) |
 | **Hidden when** | No incoming typed relationships | Hub/MOC pages that already list links in the body | No one links here |
@@ -2954,8 +2954,8 @@ flowchart LR
   A -->|"Relationship neighbors"| B
 ```
 
-- **Links from this Note** - only on the page you’re reading; shows where *you* point.
-- **Backlinks** and **Relationship neighbors** - both show who points *at you*, but they don’t use the same filter.
+- **Links from this Note** — only on the page you’re reading; shows where *you* point.
+- **Backlinks** and **Relationship neighbors** — both show who points *at you*, but they don’t use the same filter.
 
 ## What each one actually scans
 
@@ -2984,9 +2984,9 @@ On something like **Decision Quality**, you’ll often see the same note in **tw
 
 | Panel | [[Slow the Moment]] |
 |---|---|
-| Relationship neighbors | Yes - under “Builds on this note”, with its `reason` |
-| Backlinks | Yes - same wikilink appears in assembled content |
-| Links from this Note | No - that’s the other direction |
+| Relationship neighbors | Yes — under “Builds on this note”, with its `reason` |
+| Backlinks | Yes — same wikilink appears in assembled content |
+| Links from this Note | No — that’s the other direction |
 
 So **Relationship neighbors ⊂ Backlinks** for typed relationship links. Backlinks is the superset: prose mentions, `key_concept` links, relationship table links, everything.
 
@@ -3003,13 +3003,13 @@ So **Relationship neighbors ⊂ Backlinks** for typed relationship links. Backli
 
 ## Practical example ([[Decision Quality]])
 
-- **Links from this Note** - [[Low Hanging Fruit]], [[Discern His Will Daily]], [[Energy Protects Judgment]], etc. (your outgoing `relationships` + any prose wikilinks).
-- **Relationship neighbors** - [[Slow the Moment]], [[Behavioral Economics]], etc., grouped as “Builds on this note”, each with that note’s `reason`.
-- **Backlinks** - all of the above sources *plus* anything that mentions you in `key_concept` or prose without a typed relationship row.
+- **Links from this Note** — [[Low Hanging Fruit]], [[Discern His Will Daily]], [[Energy Protects Judgment]], etc. (your outgoing `relationships` + any prose wikilinks).
+- **Relationship neighbors** — [[Slow the Moment]], [[Behavioral Economics]], etc., grouped as “Builds on this note”, each with that note’s `reason`.
+- **Backlinks** — all of the above sources *plus* anything that mentions you in `key_concept` or prose without a typed relationship row.
 
 ---
 
-**Short version:** Outgoing = your links out. Backlinks = everyone’s links in (any wikilink). Relationship neighbors = everyone’s *typed* links in, grouped by relationship kind - the structured “how does this idea connect?” view that plain backlinks don’t show.
+**Short version:** Outgoing = your links out. Backlinks = everyone’s links in (any wikilink). Relationship neighbors = everyone’s *typed* links in, grouped by relationship kind — the structured “how does this idea connect?” view that plain backlinks don’t show.
 
 ---
 
@@ -3326,7 +3326,7 @@ Total in 21429 ms
 
 _**Agent (auto-low)**_
 
-Done. **Force** and **Radial** now sit inside the graph overlay, immediately left of the present (expand) button - on both per-note local graphs and `/notes/graph/`.
+Done. **Force** and **Radial** now sit inside the graph overlay, immediately left of the present (expand) button — on both per-note local graphs and `/notes/graph/`.
 
 Top-right order (right → left): **Global graph** → **Present** → **Force | Radial**
 
@@ -3383,7 +3383,7 @@ In **Radial** mode, distance is **hop count from the center note**, not relation
 ## How “distance” is computed
 
 1. **Breadth-first search (BFS)** from that center along wikilink edges.
-2. Each hop adds **1** to depth - edges are treated as **undirected** (A→B and B→A are the same step).
+2. Each hop adds **1** to depth — edges are treated as **undirected** (A→B and B→A are the same step).
 3. **Shortest path wins.** If two paths exist, the smaller hop count is used.
 4. Nodes with **no path** to the center go on an extra outer ring.
 
@@ -3397,14 +3397,14 @@ Nodes are placed on **rings** by depth:
 radius = depth × spacingUnit() × 1.35
 ```
 
-- **Depth 0** - center (radius 0)
-- **Depth 1** - direct neighbors (one wikilink away)
-- **Depth 2** - neighbors of neighbors
+- **Depth 0** — center (radius 0)
+- **Depth 1** — direct neighbors (one wikilink away)
+- **Depth 2** — neighbors of neighbors
 - and so on
 
 `spacingUnit()` is roughly **largest node size + 120px** (room for labels). The `× 1.35` is padding between rings.
 
-On the same ring, nodes are spread **evenly by angle** - not by which parent they link to.
+On the same ring, nodes are spread **evenly by angle** — not by which parent they link to.
 
 ## Reading it on the graph
 
@@ -3419,12 +3419,12 @@ On the same ring, nodes are spread **evenly by angle** - not by which parent the
 
 ## What radial does *not* use
 
-- Relationship type (`extends` vs `contradicts`) - no effect on ring placement  
-- Typed `relationships:` vs prose wikilinks - both are just edges  
-- Link direction - traversal is undirected  
+- Relationship type (`extends` vs `contradicts`) — no effect on ring placement  
+- Typed `relationships:` vs prose wikilinks — both are just edges  
+- Link direction — traversal is undirected  
 - Tag similarity, backlink count, etc.
 
-Force mode uses physics (repulsion + link springs). Radial uses **fixed rings from BFS** - no simulation after layout.
+Force mode uses physics (repulsion + link springs). Radial uses **fixed rings from BFS** — no simulation after layout.
 
 ## Disconnected notes
 
@@ -3440,7 +3440,7 @@ Same distance from center as each other; only angle differs. They aren’t linke
 
 **Short version:** Radial distance = **wikilink hops from the center**. One ring per hop; same ring = same distance to center. It’s a link map, not a semantic similarity map.
 
-If you want distance to reflect relationship type (e.g. `contradicts` farther than `extends`) or only count outgoing links, that would be a separate layout rule - not how it works today.
+If you want distance to reflect relationship type (e.g. `contradicts` farther than `extends`) or only count outgoing links, that would be a separate layout rule — not how it works today.
 
 ---
 
@@ -3462,7 +3462,7 @@ Global graphs support unlimited depth, but local graphs are limited to the focus
 
 _**Agent (auto-low)**_
 
-Checking what limits ring count in the radial layout - likely the local graph's neighbor depth.
+Checking what limits ring count in the radial layout — likely the local graph's neighbor depth.
 
 
 _**Agent (auto-low)**_
@@ -3593,11 +3593,11 @@ Preparing a response about adding more rings.
 
 _**Agent (auto-low)**_
 
-Yes - and there are two different things people mean by “more rings.”
+Yes — and there are two different things people mean by “more rings.”
 
 ## 1. More rings of **nodes** (more hops visible)
 
-The radial layout already creates **one ring per wikilink hop**. There’s no fixed ring limit in the JS - depth 1, 2, 3… each get their own ring automatically.
+The radial layout already creates **one ring per wikilink hop**. There’s no fixed ring limit in the JS — depth 1, 2, 3… each get their own ring automatically.
 
 The real limit is **what data gets loaded**:
 
@@ -3606,7 +3606,7 @@ The real limit is **what data gets loaded**:
 | **Per-note local graph** | Center note + **1-hop** neighbors only | **2 rings** (center + direct links) |
 | **Global graph** (`/notes/graph/`) | Up to 240 most-connected notes, full edges among them | As many hops as the graph needs from the center |
 
-So on a note page, radial often looks flat - not because radial can’t do more rings, but because `graph-data-local.html` only pulls **immediate** neighbors:
+So on a note page, radial often looks flat — not because radial can’t do more rings, but because `graph-data-local.html` only pulls **immediate** neighbors:
 
 ```5:12:layouts/_partials/notes/graph-data-local.html
 {{- range $graph.edges -}}
@@ -3619,7 +3619,7 @@ So on a note page, radial often looks flat - not because radial can’t do more 
 {{- end -}}
 ```
 
-**To add more rings on note pages:** expand that to 2-hop, 3-hop, etc. (e.g. a `local_graph_depth = 2` param in `params.toml`). That’s a small Hugo template change - BFS in the partial, same pattern as the JS radial layout.
+**To add more rings on note pages:** expand that to 2-hop, 3-hop, etc. (e.g. a `local_graph_depth = 2` param in `params.toml`). That’s a small Hugo template change — BFS in the partial, same pattern as the JS radial layout.
 
 On the **global graph**, you already get more rings wherever the link chain goes deep enough.
 
@@ -3636,7 +3636,7 @@ radius = depth × spacingUnit() × 1.35
 - `spacingUnit()` ≈ largest node + 120px (label room)
 - `1.35` is ring padding
 
-Increasing that multiplier (e.g. `1.8` or `2.0`) or adding a `graph_radial_ring_gap` param would push rings farther apart. That doesn’t add nodes - it just spreads the same rings out.
+Increasing that multiplier (e.g. `1.8` or `2.0`) or adding a `graph_radial_ring_gap` param would push rings farther apart. That doesn’t add nodes — it just spreads the same rings out.
 
 ---
 
@@ -3729,11 +3729,11 @@ I'll explain what changed.
 
 _**Agent (auto-low)**_
 
-Yes - that was a layout issue, not a data limit.
+Yes — that was a layout issue, not a data limit.
 
 **What was wrong:** Every node at hop 1 went on a **single** circle. Hubs like [[Decision Quality]] or [[PKM]] can have 20+ direct neighbors, so ring 1 got crowded.
 
-**What changed:** Radial mode now **splits crowded rings into sub-rings** - max **10 nodes per circle**. They still count as hop 1 for graph distance, but they’re spread across multiple concentric circles within that hop band.
+**What changed:** Radial mode now **splits crowded rings into sub-rings** — max **10 nodes per circle**. They still count as hop 1 for graph distance, but they’re spread across multiple concentric circles within that hop band.
 
 Example with 25 direct neighbors:
 - **Before:** all 25 on one ring  
@@ -3776,10 +3776,10 @@ Short answer: **spiral is better for label crowding; radial is better for readin
 | | **Radial** (what you have) | **Spiral** |
 |---|---|---|
 | **Reads as** | “How many wikilink hops from here?” | “Here’s everything, spread out” |
-| **Hop 1 vs hop 2** | Clear - inner vs outer bands | Blurry - same curve, distance mixes |
+| **Hop 1 vs hop 2** | Clear — inner vs outer bands | Blurry — same curve, distance mixes |
 | **Many direct neighbors** | Sub-rings (10 per circle) | One continuous curve, natural spacing |
-| **Mind-map feel** | Strong - center + branches | Strong - organic, exploratory |
-| **PKM maintenance** | Good - orphans/hubs visible by ring | Weaker - structure is harder to scan |
+| **Mind-map feel** | Strong — center + branches | Strong — organic, exploratory |
+| **PKM maintenance** | Good — orphans/hubs visible by ring | Weaker — structure is harder to scan |
 
 ## When spiral wins
 
@@ -3789,9 +3789,9 @@ Short answer: **spiral is better for label crowding; radial is better for readin
 
 ## When radial wins (your case more often)
 
-- **Local graph on a note page** - you care which links are direct vs one step removed
+- **Local graph on a note page** — you care which links are direct vs one step removed
 - **Relationship neighbors + backlinks** already answer “who connects how”; the graph should show **topology**
-- You just fixed depth-1 crowding with **sub-rings** - radial’s main weakness is partly addressed
+- You just fixed depth-1 crowding with **sub-rings** — radial’s main weakness is partly addressed
 
 ## The real tradeoff
 
@@ -3810,7 +3810,7 @@ Spiral:     center ～～～～～～～～～～→   (distance = color/legend 
 | Pretty exploration of a huge hub | **Spiral** (or Force) |
 | Less overlap without losing hop meaning | **Radial + sub-rings** (current) |
 
-I wouldn’t **replace** radial with spiral. I’d add **Spiral as a third toggle** (Force | Radial | Spiral) if you still find hub notes unreadable after sub-rings - spiral as an optional “spread it out” view, radial as the structural one.
+I wouldn’t **replace** radial with spiral. I’d add **Spiral as a third toggle** (Force | Radial | Spiral) if you still find hub notes unreadable after sub-rings — spiral as an optional “spread it out” view, radial as the structural one.
 
 If you want that, a sensible spiral would: BFS from center, place nodes along an Archimedean spiral ordered by depth, and **keep node color by hop** so distance doesn’t disappear entirely.
 
@@ -4188,7 +4188,7 @@ The rank-mode focus stroke now uses `nodeCenter` instead of `nodeFocus`. The foc
 
 Updating `nodeFill` to accept `isFocus` and check `node.isCenter` directly. This lets the function return `colors.nodeCenter` for both focused and center nodes.
 
-nodeFill now checks node properties-such as orphan, top, bottom, middle, and deadEnd-alongside the active graph filter to assign the correct color token. The initRadialPositions function is being updated next.
+nodeFill now checks node properties—such as orphan, top, bottom, middle, and deadEnd—alongside the active graph filter to assign the correct color token. The initRadialPositions function is being updated next.
 </details></think>
 
 _**Agent (auto-low)**_
@@ -4310,4 +4310,4 @@ The center node gets a yellow halo and stroke as well. On the global graph in ra
 
 Filter chip counts on `/notes/graph/` use the same green/red. The hint line under the graph explains the legend.
 
-**Tag colors** mode is unchanged - it still colors by tag, not rank.
+**Tag colors** mode is unchanged — it still colors by tag, not rank.

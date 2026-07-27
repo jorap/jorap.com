@@ -327,5 +327,776 @@ Beginning thorough audits of each draft file.
 
 Checking drafts against ten audit criteria: AI tells, corporate voice, em dashes, summary sandwiches, flat headings, missing first-person, currency amounts, weak closings, SEO frontmatter, and formatting artifacts. __inter-font.md may have a doubled blank line near the end.
 
-__inter-font.md trailing blank lines appear 
+__inter-font.md trailing blank lines appear acceptable. __wifi-router.md shows a blank line before its closing heading; line 73 contains the `---` separator.
+
+__wifi-router.md is clean: a `---` separator sits before its final closing heading. __inter-font.md also passes the formatting check; a `---` appears at line 112 between its last two sections.
+
+__interesting-facts-about-jorap.md uses flat manual headings for a meta/index post structured as category tables. Now beginning a thorough line-by-line audit of this file.
+
+The first-person voice holds strong in the intro and closing. Flat category headings like "Family and home" and "Gear, tools, and habits" mark the meta-post. The section "What this is good for" shows parallelism disease: three bold labels share identical shape. Frontmatter is clean and free of currency.
+
+The closing lands well. The closing is good - "worth a rewrite" lands well
+
+The meta-post verdict is LIGHT POLISH. Its flat headings may be intentional for a table format, though the guide expects personality. "## What this is good for" should become "## A sanity check, not an identity document" from existing content. "## If something drifts" already carries personality. Table entries are not true bullets. The third-person address in the "For you" section is acceptable for a blog post. __inter-font.md is on-brand and strong overall.
+
+__inter-font.md H2 headings mostly carry personality. Minor flatness exists in lines 29 and 68, yet both remain acceptable.
+
+__inter-font.md bullets at lines 84–86 repeat the same bold label shape three times, confirming parallelism disease under rule 4. The Code blocks / A print-first brand / A game or kid site list at 106–108 opens differently per item, so it avoids the same trap. The body/labels/section headings ladder at 55–58 is an intentional typographic hierarchy, not a summary sandwich. The significance claim at line 29 is acceptable.
+
+__inter-font.md is LIGHT POLISH. The "sweet spot" phrase at line 68 is slightly abstract but acceptable. Frontmatter is clean and free of currency.
+
+__selling-static-sites.md is strong. Its H2 headings are mostly effective, though "What I actually charge for" is slightly manual.
+
+__selling-static-sites.md contains seven bold-label items in the "What I actually charge for" section. Each repeats the same shape and period. This confirms parallelism disease under rule 4. "When the default setup isn't enough" is slightly flat. The closing heading "What I'd tell a friend hiring someone like me" carries personality.
+
+The opening summary sandwich is intentional, matching the calibration post’s TL;DR pattern. The closing at line 109 is strong. Frontmatter description is clean and first-person. Currency amounts are absent; the draft uses vague terms like “budget-tier” and “cheap PHP hosting.” The “rough shape, not a price list” line at line 65 is effective.
+
+__selling-static-sites.md is LIGHT POLISH. The flat heading "## When the default setup isn't enough" should read "## When the starter hosting line isn't enough" from line 94. The parallel bold-label section remains the main flaw.
+
+__client-site-pass-off.md carries strong voice. Its H2 headings are mostly effective, though "## Questions to ask before you hire anyone" is slightly manual and generic.
+
+__client-site-pass-off.md’s “Why this matters for credibility” heading is abstract and inflated. Its H3 subheadings are flat product names. The one-page doc section at lines 79–84 repeats six bold labels in identical shape, confirming parallelism disease under rule 4. The questions section at lines 104–110 also repeats the same **What/Who** opening across four items.
+
+__client-site-pass-off.md’s credibility section risks a summary sandwich. The body rephrases the opening line “Launch day is when the real job starts” as “whether the site keeps working when the meeting ends,” then restates again with “Clients don’t remember...” The closing line “Launch is not the finish line” echoes the opening, suggesting an intentional callback rather than a full summary sandwich.
+
+__client-site-pass-off.md is LIGHT POLISH. Frontmatter is clean and free of currency.
+
+__wifi-router.md is a partially expanded outline with a checklist-like feel. Its title "Wifi Router" is flat. Most H2 headings carry personality, though "Wired ports still matter" is slightly manual.
+
+__wifi-router.md is a generic buying-guide draft. Sections 25–71 lack personal specifics and real failures; only the opening mentions a weekly reboot ritual. The "one failure rule" is not followed. Relative cost phrasing is acceptable without currency.
+
+__wifi-router.md is a DEEP REWRITE candidate. Its numbered list at lines 75–84 repeats six identical Coverage/Stability/Sensible/Firmware/Enough/Setup openings, confirming parallel drone under rule 4. The draft lacks a named router model and concrete failures beyond the opening. The "shortlist" section at lines 75–84 is a classic summary sandwich, restating the entire post after earlier prose sections already covered it. The closing is weak and generic, leaving the piece thin on personal detail.
+
+__wifi-router.md frontmatter description and meta_title are acceptable. The closing at lines 88–90 is generic without a specific pick. A doubled
 </details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": true,
+  "glob": "__{interesting-facts-about-jorap,inter-font,selling-static-sites,client-site-pass-off,wifi-router}.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "sweet spot|landscape|crucial|essential|navigate|comprehensive|optimal|facilitate|implement|leverage|delve|harness|tapestry|seamless|robust|Additionally|Furthermore|Moreover|worth noting|boasts|When it comes to|In today's|Let's dive|game-changer|must-have|At the end of the day"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "sweet spot|landscape|crucial|essential|navigate|comprehensive|optimal|facilitate|implement|leverage|delve|harness|tapestry|seamless|robust|Additionally|Furthermore|Moreover|worth noting|boasts|When it comes to|In today's|Let's dive|game-changer|must-have|At the end of the day",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__inter-font.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": true,
+  "glob": "__{interesting-facts-about-jorap,inter-font,selling-static-sites,client-site-pass-off,wifi-router}.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "users should|it is recommended|one might|consumers should|one should"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "users should|it is recommended|one might|consumers should|one should",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": true,
+  "glob": "__{interesting-facts-about-jorap,inter-font,selling-static-sites,client-site-pass-off,wifi-router}.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "Bottom line|hope this helps|in conclusion|To sum up|Happy reading"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "Bottom line|hope this helps|in conclusion|To sum up|Happy reading",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: for f in __interesting-facts-about-jorap.md __inter-font.md __selling-static-sites.md __client-site-pass-off.md __wifi-router.md; do echo &#34;=== $f doubled blanks ===&#34;; awk &#39;BEGIN{prev=0} /^$/ {if(prev) print NR-1 &#34;-&#34; NR; prev=1; next} {prev=0}&#39; &#34;/home/jorap/Documents/GitHub/jorap.com/content/english/blog/$f&#34;; done</summary>
+```bash
+for f in __interesting-facts-about-jorap.md __inter-font.md __selling-static-sites.md __client-site-pass-off.md __wifi-router.md; do echo "=== $f doubled blanks ==="; awk 'BEGIN{prev=0} /^$/ {if(prev) print NR-1 "-" NR; prev=1; next} {prev=0}' "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/$f"; done
+```
+
+```
+=== __interesting-facts-about-jorap.md doubled blanks ===
+=== __inter-font.md doubled blanks ===
+=== __selling-static-sites.md doubled blanks ===
+=== __client-site-pass-off.md doubled blanks ===
+=== __wifi-router.md doubled blanks ===
+
+```
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "__wifi-router.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "\\bI\\b|\\bmy\\b|\\bI'd\\b"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "\\bI\\b|\\bmy\\b|\\bI'd\\b",
+  "topFiles": [
+    {
+      "matchCount": 18,
+      "uri": "content/english/blog/__wifi-router.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 18
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Beginning a thorough audit of the draft posts against the style guide.
+
+Checking __inter-font.md for formatting artifacts. Trailing blank lines appear at lines 121-122. The final section lacks a closing `---` separator before its paragraph.
+
+The final section in __inter-font.md does have a closing `---` separator. The trailing blank lines at lines 120–122 are end-of-file whitespace, not doubled lines or a missing separator.
+
+__wifi-router.md also has a closing `---` before its final section. Reconsidering whether the formatting rule targets a stray paragraph after the last H2 block rather than the final section itself.
+
+__inter-font.md contains no stray paragraph after its final H2 block. The audit is expanding to include voice-words.yaml and parallel bullet checks across all drafts. __interesting-facts-about-jorap.md shows seven flat category-label H2 headings.
+
+Flat H2 headings in __interesting-facts-about-jorap.md may be intentional for scannability, but the guide flags them. The closing section uses a parallel bold-label pattern: **For me:** **For you:** **What it misses:**. The opening is strong first person. Frontmatter is clean and not SEO-stuffed. Verdict: LIGHT POLISH. Now auditing __inter-font.md.
+
+Line 68 uses "sweet spot," a borderline generic term. Lines 84–86 contain three parallel bold-label bullets, violating rule 4. Lines 55–58 present a typographic ladder with four bold entries, which is structurally parallel but differs in content type.
+
+Lines 106–108 are acceptable because their openings differ. H2 headings throughout __inter-font.md are mostly strong and personality-driven. A slight summary-sandwich restatement appears at line 23, though it is minor.
+
+Line 29 contains a slightly generic encyclopedic insert about Rasmus Andersson and Inter’s history. The trailing blank lines at the end of __inter-font.md are normal end-of-file whitespace, not doubled lines or a missing separator.
+
+__inter-font.md is now judged LIGHT POLISH.
+
+__selling-static-sites.md violates rule 4 with seven parallel bold-label bullets at lines 37–49. The H2 "## What I actually charge for" is slightly manual but retains first-person. "## When the default setup isn't enough" is flat and manual. The summary-sandwich pattern in the TL;DR and opening is acceptable per the calibration standard.
+
+__selling-static-sites.md is judged LIGHT POLISH. The closing section is strong. No currency amounts appear. Relative terms are acceptable.
+
+__client-site-pass-off.md uses flat H3 headings for four paths. These are categorical labels rather than generic product names.
+
+__client-site-pass-off.md contains two H2 headings flagged as generic manual: "## Questions to ask before you hire anyone" and "## Why this matters for credibility." The latter inflates significance. Parallel bold-label bullets appear at lines 79–84 and in the questions section at lines 104–110. The showroom and Git-based CMS labels are categorical labels rather than flat product names.
+
+__client-site-pass-off.md is judged LIGHT POLISH. The launch-day echo at line 124 is likely an intentional callback rather than a summary-sandwich violation. Corporate voice and first-person are handled well.
+
+__wifi-router.md is the weakest draft. It reads like a generic buying guide or expanded outline, and many paragraphs could appear in any router guide.
+
+__wifi-router.md contains only scattered personal details: a weekly reboot ritual, video call drops, kid's homework, and a sketch floor plan. Sections lack one concrete failure or specific example per slop gate. The H2 "## Wired ports still matter" is flat and should cite line 61's "Everything is wireless until it isn't." The numbered shortlist at lines 75–84 is a summary-sandwich restatement of earlier material. Its parallel structure repeats the same clause type across items.
+
+The numbered shortlist at lines 75–84 is an intentional recap, yet it still functions as a summary-sandwich restatement of prior sections. The opening lacks a named router or model. The closing paragraph avoids currency but also omits a specific product recommendation, leaving readers without a clear "what I'd buy again" choice.
+
+__wifi-router.md is now judged DEEP REWRITE. It is outline-heavy and fails the lived-in voice pass. The author must supply a specific product pick rather than inventing one. Frontmatter meta_titles are checked for SEO stuffing; the title for __interesting-facts-about-jorap.md carries personality and is acceptable.
+
+All frontmatter meta_titles are acceptable and not SEO-stuffed. The wifi-router title "Wifi Router" is flat and generic, though the audit focuses on H2 headings for rule 5.
+
+Expanding the audit to catch subtle AI tells. Searching for overused phrases like "plays a key role," "important to remember," and "not X but Y" patterns. Flagging "what moves
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/voice-words.yaml</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "__{interesting-facts-about-jorap,inter-font,selling-static-sites,client-site-pass-off,wifi-router}.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "plays a key role|important to remember|While .+ benefits|moves the needle|It's not .+\\. It's|That's not .+\\. It's"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "plays a key role|important to remember|While .+ benefits|moves the needle|It's not .+\\. It's|That's not .+\\. It's",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__client-site-pass-off.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__selling-static-sites.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__inter-font.md"
+    }
+  ],
+  "totalFiles": 3,
+  "totalMatches": 3
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "__{interesting-facts-about-jorap,inter-font,selling-static-sites,client-site-pass-off,wifi-router}.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "^\\*\\*[^*]+:\\*\\*"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "^\\*\\*[^*]+:\\*\\*",
+  "topFiles": [
+    {
+      "matchCount": 3,
+      "uri": "content/english/blog/__interesting-facts-about-jorap.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 3
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__inter-font.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Expanding the audit to check other files for bold-label patterns. Re-examining __wifi-router for generic voice issues.
+
+__wifi-router shows a summary sandwich, flat H2 headings, and an outline-like structure. It lacks specific product details and needs DEEP REWRITE. Now checking __selling-static-sites for bold-label violations.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "__selling-static-sites.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "^\\*\\*"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "^\\*\\*",
+  "topFiles": [
+    {
+      "matchCount": 7,
+      "uri": "content/english/blog/__selling-static-sites.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 7
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "__client-site-pass-off.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "^\\*\\*"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "^\\*\\*",
+  "topFiles": [
+    {
+      "matchCount": 4,
+      "uri": "content/english/blog/__client-site-pass-off.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 4
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "__{interesting-facts-about-jorap,inter-font,selling-static-sites,client-site-pass-off,wifi-router}.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "^## "
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "^## ",
+  "topFiles": [
+    {
+      "matchCount": 7,
+      "uri": "content/english/blog/__selling-static-sites.md"
+    },
+    {
+      "matchCount": 8,
+      "uri": "content/english/blog/__wifi-router.md"
+    },
+    {
+      "matchCount": 8,
+      "uri": "content/english/blog/__inter-font.md"
+    },
+    {
+      "matchCount": 7,
+      "uri": "content/english/blog/__interesting-facts-about-jorap.md"
+    },
+    {
+      "matchCount": 7,
+      "uri": "content/english/blog/__client-site-pass-off.md"
+    }
+  ],
+  "totalFiles": 5,
+  "totalMatches": 37
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm lint:voice 2&gt;&amp;1 | rg &#39;__interesting-facts|__inter-font|__selling-static|__client-site|__wifi-router&#39; || true; pnpm lint:slop 2&gt;&amp;1 | rg &#39;__interesting-facts|__inter-font|__selling-static|__client-site|__wifi-router&#39; || true</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:voice 2>&1 | rg '__interesting-facts|__inter-font|__selling-static|__client-site|__wifi-router' || true; pnpm lint:slop 2>&1 | rg '__interesting-facts|__inter-font|__selling-static|__client-site|__wifi-router' || true
+```
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+The initial lint check passed cleanly.
+
+Now checking client-site-pass-off for bold bullets in the one-page doc section (lines 79-84).
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__client-site-pass-off.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": true,
+  "glob": "__wifi-router.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "announc|In this section|we'll cover|Here'?s what"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "announc|In this section|we'll cover|Here'?s what",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__wifi-router.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": true,
+  "glob": "__{interesting-facts-about-jorap,inter-font,selling-static-sites,client-site-pass-off,wifi-router}.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "features|offers a|provides|delivers|ensures"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "features|offers a|provides|delivers|ensures",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__interesting-facts-about-jorap.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/blog/__wifi-router.md"
+    }
+  ],
+  "totalFiles": 2,
+  "totalMatches": 3
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Auditing the client-site-pass-off bullets at lines 79–84.
+
+The pass-off bullets at lines 79–84 are six parallel items beginning with bold labels, violating the parallel drone rule. Sections 25–64 of the wifi-router draft are mostly generic buying-guide voice despite scattered first-person mentions; the swap-test check fails there.
+
+Mesh section (lines 67–72) includes first-person grounding. The wifi-router draft lacks specific personal failures beyond the opening reboot story. Existing facts—weekly reboots, dropped calls, kids, and floor plans—can be woven into the generic sentences to ground them in the author’s actual experience. Lines 75–84 repeat all six bullet points in a summary sandwich, violating the repetition rule.
+
+Frontmatter title is flat. The meta_title and description are acceptable. Flat H2 headings in the jorap facts draft are intentional for a table index but still flagged. A "what this is good for" section is flat. Three parallel **For me/For you/What it misses** items appear.
+
+The "Family and home" heading in the jorap facts draft is flat. It should become a personality heading such as "Team Rapusas and the Instant Pot." The "Work and the site" section should similarly adopt a concrete label like "Hugo, WordPress, and the ninety-second deploy."
+
+The inter-font draft avoids summary sandwiches and corporate voice. Lines 21–23 are acceptable restatements. The rhythm metaphor at lines 33–34 is effective.
+
+The selling-static-sites draft uses "moves the needle" at line 108, which reads as corporate jargon. The weight-ladder bullets at lines 21–24 are four parallel items, though they may function as an acceptable checklist. The pass-off closing is strong, not weak.
+
+The "Why this matters for credibility" heading at lines 116–120 inflates significance. The opening launch-day line at line 25 and the closing pass-off line at line 124 echo each other; this is a deliberate callback rather than a strong summary sandwich violation.
+
+The inter-font draft has a `---` separator at line 112 before its final sections. The wifi-router draft ends with H2 content and no orphan paragraph, so it does not violate the missing-separator rule.
+
+No file is fully CLEAN. The wifi-router draft is marked DEEP REWRITE. The remaining drafts are marked LIGHT POLISH. The inter-font draft is the strongest candidate for CLEAN.
+
+The wifi-router draft contains no currency amounts or pesos. The jorap facts draft uses a percentage figure, not a price. The selling-static-sites heading "## What I actually charge for" is borderline manual but acceptable because it uses first-person. The "## What a real quote looks like" heading is fine.
+
+The wifi-router draft contains no explicit corporate phrases like "one might." Its generic buying-guide voice is being framed under rule 1 (AI tells / hollow prose) and rule 6 (missing first-person grounding), even though those specific user criteria were not explicitly listed among the ten rules.
+
+The wifi-router draft is not a strict rule-6 violation because it uses first-person throughout; the real problem is thin lived-in specifics. The inter-font draft is solid at lines 98 and 104. The jorap facts draft opens with strong first-person voice.
+
+The pass-off draft’s H3 headings for Git lessons and retainer batches are flat manual names. They may be intentional taxonomy labels rather than H2 violations. The report will be organized by file, line number, exact quote, broken rule, and replacement drawn solely from existing facts. Draft lengths are roughly 127 lines for the jorap facts post and 121 lines for the inter-font post.
+
+The selling-static-sites draft is 110 lines. The client-site-pass-off draft is 125 lines. The wifi-router draft is 92 lines.
+
+The inter-font draft contains a textbook-style paragraph about Rasmus Andersson at line 29. That encyclopedic insertion breaks the swap-test and reads as generic filler.
+
+The inter-font draft’s encyclopedic Rasmus Andersson paragraph at line 29 is hollow filler under Rule 1. It should be replaced with the existing fact that the author met Inter in Refactoring UI, cutting the second sentence or tying the observation to that lived-in detail.
+
+The wifi-router draft uses concrete router model names like AX6000. It omits the weekly reboot ritual from the opening line in sections 35–41. A replacement should weave that existing lived-in detail into the generic comparison.
+
+The wifi-router replacement at line 35–41 uses the existing weekly-reboot ritual to ground the generic comparison. The pass-off draft has minor capitalization
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="update_current_step"><details>
+<summary>Tool use: **update_current_step**</summary>
+An unknown error occurred
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Compiling the comprehensive audit report grouped by file.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+# Voice audit: five draft posts
+
+Calibrated against `jorap-voice/SKILL.md`, `examples.md`, and `how-i-built-jorap-notes.md`. No em/en dashes, currency figures, or lint blockers found. Findings below are prose-only rewrites/deletes/reorders using facts already in each file.
+
+---
+
+## `content/english/blog/__interesting-facts-about-jorap.md`
+
+**Verdict: LIGHT POLISH**
+
+Strong meta post overall. First-person intro/closing land well. Frontmatter reads human, not SEO-bot.
+
+### Findings
+
+| Line | Quote | Rule | Suggested replacement |
+|------|-------|------|----------------------|
+| 26 | `## Family and home` | 5 - flat H2 | `## Pia, Isaiah, and Friday arroz caldo` |
+| 43 | `## Work and the site` | 5 - flat H2 | `## Freelance WordPress, Hugo on Cloudflare` |
+| 65 | `## Gear, tools, and habits` | 5 - flat H2 | `## Earphones in a drawer, Shopee filters` |
+| 88 | `## Worship and music` | 5 - flat H2 | `## VLC pads and DNPAP (yes, bias)` |
+| 99 | `## Games, sports, and hobbies` | 5 - flat H2 | `## Alex Eala, Marvel Snap, Hanamikoji rethemes` |
+| 112 | `## What this is good for` | 5 - flat H2 | `## A sanity check, not an identity document` |
+| 114-118 | `**For me:**` / `**For you:**` / `**What it misses:**` (three bold-label blocks, same shape) | 4 - parallel bold-label drone | Merge into one paragraph: "For me this is a quick read to see if the facts still line up - same kid age, same stack, same worship setup, same earphones in the drawer. If you're new here, start with the rows that sound most like a person and click through; if Pia, Isaiah, the Instant Pot, and the VLC pads show up in the linked posts, it's probably still me typing. What it misses: opinions, half-finished drafts, and everything I never wrote down." |
+
+### Clean areas
+- No AI-tell phrases, corporate no-subject voice, currency, weak closings, or formatting artifacts.
+- `description` / `meta_title` (lines 3-4) are on-voice.
+- Closing (lines 124-126) lands well.
+
+---
+
+## `content/english/blog/__inter-font.md`
+
+**Verdict: LIGHT POLISH**
+
+Closest to calibration standard. Strong first-person, specific stack details, good closings.
+
+### Findings
+
+| Line | Quote | Rule | Suggested replacement |
+|------|-------|------|----------------------|
+| 29 | `Rasmus Andersson released it in 2016 and kept iterating. You've seen it even if you don't know the name: app UIs, dashboards, docs sites, half the internet's "clean modern" phase.` | 1 - generic encyclopedic filler (swap-test fail) | `I'd seen it on app UIs and docs sites before the book named it. Refactoring UI just told me to stop shopping.` |
+| 55-58 | `- **Body**: 400, normal tracking` / `- **Labels and small UI**: 500 or 600` / `- **Section headings**: 600 semibold, tighter tracking` / `- **Page titles**: 700 bold, tighter still` | 4 - parallel bold-label drone (4 items, same shape) | `Rough ladder on this site: body at 400 with normal tracking; labels and small UI at 500 or 600; section headings at 600 semibold with tighter tracking; page titles at 700 bold, tighter still.` |
+| 68 | `Inter sits in a sweet spot between **system UI** and **designed sans**.` | 1 - slightly generic / written-to-impress | `Inter sits between system UI and a designed sans - close enough to native, plain enough for essays.` |
+| 84-86 | `- **Privacy**: visitors aren't hitting Google's font CDN on every page load.` / `- **Reliability**: a third-party font request can't block first paint because I blocked myself on a bad hotel Wi-Fi day.` / `- **Consistency**: same files everywhere, not "whatever Google serves this week."` | 4 - parallel bold-label drone | `I self-host for privacy (no Google font CDN on every page load), reliability (a third-party request can't block first paint - I learned that on bad hotel Wi-Fi), and consistency (same files everywhere, not whatever Google serves this week).` |
+
+### Clean areas
+- No em/en dashes, currency, corporate voice, weak closings, or doubled blank lines.
+- H2 headings mostly have personality.
+- `description` (line 4) and `meta_title` (line 3) are clean.
+- Closing (line 120) lands on what you actually do.
+
+---
+
+## `content/english/blog/__selling-static-sites.md`
+
+**Verdict: LIGHT POLISH**
+
+Strong freelance voice, good specifics (neighbor, pastor, ninety-second deploy). Main issue is structural parallelism in the line-items section.
+
+### Findings
+
+| Line | Quote | Rule | Suggested replacement |
+|------|-------|------|----------------------|
+| 37-49 | Seven consecutive `**Discovery and scope.**` / `**Repo and deploy setup.**` / `**Theme and layout.**` / etc. blocks | 4 - parallel bold-label drone (7 items) | Pick two anchors and fold the rest into prose, e.g.: "**Discovery and scope** always comes first - who updates content, how often, anything behind login, anything that needs a live database. If the job is a bad fit for a static stack, I say so in the room, not after they paid a deposit. After that it's repo and deploy setup (GitHub, Cloudflare, pinned `HUGO_VERSION` and `NODE_VERSION`), theme and layout, content migration from whatever they had, pass-off priced separately, optional retainer batches, and hosting/deploy priced honestly - usually a modest annual or monthly line, not a bloated cPanel-era package." |
+| 92 | `## When the default setup isn't enough` | 5 - flat H2 | `## When the starter hosting line isn't enough` |
+| 108 | `I charge for work that moves the needle and hosting that's priced to match the job` | 1 - corporate jargon | `I charge for work that actually ships and hosting that's priced to match the job` |
+
+### Clean areas
+- No em/en dashes, currency amounts, or weak closings.
+- Opening and closing (lines 21-29, 100-109) are strong first-person.
+- `description` (line 4) / `meta_title` (line 3) read human.
+- TL;DR + body expansion matches calibration post pattern; not a summary sandwich.
+
+---
+
+## `content/english/blog/__client-site-pass-off.md`
+
+**Verdict: LIGHT POLISH**
+
+Best business post in the batch. Neighbor YAML typo and pastor Friday batch are exactly the lived-in details the guide wants.
+
+### Findings
+
+| Line | Quote | Rule | Suggested replacement |
+|------|-------|------|----------------------|
+| 79-84 | `- **Repo URL** and who has access` / `- **Cloudflare project** name...` / `- **Environment variables**...` / `- **Domain and DNS**...` / `- **Build failures**...` / `- **Who to call**...` | 4 - parallel bold-label drone (6 items) | `The page lists repo URL and who has access, Cloudflare project name and deploy branch, environment variables that matter (\`HUGO_VERSION\`, \`NODE_VERSION\`, anything custom), domain and DNS (registrar, what points where), the three boring build fixes (version mismatch, bad frontmatter, asset too large), and who to call when none of that works.` |
+| 100 | `## Questions to ask before you hire anyone` | 5 - flat H2 | `## Who publishes the first typo fix?` |
+| 104-110 | Four consecutive `**Who publishes...**` / `**What does "emergency" mean?**` / `**What do I own...**` / `**What's not included?**` | 4 - parallel bold-label drone | `Ask who publishes the first typo fix after launch - name a person and a method. Ask what "emergency" means (site down vs a photo swap by 4pm). Ask what you own if you part ways - repo access, domain registrar login, Cloudflare account, not everything rented through the developer's email. Ask what's not included - new sections, seasonal campaigns, integrations for tools you haven't bought yet.` |
+| 116 | `## Why this matters for credibility` | 5 - flat H2 + 1 - significance inflation | `## Tuesday's announcement without a crisis` |
+| 116-120 | Opens with "Anyone can make a pretty homepage..." then "Clients don't remember your build pipeline. They remember whether Tuesday's announcement went live without a crisis." | 4 - summary sandwich (same point twice) | Cut line 118. Keep: "Clients don't remember your build pipeline. They remember whether Tuesday's announcement went live without a crisis. They remember whether the pass-off doc existed when your phone was off." |
+| 124-125 | `Launch is not the finish line. It's the pass-off.` (echoes line 25 `Launch day is when the real job starts`) | 4 - restates opening thesis | End on line 122-123 only: `I'd rather lose a job than promise a publish path I won't support. I'd rather price training honestly than absorb unlimited "small tweaks" until I resent the client.` |
+
+### Clean areas
+- No em/en dashes, currency, corporate no-subject voice, or formatting artifacts.
+- `description` (line 4) / `meta_title` (line 3) are clean.
+- H3 path names (`Git lesson`, etc.) work as intentional taxonomy.
+
+---
+
+## `content/english/blog/__wifi-router.md`
+
+**Verdict: DEEP REWRITE**
+
+Only draft that still reads like an expanded buying-guide outline. Opening has good friction (weekly reboot, video call drop, kid's homework); body sections mostly fail the swap test and restate the same checklist.
+
+### Findings
+
+| Line | Quote | Rule | Suggested replacement |
+|------|-------|------|----------------------|
+| 2 | `title: "Wifi Router"` | 5 - flat title (manual, no personality) | `title: "What I Look For in a Home Wifi Router"` (matches meta_title intent on line 3) |
+| 27-29 | `Manufacturers love printing big numbers on the packaging. **AC1900! AX6000!** Most of that is theoretical lab math you'll never see while making adobo and streaming at the same time.` then `What I care about is whether the signal reaches the rooms I actually use` | 4 - slight summary sandwich (box speeds, then coverage again) | `Manufacturers love printing **AC1900! AX6000!** on the box. I care whether the signal reaches the bedroom, kitchen, and home office - the rooms where the video call dropped and my kid's homework tab spun forever.` |
+| 37-39 | `Guest networks, parental controls, VPN servers, USB ports - routers love bundling features most homes never touch. What I want first is **boring reliability**...` / `A router that "mostly works" is worse than one that's merely adequate but never surprises you. Mystery reboots at 2 AM are how routers end up in the trash.` | 1 - generic buying-guide prose; 6 - lacks lived-in tie to opening reboot story | `Guest networks, parental controls, VPN servers, USB ports - routers love bundling features most homes never touch. Our last cheap router needed a weekly reboot ritual - unplug, count to ten, pray. I want boring reliability: no Sunday-night unplug cycle, no 2 AM mystery reboots.` |
+| 59 | `## Wired ports still matter` | 5 - flat H2 | `## Everything is wireless until it isn't` |
+| 75-84 | `## The shortlist, again` + numbered list restating sections 25-72 | 4 - summary sandwich (announce in prose, say in sections, restate in list) | Delete lines 75-86 entirely, or replace heading + list with one line using existing facts: `That's the list I wrote after the weekly reboot ritual got old - coverage for the rooms we use, stability, sensible placement or mesh, firmware that isn't end-of-life, enough wired ports, setup my family won't need me to redo every month.` |
+| 88-90 | `If my router died tomorrow, I'd map the house first, check what's still getting security updates, and buy for **coverage and calm** - not the biggest number on the box.` | 8 - generic closing with no pick; lacks "what I'd buy again" | Rewrite using only existing facts: `If my router died tomorrow, I'd sketch the floor plan first - bedroom, kitchen, home office - check what's still getting security updates, and buy for coverage and calm, not the biggest number on the box. **Author must supply:** current router model or what you'd buy again.` |
+
+### Sections that pass swap test but stay thin
+Lines 43-48 (placement), 51-56 (firmware), 67-72 (mesh): first-person present, but no per-section failure beyond the opening reboot story. Per slop gate one-failure rule, each H2 needs a specific that went wrong - **author must supply** (model name, room that dead-zoned, mesh node that failed, etc.). Prose-only fix cannot invent these.
+
+### Clean areas
+- No em/en dashes, banned AI phrases, currency amounts, or corporate voice.
+- `description` (line 4) is strong first-person; `meta_title` (line 3) is fine.
+- `---` before final section (line 86) is present; no doubled blank lines.
+
+---
+
+## Summary table
+
+| File | Verdict | Main issues |
+|------|---------|-------------|
+| `__interesting-facts-about-jorap.md` | LIGHT POLISH | Flat category H2s; parallel bold labels in closing |
+| `__inter-font.md` | LIGHT POLISH | One encyclopedic paragraph; two parallel bullet lists |
+| `__selling-static-sites.md` | LIGHT POLISH | Seven parallel line-item blocks; one corporate phrase |
+| `__client-site-pass-off.md` | LIGHT POLISH | Parallel doc bullets; flat closing section; opening/closing echo |
+| `__wifi-router.md` | DEEP REWRITE | Outline recap; generic body sections; no buy-again pick |
+
+**Priority order:** `__wifi-router.md` first, then parallel-structure cleanups in the other four. `__inter-font.md` is closest to publish-ready after light edits.

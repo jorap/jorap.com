@@ -532,4 +532,154 @@ _**Agent (auto-low)**_
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:blog content/english/blog/__google-over-apple-ecosystem.md && pnpm lint:voice content/english/blog/__google-over-apple-ecosystem.md && pnpm lint:slop content/english/blog/__google-over-apple-ecosystem.md
 ```
+
+```
+$ python3 scripts/normalize-blog-frontmatter.py --verify && python3 scripts/voice-lint.py slop --check --blog-only content/english/blog/__google-over-apple-ecosystem.md
+Blog frontmatter OK
+Slop lint OK
+$ python3 scripts/voice-lint.py dashes --check && python3 scripts/voice-lint.py site --check content/english/blog/__google-over-apple-ecosystem.md
+Voice dash lint OK
+Voice lint OK
+$ python3 scripts/voice-lint.py slop --check content/english/blog/__google-over-apple-ecosystem.md
+Slop lint OK
+
+```
 </details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+All lints passed. Publishing now.
+
+Setting draft to false. Updating the date to today. Removing the leading underscore from the filename. Keeping the slug line. Checking for related notes.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Lints passed. Publishing: set `draft: false`, update the date, and remove the `__` prefix.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "{digital-minimalism,mobile-capture-workflows,attention-economy}.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "^title:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "^title:",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/mobile-capture-workflows.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/digital-minimalism.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/attention-economy.md"
+    }
+  ],
+  "totalFiles": 3,
+  "totalMatches": 3
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/config/_default/params.toml</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Publishing the file without adding it to homepage post_slugs, since only "publish" was requested.
+
+Updating draft status and date to today. Renaming the file via git mv.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__google-over-apple-ecosystem.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__google-over-apple-ecosystem.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Renaming the file with git mv.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; git mv content/english/blog/__google-over-apple-ecosystem.md content/english/blog/google-over-apple-ecosystem.md &amp;&amp; pnpm lint:blog content/english/blog/google-over-apple-ecosystem.md</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && git mv content/english/blog/__google-over-apple-ecosystem.md content/english/blog/google-over-apple-ecosystem.md && pnpm lint:blog content/english/blog/google-over-apple-ecosystem.md
+```
+
+```
+$ python3 scripts/normalize-blog-frontmatter.py --verify && python3 scripts/voice-lint.py slop --check --blog-only content/english/blog/google-over-apple-ecosystem.md
+Blog frontmatter OK
+Slop lint OK
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The file was published successfully. Now verifying git status.
+
+No commit was made. The user only requested publishing.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Published **Why I Prefer the Google Ecosystem Over Apple**.
+
+**Changes:**
+- `draft: false`
+- Date set to `2026-07-26`
+- Renamed `__google-over-apple-ecosystem.md` → `google-over-apple-ecosystem.md`
+- Lint passed (`lint:blog`, `lint:voice`, `lint:slop`)
+
+**Live URL after deploy:** `/blog/google-over-apple-ecosystem/`
+
+It is not in the homepage `post_slugs` list — that grid is curated separately. Say if you want it featured there or on `/blog/`.
+
+Want me to commit and push?
+
+## Session close
+- Fixed: Published Google vs Apple ecosystem post (draft off, `__` prefix removed, date updated).
+- Encode: none
+- Open: clean — commit/push and optional homepage curation still pending if you want them.

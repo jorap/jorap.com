@@ -146,4 +146,1432 @@ _**Agent (claude-opus-5-thinking-high)**_
 ```bash
 python3 scripts/garden-voice-lint.py 2>&1 | rg 'love\.md|maintenance-window|many-parts-one-body|not-my-will|opened-scripture|own-your-part|patience\.md|peacemakers|peace\.md|plain-commitments-at-work|pray-before-you-choose|pray-for-his-own|pray-when-drained|process-over-outcomes|read-later-queue|sanctification'
 ```
+
+```
+  content/english/notes/pray-before-you-choose.md: key_concept: line1-wikilink (Choosing [[Invest in the Few]] was not a spreadsheet decision - He spent the nig)
+  content/english/notes/pray-when-drained.md: key_concept: contraction (Don't)
+
+```
 </details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<think><details><summary>Thought Process</summary>
+I'm reviewing my 16 files to identify which ones have no failures, checking through the list and noting the error codes associated with each one.
+</details></think>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="update_current_step"><details>
+<summary>Tool use: **update_current_step**</summary>
+An unknown error occurred
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 /tmp/probe.py love.md maintenance-window.md many-parts-one-body.md not-my-will.md opened-scripture.md own-your-part.md 2&gt;&amp;1</summary>
+```bash
+python3 /tmp/probe.py love.md maintenance-window.md many-parts-one-body.md not-my-will.md opened-scripture.md own-your-part.md 2>&1
+```
+
+```
+
+======================================================================
+love.md
+DESC: Love is Spirit-grown care for God and neighbor - not performance affection that collapses when nobody is watching.
+  ST[0] OK: Love is Spirit-grown care for God and neighbor - not performance affection that collapses when nobody is watching.
+  ST[1] NOT-FROM-PRINCIPLE: Fruits of the Spirit names love first in the cluster - before joy, peace, and the rest.
+  ST[2] OK: Love is grown by walking in the Spirit, not manufactured for applause.
+  ST[3] OK: Manufactured affection for church credit is not Spirit fruit.
+  POOL (clauses a shareable line may echo):
+     - love is spirit-grown care for god and neighbor - not performance affection that collapses when nobody is watching
+     - love is spirit-grown care for god and neighbor
+     - not performance affection that collapses when nobody is watching
+     - {{< bible ref="romans 5:5" emphasize="5" >}} - love of god poured through the holy spirit - not performance affection i manufacture for an audience. -
+     - {{< bible ref="romans 5:5" emphasize="5" >}}
+     - love of god poured through the holy spirit
+     - manufacture for an audience
+     - - level 1: real love grows when you stay close to god
+     - not fake niceness you perform for the room
+     - - level 2: love fruit sits beside joy and peace in one spirit-grown cluster
+     - deeper than manners on display
+     - - level 3: manufactured affection for church credit is not spirit fruit
+     - love outlasts the audience
+     - - level 4: ask whether your care costs something real
+     - love that never inconveniences you may be performance
+     - - level 5: love god and love your neighbor name the two directions
+     - fruits of the spirit lists love first because every other fruit flows from it
+     - - love is grown by walking in the spirit, not manufactured for applause
+     - - abide in me is the engine
+     - branches bear fruit because they stay in the vine
+     - love of g
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<think><details><summary>Thought Process</summary>
+I'm noticing a discrepancy between what the probe is reporting and what the lint output shows — the probe flags KC-DUP for a maintenance-window with a "random sunday" clause, but the lint message suggests the description should be about scheduled pruning and archiving, not random timing. The probe shows four instances while lint only caught one, and it looks like the description clause is overlapping with the "random sunday" text, which might be a parsing issue with how the description splits on certain delimiters.
+
+I suspect the probe's overlap detection using `shareable_lines_overlap` is looser than the actual checker logic, so I need to look at the real implementation in notes_content.py to understand exactly how the description clauses are being parsed and compared.
+</details></think>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<think><details><summary>Thought Process</summary>
+I'm looking at how `line_overlaps_description` works—it checks if lines overlap using `shareable_lines_overlap`, which returns true when the shorter string (at least 10 characters) is a prefix or suffix of the longer one. The description clause gets split on sentence boundaries and " - " separators to identify these overlapping segments. I'm wondering if the linter only reports the first duplicate per file, which would explain why it showed one failure while the probe found four KC-DUPs. Let me test the regex pattern in Python to figure out where "random sunday" is actually coming from in the split. So the regex splits on any single character surrounded by whitespace, which is why "a random Sunday" gets split into separate clauses. That means descriptions with common single-letter words like "a" or "I" will fail the key concept matching. For my fix, I need to identify which descriptions are causing duplicates and adjust the splitting logic or normalization to handle these cases better. If I change the description, the shareable thought pool entries won't align properly since the normalized text won't be a substring match anymore. So I should keep the description as is and instead edit the individual bullets to remove the "random Sunday" phrase. So the pool entry "scheduled time to prune, fix links, and archive" is long enough to pass the substring check on its own, which means I can modify the tail clause without breaking that constraint. I need to verify the linter doesn't flag overlapping shareable lines, and then check what other validation rules exist in the linting script.
+</details></think>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-notes-frontmatter.py</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<think><details><summary>Thought Process</summary>
+I see the issue — the counter is incrementing for every match when it should only count once per file. I'll create a quick test script that runs both linters on just my 16 files to iterate faster, then check how garden-voice-lint works.
+</details></think>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/garden-voice-lint.py</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<think><details><summary>Thought Process</summary>
+I'm creating a fast per-file checker script that combines both linters, loading the necessary modules including the YAML parser and frontmatter splitter from the notes content module.
+
+I'll iterate through a default list of 16 files, extracting the text and frontmatter for each, then running all the relevant lint checks—title, description, key concept overlaps, bullets, and shareable thought validation—plus the garden voice linter, printing all results and offering the pool on demand.
+</details></think>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+Now let me write a fast per-file checker so I can iterate quickly.
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /tmp/check.py</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 /tmp/check.py</summary>
+```bash
+python3 /tmp/check.py
+```
+
+```
+Traceback (most recent call last):
+  File "/tmp/check.py", line 31, in <module>
+    gvlint = load("gvlint", "scripts/garden-voice-lint.py")
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/check.py", line 26, in load
+    spec.loader.exec_module(mod)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/jorap/Documents/GitHub/jorap.com/scripts/garden-voice-lint.py", line 50, in <module>
+    @dataclass(frozen=True)
+     ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/dataclasses.py", line 1258, in wrap
+    return _process_class(cls, init, repr, eq, order, unsafe_hash,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/dataclasses.py", line 983, in _process_class
+    and _is_type(type, cls, dataclasses, dataclasses.KW_ONLY,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/dataclasses.py", line 749, in _is_type
+    ns = sys.modules.get(cls.__module__).__dict__
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute '__dict__'. Did you mean: '__dir__'?
+
+```
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<think><details><summary>Thought Process</summary>
+I need to register the module in sys.modules before executing it, which will fix the load() function.
+</details></think>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /tmp/check.py</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 /tmp/check.py</summary>
+```bash
+python3 /tmp/check.py
+```
+
+```
+
+love.md
+  FAIL shareable_thought[1] not from principle: love.md
+
+maintenance-window.md
+  KC-DUP: Scheduled time to prune, fix links, and archive - not random Sunday panic.
+  KC-DUP: Level 1: Pick a set time to clean up your notes - like setting aside Saturday morning to tidy your room, not panicking on a random Sunday.
+  KC-DUP: Level 5: [[Periodic Knowledge Review]] and [[Maps of Content]] both assume rhythm - random Sunday panic is how [[Normalization of Deviance]] enters your note stack.
+  KC-DUP: I block garden time on the calendar so broken links do not ambush me on a random Sunday.
+
+many-parts-one-body.md
+  FAIL shareable_thought[2] not from principle: many-parts-one-body.md
+
+not-my-will.md
+  KC-DUP: The cup was real - soul overwhelmed, sweat like blood - and Jesus asked if the Father could remove it, then surrendered: not My will, but Yours be done.
+  FAIL shareable_thought[1] not from principle: not-my-will.md
+  FAIL shareable_thought[2] not from principle: not-my-will.md
+
+opened-scripture.md
+  KC-DUP: Level 2: Opened scripture means Jesus explained Moses and the Prophets on the Emmaus road - meaning, not citation dump.
+
+own-your-part.md
+  KC-DUP: Level 1: Do not wait for headquarters to fix your corner - like sweeping your own room instead of waiting for someone else to clean the whole house.
+  KC-DUP: I change my slice of the problem - not wait for a hand-down fix from upstairs.
+
+patience.md
+  KC-DUP: Level 5: [[Abide in Me]] is the engine; [[Sanctification]] is the slow becoming - [[Fruits of the Spirit]] grows patience over years, not one willpower sprint until Friday.
+  FAIL shareable_thought[1] not from principle: patience.md
+  FAIL shareable_thought[2] not from principle: patience.md
+
+peacemakers.md
+  KC-DUP: Level 3: Matthew 5:9 blesses those who pursue peace on purpose - repair and truth, not avoiding conflict to keep comfort.
+
+peace.md
+  FAIL shareable_thought[1] not from principle: peace.md
+
+plain-commitments-at-work.md
+  KC-DUP: Say yes or no pl
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<think><details><summary>Thought Process</summary>
+I'm going to start reading through the files, beginning with love.md which has 68 lines and was recently viewed.
+</details></think>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="update_current_step"><details>
+<summary>Tool use: **update_current_step**</summary>
+An unknown error occurred
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/love.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/maintenance-window.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/many-parts-one-body.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<think><details><summary>Thought Process</summary>
+I'm working through a note about how love is positioned first in the Fruits of the Spirit, examining how it connects to the broader theological framework where loving God and loving your neighbor are foundational, with all other spiritual fruits flowing from that primary love. ry entry check — the pool entry needs to be a complete split clause, not a substring. My candidate "Love comes first in the Spirit-grown cluster because every other fruit flows from it" doesn't contain the exact pool entry, so I'll just use the clause directly: "Fruits of the Spirit lists love first because every other fruit flows from it."
+
+Now looking at maintenance-window.md — there are four KC-DUPs all stemming from the description clause "random sunday" plus one duplicate of the entire description. The split on " a " creates multiple parts, and the check flags any bullet containing "random sunday" or the longer phrase "block garden time on the calendar so broken links do not ambush on", or being contained within one of them.
+
+For the first bullet, I'm trying to replace "random Sunday panic" with something that keeps the punch of the original claim. "Scheduled time to prune, fix links, and archive - the calendar decides, not the guilt spike" feels stronger and avoids the near-duplicate with Level 2's "not crisis cleaning when something breaks."
+
+Now I'm checking whether the pool entry "scheduled time to prune, fix links, and archive" still works if I keep that half of the bullet intact, since it already passes the probe.
+
+The shareable line contains "random Sunday panic," which isn't in the note anymore, so there's a voice mismatch — not a lint issue, but worth fixing if the span allows it. The real problem is that "random sunday" in the description clause is creating collisions across four bullets, so I need to decide between editing the description to remove that phrase or taking a different approach. When I change the description, the first bullet still needs to come from the pool. The kc bullet splits on " a " into two clauses, and when normalized, the first bullet contains "random sunday" which is a pool entry of at least 10 characters, so it would still pass the containment check.
+
+Relying on that quirk feels fragile even though it's deterministic. I'm weighing approach (a)—editing the description and tweaking the first bullet—against approach (b)—editing all four bullets to remove "random Sunday" wording. Approach (a) changes the description itself, which is the memorable definition, so it's less surgical. But approach (b') is cleaner: keep the description and edit the four bullets to drop the repetitive "random Sunday panic" language, which improves the voice anyway. The fourth bullet is basically a restatement of the description and should be reworked.
+
+I'll go with (b'). Now I'm rewriting the bullets to remove the "random Sunday" phrasing and eliminate duplication with the description. The first bullet becomes about scheduling time to prune, fix links, and archive with the slot booked in advance. I need to check for overlap with existing wording and avoid repeating "before the garden rots" since that's already in another bullet. Now I'm checking the Level 1 version to see if it avoids the "random Sunday" trigger while keeping the core message about scheduling maintenance as a habit rather than a crisis response.
+
+For Level 5, I'm replacing the panic-focused language with something about skipped slots to better illustrate how deviation becomes normalized.
+
+The last bullet needs a different angle since it overlaps with Level 4's ninety-minute block — maybe focusing on how showing up consistently, even without motivation, is what sustains the system.
+
+I'm also considering whether this final bullet is even necessary, since only the Level bullets are required to stay.  Deleting a redundant restatement of the description would be the minimal fix and actually improves clarity, though I need to check if other notes depend on that material. The pattern here seems to echo the voice style used elsewhere—like how the love note connects "Love is grown by walking in the Spirit" to "Abide in Me as the engine"—and I'm trying to figure out where this maintenance note's bullets should actually end.
+
+I'm looking at the pool entries and how they map to the chunks. The "different gifts serve the same head" line appears both in the pool at Level 2 and in the current note, so I need to trace whether the chunks are properly split by blank lines and understand how the key concept connects the biblical reference to the bullets that follow. So the pool entry includes the "- level 2: " prefix, which means ST[2] needs to contain that exact string to match. Since "different gifts serve the same head - envy..." doesn't include the full pool entry with its prefix, the check fails. I need to revise ST[2] to actually contain one of the real pool entries, like normalizing "Envy at another part is as silly as the foot wishing it were a hand" to match what's in the pool.
+
+Now I'm verifying this revised line passes the gets_point_across check: it ends with a period, starts with uppercase, has enough characters and words, and isn't a fragment or bare noun list. The line doesn't overlap with the other ST entries in problematic ways, and it works well as a boundary/comparison angle using vivid Paul imagery.
+</details></think>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/love.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/many-parts-one-body.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+Now maintenance-window, where four bullets collide with the description clause.
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/maintenance-window.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/maintenance-window.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/maintenance-window.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<think><details><summary>Thought Process</summary>
+I need to update the scheduled time note to remove the "random Sunday panic" phrase and align it with the new bullet point, while keeping the lint-passing pool clause intact. The second note still references "panic Sundays" from an earlier calendar bullet, so there's some inconsistency to work through between these related entries.
+</details></think>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/maintenance-window.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 /tmp/check.py love.md maintenance-window.md many-parts-one-body.md</summary>
+```bash
+python3 /tmp/check.py love.md maintenance-window.md many-parts-one-body.md
+```
+
+```
+
+0 finding(s) across 3 file(s)
+
+```
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/not-my-will.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/opened-scripture.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<think><details><summary>Thought Process</summary>
+I'm parsing a description about Jesus's prayer in Gethsemane, checking how it splits on the dash separator and verifying there are no problematic single-character tokens in the text.
+
+Now I'm catching a duplication issue—the first bullet point ends with a verse quote that repeats the description's core phrase "not my will, but yours be done." I need to rewrite that bullet's ending to avoid the redundancy, but I have to be careful because other statements depend on the pool of text fragments I'm working with.
+
+Let me redesign the bullet point and its supporting statements together. I'm proposing a new version that keeps the essential claim—the cup was real, the soul overwhelmed, the sweat like blood, the asking and the surrender—but removes the exact phrase that overlaps with the description. Then I'll verify it doesn't contain any of the forbidden description clauses and check that the supporting statements still work with this revised pool. inct punch. I'll reframe bullet 1 as "Jesus prayed honest dread first, then handed the outcome to the Father - the ask and the yes in one breath" to avoid repeating Level 3's opening. Now checking the subtitles: ST[1] works with "Soul overwhelmed, sweat like blood - He asked if the cup could pass, then surrendered" (85 characters, contains the pool phrase). ST[2] fails because it duplicates the pool entry about Matthew and Mark recording the surrender. I'm verifying that the substring check passes for the normalized text, then moving through the remaining statements to confirm they're properly sourced from the pool entries. For ST[3], I need to trace which pool entry contains the phrase about costly obedience and the Son showing real dread—it looks like the split might not be capturing it cleanly from the available pool text.
+
+Now I'm checking the opened-scripture.md file, looking at its description about Jesus explaining Moses and the Prophets on the Emmaus road, and examining how the clauses break down.
+
+I'm reconsidering Level 2 to avoid duplication — instead of repeating the Emmaus road reference, I'll reframe it as "walking someone through the text until it makes sense" to capture the same meaning without the overlap. Then I'm verifying that all the supporting text lines still connect properly through the description clauses and the word pool, making sure nothing breaks when I make this change.
+</details></think>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/not-my-will.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/not-my-will.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/opened-scripture.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 /tmp/check.py not-my-will.md opened-scripture.md</summary>
+```bash
+python3 /tmp/check.py not-my-will.md opened-scripture.md
+```
+
+```
+
+0 finding(s) across 2 file(s)
+
+```
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/own-your-part.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/patience.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<think><details><summary>Thought Process</summary>
+I'm working through how to parse the "own-your-part" principle, which emphasizes taking ownership of your specific area rather than waiting for solutions from above. The description breaks down into two main clauses separated by a dash, and I'm examining how the text further subdivides based on additional word boundaries to capture the nuances of both the action to take and the mindset to avoid.
+
+I'm now checking the Level 1 explanation against these extracted clauses to ensure it doesn't inadvertently repeat the same phrasing. The current version contains "do not wait for," which appears in the original breakdown, so I need to reframe it to capture the same concept—taking personal responsibility for your corner—without using that exact phrase. The rewrite should feel like a plain explanation suitable for the foundational level, keeping the language direct and accessible.
+
+For the last bullet point, I'm noticing it restates the description in first person but includes "hand-down fix from upstairs," which is flagged as a duplicate. I'm considering an alternative that captures the same spirit—the willingness to act on what you can control rather than waiting for permission or vindication—but in fresher language that avoids the overlap with earlier lines.
+
+Now I'm checking whether the regex split on the principle line is correctly identifying pool entries. The pattern splits on " - " and " a ", which breaks the line into chunks, and I'm verifying that "do not wait for a hand-down fix from upstairs" isn't itself a pool entry but contains substrings that are.
+
+ST[1] passes the validation checks — it doesn't start with a fragment connector and the gets_point_across condition already passed for ST[0]. Moving on to patience.md, which has a description starting with "Wait without turning brittle - the Spirit grows a slow fuse..."
+
+I'm parsing the clauses by splitting on " - " and " a ", which gives me segments like "wait without turning brittle," "the spirit grows," "slow fuse, not," and "countdown to snapping." Now checking KC-DUP at Level 5, which references Abide in Me, Sanctification, and Fruits of the Spirit as the engine for patience developing over years rather than through a single willpower push.
+
+When I normalize the wikilinks to plain text, I can see "the spirit grows" appears in "fruits of the spirit grows patience." To avoid this phrase, I'm rewording it to use "ripens" instead—so "Fruits of the Spirit ripens patience over years"—which removes the problematic clause while keeping the meaning intact.
+
+I've checked the other bullets and only Level 5 contains this phrase, so the fix is consistent. Now I'm looking at why ST[1] and ST[2] are failing—ST[1] talks about how the Spirit changes what waiting does, transforming delay so it doesn't harden into resentment, but I need to figure out which pool entries apply here since I didn't explicitly probe patience earlier. It doesn't match the pool entry exactly, so I need to adjust ST[1] to be "The Spirit changes what waiting does to you, not shortcuts the wait." which aligns perfectly with the pool entry. Checking the criteria: it ends with a period, starts with a capital letter, has enough words, and doesn't use incomplete negation patterns like "isn't" or "not merely." There's no overlap with ST[0] either, so this works.
+
+Actually, the grammar feels off with "not shortcuts the wait" — I should rewrite both the bullet point and ST[1] together so it reads more naturally. Something like "The Spirit does not shortcut the wait, it changes what waiting does to you" flows better. But that creates a comma splice, so using a semicolon instead would split it into two separate clauses when I extract the pool entry.
+
+With the semicolon version, I can verify that ST[1] matches the extracted text correctly. Now I need to check whether this new bullet creates any duplicate issues — making sure it doesn't overlap with existing description clauses and that it's not too long for the bullet format.
+
+For ST[2], I'm refining the statement to match the pool entry exactly: "Endurance under delay because you are connected to the vine, not performing virtue" — removing the "and providence" part since that doesn't align with what's actually in the pool. Now I need to verify this doesn't overlap with the other entries.
+</details></think>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/own-your-part.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/own-your-part.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/patience.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/patience.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/patience.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 /tmp/check.py own-your-part.md patience.md</summary>
+```bash
+python3 /tmp/check.py own-your-part.md patience.md
+```
+
+```
+
+0 finding(s) across 2 file(s)
+
+```
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/peacemakers.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/peace.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<think><details><summary>Thought Process</summary>
+I'm looking at the peacemakers entry and noticing there's a duplicate issue at Level 3 - the description uses "pursue peace on purpose" which appears in both the main definition and the Matthew 5:9 reference. I need to rework that Level 3 clause to approach the concept from a different angle while keeping the core idea about active peacemaking rather than passive conflict avoidance.
+
+The revised version shifts focus to "go make the repair" and "reconciling work" instead, which avoids the duplicate phrasing while maintaining the principle-level depth. I'm checking the other levels and Scripture lines to make sure they don't have the same overlapping language - Level 2 and the Scripture references all check out clean. There's also a malformed shortcode in the key_concept line that's missing a ref attribute, but that's not something I'm addressing here.
+
+Now I'm moving to the peace.md file where there's an issue with the first Scripture line that needs attention. I'm noticing that "inner calm from God's reign, not denial at any price when trouble arrives" overlaps too much with the first statement, both using similar negation language. The better angle is pulling from the Galatians reference instead — "shalom from trusting God's rule, not stuffing emotion" — which captures the same pool entry but from a different theological lens. I'm checking whether my proposed line actually contains the pool entry — the flat knowledge chunk doesn't include "peace fruit is inner calm from god's reign, not stuffing the emotion down," so I should stick with exact spans from the source. The Galatians reference works better since it offers a fresh perspective on where peace fits within the fruit cluster and its connection to God's rule. om from trusting God's rule, not stuffing emotion." — so the full text is also a substring of the flat pool entry. Both checks pass, so I'll apply them both.
+</details></think>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/peacemakers.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/peace.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 /tmp/check.py peacemakers.md peace.md</summary>
+```bash
+python3 /tmp/check.py peacemakers.md peace.md
+```
+
+```
+
+0 finding(s) across 2 file(s)
+
+```
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/plain-commitments-at-work.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/pray-before-you-choose.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<think><details><summary>Thought Process</summary>
+I'm looking at how to structure a commitment about being direct with yes or no answers—removing hedging language like "definitely maybe" and avoiding stacks of qualifiers that weaken promises. The description gets normalized by stripping backticks and asterisks while keeping quotes, then split on the dash to isolate the core principle.
+
+Now I'm checking for duplicates across the knowledge base. There's a similar bullet that says "Say yes or no plainly - hype on a weak promise is the real problem," but the wording differs ("plainly" vs "clearly"), so I need to figure out which description clause actually matches each bullet and whether they're genuinely overlapping or just thematically related.
+
+Looking at the character-level matching, I'm splitting on whitespace and dashes to find overlaps. The phrase "weak promise" appears in multiple places—both in the original bullet and in the description—and that's what's triggering the duplicate flag. The solution is to rewrite both instances to use different language, like "padding a promise you cannot keep" instead of "hype on a weak promise."
+
+But now I'm realizing there's a cascading problem: the sentence template that pulls from the pool also contains "Hype on a weak promise is the real problem," which matches the original bullet 1 clause exactly. If I change the bullet, I need to update the template too, along with the Level 2 version that has the same phrase. All three need to be rewritten together to stay consistent.
+
+I'm revising all three now: the new bullet 1 emphasizes plainness and how padding erodes trust, the Level 2 version shifts the failure mode to making promises you can't keep, and the sentence template will pull the pool entry from the updated bullet 1 instead. No "not" fragment issue there. I'm seeing the real problem now — those four lines have two restatements, which weakens the voice. I need four distinct angles instead: definition, action, boundary, and payoff. Let me restructure the ST block to give each line a different perspective rather than repeating the same idea. Now checking if the pool entry matches and validating the second statement against the bare noun list criteria — it has commas but no punch verbs, and one phrase exceeds the two-word limit, so it doesn't qualify as a bare noun list. ST[3] should capture the capacity insight instead: "If you need swagger to sound credible, the problem is overload, not vocabulary" — this matches the Level 4 clause perfectly. Checking the validation: it starts properly, ends with a period, has enough words, and doesn't trigger the incomplete negation check since it uses "not" in a different context than the pattern looks for.
+
+So the four angles are now definition, move, boundary, and diagnosis/payoff — all reinforcing the core note. Since I'm rewriting ST[3], I can freely rework bullet 1 and the Level 2 tails without needing to preserve "hype on a weak promise" anywhere.
+
+For bullet 1, I'm checking whether "say yes or no plainly" overlaps with the description clause "say yes or no clearly" — they're similar but not identical, so it's fine. The new Level 2 reads "Plain commitments mean yes or no without padded assurances — swagger on a promise you cannot keep is the failure mode," which removes "weak promise" as required. I'm also verifying that no other knowledge check bullet contains "weak promise" to avoid duplication.
+
+Moving to pray-before-you-choose.md, I notice the wikilink in bullet 1 appears again identically in Level 5, so I need to move the wikilink to a later bullet and rewrite bullet 1 as a plain claim I'd actually argue for.
+
+I'm trying a fresh version: "Jesus spent a whole night praying before He named the twelve - the biggest calls deserve more prayer than planning." But I need to check against Level 3's wording about the roster being prayer-shaped to avoid duplication, and verify the description clause doesn't trigger a KC-DUP match. Checking that my new bullet avoids the forbidden phrases and matches the voice — it's good on both counts. Now I'm refining the wording around "not after ranking" to make sure it lands clearly. The regex check confirms "this names" doesn't match the note language pattern, so that passes. The ST lines are holding up fine, and while ST[1] reads a bit awkwardly as a pointer-style line, I'm leaving it alone to stay focused on actual failures rather than voice tweaks across all sixteen files.
+</details></think>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/plain-commitments-at-work.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/plain-commitments-at-work.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/plain-commitments-at-work.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/pray-before-you-choose.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 /tmp/check.py plain-commitments-at-work.md pray-before-you-choose.md</summary>
+```bash
+python3 /tmp/check.py plain-commitments-at-work.md pray-before-you-choose.md
+```
+
+```
+
+0 finding(s) across 2 file(s)
+
+```
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/pray-for-his-own.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/pray-when-drained.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<think><details><summary>Thought Process</summary>
+I'm noticing that "Don't Worry" appears as a wikilink in the key_concept field, but there's also a variant "Do not Worry" used elsewhere in the notes. Let me trace through which version is actually being referenced and check for consistency across the garden-voice contraction patterns.
+
+I also need to look at the failing test cases for the high priestly prayer entry — the description and clauses need to be flattened properly, and I'm checking how the Father's actions (keeping, sanctifying, unifying) should be structured in the test assertions. The quotes around "those who will believe" in the pool entry don't match ST[3], and the ending differs too—pool says "not by my grip on him" while ST[3] just says "not by my grip"—so there's no containment match. I'm fixing ST[3] to "Kept by the Father's name, not by my grip on Him." which aligns with the pool clause and passes the validation checks: ten words, proper punctuation, and it appears in another bullet point as well.
+
+Now checking for overlaps with the other shareable text lines—ST[1] and ST[2] don't share prefixes or suffixes with ST[3], so they're clear. Though I'm noticing ST[3] loses the personal "I am included" angle, so I'm considering an alternative that preserves that perspective while staying span-exact to the pool: "Under Free Grace, I am in the 'those who will believe' branch."
+
+The normalized version matches the pool entry exactly, but YAML will need quote escaping for the inner quotes. I'm weighing whether to keep this version for its distinct voice—it covers the definition, scope, the asks, and the payoff of personal inclusion—or find a way to avoid the escaped quotes in the YAML.
+
+I'm considering an alternative payoff span instead: "Kept by the Father's name, not by my grip on Him." It captures the same assurance angle without the quote escaping issue, and it reads cleanly enough as a complete claim within the free grace framework.
+
+Now I'm checking the pray-for-his-own entry, which references the longest prayer recorded in the Gospels. The text currently passes validation when split across the level 5 clause and the free grace branch, so I'll leave it as is.
+
+Next I need to examine the pray-when-drained entry more carefully, focusing on the contraction issue and finding the related Don't Worry note.
+</details></think>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+Path does not exist: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/do-not-worry.md
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "outputMode": "count",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "\\[\\[(Don't Worry|Do not Worry)\\]\\]"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "count",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "\\[\\[(Don't Worry|Do not Worry)\\]\\]",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/discipline.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/pray-when-drained.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/trust-god-for-today.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/the-fathers-food.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/into-your-hands.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/ask-seek-knock.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/peace.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/fruits-of-the-spirit.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/love-god.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/eternal-principles.md"
+    }
+  ],
+  "totalFiles": 10,
+  "totalMatches": 14
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<think><details><summary>Thought Process</summary>
+I'm checking which form of "pray-when-drained" appears twice and locating where the target note is positioned.
+</details></think>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "Do not Worry|Don't Worry"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "Do not Worry|Don't Worry",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/trust-god-for-today.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/ask-seek-knock.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/eternal-principles.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/love-god.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/fruits-of-the-spirit.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/peace.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/into-your-hands.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/the-fathers-food.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/discipline.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/dont-worry.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/pray-when-drained.md"
+    }
+  ],
+  "totalFiles": 11,
+  "totalMatches": 16
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<think><details><summary>Thought Process</summary>
+I'm noticing the note title is "Don't Worry" with the canonical wikilink, while peace.md references "[[Do not Worry]]" which might be a broken link or resolved through an alias. The contraction regex will catch "Don't" in the key_concept field regardless of whether it's wrapped in wikilink syntax, so I need to either rephrase that bullet to avoid the wikilink entirely or accept that the contraction check will flag it.
+
+I'm weighing a few options: I could swap the wikilink to something like [[Trust God for Today]] since that note exists and semantically fits the "trusts provision" concept, though it does shift the link graph slightly. Or I could just reword to drop the link altogether, though that feels weaker. The safest move is to check if dont-worry.md has an alias "Do not Worry" — if it does, then peace.md's reference resolves cleanly without the contraction issue, and I can leave things as they are.
+</details></think>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "context": 2,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/dont-worry.md",
+  "pattern": "aliases"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/dont-worry.md",
+  "pattern": "aliases",
+  "topFiles": [
+    {
+      "matchCount": 5,
+      "uri": "content/english/notes/dont-worry.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "outputMode": "files_with_matches",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "Do not Worry"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "files_with_matches",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "Do not Worry",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/peace.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-10_05-58-29Z-jorap-voice-refinement.md"
+    }
+  ],
+  "totalFiles": 2,
+  "totalMatches": 2
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<think><details><summary>Thought Process</summary>
+The alias "do not worry" is set up in dont-worry.md, and since peace.md already uses the wikilink [[Do not Worry]], that's a strong signal the link resolves correctly—likely the link checker is case-insensitive for titles and aliases. I could run `pnpm garden:health` to verify, though that's risky and slow, so the safest approach is to keep the minimal fix as is.
+</details></think>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: ls scripts/ &amp;&amp; rg -l &#39;wikilink&#39; scripts/*.py | head -20</summary>
+```bash
+ls scripts/ && rg -l 'wikilink' scripts/*.py | head -20
+```
+
+```
+archive
+audit-flashcard-north-star.py
+bible-red-letter-mark.py
+blog_frontmatter.py
+blog_shortcodes.py
+clearModules.js
+cspHashes.mjs
+deployBuild.mjs
+deploy-versions.json
+ensureHugo.mjs
+export-anki-deck.py
+export-okf-blog-bundle.py
+export-okf-bundle.py
+fix-tailwind-bin.js
+garden-health.py
+garden-voice-lint.py
+import-from-obsidian.py
+lint-flashcard-frontmatter.py
+lint-notes-frontmatter.py
+lint-randomizer.py
+lint-utility-wikilinks.py
+normalize-blog-frontmatter.py
+normalize-notes-format.py
+noteFileDates.js
+notes_content.py
+notes-voice-lint.py
+notes-voice-sanitize.py
+okf_bundle.py
+okf-viz
+previewProd.mjs
+__pycache__
+servePublic.mjs
+setup-git-hooks.sh
+slop-lint.py
+spawnUtil.mjs
+sync-note-flashcards.py
+sync-note-relationships.py
+test-search.mjs
+themeGenerator.js
+voice-lint.py
+scripts/lint-notes-frontmatter.py
+scripts/sync-note-relationships.py
+scripts/garden-voice-lint.py
+scripts/export-okf-bundle.py
+scripts/notes_content.py
+scripts/normalize-notes-format.py
+scripts/lint-utility-wikilinks.py
+
+```
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<think><details><summary>Thought Process</summary>
+The garden-health script probably detects broken wikilinks, so I could run it before and after my change to verify nothing breaks. But the simplest approach is to reword the text using a contraction so I don't need the wikilink at all.
+
+Looking at the options: I could use `[[Do not Worry]]` instead of `[[Don't Worry]]` since that alias already exists in peace.md. Then I'll run garden-health to confirm no new broken links appear, and make the same fix for the other two instances.
+
+Let me first check whether garden-health actually honors aliases before committing to this approach.
+</details></think>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "context": 4,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/garden-health.py",
+  "pattern": "alias"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/garden-health.py",
+  "pattern": "alias",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/garden-health.py</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<think><details><summary>Thought Process</summary>
+Link resolution in Hugo happens through the layouts, and since peace.md already references [[Do not Worry]] while the target file has "do not worry" as an alias, the wikilink resolver is likely building a lookup table that matches both titles and aliases. I should check the layout files to confirm how they're handling alias resolution.
+</details></think>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: rg -l &#39;aliases&#39; layouts/ | head -20 &amp;&amp; rg -n &#39;aliases&#39; layouts/partials/*.html layouts/_default/*.html 2&gt;/dev/null | head -30</summary>
+```bash
+rg -l 'aliases' layouts/ | head -20 && rg -n 'aliases' layouts/partials/*.html layouts/_default/*.html 2>/dev/null | head -30
+```
+
+```
+layouts/notes/list.html
+layouts/_partials/notes/graph-data.html
+layouts/_partials/notes/related-notes.html
+layouts/_partials/notes/link-registry.html
+layouts/_partials/notes/collect-note-issues.html
+
+```
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "context": 6,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/link-registry.html",
+  "pattern": "aliases"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/link-registry.html",
+  "pattern": "aliases",
+  "topFiles": [
+    {
+      "matchCount": 21,
+      "uri": "layouts/_partials/notes/link-registry.html"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 2
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<think><details><summary>Thought Process</summary>
+The wikilink resolution is working correctly with lowercase matching and aliases, so `[[Do not Worry]]` will resolve properly. Now I'm applying the fixes for the pray-for-his-own and pray-when-drained entries, where I notice Level 5 in pray-when-drained duplicates the first bullet point about feeding the five thousand and going to the mountain to pray.
+
+I'm checking whether the description clause split for pray-when-drained ("Jesus prayed alone after feeding five thousand - exhaustion is a cue to pray, not skip it") might trigger the KC-DUP lint rule. The phrase "exhaustion is" appears in the description, and I'm verifying it doesn't match any existing bullets—Level 4 has "Because exhaustion followed heavy service" but that's different enough. The check passes, so I'll proceed with the edits without introducing new issues.
+</details></think>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/pray-for-his-own.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/pray-when-drained.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 /tmp/check.py pray-for-his-own.md pray-when-drained.md</summary>
+```bash
+python3 /tmp/check.py pray-for-his-own.md pray-when-drained.md
+```
+
+```
+
+0 finding(s) across 2 file(s)
+
+```
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/process-over-outcomes.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/read-later-queue.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<think><details><summary>Thought Process</summary>
+I'm analyzing a document about process over outcomes, looking at how a key clause gets split and checking for duplication across bullet points. The main description emphasizes that sustained routines beat one-off heroic efforts, and I'm noticing the last bullet restates this in first-person perspective. I need to verify whether other bullets contain similar redundancy.
+
+Now I'm working through the structural elements to see which statements are already covered by the document's main themes. The last bullet seems unnecessary since its core idea—that the repeatable loop matters more than peak performance—is already captured elsewhere. I'm considering a rewrite that takes a different angle, maybe something about how outcomes fluctuate but the process itself is what you can control, or an honest acknowledgment of what happens when you skip the routine.
+
+For the read-later-queue section, I'm checking the description and key concept bullets against each other to spot duplication. The last bullet is flagged because it contains the same clause structure as the description. I need to replace it with something that explores a different dimension of the problem—maybe the emotional cost of skipping, or what actually happens when you break the pattern. I'm settling on a new bullet that captures the idea more directly: the queue only justifies itself if something actually leaves it weekly. This avoids repeating the guilt-storage concept from earlier and takes a different angle on the boundary condition. Now I need to move on and check the sanctification.md file.
+</details></think>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/process-over-outcomes.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/read-later-queue.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/sanctification.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<think><details><summary>Thought Process</summary>
+I'm noticing the description for sanctification uses first-person language ("me") even though the skill calls for third-person voice, but the linter only checks for the pronoun "I" so it doesn't flag this as an error. I'm deciding not to modify the description since changing it risks breaking how it feeds into other parts of the system.
+
+Now I'm looking at the Level 3 key concept and its supporting statement — the phrase "growth, not the ticket in" appears in both, so I need to remove it from Level 3 to avoid duplication while keeping the core meaning intact.
+
+I'm considering a revision that swaps "growth, not the ticket in" for "changes the walk, not the verdict" — it's punchier and stays true to the free-grace doctrine. The idea still gets preserved through the supporting statement and another bullet point about sanctification being growth after faith, not the entry requirement.
+
+There's also a minor inconsistency with the lowercase "he" for God in the description when the rest of the note uses "He" — I could fix that in one character, but I'm weighing whether it's worth the cascade effect on other parts of the document. The pool matching normalizes everything to lowercase anyway, so capitalizing "He" in both the description and ST[0] won't break containment—it's a safe, neutral change. I'll go ahead and fix that capitalization since it's a genuine voice consistency issue for how we refer to God, and it aligns with the lint cleanup the user asked for.
+</details></think>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/sanctification.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/sanctification.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/sanctification.md</summary>
+
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 /tmp/check.py</summary>
+```bash
+python3 /tmp/check.py
+```
+
+```
+
+0 finding(s) across 16 file(s)
+
+```
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<think><details><summary>Thought Process</summary>
+Running the full linters to verify I haven't broken anything else, checking that the failure count doesn't include new files. I'll also run the voice linter to scan for dashes and banned words across my changes to make sure the em/en dash check passes.
+</details></think>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 scripts/lint-notes-frontmatter.py 2&gt;&amp;1 | tail -3; echo &#34;=== filtered fm ===&#34;; python3 scripts/lint-notes-frontmatter.py 2&gt;&amp;1 | rg &#39;love\.md|maintenance-window|many-parts-one-body|not-my-will|opened-scripture|own-your-part|patience\.md|peacemakers|peace\.md|plain-commitments-at-work|pray-before-you-choose|pray-for-his-own|pray-when-drained|process-over-outcomes|read-later-queue|sanctification&#39;; echo &#34;=== filtered voice ===&#34;; python3 scripts/garden-voice-lint.py 2&gt;&amp;1 | rg &#39;love\.md|maintenance-window|many-parts-one-body|not-my-will|opened-scripture|own-your-part|patience\.md|peacemakers|peace\.md|plain-commitments-at-work|pray-before-you-choose|pray-for-his-own|pray-when-drained|process-over-outcomes|read-later-queue|sanctification&#39;; echo &#34;=== done (empty filters = clean) ===&#34;</summary>
+```bash
+python3 scripts/lint-notes-frontmatter.py 2>&1 | tail -3; echo "=== filtered fm ==="; python3 scripts/lint-notes-frontmatter.py 2>&1 | rg 'love\.md|maintenance-window|many-parts-one-body|not-my-will|opened-scripture|own-your-part|patience\.md|peacemakers|peace\.md|plain-commitments-at-work|pray-before-you-choose|pray-for-his-own|pray-when-drained|process-over-outcomes|read-later-queue|sanctification'; echo "=== filtered voice ==="; python3 scripts/garden-voice-lint.py 2>&1 | rg 'love\.md|maintenance-window|many-parts-one-body|not-my-will|opened-scripture|own-your-part|patience\.md|peacemakers|peace\.md|plain-commitments-at-work|pray-before-you-choose|pray-for-his-own|pray-when-drained|process-over-outcomes|read-later-queue|sanctification'; echo "=== done (empty filters = clean) ==="
+```
+
+```
+Note frontmatter lint OK
+=== filtered fm ===
+=== filtered voice ===
+=== done (empty filters = clean) ===
+
+```
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<think><details><summary>Thought Process</summary>
+The frontmatter linter is passing across the whole garden now that other agents fixed their files, and the voice linter ran clean on my files too—it outputs to stderr and exited successfully with nothing to report. Let me verify the voice linter isn't crashing overall and confirm my files are actually passing.
+
+Now I need to run the voice linting script on my files to catch any em dashes or banned vocabulary in my new prose. I should check how the voice lint command is invoked through the build scripts and whether I can target specific file paths.
+</details></think>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 scripts/voice-lint.py --help 2&gt;&amp;1 | head -20; echo ---; rg -n &#39;&#34;lint:voice&#34;|&#34;lint:slop&#34;|&#34;lint:garden&#34;&#39; package.json</summary>
+```bash
+python3 scripts/voice-lint.py --help 2>&1 | head -20; echo ---; rg -n '"lint:voice"|"lint:slop"|"lint:garden"' package.json
+```
+
+```
+usage: voice-lint.py [-h] {garden,site,dashes,slop} ...
+
+Unified voice lint: garden rules, site voice, em-dash sanitize, structural
+slop.
+
+positional arguments:
+  {garden,site,dashes,slop}
+                        garden=notes frontmatter; site=voice-words;
+                        dashes=em/en dash; slop=AI structure
+  flags
+
+options:
+  -h, --help            show this help message and exit
+---
+31:    "lint:garden": "python3 scripts/lint-notes-frontmatter.py && python3 scripts/normalize-notes-format.py --verify && python3 scripts/lint-flashcard-frontmatter.py && python3 scripts/audit-flashcard-north-star.py && python3 scripts/lint-utility-wikilinks.py && python3 scripts/voice-lint.py garden --check && python3 scripts/voice-lint.py slop --check --notes-only",
+32:    "lint:voice": "python3 scripts/voice-lint.py dashes --check && python3 scripts/voice-lint.py site --check",
+34:    "lint:slop": "python3 scripts/voice-lint.py slop --check",
+
+```
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<think><details><summary>Thought Process</summary>
+I should run the linters on my edited files to catch any issues I may have introduced — checking for dashes and prose quality with the voice linter and slop checker, then verifying the notes format hasn't been broken by my changes.
+</details></think>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: FILT=&#39;love\.md|maintenance-window|many-parts-one-body|not-my-will|opened-scripture|own-your-part|patience\.md|peacemakers|peace\.md|plain-commitments-at-work|pray-before-you-choose|pray-for-his-own|pray-when-drained|process-over-outcomes|read-later-queue|sanctification&#39;; echo &#34;== dashes ==&#34;; python3 scripts/voice-lint.py dashes --check 2&gt;&amp;1 | rg &#34;$FILT&#34;; echo &#34;== slop ==&#34;; python3 scripts/voice-lint.py slop --check --notes-only 2&gt;&amp;1 | rg &#34;$FILT&#34;; echo &#34;== normalize verify ==&#34;; python3 scripts/normalize-notes-format.py --verify 2&gt;&amp;1 | rg &#34;$FILT&#34;; echo &#34;== site voice ==&#34;; python3 scripts/voice-lint.py site --check 2&gt;&amp;1 | rg &#34;$FILT&#34;; echo &#34;== end ==&#34;</summary>
+```bash
+FILT='love\.md|maintenance-window|many-parts-one-body|not-my-will|opened-scripture|own-your-part|patience\.md|peacemakers|peace\.md|plain-commitments-at-work|pray-before-you-choose|pray-for-his-own|pray-when-drained|process-over-outcomes|read-later-queue|sanctification'; echo "== dashes =="; python3 scripts/voice-lint.py dashes --check 2>&1 | rg "$FILT"; echo "== slop =="; python3 scripts/voice-lint.py slop --check --notes-only 2>&1 | rg "$FILT"; echo "== normalize verify =="; python3 scripts/normalize-notes-format.py --verify 2>&1 | rg "$FILT"; echo "== site voice =="; python3 scripts/voice-lint.py site --check 2>&1 | rg "$FILT"; echo "== end =="
+```
+
+```
+== dashes ==
+== slop ==
+== normalize verify ==
+== site voice ==
+== end ==
+
+```
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<think><details><summary>Thought Process</summary>
+Now I'm checking that my changes are isolated to just those 16 files and making sure the diff looks good overall.
+</details></think>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: git diff --stat -- content/english/notes/ &amp;&amp; echo &#34;=== full diff ===&#34; &amp;&amp; git diff -- content/english/notes/love.md content/english/notes/maintenance-window.md content/english/notes/many-parts-one-body.md content/english/notes/not-my-will.md content/english/notes/opened-scripture.md content/english/notes/own-your-part.md content/english/notes/patience.md content/english/notes/peacemakers.md content/english/notes/peace.md content/english/notes/plain-commitments-at-work.md content/english/notes/pray-before-you-choose.md content/english/notes/pray-for-his-own.md content/english/notes/pray-when-drained.md content/english/notes/process-over-outcomes.md content/english/notes/read-later-queue.md content/english/notes/sanctification.md</summary>
+```bash
+git diff --stat -- content/english/notes/ && echo "=== full diff ===" && git diff -- content/english/notes/love.md content/english/notes/maintenance-window.md content/english/notes/many-parts-one-body.md content/english/notes/not-my-will.md content/english/notes/opened-scripture.md content/english/notes/own-your-part.md content/english/notes/patience.md content/english/notes/peacemakers.md content/english/notes/peace.md content/english/notes/plain-commitments-at-work.md content/english/notes/pray-before-you-choose.md content/english/notes/pray-for-his-own.md content/english/notes/pray-when-drained.md content/english/notes/process-over-outcomes.md content/english/notes/read-later-queue.md content/english/notes/sanctification.md
+```
+
+```
+ content/english/notes/analog-capture-tools.md        |  2 +-
+ content/english/notes/bear-each-others-burdens.md    | 10 +++++-----
+ content/english/notes/block-recovery-time.md         |  6 +++---
+ content/english/notes/cap-todays-commitments.md      |  8 ++++----
+ content/english/notes/christlikeness.md              |  2 +-
+ content/english/notes/client-site-pass-off.md        |  3 +--
+ content/english/notes/come-to-me-weary.md            | 10 +++++-----
+ content/english/notes/confess-to-one-another.md      | 10 +++++-----
+ content/english/notes/context-aware-capture.md       |  5 ++---
+ content/english/notes/continuous-improvement.md      |  2 +-
+ content/english/notes/count-the-cost.md              | 10 +++++-----
+ content/english/notes/create-regular-connection.md   |  2 +-
+ content/english/notes/decision-quality.md            |  2 +-
+ content/english/notes/deep-work.md                   |  4 ++--
+ content/english/notes/fail-on-paper-first.md         |  6 +++---
+ content/english/notes/faithfulness.md                |  4 ++--
+ content/english/notes/father-forgive-them.md         |  4 ++--
+ content/english/notes/follow-the-rhythm.md           |  6 +++---
+ content/english/notes/fruits-of-the-spirit.md        |  6 +++---
+ content/english/notes/gate-what-you-consume.md       | 10 +++++-----
+ content/english/notes/gentleness.md                  |  2 +-
+ content/english/notes/getting-things-done.md         |  6 +++---
+ content/english/notes/give-useful-feedback.md        | 10 +++++-----
+ content/english/notes/glorify-your-name.md           |  4 ++--
+ content/english/notes/growth-mindset.md              |  4 ++--
+ content/english/notes/guard-your-heart.md            | 12 ++++++------
+ content/english/notes/into-your-hands.md             | 12 ++++++------
+ content/english/notes/invest-in-the-few.md           |  2 +-
+ content/english/notes/iron-sharpens-iron.md          |  8 ++++----
+ content/english/notes/jesus-prayers.md               |  2 +-
+ content/english/notes/joy
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<think><details><summary>Thought Process</summary>
+I'm noticing something odd with the many-parts-one-body.md file — the diff shows a relationships block reorder that I didn't make. My only edit was to the shareable line, so either another agent modified it in parallel or there's something about the git state I'm not accounting for. The git status from the start of this conversation didn't flag that file as modified, but the diff is against HEAD and there are 62 notes changed across multiple files, so it's possible the state has shifted since then.
+
+The relationships got sorted alphabetically (alternative before contradicts), which looks like the work of a normalizer script rather than a manual edit. Since I didn't touch the relationships and the instruction says not to, I'll leave it as is — reverting could create conflicts with whoever made that change. I should just note what happened and move on.
+
+Now I'm double-checking that my file list is complete and lint-clean, and verifying the truncated sections of the diff for my own files to make sure everything's accounted for.
+</details></think>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 /tmp/check.py &amp;&amp; git diff --stat -- content/english/notes/many-parts-one-body.md</summary>
+```bash
+python3 /tmp/check.py && git diff --stat -- content/english/notes/many-parts-one-body.md
+```
+
+```
+
+0 finding(s) across 16 file(s)
+ content/english/notes/many-parts-one-body.md | 8 ++++----
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+
+```
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<think><details><summary>Thought Process</summary>
+Now I'm writing up the report with one-liner summaries for each file, noting that the reordering of multi-part relationships came from an external sort rather than my changes, and that I ran verification checks to ensure everything is clean. I'll close out the session since I modified repo files, then use UpdateCurrentStep to set the final summary and completion subtitle.
+</details></think>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="update_current_step"><details>
+<summary>Tool use: **update_current_step**</summary>
+An unknown error occurred
+</details></tool-use>
+
+_**Agent (claude-opus-5-thinking-high)**_
+
+Both linters are silent for all 16 files. What changed, one line each:
+
+- **love.md** - shareable[1] rewritten to the note's own clause: "Fruits of the Spirit lists love first because every other fruit flows from it."
+- **maintenance-window.md** - four bullets repeated the description's "random Sunday" clause; reworded bullet 1 tail ("a standing slot, not a mood"), Level 1 ending, Level 5 ("skipped slots"), replaced the description-restating last bullet with a friction line about skipping two slots, and matched shareable[3] to the new bullet 1.
+- **many-parts-one-body.md** - shareable[2] now echoes Paul's own image: "Envy at another part is as silly as the foot wishing it were a hand."
+- **not-my-will.md** - key_concept line 1 no longer ends with the verse quote from the description (now a claim about dread first, surrender second); shareable[1] and [2] realigned to the Level 3 and Matthew/Mark spans.
+- **opened-scripture.md** - Level 2 no longer repeats the description clause; it now says opened scripture means walking someone through the text until it makes sense.
+- **own-your-part.md** - Level 1 reordered so it does not carry "do not wait for"; the last bullet stopped restating the description and now admits the real temptation (fix my pass-off vs win the argument).
+- **patience.md** - bullet 1 reworked to "the Spirit does not shortcut the wait; it changes what waiting does to you", Level 5 "grows" changed to "ripens" (it was colliding with the description's "the Spirit grows"), and shareable[1] and [2] now match those spans exactly.
+- **peacemakers.md** - Level 3 dropped "pursue peace on purpose" and now blesses the ones who go do the repair.
+- **peace.md** - shareable[1] swapped to the Level 3 span: Galatians lists peace beside love and joy, shalom from trusting God's rule.
+- **plain-commitments-at-work.md** - "weak promise" removed from bullet 1 and Level 2, and all four shareable lines rebuilt into real angles (definition, one deadline/one owner move, the trust boundary, the overload diagnosis) instead of two near-duplicate fragments.
+- **pray-before-you-choose.md** - key_concept line 1 is now a wikilink-free claim ("The biggest calls deserve a night of prayer before a pros-and-cons list"); the `[[Invest in the Few]]` link still lives on Level 5.
+- **pray-for-his-own.md** - shareable[2] and [3] replaced with exact spans: "Sanctify in truth, guard in the Father's name, make them one." and "Kept by the Father's name, not by my grip on Him."
+- **pray-when-drained.md** - the contraction came from a wikilink, so `[[Don't Worry]]` became `[[Do not Worry]]`, which resolves through that note's existing "do not worry" alias (peace.md already links it that way).
+- **process-over-outcomes.md** - the last bullet was the description in first person; it now names what skipping the loop actually costs.
+- **read-later-queue.md** - same pattern; the closing bullet is now a test rather than a restatement: the queue earns its keep only if something leaves it every week.
+- **sanctification.md** - Level 3 ends with "changes the walk, not the verdict" instead of the description's "growth, not the ticket in", plus lowercase "he" for God capitalized in description and shareable[0].
+
+Verification: `lint-notes-frontmatter.py` prints "Note frontmatter lint OK" (whole garden), and `garden-voice-lint.py` reports nothing for any of the 16. I also ran the dash check, `slop --check --notes-only`, `normalize-notes-format.py --verify`, and `voice-lint.py site --check` - all clean for my files. One thing worth knowing: `many-parts-one-body.md` shows a relationships block reorder in the diff that I did not make (its `alternative` and `contradicts` rows got sorted), so something else in this working tree touched it; I left it alone.
+
+## Session close
+- Fixed: 16 notes now pass frontmatter and garden-voice lint with reworded key_concept clauses and principle-anchored shareable lines.
+- Encode: none.
+- Open: clean for my 16; unexplained relationships reorder in many-parts-one-body.md from outside this task.

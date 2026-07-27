@@ -595,7 +595,7 @@ For **Build a Reliable Default** and notes like it, the garden already has a pat
 
 ## What works best
 
-Your `## Example` is meant to be **one concrete scene** (see [[Note Relationships]] / [[Getting Started]]). For this claim - *fallback when thinking is thin* - the strongest genres are domains where **people already drill a script before stress hits**:
+Your `## Example` is meant to be **one concrete scene** (see [[Note Relationships]] / [[Getting Started]]). For this claim — *fallback when thinking is thin* — the strongest genres are domains where **people already drill a script before stress hits**:
 
 | Genre | Why it lands | Notes using it |
 |-------|----------------|----------------|
@@ -610,19 +610,19 @@ Your current example already does the best combo:
 ```20:22:content/english/notes/build-a-reliable-default.md
 ## Example
 
-Flight attendants don't invent evacuation steps mid-emergency - they run the drill they practiced. Build a reliable default was our one-page on-call card: three dashboards, who to page, what to post. Night two on call, the new hire ran it half-asleep and nobody guessed.
+Flight attendants don't invent evacuation steps mid-emergency — they run the drill they practiced. Build a reliable default was our one-page on-call card: three dashboards, who to page, what to post. Night two on call, the new hire ran it half-asleep and nobody guessed.
 ```
 
-1. **Famous rehearsed domain** (flight attendants) - instant picture, no setup  
-2. **Personal application** (on-call card) - reader knows where to use it
+1. **Famous rehearsed domain** (flight attendants) — instant picture, no setup  
+2. **Personal application** (on-call card) — reader knows where to use it
 
 Same shape as `preparedness.md` (fire drill → deploy rollback) and `standard-operating-procedures.md` (cockpit → runbook → recipe).
 
 ## What to avoid for this note
 
-- **Slow deliberation** scenes (vendor demos, house buying) - better for [[Decision Quality]]
+- **Slow deliberation** scenes (vendor demos, house buying) — better for [[Decision Quality]]
 - **Pure PKM meta** unless the note is about the garden itself
-- **Two unrelated genres** - one analogy + one personal scene is enough
+- **Two unrelated genres** — one analogy + one personal scene is enough
 
 ## Quick pick guide
 
@@ -905,17 +905,17 @@ PY
 
 ```
 OK   | abide-in-me.md                                | I snap at my kid after a week with almost no prayer or Scripture, and I know where the fruit went. A...
-TECH | accountability.md                             | After a bad deploy, our manager said "we all own this" - which meant nobody owned anything for a wee...
+TECH | accountability.md                             | After a bad deploy, our manager said "we all own this" — which meant nobody owned anything for a wee...
 TECH | active-knowledge-curation.md                  | On the first Sunday of the month I open the notes folder and delete anything I would not save again ...
 TECH | adaptability.md                               | Our payment provider changed API rules with thirty days' notice. Half the team argued the old integr...
 OK   | analog-capture-tools.md                       | The phone dies mid-sermon and the pocket notebook still works. I scribble Philippians references in ...
 OK   | anti-fragile-systems.md                       | When my last proprietary note app shut down, the markdown folder opened fine in three editors. I tes...
 OK   | ask-seek-knock.md                             | I checked email three times before I prayed this morning, then wondered why God felt far away. Ask, ...
 OK   | associative-linking.md                        | I am writing about [[Slow Productivity]] and remember a note on quarterly sprints without knowing it...
-OK   | atomic-notes.md                               | "Why middle-click saves tab chaos" is one claim - I'd cite it alone. "Browser tips and meeting notes...
-TECH | attention-to-detail.md                        | A nurse almost gave the wrong dose because two bags looked identical - the second read of the label ...
+OK   | atomic-notes.md                               | "Why middle-click saves tab chaos" is one claim — I'd cite it alone. "Browser tips and meeting notes...
+TECH | attention-to-detail.md                        | A nurse almost gave the wrong dose because two bags looked identical — the second read of the label ...
 OK   | break-the-escalation-cycle.md                 | A stakeholder CC'd my boss with a snarky line about our delay. My first draft was equally clever and...
-TECH | build-a-reliable-default.md                   | Flight attendants don't invent evacuation steps mid-emergency - they run the drill they practiced. B...
+TECH | build-a-reliable-default.md                   | Flight attendants don't invent evacuation steps mid-emergency — they run the drill they practiced. B...
 TECH | building-a-personal-api.md                    | An agent reads my Hugo frontmatter an
 … (output truncated)
 ```
@@ -1104,13 +1104,13 @@ PY
 I snap at my kid after a week with almost no prayer or Scripture, and I know where the fruit went. Abiding is not a badge I earned once at conversion. It is the morning choice to open the Bible before the news feed wins again.
 
 === accountability.md ===
-After a bad deploy, our manager said "we all own this" - which meant nobody owned anything for a week. Accountability was one name in the channel, one rollback deadline, and one postmortem doc with real causes - the way a hospital names who is running the code, not "the team."
+After a bad deploy, our manager said "we all own this" — which meant nobody owned anything for a week. Accountability was one name in the channel, one rollback deadline, and one postmortem doc with real causes — the way a hospital names who is running the code, not "the team."
 
 === active-knowledge-curation.md ===
 On the first Sunday of the month I open the notes folder and delete anything I would not save again today. Last pass I killed twelve bookmark dumps and linked three half-finished ideas that finally belong together.
 
 === adaptability.md ===
-Our payment provider changed API rules with thirty days' notice. Half the team argued the old integration was "fine." Adaptability was rewriting the webhook handler on a branch before the cutoff - like a restaurant switching suppliers mid-season instead of defending last month's menu.
+Our payment provider changed API rules with thirty days' notice. Half the team argued the old integration was "fine." Adaptability was rewriting the webhook handler on a branch before the cutoff — like a restaurant switching suppliers mid-season instead of defending last month's menu.
 
 === analog-capture-tools.md ===
 The phone dies mid-sermon and the pocket notebook still works. I scribble Philippians references in the margin and type them into the wiki during Friday review.
@@ -1475,10 +1475,10 @@ anti-fragile-systems.md ({'app shut'}):
 When the gym's booking app shut down for good, my paper training log still had every set. I photocopy it once a quarter so I'm not rebuilding history from memory when the next app dies.
 
 associative-linking.md ({'sprint'}):
-My kid asks why we can't sprint through bedtime and I don't remember which card says "meltdown." The arrow from "rush" to "slow the moment" on the fridge chart gets me there - not the folder tab label
+My kid asks why we can't sprint through bedtime and I don't remember which card says "meltdown." The arrow from "rush" to "slow the moment" on the fridge chart gets me there — not the folder tab label
 
 building-a-personal-api.md ({'flashcard'}):
-The warehouse labels every bin the same way - aisle, shelf, code - so a new hire finds parts without asking. I label my notes the same way: title, tags, links. Anyone helping me can find the flashcard
+The warehouse labels every bin the same way — aisle, shelf, code — so a new hire finds parts without asking. I label my notes the same way: title, tags, links. Anyone helping me can find the flashcard
 
 capture.md ({'inbox'}):
 Mid-commute I get a sentence for a post and voice-memo it before the station noise eats it. One inbox, no tags yet. I sort on Sunday when the spark is already safe.
@@ -2127,18 +2127,18 @@ One familiar beat, optional personal line. No tech-job or cockpit scenes unless 
 ```20:22:content/english/notes/build-a-reliable-default.md
 ## Example
 
-Firefighters don't invent steps mid-alarm - they run the drill they practiced. Our family fire plan is one page on the fridge: two exits, where we meet, who grabs the baby. Last blackout, my kid ran it half-asleep and nobody guessed.
+Firefighters don't invent steps mid-alarm — they run the drill they practiced. Our family fire plan is one page on the fridge: two exits, where we meet, who grabs the baby. Last blackout, my kid ran it half-asleep and nobody guessed.
 ```
 
 ## Left unchanged (already fit)
 
-**25 gospel/home notes** - e.g. `abide-in-me`, `love-your-neighbor`, `slow-the-moment` (ER triage counts as non-technical work + home kid scene).
+**25 gospel/home notes** — e.g. `abide-in-me`, `love-your-neighbor`, `slow-the-moment` (ER triage counts as non-technical work + home kid scene).
 
-**10 hub/utility pages** without examples - `pressure-reveals-weakness`, `maps-of-content`, `flashcards`, etc. Index pages don't require `## Example`.
+**10 hub/utility pages** without examples — `pressure-reveals-weakness`, `maps-of-content`, `flashcards`, etc. Index pages don't require `## Example`.
 
 ## Special rewrites
 
-- **`mental-models.md`** - bullet list → soccer signup scene using Pareto, low-hanging fruit, compounding
-- **`note-relationships.md`** - chore chart on the fridge instead of filing wikilink rows
+- **`mental-models.md`** — bullet list → soccer signup scene using Pareto, low-hanging fruit, compounding
+- **`note-relationships.md`** — chore chart on the fridge instead of filing wikilink rows
 
 If you want the genre rule enforced in CI (lint script that flags tech/aviation in `## Example`), I can add that next.

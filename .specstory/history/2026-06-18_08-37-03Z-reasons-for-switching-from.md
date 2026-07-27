@@ -18,7 +18,7 @@ Drafting a blog post about switching from Drupal to WordPress. I'll begin by rev
 
 _**Agent (default)**_
 
-I'll draft this in your voice - first I'll read a couple of reference posts and check how your blog posts are structured.
+I'll draft this in your voice — first I'll read a couple of reference posts and check how your blog posts are structured.
 
 
 _**Agent (default)**_

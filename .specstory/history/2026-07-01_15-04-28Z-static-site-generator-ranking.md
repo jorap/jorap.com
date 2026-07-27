@@ -122,7 +122,7 @@ Here is an expert-weighted ranking for 2026. “Best” depends on what you opti
 
 ## Overall expert ranking (content-first sites)
 
-For **blogs, docs, marketing sites, digital gardens** - the classic SSG sweet spot:
+For **blogs, docs, marketing sites, digital gardens** — the classic SSG sweet spot:
 
 | Rank | Generator | Score band | Verdict |
 |------|-----------|------------|---------|
@@ -138,9 +138,9 @@ For **blogs, docs, marketing sites, digital gardens** - the classic SSG sweet sp
 | **10** | **Docusaurus** | C (niche A) | Docs-only; excellent if you’re all-in on React docs |
 
 **Niche leaders** (rank #1 in their lane, not overall):
-- **MkDocs / Sphinx** - Python docs
-- **Quartz** - Obsidian → web
-- **Publii** - non-developer desktop publishing
+- **MkDocs / Sphinx** — Python docs
+- **Quartz** — Obsidian → web
+- **Publii** — non-developer desktop publishing
 
 ---
 
@@ -195,11 +195,11 @@ Python package docs                                → MkDocs
 
 You’re on **Hugo** ([`hugo.toml`](https://github.com/jorap/jorap.com/blob/main/hugo.toml)) with a notes garden, flashcards, taxonomies, and Cloudflare Pages deploy limits. On expert criteria, that’s a strong fit:
 
-- **Build speed** - hundreds of note pages rebuild cheaply (matters at ~500 builds/month).
-- **Zero runtime** - aligns with performance-first notes/docs.
-- **Mature content features** - taxonomies, multilingual, image processing, shortcodes.
+- **Build speed** — hundreds of note pages rebuild cheaply (matters at ~500 builds/month).
+- **Zero runtime** — aligns with performance-first notes/docs.
+- **Mature content features** — taxonomies, multilingual, image processing, shortcodes.
 
-The main reason experts would nudge you toward **Astro** instead: component-heavy UI islands, MDX-native authoring, or a team that lives in JSX. The main reason to stay on **Hugo**: scale, speed, and operational simplicity - which matches a large markdown garden.
+The main reason experts would nudge you toward **Astro** instead: component-heavy UI islands, MDX-native authoring, or a team that lives in JSX. The main reason to stay on **Hugo**: scale, speed, and operational simplicity — which matches a large markdown garden.
 
 ---
 
@@ -207,9 +207,9 @@ The main reason experts would nudge you toward **Astro** instead: component-heav
 
 There is no universal #1. Expert consensus in 2026:
 
-1. **Hugo** - best *systems* choice (speed, scale, ops).
-2. **Astro** - best *modern web* choice (DX + performance balance).
-3. **Eleventy** - best *minimalist* choice (control without framework baggage).
+1. **Hugo** — best *systems* choice (speed, scale, ops).
+2. **Astro** — best *modern web* choice (DX + performance balance).
+3. **Eleventy** — best *minimalist* choice (control without framework baggage).
 
 Everything else is situational: Next/Nuxt for hybrids, Zola as Hugo-lite, Gatsby/Jekyll as legacy or niche.
 

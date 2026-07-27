@@ -304,6 +304,76 @@ _**Agent (auto-low)**_
 
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
 <summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/archive/expand-four-card-batch2.py</summary>
-Status: **loading**
 
 </details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Verifying the file contains 35 stems, uses em dashes, keeps front longer than back, and passes syntax checks.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 -m py_compile /home/jorap/Documents/GitHub/jorap.com/scripts/archive/expand-four-card-batch2.py &amp;&amp; python3 -c &#34;
+import importlib.util
+spec = importlib.util.spec_from_file_location(&#39;b2&#39;, &#39;/home/jorap/Documents/GitHub/jorap.com/scripts/archive/expand-four-card-batch2.py&#39;)
+m = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(m)
+print(&#39;stems:&#39;, len(m.BATCH))
+for stem, pairs in m.BATCH.items():
+    assert len(pairs) == 2, stem
+    for front, back in pairs:
+        assert len(front) &gt; len(back), f&#39;{stem}: front not longer&#39;
+        assert &#39;—&#39; in front or &#39;—&#39; in back, f&#39;{stem}: missing em dash&#39;
+print(&#39;all checks passed&#39;)
+&#34;
+</summary>
+```bash
+python3 -m py_compile /home/jorap/Documents/GitHub/jorap.com/scripts/archive/expand-four-card-batch2.py && python3 -c "
+import importlib.util
+spec = importlib.util.spec_from_file_location('b2', '/home/jorap/Documents/GitHub/jorap.com/scripts/archive/expand-four-card-batch2.py')
+m = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(m)
+print('stems:', len(m.BATCH))
+for stem, pairs in m.BATCH.items():
+    assert len(pairs) == 2, stem
+    for front, back in pairs:
+        assert len(front) > len(back), f'{stem}: front not longer'
+        assert '—' in front or '—' in back, f'{stem}: missing em dash'
+print('all checks passed')
+"
+
+```
+
+```
+stems: 35
+all checks passed
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="update_current_step"><details>
+<summary>Tool use: **update_current_step**</summary>
+An unknown error occurred
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The file was written and verified.
+</details></think>
+
+_**Agent (auto-low)**_
+
+**Confirmed.** `scripts/archive/expand-four-card-batch2.py` is written.
+
+- **Structure:** Matches batch1 — `BATCH` dict (stem → 2 `(front, back)` tuples) plus `main()` that inserts before `draft: false` only when a note has exactly 4 cards
+- **Coverage:** All 35 requested stems included
+- **Cards:** 70 pairs total (2 per stem), em dashes, front longer than back, cue→move JoRap voice
+- **Syntax:** Compiles cleanly; constraint checks pass
+
+Run with `python3 scripts/archive/expand-four-card-batch2.py` when you're ready to expand the decks.

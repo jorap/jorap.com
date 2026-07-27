@@ -1113,7 +1113,7 @@ cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/build-jesus-words-d
 ```
 
 ```
-Wrote /home/jorap/Documents/GitHub/jorap.com/data/jesus-words.yaml - 1993 refs (1963 KJV, 1976 BSB, 1983 NASB1995)
+Wrote /home/jorap/Documents/GitHub/jorap.com/data/jesus-words.yaml — 1993 refs (1963 KJV, 1976 BSB, 1983 NASB1995)
 
 ```
 </details></tool-use>
@@ -1168,9 +1168,9 @@ Added **NASB1995** to `data/jesus-words.yaml`.
 
 **What changed**
 
-1. **`scripts/build-jesus-words-db.py`** - fetches NASB1995 red-letter text from [jburson/bible-data](https://github.com/jburson/bible-data) (`*r` markers), parses full verse vs. Jesus-only words, and merges it alongside KJV and BSB.
+1. **`scripts/build-jesus-words-db.py`** — fetches NASB1995 red-letter text from [jburson/bible-data](https://github.com/jburson/bible-data) (`*r` markers), parses full verse vs. Jesus-only words, and merges it alongside KJV and BSB.
 
-2. **Regenerated `data/jesus-words.yaml`** - every verse entry now has a `nasb1995` block where available:
+2. **Regenerated `data/jesus-words.yaml`** — every verse entry now has a `nasb1995` block where available:
 
 ```38:41:data/jesus-words.yaml
     nasb1995:
@@ -1179,7 +1179,7 @@ Added **NASB1995** to `data/jesus-words.yaml`.
       full: false
 ```
 
-**Counts:** 1,993 refs total - 1,963 KJV, 1,976 BSB, **1,983 NASB1995**.
+**Counts:** 1,993 refs total — 1,963 KJV, 1,976 BSB, **1,983 NASB1995**.
 
 Re-run anytime with:
 
@@ -2521,7 +2521,7 @@ WARN  debug hy verses len=1993
 
 _**Agent (auto-low)**_
 
-The data file uses a hyphenated key in Hugo - updating the shortcode to use `index hugo.Data "jesus-words"`.
+The data file uses a hyphenated key in Hugo — updating the shortcode to use `index hugo.Data "jesus-words"`.
 
 
 _**Agent (auto-low)**_
@@ -2634,7 +2634,7 @@ Renders Jesus’ words only:
 
 | Param | Default | Effect |
 |-------|---------|--------|
-| `ref` or positional arg | - | Verse ref, e.g. `Matthew 3:15` |
+| `ref` or positional arg | — | Verse ref, e.g. `Matthew 3:15` |
 | `full="true"` | `false` | Full verse text (when Jesus’ words are only part of the verse) |
 | `cite="false"` | `true` | Drop the `(Matthew 7:7 NASB1995).` suffix |
 
@@ -4212,7 +4212,7 @@ The corrected f-string is `f'  {{{{< jesus-words "{lookup}" >}}}}'`. I will patc
 
 _**Agent (auto-low)**_
 
-The migration script dropped a `{` from Hugo shortcode delimiters - fixing that and migrating the remaining verse lines.
+The migration script dropped a `{` from Hugo shortcode delimiters — fixing that and migrating the remaining verse lines.
 
 
 _**Agent (auto-low)**_
@@ -4372,7 +4372,7 @@ cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/apply-jesus-words-s
 ```
 
 ```
-Done - 0 verse line(s) migrated
+Done — 0 verse line(s) migrated
 
 ```
 </details></tool-use>
@@ -4399,7 +4399,7 @@ cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/apply-jesus-words-s
 ```
 
 ```
-Done - 0 verse line(s) migrated
+Done — 0 verse line(s) migrated
 
 ```
 </details></tool-use>
@@ -4758,7 +4758,7 @@ updated secret-devotion.md (1)
 updated the-beatitudes.md (1)
 updated the-narrow-way.md (1)
 updated the-wise-builder.md (1)
-Done - 17 verse line(s) migrated
+Done — 17 verse line(s) migrated
 
 ```
 </details></tool-use>
@@ -4940,7 +4940,7 @@ scripture-nasb1995.yaml was overwritten with a full Bible structure similar to j
 
 _**Agent (auto-low)**_
 
-`scripture-nasb1995.yaml` looks corrupted - restoring it from git, then re-running the Hugo build.
+`scripture-nasb1995.yaml` looks corrupted — restoring it from git, then re-running the Hugo build.
 
 
 _**Agent (auto-low)**_
@@ -5169,7 +5169,7 @@ Migrated **69** Gospel/Acts NASB1995 verse paragraphs in `key_concept` to the `j
 **Also done:**
 - Extended the shortcode for verse ranges (`Matthew 6:9-13`) and a `label` param when the citation differs from the lookup ref
 - Added `scripts/apply-jesus-words-shortcode.py` to apply or re-apply the migration
-- Restored `data/scripture-nasb1995.yaml` - it had been corrupted to ~155k lines and was breaking Hugo builds
+- Restored `data/scripture-nasb1995.yaml` — it had been corrupted to ~155k lines and was breaking Hugo builds
 
 **Left as plain text** (by design):
 - Paul/Ephesians/Romans NASB quotes (outside Jesus-words scope)

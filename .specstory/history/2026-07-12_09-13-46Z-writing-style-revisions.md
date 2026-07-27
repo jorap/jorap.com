@@ -42,7 +42,7 @@ I'll pull in examples.md and voice-words.yaml for richer context. The user has a
 
 _**Agent (auto-low)**_
 
-Comparing your seven rewrite prompts against garden-voice - I'll pull the skill's examples and voice rules for a precise overlap map.
+Comparing your seven rewrite prompts against garden-voice — I'll pull the skill's examples and voice rules for a precise overlap map.
 
 
 _**Agent (auto-low)**_
@@ -81,7 +81,7 @@ Garden-voice enforces hard technical gates: four-word titles, four shareable tho
 
 _**Agent (auto-low)**_
 
-Your seven prompts are **voice and texture** instructions. **garden-voice** is that plus a **schema**: which field gets which shape, what must never appear, and how faith/PKM lanes differ. Most of the prompts are already inside garden-voice - often with stricter rules.
+Your seven prompts are **voice and texture** instructions. **garden-voice** is that plus a **schema**: which field gets which shape, what must never appear, and how faith/PKM lanes differ. Most of the prompts are already inside garden-voice — often with stricter rules.
 
 ## Quick map
 
@@ -119,7 +119,7 @@ Your Strip-the-AI-Tells prompt is basically garden-voice's de-AI pass, but garde
 
 **5 → claim-first `key_concept`**
 
-Sharper POV maps directly to line 1: a plain claim you'd argue - not a neutral summary. Examples in the skill show the before/after:
+Sharper POV maps directly to line 1: a plain claim you'd argue — not a neutral summary. Examples in the skill show the before/after:
 
 - ❌ "Strategic foresight is the practice of looking past the immediate move…"
 - ✅ "If I can't explain the path back in one sentence, I'm not ready to ship."
@@ -136,7 +136,7 @@ These are **out of scope** for your seven prompts but **in scope** for garden-vo
 
 | Constraint | Why prompts miss it |
 |------------|---------------------|
-| Field shapes | `description` ≠ `key_concept` ≠ `shareable_thought` - each has its own rules |
+| Field shapes | `description` ≠ `key_concept` ≠ `shareable_thought` — each has its own rules |
 | `shareable_thought` = exactly 4 complete thoughts, 4 angles | Prompts say "vary" and "cut filler" but not this hard shape |
 | No `[[wikilinks]]` on `key_concept` line 1 | Hugo/garden-specific |
 | Faith: `{{< bible >}}` shortcode, NASB 1995, gloss bullets | Lane-specific machinery |
@@ -151,17 +151,17 @@ So: your prompts fix *how it sounds*. garden-voice fixes *how it sounds AND wher
 
 ## Where they can conflict
 
-**3. Show the Thinking** - garden-voice wants reflection in glosses and claims, but **not** open-ended essay voice in every field. `key_concept` gets 2–4 tight sentences before the link stack. `shareable_thought` wants four **closed**, paste-ready thoughts - not "here's what I'm still unsure about." Tradeoffs and second-guesses belong in the claim stack or body, not as filler across all fields.
+**3. Show the Thinking** — garden-voice wants reflection in glosses and claims, but **not** open-ended essay voice in every field. `key_concept` gets 2–4 tight sentences before the link stack. `shareable_thought` wants four **closed**, paste-ready thoughts — not "here's what I'm still unsure about." Tradeoffs and second-guesses belong in the claim stack or body, not as filler across all fields.
 
-**4. One-Friend Flow** - conversational is right for cards and note body. Frontmatter fields (`description`, `key_concept`, `shareable_thought`) stay **third-person, no contractions**, slightly tighter than "explaining to one friend over coffee." Wiki prose in `key_concept` can be a notch more formal than cards - garden-voice calls that out explicitly.
+**4. One-Friend Flow** — conversational is right for cards and note body. Frontmatter fields (`description`, `key_concept`, `shareable_thought`) stay **third-person, no contractions**, slightly tighter than "explaining to one friend over coffee." Wiki prose in `key_concept` can be a notch more formal than cards — garden-voice calls that out explicitly.
 
-**7. Top-Editor Pass** - a great editor might lengthen for flow. garden-voice often **cuts**: one-breath `description`, telegraphic `relationships.reason`, one-sentence `examples`. Density over narrative arc.
+**7. Top-Editor Pass** — a great editor might lengthen for flow. garden-voice often **cuts**: one-breath `description`, telegraphic `relationships.reason`, one-sentence `examples`. Density over narrative arc.
 
 ---
 
 ## What your prompt stack adds (if anything)
 
-Run as a **sequence on draft prose**, the seven prompts are a good **pre-garden** pass on rough text - especially 1, 2, 5, 6 on a bloated `key_concept` draft.
+Run as a **sequence on draft prose**, the seven prompts are a good **pre-garden** pass on rough text — especially 1, 2, 5, 6 on a bloated `key_concept` draft.
 
 They do **not** replace:
 
@@ -180,7 +180,7 @@ If you wanted one meta-prompt that equals garden-voice for notes frontmatter, it
 
 Your seven prompts are the **middle clause** of that sentence. garden-voice is the **whole sentence plus the form**.
 
-**Blog posts** use [jorap-voice](../jorap-voice/SKILL.md) instead - longer prose, no per-field schema. Your seven prompts probably land closer to jorap-voice for `content/english/blog/` than to garden-voice for `content/english/notes/`.
+**Blog posts** use [jorap-voice](../jorap-voice/SKILL.md) instead — longer prose, no per-field schema. Your seven prompts probably land closer to jorap-voice for `content/english/blog/` than to garden-voice for `content/english/notes/`.
 
 Want me to turn this into a short "when to use which" block you could paste into garden-voice or a Cursor rule?
 
@@ -202,7 +202,7 @@ Checking garden-voice and jorap-voice skills for the right placement and existin
 
 _**Agent (auto-low)**_
 
-Drafting a paste-ready "when to use which" block - checking garden-voice and jorap-voice structure so it fits cleanly.
+Drafting a paste-ready "when to use which" block — checking garden-voice and jorap-voice structure so it fits cleanly.
 
 
 _**Agent (auto-low)**_
@@ -301,26 +301,26 @@ Paste-ready copy if you want it in a Cursor rule elsewhere:
 
 | You are editing | Use |
 |-----------------|-----|
-| `content/english/blog/` | **jorap-voice** - all seven passes on body prose |
-| `content/english/notes/` frontmatter | **garden-voice** - field workflow + voice check |
+| `content/english/blog/` | **jorap-voice** — all seven passes on body prose |
+| `content/english/notes/` frontmatter | **garden-voice** — field workflow + voice check |
 | Flashcard fronts/backs | **garden-voice** (words) + **flashcards** (shape) |
 | Bloated draft before splitting into fields | Seven passes on the blob, **then** split and run garden-voice per field |
 
-**Seven passes on garden fields** - one read per pass, per field:
+**Seven passes on garden fields** — one read per pass, per field:
 
 | Pass | Garden field | How it maps |
 |------|--------------|-------------|
 | 1 Lived-In | `examples`, faith gloss | Two different scenes; first-person gloss after scripture |
 | 2 Strip AI Tells | All fields | De-AI pass + `pnpm lint:voice` |
-| 3 Show Thinking | `key_concept` only | Tradeoffs in claim stack - not open questions in shareables |
+| 3 Show Thinking | `key_concept` only | Tradeoffs in claim stack — not open questions in shareables |
 | 4 One-Friend | Cards, note body | Frontmatter stays tighter: no contractions, third-person `description` |
-| 5 Sharper POV | `key_concept` line 1 | Claim you'd argue - not a dictionary opener |
-| 6 Credible | `examples`, `key_concept` | Specific scene or failure - not "good practice" |
-| 7 Top-Editor | All fields | Voice check - **cut** for density, don't lengthen for flow |
+| 5 Sharper POV | `key_concept` line 1 | Claim you'd argue — not a dictionary opener |
+| 6 Credible | `examples`, `key_concept` | Specific scene or failure — not "good practice" |
+| 7 Top-Editor | All fields | Voice check — **cut** for density, don't lengthen for flow |
 
 **Minimum on any garden edit:** pass **#2**, **#5** on `key_concept` line 1, **#7** (voice check).
 
-**Watch for conflicts:** passes #3 and #4 fit cards and body best - not permission to ramble in `description`, `shareable_thought`, or `relationships.reason`.
+**Watch for conflicts:** passes #3 and #4 fit cards and body best — not permission to ramble in `description`, `shareable_thought`, or `relationships.reason`.
 
 ---
 

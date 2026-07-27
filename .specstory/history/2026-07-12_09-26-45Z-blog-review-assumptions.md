@@ -1121,7 +1121,7 @@ Commit 781039e bundled blog updates with skill and notes changes, so the user ma
 
 _**Agent (auto-low)**_
 
-From today's [blog voice audit session](.specstory/history/2026-07-12_09-13-33Z-blog-items-review-criteria.md) and commit `781039e`, here's what was treated as if **you** had already reviewed it - when you hadn't.
+From today's [blog voice audit session](.specstory/history/2026-07-12_09-13-33Z-blog-items-review-criteria.md) and commit `781039e`, here's what was treated as if **you** had already reviewed it — when you hadn't.
 
 ## The big assumption
 
@@ -1129,7 +1129,7 @@ The audit equated **agent skim + grep + lint** with **your review**. jorap-voice
 
 ---
 
-## Published posts (22) - rated "pass" without your read-through
+## Published posts (22) — rated "pass" without your read-through
 
 **13 marked "Strong / reference quality"** with no edits and no sign-off from you:
 
@@ -1137,7 +1137,7 @@ The audit equated **agent skim + grep + lint** with **your review**. jorap-voice
 - `why-i-stopped-playing-marvel-snap.md`
 - `how-i-built-jorap-notes.md`
 - `power-of-the-mouse-wheel-click.md`
-- `extension-cord.md` *(wording was edited earlier today in a separate session - still not a full seven-pass review by you)*
+- `extension-cord.md` *(wording was edited earlier today in a separate session — still not a full seven-pass review by you)*
 - `drupal-to-wordpress.md`
 - `static-site-vs-cms.md`
 - `why-i-focused-on-open-source.md`
@@ -1148,7 +1148,7 @@ The audit equated **agent skim + grep + lint** with **your review**. jorap-voice
 - `sustainable-online-publishing.md`
 - Recipe trio (adobo, arroz caldo x2)
 
-**6 marked "Good / minor polish only"** - issues were noted, then left as-is:
+**6 marked "Good / minor polish only"** — issues were noted, then left as-is:
 
 | Post | Flagged, not fixed |
 |------|-------------------|
@@ -1159,13 +1159,13 @@ The audit equated **agent skim + grep + lint** with **your review**. jorap-voice
 | `alex-eala-pro-career-tracker.md` | Em dash fixed; data-heavy scrapbook format accepted |
 | `dnpap-song-resources.md` | Thin personal layer accepted as fine |
 
-**Site-wide checklist rows marked "Pass"** (first person, plain words, experiential openers, etc.) were grep/sample-based - not a post-by-post read by you.
+**Site-wide checklist rows marked "Pass"** (first person, plain words, experiential openers, etc.) were grep/sample-based — not a post-by-post read by you.
 
 ---
 
-## Drafts (32) - stamped "voice-ready" without your review
+## Drafts (32) — stamped "voice-ready" without your review
 
-**17 drafts** were called *"voice-ready - run seven passes once more before `draft: false`"* based only on an agent skim. You never ran those passes:
+**17 drafts** were called *"voice-ready — run seven passes once more before `draft: false`"* based only on an agent skim. You never ran those passes:
 
 - `__wifi-router.md`, `__remote-work-checklist.md`, `__client-site-pass-off.md`
 - `__smart-plug.md`, `__second-cellphone.md`, `__kewpie-mayo.md`
@@ -1175,7 +1175,7 @@ The audit equated **agent skim + grep + lint** with **your review**. jorap-voice
 - `__how-to-create-a-good-habit.md`, `__jobs-to-be-done-framework.md`
 - `__obsidian-vs-hugo.md`, `__jorap-notes-features.md`, `__make-ai-articles-more-human.md`
 
-**9 Hugo tutorial drafts** were expanded when you said "do all 4", then immediately called *"voice-ready"* after **one** agent rewrite - not seven passes, and not your fact-check:
+**9 Hugo tutorial drafts** were expanded when you said "do all 4", then immediately called *"voice-ready"* after **one** agent rewrite — not seven passes, and not your fact-check:
 
 | Draft | Experience the agent invented or assumed |
 |-------|------------------------------------------|
@@ -1189,9 +1189,9 @@ The audit equated **agent skim + grep + lint** with **your review**. jorap-voice
 | `__tailwind-css-v4.md` | Hugoplate v4 upgrade path |
 | `__sveltia-cms.md` | Client pass-off when Git won't fly |
 
-Those first-person details need **your** confirmation - the agent wrote them for lived-in voice, not from your notes.
+Those first-person details need **your** confirmation — the agent wrote them for lived-in voice, not from your notes.
 
-**2 currency drafts** - amounts were swapped for vague phrasing (`budget-tier`, `cheap item`) without you checking the new wording matches how you actually quote:
+**2 currency drafts** — amounts were swapped for vague phrasing (`budget-tier`, `cheap item`) without you checking the new wording matches how you actually quote:
 
 - `__selling-static-sites.md`
 - `__shopee-tips.md`
@@ -1215,10 +1215,10 @@ Assumed you wanted new packaging; you only approved the fix *category*, not each
 
 ## What was **not** assumed reviewed (correctly flagged, still open)
 
-- `hugoplate-theme-review.md` - middle section still product-manual-ish
-- `top-reasons-*` bodies - preachy closings untouched
-- `deploy` / `navigate` in a few published tech posts - left as review-only lint hits
-- `__blog-template.md`, `__blank-blog-template.md` - correctly excluded as templates
+- `hugoplate-theme-review.md` — middle section still product-manual-ish
+- `top-reasons-*` bodies — preachy closings untouched
+- `deploy` / `navigate` in a few published tech posts — left as review-only lint hits
+- `__blog-template.md`, `__blank-blog-template.md` — correctly excluded as templates
 
 ---
 
@@ -1234,7 +1234,7 @@ Assumed you wanted new packaging; you only approved the fix *category*, not each
 
 **Safest next step:** treat everything in commit `781039e` as **agent draft**, not approved copy. Priority reads: the 9 expanded Hugo tutorials (fact-check the "I did X" stories), the 4 repackaged live posts (titles/slugs), and the 2 currency drafts.
 
-Want a tighter checklist - one post at a time, or grouped by risk (live URL changes first)?
+Want a tighter checklist — one post at a time, or grouped by risk (live URL changes first)?
 
 ---
 
@@ -1254,7 +1254,7 @@ I'm now gathering specific file details to build a practical, grouped-by-risk ch
 
 _**Agent (auto-low)**_
 
-Building a risk-grouped review checklist - pulling exact changes from the live posts and expanded drafts.
+Building a risk-grouped review checklist — pulling exact changes from the live posts and expanded drafts.
 
 
 _**Agent (auto-low)**_
@@ -1977,22 +1977,22 @@ Grouped by risk. Work top to bottom. Mark each item only after **you** have read
 
 ---
 
-## Group A - Live packaging (do first)
+## Group A — Live packaging (do first)
 
 These are **published** or will change URLs on deploy.
 
 | # | File | What changed | Your check |
 |---|------|--------------|------------|
-| A1 | `getting-started-with-rss-feeds-beginners-guide.md` | New slug `getting-started-with-rss-feeds`; alias keeps old URL | Open both URLs after deploy. Title "RSS Feeds - What I Wish I'd Done Sooner" - keep or tweak? |
+| A1 | `getting-started-with-rss-feeds-beginners-guide.md` | New slug `getting-started-with-rss-feeds`; alias keeps old URL | Open both URLs after deploy. Title "RSS Feeds - What I Wish I'd Done Sooner" — keep or tweak? |
 | A2 | `power-of-worship-pads-enhancing-your-worship-experience.md` | New slug `worship-pads-solo-guitar`; alias only covers `...-with-guitar` | **Gap:** `/blog/power-of-worship-pads-enhancing-your-worship-experience/` has **no** alias. If anything links to that path, add it to `aliases` or `_redirects`. |
-| A3 | `top-reasons-create-maintain-your-own-website.md` | Title/meta only; slug unchanged | Read title "Why I Still Run My Own Website" - does it sound like you? |
-| A4 | `top-reasons-why-you-still-need-use-desktop-laptop.md` | Title "Why I Still Keep a Desktop or Laptop"; meta "Why I Still Keep a Real Computer" | **Mismatch:** title vs meta_title - pick one voice. Slug still `top-reasons-...` (old URL safe). |
+| A3 | `top-reasons-create-maintain-your-own-website.md` | Title/meta only; slug unchanged | Read title "Why I Still Run My Own Website" — does it sound like you? |
+| A4 | `top-reasons-why-you-still-need-use-desktop-laptop.md` | Title "Why I Still Keep a Desktop or Laptop"; meta "Why I Still Keep a Real Computer" | **Mismatch:** title vs meta_title — pick one voice. Slug still `top-reasons-...` (old URL safe). |
 
 **A1–A4 pass criteria:** titles feel like yours; old bookmarks still resolve; no title/meta contradictions.
 
 ---
 
-## Group B - Agent-invented stories (fact-check before publish)
+## Group B — Agent-invented stories (fact-check before publish)
 
 Nine Hugo drafts were expanded with first-person details **you did not write**. Each claim below needs a yes/no from you.
 
@@ -2012,29 +2012,29 @@ Nine Hugo drafts were expanded with first-person details **you did not write**. 
 
 ---
 
-## Group C - Pricing language (drafts)
+## Group C — Pricing language (drafts)
 
 | # | File | What agent swapped | Your check |
 |---|------|-------------------|------------|
-| C1 | `__selling-static-sites.md` | Dollar amounts → "budget-tier shared hosting", "bundled monthly maintenance", "annual domain renewal", "cheap PHP hosting" | Read full quote structure - does it match how you actually bill clients? |
+| C1 | `__selling-static-sites.md` | Dollar amounts → "budget-tier shared hosting", "bundled monthly maintenance", "annual domain renewal", "cheap PHP hosting" | Read full quote structure — does it match how you actually bill clients? |
 | C2 | `__shopee-tips.md` | `₱89` → "cheap item" | Fine for voice rule, or too vague for your readers? |
 
 ---
 
-## Group D - Published body issues (flagged, not fixed)
+## Group D — Published body issues (flagged, not fixed)
 
 Agent rated these "good" and moved on. Still need your eye.
 
 | # | File | Issue | Section to read |
 |---|------|-------|-----------------|
-| D1 | `top-reasons-create-maintain-your-own-website.md` | Preachy closer | "So, should you build one?" through end - "Maybe go build yours" |
+| D1 | `top-reasons-create-maintain-your-own-website.md` | Preachy closer | "So, should you build one?" through end — "Maybe go build yours" |
 | D2 | `top-reasons-why-you-still-need-use-desktop-laptop.md` | Same pattern | "So what's the verdict?" through end |
-| D3 | `hugoplate-theme-review.md` | Product-manual middle | `## What you get out of the box` (lines ~38–59) - trim or keep? |
-| D4 | `extension-cord.md` | Agent-edited earlier today | Full read - café charger story still accurate, not repeated? |
+| D3 | `hugoplate-theme-review.md` | Product-manual middle | `## What you get out of the box` (lines ~38–59) — trim or keep? |
+| D4 | `extension-cord.md` | Agent-edited earlier today | Full read — café charger story still accurate, not repeated? |
 
 ---
 
-## Group E - Drafts stamped "voice-ready" (agent skim only)
+## Group E — Drafts stamped "voice-ready" (agent skim only)
 
 No seven passes run. Queue these when A–D are done.
 
@@ -2048,9 +2048,9 @@ No seven passes run. Queue these when A–D are done.
 
 ---
 
-## Group F - Published, assumed fine (lowest priority)
+## Group F — Published, assumed fine (lowest priority)
 
-Agent marked "strong" with no edits. Spot-check if you have time - start with any post you haven't reread in a year.
+Agent marked "strong" with no edits. Spot-check if you have time — start with any post you haven't reread in a year.
 
 `what-i-look-for-in-wireless-earphones`, `why-i-stopped-playing-marvel-snap`, `how-i-built-jorap-notes`, `power-of-the-mouse-wheel-click`, `drupal-to-wordpress`, `static-site-vs-cms`, `why-i-focused-on-open-source`, `consistent-ai-output-wordpress-builds`, `facebooks-hidden-gem-...`, `miracle-isaiah-david`, `sustainable-online-publishing`, recipe trio, `alex-eala-pro-career-tracker` (em dash fixed only), `dnpap-song-resources` (thin by design)
 
@@ -2060,11 +2060,11 @@ Agent marked "strong" with no edits. Spot-check if you have time - start with an
 
 Say which bucket and I'll execute:
 
-1. **Fix A2** - add missing worship-pads `-experience` alias or `_redirects` entry  
-2. **Fix A4** - align desktop/laptop title and meta_title  
-3. **Rewrite D1/D2 closings** - less preachy, more JoRap  
-4. **Trim D3** - hugoplate feature inventory  
-5. **Fact-check pass on B1–B9** - you reply yes/no per claim; I fix what fails  
+1. **Fix A2** — add missing worship-pads `-experience` alias or `_redirects` entry  
+2. **Fix A4** — align desktop/laptop title and meta_title  
+3. **Rewrite D1/D2 closings** — less preachy, more JoRap  
+4. **Trim D3** — hugoplate feature inventory  
+5. **Fact-check pass on B1–B9** — you reply yes/no per claim; I fix what fails  
 
 Start with **A2** if this site is already live with the old worship-pads URL. That's the only broken-link risk I can confirm from a local Hugo build.
 
@@ -2942,33 +2942,33 @@ _**Agent (auto-low)**_
 
 All five done. Summary:
 
-### 1. A2 - Worship pads redirect
+### 1. A2 — Worship pads redirect
 - Added Hugo alias: `power-of-worship-pads-enhancing-your-worship-experience`
 - Added Cloudflare `_redirects` for the old `-experience` URL
 - Local build confirms the alias page exists
 
-### 2. A4 - Desktop/laptop title alignment
+### 2. A4 — Desktop/laptop title alignment
 - `meta_title` now matches title: **"Why I Still Keep a Desktop or Laptop"**
 
-### 3. D1/D2 - Closings rewritten
-- **Website post:** "So, should you build one?" → **"What I actually do"** - personal habit, no sermon
-- **Desktop post:** "So what's the verdict?" → **"What I keep in the bag"** - phone vs laptop, no TikTok lecture
+### 3. D1/D2 — Closings rewritten
+- **Website post:** "So, should you build one?" → **"What I actually do"** — personal habit, no sermon
+- **Desktop post:** "So what's the verdict?" → **"What I keep in the bag"** — phone vs laptop, no TikTok lecture
 
-### 4. D3 - Hugoplate trim
+### 4. D3 — Hugoplate trim
 - Replaced 15-bullet feature inventory with two short paragraphs on what you actually use vs ignore
 
-### 5. B1–B9 - Fact-check fixes
+### 5. B1–B9 — Fact-check fixes
 
 | Draft | Verdict | Change |
 |-------|---------|--------|
 | **B1** page bundles | Partially wrong | Fixed image path/names; removed unverified "I almost bundled" |
 | **B2** go templates | Wrong story | Homepage → **blog list** `featured` sort; matches real `sort-featured-first` partial |
 | **B3** shortcodes | OK, clarified | `<>` is what you use; `%` noted as rare on this site |
-| **B4** Hugo SSG | Verified | Matches `how-i-built-jorap-notes` - no change |
-| **B5** taxonomies | Verified | No custom taxonomies in `hugo.toml` - no change |
-| **B6** markdown formatting | Verified | Extension-cord reference holds - no change |
-| **B7** markdown deep dive | Verified | PHP hosting + wikilink rule hold - no change |
+| **B4** Hugo SSG | Verified | Matches `how-i-built-jorap-notes` — no change |
+| **B5** taxonomies | Verified | No custom taxonomies in `hugo.toml` — no change |
+| **B6** markdown formatting | Verified | Extension-cord reference holds — no change |
+| **B7** markdown deep dive | Verified | PHP hosting + wikilink rule hold — no change |
 | **B8** Tailwind v4 | Unverified claim removed | Dropped "caught spacing regression" |
 | **B9** Sveltia | Clarified | You draft in Markdown; `/admin/` exists for clients; hypothetical pastor → "Picture someone…" |
 
-`pnpm lint:voice` passes. Changes are uncommitted - say if you want a commit.
+`pnpm lint:voice` passes. Changes are uncommitted — say if you want a commit.

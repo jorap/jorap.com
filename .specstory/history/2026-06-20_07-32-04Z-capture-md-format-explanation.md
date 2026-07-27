@@ -228,7 +228,7 @@ _**Agent (default)**_
 
 _**Agent (default)**_
 
-`capture.md` is a **JoRap atomic note** in the Hugo notes garden - specifically a **habit spine / review note** with embedded flashcards.
+`capture.md` is a **JoRap atomic note** in the Hugo notes garden — specifically a **habit spine / review note** with embedded flashcards.
 
 ## Structure
 
@@ -248,7 +248,7 @@ Standard blog/note fields plus garden-specific ones:
 | `aliases` | `["CODE"]` | Alternate wikilink targets |
 | `featured`, `draft` | ✓ | Listing + publish state |
 
-**2. Markdown body** - atomic note style:
+**2. Markdown body** — atomic note style:
 
 - **Opening claim** in bold: one idea in one sentence (`**Capture** = ...`)
 - **Short prose** with **wikilinks** (`[[The Trusted Inbox]]`) instead of long sections
@@ -276,7 +276,7 @@ Rules: block lists (not inline arrays), double-quoted strings, `back:` indented 
 
 - **Content type:** Hugo markdown under `content/english/notes/`
 - **Note model:** Zettelkasten-style atomic note (one claim, link out)
-- **Special subtype:** Habit spine note - ~12 notes with `review: true` and six scenario cards each
+- **Special subtype:** Habit spine note — ~12 notes with `review: true` and six scenario cards each
 - **Scaffold:** `hugo new content/english/notes/my-note.md --kind notes-review`
 
 So `capture.md` is not plain blog markdown; it’s a **review-enabled atomic note** with YAML flashcards in frontmatter and wikilinks in the body.
@@ -577,7 +577,7 @@ Categories and tags support inline bracket arrays. Card sets and cards require b
 
 _**Agent (default)**_
 
-For **flat string lists**, yes - the `categories` / `tags` style is cleaner and matches the rest of the frontmatter:
+For **flat string lists**, yes — the `categories` / `tags` style is cleaner and matches the rest of the frontmatter:
 
 ```yaml
 categories: ["Productivity", "Ideas", "Tips"]
@@ -610,13 +610,13 @@ There’s no good inline equivalent for that structure.
 
 **Why the project uses block lists for flashcard fields anyway**
 
-1. **Quoting** - Card text often has apostrophes and colons (`Don't`, `I ask:`). Block items with double quotes are safer than squeezing that into inline arrays.
-2. **Linting** - `lint:cards` only accepts block-style `card_sets` and `cards`; inline `card_sets: [...]` would fail today.
-3. **Docs** - [[Flashcards]] (`cards.md`) explicitly says to use block lists for both fields.
+1. **Quoting** — Card text often has apostrophes and colons (`Don't`, `I ask:`). Block items with double quotes are safer than squeezing that into inline arrays.
+2. **Linting** — `lint:cards` only accepts block-style `card_sets` and `cards`; inline `card_sets: [...]` would fail today.
+3. **Docs** — [[Flashcards]] (`cards.md`) explicitly says to use block lists for both fields.
 
 **Bottom line:** For `card_sets` alone, the categories/tags inline style is arguably better and the Anki export script already supports both. For `cards`, block lists are required. The mixed look in `capture.md` is mostly a deliberate flashcard convention, not because block lists are inherently better for every field.
 
-If you want consistency, the small change would be allowing inline `card_sets` in the linter and docs - `cards` would still stay as blocks. Want me to make that update?
+If you want consistency, the small change would be allowing inline `card_sets` in the linter and docs — `cards` would still stay as blocks. Want me to make that update?
 
 ---
 
@@ -1111,9 +1111,9 @@ cards:
 ```
 
 **What changed:**
-- **Linter** - accepts inline `card_sets: [...]`; rejects block-list `card_sets`
-- **12 review notes** - converted to inline format
-- **Docs** - `cards.md`, `archetypes/notes-review.md`, `archetypes/notes.md` updated
+- **Linter** — accepts inline `card_sets: [...]`; rejects block-list `card_sets`
+- **12 review notes** — converted to inline format
+- **Docs** — `cards.md`, `archetypes/notes-review.md`, `archetypes/notes.md` updated
 
 `cards` stays as a block list (nested `front`/`back` pairs). Anki export already supported both formats, so no script changes there.
 
@@ -1329,14 +1329,14 @@ Here are the notes in your garden that relate to Zettelkasten, grouped by role:
 ### Hub & context
 | Note | What it covers |
 |------|----------------|
-| [Zettelkasten](/notes/zettelkasten/) | Core definition - atomic notes, dense links, write from the network |
+| [Zettelkasten](/notes/zettelkasten/) | Core definition — atomic notes, dense links, write from the network |
 | [Slip-box History](/notes/slip-box-history/) | Luhmann's physical origin story |
 | [The Zettelkasten Myth](/notes/the-zettelkasten-myth/) | Pushes back on tool hype vs. actual writing |
 
 ### Core method (tagged `Zettelkasten`)
 | Note | What it covers |
 |------|----------------|
-| [Atomic Notes](/notes/atomic-notes/) | One idea per note - the building block |
+| [Atomic Notes](/notes/atomic-notes/) | One idea per note — the building block |
 | [Associative Linking](/notes/associative-linking/) | How notes connect in practice |
 | [Evergreen Notes](/notes/evergreen-notes/) | Mature, reusable notes |
 | [Evergreen vs Fleeting Notes](/notes/evergreen-vs-fleeting-notes/) | Note lifecycle / types |
@@ -1348,7 +1348,7 @@ Here are the notes in your garden that relate to Zettelkasten, grouped by role:
 | [Maps of Content](/notes/maps-of-content/) | Links to `[[Zettelkasten]]`; index/MOC layer |
 | [Graph View Analytics](/notes/graph-view-analytics/) | Graph as a Zettelkasten inspection tool |
 | [Digital Serendipity](/notes/digital-serendipity/) | Linked from the Zettelkasten note's See also |
-| [Note Relationships](/notes/note-relationships/) | Typed links (`extends` / `contradicts`) - garden convention, not strictly Zettelkasten |
+| [Note Relationships](/notes/note-relationships/) | Typed links (`extends` / `contradicts`) — garden convention, not strictly Zettelkasten |
 
 **Start here:** [Zettelkasten](/notes/zettelkasten/) → [Atomic Notes](/notes/atomic-notes/) → [Associative Linking](/notes/associative-linking/) → [Slip-box History](/notes/slip-box-history/) if you want the full arc from method to history to myth-busting.
 
@@ -1359,7 +1359,7 @@ _**User**_
 remove:
 Note	What it covers
 Zettelkasten
-Core definition - atomic notes, dense links, write from the network
+Core definition — atomic notes, dense links, write from the network
 Slip-box History
 Luhmann's physical origin story
 The Zettelkasten Myth
@@ -2460,13 +2460,13 @@ Removed all three notes and cleaned up references:
 - `the-zettelkasten-myth.md`
 
 **Updated wikilinks**
-- `maps-of-content.md` - removed from Foundations index
-- `graph-view-analytics.md` - See also now points to [[Associative Linking]]
-- `atomic-notes.md` - See also now points to [[Associative Linking]]
+- `maps-of-content.md` — removed from Foundations index
+- `graph-view-analytics.md` — See also now points to [[Associative Linking]]
+- `atomic-notes.md` — See also now points to [[Associative Linking]]
 
-**Updated scripts** - removed entries from `wire-note-relationships.py`, `enrich-evergreen-notes.py`, `evergreen-notes.py`, `jorap-voice-notes.py`, `add-card-backs.py`, and `wire-notes-obsidian.py`. Relationship wiring now has `atomic-notes` extending [[PKM]] and `para-method` contradicting [[Associative Linking]] instead of the deleted notes.
+**Updated scripts** — removed entries from `wire-note-relationships.py`, `enrich-evergreen-notes.py`, `evergreen-notes.py`, `jorap-voice-notes.py`, `add-card-backs.py`, and `wire-notes-obsidian.py`. Relationship wiring now has `atomic-notes` extending [[PKM]] and `para-method` contradicting [[Associative Linking]] instead of the deleted notes.
 
-Other notes still carry `Zettelkasten` as a tag on related concepts (atomic notes, linking, etc.) - no dedicated note pages for it anymore. Hugo build passes with no broken wikilinks.
+Other notes still carry `Zettelkasten` as a tag on related concepts (atomic notes, linking, etc.) — no dedicated note pages for it anymore. Hugo build passes with no broken wikilinks.
 
 ---
 
@@ -3436,7 +3436,7 @@ DEAD ENDS (0):
 
 _**Agent (default)**_
 
-Fixed - graph now shows **0 orphans** and **0 dead ends**.
+Fixed — graph now shows **0 orphans** and **0 dead ends**.
 
 **Dead ends (43 → 0)**  
 Ran `wire-note-relationships.py`, which added `Extends [[…]]. Contradicts [[…]].` lines to 56 notes. Those typed relationship lines sit in the body (before See also), so each note now has at least one outbound wikilink.
@@ -3451,7 +3451,7 @@ The last two had no inbound links:
 
 Also added a **Mental models** section to [[Maps of Content]] pointing at the models index.
 
-The other two orphans (**Building a Personal API**, **Spaced Repetition**) were fixed by the relationship wiring - notes like [[Anti-Fragile Systems]] and [[Cards]] now link to them.
+The other two orphans (**Building a Personal API**, **Spaced Repetition**) were fixed by the relationship wiring — notes like [[Anti-Fragile Systems]] and [[Cards]] now link to them.
 
 ---
 
@@ -4305,7 +4305,7 @@ wc -c /home/jorap/Documents/GitHub/jorap.com/public/notes/cards/index.html && rg
 
 ```
 98986 /home/jorap/Documents/GitHub/jorap.com/public/notes/cards/index.html
-All sets - 72 cards">
+All sets — 72 cards">
 All sets
 
 ```
@@ -4332,7 +4332,7 @@ rg 'notes-review|All sets|data-notes' /home/jorap/Documents/GitHub/jorap.com/pub
           </div><div class="notes-review" data-notes-review>
               <div class="notes-review-start border-divider rounded border p-5" data-notes-review-start style="background: var(--color-elevated);">
                 <p class="notes-review-stats text-ink-muted mb-4 text-sm" data-notes-review-stats>Loading…</p><div class="notes-filters mb-4" role="group" aria-label="Filter review by set">
-                    <button type="button" class="notes-filter is-active" ZgotmplZ="all" aria-pressed="true" aria-label="All sets - 72 cards">
+                    <button type="button" class="notes-filter is-active" ZgotmplZ="all" aria-pressed="true" aria-label="All sets — 72 cards">
   All sets<span class="notes-filter__count"> · 72</span>
                   <button type="button" class="btn btn-primary btn-sm" data-notes-review-begin>Start review</button>
                   <button type="button" class="btn btn-outline-primary btn-sm" data-notes-review-cram>Cram all (ignore schedule)</button>
@@ -4387,16 +4387,16 @@ hugo v0.163.2-19a5cec0b9618163bb519487382e861d29edf383+extended linux/amd64 Buil
  Cleaned          │    0 
 
 Total in 3395 ms
-/home/jorap/Documents/GitHub/jorap.com/public/notes/cards/index.html:data-notes-cards-filter="all" aria-pressed="true" aria-label="All sets - 72 cards">
-/home/jorap/Documents/GitHub/jorap.com/public/notes/cards/index.html:data-notes-cards-filter="Capture" aria-pressed="false" aria-label="Capture - 24 cards">
-/home/jorap/Documents/GitHub/jorap.com/public/notes/cards/index.html:data-notes-cards-filter="Focus" aria-pressed="false" aria-label="Focus - 18 cards">
-/home/jorap/Documents/GitHub/jorap.com/public/notes/cards/index.html:data-notes-cards-filter="Linking" aria-pressed="false" aria-label="Linking - 18 cards">
-/home/jorap/Documents/GitHub/jorap.com/public/notes/cards/index.html:data-notes-cards-filter="Organization" aria-pressed="false" aria-label="Organization - 12 cards">
-/home/jorap/Documents/GitHub/jorap.com/public/notes/cards/index.html:data-notes-cards-filter="Review" aria-pressed="false" aria-label="Review - 24 cards">
-/home/jorap/Documents/GitHub/jorap.com/public/notes/cards/index.html:data-notes-cards-filter="Workflow" aria-pressed="false" aria-label="Workflow - 24 cards">
-/home/jorap/Documents/GitHub/jorap.com/public/notes/cards/index.html:data-notes-cards-filter="Writing" aria-pressed="false" aria-label="Writing - 24 cards">
-/home/jorap/Documents/GitHub/jorap.com/public/notes/review/index.html:data-notes-review-set="all" aria-pressed="true" aria-label="All sets - 72 cards">
-/home/jorap/Documents/GitHub/jorap.com/public/notes/review/index.html:data-notes-review-set="Capture" aria-pressed="false" aria-label="Capture - 24 cards">
+/home/jorap/Documents/GitHub/jorap.com/public/notes/cards/index.html:data-notes-cards-filter="all" aria-pressed="true" aria-label="All sets — 72 cards">
+/home/jorap/Documents/GitHub/jorap.com/public/notes/cards/index.html:data-notes-cards-filter="Capture" aria-pressed="false" aria-label="Capture — 24 cards">
+/home/jorap/Documents/GitHub/jorap.com/public/notes/cards/index.html:data-notes-cards-filter="Focus" aria-pressed="false" aria-label="Focus — 18 cards">
+/home/jorap/Documents/GitHub/jorap.com/public/notes/cards/index.html:data-notes-cards-filter="Linking" aria-pressed="false" aria-label="Linking — 18 cards">
+/home/jorap/Documents/GitHub/jorap.com/public/notes/cards/index.html:data-notes-cards-filter="Organization" aria-pressed="false" aria-label="Organization — 12 cards">
+/home/jorap/Documents/GitHub/jorap.com/public/notes/cards/index.html:data-notes-cards-filter="Review" aria-pressed="false" aria-label="Review — 24 cards">
+/home/jorap/Documents/GitHub/jorap.com/public/notes/cards/index.html:data-notes-cards-filter="Workflow" aria-pressed="false" aria-label="Workflow — 24 cards">
+/home/jorap/Documents/GitHub/jorap.com/public/notes/cards/index.html:data-notes-cards-filter="Writing" aria-pressed="false" aria-label="Writing — 24 cards">
+/home/jorap/Documents/GitHub/jorap.com/public/notes/review/index.html:data-notes-review-set="all" aria-pressed="true" aria-label="All sets — 72 cards">
+/home/jorap/Documents/GitHub/jorap.com/public/notes/review/index.html:data-notes-review-set="Capture" aria-pressed="false" aria-label="Capture — 24 cards">
 /home/jorap/Documents/GitHub/
 … (output truncated)
 ```
@@ -5026,7 +5026,7 @@ weak: 19
   Metadata Strategy (total=7, in=3, out=4)
   RSS for Research (total=7, in=3, out=4)
   The Trusted Inbox (total=7, in=3, out=4)
-button: Weak links - 19 notes with sparse wikilinks
+button: Weak links — 19 notes with sparse wikilinks
 
 ```
 </details></tool-use>
@@ -5035,7 +5035,7 @@ _**Agent (default)**_
 
 Added a **Weak links** filter to the graph view.
 
-**What it shows:** Notes with sparse wikilink connections - not hubs, and total link count at or below the garden’s 25th percentile (capped at 8). Currently **19 notes** qualify.
+**What it shows:** Notes with sparse wikilink connections — not hubs, and total link count at or below the garden’s 25th percentile (capped at 8). Currently **19 notes** qualify.
 
 **Filter order:** All → Hubs → **Weak links** → Dead ends → Orphans
 
@@ -5044,7 +5044,7 @@ Added a **Weak links** filter to the graph view.
 - Weak nodes use an amber dot (`--graph-weak`) on the graph
 - Button shows the count, e.g. **Weak links · 19**
 
-Use this view to find notes that are linked but thinly connected - good candidates for more `[[wikilinks]]` or typed relationship lines.
+Use this view to find notes that are linked but thinly connected — good candidates for more `[[wikilinks]]` or typed relationship lines.
 
 ---
 
@@ -5056,7 +5056,7 @@ what are hubs?
 
 _**Agent (default)**_
 
-In your graph view, **hubs** are the most connected notes in the garden - the ones everything else links to or from.
+In your graph view, **hubs** are the most connected notes in the garden — the ones everything else links to or from.
 
 **How they're detected**
 
@@ -5075,11 +5075,11 @@ graph_hub_percentile = 85
 graph_hub_min_total = 15
 ```
 
-So a note is a hub if it has **≥ 15 total links**, or whatever degree falls at the **85th percentile** of the garden - whichever is higher.
+So a note is a hub if it has **≥ 15 total links**, or whatever degree falls at the **85th percentile** of the garden — whichever is higher.
 
 **What they mean in practice**
 
-Hubs are index-like notes: [[Maps of Content]], [[PKM]], [[Getting Started]], [[Atomic Notes]], etc. They’re useful entry points, but if a note gets too many links it can also signal “kitchen sink” - worth splitting or linking out instead of piling more in.
+Hubs are index-like notes: [[Maps of Content]], [[PKM]], [[Getting Started]], [[Atomic Notes]], etc. They’re useful entry points, but if a note gets too many links it can also signal “kitchen sink” — worth splitting or linking out instead of piling more in.
 
 **Compared to other filters**
 
@@ -5090,7 +5090,7 @@ Hubs are index-like notes: [[Maps of Content]], [[PKM]], [[Getting Started]], [[
 | **Orphans** | No inbound links |
 | **Dead ends** | No wikilinks in the note body (See also doesn’t count) |
 
-Right now you have **10 hubs** out of 56 notes - roughly the top ~15% of the link map.
+Right now you have **10 hubs** out of 56 notes — roughly the top ~15% of the link map.
 
 ---
 
@@ -5270,9 +5270,9 @@ _**Agent (default)**_
 
 Two changes so the filter chips stay on one row at tablet widths (768–1023px):
 
-1. **Toolbar layout** - Filters sit on their own full-width row below the title, search, and zoom controls (no longer competing for horizontal space).
+1. **Toolbar layout** — Filters sit on their own full-width row below the title, search, and zoom controls (no longer competing for horizontal space).
 
-2. **Shorter labels on tablet** - Abbreviated via CSS:
+2. **Shorter labels on tablet** — Abbreviated via CSS:
    - `All · 56 · 303` (drops “notes” / “links”)
    - `Weak · 19` (drops “links”)
    - `Dead · 0` (drops “ends”)
@@ -5729,7 +5729,7 @@ Reviewed the graph filter names against what each filter actually measures. Here
 |-----|-----|-----|
 | **Weak links** | **Underlinked** | “Weak links” sounds like broken edges. These notes have *few* total connections. |
 | **Dead ends** | **Body gaps** | “Dead end” usually means no outbound links. This filter means *no wikilinks in the body* (See also excluded). |
-| **Orphans** | **In gaps** | “Orphan” is PKM jargon. This means *no inbound links* - “in gaps” pairs with “body gaps.” |
+| **Orphans** | **In gaps** | “Orphan” is PKM jargon. This means *no inbound links* — “in gaps” pairs with “body gaps.” |
 
 ### Kept
 
@@ -5748,7 +5748,7 @@ Internal keys (`hub`, `weak`, `deadEnd`, `orphan`) are unchanged in code.
 
 ### Flashcard set names (unchanged)
 
-**All sets**, **Capture**, **Focus**, **Linking**, **Organization**, **Review**, **Workflow**, **Writing** - these still work. Only minor nit: **Review** overlaps the Review page name, and **Focus** is vague - but they’re short drill labels, not graph filters, so I left them.
+**All sets**, **Capture**, **Focus**, **Linking**, **Organization**, **Review**, **Workflow**, **Writing** — these still work. Only minor nit: **Review** overlaps the Review page name, and **Focus** is vague — but they’re short drill labels, not graph filters, so I left them.
 
 Docs updated in `graph.md`, `graph-view-analytics.md`, and `getting-started.md`.
 
@@ -5790,19 +5790,19 @@ Parameters:
       "options": [
         {
           "id": "hubs",
-          "label": "Hubs - short, matches MOC / garden docs (current)"
+          "label": "Hubs — short, matches MOC / garden docs (current)"
         },
         {
           "id": "highly-linked",
-          "label": "Highly linked - plain English, no jargon"
+          "label": "Highly linked — plain English, no jargon"
         },
         {
           "id": "well-connected",
-          "label": "Well connected - neutral, descriptive"
+          "label": "Well connected — neutral, descriptive"
         },
         {
           "id": "dense",
-          "label": "Dense - compact label for tablet"
+          "label": "Dense — compact label for tablet"
         }
       ],
       "prompt": "Highly connected notes (top ~15% by link count)"
@@ -5812,19 +5812,19 @@ Parameters:
       "options": [
         {
           "id": "underlinked",
-          "label": "Underlinked - note needs more links (current)"
+          "label": "Underlinked — note needs more links (current)"
         },
         {
           "id": "sparse",
-          "label": "Sparse - shortest, fits one row easily"
+          "label": "Sparse — shortest, fits one row easily"
         },
         {
           "id": "thin",
-          "label": "Thin - metaphorical, pairs with “dense” hubs"
+          "label": "Thin — metaphorical, pairs with “dense” hubs"
         },
         {
           "id": "low-links",
-          "label": "Low links - literal, very clear"
+          "label": "Low links — literal, very clear"
         }
       ],
       "prompt": "Sparse total wikilink connections (bottom ~25%, not hubs)"
@@ -5834,19 +5834,19 @@ Parameters:
       "options": [
         {
           "id": "body-gaps",
-          "label": "Body gaps - pairs with “In gaps” (current)"
+          "label": "Body gaps — pairs with “In gaps” (current)"
         },
         {
           "id": "no-body-links",
-          "label": "No body links - most explicit"
+          "label": "No body links — most explicit"
         },
         {
           "id": "unlinked-body",
-          "label": "Unlinked body - describes what’s missing"
+          "label": "Unlinked body — describes what’s missing"
         },
         {
           "id": "body-only",
-          "label": "Body only - ultra-short (tablet: “Body · N”)"
+          "label": "Body only — ultra-short (tablet: “Body · N”)"
         }
       ],
       "prompt": "No wikilinks in the note body (See also excluded)"
@@ -5856,19 +5856,19 @@ Parameters:
       "options": [
         {
           "id": "in-gaps",
-          "label": "In gaps - pairs with “Body gaps” (current)"
+          "label": "In gaps — pairs with “Body gaps” (current)"
         },
         {
           "id": "no-backlinks",
-          "label": "No backlinks - matches your UI vocabulary"
+          "label": "No backlinks — matches your UI vocabulary"
         },
         {
           "id": "orphans",
-          "label": "Orphans - classic PKM / graph term"
+          "label": "Orphans — classic PKM / graph term"
         },
         {
           "id": "unlinked-in",
-          "label": "Unlinked in - mirrors “Unlinked body”"
+          "label": "Unlinked in — mirrors “Unlinked body”"
         }
       ],
       "prompt": "No inbound wikilinks (nothing links to this note)"
@@ -6059,7 +6059,7 @@ Your choices are applied. The filter row is now:
 
 On tablet, **Unlinked body** shortens to **Unlinked · N** (drops “ body”).
 
-Docs and script copy updated to match. MOC notes can still say “hub notes” - that’s a content role; **Dense** is the graph filter label.
+Docs and script copy updated to match. MOC notes can still say “hub notes” — that’s a content role; **Dense** is the graph filter label.
 
 ---
 
@@ -6341,7 +6341,7 @@ Renamed everything around **link frequency**:
 
 **All · 56 · 303** → **High · 10** → **Low · 19** → **0 body · 0** → **0 in · 0**
 
-Detection logic is unchanged - only the labels and docs now read as a frequency scale (many → few → zero). Full detail stays in each button’s `aria-label` (e.g. “Zero body links - 0 notes with no wikilinks in the body”).
+Detection logic is unchanged — only the labels and docs now read as a frequency scale (many → few → zero). Full detail stays in each button’s `aria-label` (e.g. “Zero body links — 0 notes with no wikilinks in the body”).
 
 ---
 
@@ -6612,8 +6612,8 @@ Updated the last two filters:
 
 | Was | Now |
 |-----|-----|
-| **0 body** | **No body links** - no wikilinks in the note body (See also excluded) |
-| **0 in** | **Orphans** - no inbound wikilinks |
+| **0 body** | **No body links** — no wikilinks in the note body (See also excluded) |
+| **0 in** | **Orphans** — no inbound wikilinks |
 
 Full row: **All · 56 notes · 303 links** → **High** → **Low** → **No body links** → **Orphans**
 
@@ -7135,7 +7135,7 @@ The markdown `## See also` is likely dead weight on the live site. The dynamic p
 
 _**Agent (default)**_
 
-In your garden, **See also** is a **discovery lane** - not the same as the links you chose in the body.
+In your garden, **See also** is a **discovery lane** — not the same as the links you chose in the body.
 
 ### What it does
 
@@ -7160,13 +7160,13 @@ That last row is intentional: See also is **secondary**. Your body holds the rea
 
 ### Why it’s useful
 
-- **Fills gaps** - You tagged two notes similarly but never connected them; See also surfaces that.
-- **Low maintenance** - Tags update once; suggestions follow. No hand-curated list on every note (unlike a MOC).
-- **Prompts linking** - [[Getting Started]] describes it as notes you **haven’t linked yet** - a to-link queue while reading.
-- **Complements the graph** - Backlinks show who linked *to* you; outgoing shows who *you* linked; See also suggests who you *could* link by topic.
+- **Fills gaps** — You tagged two notes similarly but never connected them; See also surfaces that.
+- **Low maintenance** — Tags update once; suggestions follow. No hand-curated list on every note (unlike a MOC).
+- **Prompts linking** — [[Getting Started]] describes it as notes you **haven’t linked yet** — a to-link queue while reading.
+- **Complements the graph** — Backlinks show who linked *to* you; outgoing shows who *you* linked; See also suggests who you *could* link by topic.
 
 ### What’s in the markdown files
 
-Many notes still have a `## See also` section in source (e.g. [[Capture]]). That block is **stripped before render** (`render-content.html`); visitors see the **dynamic** See also instead. Those markdown sections are mainly legacy/authoring from wiring scripts - the live value is the generated block.
+Many notes still have a `## See also` section in source (e.g. [[Capture]]). That block is **stripped before render** (`render-content.html`); visitors see the **dynamic** See also instead. Those markdown sections are mainly legacy/authoring from wiring scripts — the live value is the generated block.
 
 **Bottom line:** See also is automated **“you might also want to link these”** based on taxonomy, separate from your deliberate body links and from full index pages like [[Maps of Content]].

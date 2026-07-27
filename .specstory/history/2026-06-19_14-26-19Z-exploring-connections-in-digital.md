@@ -20,7 +20,7 @@ Key idea: Readable notes = short blocks, bold on the claim, bullets only for rea
 
 Note 2: “Digital Serendipity”
 URL: http://localhost:1313/notes/digital-serendipity/
-Key idea: Designing luck-systems where old notes surprise you (backlinks, random walks, review queues). Luck isn’t random when the graph is dense. Pairs with Serendipitous Resurfacing, Associative Linking.
+Key idea: Designing luck—systems where old notes surprise you (backlinks, random walks, review queues). Luck isn’t random when the graph is dense. Pairs with Serendipitous Resurfacing, Associative Linking.
 
 Please analyze:
 
@@ -413,13 +413,13 @@ Updated the AI prompt builders in all three random-note features to match your s
 
 ### Changes
 
-**`blog-random-notes.js`** (blog + 2 notes - your example)
+**`blog-random-notes.js`** (blog + 2 notes — your example)
 - Intro: *"I'm exploring connections between a blog post and two notes…"*
 - Blog content labeled **Key details:**; notes labeled **Key idea:**
 - Analysis asks for **3 of each** per combination: unexpected links, atomic note titles, questions, gaps/tensions
 - Explicit **Constraints** section at the end
 
-**`notes-random-two.js`** and **`notes-random-three.js`** - same format, adapted for 2-note and 3-note pairings
+**`notes-random-two.js`** and **`notes-random-three.js`** — same format, adapted for 2-note and 3-note pairings
 
 ### Example output (blog + 2 notes)
 
@@ -1696,17 +1696,17 @@ Drafts were leaking into local dev surfaces because `buildDrafts = true` combine
 
 ### What changed
 
-1. **`layouts/_partials/notes/pages.html`** - draft notes are always excluded from the garden (index, random pickers, graph, backlinks, etc.)
+1. **`layouts/_partials/notes/pages.html`** — draft notes are always excluded from the garden (index, random pickers, graph, backlinks, etc.)
 
-2. **`layouts/_partials/blog/related-posts-lookup.html`** - draft blog posts are always excluded from related-post suggestions
+2. **`layouts/_partials/blog/related-posts-lookup.html`** — draft blog posts are always excluded from related-post suggestions
 
-3. **`layouts/_default/list.searchindex.json`** - draft posts and notes are excluded from site search
+3. **`layouts/_default/list.searchindex.json`** — draft posts and notes are excluded from site search
 
 4. **Config comments** updated to clarify intent: drafts preview at `/drafts/` only
 
 ### What still works locally
 
-- **`/drafts/`** - preview all draft blog posts
+- **`/drafts/`** — preview all draft blog posts
 - **Drafts nav link** in the header/footer on localhost
 - **Direct URLs** like `/blog/second-cellphone/` still work if you open them intentionally (`buildDrafts` stays on for preview)
 
@@ -1717,4 +1717,4 @@ Drafts were leaking into local dev surfaces because `buildDrafts = true` combine
 - Related posts on note pages
 - Site search
 
-Restart `hugo server` (or hard-refresh) to pick up the changes. If you also want draft posts blocked from direct `/blog/...` URLs locally - only reachable via `/drafts/` - say the word and we can wire that up.
+Restart `hugo server` (or hard-refresh) to pick up the changes. If you also want draft posts blocked from direct `/blog/...` URLs locally — only reachable via `/drafts/` — say the word and we can wire that up.

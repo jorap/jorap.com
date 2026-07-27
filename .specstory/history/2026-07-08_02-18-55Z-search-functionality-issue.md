@@ -2690,7 +2690,7 @@ A bug in the template appears to be causing the search failure.
 
 _**Agent (auto-low)**_
 
-The `jsonify` filter double-quoted the URL - removing it so the path renders correctly.
+The `jsonify` filter double-quoted the URL — removing it so the path renders correctly.
 
 
 _**Agent (auto-low)**_
@@ -2729,15 +2729,15 @@ Production now correctly uses a relative same-origin index URL.
 
 _**Agent (auto-low)**_
 
-Search was failing because the search index URL was absolute (`absLangURL`), so local dev could point at the wrong host - production (`https://www.jorap.com/...`, blocked by CORS) or the wrong port. Visiting via `127.0.0.1` while the URL said `localhost` caused the same problem.
+Search was failing because the search index URL was absolute (`absLangURL`), so local dev could point at the wrong host — production (`https://www.jorap.com/...`, blocked by CORS) or the wrong port. Visiting via `127.0.0.1` while the URL said `localhost` caused the same problem.
 
 **What I changed:**
 
-1. **`layouts/_partials/search-index.html`** - `indexURL` now uses `relURL` → `/searchindex.json` (same origin on any host/port)
-2. **`package.json`** - `npm run dev` explicitly sets `-e development --baseURL=http://localhost:1313/`
-3. **`assets/js/search.js`** - init even if `DOMContentLoaded` already fired; escape regex special chars so queries like `(` don’t crash search; null-safe `searchResultInfo` reset
+1. **`layouts/_partials/search-index.html`** — `indexURL` now uses `relURL` → `/searchindex.json` (same origin on any host/port)
+2. **`package.json`** — `npm run dev` explicitly sets `-e development --baseURL=http://localhost:1313/`
+3. **`assets/js/search.js`** — init even if `DOMContentLoaded` already fired; escape regex special chars so queries like `(` don’t crash search; null-safe `searchResultInfo` reset
 
-Production `searchindex.json` is valid (253 pages). The index file itself was fine - the fetch URL was wrong in dev.
+Production `searchindex.json` is valid (253 pages). The index file itself was fine — the fetch URL was wrong in dev.
 
 **To pick this up locally:** restart the dev server (`Ctrl+C`, then `npm run dev`). After restart, View Source should show:
 
@@ -2790,7 +2790,7 @@ The user requested a brief update on task results.
 
 _**Agent (auto-low)**_
 
-Search is fixed. The index file was fine - the problem was `indexURL` using an absolute URL, which broke local dev (wrong host, CORS, `localhost` vs `127.0.0.1`).
+Search is fixed. The index file was fine — the problem was `indexURL` using an absolute URL, which broke local dev (wrong host, CORS, `localhost` vs `127.0.0.1`).
 
 Production rebuild completed successfully with `indexURL="/searchindex.json"`, and all search tests pass.
 

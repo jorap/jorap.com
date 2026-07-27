@@ -400,7 +400,7 @@ The structured report is ready for delivery.
 
 _**Agent (composer-2.5-fast)**_
 
-## Likability audit - 24 published posts
+## Likability audit — 24 published posts
 
 Scored against the jorap-voice likability lens: **Useful** (real pick/takeaway early), **Honest** (what broke / you'd skip), **Human** (scene, mistake, or dry observation per major H2), **Respectful** (plain words, no lecture, no hype).
 
@@ -410,30 +410,30 @@ Scored against the jorap-voice likability lens: **Useful** (real pick/takeaway e
 
 | Post | Useful | Honest | Human | Respectful | Overall | Failed pillar(s) | One-line fix (Mixed/Weak only) |
 |------|:------:|:------:|:-----:|:----------:|:-------:|------------------|--------------------------------|
-| `hanamikoji-duopoly-retheme.md` | Y - retheme map + win habits in opening | Y - dull on purpose, personal-use-only, copyright clear | Y - sleeve binding, Trade-off denial, early play tests per H2 | Y | **Strong** | - | - |
-| `instant-pot-chicken-adobo.md` | Y - burn-notice workaround + timings up front | Y - don't brown in IP, separate pan | N - Method H2 is pure steps, no scene per section | Y | **Mixed** | Human | Add one line per Method step (burn notice, batch sear, etc.) |
-| `why-i-stopped-playing-marvel-snap.md` | Y - quit reasons + "retreat when cubes stop being fun" | Y - never spent money, tilt browsing, still respects design | Y - meta sites, roster gaps, cube anxiety in every H2 | Y | **Strong** | - | - |
-| `why-keep-desktop-laptop.md` | Y - laptop-for-real-work thesis early | Y - won't lend gear; some sections generic | N - only 2–3 H2s have scenes; rest read like standard listicle | Y | **Mixed** | Human | Drop one personal scene into each generic H2 (Hugo build, payroll scramble, etc.) |
-| `getting-started-with-rss-feeds.md` | Y - Inoreader + 3-folder system early | Y - RSS isn't exciting; mark-all-read is fine | Y - friend call-out, first Inoreader morning, unsubscribe rule | Y | **Strong** | - | - |
-| `one-page-zine.md` | Y - 8-page format + layout steps early | Y - "What it is not good for" limits | Y - Hanamikoji teach, sleeve trim, forced editing per H2 | Y | **Strong** | - | - |
-| `facebook-favorites-feed.md` | Y - Favorites feed + setup path clear | Y - added 50 people, cap of 30 | N - middle H2s are benefit bullets, not scenes | Y | **Mixed** | Human | Swap 2–3 benefit bullets for one concrete scroll session each |
-| `instant-pot-arroz-caldo.md` | Y - 45-min batch + food-safety rule early | Y - rice cooker limits, no quick release, supermarket thighs | N - recipe H2s procedural after "Why I switched" | Y | **Mixed** | Human | One lived line in Steps 1–6 (spray incident, salt guess, etc.) |
-| `miracle-isaiah-david.md` | Y - same-day pregnancy/birth hook immediate | Y - wrong gender, sentence still unreal | Y - ECQ, dysmenorrhea misread, daughter-then-boy throughout | Y | **Strong** | - | - |
-| `drupal-to-wordpress.md` | Y - TL;DR + job-market pick early | Y - upgrade weekends, still respects Drupal | Y - midnight migrations, WordCamp Manila pool talk | Y | **Strong** | - | - |
-| `dnpap-song-resources.md` | Y - link hub for singers/fans | N - no friction, limits, or "skip this" | N - human only in intro; rest is embeds/tables | Y | **Weak** | Honest, Human | Add 2–3 lines on recording day friction + when studio vs live cut |
-| `worship-pads-solo-guitar.md` | Y - VLC setup + 5 keys + free sources | Y - app freezes, wrong-key pain | Y - nodded without knowing "pad," first Sunday, near-disasters | Y | **Strong** | - | - |
-| `extension-cord.md` | Y - 2 m flat plug pick in opening | Y - warm cord, plain vs surge tradeoff | Y - hotel behind bed, café blocked socket, dying battery | Y | **Strong** | - | - |
-| `why-i-focused-on-open-source.md` | Y - freedom > free filter + TL;DR | Y - months to learn, open ≠ good | N - middle H2s essay/list; fewer scenes than hosting-disaster opener | Y | **Mixed** | Human | One failure or near-miss per benefits/limitations H2 |
-| `why-run-your-own-website.md` | Y - own-it thesis + cost early | Y - lost PHP hosting, still posts on social | N - many H2s are platform-death examples, not lived scenes | Y | **Mixed** | Human | Replace 2–3 platform anecdotes with your own lost-work moments |
-| `set-it-forget-it-arroz-caldo.md` | Y - rice-cooker method + "I moved on" upfront | Y - superseded by IP version, thigh availability | N - recipe blocks procedural; human mostly in intro/closing | Y | **Mixed** | Human | One Friday-night or congee-button scene in Steps 2–4 |
-| `hugoplate-theme-review.md` | Y - pick + rough edges + who it's for | Y - submodule pain, case sensitivity, Node drift | N - shortcode demo H2 is pure reference, zero scenes | Y | **Mixed** | Human | Trim demos or frame each shortcode group with one "I broke this once" line |
-| `what-i-look-for-in-wireless-earphones.md` | Y - 7-point checklist + RunFree pick | Y - drawer graveyard, lost true-wireless hours | Y - jeepney, kid calling, 90-min ache in every H2 | Y | **Strong** | - | - |
-| `static-site-vs-cms.md` | Y - 5-question fit check early | Y - both stacks fail when mismatched | Y - designer login ask, neighbor broke build once | Y | **Strong** | - | - |
-| `sustainable-online-publishing.md` | Y - stack + 5-step start | Y - broken YAML at 11pm, lost hosting | N - overlaps sibling post; essay H2s light on scenes | Y | **Mixed** | Human | One "11pm deploy" or "lost export" scene per H2, cut redundant platform list |
-| `alex-eala-pro-career-tracker.md` | Y - reference data (by design) | N - no friction, skips, or editorial doubt | N - scrapbook stats after intro; no scene per H2 block | Y | **Weak** | Honest, Human | Add 1–2 sentences per tournament block on why you pinned it or what surprised you |
-| `how-i-built-jorap-notes.md` | Y - TL;DR + full stack path early | Y - "Things that broke" section, lost Saturday | Y - case sensitivity, forgot git remote, submodule pain | Y | **Strong** | - | - |
-| `mouse-wheel-click.md` | Y - middle-click tip in first paragraphs | Y - small upgrade, trackpad caveat | Y - watching right-click loops, "cheat code" bookmark folder | Y | **Strong** | - | - |
-| `consistent-ai-output-wordpress-builds.md` | Y - 4-step 80% layer + TL;DR | Y - month 2 annoyed, AI too creative | N - Steps 1–4 read as framework, few concrete build scenes | Y | **Mixed** | Human | One real Tuesday/Thursday drift example per step |
+| `hanamikoji-duopoly-retheme.md` | Y — retheme map + win habits in opening | Y — dull on purpose, personal-use-only, copyright clear | Y — sleeve binding, Trade-off denial, early play tests per H2 | Y | **Strong** | — | — |
+| `instant-pot-chicken-adobo.md` | Y — burn-notice workaround + timings up front | Y — don't brown in IP, separate pan | N — Method H2 is pure steps, no scene per section | Y | **Mixed** | Human | Add one line per Method step (burn notice, batch sear, etc.) |
+| `why-i-stopped-playing-marvel-snap.md` | Y — quit reasons + "retreat when cubes stop being fun" | Y — never spent money, tilt browsing, still respects design | Y — meta sites, roster gaps, cube anxiety in every H2 | Y | **Strong** | — | — |
+| `why-keep-desktop-laptop.md` | Y — laptop-for-real-work thesis early | Y — won't lend gear; some sections generic | N — only 2–3 H2s have scenes; rest read like standard listicle | Y | **Mixed** | Human | Drop one personal scene into each generic H2 (Hugo build, payroll scramble, etc.) |
+| `getting-started-with-rss-feeds.md` | Y — Inoreader + 3-folder system early | Y — RSS isn't exciting; mark-all-read is fine | Y — friend call-out, first Inoreader morning, unsubscribe rule | Y | **Strong** | — | — |
+| `one-page-zine.md` | Y — 8-page format + layout steps early | Y — "What it is not good for" limits | Y — Hanamikoji teach, sleeve trim, forced editing per H2 | Y | **Strong** | — | — |
+| `facebook-favorites-feed.md` | Y — Favorites feed + setup path clear | Y — added 50 people, cap of 30 | N — middle H2s are benefit bullets, not scenes | Y | **Mixed** | Human | Swap 2–3 benefit bullets for one concrete scroll session each |
+| `instant-pot-arroz-caldo.md` | Y — 45-min batch + food-safety rule early | Y — rice cooker limits, no quick release, supermarket thighs | N — recipe H2s procedural after "Why I switched" | Y | **Mixed** | Human | One lived line in Steps 1–6 (spray incident, salt guess, etc.) |
+| `miracle-isaiah-david.md` | Y — same-day pregnancy/birth hook immediate | Y — wrong gender, sentence still unreal | Y — ECQ, dysmenorrhea misread, daughter-then-boy throughout | Y | **Strong** | — | — |
+| `drupal-to-wordpress.md` | Y — TL;DR + job-market pick early | Y — upgrade weekends, still respects Drupal | Y — midnight migrations, WordCamp Manila pool talk | Y | **Strong** | — | — |
+| `dnpap-song-resources.md` | Y — link hub for singers/fans | N — no friction, limits, or "skip this" | N — human only in intro; rest is embeds/tables | Y | **Weak** | Honest, Human | Add 2–3 lines on recording day friction + when studio vs live cut |
+| `worship-pads-solo-guitar.md` | Y — VLC setup + 5 keys + free sources | Y — app freezes, wrong-key pain | Y — nodded without knowing "pad," first Sunday, near-disasters | Y | **Strong** | — | — |
+| `extension-cord.md` | Y — 2 m flat plug pick in opening | Y — warm cord, plain vs surge tradeoff | Y — hotel behind bed, café blocked socket, dying battery | Y | **Strong** | — | — |
+| `why-i-focused-on-open-source.md` | Y — freedom > free filter + TL;DR | Y — months to learn, open ≠ good | N — middle H2s essay/list; fewer scenes than hosting-disaster opener | Y | **Mixed** | Human | One failure or near-miss per benefits/limitations H2 |
+| `why-run-your-own-website.md` | Y — own-it thesis + cost early | Y — lost PHP hosting, still posts on social | N — many H2s are platform-death examples, not lived scenes | Y | **Mixed** | Human | Replace 2–3 platform anecdotes with your own lost-work moments |
+| `set-it-forget-it-arroz-caldo.md` | Y — rice-cooker method + "I moved on" upfront | Y — superseded by IP version, thigh availability | N — recipe blocks procedural; human mostly in intro/closing | Y | **Mixed** | Human | One Friday-night or congee-button scene in Steps 2–4 |
+| `hugoplate-theme-review.md` | Y — pick + rough edges + who it's for | Y — submodule pain, case sensitivity, Node drift | N — shortcode demo H2 is pure reference, zero scenes | Y | **Mixed** | Human | Trim demos or frame each shortcode group with one "I broke this once" line |
+| `what-i-look-for-in-wireless-earphones.md` | Y — 7-point checklist + RunFree pick | Y — drawer graveyard, lost true-wireless hours | Y — jeepney, kid calling, 90-min ache in every H2 | Y | **Strong** | — | — |
+| `static-site-vs-cms.md` | Y — 5-question fit check early | Y — both stacks fail when mismatched | Y — designer login ask, neighbor broke build once | Y | **Strong** | — | — |
+| `sustainable-online-publishing.md` | Y — stack + 5-step start | Y — broken YAML at 11pm, lost hosting | N — overlaps sibling post; essay H2s light on scenes | Y | **Mixed** | Human | One "11pm deploy" or "lost export" scene per H2, cut redundant platform list |
+| `alex-eala-pro-career-tracker.md` | Y — reference data (by design) | N — no friction, skips, or editorial doubt | N — scrapbook stats after intro; no scene per H2 block | Y | **Weak** | Honest, Human | Add 1–2 sentences per tournament block on why you pinned it or what surprised you |
+| `how-i-built-jorap-notes.md` | Y — TL;DR + full stack path early | Y — "Things that broke" section, lost Saturday | Y — case sensitivity, forgot git remote, submodule pain | Y | **Strong** | — | — |
+| `mouse-wheel-click.md` | Y — middle-click tip in first paragraphs | Y — small upgrade, trackpad caveat | Y — watching right-click loops, "cheat code" bookmark folder | Y | **Strong** | — | — |
+| `consistent-ai-output-wordpress-builds.md` | Y — 4-step 80% layer + TL;DR | Y — month 2 annoyed, AI too creative | N — Steps 1–4 read as framework, few concrete build scenes | Y | **Mixed** | Human | One real Tuesday/Thursday drift example per step |
 
 ---
 
@@ -443,7 +443,7 @@ Scored against the jorap-voice likability lens: **Useful** (real pick/takeaway e
 
 `hanamikoji-duopoly-retheme`, `why-i-stopped-playing-marvel-snap`, `getting-started-with-rss-feeds`, `one-page-zine`, `miracle-isaiah-david`, `drupal-to-wordpress`, `worship-pads-solo-guitar`, `extension-cord`, `what-i-look-for-in-wireless-earphones`, `static-site-vs-cms`, `how-i-built-jorap-notes`, `mouse-wheel-click`
 
-**Pattern:** Personal pick or story in the first screen; at least one honest friction per major section; scenes with names, places, durations, or failures; closes on what you'd actually do/buy/quit - not "hope this helps."
+**Pattern:** Personal pick or story in the first screen; at least one honest friction per major section; scenes with names, places, durations, or failures; closes on what you'd actually do/buy/quit — not "hope this helps."
 
 ---
 
@@ -451,14 +451,14 @@ Scored against the jorap-voice likability lens: **Useful** (real pick/takeaway e
 
 `instant-pot-chicken-adobo`, `why-keep-desktop-laptop`, `facebook-favorites-feed`, `instant-pot-arroz-caldo`, `why-i-focused-on-open-source`, `why-run-your-own-website`, `set-it-forget-it-arroz-caldo`, `hugoplate-theme-review`, `sustainable-online-publishing`, `consistent-ai-output-wordpress-builds`
 
-**Pattern:** **Human** is the usual miss - not Respectful or Useful. Common shapes:
+**Pattern:** **Human** is the usual miss — not Respectful or Useful. Common shapes:
 
 - **Recipe posts (3):** honest in intro ("burn notice," "no quick release") but Method H2s go full instruction with no scene per section.
 - **Platform/philosophy essays (4):** strong opener + honest hosting loss, then H2s drift into generic platform-death lists or bullet benefits instead of one lived moment each.
 - **Reference-heavy posts (2):** Hugoplate shortcode catalog and AI 4-step framework are useful but read like docs/process, not someone typing after doing the work.
-- **Tips with bullet middles (1):** Facebook Favorites - setup is useful; "why I keep coming back" is parallel bullets without a scroll session.
+- **Tips with bullet middles (1):** Facebook Favorites — setup is useful; "why I keep coming back" is parallel bullets without a scroll session.
 
-**Site-wide fix for Mixed:** Run the slop gate's **one failure rule** on every H2 - one thing that went wrong, surprised you, or you'd skip next time. Recipe bodies can stay scannable; one human line per major section is enough.
+**Site-wide fix for Mixed:** Run the slop gate's **one failure rule** on every H2 — one thing that went wrong, surprised you, or you'd skip next time. Recipe bodies can stay scannable; one human line per major section is enough.
 
 ---
 
@@ -466,9 +466,9 @@ Scored against the jorap-voice likability lens: **Useful** (real pick/takeaway e
 
 `dnpap-song-resources`, `alex-eala-pro-career-tracker`
 
-**Pattern:** Intentional **reference hubs** - high Useful for the right reader, but almost no **Honest** friction and no **Human** texture after the intro. They pass Respectful (plain, not hyped) but fail the "a person typed this" test across the body.
+**Pattern:** Intentional **reference hubs** — high Useful for the right reader, but almost no **Honest** friction and no **Human** texture after the intro. They pass Respectful (plain, not hyped) but fail the "a person typed this" test across the body.
 
-**Fix:** Keep the data; add thin editorial glue - why you bookmark this version, one recording-day detail, one "this match still hurts / still pins" line per major block. Or accept them as utility pages outside the likability bar (link collections, live trackers).
+**Fix:** Keep the data; add thin editorial glue — why you bookmark this version, one recording-day detail, one "this match still hurts / still pins" line per major block. Or accept them as utility pages outside the likability bar (link collections, live trackers).
 
 ---
 
@@ -482,6 +482,6 @@ Scored against the jorap-voice likability lens: **Useful** (real pick/takeaway e
 | Long reference/demo blocks | `hugoplate-theme-review` (shortcodes), `consistent-ai-output-wordpress-builds` (steps) | Human |
 | Link/stat scrapbooks | `alex-eala-pro-career-tracker`, `dnpap-song-resources` | Honest + Human |
 
-**Strongest likability cluster:** gear picks, quit stories, build logs with failure sections, and faith/family testimony - posts where JoRap's voice is the product, not the wrapper around instructions or data.
+**Strongest likability cluster:** gear picks, quit stories, build logs with failure sections, and faith/family testimony — posts where JoRap's voice is the product, not the wrapper around instructions or data.
 
-**Highest-leverage polish:** the 10 Mixed posts - mostly one scene or failure line per H2, no full rewrites needed.
+**Highest-leverage polish:** the 10 Mixed posts — mostly one scene or failure line per H2, no full rewrites needed.

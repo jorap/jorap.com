@@ -125,7 +125,7 @@ Confirmed 58 posts remain after excluding the two template files. Reading throug
 
 _**Agent (composer-2.5-fast)**_
 
-Reading posts in batches - frontmatter and body samples for difficulty assessment.
+Reading posts in batches — frontmatter and body samples for difficulty assessment.
 
 
 _**Agent (composer-2.5-fast)**_
@@ -753,12 +753,12 @@ _**Agent (composer-2.5-fast)**_
 
 ---
 
-## Tier 1 - Effortless
+## Tier 1 — Effortless
 *No special knowledge; read and done.*
 
 | Title | Slug / filename | Draft | Justification |
 |---|---|---|---|
-| Blog Template | `how-to-create-a-blog-template` / `__how-to-create-a-blog-template.md` | true | Empty body beyond frontmatter - nothing to parse. |
+| Blog Template | `how-to-create-a-blog-template` / `__how-to-create-a-blog-template.md` | true | Empty body beyond frontmatter — nothing to parse. |
 | Interesting Facts About JoRap | `interesting-facts-about-jorap` / `__interesting-facts-about-jorap.md` | true | Meta index of personal facts in tables; no concepts to learn. |
 | DNPAP - Song Resources | `dnpap-song-resources` / `dnpap-song-resources.md` | false | Link/embed hub with a short personal intro; no workflow or jargon. |
 | The Miracle of Isaiah David | `miracle-isaiah-david` / `miracle-isaiah-david.md` | false | Straightforward birth testimony told chronologically in plain language. |
@@ -774,7 +774,7 @@ _**Agent (composer-2.5-fast)**_
 
 ---
 
-## Tier 2 - Easy
+## Tier 2 — Easy
 *Light context or a single how-to; jargon minimal or explained.*
 
 | Title | Slug / filename | Draft | Justification |
@@ -801,7 +801,7 @@ _**Agent (composer-2.5-fast)**_
 
 ---
 
-## Tier 3 - Moderate
+## Tier 3 — Moderate
 *Domain framing, comparisons, or density that rewards some background.*
 
 | Title | Slug / filename | Draft | Justification |
@@ -818,36 +818,36 @@ _**Agent (composer-2.5-fast)**_
 | How I Quote Client Websites | `selling-static-sites` / `__selling-static-sites.md` | true | Freelance quoting with Hugo/Cloudflare line items; client-work + static-stack assumptions. |
 | Private Notes vs Hugo | `obsidian-vs-hugo` / `__obsidian-vs-hugo.md` | true | PKM workflow design (garage vs garden); short but needs notes/publishing mental model. |
 | Markdown Formatting | `markdown-formatting` / `__markdown-formatting.md` | true | Writer-facing structure guide; easy for bloggers, moderate if Markdown/TOC is new. |
-| Markdown Deep Dive | `markdown-deep-dive` / `__markdown-deep-dive.md` | true | Flavor differences, YAML frontmatter, renderer tables - publishing-stack literacy required. |
+| Markdown Deep Dive | `markdown-deep-dive` / `__markdown-deep-dive.md` | true | Flavor differences, YAML frontmatter, renderer tables — publishing-stack literacy required. |
 | Why I Love the Inter Font | `inter-font` / `__inter-font.md` | true | Typography/web-design choices (weights, self-hosting, Tailwind tokens); design vocabulary assumed. |
 | Personal Immune Booster Supplements | `immune-booster-supplements` / `__immune-booster-supplements.md` | true | Supplement stack with research links; reader must weigh medical disclaimers and mixed evidence. |
 
 ---
 
-## Tier 4 - Hard
+## Tier 4 — Hard
 *Developer-oriented; multi-step workflows or Hugo/build-pipeline knowledge expected.*
 
 | Title | Slug / filename | Draft | Justification |
 |---|---|---|---|
 | Consistent AI Output for WordPress Builds | `consistent-ai-output-wordpress-builds` / `consistent-ai-output-wordpress-builds.md` | false | Four-step AI dev workflow (helpers, examples, rules doc) for WordPress/Cursor builds. |
 | How I Built JoRap Notes | `how-i-built-jorap-notes` / `how-i-built-jorap-notes.md` | false | Full Hugo → GitHub → Cloudflare migration walkthrough with PATH, version pins, deploy debugging. |
-| HugoPlate: The Theme Quietly Powering This Site | `hugoplate-theme-review` / `hugoplate-theme-review.md` | false | Long theme deep-dive: Tailwind v4, folder map, shortcodes, upgrade pain - dense for non-Hugo readers. |
-| Hugo Static Site Generator | `hugo-static-site-generator` / `__hugo-static-site-generator.md` | true | SSG architecture, JAMstack tradeoffs, when-not-to-use - assumes web-stack comparison literacy. |
+| HugoPlate: The Theme Quietly Powering This Site | `hugoplate-theme-review` / `hugoplate-theme-review.md` | false | Long theme deep-dive: Tailwind v4, folder map, shortcodes, upgrade pain — dense for non-Hugo readers. |
+| Hugo Static Site Generator | `hugo-static-site-generator` / `__hugo-static-site-generator.md` | true | SSG architecture, JAMstack tradeoffs, when-not-to-use — assumes web-stack comparison literacy. |
 | Hugo Go Templates | `hugo-go-templates` / `__hugo-go-templates.md` | true | Go template syntax, partials, layout lookup; code snippets and theme-debug mindset required. |
 | Hugo Page Bundles | `hugo-page-bundles` / `__hugo-page-bundles.md` | true | Content architecture (leaf/branch/headless bundles) with folder layouts and relative asset paths. |
-| Hugo Shortcodes Deep Dive | `hugo-shortcodes` / `__hugo-shortcodes.md` | true | Custom shortcode anatomy, Go template params, delimiter footguns - hands-on Hugo templating. |
+| Hugo Shortcodes Deep Dive | `hugo-shortcodes` / `__hugo-shortcodes.md` | true | Custom shortcode anatomy, Go template params, delimiter footguns — hands-on Hugo templating. |
 | Native Hugo Taxonomies | `native-hugo-taxonomies` / `__native-hugo-taxonomies.md` | true | Taxonomy config, template paths, custom taxonomy in `hugo.toml`; site-structure engineering. |
 | Tailwind CSS v4.0 | `tailwind-css-v4` / `__tailwind-css-v4.md` | true | v3→v4 migration (`@theme`, Oxide, PostCSS/Vite coupling with Hugo assets). |
 | Sveltia CMS | `sveltia-cms` / `__sveltia-cms.md` | true | Git-backed CMS setup (OAuth, schemas, staging) bridging static sites and non-technical editors. |
 
 ---
 
-## Tier 5 - Expert
+## Tier 5 — Expert
 *Dense system documentation; many subsystems in one read.*
 
 | Title | Slug / filename | Draft | Justification |
 |---|---|---|---|
-| What JoRap Notes Actually Does | `jorap-notes-features` / `__jorap-notes-features.md` | true | Exhaustive garden feature catalog (atomic frontmatter schema, typed relationships, PixiJS graph, OKF export, lint/review tooling) - assumes Hugo + PKM + agent-export fluency. |
+| What JoRap Notes Actually Does | `jorap-notes-features` / `__jorap-notes-features.md` | true | Exhaustive garden feature catalog (atomic frontmatter schema, typed relationships, PixiJS graph, OKF export, lint/review tooling) — assumes Hugo + PKM + agent-export fluency. |
 
 ---
 
@@ -862,4 +862,4 @@ _**Agent (composer-2.5-fast)**_
 | 5 | Expert | 1 | 0 | 1 |
 | **Total** | | **58** | **25** | **33** |
 
-**Pattern:** Published posts cluster in Tiers 1–3 (personal essays, recipes, gear, opinions, guides). Draft Hugo/PKM/developer posts dominate Tiers 4–5. JoRap’s plain voice consistently lowers *perceived* difficulty versus raw topic complexity - especially on Tier 3–4 web-dev posts.
+**Pattern:** Published posts cluster in Tiers 1–3 (personal essays, recipes, gear, opinions, guides). Draft Hugo/PKM/developer posts dominate Tiers 4–5. JoRap’s plain voice consistently lowers *perceived* difficulty versus raw topic complexity — especially on Tier 3–4 web-dev posts.

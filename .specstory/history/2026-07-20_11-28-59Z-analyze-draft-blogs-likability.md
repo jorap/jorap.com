@@ -649,61 +649,61 @@ Form: **Full draft** = prose body with real sections; **Outline** = mostly crite
 
 ---
 
-## Ready - Strong (22)
+## Ready — Strong (22)
 
 | Post | Form | Useful | Honest | Human | Respectful | Fails | Fix |
 |------|------|--------|--------|-------|------------|-------|-----|
-| `__grade-1-better-than-kumon.md` | Full | Y - games-first strategy + week plan in first screen | Y - Kumon speed feedback, math still "hard" | Y - son, pencil, lola postcard in every H2 | Y | - | - |
-| `__markdown-deep-dive.md` | Full | Y - 90% syntax + flavor table early | Y - YAML broke build 20 min | Y - forum asterisks, lost hosting | Y | - | - |
-| `__rechargeable-batteries.md` | Full | Y - Eneloop + charger picks by §2 | Y - smoke alarms stay alkaline | Y - battery graveyard, 9 PM toys | Y | - | - |
-| `__selling-static-sites.md` | Full | Y - TL;DR line items upfront | Y - paid whole bill after client left | Y - neighbor YAML typo, pastor Friday push | Y | - | - |
-| `__canon-g3000.md` | Full | Y - buy/skip + refill habits early | Y - post-trip streaky prints | Y - cartridge rage opener | Y | - | - |
-| `__how-to-create-a-good-habit.md` | Full | Y - four laws with concrete tweaks | Y - 11-step routine collapse | Y - phone scroll inversion, breakfast Hugo | Y | - | - |
-| `__client-site-pass-off.md` | Full | Y - four paths + one-page doc | Y - scope lie, WordPress expectations trap | Y - neighbor, pastor, YAML typo | Y | - | - |
-| `__password-managers.md` | Full | Y - Bitwarden + top-20 migration order | Y - autofill fight, LastPass skip | Y - breach email, muscle memory | Y | - | - |
-| `__humanize-ai-articles.md` | Full | Y - perplexity/burstiness prompt | Y - viral prompt as warning | Y - jeepney earphones rewrite | Y | - | - |
-| `__shopee-tips.md` | Full | Y - local-first filter in §1 | Y - dead USB hub in a week | Y - SOC names, impulse buy | Y | - | - |
-| `__google-over-apple-ecosystem.md` | Full | Y - stack list + give-ups clear | Y - Android bloat, iMessage friction | Y - Shopee phone, Mi Box, borrowed Mac | Y | - | - |
-| `__hugo-static-site-generator.md` | Full | Y - when to say no by §2 | Y - lost hosting, client bill | Y - weekend fumbling | Y | - | - |
-| `__hugo-shortcodes.md` | Full | Y - third-time rule + delimiters | Y - bold broke inside callout | Y - fixed YouTube once, not 200 files | Y | - | - |
-| `__mi-box-s.md` | Full | Y - who for/skip + setup | Y - storage slideshow, update risk | Y - popcorn Netflix lag, AAA remotes | Y | - | - |
-| `__inter-font.md` | Full | Y - self-host why + weight ladder | Y - build fails loud, not clever | Y - Refactoring UI, hotel Wi-Fi | Y | - | - |
-| `__second-cellphone.md` | Full | Y - banking separation + setup | Y - OTP on lock screen | Y - kid + game scene | Y | - | - |
-| `__why-git-greatest-open-source-innovation.md` | Full | Y - `git checkout -- .` hook | Y - FileZilla days, reflog raccoon | Y - every H2 has a lived beat | Y | - | - |
-| `__smart-plug.md` | Full | Y - good at / skip by §2 | Y - metal TV stand dead zone | Y - upstairs lamp, first plug fail | Y | - | - |
-| `__remote-work-checklist.md` | Full | Y - bag table + pre-flight | Y - Biñan café 4%, forgot mat | Y - caveman mouse mat | Y | - | - |
-| `__why-brave-browser.md` | Full | Y - Brave/Chrome split early | Y - lost sync chain, shields break checkout | Y - Shopee checkout, sync paranoia | Y | - | - |
-| `__obsidian-vs-hugo.md` | Full | Y - garage → garden workflow | Y - afternoon reconciling two copies | Y - sync weekend break | Y | - | - |
-| `__hugo-go-templates.md` | Full | Y - read theme first | Y - wrong template, empty output | Y - featured sort break/fix | Y | - | - |
-| `__hugo-page-bundles.md` | Full | Y - when bundle vs flat file | Y - FB post still not bundled | Y - screenshot pile naming hate | Y | - | - |
+| `__grade-1-better-than-kumon.md` | Full | Y — games-first strategy + week plan in first screen | Y — Kumon speed feedback, math still "hard" | Y — son, pencil, lola postcard in every H2 | Y | — | — |
+| `__markdown-deep-dive.md` | Full | Y — 90% syntax + flavor table early | Y — YAML broke build 20 min | Y — forum asterisks, lost hosting | Y | — | — |
+| `__rechargeable-batteries.md` | Full | Y — Eneloop + charger picks by §2 | Y — smoke alarms stay alkaline | Y — battery graveyard, 9 PM toys | Y | — | — |
+| `__selling-static-sites.md` | Full | Y — TL;DR line items upfront | Y — paid whole bill after client left | Y — neighbor YAML typo, pastor Friday push | Y | — | — |
+| `__canon-g3000.md` | Full | Y — buy/skip + refill habits early | Y — post-trip streaky prints | Y — cartridge rage opener | Y | — | — |
+| `__how-to-create-a-good-habit.md` | Full | Y — four laws with concrete tweaks | Y — 11-step routine collapse | Y — phone scroll inversion, breakfast Hugo | Y | — | — |
+| `__client-site-pass-off.md` | Full | Y — four paths + one-page doc | Y — scope lie, WordPress expectations trap | Y — neighbor, pastor, YAML typo | Y | — | — |
+| `__password-managers.md` | Full | Y — Bitwarden + top-20 migration order | Y — autofill fight, LastPass skip | Y — breach email, muscle memory | Y | — | — |
+| `__humanize-ai-articles.md` | Full | Y — perplexity/burstiness prompt | Y — viral prompt as warning | Y — jeepney earphones rewrite | Y | — | — |
+| `__shopee-tips.md` | Full | Y — local-first filter in §1 | Y — dead USB hub in a week | Y — SOC names, impulse buy | Y | — | — |
+| `__google-over-apple-ecosystem.md` | Full | Y — stack list + give-ups clear | Y — Android bloat, iMessage friction | Y — Shopee phone, Mi Box, borrowed Mac | Y | — | — |
+| `__hugo-static-site-generator.md` | Full | Y — when to say no by §2 | Y — lost hosting, client bill | Y — weekend fumbling | Y | — | — |
+| `__hugo-shortcodes.md` | Full | Y — third-time rule + delimiters | Y — bold broke inside callout | Y — fixed YouTube once, not 200 files | Y | — | — |
+| `__mi-box-s.md` | Full | Y — who for/skip + setup | Y — storage slideshow, update risk | Y — popcorn Netflix lag, AAA remotes | Y | — | — |
+| `__inter-font.md` | Full | Y — self-host why + weight ladder | Y — build fails loud, not clever | Y — Refactoring UI, hotel Wi-Fi | Y | — | — |
+| `__second-cellphone.md` | Full | Y — banking separation + setup | Y — OTP on lock screen | Y — kid + game scene | Y | — | — |
+| `__why-git-greatest-open-source-innovation.md` | Full | Y — `git checkout -- .` hook | Y — FileZilla days, reflog raccoon | Y — every H2 has a lived beat | Y | — | — |
+| `__smart-plug.md` | Full | Y — good at / skip by §2 | Y — metal TV stand dead zone | Y — upstairs lamp, first plug fail | Y | — | — |
+| `__remote-work-checklist.md` | Full | Y — bag table + pre-flight | Y — Biñan café 4%, forgot mat | Y — caveman mouse mat | Y | — | — |
+| `__why-brave-browser.md` | Full | Y — Brave/Chrome split early | Y — lost sync chain, shields break checkout | Y — Shopee checkout, sync paranoia | Y | — | — |
+| `__obsidian-vs-hugo.md` | Full | Y — garage → garden workflow | Y — afternoon reconciling two copies | Y — sync weekend break | Y | — | — |
+| `__hugo-go-templates.md` | Full | Y — read theme first | Y — wrong template, empty output | Y — featured sort break/fix | Y | — | — |
+| `__hugo-page-bundles.md` | Full | Y — when bundle vs flat file | Y — FB post still not bundled | Y — screenshot pile naming hate | Y | — | — |
 
 ---
 
-## Needs polish - Mixed (13)
+## Needs polish — Mixed (13)
 
 | Post | Form | Useful | Honest | Human | Respectful | Fails | One-line fix |
 |------|------|--------|--------|-------|------------|-------|--------------|
-| `__tailwind-css-v4.md` | Full (short) | Y - @theme + upstream sync | Y - footgun, afternoon budget | **N** - middle H2s read like any Tailwind migration post | Y | Human | Add one Hugoplate merge moment per H2 (dark mode broke, etc.) |
-| `__markdown-formatting.md` | Full (short) | Y - 3–5 line rule | Y - published wall-of-text version | **N** - lists/tables/bold sections swap-test generic | Y | Human | One phone-read failure per H2 (hotel, draft you abandoned) |
-| `__wifi-router.md` | **Outline** | Y - shortlist works | Y - weekly reboot ritual | **N** - criteria bullets, no scene per H2 | Y | Human | Expand to prose: one dead-zone story per section (skill cites this as outline) |
-| `__craft-prompt-framework.md` | Full (short) | Y - CRAFT table + real prompt | Y - oatmeal newsletter | **N** - "Common failures" is generic | Y | Human | One failed prompt you actually sent |
-| `__interesting-facts-about-jorap.md` | Full (meta) | Y - if you want the human index | Y - admits drift/gaps | **N** - tables not scenes; no H2 voice | Y | Human | Fine as meta; add 2–3 prose paragraphs if publishing as essay |
-| `__immune-booster-supplements.md` | Outline-ish | Y - stack listed | Y - still get sick, sleep > pills | **N** - supplement H2s are lists, not lived | Y | Human | One jeepney/school cold story per item you actually take |
-| `__sveltia-cms.md` | Full (short) | Y - when CMS vs Git lesson | Y - not one-click | **N** - hypothetical pastor, no rollout story | Y | Human | One real `/admin/` setup or client who refused Git |
-| `__jorap-notes-features.md` | Full (reference) | Y - TL;DR + feature table | Y - bad-fit section | **N** - many H2s are manual tables | Y | Human | One "tired Sunday" failure per feature block you actually hit |
-| `__native-hugo-taxonomies.md` | Full (short) | Y - cat vs tag split | Y - 20-tag SEO shame | **N** - template H2s thin | Y | Human | One tag-page embarrassment you created |
-| `__worcestershire-sauce.md` | Full | Y - uses + teaspoon rule | Y - subs aren't 1:1 | **N** - usage H2 is bullet recipes | Y | Human | One adobo/burger scene per use, not labels |
-| `__jobs-to-be-done-framework.md` | Outline-ish | Y - 7 questions | Y - mistakes section | **N** - framework explainer, few scenes | Y | Human | Replace one persona with a client you almost mis-scoped |
-| `__mcgill-big-three.md` | Reference | Y - exercise how-to | Y - not PT, couch week | **N** - curl-up/plank/bird dog are instructional | Y | Human (+ slop: 3-link Further reading) | One form mistake you made per exercise; cut link farm |
-| `__kewpie-mayo.md` | Full | Y - what's different | Y - keep regular mayo too | **N** - "How we use it" is bullets | Y | Human | One sandwich/sushi night scene per use |
+| `__tailwind-css-v4.md` | Full (short) | Y — @theme + upstream sync | Y — footgun, afternoon budget | **N** — middle H2s read like any Tailwind migration post | Y | Human | Add one Hugoplate merge moment per H2 (dark mode broke, etc.) |
+| `__markdown-formatting.md` | Full (short) | Y — 3–5 line rule | Y — published wall-of-text version | **N** — lists/tables/bold sections swap-test generic | Y | Human | One phone-read failure per H2 (hotel, draft you abandoned) |
+| `__wifi-router.md` | **Outline** | Y — shortlist works | Y — weekly reboot ritual | **N** — criteria bullets, no scene per H2 | Y | Human | Expand to prose: one dead-zone story per section (skill cites this as outline) |
+| `__craft-prompt-framework.md` | Full (short) | Y — CRAFT table + real prompt | Y — oatmeal newsletter | **N** — "Common failures" is generic | Y | Human | One failed prompt you actually sent |
+| `__interesting-facts-about-jorap.md` | Full (meta) | Y — if you want the human index | Y — admits drift/gaps | **N** — tables not scenes; no H2 voice | Y | Human | Fine as meta; add 2–3 prose paragraphs if publishing as essay |
+| `__immune-booster-supplements.md` | Outline-ish | Y — stack listed | Y — still get sick, sleep > pills | **N** — supplement H2s are lists, not lived | Y | Human | One jeepney/school cold story per item you actually take |
+| `__sveltia-cms.md` | Full (short) | Y — when CMS vs Git lesson | Y — not one-click | **N** — hypothetical pastor, no rollout story | Y | Human | One real `/admin/` setup or client who refused Git |
+| `__jorap-notes-features.md` | Full (reference) | Y — TL;DR + feature table | Y — bad-fit section | **N** — many H2s are manual tables | Y | Human | One "tired Sunday" failure per feature block you actually hit |
+| `__native-hugo-taxonomies.md` | Full (short) | Y — cat vs tag split | Y — 20-tag SEO shame | **N** — template H2s thin | Y | Human | One tag-page embarrassment you created |
+| `__worcestershire-sauce.md` | Full | Y — uses + teaspoon rule | Y — subs aren't 1:1 | **N** — usage H2 is bullet recipes | Y | Human | One adobo/burger scene per use, not labels |
+| `__jobs-to-be-done-framework.md` | Outline-ish | Y — 7 questions | Y — mistakes section | **N** — framework explainer, few scenes | Y | Human | Replace one persona with a client you almost mis-scoped |
+| `__mcgill-big-three.md` | Reference | Y — exercise how-to | Y — not PT, couch week | **N** — curl-up/plank/bird dog are instructional | Y | Human (+ slop: 3-link Further reading) | One form mistake you made per exercise; cut link farm |
+| `__kewpie-mayo.md` | Full | Y — what's different | Y — keep regular mayo too | **N** — "How we use it" is bullets | Y | Human | One sandwich/sushi night scene per use |
 
 ---
 
-## Not ready - Weak / Outline (1)
+## Not ready — Weak / Outline (1)
 
 | Post | Form | Useful | Honest | Human | Respectful | Fails | One-line fix |
 |------|------|--------|--------|-------|------------|-------|--------------|
-| `__how-to-create-a-blog-template.md` | **Stub** | **N** - pointer only | Y - says it's not a post | **N** | Y | Useful, Human | Intentional redirect; don't publish; keep as internal pointer |
+| `__how-to-create-a-blog-template.md` | **Stub** | **N** — pointer only | Y — says it's not a post | **N** | Y | Useful, Human | Intentional redirect; don't publish; keep as internal pointer |
 
 ---
 
@@ -730,12 +730,12 @@ Form: **Full draft** = prose body with real sections; **Outline** = mostly crite
 - Parenting with a single thread (`__grade-1-better-than-kumon.md`)
 
 **What fails most often**
-- **Human** - H2 sections that pass the swap test (Hugo tutorials, pantry lists, framework explainers)
-- **Useful** - only on the template stub
-- **Honest** and **Respectful** - rarely fail; voice stays plain even when thin
+- **Human** — H2 sections that pass the swap test (Hugo tutorials, pantry lists, framework explainers)
+- **Useful** — only on the template stub
+- **Honest** and **Respectful** — rarely fail; voice stays plain even when thin
 
 **Fastest wins before publish**
 1. Run **one failure rule** per H2 on all Mixed tutorial/food/health posts
 2. Expand `__wifi-router.md` from outline to gear-review shape (model `__extension-cord.md`)
 3. Cut or trim `## Further reading` on `__mcgill-big-three.md` (slop warn)
-4. `__jorap-notes-features.md` - strong reference; either accept manual tone or add 3–4 lived setup paragraphs at top
+4. `__jorap-notes-features.md` — strong reference; either accept manual tone or add 3–4 lived setup paragraphs at top

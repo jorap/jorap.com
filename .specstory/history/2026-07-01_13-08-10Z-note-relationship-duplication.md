@@ -998,17 +998,17 @@ _**Agent (auto-low)**_
 
 Done across the notes garden:
 
-**Note Relationships** - Removed duplicate wikilink rows (same target linked twice, often as both `extends` and `implements`). Each note now links each target once; when types conflicted, kept the stronger type (`contradicts` > `extends` > `implements` > `alternative`). Fixed **82 notes** with duplicate relationship rows.
+**Note Relationships** — Removed duplicate wikilink rows (same target linked twice, often as both `extends` and `implements`). Each note now links each target once; when types conflicted, kept the stronger type (`contradicts` > `extends` > `implements` > `alternative`). Fixed **82 notes** with duplicate relationship rows.
 
-**Examples** - Trimmed to **exactly 2 bullets** per note, picking the pair from the most different fields (digital vs sports, home vs commute, etc.). Trimmed **199 notes** that had 3–5 examples.
+**Examples** — Trimmed to **exactly 2 bullets** per note, picking the pair from the most different fields (digital vs sports, home vs commute, etc.). Trimmed **199 notes** that had 3–5 examples.
 
-**Docs updated** - `getting-started.md`, `note-relationships.md`, and `notes-creator.js` now say "exactly two examples from different fields" and "each wikilink once."
+**Docs updated** — `getting-started.md`, `note-relationships.md`, and `notes-creator.js` now say "exactly two examples from different fields" and "each wikilink once."
 
 **Sample results:**
 
-- **The Golden Rule** - digital/social critique + coaching/ref scene; 5 unique relationship rows kept
-- **Capture** - sports locker room + jeepney/parenting; `Frictionless Capture` deduped to one `extends` row
-- **Turn the Other Cheek** - neighbor/group chat + school pickup line
+- **The Golden Rule** — digital/social critique + coaching/ref scene; 5 unique relationship rows kept
+- **Capture** — sports locker room + jeepney/parenting; `Frictionless Capture` deduped to one `extends` row
+- **Turn the Other Cheek** — neighbor/group chat + school pickup line
 
 Re-run anytime with:
 
@@ -1501,12 +1501,12 @@ _**Agent (auto-low)**_
 Updated **Note Relationships** sorting to **relationship a-z, then wikilink a-z** (`alternative` → `contradicts` → `extends` → `implements`, with wikilinks alphabetized within each type).
 
 **Changes:**
-- `scripts/normalize-notes-format.py` - new sort key; verify checks order
-- `scripts/sync-note-relationships.py` - same sort rule
+- `scripts/normalize-notes-format.py` — new sort key; verify checks order
+- `scripts/sync-note-relationships.py` — same sort rule
 - Docs updated in `getting-started.md`, `note-relationships.md`, `notes-creator.js`
 - Re-ran normalize on **39 notes** that were out of order (also fixed broken markdown in getting-started and note-relationships from an earlier edit)
 
-**Example** - `active-knowledge-curation.md` now reads:
+**Example** — `active-knowledge-curation.md` now reads:
 
 ```41:45:content/english/notes/active-knowledge-curation.md
 | alternative | [[Maps of Content]] | Hand-built hub vs revisit-and-prune when curation stays inline |

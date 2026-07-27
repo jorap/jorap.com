@@ -740,7 +740,7 @@ _**Agent (default)**_
 
 _**Agent (default)**_
 
-The site was already mostly consistent - **every post except one** used the inline array format you showed.
+The site was already mostly consistent — **every post except one** used the inline array format you showed.
 
 I updated `instant-pot-chicken-adobo.md`, which was the outlier using YAML block lists:
 

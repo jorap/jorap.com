@@ -278,27 +278,7 @@ curl -fsSL https://mise.jdx.dev/install.sh | sh
 
 ```
 mise: installing mise...
-#=#=#                                                                          
-##O#-#                                                                         
-
-                                                                           0.7%
-#                                                                          2.5%
-####                                                                       6.4%
-#######                                                                   10.5%
-###########                                                               16.3%
-###############                                                           21.1%
-######################                                                    31.4%
-########################                                                  33.5%
-###########################                                               38.3%
-#############################                                             41.1%
-################################                                          44.7%
-##########################################                                59.1%
-#############################################                             63.8%
-################################################                          67.2%
-###########################################################               82.1%
-#################################################################         90.6%
-#####################################################################     96.9%
-######################################################################## 100.0%
+#=#=#                                                                          ##O#-#                                                                                                                                                    0.7%#                                                                          2.5%####                                                                       6.4%#######                                                                   10.5%###########                                                               16.3%###############                                                           21.1%######################                                                    31.4%########################                                                  33.5%###########################                                               38.3%#############################                                             41.1%################################                                          44.7%##########################################                                59.1%#############################################                             63.8%################################################                          67.2%###########################################################               82.1%#################################################################         90.6%#####################################################################     96.9%######################################################################## 100.0%
 mise: installed successfully to /home/jorap/.local/bin/mise
 mise: run the following to activate mise in your shell:
 echo "eval \"\$(/home/jorap/.local/bin/mise activate bash)\"" >> ~/.bashrc
@@ -642,7 +622,7 @@ _**Agent (default)**_
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
 <summary>Tool use: **read_file_v2** • Read file: /home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/terminals/479147.txt</summary>
--
+
 </details></tool-use>
 
 _**Agent (default)**_
@@ -1111,7 +1091,7 @@ Local dev is ready. Here's what was set up:
 - pnpm
 
 **Dependencies:** `pnpm install` completed  
-**Dev server:** running -t **http://localhost:1313** (verified 0)
+**Dev server:** running at **http://localhost:1313** (verified 0)
 
 ---
 
@@ -1389,7 +1369,7 @@ Checking whether `npm run watch` works as a replacement for `pnpm dev`.
 `npm run watch` is available and identical to `pnpm dev`. Both launch Hugo in production mode with theme generation and static sync.
 
 `npm run watch` is production mode. It minifies output and does not watch themeGenerator concurrently. The project uses pnpm, so `pnpm dev` is preferred. Bare `hugo server` should not be used.
-</details></think>-
+</details></think>
 
 _**Agent (default)**_
 
@@ -1444,7 +1424,7 @@ _**Agent (default)**_
 
 <tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
 <summary>Tool use: **run_terminal_command_v2** • Run command: curl -s -o /dev/null -w &#34;%{http_code}&#34; http://localhost:1313/ 2&gt;/dev/null || echo &#34;down&#34;</summary>
-```bash-
+```bash
 curl -s -o /dev/null -w "%{http_code}" http://localhost:1313/ 2>/dev/null || echo "down"
 ```
 

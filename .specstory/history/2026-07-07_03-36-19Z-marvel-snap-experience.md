@@ -116,7 +116,7 @@ cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:voice content/english/blo
 
 ```
 [ELIFECYCLE] Command failed with exit code 1.
-Voice scan - 304 files, 2 strict, 67 review-only
+Voice scan — 304 files, 2 strict, 67 review-only
 Word list: data/voice-words.yaml
 
 Strict (lint:voice fails on these)

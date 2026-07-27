@@ -124,3 +124,706 @@ _**Agent (composer-2.5-fast)**_
 <summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/one-page-zine.md</summary>
 
 </details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Starting the full audit of all five posts against the style guide criteria.
+
+Grepping the posts for em dashes, en dashes, AI tells, currency amounts, and "Bottom line" to catch specific style violations.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+Searching the five posts for banned patterns and AI tells.
+
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "{why-i-focused-on-open-source,why-keep-desktop-laptop,extension-cord,mouse-wheel-click,one-page-zine}.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "—|–"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "—|–",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": true,
+  "glob": "{why-i-focused-on-open-source,why-keep-desktop-laptop,extension-cord,mouse-wheel-click,one-page-zine}.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "Additionally|Furthermore|Moreover|That said|When it comes to|It's worth noting|In conclusion|seamless|boasts|navigate|delve|leverage|utilize|facilitate|robust|users should|it is recommended|one might|consumers should|Bottom line|\\$|peso|paid|costs \\$"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "Additionally|Furthermore|Moreover|That said|When it comes to|It's worth noting|In conclusion|seamless|boasts|navigate|delve|leverage|utilize|facilitate|robust|users should|it is recommended|one might|consumers should|Bottom line|\\$|peso|paid|costs \\$",
+  "topFiles": [
+    {
+      "matchCount": 5,
+      "uri": "content/english/blog/why-i-focused-on-open-source.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/blog/mouse-wheel-click.md"
+    }
+  ],
+  "totalFiles": 2,
+  "totalMatches": 7
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/voice-words.yaml</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/slop-rules.yaml</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Searching all five reference posts for recurring voice patterns.
+
+Checking specific style guide violations across the five posts. Scanning for parallel bullets, flat H2 headings, generic sections, weak closings, frontmatter issues, and TL;DR blockquotes. Verifying whether any currency amounts or "paid" phrases violate the guide's rules.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "{why-i-focused-on-open-source,why-keep-desktop-laptop,extension-cord,mouse-wheel-click,one-page-zine}.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "\\$|peso|PHP|dollar|cent|€|£"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "\\$|peso|PHP|dollar|cent|€|£",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/extension-cord.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/mouse-wheel-click.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/one-page-zine.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/blog/why-i-focused-on-open-source.md"
+    }
+  ],
+  "totalFiles": 4,
+  "totalMatches": 5
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "{why-i-focused-on-open-source,why-keep-desktop-laptop,extension-cord,mouse-wheel-click,one-page-zine}.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "^## "
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "^## ",
+  "topFiles": [
+    {
+      "matchCount": 7,
+      "uri": "content/english/blog/why-i-focused-on-open-source.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "content/english/blog/extension-cord.md"
+    },
+    {
+      "matchCount": 9,
+      "uri": "content/english/blog/why-keep-desktop-laptop.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "content/english/blog/mouse-wheel-click.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "content/english/blog/one-page-zine.md"
+    }
+  ],
+  "totalFiles": 5,
+  "totalMatches": 32
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "{why-i-focused-on-open-source,why-keep-desktop-laptop,extension-cord,mouse-wheel-click,one-page-zine}.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "^-\\s+\\*\\*"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "^-\\s+\\*\\*",
+  "topFiles": [
+    {
+      "matchCount": 3,
+      "uri": "content/english/blog/one-page-zine.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": "content/english/blog/extension-cord.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/blog/mouse-wheel-click.md"
+    }
+  ],
+  "totalFiles": 3,
+  "totalMatches": 10
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": true,
+  "glob": "{why-i-focused-on-open-source,why-keep-desktop-laptop,extension-cord,mouse-wheel-click,one-page-zine}.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "essential|crucial|vital|important to|At the end of the day|game-changer|must-have|comprehensive|landscape|realm"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "essential|crucial|vital|important to|At the end of the day|game-changer|must-have|comprehensive|landscape|realm",
+  "topFiles": [
+    {
+      "matchCount": 5,
+      "uri": "content/english/blog/one-page-zine.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 5
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Beginning a careful audit of each post against the voice style guide.
+
+Auditing why-i-focused-on-open-source.md. The post opens with a TL;DR blockquote rather than a personal hook. It uses bold bullet-style paragraphs and repeats "Open doesn't mean" five times, creating a parallel drone. Specific failures and concrete examples appear sparse.
+
+Line 21 of why-i-focused-on-open-source.md breaks the opening-pattern rule. The TL;DR blockquote opens with a summary rather than a relatable story hook.
+
+The "What open source actually buys me" section contains parallel bold bullets that read like a generic listicle. It lacks specific failure details. The repeated "Open doesn't mean" paragraphs are a classic parallel drone.
+
+Specific failures do appear in the post. A Hugo partial blank page and a 1400-person WordCamp event provide concrete context. The "How that shows up in my stack now" section names Cloudflare Node versions and client WordPress setups. The TL;DR blockquote still contains "I didn't pick," satisfying the first-person requirement for opinion posts.
+
+Line 31 of why-i-focused-on-open-source.md shifts to third person when describing SMBs, breaking the first-person thread. The advice section at line 109 uses imperatives like "Look at" and "Need a site," which weakens the I-focused voice. The opener of why-keep-desktop-laptop.md begins with personal voice.
+
+why-keep-desktop-laptop.md contains a generic wellness-blog heading under Rule 6. The "Power you can actually feel" section explains phone throttling without early personal failure details. The closing contrast between laptop and phone works well. Frontmatter is acceptable.
+
+The "Repairable, upgradeable, longer-lived" section offers only vague "cheap SSD swap" and "Try that with a phone" without specific models or years. The "Games and movies" section relies on a weak phone-on-face anecdote and little else. Middle sections may suffer from parallel structure, repeating the same claim-and-explanation pattern. The audit is now moving to extension-cord.md.
+
+extension-cord.md opens with concrete scenes and practical headings. The "Safety habits" section uses four bullets, two beginning with "Don't," which creates mild parallel structure. The closing lands on a concrete pick. Lines 65–66 duplicate the travel-bag versus laptop-bag comparison from earlier, suggesting a slight summary-sandwich issue.
+
+extension-cord.md’s “Wire thickness” section offers only hypothetical warmth warnings. It lacks the personal failure memory required by Rule 5. The “What I actually pack” paragraphs repeat across lines 63–65 and 61–65. The “Safety habits” heading is slightly manual but acceptable.
+
+mouse-wheel-click.md is the calibration reference post.
+
+mouse-wheel-click.md is a strong voice piece. The closing lands on a concrete habit. Line 26 may inflate significance by calling the button one of the most underused on the most-used device. Line 98 shows good self-awareness. The H2 "Why this is worth the muscle memory" is slightly generic. The vague "navigate" at line 68 is probably acceptable because it means literal browser navigation.
+
+mouse-wheel-click.md contains flat instructional headings. "Where the mouse wheel click is," "In the browser," and "In code editors" are all manual and weak. The three bullets at lines 80–82 repeat the same pattern ("mouse wheel click closes tabs"), creating a parallel drone. The closing at lines 100–102 about compounding over a year is also flat.
+
+mouse-wheel-click.md’s closing about compounding hours is abstract and lacks a concrete number beyond the earlier ninety-percent figure.
+
+one-page-zine.md opens with a personal project hook. Its H2 headings are mostly flat: “What you actually get,” “Other places I would use it,” and “What it is not good for.” The “What it is not good for” section is acceptable. Lines 67–77 contain six parallel bold items that form a Rule 4 bullet drone. Lines 83–93 repeat the same four-item parallel bold pattern. The image caption at line 37 uses a multiplication sign instead of an em or en dash.
+
+one-page-zine.md closes concretely and its frontmatter is acceptable.
+
+The “What it is not good for” section at lines 83–93 repeats the same four-item parallel bold pattern.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "{why-i-focused-on-open-source,why-keep-desktop-laptop,extension-cord,mouse-wheel-click,one-page-zine}.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "hope this|In conclusion|To sum up|worth noting|That said|With that in mind|At the end of the day|TL;DR"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "hope this|In conclusion|To sum up|worth noting|That said|With that in mind|At the end of the day|TL;DR",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/why-i-focused-on-open-source.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "{why-i-focused-on-open-source,why-keep-desktop-laptop,extension-cord,mouse-wheel-click,one-page-zine}.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "users |one might|one should|it is recommended|consumers "
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "users |one might|one should|it is recommended|consumers ",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm lint:voice -- content/english/blog/why-i-focused-on-open-source.md content/english/blog/why-keep-desktop-laptop.md content/english/blog/extension-cord.md content/english/blog/mouse-wheel-click.md content/english/blog/one-page-zine.md 2&gt;&amp;1; pnpm lint:slop -- content/english/blog/why-i-focused-on-open-source.md content/english/blog/why-keep-desktop-laptop.md content/english/blog/extension-cord.md content/english/blog/mouse-wheel-click.md content/english/blog/one-page-zine.md 2&gt;&amp;1</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:voice -- content/english/blog/why-i-focused-on-open-source.md content/english/blog/why-keep-desktop-laptop.md content/english/blog/extension-cord.md content/english/blog/mouse-wheel-click.md content/english/blog/one-page-zine.md 2>&1; pnpm lint:slop -- content/english/blog/why-i-focused-on-open-source.md content/english/blog/why-keep-desktop-laptop.md content/english/blog/extension-cord.md content/english/blog/mouse-wheel-click.md content/english/blog/one-page-zine.md 2>&1
+```
+
+```
+$ python3 scripts/voice-lint.py dashes --check && python3 scripts/voice-lint.py site --check -- content/english/blog/why-i-focused-on-open-source.md content/english/blog/why-keep-desktop-laptop.md content/english/blog/extension-cord.md content/english/blog/mouse-wheel-click.md content/english/blog/one-page-zine.md
+Voice dash lint OK
+Voice lint OK
+$ python3 scripts/voice-lint.py slop --check -- content/english/blog/why-i-focused-on-open-source.md content/english/blog/why-keep-desktop-laptop.md content/english/blog/extension-cord.md content/english/blog/mouse-wheel-click.md content/english/blog/one-page-zine.md
+Slop lint OK
+
+```
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Linters passed. Now running a deeper manual audit against all 11 criteria.
+
+Auditing why-i-focused-on-open-source.md section by section. Found a TL;DR blockquote at line 21 that front-loads the thesis, violating the hook-with-relatable-situation rule.
+
+The TL;DR blockquote also duplicates content from the closing. Lines 63–75 contain five parallel bold lead-ins that violate Rule 4’s anti-bullet-drone prose rule.
+
+Line 73’s “Free tiers stack” is generic and lacks a concrete personal failure. Lines 79–91 contain four of five “Open doesn’t mean” paragraphs, another parallel drone violation.
+
+Line 63’s H2 is borderline generic. Line 97’s H2 is flat and generic. Lines 111–115 shift to second-person imperative advice, which could sound corporate. Line 119 closes well and lands on the take.
+
+Line 59 uses metaphorical time cost, not literal currency, so it avoids the currency rule. No em dashes or dollar amounts appear. Most sections include concrete details. The verdict is LIGHT POLISH. The two H2 sections needing the most work are "What open source actually buys me" and "What it doesn't mean."
+
+why-keep-desktop-laptop.md is being audited. Its description and meta title are acceptable. The "Power you can actually feel" section is generic and lacks a concrete personal failure, violating Rule 5. The "Real software" section keeps its Hugo server and WordPress specifics intact.
+
+The "Multitasking" section keeps strong specifics around Alex Eala and WordPress staging. The H2 "Your back and wrists will thank you" violates Rule 6 as a flat generic heading. The personal story beneath it is solid. The "Repairable" section uses a relative SSD swap but lacks a specific model failure. The "Browsing" section cites a concrete Shopee checkout example.
+
+The "Games and movies" section is mostly generic aside from the phone-on-face anecdote. The closing lands well. The eight-section structure follows a rigid reason-for-reason pattern that reads listicle-like, and line 25 opens with a summary-sandwich announcement. The verdict is LIGHT POLISH; the heading on line 57 and the "Power you can actually feel" and "Games and movies" sections need the most work. Now auditing extension-cord.md.
+
+extension-cord.md is being audited despite being a tips reference. Frontmatter is personal and the opener uses specific scenes. The wire-thickness section hypothesizes about a warm cord without a personal failure, violating Rule 5. Lines 63–65 repeat the travel bag and laptop bag, creating a summary-sandwich redundancy.
+
+extension-cord.md is overall one of the cleaner posts. The closing lands on a concrete pick. Verdict: CLEAN or LIGHT POLISH.
+
+mouse-wheel-click.md is being audited. Line 26 inflates significance to impress, violating Rule 1. The H2 "Where the mouse wheel click is" is flat and manual, violating Rule 6.
+
+The "In the browser" and "In code editors" headings are flat and manual, violating Rule 6. The "Why this is worth the muscle memory" heading is borderline generic. Lines 80–82 contain three identical bullets about mouse wheel click closing tabs, which is parallel drone under Rule 4. The word "navigate" at line 68 is literal browser navigation, so it does not trigger the vague-use flag. The audit is now examining lines 98–102.
+
+mouse-wheel-click.md is judged CLEAN or LIGHT POLISH. The closing lands on habit. The audit is now on one-page-zine.md.
+
+The H2 "What you actually get" is generic and manual, violating Rule 6. The H2 "Other places I would use it" is flat, also violating Rule 6. The H2 "What it is not good for" is acceptable. The front-cover, back-cover, and inside-pages bullets are not parallel drone. Lines 67–77 contain six bold items following the same pattern.
+
+The six bold items in lines 67–77 are classic parallel bullet drone under Rule 4. The four bold labels in lines 87–93 under "What it is not good for" are another parallel drone violation. Lines 51, 59, 71, and 108 contain good specifics and a strong closing. The "landscape" term at line 35 is acceptable.
+
+The × character in dimensions is not an em or en dash. The word "essentials" on line 51 is not banned. The audit is scanning for subtle issues like "actually" overuse and "That's the whole bar." First-400-character checks confirm the open-source post opens with an I/my hook. Currency claims such as "Domains cost money," "cheap SSD," and "cheap paper" lack figures and avoid the currency rule.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "{why-i-focused-on-open-source,why-keep-desktop-laptop,extension-cord,mouse-wheel-click,one-page-zine}.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "While .+ (has|have) .+, .+ also"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "While .+ (has|have) .+, .+ also",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "{why-i-focused-on-open-source,why-keep-desktop-laptop,extension-cord,mouse-wheel-click,one-page-zine}.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "^\\*\\*[A-Z]"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "^\\*\\*[A-Z]",
+  "topFiles": [
+    {
+      "matchCount": 10,
+      "uri": "content/english/blog/why-i-focused-on-open-source.md"
+    },
+    {
+      "matchCount": 14,
+      "uri": "content/english/blog/one-page-zine.md"
+    }
+  ],
+  "totalFiles": 2,
+  "totalMatches": 24
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-focused-on-open-source.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Checking one-page-zine lines 51–57 for parallel bold structure across four items.
+
+The zine’s four bold items vary in structure, so parallelism is not broken. The laptop post lacks concrete failure stories in several sections; only back-and-wrist pain, storage parking lot, and Shopee browsing have real incidents. A meta-announcement line in the mouse-wheel post also needs removal.
+
+The extension-cord post repeats the phrase "same pouch as the charger" at lines 65–66. The travel-bag and laptop-bag distinction is also slightly redundant.
+
+The open-source post uses imperative advice without first-person voice at lines 111–115. The desktop post at line 25 announces its structure with "Here's why I won't go phone-only." Meta titles and descriptions were reviewed; both posts pass.
+
+The mouse-wheel description opens with third-person ("Most people right-click"), though the personal angle keeps it acceptable. The zine description and opener both use first-person ("I") correctly. The open-source post at line 65 repeats the Hugo template story immediately after opening its section, creating a summary-sandwich effect.
+
+The zine post at line 53 uses third-person ("Print-and-play designers know this already"), which is slightly generic. The mouse-wheel post is otherwise clean. Verdicts are set: the open-source post gets LIGHT POLISH for parallel sections and a TL;DR opener; the desktop post also gets LIGHT POLISH; the extension-cord post is CLEAN or LIGHT POLISH, with only minor redundancy and a missing personal story for wire thickness.
+
+The mouse-wheel post is CLEAN; its flat H2s are acceptable for a tips reference. The open-source post’s repeated “**Open doesn’t mean**” headings are a structural AI tell, so it may need DEEP REWRITE for those two sections. The advice paragraph at lines 111–115 risks corporate voice. The “Free tiers stack” list at line 73 inflates significance without personal friction.
+
+The open-source post buries its Hugo story under five parallel benefits. The desktop post at line 25 uses the exact "comfort considerations" pattern the guide flags as bad. Its TL;DR opener may push the experiential hook past the first 400 characters.
+
+The open-source opener uses “I” and “my,” so it does not break the first-person rule. The hook is a thesis statement rather than a scene, which makes it a weak opener or summary sandwich. The zine post uses a multiplication sign (U+00D7) instead of an en dash in the dimensions line, which violates the style guide’s ban on — and –.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="update_current_step"><details>
+<summary>Tool use: **update_current_step**</summary>
+An unknown error occurred
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Compiling the comprehensive audit report grouped by file.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+# Blog voice audit report
+
+**Scope:** Five posts vs. `jorap-voice` SKILL.md + examples.md, calibrated against wireless earphones and Marvel Snap.  
+**Lint:** `pnpm lint:voice` and `pnpm lint:slop` both pass on all five files.  
+**Clean on:** em/en dashes (—/–), currency figures, `## Bottom line`, corporate phrases (`users should`, `it is recommended`), banned AI-phrase hits.
+
+---
+
+## 1. `content/english/blog/why-i-focused-on-open-source.md`
+
+**Verdict: LIGHT POLISH**  
+**Sections needing most work:** `What open source actually buys me`, `What it doesn't mean`, opener (TL;DR block)
+
+| Line | Quote | Rule | Suggested fix |
+|------|-------|------|---------------|
+| 21 | `> **TL;DR**: I didn't pick open source because it's morally superior on a slide deck. I picked it because I could install it tonight...` | Summary sandwich / weak opener (Rule 1, 4) | Drop the TL;DR; open on the money-and-access scene that starts line 25, then land the thesis once. |
+| 21–23 | TL;DR restates the closing (`Freedom mattered more than free` / `That's enough reason for me`) | Summary sandwich (Rule 4) | Say the filter once in the body; cut the blockquote or move one line to the end only. |
+| 63 | `## What open source actually buys me` | Flat/generic H2 (Rule 6) | Try `## What I actually get from open source` or `## The wins I care about day to day`. |
+| 67 | `**I can see what's broken.**` | Parallel bullet drone (Rule 4) | Fold into prose: `Last month a Hugo partial blanked a page - I opened the theme, found a missing nil check, fixed it in ten minutes.` |
+| 69 | `**I can leave.**` | Parallel bullet drone (Rule 4) | Merge with the hosting-disaster thread: `When my old host died, the posts were already markdown in Git - that's the whole point.` |
+| 71 | `**The community is part of the product.**` | Parallel bullet drone (Rule 4) | Tie to WordCamp Asia or a thin-Drupal weekend: `WordPress had the bench; Drupal didn't, and I felt that in upgrade season.` |
+| 73 | `**Free tiers stack.** Hugo is free. Hugoplate is MIT licensed. Cloudflare Pages has a generous free tier...` | Section lacks personal friction (Rule 5); listicle drone | Add one snag: `Cloudflare's Node version drifted last year and I pinned NODE_VERSION - still cheaper than renting a CMS.` |
+| 75 | `**Clients can own it.**` | Parallel bullet drone (Rule 4) | One scene: `I hand off a repo, not a login to my theme account - that's a cleaner pass-off call.` |
+| 83 | `**Open doesn't mean good.**` | Parallel bullet drone - 4× `**Open doesn't mean…**` (Rule 4) | Rewrite as one paragraph with one bad plugin you installed and never touched again. |
+| 87 | `**Open doesn't mean I never pay.**` | Parallel bullet drone (Rule 4) | Fold into line 85's time-cost point: `No license fee isn't no cost - domains, Bitwarden family, hosted bits I actually use.` |
+| 89 | `**Open doesn't mean I build everything from scratch.**` | Parallel bullet drone (Rule 4) | Cut or merge: `I'd rather start from Hugoplate than hand-roll a theme for ego.` |
+| 91 | `**Open doesn't mean free labor.**` | Parallel bullet drone (Rule 4) | One line: `Using FOSS doesn't mean I owe patches or meetup talks - gratitude, not guilt.` |
+| 97 | `## How that shows up in my stack now` | Flat/generic H2 (Rule 6) | `## My stack today - Hugo, Git, Cloudflare, WordPress when the job needs it`. |
+| 111–115 | `Don't start with a manifesto. Start with a problem.` / `Need a site you can afford to keep running? Look at static generators...` | Missing first-person in advice block (Rule 7) | `I wouldn't start with a manifesto. I'd start with whether I need a site I can keep cheap, client work next quarter, or a password manager I can audit.` |
+
+**Frontmatter:** `description` and `meta_title` read personal, not SEO-stuffed. No issues.
+
+**Strong:** Hosting disaster, WordCamp Asia, Hugo nil-check, Cloudflare Node pin, closing `That's enough reason for me.`
+
+---
+
+## 2. `content/english/blog/why-keep-desktop-laptop.md`
+
+**Verdict: LIGHT POLISH**  
+**Sections needing most work:** `Power you can actually feel`, `Your back and wrists will thank you` (heading), `Repairable, upgradeable, longer-lived`, `Games and movies, the way they're meant to be`
+
+| Line | Quote | Rule | Suggested fix |
+|------|-------|------|---------------|
+| 25 | `Here's why I won't go phone-only for the work that pays the bills.` | Summary sandwich (Rule 4) | Cut it; the opener already states the thesis. |
+| 29 | `## Power you can actually feel` | Section lacks specific detail (Rule 5) | Add one run you tried or skipped: `I won't run a Hugo build and a WordPress staging site on my phone to find out - on the laptop I just open both.` (You have this at 33; lead with it, cut generic throttle prose.) |
+| 31–35 | `Phones have gotten ridiculously fast. The problem is sustaining that speed. Once a phone heats up...` | Generic buying-guide paragraph (Rule 5, swap test) | Replace with your actual Tuesday: Alex Eala tracker + staging + Slack, or one time the phone throttled mid-build. |
+| 57 | `## Your back and wrists will thank you` | Flat/generic H2 - manual wellness tone (Rule 6) | `## I learned this on a forty-minute call with the phone propped on books` or `## Neck pain taught me to stop phone-typing client work`. |
+| 73–79 | `Most phones become slow paperweights in three to four years... My old laptop got a second life from a cheap SSD swap` | No name/place/failure (Rule 5) | Name the machine: `My old ThinkPad got another four years from an SSD swap; my last phone didn't.` |
+| 93 | `## Games and movies, the way they're meant to be` | Flat/generic H2 (Rule 6) | `## I won't watch a two-hour movie on my phone anymore` - matches the anecdote below. |
+| 95–99 | `For PC gaming, emulators, VR, or just kicking back with a film, a bigger screen and real audio make the whole thing feel like an event instead of a chore.` | Generic, no specific (Rule 5) | Keep the phone-on-face bit; cut or shorten the rest, or name one game/film you actually watch on the laptop. |
+
+**Frontmatter:** Fine. `description` has clear first-person angle.
+
+**Strong:** Alex Eala tracker multitasking scene, Shopee checkout on desktop, parking-lot storage panic, closing bag split.
+
+---
+
+## 3. `content/english/blog/extension-cord.md`
+
+**Verdict: CLEAN** (one optional polish)
+
+| Line | Quote | Rule | Suggested fix |
+|------|-------|------|---------------|
+| 39–41 | `A laptop charger pulls a light load... If a cord feels warm under a normal laptop load, something is wrong: thin wire, a damaged jacket, or too many things chained together.` | Section lacks personal failure (Rule 5) | Swap hypothetical for memory: `I grabbed the thinnest cord once on a long run; it ran warm under a laptop load - now I check the jacket before it goes in the bag.` |
+| 63–65 | `One **2-metre cord** with a flat plug... It's in my **travel bag** too - same pouch as the charger` | Summary sandwich / restatement (Rule 4) | Merge into one paragraph; say laptop bag and travel bag once. |
+
+**Frontmatter:** Fine - specific scenes in `description`.
+
+**Strong:** Hotel-outlet opener, flat-plug detail, concrete closing pick (`About **2 metres**, flat plug, leave it in the bag`). H2s are specific and on-voice. This is closest to the calibration tips standard.
+
+---
+
+## 4. `content/english/blog/mouse-wheel-click.md`
+
+**Verdict: CLEAN**
+
+| Line | Quote | Rule | Suggested fix |
+|------|-------|------|---------------|
+| 26 | `one of the most underused buttons on the most-used input device in the world` | Significance inflation (Rule 1) | `There's a faster button right under their finger and almost nobody uses it.` (You already say this at 24 - cut the inflation.) |
+| 28 | `This post is only about the things that behave identically on all three operating systems.` | Summary sandwich (Rule 4) | Cut; the next sentence already scopes it. |
+| 32 | `## Where the mouse wheel click is` | Flat/manual H2 (Rule 6) | `## Push the scroll wheel down until it clicks` |
+| 40 | `## In the browser` | Flat/manual H2 (Rule 6) | `## Middle-click a link - new tab, no menu` |
+| 76 | `## In code editors` | Flat/manual H2 (Rule 6) | `## Same trick in VS Code and JetBrains` |
+| 80–82 | `- **VS Code:** mouse wheel click a tab to close it.` / `- **JetBrains IDEs...:** mouse wheel click closes tabs.` / `- **Sublime Text:** mouse wheel click closes tabs.` | Parallel bullet drone - 3× same shape (Rule 4) | One line: `VS Code, JetBrains, Sublime - middle-click closes the tab, same on every OS.` |
+| 96 | `## Why this is worth the muscle memory` | Slightly generic H2 (Rule 6) | `## One second, hundreds of times a day` |
+
+**Note:** Line 68 `navigate` is literal browser navigation, not vague - not flagged.
+
+**Frontmatter:** Fine.
+
+**Strong:** Calibration-quality opener, 90% stat, closing lands on habit (`Press the wheel. Then do it again.`). Findings are minor for a tips post.
+
+---
+
+## 5. `content/english/blog/one-page-zine.md`
+
+**Verdict: LIGHT POLISH**  
+**Sections needing most work:** `Other places I would use it`, `What it is not good for`
+
+| Line | Quote | Rule | Suggested fix |
+|------|-------|------|---------------|
+| 29 | `## What you actually get` | Flat/generic H2 (Rule 6) | `## One letter sheet, eight faces after the fold` |
+| 63 | `## Other places I would use it` | Flat/generic H2 (Rule 6) | `## Hanamikoji teach night and other times I'd print one` |
+| 67 | `**Workshop handouts.** One topic, eight pages, fits in a folder.` | Parallel bullet drone - 6× `**Label.** sentence` (Rule 4) | Keep Hanamikoji (71) and one other; fold the rest into prose: `Workshop handout, quick-start card, leave-behind after a client call - same fold, different words.` |
+| 69 | `**Quick-start guides.** New tool at work, new appliance at home, volunteer onboarding.` | Parallel bullet drone (Rule 4) | (Merge per above.) |
+| 73 | `**Recipe collections.** Not a full cookbook - one meal, variations, shopping list on the back.` | Parallel bullet drone (Rule 4) | (Merge per above.) |
+| 75 | `**Kids' activities.** Story prompts, scavenger hunt clues, origami instructions.` | Parallel bullet drone (Rule 4) | (Merge per above.) |
+| 77 | `**Leave-behinds.** Portfolio piece, service menu, "here is what we talked about" after a client call.` | Parallel bullet drone (Rule 4) | (Merge per above.) |
+| 87 | `**Tiny type.** Eight pages on one sheet means small panels.` | Parallel bullet drone - 4× in limits section (Rule 4) | Prose limits paragraph: `Small type, heavy art, long card lists - wrong tool; the zine is learn-to-play, not the encyclopedia.` |
+| 89 | `**Heavy art books.** Photos and full-bleed illustrations fight the format.` | Parallel bullet drone (Rule 4) | (Merge per above.) |
+| 91 | `**Long reference material.** Strategy guides, full card lists, expansion rules` | Parallel bullet drone (Rule 4) | (Merge per above.) |
+| 93 | `**Premium retail expectations.** If you are pitching a boxed game to a publisher...` | Parallel bullet drone (Rule 4) | (Merge per above.) |
+
+**Frontmatter:** Fine - concrete and personal.
+
+**Strong:** Card-game opener, sleeve-sizing detail, Hanamikoji example, closing lands on the format as a feature.
+
+---
+
+## Summary table
+
+| Post | Verdict | Worst sections |
+|------|---------|----------------|
+| `why-i-focused-on-open-source.md` | **LIGHT POLISH** | TL;DR opener; `What open source actually buys me`; `What it doesn't mean` |
+| `why-keep-desktop-laptop.md` | **LIGHT POLISH** | `Power you can actually feel`; `Your back and wrists will thank you`; `Games and movies...` |
+| `extension-cord.md` | **CLEAN** | Optional: wire-thickness anecdote; pack paragraph dedup |
+| `mouse-wheel-click.md` | **CLEAN** | Minor flat H2s; editor bullet list |
+| `one-page-zine.md` | **LIGHT POLISH** | `Other places I would use it`; `What it is not good for` |
+
+**Cross-cutting:** No em/en dashes, no currency amounts, no `## Bottom line`, no corporate no-subject voice. Main pattern is **parallel bold-label sections** (open-source benefits/limits, zine use cases/limits) and a few **product-manual H2s**. Strongest overall: `extension-cord.md` and `mouse-wheel-click.md`. Most rewrite surface: the two listicle-style sections in `why-i-focused-on-open-source.md`.

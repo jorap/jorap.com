@@ -68,7 +68,7 @@ JoRap voice and John Maxwell’s voice aim at different jobs. Maxwell teaches le
 
 ## What they share
 
-Both can feel conversational and use stories. Both often speak directly to the reader. Both avoid sounding like a corporate white paper - though they get there in opposite ways.
+Both can feel conversational and use stories. Both often speak directly to the reader. Both avoid sounding like a corporate white paper — though they get there in opposite ways.
 
 Maxwell uses stories to land a **principle**. JoRap uses stories to land a **take from experience**.
 
@@ -83,7 +83,7 @@ Maxwell uses stories to land a **principle**. JoRap uses stories to land a **tak
 | **Reader role** | Student / aspiring leader | Sharp friend getting the honest version |
 | **Payoff** | A line you can quote and teach others | What you’d actually buy, skip, or do again |
 
-Maxwell: *“Leadership is influence - nothing more, nothing less.”*
+Maxwell: *“Leadership is influence — nothing more, nothing less.”*
 
 JoRap: *“Most of them ended up in a drawer within a month.”*
 
@@ -93,19 +93,19 @@ Same plain words. Different intent. One is a maxim. The other is a receipt.
 
 ## Tone and posture
 
-**Maxwell** is pastoral and aspirational. He encourages growth, names potential, and frames life through leadership lenses. The tone is polished on purpose - speaker cadence, memorable closers, “you can become…”
+**Maxwell** is pastoral and aspirational. He encourages growth, names potential, and frames life through leadership lenses. The tone is polished on purpose — speaker cadence, memorable closers, “you can become…”
 
 **JoRap** is confident but explicitly **not preachy**. The skill says: share what works for you; don’t lecture. Doubt, near-misses, and honest limits are features, not bugs:
 
 > “I will not pretend I made a quick decision here…”
 
-Maxwell rarely leaves you in the “I almost bought the wrong one” moment. JoRap often does - then lands the pick.
+Maxwell rarely leaves you in the “I almost bought the wrong one” moment. JoRap often does — then lands the pick.
 
 ---
 
 ## Structure
 
-**Maxwell** loves frameworks: numbered laws, levels, acronyms, repeatable modules. Content is built to be **retaught** - workshops, keynotes, book chapters that mirror each other.
+**Maxwell** loves frameworks: numbered laws, levels, acronyms, repeatable modules. Content is built to be **retaught** — workshops, keynotes, book chapters that mirror each other.
 
 **JoRap** actively fights that shape:
 
@@ -120,7 +120,7 @@ Maxwell smooths for memorability. JoRap **roughens** so it doesn’t read like a
 
 ## Vocabulary and rhythm
 
-**Maxwell** uses simple language too, but in service of **quotability** - punchy aphorisms, deliberate repetition, inspirational closers.
+**Maxwell** uses simple language too, but in service of **quotability** — punchy aphorisms, deliberate repetition, inspirational closers.
 
 **JoRap** uses plain words in service of **first-read clarity**:
 
@@ -129,7 +129,7 @@ Maxwell smooths for memorability. JoRap **roughens** so it doesn’t read like a
 - Dry asides instead of rally cries
 - Bans thesaurus voice (`delve`, `leverage`, `landscape`)
 
-Maxwell sounds like someone who has said the same line 500 times - because he has, and that’s the product. JoRap should sound like someone typing after the thing annoyed them once.
+Maxwell sounds like someone who has said the same line 500 times — because he has, and that’s the product. JoRap should sound like someone typing after the thing annoyed them once.
 
 ---
 
@@ -137,7 +137,7 @@ Maxwell sounds like someone who has said the same line 500 times - because he ha
 
 **Maxwell** generalizes upward: a story about a CEO becomes a law about influence.
 
-**JoRap** grounds downward: FileZilla, cPanel, Hugo version mismatches, jeepneys, Shopee, a kid calling from another room. The swap test is brutal - if the paragraph could run on any tech blog, rewrite it.
+**JoRap** grounds downward: FileZilla, cPanel, Hugo version mismatches, jeepneys, Shopee, a kid calling from another room. The swap test is brutal — if the paragraph could run on any tech blog, rewrite it.
 
 Maxwell wants the idea to travel anywhere. JoRap wants the reader to think: *a real person lived this.*
 
@@ -152,7 +152,7 @@ Maxwell wants the idea to travel anywhere. JoRap wants the reader to think: *a r
 That shows up in POV rules:
 
 - Maxwell: lots of **you** + principles
-- JoRap: **I / my**, and advice only when direct (“Be honest with yourself before you start”) - never “users should consider”
+- JoRap: **I / my**, and advice only when direct (“Be honest with yourself before you start”) — never “users should consider”
 
 ---
 
@@ -160,7 +160,7 @@ That shows up in POV rules:
 
 **Maxwell:** warm, encouraging, occasionally witty in a keynote way.
 
-**JoRap:** **understated** - dry, not performative:
+**JoRap:** **understated** — dry, not performative:
 
 > “…the most boring possible reason to spend an hour debugging.”
 
@@ -172,9 +172,9 @@ No “game-changer,” no breathless superlatives, no engagement bait. Enthusias
 
 Both can be faith-adjacent, but differently.
 
-**Maxwell** weaves biblical and moral framing into leadership teaching - it’s part of the brand.
+**Maxwell** weaves biblical and moral framing into leadership teaching — it’s part of the brand.
 
-**JoRap** can write faith posts, but the default blog voice is **practical and personal**, not devotional or motivational. Grounded context (family, commute, home office) - not forced sermonizing.
+**JoRap** can write faith posts, but the default blog voice is **practical and personal**, not devotional or motivational. Grounded context (family, commute, home office) — not forced sermonizing.
 
 ---
 
@@ -245,11 +245,11 @@ _**Agent (auto-low)**_
 
 ## Tone and posture
 
-**Maxwell** is the American leadership professor - systematic, pastoral, built for retelling in boardrooms and churches.
+**Maxwell** is the American leadership professor — systematic, pastoral, built for retelling in boardrooms and churches.
 
-**Francis Kong** is the Filipino keynote mentor - warm but direct, excellence-oriented, often tough-love. Less “21 Laws” framework, more *here’s the story, here’s what mediocre looks like, here’s what you should choose*. Faith and work ethic sit close together; the audience is professionals and strivers in a Philippine context.
+**Francis Kong** is the Filipino keynote mentor — warm but direct, excellence-oriented, often tough-love. Less “21 Laws” framework, more *here’s the story, here’s what mediocre looks like, here’s what you should choose*. Faith and work ethic sit close together; the audience is professionals and strivers in a Philippine context.
 
-**JoRap** is the peer who already tried it - confident, not preachy. No rally cry. Doubt, near-misses, and “I almost bought the wrong one” are part of the credibility.
+**JoRap** is the peer who already tried it — confident, not preachy. No rally cry. Doubt, near-misses, and “I almost bought the wrong one” are part of the credibility.
 
 **Maxwell:** *“Everything rises and falls on leadership.”*
 
@@ -261,13 +261,13 @@ Same plain language possible. Three different destinations: doctrine, aspiration
 
 ---
 
-## Philippines context - used differently
+## Philippines context — used differently
 
 This is where Francis Kong and JoRap overlap most, and diverge hardest.
 
-**Francis Kong** grounds content in Filipino professional life on purpose - Manila business culture, work ethic, family values, faith in daily decisions. The local context is part of the message: *this is how we should live and work here.*
+**Francis Kong** grounds content in Filipino professional life on purpose — Manila business culture, work ethic, family values, faith in daily decisions. The local context is part of the message: *this is how we should live and work here.*
 
-**JoRap** grounds when it’s natural - Shopee, jeepney, local sellers, home office, kid calling from another room - but the post isn’t *about* becoming excellent. It’s about the router, the cord, the earphones. Philippines shows up as lived scenery, not sermon setting.
+**JoRap** grounds when it’s natural — Shopee, jeepney, local sellers, home office, kid calling from another room — but the post isn’t *about* becoming excellent. It’s about the router, the cord, the earphones. Philippines shows up as lived scenery, not sermon setting.
 
 **Maxwell** is the least local of the three. Principles travel globally; stories could be swapped for another culture with minimal loss.
 
@@ -275,7 +275,7 @@ This is where Francis Kong and JoRap overlap most, and diverge hardest.
 
 ## Structure
 
-**Maxwell:** frameworks - numbered laws, levels, modules built to be taught again and again.
+**Maxwell:** frameworks — numbered laws, levels, modules built to be taught again and again.
 
 **Francis Kong:** story → principle → application. Less rigid than Maxwell’s book architecture, but still shaped for the stage: hook, lesson, memorable closer, often a clip-friendly one-liner. Seminar and podcast cadence.
 
@@ -289,7 +289,7 @@ Maxwell builds curriculum. Francis builds moments. JoRap builds a post that coul
 
 **Maxwell:** mentor → student of leadership.
 
-**Francis Kong:** mentor → professional / believer who needs a push. More “Kuya” energy - I’ve walked this, you can too, stop making excuses. Second person **you** is heavy.
+**Francis Kong:** mentor → professional / believer who needs a push. More “Kuya” energy — I’ve walked this, you can too, stop making excuses. Second person **you** is heavy.
 
 **JoRap:** friend → friend. **I / my** first. Advice only when direct; never “users should consider.”
 
@@ -301,7 +301,7 @@ Francis and Maxwell both want you to *become* something. JoRap wants you to *kno
 
 **Maxwell:** faith-adjacent; biblical framing shows up, but the brand is leadership.
 
-**Francis Kong:** faith is woven in openly - business, character, and belief are one conversation. Very normal in Filipino motivational/faith-business space.
+**Francis Kong:** faith is woven in openly — business, character, and belief are one conversation. Very normal in Filipino motivational/faith-business space.
 
 **JoRap:** can write faith posts, but the default blog voice is practical and personal, not devotional. Grounded life (family, commute) without turning every post into a lesson.
 
@@ -311,11 +311,11 @@ Francis and Maxwell both want you to *become* something. JoRap wants you to *kno
 
 **Maxwell:** warm, polished, keynote-smooth. Humor in service of the point.
 
-**Francis Kong:** energetic, engaging, sometimes witty - still performer-polished. Emotion runs toward inspiration, conviction, occasional rebuke.
+**Francis Kong:** energetic, engaging, sometimes witty — still performer-polished. Emotion runs toward inspiration, conviction, occasional rebuke.
 
 **JoRap:** understated and dry. No game-changer hype, no engagement bait. Enthusiasm is quiet: *“It just sits there, doesn’t run warm…”* The skill literally says roughen over-polish.
 
-Francis and Maxwell sound rehearsed - because that *is* the product. JoRap should sound typed after the thing annoyed you once.
+Francis and Maxwell sound rehearsed — because that *is* the product. JoRap should sound typed after the thing annoyed you once.
 
 ---
 
@@ -323,7 +323,7 @@ Francis and Maxwell sound rehearsed - because that *is* the product. JoRap shoul
 
 **Maxwell:** story up → universal law of influence.
 
-**Francis Kong:** story up → principle about excellence, integrity, or discipline - often with Filipino professional life in frame.
+**Francis Kong:** story up → principle about excellence, integrity, or discipline — often with Filipino professional life in frame.
 
 **JoRap:** story down → exact failure, model, duration, place. Swap test: if any blog could run this paragraph, rewrite.
 
@@ -333,7 +333,7 @@ Francis and Maxwell sound rehearsed - because that *is* the product. JoRap shoul
 
 Topic: *doing good work under pressure*
 
-**Maxwell:** “Pressure doesn’t create leaders - it reveals them. Here are five ways to respond when the heat is on…”
+**Maxwell:** “Pressure doesn’t create leaders — it reveals them. Here are five ways to respond when the heat is on…”
 
 **Francis Kong:** “I’ve seen talented Filipinos lose not because they lacked skill, but because they stopped showing up with excellence when nobody was watching. Let me tell you about…”
 
@@ -343,11 +343,11 @@ Topic: *doing good work under pressure*
 
 ## One-line summary
 
-- **Maxwell** - transferable leadership wisdom, globally packaged.
-- **Francis Kong** - aspirational excellence, Filipino professional + faith mentor on stage.
-- **JoRap** - earned specificity from someone who used the thing and has opinions with receipts.
+- **Maxwell** — transferable leadership wisdom, globally packaged.
+- **Francis Kong** — aspirational excellence, Filipino professional + faith mentor on stage.
+- **JoRap** — earned specificity from someone who used the thing and has opinions with receipts.
 
-Francis sits between Maxwell and JoRap on *warmth and local color*, but closer to Maxwell on *intent* (teach, inspire, challenge). JoRap is the outlier: same plain words, opposite goal - not “become excellent,” but “here’s what I’d get, and here’s what went wrong once.”
+Francis sits between Maxwell and JoRap on *warmth and local color*, but closer to Maxwell on *intent* (teach, inspire, challenge). JoRap is the outlier: same plain words, opposite goal — not “become excellent,” but “here’s what I’d get, and here’s what went wrong once.”
 
 ---
 
@@ -385,19 +385,19 @@ Derek Sivers is another strong match. He is short, punchy, and anti-fluff. He wr
 
 _**Agent (auto-low)**_
 
-There isn’t one perfect famous twin - JoRap voice is a blend - but if you want the closest single name:
+There isn’t one perfect famous twin — JoRap voice is a blend — but if you want the closest single name:
 
 ## Best match: **Marco Arment**
 
 For the tech / builder / opinion side, he’s the nearest fit.
 
 - Writes from **what he actually built and uses** (Overcast, blogging stack), not “users should consider…”
-- **Opinionated but not hypey** - picks a side, explains tradeoffs, doesn’t sound like affiliate copy
+- **Opinionated but not hypey** — picks a side, explains tradeoffs, doesn’t sound like affiliate copy
 - **Plain and edited**, not keynote-polished
-- Shows **real friction** - deploy annoyances, tool choices, “here’s what I’d do again”
+- Shows **real friction** — deploy annoyances, tool choices, “here’s what I’d do again”
 - Dry, practical closings instead of inspiration
 
-Your Git post energy - *I broke something, this tool saved me, here’s why it matters day to day* - is very Arment-shaped.
+Your Git post energy — *I broke something, this tool saved me, here’s why it matters day to day* — is very Arment-shaped.
 
 ---
 
@@ -415,10 +415,10 @@ Your Git post energy - *I broke something, this tool saved me, here’s why it m
 
 ## Famous people who are *not* your voice
 
-- **Maxwell / Francis Kong** - mentor on stage; you’re the friend after using the thing
-- **MKBHD, most tech YouTubers** - too polished, spec-theater, hype cadence
-- **Wirecutter (NYT era)** - institutional “we tested”; you’re **I** tested and here’s my drawer of regrets
-- **Tim Ferriss** - optimization frameworks and life-hack packaging; you actively avoid that structure
+- **Maxwell / Francis Kong** — mentor on stage; you’re the friend after using the thing
+- **MKBHD, most tech YouTubers** — too polished, spec-theater, hype cadence
+- **Wirecutter (NYT era)** — institutional “we tested”; you’re **I** tested and here’s my drawer of regrets
+- **Tim Ferriss** — optimization frameworks and life-hack packaging; you actively avoid that structure
 
 ---
 
@@ -428,7 +428,7 @@ Your Git post energy - *I broke something, this tool saved me, here’s why it m
 
 If you need a trio: **Arment** (builder + tool opinions) + **Merlin Mann** (thinking out loud, anti-slop) + a little **Raymond Chen** (war stories and dry humor).
 
-Nobody hits all of it - especially the **Philippines-as-lived-scenery** and **faith posts without turning into Francis Kong** - because that part is pretty specifically yours. The famous closest analogues are “practitioner bloggers who type like humans,” not motivational speakers or review factories.
+Nobody hits all of it — especially the **Philippines-as-lived-scenery** and **faith posts without turning into Francis Kong** — because that part is pretty specifically yours. The famous closest analogues are “practitioner bloggers who type like humans,” not motivational speakers or review factories.
 
 ---
 
@@ -454,7 +454,7 @@ Endings should land on a real choice rather than a lecture. Headings should soun
 
 _**Agent (auto-low)**_
 
-Approachability on the page and approachability in person are different skills. You don’t have to become warmer in real life. You have to write like someone who’s already mid-conversation with one reader - not like someone on a stage.
+Approachability on the page and approachability in person are different skills. You don’t have to become warmer in real life. You have to write like someone who’s already mid-conversation with one reader — not like someone on a stage.
 
 Your `jorap-voice` skill is already pointed at that. The gap is usually **distance**, not **niceness**.
 
@@ -483,7 +483,7 @@ Approachable: *“I edited the live site like it was 2009. Then I needed undo.�
 
 You don’t need charm. You need **the same annoyance they’ve had**. That’s an handshake.
 
-Your skill already says: open with experience, a near-miss, or a concrete problem - not a definition.
+Your skill already says: open with experience, a near-miss, or a concrete problem — not a definition.
 
 ### 2. Write to one sharp friend, not “the audience”
 
@@ -499,7 +499,7 @@ Not:
 
 You don’t have to be friendly. You have to **stop sounding institutional**.
 
-### 3. Show your thinking - that’s the invite
+### 3. Show your thinking — that’s the invite
 
 Reserved people often skip straight to the conclusion. That reads as *I’ve already figured it out; catch up.*
 
@@ -526,7 +526,7 @@ Failure is approachable without performing warmth. It says: *I’m not grading y
 
 Your slop gate literally requires this: every H2 needs something that went wrong, surprised you, or you’d skip next time.
 
-### 5. State opinions plainly - that’s generosity
+### 5. State opinions plainly — that’s generosity
 
 Hedging sounds safe. It also sounds like you don’t trust the reader.
 
@@ -569,7 +569,7 @@ You’re not sending them off improved. You’re leaving them with **what you’
 | Fake approachability | Why it backfires |
 |----------------------|------------------|
 | “Hey friend!” / excessive exclamation points | Performative; reads like a newsletter |
-| “Let me know in the comments!” | Your skill bans this - and rightly so |
+| “Let me know in the comments!” | Your skill bans this — and rightly so |
 | Self-deprecation theater | “I’m just a humble guy…” feels coached |
 | Fake balance on everything | Sounds like a committee, not a person |
 | Over-polish | Perfect, flat prose feels untouchable |
@@ -587,7 +587,7 @@ When a section feels cold, ask three questions:
 2. **What did I almost get wrong?** (one near-miss)
 3. **What would I tell one friend if they texted me about this?** (plain words)
 
-If all three are missing, the section will feel distant - even if the facts are right.
+If all three are missing, the section will feel distant — even if the facts are right.
 
 ---
 
@@ -598,7 +598,7 @@ If all three are missing, the section will feel distant - even if the facts are 
 | Wait until asked | Volunteer the mistake first |
 | Give the answer | Show the pick *and* the doubt before it |
 | Stay general | Name the exact tool, failure, place |
-| Sound competent | Sound **usefully competent** - earned, not above |
+| Sound competent | Sound **usefully competent** — earned, not above |
 
 You’re not faking personality. You’re choosing **peer mode** in writing while staying yourself everywhere else.
 
@@ -638,7 +638,7 @@ The response will be structured around mindset, concrete techniques, likability 
 
 _**Agent (auto-low)**_
 
-Approachable gets people in the door. Likable is why they come back. You can do both on the page without becoming a warmer person in real life - likability in writing is mostly **generosity, respect, and small human signals**, not charm.
+Approachable gets people in the door. Likable is why they come back. You can do both on the page without becoming a warmer person in real life — likability in writing is mostly **generosity, respect, and small human signals**, not charm.
 
 ## What likable writing actually is
 
@@ -647,7 +647,7 @@ Readers like authors who:
 - **Get their problem** without making them feel dumb
 - **Give a real take** instead of hiding behind “it depends”
 - **Don’t waste their time** with filler or flexing
-- **Sound human** - one mistake, one opinion, one dry aside
+- **Sound human** — one mistake, one opinion, one dry aside
 - **Leave them better off** than before they clicked
 
 That’s different from being bubbly, inspirational, or “relatable” in a performative way.
@@ -674,7 +674,7 @@ Likable writers **give the answer**. They don’t hoard the conclusion behind th
 
 Generosity reads as likable. Gatekeeping reads as smug.
 
-### 3. Show one flaw - not a whole apology tour
+### 3. Show one flaw — not a whole apology tour
 
 One honest limit per post is enough:
 
@@ -704,7 +704,7 @@ Dry, specific humor makes people like you without you trying to be liked. It sig
 
 ### 6. Ground posts in real life when it fits
 
-Jeepney, kid calling from another room, home office - not as branding, just as truth.
+Jeepney, kid calling from another room, home office — not as branding, just as truth.
 
 Likability often comes from *oh, this person has a life like mine.* You don’t need to overshare. One real scene per section is plenty.
 
@@ -741,8 +741,8 @@ A clean, useful ending feels respectful. Respect reads as likable.
 | Fake warmth (“Hey friend!!!”) | Feels performed; worse if you’re reserved in person |
 | Smug certainty | “Obviously you should…” makes readers feel small |
 | Endless hedging | Sounds afraid of them, not respectful of them |
-| Hype words | “game-changer,” “must-have” - sounds like an ad, not a person |
-| Engagement bait | “What do you think?” - cheap; your skill already bans it |
+| Hype words | “game-changer,” “must-have” — sounds like an ad, not a person |
+| Engagement bait | “What do you think?” — cheap; your skill already bans it |
 | Perfect polish | Emotionally flat, untouchable, unhuman |
 | Complaining with no payoff | Venting without a take wears people out |
 
@@ -764,10 +764,10 @@ After your rewrite passes, read once asking:
 
 You don’t need to sound **nice**. You need to sound:
 
-- **useful** - they got a real pick
-- **honest** - you didn’t pretend it was easy
-- **human** - one specific failure or observation
-- **respectful** - plain words, no lecture
+- **useful** — they got a real pick
+- **honest** — you didn’t pretend it was easy
+- **human** — one specific failure or observation
+- **respectful** — plain words, no lecture
 
 That combination is likable without being performative.
 
@@ -779,7 +779,7 @@ That combination is likable without being performative.
 
 Your `jorap-voice` skill is already aimed at that. The extra lens is: not just *can a reader enter this?* but *would they feel good about having read it?*
 
-If you want, paste a section from `__smart-plug.md` or another draft and I can mark what’s already likable and what to tweak - still in your voice, not fake-friendly.
+If you want, paste a section from `__smart-plug.md` or another draft and I can mark what’s already likable and what to tweak — still in your voice, not fake-friendly.
 
 ---
 
@@ -789,10 +789,10 @@ I like this:
 Reserved person, likable page
 You don’t need to sound nice. You need to sound:
 
-useful - they got a real pick
-honest - you didn’t pretend it was easy
-human - one specific failure or observation
-respectful - plain words, no lecture
+useful — they got a real pick
+honest — you didn’t pretend it was easy
+human — one specific failure or observation
+respectful — plain words, no lecture
 That combination is likable without being performative.
 
 ---
@@ -809,7 +809,7 @@ I'll present the four pillars as a compact reference card. I can add them to the
 
 _**Agent (auto-low)**_
 
-That framing is the right target for you. It’s not “sound warmer.” It’s **sound like someone worth reading** - which, for a reserved writer, is a much easier bar.
+That framing is the right target for you. It’s not “sound warmer.” It’s **sound like someone worth reading** — which, for a reserved writer, is a much easier bar.
 
 ## Reserved person, likable page
 
@@ -831,7 +831,7 @@ One read asking only:
 3. Is there one **human** specific (name, place, failure, duration)?
 4. Would I **respect** a friend’s time if I sent them this?
 
-If yes to all four, you’re in the zone - even if the tone is still cool and direct.
+If yes to all four, you’re in the zone — even if the tone is still cool and direct.
 
 That’s the whole trick: **competence with the door open**, not charm with the mic on.
 
@@ -1048,8 +1048,8 @@ Done. Added **Likability lens (reserved person, likable page)** to both skills.
 - Added to seven-passes table, minimum edit bar, workflow, and voice check
 - Skill description updated
 
-**Blog:** useful takeaway, honest friction, human specific, respectful tone - per post.
+**Blog:** useful takeaway, honest friction, human specific, respectful tone — per post.
 
-**Notes:** same four, whole note - useful claim in `key_concept`/`shareable_thought`, friction in `examples`/glosses, specifics in scenes, plain words everywhere.
+**Notes:** same four, whole note — useful claim in `key_concept`/`shareable_thought`, friction in `examples`/glosses, specifics in scenes, plain words everywhere.
 
 No commit made. Say if you want one.

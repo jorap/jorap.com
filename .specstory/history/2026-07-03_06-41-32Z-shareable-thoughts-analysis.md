@@ -1364,7 +1364,7 @@ redo all shareable_thoughts for all notes. incorporate in key_concept if not inc
 
 _**Agent (auto-low)**_
 
-Understood - I’ll do a full second-pass rewrite across all notes: regenerate every `shareable_thought`, improve every `key_concept`, and ensure any thought not already present is incorporated into `key_concept`. I’m starting by reloading the voice rules and then running this in a scripted batch so it’s consistent repo-wide.
+Understood — I’ll do a full second-pass rewrite across all notes: regenerate every `shareable_thought`, improve every `key_concept`, and ensure any thought not already present is incorporated into `key_concept`. I’m starting by reloading the voice rules and then running this in a scripted batch so it’s consistent repo-wide.
 
 _**Agent (auto-low)**_
 
@@ -3028,11 +3028,11 @@ No note has all four lines clustering near line 1. Internal similarity among lin
 
 **3. Strong reference notes**
 
-`capture.md` - four clear angles: definition, friction rule, inbox process, resonance filter.
+`capture.md` — four clear angles: definition, friction rule, inbox process, resonance filter.
 
-`success-is-stewardship.md` - borrowed gift, stewardship frame, parable anchor, faithful-use test.
+`success-is-stewardship.md` — borrowed gift, stewardship frame, parable anchor, faithful-use test.
 
-`the-wise-builder.md` - hear vs do, fool's house, false profession vs stumble, both builders contrast.
+`the-wise-builder.md` — hear vs do, fool's house, false profession vs stumble, both builders contrast.
 
 ---
 
@@ -3067,7 +3067,7 @@ Lint passes, but some lines read like labels, not full thoughts:
 | `backlinks.md` | `"Inbound wikilinks ranked by count."` | Feature label |
 | `complete-the-cycle.md` | `"A meeting needs follow-up."` etc. | Three parallel stubs, not four perspectives |
 
-**`complete-the-cycle.md`** is the worst template pattern - line 1 is strong; lines 2–4 are three 27-char stubs that don't add distinct angles.
+**`complete-the-cycle.md`** is the worst template pattern — line 1 is strong; lines 2–4 are three 27-char stubs that don't add distinct angles.
 
 ---
 
@@ -3128,8 +3128,8 @@ Shareables are covered, but `key_concept` reads like a dump of the four lines in
 
 Generally fine. Weakest:
 
-- `backlinks.md` - two feature-label lines
-- `graph.md` - `"Top 20% = most total wikilinks"` reads like a spec, not a principle
+- `backlinks.md` — two feature-label lines
+- `graph.md` — `"Top 20% = most total wikilinks"` reads like a spec, not a principle
 
 `create.md`, `getting-started.md`, `issues.md` are in good shape.
 
@@ -3426,7 +3426,7 @@ The expand function deduplicated too aggressively. Some notes ended up with fewe
 
 _**Agent (auto-low)**_
 
-Several notes dropped below four shareable lines after dedupe - I’m patching the script to pad back to four and re-incorporating missing lines into `key_concept`.
+Several notes dropped below four shareable lines after dedupe — I’m patching the script to pad back to four and re-incorporating missing lines into `key_concept`.
 
 
 _**Agent (auto-low)**_
@@ -3819,20 +3819,20 @@ P0–P3 pass is complete. All notes lint clean.
 
 ## What changed
 
-### P0 - Near-duplicates fixed
-- **`composure.md`** - removed the line-1/line-2 paraphrase pair; four distinct angles (steady voice, one beat, choose the reaction, visible calm)
-- **`signal-vs-noise.md`** - removed feeds/content duplicate; four angles (monthly filter, entertainment vs signal, 30-day test, feeds are noise until proven)
+### P0 — Near-duplicates fixed
+- **`composure.md`** — removed the line-1/line-2 paraphrase pair; four distinct angles (steady voice, one beat, choose the reaction, visible calm)
+- **`signal-vs-noise.md`** — removed feeds/content duplicate; four angles (monthly filter, entertainment vs signal, 30-day test, feeds are noise until proven)
 
-### P1 - Weak notes rewritten (10 files)
+### P1 — Weak notes rewritten (10 files)
 Hand-rewrote shareables + tightened `key_concept` for:
 `complete-the-cycle`, `inbox-zero`, `expect-the-counter`, `the-feynman-technique`, `synthesis-as-a-goal`, `free-grace`, `gentleness`, `faithful-steward`, plus `backlinks` (meta)
 
-Example - **`complete-the-cycle.md`** now has four full-sentence perspectives instead of three 27-char stubs.
+Example — **`complete-the-cycle.md`** now has four full-sentence perspectives instead of three 27-char stubs.
 
-### P2 - Fragment expansion (36 notes)
+### P2 — Fragment expansion (36 notes)
 Expanded short stubs like `"Friction kills capture."`, `"Break the escalation cycle."`, `"Faith alone saves me."` into standalone lines via `scripts/fix-shareable-p0-p3.py`.
 
-### P3 - `key_concept` dedupe (204 notes)
+### P3 — `key_concept` dedupe (204 notes)
 Trimmed trailing verbatim echoes of `description` / `shareable_thought` from `key_concept`, keeping:
 - punch paragraph first
 - wikilink / expansion paragraphs
@@ -3841,13 +3841,13 @@ Trimmed trailing verbatim echoes of `description` / `shareable_thought` from `ke
 Then re-incorporated any shareable line not already represented (per your rule).
 
 ## Validation
-- `npm run lint:garden` - pass
-- `npm run lint:voice` - pass
-- Near-duplicate pairs - **0** (was 2)
-- Notes with ≠4 shareables - **0**
+- `npm run lint:garden` — pass
+- `npm run lint:voice` — pass
+- Near-duplicate pairs — **0** (was 2)
+- Notes with ≠4 shareables — **0**
 
 ## Script added
-[`scripts/fix-shareable-p0-p3.py`](scripts/fix-shareable-p0-p3.py) - rerunnable for future batch cleanup.
+[`scripts/fix-shareable-p0-p3.py`](scripts/fix-shareable-p0-p3.py) — rerunnable for future batch cleanup.
 
 ## Remaining (optional polish)
 ~85 shareable lines are still under 40 chars but lint-valid and often intentionally punchy (`"No party gets my soul."`). A second pass could expand only the ones that still feel like labels, not principles.
@@ -4896,11 +4896,11 @@ Second polish pass done.
   - Fallback to longer `key_concept` sentences when available
 
 - **38 notes** updated automatically; **5 lint failures** fixed manually:
-  - `accountability.md` - negation fragment → full ownership line
-  - `client-site-pass-off.md` - imperative fragment → deposit/pass-off model line
-  - `execution.md` - gerund fragment → full execution line
-  - `name-the-feeling.md` - quote fragment → full sentence
-  - `pkm.md` - overlap removed between lines 3 and 4
+  - `accountability.md` — negation fragment → full ownership line
+  - `client-site-pass-off.md` — imperative fragment → deposit/pass-off model line
+  - `execution.md` — gerund fragment → full execution line
+  - `name-the-feeling.md` — quote fragment → full sentence
+  - `pkm.md` — overlap removed between lines 3 and 4
 
 ## Remaining 45 short lines
 

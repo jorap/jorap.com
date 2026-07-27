@@ -361,7 +361,7 @@ _**Agent (default)**_
 
 Impeccable’s read on your naming, based on `PRODUCT.md` and the homepage critique:
 
-**JoRap’s World** reads hobby-blog or fan-site - fine for a personal playground, weak for “I’d trust this person in a room with stakeholders.” **JoRap** fixes that: short, calm, client-safe. The tradeoff is it doesn’t say *what* the site is until someone reads the page.
+**JoRap’s World** reads hobby-blog or fan-site — fine for a personal playground, weak for “I’d trust this person in a room with stakeholders.” **JoRap** fixes that: short, calm, client-safe. The tradeoff is it doesn’t say *what* the site is until someone reads the page.
 
 Here are alternatives that stay professional and fit your **idea-led, credible** register (aligned with “The Quiet Study” editorial tone):
 
@@ -372,7 +372,7 @@ Here are alternatives that stay professional and fit your **idea-led, credible**
 | Name | Why it works | Watch out for |
 |------|----------------|---------------|
 | **JoRap** *(current)* | Cleanest. Reads as a personal brand, not a theme park. Matches author byline and domain. | Slightly opaque until the homepage explains you. |
-| **JoRap.com** | URL-as-brand - common for serious personal sites. Signals “official home,” not a side project. | A bit literal; some people find `.com` in the logo fussy. |
+| **JoRap.com** | URL-as-brand — common for serious personal sites. Signals “official home,” not a side project. | A bit literal; some people find `.com` in the logo fussy. |
 | **JoRap Notes** | Editorial, calm, idea-led. Fits long-form writing without “World” whimsy. | Can sound blog-first if the homepage isn’t clearly hire-me oriented. |
 | **Jonathan Rapusas** | Strongest B2B signal. Full name = room-with-stakeholders credibility. | Loses the JoRap handle; longer in the header. |
 
@@ -382,19 +382,19 @@ Here are alternatives that stay professional and fit your **idea-led, credible**
 
 | Name | Vibe |
 |------|------|
-| **JoRap Practice** | Sustained craft - like a professional practice, not a hobby site. |
+| **JoRap Practice** | Sustained craft — like a professional practice, not a hobby site. |
 | **JoRap Studio** | Slightly more “business,” good if you want a studio/agency feel. Still common. |
 | **JoRap Works** | Portfolio-leaning; clear but a bit generic. |
-| **Rapusas** | Surname-only - understated, professional, uncommon enough to feel intentional. |
+| **Rapusas** | Surname-only — understated, professional, uncommon enough to feel intentional. |
 
 ---
 
 ### Names to avoid (per your brand brief)
 
-- **JoRap’s World** - playful, undermines client credibility (your critique already flagged this).
-- **World / Kingdom / Universe / HQ** - same problem: persona over professional.
-- **JoRap Digital / Solutions / Consulting** - generic SaaS filler; could be anyone.
-- **The Quiet Study** - strong as a *design metaphor*, too abstract as the public site name.
+- **JoRap’s World** — playful, undermines client credibility (your critique already flagged this).
+- **World / Kingdom / Universe / HQ** — same problem: persona over professional.
+- **JoRap Digital / Solutions / Consulting** — generic SaaS filler; could be anyone.
+- **The Quiet Study** — strong as a *design metaphor*, too abstract as the public site name.
 
 ---
 
@@ -416,9 +416,9 @@ If you want **maximum minimalism with zero ambiguity about “this is my site”
 
 ---
 
-A pattern that works well without renaming everything: keep the logo as **JoRap**, and add a one-line descriptor under or beside it (not in `title` tags) - e.g. *Front-end development & writing* - so the name stays short while the first fold answers “who is this for?”
+A pattern that works well without renaming everything: keep the logo as **JoRap**, and add a one-line descriptor under or beside it (not in `title` tags) — e.g. *Front-end development & writing* — so the name stays short while the first fold answers “who is this for?”
 
-If you tell me which direction you prefer - **editorial (Notes)**, **formal (full name)**, or **minimal (JoRap / JoRap.com)** - I can update `hugo.toml`, `logo_text`, meta titles, and any lingering “JoRap’s World” references across the site.
+If you tell me which direction you prefer — **editorial (Notes)**, **formal (full name)**, or **minimal (JoRap / JoRap.com)** — I can update `hugo.toml`, `logo_text`, meta titles, and any lingering “JoRap’s World” references across the site.
 
 ---
 
@@ -2125,9 +2125,9 @@ _**Agent (default)**_
 Renamed the site to **JoRap Notes** across config, templates, content, and docs. Author bylines stay **JoRap** (your name, not the site name).
 
 ### Site config
-- `hugo.toml` - site title
-- `config/_default/params.toml` - `logo_text`, `copyright`, SEO keywords
-- `data/settings.json` - CMS/settings title and footer
+- `hugo.toml` — site title
+- `config/_default/params.toml` — `logo_text`, `copyright`, SEO keywords
+- `data/settings.json` — CMS/settings title and footer
 
 ### Pages & meta
 - Section meta titles: About, Blog, Contact (`| JoRap Notes`)

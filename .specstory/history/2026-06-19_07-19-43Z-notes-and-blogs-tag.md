@@ -18,7 +18,7 @@ Reviewing all notes and blogs to identify additional tags or updates.
 
 _**Agent (default)**_
 
-I'll review your notes and blog posts for tagging - first I'll map how content is organized and what tags are already in use.
+I'll review your notes and blog posts for tagging — first I'll map how content is organized and what tags are already in use.
 
 
 _**Agent (default)**_
@@ -2000,13 +2000,13 @@ _**Agent (default)**_
 
 ## Tag review summary
 
-I reviewed **122 blog and note files** (47 published blogs, 30 drafts, 74 notes). Overall tagging is in good shape - every file has tags, and PKM notes consistently use `PKM` / `Note Taking`. I applied **25 targeted updates**; the rest I left alone to avoid taxonomy bloat (per your [[Metadata Strategy]] note: broad themes, not a second job).
+I reviewed **122 blog and note files** (47 published blogs, 30 drafts, 74 notes). Overall tagging is in good shape — every file has tags, and PKM notes consistently use `PKM` / `Note Taking`. I applied **25 targeted updates**; the rest I left alone to avoid taxonomy bloat (per your [[Metadata Strategy]] note: broad themes, not a second job).
 
 ### What was already solid
-- **No empty tags** - even `instant-pot-chicken-adobo.md` uses a YAML list (16 tags).
-- **PKM cluster** - all 74 notes include `PKM` or `Note Taking`.
-- **Published blogs** - most have 10–20 specific, relevant tags.
-- **531 unique tags** across the site - rich but not chaotic.
+- **No empty tags** — even `instant-pot-chicken-adobo.md` uses a YAML list (16 tags).
+- **PKM cluster** — all 74 notes include `PKM` or `Note Taking`.
+- **Published blogs** — most have 10–20 specific, relevant tags.
+- **531 unique tags** across the site — rich but not chaotic.
 
 ### Inconsistencies fixed (3 files)
 | Issue | Fix |
@@ -2036,15 +2036,15 @@ Filled gaps in the PKM / Second Brain cluster:
 - **`Daily Notes`** added to: `interstitial-journaling`
 
 ### Intentionally left alone
-- **Drafts (`__*.md`)** - already well-tagged; only fixed `__wifi-router.md` naming.
-- **Notes with 6–8 tags** - keyword analysis suggested many more, but most would be redundant with `PKM` / `Note Taking` / `Second Brain` already present.
-- **Duplicate tag families** (`Hugo` vs `Hugo CMS`) - kept both; `Hugo CMS` marks CMS-focused posts, `Hugo` marks general Hugo content.
-- **`Personal Knowledge Management`** - kept only on `pkm.md` as the hub note; `PKM` is the site-wide convention (95 uses).
+- **Drafts (`__*.md`)** — already well-tagged; only fixed `__wifi-router.md` naming.
+- **Notes with 6–8 tags** — keyword analysis suggested many more, but most would be redundant with `PKM` / `Note Taking` / `Second Brain` already present.
+- **Duplicate tag families** (`Hugo` vs `Hugo CMS`) — kept both; `Hugo CMS` marks CMS-focused posts, `Hugo` marks general Hugo content.
+- **`Personal Knowledge Management`** — kept only on `pkm.md` as the hub note; `PKM` is the site-wide convention (95 uses).
 
 ### Optional next steps
 If you want to go further:
 1. **Merge `Hugo CMS` → `Hugo`** everywhere for one Hugo tag (4 files use `Hugo CMS`).
-2. **Add `Gear`** to product-review drafts missing it (`__canon-g3000`, `__mi-box-s`, etc. - some already have it).
-3. **Standardize frontmatter** - convert YAML list tags (e.g. `instant-pot-chicken-adobo`) to inline arrays like the rest of the site.
+2. **Add `Gear`** to product-review drafts missing it (`__canon-g3000`, `__mi-box-s`, etc. — some already have it).
+3. **Standardize frontmatter** — convert YAML list tags (e.g. `instant-pot-chicken-adobo`) to inline arrays like the rest of the site.
 
 Want me to do any of those follow-ups?

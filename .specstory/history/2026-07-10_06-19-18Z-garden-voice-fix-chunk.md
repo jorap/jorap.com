@@ -1624,7 +1624,7 @@ I will revert the broken files with git checkout and apply fixes using StrReplac
 
 _**Agent (auto-low)**_
 
-YAML dump broke frontmatter formatting - restoring those files and switching to targeted StrReplace edits.
+YAML dump broke frontmatter formatting — restoring those files and switching to targeted StrReplace edits.
 
 
 _**Agent (auto-low)**_
@@ -2212,7 +2212,7 @@ YAML quoting inconsistencies in finish-strong, golden-rule-at-work, and getting-
 
 _**Agent (auto-low)**_
 
-Fixing `getting-things-done.md` and `free-tier-hosting-stack.md` - they passed lint but still have voice issues.
+Fixing `getting-things-done.md` and `free-tier-hosting-stack.md` — they passed lint but still have voice issues.
 
 
 _**Agent (auto-low)**_
@@ -2618,10 +2618,10 @@ Every listed note was edited for garden-voice frontmatter. All 56 pass `scripts/
 
 ### Blockers / follow-ups
 
-1. **EP spine formatting** - Faith notes now use the bible shortcode pattern (like `abide-in-me.md`), but full NASB paragraph text + YAML glosses are not bulk-applied. Run when you want canonical EP spine output:
+1. **EP spine formatting** — Faith notes now use the bible shortcode pattern (like `abide-in-me.md`), but full NASB paragraph text + YAML glosses are not bulk-applied. Run when you want canonical EP spine output:
    - `python3 scripts/archive/normalize-verse-paragraphs.py`
    - `python3 scripts/archive/apply-verse-explanations.py`
 
-2. **Repo-wide `pnpm lint:voice`** - Still fails on an unrelated file (`content/english/blog/alex-eala-pro-career-tracker.md` em dash). Chunk notes themselves are clean.
+2. **Repo-wide `pnpm lint:voice`** — Still fails on an unrelated file (`content/english/blog/alex-eala-pro-career-tracker.md` em dash). Chunk notes themselves are clean.
 
-3. **Dense tech notes** (`free-tier-hosting-stack`, `git-based-cms`) - Kept operational detail in `key_concept` after the claim line; voice rules met, but they stay longer than a typical PKM note by design.
+3. **Dense tech notes** (`free-tier-hosting-stack`, `git-based-cms`) — Kept operational detail in `key_concept` after the claim line; voice rules met, but they stay longer than a typical PKM note by design.

@@ -378,7 +378,7 @@ _**Agent (auto-low)**_
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-I'm gathering details about JoRap's specific Google tools-Gmail, Chrome, and Android-to ground the blog draft in concrete examples.
+I'm gathering details about JoRap's specific Google tools—Gmail, Chrome, and Android—to ground the blog draft in concrete examples.
 
 Also checking the ideas garden for additional notes.
 </details></think>
@@ -700,9 +700,9 @@ Added two blocks:
 
 **Openness** (end of "I mix brands on purpose"): Google isn't fully open, but Android runs on many brands, you can change defaults, cast from almost any phone, and use services in any browser. Apple wants you on Apple hardware with Apple cables.
 
-**New section - "Apple hardware lives at premium prices"**: phone, laptop, streamer, watch, dongles stack up; Shopee Android and a Mi Box-style box land at a fraction of iPhone tier; you're paying for polish, not just one device.
+**New section — "Apple hardware lives at premium prices"**: phone, laptop, streamer, watch, dongles stack up; Shopee Android and a Mi Box-style box land at a fraction of iPhone tier; you're paying for polish, not just one device.
 
-Also tightened the Android section line to mention Apple's premium entry fee. No peso or dollar figures - relative cost only. Linters still pass.
+Also tightened the Android section line to mention Apple's premium entry fee. No peso or dollar figures — relative cost only. Linters still pass.
 
 ---
 

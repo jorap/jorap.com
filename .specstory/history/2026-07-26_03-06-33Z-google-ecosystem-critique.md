@@ -477,4 +477,30 @@ _**Agent (auto-low)**_
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:blog -- content/english/blog/google-over-apple-ecosystem.md 2>&1 | tail -5
 ```
+
+```
+$ python3 scripts/normalize-blog-frontmatter.py --verify && python3 scripts/voice-lint.py slop --check --blog-only -- content/english/blog/google-over-apple-ecosystem.md
+Blog frontmatter OK
+Slop lint OK
+
+```
 </details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Smart watches are underpowered phones on your wrist.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Added your smartwatch take in two places:
+
+In **"No compelling reason to buy the rest of the Apple set"** — broadened beyond Apple Watch to any smartwatch: underpowered cellphones on your arm, same notifications your phone already handles, not worth wearing/charging/paying for.
+
+In **"What I actually run"** — shortened to: no smartwatch, overrated, weak phone on your wrist when your pocket already has a real one.
+
+## Session close
+- Fixed: Added the smartwatch-is-an-underpowered-phone take in the Apple-set section and gear list.
+- Encode: none
+- Open: clean

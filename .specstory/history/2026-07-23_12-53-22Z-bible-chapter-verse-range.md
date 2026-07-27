@@ -1762,4 +1762,4 @@ Updated **18 notes** that cited Bible chapters without verses. Each reference no
 | `moved-with-compassion.md` | Matthew 9 | Matthew 9:36 |
 | `great-commission.md` | Matthew 28 | Matthew 28:18-20 |
 
-`{{< bible >}}` shortcodes were already verse-specific - this pass only touched prose, cards, aliases, and metadata. A full scan shows no remaining chapter-only references in the notes garden.
+`{{< bible >}}` shortcodes were already verse-specific — this pass only touched prose, cards, aliases, and metadata. A full scan shows no remaining chapter-only references in the notes garden.

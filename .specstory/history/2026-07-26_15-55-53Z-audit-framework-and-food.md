@@ -344,3 +344,496 @@ Slop lint OK
 
 ```
 </details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Lint passed. Now auditing all eight files against the eleven style-guide criteria.
+
+Reviewing __craft-prompt-framework.md. The opening is strong and personal. The "digital transformation" line is ironic and acceptable. Headings are functional but somewhat flat. The closing implies a future-you perspective.
+
+Found a Rule 11 violation in __craft-prompt-framework.md. The closing paragraph at lines 89–91 lacks the required `---` separator before the final closing paragraph.
+
+The frontmatter description reads human and first-person. The "Framework" title is acceptable because it appears only in the slug and title. The H2 "What CRAFT stands for" is flat but functional for an acronym breakdown.
+
+__craft-prompt-framework.md is LIGHT POLISH. The flat H2s could be replaced with more human phrasing drawn from the content itself. The Common failures bullets do not repeat the same opening word three times, so Rule 10 is not violated.
+
+Now auditing __jobs-to-be-don-framework.md. Its opening is strong and personal. The use of "framework" in the title, metadata, and description is appropriate for JTBD.
+
+The JTBD draft is largely clean. The heading "Mistakes I still catch myself making" carries strong personality. The numbered list and mistakes bullets vary their opening words, so Rule 10 is not violated. The word "causality" at line 58 is slightly academic but acceptable in this product context.
+
+__jobs-to-be-don-framework.md also violates Rule 11. The closing paragraph at lines 81–83 lacks the required `---` separator before the final closing paragraph. The draft is otherwise clean and receives a LIGHT POLISH verdict.
+
+__humanize-ai-articles.md is strong and matches the voice guide well. The quoted AI bad examples are acceptable. The H2 headings and closing paragraph carry good personality. This file is CLEAN.
+
+__humanize-ai-articles.md does not violate Rule 11. A `---` separator sits at line 93 directly before the closing paragraph at lines 95–97. The quick-fix bullets also vary their opening words, so Rule 10 is not triggered.
+
+The quick-fix bullets at lines 79–83 advise readers to add real anecdotes rather than inventing them, so Rule 9 is not violated. The meta description is strong. The quoted AI bad examples at lines 59 and 71 are acceptable. The H2 "The prompt I paste now" is functional. The verdict is CLEAN or LIGHT POLISH.
+
+__how-to-create-a-good-habit.md is strong and first-person throughout. The H2 "What I actually do with the four laws" is effective. The phone-example bullets and the four-laws labels both use parallel bold formatting, so Rule 10 is not triggered. The verdict is CLEAN.
+
+__how-to-create-a-good-habit.md is LIGHT POLISH. The closing paragraph at lines 63–65 lacks the required `---` separator before the final closing paragraph.
+
+__remote-work-checklist.md opens with a strong Biñan café story. The H2 "What lives in the bag" is functional for a checklist format.
+
+__remote-work-checklist.md is LIGHT POLISH. The closing paragraph at lines 70–72 lacks the required `---` separator before the final closing paragraph. The frontmatter description sounds human. The draft ends cleanly at line 74 with no doubled blank lines.
+
+__kewpie-mayo.md opens with a strong first-person voice. The heading "How we use it" uses "we" instead of "I," which may violate Rule 6. Household cooking contexts sometimes justify collective voice, so this is being weighed carefully.
+
+__kewpie-mayo.md is LIGHT POLISH. The closing paragraph at lines 69–70 lacks the required `---` separator before the final closing paragraph. Lines 69 and 70 are both closing paragraphs, creating a doubled close.
+
+Re-examining __kewpie-mayo.md shows doubled blank lines at lines 67–68 before the closing paragraph at line 69. This is a separate Rule 11 violation from the missing `---` separator.
+
+__kewpie-mayo.md is LIGHT POLISH. The "Worth it?" section contains a triple close: the verdict is restated in both the section body and the closing paragraph. The H2 "What's actually different" is flat. The H2 "The squeeze bottle is part of the point" carries good personality. The H2 "Where to find it" is flat. Food filler is absent. Descriptive adjectives such as "richer, eggier, tangier" are specific rather than generic.
+
+Auditing __worcestershire-sauce.md. The phrase "Delicious anyway" at line 43 is a food-blog filler word, violating Rule 1. The heading "Storage" is flat and manual, violating Rule 5. The closing paragraph at lines 72–74 lacks the required `---` separator before the final closing paragraph. The H2 "How we use it at home" uses "we" instead of "I," which may violate Rule 6. The verdict is LIGHT POLISH.
+
+__worcestershire-sauce.md is LIGHT POLISH. The closing paragraph at lines 72–74 lacks the required `---` separator before the final closing paragraph. Lines 70–71 contain doubled blank lines before that closing. The phrase "Delicious anyway" at line 43 is a food-blog filler word, violating Rule 1. The heading "Storage" is flat and manual, violating Rule 5. The verdict is LIGHT POLISH.
+
+Auditing __how-to-create-a-blog-template.md.
+
+__how-to-create-a-blog-template.md is CLEAN. It is intentionally short and serves as an internal reference; the first-person voice and personality-driven H2 are appropriate for this format. No violations were found.
+
+__jobs-to-be-don-framework.md is LIGHT POLISH. The meta description at line 4 is slightly bot-ish: "A plain-language walkthrough of the 
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "contextAfter": 1,
+  "glob": "__*.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "^\\s*$"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "^\\s*$",
+  "topFiles": [
+    {
+      "matchCount": 68,
+      "uri": "content/english/blog/__smart-plug.md"
+    },
+    {
+      "matchCount": 242,
+      "uri": "content/english/blog/__grade-1-better-than-kumon.md"
+    },
+    {
+      "matchCount": 106,
+      "uri": "content/english/blog/__why-git-greatest-open-source-innovation.md"
+    },
+    {
+      "matchCount": 142,
+      "uri": "content/english/blog/__why-brave-browser.md"
+    },
+    {
+      "matchCount": 56,
+      "uri": "content/english/blog/__second-cellphone.md"
+    },
+    {
+      "matchCount": 52,
+      "uri": "content/english/blog/__craft-prompt-framework.md"
+    },
+    {
+      "matchCount": 56,
+      "uri": "content/english/blog/__worcestershire-sauce.md"
+    },
+    {
+      "matchCount": 57,
+      "uri": "content/english/blog/__hugo-shortcodes.md"
+    },
+    {
+      "matchCount": 64,
+      "uri": "content/english/blog/__canon-g3000.md"
+    },
+    {
+      "matchCount": 70,
+      "uri": "content/english/blog/__shopee-tips.md"
+    },
+    {
+      "matchCount": 71,
+      "uri": "content/english/blog/__wifi-router.md"
+    },
+    {
+      "matchCount": 60,
+      "uri": "content/english/blog/__mi-box-s.md"
+    },
+    {
+      "matchCount": 44,
+      "uri": "content/english/blog/__immune-booster-supplements.md"
+    },
+    {
+      "matchCount": 72,
+      "uri": "content/english/blog/__mcgill-big-three.md"
+    },
+    {
+      "matchCount": 50,
+      "uri": "content/english/blog/__markdown-deep-dive.md"
+    },
+    {
+      "matchCount": 325,
+      "uri": "content/english/blog/__blog-template.md"
+    },
+    {
+      "matchCount": 42,
+      "uri": "content/english/blog/__how-to-create-a-good-habit.md"
+    },
+    {
+      "matchCount": 54,
+      "uri": "content/english/blog/__kewpie-mayo.md"
+    },
+    {
+      "matchCount": 58,
+      "uri": "content/english/blog/__rechargeable-batteries.md"
+    },
+    {
+      "matchCount": 36,
+      "uri": "content/english/blog/__remote-work-checklist.md"
+    }
+  ],
+  "totalFiles": 25,
+  "totalMatches": 1440
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "__{craft-prompt-framework,jobs-to-be-done,humanize-ai,hhow-to-create-a-good-habit,remote-work,kewpie,worcestershire,blog-template}*.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "^## "
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "^## ",
+  "topFiles": [
+    {
+      "matchCount": 4,
+      "uri": "content/english/blog/__craft-prompt-framework.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "content/english/blog/__worcestershire-sauce.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/blog/__blog-template.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "content/english/blog/__kewpie-mayo.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": "content/english/blog/__remote-work-checklist.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "content/english/blog/__jobs-to-be-done-framework.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "content/english/blog/__humanize-ai-articles.md"
+    }
+  ],
+  "totalFiles": 7,
+  "totalMatches": 30
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/voice-words.yaml</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Checking each file for missing `---` separators before closing paragraphs.
+
+`__craft-prompt-framework` closes without a `---` separator. `__kewpie-mayo` has doubled blank lines and a redundant closing paragraph. `__worcestershire-sauce` uses the banned filler word "Delicious" and a flat "Storage" heading. `__humanize-ai-articles` is fine.
+
+`__how-to-create-a-blog-template` is clean. `__remote-work-checklist` has four bolded "Longer trips" items that share identical noun-phrase shapes, violating the parallelism rule. `__kewpie-mayo` contains five bolded "How we use it" labels, another parallelism violation.
+
+`__worcestershire-sauce` repeats the same parallelism violation under "How we use it at home." `__craft-prompt-framework` lists four "Common failures" items that share identical noun-phrase shapes. `__habit-four-laws` repeats the pattern with four "Make it" opening phrases. `__humanize-ai-articles` quick fixes are fine. `__jobs-to-be-done` bullets show a different verb shape.
+
+`__jobs-to-be-done` bullets are mostly parallel, though the fourth item breaks the gerund pattern. Its question list is fine. Frontmatter checks are starting.
+
+`__jobs-to-be-done` description is borderline for marketing tone. `__humanize-ai-articles`, `__how-to-create-a-good-habit`, and `__remote-work-checklist` descriptions are fine. `__kewpie-mayo` description is being reviewed.
+
+`__kewpie-mayo` description follows a classic SEO triplet structure. `__worcestershire-sauce` description is fine. `__how-to-create-a-blog-template` description is acceptable for an internal document. `__kewpie-mayo` alternates between first-person "I" and third-person "we" and "us," creating inconsistent voice.
+
+`__worcestershire-sauce` also uses "we" in its "How we use it at home" section. `__craft-prompt-framework` line 44 and `__humanize-ai-articles` line 73 are acceptable. A final scan for double blank lines is still needed.
+
+`__craft-prompt-framework` has a double blank line before its closing paragraph at lines 86–88. `__jobs-to-be-done` actually has a `---` separator before its final line, so it does not violate that rule. The audit of `__how-to-create-a-good-habit` is now beginning.
+
+`__how-to-create-a-good-habit` ends with a double blank line and a missing `---` separator before its final paragraph. `__remote-work-checklist` correctly includes a `---` before its closing line. `__kewpie-mayo` repeats the same double blank and missing separator issues seen earlier. `__worcestershire-sauce` is now being checked.
+
+`__worcestershire-sauce` also has a double blank line and a missing `---` separator before its closing paragraph. `__humanize-ai-articles` ends cleanly with a `---` before its final line. `__craft-prompt-framework` repeats the same double blank and missing separator pattern.
+
+`__craft-prompt-framework` has triple blank lines before its closing paragraph. Its final two paragraphs restate the CRAFT acronym without a `---` separator. `__humanize-ai-articles` and `__how-to-create-a-good-habit` use natural, human phrasing. `__kewpie-mayo` uses understated humor.
+
+`__jobs-to-be-done` heading "Messaging shift" is too flat; "Same product, different hire" would be stronger. `__humanize-ai-articles` closing is solid. `__kewpie-mayo` price language is acceptable without amounts.
+
+No em dashes appear in the eight audited files. The "What CRAFT stands for" table is definitional and acceptable. The "One real anecdote per section" line in __humanize-ai-articles is editorial advice rather than fabricated content. Verdicts are being finalized.
+
+Final verdicts are set. `__jobs-to-be-done` receives LIGHT POLISH for its flat "Messaging shift" heading and a slightly guide-like description. `__how-to-create-a-good-habit` and `__remote-work-checklist` are LIGHT POLISH because of parallel "Make it" and "longer trips" bullets, plus missing `---` separators and doubled blanks. `__kewpie-mayo` and `__worcestershire-sauce` are LIGHT POLISH for repeated parallel "use it" bullets, redundant closings, and missing `---` separators. `__humanize-ai-articles` and `__how-to-create-a-blog-template` are CLEAN.
+
+Re-examining the audit criteria reveals deeper heading issues. The "What CRAFT stands for" H2 is too mechanical and should read "Five letters before I hit enter." The "Common failures" H2 should instead be "Where my prompts still break."
+
+`__jobs-to-be-done` line 58 uses the academic word "causality," which violates the plain-words rule. `__humanize-ai-articles` line 31 contains "Flat mid perplexity," an awkward phrasing that may be a typo.
+
+`__habit-four-laws` meta_title is a manual title-case listicle. `__remote-work-checklist` line 66 uses "portable adequacy," which is slightly fancy; "Good enough on the road" would be plainer. `__kewpie-mayo` meta_title is also listicle-style.
+
+`__kewpie-mayo` repeats its "Worth it?" question and answer inside a single section, then restates the conclusion afterward. `__worcestershire-sauce` closes twice in its "How we use it at home" section, though concisely. `__humanize-ai-articles` consistently uses first-person throughout. `__craft-prompt-framework` titles are acceptable. `__jobs-to-be-done` line 22 correctly uses first-person.
+
+`__how-to-create-a-good-habit` satisfies the slop rule by opening with
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+Checking file endings and a few borderline patterns.
+
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__craft-prompt-framework.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__kewpie-mayo.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__worcestershire-sauce.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__how-to-create-a-good-habit.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Reviewing __craft-prompt-framework.md.
+
+__craft-prompt-framework.md is structurally sound. Flat H2 headings and parallel bullets need tightening. A redundant closing paragraph restates the acronym.
+
+__kewpie-mayo.md has a double blank line before its closing paragraph. The closing lacks a preceding `---` separator.
+
+__worcestershire-sauce.md is next.
+
+__worcestershire-sauce.md has a double blank line before its closing paragraph. It also lacks `---` separators before closing paragraphs 72–74. The draft uses weak closing copy, a flat "Storage" heading, and parallel bullets.
+
+__how-to-create-a-good-habit.md is structurally sound. It has no double blank lines or missing `---` separators. The four "Make it" laws remain parallel.
+
+__jobs-to-be-done, __remote-work, and __humanize are all clean.
+
+__craft-prompt-framework.md gets a LIGHT POLISH verdict.
+
+__jobs-to-be-done has an academic tone ("plain-language walkthrough", "causality") and a flat "Messaging shift" heading. Its Mistakes section lists three gerunds in identical shape.
+
+__remote-work uses a long parallel bullet list and the awkward phrase "portable adequacy" at line 66.
+
+__kewpie-mayo.md and __worcestershire-sauce.md both use thin, listicle-style section intros in their "How we use it" sections. These lack the human, generic voice the guide demands for recipe variants.
+
+__humanize.md line 31 contains awkward prose: "Flat mid perplexity reads robotic," which likely means "Flat, middling perplexity." This should be flagged as unclear writing rather than AI tell.
+
+The quoted example at line 59 does not need flagging.
+
+__blog-template.md is being checked for issues.
+
+__blog-template.md is clean. The __jobs meta_title is slightly corporate but acceptable. __kewpie-mayo.md’s description line 4 uses a SEO triplet. The final report is ready.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="update_current_step"><details>
+<summary>Tool use: **update_current_step**</summary>
+An unknown error occurred
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Verifying __humanize, __remote, and __jobs for missed issues. Checking __craft Common failures for parallel pattern count.
+
+__how-to-create-a-blog-template is CLEAN. __habit violates the parallel pattern rule with four identical "**Make it" headers. __remote contains three consecutive bullet points about earphones, HDMI adapters, and paper notebooks.
+
+__remote also contains a fifth bold-label bullet about backup batteries. __kow and __worcestershire each list five items. __craft common failures lists four items with the same bare-word pattern. Now compiling the full report.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+Voice audit of the eight drafts against `jorap-voice` + `mouse-wheel-click.md` calibration. Quoted bad-AI examples in `__craft-prompt-framework.md` and `__humanize-ai-articles.md` are excluded per your note.
+
+---
+
+## `content/english/blog/__craft-prompt-framework.md`
+
+**Verdict: LIGHT POLISH**
+
+| Line | Quote | Rule | Suggested replacement |
+|------|-------|------|-------------------------|
+| 28 | `## What CRAFT stands for` | Flat/generic H2 (manual) | `## Five boxes before I hit enter` (from L91: "Five boxes. Fill them before you hit enter") |
+| 80 | `## Common failures` | Flat/generic H2 | `## Where my prompts still break` (from L82–85 failure list) |
+| 82–85 | Four bullets: `**Role without context** - …` / `**Action as a paragraph** - …` / `**Format omitted** - …` / `**Audience omitted** - …` | Parallel bold-label drone (4 same shape) | Merge to prose: "Role without context gets you 'You're an expert' with no situation. Action as a paragraph loses to numbered steps. Skip format and you get an essay instead of HTML. Skip audience and you get academic when you needed blog casual." |
+| 91 | `Context, Role, Action, Format, Target Audience. Five boxes. Fill them before you hit enter, and "good prompts" stop being luck.` | Summary sandwich / weak closing (restates acronym after full post) | Cut L91; end on L89: `CRAFT isn't bureaucracy. It's kindness to future-you - and to the model.` |
+
+**Clean:** First-person opener (L22 client newsletter), no dashes/currency, frontmatter reads human, "framework" only in title/slug (OK for CRAFT).
+
+---
+
+## `content/english/blog/__jobs-to-be-done-framework.md`
+
+**Verdict: LIGHT POLISH**
+
+| Line | Quote | Rule | Suggested replacement |
+|------|-------|------|-------------------------|
+| 4 | `A plain-language walkthrough of the Jobs to Be Done framework - with the questions I use before building anything.` | SEO-stuffed / bot-written `description` | `Features don't sell products. Jobs do. These are the JTBD questions I run before I spec anything.` |
+| 58 | `JTBD doesn't replace talking to people - it **focuses** the conversation on causality.` | Thesaurus / plain-words | `JTBD doesn't replace talking to people - it **focuses** the conversation on what actually triggered them to look today.` (from L30 trigger framing) |
+| 62 | `## Messaging shift` | Flat/generic H2 | `## Same product, different hire` (from L68: "Same product. Different hire.") |
+| 74–77 | `- Listing activities…` / `- Ignoring **doing nothing**…` / `- Treating the job as frozen…` | Parallel drone (3 gerund openers) | Reflow: "I still list activities instead of progress ('manage email' vs 'reply before the client panics'). I forget **doing nothing** is the biggest competitor. I treat the job as frozen when jobs shift after launch." Keep L77 as its own bullet (different shape). |
+
+**Clean:** Strong first-person throughout, no currency/dashes, closing question (L81–83) lands well, `---` before closing present (L79), framework name used appropriately.
+
+---
+
+## `content/english/blog/__humanize-ai-articles.md`
+
+**Verdict: CLEAN**
+
+No actionable violations. Negative examples at L41 ("When it comes to writing content…"), L59–59 (quoted AI draft), and L81 ("important to note that…") are correctly framed as warnings.
+
+**Clean:** First-person workflow (L73), specific before/after (L55–65), grounded close (L95–97), human H2s ("When I don't bother"), frontmatter sounds like the author, `---` before closing (L93).
+
+**Optional nit (not a rule break):** L31 `Flat mid perplexity reads robotic.` is grammatically awkward; could become `Flat, middling perplexity reads robotic.` - clarity only.
+
+---
+
+## `content/english/blog/__how-to-create-a-good-habit.md`
+
+**Verdict: LIGHT POLISH**
+
+| Line | Quote | Rule | Suggested replacement |
+|------|-------|------|-------------------------|
+| 30 | `**Make it obvious.** I don't "try to blog more."…` | Parallel bold-label drone | `**Obvious cue.** I don't "try to blog more." I open the Hugo draft folder after breakfast - same chair, same mug, same folder.` |
+| 32 | `**Make it attractive.** Podcast only on walks.…` | Same (4× "Make it") | `**Make the start feel worth it.** Podcast only on walks. Guitar on a stand, not in the case.` |
+| 34 | `**Make it easy.** "Write 20 minutes" not "finish the post."…` | Same | `**Shrink the first step.** "Write 20 minutes" not "finish the post." "Read one page" not "read thirty."` |
+| 36 | `**Make it satisfying.** Calendar X for days I showed up.…` | Same | `**Track the show-up, not the streak app.** Calendar X for days I showed up. Paper calendar on the wall I see when I get coffee.` |
+| 63–65 | `Good habits aren't character tests. They're **design problems** - cue, friction, reward.` + `Make the good thing obvious and easy. Make the bad thing invisible and annoying. Repeat until it's boring.` | Summary sandwich (L63–65 restates four laws + phone inversion already covered) | Cut L65; keep L63–64 only, or end on L59 (`Clear's line I keep in my notes…`). |
+
+**Clean:** First-person opener, honest friction ("collapse by Wednesday", L55), `---` before closing (L61), frontmatter fine, no dashes/currency.
+
+---
+
+## `content/english/blog/__remote-work-checklist.md`
+
+**Verdict: LIGHT POLISH**
+
+| Line | Quote | Rule | Suggested replacement |
+|------|-------|------|-------------------------|
+| 47–50 | `- **Earphones with a real mic** - …` / `- **HDMI adapter** - …` / `- **Paper notebook** - …` / `- **Backup battery** - …` | Parallel bold-label drone (4 same shape) | `- Earphones with a real mic - half the pairs I own sound fine to me and terrible on Meet.` then prose: `HDMI adapter for client TVs that still exist. Paper notebook when wifi dies. Backup battery only if I'm out all day with no reliable outlet.` |
+| 66 | `Remote days are portable adequacy, not duplicating the office.` | Plain words / thesaurus-ish | `Remote days are good-enough-on-the-road, not duplicating the office.` |
+
+**Clean:** Excellent lived opener (Biñan café, L24), first-person throughout, table column "Why I stopped leaving without it", honest close (forgot mouse mat, L70), frontmatter human, `---` before closing (L68).
+
+---
+
+## `content/english/blog/__kewpie-mayo.md`
+
+**Verdict: LIGHT POLISH**
+
+| Line | Quote | Rule | Suggested replacement |
+|------|-------|------|-------------------------|
+| 4 | `Here's what makes it different, how we use it, and whether it's worth the shelf space.` | SEO-stuffed `description` | `Kewpie isn't yellow mayo in a squeeze bottle. Richer, eggier, tangier - and the one we reach for when the mayo should taste like something.` |
+| 34 | `## How we use it` | Missing first-person voice (section is "we" not "I") | `## How I use it` (or keep "we" but add one I-line in the intro: `I reach for it most on sandwiches; we use it on sushi night too.`) |
+| 36–44 | Five blocks: `**Sandwiches and burgers.** The obvious lane.…` / `**Salad dressings.**…` / etc. | Parallel bold-label drone (5 same shape) | Pick 2–3 as prose, keep rest as list: `Sandwiches and burgers are the obvious lane - especially egg and chicken. For salad dressing I thin it with rice vinegar and soy. Sushi night: inside rolls, spicy mayo drizzle, sriracha when we want heat.` |
+| 67–69 | Double blank line, then extra closing paragraph | Doubled blank lines + missing `---` before final closing | Add `---` after L66. **Delete L69** (restates L18 opening and L64–66 "Worth it?" verdict). |
+| 69 | `Kewpie is the mayo upgrade I didn't know I wanted until I tried it on the right sandwich. Not essential for everyone. For our kitchen, it's a permanent resident in the fridge door.` | Summary sandwich / weak closing (third verdict after L64–66) | Delete (see above). L66 already closes: `Kewpie is the one I reach for when I want the mayo to actually taste like something.` |
+
+**Clean:** No food-blog filler ("delicious", "tantalize"), no currency (L58 uses relative "higher than generic"), good friction ("Ask me how I know", L52).
+
+---
+
+## `content/english/blog/__worcestershire-sauce.md`
+
+**Verdict: LIGHT POLISH**
+
+| Line | Quote | Rule | Suggested replacement |
+|------|-------|------|-------------------------|
+| 43 | `Not authentic anywhere. Delicious anyway.` | Generic food-blog filler ("Delicious") | `Not authentic anywhere. Still works.` or `Not authentic anywhere. Good anyway.` |
+| 55 | `## Storage` | Flat/generic H2 (product manual) | `## Pantry or fridge after opening` (from L57: "Pantry before opening… Refrigerate after opening") |
+| 35–43 | Five blocks: `**Marinades.** A splash…` / `**Burgers and meatballs.**…` / etc. | Parallel bold-label drone (5 same shape) | Same fix pattern as Kewpie: lead with marinades + burgers in prose, shorten the rest. |
+| 70–74 | Double blank before closing; no `---`; two tag-line closings | Doubled blank lines + missing `---` + weak/generic closing | Add `---` after L69. Keep L72 only (`…cheap fix with a long shelf life. Lee & Perrins is the bottle I trust to taste the same every time.`). **Delete L74** (`Worth a permanent spot next to the soy sauce.` - generic wrap-up; "permanent spot" already in meta L4). |
+
+**Clean:** Strong first-person opener (adobo marinade, L19), no currency ("cheap fix", L72), first person in most sections.
+
+---
+
+## `content/english/blog/__how-to-create-a-blog-template.md`
+
+**Verdict: CLEAN**
+
+Internal pointer post; length is appropriate per scope. First-person ("I keep it", "future-me", L19–21). H2 `Quick reminders (the parts I forget)` has personality. Frontmatter honestly labels it internal reference (L4). No AI tells, dashes, currency, or closings to fix.
+
+---
+
+## Summary table
+
+| File | Verdict |
+|------|---------|
+| `__craft-prompt-framework.md` | LIGHT POLISH |
+| `__jobs-to-be-done-framework.md` | LIGHT POLISH |
+| `__humanize-ai-articles.md` | CLEAN |
+| `__how-to-create-a-good-habit.md` | LIGHT POLISH |
+| `__remote-work-checklist.md` | LIGHT POLISH |
+| `__kewpie-mayo.md` | LIGHT POLISH |
+| `__worcestershire-sauce.md` | LIGHT POLISH |
+| `__how-to-create-a-blog-template.md` | CLEAN |
+
+**Cross-cutting:** None of the eight fail `pnpm lint:voice` or `pnpm lint:slop`. No em/en dashes or currency amounts found. Recurring fix pattern across the food and checklist drafts: **bold-label use lists** read like product manuals - vary into prose while keeping the same use cases already listed. Recurring structural fix: **extra closing paragraphs** after a section that already answered the question (Kewpie L69, Worcestershire L74, Habit L65, CRAFT L91).

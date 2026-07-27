@@ -1226,11 +1226,11 @@ Added a **Notes** collection to `static/admin/config.yml`. After deploy, `/admin
 
 The notes collection maps to `content/english/notes` and includes:
 
-- **Standard fields** - title, slug, meta title, description, date, image (defaults to `/images/note.jpg`), categories, author, tags, draft (defaults to `true` for new notes)
-- **Garden fields** - `aliases`, `featured`
-- **Flashcard fields** - `review`, `card_sets`, and `cards` (front/back); card fields only show when **Review deck** is checked
-- **Utility page fields** - optional `note_kind` (regular / index / meta) and `layout` (cards, graph, review, etc.)
-- **Body** - markdown with hints for `[[wikilinks]]` and the Note Relationships table
+- **Standard fields** — title, slug, meta title, description, date, image (defaults to `/images/note.jpg`), categories, author, tags, draft (defaults to `true` for new notes)
+- **Garden fields** — `aliases`, `featured`
+- **Flashcard fields** — `review`, `card_sets`, and `cards` (front/back); card fields only show when **Review deck** is checked
+- **Utility page fields** — optional `note_kind` (regular / index / meta) and `layout` (cards, graph, review, etc.)
+- **Body** — markdown with hints for `[[wikilinks]]` and the Note Relationships table
 
 Existing notes in the folder should load in the CMS as-is, including spine notes with flashcards and utility pages like Graph and Flashcards. New notes created in Sveltia will follow the same frontmatter shape as your archetypes.
 
@@ -1913,22 +1913,22 @@ pattern checks ok
 
 _**Agent (default)**_
 
-Shortcode support is wired up via Sveltia **editor components** - toolbar insert buttons, structured fields, and in-editor previews.
+Shortcode support is wired up via Sveltia **editor components** — toolbar insert buttons, structured fields, and in-editor previews.
 
 ### What changed
 
-1. **`static/admin/editor-components.js`** - registers Hugo shortcodes with `CMS.registerEditorComponent`:
+1. **`static/admin/editor-components.js`** — registers Hugo shortcodes with `CMS.registerEditorComponent`:
    - YouTube, YouTube clip (`youtube_time`)
    - Spotify track / artist
    - Image (Hugo `image` shortcode with caption, alt, position, webp, zoomable)
    - Notice (paired `notice` blocks)
    - Button, inline flashcard (`card`), table of contents (`toc`)
 
-2. **`static/admin/index.html`** - loads that script after the Sveltia bundle.
+2. **`static/admin/index.html`** — loads that script after the Sveltia bundle.
 
-3. **`static/admin/config.yml`** - blog and notes **Body** fields use the shortcode toolbar (`editor_components`).
+3. **`static/admin/config.yml`** — blog and notes **Body** fields use the shortcode toolbar (`editor_components`).
 
-4. **Admin CSP** (`static/_headers` + `functions/admin/_middleware.js`) - allows YouTube and Spotify iframes in previews.
+4. **Admin CSP** (`static/_headers` + `functions/admin/_middleware.js`) — allows YouTube and Spotify iframes in previews.
 
 ### How to use it
 
@@ -1936,12 +1936,12 @@ In `/admin/`, open a post or note body → click **Insert (+)** on the markdown 
 
 ### Limits (by design)
 
-- **No autodetect** - each shortcode is registered manually; Sveltia doesn’t scan `layouts/shortcodes/`.
+- **No autodetect** — each shortcode is registered manually; Sveltia doesn’t scan `layouts/shortcodes/`.
 - **Gallery / slider / mermaid** aren’t registered yet (more complex params). Say if you want those added.
-- **Wikilinks** (`[[Note Title]]`) stay plain markdown - no Hugo preview in the CMS.
+- **Wikilinks** (`[[Note Title]]`) stay plain markdown — no Hugo preview in the CMS.
 - **Re-saving a complex `image` shortcode** may drop rarely used attrs (height, command, etc.); common fields are preserved.
 
-After deploy, open a post with existing `{{< youtube ... >}}` embeds - they should show as editable blocks with live iframe previews.
+After deploy, open a post with existing `{{< youtube ... >}}` embeds — they should show as editable blocks with live iframe previews.
 
 ---
 
@@ -2417,13 +2417,13 @@ All **20 Hugo shortcodes** in the repo now have matching `jorap-*` Sveltia edito
 
 ### Customize here
 
-**`static/admin/jorap-shortcodes.js`** - the registry. Each entry has:
-- `id` - Sveltia toolbar id (`jorap-youtube`, etc.)
-- `label`, `icon`, `fields` - insert form
-- `pattern` / `fromBlock` / `toBlock` - read/write Hugo markdown
-- `toPreview` - in-editor preview HTML
+**`static/admin/jorap-shortcodes.js`** — the registry. Each entry has:
+- `id` — Sveltia toolbar id (`jorap-youtube`, etc.)
+- `label`, `icon`, `fields` — insert form
+- `pattern` / `fromBlock` / `toBlock` — read/write Hugo markdown
+- `toPreview` — in-editor preview HTML
 
-**`static/admin/editor-components.js`** - thin loader only; you shouldn’t need to touch it.
+**`static/admin/editor-components.js`** — thin loader only; you shouldn’t need to touch it.
 
 ### Full mapping (Hugo → jorap id → template source)
 
@@ -2458,9 +2458,9 @@ All **20 Hugo shortcodes** in the repo now have matching `jorap-*` Sveltia edito
 
 ### Notes
 
-- **Tabs** - one `jorap-tabs` block with a list of tab name + content; it emits the full `tabs`/`tab` nesting Hugo expects.
-- **Gallery/slider/mermaid** - preview is a placeholder (Hugo builds the real thing at publish).
-- **Paired shortcodes** (`notice`, `accordion`, `modal`, `mermaid`) - use opening/closing Hugo syntax; the CMS edits them as single blocks.
+- **Tabs** — one `jorap-tabs` block with a list of tab name + content; it emits the full `tabs`/`tab` nesting Hugo expects.
+- **Gallery/slider/mermaid** — preview is a placeholder (Hugo builds the real thing at publish).
+- **Paired shortcodes** (`notice`, `accordion`, `modal`, `mermaid`) — use opening/closing Hugo syntax; the CMS edits them as single blocks.
 - Admin CSP now allows **Vimeo** iframes for `jorap-vimeo-lite` previews.
 
 ---
@@ -2747,7 +2747,7 @@ Adding googlevideo.com to the admin CSP is unnecessary. The iframe has its own o
 
 _**Agent (default)**_
 
-YouTube **Error 153** means the embed can’t verify where it’s being loaded from. Sveltia renders previews in nested iframes, so the YouTube request often has **no Referer** - even when the site’s global policy is fine.
+YouTube **Error 153** means the embed can’t verify where it’s being loaded from. Sveltia renders previews in nested iframes, so the YouTube request often has **no Referer** — even when the site’s global policy is fine.
 
 ### Fixes applied
 
@@ -2762,6 +2762,6 @@ YouTube **Error 153** means the embed can’t verify where it’s being loaded f
 3. **Admin headers** (`_headers` + `_middleware.js`)
    - Explicit `Referrer-Policy: strict-origin-when-cross-origin` on `/admin/*`
 
-After deploy, hard-refresh `/admin/` and open a post with a YouTube block - the preview should load instead of Error 153.
+After deploy, hard-refresh `/admin/` and open a post with a YouTube block — the preview should load instead of Error 153.
 
 If it still fails locally on `localhost`, that’s expected sometimes; production at `https://www.jorap.com/admin/` is the real check since `origin` will match your live domain.

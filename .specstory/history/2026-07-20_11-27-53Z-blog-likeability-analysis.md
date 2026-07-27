@@ -371,7 +371,7 @@ Scored **60 posts** (24 published, 36 drafts) against the four pillars:
 | **Human** | "A person typed this." |
 | **Respectful** | "They didn't talk down to me." |
 
-**Respectful** passes almost everywhere - plain voice, no hype. The gaps are **Human** (most common) and **Honest** on reference hubs.
+**Respectful** passes almost everywhere — plain voice, no hype. The gaps are **Human** (most common) and **Honest** on reference hubs.
 
 ---
 
@@ -383,30 +383,30 @@ Scored **60 posts** (24 published, 36 drafts) against the four pillars:
 | **Mixed** | 10 (42%) | 13 (36%) | **23** |
 | **Weak / stub** | 2 (8%) | 1 (3%) | **3** |
 
-Drafts score higher on average - recent work already runs the seven passes. Published posts from earlier eras lean more essay/listicle in the middle.
+Drafts score higher on average — recent work already runs the seven passes. Published posts from earlier eras lean more essay/listicle in the middle.
 
 ---
 
-## Published - Strong (12)
+## Published — Strong (12)
 
 These hit all four pillars. Personal pick or story above the fold, friction somewhere, scenes with names/places/durations, close on what you'd actually do.
 
-- `what-i-look-for-in-wireless-earphones` - gold standard gear review
-- `extension-cord` - gold standard short gear pick
-- `mouse-wheel-click` - tip post done right
-- `why-i-stopped-playing-marvel-snap` - quit story with conviction
-- `how-i-built-jorap-notes` - build log with "things that broke"
-- `drupal-to-wordpress` - career essay with midnight migrations
-- `getting-started-with-rss-feeds` - useful system + honest "RSS isn't exciting"
-- `static-site-vs-cms` - fit check with neighbor-broke-build scene
-- `one-page-zine` - craft post with limits admitted
-- `hanamikoji-duopoly-retheme` - hobby deep-dive with tradeoffs
-- `worship-pads-solo-guitar` - setup guide with first-Sunday near-disasters
-- `miracle-isaiah-david` - faith testimony, scene in every section
+- `what-i-look-for-in-wireless-earphones` — gold standard gear review
+- `extension-cord` — gold standard short gear pick
+- `mouse-wheel-click` — tip post done right
+- `why-i-stopped-playing-marvel-snap` — quit story with conviction
+- `how-i-built-jorap-notes` — build log with "things that broke"
+- `drupal-to-wordpress` — career essay with midnight migrations
+- `getting-started-with-rss-feeds` — useful system + honest "RSS isn't exciting"
+- `static-site-vs-cms` — fit check with neighbor-broke-build scene
+- `one-page-zine` — craft post with limits admitted
+- `hanamikoji-duopoly-retheme` — hobby deep-dive with tradeoffs
+- `worship-pads-solo-guitar` — setup guide with first-Sunday near-disasters
+- `miracle-isaiah-david` — faith testimony, scene in every section
 
 ---
 
-## Published - Mixed (10)
+## Published — Mixed (10)
 
 Useful and respectful; **Human** is what fails. One-line fix: **one failure, surprise, or skip per H2** (jorap-voice slop gate "one failure rule").
 
@@ -427,20 +427,20 @@ Useful and respectful; **Human** is what fails. One-line fix: **one failure, sur
 
 ---
 
-## Published - Weak (2)
+## Published — Weak (2)
 
-Intentional **reference hubs** - high utility for the right reader, low likability after the intro.
+Intentional **reference hubs** — high utility for the right reader, low likability after the intro.
 
 | Post | Passes | Fails |
 |------|--------|-------|
-| `alex-eala-pro-career-tracker` | Useful, Respectful | Honest, Human - stats scrapbook after a good opener |
-| `dnpap-song-resources` | Useful, Respectful | Honest, Human - COVID recording scene in ¶1, then embeds only |
+| `alex-eala-pro-career-tracker` | Useful, Respectful | Honest, Human — stats scrapbook after a good opener |
+| `dnpap-song-resources` | Useful, Respectful | Honest, Human — COVID recording scene in ¶1, then embeds only |
 
 **Options:** add thin editorial glue ("this match still pins," "we use studio not live because…") or accept these as utility pages outside the likability bar.
 
 ---
 
-## Drafts - Ready (22)
+## Drafts — Ready (22)
 
 Publish-ready after normal lint/voice passes. Strong clusters:
 
@@ -452,13 +452,13 @@ Publish-ready after normal lint/voice passes. Strong clusters:
 
 ---
 
-## Drafts - Needs polish (13)
+## Drafts — Needs polish (13)
 
-Same **Human** gap as published Mixed posts - sections pass the swap test (could run on any blog about the topic).
+Same **Human** gap as published Mixed posts — sections pass the swap test (could run on any blog about the topic).
 
 | Post | Issue |
 |------|-------|
-| `__wifi-router` | Outline - criteria bullets, no scene per H2 (model: `extension-cord`) |
+| `__wifi-router` | Outline — criteria bullets, no scene per H2 (model: `extension-cord`) |
 | `__tailwind-css-v4`, `__markdown-formatting` | Tutorial middle reads generic |
 | `__jorap-notes-features` | Feature tables without lived setup friction |
 | `__sveltia-cms` | Hypothetical pastor, no real rollout |
@@ -466,13 +466,13 @@ Same **Human** gap as published Mixed posts - sections pass the swap test (could
 | `__mcgill-big-three` | Instructional exercises + 3-link Further reading (slop warn) |
 | `__kewpie-mayo`, `__worcestershire-sauce` | Usage bullets need one food scene each |
 | `__craft-prompt-framework`, `__native-hugo-taxonomies` | Framework explainer, thin scenes |
-| `__interesting-facts-about-jorap` | Meta tables - fine as index, weak as essay |
+| `__interesting-facts-about-jorap` | Meta tables — fine as index, weak as essay |
 
 ---
 
-## Drafts - Not ready (1)
+## Drafts — Not ready (1)
 
-`__how-to-create-a-blog-template` - intentional stub/pointer, not a post.
+`__how-to-create-a-blog-template` — intentional stub/pointer, not a post.
 
 ---
 
@@ -503,17 +503,17 @@ quadrantChart
 | "Things that broke" sections | Reference tables without editorial glue |
 | Gear with drawer graveyard | Framework steps without a real Tuesday |
 
-**Honest** and **Respectful** rarely fail - voice stays plain even when thin.
+**Honest** and **Respectful** rarely fail — voice stays plain even when thin.
 
 ---
 
 ## Highest-leverage fixes
 
-1. **10 published Mixed posts** - one scene/failure per H2; no full rewrites
-2. **3 recipe posts** - keep steps scannable; add one human line per major section
-3. **2 reference hubs** - decide: add editorial glue or accept as utility
-4. **13 draft Mixed posts** - same one-failure rule before `draft: false`
-5. **`__wifi-router`** - expand from outline using `extension-cord` as the shape
+1. **10 published Mixed posts** — one scene/failure per H2; no full rewrites
+2. **3 recipe posts** — keep steps scannable; add one human line per major section
+3. **2 reference hubs** — decide: add editorial glue or accept as utility
+4. **13 draft Mixed posts** — same one-failure rule before `draft: false`
+5. **`__wifi-router`** — expand from outline using `extension-cord` as the shape
 
 ---
 
@@ -659,7 +659,7 @@ The final post, consistent-ai-output-wordpress-builds, will get four lived momen
 
 _**Agent (auto-low)**_
 
-Adding one lived beat per thin H2 across all 10 posts - minimal lines, no full rewrites.
+Adding one lived beat per thin H2 across all 10 posts — minimal lines, no full rewrites.
 
 
 _**Agent (auto-low)**_
@@ -1010,22 +1010,22 @@ _**Agent (auto-low)**_
 Patched all **10 published Mixed posts** with the one-failure rule: one lived scene, mistake, or skip per thin H2. Lints pass.
 
 ### Recipes (3)
-- **`instant-pot-chicken-adobo`** - overnight marinade forget, burn-notice flinch, sauce glued at 12 min, crisping splatter
-- **`instant-pot-arroz-caldo`** - powdered ginger fail, gummy rice clump, Vent knob left open, over-thinned soup
-- **`set-it-forget-it-arroz-caldo`** - Friday ginger smell with kids awake, couch nap, first-bowl taste test
+- **`instant-pot-chicken-adobo`** — overnight marinade forget, burn-notice flinch, sauce glued at 12 min, crisping splatter
+- **`instant-pot-arroz-caldo`** — powdered ginger fail, gummy rice clump, Vent knob left open, over-thinned soup
+- **`set-it-forget-it-arroz-caldo`** — Friday ginger smell with kids awake, couch nap, first-bowl taste test
 
 ### Essays (4)
-- **`why-keep-desktop-laptop`** - hot `hugo` on phone, payroll spreadsheet on phone, four-app Tuesday, SSD swap, Shopee checkout on mobile, movie-on-face fail
-- **`why-run-your-own-website`** - lost hosting tied to platform risk, extension-cord search traffic, Drupal essay analytics surprise, Alex Eala tracker monthly upkeep
-- **`why-i-focused-on-open-source`** - Hugo nil-check fix, drawer of dead plugins, Cloudflare Node pin
-- **`sustainable-online-publishing`** - lost Facebook scope thread, almost-joke domain, first deploy with broken favicon
+- **`why-keep-desktop-laptop`** — hot `hugo` on phone, payroll spreadsheet on phone, four-app Tuesday, SSD swap, Shopee checkout on mobile, movie-on-face fail
+- **`why-run-your-own-website`** — lost hosting tied to platform risk, extension-cord search traffic, Drupal essay analytics surprise, Alex Eala tracker monthly upkeep
+- **`why-i-focused-on-open-source`** — Hugo nil-check fix, drawer of dead plugins, Cloudflare Node pin
+- **`sustainable-online-publishing`** — lost Facebook scope thread, almost-joke domain, first deploy with broken favicon
 
 ### Tips / reference (3)
-- **`facebook-favorites-feed`** - accidental discovery, Sunday morning scroll session, buried menu
-- **`hugoplate-theme-review`** - dark mode broke from one `@theme` typo, nested bold broke `notice` shortcode
-- **`consistent-ai-output-wordpress-builds`** - Tuesday/Thursday card drift, helper naming chaos, testimonial without reference file, unescaped client name
+- **`facebook-favorites-feed`** — accidental discovery, Sunday morning scroll session, buried menu
+- **`hugoplate-theme-review`** — dark mode broke from one `@theme` typo, nested bold broke `notice` shortcode
+- **`consistent-ai-output-wordpress-builds`** — Tuesday/Thursday card drift, helper naming chaos, testimonial without reference file, unescaped client name
 
-All 10 should now clear the **Human** pillar on the likability lens. The 2 **Weak** published posts (`alex-eala-pro-career-tracker`, `dnpap-song-resources`) were left alone - they're reference hubs by design.
+All 10 should now clear the **Human** pillar on the likability lens. The 2 **Weak** published posts (`alex-eala-pro-career-tracker`, `dnpap-song-resources`) were left alone — they're reference hubs by design.
 
 Want those two touched next, or a commit?
 
@@ -1042,7 +1042,7 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The user selected option 2. I'll patch the two Weak published posts.
 
-The two posts are alex-eala-pro-career-tracker and dnpap-song-resources. I'll add thin editorial glue to each-why you bookmark this version, recording day friction, and "this match still pins" lines per major block-while keeping them as reference hubs. I need to read both files fully first.
+The two posts are alex-eala-pro-career-tracker and dnpap-song-resources. I'll add thin editorial glue to each—why you bookmark this version, recording day friction, and "this match still pins" lines per major block—while keeping them as reference hubs. I need to read both files fully first.
 </details></think>
 
 _**Agent (auto-low)**_
@@ -1240,7 +1240,7 @@ The intro only mentions Pia tracking her vocal during COVID. It does not mention
 
 _**Agent (auto-low)**_
 
-Removing an unverified detail from DNPAP - keeping only facts from the intro.
+Removing an unverified detail from DNPAP — keeping only facts from the intro.
 
 
 _**Agent (auto-low)**_
@@ -1279,24 +1279,24 @@ Everything looks good.
 
 _**Agent (auto-low)**_
 
-Both Weak reference hubs now have thin editorial glue - still utility pages, but with a person behind the data.
+Both Weak reference hubs now have thin editorial glue — still utility pages, but with a person behind the data.
 
 ### `dnpap-song-resources`
-- **Artist** - why this Destiny Music track got bookmarked (church kept requesting it)
-- **Where to listen** - studio vs live pick, tied to the COVID remote session from the intro
-- **Quick links** - honest note that embeds fail on slow hotel Wi-Fi; direct links still work
+- **Artist** — why this Destiny Music track got bookmarked (church kept requesting it)
+- **Where to listen** — studio vs live pick, tied to the COVID remote session from the intro
+- **Quick links** — honest note that embeds fail on slow hotel Wi-Fi; direct links still work
 
 ### `alex-eala-pro-career-tracker`
 One editorial line per major H2:
-- **At a glance** - the 2am Twitter refresh set
-- **Player Profile** - WTA vs Tennis.com during Slams
-- **WTA Rankings** - lag + screenshot the career-high moment
-- **Best Performances** - week-to-week grind vs Slam section
-- **Grand Slam** - Wimbledon 2026 Swiatek run, rewatched twice before updating
-- **vs Grand Slam champions** - why the section exists (Miami 2025); double-check before tweeting
-- **vs Other Top 20** - draw-drop watch list
-- **Matches to Watch** - Andreeva junior US Open connection
+- **At a glance** — the 2am Twitter refresh set
+- **Player Profile** — WTA vs Tennis.com during Slams
+- **WTA Rankings** — lag + screenshot the career-high moment
+- **Best Performances** — week-to-week grind vs Slam section
+- **Grand Slam** — Wimbledon 2026 Swiatek run, rewatched twice before updating
+- **vs Grand Slam champions** — why the section exists (Miami 2025); double-check before tweeting
+- **vs Other Top 20** — draw-drop watch list
+- **Matches to Watch** — Andreeva junior US Open connection
 
-Lints pass. All **24 published posts** should now hit the likability lens - reference hubs included, without turning them into essays.
+Lints pass. All **24 published posts** should now hit the likability lens — reference hubs included, without turning them into essays.
 
 Want a commit for all 12 files?

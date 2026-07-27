@@ -2831,11 +2831,11 @@ The search is complete. I am ready to compile the full report.
 
 _**Agent (default)**_
 
-# Weekly Review & Daily Notes - Codebase Audit
+# Weekly Review & Daily Notes — Codebase Audit
 
 Routes served today:
-- **`/notes/review/`** - `content/english/notes/review.md` (`layout: "review"`) + `layouts/notes/review.html`
-- **`/notes/daily/`** - `content/english/notes/daily/_index.md` + `layouts/notes/daily/list.html`
+- **`/notes/review/`** — `content/english/notes/review.md` (`layout: "review"`) + `layouts/notes/review.html`
+- **`/notes/daily/`** — `content/english/notes/daily/_index.md` + `layouts/notes/daily/list.html`
 
 No dated daily note files exist yet (only `daily/_index.md`). Main nav (`config/_default/menus.en.toml`) links only to `/notes`, not review/daily.
 
@@ -2843,7 +2843,7 @@ No dated daily note files exist yet (only `daily/_index.md`). Main nav (`config/
 
 ## Concept notes vs feature pages
 
-These are **PKM concept pages** - keep unless you are removing the ideas themselves:
+These are **PKM concept pages** — keep unless you are removing the ideas themselves:
 
 | File | Role |
 |------|------|
@@ -2889,14 +2889,14 @@ These are **PKM concept pages** - keep unless you are removing the ideas themsel
 | `layouts/notes/single.html` | Remove `note_kind: daily` branch and “Daily note” label (lines 29–31). Optionally remove “Last reviewed” + status badge if retiring lifecycle UI. |
 | `layouts/_partials/notes/lint-unlinked-mentions.html` | Remove `note_kind == "daily"` skip (lines 12–14) if no daily notes. |
 | `layouts/_partials/notes/recent-updated.html` | Remove stale indicator (lines 17–19) if removing stale tracking. |
-| `layouts/_partials/notes/note-meta.html` | Core stale/inbox logic - keep if `/notes/` filters and badges stay; delete or simplify if removing lifecycle entirely. |
-| `layouts/_partials/notes/status-badge.html` | Same - keep or remove with status system. |
+| `layouts/_partials/notes/note-meta.html` | Core stale/inbox logic — keep if `/notes/` filters and badges stay; delete or simplify if removing lifecycle entirely. |
+| `layouts/_partials/notes/status-badge.html` | Same — keep or remove with status system. |
 
 ### Config
 
 | Path | What to change |
 |------|----------------|
-| `config/_default/params.toml` | `stale_days = 90` (line 42) - remove if stale tracking goes away. No other review/daily config found. |
+| `config/_default/params.toml` | `stale_days = 90` (line 42) — remove if stale tracking goes away. No other review/daily config found. |
 
 ### CSS
 
@@ -2908,9 +2908,9 @@ These are **PKM concept pages** - keep unless you are removing the ideas themsel
 
 | Path | What to change |
 |------|----------------|
-| `assets/js/notes-list.js` | Stale/inbox filter logic (lines 19–23) - keep or remove with status filters. |
-| `assets/js/notes-graph.js` | No review/daily-specific code - **no change**. |
-| `assets/js/wikilink-preview.js` | Unrelated - **no change**. |
+| `assets/js/notes-list.js` | Stale/inbox filter logic (lines 19–23) — keep or remove with status filters. |
+| `assets/js/notes-graph.js` | No review/daily-specific code — **no change**. |
+| `assets/js/wikilink-preview.js` | Unrelated — **no change**. |
 
 ### Scripts
 
@@ -2918,9 +2918,9 @@ These are **PKM concept pages** - keep unless you are removing the ideas themsel
 |------|----------------|
 | `scripts/wire-notes-obsidian.py` | `is_linkable()`: remove `layout == "review"` and `note_kind == "daily"` exclusions (lines 457–460). Keep `daily-notes` / `weekly-review-checklists` in MOC clusters (concept notes). |
 | `scripts/enrich-evergreen-notes.py` | Keep `daily-notes` / `weekly-review-checklists` entries (concept copy). Update `digital-serendipity` blurb if “review queues” referred to `/notes/review/`. |
-| `scripts/jorap-voice-notes.py` | Same - concept note voice strings; no feature-specific code. |
-| `scripts/apply-tag-updates.py` | `weekly-review-checklists` tag mapping - keep (concept note). |
-| `scripts/import-from-obsidian.py` | No daily/review logic - **no change**. |
+| `scripts/jorap-voice-notes.py` | Same — concept note voice strings; no feature-specific code. |
+| `scripts/apply-tag-updates.py` | `weekly-review-checklists` tag mapping — keep (concept note). |
+| `scripts/import-from-obsidian.py` | No daily/review logic — **no change**. |
 
 ### Archetypes (if keeping status on evergreen notes)
 
@@ -2932,7 +2932,7 @@ These are **PKM concept pages** - keep unless you are removing the ideas themsel
 
 | Path | What to change |
 |------|----------------|
-| `config/_default/menus.en.toml` | **No changes needed** - no review/daily menu entries. |
+| `config/_default/menus.en.toml` | **No changes needed** — no review/daily menu entries. |
 
 ---
 
@@ -2948,26 +2948,26 @@ These are **PKM concept pages** - keep unless you are removing the ideas themsel
 
 | Path | Issue |
 |------|-------|
-| `content/english/notes/daily/_index.md` | Deleted with feature - N/A after removal. |
-| `content/english/notes/review.md` | Deleted with feature - N/A after removal. |
-| `content/english/notes/digital-serendipity.md` | “review queues” (line 18) - reword if that meant the `/notes/review/` page. |
+| `content/english/notes/daily/_index.md` | Deleted with feature — N/A after removal. |
+| `content/english/notes/review.md` | Deleted with feature — N/A after removal. |
+| `content/english/notes/digital-serendipity.md` | “review queues” (line 18) — reword if that meant the `/notes/review/` page. |
 | `scripts/enrich-evergreen-notes.py` | Same “review queues” string for `digital-serendipity`. |
 
 ### Low priority / likely fine as-is
 
-These link to **concept notes** (`[[Daily Notes]]` → `daily-notes.md`, `[[Weekly Review Checklists]]`, etc.) or use “weekly review” / “inbox” as PKM vocabulary - no route changes needed:
+These link to **concept notes** (`[[Daily Notes]]` → `daily-notes.md`, `[[Weekly Review Checklists]]`, etc.) or use “weekly review” / “inbox” as PKM vocabulary — no route changes needed:
 
 - `bullet-journaling.md`, `digital-minimalism.md`, `interstitial-journaling.md`, `evergreen-vs-fleeting-notes.md`, `process-over-outcomes.md`, `the-trusted-inbox.md`, `maps-of-content.md`, `minimum-effective-dose.md`
 - `capture.md`, `mobile-capture-workflows.md`, `analog-capture-tools.md`, `the-second-brain-workflow.md`
-- `content/english/blog/__obsidian-vs-hugo.md` - mentions Obsidian “daily notes” (tool feature, not Hugo route)
+- `content/english/blog/__obsidian-vs-hugo.md` — mentions Obsidian “daily notes” (tool feature, not Hugo route)
 
 After deleting `daily/_index.md`, `[[Daily Notes]]` wikilinks in the above files should resolve to `daily-notes.md` without edits.
 
 ---
 
-## Shared infrastructure (not feature-specific - decide separately)
+## Shared infrastructure (not feature-specific — decide separately)
 
-These support **status badges, inbox/stale filters on `/notes/`**, and `last_reviewed` on note singles - usable without the review/daily pages:
+These support **status badges, inbox/stale filters on `/notes/`**, and `last_reviewed` on note singles — usable without the review/daily pages:
 
 | Component | Path |
 |-----------|------|
@@ -2992,9 +2992,9 @@ If you remove **only** the review page and daily archive, this can stay. If you 
 | `note_kind: daily` | `archetypes/notes/daily.md`, `daily/list.html`, `single.html`, `lint-unlinked-mentions.html`, `wire-notes-obsidian.py` |
 | `status: inbox` | `archetypes/notes/daily.md`, `getting-started.md`, `review.html` (display only) |
 | `stale_days` | `params.toml`, `note-meta.html`, `review.html` |
-| `daily-notes` (slug) | Concept note + scripts - **keep** |
-| `weekly-review-checklists` | Concept note + scripts - **keep** |
-| `getting-started.md` | Heaviest feature documentation - **must update** |
+| `daily-notes` (slug) | Concept note + scripts — **keep** |
+| `weekly-review-checklists` | Concept note + scripts — **keep** |
+| `getting-started.md` | Heaviest feature documentation — **must update** |
 
 ---
 

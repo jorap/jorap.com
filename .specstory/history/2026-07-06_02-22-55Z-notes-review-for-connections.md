@@ -897,7 +897,7 @@ _**Agent (auto-low)**_
 
 _**Agent (auto-low)**_
 
-I'll run a systematic analysis across all notes-relationships, wikilinks, and tag overlap-to surface connection gaps.
+I'll run a systematic analysis across all notes—relationships, wikilinks, and tag overlap—to surface connection gaps.
 
 
 _**Agent (auto-low)**_
@@ -2111,7 +2111,7 @@ _**Agent (auto-low)**_
 
 ## Garden health
 
-**222 atomic notes**, Hugo lint clean - **0 broken wikilinks**, **0 unlinked mentions**.
+**222 atomic notes**, Hugo lint clean — **0 broken wikilinks**, **0 unlinked mentions**.
 
 The graph is structurally sound. What's left is **semantic wiring**: typed `relationships` rows and MOC entries where ideas already meet in prose but aren't named in frontmatter.
 
@@ -2128,14 +2128,14 @@ The four notes added/updated in the last session are well linked **to each other
 | Influence Without Title | 5 | 2 |
 | Title Without Influence | 5 | 2 |
 
-The two pole notes (`Influence Without Title`, `Title Without Influence`) are still **thin on inbound** - only the influence hub and each other point at them. The hub `Leadership` links to `Leadership Is Influence` but **not** to its two children.
+The two pole notes (`Influence Without Title`, `Title Without Influence`) are still **thin on inbound** — only the influence hub and each other point at them. The hub `Leadership` links to `Leadership Is Influence` but **not** to its two children.
 
 **Gaps in the influence cluster:**
 
 | From | To | Suggested type | Why |
 |------|-----|----------------|-----|
 | **Leadership** | Influence Without Title | `extends` | Hub should name both poles of the influence test |
-| **Leadership** | Title Without Influence | `extends` | Same - direction/pace/care needs followership |
+| **Leadership** | Title Without Influence | `extends` | Same — direction/pace/care needs followership |
 | **Workplace Principles** (body) | Influence Without Title, Title Without Influence | MOC bullets | Leadership section lists `Leadership Is Influence` but not its two proofs |
 | **Discipleship vs Leadership** | Ethical Leadership | `extends` | Two seats includes how you spend influence outward |
 | **Discipleship vs Leadership** | Free Grace | `extends` | Already wikilinked in key_concept, no relationship row |
@@ -2147,7 +2147,7 @@ The two pole notes (`Influence Without Title`, `Title Without Influence`) are st
 
 ---
 
-## Tier 1 - wikilink already in key_concept, no relationship row
+## Tier 1 — wikilink already in key_concept, no relationship row
 
 These are the clearest misses: the prose already points at the target; frontmatter just hasn't caught up. **104 total** across the garden. Highest-value subset:
 
@@ -2168,7 +2168,7 @@ These are the clearest misses: the prose already points at the target; frontmatt
 
 ---
 
-## Tier 2 - high tag overlap, zero links (leadership subset)
+## Tier 2 — high tag overlap, zero links (leadership subset)
 
 Pairs sharing 3+ tags with no wikilink or relationship in either direction:
 
@@ -2180,26 +2180,26 @@ Pairs sharing 3+ tags with no wikilink or relationship in either direction:
 | Golden Rule at Work ↔ Outcomes Over Pitch Decks | 4 |
 | Integrity Without an Audience ↔ Plain Commitments at Work | 4 |
 
-These aren't all mandatory - some overlap is thematic, not conceptual. The **DvL ↔ Success is Stewardship** and **Follow Christ ↔ Success is Stewardship** pairs are the strongest candidates.
+These aren't all mandatory — some overlap is thematic, not conceptual. The **DvL ↔ Success is Stewardship** and **Follow Christ ↔ Success is Stewardship** pairs are the strongest candidates.
 
 ---
 
-## Tier 3 - thin inbound (leadership notes)
+## Tier 3 — thin inbound (leadership notes)
 
 Notes with ≤1 inbound link (relationship + key_concept wikilinks):
 
-- **Reconcile Before the Review** - 0 inbound typed links (only listed on Workplace Principles MOC body)
-- **Coaching Ethics**, **Execution**, **Golden Rule at Work**, **Situational Control** - 1 inbound each
+- **Reconcile Before the Review** — 0 inbound typed links (only listed on Workplace Principles MOC body)
+- **Coaching Ethics**, **Execution**, **Golden Rule at Work**, **Situational Control** — 1 inbound each
 
 **Reconcile Before the Review** is the standout orphan. Natural additions:
 - **Forgiveness at Work** → Reconcile Before the Review (`extends`)
-- **Outcomes Over Pitch Decks** → Reconcile Before the Review (`contradicts` - judge performance before fixing trust)
+- **Outcomes Over Pitch Decks** → Reconcile Before the Review (`contradicts` — judge performance before fixing trust)
 
 ---
 
-## Tier 4 - one-way links worth reciprocating (leadership sample)
+## Tier 4 — one-way links worth reciprocating (leadership sample)
 
-Not every one-way link needs a return - but these 205 one-way edges include patterns worth closing:
+Not every one-way link needs a return — but these 205 one-way edges include patterns worth closing:
 
 - **Ethical Leadership** → Servant Leadership (no return)
 - **Accountability** → Servant Leadership (no return)
@@ -3738,7 +3738,7 @@ WARN  unlinked mention of "Discipleship" (→ [[Discipleship]]) in notes/christi
 
 _**Agent (auto-low)**_
 
-One unlinked mention surfaced in `christianity-and-politics.md` - fixing it now.
+One unlinked mention surfaced in `christianity-and-politics.md` — fixing it now.
 
 
 _**Agent (auto-low)**_
@@ -3819,10 +3819,10 @@ Largest single-file adds: **Fruits of the Spirit** (+8), **Christianity and Poli
 ## Lint
 
 - **Hugo link lint:** clean (0 broken wikilinks, 0 unlinked mentions)
-- Fixed one side effect: `christianity-and-politics.md` relationship reason rephrased - bare "Discipleship" in the reason text triggered an unlinked-mention warning
+- Fixed one side effect: `christianity-and-politics.md` relationship reason rephrased — bare "Discipleship" in the reason text triggered an unlinked-mention warning
 
 ## Script
 
-Added `scripts/add-kc-relationships.py` - idempotent (skips rows that already exist). Safe to delete if you don't want it in the repo.
+Added `scripts/add-kc-relationships.py` — idempotent (skips rows that already exist). Safe to delete if you don't want it in the repo.
 
-`lint:garden` still reports **10 pre-existing** `shareable_thought` issues on other notes - unrelated to this batch. I can fix those next if you want.
+`lint:garden` still reports **10 pre-existing** `shareable_thought` issues on other notes — unrelated to this batch. I can fix those next if you want.

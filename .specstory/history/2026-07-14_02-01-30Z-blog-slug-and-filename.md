@@ -1981,7 +1981,7 @@ Each changed URL keeps an `aliases` entry for the old path, so existing links an
 
 ### Already good (24 published + 26 drafts)
 
-Posts like `extension-cord`, `hanamikoji-duopoly-retheme`, `how-i-built-jorap-notes`, and the rest already had matching slug/filename pairs under 40 characters - left as-is.
+Posts like `extension-cord`, `hanamikoji-duopoly-retheme`, `how-i-built-jorap-notes`, and the rest already had matching slug/filename pairs under 40 characters — left as-is.
 
 ### Also done
 

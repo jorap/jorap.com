@@ -161,10 +161,10 @@ _**Agent (auto-low)**_
 
 Done. I removed or rephrased every mention that Hugo, GitHub, or Cloudflare Pages are free:
 
-- **Frontmatter** - title, meta title, description, and the "Free Hosting" tag
-- **Stack intro** - "all free" dropped
-- **Cloudflare section** - no "free forever" or "haven't paid them a cent"
-- **What it costs me** - reframed around dropping the $12/month bill and paying only for a domain
-- **Closing** - removed "and free" and "Pretty hard to argue with free"
+- **Frontmatter** — title, meta title, description, and the "Free Hosting" tag
+- **Stack intro** — "all free" dropped
+- **Cloudflare section** — no "free forever" or "haven't paid them a cent"
+- **What it costs me** — reframed around dropping the $12/month bill and paying only for a domain
+- **Closing** — removed "and free" and "Pretty hard to argue with free"
 
-The old $12/month PHP hosting comparison stays, since that's about what you used to pay, not what the new stack costs. The `related_notes` link to `free-tier-hosting-stack` is unchanged - that's a note slug, not prose about pricing.
+The old $12/month PHP hosting comparison stays, since that's about what you used to pay, not what the new stack costs. The `related_notes` link to `free-tier-hosting-stack` is unchanged — that's a note slug, not prose about pricing.

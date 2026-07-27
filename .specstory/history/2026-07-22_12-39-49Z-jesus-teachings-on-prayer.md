@@ -483,38 +483,38 @@ Your garden already splits this cleanly into two lanes: **what Jesus taught abou
 
 These are the main blocks where He talks *to disciples* about how, when, or why to pray.
 
-### Sermon on the Mount (Matthew 5–7) - the core teaching block
+### Sermon on the Mount (Matthew 5–7) — the core teaching block
 
 | Passage | What He says |
 |---------|----------------|
 | **Matthew 6:5–8** | Don't pray for applause like hypocrites; pray in secret. Your garden note: [[Secret Devotion]]. |
-| **Matthew 6:9–13** | The Lord's Prayer - Father's name, kingdom, will first, then daily bread and forgiveness. Your garden note: [[Ask Seek Knock]]. |
+| **Matthew 6:9–13** | The Lord's Prayer — Father's name, kingdom, will first, then daily bread and forgiveness. Your garden note: [[Ask Seek Knock]]. |
 | **Matthew 6:14–15** | Forgive others in the rhythm of prayer. Your garden note: [[Forgiveness]]. |
 | **Matthew 5:44** | Pray for persecutors (also Luke 6:28). Your garden note: [[Love Your Enemies]]. |
-| **Matthew 7:7–11** | Ask, seek, knock - keep coming; God gives like a good parent. Also in [[Ask Seek Knock]]. |
+| **Matthew 7:7–11** | Ask, seek, knock — keep coming; God gives like a good parent. Also in [[Ask Seek Knock]]. |
 
-### Luke 11 - "Lord, teach us to pray"
+### Luke 11 — "Lord, teach us to pray"
 
 | Passage | What He says |
 |---------|----------------|
 | **Luke 11:1–4** | Shorter version of the Lord's Prayer, after the disciples ask Him to teach them. |
-| **Luke 11:5–13** | Friend at midnight + ask/seek/knock - persistence; the Father gives good gifts (including the Spirit). |
+| **Luke 11:5–13** | Friend at midnight + ask/seek/knock — persistence; the Father gives good gifts (including the Spirit). |
 
 ### Parables about prayer posture
 
 | Passage | What He says |
 |---------|----------------|
-| **Luke 18:1–8** | Parable of the persistent widow - pray and don't lose heart. |
-| **Luke 18:9–14** | Pharisee vs. tax collector - humility in prayer, not self-congratulation. Your garden note: [[Justification]]. |
+| **Luke 18:1–8** | Parable of the persistent widow — pray and don't lose heart. |
+| **Luke 18:9–14** | Pharisee vs. tax collector — humility in prayer, not self-congratulation. Your garden note: [[Justification]]. |
 
 ### Prayer in mission and community
 
 | Passage | What He says |
 |---------|----------------|
 | **Matthew 9:38 / Luke 10:2** | Pray that the Lord of the harvest would send laborers. |
-| **Matthew 18:19–20** | Agreement in prayer - "where two or three gather in My name." |
+| **Matthew 18:19–20** | Agreement in prayer — "where two or three gather in My name." |
 
-### John's Gospel - prayer "in My name"
+### John's Gospel — prayer "in My name"
 
 | Passage | What He says |
 |---------|----------------|
@@ -547,11 +547,11 @@ Your [[Jesus' Prayers]] hub tracks the **seven verbatim prayers** the Gospels qu
 | "Father, forgive them" | Luke 23:34 | [[Father Forgive Them]] |
 | "Into Your hands" | Luke 23:46 | [[Into Your Hands]] |
 
-[[Jesus' Rhythms]] adds the **biography lane** - moments the Gospels show Him praying without always quoting the words:
+[[Jesus' Rhythms]] adds the **biography lane** — moments the Gospels show Him praying without always quoting the words:
 
-- Dawn solitude ([[Withdraw to Pray]] - Mark 1:35; Luke 5:16)
-- All night before choosing the twelve ([[Pray Before You Choose]] - Luke 6:12)
-- Alone after feeding the five thousand ([[Pray When Drained]] - Matt 14:23; Mark 6:46)
+- Dawn solitude ([[Withdraw to Pray]] — Mark 1:35; Luke 5:16)
+- All night before choosing the twelve ([[Pray Before You Choose]] — Luke 6:12)
+- Alone after feeding the five thousand ([[Pray When Drained]] — Matt 14:23; Mark 6:46)
 
 ---
 
@@ -831,7 +831,7 @@ Settled on "Prayer Jesus Taught" as the title and "prayer-jesus-taught" as the s
 
 The existing "Jesus' Prayers" hub will link to the new hub. The new note will open with a key concept distinguishing Jesus' teachings from His spoken prayers. Body sections will cover the Lord's Prayer and rhythm, followed by four shareable thoughts.
 
-The body will run through nine sections: secret devotion, posture and persistence, praying for enemies, praying in His name, praying together, forgiveness loops, and a cross-links table. Updates are planned for five existing notes-jesus-prayers, jesus-rhythms, eternal-principles, ask-seek-knock, and secret-devotion-to link to the new hub. Lint will run after all edits.
+The body will run through nine sections: secret devotion, posture and persistence, praying for enemies, praying in His name, praying together, forgiveness loops, and a cross-links table. Updates are planned for five existing notes—jesus-prayers, jesus-rhythms, eternal-principles, ask-seek-knock, and secret-devotion—to link to the new hub. Lint will run after all edits.
 </details></think>
 
 _**Agent (auto-low)**_
@@ -1396,20 +1396,20 @@ Preparing a summary of the prayer note and its three-lane structure.
 
 _**Agent (auto-low)**_
 
-Created **`Prayer Jesus Taught`** at `content/english/notes/prayer-jesus-taught.md` - an index hub for what Jesus *taught* disciples about prayer, separate from the other two lanes:
+Created **`Prayer Jesus Taught`** at `content/english/notes/prayer-jesus-taught.md` — an index hub for what Jesus *taught* disciples about prayer, separate from the other two lanes:
 
 | Hub | Lane |
 |-----|------|
-| [[Prayer Jesus Taught]] | **Teaching** - Lord's Prayer, secret devotion, persistence, asking in His name |
-| [[Jesus' Prayers]] | **Verbatim** - seven recorded speeches to the Father |
-| [[Jesus' Rhythms]] | **Biography** - when and how often He prayed |
+| [[Prayer Jesus Taught]] | **Teaching** — Lord's Prayer, secret devotion, persistence, asking in His name |
+| [[Jesus' Prayers]] | **Verbatim** — seven recorded speeches to the Father |
+| [[Jesus' Rhythms]] | **Biography** — when and how often He prayed |
 
 The hub body groups passages into sections (Lord's Prayer, secret audience, posture, who to pray for, in His name, together, watch and pray) and links to existing spine notes: [[Ask Seek Knock]], [[Secret Devotion]], [[Justification]], [[Love Your Enemies]], [[Abide in Me]], [[Forgiveness]], [[Childlike Faith]].
 
 **Cross-links wired:**
-- [[Jesus' Prayers]] - points to the teaching hub instead of duplicating Lord's Prayer context
-- [[Jesus' Rhythms]] - garden links updated
-- [[Eternal Principles]] - "Heart and priorities" now opens with this hub
-- [[Ask Seek Knock]] and [[Secret Devotion]] - relationship back to the hub
+- [[Jesus' Prayers]] — points to the teaching hub instead of duplicating Lord's Prayer context
+- [[Jesus' Rhythms]] — garden links updated
+- [[Eternal Principles]] — "Heart and priorities" now opens with this hub
+- [[Ask Seek Knock]] and [[Secret Devotion]] — relationship back to the hub
 
 Alias: `Jesus teaching about prayer`. URL slug: `/notes/prayer-jesus-taught/`.

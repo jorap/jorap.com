@@ -20,7 +20,7 @@ Reviewing the jorap-voice skill and blog template. Checking similar posts for st
 
 _**Agent (auto-low)**_
 
-I'll draft this in your voice - first I'm pulling the blog template, jorap-voice skill, and a couple of similar opinion posts for structure.
+I'll draft this in your voice — first I'm pulling the blog template, jorap-voice skill, and a couple of similar opinion posts for structure.
 
 
 _**Agent (auto-low)**_
@@ -382,15 +382,15 @@ Draft is at `content/english/blog/__why-brave-browser.md` (`draft: true`, slug `
 
 It follows the same Brave/Chrome split as your Google ecosystem post, but stands on its own:
 
-- **Opening** - browser hopping, why Brave stuck
-- **Shields by default** - less extension fiddling, fewer ad/modal fights
-- **Chromium underneath** - sites and extensions still behave
-- **Brave vs Chrome** - personal tabs vs client QA (test in Chrome first)
-- **What you bounced off** - Firefox, Safari, Edge, briefly
-- **BAT/crypto** - ignored; you want a browser, not a side hustle
-- **Phone + laptop** - Android Brave, second-phone banking habit
-- **Tradeoffs** - not anonymous, RAM still RAM, company could change
-- **Close** - what you actually run day to day
+- **Opening** — browser hopping, why Brave stuck
+- **Shields by default** — less extension fiddling, fewer ad/modal fights
+- **Chromium underneath** — sites and extensions still behave
+- **Brave vs Chrome** — personal tabs vs client QA (test in Chrome first)
+- **What you bounced off** — Firefox, Safari, Edge, briefly
+- **BAT/crypto** — ignored; you want a browser, not a side hustle
+- **Phone + laptop** — Android Brave, second-phone banking habit
+- **Tradeoffs** — not anonymous, RAM still RAM, company could change
+- **Close** — what you actually run day to day
 
 Passes `pnpm lint:blog`, `pnpm lint:voice`, and `pnpm lint:slop`.
 
@@ -557,11 +557,11 @@ _**Agent (auto-low)**_
 
 Added **"Brave Sync is the reason phone and laptop feel like one browser"** right after the Brave/Chrome split section. It covers:
 
-- **Why sync matters** - saving links on the couch, opening them at the desk
-- **No Google account** - sync chain vs tying personal tabs to Gmail
-- **What you sync** - bookmarks, history, shields; passwords stay in Bitwarden
-- **Setup** - QR pairing, recovery phrase, one-time afternoon
-- **Hiccups** - delayed sync, losing the chain, sync as handoff not archive
+- **Why sync matters** — saving links on the couch, opening them at the desk
+- **No Google account** — sync chain vs tying personal tabs to Gmail
+- **What you sync** — bookmarks, history, shields; passwords stay in Bitwarden
+- **Setup** — QR pairing, recovery phrase, one-time afternoon
+- **Hiccups** — delayed sync, losing the chain, sync as handoff not archive
 
 Trimmed the old one-liner from "On phone and laptop" and pointed back to the new chapter. Also nudged "What I give up" and "What I actually run" to mention the recovery phrase and paired devices.
 
@@ -678,7 +678,7 @@ I'll keep the reference general as Brave Origin rather than Brave-Origin-Nightly
 
 _**Agent (auto-low)**_
 
-I'll weave Brave Origin into the crypto section and the laptop bits - it fits the "I ignore the wallet stuff" thread, and Origin is free on Linux.
+I'll weave Brave Origin into the crypto section and the laptop bits — it fits the "I ignore the wallet stuff" thread, and Origin is free on Linux.
 
 
 _**Agent (auto-low)**_
@@ -746,9 +746,9 @@ _**Agent (auto-low)**_
 
 Added Brave Origin in three spots:
 
-1. **Crypto section** - Origin as the stripped-down build (no wallet/rewards/AI clutter), free on Linux via standalone install or Settings upgrade ("Proceed with Origin for free on Linux"), paid elsewhere
-2. **On phone and laptop** - laptop called out as Linux + Brave Origin
-3. **What I actually run** - Origin on Linux laptop, regular Brave on Android
+1. **Crypto section** — Origin as the stripped-down build (no wallet/rewards/AI clutter), free on Linux via standalone install or Settings upgrade ("Proceed with Origin for free on Linux"), paid elsewhere
+2. **On phone and laptop** — laptop called out as Linux + Brave Origin
+3. **What I actually run** — Origin on Linux laptop, regular Brave on Android
 
 Also tagged `Brave Origin` and `Linux`. If you want Origin as its own H2 instead of folded into crypto, say the word.
 
@@ -789,7 +789,7 @@ The opening line will explain that Brave Origin is free on Linux while paid else
 
 _**Agent (auto-low)**_
 
-Reframing Brave Origin around your actual reason - free on Linux - and switching laptop to desktop where that's what you use.
+Reframing Brave Origin around your actual reason — free on Linux — and switching laptop to desktop where that's what you use.
 
 
 _**Agent (auto-low)**_

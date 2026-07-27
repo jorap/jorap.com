@@ -85,7 +85,7 @@ Principle 12 also maps to think-alouds and the Feynman technique. It connects to
 
 _**Agent (auto-low)**_
 
-Yes - each row maps cleanly to terms teachers, reading specialists, and math educators already use. Your labels are the parent version; the mainstream versions are mostly the same ideas in curriculum-speak.
+Yes — each row maps cleanly to terms teachers, reading specialists, and math educators already use. Your labels are the parent version; the mainstream versions are mostly the same ideas in curriculum-speak.
 
 | Your principle | Mainstream terms | Where it shows up |
 |----------------|------------------|-------------------|
@@ -93,7 +93,7 @@ Yes - each row maps cleanly to terms teachers, reading specialists, and math edu
 | **2. Meaning over rows** | **Authentic literacy**, **purpose-driven writing**, **meaning-making** | Writers’ workshop; opposite of **decontextualized drill** / rote copy |
 | **3. His words, his pick** | **Student choice**, **learner autonomy**, **interest-led** / **child-centered** learning | Writers’ workshop choice of topic; **personalized learning** |
 | **4. Oral first, paper second** | **Oral language before written**; developmental sequence **listen → speak → read → write** | Early literacy standards; **Talk for Writing** (Pie Corbett) |
-| **5. Say it, then copy it** | **Language Experience Approach (LEA)**, **shared writing**, **interactive writing**, **dictation → transcription** | Classic K–2 literacy method - child talks, adult writes, child copies |
+| **5. Say it, then copy it** | **Language Experience Approach (LEA)**, **shared writing**, **interactive writing**, **dictation → transcription** | Classic K–2 literacy method — child talks, adult writes, child copies |
 | **6. Concrete before abstract** | **CPA** (Concrete–Pictorial–Abstract), **manipulatives-based instruction**, **hands-on learning** | Singapore Math, Bruner’s enactive → iconic → symbolic stages |
 | **7. Real audience** | **Authentic audience**, **purpose and audience** (6+1 Traits of Writing), **publishing** | Writers’ workshop “publication” step |
 | **8. Low stakes** | **Formative assessment**, **growth mindset**, low-stakes practice | Dweck; contrast with **summative** / high-stakes grading |
@@ -112,7 +112,7 @@ A few clusters if you want umbrella language for the whole table:
 
 The biggest “official name” hits are **LEA** (#5), **CPA** (#6), **authentic audience** (#7), and **ZPD/scaffolding** (#13). Those are the ones a teacher or tutor would recognize instantly.
 
-Your voice is doing real work here - “Want-to-come-back” is clearer for parents than “sustained intrinsic motivation.” If you want a nod to the mainstream terms without turning the post into ed-school, a single line after the table works: something like *“Teachers call a lot of this scaffolding, authentic writing, and CPA - I call it stop before the tired face.”*
+Your voice is doing real work here — “Want-to-come-back” is clearer for parents than “sustained intrinsic motivation.” If you want a nod to the mainstream terms without turning the post into ed-school, a single line after the table works: something like *“Teachers call a lot of this scaffolding, authentic writing, and CPA — I call it stop before the tired face.”*
 
 Want me to draft that one-liner in your voice, or add a small “ed terms” column to the table?
 
@@ -166,27 +166,27 @@ Reconsidering the tiered list. Low stakes may deserve a higher spot because it i
 
 _**Agent (auto-low)**_
 
-Ranked for **your** setup: six-year-old, Kumon already owns pencil reps, math feels hard, home has to earn ten minutes a day. Not universal pedagogy importance - **what kills the program first if you drop it**.
+Ranked for **your** setup: six-year-old, Kumon already owns pencil reps, math feels hard, home has to earn ten minutes a day. Not universal pedagogy importance — **what kills the program first if you drop it**.
 
-## Tier 1 - Program survives or dies on these
+## Tier 1 — Program survives or dies on these
 
 | Rank | Principle | Why it's here |
 |------|-----------|---------------|
 | **1** | **Want-to-come-back** | Gate for everything. Tired face = done, Sunday off, close the tab when he says done. No comeback tomorrow → nothing else matters. |
-| **2** | **Two layers, not double homework** | Structural. Kumon is already pencil-heavy. Home that copies Kumon becomes "hard math with a different logo" - you say that outright in the post. |
+| **2** | **Two layers, not double homework** | Structural. Kumon is already pencil-heavy. Home that copies Kumon becomes "hard math with a different logo" — you say that outright in the post. |
 | **3** | **Games, not factories** | Math entry point. He didn't reject numbers; he rejected hard rows. This is the strategy, not a nice-to-have. |
 | **4** | **Easy wins before hard rows** | Math-specific but critical. You literally wrote that **13 beats 4** on a bad math day. Fixes the "hard" label before any equation hits paper. |
 | **5** | **Low stakes** | Makes #1 possible on the subject that already costs him effort. "Nice try" vs red marks is the difference between retry and bolt. |
 
-## Tier 2 - Why home is worth doing at all
+## Tier 2 — Why home is worth doing at all
 
 | Rank | Principle | Why it's here |
 |------|-----------|---------------|
 | **6** | **Passion transfers** | Your edge over a franchise center. He's six; he reads your face before he reads the worksheet. This is the "why keep math with dad" principle. |
 | **7** | **Meaning over rows** | Writing differentiation. Kumon already does rows. Home writing without meaning is worse Kumon in your kitchen. |
-| **8** | **His words, his pick** | Ownership. Pairs with #7 - care what it says *because* it's his book, his postcard, his drawing. |
+| **8** | **His words, his pick** | Ownership. Pairs with #7 — care what it says *because* it's his book, his postcard, his drawing. |
 
-## Tier 3 - How you run the ten minutes
+## Tier 3 — How you run the ten minutes
 
 | Rank | Principle | Why it's here |
 |------|-----------|---------------|
@@ -194,11 +194,11 @@ Ranked for **your** setup: six-year-old, Kumon already owns pencil reps, math fe
 | **10** | **Say it, then copy it** | Writing-specific execution of #9. LEA is how a kid who reads chapter books still gets words onto paper without a meltdown. |
 | **11** | **Concrete before abstract** | Math-specific execution. Crackers and fingers before `3 + 2 = 5`. Supports #4 and #9 but depends on them being in place first. |
 
-## Tier 4 - Amplifiers (matter, but after the gates)
+## Tier 4 — Amplifiers (matter, but after the gates)
 
 | Rank | Principle | Why it's here |
 |------|-----------|---------------|
-| **12** | **Real audience** | Strong motivator for printing - fridge note, postcard to lola. But it's fuel on top of #7–8, not the engine. |
+| **12** | **Real audience** | Strong motivator for printing — fridge note, postcard to lola. But it's fuel on top of #7–8, not the engine. |
 | **13** | **Explain it back** | Long-game math understanding vs Kumon's speed ladder. Right principle, wrong urgency at six when willingness is still fragile. The "tell me how" line on the math sheet is enough for now. |
 
 ---
@@ -210,7 +210,7 @@ Ranked for **your** setup: six-year-old, Kumon already owns pencil reps, math fe
 - **Math top 3:** Games (#9) → Easy wins (#13) → Want-to-come-back (#1)  
 - **Writing top 3:** Meaning (#2) → Say it, then copy (#5) → His words, his pick (#3)
 
-**One tension worth naming:** #12 (explain it back) and Kumon's speed ladder pull opposite directions. For month one, I'd rank **low stakes (#8) above explain it back (#12)** - you need him at the table next week more than you need a perfect "tell me how you got that" every time.
+**One tension worth naming:** #12 (explain it back) and Kumon's speed ladder pull opposite directions. For month one, I'd rank **low stakes (#8) above explain it back (#12)** — you need him at the table next week more than you need a perfect "tell me how you got that" every time.
 
 Want this turned into a reordered table in the draft, or a "if you only have time for five principles" callout box?
 
@@ -549,7 +549,7 @@ Done. The table is reordered by importance (1–13), and every cross-reference i
 1. Want-to-come-back  
 2. Two layers, not double homework  
 3. Games, not factories  
-4. Easy wins before hard rows *(math-only - was #13)*  
+4. Easy wins before hard rows *(math-only — was #13)*  
 5. Low stakes  
 6. Passion transfers  
 7. Meaning over rows  
@@ -639,7 +639,7 @@ Section headers and tags should change from "Writing" to "Handwriting." Week lab
 
 "Writing on paper he keeps" should become "handwriting on paper he keeps." The early introduction should clarify once that the term is **handwriting**, perhaps with a parenthetical note for readers. "I want him to write *meaning*" can be reframed as "I want his pencil to copy *meaning*" or "I want him to handwrite words that mean something." "Want to write" should shift to "want to pick up the pencil" or "want to handwrite."
 
-I will avoid overusing "handwriting" everywhere. "Pencil," "copy," and "on paper" already clarify intent in those spots. The early clarification should be minimal-perhaps one sentence explaining that "writing" means handwriting. Programmatic sections will get the bulk of the replacements.
+I will avoid overusing "handwriting" everywhere. "Pencil," "copy," and "on paper" already clarify intent in those spots. The early clarification should be minimal—perhaps one sentence explaining that "writing" means handwriting. Programmatic sections will get the bulk of the replacements.
 
 Week 4's "he writes one quiz question" may need "handwrites" since it describes content creation. The meta description should also change to "Handwriting."
 
@@ -648,7 +648,7 @@ The early clarification will be woven directly into line 23 rather than added se
 
 _**Agent (auto-low)**_
 
-Clarifying that "writing" means handwriting (pencil on paper), not composition - updating the post systematically.
+Clarifying that "writing" means handwriting (pencil on paper), not composition — updating the post systematically.
 
 
 _**Agent (auto-low)**_
@@ -905,7 +905,7 @@ I've updated my understanding to mean handwriting by "writing".
 
 _**Agent (auto-low)**_
 
-Updated throughout. The post now treats **handwriting** as the subject - pencil grip, copying, spelling on paper - not composition or story writing.
+Updated throughout. The post now treats **handwriting** as the subject — pencil grip, copying, spelling on paper — not composition or story writing.
 
 Key clarifier added early:
 
@@ -915,7 +915,7 @@ Key clarifier added early:
 - Tag: `Writing` → `Handwriting`
 - Program language: "home writing program" → "home handwriting program", "Writing focus" → "Handwriting focus", section header → `### Handwriting:`
 - Kid actions: "write three sentences" → "handwrite three sentences", "want to write" → "want to pick up the pencil"
-- Your scribing stays as **"I write a model"** - that's you holding the pencil, not him
+- Your scribing stays as **"I write a model"** — that's you holding the pencil, not him
 
 **Left alone on purpose:**
 - "I write once" in the principles table (parent scribes)
@@ -1249,7 +1249,7 @@ Streamlined to **10 principles** by merging three pairs and sharpening the handw
 9. Concrete before abstract  
 10. Explain it back  
 
-All cross-references, week blocks, and the meta description (`ten principles`) are updated. Intro lines now lead with **handwriting he'll actually use** - Kumon chases neater letters through rows; home has to make the pencil worth picking up.
+All cross-references, week blocks, and the meta description (`ten principles`) are updated. Intro lines now lead with **handwriting he'll actually use** — Kumon chases neater letters through rows; home has to make the pencil worth picking up.
 
 ---
 
@@ -1340,7 +1340,7 @@ Done. Each principle now has the mainstream term in parentheses:
 | 9 | Concrete before abstract | CPA (concrete-pictorial-abstract) |
 | 10 | Explain it back | metacognition |
 
-**6** is the one teachers will recognize instantly for handwriting - LEA is the standard K–2 method for exactly your flow (he talks, you scribe, he copies).
+**6** is the one teachers will recognize instantly for handwriting — LEA is the standard K–2 method for exactly your flow (he talks, you scribe, he copies).
 
 ---
 
@@ -1380,7 +1380,7 @@ This method teaches question marks and question words through handwriting. It se
 
 _**Agent (auto-low)**_
 
-That's a solid scaffold, and it maps cleanly to what you're already doing - just not named yet.
+That's a solid scaffold, and it maps cleanly to what you're already doing — just not named yet.
 
 ## What it's called
 
@@ -1388,9 +1388,9 @@ A few terms cover different slices of it:
 
 | Term | What it captures |
 |------|------------------|
-| **Transcription → generation** | Copy known text first (the question), then produce new text (the answer). Berninger's writing research treats these as separate skills - handwriting/spelling vs. coming up with words. |
+| **Transcription → generation** | Copy known text first (the question), then produce new text (the answer). Berninger's writing research treats these as separate skills — handwriting/spelling vs. coming up with words. |
 | **Question restatement** / **turn the question around (TQA)** | Rewriting the question into the start of the answer. "What did you do?" → copy it, then "I played blocks." |
-| **Sentence frame** | Lighter version - you print the stem (`Today I ___`) instead of the full question. Your journal sheet already does this. |
+| **Sentence frame** | Lighter version — you print the stem (`Today I ___`) instead of the full question. Your journal sheet already does this. |
 
 For grade 1 **handwriting**, the most accurate label is probably **transcription then generation**: the copy pass is low-stress pencil work on real words; the answer pass is short and his.
 
@@ -1398,10 +1398,10 @@ For grade 1 **handwriting**, the most accurate label is probably **transcription
 
 It doesn't need to be principle #11. It's a **tactic** that serves several at once:
 
-- **5** (authentic literacy) - real question, real answer  
-- **6** (language experience approach) - say the answer first, then pencil  
-- **7** (authentic audience) - someone reads Q + A on a note or journal  
-- **1** (intrinsic motivation) - copy is easy; the hard part is one line of his words  
+- **5** (authentic literacy) — real question, real answer  
+- **6** (language experience approach) — say the answer first, then pencil  
+- **7** (authentic audience) — someone reads Q + A on a note or journal  
+- **1** (intrinsic motivation) — copy is easy; the hard part is one line of his words  
 
 It also splits the job Kumon blurs: Kumon is copy-only. You'd be saying **copy the prompt, then one line that's actually his**.
 
@@ -1409,7 +1409,7 @@ It also splits the job Kumon blurs: Kumon is copy-only. You'd be saying **copy t
 
 1. He **says** the answer out loud.  
 2. He **copies the question** (or a short stem you print). Handwriting reps on text that matters.  
-3. He **handwrites the answer** underneath - you fix spelling and letter shape together.
+3. He **handwrites the answer** underneath — you fix spelling and letter shape together.
 
 Copy first works because he's not staring at a blank page. The question is already on the paper. One generative line is enough at six.
 
@@ -1424,11 +1424,11 @@ I ___________________________________
 ```
 
 Line 1: copy from the printed prompt (or you read it, he copies).  
-Line 2: his answer - already said out loud.
+Line 2: his answer — already said out loud.
 
 ## vs. what you have now
 
-Your journal template is **frame-and-fill** (`Today I ___`) - faster, less copying.  
+Your journal template is **frame-and-fill** (`Today I ___`) — faster, less copying.  
 
 **Copy-the-question** adds more transcription reps and teaches question marks / question words. Good when you want **more handwriting volume** without Kumon rows.
 
@@ -1447,7 +1447,7 @@ Same idea on the math line sheet:
 3 + 2 = 5
 ```
 
-Copy the problem, then write the answer he already got in the game. The equation he **won** becomes the copy line - trophy, not drill.
+Copy the problem, then write the answer he already got in the game. The equation he **won** becomes the copy line — trophy, not drill.
 
 ---
 
@@ -1617,7 +1617,7 @@ Cut from a four-week month to **one week** (~115 lines removed).
 - Duplicate weekly rhythm table
 - Month 2 progression section
 
-**New "After the week"** - repeat the same week or add one hidden math card if he's asking for more. Principle **1** beats advancing like Kumon.
+**New "After the week"** — repeat the same week or add one hidden math card if he's asking for more. Principle **1** beats advancing like Kumon.
 
 Meta description now says **one-week plan**. Success metrics say **week one**, not month one.
 
@@ -1898,7 +1898,7 @@ The kit is now **tablet + printed sheets only**. Changes:
 - Math flow: *"Pictures on screen, numbers on paper"*
 - "What I'm not trying to do": no extra props
 
-**Still uses pencil** - that's unavoidable for handwriting on printed sheets. The quiz runs on the tablet; everything else lands on paper.
+**Still uses pencil** — that's unavoidable for handwriting on printed sheets. The quiz runs on the tablet; everything else lands on paper.
 
 ---
 
@@ -3028,14 +3028,14 @@ _**Agent (auto-low)**_
 Added a separate **math quiz deck** and split the two cleanly.
 
 ### New: `grade-1-math-quiz`
-- **200 cards** - addition, subtraction, bonds, doubles (answers spelled out: `two`, `five`, `seven`, etc.)
+- **200 cards** — addition, subtraction, bonds, doubles (answers spelled out: `two`, `five`, `seven`, etc.)
 - Generator: `scripts/build-grade1-math-quiz.py`
 - URL: [/randomizer/?set=grade-1-math-quiz](https://jorap.com/randomizer/?set=grade-1-math-quiz)
 
 ### Updated: `grade-1-quiz`
-- **No arithmetic** anymore - animals, colors, facts only
+- **No arithmetic** anymore — animals, colors, facts only
 - Rebuilt via `scripts/archive/build-grade1-quiz.py`
-- Tagline: *"Animals, colors, and facts - no arithmetic."*
+- Tagline: *"Animals, colors, and facts — no arithmetic."*
 
 ### Randomizer JS
 - Large-answer quiz styling applies to **all** `mode: quiz` decks (not just the general one)

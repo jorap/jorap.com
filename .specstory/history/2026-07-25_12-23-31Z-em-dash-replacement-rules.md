@@ -1532,4 +1532,87 @@ _**Agent (auto-low)**_
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:voice 2>&1
 ```
+
+```
+$ python3 scripts/voice-lint.py dashes --check && python3 scripts/voice-lint.py site --check
+Voice dash errors:
+  content/english/notes/active-reading.md: em/en dash found (1); use hyphen, comma, or parentheses (jorap-voice)
+  content/english/notes/building-a-second-brain.md: em/en dash found (2); use hyphen, comma, or parentheses (jorap-voice)
+  content/english/notes/drafting-in-public.md: em/en dash found (1); use hyphen, comma, or parentheses (jorap-voice)
+  content/english/notes/evergreen-vs-fleeting-notes.md: em/en dash found (1); use hyphen, comma, or parentheses (jorap-voice)
+  content/english/notes/gtd-vs-para.md: em/en dash found (1); use hyphen, comma, or parentheses (jorap-voice)
+  content/english/notes/life-before-achievement.md: em/en dash found (2); use hyphen, comma, or parentheses (jorap-voice)
+  content/english/notes/people-centered-design.md: em/en dash found (2); use hyphen, comma, or parentheses (jorap-voice)
+  content/english/notes/platform-reach-is-borrowed.md: em/en dash found (2); use hyphen, comma, or parentheses (jorap-voice)
+  content/english/notes/process-mapping.md: em/en dash found (1); use hyphen, comma, or parentheses (jorap-voice)
+  content/english/notes/shadow-the-work.md: em/en dash found (1); use hyphen, comma, or parentheses (jorap-voice)
+[ELIFECYCLE] Command failed with exit code 1.
+
+```
 </details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+More em dashes crept back in, likely from concurrent edits or new content.
+
+Running sanitize again, then verifying voice lint fully.
+</details></think>
+
+_**Agent (auto-low)**_
+
+New em dashes appeared in 10 files — running sanitize again, then re-checking voice lint.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/notes-voice-sanitize.py &amp;&amp; pnpm lint:voice 2&gt;&amp;1</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/notes-voice-sanitize.py && pnpm lint:voice 2>&1
+```
+
+```
+  sanitized content/english/notes/active-reading.md
+  sanitized content/english/notes/building-a-second-brain.md
+  sanitized content/english/notes/drafting-in-public.md
+  sanitized content/english/notes/evergreen-vs-fleeting-notes.md
+  sanitized content/english/notes/gtd-vs-para.md
+  sanitized content/english/notes/life-before-achievement.md
+  sanitized content/english/notes/people-centered-design.md
+  sanitized content/english/notes/platform-reach-is-borrowed.md
+  sanitized content/english/notes/process-mapping.md
+  sanitized content/english/notes/shadow-the-work.md
+
+Done: 10 files updated.
+$ python3 scripts/voice-lint.py dashes --check && python3 scripts/voice-lint.py site --check
+Voice dash lint OK
+Voice lint OK
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Voice lint passes fully. I will summarize the work completed during this resume session.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Resumed and finished the open work from the em-dash pass.
+
+**Em/en dashes:** 10 more note files had crept back in (`active-reading`, `building-a-second-brain`, etc.). Ran `notes-voice-sanitize.py` again — all replaced with hyphens.
+
+**AI-tell words:** Fixed the 15 flagged hits across 11 notes:
+- `postmortem` → `after-action review` (or `review-room` / `review theater` where shorter fit)
+- `handoff` → `pass-off` / `pass to client`
+- `white-knuckle` / `white-knuckling` → `willpower alone` / `forcing by will`
+- `rumination` → `stewing`
+
+**Verification:** `pnpm lint:voice` passes clean (dashes + site voice).
+
+## Session close
+- Fixed: Sanitized 10 new em-dash files; swapped AI-tell words in 11 notes; voice lint green.
+- Encode: none
+- Open: clean

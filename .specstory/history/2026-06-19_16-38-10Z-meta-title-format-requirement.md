@@ -732,7 +732,7 @@ The normalization logic handles edge cases correctly. I'm also considering wheth
 
 _**Agent (default)**_
 
-134 pages need the suffix - I'll batch-fix them and update archetypes so new content gets it automatically.
+134 pages need the suffix — I'll batch-fix them and update archetypes so new content gets it automatically.
 
 
 _**Agent (default)**_
@@ -1036,12 +1036,12 @@ The import script could be updated to append the suffix automatically, but that 
 
 _**Agent (default)**_
 
-Audit complete - **134 pages** were missing the suffix; all are fixed now.
+Audit complete — **134 pages** were missing the suffix; all are fixed now.
 
 ### Before
 - **4 correct:** About, Blog, Contact, Drafts index pages
 - **131 missing** ` | JoRap Notes` (blog posts, notes, section indexes)
-- **3 empty** `meta_title` (Elements, Privacy Policy, blog template) - fell back to `title` without the suffix
+- **3 empty** `meta_title` (Elements, Privacy Policy, blog template) — fell back to `title` without the suffix
 
 ### Fixes applied
 - Appended ` | JoRap Notes` to every page that needed it

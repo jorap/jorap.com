@@ -448,5 +448,1078 @@ getting-started-with-rss-feeds.md is rated LIGHT POLISH. Several H2 headings are
 
 get-started-with-rss-feeds.md: the opener at line 27 is a summary announcement, violating Rule 4. The closing "Try it for a week" is generic but acceptable. First-person voice is present throughout. The meta description is acceptable.
 
-facebook-favorites-feed.md is rated LIGHT POLISH to DEEP REWRITE. The description is personal. Most H2 headings are
+facebook-favorites-feed.md is rated LIGHT POLISH to DEEP REWRITE. The description is personal. Most H2 headings are flat or manual, including "What the Favorites feed actually is," "How to set it up," and "A few questions I had." The "give it five minutes" heading is acceptable.
+
+facebook-favorites-feed.md: the closing paragraph near lines 99–103 is generic and weak, violating Rule 9. The setup section near lines 59–79 is procedural and lacks personal voice, violating Rule 7. The verdict remains LIGHT POLISH. The audit is now moving to why-run-your-own-website.md, where H2 headings appear flat.
+
+why-run-your-own-website.md: "Writing things out makes you smarter" is generic and lacks first-person, violating Rule 6 and 7. "Search engines still send people your way" is impersonal and manual, violating Rules 6 and 7. "You can see what's actually working" uses second person instead of first, violating Rule 7. The "small annual renewal" phrasing is acceptable as relative cost.
+
+why-run-your-own-website.md: "cost of a couple of coffees a month" is a currency comparison, violating Rule 8. The phrase "less than two months of any halfway-serious social media ad campaign" is acceptable because it is purely comparative.
+
+why-run-your-own-website.md: the search section opens with a generic impersonal sentence, violating Rules 5 and 7. The analytics section begins with corporate second-person, violating Rules 2 and 7, though it later shifts to first-person. Line 25 carries a slight summary-sandwich tone. The verdict is LIGHT POLISH.
 </details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "static-site-vs-cms.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "framework|deploy|Additionally|Furthermore|Moreover|seamless|boasts|delve|leverage|utilize|facilitate|robust|users should|it is recommended|one might|When it comes to|In conclusion|hope this helps"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "framework|deploy|Additionally|Furthermore|Moreover|seamless|boasts|delve|leverage|utilize|facilitate|robust|users should|it is recommended|one might|When it comes to|In conclusion|hope this helps",
+  "topFiles": [
+    {
+      "matchCount": 3,
+      "uri": "content/english/blog/static-site-vs-cms.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 3
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/consistent-ai-output-wordpress-builds.md",
+  "pattern": "framework|deploy|Additionally|Furthermore|Moreover|seamless|boasts|delve|leverage|utilize|facilitate|robust|users should|it is recommended|one might|When it comes to|In conclusion|hope this helps"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/consistent-ai-output-wordpress-builds.md",
+  "pattern": "framework|deploy|Additionally|Furthermore|Moreover|seamless|boasts|delve|leverage|utilize|facilitate|robust|users should|it is recommended|one might|When it comes to|In conclusion|hope this helps",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/drupal-to-wordpress.md",
+  "pattern": "framework|deploy|Additionally|Furthermore|Moreover|seamless|boasts|delve|leverage|utilize|facilitate|robust|users should|it is recommended|one might|When it comes to|In conclusion|hope this helps"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/drupal-to-wordpress.md",
+  "pattern": "framework|deploy|Additionally|Furthermore|Moreover|seamless|boasts|delve|leverage|utilize|facilitate|robust|users should|it is recommended|one might|When it comes to|In conclusion|hope this helps",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/sustainable-online-publishing.md",
+  "pattern": "framework|deploy|Additionally|Furthermore|Moreover|seamless|boasts|delve|leverage|utilize|facilitate|robust|users should|it is recommended|one might|When it comes to|In conclusion|hope this helps"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/sustainable-online-publishing.md",
+  "pattern": "framework|deploy|Additionally|Furthermore|Moreover|seamless|boasts|delve|leverage|utilize|facilitate|robust|users should|it is recommended|one might|When it comes to|In conclusion|hope this helps",
+  "topFiles": [
+    {
+      "matchCount": 4,
+      "uri": "content/english/blog/sustainable-online-publishing.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 4
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/getting-started-with-rss-feeds.md",
+  "pattern": "framework|deploy|Additionally|Furthermore|Moreover|seamless|boasts|delve|leverage|utilize|facilitate|robust|users should|it is recommended|one might|When it comes to|In conclusion|hope this helps"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/getting-started-with-rss-feeds.md",
+  "pattern": "framework|deploy|Additionally|Furthermore|Moreover|seamless|boasts|delve|leverage|utilize|facilitate|robust|users should|it is recommended|one might|When it comes to|In conclusion|hope this helps",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/facebook-favorites-feed.md",
+  "pattern": "framework|deploy|Additionally|Furthermore|Moreover|seamless|boasts|delve|leverage|utilize|facilitate|robust|users should|it is recommended|one might|When it comes to|In conclusion|hope this helps"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/facebook-favorites-feed.md",
+  "pattern": "framework|deploy|Additionally|Furthermore|Moreover|seamless|boasts|delve|leverage|utilize|facilitate|robust|users should|it is recommended|one might|When it comes to|In conclusion|hope this helps",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-run-your-own-website.md",
+  "pattern": "framework|deploy|Additionally|Furthermore|Moreover|seamless|boasts|delve|leverage|utilize|facilitate|robust|users should|it is recommended|one might|When it comes to|In conclusion|hope this helps|couple of coffees"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-run-your-own-website.md",
+  "pattern": "framework|deploy|Additionally|Furthermore|Moreover|seamless|boasts|delve|leverage|utilize|facilitate|robust|users should|it is recommended|one might|When it comes to|In conclusion|hope this helps|couple of coffees",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/why-run-your-own-website.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Now scanning for subtler voice violations: parallel bullet points with identical openings, inflated significance, third-person advice, and generic section headings.
+
+Grepping for filler phrases like "plays a key role," "important to remember," and "It's worth."
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "**/getting-started-with-rss-feeds.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "\\b(important to|key role|crucial|vital|essential|comprehensive|landscape|navigate|unlock|elevate|transforms|transform)\\b"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "\\b(important to|key role|crucial|vital|essential|comprehensive|landscape|navigate|unlock|elevate|transforms|transform)\\b",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "**/facebook-favorites-feed.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "\\b(important to|key role|crucial|vital|essential|comprehensive|landscape|navigate|unlock|elevate|transforms|transform)\\b"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "\\b(important to|key role|crucial|vital|essential|comprehensive|landscape|navigate|unlock|elevate|transforms|transform)\\b",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": "content/english/blog/facebook-favorites-feed.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 2
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "**/why-run-your-own-website.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "\\b(important to|key role|crucial|vital|essential|comprehensive|landscape|navigate|unlock|elevate|transforms|transform)\\b"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "\\b(important to|key role|crucial|vital|essential|comprehensive|landscape|navigate|unlock|elevate|transforms|transform)\\b",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "**/{getting-started-with-rss-feeds,facebook-favorites-feed,consistent-ai-output-wordpress-builds,static-site-vs-cms}.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "^-\\s+\\*\\*"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "^-\\s+\\*\\*",
+  "topFiles": [
+    {
+      "matchCount": 3,
+      "uri": "content/english/blog/facebook-favorites-feed.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/blog/getting-started-with-rss-feeds.md"
+    }
+  ],
+  "totalFiles": 2,
+  "totalMatches": 6
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+The Facebook favorites feed uses a parallel bullet structure with noun labels and colons. This pattern repeats across Friends, Pages, and Groups.
+
+RSS feeds intentionally use bold folder names, so that structure is acceptable. The Facebook favorites section contains four bold bullets beginning with **I**. This may violate the rule against repeated first-person subjects in a tight cluster.
+
+The Facebook favorites bullets vary by subject, so they do not break the repeated-first-person rule. The getting-started RSS post contains two parallel "I stopped" phrases, violating Rule 4. The consistent-ai-output lines also use varied subjects, so they are acceptable.
+
+Meta titles were checked for SEO stuffing. Most are clean, though the sustainable post title is slightly generic. Descriptions were audited too; the static-site description uses third person and a framework word, while the sustainable one reads well in first person.
+
+The why-run post opens with impersonal generalities about search engines. The static-site post’s “Five questions that pick the stack” section lists framework questions without a personal story, breaking Rule 5. Its “Publish paths that keep static honest” section succeeds with a neighbor story and broken build. The facebook aliases entry omits its slug from the frontmatter description.
+
+The consistent-ai post violates the summary-sandwich rule by repeating its core lesson three times. The drupal-to-wordpress post uses fake balance toward Drupal enterprise, yet still lands on a clear recommendation. The getting-started-with-rss post opens with a personal Inoreader example, but its technical definition paragraph lacks personal specifics.
+
+The getting-started RSS definition paragraph is purely textbook and generic. It lacks numbers, names, or personal failure details, so it breaks Rules 5 and 6.
+
+The “A few things you might run into” section is impersonal FAQ-style Q&A. That violates Rule 7.
+
+The Facebook setup steps use procedural instructions with minimal first-person voice. That also violates Rule 7.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-run-your-own-website.md",
+  "pattern": "\\b(You can|you can|You don't|you don't|Anyone who|Most people|Many people)\\b"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-run-your-own-website.md",
+  "pattern": "\\b(You can|you can|You don't|you don't|Anyone who|Most people|Many people)\\b",
+  "topFiles": [
+    {
+      "matchCount": 6,
+      "uri": "content/english/blog/why-run-your-own-website.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 6
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/getting-started-with-rss-feeds.md",
+  "pattern": "\\b(You can|you can|Anyone who|Most people)\\b"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/getting-started-with-rss-feeds.md",
+  "pattern": "\\b(You can|you can|Anyone who|Most people)\\b",
+  "topFiles": [
+    {
+      "matchCount": 4,
+      "uri": "content/english/blog/getting-started-with-rss-feeds.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 4
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/static-site-vs-cms.md",
+  "pattern": "\\b(You can|you can|Anyone who|Most people)\\b"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/static-site-vs-cms.md",
+  "pattern": "\\b(You can|you can|Anyone who|Most people)\\b",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+The "4-step process" section contains concrete implementation details such as block_setup, init_block, and testimony cards. This satisfies the style guide's requirement for specific technical specifics rather than vague corporate language.
+
+The "AI isn't a developer" section is too vague and metaphorical. It breaks Rule 5 by lacking concrete names, numbers, or failure details.
+
+The sustainable post uses a generic numbered checklist starting "If you're starting from zero."
+
+Direct imperatives toward the reader are acceptable per JoRap voice standards.
+
+The Facebook frontmatter description is personal and effective.
+
+The static-site description uses SEO language ("framework ranking") and lacks first-person voice.
+
+The consistent-ai closing is a summary-sandwich blockquote recap, breaking Rule 9.
+
+The RSS closing is effective.
+
+The Drupal closing is strong.
+
+The Facebook closing is borderline Rule 9.
+
+The "Why Run" post closes well with a concrete "start small" directive.
+
+No em dashes or en dashes were found in the text.
+
+The Facebook alias slug is SEO-driven but does not appear in the frontmatter description.
+
+The getting-started post categories are irrelevant ("Technology", "Productivity", "Guide").
+
+The analysis is now shifting to identify which H2 sections need the most work.
+
+Static-site-vs-cms is CLEAN or LIGHT POLISH. Its five questions lack personal detail.
+
+Drupal is CLEAN or LIGHT POLISH.
+
+Sustainable is LIGHT POLISH. It overuses "deploy" and uses a generic checklist.
+
+Getting-started-with-rss needs DEEP REWRITE. Its H2s are flat. Its FAQ is impersonal. Its technical paragraph is generic.
+
+Facebook is LIGHT POLISH. Its setup sections contain flat H2s and a weak closing. The Friends/Pages/Groups bullets are parallel.
+
+Why-run-your-own-website is LIGHT POLISH. Its H2s are impersonal. Its search and analytics sections are generic. A coffee cost line appears.
+
+Drupal line 61 uses marketing language about the ecosystem being a product feature. This may violate the style guide despite not being explicitly banned.
+
+Static-site line 47 is acceptable. It is personal and avoids corporate jargon.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "**/{static-site-vs-cms,consistent-ai-output-wordpress-builds,drupal-to-wordpress,sustainable-online-publishing,getting-started-with-rss-feeds,facebook-favorites-feed,why-run-your-own-website}.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "worth (bothering|noting)|important to remember|plays a key|In the world|Here's everything|Let's dive|Without further ado"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "worth (bothering|noting)|important to remember|plays a key|In the world|Here's everything|Let's dive|Without further ado",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/getting-started-with-rss-feeds.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/getting-started-with-rss-feeds.md",
+  "pattern": "^## "
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/getting-started-with-rss-feeds.md",
+  "pattern": "^## ",
+  "topFiles": [
+    {
+      "matchCount": 9,
+      "uri": "content/english/blog/getting-started-with-rss-feeds.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 9
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/facebook-favorites-feed.md",
+  "pattern": "^## "
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/facebook-favorites-feed.md",
+  "pattern": "^## ",
+  "topFiles": [
+    {
+      "matchCount": 7,
+      "uri": "content/english/blog/facebook-favorites-feed.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 7
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-run-your-own-website.md",
+  "pattern": "^## "
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-run-your-own-website.md",
+  "pattern": "^## ",
+  "topFiles": [
+    {
+      "matchCount": 9,
+      "uri": "content/english/blog/why-run-your-own-website.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 9
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+The heading "Why it's worth bothering with" breaks Rule 1. The phrase "worth bothering" echoes AI-driven significance inflation.
+
+The getting-started post line 27 breaks Rule 4. Its opener "Here's the short version of what RSS is..." announces content rather than starting directly.
+
+Line 65 uses a generic uplift about building a useful library.
+
+Line 73 cites the generic blog statistic "Most online journeys still start at Google," violating Rule 5.
+
+The static-site post’s “When I reach for a CMS instead” section contains strong specifics. Its parallel bullets are bold labels rather than standard bullets, so that structure is acceptable. No instances of “framework” or “deploy” were found in the why-run post. Hyphen em-dash lookalikes are permitted under the guide. The full audit is now compiled.
+
+The Facebook post’s frontmatter title “Facebook’s Hidden Gem” is clickbaity, but its meta_title is acceptable. Drupal is clean; its voice and specific details hold up well.
+
+The getting-started post line 61 uses "product feature," which is slightly corporate and violates Rule 2. The static-site post line 29 and line 139 are clean. The consistent-ai Step headings use allowed hyphens. The image caption line 74 is fine. The parallel list lines 106–108 in consistent-ai use different verbs, so that structure is acceptable.
+
+The getting-started post’s section “A few things you might run into” is a generic FAQ without personal failure stories, violating Rule 5.
+
+The Facebook post’s “A few questions I had” section is an FAQ format, breaking Rules 5 and 7.
+
+The why-run post’s heading “Writing things out makes you smarter” is a generic self-help cliché, violating Rules 6 and 7.
+
+The Facebook post line 39 “Why I keep coming back” section contains a summary-sandwich opener: the Sunday morning test is announced, then the same points are repeated in bold, breaking Rule 4.
+
+The final verdicts are set. static-site-vs-cms.md and consistent-ai-output-wordpress-builds.md each receive LIGHT POLISH. drupal-to-wordpress.md is CLEAN.
+
+sustainable-online-publishing.md, getting-started-with-rss-feeds.md, facebook-favorites-feed.md, and why-run-your-own-website.md each receive LIGHT POLISH. The getting-started post is borderline for deep rewrite because its H2s are flat and its FAQ sections lack personal voice, yet its body text is otherwise solid.
+
+The consistent-ai post ends with a triple repetition of the same thesis, which is a lighter polish than a deep rewrite.
+
+All opening paragraphs begin with the first person, so no post fails the slop rule.
+
+The getting-started post line 113 ends with “you can just read,” which is second-person and weak for a first-person landing, violating Rules 7 and 9.
+
+Checking posts for “features” used as a verb, which is banned.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "**/{static-site-vs-cms,consistent-ai-output-wordpress-builds,drupal-to-wordpress,sustainable-online-publishing,getting-started-with-rss-feeds,facebook-favorites-feed,why-run-your-own-website}.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "\\bfeatures\\b|\\boffers a range\\b|\\bprovides\\b|\\bensures\\b|\\bdelivers\\b"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "\\bfeatures\\b|\\boffers a range\\b|\\bprovides\\b|\\bensures\\b|\\bdelivers\\b",
+  "topFiles": [
+    {
+      "matchCount": 4,
+      "uri": "content/english/blog/consistent-ai-output-wordpress-builds.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 4
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/consistent-ai-output-wordpress-builds.md",
+  "pattern": "^## "
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/consistent-ai-output-wordpress-builds.md",
+  "pattern": "^## ",
+  "topFiles": [
+    {
+      "matchCount": 8,
+      "uri": "content/english/blog/consistent-ai-output-wordpress-builds.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 8
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/static-site-vs-cms.md",
+  "pattern": "^## "
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/static-site-vs-cms.md",
+  "pattern": "^## ",
+  "topFiles": [
+    {
+      "matchCount": 7,
+      "uri": "content/english/blog/static-site-vs-cms.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 7
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/sustainable-online-publishing.md",
+  "pattern": "^## "
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/sustainable-online-publishing.md",
+  "pattern": "^## ",
+  "topFiles": [
+    {
+      "matchCount": 4,
+      "uri": "content/english/blog/sustainable-online-publishing.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 4
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+The word "features" in the consistent-ai post is used as a noun in a development context, not as the banned marketing verb. This passes the audit.
+
+The why-run-your-own-website essay uses listicle-style H2 sections. Its platform shutdowns include concrete numbers, satisfying the credibility rule. A coffee comparison under an H2 heading breaks Rule 8. The sustainable post’s meta title is slightly generic; Rule 10 applies. The static-site description lacks “I,” violating Rule 10.
+
+No em dashes appear across any post. The Drupal post is clean with only a minor corporate phrase at line 61.
+
+The Drupal meta description implies “I,” satisfying Rule 10. The static-site post’s “Five questions” H2 contains no personal failure or anecdote, so it does not violate Rule 5.
+
+The static-site post’s opening paragraph is generic. It precedes a friend story, so it does not violate Rule 5.
+
+The consistent-ai post’s “AI isn’t a developer” section relies on metaphor without a named failure or concrete detail. This breaks Rule 5.
+
+The “What it feels like when the layer is in place” section contains a numbered list but offers little new specificity. Rule 5 applies lightly.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="update_current_step"><details>
+<summary>Tool use: **update_current_step**</summary>
+An unknown error occurred
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Compiling the full audit report now.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+# Blog voice audit (7 posts)
+
+Calibrated against `how-i-built-jorap-notes.md` and the jorap-voice skill. **No em dashes (—) or en dashes (–) found** in any of the seven posts. No hits for `users should`, `it is recommended`, `one might`, `Additionally`, `Furthermore`, `Moreover`, `seamless`, `boasts`, `delve`, `leverage`, `utilize`, `facilitate`, or `robust`.
+
+---
+
+## 1. `content/english/blog/static-site-vs-cms.md`
+
+**Verdict: LIGHT POLISH**  
+**H2 sections needing most work:** `Five questions that pick the stack` (thin on lived detail); frontmatter `description` (third-person, framework-y).
+
+| Line | Quote | Rule | Suggested fix |
+|------|-------|------|---------------|
+| 4 | `"Who publishes, what changes live, and whether you need logins pick static vs WordPress better than any framework ranking."` | 10 (SEO/bot frontmatter), 11 (`framework` filler) | `"I pick static vs WordPress by who publishes and whether anyone needs a login - not by framework rankings."` |
+| 97 | `Forget framework rankings for a minute. Answer these:` | 11 (`framework` repeated as filler) | `Skip the Hugo-vs-WordPress threads for a minute. Answer these:` |
+| 97-109 | Entire `Five questions that pick the stack` section (numbered Q&A only; no name, place, or mistake) | 5 (section with no specific detail), slop one-failure rule | Add one line you actually lived, e.g. the freelance designer story from line 43 or a client who needed login and you caught it late. |
+| 139 | `The goal isn't to win a framework debate.` | 11 (`framework` again) | `The goal isn't to win a stack argument on Reddit.` |
+
+**Clean areas:** Strong opener, personal stack-mismatch stories, opinionated closes, good H2 personality elsewhere (`The wrong question is "which is better"`, `What I'd tell a friend`).
+
+---
+
+## 2. `content/english/blog/consistent-ai-output-wordpress-builds.md`
+
+**Verdict: LIGHT POLISH**  
+**H2 sections needing most work:** `The bigger lesson`, `If you only take one thing` (triple restate of same thesis); `AI isn't a developer - it's a fast new hire` (metaphor-only, no concrete scene).
+
+| Line | Quote | Rule | Suggested fix |
+|------|-------|------|---------------|
+| 36-44 | `## AI isn't a developer - it's a fast new hire` … `Write down your house rules and put them where the AI will actually read them.` (no file name, no mistake, no duration) | 5 (no specific detail in section) | Ground it: `I learned this after Tuesday's testimonial card and Thursday's team grid landed in different folders with different helper names.` |
+| 147-154 | `## The bigger lesson` … `Stop asking AI to build features. Ask it to build the layer that makes every feature match.` (repeats TL;DR + section above) | 4 (summary sandwich) | Cut the H2 or replace with one new detail: `That hour on helpers.php paid for itself the first time I didn't re-read a whole block file.` |
+| 157-159 | `> **Don't use AI for one feature at a time. Use it to build the reusable code for 80% of your work - then get the same output every time.**` | 4 (summary sandwich), 9 (weak closing - restates instead of landing) | End on what you do: `Now I open a chat with one line: use the helper, mirror card.php, follow the rules. I barely read the diff.` |
+| 161-165 | `You don't need a huge playbook. Name what repeats. Have AI build a helper, a few reference examples, and a short rules doc. Then tell it to mirror and reuse, not invent.` | 4 (third restate of 4-step process) | Cut or swap for one friction you still hit: `I still catch unescaped fields when a client adds a new ACF label typo - that's when the rules doc earns its keep.` |
+
+**Clean areas:** Month-one/three arc, `block_setup()` vs `init_block()`, unescaped client field story, step headings with personality. Frontmatter reads personal.
+
+---
+
+## 3. `content/english/blog/drupal-to-wordpress.md`
+
+**Verdict: CLEAN**  
+**H2 sections needing most work:** None critical. Optional polish only on `The plugin shelf is the real difference day to day`.
+
+| Line | Quote | Rule | Suggested fix |
+|------|-------|------|---------------|
+| 61 | `But the **ecosystem** is the product feature nobody puts on the homepage.` | 2 (corporate/no-subject - "product feature" marketing tone) | `But the plugin shelf is the thing that actually saves my week - nobody puts that on a homepage.` |
+
+**Clean areas:** First-person throughout, Manila/WordCamp scene, upgrade-weekend pain, earned close (`I chose the shelf. It's still in my kitchen.`). Headings have personality. Frontmatter is on-voice.
+
+---
+
+## 4. `content/english/blog/sustainable-online-publishing.md`
+
+**Verdict: LIGHT POLISH**  
+**H2 sections needing most work:** `Sustainable publishing = a domain and files you control`, `If you're starting from zero` (checklist voice); closing paragraph (`deploy` x3).
+
+| Line | Quote | Rule | Suggested fix |
+|------|-------|------|---------------|
+| 24 | `You don't have to think about hosting or deploys or why your build failed at 11pm.` | 11 (`deploy` where plain phrase fits) | `You don't have to think about hosting or Git pushes or why your build failed at 11pm.` |
+| 44 | `## Sustainable publishing = a domain and files you control` | 6 (flat/manual H2 - reads like a definition header) | `## What I actually mean by owning the files` |
+| 64 | `## If you're starting from zero` | 6 (generic how-to H2) | `## What I'd do if I were starting today` |
+| 66-70 | Numbered list (`Buy a domain…`, `Pick a static generator…`, `Put content in Git…`) with no mistake or surprise in that block | 5 (thin section - checklist without lived friction) | After item 2, add: `I broke the build on a typo in YAML once; fixed it the same night - still counted as progress.` |
+| 69 | `4. Connect Cloudflare Pages (or Netlify, etc.) to auto-deploy on push` | 11 (`auto-deploy`) | `4. Hook Cloudflare Pages (or Netlify) to rebuild when you push` |
+| 72 | `My first deploy was one page and a broken favicon.` | 11 (`deploy`) | `My first push was one page and a broken favicon.` |
+| 76 | `the archive lives on my domain, in Git, on a deploy I control.` | 11 (`deploy` - awkward noun) | `the archive lives on my domain, in Git, on a build I control.` |
+
+**Clean areas:** `Social is a lobby, not a library`, lost Facebook thread story, PHP hosting callback, strong ownership close. Frontmatter description is personal.
+
+---
+
+## 5. `content/english/blog/getting-started-with-rss-feeds.md`
+
+**Verdict: LIGHT POLISH** (heading pass is the main lift; body has good personal thread)  
+**H2 sections needing most work:** `What RSS actually is`, `Why it's worth bothering with`, `Finding feeds for sites you read`, `A few things you might run into`, `Try it for a week`.
+
+| Line | Quote | Rule | Suggested fix |
+|------|-------|------|---------------|
+| 27 | `Here's the short version of what RSS is and how to actually get started without overcomplicating it.` | 4 (summary sandwich - announces instead of continuing the friend story) | Cut the sentence; go straight to `## What RSS actually is` or `Two weeks in, here's what changed.` |
+| 29 | `## What RSS actually is` | 6 (flat/manual H2) | `## RSS in plain English (after my friend laughed at me)` |
+| 33-37 | `Technically, RSS is a feed URL each site publishes. Your reader polls those URLs and stacks the updates.` … `That's it. No algorithm.` | 5 (generic explainer block - could run on any RSS primer) | Tie to your morning: `That first Inoreader morning, eight sites, one list - no sponsored post pretending to be a friend.` |
+| 39 | `## Why it's worth bothering with` | 1 (AI-tell pattern - "worth bothering"), 6 (flat H2) | `## What actually changed after two weeks` |
+| 43 | `**I stopped hunting for content.**` | 4 (parallel bullet drone - pairs with line 45) | Merge: `I stopped refreshing five homepages; one app shows what's new.` |
+| 45 | `**I stopped missing things.**` | 4 (parallel "I stopped…" drone with line 43) | Fold into one paragraph or start differently: `Slow blogs I love still show up - the algorithm wouldn't.` |
+| 57 | `## Finding feeds for sites you read` | 6 (manual H2) | `## How I find feeds when sites hide them` |
+| 93 | `## A few things you might run into` | 6 (FAQ/manual H2), 7 (impersonal Q&A voice) | `## Problems I hit in the first month` |
+| 95-99 | `"This site doesn't seem to have RSS."` / `"I have too many unread items and I'm stressed."` (second-person FAQ, no I/my in answers) | 7 (missing first-person in troubleshooting) | `I hit a site with no obvious feed once - RSS Bridge saved it.` / `When I had 200 unread, I marked all read and didn't die.` |
+| 109 | `## Try it for a week` | 6 (generic CTA heading), 9 (soft close vs real pick) | `## What I'd do this week if I were you` or land on your pick: `I still open Inoreader with coffee; Instagram isn't on my home screen anymore.` |
+| 113-115 | `And while everyone else is trying to keep up with whatever new platform is supposed to fix our content overload, you can just... read what you wanted to read` | 7 (drifts to second-person lecture), 5 (no concrete detail) | `I stopped checking Twitter for news I could've pulled from fifteen feeds I chose myself.` |
+
+**Clean areas:** Friend opener, Inoreader/150 feeds, three-folder system with WTA scores, unsubscribe/mark-all-read rules. Frontmatter description is strong.
+
+---
+
+## 6. `content/english/blog/facebook-favorites-feed.md`
+
+**Verdict: LIGHT POLISH**  
+**H2 sections needing most work:** `How to set it up`, `Adding people, pages, and groups`, `A few questions I had`, `Give it five minutes`.
+
+| Line | Quote | Rule | Suggested fix |
+|------|-------|------|---------------|
+| 29 | `## What the Favorites feed actually is` | 6 (flat/manual H2) | `## The feed Facebook buried under "Feeds"` |
+| 39-41 | `Sunday morning test: open Favorites, scroll to the bottom, close the app. Ten minutes, maybe less.` then `**I spend less time on Facebook, and like it more.** The Favorites feed is finite. I can scroll through everything in five or ten minutes and be done.` | 4 (summary sandwich - same finite/ten-minute point twice) | Keep the Sunday scene; cut the bold restate or make the bold line add something new: `That's the whole session - then I close the app.` |
+| 49 | `## How to set it up` | 6 (product-manual H2) | `## Where Facebook hid it (took me years)` |
+| 59-79 | Setup steps (`Open the Facebook app.`, `Tap the menu…`) with almost no I/my | 7 (missing first-person in procedural block) | Open with: `I missed this for years because it's under Feeds, not Home.` |
+| 73 | `## Adding people, pages, and groups` | 6 (manual H2) | `## Who I actually put on the list` |
+| 77-79 | `- **Friends:** open their profile…` / `- **Pages:** open the page…` / `- **Groups:** open the group…` | 4 (parallel bullet drone - same label-colon-instruction shape x3) | Prose: `For friends I use Add to Favorites on their profile; pages and groups have the same toggle under Following or Joined.` |
+| 91 | `## A few questions I had` | 6 (generic FAQ H2) | `## Stuff I wondered before I trusted it` |
+| 99-103 | `If it doesn't click for you, no harm done. But if you're anything like me, you'll wonder why you didn't find it sooner.` | 9 (weak/generic closing - hedged CTA, not what you actually do) | `I still open Messenger daily; Favorites is the only feed I scroll. That's the whole habit now.` |
+
+**Clean areas:** Messenger hook, Sunday morning test, fifty-people mistake, cap-of-30 detail. `description` / `meta_title` read personal.
+
+---
+
+## 7. `content/english/blog/why-run-your-own-website.md`
+
+**Verdict: LIGHT POLISH**  
+**H2 sections needing most work:** `Writing things out makes you smarter`, `Search engines still send people your way`, `You can see what's actually working`, `The cost is not the thing stopping you`.
+
+| Line | Quote | Rule | Suggested fix |
+|------|-------|------|---------------|
+| 61 | `## Writing things out makes you smarter` | 6 (flat self-help H2), 7 (no first person in heading) | `## Writing the Drupal post showed me what I didn't know` |
+| 69 | `## Search engines still send people your way` | 6 (impersonal/manual H2), 7 (missing first person) | `## Google still finds my extension-cord post years later` |
+| 73 | `Most online journeys still start at Google.` | 5 (generic stat - no personal anchor in that sentence) | `Search still sends people to my extension-cord post every week - I wrote it years ago.` (merge with line 75 instead of stating twice) |
+| 79 | `## You can see what's actually working` | 6 (second-person manual H2), 7 (missing first person in heading) | `## Analytics told me to keep the long career posts` |
+| 81 | `With your own site, you can install analytics and find out what people are reading, where they came from, how long they stuck around, and what made them leave.` | 2 (no-subject / generic blogger - "you can install") | `I installed analytics and found the Drupal essay still pulled traffic two years after I thought the topic was dead.` (lead with your line 83 story) |
+| 95 | `for the cost of a couple of coffees a month` | 8 (currency/cost metaphor - banned per guide; use relative terms) | `for cheap monthly hosting - less than I'd spend boosting a post on Facebook` |
+| 73-75 | Extension-cord search traffic stated in both `Search engines` and closing part of same section | 4 (summary sandwich - same point twice) | Say the extension-cord hit once; use the second beat for a different post or metric. |
+
+**Clean areas:** Strong opener with notes garden / Alex Eala tracker, platform-shutdown specifics (Vine, 16%→2%), Hugoplate/Tailwind choice, `What I actually do` close. Frontmatter description is personal.
+
+---
+
+## Summary table
+
+| Post | Verdict | Worst H2 sections |
+|------|---------|-------------------|
+| `static-site-vs-cms.md` | LIGHT POLISH | `Five questions that pick the stack`; frontmatter |
+| `consistent-ai-output-wordpress-builds.md` | LIGHT POLISH | `The bigger lesson`, `If you only take one thing` |
+| `drupal-to-wordpress.md` | **CLEAN** | (optional) `The plugin shelf…` |
+| `sustainable-online-publishing.md` | LIGHT POLISH | `Sustainable publishing =…`, `If you're starting from zero` |
+| `getting-started-with-rss-feeds.md` | LIGHT POLISH | `What RSS actually is`, `Why it's worth bothering with`, FAQ + close sections |
+| `facebook-favorites-feed.md` | LIGHT POLISH | Setup/FAQ H2s, closing |
+| `why-run-your-own-website.md` | LIGHT POLISH | Search/analytics/cost H2s |
+
+**Cross-cutting:** None of the seven need a full DEEP REWRITE; the biggest gaps vs calibration are **flat H2 headings** (especially RSS and why-run-your-own-website), **summary-sandwich closings** (consistent-ai, facebook, RSS), and **second-person/generic stretches** where the calibration post stays in `I/my` with a named failure. **`framework`** clusters in static-site-vs-cms; **`deploy`** in sustainable-online-publishing. **No em/en dash violations** anywhere in this set.

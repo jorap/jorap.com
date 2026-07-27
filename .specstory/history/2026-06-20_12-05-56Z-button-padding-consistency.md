@@ -1197,7 +1197,7 @@ Cards page Anki buttons are missing from the mobile selector list. A shared wrap
 
 _**Agent (default)**_
 
-The issue is `.btn` using `inline-block` with `min-height` on mobile - text sits toward the top instead of centering. Switching to flex centering and aligning filter chips.
+The issue is `.btn` using `inline-block` with `min-height` on mobile — text sits toward the top instead of centering. Switching to flex centering and aligning filter chips.
 
 
 _**Agent (default)**_
@@ -1358,10 +1358,10 @@ Buttons looked uneven because `.btn` used `inline-block` with inherited line-hei
 
 Here’s what changed:
 
-1. **Base `.btn` styles** (`themes/jorap/assets/css/buttons.css`) - switched to `inline-flex items-center justify-center` with `leading-none`, so label text is vertically centered and top/bottom padding stays even.
+1. **Base `.btn` styles** (`themes/jorap/assets/css/buttons.css`) — switched to `inline-flex items-center justify-center` with `leading-none`, so label text is vertically centered and top/bottom padding stays even.
 
-2. **Filter chips** (`assets/css/custom.css`) - `.notes-filter` and `.notes-graph-filter` use the same flex centering, with explicit `padding-block` / `padding-inline` instead of shorthand.
+2. **Filter chips** (`assets/css/custom.css`) — `.notes-filter` and `.notes-graph-filter` use the same flex centering, with explicit `padding-block` / `padding-inline` instead of shorthand.
 
-3. **Cards page Anki panel** - added `notes-action-panel` so those buttons get the same mobile touch-target sizing and symmetric padding as the toolbar on smaller screens.
+3. **Cards page Anki panel** — added `notes-action-panel` so those buttons get the same mobile touch-target sizing and symmetric padding as the toolbar on smaller screens.
 
 Rebuild the site (or refresh if the dev server is running) to see the update on `/notes/cards/` and other notes pages.

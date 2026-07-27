@@ -590,7 +590,7 @@ Gear reviews and AI posts are being held back. The router drafts have placeholde
 
 _**Agent (default)**_
 
-From your **26 drafts** (after the ideas.jorap.com batch), these five make the strongest first release - not because they're the only good ones, but because they form a coherent story, cross-link to posts you already have live, and mix utility with voice.
+From your **26 drafts** (after the ideas.jorap.com batch), these five make the strongest first release — not because they're the only good ones, but because they form a coherent story, cross-link to posts you already have live, and mix utility with voice.
 
 ## Top 5 to release first
 
@@ -601,13 +601,13 @@ From your **26 drafts** (after the ideas.jorap.com batch), these five make the s
 **Why second:** A practical follow-up, not a repeat of #1. It links to published posts (mouse wheel click, RSS) instead of floating on its own. Release it a few days after #1 so the pair reads like a mini-series.
 
 ### 3. **Sustainable Online Publishing**
-**Why third:** Completes your "own your corner of the internet" cluster with [top reasons for a website](top-reasons-create-maintain-your-own-website), [HugoPlate review](hugoplate-theme-review), and the JoRap's World build post. Different angle - *why keep publishing on your own site* - without rehashing the Hugo tutorial.
+**Why third:** Completes your "own your corner of the internet" cluster with [top reasons for a website](top-reasons-create-maintain-your-own-website), [HugoPlate review](hugoplate-theme-review), and the JoRap's World build post. Different angle — *why keep publishing on your own site* — without rehashing the Hugo tutorial.
 
 ### 4. **Password Managers**
 **Why fourth:** Evergreen, broadly useful, and a break from productivity/website themes. Strong "recommend this to anyone" post. Bitwarden + unique passwords is concrete advice people can act on today.
 
 ### 5. **Why I Stopped Playing Marvel Snap**
-**Why fifth:** You just rewrote this as a personal essay - it's the most polished opinion piece in the batch. It adds variety (games, burnout, FOMO) so the first five don't all read as "productivity blogger." Good palate cleanser after four practical posts.
+**Why fifth:** You just rewrote this as a personal essay — it's the most polished opinion piece in the batch. It adds variety (games, burnout, FOMO) so the first five don't all read as "productivity blogger." Good palate cleanser after four practical posts.
 
 ---
 
@@ -621,20 +621,20 @@ From your **26 drafts** (after the ideas.jorap.com batch), these five make the s
 | 3 | Password Managers |
 | 3–4 | Why I Stopped Playing Marvel Snap |
 
-Stagger dates rather than dumping all five on the same day - Hugo will sort them fine, but the narrative lands better spaced out.
+Stagger dates rather than dumping all five on the same day — Hugo will sort them fine, but the narrative lands better spaced out.
 
 ---
 
 ## Hold for wave 2
 
-- **Make AI Articles More Human** + **CRAFT Prompt Framework** - pair these after the first five; you already have [Consistent AI Output for WordPress Builds](consistent-ai-output-wordpress-builds) live.
-- **Gear reviews** (wifi router, smart plug, Mi Box S, etc.) - fine content, but 10 similar posts in a row will feel like a product catalog. Drip one every week or two.
-- **JTBD / Process Over Outcomes / Good Habits** - solid, but less tied to *your* site story; better once the Second Brain + publishing cluster is established.
+- **Make AI Articles More Human** + **CRAFT Prompt Framework** — pair these after the first five; you already have [Consistent AI Output for WordPress Builds](consistent-ai-output-wordpress-builds) live.
+- **Gear reviews** (wifi router, smart plug, Mi Box S, etc.) — fine content, but 10 similar posts in a row will feel like a product catalog. Drip one every week or two.
+- **JTBD / Process Over Outcomes / Good Habits** — solid, but less tied to *your* site story; better once the Second Brain + publishing cluster is established.
 
 ---
 
 ## Before flipping `draft: false`
 
-All five still use `/images/image-template.jpg`. Swap in real hero images before publish if you care about cards/social previews - the writing is ready; the images are the main gap.
+All five still use `/images/image-template.jpg`. Swap in real hero images before publish if you care about cards/social previews — the writing is ready; the images are the main gap.
 
 Want me to flip these five to published and stagger the dates?

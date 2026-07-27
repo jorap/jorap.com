@@ -396,7 +396,7 @@ Short bullets lacking sentence structure are also suspicious. I will check recen
 
 _**Agent (auto-low)**_
 
-Searching for bullet fragments-likely continuations split into new bullets-across all notes.
+Searching for bullet fragments—likely continuations split into new bullets—across all notes.
 
 
 _**Agent (auto-low)**_
@@ -2332,7 +2332,7 @@ All fragment issues have been resolved.
 
 _**Agent (auto-low)**_
 
-Reviewed all 237 note files. The problem was in `key_concept` bullets where text got cropped mid-sentence and the remainder became a new bullet - often starting with lowercase (`then keep what works`, `audit - does the teaching...`, `Every` as its own bullet).
+Reviewed all 237 note files. The problem was in `key_concept` bullets where text got cropped mid-sentence and the remainder became a new bullet — often starting with lowercase (`then keep what works`, `audit - does the teaching...`, `Every` as its own bullet).
 
 **Fixed 22 notes** (merged split bullets and restored complete sentences):
 

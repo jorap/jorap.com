@@ -20,7 +20,7 @@ I'll read the blog post and jorap-voice skill to refine this idea.
 
 _**Agent (auto-low)**_
 
-This sounds like a line for your open-source post - I'll read that draft and the voice skill so we can place it cleanly.
+This sounds like a line for your open-source post — I'll read that draft and the voice skill so we can place it cleanly.
 
 
 _**Agent (auto-low)**_
@@ -75,7 +75,7 @@ The user wants to add a nuance about SME affordability to the open source post. 
 
 The existing post already notes that proprietary licenses are fine if someone else pays. The new nuance specifically targets SMEs: proprietary software was unaffordable, while open source required paying in developer time and expertise. This bridges the money problem section and adds credibility. It should be placed right after the proprietary CMS paragraph, or woven into the teaching paragraph.
 
-The draft now uses concrete SME examples. Proprietary software meant license fees that destroyed a shop's margin. Open source removed the license, yet developers still wired WordPress to inventory, tuned themes, and handled updates. That expertise replaced the subscription. It was still cheaper than a boxed CMS nobody could install, but it was trade, not magic free. One alternative opens with "Small and medium enterprises couldn't afford proprietary stacks - the license was the whole month."
+The draft now uses concrete SME examples. Proprietary software meant license fees that destroyed a shop's margin. Open source removed the license, yet developers still wired WordPress to inventory, tuned themes, and handled updates. That expertise replaced the subscription. It was still cheaper than a boxed CMS nobody could install, but it was trade, not magic free. One alternative opens with "Small and medium enterprises couldn't afford proprietary stacks — the license was the whole month."
 
 The draft now stresses that open source looks free until it must match the business workflow. Then the cost shifts to developer customization or weekend plugin learning. The phrase "free software, not free implementation" captures this trade-off. It belongs in the opening money-and-access section. The user likely wants this fully woven into the post rather than just polished.
 </details></think>
@@ -248,14 +248,14 @@ _**Agent (auto-low)**_
 
 Shifted the post from "no license fee" to **freedom** (install, inspect, customize, own) and made the learning cost explicit throughout.
 
-**TL;DR and opening** - "Freedom mattered more than free." Added that WordPress and Hugo each took months before they felt trustworthy, and that open source lets you learn on your own schedule but doesn't skip the learning.
+**TL;DR and opening** — "Freedom mattered more than free." Added that WordPress and Hugo each took months before they felt trustworthy, and that open source lets you learn on your own schedule but doesn't skip the learning.
 
-**SME paragraph** - Ends on "Freedom to adapt, not a finished product out of the box" instead of "Free license, not free fit."
+**SME paragraph** — Ends on "Freedom to adapt, not a finished product out of the box" instead of "Free license, not free fit."
 
-**Hosting section** - Portability reframed as "Freedom to move" and tied to evenings spent learning, not subscriptions.
+**Hosting section** — Portability reframed as "Freedom to move" and tied to evenings spent learning, not subscriptions.
 
-**What it doesn't mean** - New bullet: **Freedom isn't free time** - evenings, broken staging sites, plugin configs. Skills stuck; you weren't renting permission to touch your own stack.
+**What it doesn't mean** — New bullet: **Freedom isn't free time** — evenings, broken staging sites, plugin configs. Skills stuck; you weren't renting permission to touch your own stack.
 
-**Closing** - Pick for freedom, not just "is it free." Budget time to learn. "The freedom was worth the months."
+**Closing** — Pick for freedom, not just "is it free." Budget time to learn. "The freedom was worth the months."
 
 Cost still shows up where it matters (no license fee gets you in the door, free tiers stack). The through-line is that freedom is the real win, and you pay for it in time.

@@ -528,4 +528,33 @@ _**Agent (auto-low)**_
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && node scripts/themeGenerator.js && node scripts/noteFileDates.js && hugo --gc 2>&1 | rg 'broken wikilink|unlinked mention' || true
 ```
+
+```
+✅ Theme CSS generated successfully at: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/assets/css/generated-theme.css
+✅ Note file dates written: /home/jorap/Documents/GitHub/jorap.com/data/noteFileDates.json (283 notes)
+
+```
 </details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Lint passed with no broken wikilinks or unlinked mentions.
+
+The fix is complete. The linter skips alias checks once a note is linked elsewhere in the file.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Fixed the unlinked mention in `workplace-principles.md`.
+
+The alias `rollback` points at [[Rollback Principle]], but the note had no wikilink to that page anywhere in the body. The linter only flags it once per note, so one link clears the issue.
+
+**Change:** In the [[Fail on Paper First]] bullet, `rollback` is now `[[Rollback Principle]]`.
+
+Hugo build is clean — no broken wikilinks or unlinked mentions.
+
+## Session close
+- Fixed: Linked `rollback` to `[[Rollback Principle]]` in Workplace Principles.
+- Encode: none
+- Open: clean

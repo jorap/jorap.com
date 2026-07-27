@@ -710,12 +710,12 @@ _**Agent (default)**_
 .cursor/skills/impeccable → ../../../impeccable/dist/universal/.cursor/skills/impeccable
 ```
 
-Git still had ~94 real files tracked under that path. When you run `git add` (or your editor stages files individually), Git tries to follow paths like `.cursor/skills/impeccable/reference/adapt.md` through the symlink and refuses - it won't traverse paths beyond a symlink boundary.
+Git still had ~94 real files tracked under that path. When you run `git add` (or your editor stages files individually), Git tries to follow paths like `.cursor/skills/impeccable/reference/adapt.md` through the symlink and refuses — it won't traverse paths beyond a symlink boundary.
 
 **What I fixed:**
 
-1. Added `.cursor/skills/impeccable` to `.gitignore` - it’s meant to be linked locally per your [sync-upstreams skill](.cursor/skills/sync-upstreams/SKILL.md), not vendored in the repo.
-2. Removed impeccable from the Git index with `git rm -r --cached .cursor/skills/impeccable` - this stages deletion of the old vendored files without touching the symlink on disk.
+1. Added `.cursor/skills/impeccable` to `.gitignore` — it’s meant to be linked locally per your [sync-upstreams skill](.cursor/skills/sync-upstreams/SKILL.md), not vendored in the repo.
+2. Removed impeccable from the Git index with `git rm -r --cached .cursor/skills/impeccable` — this stages deletion of the old vendored files without touching the symlink on disk.
 
 Your symlink still works locally. `git add -A` and `git commit` should succeed now.
 
@@ -727,7 +727,7 @@ git rm -r --cached .cursor/skills/impeccable
 
 Then make sure `.cursor/skills/impeccable` is in `.gitignore` before running `git add -A`.
 
-I did **not** create a commit - your other staged changes are ready whenever you want to commit. The impeccable deletions and `.gitignore` update will be included in that commit.
+I did **not** create a commit — your other staged changes are ready whenever you want to commit. The impeccable deletions and `.gitignore` update will be included in that commit.
 
 ---
 
@@ -1544,7 +1544,7 @@ Random note panels fetch full note pages and clone the article body, but the ski
 - `assets/js/notes-single-random-notes.js` (bottom of single note pages)
 - `assets/js/blog-random-notes.js`
 
-Flashcards still show on the note’s own page - they’re just omitted from random/shuffle previews. Rebuild or refresh to pick up the JS change.
+Flashcards still show on the note’s own page — they’re just omitted from random/shuffle previews. Rebuild or refresh to pick up the JS change.
 
 ---
 
@@ -2004,8 +2004,8 @@ cd /home/jorap/Documents/GitHub/jorap.com && rg 'Missing note|notesWithIssues|no
 ```
 
 ```
-public/notes/issues/index.md:**Missing note** means the wikilink target does not match any published note title, slug, or alias. **Unlinked mention** means another note's title (or alias) appears in the body text but is not linked. Frontmatter and flashcards are not checked - only the note body.
-public/notes/issues/index.html:<p><strong>Missing note</strong> means the wikilink target does not match any published note title, slug, or alias. <strong>Unlinked mention</strong> means another note&rsquo;s title (or alias) appears in the body text but is not linked. Frontmatter and flashcards are not checked - only the note body.</p>
+public/notes/issues/index.md:**Missing note** means the wikilink target does not match any published note title, slug, or alias. **Unlinked mention** means another note's title (or alias) appears in the body text but is not linked. Frontmatter and flashcards are not checked — only the note body.
+public/notes/issues/index.html:<p><strong>Missing note</strong> means the wikilink target does not match any published note title, slug, or alias. <strong>Unlinked mention</strong> means another note&rsquo;s title (or alias) appears in the body text but is not linked. Frontmatter and flashcards are not checked — only the note body.</p>
 
 ```
 </details></tool-use>
@@ -2764,7 +2764,7 @@ Scanning `.Content` for leftover wikilinks was rejected as too heavy. The `[[Car
 
 _**Agent (default)**_
 
-Identifying the mismatch: the issues linter scans raw markdown (and skips code), while rendering uses Hugo's typographer-processed HTML with case-sensitive replacement-so links like `[[Cards]]` and `[[The Collector's Fallacy]]` look broken but aren't listed as issues. Fixing wikilink rendering to align with registry resolution.
+Identifying the mismatch: the issues linter scans raw markdown (and skips code), while rendering uses Hugo's typographer-processed HTML with case-sensitive replacement—so links like `[[Cards]]` and `[[The Collector's Fallacy]]` look broken but aren't listed as issues. Fixing wikilink rendering to align with registry resolution.
 
 
 _**Agent (default)**_
@@ -2931,7 +2931,7 @@ cd /home/jorap/Documents/GitHub/jorap.com && rg 'notes-issues-group|Missing note
 ```
 
 ```
-<a class="text-accent text-sm no-underline hover:underline" href=/notes/graph/>Graph</a></div><h1 class="article-title mb-4">Issues</h1><div class="content notes-content mb-6"><p><strong>Garden link issues</strong> = broken wikilinks and note titles mentioned in prose without a <code>[[wikilink]]</code> - listed below and on each affected note.</p><p><strong>Missing note</strong> means the wikilink target does not match any published note title, slug, or alias. <strong>Unlinked mention</strong> means another note's title (or alias) appears in the body text but is not linked. Frontmatter and flashcards are not checked - only the note body.</p><p>Extends <a href=/notes/getting-started/ class=wikilink data-wikilink-preview=/notes/getting-started/>Getting Started</a>. Implements <a href=/notes/graph-view-analytics/ class=wikilink data-wikilink-preview=/notes/graph-view-analytics/>Graph View Analytics</a>.</p></div><div class="notes-issues-summary border-divider mb-8 rounded border p-5"><h2 class="h6 mb-3">Summary</h2><p class="notes-issues-summary__ok mb-0 text-sm">No link issues found. Every wikilink resolves and no note titles are mentioned without linking.</p></div></div></div></div></section></main><footer class=bg-elevated><div class=container><div class="row items-center py-10"><div class="lg:col-3 mb-8 text-center lg:mb-0 lg:text-left"><a class="navbar-brand inline-block" href=/><img fetchpriority=high decoding=async class="img img-light" width=60 height=60 src=/images/jorap_hu_b1aeb518a52aae7f.webp alt="JoRap Notes" data-fallback-src=/images/jorap_hu_e011a8b0c37a1202.png>
+<a class="text-accent text-sm no-underline hover:underline" href=/notes/graph/>Graph</a></div><h1 class="article-title mb-4">Issues</h1><div class="content notes-content mb-6"><p><strong>Garden link issues</strong> = broken wikilinks and note titles mentioned in prose without a <code>[[wikilink]]</code> — listed below and on each affected note.</p><p><strong>Missing note</strong> means the wikilink target does not match any published note title, slug, or alias. <strong>Unlinked mention</strong> means another note's title (or alias) appears in the body text but is not linked. Frontmatter and flashcards are not checked — only the note body.</p><p>Extends <a href=/notes/getting-started/ class=wikilink data-wikilink-preview=/notes/getting-started/>Getting Started</a>. Implements <a href=/notes/graph-view-analytics/ class=wikilink data-wikilink-preview=/notes/graph-view-analytics/>Graph View Analytics</a>.</p></div><div class="notes-issues-summary border-divider mb-8 rounded border p-5"><h2 class="h6 mb-3">Summary</h2><p class="notes-issues-summary__ok mb-0 text-sm">No link issues found. Every wikilink resolves and no note titles are mentioned without linking.</p></div></div></div></div></section></main><footer class=bg-elevated><div class=container><div class="row items-center py-10"><div class="lg:col-3 mb-8 text-center lg:mb-0 lg:text-left"><a class="navbar-brand inline-block" href=/><img fetchpriority=high decoding=async class="img img-light" width=60 height=60 src=/images/jorap_hu_b1aeb518a52aae7f.webp alt="JoRap Notes" data-fallback-src=/images/jorap_hu_e011a8b0c37a1202.png>
 
 ```
 </details></tool-use>
@@ -3145,7 +3145,7 @@ Total in 7085 ms
 --- broken ---
 none
 --- issues page ---
-<p><strong>Missing note</strong> means the wikilink target does not match any published note title, slug, or alias. <strong>Unlinked mention</strong> means another note's title (or alias) appears in the body text but is not linked. Frontmatter and flashcards are not checked - only the note body.</p>
+<p><strong>Missing note</strong> means the wikilink target does not match any published note title, slug, or alias. <strong>Unlinked mention</strong> means another note's title (or alias) appears in the body text but is not linked. Frontmatter and flashcards are not checked — only the note body.</p>
             <h2 class="h6 mb-3">Summary</h2><p class="notes-issues-summary__ok mb-0 text-sm">No link issues found. Every wikilink resolves and no note titles are mentioned without linking.</p></div></div>
 
 ```
@@ -3159,7 +3159,7 @@ All broken wikilinks are now fixed. Zero remain.
 
 _**Agent (default)**_
 
-The “broken” links you were seeing were mostly **false alarms** - the issues page was right that they resolve in the registry; rendering was wrong.
+The “broken” links you were seeing were mostly **false alarms** — the issues page was right that they resolve in the registry; rendering was wrong.
 
 **What was going wrong**
 
@@ -3167,7 +3167,7 @@ The issues linter scans raw markdown and looks up targets case-insensitively in 
 
 1. **Typographer** curled apostrophes inside `[[...]]` (e.g. `Collector's` → `Collector's`)
 2. **Case differed** from the stored title (e.g. `[[Cards]]` vs slug `cards` / title `Flashcards`)
-3. **Titles had parentheses** (e.g. `[[Spaced Repetition Systems (SRS)]]` - regex escaping broke)
+3. **Titles had parentheses** (e.g. `[[Spaced Repetition Systems (SRS)]]` — regex escaping broke)
 4. **Self-links** were skipped during replacement, then marked broken
 5. **Code examples** like `` `[[wikilinks]]` `` were converted to broken spans (the linter correctly ignores inline code)
 
@@ -3181,7 +3181,7 @@ So notes looked broken while `/notes/issues/` said “all clear.”
 - Fixed duplicate/broken `[[Cards]]` line in `review.md` → `[[Flashcards]]`
 - Busted the issues cache key to `note-issues-v2`
 
-After rebuild: **zero** `wikilink-broken` spans across the garden, and the issues page still reports no missing notes - which is now consistent.
+After rebuild: **zero** `wikilink-broken` spans across the garden, and the issues page still reports no missing notes — which is now consistent.
 
 If you add a wikilink that truly doesn’t match any title, slug, or alias, it should show as broken on the note **and** appear on `/notes/issues/`. Rebuild the site to pick up the template changes.
 
@@ -4249,15 +4249,15 @@ _**Agent (default)**_
 
 Utility pages are now excluded from “garden notes” everywhere that matters.
 
-**New partial:** `is-utility-page.html` - marks a page as utility when it has `note_kind: meta` or layout is `graph`, `cards`, `review`, `issues`, `random-two`, or `random-three`.
+**New partial:** `is-utility-page.html` — marks a page as utility when it has `note_kind: meta` or layout is `graph`, `cards`, `review`, `issues`, `random-two`, or `random-three`.
 
-**`pages.html`** - by default returns only real garden notes (utility excluded). Pass `IncludeUtility: true` when you need utility pages in the set (wikilink registry only).
+**`pages.html`** — by default returns only real garden notes (utility excluded). Pass `IncludeUtility: true` when you need utility pages in the set (wikilink registry only).
 
 **Updated callers:**
-- `random-pool.html` - Random note / 2 random / 3 random pickers use garden notes only
-- `backlinks.html`, `related-notes.html`, `collect-cards.html` - same default via `pages.html`
-- `link-registry.html` - still includes utility pages so `[[Graph]]`, `[[Flashcards]]`, etc. resolve as links
-- `related-notes.html` - Hugo `.Related` fallback also skips utility pages
+- `random-pool.html` — Random note / 2 random / 3 random pickers use garden notes only
+- `backlinks.html`, `related-notes.html`, `collect-cards.html` — same default via `pages.html`
+- `link-registry.html` — still includes utility pages so `[[Graph]]`, `[[Flashcards]]`, etc. resolve as links
+- `related-notes.html` — Hugo `.Related` fallback also skips utility pages
 
 **Already correct:** note list, graph data, issues scanner, recent-updated (via `garden-pages.html`).
 

@@ -994,7 +994,7 @@ for name in FLAGGED:
     raw_fm, _ = split_frontmatter(text)
     fm = yaml.safe_load(raw_fm) or {}
     print(&#34;=&#34; * 70)
-    print(f&#34;## {name} - {fm.get(&#39;title&#39;)}&#34;)
+    print(f&#34;## {name} — {fm.get(&#39;title&#39;)}&#34;)
     print(f&#34;DESC: {fm.get(&#39;description&#39;)}&#34;)
     print(&#34;KEY (first 200):&#34;, (fm.get(&#39;key_concept&#39;) or &#39;&#39;)[:200])
     print(&#34;SHAREABLE:&#34;)
@@ -1023,7 +1023,7 @@ for name in FLAGGED:
     raw_fm, _ = split_frontmatter(text)
     fm = yaml.safe_load(raw_fm) or {}
     print("=" * 70)
-    print(f"## {name} - {fm.get('title')}")
+    print(f"## {name} — {fm.get('title')}")
     print(f"DESC: {fm.get('description')}")
     print("KEY (first 200):", (fm.get('key_concept') or '')[:200])
     print("SHAREABLE:")
@@ -1034,7 +1034,7 @@ PYEOF
 
 ```
 ======================================================================
-## adaptability.md - Adaptability
+## adaptability.md — Adaptability
 DESC: Adaptability swaps the method when conditions shift - same aim, different plan.
 KEY (first 200): Keep the goal, swap the method when the ground moves.
 
@@ -1048,7 +1048,7 @@ SHAREABLE:
   [2] Adaptability is changing method without losing aim when conditions, tools, or opponents shift.
   [3] Same aim, different plan when the ground moves.
 ======================================================================
-## ask-seek-knock.md - Ask Seek Knock
+## ask-seek-knock.md — Ask Seek Knock
 DESC: Ask, seek, knock means prayer on schedule - not a one-time burst when desperation hits.
 KEY (first 200): Jesus compares God to a parent who gives bread, not a stone.
 
@@ -1059,7 +1059,7 @@ SHAREABLE:
   [2] The Ask Seek Knock (Matthew 6:9-13) models priority: God's name, kingdom, will - then daily needs and forgiveness.
   [3] Prayer isn't bargaining for merit; under Free Grace it's the dependent posture of a child who already belongs to the household.
 ======================================================================
-## break-the-escalation-cycle.md - Break the Escalation Cycle
+## break-the-escalation-cycle.md — Break the Escalation Cycle
 DESC: Break the escalation cycle - don't match tone for tone when a sharp email lands; stop the loop first.
 KEY (first 200): Not passivity - I can still set boundaries and name facts.
 
@@ -1517,11 +1517,11 @@ for item in cross_refs:
         seen.add(item)
         print(f&#34;{item[0]} [{item[1]}] refs &#39;{item[2]}&#39;: {item[3]}&#34;)
 
-print(f&#34;\n=== SHORT LINES (&lt;6 words, weak verb) - {len(fragments)} ===&#34;)
+print(f&#34;\n=== SHORT LINES (&lt;6 words, weak verb) — {len(fragments)} ===&#34;)
 for item in sorted(fragments, key=lambda x: (x[0], x[1])):
     print(f&#34;{item[0]} [{item[1]}] ({item[2]}w): {item[3]}&#34;)
 
-print(f&#34;\n=== NEAR-DUPLICATES (Jaccard&gt;0.55, not overlap-detected) - {len(duplicates)} ===&#34;)
+print(f&#34;\n=== NEAR-DUPLICATES (Jaccard&gt;0.55, not overlap-detected) — {len(duplicates)} ===&#34;)
 for item in duplicates[:30]:
     print(f&#34;{item[0]} [{item[1]}]~[{item[2]}] j={item[3]}&#34;)
     print(f&#34;  A: {item[4]}&#34;)
@@ -1593,11 +1593,11 @@ for item in cross_refs:
         seen.add(item)
         print(f"{item[0]} [{item[1]}] refs '{item[2]}': {item[3]}")
 
-print(f"\n=== SHORT LINES (<6 words, weak verb) - {len(fragments)} ===")
+print(f"\n=== SHORT LINES (<6 words, weak verb) — {len(fragments)} ===")
 for item in sorted(fragments, key=lambda x: (x[0], x[1])):
     print(f"{item[0]} [{item[1]}] ({item[2]}w): {item[3]}")
 
-print(f"\n=== NEAR-DUPLICATES (Jaccard>0.55, not overlap-detected) - {len(duplicates)} ===")
+print(f"\n=== NEAR-DUPLICATES (Jaccard>0.55, not overlap-detected) — {len(duplicates)} ===")
 for item in duplicates[:30]:
     print(f"{item[0]} [{item[1]}]~[{item[2]}] j={item[3]}")
     print(f"  A: {item[4]}")
@@ -1608,7 +1608,7 @@ PYEOF
 ```
 === CROSS-NOTE TITLE REFERENCES (title not in own description/key_concept) ===
 
-=== SHORT LINES (<6 words, weak verb) - 46 ===
+=== SHORT LINES (<6 words, weak verb) — 46 ===
 atomic-notes.md [2] (5w): Too many ands, split it.
 attention-economy.md [2] (5w): Platforms compete for your focus.
 backlinks.md [0] (5w): Inbound wikilinks ranked by count.
@@ -1911,30 +1911,30 @@ _**Agent (auto-low)**_
 
 ## Review summary
 
-Reviewed **214 notes** (all have 4 `shareable_thought` lines). Automated lint (`scripts/lint-notes-frontmatter.py`) passes on every note - grammar, length, overlap detection, and "from principle" checks are clean.
+Reviewed **214 notes** (all have 4 `shareable_thought` lines). Automated lint (`scripts/lint-notes-frontmatter.py`) passes on every note — grammar, length, overlap detection, and "from principle" checks are clean.
 
-A deeper pass against the jorap-voice rule - *each line is a complete thought a reader understands alone, paste-ready* - found **~27 notes** with at least one line that fails self-contained or independent. **~187 notes** look good.
+A deeper pass against the jorap-voice rule — *each line is a complete thought a reader understands alone, paste-ready* — found **~27 notes** with at least one line that fails self-contained or independent. **~187 notes** look good.
 
 ---
 
-### Tier 1 - Not self-contained (would confuse someone who only sees the line)
+### Tier 1 — Not self-contained (would confuse someone who only sees the line)
 
 These break the "paste into Slack" test.
 
 | Note | Line | Problem |
 |------|------|---------|
-| `ethical-leadership.md` | [2] *"Integrity in general; this note is the team-visible lane."* | Meta - "this note" needs the page |
+| `ethical-leadership.md` | [2] *"Integrity in general; this note is the team-visible lane."* | Meta — "this note" needs the page |
 | `the-wise-builder.md` | [2] *"See The Narrow Way and Loss of Reward for…"* | Cross-note pointer, not a principle |
 | `outcomes-over-pitch-decks.md` | [2] *"On Static Site Client Scope, same filter:…"* | Assumes another note; "same filter" is dangling |
 | `note-relationships.md` | [2] *"Extends builds on another note."* | Label, not a claim |
-| `note-relationships.md` | [3] *"Contradicts names the tradeoff."* | Incomplete - names what, for whom? |
+| `note-relationships.md` | [3] *"Contradicts names the tradeoff."* | Incomplete — names what, for whom? |
 | `the-feynman-technique.md` | [0] *"I teach the note out loud to a blank page."* | "The note" = PKM jargon without context |
-| `the-knowledge-lifecycle.md` | [2–3] *"Spend effort where the note actually is."* / *"Match effort to the stage the note is in…"* | Same - "the note" isn't defined alone |
+| `the-knowledge-lifecycle.md` | [2–3] *"Spend effort where the note actually is."* / *"Match effort to the stage the note is in…"* | Same — "the note" isn't defined alone |
 | `first-principles-thinking.md` | [1] *"When a note is only a quote, I add what I actually believe…"* | Garden-system language, not a universal principle |
-| `systems-thinking.md` | [1] *"Inputs, delays, feedback - and fix the process…"* | Clause fragment - no subject |
+| `systems-thinking.md` | [1] *"Inputs, delays, feedback - and fix the process…"* | Clause fragment — no subject |
 | `systems-thinking.md` | [3] *"So you change the process, not only patch today's fire."* | "So" = continuation of prior line |
 | `digital-garden.md` | [1] *"Linked, imperfect, alive on Hugo and Git."* | Adjective list, no claim |
-| `joy.md` | [2] *"Grown by walking in the Spirit, not manufactured for credit."* | No subject - who/what is grown? |
+| `joy.md` | [2] *"Grown by walking in the Spirit, not manufactured for credit."* | No subject — who/what is grown? |
 | `joy.md` | [3] *"Abide in Me is the engine."* | Cross-note title drop; "the engine" of what? |
 | `judgment-seat.md` | [3] *"Secret Devotion and Let Your Light Shine both show up in the ledger."* | Names other notes; "the ledger" undefined alone |
 | `slow-productivity.md` | [3] *"That's the pushback on busy-as-virtue."* | "That's" needs the prior three lines |
@@ -1945,9 +1945,9 @@ These break the "paste into Slack" test.
 
 ---
 
-### Tier 2 - Self-contained but not independent (4 lines, ~1 idea)
+### Tier 2 — Self-contained but not independent (4 lines, ~1 idea)
 
-Worst case: **`leadership.md`** - all four lines restate *"own direction, pace, and care when people look to you."*
+Worst case: **`leadership.md`** — all four lines restate *"own direction, pace, and care when people look to you."*
 
 | Note | Issue |
 |------|-------|
@@ -1964,15 +1964,15 @@ These pass lint (each line is grammatical and sourced from `key_concept`) but fa
 
 ---
 
-### Tier 3 - Borderline (short or title-echo, but OK standalone)
+### Tier 3 — Borderline (short or title-echo, but OK standalone)
 
 These are short or repeat the title, yet work as paste-ready principles:
 
-- `capture.md` [1] - *"Friction kills capture."*
-- `faith-and-works.md` [0] - *"Faith alone saves me."*
-- `complete-the-cycle.md` [1–3] - parallel "A meeting/decision/mistake needs…" (three distinct applications of one pattern)
-- `break-the-escalation-cycle.md` [0] - title echo, but the line stands alone
-- `love-your-enemies.md` [0] - scripture command, self-contained
+- `capture.md` [1] — *"Friction kills capture."*
+- `faith-and-works.md` [0] — *"Faith alone saves me."*
+- `complete-the-cycle.md` [1–3] — parallel "A meeting/decision/mistake needs…" (three distinct applications of one pattern)
+- `break-the-escalation-cycle.md` [0] — title echo, but the line stands alone
+- `love-your-enemies.md` [0] — scripture command, self-contained
 
 Short ≠ broken when the verb and claim are clear.
 
@@ -1982,16 +1982,16 @@ Short ≠ broken when the verb and claim are clear.
 
 **~87% of notes** have four lines that are both self-contained and meaningfully distinct. Examples:
 
-- `repent-and-believe.md` - four distinct angles (command, repentance, belief, Free Grace response)
-- `blameless-after-action-review.md`, `deep-work.md`, `free-grace.md`, `psychological-safety.md` - each line is a different facet
+- `repent-and-believe.md` — four distinct angles (command, repentance, belief, Free Grace response)
+- `blameless-after-action-review.md`, `deep-work.md`, `free-grace.md`, `psychological-safety.md` — each line is a different facet
 
 ---
 
 ### Recommended fix order
 
-1. **Tier 1 first** (~19 lines across ~15 notes) - meta language, cross-note pointers, clause fragments, dangling "That's"
-2. **Tier 2 next** (~16 notes) - rewrite duplicates so each line covers a different lane from `key_concept` (definition / contrast / application / stakes)
-3. **Optional lint hardening** - flag `"this note"`, `^See `, `^That's `, and `^So ` in `lint-notes-frontmatter.py` so these don't creep back in
+1. **Tier 1 first** (~19 lines across ~15 notes) — meta language, cross-note pointers, clause fragments, dangling "That's"
+2. **Tier 2 next** (~16 notes) — rewrite duplicates so each line covers a different lane from `key_concept` (definition / contrast / application / stakes)
+3. **Optional lint hardening** — flag `"this note"`, `^See `, `^That's `, and `^So ` in `lint-notes-frontmatter.py` so these don't creep back in
 
 Want me to fix Tier 1 (or all tiers) in a batch?
 
@@ -2906,26 +2906,26 @@ _**Agent (auto-low)**_
 
 All three tiers are done. Summary:
 
-### Tier 1 - Self-contained fixes (16 notes + 3 stragglers)
+### Tier 1 — Self-contained fixes (16 notes + 3 stragglers)
 Rewrote lines that used meta language (`this note`, `teach the note`), cross-note pointers (`See The Narrow Way…`), clause fragments (`So…`, `Inputs, delays…`), and dangling `That's…` openers.
 
 Examples:
-- `ethical-leadership` - replaced *"this note is the team-visible lane"* with a standalone team-visible integrity claim
-- `the-wise-builder` - replaced *"See The Narrow Way…"* with *"Doing isn't what saves - faith saves - but genuine hearing still produces action."*
-- `systems-thinking`, `joy`, `note-relationships`, `the-feynman-technique`, etc. - each line now reads alone
+- `ethical-leadership` — replaced *"this note is the team-visible lane"* with a standalone team-visible integrity claim
+- `the-wise-builder` — replaced *"See The Narrow Way…"* with *"Doing isn't what saves - faith saves - but genuine hearing still produces action."*
+- `systems-thinking`, `joy`, `note-relationships`, `the-feynman-technique`, etc. — each line now reads alone
 
 Also fixed `getting-things-done` and `standard-operating-procedures`, which the new lint caught.
 
-### Tier 2 - Independence fixes (16 notes)
+### Tier 2 — Independence fixes (16 notes)
 Replaced near-duplicate quartets with four distinct angles from each note's `key_concept`:
 
-- `leadership` - direction / pace / care / title-optional (was one claim × 4)
-- `signal-vs-noise` - filter, noise test, entertainment vs signal, 30-day cite test
-- `composure`, `habit-stacking`, `follow-their-lead`, `the-trusted-inbox`, `flashcards`, and others - same pattern
+- `leadership` — direction / pace / care / title-optional (was one claim × 4)
+- `signal-vs-noise` — filter, noise test, entertainment vs signal, 30-day cite test
+- `composure`, `habit-stacking`, `follow-their-lead`, `the-trusted-inbox`, `flashcards`, and others — same pattern
 
 Expanded thin `key_concept` blocks where needed so new lines pass the *from principle* check.
 
-### Tier 3 - Lint hardening
+### Tier 3 — Lint hardening
 Updated `scripts/notes_content.py` (`gets_point_across`) and `scripts/lint-notes-frontmatter.py` to fail on:
 
 - `this note` / `teach the note` / `note garden` meta language
@@ -2935,6 +2935,6 @@ Updated `scripts/notes_content.py` (`gets_point_across`) and `scripts/lint-notes
 - `^On [Title]` cross-note pointers (via expanded `POINTER_PREFIX`)
 
 ### Tooling
-Added `scripts/fix-shareable-thought-review.py` - rerunnable patch map for this batch (34 notes touched).
+Added `scripts/fix-shareable-thought-review.py` — rerunnable patch map for this batch (34 notes touched).
 
 **Verification:** `python3 scripts/lint-notes-frontmatter.py` passes on all 214 notes. Deep audit shows 0 remaining self-contained failures and 0 high-overlap pairs.

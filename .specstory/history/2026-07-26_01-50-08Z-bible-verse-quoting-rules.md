@@ -1822,3 +1822,505 @@ _**Agent (auto-low)**_
 <summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/faithful-steward.md</summary>
 
 </details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The Good Samaritan parable in Luke 10:25-37 is a cohesive literary unit.
+
+I'll fix pray-for-his-own.md and secret-devotion.md. I'll read the ep-verse-explanations for secret-devotion:pericope.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/ep-verse-explanations.yaml</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/data",
+  "pattern": "pray-for-his"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/data",
+  "pattern": "pray-for-his",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "data/noteFileDates.json"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Updating the secret-devotion explanation file to use specific verse references instead of Matthew 6:1-18.
+
+Checking whether to add a verse-explanations entry for pray-for-his-own. Reviewing notes with multiple Bible shortcodes to find the correct pattern.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/ask-seek-knock.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Multiple shortcodes will be used for pray-for-his-own.
+
+John 17:11 will highlight unity. John 17:20-23 will cover future believers. John 17:17 may add sanctification. The note's first gloss stays without a verse dump.
+
+Redundant level bullets will be removed. Meta titles and descriptions will drop the 1-26 range. Secret-devotion will use Matthew 6:3-4, 6:5-6, and 6:17-18.
+
+Three shortcodes will be used for secret-devotion rather than one. The glosses will be condensed to match the original voice.
+
+Secret-devotion glosses will use the original voice: giving in secret, praying behind closed doors, and fasting without performing. Existing level bullets will remain. ep-verse-explanations.yaml will be updated next.
+
+ep-verse-explanations.yaml will store the three secret-devotion shortcodes with their condensed explanations. The old Matthew 6:1 and Matthew 6:1-18 entries will be removed. References to John 17:1-26 in jesus-prayers.md, prayer-jesus-taught.md, and jesus-rhythms.md will be replaced with "John 17" or "the high priestly prayer".
+
+Index and hub notes will link to the note via "[[Pray for His Own]]" or use plain English like "John 17's high priestly prayer." Specific verses such as "John 17:11-23" will be used where needed. A grep will locate every remaining reference to John 17:1-26.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "content/**/*.md",
+  "pattern": "17:1-26|6:1-18"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "17:1-26|6:1-18",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/secret-devotion.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/jesus-rhythms.md"
+    },
+    {
+      "matchCount": 9,
+      "uri": "content/english/notes/pray-for-his-own.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/jesus-prayers.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/prayer-jesus-taught.md"
+    }
+  ],
+  "totalFiles": 5,
+  "totalMatches": 14
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Updating files now. The hub/index prose will reference "John 17's high priestly prayer" or "[[Pray for His Own]]" instead of "John 17:1-26".
+</details></think>
+
+_**Agent (auto-low)**_
+
+Fixing the two violating notes and updating cross-references that cite whole-chapter ranges.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/pray-for-his-own.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+Incorrect tool arguments
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The second search_replace failed because the old_string was empty.
+
+Reading the file to check if the "Invest in the Few" lines were accidentally removed.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/pray-for-his-own.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Restoring the "Invest in the Few" and "Free Grace" lines after the second shortcode gloss.
+
+Updating shareable_thought line 2, aliases, secret-devotion, hub notes, and ep-verse-explanations.yaml2.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/pray-for-his-own.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/pray-for-his-own.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/pray-for-his-own.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/secret-devotion.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/ep-verse-explanations.yaml</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Updating hub notes and verifying that secret-devotion retains its wikilink lines.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/secret-devotion.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/jesus-rhythms.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/jesus-prayers.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/jesus-prayers.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/prayer-jesus-taught.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The garden-voice rule forbids inline citations that stand alone as chapters.
+
+Body prose must also cite specific verses, never whole chapters.
+
+Hub and index notes will drop standalone chapter references. They will use plain descriptions or wikilinks instead. Several files need updating.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Tightening hub-note prose to avoid bare chapter refs like `John 17`, per the rule.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/pray-for-his-own.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/pray-for-his-own.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/pray-for-his-own.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/pray-for-his-own.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/jesus-rhythms.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/jesus-prayers.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/jesus-prayers.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/prayer-jesus-taught.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The meta title still shows only the chapter name.
+
+The meta title will be changed to "High Priestly Prayer" to match the rule.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/pray-for-his-own.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 &lt;&lt; &#39;PY&#39;
+import re, json
+from pathlib import Path
+
+db = json.loads(Path(&#34;data/scripture-nasb1995.json&#34;).read_text())
+chapter_max = {}
+for ref in db.get(&#34;verses&#34;, {}):
+    m = re.match(r&#34;^(.+?) (\d+):(\d+)$&#34;, ref)
+    if m:
+        book, ch, v = m.group(1), int(m.group(2)), int(m.group(3))
+        key = f&#34;{book} {ch}&#34;
+        chapter_max[key] = max(chapter_max.get(key, 0), v)
+
+notes = Path(&#34;content/english/notes&#34;)
+for f in sorted(notes.glob(&#34;*.md&#34;)):
+    text = f.read_text()
+    for m in re.finditer(r&#39;bible ref=&#34;([^&#34;]+)&#34;&#39;, text):
+        ref = m.group(1)
+        parts = ref.rsplit(&#34; &#34;, 1)
+        if len(parts) != 2:
+            continue
+        book, loc = parts
+        if &#34;-&#34; in loc:
+            left, right = loc.split(&#34;-&#34;, 1)
+            if &#34;:&#34; in left:
+                ch, vstart = left.split(&#34;:&#34;, 1)
+                vstart = int(vstart)
+                vend = int(right.split(&#34;:&#34;)[-1]) if &#34;:&#34; in right else int(right)
+                key = f&#34;{book} {ch}&#34;
+                maxv = chapter_max.get(key)
+                if maxv and vstart == 1 and vend &gt;= maxv:
+                    print(f&#34;FULL CHAPTER: {f.name}: {ref}&#34;)
+PY
+hugo --quiet 2&gt;&amp;1 | head -20</summary>
+```bash
+python3 << 'PY'
+import re, json
+from pathlib import Path
+
+db = json.loads(Path("data/scripture-nasb1995.json").read_text())
+chapter_max = {}
+for ref in db.get("verses", {}):
+    m = re.match(r"^(.+?) (\d+):(\d+)$", ref)
+    if m:
+        book, ch, v = m.group(1), int(m.group(2)), int(m.group(3))
+        key = f"{book} {ch}"
+        chapter_max[key] = max(chapter_max.get(key, 0), v)
+
+notes = Path("content/english/notes")
+for f in sorted(notes.glob("*.md")):
+    text = f.read_text()
+    for m in re.finditer(r'bible ref="([^"]+)"', text):
+        ref = m.group(1)
+        parts = ref.rsplit(" ", 1)
+        if len(parts) != 2:
+            continue
+        book, loc = parts
+        if "-" in loc:
+            left, right = loc.split("-", 1)
+            if ":" in left:
+                ch, vstart = left.split(":", 1)
+                vstart = int(vstart)
+                vend = int(right.split(":")[-1]) if ":" in right else int(right)
+                key = f"{book} {ch}"
+                maxv = chapter_max.get(key)
+                if maxv and vstart == 1 and vend >= maxv:
+                    print(f"FULL CHAPTER: {f.name}: {ref}")
+PY
+hugo --quiet 2>&1 | head -20
+```
+
+```
+mise WARN  failed to write cache file: /home/jorap/.cache/mise/pnpm/11.7.0/bin_paths-7ea32.msgpack.z Permission denied (os error 13)
+mise WARN  failed to write cache file: /home/jorap/.cache/mise/hugo-extended/0.163.3/bin_paths-7ea32.msgpack.z Permission denied (os error 13)
+mise WARN  failed to write cache file: /home/jorap/.cache/mise/pnpm/11.7.0/bin_paths-7ea32.msgpack.z Permission denied (os error 13)
+Command 'hugo' not found, but can be installed with:
+apt install hugo
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+No full chapter violations were found.
+
+Hugo is missing from PATH. I'll try pnpm build or check package.json scripts instead. I'm also removing the "John 17 prayer" alias since it covers only a chapter; keeping "high priestly prayer".
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/pray-for-his-own.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "content/**/*.md",
+  "pattern": "17:1-26|6:1-18"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "17:1-26|6:1-18",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+All whole-chapter range references have been removed.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Migrated the notes that violated the new rule.
+
+**`pray-for-his-own.md`**
+- Replaced `John 17:1-26` with two shortcodes: `John 17:11` (unity) and `John 17:20-23` (future believers)
+- Prose now says "high priestly prayer" instead of whole-chapter refs
+
+**`secret-devotion.md`**
+- Replaced `Matthew 6:1-18` with three tight ranges: `6:3-4` (give), `6:5-6` (pray), `6:17-18` (fast)
+
+**Hub notes** (`jesus-prayers.md`, `jesus-rhythms.md`, `prayer-jesus-taught.md`) — dropped `John 17:1-26` citations in favor of "high priestly prayer" / wikilinks
+
+**`data/ep-verse-explanations.yaml`** — updated `secret-devotion` entries to match
+
+No full-chapter `bible ref` spans remain. Long but cohesive pericopes (e.g. `Matthew 25:14-30`, `Luke 10:25-37`) were left as-is since they are not whole chapters.
+
+## Session close
+- Fixed: Whole-chapter bible refs trimmed in pray-for-his-own, secret-devotion, and hub cross-refs
+- Encode: none
+- Open: clean

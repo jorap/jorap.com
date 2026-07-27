@@ -18,7 +18,7 @@ I'll analyze the site's visual style to prepare a design brief for a designer.
 
 _**Agent (auto-low)**_
 
-I'll document the site's visual style for designers - starting with Impeccable setup and reading the existing design tokens and theme.
+I'll document the site's visual style for designers — starting with Impeccable setup and reading the existing design tokens and theme.
 
 
 _**Agent (auto-low)**_
@@ -119,7 +119,7 @@ I found an existing DESIGN.md in docs/. I'll check for a root version too. I'll 
 
 _**Agent (auto-low)**_
 
-DESIGN.md already exists - I'll scan the live theme tokens and components to verify it's current, then produce a designer-facing summary.
+DESIGN.md already exists — I'll scan the live theme tokens and components to verify it's current, then produce a designer-facing summary.
 
 
 _**Agent (auto-low)**_
@@ -552,11 +552,11 @@ Here is the **designer brief** you can hand off directly.
 
 ---
 
-## JoRap Notes - Design Brief for Designers
+## JoRap Notes — Design Brief for Designers
 
 ### North star: "The Quiet Study"
 
-Think **daylight on good paper**: a warm off-white reading surface, charcoal ink for authority, almost no chromatic noise. This is a **personal brand site** for potential clients - not a SaaS product, not a dev portfolio, not a creator persona. The goal is **hireable clarity**: someone skimming between meetings should feel *professional, idea-led, credible*.
+Think **daylight on good paper**: a warm off-white reading surface, charcoal ink for authority, almost no chromatic noise. This is a **personal brand site** for potential clients — not a SaaS product, not a dev portfolio, not a creator persona. The goal is **hireable clarity**: someone skimming between meetings should feel *professional, idea-led, credible*.
 
 ### Who it's for
 
@@ -572,7 +572,7 @@ Decision-makers evaluating whether to hire or partner. They care about judgment 
 
 ### Color
 
-**Strategy:** Restrained - warm tinted neutrals + one accent, no second brand hue.
+**Strategy:** Restrained — warm tinted neutrals + one accent, no second brand hue.
 
 | Role | Light | Use |
 |------|-------|-----|
@@ -583,9 +583,9 @@ Decision-makers evaluating whether to hire or partner. They care about judgment 
 | **Divider** | `#e5e2dd` | Borders, rules, table frames |
 | **Deep ground** | `#121110` | Dark mode backdrop |
 
-**Dark mode:** Same semantic roles; accent **inverts to warm cream** (`#f2efe9`) on dark surfaces. Text always shares the warmth of its background - no cool gray on tinted fields.
+**Dark mode:** Same semantic roles; accent **inverts to warm cream** (`#f2efe9`) on dark surfaces. Text always shares the warmth of its background — no cool gray on tinted fields.
 
-**Functional only** (not brand): warning amber, error red, success green, graph-edge amber - for feedback and the notes graph canvas.
+**Functional only** (not brand): warning amber, error red, success green, graph-edge amber — for feedback and the notes graph canvas.
 
 ---
 
@@ -607,8 +607,8 @@ Modular scale ratio: **1.25**. Article titles use a tighter responsive ramp so l
 
 - **Max content width:** 1320px, 16px side padding
 - **Section rhythm:** 56px mobile / 80px desktop vertical padding
-- **Responsive grids:** `auto-fit, minmax(280px, 1fr)` - no breakpoint card armies
-- **Corners:** Subtle - 2px (sm) to 16px (2xl). Cards at **12px** (`rounded-xl`)
+- **Responsive grids:** `auto-fit, minmax(280px, 1fr)` — no breakpoint card armies
+- **Corners:** Subtle — 2px (sm) to 16px (2xl). Cards at **12px** (`rounded-xl`)
 
 ---
 
@@ -635,7 +635,7 @@ Modular scale ratio: **1.25**. Article titles use a tighter responsive ramp so l
 
 **Prose:** Large rounded blockquotes on elevated background; inline code in accent; links underline → accent on hover.
 
-**Notes garden:** Same system as blog - filter toolbar reuses button variants; graph controls are small surface chips with accent pressed states; flashcards flip on surface/elevated faces.
+**Notes garden:** Same system as blog — filter toolbar reuses button variants; graph controls are small surface chips with accent pressed states; flashcards flip on surface/elevated faces.
 
 **Navigation:** Border-bottom header on surface; semibold links, accent on hover/active; dropdown panels elevated + shadow-lg.
 
@@ -669,7 +669,7 @@ Modular scale ratio: **1.25**. Article titles use a tighter responsive ramp so l
 
 ---
 
-If you want this in a different format - Figma token sheet, one-page PDF brief, or a mood-board paragraph with named references (Stripe restraint vs. editorial magazine) - say which and I can shape it.
+If you want this in a different format — Figma token sheet, one-page PDF brief, or a mood-board paragraph with named references (Stripe restraint vs. editorial magazine) — say which and I can shape it.
 
 ---
 
@@ -691,14 +691,14 @@ The design is not strictly minimalist. It uses a single font and flat depth, yet
 
 _**Agent (auto-low)**_
 
-**Partly - but "restrained editorial" fits better than "minimalist."**
+**Partly — but "restrained editorial" fits better than "minimalist."**
 
 ### Where it overlaps with minimalism
 
 - **One accent color**, no decorative palette
 - **One typeface** (Inter), hierarchy from scale/weight only
 - **Flat-first** surfaces; shadows are small and rare
-- **Ideas before optics** - UI stays out of the way of the writing
+- **Ideas before optics** — UI stays out of the way of the writing
 - **No** hero metrics, icon grids, gradient text, glass cards, or visual noise
 
 That is minimal in the *philosophical* sense: judgment through omission, calm hierarchy, professional baseline.
@@ -706,21 +706,21 @@ That is minimal in the *philosophical* sense: judgment through omission, calm hi
 ### Where it isn't minimalist
 
 - **Warm paper tones**, not stark white/black. Minimalism often reads cold and achromatic; this reads like *good stationery*.
-- **Editorial density** - long prose, large blockquotes, cards, widgets, tables with borders. Minimalism often strips containers down to bare text.
-- **The notes garden adds real UI** - graph canvas, filter toolbar, flashcards, stat tiles, tag pills. That's a tool surface, not a one-column essay page.
-- **Tactile feedback** - hover lifts, accent underlines, flip animations. Minimalism often flattens interaction to near-zero.
+- **Editorial density** — long prose, large blockquotes, cards, widgets, tables with borders. Minimalism often strips containers down to bare text.
+- **The notes garden adds real UI** — graph canvas, filter toolbar, flashcards, stat tiles, tag pills. That's a tool surface, not a one-column essay page.
+- **Tactile feedback** — hover lifts, accent underlines, flip animations. Minimalism often flattens interaction to near-zero.
 
 ### The sharper label
 
 | Term | Fit |
 |------|-----|
-| **Minimalist** | Partial - restraint yes, aesthetic austerity no |
+| **Minimalist** | Partial — restraint yes, aesthetic austerity no |
 | **Restrained editorial** | Best fit |
 | **Quiet professional** | Also accurate (the "Quiet Study" north star) |
 | **Brutalist / stark minimal** | No |
 | **SaaS minimal** (Linear/Stripe-clean) | Close cousin, but warmer and less "product UI" |
 
-So: **minimal in discipline, not minimal in look.** A designer should hear *calm, credible, warm-neutral editorial* - not *strip everything until only Helvetica on white remains*.
+So: **minimal in discipline, not minimal in look.** A designer should hear *calm, credible, warm-neutral editorial* — not *strip everything until only Helvetica on white remains*.
 
 If you want it **more** minimalist, the levers would be: fewer card containers, flatter notes chrome, less hover motion, cooler/neutral body bg. If you want to **keep** the current warmth but avoid "generic minimal," you're already on the right side of that line.
 
@@ -758,7 +758,7 @@ Mid-century modern offers a warm geometric alternative with a distinctive sans a
 
 _**Agent (auto-low)**_
 
-Good question. Your current direction is **warm restrained editorial**. These are **real alternatives** that still fit a client-facing, idea-led personal brand - with honest tradeoffs.
+Good question. Your current direction is **warm restrained editorial**. These are **real alternatives** that still fit a client-facing, idea-led personal brand — with honest tradeoffs.
 
 ---
 
@@ -767,14 +767,14 @@ Good question. Your current direction is **warm restrained editorial**. These ar
 ### 1. Typographic authority (serif-led editorial)
 **Feel:** Magazine, essay collection, annual report.  
 **Moves:** Distinctive serif for headlines + clean sans for body; asymmetric layouts; strong hierarchy; fewer cards, more type-led pages.  
-**References:** The Atlantic, Stripe Press, Klim specimen pages (careful - this lane is saturated).  
+**References:** The Atlantic, Stripe Press, Klim specimen pages (careful — this lane is saturated).  
 **Fit:** Strong for "ideas before optics."  
 **Risk:** Slides into generic "AI editorial" if you pick Fraunces/Cormorant/Newsreader and ruled separators by reflex.
 
 ---
 
 ### 2. Monochrome instrument (cool, precise)
-**Feel:** Tool you trust in a meeting - not a blog, not a startup landing page.  
+**Feel:** Tool you trust in a meeting — not a blog, not a startup landing page.  
 **Moves:** Near-neutral or cool gray palette; tighter grid; less cream warmth; sharper borders; data-dense notes UI feels native.  
 **References:** Linear, Vercel docs, government design systems.  
 **Fit:** Good if you want **technical credibility without dev-bro energy**.  
@@ -792,7 +792,7 @@ Good question. Your current direction is **warm restrained editorial**. These ar
 ---
 
 ### 4. Document / institutional trust
-**Feel:** Memo from someone serious - legal pad, briefing paper, consulting deck.  
+**Feel:** Memo from someone serious — legal pad, briefing paper, consulting deck.  
 **Moves:** Strong rules and columns; numbered sections where order matters; less card chrome; form-like structure; restrained caps labels only where needed.  
 **References:** McKinsey PDFs, court filings, government reports (done well).  
 **Fit:** Excellent for **stakeholder comfort** and "I'd trust this person in the room."  
@@ -805,7 +805,7 @@ Good question. Your current direction is **warm restrained editorial**. These ar
 **Moves:** Full-bleed photography; overlaid nav; large project spreads; text in narrow columns beside visuals.  
 **References:** Architect studios, fashion lookbooks, photographer sites.  
 **Fit:** Strong if **work samples** are the proof, not just writing.  
-**Risk:** Weak without real imagery - placeholder blocks kill it.
+**Risk:** Weak without real imagery — placeholder blocks kill it.
 
 ---
 
@@ -828,7 +828,7 @@ Good question. Your current direction is **warm restrained editorial**. These ar
 ---
 
 ### 8. Mid-century modern (warm but geometric)
-**Feel:** Confident, human, slightly retro - not cream-paper-default.  
+**Feel:** Confident, human, slightly retro — not cream-paper-default.  
 **Moves:** Earthy accent (ochre, rust, olive); geometric sans (not Inter); rounded corners with purpose; illustration or pattern as accent only.  
 **References:** 1960s Braun, Eames-era graphic design.  
 **Fit:** Warmer than monochrome, more **personality** than current Quiet Study.  
@@ -855,10 +855,10 @@ Good question. Your current direction is **warm restrained editorial**. These ar
 
 Given **PRODUCT.md** (professional, idea-led, credible; no dev-bro, no SaaS sameness, no chaotic personal brand):
 
-1. **Document / institutional** - closest upgrade path; same trust, sharper voice.  
-2. **Typographic authority** - if writing is the product; pick a non-reflex serif.  
-3. **Committed color** - if you want to be *remembered*; one bold hue, everything else quiet.  
-4. **Monochrome instrument** - if notes/tools are as important as blog posts.
+1. **Document / institutional** — closest upgrade path; same trust, sharper voice.  
+2. **Typographic authority** — if writing is the product; pick a non-reflex serif.  
+3. **Committed color** — if you want to be *remembered*; one bold hue, everything else quiet.  
+4. **Monochrome instrument** — if notes/tools are as important as blog posts.
 
 I'd **deprioritize** brutalist, acid-maximalism, and gallery-led unless you have strong photography or a deliberate "campaign" reason.
 
@@ -873,7 +873,7 @@ Don't redesign the whole site. Pick **one surface** and prototype:
 - **One note page** → institutional vs editorial prose  
 - **Notes graph** → monochrome instrument  
 
-Two directions, same content, side by side - you'll feel the fit in ten minutes.
+Two directions, same content, side by side — you'll feel the fit in ten minutes.
 
 If you want, I can sketch **2–3 concrete mood sentences** for any of these (palette + type + one layout move) so you can hand them to a designer or run `/impeccable shape` on a specific page.
 
@@ -2055,7 +2055,7 @@ All site documentation is updated and aligned. Summary:
 |------|----------------|
 | [`docs/README.md`](docs/README.md) | Expanded index, canonical URLs, token source map, `.impeccable/design.json` link |
 | [`docs/DESIGN.md`](docs/DESIGN.md) | Style positioning (restrained editorial), alternative directions, notes garden + functional colors (from earlier) |
-| [`docs/DESIGN.json`](docs/DESIGN.json) | Synced with `.impeccable/design.json` - full components, notes card, flashcard, updated narrative |
+| [`docs/DESIGN.json`](docs/DESIGN.json) | Synced with `.impeccable/design.json` — full components, notes card, flashcard, updated narrative |
 | [`.impeccable/design.json`](.impeccable/design.json) | Matching `keyCharacteristics` |
 | [`docs/PRODUCT.md`](docs/PRODUCT.md) | Content surfaces table, visual identity cross-links |
 | [`docs/CLIENT_STATIC_SITE.md`](docs/CLIENT_STATIC_SITE.md) | Production branch `master`, apex→www redirect pattern |
@@ -2073,6 +2073,6 @@ All site documentation is updated and aligned. Summary:
 4. **When things break** → `docs/TROUBLESHOOTING.md`
 5. **What's next** → `docs/TODO.md`
 
-`CHANGELOG.md` was left alone except the canonical URL - it logs shipped *functionality*, not internal docs.
+`CHANGELOG.md` was left alone except the canonical URL — it logs shipped *functionality*, not internal docs.
 
 Want me to commit these with `[skip ci]`?

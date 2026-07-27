@@ -705,73 +705,73 @@ The personal-scales collection ends abruptly at "exercise when stressed." It omi
 
 _**Agent (auto-low)**_
 
-Here’s a usefulness assessment of the three collections in `randomizer.yaml` - what each is good for, where it falls short, and how it compares to the board games that inspired it.
+Here’s a usefulness assessment of the three collections in `randomizer.yaml` — what each is good for, where it falls short, and how it compares to the board games that inspired it.
 
 ## Summary
 
 | Collection | Mode | Count | Core use | Usefulness |
 |---|---|---:|---|---|
-| **scale-clues** | `ranked-prompts` | 300 | Group ranks one example on a 1–100 theme | **High** - best all-around party fuel |
-| **personal-scales** | `personal` | 300 | Each person rates themselves 1–100 | **Medium-high** - great icebreaker, repetitive in bulk |
-| **spectrum** | `spectrum` | 300 | Name something between two poles | **Medium** - good debate prompts, not a full Wavelength substitute |
+| **scale-clues** | `ranked-prompts` | 300 | Group ranks one example on a 1–100 theme | **High** — best all-around party fuel |
+| **personal-scales** | `personal` | 300 | Each person rates themselves 1–100 | **Medium-high** — great icebreaker, repetitive in bulk |
+| **spectrum** | `spectrum` | 300 | Name something between two poles | **Medium** — good debate prompts, not a full Wavelength substitute |
 
 **Total: 900 prompts**, zero exact duplicates, all family-friendly. Volume is enough for many game nights without repeats. The curation scripts (`curate-randomizer-300.py`, `build-spectrum-500.py`) rank by quality, so the first ~50 in each deck are noticeably stronger than the tail.
 
 ---
 
-## 1. Ranking prompts (`scale-clues`) - most useful
+## 1. Ranking prompts (`scale-clues`) — most useful
 
 **What it does:** Draw a theme (“Things to bring on a deserted island”), everyone names one concrete thing, then secretly ranks it 1–100. Closest to **Ito**-style play without the branded deck.
 
 **Strengths**
-- Themes are concrete and universally playable - deserted island, game night, comfort food, awkward situations.
+- Themes are concrete and universally playable — deserted island, game night, comfort food, awkward situations.
 - Top entries (pinned in the curation script) are strong: clear framing, easy to name an example, natural disagreement.
 - `play_hint` is the only collection with a full how-to; it tells players what to actually do.
 - Works with any group size; no hidden target or teams required.
 
 **Weaknesses**
-- **Template fatigue:** ~149/300 start with “Things you’d want…” - fine individually, but back-to-back shuffles feel samey.
+- **Template fatigue:** ~149/300 start with “Things you’d want…” — fine individually, but back-to-back shuffles feel samey.
 - **~102 near-duplicate pairs** by similarity (e.g. “bored at home” vs “stuck indoors all day”, “very tired” vs “can’t sleep”). Not broken, but repeats the *feel* of a prompt.
-- Lines ~250–310 are mostly “Things you’d want to do when…” micro-situations - lower variety than the opening block.
+- Lines ~250–310 are mostly “Things you’d want to do when…” micro-situations — lower variety than the opening block.
 
 **Verdict:** **Ship-ready.** Best default collection. For a casual `/randomizer` page, this is the one people will actually use.
 
 ---
 
-## 2. Personal icebreakers (`personal-scales`) - useful with caveats
+## 2. Personal icebreakers (`personal-scales`) — useful with caveats
 
 **What it does:** Self-rating questions on a 1–100 scale. Inspired by **Fun Facts** / personal-scale party games.
 
 **Strengths**
 - Opening ~40 prompts are varied and revealing: “How lazy are you?”, “How competitive at board games?”, “How likely to return a shopping cart?”
-- Good for new groups or mixed ages - low confrontation, high surprise value.
+- Good for new groups or mixed ages — low confrontation, high surprise value.
 - `scale_label` + `play_hint` give enough context to play without rules explanation.
 
 **Weaknesses**
-- **216/300** use the stem “How likely are you to…” - reads like a questionnaire after ~10 shuffles.
-- Curation cut off around **“exercise when stressed”** - the ranked pool never reached later alphabet buckets, so the tail is narrow (lots of “enjoy…”, “eat…”, “enable 2FA”).
+- **216/300** use the stem “How likely are you to…” — reads like a questionnaire after ~10 shuffles.
+- Curation cut off around **“exercise when stressed”** — the ranked pool never reached later alphabet buckets, so the tail is narrow (lots of “enjoy…”, “eat…”, “enable 2FA”).
 - Many items are adjacent in topic (buy souvenirs for everyone vs only for yourself; compare yourself online in three variants).
-- Less “game” than ranking prompts - works as icebreaker, not as a structured round with scoring.
+- Less “game” than ranking prompts — works as icebreaker, not as a structured round with scoring.
 
 **Verdict:** **Good for 15–20 minutes**, not a full evening. Strong opener; weaker as the only collection.
 
 ---
 
-## 3. Concept spectrums (`spectrum`) - useful as prompts, not as Wavelength
+## 3. Concept spectrums (`spectrum`) — useful as prompts, not as Wavelength
 
 **What it does:** Shows two poles (Hot ↔ Cold); players name something in the grey area. Inspired by **Wavelength**.
 
 **Strengths**
 - Clean pairs at the top: Hot/Cold, Overrated/Underrated, City/Country, Dog/Cat person.
-- Debate-friendly - groups argue whether “lukewarm tea” or “room temperature” fits.
+- Debate-friendly — groups argue whether “lukewarm tea” or “room temperature” fits.
 - Only **6 near-duplicate pairs** (e.g. Thrift find / Thrift treasure, Window shopping / Purpose trip).
 - No categories needed; direct-play works well in the UI.
 
 **Weaknesses**
-- **No hidden target** - this is the biggest gap vs Wavelength. You get the spectrum card, not the dial, psychic, teams, or scoring.
-- **Template clusters** at the tail: 9× “Better X / Better Y”, 13× “Too X / Too Y”, 6× “Low X / High X” - mechanically fine, but feel generated.
+- **No hidden target** — this is the biggest gap vs Wavelength. You get the spectrum card, not the dial, psychic, teams, or scoring.
+- **Template clusters** at the tail: 9× “Better X / Better Y”, 13× “Too X / Too Y”, 6× “Low X / High X” — mechanically fine, but feel generated.
 - `play_hint` says “lands between these extremes,” but Wavelength often wants a clue near one pole; your hint correctly steers to the middle, which is a different (lighter) game.
-- Some pairs are weak debate fuel (Password book / Memory only - most people pick one side).
+- Some pairs are weak debate fuel (Password book / Memory only — most people pick one side).
 
 **Verdict:** **Good conversation starter**, not a Wavelength replacement. Pair it with a separate target randomizer (dice, wheel, phone app) if you want real Wavelength scoring.
 
@@ -787,15 +787,15 @@ The randomizer supplies **card text only**:
 | Shuffle + offline HTML export | Hidden target (for Wavelength-style scoring) |
 | Family-safe, generic wording | Teams, psychic role, points (if playing competitively) |
 
-That’s intentional and fine for a lightweight prompt tool - just worth knowing the ceiling.
+That’s intentional and fine for a lightweight prompt tool — just worth knowing the ceiling.
 
 ---
 
 ## Practical ranking for game night
 
-1. **Ranking prompts** - default; works everywhere, most replayable themes.
-2. **Personal icebreakers** - warm-up or “get to know the table” round.
-3. **Concept spectrums** - debate round when you want argument, not numeric guessing.
+1. **Ranking prompts** — default; works everywhere, most replayable themes.
+2. **Personal icebreakers** — warm-up or “get to know the table” round.
+3. **Concept spectrums** — debate round when you want argument, not numeric guessing.
 
 ---
 
@@ -804,10 +804,10 @@ That’s intentional and fine for a lightweight prompt tool - just worth knowing
 1. **scale-clues:** Deduplicate or merge the ~30 weakest “when you’re bored/tired/stuck indoors” variants; diversify away from “Things you’d want when…”.
 2. **personal-scales:** Cap “How likely are you to” at ~120; backfill with varied stems (`How much do you…`, `On a scale…`, `Would you rather know…`).
 3. **spectrum:** Drop the 6 near-dupes and ~15 weakest “Better/Too/Low-High” template pairs; keep debate-rich poles.
-4. **All:** Consider a `quality: pin` flag or separate `top-50` subset for “first visit” shuffle bias - the curation script already knows the ranking.
+4. **All:** Consider a `quality: pin` flag or separate `top-50` subset for “first visit” shuffle bias — the curation script already knows the ranking.
 
 ---
 
-**Bottom line:** The database is **useful and playable as-is** for a free prompt randomizer. **Ranking prompts** carry the product; **personal** and **spectrum** are solid side modes with template fatigue in the long tail. None of the three replaces the full ruleset of Ito, Wavelength, or Fun Facts - they replace the **card deck**, which is the right scope for this page.
+**Bottom line:** The database is **useful and playable as-is** for a free prompt randomizer. **Ranking prompts** carry the product; **personal** and **spectrum** are solid side modes with template fatigue in the long tail. None of the three replaces the full ruleset of Ito, Wavelength, or Fun Facts — they replace the **card deck**, which is the right scope for this page.
 
-If you want this baked into the repo, I can add a short header block to `randomizer.yaml` or a maintainer note in the curation script - say which you prefer.
+If you want this baked into the repo, I can add a short header block to `randomizer.yaml` or a maintainer note in the curation script — say which you prefer.

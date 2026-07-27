@@ -585,7 +585,7 @@ _**Agent (default)**_
 
 _**Agent (default)**_
 
-The partial duplicates `wikilink-preview.js`, which is already loaded on note singles - I'll remove the extra script tag.
+The partial duplicates `wikilink-preview.js`, which is already loaded on note singles — I'll remove the extra script tag.
 
 
 _**Agent (default)**_
@@ -840,10 +840,10 @@ Added a **2 Random Notes** section at the bottom of every note page, matching th
 
 **What was added:**
 
-1. **`layouts/_partials/notes/random-unrelated-notes.html`** - shuffle controls, AI prompt panel, and two note slots. The current note is excluded from the pool.
+1. **`layouts/_partials/notes/random-unrelated-notes.html`** — shuffle controls, AI prompt panel, and two note slots. The current note is excluded from the pool.
 
-2. **`assets/js/notes-single-random-notes.js`** - loads random note bodies, handles shuffling, and builds an AI prompt that includes the current note plus the two random picks.
+2. **`assets/js/notes-single-random-notes.js`** — loads random note bodies, handles shuffling, and builds an AI prompt that includes the current note plus the two random picks.
 
-3. **`layouts/notes/single.html`** - includes the partial after related posts.
+3. **`layouts/notes/single.html`** — includes the partial after related posts.
 
 It appears when at least one other note exists in the garden. Shuffle all/left/right work the same way as on blog posts, and the AI prompt covers combinations of the current note with the random pair.

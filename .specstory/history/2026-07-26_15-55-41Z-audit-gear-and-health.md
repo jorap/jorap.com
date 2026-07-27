@@ -502,6 +502,23 @@ _**Agent (composer-2.5-fast)**_
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && git diff content/english/blog/__smart-plug.md 2>/dev/null | head -80
 ```
+
+```
+diff --git a/content/english/blog/__smart-plug.md b/content/english/blog/__smart-plug.md
+index 274285c3..1bbee9d3 100644
+--- a/content/english/blog/__smart-plug.md
++++ b/content/english/blog/__smart-plug.md
+@@ -87,7 +87,7 @@ Before I buy another smart plug:
+ If I can't answer yes to the first three, I skip it.
+ 
+ 
+-Smart plugs are boring technology in the best way. They don't impress anyone at a party. They just quietly remove small daily friction - lights, fans, worry - for the cost of a nice lunch.
++Smart plugs are boring technology in the best way. They don't impress anyone at a party. They just quietly remove small daily friction - lights, fans, worry - for budget-tier money.
+ 
+ That's enough for me to keep a few in every room that needs one.
+ 
+
+```
 </details></tool-use>
 
 _**Agent (composer-2.5-fast)**_
@@ -572,3 +589,459 @@ Additional data:
 Status: **completed**
 
 </details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+The smart-plug currency issue was already fixed in the working copy.
+
+A deeper audit is underway for summary sandwiches, weak closings, SEO frontmatter, missing first-person sections, and flat H2 headings. Mi-box line 29 uses the banned food-price metaphor "less than a fancy dinner." Line 35 is vague but not a banned currency amount.
+
+Canon line 33 and Rechargeable line 45 are acceptable. Second-cellphone.md bullet starts vary, and its three-item list uses consistent parallel shape with bold labels. Canon-g3000.md bullets are being checked next.
+
+__canon-g3000.md lists four parallel bold labels. __immune-booster-supplements.md lists four parallel bold labels. __mcgill-big-three.md repeats the same opening word three times, violating parallel structure. __password-managers.md is being checked next.
+
+__password-managers.md contains four parallel bold-label items in its migration section. __shopee-tips.md repeats three identical bold labels: **Why local matters:**, **How I filter:**, and **Red flags:**. __mi-box-s.md line 4 uses slightly third-person SEO phrasing: "who should bother."
+
+__mi-box-s.md line 55 is a flat H2. Its buyer-guide section lacks first-person voice.
+
+__canon-g3000.md line 43 is a typo ("a office"). Its H2 "## Who should buy one" is flat and third-person. The description at line 4 also uses third-person ("who should consider one").
+
+__immune-booster-supplements.md title and meta description sound marketing-driven.
+
+__immune-booster-supplements.md opens with a disclaimer block rather than a direct personal voice. Line 29 uses strong bold formatting. Health claims are generally well hedged.
+
+__mcgill-big-three.md line 22 ("evidence-backed") and line 32 ("The Big Three builds capacity") sound overconfident for a personal blog. Its further reading section passes because it contains only two links.
+
+__smart-plug.md line 27 is a flat H2. Its closing lacks a strong buy-again statement. The rest of the post is otherwise solid.
+
+__rechargeable-batteries.md lines 27–31 repeat the same bold label three times. The description at line 4 is effective first-person. The closing is practical but weak.
+
+__password-managers.md is judged very strong overall.
+
+Line 52 in __rechargeable-batteries.md uses "Budget" as a verb for time, not currency. No "Bottom line" closing appears in these files. First-person plural "our TV" in __mi-box-s.md is acceptable. __immune-booster-supplements.md may fail the "no I/my in first 400 characters" rule because its disclaimer and line 27 both contain personal pronouns.
+
+The disclaimer in __immune-booster-supplements.md is only about 200 characters, so the personal pronoun on line 27 likely does not break the 400-character first-person rule.
+
+__rechargeable-batteries.md line 21 uses a slightly generic opener, though the personal drawer story above it softens the pattern.
+
+__canon-g3000.md line 19 is a strong hook.
+
+__mi-box-s.md meta title is slightly clickbaity with "Worth Talking About."
+
+__rechargeable-batteries.md meta title is imperative but acceptable for a tip post. __immune-booster-supplements.md meta title feels like a long product list. __mcgill-big-three.md meta title is fine. __shopee-tips.md meta title is acceptable.
+
+__rechargeable-batteries.md closes decently at lines 82–83. __canon-g3000.md closes well at lines 85–87. __immune-booster-supplements.md closes well at lines 66–67 by pointing to its disclaimer.
+
+__mcgill-big-three.md lines 100–102 and __shopee-tips.md lines 100–102 are both strong closings. The full report is now being compiled.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": true,
+  "glob": "__{smart-plug,mi-box-s,second-cellphone,rechargeable-batteries,canon-g3000,password-managers,shopee-tips,immune-booster-supplements,mcgill-big-three}.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "\\$|₱|peso|PHP|\\d+\\s*(php|pesos|dollars)|paid \\d|cost of a|price of a|nice lunch|fancy dinner|cost of a coffee|what I paid"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "\\$|₱|peso|PHP|\\d+\\s*(php|pesos|dollars)|paid \\d|cost of a|price of a|nice lunch|fancy dinner|cost of a coffee|what I paid",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__mi-box-s.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "__{smart-plug,mi-box-s,second-cellphone,rechargeable-batteries,canon-g3000,password-managers,shopee-tips,immune-booster-supplements,mcgill-big-three}.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "^## "
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "^## ",
+  "topFiles": [
+    {
+      "matchCount": 4,
+      "uri": "content/english/blog/__shopee-tips.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": "content/english/blog/__immune-booster-supplements.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": "content/english/blog/__password-managers.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "content/english/blog/__mcgill-big-three.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "content/english/blog/__smart-plug.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "content/english/blog/__mi-box-s.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "content/english/blog/__canon-g3000.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "content/english/blog/__second-cellphone.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "content/english/blog/__rechargeable-batteries.md"
+    }
+  ],
+  "totalFiles": 9,
+  "totalMatches": 44
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Checking for corporate voice patterns such as "people admit" that lack explicit bans in the style guide.
+
+No "people should" phrases were found. Buyer-guide sections in __mi-box-s.md and __canon-g3000.md lack first-person voice. The McGill article contains two links. Immune-health claims in __immune-booster-supplements.md are casual and acceptable.
+
+__smart-plug.md uses a strong personality-driven heading. __rechargeable-batteries.md contains a parallel-bullet drone under rule 4: "Cost," "Waste," and "Performance is finally good enough."
+
+__canon-g3000.md contains a parallel bold-label drone: **Cost per page**, **Transparency**, and **Less cartridge roulette**.
+
+__shopee Local first uses three parallel colon labels: **Why local matters**, **How I filter**, and **Red flags**.
+
+__password-migration.md has four parallel labels: **Top twenty first**, **Master password**, **2FA on the vault itself**, and **Emergency access**.
+
+__second-cellphone.md shows a parallel bullet list: **Emergency backup** and **Travel phone**.
+
+__second-cellphone.md also contains a parallel noun label: **Work / personal split**.
+
+__mi-box-s.md has a parallel bold-label drone: **Price to performance**, **Android TV**, and **Size**.
+
+A grammar typo in __canon-g3000.md was noted but skipped as outside voice-audit scope.
+
+Meta description SEO stuffing is now being checked.
+
+__smart-plug.md is judged LIGHT POLISH or CLEAN. Its currency is already fixed, and the piece matches the earphones calibration well. A minor flat H2 heading is the only notable flaw.
+
+__mi-box-s.md is judged LIGHT POLISH. It breaks the currency rule at line 29 and uses flat H2 headings. Its meta description also relies on third-person voice.
+
+__second-cellphone.md is judged LIGHT POLISH. It carries a parallel bold-label drone in the "Other jobs" section.
+
+__rechargeable-batteries.md is judged LIGHT POLISH. It contains a parallel bold-label drone under "Why I switched".
+
+__canon-g3000.md is judged LIGHT POLISH.
+
+__password-managers.md is judged CLEAN. It is the best piece in the batch, with only a minor parallel list in the migration section.
+
+__shopee-tips.md is judged LIGHT POLISH. It carries several parallel bold-label subsections, though its Philippines voice is otherwise strong.
+
+__immune-booster-supplements.md is judged LIGHT POLISH. It opens with a disclaimer-first line, uses a flat H2 heading, and contains a parallel list of sleep, water, walks, and stress. Its health claims are mostly acceptable.
+
+__mcgill-big-three.md is judged LIGHT POLISH. It contains a parallel bold-label drone under **Goal** and a flat H2 heading. Its "evidence-backed" phrasing is slightly overconfident for a personal blog. No file requires DEEP REWRITE.
+
+The "Who it's for" section in __mi-box-s.md may carry gear-blog review voice. "Higher upfront price" in __canon-g3000.md is acceptable. "Low friction" in __password-managers.md is borderline corporate. Marketing verbs like "features" are being scanned across all files. The final report is now being compiled.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+Checking a few more patterns for completeness:
+
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "__{smart-plug,mi-box-s,second-cellphone,rechargeable-batteries,canon-g3000,password-managers,shopee-tips,immune-booster-supplements,mcgill-big-three}.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "\\b(Good fit|Skip if|Skip it if)\\b"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "\\b(Good fit|Skip if|Skip it if)\\b",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": "content/english/blog/__canon-g3000.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/blog/__mi-box-s.md"
+    }
+  ],
+  "totalFiles": 2,
+  "totalMatches": 4
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "__{smart-plug,mi-box-s,second-cellphone,rechargeable-batteries,canon-g3000,password-managers,shopee-tips,immune-booster-supplements,mcgill-big-three}.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "\\*\\*Goal:\\*\\*"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "\\*\\*Goal:\\*\\*",
+  "topFiles": [
+    {
+      "matchCount": 3,
+      "uri": "content/english/blog/__mcgill-big-three.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 3
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="update_current_step"><details>
+<summary>Tool use: **update_current_step**</summary>
+An unknown error occurred
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Checking for summary sandwiches and any remaining issues in the smart-plug table. Tables are not prose drone.
+
+The __mi-box-s closing line is acceptable. The immune booster title uses supplement marketing language, though it reflects the user's own wording. The comprehensive audit report is now being compiled.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+# JoRap voice audit — nine drafts
+
+Calibrated against `jorap-voice` + `what-i-look-for-in-wireless-earphones.md`. Prose-only scope: no outline expansion, no invented anecdotes.
+
+---
+
+## `__smart-plug.md`
+
+**Verdict: LIGHT POLISH**
+
+| Line | Quote | Rule | Suggested replacement |
+|------|-------|------|----------------------|
+| 27 | `## What they're genuinely good at` | Flat/manual H2 | `## Lamps, fans, and the "did I leave that on?" check` (from lines 29–33) |
+| 29–33 | Three consecutive `**Bold label**` blocks (Lamps and fans / Hard-to-reach outlets / "Did I leave that on?") | Parallel bold-label drone (3+ same shape) | Merge into one paragraph, or keep one bold lead-in: `**Lamps and fans** are the winners… Hard-to-reach outlets… "Did I leave that on?" anxiety…` |
+
+**Clean on:** currency (line 90 already reads `budget-tier money`; lunch-cost line removed), em/en dashes, corporate voice, weak closing, frontmatter, Further reading.
+
+---
+
+## `__mi-box-s.md`
+
+**Verdict: LIGHT POLISH**
+
+| Line | Quote | Rule | Suggested replacement |
+|------|-------|------|----------------------|
+| 4 | `"…where it struggles, and who should bother."` | SEO-ish / third-person frontmatter | `"…where it struggles, and whether I'd buy another one."` |
+| 29 | `for less than a fancy dinner.` | Banned currency / food-price metaphor | `for budget-tier money.` |
+| 25 | `## What it is, in plain terms` | Flat/manual H2 | `## A small Android TV box that plugs into HDMI` (from line 27) |
+| 33 | `## What it does well` | Flat/manual H2 | `## Smooth enough navigation and Chromecast built in` (from lines 35–37) |
+| 55 | `## Who it's for` | Flat/manual H2; weak first-person in section | `## When the built-in TV OS is slow or abandoned` (from lines 59–60) |
+| 57–68 | `**Good fit:**` / `**Skip it if:**` bullet pairs | Buyer-guide drone; no `I` in section | Reframe opener: `I'd grab one if the TV's built-in OS is slow… Skip it if you want a do-everything media server…` |
+| 35–39 | `**Price to performance** is the headline.` / `**Android TV** means…` / `**Size** matters…` | Parallel bold-label drone (3 same shape) | Lead with the lived line: `It's small enough to hide behind the TV… For the cost, you get smooth enough navigation… Android TV means the interface is familiar…` |
+
+**Clean on:** em/en dashes, AI hype phrases, Further reading, weak closing (lines 79–81 land well).
+
+---
+
+## `__second-cellphone.md`
+
+**Verdict: LIGHT POLISH**
+
+| Line | Quote | Rule | Suggested replacement |
+|------|-------|------|----------------------|
+| 33 | `## Other jobs a second phone can do` | Flat/manual H2 | `## Emergency backup, travel SIM, work split` (from lines 35–39) |
+| 35–39 | `**Emergency backup.**` / `**Travel phone.**` / `**Work / personal split.**` | Parallel bold-label drone (3 same shape) | `A second phone can be emergency backup when the primary dies… Some people load a local SIM for travel… Or it's the work-SIM box that stays in the bag after hours.` |
+| 37 | `Some people load a local SIM…` | Missing first-person in an otherwise `I`-heavy post | `I've seen people load a local SIM…` or `For travel, I could load a local SIM…` (only if author has done this; otherwise leave and note: *lacks specific travel-SIM anecdote — author must supply*) |
+
+**Clean on:** currency, dashes, corporate voice, frontmatter (line 7 is strong), closing, health/Further reading.
+
+---
+
+## `__rechargeable-batteries.md`
+
+**Verdict: LIGHT POLISH**
+
+| Line | Quote | Rule | Suggested replacement |
+|------|-------|------|----------------------|
+| 25 | `## Why I switched` | Flat H2 (section is three parallel labels, not a story) | `## The drawer full of half-dead AAs` (from lines 17–19) |
+| 27–31 | `**Cost.**` / `**Waste.**` / `**Performance is finally good enough.**` | Parallel bold-label drone (3 same opening shape) | `I switched for cost and waste — and because modern NiMH (especially Eneloop) finally holds charge for months.` |
+| 39–43 | `- Charges individual slots…` / `- Stops cleanly…` / `- Shows per-battery status…` | Parallel bullet drone (3 items, same verb-led shape) | `I wanted individual slots, clean shutoff, and per-battery status at a glance — not pair-only charging that cooks cells overnight.` |
+
+**Clean on:** currency, dashes, corporate voice, frontmatter, closing.
+
+---
+
+## `__canon-g3000.md`
+
+**Verdict: LIGHT POLISH**
+
+| Line | Quote | Rule | Suggested replacement |
+|------|-------|------|----------------------|
+| 4 | `"…what annoyed me, and who should consider one."` | SEO-ish / third-person frontmatter | `"…what annoyed me, and whether I'd buy ink-tank again."` |
+| 25 | `## Why ink tank at all` | Flat/manual H2 | `## Bottle refills beat cartridge roulette` (from lines 27–31) |
+| 27–31 | `**Cost per page** is…` / `**Transparency.**` / `**Less cartridge roulette.**` | Parallel bold-label drone (3 same shape) | `Cost per page is the whole argument — you see ink in the tanks, and you stop buying proprietary carts that cost more than the printer seemed to.` |
+| 37 | `## What the G3000 does well` | Flat/manual H2 | `## School forms and boring home docs` (from line 39) |
+| 39–43 | `**Home document printing**` / `**Wireless printing**` / `**Scan and copy**` | Parallel bold-label drone (3 same shape) | `It handles forms, school paperwork, and light graphics… Wireless from laptops and phones is convenient enough… Scan and copy on the AIO variants cover the one-decent-page job.` |
+| 70 | `## Who should buy one` | Flat/manual H2; third-person framing | `## Buy it if you print weekly, skip it if twice a year` (from lines 74–82) |
+| 72–82 | `**Good fit:**` / `**Skip if:**` lists | Buyer-guide voice; no `I` in section | `We bought one when cartridge math stopped making sense… Skip it if you print twice a year — you'll clog it before you save money.` |
+
+**Clean on:** currency (uses relative terms), dashes, weak closing (lines 85–87), Further reading. Line 55 streaky-print failure is good lived-in detail.
+
+---
+
+## `__password-managers.md`
+
+**Verdict: CLEAN**
+
+| Line | Quote | Rule | Suggested replacement |
+|------|-------|------|----------------------|
+| 44–50 | `**Top twenty first:**` / `**Master password:**` / `**2FA on the vault itself:**` / `**Emergency access:**` | Parallel bold-label drone (4 same colon-label shape) | Minor: fold into prose — `I did the top twenty first — email, bank, GCash… — then set a long master passphrase, 2FA on the vault, and told Pia where recovery codes live.` |
+
+**Clean on:** first-person throughout, opener (breach email), no currency/dashes/corporate voice, frontmatter (lines 3–4), closing (lines 74–76). Best-calibrated draft in this batch.
+
+---
+
+## `__shopee-tips.md`
+
+**Verdict: LIGHT POLISH**
+
+| Line | Quote | Rule | Suggested replacement |
+|------|-------|------|----------------------|
+| 28–40 | `**Why local matters:**` / `**How I filter:**` / `**Red flags:**` | Parallel bold-label drone (3 colon-labels) | `Local first because Paranaque, Biñan, Plaridel… mean fewer hops. I check seller location, prefer shops with recent photo reviews, and walk away from stolen listing photos.` |
+| 50–64 | `**What I do:**` / `**When I pay for speed:**` / `**When I wait:**` | Parallel bold-label drone (3 colon-labels) | `I bundle from the same shop, wait on platform vouchers when I'm not urgent, and only pay full freight for broken-now parts or hard-date gifts.` |
+| 74–88 | `**Reviews that matter:**` / `**Compare listings:**` / `**Sale events:**` | Parallel bold-label drone (3 colon-labels) | `I read buyer photos and specific defect complaints… Same product image on five shops? I dig into shop age… On 3.3 / 6.6 / 11.11 I pre-load the cart and read checkout before celebrating.` |
+
+**Clean on:** currency, dashes, Philippines grounding (SOC names, USB hub failure), frontmatter, closing (lines 100–102). Strong tips-post voice overall.
+
+---
+
+## `__immune-booster-supplements.md`
+
+**Verdict: LIGHT POLISH**
+
+| Line | Quote | Rule | Suggested replacement |
+|------|-------|------|----------------------|
+| 3 | `meta_title: "Personal Immune Booster Supplements - What's In My Stack"` | SEO-ish / supplement-marketing tone in frontmatter | `meta_title: "What's In My Supplement Stack (Not Medical Advice)"` |
+| 33 | `## What's in my rotation` | Flat/manual H2 | `## D3, zinc, C, elderberry when everyone's sniffling` (from lines 35–43) |
+| 57–60 | `- **Sleep** - seven hours…` / `- **Water and real meals**…` / `- **Walks**…` / `- **Stress**…` | Parallel bullet drone (4 same `- **Noun** -` shape) | `Sleep beats seven supplements; water and real meals beat gummies; walks count; stress matters too.` |
+
+**Health-certainty check:** Mostly well hedged (`maybe shortens the misery`, `mixed evidence`, `not invincible`, disclaimer). No overconfident medical claims flagged.
+
+**Clean on:** currency, dashes, weak closing (lines 66–67 redirect to clinician), Further reading absent.
+
+---
+
+## `__mcgill-big-three.md`
+
+**Verdict: LIGHT POLISH**
+
+| Line | Quote | Rule | Suggested replacement |
+|------|-------|------|----------------------|
+| 22 | `it's **simple, evidence-backed, and doesn't require a gym.**` | Significance inflation / overconfident health framing | `it's **simple, McGill's usual trio, and doesn't require a gym.**` |
+| 28 | `## Why McGill's approach is different` | Flat/manual H2 | `## Bracing and endurance, not crunch reps` (from lines 30–32) |
+| 38 / 53 / 67 | `**Goal:** Train anterior core…` / `**Goal:** Lateral core…` / `**Goal:** Hold your trunk steady…` | Parallel bold-label drone (3 identical `**Goal:**` openers) | Vary labels from existing text: `**Curl-up:** stiffen and hover…` / `**Side plank:** lateral core…` / `**Bird dog:** anti-slouch pattern…` |
+| 32 | `The Big Three builds capacity in neutral-ish positions you actually live in.` | Corporate/no-subject / textbook voice | `McGill's trio trains the trunk in neutral-ish positions I actually sit in.` |
+
+**Further reading (line 94):** 2 links only — **passes** the 3+ link-farm rule.
+
+**Clean on:** currency, dashes, disclaimer (lines 20–24), closing humor (lines 100–102).
+
+---
+
+## Summary table
+
+| File | Verdict |
+|------|---------|
+| `__smart-plug.md` | LIGHT POLISH |
+| `__mi-box-s.md` | LIGHT POLISH |
+| `__second-cellphone.md` | LIGHT POLISH |
+| `__rechargeable-batteries.md` | LIGHT POLISH |
+| `__canon-g3000.md` | LIGHT POLISH |
+| `__password-managers.md` | CLEAN |
+| `__shopee-tips.md` | LIGHT POLISH |
+| `__immune-booster-supplements.md` | LIGHT POLISH |
+| `__mcgill-big-three.md` | LIGHT POLISH |
+
+**Batch notes:** No em/en dashes, no `users should` / `it is recommended`, no gear-hype phrases (`game-changer`, `must-have`, etc.) across the nine. One active currency violation: `__mi-box-s.md` line 29 (`fancy dinner`). `__smart-plug.md` lunch-cost line is already fixed in the working copy. No draft needs a **DEEP REWRITE** — recurring issue is parallel bold-label / Good-fit-Skip-if buyer-guide blocks in gear posts, fixable by rewriting existing lines in place.

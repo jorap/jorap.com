@@ -122,7 +122,7 @@ Searching prior batches for the Level 1–5 content.
 
 _**Agent (composer-2.5-fast)**_
 
-The batch JSON lists slugs but not level text - I'll find where grade6–nuance levels are defined for batches 1–2.
+The batch JSON lists slugs but not level text — I'll find where grade6–nuance levels are defined for batches 1–2.
 
 
 _**Agent (composer-2.5-fast)**_
@@ -2200,7 +2200,7 @@ Checking git status to decide whether to restore the files or manually fix all 4
 
 _**Agent (composer-2.5-fast)**_
 
-The first apply script mangled YAML newlines - I'll restore the notes from git and reapply the Level bullets with a fixed script.
+The first apply script mangled YAML newlines — I'll restore the notes from git and reapply the Level bullets with a fixed script.
 
 
 _**Agent (composer-2.5-fast)**_
@@ -3528,11 +3528,11 @@ _**Agent (composer-2.5-fast)**_
 
 For every slug in `data/levels-batch-3.json`, `key_concept` in `content/english/notes/{slug}.md` now has:
 
-1. **Bullet 1** - unchanged  
-2. **Old bullet 2** (plain grade-6 line) - removed  
+1. **Bullet 1** — unchanged  
+2. **Old bullet 2** (plain grade-6 line) — removed  
 3. **Level 1–5** inserted with `Level N: ` prefix (grade6 → grade8 → grade10 → adult → nuance)  
-4. **Bullets 3+** - unchanged, in order  
-5. **Bible shortcodes** - preserved (e.g. `mercy`, `loss-of-reward`, `let-your-yes-be-yes`)
+4. **Bullets 3+** — unchanged, in order  
+5. **Bible shortcodes** — preserved (e.g. `mercy`, `loss-of-reward`, `let-your-yes-be-yes`)
 
 Example from `let-your-yes-be-yes.md`:
 

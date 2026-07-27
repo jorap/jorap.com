@@ -1740,10 +1740,10 @@ The hub contrasts with [[Pressure Reveals Weakness]]: growth systems for ordinar
 
 ### Garden wiring
 
-- **[[Maps of Content]]** - new "Performance & growth" section with Systems for Growth, Pressure Reveals Weakness, and Workplace Principles
-- **[[Pressure Reveals Weakness]]** - `alternative` link to Systems for Growth
-- **[[Growth Mindset]]**, **[[Habit Formation]]**, **[[Continuous Improvement]]** - `implements` links back to the hub
-- **[[Standard Operating Procedures]]** - `extends` Systems Thinking
+- **[[Maps of Content]]** — new "Performance & growth" section with Systems for Growth, Pressure Reveals Weakness, and Workplace Principles
+- **[[Pressure Reveals Weakness]]** — `alternative` link to Systems for Growth
+- **[[Growth Mindset]]**, **[[Habit Formation]]**, **[[Continuous Improvement]]** — `implements` links back to the hub
+- **[[Standard Operating Procedures]]** — `extends` Systems Thinking
 
 Build lint passes for all three new pages.
 
@@ -2442,7 +2442,7 @@ The partial approach is preferred over direct `.Plain` replacements because it i
 
 _**Agent (default)**_
 
-Applying the same `.Summary` workaround used in `basic-seo.html` to the llms-txt templates - Hugo 0.163 panics on `.Summary` with `summaryLength = 10`.
+Applying the same `.Summary` workaround used in `basic-seo.html` to the llms-txt templates — Hugo 0.163 panics on `.Summary` with `summaryLength = 10`.
 
 
 _**Agent (default)**_

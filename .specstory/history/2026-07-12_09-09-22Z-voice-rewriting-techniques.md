@@ -42,7 +42,7 @@ I'm mapping jorap-voice against each prompt to spot overlaps, gaps, and where th
 
 _**Agent (auto-low)**_
 
-Comparing your seven prompts against jorap-voice - I'll pull the skill's examples and anti-patterns so the mapping is accurate.
+Comparing your seven prompts against jorap-voice — I'll pull the skill's examples and anti-patterns so the mapping is accurate.
 
 
 _**Agent (auto-low)**_
@@ -127,19 +127,19 @@ Prompt seven risks implying excessive polish. JoRap voice resists that by favori
 
 _**Agent (auto-low)**_
 
-Your seven prompts are **rewrite lenses** - each one tells an editor what to change in a draft. **jorap-voice** is the same family of ideas, but baked into one author, one site, and a repeatable workflow.
+Your seven prompts are **rewrite lenses** — each one tells an editor what to change in a draft. **jorap-voice** is the same family of ideas, but baked into one author, one site, and a repeatable workflow.
 
 ## Quick map
 
 | Your prompt | jorap-voice equivalent | Fit |
 |---|---|---|
 | **1. Lived-In Voice** | **Experiential**, **Honest**, **Grounded** pillars; human markers (specifics, lived friction); gear posts ("ended up in a drawer") | Strong match |
-| **2. Strip the AI Tells** | Full **De-AI pass**, AI-tell list, `data/voice-words.yaml`, `examples.md` anti-patterns, sentence variety | Strongest match - jorap goes deeper |
-| **3. Show the Thinking** | **Honest** limitations, anti fake-balance, opinion posts with tradeoffs | Partial - jorap favors conviction over visible second-guessing |
+| **2. Strip the AI Tells** | Full **De-AI pass**, AI-tell list, `data/voice-words.yaml`, `examples.md` anti-patterns, sentence variety | Strongest match — jorap goes deeper |
+| **3. Show the Thinking** | **Honest** limitations, anti fake-balance, opinion posts with tradeoffs | Partial — jorap favors conviction over visible second-guessing |
 | **4. One-Friend Flow** | Plain words, contractions, direct address, "read aloud" test, conversational but edited | Strong match |
 | **5. Sharper Point of View** | **Opinionated** pillar, "pick a side," first person, section endings with what *you* do | Strong match |
-| **6. Make It Credible** | Specifics (numbers, models, failures), **Grounded** context, no vague claims | Strong match - overlaps heavily with #1 |
-| **7. Top-Editor Pass** | Voice check, structure patterns, cut filler/generic lines | Partial - jorap edits *for JoRap*, not generic "engagement" |
+| **6. Make It Credible** | Specifics (numbers, models, failures), **Grounded** context, no vague claims | Strong match — overlaps heavily with #1 |
+| **7. Top-Editor Pass** | Voice check, structure patterns, cut filler/generic lines | Partial — jorap edits *for JoRap*, not generic "engagement" |
 
 ---
 
@@ -155,7 +155,7 @@ Your seven prompts are **rewrite lenses** - each one tells an editor what to cha
 
 **#4 + #5 are jorap's default stance.** "One sharp friend" = plain words, mixed sentence length, clarity over formality. "Sharper POV" = opinionated pillar, no committee tone, no endless "it depends" without a take. jorap merges them: friendly *and* opinionated, not neutral-help-article.
 
-**#7 is the voice check** - but jorap's editor pass has a filter your generic prompt doesn't: *would JoRap actually type this?* Generic "sharpen engagement" can over-polish. jorap explicitly wants imperfect rhythm, one-word sentences, dry asides - polish is a failure mode.
+**#7 is the voice check** — but jorap's editor pass has a filter your generic prompt doesn't: *would JoRap actually type this?* Generic "sharpen engagement" can over-polish. jorap explicitly wants imperfect rhythm, one-word sentences, dry asides — polish is a failure mode.
 
 ---
 
@@ -165,7 +165,7 @@ Your seven prompts don't cover things jorap-voice treats as non-negotiable:
 
 | jorap-voice only | Why it matters |
 |---|---|
-| **Author identity** | First person, JoRap's site - not "a real person" in general |
+| **Author identity** | First person, JoRap's site — not "a real person" in general |
 | **Reference posts workflow** | Read 1–2 on-voice posts in the same category before writing |
 | **Site rules** | No currency amounts, no affiliate tone, no emoji, no em dashes |
 | **Structure recipes** | Openings (hook not definition), personality H2s, closings (what you'd buy again) |
@@ -179,7 +179,7 @@ jorap-voice is a **production skill**, not just a rewrite instruction.
 
 ## Where your prompts go further (or differ)
 
-**#3 - Show the Thinking** is the biggest gap in jorap-voice.
+**#3 — Show the Thinking** is the biggest gap in jorap-voice.
 
 Your prompt asks for tradeoffs, second-guesses, open questions, reflective messiness. jorap-voice leans the other way:
 
@@ -189,7 +189,7 @@ Your prompt asks for tradeoffs, second-guesses, open questions, reflective messi
 
 jorap will admit uncertainty ("I will not pretend I made a quick decision") but won't usually leave a section hanging in "here's what I'm still not sure about." Your #3 is more **essayist / reflective**; jorap is more **friend who already decided after living with the thing**.
 
-**#7 - Top-Editor Pass** can conflict with jorap if read literally. A generic editor optimizes smoothness and engagement. jorap's editor pass explicitly **roughens** over-polished drafts and cuts symmetrical nothingburgers. jorap's "editor" is an anti-AI editor.
+**#7 — Top-Editor Pass** can conflict with jorap if read literally. A generic editor optimizes smoothness and engagement. jorap's editor pass explicitly **roughens** over-polished drafts and cuts symmetrical nothingburgers. jorap's "editor" is an anti-AI editor.
 
 **Overlap in your list:** #1 and #6 are nearly the same instruction from two angles. #2 and #7 overlap (cut artificial + sharpen flow). You could collapse to ~4 lenses without losing much.
 
@@ -205,7 +205,7 @@ Credible (#6)      →    Human markers (specifics)
 Strip AI (#2)      →    De-AI pass + voice-words + lint
 One-Friend (#4)    →    Plain words + conversational tone
 Sharper POV (#5)   →    Opinionated pillar + first person
-Show Thinking (#3) →    (weaker - jorap prefers decided takes)
+Show Thinking (#3) →    (weaker — jorap prefers decided takes)
 Top-Editor (#7)    →    Voice check + structure (anti-polish bias)
 ```
 
@@ -214,16 +214,16 @@ Top-Editor (#7)    →    Voice check + structure (anti-polish bias)
 ## Practical takeaway
 
 - **Your 7 prompts** = a good generic de-AI / humanize toolkit. Use them as **rewrite passes** on any stiff draft.
-- **jorap-voice** = those passes **merged, named for one author, and operationalized** - with site rules, reference posts, lint, and content-type handling.
+- **jorap-voice** = those passes **merged, named for one author, and operationalized** — with site rules, reference posts, lint, and content-type handling.
 
-If you wanted jorap-voice to absorb something from your list, **#3 (Show the Thinking)** is the one worth adding explicitly: a short note like "name the tradeoff you weighed, the mistake you almost made, or the thing you're still watching - without hedging every sentence." That would complement jorap's conviction without turning posts into neutral surveys.
+If you wanted jorap-voice to absorb something from your list, **#3 (Show the Thinking)** is the one worth adding explicitly: a short note like "name the tradeoff you weighed, the mistake you almost made, or the thing you're still watching — without hedging every sentence." That would complement jorap's conviction without turning posts into neutral surveys.
 
 If you wanted to **simplify your 7 into a jorap-compatible stack**, something like this works:
 
-1. **Ground it** (#1 + #6) - specifics, failures, real context  
-2. **Kill the AI** (#2) - tells, shapes, filler  
-3. **Sound like one person** (#4 + #5) - plain words, clear take  
-4. **Leave one rough edge** (#3, lightly) - one honest doubt or tradeoff, then land the recommendation  
+1. **Ground it** (#1 + #6) — specifics, failures, real context  
+2. **Kill the AI** (#2) — tells, shapes, filler  
+3. **Sound like one person** (#4 + #5) — plain words, clear take  
+4. **Leave one rough edge** (#3, lightly) — one honest doubt or tradeoff, then land the recommendation  
 
 That's basically jorap-voice in four moves instead of seven.
 
@@ -251,7 +251,7 @@ examples.md may get a small "show the thinking" example. Reading the current fil
 
 _**Agent (auto-low)**_
 
-Incorporating the seven rewrite lenses into jorap-voice - reading the skill files to find the right place in the workflow.
+Incorporating the seven rewrite lenses into jorap-voice — reading the skill files to find the right place in the workflow.
 
 
 _**Agent (auto-low)**_
@@ -371,16 +371,16 @@ Each of your seven prompts is a named pass with JoRap-specific rules:
 |------|-------------|-------------|
 | 1 | Lived-In Voice | Memories, mistakes, what you actually do |
 | 2 | Strip the AI Tells | Points at the existing AI-tells list |
-| 3 | Show the Thinking | Tradeoffs and doubts - **then land a take** |
+| 3 | Show the Thinking | Tradeoffs and doubts — **then land a take** |
 | 4 | One-Friend Flow | Read-aloud test, plain words |
 | 5 | Sharper Point of View | "I'd get…" not "users may prefer…" |
 | 6 | Make It Credible | Specifics per section, no currency |
-| 7 | Top-Editor Pass | **Anti-polish** - roughen, cut filler, close on a real pick |
+| 7 | Top-Editor Pass | **Anti-polish** — roughen, cut filler, close on a real pick |
 
 The old **De-AI pass** is now a short **Quick de-AI check** after the seven passes, with pointers back to the relevant pass numbers.
 
 ### Voice pillars
-Added **Reflective** - show how you thought it through, then commit to a take.
+Added **Reflective** — show how you thought it through, then commit to a take.
 
 ### Human markers
 Added **Visible thinking** (near-misses, tradeoffs, tipping observations).
@@ -390,6 +390,6 @@ New item: shows thinking somewhere, then lands a take.
 
 ### examples.md
 - Sample for **visible thinking**
-- **Seven passes - when to deep-rewrite** table (fail more than one → rewrite the section from scratch)
+- **Seven passes — when to deep-rewrite** table (fail more than one → rewrite the section from scratch)
 
 Files touched: `.cursor/skills/jorap-voice/SKILL.md` and `examples.md`.

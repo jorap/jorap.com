@@ -228,4 +228,4 @@ Picking a category (or a direct-play collection) now shuffles immediately instea
 
 **After:** both reset `index` to `-1` and call `shuffleNext()`, same as the offline HTML export already did on load. Deep links with `?set=...&cat=...` get a random prompt too.
 
-The Shuffle button is unchanged - it still avoids repeating the current item when there’s more than one.
+The Shuffle button is unchanged — it still avoids repeating the current item when there’s more than one.

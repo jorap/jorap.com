@@ -1077,7 +1077,7 @@ Drafting new rows for the table. These cover wireless earphone drawer storage, p
 
 More rows drafted. These include a church WiFi incident that left worship pads offline, writing the Hugo version at install time, an open-source filter strategy, a grade 1 son who was good at math, a rice cooker for arroz caldo, keeping extension cords in bags while surge strips stay at the desk, using the same earphones for Google Meet and Messenger calls, and discovering Inter through UI refactoring. Considering grouping the larger table by section with subheadings for readability.
 
-Splitting the expanded material into separate tables grouped by category-Family, Work, Gear, Faith-to keep it easy to scan. The closing "For you" paragraph will be corrected to remove outdated references.
+Splitting the expanded material into separate tables grouped by category—Family, Work, Gear, Faith—to keep it easy to scan. The closing "For you" paragraph will be corrected to remove outdated references.
 </details></think>
 
 _**Agent (auto-low)**_
@@ -1163,7 +1163,7 @@ Four more posts need edits. The second cellphone post should explain bank apps o
 
 _**Agent (auto-low)**_
 
-I'll update the source posts to match your corrections-reading each affected file first, then applying focused edits.
+I'll update the source posts to match your corrections—reading each affected file first, then applying focused edits.
 
 
 _**Agent (auto-low)**_

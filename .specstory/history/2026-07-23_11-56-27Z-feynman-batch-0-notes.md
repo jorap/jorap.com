@@ -342,7 +342,7 @@ Drafting simplified grade-6 bullets for notes 25 through 27. Christianity-and-po
 
 Drafting simplified grade-6 bullets for notes 28 through 30. Coaching-ethics warns that consent does not allow unsafe drills. Commonplace-book compares a quote bank to rereading whole books when only one line is needed. Complete-the-cycle explains that decisions without an owner and deadline remain just talk until execution begins.
 
-Drafting simplified grade-6 bullets for notes 31 through 33. Compounding warns that tiny daily gains look invisible for a long time, so most people quit before the curve finally jumps up. Context-aware-capture explains that saving the why-project, mood, question-while memory is fresh matters more than saving just the link.
+Drafting simplified grade-6 bullets for notes 31 through 33. Compounding warns that tiny daily gains look invisible for a long time, so most people quit before the curve finally jumps up. Context-aware-capture explains that saving the why—project, mood, question—while memory is fresh matters more than saving just the link.
 
 Drafting simplified grade-6 bullets for notes 34 through 36. Continuous-improvement
 </details></think>

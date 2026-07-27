@@ -611,10 +611,10 @@ _**Agent (composer-2.5-fast)**_
 
 Level 1–5 `key_concept` bullets were rewritten in every note from `data/wider-levels-batch-0.json`, with wider spread between levels:
 
-- **Level 1** - concrete images ("Like when…"), ~grade 2–3, no abstract nouns
-- **Level 2** - short analogies/stories, plain words, no wikilinks
-- **Level 3** - cause-and-effect, idea named once, no wikilinks
-- **Level 4** - actionable work claims with tradeoffs hinted
-- **Level 5** - expert nuance, edge cases, wikilinks where appropriate
+- **Level 1** — concrete images ("Like when…"), ~grade 2–3, no abstract nouns
+- **Level 2** — short analogies/stories, plain words, no wikilinks
+- **Level 3** — cause-and-effect, idea named once, no wikilinks
+- **Level 4** — actionable work claims with tradeoffs hinted
+- **Level 5** — expert nuance, edge cases, wikilinks where appropriate
 
 Bullet 1 and bullets 7+ were kept unchanged. Bible shortcodes and blank lines outside the bullet list were preserved. Prefix format `Level N: ` is consistent across all files.

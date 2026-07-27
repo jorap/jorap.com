@@ -784,14 +784,14 @@ _**Agent (composer-2.5-fast)**_
 
 The main plan is in `/home/jorap/Documents/GitHub/jorap.com/docs/CONTENT_VOICE_REVIEW.md`. It targets **published** content only: 15 blog posts, 200 atomic notes, 14 hub/meta notes (37 draft blog stubs excluded).
 
-**North star:** prose matches `/home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md` - plain words, personal tone, no AI tells. Primary test: *“Would a reader think a real person typed this?”*
+**North star:** prose matches `/home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md` — plain words, personal tone, no AI tells. Primary test: *“Would a reader think a real person typed this?”*
 
 **Phased execution:**
 
 | Phase | Who/what | Purpose |
 |-------|----------|---------|
-| **0** | Scripts only | `pnpm lint:garden`, `pnpm lint:voice`, `pnpm voice:scan` - baseline before paid model work |
-| **1** | Composer 2.5 Fast / scripts | Mechanical only: dashes, frontmatter lint, format normalize, cards lint - **no prose rewrites** |
+| **0** | Scripts only | `pnpm lint:garden`, `pnpm lint:voice`, `pnpm voice:scan` — baseline before paid model work |
+| **1** | Composer 2.5 Fast / scripts | Mechanical only: dashes, frontmatter lint, format normalize, cards lint — **no prose rewrites** |
 | **2** | Claude Sonnet 5 (Thinking) + `@jorap-voice` | Bulk prose review in batches (10–12 notes or 2–4 posts per chat) |
 | **3** | Claude Opus 4.8 (Thinking) | Escalation for ~10–20% of files still stiff after Sonnet |
 | **4** | Composer 2.5 Fast | Changelog, commit, Hugo smoke test, deploy commit |
@@ -799,18 +799,18 @@ The main plan is in `/home/jorap/Documents/GitHub/jorap.com/docs/CONTENT_VOICE_R
 **Model rules:** Composer/GPT Codex for mechanical work only; Sonnet for bulk rewrites; Opus reserved for escalations (~25–40 files cap).
 
 **Phase 2 order (prioritized in the plan itself):**
-1. **B1–B4** - published blogs first (voice reference for notes)
-2. **M1** - hub/meta notes (lighter pass: `description`, relationship reasons, body copy)
-3. **N1–N6** - atomic notes by category (Productivity → Leadership → Faith → Growth → Thinking → Tips), with **`voice:scan` hits ordering files worst-first within each category**
+1. **B1–B4** — published blogs first (voice reference for notes)
+2. **M1** — hub/meta notes (lighter pass: `description`, relationship reasons, body copy)
+3. **N1–N6** — atomic notes by category (Productivity → Leadership → Faith → Growth → Thinking → Tips), with **`voice:scan` hits ordering files worst-first within each category**
 
 **Per-note checklist** (from CONTENT_VOICE_REVIEW + jorap-voice):
 
 - `description` ≤ 20 words, memorable one-breath definition, sounds like you, no wikilinks
-- `key_concept` - punch line first, then expansion; plain, not dictionary prose
-- `shareable_thought` - plain, self-contained (see section 2)
-- `relationships.reason` - specific clause, not template filler
-- Body (if any) - no em dashes, no AI tells
-- `cards:` - plain words, one idea per card (flashcards skill for shape)
+- `key_concept` — punch line first, then expansion; plain, not dictionary prose
+- `shareable_thought` — plain, self-contained (see section 2)
+- `relationships.reason` — specific clause, not template filler
+- Body (if any) — no em dashes, no AI tells
+- `cards:` — plain words, one idea per card (flashcards skill for shape)
 
 **Structural spec** (from `/home/jorap/Documents/GitHub/jorap.com/docs/SPEC.md` §5.3): atomic notes = one claim; `description` = definition, `key_concept` = angle + stakes, two `examples`, typed `relationships`. `/home/jorap/Documents/GitHub/jorap.com/content/english/notes/getting-started.md` restates the atomic rule in prose.
 
@@ -818,7 +818,7 @@ The main plan is in `/home/jorap/Documents/GitHub/jorap.com/docs/CONTENT_VOICE_R
 
 ---
 
-## 2) Judging four shareable thoughts - unique and aligned to the principle
+## 2) Judging four shareable thoughts — unique and aligned to the principle
 
 This is defined in **three layers**: jorap-voice editorial rules, automated lint, and documented fix patterns from the review.
 
@@ -827,28 +827,28 @@ This is defined in **three layers**: jorap-voice editorial rules, automated lint
 | Rule | Detail |
 |------|--------|
 | **Count** | Exactly **4** items |
-| **Source** | Drawn from `description` + `key_concept` - not examples, not cross-note pointers |
+| **Source** | Drawn from `description` + `key_concept` — not examples, not cross-note pointers |
 | **Self-contained** | Each line is a complete thought a reader understands alone; paste-ready for Slack/slides |
 | **Forbidden** | Fragments, duplicates, cross-note pointers (“See…”, “Tension with…”), wikilinks, example scenes |
 | **Length** | ≤ 130 chars per line (enforced by lint) |
 
-Voice check item: *“four self-contained ideas from `description` and `key_concept` - each gets the point across alone.”*
+Voice check item: *“four self-contained ideas from `description` and `key_concept` — each gets the point across alone.”*
 
-**Reference example** (`capture.md`): four lines map cleanly to description + key_concept clauses - definition, punch line, process detail, filter rule - without repeating the same sentence four ways.
+**Reference example** (`capture.md`): four lines map cleanly to description + key_concept clauses — definition, punch line, process detail, filter rule — without repeating the same sentence four ways.
 
 ### Automated lint (`scripts/lint-notes-frontmatter.py` + `scripts/notes_content.py`)
 
-**Alignment to principle** - `shareable_line_from_principle()`:
+**Alignment to principle** — `shareable_line_from_principle()`:
 - Builds a **principle line pool** only from `description` and `key_concept` (split on paragraphs, sentences, dashes, semicolons).
 - Each shareable line must match or substantially overlap a pool clause (normalized, wikilinks stripped).
 - Fails with `not from principle` if it reads like meta padding unrelated to those fields.
 
-**Uniqueness / non-duplication** - `shareable_lines_overlap()`:
+**Uniqueness / non-duplication** — `shareable_lines_overlap()`:
 - Normalizes both lines (lowercase, strip punctuation, strip wikilinks).
 - Flags overlap if: identical; one is prefix/suffix of the other; ellipsis-stem contained in the other.
 - Fails with `overlaps [j]` for pairwise duplicates.
 
-**Self-contained / independent** - `gets_point_across()` + related checks:
+**Self-contained / independent** — `gets_point_across()` + related checks:
 - Must pass `is_complete_shareable_line()`: ≥12 chars, terminal punctuation, capital start, not fragment starters (`not`, `but`, `Same as…`), not title-case noun phrases without verbs.
 - Rejects: dangling `That's…`, `So …` openers, `See [Note]…` pointers, meta note language (`this note`, `note garden`), incomplete negations without contrast (`The point isn't…` alone), bare noun lists, example-like lines (starts with example scene head), wikilinks, `Tension with…`, >130 chars.
 
@@ -856,12 +856,12 @@ Voice check item: *“four self-contained ideas from `description` and `key_conc
 
 The log documents **human judgment beyond lint** for uniqueness/alignment:
 
-- **Bookend duplicates** - first and last `shareable_thought` (or `key_concept`) restating the same claim; fixed in many Productivity/Leadership/M1b files.
-- **Near-verbatim repetition inside `key_concept`** - multiple paragraphs saying the same line with word swaps (common in Growth/Thinking “aphorism” notes); shareables derived from that would fail the “four distinct ideas” intent even if lint might pass.
-- **Desc vs key_concept restatement** - closing line in `key_concept` echoing `description` (Faith notes: `by-their-fruits.md`, `patience.md`, `seek-the-kingdom-first.md`).
-- **Intentional cross-note repetition is OK** - Faith category theological links (Free Grace, Judgment Seat, etc.) are interlinking, not voice violations.
+- **Bookend duplicates** — first and last `shareable_thought` (or `key_concept`) restating the same claim; fixed in many Productivity/Leadership/M1b files.
+- **Near-verbatim repetition inside `key_concept`** — multiple paragraphs saying the same line with word swaps (common in Growth/Thinking “aphorism” notes); shareables derived from that would fail the “four distinct ideas” intent even if lint might pass.
+- **Desc vs key_concept restatement** — closing line in `key_concept` echoing `description` (Faith notes: `by-their-fruits.md`, `patience.md`, `seek-the-kingdom-first.md`).
+- **Intentional cross-note repetition is OK** — Faith category theological links (Free Grace, Judgment Seat, etc.) are interlinking, not voice violations.
 
-**Bulk fix script:** `/home/jorap/Documents/GitHub/jorap.com/scripts/fix-shareable-thought-review.py` - Jul 2026 review patches for notes where shareables failed self-contained/independent checks; CONTENT_VOICE_REVIEW says use it **only for listed keys**, not site-wide.
+**Bulk fix script:** `/home/jorap/Documents/GitHub/jorap.com/scripts/fix-shareable-thought-review.py` — Jul 2026 review patches for notes where shareables failed self-contained/independent checks; CONTENT_VOICE_REVIEW says use it **only for listed keys**, not site-wide.
 
 ---
 
@@ -870,7 +870,7 @@ The log documents **human judgment beyond lint** for uniqueness/alignment:
 ### Primary backlog
 
 **`/home/jorap/Documents/GitHub/jorap.com/docs/TODO.md`** (last reviewed 2026-07-02):
-- **Open - high value:** “Site-wide voice review” → points to CONTENT_VOICE_REVIEW.md (~15 blogs + ~214 notes). **Still unchecked** despite the detailed session log showing bulk Sonnet work complete.
+- **Open — high value:** “Site-wide voice review” → points to CONTENT_VOICE_REVIEW.md (~15 blogs + ~214 notes). **Still unchecked** despite the detailed session log showing bulk Sonnet work complete.
 
 ### Prioritization inside CONTENT_VOICE_REVIEW
 
@@ -894,4 +894,4 @@ Draft blog stubs, theme/layout/CSS, Alex Eala tracker data updates.
 
 ---
 
-**Gap to be aware of:** TODO.md and CONTENT_VOICE_REVIEW’s session log are out of sync - the log suggests Phase 2 is largely finished, but TODO still lists the whole review as open, and Phases 3–4 are not recorded. If you’re judging shareable-thought quality on a specific note (e.g. `adaptability.md`), the lint rules + jorap-voice checklist + overlap/principle pool logic are the documented criteria; the session log’s “bookend duplicate” and “same clause 3–4×” patterns are the main editorial tests for *uniqueness* beyond what lint catches automatically.
+**Gap to be aware of:** TODO.md and CONTENT_VOICE_REVIEW’s session log are out of sync — the log suggests Phase 2 is largely finished, but TODO still lists the whole review as open, and Phases 3–4 are not recorded. If you’re judging shareable-thought quality on a specific note (e.g. `adaptability.md`), the lint rules + jorap-voice checklist + overlap/principle pool logic are the documented criteria; the session log’s “bookend duplicate” and “same clause 3–4×” patterns are the main editorial tests for *uniqueness* beyond what lint catches automatically.

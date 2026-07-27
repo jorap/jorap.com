@@ -598,4 +598,4 @@ _**Agent (auto-low)**_
 
 Skipped `by-their-fruits.md` and `capture.md` as requested. **25** files were already in spec and unchanged.
 
-All updated descriptions are one-breath jorap-voice, no Bible refs, and none duplicate `key_concept` line 1. Saved with `dump_frontmatter` - only `description` touched.
+All updated descriptions are one-breath jorap-voice, no Bible refs, and none duplicate `key_concept` line 1. Saved with `dump_frontmatter` — only `description` touched.

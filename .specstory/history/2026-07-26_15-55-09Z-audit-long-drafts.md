@@ -41,3 +41,1447 @@ Report concrete violations with EXACT quotes and line numbers for:
 Output: group by file. For each finding give line number + exact verbatim quote + rule broken + a suggested replacement that uses ONLY facts already in the file. Give each file a verdict: CLEAN, LIGHT POLISH, or DEEP REWRITE.
 
 Do NOT edit any files. Report only.
+
+---
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+I am beginning the audit of draft blog posts against the jorap-voice style guide.
+
+Reading the style guide, calibration standard, and draft files now.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+I'll read the style guide, calibration post, and all four draft files, then audit them against the voice rules.
+
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="update_current_step"><details>
+<summary>Tool use: **update_current_step**</summary>
+An unknown error occurred
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/examples.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/what-i-look-for-in-wireless-earphones.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__grade-1-better-than-kumon.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__jorap-notes-features.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__why-brave-browser.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__why-git-greatest-open-source-innovation.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Beginning the thorough audit of each draft file against the style guide.
+
+Running targeted greps across all four draft files for em dashes, AI tell words, corporate voice, currency amounts, doubled blank lines, missing separators, and weak closings.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+Searching the four drafts for banned patterns and other style-guide violations.
+
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "__*.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "—|–"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "—|–",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": true,
+  "glob": "__*.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "Additionally|Furthermore|Moreover|seamless|boasts|worth noting|delve|leverage|utilize|facilitate|robust|users should|it is recommended|one might|in conclusion|hope this helps|When it comes to"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "Additionally|Furthermore|Moreover|seamless|boasts|worth noting|delve|leverage|utilize|facilitate|robust|users should|it is recommended|one might|in conclusion|hope this helps|When it comes to",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__craft-prompt-framework.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__humanize-ai-articles.md"
+    }
+  ],
+  "totalFiles": 2,
+  "totalMatches": 2
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "__grade-1*.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "\\$|peso|PHP|what I paid|cost of a coffee|cost of a lunch"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "\\$|peso|PHP|what I paid|cost of a coffee|cost of a lunch",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "__jorap*.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "\\$|peso|PHP|what I paid|cost of a coffee|cost of a lunch"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "\\$|peso|PHP|what I paid|cost of a coffee|cost of a lunch",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "__why-brave*.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "\\$|peso|PHP|what I paid|cost of a coffee|cost of a lunch"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "\\$|peso|PHP|what I paid|cost of a coffee|cost of a lunch",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "__why-git*.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "\\$|peso|PHP|what I paid|cost of a coffee|cost of a lunch"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "\\$|peso|PHP|what I paid|cost of a coffee|cost of a lunch",
+  "topFiles": [
+    {
+      "matchCount": 3,
+      "uri": "content/english/blog/__why-git-greatest-open-source-innovation.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 3
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/voice-words.yaml</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/slop-rules.yaml</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+The four draft files contain no em or en dashes.
+
+Now scanning the four drafts for doubled blank lines, missing frontmatter separators, flat H2 headings, parallel bullet drones, summary sandwiches, frontmatter issues, and weak closings.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/__grade-1-better-than-kumon.md",
+  "pattern": "^\\s*$"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/__grade-1-better-than-kumon.md",
+  "pattern": "^\\s*$",
+  "topFiles": [
+    {
+      "matchCount": 100,
+      "uri": "content/english/blog/__grade-1-better-than-kumon.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 100
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "__{grade-1,jorap-notes,why-brave,why-git}*.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "^## "
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "^## ",
+  "topFiles": [
+    {
+      "matchCount": 9,
+      "uri": "content/english/blog/__why-brave-browser.md"
+    },
+    {
+      "matchCount": 14,
+      "uri": "content/english/blog/__jorap-notes-features.md"
+    },
+    {
+      "matchCount": 8,
+      "uri": "content/english/blog/__why-git-greatest-open-source-innovation.md"
+    },
+    {
+      "matchCount": 11,
+      "uri": "content/english/blog/__grade-1-better-than-kumon.md"
+    }
+  ],
+  "totalFiles": 4,
+  "totalMatches": 42
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "__*.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "Application:|Principle:|Apply it when"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "Application:|Principle:|Apply it when",
+  "topFiles": [
+    {
+      "matchCount": 18,
+      "uri": "content/english/blog/__jorap-notes-features.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 18
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/__grade-1-better-than-kumon.md",
+  "pattern": "^-\\s+\\*\\*"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/__grade-1-better-than-kumon.md",
+  "pattern": "^-\\s+\\*\\*",
+  "topFiles": [
+    {
+      "matchCount": 24,
+      "uri": "content/english/blog/__grade-1-better-than-kumon.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 24
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/__jorap-notes-features.md",
+  "pattern": "^-\\s+\\*\\*"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/__jorap-notes-features.md",
+  "pattern": "^-\\s+\\*\\*",
+  "topFiles": [
+    {
+      "matchCount": 11,
+      "uri": "content/english/blog/__jorap-notes-features.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 11
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/__why-brave-browser.md",
+  "pattern": "^-\\s+\\*\\*"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/__why-brave-browser.md",
+  "pattern": "^-\\s+\\*\\*",
+  "topFiles": [
+    {
+      "matchCount": 3,
+      "uri": "content/english/blog/__why-brave-browser.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 3
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/__why-git-greatest-open-source-innovation.md",
+  "pattern": "^-\\s+\\*\\*"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/__why-git-greatest-open-source-innovation.md",
+  "pattern": "^-\\s+\\*\\*",
+  "topFiles": [
+    {
+      "matchCount": 6,
+      "uri": "content/english/blog/__why-git-greatest-open-source-innovation.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 6
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Checking for doubled blank lines and formatting artifacts before closing paragraphs.
+
+Expanding the audit to include AI tells, corporate voice, summary sandwiches, and frontmatter descriptions. Inspecting the closing sections of each draft file for formatting artifacts.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "__{grade-1,jorap-notes,why-brave,why-git}*.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "\\n\\n\\n"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "\\n\\n\\n",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "__{grade-1,jorap-notes,why-brave,why-git}*.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "you should|You should|you do not|You do not|You need|you need to|It is |it's important|crucial|essential|vital|landscape|At the end of the day|That said|With that in mind"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "you should|You should|you do not|You do not|You need|you need to|It is |it's important|crucial|essential|vital|landscape|At the end of the day|That said|With that in mind",
+  "topFiles": [
+    {
+      "matchCount": 6,
+      "uri": "content/english/blog/__jorap-notes-features.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/blog/__why-git-greatest-open-source-innovation.md"
+    }
+  ],
+  "totalFiles": 2,
+  "totalMatches": 8
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "__{grade-1,jorap-notes,why-brave,why-git}*.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "^\u003e \\*\\*TL;DR"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "^\u003e \\*\\*TL;DR",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__jorap-notes-features.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__grade-1-better-than-kumon.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__jorap-notes-features.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__why-brave-browser.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__why-git-greatest-open-source-innovation.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Beginning a thorough review of the style guide and draft posts.
+
+Checking __grade-1-better-than-kumon.md. The frontmatter description sounds listy and bot-written. The meta_title is acceptable. Scanning for AI-tells and corporate voice.
+
+No em dashes were found. The grade-1 draft contains three parallel bold sentences at lines 305–307. They share similar verbs but differ in opening words, so they do not qualify as parallel bullets under the style guide.
+
+Lines 293–297 contain five parallel bullets with identical bold imperative labels. Lines 319–321 contain three similarly shaped items. Both groups violate the style guide’s parallel-bullet rule.
+
+The “Easy cards,” “Pictures,” “Out loud,” and “One math line” bullets at lines 176–179 vary too much in shape to qualify as parallel. The “Show up,” “Easy stuff,” and “Someone else” items at lines 61–63 are similarly scattered. The “## The week” heading at line 214 is flat and generic. A summary-sandwich pattern appears at lines 94–98, where the section opens by contrasting Kumon reading with home learning.
+
+Line 113 may be another summary-sandwich after a long table. The closing paragraph at line 323 is concrete and effective. No doubled blank lines or missing separators were found.
+
+__jorap-notes-features reads like a product manual rather than a personal blog. It opens with a TL;DR blockquote instead of a personal hook. The "Features at a glance" heading is extremely flat. Repeated bold labels around "Application:" and "Principle:" create parallel drone structure across sections. A numbered list at lines 244–253 repeats the same bold-label shape ten times.
+
+Line 267 is a flat link farm. The meta_title sounds like product documentation. The description at line 5 is acceptable. The post is Tutorial, not Opinion, so the slop rule does not apply.
+
+__jorap-notes-features contains five additional parallel bullets at lines 269–274. The field list at lines 67–71 also reads like documentation. __why-brave-browser.md is strong and close to the calibration standard. Its opening line at line 35 is slightly generic. The "## On phone and desktop" heading at line 129 is flat and repeats earlier content. The closing section at line 153 is effective.
+
+__why-brave-browser.md contains three parallel bold labels at lines 79–81, though the words differ. The meta_title and description are acceptable.
+
+__why-git-greatest-open-source-innovation.md is also strong. Its meta_title is slightly SEO-heavy. The description at line 5 is good. Lines 60–62 contain three parallel bold labels: Distributed, Cheap branches, and Content-addressed.
+
+__why-git-greatest-open-source-innovation.md contains three parallel bullets at lines 88–90. The closing section at line 128 is concrete and effective. The heading at line 120 adds personality. The phrase "greatest things open source ever shipped" risks significance inflation, though it is the central thesis.
+
+The grade-1 draft uses a note.jpg placeholder. I am now hunting for formal constructions and significance inflation across all four files.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "__{grade-1,jorap-notes,why-brave,why-git}*.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "disappear into the background|plays a key|important to|comprehensive|game-changer|must-have|notably|In this |This section|Here's everything|At its core|a testament|no secret|the good news"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "disappear into the background|plays a key|important to|comprehensive|game-changer|must-have|notably|In this |This section|Here's everything|At its core|a testament|no secret|the good news",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__why-brave-browser.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "__{grade-1,jorap-notes,why-brave,why-git}*.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "\\*\\*Application:\\*\\*|\\*\\*Principle:\\*\\*"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "\\*\\*Application:\\*\\*|\\*\\*Principle:\\*\\*",
+  "topFiles": [
+    {
+      "matchCount": 16,
+      "uri": "content/english/blog/__jorap-notes-features.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 16
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "__{grade-1,jorap-notes,why-brave,why-git}*.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "^1\\. \\*\\*"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "^1\\. \\*\\*",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__jorap-notes-features.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__grade-1-better-than-kumon.md"
+    }
+  ],
+  "totalFiles": 2,
+  "totalMatches": 2
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/how-i-built-jorap-notes.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+The TL;DR pattern appears in the published tutorial post, confirming it is an accepted convention for tutorial-style drafts.
+
+The jorap-notes-features TL;DR omits the personal hook found in the published tutorial post. It reads more like a feature list. The deep audit continues. Voice lint may be applied to these files.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm lint:voice 2&gt;&amp;1 | rg -n &#34;__grade-1|__jorap-notes|__why-brave|__why-git&#34; || true; pnpm lint:slop 2&gt;&amp;1 | rg -n &#34;__grade-1|__jorap-notes|__why-brave|__why-git&#34; || true</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:voice 2>&1 | rg -n "__grade-1|__jorap-notes|__why-brave|__why-git" || true; pnpm lint:slop 2>&1 | rg -n "__grade-1|__jorap-notes|__why-brave|__why-git" || true
+```
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "__{grade-1,jorap-notes,why-brave,why-git}*.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "The short version|In short|To summarize|Bottom line|In summary"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "The short version|In short|To summarize|Bottom line|In summary",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__grade-1-better-than-kumon.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "__{grade-1,jorap-notes,why-brave,why-git}*.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "While .+,.+ also|On the one hand|both .+ and .+|not only .+ but also"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "While .+,.+ also|On the one hand|both .+ and .+|not only .+ but also",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Lint checks passed for the reviewed files. Now reading additional sections of grade-1 and jorap-notes to complete the audit.
+
+Grade-1 shows a flat "## The week" heading and a repetitive manual-style principle table. Parallel bold sentences appear near line 305. Jorap-notes is structured like a product manual with nine repeated "Application:" and "Principle:" labels, flat H2 subheadings, and missing first-person voice in most application blocks. The audit is now moving to the brave post.
+
+The brave post contains a redundant "On phone and desktop" heading that repeats its summary. A generic aphorism appears at line 35. The git post inflates the innovation's significance slightly, though it is earned; its meta_title may be slightly SEO-stuffed. The grade-1 draft opens correctly with a frontmatter separator before its first H2. I am now checking whether the final closing paragraph lacks the required separator.
+
+The grade-1 closing paragraph sits inside its final H2 section rather than after a frontmatter separator. This matches the calibration standard and is acceptable. No doubled blank lines were found. The grade-1 bullet list at lines 69–74 begins each item with an article or possessive pronoun.
+
+Grade-1 math-game bullets at lines 236–240 open with varied phrases, so the opening-word repetition is limited to the earlier bullet list. Jorap-notes uses "Good fit" and "Bad fit" labels, which reads as corporate product positioning. Its second-person advice at lines 259–261 is inconsistent with the personal-site first-person requirement. The audit is now re-examining grade-1’s description and meta_title fields.
+
+Now scanning the four drafts for overused SEO terms such as "functionality," "utilize," and "robust."
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "__{grade-1,jorap-notes,why-brave,why-git}*.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "functionality|utilize|facilitate|leverage|robust|seamless|implement|prioritize|repository|optimization|navigate|comprehensive|framework"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "functionality|utilize|facilitate|leverage|robust|seamless|implement|prioritize|repository|optimization|navigate|comprehensive|framework",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": "content/english/blog/__jorap-notes-features.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 2
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__grade-1-better-than-kumon.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__jorap-notes-features.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__why-brave-browser.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Checking the grade-1 draft for a summary-sandwich pattern.
+
+Grade-1 contains a summary-sandwich pattern: the "quiz decks" section largely repeats earlier content, and the "week" section restates material already covered. Academic jargon also appears in the principle table.
+
+The principle table’s parenthetical labels read like a curriculum document. Grade-1 also uses corporate “you” in a Kumon trial, which should be “I”.
+
+Git’s meta title sounds inflated and SEO-stuffed compared to its actual title. The jorap-notes meta title reads like product manual SEO. Git’s bold claim that the innovation was not a website is borderline.
+
+Grade-1’s TL;DR lists features without a personal story, unlike the how-i-built draft. Its principle announcement and table are followed by a “short version” restatement, then another restatement at line 115, creating a triple summary sandwich. Jorap-notes line 218-219 also restates that these are not party features.
+
+Jorap-notes line 216 repeats the “tired Sunday” idea already stated at line 218. The “Further reading” section contains six link bullets, which exceeds the slop warning threshold for three or more links. Grade-1’s title is appropriately long for its content.
+
+Grade-1 lines 218–220 may contain trailing spaces after periods, though no doubled blank lines appear. None of the three drafts show a missing `---` separator before a final closing paragraph.
+
+Jorap-notes uses imperative “you” throughout its “Application” sections. That breaks the first-person voice rule for opinion content.
+
+Grade-1 is strong overall. It lacks the required failure or friction story in most H2 sections. The flat “## The week” heading and two parallel bold-label bullet lists at lines 293–297 and 319–321 are weak spots. Jorap-notes is the weaker draft; its application sections mostly omit personal failure stories.
+
+Grade-1 is now judged LIGHT POLISH. Jorap-notes is judged DEEP REWRITE. It also contains a 10-item numbered parallel list and nine consecutive Application or Principle headings that read as drone. Its frontmatter description sounds catalog-like.
+
+Brave is judged LIGHT POLISH. It contains a generic aphorism at line 35 and a redundant flat H2 at lines 129–136 that restates earlier material. Git is also judged LIGHT POLISH. Its meta title is slightly inflated, and it includes minor parallel bullet groups at lines 60–62 and 88–90.
+
+Git’s title hedges with “Might Be,” while its meta title drops that qualifier and sounds more SEO-driven. Jorap-notes flat H2s could be sharpened by pulling them from the surrounding text: “## Shareable thoughts” could become “## Four quotes per note, ready to paste,” “## Features at a glance” could become “## What’s in the garden (quick map),” and “## Tool pages” could become “## Built-in pages that aren’t notes.”
+
+Grade-1’s “## The week” heading could be sharpened to “## One sample week (tablet first, sheet second)” drawn from line 216. Its “## Where to start” heading could pull from line 276’s “start with one claim per fde-1.” Brave contains no “It is recommended” phrasing. Grade-1’s opening and “What Kumon reading is for” H2 both carry strong first-person voice. The principle table’s parallel columns are intentional comparisons rather than slop.
+
+Grade-1 line 105 adds jargon with "(scaffolding)". Its line 210 repeats the "trophy" concept from line 179. The quiz-decks section largely duplicates earlier material, completing the summary-sandwich pattern. Brave line 129 repeats the Origin-on-Linux-and-Android narrative already covered in sections 115–127 and 61–99.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__grade-1-better-than-kumon.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "__{grade-1,jorap-notes,why-brave,why-git}*.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "^Walk |^Read |^Browse |^Pick |^Honor |^Build |^Start |^Replace |^Duplicate "
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "^Walk |^Read |^Browse |^Pick |^Honor |^Build |^Start |^Replace |^Duplicate ",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "__jorap-notes*.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "^Good fit|^Bad fit"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "^Good fit|^Bad fit",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Line 23 uses second-person "you" to describe a child's decoding ability. This is acceptable under the style guide.
+
+Checking whether "Good fit" in jorap-notes contains bold markers.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__jorap-notes-features.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "__{grade-1,jorap-notes,why-brave,why-git}*.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "^Paste |^Drop |^Feed |^Write |^Drill |^Run |^Copy "
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "^Paste |^Drop |^Feed |^Write |^Drill |^Run |^Copy ",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "__{grade-1,jorap-notes,why-brave,why-git}*.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "^\\- \\*\\*[A-Z]"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "^\\- \\*\\*[A-Z]",
+  "topFiles": [
+    {
+      "matchCount": 5,
+      "uri": "content/english/blog/__why-git-greatest-open-source-innovation.md"
+    },
+    {
+      "matchCount": 21,
+      "uri": "content/english/blog/__grade-1-better-than-kumon.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/blog/__why-brave-browser.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "content/english/blog/__jorap-notes-features.md"
+    }
+  ],
+  "totalFiles": 4,
+  "totalMatches": 35
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Auditing the jorap-notes Application block at line 95 for parallel structure.
+
+Found five parallel structure violations across the draft. Lines 95, 181, 269–274, 293–297, and 319–321 each contain four or more consecutive parallel phrases. These break rule 4.
+
+The git post at lines 124–125 repeats the phrase "Fear of..." four times in a row. This is another clear parallel structure violation. Lines 176–179 also contain four parallel bold labels.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__why-git-greatest-open-source-innovation.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__grade-1-better-than-kumon.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+A draft violates rule 4 by listing four items beginning with the identical phrase "Fear of...". This parallel structure is flagged as a problem.
+
+The parallel "Fear of..." list is flagged as a drone; a suggestion to vary the openings is added. Line 242 contains education jargon. The Brave draft opener is solid. The jorap-notes opener is acceptable. Line 61 is slightly generic. The full report is being compiled.
+
+No formatting artifacts were found. All files receive a CLEAN verdict under rule 10. Grade-1 lacks author-specific detail in some sections. Jorap-notes reads like documentation without failure or surprise. Brave’s meta description is acceptable. Git’s description correctly uses first person.
+
+Grade-1 receives a LIGHT POLISH verdict. Jorap-notes receives a DEEP REWRITE verdict. Brave receives a LIGHT POLISH verdict. The final report is being structured by file with line numbers, exact quotes, broken rules, and suggested replacements.
+
+Git’s meta_title is flagged as SEO-stuffed. Grade-1’s repetition is judged minor enough for LIGHT POLISH rather than DEEP REWRITE.
+
+Grade-1 line 96 is flagged as generic advice. The replacement should use first person: “I had to be fast.” Section headings must be drawn solely from content already present in each section.
+
+Concrete replacement headings are drafted for grade-1 and jorap-notes. Grade-1’s “## The week” becomes “## One sample week: tablet first, sheet second,” drawn from line 216. Jorap-notes’ “## Features at a glance” becomes “## What each piece does (quick map),” using the feature table subtitle. Its “## Shareable thoughts” becomes “## Four paste-ready quotes per note,” pulling from the ready-made quotes line.
+
+Jorap-notes section headings are drafted from existing content. “## Tool pages” becomes “## Built-in utilities, not ideas in the garden,” and “## Where to start” becomes “## Start with one claim per file.” “## Flashcards aview” becomes “## Habits I want loaded when life shows up.” Brave’s “## On phone and desktop” becomes “## Origin on Linux, regular Brave on Android.” Grade-1’s principle table contains AI-adjacent education-speak that should be rewritten as plain words.
+
+Grade-1 line 102 is flagged as rule 1 thesaurus/academic. The report is being finalized.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="update_current_step"><details>
+<summary>Tool use: **update_current_step**</summary>
+An unknown error occurred
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+The comprehensive audit report is ready.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+Audit against `jorap-voice/SKILL.md`, `examples.md`, and calibration post `what-i-look-for-in-wireless-earphones.md`. No em/en dashes, currency amounts, doubled blank lines, or missing `---` before closings in any of the four drafts. `pnpm lint:voice` and `pnpm lint:slop` reported clean for these files.
+
+---
+
+## `content/english/blog/__grade-1-better-than-kumon.md`
+
+**Verdict: LIGHT POLISH**
+
+Strong personal opener and closing. Kumon trial, son's "hard" / "games" language, tablet flow all land. Issues are mostly structural repetition, education-doc jargon, and a few parallel/list shapes.
+
+### Frontmatter
+
+| Line | Quote | Rule | Suggested replacement |
+|------|-------|------|----------------------|
+| 4 | `"He doesn't like math because it's harder than reading. He wants games. Tablet math games first, one printed line, handwriting he owns - ten principles and a one-week plan."` | 9 (SEO/catalog `description`) | `"He picked Kumon reading, not math - numbers feel hard, games don't. Here's the tablet-and-printer routine we run at home instead of doubling down on worksheets."` |
+
+### Body
+
+| Line | Quote | Rule | Suggested replacement |
+|------|-------|------|----------------------|
+| 96 | `You have to be **fast**.` | 6 (missing first person on author's own trial) | `I had to be **fast**.` |
+| 102-111 | `(intrinsic motivation)`, `(scaffolding)`, `(authentic literacy)`, `(language experience approach)`, `(CPA: concrete-pictorial-abstract)`, `(metacognition)` | 1 (thesaurus / academic voice) | Drop parentheticals; keep plain labels already in the row, e.g. `**1. Want-to-come-back**`, `**4. Easy wins before hard rows**`, `**9. Concrete before abstract**`. |
+| 98-115 | `Home is built on different rules. Ten of them.` → [table] → `**The short version:** Kumon reading asks…` → `Principles **3**, **4**, and **9** lean math…` | 4 (summary sandwich: announce → table → restate → restate again) | Cut lines 113-115 or merge into one line after the table: `Kumon asks finish-and-faster; home asks want-to-play-again and can-someone-read-his-handwriting.` |
+| 195-210 | `## The quiz decks on the tablet (his favorite math game so far)` + shuffle/reveal/beat-dad flow | 4 (section restates tablet content from lines 127-136 and 172-180) | Delete the section or keep one bridge sentence under `## The daily shape`: `He asks for the [Grade 1 quiz](/randomizer/?set=grade-1-quiz) by name - same shuffle flow as above.` |
+| 214 | `## The week` | 5 (flat H2) | `## One sample week: tablet first, sheet second` (from line 216) |
+| 216 | `One week. Same shape every day: **tablet first, one printed sheet second.** Ten to fifteen minutes. Sunday off.` | 4 (restates lines 161-163) | `Same shape every day - here's the Mon-Sun rotation.` |
+| 176-179 | Four bullets all `**Bold label** - explanation` | 4 (parallel bold-label drone, 4 items) | Merge to prose: `Easy cards on the general quiz first; math deck only if he still has gas. He talks on the tablet, I react. One math line sheet only after a round he enjoyed.` |
+| 293-297 | `- **Replace Kumon reading.**` / `- **Duplicate Kumon at home.**` / `- **Make a prodigy.**` / `- **Win a comparison.**` / `- **Force enthusiasm.**` | 4 (parallel bold-label drone, 5 items) | Two sentences: `I'm not replacing Kumon reading or cloning it at home with thirty-page packs. Week one win is he asks for another round - not prodigy math, not beating the kid in Kumon math.` |
+| 305-307 | `**He asks to play the quiz.** **He catches dad's wrong answer on purpose.** **He says "five more cards" before I say done.**` | 4 (parallel same-shape triplet) | `I'm watching for him asking to play, catching my wrong answer on purpose, or saying "five more cards" before I call done.` |
+
+### Clean on
+
+- Rules 1 (no AI-slop phrases), 3 (dashes), 7 (currency), 8 (closing lands on real routine), 10 (formatting).
+
+---
+
+## `content/english/blog/__jorap-notes-features.md`
+
+**Verdict: DEEP REWRITE**
+
+Reads like product documentation, not a personal essay. Compare calibration post: every section has lived use; here most sections are feature specs with repeated `Application:` / `Principle:` blocks.
+
+### Frontmatter
+
+| Line | Quote | Rule | Suggested replacement |
+|------|-------|------|----------------------|
+| 3 | `"JoRap Notes - Features, Applications, and Principles"` | 9 (`meta_title` product-doc tone) | `"What JoRap Notes Actually Does - Garden, Graph, Flashcards"` (matches title on line 2) |
+| 5 | `"My blog is for essays. JoRap Notes is a linked garden of one-claim pages - graph, flashcards, typed links, all on the same Hugo site."` | 9 (borderline feature-list; acceptable but cold) | `"My blog is for long essays. The notes garden is where I keep one-claim pages I actually link and reuse - same Hugo site, different shape."` |
+
+### Body
+
+| Line | Quote | Rule | Suggested replacement |
+|------|-------|------|----------------------|
+| 23 | `> **TL;DR**: JoRap Notes is not a separate app. It is a second surface on this site - short linked pages, each holding one claim I'd say out loud, with a graph, flashcard review, typed relationships, shareable thoughts, and copy buttons that hand the whole garden to ChatGPT.` | 1 (hollow feature-list opener; contrast `how-i-built-jorap-notes.md` TL;DR which opens with lost hosting) | `> **TL;DR**: Same Hugo site as the blog - `/notes/` is a linked garden of one-claim pages. I built the hosting stack first; the graph, flashcards, and copy buttons grew on top once I had somewhere to put atomic notes in public.` (lines 35-36) |
+| 39 | `## Features at a glance` | 5 (flat H2 / product manual) | `## What's in the garden (quick map)` |
+| 41 | `\| Feature \| What it does \| Apply it when… \|` | 4 (manual table drone) | Keep as reference only after a lived-in intro sentence exists; as-is it reads like a spec sheet. |
+| 75-77, 95-97, 116-118, 141-143, 181-183, 202-204, 220-222, 234-236 | Nine paired blocks: `**Application:** …` / `**Principle:** …` | 4 (parallel section drone, 9× same shape) | Pick one pattern per post: either fold into prose (`When a coworker asks my take, I open one URL…`) or drop `Application:`/`Principle:` labels entirely. |
+| 83 | `## Shareable thoughts` | 5 (flat H2) | `## Four paste-ready quotes per note` (line 85: "ready-made quotes you can copy") |
+| 95 | `Paste into Slack when someone asks for your framing. Drop into a slide without rewriting. Feed a social post. Hand an AI session a quotable summary without the full frontmatter dump.` | 4 (parallel imperatives: Paste / Drop / Feed / Hand) | `I paste these into Slack or a slide when someone asks for my framing - no rewriting the whole frontmatter.` |
+| 107 | `On every note page you get:` | 2 (corporate no-subject / second-person catalog) | `Every note page shows me:` |
+| 147 | `## Tool pages` | 5 (flat H2) | `## Built-in utilities, not ideas in the garden` (line 149) |
+| 181 | `Copy MD when you are editing in your IDE. Agent copy when you are pair-writing with AI and need resolved links. Copy hub cluster when you are briefing someone on a whole topic lane. Copy catalog when you are onboarding an agent to the entire garden.` | 4 (four parallel "Copy X when you…" clauses) | `I use Copy MD in the IDE, Agent copy when I'm pair-writing with AI, and Copy hub cluster when I'm briefing someone on a whole topic lane.` |
+| 183 | `Your notes should travel.` | 2 (corporate "should" advice) | `I need notes that travel - if copying context takes longer than writing the prompt, I stop using the garden as source of truth.` |
+| 187 | `## Flashcards and review` | 5 (flat H2) | `## Habits I want loaded when life shows up` (line 189) |
+| 208 | `## Issues, voice lint, and guardrails` | 5 (flat H2) | `## Why the graph still works six months after a tired Sunday` (lines 216-218) |
+| 244-253 | `1. **One claim per file**` through `10. **Serendipity on purpose**` | 4 (10-item parallel numbered bold-label list) | Keep 3-4 principles in prose; cut or fold the rest into sections already above. |
+| 259-261 | `**Good fit** if you already think in linked notes…` / `**Bad fit** if you need real-time collaboration…` | 4 (symmetrical good/bad product positioning) | One paragraph: `This fits if you already edit Markdown in Git and want a public garden without a wiki bill. Skip it if you need real-time collab or private notes behind login - everything published here is public.` |
+| 267 | `## Where to start` | 5 (flat H2) + slop link-farm pattern | `## Start with one claim per file` (line 276) |
+| 269-274 | `- Walk the garden:` / `- Read the rules:` / `- Browse by hub:` / `- Office-friendly ethics lane:` / `- Pick a random pair:` / `- Hosting and deploy:` | 4 (6 parallel verb-first link bullets) | One line + max two links per slop guidance: `Walk [/notes/](/notes/) or read [Getting Started](/notes/getting-started/) - add graph and flashcards after you have twenty notes worth linking.` |
+
+### Missing first person (rule 6)
+
+Most middle sections address "you" as a manual reader rather than "I" as the builder. Line 35 (`I built the hosting stack first`) is the exception. Sections from line 59 onward need `I`/`my` woven through, or they fail the swap test vs calibration post.
+
+### Clean on
+
+- Rules 3 (dashes), 7 (currency), 8 (line 276 closing is concrete), 10 (formatting).
+
+---
+
+## `content/english/blog/__why-brave-browser.md`
+
+**Verdict: LIGHT POLISH**
+
+Closest to calibration standard. Personal opener, split workflow, sync friction, honest tradeoffs. Small fixes only.
+
+### Frontmatter
+
+| Line | Quote | Rule | Suggested replacement |
+|------|-------|------|----------------------|
+| 4 | `"Brave Origin on my Linux desktop because it's free there, regular Brave on Android, Chrome for client work - shields on, sync without a Google account, and a clean split between billable tabs and everything else."` | 9 (borderline spec-list; mostly OK) | `"Brave for personal tabs, Chrome for client work - shields on by default, sync chain instead of a Google account, and Origin on Linux because it's free there."` |
+
+No critical `meta_title` issue (line 3 reads fine).
+
+### Body
+
+| Line | Quote | Rule | Suggested replacement |
+|------|-------|------|----------------------|
+| 35 | `**A tool that works should disappear into the background.**` | 1 (generic aphorism / written-to-impress) | `Then I stopped noticing, which is the point - fewer modals, fewer tabs I opened and immediately regretted.` (drop the aphorism; keep line 35's first sentence) |
+| 129 | `## On phone and desktop` | 5 (flat H2; section repeats lines 115-125 and 61-99) | `## Origin on Linux, regular Brave on Android` (lines 131-133) |
+| 131-135 | `**Desktop (Linux):** Brave Origin for personal links…` / `**Phone:** Regular Brave on Android…` / `The two installs stay aligned through **Brave Sync**…` | 4 (summary sandwich restating earlier sections) | Cut section or one sentence under `## Brave Origin on my Linux desktop`: `Regular Brave stays on Android; sync chain ties them together - banking still goes through the slow second phone I wrote about elsewhere.` |
+
+### Clean on
+
+- Rules 2 (no corporate "users should"), 3, 6 (strong `I` throughout), 7, 8 (line 161 lands on real setup), 10.
+
+---
+
+## `content/english/blog/__why-git-greatest-open-source-innovation.md`
+
+**Verdict: LIGHT POLISH**
+
+Strong experiential opener, FileZilla/cPanel history, personal site spine, honest Git UX gripes. Minor polish items.
+
+### Frontmatter
+
+| Line | Quote | Rule | Suggested replacement |
+|------|-------|------|----------------------|
+| 4 | `"Why Git Is One of Open Source's Greatest Innovations"` | 9 (`meta_title` drops body's "Might Be" hedge; sounds SEO-grand) | `"Why Git Might Be the Best Thing Open Source Shipped"` (align with title line 2) |
+| 5 | `"I don't romanticize every tool in my stack. Git earned its place - distributed history, branches that actually save you, and the plumbing that let Linux, GitHub, and my own site survive bad hosting and worse Fridays."` | 9 (slight feature-list; mostly OK) | `"I don't romanticize every tool in my stack. Git earned its place the first time \`git checkout -- .\` undid a live WordPress tweak - and again when my Hugo site needed a spine that outlives hosting."` |
+
+### Body
+
+| Line | Quote | Rule | Suggested replacement |
+|------|-------|------|----------------------|
+| 64 | `**The innovation wasn't a website.** It was the object model underneath that made the websites possible.` | 1 (significance inflation) | `GitHub came later. The object model underneath is what made those sites possible.` |
+| 60-62 | `- **Distributed**` / `- **Cheap branches**` / `- **Content-addressed storage**` | 4 (3 parallel bold-label bullets) | Prose: `Distributed - no single company server. Branches cheap enough to try and delete. Content-addressed storage so corrupted bits show up in the hash.` |
+| 88-90 | `- **Client work**` / `- **Blog drafts**` / `- **"What if?"**` | 4 (3 parallel bold-label bullets) | `Client work stays on \`main\`; blog drafts live as \`__filename.md\` until one publish commit; Tailwind spikes die on branches I delete without apologizing to future me.` |
+| 124 | `Fear of the one bad deploy with no rollback. Fear of the client who asks what changed last week and I only have vibes. Fear of editing \`functions.php\` on the live server at midnight because that's where the working copy lives. Fear of the hosting company that dies overnight and takes the only copy with it` | 4 (4× "Fear of" parallel drone) | `I'd fear the bad deploy with no rollback, the client asking what changed last week when I only have vibes, midnight \`functions.php\` edits on the live box, and the host that dies overnight with the only copy - I already lived a smaller version of that story.` |
+
+### Clean on
+
+- Rules 2, 3, 6 (strong `I` from line 20), 7, 8 (line 128 lands on sleep/test risky work), 10.
+
+---
+
+## Summary verdicts
+
+| File | Verdict | Main issues |
+|------|---------|-------------|
+| `__grade-1-better-than-kumon.md` | **LIGHT POLISH** | Education jargon in principle table, summary sandwiches, one redundant section, parallel list shapes |
+| `__jorap-notes-features.md` | **DEEP REWRITE** | Product-manual structure, 9× Application/Principle drone, flat H2s, weak first-person, link farm closer |
+| `__why-brave-browser.md` | **LIGHT POLISH** | One redundant section, one generic aphorism |
+| `__why-git-greatest-open-source-innovation.md` | **LIGHT POLISH** | `meta_title` inflation, parallel "Fear of" block, minor bullet drones |
+
+**Global clean:** em/en dashes (rule 3), currency (rule 7), weak closings like "hope this helps" (rule 8), doubled blank lines / missing `---` before closings (rule 10) — none found in these four drafts.

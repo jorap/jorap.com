@@ -1596,66 +1596,66 @@ _**Agent (default)**_
 
 All 35 files reviewed. **capture.md** and **free-grace.md** already fit the rules and were left as-is. The other 33 were rewritten.
 
-- **accountability.md** - After a patient mix-up, our charge nurse named who was running the code cart and who was documenting - not "everyone was involved." Accountability was one owner, one timeline, and one honest chart note before the shift ended.
+- **accountability.md** — After a patient mix-up, our charge nurse named who was running the code cart and who was documenting — not "everyone was involved." Accountability was one owner, one timeline, and one honest chart note before the shift ended.
 
-- **active-knowledge-curation.md** - The head cook walks the walk-in every Monday and throws out whatever won't make this week's menu. I do the same with my idea pile on the first Sunday - twelve saved links gone, three half-finished thoughts finally linked.
+- **active-knowledge-curation.md** — The head cook walks the walk-in every Monday and throws out whatever won't make this week's menu. I do the same with my idea pile on the first Sunday — twelve saved links gone, three half-finished thoughts finally linked.
 
-- **adaptability.md** - Our usual fish supplier doubled prices overnight. Half the kitchen wanted to keep last month's specials anyway. Adaptability was rewriting the weekend menu before Saturday service - not defending a menu the market already killed.
+- **adaptability.md** — Our usual fish supplier doubled prices overnight. Half the kitchen wanted to keep last month's specials anyway. Adaptability was rewriting the weekend menu before Saturday service — not defending a menu the market already killed.
 
-- **attention-to-detail.md** - A nurse almost gave the wrong dose because two bags looked identical - the second read of the label caught it. I use the same pause before I sign anything that can't be undone.
+- **attention-to-detail.md** — A nurse almost gave the wrong dose because two bags looked identical — the second read of the label caught it. I use the same pause before I sign anything that can't be undone.
 
-- **build-a-reliable-default.md** - Firefighters don't invent steps mid-alarm - they run the drill they practiced. Our family fire plan is one page on the fridge: two exits, where we meet, who grabs the baby. Last blackout, my kid ran it half-asleep and nobody guessed.
+- **build-a-reliable-default.md** — Firefighters don't invent steps mid-alarm — they run the drill they practiced. Our family fire plan is one page on the fridge: two exits, where we meet, who grabs the baby. Last blackout, my kid ran it half-asleep and nobody guessed.
 
-- **building-a-personal-api.md** - The warehouse labels every bin the same way - aisle, shelf, code - so a new hire finds parts without asking. I label my notes the same way: title, tags, links. Anyone helping me can find the flashcard pile without a tour.
+- **building-a-personal-api.md** — The warehouse labels every bin the same way — aisle, shelf, code — so a new hire finds parts without asking. I label my notes the same way: title, tags, links. Anyone helping me can find the flashcard pile without a tour.
 
-- **building-a-second-brain.md** - A sentence for a post hits on the jeepney and I voice-memo it before the station noise eats it. My head is for having ideas; the notebook is for storing them until Sunday.
+- **building-a-second-brain.md** — A sentence for a post hits on the jeepney and I voice-memo it before the station noise eats it. My head is for having ideas; the notebook is for storing them until Sunday.
 
-- **break-the-escalation-cycle.md** - A parent emailed the principal with a snarky line about our field trip delay. My first draft matched the tone. I deleted it, answered the fact, offered the new date, and let the insult die without an audience.
+- **break-the-escalation-cycle.md** — A parent emailed the principal with a snarky line about our field trip delay. My first draft matched the tone. I deleted it, answered the fact, offered the new date, and let the insult die without an audience.
 
-- **capture.md** - *(unchanged)* Mid-commute I get a sentence for a post and voice-memo it before the station noise eats it. One inbox, no tags yet. I sort on Sunday when the spark is already safe.
+- **capture.md** — *(unchanged)* Mid-commute I get a sentence for a post and voice-memo it before the station noise eats it. One inbox, no tags yet. I sort on Sunday when the spark is already safe.
 
-- **complete-the-cycle.md** - Parent-teacher night ended with "we'll email the action plan." By Friday, half the parents never got it. Complete the cycle was the recap sent before anyone left the parking lot - names, dates, who owns what.
+- **complete-the-cycle.md** — Parent-teacher night ended with "we'll email the action plan." By Friday, half the parents never got it. Complete the cycle was the recap sent before anyone left the parking lot — names, dates, who owns what.
 
-- **composure.md** - A referee stays calm when players yell - not because the foul didn't matter, but because the room takes cues from the steadiest person. I used the same move in a heated parent meeting: slower speech, one clarifying question, no matching their volume.
+- **composure.md** — A referee stays calm when players yell — not because the foul didn't matter, but because the room takes cues from the steadiest person. I used the same move in a heated parent meeting: slower speech, one clarifying question, no matching their volume.
 
-- **continuous-improvement.md** - A line cook pulls a bad prep tray and fixes the station before service - small fixes daily, not one yearly overhaul. Our family morning checklist grew one line per forgotten backpack; six months later school mornings were boring in a good way.
+- **continuous-improvement.md** — A line cook pulls a bad prep tray and fixes the station before service — small fixes daily, not one yearly overhaul. Our family morning checklist grew one line per forgotten backpack; six months later school mornings were boring in a good way.
 
-- **convert-pain-into-learning.md** - A basketball team watches film after a loss - not to wallow, but so the next game is cleaner. I bombed a talk and stewed for a week. Convert pain into learning was one page: weak transitions, rehearse bridges ten times, cut two slides.
+- **convert-pain-into-learning.md** — A basketball team watches film after a loss — not to wallow, but so the next game is cleaner. I bombed a talk and stewed for a week. Convert pain into learning was one page: weak transitions, rehearse bridges ten times, cut two slides.
 
-- **creative-blocks.md** - My daughter stared at a blank worksheet for twenty minutes. I told her to write one messy sentence about breakfast. The block lifted once something existed on the paper. I do the same when I'm stuck on a post - one ugly paragraph, then the rest can follow.
+- **creative-blocks.md** — My daughter stared at a blank worksheet for twenty minutes. I told her to write one messy sentence about breakfast. The block lifted once something existed on the paper. I do the same when I'm stuck on a post — one ugly paragraph, then the rest can follow.
 
-- **creative-output.md** - Friday the art teacher makes everyone show one sketch, rough or not. I do the same with my note pile - three sparks become one finished piece, even if the prose is rough.
+- **creative-output.md** — Friday the art teacher makes everyone show one sketch, rough or not. I do the same with my note pile — three sparks become one finished piece, even if the prose is rough.
 
-- **decision-quality.md** - Buying a house on one sunny open-house visit is how people miss the flood zone. Decision quality was one neighbor call before we signed - the drainage issue cost more than the discount we'd celebrated at the signing.
+- **decision-quality.md** — Buying a house on one sunny open-house visit is how people miss the flood zone. Decision quality was one neighbor call before we signed — the drainage issue cost more than the discount we'd celebrated at the signing.
 
-- **digital-minimalism.md** - We dropped the second diaper bag, the backup stroller, and the junk drawer of chargers. Fewer things means I actually know where the one working cable lives - same reason I keep one capture path instead of five apps.
+- **digital-minimalism.md** — We dropped the second diaper bag, the backup stroller, and the junk drawer of chargers. Fewer things means I actually know where the one working cable lives — same reason I keep one capture path instead of five apps.
 
-- **discipline.md** - A marathon isn't won on race-day adrenaline - it's won on rainy Tuesday runs nobody films. Discipline is the Sunday notebook pass when I'd rather scroll - same as brushing teeth when you're already late.
+- **discipline.md** — A marathon isn't won on race-day adrenaline — it's won on rainy Tuesday runs nobody films. Discipline is the Sunday notebook pass when I'd rather scroll — same as brushing teeth when you're already late.
 
-- **energy-protects-judgment.md** - Hospitals limit surgeon hours because tired hands slip - judgment is a motor skill too. I snapped at my kid over a spilled cup after a brutal week. At breakfast it would've been two calm sentences. She wasn't the problem; I was.
+- **energy-protects-judgment.md** — Hospitals limit surgeon hours because tired hands slip — judgment is a motor skill too. I snapped at my kid over a spilled cup after a brutal week. At breakfast it would've been two calm sentences. She wasn't the problem; I was.
 
-- **evergreen-notes.md** - A family recipe card keeps the ratios, not last year's trendy garnish. I rewrite a note when life changes how I think, not when a feed gets excited about a new trick.
+- **evergreen-notes.md** — A family recipe card keeps the ratios, not last year's trendy garnish. I rewrite a note when life changes how I think, not when a feed gets excited about a new trick.
 
-- **evergreen-vs-fleeting-notes.md** - A hot take about today's game goes on the fridge whiteboard; a lesson I'd tell my kid next year gets copied into the recipe box. Same kitchen, two speeds, one clear upgrade path.
+- **evergreen-vs-fleeting-notes.md** — A hot take about today's game goes on the fridge whiteboard; a lesson I'd tell my kid next year gets copied into the recipe box. Same kitchen, two speeds, one clear upgrade path.
 
-- **execution.md** - A wedding invite means nothing if nobody books the venue. The PTO committee had color-coded phases and zero volunteers signed up. Execution started when one person named who does what by when - like a coach's play only exists once players are on the field.
+- **execution.md** — A wedding invite means nothing if nobody books the venue. The PTO committee had color-coded phases and zero volunteers signed up. Execution started when one person named who does what by when — like a coach's play only exists once players are on the field.
 
-- **expect-the-counter.md** - A restaurant drops lunch prices and the place across the street matches by Friday - the first move isn't the game. Expect the counter meant building regulars before the copy arrived, not treating opening week like a forever win.
+- **expect-the-counter.md** — A restaurant drops lunch prices and the place across the street matches by Friday — the first move isn't the game. Expect the counter meant building regulars before the copy arrived, not treating opening week like a forever win.
 
-- **failure-as-feedback.md** - A smoke alarm isn't moral judgment - it's data. My sourdough failed again; failure as feedback was the thermometer and timing notes, not "I'm bad at baking." Treat the miss as instrument reading, not identity.
+- **failure-as-feedback.md** — A smoke alarm isn't moral judgment — it's data. My sourdough failed again; failure as feedback was the thermometer and timing notes, not "I'm bad at baking." Treat the miss as instrument reading, not identity.
 
-- **finish-strong.md** - I cleared the table after dinner but left the pots soaking - the smell woke us at 3 a.m. Finish strong was the ten-minute scrub and trash run, the unglamorous tail that actually completes the job.
+- **finish-strong.md** — I cleared the table after dinner but left the pots soaking — the smell woke us at 3 a.m. Finish strong was the ten-minute scrub and trash run, the unglamorous tail that actually completes the job.
 
-- **follow-through.md** - "I'll look into it" without a date is how school projects die after the group chat goes quiet. Follow-through was the recap with owners and dates before anyone left the parking lot - like a plumber texting when they're actually en route, not "soon."
+- **follow-through.md** — "I'll look into it" without a date is how school projects die after the group chat goes quiet. Follow-through was the recap with owners and dates before anyone left the parking lot — like a plumber texting when they're actually en route, not "soon."
 
-- **forgiveness-at-work.md** - I kept mentally scoring a coworker who embarrassed me in a staff meeting six months ago. Forgiveness at work meant I stopped bringing that score into every shift - and I still wrote down what I'd need to trust him on the next busy Saturday.
+- **forgiveness-at-work.md** — I kept mentally scoring a coworker who embarrassed me in a staff meeting six months ago. Forgiveness at work meant I stopped bringing that score into every shift — and I still wrote down what I'd need to trust him on the next busy Saturday.
 
-- **free-grace.md** - *(unchanged)* A friend at coffee listed every good thing he'd done this month like it was his ticket to heaven. I didn't argue - I just said I trust Christ's promise, not my report card.
+- **free-grace.md** — *(unchanged)* A friend at coffee listed every good thing he'd done this month like it was his ticket to heaven. I didn't argue - I just said I trust Christ's promise, not my report card.
 
-- **future-proofing-knowledge.md** - Grandma's recipes are on index cards in a tin, not an app that might shut down. My notes live as plain text I can open anywhere; I copy them to a backup drive twice a year so future-proof is not just a vibe.
+- **future-proofing-knowledge.md** — Grandma's recipes are on index cards in a tin, not an app that might shut down. My notes live as plain text I can open anywhere; I copy them to a backup drive twice a year so future-proof is not just a vibe.
 
-- **golden-rule-at-work.md** - My draft reply to a new cashier was technically right and needlessly harsh. I paused, asked how I'd want that correction on my worst shift, and rewrote it before the thread in the break room got worse.
+- **golden-rule-at-work.md** — My draft reply to a new cashier was technically right and needlessly harsh. I paused, asked how I'd want that correction on my worst shift, and rewrote it before the thread in the break room got worse.
 
-- **growth-mindset.md** - You're "not a math person" until you practice fractions long enough - skill isn't fixed. I shanked three serves in a row at clinic. Growth mindset was ten minutes on toss height, not deciding I'd never have a reliable serve.
+- **growth-mindset.md** — You're "not a math person" until you practice fractions long enough — skill isn't fixed. I shanked three serves in a row at clinic. Growth mindset was ten minutes on toss height, not deciding I'd never have a reliable serve.
 
-- **habit-formation.md** - Same door, same notebook, same pocket - after thirty days you stop debating capture. Habit formation was the pad by the keys, not the fancy app I never opened. Like gym shoes by the bed: remove the decision.
+- **habit-formation.md** — Same door, same notebook, same pocket — after thirty days you stop debating capture. Habit formation was the pad by the keys, not the fancy app I never opened. Like gym shoes by the bed: remove the decision.

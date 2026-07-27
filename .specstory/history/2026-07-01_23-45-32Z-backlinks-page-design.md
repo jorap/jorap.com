@@ -504,9 +504,9 @@ curl -s http://localhost:1313/notes/backlinks/ | sed -n '892,950p'
                     <span class="text-ink-muted font-normal">(44 backlinks)</span>
                   </h2>
                   <ul class="notes-backlinks-list mb-0 list-none space-y-2 p-0 text-sm"><li>
-                        <a class="text-accent no-underline hover:underline" href="/notes/faithfulness/">Faithfulness</a><span class="text-ink-muted"> - , owners, dates after you said yes. … names what steady faithfulness may receive; … keeps it from becoming the entry fee.</span></li><li>
-                        <a class="text-accent no-underline hover:underline" href="/notes/joy/">Joy</a><span class="text-ink-muted"> - | extends | … | Joy follows grace received - not wages that buy heaven |</span></li><li>
-                        <a class="text-accent no-underline hover:underline" href="/notes/grace/">Grace</a><span class="text-ink-muted"> - Same rescue, two angles - rich in mercy, saved by grace (Ephesians 2:4-5). … is grace applied to eternal life: Christ paid what I couldn&#39;…</span></li><li>
+                        <a class="text-accent no-underline hover:underline" href="/notes/faithfulness/">Faithfulness</a><span class="text-ink-muted"> — , owners, dates after you said yes. … names what steady faithfulness may receive; … keeps it from becoming the entry fee.</span></li><li>
+                        <a class="text-accent no-underline hover:underline" href="/notes/joy/">Joy</a><span class="text-ink-muted"> — | extends | … | Joy follows grace received - not wages that buy heaven |</span></li><li>
+                        <a class="text-accent no-underline hover:underline" href="/notes/grace/">Grace</a><span class="text-ink-muted"> — Same rescue, two angles - rich in mercy, saved by grace (Ephesians 2:4-5). … is grace applied to eternal life: Christ paid what I couldn&#39;…</span></li><li>
                     
 … (output truncated)
 ```
@@ -761,15 +761,15 @@ _**Agent (auto-low)**_
 
 The backlinks index page is easier to scan now. Here’s what changed:
 
-**Summary panel** - Shows anchor count (notes with inbound links), total backlinks, and the most-linked note at a glance.
+**Summary panel** — Shows anchor count (notes with inbound links), total backlinks, and the most-linked note at a glance.
 
-**Search** - Filter by anchor or linking note title/snippet text, with URL `?q=` support (same pattern as the notes list).
+**Search** — Filter by anchor or linking note title/snippet text, with URL `?q=` support (same pattern as the notes list).
 
-**Collapsible groups** - Large anchor lists (more than 6 backlinks) start collapsed; smaller groups stay open. Each group has a count badge and an “Open note →” link.
+**Collapsible groups** — Large anchor lists (more than 6 backlinks) start collapsed; smaller groups stay open. Each group has a count badge and an “Open note →” link.
 
-**Backlink cards** - Each backlink is a small card with the source title and a 3-line-clamped snippet, in a 2-column grid on wider screens - aligned with the recent-notes and single-note backlink styling.
+**Backlink cards** — Each backlink is a small card with the source title and a 3-line-clamped snippet, in a 2-column grid on wider screens — aligned with the recent-notes and single-note backlink styling.
 
-**Visual polish** - Elevated backgrounds, custom disclosure chevrons, and hover states that match the rest of the notes garden.
+**Visual polish** — Elevated backgrounds, custom disclosure chevrons, and hover states that match the rest of the notes garden.
 
 Refresh [http://localhost:1313/notes/backlinks/](http://localhost:1313/notes/backlinks/) to see it. “Free Grace” (44 backlinks) should be collapsed by default; expand it to browse the card grid.
 
@@ -1008,11 +1008,11 @@ Status: **completed**
 
 _**Agent (auto-low)**_
 
-More polish is in - refresh the page to see it.
+More polish is in — refresh the page to see it.
 
 **Unified dashboard panel**
 - Three stat cards: anchor count, total backlinks, top anchor (clickable count)
-- “Jump to” pill nav for the top 10 anchors - deep-links open and scroll to that group
+- “Jump to” pill nav for the top 10 anchors — deep-links open and scroll to that group
 - Controls merged into one panel with a hint line (avg backlinks per anchor)
 
 **Richer group headers**
@@ -1036,4 +1036,4 @@ More polish is in - refresh the page to see it.
 - Improved empty state
 - Focus rings and hover states on summaries and jump pills
 
-Try `#free-grace` in the URL or a jump pill - it should open that section and scroll to it.
+Try `#free-grace` in the URL or a jump pill — it should open that section and scroll to it.

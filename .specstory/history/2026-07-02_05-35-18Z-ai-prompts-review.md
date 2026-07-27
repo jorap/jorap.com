@@ -899,18 +899,18 @@ I reviewed every executable prompt in the repo against the current garden spec (
 
 | Prompt | Location | Status |
 |--------|----------|--------|
-| **Create Note** | `assets/js/notes-creator.js` | **Partially stale** - frontmatter steps are right, CONTEXT still describes body `##` sections |
-| **Connection analysis** | `assets/js/notes-random-core.js` | **Outdated for current garden** - PKM/workflow/tweet outputs; no voice or frontmatter guidance |
+| **Create Note** | `assets/js/notes-creator.js` | **Partially stale** — frontmatter steps are right, CONTEXT still describes body `##` sections |
+| **Connection analysis** | `assets/js/notes-random-core.js` | **Outdated for current garden** — PKM/workflow/tweet outputs; no voice or frontmatter guidance |
 | **jorap-voice skill** | `.cursor/skills/jorap-voice/SKILL.md` | **Current** |
 | **flashcards skill** | `.cursor/skills/flashcards/SKILL.md` | **Current** (minor drift vs `flashcards.md` on deck sizes) |
 | **notes archetype** | `archetypes/notes.md` | **Current** |
-| **notes-review archetype** | `archetypes/notes-review.md` | **Stale** - body placeholder + generic card examples |
-| **OKF workflow combos** | `content/english/notes/okf-export.md` | **Current** - documents the three lanes correctly |
+| **notes-review archetype** | `archetypes/notes-review.md` | **Stale** — body placeholder + generic card examples |
+| **OKF workflow combos** | `content/english/notes/okf-export.md` | **Current** — documents the three lanes correctly |
 | **SpecKit prompts** | `.github/prompts/speckit.*.prompt.md` | Unrelated to notes garden; no action needed |
 
 ---
 
-### 1. Create Note prompt - partially stale
+### 1. Create Note prompt — partially stale
 
 Used on [/notes/create/](/notes/create/). Steps 4–6 correctly target **frontmatter-only** atomic notes (`description`, `key_concept`, `examples`, `relationships`), which matches your current notes like `by-their-fruits.md`.
 
@@ -922,9 +922,9 @@ Used on [/notes/create/](/notes/create/). Steps 4–6 correctly target **frontma
       "I'm building a notes garden (Hugo, content/english/notes/). Each file is one atomic note: one claim I'd say out loud. Too many \"and\"s means split into separate notes with [[wikilinks]].",
       "",
       "Allowed body sections only:",
-      "- Opening line (one-breath definition - no \"Term =\" prefix)",
+      "- Opening line (one-breath definition — no \"Term =\" prefix)",
       "- ## Key Concept (one sentence, then next paragraph for stakes, distinctions, wikilinks; not a second definition)",
-      "- ## Examples (exactly two plain bullets from different fields - best scenes first, no genre labels)",
+      "- ## Examples (exactly two plain bullets from different fields — best scenes first, no genre labels)",
       "- ## Note Relationships (markdown table; must include at least one extends row and one contradicts row)",
       "- ## See also (optional)",
 ```
@@ -940,7 +940,7 @@ The garden moved to **frontmatter fields assembled at build** (`assembled-conten
 
 **Other gaps vs current spec:**
 
-- Still emits a manual `date:` field - `getting-started.md` says timestamps come from `scripts/noteFileDates.js`
+- Still emits a manual `date:` field — `getting-started.md` says timestamps come from `scripts/noteFileDates.js`
 - No `note_kind` guidance (`note` vs `index` vs `meta`)
 - No utility-page rule (don't `[[wikilink]]` Graph, Issues, Flashcards, etc.)
 - Default `categories: ["Ideas", "Tips"]` doesn't match real notes (`Faith`, `Productivity`, etc.)
@@ -948,7 +948,7 @@ The garden moved to **frontmatter fields assembled at build** (`assembled-conten
 
 ---
 
-### 2. Connection prompt - outdated for faith + frontmatter garden
+### 2. Connection prompt — outdated for faith + frontmatter garden
 
 Shared by Random Note (blog + note, note + note) and Random Duo via `connectionPromptTail()`:
 
@@ -967,7 +967,7 @@ Shared by Random Note (blog + note, note + note) and Random Duo via `connectionP
 
 **Misaligned with current garden:**
 
-- Framed as PKM/workflow only - garden is now heavily gospel/faith (`by-their-fruits`, `free-grace`, etc.)
+- Framed as PKM/workflow only — garden is now heavily gospel/faith (`by-their-fruits`, `free-grace`, etc.)
 - Outputs (tweets, experiments, wikilink ideas) don't map to garden artifacts (`relationships` rows, sibling atomic notes, flashcard cues)
 - No jorap-voice / plain-words guidance
 - No mention that note content is assembled from frontmatter
@@ -976,7 +976,7 @@ Shared by Random Note (blog + note, note + note) and Random Duo via `connectionP
 
 ---
 
-### 3. Cursor skills - current
+### 3. Cursor skills — current
 
 **jorap-voice** and **flashcards** align with live notes:
 
@@ -990,14 +990,14 @@ Shared by Random Note (blog + note, note + note) and Random Duo via `connectionP
 
 ### 4. Archetypes
 
-**`archetypes/notes.md`** - current. Frontmatter scaffold matches the live format.
+**`archetypes/notes.md`** — current. Frontmatter scaffold matches the live format.
 
-**`archetypes/notes-review.md`** - stale:
+**`archetypes/notes-review.md`** — stale:
 
 ```29:31:archetypes/notes-review.md
 ---
 
-**{{ replace .Name "-" " " | title }}** - one idea, stated plainly. Link out instead of adding sections.
+**{{ replace .Name "-" " " | title }}** — one idea, stated plainly. Link out instead of adding sections.
 ```
 
 Atomic notes should have an **empty body**. Card placeholders use `"Second prompt?"` instead of cue → apply examples from the flashcards skill.
@@ -1006,18 +1006,18 @@ Atomic notes should have an **empty body**. Card placeholders use `"Second promp
 
 ### 5. Meta docs (not prompts, but reference targets)
 
-- **`getting-started.md`** - authoritative, up to date
-- **`okf-export.md`** - workflow table matches the three copy-paste lanes
-- **`note-relationships.md`** - spec is current, but its own flashcards still reference "typing in the body" (lines 43–52), which predates the frontmatter migration
+- **`getting-started.md`** — authoritative, up to date
+- **`okf-export.md`** — workflow table matches the three copy-paste lanes
+- **`note-relationships.md`** — spec is current, but its own flashcards still reference "typing in the body" (lines 43–52), which predates the frontmatter migration
 
 ---
 
 ### Recommended fixes (priority order)
 
-1. **`notes-creator.js`** - Replace "Allowed body sections" with frontmatter field rules; fix quality gate; drop manual `date:`; add `note_kind` + utility-link rules
-2. **`notes-random-core.js`** - Broaden TASK beyond PKM; add jorap-voice; optionally output `relationships` rows / sibling note stubs instead of tweets
-3. **`archetypes/notes-review.md`** - Empty body; realistic cue → apply card examples
-4. **`note-relationships.md` cards** - Update fronts that still say "typing in the body"
+1. **`notes-creator.js`** — Replace "Allowed body sections" with frontmatter field rules; fix quality gate; drop manual `date:`; add `note_kind` + utility-link rules
+2. **`notes-random-core.js`** — Broaden TASK beyond PKM; add jorap-voice; optionally output `relationships` rows / sibling note stubs instead of tweets
+3. **`archetypes/notes-review.md`** — Empty body; realistic cue → apply card examples
+4. **`note-relationships.md` cards** — Update fronts that still say "typing in the body"
 
 Want me to apply these updates? I'd start with `notes-creator.js` and `notes-random-core.js` since those are what users copy into ChatGPT.
 

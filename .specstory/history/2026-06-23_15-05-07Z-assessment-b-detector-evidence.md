@@ -17,8 +17,8 @@ Steps:
 3. Browser visualization attempt:
    - Start live server: `node /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/impeccable/scripts/live-server.mjs --background`
    - Note the PORT from output
-   - Try to build/serve the site if needed - check if public/ exists with built HTML, or run hugo server briefly
-   - If you can serve a viewable page at localhost, note that browser injection requires a Human tab (may not be available in shell agent) - report what you can determine from CLI detect only
+   - Try to build/serve the site if needed — check if public/ exists with built HTML, or run hugo server briefly
+   - If you can serve a viewable page at localhost, note that browser injection requires a Human tab (may not be available in shell agent) — report what you can determine from CLI detect only
    - Stop live server when done
 
 Return:
@@ -526,7 +526,7 @@ head -40 /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/impeccable/script
  *   5. Print a single JSON blob with everything the agent needs
  *
  * After this, the agent's only remaining steps are:
- *   - Open the project's live dev/preview URL in the browser (optional, if browser automation exists)-not `serverPort`; that port is the Impeccable helper for /live.js and /poll
+ *   - Open the project's live dev/preview URL in the browser (optional, if browser automation exists)—not `serverPort`; that port is the Impeccable helper for /live.js and /poll
  *   - Enter the poll loop: `node live-poll.mjs`
  *
  * Usage:
@@ -572,7 +572,7 @@ head -30 /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/_partials/c
 
 ```
 {{/*
-  components/image - Renders a responsive <img> or <picture> from any source.
+  components/image — Renders a responsive <img> or <picture> from any source.
 
   Resolution order for `Src`:
     1. Remote URL (http/https/protocol-relative) → <img src=…>
@@ -733,7 +733,7 @@ An unknown error occurred
 
 _**Agent (default)**_
 
-## Assessment B - CLI + browser attempt
+## Assessment B — CLI + browser attempt
 
 ### Commands and exit codes
 
@@ -757,14 +757,14 @@ Exit **2** = findings present (per CLI behavior). The scoped scan pulls in all o
 
 **By file (primary scan):**
 
-- `themes/jorap/layouts/_partials/components/image.html` - `broken-image` ×2 (line 0)
-- `themes/jorap/layouts/_partials/essentials/self-hosted-fonts.html` - `design-system-font` (line 27, snippet mentions `Google Fonts: %s`)
-- `themes/jorap/layouts/shortcodes/spotify_iframe_artist.html` - `design-system-radius` (line 8, `12px`)
-- `themes/jorap/layouts/shortcodes/spotify_iframe_track.html` - `design-system-radius` (line 8, `12px`)
-- `themes/jorap/assets/css/module-overrides.css` - `design-system-radius` (line 41, `999px`)
-- `themes/jorap/assets/plugins/swiper/swiper-bundle.css` - `layout-transition` (lines 71, 657), `design-system-font` (lines 14, 230, `Swiper-Icons`), `design-system-radius` (lines 449, 475, `10px`)
+- `themes/jorap/layouts/_partials/components/image.html` — `broken-image` ×2 (line 0)
+- `themes/jorap/layouts/_partials/essentials/self-hosted-fonts.html` — `design-system-font` (line 27, snippet mentions `Google Fonts: %s`)
+- `themes/jorap/layouts/shortcodes/spotify_iframe_artist.html` — `design-system-radius` (line 8, `12px`)
+- `themes/jorap/layouts/shortcodes/spotify_iframe_track.html` — `design-system-radius` (line 8, `12px`)
+- `themes/jorap/assets/css/module-overrides.css` — `design-system-radius` (line 41, `999px`)
+- `themes/jorap/assets/plugins/swiper/swiper-bundle.css` — `layout-transition` (lines 71, 657), `design-system-font` (lines 14, 230, `Swiper-Icons`), `design-system-radius` (lines 449, 475, `10px`)
 
-`home.html` only defines `main` and partials `home-intro`, `home-scope`, `home-proof`, `home-writing` - no direct hits in that file; none of the flagged partials appear under `sections/home*`.
+`home.html` only defines `main` and partials `home-intro`, `home-scope`, `home-proof`, `home-writing` — no direct hits in that file; none of the flagged partials appear under `sections/home*`.
 
 ### Full CLI JSON (primary command)
 
@@ -891,23 +891,23 @@ Exit **2** = findings present (per CLI behavior). The scoped scan pulls in all o
 
 ### Suspected false positives / scope noise
 
-1. **`broken-image` on `image.html`** - Hugo partial; `src` is set at render time. Static HTML pass sees a template, not shipped markup.
-2. **Duplicate `broken-image` rows** - same file/snippet twice (detector duplication, not two distinct issues).
-3. **`design-system-font` on `self-hosted-fonts.html`** - `ignoreValue` is `%s`; likely a format-string / build-time path, not a literal undeclared font in output.
-4. **Swiper bundle** - third-party CSS (`Swiper-Icons`, height transitions, `10px` radius); may not load on homepage at all.
-5. **Spotify shortcodes** - not referenced from `home.html` or `sections/home-*`.
-6. **`999px` in `module-overrides.css`** - scrollbar thumb styling; may be intentional pill-like radius vs DESIGN.md scale.
-7. **`12px\"` ignoreValue** - possible quoting artifact in the radius matcher (`12px"`).
+1. **`broken-image` on `image.html`** — Hugo partial; `src` is set at render time. Static HTML pass sees a template, not shipped markup.
+2. **Duplicate `broken-image` rows** — same file/snippet twice (detector duplication, not two distinct issues).
+3. **`design-system-font` on `self-hosted-fonts.html`** — `ignoreValue` is `%s`; likely a format-string / build-time path, not a literal undeclared font in output.
+4. **Swiper bundle** — third-party CSS (`Swiper-Icons`, height transitions, `10px` radius); may not load on homepage at all.
+5. **Spotify shortcodes** — not referenced from `home.html` or `sections/home-*`.
+6. **`999px` in `module-overrides.css`** — scrollbar thumb styling; may be intentional pill-like radius vs DESIGN.md scale.
+7. **`12px\"` ignoreValue** — possible quoting artifact in the radius matcher (`12px"`).
 
-### Browser visualization - attempted / skipped
+### Browser visualization — attempted / skipped
 
 | Step | Result |
 |------|--------|
 | `live-server.mjs --background` | Started: `port` **8400**, `pid` 230007; `/health` returned `connectedClients: 0`; `/detect.js` served |
 | `live-server.mjs stop` | Stopped; port 8400 no longer responds |
 | `public/index.html` | Present (built Hugo output) |
-| `live-inject.mjs --check` / `live.mjs` | **`config_missing`** - no `.impeccable/live/config.json`; inject/remove skipped |
+| `live-inject.mjs --check` / `live.mjs` | **`config_missing`** — no `.impeccable/live/config.json`; inject/remove skipped |
 | Static serve `public/` + `detect.mjs http://127.0.0.1:8765/` | **Skipped effective browser scan:** stderr `puppeteer is required for URL scanning`; `node_modules/puppeteer` absent; JSON `[]`, exit **0** |
-| Live overlay in Human tab | **Not available** in this shell subagent - no browser session to load dev URL + `/live.js` / overlay |
+| Live overlay in Human tab | **Not available** in this shell subagent — no browser session to load dev URL + `/live.js` / overlay |
 
 **CLI-only conclusion for homepage target:** `home.html` and built `public/index.html` produce **zero** static findings; the 12-item set is from the broader `layouts` + `assets` scan (theme-wide), not from the homepage template file itself.

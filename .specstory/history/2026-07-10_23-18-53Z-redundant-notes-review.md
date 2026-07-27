@@ -1447,7 +1447,7 @@ _**Agent (auto-low)**_
 
 Redundancy in your garden falls into three buckets: **intentional parallels** (faith vs workplace), **hub notes that re-index children**, and **pairs where the core claim has blurred together**.
 
-## Highest overlap - likely merge candidates
+## Highest overlap — likely merge candidates
 
 These pairs share almost the same one-line claim and examples could live on one page with a typed `alternative` or `extends` link.
 
@@ -1459,8 +1459,8 @@ These pairs share almost the same one-line claim and examples could live on one 
 | **Grace** / **Free Grace** | Both hammer gift-not-wages. Free Grace is the theological spine; Grace reads like a shorter sibling, not a distinct claim. |
 | **Sanctification** / **Christlikeness** | Sanctification says Christlikeness names the aim. Slow becoming vs looking like Jesus is one idea split in two. |
 | **Renewed Mind** / **Discern His Will Daily** | Romans 12:2 engine vs outcome. Renewed Mind already points to Discern as the fork; thin separation. |
-| **Lean Startup** / **Minimum Viable Product** | Ship smallest test, learn, don't polish. MVP is the artifact; Lean Startup is the loop - but your descriptions collapse them. |
-| **Building a Second Brain** / **The Second Brain Workflow** | Philosophy (CODE) vs operational loop. Building a Second Brain already implements the workflow note - thin diff. |
+| **Lean Startup** / **Minimum Viable Product** | Ship smallest test, learn, don't polish. MVP is the artifact; Lean Startup is the loop — but your descriptions collapse them. |
+| **Building a Second Brain** / **The Second Brain Workflow** | Philosophy (CODE) vs operational loop. Building a Second Brain already implements the workflow note — thin diff. |
 | **Integrity** / **Integrity Without an Audience** | General claim vs hidden-work lane. Relationship wiring is backwards in places (Integrity extends the audience-specific note). |
 
 **Follow-Through** and **Complete the Cycle** are the clearest accidental duplicate:
@@ -1478,10 +1478,10 @@ key_concept: |
   - Verification closes the loop - if nobody checks it landed, the cycle never really finished.
 ```
 
-## Cluster bloat - layered on purpose, but dense
+## Cluster bloat — layered on purpose, but dense
 
 ### Leadership cluster
-**Leadership Is Influence** acts like a second hub - its `key_concept` indexes Leadership, Servant Leadership, Ethical Leadership, Discipleship vs Leadership, Follow Christ Then Lead, etc. That makes it overlap with:
+**Leadership Is Influence** acts like a second hub — its `key_concept` indexes Leadership, Servant Leadership, Ethical Leadership, Discipleship vs Leadership, Follow Christ Then Lead, etc. That makes it overlap with:
 
 - **Leadership** (direction, pace, care)
 - **Servant Leadership** (unblock, blame up, credit down)
@@ -1507,12 +1507,12 @@ The first three are the tightest overlap.
 **Slow Productivity**, **Sustainable Performance**, **Recovery**, **Energy Protects Judgment**, and partly **Deep Work** all argue repeatable pace over heroic sprints. Sustainable Performance and Slow Productivity are especially close.
 
 ### Salvation spine
-**Free Grace**, **Grace**, **Justification**, **Assurance**, **Standing vs Fellowship** - intentional theology ladder, but Grace and Free Grace are the pair most readers will treat as duplicate.
+**Free Grace**, **Grace**, **Justification**, **Assurance**, **Standing vs Fellowship** — intentional theology ladder, but Grace and Free Grace are the pair most readers will treat as duplicate.
 
 ### Neighbor ethics
 **The Golden Rule**, **Love Your Neighbor**, and **Kindness** overlap heavily. Golden Rule at Work is intentionally parallel, not redundant.
 
-## Intentional parallels - not redundant by design
+## Intentional parallels — not redundant by design
 
 Your garden explicitly maintains faith ↔ workplace pairs. These should stay unless you drop the secular-audience pattern:
 
@@ -1526,19 +1526,19 @@ Your garden explicitly maintains faith ↔ workplace pairs. These should stay un
 
 Workplace Principles says this outright: same ethics, plain office language, wikilink back to gospel depth.
 
-**Influence Without Title** / **Title Without Influence** are deliberate opposites - keep both.
+**Influence Without Title** / **Title Without Influence** are deliberate opposites — keep both.
 
 **Transformation Principles** vs **Systems for Growth** are sibling MOCs with an explicit `alternative` relationship (change design vs compounding loops).
 
 ## Hub notes that duplicate their children
 
-Index notes (`note_kind: "index"`) will always look partially redundant - they list what child notes already say:
+Index notes (`note_kind: "index"`) will always look partially redundant — they list what child notes already say:
 
 - **Eternal Principles**, **Workplace Principles**
 - **Transformation Principles**, **Systems for Growth**
 - **Leadership Is Influence** (behaves like a hub despite not being tagged index)
 
-That is structural, not accidental - unless a hub's `key_concept` repeats a child claim verbatim instead of only routing.
+That is structural, not accidental — unless a hub's `key_concept` repeats a child claim verbatim instead of only routing.
 
 ## Practical triage order
 
@@ -1546,15 +1546,15 @@ If you wanted to thin the garden without breaking the faith/work pattern:
 
 1. **Merge or demote one of** Follow-Through / Complete the Cycle  
 2. **Merge or demote one of** Recovery / Energy Protects Judgment  
-3. **Collapse stewardship headline + parable** - keep Steward After the Win as the situational child  
-4. **Pick one salvation gift note** - Free Grace as spine, Grace as alias or section  
-5. **Pick one growth-after-faith note** - Sanctification or Christlikeness, not both at equal weight  
-6. **Sharpen Leadership Is Influence** - hub only, or cut the re-summary of every sibling note  
+3. **Collapse stewardship headline + parable** — keep Steward After the Win as the situational child  
+4. **Pick one salvation gift note** — Free Grace as spine, Grace as alias or section  
+5. **Pick one growth-after-faith note** — Sanctification or Christlikeness, not both at equal weight  
+6. **Sharpen Leadership Is Influence** — hub only, or cut the re-summary of every sibling note  
 7. **Leave all faith/work pairs alone** unless you abandon the secular-team publishing model  
 
-Redundancy here is mostly **over-layering the same claim at different altitudes**, not 238 random duplicates. The garden's typed relationships already know about many of these pairs - the question is whether each still earns its own flashcard set and URL.
+Redundancy here is mostly **over-layering the same claim at different altitudes**, not 238 random duplicates. The garden's typed relationships already know about many of these pairs — the question is whether each still earns its own flashcard set and URL.
 
-If you want, I can map a specific merge plan (which note survives, which becomes alias, which relationships move) for any cluster - that would need Agent mode to edit.
+If you want, I can map a specific merge plan (which note survives, which becomes alias, which relationships move) for any cluster — that would need Agent mode to edit.
 
 ---
 
@@ -1562,7 +1562,7 @@ _**User**_
 
 Merge or demote one of Follow-Through / Complete the Cycle
 Merge or demote one of Recovery / Energy Protects Judgment
-Sharpen Leadership Is Influence - hub only, or cut the re-summary of every sibling note
+Sharpen Leadership Is Influence — hub only, or cut the re-summary of every sibling note
 
 
 ---
@@ -2217,7 +2217,7 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Demoting Follow-Through to Complete the Cycle is the first step.
 
-Complete the Cycle survives because it covers richer content like verification and weekly reviews. Its unique angles-such as "saying yes is cheap," plain commitments, faithfulness, reliability, and the Forgiveness at Work contradiction-will merge into it. Aliases like "follow through" and "follow-through" will be added.
+Complete the Cycle survives because it covers richer content like verification and weekly reviews. Its unique angles—such as "saying yes is cheap," plain commitments, faithfulness, reliability, and the Forgiveness at Work contradiction—will merge into it. Aliases like "follow through" and "follow-through" will be added.
 
 The follow-through file will be deleted. Links and flashcards will migrate to Complete the Cycle. The circular relationship between the two notes will be removed.
 
@@ -2520,7 +2520,7 @@ Four shareable thoughts will be merged from both notes. Cards will be combined t
 
 Energy Protects Judgment will absorb Recovery’s angle on sleep and scheduled rest refilling judgment, patience, and attention.
 
-Recovery’s key_concept will be trimmed to four bullets maximum. Its contradiction with Finish Strong is being added to Complete the Cycle, and its own extension to Recovery is being removed. Recovery’s delayed fatigue effect-bad calls surfacing three days after skipping recovery-is also being folded in.
+Recovery’s key_concept will be trimmed to four bullets maximum. Its contradiction with Finish Strong is being added to Complete the Cycle, and its own extension to Recovery is being removed. Recovery’s delayed fatigue effect—bad calls surfacing three days after skipping recovery—is also being folded in.
 
 Energy Protects Judgment will keep its existing aliases and add “recovery.” Recovery’s two cards will merge with Energy’s two to form four total cards. Leadership Is Influence will use a hub-style key_concept: “if nobody is following, you are just taking a walk.”
 
@@ -3528,8 +3528,8 @@ All three unlinked mentions are resolved:
 | Note | Fix |
 |------|-----|
 | **Plain Commitments at Work** | Linked `[[Complete the Cycle]]` in `key_concept` (plain yes needs plain closing of the loop) |
-| **Failure as Feedback** | Rephrased to "adjusting form and routine" - basketball context, not the garden note |
-| **Evergreen Notes** | Rephrased to "shooting form" - same reason |
+| **Failure as Feedback** | Rephrased to "adjusting form and routine" — basketball context, not the garden note |
+| **Evergreen Notes** | Rephrased to "shooting form" — same reason |
 
 The last two were homonyms with the old Follow-Through note title. Linking them to Complete the Cycle would have been misleading, so the wording changed instead. Frontmatter lint passes on all three.
 

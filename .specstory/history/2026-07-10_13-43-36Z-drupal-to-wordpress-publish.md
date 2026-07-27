@@ -451,8 +451,8 @@ cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/notes-voice-sanitiz
 Voice dash errors:
   content/english/blog/alex-eala-pro-career-tracker.md: em/en dash found (1); use hyphen, comma, or parentheses (jorap-voice)
 Voice lint warnings:
-  content/english/notes/selling-static-sites.md: relationships.reason: AI-tell word `handoff` - try: pass off / pass to client
-  content/english/notes/static-site-client-scope.md: relationships.reason: AI-tell word `handoff` - try: pass off / pass to client
+  content/english/notes/selling-static-sites.md: relationships.reason: AI-tell word `handoff` — try: pass off / pass to client
+  content/english/notes/static-site-client-scope.md: relationships.reason: AI-tell word `handoff` — try: pass off / pass to client
 
 ```
 </details></tool-use>

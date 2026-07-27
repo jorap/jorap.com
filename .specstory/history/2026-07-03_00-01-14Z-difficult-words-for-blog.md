@@ -1140,7 +1140,7 @@ cloudflare deploy markdown repo naming heroic motive tempted faithful steward se
 entrusted hoard revoked closeness commute halftime applause heroic heroic heroic
 &#34;&#34;&#34;.split())
 
-# Proper nouns, brands, slugs - not vocabulary difficulty
+# Proper nouns, brands, slugs — not vocabulary difficulty
 PROPER_BLOCK = set(&#34;&#34;&#34;
 jorap hugoplate wtatennis alexandra eala alex tennis wimbledon usopen shopee
 facebook youtube github cloudflare hugo obsidian wordpress tailwind pixijs anki
@@ -1336,7 +1336,7 @@ cloudflare deploy markdown repo naming heroic motive tempted faithful steward se
 entrusted hoard revoked closeness commute halftime applause heroic heroic heroic
 """.split())
 
-# Proper nouns, brands, slugs - not vocabulary difficulty
+# Proper nouns, brands, slugs — not vocabulary difficulty
 PROPER_BLOCK = set("""
 jorap hugoplate wtatennis alexandra eala alex tennis wimbledon usopen shopee
 facebook youtube github cloudflare hugo obsidian wordpress tailwind pixijs anki
@@ -3725,7 +3725,7 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 Many voice-words.yaml terms were already sanitized, such as postmortem to after-action review and handoff to pass off.
 
-A composite score ranks the 50 most difficult words by rarity, syllables, and site impact. The final list excludes proper nouns and plain words missing from the 10k list. Entries are grouped by lane-such as theology, PKM, tech, and general-with usage counts and plain-text swaps. Theology terms are likely acceptable with gloss.
+A composite score ranks the 50 most difficult words by rarity, syllables, and site impact. The final list excludes proper nouns and plain words missing from the 10k list. Entries are grouped by lane—such as theology, PKM, tech, and general—with usage counts and plain-text swaps. Theology terms are likely acceptable with gloss.
 
 Theology lane entries include sanctification, justification, discipleship, righteousness, forgiveness, obedience, faithfulness, gentleness, fellowship, and salvation. Galatians is kept as a Bible reference. Peacemakers and beatitudes round out the list.
 
@@ -3891,12 +3891,12 @@ for w, c in freq.items():
 items.sort(reverse=True)
 print(f&#34;Scanned 261 files (51 blog + 210 notes, including 36 drafts)\n&#34;)
 for i, (_, w, c, syl, rank, lane, b, n) in enumerate(items[:50], 1):
-    swap = SWAPS.get(w, &#34;-&#34;)
+    swap = SWAPS.get(w, &#34;—&#34;)
     rank_s = f&#34;#{rank}&#34; if rank &lt;= 10000 else &#34;rare&#34;
     where = []
     if b: where.append(f&#34;blog×{b}&#34;)
     if n: where.append(f&#34;notes×{n}&#34;)
-    print(f&#34;{i:2d}. **{w}** ({c}×, {syl} syl, {rank_s}, {lane}) - {swap} [{&#39;, &#39;.join(where)}]&#34;)
+    print(f&#34;{i:2d}. **{w}** ({c}×, {syl} syl, {rank_s}, {lane}) — {swap} [{&#39;, &#39;.join(where)}]&#34;)
 PYEOF</summary>
 ```bash
 python3 << 'PYEOF'
@@ -4051,43 +4051,43 @@ for w, c in freq.items():
 items.sort(reverse=True)
 print(f"Scanned 261 files (51 blog + 210 notes, including 36 drafts)\n")
 for i, (_, w, c, syl, rank, lane, b, n) in enumerate(items[:50], 1):
-    swap = SWAPS.get(w, "-")
+    swap = SWAPS.get(w, "—")
     rank_s = f"#{rank}" if rank <= 10000 else "rare"
     where = []
     if b: where.append(f"blog×{b}")
     if n: where.append(f"notes×{n}")
-    print(f"{i:2d}. **{w}** ({c}×, {syl} syl, {rank_s}, {lane}) - {swap} [{', '.join(where)}]")
+    print(f"{i:2d}. **{w}** ({c}×, {syl} syl, {rank_s}, {lane}) — {swap} [{', '.join(where)}]")
 PYEOF
 ```
 
 ```
 Scanned 261 files (51 blog + 210 notes, including 36 drafts)
 
- 1. **justification** (25×, 5 syl, rare, theology) - declared right with God [notes×25]
- 2. **sanctification** (20×, 5 syl, rare, theology) - becoming more like Christ [notes×20]
- 3. **obedience** (65×, 3 syl, rare, theology) - doing what God asks [notes×65]
- 4. **galatians** (48×, 3 syl, rare, theology) - Bible book (topic OK) [notes×48]
- 5. **faithfulness** (31×, 3 syl, rare, theology) - staying loyal [notes×31]
- 6. **quarterfinals** (18×, 4 syl, rare, general) - tennis bracket (OK in tracker) [blog×18]
- 7. **gentleness** (34×, 3 syl, rare, theology) - soft strength, not harsh [notes×34]
- 8. **irreversible** (12×, 5 syl, rare, general) - can't undo [notes×12]
- 9. **discipleship** (17×, 4 syl, rare, theology) - following Jesus day to day [notes×17]
-10. **forgiveness** (17×, 4 syl, rare, theology) - letting a debt go [notes×17]
-11. **faithful** (60×, 2 syl, rare, general) - - [notes×60]
-12. **righteousness** (20×, 3 syl, rare, theology) - right standing with God [notes×20]
-13. **markdown** (53×, 2 syl, rare, general) - - [blog×37, notes×16]
-14. **evergreen** (25×, 3 syl, rare, pkm) - stays useful over time [notes×25]
-15. **tempted** (51×, 2 syl, rare, general) - - [notes×51]
-16. **habit** (51×, 2 syl, rare, general) - - [blog×14, notes×37]
-17. **deploy** (48×, 2 syl, rare, tech) - push live [blog×15, notes×33]
-18. **retainer** (25×, 3 syl, rare, tech) - monthly upkeep fee [blog×14, notes×11]
-19. **entrusted** (22×, 3 syl, rare, general) - - [notes×22]
-20. **repetition** (13×, 4 syl, rare, pkm) - drill / review again [notes×13]
-21. **peacemakers** (12×, 4 syl, rare, theology) - people who stop fights [notes×12]
-22. **rollback** (43×, 2 syl, rare, pkm) - undo / go back [notes×43]
-23. **whiteboard** (19×, 3 syl, rare, pkm) - big scratch space [notes×19]
-24. **semifinals** (12×, 4 syl, rare, general) - tennis bracket (OK in tracker) [blog×12]
-25. **adaptability** (6×, 6 syl, rare, general) - adjust when thing
+ 1. **justification** (25×, 5 syl, rare, theology) — declared right with God [notes×25]
+ 2. **sanctification** (20×, 5 syl, rare, theology) — becoming more like Christ [notes×20]
+ 3. **obedience** (65×, 3 syl, rare, theology) — doing what God asks [notes×65]
+ 4. **galatians** (48×, 3 syl, rare, theology) — Bible book (topic OK) [notes×48]
+ 5. **faithfulness** (31×, 3 syl, rare, theology) — staying loyal [notes×31]
+ 6. **quarterfinals** (18×, 4 syl, rare, general) — tennis bracket (OK in tracker) [blog×18]
+ 7. **gentleness** (34×, 3 syl, rare, theology) — soft strength, not harsh [notes×34]
+ 8. **irreversible** (12×, 5 syl, rare, general) — can't undo [notes×12]
+ 9. **discipleship** (17×, 4 syl, rare, theology) — following Jesus day to day [notes×17]
+10. **forgiveness** (17×, 4 syl, rare, theology) — letting a debt go [notes×17]
+11. **faithful** (60×, 2 syl, rare, general) — — [notes×60]
+12. **righteousness** (20×, 3 syl, rare, theology) — right standing with God [notes×20]
+13. **markdown** (53×, 2 syl, rare, general) — — [blog×37, notes×16]
+14. **evergreen** (25×, 3 syl, rare, pkm) — stays useful over time [notes×25]
+15. **tempted** (51×, 2 syl, rare, general) — — [notes×51]
+16. **habit** (51×, 2 syl, rare, general) — — [blog×14, notes×37]
+17. **deploy** (48×, 2 syl, rare, tech) — push live [blog×15, notes×33]
+18. **retainer** (25×, 3 syl, rare, tech) — monthly upkeep fee [blog×14, notes×11]
+19. **entrusted** (22×, 3 syl, rare, general) — — [notes×22]
+20. **repetition** (13×, 4 syl, rare, pkm) — drill / review again [notes×13]
+21. **peacemakers** (12×, 4 syl, rare, theology) — people who stop fights [notes×12]
+22. **rollback** (43×, 2 syl, rare, pkm) — undo / go back [notes×43]
+23. **whiteboard** (19×, 3 syl, rare, pkm) — big scratch space [notes×19]
+24. **semifinals** (12×, 4 syl, rare, general) — tennis bracket (OK in tracker) [blog×12]
+25. **adaptability** (6×, 6 syl, rare, general) — adjust when thing
 … (output truncated)
 ```
 </details></tool-use>
@@ -4114,7 +4114,7 @@ Grouped by lane. **Theology/PKM/tool terms** are often fine when glossed once; *
 
 ---
 
-### Theology (23) - gloss once, then the term is OK
+### Theology (23) — gloss once, then the term is OK
 
 | # | Word | Uses | Plain swap |
 |---|------|------|------------|
@@ -4128,7 +4128,7 @@ Grouped by lane. **Theology/PKM/tool terms** are often fine when glossed once; *
 | 8 | **righteousness** | 20 | right standing with God |
 | 9 | **discipleship** | 17 | following Jesus day to day |
 | 10 | **forgiveness** | 17 | letting a debt go |
-| 11 | **galatians** | 48 | Bible book (topic term - keep) |
+| 11 | **galatians** | 48 | Bible book (topic term — keep) |
 | 12 | **peacemakers** | 12 | people who stop fights |
 | 13 | **blameless** | 14 | no finger-pointing |
 | 14 | **stewardship** | 14 | managing what you're given |
@@ -4144,7 +4144,7 @@ Grouped by lane. **Theology/PKM/tool terms** are often fine when glossed once; *
 
 ---
 
-### PKM / tech (17) - many already on your voice review list
+### PKM / tech (17) — many already on your voice review list
 
 | # | Word | Uses | Plain swap |
 |---|------|------|------------|
@@ -4168,7 +4168,7 @@ Grouped by lane. **Theology/PKM/tool terms** are often fine when glossed once; *
 
 ---
 
-### General / long words (10) - strongest swap candidates
+### General / long words (10) — strongest swap candidates
 
 | # | Word | Uses | Plain swap |
 |---|------|------|------------|
@@ -4185,9 +4185,9 @@ Grouped by lane. **Theology/PKM/tool terms** are often fine when glossed once; *
 
 ---
 
-### Also flagged (sports tracker only - probably fine in context)
+### Also flagged (sports tracker only — probably fine in context)
 
-- **quarterfinals** (18×) and **semifinals** (12×) - almost all in `alex-eala-pro-career-tracker.md`
+- **quarterfinals** (18×) and **semifinals** (12×) — almost all in `alex-eala-pro-career-tracker.md`
 
 ### Already cleaned from current drafts
 
@@ -4195,8 +4195,8 @@ These are in `data/voice-words.yaml` and mostly gone from live prose: **postmort
 
 ### Quick takeaways
 
-1. **Faith notes** drive most of the hard vocabulary - expected if you gloss once per note.
-2. **PKM/tech jargon** (`deploy`, `rollback`, `frontmatter`, `wikilinks`) shows up in both blog and notes - good candidates for `voice-words.yaml` review entries.
+1. **Faith notes** drive most of the hard vocabulary — expected if you gloss once per note.
+2. **PKM/tech jargon** (`deploy`, `rollback`, `frontmatter`, `wikilinks`) shows up in both blog and notes — good candidates for `voice-words.yaml` review entries.
 3. **General long words** (`investigation`, `accountability`, `sustainable`, `irreversible`) are the ones most likely to trip a plain-voice read-aloud test outside topic-specific lanes.
 
 Want this turned into a repeatable script (e.g. `pnpm voice:difficult`) or fed into `voice-words.yaml`?
@@ -4913,7 +4913,7 @@ irreversible investigation accountability responsibility sustainable reconciliat
 adaptability reversibility escalation retaliation quarterfinals semifinals
 &#34;&#34;&#34;.split())
 
-# food, brands, places, gear - uncommon in corpus but not vocabulary targets
+# food, brands, places, gear — uncommon in corpus but not vocabulary targets
 PROPER = set(&#34;&#34;&#34;
 worcestershire vinegar adobo marinade barista sandwiches earphones rechargeable
 rechargeables filipina rolandgarros guadalajara wtatennis facebook hugoplate wimbledon
@@ -4921,7 +4921,7 @@ obsidian tiddlywiki jorap github cloudflare youtube shopee drupal wordpress hugo
 tailwind spotify perplexity manila pareto spotify knuckling burstiness
 &#34;&#34;&#34;.split())
 
-# everyday words absent from Google 10k - not voice concerns
+# everyday words absent from Google 10k — not voice concerns
 PLAIN = set(&#34;&#34;&#34;
 faithful tempted habit patience kindness heroic naming pile halftime commute applause
 teammate scrimmage snapped posture landed fixing guessing drawer messy slice hoard
@@ -5041,7 +5041,7 @@ def fmt_group(name, group, start):
     for i, (_, w, c, syl, rank, lane, b, n) in enumerate(group, start):
         rank_s = f&#34;#{rank}&#34; if rank &lt;= 10000 else &#34;rare&#34;
         where = f&#34;blog×{b}, notes×{n}&#34; if b and n else (f&#34;blog×{b}&#34; if b else f&#34;notes×{n}&#34;)
-        print(f&#34;{i}. **{w}** - {c}×, {syl} syl, {rank_s} ({where})&#34;)
+        print(f&#34;{i}. **{w}** — {c}×, {syl} syl, {rank_s} ({where})&#34;)
 
 print(&#34;Ranks 51–150 (excluding prior top 50)&#34;)
 print(f&#34;Total in batch: {len(rows)}&#34;)
@@ -5079,7 +5079,7 @@ irreversible investigation accountability responsibility sustainable reconciliat
 adaptability reversibility escalation retaliation quarterfinals semifinals
 """.split())
 
-# food, brands, places, gear - uncommon in corpus but not vocabulary targets
+# food, brands, places, gear — uncommon in corpus but not vocabulary targets
 PROPER = set("""
 worcestershire vinegar adobo marinade barista sandwiches earphones rechargeable
 rechargeables filipina rolandgarros guadalajara wtatennis facebook hugoplate wimbledon
@@ -5087,7 +5087,7 @@ obsidian tiddlywiki jorap github cloudflare youtube shopee drupal wordpress hugo
 tailwind spotify perplexity manila pareto spotify knuckling burstiness
 """.split())
 
-# everyday words absent from Google 10k - not voice concerns
+# everyday words absent from Google 10k — not voice concerns
 PLAIN = set("""
 faithful tempted habit patience kindness heroic naming pile halftime commute applause
 teammate scrimmage snapped posture landed fixing guessing drawer messy slice hoard
@@ -5207,7 +5207,7 @@ def fmt_group(name, group, start):
     for i, (_, w, c, syl, rank, lane, b, n) in enumerate(group, start):
         rank_s = f"#{rank}" if rank <= 10000 else "rare"
         where = f"blog×{b}, notes×{n}" if b and n else (f"blog×{b}" if b else f"notes×{n}")
-        print(f"{i}. **{w}** - {c}×, {syl} syl, {rank_s} ({where})")
+        print(f"{i}. **{w}** — {c}×, {syl} syl, {rank_s} ({where})")
 
 print("Ranks 51–150 (excluding prior top 50)")
 print(f"Total in batch: {len(rows)}")
@@ -5224,50 +5224,50 @@ Ranks 51–150 (excluding prior top 50)
 Total in batch: 100
 
 ### Theology (15)
-51. **devotion** - 15×, 3 syl, rare (notes×15)
-52. **righteous** - 21×, 2 syl, rare (notes×21)
-53. **disciples** - 11×, 3 syl, rare (notes×11)
-54. **believer** - 11×, 3 syl, rare (notes×11)
-55. **scripture** - 14×, 2 syl, rare (notes×14)
-56. **justified** - 8×, 3 syl, rare (notes×8)
-57. **abiding** - 8×, 3 syl, rare (notes×8)
-58. **confession** - 6×, 3 syl, rare (notes×6)
-59. **ephesians** - 6×, 3 syl, rare (notes×6)
-60. **endurance** - 6×, 3 syl, rare (blog×1, notes×5)
-61. **humility** - 6×, 3 syl, rare (notes×6)
-62. **generosity** - 4×, 4 syl, rare (notes×4)
-63. **spiritually** - 5×, 3 syl, rare (notes×5)
-64. **willpower** - 5×, 3 syl, rare (blog×1, notes×4)
-65. **compassion** - 4×, 3 syl, rare (notes×4)
+51. **devotion** — 15×, 3 syl, rare (notes×15)
+52. **righteous** — 21×, 2 syl, rare (notes×21)
+53. **disciples** — 11×, 3 syl, rare (notes×11)
+54. **believer** — 11×, 3 syl, rare (notes×11)
+55. **scripture** — 14×, 2 syl, rare (notes×14)
+56. **justified** — 8×, 3 syl, rare (notes×8)
+57. **abiding** — 8×, 3 syl, rare (notes×8)
+58. **confession** — 6×, 3 syl, rare (notes×6)
+59. **ephesians** — 6×, 3 syl, rare (notes×6)
+60. **endurance** — 6×, 3 syl, rare (blog×1, notes×5)
+61. **humility** — 6×, 3 syl, rare (notes×6)
+62. **generosity** — 4×, 4 syl, rare (notes×4)
+63. **spiritually** — 5×, 3 syl, rare (notes×5)
+64. **willpower** — 5×, 3 syl, rare (blog×1, notes×4)
+65. **compassion** — 4×, 3 syl, rare (notes×4)
 
 ### PKM (5)
-66. **taxonomies** - 7×, 4 syl, rare (blog×7)
-67. **memorizing** - 5×, 4 syl, rare (blog×1, notes×4)
-68. **minimalism** - 4×, 4 syl, rare (notes×4)
-69. **lifecycle** - 4×, 4 syl, rare (notes×4)
-70. **experiential** - 3×, 4 syl, rare (notes×3)
+66. **taxonomies** — 7×, 4 syl, rare (blog×7)
+67. **memorizing** — 5×, 4 syl, rare (blog×1, notes×4)
+68. **minimalism** — 4×, 4 syl, rare (notes×4)
+69. **lifecycle** — 4×, 4 syl, rare (notes×4)
+70. **experiential** — 3×, 4 syl, rare (notes×3)
 
 ### Tech (4)
-71. **repeatable** - 7×, 4 syl, rare (blog×2, notes×5)
-72. **interconnectivity** - 3×, 6 syl, rare (notes×3)
-73. **analytics** - 6×, 4 syl, rare (blog×2, notes×4)
-74. **reversible** - 4×, 4 syl, rare (notes×4)
+71. **repeatable** — 7×, 4 syl, rare (blog×2, notes×5)
+72. **interconnectivity** — 3×, 6 syl, rare (notes×3)
+73. **analytics** — 6×, 4 syl, rare (blog×2, notes×4)
+74. **reversible** — 4×, 4 syl, rare (notes×4)
 
 ### General (76)
-75. **negotiating** - 10×, 4 syl, rare (blog×3, notes×7)
-76. **compounding** - 11×, 3 syl, rare (notes×11)
-77. **deliberate** - 8×, 4 syl, rare (blog×1, notes×7)
-78. **reconcile** - 7×, 4 syl, rare (notes×7)
-79. **ecosystem** - 7×, 4 syl, rare (blog×7)
-80. **autopilot** - 7×, 4 syl, rare (notes×7)
-81. **semifinalist** - 4×, 5 syl, rare (blog×4)
-82. **versatility** - 5×, 4 syl, rare (notes×5)
-83. **situational** - 5×, 4 syl, rare (notes×5)
-84. **respectable** - 5×, 4 syl, rare (notes×5)
-85. **reconciled** - 5×, 4 syl, rare (notes×5)
-86. **untouched** - 6×, 3 syl, rare (blog×1, notes×5)
-87. **deadlines** - 6×, 3 syl, rare (blog×1, notes×5)
-88. **calculating** - 4×, 4 syl, rare (notes×4)
+75. **negotiating** — 10×, 4 syl, rare (blog×3, notes×7)
+76. **compounding** — 11×, 3 syl, rare (notes×11)
+77. **deliberate** — 8×, 4 syl, rare (blog×1, notes×7)
+78. **reconcile** — 7×, 4 syl, rare (notes×7)
+79. **ecosystem** — 7×, 4 syl, rare (blog×7)
+80. **autopilot** — 7×, 4 syl, rare (notes×7)
+81. **semifinalist** — 4×, 5 syl, rare (blog×4)
+82. **versatility** — 5×, 4 syl, rare (notes×5)
+83. **situational** — 5×, 4 syl, rare (notes×5)
+84. **respectable** — 5×, 4 syl, rare (notes×5)
+85. **reconciled** — 5×, 4 syl, rare (notes×5)
+86. **untouched** — 6×, 3 syl, rare (blog×1, notes×5)
+87. **deadlines** — 6×, 3 syl, rare (blog×1, notes×5)
+88. **calculating** — 4×, 4 syl, rare (notes×4)
 89. **uninterru
 … (output truncated)
 ```
@@ -5610,16 +5610,16 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The list now runs from 51 to 150. Many entries remain plain words absent from the Google 10k list.
 
-The response will group entries by lane-Theology, PKM, Tech, and General-and flag which words are genuinely uncommon versus plain terms missing from the frequency list. A brief methodology note will accompany the full numbered list.
+The response will group entries by lane—Theology, PKM, Tech, and General—and flag which words are genuinely uncommon versus plain terms missing from the frequency list. A brief methodology note will accompany the full numbered list.
 
 Genuinely uncommon words beyond the top 50 are being flagged for voice review. Theology candidates include steward, devotion, and justified. PKM candidates include markdown, taxonomies, and workflows. Tech candidates include repo and analytics. General candidates include closeness, borrowed, and compounding.
 </details></think>
 
 _**Agent (auto-low)**_
 
-Here are **ranks 51–150** - the next 100 uncommon words after your top 50, from the same scan (261 blog + notes files, including drafts). Scoring: Google 10k frequency rank, syllable count, and usage count. Brands/places filtered out.
+Here are **ranks 51–150** — the next 100 uncommon words after your top 50, from the same scan (261 blog + notes files, including drafts). Scoring: Google 10k frequency rank, syllable count, and usage count. Brands/places filtered out.
 
-Many words here are **everyday but missing from the Google 10k list** (e.g. `faithful`, `habit`, `pile`) - uncommon in the corpus data, not necessarily hard to read. I've marked those **†** so you can focus voice review on the rest.
+Many words here are **everyday but missing from the Google 10k list** (e.g. `faithful`, `habit`, `pile`) — uncommon in the corpus data, not necessarily hard to read. I've marked those **†** so you can focus voice review on the rest.
 
 ---
 
@@ -5643,10 +5643,10 @@ Many words here are **everyday but missing from the Google 10k list** (e.g. `fai
 | 128 | **abiding** | 8 | notes |
 | 141 | **forgiving** | 7 | blog + notes |
 | 144 | **servant** | 11 | notes |
-| - | **ephesians** | 6 | (filtered by min-4 in main rank; in notes) |
-| - | **corinthians** | 3 | notes |
-| - | **beatitude** | 4 | notes |
-| - | **unmerited** | 3 | notes (gloss target in voice-words.yaml) |
+| — | **ephesians** | 6 | (filtered by min-4 in main rank; in notes) |
+| — | **corinthians** | 3 | notes |
+| — | **beatitude** | 4 | notes |
+| — | **unmerited** | 3 | notes (gloss target in voice-words.yaml) |
 
 ---
 
@@ -5663,12 +5663,12 @@ Many words here are **everyday but missing from the Google 10k list** (e.g. `fai
 | 139 | **memorizing** | 5 | blog + notes |
 | 149 | **workflows** | 10 | notes |
 | 150 | **redirect** | 7 | blog + notes |
-| - | **normalization** | 2 | notes (note title term) |
-| - | **deviance** | 2 | notes |
-| - | **progressive** | 5 | notes |
-| - | **synthesis** | 8 | notes |
-| - | **interstitial** | 2 | notes |
-| - | **scribble** | 10 | notes |
+| — | **normalization** | 2 | notes (note title term) |
+| — | **deviance** | 2 | notes |
+| — | **progressive** | 5 | notes |
+| — | **synthesis** | 8 | notes |
+| — | **interstitial** | 2 | notes |
+| — | **scribble** | 10 | notes |
 
 ---
 
@@ -5682,7 +5682,7 @@ Many words here are **everyday but missing from the Google 10k list** (e.g. `fai
 
 ---
 
-### General - worth a voice check (22)
+### General — worth a voice check (22)
 
 | # | Word | Uses | Plain swap |
 |---|------|------|------------|
@@ -5702,16 +5702,16 @@ Many words here are **everyday but missing from the Google 10k list** (e.g. `fai
 | 126 | **situational** | 5 | depends on context |
 | 127 | **respectable** | 5 | good enough / solid |
 | 138 | **reconciled** | 5 | made peace / matched up |
-| - | **elimination** | 5 | cut out / remove (#9436) |
-| - | **productivity** | 11 | output / getting things done (#4217) |
-| - | **conversation** | 17 | back-and-forth talk (#4932) |
-| - | **intellectual** | 3 | head-knowledge (#3740) |
-| - | **interconnectivity** | 3 | how things link together |
-| - | **rumination** | 3 | chewing on the same thought |
+| — | **elimination** | 5 | cut out / remove (#9436) |
+| — | **productivity** | 11 | output / getting things done (#4217) |
+| — | **conversation** | 17 | back-and-forth talk (#4932) |
+| — | **intellectual** | 3 | head-knowledge (#3740) |
+| — | **interconnectivity** | 3 | how things link together |
+| — | **rumination** | 3 | chewing on the same thought |
 
 ---
 
-### General - † everyday words absent from Google 10k (47)
+### General — † everyday words absent from Google 10k (47)
 
 These rank high because they're missing from the frequency list, not because they're hard:
 
@@ -5722,7 +5722,7 @@ These rank high because they're missing from the frequency list, not because the
 ### Quick stats
 
 - **Voice-review priority** in this batch: ~53 words (theology + PKM + tech + general hard list)
-- **Low priority †**: ~47 words - plain speech, just absent from Google 10k
+- **Low priority †**: ~47 words — plain speech, just absent from Google 10k
 - **Already in your lint file** but still appearing nearby: `unmerited`, `distill`, `contradicts` (mostly cleaned; `contradicts` still 9×)
 
 Want ranks **151–250**, or this exported as YAML for `voice-words.yaml` review entries?
@@ -6381,7 +6381,7 @@ _**Agent (auto-low)**_
 
 Done. Both words are banned and scrubbed from prose.
 
-**`data/voice-words.yaml`** - added to strict `words:` list:
+**`data/voice-words.yaml`** — added to strict `words:` list:
 - `interstitial` → between tasks / buffer flush
 - `rumination` → stewing / replaying without change
 
@@ -6394,4 +6394,4 @@ Done. Both words are banned and scrubbed from prose.
 - `rumination without change` → `stewing without change` (description + key_concept)
 - example: `stewing on it without change`
 
-`pnpm lint:voice` passes. The only remaining `interstitial` is the redirect path in aliases - not reader-facing prose.
+`pnpm lint:voice` passes. The only remaining `interstitial` is the redirect path in aliases — not reader-facing prose.

@@ -329,12 +329,12 @@ _**Agent (default)**_
 
 Updated `getting-started.md` so the notes garden is described on its own terms, not as an Obsidian workflow:
 
-1. **Renamed** "Obsidian-style features on this site" → **"What this site gives you"** - wikilinks, backlinks, graph, hover previews, etc. stay; they’re just not framed as Obsidian.
+1. **Renamed** "Obsidian-style features on this site" → **"What this site gives you"** — wikilinks, backlinks, graph, hover previews, etc. stay; they’re just not framed as Obsidian.
 2. **Removed** the whole **"Import from Obsidian"** section (vault import commands and embed conversion).
 3. **Moved** `npm run lint:notes` into **Explore** so broken-link checking is still documented.
 4. **Dropped** the `Obsidian` tag from `graph-view-analytics.md`.
 
-The garden still works the same way - linked notes, graph view, backlinks - but the docs no longer assume you use Obsidian or import from a vault. Draft blog posts like `__obsidian-vs-hugo.md` are untouched; say if you want those cleaned up too.
+The garden still works the same way — linked notes, graph view, backlinks — but the docs no longer assume you use Obsidian or import from a vault. Draft blog posts like `__obsidian-vs-hugo.md` are untouched; say if you want those cleaned up too.
 
 ---
 
@@ -963,7 +963,7 @@ You already have a strong **express and connect** layer. The garden covers most 
 - Draft → publish flow and note → blog distillation
 - `lint:notes` for broken links
 
-For a **great second brain**, the gaps are less about linking and more about **capture, review, and note lifecycle** - the parts your own notes describe ([[Building a Second Brain]], [[Weekly Review Checklists]], [[Serendipitous Resurfacing]]) but the site doesn't yet enforce.
+For a **great second brain**, the gaps are less about linking and more about **capture, review, and note lifecycle** — the parts your own notes describe ([[Building a Second Brain]], [[Weekly Review Checklists]], [[Serendipitous Resurfacing]]) but the site doesn't yet enforce.
 
 ## What would move the needle most
 
@@ -980,12 +980,12 @@ Backlinks and See also help discovery, but there's no **cadence**. Useful additi
 - `last_reviewed` date in frontmatter
 - A "stale notes" or "due for review" view (notes not touched in N months)
 - A random note link on `/notes/` for serendipity
-- Recently updated notes on the index (Hugo tracks `lastmod` - it's just not surfaced)
+- Recently updated notes on the index (Hugo tracks `lastmod` — it's just not surfaced)
 
 Your [[Serendipitous Resurfacing]] note argues for this; the UI doesn't support it yet.
 
 **3. Unlinked mentions**
-You catch broken wikilinks, but not **missed** ones - text that says "PARA" without `[[PARA Method]]`. A build-time report of title/alias mentions without wikilinks would tighten the graph without much new UI.
+You catch broken wikilinks, but not **missed** ones — text that says "PARA" without `[[PARA Method]]`. A build-time report of title/alias mentions without wikilinks would tighten the graph without much new UI.
 
 **4. Daily notes infrastructure**
 You have a [[Daily Notes]] concept note, but no daily-note workflow:
@@ -1012,9 +1012,9 @@ Without this, capture during the day has nowhere to land on the site itself.
 
 Some second-brain features belong **outside** a public Hugo garden:
 
-- **Frictionless mobile capture** - needs an app, email inbox, or shortcut; hard to do well in static Hugo alone
-- **Private working notes** - your garden is public-by-design; a private capture tool (you've written about TiddlyWiki for this) is the right split
-- **Real-time editing / plugins** - not the model here, and that's fine
+- **Frictionless mobile capture** — needs an app, email inbox, or shortcut; hard to do well in static Hugo alone
+- **Private working notes** — your garden is public-by-design; a private capture tool (you've written about TiddlyWiki for this) is the right split
+- **Real-time editing / plugins** — not the model here, and that's fine
 
 A common strong split: **private capture + public garden**. This site is already a good **distill + express + connect** brain. What's missing is the **maintain** layer: status, review dates, inbox, daily notes, and resurfacing.
 
@@ -1028,9 +1028,9 @@ If I were adding features in sequence:
 4. Daily note archetype + archive page
 5. Unlinked-mention lint at build time
 
-The philosophy content is already there - [[Maps of Content]], atomic rule, CODE workflow. The next wins are mostly **metadata and review surfaces**, not more linking mechanics.
+The philosophy content is already there — [[Maps of Content]], atomic rule, CODE workflow. The next wins are mostly **metadata and review surfaces**, not more linking mechanics.
 
-Want me to implement any of these? I'd start with note status + a "recently updated / stale" section on the notes index - small diff, big second-brain payoff.
+Want me to implement any of these? I'd start with note status + a "recently updated / stale" section on the notes index — small diff, big second-brain payoff.
 
 ---
 

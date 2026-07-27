@@ -106,7 +106,7 @@ cd /home/jorap/Documents/GitHub/jorap.com && pnpm voice:scan 2>&1 | head -200
 
 ```
 $ python3 scripts/notes-voice-lint.py --summary --review
-Voice scan - 304 files, 2 strict, 63 review-only
+Voice scan — 304 files, 2 strict, 63 review-only
 Word list: data/voice-words.yaml
 
 Strict (lint:voice fails on these)
@@ -186,7 +186,7 @@ Parameters:
   "caseInsensitive": true,
   "glob": "*.md",
   "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
-  "pattern": "-|When it comes to|Furthermore|Moreover|Additionally|game-changer|hope this helps|In conclusion|Let's dive|ultimate guide|comprehensive guide|It's worth noting|In today's"
+  "pattern": "—|When it comes to|Furthermore|Moreover|Additionally|game-changer|hope this helps|In conclusion|Let's dive|ultimate guide|comprehensive guide|It's worth noting|In today's"
 }
 ```
 Additional data:
@@ -196,7 +196,7 @@ Additional data:
   "isPruned": true,
   "outputMode": "content",
   "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
-  "pattern": "-|When it comes to|Furthermore|Moreover|Additionally|game-changer|hope this helps|In conclusion|Let's dive|ultimate guide|comprehensive guide|It's worth noting|In today's",
+  "pattern": "—|When it comes to|Furthermore|Moreover|Additionally|game-changer|hope this helps|In conclusion|Let's dive|ultimate guide|comprehensive guide|It's worth noting|In today's",
   "topFiles": [
     {
       "matchCount": 1,
@@ -1054,7 +1054,7 @@ Audit of **54 blog posts** (excluding `_index.md`) against [jorap-voice](.cursor
 
 | Check | Result |
 |--------|--------|
-| `pnpm lint:voice` | **Fails** on `alex-eala-pro-career-tracker.md` (1 em dash: `Wimbledon 2026 - Round of 16`) |
+| `pnpm lint:voice` | **Fails** on `alex-eala-pro-career-tracker.md` (1 em dash: `Wimbledon 2026 — Round of 16`) |
 | Strict AI-tell words in blog | **Clean** on published posts |
 | Currency in blog | **`__selling-static-sites.md`** ($12, $25, ~$12/year) and **`__shopee-tips.md`** (₱89) - violates no-currency rule |
 | Engagement bait / "hope this helps" | **None** found |
@@ -1217,7 +1217,7 @@ Parameters:
 {
   "caseInsensitive": false,
   "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md",
-  "pattern": "-"
+  "pattern": "—"
 }
 ```
 Additional data:
@@ -1227,7 +1227,7 @@ Additional data:
   "isPruned": true,
   "outputMode": "content",
   "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md",
-  "pattern": "-",
+  "pattern": "—",
   "topFiles": [
     {
       "matchCount": 1,
@@ -1962,8 +1962,8 @@ cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:voice 2>&1
 $ python3 scripts/notes-voice-sanitize.py --check && python3 scripts/notes-voice-lint.py --check
 Voice dash lint OK
 Voice lint warnings:
-  content/english/notes/selling-static-sites.md: relationships.reason: AI-tell word `handoff` - try: pass off / pass to client
-  content/english/notes/static-site-client-scope.md: relationships.reason: AI-tell word `handoff` - try: pass off / pass to client
+  content/english/notes/selling-static-sites.md: relationships.reason: AI-tell word `handoff` — try: pass off / pass to client
+  content/english/notes/static-site-client-scope.md: relationships.reason: AI-tell word `handoff` — try: pass off / pass to client
 [ELIFECYCLE] Command failed with exit code 1.
 
 ```
@@ -1980,7 +1980,7 @@ Parameters:
 {
   "caseInsensitive": false,
   "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
-  "pattern": "\\$[0-9]|₱|-"
+  "pattern": "\\$[0-9]|₱|—"
 }
 ```
 Additional data:
@@ -1990,7 +1990,7 @@ Additional data:
   "isPruned": true,
   "outputMode": "content",
   "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
-  "pattern": "\\$[0-9]|₱|-",
+  "pattern": "\\$[0-9]|₱|—",
   "topFiles": [
     {
       "matchCount": 6,

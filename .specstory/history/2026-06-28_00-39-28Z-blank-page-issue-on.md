@@ -12,7 +12,7 @@ i go to https://www.jorap.com/admin/  and I get a blank page
 
 _**Agent (default)**_
 
-Investigating the admin setup - a blank page usually means a JS error, missing assets, or a misconfigured build.
+Investigating the admin setup — a blank page usually means a JS error, missing assets, or a misconfigured build.
 
 
 _**Agent (default)**_
@@ -357,7 +357,7 @@ Four approaches are being weighed. Applying the global CSP to every section sepa
 
 _**Agent (default)**_
 
-Found the issue: the live page sends two CSP headers - the global one blocks `unpkg.com`, which Sveltia needs. Checking deployment config and how to fix this.
+Found the issue: the live page sends two CSP headers — the global one blocks `unpkg.com`, which Sveltia needs. Checking deployment config and how to fix this.
 
 
 _**Agent (default)**_
@@ -428,7 +428,7 @@ A `_routes.json` file might allow a separate headers file for admin routes. List
 
 _**Agent (default)**_
 
-Dual CSP headers on `/admin/` - the global policy blocks `unpkg.com`, so Sveltia never loads. Checking how to fix this in the deployment setup.
+Dual CSP headers on `/admin/` — the global policy blocks `unpkg.com`, so Sveltia never loads. Checking how to fix this in the deployment setup.
 
 
 _**Agent (default)**_
@@ -608,22 +608,22 @@ The blank page is a **Content-Security-Policy conflict**, not a broken Sveltia i
 
 Cloudflare Pages **merges** headers from every matching `_headers` block. For `/admin/`, that means **two** CSP headers:
 
-1. **Site-wide** (`/*`) - allows `'self'`, GTM, Disqus, etc. No `unpkg.com`. No `'unsafe-inline'` (only build-time script hashes).
-2. **Admin** (`/admin/*`) - allows `unpkg.com` and `'unsafe-inline'`.
+1. **Site-wide** (`/*`) — allows `'self'`, GTM, Disqus, etc. No `unpkg.com`. No `'unsafe-inline'` (only build-time script hashes).
+2. **Admin** (`/admin/*`) — allows `unpkg.com` and `'unsafe-inline'`.
 
 Browsers enforce **both**. The Sveltia script fails the site-wide policy, so the CMS never boots and you get a blank page.
 
-I confirmed this on the live site - two `content-security-policy` headers on `https://www.jorap.com/admin/`.
+I confirmed this on the live site — two `content-security-policy` headers on `https://www.jorap.com/admin/`.
 
 ## Fix
 
-Added `functions/admin/_middleware.js` - a Cloudflare Pages middleware that strips all CSP headers on `/admin/*` and sets only the admin policy.
+Added `functions/admin/_middleware.js` — a Cloudflare Pages middleware that strips all CSP headers on `/admin/*` and sets only the admin policy.
 
 Also documented in `static/_headers` that the middleware and admin CSP block need to stay in sync.
 
 ## Next step
 
-**Deploy** this change to Cloudflare Pages (push and let the normal build run, or trigger a deploy manually). The middleware only runs on Cloudflare after deploy - it won’t affect local Hugo preview.
+**Deploy** this change to Cloudflare Pages (push and let the normal build run, or trigger a deploy manually). The middleware only runs on Cloudflare after deploy — it won’t affect local Hugo preview.
 
 After deploy, `/admin/` should show the Sveltia login screen instead of a blank page. If it’s still blank, open DevTools → Console and check for CSP errors; I can help from there.
 
@@ -643,7 +643,7 @@ Evaluating whether self-hosting Sveltia CMS is preferable to loading it from unp
 
 _**Agent (default)**_
 
-Good question - self-hosting changes CSP and reliability tradeoffs. Checking how Sveltia is loaded now and what self-hosting would look like in this repo.
+Good question — self-hosting changes CSP and reliability tradeoffs. Checking how Sveltia is loaded now and what self-hosting would look like in this repo.
 
 
 _**Agent (default)**_
@@ -770,13 +770,13 @@ For a personal blog CMS, unpkg with middleware is sufficient. Self-hosting is on
 
 _**Agent (default)**_
 
-**Short answer: slightly better, not urgent.** With the middleware fix deployed, unpkg is fine. Self-hosting is worth it mainly for version pinning and one less CDN dependency - it does **not** remove the need for admin-specific CSP or the middleware.
+**Short answer: slightly better, not urgent.** With the middleware fix deployed, unpkg is fine. Self-hosting is worth it mainly for version pinning and one less CDN dependency — it does **not** remove the need for admin-specific CSP or the middleware.
 
 ## What self-hosting would fix
 
 | Benefit | Why it matters |
 |--------|----------------|
-| **Pinned version** | Your script URL has no version - unpkg serves whatever `@sveltia/cms` latest is (~0.168.0 today). A bad release could break `/admin/` without you changing anything. |
+| **Pinned version** | Your script URL has no version — unpkg serves whatever `@sveltia/cms` latest is (~0.168.0 today). A bad release could break `/admin/` without you changing anything. |
 | **No unpkg dependency** | Admin works even if unpkg is slow or down. |
 | **Tighter CSP** | You can drop `https://unpkg.com` from the admin policy. |
 | **Same-origin load** | Script comes from your domain; one less third party in the trust chain. |
@@ -800,7 +800,7 @@ The bundle is **~1.9 MB**. I would not commit it to git. The lazy pattern:
 3. Point `index.html` at `/admin/sveltia-cms.js`  
 4. Drop `unpkg.com` from the admin CSP / middleware  
 
-That is a small, clean change - but it is maintenance you only need if unpkg or unpinned “latest” worries you.
+That is a small, clean change — but it is maintenance you only need if unpkg or unpinned “latest” worries you.
 
 ## Recommendation
 
@@ -821,7 +821,7 @@ why is sign in with github not working?
 
 _**Agent (default)**_
 
-Tracing the GitHub OAuth flow end-to-end - auth endpoint, callback, and CMS config.
+Tracing the GitHub OAuth flow end-to-end — auth endpoint, callback, and CMS config.
 
 
 _**Agent (default)**_
@@ -1104,7 +1104,7 @@ Result:
   "isFinal": true,
   "references": [
     {
-      "chunk": "Links:\n1. [GitHub - sveltia/sveltia-cms: Git-based headless CMS. Successor to Netlify CMS (now Decap CMS). Modern UX, first-class i18n support, mobile support + 100s of improvements. Framework-agnostic, open source \u0026 free. · GitHub](https://github.com/sveltia/sveltia-cms)\n2. [GitHub Backend | Sveltia CMS](https://sveltiacms.app/en/docs/backends/github)\n3. [fix: oauth callback postMessage for Sveltia CMS compatibility · 865d2f9 · psf/wiki](https://github.com/psf/wiki/commit/865d2f9df04395e517515992601b32923949dda3)\n4. [GitHub - sveltia/sveltia-cms-auth: Cloudflare Workers script that allows Sveltia CMS users to authenticate with GitHub. · GitHub](https://github.com/sveltia/sveltia-cms-auth)\n5. [sveltia/sveltia-cms-auth](https://github.com/sveltia/sveltia-cms-auth?tab=readme-ov-file)\n\nSynthesis:\nSveltia CMS is a Git-based headless content management system designed as a modern successor to Netlify and Decap CMS [1].\n\nFor GitHub authentication via authorization code flow, you generally need a backend OAuth client to exchange codes for tokens [2]. Sveltia CMS communicates with the authentication popup using the postMessage protocol [3]. When the popup completes the OAuth flow, it sends a success message-typically authorization:github:success:[data]-to the parent window to finalize authentication [3]. You can configure this via the base_url property in your config.yml, pointing to your OAuth client's URL [2][4].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eGitHub - sveltia/sveltia-cms: Git-based headless CMS. Successor to Netlify CMS (now Decap CMS). Modern UX, first-class i18n support, mobile support + 100s of improvements. Framework-agnostic, open source \u0026 free. · GitHub\u003c/title\u003e\n\u003curl\u003ehttps://github.com/sveltia/sveltia-cms\u003c/url\u003e\n\u003ccontent\u003eGitHub - sveltia/sveltia-cms: Git-based headless CMS. Successor to Netlify CMS (now Decap CMS). 
+      "chunk": "Links:\n1. [GitHub - sveltia/sveltia-cms: Git-based headless CMS. Successor to Netlify CMS (now Decap CMS). Modern UX, first-class i18n support, mobile support + 100s of improvements. Framework-agnostic, open source \u0026 free. · GitHub](https://github.com/sveltia/sveltia-cms)\n2. [GitHub Backend | Sveltia CMS](https://sveltiacms.app/en/docs/backends/github)\n3. [fix: oauth callback postMessage for Sveltia CMS compatibility · 865d2f9 · psf/wiki](https://github.com/psf/wiki/commit/865d2f9df04395e517515992601b32923949dda3)\n4. [GitHub - sveltia/sveltia-cms-auth: Cloudflare Workers script that allows Sveltia CMS users to authenticate with GitHub. · GitHub](https://github.com/sveltia/sveltia-cms-auth)\n5. [sveltia/sveltia-cms-auth](https://github.com/sveltia/sveltia-cms-auth?tab=readme-ov-file)\n\nSynthesis:\nSveltia CMS is a Git-based headless content management system designed as a modern successor to Netlify and Decap CMS [1].\n\nFor GitHub authentication via authorization code flow, you generally need a backend OAuth client to exchange codes for tokens [2]. Sveltia CMS communicates with the authentication popup using the postMessage protocol [3]. When the popup completes the OAuth flow, it sends a success message—typically authorization:github:success:[data]—to the parent window to finalize authentication [3]. You can configure this via the base_url property in your config.yml, pointing to your OAuth client's URL [2][4].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eGitHub - sveltia/sveltia-cms: Git-based headless CMS. Successor to Netlify CMS (now Decap CMS). Modern UX, first-class i18n support, mobile support + 100s of improvements. Framework-agnostic, open source \u0026 free. · GitHub\u003c/title\u003e\n\u003curl\u003ehttps://github.com/sveltia/sveltia-cms\u003c/url\u003e\n\u003ccontent\u003eGitHub - sveltia/sveltia-cms: Git-based headless CMS. Successor to Netlify CMS (now Decap CMS). 
 … (output truncated)
 ```
 User decision: **accepted**
@@ -1613,7 +1613,7 @@ Status: **completed**
 
 _**Agent (default)**_
 
-Two separate problems - one config, one code.
+Two separate problems — one config, one code.
 
 ## 1. Missing Cloudflare env vars (blocks sign-in today)
 
@@ -1628,8 +1628,8 @@ So `GITHUB_CLIENT_ID` and `GITHUB_CLIENT_SECRET` are not set in Cloudflare Pages
 **Fix in Cloudflare dashboard:**
 1. Pages → **jorap-com** → **Settings** → **Environment variables**
 2. Add for **Production** (and Preview if you use it):
-   - `GITHUB_CLIENT_ID` - from your GitHub OAuth app
-   - `GITHUB_CLIENT_SECRET` - mark as encrypted
+   - `GITHUB_CLIENT_ID` — from your GitHub OAuth app
+   - `GITHUB_CLIENT_SECRET` — mark as encrypted
 3. Redeploy (env var changes need a new deployment)
 
 **GitHub OAuth app** (Settings → Developer settings → OAuth Apps) must have:
@@ -1647,8 +1647,8 @@ The old `callback.js` used Decap CMS’s `postMessage` format (a JSON object wit
 So even with valid credentials, GitHub auth could succeed and Sveltia would still sit there waiting.
 
 I updated both functions:
-- **`functions/api/callback.js`** - Sveltia-compatible postMessage (matches [sveltia-cms-auth](https://github.com/sveltia/sveltia-cms-auth)), plus `redirect_uri` on token exchange
-- **`functions/api/auth.js`** - clear error if env vars are missing, passes through `scope` from Sveltia
+- **`functions/api/callback.js`** — Sveltia-compatible postMessage (matches [sveltia-cms-auth](https://github.com/sveltia/sveltia-cms-auth)), plus `redirect_uri` on token exchange
+- **`functions/api/auth.js`** — clear error if env vars are missing, passes through `scope` from Sveltia
 
 ## What to do now
 
@@ -1656,7 +1656,7 @@ I updated both functions:
 2. Deploy the function changes
 3. Try **Sign in with GitHub** again
 
-Quick sanity check after deploy: visit `https://www.jorap.com/api/auth` - you should redirect to GitHub with a real client ID, not `undefined`.
+Quick sanity check after deploy: visit `https://www.jorap.com/api/auth` — you should redirect to GitHub with a real client ID, not `undefined`.
 
 ---
 
@@ -1674,7 +1674,7 @@ Environment variables are configured in wrangler.toml. Only encrypted secrets ar
 
 _**Agent (default)**_
 
-Cloudflare is managing env vars via `wrangler.toml`, not the dashboard - I'll check that config and how secrets should be set.
+Cloudflare is managing env vars via `wrangler.toml`, not the dashboard — I'll check that config and how secrets should be set.
 
 
 _**Agent (default)**_
@@ -1893,18 +1893,18 @@ _**Agent (default)**_
 
 _**Agent (default)**_
 
-Good catch - with wrangler-managed config, the dashboard is only for **secrets**, not plain vars.
+Good catch — with wrangler-managed config, the dashboard is only for **secrets**, not plain vars.
 
 ## What to set where
 
 | Variable | Where | How |
 |----------|--------|-----|
-| `GITHUB_CLIENT_ID` | `wrangler.toml` | `[vars]` - public, safe in git |
+| `GITHUB_CLIENT_ID` | `wrangler.toml` | `[vars]` — public, safe in git |
 | `GITHUB_CLIENT_SECRET` | Encrypted secret | Dashboard **or** Wrangler CLI |
 
 ## Steps
 
-**1. Client ID** - edit `wrangler.toml`:
+**1. Client ID** — edit `wrangler.toml`:
 
 ```toml
 [vars]
@@ -1913,7 +1913,7 @@ GITHUB_CLIENT_ID = "your_github_oauth_client_id"
 
 Commit and deploy.
 
-**2. Client secret** - one-time, encrypted (pick one):
+**2. Client secret** — one-time, encrypted (pick one):
 
 ```bash
 pnpm exec wrangler pages secret put GITHUB_CLIENT_SECRET --project-name jorap-com
@@ -1923,11 +1923,11 @@ Or in the dashboard: Pages → **jorap-com** → **Settings** → **Variables an
 
 **3. Redeploy** after both are set.
 
-**4. Sanity check:** open `https://www.jorap.com/api/auth` - the redirect should have a real `client_id=...`, not `undefined` or empty.
+**4. Sanity check:** open `https://www.jorap.com/api/auth` — the redirect should have a real `client_id=...`, not `undefined` or empty.
 
 ---
 
-I updated `wrangler.toml` with the `[vars]` / `[secrets]` scaffold, fixed the docs, and pointed the auth error message at wrangler instead of the dashboard. Paste your GitHub OAuth Client ID into `wrangler.toml` and add the secret - that’s why sign-in was failing (`client_id=undefined` on the live redirect).
+I updated `wrangler.toml` with the `[vars]` / `[secrets]` scaffold, fixed the docs, and pointed the auth error message at wrangler instead of the dashboard. Paste your GitHub OAuth Client ID into `wrangler.toml` and add the secret — that’s why sign-in was failing (`client_id=undefined` on the live redirect).
 
 ---
 
@@ -1951,7 +1951,7 @@ You get `GITHUB_CLIENT_ID` from a **GitHub OAuth App** tied to your site.
 
 1. Go to [GitHub → Settings → Developer settings → OAuth Apps](https://github.com/settings/developers)
 2. Open your app (e.g. “JoRap CMS”)
-3. Copy **Client ID** - that’s `GITHUB_CLIENT_ID`
+3. Copy **Client ID** — that’s `GITHUB_CLIENT_ID`
 
 Make sure these match your live site:
 - **Homepage URL:** `https://www.jorap.com`
@@ -1985,9 +1985,9 @@ pnpm exec wrangler pages secret put GITHUB_CLIENT_SECRET --project-name jorap-co
 ---
 
 **Client ID** = public, goes in `wrangler.toml`  
-**Client secret** = private, only as a Pages secret - never commit it
+**Client secret** = private, only as a Pages secret — never commit it
 
-After deploy, check `https://www.jorap.com/api/auth` - the redirect should show your real client ID, not `undefined`.
+After deploy, check `https://www.jorap.com/api/auth` — the redirect should show your real client ID, not `undefined`.
 
 ---
 
@@ -2006,7 +2006,7 @@ Icons are missing from the Sveltia CMS admin interface.
 
 _**Agent (default)**_
 
-Icons use Material Symbols - likely blocked by the admin CSP not allowing Google Fonts. Checking the current policy.
+Icons use Material Symbols — likely blocked by the admin CSP not allowing Google Fonts. Checking the current policy.
 
 
 _**Agent (default)**_
@@ -2074,7 +2074,7 @@ The current Content Security Policy blocks `fonts.gstatic.com` and `fonts.google
 
 _**Agent (default)**_
 
-Icons are Material Symbols from Google Fonts - the admin CSP only allows `'self'` and `data:` for fonts, so they're blocked. Adding `fonts.googleapis.com` and `fonts.gstatic.com` to the admin policy.
+Icons are Material Symbols from Google Fonts — the admin CSP only allows `'self'` and `data:` for fonts, so they're blocked. Adding `fonts.googleapis.com` and `fonts.gstatic.com` to the admin policy.
 
 
 _**Agent (default)**_
@@ -2102,14 +2102,14 @@ _**Agent (default)**_
 
 Icons were blocked by CSP, not a Sveltia bug.
 
-Sveltia uses **Material Symbols** from Google Fonts - those `<span class="material-symbols-outlined">article</span>` elements are ligature icons, not SVGs. They need:
+Sveltia uses **Material Symbols** from Google Fonts — those `<span class="material-symbols-outlined">article</span>` elements are ligature icons, not SVGs. They need:
 
 - Stylesheet: `fonts.googleapis.com`
 - Font files: `fonts.gstatic.com`
 
 The admin CSP only allowed `font-src 'self' data:`, so the font never loaded and icons showed as blank (or as raw text like "article", "search").
 
-**Fix applied** - added Google Fonts to the admin CSP in both places (they must stay in sync):
+**Fix applied** — added Google Fonts to the admin CSP in both places (they must stay in sync):
 
 - `font-src … https://fonts.gstatic.com`
 - `style-src … https://fonts.googleapis.com`
@@ -2120,4 +2120,4 @@ Deploy this change, then hard-refresh `/admin/` (Ctrl+Shift+R). Icons should app
 1. Console → look for CSP errors mentioning `fonts.gstatic.com` or `fonts.googleapis.com`
 2. Network → filter "font" → confirm Material Symbols loads with 200
 
-You're signed in and seeing blog posts, so OAuth is working - this was just the font allowlist.
+You're signed in and seeing blog posts, so OAuth is working — this was just the font allowlist.

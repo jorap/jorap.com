@@ -79,11 +79,11 @@ The notes do not indicate that discipleship is superior to leadership in a compa
 
 _**Agent (auto-low)**_
 
-Not in the way “better than” usually implies - your notes treat them as **two different seats for the same person**, not two things ranked on one ladder.
+Not in the way “better than” usually implies — your notes treat them as **two different seats for the same person**, not two things ranked on one ladder.
 
 ## Two seats, not a contest
 
-**Discipleship vs Leadership** is explicit: discipleship is who you follow **upward**; leadership is who looks to you for direction and care **outward**. Same person, two seats. The failure isn’t picking the wrong one - it’s **swapping** them:
+**Discipleship vs Leadership** is explicit: discipleship is who you follow **upward**; leadership is who looks to you for direction and care **outward**. Same person, two seats. The failure isn’t picking the wrong one — it’s **swapping** them:
 
 - Running a room well isn’t the same as following Christ in private.
 - A title doesn’t cancel obedience when nobody’s watching.
@@ -92,9 +92,9 @@ So the notes don’t say leadership is bad or lesser. They say it’s a **differ
 
 ## Where discipleship comes first
 
-When the two pull in different directions, your notes do give discipleship **priority** - not superiority:
+When the two pull in different directions, your notes do give discipleship **priority** — not superiority:
 
-**Follow Christ, Then Lead** names the order when they collide: Christ first, then lead from that footing. Finance wants the numbers softened, parents want the hard verse skipped - follow Christ, then lead the room through the fallout.
+**Follow Christ, Then Lead** names the order when they collide: Christ first, then lead from that footing. Finance wants the numbers softened, parents want the hard verse skipped — follow Christ, then lead the room through the fallout.
 
 That’s ordering under pressure, not “leadership doesn’t matter.”
 
@@ -103,16 +103,16 @@ That’s ordering under pressure, not “leadership doesn’t matter.”
 The real warning in your garden is **substitution**:
 
 - Public leadership filling the calendar while private discipleship goes quiet (youth program runs smooth, no morning prayer for a month).
-- Visible integrity without hidden obedience - “sand,” in your phrasing.
+- Visible integrity without hidden obedience — “sand,” in your phrasing.
 - Servant leadership overlapping discipleship but **not replacing** it: horizontal care for people isn’t the same seat as vertical allegiance to Christ.
 
 ## How they connect outward
 
-**Great Commission** and **Share What You Learn** push discipleship outward - make disciples, pass on skill, don’t hoard the map. That’s discipleship extending into leadership territory, not discipleship winning a debate against leadership.
+**Great Commission** and **Share What You Learn** push discipleship outward — make disciples, pass on skill, don’t hoard the map. That’s discipleship extending into leadership territory, not discipleship winning a debate against leadership.
 
 ---
 
-**Short answer:** Your notes don’t say discipleship is *better than* leadership. They say discipleship is **who you answer to upward**; leadership is **what you owe people outward**. Both matter. When they conflict, **follow Christ first, then lead**. The mistake is letting leadership stand in for discipleship - not having a leadership seat at all.
+**Short answer:** Your notes don’t say discipleship is *better than* leadership. They say discipleship is **who you answer to upward**; leadership is **what you owe people outward**. Both matter. When they conflict, **follow Christ first, then lead**. The mistake is letting leadership stand in for discipleship — not having a leadership seat at all.
 
 ---
 
@@ -138,19 +138,19 @@ Your notes use **priority**, not **better**. The difference matters for how you 
 
 “Better” puts two things on **one ladder** and picks a winner.
 
-- Discipleship wins, leadership loses - or the reverse.
+- Discipleship wins, leadership loses — or the reverse.
 - The implied move: do more of the winner, less of the loser.
 - Leadership starts to look optional, decorative, or spiritually second-class.
 
-Your notes **don’t** frame it that way. **Leadership** is real work - direction, pace, care when people look to you, title or not. The line cook counting heads by the extinguishers isn’t “less spiritual” than the person praying alone. Different job.
+Your notes **don’t** frame it that way. **Leadership** is real work — direction, pace, care when people look to you, title or not. The line cook counting heads by the extinguishers isn’t “less spiritual” than the person praying alone. Different job.
 
 ## Priority (ordering)
 
 “Priority” keeps **two categories** and names **which one governs when they collide**.
 
 - Both seats stay occupied.
-- When they pull the same way, no tension - lead calmly *from* a life that’s already following Christ.
-- When they pull apart, **Follow Christ, Then Lead**: refuse the softened numbers, teach the hard verse, confess the shortcut - *then* set pace for the room.
+- When they pull the same way, no tension — lead calmly *from* a life that’s already following Christ.
+- When they pull apart, **Follow Christ, Then Lead**: refuse the softened numbers, teach the hard verse, confess the shortcut — *then* set pace for the room.
 
 Priority is a **sequence under conflict**, not a verdict that one seat shouldn’t exist.
 
@@ -160,14 +160,14 @@ Priority is a **sequence under conflict**, not a verdict that one seat shouldn�
 |------|---------------------|------------------------------|
 | **Better** | “Discipleship > leadership” | Not this. Leadership isn’t a downgrade. |
 | **Priority** | “Christ first, then lead” | This. Order when the seats swap or collide. |
-| **Substitution** (the real enemy) | “I’m leading, so I must be fine vertically” | Running the youth program while skipping prayer - leadership filled the calendar; discipleship got swapped, not beaten. |
+| **Substitution** (the real enemy) | “I’m leading, so I must be fine vertically” | Running the youth program while skipping prayer — leadership filled the calendar; discipleship got swapped, not beaten. |
 
 ## One line
 
 **Better** asks *which one should I care about?*  
 **Priority** asks *which one decides when both demand something at once?*
 
-Your garden’s answer to the second question is discipleship. It never answers the first by demoting leadership - only by refusing to let leadership **stand in for** it.
+Your garden’s answer to the second question is discipleship. It never answers the first by demoting leadership — only by refusing to let leadership **stand in for** it.
 
 ---
 
@@ -324,7 +324,7 @@ The "two seats" framing is a synthesis rather than a single verse. I am mapping 
 
 _**Agent (auto-low)**_
 
-Yes - with one honest caveat up front.
+Yes — with one honest caveat up front.
 
 The **“two seats, one person”** line is your garden’s **category label**, not a Bible phrase. Scripture doesn’t use that metaphor. What it does give you, repeatedly, are the **two directions** (follow upward, serve/care outward) and the **order** when they clash.
 
@@ -334,9 +334,9 @@ This is the strongest biblical thread for “Christ first, then lead.”
 
 | Passage | What it supports |
 |---------|------------------|
-| **Acts 5:29** - “We must obey God rather than men” | When room pressure and God’s command pull apart, God wins. That’s priority, not “leadership is bad.” |
-| **Matthew 6:33** - seek first the kingdom | Your **Seek the Kingdom First** note already hangs here. Kingdom orders everything else - inbox, org chart, anxiety. |
-| **Matthew 6:24** - cannot serve two masters | Not two equal options on one ladder - one reign governs. |
+| **Acts 5:29** — “We must obey God rather than men” | When room pressure and God’s command pull apart, God wins. That’s priority, not “leadership is bad.” |
+| **Matthew 6:33** — seek first the kingdom | Your **Seek the Kingdom First** note already hangs here. Kingdom orders everything else — inbox, org chart, anxiety. |
+| **Matthew 6:24** — cannot serve two masters | Not two equal options on one ladder — one reign governs. |
 | **Matthew 26:69–75** (Peter’s denial) | Negative example: fear of the crowd over loyalty to Christ when leadership pressure hits. |
 
 **Follow Christ, Then Lead** is essentially Acts 5:29 and Matthew 6:33 applied to the captain’s chair.
@@ -345,10 +345,10 @@ This is the strongest biblical thread for “Christ first, then lead.”
 
 | Passage | What it supports |
 |---------|------------------|
-| **Luke 9:23** - take up cross **daily**, follow me | Ongoing vertical allegiance, not a one-time badge. Your **Discipleship** / **Take Up Your Cross** chain. |
-| **John 15:1–11** - abide in me | Fruit from connection, not self-powered performance in the role. Your **Abide in Me** note cites this directly. |
-| **Matthew 7:24–27** - wise builder hears **and does** | Private obedience matters; hearing without doing is sand. |
-| **Matthew 28:19–20** - make disciples, teach obedience | Discipleship pushed **outward** - your **Great Commission** note cites this. Not “only pray, never lead people.” |
+| **Luke 9:23** — take up cross **daily**, follow me | Ongoing vertical allegiance, not a one-time badge. Your **Discipleship** / **Take Up Your Cross** chain. |
+| **John 15:1–11** — abide in me | Fruit from connection, not self-powered performance in the role. Your **Abide in Me** note cites this directly. |
+| **Matthew 7:24–27** — wise builder hears **and does** | Private obedience matters; hearing without doing is sand. |
+| **Matthew 28:19–20** — make disciples, teach obedience | Discipleship pushed **outward** — your **Great Commission** note cites this. Not “only pray, never lead people.” |
 
 ## 3. Leadership as a real, legitimate seat
 
@@ -357,12 +357,12 @@ The Bible doesn’t demote leadership to make room for discipleship. It **reorie
 | Passage | What it supports |
 |---------|------------------|
 | **Mark 10:42–45** / **Matthew 20:26–28** | “Whoever would be great among you must be your servant.” Authority exists; greatness is defined by service. Your **Humility and Service** note cites Matthew 23:12 and Mark 10:43–45. |
-| **John 13:1–17** | Jesus has full authority - and washes feet the night before the cross. Leadership + service, same person. |
-| **Romans 12:8** | “The one who leads, with zeal” - leadership as a God-given capacity, not a spiritual downgrade. |
-| **1 Timothy 3:1–13** | Qualifications for overseers/deacons - the church **expects** people in directional/care roles. |
-| **Hebrews 13:17** | “Obey your leaders” - horizontal leadership is assumed in the body. |
+| **John 13:1–17** | Jesus has full authority — and washes feet the night before the cross. Leadership + service, same person. |
+| **Romans 12:8** | “The one who leads, with zeal” — leadership as a God-given capacity, not a spiritual downgrade. |
+| **1 Timothy 3:1–13** | Qualifications for overseers/deacons — the church **expects** people in directional/care roles. |
+| **Hebrews 13:17** | “Obey your leaders” — horizontal leadership is assumed in the body. |
 
-So scripture doesn’t say “discipleship beats leadership.” It says **follow Christ, and if you lead, lead like Christ** - last becomes first, serve rather than be served.
+So scripture doesn’t say “discipleship beats leadership.” It says **follow Christ, and if you lead, lead like Christ** — last becomes first, serve rather than be served.
 
 ## 4. The failure mode: swapping the seats
 
@@ -371,15 +371,15 @@ This is where your “substitution” warning is most biblical.
 | Passage | What it supports |
 |---------|------------------|
 | **Matthew 6:1–6** | Righteousness before an audience vs. hidden walk with the Father. |
-| **Matthew 7:21–23** | “Lord, Lord” without doing the Father’s will - role-talk without obedience. |
-| **Matthew 23:1–12** | Teachers who bind heavy loads but don’t carry them - public religious leadership without private integrity. |
-| **Mark 10:43–45** (again) | Grasping greatness vs. serving - the corporate-ladder version of leadership contradicts the kingdom version. |
+| **Matthew 7:21–23** | “Lord, Lord” without doing the Father’s will — role-talk without obedience. |
+| **Matthew 23:1–12** | Teachers who bind heavy loads but don’t carry them — public religious leadership without private integrity. |
+| **Mark 10:43–45** (again) | Grasping greatness vs. serving — the corporate-ladder version of leadership contradicts the kingdom version. |
 
 **Integrity Without an Audience** and **Ethical Leadership** are sermon-on-the-mount territory even where they don’t paste verse numbers in the frontmatter.
 
 ## 5. The sequence in one line of Scripture
 
-**Matthew 4:19** - “Follow me, and I will make you fishers of men.”
+**Matthew 4:19** — “Follow me, and I will make you fishers of men.”
 
 Follow **first**. Outward mission **second**, flowing from that following. That’s priority as sequence, not ranking one seat out of existence.
 
@@ -395,7 +395,7 @@ Follow **first**. Outward mission **second**, flowing from that following. That�
 | Don’t let leadership replace discipleship | Matthew 6, 7, 23; Peter’s denial as lived counterexample |
 | Discipleship flows outward | Matthew 28:19–20 |
 
-So yes - there’s solid biblical footing. What’s **yours** is the clean typology (two seats, substitution as the enemy, workplace PKM mirrors). What’s **Scripture’s** is the harder insistence underneath: **follow Christ, obey when it costs, and if people look to you, serve them from that footing - not from the title alone.**
+So yes — there’s solid biblical footing. What’s **yours** is the clean typology (two seats, substitution as the enemy, workplace PKM mirrors). What’s **Scripture’s** is the harder insistence underneath: **follow Christ, obey when it costs, and if people look to you, serve them from that footing — not from the title alone.**
 
 ---
 
@@ -419,9 +419,9 @@ Not automatically. **Priority** names what goes **first when both can't win at o
 
 ## When priority is *not* “better”
 
-**Triage:** Airway before broken finger. Breathing isn’t *better than* fingers - it’s what kills you in the next minute. Order under pressure, not a value ranking of body parts.
+**Triage:** Airway before broken finger. Breathing isn’t *better than* fingers — it’s what kills you in the next minute. Order under pressure, not a value ranking of body parts.
 
-**Recipe:** Preheat the oven before you mix the batter. Preheating isn’t *better than* mixing - it’s sequence so the whole thing works.
+**Recipe:** Preheat the oven before you mix the batter. Preheating isn’t *better than* mixing — it’s sequence so the whole thing works.
 
 **Your two seats:** Christ first when the room wants a shortcut doesn’t mean leadership is spiritually inferior. It means **who governs when the two pull apart**. The line cook still owes calm direction when people look to her.
 
@@ -431,7 +431,7 @@ In each case: priority = **order**, not **rank**.
 
 Sometimes we use “first” to mean “more important”:
 
-- “Family comes first” often means family matters *more* than career - that’s closer to “better.”
+- “Family comes first” often means family matters *more* than career — that’s closer to “better.”
 - “Seek first the kingdom” (Matthew 6:33) isn’t saying food and clothes are bad; it’s saying **God’s reign orders everything else**.
 
 Even there, “first” is often **governing principle**, not “everything else is worthless.” Kingdom first sorts the inbox; it doesn’t delete the inbox.
@@ -453,4 +453,4 @@ If only the middle row forces a choice, you’re talking **priority**. If the qu
 **Prioritized** = “this one sets the rule when they clash.”  
 **Better** = “this one is the higher kind of thing.”
 
-Discipleship is prioritized when they collide. That doesn’t make leadership a lesser category - only one that must **answer to** the upward seat, not replace it.
+Discipleship is prioritized when they collide. That doesn’t make leadership a lesser category — only one that must **answer to** the upward seat, not replace it.

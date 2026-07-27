@@ -959,7 +959,7 @@ The automated section will also be added to notes single pages. It will sit afte
 
 _**Agent (default)**_
 
-Implementing an automated Related Notes section on blog posts-tag-based matching to the notes garden, separate from the existing Related Posts block.
+Implementing an automated Related Notes section on blog posts—tag-based matching to the notes garden, separate from the existing Related Posts block.
 
 
 _**Agent (default)**_
@@ -2057,20 +2057,20 @@ _**Agent (default)**_
 Every blog post now gets an automated **Related Notes** section at the bottom (above Related Posts). Here’s what was added:
 
 ### How it works
-1. **Tag/category matching** - Finds notes in the garden that share tags or categories with the blog post (same logic as your `wire-notes-obsidian.py` script).
-2. **Hugo fallback** - If there’s no direct overlap, Hugo’s related-content index is used, filtered to the `notes` section only.
-3. **Related Posts** - Still shown separately, but now limited to other blog posts only (notes no longer leak into that block).
+1. **Tag/category matching** — Finds notes in the garden that share tags or categories with the blog post (same logic as your `wire-notes-obsidian.py` script).
+2. **Hugo fallback** — If there’s no direct overlap, Hugo’s related-content index is used, filtered to the `notes` section only.
+3. **Related Posts** — Still shown separately, but now limited to other blog posts only (notes no longer leak into that block).
 
 ### Files added/updated
-- `layouts/_partials/notes/related-notes.html` - scoring logic
-- `layouts/_partials/blog/related-notes.html` - section UI (uses your existing `notes-card` styling)
-- `layouts/_partials/blog/related-posts.html` - extracted related-posts block
-- `themes/jorap/layouts/blog/single.html` - wires both sections in
-- `config/_default/params.toml` - `[blog]` limits (`related_notes_limit = 5`, `related_posts_limit = 3`)
-- `i18n/en.yaml` - `related_notes: Related Notes`
+- `layouts/_partials/notes/related-notes.html` — scoring logic
+- `layouts/_partials/blog/related-notes.html` — section UI (uses your existing `notes-card` styling)
+- `layouts/_partials/blog/related-posts.html` — extracted related-posts block
+- `themes/jorap/layouts/blog/single.html` — wires both sections in
+- `config/_default/params.toml` — `[blog]` limits (`related_notes_limit = 5`, `related_posts_limit = 3`)
+- `i18n/en.yaml` — `related_notes: Related Notes`
 
 ### When it shows
-The section only renders when there are actual matches - no empty block. On published posts today, about **6 of 16** have tag overlap with the notes garden (e.g. RSS, Publishing, PKM topics). Posts like `how-i-built-jorap-notes` won’t show it yet because their tags (`Hugo CMS`, `Cloudflare Pages`, etc.) don’t overlap with note tags - aligning tags over time will surface more connections.
+The section only renders when there are actual matches — no empty block. On published posts today, about **6 of 16** have tag overlap with the notes garden (e.g. RSS, Publishing, PKM topics). Posts like `how-i-built-jorap-notes` won’t show it yet because their tags (`Hugo CMS`, `Cloudflare Pages`, etc.) don’t overlap with note tags — aligning tags over time will surface more connections.
 
 If you want **every** blog post to always show something, I can add a final fallback (e.g. most-connected notes from the garden). I can also add the same automated section to **note pages** if you want to replace the manual “See also” blocks in markdown.
 
@@ -2224,15 +2224,15 @@ _**Agent (default)**_
 Every note page now gets an automated **Related Posts** section at the bottom, using the same pattern as blog posts.
 
 ### How it works
-1. **Tag/category matching** - Finds blog posts that share tags or categories with the note.
-2. **Hugo fallback** - Uses Hugo’s related index, filtered to the `blog` section only.
-3. **Recent posts fallback** - If nothing matches, shows the latest blog posts (same as on blog singles).
+1. **Tag/category matching** — Finds blog posts that share tags or categories with the note.
+2. **Hugo fallback** — Uses Hugo’s related index, filtered to the `blog` section only.
+3. **Recent posts fallback** — If nothing matches, shows the latest blog posts (same as on blog singles).
 
 ### Changes
-- `layouts/_partials/blog/related-posts-lookup.html` - shared lookup logic (notes → blog)
-- `layouts/_partials/blog/related-posts.html` - refactored to use the lookup; picks limit from `[notes]` or `[blog]` params based on page section
-- `layouts/notes/single.html` - renders the section below the note content
-- `config/_default/params.toml` - `notes.related_posts_limit = 3`
+- `layouts/_partials/blog/related-posts-lookup.html` — shared lookup logic (notes → blog)
+- `layouts/_partials/blog/related-posts.html` — refactored to use the lookup; picks limit from `[notes]` or `[blog]` params based on page section
+- `layouts/notes/single.html` — renders the section below the note content
+- `config/_default/params.toml` — `notes.related_posts_limit = 3`
 
 Notes with PKM, Publishing, RSS, and similar tags will surface the most relevant articles first. You can tune the count via `notes.related_posts_limit` in `params.toml`.
 
@@ -2640,7 +2640,7 @@ Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (75 files)
 
 _**Agent (default)**_
 
-Tags didn't parse - checking frontmatter format.
+Tags didn't parse — checking frontmatter format.
 
 
 _**Agent (default)**_
@@ -3822,13 +3822,13 @@ Preparing a comprehensive report on tag updates. The script will remain as docum
 
 _**Agent (default)**_
 
-Tag audit complete - **52 files updated**. Summary:
+Tag audit complete — **52 files updated**. Summary:
 
 ## Findings
 
 **Before:** Only **10 shared tags** between blogs and notes, so related sections barely connected (e.g. `how-i-built-jorap-notes` and `hugoplate-theme-review` had zero note matches).
 
-**After:** **39 shared tags** - PKM, Hugo, Publishing, Digital Garden, Website Building, Research, Documentation, and others now bridge the two sections.
+**After:** **39 shared tags** — PKM, Hugo, Publishing, Digital Garden, Website Building, Research, Documentation, and others now bridge the two sections.
 
 **Overlap by design:** 7 published lifestyle posts stay separate from the notes garden (tennis, worship, recipes, testimony, gear). That’s expected.
 
@@ -3837,23 +3837,23 @@ Tag audit complete - **52 files updated**. Summary:
 | `how-i-built-jorap-notes`, `hugoplate-theme-review` | Now match digital-garden, drafting-in-public, getting-started, etc. |
 | `getting-started-with-rss-feeds-beginners-guide` | Now matches `rss-for-research`, `newsletter-filtering`, etc. |
 | `consistent-ai-output-wordpress-builds`, `top-reasons-*`, Facebook post | Bridge tags added (PKM, Writing, Digital Garden, …) |
-| Sports, food, worship, testimony, earphones | Left as-is - no forced PKM tags |
+| Sports, food, worship, testimony, earphones | Left as-is — no forced PKM tags |
 
 ## Changes made
 
-**Published blogs (8):** Added bridge tags where content fits the notes garden - mainly `PKM`, `Publishing`, `Digital Garden`, `Writing`, `Research`, `Documentation`.
+**Published blogs (8):** Added bridge tags where content fits the notes garden — mainly `PKM`, `Publishing`, `Digital Garden`, `Writing`, `Research`, `Documentation`.
 
 **Draft blogs (16):** Pre-tagged Hugo/PKM drafts (`__obsidian-vs-hugo`, `__markdown-*`, `__hugo-*`, etc.) so related sections work when published.
 
 **Notes (27):** Added Hugo/website tags on garden & site notes; PKM on meta notes (`getting-started`, `graph`); cross-topic tags on research, workflow, and capture notes.
 
-**Fix:** `instant-pot-chicken-adobo` had an empty slug and missing meta title - fixed (tags were already present in YAML list format).
+**Fix:** `instant-pot-chicken-adobo` had an empty slug and missing meta title — fixed (tags were already present in YAML list format).
 
 ## Intentionally not changed
 
-- **No blanket “Note Taking” on all 74 notes** - it would weaken related matching.
-- **Lifestyle posts** - no artificial PKM tags.
-- **Notes that already had the tags** - e.g. `privacy-and-data-sovereignty`, `e2ee-security`, `rss-for-research` already had Security/Privacy/RSS.
+- **No blanket “Note Taking” on all 74 notes** — it would weaken related matching.
+- **Lifestyle posts** — no artificial PKM tags.
+- **Notes that already had the tags** — e.g. `privacy-and-data-sovereignty`, `e2ee-security`, `rss-for-research` already had Security/Privacy/RSS.
 
 ## Tag conventions going forward
 

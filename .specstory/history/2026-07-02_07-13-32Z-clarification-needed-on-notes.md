@@ -1643,7 +1643,7 @@ for path in sorted(NOTES.glob(&#34;*.md&#34;)):
         first12 = &#34; &#34;.join(desc.split()[:12])
         if not re.search(r&#34;\b(is|are|was|means|isn&#39;t|aren&#39;t)\b&#34;, first12, re.I):
             # also accept &#34;X -&#34; pattern or colon definitions
-            if not re.search(r&#34;[:-–-]\s*\w&#34;, desc[:60]):
+            if not re.search(r&#34;[:—–-]\s*\w&#34;, desc[:60]):
                 no_copula.append((name, desc[:80]))
 
     for pat, label in WEAK_PATTERNS[:3]:
@@ -1730,7 +1730,7 @@ for path in sorted(NOTES.glob("*.md")):
         first12 = " ".join(desc.split()[:12])
         if not re.search(r"\b(is|are|was|means|isn't|aren't)\b", first12, re.I):
             # also accept "X -" pattern or colon definitions
-            if not re.search(r"[:-–-]\s*\w", desc[:60]):
+            if not re.search(r"[:—–-]\s*\w", desc[:60]):
                 no_copula.append((name, desc[:80]))
 
     for pat, label in WEAK_PATTERNS[:3]:
@@ -2248,7 +2248,7 @@ for path in sorted(NOTES.glob(&#34;*.md&#34;)):
 print(&#34;=== DESCRIPTIONS: situational opener, no is/are, title word absent ===&#34;)
 print(f&#34;count: {len(undefining)}\n&#34;)
 for n, d in undefining:
-    print(f&#34;• **{n.replace(&#39;-&#39;,&#39; &#39;).title()}** - {d}&#34;)
+    print(f&#34;• **{n.replace(&#39;-&#39;,&#39; &#39;).title()}** — {d}&#34;)
 
 print(f&#34;\n=== LAZY RELATIONSHIP REASONS ({len(lazy_reasons)}) ===&#34;)
 for n, w, r in lazy_reasons:
@@ -2302,7 +2302,7 @@ for path in sorted(NOTES.glob("*.md")):
 print("=== DESCRIPTIONS: situational opener, no is/are, title word absent ===")
 print(f"count: {len(undefining)}\n")
 for n, d in undefining:
-    print(f"• **{n.replace('-',' ').title()}** - {d}")
+    print(f"• **{n.replace('-',' ').title()}** — {d}")
 
 print(f"\n=== LAZY RELATIONSHIP REASONS ({len(lazy_reasons)}) ===")
 for n, w, r in lazy_reasons:
@@ -2314,23 +2314,23 @@ PY
 === DESCRIPTIONS: situational opener, no is/are, title word absent ===
 count: 71
 
-• **Abide In Me** - I bear fruit when I stay connected to Christ, not when I white-knuckle harder on my own.
-• **Accountability** - I name one owner for the outcome before the group chat turns into someone should fix it.
-• **Anti Fragile Systems** - I build on plain files and open formats so an app shutdown doesn't erase years of notes.
-• **Associative Linking** - I link notes so ideas meet in the graph without me memorizing every folder path.
-• **Assurance** - When doubt shows up, I rest on what Christ already finished, not on how clean my week looked.
-• **Atomic Notes** - If a note needs three ands to make its point, I split it before I link it.
-• **Attention Economy** - I treat my feed like a slot machine someone else owns - if I'm not paying, I'm the product.
-• **Attention To Detail** - I catch the typo and the edge case before they turn into an incident or a dumb customer email.
-• **Blameless Postmortem** - After rollback restores service, I learn what broke in the system - not who to punish for pushing deploy.
-• **Build A Reliable Default** - When I'm tired, I fall back on what I've rehearsed most - so that fallback has to be simple.
-• **Building A Personal Api** - I shape frontmatter and folders so future me and my scripts don't need a fresh briefing every time.
-• **Childlike Faith** - I stop negotiating merit and receive the kingdom the way a child receives care.
-• **Christianity And Politics** - I owe Caesar what Caesar's owed and God what I'm His - no party gets my soul.
-• **Composure** - When the room spikes, I slow my tone so people read calm instead of panic.
-• **Compounding** - I keep doing the small right thing until the curve finally bends - flat for a long time, then not.
-• **Control The Rhythm** - I set pace in hard conversations before adrenaline picks it for me.
-• **Convert Pain Into Learning** - I only gain from a failure if it changes how I act the next time the s
+• **Abide In Me** — I bear fruit when I stay connected to Christ, not when I white-knuckle harder on my own.
+• **Accountability** — I name one owner for the outcome before the group chat turns into someone should fix it.
+• **Anti Fragile Systems** — I build on plain files and open formats so an app shutdown doesn't erase years of notes.
+• **Associative Linking** — I link notes so ideas meet in the graph without me memorizing every folder path.
+• **Assurance** — When doubt shows up, I rest on what Christ already finished, not on how clean my week looked.
+• **Atomic Notes** — If a note needs three ands to make its point, I split it before I link it.
+• **Attention Economy** — I treat my feed like a slot machine someone else owns - if I'm not paying, I'm the product.
+• **Attention To Detail** — I catch the typo and the edge case before they turn into an incident or a dumb customer email.
+• **Blameless Postmortem** — After rollback restores service, I learn what broke in the system - not who to punish for pushing deploy.
+• **Build A Reliable Default** — When I'm tired, I fall back on what I've rehearsed most - so that fallback has to be simple.
+• **Building A Personal Api** — I shape frontmatter and folders so future me and my scripts don't need a fresh briefing every time.
+• **Childlike Faith** — I stop negotiating merit and receive the kingdom the way a child receives care.
+• **Christianity And Politics** — I owe Caesar what Caesar's owed and God what I'm His - no party gets my soul.
+• **Composure** — When the room spikes, I slow my tone so people read calm instead of panic.
+• **Compounding** — I keep doing the small right thing until the curve finally bends - flat for a long time, then not.
+• **Control The Rhythm** — I set pace in hard conversations before adrenaline picks it for me.
+• **Convert Pain Into Learning** — I only gain from a failure if it changes how I act the next time the s
 … (output truncated)
 ```
 </details></tool-use>
@@ -2357,7 +2357,7 @@ Good news first: the garden is structurally clean. No broken wikilinks, no missi
 
 ## Hard lint fail (1 note)
 
-- **Reliability** - `description` contains a wikilink (`[[Complete the Cycle]]`). Descriptions should be plain, recallable definitions with no links.
+- **Reliability** — `description` contains a wikilink (`[[Complete the Cycle]]`). Descriptions should be plain, recallable definitions with no links.
 
 ## Placeholder relationship reasons (35 notes)
 
@@ -2413,7 +2413,7 @@ Most notes use first-person voice on purpose, which is fine. These are the ones 
 - **Notice the Good**, **Pareto Principle**, **Set Calm Boundaries**
 - **Slow Productivity**, **Accountability**, **Compounding**
 
-`key_concept` often carries the real definition on these - but if you want `description` to work as a cold-recall flashcard, these are the priority rewrites.
+`key_concept` often carries the real definition on these — but if you want `description` to work as a cold-recall flashcard, these are the priority rewrites.
 
 ## Thin `key_concept` (17 notes)
 
@@ -2884,8 +2884,8 @@ Rewrote descriptions to answer "what *is* this?" in ≤20 words. Examples:
 
 ## 4. Thin `key_concept` expanded (15 notes)
 Added angle and stakes without duplicating descriptions. Examples:
-- **Associative Linking** - punchy opener plus how typed links make the garden walkable months later
-- **Emotional Regulation** - *"Feel the spike. Don't mail it."* with links to Slow the Moment and Name the Feeling
-- **Slow Productivity** - busy vs finished tension, with Deep Work as the depth cost
+- **Associative Linking** — punchy opener plus how typed links make the garden walkable months later
+- **Emotional Regulation** — *"Feel the spike. Don't mail it."* with links to Slow the Moment and Name the Feeling
+- **Slow Productivity** — busy vs finished tension, with Deep Work as the depth cost
 
 **Verification:** `lint-notes-frontmatter` OK · `notes-voice-lint` OK · Hugo build clean · zero placeholder reasons remaining.

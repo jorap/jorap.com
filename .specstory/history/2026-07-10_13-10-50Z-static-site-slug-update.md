@@ -1651,14 +1651,14 @@ Homepage updated. The static-site-vs-cms blog is now the hero card.
 
 _**Agent (auto-low)**_
 
-Updated `config/_default/params.toml` - **Writing for site owners** now leads with the new post as the hero card:
+Updated `config/_default/params.toml` — **Writing for site owners** now leads with the new post as the hero card:
 
-1. **static-site-vs-cms** (new - large featured card)
+1. **static-site-vs-cms** (new — large featured card)
 2. top-reasons-create-maintain-your-own-website
 3. consistent-ai-output-wordpress-builds
 4. getting-started-with-rss-feeds-a-beginners-guide
 5. top-reasons-why-you-still-need-use-desktop-laptop
 
-Dropped **Facebook Favorites Feed** - off-topic for site owners compared to the stack-pick post.
+Dropped **Facebook Favorites Feed** — off-topic for site owners compared to the stack-pick post.
 
 Also set `featured: true` on `static-site-vs-cms.md` so it pins to the top of `/blog/` as well.

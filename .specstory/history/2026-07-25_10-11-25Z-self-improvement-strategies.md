@@ -20,7 +20,7 @@ No open files or prior context exist. "This" could mean the entire project, a sp
 
 _**Agent (auto-low)**_
 
-I need a bit more context on what “this” refers to - I’ll check recent work in the repo and any prior chat so the advice fits.
+I need a bit more context on what “this” refers to — I’ll check recent work in the repo and any prior chat so the advice fits.
 
 
 _**Agent (auto-low)**_
@@ -838,7 +838,7 @@ The remaining gaps are automation and feedback wiring. No system currently learn
 
 _**Agent (auto-low)**_
 
-“Self-improving” here means a loop that **measures → fixes → encodes the lesson** so the next session starts ahead, not at zero. You already have most of the pieces in jorap.com - what’s missing is closing the loop.
+“Self-improving” here means a loop that **measures → fixes → encodes the lesson** so the next session starts ahead, not at zero. You already have most of the pieces in jorap.com — what’s missing is closing the loop.
 
 ## What you already have
 
@@ -900,7 +900,7 @@ After any session where the agent had to be corrected twice on the same thing, w
 | Intentional shortcut | `ponytail:` comment → `/ponytail-debt` |
 | Shipped site behavior | `CHANGELOG.md` via changelog-update skill |
 
-**Rule of thumb:** if you explained it twice, it belongs in a skill or rule - not in your head.
+**Rule of thumb:** if you explained it twice, it belongs in a skill or rule — not in your head.
 
 ### 4. Verify (automated gate)
 Don’t call a session “done” until:
@@ -938,7 +938,7 @@ Add a workspace rule like:
 
 > After completing a task, if the user corrected the same class of mistake twice, propose a one-line addition to the relevant skill or rule before ending.
 
-That’s the `self-improvement.mdc` pattern from your older setup - every task ends with “should this become a rule?”
+That’s the `self-improvement.mdc` pattern from your older setup — every task ends with “should this become a rule?”
 
 ---
 
@@ -946,7 +946,7 @@ That’s the `self-improvement.mdc` pattern from your older setup - every task e
 
 - A second wiki outside Hugo (OKF already is the export)
 - Vector DB / RAG for 254 notes
-- Auto-editing skills from every chat (too noisy - encode only on repeat failures)
+- Auto-editing skills from every chat (too noisy — encode only on repeat failures)
 - A big orchestration framework
 
 Your garden is small enough that **git + OKF + Issues + lint + skills** is the right stack.
@@ -962,7 +962,7 @@ Your garden is small enough that **git + OKF + Issues + lint + skills** is the r
 3. **Cursor agent setup overall** → standing OKF catalog + encode-into-skills ritual
 4. **Flashcards/review** → spaced repetition already self-improves at the human layer; automation would be “weak cards → flag in Issues”
 
-Tell me which one you meant and I can wire the smallest version - e.g. a maintenance Cursor Automation, a `self-improvement.mdc` rule, or a scripted weekly health report.
+Tell me which one you meant and I can wire the smallest version — e.g. a maintenance Cursor Automation, a `self-improvement.mdc` rule, or a scripted weekly health report.
 
 ---
 
@@ -1330,7 +1330,101 @@ Parameters:
   "pattern": "build-issues-report"
 }
 ```
-Status: **loading**
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "build-issues-report",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-02_00-24-02Z-notes-layout-preference.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-07-02_07-13-32Z-clarification-needed-on-notes.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-06-28_00-07-52Z-tinacms-compatibility.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-15_14-44-16Z-blog-compliance-with-okf.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": ".specstory/history/2026-07-05_14-37-42Z-garden-link-issues-summary.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": ".specstory/history/2026-07-01_13-22-54Z-garden-link-structure-issues.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-03_09-28-09Z-garden-link-issues.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": ".specstory/history/2026-06-28_17-06-25Z-free-grace-and-eternal-rewards-notes.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-03_01-49-12Z-notes-with-five-word.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-06-27_11-19-04Z-chatgpt-code-and-notes.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": ".specstory/history/2026-07-02_13-21-05Z-audit-template-responsiveness.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-02_23-14-54Z-garden-link-issues.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-23_01-08-34Z-bible-verses-in-notes.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-07-10_23-05-15Z-garden-link-issues-summary.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": ".specstory/history/2026-07-09_14-18-35Z-bible-verse-shortcode-review.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-07-24_10-18-41Z-audit-theme-and-layouts.md"
+    },
+    {
+      "matchCount": 9,
+      "uri": ".specstory/history/2026-07-01_11-55-29Z-key-concepts-from-notes.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-01_15-16-34Z-http-500-error-on.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-28_03-00-38Z-sveltia-notes-update.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-06-27_11-19-04Z-chatgpt-code-and-notes-integration.md"
+    }
+  ],
+  "totalFiles": 51,
+  "totalMatches": 133
+}
+```
+Status: **completed**
 
 </details></tool-use>
 
@@ -1340,3 +1434,819 @@ _**Agent (auto-low)**_
 <summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/issues.html</summary>
 
 </details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+`lint-note-issues` appears to be orphaned.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **1** directory</summary>
+
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (0 files)
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "garden-health|lint-note-issues"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "garden-health|lint-note-issues",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-06-27_11-19-04Z-chatgpt-code-and-notes-integration.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": ".specstory/history/2026-06-20_08-12-04Z-eternal-principles-and-jesus'-teachings.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-01_15-16-34Z-http-500-error-on.md"
+    },
+    {
+      "matchCount": 13,
+      "uri": ".specstory/history/2026-07-03_11-30-08Z-additional-issues-for-notes.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-20_10-42-35Z-graph-filters-on-mobile-and-tablet.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-07-03_11-30-03Z-garden-link-issues.md"
+    },
+    {
+      "matchCount": 7,
+      "uri": ".specstory/history/2026-06-21_12-15-47Z-possible-notes-functionalities.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-06-20_08-52-20Z-page-issue-check.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-20_10-42-35Z-graph-filters-on-mobile.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-07-02_13-21-05Z-audit-template-responsiveness.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-03_09-28-09Z-garden-link-issues.md"
+    },
+    {
+      "matchCount": 20,
+      "uri": ".specstory/history/2026-07-09_14-07-18Z-site-improvement-suggestions.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-01_23-46-47Z-bem-class-addition-discussion.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-22_16-41-21Z-new-connections-in-notes.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": ".specstory/history/2026-06-20_03-20-28Z-notes-review-and-relationship-analysis.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": ".specstory/history/2026-06-22_15-20-49Z-heading-replacement-and-genre-examples.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": ".specstory/history/2026-07-01_11-55-29Z-key-concepts-from-notes.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-21_11-42-01Z-possible-additional-filters.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": ".specstory/history/2026-06-20_09-15-01Z-flashcard-answer-hint-design.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-06-22_15-46-06Z-atomic-note-creation-prompt.md"
+    }
+  ],
+  "totalFiles": 63,
+  "totalMatches": 238
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The garden-health upgrade will use a minimal Hugo template to render build-issues-report as plain text. A script will run Hugo against that output.
+
+A Python script at `scripts/garden-health.py` could orchestrate theme generation and Hugo rendering. Alternatively, a custom Hugo template under `layouts/_default/issues-report.txt` would render the build-issues report directly.
+
+The script will run `pnpm lint:garden`, then generate the theme and note dates, then invoke Hugo to grep for issues. A dedicated Hugo content page for the report could be built only during CI health checks. The Python implementation uses subprocess calls relative to the project root.
+
+The script will run themeGenerator.js and noteFileDates.js first. Then it will execute pnpm lint:garden. For the Hugo export, an ephemeral layout or a hidden output format seems cleanest. The next step is checking the Hugo version and whether a render command is available.
+
+The specstory reference was only a plan, not implemented. A concrete template path is now `layouts/notes/issues-report.txt`. A matching markdown page under `content/english/notes/` would use a custom `ISSUES` output format. That format must be registered in `hugo.toml`. A one-off Hugo template invocation is also being considered.
+
+The script is being written as `scripts/garden-health.py` with a `run` helper that prints commands and exits on failure. It starts with a header line.
+
+`hugo --renderToMemory` was ruled out. The script will instead inspect `hugo.toml` for existing output formats.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/hugo.toml",
+  "pattern": "outputFormats|outputs"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/hugo.toml",
+  "pattern": "outputFormats|outputs",
+  "topFiles": [
+    {
+      "matchCount": 4,
+      "uri": "hugo.toml"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 4
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/issues.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Using Hugo to build the garden-health script's issues page and curling copy data seems fragile.
+
+A custom Hugo output format will generate plain-text issues pages. This avoids fragile shell extraction.
+
+The `ISSUES` output format will be plain text and non-alternative. A dedicated layout renders the report. The `issues.md` frontmatter will list both `HTML` and `ISSUES`. The generated file will live under `public/notes/issues/`.
+
+The script will run theme generation, date scripts, and a full Hugo build before extracting the issues report. Building the entire site for this check is slow, but acceptable for weekly maintenance.
+
+Every deploy will now include a pinned plain-text issues file for agents. The full Hugo output configuration needs review.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/hugo.toml</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/changelog-update/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Beginning implementation of the three upgrades, starting with option A.
+
+Option A covers weekly garden health maintenance. A Python script will run lint checks and read Hugo build issues. New Hugo output formats will capture issues. A Cursor skill will define the weekly workflow. An npm script will trigger the health check.
+
+Option A will include a note about weekly automation in the skill. Cursor Automations are created via MCP editor rather than repository files. The okf-export.md workflow may also receive a weekly maintenance line. Moving on to Option B.
+
+Option B will use a `stop` hook to inject a session close ritual. The hook can return a `followup_message` prompting the agent to finish the ritual. There is a risk that the hook might auto-continue the agent instead of pausing.
+
+A forced `stop` hook risks infinite loops under `loop_limit`. A concise `.cursor/rules/session-close.mdc` rule is safer. It will apply automatically during substantive work.
+
+A rule that triggers on every wrap-up feels too heavy. The `stop` hook is now the preferred mechanism. It will return a one-time `followup_message` prompt. `loop_limit` will prevent infinite loops.
+
+The `stop` hook approach was abandoned as too complex. A simple rule file is preferable. It would instruct agents to include the session close block in their final response whenever they change deploy paths or garden notes. This keeps the prompt brief and avoids noise. Alternatively, the ritual could be folded into the existing self-improvement rule.
+
+The session close ritual will be folded into `self-improvement.mdc` as a single section. This keeps the file count low.
+
+Option C will add a rule to `self-improvement.mdc` that encodes repeat mistakes into skills or rules after substantive work.
+
+The garden health script will run a full Hugo build to extract issues. A ten-to-thirty-second runtime is acceptable for weekly maintenance.
+
+The garden-health script will run lint first, then Hugo only when a full issues report is requested. The weekly routine will perform both steps. The Python script is being drafted with subprocess helpers and a path to the plain-text issues index.
+
+The garden-health script is now being written. It prints a header, runs lint, executes theme generation and note date scripts, builds Hugo, and reads the plain-text issues file.
+
+The garden-health script now exits with an error if the issues report is missing or lint fails. It prints an OK message when both checks pass. The script is being finalized with an `if __name__ == "__main__"` guard.
+
+The ISSUES output format still needs its Hugo layout. The correct template path depends on whether the format targets a page layout or `_default`.
+
+The `ISSUES` output format is now defined in `hugo.toml` with `baseName = "index"` and `isPlainText = true`. The template `layouts/notes/issues.issues.txt` will render the build issues report. The `issues.md` page will declare both `HTML` and `ISSUES` outputs. The generated plain-text file will be placed at `public/notes/issues/index.txt`.
+
+Two separate rules are cleaner than one combined file. `self-improvement.mdc` will encode repeat mistakes into skills or rules. `session-close.mdc` will handle the wrap-up ritual.
+
+The garden-maintenance skill will trigger weekly or on demand. It will run the health check, fix top issues, encode lessons, and regenerate the OKF export if notes changed.
+
+No unsolicited documentation will be added for Cursor Automations.
+
+Automation instructions will live inside the SKILL file rather than a separate document. A `stop` hook for the session close ritual is unnecessary; a rule-based approach suffices. The garden-health script will be tested after implementation. Existing documentation files will remain unchanged.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Implementing the health script, Hugo issues export, maintenance skill, and two always-on rules.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/garden-health.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/issues.issues.txt</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/garden-maintenance/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/rules/session-close.mdc</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/rules/self-improvement.mdc</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Updating hugo.toml, issues.md, and package.json. Fixing a duplicate file read bug in garden-health.py.
+
+Making the script executable and running tests. Adding outputs to issues.md frontmatter. Fixing garden-health.py exit code logic to detect remaining link issues.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/hugo.toml</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/issues.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/package.json</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/garden-health.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: chmod +x /home/jorap/Documents/GitHub/jorap.com/scripts/garden-health.py &amp;&amp; cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; node scripts/themeGenerator.js &amp;&amp; node scripts/noteFileDates.js &amp;&amp; hugo --quiet &amp;&amp; test -f public/notes/issues/index.txt &amp;&amp; head -5 public/notes/issues/index.txt</summary>
+```bash
+chmod +x /home/jorap/Documents/GitHub/jorap.com/scripts/garden-health.py && cd /home/jorap/Documents/GitHub/jorap.com && node scripts/themeGenerator.js && node scripts/noteFileDates.js && hugo --quiet && test -f public/notes/issues/index.txt && head -5 public/notes/issues/index.txt
+```
+
+```
+✅ Theme CSS generated successfully at: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/assets/css/generated-theme.css
+✅ Note file dates written: /home/jorap/Documents/GitHub/jorap.com/data/noteFileDates.json (262 notes)
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Hugo failed silently. The index.txt file was not created.
+
+Checking Hugo output to locate the missing file.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; hugo 2&gt;&amp;1 | tail -20; find public/notes/issues -type f 2&gt;/dev/null | head -10</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && hugo 2>&1 | tail -20; find public/notes/issues -type f 2>/dev/null | head -10
+```
+
+```
+Start building sites … 
+hugo v0.163.3-4d22555aebf458d5d150500c9ac4bee5b24cf0d3+extended linux/amd64 BuildDate=2026-06-18T16:18:24Z VendorInfo=gohugoio
+
+
+                  │  EN  
+──────────────────┼──────
+ Pages            │ 2116 
+ Paginator pages  │   27 
+ Non-page files   │    0 
+ Static files     │  295 
+ Processed images │  517 
+ Aliases          │  804 
+ Cleaned          │    0 
+
+Total in 25588 ms
+public/notes/issues/index.html
+public/notes/issues/index.xml
+public/notes/issues/index.md
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The ISSUES output failed to generate an index.
+
+Checking Hugo template lookup rules. The layout file path and output format suffix may not match the page type.
+
+Hugo template paths appear correct. The output format may need explicit registration in the `[outputs]` section.
+
+Per-page output declarations should work without global registration. The template filename `issues.issues.txt` appears correct. The issue likely lies elsewhere.
+
+The HTML layout likely conflicts with the ISSUES output format. I'll try a default layout path or grep existing output files for the correct pattern.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **1** directory</summary>
+
+Directory: **`/home/jorap/Documents/GitHub/jorap.com/layouts`** (0 files)
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content",
+  "pattern": "outputs:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content",
+  "pattern": "outputs:",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/issues.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Searching Hugo modules and themes for markdown output templates.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **1** result in **1** directory</summary>
+
+Directory: **`/home/jorap/Documents/GitHub/jorap.com/layouts`** (1 file)
+
+| File |
+|------|
+| `_default/single.md` |
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; hugo config | rg -i &#39;issues|outputformat&#39; | head -20</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && hugo config | rg -i 'issues|outputformat' | head -20
+```
+
+```
+defaultoutputformat = 'html'
+[outputformats]
+  [outputformats.404]
+  [outputformats.alias]
+  [outputformats.amp]
+  [outputformats.calendar]
+  [outputformats.css]
+  [outputformats.csv]
+  [outputformats.gotmpl]
+  [outputformats.html]
+  [outputformats.issues]
+  [outputformats.json]
+  [outputformats.llms]
+  [outputformats.llmsfull]
+  [outputformats.markdown]
+  [outputformats.md]
+  [outputformats.robots]
+  [outputformats.rss]
+  [outputformats.searchindex]
+  [outputformats.sitemap]
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Checking Hugo build output and template metrics for the issues page.
+
+Suspecting the issues template path is incorrect. The file may be missing from the notes section directory. Verifying Hugo's template lookup order for the ISSUES output format.
+
+Reading the issues template file to verify its contents. Checking for Hugo warnings about a missing template.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; hugo --templateMetrics 2&gt;&amp;1 | rg -i &#39;issues|ISSUES|missing&#39; | head -30</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && hugo --templateMetrics 2>&1 | rg -i 'issues|ISSUES|missing' | head -30
+```
+
+```
+  2m38.930646185s  306.224751ms  17.24237495s    519  _partials/notes/collect-note-issues.html
+      35.908421ms   35.908421ms   35.908421ms      1  notes/issues.html
+       6.822007ms      26.752µs     948.228µs    255  _partials/notes/note-issues-panel.html
+            860ns         860ns         860ns      1  notes/issues.issues.txt
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/issues.issues.txt</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/issues.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+A template was invoked once, but no index.txt exists in the public directory.
+
+Searching for .txt files in public/notes/issues and other locations containing "GARDEN LINK ISSUES".
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "outputMode": "files_with_matches",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/public",
+  "pattern": "GARDEN LINK ISSUES"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "files_with_matches",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/public",
+  "pattern": "GARDEN LINK ISSUES",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: find /home/jorap/Documents/GitHub/jorap.com/public -name &#39;*.txt&#39; 2&gt;/dev/null | head -20</summary>
+```bash
+find /home/jorap/Documents/GitHub/jorap.com/public -name '*.txt' 2>/dev/null | head -20
+```
+
+```
+/home/jorap/Documents/GitHub/jorap.com/public/llms.txt
+/home/jorap/Documents/GitHub/jorap.com/public/llms-full.txt
+/home/jorap/Documents/GitHub/jorap.com/public/exports/jorap-notes-anki.txt
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The template ran without writing an output file.
+
+Plain text output likely needs a full template rather than just a block. I'll check how SearchIndex handles its base template.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **1** result in **1** directory</summary>
+
+Directory: **`/home/jorap/Documents/GitHub/jorap.com/layouts`** (1 file)
+
+| File |
+|------|
+| `_default/list.searchindex.json` |
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_default/single.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The ISSUES output template should be a standalone file without `define "main"`, structured like single.md.
+
+Checking list.searchindex.json for the correct standalone template pattern.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_default/list.searchindex.json</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The template is standalone and does not require a define.
+
+Fixing issues in issues.txt.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/issues.issues.txt</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; hugo --quiet &amp;&amp; ls -la public/notes/issues/ &amp;&amp; head -8 public/notes/issues/index.txt</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && hugo --quiet && ls -la public/notes/issues/ && head -8 public/notes/issues/index.txt
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Hugo failed with exit code 1 and produced no output.
+
+Running Hugo again without the --quiet flag to capture any error output.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; hugo 2&gt;&amp;1 | tail -30</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && hugo 2>&1 | tail -30
+```
+
+```
+Start building sites … 
+hugo v0.163.3-4d22555aebf458d5d150500c9ac4bee5b24cf0d3+extended linux/amd64 BuildDate=2026-06-18T16:18:24Z VendorInfo=gohugoio
+
+Total in 25976 ms
+ERROR error building site: render: [en v1.0.0 guest] failed to render pages: render of "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/issues.md" failed: "/home/jorap/Documents/GitHub/jorap.com/layouts/notes/issues.issues.txt:1:4": execute of template failed: template: notes/issues.issues.txt:1:4: executing "notes/issues.issues.txt" at <partial "notes/build-issues-report.html" .>: error calling partial: "/home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/build-issues-report.html:6:16": execute of template failed: template: _partials/notes/build-issues-report.html:6:16: executing "_partials/notes/build-issues-report.html" at <$data.byPath>: can't evaluate field byPath in type page.Page
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The partial expects either a dictionary with byPath or nothing, loading cached data.
+
+Passing `.` to the partial causes failure. The template should instead pass nothing or an empty dictionary to trigger the default load.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/issues.issues.txt</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; hugo --quiet &amp;&amp; head -12 public/notes/issues/index.txt</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && hugo --quiet && head -12 public/notes/issues/index.txt
+```
+
+```
+GARDEN LINK ISSUES
+Source: JoRap notes garden
+
+SUMMARY
+- 0 broken wikilinks (target note does not exist)
+- 0 pipe wikilinks (deprecated [[note|label]] syntax)
+- 0 unlinked mentions (note title in prose without [[wikilink]])
+- 0 structure issues (missing typed links or extra sections)
+- 0 orphans (no inbound wikilinks)
+- 0 dead ends (no body wikilinks)
+- 0 utility wikilinks (tool page via [[wikilink]])
+- 0 broken relationship targets
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The implementation works. Running the full garden:health check next. Linting may take a while.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/garden-health.py; echo &#34;exit: $?&#34;</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/garden-health.py; echo "exit: $?"
+```
+
+```
+$ python3 scripts/lint-notes-frontmatter.py && python3 scripts/normalize-notes-format.py --verify && python3 scripts/lint-flashcard-frontmatter.py && python3 scripts/audit-flashcard-north-star.py && python3 scripts/lint-utility-wikilinks.py && python3 scripts/voice-lint.py garden --check && python3 scripts/voice-lint.py slop --check --notes-only
+FAIL description in key_concept (Level 2: Phone dead on the bus, so you write on the back of …): analog-capture-tools.md
+FAIL description in key_concept (Level 4: Apologize slower than you used to snap - growth aft…): christlikeness.md
+FAIL description in key_concept (Level 3: Connection grows from small rituals - one walk, one…): create-regular-connection.md
+FAIL description in key_concept (Level 5: Pairs with [[Control the Rhythm]] when urgency push…): decision-quality.md
+FAIL description in key_concept (Level 4: Block ninety minutes with phone in the gym bag befo…): deep-work.md
+FAIL shareable_thought[1] not from principle: father-forgive-them.md
+FAIL shareable_thought[2] not from principle: father-forgive-them.md
+FAIL shareable_thought[2] not from principle: glorify-your-name.md
+FAIL description in key_concept (His last recorded words to the Father trust the outcome - Fa…): into-your-hands.md
+FAIL shareable_thought[1] not from principle: into-your-hands.md
+FAIL shareable_thought[2] not from principle: into-your-hands.md
+FAIL shareable_thought[3] not from principle: into-your-hands.md
+FAIL shareable_thought[2] not from principle: jesus-prayers.md
+FAIL description in key_concept (The cup was real - soul overwhelmed, sweat like blood - and …): not-my-will.md
+FAIL shareable_thought[1] not from principle: not-my-will.md
+FAIL shareable_thought[2] not from principle: not-my-will.md
+FAIL shareable_thought[3] not from principle: not-my-will.md
+FAIL description in key_concept (Level 2: Opened scripture means Jesus explained Moses and th…): opened-scripture.md
+FAIL description in key_concept (Level 3: Matthew 5:9 blesses those who 
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The script runs successfully. Exit code 1 comes from pre-existing lint failures, not from our changes.
+
+The output order is caused by pnpm printing to stderr before our script headers. The execution flow itself is correct.
+
+The output ordering is likely just a sandbox artifact, so it needs no fix. I will add a brief one-line reference to `garden:health` in the okf-export maintenance notes.
+
+I decided against editing okf-export.md; user rules prefer not to change content unless required. The deploy path changes will trigger CI on commit, though the user did not request a commit.
+</details></think>
+
+_**Agent (auto-low)**_
+
+All three upgrades are in place.
+
+## A. Weekly maintenance (`pnpm garden:health`)
+
+- **`scripts/garden-health.py`** — runs `lint:garden`, builds Hugo, prints the link-issues report
+- **`layouts/notes/issues.issues.txt`** + **`ISSUES` output format** — plain-text report at `public/notes/issues/index.txt` (same as **Copy issues** on the site)
+- **`.cursor/skills/garden-maintenance/SKILL.md`** — measure → fix → encode → verify workflow, plus optional Cursor Automation prompt
+
+Exit codes:
+- `0` — clean
+- `1` — lint or build failed  
+- `2` — lint passed but link issues remain
+
+```bash
+pnpm garden:health
+```
+
+## B. Session close ritual
+
+**`.cursor/rules/session-close.mdc`** — after substantive edits, agents end with:
+
+```
+## Session close
+- Fixed: …
+- Encode: …
+- Open: …
+```
+
+## C. Self-improvement loop
+
+**`.cursor/rules/self-improvement.mdc`** — encode repeat mistakes into skills/rules; pairs with `/ponytail-debt` and `garden-maintenance`.
+
+---
+
+**To schedule weekly:** create a Cursor Automation (Sunday 9am or your maintenance window) with prompt from the `garden-maintenance` skill, or run `/loop 7d pnpm garden:health — fix top 15 issues`.
+
+**Note:** `pnpm garden:health` currently exits `1` because of 26 pre-existing frontmatter lint failures in the garden — not from this change. Link issues are at 0. I can run a maintenance pass on those lint failures if you want.

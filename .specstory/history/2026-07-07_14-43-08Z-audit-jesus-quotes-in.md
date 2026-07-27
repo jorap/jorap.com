@@ -163,7 +163,7 @@ An unknown error occurred
 
 _**Agent (composer-2.5-fast)**_
 
-## Gospel spine audit - `key_concept` Jesus quotes
+## Gospel spine audit — `key_concept` Jesus quotes
 
 Audited **52 notes** listed in [eternal-principles.md](content/english/notes/eternal-principles.md) sections *Theological basis* through *Church and world*. Criteria: a **direct NASB-style quoted string** from Jesus in Matthew/Mark/Luke/John inside `key_concept` (citations alone or Paul/other writers only = **No**).
 
@@ -176,19 +176,19 @@ Audited **52 notes** listed in [eternal-principles.md](content/english/notes/ete
 | slug | has_jesus_quote | current_ref | needed_jesus_ref | nasb_snippet |
 |------|-----------------|-------------|------------------|--------------|
 | grace | No | Ephesians 2:4-5 (Paul) | John 3:16 | For God so loved the world, that He gave His only begotten Son, that whoever believes in Him shall not perish, but have eternal life. |
-| mercy | **Yes** | Matthew 5:7 + Ephesians 2:4-5 | - | Blessed are the merciful, for they shall receive mercy. |
+| mercy | **Yes** | Matthew 5:7 + Ephesians 2:4-5 | — | Blessed are the merciful, for they shall receive mercy. |
 | free-grace | No | Ephesians 2:8-9; Romans 4:5; Ephesians 2:10 | John 5:24 | Truly, truly, I say to you, he who hears My word, and believes Him who sent Me, has eternal life, and does not come into judgment, but has passed out of death into life. |
 | justification | No | Romans 3:24; 4:5; 5:1 (Paul) | Luke 18:14 | I tell you, this man went to his house justified rather than the other; for everyone who exalts himself will be humbled, but he who humbles himself will be exalted. |
-| sanctification | No | (none - conceptual only) | John 17:17 | Sanctify them in the truth; Your word is truth. |
+| sanctification | No | (none — conceptual only) | John 17:17 | Sanctify them in the truth; Your word is truth. |
 | present-a-living-sacrifice | No | Romans 12:1 (Paul) | Matthew 16:24 | If anyone wishes to come after Me, he must deny himself, and take up his cross and follow Me. |
 | renewed-mind | No | Romans 12:2 (Paul) | John 8:31-32 | If you continue in My word, then you are truly disciples of Mine; and you will know the truth, and the truth will make you free. |
 | dont-copy-the-pattern | No | Romans 12:2 (Paul) | John 15:19 | If you were of the world, the world would love its own; but because you are not of the world, but I chose you out of the world, because of this the world hates you. |
 | discern-his-will-daily | No | Romans 12:2 paraphrase (Paul) | John 7:17 | If anyone is willing to do His will, he will know of the teaching, whether it is of God or whether I speak from Myself. |
 | christlikeness | No | Romans 8:29 cited (Paul) | Luke 6:40 | A pupil is not above his teacher; but everyone, after he has been fully trained, will be like his teacher. |
-| faith-and-works | No | (none - Paul/James discussion) | Matthew 7:24-27 | everyone who hears these words of Mine and acts on them, may be compared to a wise man who built his house on the rock. |
-| repent-and-believe | No | (none - despite title) | Mark 1:15 | The time is fulfilled, and the kingdom of God is at hand; repent and believe in the gospel. |
+| faith-and-works | No | (none — Paul/James discussion) | Matthew 7:24-27 | everyone who hears these words of Mine and acts on them, may be compared to a wise man who built his house on the rock. |
+| repent-and-believe | No | (none — despite title) | Mark 1:15 | The time is fulfilled, and the kingdom of God is at hand; repent and believe in the gospel. |
 | childlike-faith | No | (none) | Mark 10:15 | Truly I say to you, whoever does not receive the kingdom of God like a child will not enter it at all. |
-| abide-in-me | **Yes** | John 15:5 | - | apart from Me you can do nothing. |
+| abide-in-me | **Yes** | John 15:5 | — | apart from Me you can do nothing. |
 
 ---
 
@@ -201,7 +201,7 @@ Audited **52 notes** listed in [eternal-principles.md](content/english/notes/ete
 | standing-vs-fellowship | No | (none) | John 10:28 | I give eternal life to them, and they will never perish; and no one will snatch them out of My hand. |
 | assurance | No | (none) | John 6:47 | Truly, truly, I say to you, he who believes has eternal life. |
 | grateful-obedience | No | (none) | John 14:15 | If you love Me, you will keep My commandments. |
-| faithful-steward | **Yes** | Matthew 25:21 (paraphrase) | - | Well done, good and faithful slave. |
+| faithful-steward | **Yes** | Matthew 25:21 (paraphrase) | — | Well done, good and faithful slave. |
 | success-is-stewardship | No | Matthew 25 paraphrase only | Matthew 25:21 | Well done, good and faithful slave. You were faithful with a few things, I will put you in charge of many things; enter into the joy of your master. |
 
 ---
@@ -210,8 +210,8 @@ Audited **52 notes** listed in [eternal-principles.md](content/english/notes/ete
 
 | slug | has_jesus_quote | current_ref | needed_jesus_ref | nasb_snippet |
 |------|-----------------|-------------|------------------|--------------|
-| love-god | **Yes** | Matthew 22:37-38; Deuteronomy 6:5 | - | YOU SHALL LOVE THE LORD YOUR GOD WITH ALL YOUR HEART, AND WITH ALL YOUR SOUL, AND WITH ALL YOUR MIND. |
-| love-your-neighbor | **Yes** | Matthew 22:39; Mark 12:31; Luke 10:37 | - | Go and do the same. |
+| love-god | **Yes** | Matthew 22:37-38; Deuteronomy 6:5 | — | YOU SHALL LOVE THE LORD YOUR GOD WITH ALL YOUR HEART, AND WITH ALL YOUR SOUL, AND WITH ALL YOUR MIND. |
+| love-your-neighbor | **Yes** | Matthew 22:39; Mark 12:31; Luke 10:37 | — | Go and do the same. |
 
 ---
 
@@ -219,16 +219,16 @@ Audited **52 notes** listed in [eternal-principles.md](content/english/notes/ete
 
 | slug | has_jesus_quote | current_ref | needed_jesus_ref | nasb_snippet |
 |------|-----------------|-------------|------------------|--------------|
-| the-golden-rule | **Yes** | Matthew 7:12 | - | In everything, therefore, treat people the same way you want them to treat you, for this is the Law and the Prophets. |
-| love-your-enemies | **Yes** | Matthew 5:44-45 | - | love your enemies and pray for those who persecute you, so that you may be sons of your Father who is in heaven; for He causes His sun to rise on the evil and the good, and sends rain on the righteous and the unrighteous. |
-| forgiveness | **Yes** | Matthew 6:14-15; 18:21-35; 18:22 | - | I do not say to you, up to seven times, but up to seventy times seven. |
-| reconciliation-before-worship | **Yes** | Matthew 5:23-24 | - | leave your offering there before the altar and go; first be reconciled to your brother, and then come and present your offering. |
-| peacemakers | **Yes** | Matthew 5:9 | - | Blessed are the peacemakers, for they shall be called sons of God. |
-| turn-the-other-cheek | **Yes** | Matthew 5:38-39 | - | An eye for an eye, and a tooth for a tooth. But I say to you, do not resist an evil person; but whoever slaps you on your right cheek, turn the other to him also. |
-| let-your-yes-be-yes | **Yes** | Matthew 5:33-37 | - | let your statement be, 'Yes, yes' or 'No, no'; anything beyond these is of evil |
-| judge-not | **Yes** | Matthew 7:1-5; 7:16-20 | - | Do not judge so that you will not be judged. |
+| the-golden-rule | **Yes** | Matthew 7:12 | — | In everything, therefore, treat people the same way you want them to treat you, for this is the Law and the Prophets. |
+| love-your-enemies | **Yes** | Matthew 5:44-45 | — | love your enemies and pray for those who persecute you, so that you may be sons of your Father who is in heaven; for He causes His sun to rise on the evil and the good, and sends rain on the righteous and the unrighteous. |
+| forgiveness | **Yes** | Matthew 6:14-15; 18:21-35; 18:22 | — | I do not say to you, up to seven times, but up to seventy times seven. |
+| reconciliation-before-worship | **Yes** | Matthew 5:23-24 | — | leave your offering there before the altar and go; first be reconciled to your brother, and then come and present your offering. |
+| peacemakers | **Yes** | Matthew 5:9 | — | Blessed are the peacemakers, for they shall be called sons of God. |
+| turn-the-other-cheek | **Yes** | Matthew 5:38-39 | — | An eye for an eye, and a tooth for a tooth. But I say to you, do not resist an evil person; but whoever slaps you on your right cheek, turn the other to him also. |
+| let-your-yes-be-yes | **Yes** | Matthew 5:33-37 | — | let your statement be, 'Yes, yes' or 'No, no'; anything beyond these is of evil |
+| judge-not | **Yes** | Matthew 7:1-5; 7:16-20 | — | Do not judge so that you will not be judged. |
 | by-their-fruits | No | Matthew 7:16-20 citation only | Matthew 7:16 | You will know them by their fruits. |
-| heart-righteousness | **Yes** | Matthew 5:21-30; 5:22, 28 | - | everyone who is angry with his brother shall be guilty before the court; everyone who looks at a woman with lust for her has already committed adultery with her in his heart |
+| heart-righteousness | **Yes** | Matthew 5:21-30; 5:22, 28 | — | everyone who is angry with his brother shall be guilty before the court; everyone who looks at a woman with lust for her has already committed adultery with her in his heart |
 
 ---
 
@@ -236,14 +236,14 @@ Audited **52 notes** listed in [eternal-principles.md](content/english/notes/ete
 
 | slug | has_jesus_quote | current_ref | needed_jesus_ref | nasb_snippet |
 |------|-----------------|-------------|------------------|--------------|
-| ask-seek-knock | **Yes** | Matthew 7:7-11; 6:9-13 | - | Ask, and it will be given to you; seek, and you will find; knock, and it will be opened to you |
-| secret-devotion | **Yes** | Matthew 6:1; 6:1-18 | - | Beware of practicing your righteousness before men to be noticed by them; otherwise you have no reward with your Father who is in heaven. |
-| seek-the-kingdom-first | **Yes** | Matthew 6:33 | - | seek first His kingdom and His righteousness, and all these things will be added to you. |
+| ask-seek-knock | **Yes** | Matthew 7:7-11; 6:9-13 | — | Ask, and it will be given to you; seek, and you will find; knock, and it will be opened to you |
+| secret-devotion | **Yes** | Matthew 6:1; 6:1-18 | — | Beware of practicing your righteousness before men to be noticed by them; otherwise you have no reward with your Father who is in heaven. |
+| seek-the-kingdom-first | **Yes** | Matthew 6:33 | — | seek first His kingdom and His righteousness, and all these things will be added to you. |
 | god-centered-design | No | (none) | Matthew 5:16 | Let your light shine before men in such a way that they may see your good works, and glorify your Father who is in heaven. |
-| dont-worry | **Yes** | Matthew 6:27 | - | do not be worried about your life… And who of you by being worried can add a single hour to his life? |
-| treasure-in-heaven | **Yes** | Matthew 6:19-21 | - | Do not store up for yourselves treasures on earth… for where your treasure is, there your heart will be also. |
-| eternal-rewards | **Yes** | Matthew 6:4, 6:18; 16:27; 25:21 | - | Well done, good and faithful slave (Matthew 25:21) |
-| the-beatitudes | **Yes** | Matthew 5:3-12 | - | Blessed are the poor in spirit, for theirs is the kingdom of heaven. |
+| dont-worry | **Yes** | Matthew 6:27 | — | do not be worried about your life… And who of you by being worried can add a single hour to his life? |
+| treasure-in-heaven | **Yes** | Matthew 6:19-21 | — | Do not store up for yourselves treasures on earth… for where your treasure is, there your heart will be also. |
+| eternal-rewards | **Yes** | Matthew 6:4, 6:18; 16:27; 25:21 | — | Well done, good and faithful slave (Matthew 25:21) |
+| the-beatitudes | **Yes** | Matthew 5:3-12 | — | Blessed are the poor in spirit, for theirs is the kingdom of heaven. |
 
 ---
 
@@ -254,11 +254,11 @@ Audited **52 notes** listed in [eternal-principles.md](content/english/notes/ete
 | fruits-of-the-spirit | No | Galatians 5:19-23 (Paul) | John 15:5 | apart from Me you can do nothing. |
 | discipleship | No | (none) | Luke 9:23 | If anyone wishes to come after Me, he must deny himself, and take up his cross daily and follow Me. |
 | discipleship-vs-leadership | No | (none) | Matthew 20:26-28 | whoever wishes to become great among you shall be your servant… just as the Son of Man did not come to be served, but to serve |
-| humility-and-service | **Yes** | Mark 10:45 | - | For even the Son of Man did not come to be served, but to serve, and to give His life a ransom for many. |
-| let-your-light-shine | **Yes** | Matthew 5:14-16; 6:1 | - | You are the light of the world. A city set on a hill cannot be hidden. |
-| take-up-your-cross | No | (none - conceptual) | Luke 9:23 | If anyone wishes to come after Me, he must deny himself, and take up his cross daily and follow Me. |
-| the-wise-builder | **Yes** | Matthew 7:24-27; 7:21-23 | - | everyone who hears these words of Mine and acts on them, may be compared to a wise man who built his house on the rock. |
-| the-narrow-way | **Yes** | Matthew 7:13-14; 7:21-23 | - | Enter through the narrow gate; for the gate is wide and the way is broad that leads to destruction… For the gate is small and the way is narrow that leads to life, and there are few who find it. |
+| humility-and-service | **Yes** | Mark 10:45 | — | For even the Son of Man did not come to be served, but to serve, and to give His life a ransom for many. |
+| let-your-light-shine | **Yes** | Matthew 5:14-16; 6:1 | — | You are the light of the world. A city set on a hill cannot be hidden. |
+| take-up-your-cross | No | (none — conceptual) | Luke 9:23 | If anyone wishes to come after Me, he must deny himself, and take up his cross daily and follow Me. |
+| the-wise-builder | **Yes** | Matthew 7:24-27; 7:21-23 | — | everyone who hears these words of Mine and acts on them, may be compared to a wise man who built his house on the rock. |
+| the-narrow-way | **Yes** | Matthew 7:13-14; 7:21-23 | — | Enter through the narrow gate; for the gate is wide and the way is broad that leads to destruction… For the gate is small and the way is narrow that leads to life, and there are few who find it. |
 
 ---
 
@@ -266,17 +266,17 @@ Audited **52 notes** listed in [eternal-principles.md](content/english/notes/ete
 
 | slug | has_jesus_quote | current_ref | needed_jesus_ref | nasb_snippet |
 |------|-----------------|-------------|------------------|--------------|
-| christianity-and-politics | No | (none - wikilink to Render Unto Caesar) | Matthew 22:21 | Render to Caesar the things that are Caesar's; and to God the things that are God's. |
-| render-unto-caesar | **Yes** | Matthew 22:21 | - | Render to Caesar the things that are Caesar's; and to God the things that are God's. |
-| great-commission | **Yes** | Matthew 28:19-20 | - | Go therefore and make disciples of all the nations, baptizing them in the name of the Father and the Son and the Holy Spirit, teaching them to observe all that I commanded you; and lo, I am with you always, even to the end of the age. |
+| christianity-and-politics | No | (none — wikilink to Render Unto Caesar) | Matthew 22:21 | Render to Caesar the things that are Caesar's; and to God the things that are God's. |
+| render-unto-caesar | **Yes** | Matthew 22:21 | — | Render to Caesar the things that are Caesar's; and to God the things that are God's. |
+| great-commission | **Yes** | Matthew 28:19-20 | — | Go therefore and make disciples of all the nations, baptizing them in the name of the Father and the Son and the Holy Spirit, teaching them to observe all that I commanded you; and lo, I am with you always, even to the end of the age. |
 
 ---
 
 ## Patterns worth noting
 
-1. **Theological basis is the weakest cluster** - 12 of 14 notes lean on Paul (Romans/Ephesians) or have no scripture at all. Only `mercy` and `abide-in-me` lead with Jesus.
+1. **Theological basis is the weakest cluster** — 12 of 14 notes lean on Paul (Romans/Ephesians) or have no scripture at all. Only `mercy` and `abide-in-me` lead with Jesus.
 2. **Highest-impact gaps** (title screams Jesus, quote missing): `repent-and-believe`, `childlike-faith`, `take-up-your-cross`, `by-their-fruits`.
-3. **Salvation/reward cluster** is Paul-heavy by design (1 Cor 3, bema theology) - Jesus reward passages (`Matthew 16:27`, `25:21`, `25:29`, `John 10:28`) would anchor without changing doctrine.
-4. **Many suggested snippets already exist** in `data/scripture-nasb1995.yaml` - `John 3:16`, `John 15:5`, `Matthew 7:16`, `Matthew 7:24-27`, `Matthew 22:21`, `Matthew 28:19-20`, etc. Adding verses not yet in the YAML (e.g. `Mark 1:15`, `Luke 9:23`, `John 10:28`) would need new YAML entries first if you want canonical wording enforced site-wide.
+3. **Salvation/reward cluster** is Paul-heavy by design (1 Cor 3, bema theology) — Jesus reward passages (`Matthew 16:27`, `25:21`, `25:29`, `John 10:28`) would anchor without changing doctrine.
+4. **Many suggested snippets already exist** in `data/scripture-nasb1995.yaml` — `John 3:16`, `John 15:5`, `Matthew 7:16`, `Matthew 7:24-27`, `Matthew 22:21`, `Matthew 28:19-20`, etc. Adding verses not yet in the YAML (e.g. `Mark 1:15`, `Luke 9:23`, `John 10:28`) would need new YAML entries first if you want canonical wording enforced site-wide.
 
 Switch to Agent mode if you want these quotes applied to the note files automatically.

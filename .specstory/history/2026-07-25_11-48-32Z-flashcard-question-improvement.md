@@ -11400,3 +11400,776 @@ Jesus Prayers, Jesus Rhythms, and Gospel telegraphy are all finished. Now scanni
 _**Agent (auto-low)**_
 
 Gospel decks are done. Scanning PKM/work notes for remaining telegraphy and polishing them.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt; &#39;PY&#39;
+import re, pathlib
+notes = pathlib.Path(&#39;content/english/notes&#39;)
+TELEGRAPH = re.compile(
+    r&#39;(what did (He|Jesus|we)|Line from|His (move|Emmaus|gut|pattern|custom|table|push|response)|What was His|What did Jesus|Which (gate|road|fruit|lane|builder|part|faculty|motive|design|kindness|righteousness|seat|ledger|paired|system|trail|map|step)|What did He|What did the|What did we|What was missing|What was I|What did I need|What can\&#39;t|How many masters|Which came first|Which gets priority|Copy (His|Him|Jesus)|One move from His|Who is Lord|What comes after|Overlap without|Ephesians \d|Matthew \d)&#39;,
+    re.I)
+MC = re.compile(r&#39;\bor\b.*\?|\?.*\bor\b|,.*\bor\b.*\?&#39;, re.I)
+hits_t, hits_mc = [], []
+for p in sorted(notes.glob(&#39;*.md&#39;)):
+    text = p.read_text()
+    if &#39;review: true&#39; not in text:
+        continue
+    tags = re.search(r&#39;tags:\s*\[(.*?)\]&#39;, text).group(1) if re.search(r&#39;tags:&#39;, text) else &#39;&#39;
+    if &#39;Gospel&#39; in tags:
+        continue
+    for m in re.finditer(r&#39;front:\s*&#34;([^&#34;]+)&#34;\s*\n\s+back:\s*&#34;([^&#34;]+)&#34;&#39;, text):
+        front, back = m.group(1), m.group(2)
+        if TELEGRAPH.search(front):
+            hits_t.append((p.name, front, back))
+        elif MC.search(front):
+            hits_mc.append((p.name, front[:75]))
+print(f&#39;Non-gospel telegraphy: {len(hits_t)}&#39;)
+print(f&#39;Non-gospel multiple-choice: {len(hits_mc)}&#39;)
+for n,f,b in hits_t[:25]:
+    print(f&#39;--- {n}&#39;)
+    print(f&#39;  F: {f}&#39;)
+    print(f&#39;  B: {b}&#39;)
+if len(hits_t) &gt; 25:
+    print(f&#39;... and {len(hits_t)-25} more telegraphy&#39;)
+print(&#39;--- MC sample ---&#39;)
+for n,f in hits_mc[:15]:
+    print(f&#39;  {n}: {f}&#39;)
+PY</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
+import re, pathlib
+notes = pathlib.Path('content/english/notes')
+TELEGRAPH = re.compile(
+    r'(what did (He|Jesus|we)|Line from|His (move|Emmaus|gut|pattern|custom|table|push|response)|What was His|What did Jesus|Which (gate|road|fruit|lane|builder|part|faculty|motive|design|kindness|righteousness|seat|ledger|paired|system|trail|map|step)|What did He|What did the|What did we|What was missing|What was I|What did I need|What can\'t|How many masters|Which came first|Which gets priority|Copy (His|Him|Jesus)|One move from His|Who is Lord|What comes after|Overlap without|Ephesians \d|Matthew \d)',
+    re.I)
+MC = re.compile(r'\bor\b.*\?|\?.*\bor\b|,.*\bor\b.*\?', re.I)
+hits_t, hits_mc = [], []
+for p in sorted(notes.glob('*.md')):
+    text = p.read_text()
+    if 'review: true' not in text:
+        continue
+    tags = re.search(r'tags:\s*\[(.*?)\]', text).group(1) if re.search(r'tags:', text) else ''
+    if 'Gospel' in tags:
+        continue
+    for m in re.finditer(r'front:\s*"([^"]+)"\s*\n\s+back:\s*"([^"]+)"', text):
+        front, back = m.group(1), m.group(2)
+        if TELEGRAPH.search(front):
+            hits_t.append((p.name, front, back))
+        elif MC.search(front):
+            hits_mc.append((p.name, front[:75]))
+print(f'Non-gospel telegraphy: {len(hits_t)}')
+print(f'Non-gospel multiple-choice: {len(hits_mc)}')
+for n,f,b in hits_t[:25]:
+    print(f'--- {n}')
+    print(f'  F: {f}')
+    print(f'  B: {b}')
+if len(hits_t) > 25:
+    print(f'... and {len(hits_t)-25} more telegraphy')
+print('--- MC sample ---')
+for n,f in hits_mc[:15]:
+    print(f'  {n}: {f}')
+PY
+```
+
+```
+Non-gospel telegraphy: 12
+Non-gospel multiple-choice: 0
+--- active-reading.md
+  F: Finished the chapter, yellow on every page, cannot explain one idea. What was missing?
+  B: Extract - marks need a next step.
+--- building-a-second-brain.md
+  F: Notes pile up but nothing publishes. Which step is failing - what do I schedule?
+  B: Express - schedule ship.
+--- building-a-second-brain.md
+  F: Second brain filling with interesting links. Nothing publishing. Which step am I skipping?
+  B: Ship output - not hoard.
+--- drafting-in-public.md
+  F: Shared a draft SOP with the team before it was polished. What did they get?
+  B: Honest pass-off - they could fix it.
+--- evergreen-vs-fleeting-notes.md
+  F: Shift scribble about today's rush still on the clipboard. Safety rule I'd cite in training next year - which lane?
+  B: Binder, not clipboard - promote to evergreen.
+--- gtd-vs-para.md
+  F: Fridge list for this week's groceries vs filing cabinet for school forms with no deadline. Which system?
+  B: GTD for tasks - PARA holds the forms.
+--- life-before-achievement.md
+  F: Scout hike choice: ridge with a drop and no guardrail vs flat trail, same badge. Which trail?
+  B: Flat trail - achievement doesn't outrank life.
+--- people-centered-design.md
+  F: Checkout 'improvement' added taps customers hate. What did we skip?
+  B: Shadow three checkouts - remove friction they actually hit.
+--- people-centered-design.md
+  F: Process rollout and by Friday everyone's using a workaround. What was missing?
+  B: Design for the humans inside it - not only the flowchart.
+--- platform-reach-is-borrowed.md
+  F: Organic reach on my page dropped overnight after years of posting only there. What was I never holding?
+  B: Ownership - point home to your site.
+--- process-mapping.md
+  F: Flowchart from memory says five steps. Friday workaround says eight. Which map wins?
+  B: The one drawn from watching real work.
+--- shadow-the-work.md
+  F: Process rollout and by Friday everyone's using a workaround. Wh
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Twelve telegraphy fronts remain in non-gospel notes.
+
+Running a broader scan for additional telegraphy patterns. Preparing to fix all 12 files, including active-reading.md, building-a-second-brain.md, drafting-in-public.md, evergreen-vs-fleeting-notes.md, and gtd-vs-para.md.
+
+The remaining files are life-before-achievement.md, people-ntered-design.md, platform-reach-is-borrowed.md, process-mapping.md, and shadow-the-work.md. People-ntered-design.md contains two cards.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt; &#39;PY&#39;
+import re, pathlib
+notes = pathlib.Path(&#39;content/english/notes&#39;)
+# broader soft telegraphy
+PAT = re.compile(r&#39;(Which |What did |What was |What gets |What comes |Which one |Which side |Which step |Which map |Which system |Which trail |Which lane |Which road |Which builder |Which fruit |Which faculty |Which motive |Which design |Which kindness |Which paired |Which ledger |Which seat |Which part |Which gate |How many |What can\&#39;t |What should |What names |Who produces |Who gets |Who saw |Who moves |Copy His|Copy Him|His pattern|His move|His custom|His table|His push|His response|His gut|His Emmaus|One move from)&#39;, re.I)
+hits = []
+for p in sorted(notes.glob(&#39;*.md&#39;)):
+    text = p.read_text()
+    if &#39;review: true&#39; not in text:
+        continue
+  if &#39;Gospel&#39; in (re.search(r&#39;tags:\s*\[(.*?)\]&#39;, text).group(1) if re.search(r&#39;tags:&#39;, text) else &#39;&#39;):
+        continue
+    for m in re.finditer(r&#39;front:\s*&#34;([^&#34;]+)&#34;&#39;, text):
+        if PAT.search(m.group(1)):
+            hits.append((p.name, m.group(1)))
+print(f&#39;Broader non-gospel: {len(hits)}&#39;)
+for n,f in hits:
+    print(f&#39;{n}: {f[:80]}&#39;)
+PY</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
+import re, pathlib
+notes = pathlib.Path('content/english/notes')
+# broader soft telegraphy
+PAT = re.compile(r'(Which |What did |What was |What gets |What comes |Which one |Which side |Which step |Which map |Which system |Which trail |Which lane |Which road |Which builder |Which fruit |Which faculty |Which motive |Which design |Which kindness |Which paired |Which ledger |Which seat |Which part |Which gate |How many |What can\'t |What should |What names |Who produces |Who gets |Who saw |Who moves |Copy His|Copy Him|His pattern|His move|His custom|His table|His push|His response|His gut|His Emmaus|One move from)', re.I)
+hits = []
+for p in sorted(notes.glob('*.md')):
+    text = p.read_text()
+    if 'review: true' not in text:
+        continue
+  if 'Gospel' in (re.search(r'tags:\s*\[(.*?)\]', text).group(1) if re.search(r'tags:', text) else ''):
+        continue
+    for m in re.finditer(r'front:\s*"([^"]+)"', text):
+        if PAT.search(m.group(1)):
+            hits.append((p.name, m.group(1)))
+print(f'Broader non-gospel: {len(hits)}')
+for n,f in hits:
+    print(f'{n}: {f[:80]}')
+PY
+```
+
+```
+  File "<stdin>", line 10
+    if 'Gospel' in (re.search(r'tags:\s*\[(.*?)\]', text).group(1) if re.search(r'tags:', text) else ''):
+                                                                                                         ^
+IndentationError: unindent does not match any outer indentation level
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "contextAfter": 18,
+  "glob": "active-reading.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "^cards:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "^cards:",
+  "topFiles": [
+    {
+      "matchCount": 15,
+      "uri": "content/english/notes/active-reading.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "contextAfter": 18,
+  "glob": "building-a-second-brain.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "^cards:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "^cards:",
+  "topFiles": [
+    {
+      "matchCount": 17,
+      "uri": "content/english/notes/building-a-second-brain.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "contextAfter": 18,
+  "glob": "people-centered-design.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "^cards:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "^cards:",
+  "topFiles": [
+    {
+      "matchCount": 18,
+      "uri": "content/english/notes/people-centered-design.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Retrieving the remaining file cards and fixing all 12 telegraphy fronts.
+
+Checking platform-reach-is-borrowed for duplicates against success-is-stewardship. For building-a-second-brain, only two flagged cards require fixes; softer hints are acceptable. Now reading and fixing all flagged files.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "contextAfter": 18,
+  "glob": "drafting-in-public.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "^cards:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "^cards:",
+  "topFiles": [
+    {
+      "matchCount": 18,
+      "uri": "content/english/notes/drafting-in-public.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "contextAfter": 18,
+  "glob": "evergreen-vs-fleeting-notes.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "^cards:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "^cards:",
+  "topFiles": [
+    {
+      "matchCount": 19,
+      "uri": "content/english/notes/evergreen-vs-fleeting-notes.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "contextAfter": 18,
+  "glob": "gtd-vs-para.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "^cards:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "^cards:",
+  "topFiles": [
+    {
+      "matchCount": 17,
+      "uri": "content/english/notes/gtd-vs-para.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "contextAfter": 18,
+  "glob": "life-before-achievement.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "^cards:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "^cards:",
+  "topFiles": [
+    {
+      "matchCount": 16,
+      "uri": "content/english/notes/life-before-achievement.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "contextAfter": 18,
+  "glob": "platform-reach-is-borrowed.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "^cards:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "^cards:",
+  "topFiles": [
+    {
+      "matchCount": 17,
+      "uri": "content/english/notes/platform-reach-is-borrowed.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "contextAfter": 18,
+  "glob": "process-mapping.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "^cards:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "^cards:",
+  "topFiles": [
+    {
+      "matchCount": 15,
+      "uri": "content/english/notes/process-mapping.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "contextAfter": 18,
+  "glob": "shadow-the-work.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "^cards:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "^cards:",
+  "topFiles": [
+    {
+      "matchCount": 19,
+      "uri": "content/english/notes/shadow-the-work.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Fixing the 12 flagged telegraphy fronts.
+
+Also fixing the platform-reach card "What was entrusted, not earned?". Replacing two building-a-second-brain cards with clearer telegraphy.
+
+Also rewriting the drafting-in-public card. Starting on the evergreen-versus-fleeting-notes card.
+
+Completed the evergreen-versus-fleeting-notes rewrite. Rewrote the gtd-versus-para card. Flagged the life-before-achievement card for the "vs" MC pattern.
+
+Rewrote the life-before-achievement card. Fixed the people-centered-design card.
+
+Rewrote the people-centered-design card. Fixed the platform-reach cards.
+
+Rewrote the process-mapping card. The shadow-the-work card mirrors the people-centered-design rewrite. Checking front length against back for lint.
+
+Verified the platform-reach second card against its back. Now applying all edits and proofing.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/active-reading.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/building-a-second-brain.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/drafting-in-public.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/evergreen-vs-fleeting-notes.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/gtd-vs-para.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/life-before-achievement.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/people-centered-design.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/platform-reach-is-borrowed.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/process-mapping.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/shadow-the-work.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Running audit and lint. Re-scanning all review notes for remaining telegraphy.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; npm run audit:cards 2&gt;&amp;1 &amp;&amp; python3 scripts/lint-flashcard-frontmatter.py 2&gt;&amp;1</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && npm run audit:cards 2>&1 && python3 scripts/lint-flashcard-frontmatter.py 2>&1
+```
+
+```
+
+> jorap-com@2.2.0 audit:cards
+> python3 scripts/audit-flashcard-north-star.py
+
+Flashcard north-star audit OK
+Flashcard frontmatter OK
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt; &#39;PY&#39;
+import re, pathlib
+notes = pathlib.Path(&#39;content/english/notes&#39;)
+TELEGRAPH = re.compile(
+    r&#39;(what did (He|Jesus|we)|Line from|His (move|Emmaus|gut|pattern|custom|table|push|response)|What was His|What did Jesus|Which (gate|road|fruit|lane|builder|part|faculty|motive|design|kindness|righteousness|seat|ledger|paired|system|trail|map|step)|What did He|What did the|What did we|What was missing|What was I|What did I need|What can\&#39;t|How many masters|Which came first|Which gets priority|Copy (His|Him|Jesus)|One move from His|Who is Lord|What comes after|Overlap without|Ephesians \d|Matthew \d|What was entrusted)&#39;,
+    re.I)
+all_hits = []
+for p in sorted(notes.glob(&#39;*.md&#39;)):
+    text = p.read_text()
+    if &#39;review: true&#39; not in text:
+        continue
+    for m in re.finditer(r&#39;front:\s*&#34;([^&#34;]+)&#34;&#39;, text):
+        if TELEGRAPH.search(m.group(1)):
+            all_hits.append((p.name, m.group(1)[:75]))
+print(f&#39;All review notes telegraphy fronts: {len(all_hits)}&#39;)
+for n,f in all_hits:
+    print(f&#39;  {n}: {f}&#39;)
+PY</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
+import re, pathlib
+notes = pathlib.Path('content/english/notes')
+TELEGRAPH = re.compile(
+    r'(what did (He|Jesus|we)|Line from|His (move|Emmaus|gut|pattern|custom|table|push|response)|What was His|What did Jesus|Which (gate|road|fruit|lane|builder|part|faculty|motive|design|kindness|righteousness|seat|ledger|paired|system|trail|map|step)|What did He|What did the|What did we|What was missing|What was I|What did I need|What can\'t|How many masters|Which came first|Which gets priority|Copy (His|Him|Jesus)|One move from His|Who is Lord|What comes after|Overlap without|Ephesians \d|Matthew \d|What was entrusted)',
+    re.I)
+all_hits = []
+for p in sorted(notes.glob('*.md')):
+    text = p.read_text()
+    if 'review: true' not in text:
+        continue
+    for m in re.finditer(r'front:\s*"([^"]+)"', text):
+        if TELEGRAPH.search(m.group(1)):
+            all_hits.append((p.name, m.group(1)[:75]))
+print(f'All review notes telegraphy fronts: {len(all_hits)}')
+for n,f in all_hits:
+    print(f'  {n}: {f}')
+PY
+```
+
+```
+All review notes telegraphy fronts: 0
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The flashcard polish arc is now complete across the entire garden. Zero telegraphy fronts match the detector.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Resumed and closed the **PKM/work telegraphy sweep** — the last 14 flagged fronts across 10 notes.
+
+## PKM notes updated
+
+| Note | Fix |
+|------|-----|
+| `active-reading.md` | Highlights without extraction — scene, not “What was missing?” |
+| `building-a-second-brain.md` | Hoard-without-ship scenes — not “Which step?” |
+| `drafting-in-public.md` | Early SOP share — not “What did they get?” |
+| `evergreen-vs-fleeting-notes.md` | Clipboard vs binder lane — not “which lane?” |
+| `gtd-vs-para.md` | Groceries vs forms — not “Which system?” |
+| `life-before-achievement.md` | Risk vs safety forks — cue-only, no “Which trail?” |
+| `people-centered-design.md` | Checkout/workaround scenes — not “What did we skip?” |
+| `platform-reach-is-borrowed.md` | Reach drop / grip scenes — not “What was I never holding?” |
+| `process-mapping.md` | Memory map vs workaround — not “Which map wins?” |
+| `shadow-the-work.md` | Workaround rollout — not “What did we skip?” |
+
+## Full garden flashcard state
+
+| Sweep | Telegraphy fronts |
+|-------|-------------------|
+| Jesus Prayers | 0 |
+| Jesus Rhythms | 0 |
+| Gospel (other) | 0 |
+| PKM / work | **0** |
+| **All review notes** | **0** |
+
+`npm run audit:cards` and full flashcard lint both pass.
+
+The cue→move polish arc is complete across the garden. Remaining fronts may still use subtle hints (`One check?`, `What comes first?`) — that’s intentional per the north star, not answer telegraphy.
+
+## Session close
+- Fixed: cue-only fronts on the last 14 PKM telegraphy cards (10 notes); garden telegraphy sweep at zero
+- Encode: none
+- Open: clean

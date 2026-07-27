@@ -109,4 +109,606 @@ _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
 Each item in the content needs a Bible verse.
+
+Several items already have Bible verses. I am identifying which ones still need them.
+
+Most remaining items lack Bible verses. These include Christlikeness, Faith and Works, Repent and Believe, Childlike Faith, Abide in Me, and the Salvation and Reward section. The two great commandments may already have verses in linked notes. Verses are still needed for treating others, heart and priorities, character and witness, and church and world.
+
+Checking individual note files to find standard Bible verses for each principle. The index should reference the same verses as the spine notes.
 </details></think>
+
+_**Agent (auto-low)**_
+
+Checking how listed items format verses and which spine notes already anchor each principle.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-principles.md",
+  "pattern": "^- \\[\\["
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-principles.md",
+  "pattern": "^- \\[\\[",
+  "topFiles": [
+    {
+      "matchCount": 62,
+      "uri": "content/english/notes/eternal-principles.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 62
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **284** results in **1** directory</summary>
+
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (284 files)
+
+| File |
+|------|
+| `content/english/notes/compounding.md` |
+| `content/english/notes/ethical-leadership.md` |
+| `content/english/notes/follow-christ-then-lead.md` |
+| `content/english/notes/safety-comes-first.md` |
+| `content/english/notes/para-method.md` |
+| `content/english/notes/change-takes-repetition.md` |
+| `content/english/notes/layered-reading.md` |
+| `content/english/notes/systems-for-growth.md` |
+| `content/english/notes/process-over-outcomes.md` |
+| `content/english/notes/continuous-improvement.md` |
+| `content/english/notes/behavioral-economics.md` |
+| `content/english/notes/share-what-you-learn.md` |
+| `content/english/notes/sharpen-each-others-work.md` |
+| `content/english/notes/building-a-personal-api.md` |
+| `content/english/notes/discipline.md` |
+| `content/english/notes/peacemakers.md` |
+| `content/english/notes/literature-notes.md` |
+| `content/english/notes/accountability.md` |
+| `content/english/notes/love-your-neighbor.md` |
+| `content/english/notes/note-relationships.md` |
+| `content/english/notes/own-the-error.md` |
+| `content/english/notes/confess-to-one-another.md` |
+| `content/english/notes/gate-what-you-consume.md` |
+| `content/english/notes/transformation-principles.md` |
+| `content/english/notes/ask-seek-knock.md` |
+| `content/english/notes/inbox-zero.md` |
+| `content/english/notes/pkm.md` |
+| `content/english/notes/mobile-capture-workflows.md` |
+| `content/english/notes/the-fathers-food.md` |
+| `content/english/notes/random-duo.md` |
+| `content/english/notes/evergreen-vs-fleeting-notes.md` |
+| `content/english/notes/the-knowledge-lifecycle.md` |
+| `content/english/notes/patience.md` |
+| `content/english/notes/lean-startup.md` |
+| `content/english/notes/minimum-effective-dose.md` |
+| `content/english/notes/issues.md` |
+| `content/english/notes/love-god.md` |
+| `content/english/notes/linking-by-meaning.md` |
+| `content/english/notes/block-recovery-time.md` |
+| `content/english/notes/client-site-pass-off.md` |
+| `content/english/notes/information-diet.md` |
+| `content/english/notes/the-beatitudes.md` |
+| `content/english/notes/risk-management.md` |
+| `content/english/notes/faithfulness.md` |
+| `content/english/notes/name-the-feeling.md` |
+| `content/english/notes/attention-economy.md` |
+| `content/english/notes/integrity.md` |
+| `content/english/notes/bear-each-others-burdens.md` |
+| `content/english/notes/staged-rollout.md` |
+| `content/english/notes/plain-commitments-at-work.md` |
+| `content/english/notes/faith-and-works.md` |
+| `content/english/notes/know-your-lane.md` |
+| `content/english/notes/signature-move.md` |
+| `content/english/notes/duty-of-care.md` |
+| `content/english/notes/atomic-notes.md` |
+| `content/english/notes/servant-leadership.md` |
+| `content/english/notes/follow-the-rhythm.md` |
+| `content/english/notes/backlinks.md` |
+| `content/english/notes/sabbath-for-good.md` |
+| `content/english/notes/atomic-habits.md` |
+| `content/english/notes/discipleship-vs-leadership.md` |
+| `content/english/notes/control-the-rhythm.md` |
+| `content/english/notes/pray-for-his-own.md` |
+| `content/english/notes/trust-god-for-today.md` |
+| `content/english/notes/strategic-foresight.md` |
+| `content/english/notes/low-hanging-fruit.md` |
+| `content/english/notes/flashcards.md` |
+| `content/english/notes/capture.md` |
+| `content/english/notes/god-centered-design.md` |
+| `content/english/notes/maps-of-content.md` |
+| `content/english/notes/sustainable-performance.md` |
+| `content/english/notes/learning-organizations.md` |
+| `content/english/notes/jesus-rhythms.md` |
+| `content/english/notes/prayer-jesus-taught.md` |
+| `content/english/notes/success-is-stewardship.md` |
+| `content/english/notes/rollback-principle.md` |
+| `content/english/notes/heart-righteousness.md` |
+| `content/english/notes/pray-before-you-choose.md` |
+| `content/english/notes/decision-quality.md` |
+| `content/english/notes/evergreen-notes.md` |
+| `content/english/notes/the-collectors-fallacy.md` |
+| `content/english/notes/standard-operating-procedures.md` |
+| `content/english/notes/set-calm-boundaries.md` |
+| `content/english/notes/_index.md` |
+| `content/english/notes/reading-the-garden.md` |
+| `content/english/notes/golden-rule-at-work.md` |
+| `content/english/notes/the-second-brain-workflow.md` |
+| `content/english/notes/forgiveness.md` |
+| `content/english/notes/assurance.md` |
+| `content/english/notes/judgment-seat.md` |
+| `content/english/notes/eliminate-before-managing.md` |
+| `content/english/notes/network-analysis.md` |
+| `content/english/notes/blameless-after-action-review.md` |
+| `content/english/notes/listen-before-fixing.md` |
+| `content/english/notes/reliability.md` |
+| `content/english/notes/read-later-queue.md` |
+| `content/english/notes/let-your-yes-be-yes.md` |
+| `content/english/notes/maintenance-window.md` |
+| `content/english/notes/getting-things-done.md` |
+| `content/english/notes/turn-the-other-cheek.md` |
+| `content/english/notes/eternal-principles.md` |
+| `content/english/notes/sunk-cost-fallacy.md` |
+| `content/english/notes/composure.md` |
+| `content/english/notes/create-regular-connection.md` |
+| `content/english/notes/reconciliation-before-worship.md` |
+| `content/english/notes/priorities-before-the-inbox.md` |
+| `content/english/notes/childlike-faith.md` |
+| `content/english/notes/pressure-reveals-weakness.md` |
+| `content/english/notes/repent-and-believe.md` |
+| `content/english/notes/local-first-software.md` |
+| `content/english/notes/forgiveness-at-work.md` |
+| `content/english/notes/quarterly-planning.md` |
+| `content/english/notes/execution.md` |
+| `content/english/notes/own-your-part.md` |
+| `content/english/notes/guard-your-heart.md` |
+| `content/english/notes/eternal-rewards.md` |
+| `content/english/notes/signal-vs-noise.md` |
+| `content/english/notes/deliberate-practice.md` |
+| `content/english/notes/many-parts-one-body.md` |
+| `content/english/notes/table-fellowship.md` |
+| `content/english/notes/okf-export.md` |
+| `content/english/notes/read-in-synagogue.md` |
+| `content/english/notes/joy.md` |
+| `content/english/notes/slow-productivity.md` |
+| `content/english/notes/grateful-obedience.md` |
+| `content/english/notes/failure-as-feedback.md` |
+| `content/english/notes/context-aware-capture.md` |
+| `content/english/notes/standing-vs-fellowship.md` |
+| `content/english/notes/there-is-no-perfect-solution.md` |
+| `content/english/notes/outcomes-over-pitch-decks.md` |
+| `content/english/notes/reconcile-before-the-review.md` |
+| `content/english/notes/title-without-influence.md` |
+| `content/english/notes/glorify-your-name.md` |
+| `content/english/notes/discipleship.md` |
+| `content/english/notes/goodness.md` |
+| `content/english/notes/come-to-me-weary.md` |
+| `content/english/notes/count-the-cost.md` |
+| `content/english/notes/anti-fragile-systems.md` |
+| `content/english/notes/follow-their-lead.md` |
+| `content/english/notes/creative-output.md` |
+| `content/english/notes/practice-small-experiments.md` |
+| `content/english/notes/justification.md` |
+| `content/english/notes/safety-by-design.md` |
+| `content/english/notes/synthesis-as-a-goal.md` |
+| `content/english/notes/habit-formation.md` |
+| `content/english/notes/platform-reach-is-borrowed.md` |
+| `content/english/notes/notice-the-good.md` |
+| `content/english/notes/love.md` |
+| `content/english/notes/thank-father-for-revelation.md` |
+| `content/english/notes/mind-mapping.md` |
+| `content/english/notes/spaced-repetition.md` |
+| `content/english/notes/discern-his-will-daily.md` |
+| `content/english/notes/jesus-prayers.md` |
+| `content/english/notes/situational-control.md` |
+| `content/english/notes/dont-worry.md` |
+| `content/english/notes/great-commission.md` |
+| `content/english/notes/heed-every-near-miss.md` |
+| `content/english/notes/versatility.md` |
+| `content/english/notes/first-principles-thinking.md` |
+| `content/english/notes/emotional-regulation.md` |
+| `content/english/notes/treasure-in-heaven.md` |
+| `content/english/notes/judge-not.md` |
+| `content/english/notes/normalization-of-deviance.md` |
+| `content/english/notes/words-that-build-up.md` |
+| `content/english/notes/process-mapping.md` |
+| `content/english/notes/intellectual-sourcing.md` |
+| `content/english/notes/break-the-escalation-cycle.md` |
+| `content/english/notes/fruits-of-the-spirit.md` |
+| `content/english/notes/renewed-mind.md` |
+| `content/english/notes/abide-in-me.md` |
+| `content/english/notes/invest-in-the-few.md` |
+| `content/english/notes/christlikeness.md` |
+| `content/english/notes/pray-when-drained.md` |
+| `content/english/notes/drafting-in-public.md` |
+| `content/english/notes/energy-protects-judgment.md` |
+| `content/english/notes/selling-static-sites.md` |
+| `content/english/notes/render-unto-caesar.md` |
+| `content/english/notes/surface-bad-news-early.md` |
+| `content/english/notes/expect-the-counter.md` |
+| `content/english/notes/analog-capture-tools.md` |
+| `content/english/notes/honest-self-awareness.md` |
+| `content/english/notes/change-window.md` |
+| `content/english/notes/develop-dont-endanger.md` |
+| `content/english/notes/love-your-enemies.md` |
+| `content/english/notes/the-narrow-way.md` |
+| `content/english/notes/coaching-ethics.md` |
+| `content/english/notes/by-their-fruits.md` |
+| `content/english/notes/psychological-safety.md` |
+| `content/english/notes/thank-father-at-lazarus.md` |
+| `content/english/notes/review.md` |
+| `content/english/notes/ship-it.md` |
+| `content/english/notes/active-knowledge-curation.md` |
+| `content/english/notes/shadow-the-work.md` |
+| `content/english/notes/the-feynman-technique.md` |
+| `content/english/notes/metadata-strategy.md` |
+| `content/english/notes/minimum-viable-product.md` |
+| `content/english/notes/resilience.md` |
+| `content/english/notes/future-proofing-knowledge.md` |
+| `content/english/notes/systems-thinking.md` |
+| `content/english/notes/purpose-and-vision.md` |
+| `content/english/notes/gtd-vs-para.md` |
+| `content/english/notes/free-tier-hosting-stack.md` |
+| `content/english/notes/humility-and-service.md` |
+| `content/english/notes/the-golden-rule.md` |
+| `content/english/notes/getting-started.md` |
+| `content/english/notes/iron-sharpens-iron.md` |
+| `content/english/notes/moved-with-compassion.md` |
+| `content/english/notes/second-order-thinking.md` |
+| `content/english/notes/loss-of-reward.md` |
+| `content/english/notes/life-before-achievement.md` |
+| `content/english/notes/mercy.md` |
+| `content/english/notes/people-centered-design.md` |
+| `content/english/notes/into-your-hands.md` |
+| `content/english/notes/walk-by-the-spirit.md` |
+| `content/english/notes/present-a-living-sacrifice.md` |
+| `content/english/notes/graph.md` |
+| `content/english/notes/digital-serendipity.md` |
+| `content/english/notes/preparedness.md` |
+| `content/english/notes/father-forgive-them.md` |
+| `content/english/notes/let-your-light-shine.md` |
+| `content/english/notes/habit-stacking.md` |
+| `content/english/notes/influence-without-title.md` |
+| `content/english/notes/grace.md` |
+| `content/english/notes/the-garage-concept.md` |
+| `content/english/notes/creative-blocks.md` |
+| `content/english/notes/give-useful-feedback.md` |
+| `content/english/notes/not-my-will.md` |
+| `content/english/notes/kingdom-on-the-road.md` |
+| `content/english/notes/create.md` |
+| `content/english/notes/growth-mindset.md` |
+| `content/english/notes/git-based-cms.md` |
+| `content/english/notes/mental-models.md` |
+| `content/english/notes/adaptability.md` |
+| `content/english/notes/leadership-is-influence.md` |
+| `content/english/notes/periodic-knowledge-review.md` |
+| `content/english/notes/share-the-heavy-lift.md` |
+| `content/english/notes/daily-notes.md` |
+| `content/english/notes/building-a-second-brain.md` |
+| `content/english/notes/commonplace-book.md` |
+| `content/english/notes/secret-devotion.md` |
+| `content/english/notes/it-is-written.md` |
+| `content/english/notes/reversibility.md` |
+| `content/english/notes/pareto-principle.md` |
+| `content/english/notes/digital-minimalism.md` |
+| `content/english/notes/withdraw-to-pray.md` |
+| `content/english/notes/integrity-without-an-audience.md` |
+| `content/english/notes/attention-to-detail.md` |
+| `content/english/notes/stay-effective-in-new-conditions.md` |
+| `content/english/notes/graph-view-analytics.md` |
+| `content/english/notes/sanctification.md` |
+| `content/english/notes/workplace-principles.md` |
+| `content/english/notes/the-wise-builder.md` |
+| `content/english/notes/opened-scripture.md` |
+| `content/english/notes/hierarchy-of-controls.md` |
+| `content/english/notes/take-up-your-cross.md` |
+| `content/english/notes/the-12-week-year.md` |
+| `content/english/notes/finish-strong.md` |
+| `content/english/notes/leadership.md` |
+| `content/english/notes/free-grace.md` |
+| `content/english/notes/deep-work.md` |
+| `content/english/notes/taxonomy.md` |
+| `content/english/notes/peace.md` |
+| `content/english/notes/kindness.md` |
+| `content/english/notes/self-control.md` |
+| `content/english/notes/steward-after-the-win.md` |
+| `content/english/notes/cap-todays-commitments.md` |
+| `content/english/notes/incident-investigation.md` |
+| `content/english/notes/digital-garden.md` |
+| `content/english/notes/dont-copy-the-pattern.md` |
+| `content/english/notes/static-site-client-scope.md` |
+| `content/english/notes/measure-then-iterate.md` |
+| `content/english/notes/faithful-steward.md` |
+| `content/english/notes/complete-the-cycle.md` |
+| `content/english/notes/the-trusted-inbox.md` |
+| `content/english/notes/slow-the-moment.md` |
+| `content/english/notes/accept-the-starting-line.md` |
+| `content/english/notes/christianity-and-politics.md` |
+| `content/english/notes/weekly-review-checklists.md` |
+| `content/english/notes/fail-on-paper-first.md` |
+| `content/english/notes/convert-pain-into-learning.md` |
+| `content/english/notes/active-reading.md` |
+| `content/english/notes/gentleness.md` |
+| `content/english/notes/build-a-reliable-default.md` |
+| `content/english/notes/seek-the-kingdom-first.md` |
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/abide-in-me.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-golden-rule.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Searching the linked spine notes for Bible references.
+
+Reading key_concept bible references from each note file.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.md",
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "\\{\\{\u003c bible"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "\\{\\{\u003c bible",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/reconciliation-before-worship.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/love-your-enemies.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/the-golden-rule.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/god-centered-design.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/opened-scripture.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/patience.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/discipleship-vs-leadership.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/love.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/kindness.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/words-that-build-up.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/loss-of-reward.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/the-beatitudes.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/faithful-steward.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/follow-christ-then-lead.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/table-fellowship.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/secret-devotion.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/walk-by-the-spirit.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/by-their-fruits.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/the-narrow-way.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/renewed-mind.md"
+    }
+  ],
+  "totalFiles": 90,
+  "totalMatches": 105
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+All Bible references for each note have been gathered.
+
+Each list item will follow the existing verse format. The pattern places the verse in parentheses after the note title, followed by a brief description and commentary.
+
+The "Loss of Reward" item currently lacks a verse citation. I am adding the missing references now, beginning with Christlikeness (Luke 6:40), Faith and Works (Matthew 7:24), and Repent and Believe (Mark 1:15).
+
+Childlike Faith (Mark 10:15) and Abide in Me (John 15:5) are added. Judgment Seat cites Matthew 16:27. Standing versus Fellowship uses John 10:28. Assurance comes from John 6:37. Grateful Obedience is John 14:15. Faithful Steward and Success is Stewardship both cite Matthew 25:23. Love God is Matthew 22:37. Love Your Neighbor uses Matthew 22:39 and Luke 10:37. The Golden Rule is Matthew 7:12. Love Your Enemies is Matthew 5:44. Forgiveness is Matthew 6:15.
+
+Reconciliation Before Worship is Matthew 5:24. Peacemakers is Matthew 5:9. Turn the Other Cheek is Matthew 5:39. Let Your Yes Be Yes is Matthew 5:37. Judge Not is Matthew 7:5. By Their Fruits is Matthew 7:20. Heart Righteousness is Matthew 5:22 or 28. Words That Build Up is Ephesians 4:29. Ask Seek Knock is Matthew 7:7. Secret Devotion is Matthew 6:6. Seek the Kingdom First is Matthew 6:33. God Centered Design is Matthew 5:16. Don't Worry is Matthew 6:33. Treasure in Heaven is Matthew 6:21.
+
+Eternal Rewards is Matthew 6:4. The Beatitudes is Matthew 5:3-12. Trust God for Today is Matthew 6:11. Come to Me Weary is Matthew 11:28. Guard Your Heart is Proverbs 4:23.
+
+Fruits of the Spirit is John 15:5. Discipleship is Luke 9:23. Discipleship versus Leadership is Mark 10:45. Humility and Service is Mark 10:45. Let Your Light Shine is Matthew 5:16. Take Up Your Cross is Luke 9:23. The Wise Builder is Matthew 7:24. The Narrow Way is Matthew 7:14. Walk by the Spirit is Galatians 5:16.
+
+The remaining items are being added. Count the Cost is Luke 14:28. Many Parts One Body is 1 Corinthians 12:12. Bear Each Other's Burdens is Galatians 6:2. Iron Sharpens Iron is Proverbs 27:17. Confess to One Another is James 5:16. Christianity and Politics is Matthew 22:21. Render Unto Caesar is Matthew 22:21. The Great Commission is Matthew 28:20.
+
+Each line will follow the established style. A brief phrase or theme will precede the verse reference. Commentary will follow.
+
+Abide in Me is now written with its verse and commentary. Judgment Seat cites Matthew 16:27 and clarifies that rewards are repaid rather than re-decided. Loss of Reward uses 1 Corinthians 3:15 to explain that worthless works burn. Standing versus Fellowship uses John 10:28 to distinguish eternal standing from fellowship, which is restored by confession.
+
+The Golden Rule is now written with Matthew 7:12. Love Your Enemies uses Matthew 5:44. Forgiveness cites Matthew 6:15.
+
+Treasure in Heaven is now set to Matthew 6:21. Eternal Rewards is Matthew 6:4. The Beatitudes is Matthew 5:3-12. The Don't Worry reference is Matthew 6:25.
+
+Trust God for Today is Matthew 6:11. Come to Me Weary is Matthew 11:28. Guard Your Heart is Proverbs 4:23. Fruits of the Spirit is John 15:5. Discipleship is Luke 9:23.
+
+The Workplace Principles section contains only a hub link and needs list items added. I will apply all edits via StrReplace.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Adding Bible verse citations to each list item, matching spine notes and the format used in the Theological basis section.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-principles.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-principles.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Most items in the Theological basis section already have Bible verses.
+
+Verifying all list items have Bible verses. The Jesus' rhythms section contains no list items. Scanning the full file for any remaining items missing verse references.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-principles.md",
+  "pattern": "^- \\[\\["
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-principles.md",
+  "pattern": "^- \\[\\[",
+  "topFiles": [
+    {
+      "matchCount": 62,
+      "uri": "content/english/notes/eternal-principles.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 62
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+All 64 list items now have Bible verses.
+
+The Theological basis section already had its verses. I matched each item to its spine note reference. Some verses align with the actual Galatians fruit list rather than the John 15:5 emphasis. God Centered Design and Let Your Light Shine intentionally share Matthew 5:16. Discipleship versus Leadership uses Matthew 20:28.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Every principle link in the body now has a verse anchor, using the same pattern as Theological basis: a short phrase from the text, then `(Book chapter:verse)`, then your gloss.
+
+**Already had verses:** Grace through Discern His Will Daily (14 items in Theological basis).
+
+**Added verses for:** the other 50 spine links across Salvation and reward, Two great commandments, How to treat others, Heart and priorities, Character and witness, and Church and world.
+
+Verses match each spine note’s `{{< bible >}}` block (emphasized verse where the note has one). Examples:
+
+- `[[Abide in Me]]` → John 15:5  
+- `[[Loss of Reward]]` → 1 Corinthians 3:15  
+- `[[Great Commission]]` → Matthew 28:20  
+
+The **Jesus' rhythms** and **At work** sections only point to hub notes (`[[Jesus' Rhythms]]`, `[[Workplace Principles]]`), not individual principle bullets — those weren’t changed.
+
+## Session close
+- Fixed: Added Bible verse anchors to every Eternal Principles list item in the index body.
+- Encode: none
+- Open: clean

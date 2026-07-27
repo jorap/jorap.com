@@ -2478,9 +2478,9 @@ _**Agent (auto-low)**_
 
 Applied the Feynman pattern across **all 258 garden notes**. Each note now has:
 
-1. **Bullet 1** - original claim (unchanged)
-2. **Bullet 2** - grade-6 plain-language restatement (new)
-3. **Bullets 3+** - prior supporting points (shifted down)
+1. **Bullet 1** — original claim (unchanged)
+2. **Bullet 2** — grade-6 plain-language restatement (new)
+3. **Bullets 3+** — prior supporting points (shifted down)
 
 ### Pattern
 
@@ -2494,7 +2494,7 @@ Applied the Feynman pattern across **all 258 garden notes**. Each note now has:
   - Resonance is the filter, not FOMO.
 ```
 
-**Faith note** (`abide-in-me.md`) - bible shortcode kept, grade-6 line after the gloss:
+**Faith note** (`abide-in-me.md`) — bible shortcode kept, grade-6 line after the gloss:
 
 ```8:10:content/english/notes/abide-in-me.md
   - Cut off from the vine, I produce nothing lasting - fruit comes from staying connected, not willpower theater.
@@ -2516,7 +2516,7 @@ Applied the Feynman pattern across **all 258 garden notes**. Each note now has:
 - Fixed `signature-move.md`, which had the same issue
 
 ### Utility added
-`scripts/apply-feynman-grade6.py` - for batch inserts from a YAML map if you want to rerun or tweak later.
+`scripts/apply-feynman-grade6.py` — for batch inserts from a YAML map if you want to rerun or tweak later.
 
 Want me to commit these changes, or tune any grade-6 lines that feel too simple or too long?
 
@@ -3072,18 +3072,18 @@ _**Agent (auto-low)**_
 All **258 notes** now use a five-level Feynman ladder as bullets 2–6, each prefixed `Level N:`.
 
 ### Structure
-- **Bullet 1** - original claim (unchanged)
-- **Bullets 2–6** - `Level 1:` through `Level 5:` (simplest → most nuanced)
-- **Bullets 7+** - prior supporting points (unchanged)
+- **Bullet 1** — original claim (unchanged)
+- **Bullets 2–6** — `Level 1:` through `Level 5:` (simplest → most nuanced)
+- **Bullets 7+** — prior supporting points (unchanged)
 
 ### Level ladder
 | Level | Target |
 |-------|--------|
-| **1** | Grade 6 - concrete analogy, no wikilinks |
-| **2** | Grade 8 - plain, slightly more precise |
-| **3** | Grade 10 - cause and effect, names the idea |
-| **4** | Adult - actionable claim |
-| **5** | Full nuance - tradeoffs, wikilinks where the note uses them |
+| **1** | Grade 6 — concrete analogy, no wikilinks |
+| **2** | Grade 8 — plain, slightly more precise |
+| **3** | Grade 10 — cause and effect, names the idea |
+| **4** | Adult — actionable claim |
+| **5** | Full nuance — tradeoffs, wikilinks where the note uses them |
 
 ### Examples
 
@@ -3100,7 +3100,7 @@ All **258 notes** now use a five-level Feynman ladder as bullets 2–6, each pre
   - The room notices who's steering even when nobody announced it.
 ```
 
-**Faith note** (`abide-in-me.md`) - bible shortcode preserved, levels after the first gloss bullet.
+**Faith note** (`abide-in-me.md`) — bible shortcode preserved, levels after the first gloss bullet.
 
 Verified: **258/258** notes have `Level 1:`–`Level 5:` in the correct positions with no YAML blank-line breaks.
 
@@ -3534,7 +3534,7 @@ A better verification script will flag Level 1 notes that are too long or lack c
 
 _**Agent (auto-low)**_
 
-`workplace-principles` wasn't widened properly - fixing it and scanning for other notes that need the same pass.
+`workplace-principles` wasn't widened properly — fixing it and scanning for other notes that need the same pass.
 
 
 _**Agent (auto-low)**_
@@ -3665,7 +3665,7 @@ The target table will be wider.
 
 _**Agent (auto-low)**_
 
-Yes - the level targets are wider now across all **258 notes**. Here is the new spread:
+Yes — the level targets are wider now across all **258 notes**. Here is the new spread:
 
 | Level | Target | What it sounds like |
 |-------|--------|---------------------|
@@ -3690,8 +3690,8 @@ Yes - the level targets are wider now across all **258 notes**. Here is the new 
 ```
 
 ### Also fixed
-- **`workplace-principles.md`** - levels were not widened in the batch pass; now has a true grade 2–3 Level 1
-- **`capture.md`** - Level 2 no longer copies bullet 1 verbatim
+- **`workplace-principles.md`** — levels were not widened in the batch pass; now has a true grade 2–3 Level 1
+- **`capture.md`** — Level 2 no longer copies bullet 1 verbatim
 
 If you want it even wider (e.g. Level 1 at kindergarten, Level 5 at domain-expert with citations), say how far to push each end.
 

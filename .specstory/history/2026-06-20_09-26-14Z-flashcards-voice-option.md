@@ -274,13 +274,13 @@ Updated both skills so flashcard work always runs through JoRap voice.
 - Reference decks added: `capture.md`, `free-grace.md`, `the-golden-rule.md`
 
 ### `flashcards/examples.md`
-- New **Voice - JoRap, not textbook** section with before/after pairs
+- New **Voice — JoRap, not textbook** section with before/after pairs
 - Rewrite pass includes the voice check as step 4
 
 ### `archetypes/notes-review.md`
 - Template card copy nudges first-person, plain imperatives
 
-Going forward, any flashcard draft should read like a mid-week thought (`Forty inbox items, two weeks untouched`) - not study-deck boilerplate (`When one encounters conflicting capture workflows…`).
+Going forward, any flashcard draft should read like a mid-week thought (`Forty inbox items, two weeks untouched`) — not study-deck boilerplate (`When one encounters conflicting capture workflows…`).
 
 ---
 
@@ -333,7 +333,7 @@ Parameters:
 {
   "caseInsensitive": false,
   "glob": "content/english/notes/*.md",
-  "pattern": ", or | - .* or | - .*\\?"
+  "pattern": ", or | — .* or | — .*\\?"
 }
 ```
 Additional data:
@@ -342,7 +342,7 @@ Additional data:
 {
   "isPruned": true,
   "outputMode": "content",
-  "pattern": ", or | - .* or | - .*\\?",
+  "pattern": ", or | — .* or | — .*\\?",
   "topFiles": [
     {
       "matchCount": 3,
@@ -715,15 +715,15 @@ cd /home/jorap/Documents/GitHub/jorap.com && npm run lint:cards 2>&1 | head -80
 > python3 scripts/lint-flashcard-frontmatter.py
 
 Flashcard frontmatter errors:
-  content/english/notes/abide-in-me.md: card front must be cue-only, not multiple choice (drop option lists like 'A or B?'): Pruning hurts - fear God revoked my place. Does pruning revo…
+  content/english/notes/abide-in-me.md: card front must be cue-only, not multiple choice (drop option lists like 'A or B?'): Pruning hurts — fear God revoked my place. Does pruning revo…
   content/english/notes/abide-in-me.md: card front must be cue-only, not multiple choice (drop option lists like 'A or B?'): Self-help spiritual growth plan vs staying connected. Willpo…
   content/english/notes/ask-seek-knock.md: card front must be cue-only, not multiple choice (drop option lists like 'A or B?'): Prayer feels like earning answers by performance. Come as wa…
-  content/english/notes/associative-linking.md: card front must be cue-only, not multiple choice (drop option lists like 'A or B?'): Atomic note has extends but no contradicts - optional polish…
+  content/english/notes/associative-linking.md: card front must be cue-only, not multiple choice (drop option lists like 'A or B?'): Atomic note has extends but no contradicts — optional polish…
   content/english/notes/atomic-notes.md: card front must be cue-only, not multiple choice (drop option lists like 'A or B?'): Draft mixes browser tips AND meeting notes in one file. Spli…
   content/english/notes/atomic-notes.md: card front must be cue-only, not multiple choice (drop option lists like 'A or B?'): Can't say the whole note in one breath without using 'and'. …
   content/english/notes/atomic-notes.md: card front must be cue-only, not multiple choice (drop option lists like 'A or B?'): Three ideas under one heading in a single file. Three wikili…
   content/english/notes/atomic-notes.md: card front must be cue-only, not multiple choice (drop option lists like 'A or B?'): Note reads like a mini blog post with multiple sections. Tri…
-  content/english/notes/building-a-second-brain.md: card front must be cue-only, not multiple choice (drop option lists like 'A or B?'): Second brain filling with interesting links - hoard or ship?…
+  content/english/notes/building-a-second-brain.md: card front must be cue-only, not multiple choice (drop option lists like 'A or B?'): Second brain filling with interesting links — hoard or ship?…
   content/english/notes/building-a-second-brain.md: card front must be cue-only, not multiple choice (drop option lists like 'A or B?'): Tempted to publish raw captures without dist
 … (output truncated)
 ```
@@ -747,11 +747,11 @@ Updated the flashcards skill to ban multiple choice on fronts. Summary:
 Open questions are still fine when they don't list answers: `What's missing?`, `What comes first?`
 
 ### Files updated
-- **`flashcards/SKILL.md`** - anti-goal, design rule, bad→good table, checklist item, scaffold example
-- **`flashcards/examples.md`** - good examples rewritten; new **Multiple choice (bad → good)** section; rewrite pass step 4
-- **`cards.md`** - format spec aligned
-- **`archetypes/notes-review.md`** - template hint
-- **`scripts/lint-flashcard-frontmatter.py`** - flags comma-or lists, `… or …?` forks, and `pick one` / `choose between`
+- **`flashcards/SKILL.md`** — anti-goal, design rule, bad→good table, checklist item, scaffold example
+- **`flashcards/examples.md`** — good examples rewritten; new **Multiple choice (bad → good)** section; rewrite pass step 4
+- **`cards.md`** — format spec aligned
+- **`archetypes/notes-review.md`** — template hint
+- **`scripts/lint-flashcard-frontmatter.py`** — flags comma-or lists, `… or …?` forks, and `pick one` / `choose between`
 
 ### Lint impact
 `npm run lint:cards` now flags **~60 existing card fronts** across spine notes (e.g. `capture.md`, `evergreen-notes.md`, gospel decks). Those decks still use the old pattern and will need a rewrite pass to pass lint.
@@ -953,17 +953,17 @@ for path in sorted((Path('content/english/notes')).glob('*.md')):
 ```
 
 ```
-abide-in-me.md|Pruning hurts - fear God revoked my place. Does pruning revoke salvation or refine connection?
+abide-in-me.md|Pruning hurts — fear God revoked my place. Does pruning revoke salvation or refine connection?
 abide-in-me.md|Self-help spiritual growth plan vs staying connected. Willpower alone or receive from the vine?
 ask-seek-knock.md|Prayer feels like earning answers by performance. Come as wage earner or child?
-associative-linking.md|Atomic note has extends but no contradicts - optional polish or minimum?
+associative-linking.md|Atomic note has extends but no contradicts — optional polish or minimum?
 atomic-notes.md|Draft mixes browser tips AND meeting notes in one file. Split into two notes, or keep as one?
 atomic-notes.md|Can't say the whole note in one breath without using 'and'. Split or keep?
 atomic-notes.md|Three ideas under one heading in a single file. Three wikilinks, or one long file?
 atomic-notes.md|Note reads like a mini blog post with multiple sections. Trim or split?
-building-a-second-brain.md|Second brain filling with interesting links - hoard or ship?
+building-a-second-brain.md|Second brain filling with interesting links — hoard or ship?
 building-a-second-brain.md|Tempted to publish raw captures without distilling. Ship raw only, or distill first?
-capture.md|Mid-commute spark I might forget. First move - drop in one inbox, or organize into folders on the spot?
+capture.md|Mid-commute spark I might forget. First move — drop in one inbox, or organize into folders on the spot?
 capture.md|Tempted to split work and home into two capture inboxes. Merge into one pipe, or keep separate?
 evergreen-notes.md|Fleeting spark keeps showing up in weekly review. Promote to evergreen, or leave fleeting?
 evergreen-notes.md|Sentences might not hold in two years. Evergreen or keep fleeting?
@@ -971,8 +971,8 @@ evergreen-notes.md|I'd cite this in conversation later this year. Evergreen buck
 evergreen-notes.md|Trendy take I might regret next year. Evergreen it now, or wait?
 evergreen-notes.md|Evergreen note has bold layers but no claim I'd quote. Publish as-is or distill?
 forgiveness.md|Wronged and refusing to forgive. Does that undo salvation or break fellowship?
-forgiveness.md|Same person hurt me again - tempted to stop counting. Forgive again or close the ledger?
-forgiveness.md|Hurt still stings - forgiving feels like pretending it didn't matter. True or false?
+forgiveness.md|Same person hurt me again — tempted to stop counting. Forgive again or close the ledger?
+forgiveness.md|Hurt still stings — forgiving feels like pretending it didn't matter. True or false?
 
 … (output truncated)
 ```
@@ -1450,7 +1450,7 @@ Flashcard frontmatter OK
 
 _**Agent (default)**_
 
-Bulk rewrite done - **58 card fronts** across **25 spine notes** now use cue-only fronts. `npm run lint:cards` passes.
+Bulk rewrite done — **58 card fronts** across **25 spine notes** now use cue-only fronts. `npm run lint:cards` passes.
 
 ### Pattern applied
 - **Removed** option menus (`A or B?`, `X, Y, or Z?`, `true or false?`)
@@ -1461,10 +1461,10 @@ Bulk rewrite done - **58 card fronts** across **25 spine notes** now use cue-onl
 
 | Before | After |
 |--------|-------|
-| `Someone slandered me online - outrage, silence, or prayer first?` | `Someone slandered me online. Thumb hovering over reply.` |
-| `Mid-commute spark - inbox or organize on the spot?` | `Mid-commute spark I might forget before I'm home.` |
+| `Someone slandered me online — outrage, silence, or prayer first?` | `Someone slandered me online. Thumb hovering over reply.` |
+| `Mid-commute spark — inbox or organize on the spot?` | `Mid-commute spark I might forget before I'm home.` |
 | `Criticism is true but tone is cruel. Say it anyway, or pause?` | `Criticism is true but tone is cruel. Finger on send.` |
-| `When do I run weekly review - whenever I remember, or same day every week?` | `When do I run weekly review?` |
+| `When do I run weekly review — whenever I remember, or same day every week?` | `When do I run weekly review?` |
 
 ### Notes touched
 PKM: `capture`, `atomic-notes`, `evergreen-notes`, `para-method`, `signal-vs-noise`, `the-trusted-inbox`, `weekly-review-checklists`, and others.

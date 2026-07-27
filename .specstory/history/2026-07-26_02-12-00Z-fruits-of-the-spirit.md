@@ -2031,3 +2031,174 @@ Matthew 5:5: {'verse': '“Blessed are the gentle, for they shall inherit the ea
 … (output truncated)
 ```
 </details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Verified good verses. Now selecting picks.
+
+Selected nine verses covering the nine fruits. Each pairs a fruit with its biblical source. Now drafting the hub body lines.
+
+Drafting the hub body lines now. Love is first in the cluster. Every other fruit flows from it. Joy is rooted in Christ's promise. Peace is inner calm from God's reign. Patience is slow fuse under delay. The Spirit changes what waiting does to you.
+
+Kindness is tender regard for the person in front, not performance niceness. Goodness is upright deeds that point to God, not a personal brand. Faithfulness means steady use of what God entrusted, not one heroic sprint. Gentleness is strength under control, not loud correction without love.
+
+Self-control is being reconsidered. 2 Peter 1:6 adds virtues in sequence, which may be unclear for the PKM split. Titus 2:12 is now the preferred verse. It speaks of denying ungodliness and worldly desires.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 -c &#34;import json;d=json.load(open(&#39;/home/jorap/Documents/GitHub/jorap.com/data/scripture-nasb1995.json&#39;))[&#39;verses&#39;]; print(d.get(&#39;Titus 2:12&#39;,{}).get(&#39;nasb1995&#39;,{}).get(&#39;verse&#39;,&#39;MISSING&#39;)); print(d.get(&#39;1 Corinthians 9:25&#39;,{}).get(&#39;nasb1995&#39;,{}).get(&#39;verse&#39;,&#39;MISSING&#39;)[:120])&#34;</summary>
+```bash
+python3 -c "import json;d=json.load(open('/home/jorap/Documents/GitHub/jorap.com/data/scripture-nasb1995.json'))['verses']; print(d.get('Titus 2:12',{}).get('nasb1995',{}).get('verse','MISSING')); print(d.get('1 Corinthians 9:25',{}).get('nasb1995',{}).get('verse','MISSING')[:120])"
+```
+
+```
+instructing us to deny ungodliness and worldly desires and to live sensibly, righteously and godly in the present age,
+Everyone who competes in the games exercises self-control in all things. They then do it to receive a perishable wreath,
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+1 Corinthians 9:25 explicitly mentions self-control.
+
+2 Peter 1:6 also names self-control. I will use 1 Corinthians 9:25 for the self-control spine note. I will update all nine spine notes to match hub verses. I will remove the Galatians block from the gentleness note. Only Matthew 5:5 will remain.
+
+The first gloss bullet will reference the hub instead of the Galatians list. Specific verses are now assigned to each spine note: Romans 5:5 for love, John 15:11 for joy, John 14:27 for peace, James 5:7 for patience, Ephesians 4:32 for kindness, Matthew 5:16 for goodness, and Matthew 25:21 for faithfulness. The self-control note will use 1 Corinthians 9:25 with emphasis on verse 25.
+
+The shareable tight text about Fruits of the Spirit names remains valid. No ep-verse-explanations entries exist for the fruit slugs, so that step is optional. All edits are now being applied.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Updating the hub and each spine note to use a distinct scripture anchor.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/fruits-of-the-spirit.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/love.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/joy.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/peace.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/patience.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/kindness.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/goodness.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/faithfulness.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/gentleness.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/self-control.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Restoring the [[Fruits of the Spirit]] hub link to key_concept. Many Level 5 notes still reference it.
+
+Running voice lint on edited files. Inline glosses are sufficient for Galatians fruit notes. The gentleness hub reference remains valid.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm lint:voice -- content/english/notes/fruits-of-the-spirit.md content/english/notes/love.md content/english/notes/joy.md content/english/notes/peace.md content/english/notes/patience.md content/english/notes/kindness.md content/english/notes/goodness.md content/english/notes/faithfulness.md content/english/notes/gentleness.md content/english/notes/self-control.md 2&gt;&amp;1</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:voice -- content/english/notes/fruits-of-the-spirit.md content/english/notes/love.md content/english/notes/joy.md content/english/notes/peace.md content/english/notes/patience.md content/english/notes/kindness.md content/english/notes/goodness.md content/english/notes/faithfulness.md content/english/notes/gentleness.md content/english/notes/self-control.md 2>&1
+```
+
+```
+$ python3 scripts/voice-lint.py dashes --check && python3 scripts/voice-lint.py site --check -- content/english/notes/fruits-of-the-spirit.md content/english/notes/love.md content/english/notes/joy.md content/english/notes/peace.md content/english/notes/patience.md content/english/notes/kindness.md content/english/notes/goodness.md content/english/notes/faithfulness.md content/english/notes/gentleness.md content/english/notes/self-control.md
+Voice dash lint OK
+Voice lint OK
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Preparing a clear table.
+
+The Galatians 5:22-23 paragraph remains the cluster anchor. Individual fruit entries now have unique verses.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Each fruit now has its own verse in the hub and in its spine note. **Galatians 5:22-23** stays only on the hub intro and `key_concept` as the cluster anchor.
+
+| Fruit | Verse |
+|-------|-------|
+| Love | Romans 5:5 |
+| Joy | John 15:11 |
+| Peace | John 14:27 |
+| Patience | James 5:7 |
+| Kindness | Ephesians 4:32 |
+| Goodness | Matthew 5:16 |
+| Faithfulness | Matthew 25:21 |
+| Gentleness | Matthew 5:5 |
+| Self-Control | 1 Corinthians 9:25 |
+
+Verses were chosen to match what each note teaches (Spirit-poured love, Christ's joy/peace, slow fuse under delay, tender regard, visible good works, faithful stewardship, meekness, athletic self-control). Hub lines and spine `{{< bible >}}` blocks now match.
+
+## Session close
+- Fixed: Nine fruits each have a unique scripture anchor in hub and spine notes
+- Encode: none
+- Open: clean

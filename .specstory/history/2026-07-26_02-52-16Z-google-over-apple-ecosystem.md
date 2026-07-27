@@ -742,14 +742,114 @@ _**Agent (auto-low)**_
 
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
 <summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/google-over-apple-ecosystem.md</summary>
-Status: **loading**
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
-Status: **loading**
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/google-over-apple-ecosystem.md</summary>
 
 </details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/google-over-apple-ecosystem.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/google-over-apple-ecosystem.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Running linters to verify.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm lint:voice -- content/english/blog/google-over-apple-ecosystem.md 2&gt;&amp;1; pnpm lint:slop -- content/english/blog/google-over-apple-ecosystem.md 2&gt;&amp;1</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:voice -- content/english/blog/google-over-apple-ecosystem.md 2>&1; pnpm lint:slop -- content/english/blog/google-over-apple-ecosystem.md 2>&1
+```
+
+```
+$ python3 scripts/voice-lint.py dashes --check && python3 scripts/voice-lint.py site --check -- content/english/blog/google-over-apple-ecosystem.md
+Voice dash lint OK
+Voice lint warnings:
+  content/english/blog/google-over-apple-ecosystem.md: body: AI-tell word `handoff` - try: pass off / pass to client
+[ELIFECYCLE] Command failed with exit code 1.
+$ python3 scripts/voice-lint.py slop --check -- content/english/blog/google-over-apple-ecosystem.md
+Slop lint OK
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The word "handoff" needs fixing. Lint suggests replacing it with "pass off" or "pass to client".
+
+Rephrasing the sentence avoids the linted word entirely. "How I walk clients through edits is boring on purpose" works better than "My handoff is boring on purpose."
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/google-over-apple-ecosystem.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Running lint again to confirm the code is clean.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm lint:voice -- content/english/blog/google-over-apple-ecosystem.md 2&gt;&amp;1</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:voice -- content/english/blog/google-over-apple-ecosystem.md 2>&1
+```
+
+```
+$ python3 scripts/voice-lint.py dashes --check && python3 scripts/voice-lint.py site --check -- content/english/blog/google-over-apple-ecosystem.md
+Voice dash lint OK
+Voice lint OK
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Four examples of messy workflows replaced the broken SMS swap story. One involved a badly named Drive folder. Another involved a client requesting a hero image weeks after shipping. A third involved an interior design shop running multiple devices without IT. The fourth involved a catering client losing nearly a week to conflicting iCloud Word copies.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Swapped all four for examples already in your stack or other posts:
+
+1. **Openness** — Mi Box S + cheap Shopee banking phone (both elsewhere in this post), not the SMS swap.
+
+2. **Drive** — Repo zips and images on Drive beside Git, tied to the JoRap Notes migration off shared PHP hosting ([how-i-built-jorap-notes](/blog/how-i-built-jorap-notes/)).
+
+3. **Corporate** — Your actual WordPress client workflow: Meet link, Chrome screen share, mixed machines — no invented interior-design shop.
+
+4. **Shared files** — Pattern you've seen (personal Gmail, iCloud logos, `_final_v3` Word docs) without a fake catering client.
+
+Voice lint is clean again.
+
+## Session close
+- Fixed: Replaced four fabricated anecdotes with grounded examples from your real workflow and existing posts
+- Encode: none
+- Open: clean

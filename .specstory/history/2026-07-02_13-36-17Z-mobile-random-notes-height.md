@@ -638,7 +638,7 @@ Mobile columns stack full-width. A JS fix at the 768px breakpoint is correct. A 
 
 _**Agent (auto-low)**_
 
-Height matching comes from JavaScript setting equal `minHeight` on both panels - I'll skip that below the `md` breakpoint (768px).
+Height matching comes from JavaScript setting equal `minHeight` on both panels — I'll skip that below the `md` breakpoint (768px).
 
 
 _**Agent (auto-low)**_
@@ -787,12 +787,12 @@ curl -s http://localhost:1313/js/notes-random-duo.js | rg -A2 'Side-by-side only
 
 _**Agent (auto-low)**_
 
-On mobile, the two note panels were being forced to the same height by JavaScript - `equalizePanelHeights()` set a shared `minHeight` on both panels regardless of viewport width.
+On mobile, the two note panels were being forced to the same height by JavaScript — `equalizePanelHeights()` set a shared `minHeight` on both panels regardless of viewport width.
 
 Two changes fix that:
 
-1. **`assets/js/notes-random-duo.js`** - height equalization now runs only at the `md` breakpoint and up (768px+). Below that, any inline `minHeight` is cleared and each panel keeps its natural height.
+1. **`assets/js/notes-random-duo.js`** — height equalization now runs only at the `md` breakpoint and up (768px+). Below that, any inline `minHeight` is cleared and each panel keeps its natural height.
 
-2. **`assets/css/custom.css`** - below 768px, the grid uses `align-items: start` and panels no longer grow with `flex: 1`.
+2. **`assets/css/custom.css`** — below 768px, the grid uses `align-items: start` and panels no longer grow with `flex: 1`.
 
 Side-by-side layout on tablet/desktop is unchanged; stacked mobile columns each size to their own content. Refresh the page on a narrow viewport to see it.

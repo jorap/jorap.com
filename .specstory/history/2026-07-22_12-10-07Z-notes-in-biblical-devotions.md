@@ -869,7 +869,7 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The user is asking how the JoRap Notes garden supports biblical devotions.
 
-The notes garden supports biblical devotions through three mechanisms. An Eternal Principles hub curates Jesus' teachings into atomic notes linked for review. Each gospel note opens with NASB 1995 scripture via bible shortcode. Flashcards tagged by set-such as Eternal Principles, Gospel, and Prayer-enable spaced review.
+The notes garden supports biblical devotions through three mechanisms. An Eternal Principles hub curates Jesus' teachings into atomic notes linked for review. Each gospel note opens with NASB 1995 scripture via bible shortcode. Flashcards tagged by set—such as Eternal Principles, Gospel, and Prayer—enable spaced review.
 
 Active recall is built into the `/notes/review/` page. Notes ground theology in concrete, shareable scenes rather than abstract theory. They bridge doctrine and practice, linking concepts like Free Grace and Sanctification to habits such as Secret Devotion, Love God, and Ask Seek Knock. Specific devotion notes cover private prayer, whole-person worship, quiet time rhythm, renewing the mind before the inbox, and abiding in Christ.
 
@@ -914,44 +914,44 @@ A review workflow filters notes by Faith, Prayer, and Eternal Principles. Specif
 
 _**Agent (auto-low)**_
 
-On JoRap Notes, the garden is built to support biblical devotion in a few concrete ways - not as a replacement for Scripture and prayer, but as a layer that helps you **remember, connect, and apply** what you read.
+On JoRap Notes, the garden is built to support biblical devotion in a few concrete ways — not as a replacement for Scripture and prayer, but as a layer that helps you **remember, connect, and apply** what you read.
 
 ## 1. Scripture first, one claim at a time
 
-Faith notes in the [Eternal Principles](/notes/eternal-principles/) cluster open with Jesus’ words (NASB 1995), then a short commentary. Big teachings are split into single-claim notes - [Love God](/notes/love-god/), [Secret Devotion](/notes/secret-devotion/), [Ask Seek Knock](/notes/ask-seek-knock/), [Abide in Me](/notes/abide-in-me/) - so devotion isn’t one vague blob. Each note answers one question: *What did Jesus say, and what does that look like on a Tuesday?*
+Faith notes in the [Eternal Principles](/notes/eternal-principles/) cluster open with Jesus’ words (NASB 1995), then a short commentary. Big teachings are split into single-claim notes — [Love God](/notes/love-god/), [Secret Devotion](/notes/secret-devotion/), [Ask Seek Knock](/notes/ask-seek-knock/), [Abide in Me](/notes/abide-in-me/) — so devotion isn’t one vague blob. Each note answers one question: *What did Jesus say, and what does that look like on a Tuesday?*
 
 ## 2. Devotion that survives real life
 
 The flashcards are written for **moments**, not definitions. Examples from the garden:
 
-- Morning scroll vs quiet time → “Ask, seek, knock - keep coming.”
-- Posting quiet time for likes → “Father alone - not the feed.”
-- “Love God” feels vague → “Pray, read, or serve - one faculty.”
-- Bible closed all week → “Seek in Scripture - open the Book.”
+- Morning scroll vs quiet time → “Ask, seek, knock — keep coming.”
+- Posting quiet time for likes → “Father alone — not the feed.”
+- “Love God” feels vague → “Pray, read, or serve — one faculty.”
+- Bible closed all week → “Seek in Scripture — open the Book.”
 
 That’s the design goal in [Flashcards](/notes/flashcards/): *learn less, retain longer, apply more*. Cards load the right move when life shows up, not when you’re sitting in a study.
 
 ## 3. Grace underneath, so devotion isn’t performance
 
-The hub note makes the order explicit: [Free Grace](/notes/free-grace/) comes first - eternal life is received by faith, not earned. Notes like [Love God](/notes/love-god/), [Discipleship](/notes/discipleship/), and [Secret Devotion](/notes/secret-devotion/) frame devotion as **grateful response**, not payment. That matters for daily devotion, because it keeps prayer and obedience from turning into a scoreboard.
+The hub note makes the order explicit: [Free Grace](/notes/free-grace/) comes first — eternal life is received by faith, not earned. Notes like [Love God](/notes/love-god/), [Discipleship](/notes/discipleship/), and [Secret Devotion](/notes/secret-devotion/) frame devotion as **grateful response**, not payment. That matters for daily devotion, because it keeps prayer and obedience from turning into a scoreboard.
 
 ## 4. Connected theology, not isolated verses
 
 Notes link to each other through typed relationships (`extends`, `contradicts`, `alternative`). For example:
 
-- [Secret Devotion](/notes/secret-devotion/) ↔ [Let Your Light Shine](/notes/let-your-light-shine/) - hidden vs public good works
-- [Ask Seek Knock](/notes/ask-seek-knock/) ↔ [Renewed Mind](/notes/renewed-mind/) - seeking in Scripture feeds mind renewal
-- [Abide in Me](/notes/abide-in-me/) ↔ [Sanctification](/notes/sanctification/) - fruit from staying connected, not willpower theater
+- [Secret Devotion](/notes/secret-devotion/) ↔ [Let Your Light Shine](/notes/let-your-light-shine/) — hidden vs public good works
+- [Ask Seek Knock](/notes/ask-seek-knock/) ↔ [Renewed Mind](/notes/renewed-mind/) — seeking in Scripture feeds mind renewal
+- [Abide in Me](/notes/abide-in-me/) ↔ [Sanctification](/notes/sanctification/) — fruit from staying connected, not willpower theater
 
 Devotion isn’t just “read a verse.” It’s seeing how prayer, Scripture, obedience, and character fit together.
 
 ## 5. A review rhythm, not just reading
 
-Gospel spine notes opt into review at [/notes/review/](/notes/review/). You can filter by **Eternal Principles**, **Faith**, **Prayer**, **Commandments**, **Discipleship**, etc. The point isn’t streak length - it’s whether you can **recall and obey** when it matters. Anki export is there if you want phone sync.
+Gospel spine notes opt into review at [/notes/review/](/notes/review/). You can filter by **Eternal Principles**, **Faith**, **Prayer**, **Commandments**, **Discipleship**, etc. The point isn’t streak length — it’s whether you can **recall and obey** when it matters. Anki export is there if you want phone sync.
 
 ## 6. Everyday scenes, not abstract theology
 
-Each note has two `examples` - one-sentence scenes (parenting, work, sports) that make devotion concrete. “Whole-person love means I feed at least one faculty today” lands differently than “love God with heart, soul, mind, strength” on its own.
+Each note has two `examples` — one-sentence scenes (parenting, work, sports) that make devotion concrete. “Whole-person love means I feed at least one faculty today” lands differently than “love God with heart, soul, mind, strength” on its own.
 
 ---
 
@@ -1269,7 +1269,7 @@ He chose twelve apostles and invested deeply in their small group. He shared mea
 
 _**Agent (auto-low)**_
 
-Your JoRap notes garden doesn’t have a dedicated note on **Jesus’ personal habits** - the [Eternal Principles](/notes/eternal-principles/) cluster focuses on what He **taught** us to do. The Gospels do record recurring patterns in how He lived. Here’s what Scripture shows.
+Your JoRap notes garden doesn’t have a dedicated note on **Jesus’ personal habits** — the [Eternal Principles](/notes/eternal-principles/) cluster focuses on what He **taught** us to do. The Gospels do record recurring patterns in how He lived. Here’s what Scripture shows.
 
 ## Prayer (often alone, often early)
 
@@ -1281,53 +1281,53 @@ Jesus prayed constantly, and often withdrew to pray:
 - **After intense ministry:** prayed alone after feeding the five thousand (Matt 14:23; Mark 6:46)
 - **At the end:** Gethsemane (Matt 26:36–46), and the long prayer in John 17
 
-When the disciples asked how to pray, He taught them - which your [Ask Seek Knock](/notes/ask-seek-knock/) note picks up as rhythm and dependence, not performance.
+When the disciples asked how to pray, He taught them — which your [Ask Seek Knock](/notes/ask-seek-knock/) note picks up as rhythm and dependence, not performance.
 
 ## Scripture (knew it, lived in it, taught from it)
 
 - Read and taught in the **synagogue** as His custom (Luke 4:16–21)
-- Quoted the Old Testament when **tempted** in the wilderness (“It is written…” - Matt 4; Luke 4)
+- Quoted the Old Testament when **tempted** in the wilderness (“It is written…” — Matt 4; Luke 4)
 - **Explained Scripture** to people (e.g. road to Emmaus, Luke 24:27)
 - His teaching constantly assumed deep familiarity with Moses, Psalms, and the Prophets
 
-That lines up with notes like [Renewed Mind](/notes/renewed-mind/) and [Abide in Me](/notes/abide-in-me/) - fruit and obedience flow from staying connected to God’s word, not willpower alone.
+That lines up with notes like [Renewed Mind](/notes/renewed-mind/) and [Abide in Me](/notes/abide-in-me/) — fruit and obedience flow from staying connected to God’s word, not willpower alone.
 
 ## Worship, synagogue, and feasts
 
 - Attended **synagogue** on the Sabbath (Luke 4:16)
-- Went to the **temple** - as a boy (Luke 2:49), and throughout ministry
+- Went to the **temple** — as a boy (Luke 2:49), and throughout ministry
 - Observed **Jewish feasts** (Passover, Feast of Booths, etc.) and made pilgrimage to Jerusalem
 
-He kept Sabbath, but challenged legalistic distortions of it - healing, doing good, “the Sabbath was made for man” (Mark 2:27).
+He kept Sabbath, but challenged legalistic distortions of it — healing, doing good, “the Sabbath was made for man” (Mark 2:27).
 
 ## Fasting
 
 - **Forty days** fasting in the wilderness at the start of ministry (Matt 4:2; Luke 4:2)
-- Taught on fasting in the Sermon on the Mount (Matt 6:16–18) - the basis for your [Secret Devotion](/notes/secret-devotion/) note: fast for the Father who sees, not for applause
+- Taught on fasting in the Sermon on the Mount (Matt 6:16–18) — the basis for your [Secret Devotion](/notes/secret-devotion/) note: fast for the Father who sees, not for applause
 
 ## Solitude before crowds
 
 A clear rhythm: intense public ministry, then withdrawal.
 
 - Crowds pressed in → He slipped away to pray (Mark 1:35–38; Luke 4:42)
-- Not isolation for its own sake - He came back to teach, heal, and serve
+- Not isolation for its own sake — He came back to teach, heal, and serve
 
 ## Teaching and proclaiming the kingdom
 
 - Went from town to town **preaching** and teaching (Luke 4:43; Matt 9:35)
-- Used parables, questions, and direct application - not abstract lectures
+- Used parables, questions, and direct application — not abstract lectures
 
 ## Compassionate service
 
 - Healed the sick, fed the hungry, touched the untouchable
 - “Moved with compassion” shows up repeatedly (e.g. Matt 9:36; Mark 1:41)
-- Ministry wasn’t only words - it was presence with real people
+- Ministry wasn’t only words — it was presence with real people
 
 ## Deep investment in a small group
 
 - Called the **twelve** and spent disproportionate time with them
 - Ate with them, taught privately, washed their feet (John 13)
-- Also ate with “sinners” and outcasts - table fellowship was central
+- Also ate with “sinners” and outcasts — table fellowship was central
 
 ## Obedience to the Father’s will
 
@@ -1335,7 +1335,7 @@ Less a “habit” you copy mechanically, more the engine under everything:
 
 - “My food is to do the will of Him who sent Me” (John 4:34)
 - “I do nothing on My own initiative… I always do the things that are pleasing to Him” (John 8:28–29)
-- That’s the daily cross shape in [Take Up Your Cross](/notes/take-up-your-cross/) and [Discipleship](/notes/discipleship/) - choosing the Father’s will over self-will, day by day
+- That’s the daily cross shape in [Take Up Your Cross](/notes/take-up-your-cross/) and [Discipleship](/notes/discipleship/) — choosing the Father’s will over self-will, day by day
 
 ---
 
@@ -1343,14 +1343,14 @@ Less a “habit” you copy mechanically, more the engine under everything:
 
 The Gospels don’t give a tidy “Jesus’ morning routine” checklist. They do show a life ordered around:
 
-1. **Prayer** - frequent, often alone, often before the day’s demands  
-2. **Scripture** - internalized and used under pressure  
-3. **Worship** - gathered with God’s people, not solo spirituality only  
-4. **Solitude** - refueling before more service  
-5. **Obedience** - doing what the Father sent Him to do, one day at a time  
-6. **People** - deep investment in a few, open table with many  
+1. **Prayer** — frequent, often alone, often before the day’s demands  
+2. **Scripture** — internalized and used under pressure  
+3. **Worship** — gathered with God’s people, not solo spirituality only  
+4. **Solitude** — refueling before more service  
+5. **Obedience** — doing what the Father sent Him to do, one day at a time  
+6. **People** — deep investment in a few, open table with many  
 
-Your garden’s faith notes map closest to **what He taught us to imitate** (pray, seek Scripture, hidden devotion, daily following) rather than a biography of His habits. If you wanted that on the site, a note like “Jesus’ Rhythms” or a section under Eternal Principles could wire prayer/solitude/Scripture habits to the Gospel passages above - but that content isn’t there yet.
+Your garden’s faith notes map closest to **what He taught us to imitate** (pray, seek Scripture, hidden devotion, daily following) rather than a biography of His habits. If you wanted that on the site, a note like “Jesus’ Rhythms” or a section under Eternal Principles could wire prayer/solitude/Scripture habits to the Gospel passages above — but that content isn’t there yet.
 
 Want this framed as a devotional reading plan, or as a note outline for the garden?
 
@@ -1525,15 +1525,15 @@ He interpreted Scripture correctly, correcting the Pharisees and revealing deepe
 
 _**Agent (auto-low)**_
 
-The Gospels show Jesus treating Scripture as **living, authoritative, and personal** - not as a reference book He occasionally consulted. Here’s what He actually did with it.
+The Gospels show Jesus treating Scripture as **living, authoritative, and personal** — not as a reference book He occasionally consulted. Here’s what He actually did with it.
 
 ## He knew it inside out
 
 Jesus quoted the Old Testament constantly, often from memory and without a scroll in hand:
 
-- In the **wilderness temptation**, He answered each attack with “It is written…” - Deuteronomy 6 and 8 (Matt 4:1–11; Luke 4:1–13)
+- In the **wilderness temptation**, He answered each attack with “It is written…” — Deuteronomy 6 and 8 (Matt 4:1–11; Luke 4:1–13)
 - On the **cross**, He cried Psalm 22:1: “My God, My God, why have You forsaken Me?”
-- In debate He’d say **“Have you not read?”** (Matt 12:3, 5; 19:4; 22:31) - assuming His hearers should know the text
+- In debate He’d say **“Have you not read?”** (Matt 12:3, 5; 19:4; 22:31) — assuming His hearers should know the text
 
 He didn’t treat the Bible as background noise. It was already in His mouth and mind.
 
@@ -1545,7 +1545,7 @@ So Scripture wasn’t private-only. He read it **with God’s people**, in gathe
 
 ## He taught and explained it
 
-People noticed He didn’t teach like the scribes - He taught **as one having authority** (Mark 1:22).
+People noticed He didn’t teach like the scribes — He taught **as one having authority** (Mark 1:22).
 
 - He **explained** passages (e.g. Isaiah 61 in Luke 4, the law on divorce in Matt 19)
 - After the resurrection, on the Emmaus road He **interpreted** Moses and all the Prophets concerning Himself (Luke 24:27)
@@ -1555,7 +1555,7 @@ He didn’t just cite verses. He **unpacked** what they meant.
 
 ## He applied it when it cost something
 
-Under real pressure - hunger, pride, shortcut to power - He didn’t improvise. He reached for Scripture:
+Under real pressure — hunger, pride, shortcut to power — He didn’t improvise. He reached for Scripture:
 
 > “Man shall not live on bread alone, but on every word that proceeds out of the mouth of God.” (Deut 8:3)
 
@@ -1565,7 +1565,7 @@ That’s the pattern your [Renewed Mind](/notes/renewed-mind/) and [Abide in Me]
 
 He didn’t reject the Law. He **fulfilled** it and exposed misuse:
 
-- “You have heard that it was said… but **I say to you**” (Matt 5) - going to the heart, not canceling the text
+- “You have heard that it was said… but **I say to you**” (Matt 5) — going to the heart, not canceling the text
 - Rebuked Pharisees who used Scripture for **show** while neglecting justice, mercy, and faithfulness (Matt 23:23)
 - Defended doing good on the Sabbath from a **right reading** of the Law (Mark 2:23–28; Luke 13:10–17)
 
@@ -1576,14 +1576,14 @@ So for Jesus, Scripture wasn’t a weapon for status. It was truth that produces
 He didn’t read the Old Testament as disconnected history:
 
 - “Today this Scripture has been fulfilled in your hearing” (Luke 4:21)
-- “The Son of Man must suffer… and rise - **how else** will the Scriptures be fulfilled?” (Luke 24:26)
+- “The Son of Man must suffer… and rise — **how else** will the Scriptures be fulfilled?” (Luke 24:26)
 - “All things which are written about Me in the Law of Moses, the Prophets, and the Psalms…” (Luke 24:44)
 
-He read the Bible **Christologically** - the whole story pointed to what the Father was doing through Him.
+He read the Bible **Christologically** — the whole story pointed to what the Father was doing through Him.
 
 ## He submitted to it, even as Lord of it
 
-He said, “The Scripture cannot be broken” (John 10:35) and “It is written” as final word. Yet He also claimed authority **over** the Sabbath (Mark 2:28) - not as someone above Scripture, but as the one Scripture was about.
+He said, “The Scripture cannot be broken” (John 10:35) and “It is written” as final word. Yet He also claimed authority **over** the Sabbath (Mark 2:28) — not as someone above Scripture, but as the one Scripture was about.
 
 ## He sent others back to it
 
@@ -1604,7 +1604,7 @@ After the resurrection: “These are My words… **everything written** about Me
 | **Fulfilled** | Prophecies about the Messiah |
 | **Sent others to it** | “Scriptures… concerning Me” |
 
-Your garden’s faith notes mostly describe what **we** should do with Scripture (seek it, let it renew the mind, open it before the inbox). The Gospels show Jesus doing all of that first - and perfectly.
+Your garden’s faith notes mostly describe what **we** should do with Scripture (seek it, let it renew the mind, open it before the inbox). The Gospels show Jesus doing all of that first — and perfectly.
 
 If you want the next layer: how His use of Scripture differs from how the Pharisees used it, or which Old Testament books He quoted most.
 
@@ -1876,7 +1876,7 @@ Cross-linking habit angles to existing notes. Withdrawal to pray maps to Deep Wo
 
 _**Agent (auto-low)**_
 
-Here are note ideas that fit your garden’s shape - **one claim, Gospel anchor, two scenes, typed relationships** - without duplicating what [Eternal Principles](/notes/eternal-principles/) already covers (Jesus’ *commands*).
+Here are note ideas that fit your garden’s shape — **one claim, Gospel anchor, two scenes, typed relationships** — without duplicating what [Eternal Principles](/notes/eternal-principles/) already covers (Jesus’ *commands*).
 
 ## Start with a hub (optional but clean)
 
@@ -1890,40 +1890,40 @@ Keeps “imitate His habits” separate from “obey His words” without forkin
 
 ## Strong atomic note candidates
 
-Each row is one note - title, anchor passage, claim angle, existing links.
+Each row is one note — title, anchor passage, claim angle, existing links.
 
 ### Prayer & solitude
 
 | Possible title | Scripture anchor | One-claim angle | Wire to |
 |----------------|------------------|-----------------|---------|
-| **Withdraw to Pray** | Mark 1:35; Luke 5:16 | Crowds press in; He slips away to pray before the next push - solitude refuels service, not escape. | [[Ask Seek Knock]], [[Secret Devotion]], [[Deep Work]] |
-| **Pray Before You Choose** | Luke 6:12 | Big call (the twelve) came after a night in prayer - major forks get prayer first, not after. | [[Discern His Will Daily]], [[Decision Quality]] |
-| **Pray When Drained** | Matt 14:23; Mark 6:46 | After feeding five thousand, alone on the mountain - exhaustion is a cue to pray, not skip it. | [[Don't Worry]], [[Slow Productivity]] |
+| **Withdraw to Pray** | Mark 1:35; Luke 5:16 | Crowds press in; He slips away to pray before the next push — solitude refuels service, not escape. | [[Ask Seek Knock]], [[Secret Devotion]], [[Deep Work]] |
+| **Pray Before You Choose** | Luke 6:12 | Big call (the twelve) came after a night in prayer — major forks get prayer first, not after. | [[Discern His Will Daily]], [[Decision Quality]] |
+| **Pray When Drained** | Matt 14:23; Mark 6:46 | After feeding five thousand, alone on the mountain — exhaustion is a cue to pray, not skip it. | [[Don't Worry]], [[Slow Productivity]] |
 
 ### Scripture
 
 | Possible title | Scripture anchor | One-claim angle | Wire to |
 |----------------|------------------|-----------------|---------|
-| **It Is Written** | Matt 4:1–11 | Under pressure He answered from Scripture already in Him - not improvised slogans. | [[Renewed Mind]], [[Abide in Me]] |
-| **Read in Synagogue** | Luke 4:16–21 | Scripture in gathered worship was His custom - private reading and public reading both matter. | [[Love God]], [[Ask Seek Knock]] |
-| **Opened the Scriptures** | Luke 24:27, 45 | He explained Moses and the Prophets - reading plus explanation, not verse-dropping. | [[Discipleship]], [[Great Commission]] |
-| **Scripture Fulfilled** | Luke 24:44 | He read the OT as pointing to the Father’s story through Him - the Book is one narrative. | [[Christlikeness]], [[Assurance]] |
+| **It Is Written** | Matt 4:1–11 | Under pressure He answered from Scripture already in Him — not improvised slogans. | [[Renewed Mind]], [[Abide in Me]] |
+| **Read in Synagogue** | Luke 4:16–21 | Scripture in gathered worship was His custom — private reading and public reading both matter. | [[Love God]], [[Ask Seek Knock]] |
+| **Opened the Scriptures** | Luke 24:27, 45 | He explained Moses and the Prophets — reading plus explanation, not verse-dropping. | [[Discipleship]], [[Great Commission]] |
+| **Scripture Fulfilled** | Luke 24:44 | He read the OT as pointing to the Father’s story through Him — the Book is one narrative. | [[Christlikeness]], [[Assurance]] |
 
 ### People, compassion, table
 
 | Possible title | Scripture anchor | One-claim angle | Wire to |
 |----------------|------------------|-----------------|---------|
-| **Moved with Compassion** | Matt 9:36; Mark 1:41 | Schedule bent for the hurting - compassion interrupted the plan, not the other way around. | [[Love Your Neighbor]], [[Peacemakers]] |
-| **Table Fellowship** | Luke 5:29–32; Mark 2:15 | He ate with sinners and disciples - presence at the table was ministry, not a program slot. | [[Humility and Service]], [[Reconciliation Before Worship]] |
-| **Invest in the Few** | Mark 3:14; John 13 | Twelve got disproportionate time - depth with a small group, not only crowd teaching. | [[Discipleship]], [[Great Commission]] |
+| **Moved with Compassion** | Matt 9:36; Mark 1:41 | Schedule bent for the hurting — compassion interrupted the plan, not the other way around. | [[Love Your Neighbor]], [[Peacemakers]] |
+| **Table Fellowship** | Luke 5:29–32; Mark 2:15 | He ate with sinners and disciples — presence at the table was ministry, not a program slot. | [[Humility and Service]], [[Reconciliation Before Worship]] |
+| **Invest in the Few** | Mark 3:14; John 13 | Twelve got disproportionate time — depth with a small group, not only crowd teaching. | [[Discipleship]], [[Great Commission]] |
 
 ### Will, worship, rhythm
 
 | Possible title | Scripture anchor | One-claim angle | Wire to |
 |----------------|------------------|-----------------|---------|
-| **The Father’s Food** | John 4:34 | “My food is to do the will of Him who sent Me” - obedience was sustenance, not a side task. | [[Take Up Your Cross]], [[Grateful Obedience]] |
-| **Sabbath for Good** | Mark 2:27; Luke 13:16 | Lord of the Sabbath - rest serves people and mercy, not rule-keeping for show. | [[Secret Devotion]], [[Heart Righteousness]] |
-| **Kingdom on the Road** | Luke 4:43; Matt 9:35 | Town to town - teaching, preaching, healing as one integrated rhythm, not three separate hats. | [[Seek the Kingdom First]], [[Let Your Light Shine]] |
+| **The Father’s Food** | John 4:34 | “My food is to do the will of Him who sent Me” — obedience was sustenance, not a side task. | [[Take Up Your Cross]], [[Grateful Obedience]] |
+| **Sabbath for Good** | Mark 2:27; Luke 13:16 | Lord of the Sabbath — rest serves people and mercy, not rule-keeping for show. | [[Secret Devotion]], [[Heart Righteousness]] |
+| **Kingdom on the Road** | Luke 4:43; Matt 9:35 | Town to town — teaching, preaching, healing as one integrated rhythm, not three separate hats. | [[Seek the Kingdom First]], [[Let Your Light Shine]] |
 
 ---
 
@@ -1931,8 +1931,8 @@ Each row is one note - title, anchor passage, claim angle, existing links.
 
 | Habit | Already covered by |
 |-------|-------------------|
-| Secret prayer/fasting | [[Secret Devotion]] - add a `relationships` line: “Jesus modeled withdrawal; this names the audience.” |
-| Persistent prayer | [[Ask Seek Knock]] - add gloss: He prayed often; this names the rhythm He taught. |
+| Secret prayer/fasting | [[Secret Devotion]] — add a `relationships` line: “Jesus modeled withdrawal; this names the audience.” |
+| Persistent prayer | [[Ask Seek Knock]] — add gloss: He prayed often; this names the rhythm He taught. |
 | Daily cross / following | [[Discipleship]], [[Take Up Your Cross]] |
 | Fruit from connection | [[Abide in Me]] |
 | Scripture reshaping *us* | [[Renewed Mind]], [[Sanctification]] |
@@ -1949,10 +1949,10 @@ If these get `review: true`, either:
 
 Best flashcard candidates (concrete forks):
 
-- **Withdraw to Pray** - inbox before prayer vs slip away first  
-- **It Is Written** - scroll vs verse under pressure  
-- **Pray Before You Choose** - decide then pray vs night before the fork  
-- **Table Fellowship** - program vs eat with one real person  
+- **Withdraw to Pray** — inbox before prayer vs slip away first  
+- **It Is Written** — scroll vs verse under pressure  
+- **Pray Before You Choose** — decide then pray vs night before the fork  
+- **Table Fellowship** — program vs eat with one real person  
 
 ---
 
@@ -1966,7 +1966,7 @@ If you only add 4–5 notes plus a hub:
 4. **Read in Synagogue**  
 5. **Moved with Compassion**  
 
-That covers prayer rhythm, Scripture use, worship, and people - the four lanes from our earlier thread - without overlapping [[Ask Seek Knock]] and [[Renewed Mind]].
+That covers prayer rhythm, Scripture use, worship, and people — the four lanes from our earlier thread — without overlapping [[Ask Seek Knock]] and [[Renewed Mind]].
 
 ---
 
@@ -1976,7 +1976,7 @@ That covers prayer rhythm, Scripture use, worship, and people - the four lanes f
 - `description`: third person, ≤20 words, no contractions  
 - `examples`: two different scenes (home + work/sports/clinic)  
 - `relationships`: tie **biography → command** (e.g. Withdraw to Pray `extends` Ask Seek Knock) and **faith → PKM** where it’s honest (Withdraw to Pray `extends` Deep Work)  
-- Under [[Free Grace]]: habits are **pattern to follow**, not merit ladder - same ground as [[Grateful Obedience]]
+- Under [[Free Grace]]: habits are **pattern to follow**, not merit ladder — same ground as [[Grateful Obedience]]
 
 If you want these drafted, switch to Agent mode and say which batch (hub only, first five, or full table).
 
@@ -1998,7 +1998,7 @@ Reviewing existing MOC templates and the garden-voice skill. The new note will b
 
 _**Agent (auto-low)**_
 
-Creating the `Jesus' Rhythms` hub note - I'll match your existing MOC pattern and garden-voice rules.
+Creating the `Jesus' Rhythms` hub note — I'll match your existing MOC pattern and garden-voice rules.
 
 
 _**Agent (auto-low)**_
@@ -2208,11 +2208,11 @@ _**Agent (auto-low)**_
 Created **[Jesus' Rhythms](/notes/jesus-rhythms/)** as a faith MOC (`note_kind: index`) focused on what the Gospels show Jesus doing day to day.
 
 **What it contains:**
-- **Teaching vs biography** - pairs with [Eternal Principles](/notes/eternal-principles/) (what He said vs what He did)
+- **Teaching vs biography** — pairs with [Eternal Principles](/notes/eternal-principles/) (what He said vs what He did)
 - **Five body sections:** prayer/solitude, Scripture, worship/Sabbath, people/compassion, Father's will
 - **Garden links** to existing notes ([Ask Seek Knock](/notes/ask-seek-knock/), [Secret Devotion](/notes/secret-devotion/), [Renewed Mind](/notes/renewed-mind/), [Discipleship](/notes/discipleship/), etc.)
 - **PKM cross-links table** (Deep Work, Habit Formation, Slow Productivity, etc.)
-- Grounded in [Free Grace](/notes/free-grace/) - patterns for imitation after faith, not a merit ladder
+- Grounded in [Free Grace](/notes/free-grace/) — patterns for imitation after faith, not a merit ladder
 
 **Also wired:** [Eternal Principles](/notes/eternal-principles/) now has a **Jesus' rhythms** section at the top and a `relationships` link back to the new hub.
 
@@ -2780,7 +2780,7 @@ The passing note abide-in-me confirms shareable_thought lines must be exact or s
 
 _**Agent (auto-low)**_
 
-Fixing `shareable_thought` fields to pass the linter - they must align with `description` and `key_concept`.
+Fixing `shareable_thought` fields to pass the linter — they must align with `description` and `key_concept`.
 
 
 _**Agent (auto-low)**_
@@ -3473,8 +3473,8 @@ Created **12 atomic notes** from the [Jesus' Rhythms](/notes/jesus-rhythms/) hub
 | [The Father's Food](/notes/the-fathers-food/) | John 4:34 |
 
 **Also updated:**
-- [Jesus' Rhythms](/notes/jesus-rhythms/) - body links to all atomic notes; drill filter noted
-- [Review](/notes/review/) and [Eternal Principles](/notes/eternal-principles/) - **Jesus Rhythms** added to filter lists
+- [Jesus' Rhythms](/notes/jesus-rhythms/) — body links to all atomic notes; drill filter noted
+- [Review](/notes/review/) and [Eternal Principles](/notes/eternal-principles/) — **Jesus Rhythms** added to filter lists
 
 Drill at [/notes/review/](/notes/review/) with filter **Jesus Rhythms**. Frontmatter and card lint pass; Hugo build succeeds.
 
@@ -3504,7 +3504,7 @@ The error is a slice bounds out of range [2865:2863]. This points to a bug in th
 
 _**Agent (auto-low)**_
 
-Investigating the Hugo template error in `assembled-content.html` - likely a bad slice on note content.
+Investigating the Hugo template error in `assembled-content.html` — likely a bad slice on note content.
 
 
 _**Agent (auto-low)**_
@@ -3847,7 +3847,7 @@ The panic is a slice bounds error inside Hugo 0.163's `RawContent` function itse
 
 The panic is an inverted slice `[2865:2863]`, suggesting a malformed or oversized frontmatter block. The `[[Jesus' Rhythms]]` wikilink is likely unrelated.
 
-UTF-8 multi-byte characters in frontmatter may be causing Hugo to miscalculate byte offsets. The `backlinks-index` partial is now suspected: it renders `assembled-content` for every note, and `jesus-rhythms`-which contains markdown tables and self-references-may be triggering the panic during index generation.
+UTF-8 multi-byte characters in frontmatter may be causing Hugo to miscalculate byte offsets. The `backlinks-index` partial is now suspected: it renders `assembled-content` for every note, and `jesus-rhythms`—which contains markdown tables and self-references—may be triggering the panic during index generation.
 
 The panic likely originates in `moved-with-compassion.md` itself, not `jesus-rhythms`. The `backlinks-index` partial processes every note when generating the index, which exposes the corrupted file. A workaround would be replacing `$page.RawContent` with `.File` or direct file reads.
 
@@ -4029,7 +4029,7 @@ Hugo templates lack `recover`, so a panic cannot be caught. The concrete replace
 
 The drafted fix now uses `splitn` to divide the raw file into three chunks at the `---` delimiter, then takes the third segment as the body. Whether Hugo supports `splitn` is still uncertain.
 
-Splitting on `---` risks breaking if YAML frontmatter contains that delimiter. A regex-based approach-matching the frontmatter block and extracting everything after the second `---`-would be safer.
+Splitting on `---` risks breaking if YAML frontmatter contains that delimiter. A regex-based approach—matching the frontmatter block and extracting everything after the second `---`—would be safer.
 
 \n---\s*\n(.*)$
 </details></think>
@@ -4645,7 +4645,7 @@ I need to identify genuine contradictions rather than filler. I'll examine exist
 
 _**Agent (auto-low)**_
 
-I'll fix the garden link issues - reading the affected notes and how similar notes handle `contradicts` relationships.
+I'll fix the garden link issues — reading the affected notes and how similar notes handle `contradicts` relationships.
 
 
 _**Agent (auto-low)**_
@@ -6026,10 +6026,10 @@ _**Agent (auto-low)**_
 All 13 garden link issues are resolved. The issues page now shows **0 affected notes**.
 
 **Unlinked mentions**
-- [Moved with Compassion](/notes/moved-with-compassion/) - `[[Deep Work]]` in example
-- [Pray Before You Choose](/notes/pray-before-you-choose/) - `[[Invest in the Few]]` in key_concept/examples; reworded description/shareable to drop alias-only “the twelve”
-- [Jesus' Rhythms](/notes/jesus-rhythms/) - `[[Atomic Notes]]` in key_concept
-- [Don't Copy the Pattern](/notes/dont-copy-the-pattern/) and [Renewed Mind](/notes/renewed-mind/) - reworded “opened Scripture” → “opened the Bible” (daily reading, not the [Opened Scripture](/notes/opened-scripture/) biography note)
+- [Moved with Compassion](/notes/moved-with-compassion/) — `[[Deep Work]]` in example
+- [Pray Before You Choose](/notes/pray-before-you-choose/) — `[[Invest in the Few]]` in key_concept/examples; reworded description/shareable to drop alias-only “the twelve”
+- [Jesus' Rhythms](/notes/jesus-rhythms/) — `[[Atomic Notes]]` in key_concept
+- [Don't Copy the Pattern](/notes/dont-copy-the-pattern/) and [Renewed Mind](/notes/renewed-mind/) — reworded “opened Scripture” → “opened the Bible” (daily reading, not the [Opened Scripture](/notes/opened-scripture/) biography note)
 
 **Missing `contradicts` rows** added on all 10 Jesus Rhythms atomic notes (e.g. Deep Work, There Is No Perfect Solution, Drafting in Public, First Principles Thinking, etc.)
 

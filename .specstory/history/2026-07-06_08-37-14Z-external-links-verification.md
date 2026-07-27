@@ -12,7 +12,7 @@ Running a full Alex Eala tracker update. External link verification will proceed
 
 _**Agent (auto-low)**_
 
-I'll audit the Alex Eala tracker links without hammering external sites-starting by reading the post and sampling URLs rather than checking every link.
+I'll audit the Alex Eala tracker links without hammering external sites—starting by reading the post and sampling URLs rather than checking every link.
 
 
 _**Agent (auto-low)**_
@@ -37,7 +37,7 @@ Verifying all external links are correct without overloading the sites.
 
 _**Agent (auto-low)**_
 
-Extracting URLs and running a rate-limited link check-sampling by domain to avoid overloading external sites.
+Extracting URLs and running a rate-limited link check—sampling by domain to avoid overloading external sites.
 
 
 _**Agent (auto-low)**_
@@ -433,7 +433,7 @@ Potential discrepancies were found between reference.md and the tracker file.
 
 _**Agent (auto-low)**_
 
-Found possible watch-list WTA ID mismatches vs reference.md - verifying those H2H links next.
+Found possible watch-list WTA ID mismatches vs reference.md — verifying those H2H links next.
 
 
 _**Agent (auto-low)**_
@@ -1400,17 +1400,17 @@ _**Agent (auto-low)**_
 | Watch-list WTA H2H IDs | 12 | All map to the right players |
 
 ### Fix applied
-- **Canberra 2025 semifinal** (l. Wei) was missing the dual `tennis.com` link - added `s-wei-vs-a-eala-2025-01-03` to match the other rounds in that run.
+- **Canberra 2025 semifinal** (l. Wei) was missing the dual `tennis.com` link — added `s-wei-vs-a-eala-2025-01-03` to match the other rounds in that run.
 - Bumped `lastmod` to `2026-07-06T08:52:00Z`.
 
 ### Verified correct (no changes)
-- All watch-list H2H IDs - including Emma Navarro (`325410`) and Qinwen Zheng (`328120`). Older IDs in `reference.md` (`329682`, `316772`) point at different players.
+- All watch-list H2H IDs — including Emma Navarro (`325410`) and Qinwen Zheng (`328120`). Older IDs in `reference.md` (`329682`, `316772`) point at different players.
 - Legacy `sr-tournament-*` tennis.com URLs in H2H sections still resolve.
 - Dubai WTA score URLs without a year in the path still work.
 - Doubles entries correctly use WTA-only links per the skill format.
 
 ### Not changed
-- No new results, rankings, or H2H updates - this was a link audit only.
+- No new results, rankings, or H2H updates — this was a link audit only.
 - `sr-tournament-*` H2H links left as-is; they work, and swapping to slug URLs would be cosmetic.
 
 **Note:** `reference.md` still lists wrong WTA IDs for Andreescu, Navarro, and Zheng. The tracker file has the correct ones. I can sync `reference.md` if you want.
@@ -1433,7 +1433,7 @@ Reading the current tracker file. Fetching WTA match data through targeted, dela
 
 _**Agent (auto-low)**_
 
-I'll refresh doubles and Grand Slam sections with a light touch on external sites-checking WTA/Tennis.com in small batches, not hammering every link.
+I'll refresh doubles and Grand Slam sections with a light touch on external sites—checking WTA/Tennis.com in small batches, not hammering every link.
 
 
 _**Agent (auto-low)**_
@@ -1459,7 +1459,7 @@ Result:
 
 ```json
 {
-  "markdown": "Alexandra Eala | Tennis.com\n\n# AlexandraEala\n\nCurrent Singles Ranking\n\n32\n\nCurrent Doubles Ranking\n\n126\n\n| Key Facts | Birth Date | May 23, 2005 (21) |\n| --- | --- | --- |\n| Height | - |\n| Plays | Left-Handed |\n| Year Turned Pro | - |\n\n| Player Ranking | Singles Ranking | 32 |\n| --- | --- | --- |\n| Singles Points | 1,436 |\n| Doubles Ranking | 126 |\n| Doubles Points | 661 |\n| Career High Singles Ranking | 70 |\n| Career High Doubles Ranking | 192 |",
+  "markdown": "Alexandra Eala | Tennis.com\n\n# AlexandraEala\n\nCurrent Singles Ranking\n\n32\n\nCurrent Doubles Ranking\n\n126\n\n| Key Facts | Birth Date | May 23, 2005 (21) |\n| --- | --- | --- |\n| Height | — |\n| Plays | Left-Handed |\n| Year Turned Pro | — |\n\n| Player Ranking | Singles Ranking | 32 |\n| --- | --- | --- |\n| Singles Points | 1,436 |\n| Doubles Ranking | 126 |\n| Doubles Points | 661 |\n| Career High Singles Ranking | 70 |\n| Career High Doubles Ranking | 192 |",
   "url": "https://www.tennis.com/players-rankings/alexandra-eala"
 }
 ```
@@ -1938,7 +1938,7 @@ Result:
   "isFinal": true,
   "references": [
     {
-      "chunk": "Links:\n1. [Alex Eala tops Maya Joint, reaches historic Wimbledon third round](https://sports.inquirer.net/684470/alex-eala-rallies-past-maya-joint-into-historic-wimbledon-third-round)\n2. [Eala Beats Joint to Reach Maiden Wimbledon Third Round | Global Tennis News](https://www.globaltennisnews.com/eala-beats-joint-to-reach-maiden-wimbledon-third-round/)\n3. [Video : Alexandra Eala defeats Maya Joint at Wimbledon 2026 – Round 2 • TennisTemple](https://en.tennistemple.com/video/alexandra-eala-defeats-maya-joint-at-wimbledon/EREtR)\n4. [Alexandra Eala vs Maya Joint live score, prediction (2026/07/02) - AiScore](https://m.aiscore.com/tennis/match-alexandra-eala-maya-joint/jr7o0uo4820sg70)\n5. [Alexandra Eala  2 - 1 Maya Joint (02/07) - Match Report](https://www.365scores.com/en-uk/tennis/match/wimbledon-women-280/alexandra-eala-maya-joint-68734-75237-280)\n\nSynthesis:\nAlexandra Eala defeated Maya Joint in the second round of the 2026 Wimbledon Championships with a score of 3-6, 6-2, 6-0 [1][2][3]. The match took place on July 2, 2026, on Court 3 and lasted one hour and 57 minutes [4][2][3].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eAlex Eala tops Maya Joint, reaches historic Wimbledon third round\u003c/title\u003e\n\u003curl\u003ehttps://sports.inquirer.net/684470/alex-eala-rallies-past-maya-joint-into-historic-wimbledon-third-round\u003c/url\u003e\n\u003ccontent\u003eAlex Eala tops Maya Joint, reaches historic Wimbledon third round\n...\n# Alex Eala rallies past Maya Joint into historic Wimbledon third round\n...\nINQUIRER.net/ 10:32 PM July 02, 2026\n...\nAlexandra Eala of the Philippines celebrates winning the second round women’s singles match against Maya Joint of Australia at the Wimbledon Tennis Championships in London, Thursday, July 2, 2026.(AP Photo/Kin Cheung)\n...\nMANILA, Philippines - Alex Eala continues to play her best tennis yet, making history with a breakthrough third-
+      "chunk": "Links:\n1. [Alex Eala tops Maya Joint, reaches historic Wimbledon third round](https://sports.inquirer.net/684470/alex-eala-rallies-past-maya-joint-into-historic-wimbledon-third-round)\n2. [Eala Beats Joint to Reach Maiden Wimbledon Third Round | Global Tennis News](https://www.globaltennisnews.com/eala-beats-joint-to-reach-maiden-wimbledon-third-round/)\n3. [Video : Alexandra Eala defeats Maya Joint at Wimbledon 2026 – Round 2 • TennisTemple](https://en.tennistemple.com/video/alexandra-eala-defeats-maya-joint-at-wimbledon/EREtR)\n4. [Alexandra Eala vs Maya Joint live score, prediction (2026/07/02) - AiScore](https://m.aiscore.com/tennis/match-alexandra-eala-maya-joint/jr7o0uo4820sg70)\n5. [Alexandra Eala  2 - 1 Maya Joint (02/07) - Match Report](https://www.365scores.com/en-uk/tennis/match/wimbledon-women-280/alexandra-eala-maya-joint-68734-75237-280)\n\nSynthesis:\nAlexandra Eala defeated Maya Joint in the second round of the 2026 Wimbledon Championships with a score of 3-6, 6-2, 6-0 [1][2][3]. The match took place on July 2, 2026, on Court 3 and lasted one hour and 57 minutes [4][2][3].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eAlex Eala tops Maya Joint, reaches historic Wimbledon third round\u003c/title\u003e\n\u003curl\u003ehttps://sports.inquirer.net/684470/alex-eala-rallies-past-maya-joint-into-historic-wimbledon-third-round\u003c/url\u003e\n\u003ccontent\u003eAlex Eala tops Maya Joint, reaches historic Wimbledon third round\n...\n# Alex Eala rallies past Maya Joint into historic Wimbledon third round\n...\nINQUIRER.net/ 10:32 PM July 02, 2026\n...\nAlexandra Eala of the Philippines celebrates winning the second round women’s singles match against Maya Joint of Australia at the Wimbledon Tennis Championships in London, Thursday, July 2, 2026.(AP Photo/Kin Cheung)\n...\nMANILA, Philippines — Alex Eala continues to play her best tennis yet, making history with a breakthrough third-
 … (output truncated)
 ```
 User decision: **accepted**
@@ -3837,7 +3837,7 @@ Result:
   "isFinal": true,
   "references": [
     {
-      "chunk": "Links:\n1. [Alex Eala beats defending champ Iga Swiatek to reach first major fourth round 🤍 | Wimbledon 2026](https://www.youtube.com/watch?v=f5KIDkHm4hs)\n2. [HISTORIC WIN! 🇵🇭 | Alexandra Eala vs Iga Swiatek | Extended Highlights | Wimbledon 2026](https://www.youtube.com/watch?v=KUVh-Jflv_Q)\n3. [Wimbledon 2026 highlights: Alexandra Eala vs Iga Swiatek - BBC Sport](https://www.bbc.co.uk/sport/tennis/videos/c862dy3e41xo)\n\nSynthesis:\nOfficial highlights of the Alexandra Eala versus Iga Swiatek match at Wimbledon 2026 are available on the Tennis Channel YouTube channel [1]. You can view these by searching for the video titled Alex Eala beats defending champ Iga Swiatek to reach first major fourth round on their channel [1]. Additionally, other highlight recaps and match coverage are available across various sports media platforms [2][3][4].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eAlex Eala beats defending champ Iga Swiatek to reach first major fourth round 🤍 | Wimbledon 2026\u003c/title\u003e\n\u003curl\u003ehttps://www.youtube.com/watch?v=f5KIDkHm4hs\u003c/url\u003e\n\u003ccontent\u003e# Alex Eala beats defending champ Iga Swiatek to reach first major fourth round 🤍 | Wimbledon 2026\n...\n- Channel: Tennis Channel\n- Length: 05:58\n- Views: 222.4K\n- Likes: 4.3K\n- Published: 2026-07-04T11:42:37-07:00\n- Category: Sports\n- Keywords: tennis, tennischannel, tennis channel, atp, atp tour, tennis tv, tennis highlights, tennis videos, best tennis videos, atp tennis videos, tennis live, tennis streams, tennis streaming, atp streams, best tennis shots, tennis interview, wta tennis, tennis press conference\n- Language: en\n...\nTennis Channel is the only 24-hour network dedicated to tennis: both sport and lifestyle. It’s the number one destination for breaking news, live scores, pop culture, entertainment, and travel-all to help fans stay on top of the game. \n\nGet the Tennis Channel App 
+      "chunk": "Links:\n1. [Alex Eala beats defending champ Iga Swiatek to reach first major fourth round 🤍 | Wimbledon 2026](https://www.youtube.com/watch?v=f5KIDkHm4hs)\n2. [HISTORIC WIN! 🇵🇭 | Alexandra Eala vs Iga Swiatek | Extended Highlights | Wimbledon 2026](https://www.youtube.com/watch?v=KUVh-Jflv_Q)\n3. [Wimbledon 2026 highlights: Alexandra Eala vs Iga Swiatek - BBC Sport](https://www.bbc.co.uk/sport/tennis/videos/c862dy3e41xo)\n\nSynthesis:\nOfficial highlights of the Alexandra Eala versus Iga Swiatek match at Wimbledon 2026 are available on the Tennis Channel YouTube channel [1]. You can view these by searching for the video titled Alex Eala beats defending champ Iga Swiatek to reach first major fourth round on their channel [1]. Additionally, other highlight recaps and match coverage are available across various sports media platforms [2][3][4].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eAlex Eala beats defending champ Iga Swiatek to reach first major fourth round 🤍 | Wimbledon 2026\u003c/title\u003e\n\u003curl\u003ehttps://www.youtube.com/watch?v=f5KIDkHm4hs\u003c/url\u003e\n\u003ccontent\u003e# Alex Eala beats defending champ Iga Swiatek to reach first major fourth round 🤍 | Wimbledon 2026\n...\n- Channel: Tennis Channel\n- Length: 05:58\n- Views: 222.4K\n- Likes: 4.3K\n- Published: 2026-07-04T11:42:37-07:00\n- Category: Sports\n- Keywords: tennis, tennischannel, tennis channel, atp, atp tour, tennis tv, tennis highlights, tennis videos, best tennis videos, atp tennis videos, tennis live, tennis streams, tennis streaming, atp streams, best tennis shots, tennis interview, wta tennis, tennis press conference\n- Language: en\n...\nTennis Channel is the only 24-hour network dedicated to tennis: both sport and lifestyle. It’s the number one destination for breaking news, live scores, pop culture, entertainment, and travel—all to help fans stay on top of the game. \n\nGet the Tennis Channel App 
 … (output truncated)
 ```
 User decision: **accepted**
@@ -4695,36 +4695,36 @@ _**Agent (auto-low)**_
 Tracker updated with minimal spot-checks (5 URLs, no bulk probing).
 
 ### At a glance
-- **Best Slam (singles):** Wimbledon 2026 - Round of 16 (was US Open 2025 R2)
+- **Best Slam (singles):** Wimbledon 2026 — Round of 16 (was US Open 2025 R2)
 - **Notable firsts:** added first Filipina in a Grand Slam second week (Wimbledon 2026)
 
-### Best Performances - Doubles
-- **Bad Homburg (WTA 500)** - QF with Venus Williams (exit); R16 win vs Harrison/Osborne on sub-bullet
+### Best Performances — Doubles
+- **Bad Homburg (WTA 500)** — QF with Venus Williams (exit); R16 win vs Harrison/Osborne on sub-bullet
 
-### Grand Slam - Singles
-- **Wimbledon 2026** - Round of 16 (R128–R32 complete; vs Paolini scheduled later today)
+### Grand Slam — Singles
+- **Wimbledon 2026** — Round of 16 (R128–R32 complete; vs Paolini scheduled later today)
   - WTA `LS72362772`–`LS72362774` + wimbledon.com `ws001`–`ws003`
   - Milestones: first Filipina Slam second week; upset defending champ Swiatek on Centre Court
-  - Embed: R2 Joint highlights (`ZwGElu9-ynk`, Bilyonaryo - Philippine broadcaster)
+  - Embed: R2 Joint highlights (`ZwGElu9-ynk`, Bilyonaryo — Philippine broadcaster)
 
-### Grand Slam - Doubles
-- **Wimbledon 2026** - R128 exit with Nikola Bartunkova vs Ostapenko/Kenin (6-3, 3-6, 1-6)
+### Grand Slam — Doubles
+- **Wimbledon 2026** — R128 exit with Nikola Bartunkova vs Ostapenko/Kenin (6-3, 3-6, 1-6)
   - wimbledon.com `wd001` verified; WTA `LD72362771` returns 200 (see flag below)
 
-### H2H - Iga Swiatek
-- **2026 Wimbledon - Win** (newest first) with tennis.com match link
-- Official Wimbledon extended highlights (`KUVh-Jflv_Q`) in H2H only - deduped from the tournament block
+### H2H — Iga Swiatek
+- **2026 Wimbledon — Win** (newest first) with tennis.com match link
+- Official Wimbledon extended highlights (`KUVh-Jflv_Q`) in H2H only — deduped from the tournament block
 
 ### Link audit (prior pass retained)
 - 187 tennis.com + 83 WTA/slam URLs OK; Canberra 2025 SF dual link fix kept
 
 ### Not added / unverified
-- **French Open 2026 doubles** - Eala/Mboko withdrew before R64; no main-draw round to log
-- **Wimbledon doubles WTA `LD72362771`** - page loads but SPA doesn’t expose opponent names in static HTML; wimbledon.com link is the stronger anchor
-- **Bad Homburg doubles** - no tennis.com match URLs found
-- **Paolini R16** - not played yet at update time; will need a follow-up after that result
+- **French Open 2026 doubles** — Eala/Mboko withdrew before R64; no main-draw round to log
+- **Wimbledon doubles WTA `LD72362771`** — page loads but SPA doesn’t expose opponent names in static HTML; wimbledon.com link is the stronger anchor
+- **Bad Homburg doubles** — no tennis.com match URLs found
+- **Paolini R16** — not played yet at update time; will need a follow-up after that result
 
-`lastmod` → `2026-07-06T09:10:00Z`. Not committed - say if you want that.
+`lastmod` → `2026-07-06T09:10:00Z`. Not committed — say if you want that.
 
 ---
 
@@ -5388,15 +5388,15 @@ Reformatted both sections to follow **Best Performances → Singles** as the tem
 
 ### What changed
 
-**Best Performances - Doubles**
+**Best Performances — Doubles**
 - Tournament headers no longer carry round + link (e.g. was `Bad Homburg - Quarterfinals (with Venus) | wta`)
 - All rounds are sub-bullets, exit-first, with scores where known
 - Added `(WTA tier, Surface)` on every entry; brand-free names (`Guangzhou`, `Warsaw`, etc.)
 
-**Grand Slam - Singles & Doubles**
+**Grand Slam — Singles & Doubles**
 - Year headings: `- 2026` (not bold)
 - Slam headers: `**Wimbledon**` only (exit round removed from header)
-- Round lines: `3rd Round, d. Swiatek 7-6(9), 6-2 | wta | slam site` - exit-first, with opponents/scores
+- Round lines: `3rd Round, d. Swiatek 7-6(9), 6-2 | wta | slam site` — exit-first, with opponents/scores
 - Doubles partner on each round line, not the header
 
 Also corrected opponents/scores while reformatting (e.g. FO 2026 → Jovic, FO 2025 → Arango, FO doubles → Appleton/Cavalle-Reimers / Danilovic/Potapova, Wimbledon 2025 doubles → Gleason/Martins).
@@ -5514,7 +5514,7 @@ _**Agent (auto-low)**_
 All doubles entries now follow your Bad Homburg pattern:
 
 - **Header:** `**Tournament (WTA tier, Surface) - with Partner Name**` (Grand Slams: `**Wimbledon - with Partner Name**`)
-- **Rounds:** exit-first sub-bullets with `d./l.`, opponent, score, and links - no `(with …)` on round lines
+- **Rounds:** exit-first sub-bullets with `d./l.`, opponent, score, and links — no `(with …)` on round lines
 
 Updated across Best Performances doubles (Abu Dhabi through Canberra) and Grand Slam doubles (Wimbledon, Australian Open, French Open). Bad Homburg was already correct.
 
@@ -5663,7 +5663,7 @@ Result:
   "isFinal": true,
   "references": [
     {
-      "chunk": "Links:\n1. [Alex Eala, Coco Gauff exit in Italian Open doubles quarterfinals](https://sports.inquirer.net/623775/alex-eala-coco-gauff-bow-out-in-italian-open-doubles-quarterfinals)\n2. [Doubles pair Coco Gauff and Alex Eala sail into the quarter-finals of the Italian Open](https://www.olympics.com/en/news/coco-gauff-alex-eala-into-quarter-finals-italian-open)\n3. [Alex Eala, Coco Gauff in sync, dominate Italian Open doubles opener](https://www.rappler.com/sports/tennis-results-alex-eala-coco-gauff-doubles-italian-open-may-10-2025/)\n4. [Alex Eala, Coco Gauff fall short of Italian Open doubles semis](https://www.rappler.com/sports/tennis-results-alex-eala-coco-gauff-doubles-italian-open-may-14-2025/)\n\nSynthesis:\nAt the 2025 Italian Open, Alex Eala and Coco Gauff reached the doubles quarterfinals [1][2].\n\nIn the round of 32, they defeated Alexandra Panova and Fanny Stollár 6-3, 6-1 [3]. In the round of 16, they beat Tyra Grant and Lisa Pigato 6-2, 6-3 [4][2]. They were eliminated in the quarterfinals by Sara Errani and Jasmine Paolini with a score of 5-7, 6-3, 7-10 [1][5].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eAlex Eala, Coco Gauff exit in Italian Open doubles quarterfinals\u003c/title\u003e\n\u003curl\u003ehttps://sports.inquirer.net/623775/alex-eala-coco-gauff-bow-out-in-italian-open-doubles-quarterfinals\u003c/url\u003e\n\u003ccontent\u003eAlex Eala, Coco Gauff exit in Italian Open doubles quarterfinals\n...\n# Alex Eala, Coco Gauff bow out in Italian Open doubles quarterfinals\n...\nThe Philippines’ Alex Eala and USA’s Coco Gauff move on to the Italian Open doubles quarterfinal round.–Photo from Tennis.com\n...\nMANILA, Philippines - Alex Eala and Coco Gauff kissed their Italian Open doubles campaign goodbye after falling to the defending champions in the quarterfinals.\n...\nFirst-time partners Gauff and Eala couldn’t capitalize on their first-set lead as Italians Sara Erran
+      "chunk": "Links:\n1. [Alex Eala, Coco Gauff exit in Italian Open doubles quarterfinals](https://sports.inquirer.net/623775/alex-eala-coco-gauff-bow-out-in-italian-open-doubles-quarterfinals)\n2. [Doubles pair Coco Gauff and Alex Eala sail into the quarter-finals of the Italian Open](https://www.olympics.com/en/news/coco-gauff-alex-eala-into-quarter-finals-italian-open)\n3. [Alex Eala, Coco Gauff in sync, dominate Italian Open doubles opener](https://www.rappler.com/sports/tennis-results-alex-eala-coco-gauff-doubles-italian-open-may-10-2025/)\n4. [Alex Eala, Coco Gauff fall short of Italian Open doubles semis](https://www.rappler.com/sports/tennis-results-alex-eala-coco-gauff-doubles-italian-open-may-14-2025/)\n\nSynthesis:\nAt the 2025 Italian Open, Alex Eala and Coco Gauff reached the doubles quarterfinals [1][2].\n\nIn the round of 32, they defeated Alexandra Panova and Fanny Stollár 6-3, 6-1 [3]. In the round of 16, they beat Tyra Grant and Lisa Pigato 6-2, 6-3 [4][2]. They were eliminated in the quarterfinals by Sara Errani and Jasmine Paolini with a score of 5-7, 6-3, 7-10 [1][5].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eAlex Eala, Coco Gauff exit in Italian Open doubles quarterfinals\u003c/title\u003e\n\u003curl\u003ehttps://sports.inquirer.net/623775/alex-eala-coco-gauff-bow-out-in-italian-open-doubles-quarterfinals\u003c/url\u003e\n\u003ccontent\u003eAlex Eala, Coco Gauff exit in Italian Open doubles quarterfinals\n...\n# Alex Eala, Coco Gauff bow out in Italian Open doubles quarterfinals\n...\nThe Philippines’ Alex Eala and USA’s Coco Gauff move on to the Italian Open doubles quarterfinal round.–Photo from Tennis.com\n...\nMANILA, Philippines — Alex Eala and Coco Gauff kissed their Italian Open doubles campaign goodbye after falling to the defending champions in the quarterfinals.\n...\nFirst-time partners Gauff and Eala couldn’t capitalize on their first-set lead as Italians Sara Erran
 … (output truncated)
 ```
 User decision: **accepted**
@@ -6983,7 +6983,7 @@ _**Agent (auto-low)**_
 
 All doubles entries now list every round played, exit-first, with opponents, scores, and WTA links.
 
-### Best Performances - added rounds
+### Best Performances — added rounds
 
 | Tournament | Rounds added |
 |---|---|
@@ -6998,7 +6998,7 @@ All doubles entries now list every round played, exit-first, with opponents, sco
 **Bad Homburg 2026** was already complete (QF + R16).
 
 ### Grand Slam doubles
-- **Australian Open 2026** - score added: l. Aoyama/Linette 6-7(3), 2-6, 3-6
+- **Australian Open 2026** — score added: l. Aoyama/Linette 6-7(3), 2-6, 3-6
 - Other GS doubles runs were already one- or two-round complete
 
 ### Notes
@@ -7035,8 +7035,8 @@ _**Agent (auto-low)**_
 
 Doubles sections are updated: every tournament run now lists all rounds played (exit-first), with opponents, scores, and WTA links where verified.
 
-**Best Performances** - filled in Abu Dhabi (3 rounds), Guangzhou (3), Rome (3), Ningbo (2), Canberra (3); scores added for Guadalajara and Warsaw (one main-draw match each on the WTA draw).
+**Best Performances** — filled in Abu Dhabi (3 rounds), Guangzhou (3), Rome (3), Ningbo (2), Canberra (3); scores added for Guadalajara and Warsaw (one main-draw match each on the WTA draw).
 
-**Grand Slam doubles** - Australian Open 2026 score added (`6-7(3), 2-6, 3-6` vs Aoyama/Linette); other slam doubles runs were already complete.
+**Grand Slam doubles** — Australian Open 2026 score added (`6-7(3), 2-6, 3-6` vs Aoyama/Linette); other slam doubles runs were already complete.
 
 Walkovers are marked `w/o` (Ningbo R16, Canberra QF). `lastmod` is `2026-07-06T09:40:00Z`. Not committed.

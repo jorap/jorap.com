@@ -1300,13 +1300,13 @@ Created two new notes and wired them into the garden.
 
 ### New notes
 
-**[[Discipleship vs Leadership]]** - the main distinction (patterned after [[Standing vs Fellowship]]):
-- **Discipleship** = vertical seat - who you follow upward (Christ, daily obedience after faith)
-- **Leadership** = horizontal seat - who looks to you for direction, pace, and care
-- Same person, two seats - running a room isn't following Jesus; a title doesn't cancel private obedience
+**[[Discipleship vs Leadership]]** — the main distinction (patterned after [[Standing vs Fellowship]]):
+- **Discipleship** = vertical seat — who you follow upward (Christ, daily obedience after faith)
+- **Leadership** = horizontal seat — who looks to you for direction, pace, and care
+- Same person, two seats — running a room isn't following Jesus; a title doesn't cancel private obedience
 - [[Servant Leadership]] overlaps but doesn't collapse the categories
 
-**[[Follow Christ, Then Lead]]** - bridge note for when the seats pull different ways:
+**[[Follow Christ, Then Lead]]** — bridge note for when the seats pull different ways:
 - Christ first, then lead from that footing
 - Connects to [[God Centered Design]], [[Ethical Leadership]], [[Seek the Kingdom First]]
 
@@ -1317,7 +1317,7 @@ Updated relationships on:
 - [[Great Commission]], [[Share What You Learn]], [[Integrity Without an Audience]], [[Ethical Leadership]]
 
 Updated hubs:
-- [[Eternal Principles]] - list item + PKM cross-link row
-- [[Workplace Principles]] - leadership section + source map row
+- [[Eternal Principles]] — list item + PKM cross-link row
+- [[Workplace Principles]] — leadership section + source map row
 
 Both new notes have `review: true` with six scenario flashcards in the Discipleship/Ethics decks.

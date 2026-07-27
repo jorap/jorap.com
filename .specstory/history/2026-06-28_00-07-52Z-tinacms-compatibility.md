@@ -426,9 +426,9 @@ TinaCMS supports Hugo through official documentation. The open-source frontend i
 
 _**Agent (default)**_
 
-Yes - **open-source TinaCMS can work with this site**, because it’s Hugo + markdown in `content/`, and Tina [documents Hugo support](https://tina.io/docs/frameworks/hugo) explicitly. You already have the pieces Tina expects: Hugo extended, Node/pnpm, and markdown frontmatter.
+Yes — **open-source TinaCMS can work with this site**, because it’s Hugo + markdown in `content/`, and Tina [documents Hugo support](https://tina.io/docs/frameworks/hugo) explicitly. You already have the pieces Tina expects: Hugo extended, Node/pnpm, and markdown frontmatter.
 
-What you have today is different: **Sveltia CMS** at `/admin`, wired through `static/admin/config.yml` and GitHub OAuth (see `docs/SVELTIA_CMS_SETUP.md`). That config only models **blog posts** in `content/english/blog` - not notes. There’s no `tina/` directory yet, though a disabled workflow once referenced `TINA_CLIENT_ID` / `TINA_TOKEN`, so Tina was probably considered before.
+What you have today is different: **Sveltia CMS** at `/admin`, wired through `static/admin/config.yml` and GitHub OAuth (see `docs/SVELTIA_CMS_SETUP.md`). That config only models **blog posts** in `content/english/blog` — not notes. There’s no `tina/` directory yet, though a disabled workflow once referenced `TINA_CLIENT_ID` / `TINA_TOKEN`, so Tina was probably considered before.
 
 ## How Tina would fit
 
@@ -440,7 +440,7 @@ What you have today is different: **Sveltia CMS** at `/admin`, wired through `st
 | Prod editing | GitHub OAuth via Cloudflare | TinaCloud (hosted) or [self-hosting](https://tina.io/docs/self-hosted/overview/) |
 | Build | `scripts/deployBuild.mjs` → Hugo | Add a Tina build step before Hugo |
 
-Local editing can run **fully OSS** (CLI + git-backed markdown). Production in-browser editing usually means TinaCloud or self-hosted auth - same class of tradeoff as Sveltia + your Cloudflare OAuth function.
+Local editing can run **fully OSS** (CLI + git-backed markdown). Production in-browser editing usually means TinaCloud or self-hosted auth — same class of tradeoff as Sveltia + your Cloudflare OAuth function.
 
 ## The real constraint: your notes, not Hugo
 
@@ -450,9 +450,9 @@ A file like `building-a-second-brain.md` is where effort lands:
 - `card_sets`, `review`, `aliases`, `featured`
 - Body wikilinks (`[[Capture]]`) and relationship tables
 
-Tina can model all of that in `tina/config.ts`, but it’s **manual schema work** - same problem you’d have extending Sveltia’s `config.yml`. Tina won’t auto-detect your flashcard frontmatter or Hugo shortcodes; shortcode/visual editing is weaker than for Next.js/Astro.
+Tina can model all of that in `tina/config.ts`, but it’s **manual schema work** — same problem you’d have extending Sveltia’s `config.yml`. Tina won’t auto-detect your flashcard frontmatter or Hugo shortcodes; shortcode/visual editing is weaker than for Next.js/Astro.
 
-Blog posts are the easy migration: title, slug, tags, markdown body - close to what Sveltia already defines.
+Blog posts are the easy migration: title, slug, tags, markdown body — close to what Sveltia already defines.
 
 ## Tina vs staying on Sveltia
 
@@ -464,7 +464,7 @@ Blog posts are the easy migration: title, slug, tags, markdown body - close to w
 
 **Sveltia wins if you want:**
 
-- Minimal churn - config.yml already works for blog
+- Minimal churn — config.yml already works for blog
 - No TinaCloud / self-host decision
 - No extra build step in `deployBuild.mjs`
 - GitHub OAuth you already run on Cloudflare
@@ -473,8 +473,8 @@ Blog posts are the easy migration: title, slug, tags, markdown body - close to w
 
 ## Practical verdict
 
-- **Can it work?** Yes - Hugo + markdown + your Node toolchain is compatible.
-- **Is it a drop-in replacement for Sveltia?** No - init, schema, build pipeline, and auth need a deliberate migration.
+- **Can it work?** Yes — Hugo + markdown + your Node toolchain is compatible.
+- **Is it a drop-in replacement for Sveltia?** No — init, schema, build pipeline, and auth need a deliberate migration.
 - **Worth it for this repo?** Mainly if you want Tina’s editing UX or modeling; for blog-only CMS, extending Sveltia (or adding a notes collection there) is less work than switching stacks.
 
 If you want to try it locally without committing:
@@ -487,7 +487,7 @@ npx tinacms dev -c "pnpm dev"
 
 Then open `http://localhost:1313/admin` and model one blog collection first before touching notes/cards.
 
-I can sketch a `tina/config.ts` for notes + flashcards, or extend Sveltia’s `config.yml` for the same frontmatter - say which direction you prefer.
+I can sketch a `tina/config.ts` for notes + flashcards, or extend Sveltia’s `config.yml` for the same frontmatter — say which direction you prefer.
 
 ---
 
@@ -1067,7 +1067,7 @@ pnpm add -D tinacms @tinacms/cli
 ```
 
 ### 2. pnpm blocked native builds
-`pnpm-workspace.yaml` had broken `allowBuilds` entries (`set this to true or false`), so esbuild and better-sqlite3 never built - Tina needs those.
+`pnpm-workspace.yaml` had broken `allowBuilds` entries (`set this to true or false`), so esbuild and better-sqlite3 never built — Tina needs those.
 
 That’s fixed now; `pnpm install` completes cleanly.
 
@@ -1080,7 +1080,7 @@ That’s fixed now; `pnpm install` completes cleanly.
 - Added `tina/config.ts` + `tina/collections/blog.ts` (mapped to `content/english/blog`)
 - Added `dev:tina` script and `.env.example`
 - Removed Tina’s stray `content/posts/hello-world.md`
-- Verified `pnpm run dev:tina` starts - Hugo on **http://localhost:1313/**, Tina admin at **http://localhost:1313/admin/index.html**
+- Verified `pnpm run dev:tina` starts — Hugo on **http://localhost:1313/**, Tina admin at **http://localhost:1313/admin/index.html**
 
 ### Run it
 
@@ -1088,7 +1088,7 @@ That’s fixed now; `pnpm install` completes cleanly.
 pnpm run dev:tina
 ```
 
-Open **http://localhost:1313/admin/index.html** (not bare `/admin/` - Tina’s path includes `index.html`).
+Open **http://localhost:1313/admin/index.html** (not bare `/admin/` — Tina’s path includes `index.html`).
 
 For production editing later, copy `.env.example` to `.env` and fill in credentials from [app.tina.io](https://app.tina.io).
 
@@ -1119,14 +1119,14 @@ _**Agent (default)**_
 
 _**Agent (default)**_
 
-Short answer: **what you have right now is local-only, not fully self-hosted production CMS** - and it’s **not TinaCloud** until you add credentials.
+Short answer: **what you have right now is local-only, not fully self-hosted production CMS** — and it’s **not TinaCloud** until you add credentials.
 
 Tina splits into three pieces:
 
 | Piece | What it is | Your setup |
 |--------|------------|------------|
-| **Editor (OSS)** | React admin UI, schema, local file writes | Installed - runs via `pnpm run dev:tina` |
-| **TinaCloud** | Tina’s hosted auth + API + git commits for live site editing | **Not configured** - empty `TINA_CLIENT_ID` / `TINA_TOKEN` |
+| **Editor (OSS)** | React admin UI, schema, local file writes | Installed — runs via `pnpm run dev:tina` |
+| **TinaCloud** | Tina’s hosted auth + API + git commits for live site editing | **Not configured** — empty `TINA_CLIENT_ID` / `TINA_TOKEN` |
 | **Self-hosted Tina** | You run Tina’s backend yourself | **Not set up** |
 
 ### What works today (no cloud)
@@ -1135,9 +1135,9 @@ Tina splits into three pieces:
 ### What doesn’t work yet (production)
 Editing on **www.jorap.com** needs a backend that authenticates you and commits to GitHub. Options:
 
-1. **TinaCloud** (hosted by Tina) - set `TINA_CLIENT_ID` + `TINA_TOKEN` from [app.tina.io](https://app.tina.io). Not self-hosted; free tier exists.
-2. **Self-hosted Tina** - you run Tina’s backend on your infra ([Tina self-hosting docs](https://tina.io/docs/self-hosted/overview/)). Fully yours; more ops work.
-3. **Your existing Sveltia setup** - already self-hosted in spirit: static admin + **your** Cloudflare GitHub OAuth function. No Tina involved.
+1. **TinaCloud** (hosted by Tina) — set `TINA_CLIENT_ID` + `TINA_TOKEN` from [app.tina.io](https://app.tina.io). Not self-hosted; free tier exists.
+2. **Self-hosted Tina** — you run Tina’s backend on your infra ([Tina self-hosting docs](https://tina.io/docs/self-hosted/overview/)). Fully yours; more ops work.
+3. **Your existing Sveltia setup** — already self-hosted in spirit: static admin + **your** Cloudflare GitHub OAuth function. No Tina involved.
 
 ### Compared to Sveltia
 Sveltia on your site is **self-hosted auth** (GitHub OAuth on Cloudflare) with **no third-party CMS backend**. Tina local dev is **fully local**. Tina production is **either TinaCloud or your own Tina backend** unless you only edit locally and push via git.
@@ -1422,7 +1422,7 @@ cd /home/jorap/Documents/GitHub/jorap.com && git show HEAD:static/admin/index.ht
 </head>
 
 <body>
-  <!-- Sveltia CMS: https://sveltiacms.app/ - drop-in replacement for Decap/Netlify CMS -->
+  <!-- Sveltia CMS: https://sveltiacms.app/ — drop-in replacement for Decap/Netlify CMS -->
   <script data-cfasync="false" src="https://unpkg.com/@sveltia/cms/dist/sveltia-cms.js"></script>
 </body>
 
@@ -1649,7 +1649,7 @@ Tina’s admin UI loads assets from **port 4001** (the Tina dev server). That on
 pnpm run dev:tina
 ```
 
-`pnpm dev` starts Hugo only - no Tina server - so you get a blank page or **“Failed loading TinaCMS assets”**.
+`pnpm dev` starts Hugo only — no Tina server — so you get a blank page or **“Failed loading TinaCMS assets”**.
 
 ### 2. `/admin` was Sveltia, then Tina overwrote it
 Tina init replaced `static/admin/index.html` (Sveltia) with a dev stub that points at `localhost:4001`. So `/admin` was neither working Tina nor your old Sveltia setup.
@@ -3864,7 +3864,7 @@ Preparing a comprehensive answer about Cloudflare deployment compatibility. Cont
 
 _**Agent (default)**_
 
-**No - not as the repo stands today.** A normal Cloudflare Pages deploy will **not** run TinaCMS. **Sveltia at `/admin` will** keep working.
+**No — not as the repo stands today.** A normal Cloudflare Pages deploy will **not** run TinaCMS. **Sveltia at `/admin` will** keep working.
 
 ### What Cloudflare deploys now
 
@@ -3876,18 +3876,18 @@ So on **www.jorap.com** you get:
 
 | URL | On Cloudflare today |
 |-----|---------------------|
-| `/admin/` | **Sveltia** - built, CSP + GitHub OAuth already wired |
-| `/tina-admin/` | **Nothing useful** - not built, not deployed |
+| `/admin/` | **Sveltia** — built, CSP + GitHub OAuth already wired |
+| `/tina-admin/` | **Nothing useful** — not built, not deployed |
 
 ### What Tina needs on Cloudflare (static Pages)
 
 Cloudflare Pages hosts **static files**. Tina’s production admin is a **static SPA** built at deploy time; saving content still needs a **backend** (usually **TinaCloud**, not your Pages site).
 
-1. **TinaCloud** - create a project at [app.tina.io](https://app.tina.io), connect `jorap/jorap.com`, get `TINA_CLIENT_ID` + `TINA_TOKEN`.
+1. **TinaCloud** — create a project at [app.tina.io](https://app.tina.io), connect `jorap/jorap.com`, get `TINA_CLIENT_ID` + `TINA_TOKEN`.
 2. **Cloudflare env vars** (Production + Preview): `TINA_CLIENT_ID`, `TINA_TOKEN`, `TINA_BRANCH` (e.g. `master`).
-3. **Build pipeline** - run `tinacms build` **before** Hugo, e.g. in `deployBuild.mjs` or a wrapper script.
-4. **Commit** `tina/tina-lock.json` (and your `tina/` config) - TinaCloud uses it to index your schema.
-5. **CSP** - add a `/tina-admin/*` block in `static/_headers` (like `/admin/*` for Sveltia) so the Tina bundle can load and call TinaCloud APIs.
+3. **Build pipeline** — run `tinacms build` **before** Hugo, e.g. in `deployBuild.mjs` or a wrapper script.
+4. **Commit** `tina/tina-lock.json` (and your `tina/` config) — TinaCloud uses it to index your schema.
+5. **CSP** — add a `/tina-admin/*` block in `static/_headers` (like `/admin/*` for Sveltia) so the Tina bundle can load and call TinaCloud APIs.
 
 Without TinaCloud (or **self-hosting** Tina’s backend on your own infra), the production admin UI can load but **won’t save to GitHub**.
 
@@ -3895,9 +3895,9 @@ Without TinaCloud (or **self-hosting** Tina’s backend on your own infra), the 
 
 **Not on Pages alone.** Pages is static hosting + optional Functions. Tina’s editorial API isn’t “drop in a static folder and it works.” Options:
 
-- **TinaCloud** (hosted backend) + static admin on Pages - usual path  
-- **Self-hosted Tina backend** on a server/Worker you operate - more ops  
-- **Edit locally** with `pnpm run dev:tina`, push via git - no production CMS
+- **TinaCloud** (hosted backend) + static admin on Pages — usual path  
+- **Self-hosted Tina backend** on a server/Worker you operate — more ops  
+- **Edit locally** with `pnpm run dev:tina`, push via git — no production CMS
 
 ### Bottom line
 
@@ -3905,7 +3905,7 @@ Without TinaCloud (or **self-hosting** Tina’s backend on your own infra), the 
 - **Sveltia on `/admin`: yes** (your existing setup)
 - **Tina on Cloudflare: yes, if** you add `tinacms build`, TinaCloud credentials, CSP for `/tina-admin/`, and commit `tina-lock.json`
 
-If you want Tina in production, the smallest change is wiring `tinacms build` into `deployBuild.mjs` and the Cloudflare env vars - I can do that once you have a TinaCloud project.
+If you want Tina in production, the smallest change is wiring `tinacms build` into `deployBuild.mjs` and the Cloudflare env vars — I can do that once you have a TinaCloud project.
 
 ---
 
@@ -3934,7 +3934,7 @@ The aborted shell task involved starting Tina and Hugo dev servers.
 
 _**Agent (default)**_
 
-The background `pnpm run dev:tina` session was stopped while we were fixing the `/admin` vs `/tina-admin` split and restarting servers - nothing is running from that task now.
+The background `pnpm run dev:tina` session was stopped while we were fixing the `/admin` vs `/tina-admin` split and restarting servers — nothing is running from that task now.
 
 **Where things landed:**
 - **Local Tina:** run `pnpm run dev:tina`, then open **http://localhost:1313/tina-admin/** (not `/admin/`).
@@ -3967,10 +3967,10 @@ Tina is **split**, not one thing:
 
 **Open source (you run it):**
 - The editor UI and schema (`tinacms`, `tina/config.ts`)
-- Local dev (`pnpm run dev:tina`) - edits land on your machine, no TinaCloud required
+- Local dev (`pnpm run dev:tina`) — edits land on your machine, no TinaCloud required
 
 **Not self-hosted by default (production editing):**
-- **TinaCloud** - Tina’s hosted backend for auth, content API, and GitHub commits when you save on the live site. That’s the usual production path.
+- **TinaCloud** — Tina’s hosted backend for auth, content API, and GitHub commits when you save on the live site. That’s the usual production path.
 
 **Fully self-hosted option:**
 - Tina also supports **self-hosting the backend** ([self-hosting docs](https://tina.io/docs/self-hosted/overview/)). You run their API/auth stack on your own server (or similar). More setup; you own the ops.
@@ -3979,7 +3979,7 @@ Tina is **split**, not one thing:
 - Sveltia = static admin + **your** Cloudflare GitHub OAuth. No third-party CMS backend.
 - Tina local = fully yours. Tina production = **TinaCloud by default**, or self-hosted if you build that out.
 
-So: **the CMS editor can be yours; the production save/auth layer is not automatically self-hosted** - that’s either TinaCloud or a self-hosted Tina backend you run yourself.
+So: **the CMS editor can be yours; the production save/auth layer is not automatically self-hosted** — that’s either TinaCloud or a self-hosted Tina backend you run yourself.
 
 ---
 
@@ -4090,7 +4090,7 @@ Result:
   "isFinal": true,
   "references": [
     {
-      "chunk": "Links:\n1. [Edge Runtime Does Not Work With TinaCMS Self Hosted.](https://github.com/tinacms/tinacms/issues/4363)\n2. [Cloudflare Workers | TinaCMS](https://tina.io/docs/tinacloud/deployment-options/cloudflare-workers)\n3. [Self-hosted alternative to Tina Cloud · tinacms tinacms · Discussion #3096 · GitHub](https://github.com/tinacms/tinacms/discussions/3096)\n4. [Self Hosted Manual Setup | TinaCMS](https://tina.io/docs/self-hosted/manual-setup)\n5. [Hugo support in Cloudflare Workers - support - HUGO](https://discourse.gohugo.io/t/hugo-support-in-cloudflare-workers/54866)\n\nSynthesis:\nSelf-hosted TinaCMS is not currently compatible with the Cloudflare Workers edge runtime [1]. The TinaCMS database client and GraphQL layer rely on Node.js-specific dependencies that the edge runtime environment cannot execute [1]. While TinaCMS works on Cloudflare Workers when using git-connected builds-where the CMS is built and deployed as static assets-the self-hosted backend requires a full Node.js server environment [2][3][4]. Hugo sites can be hosted on Workers, but they typically require a custom build script to handle the static site generation process before deployment [5][6].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eEdge Runtime Does Not Work With TinaCMS Self Hosted.\u003c/title\u003e\n\u003curl\u003ehttps://github.com/tinacms/tinacms/issues/4363\u003c/url\u003e\n\u003ccontent\u003eEdge Runtime Does Not Work With\n...\nCurrently you can use [the tina client](https://tina.io/docs/features/data-fetching/) (with Tina Cloud) in a cloudflare worker / edge runtime because it only depends on fetch but if you wan't to use [self hosted TinaCMS](https://tina.io/docs/self-hosted/overview/) you will need to add NodeJS dependencies that will not work in the Edge Runtime. \n \nThere are two pieces of work to get TinaCMS self hosted working with an an edge runtime. \n \n## 1. The database client and `@tin
+      "chunk": "Links:\n1. [Edge Runtime Does Not Work With TinaCMS Self Hosted.](https://github.com/tinacms/tinacms/issues/4363)\n2. [Cloudflare Workers | TinaCMS](https://tina.io/docs/tinacloud/deployment-options/cloudflare-workers)\n3. [Self-hosted alternative to Tina Cloud · tinacms tinacms · Discussion #3096 · GitHub](https://github.com/tinacms/tinacms/discussions/3096)\n4. [Self Hosted Manual Setup | TinaCMS](https://tina.io/docs/self-hosted/manual-setup)\n5. [Hugo support in Cloudflare Workers - support - HUGO](https://discourse.gohugo.io/t/hugo-support-in-cloudflare-workers/54866)\n\nSynthesis:\nSelf-hosted TinaCMS is not currently compatible with the Cloudflare Workers edge runtime [1]. The TinaCMS database client and GraphQL layer rely on Node.js-specific dependencies that the edge runtime environment cannot execute [1]. While TinaCMS works on Cloudflare Workers when using git-connected builds—where the CMS is built and deployed as static assets—the self-hosted backend requires a full Node.js server environment [2][3][4]. Hugo sites can be hosted on Workers, but they typically require a custom build script to handle the static site generation process before deployment [5][6].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eEdge Runtime Does Not Work With TinaCMS Self Hosted.\u003c/title\u003e\n\u003curl\u003ehttps://github.com/tinacms/tinacms/issues/4363\u003c/url\u003e\n\u003ccontent\u003eEdge Runtime Does Not Work With\n...\nCurrently you can use [the tina client](https://tina.io/docs/features/data-fetching/) (with Tina Cloud) in a cloudflare worker / edge runtime because it only depends on fetch but if you wan't to use [self hosted TinaCMS](https://tina.io/docs/self-hosted/overview/) you will need to add NodeJS dependencies that will not work in the Edge Runtime. \n \nThere are two pieces of work to get TinaCMS self hosted working with an an edge runtime. \n \n## 1. The database client and `@tin
 … (output truncated)
 ```
 User decision: **accepted**
@@ -4175,7 +4175,7 @@ npx @tinacms/cli@latest init backend
 
 That wires `pages/api/tina/[...routes].ts`, `tina/database.ts`, Git provider, DB adapter, and Auth.js. On a **Hugo-only** repo, use [manual setup](https://tina.io/docs/self-hosted/manual-setup) or init backend in a dedicated `cms-backend/` package.
 
-Deploy that app to **Vercel**, **Railway**, **Fly.io**, or similar - anywhere with **Node serverless or a long-lived Node process**.
+Deploy that app to **Vercel**, **Railway**, **Fly.io**, or similar — anywhere with **Node serverless or a long-lived Node process**.
 
 **2. Env vars on the backend host**
 
@@ -4192,7 +4192,7 @@ In `tina/config.ts`:
 ```ts
 export default defineConfig({
   contentApiUrlOverride: "https://tina-api.jorap.com/api/tina/gql",
-  authProvider: /* Auth.js or custom - see below */,
+  authProvider: /* Auth.js or custom — see below */,
   // ...
 });
 ```
@@ -4205,9 +4205,9 @@ In `deployBuild.mjs` (before Hugo):
 tinacms build
 ```
 
-Cloudflare env: no `TINA_CLIENT_ID` / `TINA_TOKEN` for TinaCloud - those are for hosted Tina only.
+Cloudflare env: no `TINA_CLIENT_ID` / `TINA_TOKEN` for TinaCloud — those are for hosted Tina only.
 
-**5. CSP** - extend `static/_headers` for `/tina-admin/*` to allow `connect-src` to your API origin (same idea as `/admin/*` for Sveltia).
+**5. CSP** — extend `static/_headers` for `/tina-admin/*` to allow `connect-src` to your API origin (same idea as `/admin/*` for Sveltia).
 
 **6. Commit** `tina/tina-lock.json` after local `tinacms dev`.
 
@@ -4215,13 +4215,13 @@ Cloudflare env: no `TINA_CLIENT_ID` / `TINA_TOKEN` for TinaCloud - those are for
 
 ### Auth: closest to “fully yours”
 
-**Option A - Auth.js (Tina default)**  
+**Option A — Auth.js (Tina default)**  
 Users log in through the Tina admin with email/credentials or OAuth via Auth.js. You operate auth; not TinaCloud.
 
-**Option B - Custom provider + your GitHub OAuth**  
-You already have GitHub OAuth at `/api/auth` on Cloudflare. Tina supports a [custom auth provider](https://tina.io/docs/reference/self-hosted/auth-provider/bring-your-own) that validates `Authorization` on the backend. That’s the most “like Sveltia” path, but you’d bridge Cloudflare OAuth tokens to the Tina backend - non-trivial, not a one-click setup.
+**Option B — Custom provider + your GitHub OAuth**  
+You already have GitHub OAuth at `/api/auth` on Cloudflare. Tina supports a [custom auth provider](https://tina.io/docs/reference/self-hosted/auth-provider/bring-your-own) that validates `Authorization` on the backend. That’s the most “like Sveltia” path, but you’d bridge Cloudflare OAuth tokens to the Tina backend — non-trivial, not a one-click setup.
 
-**Option C - Local only**  
+**Option C — Local only**  
 `TINA_PUBLIC_IS_LOCAL=true` + `LocalBackendAuthProvider()` for dev; production still needs real auth.
 
 ---
@@ -4230,10 +4230,10 @@ You already have GitHub OAuth at `/api/auth` on Cloudflare. Tina supports a [cus
 
 | Approach | Self-hosted? | Fits CF Pages Hugo? |
 |----------|--------------|---------------------|
-| **Sveltia** (what you have) | Yes - static admin + your CF OAuth | Yes |
+| **Sveltia** (what you have) | Yes — static admin + your CF OAuth | Yes |
 | **Tina local dev** | Yes | Local only |
 | **TinaCloud** | No (Tina hosts API) | Yes (static admin on Pages) |
-| **Tina self-hosted** | Yes - but **second Node service** | Hugo on Pages; API elsewhere |
+| **Tina self-hosted** | Yes — but **second Node service** | Hugo on Pages; API elsewhere |
 
 Fully self-hosted Tina is **real**, but for your stack it means **operating a Node API + DB cache**, not “everything on Cloudflare Pages.”
 
@@ -4375,7 +4375,7 @@ Result:
   "isFinal": true,
   "references": [
     {
-      "chunk": "Links:\n1. [avitorio/outstatic](https://github.com/avitorio/outstatic)\n2. [Payload CMS v3 vs Keystatic vs Outstatic 2026 - PkgPulse Guides](https://www.pkgpulse.com/guides/payload-cms-v3-vs-keystatic-vs-outstatic-headless-cms-2026)\n3. [9 best Git-based CMS platforms for your next project - LogRocket Blog](https://blog.logrocket.com/9-best-git-based-cms-platforms/)\n4. [README.md at main · estruyf/vscode-front-matter](https://github.com/estruyf/vscode-front-matter/blob/main/README.md)\n5. [Best Headless CMS SSG in 2026: Full Guide | Headless CMS](https://headlesscms.info/best-headless-cms/for-static-sites-generation)\n\nSynthesis:\nOutstatic is a git-based CMS specifically for Next.js that provides a visual dashboard to manage Markdown and MDX content, which is saved directly as commits to your GitHub repository [1][2]. It requires no database and features a Tiptap-based editor with AI completions [1][3]. Front Matter is a separate, open-source Visual Studio Code extension that acts as a headless CMS directly inside your editor [4][5]. It manages Markdown, front matter, and media for various static site generators like Hugo, Jekyll, and Next.js, allowing you to edit and preview content offline [6][7].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eavitorio/outstatic\u003c/title\u003e\n\u003curl\u003ehttps://github.com/avitorio/outstatic\u003c/url\u003e\n\u003ccontent\u003e# Repository: avitorio/outstatic\n...\nOutstatic - A Powerful CMS for Markdown. A dashboard to write, edit, and publish Markdown and MDX stored in your GitHub repository.\n...\n- Stars: 3114\n- Forks: 185\n- Watchers: 3114\n- Open issues: 10\n- Primary language: TypeScript\n- Languages: TypeScript (97.4%), MDX (1.1%), CSS (0.8%), JavaScript (0.7%)\n- License: Other (NOASSERTION)\n- Topics: blog, cms, nextjs, react, static-site-generator, typescript\n- Default branch: canary\n- Homepage: https://Outstatic.com\n- Created: 20
+      "chunk": "Links:\n1. [avitorio/outstatic](https://github.com/avitorio/outstatic)\n2. [Payload CMS v3 vs Keystatic vs Outstatic 2026 — PkgPulse Guides](https://www.pkgpulse.com/guides/payload-cms-v3-vs-keystatic-vs-outstatic-headless-cms-2026)\n3. [9 best Git-based CMS platforms for your next project - LogRocket Blog](https://blog.logrocket.com/9-best-git-based-cms-platforms/)\n4. [README.md at main · estruyf/vscode-front-matter](https://github.com/estruyf/vscode-front-matter/blob/main/README.md)\n5. [Best Headless CMS SSG in 2026: Full Guide | Headless CMS](https://headlesscms.info/best-headless-cms/for-static-sites-generation)\n\nSynthesis:\nOutstatic is a git-based CMS specifically for Next.js that provides a visual dashboard to manage Markdown and MDX content, which is saved directly as commits to your GitHub repository [1][2]. It requires no database and features a Tiptap-based editor with AI completions [1][3]. Front Matter is a separate, open-source Visual Studio Code extension that acts as a headless CMS directly inside your editor [4][5]. It manages Markdown, front matter, and media for various static site generators like Hugo, Jekyll, and Next.js, allowing you to edit and preview content offline [6][7].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eavitorio/outstatic\u003c/title\u003e\n\u003curl\u003ehttps://github.com/avitorio/outstatic\u003c/url\u003e\n\u003ccontent\u003e# Repository: avitorio/outstatic\n...\nOutstatic - A Powerful CMS for Markdown. A dashboard to write, edit, and publish Markdown and MDX stored in your GitHub repository.\n...\n- Stars: 3114\n- Forks: 185\n- Watchers: 3114\n- Open issues: 10\n- Primary language: TypeScript\n- Languages: TypeScript (97.4%), MDX (1.1%), CSS (0.8%), JavaScript (0.7%)\n- License: Other (NOASSERTION)\n- Topics: blog, cms, nextjs, react, static-site-generator, typescript\n- Default branch: canary\n- Homepage: https://Outstatic.com\n- Created: 20
 … (output truncated)
 ```
 User decision: **accepted**
@@ -4394,7 +4394,7 @@ Decap CMS is the official successor to Sveltia, though activity is low. Static C
 
 _**Agent (default)**_
 
-For **Sveltia’s niche** - git-backed, browser admin, markdown in repo, minimal backend - the landscape in 2026 is small. Many “alternatives” are either dead forks, different architectures, or paid.
+For **Sveltia’s niche** — git-backed, browser admin, markdown in repo, minimal backend — the landscape in 2026 is small. Many “alternatives” are either dead forks, different architectures, or paid.
 
 ## Same family (Decap-style, `config.yml`, static `/admin`)
 
@@ -4405,7 +4405,7 @@ For **Sveltia’s niche** - git-backed, browser admin, markdown in repo, minimal
 | **Static CMS** | **Dead** (discontinued ~Sept 2024) | Skip |
 | **Netlify CMS / Forestry** | **Dead** | Skip |
 
-If you want **drop-in like Sveltia**, there isn’t a clearly better active open-source peer - Sveltia is the main maintained rewrite. Decap is the fallback if you need npm-package parity, not momentum.
+If you want **drop-in like Sveltia**, there isn’t a clearly better active open-source peer — Sveltia is the main maintained rewrite. Decap is the fallback if you need npm-package parity, not momentum.
 
 ---
 
@@ -4413,10 +4413,10 @@ If you want **drop-in like Sveltia**, there isn’t a clearly better active open
 
 | Project | Status | Self-hosted on Cloudflare? | Fit for you |
 |---------|--------|----------------------------|-------------|
-| **[Pages CMS](https://pagescms.org/)** | **Very active** (releases through Apr 2026) | Hosted at pagescms.org **or** self-host (v2+ needs a DB) | Hugo-native; GitHub-only; not `config.yml` - own schema/UI |
+| **[Pages CMS](https://pagescms.org/)** | **Very active** (releases through Apr 2026) | Hosted at pagescms.org **or** self-host (v2+ needs a DB) | Hugo-native; GitHub-only; not `config.yml` — own schema/UI |
 | **[TinaCMS](https://tina.io/)** | **Very active** | Hugo admin on Pages **yes**; save/auth needs TinaCloud or your own Node API | Strong editor; not fully self-hosted on CF alone |
 | **[Keystatic](https://keystatic.com/)** | **Active** (Thinkmill, 2026 commits) | Local or GitHub mode; fits Astro/Next best | TS schemas, not Decap config; awkward for pure Hugo |
-| **[Outstatic](https://outstatic.com/)** | **Active** (Mar 2026) | Next.js app + GitHub API | **Not Hugo** - Next-only |
+| **[Outstatic](https://outstatic.com/)** | **Active** (Mar 2026) | Next.js app + GitHub API | **Not Hugo** — Next-only |
 
 ---
 
@@ -4433,7 +4433,7 @@ If you want **drop-in like Sveltia**, there isn’t a clearly better active open
 
 | Project | Status | Why different |
 |---------|--------|---------------|
-| **[Front Matter](https://frontmatter.codes/)** | Maintained, slow roadmap | VS Code only - not a web `/admin` for non-devs |
+| **[Front Matter](https://frontmatter.codes/)** | Maintained, slow roadmap | VS Code only — not a web `/admin` for non-devs |
 | **Obsidian + your scripts** | You already use this | Best for notes; not a site CMS |
 
 ---
@@ -4443,9 +4443,9 @@ If you want **drop-in like Sveltia**, there isn’t a clearly better active open
 Your stack (Hugo + Cloudflare + GitHub OAuth + `config.yml`) matches **Sveltia’s sweet spot** best.
 
 **Worth switching to if:**
-- **Pages CMS** - you want a modern hosted/self-hosted GitHub CMS and accept leaving `config.yml` (and maybe running their backend for self-host).
-- **Tina** - you want richer editing and accept TinaCloud or a second Node server.
-- **CloudCannon / Sitepins** - you’ll pay for polish and Hugo-specific UX (especially shortcodes).
+- **Pages CMS** — you want a modern hosted/self-hosted GitHub CMS and accept leaving `config.yml` (and maybe running their backend for self-host).
+- **Tina** — you want richer editing and accept TinaCloud or a second Node server.
+- **CloudCannon / Sitepins** — you’ll pay for polish and Hugo-specific UX (especially shortcodes).
 
 **Not worth it if:**
 - You need **fully self-hosted on Cloudflare Pages only** → stay on **Sveltia** (or Decap as a lateral move, not an upgrade).
@@ -4490,4 +4490,4 @@ To use Tina locally again:
 pnpm run dev:tina
 ```
 
-Then open **http://localhost:1313/tina-admin/** - Sveltia remains at **http://localhost:1313/admin/** when you use `pnpm dev`.
+Then open **http://localhost:1313/tina-admin/** — Sveltia remains at **http://localhost:1313/admin/** when you use `pnpm dev`.

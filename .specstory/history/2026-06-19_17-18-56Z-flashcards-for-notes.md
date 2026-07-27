@@ -372,7 +372,7 @@ Parameters:
   "caseInsensitive": false,
   "glob": "*.md",
   "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
-  "pattern": "^\\*\\*[^*]+\\*\\*\\s*(?:=|-|-)"
+  "pattern": "^\\*\\*[^*]+\\*\\*\\s*(?:=|—|-)"
 }
 ```
 Additional data:
@@ -382,7 +382,7 @@ Additional data:
   "isPruned": true,
   "outputMode": "content",
   "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
-  "pattern": "^\\*\\*[^*]+\\*\\*\\s*(?:=|-|-)",
+  "pattern": "^\\*\\*[^*]+\\*\\*\\s*(?:=|—|-)",
   "topFiles": [
     {
       "matchCount": 1,
@@ -831,7 +831,7 @@ from pathlib import Path
 
 NOTES_DIR = Path(&#34;content/english/notes&#34;)
 SKIP = {&#34;_index&#34;, &#34;graph&#34;, &#34;cards&#34;, &#34;random-two&#34;, &#34;random-three&#34;, &#34;getting-started&#34;, &#34;maps-of-content&#34;}
-LEAD_RE = re.compile(r&#34;^\*\*([^*]+)\*\*\s*(?:=\s*|-\s*|-\s*)(.+)$&#34;)
+LEAD_RE = re.compile(r&#34;^\*\*([^*]+)\*\*\s*(?:=\s*|—\s*|-\s*)(.+)$&#34;)
 
 def split_fm(text):
     if not text.startswith(&#34;---&#34;):
@@ -870,7 +870,7 @@ from pathlib import Path
 
 NOTES_DIR = Path("content/english/notes")
 SKIP = {"_index", "graph", "cards", "random-two", "random-three", "getting-started", "maps-of-content"}
-LEAD_RE = re.compile(r"^\*\*([^*]+)\*\*\s*(?:=\s*|-\s*|-\s*)(.+)$")
+LEAD_RE = re.compile(r"^\*\*([^*]+)\*\*\s*(?:=\s*|—\s*|-\s*)(.+)$")
 
 def split_fm(text):
     if not text.startswith("---"):
@@ -1240,7 +1240,7 @@ Each note already opens with a definition line like `**Term** = …`, which the 
 
 ### Result
 
-- **78 cards** on [/notes/cards/](https://www.jorap.com/notes/cards/) - 77 auto cards from note opening lines + 1 extra from the `card` shortcode in `spaced-repetition.md`
+- **78 cards** on [/notes/cards/](https://www.jorap.com/notes/cards/) — 77 auto cards from note opening lines + 1 extra from the `card` shortcode in `spaced-repetition.md`
 - **Anki export** regenerated at `static/exports/jorap-notes-anki.txt` (run `npm run export:anki` anytime)
 - **New notes** default to `review: true` in the archetype
 

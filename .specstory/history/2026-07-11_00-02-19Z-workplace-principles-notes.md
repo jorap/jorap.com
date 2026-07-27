@@ -2303,11 +2303,11 @@ Stripped Bible verses from all **12 workplace notes** that still had `{{< bible 
 - "Father who sees in secret" / parable-Jesus lines → plain stewardship language
 - "Scripture open" in cards → removed
 
-**Pattern preserved:** each note still wikilinks to its gospel source (e.g. `[[The Golden Rule]]`, `[[Faithful Steward]]`) via the source map - corporate room gets plain claims, faith depth stays one click away.
+**Pattern preserved:** each note still wikilinks to its gospel source (e.g. `[[The Golden Rule]]`, `[[Faithful Steward]]`) via the source map — corporate room gets plain claims, faith depth stays one click away.
 
 **Guardrails added:**
 - `garden-voice` skill documents the Workplace lane (no verses in frontmatter)
 - `garden-voice-lint.py` exempts `Workplace`-tagged notes from the faith-verse requirement
 - Added `Workplace` tag to Follow Christ, Then Lead and Steward After the Win for consistency
 
-Gospel source notes (`[[Forgiveness]]`, `[[By Their Fruits]]`, etc.) are unchanged - they still carry scripture by design.
+Gospel source notes (`[[Forgiveness]]`, `[[By Their Fruits]]`, etc.) are unchanged — they still carry scripture by design.

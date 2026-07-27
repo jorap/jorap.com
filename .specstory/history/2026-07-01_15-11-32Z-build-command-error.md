@@ -445,7 +445,7 @@ Only export-okf-bundle.py line 385 uses yaml.safe_load. I will add a parse_displ
 
 _**Agent (auto-low)**_
 
-Removing the PyYAML dependency from the deploy script - `yaml.safe_load` is only used once, and the script already has regex parsers for most frontmatter.
+Removing the PyYAML dependency from the deploy script — `yaml.safe_load` is only used once, and the script already has regex parsers for most frontmatter.
 
 
 _**Agent (auto-low)**_
@@ -524,4 +524,4 @@ Verified locally:
 - `python3 scripts/export-okf-bundle.py` completes (209 concepts, 6 hubs)
 - Parser self-check passes on a note with block scalars and relationship lists
 
-Push this change and the deploy should get past that step. Other dev scripts (`lint-notes-frontmatter.py`, etc.) still use PyYAML locally - only the deploy path needed fixing.
+Push this change and the deploy should get past that step. Other dev scripts (`lint-notes-frontmatter.py`, etc.) still use PyYAML locally — only the deploy path needed fixing.

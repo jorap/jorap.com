@@ -430,13 +430,13 @@ Updated the garden notes guidance so faith-lane doctrine is explicitly GSOT-grou
 - New **Theological source (faith notes)** block under **Two registers**:
   - JoRap voice for gloss and examples
   - Doctrine from an experienced **Grace School of Theology** theologian (free grace: faith alone for eternal life; works for discipleship/rewards, not merit)
-  - No improvised or generic evangelical theology - check GSOT resources (Grace Theology Press, curriculum) when uncertain
+  - No improvised or generic evangelical theology — check GSOT resources (Grace Theology Press, curriculum) when uncertain
 - Cross-reference under **Faith notes need a Bible verse**
 - New voice-check item: doctrine aligns with GSOT free grace
 
-**`.cursor/skills/garden-voice/examples.md`** - one-line reminder in the Faith section
+**`.cursor/skills/garden-voice/examples.md`** — one-line reminder in the Faith section
 
-**`.cursor/skills/flashcards/SKILL.md`** - Gospel cards inherit doctrine from the parent note via the same rule
+**`.cursor/skills/flashcards/SKILL.md`** — Gospel cards inherit doctrine from the parent note via the same rule
 
 The split stays: **how** it reads = JoRap; **what** it teaches on faith topics = GSOT free grace.
 
@@ -1145,3 +1145,657 @@ _**Agent (auto-low)**_
 <summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/sabbath-for-good.md</summary>
 
 </details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Planning 20 new notes with clear interconnectivity.
+
+Identifying 15 existing faith note titles and 7 non-faith topics to fill.
+
+Expanding the non-faith gap list to include Documentation Debt, ScCreep, Trust But Verify, Calibrate Your Models, Decision Log, Teaching as Learning, Batch Similar Work, and Clear Ownership. Now grepping the existing database to verify which titles are actually absent.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "content/english/notes/*.md",
+  "pattern": "^title:.*(Count|Walk by|Bearing|Confess|Daily Bread|Guard|Iron|Premortem|Decision Log|Scope|Batch|Triage|Progressive|Pre-mortem|Come to Me|Spiritual Gift|One Another|Test Everything)"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "^title:.*(Count|Walk by|Bearing|Confess|Daily Bread|Guard|Iron|Premortem|Decision Log|Scope|Batch|Triage|Progressive|Pre-mortem|Come to Me|Spiritual Gift|One Another|Test Everything)",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/static-site-client-scope.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/expect-the-counter.md"
+    }
+  ],
+  "totalFiles": 2,
+  "totalMatches": 2
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/grateful-obedience.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "data/scripture-nasb1995.json",
+  "pattern": "Matthew 6:11|Galatians 6:2|1 Thessalonians 5:17"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "Matthew 6:11|Galatians 6:2|1 Thessalonians 5:17",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Checking the bible shortcode format and available verses.
+
+Planning a "Walking Together" cluster linking faith and PKM. Drafting six faith notes with bible references covering burdens, spiritual walk, cost, daily bread, confession, and sharpening iron.
+
+Adding seven more faith notes to the cluster. References cover Matthew 11:28-30, Proverbs 4:23, 1 Corinthians 12, Ephesians 4:29, 1 John 4:1, and 1 Thessalonians 5:17. Topics include sustainable performance, emotional regulation, specialization, composure, critical thinking, and habit stacking.
+
+Adding two more faith notes: faithful attention to detail and holding fast the confession. Mapping ten non-faith notes to pair with the faith cluster, including decision pre-mortems, pair accountability, energy budgets, input filtering, role clarity, and constructive feedback.
+
+Completing the non-faith note list with source skepticism, micro habits, trust the process, and load sharing. Verifying none of these already exist.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "content/english/notes/*.md",
+  "pattern": "^title:.*(Bear|Walk by|Count the|Daily Bread|Confess to|Iron Sharp|Come to Me|Guard Your|One Body|Build Up|Test the|Pray Without|Faithful in Little|Pre-mortem|Energy Budget|Role Clarity|Constructive|Load Shar|Micro Habit|Source Skeptic|Decision Pre)"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "^title:.*(Bear|Walk by|Count the|Daily Bread|Confess to|Iron Sharp|Come to Me|Guard Your|One Body|Build Up|Test the|Pray Without|Faithful in Little|Pre-mortem|Energy Budget|Role Clarity|Constructive|Load Shar|Micro Habit|Source Skeptic|Decision Pre)",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "content/english/notes/*.md",
+  "pattern": "^title:.*(Premortem|Pre Mortem|Triage|Definition of Done|Teaching Loop|Batch Work|Ownership|Calibration)"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "^title:.*(Premortem|Pre Mortem|Triage|Definition of Done|Teaching Loop|Batch Work|Ownership|Calibration)",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The topics are not yet present.
+
+I'll use the Level 1-5 structure for consistency across all 20 notes. The bible shortcode will use the reference format with emphasis.
+
+Verifying that the selected verses exist in the scripture data.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/data/scripture-nasb1995.json",
+  "pattern": "\"Galatians 6:2\"|\"Luke 14:28\"|\"Matthew 6:11\"|\"James 5:16\"|\"Proverbs 27:17\"|\"Matthew 11:28\"|\"Proverbs 4:23\"|\"1 Corinthians 12:12\"|\"Ephesians 4:29\"|\"1 John 4:1\"|\"1 Thessalonians 5:17\"|\"Luke 16:10\""
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/data/scripture-nasb1995.json",
+  "pattern": "\"Galatians 6:2\"|\"Luke 14:28\"|\"Matthew 6:11\"|\"James 5:16\"|\"Proverbs 27:17\"|\"Matthew 11:28\"|\"Proverbs 4:23\"|\"1 Corinthians 12:12\"|\"Ephesians 4:29\"|\"1 John 4:1\"|\"1 Thessalonians 5:17\"|\"Luke 16:10\"",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "data/scripture-nasb1995.json"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/patience.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Twenty notes will follow a cohesive theme about discipleship in community and systems that support you.
+
+Each faith note pairs with a non-faith note. Examples include "Bear One Another's Burdens" and "Load Sharing on Teams," plus "Walk by the Spirit" and "Default to the Process."
+
+Pairs nine and ten are "One Body Many Parts" and "Role Clarity," plus "Words That Build Up" and "Constructive Feedback." Non-faith names are being refined to avoid overlap with existing concepts.
+
+Non-faith names are now set. "Pair Accountability" and "Sharpen the Draft" reuse existing concepts. "Recovery Blocks," "Input Gatekeeping," "Role Clarity," and "Feedback That Lands" are new. The existing accountability note is being checked.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/accountability.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/energy-protects-judgment.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+A cohesive cluster of ten faith notes and ten non-faith notes will be created.
+
+Non-faith parallels are being mapped to each faith note. Shared load on teams, cadence over crusade, pre-mortem before commit, today's capacity cap, honest status updates, peer review ritual, scheduled recovery, and filter before you feed are among the connections.
+
+The last two non-faith parallels are set: clear lane ownership and feedback that helps. Titles are being trimmed to four-word garden-style names.
+
+The final five non-faith parallels are now set: share the heavy lift, follow the rhythm, run a pre-mortem, cap today’s commitments, surface bad news early, sharpen each other’s work, block recovery time, and gate what you consume. The last faith note is also finalized.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "content/english/notes/*.md",
+  "pattern": "^title:.*(Know Your|Pre-mortem|Pre Mortem|Share the Heavy|Gate What|Block Recovery|Surface Bad|Sharpen Each|Cap Today|Follow the Rhythm|Give Useful)"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "^title:.*(Know Your|Pre-mortem|Pre Mortem|Share the Heavy|Gate What|Block Recovery|Surface Bad|Sharpen Each|Cap Today|Follow the Rhythm|Give Useful)",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+I'll create 20 notes: 10 faith and 10 non-faith, all well connected.
+
+I'll batch-write the files directly. Each note gets standard frontmatter with faith or non-faith categories, tags, and cross-links to existing notes. Most new notes will have review: false to avoid overwhelming the flashcard deck.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "content/english/notes/*.md",
+  "pattern": "review: false"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "review: false",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/review.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+All 20 new notes will have review: false to keep the scope manageable.
+
+The 20 new notes will be tightly cross-linked. Each faith note will connect to its paired non-faith note and existing graph nodes. Each non-faith note will connect to its paired faith note and existing graph nodes.
+
+Six faith and non-faith pairs are mapped out. Topics include psychological safety, habit formation, decision quality, daily bread, confession, and deliberate practice.
+
+Four more faith and non-faith pairs are now mapped. Topics include recovery time, guarding the heart, specialization, and building up with words. Notes will also link within their faith clusters where natural. I am ready to write the files.
+
+Bible shortcodes and GSOT theology reminders are being integrated into the faith notes. Slugs will use kebab-case. The first ten faith note titles are finalized. The non-faith list is starting.
+
+The second batch of ten non-faith note titles is now set. All twenty titles are finalized. Compact frontmatter matching garden voice standards will be used.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Creating a connected 20-note cluster: ten faith notes paired with ten PKM/leadership notes, cross-linked to each other and the existing graph.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/bear-each-others-burdens.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/share-the-heavy-lift.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/walk-by-the-spirit.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/follow-the-rhythm.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Proceeding with the next six pairs.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/count-the-cost.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/run-a-pre-mortem.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/trust-god-for-today.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/cap-todays-commitments.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Proceeding with pairs 5 through 10.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/confess-to-one-another.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/surface-bad-news-early.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/iron-sharpens-iron.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/sharpen-each-others-work.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The last three note pairs are:
+- Come to me weary / block recovery time
+- Guard your heart / gate what you consume
+- Many parts one body / know your lane
+- Words that build up / give useful feedback
+
+Eight more files remain to reach twenty total.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/come-to-me-weary.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/block-recovery-time.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/guard-your-heart.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/gate-what-you-consume.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The last four notes are: many-parts-one-body, know-your-lane, words-that-build-up, and give-useful-feedback.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/many-parts-one-body.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/know-your-lane.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/words-that-build-up.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/give-useful-feedback.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Created 20 well-connected notes: 10 faith and 10 non-faith.
+
+Running date scripts and linters on the new notes. Checking Hugo builds for broken wikilinks.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Running garden lint and checking for broken links.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; node scripts/noteFileDates.js 2&gt;&amp;1 | tail -3</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && node scripts/noteFileDates.js 2>&1 | tail -3
+```
+
+```
+✅ Note file dates written: /home/jorap/Documents/GitHub/jorap.com/data/noteFileDates.json (282 notes)
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm lint:voice 2&gt;&amp;1 | rg -i &#34;bear-each|share-the-heavy|walk-by|follow-the|count-the-cost|run-a-pre|trust-god|cap-today|confess-to|surface-bad|iron-sharp|sharpen-each|come-to-me|block-recovery|guard-your|gate-what|many-parts|know-your|words-that|give-useful&#34; || echo &#34;No voice hits on new notes&#34;</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:voice 2>&1 | rg -i "bear-each|share-the-heavy|walk-by|follow-the|count-the-cost|run-a-pre|trust-god|cap-today|confess-to|surface-bad|iron-sharp|sharpen-each|come-to-me|block-recovery|guard-your|gate-what|many-parts|know-your|words-that|give-useful" || echo "No voice hits on new notes"
+```
+
+```
+No voice hits on new notes
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; hugo --gc 2&gt;&amp;1 | rg -i &#34;bear-each|share-the-heavy|walk-by|follow-the|count-the-cost|run-a-pre|trust-god|cap-today|confess-to|surface-bad|iron-sharp|sharpen-each|come-to-me|block-recovery|guard-your|gate-what|many-parts|know-your|words-that|give-useful|broken wikilink|unlinked&#34; | head -40</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && hugo --gc 2>&1 | rg -i "bear-each|share-the-heavy|walk-by|follow-the|count-the-cost|run-a-pre|trust-god|cap-today|confess-to|surface-bad|iron-sharp|sharpen-each|come-to-me|block-recovery|guard-your|gate-what|many-parts|know-your|words-that|give-useful|broken wikilink|unlinked" | head -40
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Hugo exited with code 1 and produced no output from ripgrep. I will check the broader Hugo output.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; hugo --gc 2&gt;&amp;1 | tail -20</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && hugo --gc 2>&1 | tail -20
+```
+
+```
+Start building sites … 
+hugo v0.163.3-4d22555aebf458d5d150500c9ac4bee5b24cf0d3+extended linux/amd64 BuildDate=2026-06-18T16:18:24Z VendorInfo=gohugoio
+
+
+                  │  EN  
+──────────────────┼──────
+ Pages            │ 2207 
+ Paginator pages  │   29 
+ Non-page files   │    0 
+ Static files     │  295 
+ Processed images │  517 
+ Aliases          │  856 
+ Cleaned          │    0 
+
+Total in 28698 ms
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm lint:slop --notes-only 2&gt;&amp;1 | rg -i &#34;bear-each|share-the-heavy|walk-by|follow-the|count-the-cost|run-a-pre|trust-god|cap-today|confess-to|surface-bad|iron-sharp|sharpen-each|come-to-me|block-recovery|guard-your|gate-what|many-parts|know-your|words-that|give-useful&#34; || echo &#34;No slop hits on new notes&#34;</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:slop --notes-only 2>&1 | rg -i "bear-each|share-the-heavy|walk-by|follow-the|count-the-cost|run-a-pre|trust-god|cap-today|confess-to|surface-bad|iron-sharp|sharpen-each|come-to-me|block-recovery|guard-your|gate-what|many-parts|know-your|words-that|give-useful" || echo "No slop hits on new notes"
+```
+
+```
+No slop hits on new notes
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The Hugo build succeeded and all lints passed.
+
+Ten faith and ten non-faith notes are ready. Titles are four words each. Notes connect through paired links and existing graph nodes. Flashcard reviews are disabled.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Created **20 new notes** as a paired cluster — each faith note has a non-faith twin linked via `relationships`, and both sides tie into existing garden notes (`Free Grace`, `Psychological Safety`, `Energy Protects Judgment`, etc.).
+
+### Faith notes (10)
+| Note | Scripture anchor | Paired non-faith note |
+|------|------------------|----------------------|
+| [Bear Each Other's Burdens](content/english/notes/bear-each-others-burdens.md) | Galatians 6:2 | Share the Heavy Lift |
+| [Walk by the Spirit](content/english/notes/walk-by-the-spirit.md) | Galatians 5:16 | Follow the Rhythm |
+| [Count the Cost](content/english/notes/count-the-cost.md) | Luke 14:28 | Run a Pre-mortem |
+| [Trust God for Today](content/english/notes/trust-god-for-today.md) | Matthew 6:11 | Cap Today's Commitments |
+| [Confess to One Another](content/english/notes/confess-to-one-another.md) | James 5:16 | Surface Bad News Early |
+| [Iron Sharpens Iron](content/english/notes/iron-sharpens-iron.md) | Proverbs 27:17 | Sharpen Each Other's Work |
+| [Come to Me Weary](content/english/notes/come-to-me-weary.md) | Matthew 11:28 | Block Recovery Time |
+| [Guard Your Heart](content/english/notes/guard-your-heart.md) | Proverbs 4:23 | Gate What You Consume |
+| [Many Parts One Body](content/english/notes/many-parts-one-body.md) | 1 Corinthians 12:12 | Know Your Lane |
+| [Words That Build Up](content/english/notes/words-that-build-up.md) | Ephesians 4:29 | Give Useful Feedback |
+
+### Non-faith notes (10)
+All live under `content/english/notes/` with slugs matching the table above (`share-the-heavy-lift.md`, `follow-the-rhythm.md`, etc.).
+
+### How they connect
+- **Within the cluster:** each pair uses `type: alternative` to mirror the same idea across faith and work/PKM lanes.
+- **To the existing graph:** each note has 4–5 `relationships` into spine notes like `Free Grace`, `Standing vs Fellowship`, `Psychological Safety`, `Deliberate Practice`, and `Information Diet`.
+- **Doctrine:** faith notes follow GSOT free grace (gift by faith; works for discipleship/rewards, not merit).
+
+Hugo build, voice lint, and slop lint all pass. Notes are `review: false` (no flashcards yet). Say if you want cards enabled on any of these.
+
+## Session close
+- Fixed: Added 20 interconnected garden notes (10 faith + 10 non-faith) in a paired cluster with cross-links to the existing graph.
+- Encode: none
+- Open: clean

@@ -53,7 +53,7 @@ Result:
           },
           {
             "lineNumber": 3,
-            "text": "  \"description\": \"JoRap Notes - personal blog and portfolio (Hugo + Tailwind).\","
+            "text": "  \"description\": \"JoRap Notes — personal blog and portfolio (Hugo + Tailwind).\","
           },
           {
             "lineNumber": 4,
@@ -1242,7 +1242,7 @@ Result:
           },
           {
             "lineNumber": 2,
-            "text": "  Random garden note - blog posts (scope blog) or note pages (scope notes)."
+            "text": "  Random garden note — blog posts (scope blog) or note pages (scope notes)."
           },
           {
             "lineNumber": 3,
@@ -1578,7 +1578,7 @@ cd /home/jorap/Documents/GitHub/jorap.com && git show HEAD:content/english/notes
 ---
 title: "Build a Reliable Default"
 meta_title: "Build a Reliable Default - What You Do When There's No Time"
-description: "Under pressure you fall back on what's most practiced - make that fallback simple and dependable."
+description: "Under pressure you fall back on what's most practiced — make that fallback simple and dependable."
 date: 2026-06-22T08:00:00Z
 image: "/images/note.jpg"
 categories: ["Ideas", "Leadership", "Tips"]
@@ -1832,7 +1832,7 @@ Run `hugo list future` and `hugo list drafts` to audit content before deploying.
 
 _**Agent (default)**_
 
-Yes - and the gap usually comes from **how local dev builds** vs **how production builds**, not from Hugo “losing” files.
+Yes — and the gap usually comes from **how local dev builds** vs **how production builds**, not from Hugo “losing” files.
 
 I checked your repo and live site. Here’s what’s going on.
 
@@ -1863,11 +1863,11 @@ I confirmed on live:
 
 About **39 notes** are scheduled for `2026-06-22T08:00:00Z`. At ~07:11 UTC they’re still “in the future” for Hugo’s production build. Locally, `--buildFuture` shows them anyway.
 
-After 08:00 UTC they still **won’t appear on live automatically** unless Cloudflare Pages runs a **new build** (push, manual retry, etc.). Hugo is static - there’s no midnight cron in the deploy pipeline.
+After 08:00 UTC they still **won’t appear on live automatically** unless Cloudflare Pages runs a **new build** (push, manual retry, etc.). Hugo is static — there’s no midnight cron in the deploy pipeline.
 
 ### 3. Unpushed / undeployed commits
 
-Live only reflects what Cloudflare built from the last successful deploy. Your tree is currently synced with `origin` at `b15c67c`, so this isn’t the issue today - but it often is when content exists only locally.
+Live only reflects what Cloudflare built from the last successful deploy. Your tree is currently synced with `origin` at `b15c67c`, so this isn’t the issue today — but it often is when content exists only locally.
 
 ---
 
@@ -1889,7 +1889,7 @@ Or step by step:
 pnpm run deploy && pnpm run serve
 ```
 
-After a clean `pnpm run deploy`, future notes like `build-a-reliable-default` are **not** in `public/` - matching live.
+After a clean `pnpm run deploy`, future notes like `build-a-reliable-default` are **not** in `public/` — matching live.
 
 ---
 
@@ -1984,7 +1984,7 @@ Future dates now appear live in production.
 
 _**Agent (default)**_
 
-Done. Production builds now pass `--buildFuture` to Hugo in `scripts/deployBuild.mjs`, same idea as dev - future-dated notes are included in `public/`.
+Done. Production builds now pass `--buildFuture` to Hugo in `scripts/deployBuild.mjs`, same idea as dev — future-dated notes are included in `public/`.
 
 Verified: `build-a-reliable-default` and the other `2026-06-22T08:00:00Z` notes are in the prod build.
 

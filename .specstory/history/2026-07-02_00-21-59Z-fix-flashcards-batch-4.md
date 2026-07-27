@@ -11,7 +11,7 @@ Fix flashcards in JoRap notes garden at /home/jorap/Documents/GitHub/jorap.com
 ## North star (MUST follow)
 Cards exist so the right move is already loaded when life shows up.
 - Front: first-person, present-tense, mid-action life cue (could happen this week)
-- Back: immediate move - imperative or decision in one breath
+- Back: immediate move — imperative or decision in one breath
 - NEVER split examples: field sentences across front/back
 - NEVER use third-person narrative fronts ("Our trainer...", "The shop...", "I do the same with...")
 - Front longer than back
@@ -26,7 +26,7 @@ sanctification, second-order-thinking, selling-static-sites, servant-leadership,
 ## Process per note
 1. Read content/english/notes/{stem}.md
 2. Read description, key_concept for the move
-3. Rewrite cards section - reference good decks: capture.md, free-grace.md
+3. Rewrite cards section — reference good decks: capture.md, free-grace.md
 4. Verify front > back length for each card
 
 ## Verify
@@ -653,7 +653,7 @@ The tony-buzan deck is now fully rewritten with two more cards. One replaces tri
 
 The versatility deck is being drafted with two cards. One calls for jumping on dishes during a lunch rush instead of running the grill. The other tells the speaker to pick up the lane that opens on a sick day rather than pretending to be an expert everywhere.
 
-The voice-memos deck is now fully rewritten with four cards. Each front describes a moment where a thought is trapped in the speaker’s head-whether driving between sites, returning from a clinic, walking off the field, or holding groceries. Each back calls for dictating into a phone or voice memo immediately, deferring transcription until parking or review. The webhooks deck is beginning to be drafted.
+The voice-memos deck is now fully rewritten with four cards. Each front describes a moment where a thought is trapped in the speaker’s head—whether driving between sites, returning from a clinic, walking off the field, or holding groceries. Each back calls for dictating into a phone or voice memo immediately, deferring transcription until parking or review. The webhooks deck is beginning to be drafted.
 
 The webhooks deck is now fully rewritten with four cards. Each front describes a moment of polling or refreshing: a form inbox refreshed every five minutes, a front desk checking appointments, a bus tracker tab left open, and a manager refreshing RSVPs before an event. Each back replaces polling with a webhook push to the calendar, phone, or team chat. The weekly-review-checklists deck is beginning to be drafted.
 

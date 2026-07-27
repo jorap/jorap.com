@@ -144,5 +144,5 @@ _**Agent (auto-low)**_
 
 Updated `extension-cord.md`:
 
-1. **Heading** - `not a spool` → `not five`, which lines up with the line below about five metres being a trip wire.
-2. **Load example** - `space heater` → `microwave`, a more everyday high-draw appliance for the contrast.
+1. **Heading** — `not a spool` → `not five`, which lines up with the line below about five metres being a trip wire.
+2. **Load example** — `space heater` → `microwave`, a more everyday high-draw appliance for the contrast.

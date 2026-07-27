@@ -479,7 +479,7 @@ _**Agent (auto-low)**_
 Grade 1 quiz answers now use high-contrast ink instead of the muted primary brown.
 
 **On the live randomizer** (`custom.css`):
-- Answer color is `var(--color-ink)` - near-black in light mode, near-white in dark mode
+- Answer color is `var(--color-ink)` — near-black in light mode, near-white in dark mode
 - Font weight bumped to `800` so the large answer reads clearly
 
 **In offline/downloaded play mode** (`randomizer.js`):

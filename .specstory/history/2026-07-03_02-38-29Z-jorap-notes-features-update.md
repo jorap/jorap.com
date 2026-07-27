@@ -546,11 +546,11 @@ _**Agent (auto-low)**_
 Updated `content/english/blog/__jorap-notes-features.md` with current features, how to use them, and the principles behind the system. Main changes:
 
 **New structure**
-- **Features at a glance** - table with Feature | What it does | Apply it when…
-- **Principles worth stealing** - 10 portable patterns (one claim per file, name the tension, quote-ready output, etc.)
+- **Features at a glance** — table with Feature | What it does | Apply it when…
+- **Principles worth stealing** — 10 portable patterns (one claim per file, name the tension, quote-ready output, etc.)
 
 **Features added or expanded**
-- **Shareable lines** - four quotable lines per note (130 chars, no wikilinks), with Slack/slide/social use cases
+- **Shareable lines** — four quotable lines per note (130 chars, no wikilinks), with Slack/slide/social use cases
 - **Copy catalog** and **Copy issues** on OKF Export and Issues pages
 - **Voice lint** and **title rules** (4-word default, 5-word when needed)
 - **Workplace Principles** as an audience-specific hub example

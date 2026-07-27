@@ -352,7 +352,7 @@ I decided against creating both a skill and a rule. The skill is the better choi
 
 _**Agent (default)**_
 
-A skill fits better than a rule: voice needs examples, reference posts, and an editing workflow-more than a ~50-line file-scoped rule can hold. Creating a project skill modeled after your other content skills.
+A skill fits better than a rule: voice needs examples, reference posts, and an editing workflow—more than a ~50-line file-scoped rule can hold. Creating a project skill modeled after your other content skills.
 
 
 _**Agent (default)**_
@@ -371,7 +371,7 @@ _**Agent (default)**_
 
 _**Agent (default)**_
 
-**A skill is the better fit** - here's why, and what I added.
+**A skill is the better fit** — here's why, and what I added.
 
 ## Skill vs rule
 
@@ -382,16 +382,16 @@ _**Agent (default)**_
 | Triggers | When matching files are open | When the task matches the description |
 | Your case | Too thin for voice nuance | Fits drafting, rewriting, and voice checks |
 
-Voice work needs reference posts, before/after examples, and an editing checklist - that's skill territory. A rule would either be too shallow or too long.
+Voice work needs reference posts, before/after examples, and an editing checklist — that's skill territory. A rule would either be too shallow or too long.
 
 ## What I created
 
-**`.cursor/skills/jorap-voice/`** - project-scoped, like your other content skills (`update-alex-eala-tracker`, `sync-upstreams`).
+**`.cursor/skills/jorap-voice/`** — project-scoped, like your other content skills (`update-alex-eala-tracker`, `sync-upstreams`).
 
-- **`SKILL.md`** - voice pillars, structure patterns, workflow, voice-check list, recipe-post variant
-- **`examples.md`** - excerpts from your published posts, anti-patterns, heading style guide
+- **`SKILL.md`** — voice pillars, structure patterns, workflow, voice-check list, recipe-post variant
+- **`examples.md`** — excerpts from your published posts, anti-patterns, heading style guide
 
-The voice profile is drawn from posts like wireless earphones, how you built the site, Facebook Favorites, and the desktop/laptop piece - experiential, opinionated, dry humor, Philippines-grounded when it fits, no AI-slop.
+The voice profile is drawn from posts like wireless earphones, how you built the site, Facebook Favorites, and the desktop/laptop piece — experiential, opinionated, dry humor, Philippines-grounded when it fits, no AI-slop.
 
 ## How to use it
 
@@ -401,7 +401,7 @@ When drafting or editing a post, say something like:
 
 or
 
-> "Rewrite this section - it sounds too generic"
+> "Rewrite this section — it sounds too generic"
 
 The agent should pick up the skill from the description. You can also name it directly: **jorap-voice**.
 
@@ -503,15 +503,15 @@ Updated the **jorap-voice** skill with a stronger anti-AI focus. Here's what cha
 ## New in `SKILL.md`
 
 **"Sound human, not AI"** section with:
-- **Human markers** to include - specifics, contractions, uneven rhythm, real takes, lived friction
-- **AI tells** to strip - hollow openers, significance inflation, transition spam, parallel bullets, summary sandwiches, thesaurus words
-- **Mandatory de-AI pass** - read aloud, ask "could this be any generic blog?", rewrite from a real memory if it still feels generated
+- **Human markers** to include — specifics, contractions, uneven rhythm, real takes, lived friction
+- **AI tells** to strip — hollow openers, significance inflation, transition spam, parallel bullets, summary sandwiches, thesaurus words
+- **Mandatory de-AI pass** — read aloud, ask "could this be any generic blog?", rewrite from a real memory if it still feels generated
 - **Primary test** at the top: would a reader think a real person typed this after using the thing?
 
 **Voice check** now also covers:
 - At least one specific detail per section
 - Sentence length variety
-- The **swap test** - couldn't paste this into a random tech blog without it feeling off
+- The **swap test** — couldn't paste this into a random tech blog without it feeling off
 
 ## New in `examples.md`
 

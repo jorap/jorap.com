@@ -629,6 +629,13 @@ print('meta_title chars:', len('Google vs Apple - Why I Stay on Google\\'s Side'
 print('title chars:', len('Why I Prefer the Google Ecosystem Over Apple'))
 "
 ```
+
+```
+description chars: 224
+meta_title chars: 45
+title chars: 44
+
+```
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -645,6 +652,388 @@ Parameters:
   "pattern": "slug: \"(lock-in|vendor-lock|walled|platform)\""
 }
 ```
-Status: **loading**
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "slug: \"(lock-in|vendor-lock|walled|platform)\"",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
 
 </details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Checking whether privacy, lock-in, or ecosystem notes would make better related notes.
+
+Verifying the image path maps correctly through Hugo. Searching for notes on privacy, Brave, and ecosystem.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": true,
+  "glob": "content/english/notes/*.md",
+  "pattern": "slug: \"(privacy|brave|ecosystem|lock|iphone|android)\""
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "slug: \"(privacy|brave|ecosystem|lock|iphone|android)\"",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-run-your-own-website.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-keep-desktop-laptop.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Beginning a field-by-field review of all frontmatter.
+
+Title and meta_title both match the post well. The description is 224 characters, slightly longer than ideal for SEO, but it reads as a memorable one-breath summary rather than keyword-stuffed. It also names specific products like Android, Brave, Chrome, Meet, and Chromecast.
+
+The description omits the privacy angle and iMessage social friction, both strong hooks present in the body. It also lacks the Philippines and Shopee references used in the post itself. The slug matches the filename and produces a clean URL. The date is current; omitting lastmod is correct since it is only needed when relevant.
+
+The image path points to an existing asset. Categories and author are accurate. Tags cover Google, Apple, Android, Chrome, Ecosystem, and Productivity.
+
+Tags omit several key topics: Privacy, Brave, iMessage, and Chromecast. Productivity is a stretch for this ecosystem-opinion piece. Related notes are mixed. Digital minimalism fits loosely. Mobile capture workflows are weak. Attention economy is moderate, though stronger now that privacy is included.
+
+Signoise is a better related note because it covers ATT, ad stacks, and privacy theater. The backup-phone angle for mobile-capture-workflows is too tangential to keep. Searching for notes on vendor lock and platform strategy.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "content/english/notes/*.md",
+  "pattern": "slug:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "slug:",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/create-regular-connection.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/heart-righteousness.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/gtd-vs-para.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/servant-leadership.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/forgiveness.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/_index.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/share-what-you-learn.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/quarterly-planning.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/incident-investigation.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/reconciliation-before-worship.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/mercy.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/break-the-escalation-cycle.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/digital-garden.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/git-based-cms.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/follow-their-lead.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/many-parts-one-body.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/inbox-zero.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/active-knowledge-curation.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/withdraw-to-pray.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/assurance.md"
+    }
+  ],
+  "totalFiles": 80,
+  "totalMatches": 284
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": true,
+  "glob": "content/english/notes/*.md",
+  "pattern": "(iMessage|Apple|Google|privacy|lock-in|ecosystem)"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "(iMessage|Apple|Google|privacy|lock-in|ecosystem)",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/low-hanging-fruit.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/it-is-written.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/local-first-software.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/the-garage-concept.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/okf-export.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/anti-fragile-systems.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/pareto-principle.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/habit-stacking.md"
+    }
+  ],
+  "totalFiles": 8,
+  "totalMatches": 10
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The `anti-fragile-systems` note on vendor lock-in could serve as a related note for the mixed hardware and swap parts theme.
+
+`local-first-software` fits the privacy angle. `signal-vs-noise` fits ad tracking. `there-is-no-perfect-solution` fits the tradeoffs theme. A field-by-field pass/fail review with optional suggestions is planned.
+
+The description is 224 characters long and list-heavy. It omits newer angles like privacy, iMessage, and the Philippines. Tags are missing Privacy, Brave, and iMessage. Productivity is a weak tag. The related note on mobile capture workflows is the weakest link. Signal-vs-noise or anti-fragile-systems would be stronger.
+
+The post is marked as draft, so it is not yet published. No aliases are needed for a new post. The findings will be presented as a clear review table. Suggested changes will be offered but not applied without explicit request.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Frontmatter review for `google-over-apple-ecosystem.md`:
+
+## Passes (no change needed)
+
+| Field | Value | Verdict |
+|-------|-------|---------|
+| **Order** | title → meta_title → description → slug → date → image → categories → author → tags → related_notes → featured → draft | Matches `BLOG_FM_ORDER`; `pnpm lint:blog` passes |
+| **slug** | `google-over-apple-ecosystem` | Matches filename, clean URL |
+| **date** | `2026-07-26T02:51:00Z` | Valid UTC timestamp |
+| **author** | `JoRap` | Correct |
+| **image** | `/images/google-vs-apple.jpg` | Real file in `assets/images/` — not `image-template.jpg` |
+| **draft** | `false` | Ready to publish |
+| **featured** | `false` | Fine for an opinion piece |
+
+---
+
+## Field-by-field notes
+
+### `title`
+**"Why I Prefer the Google Ecosystem Over Apple"**
+
+Clear, opinionated, matches the post. Good.
+
+### `meta_title`
+**"Google vs Apple - Why I Stay on Google's Side"**
+
+Useful variation from the title (comparison hook vs. personal preference). Not clickbait. ~45 chars — fine for search/social.
+
+### `description` (224 chars — the long one)
+**"I'm not anti-Apple. I just keep landing on Google because it fits how I work - Android phone, Brave for daily browsing, Chrome for client builds, Meet calls, Chromecast under the TV, and hardware I can swap without a sermon."**
+
+**Works:** First person, specific stack, sounds like you — not SEO slop.
+
+**Gaps vs. the post now:**
+- Doesn't mention **privacy** (new section is substantive)
+- Doesn't mention **iMessage / blue bubbles** (strongest social hook)
+- Doesn't mention **Philippines / cheap hardware** (grounding detail in the body)
+- Reads more like a feature list than a one-breath takeaway
+
+**Optional tighter version** (if you want the meta to match the sharper post):
+
+> I'm not anti-Apple. I stay on Google because mixed hardware, cheap Android backups, and browser-first work fit my life better — and Apple's privacy pitch is only part of the story once your data already lives in Gmail.
+
+Or lean into the social angle:
+
+> I'm not anti-Apple. I stay on Google because mixed hardware and cheap backups fit how I work — and I'm not buying premium gear so my texts don't turn a group chat green.
+
+### `categories`
+**`["Technology", "Opinion"]`**
+
+Correct. This is an opinion piece, not a how-to. Only post with this exact pair, which is fine.
+
+### `tags`
+**`["Google", "Apple", "Android", "Chrome", "Ecosystem", "Productivity"]`**
+
+**Keep:** Google, Apple, Android, Chrome, Ecosystem
+
+**Weak:** `Productivity` — the post is ecosystem/pricing/social friction, not a productivity guide
+
+**Missing given the body:**
+- `Privacy` (dedicated section now)
+- `Brave` (whole browser section)
+- `iMessage` (memorable closing argument)
+
+Suggested set:
+
+```yaml
+tags: ["Google", "Apple", "Android", "Chrome", "Brave", "Ecosystem", "Privacy", "iMessage"]
+```
+
+### `related_notes`
+```yaml
+related_notes:
+  - digital-minimalism
+  - mobile-capture-workflows
+  - attention-economy
+```
+
+| Note | Fit |
+|------|-----|
+| `digital-minimalism` | OK — don't buy the whole stack, cut friction |
+| `attention-economy` | Stronger now — ATT, ad tracking, Google's ad stack |
+| `mobile-capture-workflows` | Weak — backup phone is banking/OTP, not capture workflow |
+
+**Swap ideas:**
+- Drop `mobile-capture-workflows`
+- Add `signal-vs-noise` (ATT, tracking, privacy theater)
+- Or add `anti-fragile-systems` (vendor lock-in, swap parts without apologizing)
+
+Suggested:
+
+```yaml
+related_notes:
+  - digital-minimalism
+  - attention-economy
+  - signal-vs-noise
+```
+
+### `lastmod`
+Not set. Optional — only worth adding if you want the publish date to stay `2026-07-26` but signal a substantive edit later. Not required for a first publish today.
+
+### `aliases`
+Not set. Fine — new post, no URL migration.
+
+---
+
+## Summary
+
+Frontmatter is **structurally valid and publish-ready**. The mechanical stuff (order, slug, image, author, draft) is clean.
+
+The soft gaps are **description**, **tags**, and **one related note** — they lag behind the post after the privacy and iMessage sections. Nothing blocking publish; worth a quick pass if you want search/social cards to match what the post actually argues.
+
+Want me to apply the tag/related_notes/description tweaks?

@@ -2032,7 +2032,7 @@ Below is a file-by-file inventory of **Gospel / Eternal Principles** notes under
 ---
 
 ### `/home/jorap/Documents/GitHub/jorap.com/content/english/notes/childlike-faith.md`
-**Reference:** *(implied - Matthew 18:3 / Mark 10:15; not cited explicitly)*
+**Reference:** *(implied — Matthew 18:3 / Mark 10:15; not cited explicitly)*
 
 | Field | Text |
 |-------|------|
@@ -2472,7 +2472,7 @@ Below is a file-by-file inventory of **Gospel / Eternal Principles** notes under
 ---
 
 ### `/home/jorap/Documents/GitHub/jorap.com/content/english/notes/repent-and-believe.md`
-**Reference:** *(implied Mark 1:15 - not cited)*
+**Reference:** *(implied Mark 1:15 — not cited)*
 
 | Field | Text |
 |-------|------|
@@ -2541,7 +2541,7 @@ Below is a file-by-file inventory of **Gospel / Eternal Principles** notes under
 ---
 
 ### `/home/jorap/Documents/GitHub/jorap.com/content/english/notes/take-up-your-cross.md`
-**Reference:** *(implied Luke 9:23 / Matthew 16:24 - not cited)*
+**Reference:** *(implied Luke 9:23 / Matthew 16:24 — not cited)*
 
 | Field | Text |
 |-------|------|
@@ -2629,7 +2629,7 @@ These are theology/application notes that reference scripture concepts only indi
 
 ## Patterns observed
 
-1. **Sermon on the Mount cluster** (Matthew 5–7) is the densest source - beatitudes, heart-righteousness, enemy-love, secret devotion, kingdom-first, worry, treasure, narrow gate, wise builder, judge not, golden rule.
+1. **Sermon on the Mount cluster** (Matthew 5–7) is the densest source — beatitudes, heart-righteousness, enemy-love, secret devotion, kingdom-first, worry, treasure, narrow gate, wise builder, judge not, golden rule.
 2. **Romans 12:1–2** appears as a repeated spine across `renewed-mind`, `present-a-living-sacrifice`, `discern-his-will-daily`, `dont-copy-the-pattern`, and `mercy`.
 3. **Galatians 5:22–23** fruit cluster appears across nine fruit notes plus `fruits-of-the-spirit`.
 4. **Parable language** ("well done," "buried talent," "unforgiving servant," "Good Samaritan") is used heavily without always citing chapter/verse.

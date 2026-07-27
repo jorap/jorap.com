@@ -463,8 +463,8 @@ Change those strings to whatever you want, e.g. `2×` / `3×` or just `2` / `3`.
 
 The big page title comes from front matter in the content files:
 
-- `content/english/notes/random-two.md` - `title` and `meta_title` (`"2 Random Notes"`)
-- `content/english/notes/random-three.md` - `title` and `meta_title` (`"3 Random Notes"`)
+- `content/english/notes/random-two.md` — `title` and `meta_title` (`"2 Random Notes"`)
+- `content/english/notes/random-three.md` — `title` and `meta_title` (`"3 Random Notes"`)
 
 `title` drives the on-page heading (via `page-header`); `meta_title` drives the browser tab.
 
@@ -474,14 +474,14 @@ The heading on single-note and blog random-note sections uses i18n:
 
 ```6:7:i18n/en.yaml
 random_unrelated_notes: 2 Random Notes
-random_unrelated_notes_lede: Two garden notes picked at random - shuffle for serendipity.
+random_unrelated_notes_lede: Two garden notes picked at random — shuffle for serendipity.
 ```
 
 Only matters if you care about that embedded section, not the dedicated `/notes/random-two/` pages.
 
 ### What you don’t need to change
 
-URLs (`/notes/random-two/`, `/notes/random-three/`), layout names, JS filenames, and CSS classes stay as-is - they’re internal identifiers, not user-facing labels.
+URLs (`/notes/random-two/`, `/notes/random-three/`), layout names, JS filenames, and CSS classes stay as-is — they’re internal identifiers, not user-facing labels.
 
 ---
 
@@ -541,11 +541,11 @@ They sit next to **Random note**, so the group reads as one family with an obvio
 
 **Why this over other options:**
 
-- **2× / 3×** - Very short, but cryptic without context; you’d want `aria-label` on each link.
-- **2 notes / 3 notes** - Shorter, but drops “random” and sounds like a filter.
-- **Random 1 / Random 2 / Random 3** - Symmetric, but renaming the shuffle button to “Random 1” is less clear than “Random note” for a one-click action.
+- **2× / 3×** — Very short, but cryptic without context; you’d want `aria-label` on each link.
+- **2 notes / 3 notes** — Shorter, but drops “random” and sounds like a filter.
+- **Random 1 / Random 2 / Random 3** — Symmetric, but renaming the shuffle button to “Random 1” is less clear than “Random note” for a one-click action.
 
-**Page titles** (`random-two.md` / `random-three.md`) can stay **2 Random Notes** and **3 Random Notes** - the H1 has room, and it’s better for SEO and browser tabs. Only the toolbar needs the short labels.
+**Page titles** (`random-two.md` / `random-three.md`) can stay **2 Random Notes** and **3 Random Notes** — the H1 has room, and it’s better for SEO and browser tabs. Only the toolbar needs the short labels.
 
 If you want maximum compactness in the toolbar, **2×** and **3×** with `aria-label="2 random notes"` / `aria-label="3 random notes"` is the next-best option.
 
@@ -1055,7 +1055,7 @@ The markup uses Tailwind CSS classes rather than Bootstrap variables.
 
 _**Agent (default)**_
 
-Fixing CSS - buttons use Tailwind, not Bootstrap variables.
+Fixing CSS — buttons use Tailwind, not Bootstrap variables.
 
 
 _**Agent (default)**_
@@ -1636,7 +1636,7 @@ Run `pnpm update tailwindcss @tailwindcss/cli @tailwindcss/typography` to upgrad
 
 _**Agent (default)**_
 
-**Tailwind status:** The site is already on **Tailwind CSS v4** - not v3, not a separate PostCSS pipeline. Hugo Extended compiles it via `css.TailwindCSS` in `themes/jorap/layouts/_partials/essentials/style.html`, with config in `themes/jorap/assets/css/main.css` (`@import "tailwindcss"`, `@theme`, plugins, `@source "hugo_stats.json"`).
+**Tailwind status:** The site is already on **Tailwind CSS v4** — not v3, not a separate PostCSS pipeline. Hugo Extended compiles it via `css.TailwindCSS` in `themes/jorap/layouts/_partials/essentials/style.html`, with config in `themes/jorap/assets/css/main.css` (`@import "tailwindcss"`, `@theme`, plugins, `@source "hugo_stats.json"`).
 
 ### Installed vs latest (npm)
 
@@ -1648,7 +1648,7 @@ _**Agent (default)**_
 | `@tailwindcss/typography` | 0.5.19 | **0.5.20** | 1 patch behind |
 | `tailwind-bootstrap-grid` | 7.0.0 | 7.0.0 | Up to date |
 
-So you're current on the v4 line - just not on the latest patch releases. The `invalid: "^3.x"` warnings from `forms`/`typography` are normal; those plugins still declare v3 peer deps but work with v4.
+So you're current on the v4 line — just not on the latest patch releases. The `invalid: "^3.x"` warnings from `forms`/`typography` are normal; those plugins still declare v3 peer deps but work with v4.
 
 To bump:
 
@@ -1658,16 +1658,16 @@ pnpm update tailwindcss @tailwindcss/cli @tailwindcss/typography
 
 ### How styling works today
 
-- **Tailwind utilities** - layouts, spacing, responsive classes (`xl:hidden`, `gap-2`, etc.)
-- **Tailwind components** - `.btn`, `.btn-primary` in `themes/jorap/assets/css/buttons.css` via `@apply` (Tailwind, not Bootstrap SCSS)
-- **Bootstrap-style grid only** - `tailwind-bootstrap-grid` gives `row`, `col-*`, `container`
-- **Site overrides** - root `assets/css/custom.css` (~700+ lines of raw CSS)
+- **Tailwind utilities** — layouts, spacing, responsive classes (`xl:hidden`, `gap-2`, etc.)
+- **Tailwind components** — `.btn`, `.btn-primary` in `themes/jorap/assets/css/buttons.css` via `@apply` (Tailwind, not Bootstrap SCSS)
+- **Bootstrap-style grid only** — `tailwind-bootstrap-grid` gives `row`, `col-*`, `container`
+- **Site overrides** — root `assets/css/custom.css` (~700+ lines of raw CSS)
 
 So it's Tailwind-first, with a grid plugin and a large custom CSS file for site-specific rules.
 
 ### “Use Tailwind for the whole site”
 
-That doesn't mean zero custom CSS - it means prefer utilities in templates and `@apply` in component layers over ad-hoc rules in `custom.css`. Examples still in raw CSS:
+That doesn't mean zero custom CSS — it means prefer utilities in templates and `@apply` in component layers over ad-hoc rules in `custom.css`. Examples still in raw CSS:
 
 - The notes toolbar padding tweak (`@media (max-width: 1279.98px)`) → could be `max-xl:px-2` on toolbar buttons instead
 - Much of `custom.css` (notes panels, dark-mode prose fixes, etc.)
@@ -1710,7 +1710,7 @@ The version check finished. Here’s what it found:
 
 **Latest on npm:** `tailwindcss` and `@tailwindcss/cli` are at **4.3.1**; `@tailwindcss/typography` is at **0.5.20** (you have 0.5.19). Forms and bootstrap-grid are already current.
 
-You’re on Tailwind v4 and only one patch behind on core + typography - not a major gap. To bump:
+You’re on Tailwind v4 and only one patch behind on core + typography — not a major gap. To bump:
 
 ```bash
 pnpm update tailwindcss @tailwindcss/cli @tailwindcss/typography
@@ -1726,7 +1726,7 @@ ERROR error building site: renderDeferred: "/home/jorap/Documents/GitHub/jorap.c
 
 _**Agent (default)**_
 
-Hugo can't run the Tailwind binary - I'll trace how `tailwindcss` is wired (postinstall symlink, `node_modules`, and Hugo's Tailwind config).
+Hugo can't run the Tailwind binary — I'll trace how `tailwindcss` is wired (postinstall symlink, `node_modules`, and Hugo's Tailwind config).
 
 
 _**Agent (default)**_
@@ -1981,9 +1981,9 @@ _**Agent (default)**_
 The build failed because **pnpm** puts a shell wrapper at `node_modules/.bin/tailwindcss`, but Hugo’s `css.TailwindCSS` expects a **Node `.mjs` entry** (as with npm’s symlink).
 
 **What I changed:**
-1. **`.npmrc`** - `prefer-symlinked-executables=true` so pnpm symlinks the CLI on future installs
-2. **`scripts/fix-tailwind-bin.js`** - replaces the shim with a symlink to `@tailwindcss/cli/dist/index.mjs`
-3. **`package.json` postinstall** - runs that script after every install
+1. **`.npmrc`** — `prefer-symlinked-executables=true` so pnpm symlinks the CLI on future installs
+2. **`scripts/fix-tailwind-bin.js`** — replaces the shim with a symlink to `@tailwindcss/cli/dist/index.mjs`
+3. **`package.json` postinstall** — runs that script after every install
 
 The symlink is fixed locally and **Hugo builds successfully** now.
 
@@ -2040,7 +2040,7 @@ _**Agent (default)**_
 
 _**Agent (default)**_
 
-Moved the note count to the start of the toolbar on the notes list page. It now appears before Graph, Issues, Cards, etc. - still `59` / `59 notes` with the same responsive labels.
+Moved the note count to the start of the toolbar on the notes list page. It now appears before Graph, Issues, Cards, etc. — still `59` / `59 notes` with the same responsive labels.
 
 ---
 
@@ -2091,8 +2091,8 @@ _**Agent (default)**_
 
 The notes list link is now a single toolbar button at the start, matching the other controls:
 
-- **On `/notes/`:** `btn-primary` (active) - **All 59 Notes** (or **All 59** below `xl`)
-- **On other notes pages:** `btn-outline-primary` - same label, links back to the list
+- **On `/notes/`:** `btn-primary` (active) — **All 59 Notes** (or **All 59** below `xl`)
+- **On other notes pages:** `btn-outline-primary` — same label, links back to the list
 
 The separate count span and plain “All notes” link are removed.
 
@@ -2519,7 +2519,7 @@ Changes made:
 
 1. **Removed** the “Random note” toolbar button and `notes-random.js`.
 2. **Toolbar** now only has **×2** and **×3** random links.
-3. **Notes home** (`/notes/`) has a new **featured random note** block directly under the toolbar - it picks one garden note on each visit and loads its full content (same fetch pattern as Random 2/3).
+3. **Notes home** (`/notes/`) has a new **featured random note** block directly under the toolbar — it picks one garden note on each visit and loads its full content (same fetch pattern as Random 2/3).
 4. **Removed** `assets/js/notes-random.js` (no longer used).
 
 Order on notes home: toolbar → **random featured note** → Recent Notes → filters → grid.
@@ -2743,7 +2743,7 @@ Toolbar labels now match the page titles and the **Featured Random Note** patter
 | Random 2 | **2 Random Notes** | **2 Notes** |
 | Random 3 | **3 Random Notes** | **3 Notes** |
 
-Page headings were already **2 Random Notes** / **3 Random Notes** - only the toolbar text changed. URLs stay `/notes/random-two/` and `/notes/random-three/`.
+Page headings were already **2 Random Notes** / **3 Random Notes** — only the toolbar text changed. URLs stay `/notes/random-two/` and `/notes/random-three/`.
 
 ---
 
@@ -4237,7 +4237,7 @@ The replacement incorrectly changed duo-specific names to grid equivalents acros
 
 _**Agent (default)**_
 
-The bulk rename was too aggressive - fixing duo/trio-specific selectors and script paths.
+The bulk rename was too aggressive — fixing duo/trio-specific selectors and script paths.
 
 
 _**Agent (default)**_

@@ -430,8 +430,8 @@ FOLDER: bookmark_bar/Bookmarks bar (28 items)
   [url] Messenger
   [url] Z-Library – the world’s largest e-book library. Your gateway
   [url] Copy YouTube Transcript
-  [url] CanIRun.ai - Can your machine run AI models?
-  [url] 404 Error Logs ‹ JNGTech Industries - WordPress
+  [url] CanIRun.ai — Can your machine run AI models?
+  [url] 404 Error Logs ‹ JNGTech Industries — WordPress
 FOLDER: bookmark_bar/Bookmarks bar/RESOURCE (64 items)
   [folder] _Reviewed (3 items)
   [folder] US Visa (2 items)
@@ -945,7 +945,7 @@ cols: ['key', 'value']
     - My Long List of Simple Hover Effects
     - Open-Source UI elements - made with CSS and HTML
     - Practical Use Cases For CSS Variables - Ahmad Shadeed
-    - CSS Gradient Text - CSS Gradient
+    - CSS Gradient Text — CSS Gradient
     - Free Open Source Tailwind CSS Components | HyperUI
     - Introduction - CSSUI
     - Copy & Paste CSS - Buttons Design
@@ -978,7 +978,7 @@ cols: ['key', 'value']
     - WP Query Generator
     - Mega Menu
     - Squarespace Pricing - All Pricing Plans – Squarespace
-  [url] How to Use CSS aspect-ratio - SitePoint
+  [url] How to Use CSS aspect-ratio — SitePoint
   [url] 10 Simple CSS and JavaScript Micro-interactions for Buttons 
   [url] Using ACF PRO to Customize WordPress Blocks | ACF
   [url] Microwave-Fried Shallots and Olives Make the Perfect Crispy 
@@ -1737,7 +1737,7 @@ Fixing remaining loose items manually. Verifying Web Dev subfolder counts. The F
 
 _**Agent (auto-low)**_
 
-A few links didn't match the URL patterns - I'll move those manually and verify the folder structure.
+A few links didn't match the URL patterns — I'll move those manually and verify the folder structure.
 
 
 _**Agent (auto-low)**_
@@ -2367,7 +2367,7 @@ Organized your Brave **RESOURCE** and **ARCHIVE** bookmark folders. Both profile
 
 ## What changed
 
-**Before:** 53 loose links in RESOURCE, 62 loose in ARCHIVE - everything sitting at the folder root.
+**Before:** 53 loose links in RESOURCE, 62 loose in ARCHIVE — everything sitting at the folder root.
 
 **After:** **0 loose links** at the root of either folder. All sorted into subfolders.
 
@@ -2401,20 +2401,20 @@ Existing folders (_Reviewed, US Visa, Davis Schools, Snap, ID, COVID-19) were le
 | **Snap** *(new)* | Untapped.gg deck meta |
 | **Tech & Browser**, **Misc Tools**, **Board Games**, **Food** | Everything else by theme |
 
-**Home Stuff** (IKEA desk gear) was already there - untouched.
+**Home Stuff** (IKEA desk gear) was already there — untouched.
 
 ## Brave shortcuts (address bar)
 
-135 entries total - these are autocomplete history, not bookmark folders:
+135 entries total — these are autocomplete history, not bookmark folders:
 
 - **73** site shortcuts (e.g. `keep.google` 88×, `messenger` 42×, `facebook` 33×)
 - **62** one-off Brave Search queries (safe to clear via **Settings → Privacy → Clear browsing data → Autocomplete** if you want a cleaner omnibar)
 
-I didn’t modify the shortcuts DB - Brave locks it while running, and pruning search history is a separate cleanup if you want it.
+I didn’t modify the shortcuts DB — Brave locks it while running, and pruning search history is a separate cleanup if you want it.
 
 ## Backups
 
 - `~/.var/app/com.brave.Browser/.../Bookmarks.organize-20260701-120533.bak`
 - Same timestamp backup on Nightly
 
-**Restart Brave** (or close and reopen) so it reloads the updated bookmarks. If Brave was open during the edit, it may have overwritten changes - check RESOURCE/ARCHIVE; if they’re flat again, say the word and I’ll re-run with Brave closed.
+**Restart Brave** (or close and reopen) so it reloads the updated bookmarks. If Brave was open during the edit, it may have overwritten changes — check RESOURCE/ARCHIVE; if they’re flat again, say the word and I’ll re-run with Brave closed.

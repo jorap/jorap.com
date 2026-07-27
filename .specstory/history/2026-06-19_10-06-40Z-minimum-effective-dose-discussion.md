@@ -1276,7 +1276,7 @@ The core idea is the nirvana fallacy: comparing real choices to an imaginary per
 
 _**Agent (default)**_
 
-Strengthening the note with clearer framing, concrete examples, and links to related mental models-keeping it atomic.
+Strengthening the note with clearer framing, concrete examples, and links to related mental models—keeping it atomic.
 
 
 _**Agent (default)**_
@@ -1291,13 +1291,13 @@ _**Agent (default)**_
 Updated **There Is No Perfect Solution** while keeping it atomic:
 
 **What changed**
-- **Clearer definition** - names the nirvana fallacy explicitly (comparing real options to an imaginary perfect one)
-- **Concrete examples** - theme comparisons, PKM migrations, the “flawless stack” trap
-- **Practical test** - what works when you’re tired, exports cleanly, still usable in six months
-- **Action** - name tradeoffs out loud, pick, ship
-- **Stronger links** - [[Minimum Viable Product]], [[Sunk Cost Fallacy]], [[Mental Models List]], [[Digital Minimalism]]
-- **Alias** - `Nirvana Fallacy` for `[[Nirvana Fallacy]]` links
-- **Lifecycle fields** - `status: evergreen`, `last_reviewed` added to match your other mental model notes
+- **Clearer definition** — names the nirvana fallacy explicitly (comparing real options to an imaginary perfect one)
+- **Concrete examples** — theme comparisons, PKM migrations, the “flawless stack” trap
+- **Practical test** — what works when you’re tired, exports cleanly, still usable in six months
+- **Action** — name tradeoffs out loud, pick, ship
+- **Stronger links** — [[Minimum Viable Product]], [[Sunk Cost Fallacy]], [[Mental Models List]], [[Digital Minimalism]]
+- **Alias** — `Nirvana Fallacy` for `[[Nirvana Fallacy]]` links
+- **Lifecycle fields** — `status: evergreen`, `last_reviewed` added to match your other mental model notes
 
 The See also section is now aligned with related decision-making notes instead of generic productivity links. Want it shorter, or a bit more personal (e.g. a specific tool you stuck with)?
 
@@ -1386,7 +1386,7 @@ _**Agent (default)**_
 
 _**Agent (default)**_
 
-Removed all uses of "nirvana" from the note - in the definition, description, tags, and aliases. The idea is now plain language: don't compare real options to an imaginary perfect one.
+Removed all uses of "nirvana" from the note — in the definition, description, tags, and aliases. The idea is now plain language: don't compare real options to an imaginary perfect one.
 
 ---
 
@@ -2486,14 +2486,14 @@ Did a plain-language pass across the notes garden. Most notes were already conve
 - [[Mental Models List]] rewritten: no homeostasis, heuristics, overfit, downstream work, etc.
 
 **PKM notes**
-- [[Note-Taking for Researchers]], [[Building a Personal API]], [[The Power of Interconnectivity]], [[Atomic Design for Notes]], [[Intellectual Sourcing]], [[Synthesis as a Goal]], [[Serendipitous Resurfacing]] - lead with plain definitions
-- [[Graph View Analytics]], [[Graph]], [[Getting Started]] - "orphans/hubs" → "notes with no links / too many links"
-- [[Metadata Strategy]], [[E2EE Security]], [[Future-Proofing Knowledge]], [[Signal vs Noise]], [[Digital Minimalism]], and others - same treatment
+- [[Note-Taking for Researchers]], [[Building a Personal API]], [[The Power of Interconnectivity]], [[Atomic Design for Notes]], [[Intellectual Sourcing]], [[Synthesis as a Goal]], [[Serendipitous Resurfacing]] — lead with plain definitions
+- [[Graph View Analytics]], [[Graph]], [[Getting Started]] — "orphans/hubs" → "notes with no links / too many links"
+- [[Metadata Strategy]], [[E2EE Security]], [[Future-Proofing Knowledge]], [[Signal vs Noise]], [[Digital Minimalism]], and others — same treatment
 
 **Pattern kept**
 - Titles and slugs unchanged so wikilinks still work
 - Technical terms only where the topic needs them (e.g. E2EE, Personal API), with a plain explanation right away
-- [[Getting Started]] still mentions `frontmatter` - that's intentional for people adding notes
+- [[Getting Started]] still mentions `frontmatter` — that's intentional for people adding notes
 
 If you want another pass, the remaining edge cases are mostly title-only jargon (e.g. "Interconnectivity", "Metadata Strategy") where the body is already plain.
 
@@ -2588,7 +2588,7 @@ _**Agent (default)**_
 
 Created **`content/english/notes/low-hanging-fruit.md`** as an atomic note:
 
-- **Definition:** the easy win you can grab now - before the hard climb
+- **Definition:** the easy win you can grab now — before the hard climb
 - **Examples:** fix the broken link, publish the half-done draft, delete the stale folder
 - **Personal angle:** catches me when I'm avoiding work by planning harder work
 - **Alias:** `Low-Hanging Fruit` for wikilinks
@@ -2674,7 +2674,7 @@ Broken wikilinks were found for existing notes.
 
 _**Agent (default)**_
 
-Broken wikilinks are still showing - investigating how the linter resolves note titles.
+Broken wikilinks are still showing — investigating how the linter resolves note titles.
 
 
 _**Agent (default)**_
@@ -3113,7 +3113,7 @@ Notes dated after 10:27 UTC today are future-dated.
 
 _**Agent (default)**_
 
-Future publish times on the new notes are causing the broken wikilinks - fixing those dates now.
+Future publish times on the new notes are causing the broken wikilinks — fixing those dates now.
 
 
 _**Agent (default)**_
@@ -3177,4 +3177,4 @@ _**Agent (default)**_
 
 `npm run lint:notes` finished successfully (~18 min first run; ~30s on re-run). It reported **4 broken wikilinks** to [[Sunk Cost Fallacy]], [[Pareto Principle]], [[Compounding]], and [[Low Hanging Fruit]], plus several **unlinked mention** warnings on older notes.
 
-The broken links were caused by **future publish times** on those notes - production builds exclude future-dated pages, so they weren't in the wikilink registry yet. I moved their `date` fields to `2026-06-18T06:00:00Z` (same pattern as your other notes). Re-lint now shows **no broken wikilinks**.
+The broken links were caused by **future publish times** on those notes — production builds exclude future-dated pages, so they weren't in the wikilink registry yet. I moved their `date` fields to `2026-06-18T06:00:00Z` (same pattern as your other notes). Re-lint now shows **no broken wikilinks**.

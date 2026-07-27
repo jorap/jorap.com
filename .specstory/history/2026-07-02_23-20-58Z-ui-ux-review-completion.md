@@ -1367,9 +1367,9 @@ _**Agent (auto-low)**_
 
 _**Agent (auto-low)**_
 
-# JoRap.com - Complete UI/UX Review
+# JoRap.com — Complete UI/UX Review
 
-**30/40 - Good.** Credible editorial shell with a polished token system. The main gap is audience split: the marketing surface speaks to clients; the notes garden speaks to the author.
+**30/40 — Good.** Credible editorial shell with a polished token system. The main gap is audience split: the marketing surface speaks to clients; the notes garden speaks to the author.
 
 > **Trend for `site-wide-ui-ux-review`:** First run, no trend yet.  
 > Wrote `.impeccable/critique/2026-07-02T23-23-52Z__site-wide-ui-ux-review.md`.
@@ -1396,9 +1396,9 @@ _**Agent (auto-low)**_
 
 ## Anti-Patterns Verdict
 
-**AI slop risk: low–moderate.** Copy and tokens read intentional. Warm paper + Inter + elevated cards is the documented "Quiet Study" lane - competent and client-safe, not a distinctive POV. No gradient text, hero metrics, or eyebrow scaffolding. The notes garden (graph, flashcards, issues lint) is the clearest human signature.
+**AI slop risk: low–moderate.** Copy and tokens read intentional. Warm paper + Inter + elevated cards is the documented "Quiet Study" lane — competent and client-safe, not a distinctive POV. No gradient text, hero metrics, or eyebrow scaffolding. The notes garden (graph, flashcards, issues lint) is the clearest human signature.
 
-**Detector:** 19 findings across layouts/CSS - mostly advisory radius drift and false positives on Hugo image partials. No slop-family hits.
+**Detector:** 19 findings across layouts/CSS — mostly advisory radius drift and false positives on Hugo image partials. No slop-family hits.
 
 **Browser:** Not run this session (no dev server / browser automation).
 
@@ -1412,22 +1412,22 @@ Since the June homepage critique, real fixes landed: skip link + `#main`, duplic
 
 ## What's Working
 
-1. **Token architecture** - semantic colors, dark-mode prose fixes, AA contrast (`ink-faint` ~5.1:1 on surface).
-2. **Long-form reading** - 70ch prose cap, `text-wrap: balance/pretty`, article-title ramp, mobile/desktop TOC patterns.
-3. **Accessibility baselines** - 44px touch targets, `prefers-reduced-motion`, `aria-pressed` on graph filters, review keyboard legend.
+1. **Token architecture** — semantic colors, dark-mode prose fixes, AA contrast (`ink-faint` ~5.1:1 on surface).
+2. **Long-form reading** — 70ch prose cap, `text-wrap: balance/pretty`, article-title ramp, mobile/desktop TOC patterns.
+3. **Accessibility baselines** — 44px touch targets, `prefers-reduced-motion`, `aria-pressed` on graph filters, review keyboard legend.
 
 ---
 
 ## Priority Issues
 
 ### [P1] Notes toolbar overload
-Seven to nine equal-weight pills mix reader nav (All, Graph, Backlinks) with author tools (Issues, Create, OKF). Exceeds working-memory limits and reads as dev garden to client skims - conflicts with PRODUCT.md anti-reference.
+Seven to nine equal-weight pills mix reader nav (All, Graph, Backlinks) with author tools (Issues, Create, OKF). Exceeds working-memory limits and reads as dev garden to client skims — conflicts with PRODUCT.md anti-reference.
 
 **Fix:** Tier into **Read** (always visible) vs **Tools** (disclosure/menu).  
 **Command:** `/impeccable distill layouts/_partials/notes/toolbar.html`
 
 ### [P1] Graph filter wall
-Two rows, 11+ filters on first paint - rank + relationship types with no hierarchy.
+Two rows, 11+ filters on first paint — rank + relationship types with no hierarchy.
 
 **Fix:** One default row; tuck relationship filters into a "Relationships" disclosure (like notes-list Refine).  
 **Command:** `/impeccable layout layouts/notes/graph.html`
@@ -1439,7 +1439,7 @@ Hero: "Jonathan Rapusas." Header/title/copyright: "JoRap Notes."
 **Command:** `/impeccable clarify layouts/_partials/essentials/header.html`
 
 ### [P2] Homepage credibility gap
-`home_proof` disabled (good - removed duplication), but nothing replaced it. Capability copy without outcome evidence.
+`home_proof` disabled (good — removed duplication), but nothing replaced it. Capability copy without outcome evidence.
 
 **Fix:** One proof block when you have real evidence (quote, outcome, work strip).  
 **Command:** `/impeccable shape themes/jorap/layouts/_partials/sections/home-proof.html`
@@ -1466,7 +1466,7 @@ Hero: "Jonathan Rapusas." Header/title/copyright: "JoRap Notes."
 ## Minor Observations
 
 - Mobile abbreviations ("Duo", "Create") increase recall cost.
-- Blog mobile TOC collapses; notes mobile TOC doesn't - inconsistent.
+- Blog mobile TOC collapses; notes mobile TOC doesn't — inconsistent.
 - `0.375rem` radius on graph/selects isn't in DESIGN.md scale.
 - `heading-title-case` can break proper nouns ("Wordpress").
 
@@ -1486,7 +1486,7 @@ Hero: "Jonathan Rapusas." Header/title/copyright: "JoRap Notes."
 
 ## Questions
 
-1. **Priority:** Notes toolbar density, graph filters, or header identity - which matters most right now?
+1. **Priority:** Notes toolbar density, graph filters, or header identity — which matters most right now?
 2. **Audience:** Should Notes read as "Ideas" for buyers with author tools hidden by default?
 3. **Scope:** Top 3 P1s only, or include P2 proof/search work?
 
@@ -1494,11 +1494,11 @@ Hero: "Jonathan Rapusas." Header/title/copyright: "JoRap Notes."
 
 ## Recommended Actions (if you want to proceed)
 
-1. **`/impeccable distill`** - Tier notes toolbar (read vs author tools)
-2. **`/impeccable layout`** - Collapse graph relationship filters
-3. **`/impeccable clarify`** - Align header brand with Jonathan Rapusas
-4. **`/impeccable shape`** - Plan homepage proof when evidence exists
-5. **`/impeccable polish`** - Final pass after fixes
+1. **`/impeccable distill`** — Tier notes toolbar (read vs author tools)
+2. **`/impeccable layout`** — Collapse graph relationship filters
+3. **`/impeccable clarify`** — Align header brand with Jonathan Rapusas
+4. **`/impeccable shape`** — Plan homepage proof when evidence exists
+5. **`/impeccable polish`** — Final pass after fixes
 
 Re-run `/impeccable critique` after changes to track score movement (homepage was 27/40 in June; site-wide is 30/40 now).
 
@@ -2122,7 +2122,7 @@ Hugo build passes.
 **Resolved:** toolbar overload, graph filter wall  
 **Still open:** dual identity (JoRap Notes vs Jonathan Rapusas), homepage proof, icon-only search
 
-The notes garden reads calmer for client skims without dropping author tools - they're one click behind Tools instead of competing on the main row.
+The notes garden reads calmer for client skims without dropping author tools — they're one click behind Tools instead of competing on the main row.
 
 ---
 
@@ -2610,4 +2610,4 @@ Updated `key_concept` in `content/english/notes/crdt.md`:
 - First line now reads **Conflict-free replicated data types (CRDTs)** instead of jumping straight to "Conflict-free sync"
 - Second line uses **they** so the abbreviation isn't repeated without the gloss
 
-Title stays **CRDT** - that's the note name; the key concept is where readers need the full term first.
+Title stays **CRDT** — that's the note name; the key concept is where readers need the full term first.

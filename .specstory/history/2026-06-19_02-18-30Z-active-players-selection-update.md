@@ -683,15 +683,15 @@ _**Agent (default)**_
 Updated **Matches to Watch Out For** to drop retired players and add current top-tier fixtures.
 
 **Removed (retired):**
-- **Angelique Kerber** - retired after the 2024 Olympics
-- **Petra Kvitova** - retired after the 2025 US Open
+- **Angelique Kerber** — retired after the 2024 Olympics
+- **Petra Kvitova** — retired after the 2025 US Open
 
 **Added (active, no pro H2H yet):**
-- **Belinda Bencic** - Olympic gold medalist; 2026 Rome semifinalist
-- **Marta Kostyuk** - 2026 Roland Garros semifinalist; top-12 fixture
-- **Diana Shnaider** - 2026 Roland Garros semifinalist; 2025 Monterrey champion
+- **Belinda Bencic** — Olympic gold medalist; 2026 Rome semifinalist
+- **Marta Kostyuk** — 2026 Roland Garros semifinalist; top-12 fixture
+- **Diana Shnaider** — 2026 Roland Garros semifinalist; 2025 Monterrey champion
 
-The rest of the list (Anisimova, Andreeva, Navarro, Osaka, Sabalenka, Svitolina, Zheng, etc.) stays - all still active on tour. Kenin, Andreescu, and Raducanu are lower-ranked comeback players but still competing in 2026.
+The rest of the list (Anisimova, Andreeva, Navarro, Osaka, Sabalenka, Svitolina, Zheng, etc.) stays — all still active on tour. Kenin, Andreescu, and Raducanu are lower-ranked comeback players but still competing in 2026.
 
 If you want those three swapped for more top-20 fixtures (e.g. Paula Badosa), say the word.
 
@@ -705,7 +705,7 @@ eala has already played against kostyuk and she is top 20
 
 _**Agent (default)**_
 
-Kostyuk belongs in the H2H section, not the watch list - I'll find their match and pick an active replacement.
+Kostyuk belongs in the H2H section, not the watch list — I'll find their match and pick an active replacement.
 
 
 _**Agent (default)**_
@@ -1251,13 +1251,13 @@ _**Agent (default)**_
 Good catch. Kostyuk is promoted and off the watch list.
 
 **Promoted to Matches Against Other Top 20 Players**
-- **Marta Kostyuk** - they met at Rome 2025 (WTA 1000), 1st round, clay, Loss 6-0, 6-1
-- No YouTube embed yet - no verified WTA or broadcaster upload for that match
+- **Marta Kostyuk** — they met at Rome 2025 (WTA 1000), 1st round, clay, Loss 6-0, 6-1
+- No YouTube embed yet — no verified WTA or broadcaster upload for that match
 
 **Removed from Matches to Watch Out For**
 - Marta Kostyuk
 
 **Added to watch list (replacement)**
-- **Paula Badosa** - active, no pro H2H yet, 2025 Australian Open semifinalist
+- **Paula Badosa** — active, no pro H2H yet, 2025 Australian Open semifinalist
 
 Also corrected Belinda Bencic’s WTA ID to `319001` in the reference file.

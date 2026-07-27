@@ -1578,7 +1578,7 @@ _**Agent (auto-low)**_
 Updated verse display standards and wired them into the build.
 
 **Rendering** (`render-content.html`):
-- Any paragraph ending in `(… NASB1995).` gets `class="scripture-verse"` - own line, right-aligned
+- Any paragraph ending in `(… NASB1995).` gets `class="scripture-verse"` — own line, right-aligned
 - Gospel quotes (Matthew/Mark/Luke/John) still get `jesus-words` for red letter inside that block
 - Glosses and commentary stay normal left-aligned `<p>` tags
 
@@ -1592,7 +1592,7 @@ Updated verse display standards and wired them into the build.
 **Standards** (`jorap-voice/SKILL.md`):
 - Documented that verses render on their own line, right-aligned on the site
 - Clarified frontmatter shape is unchanged (one verse per paragraph, blank line before gloss)
-- Added voice-check item: no hand-written HTML in notes - Hugo adds `scripture-verse` at build time
+- Added voice-check item: no hand-written HTML in notes — Hugo adds `scripture-verse` at build time
 
 On a note like `the-narrow-way`, a gospel verse now renders as:
 
@@ -1601,7 +1601,7 @@ On a note like `the-narrow-way`, a gospel verse now renders as:
 <p>Broad road is crowded and easy…</p>
 ```
 
-Paul/Ephesians verses get `scripture-verse` without the red span. No note frontmatter changes needed - existing EP spine notes pick this up on the next build.
+Paul/Ephesians verses get `scripture-verse` without the red span. No note frontmatter changes needed — existing EP spine notes pick this up on the next build.
 
 ---
 
@@ -1635,4 +1635,4 @@ The Hugo build completed successfully. Verse paragraphs are rendering with the n
 - **`scripture-verse`** on all NASB1995 quote paragraphs (right-aligned)
 - **`jesus-words`** on Gospel quotes (Matthew/Mark/Luke/John) for red letter
 
-Checked on `the-narrow-way` and `free-grace` - verses sit on their own right-aligned lines; glosses and commentary stay left-aligned. CSS is in the minified bundle. No note frontmatter changes needed.
+Checked on `the-narrow-way` and `free-grace` — verses sit on their own right-aligned lines; glosses and commentary stay left-aligned. CSS is in the minified bundle. No note frontmatter changes needed.

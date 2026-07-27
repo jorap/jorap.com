@@ -1531,7 +1531,7 @@ The 10-point floor on `hubMinTotal` likely explains the 34 hubs. If the percenti
 
 _**Agent (default)**_
 
-Hub threshold is wrong - Hugo's `sort` on a plain integer slice isn't reliable. Switching to sorting nodes by `totalDegree`.
+Hub threshold is wrong — Hugo's `sort` on a plain integer slice isn't reliable. Switching to sorting nodes by `totalDegree`.
 
 
 _**Agent (default)**_
@@ -2605,7 +2605,7 @@ Fixed. Two separate problems were breaking the Orphans / Hubs / Dead ends filter
 - **Dead ends:** Those same See also links meant no note had `outDegree = 0`, so “Dead ends” matched nothing and faded the whole graph.
 
 **2. Weak filter behavior**
-- Non-matching nodes were only dimmed to 8% opacity instead of hidden, so filters felt broken - especially Dead ends, which left a ghost graph.
+- Non-matching nodes were only dimmed to 8% opacity instead of hidden, so filters felt broken — especially Dead ends, which left a ghost graph.
 
 **What changed**
 
@@ -2619,4 +2619,4 @@ Fixed. Two separate problems were breaking the Orphans / Hubs / Dead ends filter
 
 Rebuild the site (`hugo` or your usual dev server) and try the filters on `/notes/graph/`. Hubs should show a focused cluster; Dead ends should show notes with no in-body wikilinks.
 
-If `hugo` hangs on build, you likely have stale Hugo processes holding the build lock - run `hugo --noBuildLock`, or stop other Hugo builds first.
+If `hugo` hangs on build, you likely have stale Hugo processes holding the build lock — run `hugo --noBuildLock`, or stop other Hugo builds first.

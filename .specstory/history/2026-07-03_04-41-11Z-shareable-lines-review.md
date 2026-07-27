@@ -246,7 +246,7 @@ for path in sorted(NOTES.glob(&#34;*.md&#34;)):
         # fragment heuristics
         if line and line[0].islower():
             issues.append((path.name, f&#34;[{i}] lowercase start&#34;, line[:80]))
-        if line.endswith((&#34;,&#34;, &#34;;&#34;, &#34; and&#34;, &#34; or&#34;, &#34; -&#34;, &#34;-&#34;)):
+        if line.endswith((&#34;,&#34;, &#34;;&#34;, &#34; and&#34;, &#34; or&#34;, &#34; -&#34;, &#34;—&#34;)):
             issues.append((path.name, f&#34;[{i}] dangling end&#34;, line[:80]))
         if line.startswith((&#34;not &#34;, &#34;and &#34;, &#34;or &#34;, &#34;but &#34;, &#34;then &#34;, &#34;when &#34;, &#34;under &#34;, &#34;this &#34;)):
             issues.append((path.name, f&#34;[{i}] fragment start&#34;, line[:80]))
@@ -286,7 +286,7 @@ for path in sorted(NOTES.glob("*.md")):
         # fragment heuristics
         if line and line[0].islower():
             issues.append((path.name, f"[{i}] lowercase start", line[:80]))
-        if line.endswith((",", ";", " and", " or", " -", "-")):
+        if line.endswith((",", ";", " and", " or", " -", "—")):
             issues.append((path.name, f"[{i}] dangling end", line[:80]))
         if line.startswith(("not ", "and ", "or ", "but ", "then ", "when ", "under ", "this ")):
             issues.append((path.name, f"[{i}] fragment start", line[:80]))
@@ -338,7 +338,7 @@ for path in sorted(NOTES.glob(&#34;*.md&#34;)):
         line = line.strip()
         if line and line[0].islower():
             issues.append((path.name, f&#34;[{i}] lowercase start&#34;, line[:90]))
-        if line.endswith((&#34;,&#34;, &#34;;&#34;, &#34; and&#34;, &#34; or&#34;, &#34; -&#34;, &#34;-&#34;, &#34;…&#34;)):
+        if line.endswith((&#34;,&#34;, &#34;;&#34;, &#34; and&#34;, &#34; or&#34;, &#34; -&#34;, &#34;—&#34;, &#34;…&#34;)):
             issues.append((path.name, f&#34;[{i}] dangling end&#34;, line[:90]))
         low = line.lower()
         if any(low.startswith(s) for s in FRAG_START) and i &gt; 0:
@@ -379,7 +379,7 @@ for path in sorted(NOTES.glob("*.md")):
         line = line.strip()
         if line and line[0].islower():
             issues.append((path.name, f"[{i}] lowercase start", line[:90]))
-        if line.endswith((",", ";", " and", " or", " -", "-", "…")):
+        if line.endswith((",", ";", " and", " or", " -", "—", "…")):
             issues.append((path.name, f"[{i}] dangling end", line[:90]))
         low = line.lower()
         if any(low.startswith(s) for s in FRAG_START) and i > 0:
@@ -900,7 +900,7 @@ The audit revealed four specific fragment starters: "not", "and", "or", and "the
 
 _**Agent (auto-low)**_
 
-Narrowing fragment detection - "Under Free Grace..." is a valid principle; only flag true continuations.
+Narrowing fragment detection — "Under Free Grace..." is a valid principle; only flag true continuations.
 
 
 _**Agent (auto-low)**_
@@ -1374,7 +1374,7 @@ Adaptability shows five complete candidates, yet the draft returns only three.
 
 The overlap filter is too aggressive. "Same aim, different plan." is dropped because it overlaps with the full description. It should remain as the fourth candidate.
 
-The overlap filter is actually correct. A full description and its tail should not both appear. A fourth distinct principle is needed instead. One option is to use the contrast tail alone rather than the full description. Another is to add a new sentence such as "When conditions shift, I change tactics - not the goal."
+The overlap filter is actually correct. A full description and its tail should not both appear. A fourth distinct principle is needed instead. One option is to use the contrast tail alone rather than the full description. Another is to add a new sentence such as "When conditions shift, I change tactics — not the goal."
 
 The overlap check may not catch every duplicate. The real fix is to pad each failing note with one more distinct principle sentence. A script will generate these one-liner additions for all fifty-two affected notes.
 
@@ -2005,7 +2005,7 @@ The simpler rule is to require sentence-ending punctuation. Lines without a peri
 
 _**Agent (auto-low)**_
 
-Tightening completeness rules - some lines still read as fragments (e.g. note titles, “Same as…”).
+Tightening completeness rules — some lines still read as fragments (e.g. note titles, “Same as…”).
 
 
 _**Agent (auto-low)**_
@@ -2111,7 +2111,7 @@ A `finalize_line` helper could enforce trailing periods on candidates. It would 
 
 _**Agent (auto-low)**_
 
-Ensuring all candidates end with sentence punctuation - the period requirement dropped too many valid lines.
+Ensuring all candidates end with sentence punctuation — the period requirement dropped too many valid lines.
 
 
 _**Agent (auto-low)**_
@@ -2388,7 +2388,7 @@ notes_content self-check OK
 
 _**Agent (auto-low)**_
 
-Review complete. Every note now has four **independent** `shareable_lines` - complete principles from `description` and `key_concept`, not clause fragments.
+Review complete. Every note now has four **independent** `shareable_lines` — complete principles from `description` and `key_concept`, not clause fragments.
 
 ### What was wrong
 Many notes had lines split mid-sentence (`"not mere intellectual agreement"`, `"then live under the King's rule"`) or dependent tails (`"Same as The Trusted Inbox."`). The old seed script split aggressively on dashes and `"and"`, which produced paste-ready fragments, not standalone principles.
@@ -2396,7 +2396,7 @@ Many notes had lines split mid-sentence (`"not mere intellectual agreement"`, `"
 ### What changed
 
 **Lint & validation** (`notes_content.py`, `lint-notes-frontmatter.py`)
-- `is_complete_shareable_line()` - must end with `.!?`, no continuation words (`not`, `and`, `then`), no `"same as…"` tails, no bare note titles
+- `is_complete_shareable_line()` — must end with `.!?`, no continuation words (`not`, `and`, `then`), no `"same as…"` tails, no bare note titles
 - Fragment check added to frontmatter lint
 
 **Seed logic** (`seed-note-shareable-lines.py`)
@@ -2407,7 +2407,7 @@ Many notes had lines split mid-sentence (`"not mere intellectual agreement"`, `"
 **Thin notes** (`pad-thin-key-concepts.py`)
 - Added principle sentences to ~40 notes whose `key_concept` couldn't yield four distinct lines
 
-**Voice skill** - clarified that each shareable line must stand alone as a complete sentence
+**Voice skill** — clarified that each shareable line must stand alone as a complete sentence
 
 ### Example: `repent-and-believe.md`
 
@@ -4155,7 +4155,7 @@ The audit script failed. Some meta notes may bypass shareable_lines lint while s
 
 _**Agent (auto-low)**_
 
-All notes now pass lint with **self-contained** `shareable_lines` - each one is a complete sentence that lands on its own.
+All notes now pass lint with **self-contained** `shareable_lines` — each one is a complete sentence that lands on its own.
 
 ### What changed
 
@@ -5884,7 +5884,7 @@ The rename from `shareable_lines` to `shareable_thought` is complete.
 
 **Frontmatter & content**
 - All 214 notes now use `shareable_thought:` (array of 4 strings)
-- Blog post `__jorap-notes-features.md` updated to match - field name, headings, and prose all say “shareable thoughts”
+- Blog post `__jorap-notes-features.md` updated to match — field name, headings, and prose all say “shareable thoughts”
 
 **Scripts & tooling**
 - `scripts/seed-note-shareable-thought.py` (replaces `seed-note-shareable-lines.py`)
@@ -5897,11 +5897,11 @@ The rename from `shareable_lines` to `shareable_thought` is complete.
 - TOC and CSS classes use `shareable-thought` / `notes-shareable-thought*`
 
 **Verification**
-- `seed-note-shareable-thought.py --self-check` - OK
-- `lint-notes-frontmatter.py` - OK (214 notes)
+- `seed-note-shareable-thought.py --self-check` — OK
+- `lint-notes-frontmatter.py` — OK (214 notes)
 
 **Intentionally unchanged**
-- Internal helpers like `shareable_lines_overlap()` and `normalize_shareable_line()` - text-level utilities, not the frontmatter field name
+- Internal helpers like `shareable_lines_overlap()` and `normalize_shareable_line()` — text-level utilities, not the frontmatter field name
 
 Regenerate after editing notes with:
 

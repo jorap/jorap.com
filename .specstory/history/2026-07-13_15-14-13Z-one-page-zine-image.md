@@ -309,7 +309,7 @@ The chess zine layout image will be renamed for URL compatibility and added to t
 
 The image will be renamed to `one-page-zine-layout.jpg` for a clean URL. The post uses the `{{< image >}}` shortcode rather than standard markdown.
 
-The caption will read: "Unfolded 8-page zine layout - chess rules at 60 × 85 mm, sized to slip into a card sleeve." The image will be placed after the introduction paragraph or inside the "What you actually get" section.
+The caption will read: "Unfolded 8-page zine layout — chess rules at 60 × 85 mm, sized to slip into a card sleeve." The image will be placed after the introduction paragraph or inside the "What you actually get" section.
 
 The image will be placed after the landscape paragraph, directly following the description of the eight-page split. This keeps the unfolded template layout near the letter-size details it illustrates.
 
