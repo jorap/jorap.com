@@ -7,7 +7,7 @@ date: "2026-07-27T11:46:00Z"
 image: "/images/modern_board_gaming.jpg"
 categories: ["Games", "Opinion"]
 author: "JoRap"
-tags: ["Board Games", "Sports", "Game Design", "Cricket", "Volleyball", "Basketball", "3x3", "Pickleball", "Futsal", "Rugby Sevens", "Flag Football", "Softball", "Chess", "Tennis", "Monopoly Deal", "Jaipur", "Dominion", "Splendor", "Sushi Go", "Las Vegas", "Fluxx", "One Night Ultimate Werewolf", "Marvel Snap", "Opinion"]
+tags: ["Board Games", "Sports", "Game Design", "Cricket", "Volleyball", "Basketball", "3x3", "Pickleball", "Futsal", "Rugby League", "Touch Football", "Rugby Sevens", "Flag Football", "Softball", "Chess", "Tennis", "Monopoly Deal", "Jaipur", "Dominion", "Splendor", "Sushi Go", "Las Vegas", "Fluxx", "One Night Ultimate Werewolf", "Marvel Snap", "Opinion"]
 related_notes:
   - minimum-effective-dose
   - attention-economy
@@ -32,9 +32,11 @@ Hard cap on time. The product fits a slot - and a viewer who has a job.
 
 Cricket is the clearest ladder. **Test** matches eat five days for the purists. **ODI** fits an afternoon. **T20** lands in a few hours and built an entire broadcast culture on top - **powerplays**, **super overs**, franchise leagues, fans who'd never learned leg before wicket. Same sport, different evening.
 
-Basketball does the same split. **3x3** is first to twenty-one or ten minutes - Olympic now, street first. Full **NBA** ball stretches past two hours on TV for a crowd that booked the night. **Rugby sevens** runs seven-minute halves; **union** is eighty minutes of fifteen-a-side contact.
+I still keep up with Tests anyway. The **Ashes** - Australia vs England - is the one series I'll actually follow. I'll watch when Australia is beating England. The funny thing about a five-day match is that the calendar is a lie. You block Saturday through Wednesday and day five can end in a **draw** with both sides still batting and the broadcast filling time with pitch reports nobody asked for. Same series, different year: it's over in **two days** because the pitch turned to dust overnight or someone's batting order collapsed twice before tea. Five days on the schedule. A result in forty-eight hours - or no result at all. **T20** fixed the crowd that needs an answer tonight. Tests kept the weird time.
 
-I stopped pretending I'd sit through a full heavyweight boxing card once the undercard ended. Amateur and Olympic bouts cap lower so the thing actually finishes. Chess went the same direction - classical hours for the titled players, **rapid** and **blitz** for everyone else. I learned on **Chessmaster**, then a **chess hustler** in the park beat me in about ten moves while I was still thinking classical. Online queues and park tables run on the short clock now.
+Basketball does the same split. **3x3** is first to twenty-one or ten minutes - Olympic now, street first. Full **NBA** game stretches past two hours on TV for a crowd that booked the night. **Rugby sevens** runs seven-minute halves; **union** is eighty minutes of fifteen-a-side contact.
+
+I stopped pretending I'd sit through a full heavyweight boxing card once the undercard ended. Amateur and Olympic bouts cap lower so the thing actually finishes. Chess went the same direction - classical hours for the titled players, **rapid** and **blitz** for everyone else. I learned on **Chessmaster**, then a **chess veteran** in the park beat me in about twenty moves while I was still thinking classical. Online queues and park tables run on the short clock now.
 
 Even swimming splits the audience. **Short course** (25m) races turn more often than **long course** (50m) - more walls, more drama per minute. I only really watch it at the Olympics when the pool is short.
 
@@ -48,7 +50,7 @@ Fewer bodies, smaller court. Play what the room actually has.
 
 **3x3** basketball was the **game of the streets** before it was Olympic - one hoop, six players, barangay court or driveway when there's no room for five-on-five. The audience was always there. The Olympics just put a medal on it. Same move everywhere else: **beach volleyball** is two-a-side on sand while **indoor** is six-a-side in a gym marathon; **futsal** is five-a-side on a hard court; **pickup** in a parking lot is the same idea with even fewer rules.
 
-**Touch rugby** drops the scrum pileups. **Sevens** drops the headcount. **Softball** shrinks the diamond; **wiffle ball** fits a backyard. The tennis family keeps shrinking until the rally starts on day one - **pickleball**, **badminton**, **table tennis** - which is how you get community-center leagues and retirees who'd given up on the overhead.
+**Rugby league** is what you watch; **touch football** is what you play in a park to avoid the intense contact. **Rugby Sevens** drops the headcount. **Softball** shrinks the diamond; **wiffle ball** fits a backyard. The tennis family keeps shrinking until the rally starts on day one - **pickleball**, **badminton**, **table tennis** - which is how you get community-center leagues and retirees who'd given up on the overhead.
 
 Youth sports figured this out early. **Small-sided** soccer and **short baskets** mean more touches per kid, less standing in a formation you don't understand yet. The kid who quits full-field at eight might stay in futsal until twelve.
 
@@ -60,7 +62,7 @@ My **travel zip pouch** is the board-game version: **Hanamikoji**, **Sushi Go!**
 
 One rule change that removes the incentive to bore the room - or the viewer who changes the channel.
 
-I learned this teaching **original Catan** to cousins who'd never played. Forty minutes in, nobody had ten points and the trades had stopped. The stall wasn't malice. It was the rules rewarding caution. Find what people do when they're **winning slowly**. Then make that illegal or expensive.
+I haven't played **original Catan** yet. Everyone who teaches it hits the same wall: forty minutes in, nobody at ten points, trades gone quiet. The stall isn't malice. It's the rules rewarding caution. Find what people do when they're **winning slowly**. Then make that illegal or expensive.
 
 Sports got there first. Basketball added the **shot clock** after teams learned they could hold the ball forever when they were ahead - TV audiences in the seventies sat through it and stopped coming back. **Volleyball** moved to **rally scoring** so every rally counts and sets actually finish; broadcasters could finally promise an end time. Tennis has the **tiebreak** at 6-6. Cricket has **powerplay** limits and **super overs** when T20 still ties. Soccer has the **penalty shootout** - and **golden goal** experiments that tried to kill extra-time stalls too. **Badminton** borrowed the same rally-point fix.
 
@@ -104,7 +106,7 @@ Digital does it too. **Marvel Snap** and **Hearthstone** are mobile cousins of t
 
 Spectacle and participation are different products. Different audiences. I live in both lanes and they're not the same lane.
 
-I'll watch **NBA** ball. I play **3x3** pickup with whoever showed up. **Golf** on TV is four days for people who know the leaderboard; I play **nine holes**, a **range**, or **mini golf**. **Cricket** on a screen can be Tests for the die-hards; between neighbors it's street cricket with a tennis ball. **Volleyball** on TV is indoor six-a-side; at the beach it's two-a-side and no libero - a vacation crowd the gym version never chased. **Formula 1** on Sunday. **Karting** once on a birthday - same steering itch, none of the pit crew.
+We normally watch **NBA**, but most play **3x3** pickup with whoever showed up. **Golf** on TV is four days for people who know the leaderboard; People play **nine holes**, a **range**, or **mini golf**. **Cricket** on a screen is mostly **Ashes** score checks for me - Australia vs England, five-day ball I won't sit through start to finish. Between neighbors it's street cricket with a tennis ball. **Volleyball** on TV is indoor six-a-side; at the beach it's two-a-side and no libero - a vacation crowd the gym version never chased. **Formula 1** on Sunday. **Karting** once on a birthday - same steering itch, none of the pit crew.
 
 **Tennis** on TV is **Alex Eala** on a [scrapbook page](/blog/alex-eala-pro-career-tracker/) I control. Playing it is **pickleball** or **badminton** in a smaller room because that's who I am in the participant pool.
 
