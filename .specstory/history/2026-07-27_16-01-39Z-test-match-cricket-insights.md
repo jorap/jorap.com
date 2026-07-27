@@ -363,3 +363,33 @@ Sits ahead of the touch rugby / sevens line so league → touch football is the 
 - Fixed: Added rugby league → touch football pair in shrink-space section and tags.
 - Encode: none
 - Open: clean
+
+---
+
+_**User**_
+
+add more examples
+
+---
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+More examples will be added to the streamlining-games-and-sports.md blog post.
+
+Reviewing the full file to find natural places for more examples across all sections.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/streamlining-games-and-sports.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-love-modern-board-games.md</summary>
+
+</details></tool-use>

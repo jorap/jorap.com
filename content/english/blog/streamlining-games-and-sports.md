@@ -34,9 +34,9 @@ Cricket is the clearest ladder. **Test** matches eat five days for the purists. 
 
 I still keep up with Tests anyway. The **Ashes** - Australia vs England - is the one series I'll actually follow. I'll watch when Australia is beating England. The funny thing about a five-day match is that the calendar is a lie. You block Saturday through Wednesday and day five can end in a **draw** with both sides still batting and the broadcast filling time with pitch reports nobody asked for. Same series, different year: it's over in **two days** because the pitch turned to dust overnight or someone's batting order collapsed twice before tea. Five days on the schedule. A result in forty-eight hours - or no result at all. **T20** fixed the crowd that needs an answer tonight. Tests kept the weird time.
 
-Basketball does the same split. **3x3** is first to twenty-one or ten minutes - Olympic now, street first. Full **NBA** game stretches past two hours on TV for a crowd that booked the night. **Rugby sevens** runs seven-minute halves; **union** is eighty minutes of fifteen-a-side contact.
+Basketball does the same split. **3x3** is first to twenty-one or ten minutes - Olympic now, street first. Full **NBA** game stretches past two hours on TV for a crowd that booked the night. **Rugby sevens** runs seven-minute halves; **union** is eighty minutes of fifteen-a-side contact. **Baseball** is nine innings and a bullpen parade; a **home run derby** or backyard **wiffle ball** wants an answer in twenty swings.
 
-I stopped pretending I'd sit through a full heavyweight boxing card once the undercard ended. Amateur and Olympic bouts cap lower so the thing actually finishes. Chess went the same direction - classical hours for the titled players, **rapid** and **blitz** for everyone else. I learned on **Chessmaster**, then a **chess veteran** in the park beat me in about twenty moves while I was still thinking classical. Online queues and park tables run on the short clock now.
+I stopped pretending I'd sit through a full heavyweight boxing card once the undercard ended. Amateur and Olympic bouts cap lower so the thing actually finishes. Chess went the same direction - classical hours for the titled players, **rapid** and **blitz** for everyone else. I learned on **Chessmaster**, then a **chess veteran** in the park beat me in about twenty moves while I was still thinking classical. Online queues and park tables run on the short clock now. **Snooker** frames can crawl; **pool** in a bar fits between rounds.
 
 Even swimming splits the audience. **Short course** (25m) races turn more often than **long course** (50m) - more walls, more drama per minute. I only really watch it at the Olympics when the pool is short.
 
@@ -50,7 +50,7 @@ Fewer bodies, smaller court. Play what the room actually has.
 
 **3x3** basketball was the **game of the streets** before it was Olympic - one hoop, six players, barangay court or driveway when there's no room for five-on-five. The audience was always there. The Olympics just put a medal on it. Same move everywhere else: **beach volleyball** is two-a-side on sand while **indoor** is six-a-side in a gym marathon; **futsal** is five-a-side on a hard court; **pickup** in a parking lot is the same idea with even fewer rules.
 
-**Rugby league** is what you watch; **touch football** is what you play in a park to avoid the intense contact. **Rugby Sevens** drops the headcount. **Softball** shrinks the diamond; **wiffle ball** fits a backyard. The tennis family keeps shrinking until the rally starts on day one - **pickleball**, **badminton**, **table tennis** - which is how you get community-center leagues and retirees who'd given up on the overhead.
+**Rugby league** is what you watch; **touch football** is what you play in a park to avoid the intense contact. **Rugby Sevens** drops the headcount. **Softball** shrinks the diamond; **wiffle ball** fits a backyard. **Street hockey** is the driveway when there's no ice. The tennis family keeps shrinking until the rally starts on day one - **pickleball**, **badminton**, **table tennis** - which is how you get community-center leagues and retirees who'd given up on the overhead.
 
 Youth sports figured this out early. **Small-sided** soccer and **short baskets** mean more touches per kid, less standing in a formation you don't understand yet. The kid who quits full-field at eight might stay in futsal until twelve.
 
@@ -76,9 +76,9 @@ Remove the one skill that keeps beginners from rallying on day one.
 
 **Tennis** loses people on the **serve** and the **huge court**. **Pickleball** fixes both - underhand serve, smaller court, parks full of people who'd never booked clay. **Andre Agassi** and **John McEnroe** show up at pro crossover events too. The new crowd isn't lesser. It's just different.
 
-Kids don't start with ninety feet and a curveball. They start with **wiffle ball** and **kickball**. Parks run **flag football** when tackle and pads are the TV version, not the Tuesday version. Most adults don't walk onto a golf course cold - they hit a **driving range** or **mini golf** first because the full swing is brutal and memberships aren't free.
+Kids don't start with ninety feet and a curveball. They start with **wiffle ball**, **kickball**, and **T-ball**. Parks run **flag football** when tackle and pads are the TV version, not the Tuesday version. **Bumper bowling** exists because gutters are cruel when you're seven. Most adults don't walk onto a golf course cold - they hit a **driving range**, or **mini golf** first because the full swing is brutal and memberships aren't free.
 
-On the shelf, the gatekeeping skill isn't always athletic. Sometimes it's **vocabulary**, **memory**, or **rules literacy**. **Santorini** gives you spatial tension without chess theory. **Dixit** lets the paintings carry the clue - I'm bad at being clever on turn one and it's never mattered. **Splendor** is engine-building without a forty-page manual. **Strike** is what Davis plays with his grandmother: chuck dice, match numbers, groan at an X.
+On the shelf, the gatekeeping skill isn't always athletic. Sometimes it's **vocabulary**, **memory**, or **rules literacy**. **Santorini** gives you spatial tension without chess theory. **Dixit** lets the paintings carry the clue - I'm bad at being clever on turn one and it's never mattered. **Codenames: Pictures** drops the spelling test entirely. **Splendor** is engine-building without a forty-page manual. **Strike** is what Davis plays with his grandmother: chuck dice, match numbers, groan at an X.
 
 ---
 
@@ -98,7 +98,7 @@ Sometimes shrinking the original isn't enough. You build an adjacent sport or ge
 
 **Pickleball** is the obvious one - wiffle ball, kitchen line, parks near me full of people tennis never chased. **Futsal** isn't just small soccer; it's the skill lab Brazil uses when kids don't have a full pitch. **Softball** isn't "short baseball" either - different pitch, different rhythm, often a different crowd in the stands.
 
-Digital does it too. **Marvel Snap** and **Hearthstone** are mobile cousins of tabletop card games - millions who'd never buy a deck box. I [quit Snap](/blog/why-i-stopped-playing-marvel-snap/) when meta homework outgrew the match. The cousin found its audience. I wasn't in it.
+Digital does it too. **Marvel Snap** and **Hearthstone** are mobile cousins of tabletop card games - millions who'd never buy a deck box. **Balatro** did the same for poker solitaire on a phone. I [quit Snap](/blog/why-i-stopped-playing-marvel-snap/) when meta homework outgrew the match. The cousin found its audience. I wasn't in it.
 
 ---
 
@@ -106,7 +106,7 @@ Digital does it too. **Marvel Snap** and **Hearthstone** are mobile cousins of t
 
 Spectacle and participation are different products. Different audiences. I live in both lanes and they're not the same lane.
 
-We normally watch **NBA**, but most play **3x3** pickup with whoever showed up. **Golf** on TV is four days for people who know the leaderboard; People play **nine holes**, a **range**, or **mini golf**. **Cricket** on a screen is mostly **Ashes** score checks for me - Australia vs England, five-day ball I won't sit through start to finish. Between neighbors it's street cricket with a tennis ball. **Volleyball** on TV is indoor six-a-side; at the beach it's two-a-side and no libero - a vacation crowd the gym version never chased. **Formula 1** on Sunday. **Karting** once on a birthday - same steering itch, none of the pit crew.
+People watch **NBA** games. They usually play **3x3** pickup with whoever showed up. **Golf** on TV is four days for people who know the leaderboard; People play **nine holes**, a **range**, or **mini golf**. **Cricket** on a screen is mostly **Ashes** score checks for me - Australia vs England, five-day ball I won't sit through start to finish. Between neighbors it's street cricket with a tennis ball. **Volleyball** on TV is indoor six-a-side; at the beach it's two-a-side and no libero - a vacation crowd the gym version never chased. **Rugby league** highlights; **touch football** in a park. **Formula 1** on Sunday. **Karting** once on a birthday - same steering itch, none of the pit crew.
 
 **Tennis** on TV is **Alex Eala** on a [scrapbook page](/blog/alex-eala-pro-career-tracker/) I control. Playing it is **pickleball** or **badminton** in a smaller room because that's who I am in the participant pool.
 
@@ -132,13 +132,13 @@ Name the stall first. Then pick the move.
 
 | Stall | Technique | Examples |
 |-------|-----------|----------|
-| Too long | Shrink the clock | T20, 3x3, blitz, Jaipur, Las Vegas, Fluxx |
-| Too big | Shrink space/players | Beach volleyball, futsal, pickleball, TTR: London, travel pouch |
-| Boring when ahead | Cut the stall | Shot clock, rally scoring, tiebreak, simultaneous picks, No Thanks |
-| Too hard to start | Lower the floor | Pickleball, flag football, Dixit, Strike |
+| Too long | Shrink the clock | T20, 3x3, blitz, wiffle ball, pool, Jaipur, Las Vegas, Fluxx |
+| Too big | Shrink space/players | Beach volleyball, futsal, pickleball, street hockey, TTR: London |
+| Boring when ahead | Cut the stall | Shot clock, play clock, rally scoring, tiebreak, No Thanks |
+| Too hard to start | Lower the floor | Pickleball, T-ball, bumper bowling, Codenames Pictures,  Dixit, Strike |
 | Big box scared them off | Same IP, smaller box | Monopoly Deal, Clue Suspect, Catan: On the Road |
 | Trim isn't enough | Invent the cousin | Pickleball, futsal, Marvel Snap |
-| Watch ≠ play | Split the products | NBA/3x3, golf/mini golf, F1/karting, tennis/pickleball |
+| Watch ≠ play | Split the products | NBA/3x3, golf/mini golf, rugby league/touch football, F1/karting, tennis/pickleball |
 
 The full version can stay for the people who want it. Streamlining is how the **next** audience gets in - the kid who quits full-field soccer, the retiree who gave up tennis, the family who'd never open a three-hour box.
 
