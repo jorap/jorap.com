@@ -8,10 +8,10 @@ key_concept: |
   - Level 2: Rollback fails when rollback owners sleep or attend a wedding - match risky updates to when someone awake can undo them.
   - Level 3: A change window is boring calendar hygiene - deploy Tuesday morning, freeze before holidays, keep the old build one click away.
   - Level 4: Stop Friday-night client deploys - Tuesday standup owns rollback if the release goes loud.
-  - Level 5: Not fear of shipping - PKM parallel: [[Maintenance Window]] is scheduled garden prune; change window is scheduled production risk when [[Rollback Principle]] needs awake hands.
+  - Level 5: Not fear of shipping - PKM parallel: [[Maintenance Window]] schedules garden prune; change window schedules production risk when [[Rollback Principle]] needs awake hands.
   - A change window is boring calendar hygiene: deploy Tuesday morning, freeze before holidays, keep the old build one click away.
   - Not fear of shipping - matching risk to coverage.
-  - PKM parallel: [[Maintenance Window]] is scheduled garden prune; change window is scheduled production risk.
+  - PKM parallel: [[Maintenance Window]] schedules garden prune; change window schedules production risk.
   - I ship risky changes when someone awake can roll back, not Friday night when everyone's offline.
 examples:
   - "We stopped Friday-night client deploys after the bad release - Tuesday standup owns rollback if it goes loud."
@@ -20,7 +20,7 @@ shareable_thought:
   - "Risky changes ship when someone awake can roll back, not Friday night when everyone is offline."
   - "Rollback Principle fails when rollback owners sleep or attend a wedding."
   - "A change window is boring calendar hygiene: deploy Tuesday morning, freeze before holidays, keep the old build one click away."
-  - "PKM parallel: Maintenance Window is scheduled garden prune; change window is scheduled production risk."
+  - "PKM parallel: Maintenance Window schedules garden prune; change window schedules production risk."
 relationships:
   - type: alternative
     wikilink: "[[Maintenance Window]]"
@@ -52,7 +52,7 @@ review: true
 card_sets: ["Ethics", "Focus"]
 cards:
   - front: "Client site ready Friday 5pm. When do we push?"
-    back: "Tuesday standup - rollback crew is awake"
+    back: "Tuesday standup - rollback crew stays awake"
   - front: "Wedding weekend - marketing wants a Hugo bump. What's the move?"
     back: "Queue edits - no version bumps until Monday"
   - front: "Bad deploy last Friday - nobody could revert until Monday. What's the rule now?"
