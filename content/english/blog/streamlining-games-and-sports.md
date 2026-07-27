@@ -1,7 +1,7 @@
 ---
-title: "The Best Game Design Is Often a Shorter Version"
+title: "Streamlining Brings the Audience the Uncut Version Never Had"
 meta_title: "Streamlining Techniques in Games and Sports"
-description: "I'm trimming my game shelf and my sports diet the same way designers trim Monopoly - shrink the clock, cut the stall, ship the version people actually play."
+description: "Streamlining isn't just shorter - it's who shows up. T20, pickleball, Monopoly Deal: same hook, smaller package, audiences the uncut version never reached."
 slug: "streamlining-games-and-sports"
 date: "2026-07-27T11:46:00Z"
 image: "/images/modern_board_gaming.jpg"
@@ -10,159 +10,123 @@ author: "JoRap"
 tags: ["Board Games", "Sports", "Game Design", "Cricket", "Volleyball", "Basketball", "3x3", "Pickleball", "Futsal", "Rugby Sevens", "Flag Football", "Softball", "Chess", "Tennis", "Monopoly Deal", "Jaipur", "Dominion", "Splendor", "Sushi Go", "Las Vegas", "Fluxx", "One Night Ultimate Werewolf", "Marvel Snap", "Opinion"]
 related_notes:
   - minimum-effective-dose
-  - information-diet
-  - digital-minimalism
   - attention-economy
   - sunk-cost-fallacy
 featured: false
 draft: true
 ---
 
-I'm trimming my **board game shelf** and my **sports diet** the same way publishers trim **Monopoly** - not because I stopped liking games or sports, but because the full versions kept stalling me.
+I've watched the same move in sports and on my shelf: shrink the package, and **different people show up**.
 
-Test cricket. Indoor volleyball. The big box that never finished. I used to think that meant I didn't love the thing. It meant I loved the hook and hated the **package**.
+**T20** and the **IPL** brought in millions who would never block five days for a Test draw. **Pickleball** didn't steal tennis players - it recruited retirees, neighbors, and people who bounced off the serve. **Monopoly Deal** sells to families who'd walk past the big **Monopoly** box in the aisle.
 
-The interesting work is picking a **technique** - shrink the clock, shrink the space, cut the stall, lower the skill floor - and applying it to whatever blocks the room. Same spine. Smarter package. That's what I watch for when I buy, teach, follow, or play.
+I used to think a shorter version meant I didn't love the original. Wrong. I loved the hook. The uncut version was built for people who already had the time, the court, and the rules in their head. Everyone else walked past.
+
+Leagues and designers pick a move - shrink the clock, shrink the space, cut the stall, lower the skill floor - and ship something a newcomer can actually join. Same spine. Smaller door. That's what I watch for when I buy, teach, follow, or play.
 
 ---
 
 ## Shrink the clock
 
-**Technique:** hard cap on time so the product fits a slot.
+Hard cap on time. The product fits a slot - and a viewer who has a job.
 
-**Cricket:** **Test** matches eat five days. **ODI** fits an afternoon. **T20** lands in a few hours, then **powerplays** and **super overs** on top.
+Cricket is the clearest ladder. **Test** matches eat five days for the purists. **ODI** fits an afternoon. **T20** lands in a few hours and built an entire broadcast culture on top - **powerplays**, **super overs**, franchise leagues, fans who'd never learned leg before wicket. Same sport, different evening.
 
-**Basketball:** **3x3** is first to twenty-one or ten minutes. Full **NBA** ball stretches past two hours on TV.
+Basketball does the same split. **3x3** is first to twenty-one or ten minutes - Olympic now, street first. Full **NBA** ball stretches past two hours on TV for a crowd that booked the night. **Rugby sevens** runs seven-minute halves; **union** is eighty minutes of fifteen-a-side contact.
 
-**Rugby:** **Sevens** runs seven-minute halves. **Union** is eighty minutes of fifteen-a-side contact.
+I stopped pretending I'd sit through a full heavyweight boxing card once the undercard ended. Amateur and Olympic bouts cap lower so the thing actually finishes. Chess went the same direction - classical hours for the titled players, **rapid** and **blitz** for everyone else. I learned on **Chessmaster**, then a **chess hustler** in the park beat me in about ten moves while I was still thinking classical. Online queues and park tables run on the short clock now.
 
-**Boxing** on TV is twelve rounds. I stopped pretending I'd sit through a full heavyweight card once the undercard ended. Amateur and Olympic bouts cap lower so the thing actually finishes.
+Even swimming splits the audience. **Short course** (25m) races turn more often than **long course** (50m) - more walls, more drama per minute. I only really watch it at the Olympics when the pool is short.
 
-**Chess:** classical hours, **rapid**, **blitz**. I learned on **Chessmaster**, then a **chess hustler** beat me in about ten moves. Maybe he was thinking blitz while I still had the classical mindset.
-
-**Swimming:** **short course** (25m) races turn more often than **long course** (50m) - more walls, more drama per minute. I only really watch it at the Olympics when the pool is short.
-
-**Board games on my shelf:** **Hanamikoji** is four turns each. **Love Letter** is sixteen cards. **Jaipur** is two rounds to win the game. **Las Vegas** is four casino rounds. **Fluxx** ends when someone hits the goal card - chaos, but bounded. **Rainbow** is one tiny deck and done before dessert.
+On my shelf, the clock cap is how cousins end up at the table. **Hanamikoji** is four turns each - I taught it to people who'd never heard of worker placement. **Jaipur** is two rounds. **Love Letter** is sixteen cards. **Las Vegas** is four casino rounds. **Fluxx** ends when someone hits the goal card. **Rainbow** is one tiny deck and done before dessert.
 
 ---
 
 ## Shrink the space and the headcount
 
-**Technique:** fewer bodies, smaller court, play what the room actually has.
+Fewer bodies, smaller court. Play what the room actually has.
 
-**Basketball:** **3x3** was the **game of the streets** before it was Olympic - one hoop, six players, barangay court or driveway when there's no room for five-on-five.
+**3x3** basketball was the **game of the streets** before it was Olympic - one hoop, six players, barangay court or driveway when there's no room for five-on-five. The audience was always there. The Olympics just put a medal on it. Same move everywhere else: **beach volleyball** is two-a-side on sand while **indoor** is six-a-side in a gym marathon; **futsal** is five-a-side on a hard court; **pickup** in a parking lot is the same idea with even fewer rules.
 
-**Volleyball:** **Beach** is two-a-side on sand. **Indoor** is six-a-side in a gym marathon.
+**Touch rugby** drops the scrum pileups. **Sevens** drops the headcount. **Softball** shrinks the diamond; **wiffle ball** fits a backyard. The tennis family keeps shrinking until the rally starts on day one - **pickleball**, **badminton**, **table tennis** - which is how you get community-center leagues and retirees who'd given up on the overhead.
 
-**Soccer:** **Futsal** is five-a-side on a hard court. **Pickup** in a parking lot is the same technique with even fewer rules.
+Youth sports figured this out early. **Small-sided** soccer and **short baskets** mean more touches per kid, less standing in a formation you don't understand yet. The kid who quits full-field at eight might stay in futsal until twelve.
 
-**Rugby:** **Touch rugby** drops the scrum pileups. **Sevens** drops the headcount.
-
-**Tennis family:** **Pickleball**, **badminton**, **table tennis** - shrink until the rally starts on day one.
-
-**Baseball:** **Softball** is a smaller diamond and underhand pitch. **Wiffle ball** fits a backyard.
-
-**Board games:** **Ticket to Ride: London** and **New York** are smaller maps. **Catan: On the Road** drops the hex spread. **Jaipur** is two players and a shared market - no table sprawl. My **travel zip pouch** is card games only: **Hanamikoji**, **Sushi Go!**, **Vegetable Stock**, **Jungo** - nothing that needs a twenty-minute setup on someone else's kitchen counter.
-
-**Youth sports** run **small-sided** soccer and **short baskets** for the same reason - more touches per kid, less standing in a formation you don't understand yet.
+My **travel zip pouch** is the board-game version: **Hanamikoji**, **Sushi Go!**, **Vegetable Stock**, **Jungo** - card games only, nothing that needs a twenty-minute setup on someone else's kitchen counter. **Ticket to Ride: London** and **New York** are smaller maps. **Catan: On the Road** drops the hex spread. **Jaipur** is two players and a shared market - no table sprawl.
 
 ---
 
 ## Cut the stall
 
-**Technique:** one rule change that removes the incentive to bore the room.
+One rule change that removes the incentive to bore the room - or the viewer who changes the channel.
 
-**Basketball:** the **shot clock** - without it, the leading team could hold the ball forever.
+I learned this teaching **original Catan** to cousins who'd never played. Forty minutes in, nobody had ten points and the trades had stopped. The stall wasn't malice. It was the rules rewarding caution. Find what people do when they're **winning slowly**. Then make that illegal or expensive.
 
-**Volleyball:** **rally scoring** replaced **side-out scoring**. Every rally counts now. Sets finish.
+Sports got there first. Basketball added the **shot clock** after teams learned they could hold the ball forever when they were ahead - TV audiences in the seventies sat through it and stopped coming back. **Volleyball** moved to **rally scoring** so every rally counts and sets actually finish; broadcasters could finally promise an end time. Tennis has the **tiebreak** at 6-6. Cricket has **powerplay** limits and **super overs** when T20 still ties. Soccer has the **penalty shootout** - and **golden goal** experiments that tried to kill extra-time stalls too. **Badminton** borrowed the same rally-point fix.
 
-**Tennis:** the **tiebreak** at 6-6.
-
-**Cricket:** **powerplay** limits and **super overs** when T20 still ties.
-
-**Soccer:** **penalty shootout** when ninety minutes aren't enough. **Golden goal** experiments tried to kill extra-time stalls too.
-
-**Badminton:** **rally point** scoring - same family fix as volleyball.
-
-**Board games:** **simultaneous picks** in **Sushi Go!**, **Vegetable Stock** - nobody waits through five thinkers. **Las Vegas** makes everyone commit dice at once. **Splendor** ends on a visible point threshold. **No Thanks** forces a take-or-pay decision every card - no infinite pass loop. **Century** shows the engine speeding up card by card so nobody farms in silence for twenty minutes.
-
-I learned this one the hard way teaching **original Catan** to cousins who'd never played - forty minutes in, nobody had ten points and the trades had stopped. The stall wasn't malice. It was the rules rewarding caution.
-
-Find what people do when they're **winning slowly**. Then make that illegal or expensive.
+Board games use the same trick in smaller ways. **Sushi Go!** uses simultaneous picks so nobody waits through five thinkers. **Vegetable Stock** punishes what you leave behind - prices climb until they crash, so nobody sits on one veggie forever. **Las Vegas** makes everyone commit dice at once. **Splendor** ends on a visible point threshold. **No Thanks** forces a take-or-pay decision every card. **Century** speeds up card by card so nobody farms in silence for twenty minutes.
 
 ---
 
 ## Lower the skill floor
 
-**Technique:** remove the gatekeeping skill so beginners rally on day one.
+Remove the one skill that keeps beginners from rallying on day one.
 
-**Tennis** loses people on the **serve** and the **huge court**. **Pickleball** fixes both with an **underhand serve** and a smaller court. Retirees play it. So do **Andre Agassi** and **John McEnroe** in pro crossover events - same paddle itch, less knee tax.
+**Tennis** loses people on the **serve** and the **huge court**. **Pickleball** fixes both - underhand serve, smaller court, parks full of people who'd never booked clay. **Andre Agassi** and **John McEnroe** show up at pro crossover events too. The new crowd isn't lesser. It's just different.
 
-**Baseball** on TV is ninety feet and a curveball. Kids play **wiffle ball** and **kickball**.
+Kids don't start with ninety feet and a curveball. They start with **wiffle ball** and **kickball**. Parks run **flag football** when tackle and pads are the TV version, not the Tuesday version. Most adults don't walk onto a golf course cold - they hit a **driving range** or **mini golf** first because the full swing is brutal and memberships aren't free.
 
-**American football** on TV is tackle and pads. Parks run **flag football**.
-
-**Golf** on TV is course management and a wicked short game. Most people start at a **driving range** or **mini golf** because the full swing is brutal to learn.
-
-**Board games:** **Santorini** is spatial tension without chess theory. **Dixit** lets the paintings carry the clue - I'm bad at being clever on turn one and it's never mattered. **Splendor** is engine-building without a forty-page manual. **Strike** is what Davis plays with his grandmother - chuck dice, match numbers, groan at an X.
-
-The gatekeeping skill isn't always athletic. Sometimes it's **vocabulary**, **memory**, or **rules literacy**.
+On the shelf, the gatekeeping skill isn't always athletic. Sometimes it's **vocabulary**, **memory**, or **rules literacy**. **Santorini** gives you spatial tension without chess theory. **Dixit** lets the paintings carry the clue - I'm bad at being clever on turn one and it's never mattered. **Splendor** is engine-building without a forty-page manual. **Strike** is what Davis plays with his grandmother: chuck dice, match numbers, groan at an X.
 
 ---
 
 ## Same IP, smaller box
 
-**Technique:** keep the franchise hook, ship a weeknight SKU.
+Keep the franchise hook. Ship the weeknight version.
 
-**Monopoly Deal** - three property sets, fifteen minutes. **Clue Suspect** - murder mystery in a deck. **Catan: On the Road** - pocket build-and-trade. **Ticket to Ride** city maps.
+**Monopoly Deal** is three property sets and fifteen minutes in the card-game aisle - same rent-and-steal itch, no box that scares off a casual buyer. **Clue Suspect** is murder mystery in a deck. **Catan: On the Road** is pocket build-and-trade. **Ticket to Ride** city maps fit couples who don't own a dining table.
 
-That's the technique I use on my own shelf. I kept **Monopoly Deal** and skipped buying the big **Monopoly** board again. I kept **Ticket to Ride: London** before I bothered with the continent map.
-
-Publishers sell the **appetizer**. I buy the appetizer when I know the main course will rot on the shelf.
+I kept **Monopoly Deal** and skipped buying the big board again. **Ticket to Ride: London** before the continent map. The small SKU isn't a downgrade. It's how the franchise reaches families who'd otherwise buy nothing.
 
 ---
 
 ## Invent the cousin
 
-**Technique:** when trimming isn't enough, build an adjacent sport or genre.
+Sometimes shrinking the original isn't enough. You build an adjacent sport or genre and recruit a crowd the parent never had.
 
-**Pickleball** invented a cousin with a wiffle ball and a kitchen line. **Futsal** is a skill lab, not just small soccer.
+**Pickleball** is the obvious one - wiffle ball, kitchen line, parks near me full of people tennis never chased. **Futsal** isn't just small soccer; it's the skill lab Brazil uses when kids don't have a full pitch. **Softball** isn't "short baseball" either - different pitch, different rhythm, often a different crowd in the stands.
 
-**Softball** isn't "short baseball" - different pitch, different rhythm, different league culture.
-
-**Marvel Snap** and **Hearthstone** are mobile cousins of tabletop card games. I [quit Snap](/blog/why-i-stopped-playing-marvel-snap/) when meta homework outgrew the match. The cousin was right. My attention wasn't.
+Digital does it too. **Marvel Snap** and **Hearthstone** are mobile cousins of tabletop card games - millions who'd never buy a deck box. I [quit Snap](/blog/why-i-stopped-playing-marvel-snap/) when meta homework outgrew the match. The cousin found its audience. I wasn't in it.
 
 ---
 
 ## Watch the broadcast. Play the cousin.
 
-**Technique:** accept that spectacle and participation are different products.
+Spectacle and participation are different products. Different audiences. I live in both lanes and they're not the same lane.
 
-I'll watch **NBA** ball. I play **3x3** pickup. **Golf** on TV is four days. I play **nine holes**, a **range**, or **mini golf**. **Cricket** on a screen can be Tests. Between neighbors it's street cricket with a tennis ball. **Volleyball** on TV is indoor six-a-side. At the beach it's two-a-side and no libero. **Formula 1** on Sunday. **Karting** once on a birthday - same steering itch, none of the pit crew.
+I'll watch **NBA** ball. I play **3x3** pickup with whoever showed up. **Golf** on TV is four days for people who know the leaderboard; I play **nine holes**, a **range**, or **mini golf**. **Cricket** on a screen can be Tests for the die-hards; between neighbors it's street cricket with a tennis ball. **Volleyball** on TV is indoor six-a-side; at the beach it's two-a-side and no libero - a vacation crowd the gym version never chased. **Formula 1** on Sunday. **Karting** once on a birthday - same steering itch, none of the pit crew.
 
-**Tennis** on TV is **Alex Eala** on a [scrapbook page](/blog/alex-eala-pro-career-tracker/) I control. Playing it is **pickleball** or **badminton** in a smaller room.
+**Tennis** on TV is **Alex Eala** on a [scrapbook page](/blog/alex-eala-pro-career-tracker/) I control. Playing it is **pickleball** or **badminton** in a smaller room because that's who I am in the participant pool.
 
-**Watching isn't playing.** Keep Sunday on TV. Ship Tuesday in the parking lot.
+Watching isn't playing. Both audiences can exist. Streamlining is how the second one gets a product.
 
 ---
 
-## How I'm trimming my shelf and my feeds
+## What I buy when the audience is three cousins
 
-This isn't theory. It's what I actually did.
+I don't trim my shelf for minimalism. I buy the version that lets **new people** sit down.
 
-**Cut from the shelf:** anything that needs a forty-minute teach before fun starts. Anything that blows past an hour without a good reason. The big **Monopoly** board - I never finished it once. **Deception** when the table's too cool for clues. Games where setup eats the session.
+Anything that needs a forty-minute teach before fun starts stays at the store. The big **Monopoly** board never finished at my table - but **Monopoly Deal** did, with cousins who'd never rolled dice in a board game. **Deception** dies when the table's too cool for clues. **Dixit** survives mixed groups because the paintings carry people who'd freeze on turn one.
 
-**Kept on the shelf:** the reformats - **Monopoly Deal**, **TTR** cities, **Catan: On the Road**, **Hanamikoji**, **Jaipur**, **Sushi Go!**, **Strike**, **Las Vegas**, **Ohanami**, **Century**, **Dixit** for mixed groups.
+What stayed: **Monopoly Deal**, **TTR** cities, **Catan: On the Road**, **Hanamikoji**, **Jaipur**, **Sushi Go!**, **Strike**, **Las Vegas**, **Ohanami**, **Century**, **Dixit**. The travel pouch is card games only - whatever fits flat next to a laptop charger, because the audience is whoever's in the hotel room.
 
-**Travel pouch only:** card games that lie flat next to a laptop charger. If it won't fit in the zip bag, it stays home.
-
-I wrote the longer game shelf in [why I love modern board games](/blog/why-i-love-modern-board-games/). This post is the **technique list** behind those picks.
+I wrote the longer game shelf in [why I love modern board games](/blog/why-i-love-modern-board-games/). This post is the **audience logic** behind those picks.
 
 ---
 
 ## If you're designing or buying
 
-Name the stall first. Then pick the technique.
+Name the stall first. Then pick the move.
 
 | Stall | Technique | Examples |
 |-------|-----------|----------|
@@ -174,6 +138,6 @@ Name the stall first. Then pick the technique.
 | Trim isn't enough | Invent the cousin | Pickleball, futsal, Marvel Snap |
 | Watch ≠ play | Split the products | NBA/3x3, golf/mini golf, F1/karting, tennis/pickleball |
 
-The full version can stay for the people who want it. The technique is how everyone else gets a seat - and how I stopped buying boxes I'd never open.
+The full version can stay for the people who want it. Streamlining is how the **next** audience gets in - the kid who quits full-field soccer, the retiree who gave up tennis, the family who'd never open a three-hour box.
 
-Try naming the stall before you blame yourself for "not liking sports" or "not liking board games." You might just hate the **uncut** version.
+If you're designing, ask who bounces off the uncut version and which move opens the door. If you're buying or playing, same question - you might not dislike sports or board games. You might just be the crowd the **uncut** package never built for.

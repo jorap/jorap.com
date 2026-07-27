@@ -155,3 +155,193 @@ Updated `streamlining-games-and-sports.md`: `draft: false` → `draft: true`. Hu
 - Fixed: Set `streamlining-games-and-sports.md` to `draft: true` so it stays off the live site.
 - Encode: none
 - Open: clean
+
+---
+
+_**User**_
+
+do not mention padel in this project
+
+---
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Remove all mentions of "padel" from the blog post and the rest of the project.
+
+Searching the project for all "padel" references to gauge the full scope.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Searching the project for "padel" mentions.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": true,
+  "pattern": "padel|Padel"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "padel|Padel",
+  "topFiles": [
+    {
+      "matchCount": 5,
+      "uri": ".specstory/history/2026-07-27_11-46-14Z-blog-on-streamlining-games.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/blog/streamlining-games-and-sports.md"
+    }
+  ],
+  "totalFiles": 2,
+  "totalMatches": 7
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Padel will be removed from this project.
+
+Only `streamlining-games-and-sports.md` needs editing. The specstory history files will be left untouched.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/streamlining-games-and-sports.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": true,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content",
+  "pattern": "padel|Padel"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content",
+  "pattern": "padel|Padel",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": "content/english/blog/streamlining-games-and-sports.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 2
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The only mention of padel is in the blog post.
+
+Removing "Padel" from tags and line 129. The revised sentence pairs pickleball and futsal instead.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Removing padel from the blog post tags and body.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/streamlining-games-and-sports.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/streamlining-games-and-sports.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Checking for other occurrences of "padel" in the repository outside .specstory files.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": true,
+  "glob": "!**/.specstory/**",
+  "pattern": "padel|Padel"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "padel|Padel",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Padel has been removed from the project outside of .specstory history.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Removed padel from `streamlining-games-and-sports.md`: dropped it from the tags list and cut the walled-tennis sentence in the "Invent the cousin" section. Pickleball and futsal still carry that paragraph.
+
+No other mentions in site content (`content/`, layouts, etc.). Only leftover references are in `.specstory/` session history, which I left alone.
+
+## Session close
+- Fixed: Removed all padel mentions from the streamlining blog post.
+- Encode: none
+- Open: clean
