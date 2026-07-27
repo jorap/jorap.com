@@ -7,7 +7,7 @@ date: "2026-07-27T11:46:00Z"
 image: "/images/modern_board_gaming.jpg"
 categories: ["Games", "Opinion"]
 author: "JoRap"
-tags: ["Board Games", "Sports", "Game Design", "Cricket", "Volleyball", "Basketball", "3x3", "Pickleball", "Padel", "Futsal", "Rugby Sevens", "Flag Football", "Softball", "Chess", "Tennis", "Monopoly Deal", "Jaipur", "Dominion", "Splendor", "Sushi Go", "Las Vegas", "Fluxx", "One Night Ultimate Werewolf", "Marvel Snap", "Opinion"]
+tags: ["Board Games", "Sports", "Game Design", "Cricket", "Volleyball", "Basketball", "3x3", "Pickleball", "Futsal", "Rugby Sevens", "Flag Football", "Softball", "Chess", "Tennis", "Monopoly Deal", "Jaipur", "Dominion", "Splendor", "Sushi Go", "Las Vegas", "Fluxx", "One Night Ultimate Werewolf", "Marvel Snap", "Opinion"]
 related_notes:
   - minimum-effective-dose
   - information-diet
@@ -15,7 +15,7 @@ related_notes:
   - attention-economy
   - sunk-cost-fallacy
 featured: false
-draft: false
+draft: true
 ---
 
 I'm trimming my **board game shelf** and my **sports diet** the same way publishers trim **Monopoly** - not because I stopped liking games or sports, but because the full versions kept stalling me.
@@ -126,7 +126,7 @@ Publishers sell the **appetizer**. I buy the appetizer when I know the main cour
 
 **Technique:** when trimming isn't enough, build an adjacent sport or genre.
 
-**Pickleball** invented a cousin with a wiffle ball and a kitchen line. **Padel** walled tennis for social doubles. **Futsal** is a skill lab, not just small soccer.
+**Pickleball** invented a cousin with a wiffle ball and a kitchen line. **Futsal** is a skill lab, not just small soccer.
 
 **Softball** isn't "short baseball" - different pitch, different rhythm, different league culture.
 
