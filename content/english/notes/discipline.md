@@ -1,11 +1,11 @@
 ---
 title: "Discipline"
 meta_title: "Discipline - Doing What You Committed When Motivation Drops"
-description: "Do what was promised when nobody is clapping and motivation walked out."
+description: "Keep the promise when nobody is clapping and motivation walked out."
 key_concept: |
-  - Discipline is keeping the commitment when the feeling that started it is gone.
+  - Discipline keeps the commitment when the feeling that started it left.
   - Level 1: Keep your promise when you do not feel like it, like showing up for practice when you want the couch.
-  - Level 2: Discipline is like watering plants on vacation - the schedule runs even when excitement left the room.
+  - Level 2: Discipline matches watering plants on vacation - the schedule runs even when excitement left the room.
   - Level 3: Because motivation fades, systems and habit carry the rep when excitement walks out the door.
   - Level 4: Do what you said you would do today even when nobody is watching and nobody claps - the boring rep counts anyway.
   - Level 5: The applause was never reliable fuel - [[Habit Formation]] and systems carry the rep when motivation walked out; Tuesday work defines the person, not launch day.
@@ -16,8 +16,8 @@ examples:
   - "The baker opens at 4am whether she is inspired or not - discipline is the shift she committed to when motivation was not there."
   - "Discipline is loading the dishwasher when I would rather scroll - same as brushing teeth when you are already late."
 shareable_thought:
-  - "Do what was promised when nobody is clapping and motivation walked out."
-  - "Discipline is keeping the commitment when the feeling that started it is gone."
+  - "Keep the promise when nobody is clapping and motivation walked out."
+  - "Discipline keeps the commitment when the feeling that started it left."
   - "The applause was never reliable fuel."
   - "It shows up for the highlight, not the Tuesday rep."
 relationships:

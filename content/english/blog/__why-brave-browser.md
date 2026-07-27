@@ -38,7 +38,7 @@ The first week felt almost suspicious - pages loading faster, fewer modals, fewe
 
 ## Chromium underneath, so the web still behaves
 
-I've bounced off browsers that were philosophically pure and practically annoying. Sites that assumed Chrome. Logins that broke in weird ways. Extensions I relied on that didn't exist or hadn't been updated since 2019.
+I've bounced off browsers that were philosophically pure and practically annoying. Sites that assumed Chrome. Logins that broke in weird ways. Extensions I relied on that didn't exist or stopped getting updates in 2019.
 
 Brave is **Chromium with a different coat of paint**. Hugo builds, Google Docs, WordPress admin, Bitwarden, the dark-mode extension I refuse to give up - they run the way I've learned to expect. I'm not retraining my hands for a different engine just to make a point about the open web.
 

@@ -103,7 +103,7 @@ Git lowered the cost of **joining mid-stream**. Read the history. See who change
 
 Philippines dev communities run on this now whether we say "open source" out loud or not. WordPress meetups, GitHub student accounts, client repos on free tiers, agencies passing themes around - all of it sits on Git. The license says you may use the code. **Git is how you actually touch it** without breaking everyone else.
 
-I taught seminars where students could install the same stack I used because nothing was trapped behind a license server. Git was the handshake between "here's the project" and "now show me your fix."
+I taught seminars where students could install the same stack I used without a license server blocking them. Git was the handshake between "here's the project" and "now show me your fix."
 
 ---
 

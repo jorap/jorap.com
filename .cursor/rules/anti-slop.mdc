@@ -51,9 +51,9 @@ Structural slop is caught by `pnpm lint:slop` / `pnpm slop:scan` (`data/slop-rul
 ## Publish checklist
 
 ```bash
-pnpm slop:score path/to/draft.md   # before voice passes — note per100w
+pnpm slop:score path/to/note.md   # notes: frontmatter prose + body; blog: body only
 # … jorap-voice / garden-voice passes …
-pnpm slop:score path/to/draft.md   # after — score should drop
+pnpm slop:score path/to/draft.md   # after — score should drop (notes: frontmatter + body)
 pnpm lint:blog && pnpm lint:voice && pnpm lint:slop
 ```
 

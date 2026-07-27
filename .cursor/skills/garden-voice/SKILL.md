@@ -237,7 +237,7 @@ If yes to all four, you're in the zone - even when the tone stays cool and direc
 
 ## Slop gate (structural)
 
-Vocabulary: `pnpm lint:voice` (`data/voice-words.yaml`). Structure: `pnpm lint:slop --notes-only` (`data/slop-rules.yaml`). Mechanical form: `pnpm slop:score` on the note file (lower per100w is cleaner). Full garden gate: `pnpm lint:garden`.
+Vocabulary: `pnpm lint:voice` (`data/voice-words.yaml`). Structure: `pnpm lint:slop --notes-only` (`data/slop-rules.yaml`). Mechanical form: `pnpm slop:score` on the note file scores frontmatter prose + body (lower per100w is cleaner). Full garden gate: `pnpm lint:garden`.
 
 **Hard fails** in frontmatter fields:
 - `users should` / `one might` / `it is recommended`

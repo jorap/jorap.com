@@ -140,6 +140,40 @@ def split_frontmatter(text: str) -> tuple[str, str]:
     return text[3:end].strip(), text[end + 4 :]
 
 
+def note_prose_chunks(meta: dict[str, Any], body: str = "") -> list[tuple[str, str]]:
+    """Named prose slices from a garden note for slop lint/score."""
+    chunks: list[tuple[str, str]] = []
+    for key in ("description", "key_concept"):
+        val = meta.get(key)
+        if isinstance(val, str) and val.strip():
+            chunks.append((key, val))
+    for key in ("examples", "shareable_thought"):
+        val = meta.get(key)
+        if isinstance(val, list):
+            for i, item in enumerate(val):
+                if isinstance(item, str) and item.strip():
+                    chunks.append((f"{key}[{i}]", item))
+    for i, card in enumerate(meta.get("cards") or []):
+        if not isinstance(card, dict):
+            continue
+        for side in ("front", "back"):
+            val = card.get(side)
+            if isinstance(val, str) and val.strip():
+                chunks.append((f"cards[{i}].{side}", val))
+    for row in meta.get("relationships") or []:
+        if isinstance(row, dict):
+            reason = row.get("reason")
+            if isinstance(reason, str) and reason.strip():
+                chunks.append(("relationships.reason", reason))
+    if body.strip():
+        chunks.append(("body", body))
+    return chunks
+
+
+def note_prose_text(meta: dict[str, Any], body: str = "") -> str:
+    return "\n\n".join(text for _, text in note_prose_chunks(meta, body))
+
+
 def split_frontmatter_parts(text: str) -> tuple[str, str, str]:
     """Full --- block, inner YAML, body (for export/import scripts)."""
     if not text.startswith("---"):
@@ -673,6 +707,9 @@ def _self_check() -> None:
     assert append_flashcard_hint_question("Gate broken three weeks.", "Name the owner.").endswith(
         "First fix?"
     )
+    meta = {"description": "A test note.", "key_concept": "Claim here."}
+    prose = note_prose_text(meta, "")
+    assert "A test note." in prose and "Claim here." in prose
 
 
 def shareable_line_from_principle(line: str, fm: dict) -> bool:

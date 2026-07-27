@@ -63,7 +63,7 @@ The annoying part wasn't Bitwarden. It was every site that wanted email verifica
 
 ## "What if Bitwarden gets hacked?"
 
-The vault is encrypted before it leaves your machine. They'd get blobs, not your logins - **if** your master password is strong and your vault has 2FA.
+The vault encrypts before it leaves your machine. They'd get blobs, not your logins - **if** your master password is strong and your vault has 2FA.
 
 That's not "don't worry about anything." That's **don't reuse passwords** and **don't pick a weak master** because you're tired.
 

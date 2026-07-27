@@ -19,7 +19,7 @@ Every so often I wonder if this site still sounds like me, or like a pile of pos
 
 Each row links to the post where I said it. If something feels off, that's the point. Either I changed, or I forgot I wrote it.
 
-Draft posts are marked *(draft)*.
+Draft posts show *(draft)* in the list.
 
 ---
 

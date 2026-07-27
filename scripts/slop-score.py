@@ -9,6 +9,16 @@ import re
 import sys
 from pathlib import Path
 
+try:
+    import yaml
+except ImportError:
+    yaml = None  # type: ignore[assignment]
+
+from notes_content import note_prose_text, split_frontmatter
+
+ROOT = Path(__file__).resolve().parents[1]
+NOTES_DIR = ROOT / "content/english/notes"
+
 # ponytail: heuristic subset of ASD-STE100 / ste-lint.py — not a certified STE checker
 PHRASAL = (
     "spin up",
@@ -62,7 +72,10 @@ PASSIVE_SKIP = re.compile(
     r"\b(?:was named|is set up|are set up|is buried|are buried|is geared|"
     r"what was typed|have(?:n't| not) been touched|is built for|can be \w+ed|"
     r"won't be buried|be advertised|is plugged|are done|is done|is crowded|"
-    r"are tied to|is paywalled|is rented|are commented|being \w+)\b",
+    r"are tied to|is paywalled|is rented|are commented|being \w+|"
+    r"hadn't been updated|haven't been updated|been logged into|was hired to|"
+    r"is excited|is polished|is balanced|is concentrated|is tuned|are marked|"
+    r"to be done)\b",
     re.I,
 )
 
@@ -188,12 +201,38 @@ def mechanical_flags(result: dict, *, passive_min: int = 2) -> list[tuple[str, s
     return flags
 
 
+def _is_note_path(path: Path) -> bool:
+    try:
+        path.resolve().relative_to(NOTES_DIR.resolve())
+        return True
+    except ValueError:
+        return False
+
+
+def scoreable_text(path: Path, raw: str, *, body_only: bool = False) -> str:
+    """Blog: body after frontmatter. Garden notes: frontmatter prose fields + body."""
+    if body_only or not _is_note_path(path):
+        if raw.startswith("---"):
+            end = raw.find("\n---", 3)
+            if end != -1:
+                return raw[end + 4 :]
+        return raw
+    if not raw.startswith("---"):
+        return raw
+    if yaml is None:
+        sys.exit("pip install pyyaml required for note slop-score")
+    fm, body = split_frontmatter(raw)
+    meta = yaml.safe_load(fm) or {}
+    return note_prose_text(meta, body)
+
+
 def _self_check() -> None:
     clean = analyze_text("I read the log. It failed on line three.")
     assert clean["total"] == 0
 
     assert count_ci("Hard-to-reach outlets are fine.", ("reach out",))[0] == 0
     assert _count_passive_voice("block_setup() was named first.") == 0
+    assert _count_passive_voice("an engineer is excited") == 0
     assert _count_passive_voice("The parser read the file.") == 0
 
     sloppy = analyze_text(
@@ -209,11 +248,23 @@ def _self_check() -> None:
     ratio = analyze_text((long_body + " Short. ") * 4)
     assert ratio["long_sentence_ratio_warn"]
 
+    note_path = NOTES_DIR / "capture.md"
+    if note_path.is_file():
+        raw = note_path.read_text(encoding="utf-8")
+        prose = scoreable_text(note_path, raw)
+        body_only = scoreable_text(note_path, raw, body_only=True)
+        assert word_count(prose) > word_count(body_only)
+
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("files", nargs="*", help="Markdown files to score")
     parser.add_argument("--json", action="store_true", help="Full JSON per file")
+    parser.add_argument(
+        "--body-only",
+        action="store_true",
+        help="Score markdown body only (skip note frontmatter prose)",
+    )
     parser.add_argument("--self-check", action="store_true")
     args = parser.parse_args()
 
@@ -241,11 +292,7 @@ def main() -> int:
             exit_code = 1
             continue
         text = path.read_text(encoding="utf-8")
-        # ponytail: score body only — frontmatter tags are not prose
-        if text.startswith("---"):
-            end = text.find("\n---", 3)
-            if end != -1:
-                text = text[end + 4 :]
+        text = scoreable_text(path, text, body_only=args.body_only)
         result = analyze_text(text)
         if args.json:
             payload = {"file": str(path), **result}

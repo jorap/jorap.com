@@ -16,6 +16,8 @@ except ImportError:
 
 import importlib.util
 
+from notes_content import note_prose_chunks
+
 ROOT = Path(__file__).resolve().parents[1]
 CONTENT = ROOT / "content/english"
 BLOG = CONTENT / "blog"
@@ -198,35 +200,6 @@ def section_block(body: str, section_pattern: str) -> str | None:
     return rest[: end_match.start()] if end_match else rest
 
 
-def note_chunks(meta: dict, body: str) -> list[tuple[str, str]]:
-    chunks: list[tuple[str, str]] = []
-    for key in ("description", "key_concept"):
-        val = meta.get(key)
-        if isinstance(val, str) and val.strip():
-            chunks.append((key, val))
-    for key in ("examples", "shareable_thought"):
-        val = meta.get(key)
-        if isinstance(val, list):
-            for i, item in enumerate(val):
-                if isinstance(item, str) and item.strip():
-                    chunks.append((f"{key}[{i}]", item))
-    for i, card in enumerate(meta.get("cards") or []):
-        if not isinstance(card, dict):
-            continue
-        for side in ("front", "back"):
-            val = card.get(side)
-            if isinstance(val, str) and val.strip():
-                chunks.append((f"cards[{i}].{side}", val))
-    for row in meta.get("relationships") or []:
-        if isinstance(row, dict):
-            reason = row.get("reason")
-            if isinstance(reason, str) and reason.strip():
-                chunks.append(("relationships.reason", reason))
-    if body.strip():
-        chunks.append(("body", body))
-    return chunks
-
-
 def apply_pattern_hits(
     hits: list[Hit],
     *,
@@ -314,7 +287,7 @@ def scan_note(path: Path, rules: dict) -> list[Hit]:
         return []
 
     hits: list[Hit] = []
-    for field, text in note_chunks(meta, body):
+    for field, text in note_prose_chunks(meta, body):
         apply_pattern_hits(hits, rel=rel, field=field, text=text, rules=rules.get("fail", []), severity="fail")
         apply_pattern_hits(hits, rel=rel, field=field, text=text, rules=rules.get("warn", []), severity="warn")
     return hits

@@ -16,7 +16,7 @@ featured: false
 draft: true
 ---
 
-For a while our TV was "smart" in name only - slow menus, apps that hadn't been updated since whoever manufactured it lost interest, and that special brand of lag where you press Netflix and consider making popcorn before the icon highlights.
+For a while our TV was "smart" in name only - slow menus, apps the manufacturer stopped updating years ago, and that special brand of lag where you press Netflix and consider making popcorn before the icon highlights.
 
 The **Xiaomi Mi Box S** was the cheap fix: a small Android TV box that plugs into HDMI and turns any display into something you can actually use. Not perfect. Not premium. But good enough that it earned a permanent spot behind the TV.
 
@@ -66,4 +66,4 @@ If the TV has multiple HDMI inputs, **label the input "Mi Box"** so nobody has t
 
 The Mi Box S is not the best streaming device money can buy. It's one of the better **value** picks - a practical Android TV box that makes a dumb TV feel modern without pretending to be a home theater PC.
 
-For our living room, that's exactly the job it was hired to do.
+For our living room, that's exactly the job I bought it to do.

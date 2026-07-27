@@ -1,0 +1,18 @@
+---
+description: Never commit or push unless the user explicitly asks in that turn
+alwaysApply: true
+---
+
+# Git commits
+
+Do **not** `git commit`, `git push`, or stage files for commit unless the user explicitly asks in that turn.
+
+Includes:
+
+- End-of-session wrap-up commits after edits
+- "Resume", "ship it", or "session close" without the words **commit** or **push**
+- Batching "obvious" changes the agent just made
+
+When the user asks to commit: run status, diff, and log first; write a focused message; verify with `git status` after. When they ask to push: push only then.
+
+Do **not** commit `.specstory/` unless the user explicitly asks - session history is local tooling, not deploy content. Use `[skip ci]` if a commit is tooling-only (see `deploy-commits.mdc`).
