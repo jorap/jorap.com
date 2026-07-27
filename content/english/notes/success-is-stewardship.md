@@ -1,17 +1,17 @@
 ---
 title: "Success is Stewardship"
 meta_title: "Success is Stewardship - Borrowed Gifts, Not Permanent Ownership"
-description: "Success is borrowed - accountable for how gifts are used, not entitled to keep them forever."
+description: "Treat success as borrowed - account for how gifts get used, not entitlement to keep them forever."
 key_concept: |
   {{< bible ref="Matthew 25:14-30" emphasize="23" >}}
   
-  - Promotion and platform are entrusted for faithful use - enter the master's joy, do not bury the talent in ego.
-  - Level 1: When you get gifts like time, money, or a bigger platform, use them well for others - do not hide them to protect pride.
-  - Level 2: Promotion and platform are entrusted, not owned - the master expects faithful use, not buried talent.
+  - The master entrusts promotion and platform for faithful use - enter His joy, do not bury the talent in ego.
+  - Level 1: When you receive gifts like time, money, or a bigger platform, use them well for others - do not hide them to protect pride.
+  - Level 2: The master entrusts promotion and platform - He expects faithful use, not buried talent.
   - Level 3: Stewardship follows salvation in order - [[Free Grace]] settles eternity; gifts settle what you do with the platform after.
   - Level 4: When influence grows, ask what faithful use looks like this quarter - enter the master's joy, do not bury the talent in ego.
   - Level 5: Success is not ownership - stewardship of time, health, platform, money, and influence; burying talent to protect pride fails the same test as the unfaithful servant.
-  - Success is not ownership - it is stewardship of what I was given: time, health, platform, money, influence.
+  - Success is not ownership - stewardship of what I received: time, health, platform, money, influence.
   - [[Free Grace]] settled where I spend forever; stewardship settles what I do with the gifts after.
   - [[Faithful Steward]] is the parable Jesus told - well done for faithful use, buried talent rebuked.
   - [[Eternal Rewards]] names repayment; [[Judgment Seat]] names the review.
@@ -21,10 +21,10 @@ examples:
   - "Site traffic spiked after a post hit and I caught myself acting like I would built a kingdom - success is stewardship: tend the garden, share what landed, do not confuse reach with ownership."
   - "Promotion email landed and I started treating my team like support staff - the title was entrusted for their good, not a trophy I earned to keep."
 shareable_thought:
-  - "Success is borrowed - accountable for how gifts are used, not entitled to keep them forever."
-  - "Promotion and platform are entrusted for faithful use."
+  - "Treat success as borrowed - account for how gifts get used, not entitlement to keep them forever."
+  - "The master entrusts promotion and platform for faithful use."
   - "Enter the master's joy, do not bury the talent in ego."
-  - "Success is not ownership - it is stewardship of what I was given: time, health, platform, money, influence."
+  - "Success is not ownership - stewardship of what I received: time, health, platform, money, influence."
 relationships:
   - type: alternative
     wikilink: "[[Drafting in Public]]"
