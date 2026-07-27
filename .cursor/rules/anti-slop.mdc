@@ -18,6 +18,9 @@ Structural slop is caught by `pnpm lint:slop` / `pnpm slop:scan` (`data/slop-rul
 
 ## Blog - rewrite on sight
 
+- **One verb, not a noun pile** — "analyze the log", not "perform an analysis of the log".
+- **Name the actor** — passive only when the actor truly doesn't matter (`pnpm slop:score` flags passive clusters).
+- **Short word wins** — start/use/help/before/after/show over commence/utilize/facilitate/prior to.
 - Generic openers: dictionary definitions, "Here's everything you need to know", "When it comes to".
 - Third-person advice: `users should`, `one might`, `it is recommended` → `I`, `I'd`, `Skip`.
 - Summary sandwiches: announce → say → restate. Say it once.
@@ -48,6 +51,9 @@ Structural slop is caught by `pnpm lint:slop` / `pnpm slop:scan` (`data/slop-rul
 ## Publish checklist
 
 ```bash
+pnpm slop:score path/to/draft.md   # before voice passes — note per100w
+# … jorap-voice / garden-voice passes …
+pnpm slop:score path/to/draft.md   # after — score should drop
 pnpm lint:blog && pnpm lint:voice && pnpm lint:slop
 ```
 

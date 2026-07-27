@@ -31,6 +31,9 @@ words:
   rumination: stewing / replaying without change
   white-knuckle: willpower alone
   white-knuckling: forcing by will
+  commence: start
+  demonstrate: show
+  demonstrates: shows
 
 phrases:
   - altar talk
@@ -64,6 +67,9 @@ phrases:
   - the good news is
   - Expanded from
   - Idea captured from
+  - prior to
+  - subsequent to
+  - in order to
 
 review:
   navigate: cut or be specific
@@ -78,6 +84,10 @@ review:
   framework: OK when naming CRAFT/JTBD; cut if every section says framework
   seamless: smooth / invisible
   robust: solid / holds up
+  ensure: make sure / check (OK in PKM "ensure backups")
+  begins: starts (OK in "the game begins")
+  initiate: start (OK in "initiate contact")
+  initiates: starts
 
 gloss:
   unmerited favor: gift you didn't earn

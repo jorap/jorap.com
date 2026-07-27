@@ -14,6 +14,8 @@ try:
 except ImportError:
     sys.exit("pip install pyyaml required for slop-lint")
 
+import importlib.util
+
 ROOT = Path(__file__).resolve().parents[1]
 CONTENT = ROOT / "content/english"
 BLOG = CONTENT / "blog"
@@ -39,6 +41,50 @@ DICTIONARY_OPENER = re.compile(
     r"^(?:This|It) is (?:a|an|the) (?:way|method|framework|process|approach|practice|system|tool)\b",
     re.I,
 )
+
+_MECHANICAL_KINDS = frozenset(
+    {
+        "mechanical_nominalization",
+        "mechanical_passive",
+        "mechanical_phrasal",
+        "mechanical_long_sentences",
+    }
+)
+
+
+def _load_slop_score():
+    path = ROOT / "scripts" / "slop-score.py"
+    spec = importlib.util.spec_from_file_location("slop_score", path)
+    if spec is None or spec.loader is None:
+        raise ImportError(path)
+    mod = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(mod)
+    return mod
+
+
+def apply_mechanical_hits(
+    hits: list[Hit],
+    *,
+    rel: str,
+    field: str,
+    text: str,
+    rules: list[dict],
+    severity: str,
+) -> None:
+    if not text.strip():
+        return
+    slop_score = _load_slop_score()
+    result = slop_score.analyze_text(text)
+    flags = {rid: detail for rid, detail in slop_score.mechanical_flags(result)}
+    for rule in rules:
+        kind = rule.get("kind")
+        if kind not in _MECHANICAL_KINDS:
+            continue
+        rid = rule["id"]
+        if rid not in flags:
+            continue
+        detail = flags[rid] or rule.get("detail", "")
+        hits.append(Hit(rel, field, rid, severity, detail))
 
 
 @dataclass(frozen=True)
@@ -205,6 +251,8 @@ def apply_pattern_hits(
         pattern = rule.get("pattern")
         if pattern and re.search(pattern, text, re.I | re.M):
             hits.append(Hit(rel, field, rid, severity, rule.get("detail", "")))
+
+    apply_mechanical_hits(hits, rel=rel, field=field, text=text, rules=rules, severity=severity)
 
 
 def scan_blog(path: Path, rules: dict) -> list[Hit]:

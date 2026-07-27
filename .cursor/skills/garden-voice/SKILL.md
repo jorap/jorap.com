@@ -61,11 +61,12 @@ Blog posts use [jorap-voice](../jorap-voice/SKILL.md) and its **seven rewrite pa
    - **Ethics / systems:** `content/english/notes/blameless-after-action-review.md`
    - **Flashcards (tone):** `capture.md`, `abide-in-me.md`, `the-golden-rule.md`
 2. **Draft in the author's voice**, not a textbook or SEO summary.
-3. **Run the de-AI pass** (below) - mandatory, even on one-line fixes.
-4. **Run the likability lens** (below) - mandatory before finishing.
-5. **Run the voice check** (below) before finishing.
-6. Before/after samples: [examples.md](examples.md).
-7. Do **not** commit or push unless the user explicitly asks.
+3. **Score before and after** — `pnpm slop:score path/to/note.md` before the de-AI pass; rerun after. The per100w score should drop.
+4. **Run the de-AI pass** (below) - mandatory, even on one-line fixes.
+5. **Run the likability lens** (below) - mandatory before finishing.
+6. **Run the voice check** (below) before finishing.
+7. Before/after samples: [examples.md](examples.md).
+8. Do **not** commit or push unless the user explicitly asks.
 
 ## Two registers
 
@@ -236,7 +237,7 @@ If yes to all four, you're in the zone - even when the tone stays cool and direc
 
 ## Slop gate (structural)
 
-Vocabulary: `pnpm lint:voice` (`data/voice-words.yaml`). Structure: `pnpm lint:slop --notes-only` (`data/slop-rules.yaml`). Full garden gate: `pnpm lint:garden`.
+Vocabulary: `pnpm lint:voice` (`data/voice-words.yaml`). Structure: `pnpm lint:slop --notes-only` (`data/slop-rules.yaml`). Mechanical form: `pnpm slop:score` on the note file (lower per100w is cleaner). Full garden gate: `pnpm lint:garden`.
 
 **Hard fails** in frontmatter fields:
 - `users should` / `one might` / `it is recommended`
@@ -266,6 +267,7 @@ Vocabulary: `pnpm lint:voice` (`data/voice-words.yaml`). Structure: `pnpm lint:s
 - [ ] Likability lens: useful claim/move, honest friction, human specific, respectful tone (not performative warmth)
 - [ ] `pnpm lint:voice` clean (dashes + AI-tell words)
 - [ ] `pnpm lint:slop --notes-only` clean (structural slop)
+- [ ] `pnpm slop:score` per100w dropped after de-AI pass (or ≤2.0 on final note)
 
 ## Do not
 

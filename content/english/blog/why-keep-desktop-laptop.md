@@ -86,7 +86,7 @@ Mobile browsers are fine for casual reading. They're not great for actual work. 
 
 Shopee checkout broke on my phone browser last month until I switched to desktop with the password manager extension. Same account, same cart - only one of them let me finish.
 
-On desktop I have my password manager, my ad blocker, my dark-mode extension, my note-clipper. Dev tools are one keystroke away. Web apps just work the way they were designed to work. It's a different category of experience.
+On desktop I have my password manager, my ad blocker, my dark-mode extension, my note-clipper. Dev tools are one keystroke away. Web apps work the way the designers intended. It's a different category of experience.
 
 ---
 

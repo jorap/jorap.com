@@ -28,7 +28,7 @@ What kept me wasn't "free." It was **freedom** - install without asking permissi
 
 Small and medium businesses hit the same wall from the other side. They couldn't afford proprietary stacks - the license ate the margin. Open source gave them room to customize instead, but the software still had to match how the shop actually ran. Inventory, bookings, a theme that didn't look like a template from 2014. **Someone paid in expertise** - a freelancer to wire it up, or the owner's weekends learning plugins. Freedom to adapt, not a finished product out of the box.
 
-I taught seminars on open-source technology and web careers. Not because I wanted everyone to join a movement. Because the job market in the Philippines already ran on WordPress, Linux hosting, and PHP stacks you could spin up without a corporate card. Teaching closed tools that students couldn't install at home felt like a waste of everyone's afternoon.
+I taught seminars on open-source technology and web careers. Not because I wanted everyone to join a movement. Because the job market in the Philippines already ran on WordPress, Linux hosting, and PHP stacks you could start without a corporate card. Teaching closed tools that students couldn't install at home felt like a waste of everyone's afternoon.
 
 That bias stuck. Not as ideology. As **default**.
 

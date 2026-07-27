@@ -27,7 +27,7 @@ This isn't a phone-versus-phone argument. Apple sells the accounts, storage, mes
 
 Apple's best trick is the closed loop: iPhone talks to Mac talks to iPad talks to Watch, all glued together by **iCloud, iMessage, FaceTime, AirDrop, Find My, Apple Pay, and the App Store**. If you buy the whole set, a lot of friction disappears.
 
-I don't run the whole set. I run a **MacBook Pro M4 for paid work**, an **11th-gen iPad for couch reading**, an **Android phone in my pocket**, and whatever box is plugged into the HDMI port this year. Google's ecosystem was built to sit on top of that mess: **one Google account** tying together Gmail, Drive, Meet, Photos, Calendar, the Play Store, and whatever Android TV box is under the TV.
+I don't run the whole set. I run a **MacBook Pro M4 for paid work**, an **11th-gen iPad for couch reading**, an **Android phone in my pocket**, and whatever box is plugged into the HDMI port this year. Google built its ecosystem to sit on top of that mess: **one Google account** tying together Gmail, Drive, Meet, Photos, Calendar, the Play Store, and whatever Android TV box is under the TV.
 
 The Mac is great hardware. So is the iPad. I still open **Chrome instead of Safari**, keep client files in **Drive instead of iCloud**, and take calls in **Meet instead of FaceTime**. Apple built the screen. Google runs the life on it.
 
@@ -89,7 +89,7 @@ Yes, both browsers are RAM hogs. Yes, Google still sees a lot of what I do when 
 
 ## The TV problem has a cheap Google answer
 
-Our living-room TV was "smart" until it wasn't - laggy menus, apps that hadn't been updated since the manufacturer lost interest. The fix wasn't a premium streamer. It was a **Mi Box S** running Android TV: Chromecast built in, YouTube signed in, remote with a Google Assistant button I mostly ignore.
+Our living-room TV was "smart" until it wasn't - laggy menus, apps the manufacturer stopped updating years ago. The fix wasn't a premium streamer. It was a **Mi Box S** running Android TV: Chromecast built in, YouTube signed in, remote with a Google Assistant button I mostly ignore.
 
 Someone in the house casts from a phone. Someone else opens Netflix from the remote. Nobody needed to buy into Apple TV hardware or negotiate AirPlay quirks with a mixed-device family.
 
@@ -125,7 +125,7 @@ New hire? Create an account, share the Drive folders, add them to Meet. Nobody h
 
 I'm not pretending Google is the privacy champion or that Android is immune to bloat. My phone still ships with apps I'd delete if the OS let me. Google still nudges me toward services I didn't ask for. Some Android skins are ugly in ways Apple would never ship.
 
-Apple's privacy story gets a lot of credit. Some of it is earned. A lot of it is oversold.
+Apple's privacy story gets a lot of credit. Some of that is real. A lot of it is oversold.
 
 Privacy from Apple is not the same as privacy. Most iCloud data isn't end-to-end encrypted by default. Apple can still see a lot. In China they hand iCloud operations to a local partner. "What happens on iPhone stays on iPhone" is marketing, not architecture.
 

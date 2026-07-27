@@ -37,8 +37,8 @@ def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument(
         "mode",
-        choices=["garden", "site", "dashes", "slop"],
-        help="garden=notes frontmatter; site=voice-words; dashes=em/en dash; slop=AI structure",
+        choices=["garden", "site", "dashes", "slop", "score"],
+        help="garden=notes frontmatter; site=voice-words; dashes=em/en dash; slop=AI structure; score=mechanical slop per 100w",
     )
     parser.add_argument("flags", nargs=argparse.REMAINDER)
     args = parser.parse_args()
@@ -48,6 +48,7 @@ def main() -> int:
         "site": "notes-voice-lint",
         "dashes": "notes-voice-sanitize",
         "slop": "slop-lint",
+        "score": "slop-score",
     }
     extra = args.flags
     if extra and extra[0] == "--":

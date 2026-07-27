@@ -262,7 +262,7 @@ Compared to the old PHP setup, this one is faster, more reliable, and simpler to
 
 If you have the patience for an evening of setup, I genuinely think this beats most paid hosting for personal use. The first time you push a typo fix and see it live a minute later, you'll get it.
 
-You're reading the result right now. The whole thing - every page, every post, every image - is built and served exactly the way I described above.
+You're reading the result right now. Hugo builds and serves the whole thing - every page, every post, every image - exactly the way I described above.
 
 ## A couple of useful links
 

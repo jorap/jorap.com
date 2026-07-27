@@ -323,7 +323,7 @@ I'd be lying if I said this was all smooth.
 
 **Theme name case-sensitivity.** I mentioned this in the [setup post](/blog/how-i-built-jorap-notes). `theme = 'HugoPlate'` in `hugo.toml` will break your site in production because the folder is `hugoplate`. Lowercase, every time.
 
-**Submodule vs. fork.** The README tells you to use `git submodule add` to install the theme. That's fine if you never want to touch the theme code. The moment you start customizing layouts (and you will), submodules become friction - every change has to be committed in the theme's repo, then bumped in your project. I eventually pulled the theme into my repo as a regular folder. The upgrade story gets harder; the day-to-day gets easier. Pick your trade.
+**Submodule vs. fork.** The README tells you to use `git submodule add` to install the theme. That's fine if you never want to touch the theme code. The moment you start customizing layouts (and you will), submodules become friction - you commit every change in the theme's repo, then bump it in your project. I eventually pulled the theme into my repo as a regular folder. The upgrade story gets harder; the day-to-day gets easier. Pick your trade.
 
 **Search needs an index file.** HugoPlate's search is great, but it's powered by a JSON index that Hugo generates at build time. If your search page is suddenly empty, regenerate the site. A stale `public/` folder is usually the cause.
 
@@ -351,7 +351,7 @@ A few things that would have saved me time:
 
 - **Don't delete the demo content right away.** Use it as a living reference. Strip it out once you've published your own equivalents.
 - **The `blog-template.md` file is the docs.** Keep it as a draft in your blog folder. It's faster than searching the GitHub repo when you forget a shortcode.
-- **Pin every version.** Hugo, Node, Go modules. Future-you will be confused enough already.
+- **Pin every version.** Hugo, Node, Go modules. Future-you is confused enough already.
 - **Customize content first, code second.** The default styling is fine. You'll waste less time if you publish a few posts before you start fiddling with colors.
 - **Read the layout files before you fork them.** HugoPlate's templates are commented and short. Five minutes of reading saves an hour of guessing.
 

@@ -24,7 +24,7 @@ draft: false
 
 The useful question is **what has to change after launch, and who does the changing**.
 
-I've watched this go sideways both ways. A developer ships a gorgeous static portfolio, then the client expects five staff to edit pages like WordPress and nobody learned Git. I've also seen someone spin up WordPress for a four-page brochure, then spend a year patching plugins for a site that updates twice a year.
+I've watched this go sideways both ways. A developer ships a gorgeous static portfolio, then the client expects five staff to edit pages like WordPress and nobody learned Git. I've also seen someone install WordPress for a four-page brochure, then spend a year patching plugins for a site that updates twice a year.
 
 Neither failure is about the tool being dumb. Both are **stack mismatches** that should have been obvious before the first commit.
 

@@ -34,10 +34,11 @@ Keep blog posts sounding like JoRap wrote them - practical, personal, and plain-
    - **Tips:** `content/english/blog/mouse-wheel-click.md`
    - **Opinion:** `content/english/blog/why-i-stopped-playing-marvel-snap.md`
 2. **Draft in the author's voice**, not a generic blogger voice.
-3. **Run the seven rewrite passes** (below) - mandatory, even on small edits. Skim all seven on every edit; deep-rewrite any section that fails more than one pass.
-4. **Run the likability lens** (below) - mandatory before publish.
-5. **Run the voice check** (below) before finishing.
-6. For before/after samples and anti-patterns, see [examples.md](examples.md).
+3. **Score before and after** — `pnpm slop:score path/to/draft.md` before passes; rerun after. The per100w score should drop.
+4. **Run the seven rewrite passes** (below) - mandatory, even on small edits. Skim all seven on every edit; deep-rewrite any section that fails more than one pass.
+5. **Run the likability lens** (below) - mandatory before publish.
+6. **Run the voice check** (below) before finishing.
+7. For before/after samples and anti-patterns, see [examples.md](examples.md).
 
 ## Voice pillars
 
@@ -178,7 +179,7 @@ If yes to all four, you're in the zone - even when the tone stays cool and direc
 
 ## Slop gate (structural)
 
-Vocabulary is `pnpm lint:voice` (`data/voice-words.yaml`). Structure is `pnpm lint:slop` (`data/slop-rules.yaml`). Run both before `draft: false`.
+Vocabulary is `pnpm lint:voice` (`data/voice-words.yaml`). Structure is `pnpm lint:slop` (`data/slop-rules.yaml`). Mechanical form is `pnpm slop:score` (nominalizations, passive voice, phrasal verbs, long-sentence ratio — lower per100w is cleaner). Run all three before `draft: false`.
 
 **Publish blockers** - CI fails if any of these ship:
 - `Expanded from` / `Idea captured from ideas.jorap.com` footer still in body
@@ -270,6 +271,7 @@ Recipe content can be more instructional - ingredients, steps, timings - but sec
 - [ ] Read aloud - no word you'd pause to define
 - [ ] No AI-slop phrases (see `data/voice-words.yaml` phrases + examples.md)
 - [ ] `pnpm lint:slop` clean on publish (`draft: false`)
+- [ ] `pnpm slop:score` per100w dropped after voice passes (or ≤2.0 on final draft)
 - [ ] Sentence lengths vary - not a wall of same-shaped paragraphs
 - [ ] Section headings sound like JoRap, not a product manual
 - [ ] Would sound natural read aloud by a person, not narrated by a help article

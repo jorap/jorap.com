@@ -29,9 +29,9 @@ The rules live in the zine I tuck beside the deck, so what follows is the rethem
 
 ## Why flags instead of a reskin
 
-A straight reskin chases the retail look - new geisha art, new item illustrations, same component sprawl. I was not trying to match *Hanamikoji*'s production. I wanted to see two things: whether the mechanic still grabs people without illustration, and how far I could cut components before something broke.
+A straight reskin chases the retail look - new geisha art, new item illustrations, same component sprawl. I wasn't trying to match *Hanamikoji*'s production. I wanted to see two things: whether the mechanic still grabs people without illustration, and how far I could cut components before something broke.
 
-Country flags are boring on purpose. Black while the round is still open. After scoring, green toward whoever took the market, red toward the rival. Deal cards repeat the same flag small in the corner plus a point number. No scene to admire mid-turn. That is the point. When someone lays out a Gift or a Competition, the question on the table is **which pile hurts me less** - not what pretty picture landed in front of me. If the game still bites with flags and numbers, the mechanics are doing the heavy lifting.
+Country flags are boring on purpose. Black while the round is still open. After scoring, green toward whoever took the market, red toward the rival. Deal cards repeat the same flag small in the corner plus a point number. No scene to admire mid-turn. That's the point. When someone lays out a Gift or a Competition, the question on the table is **which pile hurts me less** - not what pretty picture landed in front of me. If the game still bites with flags and numbers, the mechanics are doing the heavy lifting.
 
 The business frame helps the same way. Geisha favor becomes **market control**. Item cards become **deal cards**. Charm points become **market value**. The four actions still read clean: backroom **Secret #1**, painful **Trade-off #2**, public **Gift #3**, head-to-head **Competition #4**. One of each per player. Dry nouns. Sharp decisions.
 
@@ -43,7 +43,7 @@ Same mechanics, less table clutter. People still lean in when someone fans out a
 
 ## Geisha favor becomes market control
 
-One-to-one where it matters. If the retail name does not appear in the left column, I did not rename it.
+One-to-one where it matters. If the retail name doesn't appear in the left column, I didn't rename it.
 
 | Hanamikoji | Duopoly | Notes |
 |------------|---------|-------|
@@ -129,9 +129,9 @@ The cut from 43 distinct bits to 36 cards plus a zine is not minimalism for its 
 
 Rules live in the zine. This is the stuff I wish someone had told me after the first three losses - the habits that make the split feel less random.
 
-**Count cards per country.** Deal count matches market value - two for Germany, three for Japan, five for US. Whoever has more on their side **when the round scores** takes the market; nothing flips until all eight turns are done. Each round also buries one card unseen before the deal. I track what is still in the deck - two UK left, Japan has one on their side - same as counting outs in a trick game. Flags help. No portrait to stare at, just color and number.
+**Count cards per country.** Deal count matches market value - two for Germany, three for Japan, five for US. Whoever has more on their side **when the round scores** takes the market; nothing flips until all eight turns are done. Each round also buries one card unseen before the deal. I track what's still in the deck - two UK left, Japan has one on their side - same as counting outs in a trick game. Flags help. No portrait to stare at, just color and number.
 
-**Two ways to win, pick a lane early.** Four countries or eleven points. Eleven is just over half of twenty-one, so the point race is always live. Three cheap 2-point flags can still close the country win if you stack Germany, France, and UK - you need a fourth market somewhere, but you do not have to pile up US and EU to get there. I decide by mid-game which path is still realistic and stop donating cards to the path I am not chasing. Chasing both is how you lose both.
+**Two ways to win, pick a lane early.** Four countries or eleven points. Eleven is just over half of twenty-one, so the point race is always live. Three cheap 2-point flags can still close the country win if you stack Germany, France, and UK - you need a fourth market somewhere, but you don't have to pile up US and EU to get there. I decide by mid-game which path is still realistic and stop donating cards to the path I'm not chasing. Chasing both is how you lose both.
 
 **Block before scoring.** During the round, deal cards sit beside each market but the row does not flip yet. You are still building toward whoever has more when the eighth turn ends. If they have one Japan toward them and you have zero, that row is urgent - even when another pile looks juicier.
 
@@ -163,8 +163,8 @@ Rules stay in the zine so this post does not duplicate them. The mapping table a
 
 ## Personal use only
 
-**Duopoly stays on my table.** I am not publishing PDFs, selling copies, or handing out a substitute for the retail game. *Hanamikoji* (mechanics, structure, scoring, the whole design) belongs to its creators and publisher. I rethemed the faces and cut components so I could play at home without copying retail artwork. That is personal consumption, not a product.
+**Duopoly stays on my table.** I'm not publishing PDFs, selling copies, or handing out a substitute for the retail game. *Hanamikoji* (mechanics, structure, scoring, the whole design) belongs to its creators and publisher. I rethemed the faces and cut components so I could play at home without copying retail artwork. That's personal consumption, not a product.
 
-I want to stay on the right side of copyright and trademark law. I am not a lawyer and I do not know every rule in every country. What I do know is what I am willing to do: keep the deck private, credit *Hanamikoji*, and point anyone who wants to play toward the published box.
+I want to stay on the right side of copyright and trademark law. I'm not a lawyer and I don't know every rule in every country. What I do know is what I'm willing to do: keep the deck private, credit *Hanamikoji*, and point anyone who wants to play toward the published box.
 
-If you already own *Hanamikoji*, you do not need this. You have the real thing, art and all. If you do not, buy it from the publisher. This post is my private build log: flags, business nouns, one sleeve, fewer bits in the box, not permission to reproduce someone else's game.
+If you already own *Hanamikoji*, you don't need this. You have the real thing, art and all. If you don't, buy it from the publisher. This post is my private build log: flags, business nouns, one sleeve, fewer bits in the box, not permission to reproduce someone else's game.

@@ -33,6 +33,7 @@
     "lint:blog": "python3 scripts/normalize-blog-frontmatter.py --verify && python3 scripts/voice-lint.py slop --check --blog-only",
     "lint:slop": "python3 scripts/voice-lint.py slop --check",
     "slop:scan": "python3 scripts/voice-lint.py slop --summary",
+    "slop:score": "python3 scripts/voice-lint.py score",
     "lint:garden-voice": "python3 scripts/voice-lint.py garden --check",
     "garden-voice:scan": "python3 scripts/voice-lint.py garden --summary",
     "voice:scan": "python3 scripts/voice-lint.py site --summary --review",
