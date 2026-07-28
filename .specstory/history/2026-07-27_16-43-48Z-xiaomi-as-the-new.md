@@ -912,7 +912,242 @@ POCO's mostly online-only in PH (e.g. F7 is Shopee-exclusive); Mi Stores stock R
 _**Agent (auto-low)**_
 
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
-Status: **loading**
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__xiaomi-is-the-new-huawei.md</summary>
 
 </details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__xiaomi-is-the-new-huawei.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Running lint again.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm slop:score content/english/blog/__xiaomi-is-the-new-huawei.md &amp;&amp; pnpm lint:voice content/english/blog/__xiaomi-is-the-new-huawei.md</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && pnpm slop:score content/english/blog/__xiaomi-is-the-new-huawei.md && pnpm lint:voice content/english/blog/__xiaomi-is-the-new-huawei.md
+```
+
+```
+$ python3 scripts/voice-lint.py score content/english/blog/__xiaomi-is-the-new-huawei.md
+__xiaomi-is-the-new-huawei.md            words=1380 total= 13 per100w=  0.94
+$ python3 scripts/voice-lint.py dashes --check && python3 scripts/voice-lint.py site --check content/english/blog/__xiaomi-is-the-new-huawei.md
+Voice dash lint OK
+Voice lint OK
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The user suggests a lack of Poco availability in Xiaomi brick-and-mortar stores may explain their absence.
+</details></think>
+
+_**Agent (auto-low)**_
+
+**Verified, with a nuance:** Mi Stores in the PH do carry Xiaomi and Redmi phones on the floor. POCO is a different channel - recent launches like the F6 and F7 were Shopee/Lazada exclusives, not mall shelf stock. Some older POCO models did show up in Mi Stores briefly, but that's not how the brand sells here now.
+
+Your take holds for how you actually shop: if you buy phones at Mi Stores for warranty peace of mind, POCO isn't on the menu.
+
+Updated the buyer section to tie both reasons together - no POCO on the Mi Store wall, online-only launches, and you're not doing gray-import serial-number roulette on Shopee.
+
+## Session close
+- Fixed: POCO skip now includes Mi Store channel mismatch, not just warranty.
+- Encode: none
+- Open: hero image still template; draft not published.
+
+---
+
+_**User**_
+
+I still watch Apple keynotes. Not because I'm shopping - I already own a **MacBook Pro M4** and an **11th-gen iPad** - but because the show is good theater. *Revolutionary.* *All-new.* *Magical.* The crowd cheers like the underlying technology was born on that stage.
+
+i don't watch keynotes, but I stay up to date of what apple is releasing.
+the M series chips was the best release of Tim Cook as CEO. The chips that were great for iPhones serve as a great start for their processor for desktops and laptops. They needed to migrate from x86 to ARM which is easier for them because they have total control of their hardware and software
+
+---
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The user wants to correct the Apple strategic late blog post. They prefer staying informed about releases rather than watching keynotes. They consider the M-series chips the best Tim Cook achievement. They believe Apple's total hardware and software control makes migrating from x86 to ARM easier.
+
+I need to review the full Apple post to place these corrections appropriately throughout the article.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Reading the Apple post to weave in your keynote take and M-series/ARM angle.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__apple-strategically-late.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The user wants several changes.
+
+Rewriting the opening to clarify the user watches Apple releases without attending keynotes. Crediting the M-series chips as Tim Cook's best CEO achievement. Strengthening the M-series section to explain how iPhone chips provided the foundation for desktop processors and why Apple's full hardware-software stack made the x86-to-ARM migration easier.
+
+The "skip first gen" advice must be reframed as a personal buying habit rather than a contradiction to crediting M1 as Tim Cook's best work. The opening should drop the theatrical keynote crowd cheering and instead describe staying current on Apple releases through news and blogs while keeping the existing M4 MacBook Pro and 11th-gen iPad.
+
+The meta description needs updating too. The iMessage line should be reworded since it refers to family usage rather than watching keynotes. The Vision Pro and general keynote references can remain unchanged.
+
+Apple Intelligence references can remain as industry observations. The M-series deserves its own dedicated paragraph or short section. The x86-to-ARM shift should be framed as a strategic advantage rather than a late move, since Apple’s vertical integration allowed seamless hardware-software migration.
+
+The M-series should be elevated to the centerpiece of the "Where the credit is actually deserved" section. The "How I'd shop Apple" section needs a line clarifying that M1 was a bold strategic exception rather than a wait-for-version-two purchase. The opening rewrite is now being drafted.
+
+The opening draft now reads: "I still keep up with what they're shipping - I'll read the summaries, watch the clips people post, check whether the new Mac or iPad actually matters for how I work. I already own a MacBook Pro M4 and an 11th-gen iPad. I'm not shopping. I'm tracking a company whose hardware I use and whose marketing I don't take literally."
+
+A closing line is also being drafted: "I say this as someone who likes Apple hardware - especially the M-series Mac line - and still doesn't live in the Apple ecosystem."
+
+The "Where the credit is actually deserved" section is being rewritten to frame Apple Silicon as Tim Cook's best CEO-era bet. The draft explains that a decade of A-series iPhone chips gave Apple a proven ARM design at scale. Migrating Macs off Intel x86 was therefore scaling phone-chip lessons to laptop thermals and macOS rather than starting from zero. Apple made this easier by owning the entire hardware-software stack, allowing them to tune macOS, apps, and silicon together without negotiating with external chip vendors.
+
+The M1 paragraph is being revised to stress it was not a simple Intel swap. It was vertical integration finally cashing the check the iPhone had been writing for years. The shopping section will explicitly call M1 a rare exception to the skip-first-gen rule. The draft frames it as Tim Cook's best CEO move because Apple had been refining ARM chips on iPhone for years and could finally own the Mac stack end to end.
+
+The shopping section will contrast the personal M4 wait with the strategic M1 bet. The former was a consumer habit; the latter was Apple using a decade of phone silicon to walk off Intel on its own schedule. The meta description is being updated to read: "I don't watch Apple keynotes, but I track what they ship."
+
+The meta description is being tightened further. The opening line now contrasts Apple's usual strategic patience with the M-series Mac transition as the exception. The iMessage line is confirmed as correct since "watch" means observe.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Updating the opening, meta description, and M-series section to match how you follow Apple and your Tim Cook / ARM take.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__apple-strategically-late.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__apple-strategically-late.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__apple-strategically-late.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__apple-strategically-late.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__apple-strategically-late.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Running lint and checking the M-series section for flow issues. Need to verify whether AirPods and Continuity were duplicated near the iPad mention.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__apple-strategically-late.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm slop:score content/english/blog/__apple-strategically-late.md &amp;&amp; pnpm lint:voice content/english/blog/__apple-strategically-late.md</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && pnpm slop:score content/english/blog/__apple-strategically-late.md && pnpm lint:voice content/english/blog/__apple-strategically-late.md
+```
+
+```
+$ python3 scripts/voice-lint.py score content/english/blog/__apple-strategically-late.md
+__apple-strategically-late.md            words=3869 total= 31 per100w=  0.80
+$ python3 scripts/voice-lint.py dashes --check && python3 scripts/voice-lint.py site --check content/english/blog/__apple-strategically-late.md
+Voice dash lint OK
+Voice lint OK
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The updates are complete.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Updated `__apple-strategically-late.md` in four places:
+
+**Opening** — No keynote watching. You follow releases through headlines, recap threads, and clips. Still own the M4 MacBook Pro and 11th-gen iPad.
+
+**Credit section** — New Apple Silicon block: Tim Cook's best CEO move, A-series iPhone chips as the foundation, x86 → ARM migration made tractable by owning hardware and software together. M1 framed as the exception to the "strategically late" pattern, not another OLED wait.
+
+**Shopping section** — M-series is the rare break in your skip-gen-one rule. Waiting for M4 was about RAM and quirks, not doubting Cook's bet.
+
+**Closing** — Explicit callout of "Apple Silicon under Cook" in the credit list.
+
+The post's main thesis still holds for most categories; M-series is now the honest counterexample where vertical integration paid off instead of patience on someone else's parts.
+
+## Session close
+- Fixed: Apple draft opening and M-series/Tim Cook ARM thesis match your actual views.
+- Encode: none
+- Open: hero image still template on both drafts.
+
+---
+
+_**User**_
+
+**M1** wasn't someone else's chip with a logo swapped. It wasn't strategically late in the OLED sense. It was vertical integration cashing the check the iPhone had been writing for a decade. relocate this sentence
+
+---
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The user wants the M1 sentence relocated from the Apple strategic late blog post.
+
+Reading the surrounding text to find the best new placement.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__apple-strategically-late.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The user wants the M1 sentence relocated from line 221.
+
+The sentence currently sits between the Apple Silicon explanation and AirPods. The best spots are immediately after line 217, or inside the "control" innovation section. The "shopping" section is too off-topic, and merging with line 217
+</details></think>
