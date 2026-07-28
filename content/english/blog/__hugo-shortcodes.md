@@ -28,7 +28,7 @@ draft: true
 
 They keep posts readable and centralize markup. When I added WebP processing and lazy-loading to the image shortcode, every post that used it picked up the change. I did not open 200 files.
 
-When YouTube changed embed attributes years ago, I fixed one `youtube.html` partial instead of grepping every post for raw iframes. That's the whole pitch.
+Years ago YouTube changed embed attributes. I fixed one `youtube.html` partial instead of grepping every post for raw iframes. That's the whole pitch - and the footgun I ignored for too long first.
 
 ---
 
@@ -36,9 +36,11 @@ When YouTube changed embed attributes years ago, I fixed one `youtube.html` part
 
 I lean on three of them here. The **image shortcode** carries Facebook walkthrough posts, blueprint diagrams, and testimony screenshots, with params for caption, dimensions, `webp="true"`, and zoom - much better than hand-writing `<figure>` tags in every draft.
 
-YouTube and Spotify embeds run the DNPAP song resources page without iframe copy-paste drift. Params stay consistent, so if YouTube changes embed attributes I fix one file. And TOC lets long template reference posts drop a table of contents without me maintaining it by hand.
+YouTube and Spotify embeds run the [DNPAP song resources](/blog/dnpap-song-resources/) page without iframe copy-paste drift. Params stay consistent, so if YouTube changes embed attributes I fix one file. TOC lets long template reference posts drop a table of contents without me maintaining it by hand.
 
 Built-ins like `ref` and `relref` handle internal links when filenames move. I use permalinks in prose more often, but `relref` saves you when a slug changes and you forgot to grep the site.
+
+The early mistake: I pasted a raw Spotify iframe into one post "just this once." Six months later the player UI shifted and that page looked broken while every shortcode page still worked. Once was enough. Third paste becomes a shortcode - or I stop pasting.
 
 ---
 
@@ -60,16 +62,18 @@ Markdown passes `id`:
 
 `.Get "param"` reads what you passed. `.Inner` is content between opening and closing tags for paired shortcodes.
 
+I almost wrote a custom callout shortcode for every "note" box on the site. Then I counted how many callouts I actually publish. Almost none. Extract what repeats. Leave one-off prose alone.
+
 ---
 
 ## `<>` vs `%` delimiters (the footgun)
 
 - `{{</* shortcode */>}}` - inner content treated as HTML (markdown not processed inside)
-- `{{{%/* shortcode */%}}%}}` - inner content runs through markdown
+- `{{%/* shortcode */%}}` - inner content runs through markdown
 
 I use `{{</* ... */>}}` for images and embeds on this site - that's almost every shortcode call in my posts. The `%` delimiter is for paired shortcodes when inner content needs markdown processing. I rarely need it here; Hugoplate's image and embed shortcodes are self-closing.
 
-Get this wrong once and you'll wonder why your bold text stopped working inside a callout.
+Get this wrong once and you'll wonder why your bold text stopped working inside a callout. I spent twenty minutes staring at `**this**` rendering as literal asterisks before I checked the delimiter. Most boring possible debug. Check the delimiters first.
 
 ---
 
@@ -81,4 +85,4 @@ Alert boxes, button links, responsive embeds, author bios - anything that might 
 
 Shortcodes are the DRY layer between "I write posts" and "I maintain a theme." I didn't build many custom ones - Hugoplate shipped the heavy lifting. The few I added paid for themselves the first time an embed format changed.
 
-Extract what repeats. Leave one-off prose alone.
+Extract what repeats. Leave one-off prose alone. And don't paste "just this once" - future-you will find that iframe.

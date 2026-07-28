@@ -368,5 +368,251 @@ The remaining verse mappings are now complete.
 
 - Love Your Enemies: 5:43–48
 - Forgiveness: 6:14–15
-- Reconciliation
+- Reconciliation Before Worship: 5:21–24
+- Peacemakers: 5:9 stays unchanged
+- Turn the Other Cheek: 5:38–42
+- Let Your Yes Be Yes: 5:33–37
+- Judge Not: 7:1–5
+- By Their Fruits: 7:15–20
+- Heart Righteousness: 5:21–30
+- Words That Build Up: 4:29 stays unchanged
+
+The heart and priorities section is now mapped.
+
+- Ask Seek Knock: 7:7–11
+- Secret Devotion: 6:3–4, 5–6, 17–18
+- Seek the Kingdom First: 6:25–34
+- God Centered Design: 5:14–16
+- Don’t Worry: 6:25–34
+- Treasure in Heaven: 6:19–21
+- Eternal Rewards: 6:1–4
+- The Beatitudes: 5:3–12 stays unchanged
+- Trust God for Today: 6:11 stays unchanged
+
+Character and witness mappings are now complete.
+
+- Come to Me Weary: 11:28–30
+- Guard Your Heart: 4:23 stays unchanged
+- Fruits of the Spirit: 5:22–23 stays unchanged
+- Discipleship: 9:23–24
+- Discipleship vs Leadership: 20:26–28
+- Humility and Service: 10:42–45
+- Let Your Light Shine: 5:14–16
+- Take Up Your Cross: 9:23–24
+- The Wise Builder: 7:24–27
+- The Narrow Way: 7:13–14
+
+The remaining verse mappings are now complete.
+
+- Walk by the Spirit: Galatians 5:16 stays unchanged
+- Count the Cost: 14:28–30
+- Many Parts One Body: 1 Corinthians 12:12 stays unchanged
+- Bear Each Other's Burdens: Galatians 6:2 stays unchanged
+- Iron Sharpens Iron: Proverbs 27:17 stays unchanged
+- Confess to One Another: James 5:16 stays unchanged
+- Christianity and Politics: 22:15–22
+- Render Unto Caesar: 22:15–22
+- Great Commission: 28:19–20
+
+I will widen the verse ranges and add brief narrative context to each gloss. The goal is to keep the hub bullets scannable while making the biblical setting clearer.
+
+Drafting examples of the revised glosses. The Grace entry now cites John 3:16–18 and adds narrative context. The Free Grace entry widens to 5:24–29. Checking the specstory for formatting patterns.
+
+The user’s @mention targets eternal-principles.md directly. That file contains no `{{< bible >}}` shortcodes; only inline verse citations in the list bullets. I will draft the full updated sections now, keeping each bullet to one scannable line.
+
+I am now drafting the exact revised text for each bullet. The verse phrase will include a brief narrative setting, such as “in the Beatitudes,” to clarify the biblical context. I am proceeding through the list carefully, starting with the theological basis section.
+
+Drafting the revised glosses for the theological basis section. The Mercy entry now cites both Matthew 5:7 and Ephesians 2:1–5. The Justification entry adds the tax collector and Pharisee contrast from Luke 18:9–14. The Sanctification entry includes Jesus’ prayer in John 17:17–19. The Present a Living Sacrifice entry pairs Matthew 16:24–26 with Romans 12:1. The Renewed Mind entry adds the Romans 12:1–2 reference. The Don’t Copy the Pattern entry keeps both John 15:19 and Romans 12:2.
+
+The remaining theological basis entries now have their narrative settings. Discern His Will Daily ties to the Feast of Booths teaching. Christlikeness reflects the student-like-teacher image. Faith and Works connects to the wise man built on the rock. Repent and Believe links to the proclamation after John’s arrest. Childlike Faith recalls the disciples’ rebuke of children. Abide in Me pairs with the vine-and-branches discourse. The Salvation and reward section begins with the Judgment Seat entry.
+
+Drafting the revised glosses for the remaining Salvation and reward bullets. Standing vs Fellowship now cites John 10:27–30. Assurance
 </details></think>
+
+_**Agent (auto-low)**_
+
+Aligning hub verse citations with the widened ranges in the spine notes and adding brief passage context where a single verse was too thin.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+The string to replace was not found in the file.
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-principles.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-principles.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-principles.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-principles.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-principles.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-principles.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The Theological basis section failed.
+
+Re-reading the file to assess its current state and fix the failed section.
+</details></think>
+
+_**Agent (auto-low)**_
+
+The Theological basis section didn't apply — re-reading the file and fixing that block.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-principles.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The Theological basis section needs fixing.
+
+The Present a Living Sacrifice line has a different word order than intended.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-principles.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+All sections were updated. Running lint to verify nothing broke.
+
+Fixing a redundant "follow behind" phrase in the Take Up Your Cross line.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-principles.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm lint:voice 2&gt;&amp;1 | rg &#34;eternal-principles&#34; || echo &#34;voice OK&#34;</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:voice 2>&1 | rg "eternal-principles" || echo "voice OK"
+```
+
+```
+]633;Cvoice OK
+]633;D;0
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Voice lint passed. Preparing the response.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Widened every verse bullet in `eternal-principles.md` to match the spine notes' fuller ranges and added brief passage context where a single verse was too thin.
+
+**What changed:**
+
+1. **Verse ranges** — Single-verse citations now span the surrounding passage (e.g. `John 3:16` → `John 3:16-18`, `Matthew 7:24` → `Matthew 7:24-27`, `John 15:5` → `John 15:1-11`).
+
+2. **Scene context** — Each gloss now names where the words land: Beatitudes, Sermon antitheses, Lord's Prayer section, talents parable, Good Samaritan, Pharisees' coin trap, vine discourse, etc.
+
+3. **Dual anchors** — Notes with two scripture blocks got both widened (`Mercy` adds Ephesians 2:1-5; `Love Your Neighbor` adds Luke 10:25-37; `Loss of Reward` adds Matthew 25:14-30).
+
+Single-verse proverbs (`Proverbs 4:23`, `27:17`) and tight beatitudes (`Matthew 5:9`) stayed narrow on purpose — widening would bury the point.
+
+## Session close
+- Fixed: All Eternal Principles hub bullets now use wider verse ranges and passage context aligned with spine notes.
+- Encode: none
+- Open: clean
+
+---
+
+_**User**_
+
+<system_notification>
+The following task has finished. If you were already aware, ignore this notification and do not restate prior responses.
+
+<task>
+kind: shell
+status: success
+task_id: 587737
+title: Lint voice on eternal-principles note
+output_path: /home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/terminals/587737.txt
+</task>
+</system_notification>
+<user_query>Briefly inform the user about the task result and perform any follow-up actions (if needed). If there's no follow-ups needed, don't explicitly say that.</user_query>
+
+_**User**_
+
+<system_notification>
+The following task has finished. If you were already aware, ignore this notification and do not restate prior responses.
+
+<task>
+kind: shell
+status: success
+task_id: 587737
+title: Lint voice on eternal-principles note
+output_path: /home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/terminals/587737.txt
+</task>
+</system_notification>
+<user_query>Briefly inform the user about the task result and perform any follow-up actions (if needed). If there's no follow-ups needed, don't explicitly say that.</user_query>
+
+---
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The lint task completed successfully.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Voice lint on `eternal-principles.md` passed clean — no wording issues flagged. The widened verse bullets are good to go.

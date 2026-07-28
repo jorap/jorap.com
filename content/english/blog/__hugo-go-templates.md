@@ -29,9 +29,11 @@ Still my best teacher.
 
 Early on I wanted featured posts to float to the top of the blog index. I wired up `featured: true` in frontmatter and edited a listing template before I'd read how Hugoplate already sorted pages.
 
-Wrong context in the template - valid syntax, empty or wrong output. No error on the page. Just not what I expected.
+Wrong context in the template - valid syntax, empty or wrong output. No error on the page. Just not what I expected. I refreshed three times thinking the browser was caching. It wasn't. The template was politely rendering nothing useful.
 
 Fix was copying the site's `sort-featured-first` partial - filter on `.Params.featured`, then append the rest. I didn't learn Go. I learned **read the theme first.**
+
+That afternoon still shapes how I edit layouts: grep Hugoplate for a working pattern before inventing a new file.
 
 ---
 
@@ -44,7 +46,7 @@ Hugo picks templates in a hierarchy:
 
 When something renders wrong, I check **which template Hugo chose** before inventing a new file. Nine times out of ten the theme already had a hook I should have edited.
 
-I name things the way Hugo expects now. Fighting the lookup order got me duplicate layouts and a confusing afternoon.
+I name things the way Hugo expects now. Fighting the lookup order got me duplicate layouts and a confusing afternoon - two `single.html` files, one ignored, me editing the wrong one for twenty minutes.
 
 ---
 
@@ -59,6 +61,8 @@ Header, footer, card markup, related-notes block - anything repeated goes in `la
 Change the card once, every listing page updates. That's how I tweaked blog cards without touching fifty files.
 
 The `.` is the current page context. `.Title`, `.Params.description`, `.RelPermalink` - frontmatter and built-ins hang off that dot. Pipe it into partials when you need a sub-scope.
+
+I once passed the wrong context into a partial and spent a while wondering why every card showed the same title. The template was fine. I handed it the wrong `.`.
 
 ---
 

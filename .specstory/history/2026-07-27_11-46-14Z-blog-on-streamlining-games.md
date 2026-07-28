@@ -1767,3 +1767,61 @@ Replacing "streamline" with "trimming" and "cutting down" throughout the body te
 _**Agent (auto-low)**_
 
 Adding more examples per technique and reframing around you actively trimming your shelf and sports diet.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__streamlining-games-and-sports.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Running lints.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm lint:blog -- content/english/blog/__streamlining-games-and-sports.md 2&gt;&amp;1 &amp;&amp; pnpm lint:voice -- content/english/blog/__streamlining-games-and-sports.md 2&gt;&amp;1 &amp;&amp; pnpm lint:slop -- content/english/blog/__streamlining-games-and-sports.md 2&gt;&amp;1</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:blog -- content/english/blog/__streamlining-games-and-sports.md 2>&1 && pnpm lint:voice -- content/english/blog/__streamlining-games-and-sports.md 2>&1 && pnpm lint:slop -- content/english/blog/__streamlining-games-and-sports.md 2>&1
+```
+
+```
+$ python3 scripts/normalize-blog-frontmatter.py --verify && python3 scripts/voice-lint.py slop --check --blog-only -- content/english/blog/__streamlining-games-and-sports.md
+Blog frontmatter OK
+Slop lint OK
+$ python3 scripts/voice-lint.py dashes --check && python3 scripts/voice-lint.py site --check -- content/english/blog/__streamlining-games-and-sports.md
+Voice dash lint OK
+Voice lint OK
+$ python3 scripts/voice-lint.py slop --check -- content/english/blog/__streamlining-games-and-sports.md
+Slop lint OK
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Adding more examples for board games and sports.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Refocused the intro on **you trimming your shelf and sports diet**, and added examples across every technique:
+
+**New sports:** boxing round caps, touch rugby, padel, softball/wiffle ball, golden goal, badminton rally scoring, golf driving range, F1 vs karting
+
+**New board games:** Jaipur, Las Vegas, Fluxx, Rainbow, Jungo, 7 Wonders, Century, No Thanks, Dixit, King of Tokyo, Wavelength, Uno, Trivial Pursuit Quick Play, Axis & Allies 1941, Slay the Spire, auto-battlers/battle royales
+
+**New personal section — "How I am trimming my shelf and my feeds":** what you cut vs kept (Monopoly board out, Deal in; travel pouch rules; Snap/meta sites out; one drill vs forty clips)
+
+Summary table updated with the new examples. Lints pass.
+
+## Session close
+- Fixed: More technique examples plus a personal trimming section for shelf, pouch, and sports feeds.
+- Encode: none
+- Open: draft still unpublished

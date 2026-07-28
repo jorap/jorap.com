@@ -1,7 +1,7 @@
 ---
 title: "Local-first Software"
 meta_title: "Local-first Software for Notes"
-description: "Local-first means my device holds the truth; sync is optional icing - backup should behave the same way."
+description: "Local-first means the device holds the truth; sync is optional icing - backup should behave the same way."
 key_concept: |
   - Truth lives on the device first; cloud sync is backup, not the vault.
   - Level 1: Your phone or computer holds the real copy first - like keeping your diary in your room and photocopying it for backup, not storing the only copy at school.

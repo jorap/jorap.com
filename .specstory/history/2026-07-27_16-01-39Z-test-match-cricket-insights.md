@@ -393,3 +393,154 @@ _**Agent (auto-low)**_
 <summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-love-modern-board-games.md</summary>
 
 </details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+More examples should be added throughout the streamlining post.
+
+Specific examples are being chosen to match the post's voice and existing content. Candidates include baseball 9-inning games versus 7-inning doubleheaders, hockey versus pond or street hockey, snooker versus pool, and darts formats like 501 versus cricket darts. The summary table will also be updated.
+
+New candidates span tabletop games, sports, and casual variants. Examples include One Night Werewolf versus full Werewolf, Dominion versus smaller setups, UNO versus full card games, and speedminton. Other ideas cover arena football, padel, bocce versus lawn bowls, dodgeball variations, netball, and indoor handball.
+
+New candidates include chess clocks, stroke-and-distance golf rules, and water polo shot clocks. Board game examples cover 7 Wonders simultaneous play, Can't Stop push-your-luck rounds, and Codenames Pictures versus word-heavy versions. Casual sports options include topgolf versus full courses, t-ball, bumper bowling, and skip-boat variants. Risk, Pandemic, Jenga, and scrabble slam are also under consideration.
+
+More candidates include rugby league versus touch football and billiards versus bar pool. The examples will be woven in naturally without bloating paragraphs. A voice inconsistency on line 109 will be fixed by changing "People play" back to "I play" for JoRap consistency. Drafting additions per section now.
+
+Drafted examples are being inserted into specific lines. Baseball and wiffle ball will appear near basketball and rugby. One Night Werewolf will be placed beside full Werewolf. Padel, street hockey, and handball will be added to the shelf section.
+
+Pandemic: Hot Zone is one city and twenty minutes; the continent box is a whole evening. Football play clocks, golf pace-of-play warnings, and Dominion ending when three supply piles empty are added. T-ball and bumper bowling are included to explain why kids need simpler versions.
+
+Padel is described as borrowing tennis footwork without the overhead serve. Codenames: Pictures drops the spelling test, and UNO is the game you teach before anyone owns a deck box. Pandemic: Hot Zone is the outbreak movie in a tiny box, while Risk: Europe is the map that actually finishes. Skip-Bo and Phase 10 sit next to UNO in the same aisle energy. Padel exploded because tennis courts were booked and pickleball felt too retirement-home for some crowds. Spikeball and roundnet are also being considered.
+
+NHL versus pond hockey and MLB versus wiffle ball or batting cages are being added. Tags will be kept minimal. The edits will be tight and woven into existing sentences rather than bloated. Line 53 was checked to confirm touch rugby was replaced by rugby league/touch football. The draft is being written in JoRap voice.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Adding examples across sections, using games and sports already in your shelf/posts where possible, and updating the summary table.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/streamlining-games-and-sports.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/streamlining-games-and-sports.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/streamlining-games-and-sports.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/streamlining-games-and-sports.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/streamlining-games-and-sports.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/streamlining-games-and-sports.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/streamlining-games-and-sports.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/streamlining-games-and-sports.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/streamlining-games-and-sports.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/streamlining-games-and-sports.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Running a slop score to verify quality.
+
+Adding examples like Pandemic: Hot Zone, Risk: Europe, Codenames Pictures, 7 Wonders, Dominion, and Balatro. These cover smaller boxes and digital games.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm slop:score content/english/blog/streamlining-games-and-sports.md</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && pnpm slop:score content/english/blog/streamlining-games-and-sports.md
+```
+
+```
+$ python3 scripts/voice-lint.py score content/english/blog/streamlining-games-and-sports.md
+streamlining-games-and-sports.md         words=2260 total= 28 per100w=  1.24
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+More examples were added.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Added examples across every section and refreshed the summary table. Highlights:
+
+**Shrink the clock:** baseball vs wiffle ball / home run derby, snooker vs bar pool, One Night Werewolf vs full Werewolf
+
+**Shrink space:** street hockey, padel, Pandemic: Hot Zone
+
+**Cut the stall:** NFL play clock, golf pace-of-play, Dominion end condition, 7 Wonders simultaneous play
+
+**Lower the floor:** T-ball, bumper bowling, Topgolf, Codenames: Pictures, UNO
+
+**Same IP, smaller box:** Pandemic: Hot Zone, Risk: Europe
+
+**Invent the cousin:** padel, roundnet/Spikeball, Balatro
+
+**Watch vs play:** NHL/street hockey, rugby league/touch football, batting cage — and restored first-person voice in that paragraph
+
+The closing table now lists the new pairs too. Slop score stayed clean at 1.24 per100w.
+
+## Session close
+- Fixed: More streamlining examples across all sections plus updated summary table.
+- Encode: none
+- Open: clean

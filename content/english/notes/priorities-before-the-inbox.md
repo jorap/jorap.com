@@ -1,7 +1,7 @@
 ---
 title: "Priorities Before the Inbox"
 meta_title: "Priorities Before the Inbox - Real Work First"
-description: "Put the real priority first before email, Slack, and everyone else's urgency rewrite my morning."
+description: "Put the real priority first before email, Slack, and everyone else's urgency rewrite the morning."
 key_concept: |
   - Put the real priority first - one protected block before the inbox rewrites the morning.
   - Level 1: Do your most important task before you open email - like eating breakfast before the phone starts buzzing.
@@ -18,7 +18,7 @@ examples:
   - "Game film due Friday - I cut it before answering every parent group chat ping."
   - "The report was due at noon - I wrote the first page before opening Slack."
 shareable_thought:
-  - "Put the real priority first before email, Slack, and everyone else's urgency rewrite my morning."
+  - "Put the real priority first before email, Slack, and everyone else's urgency rewrite the morning."
   - "One protected block before the inbox rewrites the morning."
   - "One block on the actual deliverable."
   - "Spec, hard conversation, Deep Work - before I answer pings."

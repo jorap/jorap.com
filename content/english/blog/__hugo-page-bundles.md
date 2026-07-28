@@ -29,11 +29,13 @@ A **Hugo page bundle** fixes that. It's a folder with `index.md` plus sibling fi
 
 ## The mess that pushed me toward bundles
 
-My [Facebook Favorites post](/blog/facebook-favorites-feed/) has two walkthrough screenshots - `fb-desktop-feed.jpg` and `fb-mobile-feed.jpg` - referenced from the post but still sitting as loose image files, not colocated in a bundle folder. Fine for two files. Annoying when I'm drafting three posts at once and every new screenshot lands in the same shared pile.
+My [Facebook Favorites post](/blog/facebook-favorites-feed/) has two walkthrough screenshots - `fb-desktop-feed.jpg` and `fb-mobile-feed.jpg` - referenced from the post but still sitting as loose files. Fine for two. Annoying when I'm drafting three posts at once and every new capture lands in the same shared pile.
 
-I didn't bundle that post when I added the captures. Single-file habit won. The next client migration probably won't get that pass - church bulletin PDFs beside the announcement page, before/after shots for a portfolio case study. Stuff you **never** want in a site-wide image dump.
+I almost renamed one screenshot `favorites-final-FINAL.png` last year. That's when I knew the habit was rotting. Single-file posts won for years because they're fast. The cost shows up later: hunting which draft owns `screenshot3.png` six months after publish.
 
-That's the trigger: **more than one custom asset, or an asset that shouldn't outlive the post.**
+The next client migration probably won't get that pass - church bulletin PDFs beside the announcement page, before/after shots for a portfolio case study. Stuff you **never** want in a site-wide image dump.
+
+**Trigger:** more than one custom asset, or an asset that shouldn't outlive the post.
 
 ---
 
@@ -53,9 +55,11 @@ In `index.md`, reference with relative paths:
 ![Settings screen](step-2-settings.png)
 ```
 
-No `/images/` guessing. No "which draft used `screenshot3.png`?" six months later.
+No `/images/` guessing. No archaeology in `/static`.
 
 **Leaf bundle** = one published page per folder. That's what I reach for first.
+
+I migrated one messy draft into a bundle on a Saturday and spent ten minutes moving files. The surprise wasn't Hugo - it was how many orphaned screenshots I'd left behind in the shared folder after cutting them from the post. Bundling forced the cleanup.
 
 ---
 
@@ -65,16 +69,18 @@ No `/images/` guessing. No "which draft used `screenshot3.png`?" six months late
 
 **Headless bundle:** resources without their own URL - image sets for shortcodes, shared partials. Niche. Hugoplate doesn't push you here on day one.
 
+I almost built a branch bundle for a notes series once, then realized categories and related notes already covered the "series" job. Extra hierarchy for a problem I didn't have.
+
 If you're blogging, assume **leaf bundle** until you have a reason not to.
 
 ---
 
 ## When I still use a plain `.md` file
 
-Single hero image in `/images/`. No attachments. Post fits the pattern 80% of my archive already uses.
+Single hero image in `/images/`. No attachments. Post fits the pattern most of my archive already uses.
 
 Bundles add a folder to navigate in the editor. Worth it when colocation saves confusion. Not worth it for "one jpeg and 800 words."
 
 I haven't moved the whole blog over - most posts are still one file. The next post with a pile of screenshots won't be.
 
-When you migrate an old post, bundle it then. Moving six loose images into a folder takes ten minutes. Hunting them across `/static` in a year takes longer.
+When you migrate an old post, bundle it then. Moving six loose images into a folder takes ten minutes. Hunting them across `/static` in a year takes longer. I've paid that tax once. Once was enough.

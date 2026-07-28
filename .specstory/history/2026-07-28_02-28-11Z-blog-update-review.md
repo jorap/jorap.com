@@ -1470,3 +1470,73 @@ Additional data:
 Status: **completed**
 
 </details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Updating why-i-love-modern-board-games.md at lines 58 and 128.
+
+Also updating streamlining-games-and-sports.md at line 39 and __interesting-facts-about-jorap.md at line 168. The canonical version notes a 20-move loss and piece-losses absent from Chessmaster. The JoRap draft for the chess paragraph is ready.
+
+The drafted paragraph now says the loss came in about twenty moves and the piece-losses were absent from Chessmaster training. Line 128 may keep its original wording or be tweaked to mention twenty moves.
+
+The drafted line 128 now reads: "Chessmaster didn't survive one real park game - twenty moves, tactics my training never named."
+
+The drafted line 39 adds: "taking pieces in ways my training never covered while I was still thinking classical."
+
+The ledger entry will read: "I learned chess from Chessmaster, then lost in ~twenty moves - the way they killed my pieces wasn't in my training." Both posts will be linked there too.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-love-modern-board-games.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/streamlining-games-and-sports.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__interesting-facts-about-jorap.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/author-context.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-love-modern-board-games.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Updates are complete. The published post was revised. The draft was updated too.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Aligned all three places on one story: **~20 moves**, pieces coming off in ways **Chessmaster never taught**.
+
+- **`why-i-love-modern-board-games.md`** — main anecdote and closing line updated
+- **`streamlining-games-and-sports.md`** — park-veteran line now matches
+- **`__interesting-facts-about-jorap.md`** + **`author-context.md`** — ledger row links both posts
+
+## Session close
+- Fixed: Chess anecdote harmonized across board-games post, streamlining draft, and facts ledger
+- Encode: none
+- Open: clean (chess inconsistency resolved)

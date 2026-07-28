@@ -27,13 +27,13 @@ James Clear's *Atomic Habits* gave me language that stuck. I don't quote the boo
 
 ## What I actually do with the four laws
 
-**Make it obvious.** I don't "try to blog more." I **open the Hugo draft folder after breakfast** - same chair, same mug, same folder. The cue is boring on purpose. Boring cues fire.
+**Make it obvious.** I don't "try to blog more." I **open the Hugo draft folder after breakfast** - same chair, same mug, same folder. The cue is boring on purpose. Boring cues fire. Vague goals don't.
 
-**Make it attractive.** Podcast only on walks. Notebook on the desk, not buried in a drawer. If the start feels like a chore, I won't start.
+**Make it attractive.** Podcast only on walks. Notebook on the desk, not buried in a drawer. If the start feels like a chore, I won't start. I tried "reward myself later" for months. Later never arrived. Pair the habit with something I already want *during* the habit.
 
-**Make it easy.** "Write 20 minutes" not "finish the post." "Read one page" not "read thirty." The two-minute version is how I trick tired-me into beginning.
+**Make it easy.** "Write 20 minutes" not "finish the post." "Read one page" not "read thirty." The two-minute version is how I trick tired-me into beginning. Most days the twenty minutes happen after the two-minute open. Some days they don't - and opening the folder still counts as showing up.
 
-**Make it satisfying.** Calendar X for days I showed up. Not a streak app - a paper calendar on the wall I see when I get coffee. Visual beats virtuous.
+**Make it satisfying.** Calendar X for days I showed up. Not a streak app - a paper calendar on the wall I see when I get coffee. Visual beats virtuous. Streak apps made me anxious about broken chains. Paper just shows the month.
 
 ---
 
@@ -46,13 +46,13 @@ I inverted the same laws for late-night scrolling:
 - Logged out of the apps I doom-scroll (**friction**)
 - Alarm across the room (**annoying snooze path**)
 
-Did it fix everything? No. Did it cut the worst nights? Yes.
+Did it fix everything? No. Did it cut the worst nights? Yes. The first week I cheated and brought the charger back "just for tonight." Tonight became three nights. Kitchen charger only works if it stays in the kitchen.
 
 ---
 
 ## Where I still fail
 
-Grand habit overhauls. I still design a perfect morning routine with eleven steps and collapse by Wednesday.
+Grand habit overhauls. I still design a perfect morning routine with eleven steps and collapse by Wednesday. McGill Big Three is bookmarked on my phone - not a daily habit yet. Same pattern: system on paper, willpower in the evening, nothing in the morning.
 
 What works: **one habit, one environment tweak, one tracker.** I added the breakfast writing cue after I stopped trying to fix sleep, exercise, and inbox at the same time.
 

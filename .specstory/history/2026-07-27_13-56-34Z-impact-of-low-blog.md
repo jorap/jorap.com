@@ -227,3 +227,923 @@ Additional data:
 Status: **completed**
 
 </details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Checking slop-rules.yaml, slop-lint.py, and the jorap-voice skill for threshold definitions.
+
+Also checking voice-lint.py for score mode.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/slop-rules.yaml</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/slop-lint.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "per100w|below 1|under 1|\u003c 1|score.*1"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "per100w|below 1|under 1|\u003c 1|score.*1",
+  "topFiles": [
+    {
+      "matchCount": 17,
+      "uri": ".specstory/history/2026-06-22_07-06-09Z-content-consistency-between-local-and-live.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": ".specstory/history/2026-06-23_15-03-56Z-impeccable-critique.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": ".cursor/skills/jorap-voice/SKILL.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-19_13-27-25Z-open-in-chatgpt-button.md"
+    },
+    {
+      "matchCount": 100,
+      "uri": ".specstory/history/2026-06-18_01-46-41Z-alex-eala-tracker-update.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-20_17-18-55Z-button-and-link-padding.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": ".specstory/history/2026-07-03_03-10-34Z-key-concept-review-notes.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-07-06_04-36-19Z-personal-scales-and-game-facts.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-26_15-20-35Z-garden-voice-batch-1.md"
+    },
+    {
+      "matchCount": 37,
+      "uri": ".specstory/history/2026-07-02_01-07-08Z-flashcard-guiding-principles.md"
+    },
+    {
+      "matchCount": 71,
+      "uri": "static/exports/okf-blog/articles/alex-eala-pro-career-tracker.md"
+    },
+    {
+      "matchCount": 24,
+      "uri": ".specstory/history/2026-06-18_09-57-42Z-tag-list-row-gap-issue.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-07-01_04-00-53Z-brave-shortcuts-organization.md"
+    },
+    {
+      "matchCount": 14,
+      "uri": ".specstory/history/2026-06-24_11-34-53Z-best-examples-review.md"
+    },
+    {
+      "matchCount": 21,
+      "uri": ".specstory/history/2026-07-06_09-44-39Z-tracker-update-formatting.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": ".specstory/history/2026-06-20_12-12-34Z-impeccable-critique-discussion.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "assets/js/notes-creator.js"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-06_04-36-19Z-personal-scales-and-game.md"
+    },
+    {
+      "matchCount": 20,
+      "uri": ".specstory/history/2026-06-20_10-34-58Z-card-display-settings-for-random-trio-and-duo.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "themes/jorap/assets/plugins/swiper/swiper-bundle.js"
+    }
+  ],
+  "totalFiles": 117,
+  "totalMatches": 1711
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The jorap-voice skill currently sets a ≤2.0 threshold on final drafts.
+
+The per100w score is advisory only. The mechanical linter uses binary category flags instead. I will check the current score distribution across all blogs.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.{md,mdc,yaml,py}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "2\\.0|per100w|≤|below 1|\u003c 1"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "2\\.0|per100w|≤|below 1|\u003c 1",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-22_15-20-49Z-heading-replacement-and-genre.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": ".specstory/history/2026-07-23_12-19-26Z-wider-levels-batch-5.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-06-20_12-12-34Z-impeccable-critique-discussion.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-06-20_14-14-13Z-npm-run-deployment-builds.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": "scripts/notes_content.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-22_15-20-49Z-heading-replacement-and-genre-examples.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-01_14-04-02Z-notes-frontmatter-conversion.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-06-20_09-15-01Z-flashcard-answer-hint-design.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-07-22_12-10-07Z-notes-in-biblical-devotions.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-03_02-07-57Z-jorap-notes-functionality.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-07-10_14-08-35Z-notes-descriptions-in-concepts.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": ".specstory/history/2026-06-20_02-41-11Z-upstream-synchronization.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "docs/SPEC.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-05-28_03-07-49Z-three-column-page-layout.md"
+    },
+    {
+      "matchCount": 14,
+      "uri": ".specstory/history/2026-07-17_01-13-54Z-upstream-synchronization.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-18_09-38-43Z-social-media-icons-visibility-issue.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": ".specstory/history/2026-06-18_09-41-14Z-categories-and-tags-page-format.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-17_17-52-17Z-upstream-synchronization.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-07-02_13-21-05Z-audit-template-responsiveness.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-09_15-34-09Z-notes-review-and-key.md"
+    }
+  ],
+  "totalFiles": 152,
+  "totalMatches": 729
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.cursor",
+  "pattern": "per100w|slop:score"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.cursor",
+  "pattern": "per100w|slop:score",
+  "topFiles": [
+    {
+      "matchCount": 3,
+      "uri": ".cursor/rules/anti-slop.mdc"
+    },
+    {
+      "matchCount": 3,
+      "uri": ".cursor/skills/garden-voice/SKILL.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": ".cursor/skills/jorap-voice/SKILL.md"
+    }
+  ],
+  "totalFiles": 3,
+  "totalMatches": 9
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The question concerns lowering the per100w score threshold below 1 for blogs, rather than the ≤2 threshold currently listed in the checklist.
+
+Running slop:score across all published blogs to gauge the impact of a stricter ≤1.0 threshold versus the current ≤2.0.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Scoring all published blogs to see how many would fail at thresholds below 1.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 - &lt;&lt;&#39;PY&#39;
+import importlib.util
+from pathlib import Path
+
+ROOT = Path(&#39;.&#39;)
+spec = importlib.util.spec_from_file_location(&#39;ss&#39;, ROOT/&#39;scripts/slop-score.py&#39;)
+ss = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(ss)
+
+blog = ROOT/&#39;content/english/blog&#39;
+rows = []
+for p in sorted(blog.glob(&#39;*.md&#39;)):
+    if p.name.startswith(&#39;_&#39;) or p.name.startswith(&#39;__&#39;):
+        continue
+    raw = p.read_text(encoding=&#39;utf-8&#39;)
+    text = ss.scoreable_text(p, raw)
+    r = ss.analyze_text(text)
+    flags = ss.mechanical_flags(r)
+    rows.append((r[&#39;total_per100w&#39;], r[&#39;total&#39;], r[&#39;words&#39;], len(flags), p.name))
+
+rows.sort()
+print(&#39;Published blogs — per100w distribution:&#39;)
+for per100, total, words, nflags, name in rows:
+    print(f&#39;  {per100:5.2f}  total={total:3d}  words={words:4d}  flags={nflags}  {name}&#39;)
+
+for thresh in [2.0, 1.5, 1.0, 0.5]:
+    over = [r for r in rows if r[0] &gt; thresh]
+    print(f&#39;\n&gt;{thresh}: {len(over)} posts&#39;)
+    for r in over:
+        print(f&#39;  {r[4]} ({r[0]:.2f})&#39;)
+
+# also drafts __*
+drafts = []
+for p in sorted(blog.glob(&#39;__*.md&#39;)):
+    raw = p.read_text(encoding=&#39;utf-8&#39;)
+    text = ss.scoreable_text(p, raw)
+    r = ss.analyze_text(text)
+    drafts.append((r[&#39;total_per100w&#39;], p.name))
+drafts.sort()
+print(&#39;\nDrafts (__*):&#39;)
+for per100, name in drafts:
+    mark = &#39;&gt;&#39; if per100 &gt; 1.0 else &#39; &#39;
+    print(f&#39;  {mark} {per100:5.2f}  {name}&#39;)
+PY</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 - <<'PY'
+import importlib.util
+from pathlib import Path
+
+ROOT = Path('.')
+spec = importlib.util.spec_from_file_location('ss', ROOT/'scripts/slop-score.py')
+ss = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(ss)
+
+blog = ROOT/'content/english/blog'
+rows = []
+for p in sorted(blog.glob('*.md')):
+    if p.name.startswith('_') or p.name.startswith('__'):
+        continue
+    raw = p.read_text(encoding='utf-8')
+    text = ss.scoreable_text(p, raw)
+    r = ss.analyze_text(text)
+    flags = ss.mechanical_flags(r)
+    rows.append((r['total_per100w'], r['total'], r['words'], len(flags), p.name))
+
+rows.sort()
+print('Published blogs — per100w distribution:')
+for per100, total, words, nflags, name in rows:
+    print(f'  {per100:5.2f}  total={total:3d}  words={words:4d}  flags={nflags}  {name}')
+
+for thresh in [2.0, 1.5, 1.0, 0.5]:
+    over = [r for r in rows if r[0] > thresh]
+    print(f'\n>{thresh}: {len(over)} posts')
+    for r in over:
+        print(f'  {r[4]} ({r[0]:.2f})')
+
+# also drafts __*
+drafts = []
+for p in sorted(blog.glob('__*.md')):
+    raw = p.read_text(encoding='utf-8')
+    text = ss.scoreable_text(p, raw)
+    r = ss.analyze_text(text)
+    drafts.append((r['total_per100w'], p.name))
+drafts.sort()
+print('\nDrafts (__*):')
+for per100, name in drafts:
+    mark = '>' if per100 > 1.0 else ' '
+    print(f'  {mark} {per100:5.2f}  {name}')
+PY
+```
+
+```
+Traceback (most recent call last):
+  File "<stdin>", line 7, in <module>
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/jorap/Documents/GitHub/jorap.com/scripts/slop-score.py", line 17, in <module>
+    from notes_content import note_prose_text, split_frontmatter
+ModuleNotFoundError: No module named 'notes_content'
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/slop-lint.py --summary --blog-only 2&gt;&amp;1 | head -40</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/slop-lint.py --summary --blog-only 2>&1 | head -40
+```
+
+```
+Slop scan - 65 blog, 0 notes, 0 fail, 0 warn
+Rules: data/slop-rules.yaml
+
+No slop flags.
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+An import failed because notes_content is missing from the path.
+
+Running from the scripts directory or adjusting sys.path should resolve the import.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; PYTHONPATH=scripts python3 - &lt;&lt;&#39;PY&#39;
+import importlib.util
+from pathlib import Path
+
+ROOT = Path(&#39;.&#39;)
+spec = importlib.util.spec_from_file_location(&#39;ss&#39;, ROOT/&#39;scripts/slop-score.py&#39;)
+ss = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(ss)
+
+blog = ROOT/&#39;content/english/blog&#39;
+rows = []
+for p in sorted(blog.glob(&#39;*.md&#39;)):
+    if p.name.startswith(&#39;_&#39;) or p.name.startswith(&#39;__&#39;):
+        continue
+    raw = p.read_text(encoding=&#39;utf-8&#39;)
+    text = ss.scoreable_text(p, raw)
+    r = ss.analyze_text(text)
+    flags = ss.mechanical_flags(r)
+    rows.append((r[&#39;total_per100w&#39;], r[&#39;total&#39;], r[&#39;words&#39;], len(flags), p.name, [f[0] for f in flags]))
+
+rows.sort()
+print(&#39;Published blogs — per100w distribution:&#39;)
+for per100, total, words, nflags, name, flag_ids in rows:
+    print(f&#39;  {per100:5.2f}  total={total:3d}  words={words:4d}  flags={nflags}  {name}&#39;)
+
+for thresh in [2.0, 1.5, 1.0, 0.5]:
+    over = [r for r in rows if r[0] &gt; thresh]
+    print(f&#39;\n&gt;{thresh}: {len(over)} of {len(rows)} published posts&#39;)
+    for r in over:
+        print(f&#39;  {r[4]} ({r[0]:.2f}) flags={r[5]}&#39;)
+
+drafts = []
+for p in sorted(blog.glob(&#39;__*.md&#39;)):
+    raw = p.read_text(encoding=&#39;utf-8&#39;)
+    text = ss.scoreable_text(p, raw)
+    r = ss.analyze_text(text)
+    flags = ss.mechanical_flags(r)
+    drafts.append((r[&#39;total_per100w&#39;], p.name, [f[0] for f in flags]))
+drafts.sort()
+print(&#39;\nDrafts (__*):&#39;)
+for per100, name, flag_ids in drafts:
+    mark = &#39;!&#39; if per100 &gt; 1.0 else &#39; &#39;
+    print(f&#39;  {mark} {per100:5.2f}  {name}  {flag_ids}&#39;)
+PY</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && PYTHONPATH=scripts python3 - <<'PY'
+import importlib.util
+from pathlib import Path
+
+ROOT = Path('.')
+spec = importlib.util.spec_from_file_location('ss', ROOT/'scripts/slop-score.py')
+ss = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(ss)
+
+blog = ROOT/'content/english/blog'
+rows = []
+for p in sorted(blog.glob('*.md')):
+    if p.name.startswith('_') or p.name.startswith('__'):
+        continue
+    raw = p.read_text(encoding='utf-8')
+    text = ss.scoreable_text(p, raw)
+    r = ss.analyze_text(text)
+    flags = ss.mechanical_flags(r)
+    rows.append((r['total_per100w'], r['total'], r['words'], len(flags), p.name, [f[0] for f in flags]))
+
+rows.sort()
+print('Published blogs — per100w distribution:')
+for per100, total, words, nflags, name, flag_ids in rows:
+    print(f'  {per100:5.2f}  total={total:3d}  words={words:4d}  flags={nflags}  {name}')
+
+for thresh in [2.0, 1.5, 1.0, 0.5]:
+    over = [r for r in rows if r[0] > thresh]
+    print(f'\n>{thresh}: {len(over)} of {len(rows)} published posts')
+    for r in over:
+        print(f'  {r[4]} ({r[0]:.2f}) flags={r[5]}')
+
+drafts = []
+for p in sorted(blog.glob('__*.md')):
+    raw = p.read_text(encoding='utf-8')
+    text = ss.scoreable_text(p, raw)
+    r = ss.analyze_text(text)
+    flags = ss.mechanical_flags(r)
+    drafts.append((r['total_per100w'], p.name, [f[0] for f in flags]))
+drafts.sort()
+print('\nDrafts (__*):')
+for per100, name, flag_ids in drafts:
+    mark = '!' if per100 > 1.0 else ' '
+    print(f'  {mark} {per100:5.2f}  {name}  {flag_ids}')
+PY
+```
+
+```
+Published blogs — per100w distribution:
+   0.22  total=  8  words=3598  flags=0  alex-eala-pro-career-tracker.md
+   0.36  total=  3  words= 841  flags=0  instant-pot-chicken-adobo.md
+   0.38  total=  1  words= 265  flags=0  dnpap-song-resources.md
+   0.42  total=  6  words=1443  flags=0  consistent-ai-output-wordpress-builds.md
+   0.43  total=  4  words= 933  flags=0  mouse-wheel-click.md
+   0.48  total=  3  words= 622  flags=0  extension-cord.md
+   0.48  total= 11  words=2293  flags=0  hugoplate-theme-review.md
+   0.54  total=  6  words=1109  flags=0  instant-pot-arroz-caldo.md
+   0.58  total=  4  words= 685  flags=0  sustainable-online-publishing.md
+   0.60  total=  5  words= 833  flags=0  set-it-forget-it-arroz-caldo.md
+   0.61  total=  6  words= 982  flags=0  why-keep-desktop-laptop.md
+   0.61  total=  7  words=1157  flags=0  worship-pads-solo-guitar.md
+   0.61  total= 13  words=2138  flags=0  hanamikoji-duopoly-retheme.md
+   0.65  total=  7  words=1071  flags=0  getting-started-with-rss-feeds.md
+   0.68  total= 10  words=1465  flags=0  streamlining-games-and-sports.md
+   0.73  total=  9  words=1235  flags=0  what-i-look-for-in-wireless-earphones.md
+   0.80  total= 12  words=1505  flags=0  how-i-built-jorap-notes.md
+   0.81  total= 11  words=1353  flags=0  static-site-vs-cms.md
+   0.90  total= 11  words=1222  flags=0  one-page-zine.md
+   0.91  total=  9  words= 994  flags=0  drupal-to-wordpress.md
+   0.91  total= 19  words=2088  flags=0  why-i-love-modern-board-games.md
+   0.92  total= 13  words=1419  flags=0  why-i-focused-on-open-source.md
+   0.94  total=  8  words= 847  flags=0  facebook-favorites-feed.md
+   1.04  total= 28  words=2693  flags=0  google-over-apple-ecosystem.md
+   1.10  total= 14  words=1276  flags=0  miracle-isaiah-david.md
+   1.16  total= 14  words=1205  flags=0  why-i-stopped-playing-marvel-snap.md
+   1.38  total= 16  words=1159  flags=0  why-run-your-own-website.md
+
+>2.0: 0 of 27 published posts
+
+>1.5: 0 of 27 published posts
+
+>1.0: 4 of 27
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+All published blogs currently pass at the 1.0 threshold. Only four posts exceed it by a small margin.
+
+Mechanical flags remain silent because they rely on categorical thresholds. Single violations across many categories fail to trigger warnings. Posts above 1.0 per 100 words have empty flags. Lowering the score below 1 would change this.
+
+The change would be advisory only and not enforced by CI. Four published posts and five drafts would be affected. The user likely means lowering the per100w threshold itself rather than passive_min. I will examine the specific violations in posts above 1.0 and test a passive_min of 1.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; PYTHONPATH=scripts python3 - &lt;&lt;&#39;PY&#39;
+import importlib.util, json
+from pathlib import Path
+
+ROOT = Path(&#39;.&#39;)
+spec = importlib.util.spec_from_file_location(&#39;ss&#39;, ROOT/&#39;scripts/slop-score.py&#39;)
+ss = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(ss)
+
+targets = [
+    &#39;google-over-apple-ecosystem.md&#39;,
+    &#39;miracle-isaiah-david.md&#39;,
+    &#39;why-i-stopped-playing-marvel-snap.md&#39;,
+    &#39;why-run-your-own-website.md&#39;,
+    &#39;__smart-plug.md&#39;,
+    &#39;__mi-box-s.md&#39;,
+]
+blog = ROOT/&#39;content/english/blog&#39;
+
+print(&#39;=== Posts &gt;1.0 per100w — violation breakdown ===&#39;)
+for name in targets:
+    p = blog/name
+    raw = p.read_text(encoding=&#39;utf-8&#39;)
+    r = ss.analyze_text(ss.scoreable_text(p, raw))
+    flags = ss.mechanical_flags(r)
+    flags1 = ss.mechanical_flags(r, passive_min=1)
+    print(f&#39;\n{name}: per100w={r[&#34;total_per100w&#34;]} words={r[&#34;words&#34;]}&#39;)
+    print(&#39;  violations:&#39;, r[&#39;violations&#39;])
+    print(&#39;  flags (passive_min=2):&#39;, [f[0] for f in flags])
+    print(&#39;  flags (passive_min=1):&#39;, [f[0] for f in flags1])
+
+# count passive-only impact at min=1 across all published
+print(&#39;\n=== passive_min=1 impact on published ===&#39;)
+for p in sorted((ROOT/&#39;content/english/blog&#39;).glob(&#39;*.md&#39;)):
+    if p.name.startswith(&#39;_&#39;):
+        continue
+    raw = p.read_text(encoding=&#39;utf-8&#39;)
+    r = ss.analyze_text(ss.scoreable_text(p, raw))
+    f2 = ss.mechanical_flags(r, passive_min=2)
+    f1 = ss.mechanical_flags(r, passive_min=1)
+    if len(f1) &gt; len(f2):
+        print(f&#39;  {p.name}: per100w={r[&#34;total_per100w&#34;]} passives={r[&#34;violations&#34;][&#34;passive_voice&#34;]} new_flag=passive-voice&#39;)
+PY</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && PYTHONPATH=scripts python3 - <<'PY'
+import importlib.util, json
+from pathlib import Path
+
+ROOT = Path('.')
+spec = importlib.util.spec_from_file_location('ss', ROOT/'scripts/slop-score.py')
+ss = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(ss)
+
+targets = [
+    'google-over-apple-ecosystem.md',
+    'miracle-isaiah-david.md',
+    'why-i-stopped-playing-marvel-snap.md',
+    'why-run-your-own-website.md',
+    '__smart-plug.md',
+    '__mi-box-s.md',
+]
+blog = ROOT/'content/english/blog'
+
+print('=== Posts >1.0 per100w — violation breakdown ===')
+for name in targets:
+    p = blog/name
+    raw = p.read_text(encoding='utf-8')
+    r = ss.analyze_text(ss.scoreable_text(p, raw))
+    flags = ss.mechanical_flags(r)
+    flags1 = ss.mechanical_flags(r, passive_min=1)
+    print(f'\n{name}: per100w={r["total_per100w"]} words={r["words"]}')
+    print('  violations:', r['violations'])
+    print('  flags (passive_min=2):', [f[0] for f in flags])
+    print('  flags (passive_min=1):', [f[0] for f in flags1])
+
+# count passive-only impact at min=1 across all published
+print('\n=== passive_min=1 impact on published ===')
+for p in sorted((ROOT/'content/english/blog').glob('*.md')):
+    if p.name.startswith('_'):
+        continue
+    raw = p.read_text(encoding='utf-8')
+    r = ss.analyze_text(ss.scoreable_text(p, raw))
+    f2 = ss.mechanical_flags(r, passive_min=2)
+    f1 = ss.mechanical_flags(r, passive_min=1)
+    if len(f1) > len(f2):
+        print(f'  {p.name}: per100w={r["total_per100w"]} passives={r["violations"]["passive_voice"]} new_flag=passive-voice')
+PY
+```
+
+```
+=== Posts >1.0 per100w — violation breakdown ===
+
+google-over-apple-ecosystem.md: per100w=1.04 words=2693
+  violations: {'long_sentence(>25w)': 24, 'passive_voice': 0, 'ing_main_verb': 4, 'nominalization': 0, 'phrasal_verb': 0}
+  flags (passive_min=2): []
+  flags (passive_min=1): []
+
+miracle-isaiah-david.md: per100w=1.1 words=1276
+  violations: {'long_sentence(>25w)': 9, 'passive_voice': 0, 'ing_main_verb': 5, 'nominalization': 0, 'phrasal_verb': 0}
+  flags (passive_min=2): []
+  flags (passive_min=1): []
+
+why-i-stopped-playing-marvel-snap.md: per100w=1.16 words=1205
+  violations: {'long_sentence(>25w)': 7, 'passive_voice': 1, 'ing_main_verb': 6, 'nominalization': 0, 'phrasal_verb': 0}
+  flags (passive_min=2): []
+  flags (passive_min=1): ['passive-voice']
+
+why-run-your-own-website.md: per100w=1.38 words=1159
+  violations: {'long_sentence(>25w)': 12, 'passive_voice': 0, 'ing_main_verb': 4, 'nominalization': 0, 'phrasal_verb': 0}
+  flags (passive_min=2): []
+  flags (passive_min=1): []
+
+__smart-plug.md: per100w=1.06 words=662
+  violations: {'long_sentence(>25w)': 4, 'passive_voice': 0, 'ing_main_verb': 3, 'nominalization': 0, 'phrasal_verb': 0}
+  flags (passive_min=2): []
+  flags (passive_min=1): []
+
+__mi-box-s.md: per100w=1.2 words=583
+  violations: {'long_sentence(>25w)': 6, 'passive_voice': 0, 'ing_main_verb': 1, 'nominalization': 0, 'phrasal_verb': 0}
+  flags (passive_min=2): []
+  flags (passive_min=1): []
+
+=== passive_min=1 impact on published ===
+  drupal-to-wordpress.md: per100w=0.91 passives=1 new_flag=passive-voice
+  hugoplate-theme-review.md: per100w=0.48 passives=1 new_flag=passive-voice
+  instant-pot-chicken-adobo.md: per100w=0.36 passives=1 new_flag=passive-voice
+  one-page-zine.md: per100w=0.9 passives=1 new_flag=passive-voice
+  what-i-look-for-in-wireless-earphones.md: per100w=0.73 passives=1 new_flag=passive-voice
+  why-i-love-modern-board-games.md: per100w=0.91 passives=1 new_flag=passive-voice
+  why-i-stopped-playing-marvel-snap.md: per100w=1.16 passiv
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/rules/anti-slop.mdc</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The user wants to know the impact of lowering the per100w score threshold below 1 for blogs.
+
+The per100w score is purely advisory and not enforced by CI. Lowering the threshold below 1.0 would cause four published posts and five drafts to fail the advisory bar.
+
+Slop-lint still reports zero warnings for those posts. Their violations are mostly long sentences and -ing verbs, which do not trigger the ratio warning. That warning requires at least four sentences and over thirty percent long sentences. The long-sentence flag may still be near its threshold.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; PYTHONPATH=scripts python3 - &lt;&lt;&#39;PY&#39;
+import importlib.util
+from pathlib import Path
+
+spec = importlib.util.spec_from_file_location(&#39;ss&#39;, Path(&#39;scripts/slop-score.py&#39;))
+ss = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(ss)
+
+blog = Path(&#39;content/english/blog&#39;)
+over = []
+for p in sorted(blog.glob(&#39;*.md&#39;)):
+    if p.name.startswith(&#39;_&#39;):
+        continue
+    raw = p.read_text(encoding=&#39;utf-8&#39;)
+    r = ss.analyze_text(ss.scoreable_text(p, raw))
+    if r[&#39;total_per100w&#39;] &gt; 1.0:
+        over.append((r[&#39;total_per100w&#39;], p.name, r[&#39;long_sentence_ratio&#39;], r[&#39;long_sentence_ratio_warn&#39;], r[&#39;violations&#39;]))
+
+print(&#39;Published &gt;1.0:&#39;)
+for row in over:
+    print(f&#34;  {row[1]}: per100w={row[0]}, long_ratio={row[2]:.1%}, ratio_warn={row[3]}, long_sents={row[4][&#39;long_sentence(&gt;25w)&#39;]}&#34;)
+
+# median and percentiles
+all_scores = []
+for p in blog.glob(&#39;*.md&#39;):
+    if p.name.startswith(&#39;_&#39;):
+        continue
+    raw = p.read_text(encoding=&#39;utf-8&#39;)
+    r = ss.analyze_text(ss.scoreable_text(p, raw))
+    all_scores.append(r[&#39;total_per100w&#39;])
+all_scores.sort()
+n = len(all_scores)
+print(f&#39;\nPublished stats: min={all_scores[0]:.2f} median={all_scores[n//2]:.2f} max={all_scores[-1]:.2f} mean={sum(all_scores)/n:.2f}&#39;)
+print(f&#39;≤1.0: {sum(1 for s in all_scores if s &lt;= 1.0)}/{n}&#39;)
+print(f&#39;≤0.5: {sum(1 for s in all_scores if s &lt;= 0.5)}/{n}&#39;)
+PY</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && PYTHONPATH=scripts python3 - <<'PY'
+import importlib.util
+from pathlib import Path
+
+spec = importlib.util.spec_from_file_location('ss', Path('scripts/slop-score.py'))
+ss = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(ss)
+
+blog = Path('content/english/blog')
+over = []
+for p in sorted(blog.glob('*.md')):
+    if p.name.startswith('_'):
+        continue
+    raw = p.read_text(encoding='utf-8')
+    r = ss.analyze_text(ss.scoreable_text(p, raw))
+    if r['total_per100w'] > 1.0:
+        over.append((r['total_per100w'], p.name, r['long_sentence_ratio'], r['long_sentence_ratio_warn'], r['violations']))
+
+print('Published >1.0:')
+for row in over:
+    print(f"  {row[1]}: per100w={row[0]}, long_ratio={row[2]:.1%}, ratio_warn={row[3]}, long_sents={row[4]['long_sentence(>25w)']}")
+
+# median and percentiles
+all_scores = []
+for p in blog.glob('*.md'):
+    if p.name.startswith('_'):
+        continue
+    raw = p.read_text(encoding='utf-8')
+    r = ss.analyze_text(ss.scoreable_text(p, raw))
+    all_scores.append(r['total_per100w'])
+all_scores.sort()
+n = len(all_scores)
+print(f'\nPublished stats: min={all_scores[0]:.2f} median={all_scores[n//2]:.2f} max={all_scores[-1]:.2f} mean={sum(all_scores)/n:.2f}')
+print(f'≤1.0: {sum(1 for s in all_scores if s <= 1.0)}/{n}')
+print(f'≤0.5: {sum(1 for s in all_scores if s <= 0.5)}/{n}')
+PY
+```
+
+```
+Published >1.0:
+  google-over-apple-ecosystem.md: per100w=1.04, long_ratio=11.8%, ratio_warn=False, long_sents=24
+  miracle-isaiah-david.md: per100w=1.1, long_ratio=8.7%, ratio_warn=False, long_sents=9
+  why-i-stopped-playing-marvel-snap.md: per100w=1.16, long_ratio=6.5%, ratio_warn=False, long_sents=7
+  why-run-your-own-website.md: per100w=1.38, long_ratio=12.5%, ratio_warn=False, long_sents=12
+
+Published stats: min=0.22 median=0.65 max=1.38 mean=0.71
+≤1.0: 23/27
+≤0.5: 7/27
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Clarifying what "lowering score below 1" means across different contexts.
+
+Lowering the score below 1 likely means per100w dropping to 1.0. That would tighten the advisory threshold modestly and flag four published posts for minor edits. CI enforcement would need new code. The passive minimum rule is separate. The key insight is that per100w and slop-lint are decoupled. A post can score 1.38 while receiving zero slop-lint warnings.
+
+Current violations are spread across long sentences and -ing constructions. Single passives are ignored by the passive minimum rule. Lowering the score below 1 would push edits toward shorter sentences and fewer "is/are/was + -ing" phrases. Five drafts would need work before publishing.
+
+The score is already tight. Median is 0.65 and mean is 0.71. Only four posts exceed 1.0. A 0.5 threshold would catch seventy-four percent of published posts. That is far too strict. The tradeoff is catching subtle slop missed by category rules. It would force sentence-level edits on otherwise clean posts.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Good question — there are two different "scores" in play, and only one of them is what you'd tighten.
+
+## What "below 1" actually means
+
+`per100w` is **violations per 100 words** (lower = cleaner). The jorap-voice checklist currently says **≤2.0 on final draft**. That's advisory only — `pnpm lint:slop` does **not** gate on `per100w` at all.
+
+Mechanical lint uses **category rules**, not the total score:
+
+| Rule | Fires when |
+|------|------------|
+| nominalization | any hit |
+| phrasal-verb | any hit |
+| passive-voice | **≥2** passives (`min_count: 2`) |
+| long-sentences | **>30%** of sentences over 25 words (and ≥4 sentences) |
+
+So a post can score 1.38 `per100w` and still get **zero** slop-lint warns.
+
+## Impact of tightening to `< 1.0` (advisory only)
+
+On your **27 published posts** right now:
+
+| Threshold | Posts failing |
+|-----------|---------------|
+| ≤2.0 (current) | 0 |
+| ≤1.0 | **4** (15%) |
+| ≤0.5 | 20 (74%) |
+
+The four above 1.0:
+
+- `why-run-your-own-website.md` — 1.38
+- `why-i-stopped-playing-marvel-snap.md` — 1.16
+- `miracle-isaiah-david.md` — 1.10
+- `google-over-apple-ecosystem.md` — 1.04
+
+Corpus stats: median **0.65**, mean **0.71**, max **1.38**.
+
+Five drafts (`__*`) would also miss: `__immune-booster-supplements`, `__shopee-tips`, `__second-cellphone`, `__mi-box-s`, `__smart-plug`.
+
+## What you'd actually be editing
+
+Those high-scorers aren't failing on nominalizations or phrasal verbs. The violations are mostly:
+
+- **Long individual sentences** (6–24 over 25 words) — but long-sentence *ratio* is only 6–12%, well under the 30% lint threshold
+- **`is/are + -ing`** constructions (`ing_main_verb`)
+
+So lowering to `< 1.0 pushes **sentence-level tightening** on posts that already pass structural lint. It's a polish bar, not a slop-detector bar.
+
+## What would *not* change
+
+- **`pnpm lint:slop`** — still 0 blog warns today; unchanged unless you wire `per100w` into CI
+- **Published posts under 1.0** — 23/27 already comply
+- **Voice-words / structural rules** — separate layer, unaffected
+
+## If you meant `passive_min: 1` instead
+
+That's a different knob (`min_count: 2` → `1` in `slop-rules.yaml`). It would add **passive-voice** warns on 8 published posts that each have exactly one passive — including posts with low `per100w` like `instant-pot-chicken-adobo` (0.36). More noise, not the same as a score threshold.
+
+## Recommendation
+
+**`< 1.0` as a checklist target is reasonable** — it only catches the top ~15% of your corpus, and the edits are real but small (split a few long sentences, swap some `-ing` constructions). Your median is already 0.65, so you're not far off.
+
+**`< 1.0` as a CI gate** would be premature — you'd be enforcing a metric that `slop-lint` doesn't use, and you'd be editing for `-ing`/long-sentence counts that the linter intentionally ignores.
+
+**`≤ 0.5`** would be overkill — three-quarters of published posts would fail for marginal gain.
+
+If you want the bar to matter at publish time, the smallest useful change is probably: keep `≤1.0` in jorap-voice, optionally add a `long-sentences` ratio warn at 15–20% (those four posts still wouldn't all trip it), and leave `passive_min` at 2. Want me to run the four offenders through a targeted pass and show what `< 1.0` edits look like in practice?

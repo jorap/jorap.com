@@ -384,5 +384,836 @@ _**Agent (composer-2.5-fast)**_
 <think><details><summary>Thought Process</summary>
 Continuing to scan the remaining blog posts for missing personal facts. I will also grep across all posts for specific patterns to catch overlooked details.
 
-mouse-wheel-click.md contains no personal facts. __mcgill-big-three.md reveals sitting for work causes stiff backs after long WordPress builds; McGill Big Three is bookmarked but not yet a daily habit. __how-to-create-a-good-habit.md shows opening the Hugo draft folder after breakfast in the same chair and mug, listening to podcasts only on walks, and tracking days shown up via a
+mouse-wheel-click.md contains no personal facts. __mcgill-big-three.md reveals sitting for work causes stiff backs after long WordPress builds; McGill Big Three is bookmarked but not yet a daily habit. __how-to-create-a-good-habit.md shows opening the Hugo draft folder after breakfast in the same chair and mug, listening to podcasts only on walks, and tracking days shown up via a paper calendar on the wall.
+
+__how-to-create-a-good-habit.md also records phone habits: keeping the charger in the kitchen rather than by the bed, switching to grayscale after 9 PM, logging out of doom-scroll apps, and placing the alarm across the room.
+
+__wifi-router.md reveals treating routers like printer ink, making adobo while streaming, sketching floor plans before purchase, and the last cheap router needing a weekly reboot.
+
+__rechargeable-batteries.md shows a battery drawer graveyard, standardization on Eneloop brand, and smoke detectors running on alkaline batteries.
+
+__obsidian-vs-hugo.md reveals running two homes for a year, then dropping the separate Obsidian vault. Private captures live in a "garage" workflow: garage, garden, push. This is missing from the ledger.
+
+__client-site-pass-off.md shows the neighbor chose a Git lesson for the portfolio. The pastor client sends a bulletin every Friday. Sveltia CMS is used for some clients. These are missing from the ledger.
+
+streamlining-games-and-sports.md notes stopping full heavyweight boxing cards. This is missing from the ledger.
+
+streamlining-games-and-sports.md records learning chess from Chessmaster and beating a chess veteran in roughly twenty moves. The ledger currently lists this at about ten moves, suggesting a stale or contradictory entry.
+
+The travel zip pouch holds Hanamikoji, Sushi Go!, Vegetable Stock, and Jungo. The shelf includes Monopoly Deal, TTR cities, Catan: On the Road, Jaipur, Strike, Las Vegas, Ohanami, Century, and Dixit. The original Catan has not been played yet.
+
+Several items are already in the ledger: Davis playing Strike with his grandmother, the Alex Eala scrapbook, and pickleball or badminton.
+
+streamlining-games-and-sports.md also reveals postcards
 </details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+Continuing to read posts not yet covered and grep for personal-fact patterns.
+
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-love-modern-board-games.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/google-over-apple-ecosystem.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__why-brave-browser.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__apple-strategically-late.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__xiaomi-is-the-new-huawei.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/dnpap-song-resources.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/worship-pads-solo-guitar.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__password-managers.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Continuing to scan remaining blog posts for personal facts absent from the ledger, with spot checks on published entries.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__second-cellphone.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__shopee-tips.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__immune-booster-supplements.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__canon-g3000.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__smart-plug.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__mi-box-s.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/set-it-forget-it-arroz-caldo.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/instant-pot-arroz-caldo.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Reading more posts for personal facts. Checking posts like how-i-built-jorap-notes, why-run-your-own-website, and __jorap-notes-features. Will grep unread posts for additional personal details.
+
+Extracted 20 post slugs from the ledger. Now comparing these against all 67 blog posts to find any missing references.
+
+The ledger references 44 unique posts total, including many drafts. This brings the full tally to 64 distinct slugs across the archive.
+
+Auditing the 65 remaining posts. Most appear unreferenced by the ledger. Drafts such as __client-site-pass-off, __obsidian-vs-hugo, and __rechargeable-batteries are likely missing from the facts ledger.
+
+Drafts __how-to-create-a-good-habit and __mcgill-big-three are missing from the ledger. Most remaining posts are referenced.
+
+mouse-wheel-click is unreferenced by the ledger. Most remaining posts are confirmed referenced.
+
+Most remaining posts are confirmed referenced. __wifi-router is unreferenced. __hugo-static-site-generator is also unreferenced. __client-site-pass-off remains the only unreferenced draft still flagged for review.
+
+Twenty-two posts are unreferenced by the ledger. These include drafts on prompt frameworks, AI articles, and Hugo templates. Some may contain personal facts worth adding.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/how-i-built-jorap-notes.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-run-your-own-website.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__jorap-notes-features.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__kewpie-mayo.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__worcestershire-sauce.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/facebook-favorites-feed.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-stopped-playing-marvel-snap.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "content/english/blog/*.md",
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "\\b(I |my |we |Pia|Isaiah|Davis|Philippines|Filipino|Linux|WordPress|Hugo|Cursor|Meet|Messenger|Viber|Shopee|Instant Pot|MacBook|Android|iPad|Bitwarden|Brave|Kumon|worship|grandmother|wife|son |lola|mother-in-law|jeepney|GCash|Biñan|Parañaque|Eneloop|Hanabishi|VLC|Soundpeats|Canon|Mi Box|Redmi|POCO|Samsung|Inoreader|Facebook|Marvel Snap|Hanamikoji|Instant Pot|grade 1|six-year|six year)"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "\\b(I |my |we |Pia|Isaiah|Davis|Philippines|Filipino|Linux|WordPress|Hugo|Cursor|Meet|Messenger|Viber|Shopee|Instant Pot|MacBook|Android|iPad|Bitwarden|Brave|Kumon|worship|grandmother|wife|son |lola|mother-in-law|jeepney|GCash|Biñan|Parañaque|Eneloop|Hanabishi|VLC|Soundpeats|Canon|Mi Box|Redmi|POCO|Samsung|Inoreader|Facebook|Marvel Snap|Hanamikoji|Instant Pot|grade 1|six-year|six year)",
+  "topFiles": [
+    {
+      "matchCount": 117,
+      "uri": "./content/english/blog/__interesting-facts-about-jorap.md"
+    },
+    {
+      "matchCount": 53,
+      "uri": "./content/english/blog/google-over-apple-ecosystem.md"
+    },
+    {
+      "matchCount": 30,
+      "uri": "./content/english/blog/why-i-stopped-playing-marvel-snap.md"
+    }
+  ],
+  "totalFiles": 3,
+  "totalMatches": 1498
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Reading additional posts for missing personal facts. Scanning titles like consistent-ai-output, drupal-to-wordpress, __selling-static-sites, and wireless earphone reviews for biographical details. Also scanning remaining unreferenced tech posts.
+
+Several personal facts are already in the ledger. The second cellphone for gaming is missing. The Samsung skip post is covered by the Xiaomi post. Linux build boxes for Hugo appear partially in the Google post. The miracle post covers DZMM Teleradyo and Smart Parenting. Facebook updates about mom’s trip photos and church may be too granular. Grade-1 postcards and six weeks into Kumon are present. Obsidian versus Hugo mentions a year-long wiki plus Hugo setup. Immune supplements cover three colds in eight weeks during the rainy season. The client site pass-off post mentions a neighbor portfolio and pastor bulletins.
+
+Brave Sync recovery phrase in Bitwarden is missing from the ledger. Worship sources and game shelf overlaps are likely too granular. The Alex tracker post contains meta facts about JoRap’s WTA and Tennis.com usage during Slams. Instant Pot recipes and the set-it-forget-it rice cooker model are absent. A contradiction was found: the ledger records roughly ten chess moves for humiliation, while the streamlining post claims about twenty.
+
+The chess move count is not stale; the streamlining post contradicts the why-i-love-modern-board-games post instead. The six-year-old son and the Dav bag placement are consistent across sources. Several game shelf entries are missing from the ledger: Monopoly Deal, Las Vegas, Vegetable Stock, Deception, Ticket to Ride cities, and Catan On the Road.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/consistent-ai-output-wordpress-builds.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__selling-static-sites.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/hanamikoji-duopoly-retheme.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-focused-on-open-source.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "content/english/blog/__*.md",
+  "outputMode": "content",
+  "pattern": "\\b(I |my |we |Pia|Davis|Isaiah|Philippines|Filipino|Linux|WordPress|Cursor|Meet|Shopee|Instant Pot|MacBook|Android|Bitwarden|Kumon|worship|grandmother|wife|son |lola|mother-in-law|jeepney|GCash|Biñan|Eneloop|Hanabishi|VLC|Soundpeats|Canon|Mi Box|Redmi|Inoreader|Facebook|Marvel|Hanamikoji|grade 1|six-year|church|pastor|neighbor|garage|Obsidian|McGill|habit|supplement|rechargeable|wifi|router|café|Biñan)"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "\\b(I |my |we |Pia|Davis|Isaiah|Philippines|Filipino|Linux|WordPress|Cursor|Meet|Shopee|Instant Pot|MacBook|Android|Bitwarden|Kumon|worship|grandmother|wife|son |lola|mother-in-law|jeepney|GCash|Biñan|Eneloop|Hanabishi|VLC|Soundpeats|Canon|Mi Box|Redmi|Inoreader|Facebook|Marvel|Hanamikoji|grade 1|six-year|church|pastor|neighbor|garage|Obsidian|McGill|habit|supplement|rechargeable|wifi|router|café|Biñan)",
+  "topFiles": [
+    {
+      "matchCount": 80,
+      "uri": "./content/english/blog/__interesting-facts-about-jorap.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 783
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Compiling the full audit report. Verifying counts of ledger-referenced and unreferenced posts.
+
+Extracting all slugs from the ledger file.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/__interesting-facts-about-jorap.md",
+  "pattern": "/blog/[a-z0-9-]+/"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/__interesting-facts-about-jorap.md",
+  "pattern": "/blog/[a-z0-9-]+/",
+  "topFiles": [
+    {
+      "matchCount": 79,
+      "uri": "content/english/blog/__interesting-facts-about-jorap.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 79
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__humanize-ai-articles.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__craft-prompt-framework.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__jobs-to-be-done-framework.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Scanning the facts ledger for board game entries. Counting unique post slugs programmatically with shell commands.
+
+The facts ledger contains 24 board game and lifestyle entries. These include recipes, parenting tips, and tech commentary.
+
+The facts ledger holds 43 unique posts total. New categories include mobile phones, remote work, earphones, RSS feeds, supplements, Canon G3000, smart plugs, worship pads, and career tracking. Need to verify whether the earlier grep output was truncated.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/__interesting-facts-about-jorap.md",
+  "pattern": "/blog/[a-z0-9-]+/"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/__interesting-facts-about-jorap.md",
+  "pattern": "/blog/[a-z0-9-]+/",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 79
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; ls content/english/blog/*.md | wc -l &amp;&amp; rg -o &#39;/blog/[a-z0-9-]+/&#39; content/english/blog/__interesting-facts-about-jorap.md | sed &#39;s|/blog/||;s|/||&#39; | sort -u | wc -l</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && ls content/english/blog/*.md | wc -l && rg -o '/blog/[a-z0-9-]+/' content/english/blog/__interesting-facts-about-jorap.md | sed 's|/blog/||;s|/||' | sort -u | wc -l
+```
+
+```
+67
+43
+
+```
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+65 blog posts remain to audit after excluding the index and ledger. The ledger references 43 unique slugs.
+
+22 posts are unreferenced in the ledger. I will list those slugs via shell.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; comm -23 &lt;(ls content/english/blog/*.md | xargs -I{} basename {} .md | grep -v &#39;^_index$&#39; | grep -v &#39;^__interesting-facts-about-jorap$&#39; | sort) &lt;(rg -o &#39;/blog/[a-z0-9-]+/&#39; content/english/blog/__interesting-facts-about-jorap.md | sed &#39;s|/blog/||;s|/||&#39; | sort -u)</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && comm -23 <(ls content/english/blog/*.md | xargs -I{} basename {} .md | grep -v '^_index$' | grep -v '^__interesting-facts-about-jorap$' | sort) <(rg -o '/blog/[a-z0-9-]+/' content/english/blog/__interesting-facts-about-jorap.md | sed 's|/blog/||;s|/||' | sort -u)
+```
+
+```
+__apple-strategically-late
+__blog-template
+__canon-g3000
+__client-site-pass-off
+__craft-prompt-framework
+__grade-1-better-than-kumon
+__how-to-create-a-blog-template
+__how-to-create-a-good-habit
+__hugo-go-templates
+__hugo-page-bundles
+__hugo-shortcodes
+__hugo-static-site-generator
+__humanize-ai-articles
+__immune-booster-supplements
+__inter-font
+__jobs-to-be-done-framework
+__jorap-notes-features
+__kewpie-mayo
+__markdown-deep-dive
+__markdown-formatting
+__mcgill-big-three
+__mi-box-s
+mouse-wheel-click
+__native-hugo-taxonomies
+__obsidian-vs-hugo
+__password-managers
+__rechargeable-batteries
+__remote-work-checklist
+__second-cellphone
+__selling-static-sites
+__shopee-tips
+__smart-plug
+__sveltia-cms
+__tailwind-css-v4
+__why-brave-browser
+__why-git-greatest-open-source-innovation
+__wifi-router
+__worcestershire-sauce
+__xiaomi-is-the-new-huawei
+
+```
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+The `comm` command comparison is flawed because filenames include the `__` prefix while ledger slugs omit it.
+
+I will extract slugs from each blog's frontmatter instead of comparing filenames directly.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; for f in content/english/blog/*.md; do slug=$(rg -m1 &#39;^slug:&#39; &#34;$f&#34; | sed &#39;s/slug: &#34;//;s/&#34;$//&#39;); echo &#34;$slug&#34;; done | grep -v &#39;^interesting-facts-about-jorap$&#39; | sort &gt; /tmp/all-slugs.txt &amp;&amp; rg -o &#39;/blog/[a-z0-9-]+/&#39; content/english/blog/__interesting-facts-about-jorap.md | sed &#39;s|/blog/||;s|/||&#39; | sort -u &gt; /tmp/ledger-slugs.txt &amp;&amp; echo &#34;All auditable: $(wc -l &lt; /tmp/all-slugs.txt)&#34; &amp;&amp; echo &#34;Ledger refs: $(wc -l &lt; /tmp/ledger-slugs.txt)&#34; &amp;&amp; echo &#34;Unreferenced:&#34; &amp;&amp; comm -23 /tmp/all-slugs.txt /tmp/ledger-slugs.txt</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && for f in content/english/blog/*.md; do slug=$(rg -m1 '^slug:' "$f" | sed 's/slug: "//;s/"$//'); echo "$slug"; done | grep -v '^interesting-facts-about-jorap$' | sort > /tmp/all-slugs.txt && rg -o '/blog/[a-z0-9-]+/' content/english/blog/__interesting-facts-about-jorap.md | sed 's|/blog/||;s|/||' | sort -u > /tmp/ledger-slugs.txt && echo "All auditable: $(wc -l < /tmp/all-slugs.txt)" && echo "Ledger refs: $(wc -l < /tmp/ledger-slugs.txt)" && echo "Unreferenced:" && comm -23 /tmp/all-slugs.txt /tmp/ledger-slugs.txt
+```
+
+```
+All auditable: 66
+Ledger refs: 43
+Unreferenced:
+
+blog-template
+client-site-pass-off
+craft-prompt-framework
+how-to-create-a-blog-template
+how-to-create-a-good-habit
+hugo-go-templates
+hugo-page-bundles
+hugo-shortcodes
+hugo-static-site-generator
+humanize-ai-articles
+inter-font
+jobs-to-be-done-framework
+markdown-deep-dive
+markdown-formatting
+mcgill-big-three
+mouse-wheel-click
+native-hugo-taxonomies
+obsidian-vs-hugo
+rechargeable-batteries
+sveltia-cms
+tailwind-css-v4
+wifi-router
+
+```
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+The audit found 66 posts rather than 65. One file likely carries an unexpected slug.
+
+Most posts are generic tech or templates with no personal facts. Only client-site-pass-off contains relevant personal details: a neighbor and a pastor client.
+
+Several referenced posts contain personal facts absent from the ledger. These include habit routines, McGill back pain, a year-long Obsidian-Hugo wiki, Eneloop battery usage, and a weekly router reboot. A second phone was passed to a child for games. A parent noted math is hard.
+
+Home schooling involved a tablet and printer routine plus a custom randomizer quiz. Postcards were sent to a grandmother. Kumon reading began six weeks earlier. The rice cooker is the Hanabishi model HRCR2C. Bone-in drumsticks replaced thighs in arroz caldo. Boneless thigh fillets disappeared from the supermarket. Monopoly was disliked.
+
+Trivial Pursuit is a favorite game. Board shelves hold Las Vegas, Deception, Century Golem Edition, Ticket to Ride London and New York, and Catan On the Road. A travel pouch holds Vegetable Stock, Rainbow, and Fluxx. Saving Strike and Sushi Go are planned for Davis. Monopoly Deal, Dixit, and the original Catan remain unplayed. Heavyweight boxing card sessions were abandoned. The Alex Eala career tracker is updated only when a moment is worth pinning.
+
+Alex Eala career tracking relies on WTA and Tennis.com during Slams. Screenshots capture career-high moments. The ledger omits these specific sources.
+
+Samsung was skipped on price. The current phone is not a Xiaomi device. Half-group chats run on Xiaomi phones.
+
+Linux build boxes support Hugo. Brave Sync uses a Bitwarden recovery phrase. Google Photos stores the family camera roll.
+
+Client-site-pass-off references Git lessons, retainer batches, a showroom branch, and Sveltia CMS. A neighbor portfolio received Git training.
+
+A pastor client’s Friday bulletin was pushed. A quote pass-off was handled separately from the build. The draft folder opens after breakfast. A paper calendar marks days with an X. The phone stays in the kitchen. Grayscale mode starts after nine PM. Doom-scroll apps are logged out.
+
+WordPress build weeks caused skipped lunch breaks. The garage workflow moved from garage to garden to push. Eneloop NiMH rechargeables are the standard; smoke detectors use alkalines. A Biñan café laptop incident shows a 4% charge and a bad outlet.
+
+An immune-booster supplement post adds a zinc picolinate detail and bag context: an HDMI adapter, a paper notebook, and bickup commute notes. Facebook favorites carry mom’s trip photos and church updates. A worship-pads solo-guitar post lists pad keys C, G, D, A, and F. The HugoPlate
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; ls content/english/blog/*.md | wc -l &amp;&amp; rg -l &#39;^slug:&#39; content/english/blog/_index.md content/english/blog/__interesting-facts-about-jorap.md 2&gt;/dev/null; for f in content/english/blog/*.md; do b=$(basename &#34;$f&#34;); [ &#34;$b&#34; = &#34;_index.md&#34; ] || [ &#34;$b&#34; = &#34;__interesting-facts-about-jorap.md&#34; ] &amp;&amp; continue; echo &#34;$b&#34;; done | wc -l</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && ls content/english/blog/*.md | wc -l && rg -l '^slug:' content/english/blog/_index.md content/english/blog/__interesting-facts-about-jorap.md 2>/dev/null; for f in content/english/blog/*.md; do b=$(basename "$f"); [ "$b" = "_index.md" ] || [ "$b" = "__interesting-facts-about-jorap.md" ] && continue; echo "$b"; done | wc -l
+```
+
+```
+67
+content/english/blog/__interesting-facts-about-jorap.md
+65
+
+```
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+65 posts were audited. 43 were referenced in the ledger. 22 were unreferenced. Four unreferenced drafts contain personal facts: client-site-pass-off, how-to-create-a-good-habit, mcgill-big-three, and obsidian-vs-hugo.
+
+Two more unreferenced drafts were checked: rechargeable-batteries and wifi-router. Both lack substantive personal facts. The remaining 16 unreferenced posts are purely technical and were skipped.
+
+The audit now turns to referenced posts to find missing personal facts. Family details from grade-1-better-than-kumon are being organized by category. These include Davis finding math hard but playable through games, a tablet-first plus printed-sheets home routine, using a site randomizer for grade-1 quizzes, and handwriting postcards to his grandmother Lola.
+
+Davis cannot yet handle 30-minute rulebook games; he needs a Strike exception. A second phone was added because the child uses it daily for games. Pia sang the DNPAP studio vocal rather than writing the song. He leads worship as a solo acoustic guitarist in a church setting. Arroz caldo was switched to bone-in drumsticks after the supermarket stopped carrying boneless thighs. Granular ingredients like Knorr cubes and malagkit were skipped.
+
+A neighbor’s Git portfolio, a pastor’s Friday bulletin, and a Sveltia CMS option were all mentioned in the client-site-pass-off post. Shared PHP hosting wake-ups also appear in selling-static-sites. Linux boxes were used for Hugo builds per google-over-apple-ecosystem. He ran a dual Obsidian-style vault and Hugo setup for roughly a year before dropping the sync. Private captures live in “the garage,” then flow through a garage-to-garden-to-push pipeline. Morning writing cues point to a Hugo draft folder after breakfast.
+
+He bookmarks the McGill Big Three but does not use it daily; his back stiffens after long WordPress weeks on the couch. Three colds struck him during the last rainy season while he was in a jeepney or picking up school kids. He keeps a kitchen charger and uses grayscale mode after 9 PM. Eneloop NiMH rechargeables power his gear; smoke alarms stay alkaline. A remote bag holds a USB fan and tells the Biñan café origin story. Brave Sync runs through a recovery phrase stored in Bitwarden. Google Photos serves as his family camera roll.
+
+Samsung was rejected for self-use due to price. Board game shelves hold Monopoly Deal, Las Vegas, Ticket to Ride London and New York, Catan On the Road, Vegetable Stock, Rainbow, Fluxx, Deception, and Century Golem. He never played the original Catan. He personally likes Trivial Pursuit. He stopped watching full heavyweight boxing cards.
+
+The Alex tracker is updated when worth pinning. During Slams it pulls WTA and Tennis.com stats. The chess humiliation count is stale. The blog says about twenty moves versus ten in the ledger. This contradicts why-i-love-modern-board-games. The six-year-old age estimate is consistent. If Isaiah was born in May 2020 he would turn six in July 2026. The ledger holds roughly seventy data rows across forty-three referenced posts.
+
+The wifi-router post was judged too generic to add. Its mention of a kid’s homework tab spinning forever does not identify JoRap’s child specifically. The craft-prompt-framework post’s “client newsletter” line was also dismissed as generic workflow noise. The final report is now being compiled.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="update_current_step"><details>
+<summary>Tool use: **update_current_step**</summary>
+An unknown error occurred
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+The structured report of extracted personal facts is now being compiled.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+# Blog archive vs facts ledger audit
+
+**Scope:** 65 auditable posts (`content/english/blog/*.md`, excluding `_index.md` and `__interesting-facts-about-jorap.md`). Ledger tables: lines 28–152.
+
+**Coverage:** **43** unique post slugs linked in the ledger · **22** posts never linked · **65 − 43 = 22** unreferenced (matches).
+
+---
+
+## 1. Missing facts
+
+Concrete biographical/personal facts in posts **not** captured in ledger rows (lines 28–152). Grouped by theme.
+
+### Family, parenting, Philippines
+
+| Slug | Fact in post | Suggested ledger row |
+|------|----------------|----------------------|
+| `grade-1-better-than-kumon` | Davis says math is **“hard”**; home strategy is **math games on a tablet**, not worksheets. | Davis calls math **hard**; home leads with **tablet games**, not Kumon-style rows. |
+| `grade-1-better-than-kumon` | Home routine: **tablet first**, then **one printed sheet** (10–15 min/day); uses site **randomizer** decks `grade-1-quiz` and `grade-1-math-quiz`. | Grade 1 at home runs **tablet quiz games → one printed line** via the site randomizer. |
+| `grade-1-better-than-kumon` | Handwriting practice includes **postcards to lola**. | Davis’s handwriting reps include **postcards to lola**. |
+| `grade-1-better-than-kumon` | **~six weeks into Kumon reading** when post was written. | Early 2026: **~six weeks into Kumon reading**; math stays at home. |
+| `why-i-love-modern-board-games` | Davis **isn’t ready** for 30-minute rulebook games yet; **Strike with grandmother** is the exception. | Davis isn’t at full hobby-game age yet; **Strike with grandma** is the kid table game. |
+| `second-cellphone` | Second phone partly because he **hands the daily phone to his kid** for games/maps/photos while **banking lived on the same screen**. | Second phone separates **banking** from a daily driver he **lends to his kid**. |
+| `facebook-favorites-feed` | Favorites feed includes **mom’s trip photos** and **church updates** (still on Messenger). | Facebook **Favorites**: mom, church, close friends — **Messenger** stays. |
+| `immune-booster-supplements` | Last rainy season: **three colds in eight weeks** — **jeepney commute + school pickup**. | Supplement stack ramps when **commute + school pickup** season hits. |
+
+### Kitchen
+
+| Slug | Fact in post | Suggested ledger row |
+|------|----------------|----------------------|
+| `instant-pot-arroz-caldo` | Switched arroz caldo protein to **bone-in drumsticks** because the **supermarket stopped reliable boneless thigh fillets**. | Arroz caldo now uses **bone-in drumsticks** after boneless thighs disappeared locally. |
+
+### Faith / worship
+
+| Slug | Fact in post | Suggested ledger row |
+|------|----------------|----------------------|
+| `dnpap-song-resources` | Pia was **studio vocalist**, not songwriter, for Destiny Music’s DNPAP. | Ledger covers Pia’s vocal; add: **vocalist only**, Destiny Music wrote it. *(minor clarification)* |
+
+### Freelance / work stack
+
+| Slug | Fact in post | Suggested ledger row |
+|------|----------------|----------------------|
+| `client-site-pass-off` | Static pass-off models: **Git lesson**, **retainer batches**, **showroom branch**, **Git-based CMS (Sveltia)** — priced separately from build. | Client pass-off picks one: **Git training**, **retainer pushes**, **showroom branch**, or **Sveltia CMS**. |
+| `client-site-pass-off` | **Neighbor** learned Git for her portfolio; **pastor client** emails bulletin copy for **Friday push before Sunday**. | Real pass-offs: **neighbor portfolio (Git)** and **pastor bulletin (retainer)**. |
+| `obsidian-vs-hugo` | Ran **two homes for ~1 year** (private wiki app + Hugo); cut the extra app after a **sync/reconcile weekend**. | Used a **parallel private vault ~1 year** before **garage → garden → push** on one Hugo repo. |
+| `obsidian-vs-hugo` | Private drafts live in **“the garage”**; public notes at `/notes/`. | Private captures stay in **the garage**; public garden is Hugo `/notes/`. |
+| `google-over-apple-ecosystem` | **Google Photos** holds the **family camera roll** on the same account. | **Google Photos** is the family camera roll, same account as Drive. |
+| `google-over-apple-ecosystem` | **Linux build boxes** run Hugo with the same Chrome profile/Drive folders. | **Linux** machines run Hugo builds on the same Google account. |
+| `why-brave-browser` | **Brave Sync chain** for personal tabs; **recovery phrase stored in Bitwarden**; passwords stay in Bitwarden only. | Personal browsing syncs via **Brave Sync chain**; recovery phrase lives in **Bitwarden**. |
+| `xiaomi-is-the-new-huawei` | For **himself**, **skips Samsung on price**; **doesn’t own a Xiaomi phone** right now. | Phone shopping: **skip Samsung on price**; daily driver isn’t Xiaomi today. |
+| `how-to-create-a-good-habit` | Writing cue: **open Hugo draft folder after breakfast** (same chair, same mug). | Morning writing cue: **Hugo draft folder after breakfast**. |
+| `how-to-create-a-good-habit` | Tracks writing days with **paper calendar X’s**, not a streak app. | Writing streak tracked on a **wall calendar**, not an app. |
+| `how-to-create-a-good-habit` | Anti-scroll: **phone charger in kitchen**, **grayscale after 9 PM**, **logged out of doom-scroll apps**, **alarm across room**. | Phone rules: **kitchen charger**, **grayscale after 9**, **logged-out feeds**. |
+
+### Health / body
+
+| Slug | Fact in post | Suggested ledger row |
+|------|----------------|----------------------|
+| `mcgill-big-three` | **Back gets stiff** after long **WordPress build weeks** — **skips lunch**, works **laptop in lap on couch**. | Desk health: stiff back after **couch-laptop WordPress weeks**; McGill Big Three **bookmarked, not daily yet**. |
+
+### Gear / home
+
+| Slug | Fact in post | Suggested ledger row |
+|------|----------------|----------------------|
+| `rechargeable-batteries` | Household standardized on **Eneloop-style low-self-discharge NiMH**; **smoke alarms stay on alkalines**. | Rechargeables: **Eneloop-style AAs/AAAs**; **smoke detectors stay disposable**. |
+| `remote-work-checklist` | Bag origin story: **café in Biñan**, laptop **4%**, unreachable outlet — led to checklist. | Remote-work checklist born after a **Biñan café** power/outlet fail. |
+| `remote-work-checklist` | Long-trip adds: **HDMI adapter**, **paper notebook**, **backup battery**. | Long days out: bag adds **HDMI**, **notebook**, **backup battery**. |
+
+### Games / sports / tracker meta
+
+| Slug | Fact in post | Suggested ledger row |
+|------|----------------|----------------------|
+| `why-i-love-modern-board-games` | **Likes Trivial Pursuit** personally; table often won’t play it. | **Trivial Pursuit** is a personal yes, group often no. |
+| `why-i-love-modern-board-games` | Home shelf also includes **Las Vegas**, **Deception**, **Century: Golem Edition**, **Ticket to Ride: London/New York**, **Catan: On the Road**. | Shelf beyond ledger: **Las Vegas**, **Deception**, **Century**, **TTR cities**, **Catan: On the Road**. |
+| `why-i-love-modern-board-games` | Travel pouch also packs **Vegetable Stock**, **Rainbow**, **Fluxx** (when group tolerates silly). | Travel pouch adds **Vegetable Stock**, **Rainbow**, sometimes **Fluxx**. |
+| `streamlining-games-and-sports` | **Hasn’t played original Catan** yet; teaches **Monopoly Deal** instead. | **Never played original Catan**; **Monopoly Deal** is the Catan-family entry. |
+| `streamlining-games-and-sports` | **Stopped sitting through full heavyweight boxing cards** after the undercard. | Boxing: **main-event highlights**, not full cards. |
+| `streamlining-games-and-sports` | “What stayed” list overlaps ledger but also names **Vegetable Stock**, **Rainbow**, **Fluxx**, **Deception**, **TTR cities**, **Catan: On the Road**. | *(Merge into expanded shelf row above.)* |
+| `alex-eala-pro-career-tracker` | Tracker updates **when something’s worth pinning, not on a schedule**; keeps **WTA + Tennis.com** open during Slams; **screenshots career-high moments**. | Alex Eala page is a **manual scrapbook** — **WTA/Tennis.com**, update when news merits. |
+
+### Referenced posts with facts only partially in ledger
+
+These posts **are** linked, but carry extra identity facts worth rows:
+
+| Slug | Gap | Suggested ledger row |
+|------|-----|----------------------|
+| `why-brave-browser` | Split rationale + sync detail beyond “Brave Origin on Linux”. | *(See Brave Sync / Bitwarden rows above.)* |
+| `hugoplate-theme-review` | **~1 year+ on HugoPlate**; **renamed theme folder into repo** (not submodule). | HugoPlate **~1 year in production**; theme lives as a **renamed in-repo folder**. |
+| `jorap-notes-features` | Garden has **flashcards/review**, **graph**, **OKF export**, **Create Note** tooling — same site, not a wiki host. | JoRap Notes adds **flashcards, graph, OKF export** on the same Hugo build. |
+
+---
+
+## 2. Stale facts
+
+Ledger rows that **contradict** blog text (not just “incomplete”).
+
+| Ledger row (approx.) | Issue | Source of truth |
+|----------------------|--------|-----------------|
+| Chess: humiliated in **~ten moves** after **Chessmaster** (`why-i-love-modern-board-games`) | Same author, different number in `streamlining-games-and-sports`: beaten in **~twenty moves** by a **“chess veteran in the park.”** | **Not a ledger-vs-blog contradiction** — ledger matches `why-i-love-modern-board-games`. **Internal blog inconsistency** (10 vs 20 moves; park vs generic opponent). Pick one canonical story or cite both posts. |
+| Shelf favorites row (Jaipur, Santorini, Dixit, Sushi Go!, Strike, Century, Ohanami, Jungo) | Missing many games named in later posts; not wrong, but **under-reports** 2026 shelf. | Expand, don’t delete — see missing-facts shelf rows. |
+| Hanabishi rice cooker | Post names model **HRCR2C** and **Friday-night** ritual; ledger’s “Hanabishi rice cooker” is still accurate. | **Not stale** — optional detail add. |
+
+**No hard contradictions** found for Pia/Isaiah age, M4 MacBook, Android/no iPhone, Instant Pot, worship setup, or Alex Eala follow start (2025 Miami Open).
+
+---
+
+## 3. Unreferenced posts — zero personal identity facts (tech-only)
+
+These **22 slugs** are not linked in the ledger; these **16** have no substantive JoRap biographical facts (framework/tutorial/template content only):
+
+- `blog-template`
+- `craft-prompt-framework`
+- `how-to-create-a-blog-template`
+- `hugo-go-templates`
+- `hugo-page-bundles`
+- `hugo-shortcodes`
+- `hugo-static-site-generator`
+- `humanize-ai-articles`
+- `inter-font`
+- `jobs-to-be-done-framework`
+- `markdown-deep-dive`
+- `markdown-formatting`
+- `mouse-wheel-click`
+- `native-hugo-taxonomies`
+- `sveltia-cms`
+- `tailwind-css-v4`
+
+---
+
+## 4. Unreferenced posts — **do** contain personal facts (ledger gaps)
+
+These **6** posts have identity-worthy facts but **no ledger link**:
+
+| Slug | Why it matters |
+|------|----------------|
+| `client-site-pass-off` | Neighbor + pastor client pass-off stories |
+| `how-to-create-a-good-habit` | Breakfast Hugo cue, calendar, phone rules |
+| `mcgill-big-three` | Couch-laptop WordPress weeks, back stiffness |
+| `obsidian-vs-hugo` | One-year dual-vault era, garage workflow |
+| `rechargeable-batteries` | Eneloop household setup |
+| `wifi-router` | Weak — mostly generic buyer checklist (“kid’s homework” is illustrative, not a Davis fact). **Low priority.** |
+
+---
+
+## 5. Posts referenced in ledger — count check
+
+| Metric | Count |
+|--------|------:|
+| Auditable blog posts | **65** |
+| Unique slugs linked in ledger tables (lines 28–152) | **43** |
+| Unreferenced posts | **22** |
+| Ledger fact rows (data rows in those tables) | **~70** |
+
+**43 + 22 = 65** — full archive accounted for.
+
+**Published vs draft in ledger:** Draft slugs are correctly marked *(draft)* in link column where used (`grade-1-better-than-kumon`, `apple-strategically-late`, etc.).
+
+**Notable referenced posts you asked about — status:**
+
+| Post | In ledger? | Personal facts captured? |
+|------|------------|---------------------------|
+| `mouse-wheel-click` | No | N/A — tech-only |
+| `hanamikoji-duopoly-retheme` | Yes | Yes (Duopoly retheme) |
+| `sustainable-online-publishing` | Yes | Yes (lobby/library, Hugo stack) |
+| `hugoplate-theme-review` | Yes | Partial (Tailwind/HugoPlate; missing “1 year+”, in-repo fork) |
+| `wifi-router` | No | Low-value personal facts |
+| `rechargeable-batteries` | No | Yes — missing |
+| `mcgill-big-three` | No | Yes — missing |
+| `how-to-create-a-good-habit` | No | Yes — missing |
+| `obsidian-vs-hugo` | No | Yes — missing |
+| `client-site-pass-off` | No | Yes — missing |
+| `extension-cord` | Yes | Yes |
+| `alex-eala-pro-career-tracker` | Yes | Partial (follow since 2025 Miami; missing scrapbook/meta workflow) |
+
+---
+
+## Priority additions (if updating the ledger)
+
+1. **Parenting stack:** Davis/math-hard + tablet randomizer + lola postcards (`grade-1-better-than-kumon`).
+2. **PKM workflow:** garage concept + ended dual-vault year (`obsidian-vs-hugo`).
+3. **Freelance pass-off:** neighbor + pastor examples (`client-site-pass-off`).
+4. **Expanded game shelf + travel pouch** (`why-i-love-modern-board-games`, `streamlining-games-and-sports`).
+5. **Alex tracker meta** — manual scrapbook, not scheduled (`alex-eala-pro-career-tracker`).
+6. **Resolve chess story** — 10 vs 20 moves across two posts before encoding.
+
+The ledger’s core identity spine (Pia, Isaiah/Davis, faith testimony, freelance Hugo stack, Google/Android gear, worship/VLC, board-game philosophy) is **solid**. Biggest holes are **2026 parenting/education**, **garage workflow**, **client pass-off anecdotes**, **expanded shelf**, and **health/habit/home gear** rows from drafts never linked.

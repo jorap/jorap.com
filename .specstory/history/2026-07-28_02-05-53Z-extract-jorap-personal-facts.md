@@ -202,6 +202,1006 @@ _**Agent (composer-2.5-fast)**_
 _**Agent (composer-2.5-fast)**_
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
-<summary>Tool use: **read_file_v2** • Read file: </summary>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__xiaomi-is-the-new-huawei.md</summary>
 
 </details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__why-brave-browser.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__password-managers.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__why-git-greatest-open-source-innovation.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Finished reading the priority posts. Now scanning the remaining blog posts for personal facts.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+Reading the remaining blog posts for personal facts.
+
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/miracle-isaiah-david.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__grade-1-better-than-kumon.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/set-it-forget-it-arroz-caldo.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/instant-pot-arroz-caldo.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/instant-pot-chicken-adobo.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-focused-on-open-source.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/drupal-to-wordpress.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/how-i-built-jorap-notes.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/hugoplate-theme-review.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-keep-desktop-laptop.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/extension-cord.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__second-cellphone.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Continuing to read more blog posts covering worship, Alex Eala, Marvel Snap, earphones, games, faith, and other drafts.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/worship-pads-solo-guitar.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/dnpap-song-resources.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-stopped-playing-marvel-snap.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/hanamikoji-duopoly-retheme.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/one-page-zine.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/what-i-look-for-in-wireless-earphones.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__shopee-tips.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/getting-started-with-rss-feeds.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/facebook-favorites-feed.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/mouse-wheel-click.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__mcgill-big-three.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Continuing to read through the remaining blog posts, including drafts, to gather personal facts about JoRap.
+
+Running a grep search across all files to catch any missed personal facts.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": true,
+  "glob": "*.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "\\b(I (am|was|have|keep|run|use|own|live|work|freelance|lead|quit|stopped|prefer|shop|watch|follow|taught|built|make|wear|carry|pack|lead|play|love|hate|don't|didn't|won't)|my (wife|son|kid|family|laptop|phone|bag|desk|table|church|market|Philippines)|Pia|Isaiah|Davis|Team Rapusas|Bitwarden|Brave|Soundpeats|Instant Pot|MacBook|iPad|Mi Box|GCash|Messenger|Viber|Meet|Kumon|worship|Christian|faith|Philippines|Filipino|jeepney|Shopee|Inoreader|Cursor|Hugo|WordPress|Cloudflare|Hugoplate|Tailwind|Inter font|Linux|Android)"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "\\b(I (am|was|have|keep|run|use|own|live|work|freelance|lead|quit|stopped|prefer|shop|watch|follow|taught|built|make|wear|carry|pack|lead|play|love|hate|don't|didn't|won't)|my (wife|son|kid|family|laptop|phone|bag|desk|table|church|market|Philippines)|Pia|Isaiah|Davis|Team Rapusas|Bitwarden|Brave|Soundpeats|Instant Pot|MacBook|iPad|Mi Box|GCash|Messenger|Viber|Meet|Kumon|worship|Christian|faith|Philippines|Filipino|jeepney|Shopee|Inoreader|Cursor|Hugo|WordPress|Cloudflare|Hugoplate|Tailwind|Inter font|Linux|Android)",
+  "topFiles": [
+    {
+      "matchCount": 12,
+      "uri": "content/english/blog/instant-pot-arroz-caldo.md"
+    },
+    {
+      "matchCount": 9,
+      "uri": "content/english/blog/__hugo-page-bundles.md"
+    },
+    {
+      "matchCount": 17,
+      "uri": "content/english/blog/why-keep-desktop-laptop.md"
+    },
+    {
+      "matchCount": 8,
+      "uri": "content/english/blog/__client-site-pass-off.md"
+    },
+    {
+      "matchCount": 10,
+      "uri": "content/english/blog/__second-cellphone.md"
+    },
+    {
+      "matchCount": 10,
+      "uri": "content/english/blog/__remote-work-checklist.md"
+    },
+    {
+      "matchCount": 7,
+      "uri": "content/english/blog/set-it-forget-it-arroz-caldo.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "content/english/blog/__how-to-create-a-blog-template.md"
+    },
+    {
+      "matchCount": 11,
+      "uri": "content/english/blog/sustainable-online-publishing.md"
+    },
+    {
+      "matchCount": 55,
+      "uri": "content/english/blog/how-i-built-jorap-notes.md"
+    },
+    {
+      "matchCount": 14,
+      "uri": "content/english/blog/instant-pot-chicken-adobo.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": "content/english/blog/__wifi-router.md"
+    },
+    {
+      "matchCount": 15,
+      "uri": "content/english/blog/__native-hugo-taxonomies.md"
+    },
+    {
+      "matchCount": 23,
+      "uri": "content/english/blog/__apple-strategically-late.md"
+    }
+  ],
+  "totalFiles": 14,
+  "totalMatches": 948
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__immune-booster-supplements.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__inter-font.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__mi-box-s.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__wifi-router.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__smart-plug.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__rechargeable-batteries.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__canon-g3000.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__kewpie-mayo.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__worcestershire-sauce.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__selling-static-sites.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__jorap-notes-features.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Reviewing additional drafts to gather personal facts. The son's name appears inconsistent across posts: "Davis" in grade-1 and board game posts, but "Isaiah" in interesting-facts. Also checking faith details in miracle-isaiah and remote-work-checklist.
+
+The son's name is still unresolved. grade-1 and miracle-isaiah-david both omit his name entirely. The grade-1 draft mentions "He" but never states the name. This inconsistency needs clarification.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "Davis|Isaiah|six-year|grade 1|son"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "Davis|Isaiah|six-year|grade 1|son",
+  "topFiles": [
+    {
+      "matchCount": 3,
+      "uri": "content/english/blog/__apple-strategically-late.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "content/english/blog/__xiaomi-is-the-new-huawei.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/streamlining-games-and-sports.md"
+    },
+    {
+      "matchCount": 8,
+      "uri": "content/english/blog/why-i-love-modern-board-games.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__why-git-greatest-open-source-innovation.md"
+    },
+    {
+      "matchCount": 12,
+      "uri": "content/english/blog/__why-brave-browser.md"
+    },
+    {
+      "matchCount": 13,
+      "uri": "content/english/blog/__interesting-facts-about-jorap.md"
+    },
+    {
+      "matchCount": 8,
+      "uri": "content/english/blog/hugoplate-theme-review.md"
+    },
+    {
+      "matchCount": 7,
+      "uri": "content/english/blog/google-over-apple-ecosystem.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": "content/english/blog/hanamikoji-duopoly-retheme.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/why-keep-desktop-laptop.md"
+    },
+    {
+      "matchCount": 7,
+      "uri": "content/english/blog/how-i-built-jorap-notes.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/blog/why-i-focused-on-open-source.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": "content/english/blog/static-site-vs-cms.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/blog/drupal-to-wordpress.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "content/english/blog/__grade-1-better-than-kumon.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/blog/__jorap-notes-features.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": "content/english/blog/__selling-static-sites.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": "content/english/blog/__client-site-pass-off.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "content/english/blog/__inter-font.md"
+    }
+  ],
+  "totalFiles": 47,
+  "totalMatches": 177
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-keep-desktop-laptop.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__remote-work-checklist.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__obsidian-vs-hugo.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__how-to-create-a-good-habit.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Enough data has been gathered to compile the structured facts list.
+
+A few more published posts were checked for overlooked personal facts. A son name inconsistency was flagged between Isaiah David and "Davis" in board game posts. The child's age and grade level align with the current date. Any missing items from the interesting-facts post are being identified.
+
+The board game post contains game preferences, a travel pouch, and a chess reference. The ecosystem post reveals a MacBook Pro M4, an 11th-gen iPad, Android as the daily driver, and a Mi Box S. The streamlining draft includes Ashes cricket, Alex Eala, pickleball, and a grandmother on Strike.
+
+The publishing post reveals jorap.com and an almost-registered 2019 joke domain. The website post cites Tailwind and Hugoplate, a Drupal essay, and roughly one to two hours of monthly maintenance. The CMS post includes a freelance designer anecdote, a neighbor Git lesson, and Hugo hosting. Draft posts on Apple strategy, Xiaomi, and Brave Browser add further device and software details.
+
+The password managers draft mentions a Bitwarden family plan, Pia, GCash, and a reused-password story. The git draft references Philippines seminars, a client WordPress site, and lost PHP hosting. A final grep is underway for any remaining personal facts in the remaining published posts.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "^draft:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "^draft:",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__mcgill-big-three.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__wifi-router.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/streamlining-games-and-sports.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__immune-booster-supplements.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__grade-1-better-than-kumon.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__smart-plug.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__native-hugo-taxonomies.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/drupal-to-wordpress.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__tailwind-css-v4.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/hanamikoji-duopoly-retheme.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/how-i-built-jorap-notes.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/google-over-apple-ecosystem.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__why-brave-browser.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/blog/__markdown-deep-dive.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__blog-template.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__how-to-create-a-good-habit.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__password-managers.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__kewpie-mayo.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__hugo-go-templates.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__why-git-greatest-open-source-innovation.md"
+    }
+  ],
+  "totalFiles": 66,
+  "totalMatches": 67
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/what-i-look-for-in-wireless-earphones.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/drupal-to-wordpress.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/miracle-isaiah-david.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Checking the Soundpeats section and WordCamp details from the drupal-to-wordpress post.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/what-i-look-for-in-wireless-earphones.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/drupal-to-wordpress.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/miracle-isaiah-david.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Comprehensive data has been gathered. Smart Parenting coverage noted in interesting-facts also needs inclusion.
+
+Draft posts were filtered out using `draft: true` frontmatter or `__` filename prefixes. A naming inconsistency was spotted: the son is called "Davis" in two posts but "Isaiah" elsewhere. The structured report is now being compiled.
+
+The son's age checks out at six years old. The Friday arroz caldo habit shifted from set-it-forget-it to Instant Pot. The interesting-facts page omits many published post details. Thirteen themes are mapped: family and faith, location and daily life, work and tech stack, hardware and ecosystem, browser and security, gear and home, food and cooking, games and sports, worship and music, health and habits, shopping and media consumption, and opinions and identity.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="update_current_step"><details>
+<summary>Tool use: **update_current_step**</summary>
+An unknown error occurred
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Compiling the final structured report of JoRap's personal facts.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+# Personal facts scraped from JoRap blog archive
+
+Scanned **65 posts** in `/home/jorap/Documents/GitHub/jorap.com/content/english/blog/` (excluded `_index.md`, `__blog-template.md`).  
+**Draft** = `draft: true` in frontmatter **or** `__` filename prefix.
+
+---
+
+## Family & parenting
+
+| Fact | Slug | Draft |
+|------|------|-------|
+| Wife is **Pia**; family nickname **Team Rapusas** | `miracle-isaiah-david` | no |
+| Son **Isaiah David**, born **May 8, 2020** (same-day pregnancy discovery + birth, ECQ Philippines) | `miracle-isaiah-david` | no |
+| Birth: **4:46 PM**, C-section, **3.2 kg**, APGAR **9**; briefly announced wrong gender | `miracle-isaiah-david` | no |
+| Story covered by **GMA News Online**, **24 Oras**, **700 Club Asia**, **Smart Parenting**, **DZMM Teleradyo** | `miracle-isaiah-david` | no |
+| Christian testimony framing — saw **God** in the birth story | `miracle-isaiah-david` | no |
+| Son is **six, grade 1**; reads chapter books | `grade-1-better-than-kumon` | yes |
+| Son chose **Kumon reading** over Kumon math (for handwriting reps) | `grade-1-better-than-kumon` | yes |
+| Son says **math feels hard**; JoRap teaches math at home via games | `grade-1-better-than-kumon` | yes |
+| JoRap is **good at math**; didn't want to outsource it to Kumon | `grade-1-better-than-kumon` | yes |
+| JoRap did a **Kumon math trial** years ago — feedback was “do it faster” | `grade-1-better-than-kumon` | yes |
+| Son plays **Strike** with his **grandmother** | `why-i-love-modern-board-games`, `streamlining-games-and-sports` | no / yes |
+| Son called **“Davis”** in board-game posts (see stale note below) | `why-i-love-modern-board-games`, `streamlining-games-and-sports` | no / yes |
+| Handed daily phone to **kid for a game** while bank OTP showed on lock screen — origin of second phone | `second-cellphone` | yes |
+| Films **school programs** for kid on phone | `why-keep-desktop-laptop` | no |
+| **Pia** on studio vocal for worship song DNPAP; mother-in-law watched son during COVID recording | `dnpap-song-resources` | no |
+| **Bitwarden family plan** — Pia has own vault; shared household logins | `password-managers` | yes |
+| Pia knows master password exists and where **recovery codes** live | `password-managers` | yes |
+
+---
+
+## Faith & worship
+
+| Fact | Slug | Draft |
+|------|------|-------|
+| **Leads worship** with acoustic guitar | `worship-pads-solo-guitar` | no |
+| Runs **MP3 pads through VLC** (not pad apps) after in-service freezes | `worship-pads-solo-guitar` | no |
+| **Church Wi-Fi** unreliable enough to prefer offline MP3 | `worship-pads-solo-guitar` | no |
+| Favorite local worship song **DNPAP** (*Diyos Ng Pagasa at Pagibig*) — bias because Pia sang it | `dnpap-song-resources` | no |
+| Guitar on a **stand, not in case** (habit from Atomic Habits post) | `how-to-create-a-good-habit` | yes |
+
+---
+
+## Location & daily life (Philippines)
+
+| Fact | Slug | Draft |
+|------|------|-------|
+| Lives / works in the **Philippines** | many posts | — |
+| Commutes by **jeepney**; wants to hear traffic while wearing earphones | `what-i-look-for-in-wireless-earphones`, `immune-booster-supplements` | no / yes |
+| Shops on **Shopee**; filters **local sellers** near SOCs (**Parañaque**, **Biñan**, etc.) | `shopee-tips`, `google-over-apple-ecosystem`, `xiaomi-is-the-new-huawei` | yes / no / yes |
+| Bad remote-work day at café in **Biñan** (dead battery, no outlet) | `remote-work-checklist` | yes |
+| Uses **Messenger**, **Viber**, plain text — avoids iMessage green-bubble gatekeeping | `google-over-apple-ecosystem` | no |
+| **GCash** in top-20 password migration list | `password-managers` | yes |
+| **Rainy season** colds from commute + school pickup | `immune-booster-supplements` | yes |
+| Recommends **Redmi** from Mi Store / official Shopee for relatives; skips **POCO** (gray-import warranty) | `xiaomi-is-the-new-huawei` | yes |
+
+---
+
+## Work & publishing stack
+
+| Fact | Slug | Draft |
+|------|------|-------|
+| **Freelance** — builds **client WordPress** sites | `consistent-ai-output-wordpress-builds`, `static-site-vs-cms`, many | no |
+| ~**80% of builds repeat same patterns** | `consistent-ai-output-wordpress-builds` | no |
+| Uses **Cursor** + `.cursor/rules` doc for AI-assisted WordPress builds | `consistent-ai-output-wordpress-builds` | no |
+| **Taught seminars** on open-source tech and web careers (Philippines) | `why-i-focused-on-open-source`, `why-git-greatest-open-source-innovation` | no / yes |
+| Open-source filter: inspect, move, find help | `why-i-focused-on-open-source` | no |
+| Compared **Joomla / WordPress / Drupal**; picked Drupal, switched to **WordPress** for market | `drupal-to-wordpress`, `why-i-focused-on-open-source` | no |
+| Attended **WordCamp Asia Manila** (~1,400 people); Matt Mullenweg Philippines WordCamp stories | `drupal-to-wordpress` | no |
+| Lost **shared PHP hosting** when client left; migrated to **Hugo + GitHub + Cloudflare Pages** | `how-i-built-jorap-notes`, `sustainable-online-publishing`, `why-git-greatest-open-source-innovation` | no / no / yes |
+| **jorap.com** on Hugo; git push live in ~**90 seconds** | `how-i-built-jorap-notes`, `static-site-vs-cms` | no |
+| Pins **`HUGO_VERSION`** (and **`NODE_VERSION`**) on Cloudflare | `how-i-built-jorap-notes`, `hugoplate-theme-review` | no |
+| Theme folder **case-sensitive** (`hugoplate` not `HugoPlate`) | `how-i-built-jorap-notes` | no |
+| Site on **Hugoplate** — picked mainly for **Tailwind CSS**; lost a Saturday choosing | `hugoplate-theme-review`, `how-i-built-jorap-notes`, `why-run-your-own-website` | no |
+| **JoRap Notes** garden on same Hugo build (not separate wiki host) | `how-i-built-jorap-notes`, `jorap-notes-features`, `obsidian-vs-hugo` | no / yes / yes |
+| No longer runs separate **Obsidian** vault — private drafts in “garage” concept | `obsidian-vs-hugo` | yes |
+| Quotes client sites as **separate line items** (discovery, build, migration, hosting) | `selling-static-sites` | yes |
+| Runs own site because social is a **lobby, not a library** | `why-run-your-own-website`, `sustainable-online-publishing` | no |
+| Almost registered a **joke domain in 2019** — glad he didn't | `sustainable-online-publishing` | no |
+| Lost a long **Facebook thread** about client scope; email had it | `sustainable-online-publishing` | no |
+| **Analytics** showed Drupal essay still getting search traffic — kept long career posts on-site | `why-run-your-own-website` | no |
+| Site maintenance ~**1–2 hours/month** (Alex Eala updates, YAML fixes) | `why-run-your-own-website` | no |
+| Client workflow: **Meet links**, screen share in **Chrome** | `google-over-apple-ecosystem` | no |
+| Uses **ACF**, **Gutenberg blocks** on WordPress builds | `consistent-ai-output-wordpress-builds`, `drupal-to-wordpress` | no |
+| Learned Git save on client build: `git checkout -- .` after live-site edit mistake | `why-git-greatest-open-source-innovation` | yes |
+| Used to edit **PHP on live server via FTP/cPanel** | `why-git-greatest-open-source-innovation` | yes |
+
+---
+
+## Hardware & ecosystem
+
+| Fact | Slug | Draft |
+|------|------|-------|
+| **MacBook Pro M4** for paid work | `google-over-apple-ecosystem`, `apple-strategically-late` | no / yes |
+| **11th-gen iPad** for couch reading/PDFs | `google-over-apple-ecosystem`, `apple-strategically-late` | no / yes |
+| **Android** daily driver; **no iPhone**, **no smartwatch** | `google-over-apple-ecosystem` | no |
+| Cheap **second Android** in bag for banking/OTP | `second-cellphone`, `google-over-apple-ecosystem`, `why-brave-browser` | yes / no / yes |
+| **Linux** desktop for personal browsing (Brave Origin) + Hugo builds | `google-over-apple-ecosystem`, `why-brave-browser`, `why-git-greatest-open-source-innovation` | no / yes / yes |
+| Living room TV: **Mi Box S** (Android TV) | `mi-box-s`, `google-over-apple-ecosystem`, `xiaomi-is-the-new-huawei`, `apple-strategically-late` | yes / no / yes / yes |
+| **Google account** glue: Gmail, Drive, Photos, Meet, Calendar | `google-over-apple-ecosystem` | no |
+| **Brave** personal / **Chrome** work split | `why-brave-browser`, `google-over-apple-ecosystem` | yes / no |
+| **Brave Origin** free on Linux; regular Brave on Android | `why-brave-browser` | yes |
+| **Bitwarden** for passwords (not Brave/Chrome save) | `why-brave-browser`, `password-managers`, `why-keep-desktop-laptop` | yes / yes / no |
+| Laptop on **stand + external keyboard + mouse** | `why-keep-desktop-laptop` | no |
+| Old laptop got **4 more years** from SSD swap | `why-keep-desktop-laptop` | no |
+| **~2 m extension cord** in laptop bag; surge strip stays at desk | `extension-cord` | no |
+| Remote bag also: dedicated power cord, keyboard, mouse, stand, mat, USB fan | `remote-work-checklist` | yes |
+| Travel game pouch in same bag as **laptop charger + extension cord** | `why-i-love-modern-board-games`, `streamlining-games-and-sports` | no / yes |
+| **Soundpeats RunFree** everyday earphones (neckband, USB-C, open-ear) | `what-i-look-for-in-wireless-earphones` | no |
+| Wears **glasses**; wants real buttons on earphones | `what-i-look-for-in-wireless-earphones` | no |
+| **Inoreader** RSS (free tier; ~20–30 feeds) | `getting-started-with-rss-feeds` | no |
+| Still needs **Facebook for Messenger**; uses **Favorites feed** | `facebook-favorites-feed` | no |
+| **Canon G3000** ink-tank printer at home (school forms) | `canon-g3000` | yes |
+| **Eneloop-style** rechargeable AA/AAA household setup | `rechargeable-batteries` | yes |
+| Uses **smart plugs** for lamps/fans | `smart-plug` | yes |
+| Wrote wifi router checklist after cheap router weekly reboot ritual | `wifi-router` | yes |
+
+---
+
+## Typography & site design
+
+| Fact | Slug | Draft |
+|------|------|-------|
+| **Inter** only font on jorap.com — from *Refactoring UI*; self-hosted | `inter-font` | yes |
+| Body text ~**16px**; hierarchy by weight not second typeface | `inter-font` | yes |
+| **Google Drive** backup belt-and-suspenders beside Git | `google-over-apple-ecosystem` | no |
+
+---
+
+## Food & cooking
+
+| Fact | Slug | Draft |
+|------|------|-------|
+| Used to make **arroz caldo most Friday nights** in **Hanabishi** rice cooker | `set-it-forget-it-arroz-caldo` | no |
+| Now makes arroz caldo in **8-quart Instant Pot** (10–12 bowls, ~45 min) | `instant-pot-arroz-caldo`, `set-it-forget-it-arroz-caldo` | no |
+| Go-to **chicken adobo**: ~**2 kg bone-in thighs**, 8-quart Instant Pot | `instant-pot-chicken-adobo` | no |
+| **Sears adobo in separate pan** first (burn notices in IP) | `instant-pot-chicken-adobo` | no |
+| Supermarket stopped reliable **boneless thigh fillets** → switched to drumsticks | `instant-pot-arroz-caldo`, `set-it-forget-it-arroz-caldo` | no |
+| **Lee & Perrins Worcestershire** in adobo marinades | `worcestershire-sauce`, `instant-pot-chicken-adobo` | yes / no |
+| **Kewpie mayo** permanent pantry staple | `kewpie-mayo` | yes |
+| Router placement test while “making adobo and streaming” | `wifi-router` | yes |
+
+---
+
+## Games, sports & hobbies
+
+| Fact | Slug | Draft |
+|------|------|-------|
+| Hard preference: games **~30 min**, max ~1 hour | `why-i-love-modern-board-games` | no |
+| **Monopoly** never finished; **Monopoly Deal** works | `why-i-love-modern-board-games`, `streamlining-games-and-sports` | no / yes |
+| Learned **chess** from **Chessmaster**; quit after real-game humiliation | `why-i-love-modern-board-games`, `streamlining-games-and-sports` | no / yes |
+| **Quit Marvel Snap** — cube anxiety, meta homework; **never spent money** | `why-i-stopped-playing-marvel-snap`, `why-i-love-modern-board-games` | no |
+| Not a **comics completionist** — Snap worked via known Marvel characters | `why-i-stopped-playing-marvel-snap` | no |
+| Favorite mechanic: **Hanamikoji** “I split, you choose” | `hanamikoji-duopoly-retheme`, `why-i-love-modern-board-games` | no |
+| Rethemed Hanamikoji as **Duopoly** for private home play | `hanamikoji-duopoly-retheme` | no |
+| Prints **1-page zines** for board game rules | `one-page-zine`, `hanamikoji-duopoly-retheme` | no |
+| **Pia** plays **Hanamikoji** on small desks while traveling | `why-i-love-modern-board-games` | no |
+| Shelf favorites include Jaipur, Santorini, Dixit, Sushi Go!, Strike, Century, etc. | `why-i-love-modern-board-games`, `streamlining-games-and-sports` | no / yes |
+| **Jungo** survived a province trip in back seat | `why-i-love-modern-board-games` | no |
+| Follows **Alex Eala** since **2025 Miami Open**; living tracker on site | `alex-eala-pro-career-tracker` | no |
+| Watches **Ashes** cricket (Australia vs England); prefers **T20** for casual viewing | `streamlining-games-and-sports` | yes |
+| Tennis on TV = Alex Eala scrapbook; playing = **pickleball/badminton** in smaller rooms | `streamlining-games-and-sports` | yes |
+| **Trivial Pursuit** — actually likes it | `why-i-love-modern-board-games` | no |
+| Bad at being clever on **Dixit** turn one — never mattered | `why-i-love-modern-board-games` | no |
+
+---
+
+## Health & habits
+
+| Fact | Slug | Draft |
+|------|------|-------|
+| Sits for work; keeps **McGill Big Three** for low-back maintenance | `mcgill-big-three` | yes |
+| Supplement stack: **D3, zinc, C, elderberry** when habits slip | `immune-booster-supplements` | yes |
+| Opens **Hugo draft folder after breakfast** to blog (Atomic Habits) | `how-to-create-a-good-habit` | yes |
+
+---
+
+## Opinions & personality
+
+| Fact | Slug | Draft |
+|------|------|-------|
+| Apple rule: **skip first revision** (except M-series when he needed M4) | `apple-strategically-late` | yes |
+| Doesn't watch Apple keynotes — reads recaps | `apple-strategically-late` | yes |
+| Prefers **Google ecosystem** over living in Apple's walled garden | `google-over-apple-ecosystem` | no |
+| Ranks **Git** among greatest open-source innovations | `why-git-greatest-open-source-innovation` | yes |
+| Not looking for friends who treat hardware like a dress code | `google-over-apple-ecosystem` | no |
+| Uses **mouse wheel click**; notices others right-clicking links | `mouse-wheel-click` | no |
+
+---
+
+## 1. Stale or wrong in current `interesting-facts-about-jorap.md`
+
+| Issue | Detail |
+|-------|--------|
+| **Son's name: Davis vs Isaiah** | Meta page says **Isaiah** everywhere. Published `why-i-love-modern-board-games` calls him **Davis** twice; draft `streamlining-games-and-sports` same. Either missing nickname row or posts need alignment. |
+| **Friday arroz caldo** | Still listed as current habit. `set-it-forget-it-arroz-caldo` and `instant-pot-arroz-caldo` say he **switched to Instant Pot** and doesn't use the rice-cooker method anymore. Wording should be past tense or “used to / now Instant Pot.” |
+| **Six-year-old in grade 1** | Consistent with May 2020 birth in mid-2026 — still accurate. |
+| **Kumon / reading choice** | Accurate but **draft-only** source — fine if labeled draft. |
+| **Second cellphone** | Listed as draft — matches `__second-cellphone.md`. Also reinforced in published `google-over-apple-ecosystem`. |
+| **Inter font** | Draft-only source — row is correct to mark draft. |
+| **Missing media coverage** | `miracle-isaiah-david` also mentions **DZMM Teleradyo** — not in meta table. |
+| **700 Club / faith angle** | Meta mentions 700 Club but not that JoRap **leads worship** or testified about **seeing God in the story** — bigger identity facts than some gear rows. |
+
+---
+
+## 2. Published posts with personal facts **not** in interesting-facts table
+
+High-value gaps from **published** posts:
+
+### `why-i-love-modern-board-games` (published)
+- ~30-minute game preference; Monopoly/chess trauma; **Chessmaster** history
+- **Pia** plays Hanamikoji while traveling
+- Travel **zip pouch** of card games in laptop bag
+- Full shelf list (Jaipur, Santorini, Dixit, Sushi Go!, Strike, Century, Ohanami, etc.)
+- Son (**Davis**) plays Strike with grandmother; saving heavier games for when he's older
+- Board games as Marvel Snap replacement (no daily login)
+
+### `google-over-apple-ecosystem` (published)
+- **MacBook Pro M4** + **11th-gen iPad** + **Android** + **Linux**
+- **No iPhone, no smartwatch**
+- **Mi Box S** on TV
+- **Brave/Chrome** split; tests sites in Chrome first
+- **Messenger/Viber** over iMessage politics
+- **Shopee** for cheap Android/backup phones
+- **Google Drive/Photos** as family attic
+- Philippines client shops — mixed gear, tight budgets
+
+### `why-run-your-own-website` (published)
+- Picked Hugoplate because he **already knew Tailwind**
+- **Extension-cord** post still gets weekly search traffic
+- **Analytics** drove decision to keep long-form career posts
+- ~**1–2 hours/month** site maintenance
+- Domain is only recurring cost (Hugo + Cloudflare free)
+
+### `static-site-vs-cms` (published)
+- Runs **jorap.com on Hugo**; also builds client static sites
+- **Neighbor** learned Git, broke build once, fixed same night
+- Freelance designer anecdote (six case studies → static not WordPress)
+
+### `sustainable-online-publishing` (published)
+- Almost bought joke domain **2019**
+- Lost **Facebook client-scope thread**; email archive saved it
+
+### `streamlining-games-and-sports` (draft but rich)
+- **Ashes** cricket follower; **street cricket** with tennis ball
+- **Pickleball/badminton** participant pool
+- Overlaps board-game shelf + travel pouch (could merge with board-games section)
+
+### Other published gaps
+- `why-keep-desktop-laptop`: laptop stand + external keyboard; **school program** filming; **Shopee checkout** needs desktop + password manager; dropped phone on face watching movie
+- `password-managers` / `why-brave-browser` / `why-git-greatest-open-source-innovation`: **Bitwarden**, **Brave Origin on Linux**, **GCash**, reused-password origin story, **Philippines dev seminars** — all draft but strong identity facts
+- `dnpap-song-resources`: **mother-in-law** watched son during Pia's recording (family detail beyond “Pia recorded it”)
+- `miracle-isaiah-david`: **DZMM Teleradyo**, **700 Club** return visit years later with Isaiah “running around”
+
+---
+
+## 3. Suggested new theme sections for meta page
+
+The current table stops at board games. Consider adding:
+
+1. **Ecosystem & devices** — M4 MacBook, iPad, Android/Linux, Mi Box, no iPhone/watch  
+2. **Browser & security** — Brave/Chrome split, Bitwarden, second phone  
+3. **Board games (expanded)** — 30-min rule, shelf, travel pouch, Pia/Hanamikoji, Davis/Strike  
+4. **Sports fandom** — Alex Eala (already partial), Ashes cricket, pickleball participant  
+5. **Philippines daily life** — jeepney, Shopee, Biñan, Messenger/Favorites feed  
+6. **Home & gear beyond earphones** — extension cord, remote-work bag, printer, rechargeables  
+
+---
+
+**Note on son's name:** Resolve **Isaiah David** vs **Davis** before updating the meta page — grep shows no post explaining Davis as nickname; board-game posts may need a fix or the facts table needs both names with a clarifying row.

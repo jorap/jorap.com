@@ -2860,3 +2860,75 @@ Additional data:
 Status: **completed**
 
 </details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Jungo is a 2025 portable ladder-climbing card game for 2–5 players. It runs about 15 minutes and uses 72 cards.
+
+Fixed hand order prevents free reordering. Players form same-number combos adjacent to the table and beat the current top card. Winning keeps those cards; discarding empties the hand faster. Passing draws a card, but the "law of Jungo" lets you play immediately. First to empty their hand wins the round, and first to two wins the match.
+
+It belongs near Las Vegas or Fluxx. It is fast and portable. One beat is enough to teach.
+
+Jungo likely belongs at shelf position three, directly after Las Vegas. Both games are fast and portable for two to five players. Jungo is slightly harder to teach than Las Vegas because of its adjacent-card beats and the law of Jungo.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Adding **Jungo** to the shelf — portable, 2–5, fits right after Las Vegas in the ease-to-play order.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__why-i-love-modern-board-games.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__why-i-love-modern-board-games.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Running lint.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm lint:voice -- content/english/blog/__why-i-love-modern-board-games.md 2&gt;&amp;1</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:voice -- content/english/blog/__why-i-love-modern-board-games.md 2>&1
+```
+
+```
+$ python3 scripts/voice-lint.py dashes --check && python3 scripts/voice-lint.py site --check -- content/english/blog/__why-i-love-modern-board-games.md
+Voice dash lint OK
+Voice lint OK
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Jungo was added after Las Vegas in the portability and ease order. It fits well for the travel bag conversation.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Added **Jungo** to the shelf section, right after **Las Vegas** — both are fast, portable, and work at **2–5**.
+
+Covers: fixed-order hand, adjacent combos, beat-or-pass, keep vs discard after a beat, law of Jungo, first to empty hand / two rounds wins.
+
+It also bumps **Jungo** into your portable-bag conversation — cards only, ~15 minutes, same niche as Sushi Go but a different feel (shedding + hand puzzle vs drafting).
+
+## Session close
+- Fixed: Jungo added to shelf with mechanics, newcomer hook, and tag.
+- Encode: none
+- Open: clean

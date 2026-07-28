@@ -236,5 +236,200 @@ _**Agent (auto-low)**_
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
-Creating `author-context.md` for agents. It will contain distilled facts, gaps to avoid inventing, and a pointer to the draft ledger as the
+Creating `author-context.md` for agents. It will contain distilled facts, gaps to avoid inventing, and a pointer to the draft ledger as the canonical source.
+
+Updating `SKILL.md` to reference `author-context.md` in its description, workflow steps, and voice check. The draft blog post will remain the source of truth; `author-context.md` may serve as a compact summary or a direct pointer to the draft.
+
+The workflow will mandate reading the facts file. `author-context.md` will explain agent roles, rules, and the don't-invent list, then point to the draft as the canonical ledger.
+
+Duplicating facts into `author-context.md` risks staleness. The file will instead hold agent instructions, don't-invent gaps, and contradictions to avoid. All stable facts will remain exclusively in the draft ledger.
+
+The draft file is 206 lines with tables, so agents would waste time skimming it repeatedly. `author-context.md` should instead be a compact bullet list. Agents can sync from the draft whenever personal facts change. The cleanest lazy approach is to point directly to the draft without duplicating content.
+
+The draft file will carry `draft: true` and must never be published. `author-context.md` will be a brief archive reference for agent identity, not voice rules. It will list naming distinctions such as Pia versus Isaiah versus Davis, and flag gaps around pop culture and sports preferences.
+
+Draft updates must be written to the ledger first. Agents must match the ledger exactly and cannot substitute unrelated apps or devices. They must not invent pop culture or sports details listed in the gap tables. Named references include Pia, Isaiah David (called Davis at home), and the family nickname Team Rapusas. The Christian testimony is genuine context for family posts and must not be sanitized. Philippines-specific grounding like Shopee, jeepney, ECQ, GCash, and Messenger or Viber is available but not required.
+
+Stale rows for kid age and gear will be resolved by linking to source posts rather than duplicating them here. The don't-invent list now covers unmapped pop culture, sports beyond Tests and casual T20, and PC or mobile games since quitting Marvel Snap. A compact twenty-bullet quick anchor list will let agents verify major themes against the ledger. SKILL.md is being updated next.
+
+A brief cross-link to `author-context.md` will be added in `garden-voice`, since Pia, Davis, and Philippines appear in both archives. The blog post introduction will not be updated; the skill file itself serves as the integration point.
+
+The author-context.md file will contain roughly thirty compact quick anchors drawn from the tables, plus the don't-invent list and a pointer to the full draft ledger. A note will be included that these anchors must be kept in sync with the draft whenever facts change.
 </details></think>
+
+_**Agent (auto-low)**_
+
+Creating `author-context.md` and wiring it into the jorap-voice workflow, with the draft facts file as the canonical source.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/author-context.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+A brief note in the draft blog post could direct agents to author-context.md.
+
+The main deliverable is skill integration. A one-line cross-link in garden-voice SKILL.md under "When to use" would help, since the Philippines note appears there.
+
+A subtle agent note will be added to the blog post introduction. It will state that this ledger feeds `.cursor/skills/jorap-voice/author-context.md` and that the file is always a draft. This creates a bidirectional workflow link for future JoRap maintenance.
+
+The draft intro will reference `.cursor/skills/jorap-voice/author-context.md` directly. A typo in author-context.md will be corrected from "baranay" to "barangay".
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/author-context.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__interesting-facts-about-jorap.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "contextAfter": 1,
+  "contextBefore": 1,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.cursor/skills/garden-voice/SKILL.md",
+  "pattern": "jorap-voice"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.cursor/skills/garden-voice/SKILL.md",
+  "pattern": "jorap-voice",
+  "topFiles": [
+    {
+      "matchCount": 15,
+      "uri": ".cursor/skills/garden-voice/SKILL.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 5
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The blog post contains a link to `/`.
+
+The repository path is invalid on the live Hugo site. I'll replace the markdown link with a plain backtick path.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Fixing the blog post link — `.cursor/` paths don't belong in Hugo content.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__interesting-facts-about-jorap.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/garden-voice/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Preparing a summary of completed work.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Done. The draft ledger stays the source of truth; jorap-voice now requires reading it.
+
+**What changed**
+
+1. **`.cursor/skills/jorap-voice/author-context.md`** (new)
+   - Points to `__interesting-facts-about-jorap.md` as the canonical ledger
+   - Agent rules (match facts, don't invent, naming, faith, Philippines)
+   - Gap tables as "don't invent" list (pop culture, sports)
+   - Quick anchors cheat sheet for common facts
+
+2. **`SKILL.md`** workflow step 1 is now: read author-context + skim relevant ledger sections. Voice check includes matching the ledger.
+
+3. **`__interesting-facts-about-jorap.md`** - one line noting it stays draft forever and feeds jorap-voice.
+
+4. **`garden-voice`** - one-line cross-link so notes don't contradict Pia/Davis/stack facts.
+
+**How it works**
+
+| File | Role |
+|------|------|
+| `__interesting-facts-about-jorap.md` | You update facts here (always draft) |
+| `author-context.md` | Agent instructions + quick anchors |
+| `SKILL.md` | Mandates reading both when personal context matters |
+
+Agents won't get the full table on every mouse-wheel-click edit - only when the post might touch personal facts. For those posts, they read the ledger and avoid inventing gap-table topics.
+
+## Session close
+- Fixed: Wired `__interesting-facts-about-jorap.md` into jorap-voice via `author-context.md` and workflow step 1.
+- Encode: none (this was the encoding).
+- Open: clean

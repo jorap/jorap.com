@@ -1,7 +1,7 @@
 ---
 title: "Justification"
 meta_title: "Justification - Declared Righteous at Faith"
-description: "God declared me righteous at faith - before my obedience caught up."
+description: "God declares the believer righteous at faith - before obedience catches up."
 key_concept: |
   {{< bible ref="Luke 18:9-14" emphasize="14" >}}
   - The tax collector went home justified - humility before God, not self-promotion, is what Jesus commended.
@@ -26,8 +26,8 @@ examples:
   - "My kid asked if God likes him yet - I said God already declared him righteous the moment he trusted Christ, not when his room got clean."
   - "I snapped at the cashier and felt like I was back on probation with God - justification means my standing was settled at faith; confession restores fellowship, it does not re-buy heaven."
 shareable_thought:
-  - "God declared me righteous at faith."
-  - "Before my obedience caught up."
+  - "God declares the believer righteous at faith."
+  - "Before obedience catches up."
   - "The tax collector went home justified."
   - "Humility before God, not self-promotion, is what Jesus commended."
 relationships:

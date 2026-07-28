@@ -816,14 +816,215 @@ _**Agent (auto-low)**_
 
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
 <summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-run-your-own-website.md</summary>
-Status: **loading**
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
-<summary>Tool use: **edit_file_v2**</summary>
-Status: **loading**
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-run-your-own-website.md</summary>
 
 </details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-run-your-own-website.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__password-managers.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__password-managers.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__password-managers.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__password-managers.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__password-managers.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__password-managers.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Continuing with the remaining files.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__second-cellphone.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-keep-desktop-laptop.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-keep-desktop-laptop.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/mouse-wheel-click.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__mcgill-big-three.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__mcgill-big-three.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/worship-pads-solo-guitar.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__how-to-create-a-good-habit.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-stopped-playing-marvel-snap.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/google-over-apple-ecosystem.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The interesting-facts table should also be updated if any rows still reference content removed from source posts.
+
+The interesting-facts table is already current. Bitwarden references are updated. McGill and mouse wheel entries were removed.
+
+The Church Wi-Fi and guitar stand rows were also removed from interesting-facts. The second cellphone row is fine. VLC offline was removed from interesting-facts but remains in the worship section. A grep will verify no stale references remain across the blog.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Checking for remaining stale references across the blog:
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "content/english/blog/**",
+  "pattern": "joke domain|Facebook thread about a client|breach email|Family plan|recovery codes|bank OTP.*lock screen|storage full.*school|Shopee checkout|comics completionist|Church Wi-Fi|guitar on a stand|search traffic every week|Drupal essay was still"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "joke domain|Facebook thread about a client|breach email|Family plan|recovery codes|bank OTP.*lock screen|storage full.*school|Shopee checkout|comics completionist|Church Wi-Fi|guitar on a stand|search traffic every week|Drupal essay was still",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Stale references were removed from the blog posts.
+
+The interesting-facts table was checked for stale rows. All entries remain valid.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Updated **11 source posts** to match your corrections:
+
+| Post | Change |
+|------|--------|
+| `sustainable-online-publishing.md` | Removed Facebook thread and joke-domain anecdotes |
+| `why-run-your-own-website.md` | Removed extension-cord traffic and Drupal analytics claims; generalized SEO/analytics sections |
+| `__password-managers.md` | Procrastination hook (not breach); **free plan**; dropped Pia/recovery codes and family-sharing bits |
+| `__second-cellphone.md` | New opener: kid uses daily phone + banking on same screen (no OTP lock-screen story) |
+| `why-keep-desktop-laptop.md` | Removed school-program storage panic and Shopee checkout anecdote |
+| `mouse-wheel-click.md` | Reframed from "I watch people…" to direct advice |
+| `__mcgill-big-three.md` | **Bookmarked**, not a daily habit |
+| `worship-pads-solo-guitar.md` | Offline bullet = no streaming/login (no Church Wi-Fi gripe) |
+| `__how-to-create-a-good-habit.md` | Notebook on desk instead of guitar on stand |
+| `why-i-stopped-playing-marvel-snap.md` | **Not a comics or anime fan** |
+| `google-over-apple-ecosystem.md` | Dropped cross-reference to storage-full school video |
+
+`dnpap-song-resources.md` already said "memorable" — no edit needed.
+
+## Session close
+- Fixed: Synced 11 blog posts with your fact-check corrections from the interesting-facts table.
+- Encode: none
+- Open: clean

@@ -31,7 +31,17 @@ Not "who is the user?" - **what triggered them to look today?**
 
 A freelancer who lost cheap PHP hosting isn't buying Hugo because they love Go templates. They're hiring **a site they can move when the host dies** - markdown in Git, deploy on push, no database to ransom.
 
-Dark mode on a theme might still ship. It's not the job.
+I learned that the expensive way on my own site. Dark mode on a theme might still ship. It's not the job.
+
+---
+
+## A client call that made JTBD click
+
+A pastor wanted a sermon archive online. My first draft quote still smelled like a "small church website" package - pages, theme, maybe a blog. Mid-call I asked what failed last Sunday.
+
+He wasn't hiring a redesign. He was hiring **Friday bulletin updates before Sunday without learning Git or paying for a full CMS he wouldn't use.** Retainer batch. One push. Static hosting. No member login.
+
+If I'd sold features - "blog module, event calendar, staff directory" - I'd have missed the job. The archive shipped lean. The bulletin still goes out every Friday. That's JTBD in a sales call, not a slide deck.
 
 ---
 
@@ -47,7 +57,7 @@ Stolen from my notes and sharpened on client calls:
 6. **Which features actually move that outcome?** - cut shelfware
 7. **How will they know it worked?** - the metric they trust
 
-If I can't answer trigger and outcome, I'm not ready to spec.
+If I can't answer trigger and outcome, I'm not ready to spec. I've quoted anyway before. Those are the projects that grow mystery scope in week three.
 
 ---
 

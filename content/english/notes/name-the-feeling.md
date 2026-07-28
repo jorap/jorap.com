@@ -3,7 +3,7 @@ title: "Name the Feeling"
 meta_title: "Name the Feeling - Put Words to It Before You Fix It"
 description: "That sounds frustrating lands before the fix plan - name the emotion so nobody is guessing."
 key_concept: |
-  - "That sounds frustrating" before "here's what to do."
+  - "That sounds frustrating" before "here is what to do."
   - Level 1: Say that sounds frustrating before you hand someone a to-do list - like nodding at a friend who is upset before you suggest a fix.
   - Level 2: Name the feeling first - that sounds frustrating - before here is what to do.
   - Level 3: Name-the-feeling validates emotion before prescription - otherwise advice lands like dismissal.
@@ -21,7 +21,7 @@ examples:
 shareable_thought:
   - "That sounds frustrating lands before the fix plan."
   - "Name the emotion so nobody is guessing."
-  - "\"That sounds frustrating\" before \"here's what to do.\"."
+  - "\"That sounds frustrating\" before \"here is what to do.\"."
   - "Naming the emotion lowers defensiveness so the fix can land."
 relationships:
   - type: contradicts

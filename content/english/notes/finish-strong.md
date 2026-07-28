@@ -26,7 +26,7 @@ relationships:
     reason: "Ship the smallest slice vs close every commitment when the tail matters"
   - type: contradicts
     wikilink: "[[The Collector's Fallacy]]"
-    reason: "when starting new things beats closing what's open"
+    reason: "when starting new things beats closing what is open"
   - type: extends
     wikilink: "[[Complete the Cycle]]"
     reason: "Finishing includes follow-up, not only the main action"

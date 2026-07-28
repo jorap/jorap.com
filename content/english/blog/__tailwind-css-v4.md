@@ -37,7 +37,7 @@ In v3 I lived in `tailwind.config.js` - colors, fonts, spacing tokens in JavaScr
 
 Change a token, watch it propagate. For a personal rebrand that's genuinely fun - I tweaked accent colors without touching layout files.
 
-The footgun: old config habits don't port line for line. Read the migration guide once before editing.
+The footgun: old config habits don't port line for line. I opened my old JavaScript config out of muscle memory, edited nothing useful, and wondered why tokens weren't updating. The answer was in CSS. Read the migration guide once before editing. I skimmed it the first time. Paid for that with a confused afternoon.
 
 ---
 
@@ -47,7 +47,7 @@ Most Hugo themes ship bespoke SCSS you'll never fully learn. Hugoplate uses util
 
 v4 kept that **utility-first mental model.** The plumbing moved; the day-to-day editing didn't.
 
-When the upstream theme merged v4, I pulled, ran `hugo server`, clicked around - homepage, blog single, notes garden, dark mode toggle. Boring checklist before push live.
+When the upstream theme merged v4, I pulled, ran `hugo server`, clicked around - homepage, blog single, notes garden, dark mode toggle. Boring checklist before push live. Dark mode was the one that bit me: a contrast issue on a tag pill I only saw after toggling twice. Local check caught it. Pushing blind wouldn't have.
 
 ---
 
@@ -55,7 +55,7 @@ When the upstream theme merged v4, I pulled, ran `hugo server`, clicked around -
 
 Hugo's asset pipeline and Tailwind's new engine have to agree. Hugoplate documents how PostCSS/Vite wiring works in their repo - I didn't invent it.
 
-If you're on an old fork frozen on v3, budget an afternoon, not ten minutes. Compare upstream's `package.json` and CSS entry files to yours. Diff beats guessing.
+If you're on an old fork frozen on v3, budget an afternoon, not ten minutes. Compare upstream's `package.json` and CSS entry files to yours. Diff beats guessing. I once tried to "just bump the version" without syncing the rest of the theme. Build failed in a way that looked like Hugo's fault. It wasn't.
 
 ---
 

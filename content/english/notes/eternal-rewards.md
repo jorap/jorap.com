@@ -21,7 +21,7 @@ key_concept: |
   - The [[Judgment Seat]] is where works get evaluated; [[Loss of Reward]] keeps reward-loss separate from salvation-loss.
   - Same shape as [[Compounding]] in the garden: small obedient acts over years, not one heroic week I mistake for a merit down payment on heaven.
 examples:
-  - "I stayed late to help reset the gym alone and immediately wanted to mention it at the next practice - the Father already saw it, and He's the one who pays, not the team chat."
+  - "I stayed late to help reset the gym alone and immediately wanted to mention it at the next practice - the Father already saw it, and He is the one who pays, not the team chat."
   - "I covered a coworker's shift without telling anyone and caught myself fishing for credit in the break room - gift first, repayment for faithfulness second, not a merit down payment on heaven."
 shareable_thought:
   - "Jesus promised believers the Father will repay faithful obedience after salvation, not as the price of eternal life."

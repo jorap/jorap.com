@@ -23,13 +23,15 @@ draft: true
 
 JoRap uses **categories** for broad buckets (Gear, Worship, Technology) and **tags** for specificity (Hugo, Instant Pot, Alex Eala). That's site structure for readers and search - not my private notes graph.
 
-The notes garden uses `related_notes` in frontmatter for that. Different job.
+The notes garden uses `related_notes` in frontmatter for that. Different job. I tried stuffing the blog tags with every related idea once. Got a tag cloud that looked busy and meant nothing.
 
 ---
 
-## The discipline problem (not the Hugo problem)
+## Hugo builds every tag you invent
 
 Hugo will happily build a tag page for every string you type. I've seen my own drafts with twenty tags copied from an old SEO habit. Each one spawns a thin archive page. Most of them useless.
+
+I once published a post with near-duplicate tags - `Hugo` and `Hugo SSG` - and ended up with two thin archives that split the same three posts. Cleaning that up meant editing frontmatter and waiting for the build. Five minutes of discipline at draft time would have skipped the cleanup.
 
 Categories: I try to keep it under a dozen readers can scan.
 
@@ -62,19 +64,13 @@ You can add `series`, `authors`, whatever in `hugo.toml`:
   series = "series"
 ```
 
-I haven't needed a custom taxonomy on JoRap yet. Hugoplate already ships multi-author support. If I ran a serialized tutorial, `series` would be the obvious add.
+I haven't needed a custom taxonomy on JoRap yet. Hugoplate already ships multi-author support. If I ran a serialized tutorial, `series` would be the obvious add. Until then I'm not inventing another axis to curate.
 
 ---
 
-## Templates you might touch
+## Theme files vs what I actually curate
 
-`layouts/categories/terms.html` - index of all categories
-
-`layouts/tags/terms.html` - index of all tags
-
-`layouts/_default/taxonomy.html` - posts in one term
-
-Theme handles display. **You** handle not creating 400 empty tag pages.
+The theme already has the listing templates - category index, tag index, posts under one term. I rarely edit those. The work is upstream of the template: **don't create 400 empty tag pages.**
 
 Native Hugo taxonomies organize the **public** site. My private wiki can be messier - wikilinks, backlinks, whatever.
 

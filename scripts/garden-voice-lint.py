@@ -19,19 +19,22 @@ ROOT = Path(__file__).resolve().parents[1]
 NOTES = ROOT / "content/english/notes"
 FM = re.compile(r"^---\s*\n(.*?)\n---", re.DOTALL)
 WIKILINK = re.compile(r"\[\[")
+# 's only on contraction bases (what's/it's) - not possessives (Christ's, week's)
 CONTRACTION = re.compile(
     r"\b(?:I|you|we|they|he|she|it|who|what|that|there|here|let|do|does|did|is|are|was|were|"
     r"have|has|had|will|would|could|should|can|cannot|won|don|doesn|didn|isn|aren|wasn|weren|"
     r"haven|hasn|hadn|wouldn|couldn|shouldn|mustn|needn|mightn|shan|ain't)"
-    r"(?:'t|'re|'ve|'ll|'d|'m)\b",
+    r"(?:'t|'re|'ve|'ll|'d|'m|'s)\b",
     re.I,
 )
+DESC_FIRST_PERSON = re.compile(r"\b(I|me|my)\b", re.I)
 BIBLE = re.compile(
     r"\{\{<\s*bible|NASB|Matthew|Mark|Luke|John \d|Romans|Ephesians|Galatians|"
     r"Corinthians|Peter|James|Hebrews|Psalm|Proverbs|Colossians|Philippians|"
     r"Timothy|Titus|Revelation|Isaiah|Jeremiah",
     re.I,
 )
+BIBLE_SHORTCODE = re.compile(r"\{\{<\s*bible\b", re.I)
 FAITH_TAGS = frozenset(
     {"faith", "eternal principles", "christianity", "theology", "gospel", "jesus", "bible"}
 )
@@ -109,7 +112,7 @@ def scan_note(path: Path) -> list[Issue]:
             issues.append(Issue(rel, "description", "wikilink", desc[:80]))
         if len(desc.split()) > 20:
             issues.append(Issue(rel, "description", "words>20", str(len(desc.split()))))
-        if re.search(r"\bI\b", desc):
+        if DESC_FIRST_PERSON.search(desc):
             issues.append(Issue(rel, "description", "first-person", desc[:80]))
 
     kc = meta.get("key_concept") or ""
@@ -117,7 +120,11 @@ def scan_note(path: Path) -> list[Issue]:
         first = first_key_concept_line(kc)
         if first and WIKILINK.search(first):
             issues.append(Issue(rel, "key_concept", "line1-wikilink", first[:80]))
-        if is_faith(meta) and not is_workplace_lane(meta) and not BIBLE.search(kc):
+        if is_workplace_lane(meta) and (
+            BIBLE_SHORTCODE.search(kc) or bible_verse_ref_in_text(kc)
+        ):
+            issues.append(Issue(rel, "key_concept", "workplace-has-bible", path.stem))
+        elif is_faith(meta) and not is_workplace_lane(meta) and not BIBLE.search(kc):
             issues.append(Issue(rel, "key_concept", "faith-no-verse", path.stem))
 
     examples = meta.get("examples") or []
@@ -167,6 +174,15 @@ def scan_note(path: Path) -> list[Issue]:
 def _self_check() -> None:
     assert first_key_concept_line("- [[Foo]] bar\n- next") == "[[Foo]] bar"
     assert first_key_concept_line("{{< bible >}}\n- plain claim") == "plain claim"
+    assert CONTRACTION.search("what's underneath")
+    assert CONTRACTION.search("there's no audience")
+    assert CONTRACTION.search("it's the same")
+    assert CONTRACTION.search("isn't a single")
+    assert not CONTRACTION.search("Christ's finished work")
+    assert not CONTRACTION.search("everyone else's urgency")
+    assert DESC_FIRST_PERSON.search("not my week's score")
+    assert DESC_FIRST_PERSON.search("God declared me righteous")
+    assert not DESC_FIRST_PERSON.search("God declares the believer righteous")
 
 
 def main() -> int:

@@ -10,7 +10,7 @@ key_concept: |
   - Level 4: Before you react in a tense room, pick one lever: slow the pace, move the talk, or name a boundary you will hold.
   - Level 5: Steer through levers, not volume - [[Composure]] keeps the move calm; [[Control the Rhythm]] names the same lane when you cannot own the whole outcome.
   - I steer pace, format, and who speaks in the room when I cannot own the whole outcome.
-  - The room notices who's steering even when nobody announced it.
+  - The room notices who is steering even when nobody announced it.
 examples:
   - "My sister and I were fighting past the kids' bedtime - situational control was a fifteen-minute break and a promise to pick it up tomorrow."
   - "Down twelve at halftime, our captain called a timeout she did not need - situational control was slowing the game, not surrendering to their pace."

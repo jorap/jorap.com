@@ -21,13 +21,13 @@ draft: true
 
 Markdown formatting is **structure you type**, not buttons in a toolbar. I use the same habits in Hugo blog posts and wiki captures: break early, heading every scroll, code fences for commands.
 
-Bad formatting buries good ideas behind a wall of text. I've published both versions. The formatted one gets read.
+Bad formatting buries good ideas behind a wall of text. I've published both versions. The formatted one gets read. The wall-of-text one gets skimmed for thirty seconds and closed.
 
 ---
 
 ## What I fixed after rereading my own drafts
 
-Early posts had 200-word paragraphs because I wrote like a college essay. On a phone that's one screen of gray.
+Early posts had 200-word paragraphs because I wrote like a college essay. On a phone that's one screen of gray. I opened an old draft on the jeepney once and couldn't find the point before my stop.
 
 Now I aim for **three to five lines per paragraph** on the web. One idea, hit Enter. If I'm explaining two things, that's two paragraphs or a list.
 
@@ -45,26 +45,24 @@ My pattern on longer posts:
 - H3 for sub-steps inside a section
 - Rarely H4 unless it's a recipe ingredient group
 
-Logical outline = readable outline. If the TOC looks weird, the post probably is.
+I once published a post with three H2s that all restated the title. TOC looked busy and said nothing. Rewrote the headings so each one carried a take. Logical outline = readable outline. If the TOC looks weird, the post probably is.
 
 ---
 
 ## Checklists get lists, takes stay prose
 
-I use lists for checklists, gear picks, and steps with parallel structure. Tables go to comparisons that need columns, like the remote work bag or quote line items, and I keep them narrow because wide tables break on mobile.
+I use lists for checklists, gear picks, and steps with parallel structure. Tables go to comparisons that need columns, like the remote work bag or quote line items, and I keep them narrow because wide tables break on mobile - I learned that after shipping a wide comparison that wrapped into nonsense on a phone.
 
-Prose gets the arguments, stories, and opinions. Not everything should be bullets. The Marvel Snap post is mostly prose because the point is a take, not a checklist.
+Prose gets the arguments, stories, and opinions. Not everything should be bullets. The Marvel Snap post is mostly prose because the point is a take, not a checklist. When I force a take into a list, it reads like a product page.
 
 ---
 
 ## One bold phrase, not bold everything
 
-One **bold phrase** per section for the line I'd quote if I summarized the post aloud. Not bold everything.
+One **bold phrase** per section for the line I'd quote if I summarized the post aloud. Not bold everything. Early drafts of mine looked like a highlighter exploded. Readers stop trusting bold when everything is bold.
 
 `---` between major sections on long posts - visual breath.
 
-Backticks for commands and filenames, fences for multi-line code. I mark what's copy-pasteable so nobody has to guess.
+Backticks for commands and filenames, fences for multi-line code. I mark what's copy-pasteable so nobody has to guess - including me at 11 PM trying to remember how I fixed a Hugo build.
 
-**Format while you write**, not in a panic before publish.
-
-Future readers include you at 11 PM trying to remember how you fixed a Hugo build. Make it easy on that person.
+**Format while you write**, not in a panic before publish. Future readers include that person. Make it easy on them.

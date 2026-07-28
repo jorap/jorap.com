@@ -1,7 +1,7 @@
 ---
 title: "Metadata Strategy"
 meta_title: "Metadata Strategy - Tags Without Taxonomy Hell"
-description: "If tagging a note takes longer than writing it, my system is fighting me."
+description: "If tagging a note takes longer than writing it, the system is fighting the writer."
 key_concept: |
   - Tags, categories, dates, aliases - metadata should help me find notes, not become a second job.
   - Level 1: Tags and dates should help you find a note fast - like labels on boxes in the attic, not a second full-time job sorting every scrap.
@@ -16,7 +16,7 @@ examples:
   - "I tagged every note with twelve labels and used none on search - cut to five I would actually pick."
   - "The team wiki had forty categories; new hires filed everything under Misc within a week."
 shareable_thought:
-  - "If tagging a note takes longer than writing it, my system is fighting me."
+  - "If tagging a note takes longer than writing it, the system is fighting the writer."
   - "Tags, categories, dates, aliases - metadata should help me find notes, not become a second job."
   - "Frontmatter is publish metadata; the body is the writing."
   - "YAML breaks the build, Markdown typos rarely do."

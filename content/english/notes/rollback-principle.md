@@ -11,7 +11,7 @@ key_concept: |
   - Level 5: If I cannot explain the path back in one sentence, I am not ready to ship - pairs with [[Reversibility]] and [[Safety by Design]].
   - [[Reversibility]] is the decision frame; rollback is the rehearsed move.
   - Last quarter I kept a bad Friday deploy live because I wanted the milestone more than the rollback conversation.
-  - The team needed "my call, here's the fix," not a speech.
+  - The team needed "my call, here is the fix," not a speech.
 examples:
   - "Bad Friday deploy - I reverted in standup, said my call, fixed Monday."
   - "The point guard ran Tuesday's inbound at halftime when the new play bled points - rollback was the drill they would already walked, not a whiteboard invention."

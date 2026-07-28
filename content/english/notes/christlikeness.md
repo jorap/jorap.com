@@ -1,7 +1,7 @@
 ---
 title: "Christlikeness"
 meta_title: "Christlikeness - Shaped to Look and Love Like Jesus"
-description: "God keeps reshaping me to look and love more like Jesus - growth after faith, not the entry fee."
+description: "God keeps reshaping believers to look and love more like Jesus - growth after faith, not the entry fee."
 key_concept: |
   {{< bible ref="Luke 6:39-40" emphasize="40" >}}
   
@@ -21,7 +21,7 @@ examples:
   - "I lost my temper at dinner and apologized slower than I used to snap - Christlikeness is slow; faith settled standing, and God still reshapes me."
   - "I performed kindness at church and was sharp with the cashier an hour later - Christlikeness is not a badge from one emotional Sunday, it is looking more like Jesus on ordinary Tuesdays."
 shareable_thought:
-  - "God keeps reshaping me to look and love more like Jesus."
+  - "God keeps reshaping believers to look and love more like Jesus."
   - "Growth after faith, not the entry fee."
   - "Fully trained, like the teacher."
   - "The aim is not my old default self on display, it is looking more like Jesus over years."

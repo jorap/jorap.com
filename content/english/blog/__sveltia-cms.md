@@ -16,7 +16,7 @@ draft: true
 
 **Sveltia CMS** is a lightweight, Git-backed editor for static sites. Svelte UI in the browser. Changes commit to your repo. Hugo still builds on push.
 
-I don't draft my own posts in Sveltia - I write Markdown in the editor and push. The site does ship a `/admin/` panel backed by Sveltia for when buttons beat Git lessons. I keep it in the toolbox for **clients who won't open VS Code** but still fit a static stack.
+I don't draft my own posts in Sveltia - I write Markdown in the editor and push. This site still ships a `/admin/` panel backed by Sveltia for when buttons beat Git lessons. I keep it in the toolbox for **clients who won't open VS Code** but still fit a static stack.
 
 ---
 
@@ -26,7 +26,9 @@ I don't draft my own posts in Sveltia - I write Markdown in the editor and push.
 
 Picture someone who needs sermon archives or brochure typo fixes without learning YAML. "Just edit the file and commit" wasn't going to happen. WordPress felt like overhead for twice-a-month updates.
 
-Sveltia (and tools like it) sit in the gap: **static hosting economics, CMS-shaped editing.**
+I almost defaulted a brochure site to WordPress once because the owner froze at the word "terminal." The job was four pages and occasional copy edits. That's the gap Sveltia (and tools like it) fill: **static hosting economics, CMS-shaped editing.**
+
+Not every client needs it. A pastor I work with sends bulletin copy every Friday for a retainer push - no CMS layer he didn't ask for. Neighbor portfolio: twenty-minute Git lesson, she broke YAML once and fixed it the same night. Sveltia is the middle path when neither of those lands.
 
 ---
 
@@ -36,7 +38,7 @@ The CMS doesn't replace the repo. It commits Markdown (and media) like you would
 
 Cloudflare Pages still builds on push. No database appears. No PHP cron. The architecture stays static; only the **entry point** changes.
 
-That matters when I quote hosting lean. I'm not sneaking WordPress in through the back door.
+That matters when I quote hosting lean. I'm not sneaking WordPress in through the back door. When I test `/admin/` on this site, I'm checking that a commit still looks like a commit - not that a mystery database woke up.
 
 ---
 
@@ -51,7 +53,9 @@ Not a one-click toy. You configure:
 
 Treat it like a small production app. Staging branch first. Test commit, test build, then hand keys to the client.
 
-I haven't rolled it out on every static job. When the fit is right, it's cheaper than re-platforming to WordPress for a four-page site.
+My first config pass failed because the media path didn't match where Hugo actually reads images. Build green, upload "worked," file invisible on the page. Staging caught it. Production would have been an awkward call.
+
+I haven't rolled it out on every static job. When the fit is right, it's cheaper than re-platforming to WordPress for a four-page site - and I quote the setup and training separately, same as I would for a Git lesson.
 
 ---
 

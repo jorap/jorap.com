@@ -62,7 +62,7 @@ date: "2026-07-05 15:00:00+00:00"
 image: "/images/note.jpg"
 categories: ["Faith", "Leadership"]
 author: "JoRap"
-tags: ["Gospel", "Discipleship", "Leadership", "Eternal Principles", "Workplace"]
+tags: ["Gospel", "Discipleship", "Leadership", "Eternal Principles"]
 aliases: ["discipleship and leadership", "following vs leading"]
 featured: false
 review: true

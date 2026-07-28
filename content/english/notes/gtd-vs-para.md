@@ -29,7 +29,7 @@ relationships:
     reason: "Allen task-inbox system on the other side of the comparison"
   - type: extends
     wikilink: "[[PARA Method]]"
-    reason: "GTD runs tasks and PARA sorts notes - here's how both work without doubling admin"
+    reason: "GTD runs tasks and PARA sorts notes - here is how both work without doubling admin"
 slug: "gtd-vs-para"
 date: "2026-06-18 06:00:00+00:00"
 image: "/images/note.jpg"

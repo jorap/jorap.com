@@ -1,7 +1,7 @@
 ---
 title: "Sanctification"
 meta_title: "Sanctification - Becoming Holy After Faith"
-description: "After God declares me righteous, He keeps shaping my habits and heart - growth, not the ticket in."
+description: "After God declares a believer righteous, He keeps shaping habits and heart - growth, not the ticket in."
 key_concept: |
   {{< bible ref="John 17:17-19" emphasize="17" >}}
   
@@ -27,7 +27,7 @@ examples:
   - "I knew the verse on anger and still lost it at dinner - sanctification is slow; my standing was settled at faith, and I am still being changed."
   - "I treated my quiet-time streak like proof God accepts me - faith saves; sanctification grows me after, it does not re-open the verdict."
 shareable_thought:
-  - "After God declares me righteous, He keeps shaping my habits and heart."
+  - "After God declares a believer righteous, He keeps shaping habits and heart."
   - "Growth, not the ticket in."
   - "Jesus asks the Father to make us holy through truth."
   - "Scripture shapes the slow becoming, not one heroic week."

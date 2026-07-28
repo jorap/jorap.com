@@ -1149,5 +1149,105 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The user wants the M1 sentence relocated from line 221.
 
-The sentence currently sits between the Apple Silicon explanation and AirPods. The best spots are immediately after line 217, or inside the "control" innovation section. The "shopping" section is too off-topic, and merging with line 217
+The sentence currently sits between the Apple Silicon explanation and AirPods. The best spots are immediately after line 217, or inside the "control" innovation section. The "shopping" section is too off-topic, and merging with line 217 risks redundancy.
+
+Placing the sentence right after line 217 would reverse the logical flow, since the migration point comes later. The better spot is the end of the line 219 paragraph, where it closes the silicon block as a punchy conclusion.
+
+The "control" section after line 241 offers another home for the sentence. It could replace or augment the existing claim that Apple owns the full silicon and software path. The shopping section opening is another candidate. The preferred move is still the end of paragraph 219.
+
+The drafted paragraph for the line 219 spot reads: "No negotiating with Intel on roadmaps. No hoping Qualcomm ships a laptop part on time. macOS, apps, thermals, and silicon could move together because one company owns the stack. **M1** wasn't someone else's chip with a logo swapped..."
+
+Option B would replace the weaker "M-series matters" line in the "control" section with the full sentence.
+
+Option C would place the sentence immediately after line 217, right after the OLED comparison.
+
+The standalone M1 paragraph will be removed. Its text will close the migration paragraph at line 219, keeping all Apple Silicon material together before the pivot to AirPods.
+
+The relocated sentence is now the preferred home. It replaces the weaker "M-series matters" line in the "control" section. The phrase "vertical integration cashing the check" matches the section title. This spot is stronger than the migration paragraph.
+
+The credit section needs its own punchline, so the relocated M1 sentence cannot simply replace the standalone paragraph. The revised plan is to merge the sentence into the end of paragraph 219, removing the orphan paragraph entirely. This turns the M1 line from an isolated interstitial into the closing of the Apple Silicon argument, followed by AirPods. The control section remains a secondary option, since it names "vertical integration" explicitly.
 </details></think>
+
+_**Agent (auto-low)**_
+
+Moving the M1 line to close the Apple Silicon block so it lands after the stack argument instead of sitting alone before AirPods.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__apple-strategically-late.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The user likely wants the sentence moved elsewhere entirely, not merely merged into the previous paragraph.
+
+Merging the sentence into the migration paragraph would feel like a wall of text. Moving it to the control section instead, while trimming the credit section, may work better.
+
+The control section is the natural home for this sentence, since it centers on vertical integration. The end of the silicon argument is another viable spot. I will suggest the control section and let the user choose.
+
+Undoing the merge. The M1 sentence belongs in the control section as the concrete example of vertical integration paying off. The credit section will keep its migration explanation and end cleanly.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Relocating it to the control section — that's where vertical integration is the thesis.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__apple-strategically-late.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__apple-strategically-late.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The sentence now sits in the "What Apple actually innovates: control" section, where vertical integration is the central thesis.
+
+It now sits between touch UI and AirPods in the examples list. This placement feels thematically tighter.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm lint:voice content/english/blog/__apple-strategically-late.md 2&gt;&amp;1 | tail -3</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:voice content/english/blog/__apple-strategically-late.md 2>&1 | tail -3
+```
+
+```
+$ python3 scripts/voice-lint.py dashes --check && python3 scripts/voice-lint.py site --check content/english/blog/__apple-strategically-late.md
+Voice dash lint OK
+Voice lint OK
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Relocating the sentence about M1.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Moved it from the credit section into **"What Apple actually innovates: control"**, in the examples list between touch UI and AirPods. It fits better there — vertical integration as the thesis, not a standalone beat before AirPods.
+
+The credit section still covers Cook, A-series, and the x86 → ARM migration. The M1 punch line now lands where the post names **control** as the real innovation.
+
+## Session close
+- Fixed: Relocated M1 vertical-integration sentence to the control section.
+- Encode: none
+- Open: hero images still template on both drafts.

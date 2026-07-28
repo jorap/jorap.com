@@ -33,7 +33,7 @@ Headings, paragraphs, bold, italic, links, images, ordered and unordered lists, 
 
 That's almost every blog post on this site. The [Drupal to WordPress](/blog/drupal-to-wordpress/) essay is thousands of words and never needed more than that core set.
 
-Fancy extensions are seasoning. Master the pot first.
+I still catch myself reaching for a clever extension - footnotes, callouts, custom admonitions - then deleting it because the post didn't need the decoration. Fancy extensions are seasoning. Master the pot first.
 
 ---
 
@@ -52,7 +52,7 @@ draft: false
 
 Not part of the Markdown spec. Every static site generator has its own fields. I treat frontmatter as **publish metadata** and the body as **the writing.**
 
-Broken YAML indentation has broken my build more than any Markdown typo. I once indented a list wrong in `related_notes` and spent twenty minutes thinking Hugo hated me. Tabs and colons are the enemy.
+Broken YAML indentation has broken my build more than any Markdown typo. I once indented a list wrong in `related_notes` and spent twenty minutes thinking Hugo hated me. Tabs and colons are the enemy. When the build fails after a "tiny" frontmatter edit, check indentation before you rewrite the body.
 
 ---
 
@@ -65,7 +65,7 @@ Broken YAML indentation has broken my build more than any Markdown typo. I once 
 | Shortcodes | Hugo only | N/A |
 | Raw HTML | Often allowed | Varies |
 
-I draft blog posts and garden notes in the same editor, but I **don't** paste vault-style `[[wikilinks]]` into Hugo blog content unless the build resolves them. In JoRap Notes, wikilinks work at build time; in blog posts, use `relref` or plain paths.
+I draft blog posts and garden notes in the same editor, but I **don't** paste vault-style `[[wikilinks]]` into Hugo blog content unless the build resolves them. I did that once early on - a note link that looked fine in the editor and published as a dead `[[like-this]]` string on the live site. In JoRap Notes, wikilinks work at build time; in blog posts, use `relref` or plain paths.
 
 Same words, different dialects. Like PHP and WordPress - related, not identical.
 

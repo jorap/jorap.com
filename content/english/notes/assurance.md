@@ -1,7 +1,7 @@
 ---
 title: "Assurance"
 meta_title: "Assurance - Rest on Christ's Promise, Not This Week"
-description: "Assurance is resting on Christ's finished work when doubt hits - not my week's obedience score."
+description: "Assurance is resting on Christ's finished work when doubt hits - not the week's obedience score."
 key_concept: |
   {{< bible ref="John 6:35-40" emphasize="37" >}}
   
@@ -21,7 +21,7 @@ examples:
   - "Bad week and dread God changed His mind - assurance rests on Christ's promise, not my obedience streak."
   - "I pictured the judgment seat and panicked like heaven might get revoked - salvation settled at faith; works get reviewed for reward after."
 shareable_thought:
-  - "Assurance is resting on Christ's finished work when doubt hits - not my week's obedience score."
+  - "Assurance is resting on Christ's finished work when doubt hits - not the week's obedience score."
   - "Believe and you have eternal life."
   - "Rest on that promise when the week was ugly, not on your scorecard."
   - "Bad weeks, hidden sin, dread at the Judgment Seat."

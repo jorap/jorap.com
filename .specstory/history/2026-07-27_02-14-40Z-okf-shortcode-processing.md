@@ -1086,3 +1086,893 @@ Additional data:
 Status: **completed**
 
 </details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The full picture is now clear.
+
+Notes OKF exports currently leave bible shortcodes raw. Blog OKF exports still need `slider`, `spotify`, `youtube-lite`, `vimeo-lite`, and possibly `card` shortcodes processed.
+
+`modal` and `adsense` shortcodes are likely absent from content. The bible shortcode appears mainly in key_concept frontmatter fields. Plain markdown may be preferable to HTML for bible verses in OKF exports.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "shortcodes_to|agent.copy|okf.*shortcode|bible.*export"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "shortcodes_to|agent.copy|okf.*shortcode|bible.*export",
+  "topFiles": [
+    {
+      "matchCount": 9,
+      "uri": "./.specstory/history/2026-07-27_02-14-40Z-okf-shortcode-processing.md"
+    },
+    {
+      "matchCount": 7,
+      "uri": "./.specstory/history/2026-06-27_11-19-04Z-chatgpt-code-and-notes.md"
+    },
+    {
+      "matchCount": 8,
+      "uri": "./.specstory/history/2026-07-15_14-44-16Z-blog-compliance-with-okf.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./.specstory/history/2026-07-10_05-58-29Z-jorap-voice-refinement.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./.specstory/history/2026-07-02_05-35-18Z-ai-prompts-review.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": "./.specstory/history/2026-07-24_10-18-20Z-ponytail-audit.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "./.specstory/history/2026-07-02_23-40-15Z-site-voice-consistency-review.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./.specstory/history/2026-07-10_23-18-53Z-redundant-notes-review.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./.specstory/history/2026-07-24_10-18-40Z-audit-scripts-and-js.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./.specstory/history/2026-07-10_06-19-24Z-garden-voice-fix-chunk.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "./scripts/export-okf-blog-bundle.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./data/scripture-nasb1995.json"
+    },
+    {
+      "matchCount": 7,
+      "uri": "./.specstory/history/2026-06-27_11-19-04Z-chatgpt-code-and-notes-integration.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./assets/js/notes-copy-md.js"
+    },
+    {
+      "matchCount": 2,
+      "uri": "./docs/SPEC.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./.specstory/history/2026-07-03_01-49-12Z-five-word-titles-for-notes.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./i18n/en.yaml"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./layouts/_partials/notes/build-issues-report.html"
+    },
+    {
+      "matchCount": 3,
+      "uri": "./scripts/blog_shortcodes.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./layouts/_partials/blog/copy-markdown.html"
+    }
+  ],
+  "totalFiles": 21,
+  "totalMatches": 57
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/scripture-nasb1995.json</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 -c &#34;
+import json
+from pathlib import Path
+p = Path(&#39;data/scripture-nasb1995.json&#39;)
+d = json.loads(p.read_text()[:5000] + p.read_text()[5000:50000])  # partial won&#39;t work
+&#34; 2&gt;&amp;1 | head -5; python3 -c &#34;
+import json
+from pathlib import Path
+with open(&#39;data/scripture-nasb1995.json&#39;) as f:
+    d = json.load(f)
+print(list(d.keys()))
+v = d[&#39;verses&#39;].get(&#39;John 3:16&#39;) or d[&#39;verses&#39;].get(&#39;Matthew 7:7&#39;)
+print(v)
+&#34;</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 -c "
+import json
+from pathlib import Path
+p = Path('data/scripture-nasb1995.json')
+d = json.loads(p.read_text()[:5000] + p.read_text()[5000:50000])  # partial won't work
+" 2>&1 | head -5; python3 -c "
+import json
+from pathlib import Path
+with open('data/scripture-nasb1995.json') as f:
+    d = json.load(f)
+print(list(d.keys()))
+v = d['verses'].get('John 3:16') or d['verses'].get('Matthew 7:7')
+print(v)
+"
+```
+
+```
+Traceback (most recent call last):
+  File "<string>", line 5, in <module>
+  File "/usr/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+['meta', 'verses']
+{'nasb1995': {'verse': '“For God so loved the world, that He gave His only begotten Son, that whoever believes in Him shall not perish, but have eternal life.', 'words': '“For God so loved the world, that He gave His only begotten Son, that whoever believes in Him shall not perish, but have eternal life.', 'full': True}}
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+A specstory history already exists for this exact question from today.
+
+Checking the specstory file to determine whether implementation is already underway or needs to start from scratch.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-27_02-14-40Z-okf-shortcode-processing.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*bible*",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts",
+  "pattern": "bible"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts",
+  "pattern": "bible",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "scripts/bible-red-letter-mark.py"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **1** result in **1** directory</summary>
+
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (1 file)
+
+| File |
+|------|
+| `scripts/bible-red-letter-mark.py` |
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The previous session did not finish implementing the shortcode processing.
+
+Bible shortcodes need expansion into readable text with citations for the OKF notes export. A new `scripts/bible_shortcode.py` module will handle this logic. It will be integrated into `export-okf-bundle.py`. Blog shortcodes appear mostly handled already.
+
+Markdown blockquotes will be used for bible passages instead of HTML. The jesus-words data structure also needs review.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 -c &#34;
+import json
+from pathlib import Path
+for name in [&#39;scripture-nasb1995&#39;,&#39;jesus-words&#39;]:
+    d=json.load(open(f&#39;data/{name}.json&#39;))
+    print(name, list(d.keys())[:5])
+    k=next(iter(d[&#39;verses&#39;]))
+    print(&#39; sample key&#39;, k, d[&#39;verses&#39;][k])
+&#34;</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 -c "
+import json
+from pathlib import Path
+for name in ['scripture-nasb1995','jesus-words']:
+    d=json.load(open(f'data/{name}.json'))
+    print(name, list(d.keys())[:5])
+    k=next(iter(d['verses']))
+    print(' sample key', k, d['verses'][k])
+"
+```
+
+```
+Traceback (most recent call last):
+  File "<string>", line 5, in <module>
+FileNotFoundError: [Errno 2] No such file or directory: 'data/jesus-words.json'
+scripture-nasb1995 ['meta', 'verses']
+ sample key Genesis 1:1 {'nasb1995': {'verse': 'In the beginning God created the heavens and the earth.', 'words': '', 'full': False}}
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/static/exports/okf-blog",
+  "pattern": "\\{\\{\u003c"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/static/exports/okf-blog",
+  "pattern": "\\{\\{\u003c",
+  "topFiles": [
+    {
+      "matchCount": 20,
+      "uri": "static/exports/okf-blog/articles/hugoplate-theme-review.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 20
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "\\{\\{\u003c\\s*slider"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "\\{\\{\u003c\\s*slider",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__blog-template.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The main gap is bible shortcode expansion for Notes OKF. Other shortcodes still need to be identified.
+
+Blog OKF shortcodes are intentionally escaped for theme review examples. The slider shortcode exists only in template drafts, not published blogs. Now searching for jesus-words data locations.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **1** result in **1** directory</summary>
+
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (1 file)
+
+| File |
+|------|
+| `data/jesus-words.yaml` |
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "\\{\\{\u003c\\s*(\\w+)"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "\\{\\{\u003c\\s*(\\w+)",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/faith-and-works.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/love-your-neighbor.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/peacemakers.md"
+    }
+  ],
+  "totalFiles": 3,
+  "totalMatches": 108
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Notes only use the `bible` shortcode.
+
+A Python script will expand bible shortcodes into markdown blockquotes. It will parse verse references and expand ranges from the NASB1995 JSON. Both positional and named attribute syntax will be supported.
+
+Plain text citations will replace HTML blockquotes for OKF agent readability. Emphasized verses will be bolded. The script will run after markdown assembly and before wikilink rewriting. Only bible shortcodes will be added to the notes export.
+
+The bible shortcode will live in its own file rather than being folded into the shared blog shortcode module.
+
+The bible shortcode will live in `scripts/bible_shortcode.py` and expose `expand_bible_shortcodes(text)`. It will be imported by `export-okf-bundle.py`. The jesus-words.yaml structure is being checked to see if it is a better source than the NASB1995 JSON.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/jesus-words.yaml</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/present-a-living-sacrifice.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Implementing the bible_shortcode.
+
+Parsing bible shortcode cases including positional references, labels, comma-separated verse ranges, and cite flags. Emphasized verses will render as bold markdown. Considering percent syntax support.
+
+The output will be a markdown blockquote with a citation. Multi-verse ranges will join with spaces. Data will load from jesus-words.yaml first, then scripture-nasb1995.json. Checking whether PyYAML is available or if standard library YAML is needed.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts",
+  "pattern": "import yaml|yaml\\.safe_load"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts",
+  "pattern": "import yaml|yaml\\.safe_load",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": "scripts/garden-voice-lint.py"
+    },
+    {
+      "matchCount": 2,
+      "uri": "scripts/lint-randomizer.py"
+    },
+    {
+      "matchCount": 2,
+      "uri": "scripts/sync-note-flashcards.py"
+    },
+    {
+      "matchCount": 2,
+      "uri": "scripts/lint-utility-wikilinks.py"
+    },
+    {
+      "matchCount": 2,
+      "uri": "scripts/bible-red-letter-mark.py"
+    },
+    {
+      "matchCount": 2,
+      "uri": "scripts/normalize-notes-format.py"
+    },
+    {
+      "matchCount": 2,
+      "uri": "scripts/lint-notes-frontmatter.py"
+    },
+    {
+      "matchCount": 2,
+      "uri": "scripts/sync-note-relationships.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/blog_frontmatter.py"
+    },
+    {
+      "matchCount": 2,
+      "uri": "scripts/normalize-blog-frontmatter.py"
+    },
+    {
+      "matchCount": 3,
+      "uri": "scripts/slop-lint.py"
+    },
+    {
+      "matchCount": 3,
+      "uri": "scripts/notes-voice-lint.py"
+    }
+  ],
+  "totalFiles": 12,
+  "totalMatches": 25
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/package.json</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+PyYAML appears to be available on the system despite possibly being absent from requirements.txt.
+
+Planning bible_shortcode.py with lazy-loaded JSON and YAML data. Reusing parse_attrs from blog_shortcodes to avoid duplication. Testing how quoted references parse into attributes.
+
+The first quoted string in a shortcode attribute maps to "type". Bible references can appear in "ref", "type", or "id". A regex will match bible shortcodes and extract their attributes. Verse references will be parsed into "Book C:V" keys.
+
+Implementing verse reference expansion in Python to mirror Hugo logic.pansio. Text lookup and output formatting will follow.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Implementing bible shortcode expansion for the notes OKF export — that's the main gap. Blog OKF already handles media shortcodes via `blog_shortcodes.py`.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/bible_shortcode.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/export-okf-bundle.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/export-okf-bundle.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Running the self-check and export now. Verifying that grace.md contains no raw shortcodes.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; PYTHONPATH=scripts python3 scripts/bible_shortcode.py &amp;&amp; PYTHONPATH=scripts python3 scripts/export-okf-bundle.py 2&gt;&amp;1</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && PYTHONPATH=scripts python3 scripts/bible_shortcode.py && PYTHONPATH=scripts python3 scripts/export-okf-bundle.py 2>&1
+```
+
+```
+Traceback (most recent call last):
+  File "/home/jorap/Documents/GitHub/jorap.com/scripts/bible_shortcode.py", line 138, in <module>
+    _self_check()
+  File "/home/jorap/Documents/GitHub/jorap.com/scripts/bible_shortcode.py", line 131, in _self_check
+    assert "**For God so loved the world" in out
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The emphasize shortcode assertion failed. The verse text may not start with "For God" because emphasize wraps the entire verse. Debugging now.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; PYTHONPATH=scripts python3 -c &#34;
+from bible_shortcode import expand_bible_shortcodes
+sample = &#39;{{&lt; bible ref=\&#34;John 3:16\&#34; emphasize=\&#34;16\&#34; &gt;}}&#39;
+print(repr(expand_bible_shortcodes(sample)))
+&#34;</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && PYTHONPATH=scripts python3 -c "
+from bible_shortcode import expand_bible_shortcodes
+sample = '{{< bible ref=\"John 3:16\" emphasize=\"16\" >}}'
+print(repr(expand_bible_shortcodes(sample)))
+"
+```
+
+```
+'> **“For God so loved the world, that He gave His only begotten Son, that whoever believes in Him shall not perish, but have eternal life.** *(John 3:16 NASB1995)*'
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The verse begins with a curly quote, so the assertion should use that character.
+
+Fixing the self-check.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/bible_shortcode.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Rechecking the Romans 12:1 assertion.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; PYTHONPATH=scripts python3 scripts/bible_shortcode.py &amp;&amp; PYTHONPATH=scripts python3 scripts/export-okf-bundle.py 2&gt;&amp;1</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && PYTHONPATH=scripts python3 scripts/bible_shortcode.py && PYTHONPATH=scripts python3 scripts/export-okf-bundle.py 2>&1
+```
+
+```
+bible_shortcode self-check OK
+Wrote OKF bundle to /home/jorap/Documents/GitHub/jorap.com/static/exports/okf (263 concepts, 12 hubs, 2217 graph edges → viz.html)
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Verifying the grace.md export and counting remaining shortcodes in the okf bundle.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/static/exports/okf/concepts/grace.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "outputMode": "count",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/static/exports/okf",
+  "pattern": "\\{\\{\u003c"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "count",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/static/exports/okf",
+  "pattern": "\\{\\{\u003c",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.md",
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/static/exports/okf-blog",
+  "pattern": "\\{\\{\u003c[^/]"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/static/exports/okf-blog",
+  "pattern": "\\{\\{\u003c[^/]",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The emphasize logic is incorrect for John 3:16-18.
+
+Only verse 16 is bold in John 3:16-18. The bolding ends correctly after verse 16. Ephesians 2:1-5 also shows correct bolding. Notes OKF has zero remaining shortcodes. Blog OKF shortcodes were not found.
+
+Notes OKF only contained bible shortcodes. These are now fixed. No other shortcodes appear in notes content.
+
+Blog OKF shortcodes are already handled by blog_shortcodes.py. These include youtube, image, spotify_iframe_track, video, button, gallery, notice, accordion, tab, and toc.
+
+Two shortcodes remain unimplemented but may be needed later. These are slider and non-iframe spotify.
+
+Card, modal, adsense, mermaid, youtube-lite, and vimeo-lite are not used in published content. They are either notes layout shortcodes or theme demos. Now verifying no unprocessed shortcodes remain in the blog export.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/static/exports/okf-blog",
+  "pattern": "\\{\\{\u003c"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/static/exports/okf-blog",
+  "pattern": "\\{\\{\u003c",
+  "topFiles": [
+    {
+      "matchCount": 20,
+      "uri": "static/exports/okf-blog/articles/hugoplate-theme-review.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 20
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "\\{\\{\u003c\\s*(slider|spotify[^_]|card|modal|mermaid|vimeo|youtube-lite)"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "\\{\\{\u003c\\s*(slider|spotify[^_]|card|modal|mermaid|vimeo|youtube-lite)",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__blog-template.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The remaining `{{<` instances in the OKF blog are intentional documentation examples in code fences within the hugoplate-theme-review post. They are not broken shortcodes.
+
+Fixed notes OKF shortcodes now expand to blockquotes with verse text and NASB1995 citations. Blog OKF media shortcodes were already handled. An inventory of other required shortcodes is being compiled.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Here’s the state of OKF shortcode handling and what I fixed.
+
+## What was broken
+
+The **notes bundle** (`/exports/okf/`) was passing through raw Hugo shortcodes. About 90 faith notes use `{{< bible ...>}}` in `key_concept`, so agents saw syntax like `{{< bible ref="John 3:16-18" >}}` instead of the verse text.
+
+The **blog bundle** (`/exports/okf-blog/`) already converts shortcodes via `scripts/blog_shortcodes.py`.
+
+## What I shipped
+
+Added `scripts/bible_shortcode.py` and wired it into `export-okf-bundle.py`. Bible shortcodes now expand to blockquotes with NASB1995 text and citation:
+
+```13:13:static/exports/okf/concepts/grace.md
+> **"For God so loved the world, that He gave His only begotten Son, that whoever believes in Him shall not perish, but have eternal life.** For God did not send the Son into the world to judge the world, but that the world might be saved through Him. He who believes in Him is not judged; he who does not believe has been judged already, because he has not believed in the name of the only begotten Son of God. *(John 3:16-18 NASB1995)*
+```
+
+After re-export: **0 raw shortcodes** left in the notes bundle.
+
+## Shortcode inventory by bundle
+
+| Shortcode | Notes OKF | Blog OKF | Status |
+|-----------|-----------|----------|--------|
+| `bible` | ~90 notes | not used | **Fixed** (notes) |
+| `youtube` / `youtube_time` | — | many posts | Already handled |
+| `image` | — | several posts | Already handled |
+| `spotify_iframe_track` / `spotify_iframe_artist` | — | dnpap, hugoplate review | Already handled |
+| `notice`, `button`, `accordion`, `tab`/`tabs`, `toc` | — | hugoplate review only | Already handled |
+| `gallery`, `video` | — | hugoplate review only | Already handled |
+| `slider` | — | draft template only | Not needed yet |
+| `card`, `modal`, `adsense`, `mermaid` | — | theme demos only | Not in published content |
+
+The only `{{<` left in the blog bundle are **escaped examples** in `hugoplate-theme-review.md` (`{{</* notice */>}}` inside code fences) — those are intentional syntax samples, not broken output.
+
+Regenerate anytime with `pnpm export:okf` (notes) or `pnpm export:okf-blog` (blog).
+
+## Session close
+- Fixed: Notes OKF export now expands `bible` shortcodes to readable blockquotes with NASB1995 text.
+- Encode: none
+- Open: clean — blog shortcodes already covered; `slider` only exists in draft template if you ever publish it

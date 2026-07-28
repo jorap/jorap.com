@@ -9,7 +9,7 @@ key_concept: |
   - Level 3: One breath buys room to weigh consequences instead of reacting on autopilot when the room is loud.
   - Level 4: Pause one breath before you answer when voices stack up - judgment beats reflex in that gap.
   - Level 5: The pause is not paralysis - [[Composure]] names the calm; slow the moment to choose well, not to dodge hard calls that still need an answer.
-  - Before you react, buy enough mental space to understand what's happening, weigh consequences, and choose on purpose - not on adrenaline.
+  - Before you react, buy enough mental space to understand what is happening, weigh consequences, and choose on purpose - not on adrenaline.
   - I slow down one breath before I answer.
   - One deliberate breath buys room for a better second move.
 examples:

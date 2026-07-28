@@ -30,7 +30,7 @@ JoRap Notes runs on Hugo + GitHub + Cloudflare Pages. I push a post at lunch; it
 
 I'd been on shared PHP hosting for years. Modest monthly bill, split with a client. Client left, I kept paying for what was basically a personal blog. Then the host died and took a chunk of my work with it.
 
-I'd heard about static sites forever. Losing hosting was the shove. Weekend of fumbling, Hugo won, [I wrote the longer migration story](/blog/how-i-built-jorap-notes/) when the dust settled.
+I'd heard about static sites forever. Losing hosting was the shove. Weekend of fumbling, Hugo won. I almost picked a Node-based generator because the tutorial looked friendlier. Hugo's install was one binary and a version number to pin - boring on purpose. [I wrote the longer migration story](/blog/how-i-built-jorap-notes/) when the dust settled.
 
 The surprise wasn't speed - though pages feel instant. It was **boring infrastructure.** Nothing to patch mid-week except my own typos.
 
@@ -42,13 +42,15 @@ Hugo builds thousands of pages in seconds on my laptop. Served pages are plain f
 
 For a text-heavy personal site, that trade is easy: give up the admin panel, gain sleep.
 
+The first client I quoted on Hugo asked where the login was. There isn't one unless we add a git CMS on purpose. That conversation - saying no to WordPress for a sermon archive - is still the clearest "Hugo fits" test I run.
+
 ---
 
 ## When the posts are in Git, you're holding the deed
 
 Every post is a Markdown file. Diffable. Revertible. Movable to another host by pointing DNS and pushing the same repo.
 
-When a platform owns your posts, you're renting. When they're in Git, you're holding the deed. I learned that lesson the expensive way once.
+When a platform owns your posts, you're renting. When they're in Git, you're holding the deed. I learned that lesson the expensive way once - and I still forget to push sometimes, which is a different kind of lesson.
 
 ---
 
@@ -56,7 +58,7 @@ When a platform owns your posts, you're renting. When they're in Git, you're hol
 
 [Hugoplate](/blog/hugoplate-theme-review/) handles layout; `content/` is mine. Theme updates merge upstream; posts stay put.
 
-"Mostly" because I live inside the theme for Tailwind tweaks and custom partials. It's not a black box you never touch. It's a starter you fork and own.
+"Mostly" because I live inside the theme for Tailwind tweaks and custom partials. It's not a black box you never touch. It's a starter you fork and own. I lost a weekend once fighting a CSS change that upstream had already fixed - reminder to sync before reinventing.
 
 ---
 

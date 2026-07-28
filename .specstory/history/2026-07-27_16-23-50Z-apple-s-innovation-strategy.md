@@ -2347,5 +2347,190 @@ A full jorap-voice pass is requested.
 
 The 4509-word post repeats "strategically late," "Same playbook," and "scheduling" themes heavily. Every product gets a parallel "X didn't Y. They Z" credit. The iPod touch and OLED sections should merge into broader categories. The closing recap duplicates earlier material.
 
-The description should be more personal and first-person. Stiff
+The description should be more personal and first-person. Stiff phrases like "Criticizing Apple's timing is easy" need roughening. One Philippines touch—such as Shopee—could be added naturally. Heading variety is acceptable.
+
+The frontmatter description will shift to first person, casting Apple’s real skill as scheduling rather than inventing the future. The closing list paragraph will be trimmed to remove its summary-sandwich effect.
+
+The credit section will be rewritten to vary structure and combine items. The "Both lists point" summary will shrink to three or four bullets without restating product names. A duplicate line about segmentation will be removed. Competitor risk-absorption may merge with the pattern section. Pass two will tighten the closing personal note and cut redundant phrasing.
+
+A full rewrite would be too large. The plan shifts to surgical voice polish without major restructuring. The credit section remains the top target for removing its AI-tell parallelism.
+
+The credit section will become two or three prose paragraphs with named products woven in. The opening is already solid. The closing list will be tightened and land harder. The "Both lists" summary will drop product re-lists and keep only the rules. The line about "None of these erase..." is fine to keep. Apple Intelligence's "I'm not asking for AI" is a good human touch. The merged content is now being drafted.
+
+The credit section draft now opens with a few genuine innovations that shifted the industry. The iPhone touch UI of 2007 was the headline. Competitors copied the interaction model rather than the glass phone itself. The App Store of 2008 turned mobile apps into a business. The iTunes and iPod playbook of rip, sync, buy, and repeat was already proven. The iPad of 2010 made tablets make sense by refusing to be a pen PC. The 11th-gen iPad today is the downstream tier story. It is a great reader. It is locked out of Apple Intelligence while Pros get the platform pitch.
+
+The credit section draft now adds M1 as a genuine silicon bet. It notes the first Apple-silicon Macs were not rebranded phone chips. AirPods normalized wireless earbuds. Continuity succeeds because one account owns the radios, not because Apple invented Bluetooth file sharing. Face ID, Watch ECG and fall detection, and built-in accessibility like VoiceOver are the quieter wins that still set the bar. The closing line frames messy ideas, finished feel, and locked-in stacks as the other half of the company.
+
+The iPod touch will be folded into the iPhone section as a brief note about platform reuse. The OLED section will merge into a single heading covering OLED, wireless charging, and 5G. The "Both lists" summary will be replaced by a sharper rule: rush when control is on the line, wait when rivals can test the parts, and tier features so Pro ships first and base follows.
+
+The closing draft now names the skill honestly. It separates Apple’s real achievements from the myth that the company always invents the future. Most keynote “firsts” are actually first for last year’s iPhone owner. The download loop pivoted to streaming late.
+
+The closing now stresses execution and scheduling over pure invention. Apple studies the future while others bleed, ships on its tier map, and presents releases as if everyone else was merely early. The Vision Pro is kept out of reach for the budget tier. The description draft opens with watching keynotes on a Mac.
+
+The description draft now closes with the line that Apple waits until the future is safe, packages it better, and sells the release like the revolution started that Tuesday. Lint checks will follow.
 </details></think>
+
+_**Agent (auto-low)**_
+
+Running the full jorap-voice pass: trimming repetition, breaking parallel credit-section structure, and tightening the close.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__apple-strategically-late.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+The string to replace was not found in the file.
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__apple-strategically-late.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__apple-strategically-late.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__apple-strategically-late.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__apple-strategically-late.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__apple-strategically-late.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__apple-strategically-late.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__apple-strategically-late.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The iPod touch merge needs fixing. The first replacement failed, likely because the iPod touch section still exists or the iPhone section structure differs.
+
+Reading the file around the iPhone section.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__apple-strategically-late.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Merging the iPod touch section into the iPhone entry. Reordering chronologically or appending it to the end.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__apple-strategically-late.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__apple-strategically-late.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm slop:score content/english/blog/__apple-strategically-late.md &amp;&amp; pnpm lint:blog content/english/blog/__apple-strategically-late.md &amp;&amp; pnpm lint:voice content/english/blog/__apple-strategically-late.md &amp;&amp; pnpm lint:slop content/english/blog/__apple-strategically-late.md</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && pnpm slop:score content/english/blog/__apple-strategically-late.md && pnpm lint:blog content/english/blog/__apple-strategically-late.md && pnpm lint:voice content/english/blog/__apple-strategically-late.md && pnpm lint:slop content/english/blog/__apple-strategically-late.md
+```
+
+```
+$ python3 scripts/voice-lint.py score content/english/blog/__apple-strategically-late.md
+__apple-strategically-late.md            words=3688 total= 29 per100w=  0.79
+$ python3 scripts/normalize-blog-frontmatter.py --verify && python3 scripts/voice-lint.py slop --check --blog-only content/english/blog/__apple-strategically-late.md
+Blog frontmatter OK
+Slop lint OK
+$ python3 scripts/voice-lint.py dashes --check && python3 scripts/voice-lint.py site --check content/english/blog/__apple-strategically-late.md
+Voice dash lint OK
+Voice lint OK
+$ python3 scripts/voice-lint.py slop --check content/english/blog/__apple-strategically-late.md
+Slop lint OK
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Results improved. Slop fell from 0.95 to 0.79. Word count dropped from 4509 to 3688.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Full **jorap-voice** pass done. Summary:
+
+### What changed
+- **Description** — first person, matches the opener
+- **Trimmed ~800 words** — merged iPod touch into iPhone, folded OLED into the specs section, cut the duplicate failure recap
+- **Credit section** — broke the nine parallel `**Product:**` blocks into prose with varied rhythm
+- **Closing** — dropped the summary sandwich list; lands on schedule-as-product + your iPad/Neo thread
+- **Roughened** — "participation trophies," "Green bubbles aren't physics," shorter Neo beat, tighter Apple Intelligence line
+- **Plain words** — "architectural/foundational" → "integration/invention"
+
+### Scores
+| | Before | After |
+|--|--------|-------|
+| Words | 4,509 | 3,688 |
+| Slop per100w | 0.95 | **0.79** |
+| Lints | clean | clean |
+
+### Voice check (pass)
+- Opens with your gear + keynotes
+- `I`/`my` throughout; Philippines-adjacent via Mi Box, Messenger, Meet
+- Honest friction in every major H2
+- No `## Bottom line`, no em dashes, no currency
+- Likability: useful thesis, honest failures, human specifics, not preachy
+
+Still **draft** — `image-template.jpg` needs a real hero before publish.
+
+## Session close
+- Fixed: Full jorap-voice polish — tighter, less parallel, slop 0.79, ~3,700 words.
+- Encode: none
+- Open: hero image still `image-template.jpg`

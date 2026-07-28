@@ -2174,4 +2174,191 @@ _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
 The flashcard on the sunk cost fallacy about board games boring an hour fits well.
+
+Related note counts vary by post. digital-minimalism and signal-vs-noise are kept. attention-economy and minimum-effective-dose are added.
+
+The final list is capped at four or five notes. practice-small-experiments is too weak for this post. preparedness is a weaker alternative to signal-vs-noise.
+
+information-diet is redundant with signal-vs-noise. The final four notes are attention-economy, digital-minimalism, minimum-effective-dose, and sunk-cost-fallacy.
+
+Signal-vs-noise may stay as the fifth note. The frontmatter review is complete. The title, meta_title, description, slug, and date all look correct. The image file is still missing from the repository.
+
+Categories and featured status are fine. The tag list is long and contains redundancy, such as repeated references to Board Games, Tabletop, and Hobby Games. Removing duplicates would help, but the user did not ask to trim tags. I will now update the related_notes field.
+
+Signal-vs-noise is dropped to avoid cluster bloat. Minimum-effective-dose is added as the unique board-games-specific link. The final related_notes list is now fixed.
+
+Signal-vs-noise is restored to the related notes list for parity with the sister article. The total is five notes, which may exceed the comfortable maximum. I am checking whether a lint enforces a limit on related_notes count.
 </details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts",
+  "pattern": "related_notes"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts",
+  "pattern": "related_notes",
+  "topFiles": [
+    {
+      "matchCount": 5,
+      "uri": "scripts/blog_frontmatter.py"
+    },
+    {
+      "matchCount": 4,
+      "uri": "scripts/export-okf-blog-bundle.py"
+    }
+  ],
+  "totalFiles": 2,
+  "totalMatches": 9
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/analog-capture-tools.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Analog-capture-tools is too narrow for board games. Attention-economy and digital-minimalism already cover the table-versus-screen distinction.
+
+The frontmatter review adds minimum-effective-dose for the 30-minute streamlined angle. Attention-economy is critical for the Marvel Snap section. Digital-minimalism and sunk-cost-fallacy remain. Signal-vs-noise may be dropped to keep four shared notes.
+
+Signal-vs-noise is dropped to keep four shared notes. Sunk-cost-fallacy is kept for board-game examples like chess study and Monopoly. Tag bloat will be flagged as an optional trim. The related_notes field will be updated directly.
+
+The description will only receive a minor suggestion in the review, not an unexplained edit. Minimum-effective-dose is confirmed as a strong signal because it links to the hanamikoji blog, which is board-game adjacent.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Reviewing frontmatter and updating `related_notes` with the strongest matches.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-love-modern-board-games.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm lint:blog 2&gt;&amp;1</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:blog 2>&1
+```
+
+```
+$ python3 scripts/normalize-blog-frontmatter.py --verify && python3 scripts/voice-lint.py slop --check --blog-only
+Blog frontmatter OK
+Slop lint OK
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Checking that related note slugs exist.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **1** result in **1** directory</summary>
+
+Directory: **`/home/jorap/Documents/GitHub/jorap.com/content/english/notes`** (1 file)
+
+| File |
+|------|
+| `attention-economy.md` |
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **1** result in **1** directory</summary>
+
+Directory: **`/home/jorap/Documents/GitHub/jorap.com/content/english/notes`** (1 file)
+
+| File |
+|------|
+| `minimum-effective-dose.md` |
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The frontmatter review is complete.
+</details></think>
+
+_**Agent (auto-low)**_
+
+# Frontmatter review
+
+| Field | Status | Notes |
+|-------|--------|-------|
+| `title` | Good | Clear, first-person angle |
+| `meta_title` | Good | Specific hook (toy-store aisle) |
+| `description` | Good | Concrete failures + home/travel split; sounds like you |
+| `slug` | Good | Matches filename |
+| `date` | Good | |
+| `image` | **Check** | `/images/modern_board_gaming.jpg` — not in repo workspace; confirm before deploy |
+| `categories` | Good | `Games`, `Opinion` |
+| `tags` | Heavy | 22 tags; lots of game titles (fine for search). `Opinion` duplicates category — optional trim |
+| `related_notes` | **Updated** | See below |
+| `featured` | Good | `false` |
+| `draft` | Good | `false` |
+
+Field order passes `pnpm lint:blog`.
+
+---
+
+# Related notes
+
+Updated to match what the post actually argues:
+
+| Note | Why it fits |
+|------|-------------|
+| **[attention-economy](/notes/attention-economy/)** | Marvel Snap, no daily login, games that wait in the box — platforms vs your attention |
+| **[digital-minimalism](/notes/digital-minimalism/)** | Smallest setup that works; cardboard over phone homework |
+| **[minimum-effective-dose](/notes/minimum-effective-dose/)** | 30-minute rule, streamlined versions, curated travel pouch — enough game, not more |
+| **[sunk-cost-fallacy](/notes/sunk-cost-fallacy/)** | Unfinished Monopoly, chess study that did not pay off; note even has a board-game flashcard |
+
+**Dropped `signal-vs-noise`** — weaker tie than `attention-economy` for the Marvel Snap / meta-list angle. Sister post [why-i-stopped-playing-marvel-snap](/blog/why-i-stopped-playing-marvel-snap/) still links it if readers want that cluster.
+
+**Considered but skipped:**
+- `information-diet` — overlaps attention-economy + signal-vs-noise
+- `preparedness` — travel bag is curation, not emergency prep
+- `habit-formation` — Davis/Strike thread is too thin for a note link
+- `analog-capture-tools` — table vs screen is not really a capture workflow post
+
+---
+
+`related_notes` is updated in the file. Say if you want tags trimmed or the hero image path changed.
+
+## Session close
+- Fixed: Reviewed frontmatter; set related_notes to attention-economy, digital-minimalism, minimum-effective-dose, sunk-cost-fallacy
+- Encode: none
+- Open: hero image `modern_board_gaming.jpg` still unverified in repo

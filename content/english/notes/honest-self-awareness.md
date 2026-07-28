@@ -36,7 +36,7 @@ relationships:
     reason: "Real limits pick the smallest change that still works"
   - type: extends
     wikilink: "[[Name the Feeling]]"
-    reason: "Label what's true before you inventory strengths and gaps"
+    reason: "Label what is true before you inventory strengths and gaps"
   - type: implements
     wikilink: "[[Systems for Growth]]"
     reason: "Mindset lever the growth hub installs before loops run"

@@ -35,7 +35,7 @@ relationships:
     reason: "Make peace by hearing before prescribing"
   - type: extends
     wikilink: "[[Name the Feeling]]"
-    reason: "Truth in love often starts with naming what's carried"
+    reason: "Truth in love often starts with naming what is carried"
   - type: extends
     wikilink: "[[Peace]]"
     reason: "Peacemakers is the active echo for gospel peace"

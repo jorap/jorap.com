@@ -11,7 +11,7 @@ key_concept: |
   - Level 4: Deal with your plank first; leave final soul-judgment to God instead of nitpicking their speck.
   - Level 5: [[Heart Righteousness]] keeps the standard inward; [[By Their Fruits]] reads evidence without replacing God's seat.
   {{< bible ref="Matthew 7:16-20" emphasize="20" >}}
-  - Still judge fruit - outcomes over time tell you what's underneath the hype.
+  - Still judge fruit - outcomes over time tell you what is underneath the hype.
   - Jesus forbids harsh, hypocritical condemnation - the kind that ignores my own guilt while magnifying yours.
   - He does not forbid all moral discernment: the same sermon names fruit too.
   - Garden parallel: the [Issues](/notes/issues/) page lists broken wikilinks to fix - diagnose the graph, do not condemn the author.

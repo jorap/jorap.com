@@ -5147,3 +5147,512 @@ I need to find and fix passive voice warnings in seven draft files.
 
 Running a script to locate the exact passive sentences in each file.
 </details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 - &lt;&lt;&#39;PY&#39;
+import re, importlib.util
+from pathlib import Path
+spec = importlib.util.spec_from_file_location(&#39;ss&#39;, Path(&#39;scripts/slop-score.py&#39;))
+ss = importlib.util.module_from_spec(spec); spec.loader.exec_module(ss)
+FM = re.compile(r&#39;^---\s*\n(.*?)\n---&#39;, re.DOTALL)
+BE = r&#34;(?:am|is|are|was|were|be|been|being)&#34;
+PP = &#34;done|made|sent|read|built|kept|held|set|put|run|written|shown|given|taken|found|got|gotten|seen|known|thrown|drawn&#34;
+pat = re.compile(rf&#34;\b({BE})\s+(\w+ed|{PP})\b&#34;, re.I)
+files = [
+&#39;__interesting-facts-about-jorap.md&#39;,&#39;__jobs-to-be-done-framework.md&#39;,&#39;__mi-box-s.md&#39;,
+&#39;__password-managers.md&#39;,&#39;__why-brave-browser.md&#39;,&#39;__why-git-greatest-open-source-innovation.md&#39;,&#39;__worcestershire-sauce.md&#39;]
+for name in files:
+    p = Path(&#39;content/english/blog&#39;)/name
+    body = p.read_text(); body = body[FM.match(body).end():]
+    cleaned = ss.PASSIVE_SKIP.sub(&#39; &#39;, body)
+    hits = pat.findall(cleaned)
+    if len(hits) &lt; 2: print(name, &#39;SKIP&#39;, len(hits)); continue
+    print(f&#39;\n=== {name} ({len(hits)}) ===&#39;)
+    for sent in re.split(r&#39;(?&lt;=[.!?])\s+&#39;, body):
+        sc = ss.PASSIVE_SKIP.sub(&#39; &#39;, sent)
+        if len(pat.findall(sc)) &gt;= 1:
+            print(&#39; &#39;, sent.strip()[:140])
+PY</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 - <<'PY'
+import re, importlib.util
+from pathlib import Path
+spec = importlib.util.spec_from_file_location('ss', Path('scripts/slop-score.py'))
+ss = importlib.util.module_from_spec(spec); spec.loader.exec_module(ss)
+FM = re.compile(r'^---\s*\n(.*?)\n---', re.DOTALL)
+BE = r"(?:am|is|are|was|were|be|been|being)"
+PP = "done|made|sent|read|built|kept|held|set|put|run|written|shown|given|taken|found|got|gotten|seen|known|thrown|drawn"
+pat = re.compile(rf"\b({BE})\s+(\w+ed|{PP})\b", re.I)
+files = [
+'__interesting-facts-about-jorap.md','__jobs-to-be-done-framework.md','__mi-box-s.md',
+'__password-managers.md','__why-brave-browser.md','__why-git-greatest-open-source-innovation.md','__worcestershire-sauce.md']
+for name in files:
+    p = Path('content/english/blog')/name
+    body = p.read_text(); body = body[FM.match(body).end():]
+    cleaned = ss.PASSIVE_SKIP.sub(' ', body)
+    hits = pat.findall(cleaned)
+    if len(hits) < 2: print(name, 'SKIP', len(hits)); continue
+    print(f'\n=== {name} ({len(hits)}) ===')
+    for sent in re.split(r'(?<=[.!?])\s+', body):
+        sc = ss.PASSIVE_SKIP.sub(' ', sent)
+        if len(pat.findall(sc)) >= 1:
+            print(' ', sent.strip()[:140])
+PY
+```
+
+```
+Traceback (most recent call last):
+  File "<stdin>", line 4, in <module>
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/jorap/Documents/GitHub/jorap.com/scripts/slop-score.py", line 17, in <module>
+    from notes_content import note_prose_text, split_frontmatter
+ModuleNotFoundError: No module named 'notes_content'
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Checking whether slop-score.py was modified.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/slop-score.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+slop-score.py was modified to include a notes_content import.
+
+I'll grep the seven draft files for passive voice patterns.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "__{interesting-facts,jobs-to-be-done,mi-box-s,password-managers,why-brave-browser,why-git-greatest,worcestershire}*",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "\\b(was|were|is|are|been|be) \\w+ed\\b"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "\\b(was|were|is|are|been|be) \\w+ed\\b",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": "content/english/blog/__why-brave-browser.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__why-git-greatest-open-source-innovation.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/blog/__interesting-facts-about-jorap.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__jobs-to-be-done-framework.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/blog/__worcestershire-sauce.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/blog/__password-managers.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/blog/__mi-box-s.md"
+    }
+  ],
+  "totalFiles": 7,
+  "totalMatches": 12
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/slop-score.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Most draft passive warnings are false positives, similar to published ones.
+
+Several draft warnings are false positives: "hadn't been updated", "been logged", "was trapped", and stative phrases like "is tuned". Extending PASSIVE_SKIP with these idiomatic patterns would suppress them.
+
+Surgical edits look cleaner than skip-pattern extensions. One draft needs "were" changed to "looked" and "hadn't been updated" replaced with "stopped updating in 2019". Another needs "was trapped" rewritten. The rest are stative adjectives to skip.
+
+__password-managers needs "encrypts before it leaves" instead of "is encrypted". __mi-box-s needs "hadn't been updated" fixed and "was hired" rewritten. Extending PASSIVE_SKIP with `hadn't been`, `haven't been`, `been logged`, `was trapped`, `is tuned`, `is hired`, and `is encrypted` is the cleanest fix. The "engineer is excited" warning matches the `is \w+ed` pattern.
+
+The `is \w+ed` skip pattern is too broad. `is excited` is added to PASSIVE_SKIP as a stative adjective. `were philosophically pure` is fixed in text. `slop-lint` failed with a ModuleNotFoundError for `notes_content`. The CLI may be broken when run from the wrong directory.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **1** result in **1** directory</summary>
+
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (1 file)
+
+| File |
+|------|
+| `scripts/notes_content.py` |
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com/scripts &amp;&amp; python3 slop-score.py --self-check 2&gt;&amp;1</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com/scripts && python3 slop-score.py --self-check 2>&1
+```
+
+```
+slop-score self-check OK
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Fixing draft passive warnings with surgical edits. Expanding PASSIVE_SKIP to cover common false positives in drafts.
+
+Draft edits target specific false positives: replacing "were philosophically pure" with active phrasing, and "hadn't been updated" with "stopped getting updates." "Is tuned," "is excited," and "is balanced" are adjectives, not passive verbs, so they will be skipped.
+
+__password-managers: "is encrypted" becomes "encrypts before it leaves." __mi-box-s: "hadn't been updated" uses the same fix, and "was hired" becomes "I bought it to do exactly that." Running passive counts per draft type from the scripts directory.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com/scripts &amp;&amp; python3 - &lt;&lt;&#39;PY&#39;
+import re, importlib.util
+from pathlib import Path
+spec = importlib.util.spec_from_file_location(&#39;ss&#39;, Path(&#39;slop-score.py&#39;))
+ss = importlib.util.module_from_spec(spec); spec.loader.exec_module(ss)
+FM = re.compile(r&#39;^---\s*\n(.*?)\n---&#39;, re.DOTALL)
+BE = r&#34;(?:am|is|are|was|were|be|been|being)&#34;
+PP = &#34;done|made|sent|read|built|kept|held|set|put|run|written|shown|given|taken|found|got|gotten|seen|known|thrown|drawn&#34;
+pat = re.compile(rf&#34;\b({BE})\s+(\w+ed|{PP})\b&#34;, re.I)
+root = Path(&#39;..&#39;)/&#39;content/english/blog&#39;
+for name in sorted(root.glob(&#39;__*.md&#39;)):
+    body = name.read_text(); body = body[FM.match(body).end():]
+    cleaned = ss.PASSIVE_SKIP.sub(&#39; &#39;, body)
+    hits = pat.findall(cleaned)
+    if len(hits) &gt;= 2:
+        print(f&#39;\n=== {name.name} ({len(hits)}) {hits} ===&#39;)
+        for sent in re.split(r&#39;(?&lt;=[.!?])\s+&#39;, body):
+            sc = ss.PASSIVE_SKIP.sub(&#39; &#39;, sent)
+            m = pat.findall(sc)
+            if m: print(&#39; &#39;, m, sent.strip()[:120])
+PY</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com/scripts && python3 - <<'PY'
+import re, importlib.util
+from pathlib import Path
+spec = importlib.util.spec_from_file_location('ss', Path('slop-score.py'))
+ss = importlib.util.module_from_spec(spec); spec.loader.exec_module(ss)
+FM = re.compile(r'^---\s*\n(.*?)\n---', re.DOTALL)
+BE = r"(?:am|is|are|was|were|be|been|being)"
+PP = "done|made|sent|read|built|kept|held|set|put|run|written|shown|given|taken|found|got|gotten|seen|known|thrown|drawn"
+pat = re.compile(rf"\b({BE})\s+(\w+ed|{PP})\b", re.I)
+root = Path('..')/'content/english/blog'
+for name in sorted(root.glob('__*.md')):
+    body = name.read_text(); body = body[FM.match(body).end():]
+    cleaned = ss.PASSIVE_SKIP.sub(' ', body)
+    hits = pat.findall(cleaned)
+    if len(hits) >= 2:
+        print(f'\n=== {name.name} ({len(hits)}) {hits} ===')
+        for sent in re.split(r'(?<=[.!?])\s+', body):
+            sc = ss.PASSIVE_SKIP.sub(' ', sent)
+            m = pat.findall(sc)
+            if m: print(' ', m, sent.strip()[:120])
+PY
+```
+
+```
+
+=== __interesting-facts-about-jorap.md (2) [('are', 'marked'), ('is', 'tuned')] ===
+  [('are', 'marked')] Draft posts are marked *(draft)*.
+  [('is', 'tuned')] | [Set It and Forget It Arroz Caldo](/blog/set-it-forget-it-arroz-caldo/), [Instant Pot Arroz Caldo](/blog/instant-pot-a
+
+=== __jobs-to-be-done-framework.md (2) [('is', 'excited'), ('Be', 'Done')] ===
+  [('is', 'excited')] I've watched teams add features because the competitor has them, because an engineer is excited, or because a persona de
+  [('Be', 'Done')] **Jobs to Be Done (JTBD)** flips the question: what progress is the customer trying to make, in what situation, and what
+
+=== __mi-box-s.md (2) [('been', 'updated'), ('was', 'hired')] ===
+  [('been', 'updated')] For a while our TV was "smart" in name only - slow menus, apps that hadn't been updated since whoever manufactured it lo
+  [('was', 'hired')] For our living room, that's exactly the job it was hired to do.
+
+=== __password-managers.md (2) [('is', 'polished'), ('is', 'encrypted')] ===
+  [('is', 'polished')] Bitwarden won on **low friction for the whole house.**
+
+1Password is polished if you're already paying for polish.
+  [('is', 'encrypted')] ---
+
+## "What if Bitwarden gets hacked?"
+
+The vault is encrypted before it leaves your machine.
+
+=== __why-brave-browser.md (2) [('been', 'updated'), ('been', 'logged')] ===
+  [('been', 'updated')] Extensions I relied on that didn't exist or hadn't been updated since 2019.
+  [('been', 'logged')] It's not as invisible as Chrome sync after you've been logged into Google for a decade.
+
+=== __why-git-greatest-open-source-innovation.md (2) [('was', 'built'), ('was', 'trapped')] ===
+  [('was', 'built')] ---
+
+## It was built for a fight Linux was already winning
+
+Git didn't arrive as a friendly onboarding tool.
+  [('was', 'trapped')] I taught seminars where students could install the same stack I used because nothing was trapped behind a license server
+
+=== __worcestershire-sauce.md (2) [('is', 'balanced'), ('is',
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Many warnings are false positives. One example is "are marked" in the draft table.
+
+Other false positives include "is tuned", "is excited", "Be Done", and "was trapped". The plan is to tune PASSIVE_SKIP to exclude these phrases, particularly "Be Done" so it does not match headings.
+
+Adding many skip patterns would be unwieldy. Raising the threshold or tightening the regex to ignore adjective complements like "is polished" and "is concentrated" is a cleaner alternative.
+
+The regex catches predicate adjectives like "excited" and "polished". The practical fix is to expand PASSIVE_SKIP with the false-positive phrases. Real passives such as "was trapped" and "is encrypted" will still be caught. The JTBD heading will skip "to be done". "Are marked" can be rephrased or skipped.
+
+The skip list now includes "hadn't been updated", "been logged into", "was hired to", "was trapped behind", and "is encrypted before". Skipping "was trapped behind" would hide the real passive; the prose should instead read "nothing sat behind a license server". "Is encrypted before" should become "encrypts before it leaves your machine".
+
+The __why-git heading "It was built for a fight" is a genuine passive that should stay. Two prose lines will be rewritten in active voice: "nothing was trapped behind a license server" becomes "students could install the same stack I used without a license server", and "The vault is encrypted before it leaves your machine" becomes "The vault encrypts before it leaves your machine".
+
+A new `git-commits.mdc` rule will be created with `alwaysApply: true`. It will block automatic commits entirely. This applies to session close and resume actions. The `.specstory` directory will remain uncommitted unless the user explicitly requests it.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Tuning passive-voice false positives, applying a few draft prose fixes, and adding a no-auto-commit rule — no commit this turn.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/slop-score.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "Draft posts are marked|was trapped|is encrypted before|hadn't been updated since 2019"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "Draft posts are marked|was trapped|is encrypted before|hadn't been updated since 2019",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__why-brave-browser.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__why-git-greatest-open-source-innovation.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__interesting-facts-about-jorap.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__password-managers.md"
+    }
+  ],
+  "totalFiles": 4,
+  "totalMatches": 4
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Fixing prose lines, interesting facts, and the brave browser extension line.
+
+Adding a `.cursor/rules/git-commits.mdc` rule to prevent automatic commits and pushes unless explicitly requested. Will run a slop scan after applying the fixes.
+
+Changes will be batched after edits. Committing and pushing will follow the explicit protocol. `.specstory/` stays uncommitted as local tooling. The jorap-voice skill already forbids commits.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__interesting-facts-about-jorap.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__why-brave-browser.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__why-git-greatest-open-source-innovation.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__password-managers.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__mi-box-s.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__mi-box-s.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/rules/git-commits.mdc</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/slop-score.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Checking `__jobs-to-be-done` and `__worcestershire` for skip patterns. These items should clear because they are balanced or concentrated.
+
+Checking the `__why-git` heading "was built" for remaining passive voice. Running slop scanstill 1.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com/scripts &amp;&amp; python3 slop-score.py --self-check &amp;&amp; cd .. &amp;&amp; python3 scripts/slop-lint.py --summary --blog-only 2&gt;&amp;1 &amp;&amp; pnpm lint:blog 2&gt;&amp;1 | tail -3</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com/scripts && python3 slop-score.py --self-check && cd .. && python3 scripts/slop-lint.py --summary --blog-only 2>&1 && pnpm lint:blog 2>&1 | tail -3
+```
+
+```
+slop-score self-check OK
+Slop scan - 65 blog, 0 notes, 0 fail, 0 warn
+Rules: data/slop-rules.yaml
+
+No slop flags.
+$ python3 scripts/normalize-blog-frontmatter.py --verify && python3 scripts/voice-lint.py slop --check --blog-only
+Blog frontmatter OK
+Slop lint OK
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+All blogs passed with zero warnings. Nothing was committed, per the user's request.
+
+Added a `git-commits.mdc` rule to prevent automatic commits. Updated the self-improvement encode line.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Done. No commit — per your new rule.
+
+### Draft passive-voice warns: **0** (was 7)
+
+**Prose fixes** on 5 drafts:
+- `__interesting-facts-about-jorap.md` — "show *(draft)* in the list"
+- `__why-brave-browser.md` — "stopped getting updates in 2019"
+- `__why-git-greatest-open-source-innovation.md` — dropped "was trapped behind"
+- `__password-managers.md` — "The vault encrypts before…"
+- `__mi-box-s.md` — manufacturer stopped updating; "the job I bought it to do"
+
+**`__jobs-to-be-done-framework`** and **`__worcestershire-sauce`** cleared via skip tuning (JTBD heading, predicate adjectives).
+
+**Full blog slop scan:** `0 fail, 0 warn` across 65 posts.
+
+### Rule added: `.cursor/rules/git-commits.mdc`
+
+`alwaysApply: true` — no commit/push unless you explicitly ask that turn. Covers resume, session close, and "ship it" without the word commit. `.specstory/` stays uncommitted unless you ask.
+
+### `.specstory/`
+
+Still uncommitted — intentional.
+
+---
+
+Uncommitted changes ready when you want them: draft passive fixes, `slop-score.py` skip tuning, `git-commits.mdc`. Say **commit** (and optionally **push**) when ready.
+
+## Session close
+- Fixed: 7 draft passive warns cleared; `git-commits.mdc` no-auto-commit rule
+- Encode: `git-commits.mdc` (this session)
+- Open: uncommitted draft/slop/rule changes; `.specstory/` local only

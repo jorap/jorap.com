@@ -19,7 +19,7 @@ featured: false
 draft: true
 ---
 
-"Write me a blog post about productivity" is a coin flip. I tried that once for a client newsletter and got three paragraphs of oatmeal with a "In conclusion" footer. Never again without a shape.
+"Write me a blog post about productivity" is a coin flip. I tried that once for a client newsletter and got three paragraphs of oatmeal with a "In conclusion" footer. Soft advice. No specifics. Nothing the client could send. Never again without a shape.
 
 The prompts I keep in my notes share a structure. I call it **CRAFT** - Context, Role, Action, Format, Target Audience. Not my invention. The acronym I actually use before I hit enter.
 
@@ -35,7 +35,7 @@ The prompts I keep in my notes share a structure. I call it **CRAFT** - Context,
 | **F** | Format | Essay, table, markdown, word count, headings |
 | **T** | Target audience | Who reads it - job, literacy, geography |
 
-Miss any letter and you get **generic middle.**
+Miss any letter and you get **generic middle.** That's the oatmeal. Balanced, polite, empty.
 
 ---
 
@@ -60,7 +60,9 @@ FORMAT: Markdown with H2 sections and numbered steps inside each.
 TARGET AUDIENCE: Freelancer (me) running the migration solo. Client is non-technical.
 ```
 
-That returned something I could **execute**, not a motivational essay about digital transformation.
+That returned something I could **execute**, not a motivational essay about digital transformation. I still had to verify every step against the real export - models invent confident wrong paths - but the skeleton was usable on the first try. The oatmeal draft wasn't.
+
+For WordPress build work I keep a longer rules doc in Cursor so the model stops reinventing patterns every chat. Same idea: context and role up front, not after the third rewrite. [Consistent AI output on WordPress builds](/blog/consistent-ai-output-wordpress-builds/) is the longer version of that habit.
 
 ---
 
@@ -73,13 +75,15 @@ Good prompts leave intentional gaps:
 - `[TONE: casual / formal]`
 - `[EXCLUDE: topics or claims]`
 
-Reuse the skeleton. Don't rewrite from scratch every Tuesday.
+Reuse the skeleton. Don't rewrite from scratch every Tuesday. The newsletter oatmeal happened because I treated the prompt like a wish, not a brief.
 
 ---
 
 ## Where my prompts still break
 
 Role without context gets me "you're an expert" at what, for whom. Action as a paragraph loses to numbered steps every time. Skip the format and I get an essay when I needed HTML. Skip the audience and I get academic when I wanted blog casual.
+
+I still forget Target Audience when I'm rushing. Then I wonder why the tone sounds like a white paper. It's not the model being weird. I left a box empty.
 
 ---
 

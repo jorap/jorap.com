@@ -15,7 +15,7 @@ key_concept: |
   - Go, baptize, teach obedience - under Christ's authority, not recruitment zeal.
 examples:
   - "My kid asked a friend what church is and I almost deflected - great commission is go and make disciples, starting with plain answers at the kitchen table."
-  - "A neighbor asked what we do on Sunday mornings and I almost changed the subject - Jesus said go, baptize, teach, and He's with you while you do it."
+  - "A neighbor asked what we do on Sunday mornings and I almost changed the subject - Jesus said go, baptize, teach, and He is with you while you do it."
 shareable_thought:
   - "Jesus sends believers to go, baptize, and teach obedience under His authority and presence to the end of the age."
   - "Go, baptize, teach obedience."

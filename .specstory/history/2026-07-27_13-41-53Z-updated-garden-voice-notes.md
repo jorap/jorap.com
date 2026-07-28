@@ -2873,4 +2873,449 @@ _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
 Analyzing the impact of lowering the slop score threshold from ≤2.
+
+Running scoring across all notes to measure the impact. Will check how many would fail the new threshold, review the score distribution, and break down violations by type. This will clarify whether stricter limits improve content quality or increase editorial effort.
 </details></think>
+
+_**Agent (auto-low)**_
+
+I'll score the full garden and summarize how many notes would fail a 1.0 threshold and what that would cost in edits.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt; &#39;PY&#39;
+from pathlib import Path
+import subprocess, json, statistics
+
+def score_file(path):
+    r = subprocess.run(
+        [&#34;python3&#34;, &#34;scripts/voice-lint.py&#34;, &#34;score&#34;, str(path), &#34;--json&#34;],
+        capture_output=True, text=True, cwd=&#34;/home/jorap/Documents/GitHub/jorap.com&#34;,
+    )
+    if r.returncode != 0:
+        return None
+    return json.loads(r.stdout)
+
+for label, glob in [
+    (&#34;notes&#34;, Path(&#34;content/english/notes&#34;).glob(&#34;*.md&#34;)),
+    (&#34;blog&#34;, Path(&#34;content/english/blog&#34;).glob(&#34;*.md&#34;)),
+]:
+    rows = []
+    for f in sorted(glob):
+        d = score_file(f)
+        if not d or d[&#34;words&#34;] == 0:
+            continue
+        rows.append((d[&#34;total_per100w&#34;], d[&#34;total&#34;], d[&#34;words&#34;], f.name, d[&#34;violations&#34;]))
+    scores = [r[0] for r in rows]
+    print(f&#34;=== {label}: {len(rows)} scored files (non-zero words) ===&#34;)
+    if not scores:
+        continue
+    for thr in [2.0, 1.5, 1.0, 0.5]:
+        over = sum(1 for s in scores if s &gt; thr)
+        print(f&#34;  &gt; {thr}: {over} files ({100*over/len(scores):.1f}%)&#34;)
+    print(f&#34;  median: {statistics.median(scores):.2f}  mean: {statistics.mean(scores):.2f}  max: {max(scores):.2f}&#34;)
+    print(&#34;  top 15:&#34;)
+    for per, tot, words, name, v in sorted(rows, reverse=True)[:15]:
+        top = max(v, key=v.get)
+        print(f&#34;    {per:5.2f}  {name:42}  {top}={v[top]}  words={words}&#34;)
+    print()
+PY</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
+from pathlib import Path
+import subprocess, json, statistics
+
+def score_file(path):
+    r = subprocess.run(
+        ["python3", "scripts/voice-lint.py", "score", str(path), "--json"],
+        capture_output=True, text=True, cwd="/home/jorap/Documents/GitHub/jorap.com",
+    )
+    if r.returncode != 0:
+        return None
+    return json.loads(r.stdout)
+
+for label, glob in [
+    ("notes", Path("content/english/notes").glob("*.md")),
+    ("blog", Path("content/english/blog").glob("*.md")),
+]:
+    rows = []
+    for f in sorted(glob):
+        d = score_file(f)
+        if not d or d["words"] == 0:
+            continue
+        rows.append((d["total_per100w"], d["total"], d["words"], f.name, d["violations"]))
+    scores = [r[0] for r in rows]
+    print(f"=== {label}: {len(rows)} scored files (non-zero words) ===")
+    if not scores:
+        continue
+    for thr in [2.0, 1.5, 1.0, 0.5]:
+        over = sum(1 for s in scores if s > thr)
+        print(f"  > {thr}: {over} files ({100*over/len(scores):.1f}%)")
+    print(f"  median: {statistics.median(scores):.2f}  mean: {statistics.mean(scores):.2f}  max: {max(scores):.2f}")
+    print("  top 15:")
+    for per, tot, words, name, v in sorted(rows, reverse=True)[:15]:
+        top = max(v, key=v.get)
+        print(f"    {per:5.2f}  {name:42}  {top}={v[top]}  words={words}")
+    print()
+PY
+```
+
+```
+=== notes: 284 scored files (non-zero words) ===
+  > 2.0: 0 files (0.0%)
+  > 1.5: 12 files (4.2%)
+  > 1.0: 60 files (21.1%)
+  > 0.5: 161 files (56.7%)
+  median: 0.62  mean: 0.64  max: 1.84
+  top 15:
+     1.84  leadership-is-influence.md                  ing_main_verb=6  words=326
+     1.83  people-centered-design.md                   ing_main_verb=6  words=491
+     1.77  humility-and-service.md                     passive_voice=6  words=451
+     1.75  decision-quality.md                         passive_voice=5  words=456
+     1.72  platform-reach-is-borrowed.md               passive_voice=3  words=466
+     1.67  not-my-will.md                              passive_voice=5  words=480
+     1.64  faith-and-works.md                          long_sentence(>25w)=3  words=489
+     1.62  moved-with-compassion.md                    passive_voice=3  words=431
+     1.59  let-your-light-shine.md                     long_sentence(>25w)=4  words=503
+     1.58  accountability.md                           ing_main_verb=4  words=443
+     1.54  composure.md                                ing_main_verb=3  words=390
+     1.51  love.md                                     ing_main_verb=4  words=397
+     1.47  steward-after-the-win.md                    long_sentence(>25w)=3  words=545
+     1.46  situational-control.md                      ing_main_verb=6  words=412
+     1.45  drafting-in-public.md                       passive_voice=3  words=413
+
+=== blog: 64 scored files (non-zero words) ===
+  > 2.0: 0 files (0.0%)
+  > 1.5: 0 files (0.0%)
+  > 1.0: 9 files (14.1%)
+  > 0.5: 42 files (65.6%)
+  median: 0.62  mean: 0.63  max: 1.38
+  top 15:
+     1.38  why-run-your-own-website.md                 long_sentence(>25w)=12  words=1159
+     1.29  __immune-booster-supplements.md             ing_main_verb=4  words=310
+     1.27  __shopee-tips.md                            long_sentence(>25w)=6  words=553
+     1.25  __second-cellphone.md                       long_sentence(>25w)=7  words=562
+     1.20 
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.{md,mdc,yaml}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "2\\.0|per100w|slop:score"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "2\\.0|per100w|slop:score",
+  "topFiles": [
+    {
+      "matchCount": 174,
+      "uri": "./.specstory/history/2026-07-27_13-41-53Z-updated-garden-voice-notes.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "./.cursor/rules/anti-slop.mdc"
+    },
+    {
+      "matchCount": 165,
+      "uri": "./.specstory/history/2026-07-27_13-22-37Z-ai-slop-reduction-rules.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "./.cursor/skills/garden-voice/SKILL.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "./.cursor/skills/jorap-voice/SKILL.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./.specstory/history/2026-07-06_02-22-55Z-notes-review-for-connections.md"
+    },
+    {
+      "matchCount": 8,
+      "uri": "./.specstory/history/2026-07-06_03-58-01Z-board-game-question-randomizer.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "./.specstory/history/2026-06-30_02-06-39Z-best-free-hosting-stacks.md"
+    },
+    {
+      "matchCount": 11,
+      "uri": "./.specstory/history/2026-07-06_06-57-50Z-family-friendly-scale-clues.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "./.specstory/history/2026-06-20_08-52-20Z-page-issue-check.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./.specstory/history/2026-07-10_23-05-15Z-garden-link-issues-summary.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./.specstory/history/2026-07-01_15-11-32Z-build-command-error.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./.specstory/history/2026-07-06_00-46-11Z-leadership-notes-connection.md"
+    },
+    {
+      "matchCount": 22,
+      "uri": "./.specstory/history/2026-07-03_06-41-32Z-shareable-thoughts-analysis.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "./.specstory/history/2026-07-02_00-21-54Z-fix-flashcards-batch-1.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "./.specstory/history/2026-06-20_11-46-55Z-jorap-voice-skill-vocabulary.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "./.specstory/history/2026-06-27_11-19-04Z-chatgpt-code-and-notes.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./.specstory/history/2026-06-19_09-15-28Z-obsidian-like-design-modifications.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "./.specstory/history/2026-06-19_10-33-08Z-notes-linking-requirements.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./.specstory/history/2026-07-14_01-28-26Z-hanamikoji-rules-review.md"
+    }
+  ],
+  "totalFiles": 109,
+  "totalMatches": 751
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Checking which violation types dominate scores between 1.0 and 2.0.
+
+Examining the 0-band range and edit patterns. Noting false positive issues like "is boring" versus "is keeping". Running another aggregate analysis for scores between 1.0 and 2.0.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt; &#39;PY&#39;
+from pathlib import Path
+import subprocess, json
+from collections import Counter
+
+def score_file(path):
+    r = subprocess.run(
+        [&#34;python3&#34;, &#34;scripts/voice-lint.py&#34;, &#34;score&#34;, str(path), &#34;--json&#34;],
+        capture_output=True, text=True,
+    )
+    return json.loads(r.stdout) if r.returncode == 0 else None
+
+notes = Path(&#34;content/english/notes&#34;)
+band = Counter()
+over1 = []
+for f in sorted(notes.glob(&#34;*.md&#34;)):
+    d = score_file(f)
+    if not d or d[&#34;words&#34;] == 0:
+        continue
+    per = d[&#34;total_per100w&#34;]
+    if per &gt; 1.0:
+        v = d[&#34;violations&#34;]
+        top = max(v, key=v.get)
+        over1.append((per, f.name, top, v[top], d[&#34;total&#34;], d[&#34;words&#34;]))
+        for k, c in v.items():
+            if c:
+                band[k] += c
+
+print(&#34;Violation totals in notes with per100w &gt; 1.0 (60 files):&#34;)
+for k, c in band.most_common():
+    print(f&#34;  {k}: {c}&#34;)
+print()
+print(&#34;At ≤1.0 gate, need to cut ~&#34;, sum(t[4] for t in over1) - sum(int(t[5]*1.0/100) for t in over1), &#34;violation hits garden-wide (rough)&#34;)
+# notes currently 0-1.0: how many have any violations
+all_rows = []
+for f in sorted(notes.glob(&#34;*.md&#34;)):
+    d = score_file(f)
+    if d and d[&#34;words&#34;]:
+        all_rows.append(d)
+zero = sum(1 for d in all_rows if d[&#34;total&#34;] == 0)
+under1 = sum(1 for d in all_rows if d[&#34;total_per100w&#34;] &lt;= 1.0)
+print(f&#34;Notes with 0 violations: {zero}/{len(all_rows)}&#34;)
+print(f&#34;Notes ≤1.0: {under1}/{len(all_rows)} ({100*under1/len(all_rows):.0f}%)&#34;)
+PY</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
+from pathlib import Path
+import subprocess, json
+from collections import Counter
+
+def score_file(path):
+    r = subprocess.run(
+        ["python3", "scripts/voice-lint.py", "score", str(path), "--json"],
+        capture_output=True, text=True,
+    )
+    return json.loads(r.stdout) if r.returncode == 0 else None
+
+notes = Path("content/english/notes")
+band = Counter()
+over1 = []
+for f in sorted(notes.glob("*.md")):
+    d = score_file(f)
+    if not d or d["words"] == 0:
+        continue
+    per = d["total_per100w"]
+    if per > 1.0:
+        v = d["violations"]
+        top = max(v, key=v.get)
+        over1.append((per, f.name, top, v[top], d["total"], d["words"]))
+        for k, c in v.items():
+            if c:
+                band[k] += c
+
+print("Violation totals in notes with per100w > 1.0 (60 files):")
+for k, c in band.most_common():
+    print(f"  {k}: {c}")
+print()
+print("At ≤1.0 gate, need to cut ~", sum(t[4] for t in over1) - sum(int(t[5]*1.0/100) for t in over1), "violation hits garden-wide (rough)")
+# notes currently 0-1.0: how many have any violations
+all_rows = []
+for f in sorted(notes.glob("*.md")):
+    d = score_file(f)
+    if d and d["words"]:
+        all_rows.append(d)
+zero = sum(1 for d in all_rows if d["total"] == 0)
+under1 = sum(1 for d in all_rows if d["total_per100w"] <= 1.0)
+print(f"Notes with 0 violations: {zero}/{len(all_rows)}")
+print(f"Notes ≤1.0: {under1}/{len(all_rows)} ({100*under1/len(all_rows):.0f}%)")
+PY
+```
+
+```
+Violation totals in notes with per100w > 1.0 (60 files):
+  ing_main_verb: 134
+  passive_voice: 114
+  long_sentence(>25w): 107
+  nominalization: 16
+
+At ≤1.0 gate, need to cut ~ 120 violation hits garden-wide (rough)
+Notes with 0 violations: 47/284
+Notes ≤1.0: 224/284 (79%)
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/slop-score.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+A 0.5 threshold is being examined to assess practical tradeoffs.
+
+Lowering the score below 1.0 would require roughly 60 notes to pass instead of 0 today. A 0.5 threshold would raise that to about 161 notes. The score measures mechanical heuristics like passive voice and long sentences, not AI vocabulary or structural slop. The median score is already 0.62, so the garden is fairly clean. Going below 1.0 would fight diminishing returns.
+
+Specific edge cases would remain unresolved. Passives in faith notes and long shareable thoughts would still slip through. Level 1-5 scaffolding adds word count and repeated patterns. Overly strict enforcement risks false positives. Forced active voice can feel stilted in third-person descriptions. Splitting long sentences may hurt paste-ready shareable lines.
+
+Flashcard backs are intentionally telegraphic and may still trigger. The score is not yet enforced in CI; lowering it would require script changes and a bulk content pass. Nine blog posts exceed 1.0, mostly from long sentences, so rewriting them would split paragraphs in otherwise good posts.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Here is what the numbers say if you tightened the gate from **≤2.0** to **≤1.0** per100w.
+
+## Where the garden is today
+
+| Threshold | Notes over | Blog posts over |
+|-----------|------------|-----------------|
+| **> 2.0** | 0 (0%) | 0 (0%) |
+| **> 1.5** | 12 (4%) | 0 (0%) |
+| **> 1.0** | **60 (21%)** | **9 (14%)** |
+| **> 0.5** | 161 (57%) | 42 (66%) |
+
+- **Median note score: 0.62** (mean 0.64, max 1.84)
+- **224/284 notes (79%)** already pass ≤1.0
+- **47 notes** score **0** violations today
+
+So 2.0 was a “catch the worst AI cadence” bar. **1.0 is a “polish the top fifth” bar**, not a small tweak.
+
+## What would actually need fixing
+
+In the 60 notes between 1.0 and 2.0, hits break down roughly as:
+
+| Violation type | Count in that band |
+|----------------|-------------------:|
+| `ing_main_verb` (`is serving`, `is keeping`) | 134 |
+| `passive_voice` (`was entrusted`, `are used`) | 114 |
+| `long_sentence(>25w)` | 107 |
+| `nominalization` | 16 |
+
+Top offenders right now are things like `leadership-is-influence` (1.84), `people-centered-design` (1.83), `humility-and-service` (1.77) — not the notes you just fixed. Mostly **`-ing` chains and passives in `key_concept`**, not obvious AI vocabulary.
+
+Rough effort to get everyone under 1.0: **~60 note passes**, cutting on the order of **~120 violation hits** garden-wide. That is about **3–4× the work** you just did on the 7 notes at 2.0+.
+
+## Impact on quality (honest tradeoffs)
+
+**Upside**
+- Fewer passive/committee lines in frontmatter
+- Shorter sentences in `shareable_thought` and `key_concept`
+- More active, spoken rhythm — closer to garden-voice’s “plain words that land”
+
+**Downside / diminishing returns**
+- The scorer is **mechanical**, not semantic. It does not measure likability, claim strength, or theology — only regex patterns.
+- Pushing below 1.0 often means **fighting legitimate phrasing**:
+  - Third-person `description` (“Success is stewardship…”) vs active rewrite
+  - Faith lines that naturally use passive (“standing was settled at faith” — you already reworked some of these)
+  - Paste-ready **shareable lines** that are one long sentence by design
+  - **Level 1–5 ladders** — repetitive structure adds words and repeated `is …` patterns without being “slop” in the human sense
+- Blog posts over 1.0 are mostly **long sentences in good published prose** (`why-i-stopped-playing-marvel-snap`, `miracle-isaiah-david`) — tightening to 1.0 would mean **splitting paragraphs**, not just de-AIing frontmatter.
+
+## Process / tooling impact
+
+Today **`slop:score` is advisory** (garden-voice checklist). It is **not** in `pnpm lint:garden` CI — only `lint:slop` warn rules are.
+
+| If you set gate to… | Effect |
+|---------------------|--------|
+| **≤1.0 as skill guidance** | ~60 notes + ~9 blog drafts need editorial passes; doable over time |
+| **≤1.0 in CI** | `lint:garden` starts failing until bulk rewrite; high friction per edit |
+| **≤0.5** | Majority of garden fails; you would be optimizing the linter, not the reader |
+
+## Practical recommendation
+
+- **Keep ≤2.0** as the hard “ship block” — catches real slop clusters (you saw that with the 2.49 notes).
+- **Use ≤1.0 as a polish target** when you touch a note anyway (“before/after `slop:score` should drop” already in garden-voice).
+- **Do not CI-enforce ≤1.0** unless you want ongoing maintenance tax on every faith note and flashcard set.
+
+If you want a middle ground: **≤1.5 for new/edited notes only** hits just **12 notes** today with much less rewrite pain than 1.0.
+
+Want me to run a ≤1.0 pass on the top 12 (1.5+) notes, or add a `slop:score --fail-over 1.0` check that reports but does not block CI?
