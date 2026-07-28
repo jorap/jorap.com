@@ -29,7 +29,7 @@ James Clear's *Atomic Habits* gave me language that stuck. I don't quote the boo
 
 **Make it obvious.** I don't "try to blog more." I **open the Hugo draft folder after breakfast** - same chair, same mug, same folder. The cue is boring on purpose. Boring cues fire.
 
-**Make it attractive.** Podcast only on walks. Guitar on a stand, not in the case. If the start feels like a chore, I won't start.
+**Make it attractive.** Podcast only on walks. Notebook on the desk, not buried in a drawer. If the start feels like a chore, I won't start.
 
 **Make it easy.** "Write 20 minutes" not "finish the post." "Read one page" not "read thirty." The two-minute version is how I trick tired-me into beginning.
 

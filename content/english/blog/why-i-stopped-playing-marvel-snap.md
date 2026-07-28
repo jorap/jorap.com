@@ -31,7 +31,7 @@ The pitch landed immediately.
 
 **Short matches.** A full game fits in a coffee break. No forty-minute Hearthstone slog. Lose badly and you're back in queue before the shame sets in.
 
-**Marvel done lean.** I'm not a comics completionist, but I know the characters - Spider-Man, Wolverine, the usual crowd. That's the whole appeal next to something like **Magic: The Gathering**, where half the fun is learning a deep rules engine and a universe you've never read. Snap gave me mainstream Marvel I already cared about. Wong, Mystique, a location I'd never heard of - enough to stay curious without reading up on who everyone is.
+**Marvel done lean.** I'm not a comics or anime fan, but the characters are everywhere - Spider-Man, Wolverine, the usual crowd. That's the whole appeal next to something like **Magic: The Gathering**, where half the fun is learning a deep rules engine and a universe you've never read. Snap gave me mainstream Marvel without homework. Wong, Mystique, a location I'd never heard of - enough to stay curious without reading up on who everyone is.
 
 **The snap mechanic.** Bluffing with cubes is genuinely tense. You're not just fighting for the board - you're negotiating how much this win is worth. That's a clever twist on card games I already liked.
 

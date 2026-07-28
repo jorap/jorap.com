@@ -64,7 +64,7 @@ Now the laptop sits on a stand, external keyboard, mouse. Not ergonomic perfecti
 
 ## Storage you don't have to ration
 
-My phone hit "storage full" mid-trip once while I was filming a school program for my kid. I stood there deleting old screenshots in the parking lot while everyone else went inside. Never again for anything that matters.
+Phones fill up fast - photos, school videos, app caches, the usual. When storage hits full on the only device in your pocket, you're deleting things in a hurry instead of choosing what to keep.
 
 On the laptop I keep Hugo builds, client exports, years of photos, and three half-finished side projects without that weekly cleanup ritual. External drive when I need more. The phone stays for photos I'd delete anyway.
 
@@ -83,8 +83,6 @@ A desktop can run for a decade if you swap in more RAM, a bigger SSD, or a new G
 ## Browsing without the training wheels
 
 Mobile browsers are fine for casual reading. They're not great for actual work. No extensions, limited dev tools, weird tab behavior, and sites that decide you want the app instead.
-
-Shopee checkout broke on my phone browser last month until I switched to desktop with the password manager extension. Same account, same cart - only one of them let me finish.
 
 On desktop I have my password manager, my ad blocker, my dark-mode extension, my note-clipper. Dev tools are one keystroke away. Web apps work the way the designers intended. It's a different category of experience.
 

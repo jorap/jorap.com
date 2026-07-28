@@ -55,7 +55,7 @@ Here's why I keep coming back to it:
 
 - **MP3s don't crash.** They're just files. Any computer or phone can play them. No subscription, no login, no surprise update.
 - **VLC is already on every church laptop**, or one download away. It's free, it's solid, and it handles crossfades cleanly.
-- **It works offline.** Church Wi-Fi has betrayed me too many times.
+- **It works offline.** No streaming, no login, no "waiting for the pad app to sync."
 - **Any volunteer could run it.** The setup is simple enough that I could hand it to a teenager in about five minutes if that scenario came up.
 
 If you want VLC to crossfade smoothly between tracks: Tools → Preferences → Show All Settings → Audio → Filters → check **Crossfader**, then set it to about 3-5 seconds. Done.

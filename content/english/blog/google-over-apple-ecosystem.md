@@ -65,7 +65,7 @@ On Shopee I can sort by local sellers and land on a workable Android at a fracti
 
 ## Android lets me buy boring phones
 
-My daily phone doesn't need to be a status object. It needs calls, maps, banking OTPs, Messenger, and enough camera to film a school program without the storage-full panic I wrote about in another post.
+My daily phone doesn't need to be a status object. It needs calls, maps, banking OTPs, Messenger, and a camera that won't choke the first time I film something longer than a minute.
 
 Android gives me **choices at every price tier**. When I wanted a second handset for bank apps, I grabbed something cheap and underpowered on purpose - slow enough that I wouldn't drift back to it, solid enough to wake up for a one-time password. I didn't have to justify a premium phone just to stay inside an ecosystem.
 

@@ -22,7 +22,7 @@ draft: false
 
 Every time I tell someone I run my own website, the reaction is usually the same: "Why? Just post on Facebook." And I get it. Social media is easy. The audience is already there.
 
-But this site is where my **notes garden**, my **extension-cord** post that still gets search traffic, and my **Alex Eala tracker** live - none of which I'd trust to a platform that can throttle reach or change export rules overnight. After years of bouncing between platforms and [losing old PHP hosting](/blog/how-i-built-jorap-notes/) with a chunk of my work, I keep coming back to one conclusion: nothing beats a place that's actually mine.
+But this site is where my **notes garden**, my **extension-cord** post, and my **Alex Eala tracker** live - none of which I'd trust to a platform that can throttle reach or change export rules overnight. After years of bouncing between platforms and [losing old PHP hosting](/blog/how-i-built-jorap-notes/) with a chunk of my work, I keep coming back to one conclusion: nothing beats a place that's actually mine.
 
 ---
 
@@ -52,7 +52,7 @@ The container is part of the message. When someone lands here, they're in my lay
 
 My site is the one place the **Alex Eala tracker**, the **extension-cord** post, and the notes garden sit in an order I chose - not whatever an algorithm decides to resurface this week.
 
-I group by topic because I want to, not because a platform added a tab. Search traffic still finds the Drupal essay years later. A Facebook thread about the same thing is buried by lunch.
+I group by topic because I want to, not because a platform added a tab. A long essay on my domain stays findable. A Facebook thread about the same thing is buried by lunch.
 
 Keeping it here also forces a small honesty check: if I'm not willing to give an idea a home on my own domain, maybe it wasn't worth posting in the first place.
 
@@ -66,19 +66,17 @@ And when other people start finding those posts through search, you realize you'
 
 ---
 
-## Google still finds my extension-cord post years later
+## Search still finds old posts years later
 
 Social media is great for connecting with people who already follow you. Search engines are great for being found by people who *don't*.
 
-My [extension-cord](/blog/extension-cord/) post still gets hits every week. I wrote it years ago and barely touch it now. A Facebook thread about the same cord would be gone by lunch.
+A useful post on your own domain can keep answering the same question for years. A Facebook thread about the same topic is gone by lunch.
 
 SEO isn't magic and it isn't instant. But if you publish consistently and write things people actually want to read, the search traffic compounds in a way social posts simply don't.
 
 ---
 
-## Analytics told me to keep writing the long career posts
-
-I installed analytics and found out my Drupal essay was still pulling search traffic two years after I thought everyone had moved on. That's what convinced me to keep long-form career posts on the site instead of dumping them into threads.
+## Analytics helps me write less junk
 
 You get what people are reading, where they came from, how long they stuck around, and what made them leave. Not vanity metrics, real ones.
 

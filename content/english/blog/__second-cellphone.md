@@ -16,7 +16,7 @@ featured: false
 draft: true
 ---
 
-For years I thought a second cellphone was a luxury for influencers and people with too many SIM cards. Then I handed my daily phone to my kid for a game while a bank OTP arrived on the same device - visible on the lock screen.
+For years I thought a second cellphone was a luxury for influencers and people with too many SIM cards. Then I kept handing my daily phone to my kid for games, maps, and photos - and realized my **banking apps were on the same screen** as everything else.
 
 Now I keep a **second handset** on purpose. Not the latest flagship. An older, underpowered phone that is hidden in my bag and stays out of daily rotation.
 
