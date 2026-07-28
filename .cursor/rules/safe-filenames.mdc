@@ -1,0 +1,54 @@
+---
+description: Cross-platform safe filenames on Windows, Linux, and macOS
+alwaysApply: true
+---
+
+# Safe filenames
+
+When creating, renaming, or suggesting file paths, use names that work on all three OSes.
+
+## Forbidden
+
+- Path separators: `/` `\`
+- Windows reserved chars: `< > : " | ? *`
+- Control characters (ASCII 0–31) and null bytes
+- Trailing `.` or space (Windows strips these; git and sync tools get confused)
+- Leading/trailing spaces anywhere in the name
+
+## Windows reserved basenames (case-insensitive)
+
+Do not use these as the full stem or as a stem followed only by an extension:
+
+`CON`, `PRN`, `AUX`, `NUL`, `COM1`–`COM9`, `LPT1`–`LPT9`
+
+Bad: `con.md`, `COM1.json`. Good: `connection.md`, `com-port-1.json`.
+
+## Defaults for this repo
+
+- Lowercase kebab-case: `my-note-title.md`, not `My Note Title.md`
+- ASCII letters, digits, hyphens, underscores, and a single `.` before the extension
+- One extension only; no `file..md` or `archive.tar.gz` unless the tool explicitly requires it
+- Keep each path component ≤ 200 characters (under the 255-byte filesystem limit with room for paths)
+- Prefer NFC Unicode when non-ASCII is required; avoid emoji and combining characters in filenames
+
+## Before writing a file
+
+If the user supplied a title or slug, normalize it:
+
+1. Lowercase
+2. Replace spaces and `_` with `-`
+3. Strip forbidden characters
+4. Collapse repeated hyphens; trim leading/trailing `-`
+5. Reject or rename if the result is empty or a reserved Windows name
+
+## Examples
+
+| Bad | Good |
+|-----|------|
+| `What is RSS?.md` | `what-is-rss.md` |
+| `notes/final version.md` | `notes/final-version.md` |
+| `report:2026.md` | `report-2026.md` |
+| `CON.md` | `connection.md` |
+| `post .md` | `post.md` |
+
+When renaming existing files, grep for references (wikilinks, imports, Hugo `slug` aliases) and update them in the same change.
