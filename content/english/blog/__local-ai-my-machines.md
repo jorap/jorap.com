@@ -225,6 +225,62 @@ On the Mac, Tier 2 is **real** - not an overnight CPU crawl. The Windows laptop 
 
 ---
 
+## Models that work across machines
+
+The **WebFX-G15** sets the floor. If a model fits **~5 GB VRAM** on Windows, it runs on all three. Anything bigger splits the fleet.
+
+### Top 5 on all three machines
+
+Sized to the **~5 GB** Windows ceiling. Same `ollama pull` on every box; swap **MLX** on the Mac if you want Metal speed.
+
+| # | Model | Ollama pull | ~Q4 size | Best for | Why it's the universal pick |
+|---|-------|-------------|----------|----------|----------------------------|
+| 1 | **Gemma 3 4B** | `ollama pull gemma3:4b` | ~2.2 GB | General | Comfortable margin on the 6 GB card. Still useful on Linux and Mac - not just a toy model. |
+| 2 | **Qwen3 8B** | `ollama pull qwen3:8b` | ~5 GB | General / light coding | Best **dense** quality that clears all three. Tight on the G15 - keep context short. |
+| 3 | **Llama 3.2 3B** | `ollama pull llama3.2:3b` | ~2 GB | Speed checks | Fastest round-trip on every GPU. My "does this prompt even parse?" model. |
+| 4 | **Qwen2.5-Coder 7B** | `ollama pull qwen2.5-coder:7b` | ~4.7 GB | **Coding** | Same footprint class as Qwen 8B. The cross-platform coding default for PHP and theme work. |
+| 5 | **Bonsai 27B** | Custom GGUF / MLX | ~4 GB (1-bit) | **Thinking** | The cheat code. **27B-class** reasoning in a Tier 0 footprint. Different install per OS, but it actually fits every GPU here. |
+
+**All-three coding pick:** **Qwen2.5-Coder 7B** - nothing else in this size class beats it for PHP, WordPress scaffolding, and regex. **Qwen3 8B** is fine for light code questions; use the Coder build when the output has to compile.
+
+**All-three thinking pick:** **Bonsai 27B** - step-by-step logic and tool-shaped tasks at 27B scale. Runner-up: **DeepSeek-R1-Distill 8B** (`ollama pull deepseek-r1:8b`, ~5 GB) if you want visible chain-of-thought and an easy Ollama pull on every box.
+
+**What failed the all-three test:** **Qwen3 14B**, **Gemma 3 12B**, and every dense **27B/32B** build. They fit Linux and Mac fine. The Windows laptop either offloads into **16 GB RAM** and chokes, or won't load at all.
+
+### Top 5 on two of three (Linux + Mac)
+
+This is the meaningful pair - both machines have headroom above the G15. I use these when I'm **not** on the Windows laptop.
+
+| # | Model | Ollama pull | Best for | Works on | Skips |
+|---|-------|-------------|----------|----------|-------|
+| 1 | **Qwen3 14B** | `ollama pull qwen3:14b` | General | Linux GPU, Mac daily | Windows - needs ~8-10 GB at Q4 |
+| 2 | **Gemma 3 12B** | `ollama pull gemma3:12b` | General / multimodal | Linux GPU, Mac daily | Windows - ~7.5 GB at Q4 |
+| 3 | **Qwen2.5-Coder 14B** | `ollama pull qwen2.5-coder:14b` | **Coding** | Linux GPU, Mac daily | Windows - client-code tier |
+| 4 | **DeepSeek-R1-Distill 14B** | `ollama pull deepseek-r1:14b` | **Thinking** | Linux GPU, Mac daily | Windows - ~8 GB at Q4 |
+| 5 | **Qwen2.5 32B** | `ollama pull qwen2.5:32b` | General (heavy) | Linux CPU overnight, Mac Tier 2 | Windows - **16 GB RAM** ceiling |
+
+**Linux + Mac coding pick:** **Qwen2.5-Coder 14B** - the one I'd open beside a WordPress staging tab. Multi-file theme work, `functions.php`, block patterns. **Qwen3 14B** handles code too, but the Coder build is trained for it.
+
+**Linux + Mac thinking pick:** **DeepSeek-R1-Distill 14B** for step-by-step reasoning on both boxes with apps open. When I can close everything on the Mac (or run overnight on Linux), **DeepSeek-R1-Distill 32B** (`ollama pull deepseek-r1:32b`) is the hardest thinking I'd run locally before reaching for a cloud model.
+
+**Dropped from this table:** **Qwen3 27B** - still a strong general Tier 2 pick, but for thinking I'd take **DeepSeek-R1-Distill 14B** at the same memory tier, and for coding **Qwen2.5-Coder 14B** beats it on client work.
+
+**Linux + Windows** and **Mac + Windows** don't get their own lists. Every model that fits both laptops either already appears in the **all-three** table above, or it's **Bonsai** again. The G15 is always the gate.
+
+**Practical rule:** one **all-three** model synced everywhere (I'd pick **Gemma 3 4B** for chat or **Qwen2.5-Coder 7B** for code), then specialist builds on Linux and Mac when I need more brain.
+
+### Coding vs thinking - quick reference
+
+| Job | All three machines | Linux + Mac only |
+|-----|-------------------|------------------|
+| **Coding** | **Qwen2.5-Coder 7B** | **Qwen2.5-Coder 14B** |
+| **Thinking / reasoning** | **Bonsai 27B** (or **DeepSeek-R1-Distill 8B** for easy Ollama) | **DeepSeek-R1-Distill 14B** daily; **DeepSeek-R1-Distill 32B** when stretched |
+| **General chat** | **Qwen3 8B** or **Gemma 3 4B** | **Qwen3 14B** |
+
+**Coding** means generated code I'd paste into a repo - PHP, CSS, JS, shell, SQL. **Thinking** means multi-step logic, debugging a weird bug, or planning before I type. I don't confuse them: a general 14B model will write code, but the **Coder** distill wins on structure; a chat model will reason, but **R1-Distill** shows its work.
+
+---
+
 ## Where each machine earns its keep
 
 **MacBook** - interactive local AI while I'm working. Quick rewrites, summarizing a long doc, testing a prompt before it touches a client repo. If I need a response in seconds, this is the machine.

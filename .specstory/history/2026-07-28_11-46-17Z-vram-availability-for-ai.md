@@ -1780,4 +1780,397 @@ Six gigabytes of VRAM sits below the eight-gigabyte Signal Coders threshold, whi
 
 _**Agent (auto-low)**_
 
-Adding the Windows laptop to the post — reading the draft and mapping it to Signal Coders 
+Adding the Windows laptop to the post — reading the draft and mapping it to Signal Coders tiers with a conservative 6 GB VRAM budget.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__local-ai-two-systems.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The blog will be updated to include three machines.
+
+The title and metadata will be updated to reflect three machines. The slug may also be revised for consistency.
+
+The title will reference three machines. The slug will be renamed to `local-ai-my-machines`.
+
+The WebFX-G15 appears to be an ASUS ROG G15 with an i5-13450HX and a 6GB GPU. This likely corresponds to an RTX 4050 or a 6GB RTX 3060 variant. For budget conservative estimates, roughly 4.5–5 GB of VRAM would be needed for model weights. The 16 GB of system RAM leaves only about 10–12 GB available after Windows and applications. Signal Coders would likely fall under Tier 0 for GPU inference due to the 8 GB VRAM floor. A low Tier 1 with heavy offload is possible but would strain the 16 GB RAM.
+
+The 6 GB VRAM is slightly better than the 4 GB cap in the video, but the 16 GB system RAM remains the hard ceiling. Tier 0 fits include Llama 3.2 3B, 1B, Qwen3 8B at Q4, Phi-4-mini, and Gemma 3 4B. A 14B model like Gemma 12B at Q4 would need heavy CPU offload and crawl across the 16 GB RAM.
+
+A dedicated section for the Windows laptop will be added. The introduction will contrast its dedicated VRAM against the desktop. The side-by-side table will expand to three columns. The tier mapping table will gain a new row. Tier 2 models are unrealistic on this hardware; Bonsai at 1-bit on GPU might barely fit.
+
+Tags will be updated to include Windows. The ledger and author-context sections will be revised. The Windows laptop will be described as Tier 0 on GPU and Tier 0-1 with painful offload. Signal Coders Tier 0 models will be recommended for the laptop. Tier 2 models will be skipped as impractical.
+
+Ollama and LM Studio are the recommended software tools for the Windows laptop. The blog file itself will be renamed to `__local-ai-my-machines.md` to match the new slug and avoid a messy mismatch between the filename and the updated frontmatter.
+
+The ledger links will be updated to match the new slug. The file will be renamed to `__local-ai-my-machines.md` for consistency. The edit will be committed through git.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Updating the post for three machines: adding the Windows laptop with a conservative 6 GB VRAM budget and Tier 0 mapping.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__local-ai-two-systems.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__local-ai-two-systems.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__local-ai-two-systems.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__local-ai-two-systems.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__local-ai-two-systems.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+The string to replace was not found in the file.
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__local-ai-two-systems.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__local-ai-two-systems.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__local-ai-two-systems.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+A replacement failed in the tier mapping table.
+
+Reading the file to fix the failed replacement.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__local-ai-two-systems.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The tier map section still needs updating.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__local-ai-two-systems.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: mv /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__local-ai-two-systems.md /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__local-ai-my-machines.md</summary>
+```bash
+mv /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__local-ai-two-systems.md /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__local-ai-my-machines.md
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__interesting-facts-about-jorap.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/author-context.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Adding aliases for the old slug in the frontmatter.
+
+Running lint on the renamed file.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__local-ai-my-machines.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm slop:score content/english/blog/__local-ai-my-machines.md &amp;&amp; pnpm lint:voice content/english/blog/__local-ai-my-machines.md 2&gt;&amp;1; pnpm lint:blog content/english/blog/__local-ai-my-machines.md 2&gt;&amp;1</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && pnpm slop:score content/english/blog/__local-ai-my-machines.md && pnpm lint:voice content/english/blog/__local-ai-my-machines.md 2>&1; pnpm lint:blog content/english/blog/__local-ai-my-machines.md 2>&1
+```
+
+```
+$ python3 scripts/voice-lint.py score content/english/blog/__local-ai-my-machines.md
+__local-ai-my-machines.md                words=2569 total= 12 per100w=  0.47
+$ python3 scripts/voice-lint.py dashes --check && python3 scripts/voice-lint.py site --check content/english/blog/__local-ai-my-machines.md
+Voice dash lint OK
+Voice lint OK
+$ python3 scripts/normalize-blog-frontmatter.py --verify && python3 scripts/voice-lint.py slop --check --blog-only content/english/blog/__local-ai-my-machines.md
+Blog frontmatter OK
+Slop lint OK
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The laptop details have been noted.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Added the **WebFX-G15** Windows laptop throughout the draft. Renamed to `__local-ai-my-machines.md` (slug `local-ai-my-machines`, alias kept for the old slug).
+
+**Windows laptop placement:**
+
+| | WebFX-G15 |
+|---|---|
+| **CPU** | i5-13450HX |
+| **RAM** | 16 GB (15.7 GB usable) |
+| **VRAM** | 6 GB dedicated |
+| **Conservative GPU budget** | **~5 GB** |
+| **Signal Coders tier** | **Tier 0** (below the 8 GB floor) |
+| **Stretch** | **Bonsai 27B** only |
+
+**Tier 0 model picks:** Qwen3 8B, Llama 3.1 8B, Gemma 3 4B, Llama 3.2 3B, Phi-4-mini — via Ollama/LM Studio on CUDA.
+
+**Not recommended here:** Tier 1 14B/Gemma 12B (VRAM + 16 GB RAM wall), Tier 2 dense models.
+
+The side-by-side table, tier map, and "where each machine earns its keep" sections now cover all three boxes. Ledger and `author-context.md` are updated.
+
+## Session close
+- Fixed: WebFX-G15 Windows laptop added with ~5 GB conservative VRAM budget and Tier 0 picks; draft renamed to `__local-ai-my-machines.md`.
+- Encode: none
+- Open: draft still unpublished
+
+---
+
+_**User**_
+
+what are the top 5 models to use that will work on all three?
+what are the top 5 models to use that will work on two of the three?
+
+---
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Analyzing the three machines to identify the top five models that work across all three and the top five that work across two.
+
+The Windows laptop with ~5 GB VRAM is the most restrictive budget. Models that fit there include Llama 3.2 3B, Gemma 3 4B, and Qwen3 8B Q4. These serve as the baseline for both the all-three and two-of-three rankings.
+
+Phi-4-mini, Qwen2.5 7B, and Mistral 7B also fit all three machines. The top-five universal picks are Llama 3.2 3B, Gemma 3 4B, Phi-4-mini, Qwen2.5 7B, and Llama 3.1 8B. Qwen3 14B is excluded because it exceeds the Windows laptop's 5 GB VRAM ceiling.
+
+Bonsai 27B at roughly 4 GB could technically run on all three machines, though it may require different backends per OS. Gemma 3 12B is excluded because it needs about 7.5 GB, exceeding the Windows laptop's 5 GB VRAM budget.
+
+Reordering the universal list by practical use: Gemma 3 4B leads, followed by Llama 3.2 3B, Phi-4-mini, and Qwen3 8B. Bonsai 27B is a fifth option, though it requires different backend paths per OS.
+
+Qwen2.5-Coder 7B is a coding-focused alternative that fits within the 5 GB Q4 budget.
+
+For Linux and Mac, Qwen3 14B, Gemma 3 12B, and Qwen2.5-Coder 14B are viable options. Mistral Nemo 12B is a borderline choice for Windows due to its heavy offloading requirements.
+
+Linux and Windows pairs are less common because Mac typically provides more memory headroom than Windows.
+
+The two-of-three rankings are now clearer. Linux and Mac together support Qwen3 14B, Gemma 3 12B, Qwen2.5-Coder 14B, Llama 3.1 8B at Q8, and Mistral Nemo 12B. Windows and Mac together support Qwen3 8B, since most Tier 0 models run on both CUDA and Metal.
+
+The most useful two-of-three split is Linux plus Mac. Both machines have enough memory for Tier 1 models. Qwen3 27B is another Tier 1 option for that pair, running on Linux CPU overnight and on Mac Tier 2. Windows plus Linux is less distinct because Tier 0 models already overlap across all three machines.
+
+Qwen2.5 32B is another Tier 1 option for the Linux and Mac pair, running on Linux CPU overnight and on Mac Tier 2.
+
+For Windows and Mac, the shared GPU paths support Qwen3 8B, Gemma 3 4B, Bonsai 27B, Llama 3.1 8B, and Phi-4-mini.
+
+For Linux and Windows, Bonsai 27B, Qwen3 8B, and Gemma 3 4B are the main overlaps. Tier 2 Linux CPU models do not run on Windows.
+
+The response will be added directly to the blog post. A model qualifies for universal use only if it fits within the 5 GB VRAM ceiling on Windows without relying on 16 GB RAM offload.
+
+Qwen2.5-Coder 7B is the fifth universal pick for coding work. Bonsai 27B is dropped from the daily top-five list because its cross-platform backend setup adds too much friction. Llama 3.1 8B replaces it as the fifth option.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Analyzing memory constraints across all three machines, then adding a cross-machine section to the draft.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__local-ai-my-machines.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+A new section will be added before "Where each machine earns its keep" to list universal and two-of-three model recommendations.
+
+Gemma 3 4B is the top universal pick at roughly 2.2 GB Q4. Llama 3.2 3B follows at about 2 GB. Phi-4-mini and Qwen3 8B round out the five. Bonsai 27B is the smallest universal model at roughly 4 GB. Qwen2.5-Coder 7B is an alternative for coding tasks.
+
+The Linux-Mac pair is the primary two-of-three combination. Qwen3 14B and Gemma 3 12B fit both machines well. Qwen2.5-Coder 14B serves client work on both. Qwen3 27B runs on Linux CPU overnight and on Mac Tier 2. Qwen2.5 32B covers the same Linux-Mac slot.
+
+Linux and Windows is a less common pairing. Qwen3 27B does not fit Windows 16GB Q4. Bonsai still works across all three GPUs.
+
+Mac and Windows share most models, differing mainly in quantization. Qwen3 8B Q8 fits Mac while Q4 fits Windows. Gemma 3 4B high quant also runs on Mac. These two-of-three pairs largely overlap with the universal list. The Linux-Mac combination remains the main upgrade path.
+
+The response will distinguish between models that run on exactly two machines versus any two-machine combination. The Linux-Mac pair is treated as the primary upgrade path. A brief note will explain why Mac-Window and Linux-Window combinations do not form distinct sets.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__local-ai-my-machines.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm slop:score content/english/blog/__local-ai-my-machines.md &amp;&amp; pnpm lint:voice content/english/blog/__local-ai-my-machines.md 2&gt;&amp;1 | tail -5</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && pnpm slop:score content/english/blog/__local-ai-my-machines.md && pnpm lint:voice content/english/blog/__local-ai-my-machines.md 2>&1 | tail -5
+```
+
+```
+$ python3 scripts/voice-lint.py score content/english/blog/__local-ai-my-machines.md
+__local-ai-my-machines.md                words=2950 total= 13 per100w=  0.44
+$ python3 scripts/voice-lint.py dashes --check && python3 scripts/voice-lint.py site --check content/english/blog/__local-ai-my-machines.md
+Voice dash lint OK
+Voice lint OK
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Preparing a clear answer with the top five models for full compatibility and the top five for partial compatibility.
+</details></think>
+
+_**Agent (auto-low)**_
+
+The **WebFX-G15** sets the floor: anything that works on all three must fit **~5 GB VRAM**. The useful **two-of-three** pair is **Linux + Mac** — the Windows laptop blocks Tier 1 and Tier 2 dense models.
+
+## Top 5 — all three machines
+
+| # | Model | Why |
+|---|-------|-----|
+| 1 | **Gemma 3 4B** | ~2.2 GB at Q4. Comfortable on the 6 GB card; still useful on Linux and Mac. |
+| 2 | **Qwen3 8B** | Best dense quality that clears all three. ~5 GB at Q4 — tight on the G15; keep context short. |
+| 3 | **Llama 3.2 3B** | Fastest on every GPU. Good sanity-check model. |
+| 4 | **Qwen2.5-Coder 7B** | ~4.7 GB. Cross-platform coding default for PHP/theme work. |
+| 5 | **Bonsai 27B** (1-bit) | ~4 GB. 27B-class reasoning in a Tier 0 footprint. Different install per OS (CUDA / Vulkan / MLX), but fits every GPU. |
+
+**Fails the all-three test:** Qwen3 14B, Gemma 3 12B, and dense 27B/32B builds — fine on Linux and Mac, too heavy for 6 GB VRAM + 16 GB RAM on Windows.
+
+---
+
+## Top 5 — two of three (Linux + Mac)
+
+The pair that matters. Both have room above the G15.
+
+| # | Model | Skips |
+|---|-------|-------|
+| 1 | **Qwen3 14B** | Windows (~8–10 GB at Q4) |
+| 2 | **Gemma 3 12B** | Windows (~7.5 GB at Q4) |
+| 3 | **Qwen2.5-Coder 14B** | Windows |
+| 4 | **Qwen3 27B** | Windows (16 GB RAM wall; Linux CPU overnight + Mac Tier 2) |
+| 5 | **Qwen2.5 32B** | Windows (same) |
+
+**Mac + Windows** and **Linux + Windows** don't get separate lists — anything that fits both laptops is already in the all-three table, or it's Bonsai again.
+
+---
+
+**Practical rule:** sync one **all-three** model everywhere (**Gemma 3 4B** or **Qwen3 8B**), then keep **Qwen3 14B** on Linux and Mac when you need more brain.
+
+Added this as **"Models that work across machines"** in `__local-ai-my-machines.md`.
+
+## Session close
+- Fixed: Cross-machine top-5 tables (all-three + Linux/Mac pair) added to the draft.
+- Encode: none
+- Open: clean
+
+---
+
+_**User**_
+
+take note which are the best for coding and thinking
+
+---
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+I'll add notes identifying which models are best for coding versus thinking and reasoning, drawing from the cross-machine recommendations and per-machine tables.
+
+Coding models include Qwen2.5-Coder, Mellum2, and DeepSeek-Coder. Reasoning models include DeepSeek-R1-Distill, Qwen3 with thinking mode, and R1 variants. I'll review the relevant blog sections to apply these categories.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__local-ai-my-machines.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+A dedicated section will compare coding and thinking picks. A "Best for" column will be added to the cross-machine tables.
+
+Per-tier tables were skipped to keep the post concise. Coding picks include Qwen2.5-Coder 7B, Bonsai, and Qwen3 8B. Linux and Mac also get Qwen2.5-Coder 14B and Qwen3 14B. Thinking picks include Bonsai 27B and Qwen3 8B. DeepSeek-R1-Distill-7B or 8B is noted as a small alternative for all three platforms.
+</details></think>
