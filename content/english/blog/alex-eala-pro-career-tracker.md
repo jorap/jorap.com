@@ -14,7 +14,7 @@ related_notes:
   - complete-the-cycle
 featured: false
 draft: false
-lastmod: "2026-07-28T21:11:00Z"
+lastmod: "2026-07-28T21:54:00Z"
 ---
 
 I've been following Alex Eala's career since her run at the **2025 Miami Open** - watching a Filipina rise through the WTA ranks in real time is something I never thought I'd get to do in my lifetime. This page is my running scrapbook for it. I update it when something happens worth pinning, not on a schedule.
@@ -662,6 +662,7 @@ Draw roulette - no H2H yet, or only one meeting years ago. Andreeva is the one I
 - [Mirra Andreeva](https://www.wtatennis.com/head-to-head/330332/331809) - Career High No. 5; Alex Eala defeated her when she won the 2022 Junior US Open
 - [Paula Badosa](https://www.wtatennis.com/head-to-head/330332/320124) - Career High No. 2
 - [Belinda Bencic](https://www.wtatennis.com/head-to-head/330332/319001) - Career High No. 4; Olympic gold medalist; 2026 Rome semifinalist
+- [Lois Boisson](https://www.wtatennis.com/head-to-head/330332/328884) - Career High No. 34; 2025 French Open semifinalist
 - [Maja Chwalinska](https://www.wtatennis.com/head-to-head/330332/325639) - Career High No. 21; 2026 French Open finalist
 - [Sofia Kenin](https://www.wtatennis.com/head-to-head/330332/320942) - Career High No. 4; 2020 Australian Open Winner
 - [Emma Navarro](https://www.wtatennis.com/head-to-head/330332/325410) - Career High No. 8; 2025 Strasbourg Winner; rising American top-20 fixture
