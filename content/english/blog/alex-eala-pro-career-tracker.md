@@ -3,7 +3,7 @@ title: "Alex Eala Pro Career Tracker"
 meta_title: "Alex Eala WTA Career Tracker - Rankings and Matches"
 description: "My running scrapbook of Alex Eala's WTA career - rankings, matches I'll never forget, and matchups I'm watching for next."
 slug: "alex-eala-pro-career-tracker"
-date: "2026-07-13T05:00:00Z"
+date: "2026-07-29T05:00:00Z"
 image: "/images/alex-eala.jpg"
 categories: ["Sports", "Filipino", "People"]
 author: "JoRap"
@@ -14,7 +14,7 @@ related_notes:
   - complete-the-cycle
 featured: false
 draft: false
-lastmod: "2026-07-18T23:50:00Z"
+lastmod: "2026-07-28T21:11:00Z"
 ---
 
 I've been following Alex Eala's career since her run at the **2025 Miami Open** - watching a Filipina rise through the WTA ranks in real time is something I never thought I'd get to do in my lifetime. This page is my running scrapbook for it. I update it when something happens worth pinning, not on a schedule.
@@ -639,6 +639,20 @@ Champions get the section above. These are the top-20 fixtures that haven't happ
 
 ---
 
+### Qinwen Zheng
+
+- [WTA Profile](https://www.wtatennis.com/players/328120/qinwen-zheng)
+- [Head to Head](https://www.wtatennis.com/head-to-head/330332/328120)
+- **Career High Singles:** No. 4
+
+**Matches:**
+
+- **2026 Washington (Hard)** - Round of 32, WIN, 4-6, 6-4, 6-1 | [wtatennis.com](https://www.wtatennis.com/tournaments/1045/washington-dc/2026/scores/LS029) | [tennis.com](https://www.tennis.com/tournaments/mubadala-dc-open/matches/a-eala-vs-q-zheng-2026-07-28)
+
+{{< youtube _z06v_b8bIM >}}
+
+---
+
 ## Matches to Watch Out For
 
 Draw roulette - no H2H yet, or only one meeting years ago. Andreeva is the one I circle because of the 2022 junior US Open final.
@@ -648,13 +662,13 @@ Draw roulette - no H2H yet, or only one meeting years ago. Andreeva is the one I
 - [Mirra Andreeva](https://www.wtatennis.com/head-to-head/330332/331809) - Career High No. 5; Alex Eala defeated her when she won the 2022 Junior US Open
 - [Paula Badosa](https://www.wtatennis.com/head-to-head/330332/320124) - Career High No. 2
 - [Belinda Bencic](https://www.wtatennis.com/head-to-head/330332/319001) - Career High No. 4; Olympic gold medalist; 2026 Rome semifinalist
+- [Maja Chwalinska](https://www.wtatennis.com/head-to-head/330332/325639) - Career High No. 21; 2026 French Open finalist
 - [Sofia Kenin](https://www.wtatennis.com/head-to-head/330332/320942) - Career High No. 4; 2020 Australian Open Winner
 - [Emma Navarro](https://www.wtatennis.com/head-to-head/330332/325410) - Career High No. 8; 2025 Strasbourg Winner; rising American top-20 fixture
 - [Naomi Osaka](https://www.wtatennis.com/head-to-head/330332/319998) - Career High No. 1; 2021, 2019 Australian Open and 2020, 2018 US Open Winner
 - [Emma Raducanu](https://www.wtatennis.com/head-to-head/330332/328366) - Career High No. 10; 2021 US Open Winner
 - [Aryna Sabalenka](https://www.wtatennis.com/head-to-head/330332/320760) - Career High No. 1; 2024, 2023 Australian Open and 2024 US Open Winner
-- [Diana Shnaider](https://www.wtatennis.com/head-to-head/330332/330482) - Career High No. 15; 2026 Roland Garros semifinalist; 2025 Monterrey champion
-- [Qinwen Zheng](https://www.wtatennis.com/head-to-head/330332/328120) - Career High No. 5; 2024 Olympic gold and Roland Garros finalist
+- [Diana Shnaider](https://www.wtatennis.com/head-to-head/330332/330482) - Career High No. 11; 2026 Roland Garros semifinalist; 2025 Monterrey champion
 
 ---
 
