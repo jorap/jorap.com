@@ -93,6 +93,9 @@ Draft posts show *(draft)* in the list.
 | **Google Drive** is my belt-and-suspenders backup beside Git. | [Why I Prefer the Google Ecosystem](/blog/google-over-apple-ecosystem/) |
 | **Google Photos** is the family camera roll on the same account. | [Why I Prefer the Google Ecosystem](/blog/google-over-apple-ecosystem/) |
 | For my own phone shopping I **skip Samsung on price**; I **don't own a Xiaomi phone** right now. | [Xiaomi Is the New Huawei](/blog/xiaomi-is-the-new-huawei/) *(draft)* |
+| **Linux Mint** desktop: **Ryzen 5 8500G**, **Radeon 740M**, **32 GB RAM**, no swap. Conservative local-AI GPU budget **~12 GB** (GTT); CPU path **~25 GB**. Signal Coders **Tier 1** on GPU, **Tier 2** on CPU/Bonsai. | [Local AI on My Linux Desktop, Windows Laptop, and M4 MacBook](/blog/local-ai-my-machines/) *(draft)* |
+| **Windows laptop** **WebFX-G15**: **i5-13450HX**, **6 GB VRAM**, **16 GB RAM**. Conservative GPU budget **~5 GB**; Signal Coders **Tier 0** daily, **Bonsai 27B** stretch only. | [Local AI on My Linux Desktop, Windows Laptop, and M4 MacBook](/blog/local-ai-my-machines/) *(draft)* |
+| **MacBook Pro M4 24 GB** - conservative local-AI GPU budget **~16 GB** unified memory; Signal Coders **Tier 1** daily, **Tier 2** when closed up. | [Local AI on My Linux Desktop, Windows Laptop, and M4 MacBook](/blog/local-ai-my-machines/) *(draft)* |
 
 ---
 
