@@ -7,7 +7,8 @@ description: >-
   content/english/blog/, writing blog meta_title and description, matching JoRap's
   writing style, or when posts sound generic, SEO-ish, stiff, or AI-generated.
   Runs seven rewrite passes (lived-in, de-AI, thinking, friend-flow, POV, credible,
-  editor) plus likability lens before publish. For notes garden frontmatter, use garden-voice instead.
+  editor) plus likability lens before publish. Read author-context.md and the facts
+  ledger before personal posts. For notes garden frontmatter, use garden-voice instead.
 ---
 
 # JoRap Voice (Blog)
@@ -17,6 +18,8 @@ Keep blog posts sounding like JoRap wrote them - practical, personal, and plain-
 **Primary test:** Would a reader think a real person typed this after using the thing? If it reads like a summary of what a good post *should* say, rewrite it.
 
 **Notes garden** (`description`, `key_concept`, `examples`, `shareable_thought`, EP scripture) uses [garden-voice](../garden-voice/SKILL.md), not this skill. See garden-voice **When to use which** for how these seven passes map to per-field garden work.
+
+**Author context** - who JoRap is in the archive (family, stack, gear, gaps). See [author-context.md](author-context.md). Canonical ledger: `content/english/blog/__interesting-facts-about-jorap.md` (always draft; never publish). Read before posts that touch personal facts; don't contradict the ledger or invent unmapped pop-culture/sports picks. On archive reviews or new personal facts, update the ledger and sync `author-context.md` quick anchors.
 
 ## When to use
 
@@ -28,17 +31,18 @@ Keep blog posts sounding like JoRap wrote them - practical, personal, and plain-
 
 ## Workflow
 
-1. **Read 1-2 reference posts** in the same category before writing:
+1. **Read [author-context.md](author-context.md)** and skim the relevant sections of `content/english/blog/__interesting-facts-about-jorap.md` when the post might mention family, faith, Philippines context, gear, work stack, games, or worship. Match ledger facts; don't invent gap-table topics.
+2. **Read 1-2 reference posts** in the same category before writing:
    - **Gear / reviews:** `content/english/blog/what-i-look-for-in-wireless-earphones.md`
    - **Tech / how-to:** `content/english/blog/how-i-built-jorap-notes.md`
    - **Tips:** `content/english/blog/mouse-wheel-click.md`
    - **Opinion:** `content/english/blog/why-i-stopped-playing-marvel-snap.md`
-2. **Draft in the author's voice**, not a generic blogger voice.
-3. **Score before and after** — `pnpm slop:score path/to/draft.md` before passes; rerun after. The per100w score should drop.
-4. **Run the seven rewrite passes** (below) - mandatory, even on small edits. Skim all seven on every edit; deep-rewrite any section that fails more than one pass.
-5. **Run the likability lens** (below) - mandatory before publish.
-6. **Run the voice check** (below) before finishing.
-7. For before/after samples and anti-patterns, see [examples.md](examples.md).
+3. **Draft in the author's voice**, not a generic blogger voice.
+4. **Score before and after** — `pnpm slop:score path/to/draft.md` before passes; rerun after. The per100w score should drop.
+5. **Run the seven rewrite passes** (below) - mandatory, even on small edits. Skim all seven on every edit; deep-rewrite any section that fails more than one pass.
+6. **Run the likability lens** (below) - mandatory before publish.
+7. **Run the voice check** (below) before finishing.
+8. For before/after samples and anti-patterns, see [examples.md](examples.md).
 
 ## Voice pillars
 
@@ -277,6 +281,7 @@ Recipe content can be more instructional - ingredients, steps, timings - but sec
 - [ ] Would sound natural read aloud by a person, not narrated by a help article
 - [ ] Frontmatter description sounds like the author, not an SEO bot
 - [ ] Passes the swap test: couldn't paste this into a random tech blog without it feeling off
+- [ ] Personal facts match the ledger (`__interesting-facts-about-jorap.md`); no invented pop-culture or sports picks from gap tables
 - [ ] Likability lens: useful takeaway, honest friction, human specific, respectful tone (not performative warmth)
 - [ ] `pnpm lint:voice` clean (dashes + AI-tell words)
 

@@ -16,7 +16,7 @@ Keep notes garden frontmatter sounding like JoRap wrote them - practical, person
 
 **Primary test:** Would a reader think a real person typed this after living the thing? If it reads like a summary of what a good note *should* say, rewrite it.
 
-**Blog posts** use [jorap-voice](../jorap-voice/SKILL.md), not this skill.
+**Blog posts** use [jorap-voice](../jorap-voice/SKILL.md), not this skill. Personal facts (Pia, Davis, stack, Philippines) live in [jorap-voice author-context](../jorap-voice/author-context.md) - match those when grounding notes.
 
 ## When to use
 

@@ -55,7 +55,7 @@ Smaller maps, card decks instead of boards, win conditions you can actually reac
 
 Toy-store classics often punish you for not already being good at the game. Scrabble rewards vocabulary you either have or you don't. Boggle rewards speed-reading letter grids. Monopoly rewards whoever lasts longest at the table. None of that is a decision I get to make on my turn.
 
-I even tried **chess**. I learned from **Chessmaster**, practiced openings, felt like I was getting somewhere. Then I sat down against someone who had played a lot but never bothered with theory - and got humiliated in about ten moves. The attacks they used weren't in my training. Everything I had studied meant nothing. I walked away feeling like I had **wasted my time** learning a game where the gap between "I finished the tutorial" and "this person has played a thousand games" is a canyon. Chess is a great game. It's not a great game **for me**.
+I even tried **chess**. I learned from **Chessmaster**, practiced openings, felt like I was getting somewhere. Then I sat down against someone who had played a lot but never bothered with theory - and lost in about twenty moves. The way they took my pieces wasn't covered anywhere in my training. Everything I had studied meant nothing. I walked away feeling like I had **wasted my time** learning a game where the gap between "I finished the tutorial" and "this person has played a thousand games" is a canyon. Chess is a great game. It's not a great game **for me**.
 
 Modern games put the interesting part in **your hands**.
 
@@ -125,6 +125,6 @@ That's fine for the rest of the shelf. I'm already picking boxes with a kid in m
 
 When he's ready, I want him to learn on **decisions**, not dice. I want his first memories of board games to be building a route, bluffing badly on purpose, or groaning when someone picks the wrong pile - not going bankrupt because he landed on Park Place. **Monopoly Deal** might be the first Monopoly he ever finishes.
 
-If you've only ever met board games through the toy-store aisle, I get the skepticism. I never finished Monopoly. Scrabble made me feel dumb. Chessmaster didn't survive one real game against someone who'd played a thousand times. **Modern hobby games are a different shelf entirely** - shorter, sharper, and built for a table that has other plans tonight.
+If you've only ever met board games through the toy-store aisle, I get the skepticism. I never finished Monopoly. Scrabble made me feel dumb. Chessmaster didn't survive one real game - about twenty moves, pieces coming off the board in ways the tutorial never named. **Modern hobby games are a different shelf entirely** - shorter, sharper, and built for a table that has other plans tonight.
 
 Look for a play-time number around thirty minutes on the box. Try **Sushi Go!**, **Monopoly Deal**, a small-map **Ticket to Ride**, or **Dixit** before you buy the big heavy thing. Teach it in ten. Play twice. If the table wants a third round and you're still under an hour, you found the right one.

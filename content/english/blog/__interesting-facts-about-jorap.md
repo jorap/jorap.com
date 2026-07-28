@@ -17,6 +17,8 @@ draft: true
 
 Every so often I wonder if this site still sounds like me, or like a pile of posts that happen to share a byline. So I did the obvious thing: I read my own archive and pulled out **facts about JoRap** - the person, not the brand - into tables below.
 
+This file stays `draft: true` forever. It feeds jorap-voice `author-context.md` so agents don't contradict what's already on the site.
+
 Each row links to the post where I said it. If something feels off, that's the point. Either I changed, or I forgot I wrote it.
 
 Draft posts show *(draft)* in the list.
@@ -34,10 +36,14 @@ Draft posts show *(draft)* in the list.
 | Our birth story reached **GMA News Online**, **24 Oras**, **The 700 Club Asia**, **DZMM Teleradyo**, and **Smart Parenting**. | [The Miracle of Isaiah David](/blog/miracle-isaiah-david/) |
 | We told the story as a **Christian testimony** - how we saw **God** in all of it. The 700 Club invited us back years later with Isaiah running around. | [The Miracle of Isaiah David](/blog/miracle-isaiah-david/) |
 | I have a **six-year-old son** in grade 1. He reads chapter books and chose **Kumon reading** over Kumon math. | [Kumon for the Reps](/blog/grade-1-better-than-kumon/) *(draft)* |
+| Davis says math is **hard**; home leads with **tablet games**, not Kumon-style worksheet rows. | [Kumon for the Reps](/blog/grade-1-better-than-kumon/) *(draft)* |
+| Grade 1 at home: **tablet quiz games** on the site **randomizer** (`grade-1-quiz`, `grade-1-math-quiz`), then an optional printed line; handwriting includes **postcards to lola**. | [Kumon for the Reps](/blog/grade-1-better-than-kumon/) *(draft)* |
+| Early 2026: **~six weeks into Kumon reading**; math stays at home on the tablet. | [Kumon for the Reps](/blog/grade-1-better-than-kumon/) *(draft)* |
 | I did a **Kumon math trial** years ago. My answers were right; the feedback was **you could do it faster**. | [Kumon for the Reps](/blog/grade-1-better-than-kumon/) *(draft)* |
 | I'm **good at math** and didn't want to hand the subject off to a franchise center for my son. | [Kumon for the Reps](/blog/grade-1-better-than-kumon/) *(draft)* |
-| **Davis** plays **Strike** with his **grandmother** - loud dice game, no reading required. | [Why I Love Modern Board Games](/blog/why-i-love-modern-board-games/) |
+| **Davis** isn't at full hobby-game age yet; **Strike with grandmother** is the kid-table exception - loud dice, no reading. | [Why I Love Modern Board Games](/blog/why-i-love-modern-board-games/) |
 | I **used to** make **arroz caldo most Friday nights** in a **Hanabishi rice cooker**; now it's an **8-quart Instant Pot** (10-12 bowls, ~45 min). | [Set It and Forget It Arroz Caldo](/blog/set-it-forget-it-arroz-caldo/), [Instant Pot Arroz Caldo](/blog/instant-pot-arroz-caldo/) |
+| Arroz caldo now uses **bone-in drumsticks** - boneless thigh fillets disappeared from the local supermarket. | [Instant Pot Arroz Caldo](/blog/instant-pot-arroz-caldo/) |
 | My go-to **chicken adobo** is tuned for an 8-quart Instant Pot and about **2 kg of bone-in thighs**. | [Instant Pot Chicken Adobo](/blog/instant-pot-chicken-adobo/) |
 | I **sear adobo in a separate pan** first - experiencing burn notices in the Instant Pot is annoying. | [Instant Pot Chicken Adobo](/blog/instant-pot-chicken-adobo/) |
 | **Lee & Perrins Worcestershire** goes in my marinades. **Kewpie mayo** is a permanent pantry staple. | [Instant Pot Chicken Adobo](/blog/instant-pot-chicken-adobo/), [Worcestershire Sauce](/blog/worcestershire-sauce/) *(draft)*, [Kewpie Mayo](/blog/kewpie-mayo/) *(draft)* |
@@ -60,6 +66,10 @@ Draft posts show *(draft)* in the list.
 | This site runs on **Hugoplate** because I **already knew Tailwind** - not because the demo looked prettiest. | [HugoPlate Theme Review](/blog/hugoplate-theme-review/), [Why I Still Run My Own Website](/blog/why-run-your-own-website/) |
 | I use **Cursor** for AI-assisted WordPress builds and keep a short **rules doc** so output stays consistent. | [Consistent AI Output for WordPress Builds](/blog/consistent-ai-output-wordpress-builds/) |
 | **JoRap Notes** (linked notes garden) lives on the same Hugo build as the blog - not a separate wiki host. | [How I Built JoRap Notes](/blog/how-i-built-jorap-notes/), [JoRap Notes Features](/blog/jorap-notes-features/) *(draft)* |
+| Private captures stay in **the garage**; public notes ship at `/notes/`. I ran a **parallel private vault ~1 year** before cutting it for **garage → garden → push**. | [Private Notes vs Hugo](/blog/obsidian-vs-hugo/) *(draft)*, [JoRap Notes Features](/blog/jorap-notes-features/) *(draft)* |
+| JoRap Notes adds **flashcards/review**, a **graph**, and **OKF export** on the same Hugo build. | [JoRap Notes Features](/blog/jorap-notes-features/) *(draft)* |
+| HugoPlate has been in production **~1 year+**; theme lives as a **renamed in-repo folder**, not a submodule. | [HugoPlate Theme Review](/blog/hugoplate-theme-review/) |
+| Client pass-off picks one lane: **Git lesson**, **retainer pushes**, **showroom branch**, or **Sveltia CMS**. Real examples: **neighbor portfolio** (Git) and **pastor bulletin** (Friday retainer). | [Client Site Pass-Off](/blog/client-site-pass-off/) *(draft)*, [How I Quote Client Websites](/blog/selling-static-sites/) *(draft)* |
 | I quote client sites as **separate line items** (discovery, build, migration, hosting) - no bundled mystery rent. | [How I Quote Client Websites](/blog/selling-static-sites/) *(draft)* |
 | I run **jorap.com** because social platforms are a **lobby, not a library**. | [Why I Still Run My Own Website](/blog/why-run-your-own-website/), [Sustainable Online Publishing](/blog/sustainable-online-publishing/) |
 | Site maintenance runs about **1-2 hours a month** (Alex Eala updates, YAML fixes). Domain is the only recurring cost. | [Why I Still Run My Own Website](/blog/why-run-your-own-website/) |
@@ -81,6 +91,8 @@ Draft posts show *(draft)* in the list.
 | I **don't watch Apple keynotes** - I read recaps. My Apple rule: **skip the first revision** (M4 MacBook was the exception). | [Apple Is Strategically Late](/blog/apple-strategically-late/) *(draft)* |
 | I recommend **Redmi** from official stores for relatives; I skip **POCO** (gray-import warranty headaches). | [Xiaomi Is the New Huawei](/blog/xiaomi-is-the-new-huawei/) *(draft)* |
 | **Google Drive** is my belt-and-suspenders backup beside Git. | [Why I Prefer the Google Ecosystem](/blog/google-over-apple-ecosystem/) |
+| **Google Photos** is the family camera roll on the same account. | [Why I Prefer the Google Ecosystem](/blog/google-over-apple-ecosystem/) |
+| For my own phone shopping I **skip Samsung on price**; I **don't own a Xiaomi phone** right now. | [Xiaomi Is the New Huawei](/blog/xiaomi-is-the-new-huawei/) *(draft)* |
 
 ---
 
@@ -91,6 +103,8 @@ Draft posts show *(draft)* in the list.
 | **Bitwarden** on laptop, phone, and browser - **free plan**, not family. | [Password Managers](/blog/password-managers/) *(draft)* |
 | Top of my migration list: email, bank, **GCash**, social, shopping sites I actually use. | [Password Managers](/blog/password-managers/) *(draft)* |
 | I keep a **second cellphone** - underpowered, in a drawer or bag - with **bank apps** on it, away from daily-driver use. | [2nd Cellphone](/blog/second-cellphone/) *(draft)* |
+| Second phone partly because I **hand the daily driver to my kid** for games/maps/photos while banking lived on the same screen. | [2nd Cellphone](/blog/second-cellphone/) *(draft)* |
+| Personal browsing syncs via **Brave Sync chain**; recovery phrase stored in **Bitwarden** (passwords stay in Bitwarden only). | [Why Brave Is My Personal Browser](/blog/why-brave-browser/) *(draft)* |
 
 ---
 
@@ -105,6 +119,8 @@ Draft posts show *(draft)* in the list.
 | A **short extension cord** (~2 m) lives in my laptop bag for hotel outlets and blocked café sockets. | [The Short Extension Cord in My Laptop Bag](/blog/extension-cord/) |
 | In the bag I carry a **plain extension cord**; the **surge strip stays at the desk**. | [The Short Extension Cord in My Laptop Bag](/blog/extension-cord/) |
 | Remote-work bag also packs: dedicated power cord, keyboard, mouse, stand, mat, USB fan. | [Remote Work Checklist](/blog/remote-work-checklist/) *(draft)* |
+| The remote-work checklist started after a **Biñan café** fail - laptop at **4%**, outlet out of reach. | [Remote Work Checklist](/blog/remote-work-checklist/) *(draft)* |
+| Long days out add **HDMI adapter**, **paper notebook**, and a **backup battery**. | [Remote Work Checklist](/blog/remote-work-checklist/) *(draft)* |
 | Most wireless earphones I've bought ended up in a **drawer within a month**. | [What I Look For in Wireless Earphones](/blog/what-i-look-for-in-wireless-earphones/) |
 | I want **open-ear** earphones partly to hear **jeepneys** (and my kid, and the doorbell) on walks and commutes. | [What I Look For in Wireless Earphones](/blog/what-i-look-for-in-wireless-earphones/) |
 | I wear **glasses** and want **real buttons**, not touch controls, on earphones. | [What I Look For in Wireless Earphones](/blog/what-i-look-for-in-wireless-earphones/) |
@@ -113,8 +129,22 @@ Draft posts show *(draft)* in the list.
 | I **shop on Shopee** and filter for **local sellers** near sorting centers like Parañaque and Biñan. | [Shopee Tips](/blog/shopee-tips/) *(draft)* |
 | I use **Inoreader** for RSS (free tier; most setups land around **20-30 feeds**). | [RSS Feeds - What I Wish I'd Done Sooner](/blog/getting-started-with-rss-feeds/) |
 | I still need **Facebook for Messenger**; I mostly **stopped using the main feed** and check **Favorites** for people I picked. | [Facebook's Hidden Gem: The Favorites Feed](/blog/facebook-favorites-feed/) |
+| Facebook **Favorites** is mom's trip photos, church updates, close friends - **Sunday scroll, then close**. | [Facebook's Hidden Gem: The Favorites Feed](/blog/facebook-favorites-feed/) |
 | I keep a modest **supplement stack** (D3, zinc, C, elderberry) when sleep and food slip - I can't control every virus on a **jeepney**. | [Personal Immune Booster Supplements](/blog/immune-booster-supplements/) *(draft)* |
+| Last rainy season: **three colds in eight weeks** - **jeepney commute + school pickup**. | [Personal Immune Booster Supplements](/blog/immune-booster-supplements/) *(draft)* |
 | Home printer is a **Canon G3000** ink-tank (school forms). I use **smart plugs** for lamps and fans. | [Canon G3000](/blog/canon-g3000/) *(draft)*, [Smart Plug](/blog/smart-plug/) *(draft)* |
+| Household rechargeables are **Eneloop-style low-self-discharge NiMH**; **smoke alarms stay on alkalines**. | [Rechargeable Batteries](/blog/rechargeable-batteries/) *(draft)* |
+
+---
+
+## Health and habits
+
+| Fact | Where I said it |
+| :--- | :--- |
+| My back gets stiff after long **WordPress build weeks** - couch laptop, skipped lunch. **McGill Big Three** is bookmarked, not a daily habit yet. | [McGill's Big Three](/blog/mcgill-big-three/) *(draft)* |
+| Morning writing cue: **open Hugo draft folder after breakfast** (same chair, same mug). | [How to Create a Good Habit](/blog/how-to-create-a-good-habit/) *(draft)* |
+| Writing streak tracked on a **paper wall calendar**, not a streak app. | [How to Create a Good Habit](/blog/how-to-create-a-good-habit/) *(draft)* |
+| Phone rules: **charger in kitchen**, **grayscale after 9 PM**, **logged out of doom-scroll apps**, **alarm across the room**. | [How to Create a Good Habit](/blog/how-to-create-a-good-habit/) *(draft)* |
 
 ---
 
@@ -135,7 +165,7 @@ Draft posts show *(draft)* in the list.
 | :--- | :--- |
 | Hard preference: games end in about **thirty minutes**; one hour is the worst I'll tolerate. | [Why I Love Modern Board Games](/blog/why-i-love-modern-board-games/) |
 | I **never finished Monopoly** as a kid. **Monopoly Deal** is the version I can actually complete. | [Why I Love Modern Board Games](/blog/why-i-love-modern-board-games/), [Streamlining Games and Sports](/blog/streamlining-games-and-sports/) *(draft)* |
-| I learned **chess** from **Chessmaster**, then got humiliated in ~ten moves by someone who'd played many games. | [Why I Love Modern Board Games](/blog/why-i-love-modern-board-games/) |
+| I learned **chess** from **Chessmaster**, then lost in ~twenty moves - the way they took my pieces wasn't covered in my training. | [Why I Love Modern Board Games](/blog/why-i-love-modern-board-games/), [Streamlining Games and Sports](/blog/streamlining-games-and-sports/) *(draft)* |
 | I **quit Marvel Snap** after cube anxiety and the meta treadmill - and **never spent a cent** on it. | [Why I Stopped Playing Marvel Snap](/blog/why-i-stopped-playing-marvel-snap/) |
 | I'm **not a comics or anime fan** - Marvel Snap worked anyway because the characters were already in the culture. | [Why I Stopped Playing Marvel Snap](/blog/why-i-stopped-playing-marvel-snap/) |
 | Board games replaced Snap's daily login - **the game waits in the box** instead of pinging my phone. | [Why I Love Modern Board Games](/blog/why-i-love-modern-board-games/) |
@@ -143,10 +173,15 @@ Draft posts show *(draft)* in the list.
 | I rethemed Hanamikoji as **Duopoly** for home play - cut components, no retail art, private deck only. | [Hanamikoji Duopoly Retheme](/blog/hanamikoji-duopoly-retheme/) |
 | I print **1-page zines** (eight pages from one letter-size sheet) for **board game rules** at home. | [One Sheet, Eight Pages](/blog/one-page-zine/) |
 | Travel game **zip pouch** in the same bag as laptop charger and extension cord - card games only. | [Why I Love Modern Board Games](/blog/why-i-love-modern-board-games/) |
-| Shelf favorites include **Jaipur**, **Santorini**, **Dixit**, **Sushi Go!**, **Strike**, **Century**, **Ohanami**, **Jungo**. | [Why I Love Modern Board Games](/blog/why-i-love-modern-board-games/) |
+| Shelf favorites include **Jaipur**, **Santorini**, **Dixit**, **Sushi Go!**, **Strike**, **Century**, **Ohanami**, **Jungo**, plus **Las Vegas**, **Deception**, **Monopoly Deal**, **Ticket to Ride: London/New York**, **Catan: On the Road**. | [Why I Love Modern Board Games](/blog/why-i-love-modern-board-games/), [Streamlining Games and Sports](/blog/streamlining-games-and-sports/) *(draft)* |
+| **Trivial Pursuit** is a personal yes; most of my table won't play it. | [Why I Love Modern Board Games](/blog/why-i-love-modern-board-games/) |
 | **Jungo** survived a province trip in the back seat. | [Why I Love Modern Board Games](/blog/why-i-love-modern-board-games/) |
+| Travel pouch also packs **Vegetable Stock**, **Rainbow**, and sometimes **Fluxx**. | [Why I Love Modern Board Games](/blog/why-i-love-modern-board-games/), [Streamlining Games and Sports](/blog/streamlining-games-and-sports/) *(draft)* |
+| I've **never played original Catan**; **Monopoly Deal** is the entry I teach instead. | [Streamlining Games and Sports](/blog/streamlining-games-and-sports/) *(draft)* |
 | I've followed **Alex Eala** since her **2025 Miami Open** run and keep a living career tracker on this site. | [Alex Eala Pro Career Tracker](/blog/alex-eala-pro-career-tracker/) |
+| Alex Eala tracker updates **when news merits, not on a schedule**; I keep **WTA + Tennis.com** open during Slams. | [Alex Eala Pro Career Tracker](/blog/alex-eala-pro-career-tracker/) |
 | I still follow **Test cricket** and the **Ashes** (Australia vs England); **T20** is what I'd watch casually. | [Streamlining Games and Sports](/blog/streamlining-games-and-sports/) *(draft)* |
+| **Boxing:** main-event highlights, not full cards after the undercard. | [Streamlining Games and Sports](/blog/streamlining-games-and-sports/) *(draft)* |
 | When I play racket sports in a small room, it's **pickleball or badminton** - not tennis. | [Streamlining Games and Sports](/blog/streamlining-games-and-sports/) *(draft)* |
 
 ---
@@ -188,7 +223,7 @@ The rows below are prompts for future me (or a curious reader). No links yet - t
 | Basketball: NBA on TV, 3x3 in a barangay court, or both? | The streamlining post argues for shorter clocks. My own habit is still TBD. |
 | Volleyball - UAAP, Olympics beach, or just the rally when it's on in a waiting room? | Huge in the Philippines. No row for it yet. |
 | Football/soccer - World Cup only, a club I check scores for, or futsal when there's a hard court free? | Same shrink-the-space essay. Different answer for watch vs play. |
-| Boxing or MMA - full card, main event highlights, or changed the channel after the undercard? | I admitted I stopped sitting through heavyweight cards. Didn't say what I still watch. |
+| MMA - full card, main event highlights, or changed the channel after the undercard? | Boxing is pinned in the table above; MMA still unmapped. |
 | Swimming, track, gymnastics - Olympics-only, or a sport I'd seek out off-year? | Short-course vs long-course made it into a draft. My fan pattern didn't. |
 | Cricket beyond the Ashes - IPL, a Test I'd travel for, or nothing? | I follow Tests and watch T20 casually. The middle ground is fuzzy. |
 | Local leagues - PBA, UAAP, or barangay liga I'd actually show up for? | Alex Eala is international tennis. Home-court taste is empty. |
