@@ -46,7 +46,7 @@ image: "/images/note.jpg"
 categories: ["Faith"]
 author: "JoRap"
 tags: ["Gospel", "Eternal Principles", "Free Grace", "Community", "Discipleship"]
-aliases: ["bear one another's burdens", "Galatians 6:2"]
+aliases: ["bear one another's burdens"]
 featured: false
 review: true
 card_sets: ["Eternal Principles", "Gospel", "Discipleship"]

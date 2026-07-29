@@ -43,7 +43,7 @@ image: "/images/note.jpg"
 categories: ["Faith"]
 author: "JoRap"
 tags: ["Gospel", "Jesus Christ", "Jesus Prayers", "Faith", "Prayer"]
-aliases: ["John 12:28 prayer", "glorify your name prayer"]
+aliases: ["John 12-28 prayer", "glorify your name prayer"]
 featured: false
 review: true
 card_sets: ["Jesus Prayers", "Gospel", "Faith", "Prayer"]

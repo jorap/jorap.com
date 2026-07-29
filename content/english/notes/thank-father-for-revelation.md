@@ -44,7 +44,7 @@ image: "/images/note.jpg"
 categories: ["Faith"]
 author: "JoRap"
 tags: ["Gospel", "Jesus Christ", "Jesus Prayers", "Faith", "Prayer"]
-aliases: ["Luke 10:21 prayer", "thanksgiving prayer of Jesus"]
+aliases: ["Luke 10-21 prayer", "thanksgiving prayer of Jesus"]
 featured: false
 review: true
 card_sets: ["Jesus Prayers", "Gospel", "Faith", "Prayer"]

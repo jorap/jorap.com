@@ -8,7 +8,7 @@
  *   node scripts/lint-filenames.mjs --walk       # working tree (incl. untracked)
  */
 import { spawnSync } from "node:child_process";
-import { readdirSync, statSync } from "node:fs";
+import { readFileSync, readdirSync, statSync } from "node:fs";
 import { join } from "node:path";
 import { projectRoot } from "./spawnUtil.mjs";
 
@@ -70,6 +70,55 @@ export function checkFilenameComponent(name) {
   return issues;
 }
 
+/** @returns {string[]} */
+export function checkAlias(alias) {
+  const trimmed = alias.trim();
+  if (!trimmed) return ["empty alias"];
+  const segments = trimmed.replace(/^\/+|\/+$/g, "").split("/");
+  const issues = [];
+  for (const segment of segments) {
+    if (!segment) continue;
+    for (const issue of checkFilenameComponent(segment)) {
+      issues.push(`${segment}: ${issue}`);
+    }
+  }
+  return issues;
+}
+
+const ALIAS_CONTENT_DIRS = [
+  "content/english/notes",
+  "content/english/blog",
+];
+
+function parseAliasesFromFile(relPath) {
+  const content = readFileSync(join(projectRoot, relPath), "utf8");
+  const match = content.match(/^aliases:\s*(.+)$/m);
+  if (!match) return [];
+  const line = match[1].trim();
+  const quoted = line.match(/"([^"]*)"/g);
+  if (!quoted) return [];
+  return quoted.map((s) => s.slice(1, -1));
+}
+
+function lintAliases() {
+  const hits = [];
+  let scanned = 0;
+  for (const dir of ALIAS_CONTENT_DIRS) {
+    const abs = join(projectRoot, dir);
+    if (!statSync(abs).isDirectory()) continue;
+    for (const entry of readdirSync(abs)) {
+      if (!entry.endsWith(".md")) continue;
+      scanned += 1;
+      const rel = `${dir}/${entry}`;
+      for (const alias of parseAliasesFromFile(rel)) {
+        const issues = checkAlias(alias);
+        if (issues.length) hits.push({ path: rel, component: alias, issues });
+      }
+    }
+  }
+  return { hits, scanned };
+}
+
 function gitTrackedFiles() {
   const result = spawnSync("git", ["ls-files", "-z"], {
     cwd: projectRoot,
@@ -110,6 +159,13 @@ function runSelfCheck() {
     ["a".repeat(201) + ".md", ["name too long (>200 bytes)"]],
   ];
 
+  const aliasCases = [
+    ["living sacrifice", []],
+    ["/notes/cards/", []],
+    ["Romans 12:1", ['Romans 12:1: forbidden char: ":"']],
+    ["80/20", []],
+  ];
+
   let failed = 0;
   for (const [name, expected] of cases) {
     const got = checkFilenameComponent(name);
@@ -123,37 +179,40 @@ function runSelfCheck() {
       );
     }
   }
+  for (const [alias, expected] of aliasCases) {
+    const got = checkAlias(alias);
+    const ok =
+      got.length === expected.length &&
+      expected.every((issue) => got.includes(issue));
+    if (!ok) {
+      failed += 1;
+      console.error(
+        `  FAIL alias ${JSON.stringify(alias)} expected ${JSON.stringify(expected)} got ${JSON.stringify(got)}`,
+      );
+    }
+  }
   if (failed) {
     console.error(`\n${failed} self-check assertion(s) failed`);
     process.exit(1);
   }
-  console.log(`lint-filenames self-check OK (${cases.length} cases)`);
+  console.log(
+    `lint-filenames self-check OK (${cases.length + aliasCases.length} cases)`,
+  );
 }
 
-function lintPathsFromHits(hits, label, scanned) {
+function lintPathsFromHits(hits, label, scanned, kind = "path component") {
+  const plural = kind === "alias" ? "aliases" : `${kind}s`;
   console.log(`${label}: scanned ${scanned} path(s)`);
   if (!hits.length) {
-    console.log("No cross-platform unsafe filenames found.");
+    console.log(`No cross-platform unsafe ${plural} found.`);
     return 0;
   }
   for (const { path, component, issues } of hits) {
     console.error(`${path}  [${component}]`);
     for (const issue of issues) console.error(`  - ${issue}`);
   }
-  console.error(`\n${hits.length} unsafe path component(s)`);
+  console.error(`\n${hits.length} unsafe ${plural}`);
   return 1;
-}
-
-function lintPaths(paths, label) {
-  const hits = [];
-  for (const rel of paths) {
-    const parts = rel.replace(/\\/g, "/").split("/");
-    for (const part of parts) {
-      const issues = checkFilenameComponent(part);
-      if (issues.length) hits.push({ path: rel, component: part, issues });
-    }
-  }
-  return lintPathsFromHits(hits, label, paths.length);
 }
 
 function main() {
@@ -168,7 +227,26 @@ function main() {
     process.exit(lintPathsFromHits(hits, "Working tree", scanned));
   }
 
-  process.exit(lintPaths(gitTrackedFiles(), "Git tracked"));
+  const pathHits = [];
+  const paths = gitTrackedFiles();
+  for (const rel of paths) {
+    const parts = rel.replace(/\\/g, "/").split("/");
+    for (const part of parts) {
+      const issues = checkFilenameComponent(part);
+      if (issues.length) pathHits.push({ path: rel, component: part, issues });
+    }
+  }
+  const pathCode = lintPathsFromHits(pathHits, "Git tracked", paths.length);
+
+  const { hits: aliasHits, scanned: aliasScanned } = lintAliases();
+  const aliasCode = lintPathsFromHits(
+    aliasHits,
+    "Frontmatter aliases",
+    aliasScanned,
+    "alias",
+  );
+
+  process.exit(pathCode || aliasCode);
 }
 
 main();

@@ -45,7 +45,7 @@ image: "/images/note.jpg"
 categories: ["Faith"]
 author: "JoRap"
 tags: ["Gospel", "Eternal Principles", "Discipleship", "Jesus Christ"]
-aliases: ["count cost before building", "Luke 14:28"]
+aliases: ["count cost before building"]
 featured: false
 review: true
 card_sets: ["Eternal Principles", "Gospel", "Discipleship"]

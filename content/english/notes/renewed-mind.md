@@ -149,7 +149,7 @@ image: "/images/note.jpg"
 categories: ["Faith"]
 author: "JoRap"
 tags: ["Gospel", "Free Grace", "Eternal Principles", "Discipleship", "Sanctification", "Romans"]
-aliases: ["renewing of the mind", "Romans 12:2", "mind renewal"]
+aliases: ["renewing of the mind", "mind renewal"]
 featured: false
 review: true
 card_sets: ["Eternal Principles", "Gospel", "Discipleship"]

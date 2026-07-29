@@ -45,7 +45,7 @@ image: "/images/note.jpg"
 categories: ["Faith"]
 author: "JoRap"
 tags: ["Gospel", "Eternal Principles", "Prayer", "Jesus Christ"]
-aliases: ["daily bread", "give us this day", "Matthew 6:11"]
+aliases: ["daily bread", "give us this day"]
 featured: false
 review: true
 card_sets: ["Eternal Principles", "Gospel", "Prayer"]

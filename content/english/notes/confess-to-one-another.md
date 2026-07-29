@@ -45,7 +45,7 @@ image: "/images/note.jpg"
 categories: ["Faith"]
 author: "JoRap"
 tags: ["Gospel", "Eternal Principles", "Community", "Forgiveness"]
-aliases: ["confess your sins", "James 5:16"]
+aliases: ["confess your sins"]
 featured: false
 review: true
 card_sets: ["Eternal Principles", "Gospel", "Discipleship"]

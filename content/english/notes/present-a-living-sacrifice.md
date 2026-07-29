@@ -54,7 +54,7 @@ image: "/images/note.jpg"
 categories: ["Faith"]
 author: "JoRap"
 tags: ["Gospel", "Free Grace", "Eternal Principles", "Discipleship", "Romans", "Worship"]
-aliases: ["living sacrifice", "Romans 12:1", "holy and pleasing"]
+aliases: ["living sacrifice", "holy and pleasing"]
 featured: false
 review: true
 card_sets: ["Eternal Principles", "Gospel", "Discipleship"]

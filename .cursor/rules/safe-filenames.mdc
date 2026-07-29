@@ -53,12 +53,25 @@ If the user supplied a title or slug, normalize it:
 
 When renaming existing files, grep for references (wikilinks, imports, Hugo `slug` aliases) and update them in the same change.
 
-Verify locally (Windows, Linux, macOS): `pnpm test:filenames` (self-check) or `pnpm lint:filenames` (git-tracked scan).
+## Hugo frontmatter aliases
+
+Hugo writes redirect pages from `aliases` in note and blog frontmatter. On Windows, alias strings with forbidden characters become invalid path components and can fail the build or sync tools.
+
+Apply the same rules as filenames to every alias:
+
+- **Plain-text aliases** (wikilink targets, no slashes): the whole string must be safe — no `:` `*` `?` `<` `>` `|` `"` `\`, control chars, trailing space/dot, or reserved Windows stems.
+- **URL-path aliases** (`/notes/old-slug/`): split on `/`; each non-empty segment must pass the same checks. Slashes between segments are fine when every segment is safe.
+- Bible refs in aliases: use `Romans 12-1` or drop the alias — not `Romans 12:1` (colon is forbidden on Windows).
+- Ratios and similar: `80-20` or `eighty-twenty` — not `80/20` if the slash would create an unintended nested redirect path.
+
+Bad: `aliases: ["Romans 12:1"]`, `aliases: ["report:2026"]`. Good: `aliases: ["romans-12-1"]`, `aliases: ["report-2026"]`, `aliases: ["/notes/cards/"]` (segments `notes`, `cards` are safe).
+
+Verify locally (Windows, Linux, macOS): `pnpm test:filenames` (self-check) or `pnpm lint:filenames` (git-tracked paths + frontmatter aliases).
 
 ## Verify locally
 
 Cross-platform (Windows, Linux, macOS) — Node only, no Python required:
 
 - `pnpm test:filenames` — self-check on the lint rules
-- `pnpm lint:filenames` — scan git-tracked paths
+- `pnpm lint:filenames` — scan git-tracked paths and frontmatter aliases
 - `node scripts/lint-filenames.mjs --walk` — include untracked working-tree paths

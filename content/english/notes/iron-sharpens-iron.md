@@ -45,7 +45,7 @@ image: "/images/note.jpg"
 categories: ["Faith"]
 author: "JoRap"
 tags: ["Gospel", "Eternal Principles", "Community", "Discipleship"]
-aliases: ["iron sharpens iron", "Proverbs 27:17"]
+aliases: ["iron sharpens iron"]
 featured: false
 review: true
 card_sets: ["Eternal Principles", "Gospel", "Discipleship"]

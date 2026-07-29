@@ -44,7 +44,7 @@ image: "/images/note.jpg"
 categories: ["Faith"]
 author: "JoRap"
 tags: ["Gospel", "Jesus Christ", "Jesus Prayers", "Faith", "Prayer"]
-aliases: ["Luke 23:34 prayer", "forgive them prayer"]
+aliases: ["Luke 23-34 prayer", "forgive them prayer"]
 featured: false
 review: true
 card_sets: ["Jesus Prayers", "Gospel", "Faith", "Prayer"]

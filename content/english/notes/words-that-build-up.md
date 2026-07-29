@@ -45,7 +45,7 @@ image: "/images/note.jpg"
 categories: ["Faith"]
 author: "JoRap"
 tags: ["Gospel", "Eternal Principles", "Speech", "Community"]
-aliases: ["edifying speech", "Ephesians 4:29"]
+aliases: ["edifying speech"]
 featured: false
 review: true
 card_sets: ["Eternal Principles", "Gospel", "Ethics"]

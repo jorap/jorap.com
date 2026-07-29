@@ -45,7 +45,7 @@ image: "/images/note.jpg"
 categories: ["Faith"]
 author: "JoRap"
 tags: ["Gospel", "Eternal Principles", "Jesus Christ", "Rest"]
-aliases: ["come unto me weary", "Matthew 11:28"]
+aliases: ["come unto me weary"]
 featured: false
 review: true
 card_sets: ["Eternal Principles", "Gospel", "Discipleship"]

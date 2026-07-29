@@ -45,7 +45,7 @@ image: "/images/note.jpg"
 categories: ["Faith"]
 author: "JoRap"
 tags: ["Gospel", "Eternal Principles", "Wisdom", "Discipleship"]
-aliases: ["guard the heart", "Proverbs 4:23"]
+aliases: ["guard the heart"]
 featured: false
 review: true
 card_sets: ["Eternal Principles", "Gospel", "Discipleship"]

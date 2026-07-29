@@ -45,7 +45,7 @@ image: "/images/note.jpg"
 categories: ["Faith"]
 author: "JoRap"
 tags: ["Gospel", "Eternal Principles", "Free Grace", "Sanctification", "Holy Spirit"]
-aliases: ["walking by the Spirit", "Galatians 5:16"]
+aliases: ["walking by the Spirit"]
 featured: false
 review: true
 card_sets: ["Eternal Principles", "Gospel", "Discipleship"]

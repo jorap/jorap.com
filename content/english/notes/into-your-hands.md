@@ -43,7 +43,7 @@ image: "/images/note.jpg"
 categories: ["Faith"]
 author: "JoRap"
 tags: ["Gospel", "Jesus Christ", "Jesus Prayers", "Faith", "Prayer"]
-aliases: ["Luke 23:46 prayer", "commit my spirit prayer"]
+aliases: ["Luke 23-46 prayer", "commit my spirit prayer"]
 featured: false
 review: true
 card_sets: ["Jesus Prayers", "Gospel", "Faith", "Prayer"]

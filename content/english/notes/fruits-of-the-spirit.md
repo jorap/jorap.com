@@ -56,7 +56,7 @@ image: "/images/note.jpg"
 categories: ["Faith"]
 author: "JoRap"
 tags: ["Gospel", "Eternal Principles", "Galatians", "Theology", "Discipleship", "MOC"]
-aliases: ["fruit of the Spirit", "Galatians 5:22-23 fruit"]
+aliases: ["fruit of the Spirit", "Galatians 5-22-23 fruit"]
 featured: false
 draft: false
 ---

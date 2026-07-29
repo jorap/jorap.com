@@ -37,7 +37,7 @@ image: "/images/note.jpg"
 categories: ["Thinking"]
 author: "JoRap"
 tags: ["Mental Models", "Productivity", "Performance", "Prioritization", "Focus", "Decision Making", "PKM"]
-aliases: ["80/20", "80-20 Rule", "Pareto Principle", "Vilfredo Pareto"]
+aliases: ["80-20 Rule", "Pareto Principle", "Vilfredo Pareto"]
 featured: false
 review: true
 card_sets: ["Focus", "Workflow"]
