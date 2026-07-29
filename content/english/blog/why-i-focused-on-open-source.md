@@ -97,7 +97,7 @@ I still respect Drupal. I don't run my income on it.
 
 ---
 
-## When the host died, open files saved the work
+## When paid hosting wasn't viable, open files saved the work
 
 The stack shift that really locked this in wasn't a CMS debate. It was [losing my old PHP hosting](/blog/how-i-built-jorap-notes/) and a chunk of my work with it.
 
