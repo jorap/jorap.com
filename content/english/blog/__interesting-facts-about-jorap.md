@@ -50,6 +50,16 @@ Draft posts show *(draft)* in the list.
 
 ---
 
+## Education (UPLB)
+
+| Fact | Where I said it |
+| :--- | :--- |
+| **BS Applied Mathematics**, **UP Los Baños**, **2001**; **Graduate Diploma in Computer Science**, **2003**. | [About](/about/), [Optimized Mindset From Applied Math OR](/blog/optimized-mindset-applied-math-or/) *(draft)* |
+| Applied Math **Operations Research** track - partly a **strategy to dodge the CS quota** crowd, not a childhood dream major. | [Optimized Mindset From Applied Math OR](/blog/optimized-mindset-applied-math-or/) *(draft)* |
+| OR framing that stuck: **state the goal, name constraints, pick a feasible move, revisit when inputs change** - not daily simplex tables. | [Optimized Mindset From Applied Math OR](/blog/optimized-mindset-applied-math-or/) *(draft)* |
+
+---
+
 ## Freelance WordPress, Hugo on Cloudflare
 
 | Fact | Where I said it |
