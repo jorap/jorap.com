@@ -10,9 +10,11 @@ author: "JoRap"
 tags: ["Portable Software", "Cross-Platform", "Windows", "Linux", "macOS", "PortableApps.com", "Beyond Compare", "XAMPP", "Developer Tools", "Workflow"]
 related_notes:
   - freedom-over-free
-  - future-proofing-knowledge
+  - portable-software
+  - cross-platform-software
   - inspectable-stack
-  - open-source
+  - teachable-stack
+  - future-proofing-knowledge
   - git-based-cms
   - free-tier-hosting-stack
 featured: false

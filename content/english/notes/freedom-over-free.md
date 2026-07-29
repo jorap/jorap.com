@@ -8,7 +8,7 @@ key_concept: |
   - Level 2: Free is like a free sample at the counter - freedom is owning the recipe and the pantry key, not just skipping the ticket price.
   - Level 3: Because proprietary stacks rent permission, open tools let you hand a client files they keep instead of a login to your dashboard.
   - Level 4: Budget time to learn - WordPress took months before I trusted a live site; open source skips the license, not the skill curve.
-  - Level 5: [[Open Source]] is the shelf; [[Future-Proofing Knowledge]] is freedom applied to notes - test the export before the app locks you in.
+  - Level 5: [[Future-Proofing Knowledge]] is freedom applied to notes - test the export before the app locks you in.
   - Domains still cost money - Bitwarden paid tier earned the invoice when self-hosting would eat a weekend.
   - Freedom still costs evenings - tutorials, broken staging, plugin configs that almost worked.
 examples:
@@ -27,8 +27,8 @@ relationships:
     wikilink: "[[Future-Proofing Knowledge]]"
     reason: "Freedom over free applied to notes - tested exports beat vendor promises"
   - type: extends
-    wikilink: "[[Open Source]]"
-    reason: "Names the split inside the open-source bet"
+    wikilink: "[[Permission Scales]]"
+    reason: "Same zip globally - permission without regional license gates"
   - type: extends
     wikilink: "[[Platform Reach Is Borrowed]]"
     reason: "Rented reach on social; owned files on open stack"

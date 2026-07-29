@@ -9,10 +9,16 @@ categories: ["Technology", "Opinion", "Developer Life"]
 author: "JoRap"
 tags: ["Open Source", "FOSS", "Hugo", "WordPress", "XOOPS", "Linux", "Web Development", "Developer Life", "Free Software", "Static Site Generator", "AI"]
 related_notes:
-  - open-source
   - freedom-over-free
+  - portable-software
+  - cross-platform-software
   - inspectable-stack
   - community-depth
+  - teachable-stack
+  - learn-hireable-stacks
+  - permission-scales
+  - say-no-to-nulled
+  - open-not-maintained
   - future-proofing-knowledge
   - free-tier-hosting-stack
   - git-based-cms

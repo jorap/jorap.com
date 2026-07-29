@@ -8,7 +8,7 @@ key_concept: |
   - Level 2: Inspectable stack is like a car with the hood unlatched - you can see why it stalled, tow your stuff to another garage, and find a mechanic who has seen that engine before.
   - Level 3: Because open license does not mean maintained, abandonware and nulled plugins fail the inspectable test even when view source is technically true.
   - Level 4: Hugo partial threw a blank route - I opened the theme file, found a nil check someone forgot, fixed it in ten minutes; closed black boxes would still be waiting on support.
-  - Level 5: [[Open Source]] grants legal permission; [[Community Depth]] supplies the help lane; [[Future-Proofing Knowledge]] is the move test for notes.
+  - Level 5: [[Community Depth]] supplies the help lane; [[Future-Proofing Knowledge]] is the move test for notes.
   - Say no to tools that only let you work inside their garden unless the garden is genuinely worth the rent.
   - Git is how I touch open code without breaking everyone else - clone, branch, revert.
 examples:
@@ -27,11 +27,14 @@ relationships:
     wikilink: "[[Community Depth]]"
     reason: "Help when stuck is the third leg of the filter"
   - type: extends
+    wikilink: "[[Cross-Platform Software]]"
+    reason: "Move test includes the OS on the next machine"
+  - type: extends
     wikilink: "[[Future-Proofing Knowledge]]"
     reason: "Move test for notes - export before you need it"
   - type: extends
-    wikilink: "[[Open Source]]"
-    reason: "Legal inspect rights; this note is the practical filter"
+    wikilink: "[[Open Not Maintained]]"
+    reason: "Legal open still fails when nobody ships fixes"
   - type: extends
     wikilink: "[[Rollback Principle]]"
     reason: "Git revert is inspect-and-undo on the same files the world runs"
