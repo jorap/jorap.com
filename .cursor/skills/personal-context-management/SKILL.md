@@ -1,19 +1,29 @@
 ---
 name: personal-context-management
 description: >-
-  Tiago Forte Personal Context Management (PCM): curate context at three layers
-  (persistent, project, perishable) and build a master prompt. Use when setting up
-  AI context, building or updating a master prompt, fixing generic AI output, context
-  rot, PCM, "three P's", or mapping Forte's AI Second Brain to Cursor.
+  Tiago Forte PCM and Master Prompt Method: three context layers (persistent,
+  project, perishable), six-section V1 master prompt, protocols/mini-programs.
+  Use when setting up AI context, building a master prompt, AI hiring/SOP workflows,
+  fixing generic AI output, context rot, PCM, master prompt method, or mapping
+  Forte's AI Second Brain to Cursor.
 ---
 
 # Personal Context Management (PCM)
 
 Tiago Forte's discipline for the AI era: the bottleneck moved from capture to **curating the minimum right context** so AI stops averaging you out.
 
-Source: [What Is Personal Context Management?](https://www.youtube.com/watch?v=o2S1ZbmVAAY) (Forte Labs). Related walkthrough: [The AI Second Brain](https://www.youtube.com/watch?v=yeTn8a5J-Gc).
+Sources:
 
-**Core line:** Better results come from better context — not better one-shot prompts.
+| Topic | Video |
+|-------|-------|
+| PCM + three layers | [What Is Personal Context Management?](https://www.youtube.com/watch?v=o2S1ZbmVAAY) |
+| Master Prompt Method (theory) | [Part 1: Unlock AI's Full Potential](https://www.youtube.com/watch?v=_K_F_icxtrI) |
+| Master Prompt Method (live demo) | [Part 2: 3X Your AI Productivity](https://www.youtube.com/watch?v=D9DpUDntQRc) |
+| Full system walkthrough | [The AI Second Brain](https://www.youtube.com/watch?v=yeTn8a5J-Gc) |
+
+Full method reference: [master-prompt-method.md](master-prompt-method.md).
+
+**Core lines:** Better results come from better context — not better one-shot prompts. Load context **upstream** (all at once, before the task), not via fancy per-chat prompts.
 
 ## Three layers (Three P's)
 
@@ -31,9 +41,22 @@ A **master prompt** is your cross-platform operating manual for AI: one document
 
 Forte separates **work** and **personal** master prompts so contexts don't bleed.
 
+### Master Prompt Method (Parts 1 & 2)
+
+Forte + Hayden Miyamoto's build sequence — see [master-prompt-method.md](master-prompt-method.md):
+
+1. **Six V1 sections** — personal info & AI mandate → company → ICP/market → people/KPIs → culture → **protocols**
+2. **General vs contextual knowledge** — you can't edit training data; contextual knowledge is the whole game
+3. **Protocols** — trigger phrases (`AI hiring`, `AI SOP`) that run mini-programs against the shared base
+4. **Company base + personal header** — shared org context; top section customized per role
+5. **Test loop** — AI pre-fills from master prompt; you confirm; patch doc when it guesses wrong
+
+Part 2 proof: empty Claude + "hire a marketing director" → generic fluff. Loaded master prompt + `AI hiring` → five confirm-or-correct questions, then JD, rubric, case studies, agendas — naming real people and metrics.
+
 ### What belongs in persistent context
 
-See [master-prompt-sections.md](master-prompt-sections.md) for the full section checklist (personal details, professional info, values, SWOT, communication prefs, AI usage intentions, etc.).
+- **PCM circle diagram** (identity, values, income, comms prefs, SWOT, etc.): [master-prompt-sections.md](master-prompt-sections.md)
+- **Six-section V1 + protocols**: [master-prompt-method.md](master-prompt-method.md)
 
 **JoRap already has pieces split across files** — don't duplicate; link:
 
@@ -44,8 +67,11 @@ See [master-prompt-sections.md](master-prompt-sections.md) for the full section 
 | Writing workflow | [ai-writing-system](../ai-writing-system/SKILL.md) |
 | Repo conventions | `.cursor/rules/*.mdc` |
 | Code style / laziness | [ponytail](../ponytail/SKILL.md), `ponytail.mdc` |
+| Protocols (repeatable workflows) | Cursor skills — see protocol table in [master-prompt-method.md](master-prompt-method.md#jorap-mapping) |
 
 When building a master prompt for export (Claude Profile, ChatGPT Custom Instructions, Gemini), **assemble from these sources** — don't invent parallel copies in the skill.
+
+**New repeatable workflow?** Add a skill (protocol), not a longer rule file.
 
 ## PCM flow (Forte)
 
@@ -68,14 +94,16 @@ One master prompt per scope. Never merge.
 
 ### 2. Interview (one question at a time)
 
-Walk [master-prompt-sections.md](master-prompt-sections.md) section by section. Skip sections already covered in repo files; note the canonical path instead.
+Walk the **six V1 sections** in [master-prompt-method.md](master-prompt-method.md), then PCM-only sections in [master-prompt-sections.md](master-prompt-sections.md). Skip sections already covered in repo files; note the canonical path instead.
 
 Minimum before drafting:
+- **AI mandate** — what weaknesses should AI compensate for?
 - Name, role, location (if relevant to advice)
 - What AI should **do** vs **not do**
 - Communication preferences (plain words, no slop — cross-ref jorap-voice)
-- Top 3 current goals
+- Top 3 current goals + KPIs if work prompt
 - Personal SWOT (honest, brief)
+- At least one **protocol** candidate — workflow you'd trigger by name
 
 ### 3. Draft the document
 
@@ -148,4 +176,5 @@ When persistent context is wrong, AI will **over-apply** it to unrelated tasks �
 
 - Forte free starter guide: [Build your own Master Prompt](https://bit.ly/4uwGhJu)
 - [Glasp: Personal Context Management](https://glasp.co/articles/personal-context-management) — identity / knowledge / task framing
+- [Tinker w/ AI: Master Prompt Method](https://tinkerwith.ai/p/the-master-prompt-method) — LLM-optimize + ChatGPT compression
 - Five context levels (follow-on): [The Future of AI Prompting](https://www.youtube.com/watch?v=ipIOC55AwyQ)

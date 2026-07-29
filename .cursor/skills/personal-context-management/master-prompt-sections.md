@@ -1,6 +1,11 @@
 # Master prompt section checklist
 
-From Tiago Forte's PCM framework ([video](https://www.youtube.com/watch?v=o2S1ZbmVAAY), [AI Second Brain walkthrough](https://www.youtube.com/watch?v=yeTn8a5J-Gc)). Use as an interview outline — not every section applies to everyone.
+Two complementary outlines:
+
+| Framework | Source | Use for |
+|-----------|--------|---------|
+| **Six V1 sections + protocols** | [master-prompt-method.md](master-prompt-method.md) — [Part 1](https://www.youtube.com/watch?v=_K_F_icxtrI), [Part 2](https://www.youtube.com/watch?v=D9DpUDntQRc) | Work/business master prompt, team sharing, hiring/SOP protocols |
+| **PCM identity circle** (below) | [PCM video](https://www.youtube.com/watch?v=o2S1ZbmVAAY) | Personal persistent context — values, income, comms prefs, SWOT |
 
 **Work master prompt** and **personal master prompt** are separate documents.
 
@@ -33,7 +38,7 @@ From Tiago Forte's PCM framework ([video](https://www.youtube.com/watch?v=o2S1Zb
 - [ ] Working style (async vs sync, depth vs speed)
 - [ ] Tool preferences and workflows
 - [ ] Rules, boundaries, non-negotiables
-- [ ] Embedded protocols — trigger phrases for repeatable workflows (e.g. "run morning briefing")
+- [ ] Embedded protocols — trigger phrases for repeatable workflows (e.g. `AI hiring`, `AI SOP`); see [master-prompt-method.md](master-prompt-method.md)
 
 ## LLM-optimized structure (after human draft)
 

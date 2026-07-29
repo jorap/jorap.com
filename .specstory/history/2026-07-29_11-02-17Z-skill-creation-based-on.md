@@ -183,6 +183,35 @@ _**Agent (auto-low)**_
 ```bash
 yt-dlp --list-subs --skip-download "https://www.youtube.com/watch?v=o2S1ZbmVAAY" 2>/dev/null | head -20; yt-dlp --write-auto-sub --sub-lang en --skip-download -o "/tmp/pcm-%(id)s" "https://www.youtube.com/watch?v=o2S1ZbmVAAY" 2>&1 | tail -5
 ```
+
+```
+[youtube] Extracting URL: https://www.youtube.com/watch?v=o2S1ZbmVAAY
+[youtube] o2S1ZbmVAAY: Downloading webpage
+[youtube] o2S1ZbmVAAY: Downloading ios player API JSON
+[youtube] o2S1ZbmVAAY: Downloading ios player API JSON
+[youtube] o2S1ZbmVAAY: Downloading ios player API JSON
+[youtube] o2S1ZbmVAAY: Downloading ios player API JSON
+[youtube] o2S1ZbmVAAY: Downloading android player API JSON
+[youtube] o2S1ZbmVAAY: Downloading android player API JSON
+[youtube] o2S1ZbmVAAY: Downloading android player API JSON
+[youtube] o2S1ZbmVAAY: Downloading android player API JSON
+[info] Available automatic captions for o2S1ZbmVAAY:
+Language Name                  Formats
+ab       Abkhazian             vtt, ttml, srv3, srv2, srv1, json3
+aa       Afar                  vtt, ttml, srv3, srv2, srv1, json3
+af       Afrikaans             vtt, ttml, srv3, srv2, srv1, json3
+ak       Akan                  vtt, ttml, srv3, srv2, srv1, json3
+sq       Albanian              vtt, ttml, srv3, srv2, srv1, json3
+am       Amharic               vtt, ttml, srv3, srv2, srv1, json3
+ar       Arabic                vtt, ttml, srv3, srv2, srv1, json3
+hy       Armenian              vtt, ttml, srv3, srv2, srv1, json3
+WARNING: [youtube] YouTube said: ERROR - Precondition check failed.
+WARNING: [youtube] Unable to download API page: HTTP Error 400: Bad Request (caused by <HTTPError 400: Bad Request>)
+[info] o2S1ZbmVAAY: Downloading subtitles: en
+WARNING: Only images are available for download. use --list-formats to see them
+ERROR: [youtube] o2S1ZbmVAAY: Requested format is not available. Use --list-formats for a list of available formats
+
+```
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -197,7 +226,16 @@ Parameters:
   "url": "https://tinkerwith.ai/p/the-master-prompt-method"
 }
 ```
-Status: **loading**
+Result:
+
+```json
+{
+  "markdown": "The Master Prompt Method - by Ady Rugina - Tinker w/ AI\n\nSubscribeSign in\n\n# The Master Prompt Method\n\n### A catchy name for a simple way to make LLMs work better for my context and needs\n\nJun 22, 2025\n\n5\n\n2\n\n1\n\nShare\n\nPhoto by Giacomo Carra on Unsplash\n\nMore than a month ago, I discovered the Master Prompt Method by Tiago Forte and Hayden Miyamoto that transforms AI from a generic tool into a personalised assistant that understands my context, goals, and working style without needing to re-explain myself in every chat.\n\n### The problem I didn’t know I had\n\nI was already using ChatGPT and Claude project to have persistent context within specific work streams. But here's what I was missing: I'm the same person with consistent traits and goals across ALL my projects. Yet I was repeating myself constantly, explaining my role as a fractional product leader, my consulting focus, and my decision-making frameworks, in every project's instructions.\n\nSign up to receive weekly AI Productivity experiments.\n\nSubscribe\n\nThe Master Prompt Method made me realise that I should give ChatGPT and Claude way more context than I have been doing until now in Projects, and do it in a more efficient way.\n\n### How I built my Master Prompt\n\n#### Step 1: Started with a Google Doc\n\nHayden shared that his master prompt document was approximately 30 pages long. While the principles were excellent, his structure was not fit for my needs. So, I tweaked it and ended up with a 3-page document covering:\n\nPersonal information (name, role, location)\n\nProfessional activities (fractional product leader, Maven instructor, AI tinkerer)\n\nStrategy (how and why I’m doing everything)\n\nCareer goals\n\nPersonal strengths and development areas\n\nExactly how I want AI to support me\n\n#### Step 2: Made it LLM-friendly\n\nAs this was going to be used in every conversation I had with ChatGPT and Claude, I wanted to make sure that it was as crisp and effic
+… (output truncated)
+```
+User decision: **accepted**
+
+Status: **completed**
 
 </details></tool-use>
 
@@ -213,8 +251,441 @@ Parameters:
   "searchTerm": "Tiago Forte master prompt template Forte Labs personal context management structure"
 }
 ```
+Result:
+
+```json
+{
+  "isFinal": true,
+  "references": [
+    {
+      "chunk": "Links:\n1. [The AI Second Brain: What Your AI Is Missing (and How to Fix It)](https://www.youtube.com/watch?v=yeTn8a5J-Gc)\n2. [What is the AI Second Brain? – Forte Labs](https://help.fortelabs.com/hc/en-us/articles/44591754695821-What-is-the-AI-Second-Brain)\n3. [The Master Prompt in a changing scenario – Anapoly Notebook](https://anapoly.co.uk/labs/the-master-prompt-in-a-changing-scenario/)\n4. [Is Recall the Second Brain for the AI Era?](https://fortelabs.com/blog/is-recall-the-second-brain-for-the-ai-era/)\n5. [The Master Prompt Method - by Ady Rugina - Tinker w/ AI](https://tinkerwith.ai/p/the-master-prompt-method)\n\nSynthesis:\nThe Master Prompt is a foundational document used to provide AI models with persistent context about you or your organization, transforming them from generic tools into specialized collaborators [1][2][3]. Developed by Tiago Forte and Hayden Miyamoto, it serves as a personal operating manual that eliminates the need to re-explain your role, values, goals, or business constraints in every new chat [1][4].\n\nKey components typically include:\n- Personal or company profile, mission, and core values [1][3].\n- Products, services, and target customer profiles [1][3].\n- Strategic strengths, weaknesses, and key performance indicators [1][3].\n- Behavioral protocols, communication style guidelines, and specific decision-making frameworks [3][5].\n\nYou can implement this by saving the document in tools like ChatGPT Custom Instructions or Claude Projects [6][4][3]. It is designed to be platform-agnostic and evolves over time as you update it with new notes, project data, and reflections [1][2].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eThe AI Second Brain: What Your AI Is Missing (and How to Fix It)\u003c/title\u003e\n\u003curl\u003ehttps://www.youtube.com/watch?v=yeTn8a5J-Gc\u003c/url\u003e\n\u003ccontent\u003ecalling PCM, personal context management\n...\nInste
+… (output truncated)
+```
+User decision: **accepted**
+
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Attempting to retrieve the video transcript by downloading the subtitle file directly.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: yt-dlp --write-auto-sub --sub-lang en --sub-format vtt --skip-download -o &#34;/tmp/pcm-%(id)s&#34; &#34;https://www.youtube.com/watch?v=o2S1ZbmVAAY&#34; 2&gt;&amp;1; ls -la /tmp/pcm* 2&gt;/dev/null; head -100 /tmp/pcm*.en.vtt 2&gt;/dev/null || head -100 /tmp/pcm*.vtt 2&gt;/dev/null</summary>
+```bash
+yt-dlp --write-auto-sub --sub-lang en --sub-format vtt --skip-download -o "/tmp/pcm-%(id)s" "https://www.youtube.com/watch?v=o2S1ZbmVAAY" 2>&1; ls -la /tmp/pcm* 2>/dev/null; head -100 /tmp/pcm*.en.vtt 2>/dev/null || head -100 /tmp/pcm*.vtt 2>/dev/null
+```
+
+```
+[youtube] Extracting URL: https://www.youtube.com/watch?v=o2S1ZbmVAAY
+[youtube] o2S1ZbmVAAY: Downloading webpage
+[youtube] o2S1ZbmVAAY: Downloading ios player API JSON
+WARNING: [youtube] YouTube said: ERROR - Precondition check failed.
+WARNING: [youtube] HTTP Error 400: Bad Request. Retrying (1/3)...
+[youtube] o2S1ZbmVAAY: Downloading ios player API JSON
+WARNING: [youtube] YouTube said: ERROR - Precondition check failed.
+WARNING: [youtube] HTTP Error 400: Bad Request. Retrying (2/3)...
+[youtube] o2S1ZbmVAAY: Downloading ios player API JSON
+WARNING: [youtube] YouTube said: ERROR - Precondition check failed.
+WARNING: [youtube] HTTP Error 400: Bad Request. Retrying (3/3)...
+[youtube] o2S1ZbmVAAY: Downloading ios player API JSON
+WARNING: [youtube] YouTube said: ERROR - Precondition check failed.
+WARNING: [youtube] Unable to download API page: HTTP Error 400: Bad Request (caused by <HTTPError 400: Bad Request>)
+[youtube] o2S1ZbmVAAY: Downloading android player API JSON
+WARNING: [youtube] YouTube said: ERROR - Precondition check failed.
+WARNING: [youtube] HTTP Error 400: Bad Request. Retrying (1/3)...
+[youtube] o2S1ZbmVAAY: Downloading android player API JSON
+WARNING: [youtube] YouTube said: ERROR - Precondition check failed.
+WARNING: [youtube] HTTP Error 400: Bad Request. Retrying (2/3)...
+[youtube] o2S1ZbmVAAY: Downloading android player API JSON
+WARNING: [youtube] YouTube said: ERROR - Precondition check failed.
+WARNING: [youtube] HTTP Error 400: Bad Request. Retrying (3/3)...
+[youtube] o2S1ZbmVAAY: Downloading android player API JSON
+WARNING: [youtube] YouTube said: ERROR - Precondition check failed.
+WARNING: [youtube] Unable to download API page: HTTP Error 400: Bad Request (caused by <HTTPError 400: Bad Request>)
+[info] o2S1ZbmVAAY: Downloading subtitles: en
+WARNING: Only images are available for download. use --list-formats to see them
+ERROR: [youtube] o2S1ZbmVAAY: Requested format is not available. Use --list-formats for a list of available formats
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/0e648eae-eb8e-4ee8-b99a-3452fcb57785.txt</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+Glob pattern "**/*" matches every file and is not allowed. Use a more specific glob or no glob.
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The related Tiago Forte video transcript provided useful content.
+
+Now fetching the PCM framework details and the specific video content.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
+<summary>Tool use: **web_search**</summary>
+
+Parameters:
+
+```json
+{
+  "searchTerm": "site:youtube.com o2S1ZbmVAAY personal context management master prompt"
+}
+```
+Result:
+
+```json
+{
+  "isFinal": true,
+  "references": [
+    {
+      "chunk": "Links:\n1. [The AI Second Brain: What Your AI Is Missing (and How to Fix It)](https://www.youtube.com/watch?v=yeTn8a5J-Gc)\n2. [Levels of AI Context Management: From Generic Answers to Precision Results](https://www.youtube.com/watch?v=rK6G9_gdx7I)\n3. [Get perfect AI answers every time 🧠 #ai #claudeai #chatgpt](https://www.youtube.com/shorts/w9aI_tpeRwg)\n4. [How to Use ChatGPT Projects to Give AI Better Context](https://www.youtube.com/watch?v=CMCRaKD8bOg)\n5. [Context Engineering for AI: Master Prompt Design, Memory \u0026 Better LLM Results](https://www.youtube.com/watch?v=l6VPOGilvRE)\n\nSynthesis:\nPersonal Context Management (PCM) is a discipline for designing a persistent knowledge system that acts as an operating manual for your AI tools [1]. It ensures AI understands your specific goals, preferences, and background to move beyond generic responses [2][3].\n\nThe system relies on three layers of context [3]:\n1. Persistent: Your master prompt containing stable, long-term details like core values, roles, and communication styles [3].\n2. Project: Specific instructions, goals, and constraints for current tasks [3][4].\n3. Perishable: The minimal, immediate information required for a single request [3].\n\nTo build your master prompt, centralize essential information—such as your professional mission, constraints, and preferred formatting—into a modular document [1][5]. You then provide this as context to your AI, updating it periodically by summarizing your latest notes and project outcomes [1][2]. By curating this context rather than dumping all your files into a tool, you ensure the AI remains focused, accurate, and aligned with your personal needs [4][5].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eThe AI Second Brain: What Your AI Is Missing (and How to Fix It)\u003c/title\u003e\n\u003curl\u003ehttps://www.youtube.com/watch?v=yeTn8a5J-Gc\u003c/url\u003e\n\u003ccontent\u003eWhic
+… (output truncated)
+```
+User decision: **accepted**
+
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/author-context.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **7** results in **1** directory</summary>
+
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (7 files)
+
+| File |
+|------|
+| `.cursor/rules/ponytail.mdc` |
+| `.cursor/rules/self-improvement.mdc` |
+| `.cursor/rules/git-commits.mdc` |
+| `.cursor/rules/deploy-commits.mdc` |
+| `.cursor/rules/session-close.mdc` |
+| `.cursor/rules/safe-filenames.mdc` |
+| `.cursor/rules/anti-slop.mdc` |
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The video is Tiago Forte's talk on personal context management.
+
+The talk centers on building a master prompt as a personal operating manual for AI. It introduces three layers of context: Persistent for stable long-term details, Project for current work, and Perishable for the immediate task slice. The master prompt should contain basic personal details, professional information, and income sources.
+
+The master prompt should also cover core values, vision, mission, AI usage intentions, communication preferences, working style, tool preferences, goals, personal SWOT, skills, and quality standards. The workflow moves from capture through PARA organization to the master prompt and then to AI advisors. Context rot demands minimal curated bundles rather than dumping everything. Work and personal prompts should remain separate. The planned skill will teach the PCM framework.
+
+The skill will integrate with existing JoRap tools like jorap-voice author-context and ai-writing-system. It maps PCM layers to Cursor: persistent context becomes rules, project context becomes project files, and perishable context becomes per-message slices. The plan is to create `.cursor/skills/personal-context-management/SKILL.md` alongside a master prompt template and a maintenance loop for ongoing review.
+
+The skill will help both the agent and JoRap apply PCM principles. Existing repo files map directly to the three layers: `jorap-voice/author-context.md` holds persistent context, `.cursor/rules/*.mdc` stores persistent behavioral rules, `.cursor/skills/*` bundles persistent context, `__interesting-facts-about-jorap.md` acts as the facts ledger, and blog drafts provide project context.
+
+The skill will include an interview workflow to help build out master prompt sections. A monthly maintenance loop with LLM optimization will keep the prompt current. The free guide at bit.ly/4uwGhJun will be fetched for reference.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="web_fetch"><details>
+<summary>Tool use: **web_fetch**</summary>
+
+Parameters:
+
+```json
+{
+  "url": "https://bit.ly/4uwGhJu"
+}
+```
+Result:
+
+```json
+{
+  "markdown": "Build your own Master Prompt with my free guide\n\nWrite one short document that tells any AI who you are and how you work.\n\n### What you get:\n\n- A simple step-by-step guide\n- Works in Claude, ChatGPT, or Gemini\n- The same Master Prompt method taught inside The AI Second Brain, simplified to get you started today\n\n## Share Your Email and Build Your Master Prompt👇\n\nYes, send me the guide\n\nWe respect your privacy. Unsubscribe at any time.",
+  "url": "https://bit.ly/4uwGhJu"
+}
+```
+User decision: **accepted**
+
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/ai-writing-system/implementation-guide.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+I have enough information to create a solid skill.
+
+The skill will be minimal and focused. It will live under `.cursor/skills/personal-context-management/` with a single `SKILL.md` and one reference file for the master prompt checklist. The design encodes Forte's PCM framework for JoRap's Cursor setup.
+
+The skill will cover five core sections. It frames context curation as moving the bottleneck upstream. It defines three layers: persistent, project, and perishable. It treats the master prompt as an operating manual. It warns against context rot through poisoning, distraction, and confusion. It includes a JoRap-specific mapping table.
+
+The skill will add a build workflow: interview, draft, LLM-optimize, deploy. It will include a maintenance loop and tie the framework to ai-writing-system and jorap-voice. The JoRap mapping table is now defined. Persistent context maps to Cursor rules and voice skills. Project context maps to project instructions and PARA folders. Perishable context maps to current chat messages and file mentions.
+
+Work and personal master prompts will be kept separate. JoRap already splits these via jorap-voice and garden-voice. Now creating the skill files.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Creating a PCM skill that encodes Forte's framework and maps it to your existing Cursor setup.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/personal-context-management/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/personal-context-management/master-prompt-sections.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Adding a cross-reference from the ai-writing-system skill to the new PCM skill. Both cover related Tiago Forte concepts.
+
+Keeping the edit minimal. A one-line cross-reference in ai-writing-system's Related section is sufficient. No broader scope creep or find-skills updates are needed.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Adding a cross-reference in the related ai-writing-system skill.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/ai-writing-system/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+I am preparing a clear summary of the created skill.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Created **`.cursor/skills/personal-context-management/`** from Tiago Forte's [What Is Personal Context Management?](https://www.youtube.com/watch?v=o2S1ZbmVAAY) video.
+
+## What the skill encodes
+
+**PCM** — the bottleneck moved from capture to curating the *minimum right context* for AI.
+
+**Three layers (Three P's):**
+1. **Persistent** — master prompt: who you are, how you work (months–years)
+2. **Project** — current work: goals, decisions, reference files (weeks–months)
+3. **Perishable** — this request only: pasted excerpt, `@` files (one turn)
+
+**Master prompt** — a cross-platform operating manual so you don't re-introduce yourself in every chat. Forte keeps separate **work** and **personal** prompts.
+
+**Context rot** — why you can't dump everything: poisoning, distraction, confusion.
+
+## JoRap mapping
+
+The skill maps PCM to what you already have instead of asking for a duplicate mega-prompt:
+
+| PCM layer | Your repo |
+|-----------|-----------|
+| Persistent | `.cursor/rules/`, voice skills, `author-context.md` |
+| Project | Task-specific skills, `__` drafts |
+| Perishable | Current message + targeted file picks |
+
+## Files
+
+- **`SKILL.md`** — framework, build workflow, maintenance loop, agent behavior
+- **`master-prompt-sections.md`** — Forte's section checklist + LLM-optimization template
+
+Also linked from `ai-writing-system/SKILL.md` since both are Forte-derived.
+
+## How to use it
+
+Invoke when you want to build or refresh a master prompt, fix generic AI output, or decide which context layer a task needs. Say "PCM", "master prompt", or "personal context management".
+
+If you want a next step, we can run the interview workflow and draft a **work** master prompt assembled from your existing rules + `author-context.md`.
+
+## Session close
+- Fixed: Added `personal-context-management` skill from Forte's PCM video, mapped to existing Cursor rules/skills
+- Encode: none
+- Open: clean
+
+---
+
+_**User**_
+
+can we incorporate this as well:
+https://www.youtube.com/watch?v=_K_F_icxtrI 
+https://www.youtube.com/watch?v=D9DpUDntQRc 
+
+---
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Two additional YouTube videos will be incorporated into the personal-context-management skill.
+
+I'll check the video content and transcripts to prepare the skill update.
+</details></think>
+
+_**Agent (auto-low)**_
+
+I'll pull details from both 
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
+<summary>Tool use: **web_search**</summary>
+
+Parameters:
+
+```json
+{
+  "searchTerm": "youtube _K_F_icxtrI Tiago Forte"
+}
+```
+Result:
+
+```json
+{
+  "isFinal": true,
+  "references": [
+    {
+      "chunk": "Links:\n1. [What is Building a Second Brain?](https://www.youtube.com/watch?v=YOLELC41vtk)\n2. [Who is Tiago Forte and what is the Second Brain?](https://www.youtube.com/watch?v=xt53SYCzP9g)\n3. [The AI Second Brain: What Your AI Is Missing (and How to Fix It)](https://www.youtube.com/watch?v=yeTn8a5J-Gc)\n4. [Tiago Forte | Building a Second Brain | Talks at Google | YouTube Video Summary | Video Highlight](https://videohighlight.com/v/Y86GOtc1KNo)\n5. [Create Your Second Brain with Tiago Forte](https://www.youtube.com/watch?v=5zhCd04a-4w)\n\nSynthesis:\nTiago Forte is a productivity expert and author known for his Building a Second Brain methodology, a system for organizing digital information to enhance creativity and effectiveness [1][2]. His approach uses the PARA method (Projects, Areas, Resources, Archives) and the CODE framework (Capture, Organize, Distill, Express) to manage personal knowledge [3][4][5]. He teaches these concepts through online courses, workshops, and his book, Building a Second Brain [1][2][5]. His YouTube channel serves as a hub for these educational resources, offering tutorials on personal knowledge management and workflows across various digital tools [6][4].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eWhat is Building a Second Brain?\u003c/title\u003e\n\u003curl\u003ehttps://www.youtube.com/watch?v=YOLELC41vtk\u003c/url\u003e\n\u003ccontent\u003e# What is Building a Second Brain?\n...\n- Channel: Tiago Forte\n- Length: 01:22\n- Views: 84.6K\n- Likes: 357\n- Published: 2023-08-23T10:13:28-07:00\n- Category: Education\n- Language: en\n\n## Description\n...\nBuilding a Second Brain is the proven method to organize your digital life and unlock your creative potential. \n\nWe're on a mission to help you increase your productivity, and lead a more fulfilling life with more ease and less stress. \n\n🔎 WHAT'S YOUR PRODUCTIVITY POTENTIAL?\nTake our Productivity Pulse
+… (output truncated)
+```
+User decision: **accepted**
+
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+videos and fold them 
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
+<summary>Tool use: **web_search**</summary>
+
+Parameters:
+
+```json
+{
+  "searchTerm": "youtube D9DpUDntQRc Tiago Forte"
+}
+```
+Result:
+
+```json
+{
+  "isFinal": true,
+  "references": [
+    {
+      "chunk": "Links:\n1. [Building a Second Brain: Capturing, Organizing, and Sharing Knowledge Using Digital Notes](https://www.youtube.com/watch?v=SjZSy8s2VEE)\n2. [Building a Second Brain with Tiago Forte](https://www.youtube.com/watch?v=DZVaVav8lGo)\n3. [Notion As A Second Brain: Video - Forte Labs](https://fortelabs.com/blog/notion-as-a-second-brain-video/)\n4. [The AI Second Brain: What Your AI Is Missing (and How to Fix It)](https://www.youtube.com/watch?v=yeTn8a5J-Gc)\n5. [Notion As A Second Brain: Full Recording](https://www.youtube.com/watch?v=uK8KvSRetpU)\n\nSynthesis:\nTiago Forte is an educator and author who teaches Building a Second Brain, a productivity methodology for personal knowledge management that uses digital notes as an extension of the human mind [1][2][3]. His YouTube channel provides tutorials, interviews, and presentations on applying his system—which includes frameworks like PARA and CODE—across various digital tools like Notion and AI platforms [4][5][6][7].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eBuilding a Second Brain: Capturing, Organizing, and Sharing Knowledge Using Digital Notes\u003c/title\u003e\n\u003curl\u003ehttps://www.youtube.com/watch?v=SjZSy8s2VEE\u003c/url\u003e\n\u003ccontent\u003e- Channel: Tiago Forte\n- Length: 44:13\n- Views: 337.9K\n- Likes: 5.9K\n- Published: 2019-03-10T07:47:40-07:00\n- Category: Education\n- Keywords: PKM, notes, digital notes, note-taking, Evernote, second brain, BASB, Forte Labs\n- Language: en\n...\ns more information\n...\npersonal knowledge management\n...\nsecret will you bring knowledge down to the level of the\n...\ntools they have it'\n...\nI want to\n...\nof the most powerful takeaways and practical methods that you can use in your own work these methods come from an intensive online course that I teach called building a second brain in this and two other related courses I've taught more than 20,00\n...\nprocess how t
+… (output truncated)
+```
+User decision: **accepted**
+
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+into the PCM skill.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/personal-context-management/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Web search did not locate the specific video IDs.
+
+Fetching the YouTube URLs directly to retrieve titles and transcripts.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="web_fetch"><details>
+<summary>Tool use: **web_fetch**</summary>
+
+Parameters:
+
+```json
+{
+  "url": "https://www.youtube.com/watch?v=_K_F_icxtrI"
+}
+```
 User decision: **accepted**
 
 Status: **loading**
 
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="web_fetch"><details>
+<summary>Tool use: **web_fetch**</summary>
+
+Parameters:
+
+```json
+{
+  "url": "https://www.youtube.com/watch?v=D9DpUDntQRc"
+}
+```
+User decision: **accepted**
+
+Status: **loading**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: yt-dlp --print title --print description --print &#34;%(channel)s&#34; &#34;https://www.youtube.com/watch?v=_K_F_icxtrI&#34; &#34;https://www.youtube.com/watch?v=D9DpUDntQRc&#34; 2&gt;&amp;1</summary>
+```bash
+yt-dlp --print title --print description --print "%(channel)s" "https://www.youtube.com/watch?v=_K_F_icxtrI" "https://www.youtube.com/watch?v=D9DpUDntQRc" 2>&1
+```
 </details></tool-use>
