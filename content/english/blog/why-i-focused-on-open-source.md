@@ -9,6 +9,10 @@ categories: ["Technology", "Opinion", "Developer Life"]
 author: "JoRap"
 tags: ["Open Source", "FOSS", "Hugo", "WordPress", "XOOPS", "Linux", "Web Development", "Developer Life", "Free Software", "Static Site Generator", "AI"]
 related_notes:
+  - open-source
+  - freedom-over-free
+  - inspectable-stack
+  - community-depth
   - future-proofing-knowledge
   - free-tier-hosting-stack
   - git-based-cms
@@ -16,7 +20,7 @@ related_notes:
   - platform-reach-is-borrowed
 featured: false
 draft: false
-lastmod: "2026-07-29T12:00:00Z"
+lastmod: "2026-07-29T20:30:00Z"
 ---
 
 I learned ASP from someone before I knew what a "stack" was. Fine. Then I went looking for real software built with ASP - sites I could study, tools I could run locally, something that wasn't just tutorial code in a book.
@@ -66,6 +70,28 @@ Open stacks passed the test. XAMPP portable on a machine that won't let you run 
 The career advice was equally practical. **Learn tools employers actually hire for.** In web work around here, a huge slice of that table is open source whether or not you care about the label. WordPress listings were everywhere. "Drupal developer" was a niche inside a niche. I wasn't going to send students hunting for jobs that didn't exist in our market just because the architecture diagram looked cleaner.
 
 That bias stuck. Not as ideology. As **default**.
+
+---
+
+## Friedman is why I focused on it
+
+I'd already stumbled into PHP and XAMPP by accident - student budget, locked-down PCs, no license fees. *The World Is Flat* is what made me **focus** on open source on purpose.
+
+Thomas Friedman's book landed in the mid-2000s, right when I was teaching seminars and burning Linux CDs. I wasn't looking for a manifesto. I was looking for a frame. Friedman listed ten **flatteners**: forces he argued were leveling the global playing field. The Cold War ending. Netscape putting a browser on every desk. Workflow software forcing different apps to talk to each other. Then, fourth on the list: **open-sourcing** - communities shipping code anyone could download, read, fork, and improve.
+
+That was the sentence that stuck. Not "free software is morally pure." **This is where the world is going.** If open source was flattening the field - letting talent compete from anywhere because the tools weren't locked behind a product key - then learning proprietary stacks was learning yesterday's gate.
+
+Look at what came after on Friedman's list. Outsourcing. Offshoring. Walmart-scale supply chains. Companies "insourcing" logistics they used to buy from vendors. Informing - basically Google making the world's reference shelf searchable. Wireless and VoIP as steroids on all of the above. Impressive if you ran a multinational. Abstract if you were trying to land your first freelance gig from a province outside Manila.
+
+Open source was the outlier. The flatteners before it mostly built the pipes - politics, browsers, standards. The flatteners after it mostly described how **big companies moved work** around the planet. Number four was the one a student could **ride** this semester. That's the flattener I decided to bet my career on.
+
+And the timing backed the bet. Mid-2000s open source wasn't a hobbyist museum anymore. **Apache** ran half the web. **Firefox** was finally giving Internet Explorer a fight. **Ubuntu** made Linux installs feel almost normal. **WordPress** was turning "I need a site" into a Saturday project instead of a capital expense. **MySQL** and **PHP** came preinstalled on cheap shared hosting. Friedman gave me the theory. The stack gave me proof.
+
+The book got roasted for sounding like an airport-business-magazine TED talk. Bangalore call centers. Flat-world PowerPoints. Fair. I didn't swallow the whole book whole.
+
+But flattener number four gave me language for what I'd felt in the classroom. A student in UPLB wasn't learning on different software than a student in UCLA. Same WordPress zip. Same Apache license. Same Stack Overflow thread at three in the morning Manila time. **Permission scaled globally.** You didn't need to be in Silicon Valley to ship a CMS theme. You needed bandwidth, a zip file, and the nerve to break an install twice before it worked.
+
+After Friedman, "open source" stopped being the path I fell into because I was broke. It became the path I **chose** because it was a flattener - the one force on that list an ordinary developer could actually use without a boardroom.
 
 ---
 

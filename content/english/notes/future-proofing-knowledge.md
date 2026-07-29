@@ -30,6 +30,9 @@ relationships:
     wikilink: "[[Local-first Software]]"
     reason: "Local-first plain files are how you future-proof before an app shuts down"
   - type: extends
+    wikilink: "[[Open Source]]"
+    reason: "Freedom over free applied to tools and formats"
+  - type: extends
     wikilink: "[[Plain Text Files]]"
     reason: "Boring format that survives app churn"
 slug: "future-proofing-knowledge"
