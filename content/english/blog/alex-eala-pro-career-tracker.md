@@ -26,7 +26,7 @@ I've been following Alex Eala's career since her run at the **2025 Miami Open** 
 The numbers I refresh first when something breaks on Twitter at 2am - everything else on this page is detail.
 
 - **Career highs:** No. 28 singles · No. 88 doubles
-- **WTA titles:** 2 (Guadalajara 125, Birmingham 125)
+- **WTA titles:** 2 (2025 Guadalajara 125, 2026 Birmingham 125)
 - **Best Slam (singles):** Wimbledon 2026 - Round of 16
 - **Notable firsts:** First Filipina in a Grand Slam main draw; first Filipina to win a Slam main-draw match (US Open 2025); first Filipina to reach a Grand Slam fourth round in the Open era (Wimbledon 2026); first Filipina in a WTA 1000 semifinal (Miami 2025); first Filipina in a WTA 500 semifinal (Berlin 2026); first Filipina in the WTA top 100
 
