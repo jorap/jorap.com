@@ -20,7 +20,7 @@ related_notes:
   - platform-reach-is-borrowed
 featured: false
 draft: false
-lastmod: "2026-07-29T20:30:00Z"
+lastmod: "2026-07-29T20:38:00Z"
 ---
 
 I learned ASP from someone before I knew what a "stack" was. Fine. Then I went looking for real software built with ASP - sites I could study, tools I could run locally, something that wasn't just tutorial code in a book.
@@ -29,7 +29,9 @@ I couldn't find much. Not because ASP was useless. Because so much of that world
 
 PHP kept showing up instead. Open tutorials. Actual CMS installs you could download. That pushed me toward **XAMPP** - Apache, MySQL, PHP in one folder.
 
-What's great about XAMPP, especially back then: they ship a **portable** version. On locked-down PCs that block installers - school labs, internet cafes, borrowed office machines - you unzip and run. No admin prompt. No IT ticket. That mattered as much as "free."
+What's great about XAMPP, especially back then: they ship a **portable** version. On locked-down PCs that block installers - school labs, internet cafes, borrowed office machines - you unzip and run. No admin prompt. No IT ticket.
+
+That wasn't a XAMPP quirk. Open source stacks often ship a portable build, or at least a zip you can drop in a folder without touching the registry. The place it really landed for me was my **office desktop**. Corporate image. No installer rights. I could still run Apache, MySQL, and PHP from a directory I owned - break a CMS install on my lunch break while the rest of the floor stayed on the standard Windows image. That mattered as much as "free."
 
 Once I had a local PHP stack, installing a CMS was the obvious next step. Drop files in `htdocs`, run the installer, break something, fix it, break it again. XAMPP plus a CMS gave me more exposure to open source than any manifesto could have. I wasn't reading about freedom. I was clicking through it.
 
