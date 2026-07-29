@@ -97,8 +97,8 @@ Page section order (do not reorder):
 2. **At a glance**
 3. **Player Profile**
 4. **WTA Rankings**
-5. **Best Performances in WTA Tournaments** (Singles, then Doubles)
-6. **Grand Slam Main Draw Results** (Singles, then Doubles)
+5. **Grand Slam Main Draw Results** (Singles, then Doubles)
+6. **Best Performances in WTA Tournaments** (Singles, then Doubles)
 7. **Matches Against Grand Slam Champions**
 8. **Matches Against Other Top 20 Players**
 9. **Matches to Watch Out For**

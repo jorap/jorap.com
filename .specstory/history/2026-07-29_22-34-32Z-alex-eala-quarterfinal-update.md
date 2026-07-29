@@ -184,9 +184,19 @@ Parameters:
   "searchTerm": "wtatennis.com Eala Fernandez Washington 2026 LS scores"
 }
 ```
+Result:
+
+```json
+{
+  "isFinal": true,
+  "references": [
+    {
+      "chunk": "Links:\n1. [Alexandra Eala defeats defending champion Leylah Fernandez to move into Washington quarters | Flashscore.com.au](https://www.flashscore.com.au/news/alexandra-eala-defeats-defending-champion-leylah-fernandez-to-move-into-washington-quarters/dxX2OkV7/)\n2. [Filipino Star Alex Eala Stuns Leylah Fernandez in Mubadala Citi DC Open Thriller to Book Quarter-Final Spot](https://gulfnews.com/sport/tennis/alex-eala-stuns-defending-champion-leylah-fernandez-to-reach-quarter-finals-1.500624737)\n3. [Mubadala DC Open 2026 Scores | Latest Scores \u0026 Live Updates – WTA Official](https://www.wtatennis.com/tournaments/1045/washington-dc/2026/scores)\n4. ['I've already had that in me': Eala's grit leads her past Zheng in Washington](https://www.wtatennis.com/news/4548733/alex-eala-overcomes-qinwen-zheng-in-washington-debut-win-down-a-set-and-break)\n\nSynthesis:\nIn the Round of 16 at the 2026 Mubadala DC Open, Alexandra Eala defeated the defending champion Leylah Fernandez with a score of 6-2, 7-6(1) on July 29, 2026 [1][2][3]. Eala secured the win after overcoming a 5-1 deficit in the second set [1][3].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eAlexandra Eala defeats defending champion Leylah Fernandez to move into Washington quarters | Flashscore.com.au\u003c/title\u003e\n\u003curl\u003ehttps://www.flashscore.com.au/news/alexandra-eala-defeats-defending-champion-leylah-fernandez-to-move-into-washington-quarters/dxX2OkV7/\u003c/url\u003e\n\u003ccontent\u003eAlexandra Eala defeats defending champion Leylah Fernandez to move into Washington quarters | Flashscore.com.au\n...\n# Alexandra Eala defeats defending champion Leylah Fernandez to move into Washington quarters\n...\nFilipina rising star Alexandra Eala dumped out defending champion Leylah Fernandez to reach the quarter-finals of the Washington Open on Wednesday.\n...\nEala, 21, defeated the seventh seed from Canada 6-2, 7-6(1) for a 
+… (output truncated)
+```
 User decision: **accepted**
 
-Status: **loading**
+Status: **completed**
 
 </details></tool-use>
 
@@ -255,4 +265,560 @@ Additional data:
 ```
 Status: **completed**
 
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Eala's victory was confirmed at 6-2, 7-6(1).
+
+Clarifying WTA round numbering. Tennis.com labels Fernandez's match as Round 2, which corresponds to Round of 16 in standard WTA terms. Fetching the WTA scores page to locate her match ID.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: sleep 2 &amp;&amp; curl -sL &#34;https://www.wtatennis.com/tournaments/1045/washington-dc/2026/scores&#34; | grep -iE &#39;fernandez|eala|LS0&#39; | head -30</summary>
+```bash
+sleep 2 && curl -sL "https://www.wtatennis.com/tournaments/1045/washington-dc/2026/scores" | grep -iE 'fernandez|eala|LS0' | head -30
+```
+
+```
+                            "name": "Leylah Fernandez"
+                            "name": "Alexandra Eala"
+                            "name": "Anna Danilina and Leylah Fernandez",
+                                    "name": "Leylah Fernandez"
+        class="tennis-match js-tennis-match js-match-1045-2026-LS028"
+                                        <a class="match-table__player match-table__player--link" href="/players/326735/leylah-fernandez">
+                                                        L. Fernandez
+        data-match-id="LS028"
+        href="/tournaments/1045/washington-dc/2026/scores/LS028"
+        title="Fernandez vs. Linette | Round of 32 Mubadala DC Open 2026 | Match Center" aria-label="Fernandez vs. Linette | Round of 32 Mubadala DC Open 2026 | Match Center"
+            data-tracking-match-id="1045-2026-LS028"
+            data-tracking-featured-players="Fernandez vs. Linette"
+        class="tennis-match js-tennis-match js-match-1045-2026-LS025"
+        data-match-id="LS025"
+        href="/tournaments/1045/washington-dc/2026/scores/LS025"
+            data-tracking-match-id="1045-2026-LS025"
+        class="tennis-match js-tennis-match js-match-1045-2026-LS024"
+        data-match-id="LS024"
+        href="/tournaments/1045/washington-dc/2026/scores/LS024"
+            data-tracking-match-id="1045-2026-LS024"
+        class="tennis-match js-tennis-match js-match-1045-2026-LS023"
+        data-match-id="LS023"
+        href="/tournaments/1045/washington-dc/2026/scores/LS023"
+            data-tracking-match-id="1045-2026-LS023"
+        class="tennis-match js-tennis-match js-match-1045-2026-LS018"
+        data-match-id="LS018"
+        href="/tournaments/1045/washington-dc/2026/scores/LS018"
+            data-tracking-match-id="1045-2026-LS018"
+        class="tennis-match js-tennis-match js-match-1045-2026-LS026"
+        data-match-id="LS026"
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
+<summary>Tool use: **web_search**</summary>
+
+Parameters:
+
+```json
+{
+  "searchTerm": "Alex Eala Leylah Fernandez Washington Open highlights YouTube July 2026"
+}
+```
+Result:
+
+```json
+{
+  "isFinal": true,
+  "references": [
+    {
+      "chunk": "No results found",
+      "title": "Web search results"
+    }
+  ],
+  "rejected": false
+}
+```
+User decision: **accepted**
+
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+I need to find the LS ID for the Eala versus Fernandez match.
+
+Grepping the curl output more specifically.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: curl -sL &#34;https://www.wtatennis.com/tournaments/1045/washington-dc/2026/scores&#34; | grep -iE &#39;eala|LS0[0-9]{2}&#39; | grep -B5 -A5 &#39;eala&#39; | head -40</summary>
+```bash
+curl -sL "https://www.wtatennis.com/tournaments/1045/washington-dc/2026/scores" | grep -iE 'eala|LS0[0-9]{2}' | grep -B5 -A5 'eala' | head -40
+```
+
+```
+        class="tennis-match js-tennis-match js-match-1045-2026-LS022"
+        data-match-id="LS022"
+        href="/tournaments/1045/washington-dc/2026/scores/LS022"
+            data-tracking-match-id="1045-2026-LS022"
+        class="tennis-match js-tennis-match js-match-1045-2026-LS029"
+                                        <a class="match-table__player match-table__player--link" href="/players/330332/alexandra-eala">
+                                                        A. Eala
+        data-match-id="LS029"
+        href="/tournaments/1045/washington-dc/2026/scores/LS029"
+        title="Eala vs. Zheng | Round of 32 Mubadala DC Open 2026 | Match Center" aria-label="Eala vs. Zheng | Round of 32 Mubadala DC Open 2026 | Match Center"
+            data-tracking-match-id="1045-2026-LS029"
+--
+        class="tennis-match js-tennis-match js-match-1045-2026-LS021"
+        data-match-id="LS021"
+        href="/tournaments/1045/washington-dc/2026/scores/LS021"
+            data-tracking-match-id="1045-2026-LS021"
+        class="tennis-match js-tennis-match js-match-1045-2026-LS014"
+                                        <a class="match-table__player match-table__player--link" href="/players/330332/alexandra-eala">
+                                                        A. Eala
+        data-match-id="LS014"
+        href="/tournaments/1045/washington-dc/2026/scores/LS014"
+        title="Fernandez vs. Eala | Round of 16 Mubadala DC Open 2026 | Match Center" aria-label="Fernandez vs. Eala | Round of 16 Mubadala DC Open 2026 | Match Center"
+            data-tracking-match-id="1045-2026-LS014"
+--
+            data-tracking-match-id="1045-2026-LS010"
+        class="tennis-match js-tennis-match js-match-1045-2026-LS015"
+        data-match-id="LS015"
+        href="/tournaments/1045/washington-dc/2026/scores/LS015"
+            data-tracking-match-id="1045-2026-LS015"
+                href="/videos/4549480/from-5-1-down-in-second-set-eala-dethrones-fernandez-in-washington"
+               
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The WTA URL for Fernandez's match is LS014 in the Round of 16.
+
+The main tournament line must link to the deepest round played. Since Alex has not yet won her quarterfinal match, the deepest played round is the Round of 16. The main line should therefore point to that round rather than Quarterfinals.
+
+The main line will show Quarterfinals as pending, with Round of 16 and Round of 32 listed below. Links will be omitted from the quarterfinal entry because the opponent is unknown. The Fernandez H2H record will also be updated with the Washington Round of 16 win.
+
+No tournament video embeds are needed. Both opponents are H2H matches, so the Best Performances section allows only two non-H2H embeds. The Washington match video will be sourced from WTA's video page.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/reference.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: sleep 2 &amp;&amp; curl -sL &#34;https://www.wtatennis.com/videos/4549480/from-5-1-down-in-second-set-eala-dethrones-fernandez-in-washington&#34; | grep -iE &#39;youtube|youtu\.be|video-id&#39; | head -10</summary>
+```bash
+sleep 2 && curl -sL "https://www.wtatennis.com/videos/4549480/from-5-1-down-in-second-set-eala-dethrones-fernandez-in-washington" | grep -iE 'youtube|youtu\.be|video-id' | head -10
+```
+
+```
+            "https://www.youtube.com/user/WTA",
+        data-initial-video-id="4549480"
+                        <a class="sbtn sbtn--fill sbtn--med sbtn--icon-med dt:sbtn--icon-large theme-chalk" href="https://www.youtube.com/user/wta" target="_blank" rel="noopener"
+        data-tracking-detail="youtube"
+		<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/resources/v7.50.12/i/svg-output/icons.svg#icn-youtube"></use>
+                            <span class="u-screen-reader">youtube</span>
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+WTA video content uses internal IDs rather than YouTube links.
+
+Searching for YouTube highlights on the WTA or Tennis Channel.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
+<summary>Tool use: **web_search**</summary>
+
+Parameters:
+
+```json
+{
+  "searchTerm": "WTA Eala Fernandez Washington 6-2 7-6 youtube"
+}
+```
+Result:
+
+```json
+{
+  "isFinal": true,
+  "references": [
+    {
+      "chunk": "Links:\n1. [LIVE UPDATES: Alex Eala vs Leylah Fernandez at the Mubadala DC Open Round of 16 | GMA News Online](https://www.gmanetwork.com/news/sports/othersports/996674/live-updates-alex-eala-vs-leylah-fernandez-at-the-mubadala-dc-open-round-of-16/story/)\n2. [Leylah Fernandez vs Alexandra Eala · Round 2 · ATP/WTA Washington D.C.](https://www.tennis.com/tournaments/mubadala-dc-open/matches/l-fernandez-vs-a-eala-2026-07-29)\n3. [Alexandra Eala defeats defending champion Leylah Fernandez to move into Washington quarters | Flashscore.com.au](https://www.flashscore.com.au/news/alexandra-eala-defeats-defending-champion-leylah-fernandez-to-move-into-washington-quarters/dxX2OkV7/)\n\nSynthesis:\nYou can watch the match highlights of Alexandra Eala versus Leylah Fernandez at the 2026 Washington Open on the official WTA YouTube channel [1]. The match, which Eala won 6-2, 7-6(1), is available through the WTA's tournament coverage [1]. Other sources also feature live updates and match reporting for this second-round encounter [2][3].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eLIVE UPDATES: Alex Eala vs Leylah Fernandez at the Mubadala DC Open Round of 16 | GMA News Online\u003c/title\u003e\n\u003curl\u003ehttps://www.gmanetwork.com/news/sports/othersports/996674/live-updates-alex-eala-vs-leylah-fernandez-at-the-mubadala-dc-open-round-of-16/story/\u003c/url\u003e\n\u003ccontent\u003eLIVE UPDATES: Alex Eala vs Leylah Fernandez at the Mubadala DC Open Round of 16 | GMA News Online\n\nWe use cookies to ensure you get the best browsing experience. By continued use, you agree to our privacy policy and accept our use of such cookies. For further information, click FIND OUT MORE.\n\nI AGREE FIND OUT MORE\n\nSara Duterte Impeached: The Vice President on Trial\n\nSara Duterte Impeached: The Vice President on Trial\n\nSara Duterte Impeached: The Vice President on Trial\n\nADVERTISEMENT\n\nLIVE\n\nSort by\n\nD
+… (output truncated)
+```
+User decision: **accepted**
+
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md",
+  "pattern": "youtube"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md",
+  "pattern": "youtube",
+  "topFiles": [
+    {
+      "matchCount": 5,
+      "uri": "content/english/blog/alex-eala-pro-career-tracker.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 48
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+No clear YouTube video was found for this match. The embed will be skipped.
+
+The Washington block will list the Round of 16 and Round of 32 wins. The exit round rule may conflict since the quarterfinal is deeper than the completed round.
+
+The Washington entry will show Quarterfinals as the current status without an opponent or link. The Round of 16 and Round of 32 wins will appear as sub-bullets beneath it.
+
+Links will be added to the Round of 16 and Round of 32 wins. No embeds are needed because both opponents are already in H2H records. The Washington Round of 16 victory will be inserted into Fernandez’s H2H list, placed after the Stuttgart entry. Fernandez will remain in Other Top 20; she has not won a Grand Slam.
+
+No changes are needed for career-high stats or best-slam-run status. The last-modified timestamp will be set to 2026-07-29T22:35:00Z based on the user's reported update time.
+
+The tracker’s Round of 32 label for the Zheng match aligns with WTA naming conventions. A milestone bullet was considered but skipped because this is not a first-time achievement. One final YouTube search for highlights is being attempted.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: curl -sL &#34;https://www.youtube.com/results?search_query=WTA+Eala+Fernandez+Washington+2026&#34; | grep -oE &#39;watch\?v=[a-zA-Z0-9_-]{11}&#39; | head -5</summary>
+```bash
+curl -sL "https://www.youtube.com/results?search_query=WTA+Eala+Fernandez+Washington+2026" | grep -oE 'watch\?v=[a-zA-Z0-9_-]{11}' | head -5
+```
+
+```
+watch?v=zrLRktfS-q4
+watch?v=zrLRktfS-q4
+watch?v=zrLRktfS-q4
+watch?v=f8UTIInO4uw
+watch?v=f8UTIInO4uw
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Checking video IDs via oembed.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: for id in zrLRktfS-q4 f8UTIInO4uw; do curl -s &#34;https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=$id&amp;format=json&#34; | head -c 200; echo; done</summary>
+```bash
+for id in zrLRktfS-q4 f8UTIInO4uw; do curl -s "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=$id&format=json" | head -c 200; echo; done
+```
+
+```
+{"title":"Leylah Fernandez vs. Alexandra Eala | 2026 Washington, DC Round of 16 | WTA Match Highlights","author_name":"WTA","author_url":"https://www.youtube.com/@WTA","type":"video","height":113,"wid
+{"title":"Alex Eala Defeats Leylah Fernandez in Washington! \ud83d\ude31\ud83c\udfbe | Incredible WTA Upset! #alexeala #tennis","author_name":"World of Celeb ","author_url":"https://www.youtube.com/@w
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Checking the official WTA video for the Leylah Fernandez match.
+
+The Eala match belongs in the Fernandez H2H section under the Washington line. The Zheng video is already in the Best Performances list. Proceeding to edit.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Applying tracker updates: adding the Washington tournament block and the Fernandez H2H win.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Verifying the update before summarizing.
+
+Washington is confirmed as a WTA 500 tournament. The quarterfinal opponent remains unknown.
+</details></think>
+
+_**Agent (auto-low)**_
+
+**Washington (WTA 500)** — added at the top of 2026 singles:
+
+- **Quarterfinals** — no opponent yet (pending Svitolina/Kudermetova from the other half)
+- **Round of 16** — d. Fernandez 6-2, 7-6(1) (came back from 5-1 down in the second)
+- **Round of 32** — d. Zheng 4-6, 6-4, 6-1 (already linked; now under the tournament block)
+
+**Leylah Fernandez H2H** — Washington win added (newest first); WTA match highlights embedded (`zrLRktfS-q4`).
+
+**Unchanged:** At a glance, rankings, watch list (Fernandez was already in Other Top 20). No Best Performances embeds — both deep-round opponents are H2H-tracked (Zheng and Fernandez).
+
+**Open:** QF opponent and result when the draw slot is confirmed.
+
+## Session close
+- Fixed: Washington run through R16 vs Fernandez; QF pending; Fernandez H2H and WTA highlights updated.
+- Encode: none
+- Open: Washington QF opponent TBD
+
+---
+
+_**User**_
+
+have Grand Slam Main Draw Results before 
+Best Performances in WTA Tournaments
+
+---
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Reordering the career tracker to place "Grand Slam Main Draw Results" before "Best Performances in WTA Tournaments".
+
+Reading the file to locate the two sections.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md",
+  "pattern": "^## "
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md",
+  "pattern": "^## ",
+  "topFiles": [
+    {
+      "matchCount": 9,
+      "uri": "content/english/blog/alex-eala-pro-career-tracker.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 9
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The Grand Slam Main Draw Results section will be swapped with the Best Performances section.
+
+The swap will be done via shell command or large replacement. The complete Grand Slam section spans lines 247–314.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Swapping Best Performances (lines 62–245) to appear before the Grand Slam section.
+
+Grand Slam results will move to lines 247–313. The Best Performances intro needs updating to say "above" instead of "below." A Python script will handle the swap.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Swapping the two sections and updating the cross-reference in the Best Performances intro.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 &lt;&lt; &#39;PY&#39;
+from pathlib import Path
+p = Path(&#34;/home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md&#34;)
+text = p.read_text()
+# Split on section headers after WTA Rankings
+marker_rankings_end = &#34;---\n\n## Best Performances in WTA Tournaments&#34;
+marker_gs = &#34;## Grand Slam Main Draw Results&#34;
+marker_h2h = &#34;## Matches Against Grand Slam Champions&#34;
+
+if marker_rankings_end not in text:
+    raise SystemExit(&#34;rankings marker missing&#34;)
+pre, rest = text.split(marker_rankings_end, 1)
+# rest starts with intro line after header
+best_header = &#34;## Best Performances in WTA Tournaments&#34;
+if not rest.startswith(&#34;\n&#34;):
+    raise SystemExit(&#34;unexpected rest start&#34;)
+
+# Find where Best Performances ends (--- before Grand Slam or H2H)
+gs_pos = rest.find(&#34;\n---\n\n## Grand Slam Main Draw Results\n&#34;)
+if gs_pos == -1:
+    raise SystemExit(&#34;gs boundary missing&#34;)
+best_body = rest[:gs_pos]  # includes intro + content, no trailing ---
+after_gs_start = rest[gs_pos + len(&#34;\n---\n\n&#34;):]  # starts with ## Grand Slam...
+
+h2h_pos = after_gs_start.find(&#34;\n---\n\n## Matches Against Grand Slam Champions\n&#34;)
+if h2h_pos == -1:
+    raise SystemExit(&#34;h2h boundary missing&#34;)
+gs_body = after_gs_start[:h2h_pos]  # ## Grand Slam ... content
+tail = after_gs_start[h2h_pos:]  # \n---\n\n## Matches...
+
+# Fix Best Performances intro
+best_body = best_body.replace(
+    &#34;Slams get their own section below. This is the week-to-week grind&#34;,
+    &#34;Slams are in the section above. This is the week-to-week grind&#34;,
+)
+
+new_rest = (
+    &#34;\n---\n\n&#34;
+    + gs_body
+    + &#34;\n---\n\n&#34;
+    + best_header
+    + best_body
+    + tail
+)
+p.write_text(pre + new_rest)
+print(&#34;OK: sections swapped&#34;)
+PY</summary>
+```bash
+python3 << 'PY'
+from pathlib import Path
+p = Path("/home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md")
+text = p.read_text()
+# Split on section headers after WTA Rankings
+marker_rankings_end = "---\n\n## Best Performances in WTA Tournaments"
+marker_gs = "## Grand Slam Main Draw Results"
+marker_h2h = "## Matches Against Grand Slam Champions"
+
+if marker_rankings_end not in text:
+    raise SystemExit("rankings marker missing")
+pre, rest = text.split(marker_rankings_end, 1)
+# rest starts with intro line after header
+best_header = "## Best Performances in WTA Tournaments"
+if not rest.startswith("\n"):
+    raise SystemExit("unexpected rest start")
+
+# Find where Best Performances ends (--- before Grand Slam or H2H)
+gs_pos = rest.find("\n---\n\n## Grand Slam Main Draw Results\n")
+if gs_pos == -1:
+    raise SystemExit("gs boundary missing")
+best_body = rest[:gs_pos]  # includes intro + content, no trailing ---
+after_gs_start = rest[gs_pos + len("\n---\n\n"):]  # starts with ## Grand Slam...
+
+h2h_pos = after_gs_start.find("\n---\n\n## Matches Against Grand Slam Champions\n")
+if h2h_pos == -1:
+    raise SystemExit("h2h boundary missing")
+gs_body = after_gs_start[:h2h_pos]  # ## Grand Slam ... content
+tail = after_gs_start[h2h_pos:]  # \n---\n\n## Matches...
+
+# Fix Best Performances intro
+best_body = best_body.replace(
+    "Slams get their own section below. This is the week-to-week grind",
+    "Slams are in the section above. This is the week-to-week grind",
+)
+
+new_rest = (
+    "\n---\n\n"
+    + gs_body
+    + "\n---\n\n"
+    + best_header
+    + best_body
+    + tail
+)
+p.write_text(pre + new_rest)
+print("OK: sections swapped")
+PY
+```
+
+```
+OK: sections swapped
+
+```
 </details></tool-use>
