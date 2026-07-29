@@ -7,7 +7,7 @@ import { createRequire } from "node:module";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { ensureHugo } from "./ensureHugo.mjs";
-import { projectRoot, run, runNodeScript } from "./spawnUtil.mjs";
+import { projectRoot, run, runNodeScript, runPython } from "./spawnUtil.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const require = createRequire(import.meta.url);
@@ -21,8 +21,8 @@ const hugoBin = ensureHugo();
 
 runNodeScript(join(__dirname, "themeGenerator.js"));
 runNodeScript(join(__dirname, "noteFileDates.js"));
-run("python3", [join(__dirname, "export-okf-bundle.py")], { cwd: projectRoot });
-run("python3", [join(__dirname, "export-okf-blog-bundle.py")], { cwd: projectRoot });
+runPython(join(__dirname, "export-okf-bundle.py"), [], { cwd: projectRoot });
+runPython(join(__dirname, "export-okf-blog-bundle.py"), [], { cwd: projectRoot });
 const hugoCacheDir = join(projectRoot, ".cache");
 run(
   hugoBin,

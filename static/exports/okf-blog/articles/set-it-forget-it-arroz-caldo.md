@@ -12,15 +12,15 @@ I don't do it anymore. I switched to an [Instant Pot version](/articles/instant-
 
 The part that sold me back then: a rice cooker with a congee setting that does the work. Total time was maybe an hour, but you were only in the kitchen for about five minutes. The rest was waiting while the smell did its job.
 
-**Takes about an hour total, feeds 4-6 people (perfect for meal prep or feeding a crowd)**
+About an hour start to finish, feeds 4-6, with enough left over to get through a couple of weekday lunches.
 
-## The Magic Rice Cooker Situation
+## The rice cooker that did all the work
 
-I used the **[Hanabishi Congee & Rice Cooker Series HRCR2C](https://myhanabishi.com/collections/rice-cookers-3/products/rice-cooker-hrc-r2c?variant=45693133881625)**, but any rice cooker with a congee or porridge function will work. Set it and literally forget it.
+I used the **[Hanabishi Congee & Rice Cooker Series HRCR2C](https://myhanabishi.com/collections/rice-cookers-3/products/rice-cooker-hrc-r2c?variant=45693133881625)**, but any rice cooker with a congee or porridge function will work. I'd hit the button and fall asleep on the couch.
 
-Also, pro tip for this method: boneless chicken thigh fillets when you can find them. They're fattier and more forgiving than breast meat, plus they stay tender even if you cook them a bit longer. My supermarket stopped stocking them consistently - part of why I moved on.
+One thing I learned: use boneless chicken thigh fillets, not breast. They're fattier and more forgiving, and they stay tender even if the cycle runs long. My supermarket stopped stocking them consistently, which is part of why I moved on.
 
-## What You'll Need
+## What went in the Hanabishi
 
 **The essentials (don't skip these):**
 - 6-7 cups (1.4-1.7 L) water or chicken broth
@@ -48,9 +48,9 @@ Also, pro tip for this method: boneless chicken thigh fillets when you can find 
 Cut the **1 kg (2.2 lbs) chicken thigh fillets** into bite-sized chunks. Mince **3 inches (7-8 cm) fresh ginger** and chop **4 cloves garlic**. Rinse **1 cup (200 g) glutinous rice** until the water runs clear. Dice the **1 medium onion** if you're using it. Don't stress about perfect cuts - it all breaks down anyway.
 
 **Step 2:** Dump it all in
-Friday night ritual: everything goes into the rice cooker. Later in the evening, people who are still awake are asking why it is smelling like ginger already.
+Friday night ritual. Half an hour later whoever's still awake is asking why the house smells like ginger.
 
-Everything goes into the rice cooker: the rinsed rice, chicken, **6-7 cups (1.4-1.7 L) water or broth**, **1 Knorr chicken cube** (or **1 teaspoon / 5 g powder**), ginger, garlic, **2-3 tablespoons (30-45 ml) fish sauce**, and black pepper to taste. Add the **1 pinch kasubha** and onion now if you're using them. Taste the liquid and adjust the fish sauce - it should taste slightly salty since the rice will absorb a lot of it.
+In goes the rinsed rice, chicken, **6-7 cups (1.4-1.7 L) water or broth**, **1 Knorr chicken cube** (or **1 teaspoon / 5 g powder**), ginger, garlic, **2-3 tablespoons (30-45 ml) fish sauce**, and black pepper to taste. Add the **1 pinch kasubha** and onion now if you're using them. Taste the liquid and adjust the fish sauce - it should taste slightly salty since the rice will absorb a lot of it.
 
 **Step 3:** Press the button and walk away
 Hit that congee setting and go do something else for **45-60 minutes**. I'd usually fall asleep on the couch and wake up to the kitchen smelling like Saturday already started.
@@ -62,16 +62,16 @@ Too thick? Add **hot water 1 cup (240 ml) at a time**. Too soupy? Let it sit on 
 
 Serve with **2-3 kalamansi** (or **1 lemon**), **2-3 tablespoons (30-45 ml) crispy garlic**, **2-3 stalks green onions**, and **2-4 hard-boiled eggs**, halved.
 
-## Things I've Learned Along the Way
+## What the rice cooker taught me
 
-- Make this ahead of time for easy weekday meals. It tastes even better after sitting overnight and reheats perfectly.
-- Fresh ginger makes ALL the difference. You'll definitely taste it.
+- Make this ahead of time for easy weekday meals. It tastes better the next day and reheats fine in the microwave.
+- Use fresh ginger, not powdered. I tried powdered once when I ran out and could tell immediately.
 - Start with **6 cups (1.4 L) water**. You can always thin it out, but it's harder to thicken it back up.
-- Don't skip the toppings! Kalamansi and crispy garlic turn a plain bowl into the good version.
+- Don't skip the toppings. Kalamansi and crispy garlic turn a plain bowl into the good version.
 
-The texture should be creamy but not mushy, with the rice broken down but still having some bite to it. If you've never had good arroz caldo before, think somewhere between risotto and congee.
+Mine always came out thicker than the arroz caldo I'd order out, so I'd thin it with hot water a cup at a time until it looked right. You want the rice broken down but still with some bite, somewhere between risotto and congee.
 
-## For Reference
+## Where I started
 
 I originally learned this watching **[Panlasang Pinoy's version](https://panlasangpinoy.com/chicken-arroz-caldo-recipe-glutinous-rice-porridge/)**, but I've tweaked it over time to work with my rice cooker setup.
 

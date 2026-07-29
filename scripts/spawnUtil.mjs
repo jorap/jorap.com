@@ -73,3 +73,40 @@ export function capture(cmd, args = []) {
     shell: needsShell(cmd),
   });
 }
+
+function pythonWorks(bin, prefix = []) {
+  const r = capture(bin, [
+    ...prefix,
+    "-c",
+    "import sys; raise SystemExit(0 if sys.version_info >= (3, 8) else 1)",
+  ]);
+  return r.status === 0;
+}
+
+/** @returns {{ bin: string, prefix: string[] }} */
+export function resolvePython() {
+  if (process.env.PYTHON && pythonWorks(process.env.PYTHON)) {
+    return { bin: process.env.PYTHON, prefix: [] };
+  }
+  const tries = isWin
+    ? [
+        ["python", []],
+        ["python3", []],
+        ["py", ["-3"]],
+      ]
+    : [
+        ["python3", []],
+        ["python", []],
+      ];
+  for (const [bin, prefix] of tries) {
+    if (pythonWorks(bin, prefix)) return { bin, prefix };
+  }
+  console.error("[spawn] Python 3.8+ required (OKF export during deploy).");
+  console.error("  Install Python 3 or set PYTHON to your python binary.");
+  process.exit(1);
+}
+
+export function runPython(scriptPath, args = [], opts = {}) {
+  const { bin, prefix } = resolvePython();
+  run(bin, [...prefix, scriptPath, ...args], opts);
+}

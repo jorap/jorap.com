@@ -52,3 +52,13 @@ If the user supplied a title or slug, normalize it:
 | `post .md` | `post.md` |
 
 When renaming existing files, grep for references (wikilinks, imports, Hugo `slug` aliases) and update them in the same change.
+
+Verify locally (Windows, Linux, macOS): `pnpm test:filenames` (self-check) or `pnpm lint:filenames` (git-tracked scan).
+
+## Verify locally
+
+Cross-platform (Windows, Linux, macOS) — Node only, no Python required:
+
+- `pnpm test:filenames` — self-check on the lint rules
+- `pnpm lint:filenames` — scan git-tracked paths
+- `node scripts/lint-filenames.mjs --walk` — include untracked working-tree paths

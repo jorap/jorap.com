@@ -1,7 +1,34 @@
 # Directory Update Log
 
-## 2026-07-26
+## 2026-07-29
 * **Export**: Generated OKF v0.2 blog bundle from Hugo blog posts.
+* **Update**: Update
+* **Update**: Update
+
+## 2026-07-28
+* **Update**: Update
+* **Update**: Update
+* **Update**: Update
+* **Update**: Update
+* **Update**: Update
+* **Update**: Update
+* **Update**: Update
+* **Update**: Updates
+* **Update**: Update
+* **Update**: Update
+
+## 2026-07-27
+* **Update**: Update
+* **Update**: Update
+* **Update**: Update
+* **Update**: Update
+* **Update**: Add mechanical slop scoring and publish streamlining games post.
+* **Update**: Update
+* **Update**: Update
+* **Update**: Update
+
+## 2026-07-26
+* **Update**: Update
 * **Update**: Update
 * **Update**: Update
 * **Update**: Update

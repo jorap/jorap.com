@@ -250,3 +250,850 @@ _**Agent (auto-low)**_
 <summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/rules/safe-filenames.mdc</summary>
 
 </details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: python3 &lt;&lt; &#39;PY&#39;
+import os, re, sys
+from pathlib import Path
+
+ROOT = Path(&#34;/home/jorap/Documents/GitHub/jorap.com&#34;)
+
+# Skip common noise dirs
+SKIP_DIRS = {&#34;.git&#34;, &#34;node_modules&#34;, &#34;public&#34;, &#34;resources&#34;, &#34;.pnpm-store&#34;, &#34;.cache&#34;}
+
+FORBIDDEN = set(&#39;&lt;&gt;:&#34;|?*\\/&#39;)
+CONTROL = {chr(i) for i in range(32)}
+RESERVED = {f&#34;COM{i}&#34; for i in range(1, 10)} | {f&#34;LPT{i}&#34; for i in range(1, 10)} | {&#34;CON&#34;, &#34;PRN&#34;, &#34;AUX&#34;, &#34;NUL&#34;}
+
+issues = []
+
+def check_name(name: str, full_path: Path):
+    rel = full_path.relative_to(ROOT)
+    problems = []
+
+    if not name:
+        problems.append(&#34;empty name&#34;)
+        return problems
+
+    if name != name.strip():
+        problems.append(&#34;leading/trailing whitespace&#34;)
+
+    if name.endswith(&#39; &#39;) or name.endswith(&#39;.&#39;):
+        problems.append(&#34;trailing space or dot&#34;)
+
+    if any(c in FORBIDDEN for c in name):
+        bad = sorted({c for c in name if c in FORBIDDEN})
+        problems.append(f&#34;forbidden chars: {&#39;&#39;.join(bad)!r}&#34;)
+
+    if any(c in CONTROL for c in name):
+        problems.append(&#34;control character&#34;)
+
+    if &#39;\0&#39; in name:
+        problems.append(&#34;null byte&#34;)
+
+    stem = name
+    if &#39;.&#39; in name and not name.startswith(&#39;.&#39;):
+        stem = name.rsplit(&#39;.&#39;, 1)[0]
+    elif name.startswith(&#39;.&#39;) and name.count(&#39;.&#39;) &gt; 1:
+        stem = name.rsplit(&#39;.&#39;, 1)[0].lstrip(&#39;.&#39;)
+
+    if stem.upper() in RESERVED:
+        problems.append(f&#34;Windows reserved name: {stem.upper()}&#34;)
+
+    if &#39;..&#39; in name.split(&#39;.&#39;)[:-1] if &#39;.&#39; in name else []:
+        problems.append(&#34;double-dot in stem&#34;)
+
+    if name.count(&#39;.&#39;) &gt; 1 and not name.startswith(&#39;.&#39;):
+        parts = name.split(&#39;.&#39;)
+        # flag unusual multi-extension unless common like .tar.gz handled as one component
+        if len(parts) &gt; 2 and not (name.endswith(&#39;.tar.gz&#39;) or name.endswith(&#39;.min.js&#39;) or name.endswith(&#39;.d.ts&#39;)):
+            pass  # report separately
+
+    if len(name.encode(&#39;utf-8&#39;)) &gt; 200:
+        problems.append(f&#34;long name ({len(name.encode(&#39;utf-8&#39;))} bytes)&#34;)
+
+    # non-ascii / emoji / combining marks
+    if not name.isascii():
+        non_ascii = [c for c in name if ord(c) &gt; 127]
+        if non_ascii:
+            problems.append(f&#34;non-ASCII: {&#39;&#39;.join(non_ascii[:20])}{&#39;…&#39; if len(non_ascii)&gt;20 else &#39;&#39;}&#34;)
+
+    # uppercase in content paths (repo convention)
+    if rel.parts and rel.parts[0] in (&#39;content&#39;, &#39;layouts&#39;, &#39;assets&#39;, &#39;static&#39;, &#39;scripts&#39;) and re.search(r&#39;[A-Z]&#39;, name):
+        if not name.startswith(&#39;__&#39;):  # still flag but separate category
+            problems.append(&#34;uppercase (repo convention)&#34;)
+
+    # spaces in filename
+    if &#39; &#39; in name:
+        problems.append(&#34;contains space&#34;)
+
+    return problems
+
+for dirpath, dirnames, filenames in os.walk(ROOT, topdown=True):
+    dirnames[:] = [d for d in dirnames if d not in SKIP_DIRS and not d.startswith(&#39;.specstory&#39;)]
+    p = Path(dirpath)
+    for entry in list(dirnames) + filenames:
+        full = p / entry
+        probs = check_name(entry, full)
+        if probs:
+            issues.append((str(full.relative_to(ROOT)), probs))
+
+# sort by severity-ish
+issues.sort(key=lambda x: x[0].lower())
+
+print(f&#34;Scanned under {ROOT} (skipped: {&#39;, &#39;.join(sorted(SKIP_DIRS))}, .specstory)&#34;)
+print(f&#34;Found {len(issues)} paths with issues\n&#34;)
+
+by_kind = {}
+for path, probs in issues:
+    for p in probs:
+        by_kind.setdefault(p.split(&#39;:&#39;)[0].split(&#39;(&#39;)[0], []).append(path)
+
+for path, probs in issues:
+    print(f&#34;{path}&#34;)
+    for pr in probs:
+        print(f&#34;  - {pr}&#34;)
+    print()
+
+if not issues:
+    print(&#34;No unsafe filenames found.&#34;)
+else:
+    print(&#34;--- Summary by issue type ---&#34;)
+    for kind, paths in sorted(by_kind.items(), key=lambda kv: -len(kv[1])):
+        print(f&#34;{kind}: {len(paths)}&#34;)
+PY</summary>
+```bash
+python3 << 'PY'
+import os, re, sys
+from pathlib import Path
+
+ROOT = Path("/home/jorap/Documents/GitHub/jorap.com")
+
+# Skip common noise dirs
+SKIP_DIRS = {".git", "node_modules", "public", "resources", ".pnpm-store", ".cache"}
+
+FORBIDDEN = set('<>:"|?*\\/')
+CONTROL = {chr(i) for i in range(32)}
+RESERVED = {f"COM{i}" for i in range(1, 10)} | {f"LPT{i}" for i in range(1, 10)} | {"CON", "PRN", "AUX", "NUL"}
+
+issues = []
+
+def check_name(name: str, full_path: Path):
+    rel = full_path.relative_to(ROOT)
+    problems = []
+
+    if not name:
+        problems.append("empty name")
+        return problems
+
+    if name != name.strip():
+        problems.append("leading/trailing whitespace")
+
+    if name.endswith(' ') or name.endswith('.'):
+        problems.append("trailing space or dot")
+
+    if any(c in FORBIDDEN for c in name):
+        bad = sorted({c for c in name if c in FORBIDDEN})
+        problems.append(f"forbidden chars: {''.join(bad)!r}")
+
+    if any(c in CONTROL for c in name):
+        problems.append("control character")
+
+    if '\0' in name:
+        problems.append("null byte")
+
+    stem = name
+    if '.' in name and not name.startswith('.'):
+        stem = name.rsplit('.', 1)[0]
+    elif name.startswith('.') and name.count('.') > 1:
+        stem = name.rsplit('.', 1)[0].lstrip('.')
+
+    if stem.upper() in RESERVED:
+        problems.append(f"Windows reserved name: {stem.upper()}")
+
+    if '..' in name.split('.')[:-1] if '.' in name else []:
+        problems.append("double-dot in stem")
+
+    if name.count('.') > 1 and not name.startswith('.'):
+        parts = name.split('.')
+        # flag unusual multi-extension unless common like .tar.gz handled as one component
+        if len(parts) > 2 and not (name.endswith('.tar.gz') or name.endswith('.min.js') or name.endswith('.d.ts')):
+            pass  # report separately
+
+    if len(name.encode('utf-8')) > 200:
+        problems.append(f"long name ({len(name.encode('utf-8'))} bytes)")
+
+    # non-ascii / emoji / combining marks
+    if not name.isascii():
+        non_ascii = [c for c in name if ord(c) > 127]
+        if non_ascii:
+            problems.append(f"non-ASCII: {''.join(non_ascii[:20])}{'…' if len(non_ascii)>20 else ''}")
+
+    # uppercase in content paths (repo convention)
+    if rel.parts and rel.parts[0] in ('content', 'layouts', 'assets', 'static', 'scripts') and re.search(r'[A-Z]', name):
+        if not name.startswith('__'):  # still flag but separate category
+            problems.append("uppercase (repo convention)")
+
+    # spaces in filename
+    if ' ' in name:
+        problems.append("contains space")
+
+    return problems
+
+for dirpath, dirnames, filenames in os.walk(ROOT, topdown=True):
+    dirnames[:] = [d for d in dirnames if d not in SKIP_DIRS and not d.startswith('.specstory')]
+    p = Path(dirpath)
+    for entry in list(dirnames) + filenames:
+        full = p / entry
+        probs = check_name(entry, full)
+        if probs:
+            issues.append((str(full.relative_to(ROOT)), probs))
+
+# sort by severity-ish
+issues.sort(key=lambda x: x[0].lower())
+
+print(f"Scanned under {ROOT} (skipped: {', '.join(sorted(SKIP_DIRS))}, .specstory)")
+print(f"Found {len(issues)} paths with issues\n")
+
+by_kind = {}
+for path, probs in issues:
+    for p in probs:
+        by_kind.setdefault(p.split(':')[0].split('(')[0], []).append(path)
+
+for path, probs in issues:
+    print(f"{path}")
+    for pr in probs:
+        print(f"  - {pr}")
+    print()
+
+if not issues:
+    print("No unsafe filenames found.")
+else:
+    print("--- Summary by issue type ---")
+    for kind, paths in sorted(by_kind.items(), key=lambda kv: -len(kv[1])):
+        print(f"{kind}: {len(paths)}")
+PY
+```
+
+```
+Scanned under /home/jorap/Documents/GitHub/jorap.com (skipped: .cache, .git, .pnpm-store, node_modules, public, resources, .specstory)
+Found 11 paths with issues
+
+assets/images/Chicken-Adobo.jpg
+  - uppercase (repo convention)
+
+assets/images/Consistent_AI_Web_Development_Blueprint.jpg
+  - uppercase (repo convention)
+
+scripts/clearModules.js
+  - uppercase (repo convention)
+
+scripts/cspHashes.mjs
+  - uppercase (repo convention)
+
+scripts/deployBuild.mjs
+  - uppercase (repo convention)
+
+scripts/ensureHugo.mjs
+  - uppercase (repo convention)
+
+scripts/noteFileDates.js
+  - uppercase (repo convention)
+
+scripts/previewProd.mjs
+  - uppercase (repo convention)
+
+scripts/servePublic.mjs
+  - uppercase (repo convention)
+
+scripts/spawnUtil.mjs
+  - uppercase (repo convention)
+
+scripts/themeGenerator.js
+  - uppercase (repo convention)
+
+--- Summary by issue type ---
+uppercase : 11
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The scan found only uppercase convention violations. No actual cross-platform unsafe filenames were detected.
+
+The 11 uppercase filenames are a repository convention issue, not a cross-platform safety problem. A broader scan will cover content/ paths, special characters, and git-tracked files only.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Running a stricter cross-platform check on tracked files and scanning content paths.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt; &#39;PY&#39;
+import os, subprocess
+from pathlib import Path
+
+ROOT = Path(&#39;.&#39;).resolve()
+FORBIDDEN = set(&#39;&lt;&gt;:&#34;|?*\\/&#39;)
+CONTROL = {chr(i) for i in range(32)}
+RESERVED = {f&#34;COM{i}&#34; for i in range(1, 10)} | {f&#34;LPT{i}&#34; for i in range(1, 10)} | {&#34;CON&#34;, &#34;PRN&#34;, &#34;AUX&#34;, &#34;NUL&#34;}
+
+def git_files():
+    out = subprocess.check_output([&#39;git&#39;, &#39;ls-files&#39;, &#39;-z&#39;], cwd=ROOT)
+    return [p.decode(&#39;utf-8&#39;, &#39;surrogateescape&#39;) for p in out.split(b&#39;\0&#39;) if p]
+
+def check_component(name):
+    probs = []
+    if name != name.strip():
+        probs.append(&#39;leading/trailing whitespace&#39;)
+    if name.endswith(&#39; &#39;) or name.endswith(&#39;.&#39;):
+        probs.append(&#39;trailing space or dot&#39;)
+    if any(c in FORBIDDEN for c in name):
+        probs.append(&#39;forbidden char&#39;)
+    if any(c in CONTROL for c in name):
+        probs.append(&#39;control char&#39;)
+    stem = name.rsplit(&#39;.&#39;, 1)[0] if &#39;.&#39; in name and not name.startswith(&#39;.&#39;) else name
+    if stem.upper() in RESERVED:
+        probs.append(&#39;windows reserved&#39;)
+    if len(name.encode(&#39;utf-8&#39;)) &gt; 200:
+        probs.append(&#39;too long&#39;)
+    if &#39; &#39; in name:
+        probs.append(&#39;space&#39;)
+    return probs
+
+unsafe = []
+convention = []
+for rel in git_files():
+    parts = Path(rel).parts
+    for part in parts:
+        probs = check_component(part)
+        if probs:
+            unsafe.append((rel, part, probs))
+
+# content-only uppercase/underscore convention
+for rel in git_files():
+    if not rel.startswith(&#39;content/&#39;):
+        continue
+    name = Path(rel).name
+    import re
+    if re.search(r&#39;[A-Z]&#39;, name):
+        convention.append((rel, &#39;uppercase in content filename&#39;))
+    if &#39; &#39; in name:
+        convention.append((rel, &#39;space in content filename&#39;))
+
+print(&#39;=== Cross-platform unsafe (git tracked) ===&#39;)
+if not unsafe:
+    print(&#39;None found.&#39;)
+else:
+    for rel, part, probs in unsafe:
+        print(f&#39;{rel}  [{part}]  {&#34;, &#34;.join(probs)}&#39;)
+
+print(&#39;\n=== Content path convention drift ===&#39;)
+if not convention:
+    print(&#39;None found.&#39;)
+else:
+    for rel, msg in convention:
+        print(f&#39;{rel}  ({msg})&#39;)
+
+print(f&#39;\nTracked files scanned: {len(git_files())}&#39;)
+PY</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
+import os, subprocess
+from pathlib import Path
+
+ROOT = Path('.').resolve()
+FORBIDDEN = set('<>:"|?*\\/')
+CONTROL = {chr(i) for i in range(32)}
+RESERVED = {f"COM{i}" for i in range(1, 10)} | {f"LPT{i}" for i in range(1, 10)} | {"CON", "PRN", "AUX", "NUL"}
+
+def git_files():
+    out = subprocess.check_output(['git', 'ls-files', '-z'], cwd=ROOT)
+    return [p.decode('utf-8', 'surrogateescape') for p in out.split(b'\0') if p]
+
+def check_component(name):
+    probs = []
+    if name != name.strip():
+        probs.append('leading/trailing whitespace')
+    if name.endswith(' ') or name.endswith('.'):
+        probs.append('trailing space or dot')
+    if any(c in FORBIDDEN for c in name):
+        probs.append('forbidden char')
+    if any(c in CONTROL for c in name):
+        probs.append('control char')
+    stem = name.rsplit('.', 1)[0] if '.' in name and not name.startswith('.') else name
+    if stem.upper() in RESERVED:
+        probs.append('windows reserved')
+    if len(name.encode('utf-8')) > 200:
+        probs.append('too long')
+    if ' ' in name:
+        probs.append('space')
+    return probs
+
+unsafe = []
+convention = []
+for rel in git_files():
+    parts = Path(rel).parts
+    for part in parts:
+        probs = check_component(part)
+        if probs:
+            unsafe.append((rel, part, probs))
+
+# content-only uppercase/underscore convention
+for rel in git_files():
+    if not rel.startswith('content/'):
+        continue
+    name = Path(rel).name
+    import re
+    if re.search(r'[A-Z]', name):
+        convention.append((rel, 'uppercase in content filename'))
+    if ' ' in name:
+        convention.append((rel, 'space in content filename'))
+
+print('=== Cross-platform unsafe (git tracked) ===')
+if not unsafe:
+    print('None found.')
+else:
+    for rel, part, probs in unsafe:
+        print(f'{rel}  [{part}]  {", ".join(probs)}')
+
+print('\n=== Content path convention drift ===')
+if not convention:
+    print('None found.')
+else:
+    for rel, msg in convention:
+        print(f'{rel}  ({msg})')
+
+print(f'\nTracked files scanned: {len(git_files())}')
+PY
+```
+
+```
+=== Cross-platform unsafe (git tracked) ===
+.specstory/history/2026-06-22_06-14-22Z-create-notes-based-on-this:.md  [2026-06-22_06-14-22Z-create-notes-based-on-this:.md]  forbidden char
+.specstory/history/2026-07-08_02-17-18Z-ephesians-2:8-9-formatting.md  [2026-07-08_02-17-18Z-ephesians-2:8-9-formatting.md]  forbidden char
+
+=== Content path convention drift ===
+None found.
+
+Tracked files scanned: 1550
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+rg: regex parse error:
+    (?:[\<\>\"\|\?\*\\:])
+        ^^
+error: invalid escape sequence found in character class
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Two unsafe filenames were found in `.specstory/history/`.
+
+Both files contain colons. They are tracked in the repository. They are local tooling and were not committed unless requested.
+
+Content, layouts, assets, and scripts are clean. Eleven files use uppercase names in scripts and assets, but these follow repo conventions and are not cross-platform unsafe. I will report the findings without making changes.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; git check-ignore -v .specstory/history/2026-06-22_06-14-22Z-create-notes-based-on-this:.md 2&gt;/dev/null; ls -la &#34;.specstory/history/2026-06-22_06-14-22Z-create-notes-based-on-this:.md&#34; &#34;.specstory/history/2026-07-08_02-17-18Z-ephesians-2:8-9-formatting.md&#34; 2&gt;&amp;1</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && git check-ignore -v .specstory/history/2026-06-22_06-14-22Z-create-notes-based-on-this:.md 2>/dev/null; ls -la ".specstory/history/2026-06-22_06-14-22Z-create-notes-based-on-this:.md" ".specstory/history/2026-07-08_02-17-18Z-ephesians-2:8-9-formatting.md" 2>&1
+```
+
+```
+-rw-r--r-- 1 root root 85132 Jul 25 19:55 .specstory/history/2026-06-22_06-14-22Z-create-notes-based-on-this:.md
+-rw-r--r-- 1 root root  8749 Jul  8 10:17 .specstory/history/2026-07-08_02-17-18Z-ephesians-2:8-9-formatting.md
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The files exist and are tracked by Git.
+
+Checking whether .specstory is listed in .gitignore or still tracked from before.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.gitignore",
+  "pattern": "specstory"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.gitignore",
+  "pattern": "specstory",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; git ls-files &#39;.specstory/history/*:*&#39; &#39;.specstory/history/*:*.md&#39; 2&gt;/dev/null; git ls-files &#39;.specstory/&#39; | rg &#39;:&#39; | head -20</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && git ls-files '.specstory/history/*:*' '.specstory/history/*:*.md' 2>/dev/null; git ls-files '.specstory/' | rg ':' | head -20
+```
+
+```
+.specstory/history/2026-06-22_06-14-22Z-create-notes-based-on-this:.md
+.specstory/history/2026-07-08_02-17-18Z-ephesians-2:8-9-formatting.md
+.specstory/history/2026-06-22_06-14-22Z-create-notes-based-on-this:.md
+.specstory/history/2026-07-08_02-17-18Z-ephesians-2:8-9-formatting.md
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Deploy paths are clean. No unsafe filenames were found.
+
+Two unsafe filenames were found in .specstory. They contain colons. Eleven uppercase naming issues exist in scripts/assets. These are not cross-platform unsafe.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Scanned **1,550 git-tracked files** against the safe-filenames rule.
+
+## Cross-platform unsafe: 2 files
+
+Both are in `.specstory/history/` and contain `:` in the filename (invalid on Windows; problematic on macOS):
+
+| File | Issue |
+|------|--------|
+| `.specstory/history/2026-06-22_06-14-22Z-create-notes-based-on-this:.md` | Trailing colon before `.md` |
+| `.specstory/history/2026-07-08_02-17-18Z-ephesians-2:8-9-formatting.md` | Colon in scripture reference (`2:8-9`) |
+
+No unsafe names in deploy paths (`content/`, `layouts/`, `assets/`, `static/`, `scripts/`, `themes/`).
+
+## Convention drift (safe, but not kebab-case): 11 files
+
+Uppercase in `scripts/` (camelCase JS) and `assets/images/`:
+
+- `assets/images/Chicken-Adobo.jpg`
+- `assets/images/Consistent_AI_Web_Development_Blueprint.jpg`
+- `scripts/clearModules.js`, `cspHashes.mjs`, `deployBuild.mjs`, `ensureHugo.mjs`, `noteFileDates.js`, `previewProd.mjs`, `servePublic.mjs`, `spawnUtil.mjs`, `themeGenerator.js`
+
+These work on all OSes; the rule’s lowercase kebab-case preference is mainly for content slugs.
+
+## Clean
+
+- No spaces, reserved Windows names (`CON`, `COM1`, etc.), trailing dots/spaces, or control characters
+- All `content/` filenames are lowercase kebab-case
+- Draft `__` prefixes are fine
+
+The two `.specstory` files are the only real cross-platform hazards. Likely fix: rename colons to hyphens (e.g. `ephesians-2-8-9-formatting.md`) and `git mv` so history stays consistent. Want me to rename those?
+
+---
+
+_**User**_
+
+yes
+
+---
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Renaming the two .specstory files with colons in their names.
+
+Using git mv to preserve history. Checking for references to these files. Will not commit unless asked.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Renaming the two unsafe `.specstory` files and checking for references.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "create-notes-based-on-this:|ephesians-2:8-9"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "create-notes-based-on-this:|ephesians-2:8-9",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-06_08-19-33Z-ponytail-audit.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-07-26_01-17-47Z-notes-and-flashcards-guidelines.md"
+    },
+    {
+      "matchCount": 8,
+      "uri": ".specstory/history/2026-06-22_09-13-43Z-systems-for-growth-moc-creation.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-02_22-39-53Z-complete-specs-document.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-27_02-14-40Z-okf-shortcode-processing.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-22_12-10-07Z-notes-in-biblical-devotions.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-10_23-18-53Z-redundant-notes-review.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-28_17-06-25Z-free-grace-and-eternal-rewards-notes.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-07-17_01-21-56Z-explore-repo-structure.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": ".specstory/history/2026-06-28_00-07-52Z-tinacms-compatibility.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-24_10-18-40Z-audit-scripts-and-js.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": ".specstory/history/2026-07-01_23-35-09Z-notes-layout-adjustment.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-23_11-54-09Z-feynman-technique-for-notes.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": ".specstory/history/2026-07-01_14-39-04Z-okf-standards-compliance.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-07-24_10-18-20Z-ponytail-audit.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-02_23-40-15Z-site-voice-consistency-review.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-26_01-48-00Z-bible-shortcode-display-settings.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-03_01-49-12Z-notes-with-five-word-titles.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-01_11-51-46Z-connections-between-mercy-and.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-07-08_02-17-18Z-ephesians-2-8-9.md"
+    }
+  ],
+  "totalFiles": 33,
+  "totalMatches": 60
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; git mv &#34;.specstory/history/2026-06-22_06-14-22Z-create-notes-based-on-this:.md&#34; &#34;.specstory/history/2026-06-22_06-14-22Z-create-notes-based-on-this.md&#34; &amp;&amp; git mv &#34;.specstory/history/2026-07-08_02-17-18Z-ephesians-2:8-9-formatting.md&#34; &#34;.specstory/history/2026-07-08_02-17-18Z-ephesians-2-8-9-formatting.md&#34; &amp;&amp; git status --short .specstory/</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && git mv ".specstory/history/2026-06-22_06-14-22Z-create-notes-based-on-this:.md" ".specstory/history/2026-06-22_06-14-22Z-create-notes-based-on-this.md" && git mv ".specstory/history/2026-07-08_02-17-18Z-ephesians-2:8-9-formatting.md" ".specstory/history/2026-07-08_02-17-18Z-ephesians-2-8-9-formatting.md" && git status --short .specstory/
+```
+
+```
+R  .specstory/history/2026-06-22_06-14-22Z-create-notes-based-on-this:.md -> .specstory/history/2026-06-22_06-14-22Z-create-notes-based-on-this.md
+R  .specstory/history/2026-07-08_02-17-18Z-ephesians-2:8-9-formatting.md -> .specstory/history/2026-07-08_02-17-18Z-ephesians-2-8-9-formatting.md
+ M .specstory/statistics.json
+?? .specstory/history/2026-07-28_23-16-57Z-filename-safety-rules.md
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Git move succeeded. References to old paths remain only in historical session logs.
+
+Updating historical references across specstory files would be unnecessary churn. The actual file renames are sufficient.
+
+Re-running the safety scan to confirm the fixes. The renamed filenames appear safe and conflict-free.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt; &#39;PY&#39;
+import subprocess
+from pathlib import Path
+
+ROOT = Path(&#39;.&#39;).resolve()
+FORBIDDEN = set(&#39;&lt;&gt;:&#34;|?*\\/&#39;)
+CONTROL = {chr(i) for i in range(32)}
+RESERVED = {f&#34;COM{i}&#34; for i in range(1, 10)} | {f&#34;LPT{i}&#34; for i in range(1, 10)} | {&#34;CON&#34;, &#34;PRN&#34;, &#34;AUX&#34;, &#34;NUL&#34;}
+
+def git_files():
+    out = subprocess.check_output([&#39;git&#39;, &#39;ls-files&#39;, &#39;-z&#39;], cwd=ROOT)
+    return [p.decode(&#39;utf-8&#39;, &#39;surrogateescape&#39;) for p in out.split(b&#39;\0&#39;) if p]
+
+def check_component(name):
+    probs = []
+    if any(c in FORBIDDEN for c in name):
+        probs.append(&#39;forbidden char&#39;)
+    if any(c in CONTROL for c in name):
+        probs.append(&#39;control char&#39;)
+    stem = name.rsplit(&#39;.&#39;, 1)[0] if &#39;.&#39; in name and not name.startswith(&#39;.&#39;) else name
+    if stem.upper() in RESERVED:
+        probs.append(&#39;windows reserved&#39;)
+    if name.endswith(&#39; &#39;) or name.endswith(&#39;.&#39;):
+        probs.append(&#39;trailing space/dot&#39;)
+    if name != name.strip():
+        probs.append(&#39;whitespace&#39;)
+    return probs
+
+unsafe = []
+for rel in git_files():
+    for part in Path(rel).parts:
+        probs = check_component(part)
+        if probs:
+            unsafe.append((rel, part, probs))
+
+print(&#39;Cross-platform unsafe tracked files:&#39;, len(unsafe))
+for item in unsafe:
+    print(&#39; &#39;, item[0], &#39;-&gt;&#39;, item[2])
+PY</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
+import subprocess
+from pathlib import Path
+
+ROOT = Path('.').resolve()
+FORBIDDEN = set('<>:"|?*\\/')
+CONTROL = {chr(i) for i in range(32)}
+RESERVED = {f"COM{i}" for i in range(1, 10)} | {f"LPT{i}" for i in range(1, 10)} | {"CON", "PRN", "AUX", "NUL"}
+
+def git_files():
+    out = subprocess.check_output(['git', 'ls-files', '-z'], cwd=ROOT)
+    return [p.decode('utf-8', 'surrogateescape') for p in out.split(b'\0') if p]
+
+def check_component(name):
+    probs = []
+    if any(c in FORBIDDEN for c in name):
+        probs.append('forbidden char')
+    if any(c in CONTROL for c in name):
+        probs.append('control char')
+    stem = name.rsplit('.', 1)[0] if '.' in name and not name.startswith('.') else name
+    if stem.upper() in RESERVED:
+        probs.append('windows reserved')
+    if name.endswith(' ') or name.endswith('.'):
+        probs.append('trailing space/dot')
+    if name != name.strip():
+        probs.append('whitespace')
+    return probs
+
+unsafe = []
+for rel in git_files():
+    for part in Path(rel).parts:
+        probs = check_component(part)
+        if probs:
+            unsafe.append((rel, part, probs))
+
+print('Cross-platform unsafe tracked files:', len(unsafe))
+for item in unsafe:
+    print(' ', item[0], '->', item[2])
+PY
+```
+
+```
+Cross-platform unsafe tracked files: 0
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The session needs to close because repository files were changed.
+
+Renamed files are staged. statistics.json is modified but unstaged. I will not commit unless asked.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Renamed both files with `git mv` (staged, not committed):
+
+| Old | New |
+|-----|-----|
+| `2026-06-22_06-14-22Z-create-notes-based-on-this:.md` | `2026-06-22_06-14-22Z-create-notes-based-on-this.md` |
+| `2026-07-08_02-17-18Z-ephesians-2:8-9-formatting.md` | `2026-07-08_02-17-18Z-ephesians-2-8-9-formatting.md` |
+
+Re-scan of all 1,550 tracked files: **0 cross-platform unsafe filenames**.
+
+Older `.specstory` session logs still mention the old paths in transcript text; that's historical and doesn't affect the filesystem. I left those alone.
+
+Say if you want these renames committed (`[skip ci]` applies since it's `.specstory/` only).
+
+## Session close
+- Fixed: Renamed 2 colon-containing `.specstory` history files to cross-platform-safe names.
+- Encode: none
+- Open: staged renames uncommitted; `statistics.json` also modified locally

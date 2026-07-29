@@ -87,9 +87,33 @@ Cloudflare Pages drops header values over ~2 KB. `scripts/cspHashes.mjs` rewrite
 
 | Issue | Fix |
 | --- | --- |
-| Port in use | Hugo default `1313`; kill stale `hugo server` |
+| Port in use | Dev: Hugo `1313`; local deploy: wrangler `8788` (`PORT` / `HOST` env vars) |
 | Styles missing | Ensure Tailwind watch is running (`pnpm dev`, not bare `hugo`) |
 | CMS OAuth locally | Copy `.dev.vars.example` → `.dev.vars` with OAuth credentials |
+
+### Local production preview (Windows, Linux, macOS)
+
+Same pipeline as Cloudflare Pages — use this before pushing, not `pnpm dev`:
+
+```bash
+pnpm local              # build + serve at http://127.0.0.1:8788
+# or: pnpm run deploy && pnpm run serve
+```
+
+`pnpm dev` and `pnpm preview` pass `--buildDrafts` and `--buildFuture` to Hugo, so drafts and future-dated posts appear locally but not on the live site.
+
+**Toolchain:** Hugo Extended, Node 22+, pnpm, Go (mise + [`.mise.toml`](../.mise.toml)), Python 3.8+ for OKF export and garden lint scripts (`node scripts/runPython.mjs` resolves `python` / `python3` / `py -3` on Windows). Run in PowerShell or Git Bash.
+
+### Cross-platform filename checks
+
+Filename safety lint is pure Node — no Python or shell required:
+
+```bash
+pnpm test:filenames   # self-check (works without git)
+pnpm lint:filenames   # scan git-tracked paths (needs git)
+```
+
+`node scripts/lint-filenames.mjs --walk` scans the working tree including untracked files (skips `node_modules`, `public`, `.cache`).
 
 ---
 

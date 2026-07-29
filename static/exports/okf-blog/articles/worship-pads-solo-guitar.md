@@ -44,7 +44,7 @@ Here's why I keep coming back to it:
 
 - **MP3s don't crash.** They're just files. Any computer or phone can play them. No subscription, no login, no surprise update.
 - **VLC is already on every church laptop**, or one download away. It's free, it's solid, and it handles crossfades cleanly.
-- **It works offline.** Church Wi-Fi has betrayed me too many times.
+- **It works offline.** No streaming, no login, no "waiting for the pad app to sync."
 - **Any volunteer could run it.** The setup is simple enough that I could hand it to a teenager in about five minutes if that scenario came up.
 
 If you want VLC to crossfade smoothly between tracks: Tools → Preferences → Show All Settings → Audio → Filters → check **Crossfader**, then set it to about 3-5 seconds. Done.
@@ -55,7 +55,7 @@ The fancy pad apps are great for people who love fancy pad apps. I've stopped fi
 
 ## Where to get pads (free)
 
-These are the three I keep coming back to. All free, all in standard keys, all good quality.
+Three sources I actually use. Free, standard keys, good enough for a Sunday.
 
 **Juan López Música** - solid, warm pads in every common worship key.
 
@@ -73,7 +73,7 @@ Download: [link in the video description](https://www.youtube.com/watch?v=4V_Wc6
 
 Download: [Churchfront Ambient Pads](https://churchfront.com/ambient-pads/)
 
-**Reawaken Worship Pads & Karl Verkade** - gorgeous, atmospheric, a little more textured.
+**Reawaken Worship Pads & Karl Verkade** - warmer and more textured than the Churchfront set.
 
 <div class="youtube-video" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
   <iframe src="https://www.youtube.com/embed/jp3mOchAGgY" title="YouTube Video" loading="lazy" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"></iframe>
@@ -115,20 +115,20 @@ Once you trust the pad to hold the room, your guitar playing can actually get si
 
 - **Verses**: play softly, even partial chords. Let the pad do most of the work.
 - **Choruses**: lean in with fuller strumming. You'll feel the lift.
-- **Prayer or reflective moments**: stop playing entirely. The pad will carry it beautifully.
+- **Prayer or reflective moments**: stop playing entirely. The pad holds the room without you strumming.
 - **Between songs in the same key**: don't stop the pad. Let it bridge.
 
 The change in dynamics - quiet, then full, then quiet again - is what makes a set feel like worship instead of a setlist.
 
 ---
 
-## A last thought
+## What I'd do if I were starting today
 
 I waited way too long to try this. If you've ever stood up there with a guitar and felt like something was missing, it probably wasn't your playing. It was the space.
 
-Pads fill that space without taking it over. The point isn't to sound more professional, or more like the album. The point is to give yourself - and the people you're leading - a little more room to breathe and worship.
+Pads fill that space without taking it over. The point isn't to sound more professional, or more like the album. The point is to give yourself, and the people you're leading, a little more room to breathe and worship.
 
-Start simple. One pad, one key, one Sunday. See what happens.
+One pad in C, one Sunday. That's enough to know whether this is for you.
 
 ## Related garden notes
 

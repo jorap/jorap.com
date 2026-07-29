@@ -10,7 +10,7 @@ generated: { by: process:export-okf-blog-bundle, at: 2026-05-27T06:30:00Z }
 
 ## I went looking for the best open-source CMS
 
-At some point I stopped treating "pick a CMS" as a weekend decision and actually went hunting. Joomla, WordPress, Drupal, a few smaller names I don't even remember now. I read docs. I spun up local installs. I built the same small site three different ways to see which one I'd want to live in for years.
+At some point I stopped treating "pick a CMS" as a weekend decision and actually went hunting. Joomla, WordPress, Drupal, a few smaller names I don't even remember now. I read docs. I set up local installs. I built the same small site three different ways to see which one I'd want to live in for years.
 
 Drupal won that round. Not because it was easier. It wasn't. I liked the **architecture** - content types, fields, views, the way you could model a site before you wrote a line of theme code. It felt like a system built by people who thought about structure first. That appealed to me.
 

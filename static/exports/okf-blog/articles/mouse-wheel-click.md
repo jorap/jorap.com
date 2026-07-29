@@ -6,9 +6,7 @@ resource: "https://www.jorap.com/blog/mouse-wheel-click/"
 tags: ["Mouse", "Mouse Wheel Click", "Browser Tips", "Windows", "macOS", "Linux", "Middle Click", "Productivity"]
 generated: { by: process:export-okf-blog-bundle, at: 2026-05-28T05:00:00Z }
 ---
-I notice this all the time. Someone next to me, on their own laptop or at a shared screen, right-clicks a link, hovers down to "Open link in new tab," clicks, then goes back and does the same thing for the next link. And the next. And the next. Twenty times in a row while researching something.
-
-Every time I see it, I think the same thing: there is a faster button right under their finger and they have no idea.
+If you still open links with right-click → "Open link in new tab," there's a faster button right under your finger and most people never use it.
 
 The mouse wheel click - that little press of the scroll wheel - is one of the most underused buttons on the most-used input device in the world. And the best part: the most useful things it does work the *exact same way* on Windows, Mac, and Linux. No settings to change. No software to install. It just works.
 
