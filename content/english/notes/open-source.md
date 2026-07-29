@@ -28,14 +28,14 @@ relationships:
     wikilink: "[[Community Depth]]"
     reason: "Thick bench picks which open tool earns the evenings"
   - type: extends
+    wikilink: "[[Free Tier Hosting Stack]]"
+    reason: "Hugo, git, Cloudflare - open layer on a free host"
+  - type: extends
     wikilink: "[[Freedom Over Free]]"
     reason: "No license fee is the gate; permission is the purchase"
   - type: extends
     wikilink: "[[Future-Proofing Knowledge]]"
     reason: "Plain files and open tools are how notes survive app death"
-  - type: extends
-    wikilink: "[[Free Tier Hosting Stack]]"
-    reason: "Hugo, git, Cloudflare - open layer on a free host"
   - type: extends
     wikilink: "[[Git-Based CMS]]"
     reason: "Open repo stays source of truth when clients need buttons"

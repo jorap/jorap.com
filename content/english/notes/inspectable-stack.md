@@ -17,7 +17,7 @@ examples:
 shareable_thought:
   - "Pick tools you can inspect, move, and get help on."
   - "If I cannot inspect it, move it, and find help when stuck, it does not get a serious look."
-  - "Because open license does not mean maintained, abandonware fails the inspectable test even when view source is true."
+  - "Open license alone is not enough."
   - "Git is how I touch open code without breaking everyone else."
 relationships:
   - type: contradicts
@@ -56,7 +56,7 @@ cards:
     back: "Inspect, move, help when stuck."
   - front: "SaaS dashboard hides the export behind enterprise tier. What's the move?"
     back: "Walk - move test failed."
-  - front: "WordPress fatal on client site - support form or source? What's the inspectable move?"
+  - front: "WordPress fatal on a client site at ten at night. What's the inspectable move?"
     back: "Read the plugin - comment, fork, or swap."
 draft: false
 ---
