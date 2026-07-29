@@ -18,7 +18,7 @@ draft: false
 
 There's no smooth way to start this story, so I'll just say it: on May 8, 2020, my wife Pia and I found out she was pregnant and gave birth to our son Isaiah David on the same day. That sentence still doesn't feel real, even years later.
 
-It happened in the middle of the strict ECQ lockdown in the Philippines. What started as a regular morning at home - Pia in some abdominal pain we thought was a bad case of dysmenorrhea - ended with us holding a healthy baby boy at 4:46 in the afternoon. The whole day was about ten hours long. Our entire transition into parenthood happened inside one of those.
+It happened in the middle of the strict ECQ lockdown in the Philippines. What started as a regular morning at home - Pia in abdominal pain we thought was a bad case of dysmenorrhea - ended with us holding a healthy baby boy at 4:46 in the afternoon. The whole day was about ten hours long. Our entire transition into parenthood happened inside one of those.
 
 The story ended up reaching far more people than we ever imagined, but I want to start with how it actually unfolded.
 
@@ -60,7 +60,7 @@ We figured the Facebook post would get a handful of reactions from family and cl
 
 {{< youtube OPiYm82l9t4 >}}
 
-A few weeks after the post, GMA News Online reached out. We did the interview from our living room over Zoom, sleep-deprived and trying not to wake the baby. They turned it into a beautiful piece called ["The Miracle on May 8"](https://www.gmanetwork.com/news/specials/content/155/the-miracle-on-may-8/). When they put the [video on Facebook](https://www.facebook.com/watch/?v=325783961750143), it reached **seven million people**. I still don't know how to talk about that number with a straight face.
+A few weeks after the post, GMA News Online reached out. We did the interview from our living room over Zoom, sleep-deprived and trying not to wake the baby. They turned it into a beautiful piece called ["The Miracle on May 8"](https://www.gmanetwork.com/news/specials/content/155/the-miracle-on-may-8/). When they put the [video on Facebook](https://www.facebook.com/watch/?v=325783961750143), it reached **seven million people**. I still don't know how to talk about that number without laughing awkwardly.
 
 ---
 
@@ -76,7 +76,7 @@ Seeing our names in the 24 Oras headlines was surreal. There we were, sandwiched
 
 {{< youtube TkDRQJYvsks >}}
 
-When 24 Oras finally aired our full story, it took off. The YouTube version crossed two million views. Reading the comments was the strange part - people writing about how the story gave them hope in the middle of one of the hardest years any of us had lived through.
+When 24 Oras finally aired our full story, it took off. The YouTube version crossed two million views. Reading the comments was the strange part. People wrote about how the story gave them hope in the middle of one of the hardest years any of us had lived through.
 
 ---
 
@@ -108,11 +108,9 @@ Winnie Cordero from *Winner sa Life* reached out for our first radio interview. 
 
 ## What I think about now, looking back
 
-- [Facebook Video - 7 Million Views](https://www.facebook.com/watch/?v=325783961750143)
+For us, May 8, 2020 was personal. A wild, unforgettable, very loud family day. Somewhere in the middle of the news coverage and messages from strangers, I started to realize it had become bigger than us.
 
-For us, May 8, 2020 was personal. A wild, unforgettable, very loud family day. But somewhere in the middle of all the news coverage and messages from strangers, I started to realize that it had become bigger than us. It had quietly become something other people held on to during a really dark year.
-
-That part still surprises me. We didn't set out to inspire anyone. We just wrote a long Facebook post.
+That part still surprises me. We didn't set out to inspire anyone. We just wrote a long Facebook post because our friends and family deserved to hear it from us first.
 
 ---
 
@@ -125,4 +123,6 @@ That part still surprises me. We didn't set out to inspire anyone. We just wrote
 
 ---
 
-If there's one thing Isaiah's story taught me, it's that life doesn't always give you a heads-up. Sometimes the biggest moments arrive on a regular Friday, in a regular living room, in the middle of a regular year that turned out to be anything but. You don't get to prepare for them. You just get to live them - and if you're lucky, look back later and see what you couldn't see at the time.
+Isaiah is six now. He runs into rooms like he owns them. May 8, 2020 still doesn't feel like a normal Friday when I think about it - ten hours from "maybe pregnant" to holding a son, in the middle of ECQ, with a wrong gender announcement in between. You don't get to prepare for days like that. You just live them.
+
+[Facebook video - 7 million views](https://www.facebook.com/watch/?v=325783961750143)

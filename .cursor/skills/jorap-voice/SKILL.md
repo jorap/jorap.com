@@ -23,6 +23,7 @@ Keep blog posts sounding like JoRap wrote them - practical, personal, and plain-
 
 ## When to use
 
+- **New post from a topic or notes** — start with [ai-writing-system](../ai-writing-system/SKILL.md) (interview → framework → draft), then run this skill on the draft
 - Creating or expanding a blog post from an outline
 - Rewriting AI-generated or stiff drafts under `content/english/blog/`
 - Editing blog tone without changing facts

@@ -20,6 +20,7 @@ Keep notes garden frontmatter sounding like JoRap wrote them - practical, person
 
 ## When to use
 
+- **New note from a topic** — start with [ai-writing-system](../ai-writing-system/SKILL.md) (interview → field plan → draft), then run this skill on frontmatter
 - Writing or editing `description`, `key_concept`, `examples`, `shareable_thought`, `relationships.reason` on `content/english/notes/`
 - Eternal Principles / faith notes with scripture in `key_concept`
 - Flashcard fronts and backs - word choice only ([flashcards](../flashcards/SKILL.md) owns shape)

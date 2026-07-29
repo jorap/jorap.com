@@ -20,21 +20,21 @@ featured: false
 draft: false
 ---
 
-Every time I tell someone I run my own website, the reaction is usually the same: "Why? Just post on Facebook." And I get it. Social media is easy. The audience is already there.
+Every time I tell someone I run my own website, the reaction is the same: "Why? Just post on Facebook."
 
-But this site is where my **notes garden**, my **extension-cord** post, and my **Alex Eala tracker** live - none of which I'd trust to a platform that can throttle reach or change export rules overnight. After years of bouncing between platforms and [losing old PHP hosting](/blog/how-i-built-jorap-notes/) with a chunk of my work, I keep coming back to one conclusion: nothing beats a place that's actually mine.
+Fair. Social media is easy. The audience is already there.
+
+But this site is where my **notes garden**, my **extension-cord** post, and my **Alex Eala tracker** live. I wouldn't trust any of that to a platform that can throttle reach or change export rules overnight. Years ago I [lost old PHP hosting](/blog/how-i-built-jorap-notes/) with a chunk of my work still on it. Same gut punch as a platform dying, just smaller and personal. I keep coming back to one conclusion: nothing beats a place that's actually mine.
 
 ---
 
 ## You actually own it
 
-This is the big one for me. On Facebook, Instagram, YouTube, or any other platform, you're a tenant. You can be evicted, the building can be torn down, or the landlord can suddenly decide your kind of content isn't allowed anymore.
+On Facebook, Instagram, YouTube, or any other platform, you're a tenant. The landlord can change the rules, tear down the building, or decide your kind of content isn't allowed anymore.
 
-I felt this before any of the big platform shutdowns - when [my old PHP hosting died](/blog/how-i-built-jorap-notes/) and took a chunk of my work with it. Same gut punch as Vine vanishing, just smaller and personal.
+I've watched it happen to other people. Vine vanished overnight in 2017. Google+ shut down. MySpace lost years of users' music. Flickr slashed free accounts and wiped the rest. Facebook throttled organic reach for business pages until millions of small shops lost the audience they'd spent years building.
 
-It's not a hypothetical. Vine vanished overnight in 2017 and took everyone's videos with it. Google+ shut down. MySpace lost over a decade of users' music. Flickr slashed free accounts to a thousand photos and wiped the rest. Facebook quietly throttled organic reach for business pages from around 16% down to roughly 2%, and millions of small businesses lost the audience they'd spent years building. TikTok keeps shifting under creators' feet. Even Twitter - sorry, X - broke thousands of tools and apps when it changed its API.
-
-Your website doesn't have any of those problems. You decide what stays, what gets deleted, and how long it lives. If your hosting provider goes down, you point your domain somewhere else. You don't lose your work.
+Your website doesn't have those problems. You decide what stays, what gets deleted, and how long it lives. If your hosting provider goes down, you point your domain somewhere else. The work doesn't vanish with the app.
 
 ---
 
@@ -60,27 +60,9 @@ Keeping it here also forces a small honesty check: if I'm not willing to give an
 
 ## Writing the Drupal post showed me what I didn't actually know
 
-The act of writing a blog post - having to organize my thoughts well enough that a stranger could follow them - has taught me more than any course. When I wrote [why I switched from Drupal to WordPress](/blog/drupal-to-wordpress/), I found out fast which parts I actually understood and which I'd been hand-waving for years.
+When I wrote [why I switched from Drupal to WordPress](/blog/drupal-to-wordpress/), I found out fast which parts I actually understood and which I'd been hand-waving for years. Organizing my thoughts well enough that a stranger could follow them taught me more than any course.
 
-And when other people start finding those posts through search, you realize you've quietly built up a useful little library - both for yourself and for everyone who comes after you with the same question.
-
----
-
-## Search still finds old posts years later
-
-Social media is great for connecting with people who already follow you. Search engines are great for being found by people who *don't*.
-
-A useful post on your own domain can keep answering the same question for years. A Facebook thread about the same topic is gone by lunch.
-
-SEO isn't magic and it isn't instant. But if you publish consistently and write things people actually want to read, the search traffic compounds in a way social posts simply don't.
-
----
-
-## Analytics helps me write less junk
-
-You get what people are reading, where they came from, how long they stuck around, and what made them leave. Not vanity metrics, real ones.
-
-Social platforms give you a thin slice of this, and only for the content you've posted there. With your own site you get the whole picture, and you can use it to write better, design better, and stop wasting time on things nobody cares about.
+That post still gets search traffic years later. So does the extension-cord piece. A useful page on your own domain can keep answering the same question long after you forgot you wrote it.
 
 ---
 
@@ -88,9 +70,9 @@ Social platforms give you a thin slice of this, and only for the content you've 
 
 People assume websites are expensive. Some are. Mine isn't.
 
-This site runs on Hugo, hosted free on Cloudflare Pages, with source on GitHub. The only thing I pay for is the domain - a small annual renewal. That's less than two months of any halfway-serious social media ad campaign.
+This site runs on Hugo, hosted free on Cloudflare Pages, with source on GitHub. I only pay for the domain - a small annual renewal. Less than two months of any halfway-serious social media ad campaign.
 
-Even if you don't want to mess with code, modern site builders (Squarespace, Wix, WordPress) will get you a clean, mobile-friendly site on a cheap monthly plan. The money barrier mostly doesn't exist anymore. Time is the real cost, and nobody bills you for that upfront.
+Even if you don't want to mess with code, Squarespace, Wix, or WordPress will get you a clean site on a cheap monthly plan. The money barrier mostly doesn't exist anymore. Time is the real cost, and nobody bills you for that upfront.
 
 (If you're curious how I built this one, [I wrote about that too](/blog/how-i-built-jorap-notes).)
 
@@ -112,4 +94,4 @@ Compare that to the constant treadmill of producing content for someone else's a
 
 I still post on social for reach. The site holds what I want findable in five years - essays, reference posts, stuff I'd hate to lose in a platform pivot.
 
-I'm not asking you to quit Facebook. I sleep better with a backup I control. If that sounds worth an evening of setup, start small: one page, one post, one thing you'd miss if the app disappeared tomorrow.
+I'm not asking you to quit Facebook. I sleep better with a backup I control. If that sounds worth an evening of setup, start with one thing you'd miss if the app disappeared tomorrow - a recipe, a project write-up, whatever you'd actually go looking for again.
