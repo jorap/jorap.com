@@ -19,6 +19,9 @@ shareable_thought:
   - "License says you may read and fork."
   - "It does not say anyone still ships security patches or answers issues."
 relationships:
+  - type: contradicts
+    wikilink: "[[Minimum Viable Product]]"
+    reason: "when shipping with unmaintained beats waiting for a maintained fork"
   - type: extends
     wikilink: "[[Community Depth]]"
     reason: "Thin bench is unmaintained in practice"

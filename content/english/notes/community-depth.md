@@ -6,9 +6,9 @@ key_concept: |
   - I pick the open tool with the deeper bench - not the prettier logo.
   - Level 1: Plugins, themes, job posts, and Stack Overflow threads from last month - a thin community costs hours; a thick one saves weeks.
   - Level 2: Community depth is like picking the restaurant with a full kitchen staff - the menu photo matters less than whether someone has cooked your order a thousand times before.
-  - Level 3: Because open source gives choice, market and maintenance depth should beat architecture diagrams - Drupal made sense until upgrades ate weekends and job posts vanished in my city.
+  - Level 3: Because [[Open Source]] gives choice, market and maintenance depth should beat architecture diagrams - Drupal made sense until upgrades ate weekends and job posts vanished in my city.
   - Level 4: WordPress won my income lane partly because WordCamp Manila filled a room - not because Joomla was secretly worse, but because the hireable bench was deeper.
-  - Level 5: [[Inspectable Stack]] still filters abandonware; [[Selling Static Sites]] and client WordPress work both assume someone else already solved the boring problem.
+  - Level 5: [[Inspectable Stack]] still filters [[Open Not Maintained]]; [[Selling Static Sites]] and client WordPress work both assume someone else already solved the boring problem.
   - Teaching seminars I pointed students at stacks employers actually hire for - WordPress listings were everywhere, niche CMS cred did not pay rent.
   - AI coding assistants lean on public repos and familiar file layouts - familiar in 2026 often means open source with a thick thread archive.
 examples:

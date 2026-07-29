@@ -6,8 +6,8 @@ key_concept: |
   - I point students at job posts, not the niche CMS with the prettier diagram.
   - Level 1: WordPress listings were everywhere in my market - Drupal developer was a niche inside a niche I was not going to invent jobs for.
   - Level 2: Hireable stack is like learning the instrument the band actually needs - not the one that wins music theory class but never gets a gig.
-  - Level 3: Because open source gives choice, [[Community Depth]] picks which open option earns evenings - diagram charm is not a paycheck.
-  - Level 4: Friedman flattener four mattered as theory; the job board mattered when rent was due - same zip globally, local listings still vary.
+  - Level 3: Because [[Open Source]] gives choice, [[Community Depth]] picks which open option earns evenings - diagram charm is not a paycheck.
+  - Level 4: [[Permission Scales]] mattered as theory; the job board mattered when rent was due - same zip globally, local listings still vary.
   - Level 5: [[Teachable Stack]] filters the classroom; [[Selling Static Sites]] and client WordPress work are the income lanes that followed.
   - Teaching seminars I said learn what employers hire for - not what would look clever on a conference slide.
 examples:

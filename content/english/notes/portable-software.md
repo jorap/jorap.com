@@ -19,6 +19,9 @@ shareable_thought:
   - "Portable software wins when installers are forbidden and the whole stack must move in one folder."
   - "Cross-platform mattered later when Linux and Mac joined the desk - portable taught me to own the folder first, OS second."
 relationships:
+  - type: contradicts
+    wikilink: "[[There Is No Perfect Solution]]"
+    reason: "when native install beats portable zip friction on machines I control"
   - type: extends
     wikilink: "[[Cross-Platform Software]]"
     reason: "Folder ownership on Windows first; three OSes later"

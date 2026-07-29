@@ -19,6 +19,9 @@ shareable_thought:
   - "One repo, one editor, one diff habit."
   - "Open projects publish source, volunteers usually ship all three builds."
 relationships:
+  - type: contradicts
+    wikilink: "[[There Is No Perfect Solution]]"
+    reason: "when a brilliant OS-specific utility beats a third workflow"
   - type: extends
     wikilink: "[[Community Depth]]"
     reason: "Open benches ship Windows, Mac, and Linux builds"
@@ -32,7 +35,7 @@ relationships:
     wikilink: "[[Portable Software]]"
     reason: "Portable taught folder ownership on Windows first"
 slug: "cross-platform-software"
-date: "2026-07-29 14:00:00+00:00"
+date: "2026-07-29 12:20:00+00:00"
 image: "/images/note.jpg"
 categories: ["Productivity"]
 author: "JoRap"

@@ -7,7 +7,7 @@ key_concept: |
   - Level 1: No license fee is the difference between trying the stack this week or putting it off for a year - freedom is install without asking, break locally, read source when docs lie.
   - Level 2: Free is like a free sample at the counter - freedom is owning the recipe and the pantry key, not just skipping the ticket price.
   - Level 3: Because proprietary stacks rent permission, open tools let you hand a client files they keep instead of a login to your dashboard.
-  - Level 4: Budget time to learn - WordPress took months before I trusted a live site; open source skips the license, not the skill curve.
+  - Level 4: Budget time to learn - WordPress took months before I trusted a live site; [[Open Source]] skips the license, not the skill curve.
   - Level 5: [[Future-Proofing Knowledge]] is freedom applied to notes - test the export before the app locks you in.
   - Domains still cost money - Bitwarden paid tier earned the invoice when self-hosting would eat a weekend.
   - Freedom still costs evenings - tutorials, broken staging, plugin configs that almost worked.

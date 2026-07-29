@@ -7,7 +7,7 @@ key_concept: |
   - Level 1: Friedman flattener four named open-sourcing - talent competes on bandwidth and nerve, not on who holds the product key.
   - Level 2: Permission scales like a public recipe anyone may cook - the ingredients list does not change because your kitchen is in a province outside the capital.
   - Level 3: Because the license travels, a student in UPLB learns on the same WordPress zip as a student in California - Stack Overflow at three in the morning Manila time included.
-  - Level 4: I chose to focus on open source after the book gave language for what I felt in classrooms - not moral purity, a flattener an ordinary developer could ride.
+  - Level 4: I chose to focus on [[Open Source]] after the book gave language for what I felt in classrooms - not moral purity, a flattener an ordinary developer could ride.
   - Level 5: [[Freedom Over Free]] is the personal split; [[Teachable Stack]] is the classroom proof; [[Learn Hireable Stacks]] is still local job boards on top of global tools.
   - Mid-2000s proof stack: Apache, Firefox, Ubuntu, WordPress, PHP on cheap hosting - theory met zip files.
 examples:
@@ -19,6 +19,9 @@ shareable_thought:
   - "Talent competes on bandwidth and nerve, not on who holds the product key."
   - "A student in UPLB learns on the same WordPress zip as a student in California."
 relationships:
+  - type: contradicts
+    wikilink: "[[There Is No Perfect Solution]]"
+    reason: "when regional proprietary shortcut beats global permission"
   - type: extends
     wikilink: "[[Cross-Platform Software]]"
     reason: "Same zip globally; local OS mix still needs portable tools"

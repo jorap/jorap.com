@@ -19,6 +19,9 @@ shareable_thought:
   - "Download tonight, break it tomorrow, show up with real friction questions."
   - "Open zip stacks and portable builds pass where Dreamweaver and closed CMS demos fail."
 relationships:
+  - type: contradicts
+    wikilink: "[[There Is No Perfect Solution]]"
+    reason: "when proprietary CMS demo beats open zip in the seminar room"
   - type: extends
     wikilink: "[[Freedom Over Free]]"
     reason: "No license server in the classroom"

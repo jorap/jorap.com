@@ -7,7 +7,7 @@ key_concept: |
   - Level 1: The license lets you install, read, fork, and ship without a serial number - that is the whole legal win.
   - Level 2: Open source is like a deed that says you may open the toolbox - not a promise the tools are sharp, current, or free of labor.
   - Level 3: Because the grant is legal permission only, I still judge maintainers, community, and move paths on their own.
-  - Level 4: I still say no to nulled plugins, abandonware, and stacks I cannot move - license rights are not quality guarantees.
+  - Level 4: I still say no to [[Say No to Nulled]] and [[Open Not Maintained]], and stacks I cannot move - license rights are not quality guarantees.
   - Level 5: Free download is not free labor, hosting, or security - evenings and invoices still show up.
 examples:
   - "ASP tutorial sites hid behind licenses on a student budget - PHP shipped as a zip I could run that weekend without a product key."
@@ -18,6 +18,9 @@ shareable_thought:
   - "The license lets you install, read, fork, and ship without a serial number."
   - "License rights are not quality guarantees."
 relationships:
+  - type: contradicts
+    wikilink: "[[The Collector's Fallacy]]"
+    reason: "when FOSS badge hoarding replaces one stack I will actually run"
   - type: extends
     wikilink: "[[Freedom Over Free]]"
     reason: "No license fee is the gate; permission is what evenings buy"

@@ -6,7 +6,7 @@ key_concept: |
   - The license fee you skip becomes a security bill you did not budget for.
   - Level 1: Nulled means someone stripped copy protection - you get no updates, no vendor trust, and a common malware lane.
   - Level 2: Nulled plugins are like a spare key from a stranger - it opens the door today and you never know who else has a copy.
-  - Level 3: Because clients ask to skip the invoice, I say no on builds I touch - open source is not an excuse to pirate premium extensions.
+  - Level 3: Because clients ask to skip the invoice, I say no on builds I touch - [[Open Source]] is not an excuse to pirate premium extensions.
   - Level 4: View source on a nulled zip tells you nothing about who tampered with it before upload - inspect rights without a clean chain.
   - Level 5: [[Inspectable Stack]] still fails on abandonware; [[Open Not Maintained]] is the legal-open cousin - nulled is the dishonest one.
   - Open license on the CMS does not make nulled premium plugins OK.
