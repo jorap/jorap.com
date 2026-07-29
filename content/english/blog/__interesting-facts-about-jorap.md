@@ -55,6 +55,9 @@ Draft posts show *(draft)* in the list.
 | Fact | Where I said it |
 | :--- | :--- |
 | I **freelance** and build **client WordPress sites**. About **80% of what I build** repeats the same patterns. | [Consistent AI Output for WordPress Builds](/blog/consistent-ai-output-wordpress-builds/), [Static Site or CMS?](/blog/static-site-vs-cms/) |
+| First CMS loved: **XOOPS** (most **theme control** at the time). **XOOPS** skills helped **land a job** that moved from **teacher** toward **web developer**. | [Why I Focused on Open Source](/blog/why-i-focused-on-open-source/) |
+| Was the **Linux evangelist** at an **IT training company**; ran **Linux as work desktop**; burned **CDs** of **MEPIS**, **Ubuntu**, and **Red Hat** (pre-Fedora); browsed **DistroWatch** to pick releases. **Linux Mint** is home desktop now. | [Why I Focused on Open Source](/blog/why-i-focused-on-open-source/) |
+| Learned **ASP** from someone, then hunted for ASP-built software and found little - much of it was **proprietary**. **PHP** and **XAMPP** (especially the **portable** build for locked-down PCs) led to installing open-source **CMS** stacks locally. | [Why I Focused on Open Source](/blog/why-i-focused-on-open-source/) |
 | I **taught seminars** on open-source technology and web careers in the **Philippines**. | [Why I Focused on Open Source](/blog/why-i-focused-on-open-source/), [Why Git Is the Greatest Open Source Innovation](/blog/why-git-greatest-open-source-innovation/) *(draft)* |
 | My open-source filter: **can I inspect it, move it, and find help when I'm stuck?** | [Why I Focused on Open Source](/blog/why-i-focused-on-open-source/) |
 | Compared **Joomla, WordPress, and Drupal**; picked Drupal for architecture, then switched to **WordPress** because I could not find paid work with Drupal in my market. | [Why I Switched from Drupal to WordPress](/blog/drupal-to-wordpress/) |
