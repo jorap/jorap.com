@@ -14,7 +14,7 @@ related_notes:
   - complete-the-cycle
 featured: false
 draft: false
-lastmod: "2026-07-28T21:54:00Z"
+lastmod: "2026-07-29T22:35:00Z"
 ---
 
 I've been following Alex Eala's career since her run at the **2025 Miami Open** - watching a Filipina rise through the WTA ranks in real time is something I never thought I'd get to do in my lifetime. This page is my running scrapbook for it. I update it when something happens worth pinning, not on a schedule.
@@ -66,6 +66,11 @@ Slams get their own section below. This is the week-to-week grind - the 125s and
 ### Singles
 
 - 2026
+
+  - **Washington (WTA 500, Hard)**
+    - Quarterfinals
+    - Round of 16, d. Fernandez 6-2, 7-6(1) | [wtatennis.com](https://www.wtatennis.com/tournaments/1045/washington-dc/2026/scores/LS014) | [tennis.com](https://www.tennis.com/tournaments/mubadala-dc-open/matches/l-fernandez-vs-a-eala-2026-07-29)
+    - Round of 32, d. Zheng 4-6, 6-4, 6-1 | [wtatennis.com](https://www.wtatennis.com/tournaments/1045/washington-dc/2026/scores/LS029) | [tennis.com](https://www.tennis.com/tournaments/mubadala-dc-open/matches/a-eala-vs-q-zheng-2026-07-28)
 
   - **Berlin (WTA 500, Grass)** 
     - Semifinals, l. Noskova 2-6, 4-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/2012/berlin/2026/scores/LS003) | [tennis.com](https://www.tennis.com/tournaments/vanda-pharmaceuticals-berlin-tennis-open/matches/l-noskova-vs-a-eala-2026-06-20)
@@ -324,6 +329,8 @@ I started this section after Miami 2025 because I kept losing track of who she'd
 
 {{< youtube KUVh-Jflv_Q >}}
 
+{{< youtube fqg-3HuDjB0 >}}
+
 - **2025 Miami Open (Hard)** - Quarterfinals, WIN, 6-2, 7-5 | [wtatennis.com](https://www.wtatennis.com/tournaments/902/miami/2025/scores/LS007) | [tennis.com](https://www.tennis.com/tournaments/sr-tournament-2743-miami-usa/sr-match-58906263/)
 
 {{< youtube maG9TzsuVeM >}}
@@ -354,6 +361,8 @@ I started this section after Miami 2025 because I kept losing track of who she'd
 - **2026 Berlin (Grass)** - Round of 16, WIN, 7-5, 6-4 | [wtatennis.com](https://www.wtatennis.com/tournaments/2012/berlin/2026/scores/LS015) | [tennis.com](https://www.tennis.com/tournaments/vanda-pharmaceuticals-berlin-tennis-open/matches/a-eala-vs-e-rybakina-2026-06-18)
 
 {{< youtube 4C8dT5T-fHM >}}
+
+{{< youtube a02WYy8h2r8 >}}
 
 - **2026 Rome (Clay)** - Round of 32, LOSS, 4-6, 3-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/709/rome/2026/scores/LS031) | [tennis.com](https://www.tennis.com/tournaments/internazionali-bnl-ditalia/matches/a-eala-vs-e-rybakina-2026-05-10)
 
@@ -522,6 +531,10 @@ Champions get the section above. These are the top-20 fixtures that haven't happ
 - **Career High Singles:** No. 13
 
 **Matches:**
+
+- **2026 Washington (Hard)** - Round of 16, WIN, 6-2, 7-6(1) | [wtatennis.com](https://www.wtatennis.com/tournaments/1045/washington-dc/2026/scores/LS014) | [tennis.com](https://www.tennis.com/tournaments/mubadala-dc-open/matches/l-fernandez-vs-a-eala-2026-07-29)
+
+{{< youtube zrLRktfS-q4 >}}
 
 - **2026 Stuttgart (Clay)** - Round of 32, LOSS, 1-6, 4-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/1051/stuttgart/2026/scores/LS018) | [tennis.com](https://www.tennis.com/tournaments/porsche-tennis-grand-prix/matches/l-fernandez-vs-a-eala-2026-04-14)
 
