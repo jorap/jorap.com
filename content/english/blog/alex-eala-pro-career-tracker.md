@@ -128,6 +128,8 @@ Slams get their own section below. This is the week-to-week grind - the 125s and
 
 - 2025
 
+{{< youtube VPVC0IF3HwE >}}
+
   - **Jingshan (WTA 125, Hard)**
     - Semifinals, l. Sun 6-3, 4-6, 2-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/1143/jingshan-125/2025/scores/LS002) | [tennis.com](https://www.tennis.com/tournaments/jingshan-tennis-open/matches/a-eala-vs-l-sun-2025-09-27)
     - Quarterfinals, d. Jia-Jing Lu 6-4, 6-1 | [wtatennis.com](https://www.wtatennis.com/tournaments/1143/jingshan-125/2025/scores/LS004) | [tennis.com](https://www.tennis.com/tournaments/jingshan-tennis-open/matches/a-eala-vs-j-lu-2025-09-26)
@@ -163,6 +165,8 @@ Slams get their own section below. This is the week-to-week grind - the 125s and
 
 {{< youtube o2djKw4gKF4 >}}
 
+{{< youtube tZ9Jw4DIi3Q >}}
+
   - **Ilkley (WTA 125, Grass)**
     - Quarterfinals, l. Marino 6-1, 0-6, 6-7(4) | [wtatennis.com](https://www.wtatennis.com/tournaments/1127/ilkley-125/2025/scores/LS004) | [tennis.com](https://www.tennis.com/tournaments/lexus-ilkley-open/matches/a-eala-vs-r-marino-2025-06-13)
     - Round of 16, d. Ryser 6-1, 6-2 | [wtatennis.com](https://www.wtatennis.com/tournaments/1127/ilkley-125/2025/scores/LS008) | [tennis.com](https://www.tennis.com/tournaments/lexus-ilkley-open/matches/a-eala-vs-v-ryser-2025-06-11)
@@ -196,6 +200,8 @@ Slams get their own section below. This is the week-to-week grind - the 125s and
   - **Bad Homburg (WTA 500, Grass) - with Venus Williams**
     - Quarterfinals, l. Mihalikova/Nicholls 3-6, 2-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/2017/bad-homburg/2026/scores/LD007)
     - Round of 16, d. Harrison/Osborne 6-3, 6-4 | [wtatennis.com](https://www.wtatennis.com/tournaments/2017/bad-homburg/2026/scores/LD014)
+
+{{< youtube KkIbFwdZFQ0 >}}
 
   - **Abu Dhabi (WTA 500, Hard) - with Janice Tjen**
     - Semifinals, l. Mihalikova/Nicholls 4-6, 2-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/2088/abu-dhabi/2026/scores/LD003)
@@ -265,6 +271,7 @@ Wimbledon 2026 is the run I still can't quite believe - Swiatek on Centre Court,
 
 {{< youtube HhdkG1AwDhU >}}
 
+{{< youtube uoJ71JHrqjc >}}
 
 - 2025
 
@@ -335,7 +342,7 @@ I started this section after Miami 2025 because I kept losing track of who she'd
 
 {{< youtube maG9TzsuVeM >}}
 
-{{< youtube ARjpvQDZFcw >}}
+{{< youtube WyGEfKSatB0 >}}
 
 - **2025 Madrid (Clay)** - Round of 64, LOSS, 6-4, 4-6, 2-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/1038/madrid/2025/scores/LS063) | [tennis.com](https://www.tennis.com/tournaments/sr-tournament-2785-madrid-spain/sr-match-59915292/)
 
@@ -457,7 +464,7 @@ I started this section after Miami 2025 because I kept losing track of who she'd
 
 {{< youtube rK9CLjVv_dY >}}
 
-{{< youtube dEZi50raZFY >}}
+{{< youtube do0cLU9iB8 >}}
 
 ---
 
@@ -595,6 +602,8 @@ Champions get the section above. These are the top-20 fixtures that haven't happ
 - **2026 Wimbledon (Grass)** - 4th Round, LOSS, 4-6, 6-4, 3-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/wimbledon/scores/LS72320404) | [tennis.com](https://www.tennis.com/tournaments/wimbledon/matches/j-paolini-vs-a-eala-2026-07-06)
 
 {{< youtube ZsJYg7q0ZnM >}}
+
+{{< youtube 1Yj1XwwqH9M >}}
 
 - **2026 Dubai (Hard)** - Round of 32, WIN, 6-1, 7-6(5) | [wtatennis.com](https://www.wtatennis.com/tournaments/dubai/scores/LS023) | [tennis.com](https://www.tennis.com/tournaments/wta-dubai-uae/matches/a-eala-vs-j-paolini-2026-02-17)
 
