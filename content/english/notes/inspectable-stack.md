@@ -4,10 +4,10 @@ meta_title: "Inspectable Stack - Inspect, Move, Help"
 description: "Pick tools you can inspect, move, and get help on - open license alone is not enough."
 key_concept: |
   - If I cannot inspect it, move it, and find help when stuck, it does not get a serious look.
-  - Level 1: Three checks before the stack earns trust - can I read the source, leave with my files, and find a fix at ten at night without a ticket queue.
-  - Level 2: Inspectable stack is like a car with the hood unlatched - you can see why it stalled, tow your stuff to another garage, and find a mechanic who has seen that engine before.
-  - Level 3: Because open license does not mean maintained, [[Open Not Maintained]] and [[Say No to Nulled]] fail the inspectable test even when view source is technically true.
-  - Level 4: Hugo partial threw a blank route - I opened the theme file, found a nil check someone forgot, fixed it in ten minutes; closed black boxes would still be waiting on support.
+  - Level 1: Three checks before the stack earns trust - can I read the source, leave with my files, and find a fix at ten at night?
+  - Level 2: Inspectable stack is like a car with the hood unlatched - see why it stalled, tow your files elsewhere, find a mechanic who knows that engine.
+  - Level 3: Open license does not mean maintained - [[Open Not Maintained]] and [[Say No to Nulled]] fail inspectable even when view source is technically true.
+  - Level 4: Hugo partial threw a blank route - I opened the theme file, found a nil check someone forgot, fixed it in ten minutes.
   - Level 5: [[Community Depth]] supplies the help lane; [[Future-Proofing Knowledge]] is the move test for notes.
   - Say no to tools that only let you work inside their garden unless the garden is genuinely worth the rent.
   - Git is how I touch open code without breaking everyone else - clone, branch, revert.

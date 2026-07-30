@@ -4,11 +4,11 @@ meta_title: "Take Smart Notes - Ahrens on the Slip-Box"
 description: "Ahrens treats writing as the work itself - linked permanent notes beat a panic draft at deadline."
 key_concept: |
   - The draft is easy when the notes were written all along.
-  - Level 1: Write while you read so deadline week is assembly, not rescue - like meal prep on Sunday so Thursday dinner is heat and plate, not a grocery panic.
+  - Level 1: Write while you read so deadline week is assembly, not rescue - meal prep Sunday so Thursday dinner is heat and plate.
   - Level 2: Ahrens treats writing as the medium of learning - the slip-box holds permanent notes in your words, linked bottom-up, not sorted by seminar folder.
-  - Level 3: Because the blank page is a myth, topics emerge from note clusters weeks before you pick a thesis - [[Literature Notes]] feed the box; fleeting and project notes stay in their own lanes.
-  - Level 4: Read with a pen, turn sparks into permanent notes in full sentences, link before you hunt by topic - three buckets only: fleeting trash, permanent slip-box, project folder.
-  - Level 5: [[Getting Things Done]] owns task closure; Ahrens owns insight - same holistic workflow idea, but writing needs open ends until the argument shows itself in the links.
+  - Level 3: The blank page is a myth - topics emerge from note clusters weeks before you pick a thesis. [[Literature Notes]] feed the box; fleeting and project notes stay in their own lanes.
+  - Level 4: Read with a pen, turn sparks into permanent notes in full sentences, link before you hunt by topic. Three buckets only: fleeting trash, permanent slip-box, project folder.
+  - Level 5: [[Getting Things Done]] owns task closure; Ahrens owns insight. Same holistic workflow idea, but writing needs open ends until the argument shows itself in the links.
   - [[Literature Notes]] stay with the source; permanent notes live in one linked stack you think inside.
   - Fleeting notes expire; project notes die with the draft; only permanent notes compound.
   - [[Evergreen Notes]] are what permanent notes become when the claim survives a second read.
