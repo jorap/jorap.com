@@ -134,7 +134,7 @@ Wimbledon 2026 is the run I still can't quite believe - Swiatek on Centre Court,
 
 ## Best Performances in WTA Tournaments
 
-Slams are in the section above. This is the week-to-week grind - the 125s and 500s where the ranking actually moves.
+Slams are in the section above. This is the week-to-week grind where the ranking actually moves in preparation for the Grand Slams.
 
 ### Singles
 
