@@ -16,7 +16,7 @@ featured: false
 draft: true
 ---
 
-Printers are where technology goes to disappoint adults. Cartridge printers especially - cheap hardware, expensive ink, and that specific rage when the machine reports "low cyan" while you're trying to print a black-and-white school form.
+I've owned enough printers to know where technology goes to disappoint adults. Cartridge printers especially - cheap hardware, expensive ink, and that specific rage when the machine reports "low cyan" while you're trying to print a black-and-white school form.
 
 The **Canon G3000** series sits in the **ink tank** camp: refill bottles instead of snap-in cartridges, aimed at households that print regularly enough to care about cost per page.
 
@@ -67,4 +67,4 @@ Skip it if you print twice a year, because you'll clog it before you save anythi
 
 The Canon G3000 isn't exciting. It's **practical** - a refillable home printer for people who got tired of feeding cartridges.
 
-Buy it if you'll use it often enough to justify the space and the occasional head-cleaning ritual. Otherwise, the print shop counter might still be cheaper peace of mind.
+Buy it if you'll use it often enough to justify the space and the occasional head-cleaning ritual. Otherwise, the print shop counter might still be cheaper peace of mind. Monday: if you print weekly, compare bottle math against your last cartridge bill. If you print twice a year, skip the hardware.

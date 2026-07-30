@@ -104,7 +104,7 @@ RSS made me more intentional about what I read. When you have to actively *choos
 
 I also started discovering smaller, weirder, better blogs. The kind of independent writing that algorithms don't surface but other bloggers link to. RSS rewards that whole layer of the internet that social media mostly buries.
 
-And there's something satisfying - almost meditative - about clearing a feed to zero. Like finishing a small chore that actually makes your day a little better.
+Clearing a feed to zero feels like finishing a small chore - satisfying in a way scrolling never is.
 
 ## Try it for a week
 

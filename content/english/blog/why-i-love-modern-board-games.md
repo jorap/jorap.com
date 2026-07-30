@@ -125,6 +125,4 @@ That's fine for the rest of the shelf. I'm already picking boxes with a kid in m
 
 When he's ready, I want him to learn on **decisions**, not dice. I want his first memories of board games to be building a route, bluffing badly on purpose, or groaning when someone picks the wrong pile - not going bankrupt because he landed on Park Place. **Monopoly Deal** might be the first Monopoly he ever finishes.
 
-If you've only ever met board games through the toy-store aisle, I get the skepticism. I never finished Monopoly. Scrabble made me feel dumb. Chessmaster didn't survive one real game - about twenty moves, pieces coming off the board in ways the tutorial never named. **Modern hobby games are a different shelf entirely** - shorter, sharper, and built for a table that has other plans tonight.
-
-Look for a play-time number around thirty minutes on the box. Try **Sushi Go!**, **Monopoly Deal**, a small-map **Ticket to Ride**, or **Dixit** before you buy the big heavy thing. Teach it in ten. Play twice. If the table wants a third round and you're still under an hour, you found the right one.
+If you've only ever met board games through the toy-store aisle, I get the skepticism. Look for a play-time number around thirty minutes on the box. Try **Sushi Go!**, **Monopoly Deal**, a small-map **Ticket to Ride**, or **Dixit** before you buy the big heavy thing. Teach it in ten. Play twice. If the table wants a third round and you're still under an hour, you found the right one.

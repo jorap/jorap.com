@@ -17,7 +17,7 @@ featured: false
 draft: true
 ---
 
-Shopee is designed to keep you scrolling. Flash sales, coins, vouchers, live streams, seventeen banners telling you you're missing a once-in-a-lifetime deal that somehow repeats every week.
+Every time I open Shopee, the app tries to keep me scrolling. Flash sales, coins, vouchers, live streams, seventeen banners telling me I'm missing a once-in-a-lifetime deal that somehow repeats every week.
 
 I've bought plenty of good stuff there. I've also bought junk because the algorithm wore me down - once a "premium" USB hub that arrived lighter than the packaging suggested and died in a week. These are the habits that tilt the odds back in my favor.
 
@@ -27,7 +27,7 @@ I've bought plenty of good stuff there. I've also bought junk because the algori
 
 Buying local means faster shipping, easier returns, and less "where is my package" anxiety when the sorting center is one island over instead of three.
 
-So before anything goes in the cart, I check seller location and the estimated delivery window, prefer shops with high ratings and recent reviews that include photos, and stay skeptical of prices that only make sense if shipping crosses half the country.
+So before anything goes in the cart, I check seller location and the estimated delivery window. I prefer shops with high ratings and recent reviews that include photos. I stay skeptical of prices that only make sense if shipping crosses half the country.
 
 The listings I walk away from:
 
@@ -43,7 +43,7 @@ Shopee's sorting centers (SOCs) move a lot of volume - Paranaque, Biñan, Plarid
 
 Shopee's shipping promos change, but the logic stays the same: **don't pay full freight on a cheap item** unless you truly need it tomorrow.
 
-So I bundle small items from the same shop or warehouse cluster, park things in the cart and wait for platform-wide free-shipping vouchers when the order isn't urgent, and compare "cheaper item plus expensive ship" against "slightly pricier item plus promo ship" - sometimes the total flips.
+So I bundle small items from the same shop or warehouse cluster. I park things in the cart and wait for platform-wide free-shipping vouchers when the order isn't urgent. I compare "cheaper item plus expensive ship" against "slightly pricier item plus promo ship" - sometimes the total flips.
 
 I'll pay full freight for replacement parts for something broken now, gifts with a hard date, and perishables. Pantry restocks and cable organizers can wait for the next voucher.
 
@@ -72,4 +72,4 @@ On the big events (3.3, 6.6, 11.11) real discounts do exist, but I pre-load the 
 
 Shopee rewards patience and punishes impulse. Local sellers, bundled shipping, and reviews with photos beat any flashy banner.
 
-The app will always try to make you scroll. These filters are how I shop like I mean it - and close the app when I'm done.
+Before your next order: filter local first, read reviews with photos, and close the app when the cart is done - not when the banner says one more deal.

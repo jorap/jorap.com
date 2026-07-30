@@ -18,11 +18,9 @@ featured: false
 draft: false
 ---
 
-> **TL;DR**: I don't pick Hugo because I like Hugo. I pick it when the site is mostly pages that change occasionally, nobody needs a login wall, and the publish path can stay simple. Two or more "dynamic" yes answers - logins, live database, cart you host, five daily non-technical editors with no plan - and I'm looking at WordPress or Shopify, not a markdown repo.
+Someone is about to pick a stack for a site that has to stay editable after launch. The forum thread will not answer that. The useful question is **what has to change after launch, and who does the changing**.
 
 ## The wrong question is "which is better"
-
-The useful question is **what has to change after launch, and who does the changing**.
 
 I've watched this go sideways both ways. A developer ships a gorgeous static portfolio, then the client expects five staff to edit pages like WordPress and nobody learned Git. I've also seen someone install WordPress for a four-page brochure, then spend a year patching plugins for a site that updates twice a year.
 
@@ -136,4 +134,4 @@ If you're building for a team that expects an admin panel, or you need accounts 
 
 And if you're hiring someone: bring the hard questions in the first call. Who publishes? Anything behind login? What breaks if they're gone for a month? Those answers pick the stack more reliably than any "Hugo vs WordPress" thread.
 
-The goal isn't to win a stack argument on Reddit. It's to **ship something that still works six months after launch** without surprise invoices or a repo nobody can touch.
+Run the five questions on paper before you commit. Two yes answers on the dynamic list means stop stretching static - pick WordPress, Shopify, or whatever matches how your people actually publish on a Tuesday afternoon.

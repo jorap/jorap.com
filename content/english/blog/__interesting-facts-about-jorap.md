@@ -60,6 +60,14 @@ Draft posts show *(draft)* in the list.
 
 ---
 
+## Books and leadership
+
+| Fact | Where I said it |
+| :--- | :--- |
+| Commented on **John Maxwell**'s draft of *Everyone Communicates, Few Connect* on **JohnMaxwellonLeadership.com** in **2009**; **Jon Rapusas** is listed in the book's contributors section (page 251). | [Everyone Communicates, Few Connect](/blog/everyone-communicates-few-connect/) *(draft)* |
+
+---
+
 ## Freelance WordPress, Hugo on Cloudflare
 
 | Fact | Where I said it |

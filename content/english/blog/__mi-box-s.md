@@ -16,7 +16,7 @@ featured: false
 draft: true
 ---
 
-For a while our TV was "smart" in name only - slow menus, apps the manufacturer stopped updating years ago, and that special brand of lag where you press Netflix and consider making popcorn before the icon highlights.
+I got tired of fighting our TV's built-in apps - slow menus, updates the manufacturer stopped years ago. Press Netflix and you'd consider making popcorn before the icon highlighted.
 
 The **Xiaomi Mi Box S** was the cheap fix: a small Android TV box that plugs into HDMI and turns any display into something you can actually use. Not perfect. Not premium. But good enough that it earned a permanent spot behind the TV.
 
@@ -24,7 +24,7 @@ The **Xiaomi Mi Box S** was the cheap fix: a small Android TV box that plugs int
 
 ## A small Android TV box that plugs into HDMI
 
-It's a **streaming box running Android TV**. You get YouTube, Netflix, Spotify, Disney+, whatever your region supports - through the Play Store or preloaded apps. Remote included. Power brick included. Plug in HDMI, connect wifi, sign into accounts, done.
+It's a **streaming box running Android TV**. You get YouTube, Netflix, Spotify, Disney+, whatever your region supports - through the Play Store or preloaded apps. Remote included. Power brick included. Plug in HDMI, connect wifi, sign into accounts, done. First setup took one annoyed evening - wifi typo, tiny remote, Google account - but it still beat the TV's native lag.
 
 The pitch is simple: **better software than most built-in TV smarts**, for budget-tier money.
 
@@ -66,4 +66,4 @@ If the TV has multiple HDMI inputs, **label the input "Mi Box"** so nobody has t
 
 The Mi Box S is not the best streaming device money can buy. It's one of the better **value** picks - a practical Android TV box that makes a dumb TV feel modern without pretending to be a home theater PC.
 
-For our living room, that's exactly the job I bought it to do.
+For our living room, that's exactly the job I bought it to do. Monday: if your TV apps lag, grab a cheap box and install the four apps you actually watch. Disable the promo row. Stop fighting the built-in OS.

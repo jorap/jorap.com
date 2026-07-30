@@ -32,7 +32,7 @@ It's deliberately **boring hardware** - slow enough that I'm not tempted to use 
 
 ## Emergency backup, travel SIM, work split
 
-The obvious job is emergency backup. When the primary dies, gets lost, or needs a week in repair, life doesn't pause - OTPs, maps, messaging, payments, all of it assumes you have a screen in your pocket.
+The obvious job is emergency backup. When the primary dies, gets lost, or needs a week in repair, life doesn't pause. OTPs, maps, messaging, payments - all of it assumes you have a screen in your pocket. Mine died on a Tuesday once. I had banking on that screen and nothing else.
 
 The travel version is a local SIM in a cheap Android with the main phone left on wifi-only abroad. Less risk if it gets stolen, less panic if it gets cracked on a tour bus.
 

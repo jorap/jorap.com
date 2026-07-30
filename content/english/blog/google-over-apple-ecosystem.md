@@ -155,4 +155,4 @@ Phones: an Android daily driver plus a cheap Android in the bag for banking, bur
 
 Living room: an Android TV box with Chromecast and YouTube signed in. Calls run through Meet on the open-ear pair I wear all day because I need to hear the doorbell between them. Drive picks up whatever Git isn't the right tool for.
 
-That's the ecosystem I picked: **Google services first, mixed hardware underneath, swap parts without apologizing**. I own Apple screens. I don't live in Apple's walled garden - the flowers cost more every season and the new blooms look a lot like last year's. I live in a house with a lot of doors.
+That's what I run: one Google account across mixed hardware, no iPhone, no watch. If you're choosing this week, sign into Gmail and Drive on the screens you already own before you buy the rest of Apple's set. Finish the job with services, not a matching receipt pile.

@@ -19,8 +19,6 @@ featured: false
 draft: false
 ---
 
-> **TL;DR**: Most of what you build repeats the same patterns. Have AI build the reusable code for that 80% - helpers, templates, scaffolding - so the next forty features look the same. Stop asking for one feature at a time. Ask for the system that makes every feature match.
-
 ## The thing nobody warns you about
 
 Month one with AI on WordPress builds: thrilled. Month two: annoyed. Month three: I finally got it.

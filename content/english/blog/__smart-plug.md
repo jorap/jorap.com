@@ -88,4 +88,4 @@ If I can't answer yes to the first three, I skip it.
 
 Smart plugs are boring technology in the best way. They don't impress anyone at a party. They just quietly remove small daily friction - lights, fans, worry - for budget-tier money.
 
-That's enough for me to keep a few in every room that needs one.
+Monday: put one plug on the lamp that's annoying to reach, name it by room, and skip the rest until that habit sticks.

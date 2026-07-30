@@ -74,4 +74,4 @@ I'm not loyal to one mesh brand - I just want nodes that are easy to add and don
 
 ## What I'd do right now
 
-If my router died tomorrow, I'd sketch the floor plan first - bedroom, kitchen, home office - check what's still getting security updates, and buy for **coverage and calm** rather than the biggest number on the box. The internet coming into the house is only as good as the wifi that actually reaches your chair.
+If my router died tomorrow, I'd sketch the floor plan first - bedroom, kitchen, home office - check what's still getting security updates, and buy for **coverage and calm** rather than the biggest number on the box. The internet coming into the house is only as good as the wifi that actually reaches your chair. Monday: mark where you actually sit with a laptop, then move the router up and central before you buy anything new.

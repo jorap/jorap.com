@@ -14,9 +14,9 @@ featured: false
 draft: false
 ---
 
-> **TL;DR**: I picked Drupal after a long open-source CMS search because the architecture made sense. The community was small, updates were a chore, and I couldn't find work with it. WordPress had familiar building blocks (ACF, Gutenberg), a massive plugin shelf, and better timing. Then WordCamp Asia landed in Manila and Matt Mullenweg showed up with old Philippines WordCamp stories. That didn't hurt.
-
 ## I went looking for the best open-source CMS
+
+If you're picking a CMS for paid work, the clean architecture diagram matters less than whether clients and job posts exist in your city. I learned that the hard way.
 
 At some point I stopped treating "pick a CMS" as a weekend decision and actually went hunting. Joomla, WordPress, Drupal, a few smaller names I don't even remember now. I read docs. I set up local installs. I built the same small site three different ways to see which one I'd want to live in for years.
 

@@ -29,7 +29,9 @@ draft: false
 lastmod: "2026-07-29T20:38:00Z"
 ---
 
-I learned ASP from someone before I knew what a "stack" was. Fine. Then I went looking for real software built with ASP - sites I could study, tools I could run locally, something that wasn't just tutorial code in a book.
+If you're learning on a student budget, the wall isn't "which stack is best." It's whether you can install anything on the machine you actually have. That's where I was before I knew what a "stack" was.
+
+I learned ASP from someone, then went looking for real software built with it - sites I could study, tools I could run locally, something that wasn't just tutorial code in a book.
 
 I couldn't find much. Not because ASP was useless. Because so much of that world was **proprietary**. The examples lived behind licenses, closed demos, or setups I couldn't replicate on a student budget.
 
@@ -37,7 +39,7 @@ PHP kept showing up instead. Open tutorials. Actual CMS installs you could downl
 
 What's great about XAMPP, especially back then: they ship a **portable** version. On locked-down PCs that block installers - school labs, internet cafes, borrowed office machines - you unzip and run. No admin prompt. No IT ticket.
 
-That wasn't a XAMPP quirk. Open source stacks often ship a portable build, or at least a zip you can drop in a folder without touching the registry. The place it really landed for me was my **office desktop**. Corporate image. No installer rights. I could still run Apache, MySQL, and PHP from a directory I owned - break a CMS install on my lunch break while the rest of the floor stayed on the standard Windows image. That mattered as much as "free."
+That wasn't a XAMPP quirk. Open source stacks often ship a portable build, or at least a zip you can drop in a folder without touching the registry. The place it really landed for me was my **office desktop**. Corporate image. No installer rights. I could still run Apache, MySQL, and PHP from a directory I owned. I'd break a CMS install on my lunch break while the rest of the floor stayed on the standard Windows image. That mattered as much as "free."
 
 Once I had a local PHP stack, installing a CMS was the obvious next step. Drop files in `htdocs`, run the installer, break something, fix it, break it again. XAMPP plus a CMS gave me more exposure to open source than any manifesto could have. I wasn't reading about freedom. I was clicking through it.
 
@@ -85,7 +87,9 @@ That bias stuck. Not as ideology. As **default**.
 
 I'd already stumbled into PHP and XAMPP by accident - student budget, locked-down PCs, no license fees. *The World Is Flat* is what made me **focus** on open source on purpose.
 
-Thomas Friedman's book landed in the mid-2000s, right when I was teaching seminars and burning Linux CDs. I wasn't looking for a manifesto. I was looking for a frame. Friedman listed ten **flatteners**: forces he argued were leveling the global playing field. The Cold War ending. Netscape putting a browser on every desk. Workflow software forcing different apps to talk to each other. Then, fourth on the list: **open-sourcing** - communities shipping code anyone could download, read, fork, and improve.
+Thomas Friedman's book landed in the mid-2000s, right when I was teaching seminars and burning Linux CDs. I wasn't looking for a manifesto. I was looking for a frame.
+
+Friedman listed ten **flatteners**: forces he argued were leveling the global playing field. The Cold War ending. Netscape putting a browser on every desk. Workflow software forcing different apps to talk to each other. Then, fourth on the list: **open-sourcing** - communities shipping code anyone could download, read, fork, and improve.
 
 That was the sentence that stuck. Not "free software is morally pure." **This is where the world is going.** If open source was flattening the field - letting talent compete from anywhere because the tools weren't locked behind a product key - then learning proprietary stacks was learning yesterday's gate.
 
@@ -223,6 +227,4 @@ I wouldn't start with a manifesto. I'd start with the problem in front of me.
 
 I pick for **freedom, ownership, and community depth**, not just "is it free." I skip tools that only let me work inside their garden, unless the garden is genuinely worth the rent. And I budget time to learn, because there's no shortcut past that part.
 
-I focused on open source because it let me learn without begging for licenses, burn Linux installer CDs for students who'd never heard of apt, survive a hosting disaster, find work, teach stacks people could actually install, and hand clients something they could keep. The freedom was worth the months. Still is.
-
-That's enough reason for me.
+This week: install one open stack on the machine you actually have and break something on purpose. Follow the job posts where you live, not the cleanest architecture diagram. Budget the evenings. That's the trade I'd make again.

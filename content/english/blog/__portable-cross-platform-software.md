@@ -21,7 +21,7 @@ featured: false
 draft: true
 ---
 
-Blog posts about "portable, cross-platform software" sound like a manifesto. Mine wasn't. For years I only cared about **Windows**, and what I wanted was simpler: a folder I could copy from one PC to another without fighting the machine.
+For years I only cared about **Windows** - and what I wanted was simpler than a manifesto: a folder I could copy from one PC to another without fighting the machine.
 
 Portable got me there. Cross-platform became important **later**, when Linux and Mac stopped being someone else's hobby and turned into machines I actually used. Treating both as one ideal from day one would be rewriting history.
 

@@ -32,7 +32,7 @@ It's a separate feed inside Facebook that only shows posts from people, pages, a
 
 I found it by accident - scrolling the menu looking for something else, tapping Feeds on a whim, and realizing I'd been fighting the wrong feed for years.
 
-Think of it as a smaller, hand-picked version of your timeline. Your mom's photos from her trip - yes. The local news page you actually read - yes. Group chats and ads from someone you barely remember adding in 2011 - gone.
+Your mom's photos from her trip - yes. The local news page you actually read - yes. Group chats and ads from someone you barely remember adding in 2011 - gone.
 
 ## Why I keep coming back to it
 
@@ -88,4 +88,4 @@ Facebook gets a lot wrong, but this one feature is genuinely good - it just does
 
 Your favorited friends won't know. The regular home feed stays the same - Favorites is just another tab.
 
-Messenger still gets opened daily around here. Favorites is the only feed I scroll. The main one has stayed closed for months.
+Open Feeds, tap Favorites, add ten people tonight, and use that feed instead of Home for one week. Messenger stays. The infinite scroll mostly does not.
