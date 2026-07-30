@@ -23,6 +23,9 @@
 **Closing with a real pick:**
 > It's not the flashiest pick. It's just the one that quietly wins on the list above and disappears around my neck for the rest of the day.
 
+**Connecting (not just communicating):**
+> I grabbed the indoor-rated cord for the patio run because it was cheaper. One rainy week later I was re-running the whole thing with outdoor sheathing. Start with where you actually plug in - not the spec sheet fantasy.
+
 ---
 
 ## Anti-patterns
@@ -45,6 +48,19 @@
 - "Boasts" / "features" (as verb) / "offers a range of"
 - "At the end of the day" (unless genuinely earned)
 - "Here's everything you need to know"
+
+### ❌ Communicates but doesn't connect
+
+**About the writer, not the reader:**
+> I've spent years evaluating Hugo themes and deploy pipelines. In this post I'll share my framework for static site architecture.
+
+**Topic lecture, no common ground:**
+> Extension cords are an essential part of any home setup. They provide flexibility, extend reach, and enable convenient power access.
+
+**Performs expertise, earns no trust:**
+> For optimal results, users should prioritize gauge rating and UL certification when selecting cordage.
+
+Fix: open on their mistake or annoyance, land a pick you'd stake your name on, admit one thing that failed.
 
 ### ❌ AI structure - rewrite on sight
 

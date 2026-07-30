@@ -7,8 +7,8 @@ description: >-
   content/english/blog/, writing blog meta_title and description, matching JoRap's
   writing style, or when posts sound generic, SEO-ish, stiff, or AI-generated.
   Runs seven rewrite passes (lived-in, de-AI, thinking, friend-flow, POV, credible,
-  editor) plus likability lens before publish. Read author-context.md and the facts
-  ledger before personal posts. For notes garden frontmatter, use garden-voice instead.
+  editor) plus likability and connection lenses before publish. Read author-context.md
+  and the facts ledger before personal posts. For notes garden frontmatter, use garden-voice instead.
 ---
 
 # JoRap Voice (Blog)
@@ -42,8 +42,9 @@ Keep blog posts sounding like JoRap wrote them - practical, personal, and plain-
 4. **Score before and after** — `pnpm slop:score path/to/draft.md` before passes; rerun after. The per100w score should drop.
 5. **Run the seven rewrite passes** (below) - mandatory, even on small edits. Skim all seven on every edit; deep-rewrite any section that fails more than one pass.
 6. **Run the likability lens** (below) - mandatory before publish.
-7. **Run the voice check** (below) before finishing.
-8. For before/after samples and anti-patterns, see [examples.md](examples.md).
+7. **Run the connection lens** (below) - mandatory before publish.
+8. **Run the voice check** (below) before finishing.
+9. For before/after samples and anti-patterns, see [examples.md](examples.md).
 
 ## Voice pillars
 
@@ -182,6 +183,43 @@ Run after the seven passes (or after #2, #5, #7 on a light polish). Not every pa
 
 If yes to all four, you're in the zone - even when the tone stays cool and direct. Notes garden uses the same four pillars mapped to fields - see [garden-voice](../garden-voice/SKILL.md) **Likability lens**.
 
+## Connecting with readers
+
+Everyone can *communicate* (publish words). Few posts *connect* (reader feels seen, helped, and willing to trust the take). JoRap voice aims for connection, not coverage. Frame from John Maxwell's *Everyone Communicates, Few Connect*: influence follows connection; connection is mostly skill, not charisma.
+
+**Reader lens (before you write):** Ask what they are silently checking:
+
+| They wonder… | JoRap answer on the page |
+|--------------|---------------------------|
+| Do you care about me? | Open on *their* friction, not your credentials. Ask yourself: "What brought them here?" |
+| Can you help me? | Useful takeaway early - a pick, a skip, a step - not a tour of everything you know |
+| Can I trust you? | Honest friction + lived specifics. Don't posture expertise you haven't earned |
+
+**Five principles → writing moves**
+
+| Principle | On the page |
+|-----------|-------------|
+| **It's about them** | First 400 characters serve the reader's problem, not your bio or a topic definition |
+| **Beyond words** | Pair the claim with something felt or done - annoyance, mistake, duration, place (passes #1, #3, #6) |
+| **Energy** | You own their attention: hook hard, cut coasting, end before you wear out your welcome |
+| **Common ground** | Start where they already are (drawer full of dead earphones, Hugo version mismatch) before the lesson |
+| **Live it** | Only recommend what you'd buy again; admit what landed in the drawer (credibility over polish) |
+
+**Five practices → draft checklist**
+
+1. **Common ground** - Could this open on any blog? Add a scene only you lived.
+2. **Keep it simple** - One main point per section; plain words; say it once (no summary sandwich).
+3. **Make it an experience** - Vary rhythm; one dry aside; responsibility for boredom is yours, not theirs.
+4. **Inspire action** - Close on what *they* would do Monday, not what you admire in theory.
+5. **Align words and life** - If you wouldn't follow your own advice, soften the claim or add the caveat.
+
+**Connection vs communication (quick test)**
+
+- **Communicates:** "Here are ten things to consider when choosing extension cords."
+- **Connects:** "I grabbed the indoor cord for the patio run once. Rain taught me the rest."
+
+Run this after the likability lens. If the post informs but doesn't connect, rewrite the opening and closing first - those two places carry most of the bond.
+
 ## Slop gate (structural)
 
 Vocabulary is `pnpm lint:voice` (`data/voice-words.yaml`). Structure is `pnpm lint:slop` (`data/slop-rules.yaml`). Mechanical form is `pnpm slop:score` (nominalizations, passive voice, phrasal verbs, long-sentence ratio — lower per100w is cleaner). Run all three before `draft: false`.
@@ -284,6 +322,7 @@ Recipe content can be more instructional - ingredients, steps, timings - but sec
 - [ ] Passes the swap test: couldn't paste this into a random tech blog without it feeling off
 - [ ] Personal facts match the ledger (`__interesting-facts-about-jorap.md`); no invented pop-culture or sports picks from gap tables
 - [ ] Likability lens: useful takeaway, honest friction, human specific, respectful tone (not performative warmth)
+- [ ] Connection lens: reader problem first, beyond-words specific, earns trust (not just informs)
 - [ ] `pnpm lint:voice` clean (dashes + AI-tell words)
 
 ## Do not
