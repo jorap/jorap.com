@@ -49,6 +49,8 @@ The power cord rule is the one that saved me most: **if it only lives on the des
 - **Paper notebook** - when wifi dies, the meeting might not
 - **Backup battery** - only if I know I'll be out all day with no reliable outlet
 
+Last client site visit I forgot the HDMI dongle. We shared my laptop screen at a weird angle for ninety minutes. Adapter lives in the front pocket now, same slot every time.
+
 ---
 
 ## Five-minute pre-flight
@@ -59,11 +61,15 @@ The power cord rule is the one that saved me most: **if it only lives on the des
 4. Big files downloaded - café wifi is not my CDN
 5. Fan charged if it's the battery kind
 
+Step two is the one I skip when I'm late. That's also when I forget the cord. Late and unprepared correlate perfectly in my life.
+
 ---
 
 ## What stays home
 
 Monitor, desk chair, printer - the **home anchor**. Remote days are about being good enough on the road, not duplicating the office. I'd rather pack light and suffer one missing item once than haul a monitor I use twice a year.
+
+The standing desk stays home too. A laptop stand plus external keyboard gets me 80% of the ergonomics without the bag weight.
 
 ---
 

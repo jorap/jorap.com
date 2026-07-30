@@ -33,6 +33,8 @@ The breaking point was boring. I had a garden note about client handoffs half-wr
 
 Cutting the extra app was the lazy fix. One capture habit. One publish pipeline. **Garage → garden → push** - not two masters fighting over the same idea.
 
+I still export markdown from the garage when a note is ready - paste into a garden file, add frontmatter, push. The export step takes five minutes. The old Sunday reconciliation took two hours.
+
 ---
 
 ## Private richness, public polish
@@ -54,5 +56,7 @@ My version: garden notes are Markdown in Git; what you see at `/notes/` is the s
 ## What I still don't do
 
 I don't paste vault-style `[[wikilinks]]` into Hugo blog content unless the build resolves them. I don't maintain a private graph and a public graph of the same links. If it's worth connecting in public, it gets a `related_notes` line or a real link in prose.
+
+The garage can stay messy. The garden is what I'd hand a stranger. Same markdown, different bar.
 
 Think private, ship public. The Markdown middle stays the same; the room you publish in picks the rules.

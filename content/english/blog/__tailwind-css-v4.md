@@ -49,6 +49,8 @@ v4 kept that **utility-first mental model.** The plumbing moved; the day-to-day 
 
 When the upstream theme merged v4, I pulled, ran `hugo server`, clicked around - homepage, blog single, notes garden, dark mode toggle. Boring checklist before push live. Dark mode was the one that bit me: a contrast issue on a tag pill I only saw after toggling twice. Local check caught it. Pushing blind wouldn't have.
 
+Notes garden cards use different padding than blog singles. I almost shipped a layout where garden card titles clipped on mobile - caught it on a narrow browser window, not on my laptop at full width.
+
 ---
 
 ## Hugo and Tailwind have to agree
@@ -68,3 +70,5 @@ That's fine. Infrastructure churn isn't content. **Sync theme, test locally, pus
 Tailwind v4 is maintainers' work, not writers'. I let Hugoplate carry most of it and kept my custom CSS thin.
 
 If you forked a theme years ago and cherry-pick nothing, upgrades hurt. If you stay close to upstream, v4 is a manageable merge - annoying, not catastrophic.
+
+I don't enjoy CSS infrastructure weeks. I do enjoy not maintaining a fork that drifts every time Tailwind ships a point release.

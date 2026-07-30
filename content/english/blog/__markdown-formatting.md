@@ -31,6 +31,8 @@ Early posts had 200-word paragraphs because I wrote like a college essay. On a p
 
 Now I aim for **three to five lines per paragraph** on the web. One idea, hit Enter. If I'm explaining two things, that's two paragraphs or a list.
 
+The worst offender was a Drupal migration post draft - one paragraph ran fifteen lines on desktop. I split it into four chunks and the same facts finally breathed. Nothing new to say; easier to read.
+
 The [extension cord post](/blog/extension-cord/) is a good example: short sections, one bold takeaway per block, horizontal rules between major beats. Easy to skim on a phone in a hotel room - which is exactly when you'd need that post.
 
 ---

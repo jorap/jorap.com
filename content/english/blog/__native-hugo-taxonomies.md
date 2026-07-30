@@ -25,6 +25,8 @@ JoRap uses **categories** for broad buckets (Gear, Worship, Technology) and **ta
 
 The notes garden uses `related_notes` in frontmatter for that. Different job. I tried stuffing the blog tags with every related idea once. Got a tag cloud that looked busy and meant nothing.
 
+Copy-paste from an old SEO checklist gave one post fourteen tags including `Web Development` and `Website Development` for the same three articles. Hugo built both pages. Google didn't care. I cared when I opened the tag index and saw the duplication.
+
 ---
 
 ## Hugo builds every tag you invent
@@ -75,3 +77,5 @@ The theme already has the listing templates - category index, tag index, posts u
 Native Hugo taxonomies organize the **public** site. My private wiki can be messier - wikilinks, backlinks, whatever.
 
 I'll keep categories under a dozen and tags short. Hugo makes grouping free; I still have to curate what ships. When in doubt, fewer tags. Readers and future-me win.
+
+Before I publish a post I scan the tag list the same way I scan a messy Downloads folder - delete the synonym, keep the one I'd actually click.

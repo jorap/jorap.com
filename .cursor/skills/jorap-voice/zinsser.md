@@ -2,6 +2,8 @@
 
 William Zinsser's *On Writing Well* is the craft layer under [jorap-voice](SKILL.md). Zinsser teaches **how** to write clear nonfiction; JoRap voice teaches **who** is writing and **why** anyone should care. Use both: Zinsser on every sentence; JoRap on every scene and take.
 
+For drafting and reasoning — writing as learning — see Zinsser's *Writing to Learn*: [writing-to-learn.md](writing-to-learn.md).
+
 **JoRap deltas** (where this site goes past Zinsser): roughen over-polish; no currency in prose; connection lens (Maxwell) and likability lens; swap test for personal blog, not magazine assignment voice; `pnpm lint:voice` / `pnpm lint:slop` as mechanical gates.
 
 ## The transaction

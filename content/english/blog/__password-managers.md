@@ -49,6 +49,8 @@ I didn't move everything at once. That way lies quitting at login number thirty.
 
 The annoying part wasn't Bitwarden. It was every site that wanted email verification before it would let me change the password. Budget an afternoon. Bring snacks.
 
+GCash wanted OTP, then email, then OTP again. Bank wanted a branch call. Social was easy. The important accounts are the slow ones - do those first while you still have patience.
+
 ---
 
 ## What broke along the way
@@ -71,3 +73,5 @@ Browser password save is better than `password123`. It's not cross-device, and I
 I still forget passwords sometimes - I forget which *account* I'm in, not the string. The manager handles the string. My job is one good master and not skipping 2FA because it's Tuesday.
 
 If you've been putting off a password manager because migration sounds like a weekend project, pick one this week, move email and bank first, and stop pretending your brain is a spreadsheet.
+
+The master password is the one string you actually have to remember. Make it long and sayable. Everything else can be random because the vault holds it.

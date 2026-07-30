@@ -16,6 +16,8 @@ draft: true
 
 There was a drawer in our house that was basically a battery graveyard - half-dead AAs, the wrong size, maybe one that leaked years ago and nobody wanted to touch. Every few months I'd buy another blister pack at the checkout and tell myself this was normal.
 
+The breaking point was a talking toy at 9 PM on a school night - dead batteries, no spares, one very unhappy kid. I drove to a convenience store for alkalines I knew I'd throw away in a month. That was the last blister pack.
+
 It isn't. Not anymore.
 
 Rechargeable batteries are one of those upgrades that sound fussy until you use them for a month. Then buying disposables feels like paying for bottled water next to a sink.
@@ -37,6 +39,8 @@ The part that actually changed my mind is that the performance is finally good e
 **The charger matters more than people admit.** I wanted individual slots rather than pair-only charging, a clean shutoff so nothing cooks overnight, and per-battery status I could read at a glance.
 
 A cheap dumb charger works until it doesn't. I spent a little more once instead of replacing batteries twice a year forever.
+
+First cheap charger I bought only charged in pairs. One dead AAA meant waiting for its buddy. Individual slots fixed that annoyance in one upgrade.
 
 ---
 

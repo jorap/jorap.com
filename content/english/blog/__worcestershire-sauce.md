@@ -18,6 +18,8 @@ draft: true
 
 Most pantry items earn their spot slowly. **Lee & Perrins Worcestershire sauce** was immediate - first splash in a soy-garlic adobo marinade and the pot smelled like I'd been simmering twice as long.
 
+I'd been making adobo the same way for years - soy, vinegar, garlic, bay. Pia suggested a splash of Worcestershire on a whim. Not enough to taste "British," just enough that the kitchen smelled like we'd been at it longer. That bottle never left the pantry after.
+
 It's one of those bottles that looks like it belongs in a pub more than a Filipino kitchen - until you start adding it to adobo marinades, burger mixes, fried rice, and anything that needs depth without another hour on the stove.
 
 ---
@@ -37,6 +39,8 @@ Lee & Perrins is the original. Other brands exist. I've tried a few. I keep comi
 A teaspoon into stir-fries or fried rice at the end, off heat, wakes up leftover rice better than extra salt does. Same trick for soups and stews that taste flat after you've already adjusted the salt: small dash first, then taste.
 
 The emergency BBQ sauce is ketchup, brown sugar, vinegar, and Worcestershire. Not authentic anywhere. Still works.
+
+I doubled the splash once in fried rice because the first teaspoon didn't pop. Sour took over before umami did. Teaspoon, taste, stop - same rule as fish sauce.
 
 ---
 

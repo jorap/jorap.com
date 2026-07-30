@@ -8,7 +8,7 @@ description: >-
   writing style, or when posts sound generic, SEO-ish, stiff, or AI-generated.
   Runs seven rewrite passes (lived-in, de-AI, thinking, friend-flow, POV, credible,
   editor) plus likability and connection lenses before publish. Craft backbone: Zinsser
-  (zinsser.md). Read author-context.md
+  On Writing Well (zinsser.md) and Writing to Learn (writing-to-learn.md). Read author-context.md
   and the facts ledger before personal posts. For notes garden frontmatter, use garden-voice instead.
 ---
 
@@ -18,7 +18,7 @@ Keep blog posts sounding like JoRap wrote them - practical, personal, and plain-
 
 **Primary test:** Would a reader think a real person typed this after using the thing? If it reads like a summary of what a good post *should* say, rewrite it.
 
-**Craft backbone:** William Zinsser's *On Writing Well* — simplicity, clutter cuts, unity, lead/ending, rewriting, the reader transaction. Distilled rules and pass mapping: [zinsser.md](zinsser.md). Zinsser handles sentence craft; this skill handles JoRap's person, scene, and connection.
+**Craft backbone:** William Zinsser — *On Writing Well* for sentence craft ([zinsser.md](zinsser.md)); *Writing to Learn* for drafting and reasoning ([writing-to-learn.md](writing-to-learn.md)). OWW: clarity, clutter, unity, lead/ending. WTL: writing as thinking, Type A/B drafts, fuzzy-thinking fixes, linear narrative. This skill handles JoRap's person, scene, and connection.
 
 **Notes garden** (`description`, `key_concept`, `examples`, `shareable_thought`, EP scripture) uses [garden-voice](../garden-voice/SKILL.md), not this skill. See garden-voice **When to use which** for how these seven passes map to per-field garden work.
 
@@ -47,7 +47,7 @@ Keep blog posts sounding like JoRap wrote them - practical, personal, and plain-
 6. **Run the likability lens** (below) - mandatory before publish.
 7. **Run the connection lens** (below) - mandatory before publish.
 8. **Run the voice check** (below) before finishing.
-9. On full rewrites, skim [zinsser.md](zinsser.md) — bracket test, unity, lead/ending, read aloud.
+9. On full rewrites or outline expansion, skim [writing-to-learn.md](writing-to-learn.md) (Type B → Type A, reasoning visible) then [zinsser.md](zinsser.md) — bracket test, unity, lead/ending, read aloud.
 10. For before/after samples and anti-patterns, see [examples.md](examples.md).
 
 ## Voice pillars
@@ -109,10 +109,11 @@ See **AI tells** below. If a section still feels generated after this pass, rewr
 
 ### 3. Show the Thinking
 
-Reveal how a real person works through the topic. Add tradeoffs, second-guesses, small observations, and open questions where they fit. Make it feel reflective, not committee-polished.
+Reveal how a real person works through the topic. Add tradeoffs, second-guesses, small observations, and open questions where they fit. Make it feel reflective, not committee-polished. (WTL: fuzzy thinking is the enemy; writing should show how you got to the answer, not only the answer.)
 
 - Name what you almost did, what you ruled out, or what you're still unsure about - then say what you picked anyway.
 - One honest doubt per post is enough. Don't hedge every sentence into mush.
+- A section that explains why you *couldn't* solve it yet beats faking certainty.
 
 ### 4. One-Friend Flow
 
@@ -328,6 +329,7 @@ Recipe content can be more instructional - ingredients, steps, timings - but sec
 - [ ] Likability lens: useful takeaway, honest friction, human specific, respectful tone (not performative warmth)
 - [ ] Connection lens: reader problem first, beyond-words specific, earns trust (not just informs)
 - [ ] `pnpm lint:voice` clean (dashes + AI-tell words)
+- [ ] WTL skim: reasoning visible, narrative order, draft changed what you thought ([writing-to-learn.md](writing-to-learn.md))
 - [ ] Zinsser skim: bracket test, unity, lead/ending, read aloud ([zinsser.md](zinsser.md))
 
 ## Do not
@@ -347,7 +349,7 @@ Recipe content can be more instructional - ingredients, steps, timings - but sec
 When a post is only an outline (see `__extension-cord.md`, `__wifi-router.md`):
 
 1. Keep the outline's intent and section order.
-2. Write each section as prose-first - not bullet dumps unless it's a genuine checklist.
+2. Write each section as prose-first - not bullet dumps unless it's a genuine checklist. Use Type B drafting ([writing-to-learn.md](writing-to-learn.md)): one sentence after another until the section's real point appears.
 3. Add the personal thread: why this topic, what you learned, what you'd tell a friend.
 4. Preserve Hugo frontmatter; set `draft: true` until the user publishes.
 5. **Draft filenames** use a `__` prefix (e.g. `__wifi-router.md`) so drafts sort apart in the file tree. Set `slug` to the intended publish URL (e.g. `slug: "wifi-router"`). See **Publishing** above and `archetypes/blog.md` for field order.

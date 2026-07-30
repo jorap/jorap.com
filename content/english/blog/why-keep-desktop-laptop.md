@@ -32,6 +32,8 @@ I'm not going to find out whether my phone can run a Hugo build and a WordPress 
 
 Phones have gotten ridiculously fast. Sustaining that speed is the problem. Once a phone heats up, and it heats up quickly under load, it throttles and everything slows down. A laptop with proper cooling and a bigger battery holds its performance for hours.
 
+I learned that exporting a hundred school photos on my phone while the charger was at 12%. Ten minutes in the screen dimmed, the export stalled, and the gallery app restarted. Same job on the laptop finished while I made coffee.
+
 Same story with RAM. My phone aggressively kills background apps the moment I switch away. My laptop just... keeps them there. All twenty of them, exactly where I left them.
 
 ---
@@ -41,6 +43,8 @@ Same story with RAM. My phone aggressively kills background apps the moment I sw
 I love that mobile versions of Word, Photoshop, and Premiere exist. They're great for quick fixes. But they're not the real thing.
 
 Try managing a spreadsheet with twenty tabs and a few pivot tables on a phone. Or editing a long document with tracked changes. Or running `hugo server` and a WordPress staging build at the same time. The mobile versions either hide those features or simply don't have them.
+
+I once approved tracked changes on Word mobile during a commute. The client opened the file on desktop and the formatting had wandered off into the margins. I fixed it properly on the laptop that night and stopped pretending the phone version was the real app.
 
 For anything that's actually work, I want the full version.
 
@@ -66,6 +70,8 @@ Now the laptop sits on a stand, external keyboard, mouse. Not ergonomic perfecti
 
 Phones fill up fast - photos, school videos, app caches, the usual. When storage hits full on the only device in your pocket, you're deleting things in a hurry instead of choosing what to keep.
 
+The worst month was Isaiah's first birthday video trapped behind a "storage full" banner while the camera app refused to record. I deleted three apps I actually used to clear two gigabytes in a panic. Never again on the only device in my pocket.
+
 On the laptop I keep Hugo builds, client exports, years of photos, and three half-finished side projects without that weekly cleanup ritual. External drive when I need more. The phone stays for photos I'd delete anyway.
 
 ---
@@ -85,6 +91,8 @@ A desktop can run for a decade if you swap in more RAM, a bigger SSD, or a new G
 Mobile browsers are fine for casual reading. They're not great for actual work. No extensions, limited dev tools, weird tab behavior, and sites that decide you want the app instead.
 
 On desktop I have my password manager, my ad blocker, my dark-mode extension, my note-clipper. Dev tools are one keystroke away. Web apps work the way the designers intended. It's a different category of experience.
+
+I tried debugging a broken Hugo partial on mobile once - squinting at view-source on a five-inch screen, no extensions, the site begging me to install the app instead. Gave up in ten minutes. Fixed it on the laptop in two with dev tools and a real scroll bar.
 
 ---
 

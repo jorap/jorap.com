@@ -37,6 +37,8 @@ The prompts I keep in my notes share a structure. I call it **CRAFT** - Context,
 
 Miss any letter and you get **generic middle.** That's the oatmeal. Balanced, polite, empty.
 
+I left Target Audience blank on a "explain Hugo taxonomies" prompt once. Got a textbook definition a stranger would bounce off. Added "freelancer who already runs WordPress, plain English, no SEO jargon" and the second draft was usable.
+
 ---
 
 ## Real prompt I used (Hugo migration checklist)
@@ -84,6 +86,8 @@ Reuse the skeleton. Don't rewrite from scratch every Tuesday. The newsletter oat
 Role without context gets me "you're an expert" at what, for whom. Action as a paragraph loses to numbered steps every time. Skip the format and I get an essay when I needed HTML. Skip the audience and I get academic when I wanted blog casual.
 
 I still forget Target Audience when I'm rushing. Then I wonder why the tone sounds like a white paper. It's not the model being weird. I left a box empty.
+
+Reuse beats reinvention. I keep three CRAFT skeletons in a notes file - client email, Hugo checklist, blog outline - and swap the brackets. The newsletter oatmeal happened because I treated the prompt like a wish, not a brief.
 
 ---
 

@@ -54,6 +54,8 @@ Supplements don't replace vaccines, hand washing, or rest. They're **margin**, n
 
 Commute season is when the stack matters most - and when I'm most likely to skip sleep and call the pills the plan. That's backwards. The pills are backup for the weeks food and rest slip, not a license to skip both.
 
+Rainy season last year I ran on six hours and three supplements and still caught whatever Isaiah brought home from school. The week I fixed sleep first, the colds spaced out even without changing the bottles. Pills didn't fail. Sleep did.
+
 ---
 
 ## What actually works better
@@ -65,3 +67,5 @@ I still get sick. The stack doesn't make me invincible. It makes me feel like I 
 ---
 
 Monday: fix sleep before you buy bottles. If you still want a stack after that, ask your clinician which two supplements matter - not the twenty-ingredient Shopee bundle.
+
+I'm not optimizing for invincibility. I'm stacking boring margin on boring habits - sleep, food, wash hands - and reaching for a bottle when the jeepney season wins anyway.

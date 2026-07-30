@@ -34,6 +34,8 @@ Humans don't write like that. We burst. We shorten. We take a weird detour and c
 
 When I want a draft that survives a human read, I ask for **both** by name in the prompt.
 
+I didn't know the words at first. I'd ask for "natural" or "conversational" and get the same three-sentence paragraphs with different adjectives. Naming perplexity and burstiness in the prompt cut one rewrite pass off most drafts - not magic, just a clearer target.
+
 ---
 
 ## The prompt I paste now
@@ -72,6 +74,8 @@ AI can mimic shape. It can't replace **your** stories, opinions, local context, 
 
 My workflow: **AI draft → add one real detail per section → cut 20% → read aloud.**
 
+Last month I skipped the read-aloud on a client outline. Pia heard me rehearsing a section in the kitchen and asked why I sounded like a help article. Back to the file. Cut three "it's important to note" sentences. Fixed in ten minutes because I'd caught it before send.
+
 If it sounds like a brochure when spoken, it goes back for another pass.
 
 Quick fixes that work:
@@ -89,6 +93,8 @@ Quick fixes that work:
 Internal summaries, research dumps, outlines I'll rewrite anyway - **good enough is good enough.**
 
 When it ships under my name on jorap.com, the bar is higher. That's what editing is for.
+
+Blog posts get the full pass. Slack summaries to a client get burstiness in the prompt and a quick skim. Know which bucket you're in before you burn an hour polishing oatmeal.
 
 ---
 

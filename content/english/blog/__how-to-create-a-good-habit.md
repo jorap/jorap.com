@@ -29,6 +29,8 @@ James Clear's *Atomic Habits* gave me language that stuck. I don't quote the boo
 
 **Make it obvious.** I don't "try to blog more." I **open the Hugo draft folder after breakfast** - same chair, same mug, same folder. The cue is boring on purpose. Boring cues fire. Vague goals don't.
 
+For a month I left a sticky note on the monitor that said "write more." I walked past it like wallpaper. The folder on the desktop with a stupid name (`__actually-write`) worked because opening it is one click after I sit down.
+
 **Make it attractive.** Podcast only on walks. Notebook on the desk, not buried in a drawer. If the start feels like a chore, I won't start. I tried "reward myself later" for months. Later never arrived. Pair the habit with something I already want *during* the habit.
 
 **Make it easy.** "Write 20 minutes" not "finish the post." "Read one page" not "read thirty." The two-minute version is how I trick tired-me into beginning. Most days the twenty minutes happen after the two-minute open. Some days they don't - and opening the folder still counts as showing up.
@@ -56,8 +58,12 @@ Grand habit overhauls. I still design a perfect morning routine with eleven step
 
 What works: **one habit, one environment tweak, one tracker.** I added the breakfast writing cue after I stopped trying to fix sleep, exercise, and inbox at the same time.
 
+The inbox-zero attempt died in four days because I paired it with a 5 AM wake-up I'd never keep. One lever at a time. Boring. It sticks.
+
 Clear's line I keep in my notes: optimize for outcome, you win once. Optimize for process, you can win again and again.
 
 ---
 
 Good habits aren't character tests. They're **design problems** - cue, friction, reward.
+
+Start with one habit you'd actually keep if everything else stayed messy. Fix that environment first. Character tests fail on tired Wednesdays. Design problems you can solve on a Sunday afternoon.
