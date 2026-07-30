@@ -31,7 +31,7 @@ Keep blog posts sounding like JoRap wrote them - practical, personal, and plain-
 - Rewriting AI-generated or stiff drafts under `content/english/blog/`
 - Editing blog tone without changing facts
 - Writing blog `meta_title` and `description`
-- Recipe posts (instructional body + human section intros)
+- Recipe posts (instructional body + human section intros) — read [recipe-style.md](recipe-style.md)
 
 ## Workflow
 
@@ -306,7 +306,19 @@ No affiliate links on the site as of now. Named products you own, what ended up 
 
 ## Recipe posts (variant)
 
-Recipe content can be more instructional - ingredients, steps, timings - but section intros should still sound human. Avoid generic food-blog filler ("This delicious recipe will tantalize your taste buds"). Keep the "why this method" parts in JoRap voice; keep the method itself scannable.
+Read [recipe-style.md](recipe-style.md) before drafting or editing any food post. Full rationale lives in `content/english/blog/__modified-atk-recipe-style-guide-rules.md`.
+
+Recipe content is more instructional - ingredients, steps, timings - but section intros stay human. Avoid food-blog filler ("This delicious recipe will tantalize your taste buds").
+
+| Zone | Rule |
+|------|------|
+| **Voice** | JoRap in opening, section intros, close; ATK-scannable in ingredients and steps |
+| **Measurements** | Metric first, practical volume in parentheses (`160 ml, about 2/3 cup`) - same in ingredients **and** steps |
+| **Fractions** | Digits with slash (`1/2` not `½`) |
+| **Steps** | Imperative, articles OK, times/heat in the step they apply to, equipment when size matters; **repeat amounts on add lines only** (not prep/reserve/transfer) |
+| **Facts** | Match existing JoRap recipe posts for Instant Pot ratios; no invented brands or currency |
+
+Models invent confident liquid ratios. The style doc cuts shape drift - author still QA's numbers.
 
 ## Voice check
 
@@ -331,6 +343,7 @@ Recipe content can be more instructional - ingredients, steps, timings - but sec
 - [ ] `pnpm lint:voice` clean (dashes + AI-tell words)
 - [ ] WTL skim: reasoning visible, narrative order, draft changed what you thought ([writing-to-learn.md](writing-to-learn.md))
 - [ ] Zinsser skim: bracket test, unity, lead/ending, read aloud ([zinsser.md](zinsser.md))
+- [ ] Recipe posts: [recipe-style.md](recipe-style.md) - metric-first amounts, `1/2` fractions, voice split, amounts on add lines only
 
 ## Do not
 

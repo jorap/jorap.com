@@ -42,7 +42,7 @@ These survive unchanged in my doc:
 2. **One action per sentence** when the action is fussy. Don't bury "flip" and "add vinegar" in the same line if timing matters.
 3. **Times and heat in the step.** "High pressure 10 minutes" lives in Step 4, not a vague intro.
 4. **Visual cues alongside clocks.** "Until sauce coats the back of a spoon" still shows up even when I give eight minutes.
-5. **Ingredient list separate from method.** Amounts in the list; no re-measuring mid-paragraph unless it's a split add (vinegar later, sweetener at the end).
+5. **Ingredient list separate from method.** Amounts live in the ingredients block; steps repeat them on add lines only (see below).
 6. **Yield stated plainly.** "Feeds 4-6 with leftovers" beats silence.
 7. **Equipment when it changes the result.** "8-quart Instant Pot" and "separate skillet for browning" are not optional color - they're how I stopped burn notices.
 
@@ -58,9 +58,13 @@ ATK drops "the" and "a" to save magazine pages. Online space is cheap. My steps 
 
 ### Metric first, volume second
 
-I write **milliliters and grams first**, then the measuring cup or spoon I'd actually grab: `160 ml soy sauce, about ⅔ cup`. Philippines kitchen, US-published cookbooks, one post. The metric number is the source of truth; the volume is the practical shortcut.
+I write **milliliters and grams first**, then the measuring cup or spoon I'd actually grab: `160 ml soy sauce, about 2/3 cup`. Philippines kitchen, US-published cookbooks, one post. The metric number is the source of truth; the volume is the practical shortcut.
+
+Same format on **add lines** in the method - when soy sauce actually hits the pot, the step says `160 ml soy sauce (about 2/3 cup)`, not "soy sauce from above."
 
 For tiny amounts (peppercorns, xanthan gum), I give spoons **and** grams when I've weighed them. Salt in a braise gets leeway. Baking soda does not.
+
+Fractions stay as digits with a slash (`1/2` not `½`) so AI and copy-paste don't fight Unicode.
 
 ### "Why" lives outside the steps
 
@@ -83,11 +87,40 @@ Sweetener, xanthan gum, pan-crisp at the end - labeled **Optional** in the ingre
 
 "Don't brown in the Instant Pot" is a hard rule in my adobo because I earned it. It goes in the section intro or a short callout, not as a four-sentence detour in Step 2.
 
+### Repeat amounts on add lines only
+
+ATK magazine steps assume you're glancing at a printed ingredient list beside you. On a phone, scrolling up from step 3 to find "how much soy again?" is how I skip a clove of garlic.
+
+So when a step **adds** something to the pot, pan, or bowl, it spells the same amounts as the ingredients list - metric first, volume in parentheses. Prep steps don't repeat ("mince the ginger"). Transfer steps don't repeat ("transfer the browned chicken"). Reserve steps don't repeat ("add the reserved marinade"). Something already combined earlier stays combined - you don't re-list every item in the marinade when you pour it in.
+
+Still no scroll-up shorthand on add lines: not "from the list above," not "as listed," not a bare ingredient name when you're measuring into the pot.
+
+Bad add line: `Combine the marinade from the list above (soy sauce, garlic, peppercorns, bay leaves).`
+
+Good add line: `Combine 160 ml soy sauce (about 2/3 cup), 10-11 cloves crushed garlic, 1 1/3 tsp whole black peppercorns, and 4 dried bay leaves. Add 2 kg bone-in, skin-on chicken thighs and coat thoroughly.`
+
+Good transfer line: `Transfer the browned chicken to the Instant Pot. Add the reserved marinade, 160 ml water (about 2/3 cup), and 105-110 ml vinegar (about 7 tbsp) last.`
+
+That's the biggest shape change since I first wrote this sheet. ATK's "don't repeat" rule made sense on paper. On a phone in the kitchen, repeat on add lines wins.
+
+---
+
+## Voice split (where JoRap ends and ATK begins)
+
+| Zone | Voice |
+|------|--------|
+| Opening, section intros, close | JoRap - failures, what I'd skip, dry asides |
+| Ingredients + numbered steps | ATK-scannable - imperative, no jokes, no "delicious" |
+
+The jorap-voice skill runs seven rewrite passes on the whole post, but I don't roughen the steps. Passes #1, #5, and #7 hit the intros and close; the method stays boring on purpose. Food-blog filler ("This delicious recipe will tantalize your taste buds") dies in the opening, not in step 4.
+
 ---
 
 ## The rules doc I paste for AI
 
-This is the block in my Cursor project next to the jorap-voice skill. Same idea as the WordPress rules doc in [Consistent AI output for WordPress builds](/blog/consistent-ai-output-wordpress-builds/) - context the model sees every recipe session.
+This block also lives in `.cursor/skills/jorap-voice/recipe-style.md` - the jorap-voice skill loads it every recipe session. This post is the rationale; the skill file is the paste block and the add-line examples. Same idea as the WordPress rules doc in [Consistent AI output for WordPress builds](/blog/consistent-ai-output-wordpress-builds/) - context the model sees before it types.
+
+Before `draft: false`, I still run `pnpm slop:score` and `pnpm lint:voice` on the intros and close. Models invent confident liquid ratios. The doc cuts **shape** drift, not factual QA.
 
 ```
 RECIPE STYLE (modified ATK - JoRap blog)
@@ -101,8 +134,8 @@ STRUCTURE
 - Close: what I actually serve with, what I'd cook again - no "hope you enjoy"
 
 INGREDIENTS
-- Metric first, practical volume in parentheses (160 ml, about ⅔ cup)
-- Spell out fractions (½ not 1/2 in prose lists)
+- Metric first, practical volume in parentheses (160 ml, about 2/3 cup)
+- Fractions as digits with slash (1/2 not ½)
 - Filipino/local names OK with one plain-English gloss
 - Optional items labeled Optional in the heading
 
@@ -110,6 +143,9 @@ STEPS
 - Imperative mood, present tense
 - Articles OK (the, a)
 - One critical action per sentence when timing matters
+- Amounts on add lines match ingredients: metric first, practical volume in parentheses (160 ml, about 2/3 cup)
+- Repeat amounts only when adding to the pot, pan, or bowl - not prep, reserve, or transfer steps
+- No "from the list above" on add lines
 - Times, pressure level, and heat in the step they apply to
 - Name equipment when size or type changes outcome (8-quart Instant Pot, separate skillet)
 - No "you should" / "it is recommended"
@@ -128,26 +164,16 @@ OUTPUT
 - draft: true unless user says publish
 ```
 
-I still read every draft. Models invent confident liquid ratios. The doc cuts **shape** drift, not factual QA.
-
 ---
 
 ## How this changed my last adobo pass
 
-Before the doc, a Cursor session gave me vinegar in the marinade and "stir well" in step 3. That's not how I cook adobo - vinegar goes in last, unstirred for two minutes, or the pot tastes sharp the whole pressure cook.
+Before the doc, a Cursor session gave me vinegar in the marinade, "stir well" in step 3, and "combine the marinade from the list above" on the add line. That's not how I cook adobo - vinegar goes in last, unstirred for two minutes, or the pot tastes sharp the whole pressure cook. And I shouldn't have to scroll up to find how much soy sauce I'm pouring.
 
-After the doc, the skeleton matched [Instant Pot chicken adobo](/blog/instant-pot-chicken-adobo/): marinade without vinegar, brown in a separate pan, liquid totals tuned for an 8-quart, sweetener optional at reduction. I only edited voice in the intro and one timing note I'd updated since publish.
+After the doc, the skeleton matched [Instant Pot chicken adobo](/blog/instant-pot-chicken-adobo/): marinade without vinegar, brown in a separate pan, liquid totals tuned for an 8-quart, sweetener optional at reduction, amounts spelled out on every add line. I only edited voice in the intro and one timing note I'd updated since publish.
 
 That's the win. Not prettier adjectives. **Same recipe twice.**
 
 ---
 
-## When I break my own rules
-
-Holiday baking with Pia's family - I still weigh flour and follow ATK-no-articles in my head because that's how the borrowed cookbook reads. A guest post for someone else's site would follow their guide, not mine.
-
-For jorap.com food posts, this modified ATK sheet is the default. If a rule fights a tested result, the result wins and the doc gets a footnote. Style guides serve the food, not the other way around.
-
----
-
-I keep three recipe posts live that follow this sheet: [chicken adobo](/blog/instant-pot-chicken-adobo/), [arroz caldo (Instant Pot)](/blog/instant-pot-arroz-caldo/), and the older [rice cooker arroz caldo](/blog/set-it-forget-it-arroz-caldo/) I don't cook anymore but won't delete. New recipes get the rules doc first, a human pass second, lint third. Same pot, same voice, same step shape - that's the whole point.
+I keep three recipe posts live that follow this sheet: [chicken adobo](/blog/instant-pot-chicken-adobo/), [arroz caldo (Instant Pot)](/blog/instant-pot-arroz-caldo/), and the older [rice cooker arroz caldo](/blog/set-it-forget-it-arroz-caldo/) I don't cook anymore but won't delete. Match those for shape and Instant Pot ratios unless I've tested new numbers. New recipes get `recipe-style.md` first, a human pass second, lint third. Same pot, same voice, same step shape - that's the whole point.

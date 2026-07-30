@@ -25,7 +25,7 @@ Bone-in drumsticks instead of thigh fillets. More ginger, more garlic, more mala
 
 The old setup was a [smaller rice cooker batch](/blog/set-it-forget-it-arroz-caldo/) - 4-6 people, 1 cup malagkit, thigh fillets, hit congee and forget it for an hour. Simple. But I kept running into the same limits.
 
-**Batch size.** Doubling the rice cooker recipe meant pushing capacity and guessing at timing. The 8-quart Instant Pot handles 2.5 cups malagkit and a full kilo of drumsticks without fighting the max-fill line - enough for a crowd or a week of leftovers.
+**Batch size.** Doubling the rice cooker recipe meant pushing capacity and guessing at timing. The 8-quart Instant Pot handles 500 g malagkit and a full kilo of drumsticks without fighting the max-fill line - enough for a crowd or a week of leftovers.
 
 **Time.** High pressure for 25 minutes, then 15 minutes natural release - about **45 minutes total**, and you're eating. The congee cycle was closer to an hour, and a bigger batch ran even longer. When people are already hungry, that gap matters.
 
@@ -35,6 +35,10 @@ The old setup was a [smaller rice cooker batch](/blog/set-it-forget-it-arroz-cal
 
 **Natural release is not optional.** Quick release on starchy congee sprays hot porridge out the vent. Wait the full 15 minutes of natural pressure release, then release whatever's left.
 
+**Stir the rice in well** before pressure cooking. Half my pot came out gummy and half stayed raw once when the malagkit clumped at the bottom.
+
+**Check the vent knob** before you start the timer. I left it on Vent once and wondered why nothing was happening for twenty minutes.
+
 The rice cooker was good for a hands-off Friday night when I didn't need much. The Instant Pot does that job better now - bigger pot, faster, and I haven't gone back. I get 10-12 bowls out of one pot in about 45 minutes.
 
 ## What goes in my pot
@@ -42,13 +46,13 @@ The rice cooker was good for a hands-off Friday night when I didn't need much. T
 I tried powdered ginger once when I was out of fresh - never again. At this batch size you taste the difference.
 
 **The essentials (don't skip these):**
-- 10-11 cups (2.4-2.6 L) water or chicken broth
-- 2.5 cups (500 g) glutinous rice (malagkit), rinsed well
-- 1 kg (2.2 lbs) chicken drumsticks, bone-in
-- 2-3 Knorr chicken cubes, or 1 tablespoon (15 g) powder
-- 6-7 inches (15-18 cm) fresh ginger, minced - and I mean fresh, the powdered stuff just isn't the same
+- 2.4-2.6 L water or chicken broth, about 10-11 cups
+- 500 g glutinous rice (malagkit), about 2 1/2 cups, rinsed well
+- 1 kg chicken drumsticks, bone-in, about 2.2 lbs
+- 2-3 Knorr chicken cubes, or 15 g chicken bouillon powder, about 1 tablespoon
+- 15-18 cm fresh ginger, minced, about 6-7 inches
 - 10 cloves garlic, chopped
-- 6-8 tablespoons (90-120 ml) fish sauce (patis) - start with less, you can always add more
+- 90-120 ml fish sauce (patis), about 6-8 tablespoons - start with less, you can always add more
 - Black pepper to taste
 
 **If you want to get fancy:**
@@ -57,48 +61,54 @@ I tried powdered ginger once when I was out of fresh - never again. At this batc
 
 **Toppings are where you can go wild:**
 - 4-6 kalamansi, halved, or 1-2 lemons, quartered
-- 3-4 tablespoons (45-60 ml) crispy garlic
+- 45-60 ml crispy garlic, about 3-4 tablespoons
 - 3-4 stalks green onions, sliced
 - 4-6 hard-boiled eggs, halved
 
-## How I Make It
+First time I opened the lid it looked like a solid block of rice - normal at 500 g malagkit. Stir hard, then thin. You're aiming for creamy but not mushy, somewhere between risotto and congee.
+
+## How I run it
 
 **Step 1:** Prep everything (10 minutes max)
-Mince **6-7 inches (15-18 cm) fresh ginger** and chop **10 cloves garlic**. Rinse **2.5 cups (500 g) glutinous rice** until the water runs clear - skips the worst of the gummy texture. Dice the **2-3 medium onions** if you're using them.
+
+Mince the fresh ginger and chop the garlic. Rinse the glutinous rice until the water runs clear. Dice the onions if using them.
 
 **Step 2:** Build and taste the base - before any chicken goes in
-Pour **10-11 cups (2.4-2.6 L) water or broth** into the Instant Pot. Add the ginger, garlic, onion (if using), **2-3 Knorr chicken cubes** (or **1 tablespoon / 15 g powder**), **6-8 tablespoons (90-120 ml) fish sauce**, and black pepper. Stir well to dissolve the cubes.
 
-**Taste this liquid now.** It should taste slightly salty - saltier than a normal soup - because the rice will absorb a lot of it. Adjust fish sauce or salt until you're happy.
+Pour **2.4-2.6 L water or broth (about 10-11 cups)** into the Instant Pot. Add **15-18 cm fresh ginger, minced (about 6-7 inches)**, **10 cloves garlic, chopped**, **2-3 medium onions, diced** (if using), **2-3 Knorr chicken cubes** (or **15 g chicken bouillon powder, about 1 tablespoon**), **90-120 ml fish sauce (patis) (about 6-8 tablespoons)**, and black pepper. Stir well to dissolve the cubes.
+
+Taste the liquid now. It should taste slightly salty - saltier than a normal soup - because the rice will absorb a lot of it. Adjust fish sauce or salt until right.
 
 Do not add the chicken yet. You will not taste again until everything is fully cooked.
 
 **Step 3:** Add the chicken and rice
-Add the rinsed rice and **1 kg (2.2 lbs) chicken drumsticks**. Stir well so the rice is not clumped at the bottom - I learned that one the hard way when half the pot came out gummy and half stayed raw.
+
+Add **500 g rinsed glutinous rice (about 2 1/2 cups)** and **1 kg chicken drumsticks, bone-in (about 2.2 lbs)**. Stir well so the rice is not clumped at the bottom.
 
 From this point on, do not taste the mixture again.
 
 **Step 4:** Pressure cook
-Secure the lid. Venting knob to **Sealing**. High pressure for **25 minutes**. Double-check Sealing - I left it on Vent once and wondered why nothing was happening for twenty minutes.
+
+Secure the lid. Set the venting knob to **Sealing**. Cook on high pressure for **25 minutes**.
 
 **Step 5:** Natural release - no shortcuts
-When the timer beeps, let it sit for **15 minutes** of natural pressure release. Do not flip to quick release.
 
-After 15 minutes, turn the venting knob to **Release** for whatever pressure is left.
+When the timer beeps, let the pot sit for **15 minutes** of natural pressure release. Do not use quick release.
+
+After 15 minutes, turn the venting knob to **Venting** to release any remaining pressure.
 
 **Step 6:** Stir, thin, and taste
-Open the lid and stir hard to break up the rice and release the starch. With this ratio it will probably be thicker than you want - add **hot water 1 cup (240 ml) at a time** until you hit the consistency you like. First time I dumped three cups at once and ended up with soup I had to simmer down.
 
-Taste one final time. If the extra water diluted things, add more fish sauce.
+Open the lid and stir hard to break up the rice and release the starch. Add **240 ml hot water (about 1 cup) at a time** until you reach the consistency you want.
 
-Serve with **4-6 kalamansi** (or **1-2 lemons**), **3-4 tablespoons (45-60 ml) crispy garlic**, **3-4 stalks green onions**, and **4-6 hard-boiled eggs**, halved.
+Taste one final time. If the extra water diluted the broth, add more fish sauce.
+
+Serve with **4-6 kalamansi** (or **1-2 lemons**), **45-60 ml crispy garlic (about 3-4 tablespoons)**, **3-4 stalks green onions**, and **4-6 hard-boiled eggs**, halved.
 
 ## What I'd tell you after the third batch
 
 - Make this ahead for easy weekday meals. It tastes better the next day and reheats fine in the microwave.
 - Taste the seasoned base in Step 2 before the raw chicken goes in. That's your only chance to fix the salt level.
-- Start with the full **10 cups (2.4 L) water** if you're unsure. You can always thin it out at the end, but it's harder to thicken it back up.
-- Thin it one cup at a time. I dumped three in at once trying to loosen a thick pot and washed out the seasoning I'd just fixed.
+- Start with the full **2.4 L water (about 10 cups)** if you're unsure. You can always thin it out at the end, but it's harder to thicken it back up.
+- Thin it **240 ml (about 1 cup) at a time**. I dumped three cups in at once once and washed out the seasoning I'd just fixed.
 - Don't skip the toppings. Kalamansi and crispy garlic turn a plain bowl into the good version.
-
-First time I opened the lid it looked like a solid block of rice, which is normal at 2.5 cups malagkit. Stir it hard, then thin. You're aiming for creamy but not mushy, somewhere between risotto and congee.

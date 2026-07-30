@@ -27,6 +27,8 @@ Stovetop adobo works, but on a weeknight I'm not committing to an hour or two of
 
 The other thing I like: pressure cook in the Instant Pot, reduce the sauce in sauté mode at the end. I **don't** brown in the Instant Pot first - that's how I've gotten burn notices. I sear in a separate pan, then everything goes into a clean inner pot for pressure cooking. The liquid numbers below are what actually works in my 8-quart - not the generic "minimum 1 cup" advice that leaves you with soup.
 
+At 2 kg I brown in two batches. Crowding the pan once got me pale, steamed skin and no fond, which defeats the point of browning.
+
 ---
 
 ## My 2 kg thigh batch
@@ -39,17 +41,17 @@ The other thing I like: pressure cook in the Instant Pot, reduce the sauce in sa
 
 #### Marinade
 
-- 160 ml soy sauce, about ⅔ cup
+- 160 ml soy sauce, about 2/3 cup
 - 10-11 cloves garlic, crushed
-- 1⅓ tsp whole black peppercorns
+- 1 1/3 tsp whole black peppercorns
 - 4 dried bay leaves
 
 #### Cooking Liquids
 
 - 105-110 ml vinegar  
-    - Practical measure: 7 tbsp or ⅓ cup + 2 tbsp  
+    - Practical measure: 7 tbsp or 1/3 cup + 2 tbsp  
     - If using extra vinegar, add the extra 10 ml vinegar at the end with the sauce for sharper flavor
-- 160 ml water, about ⅔ cup  
+- 160 ml water, about 2/3 cup  
     - Use 120 ml water for a thicker sauce
 
 #### Vinegar Options
@@ -61,19 +63,25 @@ The other thing I like: pressure cook in the Instant Pot, reduce the sauce in sa
 
 Choose one:
 
-- 1⅓ tsp brown sugar 
+- 1 1/3 tsp brown sugar 
 
 or
 
-- 1⅓-2 tsp allulose
+- 1 1/3-2 tsp allulose
 
 #### Optional Thickener
 
-- ½-⅔ tsp xanthan gum
+- 1/2-2/3 tsp xanthan gum
 
 ### The liquid number that stopped the burn notices
 
 That adds up to about 425-430 ml, roughly 1.8 cups. I kept hitting burn notices before I landed on this, because the generic "minimum 1 cup" advice leaves an 8-quart too dry at the bottom and too soupy once the thighs release their own liquid.
+
+Keep the vinegar out of the marinade. It goes in last at pressure time - a stovetop rule I kept. Stir it in right away and the whole pot tastes sharp for the rest of the cook. After you add it, leave the pot alone for two minutes with no stirring.
+
+I usually start the marinade the night before and forget it's in the fridge until lunch. Thirty minutes gets you something; overnight is better, but two hours has worked when I started late.
+
+Whisk xanthan gum into a little hot sauce before stirring it back into the pot. Dumping it in dry gives you lumps, which I learned the obvious way.
 
 ---
 
@@ -81,38 +89,34 @@ That adds up to about 425-430 ml, roughly 1.8 cups. I kept hitting burn notices 
 
 ### Step 1: Marinate
 
-I usually start this the night before and forget it's in the fridge until lunch - works either way.
+Combine **160 ml soy sauce (about 2/3 cup)**, **10-11 cloves garlic, crushed**, **1 1/3 tsp whole black peppercorns**, and **4 dried bay leaves**. Add **2 kg bone-in, skin-on chicken thighs** and coat thoroughly.
 
-Combine the marinade from the list above (soy sauce, crushed garlic, peppercorns, bay leaves), add the thighs, and coat them thoroughly.
-
-Thirty minutes gets you something. I aim for overnight, but two hours has worked plenty of times when I started late.
-
-Keep the vinegar out of the marinade. It goes in later, and I'll explain why in a second.
+Marinate at least 30 minutes; overnight is better.
 
 ### Step 2: Brown the Chicken
 
-**Use a separate pan** - a skillet or wok on the stovetop. I don't brown in the Instant Pot; it's the easiest way I've found to avoid a burn notice later.
+Use a separate skillet or wok on the stovetop. Do not brown in the Instant Pot.
 
-Remove the chicken from the marinade and reserve the marinade.
+Remove the chicken thighs from the marinade and reserve the marinade.
 
 Brown the chicken skin-side down for 3-4 minutes. Flip and brown the other side briefly.
 
-At 2 kg I brown in two batches. Crowding the pan once got me pale, steamed skin and no fond, which defeats the point of the step.
+Brown in two batches at 2 kg.
 
 ### Step 3: Build the Cooking Base
 
-Transfer the browned chicken to the Instant Pot. Add:
+Transfer the browned chicken thighs to the Instant Pot. Add:
 
 - Reserved marinade
-- 160 ml water, about ⅔ cup (use 120 ml for a thicker sauce)
+- 160 ml water, about 2/3 cup (use 120 ml for a thicker sauce)
 
-Add 105-110 ml vinegar last (7 tbsp, or ⅓ cup + 2 tbsp).
+Add 105-110 ml vinegar last (7 tbsp, or 1/3 cup + 2 tbsp).
 
-Then leave it alone for two minutes. No stirring. I picked that up from stovetop adobo, not the Instant Pot manual - stir the vinegar in right away and the whole pot tastes sharp for the rest of the cook.
+Leave the pot alone for two minutes. Do not stir.
 
 ### Step 4: Pressure Cook
 
-Seal it and go.
+Seal the lid.
 
 Cook on:
 
@@ -125,21 +129,21 @@ After 10 minutes of natural release, release the remaining pressure manually.
 
 Remove the chicken temporarily.
 
-**Now** use Sauté mode - simmer the sauce for 8-12 minutes, or until slightly reduced. I walked away once at twelve minutes and came back to glue - eight is my safer number now.
+Switch to Sauté mode. Simmer the sauce for 8-12 minutes, or until slightly reduced. Eight minutes is the safer end - I walked away once at twelve and came back to glue.
 
 Add sweetener, if using:
 
-- 1⅓ tsp brown sugar 
+- 1 1/3 tsp brown sugar 
 
 or
 
-- 1⅓-2 tsp allulose
+- 1 1/3-2 tsp allulose
 
-If you want it thicker, whisk ½-⅔ tsp xanthan gum into a little of the hot sauce first, then stir that back into the pot. Dumping it in dry gives you lumps, which I learned the obvious way.
+To thicken, whisk 1/2-2/3 tsp xanthan gum into a little of the hot sauce first, then stir that back into the pot.
 
 ### Step 6: Optional Crisping
 
-For restaurant-style adobo, pan-sear the cooked chicken skin-side down for 2-3 minutes, or until lightly crisp. Wear an apron - the sauce splatters when the skin finally crackles.
+Pan-sear the cooked chicken skin-side down for 2-3 minutes, or until lightly crisp. The sauce splatters when the skin crackles - wear an apron.
 
 Return the chicken to the sauce before serving.
 
