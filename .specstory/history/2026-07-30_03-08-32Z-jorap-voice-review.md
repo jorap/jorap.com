@@ -413,4 +413,314 @@ _**Agent (auto-low)**_
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && pnpm slop:score content/english/blog/why-my-son-loves-toca-boca-world.md && pnpm lint:voice content/english/blog/why-my-son-loves-toca-boca-world.md && pnpm lint:slop content/english/blog/why-my-son-loves-toca-boca-world.md
 ```
+
+```
+$ node scripts/runPython.mjs scripts/voice-lint.py score content/english/blog/why-my-son-loves-toca-boca-world.md
+why-my-son-loves-toca-boca-world.md      words=1390 total=  6 per100w=  0.43
+$ node scripts/runPython.mjs scripts/voice-lint.py dashes --check && node scripts/runPython.mjs scripts/voice-lint.py site --check content/english/blog/why-my-son-loves-toca-boca-world.md
+Voice dash lint OK
+Voice lint OK
+$ node scripts/runPython.mjs scripts/voice-lint.py slop --check content/english/blog/why-my-son-loves-toca-boca-world.md
+Slop lint OK
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Stick War had war themes and ads. A better replacement was found.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Added the Stick War backstory in two places:
+
+**Intro** — right after the Toca pitch, so the replacement arc is clear from the start: he liked commanding armies, you didn't want war as his default game at six, ads between battles finished it, Toca stuck.
+
+**"Why I want this over the popular apps"** — a one-line callback when the ad loop comes up, so Stick War isn't repeated but the thread connects.
+
+Ledger updated with the Stick War row. Lints still clean (slop 0.43 per100w).
+
+## Session close
+- Fixed: Wove Stick War (war theme + ads) into Toca Boca post intro and comparison section
+- Encode: none
+- Open: clean (commit/push when ready)
+
+---
+
+_**User**_
+
+he was also roleplaying archidon and speartos as well
+
+---
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Davis also roleplayed Archidon and Spearton in Stick War.
+
+Archidons are archers and Speartons are spearmen. I'll find the right place in the post to mention this.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-my-son-loves-toca-boca-world.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The correct Stick War unit names are Archidons and Speartons.
+
+He roleplayed Archidons and Speartons out loud on the couch. This shows his imaginative play side too.
+
+The war wrapper made the imaginative play feel forced. I may update the ledger row too.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Adding the Archidon/Spearton roleplay detail to the Stick War beat — it shows he was already doing imaginative play, just in a war wrapper.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-my-son-loves-toca-boca-world.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__interesting-facts-about-jorap.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Running a quick lint check on the blog post.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm lint:voice content/english/blog/why-my-son-loves-toca-boca-world.md</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:voice content/english/blog/why-my-son-loves-toca-boca-world.md
+```
+
+```
+$ node scripts/runPython.mjs scripts/voice-lint.py dashes --check && node scripts/runPython.mjs scripts/voice-lint.py site --check content/english/blog/why-my-son-loves-toca-boca-world.md
+Voice dash lint OK
+Voice lint OK
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The user mentioned roleplaying as Archidon and Speartos.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Added to the Stick War paragraph: he was roleplaying **Archidons** and **Speartons** out loud on the couch — same imaginative energy as Toca now, just wrapped in a war game you didn't want as his default. Ledger row updated too.
+
+## Session close
+- Fixed: Added Davis's Archidon/Spearton roleplay to Stick War beat in Toca Boca post
+- Encode: none
+- Open: clean
+
+---
+
+_**User**_
+
+what are possible warnings for toca boca world
+
+---
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Considering potential safety and content warnings for Toca Boca World, likely for parents or a blog post.
+
+Reviewing the existing post and searching for prior coverage to identify gaps in warning coverage.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Reviewing what's already in the 
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
+<summary>Tool use: **web_search**</summary>
+
+Parameters:
+
+```json
+{
+  "searchTerm": "Toca Boca World parent concerns warnings in-app purchases 2025 2026"
+}
+```
+Result:
+
+```json
+{
+  "isFinal": true,
+  "references": [
+    {
+      "chunk": "Links:\n1. [Is Your Child Playing Toca Boca World? Here’s What You Should Know](https://www.bitdefender.com/en-gb/blog/hotforsecurity/is-your-child-playing-toca-boca-world-heres-what-you-should-know)\n2. [Is Toca Boca World Safe for Kids? Full Parent Guide in 2025\n | Families](https://vocal.media/families/is-toca-boca-world-safe-for-kids-full-parent-guide-in-2025)\n3. [Toca Boca World - Apps on Google Play](https://play.google.com/store/apps/details?hl=en_US\u0026id=com.tocaboca.tocalifeworld)\n4. [Toca Boca World: Game \u0026 Play review · toddler.games](https://toddler.games/review/toca-boca-world-a-great-sandbox-bolted-to-a-textbook-conversion-funnel)\n5. [Toca Boca: From Digital Dollhouses to the 'I Want That' Button – Guide | Screenwise](https://screenwiseapp.com/guides/toca-boca)\n\nSynthesis:\nToca Boca World is generally safe for children as it contains no violence, live chat, or third-party advertisements [1][2][3]. However, the game uses an aggressive in-app purchase (IAP) model that creates persistent pressure to buy new locations, characters, and furniture [4][5].\n\nTo manage concerns, use your device's built-in parental controls to disable or password-protect in-app purchases [5][6][2]. Monitor YouTube exposure, as content creators can influence children to want specific paid items, and consider setting screen time limits, as the open-ended design lacks natural stopping points [1][7][8].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eIs Your Child Playing Toca Boca World? Here’s What You Should Know\u003c/title\u003e\n\u003curl\u003ehttps://www.bitdefender.com/en-gb/blog/hotforsecurity/is-your-child-playing-toca-boca-world-heres-what-you-should-know\u003c/url\u003e\n\u003ccontent\u003eToca Boca World is a popular creative game that lets kids build stories, characters, and entire digital worlds. While it’s designed to be child-friendly and safe, there are still important consid
+… (output truncated)
+```
+User decision: **accepted**
+
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+post, then outlining parent-facing warnings for Toca Boca World.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-my-son-loves-toca-boca-world.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Looking into possible warnings for Toca Boca World.
+
+Organizing warnings by relevance to the blog post. Already covered: locked doors, location packs, "ask Dad" pressure, and shop visibility. New additions: freemium model locking most maps, bundle prices stacking, and weekly Post Office gifts as a retention hook.
+
+Purchase restores can fail across devices. Kids may not distinguish free from paid content. Open-ended play lacks a natural stopping point. Creators on YouTube or TikTok may promote paid packs. Inventive content can include violence or hospital injuries.
+
+Some locations carry mild spooky or messy themes. Teen roles may include romance or dating. LGBTQ+ inclusive characters may conflict with conservative family values. User-created stories lack moderation. The app collects data and prompts for social follow-ups. Cloud saves can fail across devices. It does not provide school curriculum.
+
+Screen time remains a concern even if the app replaces passive YouTube. A false sense of safety is another risk. Safer than Roblox does not mean zero parenting is needed.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Here are the main parent-facing warnings for **Toca Boca World**, grouped by how often they actually bite. Your post already covers several; the rest are gaps if you want a fuller "what I still guard" section.
+
+### Already in your post (you're not overselling it)
+- **In-app purchases** — locked doors, location packs, "can we buy the spa?" pressure
+- **Screen time** — open-ended, no natural stop; he can sink in deep
+- **Not unlimited just because it's quiet** — still a phone app, still needs a timer
+- **Shop is real** — you don't pretend it isn't there
+
+### Money and monetization (biggest real warning)
+- **Freemium by design** — free starter map is generous, but most buildings sit grayed-out on the map as a constant "you could have this" nudge
+- **No third-party ads** (major win vs Stick War), but the **in-app shop is the ad** — always visible, always tempting
+- **Bundles add up fast** — individual packs look small; full-map envy is real if their friends have more unlocked
+- **Weekly free gifts at the Post Office** — harmless loot, but it's a **retention hook** ("check back Friday")
+- **Restore purchases across devices** — some parents report losing progress or paid content after a new phone/tablet; worth knowing before you spend much
+- **Accidental buys** — peak risk ages 5–7 if IAP isn't locked behind a password or kids mode
+
+### Screen time and attention (your post hints; could go harder)
+- **No scoreboard also means no finish line** — harder to end than a level-based game
+- **YouTube/TikTok spillover** — no in-app ads, but creators showcase paid packs; kids come in already wanting the mansion their favorite video had
+- **"Collecting unlocks" vs inventing stories** — your closing line is the right test: if he's only chasing doors, Toca is behaving like every other F2P game
+
+### Content (usually fine; depends on your kid and values)
+- **Violence isn't built in, but kids add it** — you already have Davis doing chase scenes, hospital "break/fix leg" loops; that's kid-directed, not the app's script
+- **Messy/spooky/mature-ish locations exist** — hospital, crime/mystery vibes in some packs; teen locations can drift into dating/relationship roleplay if the kid goes there
+- **Inclusive body types, wheelchairs, etc.** — a plus for many families; worth previewing if you're picky about what they see
+- **Not a substitute for outdoor play** — creative, but still sedentary screen time
+
+### Safety vs Roblox (your main selling point — mostly holds)
+- **No live chat, no strangers, single-player** — genuinely safer than open platforms
+- **COPPA-compliant, ad-free** per the developer — still read permissions on install
+- **"Safe" ≠ "set and forget"** — the risks shift from predators to **spending, time, and peer envy**
+
+### Practical / boring warnings
+- **Large download, periodic updates** — can eat storage; updates sometimes glitch saves (reported in reviews, not universal)
+- **Not really educational** — great for imagination and fine motor; won't teach reading or math
+- **Progress is local-first** — if the device dies without backup, stories and layouts can vanish
+
+### What I'd rank for *your* setup (locked kids phone, age 6)
+
+| Warning | Severity for you |
+|--------|-------------------|
+| IAP pressure (locked doors) | Medium — you already handle with kids mode + "sometimes no" |
+| Endless play / no stop cue | Medium — kitchen charger + timer is the fix |
+| YouTube-driven "I want that pack" | Medium-low — worth watching if school friends have more unlocked |
+| War/violence content | Low — kid-invented, same as action figures |
+| Strangers/chat | Very low — main reason you picked it over Roblox |
+| Ads | Very low — why you left Stick War |
+
+If you want this in the post, the natural home is expanding **"What I still guard"** with 2–3 bullets: shop envy, no natural endpoint, and YouTube peer pressure for packs — without turning it into a scare piece. Say if you want that drafted in your voice.
+
+---
+
+_**User**_
+
+yes
+
+---
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Adding 2–3 JoRap bullets to the Toca Boca blog post’s “What I still guard” section. The topics are shop envy, no natural endpoint, and YouTube peer pressure for packs.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-my-son-loves-toca-boca-world.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Expanding "What I still guard" with shop envy, no natural endpoint, and YouTube peer pressure. Using JoRap prose rather than a bullet dump.
+
+Drafting the section now. It will stay tight and human, avoiding a scare tone. The opening line is "Screen time is screen time. Quiet doesn't mean unlimited."
+
+The draft contrasts Snap’s deck lists with Toca’s location pack. It notes the lack of a finish line and timer trap. Shop envy is built in through grayed-out maps and weekly Post Office gifts.
+
+YouTube peer pressure is added: classmates and online videos showing off paid packs. Locked doors are answered directly instead of hiding the shop. Bold headers are dropped for flowing prose.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Expanding "What I still guard" with shop envy, no natural stop, and YouTube pack pressure — keeping it honest, not alarmist.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-my-son-loves-toca-boca-world.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm lint:voice content/english/blog/why-my-son-loves-toca-boca-world.md &amp;&amp; pnpm lint:slop content/english/blog/why-my-son-loves-toca-boca-world.md</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:voice content/english/blog/why-my-son-loves-toca-boca-world.md && pnpm lint:slop content/english/blog/why-my-son-loves-toca-boca-world.md
+```
+
+```
+$ node scripts/runPython.mjs scripts/voice-lint.py dashes --check && node scripts/runPython.mjs scripts/voice-lint.py site --check content/english/blog/why-my-son-loves-toca-boca-world.md
+Voice dash lint OK
+Voice lint OK
+$ node scripts/runPython.mjs scripts/voice-lint.py slop --check content/english/blog/why-my-son-loves-toca-boca-world.md
+Slop lint OK
+
+```
 </details></tool-use>

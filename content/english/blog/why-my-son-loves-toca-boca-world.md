@@ -20,7 +20,7 @@ draft: false
 
 He asks for two kinds of screen time. One is the quiz games I built - timer, randomizer cards, math he still calls **hard** but will grind if it feels like a race. The other is **Toca Boca World**. No score. No chat. No feed. He opens a city and runs it like a six-year-old director - chase scenes, hideouts, weird experiments in the hospital wing, then he's done.
 
-Before that it was **Stick War**. He liked commanding little armies. We didn't like that the whole point was war - build units, march them, wipe the other side. Fine for older kids. Not what we wanted as his main game at six. What finished it was the **ads** - loud breaks between battles, install-this junk while he's still tapping. We deleted it and went looking. Glad Toca stuck.
+Before that it was **Stick War**. He liked commanding little armies - roleplaying **Archidons** and **Speartons** out loud on the couch, same energy he brings to Toca now. We didn't like that the whole point was still war - build units, march them, wipe the other side. Fine for older kids. Not what we wanted as his main game at six. What finished it was the **ads** - loud breaks between battles, install-this junk while he's still tapping. We deleted it and went looking. Glad Toca stuck.
 
 I'm the dad who quit **Marvel Snap** because losing turned into homework. He doesn't have that vocabulary yet. He just knows some apps grade you and some let you **mess around**.
 
@@ -109,6 +109,10 @@ When the timer hits, he hands the phone back. No ranked-match slam. He walks off
 Screen time is screen time. Quiet doesn't mean unlimited.
 
 He can sink in deep - I sank into Snap the same way. Difference is what the app wants when he surfaces. Snap wanted deck lists. Toca wants maybe a location pack next birthday.
+
+There's also **no finish line** - no level-complete chime. That's the point, and the trap. The timer still wins even when the chase scene isn't "done."
+
+Most of the map stays **grayed out on purpose**. The Post Office drops a free gift every week so kids open the app again and peek at the shop. Davis hasn't clocked that yet. School friends might - "I have the mall" travels fast. YouTube kids showing off paid packs doesn't help either.
 
 Locked doors get a straight answer. Sometimes no. Sometimes his money. I don't pretend the shop isn't there.
 
