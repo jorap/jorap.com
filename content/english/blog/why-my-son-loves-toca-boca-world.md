@@ -58,11 +58,11 @@ It hit the same nerve as plastic figures and LEGO on the carpet: **make your own
 
 ## What I actually see him do
 
-He'll stage a **getaway** - character in a car, second character "chasing," both of them crashing into furniture because the physics are goofy on purpose. Or he'll load the hospital, "break" someone's leg, fix it, break it again. Hair salon turns into disguise prep for a heist that only exists in his head.
+He'll cram half the cast into one car and drive it into a wall on purpose - the ragdoll flop kills him every time. Or he'll open the **pet salon** and treat it like a hat shop: sunglasses on the cat, bath completely forgotten. **Pizza place** is the same chaos - every topping on one pizza, customer eats it anyway, he starts the next order before anyone's full.
 
 Sometimes it's domestic. Table, food, sleep. Fine. Boys don't only play explosions. But the game **doesn't force** either mode. No script says be gentle. No script says be loud. He narrates the whole thing out loud like he's calling a game on TV.
 
-**Strike** with his grandmother is dice, groaning, a winner. Toca is **props and no referee**. He's not ready for thirty minutes of **Jaipur** rules. He'll run a made-up scenario for thirty minutes if nothing on screen tells him he failed.
+**Strike** with his grandmother is dice, groaning, a winner. Toca is **props and no referee**. He's not ready for thirty minutes of explaining board game rules. He'll run a made-up scenario for thirty minutes if nothing on screen tells him he failed.
 
 ---
 

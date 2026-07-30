@@ -724,3 +724,113 @@ Slop lint OK
 
 ```
 </details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The requested edits are complete. I will now provide a brief summary and close the session.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Expanded **"What I still guard"** with three beats:
+
+1. **No finish line** — open-ended play is the feature and the trap; timer still wins
+2. **Shop envy** — grayed-out map, weekly Post Office hook, school "I have the mall" pressure
+3. **YouTube spillover** — creators showing paid packs adds pressure even without in-app ads
+
+Still lands on your existing locked-door rule. Lints clean.
+
+## Session close
+- Fixed: Expanded Toca Boca warnings section (timer, shop envy, YouTube pack pressure)
+- Encode: none
+- Open: clean (commit/push when ready)
+
+---
+
+_**User**_
+
+He'll stage a **getaway** - character in a car, second character "chasing," both of them crashing into furniture because the physics are goofy on purpose. Or he'll load the hospital, "break" someone's leg, fix it, break it again. Hair salon turns into disguise prep for a heist that only exists in his head.
+
+friendlier but funny example replacement
+
+---
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Replacing the Toca Boca play scenarios with friendlier but funny examples.
+
+The current examples rely on car crashes and broken legs. A friendlier version should keep the playful, authentic tone of a six-year-old's imagination without violence or medical injury.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-my-son-loves-toca-boca-world.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The user wants friendlier but still funny examples.
+
+Specific kid-friendly scenarios include a pizza shop with wrong toppings, a pet salon with purple dog dye, a grocery store cart derby, a restaurant serving invisible food, and driving the bus off the map on purpose.
+
+A hair salon makeover becomes a disaster with rainbow hair and a stuck customer. A pet salon turns into a hat store where every dog gets sunglasses. A car crash scene is paired with a pet salon hat store idea.
+
+A wig emergency replaces the heist disguise idea. The hair salon scenario now includes a stuck customer and a premature exit before the fake haircut finishes.
+
+The new scenes fit the "domestic" beat that follows. The Jaipur board game reference is left unchanged.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-my-son-loves-toca-boca-world.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Running a quick lint check after the edit.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm lint:voice content/english/blog/why-my-son-loves-toca-boca-world.md</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:voice content/english/blog/why-my-son-loves-toca-boca-world.md
+```
+
+```
+$ node scripts/runPython.mjs scripts/voice-lint.py dashes --check && node scripts/runPython.mjs scripts/voice-lint.py site --check content/english/blog/why-my-son-loves-toca-boca-world.md
+Voice dash lint OK
+Voice lint OK
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Finished the brief summary.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Swapped the chase/hospital/heist beats for sillier ones:
+
+- **Car crash** for the ragdoll flop laugh
+- **Pet salon** as a hat shop (sunglasses on the cat, bath skipped)
+- **Pizza place** with every topping stacked on one pie
+
+Still chaotic kid logic, but warmer and funnier — and it sets up the next paragraph about domestic play without the injury angle.
+
+## Session close
+- Fixed: Replaced Toca play examples with friendlier funny scenes (car flop, pet hats, pizza chaos)
+- Encode: none
+- Open: clean
