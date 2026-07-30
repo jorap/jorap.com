@@ -42,6 +42,10 @@ Draft posts show *(draft)* in the list.
 | I did a **Kumon math trial** years ago. My answers were right; the feedback was **you could do it faster**. | [Kumon for the Reps](/blog/grade-1-better-than-kumon/) *(draft)* |
 | I'm **good at math** and didn't want to hand the subject off to a franchise center for my son. | [Kumon for the Reps](/blog/grade-1-better-than-kumon/) *(draft)* |
 | **Davis** isn't at full hobby-game age yet; **Strike with grandmother** is the kid-table exception - loud dice, no reading. | [Why I Love Modern Board Games](/blog/why-i-love-modern-board-games/) |
+| Davis has a **dedicated kids phone** in **kids mode** (kitchen charger, not his room) - not a hand-me-down of my daily driver. | [Why My Son Loves Toca Boca World](/blog/why-my-son-loves-toca-boca-world/) |
+| His main game on that phone is **Toca Boca World** - sandbox, no chat, no scoreboard. **Roblox** and open platforms stay off the approved list for now. | [Why My Son Loves Toca Boca World](/blog/why-my-son-loves-toca-boca-world/) |
+| Before Toca, Davis played **Stick War** on that phone. We pulled it - war theme plus ads between battles. | [Why My Son Loves Toca Boca World](/blog/why-my-son-loves-toca-boca-world/) |
+| I learned the hard way on someone else's unlocked phone: Davis once **called her mom on Messenger** mid-play. Dedicated handset + parental lock fixed it. | [Why My Son Loves Toca Boca World](/blog/why-my-son-loves-toca-boca-world/) |
 | I **used to** make **arroz caldo most Friday nights** in a **Hanabishi rice cooker**; now it's an **8-quart Instant Pot** (10-12 bowls, ~45 min). | [Set It and Forget It Arroz Caldo](/blog/set-it-forget-it-arroz-caldo/), [Instant Pot Arroz Caldo](/blog/instant-pot-arroz-caldo/) |
 | Arroz caldo now uses **bone-in drumsticks** - boneless thigh fillets disappeared from the local supermarket. | [Instant Pot Arroz Caldo](/blog/instant-pot-arroz-caldo/) |
 | My go-to **chicken adobo** is tuned for an 8-quart Instant Pot and about **2 kg of bone-in thighs**. | [Instant Pot Chicken Adobo](/blog/instant-pot-chicken-adobo/) |

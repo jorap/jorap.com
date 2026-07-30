@@ -4,7 +4,7 @@ meta_title: "Why Davis Loves Toca Boca World"
 description: "Davis plays on a locked-down kids phone, not mine. Toca Boca World beat the apps every other kid talks about - no chat, no feed, no ranked meltdown when the timer hits."
 slug: "why-my-son-loves-toca-boca-world"
 date: "2026-07-30T02:53:00Z"
-image: "/images/note.jpg"
+image: "/images/tbw.jpg"
 categories: ["Parenting", "Games", "Opinion"]
 author: "JoRap"
 tags: ["Toca Boca World", "Toca Boca", "Kids Games", "Mobile Games", "Parenting", "Screen Time", "Kids Mode", "Android", "Grade 1", "Sandbox Games", "Roblox", "YouTube Kids", "Family", "Opinion"]
@@ -13,12 +13,14 @@ related_notes:
   - attention-economy
   - minimum-effective-dose
 featured: false
-draft: true
+draft: false
 ---
 
 **Davis** has his own phone now. Not a hand-me-down flagship - a **dedicated kids handset** in **kids mode**, locked down so he can't wander into my banking apps or the open internet.
 
 He asks for two kinds of screen time. One is the quiz games I built - timer, randomizer cards, math he still calls **hard** but will grind if it feels like a race. The other is **Toca Boca World**. No score. No chat. No feed. He opens a city and runs it like a six-year-old director - chase scenes, hideouts, weird experiments in the hospital wing, then he's done.
+
+Before that it was **Stick War**. He liked commanding little armies. We didn't like that the whole point was war - build units, march them, wipe the other side. Fine for older kids. Not what we wanted as his main game at six. What finished it was the **ads** - loud breaks between battles, install-this junk while he's still tapping. We deleted it and went looking. Glad Toca stuck.
 
 I'm the dad who quit **Marvel Snap** because losing turned into homework. He doesn't have that vocabulary yet. He just knows some apps grade you and some let you **mess around**.
 
@@ -32,7 +34,7 @@ The early apps were small rooms - hair salon, kitchen, school, hospital - each o
 
 Kids loved them for the same reason they love action figures on the floor: **nobody tells you the plot**. You move a character, change an outfit, put someone in a car, invent the chase. The studio merged those apps into one connected map - **Toca Life World**, now **Toca Boca World** - and your people could ride from the apartment to the mall to the hospital without loading a new icon. Bigger toy chest. Same no-referee rules.
 
-The grown-ups noticed. Apple named **Toca Life World** [iPhone App of the Year for 2021](https://apps.apple.com/us/iphone/story/id1591080175) - not "best kids app," the whole iPhone. The citation was basically: endless ways to play, kids seeing themselves in the characters. **Kidscreen** gave it **Best Game App (Original)** in 2022. A **Webby** win in kids and family. **Parents' Choice** hardware on the shelf. Industry awards, yeah - but the parent version is simpler: it kept winning the "my kid actually plays this instead of begging for YouTube" test.
+The grown-ups noticed. Apple named **Toca Life World** [iPhone App of the Year for 2021](https://apps.apple.com/us/iphone/story/id1591080175) - not "best kids app," the whole iPhone. More awards piled on after that. I don't care about the trophy case. I care that it kept winning the "my kid actually plays this instead of begging for YouTube" test.
 
 Why kids stuck around:
 
@@ -56,8 +58,6 @@ It hit the same nerve as plastic figures and LEGO on the carpet: **make your own
 
 ## What I actually see him do
 
-No mission marker. No boss fight unless he invents one.
-
 He'll stage a **getaway** - character in a car, second character "chasing," both of them crashing into furniture because the physics are goofy on purpose. Or he'll load the hospital, "break" someone's leg, fix it, break it again. Hair salon turns into disguise prep for a heist that only exists in his head.
 
 Sometimes it's domestic. Table, food, sleep. Fine. Boys don't only play explosions. But the game **doesn't force** either mode. No script says be gentle. No script says be loud. He narrates the whole thing out loud like he's calling a game on TV.
@@ -76,7 +76,7 @@ The apps other kids name-check aren't evil. They're just built for a different j
 
 **YouTube Kids** looks safe until it isn't - weird recommendations, passive watching, "one more" that never ends. He doesn't come back telling me what he **built**. He comes back asking for the next video.
 
-Even the candy-matching and runner games - fine for five minutes, then the lives refill, then the ad, then the "ask Mom" popup on the thing he was mid-playing.
+Even **Stick War** did that - war theme we already didn't want, then ads between battles. Candy-matching and runner games are the same loop: fine for five minutes, then the lives refill, then the ad, then the "ask Dad" popup on the thing he was mid-playing.
 
 Toca Boca isn't clean. It sells locations. He hits a locked door and sighs. But the **loop** isn't lose-watch ad-ask to buy a skin. The loop is move the couch, crash the car, close the app. **Kids mode** on his phone means he can't sideload the louder stuff anyway. Toca is the main game that still fits inside that fence.
 
@@ -88,7 +88,7 @@ Grade 1 already grades enough. Kumon reading is rows - useful, still **do it aga
 
 On my quiz games there's a right answer. He'll play because I gamified it. Math is still **hard** in his mouth. Reading is the easy win. Timers flip to frustration when he's tired.
 
-Toca doesn't rank him against anyone. Drag, drop, leave. No leaderboard. No "your classmate unlocked this first." **Competence without comparison** - rare on a phone.
+Toca doesn't rank him against anyone. Drag, drop, leave. No leaderboard. No "your classmate unlocked this first." Try finding that on the apps other kids install on the van ride home.
 
 ---
 
