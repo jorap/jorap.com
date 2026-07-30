@@ -21,8 +21,8 @@ examples:
 shareable_thought:
   - "The head is for thinking, not storing."
   - "Notes hold what would otherwise get lost."
-  - "My head is for thinking, not storing."
-  - "Notes hold what I would otherwise lose."
+  - "The system fails when any step is just for show."
+  - "I review quarterly whether each step still earns its place."
 relationships:
   - type: alternative
     wikilink: "[[GTD vs PARA]]"
@@ -39,6 +39,9 @@ relationships:
   - type: extends
     wikilink: "[[PKM]]"
     reason: "A second brain offloads ideas so your head can think instead of hoard"
+  - type: extends
+    wikilink: "[[Take Smart Notes]]"
+    reason: "Ahrens slip-box when linked notes beat folder sorting"
   - type: implements
     wikilink: "[[The Second Brain Workflow]]"
     reason: "CODE stages operationalized in the workflow note"

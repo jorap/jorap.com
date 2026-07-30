@@ -5,6 +5,7 @@ description: >-
   Use plain words that land on first read.
   Use when drafting or polishing description, key_concept, examples, shareable_thought,
   relationships.reason on content/english/notes/, Eternal Principles scripture notes,
+  PKM notes aligned with Ahrens slip-box (permanent vs fleeting, literature notes),
   or when garden prose sounds generic, dictionary-ish, or AI-generated.
   Runs de-AI pass and likability lens before finish. For flashcard word choice, use with flashcards skill.
   For blog posts, use jorap-voice instead.
@@ -57,10 +58,12 @@ Blog posts use [jorap-voice](../jorap-voice/SKILL.md) and its **seven rewrite pa
 ## Workflow
 
 1. **Read 1-2 reference notes** in the same lane before writing:
-   - **PKM:** `content/english/notes/capture.md`, `rollback-principle.md`
+   - **PKM:** `content/english/notes/capture.md`, `rollback-principle.md`, `take-smart-notes.md`
+   - **PKM (Ahrens stack):** `literature-notes.md`, `evergreen-vs-fleeting-notes.md`, `atomic-notes.md`
    - **Faith / EP:** `content/english/notes/abide-in-me.md`, `the-golden-rule.md`
    - **Ethics / systems:** `content/english/notes/blameless-after-action-review.md`
    - **Flashcards (tone):** `capture.md`, `abide-in-me.md`, `the-golden-rule.md`
+   - **Book anchor shape (PKM):** `getting-things-done.md`, `building-a-second-brain.md`, `take-smart-notes.md`
 2. **Draft in the author's voice**, not a textbook or SEO summary.
 3. **Score before and after** — `pnpm slop:score path/to/note.md` before the de-AI pass; rerun after. The per100w score should drop.
 4. **Run the de-AI pass** (below) - mandatory, even on one-line fixes.
@@ -87,6 +90,23 @@ Wiki prose in `key_concept` can be tighter than cards, but still plain. Cards ar
 **Local context** (Shopee, jeepney, sideline) - only when the scene is actually from that life. Never forced.
 
 **Faith / EP lanes** - straight tone in commentary. No dry humor in verse glosses or faith `key_concept`.
+
+## PKM lane (Ahrens)
+
+Garden PKM notes follow the slip-box idea from Sönke Ahrens (*How to Take Smart Notes*). Garden anchor: [`take-smart-notes.md`](../../content/english/notes/take-smart-notes.md) (aliases: Zettelkasten, Slip-Box).
+
+| Ahrens idea | Garden field |
+|-------------|--------------|
+| Writing is the work, not a finale after reading | `key_concept` line 1 = a claim you would cite, not "notes help you remember" wallpaper |
+| Three buckets: fleeting, permanent, project | Do not merge inbox scribbles, garden atoms, and draft scraps in one note |
+| Literature notes vs permanent notes | Source take in your words first; atoms link out via `relationships` |
+| Bottom-up topics | Topics emerge from linked clusters - not brainstorm-first `key_concept` |
+| Read with a pen | `examples` show your words on paper, not highlight dumps |
+| One idea per note | Pair with [[Atomic Notes]] - split before the ands pile up |
+
+**Book anchor notes** (author + method in one file): levels 1-5 in `key_concept`, six review cards, `relationships` wired to the stack. Match `getting-things-done.md`, `building-a-second-brain.md`, `take-smart-notes.md` - not a chapter dump in frontmatter.
+
+**Do not** paste book excerpts into garden frontmatter. Distill one claim per note; link `[[Take Smart Notes]]` from atoms that borrow the method.
 
 **Theological source (faith notes)** - JoRap voice for gloss and examples; **doctrine** from an experienced Grace School of Theology theologian. Faith-lane claims (justification, sanctification, assurance, rewards, eternal security, etc.) align with GSOT's free grace tradition - faith alone for eternal life; works for discipleship and rewards, not merit. Do not improvise theology or reach for generic evangelical stock phrases. When a claim is uncertain, check GSOT faculty resources (Grace Theology Press, GSOT curriculum) before drafting.
 
@@ -189,6 +209,9 @@ Plain speech beats smart-sounding prose.
 | `deploy` | push live |
 | `metadata` | tags and fields |
 | `contradicts` (in relationship reasons) | goes against |
+| `elaborate` (PKM) | spell out in your words |
+| `external scaffolding` | notes you think inside (then the term if needed) |
+| `slip-box` / `Zettelkasten` | linked permanent notes in one stack (gloss once, then the term) |
 
 Hard bans live in `data/voice-words.yaml`. Run `pnpm voice:scan` to review hits; `pnpm lint:voice` before commit catches em/en dashes and strict list matches.
 
@@ -281,3 +304,4 @@ Vocabulary: `pnpm lint:voice` (`data/voice-words.yaml`). Structure: `pnpm lint:s
 - Quote a whole Bible chapter in `{{< bible >}}` `ref`/`label` or inline citations - name the verses (`John 17:11`, not `John 17:1-26`)
 - Write `shareable_thought` fragments or four near-duplicates
 - Force Philippines/local color when the scene isn't local
+- Paste book chapters into frontmatter - distill claims; anchor the method on `[[Take Smart Notes]]`

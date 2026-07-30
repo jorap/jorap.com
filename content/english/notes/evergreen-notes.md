@@ -16,9 +16,9 @@ examples:
   - "My free-throw note keeps the release point and shooting form - not last week's trending drill tip I would regret next season."
 shareable_thought:
   - "Phrase ideas worth standing behind in two years and revise when reality shifts, not when a trend spikes."
-  - "Phrase ideas worth standing behind in two years, then revise when reality shifts."
   - "Complete sentences you would still sign - not trend-chasing rewrites every quarter."
   - "Promote from fleeting during Periodic Knowledge Review when a spark keeps returning."
+  - "Revision is part of evergreen work - not a failure of the first draft."
 relationships:
   - type: contradicts
     wikilink: "[[Daily Notes]]"
@@ -30,8 +30,8 @@ relationships:
     wikilink: "[[Periodic Knowledge Review]]"
     reason: "Evergreen notes stay sharp through scheduled revisit"
   - type: extends
-    wikilink: "[[Permanent Notes]]"
-    reason: "Ahrens-style durable phrasing this note targets"
+    wikilink: "[[Take Smart Notes]]"
+    reason: "Ahrens permanent notes target this durable phrasing"
   - type: extends
     wikilink: "[[The Beatitudes]]"
     reason: "Timeless claims like the Beatitudes - notes that age well"

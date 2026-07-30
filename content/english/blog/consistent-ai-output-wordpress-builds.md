@@ -19,6 +19,8 @@ featured: false
 draft: false
 ---
 
+Ask the same AI for the same WordPress feature on Tuesday and Thursday and you'll get two versions that both work and neither match. That's the problem nobody warns you about.
+
 ## The thing nobody warns you about
 
 Month one with AI on WordPress builds: thrilled. Month two: annoyed. Month three: I finally got it.

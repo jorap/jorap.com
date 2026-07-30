@@ -24,7 +24,7 @@ I've watched the same move in sports and on my shelf: shrink the package, and **
 
 **Monopoly Deal** sells to families who'd walk past the big **Monopoly** box in the aisle.
 
-I used to think a shorter version meant I didn't love the original. Wrong. I loved the hook. The uncut version was built for people who already had the time, the court, and the rules in their head. Everyone else walked past.
+I used to think a shorter version meant I didn't love the original. Wrong. I loved the hook. The uncut version assumed you already had the time, the court, and the rules in your head. Everyone else walked past.
 
 Leagues and designers pick a move - shrink the clock, shrink the space, cut the stall, lower the skill floor, repurpose what's already built.
 
@@ -118,7 +118,7 @@ Card games only - nothing that needs a twenty-minute setup on someone else's kit
 
 Sometimes the stall isn't size. It's that nobody poured concrete for your version.
 
-**Pickleball** was invented on a **badminton** court in 1965 - same footprint, swap the net, hand people a paddle. Community centers didn't need a tennis budget to add leagues.
+Three dads in Washington invented **pickleball** on a **badminton** court in 1965 - same footprint, swap the net, hand people a paddle. Community centers didn't need a tennis budget to add leagues.
 
 A standard **tennis** court pad fits **four** pickleball courts. That's how the sport spread faster than new construction ever could.
 

@@ -3,7 +3,7 @@ title: "Getting Things Done"
 meta_title: "Getting Things Done"
 description: "David Allen's capture-clarify-organize loop turns scattered tasks into one trusted inbox with weekly review."
 key_concept: |
-  - GTD is David Allen's capture-clarify-organize loop for a trusted inbox, next actions, and weekly review.
+  - Open loops belong on paper, not rehearsing in my head at 2am.
   - Level 1: Empty your mind into a tray, pick the next step, sort it, review weekly - like clearing pockets into boxes.
   - Level 2: GTD is like plumbing for open loops - capture, clarify, organize, review weekly so trust returns when tasks leave your head.
   - Level 3: Because open loops drain attention, capture and weekly review return trust to the system instead of rehearsing the same worry nightly.
@@ -27,6 +27,9 @@ relationships:
   - type: extends
     wikilink: "[[GTD vs PARA]]"
     reason: "Allen owns the task side of the split"
+  - type: extends
+    wikilink: "[[Take Smart Notes]]"
+    reason: "Allen closes task loops; Ahrens compounds insight beside it"
   - type: extends
     wikilink: "[[The Trusted Inbox]]"
     reason: "Trusted inbox is the heart of the loop"

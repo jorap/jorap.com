@@ -30,7 +30,7 @@ But this site is where my **notes garden**, my **extension-cord** post, and my *
 
 ## You actually own it
 
-On Facebook, Instagram, YouTube, or any other platform, you're a tenant. The landlord can change the rules, tear down the building, or decide your kind of content isn't allowed anymore.
+On Facebook, Instagram, YouTube, or any other platform, you're a tenant. The landlord can change the rules, knock down the building, or decide your kind of content isn't allowed anymore.
 
 I've watched it happen to other people. Vine vanished overnight in 2017. Google+ shut down. MySpace lost years of users' music. Flickr slashed free accounts and wiped the rest. Facebook throttled organic reach for business pages until millions of small shops lost the audience they'd spent years building.
 

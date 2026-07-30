@@ -40,7 +40,7 @@ That distinction is why the book aged better than most 2010 business shelves. So
 
 I don't have a dramatic origin story. I was reading leadership blogs in 2009 the way a lot of us were - hungry for frameworks, trying to get better at teams, clients, and the awkward parts of church volunteer work.
 
-When Maxwell opened the manuscript, I did what the internet was built for: I read, I commented, I moved on with my week. I wasn't angling for a credit line. I didn't even know everyone's name would be printed until the acknowledgments showed up.
+When Maxwell opened the manuscript, I did what the internet exists for: I read, I commented, I moved on with my week. I wasn't angling for a credit line. I didn't even know Maxwell would list everyone's name until the acknowledgments showed up.
 
 Honest admission: I don't remember the exact comment that earned the listing. Maxwell's team pulled more than seventy reader stories into the body text. Mine might have been one of those, or I might have simply been active enough in the threads to make the contributor roll. Either way, the book shipped in 2010 with **Jon Rapusas** in the contributors section, and I bought a copy mostly to verify I wasn't imagining it.
 

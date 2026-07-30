@@ -27,6 +27,9 @@ relationships:
   - type: extends
     wikilink: "[[Note Maturity]]"
     reason: "Stages a note passes through - future lifecycle note"
+  - type: extends
+    wikilink: "[[Take Smart Notes]]"
+    reason: "Ahrens three-bucket split matches fleeting vs permanent lanes"
 slug: "evergreen-vs-fleeting-notes"
 date: "2026-06-18 06:00:00+00:00"
 image: "/images/note.jpg"

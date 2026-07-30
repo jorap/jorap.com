@@ -4,7 +4,7 @@ meta_title: "Apple Doesn't Invent the Future - It Schedules It"
 description: "I don't watch Apple keynotes, but I stay current on what they ship. Most of the time Apple's skill is strategic patience - wait, package, sell. The M-series Mac transition was the exception Tim Cook got right."
 slug: "apple-strategically-late"
 date: "2026-07-28T00:30:00Z"
-image: "/images/image-template.jpg"
+image: "/images/google-vs-apple.jpg"
 categories: ["Technology", "Opinion"]
 author: "JoRap"
 tags: ["Apple", "iPhone", "iPad", "iMessage", "Apple Intelligence", "Siri", "iPod", "iTunes", "Apple Music", "App Store", "AirPods", "AirDrop", "Apple TV", "Apple Pay", "Apple Silicon", "MacBook Neo", "M4", "Vision Pro", "Foldable Phone", "HomePod", "Innovation", "Product Strategy", "Samsung", "Ecosystem", "Consumer Tech", "Opinion"]
@@ -84,7 +84,7 @@ Excellent product. Late to the concept. And still the clearest example on my des
 
 I own an **11th-gen iPad** for couch reading, PDFs, and the tabs that don't need a full laptop. It's good at that job. It's also the odd one out in Apple's current iPad family: when **Apple Intelligence** rolled out across M-series Macs and iPads, the cheap iPad I actually bought **didn't make the cut** - A16 chip, not enough RAM, tiered out of the AI story the keynotes kept selling. Every Air, mini, and Pro got the platform line. The entry iPad didn't.
 
-That's the iPad in miniature. Real innovation in 2010 on product shape. Fifteen years later, still negotiating what the base model is allowed to do.
+That's the iPad in miniature. Real innovation in 2010 on product shape. Fifteen years later, Apple still decides what the base iPad gets to do.
 
 ---
 
@@ -162,7 +162,7 @@ Apple's public story is "we wait until it's ready." Five launches are enough to 
 
 **Apple Maps (2012)** is the cleanest example. Apple booted **Google Maps** off the default home screen before its own data was ready. Wrong turns, missing towns, landmarks that looked melted in 3D. Tim Cook apologized in public and told people to use rival apps while Apple rebuilt. The map wasn't late because OLED wasn't mature. It was early because **Apple wanted control of location on the iPhone**.
 
-**AirPower (announced 2017, canceled 2019)** is the reverse of Maps: announced on stage, never shipped. A charging mat that was supposed to juice an iPhone, Watch, and AirPods at once. Customers waited. Physics and manufacturing didn't cooperate. Apple killed it - rare - which only highlights how often the keynote runs ahead of the product.
+**AirPower (announced 2017, canceled 2019)** is the reverse of Maps: announced on stage, never shipped. A charging mat that promised to charge an iPhone, Watch, and AirPods at once. Customers waited. Physics and manufacturing didn't cooperate. Apple killed it - rare - which only highlights how often the keynote runs ahead of the product.
 
 **Butterfly keyboard (2015-2019)** wasn't one bad week. It was years of MacBooks where dust could kill a key, characters repeated, service programs multiplied, and Apple **kept the thin mechanism anyway** until the line became a punchline. Thin industrial design beat basic laptop reliability. That's not patience. That's stubbornness with a premium price tag.
 

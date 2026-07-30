@@ -1,6 +1,6 @@
 # Garden Voice - Examples
 
-Read `capture.md`, `rollback-principle.md`, `abide-in-me.md`, `the-golden-rule.md`, and `blameless-after-action-review.md` before drafting.
+Read `capture.md`, `rollback-principle.md`, `take-smart-notes.md`, `abide-in-me.md`, `the-golden-rule.md`, and `blameless-after-action-review.md` before drafting.
 
 ---
 
@@ -37,6 +37,16 @@ Read `capture.md`, `rollback-principle.md`, `abide-in-me.md`, `the-golden-rule.m
 > If I can't explain the path back in one sentence, I'm not ready to ship.
 >
 > [[Reversibility]] is the decision frame; rollback is the rehearsed move.
+
+### ✅ Book anchor (`take-smart-notes.md`)
+
+> The draft is easy when the notes were written all along.
+>
+> [[Literature Notes]] stay with the source; permanent notes live in one linked stack you think inside.
+> Fleeting notes expire; project notes die with the draft; only permanent notes compound.
+> [[Evergreen Notes]] are what permanent notes become when the claim survives a second read.
+
+Not: pasting Ahrens chapter summaries or Luhmann biography into `key_concept`.
 
 ---
 

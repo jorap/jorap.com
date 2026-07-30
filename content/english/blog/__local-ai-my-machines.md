@@ -27,7 +27,7 @@ Short answer: it depends which machine. The Windows laptop has **real dedicated 
 
 Discrete GPUs have their own memory chip. Integrated and unified setups pretend they don't - or share everything.
 
-On the **Linux desktop**, the Radeon 740M is integrated into the CPU. The BIOS carves out a tiny fixed slice - **512 MB** on my board - and the rest shows up as **GTT**, shared system memory the GPU can reach when a workload asks for it. My box reports about **15 GB** of GTT against **32 GB** total RAM.
+On the **Linux desktop**, the Radeon 740M sits inside the CPU die. The BIOS carves out a tiny fixed slice - **512 MB** on my board - and the rest shows up as **GTT**, shared system memory the GPU can reach when a workload asks for it. My box reports about **15 GB** of GTT against **32 GB** total RAM.
 
 On the **Windows laptop**, the GPU reports **6 GB VRAM** - a separate pool from the **16 GB** system RAM. That sounds like a clean split. It isn't, because Windows still lives in system RAM and **partial GPU offload** will spill layers back into the 16 GB pool when a model doesn't fit. Six gigabytes is below the **8 GB floor** most local-AI guides treat as serious.
 
@@ -112,7 +112,7 @@ macOS and my usual work stack (browser, Slack, sometimes a staging tab) eat the 
 | **Framework I'd reach for** | llama.cpp (Vulkan or CPU), Ollama | Ollama, LM Studio | MLX, Ollama |
 | **Honest limit** | Slow GPU, no swap safety net | 6 GB VRAM + 16 GB RAM wall | 24 GB total, not expandable |
 
-The Windows laptop is the reality check in that table. It has **real VRAM** - and still lands at **Tier 0** because six gigabytes is not eight. The Mac's unified memory path is **mature**. The 740M on Linux has more shared headroom on paper, but weaker silicon and thinner drivers.
+The Windows laptop is the reality check in that table. It has **real VRAM** - and still lands at **Tier 0** because six gigabytes is not eight. The Mac's unified memory path just works. The 740M on Linux has more shared headroom on paper, but weaker silicon and thinner drivers.
 
 ---
 
@@ -259,7 +259,7 @@ This is the meaningful pair - both machines have headroom above the G15. I use t
 | 4 | **DeepSeek-R1-Distill 14B** | `ollama pull deepseek-r1:14b` | **Thinking** | Linux GPU, Mac daily | Windows - ~8 GB at Q4 |
 | 5 | **Qwen2.5 32B** | `ollama pull qwen2.5:32b` | General (heavy) | Linux CPU overnight, Mac Tier 2 | Windows - **16 GB RAM** ceiling |
 
-**Linux + Mac coding pick:** **Qwen2.5-Coder 14B** - the one I'd open beside a WordPress staging tab. Multi-file theme work, `functions.php`, block patterns. **Qwen3 14B** handles code too, but the Coder build is trained for it.
+**Linux + Mac coding pick:** **Qwen2.5-Coder 14B** - the one I'd open beside a WordPress staging tab. Multi-file theme work, `functions.php`, block patterns. **Qwen3 14B** handles code too, but the Coder build targets it.
 
 **Linux + Mac thinking pick:** **DeepSeek-R1-Distill 14B** for step-by-step reasoning on both boxes with apps open. When I can close everything on the Mac (or run overnight on Linux), **DeepSeek-R1-Distill 32B** (`ollama pull deepseek-r1:32b`) is the hardest thinking I'd run locally before reaching for a cloud model.
 

@@ -3,7 +3,7 @@ title: "Literature Notes"
 meta_title: "Literature Notes"
 description: "After reading a source, write what stuck in your own words - not a pile of copied highlights."
 key_concept: |
-  - Notes about a source in your own words - not a highlight dump.
+  - A highlight dump is not thinking - the author's idea has to pass through my words first.
   - Level 1: Write what the book meant to you in your own words - like telling a friend the story in your voice, not reading every highlighted line back to them.
   - Level 2: Literature notes capture your take on a source - what it argued and what you think - not a paste of every yellow mark.
   - Level 3: Literature notes sit between reading and evergreen writing - they translate the author into your vocabulary before you link ideas.
@@ -18,7 +18,7 @@ shareable_thought:
   - "After reading a source, write what stuck in your own words - not a pile of copied highlights."
   - "Source notes stay tied to the book or talk."
   - "Your atoms link out, not the other way around."
-  - "Notes about a source in your own words - not a highlight dump."
+  - "Atomic notes grow from literature notes when one claim earns its own page."
 relationships:
   - type: contradicts
     wikilink: "[[The Collector's Fallacy]]"
@@ -32,6 +32,9 @@ relationships:
   - type: extends
     wikilink: "[[Layered Reading]]"
     reason: "Each pass shrinks the source into your words"
+  - type: extends
+    wikilink: "[[Take Smart Notes]]"
+    reason: "Ahrens step two before [[Evergreen Notes]] enter the slip-box"
 slug: "literature-notes"
 date: "2026-06-22 06:00:00+00:00"
 image: "/images/note.jpg"

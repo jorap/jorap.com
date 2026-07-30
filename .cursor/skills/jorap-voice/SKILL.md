@@ -7,7 +7,8 @@ description: >-
   content/english/blog/, writing blog meta_title and description, matching JoRap's
   writing style, or when posts sound generic, SEO-ish, stiff, or AI-generated.
   Runs seven rewrite passes (lived-in, de-AI, thinking, friend-flow, POV, credible,
-  editor) plus likability and connection lenses before publish. Read author-context.md
+  editor) plus likability and connection lenses before publish. Craft backbone: Zinsser
+  (zinsser.md). Read author-context.md
   and the facts ledger before personal posts. For notes garden frontmatter, use garden-voice instead.
 ---
 
@@ -16,6 +17,8 @@ description: >-
 Keep blog posts sounding like JoRap wrote them - practical, personal, and plain-spoken - not like a content mill, a product listing, or ChatGPT with a thesaurus. **Vocabulary:** plain words only. Every word should land on first read.
 
 **Primary test:** Would a reader think a real person typed this after using the thing? If it reads like a summary of what a good post *should* say, rewrite it.
+
+**Craft backbone:** William Zinsser's *On Writing Well* — simplicity, clutter cuts, unity, lead/ending, rewriting, the reader transaction. Distilled rules and pass mapping: [zinsser.md](zinsser.md). Zinsser handles sentence craft; this skill handles JoRap's person, scene, and connection.
 
 **Notes garden** (`description`, `key_concept`, `examples`, `shareable_thought`, EP scripture) uses [garden-voice](../garden-voice/SKILL.md), not this skill. See garden-voice **When to use which** for how these seven passes map to per-field garden work.
 
@@ -44,7 +47,8 @@ Keep blog posts sounding like JoRap wrote them - practical, personal, and plain-
 6. **Run the likability lens** (below) - mandatory before publish.
 7. **Run the connection lens** (below) - mandatory before publish.
 8. **Run the voice check** (below) before finishing.
-9. For before/after samples and anti-patterns, see [examples.md](examples.md).
+9. On full rewrites, skim [zinsser.md](zinsser.md) — bracket test, unity, lead/ending, read aloud.
+10. For before/after samples and anti-patterns, see [examples.md](examples.md).
 
 ## Voice pillars
 
@@ -136,7 +140,7 @@ Every line should feel grounded and real. Read as a skeptical reader - flag anyt
 
 Edit like a great editor prepping to publish. Sharpen clarity, flow, and pull. Cut anything generic or artificial. Protect the core message.
 
-JoRap editor bias: **roughen** over-polish, don't smooth into a help article. Cut summary sandwiches and symmetrical nothingburgers. Land the closing on what you'd buy again or actually do - not "hope this helps."
+JoRap editor bias: **roughen** over-polish, don't smooth into a help article. Cut summary sandwiches and symmetrical nothingburgers (Zinsser: when you're ready to stop, stop — no "In sum…" cranking). Land the closing on what you'd buy again or actually do - not "hope this helps."
 
 ### AI tells - remove these
 
@@ -324,6 +328,7 @@ Recipe content can be more instructional - ingredients, steps, timings - but sec
 - [ ] Likability lens: useful takeaway, honest friction, human specific, respectful tone (not performative warmth)
 - [ ] Connection lens: reader problem first, beyond-words specific, earns trust (not just informs)
 - [ ] `pnpm lint:voice` clean (dashes + AI-tell words)
+- [ ] Zinsser skim: bracket test, unity, lead/ending, read aloud ([zinsser.md](zinsser.md))
 
 ## Do not
 
