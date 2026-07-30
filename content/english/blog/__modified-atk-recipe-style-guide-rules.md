@@ -7,7 +7,7 @@ date: "2026-07-30T01:30:00Z"
 image: "/images/Chicken-Adobo.jpg"
 categories: ["Food", "Writing", "AI"]
 author: "JoRap"
-tags: ["Recipe Writing", "Style Guide", "America's Test Kitchen", "AI", "Filipino Recipes", "Instant Pot", "Cursor", "Food Blog", "Writing Tips"]
+tags: ["Recipe Writing", "Style Guide", "America's Test Kitchen", "AI", "Filipino Recipes", "Instant Pot", "Food Blog", "Writing Tips"]
 related_notes:
   - standard-operating-procedures
   - habit-formation
@@ -24,9 +24,11 @@ I fixed that the same way I fixed WordPress build drift: **a short rules doc the
 
 ## Why ATK at all
 
-ATK recipes are boring on purpose. That's a compliment.
+ATK recipes are boring on purpose. That's a compliment - and earned.
 
-The test kitchen cares about **repeatability**: same words, same order, same cues, so a home cook in Boston and a home cook in Batangas hit the same result if they follow the steps. Imperative verbs. Times and temperatures in the step where they matter. Visual doneness cues when a clock lies. Equipment named when size changes the outcome.
+What I love is the precision underneath. They don't publish on the first good batch. Test cooks run versions in the kitchen, staff taste and argue, and ATK fans cook drafts at home before a recipe hits the magazine or the site. The flat tone is what you get when a dish has already survived people who will tell you the chicken is dry.
+
+That discipline shows up on the page: **repeatability** - same words, same order, same cues, so a home cook in Boston and a home cook in Batangas hit the same result if they follow the steps. Imperative verbs. Times and temperatures in the step where they matter. Visual doneness cues when a clock lies. Equipment named when size changes the outcome.
 
 I don't run a test kitchen. I cook for my family on weeknights, mostly in an **8-quart Instant Pot**, mostly Filipino comfort food. But I still want the **method** to read like one author wrote every recipe on the site - not like a new food blogger every Tuesday.
 
@@ -112,21 +114,21 @@ That's the biggest shape change since I first wrote this sheet. ATK's "don't rep
 | Opening, section intros, close | JoRap - failures, what I'd skip, dry asides |
 | Ingredients + numbered steps | ATK-scannable - imperative, no jokes, no "delicious" |
 
-The jorap-voice skill runs seven rewrite passes on the whole post, but I don't roughen the steps. Passes #1, #5, and #7 hit the intros and close; the method stays boring on purpose. Food-blog filler ("This delicious recipe will tantalize your taste buds") dies in the opening, not in step 4.
+I polish the opening and close in my normal blog voice, but I don't roughen the steps. Food-blog filler ("This delicious recipe will tantalize your taste buds") dies in the intro, not in step 4. The method stays boring on purpose.
 
 ---
 
 ## The rules doc I paste for AI
 
-This block also lives in `.cursor/skills/jorap-voice/recipe-style.md` - the jorap-voice skill loads it every recipe session. This post is the rationale; the skill file is the paste block and the add-line examples. Same idea as the WordPress rules doc in [Consistent AI output for WordPress builds](/blog/consistent-ai-output-wordpress-builds/) - context the model sees before it types.
+This post is the rationale; the block below is what I paste at the top of a recipe chat. Same idea as the WordPress rules doc in [Consistent AI output for WordPress builds](/blog/consistent-ai-output-wordpress-builds/) - context the model sees before it types.
 
-Before `draft: false`, I still run `pnpm slop:score` and `pnpm lint:voice` on the intros and close. Models invent confident liquid ratios. The doc cuts **shape** drift, not factual QA.
+Before I publish, I still read the intro and close aloud and fact-check liquid ratios against what I actually cooked. Models invent confident numbers. The doc cuts **shape** drift, not kitchen QA.
 
 ```
 RECIPE STYLE (modified ATK - JoRap blog)
 
 STRUCTURE
-- Frontmatter: title, description, slug, categories include Food + Recipes when applicable
+- Header metadata: title, description, slug, categories include Food + Recipes when applicable
 - Opening: personal hook (why I cook this, what failed before) - first person, 2-4 short paragraphs
 - Section intros: human voice; steps: instructional only
 - Ingredients grouped (Protein / Marinade / Liquids / Optional)
@@ -155,20 +157,19 @@ VOICE SPLIT
 - Steps: ATK-scannable - no jokes, no "delicious", no restating the heading
 
 FACTS
-- Match existing JoRap recipe posts for Instant Pot liquid ratios unless the user gives new tested numbers
+- Match my existing recipe posts for Instant Pot liquid ratios unless I've tested new numbers
 - No dollar or peso amounts
-- Don't invent brand preferences not in author context
+- Don't invent gear or brand picks I haven't actually used
 
 OUTPUT
-- Markdown only, Hugo frontmatter at top
-- draft: true unless user says publish
+- Markdown only, with title and description metadata at top
 ```
 
 ---
 
 ## How this changed my last adobo pass
 
-Before the doc, a Cursor session gave me vinegar in the marinade, "stir well" in step 3, and "combine the marinade from the list above" on the add line. That's not how I cook adobo - vinegar goes in last, unstirred for two minutes, or the pot tastes sharp the whole pressure cook. And I shouldn't have to scroll up to find how much soy sauce I'm pouring.
+Before the doc, an AI draft gave me vinegar in the marinade, "stir well" in step 3, and "combine the marinade from the list above" on the add line. That's not how I cook adobo - vinegar goes in last, unstirred for two minutes, or the pot tastes sharp the whole pressure cook. And I shouldn't have to scroll up to find how much soy sauce I'm pouring.
 
 After the doc, the skeleton matched [Instant Pot chicken adobo](/blog/instant-pot-chicken-adobo/): marinade without vinegar, brown in a separate pan, liquid totals tuned for an 8-quart, sweetener optional at reduction, amounts spelled out on every add line. I only edited voice in the intro and one timing note I'd updated since publish.
 
@@ -176,4 +177,4 @@ That's the win. Not prettier adjectives. **Same recipe twice.**
 
 ---
 
-I keep three recipe posts live that follow this sheet: [chicken adobo](/blog/instant-pot-chicken-adobo/), [arroz caldo (Instant Pot)](/blog/instant-pot-arroz-caldo/), and the older [rice cooker arroz caldo](/blog/set-it-forget-it-arroz-caldo/) I don't cook anymore but won't delete. Match those for shape and Instant Pot ratios unless I've tested new numbers. New recipes get `recipe-style.md` first, a human pass second, lint third. Same pot, same voice, same step shape - that's the whole point.
+I keep three recipe posts live that follow this sheet: [chicken adobo](/blog/instant-pot-chicken-adobo/), [arroz caldo (Instant Pot)](/blog/instant-pot-arroz-caldo/), and the older [rice cooker arroz caldo](/blog/set-it-forget-it-arroz-caldo/) I don't cook anymore but won't delete. Match those for shape and Instant Pot ratios unless I've tested new numbers. New recipes get the rules doc first, a human pass second, a fact-check third. Same pot, same voice, same step shape - that's the whole point.
