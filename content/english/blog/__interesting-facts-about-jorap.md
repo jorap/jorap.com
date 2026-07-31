@@ -61,6 +61,8 @@ Draft posts show *(draft)* in the list.
 | **BS Applied Mathematics**, **UP Los Baños**, **2001**; **Graduate Diploma in Computer Science**, **2003**. | [About](/about/), [Optimized Mindset From Applied Math OR](/blog/optimized-mindset-applied-math-or/) *(draft)* |
 | Applied Math **Operations Research** track - partly a **strategy to dodge the CS quota** crowd, not a childhood dream major. | [Optimized Mindset From Applied Math OR](/blog/optimized-mindset-applied-math-or/) *(draft)* |
 | OR framing that stuck: **state the goal, name constraints, pick a feasible move, revisit when inputs change** - not daily simplex tables. | [Optimized Mindset From Applied Math OR](/blog/optimized-mindset-applied-math-or/) *(draft)* |
+| Applied Math coursework included **Fortran** for numerical problem sets (`.f` files in the lab) - programming history with a grade, not career training. | [Optimized Mindset From Applied Math OR](/blog/optimized-mindset-applied-math-or/) *(draft)* |
+| Taught **math and computer subjects** before the web shift; **XOOPS** skills helped land the job that moved from teacher toward developer. | [Optimized Mindset From Applied Math OR](/blog/optimized-mindset-applied-math-or/) *(draft)*, [Why I Focused on Open Source](/blog/why-i-focused-on-open-source/) |
 
 ---
 

@@ -42,7 +42,7 @@ Compact cheat sheet - not exhaustive. Full tables with post links are in the dra
 
 **Family & kitchen:** ECQ birth story May 8, 2020; Davis says math is **hard** - **Kumon reading** not math; home math = **tablet randomizer** games + optional printed line; **postcards to lola**; grade-school son; **Strike with grandmother** (not full hobby-game age yet); **dedicated kids phone** in **kids mode** (kitchen charger); main game **Toca Boca World**; **8-quart Instant Pot** arroz caldo (**bone-in drumsticks**) and adobo (sear in separate pan); **Kewpie** and **Lee & Perrins** pantry staples.
 
-**Education:** **BS Applied Mathematics** (OR track), **UP Los Baños**, **2001**; **Grad Diploma in CS**, **2003** - picked Applied Math partly to **dodge the CS quota**, not as a childhood dream major.
+**Education:** **BS Applied Mathematics** (OR track), **UP Los Baños**, **2001**; **Grad Diploma in CS**, **2003** - picked Applied Math partly to **dodge the CS quota**, not as a childhood dream major; numerical coursework used **Fortran** (`.f` lab files); taught **math and CS** before the web shift.
 
 **Books:** Commented on **John Maxwell**'s draft *Everyone Communicates, Few Connect* (2009 blog collaboration); **Jon Rapusas** in contributors list.
 
