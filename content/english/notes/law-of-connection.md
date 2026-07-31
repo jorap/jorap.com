@@ -51,5 +51,20 @@ author: "JoRap"
 tags: ["Faith", "Leadership", "Bible", "Discipleship"]
 aliases: ["law of connection", "the law of connection"]
 featured: false
+review: true
+card_sets: ["Eternal Principles", "Discipleship"]
+cards:
+  - front: "About to ask for overtime and I haven't checked how their week went. What comes first?"
+    back: "One human sentence - heart before the hand."
+  - front: "Favor ready on my tongue, haven't talked to them in months. One move before the ask?"
+    back: "Connect first - know the person."
+  - front: "Tempted to charm them into saying yes. Where do I actually stop?"
+    back: "Honest knowing - drop the flattery."
+  - front: "Slack DM with the ask drafted. One check before I hit send?"
+    back: "Did I connect this week - not only ask?"
+  - front: "Hard ask coming and I want to lean on rank. How do I open?"
+    back: "Appeal as a friend - not a command."
+  - front: "Working the room skillfully feels like spiritual brownie points. What's the actual order?"
+    back: "Faith in Christ saves. Connection follows grace."
 draft: false
 ---

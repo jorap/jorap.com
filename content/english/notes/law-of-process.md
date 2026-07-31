@@ -50,5 +50,20 @@ author: "JoRap"
 tags: ["Faith", "Leadership", "Bible", "Discipleship"]
 aliases: ["law of process", "the law of process"]
 featured: false
+review: true
+card_sets: ["Eternal Principles", "Discipleship"]
+cards:
+  - front: "One good talk and I want the ministry lead now. What's missing?"
+    back: "Years of quiet reps first."
+  - front: "Skipping the boring Tuesday skill hour for a hero sprint. What comes first?"
+    back: "Keep the weekly hour - skip the hero show."
+  - front: "Frustrated growth isn't instant after three hard months. One check?"
+    back: "Keep stacking - don't microwave."
+  - front: "Tempted to skip the pit season and jump to the stage. Where do I stop?"
+    back: "Stay in today's small rep."
+  - front: "Hidden years feel wasted while peers get titles. What's the move?"
+    back: "Keep showing up when nobody claps."
+  - front: "Daily leadership reps feel like what qualifies me for heaven. Wrong order?"
+    back: "Already saved by faith - reps are fruit."
 draft: false
 ---

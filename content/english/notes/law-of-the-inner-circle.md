@@ -50,5 +50,20 @@ author: "JoRap"
 tags: ["Faith", "Leadership", "Bible", "Discipleship"]
 aliases: ["law of inner circle", "the law of inner circle"]
 featured: false
+review: true
+card_sets: ["Eternal Principles", "Discipleship"]
+cards:
+  - front: "Hard decision tonight and my room is all cheerleaders. What's the move?"
+    back: "Invite one truth-teller into the call."
+  - front: "Feedback stung and I want only safe praise near me. First fix?"
+    back: "Keep the friend who will confront."
+  - front: "Building a sharp circle and it starts to feel like earning favor with God. What's the actual order?"
+    back: "Already accepted - counselors are fruit."
+  - front: "Yes-men keep missing the product flaw everyone outside sees. What comes first?"
+    back: "Add one counselor who will disagree."
+  - front: "Avoiding the person who names my blind spot. Recovery move?"
+    back: "Schedule the hard conversation this week."
+  - front: "Tempted to fill the tent with people who never push back. One check before I invite?"
+    back: "Pick truth over comfort."
 draft: false
 ---

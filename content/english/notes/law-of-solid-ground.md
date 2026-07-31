@@ -50,5 +50,20 @@ author: "JoRap"
 tags: ["Faith", "Leadership", "Bible", "Discipleship"]
 aliases: ["law of solid ground", "the law of solid ground"]
 featured: false
+review: true
+card_sets: ["Eternal Principles", "Discipleship"]
+cards:
+  - front: "I missed the Friday deliverable I promised the team. First repair move?"
+    back: "Own it today - don't wait for the audit."
+  - front: "Tempted to shade one number in the update so I look sharp. One check before I send?"
+    back: "Tell the plain number - trust over polish."
+  - front: "Leading well this month and it starts to feel like proof I'm saved. What's the actual order?"
+    back: "Faith already saved - lead as fruit."
+  - front: "Stage looks clean but I know the private walk is rotting. What comes first?"
+    back: "Fix the hidden crack - not the slide deck."
+  - front: "Team went quiet after I broke a small promise last week. Recovery move?"
+    back: "Repair that one promise before the next ask."
+  - front: "Win is landing and pride wants the credit speech. Where do I stop?"
+    back: "Stay low - pride cracks the ground."
 draft: false
 ---

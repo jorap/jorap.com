@@ -49,5 +49,20 @@ author: "JoRap"
 tags: ["Faith", "Leadership", "Bible", "Discipleship"]
 aliases: ["law of victory", "the law of victory"]
 featured: false
+review: true
+card_sets: ["Eternal Principles", "Discipleship"]
+cards:
+  - front: "Team is stuck and the door is closed. What's the move?"
+    back: "Find one workaround - clear their path."
+  - front: "Comfort looks easier than taking the cost myself. One check before I stay safe?"
+    back: "Take the cost - clear their path."
+  - front: "Winning for the team starts to feel like proof I'm saved. What's the actual order?"
+    back: "Faith already saved - win as fruit."
+  - front: "Speech ready but no path cleared for them. What comes first?"
+    back: "Remove one blocker they can't clear."
+  - front: "Deadline slipping and I'm still polishing the pep talk. First fix?"
+    back: "Reroute one lane - find the way."
+  - front: "Win cost more than I wanted and I'm tempted to quit early. Recovery move?"
+    back: "Finish the path - cost can land on me."
 draft: false
 ---

@@ -49,5 +49,20 @@ author: "JoRap"
 tags: ["Faith", "Leadership", "Bible", "Discipleship"]
 aliases: ["law of timing", "the law of timing"]
 featured: false
+review: true
+card_sets: ["Eternal Principles", "Discipleship"]
+cards:
+  - front: "Room is hot and I want to announce before the map is ready. What comes first?"
+    back: "Delay one beat - clock before speech."
+  - front: "Impatience pushing me to move without the green light. One check?"
+    back: "Wait for the real go - early costs."
+  - front: "Nailing when to move this quarter and it starts to feel like earning eternal life. What's the actual order?"
+    back: "Faith already saved - timing is fruit."
+  - front: "Window is open but fear keeps me in the tent. What's the move?"
+    back: "Move now - overcaution misses the hour."
+  - front: "Right vision, wrong clock last launch - still tempted to rush the next one. First fix?"
+    back: "Confirm the clock before the announce."
+  - front: "Praying hard but still itching to force the door open. Recovery move?"
+    back: "Wait aligned - don't force the hour."
 draft: false
 ---

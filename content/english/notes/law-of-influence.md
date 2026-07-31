@@ -49,5 +49,20 @@ author: "JoRap"
 tags: ["Faith", "Leadership", "Bible", "Discipleship"]
 aliases: ["law of influence", "the law of influence"]
 featured: false
+review: true
+card_sets: ["Eternal Principles", "Discipleship"]
+cards:
+  - front: "I got the title and the room still waits for someone else. One honest check?"
+    back: "Would anyone follow if the title vanished?"
+  - front: "No badge on the project but people wait for my read before they move. What just happened?"
+    back: "Lead from that sway - not the empty chair."
+  - front: "Fighting hard for the manager slot. What actually measures whether I lead?"
+    back: "Who moves when I speak - title optional."
+  - front: "Org chart says I'm in charge and nobody follows. First fix I try?"
+    back: "Earn sway - stop leaning on the badge."
+  - front: "Tempted to flash the title to shut down debate. One check before I pull rank?"
+    back: "Would they still move with no title?"
+  - front: "People following me feels like proof I'm saved. What's the actual order?"
+    back: "Faith in Christ saves. Influence is stewardship after."
 draft: false
 ---

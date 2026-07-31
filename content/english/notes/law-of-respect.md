@@ -50,5 +50,20 @@ author: "JoRap"
 tags: ["Faith", "Leadership", "Bible", "Discipleship"]
 aliases: ["law of respect", "the law of respect"]
 featured: false
+review: true
+card_sets: ["Eternal Principles", "Discipleship"]
+cards:
+  - front: "Asking the team to follow before I've trained my own lane. What comes first?"
+    back: "Strengthen my lane - then call the move."
+  - front: "I only quote policy while the captain who trains earns the room. First fix I try?"
+    back: "Train with them - competence over quotes."
+  - front: "Tempted to bully for compliance when respect is thin. What's the move?"
+    back: "Build strength with integrity - not fear."
+  - front: "Team drifting after I led from weakness all quarter. One check?"
+    back: "Would I follow me in this lane?"
+  - front: "Want followership without courage or integrity on display. What's missing?"
+    back: "Earn respect - show the strength."
+  - front: "Earning their respect feels like what qualifies me for heaven. Wrong order?"
+    back: "Faith saves - respect is for the walk."
 draft: false
 ---

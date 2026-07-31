@@ -49,5 +49,20 @@ author: "JoRap"
 tags: ["Faith", "Leadership", "Bible", "Discipleship"]
 aliases: ["law of the picture", "the law of the picture"]
 featured: false
+review: true
+card_sets: ["Eternal Principles", "Discipleship"]
+cards:
+  - front: "Assigning the unglamorous task I never do myself. What comes first?"
+    back: "Do it once where they can see."
+  - front: "Kids mirror my phone-at-dinner before they mirror my prayer. What's the move?"
+    back: "Put the phone down - model the habit."
+  - front: "Strong example this week and it starts to feel like wages for heaven. What's the actual order?"
+    back: "Faith already saved - example is fruit."
+  - front: "Speech is sharp but my walk doesn't match. First fix?"
+    back: "Match the walk - speech can wait."
+  - front: "Nobody watching and I'm about to skip the standard I preach. One check?"
+    back: "Keep the private ledger clean."
+  - front: "Team copies my shortcuts faster than my values. Recovery move?"
+    back: "Show the right move once this week."
 draft: false
 ---

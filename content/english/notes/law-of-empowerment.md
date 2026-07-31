@@ -50,5 +50,20 @@ author: "JoRap"
 tags: ["Faith", "Leadership", "Bible", "Discipleship"]
 aliases: ["law of empowerment", "the law of empowerment"]
 featured: false
+review: true
+card_sets: ["Eternal Principles", "Discipleship"]
+cards:
+  - front: "Every decision still routes through me and I'm drowning. First fix I try?"
+    back: "Hand one recurring decision - then leave."
+  - front: "I trained them but I'm still hovering in the meeting. Where do I actually stop?"
+    back: "Name the boundary - then leave the room."
+  - front: "Fear they'll mess up my reputation if I let go. One move that shows I'm secure?"
+    back: "Give the decision - stay available, don't clutch."
+  - front: "Standup still needs me every morning. First person I pass it to?"
+    back: "Let one trained lead run it without me."
+  - front: "Inbox full of choices only I make. One thing to pass today?"
+    back: "Name who owns one recurring call."
+  - front: "Holding every decision feels like being faithful. What's the actual order?"
+    back: "Faith already secures me - hand power away."
 draft: false
 ---

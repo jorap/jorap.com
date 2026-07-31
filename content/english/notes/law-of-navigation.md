@@ -50,5 +50,20 @@ author: "JoRap"
 tags: ["Faith", "Leadership", "Bible", "Discipleship"]
 aliases: ["law of navigation", "the law of navigation"]
 featured: false
+review: true
+card_sets: ["Eternal Principles", "Discipleship"]
+cards:
+  - front: "Team has launch energy - no phased plan on the board. What comes first?"
+    back: "Chart risks and route on one page."
+  - front: "Thumb on Slack announce before I've written the route. One check before send?"
+    back: "Map first - then announce."
+  - front: "Mid-meeting I'm improvising strategy while the crew waits. What's missing?"
+    back: "Stop - write the course."
+  - front: "Risks live only in my head - public yes already went out. First fix I try?"
+    back: "Put threat and route on one page."
+  - front: "Crew asks for direction I never mapped. What's the move tonight?"
+    back: "Draft the course before tomorrow's march."
+  - front: "Careful planning feels like what qualifies me for heaven. Wrong order?"
+    back: "Faith saves - charting serves the walk."
 draft: false
 ---

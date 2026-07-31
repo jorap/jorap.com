@@ -80,7 +80,7 @@ Wiki prose in `key_concept` can be tighter than cards, but still plain. Cards ar
 |-------|-------|
 | `description` | Third-person, one-breath definition - memorable cold weeks later |
 | `key_concept` | Plain-English claim you'd argue (line 1, no wikilinks), then optional post-level stack |
-| `level_1`…`level_5` | Depth ladder for the same claim - plain prose, no `Level N:` prefix |
+| `level_1`…`level_5` | Depth ladder for the same claim - plain prose, no `Level N:` prefix; render shows H3s at end of Key Concept |
 | `examples` | Two scenes that *feel* different - one sentence each |
 | `shareable_thought` | Exactly four complete thoughts - each a different angle, paste-ready alone |
 | `relationships.reason` | Short clause, telegraphic OK |
@@ -115,32 +115,33 @@ Every atomic note has five frontmatter fields after `key_concept`. They describe
 key_concept: |
   - Claim you'd argue (line 1, no wikilinks).
   - Optional post-level stack (wikilinks, distinctions).
-level_1: "Definition - name the concept in one sentence."
-level_2: "Explanation - meaning, purpose, relationships; analogy OK."
-level_3: "Application - practical situation or decision."
-level_4: "Systems - tradeoffs, limits, implications, larger context."
-level_5: "Generative - build, contribute, or extend; wikilinks OK."
+level_1: "Recognize - name the concept in one sentence."
+level_2: "Explain - meaning, purpose, relationships; analogy OK."
+level_3: "Use - practical situation or decision."
+level_4: "Connect - tradeoffs, limits, implications, larger context."
+level_5: "Create - build, contribute, or extend; wikilinks OK."
 ```
 
 | Field | Name | What the field does |
 |-------|------|---------------------|
-| `level_1` | Definition | Recognize - name and identify the concept in one sentence |
-| `level_2` | Explanation | Understand - meaning, purpose, basic relationships; analogy OK |
-| `level_3` | Application | Use - practical situation or decision |
-| `level_4` | Systems | Connect - tradeoffs, limits, implications, larger context |
-| `level_5` | Generative | Create - build, contribute, or extend from the concept; wikilinks OK |
+| `level_1` | Recognize | Name and identify the concept in one sentence |
+| `level_2` | Explain | Meaning, purpose, basic relationships; analogy OK |
+| `level_3` | Use | Practical situation or decision |
+| `level_4` | Connect | Tradeoffs, limits, implications, larger context |
+| `level_5` | Create | Build, contribute, or extend from the concept; wikilinks OK |
 
 Rules:
 
 - Fields sit **after** `key_concept` in frontmatter order (`level_1` … `level_5`)
-- Values are plain prose - **no** `Level N:` prefix (render adds it)
+- Values are plain prose - **no** `Level N:` prefix (render adds H3 headings)
 - Do **not** put `- Level N:` bullets inside `key_concept`
 - Each level explains the same atomic claim at growing depth - not five unrelated facts
 - `level_1` is definitional, not analogy-only (analogy belongs in `level_2`)
 - No grade labels, age bands, or beginner/intermediate/advanced tiers
 - Keep the post-level `key_concept` stack unchanged unless it duplicates a level
 - [[The Feynman Technique]] stress-tests `level_1`–`level_2` only - not a substitute for the full ladder
-- Page render inserts Level bullets after the first markdown bullet in `key_concept`
+- Page render appends Level 1-5 as H3 sections at the **end** of Key Concept:
+  `### Level 1 - Recognize` … `### Level 5 - Create`
 
 **Do not** paste book excerpts into garden frontmatter. Distill one claim per note; link `[[Take Smart Notes]]` from atoms that borrow the method.
 

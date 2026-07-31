@@ -50,5 +50,20 @@ author: "JoRap"
 tags: ["Faith", "Leadership", "Bible", "Discipleship"]
 aliases: ["law of sacrifice", "the law of sacrifice"]
 featured: false
+review: true
+card_sets: ["Eternal Principles", "Discipleship"]
+cards:
+  - front: "Resentment building from costs I never named when I said yes. What comes first?"
+    back: "Name the toll early - make it visible."
+  - front: "Saturday comfort vs the team advancing this month. What's the move?"
+    back: "Lay down one comfort so they can move."
+  - front: "About to keep a right that blocks someone hearing the gospel. One check?"
+    back: "Waive it if reach costs the privilege."
+  - front: "Public yes already out - personal cost still hidden. What's missing?"
+    back: "Count the cost before the next yes."
+  - front: "Higher road this quarter with no down payment named. First thing I write?"
+    back: "One comfort I'll give up this month."
+  - front: "Sacrifice feels like what qualifies me for heaven. Wrong order?"
+    back: "Faith saves - sacrifice is the walk's toll."
 draft: false
 ---

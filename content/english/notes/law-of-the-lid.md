@@ -49,5 +49,20 @@ author: "JoRap"
 tags: ["Faith", "Leadership", "Bible", "Discipleship"]
 aliases: ["law of the lid", "the law of the lid"]
 featured: false
+review: true
+card_sets: ["Eternal Principles", "Discipleship"]
+cards:
+  - front: "Team missed targets and my first blame is the crew. What comes first?"
+    back: "Ask if my ceiling is the bottleneck."
+  - front: "I keep making every call myself - insecurity, not org chart. First fix?"
+    back: "Delegate one real decision today."
+  - front: "Raising how far I can lead starts to feel like climbing toward heaven. What's the actual order?"
+    back: "Faith already saved - growth is fruit."
+  - front: "Title on the door, still hiding from the hard valley call. What's the move?"
+    back: "Step into the hard call - crown isn't courage."
+  - front: "Harsh answer ready that will split the room. One check before I speak?"
+    back: "Soften the reply - harsh lids shatter unity."
+  - front: "Load keeps stalling no matter how hard the team works. Recovery move?"
+    back: "Raise my capacity - not their hours."
 draft: false
 ---

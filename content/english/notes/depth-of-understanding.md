@@ -47,8 +47,8 @@ featured: false
 review: true
 card_sets: ["Learning", "Review"]
 cards:
-  - front: "I can define the idea at dinner but never used it at work. Which depth am I likely at?"
-    back: "Explanation - not Application yet."
+  - front: "Lunch question lands. I can say what the idea means, but a live work case leaves me blank. Which gap showed up?"
+    back: "Application - choose and use one move."
   - front: "Professor starts learning crypto; teen already ships OSS patches. Who is automatically deeper?"
     back: "Neither - depth is per idea, not rank or age."
   - front: "Flashcards fire but I stall teaching it plainly. What does that signal?"
@@ -57,7 +57,7 @@ cards:
     back: "Systems - often after Generative work exposes limits."
   - front: "Garden note has level_1 through level_5 after key_concept. What ladder are they?"
     back: "Recognize, explain, use, connect, create."
-  - front: "Stuck between naming the concept and using it in a real case. What is the middle rung?"
-    back: "Explanation - meaning and relationships before Application."
+  - front: "I can name the idea and point to an example, but I cannot say why it works. Which rung needs practice?"
+    back: "Explanation - say the meaning and relationships."
 draft: false
 ---

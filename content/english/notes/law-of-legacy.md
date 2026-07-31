@@ -50,5 +50,20 @@ author: "JoRap"
 tags: ["Faith", "Leadership", "Bible", "Discipleship"]
 aliases: ["law of legacy", "the law of legacy"]
 featured: false
+review: true
+card_sets: ["Eternal Principles", "Discipleship"]
+cards:
+  - front: "Leaving the role next month - every key still lives in my head. What's the move?"
+    back: "Name a successor in writing."
+  - front: "Best project win this year - nobody else can run it without me. First fix I try?"
+    back: "Hand the baton to two juniors."
+  - front: "Writing exit docs at midnight instead of coaching someone all year. What comes first?"
+    back: "Coach the person before the docs."
+  - front: "Team still asks only me - brand feels personal. One check before I take the next call?"
+    back: "Can they finish this without me?"
+  - front: "Mentoring a junior hard, never saying they own the work after me. What's missing?"
+    back: "Say the charge out loud."
+  - front: "Handing off my role feels like what qualifies me for heaven. Wrong order?"
+    back: "Already saved by faith - the baton is fruit."
 draft: false
 ---

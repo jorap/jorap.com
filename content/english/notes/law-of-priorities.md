@@ -50,5 +50,20 @@ author: "JoRap"
 tags: ["Faith", "Leadership", "Bible", "Discipleship"]
 aliases: ["law of priorities", "the law of priorities"]
 featured: false
+review: true
+card_sets: ["Eternal Principles", "Discipleship"]
+cards:
+  - front: "Fifty Slack pings answered - sermon draft still untouched. What comes first?"
+    back: "Kingdom work before the ping pile."
+  - front: "Hand on inbox before I listed today's top three. What's the move?"
+    back: "Write top three first - then open."
+  - front: "Kitchen frenzy of tasks all morning - no numbered order. One filter?"
+    back: "Keep what matters - cut mere motion."
+  - front: "Calendar filled before I opened Scripture. What comes first?"
+    back: "Scripture or prayer before the calendar."
+  - front: "Busy all day - nothing fruit-bearing finished. Recovery move tonight?"
+    back: "Cut motion - name one that matters."
+  - front: "Sorting my day feels like what earns me eternal life. Wrong order?"
+    back: "Faith saves - order guides the walk."
 draft: false
 ---

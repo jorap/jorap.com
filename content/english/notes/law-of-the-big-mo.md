@@ -50,5 +50,20 @@ author: "JoRap"
 tags: ["Faith", "Leadership", "Bible", "Discipleship"]
 aliases: ["law of big mo", "the law of big mo"]
 featured: false
+review: true
+card_sets: ["Eternal Principles", "Discipleship"]
+cards:
+  - front: "Three quick wins this month and I'm tempted to coast through March. What's the move?"
+    back: "Protect the next two wins - don't coast."
+  - front: "Streak is hot but I'm half-finishing the follow-through. First fix?"
+    back: "Finish the streak - empty the last push."
+  - front: "Winning streak feels like God owes me heaven now. What's the actual order?"
+    back: "Faith already saved - protect wins as fruit."
+  - front: "Celebrating the ship while the backlog starts to swell again. What comes first?"
+    back: "Lock the next small win today."
+  - front: "I stopped at good enough when one more push would clear the path. Recovery move?"
+    back: "Take the unfinished swing now."
+  - front: "Bored after the streak - urge to reinvent instead of ride it. One check?"
+    back: "Protect the streak - don't restart from boredom."
 draft: false
 ---

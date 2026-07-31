@@ -46,5 +46,20 @@ author: "JoRap"
 tags: ["Faith", "Leadership", "Bible", "Discipleship"]
 aliases: ["law of addition", "the law of addition"]
 featured: false
+review: true
+card_sets: ["Eternal Principles", "Discipleship"]
+cards:
+  - front: "Junior wants the easier shift and I'm eyeing the same slot. One move before I grab it?"
+    back: "Let them pick first - serve before credit."
+  - front: "Promotion fight brewing - I could absorb a cost so someone else wins. What do I give away?"
+    back: "One real cost - add value off the stage."
+  - front: "Tempted to serve only while the camera is on. Where do I actually serve?"
+    back: "Off-camera - when nobody's watching."
+  - front: "Team is blocked and I could silently unblock them. First move?"
+    back: "Unblock them before I claim credit."
+  - front: "Keeping the better assignment feels safer for my name. What comes first?"
+    back: "Give the advantage away."
+  - front: "Serving well feels like what qualifies me for heaven. What's the actual order?"
+    back: "Faith in Christ saves. Serving guides life after."
 draft: false
 ---

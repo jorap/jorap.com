@@ -50,5 +50,20 @@ author: "JoRap"
 tags: ["Faith", "Leadership", "Bible", "Discipleship"]
 aliases: ["law of magnetism", "the law of magnetism"]
 featured: false
+review: true
+card_sets: ["Eternal Principles", "Discipleship"]
+cards:
+  - front: "After a week of venting, complainers keep circling my desk. What's the real pull?"
+    back: "Audit my tone - I drew them."
+  - front: "Want better people on the team while I keep the same bitter habits. First fix I try?"
+    back: "Change me before I recruit them."
+  - front: "Stressful season ended - same drama gravitates toward me again. One check?"
+    back: "Who showed up - what did I model?"
+  - front: "About to hire someone 'like me' when 'me' this month was cynical. What's the move?"
+    back: "Pause the hire - fix the magnet."
+  - front: "Gossip circle at church keeps inviting me back. Where do I actually stop?"
+    back: "Leave the orbit - change my pull."
+  - front: "Character clean-up feels like what earns me eternal life. Wrong order?"
+    back: "Faith saves - character shapes who I attract."
 draft: false
 ---

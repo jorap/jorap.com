@@ -95,9 +95,9 @@ def append_flashcard_hint_question(front: str, back: str) -> str:
 
 
 LEVEL_KEYS = ("level_1", "level_2", "level_3", "level_4", "level_5")
+LEVEL_LABELS = ("Recognize", "Explain", "Use", "Connect", "Create")
 LEVEL_BULLET_RE = re.compile(r"^(\s*)-\s*Level\s+([1-5]):\s*(.*)$", re.I)
 LEVEL_PREFIX_RE = re.compile(r"^Level\s+[1-5]:\s*", re.I)
-FIRST_BULLET_RE = re.compile(r"^\s*-\s+\S")
 
 FM_ORDER = (
     "note_kind",
@@ -171,39 +171,34 @@ def extract_levels_from_key_concept(kc: str) -> tuple[str, dict[str, str]]:
     return text, levels
 
 
-def inject_level_bullets(kc: str, level_lines: list[str]) -> str:
-    """Insert Level bullets after the first markdown bullet in key_concept."""
-    if not level_lines:
+def append_level_headings(kc: str, level_blocks: list[str]) -> str:
+    """Append Level 1-5 H3 sections at the end of key_concept markdown."""
+    if not level_blocks:
         return kc.strip()
-    lines = kc.splitlines() if kc else []
-    out: list[str] = []
-    inserted = False
-    for line in lines:
-        out.append(line)
-        if not inserted and FIRST_BULLET_RE.match(line):
-            out.extend(level_lines)
-            inserted = True
-    if not inserted:
-        if out and out[-1].strip():
-            out.append("")
-        out.extend(level_lines)
-    return "\n".join(out).strip()
+    levels_md = "\n\n".join(level_blocks)
+    kc_text = kc.strip()
+    if not kc_text:
+        return levels_md
+    return f"{kc_text}\n\n{levels_md}"
 
 
 def format_key_concept_section(fm: dict[str, Any]) -> str:
     """Build Key Concept markdown from key_concept + level_1..level_5."""
     kc = fm.get("key_concept")
     kc_text = kc.strip() if isinstance(kc, str) else ""
-    level_lines: list[str] = []
+    level_blocks: list[str] = []
     has_fields = False
     for i, key in enumerate(LEVEL_KEYS, start=1):
         val = fm.get(key)
         if isinstance(val, str) and val.strip():
             has_fields = True
-            level_lines.append(f"- Level {i}: {strip_level_prefix(val, i)}")
+            label = LEVEL_LABELS[i - 1]
+            level_blocks.append(
+                f"### Level {i} - {label}\n\n{strip_level_prefix(val, i)}"
+            )
     if has_fields:
         kc_text, _ = extract_levels_from_key_concept(kc_text)
-        return inject_level_bullets(kc_text, level_lines)
+        return append_level_headings(kc_text, level_blocks)
     return kc_text
 
 
@@ -808,10 +803,15 @@ def _self_check() -> None:
             "level_5": "Generative text.",
         }
     )
-    assert assembled.splitlines()[0] == "- Claim punch."
-    assert assembled.splitlines()[1] == "- Level 1: Definition text."
-    assert assembled.splitlines()[5] == "- Level 5: Generative text."
-    assert assembled.splitlines()[6] == "- Stack bullet."
+    lines = assembled.splitlines()
+    assert lines[0] == "- Claim punch."
+    assert lines[1] == "- Stack bullet."
+    assert lines[2] == ""
+    assert lines[3] == "### Level 1 - Recognize"
+    assert lines[4] == ""
+    assert lines[5] == "Definition text."
+    assert "### Level 5 - Create" in lines
+    assert lines[-1] == "Generative text."
     assert strip_level_prefix("Level 3: Application text.", 3) == "Application text."
 
 

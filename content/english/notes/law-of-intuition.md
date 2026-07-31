@@ -51,5 +51,20 @@ author: "JoRap"
 tags: ["Faith", "Leadership", "Bible", "Discipleship"]
 aliases: ["law of intuition", "the law of intuition"]
 featured: false
+review: true
+card_sets: ["Eternal Principles", "Discipleship"]
+cards:
+  - front: "Meeting tone just shifted and the agenda is still rolling. First move?"
+    back: "Pause - name what I sense out loud."
+  - front: "Room feels toxic and nobody names it. One check before we continue?"
+    back: "Call a break - surface the miss."
+  - front: "Gut says this path is wrong while the slide looks fine. What am I missing in the room?"
+    back: "Who moves, what breaks, what window opens."
+  - front: "About to rubber-stamp the plan. One read before I approve?"
+    back: "Who gets hurt if this lands wrong?"
+  - front: "Team flinches at the new person and the resume looks fine. What am I reading past the paper?"
+    back: "Potential others miss - vouch if it's real."
+  - front: "Trusting my gut like it's magic tonight. Where do I actually stop?"
+    back: "Pattern under pressure - still check the map."
 draft: false
 ---

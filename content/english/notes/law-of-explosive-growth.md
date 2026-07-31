@@ -49,5 +49,20 @@ author: "JoRap"
 tags: ["Faith", "Leadership", "Bible", "Discipleship"]
 aliases: ["law of explosive growth", "the law of explosive growth"]
 featured: false
+review: true
+card_sets: ["Eternal Principles", "Discipleship"]
+cards:
+  - front: "Headcount is up and I'm still the only teacher. First fix I try?"
+    back: "Teach one person the full playbook this quarter."
+  - front: "Mentoring keeps turning into task dumps. What's missing?"
+    back: "Judgment calls they'll need when I'm gone."
+  - front: "Tempted to hire more doers instead of raising people who can lead. One check?"
+    back: "Multiply teachers - not only headcount."
+  - front: "Two people are ready to lead others and I'm still the bottleneck. One move this week?"
+    back: "Have each mentor someone else."
+  - front: "Growth stalled at my calendar again. What changes the math?"
+    back: "Train trainers - leaders who raise leaders."
+  - front: "Raising leaders feels like climbing toward heaven. What's the actual order?"
+    back: "Faith in Christ saves. Multiplication is fruit after."
 draft: false
 ---

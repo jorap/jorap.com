@@ -49,5 +49,20 @@ author: "JoRap"
 tags: ["Faith", "Leadership", "Bible", "Discipleship"]
 aliases: ["law of buy-in", "the law of buy-in"]
 featured: false
+review: true
+card_sets: ["Eternal Principles", "Discipleship"]
+cards:
+  - front: "Slide deck is ready but the room hasn't seen me carry load yet. What comes first?"
+    back: "Carry load first - trust before the pitch."
+  - front: "Reorg plan looks perfect on paper and trust is thin. One check before I present?"
+    back: "Have they seen me bleed for this?"
+  - front: "Excited about the vision while faces stay blank. What's missing?"
+    back: "Earn trust before I share the plan."
+  - front: "About to email the roadmap cold to people who barely know me. What comes before the map?"
+    back: "Prove I'm worth following - then share."
+  - front: "Last pitch flopped and I'm drafting another vision email. First move?"
+    back: "Show up under load before another pitch."
+  - front: "Getting people to follow my plan feels like proof I'm right with God. What's the actual order?"
+    back: "Faith in Christ saves. Trust-building guides life after."
 draft: false
 ---
