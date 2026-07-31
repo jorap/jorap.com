@@ -36,10 +36,12 @@ const unixLauncherSource = `#!/usr/bin/env node
 import "./tailwindcss-shim.mjs";
 `;
 
-const winCmdSource = `@ECHO off
-REM ${SHIM_MARKER}
-node "%~dp0tailwindcss-shim.mjs" %*
-`;
+// cmd.exe expects CRLF; LF-only batch files can misparse at 512-byte boundaries.
+const winCmdSource = [
+  "@ECHO off",
+  `REM ${SHIM_MARKER}`,
+  'node "%~dp0tailwindcss-shim.mjs" %*',
+].join("\r\n") + "\r\n";
 
 const winPs1Source = `#!/usr/bin/env pwsh
 # ${SHIM_MARKER}
@@ -121,6 +123,9 @@ function selfCheck() {
 
   if (!shimMjsSource.includes("pathToFileURL(cliEntry)")) {
     failures.push("shim must import CLI via file URL");
+  }
+  if (!winCmdSource.includes("\r\n")) {
+    failures.push("winCmdSource must use CRLF line endings");
   }
 
   if (failures.length) {

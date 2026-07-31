@@ -114,8 +114,30 @@ Use **PowerShell**, **cmd**, or **Git Bash**. Scripts resolve Python as `python`
 
 **Windows notes**
 
-- No symlink or Developer Mode setup required — `postinstall` writes a Tailwind shim (`scripts/fix-tailwind-bin.js`).
-- First production preview may download wrangler via `npx` when you run `pnpm run serve`.
+- **Put the toolchain on PATH first** — local builds do **not** auto-download Hugo (`scripts/ensureHugo.mjs` only fetches Hugo in CI). If `hugo`, `node`, `pnpm`, or `python` is “not recognized”, finish `mise install` (or manual installs above) and open a **new terminal** in the repo. Confirm `%LOCALAPPDATA%\mise\shims` is on PATH if you use mise.
+- **No symlink or Developer Mode setup** — `postinstall` writes a Tailwind shim (`scripts/fix-tailwind-bin.js`) including a CRLF `tailwindcss.cmd` for cmd.exe.
+- **No `.npmrc` needed** — the shim replaces pnpm’s shell wrappers. `pnpm run deploy` also runs the fix before Hugo starts.
+- **Do not skip postinstall** — `pnpm install --ignore-scripts` skips the Tailwind shim. Run `node scripts/fix-tailwind-bin.js` before building, or reinstall without `--ignore-scripts`.
+
+Verify in PowerShell (same checks as step 4):
+
+```powershell
+hugo version    # must include "extended" and v0.163.x
+node -v
+pnpm -v
+py -3 --version
+go version
+node scripts/fix-tailwind-bin.js --self-check
+pnpm run deploy
+```
+
+| Symptom | Fix |
+|---------|-----|
+| `hugo` / `pnpm` / `python` not recognized | Install tools (mise recommended); restart the terminal |
+| `binary "tailwindcss" is not a Node.js script` | `pnpm install` or `node scripts/fix-tailwind-bin.js` |
+| Hugo version mismatch on local build | `mise install`, or install the pinned version from [`scripts/deploy-versions.json`](scripts/deploy-versions.json) |
+
+First production preview may download wrangler via `npx` when you run `pnpm run serve`.
 
 </details>
 
@@ -186,7 +208,7 @@ CMS OAuth locally: copy [`.dev.vars.example`](.dev.vars.example) → `.dev.vars`
 | Toolchain versions | [mise](https://mise.jdx.dev/) + [`.mise.toml`](.mise.toml), or manual installs per table above |
 | Python scripts | `node scripts/runPython.mjs` — tries `python3`, `python`, then Windows `py -3`; set `PYTHON` to override |
 | Local binaries | `spawnUtil.mjs` resolves `node_modules/.bin` (`.cmd` / `.ps1` on Windows) |
-| Tailwind + Hugo + pnpm | `postinstall` writes `tailwindcss-shim.mjs` (no symlinks) |
+| Tailwind + Hugo + pnpm | `postinstall` and `deployBuild.mjs` write `tailwindcss-shim.mjs` + CRLF `.cmd` on Windows (no symlinks, no `.npmrc`) |
 | Git hooks | `pnpm setup:hooks` — pure Node |
 | Safe filenames | `pnpm lint:filenames` / `pnpm test:filenames` — pure Node |
 
