@@ -642,8 +642,6 @@ Champions get the section above. These are the top-20 fixtures that haven't happ
 
 - **2026 Berlin (Grass)** - Quarterfinals, WIN, 6-3, 6-4 | [wtatennis.com](https://www.wtatennis.com/tournaments/2012/berlin/2026/scores/LS007) | [tennis.com](https://www.tennis.com/tournaments/vanda-pharmaceuticals-berlin-tennis-open/matches/e-svitolina-vs-a-eala-2026-06-19)
 
-{{< youtube 6djWGxG7a8E >}}
-
 {{< youtube AdoeRVzt6FQ >}}
 
 ---
