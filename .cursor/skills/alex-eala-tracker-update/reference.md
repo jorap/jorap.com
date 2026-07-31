@@ -59,12 +59,15 @@ Confirm tier on the WTA tournament page before adding or correcting an entry.
 
 **Always list Eala's games first** in every set and match tiebreak - wins and losses, singles and doubles.
 
-- Win: `d. Opponent 6-3, 6-4` (Eala's games left of the hyphen in each set)
-- Loss: `l. Opponent 2-6, 4-6` - not the winner's `6-2, 6-4`
-- Split sets: `l. Opponent 6-3, 4-6, 2-6` (Eala won set 1, lost sets 2–3)
+**Opponent names:** first + last on every `d.`/`l.` line and doubles pair. Examples below use full names - never shorten to surname only on result lines.
+
+- Win: `d. Leylah Fernandez 6-3, 6-4` (Eala's games left of the hyphen in each set)
+- Loss: `l. Linda Noskova 2-6, 4-6` - not the winner's `6-2, 6-4`
+- Split sets: `l. Jasmine Paolini 6-3, 4-6, 2-6` (Eala won set 1, lost sets 2–3)
+- Doubles pair: `l. Jasmine Paolini/Sara Errani 7-5, 3-6, 7-10`
 - Match tiebreak (doubles): Eala's points first - `7-5, 3-6, 7-10` not `10-7`
 - Retirements: score at stoppage from Eala's side - `6-4, 0-1 ret.`
-- Walkovers (Best Performances only): `d. Opponent w/o` or `l. Opponent w/o` - no set scores; include match links
+- Walkovers (Best Performances only): `d. Paula Badosa w/o` or `l. Opponent w/o` - full name, no set scores; include match links
 - Tiebreak notation unchanged: `7-6(5)` means Eala 7 games, opponent 6, TB 5–7
 
 When copying from WTA or tennis.com, flip any set or super-tiebreak segment that lists the opponent first.
@@ -84,9 +87,8 @@ A **walkover** (`w/o`, opponent withdrew before the match was played) is **not a
 ### Tournament result (singles)
 
 ```markdown
-  - **Dubai (WTA 1000)** - Quarterfinals | [wtatennis.com](https://...) | [tennis.com](https://...)
-
-{{< youtube VIDEO_ID >}}
+  - **Dubai (WTA 1000)** - Quarterfinals, l. Coco Gauff 0-6, 2-6 | [wtatennis.com](https://...) | [tennis.com](https://...)
+    - Round of 16, d. Sorana Cîrstea 7-5, 6-4 | [wtatennis.com](https://...) | [tennis.com](https://...)
 ```
 
 Embed at most **two** videos for opponents **not** in either H2H section (last two such matches in the run). Omit embeds when deep rounds were all vs H2H opponents.
@@ -94,7 +96,7 @@ Embed at most **two** videos for opponents **not** in either H2H section (last t
 Title run:
 
 ```markdown
-  - **Birmingham (WTA 125)** - Winner | [wtatennis.com](https://...) | [tennis.com](https://...)
+  - **Birmingham (WTA 125)** - Winner, d. Nikola Bartunkova 5-7, 6-3, 7-5 | [wtatennis.com](https://...) | [tennis.com](https://...)
     - Second Career WTA Win
     - First career title on grass
 

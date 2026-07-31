@@ -26,6 +26,7 @@ Match the author's voice: first-person Filipino fan, proud but factual. Preserve
 | Watch-list additions or suggestions | [Watch-list workflow](#watch-list-workflow) |
 | Link order / format fixes | [Link format rules](#link-format-rules) |
 | Tournament name cleanup | [Tournament naming rules](#tournament-naming-rules) |
+| Opponent full names on result lines | [Opponent naming rules](#opponent-naming-rules) |
 | At a glance / summary refresh | [At a glance workflow](#at-a-glance-workflow) |
 | Grand Slam Champions re-sort | [Grand Slam Champions sort](#grand-slam-champions-sort) |
 | Top 20 opponent wins a Slam | [Slam-winner promotion workflow](#slam-winner-promotion-workflow) |
@@ -125,6 +126,7 @@ Section: **Best Performances in WTA Tournaments**
 - Prefer dual links when both exist: `[wtatennis.com](url) | [tennis.com](url)` (WTA first, then tennis.com)
 - **Exit-round rule:** the main tournament line must link to the **deepest round played** (the loss or title match). Earlier rounds go on sub-bullets - never point the exit line at an earlier-round opponent.
 - **Score format:** always list Eala's games first in every set and match tiebreak - wins and losses. Flip opponent-first scores from WTA/tennis.com. See [reference.md](reference.md#score-format).
+- **Opponent names:** use each opponent's **full name** (first + last) on every result line - `d. Leylah Fernandez 6-2, 7-6(1)`, not `d. Fernandez …`. Doubles pairs: `First Last/First Last` (e.g. `Jasmine Paolini/Sara Errani`). Match WTA profile spelling (accents OK: Donna Vekić, Sorana Cîrstea). See [Opponent naming rules](#opponent-naming-rules).
 - Add milestone sub-bullets only for firsts (e.g. first WTA title, first Filipina to reach X)
 - **Doubles:** exit round gets `| [wtatennis.com](url)` on the main line; earlier rounds as `Round | [wtatennis.com](url)` sub-bullets. Add `(with Partner Name)` on every doubles tournament line.
 - **Walkovers:** list in **Best Performances** only - `Round, d./l. Opponent w/o |` match links; no set scores. Still excluded from H2H (see [Walkovers](#walkovers)).
@@ -161,6 +163,17 @@ Tournament display names must be **brand-free** and **tier-labeled**.
 **At a glance / title shorthand:** compact form is OK - e.g. `Guadalajara 125`, `Birmingham 125` (city + tier number, no brand).
 
 **Tier lookup:** confirm category on the tournament's WTA page (`wta125`, `wta250`, `wta500`, `wta1000` in URL or event header). When promoting or correcting existing entries, fix branded names to match this table.
+
+#### Opponent naming rules
+
+Every **result line** in **Grand Slam Main Draw Results**, **Best Performances**, and walkover sub-bullets must name opponents in full:
+
+- **Singles:** `Round, d. First Last score` or `Round, l. First Last score` - never surname only (`d. Paolini`, `l. Swiatek`).
+- **Doubles:** `First Last/First Last` for each pair - never `Paolini/Errani`, `Harrison/Osborne`.
+- **Walkovers:** `d. Paula Badosa w/o` - full name before `w/o`.
+- **Spelling:** copy from the opponent's WTA profile. Keep diacritics when WTA uses them (`Donna Vekić`, `Sorana Cîrstea`, `Zeynep Sönmez`). Normalize `Świątek` to `Iga Swiatek` for consistency with her `###` block.
+- **H2H `###` headers** and **Matches to Watch Out For** links already use full names - do not shorten those either.
+- **Prose** (intro notes, milestone bullets) may use surname alone when it reads naturally (`Swiatek on Centre Court`) - result lines never do.
 
 ### Step 4 - Grand Slam results
 
@@ -243,6 +256,7 @@ Apply in this order. A `VIDEO_ID` lives in **one** section only - higher-priorit
 - No duplicate `VIDEO_ID` across sections (H2H wins over Best Performances and Grand Slam)
 - Exit-round tournament links point to the deepest round played
 - Scores list Eala's games first in every set and match tiebreak
+- Opponent names on result lines use **full names** (singles and doubles pairs) - see [Opponent naming rules](#opponent-naming-rules)
 - Tournament names are **brand-free** and include `(WTA 125|250|500|1000)` on every WTA tour line; Grand Slams use the four major names only
 - H2H match lines use brand-free tournament names
 - Every H2H `###` block in **Grand Slam Champions** and **Other Top 20** has **Career High Singles** after the H2H link (WTA-verified)
