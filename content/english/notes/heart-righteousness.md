@@ -45,6 +45,9 @@ relationships:
   - type: extends
     wikilink: "[[Renewed Mind]]"
     reason: "Inner standard starts where mind renewal reaches motive"
+  - type: extends
+    wikilink: "[[Repent and Believe]]"
+    reason: "Turning starts at the motive, where only God looks"
 slug: "heart-righteousness"
 date: "2026-06-19 10:00:00+00:00"
 image: "/images/note.jpg"

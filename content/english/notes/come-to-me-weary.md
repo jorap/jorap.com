@@ -31,6 +31,9 @@ relationships:
     wikilink: "[[Ship It]]"
     reason: "when grind push beats admitting weary"
   - type: extends
+    wikilink: "[[Energy Protects Judgment]]"
+    reason: "Rest guards the calls; His yoke guards the weary"
+  - type: extends
     wikilink: "[[Free Grace]]"
     reason: "Rest is care from the Savior - not merit pay"
   - type: extends

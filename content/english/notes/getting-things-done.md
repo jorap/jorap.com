@@ -6,7 +6,7 @@ key_concept: |
   - Open loops belong on paper, not rehearsing in my head at 2am.
   - GTD vs PARA splits tasks from notes; Allen owns the task side.
   - Tasks and notes live in separate systems - capture and weekly review own the task lane.
-  - Allen's task-inbox system: capture everything, clarify next actions, trust the weekly review.
+  - Allen's task-inbox system: [[Capture]] everything, clarify next actions, trust the weekly review.
 level_1: "Getting Things Done captures open loops on paper, clarifies next actions, organizes, and reviews weekly - trust returns when tasks leave your head."
 level_2: "Like plumbing for open loops - capture, clarify, organize, review so you stop rehearsing the same worry at 2am."
 level_3: "Capture everything on your mind today, clarify the next action for each item, and schedule weekly review."

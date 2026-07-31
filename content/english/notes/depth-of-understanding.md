@@ -13,7 +13,7 @@ level_3: "Before you teach or file a note, name which rung you are on - define-a
 level_4: "Depth is per idea - a professor can sit at Level 1 on crypto while a teen ships at Level 5; flashcard recall can mimic depth without Application or Systems."
 level_5: "Write level_1 through level_5 on each garden claim, then practice until you create or extend from the idea - [[The Feynman Technique]] only stress-tests the first two rungs."
 examples:
-  - "I could define open source at dinner but had never deployed it - I was at Explanation, not Application."
+  - "I could define [[Open Source]] at dinner but had never deployed it - I was at Explanation, not Application."
   - "Shipped a Hugo theme fork and only then saw how maintenance and security change when the repo is public - Systems clicked after Generative work."
 shareable_thought:
   - "Atomic ideas climb five depths - not three education tiers."
@@ -26,13 +26,16 @@ relationships:
     reason: "when flashcard recall mimics depth without Application or Systems"
   - type: extends
     wikilink: "[[Active Reading]]"
-    reason: "Layered reading feeds higher levels after capture"
+    reason: "Reading with a pen feeds higher levels after capture"
   - type: extends
     wikilink: "[[Atomic Notes]]"
     reason: "One claim per note - each note's five levels map depth on that single idea"
   - type: extends
     wikilink: "[[Deliberate Practice]]"
     reason: "Train the level where you stall - not the rung you already own"
+  - type: extends
+    wikilink: "[[Layered Reading]]"
+    reason: "Each pass through the same source buys the next rung"
   - type: extends
     wikilink: "[[The Feynman Technique]]"
     reason: "Plain teach-back is the honesty check at Definition and Explanation"

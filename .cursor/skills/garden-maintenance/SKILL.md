@@ -30,6 +30,8 @@ Plain-text issues also ship at `/notes/issues/index.txt` after build (same as **
 
 Cap at **15 issues** per pass unless the user asks for a full sweep. Use garden-voice skill on note edits.
 
+New `relationships` rows sort by `(type, wikilink)` lowercased **including the brackets** - a space beats `]`, so `[[Leadership Is Influence]]` sits before `[[Leadership]]`. Hand-place carefully or run `python3 scripts/sync-note-relationships.py`; `normalize-notes-format.py --verify` fails on unsorted rows.
+
 ## 3. Encode
 
 After the pass, if the same correction happened twice in one session, patch the relevant skill or `.cursor/rules/` file (see `self-improvement.mdc`). Log intentional deferrals with `ponytail:` comments.

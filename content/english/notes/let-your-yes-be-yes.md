@@ -30,6 +30,9 @@ relationships:
     wikilink: "[[Atomic Notes]]"
     reason: "One plain yes per claim - atomic notes carry the same rule"
   - type: extends
+    wikilink: "[[Complete the Cycle]]"
+    reason: "A plain yes only counts when the follow-through lands"
+  - type: extends
     wikilink: "[[Heart Righteousness]]"
     reason: "Integrity starts in the heart - yes means yes inside first"
   - type: extends

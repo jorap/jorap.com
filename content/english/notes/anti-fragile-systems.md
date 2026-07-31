@@ -10,7 +10,7 @@ key_concept: |
 level_1: "Anti-fragile note systems survive app shutdowns - plain files, open formats, and backups you actually test."
 level_2: "Like saving a drawing as a plain picture any computer opens - open formats outlast vendor lock-in when the company shuts down."
 level_3: "Export to plain text or markdown quarterly and open the backup file once - if you cannot read it, the system is not anti-fragile yet."
-level_4: "Boring files trade app-only features for portability; backups help only when another tool can open them, and recovery drills expose that limit before a shutdown."
+level_4: "Boring files trade app-only features for portability; backups help only when another tool can open them, and restore drills expose that limit before a shutdown."
 level_5: "Build a migration drill that exports the notes, opens them outside the main app, records what broke, and strengthens the next backup."
 examples:
   - "When the gym's booking app shut down for good, my paper training log still had every set - I photocopy it once a quarter so I am not rebuilding history from memory."

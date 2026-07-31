@@ -55,6 +55,9 @@ relationships:
     wikilink: "[[Leadership Is Influence]]"
     reason: "Unblock and serve - trust deposits that buy real followership"
   - type: extends
+    wikilink: "[[Leadership]]"
+    reason: "Direction and pace still need someone serving underneath them"
+  - type: extends
     wikilink: "[[Life Before Achievement]]"
     reason: "The leader who serves holds the safety line when the room wants spectacle"
   - type: extends

@@ -29,6 +29,9 @@ relationships:
   - type: extends
     wikilink: "[[CODE Method]]"
     reason: "Capture-Organize-Distill-Express loop in motion"
+  - type: extends
+    wikilink: "[[Complete the Cycle]]"
+    reason: "Express weekly is the step that closes the loop"
   - type: implements
     wikilink: "[[Building a Second Brain]]"
     reason: "Carries it out in practice"

@@ -4,7 +4,7 @@ meta_title: "Community Depth - Bench Beats Logo"
 description: "Thick communities save weeks on fixes and hiring; thin open-source benches cost evenings with no backup."
 key_concept: |
   - I pick the open tool with the deeper bench - not the prettier logo.
-  - Because open source gives choice, market and maintenance depth should beat architecture diagrams.
+  - Because [[Open Source]] gives choice, market and maintenance depth should beat architecture diagrams.
   - Plugins, themes, job posts, and Stack Overflow threads from last month.
   - Teaching seminars I pointed students at stacks employers actually hire for - WordPress listings were everywhere, niche CMS cred did not pay rent.
   - AI coding assistants lean on public repos and familiar file layouts - familiar in 2026 often means open source with a thick thread archive.

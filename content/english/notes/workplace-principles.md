@@ -72,6 +72,7 @@ draft: false
 - [[Sharpen Each Other's Work]] - peer review that sharpens the draft, not the ego
 - [[People-Centered Design]] - real human needs first or the change won't stick
 - [[Shadow the Work]] - watch one person do the real job before you redraw the process
+- [[Process Mapping]] - draw the handoffs you watched, not the clean version on the slide
 - [[Share What You Learn]] - pass on what you know; don't hoard knowledge like private bookmarks
 - [[Integrity Without an Audience]] - do the honest work when there's no audience in the room
 - [[Success is Stewardship]] - promotion and platform are borrowed - use them for the team, not ego

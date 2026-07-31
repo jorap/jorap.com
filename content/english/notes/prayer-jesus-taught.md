@@ -57,6 +57,7 @@ draft: false
 The disciples asked Him to teach them (Luke 11:1). He gave them words and a rhythm.
 
 - [[Ask Seek Knock]] - Lord's Prayer order (Matthew 6:9-13; Luke 11:2-4); ask, seek, knock (Matthew 7:7-11; Luke 11:9-13)
+- [[Trust God for Today]] - daily bread is today's portion (Matthew 6:11), not tomorrow's stockpile
 - Luke 11:5-8 - friend at midnight; keep asking
 - Luke 18:1-8 - persistent widow; pray and do not lose heart
 

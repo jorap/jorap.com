@@ -26,12 +26,12 @@ shareable_thought:
   - "The law of addition is that leaders add value by serving others - giving away advantage can become the blessing lane."
   - "Abram let Lot pick first - generosity added peace, not loss; Jesus redefined greatness as service."
 relationships:
+  - type: contradicts
+    wikilink: "[[Discipleship vs Leadership]]"
+    reason: "when horizontal technique substitutes for upward allegiance"
   - type: extends
     wikilink: "[[21 Laws of Leadership in the Bible]]"
     reason: "Lesson 5 in the Bible leadership law series"
-  - type: extends
-    wikilink: "[[Discipleship vs Leadership]]"
-    reason: "Serve the room without swapping the upward seat"
   - type: extends
     wikilink: "[[Humility and Service]]"
     reason: "Abram, Jesus, Paul - greatness bends down to serve"
