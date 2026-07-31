@@ -7,7 +7,7 @@ key_concept: |
   - Level 1: Abram let Lot pick first - generosity added peace, not loss.
   - Level 2: Jesus redefined greatness as service. Paul told Philippi to put others first like Christ.
   - Level 3: [[Humility and Service]] and [[Servant Leadership]] are the same move in faith and workplace lanes.
-  - Hub: [[21 Laws of Leadership in the Bible]] - lesson 5 of twenty-one Bible leadership laws.
+  - Hub: [[21 Laws of Leadership in the Bible]] - lesson 5 of twenty-one Bible laws; horizontal frame in [[Leadership]].
   
   {{< bible ref="Genesis 13:1-12" >}}
   - **Abram Took the High Road** - Let Lot choose the well-watered plain - Abram trusted God with the leftovers.
@@ -24,6 +24,9 @@ shareable_thought:
   - "Level 1: Abram let Lot pick first - generosity added peace, not loss."
   - "Level 2: Jesus redefined greatness as service. Paul told Philippi to put others first like Christ."
 relationships:
+  - type: contradicts
+    wikilink: "[[Discipleship vs Leadership]]"
+    reason: "when horizontal technique substitutes for upward allegiance"
   - type: extends
     wikilink: "[[21 Laws of Leadership in the Bible]]"
     reason: "Lesson 5 in the Bible leadership law series"

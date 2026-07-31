@@ -7,14 +7,14 @@ key_concept: |
   - Level 1: Jesus named heart over hand-washing theater - priority was inner cleanliness.
   - Level 2: Mary chose the good portion; Martha hustled plates. Apostles appointed servers so word ministry stayed central.
   - Level 3: [[Seek the Kingdom First]] is the faith filter - kingdom before inbox.
-  - Hub: [[21 Laws of Leadership in the Bible]] - lesson 17 of twenty-one Bible leadership laws.
+  - Hub: [[21 Laws of Leadership in the Bible]] - lesson 17 of twenty-one Bible laws; horizontal frame in [[Leadership]].
   
   {{< bible ref="Matthew 15:1-20" >}}
   - **What Comes First?** - Tradition vs heart - what defiles comes from inside, not unwashed hands.
   {{< bible ref="Luke 10:38-42" >}}
   - **Two Sisters - Two Perspectives** - Mary sat at Jesus' feet - good portion chosen over kitchen frenzy.
   {{< bible ref="Acts 6:1-7" >}}
-  - **The Requirement, Return, and Reward of the Twelve** - Seven appointed to tables so apostles stayed on prayer and word.
+  - **Acts 6 - Tables Served, Word Ministry Central** - Seven appointed to tables so [[Invest in the Few]] stayed on prayer and word.
 examples:
   - "I answered fifty Slack pings and never touched the sermon draft - activity masqueraded as accomplishment."
   - "Martha's kitchen was loud; Mary's chair was the priority Jesus named."
@@ -24,6 +24,9 @@ shareable_thought:
   - "Level 1: Jesus named heart over hand-washing theater - priority was inner cleanliness."
   - "Level 2: Mary chose the good portion; Martha hustled plates. Apostles appointed servers so word ministry stayed central."
 relationships:
+  - type: contradicts
+    wikilink: "[[Discipleship vs Leadership]]"
+    reason: "when horizontal technique substitutes for upward allegiance"
   - type: extends
     wikilink: "[[21 Laws of Leadership in the Bible]]"
     reason: "Lesson 17 in the Bible leadership law series"

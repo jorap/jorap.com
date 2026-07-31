@@ -7,7 +7,7 @@ key_concept: |
   - Level 1: Solomon warned pride goes before a fall - solid ground is humble integrity.
   - Level 2: Jesus exposed whitewashed tombs. Peter told elders to shepherd willingly, not for shameful gain.
   - Level 3: [[Integrity]] and [[By Their Fruits]] are how you audit whether the ground holds.
-  - Hub: [[21 Laws of Leadership in the Bible]] - lesson 6 of twenty-one Bible leadership laws.
+  - Hub: [[21 Laws of Leadership in the Bible]] - lesson 6 of twenty-one Bible laws; horizontal frame in [[Leadership]].
   
   {{< bible ref="Proverbs 16:8-18" >}}
   - **The Wisdom of King Solomon** - Better little with righteousness than great gain with injustice - pride precedes ruin.
@@ -24,6 +24,9 @@ shareable_thought:
   - "Level 1: Solomon warned pride goes before a fall - solid ground is humble integrity."
   - "Level 2: Jesus exposed whitewashed tombs. Peter told elders to shepherd willingly, not for shameful gain."
 relationships:
+  - type: contradicts
+    wikilink: "[[Discipleship vs Leadership]]"
+    reason: "when horizontal technique substitutes for upward allegiance"
   - type: extends
     wikilink: "[[21 Laws of Leadership in the Bible]]"
     reason: "Lesson 6 in the Bible leadership law series"

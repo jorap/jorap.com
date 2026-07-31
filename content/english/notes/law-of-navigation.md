@@ -7,7 +7,7 @@ key_concept: |
   - Level 1: Joshua laid an ambush plan before Ai - not random courage, plotted navigation.
   - Level 2: Nehemiah paired rebuild with weapons. Jesus told builders to count cost before breaking ground.
   - Level 3: [[Count the Cost]] is the gospel navigation move - honest map before public yes.
-  - Hub: [[21 Laws of Leadership in the Bible]] - lesson 4 of twenty-one Bible leadership laws.
+  - Hub: [[21 Laws of Leadership in the Bible]] - lesson 4 of twenty-one Bible laws; horizontal frame in [[Leadership]].
   
   {{< bible ref="Joshua 8:1-19" >}}
   - **Joshua's Plan of Attack** - Ambush at Ai after defeat - second attempt followed a plotted course.
@@ -24,6 +24,9 @@ shareable_thought:
   - "Level 1: Joshua laid an ambush plan before Ai - not random courage, plotted navigation."
   - "Level 2: Nehemiah paired rebuild with weapons. Jesus told builders to count cost before breaking ground."
 relationships:
+  - type: contradicts
+    wikilink: "[[Discipleship vs Leadership]]"
+    reason: "when horizontal technique substitutes for upward allegiance"
   - type: extends
     wikilink: "[[21 Laws of Leadership in the Bible]]"
     reason: "Lesson 4 in the Bible leadership law series"

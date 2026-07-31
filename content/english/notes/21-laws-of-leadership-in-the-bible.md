@@ -9,7 +9,7 @@ key_concept: |
   - Level 2: Maxwell's law names frame the lessons; the cases are Aaron, Deborah, Nehemiah, Paul - not modern CEOs.
   - Level 3: These laws describe discipleship growth and faithful influence - not the price of eternal life.
   - Level 4: Start at [[Free Grace]], then pick the law you need this week - order is less important than application.
-  - Level 5: Workplace echo lives in [[Leadership Is Influence]] and [[Servant Leadership]] - this hub stays scripture-first.
+  - Level 5: Workplace echo lives in [[Leadership]], [[Leadership Is Influence]], and [[Servant Leadership]] - this hub stays scripture-first.
   - Twenty-one laws, three biblical examples each - link and drill like the rest of the faith cluster.
 shareable_thought:
   - "Twenty-one leadership laws illustrated with Old and New Testament stories - one claim per lesson, three biblical cases each."
@@ -54,9 +54,9 @@ draft: false
 
 ## The twenty-one laws
 
-- [[Law of the Lid]] - Leadership ability determines a person's level of effectiveness
+- [[Law of the Lid]] - [[Leadership]] ability determines a person's level of effectiveness
 - [[Law of Influence]] - The true measure of leadership is influence - nothing more, nothing less
-- [[Law of Process]] - Leadership develops daily, not in a day
+- [[Law of Process]] - [[Leadership]] develops daily, not in a day
 - [[Law of Navigation]] - Anyone can steer the ship, but it takes a leader to chart the course
 - [[Law of Addition]] - Leaders add value by serving others
 - [[Law of Solid Ground]] - Trust is the foundation of leadership

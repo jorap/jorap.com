@@ -7,7 +7,7 @@ key_concept: |
   - Level 1: Abigail stopped David's rash revenge - she read the room before blood spilled.
   - Level 2: Solomon judged the two mothers. Barnabas vouched for fresh-convert Paul when others flinched.
   - Level 3: Intuition is pattern recognition under pressure - not mysticism.
-  - Hub: [[21 Laws of Leadership in the Bible]] - lesson 8 of twenty-one Bible leadership laws.
+  - Hub: [[21 Laws of Leadership in the Bible]] - lesson 8 of twenty-one Bible laws; horizontal frame in [[Leadership]].
   
   {{< bible ref="1 Samuel 25:2-35" >}}
   - **A Leader with Intuition Saves Lives** - Abigail intercepted David's anger - disaster averted by timely counsel.
@@ -24,6 +24,9 @@ shareable_thought:
   - "Level 1: Abigail stopped David's rash revenge - she read the room before blood spilled."
   - "Level 2: Solomon judged the two mothers. Barnabas vouched for fresh-convert Paul when others flinched."
 relationships:
+  - type: contradicts
+    wikilink: "[[Discipleship vs Leadership]]"
+    reason: "when horizontal technique substitutes for upward allegiance"
   - type: extends
     wikilink: "[[21 Laws of Leadership in the Bible]]"
     reason: "Lesson 8 in the Bible leadership law series"

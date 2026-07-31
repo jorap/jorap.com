@@ -7,7 +7,7 @@ key_concept: |
   - Level 1: Abraham's servant swore an oath with integrity - inner circle carried the mission.
   - Level 2: Hushai outwitted Ahithophel. Nathan confronted David when sin hardened.
   - Level 3: [[Iron Sharpens Iron]] is the garden echo - proximity shapes judgment.
-  - Hub: [[21 Laws of Leadership in the Bible]] - lesson 11 of twenty-one Bible leadership laws.
+  - Hub: [[21 Laws of Leadership in the Bible]] - lesson 11 of twenty-one Bible laws; horizontal frame in [[Leadership]].
   
   {{< bible ref="Genesis 24:1-27" >}}
   - **Abraham's Trusted Servant** - Sent to find Isaac's bride - faithful insider extended the patriarch's mission.
@@ -24,6 +24,9 @@ shareable_thought:
   - "Level 1: Abraham's servant swore an oath with integrity - inner circle carried the mission."
   - "Level 2: Hushai outwitted Ahithophel. Nathan confronted David when sin hardened."
 relationships:
+  - type: contradicts
+    wikilink: "[[Discipleship vs Leadership]]"
+    reason: "when horizontal technique substitutes for upward allegiance"
   - type: extends
     wikilink: "[[21 Laws of Leadership in the Bible]]"
     reason: "Lesson 11 in the Bible leadership law series"

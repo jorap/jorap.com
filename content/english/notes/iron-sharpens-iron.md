@@ -43,7 +43,7 @@ relationships:
     wikilink: "[[Law of Respect]]"
     reason: "Jonathan's loyalty to stronger future king"
   - type: extends
-    wikilink: "[[Law of the Inner Circle]]"
+    wikilink: "[[Law of Inner Circle]]"
     reason: "Nathan and Hushai - counselors in the inner ring"
 slug: "iron-sharpens-iron"
 date: "2026-07-25 11:50:00+08:00"

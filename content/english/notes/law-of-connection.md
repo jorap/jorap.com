@@ -7,7 +7,7 @@ key_concept: |
   - Level 1: Jacob sent gifts ahead to Esau - reconciliation before reunion.
   - Level 2: Absalom stole hearts with flattery. Paul appealed to Philemon as friend, not commander.
   - Level 3: [[Love Your Neighbor]] is the eternal-principles root - know the person, then request the labor.
-  - Hub: [[21 Laws of Leadership in the Bible]] - lesson 10 of twenty-one Bible leadership laws.
+  - Hub: [[21 Laws of Leadership in the Bible]] - lesson 10 of twenty-one Bible laws; horizontal frame in [[Leadership]].
   
   {{< bible ref="Genesis 32:3-12" >}}
   - **Jacob Prepares to Face Esau** - Gifts and prayer before the reunion - fear met with prepared peace.
@@ -24,6 +24,9 @@ shareable_thought:
   - "Level 1: Jacob sent gifts ahead to Esau - reconciliation before reunion."
   - "Level 2: Absalom stole hearts with flattery. Paul appealed to Philemon as friend, not commander."
 relationships:
+  - type: contradicts
+    wikilink: "[[Discipleship vs Leadership]]"
+    reason: "when horizontal technique substitutes for upward allegiance"
   - type: extends
     wikilink: "[[21 Laws of Leadership in the Bible]]"
     reason: "Lesson 10 in the Bible leadership law series"

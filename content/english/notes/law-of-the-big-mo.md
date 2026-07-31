@@ -7,7 +7,7 @@ key_concept: |
   - Level 1: Israel's early conquests stacked wins - Mo rolled with obedience.
   - Level 2: Elisha mourned half-hearted arrow strikes - missed momentum. Pentecost turned thousands in a day.
   - Level 3: Ride the wave when God gives it - do not strike the rock twice from boredom.
-  - Hub: [[21 Laws of Leadership in the Bible]] - lesson 16 of twenty-one Bible leadership laws.
+  - Hub: [[21 Laws of Leadership in the Bible]] - lesson 16 of twenty-one Bible laws; horizontal frame in [[Leadership]].
   
   {{< bible ref="Deuteronomy 2:24-37" >}}
   - **Early Victories** - Sihon and Og fell in sequence - obedience fed momentum.
@@ -24,6 +24,9 @@ shareable_thought:
   - "Level 1: Israel's early conquests stacked wins - Mo rolled with obedience."
   - "Level 2: Elisha mourned half-hearted arrow strikes - missed momentum. Pentecost turned thousands in a day."
 relationships:
+  - type: contradicts
+    wikilink: "[[Discipleship vs Leadership]]"
+    reason: "when horizontal technique substitutes for upward allegiance"
   - type: extends
     wikilink: "[[21 Laws of Leadership in the Bible]]"
     reason: "Lesson 16 in the Bible leadership law series"

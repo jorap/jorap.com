@@ -7,7 +7,7 @@ key_concept: |
   - Level 1: Joshua stayed in Moses' tent - successor attracted by proximity to holiness.
   - Level 2: David drew warriors. Jezebel and Ahab collected schemers.
   - Level 3: [[Walk by the Spirit]] shapes who drifts into your orbit over time.
-  - Hub: [[21 Laws of Leadership in the Bible]] - lesson 9 of twenty-one Bible leadership laws.
+  - Hub: [[21 Laws of Leadership in the Bible]] - lesson 9 of twenty-one Bible laws; horizontal frame in [[Leadership]].
   
   {{< bible ref="Numbers 27:15-23" >}}
   - **Joshua Succeeds Moses** - Young aide in the tent became national leader - magnetism of faithfulness.
@@ -24,6 +24,9 @@ shareable_thought:
   - "Level 1: Joshua stayed in Moses' tent - successor attracted by proximity to holiness."
   - "Level 2: David drew warriors. Jezebel and Ahab collected schemers."
 relationships:
+  - type: contradicts
+    wikilink: "[[Discipleship vs Leadership]]"
+    reason: "when horizontal technique substitutes for upward allegiance"
   - type: extends
     wikilink: "[[21 Laws of Leadership in the Bible]]"
     reason: "Lesson 9 in the Bible leadership law series"

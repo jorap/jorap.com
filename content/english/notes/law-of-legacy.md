@@ -7,7 +7,7 @@ key_concept: |
   - Level 1: David charged Solomon to walk in God's ways - throne passed with a charge.
   - Level 2: Elijah threw his mantle on Elisha. Jesus chose twelve and sent them to all nations.
   - Level 3: [[Great Commission]] and [[Faithful Steward]] - finish well by passing the baton.
-  - Hub: [[21 Laws of Leadership in the Bible]] - lesson 21 of twenty-one Bible leadership laws.
+  - Hub: [[21 Laws of Leadership in the Bible]] - lesson 21 of twenty-one Bible laws; horizontal frame in [[Leadership]].
   
   {{< bible ref="1 Kings 2:1-4" >}}
   - **David Establishes Solomon as His Successor** - Public coronation and deathbed charge - kingdom continuity secured.
@@ -24,6 +24,9 @@ shareable_thought:
   - "Level 1: David charged Solomon to walk in God's ways - throne passed with a charge."
   - "Level 2: Elijah threw his mantle on Elisha. Jesus chose twelve and sent them to all nations."
 relationships:
+  - type: contradicts
+    wikilink: "[[Discipleship vs Leadership]]"
+    reason: "when horizontal technique substitutes for upward allegiance"
   - type: extends
     wikilink: "[[21 Laws of Leadership in the Bible]]"
     reason: "Lesson 21 in the Bible leadership law series"

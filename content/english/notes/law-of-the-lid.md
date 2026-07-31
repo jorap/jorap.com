@@ -7,7 +7,7 @@ key_concept: |
   - Level 1: Like a jar lid - a small lid cannot hold a gallon; low leadership caps what you can deliver.
   - Level 2: Aaron folded without Moses - David out-led Saul - Rehoboam's harsh answer split the kingdom.
   - Level 3: Under [[Free Grace]], raising your lid is discipleship growth, not earning heaven - but the ceiling still limits real-world fruit.
-  - Hub: [[21 Laws of Leadership in the Bible]] - lesson 1 of twenty-one Bible leadership laws.
+  - Hub: [[21 Laws of Leadership in the Bible]] - lesson 1 of twenty-one Bible laws; horizontal frame in [[Leadership]].
   
   {{< bible ref="Exodus 32:1-25" >}}
   - **Aaron and Moses** - Aaron folded when Israel demanded a calf - Moses' return showed the lid gap between them.
@@ -24,6 +24,9 @@ shareable_thought:
   - "Level 1: Like a jar lid - a small lid cannot hold a gallon; low leadership caps what you can deliver."
   - "Level 2: Aaron folded without Moses - David out-led Saul - Rehoboam's harsh answer split the kingdom."
 relationships:
+  - type: contradicts
+    wikilink: "[[Discipleship vs Leadership]]"
+    reason: "when horizontal technique substitutes for upward allegiance"
   - type: extends
     wikilink: "[[21 Laws of Leadership in the Bible]]"
     reason: "Lesson 1 in the Bible leadership law series"

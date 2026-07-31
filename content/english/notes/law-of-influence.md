@@ -7,7 +7,7 @@ key_concept: |
   - Level 1: Rahab hid spies because she believed - no crown, real sway over her household's fate.
   - Level 2: Eli's sons corrupted worship; Samuel rose without a badge. Paul swayed a ship full of soldiers from chains.
   - Level 3: [[Leadership Is Influence]] is the workplace echo - badge without followers is a solo walk.
-  - Hub: [[21 Laws of Leadership in the Bible]] - lesson 2 of twenty-one Bible leadership laws.
+  - Hub: [[21 Laws of Leadership in the Bible]] - lesson 2 of twenty-one Bible laws; horizontal frame in [[Leadership]].
   
   {{< bible ref="Joshua 2:1-24" >}}
   - **Rahab's Influence** - A prostitute in Jericho hid spies and turned her house - belief moved a city wall's worth of risk.
@@ -24,6 +24,9 @@ shareable_thought:
   - "Level 1: Rahab hid spies because she believed - no crown, real sway over her household's fate."
   - "Level 2: Eli's sons corrupted worship; Samuel rose without a badge. Paul swayed a ship full of soldiers from chains."
 relationships:
+  - type: contradicts
+    wikilink: "[[Discipleship vs Leadership]]"
+    reason: "when horizontal technique substitutes for upward allegiance"
   - type: extends
     wikilink: "[[21 Laws of Leadership in the Bible]]"
     reason: "Lesson 2 in the Bible leadership law series"

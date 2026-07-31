@@ -7,7 +7,7 @@ key_concept: |
   - Level 1: Gideon's trimmed army still followed his jar-and-torch plan - buy-in to him, then the tactic.
   - Level 2: Nehemiah wept, prayed, then asked the king. Hebrews: fix eyes on Christ, do not harden hearts.
   - Level 3: Vision without trusted leader is a poster; leader without vision is a stroll.
-  - Hub: [[21 Laws of Leadership in the Bible]] - lesson 14 of twenty-one Bible leadership laws.
+  - Hub: [[21 Laws of Leadership in the Bible]] - lesson 14 of twenty-one Bible laws; horizontal frame in [[Leadership]].
   
   {{< bible ref="Judges 7:2-25" >}}
   - **A Test of Leadership Buy-In** - Three hundred followed Gideon's odd battle plan - belief in the leader carried the night.
@@ -24,6 +24,9 @@ shareable_thought:
   - "Level 1: Gideon's trimmed army still followed his jar-and-torch plan - buy-in to him, then the tactic."
   - "Level 2: Nehemiah wept, prayed, then asked the king. Hebrews: fix eyes on Christ, do not harden hearts."
 relationships:
+  - type: contradicts
+    wikilink: "[[Discipleship vs Leadership]]"
+    reason: "when horizontal technique substitutes for upward allegiance"
   - type: extends
     wikilink: "[[21 Laws of Leadership in the Bible]]"
     reason: "Lesson 14 in the Bible leadership law series"

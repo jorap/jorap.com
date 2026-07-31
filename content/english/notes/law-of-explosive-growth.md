@@ -7,7 +7,7 @@ key_concept: |
   - Level 1: Bezalel trained craftsmen who built the tabernacle - leaders of skilled labor.
   - Level 2: Jesus sent seventy with authority. Paul appointed elders in every city and told Timothy to entrust truth to faithful men.
   - Level 3: [[Great Commission]] - make disciples who make disciples.
-  - Hub: [[21 Laws of Leadership in the Bible]] - lesson 20 of twenty-one Bible leadership laws.
+  - Hub: [[21 Laws of Leadership in the Bible]] - lesson 20 of twenty-one Bible laws; horizontal frame in [[Leadership]].
   
   {{< bible ref="Exodus 35:30-35" >}}
   - **Leading an Army of Craftsmen** - Spirit-filled artisans taught others - sanctuary rose by leader-multiplication.
@@ -24,6 +24,9 @@ shareable_thought:
   - "Level 1: Bezalel trained craftsmen who built the tabernacle - leaders of skilled labor."
   - "Level 2: Jesus sent seventy with authority. Paul appointed elders in every city and told Timothy to entrust truth to faithful men."
 relationships:
+  - type: contradicts
+    wikilink: "[[Discipleship vs Leadership]]"
+    reason: "when horizontal technique substitutes for upward allegiance"
   - type: extends
     wikilink: "[[21 Laws of Leadership in the Bible]]"
     reason: "Lesson 20 in the Bible leadership law series"

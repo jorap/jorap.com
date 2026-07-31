@@ -8,7 +8,7 @@ key_concept: |
   - Level 2: Serve the team - credit flows up, support flows in.
   - Level 3: Teams follow safety and clarity, so servant leaders remove blockers and share wins.
   - Level 4: In the next review, name three contributions the team owned, not yours.
-  - Level 5: Authority elevates others, not hoards spotlight - same move as line one at scale.
+  - Level 5: Authority elevates others, not hoards spotlight - same move as line one at scale; [[Leadership]] names direction and pace when people look your way.
   - The corporate ladder rewards visibility; this principle runs the other way.
   - Wash feet in the sprint, not only in the all-hands speech.
   - Gospel depth: [[Humility and Service]].

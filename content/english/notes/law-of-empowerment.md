@@ -5,9 +5,9 @@ description: "Only secure leaders give power to others."
 key_concept: |
   - Secure leaders delegate - insecure leaders hoard decisions until they break.
   - Level 1: Jethro told Moses to appoint judges - one-man band was unsustainable.
-  - Level 2: Artaxerxes empowered Ezra. Jesus sent the twelve with authority and warned of cost.
+  - Level 2: Artaxerxes empowered Ezra. Jesus sent [[Invest in the Few]] with authority and warned of cost.
   - Level 3: [[Many Parts One Body]] - one body, many members; hoarding chokes the whole.
-  - Hub: [[21 Laws of Leadership in the Bible]] - lesson 12 of twenty-one Bible leadership laws.
+  - Hub: [[21 Laws of Leadership in the Bible]] - lesson 12 of twenty-one Bible laws; horizontal frame in [[Leadership]].
   
   {{< bible ref="Exodus 18:13-26" >}}
   - **Moses the One-Man Band** - Jethro's counsel - share the load or wear out leader and people.
@@ -22,8 +22,11 @@ shareable_thought:
   - "Only secure leaders give power to others."
   - "Secure leaders delegate - insecure leaders hoard decisions until they break."
   - "Level 1: Jethro told Moses to appoint judges - one-man band was unsustainable."
-  - "Level 2: Artaxerxes empowered Ezra. Jesus sent the twelve with authority and warned of cost."
+  - "Level 2: Artaxerxes empowered Ezra. Jesus sent [[Invest in the Few]] with authority and warned of cost."
 relationships:
+  - type: contradicts
+    wikilink: "[[Discipleship vs Leadership]]"
+    reason: "when horizontal technique substitutes for upward allegiance"
   - type: extends
     wikilink: "[[21 Laws of Leadership in the Bible]]"
     reason: "Lesson 12 in the Bible leadership law series"

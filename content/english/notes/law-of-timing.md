@@ -7,7 +7,7 @@ key_concept: |
   - Level 1: Saul offered sacrifice early and lost the kingdom - impatience misread the hour.
   - Level 2: Esther waited for the king's scepter. Jesus avoided Judea until His hour came.
   - Level 3: Wait is active navigation, not passive drift.
-  - Hub: [[21 Laws of Leadership in the Bible]] - lesson 19 of twenty-one Bible leadership laws.
+  - Hub: [[21 Laws of Leadership in the Bible]] - lesson 19 of twenty-one Bible laws; horizontal frame in [[Leadership]].
   
   {{< bible ref="1 Samuel 13:5-14" >}}
   - **Saul's Bad Decision** - Offered burnt offering before Samuel arrived - kingdom torn for impatience.
@@ -24,6 +24,9 @@ shareable_thought:
   - "Level 1: Saul offered sacrifice early and lost the kingdom - impatience misread the hour."
   - "Level 2: Esther waited for the king's scepter. Jesus avoided Judea until His hour came."
 relationships:
+  - type: contradicts
+    wikilink: "[[Discipleship vs Leadership]]"
+    reason: "when horizontal technique substitutes for upward allegiance"
   - type: extends
     wikilink: "[[21 Laws of Leadership in the Bible]]"
     reason: "Lesson 19 in the Bible leadership law series"

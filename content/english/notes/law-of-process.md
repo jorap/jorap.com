@@ -7,7 +7,7 @@ key_concept: |
   - Level 1: Joseph went slave to prime minister through prisons - no shortcut past the process.
   - Level 2: Moses spent forty years off-stage before the bush. Peter denied Christ, then preached Pentecost.
   - Level 3: [[Change Takes Repetition]] is the garden echo - same Tuesday reps, not one hero sprint.
-  - Hub: [[21 Laws of Leadership in the Bible]] - lesson 3 of twenty-one Bible leadership laws.
+  - Hub: [[21 Laws of Leadership in the Bible]] - lesson 3 of twenty-one Bible laws; horizontal frame in [[Leadership]].
   
   {{< bible ref="Acts 7:9-19" >}}
   - **The Value of Joseph's Growth as a Leader** - Pit, prison, palace - each season forged admin skill and trust.
@@ -24,6 +24,9 @@ shareable_thought:
   - "Level 1: Joseph went slave to prime minister through prisons - no shortcut past the process."
   - "Level 2: Moses spent forty years off-stage before the bush. Peter denied Christ, then preached Pentecost."
 relationships:
+  - type: contradicts
+    wikilink: "[[Discipleship vs Leadership]]"
+    reason: "when horizontal technique substitutes for upward allegiance"
   - type: extends
     wikilink: "[[21 Laws of Leadership in the Bible]]"
     reason: "Lesson 3 in the Bible leadership law series"

@@ -123,7 +123,7 @@ Hub: [[Prayer Jesus Taught]] - maps Jesus' prayer teaching across the Gospels (L
 - [[The Wise Builder]] - hears Jesus' words and builds house on rock; sand collapses in storm (Matthew 7:24-27); sand collapses when the storm hits
 - [[The Narrow Way]] - enter through narrow gate; broad way leads to destruction (Matthew 7:13-14); costly discipleship, not the broad path
 - [[Walk by the Spirit]] - walk by the Spirit and you will not carry out the flesh's desires (Galatians 5:16); daily Spirit dependence over willpower sprints
-- [[21 Laws of Leadership in the Bible]] - twenty-one leadership laws, three scriptural examples each; hub for influence, service, and succession
+- [[21 Laws of Leadership in the Bible]] - twenty-one faith laws, three scriptural examples each; hub for influence, service, and succession; horizontal frame in [[Leadership]]
 - [[Count the Cost]] - who builds a tower without sitting down and counting the cost first (Luke 14:28-30); honest estimate before the public yes
 
 ## Church and world

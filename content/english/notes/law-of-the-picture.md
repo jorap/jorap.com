@@ -7,7 +7,7 @@ key_concept: |
   - Level 1: Josiah tore down idols he read about - picture of reform matched proclamation.
   - Level 2: Jesus washed feet. Paul said imitate me as I imitate Christ.
   - Level 3: [[Let Your Light Shine]] - visible walk, not hidden-only piety.
-  - Hub: [[21 Laws of Leadership in the Bible]] - lesson 13 of twenty-one Bible leadership laws.
+  - Hub: [[21 Laws of Leadership in the Bible]] - lesson 13 of twenty-one Bible laws; horizontal frame in [[Leadership]].
   
   {{< bible ref="2 Kings 23:1-16" >}}
   - **Josiah - A King Like No Other** - Read the Law, then demolished high places - reform followed sight.
@@ -24,6 +24,9 @@ shareable_thought:
   - "Level 1: Josiah tore down idols he read about - picture of reform matched proclamation."
   - "Level 2: Jesus washed feet. Paul said imitate me as I imitate Christ."
 relationships:
+  - type: contradicts
+    wikilink: "[[Discipleship vs Leadership]]"
+    reason: "when horizontal technique substitutes for upward allegiance"
   - type: extends
     wikilink: "[[21 Laws of Leadership in the Bible]]"
     reason: "Lesson 13 in the Bible leadership law series"

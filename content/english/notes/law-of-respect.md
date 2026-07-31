@@ -7,7 +7,7 @@ key_concept: |
   - Level 1: Deborah called Barak; he would not go without her - respect for her nerve.
   - Level 2: Jonathan pledged loyalty to David. Daniel stood before Belshazzar when the wise men failed.
   - Level 3: Respect is earned competence plus courage - not bullying.
-  - Hub: [[21 Laws of Leadership in the Bible]] - lesson 7 of twenty-one Bible leadership laws.
+  - Hub: [[21 Laws of Leadership in the Bible]] - lesson 7 of twenty-one Bible laws; horizontal frame in [[Leadership]].
   
   {{< bible ref="Judges 4:1-16" >}}
   - **A Leader's Respect** - Deborah's command moved Barak - respect for her strength in a coward's war.
@@ -24,6 +24,9 @@ shareable_thought:
   - "Level 1: Deborah called Barak; he would not go without her - respect for her nerve."
   - "Level 2: Jonathan pledged loyalty to David. Daniel stood before Belshazzar when the wise men failed."
 relationships:
+  - type: contradicts
+    wikilink: "[[Discipleship vs Leadership]]"
+    reason: "when horizontal technique substitutes for upward allegiance"
   - type: extends
     wikilink: "[[21 Laws of Leadership in the Bible]]"
     reason: "Lesson 7 in the Bible leadership law series"

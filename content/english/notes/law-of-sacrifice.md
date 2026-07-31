@@ -7,7 +7,7 @@ key_concept: |
   - Level 1: Nazirite vow set apart hair, wine, and comfort - visible cost for holy call.
   - Level 2: Paul waived rights so gospel would spread. Elder qualifications name the personal cost upfront.
   - Level 3: [[Take Up Your Cross]] - daily toll, not one-time heroics.
-  - Hub: [[21 Laws of Leadership in the Bible]] - lesson 18 of twenty-one Bible leadership laws.
+  - Hub: [[21 Laws of Leadership in the Bible]] - lesson 18 of twenty-one Bible laws; horizontal frame in [[Leadership]].
   
   {{< bible ref="Numbers 6:1-21" >}}
   - **Choosing to Be Set Apart** - Nazirite separation - hair, wine, dead-body contact all surrendered.
@@ -24,6 +24,9 @@ shareable_thought:
   - "Level 1: Nazirite vow set apart hair, wine, and comfort - visible cost for holy call."
   - "Level 2: Paul waived rights so gospel would spread. Elder qualifications name the personal cost upfront."
 relationships:
+  - type: contradicts
+    wikilink: "[[Discipleship vs Leadership]]"
+    reason: "when horizontal technique substitutes for upward allegiance"
   - type: extends
     wikilink: "[[21 Laws of Leadership in the Bible]]"
     reason: "Lesson 18 in the Bible leadership law series"

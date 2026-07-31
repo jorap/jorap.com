@@ -10,7 +10,7 @@ key_concept: |
   - Level 2: Daily discipleship is like paying back a gift with loyalty, not coins - deny self and follow because grace already secured salvation.
   - Level 3: Because grace came first, daily obedience is response to a gift already received, not payment for a ticket still owed.
   - Level 4: Pick one want to deny today and one step of obedience that follows Christ instead of comfort - small, visible, repeatable.
-  - Level 5: The cross is daily because self returns daily - [[Free Grace]] already paid; [[Grateful Obedience]] is response, not currency for heaven.
+  - Level 5: The cross is daily because self returns daily - [[Free Grace]] already paid; [[Grateful Obedience]] is response, not currency for heaven; [[Leadership]] is horizontal care when people look your way.
   - Daily cross - deny self and follow after faith, not to buy heaven but because grace already saved.
   - Under [[Free Grace]], discipleship is [[Grateful Obedience]] - grateful response, not payment.
   - [[Sanctification]] is the slow becoming that walk produces; [[Fruits of the Spirit]] is what people see when the walk is real.

@@ -7,7 +7,7 @@ key_concept: |
   - Level 1: Samson's death toppled Philistines - flawed leader, final victory.
   - Level 2: Jonathan's daring climb sparked Israel's rout. Four friends tore a roof for healing.
   - Level 3: Victory is not comfort - it is clearing the path for the team to succeed.
-  - Hub: [[21 Laws of Leadership in the Bible]] - lesson 15 of twenty-one Bible leadership laws.
+  - Hub: [[21 Laws of Leadership in the Bible]] - lesson 15 of twenty-one Bible laws; horizontal frame in [[Leadership]].
   
   {{< bible ref="Judges 16:1, 16:15-31" >}}
   - **Victory at a Cost** - Blinded Samson pushed the pillars - team's win cost everything he had left.
@@ -24,6 +24,9 @@ shareable_thought:
   - "Level 1: Samson's death toppled Philistines - flawed leader, final victory."
   - "Level 2: Jonathan's daring climb sparked Israel's rout. Four friends tore a roof for healing."
 relationships:
+  - type: contradicts
+    wikilink: "[[Discipleship vs Leadership]]"
+    reason: "when horizontal technique substitutes for upward allegiance"
   - type: extends
     wikilink: "[[21 Laws of Leadership in the Bible]]"
     reason: "Lesson 15 in the Bible leadership law series"
