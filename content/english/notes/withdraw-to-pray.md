@@ -9,11 +9,11 @@ key_concept: |
   - Same pattern in Luke 5:16 - He often slipped to lonely places to pray when demand stacked up.
   - [[Ask Seek Knock]] names the rhythm He taught; [[Secret Devotion]] names the hidden audience; this names the move before the inbox wins.
   - Under [[Free Grace]], slipping away is not earning favor - it is how a grateful follower copies the Teacher's dependence.
-level_1: "Withdraw to pray means stepping away to pray alone before the next push into demand - solitude refuels service, not escape from duty."
-level_2: "Crowds wanted more; He rose before dawn and prayed in a solitary place - withdrawal refueled the next push when everyone wanted access."
-level_3: "Before the group chat blows up at breakfast, book five minutes with the Father - door closed, phone down, before you serve the day."
-level_4: "Same pattern in Luke 5:16 when demand stacked up - slipping away is not earning favor under [[Free Grace]], it copies the Teacher's dependence."
-level_5: "[[Ask Seek Knock]] names the rhythm He taught; [[Secret Devotion]] names the hidden audience - stepping away filled Him for the work, not to dodge it."
+level_1: "Withdraw to pray means stepping away from demand to pray alone before returning to serve."
+level_2: "Jesus withdrew when crowds pressed in because private dependence on the Father prepared Him for public service."
+level_3: "Before the group chat takes over breakfast, close the door, put down the phone, and pray before replying."
+level_4: "Withdrawal can become avoidance, but Jesus returned to serve; under [[Free Grace]], the practice does not earn favor but trains dependence when demand rises."
+level_5: "Create a protected prayer rhythm before predictable pressure points, then adjust its time and place until solitude feeds faithful service."
 examples:
   - "The group chat blew up before breakfast and I almost replied in bed - withdraw to pray is door closed, phone down, five minutes with the Father before I serve the day."
   - "Back-to-back meetings all afternoon and I snapped at the last one - Jesus slipped away when drained; I skipped prayer and brought empty fumes to the room."

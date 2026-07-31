@@ -9,7 +9,7 @@ key_concept: |
 level_1: "Slow productivity means running fewer active projects so work finishes deep instead of piling as guilt."
 level_2: "Busy is not the same as finished - a full calendar can feel productive while the one build that matters stays untouched."
 level_3: "Drop a fourth side project to finish one book draft this quarter - depth beats breadth when guilt stacks."
-level_4: "Because four half-started builds eat the one client site due this month, cut active projects until one important build can finish."
+level_4: "Because attention is finite, parallel WIP taxes finish rate - a full calendar can hide the one build that never ships."
 level_5: "Trade looking productive for work you can ship - same lane as [[Deep Work]] and [[Minimum Effective Dose]] on project count."
 examples:
   - "I dropped a fourth side project to finish one book draft - depth beat breadth this quarter."

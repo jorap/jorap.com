@@ -4,13 +4,14 @@ meta_title: "Graph View Analytics - What the Graph Actually Tells You"
 description: "Graph view analytics reads the link map for orphans, over-connected hubs, and forgotten gaps."
 key_concept: |
   - Read the link map for orphans and over-linked hubs before they skew the garden.
+  - [Graph](/notes/graph/) is the live map; [Issues](/notes/issues/) is where you fix what the analytics flagged - not vanity link counts.
   - Orphan notes and hub sprawl both signal a graph that needs pruning.
   - The orphan list is a fix-this-week queue - not a pretty poster.
 level_1: "Graph view analytics reads the link map for orphan notes and over-linked hubs before they skew the garden."
 level_2: "Like a city map showing dead streets and one overcrowded intersection - lonely pages and hubs everyone fights over."
 level_3: "Open the graph view and fix orphan notes and overloaded hubs before they distort how you navigate the garden."
 level_4: "Orphans and over-linked hubs skew the whole garden - spot them early or maintenance chases symptoms instead of causes."
-level_5: "[Graph](/notes/graph/) is the live map; [Issues](/notes/issues/) is where you fix what the analytics flagged - not vanity link counts."
+level_5: "Create a graph-health routine that turns orphan and hub counts into specific link repairs, then extend the checks when a new failure pattern appears."
 examples:
   - "I laid out the shift-change chart and three tasks had zero arrows to an owner - the orphan list was my fix-this-week, not a pretty poster."
   - "Five notes in the graph had no inbound links - I linked three and archived two before closing the tab."

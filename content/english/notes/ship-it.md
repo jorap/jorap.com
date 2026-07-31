@@ -10,7 +10,7 @@ level_1: "Ship it means publishing the good-enough version live instead of polis
 level_2: "Perfect-in-private never meets reality - polish has diminishing returns once feedback could arrive from real users."
 level_3: "Run the new play ugly in scrimmage instead of drilling it another month - customers eat tonight with one typo fixed after service."
 level_4: "Because internal debate teaches less than live friction, shipping tests the idea against users and clocks."
-level_5: "Ship the first client site before the three-tier pricing PDF exists - done beats hypothetical; feedback on a flawed live version teaches more in a week."
+level_5: "Extend shipping into the freelance lane - [[Selling Static Sites]] ships the first client site before the three-tier pricing PDF exists."
 examples:
   - "The menu went live with one typo fixed after service - customers ate tonight."
   - "We ran the new play ugly in scrimmage instead of drilling it another month."

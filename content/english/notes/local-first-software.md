@@ -9,8 +9,8 @@ key_concept: |
 level_1: "Local-first software keeps the master copy on your device and treats cloud sync as backup, not the vault."
 level_2: "Like keeping your diary in your room and photocopying it for safety, your phone or computer owns the real file first."
 level_3: "Pick tools that work offline with full features - sync is insurance, not the place you crawl to after an outage."
-level_4: "If the service vanishes, your notes survive on the device - cloud-only stacks fail when the tenant changes the rules."
-level_5: "[[Building a Personal API]] and [[Digital Minimalism]] both assume you can read and write without begging a server."
+level_4: "If the service vanishes, your notes survive on the device - cloud-only stacks fail when the tenant changes the rules or the network drops."
+level_5: "Extend local-first into [[Building a Personal API]] and [[Digital Minimalism]] - read and write without begging a server."
 examples:
   - "If the phone dies mid-grocery run, the list on the fridge still works."
   - "Grandma's recipe cards live in the kitchen drawer - not an app that might vanish."

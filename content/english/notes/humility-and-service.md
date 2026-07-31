@@ -5,6 +5,7 @@ description: "Jesus taught greatness through service - the Son of Man came to se
 key_concept: |
   {{< bible ref="Mark 10:42-45" emphasize="45" >}}
   - Came to serve and give His life - greatness in the kingdom runs opposite the world's ladder.
+  - [[Servant Leadership]] and [[Follow Christ, Then Lead]] keep the ladder inverted - influence without climbing over people.
   - Status in the kingdom runs opposite to the world's ladder: exalt yourself and you will be humbled; humble yourself and you will be exalted.
   - Service is the path to kingdom reward and greatness before God - not the price of [[Free Grace]].
   - [[Faithful Steward]] is the parable shape: well done for faithful use of what He entrusted.
@@ -12,7 +13,7 @@ level_1: "Kingdom greatness is measured by who you serve - not by who serves you
 level_2: "Jesus came to serve and give His life - real greatness bends down like a parent tying a shoe, not climbing the worldly ladder."
 level_3: "Before you post about leadership, name one person you helped this week with no audience watching - service beats platform metrics."
 level_4: "Worldly rank climbs upward; kingdom greatness bends downward - opposite directions mean opposite rewards, and [[Free Grace]] keeps service from becoming a salvation scorecard."
-level_5: "[[Servant Leadership]] and [[Follow Christ, Then Lead]] keep the ladder inverted - influence without climbing over people."
+level_5: "Build a leadership practice that gives away credit, takes the low task, and helps someone else become able to serve without you."
 examples:
   - "I helped a neighbor move and waited for credit in the group chat - greatness is serving, not being served."
   - "I organized snacks for my kid's basketball team on Sunday and came home expecting my family to serve me back - wash feet here too, not only where people can see you."

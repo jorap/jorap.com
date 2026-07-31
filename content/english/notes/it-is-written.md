@@ -5,6 +5,7 @@ description: "Jesus answered temptation with Scripture already in Him - not impr
 key_concept: |
   {{< bible ref="Matthew 4:1-11" emphasize="4" >}}
   - Each wilderness attack met Scripture already loaded - Deuteronomy in memory, not a panic search mid-temptation.
+  - [[Jesus' Rhythms]] includes living in Scripture; under [[Free Grace]] memorized word is ammunition for the fork, not a merit badge.
   - He did not invent new ethics on the spot; He answered from what the Father had already spoken.
   - [[Renewed Mind]] names letting Scripture reshape judgment; [[Abide in Me]] names staying in His words - this names the reflex under pressure.
   - Under [[Free Grace]], memorized Scripture is not a merit badge - it is ammunition for the fork when hunger, pride, and shortcut power show up.
@@ -12,7 +13,7 @@ level_1: "It is written is answering temptation with Scripture already loaded in
 level_2: "Each wilderness attack met stored word from Deuteronomy - like answers memorized before the test, not a panic search mid-fight."
 level_3: "Load the verse before the group chat bait arrives - Scripture ready before adrenaline hits, not a sermon invented in the moment."
 level_4: "Temptation meets pre-loaded Scripture or scrambling loses - [[Renewed Mind]] reshapes judgment; [[Abide in Me]] names staying in His words as the reflex under pressure."
-level_5: "[[Jesus' Rhythms]] includes living in Scripture; under [[Free Grace]] memorized word is ammunition for the fork, not a merit badge."
+level_5: "Build a Scripture response for a recurring temptation by choosing the verse now, rehearsing it in context, and extending it into the decision you will make under pressure."
 examples:
   - "The group chat baited me to fire back and I almost typed a sermon - Scripture was already loaded before the adrenaline hit."
   - "Tempted to pad the expense report because nobody would know - no new argument invented in the moment, just what God already said about honesty."

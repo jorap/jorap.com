@@ -4,6 +4,7 @@ meta_title: "Inbox Zero"
 description: "Process the inbox to empty each week - decide, do not hoard."
 key_concept: |
   - Process the inbox to empty regularly - each item decided, not hoarded.
+  - [[The Trusted Inbox]] is the capture lane; [[Getting Things Done]] processing keeps inbox zero from becoming performative tidying.
   - Zero is not vanity - it is proof the capture system still works when Monday does not start with dread.
   - Empty the capture pipe on schedule, or ideas retreat back into my head.
   - Each item gets decide, delete, or defer - not another week in the pile.
@@ -12,7 +13,7 @@ level_1: "Inbox zero means processing every message to a decision - archive, del
 level_2: "Work through every message on a schedule - decide the next step or archive it, like clearing dishes after each meal instead of letting them pile up."
 level_3: "Friday triage every team inbox item to a next action or archive - Monday starts from decisions made, not dread about mystery piles."
 level_4: "Undeclared messages become a todo graveyard - each pass must touch every item once or dread returns every Monday and the capture system loses trust."
-level_5: "[[The Trusted Inbox]] is the capture lane; [[Getting Things Done]] processing keeps inbox zero from becoming performative tidying."
+level_5: "Design an inbox process that gives every item a decision and date, then adjust the review rhythm until the inbox stays trusted without daily theater."
 examples:
   - "Friday I triaged the team inbox to zero - Monday practice started from decisions made, not dread about who forgot what."
   - "Sunday night we emptied the kitchen catch-all tray - each slip got a decision so school week did not start with mystery piles."

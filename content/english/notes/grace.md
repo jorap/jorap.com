@@ -13,7 +13,7 @@ level_1: "Grace is God's unearned gift of salvation through belief in Christ - m
 level_2: "Like a prize you never earned by being best - belief, not a scoreboard of good deeds, decides eternal life."
 level_3: "Receive eternal life by trusting Christ's promise - not by climbing a moral ladder you could never finish."
 level_4: "God gave His Son so belief decides eternal life - unbelief is the only rejection; works follow the gift, not purchase it."
-level_5: "[[Mercy]] withholds what you deserve; [[Free Grace]] is grace applied to eternal life by faith alone - not wages you stacked."
+level_5: "Build a clear gospel explanation that separates Christ's free gift of eternal life from the grateful walk and good works that follow it."
 examples:
   - "A teammate listed every good deed this month like it was his ticket to heaven - grace is the gift through faith, not the report card from the season."
   - "Romans 4:4-5 in my head but guilt still treats every bad week like a revoked passport - grace settled standing; the walk is a different category."

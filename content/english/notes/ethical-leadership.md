@@ -10,8 +10,8 @@ key_concept: |
 level_1: "Ethical leadership means what you let slide in front of the team becomes their real standard - not what the poster on the wall says."
 level_2: "What you ignore in front of your team tells them it is okay - like a thermostat where the room settles to what you tolerate, not the poster."
 level_3: "Call out the small slip in front of the team before it becomes the culture - silence reads as yes."
-level_4: "What you let slide in front of the team becomes their real standard - [[Integrity]] the team can see beats what you preach on the poster."
-level_5: "The coach killed the unsafe trust-fall drill when a safer team exercise achieved the same bonding goal - you enforce the floor the team will copy."
+level_4: "Visible tolerance scales faster than a written rule - correcting a small slip costs trust now, but silence makes the later culture repair harder."
+level_5: "Create a team standard with a visible example, a clear stop line, and a correction leaders will apply even when the shortcut gets results."
 examples:
   - "I stopped the backyard wrestling match when someone was about to get hurt - same fun goal, safer path, even though the kids wanted the rougher version."
   - "The coach killed the unsafe trust-fall drill when a safer team exercise achieved the same bonding goal - authority used to protect people, not to win at their expense."

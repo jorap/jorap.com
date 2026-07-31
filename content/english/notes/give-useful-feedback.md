@@ -4,12 +4,13 @@ meta_title: "Give Useful Feedback - Truth That Helps"
 description: "Useful feedback names what to change and how - truth the hearer can act on, not performance scoring."
 key_concept: |
   - Feedback that helps deposits one actionable truth - not a personality audit or a vague good job that changes nothing.
+  - [[Composure]] keeps hot feedback from demolition; [[Sharpen Each Other's Work]] pairs with delivery that lands.
   - [[Listen Before Fixing]] gathers context so feedback hits the real problem.
 level_1: "Useful feedback deposits one actionable truth - specific, timed, and kind enough to land, not a personality audit or vague good job."
 level_2: "Like telling someone which foot to move, not yelling that they are bad at dancing - same conversation, same respect."
 level_3: "Before you critique, name one move they can try tomorrow - concrete beats theatrical demolition."
 level_4: "[[Words That Build Up]] is the faith name - Ephesians speech that gives grace to hearers; [[Iron Sharpens Iron]] needs useful delivery or friction becomes cruelty."
-level_5: "[[Composure]] keeps hot feedback from demolition - pause, then one move; [[Sharpen Each Other's Work]] pairs with delivery that lands."
+level_5: "Create a feedback loop that listens for context, names one change, and checks the next attempt so truth becomes improvement rather than a verdict."
 examples:
   - "Instead of you always miss deadlines I said the Tuesday draft needs buffer day - useful feedback was one change, not a character verdict."
   - "Player heard foot placement not you are slow - one cue he could fix next rep, same respect, better second half."

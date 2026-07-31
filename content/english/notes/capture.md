@@ -7,11 +7,11 @@ key_concept: |
   - One inbox from phone to desktop, weekly process - same as [[The Trusted Inbox]].
   - Skip it unless action or citation would follow later.
   - Resonance is the filter, not FOMO.
-level_1: "Capture is saving what resonates into one trusted inbox before the spark fades - friction kills capture when saving takes more than one quick move."
-level_2: "Like one tap to save - if it takes five taps, the idea dies before you finish; a spark on the bus dies when the phone is buried in your bag."
-level_3: "Scribble on your wristband before locker room noise eats the idea - one inbox from phone to desktop, process weekly."
-level_4: "Skip capture unless spark or action or citation would follow later - one trusted inbox, no sorting yet."
-level_5: "Same rule as [[The Trusted Inbox]] - capture fails when the save path has more steps than the spark can survive."
+level_1: "Capture is saving what resonates into one trusted inbox before the spark fades."
+level_2: "A fast, single path keeps friction from killing the idea and delays sorting until review."
+level_3: "Scribble the idea now in one inbox, then process it during the weekly review."
+level_4: "Capture preserves sparks but creates clutter when nothing useful will follow; filter by likely action or citation and keep sorting separate."
+level_5: "Design a capture path that works across your devices, then shorten it until a spark can survive the trip."
 examples:
   - "A play tweak hits during cooldown and I scribble it on my wristband before the locker room noise eats it - one inbox, file it Sunday when the spark is safe."
   - "On the jeepney my kid says something I want to remember and I scribble it on a receipt before the station noise eats it - one pocket notebook, no sorting yet."

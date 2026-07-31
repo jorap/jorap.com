@@ -4,6 +4,8 @@ meta_title: "The Law of Connection - Leaders touch a heart before they ask for a
 description: "Leaders touch a heart before they ask for a hand."
 key_concept: |
   - Connection precedes the ask - hearts move before hands do.
+  - Know the person before you request the labor.
+  - [[Love Your Neighbor]] is the eternal-principles root for honest knowing.
   - Hub: [[21 Laws of Leadership in the Bible]] - lesson 10 of twenty-one Bible laws; horizontal frame in [[Leadership]].
   
   {{< bible ref="Genesis 32:3-12" >}}
@@ -12,11 +14,11 @@ key_concept: |
   - **Absalom Uses Connection for Self-Promotion** - Stole hearts with handshakes - connection weaponized for coup.
   {{< bible ref="Philemon 1:1-21" >}}
   - **Paul Connects Instead of Commanding** - Appeal on the basis of love - not apostolic hammer.
-level_1: "The law of connection is that hearts move before hands do - know the person before you request the labor."
+level_1: "The law of connection is that hearts move before hands do."
 level_2: "Jacob sent gifts ahead to Esau - reconciliation before reunion; Paul appealed to Philemon as friend, not commander."
 level_3: "Ask how their week went before you ask for the favor - one human sentence before the hand request."
-level_4: "Absalom stole hearts with flattery - connection without truth rots; [[Love Your Neighbor]] is the eternal-principles root for honest knowing."
-level_5: "[[Reconciliation Before Worship]] is the faith lane; [[People-Centered Design]] is the workplace echo when the ask still feels transactional."
+level_4: "Absalom stole hearts with flattery - connection without truth rots; honest knowing costs more than charm."
+level_5: "Extend connection into [[Reconciliation Before Worship]] on the faith lane and [[People-Centered Design]] when the ask still feels transactional."
 examples:
   - "I asked for overtime before I asked how their mom's surgery went - the hand refused what the heart never got."
   - "Paul called Onesimus a son - connection carried the hard ask about a runaway slave."

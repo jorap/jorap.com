@@ -4,6 +4,7 @@ meta_title: "The Law of Sacrifice - A leader must give up to go up"
 description: "A leader must give up to go up."
 key_concept: |
   - Leaders give up to go up - sacrifice is the toll on the higher road.
+  - Sacrifice is the toll on the higher road.
   - Hub: [[21 Laws of Leadership in the Bible]] - lesson 18 of twenty-one Bible laws; horizontal frame in [[Leadership]].
   
   {{< bible ref="Numbers 6:1-21" >}}
@@ -12,11 +13,11 @@ key_concept: |
   - **Paul Declines to Employ His Privileges** - Apostle became all things to all men - rights laid down for reach.
   {{< bible ref="1 Timothy 3:1-10" >}}
   - **Setting the Bar for Leadership** - Overseer qualifications - desire is noble, standard is costly.
-level_1: "The law of sacrifice is that leaders give up to go up - sacrifice is the toll on the higher road."
+level_1: "The law of sacrifice is that leaders give up to go up."
 level_2: "Nazirite vow set apart hair, wine, and comfort; Paul waived rights so gospel would spread; elder qualifications name the personal cost upfront."
 level_3: "Name one comfort you will lay down this month so the team can advance - make the cost visible early, not hidden until resentment builds."
 level_4: "[[Take Up Your Cross]] - daily toll, not one-time heroics; sacrifice without [[Count the Cost]] becomes surprise resentment."
-level_5: "[[Take Up Your Cross]] is daily; [[Count the Cost]] is the pre-commitment audit before you say yes publicly."
+level_5: "[[Take Up Your Cross]] is daily; extend with [[Count the Cost]] as the pre-commitment audit before you say yes publicly."
 examples:
   - "I gave up Saturday golf for two years of seminary nights - the up required a down payment."
   - "Paul refused support he could claim - sacrifice bought hearing for the gospel."

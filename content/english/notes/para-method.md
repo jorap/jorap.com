@@ -9,8 +9,8 @@ key_concept: |
 level_1: "PARA sorts notes into Projects, Areas, Resources, and Archives - owner and deadline beat topic headings."
 level_2: "Like school homework in one pile and hobbies in another - action and responsibility, not A-to-Z subject soup."
 level_3: "When filing, ask who acts on this and when it closes - if neither applies, it is reference or archive."
-level_4: "Projects carry deadlines; Areas carry ongoing responsibility; Resources wait unclaimed; Archives hold finished work."
-level_5: "[[GTD vs PARA]] splits tasks from knowledge - [[Metadata Strategy]] stays light so taxonomy does not become a second job."
+level_4: "PARA stays useful only while buckets follow action and responsibility - too many Resources recreate topic soup, and stale Projects should become Archives."
+level_5: "Build a four-bucket filing rule that keeps tasks in [[Getting Things Done]], knowledge in PARA, and [[Metadata Strategy]] light enough to maintain."
 examples:
   - "Tournament folder on the bench with a deadline; off-season conditioning notes in the filing cabinet with no end date."
   - "I once filed immunization records under 'health' and could not find them at enrollment - owner and deadline beat topic tags."

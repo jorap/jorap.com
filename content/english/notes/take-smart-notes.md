@@ -4,13 +4,14 @@ meta_title: "Take Smart Notes - Ahrens on the Slip-Box"
 description: "Ahrens treats writing as the work itself - linked permanent notes beat a panic draft at deadline."
 key_concept: |
   - The draft is easy when the notes were written all along.
+  - The blank page is a myth because topics emerge from note clusters weeks before you pick a thesis.
   - [[Literature Notes]] stay with the source; permanent notes live in one linked stack you think inside.
   - Fleeting notes expire; project notes die with the draft; only permanent notes compound.
   - [[Evergreen Notes]] are what permanent notes become when the claim survives a second read.
 level_1: "Take Smart Notes is Ahrens' slip-box method - writing permanent notes in your words while you read, linked bottom-up, not sorted by seminar folder."
 level_2: "Ahrens treats writing as the medium of learning - deadline week becomes assembly, not rescue, when notes were written all along."
-level_3: "Read with a pen, turn sparks into permanent notes in full sentences, link before you hunt by topic - [[Literature Notes]] feed the box; fleeting and project notes stay in their own lanes."
-level_4: "Three buckets only: fleeting trash, permanent slip-box, project folder - the blank page is a myth because topics emerge from note clusters weeks before you pick a thesis."
+level_3: "Read with a pen, turn sparks into permanent notes in full sentences, then link before you hunt by topic."
+level_4: "Three buckets only - fleeting trash, permanent slip-box, project folder - mixing them turns the box into a junk drawer."
 level_5: "[[Getting Things Done]] owns task closure; Ahrens owns insight - same holistic workflow idea, but writing needs open ends until the argument shows itself in the links."
 examples:
   - "Thesis week I opened a cluster of linked garden notes instead of a blank doc - assembly took three days, not three weeks of rescue reading."

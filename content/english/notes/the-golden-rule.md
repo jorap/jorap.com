@@ -13,7 +13,7 @@ key_concept: |
 level_1: "The Golden Rule is treating others how you want to be treated - active care for your neighbor, not just avoiding harm."
 level_2: "The check is experiential - how you would want to be spoken to, helped, forgiven, and included sets the floor before you act."
 level_3: "Run the experiential check before the hard conversation - pause before the post button with a critique that is true and cruel."
-level_4: "Treating others from that mirror converts abstract ethics into a test you can feel - [[Love Your Neighbor]] is the person in front, not a principle on a slide."
+level_4: "The experiential check fails when you only avoid harm - [[Love Your Neighbor]] is the person in front, not a principle on a slide."
 level_5: "[[Free Grace]] keeps it from becoming a merit system - I treat others well because Christ treated me well first, not to earn standing."
 examples:
   - "My thumb was on the post button with a critique that was probably true and definitely cruel - pause: how would I want someone to say that to me?"

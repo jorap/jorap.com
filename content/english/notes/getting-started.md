@@ -13,7 +13,7 @@ level_1: "Getting started in the garden means one clear claim per note page - pu
 level_2: "Draft status is like a shop shutter - `draft: false` opens the window to strangers; `draft: true` keeps work inside while you shape it."
 level_3: "Set draft false only when the note is ready for strangers to read - flipping draft is the publish move, not a separate deploy button."
 level_4: "Each note opens with a definition you can quote in one breath - the graph and backlinks do the organizing."
-level_5: "Start at [[Maps of Content]] or walk the steps below; [[Depth of Understanding]] names the five level bullets; [[Childlike Faith]] models first-day posture without performing expertise."
+level_5: "Create one publishable garden note with a clear claim, five depths of understanding, and useful links, then extend the path through [[Maps of Content]]."
 shareable_thought:
   - "I keep one clear claim per note page and let wikilinks plus /notes/ do the browsing."
   - "Each note opens with a definition I can quote in one breath."

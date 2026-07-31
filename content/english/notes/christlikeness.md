@@ -12,11 +12,11 @@ key_concept: |
   - Romans 8:29 names the aim - God conforms me to the image of His Son.
   - I do not manufacture Christlikeness to earn standing - [[Justification]] already settled that.
   - PKM mirror: [[God Centered Design]] - build the week toward His likeness, not applause.
-level_1: "Christlikeness is becoming more like Jesus over years - less default self on display, more of His pattern in ordinary life."
-level_2: "Like copying how a teacher writes the letter A - a student mirrors the coach's footwork drill after drill."
-level_3: "Apologize slower than you used to snap - ordinary Tuesdays matter more than one emotional Sunday."
-level_4: "Faith already settled standing under [[Free Grace]] - Christlikeness names who you become, not what you buy."
-level_5: "[[Sanctification]] is the slow process; [[Abide in Me]] is the engine; [[Fruits of the Spirit]] hub is what people notice - you do not manufacture Christlikeness to buy [[Justification]]."
+level_1: "Christlikeness is becoming more like Jesus in ordinary character and conduct over time."
+level_2: "It is growth after faith, as abiding and discipleship reshape daily reactions without purchasing standing before God."
+level_3: "When you snap at dinner, apologize and practice the patience you want to show next time."
+level_4: "[[Free Grace]] settles standing while [[Sanctification]] names growth; confusing them turns fruit into a price for [[Justification]]."
+level_5: "Build a rule of life around [[Abide in Me]], then help others practice the visible fruit of becoming more like Christ."
 examples:
   - "I lost my temper at dinner and apologized slower than I used to snap - Christlikeness is slow; faith settled standing, and God still reshapes me."
   - "I performed kindness at church and was sharp with the cashier an hour later - Christlikeness is not a badge from one emotional Sunday, it is looking more like Jesus on ordinary Tuesdays."

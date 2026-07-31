@@ -12,7 +12,7 @@ level_1: "Emotional regulation is feeling the spike without letting it pick the 
 level_2: "Feel the angry heat but pause before you hit send - like a smoke alarm that beeps without burning the house down."
 level_3: "Feel the spike, name it, and wait one beat before you mail the reply - speed feels honest but costs more than the pause."
 level_4: "Regulation is not numbness - it is the gap between heat and the next sentence; [[Slow the Moment]] buys that gap; [[Name the Feeling]] labels the spike before it picks tone."
-level_5: "A customer snapped at the cashier and she kept her voice level - you build the pause habit so the first draft never becomes the sent message."
+level_5: "Build a pause practice that catches the spike, names it, delays the first draft, and gives the next sentence a calmer path."
 examples:
   - "A customer snapped at the cashier and she kept her voice level - regulation is not numbness, it is not mailing the first draft."
   - "My kid's homework meltdown made my face hot; I took a kitchen walk before I answered."

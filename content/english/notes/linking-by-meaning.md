@@ -11,7 +11,7 @@ level_1: "Linking by meaning connects notes because one idea relates to another,
 level_2: "Folders put papers in separate drawers - links hook ideas like a string between pictures so you can follow the trail."
 level_3: "Link two notes when one extends or pushes back on the other - that is enough for the graph to stay walkable months later."
 level_4: "Ideas cross topics - links carry the relationship, not the drawer label, so the garden survives when you forget the folder path."
-level_5: "[[Atomic Notes]] plus [[Linking by Meaning]] beat alphabet soup inside [[PARA Method]] buckets - two typed links per note often outlast whatever folder path you forgot."
+level_5: "Extend the graph with [[Atomic Notes]] plus typed links - two meaningful links per note often outlast whatever [[PARA Method]] folder path you forgot."
 examples:
   - "I linked \"jeepney delay\" to \"leave earlier\" in my daily note and found it six weeks later when the same route broke again - proximity beats perfect filing."
   - "The playbook card links \"late press\" to \"[[Slow the Moment]]\" - I find the counter without memorizing every filename in the binder."

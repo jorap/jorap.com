@@ -12,7 +12,7 @@ level_1: "The Pareto principle is shorthand - roughly eighty percent of results 
 level_2: "Like most apples on one branch, not spread evenly on every twig - outcomes cluster in a minority of inputs."
 level_3: "List your top three outputs last month - find which inputs produced them and protect that slice first."
 level_4: "The ratio is a heuristic, not a law - cutting the long tail can kill compounding habits that matter later."
-level_5: "[[Low Hanging Fruit]] and [[Minimum Effective Dose]] apply the same skew - a lens before you spread hero energy evenly."
+level_5: "Create an 80/20 filter with [[Low Hanging Fruit]] and [[Minimum Effective Dose]]: protect the few inputs that drive results without cutting slow gains that compound."
 examples:
   - "The kids' activity list had six things and we skipped three nights - I trimmed to basketball and piano and we actually showed up."
   - "My reading pile had forty tabs - the five that moved work got Sunday morning, the rest got deleted."

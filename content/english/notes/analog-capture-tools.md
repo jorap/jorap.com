@@ -4,12 +4,13 @@ meta_title: "Analog Capture Tools - Paper When Screens Fail"
 description: "Analog capture wins when the phone dies or the meeting blocks screens - same inbox rule."
 key_concept: |
   - The scrap gets copied into the real system later - paper is capture, not storage.
+  - [[Capture]] and [[The Trusted Inbox]] still own the workflow - paper only keeps the spark alive until it reaches the system.
   - Paper still goes in the same inbox when screens are off limits.
 level_1: "Analog capture tools are paper scraps and pocket notebooks that grab sparks - capture surfaces, not long-term storage."
 level_2: "Like a napkin at lunch or a receipt on the bus - the surface changes, the inbox does not."
 level_3: "Scribble on whatever is handy, then copy into your trusted inbox the same day - one pocket notebook, no sorting yet."
-level_4: "The scrap must land in the real system later - paper wins when screens are off limits but memory fades fast."
-level_5: "Pairs with [[Capture]] and [[The Trusted Inbox]] - margin notes die unless they land in the real system before the spark fades."
+level_4: "Paper works without power or permission, but it adds a transfer step - the tool stays useful only when scraps reach the trusted inbox before memory fades."
+level_5: "Build an analog fallback that names the paper surface, the trusted inbox, and the same-day transfer trigger for moments when screens fail."
 examples:
   - "The phone dies mid-sermon and I scribble Philippians references in the margin - I copy them into my study Bible at the kitchen table Sunday night."
   - "Stuck in a dead-zone meeting, I jot the action items on the back of the agenda instead of pretending I will remember them at the car."

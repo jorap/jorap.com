@@ -9,7 +9,7 @@ key_concept: |
   - [[Note Maturity]] names the stages this lifecycle tracks.
 level_1: "The knowledge lifecycle tracks ideas from capture through use, polish, fade, and archive - match effort to the stage."
 level_2: "Raw capture gets tagged and dated; polish waits until reuse is real - fade is a signal to archive, not proof the idea was worthless."
-level_3: "Tag and date on capture; polish only when an idea re-enters a project - archive when fade says it is done."
+level_3: "When an idea re-enters a project, polish it then - archive the spark that never came back after a quiet quarter."
 level_4: "Lifecycle thinking saves effort because polishing every spark burns time notes never repay - [[Note Maturity]] names the stages this lifecycle tracks."
 level_5: "Spend effort on polish only when an idea is in reuse - not when it is still raw capture; [[Evergreen Notes]] is what survives a second read."
 examples:

@@ -6,6 +6,7 @@ key_concept: |
   {{< bible ref="Matthew 5:16" emphasize="16" >}}
   
   - Good works that glorify the Father - upright deeds that point to God, not a personal brand.
+  - [[Kindness]] is the soft strength beside goodness; both stay aimed at others, not a nice-guy pose.
   - [[Let Your Light Shine]] is the garden echo: do good visibly so others glorify the Father, not so you collect likes.
   - [[Heart Righteousness]] keeps the inside matching the outside - upright deeds from motive, not polish over poison.
   - [[Secret Devotion]] on the other side: some good stays hidden; goodness fruit still refuses to bury what should point to God.
@@ -14,7 +15,7 @@ level_1: "Goodness is upright deeds that point people toward God - good works th
 level_2: "Like a flashlight aimed at the sky, not at your own name tag - outward integrity that makes people notice God behind the work."
 level_3: "Do the right thing in a way that makes people notice God behind it - not your resume line."
 level_4: "[[Fruits of the Spirit]] pairs goodness with kindness - when goodness becomes a personal brand, the fruit rots into performance."
-level_5: "[[Kindness]] is the soft strength beside goodness; both stay aimed at others, not a nice-guy pose."
+level_5: "Create a good work that meets a real need and points beyond your name, then choose whether visibility or quiet service best gives God the credit."
 examples:
   - "I brought extra water for the whole bench and almost posted about it - goodness fruit shines so someone thinks God is real, not so my brand grows."
   - "I covered a coworker's shift quietly and almost made it a LinkedIn moment - let the Father get credit, not my personal brand."

@@ -12,7 +12,7 @@ level_1: "Energy protects judgment because tired minds make worse calls than res
 level_2: "A tired brain picks worse even with the same facts - like a phone battery where the same apps glitch when the bar is red."
 level_3: "Protect sleep and scheduled rest the way you protect workout days - judgment depends on it, even when the deadline screams."
 level_4: "Program rest like training - the elite athlete's recovery day is not optional padding; [[Sustainable Performance]] trades heroic weeks for calls that hold on day three."
-level_5: "Three late nights made you snap at bedtime - you stop at ten instead of a fourth heroic hour so breakfast gets calm sentences, not a short fuse."
+level_5: "Design a recovery rule that protects tomorrow's judgment - set the stop time, warning signs, and work to cut before fatigue picks the next call."
 examples:
   - "I snapped at my kid over a spilled cup after a brutal week; at breakfast it would have been two calm sentences - she was not the problem, I was."
   - "Three late nights made me snap at bedtime - stopping at ten instead of a fourth heroic hour protected everyone at breakfast."

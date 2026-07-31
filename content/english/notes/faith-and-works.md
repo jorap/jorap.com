@@ -13,7 +13,7 @@ level_1: "Faith and works together mean faith alone saves and works show faith i
 level_2: "Blueprints plus bricks - hearing Jesus without doing is a drawing that collapses when weather turns; obedience under pressure proves whether hearing became trust."
 level_3: "Pick one command you heard this week and do it before you add another study note - hearing alone is sand."
 level_4: "Rock and sand split on doing, not hearing alone - [[Grateful Obedience]] names the motive: works prove faith alive because grace already saved, not to buy heaven."
-level_5: "A coworker quoted James like faith plus works gets you in - you explain works prove faith is real; they do not buy the door Christ already opened."
+level_5: "Create a teaching that keeps Paul's answer about salvation and James's answer about living faith distinct, then apply both without making works the price of heaven."
 examples:
   - "A coworker quoted James like you need faith plus works to get in - one sentence: works prove faith is real; they do not buy the door Christ already opened."
   - "Confident I am saved but the same selfish pattern untouched - James is not saying try harder to earn heaven; he is asking where the fruit is."

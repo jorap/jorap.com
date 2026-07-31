@@ -4,6 +4,7 @@ meta_title: "The Law of Legacy - A leader's lasting value is measured by success
 description: "A leader's lasting value is measured by succession."
 key_concept: |
   - Legacy is who carries the work after you - succession is the final exam.
+  - Succession is the final exam.
   - Hub: [[21 Laws of Leadership in the Bible]] - lesson 21 of twenty-one Bible laws; horizontal frame in [[Leadership]].
   
   {{< bible ref="1 Kings 2:1-4" >}}
@@ -12,11 +13,11 @@ key_concept: |
   - **Elijah Chooses Elisha** - Mantle passed; double portion requested - prophetic succession.
   {{< bible ref="Matthew 28:16-20" >}}
   - **Jesus' Plan of Succession** - Chose twelve after prayer; Great Commission extends to every generation.
-level_1: "The law of legacy is that lasting value is measured by who carries the work after you - succession is the final exam."
+level_1: "The law of legacy is that lasting value is measured by who carries the work after you."
 level_2: "David charged Solomon to walk in God's ways; Elijah threw his mantle on Elisha; Jesus chose twelve and sent them to all nations."
 level_3: "Name your successor in writing - skills, values, and one unfinished charge they should carry before you leave the role."
-level_4: "[[Great Commission]] and [[Faithful Steward]] - finish well by passing the baton, not hoarding a personal brand."
-level_5: "[[Faithful Steward]] names the well-done; [[Great Commission]] names why the baton is truth passed on, not a personal brand."
+level_4: "Legacy fails when the brand stays personal - the work dies with you unless succession is real."
+level_5: "[[Faithful Steward]] names the well-done; extend the baton through [[Great Commission]] truth passed on, not a personal brand."
 examples:
   - "My best project win mattered less than the two juniors who can run it without me - that is legacy."
   - "Elisha asked for a double portion - succession hunger, not empire hunger."

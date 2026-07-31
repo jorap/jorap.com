@@ -12,8 +12,8 @@ key_concept: |
 level_1: "Moved with compassion means Jesus felt the crowd's pain in His gut and reached out before procedure or schedule."
 level_2: "Like seeing a friend cry and stopping what you were doing to help before you check the clock, feeling preceded touch."
 level_3: "Let need move you to act before you optimize the calendar - compassion that waits for a slot may never arrive."
-level_4: "Mark 1:41 says He was moved with compassion before He touched the leper - the calendar bent for real people, not throughput."
-level_5: "[[Gentleness]] and [[Servant Leadership]] follow the same sequence - see, feel, touch; schedule follows calling, not the reverse."
+level_4: "Compassion can rightly interrupt throughput, but not every need can own the whole calendar - [[Servant Leadership]] holds urgency, limits, and the person in front of you together."
+level_5: "Create a response rhythm that sees the need, acts with [[Gentleness]], and extends care through [[Servant Leadership]] so help lasts beyond one interrupted moment."
 examples:
   - "I had the afternoon blocked for [[Deep Work]] and the neighbor knocked shaken - moved with compassion means the plan bends, not the person waits until Friday."
   - "The player walked past a kid sitting alone after practice - Jesus touched the leper because compassion moved first, not because the schedule had a slot."

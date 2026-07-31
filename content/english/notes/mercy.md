@@ -22,7 +22,7 @@ level_1: "Mercy withholds the punishment deserved and calls you to show the same
 level_2: "The beatitude ties compassion outward to compassion returned - like sharing your snack and finding someone saved you a seat later."
 level_3: "Before you play judge, remember you needed mercy first - then act toward the debtor the way you wanted the King to act toward you."
 level_4: "Grace gives good you could not earn; mercy spares bad you had coming - [[Free Grace]] lands the pair on eternal life at faith."
-level_5: "[[Grace]] and [[Forgiveness]] pair with [[Judge Not]] and [[Love Your Enemies]] - [[Sunk Cost Fallacy]] in reverse stops collecting old hurt when the ledger closed."
+level_5: "Create a merciful response that draws from [[Grace]], releases the debt through [[Forgiveness]], refuses final judgment through [[Judge Not]], and extends compassion toward [[Love Your Enemies]]."
 examples:
   - "I cut someone off in the group chat after they forgot my birthday - mercy is compassion I would want when I am the one who dropped the ball, not payback dressed as justice."
   - "A coworker apologized again for the same mistake - mercy forgives from the heart; boundaries stay where trust still rebuilds."

@@ -10,7 +10,7 @@ level_1: "Process mapping is drawing how work actually moves - handoffs, waits, 
 level_2: "Like tracing the path people actually walk, not the sidewalk on the plan - documented process is often aspirational."
 level_3: "Stand behind the counter for three lunch rushes before redrawing checkout - shadow one full cycle, then draw boxes and arrows."
 level_4: "Committee templates before observation are decoration - stale diagrams train new hires into workarounds when reality diverges."
-level_5: "[[Shadow the Work]] is the move; [[People-Centered Design]] is the principle - mapping without watching fits nobody inside the process."
+level_5: "Build a living map: [[Shadow the Work]], draw the real handoffs, test it with the people inside the process, and update it when reality changes."
 examples:
   - "The shift-change chart had three tasks with zero arrows to an owner - mapping from the whiteboard, not memory, showed the gap in one pass."
   - "I stood behind the counter for three lunch rushes before we redrew checkout - the slide had one tap, reality had four stalls."

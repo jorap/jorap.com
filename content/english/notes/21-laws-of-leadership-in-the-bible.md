@@ -5,12 +5,14 @@ meta_title: "21 Laws of Leadership in the Bible - Maxwell's Laws Through Scriptu
 description: "Twenty-one leadership laws illustrated with Old and New Testament stories - one claim per lesson, three biblical cases each."
 key_concept: |
   - Scripture illustrates leadership laws the way case studies illustrate business books - one hub, twenty-one lessons, three Bible stories each.
+  - The laws describe faithful influence after [[Free Grace]] - they do not earn eternal life.
+  - Workplace extensions belong in [[Leadership]], [[Leadership Is Influence]], and [[Servant Leadership]] while this hub stays scripture-first.
   - Twenty-one laws, three biblical examples each - link and drill like the rest of the faith cluster.
 level_1: "Twenty-one Laws of Leadership in the Bible is a faith hub that pairs Maxwell's leadership laws with three scriptural case studies each."
-level_2: "Maxwell's law names frame each lesson; biblical cases from Aaron, Deborah, Nehemiah, and Paul illustrate influence - not modern CEO anecdotes."
-level_3: "Pick the law you need this week for discipleship growth and faithful influence - not to earn eternal life."
-level_4: "Start at [[Free Grace]], then drill individual laws - order matters less than applying the right lesson now."
-level_5: "Extend into workplace notes like [[Leadership]], [[Leadership Is Influence]], and [[Servant Leadership]] while this hub stays scripture-first."
+level_2: "Maxwell's law names organize the lessons, while biblical cases show how each law works through people such as Aaron, Deborah, Nehemiah, and Paul."
+level_3: "Pick one law you need this week, read its three cases, and choose one faithful influence move to practice."
+level_4: "The framework helps compare leadership patterns, but Scripture governs the lesson and [[Free Grace]] keeps influence separate from earning eternal life."
+level_5: "Add or revise a law lesson by defending one leadership claim through three scriptural cases, then extend its workplace implications without turning the hub into CEO advice."
 shareable_thought:
   - "Twenty-one leadership laws illustrated with Old and New Testament stories - one claim per lesson, three biblical cases each."
   - "Scripture illustrates leadership laws the way case studies illustrate business books - one hub, twenty-one lessons, three Bible stories each."

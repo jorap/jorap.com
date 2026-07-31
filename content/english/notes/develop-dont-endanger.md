@@ -11,7 +11,7 @@ level_1: "Develop, do not endanger means challenging people without drills where
 level_2: "A drill is like medicine - the right dose builds skill; too much leaves injury where growth should have been."
 level_3: "Before you run a hard drill, ask what skill it builds and what injury you could remove first - swap the hazard if you can."
 level_4: "Intensity theater survives when purpose is weak - develop skill, do not endanger people to prove the session was hard."
-level_5: "The clinic drills fire evacuation with a walk-through, not by blocking the only exit - you design a challenge that builds skill without lethal exposure."
+level_5: "Design a challenge that trains the real skill, removes avoidable harm, and increases difficulty only when the safer version no longer develops the person."
 examples:
   - "The clinic can drill fire evacuation with a walk-through - not by blocking the only exit and hoping everyone stays calm."
   - "A conditioning set can build endurance - an uncontrolled water exercise adds lethal risk without improving sport-specific performance; pick the drill that develops the skill."

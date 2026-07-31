@@ -9,8 +9,8 @@ key_concept: |
 level_1: "The 12 Week Year splits big goals into twelve-week chunks with a real deadline you can feel on the calendar - not vague annual resolutions."
 level_2: "Quarters you can feel beat annual resolutions that die in February - compressed horizons put weekly numbers against an arc you can miss."
 level_3: "Map one wiki project to a twelve-week arc with weekly checkpoints - vague annual goals become a date you can miss."
-level_4: "Drift shows up before the year is gone when weekly numbers run against the arc - [[Periodic Knowledge Review]] rhythm fits naturally at week twelve."
-level_5: "Compress goals into quarters you actually feel - tradeoff against [[Slow Productivity]] when quarterly intensity skips depth."
+level_4: "Drift shows up before the year is gone when weekly numbers run against the arc - tradeoff against [[Slow Productivity]] when quarterly intensity skips depth; [[Periodic Knowledge Review]] fits at week twelve."
+level_5: "Ship the arc at week twelve, then start the next - treat the year as four felt deadlines, not one vague resolution."
 examples:
   - "Twelve-week sprint on one fitness goal beat a vague annual resolution - week ten finally bit."
   - "The team treated the quarter like a season - one scoreboard, weekly film, no fake annual plan."

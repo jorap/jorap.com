@@ -6,12 +6,13 @@ key_concept: |
   {{< bible ref="Luke 14:28-30" emphasize="28" >}}
   
   - Following Christ is worth it - and Jesus refused bait-and-switch math; count the cost before you claim the tower is half built.
+  - The cost Jesus names is discipleship weight, not a price tag on heaven.
   - [[Discipleship]] without cost honesty breeds quitters who thought faith was a mood.
-level_1: "Count the cost is naming what obedience will actually cost this season - time, reputation, comfort - before you swear allegiance."
-level_2: "Jesus told builders to estimate before breaking ground - like checking if you have enough bricks before the wall stops mid-air."
-level_3: "Under [[Free Grace]], the gift of eternal life is free - the cost Jesus names is discipleship weight, not a price tag on heaven."
-level_4: "[[Take Up Your Cross]] is the daily lane; counting cost is the honest spreadsheet before you swear allegiance on stage."
-level_5: "[[Fail on Paper First]] is the garden echo - same move before deploy, before vows, before the public yes."
+level_1: "Counting the cost means naming what discipleship will require before making the commitment."
+level_2: "Jesus' builder image calls for honest preparation so obedience is not sold as a mood without time, comfort, or reputation at stake."
+level_3: "Before accepting the role, list the weekly time, travel, and tradeoffs the yes will require."
+level_4: "Under [[Free Grace]], eternal life is a gift while discipleship carries cost; mixing those lanes puts a price tag on heaven."
+level_5: "Create a cost check for major commitments and use it to shape a faithful yes, no, or smaller first step."
 examples:
   - "I said yes to leading small group without counting Thursday nights against travel season - Jesus' builder image was me stopping mid-wall in March."
   - "The kid who wanted to follow everywhere until he heard no spare bed - Luke 14 cost counting is love that refuses fake sales pitches."

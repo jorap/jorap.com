@@ -6,6 +6,7 @@ key_concept: |
   {{< bible ref="Matthew 25:14-30" emphasize="23" >}}
   
   - Faithful use compounds; buried talent loses even what was given - reward can shrink without un-saving you.
+  - Wasted seasons may cost reward without reopening [[Justification]].
   
   {{< bible ref="1 Corinthians 3:12-15" emphasize="15" >}}
   
@@ -21,9 +22,9 @@ key_concept: |
   - PKM mirror: [[Failure as Feedback]] - a burned work is feedback on what to build differently, not proof you were never in the garden.
 level_1: "Loss of reward means a saved believer can forfeit repayment for faithful living while eternal life stays secure on Christ."
 level_2: "Like watering a plant instead of hiding the seed in a drawer, faithful use compounds what the master gave - bury it and even that talent can be lost."
-level_3: "Serve with what you have now - wasted seasons may cost reward at the [[Judgment Seat]] without reopening [[Justification]]."
+level_3: "Serve with what you have now - wasted seasons may cost reward at the [[Judgment Seat]]."
 level_4: "Worthless works burn at the judgment seat - eternal life stays on faith alone, but wood hay and stubble do not earn repayment."
-level_5: "Two ledgers: [[Free Grace]] settles eternal life at faith; [[Eternal Rewards]] settle what lasted - [[Standing vs Fellowship]] keeps shame from collapsing standing."
+level_5: "Build for the reward ledger without reopening standing - [[Free Grace]] settles life at faith; [[Eternal Rewards]] and [[Standing vs Fellowship]] keep shame from collapsing the categories."
 examples:
   - "Wasted years of selfish living and terror I am not saved - reward may burn at the judgment seat; my standing was settled when I trusted Christ."
   - "Hidden sin exposed and shame screamed heaven access revoked - confess, restore fellowship, keep walking; justification on Christ does not get re-opened by a bad season."

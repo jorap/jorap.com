@@ -4,13 +4,14 @@ meta_title: "Adaptability - Adjust When the Ground Moves"
 description: "Adaptability swaps the method when conditions shift - same aim, different plan."
 key_concept: |
   - Keep the goal, swap the method when the ground moves.
+  - Constant pivot breaks [[Let Your Yes Be Yes]] when people counted on a plain commitment - adapt to changed conditions, not convenience.
   - Adaptability is changing method without losing aim when conditions, tools, or opponents shift.
   - The tell is not whether you adapt - it is whether the goal survives the pivot intact.
 level_1: "Adaptability is keeping the goal while swapping the method when conditions shift."
 level_2: "Like walking another street when the path to school is blocked - same classroom, different route; a team switches defense when the opponent catches fire."
 level_3: "When the plan breaks, name the target again before picking a new route - change tools or timing, not the outcome you promised."
-level_4: "The test is whether the aim survives the pivot - not whether you changed at all."
-level_5: "Constant pivot breaks [[Let Your Yes Be Yes]] when people counted on a plain commitment - adapt when the counter responds, not when convenience shifts."
+level_4: "Adaptability protects the aim when conditions change, but constant pivoting trades trust for convenience and can quietly replace the commitment itself."
+level_5: "Design fallback routes for the same goal, name the signal that triggers each switch, and revise the options when a real counter exposes a weak plan."
 examples:
   - "Rain canceled our outdoor run and we moved practice to the covered court - same goal of getting reps in, different floor when the weather shifted."
   - "The school bus was late so we walked - same deadline for drop-off, different route when the morning plan broke."

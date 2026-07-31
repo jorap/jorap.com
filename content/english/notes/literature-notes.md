@@ -9,8 +9,8 @@ key_concept: |
 level_1: "Literature notes capture your take on a source in your own words - what it argued and what you think, not pasted highlights."
 level_2: "Like telling a friend the story in your voice instead of reading every yellow mark back to them, the author's idea passes through you first."
 level_3: "After you read, write one page in your words - if it reads like the highlight reel, you captured the book, not your thinking."
-level_4: "Literature notes sit between reading and evergreen writing - they translate the author into your vocabulary before you link ideas."
-level_5: "[[Atomic Notes]] grow from literature notes when one claim earns its own page - [[Layered Reading]] feeds the stack without a highlight dump."
+level_4: "Literature notes sit between reading and evergreen writing - skip the translation step and you link quotes you never owned."
+level_5: "Grow [[Atomic Notes]] from literature notes when one claim earns its own page - [[Layered Reading]] feeds the stack without a highlight dump."
 examples:
   - "I wrote one paragraph on the coach's chapter about zone defense, not yellow highlights on every page."
   - "The PTA recap was what I actually remembered from the meeting, not a transcript of every speaker."

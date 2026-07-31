@@ -6,11 +6,11 @@ key_concept: |
   - A quote bank worth reopening beats rereading whole books when you need one line in conversation.
   - Paper ancestor of linked notes - same job as capture, different century.
   - [[Literature Notes]] feed the bank; [[Layered Reading]] shortens sources before filing.
-level_1: "A commonplace book is a quote bank you reopen - one line ready when you need it, not rereading whole books."
-level_2: "Like copying the best joke from a book onto one page - a preacher keeps sermon quotes in one worn notebook."
-level_3: "Copy the sermon line and the recipe into one book you actually reopen - [[Literature Notes]] feed the bank before you file."
-level_4: "Curation beats rereading entire sources when you need one line in conversation - paper ancestor of linked notes."
-level_5: "Pairs with [[Layered Reading]] to shorten sources before filing; [[Analog Capture Tools]] when paper still wins before wikilinks."
+level_1: "A commonplace book is a collection of quotes and ideas kept for later reuse."
+level_2: "It shortens the path back to a useful line by curating passages instead of requiring a full reread."
+level_3: "Copy the sermon line or recipe into one book you actually reopen, with enough source context to use it later."
+level_4: "Curation saves retrieval time but can strip context or become a dead quote pile; [[Literature Notes]] add your own words before reuse."
+level_5: "Build a commonplace collection around a live project, then turn one saved line into a linked note or finished piece."
 examples:
   - "Coach's old basketball playbook of sets and halftime talks - same job as my [[Capture]] file, paper instead of wikilinks."
   - "Grandpa's notebook of sermon lines and recipes - quotes worth keeping before anyone had a [[digital garden]]."

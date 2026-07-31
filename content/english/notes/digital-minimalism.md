@@ -11,7 +11,7 @@ level_1: "Digital minimalism is the smallest note-taking setup that still works 
 level_2: "Each new app is another hose in the yard - like a kitchen drawer where every tool added rattles loose and steals time from cooking."
 level_3: "Count what you babysit weekly and cut one before you add another - fewer paths beats more capture options you never open."
 level_4: "Every new app is a pipe you babysit - [[Minimum Effective Dose]] trades some [[Digital Serendipity]] for fewer leaks and fewer pings pulling you off the note you were writing."
-level_5: "You drop the second gym bag and the backup jump rope - cut capture paths until the smallest setup still catches sparks without maintenance eating the work."
+level_5: "Design the smallest note system that still catches, finds, and exports ideas - then write the rule that blocks a new tool until one leaves."
 examples:
   - "We dropped the second gym bag and the backup jump rope - fewer things means I actually know where the one working pair of shoes lives."
   - "The front desk runs one scheduling app, not four - fewer sync layers means fewer places patient reminders get lost."

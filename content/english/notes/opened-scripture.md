@@ -13,7 +13,7 @@ level_1: "Opened scripture means walking someone through the Bible until the tex
 level_2: "Like a teacher opening a story line by line - meaning tied to the listener, not proof-texting without context."
 level_3: "In Bible study, read the passage, then explain what Moses and the Prophets meant before jumping to application."
 level_4: "If you only drop references, you copied an index - opened scripture makes the Book legible so the heart can burn."
-level_5: "[[Layered Reading]] and [[Discipleship]] follow the same move - [[It Is Written]] cites; opened scripture explains."
+level_5: "Build a study that starts with [[It Is Written]], uses [[Layered Reading]] to explain the passage in context, and gives [[Discipleship]] a truth people can carry into life."
 examples:
   - "I dropped three verses in the group chat and walked away - Jesus walked seven miles explaining one story on the Emmaus road."
   - "Bible study leader read the passage and moved to application in ninety seconds - He took time to open what Moses and the Prophets meant."

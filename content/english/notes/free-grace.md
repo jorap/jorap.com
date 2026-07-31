@@ -15,7 +15,7 @@ level_1: "Free grace means eternal life by hearing Christ's word and believing -
 level_2: "Like a ticket already bought - belief crosses from death to life now, not after you perform enough to deserve the seat."
 level_3: "Rest on the promise today when the week was ugly - assurance is not a scorecard; works belong to the walk after."
 level_4: "Good works follow grace - they do not purchase the ticket or replace assurance with performance anxiety."
-level_5: "[[Sanctification]] and [[Discipleship]] belong to the walk after [[Justification]]; [[Assurance]] rests on the promise, not anxiety about earning care."
+level_5: "Build a plain teaching map that keeps [[Justification]] free, places [[Sanctification]] and [[Discipleship]] after the gift, and grounds [[Assurance]] in Christ's promise."
 examples:
   - "A teammate listed every good deed this month like it was his ticket to heaven - I trust Christ's promise for eternal life, not my report card from the season."
   - "My kid thinks he has to be extra good the week before his birthday to deserve presents - grace does not work that way with God either; the gift is already decided before the behavior."

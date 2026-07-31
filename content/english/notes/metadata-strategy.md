@@ -11,7 +11,7 @@ level_1: "Metadata strategy means tags, categories, dates, and aliases exist to 
 level_2: "Like labels on boxes in the attic, light tags beat taxonomy you never maintain - metadata earns its keep when search takes ten seconds."
 level_3: "Cap active tags at five you would actually pick - if tagging takes longer than writing, the system fights you."
 level_4: "Frontmatter is publish metadata; the body is the writing - YAML breaks the build, Markdown typos rarely do."
-level_5: "[[PARA Method]] buckets plus light aliases beat [[Building a Personal API]] complexity when findability is the goal."
+level_5: "Design the smallest tags-and-aliases scheme that makes [[PARA Method]] buckets searchable, then extend it toward [[Building a Personal API]] only when a real lookup needs more structure."
 examples:
   - "I tagged every note with twelve labels and used none on search - cut to five I would actually pick."
   - "The team wiki had forty categories; new hires filed everything under Misc within a week."

@@ -11,7 +11,7 @@ level_1: "Sustainable performance is output you can repeat next month without bu
 level_2: "A sprint that mortgages next month is borrowing trouble - repeatability is the test, not how heroic this week felt."
 level_3: "Set this month's pace by what you can repeat next month without cutting safety or sleep - hero weeks borrow against the bill that always arrives later."
 level_4: "Burnout and corner-cutting both show up on the lagging indicator - [[Energy Protects Judgment]] when nobody is watching is the same lane."
-level_5: "Pace you can hold beats a sprint that mortgages next month - same tradeoff as [[The 12 Week Year]] intensity when quarterly push skips recovery."
+level_5: "Build recovery into the plan before the sprint - same intensity question as [[The 12 Week Year]] when quarterly push skips rest."
 examples:
   - "I cannot sprint bedtime-and-homework heroics five nights a row - sustainable performance is an earlier lights-out one night so Thursday does not blow up."
   - "The kitchen ran Friday pace five nights straight and quality slid by Wednesday - sustainable performance would have cut a night off instead of mortgaging next week's tickets."

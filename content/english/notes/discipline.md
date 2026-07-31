@@ -11,7 +11,7 @@ level_1: "Discipline is keeping the commitment when the feeling that started it 
 level_2: "Show up for practice when you want the couch - discipline matches watering plants on vacation when excitement left the room."
 level_3: "Do what you said you would do today even when nobody is watching and nobody claps - the boring rep counts anyway."
 level_4: "The applause was never reliable fuel - [[Habit Formation]] and systems carry the rep when motivation walked out; Tuesday work defines the person, not launch day."
-level_5: "The baker opens at 4am whether she is inspired or not - you build the shift you committed to when motivation was not there."
+level_5: "Design a routine that keeps the commitment after motivation leaves - fix the cue, smallest rep, and fallback for the days nobody claps."
 examples:
   - "The baker opens at 4am whether she is inspired or not - discipline is the shift she committed to when motivation was not there."
   - "Discipline is loading the dishwasher when I would rather scroll - same as brushing teeth when you are already late."

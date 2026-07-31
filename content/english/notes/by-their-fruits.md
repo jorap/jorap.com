@@ -11,11 +11,11 @@ key_concept: |
   - Wolves may wear sheep's clothing; time and results tell. Garden parallel: [[Signal vs Noise]] - what actually produces good over time? The [Issues](/notes/issues/) audit - does the teaching leave the graph healthier or broken?
   - I check teachers by what their teaching produces, not by how polished the talk sounds.
   - The wolf does not announce itself - only a season of results tells you what is underneath the sheep's clothing.
-level_1: "By their fruits you evaluate teachers by outcome over time - wolves wear sheep's clothing; results tell, not polished talk."
-level_2: "Like a tree with thorns never growing sweet grapes - a smooth-talking coach makes big promises day one; by month three the team looks tired and bitter."
-level_3: "Watch whether followers look stressed and bitter by month three - fruit told you more than any clinic title on day one."
-level_4: "Discern motive and outcome over time - do not condemn souls, but do check fruit before you follow."
-level_5: "Jesus pairs this with [[Judge Not]] - garden parallel: [[Signal vs Noise]]; the [Issues](/notes/issues/) audit asks whether teaching leaves the graph healthier or broken."
+level_1: "By their fruits means judging a teacher or teaching by the results it produces over time."
+level_2: "Polished words can hide harmful direction, so repeated outcomes reveal more than first impressions."
+level_3: "Before following a teacher, watch what the teaching produces in people's lives across a season."
+level_4: "Fruit supports discernment, not a verdict on someone's soul; time, context, and [[Judge Not]] limit snap conclusions."
+level_5: "Create a fair fruit check that tracks teaching, outcomes, and time, then use it to improve what you follow or teach."
 examples:
   - "The youth coach talks smooth on day one but his players look stressed and bitter by month three - fruit told me more than any clinic title ever could."
   - "A trending productivity guru's followers still drown in inbox chaos - grapes from grapevines, thorns from thistles, time and results tell."

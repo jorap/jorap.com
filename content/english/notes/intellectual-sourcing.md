@@ -4,13 +4,14 @@ meta_title: "Intellectual Sourcing - Track Where Ideas Come From"
 description: "Cite sources in notes to trust synthesis and find the original later."
 key_concept: |
   - I cite sources so I can trust what I wrote and find the original six months later.
+  - [[Capture]] is where the source lands first; [[Active Knowledge Curation]] keeps citations from rotting into folklore.
   - Without a source line, I will not trust my own synthesis in conversation.
   - A cited note is one I can defend months out - uncited summaries feel like gossip.
 level_1: "Intellectual sourcing is writing down where an idea came from so you can find the book or article again and know you quoted it right."
 level_2: "Cite sources so you can trust what you wrote six months later - like labeling a box before you put it in storage."
 level_3: "Tape the coach's article title under the quote in the playbook - future you can reach the original in one click, not guess if you misquoted."
 level_4: "Unsourced notes become guesses - a link or citation turns a half-remembered line back into evidence you can defend in conversation."
-level_5: "[[Capture]] is where the source lands first; [[Active Knowledge Curation]] keeps citations from rotting into folklore."
+level_5: "Build a sourcing practice that captures the original, records the exact claim, and lets a later reader retrace or challenge your synthesis."
 examples:
   - "I taped the coach's article title under the quote in our playbook so six months later we know if the source still says what we thought."
   - "My sermon notes app just says 'trust me, great quote' with no reference - six months later I cannot tell if I am misquoting the pastor or making it up."

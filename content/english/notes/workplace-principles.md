@@ -8,11 +8,11 @@ key_concept: |
   - Meeting-sized examples with wikilink back to gospel depth when I need the full move.
   - The same ethics as Eternal Principles, in plain office language where religious terms sound awkward.
   - Faith stays in the faith cluster; these are the versions I can share with a secular team without watering down the move.
-level_1: "Workplace principles are Eternal Principles ethics in plain office language - one standup-sized claim per note you can share with a secular team."
-level_2: "Each note holds one claim in plain words - no sermon deck, no theology dump on first read; same ethics, different wrapper."
-level_3: "Write the standup line first, then link to gospel depth when you need the full argument - office register works because teammates hear the move before the vocabulary."
-level_4: "Faith stays in the faith cluster; these are versions for secular rooms without watering down the move - meeting-sized examples with wikilink back when the room can hear the source."
-level_5: "[[Eternal Principles]] in office clothes - one claim per note, wikilink back when you need gospel depth, not when it would drown the move."
+level_1: "Workplace principles are eternal ethics stated as one plain, standup-sized claim for a secular team."
+level_2: "The office version keeps the same ethical move while removing religious terms that can hide it on first read."
+level_3: "Write the standup-sized claim and a meeting-sized example first, then link to the faith source when deeper context helps."
+level_4: "Plain office language opens the idea to more teammates, but it can flatten the source; keep the full faith context linked without forcing it into every room."
+level_5: "Create a workplace note by translating one [[Eternal Principles]] claim into plain language, adding a real office scene, and linking back to its source."
 shareable_thought:
   - "The same ethics as Eternal Principles, in plain office language where religious terms sound awkward."
   - "One standup-sized claim per note."

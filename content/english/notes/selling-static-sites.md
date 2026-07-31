@@ -18,7 +18,7 @@ level_1: "Selling static sites means charging for the build and pass-off - margi
 level_2: "Static hosting is a minimal cost - the sale is craftsmanship and transfer, not inflated infra bills resold monthly."
 level_3: "Quote discovery and scope yes/no before you touch a theme repo - domain and hosting as separate line items."
 level_4: "Because bundled fog hides labor behind server rent, pass-off models need [[Plain Commitments at Work]] clarity upfront."
-level_5: "Build the first client site before the three-tier pricing PDF exists - delivery and care are the product, not reseller spread."
+level_5: "Productize delivery and care as the offer - [[Client Site Pass-Off]] and [[Static Site Client Scope]] extend the labor-margin model past reseller hosting."
 examples:
   - "Neighbor asked for a portfolio - quoted build, domain, and a modest hosting line; no mystery monthly package."
   - "Pastor wanted a sermon archive - static fit; said no to member login and scoped brochure plus archive pages only."

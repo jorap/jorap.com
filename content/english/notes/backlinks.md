@@ -9,11 +9,11 @@ key_concept: |
   - Utility surface: link by URL from content notes, not `[[wikilinks]]`.
   - Inbound wikilinks ranked by count - see which notes the garden treats as anchors.
   - Anchor notes are the ones other notes link to most - rank by inbound count.
-level_1: "Backlinks show which notes link here - inbound links with snippet context, not just a count."
-level_2: "Like friends pointing at who knows the rules - a map shows which towns have the most roads in; hubs get linked for a reason."
-level_3: "Check inbound links before you edit a note - read why others pointed here, not just the link count."
-level_4: "Heavily linked pages are hubs worth revisiting - anchor rank reveals load-bearing notes in the graph."
-level_5: "Utility surface pairs with [[Issues]], [[Random Duo]], and [[Create Note]] - anchor rank shows which notes the graph treats as load-bearing."
+level_1: "Backlinks are inbound links that show which notes point to the current note."
+level_2: "They reveal how the garden uses a note, and snippet context explains why each link was made."
+level_3: "Before editing a note, read its backlinks to see which claims and pages depend on it."
+level_4: "High backlink counts can reveal load-bearing hubs, but counts without context can mistake popularity for importance."
+level_5: "Build an anchor-note view that ranks inbound links and keeps a snippet beside each one."
 shareable_thought:
   - "Inbound wikilinks ranked by count."
   - "See which notes the garden treats as anchors."

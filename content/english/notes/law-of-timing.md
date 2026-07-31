@@ -16,7 +16,7 @@ level_1: "The law of timing is that the same action succeeds or fails depending 
 level_2: "Saul offered sacrifice early and lost the kingdom; Esther waited for the scepter; Jesus avoided Judea until His hour came."
 level_3: "Delay the public move one beat when the room is hot but the map is not ready yet."
 level_4: "Waiting is active navigation, not passive drift - impatience costs kingdoms while overcaution misses the window."
-level_5: "[[Pray Before You Choose]] names the faith lane; [[Strategic Foresight]] treats timing as part of the plan, not luck."
+level_5: "Extend timing into [[Pray Before You Choose]] on the faith lane and [[Strategic Foresight]] so the clock is part of the plan, not luck."
 examples:
   - "I announced the reorg before the board approved - right vision, fatal clock."
   - "Esther fasted three days before she entered the throne room - timing saved a nation."

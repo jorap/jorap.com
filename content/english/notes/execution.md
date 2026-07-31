@@ -9,7 +9,7 @@ level_1: "Execution is turning a decision into finished work - not slides, inten
 level_2: "Close the tab marked decided - like naming the next physical action and doing it before you open another thread."
 level_3: "Name the next physical action that finishes the decision and do it before you open another thread - discussed is not done."
 level_4: "Execution turns a decision into finished work - the standard is done, not discussed; pairs with [[Getting Things Done]] next-action clarity when the gap is task capture, not intent."
-level_5: "The coach drew a beautiful play on the whiteboard - you get players on the field and name who cuts where on the first whistle."
+level_5: "Build an execution handoff that names the owner, next physical action, deadline, and proof of done so the decision can land without another meeting."
 examples:
   - "Our block cleanup had a group chat full of enthusiasm and no bags until one neighbor showed up with gloves and a start time."
   - "The coach drew a beautiful play on the whiteboard - execution started when players were on the field and someone named who cuts where on the first whistle."

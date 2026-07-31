@@ -4,12 +4,13 @@ meta_title: "Follow the Rhythm - Cadence Beats Heroic Bursts"
 description: "Reliable cadence beats sporadic heroics - the same small moves on schedule outperform panic sprints."
 key_concept: |
   - Hero weeks collapse when the rhythm was never real - cadence is the boring repeat that still works on Tuesday.
+  - [[Cap Today's Commitments]] keeps the cadence honest about capacity.
   - [[Change Takes Repetition]] names why one great week does not rewrite the default.
 level_1: "Follow the rhythm means reliable cadence beats sporadic heroics - the same small moves on schedule outperform panic sprints."
 level_2: "Like brushing teeth every night - the win is showing up the same way, not one perfect marathon session."
 level_3: "Schedule the weekly review on Friday whether you feel inspired - the beat runs on calendar, not mood."
 level_4: "[[Process Over Outcomes]] trusts the repeat; [[Habit Formation]] wires the beat until panic is not the only fuel."
-level_5: "[[Cap Today's Commitments]] keeps the rhythm honest about capacity; [[Change Takes Repetition]] names why one great week does not rewrite the default."
+level_5: "Build a cadence that survives an ordinary Tuesday - cap the load, fix the cue, and add a restart rule for the week the rhythm breaks."
 examples:
   - "I shipped nothing for two weeks then pulled an all-nighter - the blog post that stuck came from thirty quiet minutes every morning, not the crash."
   - "Youth practice drills the same footwork every Tuesday - game day works because the rhythm was already in the legs."

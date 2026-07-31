@@ -15,7 +15,7 @@ level_1: "Abiding in Christ is staying connected to Jesus as the vine - fruit co
 level_2: "Like a branch cut from a tree, disconnected effort dries up; like a kid pedaling only while Dad holds the bike, connection keeps the work alive."
 level_3: "Open Scripture and pray before forcing spiritual output - abiding means plugged-in dependence, not performance theater."
 level_4: "Fruit comes from attachment before grind; pruning hurts but serves yield over time under [[Free Grace]]."
-level_5: "Under [[Free Grace]], fruit never earns the branch its place - self-powered effort without abiding is dead wood, same trap as treating [[Sanctification]] as pure self-stacked effort."
+level_5: "Build a daily rhythm of Scripture, prayer, and obedience that keeps work attached to Christ, then use its fruit and pruning to refine the rhythm over time."
 examples:
   - "I snap at my kid after a week with almost no prayer or Scripture, and I know where the fruit went - abiding is opening the Bible before the news feed wins again."
   - "I checked email three times before I prayed this morning and wondered why God felt far away - staying connected is the daily choice, not the badge from conversion day."

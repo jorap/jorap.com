@@ -12,7 +12,7 @@ level_1: "A calm boundary is one clear limit on behavior, named steady - not a c
 level_2: "Limit the behavior, keep the person - firm edge with steady tone so the line stays believable tomorrow."
 level_3: "Pull a teammate aside: ride the refs if you want, do not go at our guys - boundary without contempt."
 level_4: "Because rage erodes both boundary and relationship, [[Emotional Regulation]] keeps you from mailing the first-draft rant."
-level_5: "State the line once without insult - repeat only the boundary; pair with [[Break the Escalation Cycle]] before snark feeds itself."
+level_5: "Pair with [[Break the Escalation Cycle]] before snark feeds itself - keep the line readable under pressure."
 examples:
   - "A teammate kept trash-talking our own bench - I pulled him aside: \"Ride the refs if you want; do not go at our guys."
   - "A client kept calling a personal cell after hours - answer until six on this number, then use the office line."

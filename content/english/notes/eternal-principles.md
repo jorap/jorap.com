@@ -17,7 +17,7 @@ level_1: "Eternal Principles is the garden hub that splits Jesus' teachings into
 level_2: "Scripture becomes index cards on a ring - one claim per note with verse anchor separate from commentary, linkable like any other atom."
 level_3: "Open one spine note, read the verse block, then follow wikilinks to the principle you need today - order matters less once [[Free Grace]] is ground."
 level_4: "The ground is [[Free Grace]] - these principles are how I try to live once I have already received eternal life, not the price of heaven."
-level_5: "You split a long teaching into six review cards per spine note - you build a drillable library others can wander by section or tag."
+level_5: "Build a drillable library by splitting Jesus' teachings into one-claim spine notes, review cards, and links others can follow by need."
 shareable_thought:
   - "What Jesus taught that doesn't expire when the culture shifts - love God, love people, forgive, seek the kingdom first."
   - "I split them into one-claim notes so I can link and drill them like the rest of the garden."

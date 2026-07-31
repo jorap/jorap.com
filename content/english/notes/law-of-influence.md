@@ -15,8 +15,8 @@ key_concept: |
 level_1: "The law of influence is that leadership is influence - title optional, movement required."
 level_2: "Rahab hid spies because she believed - no crown, real sway; Eli's sons corrupted worship while Samuel rose without a badge."
 level_3: "Before you claim the chair, check whether anyone would follow if the title vanished tomorrow."
-level_4: "Badge without followers is a solo walk - [[Leadership Is Influence]] is the workplace echo Paul showed swaying soldiers from chains."
-level_5: "[[Influence Without Title]] and [[Title Without Influence]] split the two failure modes Rahab and Eli's sons illustrate."
+level_4: "Badge without followers is a solo walk - title optional, movement required; influence is what people grant, not what the org chart prints."
+level_5: "Extend the split into practice - [[Influence Without Title]] leads without a badge; [[Title Without Influence]] warns when the org chart moves nobody."
 examples:
   - "No title on the project but people waited for my read before they moved - that was influence, not the empty manager slot."
   - "The elder who prayed over our street during the flood had no office - everyone still did what she asked."

@@ -11,7 +11,7 @@ level_1: "Peacemakers pursue reconciliation, truth in love, and de-escalation - 
 level_2: "Like fixing a broken fence with your neighbor instead of yelling from your yards - repair work, not comfort-keeping quiet."
 level_3: "Before you pick a side in a feud, ask what repair would require - then do that work before the next meeting."
 level_4: "Matthew 5:9 blesses those who do the reconciling work - avoiding conflict to keep comfort is not peacemaking."
-level_5: "The blessing ties peacemaking to family resemblance - acting like the Father who reconciled you through [[Free Grace]] first."
+level_5: "Create a repair practice that mirrors the Father's [[Free Grace]]: name the wrong, speak truth without heat, and make one concrete move toward reconciliation."
 examples:
   - "Two teammates were feuding in the locker room - I did not pick a side, I asked what it would take to fix it before the next game."
   - "Two coworkers wanted me to pick a side over lunch - I called the one I wronged first and asked what it would take to actually fix things."

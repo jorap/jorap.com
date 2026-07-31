@@ -9,7 +9,7 @@ key_concept: |
   - Install one lever at a time before I expect the room to feel different.
   - Personal or team change runs on a small set of principles you apply on purpose - not one heroic push.
 level_1: "Transformation principles are repeatable moves for personal or team change - not one heroic breakthrough that bends the system alone."
-level_2: "Real change is the same small steps repeated until the habit or team finally shifts - clear direction, honest starting point, owned action stack."
+level_2: "Real change is the same small steps repeated until the habit or team finally shifts - not one announcement that bends the system."
 level_3: "Install one transformation lever at a time before you expect the system to bend - repetition beats announcement."
 level_4: "Safe practice, measured feedback, and people first stack because one lever rarely moves a culture alone - [[Continuous Improvement]] names the loop, not a rally."
 level_5: "Personal or team change runs on principles you apply on purpose - same hub lane as [[Systems for Growth]] when compounding skill, not designing change."

@@ -17,7 +17,7 @@ level_1: "Follow Christ then lead means obeying Jesus before you set pace for th
 level_2: "Like reading compass north before giving marching orders - deny the shortcut when the room wants compromise."
 level_3: "Before you lead the room on a compromise, ask which seat the move serves - Christ or the org chart."
 level_4: "Visible leadership without private obedience is sand - upward allegiance before outward care."
-level_5: "[[Take Up Your Cross]] before I set pace for the room; [[Discipleship]] vs [[Leadership]] names two seats - [[God Centered Design]] asks who the plan ultimately serves."
+level_5: "Create a leadership rule that tests the plan against Christ's command, the people under your care, and the shortcut you would refuse in private."
 examples:
   - "Finance wanted the numbers softened and my team was watching - follow Christ, then lead was refuse the edit, explain why calmly, and own the fallout together."
   - "Sunday school asked me to skip the hard verse because parents might leave - I taught it plain anyway, then stayed after to answer questions - follow first, lead the room second."

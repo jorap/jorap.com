@@ -11,9 +11,9 @@ key_concept: |
   - The Father's free grace toward the unjust is the pattern: I love enemies because God loved me first.
 level_1: "Love your enemies means bless and pray for people who hurt you, not only those who love you back."
 level_2: "The Father sends sun and rain on just and unjust alike - enemy-love copies that pattern, not agreement with the harm."
-level_3: "When someone slanders you, pray before you reply - ordinary love loves those who love back; divine-shaped love blesses the persecutor."
-level_4: "Prayer and blessing are the practical handles - not pretending the harm did not happen, not retaliation dressed as justice."
-level_5: "The Father's [[Free Grace]] toward the unjust is the pattern - [[Turn the Other Cheek]] handles personal insult; enemy-love handles sustained opposition."
+level_3: "When someone slanders you, pray before you reply."
+level_4: "Enemy-love does not erase harm or dress retaliation as justice - the limit is blessing without pretending."
+level_5: "Extend enemy-love from the Father's [[Free Grace]] pattern - [[Turn the Other Cheek]] for personal insult; this note for sustained opposition."
 examples:
   - "Someone slandered me in a group chat and my thumb hovered over a reply - I prayed for them, not because they deserve it, because that is what the Father does with people like me."
   - "My neighbor's honking got under my skin and I almost left a nasty note - I baked cookies instead and asked if everything was okay."

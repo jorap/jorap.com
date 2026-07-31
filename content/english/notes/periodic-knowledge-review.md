@@ -10,7 +10,7 @@ level_1: "Periodic knowledge review means revisiting notes on a calendar rhythm 
 level_2: "Like checking your backpack every Friday instead of the night before a big test - scheduled passes, not panic review."
 level_3: "Block a recurring slot to walk the garden - prune stale links and refresh what you actually use before something breaks."
 level_4: "Orphans and drift compound when review waits for embarrassment - inbox, projects, and evergreens need the clock."
-level_5: "[[Maintenance Window]] and [[Active Knowledge Curation]] share the rhythm - [[Spaced Repetition]] handles cards; periodic review handles the graph."
+level_5: "Create a review calendar: use [[Spaced Repetition]] for cards, a weekly [[Maintenance Window]] for active notes, and quarterly [[Active Knowledge Curation]] for the graph."
 examples:
   - "First Sunday I reconcile the budget - not only when the card gets declined mid-commute."
   - "The clinic reviews charts every Friday at four - not only when a complaint lands."

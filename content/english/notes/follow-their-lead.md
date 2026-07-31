@@ -4,13 +4,14 @@ meta_title: "Follow Their Lead - Connect Without Taking Over"
 description: "Join their world - topic, pace, starting point - before trying to steer."
 key_concept: |
   - Skip their starting point and you are fixing a problem they were not naming.
+  - [[Listen Before Fixing]] names the same timing rule: understand first, redirect second.
   - Connection first, critique second - run their play once before you offer yours.
   - The redirect lands better once they know you actually understood their version first.
 level_1: "Follow their lead means starting where they are - connection before correction, not fixing a problem they never named."
 level_2: "Like trying their recipe once before you rewrite it - running their play proves you understood before you redirect."
 level_3: "Listen, run their version once, then offer your fix - the redirect lands after they know you heard them."
 level_4: "Because connection precedes correction, critique before understanding kills trust even when the fix is right."
-level_5: "Run their version once before you redirect - pairs with [[Listen Before Fixing]] when timing kills trust."
+level_5: "Create a feedback sequence that starts with their version, proves what you heard, and earns the right to offer a redirect they can shape."
 examples:
   - "My teammate wanted to run a inbound play I would never seen - I ran it once before I told him how I would do it."
   - "A coworker walked me through how she tracks patient callbacks - I watched the whole spreadsheet before I offered to reorder her columns."

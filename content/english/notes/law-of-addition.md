@@ -12,11 +12,11 @@ key_concept: |
   - **Jesus Gave a New Definition of Leadership** - Greatest serves - Son of Man came to give His life, not grab thrones.
   {{< bible ref="Philippians 2:1-11" >}}
   - **Paul Encouraged Putting Others First** - Christ's mind in you - empty yourself like He did.
-level_1: "The law of addition is that leaders add value by serving others - giving away advantage can become the blessing lane."
+level_1: "The law of addition is that leaders add value by serving others."
 level_2: "Abram let Lot pick first - generosity added peace, not loss; Jesus redefined greatness as service, Paul told Philippi to put others first like Christ."
 level_3: "Before the next promotion fight, name one cost you can absorb so someone else wins visibly - serve before you grab credit."
-level_4: "[[Humility and Service]] and [[Servant Leadership]] are the same move in faith and workplace lanes - addition without sacrifice becomes performance theater."
-level_5: "[[Law of Sacrifice]] names the toll; [[Humility and Service]] keeps addition from becoming performance theater."
+level_4: "Addition without real cost becomes performance theater - serving only when the camera is on does not add value."
+level_5: "Wire addition into the leadership stack - [[Law of Sacrifice]] names the toll; [[Servant Leadership]] is the workplace frame for serving before credit."
 examples:
   - "I let the junior pick the easier shift and the team trust jumped - addition looked like subtraction on my calendar."
   - "Mark 10 - James and John wanted thrones; Jesus named the cup of service."

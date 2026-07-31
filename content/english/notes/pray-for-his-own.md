@@ -16,7 +16,7 @@ level_1: "Pray for His own is the high priestly prayer - Jesus intercedes for Hi
 level_2: "The prayer moves in three rings - for Himself, for the twelve for keeping and unity, then for all who will believe through their word."
 level_3: "When church drama makes you want to quit, read John 17:11-23 - Jesus asked the Father to keep and unify people like us."
 level_4: "Because He is leaving, He asks the Father to keep what He bought - sanctify in truth, guard in the Father's name, make them one."
-level_5: "The longest prayer the Gospels record - glory, the hour, and the people the Father gave Him; [[Free Grace]] puts me in the those who will believe branch."
+level_5: "Build an intercession pattern from John 17: pray for God's glory, the keeping and unity of present disciples, and future believers reached through their word."
 examples:
   - "Church drama had me ready to quit - John 17:11-23 says Jesus asked the Father to keep and unify people like us, not that we would never fray."
   - "I prayed for my kids' faith and realized He already prayed for every future believer to see His glory - my parenting joins His intercession, not replaces it."

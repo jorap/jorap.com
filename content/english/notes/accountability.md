@@ -4,13 +4,14 @@ meta_title: "Accountability - Clear Ownership for Outcomes"
 description: "Accountability is naming who owns the result - and what happens when it slips."
 key_concept: |
   - Clear ownership - who answers for the outcome, the miss, and the fix.
+  - [[Blameless After-Action Review]] lets someone say "my call" without turning ownership into blame theater.
   - One owner per outcome beats a room where everyone was involved and nobody answers.
   - Name the owner, the miss, and the fix before the conversation ends.
 level_1: "Accountability is clear ownership - one person answers for the outcome, the miss, and the fix."
 level_2: "Like one captain carrying the cleanup bucket - shared involvement without a named owner lets work float."
 level_3: "Before the meeting ends, name one owner, what happens if it slips, and who reports back."
-level_4: "One owner beats shared vagueness - the room knows who carries the outcome home."
-level_5: "Pairs with [[Blameless After-Action Review]] - someone says \"my call\" without blame theater while the fix gets owned."
+level_4: "One owner prevents shared vagueness, but ownership needs enough authority to act and a blameless review when the system helped cause the miss."
+level_5: "Build an ownership agreement that names the result, owner, authority, slip response, and review loop before work starts."
 examples:
   - "The condo board did not say \"someone should fix the gate\" - they named a contact and a deadline in the group chat before anyone drove off."
   - "After a patient mix-up, the charge nurse named who ran the code cart and who documented before the shift ended."

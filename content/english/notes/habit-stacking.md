@@ -4,13 +4,14 @@ meta_title: "Habit Stacking - Piggyback on What You Already Do"
 description: "Piggyback a new tiny habit onto one that already runs without thinking, like notebook after coffee."
 key_concept: |
   - Habit stacking attaches a new small move to a habit that already runs on autopilot - one anchor, one add-on.
+  - [[Habit Formation]] decides once; stacking wires the new move without a separate reminder system.
   - The anchor has to already be bulletproof - stacking onto a habit you sometimes skip just gives you two habits you sometimes skip.
   - No calendar slot to defend, no motivation to summon - the existing habit does the reminding.
 level_1: "Habit stacking attaches a new small move to a habit that already runs on autopilot - one anchor, one add-on."
 level_2: "Like chaining beads on a string - the existing habit is the trigger; the new behavior rides its momentum."
 level_3: "After your stable daily anchor, attach one tiny new step - do not bolt a whole routine onto nothing."
 level_4: "Fighting for a fresh cue you might forget fails when the anchor already fires daily - stacking borrows an existing beat."
-level_5: "[[Habit Formation]] decides once; stacking is how you wire the new move without a separate reminder system."
+level_5: "Build a new stack by pairing one tiny move with a proven daily anchor, then extend it only after the added move also runs on autopilot."
 examples:
   - "After I clock in, I scan the shift-change sheet - the clock-in is the anchor, the scan piggybacked; no new time slot, just a chain."
   - "After I pour the first coffee, I open the pocket notebook - habit stacking attaches the new move to one that already runs on autopilot."

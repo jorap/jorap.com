@@ -9,11 +9,11 @@ key_concept: |
   - Stop throwing anger after sunk hurt.
   - Gospel source: [[Turn the Other Cheek]].
   - PKM parallel: [[Sunk Cost Fallacy]].
-level_1: "Breaking the escalation cycle is refusing to match insult for insult before tone-for-tone takes over."
-level_2: "Like taking a breath when someone yells - two kids trade insults until someone sends a calm answer and the loop stops getting louder."
-level_3: "Delete the matching draft, answer the fact, offer the new date - set boundaries without becoming what hurt you in the reply."
-level_4: "Breaking escalation is not passivity - you can name facts without pouring fuel on a reply-all war."
-level_5: "Gospel source: [[Turn the Other Cheek]]; PKM parallel: [[Sunk Cost Fallacy]] - refuse to win by volume you cannot sustain."
+level_1: "Breaking the escalation cycle means refusing to match insult, tone, or volume with more of the same."
+level_2: "A calm answer interrupts the feedback loop so facts and boundaries can be heard without adding fuel."
+level_3: "Delete the matching draft, answer the fact, and offer the next clear step."
+level_4: "De-escalation is not passivity; it can name harm and set limits, but it gives up the short-term thrill of winning by volume."
+level_5: "Create a response pattern your family or team can use to pause, name facts, set a boundary, and reopen the conversation."
 examples:
   - "A parent emailed the principal with a snarky line about our field trip delay - I deleted my matching draft, answered the fact, offered the new date, and broke the reply-all war before it started."
   - "My kid snapped first at dinner and I almost matched the volume - I named what happened, lowered my voice, and refused to pour fuel on it."

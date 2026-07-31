@@ -5,11 +5,12 @@ description: "Notes are inventory - posts, sermons, code, and dinner experiments
 key_concept: |
   - Output is the point - ship posts, sermons, code on a deadline, in distraction-free focus.
   - The inventory only pays off the day it becomes something someone else can read, hear, or eat.
-level_1: "Creative output is finished work others can read, hear, or use - notes are inventory until something ships."
-level_2: "Notes become a finished poster on the wall - like a chef who ships three test plates on Friday even if the garnish is rough."
-level_3: "Ship three sparks as one finished piece on Friday even if the cut is rough - do not wait for perfect dinner photos."
-level_4: "Pairs with [[Deep Work]] for protected blocks and [[Creative Blocks]] when hoarding replaces ship - the pile is not the product."
-level_5: "Friday film day means everyone shows one clip, rough or not - you turn the note pile into something someone else can use."
+  - Ship three sparks as one finished piece on Friday even if the cut is rough.
+level_1: "Creative output is finished work that another person can read, hear, or use."
+level_2: "Notes are inventory until focused work shapes them into something delivered to an audience."
+level_3: "Turn three saved sparks into one finished piece and ship it Friday even if the cut is rough."
+level_4: "[[Deep Work]] protects production time, while deadlines fight perfectionism; shipping too early still risks work that is unclear or unsafe."
+level_5: "Create and publish a useful piece from the note pile, then use feedback to extend the next version."
 examples:
   - "Friday film day means everyone shows one clip, rough or not - I do the same with my note pile, three sparks become one finished piece even if the cut is rough."
   - "We do not wait for perfect dinner photos - we ship the meal and fix the recipe next time."

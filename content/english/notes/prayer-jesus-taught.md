@@ -13,7 +13,7 @@ level_1: "Prayer Jesus taught is the instruction lane - what Jesus told follower
 level_2: "Two lanes in the text - Jesus speaking to the Father in [[Pray for His Own]], and Jesus coaching disciples on posture, place, and words."
 level_3: "Use the Lord's Prayer as the model - kingdom, daily bread, forgiveness - discipleship in words, not a private monologue archive."
 level_4: "Because teaching prayer names kingdom and forgiveness, learning to pray is discipleship - not the price of heaven under [[Free Grace]]."
-level_5: "[[Jesus' Prayers]] indexes verbatim speeches; this hub maps the teaching thread - [[Eternal Principles]] holds the one-claim spine notes."
+level_5: "Build a prayer teaching map that separates what Jesus taught from [[Jesus' Prayers]], then extend each instruction into one claim under [[Eternal Principles]]."
 shareable_thought:
   - "What Jesus told disciples about prayer - secret devotion, the Lord's Prayer, persistence, and asking in His name."
   - "The Gospels record what Jesus said to disciples about prayer - not the same lane as the prayers He spoke to the Father."

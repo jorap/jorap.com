@@ -10,7 +10,7 @@ level_1: "Future-proofing knowledge means plain text, open tools, and exports yo
 level_2: "Like owning the deed, not renting the room - portable formats beat betting on one platform forever."
 level_3: "Export your notes this month and open them in another tool - if you cannot, you are not future-proofed yet."
 level_4: "Hosts and apps shut down - portable formats survive when the platform you trusted disappears without warning."
-level_5: "[[Free Tier Hosting Stack]] client repos are markdown in git - content survives, hosting is swappable when Cloudflare disappears."
+level_5: "Build a portable knowledge stack, test its export in another tool, and document the move so the next platform failure becomes a switch, not a rescue."
 examples:
   - "Our family contacts list is plain text on the fridge backup folder - I copy it twice a year so future-proof is not just a vibe."
   - "Old PHP hosting died and the posts were trapped - markdown in git meant I could point the repo somewhere else, not pray for an export."

@@ -15,7 +15,7 @@ level_1: "Fruits of the Spirit are love through self-control as one Spirit-grown
 level_2: "Like a fruit basket from one tree - Paul's list grows together on one branch, not nine chores on a merit board."
 level_3: "Open [[Walk by the Spirit]] first, then pick the fruit note that names what you lack this week - drill one claim, not the whole bushel."
 level_4: "Fruit confirms belonging under grace - the cluster is evidence of life already received, not wages that buy eternal life."
-level_5: "[[Abide in Me]] and [[Walk by the Spirit]] are the engine; [[Free Grace]] keeps fruit from becoming a salvation scorecard."
+level_5: "Build a growth practice around one weak fruit - stay connected through [[Abide in Me]], walk by the Spirit, and record the changed response without making it a salvation scorecard."
 shareable_thought:
   - "Love through self-control is one Spirit-grown cluster, not nine separate badges you earn for heaven."
   - "I split each fruit into one-claim notes so I can link and drill them."

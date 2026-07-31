@@ -4,13 +4,14 @@ meta_title: "Attention to Detail - Small Misses Become Big Failures"
 description: "Catch the typo and the edge case before they become an incident or a dumb customer email."
 key_concept: |
   - Attention to detail catches the typo, edge case, and loose end before they become incidents.
+  - [[Rollback Principle]] handles the fix after a miss escapes; attention to detail lowers the chance that the fix is needed.
   - The second look before shipping is cheaper than the fix after it is customer-facing.
   - Small misses compound into incidents when nobody catches them early.
 level_1: "Attention to detail is catching typos, edge cases, and loose ends before they become incidents."
 level_2: "Like checking shoelaces before a run - a baker counts eggs twice before the oven; prevention beats apologizing after shipment."
 level_3: "Read the quote line-by-line against walk-through notes before you approve - trust the second read, not the PDF looking right."
-level_4: "The second look before shipping is cheaper than the fix after it is customer-facing - small misses compound like production bugs."
-level_5: "Pairs with [[Rollback Principle]] on the fix side - the cost of one skipped check rises once it is customer-facing."
+level_4: "A second look costs time before shipping but less than a customer-facing fix; the right depth depends on the harm a missed detail can cause."
+level_5: "Build a risk-based preflight checklist from past misses, assign the checks that matter most, and revise it when a new edge case escapes."
 examples:
   - "We almost threw the inbounds pass on the wrong side of the line because two hash marks looked identical - the second read of the court map caught it."
   - "The contractor's quote had two rooms swapped in the floor plan - I caught it comparing the invoice line-by-line against the walk-through notes, not by trusting the PDF looked right."

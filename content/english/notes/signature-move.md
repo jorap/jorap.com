@@ -13,8 +13,8 @@ key_concept: |
 level_1: "A signature move is the one practiced answer you reach for automatically when the clock gets loud."
 level_2: "Pressure shrinks the menu to the move you trust - novelty fails under stress, repetition installs the default you want at game speed."
 level_3: "Same knee drive and up-and-under a hundred times in practice - not inventing a new finish with seconds left."
-level_4: "Because domain labels do not prove the abstraction travels, split surfaces until two scenes run the same move."
-level_5: "Drill [[Build a Reliable Default]] before the moment - one principle in the claim, two unrelated scenes that prove it landed in real life."
+level_4: "Because domain labels do not prove the abstraction travels, the same move must hold on two unrelated surfaces or it is still local habit."
+level_5: "Drill [[Build a Reliable Default]] before the moment - rehearse the go-to answer until you reach for it without thinking."
 examples:
   - "Down two with seconds left my player does not invent a new finish - same knee drive and up-and-under she has made a hundred times in practice, because pressure shrinks the menu."
   - "Drafting a capture note I did not quote Ahrens twice - wristband scribble mid-cooldown and jeepney receipt before the spark died, same one-inbox move in rooms that do not share a folder."

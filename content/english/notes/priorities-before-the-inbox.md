@@ -13,7 +13,7 @@ level_1: "Priorities before the inbox means doing your most important task in a 
 level_2: "Like eating breakfast before the phone starts buzzing - one locked block for the real deliverable before pings rewrite the morning."
 level_3: "Write the first page of the report before opening Slack - game film due Friday gets cut before every parent group chat ping."
 level_4: "Because reactive mornings rewrite the day, sequence matters - my work before their urgency, not vice versa."
-level_5: "[[Deep Work]] and [[Seek the Kingdom First]] name the same guardrail - [[Signal vs Noise]] filters what earns attention after the block."
+level_5: "Build a morning guardrail: choose the priority from [[Purpose and Vision]], protect one [[Deep Work]] block, then use [[Signal vs Noise]] on the inbox."
 examples:
   - "Game film due Friday - I cut it before answering every parent group chat ping."
   - "The report was due at noon - I wrote the first page before opening Slack."

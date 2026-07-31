@@ -13,7 +13,7 @@ level_1: "Joy is Spirit-grown gladness in believers who rest on Christ's promise
 level_2: "Joy grows with love and peace as fruit of the Spirit - deeper than a painted smile for a crowd, like roots versus performance."
 level_3: "When the audience leaves and circumstances swing - look for gladness that stays because the Spirit grows it, not a smile you manufacture for the room."
 level_4: "Manufactured gladness for church credit is not Spirit fruit - joy rooted in God survives bad weeks; circumstance cannot kill what connection grows."
-level_5: "[[Peace]] and [[Love]] sit beside joy in [[Fruits of the Spirit]] - joy is fruit, not a mood you fake on command."
+level_5: "Grow joy beside [[Peace]] and [[Love]] in [[Fruits of the Spirit]] - write Spirit fruit into ordinary Tuesdays, not stage smiles."
 examples:
   - "Good week at work and I felt spiritually qualified - Galatians joy rests on Christ's promise, not the streak."
   - "Performing joy at church while empty at home told me I was manufacturing fruit - abide first, then gladness shows up."

@@ -10,7 +10,7 @@ level_1: "Golden rule at work means doing the helpful thing you would want done 
 level_2: "Like holding a door you would want held - step in on the tedious task, not just stay out of the way."
 level_3: "Ask what you would want if roles flipped - then do that helpful move instead of only keeping your head down."
 level_4: "Passive fairness leaves people stuck - because you would want someone to act for you, the rule pushes you to act."
-level_5: "[[The Golden Rule]] is the spine; at work it means stepping in on the tedious task, not just refusing to make things worse."
+level_5: "Create a team norm for feedback, credit, and tedious work by writing the treatment you would want when roles reverse."
 examples:
   - "My draft reply to the new team manager was technically right and needlessly harsh - I paused, asked how I would want that correction on my worst game day, and rewrote it."
   - "The group chat pile-on about the neighbor's messy yard - I asked how I would want feedback if my lawn looked that way, then said nothing mean."

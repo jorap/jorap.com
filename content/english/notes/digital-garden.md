@@ -10,7 +10,7 @@ level_1: "A digital garden is a personal site where linked notes grow in public 
 level_2: "Like a backyard plot posted online - plants still growing, not a polished store display where every leaf looks final."
 level_3: "Post the rough note, link two neighbors, and revise in public - waiting until it feels finished slows the whole garden."
 level_4: "Public, linked, imperfect notes beat a private hoard - [[Evergreen Notes]] can still mature in public without pretending the first draft was final."
-level_5: "You post half-finished notes on your site so neighbors and feedback shape ideas faster than a private folder ever would."
+level_5: "Build a public garden where rough notes link to neighbors, show revision, and invite feedback that can grow the ideas into new claims."
 examples:
   - "Our team playbook wiki still has last season's sets beside this year's - I replace a drill when I learn better, not when the first version was supposed to be final."
   - "My garden posts stay linked and imperfect - notes grow in public instead of rotting in a folder until they are ready."

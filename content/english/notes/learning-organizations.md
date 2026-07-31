@@ -9,7 +9,7 @@ level_1: "A learning organization keeps a visible what broke line until the team
 level_2: "Like a sticky note on the fridge nobody removes until the leak is repaired, the line forces memory instead of amnesia."
 level_3: "After an incident, write what broke on the team board and leave it there until the process changes or leadership signs off on the risk."
 level_4: "Hidden failures repeat - burying the miss guarantees the same miss returns because nobody decided to fix or accept it."
-level_5: "[[Incident Investigation]] feeds the line; [[Continuous Improvement]] closes it - not blame, system repair."
+level_5: "Extend the line with [[Incident Investigation]] feeding it and [[Continuous Improvement]] closing it - system repair, not blame."
 examples:
   - "After every tournament they kept one \"what broke\" line on the whiteboard until it was fixed or accepted."
   - "After every messy school morning we kept one \"what broke\" sticky on the fridge until the routine changed or we accepted the tradeoff."

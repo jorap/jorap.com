@@ -13,7 +13,7 @@ level_1: "Pray before you choose means seeking the Father on major forks before 
 level_2: "Jesus prayed all night on the mountain before He picked the twelve - the roster was prayer-shaped, not spreadsheet-shaped."
 level_3: "Two job offers on the table - stop ranking pros and cons for a week without prayer before the signature."
 level_4: "Kingdom-weight choices need dependence before commitment - naming people before prayer would have been self-led hiring."
-level_5: "Choosing [[Invest in the Few]] was not a spreadsheet decision - [[Discern His Will Daily]] names testing after renewal; this names night-before-the-fork posture."
+level_5: "Build a major-choice rule: pray before the shortlist, test the choice with [[Discern His Will Daily]], then name whom you will [[Invest in the Few]]."
 examples:
   - "I announced the new team lead in the meeting and prayed about it driving home - Jesus prayed all night before He named [[Invest in the Few]]."
   - "Two job offers on the table and I ranked pros and cons for a week without stopping - the fork needed prayer before the signature, not after."

@@ -9,8 +9,8 @@ key_concept: |
 level_1: "Evergreen notes are permanent claims phrased worth standing behind in two years - revised when reality shifts, not when a trend spikes."
 level_2: "Write something you would still say two years from now - like tools you maintain, phrase claims worth defending, change when life proves you wrong."
 level_3: "Before you publish, ask whether you would defend this claim in two years; if not, keep it fleeting until it earns permanence."
-level_4: "Phrase ideas worth standing behind in two years, then revise when reality shifts - promote from fleeting during [[Periodic Knowledge Review]] when a spark keeps returning."
-level_5: "A family recipe card keeps the ratios, not last year's trendy garnish - you revise when life changes how you cook, not when a feed gets excited."
+level_4: "Evergreen does not mean frozen - revision keeps a claim honest, while trend-driven rewrites make the note unstable; [[Periodic Knowledge Review]] separates the two."
+level_5: "Create a review rule that promotes recurring sparks, records why a claim changed, and lets linked notes extend it without erasing the old reasoning."
 examples:
   - "A family recipe card keeps the ratios, not last year's trendy garnish - rewrite when life changes how you cook, not when a feed gets excited about a new trick."
   - "My free-throw note keeps the release point and shooting form - not last week's trending drill tip I would regret next season."

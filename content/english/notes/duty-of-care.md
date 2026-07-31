@@ -10,7 +10,7 @@ level_1: "Duty of care is the protection you owe people under you - reasonable s
 level_2: "Reverse the camera before you sign off on risk - what protection would you expect in their seat, like holding a door you would want held."
 level_3: "Before you sign off on a risk, ask what protection you would expect if you were in their seat - handbook minimum is not the target."
 level_4: "Stop serious harm first - reasonable protection is not optional just because paperwork allows less; [[Ethical Leadership]] makes the visible floor match what you would accept reversed."
-level_5: "The clinic keeps a crash cart checked every shift - you enforce a care standard the team copies, not a poster they ignore."
+level_5: "Build a care standard the team can run without guesswork - name the protection, owner, check, and stop-work line before harm tests it."
 examples:
   - "The clinic keeps a crash cart checked every shift - staff assuming risk does not erase the charge nurse's job of reasonable protection."
   - "We do not leave the toddler pool gate open because the kids know not to run - duty of care is watching even when signs say be careful."

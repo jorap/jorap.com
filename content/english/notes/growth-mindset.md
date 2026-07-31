@@ -13,7 +13,7 @@ level_1: "Growth mindset treats skill gaps as trainable data - \"I missed three\
 level_2: "Like a score sheet versus a name tag - mistakes stay information you can use instead of identity you cannot change."
 level_3: "Replace I am bad at this with I missed three - then train the slice that broke."
 level_4: "When one rough outing becomes identity, you stop collecting reps - verdicts block the training loop before deliberate practice can start."
-level_5: "[[Failure as Feedback]] only works when skill is trainable; [[Deliberate Practice]] is what you do with the data instead of fixing the ceiling."
+level_5: "Turn a miss into a new practice drill: name the failed slice, change one variable, and use the next result to extend the training plan."
 examples:
   - "I missed three free throws in a row at clinic."
   - "The new barista burned three lattes on the steam wand - skill is not fixed."

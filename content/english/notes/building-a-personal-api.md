@@ -7,11 +7,11 @@ key_concept: |
   - I shape frontmatter and folders so future me and my scripts do not need a fresh briefing every time.
   - Frontmatter and folder shape are the contract between past me and future me.
   - Consistent slugs and fields let agents and scripts read the garden without a tour.
-level_1: "A personal API is consistent frontmatter and slugs across notes - not OAuth or microservices."
-level_2: "Like every folder using the same labels - a library uses the same card format so future you and scripts need no fresh tour."
-level_3: "Pick one slug pattern and one frontmatter schema, then never freestyle on new notes - agents read the garden without a tour."
-level_4: "Frontmatter and slugs are the contract between past you and future you - same fields every time."
-level_5: "Ties to [[Metadata Strategy]] - structured context beats fewer moving parts when scripts and agents read notes without re-explaining."
+level_1: "A personal API is a consistent set of fields, names, and folders that people and tools can read without a fresh briefing."
+level_2: "The shared shape acts as a contract between past work and future use, making notes predictable to scripts and agents."
+level_3: "Choose one slug pattern and frontmatter shape, then use them on every new note."
+level_4: "Consistency improves reuse but adds rules to maintain; change the contract carefully because old notes and scripts may depend on it."
+level_5: "Extend the contract with one useful field, migrate existing notes, and prove a script can use it without special cases."
 examples:
   - "Our pantry uses the same rule - snacks, baking, breakfast - my wife finds the rice without me re-explaining where everything lives."
   - "Our team names drills the same way every season - level, skill, variation - so a sub can run practice without a twenty-minute briefing."

@@ -6,12 +6,14 @@ key_concept: |
   {{< bible ref="Ephesians 4:29" emphasize="29" >}}
   
   - My words either deposit grace or debris - Paul forbids rotten speech and commands what builds the hearer up.
+  - Under [[Free Grace]], forgiven people can speak truth with [[Gentleness]] and make peace when the room is hot.
+  - [[Give Useful Feedback]] carries the same move into work and home.
   - [[Listen Before Fixing]] keeps build-up from becoming unsolicited demolition.
-level_1: "Words that build up are speech that gives grace to hearers - edifying truth that leaves something standing, not rotten speech or debris."
-level_2: "Like choosing bricks instead of rocks for someone's house - build-up means truth that helps, timed so the hearer can actually use it, not flattery."
-level_3: "Delete the sarcastic group-chat reply and name one true thing your teammate did right - correction lands when you built up first at dinner."
-level_4: "Under [[Free Grace]], I speak from forgiven lips - not to earn standing; [[Gentleness]] and [[Peacemakers]] show what build-up sounds like when the room is hot."
-level_5: "[[Give Useful Feedback]] is the garden echo - same deposit at workplace draft or kitchen table; [[Listen Before Fixing]] keeps build-up from becoming unsolicited demolition."
+level_1: "Words that build up are truthful words that give grace and leave the hearer stronger."
+level_2: "Building up is like choosing bricks instead of rocks for a house - truth helps when its timing and tone let the hearer use it."
+level_3: "Delete the sarcastic group-chat reply, listen first, then name one true thing your teammate did well before offering correction."
+level_4: "Building up is not flattery or silence about harm; it joins truth, timing, and [[Gentleness]] so correction helps instead of becoming demolition."
+level_5: "Create a feedback habit that begins with listening, names useful truth, and checks whether the hearer left with something solid to build on."
 examples:
   - "I almost sent the sarcastic group-chat reply - Ephesians 4 meant deleting it and naming one true thing my teammate did right."
   - "Correction to my kid landed because we built up first at dinner - rotten speech would have shut his ears before the lesson."

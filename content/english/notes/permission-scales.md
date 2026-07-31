@@ -8,8 +8,8 @@ key_concept: |
 level_1: "Permission scales means open licenses travel globally - talent competes on bandwidth and nerve, not who holds the product key."
 level_2: "Like a public recipe anyone may cook - the ingredients list does not change because your kitchen is outside the capital."
 level_3: "A student in UPLB learns on the same WordPress zip as one in California - Stack Overflow at three in the morning Manila time included."
-level_4: "Friedman flattener four named what classrooms already felt - not moral purity, a flattener an ordinary developer could ride."
-level_5: "[[Freedom Over Free]] is the personal split; [[Teachable Stack]] is classroom proof; [[Learn Hireable Stacks]] sits local job boards on global tools."
+level_4: "Open permission removes the product-key gate, not weak bandwidth, old hardware, English barriers, or a thin local job market."
+level_5: "Publish a [[Teachable Stack]] that anyone can download, then pair the global tools with [[Learn Hireable Stacks]] so local job demand shapes what students practice."
 examples:
   - "Teaching seminars outside Manila - students downloaded the same XAMPP portable and WordPress zip I used in the capital, no regional license server."
   - "Friedman book mid-2000s - flattener four gave me words for why PHP beat ASP on a student budget before I had Silicon Valley on speed dial."

@@ -11,7 +11,7 @@ level_1: "Love God is the first command - devote heart, soul, mind, and strength
 level_2: "Like loving your family all week, not only at dinner, whole-person devotion means daily choices, not one worship hour."
 level_3: "Audit where your time and attention actually go - if God gets one hour and everything else gets the week, devotion is partitioned."
 level_4: "Under [[Free Grace]], this is the first call on a life already saved by faith - love flowing from grace received, not payment for eternal life."
-level_5: "[[Heart Righteousness]] and [[Priorities Before the Inbox]] are the practical test - loving God first reshapes calendar and attention."
+level_5: "Extend whole-person devotion into calendar and attention - [[Heart Righteousness]] and [[Priorities Before the Inbox]] are the practical test."
 examples:
   - "Match day adrenaline is not the same as opening my Bible on Thursday - whole-person love means I feed at least one faculty today."
   - "Sunday worship felt high but I had not opened my Bible since last week - loving God means more than one hour in a pew."

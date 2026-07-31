@@ -6,9 +6,9 @@ key_concept: |
   - Open source is a license grant, not a lifestyle badge.
 level_1: "Open source is a license that lets you install, read, fork, and ship code without a product key."
 level_2: "Like a deed that says you may open the toolbox - not a promise the tools are sharp, current, or free of labor."
-level_3: "Because the grant is legal permission only, judge maintainers, community, and move paths on their own merits."
-level_4: "Say no to [[Say No to Nulled]], [[Open Not Maintained]], and stacks you cannot move - license rights are not quality guarantees."
-level_5: "Free download is not free labor, hosting, or security - evenings and invoices still show up when you ship."
+level_3: "Before adopting a project, read its license and confirm that it grants the install, read, fork, and ship rights your use needs."
+level_4: "License rights do not guarantee quality, maintenance, easy exits, or zero cost - [[Open Not Maintained]] and stacks you cannot move can still consume evenings, hosting, and security work."
+level_5: "Fork or contribute to an open project under its license, document what you changed, and publish the extension without crossing into [[Say No to Nulled]]."
 examples:
   - "ASP tutorial sites hid behind licenses on a student budget - PHP shipped as a zip I could run that weekend without a product key."
   - "XOOPS theme files were plain PHP in a folder I could edit - the license let me learn by breaking templates, not by begging for a demo account."

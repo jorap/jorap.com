@@ -8,8 +8,8 @@ key_concept: |
 level_1: "Open not maintained means the license grants read and fork rights - nobody still ships patches or answers issues."
 level_2: "Like a public library with no librarian - you may browse the stacks; nobody restocks the shelves."
 level_3: "Before a frozen plugin owns a critical path, budget a swap or fork plan when the last commit was years ago."
-level_4: "Gallery slider with no commits since 2019 - open license did not help at ten at night; maintained fork was the fix."
-level_5: "[[Inspectable Stack]] adds move and help legs; [[Community Depth]] asks whether anyone still answers threads."
+level_4: "An open license preserves the right to fork, but thin [[Community Depth]] shifts patching, security, and exit costs onto you - inspection alone does not make the stack safe."
+level_5: "Create a fork-or-swap plan that uses [[Inspectable Stack]] to test move paths and [[Community Depth]] to name who will answer when the next patch is yours."
 examples:
   - "Client site ran a open-source gallery plugin frozen since 2019 - I replaced it before PHP 8 turned the fatal into a Friday outage."
   - "Hugo theme with one maintainer and forty open issues - I forked in-repo because waiting on upstream was slower than owning the nil check."

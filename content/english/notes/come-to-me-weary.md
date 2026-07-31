@@ -6,12 +6,15 @@ key_concept: |
   {{< bible ref="Matthew 11:28-30" emphasize="28" >}}
   
   - I do not have to force through exhaustion by will alone - Jesus invites the weary to rest and a yoke that fits, not heavier religion.
+  - Rest is an invitation, not a reward you must earn first.
+  - His yoke is shared labor - not absence of work, but work with Him instead of performative burnout.
+  - Calendar rest protects the soul the same way sleep protects judgment.
   - [[Come to Me Weary]] pairs with [[Pray When Drained]] - prayer is part of the rest, not another task to fail.
-level_1: "Come to Me weary is Jesus' invitation to rest and a yoke that fits - not heavier religion or performance burnout."
-level_2: "Like finally sitting when your legs gave out - rest is an invitation, not a reward you must earn first; His yoke is shared labor with Him."
-level_3: "Under [[Free Grace]], rest is not a wage for good weeks - it is care from the Lord who already saved me."
-level_4: "[[Sabbath for Good]] names mercy over rule theater; come to Me weary names the personal entry point."
-level_5: "[[Block Recovery Time]] is the garden echo - calendar rest protects the soul the same way sleep protects judgment."
+level_1: "Come to Me weary is Jesus' invitation to receive His rest and share His fitting yoke."
+level_2: "His rest is care offered before performance, and His yoke means labor with Him rather than crushing solo effort."
+level_3: "When exhaustion turns prayer into another scorecard, come honestly, shorten the yes list, and receive rest."
+level_4: "Rest under [[Free Grace]] is not wages for a good week, while a fitting yoke is not the absence of work; mercy and obedience stay together."
+level_5: "Build a rhythm of prayer, limits, and recovery that helps weary people work with Christ instead of performing through burnout."
 examples:
   - "I tried to outserve my burnout until Sunday collapsed - Matthew 11 rest was admitting weary and opening the Bible without the hero badge."
   - "Ministry week left me hollow - Jesus' yoke meant one honest nap and a shorter yes list, not another guilt sermon to myself."

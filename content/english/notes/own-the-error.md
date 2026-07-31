@@ -10,7 +10,7 @@ level_1: "Own the error means naming who owns the miss, the outcome, and the rep
 level_2: "Like raising your hand when you broke the vase - clear ownership turns failure into information, not blame theater."
 level_3: "Before the meeting ends, say what broke, what you did, and what changes - blame threads block learning."
 level_4: "Near-miss reports need a named owner - shame and scattered blame both hide the data the team needs."
-level_5: "[[Blameless After-Action Review]] and [[Complete the Cycle]] need that owner - [[Forgiveness at Work]] keeps repair from becoming a permanent loop."
+level_5: "Create a repair loop that names the owner, runs a [[Blameless After-Action Review]], uses [[Complete the Cycle]] to fix the process, and lets [[Forgiveness at Work]] close the miss."
 examples:
   - "I sent the wrong attachment and named it in the reply thread before anyone else had to."
   - "The point guard called the bad pass out loud in the huddle - next play trusted faster."

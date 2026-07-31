@@ -6,11 +6,11 @@ key_concept: |
   - People do not act on facts alone - defaults and friction steer choices more than lectures.
   - [[Mental Models]] gives lenses; this field names why nudges beat sermons.
   - A well-designed default beats a well-argued lecture almost every time.
-level_1: "Behavioral economics explains how defaults and friction steer choices more than facts or lectures alone."
-level_2: "Like cookies on the counter - you grab what is easy; a cafeteria puts fruit at eye level because most people pick the path, not the argument."
-level_3: "Put the good option at eye level before writing the policy email - change the default, then argue less."
-level_4: "A well-designed path beats a well-argued lecture almost every time - design the environment, not just the message."
-level_5: "[[Mental Models]] gives lenses; this field explains why opt-in save beats bonus email campaigns."
+level_1: "Behavioral economics studies how defaults, friction, and context steer choices."
+level_2: "People do not act on facts alone because the easiest path often beats the best argument."
+level_3: "Put the good option at eye level or make it the default before writing another policy email."
+level_4: "Nudges can help without lectures, but they can also manipulate; good design keeps choice visible and checks who benefits."
+level_5: "Design and test a better default, then use the results to improve how the choice is offered."
 examples:
   - "The cafeteria put fruit at eye level and salad sales jumped - no sermon required."
   - "Default opt-in to save made more people enroll than the bonus email campaign."

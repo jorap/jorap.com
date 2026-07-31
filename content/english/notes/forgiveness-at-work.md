@@ -11,7 +11,7 @@ level_1: "Forgiveness at work releases what a coworker owes you without pretendi
 level_2: "Like zeroing a ledger without erasing the receipt - release the debt, keep the honest record that it hurt."
 level_3: "Release the debt today and stop rehearsing the case - the hurt mattered, the ledger closes before it poisons the next project."
 level_4: "Ledger-keeping poisons work - forgiveness stops collecting on a debt that will never be paid in full at the office."
-level_5: "Gospel depth in [[Forgiveness]] - same math as [[Sunk Cost Fallacy]] - stop treating old hurt as an asset you are owed at work."
+level_5: "Create a repair process that releases the debt, keeps an honest record of harm, and sets the boundary needed for the next project."
 examples:
   - "I replayed my sister's sharp comment at every family dinner until I chose to release the debt - forgiving is not pretending it did not hurt; it is refusing to collect forever."
   - "I kept mentally scoring a coworker who embarrassed me in a staff meeting six months ago - I stopped bringing that score into every shift and still wrote down what I would need to trust him on the next busy Saturday."

@@ -12,7 +12,7 @@ level_1: "Into Your Hands is Jesus committing His spirit to the Father at death 
 level_2: "Father, into Your hands I commit My spirit - like releasing a rope when the climb is done, echoing Psalm 31:5."
 level_3: "When control is gone at the end, commit the outcome to the Father's hands - trust at the finish, not panic, because surrender completes what the garden began."
 level_4: "After forgiveness for enemies and the forsaken cry, death met as entrusting not defeat - [[Free Grace]] means my death can mirror His posture because Jesus already opened the way."
-level_5: "[[Not My Will]] surrendered the cup in the garden; here surrender completes at death - trust holds when control is gone."
+level_5: "Write a final-trust prayer for a loss you cannot control, extending Jesus' words into a concrete act of release without treating surrender as defeat."
 examples:
   - "Panic attack at 2am felt like dying - into Your hands is the line I clung to, not because I am Jesus, but because He showed how to die trusting the Father."
   - "My grandfather's last breath was calm quoting Psalm 31:5 - Jesus gave the whole church that sentence on the cross."

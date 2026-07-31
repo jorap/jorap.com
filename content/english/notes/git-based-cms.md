@@ -11,7 +11,7 @@ level_1: "Git-based CMS publishes through Git commits as source of truth - autho
 level_2: "Like a kitchen with a back door for chefs and a counter for customers - Git for authors, UI for clients who will never touch a terminal."
 level_3: "Use Git publish for solo sites; offer a CMS when the client will never touch a terminal - still say no to bad dynamic scope."
 level_4: "Git stays source of truth - the CMS is another commit path, not a second database that forks reality."
-level_5: "[[Minimum Effective Dose]] for solo sites is skip the CMS layer entirely; buttons are for clients, not for every project."
+level_5: "Design the smallest publishing path for each site: direct Git for authors who can use it, or a narrow CMS that creates the same commits for clients."
 examples:
   - "Church volunteer will not open a terminal - Sveltia on the repo, she edits announcements, Cloudflare rebuilds on save."
   - "I added Decap for a client who insisted on WordPress-like editing - honest scope: blog posts only, not plugins; still cheaper than hosted WordPress long term."

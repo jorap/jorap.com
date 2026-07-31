@@ -13,7 +13,7 @@ level_1: "Pray when drained means meeting the Father after heavy service - exhau
 level_2: "Jesus was tired after feeding five thousand but still went up the mountain alone - dismissal and solitude came before prayer, not collapse into busyness."
 level_3: "After hosting Sunday school, go pray when the crowd leaves - do not collapse on the couch and skip dependence on the Father."
 level_4: "Because exhaustion followed heavy service, prayer was [[Energy Protects Judgment]] - drained is the cue to meet God, not to numb out."
-level_5: "Mark 6:46 repeats the move after that long day - [[Jesus' Rhythms]] shows service finished, then prayer; [[Do not Worry]] trusts provision after the tank empties."
+level_5: "Build a post-service rhythm from Mark 6:46 and [[Jesus' Rhythms]]: dismiss the crowd, find solitude, pray, then rest without borrowing tomorrow's trouble."
 examples:
   - "I collapsed on the couch after hosting Sunday school and skipped prayer - Jesus went up the mountain when the crowd finally left."
   - "The project shipped at midnight and I scrolled until 2am - drained was my cue to pray, not to numb out."

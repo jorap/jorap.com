@@ -13,7 +13,7 @@ level_1: "Peace as Spirit fruit is inner calm from trusting God's reign - not de
 level_2: "Like sleeping through a storm because someone you trust steers the boat - shalom holds truth and calm together."
 level_3: "When anxiety spikes at 2am, pray first then act on what you can change - not thumb-refreshing news until numb."
 level_4: "Galatians lists peace beside love and joy - stuffing emotion is not peace; trusting sovereignty is."
-level_5: "[[Fruits of the Spirit]] clusters peace with [[Patience]] and [[Gentleness]] - [[Free Grace]] frees you from performance peace that collapses under trouble."
+level_5: "Build a response rhythm from [[Fruits of the Spirit]], [[Patience]], and [[Gentleness]]: trust God, name the truth, and pursue repair without performing calm to earn standing."
 examples:
   - "I thumb-refreshed the news at 2am instead of sleeping - peace fruit was pray first, then act on what I can actually change."
   - "Two coworkers wanted me to pick a side - peace was not avoiding them; it was asking what it would take to fix things."

@@ -11,7 +11,7 @@ level_1: "Failure as feedback reads a miss as signal about process or skill - no
 level_2: "A wrong answer shows which chapter to reread - like a check-engine light that points to process or skill, not a verdict on who you are."
 level_3: "After a miss, write one process fix and one skill rep - not a verdict on who you are - then rerun the slice that broke."
 level_4: "Faith parallel: [[Loss of Reward]] - worthless works burn at the [[Judgment Seat]], but the builder is still saved through fire; the miss is feedback on what to build next."
-level_5: "You missed three free throws in a row - you adjust form and routine, not decide you are not a basketball person."
+level_5: "Build a post-miss loop that separates identity from evidence, changes one process or skill, and reruns the broken slice to test the fix."
 examples:
   - "I missed three free throws in a row - failure as feedback was adjusting form and routine, not deciding I am not a basketball person."
   - "The utility bill math was wrong - I treated it as instrument reading about the formula I skipped, not proof I cannot do numbers."

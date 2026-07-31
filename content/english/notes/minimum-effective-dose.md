@@ -9,8 +9,8 @@ key_concept: |
 level_1: "Minimum effective dose is enough input to move the outcome, not more than needed - borrowed from medicine, applied to effort."
 level_2: "Like one bandage on a small cut, not ten, more input past the effective point wastes energy without improving results."
 level_3: "Run the pilot, check the result, stop adding steps when nothing improves - doubling effort is not doubling effect."
-level_4: "More input past the dose is noise, not heroic overhaul - find the smallest amount that still moves the outcome."
-level_5: "[[Pareto Principle]] and [[Minimum Viable Product]] share the same ceiling - hero energy on [[Low Hanging Fruit]] violates both."
+level_4: "The dose depends on the outcome and can change with context - too little does nothing, while more past the useful point adds cost without effect."
+level_5: "Design a smallest-working trial with [[Minimum Viable Product]], use [[Pareto Principle]] to cut excess, and extend the dose only when the result proves [[Low Hanging Fruit]] is no longer enough."
 examples:
   - "Ten minutes of flashcards on the jeepney beat an hour of app setup I would never open twice."
   - "The coach added one footwork drill before buying new shoes - small dose, daily reps, feet learned faster than gear ever did."

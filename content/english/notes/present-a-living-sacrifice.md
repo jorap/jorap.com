@@ -17,10 +17,10 @@ key_concept: |
   - [[Take Up Your Cross]] is daily death to self-will in the same lane.
   - PKM mirror: [[Process Over Outcomes]] - faithful offering on ordinary Tuesdays beats one heroic retreat week I treat like proof I am saved.
 level_1: "Present a living sacrifice means offering your body and ordinary day to God as worship alive - not a dead bull on an altar."
-level_2: "Following Jesus means letting Him lead each day - not staging misery for applause or stacking volunteer hours to feel acceptable."
+level_2: "A living sacrifice is worship carried through the body and ordinary choices - mercy comes first, so the offering is thanks rather than payment."
 level_3: "On an ordinary Tuesday, surrender self-will in one concrete choice - worship that is alive, not a performance review with God."
 level_4: "Because mercy came first, the body offered is grateful worship - not payment to earn what [[Free Grace]] already gave."
-level_5: "[[Mercy]] received first, then [[Grateful Obedience]] on ordinary Tuesdays - [[Renewed Mind]] pairs with sacrifice so offering does not become theater."
+level_5: "Build an ordinary-Tuesday rule from [[Mercy]], [[Grateful Obedience]], and [[Renewed Mind]]: offer one concrete choice without turning the act into proof of worth."
 examples:
   - "I stacked volunteer hours to feel acceptable again after a bad week - Romans 12:1 is living sacrifice from mercy already received, not a down payment on salvation."
   - "The player taped her wrist before warm-up like the game was an offering, not a tryout for worth - same move at the desk: this Tuesday is worship, not a performance review with God."

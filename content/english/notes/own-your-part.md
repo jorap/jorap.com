@@ -13,7 +13,7 @@ level_1: "Own your part means changing what you can touch in your lane instead o
 level_2: "Like sweeping your own room before waiting for someone else to clean the whole house - fix your corner first."
 level_3: "List three steps in your control before you escalate - if you never tried your lane, you are renting the excuse."
 level_4: "Stale processes survive when everyone waits upstream - headquarters moves slow; your corner moves when you do."
-level_5: "[[Continuous Improvement]] and [[People-Centered Design]] both start local - proactive fix before permission arrives."
+level_5: "Redesign one local pass-off with [[People-Centered Design]], test it through [[Continuous Improvement]], and share the result so the fix can spread beyond your lane."
 examples:
   - "The shared drive was chaos for months until one teammate renamed folders and posted a one-page map - own your part, not another ticket to IT."
   - "I stopped waiting for the coach to fix my defense and asked for ten minutes of footwork after practice - my gap, my rep request."

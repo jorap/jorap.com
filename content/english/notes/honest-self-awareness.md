@@ -4,6 +4,7 @@ meta_title: "Honest Self-Awareness - Name Reality Before You Change It"
 description: "Name strengths, gaps, and limits plainly so change targets stay realistic."
 key_concept: |
   - Transformation built on fantasy breaks on contact with Tuesday.
+  - [[Accept the Starting Line]] names the real baseline; [[Growth Mindset]] needs honest data before misses become trainable.
   - Honest self-awareness is a plain inventory - what I am good at, what I am avoiding, what I cannot carry this quarter - before I promise the room a new person.
   - [[Growth Mindset]] needs this floor: misses are data only if I admit the miss happened.
   - Acceptance is not quitting; it is choosing targets that match the real starting line.
@@ -12,7 +13,7 @@ level_1: "Honest self-awareness builds plans from who you are this week - not fr
 level_2: "Like shoes two sizes too small - transformation built on fantasy exposes fake starting lines under real load."
 level_3: "Build habits and goals from your actual schedule and capacity - not from the person you perform on paper."
 level_4: "When the plan assumes a person you are not, the first stressful week collapses the whole system."
-level_5: "[[Accept the Starting Line]] names the real baseline; [[Growth Mindset]] needs honest data before misses become trainable."
+level_5: "Create a realistic change plan from an honest inventory of strengths, gaps, time, and capacity, then revise the plan when new evidence changes the baseline."
 examples:
   - "I told the coach I cannot guard the quick point yet - honest self-awareness meant drills on foot speed, not pretending I would magically lock him up game night."
   - "The capture system failed because I kept pretending I would review fifty notes a week - honest self-awareness was ten minutes on the jeepney, not another app I would abandon."

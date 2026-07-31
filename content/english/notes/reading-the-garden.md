@@ -12,7 +12,7 @@ level_1: "Reading the garden means learning in two lanes - wiki prose for unders
 level_2: "Each page stacks definition, angle, scenes, and links - like reading a recipe card before you cook, not skimming the whole cookbook."
 level_3: "Open one note, read description and key_concept first, then drill at /notes/review/ when you need the move Monday morning."
 level_4: "Success is recall and use when it matters - not tab count or review streak length; [[Layered Reading]] names multiple passes on hard ideas."
-level_5: "Wiki holds prose you can defend; spine notes opt into cards - [[Spaced Repetition]] handles timed drill; [[Periodic Knowledge Review]] calendars the graph."
+level_5: "Build a reading route that moves from one defensible wiki claim to timed [[Spaced Repetition]] drills, then use [[Periodic Knowledge Review]] to repair the graph."
 examples:
   - "Opened six gospel tabs Sunday and could not quote one claim Monday - one note, description first, then drill at /notes/review/."
   - "Kid asked why I forgive at work and I scrolled shareable thoughts until I found the line - should have drilled the card Tuesday so the move was already loaded."

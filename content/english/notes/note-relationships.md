@@ -9,8 +9,8 @@ key_concept: |
 level_1: "Note relationships are four typed edges in frontmatter - extends, contradicts, alternative, implements - that show how ideas push and pull."
 level_2: "Like road signs that say merge, stop, detour, or share lane, typed links beat co-mention that only says two notes exist in the same folder."
 level_3: "When you link two notes, pick one relationship type - that edge beats ten tags that only say both notes exist."
-level_4: "Relationships frontmatter names whether one idea builds on, fights, or swaps with another - not co-mention without direction."
-level_5: "[[Linking by Meaning]] supplies the edges; typed relationships keep the garden honest when [[Atomic Notes]] bump without folder proximity."
+level_4: "Typed edges add direction and tradeoffs that tags cannot show, but a forced type can overstate a weak link - use them where the relationship changes how the notes are read."
+level_5: "Extend [[Linking by Meaning]] by creating typed edges between [[Atomic Notes]], then add or revise a relationship type when the four choices cannot name a real connection."
 examples:
   - "I am updating the family chore chart and add \"feeds into: Saturday yard work\" next to \"take out trash\" plus \"conflicts with: bedtime when done late\" before I tape it to the fridge."
   - "The coach's whiteboard lists \"feeds into: secondary break\" beside each drill - players see how today's reps connect before they leave the gym."

@@ -14,7 +14,7 @@ level_1: "Self-control is choosing the next move on purpose instead of letting t
 level_2: "Spirit-grown restraint, not a merit streak - urge proposes, you decide under pressure."
 level_3: "Close the app and answer when you are not drunk on cortisol - not the snarky reply in the group chat."
 level_4: "Because autopilot favors the loudest impulse, deliberate selection beats suppression theater."
-level_5: "Drill the scripted pass before game speed - [[Fruits of the Spirit]] holds the faith lane; this note is the general skill you can run anywhere."
+level_5: "Extend the same restraint across surfaces - [[Fruits of the Spirit]] holds the faith lane; this note is the general skill you can run anywhere."
 examples:
   - "My thumb hovered over a snarky reply in the pickup-line group chat - self-control was close the app and answer when I was not drunk on cortisol."
   - "The point guard feels the pull to hero-ball on a bad stretch - self-control is the scripted pass they drilled, not the urge."

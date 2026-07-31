@@ -13,7 +13,7 @@ level_1: "Shadow the work means watching one person do the real job before you r
 level_2: "Flowcharts lie politely - documented process is aspirational; observation captures handoffs, workarounds, and wait time under pressure."
 level_3: "Sit with one nurse through a full charting shift before the committee debates the template."
 level_4: "Because [[Listen Before Fixing]] hears the complaint but misses friction people stopped mentioning, shadowing sees the real system."
-level_5: "Cut three chart fields after one observed shift - [[People-Centered Design]] starts on the floor, not the slide."
+level_5: "Rewrite the process from what one shadowed shift showed - [[People-Centered Design]] starts on the floor, not the slide."
 examples:
   - "The clinic cut three chart fields after I watched one nurse chart through a full shift - shadow the work beat a committee debating the template."
   - "I stood behind the counter for three lunch rushes before we removed the extra checkout tap - shadow the work showed where customers actually stalled."

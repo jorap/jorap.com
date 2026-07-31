@@ -9,7 +9,7 @@ level_1: "Deliberate practice is focused reps on the part that breaks - not mind
 level_2: "Practice the wobbly bike spot until it stays straight - like tuning one loose guitar string while the rest already sounds fine."
 level_3: "Name the slice that broke last time and run only that slice until it holds - skip the comforting reps that feel productive."
 level_4: "Comfortable reps signal drift - stay on what breaks until it holds, even when the easy path calls and nobody is watching."
-level_5: "The new cashier drills voids and returns ten times, not the whole shift on autopilot - you build skill where stakes expose the weak slice."
+level_5: "Design a drill around the weak slice - set the rep, feedback, correction, and harder variation that extends the skill once it holds."
 examples:
   - "The new cashier drills voids and returns ten times, not the whole shift on autopilot - feedback, correction, repeat on what breaks."
   - "My kid's recital died in the bridges between songs - deliberate practice was running only those transitions ten times; the rest she already knew."

@@ -13,7 +13,7 @@ level_1: "Cloudflare free tier caps builds at about five hundred per month per a
 level_2: "Like a shared metered hose - bandwidth looks unlimited, but build count and queue time drain the budget first."
 level_3: "Batch commits, pin HUGO_VERSION, and count builds before you add another client who pushes daily."
 level_4: "Fat repos and frequent pushes burn the budget faster than bandwidth - one account hosting many clients burns fast."
-level_5: "Static bandwidth is unmetered - traps are build count, queue time, and fat repos; [[Selling Static Sites]] and [[Digital Garden]] share the same pipeline when clients push often."
+level_5: "Design a shared hosting policy that budgets builds per client, batches pushes, pins Hugo, and names when a site must leave the free account."
 examples:
   - "Twelve client sites on one free account - hit 500 builds mid-month and Friday deploys started queuing."
   - "Build failed until Hugo was pinned - env var on every new project template now, and that failure still counted against the cap."

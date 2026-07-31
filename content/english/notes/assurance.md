@@ -15,8 +15,8 @@ key_concept: |
 level_1: "Assurance is resting on Christ's promise of eternal life - not on this week's performance scorecard."
 level_2: "Like trusting you are still loved after a bad report card - rest on the word, not the week's tally."
 level_3: "When dread hits on Monday, return to the promise you believed at faith - bad weeks do not re-open [[Justification]]."
-level_4: "Hidden sin and ugly weeks do not revoke belonging - assurance is where you rest when performance says otherwise."
-level_5: "[[Free Grace]] names the gift; [[Loss of Reward]] keeps reward-loss separate from belonging; [[Standing vs Fellowship]] keeps closeness breaks distinct from standing that stays."
+level_4: "Assurance separates standing from fellowship and salvation from reward - hidden sin can damage closeness and cost reward without revoking belonging."
+level_5: "Write a doubt response that returns to Christ's promise, names any broken fellowship honestly, and chooses the next faithful step without reopening salvation."
 examples:
   - "Bad week and dread God changed His mind - assurance rests on Christ's promise, not my obedience streak."
   - "I pictured the judgment seat and panicked like heaven might get revoked - salvation settled at faith; works get reviewed for reward after."

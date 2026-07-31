@@ -10,7 +10,7 @@ level_1: "PKM is personal knowledge management - save what you learn, organize i
 level_2: "Like catch, label, and cook instead of hoarding groceries until they spoil - three moves beat app-hopping."
 level_3: "Pick one inbox, one organize pass, one express habit - swap tools only when a step fails, not when a blog posts a new app."
 level_4: "Output beats tuning the system alone - perfectionism about stack is procrastination dressed as research."
-level_5: "[[Building a Second Brain]] names CODE; [[PARA Method]] holds organize - this garden is where reuse happens after capture."
+level_5: "Build one complete PKM loop: capture with CODE, organize with [[PARA Method]], then turn one saved idea into work someone can use."
 examples:
   - "The team manager keeps a card file sorted by what she actually uses on game day - she deleted half of it last spring after a loss reminded her what she never opened."
   - "I screenshotted forty recipes last year and cooked four - the Notes app only keeps what survived a second cook."

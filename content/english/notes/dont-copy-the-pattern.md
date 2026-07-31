@@ -13,7 +13,7 @@ level_1: "Do not copy the pattern means refusing culture's default script before
 level_2: "When outrage on the feed feels normal, that is their habit, not yours - like refusing the loudest kid before you join the pile-on."
 level_3: "Pause before you react to outrage online and ask whether this response matches who God chose you to be - scroll is not permission."
 level_4: "Do not conform - refuse the default before renewal reshapes how I react; pairs with [[Present a Living Sacrifice]] on the same Romans passage."
-level_5: "You open the Bible before the group chat after you caught yourself running hurry-and-react - you build a refusal habit before renewal reshapes the next reaction."
+level_5: "Design a refusal habit that catches one cultural script, replaces its cue with Scripture, and trains a renewed response before the next reaction."
 examples:
   - "I knew the verse on patience and still snapped at dinner - my mind was running the world's hurry-and-react script until I stopped copying the pattern and opened the Bible before the group chat."
   - "The team copied the league's trash-talk culture after one bad call - same data, old habit loop; refusing the pattern means film study on composure, not one inspirational speech."

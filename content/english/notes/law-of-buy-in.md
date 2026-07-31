@@ -12,11 +12,11 @@ key_concept: |
   - **Buying into a Bold Vision** - Cupbearer's grief earned royal favor - then Jerusalem's wall vision landed.
   {{< bible ref="Hebrews 3:1-15" >}}
   - **Remaining Confident in Christ** - Fix eyes on Christ - do not harden hearts like the wilderness generation.
-level_1: "The law of buy-in is that people trust the leader before the vision - buy the guide, then the map."
+level_1: "The law of buy-in is that people trust the leader before the vision."
 level_2: "Gideon's trimmed army followed his jar-and-torch plan - buy-in to him, then the tactic; Nehemiah wept and prayed before he asked the king."
 level_3: "Share the plan only after people have seen you carry load - trust the leader before the slide deck lands in the room."
-level_4: "Vision without trusted leader is a poster; leader without vision is a stroll - buy-in to Christ keeps hearts from hardening like the wilderness generation."
-level_5: "[[Law of Connection]] earns the heart; [[Leadership Is Influence]] measures whether anyone followed after the pitch."
+level_4: "Vision without a trusted leader is a poster; a trusted leader without vision is a stroll - people need both guide and map."
+level_5: "[[Law of Connection]] earns the heart first; extend buy-in until [[Leadership Is Influence]] shows someone followed after the pitch."
 examples:
   - "The reorg failed until they trusted the new director - buy-in to her, then the roadmap."
   - "Nehemiah's face showed grief before his mouth asked for leave - leader first, blueprint second."

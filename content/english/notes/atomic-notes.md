@@ -15,8 +15,8 @@ key_concept: |
 level_1: "An atomic note holds one claim you would say out loud - too many ands means split the file."
 level_2: "Like one LEGO brick with one shape - \"call coach\" is one note; \"call coach and buy shoes and fix bike\" is three."
 level_3: "Before you save, ask what one sentence you would cite in conversation - mixed topics mean two notes, not one."
-level_4: "Too many ideas in one file block links and maps from doing their job - one claim per file."
-level_5: "Link with `[[wikilinks]]` and let [[Maps of Content]] organize - faith parallel: [[Let Your Yes Be Yes]], say one plain thing; headings inside one file usually mean you need two notes."
+level_4: "Small files create more links and upkeep, but mixed claims hide relationships and make reuse harder - split when a heading or another and marks a second idea."
+level_5: "Split a broad draft into single-claim notes, link the claims with `[[wikilinks]]`, and build a [[Maps of Content|map]] only when the cluster needs a doorway."
 examples:
   - "\"Why my basketball shoes live by the door\" is one claim - I would say it alone at carpool."
   - "\"Where we meet if the elevator is out\" is one claim; \"elevator outage and parking-gate codes\" is two - split and wikilink."

@@ -8,11 +8,11 @@ key_concept: |
   - A yes without owners and dates is a promise with no delivery address.
   - Mistakes need correction, not ceremony - fix the process or the miss comes back next week.
   - Verification closes the loop - if nobody checks it landed, the cycle never really finished.
-level_1: "Complete the cycle is recap, owners, dates, and verification after the handshake - a decision without owner and date is still talk."
-level_2: "Like Mom writing who walks the dog and when - the team agrees to fix the play but nobody writes it on the board until execution starts."
-level_3: "Write the one drill on the whiteboard before anyone leaves the gym - send recap with owners and dates before the parking lot clears."
-level_4: "Saying yes is cheap; delivery is the work - if nobody checks it landed, the miss returns next week."
-level_5: "Mistakes need correction, not ceremony - verification closes the loop so the cycle actually finishes."
+level_1: "Completing the cycle means turning a decision into owned, dated, and verified work."
+level_2: "Recap, owners, dates, and a check close the gap between saying yes and proving delivery."
+level_3: "Before the meeting ends, write the action, owner, due date, and how the group will verify it."
+level_4: "More tracking adds overhead, but too little lets work disappear; match verification to the cost of the miss."
+level_5: "Create a follow-through template and improve it until another team can close decisions without a separate reminder chase."
 examples:
   - "Halftime talk ended with a vague press fix promise - I wrote the one drill on the whiteboard before anyone left the gym."
   - "I will look into it without a date is how school projects die after the group chat goes quiet - the recap with owners and dates went out before anyone left the parking lot."

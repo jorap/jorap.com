@@ -18,8 +18,8 @@ key_concept: |
 level_1: "Ask, seek, knock is Jesus' teaching on persistent prayer - keep asking like a child who expects bread, not stones."
 level_2: "Like knocking until a good parent opens with bread - God answers like that parent, not someone handing rocks."
 level_3: "Pray on the same rhythm you review your week - dependence before daily needs crowd out kingdom priorities."
-level_4: "Persistent prayer on schedule, not one desperate burst - ask before thumb-refreshing news about tomorrow's meeting."
-level_5: "Under [[Free Grace]], prayer is a dependent child who already belongs - same rhythm as [[Periodic Knowledge Review]], keep showing up not only in crisis."
+level_4: "Persistence builds dependence without turning prayer into merit or leverage - under [[Free Grace]], the child keeps asking because he already belongs."
+level_5: "Build a prayer rhythm around asking, seeking, and knocking, then extend it with a review that notices answers, delays, and needs that changed."
 examples:
   - "I thumb-refresh the news about tomorrow's meeting instead of asking - prayer is dependence, not bargaining for merit I already have under grace."
   - "The clinic chaplain rounds every floor on a schedule, not only when someone codes - ask, seek, knock is keep showing up, not one crisis visit."

@@ -15,7 +15,7 @@ level_1: "Forgiveness clears the slate with others each day - forgive as you wan
 level_2: "Like rinsing a dish before reuse - daily rhythm, not a one-time nod when the sermon felt moving."
 level_3: "Forgive one person today before you ask God to forgive you tonight - stop counting how many times you were wronged."
 level_4: "Because forgiveness extends grace already received, refusing to forgive exposes a heart out of step with the gift."
-level_5: "Seventy times seven ends the count - extend grace received instead of keeping a running debt list; the unforgiving servant parable makes the [[Free Grace]] math plain."
+level_5: "Create a daily forgiveness practice that names the debt, releases the count, and turns received grace into the next merciful move."
 examples:
   - "My kid hurt my feelings at breakfast and I said it is fine while nursing the grudge - forgiveness is releasing the debt, not pretending it did not matter."
   - "I prayed about forgiving others on autopilot and skipped that line because I am still mad at my brother from last Sunday - you cannot ask for mercy with one breath and hold a grudge with the next."

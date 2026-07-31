@@ -4,13 +4,14 @@ meta_title: "Inspectable Stack - Inspect, Move, Help"
 description: "Pick tools you can inspect, move, and get help on - open license alone is not enough."
 key_concept: |
   - If I cannot inspect it, move it, and find help when stuck, it does not get a serious look.
+  - [[Community Depth]] supplies the help lane; [[Future-Proofing Knowledge]] is the move test for notes.
   - Say no to tools that only let you work inside their garden unless the garden is genuinely worth the rent.
   - Git is how I touch open code without breaking everyone else - clone, branch, revert.
 level_1: "An inspectable stack is a tool you can read the source of, leave with your files, and find help on when stuck at ten at night."
 level_2: "Like a car with the hood unlatched - see why it stalled, tow your files elsewhere, find a mechanic who knows that engine."
 level_3: "Hugo build failed on a theme path - I opened the theme file, found a nil check someone forgot, and fixed it in ten minutes because the stack is files I can read."
 level_4: "Open license alone does not mean maintained - [[Open Not Maintained]] and [[Say No to Nulled]] fail inspectable even when view source is technically true."
-level_5: "[[Community Depth]] supplies the help lane; [[Future-Proofing Knowledge]] is the move test for notes."
+level_5: "Design a stack test that proves you can inspect a failure, move your files, and find human help before the tool becomes critical."
 examples:
   - "WordPress plugin fatal on a client site - commented out one bad line until a maintained fork showed up; closed SaaS would have been a support form and a prayer."
   - "Hugo build failed on a theme path case mismatch - Linux wanted hugoplate, folder said HugoPlate; fixable in ten minutes because the whole stack is files I can read."

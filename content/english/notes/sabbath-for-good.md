@@ -13,7 +13,7 @@ level_1: "Sabbath for good means rest serves people and mercy - not rule-keeping
 level_2: "The Sabbath was made for man, not man for the Sabbath - the Lord of the Sabbath chose healing over empty performance religion."
 level_3: "Skip rigid rule theater when a teammate is stranded - mercy beats quoting your off day policy."
 level_4: "Because legalism turns gift into gauge, binding the bent woman was the real sin, not healing on the Sabbath."
-level_5: "Pair with [[Heart Righteousness]] and [[Secret Devotion]] - refuse piety for applause; rest is gift rhythm that makes room to love the person in front of you."
+level_5: "Pair with [[Heart Righteousness]] and [[Secret Devotion]] - refuse piety for applause."
 examples:
   - "I skipped helping a stranded teammate because it was my off day and felt holy about it - Sabbath for good means mercy beats rigid rule theater."
   - "Family needed me Sunday afternoon and I quoted policy - Jesus freed a daughter of Abraham on the Sabbath because binding her was the real sin."

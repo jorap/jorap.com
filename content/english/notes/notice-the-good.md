@@ -10,8 +10,8 @@ key_concept: |
 level_1: "Notice-the-good means praise the exact move you want copied - specific feedback, not empty approval."
 level_2: "Good job says nothing; your rebounds won that game tells them exactly what to do again - like pointing at the move that worked instead of clapping with no detail."
 level_3: "Praise the exact rep that worked - vague approval feels nice and changes nothing about tomorrow's behavior."
-level_4: "Specific praise names the behavior to repeat - that is how [[Process Over Outcomes]] sounds out loud when you coach."
-level_5: "[[Coaching Ethics]] and [[Gentleness]] both need precision - empty cheer is [[Name the Feeling]] without the [[Complete the Cycle]] that builds skill."
+level_4: "Specific praise can strengthen the process, but praise tied only to outcomes hides steady work and praise without truth becomes manipulation - [[Process Over Outcomes]] keeps the target honest."
+level_5: "Create a feedback habit that joins [[Gentleness]] with precise [[Coaching Ethics]], then [[Complete the Cycle]] by naming the next repeatable move instead of stopping at [[Name the Feeling]]."
 examples:
   - "After practice I told the kid who boxed out every drill that his rebounds won the scrimmage and he should keep sealing like that."
   - "I emailed the intern that catching the duplicate invoice before I did saved us a call - specific beats a generic thanks slide."

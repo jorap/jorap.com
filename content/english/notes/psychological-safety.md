@@ -10,7 +10,7 @@ level_1: "Psychological safety means people can name mistakes and near-misses wi
 level_2: "Like hearing their side before you pick a fix - listen to how they see what happened before you talk about blame."
 level_3: "When your kid confesses he broke the vase, thank him for saying it - silence teaches the next person to hide the miss."
 level_4: "Because shame shuts down honest data, alignment on story precedes correction - they must feel heard before the fix lands."
-level_5: "Join their framing before you redirect blame - [[Listen Before Fixing]] and [[Heed Every Near-Miss]] need gratitude, not punishment, for reports."
+level_5: "Design a reporting habit around [[Listen Before Fixing]] and [[Heed Every Near-Miss]]: thank the report, hear the story, then fix the system without punishing honesty."
 examples:
   - "My kid told me he broke the vase - I thanked him for saying it instead of making him dread confessing next time."
   - "I named the wrong turn to my carpool - nobody mocked it, so I speak up before the next missed exit."

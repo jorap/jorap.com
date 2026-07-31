@@ -12,7 +12,7 @@ level_1: "A mental model is a reusable frame for decisions - keep the few you ac
 level_2: "Like keeping only the tools in your box that you actually use, a model earns a place when you use it twice under pressure."
 level_3: "After a hard call, name which frame helped - if none did, you are collecting models, not thinking with them."
 level_4: "A model nobody reaches for is shelf decoration - recall under pressure is the value, not the bookmark count."
-level_5: "[[Decision Quality]] and [[Behavioral Economics]] supply candidates - [[Pareto Principle]] and [[Minimum Effective Dose]] are examples that survived contact with real choices."
+level_5: "Build a small decision kit from [[Behavioral Economics]], [[Pareto Principle]], and [[Minimum Effective Dose]], then keep only the models that improve [[Decision Quality]] in repeated choices."
 examples:
   - "The restaurant had twelve menu tweaks on the whiteboard - I picked the two that actually cut ticket times and shelved the rest."
   - "Waze showed four commute routes - I stuck to the one that saves gas on the Tuesday school run, not the scenic detour."

@@ -13,7 +13,7 @@ level_1: "Not my will means asking God to remove the cup, then yielding to the F
 level_2: "Like telling a parent you are scared and still doing what is right - the dread comes out loud before the yes."
 level_3: "When the diagnosis will not change, pray the honest ask first, then release the outcome you cannot control."
 level_4: "Because surrender without honesty is performance, bring real dread to God before you release the result."
-level_5: "[[Glorify Your Name]] repeats the pattern - [[Free Grace]] carries you through cups you cannot remove alone."
+level_5: "Write an honest surrender prayer from this pattern: name the cup, ask plainly, yield the outcome through [[Free Grace]], and choose the next obedient step that will [[Glorify Your Name]]."
 examples:
   - "I wanted the diagnosis to be wrong and prayed for a different outcome, then had to say not my will - Gethsemane is where faith stops bargaining and starts surrender."
   - "Leading a team meant a conversation that could cost me friends - I delayed a week; Jesus prayed three times the same yes before the arrest."

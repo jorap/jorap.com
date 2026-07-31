@@ -15,8 +15,8 @@ key_concept: |
 level_1: "The law of victory is that leaders accept responsibility for finding a path to win for the team."
 level_2: "Samson's death toppled Philistines; Jonathan's climb sparked a rout; four friends tore a roof for healing - flawed people still cleared the path."
 level_3: "Define winning for the team in one sentence, then remove one blocker they cannot clear alone."
-level_4: "Victory is not comfort - it is clearing the path even when the cost lands on the leader first."
-level_5: "[[Finish Strong]] and [[Steward After the Win]] keep victory from ending at your personal highlight reel."
+level_4: "Victory is not comfort - it is clearing the path even when the cost lands on the leader first; comfort-first leadership stalls the team."
+level_5: "Extend victory past the highlight reel with [[Finish Strong]] and [[Steward After the Win]]."
 examples:
   - "We missed the deadline until someone rerouted testing to parallel lanes - leadership was the workaround, not the speech."
   - "Friends lowered the paralytic through the roof - victory looked like vandalism for a minute."

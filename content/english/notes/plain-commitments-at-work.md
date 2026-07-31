@@ -12,8 +12,8 @@ key_concept: |
 level_1: "Plain commitments at work mean yes or no without stacked qualifiers - let your yes be yes and your no be no."
 level_2: "Like telling the boss you can finish by Friday without extra promises to sound brave - swagger on a weak promise destroys trust."
 level_3: "Before you promise, check capacity - if you need hype to sound credible, the problem is overload, not vocabulary."
-level_4: "One deadline, one owner, one plain answer in Slack - extra spin on a miss lands harder than an honest no."
-level_5: "[[Let Your Yes Be Yes]] and [[Integrity]] apply the same rule - [[Drafting in Public]] outruns private honesty when commitments get performative."
+level_4: "Plain answers build trust only when capacity and scope are honest - a crisp yes still fails when the deadline or owner is fiction."
+level_5: "Create a commitment template from [[Let Your Yes Be Yes]] and [[Integrity]]: one owner, one deadline, one scope, and one early no when capacity is gone."
 examples:
   - "I said yes to Friday delivery in the meeting and meant it - no silent scope creep over Slack that night."
   - "The coach promised equal minutes and tracked them on the whiteboard - parents stopped guessing."

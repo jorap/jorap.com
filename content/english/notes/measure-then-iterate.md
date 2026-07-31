@@ -12,7 +12,7 @@ level_1: "Measure-then-iterate means pick one metric that proves progress, watch
 level_2: "Like counting how many baskets you made before you change your shooting form, transformation without a number is cheer that fades."
 level_3: "Before the next sprint, write one number you will check Friday - if it did not move, the plan changes, not the story you tell."
 level_4: "Unmeasured change is [[Failure as Feedback]] you never captured - enthusiasm with amnesia repeats the same miss next quarter."
-level_5: "[[Continuous Improvement]] and [[Decision Quality]] both need feedback loops - [[Practice Small Experiments]] keeps trials small before you scale the rollout."
+level_5: "Build a feedback loop that uses [[Practice Small Experiments]] to test, [[Decision Quality]] to judge the signal, and [[Continuous Improvement]] to extend what works before scaling."
 examples:
   - "We tracked checkout time for two weeks after one fewer tap - measure then iterate meant keeping the change when seconds dropped, reverting when they did not."
   - "I logged how many notes I actually reviewed on the jeepney for fourteen days - measure then iterate beat another app rebuild based on guilt."

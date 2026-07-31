@@ -11,8 +11,8 @@ key_concept: |
 level_1: "Kingdom on the road is Jesus traveling town to town teaching, proclaiming good news, and healing - mobile ministry, not one static stage."
 level_2: "He said He must preach the kingdom to other cities - teaching, preaching, healing on the road, like a doctor who goes to patients instead of waiting in one office."
 level_3: "Take the kingdom to the next town this quarter - teach, proclaim, heal where people live, not hoard one audience in one building."
-level_4: "The kingdom advance was mobile ministry - people meet the kingdom where they live; static stage hoarding contradicts the Gospel biography pattern."
-level_5: "[[Great Commission]] sends outward; this note is the Gospel biography of the same pattern - kingdom service in motion."
+level_4: "Static stage hoarding keeps the kingdom in one room - mobile ministry costs travel and continuity, but people meet the kingdom where they live."
+level_5: "Extend the road pattern into [[Great Commission]] sends - this note is the Gospel biography of kingdom service in motion."
 examples:
   - "I separated Sunday preaching from weekday integrity and wondered why nobody listened - kingdom on the road is word and deed in the same Tuesday."
   - "I planned a big conference but ignored the neighbor on my street - Jesus moved village to village with teaching and touch in one bag."

@@ -10,7 +10,7 @@ level_1: "Decision quality is how often choices hold up after information, time,
 level_2: "Sleep on a big choice - if it still makes sense tomorrow, it was a better pick; facts and time test the choice before you commit."
 level_3: "Call one current member before you sign the year-long club fee - one neighbor call about the flood-prone pickup lane before you pay."
 level_4: "Pairs with [[Control the Rhythm]] when urgency pushes a fast yes - quality decisions survive new facts and the real bill, not the buzz in the room."
-level_5: "A family calls one neighbor about the flood-prone pickup lane before signing - you build a habit of testing choices against sleep and new facts."
+level_5: "Build a decision check that gathers one outside fact, waits through the excitement, prices the real cost, and records what would change the choice."
 examples:
   - "Signing a year-long club fee on one trial session is how people miss the schedule clash - decision quality was one call to a current member before we paid."
   - "We almost picked the school on one sunny open house - one neighbor call about the flood-prone pickup lane changed our call before we signed."

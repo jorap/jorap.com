@@ -24,7 +24,7 @@ key_concept: |
 level_1: "The Beatitudes are eight blessings Jesus opened the Sermon on the Mount with - kingdom favor for people who know they need God, not the self-sufficient."
 level_2: "Beatitude means supreme blessedness - each line reverses the scoreboard and names who receives kingdom favor while the world's winners miss it."
 level_3: "Read one beatitude as a mirror this week - where do you look self-sufficient when Jesus names the needy as blessed?"
-level_4: "Poor in spirit through persecuted for righteousness - eight moves that flip the scoreboard under [[Free Grace]]: kingdom favor is gift, not wages for performance."
+level_4: "Under [[Free Grace]], kingdom favor is gift not wages - the scoreboard flip has limits when you treat the blessings as a performance checklist."
 level_5: "Each line promises reward rooted in character shaped by grace - link to [[Peacemakers]], [[Gentleness]], and the traits the kingdom actually favors."
 examples:
   - "A good week at the clinic and I felt like I did not need much from God - poor in spirit is broke before God, not the worker who nailed Friday's schedule."

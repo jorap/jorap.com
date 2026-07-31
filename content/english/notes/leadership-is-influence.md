@@ -11,8 +11,8 @@ key_concept: |
 level_1: "Leadership is influence - the power to move people toward a shared direction, not a title on a door."
 level_2: "Without followers you are walking alone, title or not - like a parade with no marchers behind the drum major."
 level_3: "Before you call it leadership, check whether anyone is actually moving with you on the goal."
-level_4: "Title borrows authority; influence is what people grant in small trust deposits spent when you set direction."
-level_5: "[[Influence Without Title]] leads without a badge; [[Title Without Influence]] warns when the org chart moves nobody."
+level_4: "Title borrows authority; influence is what people grant in small trust deposits - spend them when you set direction or the badge walks alone."
+level_5: "Extend the split - [[Influence Without Title]] leads without a badge; [[Title Without Influence]] warns when the org chart moves nobody."
 shareable_thought:
   - "Influence moves people toward a shared goal."
   - "Title optional, trust required."

@@ -8,13 +8,14 @@ key_concept: |
   - [[The Second Brain Workflow]] is how CODE and PARA run as one daily-to-weekly loop.
   - The system fails when any step is just for show.
   - I review whether each step still earns its place every quarter.
+  - I review quarterly whether each step still earns its place.
   - My head is for thinking, not storing - notes hold what I would otherwise lose.
   - Notes hold what I would otherwise lose - capture is how ideas survive the week.
-level_1: "Building a second brain is offloading ideas to an external system so your head can think, not hoard."
-level_2: "Like a grocery list freeing your head for dinner - a coach keeps plays on paper so players remember routes, not every call."
-level_3: "Voice-memo the play idea before gym noise eats it - one trusted inbox, no sorting yet, process when the spark is safe."
-level_4: "Remember CODE: capture, organize, distill, express - the system fails when any step is just for show."
-level_5: "[[The Second Brain Workflow]] runs CODE and PARA as one loop - review quarterly whether each step still earns its place."
+level_1: "Building a second brain means storing useful ideas outside your head so your mind can focus on thinking."
+level_2: "The system moves ideas through capture, organization, distillation, and expression instead of treating storage as the finish line."
+level_3: "Capture one useful idea in a trusted inbox, process it later, and use it in a real piece of work."
+level_4: "CODE and PARA can reduce memory load, but the system fails when upkeep costs more than reuse or when capture never becomes output."
+level_5: "Build a complete workflow from capture to expression, then remove or revise any step that does not earn its place."
 examples:
   - "A play idea hits during warm-ups and I voice-memo it before the gym noise eats it - my head is for having ideas, the inbox is for storing them until review."
   - "A sermon line lands mid-shift and I scribble it on a receipt - one [[trusted inbox]], no sorting yet, process it Sunday when the spark is safe."

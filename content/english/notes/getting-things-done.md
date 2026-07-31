@@ -11,7 +11,7 @@ level_1: "Getting Things Done captures open loops on paper, clarifies next actio
 level_2: "Like plumbing for open loops - capture, clarify, organize, review so you stop rehearsing the same worry at 2am."
 level_3: "Capture everything on your mind today, clarify the next action for each item, and schedule weekly review."
 level_4: "Open loops drain attention - separate tasks from notes when [[PARA Method]] owns the reference layer."
-level_5: "GTD vs PARA splits tasks from notes - Allen owns the task side; tasks and notes live in separate systems when PARA holds reference."
+level_5: "Build a trusted task system with one capture path, clear next actions, and a weekly review, then connect reference material to [[PARA Method]] without mixing the two lanes."
 examples:
   - "Tournament week and the brain is not a filing cabinet - GTD is one trusted inbox and a weekly review so open loops live on paper, not at 2am."
   - "Commute errands and neighbor requests hit one pocket notebook - each item gets a next action so nothing rots as background worry."

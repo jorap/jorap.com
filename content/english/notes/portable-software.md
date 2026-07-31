@@ -9,7 +9,7 @@ level_1: "Portable software runs from a folder you control - unzip, no admin rig
 level_2: "Like packing the whole workshop in a crate - transfer between desks, USB sticks, and reimaged corporate laptops."
 level_3: "On locked Windows images, portable XAMPP lets you practice on lunch break without an IT ticket."
 level_4: "Own the folder first, OS second - when Linux and Mac joined the desk, portable habits carried over to [[Cross-Platform Software]]."
-level_5: "[[Cross-Platform Software]] picked up when OS count rose; [[Freedom Over Free]] names why no installer beats no license fee."
+level_5: "Package a toolchain that runs from one owned folder, then extend it with [[Cross-Platform Software]] checks so the same work survives the next machine."
 examples:
   - "Corporate desktop with no installer rights - XAMPP portable in my user folder, break a CMS install on lunch without asking IT why sales needs Apache."
   - "PortableApps launcher on a USB stick - Firefox and Notepad++ on a locked work PC, unplug the drive and Add/Remove Programs stays clean"

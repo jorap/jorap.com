@@ -4,13 +4,14 @@ meta_title: "Versatility - More Than One Way to Contribute"
 description: "Plug into more than one lane when the team or the client needs a shift."
 key_concept: |
   - You can contribute in more than one lane when the team or the market shifts.
+  - [[Adaptability]] names the wider response to change; versatility is the skill side of that move.
   - Nobody schedules the sick day or the rush - versatility is just having more than one answer ready when they hit.
   - Versatility is staying useful across roles, tools, and contexts - not locked to one lane.
-level_1: "Versatility is contributing in more than one lane when the team or market shifts - not locked to one role or tool."
-level_2: "More than one answer ready when the sick day or the rush was not on the calendar - nobody schedules when the plan breaks."
-level_3: "Keep one backup skill warm that is not your primary lane - jump on dishes when the line cook calls tickets without pretending you run the grill."
-level_4: "Markets and teams shift lanes without warning - [[Adaptability]] names the same move when contribution in more than one role keeps you useful."
-level_5: "Stay useful across roles, tools, and contexts - tradeoff against [[Pareto Principle]] when being helpful everywhere dilutes the core twenty percent you are best at."
+level_1: "Versatility is the ability to contribute in more than one role, tool, or setting when needs shift."
+level_2: "Versatility keeps more than one useful answer ready because sick days, rushes, and market changes rarely follow the plan."
+level_3: "Keep one backup skill warm, then use it when an adjacent lane opens without pretending to own expertise you lack."
+level_4: "Versatility improves coverage, but chasing every lane can weaken the core work where [[Pareto Principle]] says your best contribution sits."
+level_5: "Build a small skill stack around your strongest lane, test it in real gaps, and teach the handoffs that let the team shift without faking expertise."
 examples:
   - "The rush hit and I jumped on dishes while the line cook called tickets - versatile without pretending I suddenly ran the grill."
   - "Sick day meant I became lunch packer, tutor, and IT help - versatility is more than one lane when the day shifts."

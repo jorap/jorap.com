@@ -4,12 +4,14 @@ meta_title: "Cross-Platform Software - One Skill, Many Machines"
 description: "Cross-platform tools run on Mac, Windows, and Linux so one skill travels across your machines."
 key_concept: |
   - I pick tools that run on Mac, Windows, and Linux before I learn a third workflow for the same job.
+  - One repo, one editor, one diff habit.
+  - Open projects publish source, volunteers usually ship all three builds.
   - Beyond Compare is the paid exception on my short list - same diff shortcuts on every OS when client themes diverge.
-level_1: "Cross-platform software runs on Mac, Windows, and Linux so one skill and workflow travel across machines - you can name what it is."
-level_2: "One repo, one editor, one diff habit - like one recipe that works in three kitchens, not three cookbooks because the stove logo changed."
-level_3: "Hugo site in git on Linux Mint desktop, MacBook, and Windows travel laptop - same markdown folder, same build command, different logo on the boot screen."
-level_4: "[[Portable Software]] solved locked Windows first; cross-platform mattered when Linux Mint, MacBook, and travel Windows all had my Hugo folder in git."
-level_5: "[[Inspectable Stack]] move test includes the next machine; [[Community Depth]] explains why Git, Hugo, and Firefox show up on every desk."
+level_1: "Cross-platform software runs across major operating systems with the same core workflow."
+level_2: "It lets one skill and project travel between machines instead of requiring a separate tool for each operating system."
+level_3: "Open the same Hugo repository and run the same build on Linux, macOS, and Windows."
+level_4: "Portability reduces lock-in, but feature gaps, native behavior, and testing cost can make one-platform tools better for specialized work."
+level_5: "Build and document a workflow that survives a move to another operating system, then test it on the next machine."
 examples:
   - "Hugo site in git on Linux Mint desktop, MacBook, and Windows travel laptop - same markdown folder, same build command, different logo on the boot screen."
   - "Client theme diff between my Mac and their Windows host - Beyond Compare earned the invoice because the keyboard shortcuts matched on both sides."

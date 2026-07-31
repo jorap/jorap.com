@@ -14,7 +14,7 @@ level_1: "Gentleness is strength under control - power restrained on purpose, no
 level_2: "Like a hand on a hot pan with a mitt - sits beside patience and self-control in the Spirit cluster, not absence of power."
 level_3: "Pause and listen before you prescribe - correction without love fails the cluster test."
 level_4: "Unrestrained strength intimidates instead of serves - loud fixes without hearing are not Spirit-grown gentleness."
-level_5: "[[Listen Before Fixing]] is gentleness in conversation; [[The Beatitudes]] bless the meek; [[Humility and Service]] is the garden echo when greatness is serving."
+level_5: "Create a correction pattern that listens first, names one needed change, and keeps enough strength in reserve to serve rather than intimidate."
 examples:
   - "Correction with my kid turned sharp - volume up, gentleness gone - Galatians gentleness is strength under control, not force."
   - "I helped a neighbor move and waited for credit in the group chat - gentleness fruit serves without grasping for status."

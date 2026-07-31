@@ -5,11 +5,11 @@ description: "There is no perfect solution - pick what works tired and ship inst
 key_concept: |
   - Waiting for the ideal option is itself a choice - usually the choice to stay stuck with the status quo.
   - Every real choice has tradeoffs - stop comparing real options to an imaginary perfect one.
-level_1: "There is no perfect solution - every real choice carries tradeoffs, not an imaginary ideal option that does not exist."
+level_1: "There is no perfect solution means real options are imperfect - the ideal option you are waiting for does not exist."
 level_2: "Waiting for the ideal option is itself a decision - most often it keeps the status quo in place while you compare real choices against fantasy."
 level_3: "Compare real choices against each other, not against a perfect option - pick what works tired and ship instead of waiting a week comparing strollers."
 level_4: "Perfect solutions are imaginary comparators - [[Reversibility]] asks which mistake you can undo when every real choice has tradeoffs."
-level_5: "Stop comparing real options to an imaginary perfect one - same move as [[Accept the Starting Line]] when waiting to feel ready blocks the good-enough move."
+level_5: "Extend the same move as [[Accept the Starting Line]] when waiting to feel ready blocks the good-enough move."
 examples:
   - "I spent a week comparing strollers instead of walking with the baby we already had - picked the lighter one, went out tired that afternoon."
   - "I stopped comparing note apps and shipped with the one that works on my phone tired - no perfect tool, only what I actually use."

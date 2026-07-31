@@ -12,8 +12,8 @@ key_concept: |
 level_1: "Kindness is gentle care for the real person in front of you - not acting polite just to look good to bystanders."
 level_2: "Fruits of the Spirit names kindness beside goodness - soft strength toward actual people, like a hand on a shoulder, not a generic nice-guy pose."
 level_3: "Move your chair toward the parent you would rather avoid and ask how his kid's ankle is healing - kindness meets the person, not the audience."
-level_4: "Generic niceness performs for observers; kindness meets the person with soft strength - [[Goodness]] pairs with kindness in [[Fruits of the Spirit]], both aim outward not at a brand."
-level_5: "[[Goodness]] pairs with kindness in [[Fruits of the Spirit]] - both aim outward; [[Love Your Neighbor]] and [[The Golden Rule]] turn tender regard toward the person in front."
+level_4: "Generic niceness performs for observers; kindness meets the person with soft strength - audience credit is the wrong scoreboard."
+level_5: "Extend kindness with [[Goodness]] in [[Fruits of the Spirit]] - turn tender regard outward through [[Love Your Neighbor]] and [[The Golden Rule]]."
 examples:
   - "The parent I would rather avoid sits on my side every game - kindness fruit was moving my chair over and asking how his kid's ankle was healing."
   - "I was polite in the office and sharp with my family at dinner - Galatians kindness is tender regard at home too, not performance for an audience."

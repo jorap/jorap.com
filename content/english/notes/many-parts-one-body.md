@@ -11,7 +11,7 @@ level_1: "Many parts one body means the church is one body with different gifts 
 level_2: "Like a team where one kid guards and another scores, envy at another part is as silly as the foot wishing it were a hand."
 level_3: "Say no to ministry slots that are not your part so the actual teachers can teach - solo-hero volunteering burns out the wrong gift."
 level_4: "Under [[Free Grace]], every believer belongs - [[Faithful Steward]] work, not a popularity contest for standing."
-level_5: "[[Know Your Lane]] is the garden echo - clarity on your slice beats pretending you cover every position; [[Servant Leadership]] builds others up instead of hoarding every role."
+level_5: "Build a ministry team that uses [[Know Your Lane]] to name each part and [[Servant Leadership]] to equip missing gifts instead of hoarding every role."
 examples:
   - "I volunteered for every ministry slot until burnout - 1 Corinthians body truth was saying no so the actual teachers could teach."
   - "Envy at someone's platform gift stole my joy serving kids - my part was faithful in the classroom, not their microphone."

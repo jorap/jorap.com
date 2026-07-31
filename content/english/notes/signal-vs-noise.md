@@ -4,6 +4,7 @@ meta_title: "Signal vs Noise in Your Information Diet"
 description: "Save only what changes what you do or believe this month - most feeds are noise."
 key_concept: |
   - I save only what changes what I do or believe this month - most content is noise.
+  - Kingdom signal before culture noise enters the mind.
   - Admiring an article without a behavior change is entertainment, not signal.
   - The filter is simple: would I act or cite this within thirty days?
   - Headline only when nothing would change this month - no mental slot, no save.
@@ -11,7 +12,7 @@ level_1: "Signal versus noise is the filter that keeps only what changes what yo
 level_2: "Most feeds are ambient chatter - admiring an article without a behavior change is entertainment, not signal."
 level_3: "Headline only the trade-rumor thread; save the one injury note that actually changes your lineup."
 level_4: "Because intake outruns application, curation is a filter on action, not archive vanity - would you act or cite this within thirty days?"
-level_5: "Run [[Information Diet]] upstream - save what moves behavior or belief soon; kingdom signal before culture noise enters the mind."
+level_5: "Run [[Information Diet]] upstream - save what moves behavior or belief soon."
 examples:
   - "The trade-rumor thread was loud all week - signal was the one injury note that actually changed our lineup; the rest I admired and skipped."
   - "The dentist waiting room had a stack of magazines - if it will not change what I do this month, headline only, no mental slot."

@@ -10,11 +10,11 @@ key_concept: |
   - **[[Git-Based CMS]]** when Git lesson will not land but scope still fits static - quote CMS setup separately.
   - Before deposit I pick one pass-off model - Git lesson, retainer batch, or showroom branch.
   - Git lesson means repo access plus a short doc - edit markdown, commit, push without panicking at a terminal.
-level_1: "Client site pass-off is naming exactly one primary model before deposit - who publishes next, not \"we will figure it out at launch.\""
-level_2: "Like picking one person to hold the spare key - Git lesson, retainer batch, or showroom branch, not a vague launch-day guess."
-level_3: "Before deposit, name one pass-off model and quote it - repo access plus a short doc, retainer batch, or clean main only."
-level_4: "The model is priced in the quote so launch week is not a scramble - plain commitments at work."
-level_5: "**Showroom branch** keeps [[The Garage Concept]] experiments off their deploy branch; **[[Git-Based CMS]]** when Git lesson will not land but scope still fits static."
+level_1: "Client site pass-off is choosing and pricing who will publish updates after launch."
+level_2: "Naming one model before deposit removes launch-day guessing about access, ownership, and support."
+level_3: "Choose a Git lesson, retainer batch, showroom branch, or [[Git-Based CMS]], then put that choice in the quote."
+level_4: "Client control, skill, update frequency, and support cost shape the model; the easiest handoff for you may be wrong for them."
+level_5: "Create a pass-off kit for the chosen model and test whether the client can publish one safe update without you taking over."
 examples:
   - "Neighbor chose Git lesson - twenty minutes on edit, commit, push; she broke build once, fixed typo same night."
   - "Pastor emails bulletin PDF every Friday - retainer batch, one push, no CMS layer needed."

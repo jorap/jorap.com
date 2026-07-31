@@ -11,7 +11,7 @@ level_1: "A maintenance window is scheduled time to prune links, fix orphans, an
 level_2: "Like setting aside Saturday morning to tidy your room instead of waiting until the mess gets scary, PKM systems rot without a fixed review slot."
 level_3: "Block ninety minutes weekly for garden hygiene - broken links and stale tags compound when you wait for panic."
 level_4: "When you skip two slots in a row, the orphan list tells you before any feeling does - skipped rhythm is how decay enters the stack."
-level_5: "[[Periodic Knowledge Review]] and [[Maps of Content]] both assume rhythm - skipped slots are how [[Normalization of Deviance]] enters your note stack."
+level_5: "Build a maintenance rhythm that uses [[Periodic Knowledge Review]] for the pass and [[Maps of Content]] for the route, then add an alert before skipped slots become [[Normalization of Deviance]]."
 examples:
   - "First Sunday I swap the car fluids and rotate tires - not waiting for the check-engine light."
   - "Saturday morning is toy-bin purge and mending - not panicked cleaning when guests are at the door."

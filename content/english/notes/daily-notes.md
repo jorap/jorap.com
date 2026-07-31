@@ -10,7 +10,7 @@ level_1: "Daily notes are today's scratch pad for fleeting fragments - promote w
 level_2: "Quick toss-offs live on today's scratch page - like scribbling on today's sticky pad where only ideas that come back earn a real page."
 level_3: "Pocket slip for pick up shoes and call coach back - promote one line to a real note when it repeats three times."
 level_4: "Pairs with [[Capture]] on the inbox side - daily notes are buffer, not archive; permanent wikilinks earn their place only after repetition proves the idea survived the week."
-level_5: "You run a weekly flush between tasks - fragments that keep returning graduate to evergreen; the rest vanish without guilt."
+level_5: "Build a weekly flush that promotes repeated fragments into permanent notes, links them to neighbors, and lets the rest expire without becoming archive clutter."
 examples:
   - "Today's pocket slip is just fragments - pick up basketball shoes, ice after practice, call coach back - I promote one line to a real note when it repeats."
   - "My work daily note today is three fragments - I almost filed the lunch idea as a permanent wiki page before remembering only repeats earn a real note; the rest fades by Friday."

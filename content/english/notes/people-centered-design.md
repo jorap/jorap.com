@@ -10,7 +10,7 @@ level_1: "People-centered design means fitting the process to real human needs b
 level_2: "Like a path worn through grass where the sidewalk missed where people walk - ignore humans and workarounds appear by Friday."
 level_3: "Pilot with the people who must live in the rule - if they invent a bypass in week one, the design failed."
 level_4: "Official process and lived process diverge into [[Normalization of Deviance]] - you cannot design for people you did not hear."
-level_5: "[[Safety by Design]] and [[Staged Rollout]] assume the same test - [[Listen Before Fixing]] and [[Psychological Safety]] come first."
+level_5: "Build a people-centered pilot: [[Listen Before Fixing]], make speaking up safe with [[Psychological Safety]], then use [[Staged Rollout]] to learn before scaling."
 examples:
   - "The clinic rolled out a new chart template nobody could finish during a shift - people-centered design was watching one nurse chart for twenty minutes, then cutting three fields."
   - "Our checkout 'improvement' added steps customers hated - people-centered design was shadowing three checkouts and removing the extra tap, not defending the flowchart."

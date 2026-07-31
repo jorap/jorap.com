@@ -12,7 +12,7 @@ level_1: "Grateful obedience is keeping God's commands out of thanks after salva
 level_2: "Like a thank-you note after a gift, not payment to buy the gift - love shows up as obedience after grace already saved."
 level_3: "Obey because grace already saved you today - gratitude keeps commands from turning into a merit ladder."
 level_4: "When obedience tries to buy standing, grace gets traded for wages - commands respond to gift, not purchase heaven."
-level_5: "[[Free Grace]] settled eternal life at faith; grateful obedience is the walk after - not the ticket in."
+level_5: "Create a practice of obedience that starts from a gift already received, then extend it into one concrete act of love without turning it into payment."
 examples:
   - "Grace clear in my head and zero change in how I treated people at the front desk - grateful obedience means doing what Jesus said today, not waiting until I feel holy enough."
   - "I obeyed all week to feel saved again after snapping at my kid - wrong motive; grace already saved me; obedience answers with thanks."

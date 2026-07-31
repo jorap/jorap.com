@@ -11,7 +11,7 @@ level_1: "Evergreen vs fleeting notes are two speeds on one desk - quick capture
 level_2: "Quick notes catch ideas you might lose this week; slow notes hold what you trust next year - capture fast in the tray, promote when the claim survives a second read."
 level_3: "[[Capture]] fast in fleeting; promote only when you would trust the claim next year - forcing everything evergreen buries what was only true this week."
 level_4: "[[Note Maturity]] is the path between - fleeting catches what might vanish this week; evergreen holds what you would cite next year after promotion earns it."
-level_5: "The shift manager's scribble about today's rush stays on the clipboard; the safety rule you cite every quarter lives in the binder - you build one promotion rule both lanes follow."
+level_5: "Build one promotion rule that moves repeated sparks into trusted claims, adds their links, and leaves short-lived fragments in the fleeting lane."
 examples:
   - "I promoted a hot take about last night's game into the garden and winced rereading it six months later - sparks belong on the fridge, not in permanence."
   - "The shift manager's scribble about today's rush stays on the clipboard; the safety rule we cite in training every quarter lives in the binder."

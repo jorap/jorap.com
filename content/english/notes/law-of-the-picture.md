@@ -16,7 +16,7 @@ level_1: "The law of the picture is that people follow what leaders model in act
 level_2: "Josiah tore down idols he read about; Jesus washed feet; Paul said imitate me - the walk out-teaches the speech."
 level_3: "Do the unglamorous task you keep assigning before you ask the team to carry it alone."
 level_4: "Visible example without hidden integrity is performance; hidden piety without any visible walk fails the team who never see the standard."
-level_5: "[[Let Your Light Shine]] names visible good works; [[Integrity Without an Audience]] keeps private obedience on the ledger too."
+level_5: "Extend the model into [[Let Your Light Shine]] for visible works and [[Integrity Without an Audience]] for the private ledger."
 examples:
   - "Kids mirrored my phone-at-dinner habit before they mirrored my prayer - the picture beat the lecture."
   - "Jesus tied a towel - leadership smelled like a servant's basin."

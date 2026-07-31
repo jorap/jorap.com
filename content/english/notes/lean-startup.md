@@ -11,7 +11,7 @@ level_1: "The lean startup loop is build the smallest test, measure what users d
 level_2: "Like tasting soup before cooking the whole pot, a tiny version answers demand cheaper than a full build in private."
 level_3: "Ship one rough prototype this week and watch whether anyone uses it before you schedule the full product roadmap."
 level_4: "Big builds before demand burn cash and morale - small tests produce learning loops cheap enough to repeat when the first guess is wrong."
-level_5: "[[Practice Small Experiments]] keeps trials small; [[Ship It]] pushes the test out before perfection hoarding wins."
+level_5: "Extend the loop with [[Practice Small Experiments]] and [[Ship It]] - push the test out before perfection hoarding wins."
 examples:
   - "Ten parents signed a waitlist before we booked the full tournament venue - smallest test, measure interest, learn before scaling."
   - "We almost rewrote the whole menu after one good weekend - ten lunch specials sold first and two items flopped."

@@ -19,7 +19,7 @@ level_1: "Eternal rewards are what the Father repays believers for faithful obed
 level_2: "God sees secret work and will pay you back - like payroll for work done off-camera, not the crowd's clap."
 level_3: "Serve in secret today without performing for the room - the Father who sees in secret counts it even when the crowd never claps."
 level_4: "[[Free Grace]] settles where I spend forever; eternal rewards settle what the Father pays the saved life for walking faithfully including [[Secret Devotion]]."
-level_5: "You stayed late to reset the gym alone and caught yourself fishing for credit - you build hidden obedience knowing the Father who sees in secret is the one who pays."
+level_5: "Build a hidden-service practice that removes the need for credit, keeps the work faithful, and points reward back to the Father who sees."
 examples:
   - "I stayed late to help reset the gym alone and immediately wanted to mention it at the next practice - the Father already saw it, and He is the one who pays, not the team chat."
   - "I covered a coworker's shift without telling anyone and caught myself fishing for credit in the break room - gift first, repayment for faithfulness second, not a merit down payment on heaven."

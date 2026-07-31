@@ -5,11 +5,11 @@ description: "Each miss becomes one tweak to the process, not a lecture about tr
 key_concept: |
   - Small fixes to how you work, repeated - each miss feeds the next version of the process.
   - Continuous improvement is steady small upgrades to process and skill - not one heroic overhaul.
-level_1: "Continuous improvement is steady small upgrades to process and skill - not one heroic overhaul you never schedule."
-level_2: "Each miss feeds the next version of how you work - like fixing one squeaky hinge each week instead of one giant repair day."
-level_3: "Tweak one line in your weekly review checklist after each miss - kaizen in the steam wand, not a grand retraining day that never happens."
-level_4: "Pairs with [[Blameless After-Action Review]] on the learn side - fix the runbook one line at a time instead of a pep talk about trying harder."
-level_5: "A barista adjusts one step after each spill until the morning routine holds - you build the process version by version from real misses."
+level_1: "Continuous improvement is making steady small upgrades to a process or skill."
+level_2: "Each miss feeds the next version, so repeated correction outperforms a heroic overhaul that never becomes routine."
+level_3: "After a miss, change one line in the checklist and test it on the next run."
+level_4: "Small fixes reduce risk but can optimize the wrong system; use [[Blameless After-Action Review]] to know when a local tweak or larger redesign is needed."
+level_5: "Build a feedback loop that captures misses, ships one tested change, and shares the improved process with others."
 examples:
   - "I tweak one line in my weekly review checklist after each miss - steady small upgrades beat the heroic overhaul I never schedule."
   - "The barista changed one milk-steaming step after every burned latte - kaizen in the steam wand, not a grand retraining day that never happens."

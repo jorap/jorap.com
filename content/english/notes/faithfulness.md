@@ -12,7 +12,7 @@ level_1: "Faithfulness is steady use of what God entrusted over time - not one v
 level_2: "Like showing up to the same shift on time - months of small obedience respond to grace already given, not purchase heaven."
 level_3: "Do the small entrusted task today with the same care you would bring to a visible stage - quiet Tuesdays count."
 level_4: "Grace already secured salvation - steady obedience responds to the gift; performance cannot replace the entry fee."
-level_5: "[[Eternal Rewards]] may follow faithful use without becoming the ticket; [[Faithful Steward]] is the garden echo for quiet lanes."
+level_5: "Build a quiet faithfulness rhythm around what God entrusted - name the small use, repeat it over time, and teach it without turning reward into the ticket."
 examples:
   - "One mission trip in my head as my whole eternal report card - faithfulness fruit is steady use over years, including Tuesdays nobody clapped for."
   - "I organized snacks for my kid's team and wanted credit all week - the master reviews faithful use, not buried gifts or performance."

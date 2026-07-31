@@ -9,8 +9,8 @@ key_concept: |
 level_1: "A mind map is a messy first pass that sketches branches and bubbles before you force linear order."
 level_2: "Like sketching a spider web of ideas on paper before you write neat sentences, the map externalizes structure before prose."
 level_3: "Spend ten minutes on paper with the topic in the center - linear notes come after the map shows what connects."
-level_4: "Mind mapping externalizes structure before prose - sketch connections, then convert each branch to an atomic claim."
-level_5: "[[Creative Blocks]] break when you stop forcing outlines - [[Atomic Notes]] inherit the branches once one claim earns its own page."
+level_4: "Mind maps reveal loose connections quickly but can hide weak claims inside pretty branches - move to linear prose and [[Atomic Notes]] once the shape is visible."
+level_5: "Create a map that breaks a [[Creative Blocks]] jam, then extend each branch into an [[Atomic Notes]] claim that can stand and link on its own."
 examples:
   - "I sketched a bubble map of our season goals on paper, then each branch became its own drill checklist."
   - "I sketch a messy bubble map before our road trip, then each branch becomes its own packing list on the fridge."

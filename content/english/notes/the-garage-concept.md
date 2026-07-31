@@ -7,9 +7,9 @@ key_concept: |
   - Client pass-off uses the same split: [[Selling Static Sites]] workshop in my drafts; the client's deploy branch is the showroom on [[Free Tier Hosting Stack]].
   - One capture habit, one publish pipe - garage to garden to push, not two note apps fighting over the same idea.
 level_1: "The garage concept splits messy workshop drafts from the clean showroom - the vault is the garage, the blog is what visitors see."
-level_2: "Tools, scraps, and experiments stay in the garage; the showroom is the blog - two rooms, two jobs, do not mix them up."
-level_3: "Keep capture and experiments in the garage pipe; ship only what belongs in the showroom - mixing lanes breaks trust when visitors see workshop mess as finished work."
-level_4: "One capture habit, one publish pipe - garage to garden to push, not two note apps fighting over the same idea."
+level_2: "Tools, scraps, and experiments belong out of visitor view - the showroom only shows what you would stand behind."
+level_3: "Keep capture and experiments in the garage pipe; ship only what belongs in the showroom."
+level_4: "Because visitors treat workshop mess as finished work, mixing lanes burns trust - one capture habit, one publish pipe."
 level_5: "Client pass-off uses the same split - workshop drafts in my garage; client deliverables via [[Client Site Pass-Off]] and [[Free Tier Hosting Stack]]."
 examples:
   - "The practice film library is messy; the highlight reel for parents is one clean cut - I almost sent raw film once and the coach pulled me back."

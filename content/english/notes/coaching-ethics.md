@@ -6,11 +6,11 @@ key_concept: |
   - Consent does not erase the job when the drill is unsafe.
   - Waivers protect against lawsuits, not against the drill actually hurting someone.
   - Unsafe or pointless drills still owe reasonable protection to people under your influence.
-level_1: "Coaching ethics is reasonable protection for people under your influence - consent does not erase duty when the drill is unsafe."
-level_2: "Like a signed permission slip not letting a coach run a dangerous stunt - parents sign waivers but the coach still refuses a pointless breath-hold drill."
-level_3: "Refuse the dangerous cleanse even when customers clicked agree - develop the person without hiding behind consent."
-level_4: "Waivers protect against lawsuits, not against the drill actually hurting someone - unsafe drills still owe duty of care."
-level_5: "Pairs with [[Duty of Care]] - saying \"they signed the waiver\" after a near-drown is dodging the job when the drill was pointless."
+level_1: "Coaching ethics is the duty to protect people under your influence from unsafe or pointless harm."
+level_2: "Consent and waivers do not remove that duty because authority, expertise, and risk are not shared equally."
+level_3: "Refuse the dangerous drill or cleanse even when the participant agreed to it."
+level_4: "Protection must respect autonomy without hiding behind consent; weigh benefit, risk, power, and safer alternatives through [[Duty of Care]]."
+level_5: "Create a safety review for drills that states the benefit, risk, stop rule, and safer option before anyone participates."
 examples:
   - "The coach who said \"they signed the waiver\" after a near-drown was not coaching - he dodged [[Duty of Care]] when the drill was unsafe and pointless."
   - "The gym sold a dangerous cleanse because customers clicked agree - coaching ethics means you still owe reasonable protection to people under your influence."

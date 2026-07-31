@@ -4,13 +4,14 @@ meta_title: "Active Reading - Highlights That Survive the Margin"
 description: "Read with a pencil in hand - mark, question, and extract before highlights die in the book."
 key_concept: |
   - Passive reading forgets by Friday - active reading leaves something you can cite next month.
+  - [[Layered Reading]] separates the passes; [[The Feynman Technique]] tests whether the marks became understanding.
   - Yellow highlights without extraction are bookmarks, not learning - move marks into notes before the spine closes.
   - Active reading feeds [[Literature Notes]] - your words, not the author's sentences copied twice.
 level_1: "Active reading is marking what matters while you read so something survives after the spine closes."
 level_2: "Highlights with a next step - margin notes that become sentences in your own words, not yellow bookmarks."
 level_3: "Skim first, mark second, extract third - one pass cannot hold structure and your take in one sitting."
-level_4: "Move marks into notes before Friday forgets them - passive reading dies where nobody revisits highlights."
-level_5: "[[Layered Reading]] names the passes; [[The Feynman Technique]] is the teach-back layer that proves you understood the marks."
+level_4: "Marking slows the read but saves useful ideas; without extraction and review, even careful highlights become a private archive nobody can use."
+level_5: "Build a reading workflow that separates skimming, marking, extraction, and teach-back, then turn the strongest take into a linked note in your own words."
 examples:
   - "First pass on the coaching manual marked three sections; second pass only those got sentences in my own words."
   - "My kid underlined one confusing paragraph and explained it back to me - the mark survived because she had to say it out loud."

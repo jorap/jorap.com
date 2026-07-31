@@ -11,7 +11,7 @@ level_1: "Mobile capture workflow is how fast you save an idea on the device you
 level_2: "Like needing five keys to open a diary when the thought is already gone, capture must beat the distraction that follows the impulse."
 level_3: "Audit your capture path on the phone you actually carry - if it needs more than three taps, simplify before the next spark."
 level_4: "Mobile capture fails when friction exceeds impulse - one gesture to inbox or the idea evaporates before you sort it."
-level_5: "[[Context Aware Capture]] and [[The Trusted Inbox]] assume speed - [[Analog Capture Tools]] win when the phone workflow is slower than a pocket notebook."
+level_5: "Build a one-gesture path into [[The Trusted Inbox]], extend it with [[Context Aware Capture]] only when context saves work, and design an [[Analog Capture Tools]] fallback for moments when the phone is slower."
 examples:
   - "Halftime idea on the bench - I voice-memo'd it before the third quarter wiped it."
   - "Jeepney stop, blog idea hits - one tap to notes before the next ride shakes it out of my head."

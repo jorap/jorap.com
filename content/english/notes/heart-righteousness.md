@@ -5,6 +5,7 @@ description: "Heart righteousness goes deeper than outward acts - anger is murde
 key_concept: |
   {{< bible ref="Matthew 5:21-30" emphasize="22,28" >}}
   - Angry with your brother - guilty before the court even if you smiled outwardly.
+  - [[The Beatitudes]] and [[Judge Not]] both assume heart-level righteousness - external niceness is not the finish line.
   - Lust logged mentally - adultery in the heart though marriage looks fine outside.
   - "You have heard… but I say" moves righteousness from courtroom compliance to motive and imagination.
   - Under [[Free Grace]], this is not a new merit ladder it is the standard the Spirit applies to a life already saved, starting where only God sees.
@@ -13,7 +14,7 @@ level_1: "Heart righteousness means God weighs anger and lust inside - not just 
 level_2: "Like a clean shirt hiding a messy room - outward compliance without inward righteousness fails the standard before God."
 level_3: "Treat anger and lust in the heart as guilt before God - polish on the outside does not erase it."
 level_4: "Heart murder and heart adultery count before God - visible acts alone are not the finish line."
-level_5: "[[The Beatitudes]] and [[Judge Not]] both assume heart-level righteousness - external niceness is not the finish line."
+level_5: "Create a heart-level check that names the anger or lust beneath outward polish, then extend repentance to the motive before it becomes an act."
 examples:
   - "I smiled through the bad call and nursed the anger the whole ride home - heart righteousness is polite outside, poison inside; God cares about the inner life."
   - "I sent a cold reply that sounded professional while resentment ran inside - Jesus moves righteousness from courtroom compliance to motive."

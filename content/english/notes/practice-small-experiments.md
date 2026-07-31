@@ -10,7 +10,7 @@ level_1: "Practice small experiments means daily reps plus tests small enough to
 level_2: "Like testing one new play before rebuilding the whole game plan - bold all-at-once change usually slides back within months."
 level_3: "Run one new inbound play for two weeks - keep it when turnovers drop, drop it when they do not."
 level_4: "When you change everything at once, snap-back is predictable - small trials teach what actually sticks."
-level_5: "[[Deliberate Practice]] reps plus [[Minimum Effective Dose]] trials beat one big-bang rollout - [[Failure as Feedback]] reads the miss without drama."
+level_5: "Design one cheap experiment with a [[Minimum Effective Dose]], repeat it through [[Deliberate Practice]], and use [[Failure as Feedback]] to keep, change, or drop it."
 examples:
   - "Instead of rebuilding the whole practice plan, we ran one new inbound play for two weeks - kept it when turnovers dropped, dropped it when they did not."
   - "I did not migrate every note to a new app - I tried one capture lane by the door for ten days and only expanded after it survived a busy week."

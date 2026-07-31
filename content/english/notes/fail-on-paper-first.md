@@ -9,7 +9,7 @@ level_1: "Fail on paper first is imagining the launch failed, naming why, and fi
 level_2: "Ask what would make this birthday party flop before you send invites - cheaper to fix on the whiteboard than in tears Saturday."
 level_3: "The room assumes the project died - list causes, then patch the plan before anyone ships."
 level_4: "Pairs with [[Reversibility]] and [[Rollback Principle]] - failing on paper first asks what triggers the revert before users feel pain."
-level_5: "Before you pass the static site to the client you list three ways they would call angry - you fix DNS docs and scope line before go-live, not after."
+level_5: "Build a premortem that names likely failure paths, early signals, owners, and rollback triggers before the launch makes each fix expensive."
 examples:
   - "Before we passed the static site to the client we listed three ways they would call angry - fixed DNS docs and scope line before go-live, not after."
   - "Team assumed the tournament format failed - whiteboard showed scheduling was the killer; we moved pools before registration opened."

@@ -11,7 +11,7 @@ level_1: "Eliminate before managing means removing unnecessary danger first inst
 level_2: "Take out the broken step instead of painting a warning sign on it forever - like removing the wasp nest instead of handing out extra gloves."
 level_3: "Ask whether the activity is required - if not, swap it for a safer alternative before you buy more gear to work around the same risk."
 level_4: "[[Hierarchy of Controls]] puts elimination above PPE stacks - remove the hazard before you buy gear to work around it permanently."
-level_5: "You stop storing cleaners under the sink and move them up high - you remove the hazard before you trust a do-not-touch lecture every time."
+level_5: "Redesign the work so the hazard cannot enter the normal path, then use procedures and gear only for the risk that remains."
 examples:
   - "Swap the wobbly ladder for a stable step stool - eliminate the fall hazard instead of adding three warning stickers and hoping someone reads them."
   - "We stopped storing cleaners under the sink and moved them up high - remove the hazard before we trust a do-not-touch lecture every time."

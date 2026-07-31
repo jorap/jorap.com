@@ -16,7 +16,7 @@ level_1: "Discern His will daily is testing what God wants - good, acceptable, p
 level_2: "Willing to obey first, then you can tell whether the teaching is God's or noise - like learning a genuine scent before sorting fakes."
 level_3: "Before you adopt a teaching, ask whether you would obey it if it cost you something today - skip what only sounds good."
 level_4: "Obedience-first posture is the filter - without it, clever teaching can sound like God while serving self; [[Renewed Mind]] is the engine this enables at the fork."
-level_5: "Two job offers and you poll the group chat for vibes - you test which role serves the kingdom after a renewed mind, not which title feeds ego."
+level_5: "Build a discernment rule for real forks - test the teaching by Scripture, willingness to obey, kingdom aim, and the self-interest that could bend judgment."
 examples:
   - "Two job offers and I was polling the group chat for vibes - discernment came after a renewed mind: which role serves the kingdom, not which title feeds my ego."
   - "The coach had three plays for the last possession - film and prayer beat the crowd's panic script; test and approve which move fits the game plan, not the hot hand."

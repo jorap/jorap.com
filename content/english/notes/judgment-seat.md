@@ -5,6 +5,7 @@ description: "Believers stand before Christ after salvation to have works evalua
 key_concept: |
   {{< bible ref="Matthew 16:24-27" emphasize="27" >}}
   - The Son of Man repays deeds - reward review for the saved, not re-deciding who gets eternal life.
+  - Eternal life was settled at faith - the bema weighs works for reward, not standing.
   - [[Free Grace]] and [[Justification]] already decided where I spend forever.
   {{< bible ref="1 Corinthians 3:12-15" emphasize="15" >}}
   - Paul's fire test - some work burns, you are still saved through fire; worthless work shrinks reward, not standing.
@@ -17,9 +18,9 @@ key_concept: |
   - PKM mirror: [[Periodic Knowledge Review]] - the whole history gets reviewed, not one heroic week mistaken for the whole career.
 level_1: "The judgment seat is where saved believers stand before Christ to have works evaluated for reward - not to learn whether they get into heaven."
 level_2: "Believers face a reward review for what they did after salvation - not a second trial on who gets heaven, like an awards show after admission."
-level_3: "When fire tests come, keep categories separate - eternal life was settled at faith; the bema weighs works for reward, not standing."
+level_3: "When fire tests come, keep categories separate - the bema weighs works for reward, not standing."
 level_4: "Wood, hay, and straw burn; gold, silver, and precious stones last - some work burns and you are still saved through fire; worthless work shrinks reward, not standing."
-level_5: "[[Free Grace]] and [[Justification]] already decided forever; [[Loss of Reward]] keeps saved-through-fire distinct from unsaved."
+level_5: "Keep two ledgers in practice - [[Justification]] already settled standing; build reward habits under [[Loss of Reward]] and [[Eternal Rewards]] without reopening heaven."
 examples:
   - "I pictured standing before Christ and panicked like heaven might get revoked - the judgment seat evaluates works for reward; salvation was settled at faith."
   - "Years of church service felt like my ticket in - what gets weighed is faithful obedience after salvation, not a re-trial on who gets eternal life."

@@ -8,11 +8,11 @@ key_concept: |
   - Do not let urgency, conflict, emotion, or someone else's deadline dictate how fast you think and act - take the tempo back when you can.
   - The room usually cannot tell the difference between you slowing down and you being in control - so slow down.
   - Urgency is real - you still choose the pace you work at.
-level_1: "Control the rhythm is taking back the pace of work and conversation before urgency or someone else sets it for you."
-level_2: "Whoever sets the pace often steers the room - like walking slower so the group follows your speed before panic sets it."
-level_3: "Send numbers after lunch when the client wanted a complex quote in ten minutes - keep the room from rushing a bad decision."
-level_4: "Pairs with [[Composure]] and [[Situational Control]] - urgency is real, but you still choose the pace; do not let [[Plain Commitments at Work]] break when slowing violates a response time you already promised."
-level_5: "A counselor lets silence sit before answering - you set tempo for the room so thinking keeps up with the deadline."
+level_1: "Controlling the rhythm means deliberately setting the pace of work or conversation."
+level_2: "Pace shapes judgment and influence, so slowing the tempo can keep urgency from steering the room."
+level_3: "When a complex quote is demanded in ten minutes, set a later answer time and do the work at a safe pace."
+level_4: "Slowing down protects judgment but can break trust when it ignores real deadlines or [[Plain Commitments at Work]]; pace must fit the stakes."
+level_5: "Create a team rhythm for urgent requests that sets response times, decision pauses, and clear exceptions."
 examples:
   - "A dad texted for more reps before I had watched his kid play - control the rhythm was seeing Thursday's scrimmage first instead of doubling reps that bred a limp."
   - "A client wanted a complex quote answer in ten minutes - I sent numbers after lunch and kept the room from rushing a bad decision."

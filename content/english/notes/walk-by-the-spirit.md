@@ -6,12 +6,13 @@ key_concept: |
   {{< bible ref="Galatians 5:16" emphasize="16" >}}
   
   - Willpower alone cannot carry what God asked - walking by the Spirit is daily dependence, not a one-time decision badge.
+  - [[Abide in Me]] is the vine picture; [[Follow the Rhythm]] carries the same daily dependence into habits.
   - [[Sanctification]] is slow becoming on this path - not a merit report card.
-level_1: "Walk by the Spirit means daily dependence on the Spirit for obedience - not willpower sprints that collapse by Friday."
-level_2: "Like pedaling while Dad steadies the bike - the ride works because someone stronger holds the line when the flesh wants the shortcut."
-level_3: "Ask the Spirit before the meeting where you white-knuckled patience until Thursday then snapped - one prayed no before the scroll wins."
-level_4: "[[Fruits of the Spirit]] lists what the Spirit grows - love through self-control shows up when the walk is real; under [[Free Grace]] the walk does not buy heaven."
-level_5: "[[Abide in Me]] is the vine picture; walking by the Spirit is the daily lane - [[Follow the Rhythm]] is the garden echo for habits that hold."
+level_1: "Walking by the Spirit is depending on the Spirit for each step of Christian obedience."
+level_2: "The walk is daily dependence, not a one-time decision - the Spirit supplies what willpower alone cannot sustain."
+level_3: "Before the hard meeting or easy scroll, ask the Spirit for the next obedient step and take it."
+level_4: "[[Fruits of the Spirit]] show the walk over time, but fruit is not a performance score; under [[Free Grace]], obedience follows salvation and never buys it."
+level_5: "Build a daily pause before known temptations, then shape it into a rhythm that helps others choose one Spirit-led step at a time."
 examples:
   - "I white-knuckled patience until Thursday then snapped - Galatians walking means asking the Spirit before the meeting, not performing virtue until I crack."
   - "Temptation hit on a travel week and my phone was the easy exit - walking by the Spirit was one prayed no before the scroll won."

@@ -4,13 +4,14 @@ meta_title: "Integrity - Alignment Between Claim and Action"
 description: "What you do matches what you claim when applause, speed, or comfort are not watching."
 key_concept: |
   - What you do matches what you claim - especially when it costs applause, speed, or comfort.
+  - [[Plain Commitments at Work]] and [[Integrity Without an Audience]] split public promises from private corners - both must match.
   - What I do matches what I claim when applause, speed, or comfort are not watching.
   - Integrity is doing what you said matters when it costs something - not only when someone's watching.
 level_1: "Integrity is when your actions match what you claim - even when telling the truth slows you down or costs applause."
 level_2: "Behavior still matches your words when honesty costs speed or comfort - like keeping a promise when breaking it would be easier."
 level_3: "When the ref looked away I could have counted a late hit as legal - integrity is the same call whether anyone is watching or not."
 level_4: "When convenience bends the story, integrity breaks - alignment costs something every time, and shortcuts show up in the gap between claim and deed."
-level_5: "[[Plain Commitments at Work]] and [[Integrity Without an Audience]] split public promises from private corners - both must match."
+level_5: "Create a standard that makes public promises and private work match, then add a check that still holds when honesty costs time or credit."
 examples:
   - "I could have counted a late hit as legal when the ref looked away - integrity is the same call whether anyone's watching or not."
   - "I could have scooped light on flour when the rush got loud - integrity is what you do matches what you claim, especially when it costs comfort."

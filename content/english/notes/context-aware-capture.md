@@ -5,11 +5,11 @@ description: "A saved link is a mystery six weeks later unless the why is jotted
 key_concept: |
   - Context-aware capture saves the why while memory is fresh - project, mood, question - not just the link.
   - Six weeks later, only the why saves a bookmark from becoming junk.
-level_1: "Context-aware capture is saving the reason you kept a link or note while memory is still fresh - you can name what it is."
-level_2: "The link alone is a mystery six weeks later unless the why was captured - like writing why you saved a photo when the picture will not tell you later."
-level_3: "Bookmark the article and add \"for Q3 budget slide\" in the margin - the why saves the link from becoming junk when the project resurfaces."
-level_4: "Voice memo in the parking lot with why the meeting mattered - almost saved just the link and caught yourself while context was still in your head."
-level_5: "Six weeks later, only the why saves a bookmark - pairs with [[Capture]] when resonance alone cannot reconstruct the spark."
+level_1: "Context-aware capture saves why an item mattered along with the item itself."
+level_2: "The reason preserves the project, question, or moment that a bare link cannot reconstruct weeks later."
+level_3: "Save the article with a note such as \"for Q3 budget slide\" while the reason is still fresh."
+level_4: "Extra context improves retrieval but adds capture friction; record only enough why to make the item useful later."
+level_5: "Design a capture prompt that adds the smallest useful context, then test whether future you can act on saved items without guessing."
 examples:
   - "Voice memo in the parking lot after the meeting - I almost saved just the link and caught myself; context was still in my head."
   - "Photo of the whiteboard before they erased it - capture matched where the idea lived."

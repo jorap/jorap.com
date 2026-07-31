@@ -6,11 +6,11 @@ key_concept: |
   - Failure becomes useful only when it produces correction.
   - Reflect on what happened, pull out the lesson, design a better response, and test it the next time the situation shows up.
   - Stewing without change is just suffering.
-level_1: "Convert pain into learning means failure must produce correction - reflect, pull the lesson, design a better response, and test it next time."
-level_2: "Pain helps only if you change the next step - like skinning your knee and learning to look where you run instead of stewing without change."
-level_3: "Write one page on weak transitions after the bombed presentation - rehearse bridges ten times, two fewer slides, test on the next client call."
-level_4: "Pairs with [[Blameless After-Action Review]] without blame theater - pain that produces no process change is not learning, it is stewing with a notebook."
-level_5: "A player loses the game and writes one fix on the locker - you turn the miss into a process change someone else can run next week."
+level_1: "Converting pain into learning means turning a failure into a tested correction."
+level_2: "Reflection becomes learning only when it changes the next response; otherwise pain remains suffering with notes attached."
+level_3: "After the failed presentation, name one weak transition, rehearse it, and test the change on the next call."
+level_4: "[[Blameless After-Action Review]] helps separate useful correction from blame, but not every hurt needs a full process overhaul."
+level_5: "Turn the lesson into a repeatable process change that another person can run and improve."
 examples:
   - "I bombed a client presentation and stewed for a week - convert pain into learning was one page on weak transitions, rehearsed bridges ten times, and two fewer slides."
   - "I missed the turn twice on the new commute - one note on where the sign hides, tested next Monday, because stewing without change would have been just suffering."

@@ -10,7 +10,7 @@ level_1: "Deep work is uninterrupted focus on hard thinking - protected blocks w
 level_2: "Put toys away so you can finish homework - quiet time for hard thinking, quick stuff saved for later on a list."
 level_3: "Block ninety minutes with phone in the gym bag before the drill breakdown rots another week."
 level_4: "[[Capture]] takes the interruption so the block survives - deep work fails when the spark gets sorted mid-thought instead of landing in [[The Trusted Inbox]]."
-level_5: "Dad puts his phone in the drawer so one math sheet gets done - you design a protected block and route every ping to capture instead of the task."
+level_5: "Design a protected-work system with a hard boundary, a capture path for interruptions, and a shutdown rule that preserves the next block."
 examples:
   - "Phone in the drawer while I help with math - one problem set actually finished instead of three distracted false starts."
   - "Phone in the gym bag for ninety minutes - one drill breakdown written that had been almost done for weeks."

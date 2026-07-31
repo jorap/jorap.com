@@ -12,11 +12,11 @@ key_concept: |
   - **David and Saul** - Saul hid in fear; David stepped into the valley - courage out-ranked the crown.
   {{< bible ref="1 Kings 12:1-20" >}}
   - **Rehoboam and the People** - Harsh answer split ten tribes - low lid, shattered unity.
-level_1: "The law of the lid is the ceiling your leadership ability puts on what your team can achieve - you can name the cap."
+level_1: "The law of the lid is the ceiling your leadership ability puts on what your team can achieve."
 level_2: "Like a jar lid too small for the jar, low leadership limits output no matter how big the opportunity grows."
 level_3: "Before you blame the crew for missed targets, ask whether your own leadership level is the bottleneck."
-level_4: "Aaron folded without Moses, David out-led Saul, Rehoboam split the kingdom - the lid shows up in Scripture before modern org charts."
-level_5: "[[Servant Leadership]] raises the lid through service; under [[Free Grace]] growth is discipleship fruit, not a merit badge for heaven."
+level_4: "The lid shows up before org charts - Aaron folded without Moses, David out-led Saul, Rehoboam split the kingdom; raise the lid or the load stalls."
+level_5: "Raise the lid through [[Servant Leadership]]; under [[Free Grace]] growth is discipleship fruit, not a merit badge for heaven."
 examples:
   - "I took a team lead role but kept making every call myself - the lid was my insecurity, not the org chart."
   - "Saul stayed in the tent while David faced Goliath - the anointed king's lid was fear; the shepherd's was courage."

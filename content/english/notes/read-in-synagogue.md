@@ -13,7 +13,7 @@ level_1: "Read in synagogue means Jesus publicly read Scripture aloud in gathere
 level_2: "Public reading then seated teaching - like the rhythm the synagogue already knew, authority flowing from text handled in community."
 level_3: "Show up where the congregation hears Scripture together - private reading on the couch does not replace gathered hearing His custom modeled."
 level_4: "Because the gathering expected aloud reading, His authority came from text in community - not private quotes dropped without context."
-level_5: "[[Love God]] names heart, soul, mind, strength - this is the gathered lane alongside private [[Abide in Me]] reading under [[Free Grace]]."
+level_5: "Build a weekly Scripture rhythm with both lanes: private [[Abide in Me]] reading and public reading with God's people, neither used to earn what [[Free Grace]] gives."
 examples:
   - "I streamed a sermon in pajamas for a month and wondered why Scripture felt thin - Jesus had a custom of reading aloud with the congregation."
   - "Kids memorized verses at home but rarely heard the church read the text together - gathered reading was His rhythm, not a solo hobby."

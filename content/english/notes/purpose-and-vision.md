@@ -12,7 +12,7 @@ level_1: "Purpose and vision mean naming the outcome worth tradeoffs and what cl
 level_2: "Like every highway exit looking right when you have no map - without a named destination, pings compete as equals."
 level_3: "Write one sentence on the whiteboard - reduce checkout friction by half - and the backlog suddenly has a sort order."
 level_4: "Because attention follows declared aim, vague direction makes noise masquerade as priority all at once."
-level_5: "[[Quarterly Planning]] keeps vision on rhythm; [[Priorities Before the Inbox]] protects it from the siren - [[Seek the Kingdom First]] orders the faith lane."
+level_5: "Build a planning stack: name the outcome, review it through [[Quarterly Planning]], and protect it each morning with [[Priorities Before the Inbox]]."
 examples:
   - "The team kept shipping random fixes until we wrote one sentence on the whiteboard - reduce checkout friction by half - and suddenly the backlog had a sort order."
   - "I kept saying yes to every sideline until I named the one outcome for the year - finish the notes garden, not grow six half-built projects."

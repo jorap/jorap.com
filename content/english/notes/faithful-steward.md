@@ -18,7 +18,7 @@ level_1: "A faithful steward uses what God entrusted in steady small ways - not 
 level_2: "Stewardship is measured in quiet Tuesdays - compound use over years, not one visible withdrawal everyone applauds."
 level_3: "Use what He entrusted today in a small faithful way nobody will applaud - burying talent and performing for crowds both miss the point."
 level_4: "Gift came first; repayment for faithfulness follows - steady obedience over time, not one week that tries to buy a seat already gifted."
-level_5: "Well done for faithful use - [[Eternal Rewards]] names the promise; [[Compounding]] is the PKM mirror for small use over years."
+level_5: "Create a stewardship rhythm that names what God entrusted, the next faithful use, and how small obedience will compound without becoming a claim on heaven."
 examples:
   - "I organized snacks for my kid's team and wanted credit all week - faithful steward means using what He gave, not burying it or performing for applause."
   - "One mission trip in my head as my whole eternal report card - the master reviews faithful use over years, including quiet Tuesdays nobody clapped for."

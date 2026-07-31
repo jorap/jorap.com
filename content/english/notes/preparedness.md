@@ -11,7 +11,7 @@ level_1: "Preparedness means practicing the plan and writing it down while calm 
 level_2: "Like a fire drill on a sunny Tuesday - walk the checklist bored so kids are not learning exits during smoke."
 level_3: "Run the inbound play every Thursday whether you need it or not - document steps someone else could run when the clock gets loud."
 level_4: "Because emergencies compress decisions, prep moves choices upstream - tested runbooks fail less than heroics when margin disappears."
-level_5: "[[Build a Reliable Default]] and [[Change Window]] assume rehearsed undo paths - the handbook minimum is not the same as a practiced team."
+level_5: "Use [[Build a Reliable Default]] to write one runbook, rehearse it inside a [[Change Window]], and revise the step that fails before the real alarm."
 examples:
   - "We ran our inbound play every Thursday whether we needed it or not - schools run fire drills on sunny Tuesdays so kids are not learning exits during smoke."
   - "Our restaurant ran the closing checklist on a slow Tuesday; Saturday night's rush was boring because everyone had already walked it once."

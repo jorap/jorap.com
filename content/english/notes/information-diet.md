@@ -9,7 +9,7 @@ level_1: "An information diet is choosing what news, podcasts, and feeds you tak
 level_2: "Feeds are not neutral background noise - what you scroll shapes how you think, like junk food left on the counter every day."
 level_3: "Drop two commute podcasts that only make you angry at strangers - curate inputs like food, not binge headlines before breakfast."
 level_4: "Passive scrolling trains attention and mood; curated intake shapes what feels normal by Friday - input becomes your inner weather whether you notice or not."
-level_5: "[[Signal vs Noise]] separates worth keeping; [[Digital Minimalism]] cuts pipes you cannot babysit."
+level_5: "Design an information diet with named sources, fixed intake windows, and a rule for cutting feeds that leave attention or mood worse."
 examples:
   - "I dropped two commute podcasts that only made me angry at strangers - information diet is curating inputs, not swallowing whatever the algorithm serves."
   - "I unfollowed three outrage sports accounts and pre-game was not ruined before warm-up."

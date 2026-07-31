@@ -14,7 +14,7 @@ level_1: "Reconciliation before worship means making peace with your brother bef
 level_2: "Like praying while the hurt is still open - offering and anger cannot share one altar; breach repair precedes praise."
 level_3: "Five minutes in the parking lot with the co-worker who still has something against you - then walk into the volunteer shift ready to serve."
 level_4: "Because mercy received demands mercy extended, the initiative sits on the one who knows there is a breach - fellowship restored, not salvation re-earned under [[Free Grace]]."
-level_5: "[[Peacemakers]] names the active move; [[Note Relationships]] mirrors it in the garden - broken links between people need face-to-face repair before ceremony."
+level_5: "Create a repair-before-ceremony checklist: name the breach, go first like [[Peacemakers]], listen, make amends, then return to worship."
 examples:
   - "I warmed up ready to compete while my teammate still had something against me from Wednesday - fix it courtside, then play."
   - "I walked into the volunteer shift ready to serve while my co-worker still had something against me - five minutes in the parking lot first."

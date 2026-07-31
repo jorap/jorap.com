@@ -14,8 +14,8 @@ key_concept: |
   - Enter by the narrow gate - few find it because it costs self-rule, not because God hides the door.
 level_1: "The narrow way is the hard road to life Jesus named - entering by the narrow gate costs self-rule, not the broad easy path most drift onto."
 level_2: "Broad road is crowded and easy; narrow gate costs self-rule - few find it because surrender feels less safe than running your own life."
-level_3: "Ask which path you are building on today - hearing without doing is sand; [[The Wise Builder]] builds on rock."
-level_4: "Storms later reveal which foundation held - not everyone who says Lord Lord enters; false profession vs believer who stumbles are not the same."
+level_3: "Ask which path you are building on today - the crowded broad road or the narrow gate that costs self-rule."
+level_4: "Storms later reveal which foundation held - profession without the narrow gate collapses when pressure hits."
 level_5: "In [[Free Grace]] terms, the narrow gate is faith in Christ - not the broad road of self-righteousness or empty profession without obedience."
 examples:
   - "Group chat gossip was \"just joking\" - narrow way was not forwarding the screenshot even when staying out made me the odd one."

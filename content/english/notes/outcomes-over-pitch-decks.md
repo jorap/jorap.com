@@ -14,7 +14,7 @@ level_1: "Outcomes over pitch decks means trusting delivered results over slide 
 level_2: "Like picking the teammate who scores, not the one with the fanciest uniform - fruit over time beats marketing."
 level_3: "Before you hire or partner, ask for three past outcomes with names attached - polish without fruit is expensive theater."
 level_4: "Downstream stress, turnover, and delivery health tell you more than charisma - read outcomes, not vibes alone."
-level_5: "[[People-Centered Design]] and [[Own the Error]] test the same bar - [[Staged Rollout]] beats a demo that never shipped."
+level_5: "Build a proof process that uses [[People-Centered Design]] to choose outcomes, [[Staged Rollout]] to test them, and [[Own the Error]] to revise the idea when the fruit is poor."
 examples:
   - "The trainer's Instagram was polished - I asked two parents who finished the program about injuries and consistency."
   - "The contractor's portfolio was gorgeous - I asked two neighbors who lived through the remodel about permit fights and cracked tile."

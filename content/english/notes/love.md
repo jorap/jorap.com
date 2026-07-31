@@ -12,7 +12,7 @@ level_1: "Biblical love is Spirit-grown care for God and neighbor, not performan
 level_2: "Love fruit sits beside [[Joy]] and [[Peace]] in one cluster - deeper than manners on display when the room is watching."
 level_3: "Ask whether your care costs something real - love that never inconveniences you may be performance, not fruit."
 level_4: "Manufactured affection for church credit is not Spirit fruit - love outlasts the audience because [[Abide in Me]] is the engine."
-level_5: "[[Love God]] and [[Love Your Neighbor]] name the two directions; [[Fruits of the Spirit]] lists love first because every other fruit flows from it."
+level_5: "Extend love into [[Love God]] and [[Love Your Neighbor]] - [[Fruits of the Spirit]] lists love first because every other fruit flows from it."
 examples:
   - "I was polite at church and sharp at home - Galatians love costs something when nobody is clapping."
   - "The neighbor needed a ride at an inconvenient hour - love fruit showed up as inconvenience, not a sermon about caring."

@@ -14,7 +14,7 @@ level_1: "Let your light shine means do good works where people can see them so 
 level_2: "Good works on a hill point praise to the Father - visible on purpose, like a lighthouse, not a billboard with your face."
 level_3: "Before you post about the good deed, ask whether observers will glorify the Father or applaud your personal brand."
 level_4: "Visible good works aim glory at the Father - when the audience applauds you instead, the light pointed the wrong way."
-level_5: "[[God Centered Design]] orders the same aim; [[Secret Devotion]] keeps private obedience in the ledger too."
+level_5: "Extend visible good works through [[God Centered Design]]; keep private obedience on the ledger with [[Secret Devotion]]."
 examples:
   - "I brought extra water for the whole bench and almost posted about it - the light is not for my brand; it is so someone sees good work and thinks God is real."
   - "I covered a coworker's shift quietly and almost made it a LinkedIn moment - let your light shine so the Father gets credit, not my personal brand."

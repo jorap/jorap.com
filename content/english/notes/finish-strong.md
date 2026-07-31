@@ -11,7 +11,7 @@ level_1: "Finish strong means judging success by whether the last commitment got
 level_2: "Like closing the last box on moving day - energy peaks early, but the open commitment defines whether the project is truly complete."
 level_3: "List the last commitment still open and finish it before you start the next exciting thing - boring last miles make launches real."
 level_4: "Teams that measure launch confuse motion with completion - energy fades while the last mile stays open."
-level_5: "Starting well proves you can begin; finishing well proves you can keep going when it is boring - close the last open commitment before chasing the next start."
+level_5: "Create a finish rule that names the final commitment, proof of complete, and who closes it before the team is allowed to chase the next start."
 examples:
   - "I cleared the table after dinner but left the pots soaking - finish strong was the ten-minute scrub and trash run before the smell woke us at 3am."
   - "We led at halftime and coasted the third quarter - finish strong was closing the last set, not celebrating after the first fast lap."

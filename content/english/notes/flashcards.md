@@ -20,7 +20,7 @@ level_1: "Flashcards are cue on the front and an immediate move on the back - le
 level_2: "Like spare keys clipped where you will find them - the card trains the move you need when the cue appears, not recognition alone."
 level_3: "Keep a card only if it helps with a recurring problem - drop cards that only feel smart during review but never fire in life."
 level_4: "Recall under pressure differs from recognition during review - cards train application, not definitions dressed as advice."
-level_5: "~20% of notes opt in at [/notes/review/](/notes/review/) - export to Anki when you want SRS on your phone."
+level_5: "Build a card set from recurring life cues, test whether each back produces a useful move, and export only the cards worth spaced repetition."
 shareable_thought:
   - "Learn less, retain longer, apply more."
   - "I opt notes into drill cards when recall and use in real life matter, and export to Anki when I want SRS on my phone."

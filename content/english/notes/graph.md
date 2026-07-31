@@ -16,7 +16,7 @@ level_1: "The notes graph shows hubs, orphans, and dead-end notes - maintenance 
 level_2: "Like a city map marking crowded junctions and forgotten streets - spot where navigation skews before maintenance chases symptoms."
 level_3: "Open [/notes/graph/](/notes/graph/) and prune around top hubs, rescue orphans, add body links where notes are dead ends."
 level_4: "When one note collects every wikilink, navigation skews; zero inbound links mean a note rots unseen."
-level_5: "Top twenty percent by wikilinks are anchors worth pruning around - bottom twenty percent and zero body links are where you spend maintenance time."
+level_5: "Create a maintenance pass from the graph: prune an overloaded hub, connect an orphan, and extend a dead-end note with one useful body link."
 shareable_thought:
   - "Open the link map and filter by link rank."
   - "Spot hubs, orphans, and notes with no body links."

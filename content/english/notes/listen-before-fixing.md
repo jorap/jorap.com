@@ -8,8 +8,8 @@ key_concept: |
 level_1: "Listen-before-fixing means repeat what you heard in your own words before you tell someone what to do."
 level_2: "Like repeating the story your friend just told before you give advice, playback proves you listened, not just waited to talk."
 level_3: "Mirror what they said in one sentence, pause, then respond - playback buys trust for whatever you say next."
-level_4: "Prescribing before the other person feels heard lands like correction - advice without playback feels like dismissal."
-level_5: "[[Follow Their Lead]] and [[Gentleness]] depend on this order - [[Safety Comes First]] is the exception when delay would let harm continue."
+level_4: "Prescribing before the other person feels heard lands like correction - advice without playback feels like dismissal, and trust spends down."
+level_5: "Extend the order into [[Follow Their Lead]] and [[Gentleness]] - [[Safety Comes First]] is the exception when delay would let harm continue."
 examples:
   - "A younger player kept explaining why he missed the free throw - I almost jumped in with form tips."
   - "My kid told me about a fight at school - I caught myself lining up a lecture and stopped."

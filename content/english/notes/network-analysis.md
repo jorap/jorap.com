@@ -13,7 +13,7 @@ level_1: "Network analysis reads a note graph for hubs, bridges, and orphans - w
 level_2: "Like seeing which kids know everyone at recess and which stand by the fence, bridges and orphans matter more than node count."
 level_3: "Open the graph view, list the top three hubs and three orphans - fix orphans before you add more nodes."
 level_4: "Traffic carriers and stranded notes tell you where to maintain - the graph shows who carries links and what is forgotten without folder memory."
-level_5: "[[Linking by Meaning]] builds the graph; [[Maps of Content]] wins when a hand hub beats metrics - analysis finds maintenance targets, not vanity counts."
+level_5: "Build a maintenance view from [[Linking by Meaning]] that flags hubs and orphans, then create [[Maps of Content]] where human judgment can extend what the metrics reveal."
 examples:
   - "The playbook diagram showed one motion offense linking twelve other sets - that was the doorway I would simplify first."
   - "The chore chart showed one kid linking every task - that is the bottleneck we fixed first."

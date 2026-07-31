@@ -12,8 +12,8 @@ key_concept: |
 level_1: "The attention economy is platforms competing for user focus - engagement is optimized even when it works against you."
 level_2: "Like autoplay asking for the next video - someone profits from your time even when you feel tired; free games flash prizes to keep you longer."
 level_3: "Turn off push alerts before installing another focus app - guard the feed pipe before optimizing the inbox."
-level_4: "If you are not paying, you are the product - a tidy inbox for junk content is still a loss."
-level_5: "[[Signal vs Noise]] names what to cut; [[Information Diet]] is the weekly menu habit."
+level_4: "Free access trades money for attention and data - a tidy inbox cannot fix a feed designed to keep you engaged with low-value content."
+level_5: "Build an [[Information Diet]] that removes one engagement hook, names the signal worth keeping, and reviews the feed before adding another focus tool."
 examples:
   - "I turned off push alerts before trying a new focus app - the pipe was the leak."
   - "My kid's group chat pinged through homework; airplane mode for forty minutes beat another planner."

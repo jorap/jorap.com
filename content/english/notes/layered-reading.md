@@ -9,8 +9,8 @@ key_concept: |
 level_1: "Layered reading is returning to the same source at increasing depth - skim, mark, then write it back in your words."
 level_2: "Like peeling an onion one skin at a time, each pass extracts structure, evidence, and your own take without pretending one read is enough."
 level_3: "Run skim, mark, and summarize passes on the same chapter before you claim you know it."
-level_4: "One pass cannot hold structure, evidence, and your vocabulary at once - each layer adds depth the previous skim missed."
-level_5: "[[The Feynman Technique]] is the teach-it-back layer; [[Active Reading]] keeps highlights from dying in the margin."
+level_4: "One pass cannot hold structure, evidence, and your vocabulary at once - each layer costs time and buys depth the previous skim missed."
+level_5: "Extend the last pass with [[The Feynman Technique]] teach-it-back and [[Active Reading]] so highlights do not die in the margin."
 examples:
   - "First pass on the coaching manual marked three sections; second pass only those got sentences in my own words."
   - "My kid skims the chapter for gist first, then rereads only the confusing paragraph a second time so she can actually explain it back to me."

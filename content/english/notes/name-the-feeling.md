@@ -14,7 +14,7 @@ level_1: "Name-the-feeling means label the emotion in one sentence before you ha
 level_2: "Like nodding at a friend who is upset before you suggest a fix, that sounds frustrating lands before here is what to do."
 level_3: "One sentence of empathy buys permission for the fix - skip the label and you are correcting, not helping."
 level_4: "Name-the-feeling validates emotion before prescription - otherwise advice lands like dismissal even when the fix is right."
-level_5: "[[Listen Before Fixing]] and [[Emotional Regulation]] share the order - feeling heard precedes being helped."
+level_5: "Create a response pattern that starts with [[Listen Before Fixing]], names the emotion, and extends into [[Emotional Regulation]] or a practical fix only after the label lands."
 examples:
   - "A player slumped on the bench after a bad quarter - I said \"you look wiped\" before I drew up the next play."
   - "My kid came home furious about homework and naming the unfair feeling beat jumping straight to just do it."

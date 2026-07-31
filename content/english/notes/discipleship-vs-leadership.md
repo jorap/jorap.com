@@ -14,7 +14,7 @@ level_1: "Discipleship is who you follow upward; leadership is who looks to you 
 level_2: "Salute up and lead the squad below - like obeying the coach while your team watches you, upward allegiance and outward care stay separate."
 level_3: "Name which seat a decision serves before you act - upward to Christ or outward to the room; the org chart does not cancel the cross."
 level_4: "[[Discipleship]] answers upward; [[Leadership]] answers outward - [[Servant Leadership]] overlaps on horizontal care but does not replace vertical allegiance."
-level_5: "Promotion meant calm direction in the outage, but you still confess the shortcut on the report - you hold both seats without letting leadership substitute for private obedience."
+level_5: "Create a two-seat decision check that names what obedience to Christ requires and what care the people following you need."
 examples:
   - "I ran the youth program like a CEO and skipped morning prayer for a month - leadership filled the calendar; discipleship is who I follow when nobody's watching."
   - "Promotion meant calm direction in the outage, but I still had to confess the shortcut I took on the report - leadership is who looks to me; discipleship is who I answer to."

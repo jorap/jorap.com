@@ -7,11 +7,11 @@ key_concept: |
   - Change takes repetition when the same levers run many times - direction, practice, feedback - before the room feels different.
   - [[Transformation Principles]] is the set; [[Habit Formation]] is how one move sticks; [[Practice Small Experiments]] keeps trials small while reps accumulate.
   - Faith lane: [[Sanctification]] - becoming is slow obedience, not a single altar call.
-level_1: "Change takes repetition is the same move on repeat before the room feels different - not one breakthrough speech."
-level_2: "Like learning to tie shoes - one big try does less than the same loop every morning; books love breakthrough stories, habits grow on boring Tuesdays."
-level_3: "Run the same rep at practice for six weeks before expecting the inbound play to work - direction, practice, feedback in loops."
-level_4: "Real change is the same levers run many times - not the speech before the tournament."
-level_5: "[[Habit Formation]] sticks one move; [[Practice Small Experiments]] keeps trials small while reps accumulate - faith lane: [[Sanctification]] is slow obedience, not one altar call."
+level_1: "Change takes repetition means the same useful move must recur before behavior or results become different."
+level_2: "Direction, practice, and feedback compound through ordinary reps, while one breakthrough moment rarely holds by itself."
+level_3: "Run the same practice rep for six weeks and use feedback to correct the next repetition."
+level_4: "Repetition builds change only when the move is sound and feedback stays active; repeating a bad pattern makes it harder to undo."
+level_5: "Create a repeatable practice loop, measure where it stalls, and refine the move without abandoning the reps."
 examples:
   - "The inbound play only worked after six weeks of the same rep at practice - change takes repetition, not the inspirational speech before the tournament."
   - "My capture habit finally held after months of the same ten-minute jeepney block - change takes repetition, not the weekend I reorganized every app."

@@ -9,7 +9,7 @@ level_1: "Know your lane is clarity on the role you actually run - yes to your w
 level_2: "Like swim relays - you win when each leg stays in their lane, not when four people dive from the same block."
 level_3: "I took every client firefight until deploys slipped - knowing my lane was architecture docs, not every support ticket."
 level_4: "[[Many Parts One Body]] is the faith picture - one Christ, many gifts; lane clarity is humility in practice, and hero coverage hides missing owners."
-level_5: "[[Pareto Principle]] picks where your lane matters most; [[Invest in the Few]] goes deep in your lane instead of thin across every gap."
+level_5: "Extend lane clarity with [[Pareto Principle]] on where your slice matters and [[Invest in the Few]] for depth instead of thin coverage of every gap."
 examples:
   - "I took every client firefight until deploys slipped - knowing my lane was architecture docs, not every support ticket."
   - "Assistant coach tried calling plays and managing stats - lane clarity put him on defense drills where the team actually needed him."

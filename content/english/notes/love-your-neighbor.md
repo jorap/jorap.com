@@ -6,6 +6,7 @@ key_concept: |
   {{< bible "Matthew 22:39" >}}
   
   - Second command, paired with the first - love the person in front of you the way you would want care if roles flipped.
+  - Debate over who counts as neighbor misses the command.
   
   {{< bible "Mark 12:31" >}}
   
@@ -18,10 +19,10 @@ key_concept: |
   - [[Free Grace]] does not erase the command - it frees me to love without keeping score for salvation.
   - Love others the way I would want care if our roles flipped.
 level_1: "Love your neighbor is the second command - treat the person in front of you the way you would want care if roles flipped."
-level_2: "Like helping a kid who fell off a bike the way you would want help, the Samaritan bandaged, paid, and stayed - debate over who counts misses the command."
+level_2: "Like helping a kid who fell off a bike the way you would want help, the Samaritan bandaged, paid, and stayed."
 level_3: "Before you decide who deserves help, ask what you would want if you were stranded - then act like that neighbor."
 level_4: "Love your neighbor is active, not abstract - the command stays after [[Free Grace]] lands because the gift frees you to love without keeping score for salvation."
-level_5: "[[Mercy]] shows up in the body - bandage, ride, cost covered - paired with loving God as the two commands Jesus ranked highest."
+level_5: "Extend neighbor-love into [[Mercy]] in the body - bandage, ride, cost covered - paired with loving God as the two commands Jesus ranked highest."
 examples:
   - "The parent I would rather avoid sits on my side every game - I moved my chair over and asked how his kid's ankle was healing."
   - "The neighbor I would rather avoid lives two doors down and his trash bins are always in my way - Jesus asked whether I am acting like a neighbor, the way I would want if I were stuck."

@@ -9,11 +9,11 @@ key_concept: |
   - Children do not enter the kingdom by achievement; they receive care they did not earn.
   - Jesus was not praising ignorance - he was naming the posture [[Free Grace]] and [[Assurance]] require: stop calculating worthiness and receive the gift.
   - Same first-day posture as [[Getting Started]] in the garden - assume you are new, follow the guide, do not perform expertise you do not have.
-level_1: "Childlike faith is receiving God's gift without calculating worthiness - the posture [[Free Grace]] requires, not ignorance Jesus praised."
-level_2: "Like a kid running to Dad without counting good deeds - ask for water at practice without negotiating whether you earned it."
-level_3: "Come to prayer like a kid who already belongs - stop re-negotiating worthiness every Monday."
-level_4: "Children receive care they did not earn - childlike faith is not achievement on a ladder."
-level_5: "Same first-day posture as [[Getting Started]] in the garden; pairs with [[Assurance]] when you stop earning your way in."
+level_1: "Childlike faith is receiving God's gift without trying to earn worthiness first."
+level_2: "A child receives care through trust, which pictures dependence rather than ignorance or achievement."
+level_3: "Come to prayer as someone who belongs, without waiting for a respectable week."
+level_4: "Childlike trust does not reject growth or discernment; under [[Free Grace]], receiving the gift and learning obedience belong to different lanes."
+level_5: "Help a new believer practice trust without a merit scoreboard, then build habits that grow from assurance rather than fear."
 examples:
   - "My daughter asked for water at practice without calculating whether she had earned it - I caught myself running a merit scoreboard with God before I would even say good morning."
   - "I delay prayer until my week looks respectable - childlike faith means coming like a kid who already belongs, not a contractor negotiating terms."

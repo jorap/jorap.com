@@ -9,7 +9,7 @@ key_concept: |
 level_1: "The second brain workflow is CODE and PARA in one daily-to-weekly loop - capture daily, organize by project, express weekly."
 level_2: "Save ideas every day, sort them by project, ship something every week - one loop, not two habits you quit."
 level_3: "Run capture daily and one express output weekly before you add another organize pass - notes nobody ships become guilt storage."
-level_4: "Organize by project, distill when you reuse - do not polish notes nobody reads yet; express weekly closes the loop capture and organize cannot close alone."
+level_4: "Because capture and organize cannot close the loop alone, express weekly is the limit that turns a second brain into more than an archive."
 level_5: "[[Building a Second Brain]] names the stack - daily capture plus weekly express, or the second brain becomes an archive."
 examples:
   - "Links land in one inbox all week; weekly review empties it and ships one note - one loop, not separate capture and organize rituals I quit."

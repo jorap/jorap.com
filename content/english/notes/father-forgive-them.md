@@ -13,7 +13,7 @@ level_1: "At the cross Jesus asked the Father to forgive the people who crucifie
 level_2: "At maximum injustice Jesus prayed for enemies - mercy before escape, intercession when condemnation would be easier."
 level_3: "Pray for someone who wronged you before you rehearse the case against them - intercession first, ledger second."
 level_4: "Because intercession came at the moment of greatest wrong, the prayer models mercy when power could have demanded payback."
-level_5: "Intercession for enemies at maximum injustice - under [[Free Grace]], I am among the forgiven who did not know the weight of what we rejected."
+level_5: "Write an intercession practice for moments of real wrong - name the person, ask the Father for mercy, and let received [[Free Grace]] reshape the next response."
 examples:
   - "Someone slandered me online and my thumb hovered over a nuclear reply - Father forgive them is prayer first, not victory lap after I cool down."
   - "The coworker who sabotaged my project walked past my desk - Jesus prayed for His executioners while they were still executing."

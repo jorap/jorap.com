@@ -11,7 +11,7 @@ level_1: "OKF export is a flat markdown bundle of the same garden - paths, types
 level_2: "Like photocopying your notebook for a friend who uses a different app - same content, agent-readable shape."
 level_3: "When an agent or script needs current note text, regenerate OKF after garden edits instead of parsing the site."
 level_4: "Keep Hugo as source of truth - stale exports mislead automation; refresh on production build or npm run export:okf."
-level_5: "[[Building a Personal API]] and downstream tools assume this handoff layer - edit in Hugo, not in the flat copy."
+level_5: "Build a downstream tool on the OKF handoff, extend its required type and path fields when the tool needs more context, and keep Hugo as the editable source for [[Building a Personal API]]."
 shareable_thought:
   - "Same garden flattened for agents."
   - "Markdown paths, required type, no Hugo build."

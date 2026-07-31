@@ -9,11 +9,11 @@ key_concept: |
   - Faith parallel: [[Abide in Me]] - fruit from staying connected over time, not self-generated effort alone.
   - [[Eternal Rewards]] repays daily faithfulness over years, not a lump-sum merit binge.
   - [[Loss of Reward]] is the other side: a bad season shrinks reward, it does not erase [[Free Grace]].
-level_1: "Compounding is small gains repeated until tomorrow gets easier - the curve bends long after nothing looked like it was happening."
-level_2: "Like saving one peso a day until the jar feels heavy - a kid practices free throws ten minutes every Tuesday until the percentage bends."
-level_3: "Ten minutes of free throws every Tuesday until the percentage bends - notes linked over years, publish cadence, vocab drills."
-level_4: "Heroic weeks feel good; boring repetition wins - most people quit right before the curve would have bent."
-level_5: "Faith parallel: [[Abide in Me]] - fruit from staying connected over time; [[Eternal Rewards]] repays daily faithfulness; [[Loss of Reward]] shrinks reward without erasing [[Free Grace]]."
+level_1: "Compounding is repeated small gains that build on earlier gains until results accelerate."
+level_2: "Each useful rep makes later work easier, so the visible curve often arrives after a long quiet stretch."
+level_3: "Practice ten minutes every Tuesday and track whether the skill improves across the season."
+level_4: "Compounding needs time, consistency, and a positive return; repeated bad habits compound too, and interruptions flatten the curve."
+level_5: "Design a small practice that improves its own next repetition, then extend it into a system that keeps growing without heroic weeks."
 examples:
   - "Ten minutes of free throws every Tuesday looked pointless for months - then the percentage bent without me noticing the curve."
   - "My kid's piano practice looked pointless for a year - three songs a week, same scales, then year two the pieces started linking and suddenly she was playing music."

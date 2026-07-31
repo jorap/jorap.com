@@ -4,12 +4,13 @@ meta_title: "Active Knowledge Curation - Notes That Stay Alive"
 description: "A folder of unread saves is not a garden - prune monthly and wire notes worth recommending."
 key_concept: |
   - Active curation is revisiting, pruning, and ordering notes - choosing what sits next to what is creative work.
+  - It fights [[The Collector's Fallacy]] and keeps [[Building a Second Brain]] from becoming a warehouse of unread saves.
   - Unread saves rot until monthly prune and meaningful links replace the pile.
 level_1: "Active knowledge curation is revisiting, pruning, and ordering notes on schedule - choosing what sits next to what."
 level_2: "Like sorting a toy box - keep what you use, toss what broke, group what belongs together; saved links rot without monthly review."
 level_3: "Block one monthly review to trash links nobody would act on today and link half-finished thoughts that still matter."
-level_4: "Active curation turns captures into a garden - dead notes get pruned before the pile becomes hoarding."
-level_5: "Curation fights [[The Collector's Fallacy]] - pruning and meaningful links beat hoarding; pairs with [[Building a Second Brain]] when organize and distill earn their place."
+level_4: "Curation turns captures into a garden, but endless pruning can replace making - keep notes that support current thinking and cut the rest before the pile becomes hoarding."
+level_5: "Build a monthly curation rule that decides what to delete, connect, rewrite, or promote into work worth sharing."
 examples:
   - "A first-Sunday idea pile review trashes saved links nobody would act on today and finally links half-finished thoughts."
   - "Our trainer reviews the drill library monthly and cuts what nobody runs anymore - same job as pruning notes that would not make today's practice plan."

@@ -10,7 +10,7 @@ level_1: "Life-before-achievement means a win counts only when the path to it do
 level_2: "Like crossing the finish line without knocking someone down so hard they cannot get up, the method must respect safety before the trophy."
 level_3: "Before you chase the metric, ask whether the route protects people - if not, change the plan before you celebrate."
 level_4: "A win that costs someone their health or trust is borrowed time until someone pays - achievement without safety is not a real win."
-level_5: "[[Safety by Design]] and [[Duty of Care]] sit upstream of any target - achievement without them is borrowed time until someone pays."
+level_5: "[[Safety by Design]] and [[Duty of Care]] sit upstream - design the route so achievement never borrows against irreversible harm."
 examples:
   - "I said no to the backyard rope swing over concrete when a low tree branch and mat did the same fun with softer landings."
   - "The school canceled the cliff-jump field trip when the park picnic hit the same bonding goal without a credible risk of a broken leg."

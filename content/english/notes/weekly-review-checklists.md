@@ -4,13 +4,14 @@ meta_title: "Weekly Review Checklists - Same Steps Every Sunday"
 description: "Weekly review works when the same short checklist runs every Sunday on purpose."
 key_concept: |
   - The checklist should be boring on purpose.
+  - [[Review]] and [[Quarterly Planning]] use the same rhythm at different spans.
   - Same steps every week: empty inbox, scan calendar, check projects, pick one express action.
   - Skip the fancy template - repeat the same short list even on travel weeks.
-level_1: "A weekly review checklist is the same short list of steps you run every Sunday on purpose - boring by design, not a fancy template you abandon."
-level_2: "Same steps every week beat a template you skip on travel weeks - repeatable short lists win because fancy formats raise friction when energy is low."
-level_3: "Empty inbox, scan calendar, check projects, pick one express action - twenty minutes beats skipping review because this week is different."
-level_4: "Boring is the feature - trust is built by schedule, not by hoping you will get to it someday when energy is low."
-level_5: "Same lane as [Review](/notes/review/) and [[Quarterly Planning]] rhythm - skip the fancy template even on travel weeks, shortened not skipped."
+level_1: "A weekly review checklist is the same short list of steps run every week on purpose."
+level_2: "Repeating one short list lowers the friction of starting and builds trust that nothing important will stay hidden."
+level_3: "Every Sunday, empty the inbox, scan the calendar, check projects, and pick one express action."
+level_4: "The fixed schedule builds trust, but the checklist must stay short enough to survive low-energy and travel weeks - shorten it rather than skip it."
+level_5: "Build a weekly checklist from the few steps that restore trust, then test and trim it until it still runs on a bad week."
 examples:
   - "Inbox, calendar, projects, one express action - twenty minutes beats skipping review because this week's \"different.\""
   - "Sunday checklist: bowl by the door, calendar, kid forms, one family thing to finish - same steps even on travel weeks, shortened not skipped."

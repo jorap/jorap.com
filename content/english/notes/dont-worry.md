@@ -12,7 +12,7 @@ level_1: "Do not worry is Jesus' command to trust the Father with food, clothes,
 level_2: "Worry is like stacking rocks on tomorrow's backpack before you have walked today's path - the birds eat without hoarding first."
 level_3: "Seek today's kingdom work first and leave tomorrow's trouble for tomorrow - energy spent on imaginary futures is energy stolen from real tasks."
 level_4: "The antidote is not denial - it is priority - [[Seek the Kingdom First]], and let tomorrow carry its own trouble without stacking anxiety tonight."
-level_5: "You thumb-refresh the news about tomorrow's meeting instead of sleeping - you choose active dependence on a Father who already gave what you cannot earn."
+level_5: "Build a daily trust practice that names today's kingdom work, releases tomorrow's trouble, and points worry back to the Father's care."
 examples:
   - "I thumb-refresh the news about tomorrow's meeting instead of sleeping - worry cannot add a single hour to life, and tomorrow can carry its own trouble."
   - "My kid asked what if the school fee goes up next year and I started spiraling at bedtime - trust is active dependence on a Father who already gave what I cannot earn."

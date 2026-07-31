@@ -10,7 +10,7 @@ level_1: "Normalization of deviance is when unchallenged shortcuts become normal
 level_2: "Like ignoring three smoke smells until the house is on fire, the third unchallenged skip is the signal - by the fifth, nobody even decides anymore."
 level_3: "Log the near miss the first time - [[Heed Every Near-Miss]] before the shortcut stops feeling like a choice."
 level_4: "By the fourth or fifth time, the shortcut is just how things are done here - close calls stop getting recorded and [[Failure as Feedback]] dies."
-level_5: "[[Blameless After-Action Review]] when nobody died cannot end the talk - recording near misses is what keeps deviance from becoming invisible."
+level_5: "Create a near-miss rule that triggers [[Blameless After-Action Review]] before an accident, then extend it whenever a repeated shortcut starts disappearing into normal work."
 examples:
   - "Third time someone ran the red light in the parking lot and nobody wrote it up - until the fender bender."
   - "Third time we let the ladder stay on the stairs and nobody moved it - until someone tripped carrying laundry."

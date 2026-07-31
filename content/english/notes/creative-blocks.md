@@ -6,11 +6,11 @@ key_concept: |
   - Creative blocks are not solved by more capture - ship one small action instead.
   - Once something ugly exists on the page, editing is a different, easier problem than starting.
   - Thousands of notes and a blank page means output fixes, not another capture pass.
-level_1: "A creative block is when capture piles up but the page stays blank - output, not more notes, is what unsticks the work."
-level_2: "Collecting more ideas will not help until you write one messy sentence - like a kid told to log one ugly warmup line before the perfect play arrives."
-level_3: "Write one ugly paragraph about yesterday's customer call - tell your kid to log one messy warmup line before the block lifts."
-level_4: "Pairs with [[Creative Output]] - inventory only pays off the day it becomes something someone else can read; capture without ship keeps the page blank."
-level_5: "Once something ugly exists on the page, you edit forward - you ship the smallest piece and build from there instead of waiting for inspiration."
+level_1: "A creative block is stalled output even though ideas or notes are available."
+level_2: "Starting one rough piece changes the problem from creating nothing to editing something, which is usually easier."
+level_3: "Write one ugly paragraph about yesterday's customer call before collecting another idea."
+level_4: "More capture can deepen the block when inventory replaces shipping, but empty input can also be real; diagnose whether the bottleneck is material, fear, or time."
+level_5: "Create a smallest-ship routine that turns one saved spark into a draft, then improve the routine from where it stalls."
 examples:
   - "My kid stared at a blank training log for twenty minutes - I told her to write one messy line about today's warmup and the block lifted once something existed on the paper."
   - "The new hire could not start the report - I said write one ugly paragraph about yesterday's customer call and the rest followed."

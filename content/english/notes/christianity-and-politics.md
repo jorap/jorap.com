@@ -15,11 +15,11 @@ key_concept: |
   - PKM mirror: [[Signal vs Noise]] - not every headline deserves kingdom-level panic; [[Information Diet]] curbs the scroll that replaces prayer.
   - I owe Caesar what Caesar's owed and God what I am His.
   - No party gets my soul - Caesar gets what Caesar is owed, God gets what I am His.
-level_1: "Christianity and politics keeps dual allegiance - give Caesar what Caesar is owed and God what is His, without making any party ultimate lord."
-level_2: "Like paying the lunch lady while your heart belongs at home - a citizen pays taxes and serves jury duty without treating any politician as king of your soul."
-level_3: "Pay the tax bill without treating it like betraying the kingdom - bless the neighbor on the other feed, do not baptize the rage."
-level_4: "Lawful duty and ultimate worship stay distinct - civic responsibility does not replace [[Seek the Kingdom First]]."
-level_5: "[[Seek the Kingdom First]] ranks God's reign above every election cycle; [[Treasure in Heaven]] keeps my heart off ballot-box salvation - [[Signal vs Noise]] curbs scroll that replaces prayer."
+level_1: "Christianity and politics holds civic duty under God's higher claim without making a party the believer's lord."
+level_2: "Giving Caesar what is owed keeps public responsibility distinct from the worship and allegiance owed to God."
+level_3: "Pay what is lawfully owed, serve your neighbor across party lines, and refuse rage as a badge of faith."
+level_4: "Civic action can serve neighbors, but party loyalty can capture witness; [[Seek the Kingdom First]] keeps every movement below God's reign."
+level_5: "Build a public-life practice that tests policies by fruit, protects neighbor love, and keeps the gospel free from one party's flag."
 examples:
   - "Tax bill landed and part of me wanted to treat paying it like betraying the kingdom - [[Render Unto Caesar]]: lawful duty and ultimate worship stay distinct."
   - "Group chat turned tribal after the election and my thumb hovered on a dunk - bless the neighbor, do not baptize the rage."

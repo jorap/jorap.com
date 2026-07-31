@@ -8,11 +8,11 @@ key_concept: |
   - Not fear of shipping - matching risk to coverage.
   - PKM parallel: [[Maintenance Window]] schedules garden prune; change window schedules production risk.
   - I ship risky changes when someone awake can roll back, not Friday night when everyone's offline.
-level_1: "A change window is scheduled time for risky updates when someone awake can undo them - boring calendar hygiene, not fear of shipping."
-level_2: "Like fixing the roof on a sunny Tuesday - rollback fails when rollback owners sleep or attend a wedding."
-level_3: "Stop Friday-night client deploys - deploy Tuesday morning, freeze before holidays, keep the old build one click away."
-level_4: "Match risky updates to when [[Rollback Principle]] needs awake hands - not Friday night when nobody can help if it leaks worse."
-level_5: "PKM parallel: [[Maintenance Window]] schedules garden prune; change window schedules production risk when revert must be immediate."
+level_1: "A change window is scheduled time for risky updates when people are available to monitor and undo them."
+level_2: "It matches deployment risk to coverage so rollback is possible when a change fails."
+level_3: "Deploy Tuesday morning, freeze before holidays, and keep the old build one click away."
+level_4: "Windows reduce unattended risk but delay changes and require shared rollback skill; urgency does not erase the need for coverage."
+level_5: "Design a change-window policy with risk tiers, rollback owners, and a review that improves the next window."
 examples:
   - "We stopped Friday-night client deploys after the bad release - Tuesday standup owns rollback if it goes loud."
   - "Wedding weekend freeze: marketing edits queue, no Hugo version bumps until Monday."

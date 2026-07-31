@@ -11,7 +11,7 @@ level_1: "GTD vs PARA splits tasks and knowledge into different homes - actionab
 level_2: "Like groceries on the fridge list and recipes in a folder - mixing both buckets turns neither system clean."
 level_3: "Keep actionable tasks in a trusted capture system and durable knowledge in PARA buckets - never the same inbox."
 level_4: "GTD processes commitments; PARA organizes reference - when they share one bucket, both systems rot."
-level_5: "[[Getting Things Done]] owns next actions; [[PARA Method]] owns projects and resources - crossing the streams breeds rot."
+level_5: "Design a two-lane workflow where [[Getting Things Done]] owns next actions and [[PARA Method]] holds durable reference, with one capture point feeding both."
 examples:
   - "I tried running playbook principles through the task app and lost half of them in completed lists - tasks need GTD, principles need PARA."
   - "The fridge list holds what we buy this week; the filing cabinet holds school forms with no deadline."

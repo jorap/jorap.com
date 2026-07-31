@@ -13,7 +13,7 @@ key_concept: |
 level_1: "Treasure in heaven means storing what lasts - generosity and obedience - not what rust, moth, and thieves can take on earth."
 level_2: "Where your treasure is, your heart follows - earthly stuff breaks, rots, or gets taken; heavenly treasure ties to faithful service after salvation settles the account."
 level_3: "Audit one spending line this month - where is your heart following treasure that will not last?"
-level_4: "[[Free Grace]] already secured heaven; [[Eternal Rewards]] names what the Father pays the saved life - store what lasts, not what rusts."
+level_4: "Because [[Free Grace]] already secured heaven, earthly stockpiles cannot buy standing - [[Eternal Rewards]] names what the Father pays the saved life for faithful use."
 level_5: "[[The Collector's Fallacy]] is the PKM mirror - hoarding saves and stuff on earth while nothing lasting gets stored; [[Judgment Seat]] evaluates what lasts."
 examples:
   - "Thumb on another buy I do not need - will this rust, or store something heaven-side like mercy and obedience?"

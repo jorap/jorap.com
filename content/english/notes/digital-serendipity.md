@@ -11,7 +11,7 @@ level_1: "Digital serendipity is when old notes resurface at the right time beca
 level_2: "Your old note shows up when you need it because you filed it right - like a well-labeled junk drawer where the label rhymes with today's problem."
 level_3: "Link each new note to two neighbors so forgotten ideas can surprise you when a similar problem shows up later this month."
 level_4: "A walkable graph beats hoping you remember the right filename - [[Periodic Knowledge Review]] surfaces what links already connected before the crisis hits."
-level_5: "The graph view showed an orphan you wrote two years ago - you link on purpose so forgotten ideas become draft fuel when a new problem rhymes."
+level_5: "Create a linking rule and review path that turn forgotten notes into new claims when an old idea matches today's problem."
 examples:
   - "A random note resurfaced a wikilink I had forgotten - it led to a blog post I had stalled."
   - "The graph view showed an orphan I had written two years ago - perfect intro for today's draft."

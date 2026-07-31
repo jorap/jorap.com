@@ -9,8 +9,8 @@ key_concept: |
 level_1: "A minimum viable product is the smallest shippable version that tests whether anyone wants the idea."
 level_2: "Like baking one cupcake before you make a whole wedding cake, rough proof beats polished fantasy in private."
 level_3: "Publish the rough note or prototype, watch reaction, iterate - months of private polish without a user is avoidance."
-level_4: "Minimum viable product means [[Drafting in Public]] with the least scope that still answers whether anyone cares."
-level_5: "[[Ship It]] and [[Lean Startup]] depend on this loop - [[Evergreen Notes]] can mature after the first honest publish proves someone reads."
+level_4: "The smallest release must still test demand: too little scope gives a false signal, while too much delays the learning that [[Drafting in Public]] makes possible."
+level_5: "Create a [[Lean Startup]] test, [[Ship It]] to real users, and extend what earns attention into [[Evergreen Notes]] or a fuller product."
 examples:
   - "I sat on a half-planned birthday party for three months - we ordered pizza, one banner, kids had a blast, learned more than another month of Pinterest."
   - "We ran one new play in scrimmage before printing playbooks for the whole league - learned more in forty minutes than another week of polish."

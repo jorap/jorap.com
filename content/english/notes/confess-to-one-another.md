@@ -6,12 +6,14 @@ key_concept: |
   {{< bible ref="James 5:16" emphasize="16" >}}
   
   - Sin grows in the dark - confession to a trusted believer invites prayer and healing, not performance religion.
+  - Salvation stays settled while fellowship gets repaired through confession.
+  - I confess because I am already His - not to re-earn standing.
   - [[Forgiveness]] toward others and vertical confession both unblock closeness with God and people.
-level_1: "James 5:16 calls believers to confess sins to one another and pray for each other - you can name what mutual confession is."
-level_2: "Hidden sin grows in the dark; spoken failure invites prayer and healing fellowship - like telling the coach about the bad habit before game film exposes it."
-level_3: "Tell your accountability brother about the anger streak before it eats the marriage - confession is prayer that night, not a shame podcast."
-level_4: "Under [[Free Grace]], I confess because I am already His - [[Standing vs Fellowship]] holds the line while fellowship gets repaired, not to re-earn standing I never lost."
-level_5: "[[Surface Bad News Early]] is the workplace echo - you surface the miss before it becomes a crater, same honesty move in a different room."
+level_1: "Mutual confession is believers honestly naming sin to one another and praying for repair."
+level_2: "Bringing hidden failure into trusted fellowship opens the way for prayer, accountability, and healing."
+level_3: "Tell a trusted believer about the anger streak and ask for prayer before it keeps harming the marriage."
+level_4: "Under [[Free Grace]], confession repairs fellowship rather than re-earns standing; trust, privacy, and wise boundaries keep honesty from becoming gossip."
+level_5: "Build a small-group practice for safe confession, prayer, follow-up, and repair without turning failure into performance."
 examples:
   - "I told my accountability brother about the anger streak before it ate the marriage - James confession was prayer that night, not a shame podcast."
   - "Hidden bitterness toward a teammate poisoned every huddle - one honest coffee confession cleared air the silent grudge never would."

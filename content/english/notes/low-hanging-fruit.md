@@ -9,8 +9,8 @@ key_concept: |
 level_1: "Low-hanging fruit is the easy win you tackle with normal effort, not hero energy reserved for hard fights."
 level_2: "Like picking the easy apples on the bottom branch first, some jobs are small - do not spend peak focus like they are the biggest battle."
 level_3: "Do the two-minute fix first - save [[Deep Work]] for problems that actually need it."
-level_4: "Not every task deserves peak focus - quick wins exist so you clear noise before the real work earns disproportionate effort."
-level_5: "[[Pareto Principle]] and [[Minimum Effective Dose]] share the same instinct - spend hero energy only where the return earns it."
+level_4: "Spend peak focus on hard fights and the easy wins starve the week - clear noise first so [[Deep Work]] is not wasted on two-minute fixes."
+level_5: "Extend the instinct with [[Pareto Principle]] and [[Minimum Effective Dose]] - spend hero energy only where the return earns it."
 examples:
   - "I spent twenty minutes redesigning our training plan when the actual problem was three cones not put away - I put them back in four minutes and had energy for drills."
   - "I spent an hour sketching a whole spring-cleaning plan when the actual problem was three dishes in the sink - washed them in ten minutes and had energy for the garage after lunch."

@@ -5,6 +5,7 @@ description: "Final judge on souls is not your job - pull your own plank before 
 key_concept: |
   {{< bible ref="Matthew 7:1-5" emphasize="5" >}}
   - Do not play final judge on souls - pull your plank before you nitpick someone's speck.
+  - Final judgment belongs to God - hypocrisy blocks clear sight when you skip your own plank.
   {{< bible ref="Matthew 7:16-20" emphasize="20" >}}
   - Still judge fruit - outcomes over time tell you what is underneath the hype.
   - Jesus forbids harsh, hypocritical condemnation - the kind that ignores my own guilt while magnifying yours.
@@ -14,9 +15,9 @@ key_concept: |
   - I do not play final judge on souls - I pull my own plank before nitpicking someone's speck.
 level_1: "Judge not means you are not the final judge of anyone's soul - deal with your own fault before you pick at theirs."
 level_2: "Fix your own big faults before you nitpick someone's small ones - like clearing your windshield before criticizing another driver."
-level_3: "When you want to call out their speck, name your plank first - final judgment belongs to God, and hypocrisy blocks clear sight."
+level_3: "When you want to call out their speck, name your plank first."
 level_4: "Playing final judge skips your own plank and misreads their speck - [[Heart Righteousness]] keeps the standard inward, not a performance for bystanders."
-level_5: "[[Heart Righteousness]] keeps the standard inward; [[By Their Fruits]] reads evidence without replacing God's seat."
+level_5: "Extend discernment without playing God - [[Heart Righteousness]] keeps the standard inward; [[By Their Fruits]] reads evidence without replacing His seat."
 examples:
   - "I spotted my teammate's travel in five seconds and missed my own lazy dribble - judge not starts with the log in my eye."
   - "I spotted a coworker's missed step in five seconds and missed my own plank for a month - Jesus was not saying ignore sin; He was saying remove your plank first."

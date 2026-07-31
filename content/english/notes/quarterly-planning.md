@@ -10,7 +10,7 @@ level_1: "Quarterly planning is setting goals and reviewing on a thirteen-week r
 level_2: "Every three months step back and ask whether daily noise is eating your big goal for the year - ninety-day zoom-out on purpose."
 level_3: "First Sunday of the quarter, pick three outcomes - not twenty wishes that drown the month before slippage hides for months."
 level_4: "Because urgent tasks compound daily, a calendar block reclaims the year from the inbox - slipping stays visible before it is too late."
-level_5: "[[Purpose and Vision]] names the outcome; [[Periodic Knowledge Review]] shares the ninety-day rhythm - the block is guardrail, not slide deck ritual."
+level_5: "Build a thirteen-week cycle: name three outcomes with [[Purpose and Vision]], review progress weekly, and close with a [[Periodic Knowledge Review]]."
 examples:
   - "First Sunday of the quarter we picked three outcomes - not twenty wishes that drowned the month."
   - "The clinic's ninety-day huddle moved one backlog project to done instead of adding a fourth starter."
