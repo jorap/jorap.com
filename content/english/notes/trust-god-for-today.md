@@ -18,7 +18,7 @@ examples:
 shareable_thought:
   - "Jesus taught asking for today's bread - enough grace for this day, not stockpiled anxiety about tomorrow."
   - "Tomorrow's pile of worry does not feed today."
-  - "Daily bread prayer keeps provision in today's hands."
+  - "I ask the Father for enough bread for this day and trust Him with the next."
   - "Honest capacity for today, not a fantasy list borrowed from tomorrow's energy."
 relationships:
   - type: alternative

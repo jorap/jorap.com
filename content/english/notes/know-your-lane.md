@@ -16,8 +16,8 @@ examples:
 shareable_thought:
   - "Clarity on your role beats hero coverage of every gap - know the lane you actually run."
   - "You win when each leg stays in their lane."
-  - "Yes to your work and clean handoffs for the rest."
-  - "Some open gaps belong to someone else."
+  - "Know your slice and hand off what is not yours."
+  - "Lane clarity is humility in practice, and hero coverage hides missing owners."
 relationships:
   - type: alternative
     wikilink: "[[Many Parts One Body]]"

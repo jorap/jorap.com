@@ -22,7 +22,7 @@ examples:
   - "The elder who prayed over our street during the flood had no office - everyone still did what she asked."
 shareable_thought:
   - "The true measure of leadership is influence - nothing more, nothing less."
-  - "Leadership is influence - title optional, movement required."
+  - "Before you claim the chair, check whether anyone would follow if the title vanished tomorrow."
   - "The law of influence is that leadership is influence - title optional, movement required."
   - "Rahab hid spies because she believed - no crown, real sway; Eli's sons corrupted worship while Samuel rose without a badge."
 relationships:

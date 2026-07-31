@@ -23,9 +23,9 @@ examples:
   - "Nehemiah's half-built wall with spears in hand - course included defense, not just bricks."
 shareable_thought:
   - "Anyone can steer the ship, but it takes a leader to chart the course."
-  - "Steering is not leading - someone has to chart the course before the crew rows."
+  - "Write the risks and route on one page before you announce the march - no heroic improvisation as strategy."
   - "The law of navigation is that steering is not leading - someone has to chart the course before the crew rows."
-  - "Joshua laid an ambush plan before Ai; Nehemiah paired rebuild with weapons; Jesus told builders to count cost before breaking ground."
+  - "Joshua laid an ambush plan before Ai; Nehemiah paired rebuild with weapons."
 relationships:
   - type: contradicts
     wikilink: "[[Discipleship vs Leadership]]"

@@ -23,7 +23,7 @@ examples:
   - "Joash hit the ground three times when he should have emptied the quiver - momentum left on the field."
 shareable_thought:
   - "Momentum is a leader's best friend."
-  - "Momentum multiplies effort - leaders protect it and grieve when it leaks."
+  - "When momentum is hot, protect the next two quick wins - do not celebrate into complacency."
   - "The law of the big Mo is that momentum multiplies effort - leaders protect it and grieve when it leaks."
   - "Israel's early conquests stacked wins; Elisha mourned half-hearted arrow strikes; Pentecost turned thousands in a day."
 relationships:

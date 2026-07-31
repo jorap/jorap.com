@@ -19,7 +19,7 @@ examples:
 shareable_thought:
   - "Proverbs says guard your heart - what you feed the inner life shapes everything downstream."
   - "Everything flows from the heart - guard what enters through eyes, ears, and habits."
-  - "Guarding is active filtering - not legalism theater, but love for God that refuses garbage intake."
+  - "Guarding is active filtering, not legalism theater, because poison at the source ruins the village downstream."
   - "A renewed mind needs clean fuel - guarding is the intake valve before renewal can work."
 relationships:
   - type: alternative

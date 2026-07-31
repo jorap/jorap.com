@@ -19,7 +19,7 @@ examples:
   - "Leading a team meant a conversation that could cost me friends - I delayed a week; Jesus prayed three times the same yes before the arrest."
 shareable_thought:
   - "In Gethsemane Jesus prayed Abba, Father - then yielded His will to the Father."
-  - "Soul overwhelmed, sweat like blood - He asked if the cup could pass, then surrendered."
+  - "When the diagnosis will not change, pray the honest ask first, then release the outcome you cannot control."
   - "Matthew and Mark record Him praying the same surrender three times."
   - "Under Free Grace, this is not a template to earn favor - it is the Son showing how costly obedience sounds in prayer."
 relationships:

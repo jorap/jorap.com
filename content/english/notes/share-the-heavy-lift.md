@@ -16,7 +16,7 @@ examples:
 shareable_thought:
   - "When work crushes one person, split the load early - shared weight beats late heroics."
   - "Split the load while everyone can still breathe."
-  - "Name the weight and say who takes which handle before the deadline turns it into a crisis."
+  - "Name the weight and assign handles before the deadline turns it into a crisis."
   - "Hiding weight guarantees a late explosion."
 relationships:
   - type: alternative

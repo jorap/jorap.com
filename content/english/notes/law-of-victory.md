@@ -24,7 +24,7 @@ shareable_thought:
   - "Leaders find a way for the team to win."
   - "Leaders find a way - sometimes at brutal cost, sometimes by creative faith."
   - "The law of victory is that leaders accept responsibility for finding a path to win for the team."
-  - "Samson's death toppled Philistines; Jonathan's climb sparked a rout; four friends tore a roof for healing - flawed people still cleared the path."
+  - "Samson's death toppled Philistines; Jonathan's climb sparked a rout; four friends tore a roof for healing."
 relationships:
   - type: contradicts
     wikilink: "[[Discipleship vs Leadership]]"

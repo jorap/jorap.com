@@ -17,7 +17,7 @@ examples:
 shareable_thought:
   - "What you read and watch becomes raw material for judgment - gate intake before output rots."
   - "Feeds are not neutral - gate before it becomes the mood you bring home."
-  - "Gating means default filters - unsub, mute, block, close tab - not forcing by will after the rage bait won."
+  - "Default filters of unsub, mute, block, close tab beat willpower after rage bait won."
   - "The attention economy fights you for the scroll - gates are defense, not guilt theater."
 relationships:
   - type: alternative

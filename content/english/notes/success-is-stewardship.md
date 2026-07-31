@@ -23,7 +23,7 @@ examples:
 shareable_thought:
   - "Treat success as borrowed - account for how gifts get used, not entitlement to keep them forever."
   - "The master entrusts promotion and platform for faithful use."
-  - "Enter the master's joy, do not bury the talent in ego."
+  - "Enter His joy, do not bury the talent in ego."
   - "Success is not ownership - stewardship of what I received: time, health, platform, money, influence."
 relationships:
   - type: alternative

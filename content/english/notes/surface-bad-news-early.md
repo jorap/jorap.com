@@ -16,7 +16,7 @@ examples:
 shareable_thought:
   - "Name the slip while rollback is cheap - late surprises cost trust more than early ugly truth."
   - "Bad news does not age well - surface the miss while the team can still steer."
-  - "Name your call, then fix the runbook together."
+  - "Tell the client the migration will slip Tuesday instead of Friday silence."
   - "Punishment theater guarantees late surprises."
 relationships:
   - type: alternative

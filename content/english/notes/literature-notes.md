@@ -18,7 +18,7 @@ shareable_thought:
   - "After reading a source, write what stuck in your own words - not a pile of copied highlights."
   - "Source notes stay tied to the book or talk."
   - "Your atoms link out, not the other way around."
-  - "Atomic notes grow from literature notes when one claim earns its own page."
+  - "Grow atomic notes from literature notes when one claim earns its own page."
 relationships:
   - type: contradicts
     wikilink: "[[The Collector's Fallacy]]"

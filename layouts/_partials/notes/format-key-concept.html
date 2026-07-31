@@ -6,50 +6,48 @@
 {{- $page := . -}}
 {{- $kc := strings.TrimSpace ($page.Params.key_concept | default "") -}}
 {{- $levelLines := slice -}}
-{{- $hasLevels := false -}}
 {{- range $i := seq 1 5 -}}
   {{- $key := printf "level_%d" $i -}}
   {{- with index $page.Params $key -}}
     {{- $text := strings.TrimSpace . -}}
     {{- if $text -}}
-      {{- $hasLevels = true -}}
       {{- $text = replaceRE (printf `(?i)^Level\s+%d:\s*` $i) "" $text -}}
       {{- $levelLines = $levelLines | append (printf "- Level %d: %s" $i (strings.TrimSpace $text)) -}}
     {{- end -}}
   {{- end -}}
 {{- end -}}
 
-{{- if not $hasLevels -}}
-  {{- return $kc -}}
-{{- end -}}
-
-{{- /* Drop any leftover Level N: bullets from key_concept when fields exist. */ -}}
-{{- $kept := slice -}}
-{{- range split $kc "\n" -}}
-  {{- if findRE `(?i)^\s*-\s*Level\s+[1-5]:` . -}}
-  {{- else -}}
-    {{- $kept = $kept | append . -}}
+{{- /* Hugo allows one return per template, so the result is built into $kc. */ -}}
+{{- if $levelLines -}}
+  {{- /* Drop any leftover Level N: bullets from key_concept when fields exist. */ -}}
+  {{- $kept := slice -}}
+  {{- range split $kc "\n" -}}
+    {{- if findRE `(?i)^\s*-\s*Level\s+[1-5]:` . -}}
+    {{- else -}}
+      {{- $kept = $kept | append . -}}
+    {{- end -}}
   {{- end -}}
-{{- end -}}
-{{- $kc = delimit $kept "\n" | strings.TrimSpace -}}
+  {{- $kc = delimit $kept "\n" | strings.TrimSpace -}}
 
-{{- $out := slice -}}
-{{- $inserted := false -}}
-{{- range split $kc "\n" -}}
-  {{- $out = $out | append . -}}
-  {{- if and (not $inserted) (findRE `^\s*-\s+\S` .) -}}
+  {{- $out := slice -}}
+  {{- $inserted := false -}}
+  {{- range split $kc "\n" -}}
+    {{- $out = $out | append . -}}
+    {{- if and (not $inserted) (findRE `^\s*-\s+\S` .) -}}
+      {{- range $levelLines -}}
+        {{- $out = $out | append . -}}
+      {{- end -}}
+      {{- $inserted = true -}}
+    {{- end -}}
+  {{- end -}}
+  {{- if not $inserted -}}
+    {{- if and $out (ne (index $out (sub (len $out) 1) | strings.TrimSpace) "") -}}
+      {{- $out = $out | append "" -}}
+    {{- end -}}
     {{- range $levelLines -}}
       {{- $out = $out | append . -}}
     {{- end -}}
-    {{- $inserted = true -}}
   {{- end -}}
+  {{- $kc = delimit $out "\n" | strings.TrimSpace -}}
 {{- end -}}
-{{- if not $inserted -}}
-  {{- if and $out (ne (index $out (sub (len $out) 1) | strings.TrimSpace) "") -}}
-    {{- $out = $out | append "" -}}
-  {{- end -}}
-  {{- range $levelLines -}}
-    {{- $out = $out | append . -}}
-  {{- end -}}
-{{- end -}}
-{{- return (delimit $out "\n" | strings.TrimSpace) -}}
+{{- return $kc -}}

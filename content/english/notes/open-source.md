@@ -15,8 +15,8 @@ examples:
 shareable_thought:
   - "Open source is a license that lets you install, read, fork, and ship the code without a product key."
   - "Open source is a license grant, not a lifestyle badge."
-  - "The license lets you install, read, fork, and ship without a serial number."
-  - "License rights are not quality guarantees."
+  - "Before adopting a project, read its license and confirm that it grants the install, read, fork, and ship rights your use needs."
+  - "License rights do not guarantee quality, maintenance, easy exits, or zero cost."
 relationships:
   - type: contradicts
     wikilink: "[[The Collector's Fallacy]]"

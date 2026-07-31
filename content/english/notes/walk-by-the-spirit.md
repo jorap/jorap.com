@@ -19,8 +19,8 @@ examples:
 shareable_thought:
   - "The Christian life runs on Spirit-led steps - not willpower sprints that collapse by Friday."
   - "Walking by the Spirit is daily dependence, not a one-time decision badge."
-  - "Love through self-control shows up when the walk is real, not performed."
-  - "The walk does not buy heaven - it answers grace already received."
+  - "Fruits of the Spirit show the walk over time, but fruit is not a performance score."
+  - "Obedience follows salvation and never buys it."
 relationships:
   - type: alternative
     wikilink: "[[Follow the Rhythm]]"

@@ -16,7 +16,7 @@ examples:
 shareable_thought:
   - "Nulled premium plugins and cracked themes skip the license and import malware."
   - "The license fee you skip becomes a security bill you did not budget for."
-  - "Nulled means someone stripped copy protection."
+  - "Say no on client builds when they ask to skip the Envato fee - quote the real license or a maintained free fork."
   - "Open license on the CMS does not make nulled premium plugins OK."
 relationships:
   - type: contradicts

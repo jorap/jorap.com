@@ -31,5 +31,5 @@ author: "JoRap"
 tags: ["Notes", "Meta", "Linking"]
 featured: false
 draft: false
-outputs: "['HTML', 'ISSUES']"
+outputs: ["HTML", "ISSUES"]
 ---

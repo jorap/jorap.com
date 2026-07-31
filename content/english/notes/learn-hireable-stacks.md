@@ -16,7 +16,7 @@ examples:
 shareable_thought:
   - "Learn stacks employers actually hire for."
   - "I point students at job posts, not the niche CMS with the prettier diagram."
-  - "WordPress listings were everywhere in my market."
+  - "Before you invest six months in a framework, count how many local listings mention it versus the mainstream option."
   - "Diagram charm is not a paycheck."
 relationships:
   - type: contradicts

@@ -16,8 +16,8 @@ examples:
 shareable_thought:
   - "An open license does not mean maintained code."
   - "View source on abandonware is permission without a repair bench."
-  - "License says you may read and fork."
-  - "It does not say anyone still ships security patches or answers issues."
+  - "Before a frozen plugin owns a critical path, budget a swap or fork plan when the last commit was years ago."
+  - "Inspection alone does not make the stack safe."
 relationships:
   - type: contradicts
     wikilink: "[[Minimum Viable Product]]"

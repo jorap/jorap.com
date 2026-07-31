@@ -18,7 +18,7 @@ shareable_thought:
   - "Useful feedback names what to change and how - truth the hearer can act on, not performance scoring."
   - "Feedback that helps deposits one actionable truth - not a personality audit."
   - "Useful feedback is timed, concrete, and kind enough to land - same conversation, same respect."
-  - "Pause, then one move they can try tomorrow."
+  - "Before you critique, name one move they can try tomorrow - concrete beats theatrical demolition."
 relationships:
   - type: alternative
     wikilink: "[[Words That Build Up]]"

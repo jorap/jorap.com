@@ -17,8 +17,8 @@ examples:
 shareable_thought:
   - "Reliable cadence beats sporadic heroics - the same small moves on schedule outperform panic sprints."
   - "Cadence is the boring repeat that still works on Tuesday."
-  - "The review happens Friday whether you feel inspired or not."
-  - "Crusade mode feels holy until burnout."
+  - "Schedule the weekly review on Friday whether you feel inspired - the beat runs on calendar, not mood."
+  - "Hero weeks collapse when the rhythm was never real."
 relationships:
   - type: alternative
     wikilink: "[[Walk by the Spirit]]"

@@ -15,7 +15,7 @@ examples:
   - "Code review caught the env var gap before Friday deploy - iron sharpening was the comment thread, not a blame DM."
 shareable_thought:
   - "Peer review should make the draft better - friction with care, not performance theater or silent approval."
-  - "Sharpening review names what is weak and what would fix it - same session, same respect."
+  - "Name what is weak and what would fix it in the same session."
   - "Iron Sharpens Iron is the faith name - Proverbs friction between people who want each other sharper."
   - "Sharpening fails when the tone eats the truth."
 relationships:

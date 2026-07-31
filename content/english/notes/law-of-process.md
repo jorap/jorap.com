@@ -23,9 +23,9 @@ examples:
   - "Moses at eighty finally returned - the process outlasted Pharaoh's urgency."
 shareable_thought:
   - "Leadership develops daily, not in a day."
-  - "Leadership compounds in hidden years - you cannot microwave what God grows in the pit."
+  - "Block one hour weekly for skill you cannot microwave - leadership reps live in boring Tuesdays, not one hero sprint."
   - "The law of process is that leadership compounds in hidden years - you cannot microwave what God grows in the pit."
-  - "Joseph went slave to prime minister through prisons; Moses spent forty years off-stage before the bush; Peter denied Christ, then preached Pentecost."
+  - "Joseph went slave to prime minister through prisons; Moses spent forty years off-stage before the bush."
 relationships:
   - type: contradicts
     wikilink: "[[Discipleship vs Leadership]]"

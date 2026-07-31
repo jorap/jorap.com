@@ -23,7 +23,7 @@ examples:
   - "Moses stood from morning to night judging alone until Jethro intervened."
 shareable_thought:
   - "Only secure leaders give power to others."
-  - "Secure leaders delegate - insecure leaders hoard decisions until they break."
+  - "Hand one recurring decision to someone you have trained - name the boundary, then leave the room."
   - "The law of empowerment is that secure leaders delegate - insecure leaders hoard decisions until they break."
   - "Jethro told Moses to appoint judges - one-man band was unsustainable; Jesus sent twelve with authority and warned of cost."
 relationships:

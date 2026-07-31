@@ -20,8 +20,8 @@ examples:
 shareable_thought:
   - "Paul tells believers to speak words that build up - edifying speech gives grace to hearers, not debris."
   - "Words either deposit grace or debris."
-  - "Building up does not mean flattery - it means truth that helps, timed so the hearer can actually use it."
-  - "I speak from forgiven lips - not to earn standing, but because Christ already cleaned the ledger."
+  - "Building up is not flattery or silence about harm."
+  - "Forgiven people can speak truth with gentleness and make peace when the room is hot."
 relationships:
   - type: alternative
     wikilink: "[[Give Useful Feedback]]"

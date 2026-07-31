@@ -22,7 +22,7 @@ examples:
   - "I prayed for my kids' faith and realized He already prayed for every future believer to see His glory - my parenting joins His intercession, not replaces it."
 shareable_thought:
   - "Jesus prayed the high priestly prayer for Himself, the twelve, and every future believer - unity, protection, and glory."
-  - "Longest prayer the Gospels record - glory, the hour, and the people the Father gave Him."
+  - "When church drama makes you want to quit, read John 17:11-23 - Jesus asked the Father to keep and unify people like us."
   - "Sanctify in truth, guard in the Father's name, make them one."
   - "Kept by the Father's name, not by my grip on Him."
 relationships:

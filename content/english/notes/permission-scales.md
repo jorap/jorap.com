@@ -16,8 +16,8 @@ examples:
 shareable_thought:
   - "Open permission scales globally - same WordPress zip in Manila and California, not different gates by geography."
   - "The same zip file does not care which country your desk is in."
-  - "Talent competes on bandwidth and nerve, not on who holds the product key."
-  - "A student in UPLB learns on the same WordPress zip as a student in California."
+  - "Talent competes on bandwidth and nerve, not who holds the product key."
+  - "Open permission removes the product-key gate, not weak bandwidth, old hardware, English barriers, or a thin local job market."
 relationships:
   - type: contradicts
     wikilink: "[[There Is No Perfect Solution]]"

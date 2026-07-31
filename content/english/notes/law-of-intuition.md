@@ -24,9 +24,9 @@ examples:
   - "Barnabas risked reputation on Saul - he read potential others missed."
 shareable_thought:
   - "Leaders evaluate everything with a leadership bias."
-  - "Leaders read situations with a leadership lens - who moves, what breaks, what window opens."
+  - "Pause the meeting when the room tone shifts - name what you sense before the agenda bulldozes it."
   - "The law of intuition is that leaders read situations with a leadership lens - who moves, what breaks, what window opens."
-  - "Abigail stopped David's rash revenge - she read the room before blood spilled; Barnabas vouched for fresh-convert Paul when others flinched."
+  - "Abigail stopped David's rash revenge - she read the room before blood spilled."
 relationships:
   - type: contradicts
     wikilink: "[[Discipleship vs Leadership]]"

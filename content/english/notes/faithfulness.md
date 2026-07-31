@@ -18,8 +18,8 @@ examples:
   - "I organized snacks for my kid's team and wanted credit all week - the master reviews faithful use, not buried gifts or performance."
 shareable_thought:
   - "The Spirit grows steady follow-through with what God entrusted, not one heroic sprint mistaken for earned salvation."
-  - "Use what God gave you in small steady ways - not one big week to earn heaven."
-  - "Because grace already saved, steady obedience responds to a gift."
+  - "Do the small entrusted task today with the same care you would bring to a visible stage - quiet Tuesdays count."
+  - "Grace already secured salvation - steady obedience responds to the gift; performance cannot replace the entry fee."
   - "Eternal Rewards names what steady faithfulness may receive; Free Grace keeps it from becoming the entry fee."
 relationships:
   - type: contradicts

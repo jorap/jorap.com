@@ -20,8 +20,8 @@ examples:
 shareable_thought:
   - "Say yes or no clearly - no stack of qualifiers so people trust a weak promise."
   - "One deadline, one owner, one plain answer in Slack."
-  - "Extra spin on a deadline you will miss destroys trust faster than an honest no."
-  - "If you need swagger to sound credible, the problem is overload, not vocabulary."
+  - "Swagger on a weak promise destroys trust."
+  - "If you need hype to sound credible, the problem is overload, not vocabulary."
 relationships:
   - type: contradicts
     wikilink: "[[Minimum Viable Product]]"

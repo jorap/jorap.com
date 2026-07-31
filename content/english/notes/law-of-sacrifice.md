@@ -23,9 +23,9 @@ examples:
   - "Paul refused support he could claim - sacrifice bought hearing for the gospel."
 shareable_thought:
   - "A leader must give up to go up."
-  - "Leaders give up to go up - sacrifice is the toll on the higher road."
+  - "Name one comfort you will lay down this month so the team can advance."
   - "The law of sacrifice is that leaders give up to go up - sacrifice is the toll on the higher road."
-  - "Nazirite vow set apart hair, wine, and comfort; Paul waived rights so gospel would spread; elder qualifications name the personal cost upfront."
+  - "Nazirite vow set apart hair, wine, and comfort; Paul waived rights so gospel would spread."
 relationships:
   - type: contradicts
     wikilink: "[[Discipleship vs Leadership]]"

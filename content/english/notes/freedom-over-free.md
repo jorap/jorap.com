@@ -19,7 +19,7 @@ shareable_thought:
   - "No license fee opens the gate; freedom to install, inspect, and move files is what you buy with the evenings."
   - "Free gets you past the gate."
   - "Freedom is what you buy with the evenings."
-  - "Because proprietary stacks rent permission, open tools let you hand a client files they keep instead of a login to your dashboard."
+  - "Hand a client markdown in git they keep - open tools let you exit when the dashboard disappears."
 relationships:
   - type: contradicts
     wikilink: "[[The Collector's Fallacy]]"

@@ -24,7 +24,7 @@ shareable_thought:
   - "To add growth, lead followers - to multiply, lead leaders."
   - "Addition adds bodies; multiplication adds leaders who spawn leaders."
   - "The law of explosive growth is that addition adds bodies but multiplication adds leaders who spawn leaders."
-  - "Bezalel trained craftsmen who built the tabernacle; Jesus sent seventy with authority; Paul appointed elders and told Timothy to entrust truth to faithful men."
+  - "Bezalel trained craftsmen who built the tabernacle; Jesus sent seventy with authority."
 relationships:
   - type: contradicts
     wikilink: "[[Discipleship vs Leadership]]"

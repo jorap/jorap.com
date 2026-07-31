@@ -18,7 +18,7 @@ shareable_thought:
   - "Phrase ideas worth standing behind in two years and revise when reality shifts, not when a trend spikes."
   - "Complete sentences you would still sign - not trend-chasing rewrites every quarter."
   - "Promote from fleeting during Periodic Knowledge Review when a spark keeps returning."
-  - "Revision is part of evergreen work - not a failure of the first draft."
+  - "Evergreen does not mean frozen - revision keeps a claim honest, while trend-driven rewrites make the note unstable."
 relationships:
   - type: contradicts
     wikilink: "[[Daily Notes]]"

@@ -17,9 +17,9 @@ examples:
   - "Envy at someone's platform gift stole my joy serving kids - my part was faithful in the classroom, not their microphone."
 shareable_thought:
   - "The church is one body with many parts - different roles, same Head, no solo-body fantasy."
-  - "The win needs every position, not five point guards."
+  - "Say no to ministry slots that are not your part so the actual teachers can teach."
   - "Envy at another part is as silly as the foot wishing it were a hand."
-  - "Clarity on your slice beats pretending you cover every position."
+  - "Under Free Grace, every believer belongs - Faithful Steward work, not a popularity contest for standing."
 relationships:
   - type: alternative
     wikilink: "[[Know Your Lane]]"

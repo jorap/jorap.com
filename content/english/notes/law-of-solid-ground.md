@@ -23,9 +23,9 @@ examples:
   - "Pharisees looked holy on stage - Jesus named the rot inside."
 shareable_thought:
   - "Trust is the foundation of leadership."
-  - "Trust is the foundation - character cracks sink leadership faster than bad strategy."
+  - "Catch one small promise you broke this week and repair it before the team files it as pattern."
   - "The law of solid ground is that trust is the foundation - character cracks sink leadership faster than bad strategy."
-  - "Solomon warned pride goes before a fall; Jesus exposed whitewashed tombs; Peter told elders to shepherd willingly, not for shameful gain."
+  - "Solomon warned pride goes before a fall; Jesus exposed whitewashed tombs."
 relationships:
   - type: contradicts
     wikilink: "[[Discipleship vs Leadership]]"

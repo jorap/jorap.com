@@ -24,7 +24,7 @@ shareable_thought:
   - "People buy into the leader, then the vision."
   - "People buy the leader before the vision - trust the guide, then the map."
   - "The law of buy-in is that people trust the leader before the vision - buy the guide, then the map."
-  - "Gideon's trimmed army followed his jar-and-torch plan - buy-in to him, then the tactic; Nehemiah wept and prayed before he asked the king."
+  - "Gideon's trimmed army followed his jar-and-torch plan - buy-in to him, then the tactic."
 relationships:
   - type: contradicts
     wikilink: "[[Discipleship vs Leadership]]"

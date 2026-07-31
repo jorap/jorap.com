@@ -24,7 +24,7 @@ shareable_thought:
   - "Leaders add value by serving others."
   - "Leaders add value by serving - the lot you give away may become the blessing lane."
   - "The law of addition is that leaders add value by serving others - giving away advantage can become the blessing lane."
-  - "Abram let Lot pick first - generosity added peace, not loss; Jesus redefined greatness as service, Paul told Philippi to put others first like Christ."
+  - "Abram let Lot pick first - generosity added peace, not loss; Jesus redefined greatness as service."
 relationships:
   - type: contradicts
     wikilink: "[[Discipleship vs Leadership]]"

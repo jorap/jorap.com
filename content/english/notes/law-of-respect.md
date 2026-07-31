@@ -23,9 +23,9 @@ examples:
   - "Jonathan gave David his armor - loyalty to a stronger future king."
 shareable_thought:
   - "People naturally follow leaders stronger than themselves."
-  - "People follow strength they respect - weakness invites drift or contempt."
+  - "Strengthen the lane you lead before you ask others to follow - competence earns the right to call the move."
   - "The law of respect is that people follow strength they respect - weakness invites drift or contempt."
-  - "Deborah called Barak and he would not go without her; Jonathan pledged loyalty to David; Daniel stood before Belshazzar when the wise men failed."
+  - "Deborah called Barak and he would not go without her; Jonathan pledged loyalty to David."
 relationships:
   - type: contradicts
     wikilink: "[[Discipleship vs Leadership]]"

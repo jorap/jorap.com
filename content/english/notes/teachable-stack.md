@@ -17,7 +17,7 @@ shareable_thought:
   - "A teachable stack installs tonight on a borrowed laptop."
   - "If a student cannot install it on the laptop they brought from home, we are wasting the afternoon."
   - "Download tonight, break it tomorrow, show up with real friction questions."
-  - "Open zip stacks and portable builds pass where Dreamweaver and closed CMS demos fail."
+  - "Dreamweaver and closed CMS demos waste the afternoon on slide-deck theory."
 relationships:
   - type: contradicts
     wikilink: "[[There Is No Perfect Solution]]"
