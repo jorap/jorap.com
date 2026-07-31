@@ -1,4 +1,5 @@
 {
+  "$schema": "https://app.kilo.ai/config.json",
   // Canonical agent config lives under .cursor/ (shared with Cursor). See AGENTS.md.
   "skills": {
     "paths": [".cursor/skills"]
