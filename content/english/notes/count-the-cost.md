@@ -4,7 +4,7 @@ meta_title: "Count the Cost - Decide Before You Build"
 description: "Jesus told builders to estimate before breaking ground - discipleship costs honesty, not surprise debt."
 key_concept: |
   {{< bible ref="Luke 14:28-30" emphasize="28" >}}
-
+  
   - Following Christ is worth it - and Jesus refused bait-and-switch math; count the cost before you claim the tower is half built.
   - Level 1: Like checking if you have enough bricks before pouring the foundation - starting without a plan embarrasses everyone when the wall stops mid-air.
   - Level 2: Counting cost means naming what obedience will actually cost this season - time, reputation, comfort - not pretending it is free.
@@ -36,6 +36,9 @@ relationships:
   - type: extends
     wikilink: "[[Free Grace]]"
     reason: "Gift is free; cross still has weight"
+  - type: extends
+    wikilink: "[[Law of Navigation]]"
+    reason: "Luke 14 tower analogy shared - chart before motion"
   - type: extends
     wikilink: "[[Take Up Your Cross]]"
     reason: "Daily cross-bearing after honest counting"

@@ -37,6 +37,9 @@ relationships:
     wikilink: "[[Habit Formation]]"
     reason: "One move repeated until it runs without debate"
   - type: extends
+    wikilink: "[[Law of Process]]"
+    reason: "Joseph, Moses, Peter - same Tuesday reps before public fruit"
+  - type: extends
     wikilink: "[[Process Over Outcomes]]"
     reason: "Trust the loop when the scoreboard is quiet"
   - type: extends

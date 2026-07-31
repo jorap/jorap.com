@@ -23,8 +23,14 @@ relationships:
     wikilink: "[[Title Without Influence]]"
     reason: "Badge without followers - taking a walk, not leading"
   - type: extends
+    wikilink: "[[21 Laws of Leadership in the Bible]]"
+    reason: "Faith parallel - Law of Influence and twenty scripture siblings"
+  - type: extends
     wikilink: "[[Discipleship vs Leadership]]"
     reason: "Horizontal influence vs vertical allegiance - two seats, one person"
+  - type: extends
+    wikilink: "[[Law of Influence]]"
+    reason: "Rahab, Samuel, Paul - headline law in Bible cases"
   - type: extends
     wikilink: "[[Leadership]]"
     reason: "Direction, pace, care - influence is whether anyone moves when you set them"
@@ -55,3 +61,9 @@ draft: false
 - [[Ethical Leadership]] - what you tolerate in the open becomes their real standard
 - [[Follow Christ, Then Lead]] - when influence pressure and Christ's command collide, follow Christ first
 - [[Discipleship vs Leadership]] - upward allegiance and outward care stay separate seats
+
+## Faith parallel
+
+- [[21 Laws of Leadership in the Bible]] - scripture hub for influence, service, succession
+- [[Law of Influence]] - Rahab, Samuel, chained Paul - headline law in Bible cases
+

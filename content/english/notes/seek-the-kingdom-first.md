@@ -36,6 +36,9 @@ relationships:
     wikilink: "[[God Centered Design]]"
     reason: "Kingdom-first orders what you build - not only the calendar"
   - type: extends
+    wikilink: "[[Law of Priorities]]"
+    reason: "Mary chose the good portion - activity is not accomplishment"
+  - type: extends
     wikilink: "[[Peace]]"
     reason: "Kingdom first orders the week before worry sets panic"
   - type: extends

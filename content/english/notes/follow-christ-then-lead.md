@@ -34,6 +34,9 @@ relationships:
     wikilink: "[[Let Your Light Shine]]"
     reason: "when visible leadership performance replaces hidden obedience to Christ"
   - type: extends
+    wikilink: "[[21 Laws of Leadership in the Bible]]"
+    reason: "When scripture leadership laws collide with Christ - order the seats"
+  - type: extends
     wikilink: "[[Abide in Me]]"
     reason: "Stay connected upward before you captain outward"
   - type: extends

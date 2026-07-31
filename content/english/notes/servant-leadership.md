@@ -31,6 +31,9 @@ relationships:
     wikilink: "[[Pareto Principle]]"
     reason: "when I protect my 20% status and treat everyone else as support staff"
   - type: extends
+    wikilink: "[[21 Laws of Leadership in the Bible]]"
+    reason: "Faith parallel - twenty-one scripture lessons on influence and service"
+  - type: extends
     wikilink: "[[Develop, Don't Endanger]]"
     reason: "Serve the team by protecting growth - not by sacrificing people to prove toughness"
   - type: extends
@@ -42,6 +45,12 @@ relationships:
   - type: extends
     wikilink: "[[Humility and Service]]"
     reason: "Humility that serves first - same move in standups and 1:1s"
+  - type: extends
+    wikilink: "[[Law of Addition]]"
+    reason: "Serve to add value - faith lane with Abram and Mark 10"
+  - type: extends
+    wikilink: "[[Law of Empowerment]]"
+    reason: "Secure leaders delegate - Moses and Jesus models"
   - type: extends
     wikilink: "[[Leadership Is Influence]]"
     reason: "Unblock and serve - trust deposits that buy real followership"

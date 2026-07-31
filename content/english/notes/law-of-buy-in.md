@@ -1,0 +1,48 @@
+---
+title: "Law of Buy-In"
+meta_title: "The Law of Buy-In - People buy into the leader, then the vision"
+description: "People buy into the leader, then the vision."
+key_concept: |
+  - People buy the leader before the vision - trust the guide, then the map.
+  - Level 1: Gideon's trimmed army still followed his jar-and-torch plan - buy-in to him, then the tactic.
+  - Level 2: Nehemiah wept, prayed, then asked the king. Hebrews: fix eyes on Christ, do not harden hearts.
+  - Level 3: Vision without trusted leader is a poster; leader without vision is a stroll.
+  - Hub: [[21 Laws of Leadership in the Bible]] - lesson 14 of twenty-one Bible leadership laws.
+  
+  {{< bible ref="Judges 7:2-25" >}}
+  - **A Test of Leadership Buy-In** - Three hundred followed Gideon's odd battle plan - belief in the leader carried the night.
+  {{< bible ref="Nehemiah 2:1-18" >}}
+  - **Buying into a Bold Vision** - Cupbearer's grief earned royal favor - then Jerusalem's wall vision landed.
+  {{< bible ref="Hebrews 3:1-15" >}}
+  - **Remaining Confident in Christ** - Fix eyes on Christ - do not harden hearts like the wilderness generation.
+examples:
+  - "The reorg failed until they trusted the new director - buy-in to her, then the roadmap."
+  - "Nehemiah's face showed grief before his mouth asked for leave - leader first, blueprint second."
+shareable_thought:
+  - "People buy into the leader, then the vision."
+  - "People buy the leader before the vision - trust the guide, then the map."
+  - "Level 1: Gideon's trimmed army still followed his jar-and-torch plan - buy-in to him, then the tactic."
+  - "Level 2: Nehemiah wept, prayed, then asked the king. Hebrews: fix eyes on Christ, do not harden hearts."
+relationships:
+  - type: extends
+    wikilink: "[[21 Laws of Leadership in the Bible]]"
+    reason: "Lesson 14 in the Bible leadership law series"
+  - type: extends
+    wikilink: "[[Follow Christ, Then Lead]]"
+    reason: "Hebrews fixes eyes on Christ before the room hardens"
+  - type: extends
+    wikilink: "[[Leadership Is Influence]]"
+    reason: "Gideon and Nehemiah - trust the leader, then the map"
+  - type: extends
+    wikilink: "[[Purpose and Vision]]"
+    reason: "Vision lands after belief in the guide"
+slug: "law-of-buy-in"
+date: "2026-07-31 14:00:00+08:00"
+image: "/images/note.jpg"
+categories: ["Faith"]
+author: "JoRap"
+tags: ["Faith", "Leadership", "Bible", "Discipleship"]
+aliases: ["law of buy-in", "the law of buy-in"]
+featured: false
+draft: false
+---

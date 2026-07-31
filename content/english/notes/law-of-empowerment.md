@@ -1,0 +1,48 @@
+---
+title: "Law of Empowerment"
+meta_title: "The Law of Empowerment - Only secure leaders give power to others"
+description: "Only secure leaders give power to others."
+key_concept: |
+  - Secure leaders delegate - insecure leaders hoard decisions until they break.
+  - Level 1: Jethro told Moses to appoint judges - one-man band was unsustainable.
+  - Level 2: Artaxerxes empowered Ezra. Jesus sent the twelve with authority and warned of cost.
+  - Level 3: [[Many Parts One Body]] - one body, many members; hoarding chokes the whole.
+  - Hub: [[21 Laws of Leadership in the Bible]] - lesson 12 of twenty-one Bible leadership laws.
+  
+  {{< bible ref="Exodus 18:13-26" >}}
+  - **Moses the One-Man Band** - Jethro's counsel - share the load or wear out leader and people.
+  {{< bible ref="Ezra 7:11-28" >}}
+  - **Ezra Is Empowered to Lead** - King's letter gave authority, silver, and safe passage - institutional empowerment.
+  {{< bible ref="Matthew 10:1-33" >}}
+  - **Jesus Empowers and Warns** - Sent twelve with power - and honest warning about rejection.
+examples:
+  - "I finally trained two leads to run standup without me - the team got faster the week I let go."
+  - "Moses stood from morning to night judging alone until Jethro intervened."
+shareable_thought:
+  - "Only secure leaders give power to others."
+  - "Secure leaders delegate - insecure leaders hoard decisions until they break."
+  - "Level 1: Jethro told Moses to appoint judges - one-man band was unsustainable."
+  - "Level 2: Artaxerxes empowered Ezra. Jesus sent the twelve with authority and warned of cost."
+relationships:
+  - type: extends
+    wikilink: "[[21 Laws of Leadership in the Bible]]"
+    reason: "Lesson 12 in the Bible leadership law series"
+  - type: extends
+    wikilink: "[[Many Parts One Body]]"
+    reason: "Jethro's judges - one body, many members with authority"
+  - type: extends
+    wikilink: "[[Servant Leadership]]"
+    reason: "Secure leaders delegate - insecure ones hoard decisions"
+  - type: extends
+    wikilink: "[[Share What You Learn]]"
+    reason: "Pass skill and authority down - do not hoard the mic"
+slug: "law-of-empowerment"
+date: "2026-07-31 14:00:00+08:00"
+image: "/images/note.jpg"
+categories: ["Faith"]
+author: "JoRap"
+tags: ["Faith", "Leadership", "Bible", "Discipleship"]
+aliases: ["law of empowerment", "the law of empowerment"]
+featured: false
+draft: false
+---

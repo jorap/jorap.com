@@ -31,6 +31,9 @@ relationships:
     wikilink: "[[Integrity Without an Audience]]"
     reason: "when public leadership substitutes for hidden walk with Christ"
   - type: extends
+    wikilink: "[[21 Laws of Leadership in the Bible]]"
+    reason: "Faith hub for horizontal leadership laws under vertical allegiance"
+  - type: extends
     wikilink: "[[Discipleship]]"
     reason: "Vertical seat - follow Jesus daily after faith"
   - type: extends

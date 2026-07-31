@@ -37,6 +37,9 @@ relationships:
     wikilink: "[[Free Grace]]"
     reason: "Cross-bearing costs something real after faith saves you - it does not earn eternal life"
   - type: extends
+    wikilink: "[[Law of Sacrifice]]"
+    reason: "Give up to go up - Paul waived rights in lesson 18"
+  - type: extends
     wikilink: "[[Present a Living Sacrifice]]"
     reason: "Daily death to self-will - body offered alive on the altar"
   - type: extends

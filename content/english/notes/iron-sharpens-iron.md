@@ -4,7 +4,7 @@ meta_title: "Iron Sharpens Iron - Friends Who Refine You"
 description: "Proverbs says iron sharpens iron - believers grow through honest friction with friends who love the Lord and you."
 key_concept: |
   {{< bible ref="Proverbs 27:17" emphasize="17" >}}
-
+  
   - Growth needs contact with someone who will push back - iron sharpens iron, not iron admiring iron from a safe distance.
   - Level 1: Like two knives on a stone - friction is the point; smooth flattery leaves you dull.
   - Level 2: Sharpening friends speak truth in love - not cruelty, not empty praise that leaves you unchanged.
@@ -39,6 +39,12 @@ relationships:
   - type: extends
     wikilink: "[[Give Useful Feedback]]"
     reason: "Feedback that lands is iron that actually sharpens"
+  - type: extends
+    wikilink: "[[Law of Respect]]"
+    reason: "Jonathan's loyalty to stronger future king"
+  - type: extends
+    wikilink: "[[Law of the Inner Circle]]"
+    reason: "Nathan and Hushai - counselors in the inner ring"
 slug: "iron-sharpens-iron"
 date: "2026-07-25 11:50:00+08:00"
 image: "/images/note.jpg"

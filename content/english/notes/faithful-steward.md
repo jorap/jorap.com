@@ -53,6 +53,9 @@ relationships:
     wikilink: "[[Judgment Seat]]"
     reason: "Stewardship accounts reviewed at the bema"
   - type: extends
+    wikilink: "[[Law of Legacy]]"
+    reason: "Succession is the final exam - David to Solomon"
+  - type: extends
     wikilink: "[[Secret Devotion]]"
     reason: "Hidden faithful use - Father sees, not the audience"
   - type: extends

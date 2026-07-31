@@ -13,40 +13,53 @@
 {{- else if and (not $jesusDb) (not $scriptureDb) -}}
   {{- warnf "bible shortcode on %q: scripture data not loaded" $page.RelPermalink -}}
 {{- else -}}
-  {{- $parts := split $ref " " -}}
-  {{- $loc := index $parts (sub (len $parts) 1) -}}
   {{- $book := "" -}}
-  {{- range $i, $p := $parts -}}
-    {{- if lt $i (sub (len $parts) 1) -}}
-      {{- $book = cond (eq $book "") $p (printf "%s %s" $book $p) -}}
+  {{- $chapter := "" -}}
+  {{- $refs := slice -}}
+  {{- $segments := slice $ref -}}
+  {{- if strings.Contains $ref "," -}}
+    {{- $segments = apply (split $ref ",") "strings.TrimSpace" "." -}}
+  {{- end -}}
+  {{- range $seg := $segments -}}
+    {{- $parts := split $seg " " -}}
+    {{- $loc := index $parts (sub (len $parts) 1) -}}
+    {{- $segBook := "" -}}
+    {{- range $i, $p := $parts -}}
+      {{- if lt $i (sub (len $parts) 1) -}}
+        {{- $segBook = cond (eq $segBook "") $p (printf "%s %s" $segBook $p) -}}
+      {{- end -}}
+    {{- end -}}
+    {{- if ne $segBook "" -}}
+      {{- $book = $segBook -}}
+    {{- end -}}
+    {{- if and (not (strings.Contains $loc ":")) $chapter -}}
+      {{- $loc = printf "%s:%s" $chapter $loc -}}
+    {{- end -}}
+    {{- if and $book $loc -}}
+      {{- if strings.Contains $loc "-" -}}
+        {{- $se := split $loc "-" -}}
+        {{- $left := index $se 0 -}}
+        {{- $right := index $se 1 -}}
+        {{- if strings.Contains $left ":" -}}
+          {{- $chapter = index (split $left ":") 0 -}}
+          {{- $vStart := int (index (split $left ":") 1) -}}
+          {{- $vEnd := int $right -}}
+          {{- if strings.Contains $right ":" -}}
+            {{- $vEnd = int (index (split $right ":") 1) -}}
+          {{- end -}}
+          {{- range $v := seq $vStart $vEnd -}}
+            {{- $refs = $refs | append (printf "%s %s:%d" $book $chapter $v) -}}
+          {{- end -}}
+        {{- end -}}
+      {{- else -}}
+        {{- $refs = $refs | append (printf "%s %s" $book $loc) -}}
+        {{- if strings.Contains $loc ":" -}}
+          {{- $chapter = index (split $loc ":") 0 -}}
+        {{- end -}}
+      {{- end -}}
     {{- end -}}
   {{- end -}}
   {{- $gospel := in (slice "Matthew" "Mark" "Luke" "John") $book -}}
-  {{- $refs := slice -}}
-  {{- $chapter := "" -}}
-  {{- if and $book $loc -}}
-    {{- if strings.Contains $loc "-" -}}
-      {{- $se := split $loc "-" -}}
-      {{- $left := index $se 0 -}}
-      {{- $right := index $se 1 -}}
-      {{- if strings.Contains $left ":" -}}
-        {{- $chapter = index (split $left ":") 0 -}}
-        {{- $vStart := int (index (split $left ":") 1) -}}
-        {{- $vEnd := int $right -}}
-        {{- if strings.Contains $right ":" -}}
-          {{- $vEnd = int (index (split $right ":") 1) -}}
-        {{- end -}}
-        {{- range $v := seq $vStart $vEnd -}}
-          {{- $refs = $refs | append (printf "%s %s:%d" $book $chapter $v) -}}
-        {{- end -}}
-      {{- end -}}
-    {{- else -}}
-      {{- $refs = $refs | append $ref -}}
-      {{- if strings.Contains $loc ":" -}}
-        {{- $chapter = index (split $loc ":") 0 -}}
-      {{- end -}}
-    {{- end -}}
-  {{- end -}}
   {{- $emphRefs := slice -}}
   {{- if and $emphasize $book $chapter -}}
     {{- range $e := split $emphasize "," -}}

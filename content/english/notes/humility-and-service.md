@@ -41,6 +41,12 @@ relationships:
     wikilink: "[[Gentleness]]"
     reason: "Humility and service is the garden echo for gospel gentleness"
   - type: extends
+    wikilink: "[[Law of Addition]]"
+    reason: "Mark 10 service definition - Abram and Paul cases in lesson 5"
+  - type: extends
+    wikilink: "[[Law of the Picture]]"
+    reason: "Jesus washed feet - example louder than speech"
+  - type: extends
     wikilink: "[[Leadership Is Influence]]"
     reason: "Kingdom greatness earns influence through serving, not grasping"
   - type: extends

@@ -38,6 +38,12 @@ relationships:
     wikilink: "[[Free Grace]]"
     reason: "Go and make disciples - mission flows from grace received"
   - type: extends
+    wikilink: "[[Law of Explosive Growth]]"
+    reason: "Make disciples who make disciples - lesson 20"
+  - type: extends
+    wikilink: "[[Law of Legacy]]"
+    reason: "Jesus chose twelve and sent nations - succession in lesson 21"
+  - type: extends
     wikilink: "[[Repent and Believe]]"
     reason: "Mission flows from believing the gospel - you teach obedience after faith, not to buy salvation"
   - type: extends

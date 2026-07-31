@@ -39,6 +39,9 @@ relationships:
   - type: extends
     wikilink: "[[Goodness]]"
     reason: "Let your light shine is the garden echo for gospel goodness"
+  - type: extends
+    wikilink: "[[Law of the Picture]]"
+    reason: "People do what people see - Josiah and Jesus modeled first"
 slug: "let-your-light-shine"
 date: "2026-06-19 09:00:00+00:00"
 image: "/images/note.jpg"

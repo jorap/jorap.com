@@ -27,6 +27,9 @@ relationships:
     wikilink: "[[Integrity Without an Audience]]"
     reason: "Workplace version of hidden honest work"
   - type: extends
+    wikilink: "[[Law of Solid Ground]]"
+    reason: "Trust foundation - Proverbs through 1 Peter in lesson 6"
+  - type: extends
     wikilink: "[[Own the Error]]"
     reason: "Integrity names the miss instead of hiding"
   - type: extends

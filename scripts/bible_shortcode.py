@@ -26,7 +26,7 @@ def _split_ref(ref: str) -> tuple[str, str]:
     return " ".join(parts[:-1]), parts[-1]
 
 
-def _verse_keys(book: str, loc: str) -> list[str]:
+def _loc_keys(book: str, loc: str) -> list[str]:
     if not book or not loc:
         return []
     if "-" in loc:
@@ -41,6 +41,30 @@ def _verse_keys(book: str, loc: str) -> list[str]:
             return []
         return [f"{book} {chapter}:{v}" for v in range(v_start, v_end + 1)]
     return [f"{book} {loc}"]
+
+
+def _verse_keys(ref: str) -> list[str]:
+    ref = ref.strip()
+    if not ref:
+        return []
+    segments = [s.strip() for s in ref.split(",")] if "," in ref else [ref]
+    book = ""
+    chapter = ""
+    keys: list[str] = []
+    for seg in segments:
+        parts = seg.split()
+        if len(parts) < 2:
+            continue
+        loc = parts[-1]
+        seg_book = " ".join(parts[:-1])
+        if seg_book:
+            book = seg_book
+        if ":" not in loc and chapter:
+            loc = f"{chapter}:{loc}"
+        keys.extend(_loc_keys(book, loc))
+        if ":" in loc:
+            chapter = loc.split(":", 1)[0]
+    return keys
 
 
 def _emphasis_keys(book: str, chapter: str, emphasize: str) -> set[str]:
@@ -91,10 +115,10 @@ def _render_bible(attrs: dict[str, str]) -> str:
         return ""
     label = (attrs.get("label") or ref).strip()
     show_cite = attrs.get("cite", "true").lower() != "false"
-    book, loc = _split_ref(ref)
-    keys = _verse_keys(book, loc)
+    keys = _verse_keys(ref)
     if not keys:
         return ""
+    book, loc = _split_ref(ref.split(",", 1)[0].strip())
     chapter = loc.split(":", 1)[0] if ":" in loc else ""
     emph = _emphasis_keys(book, chapter, attrs.get("emphasize", ""))
     parts: list[str] = []
@@ -132,6 +156,9 @@ def _self_check() -> None:
     assert "(John 3:16 NASB1995)" in out
     assert "present your bodies" in out.lower() or "bodies" in out.lower()
     assert "{{< bible" not in out
+    samson = expand_bible_shortcodes('{{< bible ref="Judges 16:1, 16:15-31" >}}')
+    assert "Samson" in samson
+    assert "(Judges 16:1, 16:15-31 NASB1995)" in samson
 
 
 if __name__ == "__main__":

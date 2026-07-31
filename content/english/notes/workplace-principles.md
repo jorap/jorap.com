@@ -65,6 +65,7 @@ draft: false
 
 - [[Leadership Is Influence]] - if nobody's following, you're just taking a walk - title optional
 - [[Servant Leadership]] - greatness is making the team win, not grabbing the credit
+- [[21 Laws of Leadership in the Bible]] - faith lane: scripture case studies for influence, service, and succession
 - [[Follow Christ, Then Lead]] - when leadership pressure and Christ's command collide, follow Christ first
 - [[Own Your Part]] - move your slice before permission arrives from upstairs
 - [[Know Your Lane]] - clarity on your slice beats hero coverage of every gap
@@ -108,6 +109,7 @@ draft: false
 | [[Leadership Is Influence]] | [[Leadership]] |
 | [[Servant Leadership]] | [[Humility and Service]] |
 | [[Follow Christ, Then Lead]] | [[Discipleship vs Leadership]] |
+| [[21 Laws of Leadership in the Bible]] | [[Discipleship vs Leadership]] |
 | [[Share What You Learn]] | [[Great Commission]] |
 | [[Integrity Without an Audience]] | [[Secret Devotion]] |
 | [[Success is Stewardship]] | [[Faithful Steward]] |

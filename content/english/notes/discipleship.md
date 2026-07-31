@@ -31,6 +31,9 @@ relationships:
     wikilink: "[[There Is No Perfect Solution]]"
     reason: "when you delay following until you have fixed yourself"
   - type: extends
+    wikilink: "[[21 Laws of Leadership in the Bible]]"
+    reason: "Scripture case-study hub for faithful influence"
+  - type: extends
     wikilink: "[[Christlikeness]]"
     reason: "Daily following produces His likeness over ordinary Tuesdays"
   - type: extends
@@ -63,6 +66,9 @@ relationships:
   - type: extends
     wikilink: "[[Kindness]]"
     reason: "Daily following is where kindness shows up with real people"
+  - type: extends
+    wikilink: "[[Law of Process]]"
+    reason: "Peter and Moses prove leadership grows in hidden years"
   - type: extends
     wikilink: "[[Loss of Reward]]"
     reason: "Lazy obedience may shrink reward - faith still saves"

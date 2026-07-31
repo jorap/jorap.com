@@ -4,7 +4,7 @@ meta_title: "Many Parts One Body - Different Gifts Same Christ"
 description: "The church is one body with many parts - different roles, same Head, no solo-body fantasy."
 key_concept: |
   {{< bible ref="1 Corinthians 12:12" emphasize="12" >}}
-
+  
   - I am not the whole body - Paul names many parts under one Christ so comparison and solo-hero ministry both miss the design.
   - Level 1: Like a team where one kid guards and another scores - the win needs every position, not five point guards.
   - Level 2: Different gifts serve the same Head - envy at another part is as silly as the foot wishing it were a hand.
@@ -33,6 +33,9 @@ relationships:
   - type: extends
     wikilink: "[[Invest in the Few]]"
     reason: "Depth with your people inside one part"
+  - type: extends
+    wikilink: "[[Law of Empowerment]]"
+    reason: "Jethro's judges - delegate so the body can move"
   - type: extends
     wikilink: "[[Pareto Principle]]"
     reason: "Your vital few gifts are not every gift"

@@ -48,6 +48,9 @@ relationships:
     wikilink: "[[Habit Stacking]]"
     reason: "Small repeats that stack - same compounding mechanic"
   - type: extends
+    wikilink: "[[Law of Big Mo]]"
+    reason: "Momentum multiplies effort - conquest streaks and Pentecost"
+  - type: extends
     wikilink: "[[Loss of Reward]]"
     reason: "Bad seasons shrink reward in the faith ledger - not proof salvation was never real"
   - type: extends
