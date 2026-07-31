@@ -60,11 +60,23 @@ import "./tailwindcss-shim.mjs";
 
 // Hugo on Windows resolves tailwindcss.cmd first and parses npm-style wrappers with
 // a relative path containing ".." or "node_modules" (see gohugoio/hugo common/hexec/exec.go).
+// The path must be "%~dp0\..\@tailwindcss\..." — a slash before ".." — or Hugo's
+// nodeEntryPointRe never matches and css.TailwindCSS fails with "not a Node.js script".
 const winCmdSource = [
   "@ECHO off",
   `REM ${SHIM_MARKER}`,
-  'node "%~dp0..\\@tailwindcss\\cli\\dist\\index.mjs" %*',
+  'node "%~dp0\\..\\@tailwindcss\\cli\\dist\\index.mjs" %*',
 ].join("\r\n") + "\r\n";
+
+// Mirrors gohugoio/hugo common/hexec/exec.go nodeEntryPointRe.
+const hugoNodeEntryPointRe =
+  /[/\\]((?:\.\.|node_modules)[/\\][\w@][\w@./\\-]*)/;
+
+function hugoExtractsCliEntry(cmdSource) {
+  const m = hugoNodeEntryPointRe.exec(cmdSource);
+  if (!m) return "";
+  return m[1].replace(/\\/g, "/");
+}
 
 const winPs1Source = `#!/usr/bin/env pwsh
 # ${SHIM_MARKER}
@@ -88,10 +100,13 @@ function isValidWinCmd(cmd) {
 
 function isFixed() {
   if (!readText(shimMjsPath).includes(SHIM_MARKER)) return false;
-  if (!readText(binPath).includes(SHIM_MARKER)) return false;
-  if (fs.existsSync(binPath) && fs.lstatSync(binPath).isSymbolicLink()) return false;
+  if (!isWindows && !readText(binPath).includes(SHIM_MARKER)) return false;
+  if (!isWindows && fs.existsSync(binPath) && fs.lstatSync(binPath).isSymbolicLink()) {
+    return false;
+  }
 
   if (isWindows) {
+    if (fs.existsSync(binPath)) return false;
     if (!isValidWinCmd(readText(winCmdPath))) return false;
     if (!readText(winPs1Path).includes(SHIM_MARKER)) return false;
     return true;
@@ -141,7 +156,9 @@ function applyFix() {
   writeExecutable(shimMjsPath, shimMjsSource);
 
   if (isWindows) {
-    writeExecutable(binPath, unixLauncherSource);
+    // Drop the extensionless stub — Hugo's LookPath prefers .cmd; a shebang file
+    // left in .bin is useless on Windows and can confuse tooling.
+    removeBinFile(binPath);
     writeExecutable(winCmdPath, winCmdSource);
     writeExecutable(winPs1Path, winPs1Source);
     if (!isValidWinCmd(readText(winCmdPath))) {
@@ -194,11 +211,11 @@ function selfCheck() {
   if (!winCmdSource.includes("\r\n")) {
     failures.push("winCmdSource must use CRLF line endings");
   }
-  if (
-    !winCmdSource.includes("@tailwindcss/cli/dist/index.mjs") &&
-    !winCmdSource.includes("@tailwindcss\\cli\\dist\\index.mjs")
-  ) {
-    failures.push("winCmdSource must reference @tailwindcss/cli for Hugo hexec");
+  const hugoEntry = hugoExtractsCliEntry(winCmdSource);
+  if (!hugoEntry.includes("@tailwindcss/cli/dist/index.mjs")) {
+    failures.push(
+      `winCmdSource must match Hugo nodeEntryPointRe; got ${hugoEntry || "no match"}`,
+    );
   }
 
   for (const [input, expected] of [

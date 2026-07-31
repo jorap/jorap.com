@@ -454,6 +454,11 @@ _**Agent (auto-low)**_
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && git ls-files .npmrc && git status --short .npmrc
 ```
+
+```
+.npmrc
+
+```
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -505,3 +510,1064 @@ _**Agent (auto-low)**_
 <summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/okf-viz/generate.py</summary>
 
 </details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The .npmrc file is tracked in git.
+
+The `?? .npmrc` status likely predates the file being added to git. Pnpm 11.7.0 appears to ignore `node-linker=hoisted`, possibly due to a version change or config key format. Local testing with `pnpm install` and inspection of `node_modules/.modules.yaml` should reveal the cause. The Windows failure in `fix-tailwind-bin` likely stems from common write permission issues.
+
+EACCES and EPERM are the likely Windows write failures. The outer try/catch suppresses these errors. `writeExecutable` needs forced removal with retries, read-only clearing on Windows, and explicit logging instead of silent warnings. On Windows, pnpm may regenerate `.bin` stubs after postinstall finishes.
+
+Postinstall runs after linking, so the `.bin` stubs should already exist before our script overwrites them. The selective failure—where `shimMjsPath` and `binPath` are written but `winCmdPath` is skipped—suggests `winCmdPath` may throw an `EPERM` error after the earlier writes succeed. The outer catch block would swallow this exception and only emit a warning, leaving the `.CMD` stub missing.
+
+The user confirmed the old `.cmd` stub remains on disk. A race condition is possible if pnpm still holds the file lock when Hugo runs `fix-tailwind-bin`. Node on Windows might also treat `tailwindcss.CMD` and `tailwindcss.cmd` as distinct paths.
+
+A concrete `removee` helper is being drafted: clear read-only permissions with `fs.chmodSync`, then force-remove the file using `fs.rmSync` with retries and delay. This should handle Windows file locks more reliably than a plain delete.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; cat node_modules/.modules.yaml 2&gt;/dev/null | head -20; ls -la node_modules/@pixi 2&gt;/dev/null | head -5; ls node_modules/eventemitter3 2&gt;/dev/null || echo &#34;no eventemitter3 at top level&#34;</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && cat node_modules/.modules.yaml 2>/dev/null | head -20; ls -la node_modules/@pixi 2>/dev/null | head -5; ls node_modules/eventemitter3 2>/dev/null || echo "no eventemitter3 at top level"
+```
+
+```
+{
+  "hoistedDependencies": {
+    "@parcel/watcher@2.5.1": {
+      "@parcel/watcher": "private"
+    },
+    "@tailwindcss/node@4.3.1": {
+      "@tailwindcss/node": "private"
+    },
+    "@tailwindcss/oxide@4.3.1": {
+      "@tailwindcss/oxide": "private"
+    },
+    "enhanced-resolve@5.21.6": {
+      "enhanced-resolve": "private"
+    },
+    "mri@1.2.0": {
+      "mri": "private"
+    },
+    "picocolors@1.1.1": {
+      "picocolors": "private"
+    },
+no eventemitter3 at top level
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
+<summary>Tool use: **web_search**</summary>
+
+Parameters:
+
+```json
+{
+  "searchTerm": "pnpm 11 node-linker hoisted not working .modules.yaml isolated"
+}
+```
+Result:
+
+```json
+{
+  "isFinal": true,
+  "references": [
+    {
+      "chunk": "Links:\n1. [feat: support nodeLinker: hoisted on fresh installs + add hoistingLimits setting](https://github.com/pnpm/pnpm/pull/12041)\n2. [Support nodeLinker: 'hoisted' — umbrella · Issue #438 · pnpm/pacquet](https://github.com/pnpm/pacquet/issues/438)\n3. [MISSING_HOISTED_LOCATIONS error thrown for skipped dependencies · Issue #6092 · pnpm/pnpm](https://github.com/pnpm/pnpm/issues/6092)\n4. [pacquet: support nodeLinker: hoisted on the fresh-lockfile install path](https://github.com/pnpm/pnpm/issues/11871)\n\nSynthesis:\nIf you encounter `MISSING_HOISTED_LOCATIONS` errors when using `node-linker=hoisted`, the issue is typically caused by inconsistencies in how dependencies are resolved or by specific dependencies (such as optional or peer dependencies) being excluded during the hoisting process.\n\nTo resolve this, ensure you are using a recent version of pnpm, as support for hoisted fresh installs and metadata persistence has been significantly improved. If the error persists, you can often bypass it by using pnpm overrides in your package.json to force a single, consistent version for the problematic dependency, which prevents version conflicts during the hoist pass. \n\nNote that `node-linker=hoisted` is known to have limitations with certain commands like `pnpm deploy` and specific workspace configurations. If you require full parity with flat, non-symlinked node_modules for deployment, ensure your project does not rely on features that expect the default isolated symlink structure.\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003efeat: support nodeLinker: hoisted on fresh installs + add hoistingLimits setting\u003c/title\u003e\n\u003curl\u003ehttps://github.com/pnpm/pnpm/pull/12041\u003c/url\u003e\n\u003ccontent\u003eCloses #11871. Until now pacquet's `Install::run` hard-refused `nodeLinker: hoisted` without a checked-in lockfile (`ERR_PNPM_…UNSUPPORTED_FRESH_INSTALL_NODE_LINKER`).\n...\
+… (output truncated)
+```
+User decision: **accepted**
+
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "scripts/**/*.py",
+  "pattern": "→|PYTHONIOENCODING|encoding="
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "→|PYTHONIOENCODING|encoding=",
+  "topFiles": [
+    {
+      "matchCount": 3,
+      "uri": "./scripts/slop-score.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./scripts/garden-voice-lint.py"
+    },
+    {
+      "matchCount": 2,
+      "uri": "./scripts/slop-lint.py"
+    },
+    {
+      "matchCount": 2,
+      "uri": "./scripts/bible_shortcode.py"
+    },
+    {
+      "matchCount": 6,
+      "uri": "./scripts/export-okf-bundle.py"
+    },
+    {
+      "matchCount": 5,
+      "uri": "./scripts/export-okf-blog-bundle.py"
+    },
+    {
+      "matchCount": 3,
+      "uri": "./scripts/okf_bundle.py"
+    },
+    {
+      "matchCount": 3,
+      "uri": "./scripts/lint-flashcard-frontmatter.py"
+    },
+    {
+      "matchCount": 3,
+      "uri": "./scripts/export-anki-deck.py"
+    },
+    {
+      "matchCount": 4,
+      "uri": "./scripts/normalize-notes-format.py"
+    },
+    {
+      "matchCount": 3,
+      "uri": "./scripts/bible-red-letter-mark.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./scripts/lint-randomizer.py"
+    },
+    {
+      "matchCount": 4,
+      "uri": "./scripts/notes-voice-lint.py"
+    },
+    {
+      "matchCount": 2,
+      "uri": "./scripts/lint-utility-wikilinks.py"
+    },
+    {
+      "matchCount": 2,
+      "uri": "./scripts/garden-health.py"
+    },
+    {
+      "matchCount": 7,
+      "uri": "./scripts/okf-viz/generate.py"
+    },
+    {
+      "matchCount": 3,
+      "uri": "./scripts/normalize-blog-frontmatter.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./scripts/lint-notes-frontmatter.py"
+    },
+    {
+      "matchCount": 2,
+      "uri": "./scripts/audit-flashcard-north-star.py"
+    },
+    {
+      "matchCount": 3,
+      "uri": "./scripts/import-from-obsidian.py"
+    }
+  ],
+  "totalFiles": 23,
+  "totalMatches": 74
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Checking node_modules/.modules.yaml for the nodeLinker field on Linux.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/node_modules/.modules.yaml",
+  "pattern": "nodeLinker"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/node_modules/.modules.yaml",
+  "pattern": "nodeLinker",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; ls node_modules/earcut node_modules/ismobilejs node_modules/@pixi/colord 2&gt;&amp;1; ls node_modules/.pnpm/eventemitter3* 2&gt;/dev/null | head -3</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && ls node_modules/earcut node_modules/ismobilejs node_modules/@pixi/colord 2>&1; ls node_modules/.pnpm/eventemitter3* 2>/dev/null | head -3
+```
+
+```
+ls: cannot access 'node_modules/earcut': No such file or directory
+ls: cannot access 'node_modules/ismobilejs': No such file or directory
+ls: cannot access 'node_modules/@pixi/colord': No such file or directory
+node_modules
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/pnpm-lock.yaml",
+  "pattern": "nodeLinker|node-linker"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/pnpm-lock.yaml",
+  "pattern": "nodeLinker|node-linker",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Noticing that eventemitter3, earcut, and other dependencies are present even on Linux in this workspace.
+
+Investigating why Linux builds succeed despite these dependencies being nested under pixi.js rather than top-level. Will inspect the pixi.js node_modules structure, verify local Hugo builds, and review .modules.yaml for nodeLinker configuration.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/node_modules/.modules.yaml</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; ls node_modules/pixi.js/node_modules 2&gt;/dev/null | head -20; find node_modules -maxdepth 3 -name &#39;eventemitter3&#39; -type d 2&gt;/dev/null | head -5</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && ls node_modules/pixi.js/node_modules 2>/dev/null | head -20; find node_modules -maxdepth 3 -name 'eventemitter3' -type d 2>/dev/null | head -5
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "**/*.{js,ts,html}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "notes-graph|pixi"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "notes-graph|pixi",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "layouts/notes/single.html"
+    },
+    {
+      "matchCount": 19,
+      "uri": "layouts/notes/graph.html"
+    }
+  ],
+  "totalFiles": 2,
+  "totalMatches": 100
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The local Linux install also lacks eventemitter3 at the top level.
+
+The user's Windows .modules.yaml shows `nodeLinker: "isolated"` despite `.npmrc` specifying hoisted. On Linux, dependencies may still be nested even if hoisted. I will read the full `.modules.yaml` from the start.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/node_modules/.modules.yaml</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; hugo version 2&gt;/dev/null; timeout 90 hugo --gc --minify 2&gt;&amp;1 | rg -i &#34;js\.Build|error|pixi|Could not resolve&#34; || echo &#34;no js errors in grep&#34;</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && hugo version 2>/dev/null; timeout 90 hugo --gc --minify 2>&1 | rg -i "js\.Build|error|pixi|Could not resolve" || echo "no js errors in grep"
+```
+
+```
+hugo v0.163.3-4d22555aebf458d5d150500c9ac4bee5b24cf0d3+extended linux/amd64 BuildDate=2026-06-18T16:18:24Z VendorInfo=gohugoio
+no js errors in grep
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "public-hoist|shamefully-hoist|hoist-pattern"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "public-hoist|shamefully-hoist|hoist-pattern",
+  "topFiles": [
+    {
+      "matchCount": 3,
+      "uri": ".specstory/history/2026-07-31_09-10-41Z-windows-deployment-issues.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 3
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Hugo builds correctly on Linux even without top-level eventemitter3.
+
+Linux likely resolves hoisted dependencies through symlinks that Windows cannot follow. The isolated node linker on Windows suggests `.npmrc` was either missing during install or overridden by user-level settings. A stale lockfile could also force the isolated layout.
+
+Checking whether pnpm-lock.yaml stores the nodeLinker setting.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/pnpm-lock.yaml</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm config get node-linker 2&gt;/dev/null; pnpm config list 2&gt;/dev/null | rg -i &#34;linker|hoist&#34;</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && pnpm config get node-linker 2>/dev/null; pnpm config list 2>/dev/null | rg -i "linker|hoist"
+```
+
+```
+undefined
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-graph.js</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+`pnpm config get node-linker` returned undefined despite the `.pnpm` directory existing.
+
+Linux builds succeed without pixi errors. The `.modules.yaml` shows `hoistedDependencies`, suggesting hoisted mode is active there. Windows appears to use isolated mode instead.
+
+`.npmrc` is untracked on Windows, so pnpm may not be picking it up. The fix should commit `.npmrc` and add `nodeLinker: hoisted` directly to `pnpm-workspace.yaml`.
+
+Placing `nodeLinker: hoisted` inside `package.json` is more reliable than `.npmrc` because it lives in the repository and is always present. Adding direct `devDependencies` for transitive packages that Hugo cannot resolve is another fallback. Pre-bundling `notes-graph.js` with esbuild before Hugo would be the most robust cross-platform solution.
+
+`nodeLinker: hoisted` can be set in both `.npmrc` and `pnpm-workspace.yaml`. To fix the Windows `fix-tailwind-bin` failure, `writeExecutable` needs to use `fs.rmSync` with `force` and `maxRetries`, plus `chmod` before `unlink` on Windows.
+
+Silent error catching in `applyFix` should be replaced with logging. The Windows `.cmd` shim currently invokes `node` with a relative path containing `..`, which may be intentional for Hugo's hexec parser. I am checking the file comments to confirm how hexec handles these paths.
+
+Hugo's Windows hexec parser specifically requires `..` or `node_modules` in the wrapper path to resolve npm-style wrappers correctly. The current `.cmd` shim uses a relative path with `..` that assumes a hoisted layout, so it will fail under isolated linking. A different approach is needed for isolated layouts.
+
+A `--verify` mode should be added to `fix-tailwind-bin` to validate files on disk. `generate.py` needs ASCII arrows or stdout reconfiguration to avoid encoding errors. `spawnUtil.mjs` should set `PYTHONIOENCODING=utf-8` for child processes. The Windows `writeExecutable` failure may be caused by `fs.writeFileSync` with `mode: 0o755`, which does not behave correctly on Windows.
+
+Uppercase `.CMD` versus lowercase `.cmd` is unlikely to be the cause, since Windows treats them as identical. Antivirus or file-lock interference during postinstall could explain the failure, though `maxRetries` would help there. The script may have written successfully yet still report `isFixed` as false if the validation logic expects a specific path format or marker. I am now inspecting `isValidWinCmd` to see exactly what it checks.
+
+`isValidWinCmd` matches the exact backslash path `@tailwindcss\\cli\\dist\\index.mjs` used in `winCmdSource`. A silent write failure would leave the original 900-byte pnpm wrapper on disk, which lacks the `SHIM_MARKER` and causes `isFixed` to return false. I am also checking whether `applyFix` exits early on Windows before writing the executable.
+
+The Windows `writeExecutable` call might throw after successfully writing the Unix launcher, leaving the `.cmd` stub untouched. A more likely culprit is pnpm marking the generated stubs as read-only; `fs.unlinkSync` fails on read-only files on Windows, which would explain why the fix never lands on disk.
+
+A robust `replaceFile` helper will clear read-only attributes before unlinking on Windows, then fall back to `fs.rmSync` with force. Both `.npmrc` and `package.json` will be kept, since the latter is always present in the repository.
+
+A self-check inside `deployBuild` will verify the pnpm layout. It will inspect `node_modules/.modules.yaml` for `nodeLinker: "isolated"` and confirm `pixi.js` exists. This keeps the fix minimal.
+
+A broad isolated-linker check is too blunt. On Linux the hoisted layout may lack top-level pixi dependencies too, yet builds succeed. A targeted test resolving a specific pixi transitive dependency from the project root is safer. For Windows, pnpm’s `public-hoist-pattern` option could hoist pixi and its dependencies directly into `node_modules`, bypassing the isolated linker issue entirely.
+
+`export-okf-bundle.py` also needs `encoding="utf-8"` passed to `subprocess.run`. For `generate.py`, replacing the Unicode arrow `→` with ASCII `->` is simpler than reconfiguring stdout encoding.
+
+Adding `PYTHONIOENCODING=utf-8` to the environment in `spawnUtil.mjs` centralizes the fix for all Python scripts. Passing `encoding="utf-8"` with `text=True` to `subprocess.run` is the correct pattern for capturing output on Windows. Other `subprocess.run` calls using `text=True` without explicit encoding should be audited for the same issue.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "**/*.py",
+  "pattern": "subprocess\\.(run|Popen|check_output)"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "subprocess\\.(run|Popen|check_output)",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "scripts/garden-health.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/export-okf-bundle.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/okf_bundle.py"
+    }
+  ],
+  "totalFiles": 3,
+  "totalMatches": 3
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/README.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; corepack pnpm config get node-linker 2&gt;&amp;1; rg &#34;nodeLinker&#34; node_modules/.modules.yaml 2&gt;/dev/null || echo &#34;no nodeLinker in modules.yaml&#34;</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && corepack pnpm config get node-linker 2>&1; rg "nodeLinker" node_modules/.modules.yaml 2>/dev/null || echo "no nodeLinker in modules.yaml"
+```
+
+```
+node:fs:1370
+  const result = binding.mkdir(
+                         ^
+
+Error: EACCES: permission denied, mkdir '/home/jorap/.cache/node/corepack/v1'
+    at mkdirSync (node:fs:1370:26)
+    at getTemporaryFolder (/home/jorap/.local/share/mise/installs/node/22.22.3/lib/node_modules/corepack/dist/lib/corepack.cjs:21953:27)
+    at download (/home/jorap/.local/share/mise/installs/node/22.22.3/lib/node_modules/corepack/dist/lib/corepack.cjs:22288:21)
+    at installVersion (/home/jorap/.local/share/mise/installs/node/22.22.3/lib/node_modules/corepack/dist/lib/corepack.cjs:22386:61)
+    at async Engine.ensurePackageManager (/home/jorap/.local/share/mise/installs/node/22.22.3/lib/node_modules/corepack/dist/lib/corepack.cjs:22899:32)
+    at async Engine.executePackageManagerRequest (/home/jorap/.local/share/mise/installs/node/22.22.3/lib/node_modules/corepack/dist/lib/corepack.cjs:23010:25)
+    at async Object.runMain (/home/jorap/.local/share/mise/installs/node/22.22.3/lib/node_modules/corepack/dist/lib/corepack.cjs:23710:7) {
+  errno: -13,
+  code: 'EACCES',
+  syscall: 'mkdir',
+  path: '/home/jorap/.cache/node/corepack/v1'
+}
+
+Node.js v22.22.3
+  "nodeLinker": "isolated",
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+`.modules.yaml` contains `"nodeLinker": "isolated"` even on Linux. This explains why pnpm generates isolated node_modules paths on Windows.
+
+`.npmrc` specifies hoisted linking, yet it is ignored on this machine. Linux resolves symlinks in the isolated layout, but Windows cannot. Need to find why `.npmrc` is not respected.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "contextAfter": 2,
+  "contextBefore": 2,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/node_modules/.modules.yaml",
+  "pattern": "nodeLinker"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/node_modules/.modules.yaml",
+  "pattern": "nodeLinker",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; which pnpm; pnpm -v 2&gt;/dev/null; cat .npmrc; ls -la .npmrc</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && which pnpm; pnpm -v 2>/dev/null; cat .npmrc; ls -la .npmrc
+```
+
+```
+/home/jorap/.local/share/mise/installs/pnpm/latest/pnpm
+11.7.0
+# Flat node_modules so Hugo js.Build (esbuild) resolves pixi.js transitive deps on Windows.
+# Tailwind is handled by scripts/fix-tailwind-bin.js (not prefer-symlinked-executables).
+node-linker=hoisted
+-rw-rw-r-- 1 root root 201 Jul 31 17:30 .npmrc
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+A discrepancy appeared between grep and ripgrep: the former found no `nodeLinker` entry in `.modules.yaml`, while the latter located `"nodeLinker": "isolated"`.
+
+The isolated node linker is active despite `.npmrc` requesting hoisted. This means `.npmrc` is not being applied. The next step is to check the effective node linker setting and reinstall `node_modules` to test hoisting.
+
+A clean reinstall confirmed isolated linking persists, so `.npmrc` is likely ignored. The pnpm 11 documentation confirms `node-linker=hoisted` is the correct syntax. A global `.npmrc` might be overriding the setting. Adding `nodeLinker: hoisted` under a `pnpm` key in `package.json` could force hoisting instead.
+
+I will first verify the effective node-linker setting with `pnpm config get node-linker` inside the project directory. Then I will add `nodeLinker: hoisted` to `package.json` and reinstall `node_modules` to test whether hoisting takes effect.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm config get node-linker &amp;&amp; rg &#39;&#34;nodeLinker&#34;&#39; node_modules/.modules.yaml</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && pnpm config get node-linker && rg '"nodeLinker"' node_modules/.modules.yaml
+```
+
+```
+undefined
+  "nodeLinker": "isolated",
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
+<summary>Tool use: **web_search**</summary>
+
+Parameters:
+
+```json
+{
+  "searchTerm": "pnpm 11 package.json pnpm nodeLinker hoisted"
+}
+```
+Result:
+
+```json
+{
+  "isFinal": true,
+  "references": [
+    {
+      "chunk": "Links:\n1. [package.json | pnpm](https://pnpm.io/package_json)\n2. [pnpm 11](https://github.com/pnpm/pnpm/releases/tag/v11.0.0)\n3. [Migrating from v10 to v11 | pnpm](https://pnpm.io/migration)\n4. [pnpm 11.5 | pnpm](https://pnpm.io/blog/releases/11.5)\n5. [pnpm11/installing/linking/real-hoist/src/index.ts](https://github.com/pnpm/pnpm/blob/main/pnpm11/installing/linking/real-hoist/src/index.ts)\n\nSynthesis:\nIn pnpm version 11, you cannot configure the nodeLinker setting within package.json. You must define it in pnpm-workspace.yaml [1][2][3].\n\nTo enable a flat node_modules structure, add the following to your pnpm-workspace.yaml file:\n\nnodeLinker: hoisted\n\nWhen using this setting, you can also control the extent of hoisting via the hoistingLimits option in the same file [4][5]:\n\nhoistingLimits: none # (Default) Hoists as far as possible\nhoistingLimits: workspaces # Hoists only as far as each workspace package\nhoistingLimits: dependencies # Hoists only up to direct dependencies\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003epackage.json | pnpm\u003c/title\u003e\n\u003curl\u003ehttps://pnpm.io/package_json\u003c/url\u003e\n\u003ccontent\u003epackage.json | pnpm\n...\nVersion: 11.x\n...\nThe manifest file of a package. It contains all the package's metadata, including dependencies, title, author, et cetera. This is a standard preserved across all major Node.js package managers, including pnpm.\n...\nIn addition to the traditional`package.json` format, pnpm also supports`package.json5`(via json5) and`package.yaml`(via js-yaml).\n...\nSince v11, pnpm no longer reads settings from the`pnpm` field of`package.json`. Settings must be defined in`pnpm-workspace.yaml` instead. See Configuring.\n...\nAllows specifying the pnpm version via`devEngines.packageManager` in`package.json`. Unlike the`packageManager` field, this supports version ranges. The resolved version is stored in`pnpm-lock.ya
+… (output truncated)
+```
+User decision: **accepted**
+
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+pnpm 11 no longer reads the `node-linker` setting from `.pnpm/config.json`. This explains why the isolated node_modules layout breaks on Windows.
+
+The `nodeLinker` setting must be moved to `pnpm-workspace.yaml` as `nodeLinker: hoisted`. This explains why `.npmrc` still claims `hoisted` while `.modules.yaml` shows `isolated`, and why `pnpm config get node-linker` returns `undefined`. A clean reinstall still produces the isolated layout because pnpm 11 ignores the old config file. The fix is to add `nodeLinker: hoisted` to `pnpm-workspace.yaml` and either update `.npmrc` to reference the workspace file or remove the ineffective legacy setting.
+
+A comment will be added to `.npmrc` explaining that the `node-linker` setting moved to `pnpm-workspace.yaml` for pnpm 11.
+
+Seven fixes are planned:
+
+- Add `nodeLinker: hoisted` to `pnpm-workspace.yaml`.
+- Update `.npmrc` to reference the workspace file or remove the legacy line.
+- Harden `writeExecutable` in `fix-tailwind-bin.js` against Windows read-only files and improve error handling.
+- Add `encoding="utf-8"` to `okf_bundle.py` and `export-okf-bundle.py`.
+- Set `PYTHONIOENCODING=utf-8` in `spawnUtil.mjs` for `runPython`.
+
+`generate.py` should use `->` instead of `→` for better Windows compatibility. The README and TROUBLESHOOTING docs need updating to reference `pnpm-workspace.yaml` rather than `.npmrc`. After applying the fixes, `node_modules` must be deleted and the project reinstalled. `fix-tailwind-bin.js` will be hardened further by changing permissions before unlinking on Windows. The `winCmd` path for `@tailwindcss/cli` must be verified against the hoisted layout. A test run of `pnpm install` with the updated workspace YAML is planned.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Root cause: pnpm 11 ignores `node-linker` in `.npmrc` — it must live in `pnpm-workspace.yaml`. Implementing fixes across the repo.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/okf_bundle.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/export-okf-bundle.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Implementing the fixes now. Testing pnpm install with the hoisted linker.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/pnpm-workspace.yaml</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.npmrc</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/okf_bundle.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/export-okf-bundle.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/okf-viz/generate.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/spawnUtil.mjs</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Fixing fix-tailwind-bin.js to resolve Windows write failures.
+
+Adding robust file removal and writing to fix-tailwind-bin.js. Errors will propagate instead of being silently caught. README and TROUBLESHOOTING docs will be updated for pnpm-workspace.yaml.
+
+Replacing fragile content comparison with a SHIM_MARKER check after writing. The outer catch block will be narrowed: warnings for missing @tailwindcss/cli, throws for write failures.
+
+Using process.exit(1) instead of just setting exitCode, because deployBuild loads the script via require() and would otherwise continue silently. Production builds will abort immediately on failure.
+
+A Windows-specific validation step will be added after writing the shim file to ensure it is a valid CMD executable.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/fix-tailwind-bin.js</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/fix-tailwind-bin.js</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/fix-tailwind-bin.js</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/README.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/README.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/README.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/docs/TROUBLESHOOTING.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Reinstalling node_modules with the hoisted linker to verify.
+
+Confirmed the hoisted node linker, top-level eventemitter3, and fix-tailwind-bin self-check pass. Hugo builds successfully.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Verifying hoisted install and running self-checks:
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; rm -rf node_modules &amp;&amp; pnpm install 2&gt;&amp;1 | tail -20</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && rm -rf node_modules && pnpm install 2>&1 | tail -20
+```
+
+```
+✓ Lockfile passes supply-chain policies (verified 40d ago)
+Lockfile is up to date, resolution step is skipped
+Packages: +82
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Progress: resolved 0, reused 1, downloaded 0, added 0
+Progress: resolved 0, reused 82, downloaded 0, added 82, done
+
+. postinstall$ node scripts/fix-tailwind-bin.js
+. postinstall: Done
+Done in 411ms using pnpm v11.7.0
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Installation succeeded. Now verifying nodeLinker and top-level dependencies.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; rg &#39;&#34;nodeLinker&#34;&#39; node_modules/.modules.yaml; ls node_modules/eventemitter3 node_modules/earcut node_modules/@pixi/colord 2&gt;&amp;1 | head -10; node scripts/fix-tailwind-bin.js --self-check</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && rg '"nodeLinker"' node_modules/.modules.yaml; ls node_modules/eventemitter3 node_modules/earcut node_modules/@pixi/colord 2>&1 | head -10; node scripts/fix-tailwind-bin.js --self-check
+```
+
+```
+  "nodeLinker": "hoisted",
+node_modules/earcut:
+dist
+LICENSE
+package.json
+README.md
+src
+
+node_modules/eventemitter3:
+dist
+index.d.ts
+fix-tailwind-bin self-check OK
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Hoisted layout works. Running a Hugo build test and fixing the Tailwind binary command file.
+
+Self-check passed. No dedicated test exists for fix-tailwind-bin.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; timeout 90 hugo --gc --minify 2&gt;&amp;1 | rg -i &#34;error|Could not resolve|js\.Build&#34; || echo &#34;build OK&#34;</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && timeout 90 hugo --gc --minify 2>&1 | rg -i "error|Could not resolve|js\.Build" || echo "build OK"
+```
+
+```
+build OK
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+File not found
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+On Linux, tailwindcss.cmd does not exist, which is expected since it is Windows-only.
+
+A test script verifying nodeLinker hoisting is unnecessary. The docs update should suffice. A README note about the pnpm 11 migration may be added. The empty .npmrc file should be deleted entirely, since its settings have moved to pnpm-workspace.yaml.
+
+Keeping a comment-only .npmrc file for migration hints, since git tracks it and documentation may reference it. Deleting node_modules is required for the pnpm 11 migration.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Your diagnosis was right on all four issues. The pnpm hoisting one had a specific root cause that explains why a clean reinstall still produced `isolated`.
+
+## Root cause: pnpm 11 config location
+
+**pnpm 11 no longer reads `node-linker` from `.npmrc`.** That setting must live in `pnpm-workspace.yaml`. Your `.npmrc` had the right value, but pnpm ignored it — which is why `.modules.yaml` still showed `"nodeLinker": "isolated"` after reinstall.
+
+Verified locally after the fix:
+- `"nodeLinker": "hoisted"` in `.modules.yaml`
+- `eventemitter3`, `earcut`, etc. at top-level `node_modules/`
+- Hugo build passes
+
+## Fixes applied
+
+| Issue | Fix |
+|-------|-----|
+| **Error 1** — Python `UnicodeEncodeError` on `→` | `spawnUtil.mjs` sets `PYTHONIOENCODING=utf-8`; `generate.py` uses ASCII `->` |
+| **Error 1b** — subprocess decode on Windows | `encoding="utf-8"` in `okf_bundle.py` and `export-okf-bundle.py` |
+| **Error 2** — isolated layout / Pixi resolve | `nodeLinker: hoisted` in `pnpm-workspace.yaml` |
+| **Error 3** — `tailwindcss.cmd` not overwritten | `removeBinFile()` chmods before `rmSync` (Windows read-only stubs); post-write validation; `process.exit(1)` on failure |
+
+Docs updated in `README.md` and `docs/TROUBLESHOOTING.md` to point at `pnpm-workspace.yaml` instead of `.npmrc`.
+
+## What to do on Windows
+
+```powershell
+git pull
+Remove-Item -Recurse -Force node_modules
+pnpm install
+node scripts/fix-tailwind-bin.js --self-check
+pnpm run deploy
+```
+
+The `node_modules` delete is required — an existing isolated layout will not migrate on its own.
+
+After `pnpm install`, confirm:
+- `node_modules\.modules.yaml` contains `"nodeLinker": "hoisted"`
+- `node_modules\.bin\tailwindcss.cmd` is ~3 lines with `fix-tailwind-bin-shim`, not pnpm’s 900-byte wrapper
+
+`PYTHONIOENCODING=utf-8` should no longer be needed manually, but it won’t hurt if you already have it set.
+
+## Session close
+- Fixed: pnpm 11 hoisting (`pnpm-workspace.yaml`), Windows Tailwind shim writes, Python UTF-8 subprocess/stdout handling
+- Encode: none (pnpm 11 migration is now documented in README/TROUBLESHOOTING)
+- Open: clean — re-test on Windows after `git pull` + fresh `pnpm install`
+
+---
+
+_**User**_
+
+update readme for this:
+What to do on Windows
+git pull
+Remove-Item -Recurse -Force node_modules
+pnpm install
+node scripts/fix-tailwind-bin.js --self-check
+pnpm run deploy
+The node_modules delete is required — an existing isolated layout will not migrate on its own.
+
+After pnpm install, confirm:
+
+node_modules\.modules.yaml contains "nodeLinker": "hoisted"
+node_modules\.bin\tailwindcss.cmd is ~3 lines with fix-tailwind-bin-shim, not pnpm’s 900-byte wrapper
+PYTHONIOENCODING=utf-8 should no longer be needed manually, but it won’t hurt if you already have it set.
+
+
+
+---
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Updating the README with the Windows recovery steps.
+
+Reviewing the existing Windows section to integrate the new steps.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/README.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The Windows recovery steps need to be added to the README.
+
+The scattered Windows recovery bullets will be consolidated into a single "What to do on Windows" subsection. The overlapping PowerShell verification block will be merged into this flow. The symptom table will remain.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/README.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/README.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The README has been updated with the Windows deployment instructions. This is a documentation-only change.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Updated the Windows section in `README.md` with:
+
+- A **What to do on Windows** block: `git pull` → delete `node_modules` → `pnpm install` → self-check → deploy
+- A note that isolated layouts won’t migrate without deleting `node_modules`
+- Post-install checks for `.modules.yaml` and `tailwindcss.cmd`
+- The `PYTHONIOENCODING` note
+- Symptom table rows pointing at that section instead of repeating steps
+
+## Session close
+- Fixed: README Windows recovery steps for hoisted pnpm + Tailwind shim
+- Encode: none
+- Open: clean

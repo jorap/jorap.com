@@ -133,7 +133,8 @@ pnpm run deploy
 After `pnpm install`, confirm:
 
 - `node_modules\.modules.yaml` contains `"nodeLinker": "hoisted"`
-- `node_modules\.bin\tailwindcss.cmd` is ~3 lines with `fix-tailwind-bin-shim`, not pnpm’s 900-byte wrapper
+- `node_modules\.bin\tailwindcss.cmd` is ~3 lines with `fix-tailwind-bin-shim` and `%~dp0\..\@tailwindcss\cli\dist\index.mjs` (not pnpm’s 900-byte wrapper)
+- `node_modules\.bin\tailwindcss` (no extension) should **not** exist — Windows uses `.cmd` only
 
 `PYTHONIOENCODING=utf-8` is no longer required (scripts set UTF-8 for Python), but leaving it set is harmless.
 

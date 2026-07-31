@@ -69,7 +69,7 @@ Cloudflare may not have Hugo on PATH. This repo pins via [`scripts/deploy-versio
 
 Dev uses `pnpm dev` (Tailwind watch + Hugo). Production runs the same pipeline in `scripts/deployBuild.mjs`. Run `pnpm run deploy` locally to reproduce CI failures.
 
-**`binary "tailwindcss" is not a Node.js script` (common on Windows + pnpm):** run `node scripts/fix-tailwind-bin.js` after `pnpm install`. On Windows, Hugo resolves `tailwindcss.cmd` first; the shim must point at `..\@tailwindcss\cli\dist\index.mjs` in a form Hugo’s wrapper parser understands.
+**`binary "tailwindcss" is not a Node.js script` (common on Windows + pnpm):** run `node scripts/fix-tailwind-bin.js` after `pnpm install`. On Windows, Hugo parses `tailwindcss.cmd` and requires a `\..\@tailwindcss\cli\dist\index.mjs` path (slash before `..`); the postinstall shim writes that wrapper and removes the extensionless `.bin` stub.
 
 **`js.Build failed: Could not resolve "@pixi/…"` (common on Windows):** pnpm’s default nested `node_modules` layout breaks Hugo’s esbuild for PixiJS. This repo sets `nodeLinker: hoisted` in [`pnpm-workspace.yaml`](../pnpm-workspace.yaml) (pnpm 11+ no longer reads `node-linker` from `.npmrc`). Delete `node_modules` and run `pnpm install` after pulling; reinstall if errors persist.
 
