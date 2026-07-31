@@ -6,49 +6,165 @@ Personal blog and digital garden at [www.jorap.com](https://www.jorap.com). Buil
 
 ## Requirements
 
-Versions are pinned in [`scripts/deploy-versions.json`](scripts/deploy-versions.json). Local dev typically uses [mise](https://mise.jdx.dev/) (see [`.mise.toml`](.mise.toml)).
+Versions are pinned in [`scripts/deploy-versions.json`](scripts/deploy-versions.json).
 
-| Tool | Version |
-|------|---------|
-| Hugo Extended | 0.163.3 |
-| Node.js | 22+ |
-| pnpm | 11.7.0 |
-| Go | 1.24+ |
-| Python | 3.8+ (deploy + garden lint/export scripts) |
+| Tool | Version | Used for |
+|------|---------|----------|
+| Hugo **Extended** | 0.163.3 | Site build (Tailwind via `css.TailwindCSS`) |
+| Node.js | 22.22.2+ | Scripts, Tailwind CLI, wrangler |
+| pnpm | 11.7.0 | Dependencies (`packageManager` in `package.json`) |
+| Go | 1.24+ | Hugo modules |
+| Python | 3.8+ | Deploy OKF export, garden lint/export scripts |
+| Git | any recent | Clone, hooks, CMS |
 
-## Platforms (Windows, Linux, macOS)
+All `package.json` scripts run through Node — no Bash-only entry points.
 
-All `package.json` scripts run through Node — no Bash-only entry points. Use PowerShell, cmd, or Git Bash on Windows; any shell on Linux and macOS.
+## Local setup
 
-| Concern | How this repo handles it |
-|---------|--------------------------|
-| Toolchain | [mise](https://mise.jdx.dev/) + [`.mise.toml`](.mise.toml) installs Hugo, Node, Go, and pnpm on all three OSes (`mise install`) |
-| Python scripts | `node scripts/runPython.mjs` resolves `python3`, `python`, or Windows `py -3`; set `PYTHON` to override |
-| Local binaries | `spawnUtil.mjs` finds `node_modules/.bin` shims (`.cmd` on Windows) |
-| Tailwind + Hugo | `postinstall` symlinks or copies `tailwindcss` when Windows blocks symlinks |
-| Git hooks | `pnpm setup:hooks` — pure Node, no `sh` required |
-| Filename lint | `pnpm lint:filenames` / `pnpm test:filenames` — pure Node, no Python or shell |
-
-More troubleshooting: [`docs/TROUBLESHOOTING.md`](docs/TROUBLESHOOTING.md#local-dev).
-
-## Quick start
+### 1. Clone the repo
 
 ```bash
 git clone https://github.com/jonathanrapusas/jorap.com.git
 cd jorap.com
-mise install          # optional — pinned Hugo, Node, Go, pnpm
+```
+
+### 2. Install the toolchain
+
+**Recommended on Linux, macOS, and Windows:** [mise](https://mise.jdx.dev/) reads [`.mise.toml`](.mise.toml) and installs pinned Hugo Extended, Node, Go, and pnpm.
+
+<details>
+<summary><strong>Linux</strong></summary>
+
+**mise (recommended)**
+
+```bash
+# Install mise — see https://mise.jdx.dev/getting-started.html
+curl https://mise.run | sh
+# Restart your shell, then:
+cd jorap.com
+mise trust
+mise install
+```
+
+**Manual installs** (if you skip mise)
+
+| Tool | Example |
+|------|---------|
+| Hugo Extended | [GitHub releases](https://github.com/gohugoio/hugo/releases) (`hugo_extended_*_linux-amd64.tar.gz` or `arm64`) |
+| Node 22 | [nodejs.org](https://nodejs.org/) or your distro package manager |
+| pnpm 11 | `corepack enable && corepack prepare pnpm@11.7.0 --activate` |
+| Go 1.24+ | [go.dev/dl](https://go.dev/dl/) or `sudo apt install golang-go` |
+| Python 3.8+ | Usually `python3` via `sudo apt install python3` |
+
+Use any shell (bash, zsh, fish). Open a **new terminal** in the repo so `mise` shims are on `PATH`.
+
+</details>
+
+<details>
+<summary><strong>macOS</strong></summary>
+
+**mise (recommended)**
+
+```bash
+brew install mise          # or: curl https://mise.run | sh
+cd jorap.com
+mise trust
+mise install
+```
+
+**Manual installs** (if you skip mise)
+
+| Tool | Example |
+|------|---------|
+| Hugo Extended | `brew install hugo` (Homebrew ships Extended) |
+| Node 22 | `brew install node@22` or [nodejs.org](https://nodejs.org/) |
+| pnpm 11 | `corepack enable && corepack prepare pnpm@11.7.0 --activate` |
+| Go 1.24+ | `brew install go` |
+| Python 3.8+ | `brew install python` (macOS may also ship `python3`) |
+
+Works in Terminal.app, iTerm, or any zsh/bash shell. After `mise install`, open a new tab or run `mise activate` in the current session.
+
+</details>
+
+<details>
+<summary><strong>Windows</strong></summary>
+
+**mise (recommended)**
+
+```powershell
+# Install mise — see https://mise.jdx.dev/getting-started.html
+winget install -e --id jdx.mise
+# Restart the terminal; ensure %LOCALAPPDATA%\mise\shims is on PATH (winget/Scoop usually handle this)
+cd jorap.com
+mise trust
+mise install
+```
+
+**Manual installs** (if you skip mise)
+
+| Tool | Example |
+|------|---------|
+| Hugo Extended | [GitHub releases](https://github.com/gohugoio/hugo/releases) (`hugo_extended_*_windows-amd64.zip`) — add `hugo.exe` to `PATH` |
+| Node 22 | [nodejs.org](https://nodejs.org/) or `winget install OpenJS.NodeJS.LTS` |
+| pnpm 11 | `corepack enable` then `corepack prepare pnpm@11.7.0 --activate` |
+| Go 1.24+ | [go.dev/dl](https://go.dev/dl/) or `winget install GoLang.Go` |
+| Python 3.8+ | [python.org](https://www.python.org/downloads/) or `winget install Python.Python.3.12` — enable “Add to PATH” |
+
+Use **PowerShell**, **cmd**, or **Git Bash**. Scripts resolve Python as `python`, `python3`, or `py -3`; set `PYTHON` if needed.
+
+**Windows notes**
+
+- No symlink or Developer Mode setup required — `postinstall` writes a Tailwind shim (`scripts/fix-tailwind-bin.js`).
+- First production preview may download wrangler via `npx` when you run `pnpm run serve`.
+
+</details>
+
+### 3. Install dependencies
+
+From the repo root (Linux, macOS, or Windows):
+
+```bash
 pnpm install
+```
+
+`postinstall` runs `fix-tailwind-bin.js` so Hugo can execute Tailwind under pnpm (all platforms).
+
+Optional — git hooks that auto-append `[skip ci]` for non-deploy commits:
+
+```bash
+pnpm setup:hooks
+```
+
+### 4. Verify the toolchain
+
+```bash
+hugo version          # must include "extended" and v0.163.x
+node -v               # v22.22.2 or newer
+pnpm -v               # 11.7.0
+go version            # go1.24 or newer
+python3 --version     # Windows: py -3 --version
+node scripts/fix-tailwind-bin.js --self-check
+```
+
+Quick build smoke test (same command Cloudflare Pages runs):
+
+```bash
+pnpm run deploy
+```
+
+### 5. Run the site
+
+**Development** (drafts + future-dated posts, live reload):
+
+```bash
 pnpm dev
 ```
 
 Open http://localhost:1313
 
-## Local production preview
-
-Test the same build Cloudflare Pages ships — minified Hugo output, CSP hashes, `_headers`, and Functions (not `pnpm dev`, which includes drafts and future-dated posts).
+**Production preview** (matches Cloudflare Pages — minified output, CSP hashes, `_headers`, Functions):
 
 ```bash
-pnpm install
 pnpm local              # build + serve (alias: pnpm run preview:prod)
 ```
 
@@ -61,9 +177,20 @@ pnpm run deploy         # production build → public/
 pnpm run serve          # wrangler pages dev on port 8788
 ```
 
-**Needs:** Hugo Extended, Node 22+, pnpm, Go, and Python 3.8+ (OKF export step). `mise install` or manual installs all work on Windows, Linux, and macOS. First `serve` may download wrangler via `npx` if it is not installed locally.
+CMS OAuth locally: copy [`.dev.vars.example`](.dev.vars.example) → `.dev.vars` and fill GitHub OAuth values.
 
-CMS OAuth locally: copy `.dev.vars.example` → `.dev.vars` and fill GitHub OAuth values.
+### Cross-platform notes
+
+| Concern | How this repo handles it |
+|---------|--------------------------|
+| Toolchain versions | [mise](https://mise.jdx.dev/) + [`.mise.toml`](.mise.toml), or manual installs per table above |
+| Python scripts | `node scripts/runPython.mjs` — tries `python3`, `python`, then Windows `py -3`; set `PYTHON` to override |
+| Local binaries | `spawnUtil.mjs` resolves `node_modules/.bin` (`.cmd` / `.ps1` on Windows) |
+| Tailwind + Hugo + pnpm | `postinstall` writes `tailwindcss-shim.mjs` (no symlinks) |
+| Git hooks | `pnpm setup:hooks` — pure Node |
+| Safe filenames | `pnpm lint:filenames` / `pnpm test:filenames` — pure Node |
+
+More troubleshooting: [`docs/TROUBLESHOOTING.md`](docs/TROUBLESHOOTING.md#local-dev).
 
 ## Common commands
 

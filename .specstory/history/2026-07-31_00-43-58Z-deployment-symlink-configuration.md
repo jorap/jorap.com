@@ -2098,5 +2098,1445 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The solution needs to work on Mac too.
 
-Node shebangs and 
+Node shebangs and direct binary execution should work on Mac. Node 22 handles ESM imports in extensionless files. Pnpm symlinks in .bin are detected and fixed.
+
+Before writing the executable, the script must unlink any existing symlink at binPath. Otherwise fs.writeFileSync would overwrite the target file rather than the symlink itself.
+
+The shim script resolves its package.json path correctly on Mac. Relative imports in the Unix launcher work there too. The self-check currently only validates Windows paths and should include POSIX and Darwin checks.
+
+Shell wrappers created by pnpm on Mac are harmless because the fix replaces them anyway. Direct shebang execution should be tested on Mac to simulate real shell invocation. The code path could be simplified for Unix systems by removing Windows-only exclusions.
+
+A concrete test will remove the bin symlink, recreate it with `ln -s`, run the fix script, and confirm the replacement is a real executable rather than a symlink. Direct shebang execution will be verified alongside this simulation.
 </details></think>
+
+_**Agent (auto-low)**_
+
+Fixing symlink handling: on macOS, pnpm often symlinks `.bin/tailwindcss`, and writing through it can corrupt the CLI. Unlinking before write and adding Mac path checks.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/fix-tailwind-bin.js</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/fix-tailwind-bin.js</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Simulating the macOS pnpm symlink scenario and testing direct shebang execution.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; node scripts/fix-tailwind-bin.js --self-check &amp;&amp; rm -f node_modules/.bin/tailwindcss &amp;&amp; ln -s ../@tailwindcss/cli/dist/index.mjs node_modules/.bin/tailwindcss &amp;&amp; ls -la node_modules/.bin/tailwindcss &amp;&amp; node scripts/fix-tailwind-bin.js &amp;&amp; ls -la node_modules/.bin/tailwindcss &amp;&amp; ./node_modules/.bin/tailwindcss --help 2&gt;&amp;1 | head -2 &amp;&amp; node node_modules/.bin/tailwindcss --help 2&gt;&amp;1 | head -2 &amp;&amp; wc -c node_modules/@tailwindcss/cli/dist/index.mjs</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && node scripts/fix-tailwind-bin.js --self-check && rm -f node_modules/.bin/tailwindcss && ln -s ../@tailwindcss/cli/dist/index.mjs node_modules/.bin/tailwindcss && ls -la node_modules/.bin/tailwindcss && node scripts/fix-tailwind-bin.js && ls -la node_modules/.bin/tailwindcss && ./node_modules/.bin/tailwindcss --help 2>&1 | head -2 && node node_modules/.bin/tailwindcss --help 2>&1 | head -2 && wc -c node_modules/@tailwindcss/cli/dist/index.mjs
+```
+
+```
+fix-tailwind-bin self-check OK
+lrwxrwxrwx 1 root root 34 Jul 31 08:55 node_modules/.bin/tailwindcss -> ../@tailwindcss/cli/dist/index.mjs
+-rwxr-xr-x 1 root root 78 Jul 31 08:55 node_modules/.bin/tailwindcss
+≈ tailwindcss v4.3.1
+
+≈ tailwindcss v4.3.1
+
+17580 node_modules/@tailwindcss/cli/dist/index.mjs
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The symlink replacement succeeded without corrupting index.mjs.
+
+Direct shebang and Node execution both work. Now testing Hugo build.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; node scripts/fix-tailwind-bin.js &amp;&amp; pnpm run build 2&gt;&amp;1 | tail -5</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && node scripts/fix-tailwind-bin.js && pnpm run build 2>&1 | tail -5
+```
+
+```
+ Cleaned          │    9 
+
+Total in 32474 ms
+[cspHashes] Rewrote 41 inline onerror= attribute(s) in 9 file(s).
+[cspHashes] Hashed 5406 inline <script> block(s) → 15 unique hash(es); injected into /home/jorap/Documents/GitHub/jorap.com/public/_headers.
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Mac compatibility is already handled via Unix paths and the shebang launcher. The critical macOS fix is unlinking before writing pnpm symlinks. Self-check now includes POSIX paths.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Mac is covered by the same Unix path as Linux — no extra Mac-only files needed. One real bug was fixed for how pnpm behaves on macOS.
+
+**Mac-specific issue:** pnpm often installs `node_modules/.bin/tailwindcss` as a **symlink** to `@tailwindcss/cli`. Writing the shim without unlinking first would follow the symlink and **overwrite the real CLI** (same failure mode as the hard-link test earlier).
+
+**Fix:** `writeExecutable` now **unlinks** any existing `.bin` entry before writing.
+
+**Mac flow (unchanged, now safer):**
+- `tailwindcss-shim.mjs` — resolves and imports the CLI (posix paths)
+- `tailwindcss` — `#!/usr/bin/env node` launcher (Hugo via `node`, or direct `./node_modules/.bin/tailwindcss`)
+
+**Verified** by simulating pnpm’s symlink install:
+- Symlink replaced with a real file
+- `@tailwindcss/cli/dist/index.mjs` stays intact (17,580 bytes)
+- Shebang execution and `node .bin/tailwindcss` both work
+- `pnpm run build` succeeds
+- Self-check includes posix path cases (macOS-style `/Users/...` paths)
+
+On Mac after pull: `pnpm install` or `node scripts/fix-tailwind-bin.js`, then `pnpm run deploy`.
+
+## Session close
+- Fixed: Unlink-before-write so pnpm symlinks on macOS don’t corrupt the Tailwind CLI when the shim is applied.
+- Encode: none
+- Open: clean
+
+---
+
+_**User**_
+
+in readme provide complete instructions on how to set up local environments in linux mac and windows
+
+---
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+I'll add complete local setup instructions to the README for Linux, Mac, and Windows.
+
+Reviewing the existing README and setup files to understand the current configuration.
+</details></think>
+
+_**Agent (auto-low)**_
+
+I'll read the README and project setup files to draft complete Linux, Mac, and Windows local environment instructions.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/README.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/package.json</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/deploy-versions.json</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **1180** results in **1** directory</summary>
+
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (1180 files)
+
+| File |
+|------|
+| `.specstory/history/2026-06-20_14-57-19Z-javascript-library-for-network.md` |
+| `content/english/notes/peacemakers.md` |
+| `content/english/pages/privacy-policy.md` |
+| `static/exports/okf-blog/articles/alex-eala-pro-career-tracker.md` |
+| `.specstory/history/2026-06-19_10-33-08Z-notes-linking-requirements.md` |
+| `.specstory/history/2026-07-25_12-14-24Z-write-batch2-expand-script.md` |
+| `.specstory/history/2026-07-09_16-04-56Z-bullet-item-review-notes.md` |
+| `content/english/notes/great-commission.md` |
+| `.specstory/history/2026-06-20_04-29-21Z-notes-review-for-removal.md` |
+| `content/english/notes/atomic-habits.md` |
+| `content/english/notes/the-wise-builder.md` |
+| `.specstory/history/2026-07-01_15-16-34Z-http-500-error-on.md` |
+| `.specstory/history/2026-07-08_02-18-55Z-search-functionality-issue.md` |
+| `.specstory/history/2026-07-27_14-03-08Z-streamlining-audience-engagement.md` |
+| `.specstory/history/2026-06-19_04-46-28Z-notes-formatting-for-jorap-voice.md` |
+| `content/english/blog/set-it-forget-it-arroz-caldo.md` |
+| `content/english/notes/gate-what-you-consume.md` |
+| `content/english/notes/commonplace-book.md` |
+| `.specstory/history/2026-05-28_01-58-01Z-jorap.com-status.md` |
+| `.specstory/history/2026-06-20_03-54-22Z-git-commit-symbolic-link.md` |
+| `.specstory/history/2026-07-15_14-53-55Z-comment-platform-comparison.md` |
+| `.specstory/history/2026-05-30_22-38-20Z-browser-errors-and-content-security-policy.md` |
+| `.specstory/history/2026-07-06_04-36-19Z-personal-scales-and-game.md` |
+| `.specstory/history/2026-06-20_11-43-50Z-high-school-level-vocabulary.md` |
+| `.specstory/history/2026-07-19_12-30-21Z-analyze-all-blog-difficulty.md` |
+| `.specstory/history/2026-07-23_12-11-11Z-levels-batch-5-notes.md` |
+| `content/english/notes/getting-started.md` |
+| `content/english/blog/__how-ai-helps-build-sites-and-content.md` |
+| `.specstory/history/2026-07-27_13-41-53Z-updated-garden-voice-notes.md` |
+| `.specstory/history/2026-05-30_15-20-47Z-website-performance-improvement-strategies.md` |
+| `content/english/notes/develop-dont-endanger.md` |
+| `.specstory/history/2026-07-03_05-14-19Z-shareable-thoughts-review.md` |
+| `content/english/blog/__hugo-go-templates.md` |
+| `content/english/notes/god-centered-design.md` |
+| `content/english/blog/hugoplate-theme-review.md` |
+| `content/english/notes/gtd-vs-para.md` |
+| `content/english/notes/love-your-neighbor.md` |
+| `.specstory/history/2026-07-30_01-02-16Z-updated-garden-voice-notes.md` |
+| `_vendor/github.com/gethugothemes/hugo-modules/llms-txt/layouts/_default/single.md` |
+| `.specstory/history/2026-06-19_07-27-42Z-consistent-tag-format.md` |
+| `.specstory/history/2026-07-26_02-12-00Z-fruits-of-the-spirit.md` |
+| `.specstory/history/2026-06-19_02-42-05Z-removal-of-menu-items.md` |
+| `content/english/notes/sharpen-each-others-work.md` |
+| `.specstory/history/2026-07-02_00-03-14Z-blog-output-improvement-notes.md` |
+| `.specstory/history/2026-07-02_23-36-54Z-notes-page-two-column.md` |
+| `content/english/authors/william-jacob.md` |
+| `.specstory/history/2026-06-19_07-49-31Z-table-of-contents-modification.md` |
+| `.specstory/history/2026-07-20_00-45-49Z-git-as-an-open.md` |
+| `.specstory/history/2026-06-19_09-25-47Z-evergreen-notes-search.md` |
+| `content/english/notes/reversibility.md` |
+| `.specstory/history/2026-06-18_08-08-49Z-review-draft-blog-voice.md` |
+| `static/exports/okf-blog/articles/extension-cord.md` |
+| `content/english/notes/freedom-over-free.md` |
+| `.specstory/history/2026-06-28_17-06-25Z-free-grace-and-eternal-rewards-notes.md` |
+| `.specstory/history/2026-07-23_12-11-10Z-levels-batch-4-notes.md` |
+| `.specstory/history/2026-07-26_15-57-23Z-garden-link-issues-summary.md` |
+| `.dev.vars.example` |
+| `.specstory/history/2026-06-20_04-59-15Z-link-style-consistency-for.md` |
+| `.specstory/history/2026-06-22_16-41-21Z-new-connections-in-notes.md` |
+| `.specstory/history/2026-07-01_23-35-09Z-notes-layout-adjustment.md` |
+| `.specstory/history/2026-07-03_01-49-12Z-notes-with-five-word-titles.md` |
+| `content/english/notes/intellectual-sourcing.md` |
+| `content/english/notes/read-in-synagogue.md` |
+| `.github/prompts/speckit.tasks.prompt.md` |
+| `content/english/notes/creative-output.md` |
+| `.specstory/history/2026-07-29_04-41-25Z-safe-characters-for-aliases.md` |
+| `.specstory/history/2026-07-02_05-35-18Z-ai-prompts-review.md` |
+| `content/english/blog/why-i-stopped-playing-marvel-snap.md` |
+| `content/english/notes/eternal-principles.md` |
+| `.specstory/history/2026-07-01_15-04-28Z-static-site-generator-ranking.md` |
+| `content/english/notes/trust-god-for-today.md` |
+| `.specstory/history/2026-07-06_12-28-50Z-wimbledon-links-verification.md` |
+| `content/english/notes/inspectable-stack.md` |
+| `.specstory/history/2026-07-08_02-17-18Z-ephesians-2-8-9-formatting.md` |
+| `.specstory/history/2026-06-19_16-42-37Z-home-page-title-modification.md` |
+| `.specstory/history/2026-07-03_00-01-14Z-difficult-words-for-blog.md` |
+| `content/english/notes/reliability.md` |
+| `content/english/notes/literature-notes.md` |
+| `content/english/notes/moved-with-compassion.md` |
+| `.specstory/history/2026-05-02_09-38-10Z-site-user-experience-improvement.md` |
+| `.specstory/history/2026-07-23_12-11-07Z-levels-batch-1-notes.md` |
+| `.specstory/history/2026-06-20_14-34-50Z-site-build-error-and-template-rendering.md` |
+| `content/english/notes/share-the-heavy-lift.md` |
+| `.specstory/history/2026-07-10_05-47-02Z-bema-search-issue.md` |
+| `content/english/notes/opened-scripture.md` |
+| `content/english/notes/the-trusted-inbox.md` |
+| `.specstory/history/2026-07-06_09-24-25Z-skill-update-for-site.md` |
+| `.specstory/history/2026-07-26_15-20-51Z-garden-voice-batch-2.md` |
+| `.cursor/skills/personal-context-management/master-prompt-method.md` |
+| `content/english/notes/layered-reading.md` |
+| `.specstory/history/2026-06-19_04-04-25Z-graph-display-for-notes.md` |
+| `.specstory/history/2026-07-27_13-56-34Z-impact-of-low-blog.md` |
+| `content/english/notes/assurance.md` |
+| `.specstory/history/2026-07-09_14-10-18Z-audit-notes-theme-bloat.md` |
+| `content/english/notes/getting-things-done.md` |
+| `.specstory/history/2026-07-24_10-18-40Z-audit-scripts-and-js.md` |
+| `.specstory/history/2026-07-01_11-51-46Z-connections-between-mercy-and-grace.md` |
+| `.specstory/history/2026-07-07_14-51-03Z-instant-pot-chicken-adobo.md` |
+| `.specstory/history/2026-07-20_00-38-04Z-brave-browser-preference-draft.md` |
+| `.cursor/skills/sync-upstreams/preserve-lists.md` |
+| `.specstory/history/2026-06-22_05-12-25Z-note-connection-analysis-framework.md` |
+| `.cursor/rules/safe-filenames.mdc` |
+| `.specstory/history/2026-07-06_09-24-25Z-skill-update-for-site-access.md` |
+| `.specstory/history/2026-06-20_03-21-22Z-analyze-all-pkm-notes.md` |
+| `.specstory/history/2026-07-10_12-56-17Z-open-source-technologies-blog.md` |
+| `.specstory/history/2026-07-20_11-28-58Z-analyze-published-blogs-likability.md` |
+| `.specstory/history/2026-05-29_17-29-24Z-dark-mode-appearance-issues.md` |
+| `.specstory/history/2026-06-20_10-01-35Z-read-pkm-notes-for.md` |
+| `.specstory/history/2026-05-02_14-54-20Z-additional-fields-for-frontmatter.md` |
+| `.specstory/history/2026-07-01_12-33-11Z-note-formatting-adjustment.md` |
+| `.specstory/history/2026-06-20_03-20-28Z-notes-review-and-relationship.md` |
+| `.specstory/history/2026-06-20_03-54-22Z-git-commit-symbolic-link-error.md` |
+| `content/english/blog/__remote-work-checklist.md` |
+| `.specstory/history/2026-06-19_10-06-40Z-minimum-effective-dose-discussion.md` |
+| `content/english/notes/childlike-faith.md` |
+| `.specstory/history/2026-07-25_10-15-16Z-what-if-i-change.md` |
+| `.specstory/history/2026-07-25_12-09-50Z-reading-notes-for-learning.md` |
+| `.cursor/skills/find-skills/SKILL.md` |
+| `content/english/notes/accept-the-starting-line.md` |
+| `.specstory/history/2026-07-02_00-21-59Z-fix-flashcards-batch-4.md` |
+| `.specstory/history/2026-07-29_12-37-37Z-benefits-of-portable-software.md` |
+| `.specstory/history/2026-07-02_22-40-12Z-free-grace-description-display.md` |
+| `.specstory/history/2026-06-28_00-07-52Z-tinacms-compatibility.md` |
+| `content/english/notes/grace.md` |
+| `.specstory/history/2026-06-18_01-44-59Z-page-update-skill-development.md` |
+| `static/exports/okf-blog/articles/one-page-zine.md` |
+| `.specstory/history/2026-05-28_01-16-50Z-codebase-review-for-improvements-and-stability.md` |
+| `.specstory/history/2026-06-19_08-54-19Z-interactive-graph-functionality.md` |
+| `.specstory/history/2026-06-18_03-18-09Z-alex-eala-tracker-update.md` |
+| `.specstory/history/2026-06-18_09-57-42Z-tag-list-row-gap-issue.md` |
+| `.specstory/history/2026-06-20_14-06-30Z-last-commit-comparison.md` |
+| `.specstory/history/2026-07-10_14-23-14Z-image-concept-for-static.md` |
+| `.specstory/history/2026-07-05_14-27-37Z-new-notes-creation.md` |
+| `.specstory/history/2026-07-14_04-33-46Z-review-published-blog-posts.md` |
+| `content/english/notes/ship-it.md` |
+| `content/english/notes/staged-rollout.md` |
+| `.specstory/history/2026-06-27_11-19-04Z-chatgpt-code-and-notes.md` |
+| `.specstory/history/2026-06-22_02-16-32Z-missing-hugo-extended-package.md` |
+| `.specstory/history/2026-06-21_15-23-30Z-high-school-vocabulary-removal.md` |
+| `.specstory/history/2026-07-10_06-19-18Z-garden-voice-fix-chunk.md` |
+| `.specstory/history/2026-07-24_00-13-49Z-ponytail-audit.md` |
+| `.specstory/history/2026-07-01_23-46-47Z-bem-class-addition-discussion.md` |
+| `content/english/notes/free-tier-hosting-stack.md` |
+| `content/english/notes/let-your-light-shine.md` |
+| `.specstory/history/2026-07-28_11-29-42Z-blog-compliance-check.md` |
+| `static/exports/okf-blog/articles/worship-pads-solo-guitar.md` |
+| `content/english/notes/build-a-reliable-default.md` |
+| `static/exports/okf-blog/articles/hugoplate-theme-review.md` |
+| `.specstory/history/2026-06-19_12-30-32Z-two-random-notes-feature.md` |
+| `content/english/blog/__blog-template.md` |
+| `.cursor/skills/hugo-template-guidance/references/i18n-guidance.md` |
+| `.specstory/history/2026-07-15_11-48-18Z-love-for-the-inter.md` |
+| `.specstory/history/2026-05-04_01-20-12Z-font-usage-and-heading-structure-issues.md` |
+| `.specstory/history/2026-05-02_08-30-34Z-website-improvement-suggestions.md` |
+| `content/english/blog/__craft-prompt-framework.md` |
+| `content/english/notes/mind-mapping.md` |
+| `.specstory/history/2026-05-10_06-27-45Z-system-update-process-review.md` |
+| `content/english/notes/pray-before-you-choose.md` |
+| `.specstory/history/2026-06-28_00-39-28Z-blank-page-issue-on.md` |
+| `.specstory/history/2026-06-23_15-05-02Z-assessment-a-design-review.md` |
+| `content/english/blog/__smart-plug.md` |
+| `content/english/notes/behavioral-economics.md` |
+| `content/english/notes/building-a-personal-api.md` |
+| `.specstory/history/2026-06-19_03-00-56Z-post-draft-topics-for-knowledge-management.md` |
+| `content/english/notes/name-the-feeling.md` |
+| `content/english/notes/teachable-stack.md` |
+| `.specstory/history/2026-07-28_11-46-17Z-vram-availability-for-ai.md` |
+| `.specstory/history/2026-07-28_23-16-57Z-filename-safety-rules.md` |
+| `content/english/notes/portable-software.md` |
+| `.specstory/history/2026-07-30_00-27-59Z-voice-pass-live-blog.md` |
+| `static/exports/okf-blog/articles/why-keep-desktop-laptop.md` |
+| `.specstory/history/2026-06-20_08-39-10Z-file-path-reference.md` |
+| `.specstory/history/2026-07-08_22-49-08Z-blog-post-sorting-issue.md` |
+| `.specstory/history/2026-07-24_10-18-20Z-ponytail-audit.md` |
+| `content/english/blog/__free-vs-freedom-open-source.md` |
+| `content/english/notes/pareto-principle.md` |
+| `.specstory/history/2026-07-03_01-49-12Z-notes-with-five-word.md` |
+| `.specstory/history/2026-07-27_13-22-37Z-ai-slop-reduction-rules.md` |
+| `.specstory/history/2026-07-30_00-28-02Z-voice-pass-remaining-blogs.md` |
+| `.specstory/history/2026-07-29_11-34-21Z-pinklawans-principles-violation.md` |
+| `content/english/blog/__tenant-not-landlord-on-the-web.md` |
+| `.specstory/history/2026-07-26_15-32-32Z-blog-review-for-jorap.md` |
+| `content/english/notes/influence-without-title.md` |
+| `.specstory/history/2026-05-28_03-13-26Z-impeccable-critique-discussion.md` |
+| `content/english/notes/shadow-the-work.md` |
+| `static/exports/okf-blog/articles/consistent-ai-output-wordpress-builds.md` |
+| `.cursor/skills/alex-eala-tracker-update/reference.md` |
+| `content/english/notes/pkm.md` |
+| `.specstory/history/2026-07-02_00-11-43Z-effective-flashcard-philosophy.md` |
+| `content/english/notes/discipleship.md` |
+| `.specstory/history/2026-06-19_08-15-23Z-clickable-tags-in-notes.md` |
+| `.specstory/history/2026-07-29_03-31-13Z-local-testing-across-platforms.md` |
+| `.specstory/history/2026-07-22_12-39-49Z-jesus-teachings-on-prayer.md` |
+| `content/english/notes/let-your-yes-be-yes.md` |
+| `.specstory/history/2026-06-19_03-07-38Z-notes-section-with-obsidian-functionality.md` |
+| `.specstory/history/2026-07-30_00-58-49Z-blog-review-for-jorap.md` |
+| `content/english/notes/flashcards.md` |
+| `.specstory/history/2026-06-22_06-14-22Z-create-notes-based-on-this.md` |
+| `content/english/notes/faithful-steward.md` |
+| `.specstory/history/2026-06-21_12-15-47Z-possible-notes-functionalities.md` |
+| `content/english/notes/surface-bad-news-early.md` |
+| `.specstory/history/2026-06-21_09-49-17Z-ponytail-skill-integration.md` |
+| `.specstory/history/2026-05-30_15-13-50Z-blog-categories-and-tags-enhancement.md` |
+| `.specstory/history/2026-06-19_11-07-57Z-smart-and-distilled-notes.md` |
+| `.specstory/history/2026-06-19_17-18-56Z-flashcards-for-notes.md` |
+| `.specstory/history/2026-07-03_02-07-57Z-jorap-notes-functionality.md` |
+| `content/english/notes/goodness.md` |
+| `content/english/notes/second-order-thinking.md` |
+| `.specstory/history/2026-06-18_09-48-47Z-post-categories-and-tags-improvement.md` |
+| `.specstory/history/2026-06-20_06-58-41Z-automatic-inclusion-of-jorap.md` |
+| `archetypes/default.md` |
+| `.specstory/history/2026-07-01_13-08-10Z-note-relationship-duplication.md` |
+| `content/english/notes/learning-organizations.md` |
+| `.specstory/history/2026-07-20_11-15-29Z-voice-comparison-with-john.md` |
+| `.specstory/history/2026-07-18_23-32-54Z-alex-eala-tracker-update.md` |
+| `content/english/notes/not-my-will.md` |
+| `.specstory/history/2026-06-20_07-32-04Z-capture.md-format-explanation.md` |
+| `.specstory/history/2026-06-22_15-25-02Z-update-batch-aa-genre.md` |
+| `.specstory/history/2026-07-09_16-10-36Z-key-concept-notes-review.md` |
+| `.specstory/history/2026-07-10_15-22-21Z-tiktok-usage-update.md` |
+| `.specstory/history/2026-07-12_11-47-46Z-common-appliance-replacement.md` |
+| `content/english/notes/finish-strong.md` |
+| `content/english/notes/render-unto-caesar.md` |
+| `content/english/blog/__why-brave-browser.md` |
+| `content/english/notes/block-recovery-time.md` |
+| `content/english/blog/instant-pot-chicken-adobo.md` |
+| `.specstory/history/2026-07-14_04-32-45Z-blog-content-review.md` |
+| `.specstory/history/2026-07-30_00-35-45Z-john-maxwell-collaboration-blog.md` |
+| `.specstory/history/2026-07-26_01-48-00Z-bible-shortcode-display-settings.md` |
+| `.specstory/history/2026-06-19_07-31-27Z-obsidian-functionality-improvement.md` |
+| `.specstory/history/2026-07-27_01-54-31Z-bible-verse-context-widening.md` |
+| `.specstory/history/2026-07-02_07-20-36Z-expand-thin-key-concepts.md` |
+| `.specstory/history/2026-06-20_02-41-11Z-upstream-synchronization.md` |
+| `.specstory/history/2026-07-23_01-08-34Z-bible-verses-in-notes.md` |
+| `.specstory/history/2026-06-27_11-19-04Z-chatgpt-code-and-notes-integration.md` |
+| `.specstory/history/2026-07-26_01-57-38Z-garden-link-issues-summary.md` |
+| `.specstory/history/2026-07-08_22-29-32Z-instant-pot-chicken-thighs.md` |
+| `.cursor/skills/ponytail-debt/SKILL.md` |
+| `content/english/notes/incident-investigation.md` |
+| `content/english/notes/versatility.md` |
+| `.specstory/history/2026-07-28_11-30-47Z-check-all-notes-if.md` |
+| `content/english/notes/digital-garden.md` |
+| `content/english/blog/_index.md` |
+| `.specstory/history/2026-07-02_23-14-54Z-garden-link-issues.md` |
+| `content/english/notes/create-regular-connection.md` |
+| `.specstory/history/2026-07-30_02-53-07Z-blog-on-toca-boca.md` |
+| `content/english/notes/gentleness.md` |
+| `.specstory/history/2026-06-18_18-30-06Z-alex-eala-tracker-update.md` |
+| `.specstory/history/2026-07-13_16-24-58Z-blog-retheming-and-component-reduction.md` |
+| `content/english/notes/discipleship-vs-leadership.md` |
+| `.cursor/rules/deploy-commits.mdc` |
+| `.specstory/history/2026-07-05_22-53-06Z-discipleship-versus-leadership.md` |
+| `.specstory/history/2026-07-22_12-32-12Z-recorded-prayers-of-jesus.md` |
+| `.specstory/history/2026-07-02_01-02-53Z-rewrite-note-descriptions-batch.md` |
+| `.specstory/history/2026-07-15_03-18-12Z-mainstream-terms-for-principles.md` |
+| `content/english/notes/faithfulness.md` |
+| `.specstory/history/2026-07-07_15-20-52Z-fair-use-of-biblical.md` |
+| `content/english/blog/__tailwind-css-v4.md` |
+| `.specstory/history/2026-06-19_16-38-10Z-meta-title-format-requirement.md` |
+| `.specstory/history/2026-07-01_12-23-27Z-notes-structure-guidelines.md` |
+| `.cursor/skills/garden-maintenance/SKILL.md` |
+| `.specstory/history/2026-07-14_02-00-12Z-slug-and-filename-improvement.md` |
+| `.specstory/history/2026-07-07_09-07-28Z-grade-1-question-collection.md` |
+| `content/english/notes/complete-the-cycle.md` |
+| `.specstory/history/2026-06-21_11-42-01Z-possible-additional-filters.md` |
+| `content/english/notes/grateful-obedience.md` |
+| `.specstory/history/2026-05-30_14-03-05Z-spotify-shortcode-creation.md` |
+| `.specstory/history/2026-06-20_17-25-41Z-alex-eala-tracker-renaming.md` |
+| `.specstory/history/2026-06-20_08-12-04Z-eternal-principles-and-jesus'-teachings.md` |
+| `content/english/blog/__hugo-static-site-generator.md` |
+| `.specstory/history/2026-06-19_07-19-43Z-notes-and-blogs-tag.md` |
+| `.impeccable/critique/2026-06-18T17-25-43Z__themes-jorap-layouts-home-html.md` |
+| `content/english/authors/john-doe.md` |
+| `.specstory/history/2026-07-08_01-33-43Z-nasb1995-bible-yaml-format.md` |
+| `.specstory/history/2026-06-22_15-20-49Z-heading-replacement-and-genre-examples.md` |
+| `content/english/notes/free-grace.md` |
+| `.specstory/history/2026-06-20_14-14-13Z-deployment-builds-improvement.md` |
+| `static/exports/okf-blog/articles/hanamikoji-duopoly-retheme.md` |
+| `content/english/notes/take-smart-notes.md` |
+| `content/english/pages/randomizer.md` |
+| `.specstory/history/2026-07-03_09-28-09Z-garden-link-issues.md` |
+| `content/english/notes/process-over-outcomes.md` |
+| `docs/TROUBLESHOOTING.md` |
+| `.specstory/history/2026-06-22_07-26-03Z-genre-examples-for-better-understanding.md` |
+| `content/english/notes/purpose-and-vision.md` |
+| `content/english/blog/__obsidian-vs-hugo.md` |
+| `content/english/notes/give-useful-feedback.md` |
+| `.specstory/history/2026-06-30_04-43-36Z-notes-formatting-review.md` |
+| `.specstory/history/2026-07-29_23-16-40Z-optimized-mindset-after-bs.md` |
+| `.specstory/history/2026-06-19_15-34-35Z-essential-information-for-page.md` |
+| `.specstory/history/2026-07-10_04-54-45Z-homepage-post-focus.md` |
+| `archetypes/notes.md` |
+| `.specstory/history/2026-06-19_02-11-28Z-articles-matching-my-voice.md` |
+| `.specstory/history/2026-07-03_06-55-32Z-review-voice-audit.md` |
+| `.specstory/history/2026-07-23_12-19-21Z-wider-levels-batch-1.md` |
+| `.specstory/history/2026-07-27_16-01-39Z-test-match-cricket-insights.md` |
+| `content/english/notes/community-depth.md` |
+| `.specstory/history/2026-07-26_01-17-47Z-notes-and-flashcards-guidelines.md` |
+| `.specstory/history/2026-05-02_15-37-58Z-missing-information-identification.md` |
+| `docs/CONTENT_VOICE_REVIEW.md` |
+| `.specstory/history/2026-07-17_01-21-56Z-explore-repo-structure.md` |
+| `.specstory/history/2026-07-23_12-13-41Z-level-1-to-5.md` |
+| `content/english/blog/__humanize-ai-articles.md` |
+| `.specstory/history/2026-06-20_14-34-50Z-site-build-error-and.md` |
+| `.cursor/skills/flashcards/examples.md` |
+| `content/english/notes/the-knowledge-lifecycle.md` |
+| `.specstory/history/2026-06-19_02-04-57Z-npm-run-watch-compatibility.md` |
+| `content/english/notes/selling-static-sites.md` |
+| `.specstory/history/2026-07-23_12-53-22Z-bible-chapter-verse-range.md` |
+| `content/english/notes/inbox-zero.md` |
+| `.specstory/history/2026-07-20_11-27-53Z-blog-likeability-analysis.md` |
+| `.specstory/history/2026-05-04_01-02-31Z-related-posts-visibility-issue.md` |
+| `.specstory/history/2026-07-24_10-18-41Z-audit-theme-and-layouts.md` |
+| `content/english/notes/graph.md` |
+| `content/english/notes/local-first-software.md` |
+| `content/english/notes/golden-rule-at-work.md` |
+| `.specstory/history/2026-05-28_03-31-23Z-scrollable-table-of-contents.md` |
+| `.specstory/history/2026-06-30_02-04-57Z-new-notes-discovery.md` |
+| `.specstory/history/2026-07-20_00-45-49Z-git-as-an-open-source-innovation.md` |
+| `.specstory/history/2026-07-27_16-23-50Z-apple-s-innovation-strategy.md` |
+| `.specstory/history/2026-07-15_01-19-17Z-grade-1-math-and.md` |
+| `content/english/notes/life-before-achievement.md` |
+| `.specstory/history/2026-07-10_23-18-53Z-redundant-notes-review.md` |
+| `content/english/notes/break-the-escalation-cycle.md` |
+| `content/english/notes/note-relationships.md` |
+| `.specstory/history/2026-05-02_10-15-29Z-build-process-error-with-tailwind-css.md` |
+| `.specstory/history/2026-07-10_12-31-04Z-wireless-earphones-charging-preferences.md` |
+| `.specstory/history/2026-07-03_02-38-29Z-jorap-notes-features-update.md` |
+| `.specstory/history/2026-07-14_02-01-30Z-blog-slug-and-filename.md` |
+| `content/english/blog/one-page-zine.md` |
+| `static/exports/okf-blog/articles/why-run-your-own-website.md` |
+| `static/exports/okf-blog/articles/mouse-wheel-click.md` |
+| `content/english/notes/signal-vs-noise.md` |
+| `.specstory/history/2026-06-18_07-41-26Z-local-testing-setup.md` |
+| `static/exports/okf-blog/index.md` |
+| `.specstory/history/2026-05-30_22-55-33Z-http-headers-analysis-and-recommendations.md` |
+| `.specstory/history/2026-07-02_00-08-55Z-difficult-words-list.md` |
+| `.specstory/history/2026-07-13_14-14-50Z-one-page-zine-applications.md` |
+| `content/english/notes/seek-the-kingdom-first.md` |
+| `content/english/notes/sunk-cost-fallacy.md` |
+| `.specstory/history/2026-06-20_09-38-30Z-flashcard-skill-question-hints.md` |
+| `.specstory/history/2026-06-20_11-46-55Z-jorap-voice-skill-vocabulary-adjustment.md` |
+| `.specstory/history/2026-06-18_09-41-14Z-categories-and-tags-page-format.md` |
+| `.specstory/history/2026-07-08_22-17-50Z-recipe-rules-and-guidelines.md` |
+| `content/english/notes/git-based-cms.md` |
+| `.specstory/history/2026-05-28_03-02-51Z-categories-and-tags-page-design.md` |
+| `content/english/notes/energy-protects-judgment.md` |
+| `content/english/authors/_index.md` |
+| `.specstory/history/2026-06-19_10-25-51Z-file-path-reference.md` |
+| `.specstory/history/2026-07-23_11-56-32Z-feynman-batch-3-notes.md` |
+| `.cursor/skills/ponytail-gain/SKILL.md` |
+| `.specstory/history/2026-07-14_01-28-26Z-hanamikoji-rules-review.md` |
+| `content/english/blog/alex-eala-pro-career-tracker.md` |
+| `.specstory/history/2026-06-20_03-20-28Z-notes-review-and-relationship-analysis.md` |
+| `.specstory/history/2026-06-19_04-36-18Z-notes-homepage-item-arrangement.md` |
+| `.specstory/history/2026-07-02_00-21-58Z-fix-flashcards-batch-3.md` |
+| `.specstory/history/2026-07-06_06-57-50Z-family-friendly-scale-clues.md` |
+| `content/english/notes/graph-view-analytics.md` |
+| `.specstory/history/2026-06-22_06-14-22Z-create-notes-based-on.md` |
+| `.specstory/history/2026-07-02_00-21-56Z-fix-flashcards-batch-2.md` |
+| `content/english/notes/measure-then-iterate.md` |
+| `static/exports/okf-blog/articles/facebook-favorites-feed.md` |
+| `.specstory/history/2026-06-18_08-37-03Z-reasons-for-switching-from.md` |
+| `.specstory/history/2026-07-06_07-06-59Z-spectrum-optimization-for-scaling.md` |
+| `.specstory/history/2026-07-15_18-39-15Z-wife-s-singing-appreciation.md` |
+| `.specstory/history/2026-06-19_08-18-36Z-interactive-graph-functionality-issues.md` |
+| `content/english/blog/__hugo-shortcodes.md` |
+| `.specstory/history/2026-07-25_12-27-48Z-garden-link-issues-summary.md` |
+| `content/english/blog/__local-ai-my-machines.md` |
+| `content/english/blog/how-i-built-jorap-notes.md` |
+| `content/english/notes/repent-and-believe.md` |
+| `.specstory/history/2026-06-19_08-40-10Z-terminal-script-file-reference.md` |
+| `.specstory/history/2026-06-22_15-25-07Z-update-batch-ab-genre.md` |
+| `content/english/notes/deep-work.md` |
+| `content/english/notes/transformation-principles.md` |
+| `.specstory/history/2026-07-28_11-31-53Z-audit-published-blog-voice.md` |
+| `content/english/blog/miracle-isaiah-david.md` |
+| `.specstory/history/2026-06-19_09-10-49Z-notes-definition-clarity.md` |
+| `.specstory/history/2026-06-29_00-45-19Z-@tasks.workspaceid-6c9cecb364b8aca3f894dc941c3259bc-(1-28).md` |
+| `.specstory/history/2026-07-02_23-40-15Z-site-voice-consistency-review.md` |
+| `.specstory/history/2026-07-22_12-10-07Z-notes-in-biblical-devotions.md` |
+| `.specstory/history/2026-07-07_03-55-27Z-top-20-grand-slam-results.md` |
+| `content/english/blog/__inter-font.md` |
+| `.cursor/skills/jorap-voice/examples.md` |
+| `content/english/notes/expect-the-counter.md` |
+| `content/english/notes/integrity.md` |
+| `content/english/notes/set-calm-boundaries.md` |
+| `content/english/notes/the-beatitudes.md` |
+| `.specstory/history/2026-07-27_11-14-51Z-jorap-voice-review.md` |
+| `.specstory/history/2026-07-09_15-34-09Z-notes-review-and-key-concepts.md` |
+| `docs/SPEC.md` |
+| `.specstory/history/2026-06-29_00-45-19Z-at-tasks-workspaceid-6c9cecb364b8aca3f894dc941c3259bc.md` |
+| `content/english/notes/rollback-principle.md` |
+| `.specstory/history/2026-05-30_22-26-45Z-accessibility-best-practices-and-issues.md` |
+| `.specstory/history/2026-07-02_07-20-25Z-fix-placeholder-relationship-reasons.md` |
+| `.specstory/history/2026-05-02_09-17-45Z-npm-run-watch-deployment-issue.md` |
+| `.specstory/history/2026-07-30_01-59-10Z-ai-impact-on-project.md` |
+| `content/english/notes/reading-the-garden.md` |
+| `.specstory/history/2026-07-17_01-21-44Z-ponytail-audit.md` |
+| `.specstory/history/2026-05-04_09-47-38Z-file-path-issue-resolution.md` |
+| `.specstory/history/2026-06-19_08-24-40Z-dead-internal-links-check.md` |
+| `.cursor/skills/hugo-template-guidance/references/component-usage.md` |
+| `.specstory/history/2026-07-12_09-13-33Z-blog-items-review-criteria.md` |
+| `.specstory/history/2026-05-02_10-12-53Z-tailwind-css-build-errors.md` |
+| `content/english/notes/process-mapping.md` |
+| `.specstory/history/2026-07-23_12-11-10Z-levels-batch-3-notes.md` |
+| `.specstory/history/2026-06-22_15-46-06Z-atomic-note-creation-prompt.md` |
+| `.specstory/history/2026-06-19_02-11-44Z-skill-improvement-review.md` |
+| `.specstory/history/2026-07-02_13-00-15Z-free-tier-hosting-limitations.md` |
+| `archetypes/blog.md` |
+| `.specstory/history/2026-06-22_09-13-43Z-systems-for-growth-moc-creation.md` |
+| `.specstory/history/2026-06-27_10-39-09Z-knowledge-catalog-specification-comparison.md` |
+| `static/exports/okf-blog/articles/why-i-love-modern-board-games.md` |
+| `.cursor/skills/personal-context-management/master-prompt-sections.md` |
+| `.specstory/history/2026-07-01_23-45-32Z-backlinks-page-design.md` |
+| `.specstory/history/2026-07-02_13-36-17Z-mobile-random-notes-height.md` |
+| `.specstory/history/2026-05-30_13-47-25Z-hugoplate-theme-article.md` |
+| `content/english/drafts/_index.md` |
+| `.specstory/history/2026-07-30_01-12-44Z-blog-migration-to-cloudflare.md` |
+| `.specstory/history/2026-07-05_14-32-06Z-new-notes-creation.md` |
+| `.cursor/skills/hugo-template-guidance/references/project-architecture.md` |
+| `content/english/notes/learn-hireable-stacks.md` |
+| `content/english/notes/cross-platform-software.md` |
+| `.specstory/history/2026-07-30_01-19-24Z-blog-review-for-jorap.md` |
+| `.github/prompts/speckit.constitution.prompt.md` |
+| `.specstory/history/2026-07-10_14-09-39Z-blog-image-concept.md` |
+| `content/english/blog/extension-cord.md` |
+| `static/exports/okf-blog/log.md` |
+| `content/english/notes/read-later-queue.md` |
+| `content/english/notes/preparedness.md` |
+| `.cursor/rules/anti-slop.mdc` |
+| `.cursor/skills/ai-writing-system/feedback-loop.md` |
+| `.specstory/history/2026-06-22_03-18-44Z-changelog-update-request.md` |
+| `.specstory/history/2026-06-22_07-39-29Z-rewrite-notes-examples-batch.md` |
+| `.specstory/history/2026-07-14_02-01-30Z-blog-slug-and-filename-improvement.md` |
+| `.specstory/history/2026-02-20_03-57-39Z-update-request-based-on.md` |
+| `.specstory/history/2026-07-23_12-32-58Z-terminal-file-reference.md` |
+| `content/english/notes/mobile-capture-workflows.md` |
+| `.specstory/history/2026-05-02_09-58-48Z-impeccable-critique-discussion.md` |
+| `content/english/notes/blameless-after-action-review.md` |
+| `content/english/notes/know-your-lane.md` |
+| `.specstory/history/2026-07-06_09-44-39Z-tracker-update-formatting.md` |
+| `content/english/notes/listen-before-fixing.md` |
+| `.specstory/history/2026-06-20_17-18-55Z-button-and-link-padding-consistency.md` |
+| `.specstory/history/2026-02-20_03-57-39Z-update-request-based-on-latest-results.md` |
+| `.specstory/history/2026-06-19_12-28-17Z-incorporating-creativity-in-notes.md` |
+| `.cursor/skills/hugo-template-guidance/references/script-usage.md` |
+| `.specstory/history/2026-05-02_10-37-16Z-file-path-issue-in-terminal.md` |
+| `.specstory/history/2026-05-29_17-10-28Z-deployment-speed-improvement.md` |
+| `.github/prompts/speckit.implement.prompt.md` |
+| `.specstory/history/2026-05-30_22-54-58Z-hugo-plate-theme-review-looping-issue.md` |
+| `.specstory/history/2026-05-30_14-34-04Z-creating-reusable-acf-block-generation.md` |
+| `.specstory/history/2026-07-06_06-53-14Z-usefulness-of-collections.md` |
+| `.cursor/skills/hugo-template-guidance/references/adding-new-pages.md` |
+| `content/english/notes/discern-his-will-daily.md` |
+| `.specstory/history/2026-06-22_09-13-43Z-systems-for-growth-moc.md` |
+| `.specstory/history/2026-07-12_00-03-01Z-jorap-voice-wording-improvement.md` |
+| `content/english/notes/follow-christ-then-lead.md` |
+| `content/english/blog/__netlify-to-cloudflare-pages.md` |
+| `content/english/sections/call-to-action.md` |
+| `content/english/sections/testimonial.md` |
+| `.specstory/history/2026-06-19_10-19-52Z-scan-notes-for-jargon.md` |
+| `.specstory/history/2026-05-04_00-44-55Z-impeccable-critique-discussion.md` |
+| `.specstory/history/2026-07-23_12-44-59Z-garden-link-issues.md` |
+| `.specstory/history/2026-07-30_03-08-32Z-jorap-voice-review.md` |
+| `.specstory/history/2026-06-19_05-19-43Z-notes-image-asset.md` |
+| `content/english/notes/there-is-no-perfect-solution.md` |
+| `.specstory/history/2026-05-30_22-59-31Z-dark-mode-styling-issue.md` |
+| `content/english/blog/dnpap-song-resources.md` |
+| `.specstory/history/2026-06-18_09-23-18Z-dark-mode-contrast-requirements.md` |
+| `.specstory/history/2026-07-08_22-19-42Z-arroz-caldo-instant-pot-recipe.md` |
+| `.specstory/history/2026-05-30_22-52-54Z-http-headers-analysis-report.md` |
+| `.specstory/history/2026-05-02_09-10-38Z-dark-mode-review-and-tailwind-css-4-usage.md` |
+| `.specstory/history/2026-06-19_03-23-09Z-blog-and-notes-structure-consistency.md` |
+| `.specstory/history/2026-06-23_15-05-07Z-assessment-b-detector-evidence.md` |
+| `.cursor/skills/alex-eala-tracker-update/SKILL.md` |
+| `content/english/notes/growth-mindset.md` |
+| `.specstory/history/2026-07-20_11-48-58Z-fix-other-lane-shareable.md` |
+| `content/english/notes/words-that-build-up.md` |
+| `.specstory/history/2026-07-30_00-58-58Z-smart-notes-overview.md` |
+| `.impeccable/critique/2026-07-02T23-23-52Z__site-wide-ui-ux-review.md` |
+| `.cursor/skills/hugo-template-guidance/references/preflight-checks.md` |
+| `.specstory/history/2026-07-30_01-52-57Z-garden-voice-notes-review.md` |
+| `.specstory/history/2026-07-29_12-21-42Z-open-source-software-globalization.md` |
+| `static/exports/okf-blog/articles/why-my-son-loves-toca-boca-world.md` |
+| `.specstory/history/2026-05-28_01-50-01Z-codebase-simplification-for-maintainability.md` |
+| `.specstory/history/2026-07-14_00-17-51Z-garden-link-issues-summary.md` |
+| `.specstory/history/2026-07-23_11-54-09Z-feynman-technique-for-notes.md` |
+| `.specstory/history/2026-07-26_01-50-08Z-bible-verse-quoting-rules.md` |
+| `static/exports/okf-blog/articles/instant-pot-arroz-caldo.md` |
+| `.specstory/history/2026-07-23_11-56-30Z-feynman-batch-2-notes.md` |
+| `.specstory/history/2026-07-29_22-34-32Z-alex-eala-quarterfinal-update.md` |
+| `content/english/notes/psychological-safety.md` |
+| `content/english/blog/__sveltia-cms.md` |
+| `.cursor/rules/ponytail.mdc` |
+| `.specstory/history/2026-07-30_01-45-45Z-modified-atk-recipe-guidelines.md` |
+| `.specstory/history/2026-06-20_14-14-13Z-npm-run-deployment-builds.md` |
+| `content/english/notes/joy.md` |
+| `content/english/notes/confess-to-one-another.md` |
+| `.specstory/history/2026-06-19_02-40-50Z-home-page-meta-title.md` |
+| `content/english/notes/christlikeness.md` |
+| `.specstory/history/2026-07-29_03-48-15Z-readme-md-platform-compatibility.md` |
+| `.specstory/history/2026-06-19_07-09-22Z-automated-related-notes-section.md` |
+| `.specstory/history/2026-07-23_12-19-23Z-wider-levels-batch-3.md` |
+| `content/english/notes/love-your-enemies.md` |
+| `.specstory/history/2026-07-23_11-56-33Z-feynman-batch-4-notes.md` |
+| `content/english/notes/minimum-viable-product.md` |
+| `content/english/notes/own-the-error.md` |
+| `.specstory/history/2026-06-21_10-39-21Z-deployment-process-overview.md` |
+| `.specstory/history/2026-07-23_12-19-26Z-wider-levels-batch-5.md` |
+| `content/english/notes/christianity-and-politics.md` |
+| `content/english/notes/safety-by-design.md` |
+| `.specstory/history/2026-07-28_11-31-56Z-audit-draft-blog-outlines.md` |
+| `.specstory/history/2026-07-30_00-57-50Z-writing-nonfiction-guide.md` |
+| `.specstory/history/2026-07-20_11-27-53Z-notes-likeability-analysis.md` |
+| `.specstory/history/2026-05-02_09-49-25Z-inter-font-preference.md` |
+| `.specstory/history/2026-07-02_00-24-02Z-notes-layout-preference.md` |
+| `.specstory/history/2026-07-30_01-25-21Z-modified-atk-recipe-style.md` |
+| `content/english/notes/reconcile-before-the-review.md` |
+| `.specstory/history/2026-07-06_08-19-33Z-ponytail-audit.md` |
+| `.specstory/history/2026-07-01_04-00-53Z-brave-shortcuts-organization.md` |
+| `.specstory/history/2026-06-20_11-43-50Z-high-school-level-vocabulary-for-flashcards.md` |
+| `.specstory/history/2026-07-10_13-10-50Z-static-site-slug-update.md` |
+| `.specstory/history/2026-07-13_15-14-13Z-one-page-zine-image.md` |
+| `.specstory/history/2026-07-10_14-30-12Z-image-concept-for-website.md` |
+| `.cursor/skills/ai-writing-system/SKILL.md` |
+| `content/english/notes/convert-pain-into-learning.md` |
+| `.specstory/history/2026-07-07_14-43-08Z-audit-jesus-quotes-in.md` |
+| `README.md` |
+| `content/english/notes/steward-after-the-win.md` |
+| `content/english/notes/attention-to-detail.md` |
+| `content/english/notes/into-your-hands.md` |
+| `content/english/blog/__why-git-greatest-open-source-innovation.md` |
+| `content/english/blog/mouse-wheel-click.md` |
+| `content/english/notes/the-second-brain-workflow.md` |
+| `.cursor/skills/hugo-template-guidance/references/detect-mode.md` |
+| `.specstory/history/2026-07-30_00-22-42Z-effective-communication-and-connection.md` |
+| `content/english/notes/active-reading.md` |
+| `.specstory/history/2026-05-28_02-37-37Z-hugoplate-theme-updates.md` |
+| `.specstory/history/2026-07-08_22-22-53Z-arroz-caldo-ingredient-units.md` |
+| `.impeccable/critique/2026-06-23T15-11-36Z__themes-jorap-layouts-home-html.md` |
+| `.specstory/history/2026-07-25_12-14-24Z-write-batch3-expand-script.md` |
+| `content/english/blog/getting-started-with-rss-feeds.md` |
+| `.specstory/history/2026-07-03_04-41-11Z-shareable-lines-review.md` |
+| `content/english/notes/share-what-you-learn.md` |
+| `.specstory/history/2026-06-20_02-55-39Z-improving-memorization-of-definitions.md` |
+| `.specstory/history/2026-07-25_12-16-40Z-write-2-to-6.md` |
+| `content/english/notes/pray-for-his-own.md` |
+| `content/english/notes/stay-effective-in-new-conditions.md` |
+| `.specstory/history/2026-07-09_14-18-35Z-bible-verse-shortcode-review.md` |
+| `content/english/notes/the-collectors-fallacy.md` |
+| `content/english/about/_index.md` |
+| `content/english/notes/heed-every-near-miss.md` |
+| `content/english/blog/__how-to-create-a-blog-template.md` |
+| `.specstory/history/2026-07-13_15-14-13Z-one-page-zine-image-addition.md` |
+| `content/english/notes/pressure-reveals-weakness.md` |
+| `.cursor/skills/hugo-template-guidance/references/styling-and-theming.md` |
+| `content/english/notes/love.md` |
+| `content/english/notes/metadata-strategy.md` |
+| `content/english/notes/hierarchy-of-controls.md` |
+| `.specstory/history/2026-05-30_13-55-11Z-shortcode-examples-in-theme-review.md` |
+| `.specstory/history/2026-06-22_17-21-26Z-voice-comparison-analysis.md` |
+| `.specstory/history/2026-07-03_02-42-11Z-garden-link-issues-summary.md` |
+| `content/english/notes/treasure-in-heaven.md` |
+| `.specstory/history/2026-07-07_14-32-44Z-nasb-1995-bible-verses.md` |
+| `content/english/notes/active-knowledge-curation.md` |
+| `static/exports/okf-blog/articles/why-i-focused-on-open-source.md` |
+| `.specstory/history/2026-07-06_12-57-45Z-wimbledon-link-removal.md` |
+| `.specstory/history/2026-07-23_11-56-35Z-feynman-batch-5-notes.md` |
+| `.specstory/history/2026-06-28_03-27-44Z-rebranding-sveltia-cms.md` |
+| `.specstory/history/2026-07-29_23-07-10Z-match-summary-and-stats.md` |
+| `.specstory/history/2026-05-31_17-24-57Z-wireless-earphones-preferences.md` |
+| `.specstory/history/2026-07-06_03-58-01Z-board-game-question-randomizer.md` |
+| `content/english/notes/create.md` |
+| `content/english/blog/instant-pot-arroz-caldo.md` |
+| `.specstory/history/2026-07-25_10-11-25Z-self-improvement-strategies.md` |
+| `.specstory/history/2026-07-07_03-36-19Z-marvel-snap-experience.md` |
+| `content/english/notes/plain-commitments-at-work.md` |
+| `.specstory/history/2026-06-22_03-05-21Z-random-duo-and-shuffle-options.md` |
+| `.specstory/history/2026-05-28_02-54-40Z-html-layout-structure-in-hugo.md` |
+| `static/exports/okf-blog/articles/google-over-apple-ecosystem.md` |
+| `.specstory/history/2026-06-22_07-06-09Z-content-consistency-between-local.md` |
+| `.specstory/history/2026-06-22_15-20-49Z-heading-replacement-and-genre.md` |
+| `.specstory/history/2026-07-26_15-21-08Z-garden-voice-batch-3.md` |
+| `.specstory/history/2026-07-13_15-20-42Z-alex-eala-tracker-update.md` |
+| `.specstory/history/2026-07-26_15-55-09Z-audit-long-drafts.md` |
+| `content/english/notes/glorify-your-name.md` |
+| `.specstory/history/2026-07-10_11-56-11Z-eala-score-update.md` |
+| `content/english/notes/the-narrow-way.md` |
+| `content/english/notes/fruits-of-the-spirit.md` |
+| `.specstory/history/2026-05-30_14-59-19Z-css-width-adjustment.md` |
+| `.specstory/history/2026-05-30_22-22-49Z-http-headers-analysis-and-security-report.md` |
+| `.specstory/history/2026-07-03_06-55-32Z-inspect-note-schema.md` |
+| `.specstory/history/2026-07-03_09-33-35Z-transformation-principles-overview.md` |
+| `.specstory/history/2026-05-02_10-14-48Z-terminal-process-stuck-issue.md` |
+| `.specstory/history/2026-06-23_15-03-56Z-impeccable-critique.md` |
+| `content/english/notes/future-proofing-knowledge.md` |
+| `.specstory/history/2026-07-06_07-13-26Z-garden-link-issues-summary.md` |
+| `.specstory/history/2026-07-23_12-11-06Z-levels-batch-0-notes.md` |
+| `content/english/notes/slow-productivity.md` |
+| `content/english/notes/people-centered-design.md` |
+| `content/english/notes/thank-father-for-revelation.md` |
+| `content/english/notes/say-no-to-nulled.md` |
+| `content/english/notes/permission-scales.md` |
+| `.specstory/history/2026-07-27_15-40-48Z-chess-experience-reflection.md` |
+| `.specstory/history/2026-07-06_04-36-44Z-spectrum-and-wavelength-comparison.md` |
+| `.specstory/history/2026-07-07_14-34-07Z-find-all-scripture-quotes.md` |
+| `.cursor/skills/ponytail/SKILL.md` |
+| `content/english/notes/change-takes-repetition.md` |
+| `content/english/notes/jesus-prayers.md` |
+| `.specstory/history/2026-05-31_17-56-20Z-wireless-audio-battery-life-preferences.md` |
+| `.specstory/history/2026-07-26_02-51-03Z-google-over-apple-ecosystem.md` |
+| `.specstory/history/2026-07-02_23-20-58Z-ui-ux-review-completion.md` |
+| `content/english/notes/table-fellowship.md` |
+| `.specstory/history/2026-05-30_22-53-06Z-swiper-loop-functionality.md` |
+| `.cursor/skills/ponytail-audit/SKILL.md` |
+| `content/english/notes/abide-in-me.md` |
+| `content/english/notes/success-is-stewardship.md` |
+| `.specstory/history/2026-06-19_04-23-36Z-evergreen-notes-update.md` |
+| `.specstory/history/2026-07-20_11-15-29Z-voice-comparison-with-john-maxwell.md` |
+| `.specstory/history/2026-07-26_01-19-26Z-flashcard-question-clarity.md` |
+| `content/english/blog/__second-cellphone.md` |
+| `content/english/notes/discipline.md` |
+| `templates/client-site/wrangler.toml.example` |
+| `content/english/notes/notice-the-good.md` |
+| `content/english/notes/turn-the-other-cheek.md` |
+| `.specstory/history/2026-06-18_07-46-40Z-top-5-releases-prioritization.md` |
+| `.specstory/history/2026-06-19_07-26-40Z-blog-page-rendering-error.md` |
+| `.specstory/history/2026-06-20_04-59-15Z-link-style-consistency-for-notes.md` |
+| `content/english/notes/ethical-leadership.md` |
+| `.specstory/history/2026-07-10_12-30-25Z-jorap-voice-blog-check.md` |
+| `content/english/notes/standing-vs-fellowship.md` |
+| `.specstory/history/2026-07-26_15-34-47Z-audit-tech-and-how.md` |
+| `.specstory/history/2026-07-14_04-29-10Z-blog-content-review.md` |
+| `specs/001-site-search/spec.md` |
+| `.specstory/history/2026-07-28_02-05-53Z-extract-jorap-personal-facts.md` |
+| `.specstory/history/2026-05-30_23-07-33Z-content-security-policy-issues.md` |
+| `.specstory/history/2026-07-20_00-30-13Z-icloud-usage-discussion.md` |
+| `content/english/notes/information-diet.md` |
+| `.specstory/history/2026-07-30_02-41-20Z-easy-instant-pot-recipes.md` |
+| `static/exports/okf-blog/articles/set-it-forget-it-arroz-caldo.md` |
+| `content/english/blog/__shopee-tips.md` |
+| `.specstory/history/2026-07-12_00-03-01Z-additional-insights-request.md` |
+| `content/english/notes/judgment-seat.md` |
+| `.specstory/history/2026-07-26_15-55-53Z-audit-framework-and-food.md` |
+| `content/english/blog/__wifi-router.md` |
+| `content/english/notes/linking-by-meaning.md` |
+| `docs/CLIENT_STATIC_SITE.md` |
+| `.specstory/history/2026-06-21_12-28-14Z-note-relationships-update-and-formatting.md` |
+| `.specstory/history/2026-07-10_05-58-29Z-jorap-voice-refinement.md` |
+| `.specstory/history/2026-07-24_10-24-02Z-folder-removal-request.md` |
+| `.specstory/history/2026-07-29_12-13-46Z-title-and-meta-title.md` |
+| `.specstory/history/2026-07-02_01-03-05Z-rewrite-note-descriptions-batch.md` |
+| `.specstory/history/2026-07-19_13-09-48Z-voice-and-anti-slop.md` |
+| `.specstory/history/2026-07-02_01-59-11Z-blog-item-related-notes.md` |
+| `.specstory/history/2026-07-02_12-50-16Z-blog-drafts-for-credibility.md` |
+| `.specstory/history/2026-06-20_02-55-39Z-notes-review-and-definition-updates.md` |
+| `.specstory/history/2026-05-02_10-08-11Z-hugo-and-build-tools-reinstallation.md` |
+| `.specstory/history/2026-07-23_12-19-22Z-wider-levels-batch-2.md` |
+| `.specstory/history/2026-07-01_15-11-32Z-build-command-error.md` |
+| `.specstory/history/2026-06-19_10-38-29Z-find-weekly-review-and.md` |
+| `.specstory/history/2026-07-15_11-46-47Z-missing-item-at-home.md` |
+| `content/english/notes/drafting-in-public.md` |
+| `content/english/contact/_index.md` |
+| `content/english/blog/__mcgill-big-three.md` |
+| `.specstory/history/2026-06-19_02-28-04Z-professional-name-suggestions-for.md` |
+| `.specstory/history/2026-05-30_14-10-04Z-button-styling-in-dark-mode.md` |
+| `.specstory/history/2026-06-18_09-38-43Z-social-media-icons-visibility-issue.md` |
+| `content/english/notes/withdraw-to-pray.md` |
+| `.specstory/history/2026-06-18_18-40-39Z-skill-update-for-tournament-naming.md` |
+| `.specstory/history/2026-06-18_07-59-09Z-published-posts-voice-consistency.md` |
+| `content/english/notes/anti-fragile-systems.md` |
+| `static/exports/okf-blog/articles/drupal-to-wordpress.md` |
+| `.specstory/history/2026-07-20_00-17-20Z-blog-review-for-jorap-voice.md` |
+| `.specstory/history/2026-07-29_11-49-59Z-blog-expansion-strategies.md` |
+| `content/english/notes/systems-for-growth.md` |
+| `.cursor/rules/session-close.mdc` |
+| `.specstory/history/2026-07-07_14-51-03Z-instant-pot-chicken-adobo-recipe.md` |
+| `docs/TODO.md` |
+| `.specstory/history/2026-07-26_15-34-56Z-audit-opinion-and-gear.md` |
+| `content/english/notes/continuous-improvement.md` |
+| `content/english/notes/situational-control.md` |
+| `.specstory/history/2026-06-18_17-06-01Z-impeccable-critique-discussion.md` |
+| `.specstory/history/2026-07-30_01-29-18Z-modified-recipe-style-guide.md` |
+| `content/english/blog/__kewpie-mayo.md` |
+| `content/english/notes/title-without-influence.md` |
+| `.specstory/history/2026-06-20_08-52-20Z-page-issue-check.md` |
+| `content/english/notes/invest-in-the-few.md` |
+| `.specstory/history/2026-07-23_11-56-29Z-feynman-batch-1-notes.md` |
+| `.specstory/history/2026-05-02_09-46-11Z-website-visual-improvement.md` |
+| `.specstory/history/2026-07-15_12-33-22Z-crisp-text-appearance.md` |
+| `.specstory/history/2026-07-28_21-02-57Z-alex-eala-tracker-update.md` |
+| `content/english/notes/own-your-part.md` |
+| `content/english/notes/thank-father-at-lazarus.md` |
+| `.cursor/skills/ai-writing-system/writing-samples.md` |
+| `content/english/authors/sam-wilson.md` |
+| `.specstory/history/2026-05-28_02-18-22Z-website-version-discrepancy.md` |
+| `content/english/blog/why-i-focused-on-open-source.md` |
+| `templates/client-site/README.md` |
+| `.specstory/history/2026-06-18_07-21-57Z-voice-consistency-in-posts.md` |
+| `content/english/notes/loss-of-reward.md` |
+| `.specstory/history/2026-06-20_14-14-13Z-npm-deployment-build-improvements.md` |
+| `.specstory/history/2026-07-25_12-16-54Z-practical-applications-of-random.md` |
+| `content/english/notes/guard-your-heart.md` |
+| `.specstory/history/2026-06-24_11-34-53Z-best-examples-review.md` |
+| `content/english/notes/present-a-living-sacrifice.md` |
+| `.specstory/history/2026-07-12_11-48-51Z-npr-spelling-request.md` |
+| `content/english/notes/habit-stacking.md` |
+| `.specstory/history/2026-07-02_07-20-32Z-fix-situational-descriptions.md` |
+| `content/english/notes/maps-of-content.md` |
+| `content/english/blog/streamlining-games-and-sports.md` |
+| `content/english/notes/resilience.md` |
+| `.specstory/history/2026-06-19_02-50-09Z-comparison-of-site-to.md` |
+| `.specstory/history/2026-07-01_11-55-29Z-key-concepts-from-notes.md` |
+| `.specstory/history/2026-06-20_08-48-32Z-search-result-prioritization.md` |
+| `.specstory/history/2026-07-15_12-21-41Z-top-progress-bar-implementation.md` |
+| `content/english/blog/__interesting-facts-about-jorap.md` |
+| `content/english/notes/workplace-principles.md` |
+| `content/english/notes/mental-models.md` |
+| `.specstory/history/2026-07-05_14-21-16Z-renewed-mind-connections.md` |
+| `content/english/notes/first-principles-thinking.md` |
+| `content/english/notes/minimum-effective-dose.md` |
+| `.cursor/skills/hugo-template-guidance/SKILL.md` |
+| `content/english/notes/capture.md` |
+| `content/english/notes/heart-righteousness.md` |
+| `.specstory/history/2026-07-26_15-21-25Z-garden-voice-batch-4.md` |
+| `.specstory/history/2026-07-02_01-07-08Z-flashcard-guiding-principles.md` |
+| `.specstory/history/2026-06-20_09-26-14Z-flashcards-voice-option.md` |
+| `.specstory/history/2026-07-10_06-19-21Z-garden-voice-fix-chunk.md` |
+| `content/english/_index.md` |
+| `.specstory/history/2026-06-19_13-31-38Z-local-information-storage-for.md` |
+| `.specstory/history/2026-06-20_08-56-21Z-flashcard-improvement-for-eternal.md` |
+| `content/english/notes/evergreen-vs-fleeting-notes.md` |
+| `content/english/notes/humility-and-service.md` |
+| `.specstory/history/2026-06-17_17-52-17Z-upstream-synchronization.md` |
+| `.specstory/history/2026-07-29_11-02-17Z-skill-creation-based-on.md` |
+| `static/exports/okf-blog/articles/static-site-vs-cms.md` |
+| `.specstory/history/2026-06-19_13-13-32Z-blog-random-notes-section.md` |
+| `.impeccable/critique/2026-07-02T23-29-02Z__site-wide-ui-ux-review.md` |
+| `content/english/notes/love-god.md` |
+| `content/english/notes/father-forgive-them.md` |
+| `static/exports/okf-blog/articles/why-i-stopped-playing-marvel-snap.md` |
+| `.impeccable/critique/2026-06-18T17-10-25Z__themes-jorap-layouts-home-html.md` |
+| `.specstory/history/2026-07-02_01-02-48Z-rewrite-note-descriptions-batch.md` |
+| `.specstory/history/2026-07-09_15-34-09Z-notes-review-and-key.md` |
+| `content/english/blog/__rechargeable-batteries.md` |
+| `.specstory/history/2026-07-02_13-08-11Z-search-functionality-issue.md` |
+| `.specstory/history/2026-07-12_09-13-46Z-writing-style-revisions.md` |
+| `.specstory/history/2026-06-19_07-07-52Z-responsiveness-testing-on-tablet.md` |
+| `content/english/notes/kingdom-on-the-road.md` |
+| `.specstory/history/2026-06-19_09-15-28Z-obsidian-like-design-modifications.md` |
+| `.specstory/history/2026-07-02_13-41-47Z-success-is-stewardship-notes.md` |
+| `.specstory/history/2026-07-03_03-10-34Z-key-concept-review-notes.md` |
+| `.specstory/history/2026-07-12_11-51-51Z-sme-software-customization-costs.md` |
+| `content/english/blog/__jobs-to-be-done-framework.md` |
+| `.specstory/history/2026-07-27_13-40-47Z-streamlining-games-and-sports.md` |
+| `.specstory/history/2026-06-20_09-15-01Z-flashcard-answer-hint-design.md` |
+| `content/english/blog/__portable-cross-platform-software.md` |
+| `.specstory/history/2026-07-13_01-23-10Z-hanamikoji-game-rules.md` |
+| `content/english/notes/forgiveness.md` |
+| `content/english/notes/honest-self-awareness.md` |
+| `.specstory/history/2026-05-29_17-18-49Z-humanizing-blog-posts.md` |
+| `content/english/notes/practice-small-experiments.md` |
+| `.specstory/history/2026-07-02_23-17-22Z-link-order-validation.md` |
+| `content/english/blog/__three-places-your-words-can-live.md` |
+| `.specstory/history/2026-06-19_14-26-19Z-exploring-connections-in-digital.md` |
+| `content/english/notes/periodic-knowledge-review.md` |
+| `content/english/notes/strategic-foresight.md` |
+| `.specstory/history/2026-06-22_03-05-21Z-random-duo-and-shuffle.md` |
+| `.specstory/history/2026-05-30_13-53-16Z-text-wrap-balance-for-blog-headings.md` |
+| `.specstory/history/2026-05-30_23-13-36Z-hover-effect-in-dark-mode.md` |
+| `.cursor/skills/flashcards/SKILL.md` |
+| `content/english/notes/patience.md` |
+| `.github/prompts/speckit.clarify.prompt.md` |
+| `content/english/notes/the-12-week-year.md` |
+| `.specstory/history/2026-07-25_11-31-55Z-word-change-for-pre.md` |
+| `.specstory/history/2026-07-06_08-37-14Z-external-links-verification.md` |
+| `docs/README.md` |
+| `.specstory/history/2026-05-30_22-31-01Z-jorap-blog-post-summaries.md` |
+| `.specstory/history/2026-07-03_11-30-03Z-garden-link-issues.md` |
+| `content/english/blog/why-run-your-own-website.md` |
+| `.specstory/history/2026-06-18_03-27-20Z-skill-update-based-on-history.md` |
+| `.specstory/history/2026-07-01_15-16-34Z-http-500-error-on-jorap.md` |
+| `.specstory/history/2026-06-19_17-01-20Z-anki-flash-card-functionality.md` |
+| `.specstory/history/2026-06-21_11-05-26Z-category-number-addition.md` |
+| `_vendor/github.com/gethugothemes/hugo-modules/llms-txt/layouts/index.md` |
+| `.specstory/history/2026-06-19_07-41-38Z-three-column-layout-display.md` |
+| `.specstory/history/2026-06-18_17-08-07Z-folder-structure-update-for-skill.md` |
+| `content/english/blog/__password-managers.md` |
+| `content/english/notes/context-aware-capture.md` |
+| `.specstory/history/2026-07-10_06-19-41Z-garden-voice-fix-chunk.md` |
+| `content/english/notes/creative-blocks.md` |
+| `content/english/notes/follow-their-lead.md` |
+| `content/english/notes/sustainable-performance.md` |
+| `.specstory/history/2026-07-17_01-06-51Z-new-note-signature-move.md` |
+| `.specstory/history/2026-06-19_15-20-18Z-notes-section-addition.md` |
+| `.specstory/history/2026-07-10_14-17-01Z-open-source-focus-review.md` |
+| `content/english/notes/building-a-second-brain.md` |
+| `content/english/notes/kindness.md` |
+| `.specstory/history/2026-07-01_15-00-26Z-random-notes-display-check.md` |
+| `.specstory/history/2026-07-02_22-39-53Z-complete-specs-document.md` |
+| `content/english/blog/__optimized-mindset-applied-math-or.md` |
+| `.specstory/history/2026-07-28_02-05-25Z-jorap-blog-updates.md` |
+| `.specstory/history/2026-07-26_15-34-37Z-audit-flagship-long-posts.md` |
+| `.specstory/history/2026-07-23_12-19-20Z-wider-levels-batch-0.md` |
+| `content/english/notes/duty-of-care.md` |
+| `content/english/notes/judge-not.md` |
+| `.cursor/rules/git-commits.mdc` |
+| `.specstory/history/2026-06-21_04-58-34Z-random-trio-feature-discussion.md` |
+| `.specstory/history/2026-06-30_02-06-39Z-best-free-hosting-stacks.md` |
+| `layouts/_default/single.md` |
+| `content/english/notes/analog-capture-tools.md` |
+| `.specstory/history/2026-07-07_03-55-27Z-top-20-grand-slam.md` |
+| `.specstory/history/2026-07-30_00-24-47Z-blog-review-for-jorap.md` |
+| `.specstory/history/2026-06-23_22-51-23Z-impeccable-critique.md` |
+| `content/english/notes/evergreen-notes.md` |
+| `.specstory/history/2026-07-11_23-21-02Z-laptop-companion-specifications.md` |
+| `.specstory/history/2026-06-19_14-18-04Z-randomized-notes-simplification.md` |
+| `.specstory/history/2026-07-20_00-30-59Z-google-vs-apple-ecosystem.md` |
+| `.github/prompts/speckit.plan.prompt.md` |
+| `content/english/notes/compounding.md` |
+| `.specstory/history/2026-07-29_04-45-47Z-windows-deployment-testing-simulation.md` |
+| `.specstory/history/2026-06-20_12-12-34Z-impeccable-critique-discussion.md` |
+| `.specstory/history/2026-07-06_04-27-35Z-scale-clues-without-categories.md` |
+| `.specstory/history/2026-07-07_15-20-52Z-fair-use-of-biblical-text.md` |
+| `.specstory/history/2026-07-29_12-49-48Z-portable-apps-for-mac.md` |
+| `content/english/notes/count-the-cost.md` |
+| `.specstory/history/2026-06-20_06-30-33Z-shortening-names-of-notes.md` |
+| `.specstory/history/2026-07-10_14-51-21Z-sustainable-online-publishing-review.md` |
+| `.cursor/skills/personal-context-management/SKILL.md` |
+| `.specstory/history/2026-07-03_06-41-32Z-shareable-thoughts-analysis.md` |
+| `.specstory/history/2026-07-10_13-43-36Z-drupal-to-wordpress-publish.md` |
+| `content/english/blog/__grade-1-better-than-kumon.md` |
+| `content/english/blog/__hugo-page-bundles.md` |
+| `.specstory/history/2026-05-02_10-44-55Z-impeccable-polish-standards.md` |
+| `.specstory/history/2026-05-30_15-46-12Z-big-wins-in-website-performance-improvement.md` |
+| `.specstory/history/2026-07-02_23-36-54Z-notes-page-two-column-layout.md` |
+| `content/english/notes/iron-sharpens-iron.md` |
+| `.specstory/history/2026-07-29_10-50-21Z-worst-blog-posts-improvement.md` |
+| `.specstory/history/2026-07-03_01-49-12Z-five-word-titles-for-notes.md` |
+| `.specstory/history/2026-07-26_03-06-33Z-google-ecosystem-critique.md` |
+| `.specstory/history/2026-07-26_15-20-35Z-garden-voice-batch-1.md` |
+| `content/english/notes/lean-startup.md` |
+| `.specstory/history/2026-07-07_09-33-10Z-grade-1-quiz-font-size.md` |
+| `content/english/blog/drupal-to-wordpress.md` |
+| `.specstory/history/2026-07-06_00-46-11Z-leadership-notes-connection.md` |
+| `content/english/notes/control-the-rhythm.md` |
+| `content/english/notes/digital-minimalism.md` |
+| `.specstory/history/2026-06-20_12-05-56Z-button-padding-consistency.md` |
+| `docs/CMS_SETUP.md` |
+| `.specstory/history/2026-06-20_10-42-35Z-graph-filters-on-mobile.md` |
+| `content/english/blog/__apple-strategically-late.md` |
+| `.specstory/history/2026-07-14_02-39-51Z-blog-frontmatter-review.md` |
+| `content/english/notes/safety-comes-first.md` |
+| `.cursor/rules/self-improvement.mdc` |
+| `.specstory/history/2026-06-22_07-39-25Z-rewrite-notes-examples-batch.md` |
+| `.specstory/history/2026-07-08_00-50-03Z-nasb1995-addition-request.md` |
+| `content/english/notes/random-duo.md` |
+| `.specstory/history/2026-06-20_14-14-13Z-npm-run-deployment-builds-improvement.md` |
+| `.specstory/history/2026-06-22_07-39-22Z-rewrite-notes-examples-batch.md` |
+| `.specstory/history/2026-07-24_07-09-26Z-okf-graph-location.md` |
+| `content/english/blog/__canon-g3000.md` |
+| `.specstory/history/2026-07-12_09-09-22Z-voice-rewriting-techniques.md` |
+| `content/english/notes/come-to-me-weary.md` |
+| `content/english/notes/pray-when-drained.md` |
+| `.cursor/skills/garden-voice/SKILL.md` |
+| `.cursor/skills/changelog-update/SKILL.md` |
+| `content/english/notes/atomic-notes.md` |
+| `.specstory/history/2026-06-20_06-58-41Z-automatic-inclusion-of-jorap-notes-in-meta-titles.md` |
+| `.specstory/history/2026-06-20_08-12-04Z-eternal-principles-and-jesus.md` |
+| `.specstory/history/2026-07-10_14-23-14Z-image-concept-for-static-site.md` |
+| `.specstory/history/2026-07-25_11-31-07Z-garden-link-issues-summary.md` |
+| `.cursor/skills/jorap-voice/SKILL.md` |
+| `content/english/notes/open-not-maintained.md` |
+| `docs/DESIGN.md` |
+| `content/english/notes/habit-formation.md` |
+| `.cursor/skills/ponytail-help/SKILL.md` |
+| `.specstory/history/2026-07-29_12-40-23Z-portable-software-benefits.md` |
+| `.specstory/history/2026-05-28_01-16-50Z-codebase-review-for-improvements.md` |
+| `.specstory/history/2026-06-20_09-33-14Z-em-dash-usage-in.md` |
+| `.specstory/history/2026-06-03_08-56-18Z-image-integration-in-markdown-file.md` |
+| `.specstory/history/2026-07-10_14-42-56Z-image-concept-improvement.md` |
+| `.specstory/history/2026-06-18_08-05-06Z-skill-voice-dash-formatting.md` |
+| `content/english/blog/__how-to-create-a-good-habit.md` |
+| `.specstory/history/2026-07-26_03-00-28Z-apple-privacy-debate.md` |
+| `.specstory/history/2026-07-02_12-41-13Z-website-style-documentation.md` |
+| `.specstory/history/2026-07-15_14-44-16Z-blog-compliance-with-okf.md` |
+| `.specstory/history/2026-07-27_02-14-40Z-okf-shortcode-processing.md` |
+| `content/english/notes/systems-thinking.md` |
+| `.specstory/history/2026-07-01_23-54-03Z-css-hidden-flex-properties.md` |
+| `.specstory/history/2026-06-20_10-34-58Z-card-display-settings-for-random-trio-and-duo.md` |
+| `.specstory/history/2026-07-06_07-02-15Z-category-selection-randomization.md` |
+| `.specstory/history/2026-06-21_11-09-34Z-local-display-issues-for-notes-and-graphs.md` |
+| `content/english/notes/it-is-written.md` |
+| `content/english/pages/elements.md` |
+| `content/english/notes/composure.md` |
+| `.specstory/history/2026-07-29_03-20-33Z-local-testing-across-platforms.md` |
+| `content/english/notes/review.md` |
+| `content/english/notes/fail-on-paper-first.md` |
+| `.specstory/history/2026-06-21_05-09-23Z-hugo-version-update-to-0.163.2.md` |
+| `.specstory/history/2026-05-30_15-07-53Z-heading-line-height-adjustment.md` |
+| `content/english/notes/attention-economy.md` |
+| `.specstory/history/2026-05-31_17-41-03Z-dash-formatting-on-the-site.md` |
+| `.specstory/history/2026-06-19_03-46-51Z-note-graph-functionality-issue.md` |
+| `.specstory/history/2026-07-27_16-43-48Z-xiaomi-as-the-new.md` |
+| `.specstory/history/2026-07-30_00-49-15Z-books-for-jorap-voice.md` |
+| `.specstory/history/2026-07-12_09-26-45Z-blog-review-assumptions.md` |
+| `.specstory/history/2026-05-02_10-22-02Z-impeccable-polish.md` |
+| `.specstory/history/2026-07-26_15-55-29Z-audit-hugo-tech-drafts.md` |
+| `.specstory/history/2026-07-26_15-55-41Z-audit-gear-and-health.md` |
+| `content/english/notes/justification.md` |
+| `.specstory/history/2026-06-21_12-48-52Z-format-consistency.md` |
+| `.specstory/history/2026-07-03_05-57-22Z-writing-quality-model.md` |
+| `content/english/notes/issues.md` |
+| `.specstory/history/2026-07-10_12-51-28Z-static-site-vs-cms.md` |
+| `content/english/notes/many-parts-one-body.md` |
+| `.specstory/history/2026-05-29_17-30-46Z-progress-bar-thickness-adjustment.md` |
+| `.specstory/history/2026-07-12_11-49-40Z-deck-lists-comparison.md` |
+| `.specstory/history/2026-06-18_01-46-41Z-alex-eala-tracker-update.md` |
+| `content/english/notes/weekly-review-checklists.md` |
+| `.specstory/history/2026-06-22_15-25-11Z-update-batch-ad-genre.md` |
+| `.specstory/history/2026-07-06_04-36-19Z-personal-scales-and-game-facts.md` |
+| `content/english/notes/eliminate-before-managing.md` |
+| `.specstory/history/2026-07-11_00-02-19Z-workplace-principles-notes.md` |
+| `.specstory/history/2026-07-25_11-15-02Z-garden-notes-rule-update.md` |
+| `.specstory/history/2026-06-20_13-40-00Z-graph-layout-with-focal.md` |
+| `.specstory/history/2026-07-10_23-05-15Z-garden-link-issues-summary.md` |
+| `content/english/notes/static-site-client-scope.md` |
+| `.specstory/history/2026-06-19_17-43-54Z-alex-eala-match-update.md` |
+| `.specstory/history/2026-07-26_01-17-13Z-bible-verses-for-content.md` |
+| `.specstory/history/2026-05-28_02-46-12Z-impeccable-updates-application.md` |
+| `.specstory/history/2026-07-16_10-46-47Z-blog-home-page-count.md` |
+| `content/english/blog/__mi-box-s.md` |
+| `static/exports/okf-blog/articles/what-i-look-for-in-wireless-earphones.md` |
+| `.specstory/history/2026-06-28_17-06-25Z-free-grace-and-eternal.md` |
+| `.specstory/history/2026-05-30_22-29-13Z-http-headers-analysis-and-recommendations.md` |
+| `.specstory/history/2026-07-26_02-52-16Z-google-over-apple-ecosystem.md` |
+| `.specstory/history/2026-06-22_07-39-18Z-rewrite-notes-examples-batch.md` |
+| `.cursor/skills/sync-upstreams/SKILL.md` |
+| `.specstory/history/2026-07-30_01-39-04Z-modified-atk-recipe-updates.md` |
+| `static/exports/okf-blog/articles/getting-started-with-rss-feeds.md` |
+| `_vendor/github.com/gethugothemes/hugo-modules/llms-txt/layouts/_default/list.md` |
+| `.specstory/history/2026-07-06_08-15-57Z-randomizer-in-jorap-voice.md` |
+| `CHANGELOG.md` |
+| `content/english/notes/spaced-repetition.md` |
+| `.specstory/history/2026-07-15_01-19-17Z-grade-1-math-and-writing-program.md` |
+| `.specstory/history/2026-07-20_11-48-28Z-fix-pkm-notes-shareable.md` |
+| `.specstory/history/2026-06-20_02-45-48Z-file-path-reference.md` |
+| `content/english/notes/ask-seek-knock.md` |
+| `.github/prompts/speckit.specify.prompt.md` |
+| `.specstory/history/2026-07-23_12-11-08Z-levels-batch-2-notes.md` |
+| `.specstory/history/2026-06-22_15-25-09Z-update-batch-ac-genre.md` |
+| `.cursor/skills/jorap-voice/writing-to-learn.md` |
+| `.cursor/skills/jorap-voice/recipe-style.md` |
+| `static/exports/okf-blog/articles/dnpap-song-resources.md` |
+| `content/english/blog/__ai-contractor-problem-wordpress.md` |
+| `.specstory/history/2026-07-10_06-19-24Z-garden-voice-fix-chunk.md` |
+| `content/english/notes/secret-devotion.md` |
+| `.specstory/history/2026-07-08_00-42-13Z-verse-display-standards-update.md` |
+| `.specstory/history/2026-07-28_02-11-37Z-pop-culture-and-sports.md` |
+| `content/english/notes/client-site-pass-off.md` |
+| `content/english/notes/dont-worry.md` |
+| `static/exports/okf-blog/articles/miracle-isaiah-david.md` |
+| `.specstory/history/2026-07-20_11-43-35Z-garden-voice-notes-review.md` |
+| `.specstory/history/2026-07-05_14-37-42Z-garden-link-issues-summary.md` |
+| `static/exports/okf-blog/articles/sustainable-online-publishing.md` |
+| `content/english/notes/leadership.md` |
+| `.specstory/history/2026-07-14_02-22-11Z-hanamikoji-blog-images.md` |
+| `.specstory/history/2026-07-15_18-39-15Z-wife's-singing-appreciation.md` |
+| `.specstory/history/2026-07-27_11-46-14Z-blog-on-streamlining-games.md` |
+| `.specstory/history/2026-07-27_14-01-11Z-streamlining-games-and-sports.md` |
+| `content/english/blog/__stack-mismatch-stories.md` |
+| `.cursor/skills/hugo-template-guidance/references/content-management.md` |
+| `content/english/notes/follow-the-rhythm.md` |
+| `content/english/notes/outcomes-over-pitch-decks.md` |
+| `content/english/notes/prayer-jesus-taught.md` |
+| `.specstory/history/2026-06-22_07-06-09Z-content-consistency-between-local-and-live.md` |
+| `.specstory/history/2026-07-28_02-29-12Z-audit-blogs-for-ledger.md` |
+| `content/english/notes/leadership-is-influence.md` |
+| `.specstory/history/2026-07-25_12-23-31Z-em-dash-replacement-rules.md` |
+| `.specstory/history/2026-07-28_02-28-11Z-blog-update-review.md` |
+| `content/english/blog/what-i-look-for-in-wireless-earphones.md` |
+| `.specstory/history/2026-06-19_13-27-25Z-open-in-chatgpt-button.md` |
+| `.specstory/history/2026-06-20_09-33-14Z-em-dash-usage-in-defined-voice.md` |
+| `.specstory/history/2026-07-03_05-43-04Z-nasb-1995-verification.md` |
+| `.specstory/history/2026-07-26_02-22-39Z-printable-letter-sheet-format.md` |
+| `.specstory/history/2026-07-31_00-43-58Z-deployment-symlink-configuration.md` |
+| `.specstory/history/2026-06-17_17-47-53Z-project-update-with-new-skill.md` |
+| `.specstory/history/2026-07-23_11-56-27Z-feynman-batch-0-notes.md` |
+| `content/english/blog/__client-site-pass-off.md` |
+| `.specstory/history/2026-06-19_17-24-30Z-notes-memorization-improvement.md` |
+| `.specstory/history/2026-06-20_10-42-35Z-graph-filters-on-mobile-and-tablet.md` |
+| `.specstory/history/2026-07-01_13-22-54Z-garden-link-structure-issues.md` |
+| `.specstory/history/2026-07-08_22-19-42Z-arroz-caldo-instant-pot.md` |
+| `.specstory/history/2026-07-26_02-27-48Z-apple-ecosystem-observation.md` |
+| `.specstory/history/2026-07-10_14-08-35Z-notes-descriptions-in-concepts.md` |
+| `.specstory/history/2026-07-10_14-31-10Z-new-concept-image-request.md` |
+| `.specstory/history/2026-07-26_15-04-10Z-okf-version-update-steps.md` |
+| `content/english/blog/__worcestershire-sauce.md` |
+| `content/english/blog/facebook-favorites-feed.md` |
+| `.specstory/history/2026-04-22_01-47-55Z-improving-youtube-loading-speed.md` |
+| `content/english/notes/quarterly-planning.md` |
+| `.specstory/history/2026-06-19_02-18-30Z-active-players-selection-update.md` |
+| `content/english/notes/execution.md` |
+| `.specstory/history/2026-07-20_00-17-20Z-blog-review-for-jorap.md` |
+| `content/english/notes/normalization-of-deviance.md` |
+| `.specstory/history/2026-07-02_09-22-01Z-domain-redirection-setup.md` |
+| `.specstory/history/2026-07-02_23-31-15Z-orphaned-note-issue.md` |
+| `.cursor/skills/ai-writing-system/style-priorities.md` |
+| `.specstory/history/2026-07-15_11-48-18Z-love-for-the-inter-font.md` |
+| `content/english/blog/google-over-apple-ecosystem.md` |
+| `.specstory/history/2026-06-20_07-32-04Z-capture-md-format-explanation.md` |
+| `.specstory/history/2026-07-17_01-13-54Z-upstream-synchronization.md` |
+| `content/english/notes/deliberate-practice.md` |
+| `content/english/notes/sabbath-for-good.md` |
+| `.specstory/history/2026-07-29_10-25-27Z-ai-writing-system-development.md` |
+| `content/english/notes/signature-move.md` |
+| `.specstory/history/2026-07-29_12-19-38Z-open-source-notes.md` |
+| `.cursor/skills/jorap-voice/zinsser.md` |
+| `content/english/notes/by-their-fruits.md` |
+| `content/english/notes/platform-reach-is-borrowed.md` |
+| `.cursor/skills/hugo-template-guidance/references/hugo-modules.md` |
+| `content/english/notes/low-hanging-fruit.md` |
+| `.specstory/history/2026-07-30_00-27-58Z-voice-pass-live-blog.md` |
+| `content/english/notes/maintenance-window.md` |
+| `.specstory/history/2026-06-20_17-18-55Z-button-and-link-padding.md` |
+| `.specstory/history/2026-05-28_03-07-49Z-three-column-page-layout.md` |
+| `.specstory/history/2026-07-27_10-04-00Z-love-for-modern-board.md` |
+| `content/english/blog/__selling-static-sites.md` |
+| `.specstory/history/2026-07-05_14-39-40Z-discipleship-and-leadership-notes.md` |
+| `.specstory/history/2026-05-30_15-03-45Z-headings-line-height-adjustment.md` |
+| `.specstory/history/2026-07-01_14-39-04Z-okf-standards-compliance.md` |
+| `content/english/notes/daily-notes.md` |
+| `.specstory/history/2026-05-30_23-18-50Z-dark-mode-functionality-review.md` |
+| `.specstory/history/2026-07-30_00-38-04Z-pickleball-net-height-comparison.md` |
+| `.specstory/history/2026-06-30_04-47-08Z-rollback-principle-connections.md` |
+| `.specstory/history/2026-07-25_11-49-59Z-filename-update-for-pre.md` |
+| `.specstory/history/2026-06-20_12-30-16Z-flashcards-homepage-issues.md` |
+| `content/english/notes/peace.md` |
+| `content/english/notes/eternal-rewards.md` |
+| `.specstory/history/2026-07-01_14-04-02Z-notes-frontmatter-conversion.md` |
+| `.specstory/history/2026-07-06_02-22-55Z-notes-review-for-connections.md` |
+| `.specstory/history/2026-07-06_07-21-06Z-spectrum-sorting-criteria.md` |
+| `content/english/blog/worship-pads-solo-guitar.md` |
+| `.specstory/history/2026-07-17_00-59-48Z-new-notes-from-blogs.md` |
+| `content/english/blog/__markdown-deep-dive.md` |
+| `content/english/notes/_index.md` |
+| `content/english/notes/faith-and-works.md` |
+| `content/english/notes/network-analysis.md` |
+| `.specstory/history/2026-07-19_13-09-48Z-voice-and-anti-slop-rules.md` |
+| `.specstory/history/2026-05-02_14-51-45Z-updating-fields-in-sveltia-cms.md` |
+| `.specstory/history/2026-07-26_15-55-19Z-audit-medium-drafts.md` |
+| `content/english/blog/why-my-son-loves-toca-boca-world.md` |
+| `.specstory/history/2026-06-21_15-27-45Z-file-name-change-to-mental-models.md` |
+| `.specstory/history/2026-05-30_15-05-34Z-tailwind-css-compilation-on-watch.md` |
+| `.specstory/history/2026-07-06_07-22-00Z-collection-suggestions.md` |
+| `content/english/blog/__everyone-communicates-few-connect.md` |
+| `content/english/blog/__native-hugo-taxonomies.md` |
+| `content/english/blog/consistent-ai-output-wordpress-builds.md` |
+| `content/english/notes/decision-quality.md` |
+| `.specstory/history/2026-07-29_11-31-19Z-unusual-vs-suspicious-differences.md` |
+| `.specstory/history/2026-07-08_02-17-18Z-ephesians-2-8-9.md` |
+| `.specstory/history/2026-07-02_07-13-32Z-clarification-needed-on-notes.md` |
+| `.specstory/history/2026-07-15_11-29-05Z-game-success-strategies.md` |
+| `.cursor/skills/ponytail-review/SKILL.md` |
+| `content/english/blog/__immune-booster-supplements.md` |
+| `content/english/notes/failure-as-feedback.md` |
+| `.cursor/skills/hugo-template-guidance/references/page-configuration.md` |
+| `.specstory/history/2026-05-02_15-02-29Z-best-practices-for-media-images-in-sveltia-cms-and-hugo.md` |
+| `.specstory/history/2026-07-07_03-43-20Z-alex-eala-tracker-update.md` |
+| `.specstory/history/2026-05-31_18-00-56Z-tag-consistency-check.md` |
+| `content/english/notes/digital-serendipity.md` |
+| `.specstory/history/2026-07-10_01-09-33Z-bible-notes-review.md` |
+| `.specstory/history/2026-07-02_13-21-05Z-audit-template-responsiveness.md` |
+| `.specstory/history/2026-07-07_09-45-16Z-grade-1-answer-contrast.md` |
+| `content/english/blog/__markdown-formatting.md` |
+| `content/english/notes/risk-management.md` |
+| `content/english/notes/adaptability.md` |
+| `.impeccable/critique/2026-06-23T22-53-30Z__themes-jorap-layouts-home-html.md` |
+| `content/english/notes/cap-todays-commitments.md` |
+| `.specstory/history/2026-07-12_09-20-42Z-garden-voice-notes-review.md` |
+| `content/english/notes/bear-each-others-burdens.md` |
+| `content/english/notes/mercy.md` |
+| `content/english/notes/open-source.md` |
+| `content/english/notes/sanctification.md` |
+| `content/english/notes/self-control.md` |
+| `content/english/notes/emotional-regulation.md` |
+| `content/english/notes/the-feynman-technique.md` |
+| `static/exports/okf-blog/articles/instant-pot-chicken-adobo.md` |
+| `.specstory/history/2026-07-20_11-28-59Z-analyze-draft-blogs-likability.md` |
+| `content/english/notes/the-golden-rule.md` |
+| `.cursor/skills/ai-writing-system/implementation-guide.md` |
+| `.specstory/history/2026-06-22_07-26-03Z-genre-examples-for-better.md` |
+| `.specstory/history/2026-07-23_12-19-24Z-wider-levels-batch-4.md` |
+| `.specstory/history/2026-05-02_15-34-40Z-sveltia-cms-shortcodes-in-markdown.md` |
+| `content/english/notes/para-method.md` |
+| `.specstory/history/2026-06-18_02-54-38Z-skill-update-based-on-history.md` |
+| `.specstory/history/2026-07-29_13-38-05Z-garden-link-issues-summary.md` |
+| `content/english/notes/change-window.md` |
+| `.specstory/history/2026-07-02_12-56-54Z-jorap-notes-services-mention.md` |
+| `content/english/notes/okf-export.md` |
+| `.specstory/history/2026-05-31_16-59-16Z-middle-mouse-wheel-click-functionality.md` |
+| `.specstory/history/2026-06-18_17-22-23Z-email-functionality-in-contact-us-form.md` |
+| `content/english/notes/accountability.md` |
+| `.specstory/history/2026-07-02_00-21-54Z-fix-flashcards-batch-1.md` |
+| `.specstory/history/2026-07-26_03-05-08Z-reasons-for-choosing-apple.md` |
+| `content/english/blog/why-i-love-modern-board-games.md` |
+| `content/english/notes/standard-operating-procedures.md` |
+| `content/english/blog/why-keep-desktop-laptop.md` |
+| `.specstory/history/2026-07-07_09-33-10Z-grade-1-quiz-font.md` |
+| `content/english/notes/reconciliation-before-worship.md` |
+| `content/english/notes/synthesis-as-a-goal.md` |
+| `.specstory/history/2026-07-19_12-56-56Z-next-blog-publication.md` |
+| `content/english/blog/__jorap-notes-features.md` |
+| `content/english/blog/__modified-atk-recipe-style-guide-rules.md` |
+| `.specstory/history/2026-07-30_00-28-01Z-voice-pass-draft-blogs.md` |
+| `content/english/notes/taxonomy.md` |
+| `content/english/notes/walk-by-the-spirit.md` |
+| `content/english/notes/the-fathers-food.md` |
+| `.specstory/history/2026-07-13_16-24-58Z-blog-retheming-and-component.md` |
+| `content/english/blog/hanamikoji-duopoly-retheme.md` |
+| `.specstory/history/2026-06-20_14-57-19Z-javascript-library-for-network-visualization.md` |
+| `specs/001-site-search/checklists/requirements.md` |
+| `.specstory/history/2026-06-20_10-34-58Z-card-display-settings-for.md` |
+| `.specstory/history/2026-06-22_02-16-32Z-missing-hugo-extended-package-warning.md` |
+| `.specstory/history/2026-07-15_18-23-28Z-jorap-blog-facts-table.md` |
+| `content/english/notes/jesus-rhythms.md` |
+| `.specstory/history/2026-07-11_23-00-55Z-wimbledon-2026-update.md` |
+| `.specstory/history/2026-06-19_08-14-49Z-note-card-clickable-design.md` |
+| `.specstory/history/2026-06-18_07-53-36Z-drafts-visual-representation-for.md` |
+| `.specstory/history/2026-07-17_01-19-16Z-job-search-after-layoff.md` |
+| `content/english/notes/integrity-without-an-audience.md` |
+| `.specstory/history/2026-07-30_01-17-58Z-writing-to-learn-overview.md` |
+| `content/english/notes/servant-leadership.md` |
+| `.specstory/history/2026-06-28_00-39-28Z-blank-page-issue-on-jorap-admin.md` |
+| `.specstory/history/2026-07-31_00-49-03Z-kilocode-free-plan-utility.md` |
+| `.specstory/history/2026-07-07_03-52-10Z-video-update-priority-rules.md` |
+| `content/english/blog/__xiaomi-is-the-new-huawei.md` |
+| `content/english/notes/dont-copy-the-pattern.md` |
+| `.specstory/history/2026-06-03_00-27-22Z-optimal-steps-in-wordpress-build-process.md` |
+| `.specstory/history/2026-07-07_04-31-58Z-obsidian-features-discussion.md` |
+| `static/exports/okf-blog/articles/how-i-built-jorap-notes.md` |
+| `content/english/notes/renewed-mind.md` |
+| `content/english/notes/take-up-your-cross.md` |
+| `.github/prompts/speckit.checklist.prompt.md` |
+| `archetypes/notes-review.md` |
+| `.specstory/history/2026-07-02_01-02-56Z-rewrite-note-descriptions-batch.md` |
+| `.specstory/history/2026-05-02_09-22-56Z-determining-usage-of-port-1313.md` |
+| `.specstory/history/2026-07-19_12-29-48Z-blog-understanding-difficulty-ranking.md` |
+| `content/english/notes/forgiveness-at-work.md` |
+| `content/english/notes/priorities-before-the-inbox.md` |
+| `.specstory/history/2026-06-20_11-46-55Z-jorap-voice-skill-vocabulary.md` |
+| `.specstory/history/2026-07-25_11-48-32Z-flashcard-question-improvement.md` |
+| `.specstory/history/2026-05-28_03-02-51Z-categories-and-tags-layout.md` |
+| `.specstory/history/2026-06-20_08-56-21Z-flashcard-improvement-for-eternal-principles.md` |
+| `.specstory/history/2026-07-26_15-35-08Z-audit-recipe-faith-music.md` |
+| `.specstory/history/2026-06-22_02-39-52Z-impeccable-audit-discussion.md` |
+| `content/english/notes/backlinks.md` |
+| `content/english/notes/slow-the-moment.md` |
+| `.specstory/history/2026-07-29_11-40-47Z-personal-context-management-queries.md` |
+| `.specstory/history/2026-06-22_02-20-58Z-centralized-skills-organization.md` |
+| `.specstory/history/2026-07-06_04-49-08Z-scale-clues-database-usage.md` |
+| `docs/PRODUCT.md` |
+| `.specstory/history/2026-05-29_17-44-43Z-blog-description-improvement.md` |
+| `.specstory/history/2026-07-28_02-25-19Z-jorap-voice-skill-transfer.md` |
+| `.specstory/history/2026-06-28_03-00-38Z-sveltia-notes-update.md` |
+| `content/english/blog/static-site-vs-cms.md` |
+| `.specstory/history/2026-07-03_05-35-42Z-nasb1995-internal-storage.md` |
+| `content/english/blog/sustainable-online-publishing.md` |
+| `content/english/notes/the-garage-concept.md` |
+| `.specstory/history/2026-06-21_05-16-41Z-local-deployment-performance-on-mac.md` |
+| `.specstory/history/2026-06-18_07-34-58Z-reasons-for-stopping-marvel.md` |
+| `.specstory/history/2026-07-01_11-51-46Z-connections-between-mercy-and.md` |
+| `content/english/notes/coaching-ethics.md` |
+| `.cursor/skills/jorap-voice/author-context.md` |
+| `.specstory/history/2026-07-03_11-30-08Z-additional-issues-for-notes.md` |
+| `.github/prompts/speckit.analyze.prompt.md` |
+| `.specstory/history/2026-07-09_14-07-18Z-site-improvement-suggestions.md` |
+| `.cursor/skills/garden-voice/examples.md` |
+| `.specstory/history/2026-06-19_13-17-29Z-ai-prompt-for-random.md` |
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Reviewing .mise.toml and docs/TROUBLESHOOTING to understand the current setup before drafting cross-platform instructions.
+
+Checking existing local development documentation and example environment files to assess what is already documented.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.mise.toml</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "docs/**/*.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "local dev|Local dev|setup|Windows|macOS|Linux"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "local dev|Local dev|setup|Windows|macOS|Linux",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "docs/CLIENT_STATIC_SITE.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "docs/README.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "docs/CMS_SETUP.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": "docs/TROUBLESHOOTING.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "docs/SPEC.md"
+    }
+  ],
+  "totalFiles": 5,
+  "totalMatches": 13
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.dev.vars.example</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Reviewing the local development section in TROUBLESHOOTING.md to avoid duplicating content and ensure the README aligns with existing documentation.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/docs/TROUBLESHOOTING.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/fix-tailwind-bin.js</summary>
+
+</details></tool-use>
