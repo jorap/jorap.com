@@ -4,13 +4,13 @@ meta_title: "The Second Brain Workflow - End to End"
 description: "Capture to inbox, organize by project, distill on reuse, express weekly - CODE and PARA in one loop."
 key_concept: |
   - CODE and PARA in one daily-to-weekly loop - capture daily, express weekly.
-  - Level 1: Save ideas every day, sort them by project, and ship something from them every week - one loop, not two habits you quit.
-  - Level 2: CODE and PARA in one daily-to-weekly loop - capture daily, express weekly, organize by active project.
-  - Level 3: Capture and organize fail alone because express weekly closes the loop - notes nobody ships become guilt storage.
-  - Level 4: Run capture daily and one express output weekly before you add another organize pass.
-  - Level 5: Two habits you quit is one loop you never close - daily capture plus weekly express, or the second brain becomes an archive; [[Building a Second Brain]] names the stack.
   - Organize by project, distill when you reuse - do not polish notes nobody reads yet.
   - Express weekly closes the loop - capture and organize are not enough.
+level_1: "The second brain workflow is CODE and PARA in one daily-to-weekly loop - capture daily, organize by project, express weekly."
+level_2: "Save ideas every day, sort them by project, ship something every week - one loop, not two habits you quit."
+level_3: "Run capture daily and one express output weekly before you add another organize pass - notes nobody ships become guilt storage."
+level_4: "Organize by project, distill when you reuse - do not polish notes nobody reads yet; express weekly closes the loop capture and organize cannot close alone."
+level_5: "[[Building a Second Brain]] names the stack - daily capture plus weekly express, or the second brain becomes an archive."
 examples:
   - "Links land in one inbox all week; weekly review empties it and ships one note - one loop, not separate capture and organize rituals I quit."
   - "Friday night is capture everything in one jar; Sunday is sort, toss, and file what is worth keeping."
@@ -57,4 +57,3 @@ cards:
     back: "Inbox dump - pick one action."
 draft: false
 ---
-

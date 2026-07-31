@@ -5,12 +5,17 @@ meta_title: "Fruits of the Spirit - Character the Spirit Produces"
 description: "Paul's Galatians cluster grown by the Spirit - love through self-control, not a merit checklist."
 key_concept: |
   {{< bible ref="Galatians 5:22-23" emphasize="22" >}}
-
+  
   - Love through self-control is one Spirit-grown cluster - not nine separate badges you earn for heaven.
   - I split each fruit into one-claim notes so I can link and drill them like the rest of the garden.
   - [[Walk by the Spirit]] is the daily lane; [[Abide in Me]] is the vine picture John gives - fruit grows from connection, not willpower theater.
   - Under [[Free Grace]], fruit confirms belonging and answers grace already received - it does not buy the ticket.
   - Start at [[Walk by the Spirit]] if you need the engine. Wander the nine fruits below by what you lack today.
+level_1: "Fruits of the Spirit are love through self-control as one Spirit-grown cluster - not nine separate badges you earn for heaven."
+level_2: "Like a fruit basket from one tree - Paul's list grows together on one branch, not nine chores on a merit board."
+level_3: "Open [[Walk by the Spirit]] first, then pick the fruit note that names what you lack this week - drill one claim, not the whole bushel."
+level_4: "Fruit confirms belonging under grace - the cluster is evidence of life already received, not wages that buy eternal life."
+level_5: "[[Abide in Me]] and [[Walk by the Spirit]] are the engine; [[Free Grace]] keeps fruit from becoming a salvation scorecard."
 shareable_thought:
   - "Love through self-control is one Spirit-grown cluster, not nine separate badges you earn for heaven."
   - "I split each fruit into one-claim notes so I can link and drill them."
@@ -60,7 +65,6 @@ aliases: ["fruit of the Spirit", "Galatians 5-22-23 fruit"]
 featured: false
 draft: false
 ---
-
 ## Start here
 
 - [[Walk by the Spirit]] - Galatians 5:16; daily dependence over willpower sprints

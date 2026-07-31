@@ -4,13 +4,13 @@ meta_title: "Slow Productivity - Fewer Projects, Deeper Notes"
 description: "Slow productivity is fewer active projects so work finishes deep instead of piling as guilt."
 key_concept: |
   - Busy is not the same as finished.
-  - Level 1: Running around all day does not mean the important job is done yet.
-  - Level 2: A full calendar can feel productive while the one project that matters stays unfinished in the corner.
-  - Level 3: Fewer active projects protect depth - notes and builds ship instead of stacking up as guilt you never touch.
-  - Level 4: Cut active projects until one important build can finish this month - busy is not the scoreboard.
-  - Level 5: Fewer lanes on purpose trades looking productive for work you can finish - same move as [[Deep Work]] and [[Minimum Effective Dose]] on project count.
   - I run fewer active projects so notes become shipped work, not a guilt backlog.
   - Four half-started builds eat the one client site that was supposed to ship this month.
+level_1: "Slow productivity means running fewer active projects so work finishes deep instead of piling as guilt."
+level_2: "Busy is not the same as finished - a full calendar can feel productive while the one build that matters stays untouched."
+level_3: "Drop a fourth side project to finish one book draft this quarter - depth beats breadth when guilt stacks."
+level_4: "Because four half-started builds eat the one client site due this month, cut active projects until one important build can finish."
+level_5: "Trade looking productive for work you can ship - same lane as [[Deep Work]] and [[Minimum Effective Dose]] on project count."
 examples:
   - "I dropped a fourth side project to finish one book draft - depth beat breadth this quarter."
   - "One deep client build this month beat three half-started sites on the portfolio."
@@ -56,4 +56,3 @@ cards:
     back: "One project this month - depth wins."
 draft: false
 ---
-

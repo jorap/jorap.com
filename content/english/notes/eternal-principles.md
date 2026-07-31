@@ -5,11 +5,6 @@ meta_title: "Eternal Principles - Jesus' Teachings in the Garden"
 description: "What Jesus taught that doesn't expire when the culture shifts - love God, love people, forgive, seek the kingdom first."
 key_concept: |
   - I split them into one-claim notes so I can link and drill them like the rest of the garden.
-  - Level 1: I cut Jesus' long talk into small cards I can shuffle, like index cards on a ring.
-  - Level 2: Eternal Principles split scripture into one-claim notes you can link like the rest of the garden - verse anchor separate from commentary.
-  - Level 3: Because one claim per note keeps scripture anchor and commentary separate, each principle can cross-link without turning into an essay.
-  - Level 4: Open one spine note, read the verse block, then follow wikilinks to the principle you need today - order matters less once [[Free Grace]] is ground.
-  - Level 5: The ground is [[Free Grace]] - these principles are how I try to live once I have already received eternal life, not the price of heaven.
   - The ground is [[Free Grace]]: eternal life is God's gift by faith in Christ, not works.
   - These principles aren't the price of heaven.
   - They're how I try to live once I've already received it.
@@ -18,6 +13,11 @@ key_concept: |
   - Gospel spine notes carry six review cards each - drill at [/notes/review/](/notes/review/).
   - Filter by **Eternal Principles**, **Faith**, **Commandments**, **Ethics**, **Prayer**, **Priorities**, **Discipleship**, or **Jesus Rhythms** to match each section.
   - What Jesus taught that doesn't expire when the culture shifts - love God, love people, forgive, seek the kingdom first.
+level_1: "Eternal Principles is the garden hub that splits Jesus' teachings into one-claim notes you can link and drill like the rest of the stack."
+level_2: "Scripture becomes index cards on a ring - one claim per note with verse anchor separate from commentary, linkable like any other atom."
+level_3: "Open one spine note, read the verse block, then follow wikilinks to the principle you need today - order matters less once [[Free Grace]] is ground."
+level_4: "The ground is [[Free Grace]] - these principles are how I try to live once I have already received eternal life, not the price of heaven."
+level_5: "You split a long teaching into six review cards per spine note - you build a drillable library others can wander by section or tag."
 shareable_thought:
   - "What Jesus taught that doesn't expire when the culture shifts - love God, love people, forgive, seek the kingdom first."
   - "I split them into one-claim notes so I can link and drill them like the rest of the garden."
@@ -43,9 +43,6 @@ aliases: ["Jesus teachings", "gospel principles"]
 featured: true
 draft: false
 ---
-
-
-
 ## Jesus' rhythms
 
 Biography lane - what the Gospels show He did day to day. Hub: [[Jesus' Rhythms]]. Teaching lane stays in the sections below.

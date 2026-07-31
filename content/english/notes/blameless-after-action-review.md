@@ -4,14 +4,14 @@ meta_title: "Blameless After-Action Review - Learn System Causes After Calm Retu
 description: "After rollback restores service, the team learns what broke in the system - not who to punish for pushing deploy."
 key_concept: |
   - Rollback Principle gets users back on the old build; blameless after-action review gets judgment back.
-  - Level 1: Like when the team fixes the broken goal net first - then they talk about what went wrong without picking one kid to blame.
-  - Level 2: Rollback puts users back on the old build; blameless review puts judgment back - trace what broke in the system after calm returns.
-  - Level 3: Blameless after-action review pairs with [[Rollback Principle]] - fix the runbook after revert, not the person who pushed deploy.
-  - Level 4: Monday debrief traces the missing env var check, not which intern merged - someone still says "my call" in standup while the room fixes the process.
-  - Level 5: Same shape as [[Incident Investigation]] but culture rule is no punishment theater - [[Own the Error]] means naming your call without the room fixing the person instead of the runbook.
   - Same shape as [[Incident Investigation]] - trace system causes - but the culture rule is no scalpel hunts for a fall guy.
   - [[Own the Error]] still means someone says "my call" in standup; the room fixes the runbook, not the person.
   - Fix the runbook after rollback - not the person who pushed deploy.
+level_1: "Blameless after-action review is a post-incident debrief that fixes the system, not the person who pushed deploy."
+level_2: "Like fixing the broken goal net first, then talking without picking one kid to blame - judgment returns after calm."
+level_3: "Monday debrief traces the missing env var check, not which intern merged - someone still says \"my call\" while the room fixes the runbook."
+level_4: "Pairs with [[Rollback Principle]] - rollback puts users on the old build; blameless review puts judgment back on the process."
+level_5: "Same shape as [[Incident Investigation]] but culture rule is no punishment theater - [[Own the Error]] means naming your call without fixing the person instead of the runbook."
 examples:
   - "Bad Friday deploy reverted by lunch - Monday after-action review traced the missing env var check, not which intern merged."
   - "After the equipment cart tipped twice we changed storage layout - debrief named the hazard, not \"trainer was clumsy.\""
@@ -70,5 +70,3 @@ cards:
     back: "Write the near-miss - blameless review this week."
 draft: false
 ---
-
-

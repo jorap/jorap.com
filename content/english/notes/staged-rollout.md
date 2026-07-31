@@ -4,13 +4,13 @@ meta_title: "Staged Rollout - Ship to a Slice Before Everyone Is the Test"
 description: "Ship to a small slice first so rollback stays cheap if the new state bleeds."
 key_concept: |
   - Full-blast deploy turns every user into a test subject.
-  - Level 1: If you change everything for everyone at once, one bug hits every person the same day.
-  - Level 2: A full blast deploy turns your whole user base into testers - harm spreads before anyone can turn back.
-  - Level 3: Staged rollout limits blast radius because a small group catches failures before the rest of the lane commits.
-  - Level 4: Ship to a preview branch, one table section, or one scrimmage night before you commit the whole lane.
-  - Level 5: Staged rollout keeps [[Reversibility]] real and [[Safety by Design]] at release time - harm hits fewer people before you commit the whole lane.
   - Staged rollout - preview branch, one table section, scrimmage Tuesday - keeps [[Reversibility]] real.
   - [[Safety by Design]] at release time: harm hits fewer people before you commit the whole lane.
+level_1: "Staged rollout means shipping to a small slice first so rollback stays cheap if the new state bleeds."
+level_2: "Full-blast deploy turns every user into a test subject - harm spreads before anyone can turn back."
+level_3: "Run the new inbound on scrimmage Tuesday before Friday's game - preview branch before main."
+level_4: "Because blast radius sets undo cost, [[Reversibility]] stays real when harm hits fewer people first."
+level_5: "Architect [[Safety by Design]] at release time - one table section, one scrimmage night, then commit the whole lane."
 examples:
   - "Cloudflare preview branch caught the broken layout before main - rollback was not touching production."
   - "New inbound play ran in scrimmage Tuesday before Friday's game - point guard reverted to last week's call at halftime without reinventing."
@@ -69,4 +69,3 @@ cards:
     back: "One kid one week - old routine ready."
 draft: false
 ---
-

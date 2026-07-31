@@ -5,14 +5,14 @@ meta_title: "Leadership Is Influence - If Nobody Follows, You're Walking Alone"
 description: "Influence moves people toward a shared goal - title optional, trust required."
 key_concept: |
   - Leadership is influence - if nobody is following, you are just taking a walk.
-  - Level 1: You are only leading if someone is coming with you - otherwise you are just walking alone.
-  - Level 2: You lead when people move with you - without followers you are walking alone, title or not, like a parade with no marchers.
-  - Level 3: Movement defines leadership - without followers, authority is a solo stroll, not influence, because direction only counts when others adopt it.
-  - Level 4: Check whether anyone is moving with you before you call it leadership.
-  - Level 5: [[Influence Without Title]] leads without a badge; [[Title Without Influence]] warns when the org chart moves nobody.
   - Title borrows authority; influence is what people grant you - trust built in small deposits, spent when you set direction.
   - Badge without followers is taking a walk, not leading.
   - The notes below map how influence gets earned, tested, and spent - not re-summarized here.
+level_1: "Leadership is influence - the power to move people toward a shared direction, not a title on a door."
+level_2: "Without followers you are walking alone, title or not - like a parade with no marchers behind the drum major."
+level_3: "Before you call it leadership, check whether anyone is actually moving with you on the goal."
+level_4: "Title borrows authority; influence is what people grant in small trust deposits spent when you set direction."
+level_5: "[[Influence Without Title]] leads without a badge; [[Title Without Influence]] warns when the org chart moves nobody."
 shareable_thought:
   - "Influence moves people toward a shared goal."
   - "Title optional, trust required."
@@ -44,7 +44,6 @@ aliases: ["influence is leadership", "if nobody is following"]
 featured: false
 draft: false
 ---
-
 ## Direction, pace, and care
 
 - [[Leadership]] - own direction, pace, and care when people look your way - title optional

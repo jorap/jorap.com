@@ -4,14 +4,14 @@ meta_title: "Read Later Queue"
 description: "Save for later is fine until the queue turns into a guilt pile never touched."
 key_concept: |
   - A parking lot for links you will process later - dangerous if it becomes a graveyard.
-  - Level 1: A save-for-later list is fine until you never go back - then it becomes guilt storage, like a closet full of unread mail.
-  - Level 2: A save-for-later list is fine for holding links, but it turns into guilt storage if you never go back and actually read them.
-  - Level 3: Parking lot for links - useful buffer, dangerous graveyard without a processing habit.
-  - Level 4: Because capture feels like progress, unread queues inflate - without review, later becomes never.
-  - Level 5: A parking lot for links you will process later - dangerous if it becomes a graveyard; [[Capture]] is intake, not completion.
   - Save-for-later is capture with a trap door - without a weekly drain it becomes guilt storage.
   - [[The Collector's Fallacy]] names hoarding; [[The Trusted Inbox]] is the drain that saves the queue.
   - The queue earns its keep only if something leaves it every week.
+level_1: "A read-later queue is a save-for-later list that holds links until you process them - capture with a trap door, not completion."
+level_2: "Like a closet full of unread mail - fine as a buffer until you never go back and guilt storage replaces reading."
+level_3: "Drain something from the queue every week - without a processing habit, later becomes never and four hundred saved articles stay unwatched."
+level_4: "Because capture feels like progress, unread queues inflate - [[The Collector's Fallacy]] names hoarding; review is the drain that saves the queue."
+level_5: "[[Capture]] is intake; [[The Trusted Inbox]] is the weekly drain - wire a habit so parking lot links leave the queue or get deleted."
 examples:
   - "I saved forty highlight reels and watched twelve - the queue was guilt storage, not training."
   - "Four hundred saved articles on my phone and I would read twelve - parking lot, not reading."
@@ -54,7 +54,3 @@ cards:
     back: "Empty the queue - act or cut."
 draft: false
 ---
-
-
-
-

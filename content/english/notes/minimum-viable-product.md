@@ -4,13 +4,13 @@ meta_title: "Minimum Viable Product - Smallest Thing Worth Shipping"
 description: "Ship the smallest version that proves someone actually wants this - polish comes after proof."
 key_concept: |
   - The smallest thing I can ship that tests the idea - not a polished fantasy.
-  - Level 1: Ship the smallest version that tests whether anyone wants it - like baking one cupcake before you make a whole wedding cake.
-  - Level 2: An MVP is the smallest shippable test of the idea - rough proof beats polished fantasy in private.
-  - Level 3: Minimum viable product means [[Drafting in Public]] with the least scope that still answers whether anyone cares.
-  - Level 4: Publish the rough note or prototype, watch reaction, iterate - months of private polish without a user is avoidance.
-  - Level 5: [[Ship It]] and [[Lean Startup]] depend on this loop - [[Evergreen Notes]] can mature after the first honest publish proves someone reads.
   - I would rather publish a rough note or prototype and learn than polish in private for months.
   - Client work: [[Selling Static Sites]] is the same loop - one pilot site on [[Free Tier Hosting Stack]] before I package tiers and upsells.
+level_1: "A minimum viable product is the smallest shippable version that tests whether anyone wants the idea."
+level_2: "Like baking one cupcake before you make a whole wedding cake, rough proof beats polished fantasy in private."
+level_3: "Publish the rough note or prototype, watch reaction, iterate - months of private polish without a user is avoidance."
+level_4: "Minimum viable product means [[Drafting in Public]] with the least scope that still answers whether anyone cares."
+level_5: "[[Ship It]] and [[Lean Startup]] depend on this loop - [[Evergreen Notes]] can mature after the first honest publish proves someone reads."
 examples:
   - "I sat on a half-planned birthday party for three months - we ordered pizza, one banner, kids had a blast, learned more than another month of Pinterest."
   - "We ran one new play in scrimmage before printing playbooks for the whole league - learned more in forty minutes than another week of polish."
@@ -60,5 +60,3 @@ cards:
     back: "Smallest working slice - learn from real hands."
 draft: false
 ---
-
-

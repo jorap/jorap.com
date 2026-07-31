@@ -5,16 +5,16 @@ meta_title: "Systems for Growth - Loops That Compound Skill Over Time"
 description: "The loops you build on purpose - habits, feedback, review, recovery - so skill compounds when motivation doesn't show up."
 key_concept: |
   - Each note below is one move I'd want running before I need results.
-  - Level 1: Each note here is one habit to set up early - so it is already running when you need it later.
-  - Level 2: Growth systems are moves you install before results are urgent - each linked note is one lever ready when pressure rises.
-  - Level 3: [[Pressure Reveals Weakness]] shows what breaks under heat; this hub installs what you build on purpose before the heat arrives.
-  - Level 4: Pick one growth loop from the hub and run it for a month before you need the outcome it produces.
-  - Level 5: The loops you build on purpose beat hoping discipline appears when the calendar turns - install one move at a time; [[Habit Formation]] names the stack.
   - [[Pressure Reveals Weakness]] covers what holds when heat rises; this hub covers what you install on ordinary Tuesdays.
   - The loops you build on purpose.
   - Habits, feedback, review, recovery - so skill compounds when motivation doesn't show up.
   - Install the loops on ordinary Tuesdays - not only when results are due.
   - Systems for growth are the loops I build on purpose - habits on ordinary Tuesdays, not crisis heroics.
+level_1: "Systems for growth are habits and loops you install before results are urgent - each linked note is one move ready when pressure rises."
+level_2: "Growth systems are moves you build on ordinary Tuesdays - not crisis heroics when motivation does not show up."
+level_3: "Pick one growth loop from the hub and run it for a month before you need the outcome it produces."
+level_4: "[[Pressure Reveals Weakness]] shows what breaks under heat; this hub installs what you build on purpose before the heat arrives."
+level_5: "Install one move at a time - [[Habit Formation]] names the stack; the loops you build on purpose beat hoping discipline appears when the calendar turns."
 shareable_thought:
   - "The loops you build on purpose."
   - "Habits, feedback, review, recovery - so skill compounds when motivation doesn't show up."
@@ -43,7 +43,6 @@ aliases: ["growth systems", "systems for growth"]
 featured: false
 draft: false
 ---
-
 ## Mindset
 
 - [[Growth Mindset]] - skills train; a miss is data, not identity
@@ -71,7 +70,8 @@ draft: false
 - [[Practice Small Experiments]] - repeat, test small, learn fast, fail small
 - [[Deliberate Practice]] - train the weak slice on purpose
 - [[Minimum Effective Dose]] - smallest change that still moves the needle
-- [[The Feynman Technique]] - teach it back to find the gap
+- [[Depth of Understanding]] - recognize, explain, use, connect, create on each atomic idea
+- [[The Feynman Technique]] - teach it back to stress-test Definition and Explanation
 - [[Spaced Repetition]] - review on rhythm before you forget
 
 ## Review and improvement

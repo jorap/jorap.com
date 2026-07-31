@@ -4,14 +4,14 @@ meta_title: "Maintenance Window"
 description: "Block garden time on the calendar so broken links do not ambush on a random Sunday."
 key_concept: |
   - Scheduled time to prune, fix links, and archive - a standing slot, not a mood.
-  - Level 1: Pick a set time to clean up your notes - like setting aside Saturday morning to tidy your room instead of waiting until the mess gets scary.
-  - Level 2: A maintenance window is scheduled time to prune links and archive - not crisis cleaning when something breaks.
-  - Level 3: PKM systems rot without a fixed review slot - prune, fix orphans, and archive on calendar, not guilt.
-  - Level 4: Block ninety minutes weekly for garden hygiene - broken links and stale tags compound when you wait for panic.
-  - Level 5: [[Periodic Knowledge Review]] and [[Maps of Content]] both assume rhythm - skipped slots are how [[Normalization of Deviance]] enters your note stack.
   - Calendar the prune before the garden rots - same habit as oil changes, not panic Sundays.
   - [[Periodic Knowledge Review]] calendars the pass; this note names the scheduled slot.
   - When I skip two slots in a row, the orphan list tells me before any feeling does.
+level_1: "A maintenance window is scheduled time to prune links, fix orphans, and archive - not crisis cleaning when something breaks."
+level_2: "Like setting aside Saturday morning to tidy your room instead of waiting until the mess gets scary, PKM systems rot without a fixed review slot."
+level_3: "Block ninety minutes weekly for garden hygiene - broken links and stale tags compound when you wait for panic."
+level_4: "When you skip two slots in a row, the orphan list tells you before any feeling does - skipped rhythm is how decay enters the stack."
+level_5: "[[Periodic Knowledge Review]] and [[Maps of Content]] both assume rhythm - skipped slots are how [[Normalization of Deviance]] enters your note stack."
 examples:
   - "First Sunday I swap the car fluids and rotate tires - not waiting for the check-engine light."
   - "Saturday morning is toy-bin purge and mending - not panicked cleaning when guests are at the door."
@@ -57,5 +57,3 @@ cards:
     back: "Schedule the slot - oil change, not check-engine light."
 draft: false
 ---
-
-

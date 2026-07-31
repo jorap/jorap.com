@@ -4,17 +4,17 @@ meta_title: "Influence Without Title - People Follow Trust Before Badges"
 description: "People follow the one who showed up in the crisis - not always the name on the org chart."
 key_concept: |
   - Leadership Is Influence is the headline: if they are moving with you, you are leading - badge optional.
-  - Level 1: You are leading when people follow your direction - even if you never got the official job title.
-  - Level 2: Leadership is influence - if they are moving with you, you are leading; badge optional, like a captain nobody promoted but everyone listens to.
-  - Level 3: Title grants authority on org charts; influence moves behavior - when people act on your direction without a badge, you lead.
-  - Level 4: Lead by moving people toward a shared outcome - do not wait for a badge to start helping others win.
-  - Level 5: [[Leadership Is Influence]] is the headline; [[Title Without Influence]] warns when the badge moves nothing.
   - This note is the positive case before anyone prints a business card.
   - Trust deposits compound in small moments: bailing the crew out of an outage, calm voice when the alarm trips.
   - The neighbor who counted heads in the blackout.
   - [[Leadership]] names direction, pace, and care when people look your way - often at the person who already proved reliable, not the newest title.
   - [[Servant Leadership]] is how you earn it without demanding: unblock, coach, pass credit down.
   - [[Humility and Service]] is the gospel root - wash feet in the sprint, not only in the speech.
+level_1: "Influence without title is leading when people follow your direction - even if you never got the official job badge."
+level_2: "Leadership is influence - if they are moving with you, you are leading; badge optional, like a captain nobody promoted but everyone listens to."
+level_3: "When the alarm trips and the crew looks your way before the manager arrives - you are already leading by moving people toward a shared outcome."
+level_4: "Title grants authority on org charts; influence moves behavior - waiting for a badge before you help others win wastes the trust deposits already compounding."
+level_5: "[[Leadership Is Influence]] is the headline; [[Title Without Influence]] warns when the badge moves nothing."
 examples:
   - "Our line cook never got named manager; when the hood alarm tripped everyone looked at her for who goes where - influence without a title, earned in every prior shift."
   - "The blackout hit our block and one neighbor set pace - who checks elders, who runs the generator - nobody voted, they just followed the person who would shown up last typhoon."
@@ -67,6 +67,3 @@ cards:
     back: "Deposit trust first - influence before badge."
 draft: false
 ---
-
-
-

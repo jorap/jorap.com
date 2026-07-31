@@ -6,12 +6,7 @@ key_concept: |
   {{< bible ref="Matthew 16:24-26" emphasize="26" >}}
   
   - Following Jesus costs self-denial and a cross - not suffering theater, daily surrender of my will to His.
-  - Level 1: Following Jesus means letting Him lead each day - not putting on a show of suffering for other people to see.
-  - Level 2: Following Jesus means giving up what you want each day and letting Him lead - not putting on a show of suffering.
-  - Level 3: Daily cross-bearing is surrender of my will to His - ordinary Tuesday choices, not staged misery for applause.
-  - Level 4: Because mercy came first, the body offered is worship alive - not payment to earn what grace already gave.
-  - Level 5: Following Jesus costs self-denial and a cross - not suffering theater; [[Mercy]] received first, then [[Grateful Obedience]] on ordinary Tuesdays.
-
+  
   {{< bible "Romans 12:1" >}}
   
   - Paul pictures the same move as worship that is alive - my Tuesday and my body offered after mercy received.
@@ -21,6 +16,11 @@ key_concept: |
   - [[Renewed Mind]] is the paired move in verse 2 - sacrifice without a mind being reshaped becomes performance theater.
   - [[Take Up Your Cross]] is daily death to self-will in the same lane.
   - PKM mirror: [[Process Over Outcomes]] - faithful offering on ordinary Tuesdays beats one heroic retreat week I treat like proof I am saved.
+level_1: "Present a living sacrifice means offering your body and ordinary day to God as worship alive - not a dead bull on an altar."
+level_2: "Following Jesus means letting Him lead each day - not staging misery for applause or stacking volunteer hours to feel acceptable."
+level_3: "On an ordinary Tuesday, surrender self-will in one concrete choice - worship that is alive, not a performance review with God."
+level_4: "Because mercy came first, the body offered is grateful worship - not payment to earn what [[Free Grace]] already gave."
+level_5: "[[Mercy]] received first, then [[Grateful Obedience]] on ordinary Tuesdays - [[Renewed Mind]] pairs with sacrifice so offering does not become theater."
 examples:
   - "I stacked volunteer hours to feel acceptable again after a bad week - Romans 12:1 is living sacrifice from mercy already received, not a down payment on salvation."
   - "The player taped her wrist before warm-up like the game was an offering, not a tryout for worth - same move at the desk: this Tuesday is worship, not a performance review with God."
@@ -73,7 +73,3 @@ cards:
     back: "Saved first - offer the day from thanks."
 draft: false
 ---
-
-
-
-

@@ -4,15 +4,15 @@ meta_title: "Set Calm Boundaries - Limit the Behavior, Not the Person"
 description: "A calm boundary is one clear limit on behavior, named steady - not a character attack."
 key_concept: |
   - Limit the behavior. Keep the person.
-  - Level 1: Draw a firm line on what someone may not do, but stay calm and keep caring about the person.
-  - Level 2: Limit the behavior, keep the person - firm edge, steady tone.
-  - Level 3: Because rage erodes both boundary and relationship, calm delivery makes the limit believable.
-  - Level 4: State the line once, without insult - repeat only the boundary, not the grievance loop.
-  - Level 5: Limit the behavior. Keep the person. - boundary without contempt; [[Psychological Safety]] on the other side still needs truth.
   - [[Emotional Regulation]] keeps me from mailing the first-draft rant; a calm boundary can [[Break the Escalation Cycle]] before snark feeds itself.
   - Drama makes the line harder to hear tomorrow.
   - Set calm boundaries and keep the person - firm line, steady voice, relationship intact.
   - Set one clear line in a steady voice - boundaries work when tone stays readable under pressure.
+level_1: "A calm boundary is one clear limit on behavior, named steady - not a character attack."
+level_2: "Limit the behavior, keep the person - firm edge with steady tone so the line stays believable tomorrow."
+level_3: "Pull a teammate aside: ride the refs if you want, do not go at our guys - boundary without contempt."
+level_4: "Because rage erodes both boundary and relationship, [[Emotional Regulation]] keeps you from mailing the first-draft rant."
+level_5: "State the line once without insult - repeat only the boundary; pair with [[Break the Escalation Cycle]] before snark feeds itself."
 examples:
   - "A teammate kept trash-talking our own bench - I pulled him aside: \"Ride the refs if you want; do not go at our guys."
   - "A client kept calling a personal cell after hours - answer until six on this number, then use the office line."
@@ -58,7 +58,3 @@ cards:
     back: "One calm boundary now - not a blowup."
 draft: false
 ---
-
-
-
-

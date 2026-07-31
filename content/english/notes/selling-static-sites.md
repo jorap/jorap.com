@@ -4,11 +4,6 @@ meta_title: "Selling Static Sites - Charge for the Build, Price Hosting Honestly
 description: "Charge for the build and pass-off; hosting is a clear line item, not a mystery bundle."
 key_concept: |
   - My margin is labor, not hosting markup.
-  - Level 1: I make money from building the site, not from marking up cheap hosting and reselling it.
-  - Level 2: I make money from the work I do building the site, not from marking up cheap hosting and reselling it.
-  - Level 3: Margin lives in labor - design, content, setup - not hosting markup.
-  - Level 4: Because static hosting is a minimal cost, the sale is craftsmanship and transfer, not inflated infra bills.
-  - Level 5: My margin is labor, not hosting markup - static sites stay profitable when delivery and care are the product, not reseller spread.
   - **What I quote:** discovery and [[Static Site Client Scope]] yes/no before I touch a theme repo.
   - Cloudflare setup with `HUGO_VERSION` and `NODE_VERSION` pinned.
   - Theme and layout, content migration, and contact form pass-off priced separately from retainer updates.
@@ -19,6 +14,11 @@ key_concept: |
   - I quote work that moves the needle; I do not resell "hosting" as a monthly mystery fee.
   - **Pass-off models** (pick one with [[Plain Commitments at Work]] clarity): see [[Client Site Pass-Off]] - Git lesson, retainer, showroom branch, or [[Git-Based CMS]].
   - Bad pass-off: promise WordPress-style daily edits to five non-technical staff without training.
+level_1: "Selling static sites means charging for the build and pass-off - margin lives in labor, not hosting markup."
+level_2: "Static hosting is a minimal cost - the sale is craftsmanship and transfer, not inflated infra bills resold monthly."
+level_3: "Quote discovery and scope yes/no before you touch a theme repo - domain and hosting as separate line items."
+level_4: "Because bundled fog hides labor behind server rent, pass-off models need [[Plain Commitments at Work]] clarity upfront."
+level_5: "Build the first client site before the three-tier pricing PDF exists - delivery and care are the product, not reseller spread."
 examples:
   - "Neighbor asked for a portfolio - quoted build, domain, and a modest hosting line; no mystery monthly package."
   - "Pastor wanted a sermon archive - static fit; said no to member login and scoped brochure plus archive pages only."
@@ -83,8 +83,3 @@ cards:
     back: "Written scope - change order or cut."
 draft: false
 ---
-
-
-
-
-

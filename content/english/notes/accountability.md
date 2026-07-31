@@ -4,13 +4,13 @@ meta_title: "Accountability - Clear Ownership for Outcomes"
 description: "Accountability is naming who owns the result - and what happens when it slips."
 key_concept: |
   - Clear ownership - who answers for the outcome, the miss, and the fix.
-  - Level 1: Like when one kid is captain of cleanup - everyone knows who carries the bucket home.
-  - Level 2: Ten people helped bake the cake but only one signs the card - that name is who answers if it burns.
-  - Level 3: Accountability means one person owns the outcome, the miss, and the fix - shared involvement without a named owner lets work float.
-  - Level 4: Before the meeting ends, name one owner, what happens if it slips, and who reports back - one owner beats shared vagueness.
-  - Level 5: Accountability pairs with [[Blameless After-Action Review]] on the fix side - someone says "my call" without the room hunting a fall guy; ownership without blame theater.
   - One owner per outcome beats a room where everyone was involved and nobody answers.
   - Name the owner, the miss, and the fix before the conversation ends.
+level_1: "Accountability is clear ownership - one person answers for the outcome, the miss, and the fix."
+level_2: "Like one captain carrying the cleanup bucket - shared involvement without a named owner lets work float."
+level_3: "Before the meeting ends, name one owner, what happens if it slips, and who reports back."
+level_4: "One owner beats shared vagueness - the room knows who carries the outcome home."
+level_5: "Pairs with [[Blameless After-Action Review]] - someone says \"my call\" without blame theater while the fix gets owned."
 examples:
   - "The condo board did not say \"someone should fix the gate\" - they named a contact and a deadline in the group chat before anyone drove off."
   - "After a patient mix-up, the charge nurse named who ran the code cart and who documented before the shift ended."
@@ -62,4 +62,3 @@ cards:
     back: "Name who owns the chart - stop vague blame."
 draft: false
 ---
-

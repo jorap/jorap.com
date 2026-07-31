@@ -4,13 +4,13 @@ meta_title: "Follow Their Lead - Connect Without Taking Over"
 description: "Join their world - topic, pace, starting point - before trying to steer."
 key_concept: |
   - Skip their starting point and you are fixing a problem they were not naming.
-  - Level 1: Start where they are, not where you wish they were - like directions from the wrong corner send them wrong.
-  - Level 2: Follow their lead is like trying their recipe once before you rewrite it - connection precedes correction.
-  - Level 3: Because connection precedes correction, running their play once proves you understood before you redirect.
-  - Level 4: Listen, run their version once, then offer your fix - connection first, critique second; the redirect lands after they know you heard them.
-  - Level 5: Run their version once before you redirect - pairs with [[Listen Before Fixing]] when the fix is right but the timing kills trust.
   - Connection first, critique second - run their play once before you offer yours.
   - The redirect lands better once they know you actually understood their version first.
+level_1: "Follow their lead means starting where they are - connection before correction, not fixing a problem they never named."
+level_2: "Like trying their recipe once before you rewrite it - running their play proves you understood before you redirect."
+level_3: "Listen, run their version once, then offer your fix - the redirect lands after they know you heard them."
+level_4: "Because connection precedes correction, critique before understanding kills trust even when the fix is right."
+level_5: "Run their version once before you redirect - pairs with [[Listen Before Fixing]] when timing kills trust."
 examples:
   - "My teammate wanted to run a inbound play I would never seen - I ran it once before I told him how I would do it."
   - "A coworker walked me through how she tracks patient callbacks - I watched the whole spreadsheet before I offered to reorder her columns."
@@ -59,6 +59,3 @@ cards:
     back: "Their lead this rep - critique after."
 draft: false
 ---
-
-
-

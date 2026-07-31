@@ -4,13 +4,13 @@ meta_title: "Synthesis as a Goal - Notes Should Combine"
 description: "Merge sources into what you believe and can defend - a quote pile is not the goal."
 key_concept: |
   - Collecting quotes is not PKM for me - belief has to live in prose I can defend.
-  - Level 1: Saving other people's quotes is not enough - write what you actually believe in your own words.
-  - Level 2: Quote collection feels like learning but does not produce belief you can defend until you merge sources into one claim.
-  - Level 3: Synthesis turns PKM into thinking because prose you would ship forces gaps in understanding to surface.
-  - Level 4: Merge borrowed lines into one page in your own words before you link it - if you cannot defend it, you have not learned it.
-  - Level 5: The wiki can hold borrowed lines; synthesis is when learning starts - one claim you would ship, not a pile of quotes; [[The Collector's Fallacy]] is the hoard without synthesis.
   - Synthesis is when learning starts - merge sources into one claim I would ship.
   - The wiki can hold borrowed lines; I still owe one page in my own words.
+level_1: "Synthesis is merging sources into one claim you would defend in your own words - not a pile of borrowed quotes."
+level_2: "Quote collection feels like learning but does not produce belief you can defend until sources merge into one page."
+level_3: "Merge three coaches' clips into one drill you actually run Tuesday - prose you would ship forces gaps in understanding to surface."
+level_4: "The wiki can hold borrowed lines; synthesis is when learning starts - [[The Collector's Fallacy]] is the hoard without it."
+level_5: "One claim you would ship, not a pile of quotes - same honesty check as [[The Feynman Technique]] before you link the note."
 examples:
   - "Three coaches' clips on our press sat in my folder until I merged them into one drill we actually ran Tuesday."
   - "Five parenting articles became one rule on the fridge - merged into what we believe about screens, not a quote collection."
@@ -54,4 +54,3 @@ cards:
     back: "Merge into one drill I'd run."
 draft: false
 ---
-

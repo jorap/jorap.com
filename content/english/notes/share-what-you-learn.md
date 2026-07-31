@@ -4,15 +4,15 @@ meta_title: "Share What You Learn - Do not Hoard Knowledge"
 description: "Write the doc, do the pass-off, answer the junior question - hoarding know-how helps nobody."
 key_concept: |
   - Pass on what you figured out - write the doc, do the pass-off, answer the junior's question - do not hoard know-how like private bookmarks.
-  - Level 1: When you learn something useful, teach it - write it down, show someone how, do not hoard it like secret bookmarks.
-  - Level 2: When you learn something useful, teach it to others - write it down, show someone how, answer questions - do not keep it locked away like secret bookmarks.
-  - Level 3: Pass on know-how - doc, pass-off, answer the junior question; hoarding helps no one.
-  - Level 4: Because private mastery does not scale, sharing turns individual learning into team capacity.
-  - Level 5: Pass on what you figured out - write the doc, do the pass-off, answer the junior's question - do not hoard know-how like private bookmarks.
   - Client sites: the one-page [[Client Site Pass-Off]] doc (repo, branch, DNS, env vars) is [[Share What You Learn]] in practice - not launch-and-vanish.
   - A garden full of notes nobody reads is the same failure mode as a team where only one person holds the map.
   - Gospel source: [[Great Commission]].
   - PKM parallel: [[Creative Output]] - truth and skill shared, not stockpiled.
+level_1: "Share what you learn means passing on know-how you figured out - write the doc, do the pass-off, answer the junior question."
+level_2: "Private mastery does not scale - hoarding know-how like secret bookmarks helps nobody on the team."
+level_3: "Leave the sticky note on the fridge so your spouse does not start from zero on school forms you already wrestled."
+level_4: "Because a garden full of notes nobody reads is the same failure as one person holding the map, sharing turns individual learning into team capacity."
+level_5: "Ship the one-page [[Client Site Pass-Off]] doc - repo, branch, DNS, env vars - not launch-and-vanish; [[Creative Output]] is truth shared, not stockpiled."
 examples:
   - "I would figured out the clinic's parking trick after three visits - I told the next parent in line instead of hoarding the shortcut."
   - "I almost moved on after a week wrestling school forms - share what you learn was the sticky note on the fridge so my spouse did not start from zero."
@@ -65,7 +65,3 @@ cards:
     back: "Pass one lesson forward - today."
 draft: false
 ---
-
-
-
-

@@ -4,14 +4,14 @@ meta_title: "Develop, Don't Endanger - Challenge Without Disproportionate Risk"
 description: "People grow through drills that build skill without pain or risk replacing the actual skill."
 key_concept: |
   - Hard alone does not make an exercise worth running.
-  - Level 1: Hard does not mean good - stop before someone gets hurt, like a coach who ends practice on ice.
-  - Level 2: A drill is like medicine - the right dose builds skill; too much leaves injury where growth should have been.
-  - Level 3: Because teams mistake intensity for seriousness, dangerous drills survive - but harm blocks growth even when the reps felt tough.
-  - Level 4: Before you run a hard drill, ask what skill it builds and what injury you could remove first - swap the hazard if you can.
-  - Level 5: Intensity theater survives when purpose is weak - develop skill, do not endanger people to prove the session was hard.
   - A demanding drill needs [[Purpose and Vision]], a measurable benefit, qualified supervision, and defined safety limits.
   - When pain becomes the point, leaders start treating harm like proof of growth.
   - Push people to grow without picking drills where pain or risk replaces the actual skill.
+level_1: "Develop, do not endanger means challenging people without drills where pain or disproportionate risk replaces the actual skill."
+level_2: "A drill is like medicine - the right dose builds skill; too much leaves injury where growth should have been."
+level_3: "Before you run a hard drill, ask what skill it builds and what injury you could remove first - swap the hazard if you can."
+level_4: "Intensity theater survives when purpose is weak - develop skill, do not endanger people to prove the session was hard."
+level_5: "The clinic drills fire evacuation with a walk-through, not by blocking the only exit - you design a challenge that builds skill without lethal exposure."
 examples:
   - "The clinic can drill fire evacuation with a walk-through - not by blocking the only exit and hoping everyone stays calm."
   - "A conditioning set can build endurance - an uncontrolled water exercise adds lethal risk without improving sport-specific performance; pick the drill that develops the skill."
@@ -82,7 +82,3 @@ cards:
     back: "Marked trail, water stops - build safe."
 draft: false
 ---
-
-
-
-

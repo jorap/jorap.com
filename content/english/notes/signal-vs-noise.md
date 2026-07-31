@@ -4,14 +4,14 @@ meta_title: "Signal vs Noise in Your Information Diet"
 description: "Save only what changes what you do or believe this month - most feeds are noise."
 key_concept: |
   - I save only what changes what I do or believe this month - most content is noise.
-  - Level 1: Keep only things that will change how you act or think this month - most articles and posts are just noise.
-  - Level 2: I only keep things that will change how I act or think this month - most articles and posts are just background noise.
-  - Level 3: Save what moves behavior or belief soon - the rest is ambient chatter.
-  - Level 4: Because intake outruns application, curation is a filter on action, not archive vanity.
-  - Level 5: I save only what changes what I do or believe this month - most content is noise; [[Information Diet]] is the upstream lever.
   - Admiring an article without a behavior change is entertainment, not signal.
   - The filter is simple: would I act or cite this within thirty days?
   - Headline only when nothing would change this month - no mental slot, no save.
+level_1: "Signal versus noise is the filter that keeps only what changes what you do or believe this month."
+level_2: "Most feeds are ambient chatter - admiring an article without a behavior change is entertainment, not signal."
+level_3: "Headline only the trade-rumor thread; save the one injury note that actually changes your lineup."
+level_4: "Because intake outruns application, curation is a filter on action, not archive vanity - would you act or cite this within thirty days?"
+level_5: "Run [[Information Diet]] upstream - save what moves behavior or belief soon; kingdom signal before culture noise enters the mind."
 examples:
   - "The trade-rumor thread was loud all week - signal was the one injury note that actually changed our lineup; the rest I admired and skipped."
   - "The dentist waiting room had a stack of magazines - if it will not change what I do this month, headline only, no mental slot."
@@ -57,5 +57,3 @@ cards:
     back: "This month - not someday."
 draft: false
 ---
-
-

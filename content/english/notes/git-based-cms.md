@@ -4,14 +4,14 @@ meta_title: "Git-Based CMS - Buttons for Non-Git Editors"
 description: "A git CMS commits markdown to the repo so clients get buttons while the same push-live build still runs."
 key_concept: |
   - Publish via Git directly when you are the author; clients often will not.
-  - Level 1: You push through Git when you write the site - clients need buttons, like cooking versus a menu with pictures.
-  - Level 2: Git-based CMS is like a kitchen with a back door for chefs and a counter for customers - Git for authors, buttons for clients who will never touch a terminal.
-  - Level 3: Because Git stays source of truth, the CMS is just another commit path - not a second database that forks reality.
-  - Level 4: Use Git publish for solo sites; offer a CMS when the client will never touch a terminal - still say no to bad dynamic scope.
-  - Level 5: Git stays source of truth; the CMS is just another commit path - [[Minimum Effective Dose]] for solo sites is skip the CMS layer entirely.
   - Git stays source of truth; the CMS is just another commit path.
   - Still say no to bad dynamic scope - CMS does not add a database.
   - [[Minimum Effective Dose]] for solo sites: skip the CMS layer entirely.
+level_1: "Git-based CMS publishes through Git commits as source of truth - authors push directly; clients often need buttons instead of terminals."
+level_2: "Like a kitchen with a back door for chefs and a counter for customers - Git for authors, UI for clients who will never touch a terminal."
+level_3: "Use Git publish for solo sites; offer a CMS when the client will never touch a terminal - still say no to bad dynamic scope."
+level_4: "Git stays source of truth - the CMS is another commit path, not a second database that forks reality."
+level_5: "[[Minimum Effective Dose]] for solo sites is skip the CMS layer entirely; buttons are for clients, not for every project."
 examples:
   - "Church volunteer will not open a terminal - Sveltia on the repo, she edits announcements, Cloudflare rebuilds on save."
   - "I added Decap for a client who insisted on WordPress-like editing - honest scope: blog posts only, not plugins; still cheaper than hosted WordPress long term."
@@ -58,9 +58,3 @@ cards:
     back: "Revert, screen-share once - they save again."
 draft: false
 ---
-
-
-
-
-
-

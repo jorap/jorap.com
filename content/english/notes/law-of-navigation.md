@@ -4,9 +4,6 @@ meta_title: "The Law of Navigation - Anyone can steer the ship, but it takes a l
 description: "Anyone can steer the ship, but it takes a leader to chart the course."
 key_concept: |
   - Steering is not leading - someone has to chart the course before the crew rows.
-  - Level 1: Joshua laid an ambush plan before Ai - not random courage, plotted navigation.
-  - Level 2: Nehemiah paired rebuild with weapons. Jesus told builders to count cost before breaking ground.
-  - Level 3: [[Count the Cost]] is the gospel navigation move - honest map before public yes.
   - Hub: [[21 Laws of Leadership in the Bible]] - lesson 4 of twenty-one Bible laws; horizontal frame in [[Leadership]].
   
   {{< bible ref="Joshua 8:1-19" >}}
@@ -15,14 +12,19 @@ key_concept: |
   - **Nehemiah Rallied His People to Rebuild and Defend** - Builders with a tool in one hand and a weapon in the other - navigation included threat.
   {{< bible ref="Luke 14:28-31" >}}
   - **Jesus Taught His Disciples to Count the Cost** - Tower and king analogies - chart before you swear allegiance.
+level_1: "The law of navigation is that steering is not leading - someone has to chart the course before the crew rows."
+level_2: "Joshua laid an ambush plan before Ai; Nehemiah paired rebuild with weapons; Jesus told builders to count cost before breaking ground."
+level_3: "Write the risks and route on one page before you announce the march - no heroic improvisation as strategy."
+level_4: "[[Count the Cost]] is the gospel navigation move - honest map before public yes; threat and route belong on the same page."
+level_5: "[[Count the Cost]] and [[Strategic Foresight]] pair faith honesty with the map before the public yes."
 examples:
   - "We had energy for the launch but no phased plan - navigation was the missing whiteboard, not motivation."
   - "Nehemiah's half-built wall with spears in hand - course included defense, not just bricks."
 shareable_thought:
   - "Anyone can steer the ship, but it takes a leader to chart the course."
   - "Steering is not leading - someone has to chart the course before the crew rows."
-  - "Level 1: Joshua laid an ambush plan before Ai - not random courage, plotted navigation."
-  - "Level 2: Nehemiah paired rebuild with weapons. Jesus told builders to count cost before breaking ground."
+  - "The law of navigation is that steering is not leading - someone has to chart the course before the crew rows."
+  - "Joshua laid an ambush plan before Ai; Nehemiah paired rebuild with weapons; Jesus told builders to count cost before breaking ground."
 relationships:
   - type: contradicts
     wikilink: "[[Discipleship vs Leadership]]"

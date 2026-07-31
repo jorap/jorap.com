@@ -4,13 +4,13 @@ meta_title: "Future-Proofing Knowledge - Boring Formats Win"
 description: "Future-proof notes with plain text, open tools, and exports tested before a vendor locks you in."
 key_concept: |
   - Future-proofing is not predicting tech - it is plain text, open tools, and exports you test before you need them.
-  - Level 1: Keep notes in plain files you can move - test the export before the app locks you in.
-  - Level 2: Future-proofing is like owning the deed, not renting the room - plain text, open tools, tested exports beat betting on which app wins next year.
-  - Level 3: Because hosts and apps shut down, portable formats survive when the platform you trusted disappears without warning.
-  - Level 4: Export your notes this month and open them in another tool - if you cannot, you are not future-proofed yet; freedom over free.
-  - Level 5: [[Free Tier Hosting Stack]] client repos are markdown in git - portable if Cloudflare disappears; content survives, hosting is swappable.
   - [[Free Tier Hosting Stack]] client repos are markdown in git - portable if Cloudflare disappears; content survives, hosting is swappable.
   - Freedom over free - install without permission, read the source when docs lie, move files when the host dies.
+level_1: "Future-proofing knowledge means plain text, open tools, and exports you test before you need them - not predicting which app wins."
+level_2: "Like owning the deed, not renting the room - portable formats beat betting on one platform forever."
+level_3: "Export your notes this month and open them in another tool - if you cannot, you are not future-proofed yet."
+level_4: "Hosts and apps shut down - portable formats survive when the platform you trusted disappears without warning."
+level_5: "[[Free Tier Hosting Stack]] client repos are markdown in git - content survives, hosting is swappable when Cloudflare disappears."
 examples:
   - "Our family contacts list is plain text on the fridge backup folder - I copy it twice a year so future-proof is not just a vibe."
   - "Old PHP hosting died and the posts were trapped - markdown in git meant I could point the repo somewhere else, not pray for an export."
@@ -60,5 +60,3 @@ cards:
     back: "Export now - open files in another tool."
 draft: false
 ---
-
-

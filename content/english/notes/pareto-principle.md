@@ -4,15 +4,15 @@ meta_title: "Pareto Principle - Find the 20% That Drives 80%"
 description: "The Pareto principle is the 80/20 rule - most results come from a small slice of effort."
 key_concept: |
   - Named for Vilfredo Pareto (roughly 80% of results from 20% of effort - shorthand, not a law).
-  - Level 1: Roughly eight out of ten results often come from two out of ten of your effort - like most of the apples on one branch of the tree, not spread evenly on every twig.
-  - Level 2: Pareto principle is shorthand - roughly eighty percent of results from twenty percent of effort, named for Vilfredo Pareto.
-  - Level 3: Most outcomes cluster in a minority of inputs - the ratio is a heuristic for where to spend disproportionate focus.
-  - Level 4: List your top three outputs last month - find which inputs produced them and protect that slice before you optimize the rest.
-  - Level 5: [[Low Hanging Fruit]] and [[Minimum Effective Dose]] apply the same skew - not a law, but a lens before you spread hero energy evenly.
   - I use it when my reading list, task board, or note tags all feel equally important: which few actually moved the needle?
   - Same rule for flashcards: only spine notes carry `review: true` here
   - PKM habits plus six [[Eternal Principles]] with cards, not every faith note in the garden.
   - Cards ask what I would *do*, not what I would *define*.
+level_1: "The Pareto principle is shorthand - roughly eighty percent of results from twenty percent of effort."
+level_2: "Like most apples on one branch, not spread evenly on every twig - outcomes cluster in a minority of inputs."
+level_3: "List your top three outputs last month - find which inputs produced them and protect that slice first."
+level_4: "The ratio is a heuristic, not a law - cutting the long tail can kill compounding habits that matter later."
+level_5: "[[Low Hanging Fruit]] and [[Minimum Effective Dose]] apply the same skew - a lens before you spread hero energy evenly."
 examples:
   - "The kids' activity list had six things and we skipped three nights - I trimmed to basketball and piano and we actually showed up."
   - "My reading pile had forty tabs - the five that moved work got Sunday morning, the rest got deleted."
@@ -60,6 +60,3 @@ cards:
     back: "Cut to those two."
 draft: false
 ---
-
-
-

@@ -6,14 +6,14 @@ key_concept: |
   {{< bible ref="Luke 22:42" >}}
   
   - Jesus brought the dread out loud before He handed over the outcome - the honest ask and the yes came in one prayer.
-  - Level 1: Jesus asked the Father to take the hard cup away, then said do Your will, not mine - like telling a parent you are scared, then doing what is right anyway.
-  - Level 2: Not my will means Jesus prayed to escape the cup, then submitted - honest request before surrender.
-  - Level 3: The cup was real - soul overwhelmed, sweat like blood - and surrender followed the ask, not instead of it.
-  - Level 4: Bring the real dread to God first, then release the outcome - surrender without honesty is performance.
-  - Level 5: [[Glorify Your Name]] repeats the same pattern - [[Free Grace]] does not erase cost; it carries you through the cup you cannot remove alone.
   - Matthew and Mark record Him praying the same surrender three times; Luke notes an angel strengthening Him in the agony.
   - [[Glorify Your Name]] asked for the Father's glory at the hour; Gethsemane is where that glory met His human dread.
   - Under [[Free Grace]], this is not a template to earn favor - it is the Son showing how costly obedience sounds in prayer.
+level_1: "Not my will means asking God to remove the cup, then yielding to the Father's will - honest request before surrender."
+level_2: "Like telling a parent you are scared and still doing what is right - the dread comes out loud before the yes."
+level_3: "When the diagnosis will not change, pray the honest ask first, then release the outcome you cannot control."
+level_4: "Because surrender without honesty is performance, bring real dread to God before you release the result."
+level_5: "[[Glorify Your Name]] repeats the pattern - [[Free Grace]] carries you through cups you cannot remove alone."
 examples:
   - "I wanted the diagnosis to be wrong and prayed for a different outcome, then had to say not my will - Gethsemane is where faith stops bargaining and starts surrender."
   - "Leading a team meant a conversation that could cost me friends - I delayed a week; Jesus prayed three times the same yes before the arrest."

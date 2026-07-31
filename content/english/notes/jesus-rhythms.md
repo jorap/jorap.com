@@ -5,15 +5,15 @@ meta_title: "Jesus' Rhythms - His Daily Patterns in the Gospels"
 description: "What the Gospels show Jesus doing day to day - prayer, Scripture, people, and the Father's will."
 key_concept: |
   - [[Eternal Principles]] holds what Jesus taught; this hub holds what the Gospels show Him doing.
-  - Level 1: One section holds what Jesus taught; this section holds what the Bible shows He actually did day to day.
-  - Level 2: Eternal Principles holds what Jesus taught; this hub holds what the Gospels show Him doing - like a syllabus versus a daily log.
-  - Level 3: Teaching lane names commands; biography lane names recurring moves - prayer, Scripture, people, obedience on ordinary days, because pattern follows from what He did.
-  - Level 4: Track what the Gospels show Jesus doing daily - withdraw, Scripture, people, obedience - not a merit checklist.
-  - Level 5: Ground is still [[Free Grace]] - patterns are grateful imitation after faith; [[Atomic Notes]] below drill six cards each at [/notes/review/](/notes/review/).
   - Not a merit ladder - the ground is still [[Free Grace]]: these patterns are for grateful imitation after faith, not payment for heaven.
   - The Gospels do not hand me a morning-routine checklist; they show recurring moves - withdraw to pray, live in Scripture, gather with God's people, bend for the hurting, obey the Father one day at a time.
   - [[Atomic Notes]] below carry six review cards each - drill at [/notes/review/](/notes/review/) with filter **Jesus Rhythms**.
   - Aim: [[Christlikeness]] - look and love more like Him on ordinary Tuesdays, not perform a biography cosplay.
+level_1: "Jesus' Rhythms is the hub for what the Gospels show Jesus doing day to day - prayer, Scripture, people, and the Father's will."
+level_2: "[[Eternal Principles]] holds what Jesus taught; this hub holds what the Gospels show Him doing - like a syllabus versus a daily log."
+level_3: "Pick one rhythm note this week - withdraw, Scripture, people, obedience - and drill it at [/notes/review/](/notes/review/) with filter **Jesus Rhythms**."
+level_4: "Not a merit ladder - ground is still [[Free Grace]]; these patterns are grateful imitation after faith, not payment for heaven."
+level_5: "[[Atomic Notes]] below drill six cards each; aim for [[Christlikeness]] on ordinary Tuesdays, not biography cosplay."
 shareable_thought:
   - "What the Gospels show Jesus doing day to day - prayer, Scripture, people, and the Father's will."
   - "Eternal Principles holds what He taught; this hub holds what the Gospels show Him doing."
@@ -48,7 +48,6 @@ aliases: ["Jesus habits", "how Jesus lived", "gospel biography"]
 featured: false
 draft: false
 ---
-
 ## Start here
 
 - [[Free Grace]] - eternal life is received by faith, not earned by copying His schedule

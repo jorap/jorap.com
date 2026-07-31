@@ -6,11 +6,6 @@ key_concept: |
   {{< bible ref="Luke 9:23-24" emphasize="23" >}}
   
   - When the captain's chair and Christ's command pull opposite ways, I deny the shortcut first.
-  - Level 1: When boss pulls one way and Jesus pulls the other, obey Jesus first, like checking the map before you drive.
-  - Level 2: Follow Christ then lead is like reading compass north before giving marching orders - deny the shortcut when the room wants compromise.
-  - Level 3: Because visible leadership without private obedience is sand, order the seats before you set pace for the room.
-  - Level 4: Before you lead the room on a compromise, ask which seat the move serves - Christ or the org chart; upward allegiance before outward care.
-  - Level 5: [[Take Up Your Cross]] before I set pace for the room; [[Discipleship]] vs [[Leadership]] names two seats - [[God Centered Design]] asks who the plan ultimately serves.
   - [[Take Up Your Cross]] before I set pace for the room.
   - [[Discipleship]] vs [[Leadership]] names two seats - upward allegiance and outward care.
   - [[God Centered Design]] asks who the plan ultimately serves before I optimize the slide.
@@ -18,6 +13,11 @@ key_concept: |
   - [[Follow Christ, Then Lead]] is the move when the room wants a shortcut, a cover-up, or a compromise I would never take alone.
   - Gospel depth: [[Abide in Me]] - fruit from staying connected, not self-powered grit in the captain's chair.
   - PKM mirror: [[Seek the Kingdom First]] - kingdom before inbox; here, kingdom before org chart.
+level_1: "Follow Christ then lead means obeying Jesus before you set pace for the room - when boss and Christ pull opposite ways, Christ wins."
+level_2: "Like reading compass north before giving marching orders - deny the shortcut when the room wants compromise."
+level_3: "Before you lead the room on a compromise, ask which seat the move serves - Christ or the org chart."
+level_4: "Visible leadership without private obedience is sand - upward allegiance before outward care."
+level_5: "[[Take Up Your Cross]] before I set pace for the room; [[Discipleship]] vs [[Leadership]] names two seats - [[God Centered Design]] asks who the plan ultimately serves."
 examples:
   - "Finance wanted the numbers softened and my team was watching - follow Christ, then lead was refuse the edit, explain why calmly, and own the fallout together."
   - "Sunday school asked me to skip the hard verse because parents might leave - I taught it plain anyway, then stayed after to answer questions - follow first, lead the room second."
@@ -82,5 +82,3 @@ cards:
     back: "Kingdom first - lead from that footing."
 draft: false
 ---
-
-

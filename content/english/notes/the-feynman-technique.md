@@ -4,20 +4,13 @@ meta_title: "The Feynman Technique - Teach It to Learn It"
 description: "Teach the idea out loud to the blank page - wherever you stumble, you do not understand yet."
 key_concept: |
   - Explain it simply to a blank page - the stumble marks the gap.
-  - Level 1: Like telling a younger kid how something works - when you cannot say it simply, you do not know it yet.
-  - Level 2: Explain an idea out loud as if no smart words exist - wherever you stall, that is the gap you still need to study.
-  - Level 3: Teaching-to-learn works because plain speech exposes holes that polished notes hide behind vocabulary.
-  - Level 4: Write one paragraph with no jargon - mark every stall and study that slice before you link the note.
-  - Level 5: A blank page is the honest audience - no jargon to hide behind; the stumble is the syllabus, same honesty check as [[Synthesis as a Goal]] before you publish.
-  | Level | Target | What it sounds like |
-  |-------|--------|---------------------|
-  | 1 | Grade 2-3 (age 7-8) | One concrete image, ~20 words, almost no abstract words |
-  | 2 | Grade 6 (age 11-12) | Short analogy or story, plain words, no wikilinks |
-  | 3 | Grade 10 (age 15-16) | Cause and effect, name the idea once |
-  | 4 | College / early career | Actionable claim, tradeoffs hinted |
-  | 5 | Expert practitioner | Nuance, edge cases, wikilinks, when it breaks |
   - A blank page is the honest audience - no jargon to hide behind.
   - Teach-it-to-learn-it keeps evergreen notes honest before I link them.
+level_1: "The Feynman technique is explaining an idea in plain words to a blank page until you stumble - you can name the teach-it-to-learn-it method."
+level_2: "Plain speech exposes holes that polished notes hide behind jargon - the stumble marks where understanding stops and study should start."
+level_3: "Write one paragraph with no jargon before you file the note - mark every stall and study that slice first."
+level_4: "Teach-back stress-tests [[Depth of Understanding]] at Definition and Explanation - it does not replace Application, Systems, or Generative depth."
+level_5: "The stumble is the syllabus before you publish or link - same honesty check as [[Synthesis as a Goal]]; pairs with [[Deliberate Practice]] on the weak slice."
 examples:
   - "My kid asked how the fuse box works and I waved vaguely - explaining it simply showed I did not understand it well enough to fix anything."
   - "The new hire asked why we batch invoices that way and I stumbled mid-sentence."
@@ -30,6 +23,9 @@ relationships:
   - type: contradicts
     wikilink: "[[Spaced Repetition]]"
     reason: "when explaining gaps beats flashcard drill"
+  - type: extends
+    wikilink: "[[Depth of Understanding]]"
+    reason: "Teach-back stress-tests Definition and Explanation before you climb the full ladder"
   - type: extends
     wikilink: "[[Evergreen Notes]]"
     reason: "Teach-it-to-learn-it exposes gaps so evergreen notes stay honest and clear"
@@ -61,4 +57,3 @@ cards:
     back: "Don't teach what I can't explain clean."
 draft: false
 ---
-

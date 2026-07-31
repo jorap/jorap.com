@@ -5,11 +5,6 @@ description: "Believers stand before Christ after salvation to have works evalua
 key_concept: |
   {{< bible ref="Matthew 16:24-27" emphasize="27" >}}
   - The Son of Man repays deeds - reward review for the saved, not re-deciding who gets eternal life.
-  - Level 1: Saved people will stand before Jesus to see what reward their good works earned - not to learn whether they get into heaven.
-  - Level 2: Believers face a reward review for what they did after salvation - not a second trial on who gets heaven, like an awards show after admission.
-  - Level 3: Eternal life was settled at faith; the bema weighs works for reward - categories must stay separate or panic follows when fire tests come.
-  - Level 4: Stand before Christ knowing salvation is settled - let the review weigh faithful works for reward, not standing.
-  - Level 5: [[Free Grace]] and [[Justification]] already decided forever; [[Loss of Reward]] keeps saved-through-fire distinct from unsaved.
   - [[Free Grace]] and [[Justification]] already decided where I spend forever.
   {{< bible ref="1 Corinthians 3:12-15" emphasize="15" >}}
   - Paul's fire test - some work burns, you are still saved through fire; worthless work shrinks reward, not standing.
@@ -20,6 +15,11 @@ key_concept: |
   - [[Secret Devotion]] and [[Let Your Light Shine]] both show up in the ledger - hidden and public obedience counted by Christ, not the audience.
   - [[Loss of Reward]] keeps the categories straight: saved through fire with loss, not unsaved.
   - PKM mirror: [[Periodic Knowledge Review]] - the whole history gets reviewed, not one heroic week mistaken for the whole career.
+level_1: "The judgment seat is where saved believers stand before Christ to have works evaluated for reward - not to learn whether they get into heaven."
+level_2: "Believers face a reward review for what they did after salvation - not a second trial on who gets heaven, like an awards show after admission."
+level_3: "When fire tests come, keep categories separate - eternal life was settled at faith; the bema weighs works for reward, not standing."
+level_4: "Wood, hay, and straw burn; gold, silver, and precious stones last - some work burns and you are still saved through fire; worthless work shrinks reward, not standing."
+level_5: "[[Free Grace]] and [[Justification]] already decided forever; [[Loss of Reward]] keeps saved-through-fire distinct from unsaved."
 examples:
   - "I pictured standing before Christ and panicked like heaven might get revoked - the judgment seat evaluates works for reward; salvation was settled at faith."
   - "Years of church service felt like my ticket in - what gets weighed is faithful obedience after salvation, not a re-trial on who gets eternal life."
@@ -84,5 +84,3 @@ cards:
     back: "Faithful use over the whole stretch - not one week."
 draft: false
 ---
-
-

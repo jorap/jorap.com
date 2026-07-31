@@ -6,15 +6,15 @@ key_concept: |
   {{< bible ref="Matthew 6:19-21" emphasize="21" >}}
   
   - Earthly stuff rusts and gets stolen - where your treasure is, your heart follows; store what lasts.
-  - Level 1: Stuff on earth breaks, rots, or gets taken - put your heart where value lasts, not where rust wins.
-  - Level 2: Earthly treasure is fragile; heavenly treasure ties to faithful service and generosity after salvation settles the account.
-  - Level 3: Heart follows treasure because what you store shows what you worship - rust and theft expose earth's limits.
-  - Level 4: Audit one spending line this month - where is your heart following treasure that will not last?
-  - Level 5: [[Free Grace]] already secured heaven; [[Eternal Rewards]] names what the Father pays the saved life - store what lasts, not what rusts.
   - Earthly treasure is fragile; heavenly treasure is tied to faithful service and generosity after salvation.
   - [[Free Grace]] already secured heaven; [[Eternal Rewards]] names what the Father pays the saved life for faithfulness - not the entry fee.
   - The [[Judgment Seat]] evaluates what lasts - wood, hay, and stubble burn while gold lasts; [[Loss of Reward]] is when worthless treasure burns but you are still saved through fire.
   - [[The Collector's Fallacy]] is the PKM mirror: hoarding saves and stuff on earth while nothing lasting gets stored.
+level_1: "Treasure in heaven means storing what lasts - generosity and obedience - not what rust, moth, and thieves can take on earth."
+level_2: "Where your treasure is, your heart follows - earthly stuff breaks, rots, or gets taken; heavenly treasure ties to faithful service after salvation settles the account."
+level_3: "Audit one spending line this month - where is your heart following treasure that will not last?"
+level_4: "[[Free Grace]] already secured heaven; [[Eternal Rewards]] names what the Father pays the saved life - store what lasts, not what rusts."
+level_5: "[[The Collector's Fallacy]] is the PKM mirror - hoarding saves and stuff on earth while nothing lasting gets stored; [[Judgment Seat]] evaluates what lasts."
 examples:
   - "Thumb on another buy I do not need - will this rust, or store something heaven-side like mercy and obedience?"
   - "I almost chased a sponsorship for the ego, not the team - treasure check: where will this matter in ten years?"
@@ -73,4 +73,3 @@ cards:
     back: "Will this rust - or store something that lasts?"
 draft: false
 ---
-

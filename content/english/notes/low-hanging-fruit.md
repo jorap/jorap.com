@@ -4,13 +4,13 @@ meta_title: "Low Hanging Fruit - Easy Wins Worth Picking First"
 description: "The easy win available now - grab it before climbing for the hard stuff."
 key_concept: |
   - Not every task deserves hero energy.
-  - Level 1: Some jobs are small - do not spend all your energy on them like they are the biggest battle, like picking the easy apples on the bottom branch first.
-  - Level 2: Low-hanging fruit is the easy win - tackle it with normal effort, not hero energy reserved for hard fights.
-  - Level 3: Not every task deserves peak focus - quick wins exist so you clear noise before the real work.
-  - Level 4: Do the two-minute fix first - save [[Deep Work]] for problems that actually need it.
-  - Level 5: [[Pareto Principle]] and [[Minimum Effective Dose]] share the same instinct - spend disproportionate effort only where the return earns it.
   - Fix the broken link, publish the half-done draft, delete the folder I have not opened in a year.
   - I use it when I am avoiding work by planning harder work.
+level_1: "Low-hanging fruit is the easy win you tackle with normal effort, not hero energy reserved for hard fights."
+level_2: "Like picking the easy apples on the bottom branch first, some jobs are small - do not spend peak focus like they are the biggest battle."
+level_3: "Do the two-minute fix first - save [[Deep Work]] for problems that actually need it."
+level_4: "Not every task deserves peak focus - quick wins exist so you clear noise before the real work earns disproportionate effort."
+level_5: "[[Pareto Principle]] and [[Minimum Effective Dose]] share the same instinct - spend hero energy only where the return earns it."
 examples:
   - "I spent twenty minutes redesigning our training plan when the actual problem was three cones not put away - I put them back in four minutes and had energy for drills."
   - "I spent an hour sketching a whole spring-cleaning plan when the actual problem was three dishes in the sink - washed them in ten minutes and had energy for the garage after lunch."
@@ -51,5 +51,3 @@ cards:
     back: "Clear the thirty-second win - then chase hard."
 draft: false
 ---
-
-

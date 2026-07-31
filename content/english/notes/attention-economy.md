@@ -4,16 +4,16 @@ meta_title: "Attention Economy"
 description: "Platforms sell user attention - guard the feed pipe before optimizing the inbox."
 key_concept: |
   - Platforms compete for your focus - engagement optimized against you still counts as optimization.
-  - Level 1: Like when a video keeps asking you to watch the next one - the app wins your eyes even when you feel tired.
-  - Level 2: Free games flash bright prizes so you stay longer - someone profits from your time even when the game feels against you.
-  - Level 3: The attention economy sells user focus - guard the feed pipe before you optimize the inbox for content you should not consume.
-  - Level 4: Turn off push alerts before you install another focus app - if you are not paying, you are the product.
-  - Level 5: [[Signal vs Noise]] names what to cut; [[Information Diet]] is the weekly menu habit - a tidy inbox for junk content is still a loss.
   - Guard the pipe before optimizing the inbox - a tidy inbox for content you should not be consuming is still a loss.
   - [[Signal vs Noise]] names what to cut; [[Information Diet]] is the weekly menu habit.
   - I treat my feed like a slot machine someone else owns.
   - If I am not paying, I am the product - the feed sells my attention, not the article.
   - Platforms compete for your focus - I treat the feed like a slot machine someone else owns.
+level_1: "The attention economy is platforms competing for user focus - engagement is optimized even when it works against you."
+level_2: "Like autoplay asking for the next video - someone profits from your time even when you feel tired; free games flash prizes to keep you longer."
+level_3: "Turn off push alerts before installing another focus app - guard the feed pipe before optimizing the inbox."
+level_4: "If you are not paying, you are the product - a tidy inbox for junk content is still a loss."
+level_5: "[[Signal vs Noise]] names what to cut; [[Information Diet]] is the weekly menu habit."
 examples:
   - "I turned off push alerts before trying a new focus app - the pipe was the leak."
   - "My kid's group chat pinged through homework; airplane mode for forty minutes beat another planner."
@@ -62,5 +62,3 @@ cards:
     back: "Gate the pipe - don't blame willpower alone."
 draft: false
 ---
-
-

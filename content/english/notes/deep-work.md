@@ -4,13 +4,13 @@ meta_title: "Deep Work"
 description: "Hard thinking earns uninterrupted blocks; capture catches what tries to interrupt."
 key_concept: |
   - Deep work protects uninterrupted blocks for hard thinking while capture handles interruptions.
-  - Level 1: Like when you put toys away so you can finish homework - quiet time for hard thinking, quick stuff saved for later.
-  - Level 2: Dad puts his phone in the drawer so one math sheet gets done - interruptions go on a list for later.
-  - Level 3: Hard thinking earns a protected block - it works only when phone is away and door is closed, not just fewer tabs.
-  - Level 4: Block ninety minutes with phone in the gym bag before the drill breakdown rots another week.
-  - Level 5: [[Capture]] takes the interruption so the block survives - deep work fails when the spark gets sorted mid-thought instead of landing in [[The Trusted Inbox]].
   - The block only works if it is actually protected - phone away, door closed, not just fewer tabs open.
   - Hard thinking earns a protected block; capture handles what tries to interrupt it.
+level_1: "Deep work is uninterrupted focus on hard thinking - protected blocks where phone is away and door is closed, not just fewer tabs."
+level_2: "Put toys away so you can finish homework - quiet time for hard thinking, quick stuff saved for later on a list."
+level_3: "Block ninety minutes with phone in the gym bag before the drill breakdown rots another week."
+level_4: "[[Capture]] takes the interruption so the block survives - deep work fails when the spark gets sorted mid-thought instead of landing in [[The Trusted Inbox]]."
+level_5: "Dad puts his phone in the drawer so one math sheet gets done - you design a protected block and route every ping to capture instead of the task."
 examples:
   - "Phone in the drawer while I help with math - one problem set actually finished instead of three distracted false starts."
   - "Phone in the gym bag for ninety minutes - one drill breakdown written that had been almost done for weeks."
@@ -53,5 +53,3 @@ cards:
     back: "One block now - drawer the phone."
 draft: false
 ---
-
-

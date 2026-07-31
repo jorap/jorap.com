@@ -6,15 +6,15 @@ key_concept: |
   {{< bible "Matthew 7:12" >}}
   
   - The check is experiential - how would I want to be spoken to, helped, forgiven, included?
-  - Level 1: Before you act, ask how you would want someone to talk to you, help you, forgive you, or let you belong.
-  - Level 2: The check is experiential - how you would want to be spoken to, helped, forgiven, and included sets the floor.
-  - Level 3: Treating others from that mirror works because it converts abstract ethics into a test you can feel.
-  - Level 4: Run the experiential check before the hard conversation - that sets the floor for every interaction.
-  - Level 5: [[Free Grace]] keeps it from becoming a merit system - I treat others well because Christ treated me well, not to earn standing.
   - That sets the floor for every interaction.
   - [[Free Grace]] keeps it from becoming a merit system: I treat others well because Christ treated me well first.
   - I treat people how I would want to be treated.
   - The Golden Rule is active care for my neighbor - not just avoiding harm and calling it love.
+level_1: "The Golden Rule is treating others how you want to be treated - active care for your neighbor, not just avoiding harm."
+level_2: "The check is experiential - how you would want to be spoken to, helped, forgiven, and included sets the floor before you act."
+level_3: "Run the experiential check before the hard conversation - pause before the post button with a critique that is true and cruel."
+level_4: "Treating others from that mirror converts abstract ethics into a test you can feel - [[Love Your Neighbor]] is the person in front, not a principle on a slide."
+level_5: "[[Free Grace]] keeps it from becoming a merit system - I treat others well because Christ treated me well first, not to earn standing."
 examples:
   - "My thumb was on the post button with a critique that was probably true and definitely cruel - pause: how would I want someone to say that to me?"
   - "Before I barked at the ref in front of the kids, I asked how I would want a coach to talk to me after a bad call - the Golden Rule changed the volume."
@@ -70,4 +70,3 @@ cards:
     back: "Grace - how I would want to be corrected."
 draft: false
 ---
-

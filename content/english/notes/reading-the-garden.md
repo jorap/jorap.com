@@ -4,15 +4,15 @@ meta_title: "Reading the Garden - Wiki and Drill"
 description: "Learn in two lanes - wiki for understanding, cards for recall when life shows up."
 key_concept: |
   - Learn from the garden in two lanes - wiki for understanding, cards for drill.
-  - Level 1: Read one note at a time for the idea, then drill the cards when you need the move under pressure - not one long scroll pretending you studied.
-  - Level 2: Each page stacks in order - definition, angle, two scenes, shareable thoughts, then links - like reading a recipe card before you cook, not skimming the whole cookbook.
-  - Level 3: One pass is not enough for hard ideas - skim the definition first, return for the angle, follow links for context, drill cards for recall; [[Layered Reading]] names the passes.
-  - Level 4: Success is recall and use when it matters - retention, application, explanation - not tab count or review streak length.
-  - Level 5: Wiki holds prose you can defend; ~20% spine notes opt into cards at [/notes/review/](/notes/review/) - same split as [[Spaced Repetition]]; [[Periodic Knowledge Review]] calendars the graph, cards handle timed drill.
   - Read top to bottom on one note: `description`, `key_concept`, `examples`, shareable thoughts, relationships, then neighbors and backlinks.
   - PKM track: start at [[Maps of Content]] or [[Getting Started]]; faith track: [[Eternal Principles]] then [[Free Grace]] when order matters.
   - Drill lane: life cue on the card front, immediate move on the back - produce the answer before you flip.
   - Question that matters: can I recall and use this when it matters?
+level_1: "Reading the garden means learning in two lanes - wiki prose for understanding, review cards for recall under pressure."
+level_2: "Each page stacks definition, angle, scenes, and links - like reading a recipe card before you cook, not skimming the whole cookbook."
+level_3: "Open one note, read description and key_concept first, then drill at /notes/review/ when you need the move Monday morning."
+level_4: "Success is recall and use when it matters - not tab count or review streak length; [[Layered Reading]] names multiple passes on hard ideas."
+level_5: "Wiki holds prose you can defend; spine notes opt into cards - [[Spaced Repetition]] handles timed drill; [[Periodic Knowledge Review]] calendars the graph."
 examples:
   - "Opened six gospel tabs Sunday and could not quote one claim Monday - one note, description first, then drill at /notes/review/."
   - "Kid asked why I forgive at work and I scrolled shareable thoughts until I found the line - should have drilled the card Tuesday so the move was already loaded."

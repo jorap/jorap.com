@@ -4,13 +4,13 @@ meta_title: "Weekly Review Checklists - Same Steps Every Sunday"
 description: "Weekly review works when the same short checklist runs every Sunday on purpose."
 key_concept: |
   - The checklist should be boring on purpose.
-  - Level 1: A good weekly checklist uses the same simple steps every time on purpose - no fancy changes that make you skip it.
-  - Level 2: The checklist should be boring on purpose - same steps every week beat a template you abandon on travel weeks.
-  - Level 3: Repeatable short lists win because fancy formats raise friction when energy is low.
-  - Level 4: Same steps every week: empty inbox, scan calendar, check projects, pick one express action - even on travel weeks.
-  - Level 5: Skip the fancy template - repeat the same short list even on travel weeks; boring is the feature - same lane as [Review](/notes/review/) and [[Quarterly Planning]] rhythm.
   - Same steps every week: empty inbox, scan calendar, check projects, pick one express action.
   - Skip the fancy template - repeat the same short list even on travel weeks.
+level_1: "A weekly review checklist is the same short list of steps you run every Sunday on purpose - boring by design, not a fancy template you abandon."
+level_2: "Same steps every week beat a template you skip on travel weeks - repeatable short lists win because fancy formats raise friction when energy is low."
+level_3: "Empty inbox, scan calendar, check projects, pick one express action - twenty minutes beats skipping review because this week is different."
+level_4: "Boring is the feature - trust is built by schedule, not by hoping you will get to it someday when energy is low."
+level_5: "Same lane as [Review](/notes/review/) and [[Quarterly Planning]] rhythm - skip the fancy template even on travel weeks, shortened not skipped."
 examples:
   - "Inbox, calendar, projects, one express action - twenty minutes beats skipping review because this week's \"different.\""
   - "Sunday checklist: bowl by the door, calendar, kid forms, one family thing to finish - same steps even on travel weeks, shortened not skipped."
@@ -57,4 +57,3 @@ cards:
     back: "Clear bag, check fixture, one skill drill."
 draft: false
 ---
-

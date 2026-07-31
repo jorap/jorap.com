@@ -4,13 +4,13 @@ meta_title: "Golden Rule at Work - Treat Colleagues How You Want to Be Treated"
 description: "Treat colleagues the way you want to be treated - in email tone, credit, deadlines, and hallway gossip."
 key_concept: |
   - It is active, not passive: do the helpful thing, do not only avoid harm.
-  - Level 1: Help coworkers the way you want help - step in, do not just stay out of the way.
-  - Level 2: The golden rule is active - do the helpful thing you would want done for you, like holding a door you would want held.
-  - Level 3: Passive fairness leaves people stuck - because you would want someone to act for you, the rule pushes you to act.
-  - Level 4: At work, ask what you would want if roles flipped - then do that helpful move instead of only keeping your head down.
-  - Level 5: [[The Golden Rule]] is the spine; at work it means stepping in on the tedious task, not just refusing to make things worse.
   - The check is experiential - how would you want feedback delivered, how would you want to be included, how would you want a mistake handled?
   - Gospel depth lives in [[The Golden Rule]]; this is the version used before hitting send.
+level_1: "Golden rule at work means doing the helpful thing you would want done - active, not passive avoidance of harm."
+level_2: "Like holding a door you would want held - step in on the tedious task, not just stay out of the way."
+level_3: "Ask what you would want if roles flipped - then do that helpful move instead of only keeping your head down."
+level_4: "Passive fairness leaves people stuck - because you would want someone to act for you, the rule pushes you to act."
+level_5: "[[The Golden Rule]] is the spine; at work it means stepping in on the tedious task, not just refusing to make things worse."
 examples:
   - "My draft reply to the new team manager was technically right and needlessly harsh - I paused, asked how I would want that correction on my worst game day, and rewrote it."
   - "The group chat pile-on about the neighbor's messy yard - I asked how I would want feedback if my lawn looked that way, then said nothing mean."

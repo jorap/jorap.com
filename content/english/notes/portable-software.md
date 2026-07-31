@@ -4,12 +4,12 @@ meta_title: "Portable Software - Unzip Without Admin"
 description: "Portable builds run from a folder you own - unzip on locked PCs, copy the stack between machines."
 key_concept: |
   - Portable software wins when installers are forbidden and the whole stack must move in one folder.
-  - Level 1: Unzip to a directory you control, run without admin, copy the folder to another PC - same paths, same broken test database.
-  - Level 2: Portable is like packing the whole workshop in a crate - not philosophy, transfer between desks, USB sticks, and reimaged corporate laptops.
-  - Level 3: Because locked Windows images block setup.exe, portable XAMPP and PortableApps.com let me practice on lunch break without an IT ticket.
-  - Level 4: Cross-platform mattered later when Linux and Mac joined the desk - portable taught me to own the folder first, OS second.
-  - Level 5: [[Cross-Platform Software]] picked up when OS count rose; [[Freedom Over Free]] names why no installer beats no license fee.
   - Open stacks often ship a zip or portable build - proprietary tools more often demand registry writes you cannot make.
+level_1: "Portable software runs from a folder you control - unzip, no admin rights, copy the whole stack between machines."
+level_2: "Like packing the whole workshop in a crate - transfer between desks, USB sticks, and reimaged corporate laptops."
+level_3: "On locked Windows images, portable XAMPP lets you practice on lunch break without an IT ticket."
+level_4: "Own the folder first, OS second - when Linux and Mac joined the desk, portable habits carried over to [[Cross-Platform Software]]."
+level_5: "[[Cross-Platform Software]] picked up when OS count rose; [[Freedom Over Free]] names why no installer beats no license fee."
 examples:
   - "Corporate desktop with no installer rights - XAMPP portable in my user folder, break a CMS install on lunch without asking IT why sales needs Apache."
   - "PortableApps launcher on a USB stick - Firefox and Notepad++ on a locked work PC, unplug the drive and Add/Remove Programs stays clean"

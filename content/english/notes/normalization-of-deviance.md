@@ -4,13 +4,13 @@ meta_title: "Normalization of Deviance"
 description: "Repeated close calls slowly redefine 'normal' until disaster feels surprising but was predictable."
 key_concept: |
   - The third unchallenged shortcut is the warning - not the accident that finally forces a meeting.
-  - Level 1: The third time someone skips a rule without anyone speaking up is the warning - like ignoring three smoke smells until the house is on fire.
-  - Level 2: Normalization of deviance means unchallenged shortcuts become normal before the accident forces a meeting.
-  - Level 3: The third unchallenged shortcut is the signal - by the fourth or fifth, nobody even decides, it is just how things are done here.
-  - Level 4: Log the near miss the first time - [[Heed Every Near-Miss]] before the shortcut stops feeling like a choice.
-  - Level 5: [[Blameless After-Action Review]] when nobody died cannot end the talk - [[Failure as Feedback]] dies when close calls stop getting recorded.
   - [[Heed Every Near-Miss]] logs each close call; [[Blameless After-Action Review]] when "nobody died" cannot end the talk.
   - By the fourth or fifth time, the shortcut is not even a decision anymore - it is just how things are done here.
+level_1: "Normalization of deviance is when unchallenged shortcuts become normal before the accident forces a meeting."
+level_2: "Like ignoring three smoke smells until the house is on fire, the third unchallenged skip is the signal - by the fifth, nobody even decides anymore."
+level_3: "Log the near miss the first time - [[Heed Every Near-Miss]] before the shortcut stops feeling like a choice."
+level_4: "By the fourth or fifth time, the shortcut is just how things are done here - close calls stop getting recorded and [[Failure as Feedback]] dies."
+level_5: "[[Blameless After-Action Review]] when nobody died cannot end the talk - recording near misses is what keeps deviance from becoming invisible."
 examples:
   - "Third time someone ran the red light in the parking lot and nobody wrote it up - until the fender bender."
   - "Third time we let the ladder stay on the stairs and nobody moved it - until someone tripped carrying laundry."
@@ -53,4 +53,3 @@ cards:
     back: "Write it up - before it feels normal."
 draft: false
 ---
-

@@ -4,12 +4,12 @@ meta_title: "Permission Scales - Same Zip Globally"
 description: "Open permission scales globally - same WordPress zip in Manila and California, not different gates by geography."
 key_concept: |
   - The same zip file does not care which country your desk is in.
-  - Level 1: Friedman flattener four named open-sourcing - talent competes on bandwidth and nerve, not on who holds the product key.
-  - Level 2: Permission scales like a public recipe anyone may cook - the ingredients list does not change because your kitchen is in a province outside the capital.
-  - Level 3: Because the license travels, a student in UPLB learns on the same WordPress zip as a student in California - Stack Overflow at three in the morning Manila time included.
-  - Level 4: I chose to focus on [[Open Source]] after the book gave language for what I felt in classrooms - not moral purity, a flattener an ordinary developer could ride.
-  - Level 5: [[Freedom Over Free]] is the personal split; [[Teachable Stack]] is the classroom proof; [[Learn Hireable Stacks]] is still local job boards on top of global tools.
   - Mid-2000s proof stack: Apache, Firefox, Ubuntu, WordPress, PHP on cheap hosting - theory met zip files.
+level_1: "Permission scales means open licenses travel globally - talent competes on bandwidth and nerve, not who holds the product key."
+level_2: "Like a public recipe anyone may cook - the ingredients list does not change because your kitchen is outside the capital."
+level_3: "A student in UPLB learns on the same WordPress zip as one in California - Stack Overflow at three in the morning Manila time included."
+level_4: "Friedman flattener four named what classrooms already felt - not moral purity, a flattener an ordinary developer could ride."
+level_5: "[[Freedom Over Free]] is the personal split; [[Teachable Stack]] is classroom proof; [[Learn Hireable Stacks]] sits local job boards on global tools."
 examples:
   - "Teaching seminars outside Manila - students downloaded the same XAMPP portable and WordPress zip I used in the capital, no regional license server."
   - "Friedman book mid-2000s - flattener four gave me words for why PHP beat ASP on a student budget before I had Silicon Valley on speed dial."

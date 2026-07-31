@@ -5,14 +5,14 @@ description: "Jesus chose twelve and gave them disproportionate time - depth wit
 key_concept: |
   {{< bible ref="Mark 3:14" emphasize="14" >}}
   - He appointed twelve to be with Him and to send out - presence before platform, depth before scale.
-  - Level 1: Jesus spent real time with a small group before sending them out - close time with twelve beats chasing every crowd.
-  - Level 2: Jesus picked twelve to stay close before He sent them - presence before platform, like training a few workers well before opening every branch.
-  - Level 3: Mass platform without presence produces spectators; time with a few produces sendable people - depth scales through people, not headcount alone.
-  - Level 4: Invest disproportionate presence in a small circle before you scale the message outward.
-  - Level 5: [[Great Commission]] sends widely; this note names the few who get presence first - depth before broadcast.
   - John 13:1-17 shows the same logic at the end - washed their feet in the room, not from a stage.
   - [[Great Commission]] pushes outward; [[Discipleship]] names daily following - this names the small circle that carries the message.
   - Under [[Free Grace]], investing in a few is not elitism - it is how the Teacher multiplied truth without hoarding it.
+level_1: "Invest in the few means giving disproportionate presence to a small circle before you scale the message outward."
+level_2: "Jesus picked twelve to stay close before He sent them - presence before platform, like training a few workers well before opening every branch."
+level_3: "Block weekly time with two people you are forming - not only crowd teaching from a stage - before you announce the next broadcast push."
+level_4: "Mass platform without presence produces spectators; time with a few produces sendable people - depth scales through people, not headcount alone."
+level_5: "[[Great Commission]] sends widely; this note names the few who get presence first - depth before broadcast."
 examples:
   - "I chased a bigger audience and neglected the three people who actually showed up weekly - Jesus named twelve before He sent anyone."
   - "I taught the whole team once a quarter but never ate with the core four - invest in the few is disproportionate time, not favoritism theater."
@@ -62,5 +62,3 @@ cards:
     back: "Depth before send - not elitism."
 draft: false
 ---
-
-

@@ -4,15 +4,15 @@ meta_title: "Bear Each Other's Burdens - Carry Weight Together"
 description: "Believers carry each other's heavy loads - bearing is shared weight, not solo heroics or gossip."
 key_concept: |
   {{< bible ref="Galatians 6:2" emphasize="2" >}}
-
+  
   - I cannot shoulder every weight alone - bearing means showing up with hands on the load, not commentary from the sidewalk.
-  - Level 1: Like when one kid holds the door while another drags the cooler - the job moves because two backs share it.
-  - Level 2: Bearing is active help with what crushes someone - not advice from a distance while they still carry it alone.
-  - Level 3: Under [[Free Grace]], I am already accepted - I bear burdens from love, not to earn standing or look holy.
-  - Level 4: Galatians pairs bearing with restoring the fallen gently - load-sharing and repair belong in the same breath.
-  - Level 5: [[Servant Leadership]] names the posture; [[Share the Heavy Lift]] is the workplace echo - same move, different room.
   - [[Love Your Neighbor]] shows up when I trade observation for shared weight.
   - [[Standing vs Fellowship]] keeps my place secure while I help someone whose fellowship lane is cracked.
+level_1: "Bearing one another's burdens is believers carrying heavy loads together - shared weight, not solo heroics or gossip."
+level_2: "Like one kid holding the door while another drags the cooler - active help with what crushes someone, not advice from a distance."
+level_3: "Show up with hands on the load when a teammate is buried - bearing means trading observation for shared weight."
+level_4: "Galatians pairs bearing with restoring the fallen gently - load-sharing and repair belong in the same breath under [[Free Grace]]."
+level_5: "[[Servant Leadership]] names the posture; [[Share the Heavy Lift]] is the workplace echo - same move, different room."
 examples:
   - "A teammate buried under elder-care stress got my Tuesday errand run, not a sermon about time management - bearing meant one less crate on her back."
   - "My small group stopped praying about his job loss and showed up with resume edits - Galatians bearing is hands on the burden, not comments from the pew."

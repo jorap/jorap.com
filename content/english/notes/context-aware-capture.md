@@ -4,12 +4,12 @@ meta_title: "Context-Aware Capture - Save the Why, Not Just the What"
 description: "A saved link is a mystery six weeks later unless the why is jotted while memory is fresh."
 key_concept: |
   - Context-aware capture saves the why while memory is fresh - project, mood, question - not just the link.
-  - Level 1: Like when you write why you saved a photo - the picture alone will not tell you later.
-  - Level 2: You bookmark an article but add "for Q3 budget slide" in the margin - context-aware capture saves the why while memory is fresh.
-  - Level 3: The link alone is a mystery six weeks later unless the why was captured while it was still obvious.
-  - Level 4: Voice-memo in the parking lot with why the meeting mattered - almost saved just the link and caught yourself while context was still in your head.
-  - Level 5: Six weeks later, only the why saves a bookmark from becoming junk - pairs with [[Capture]] when resonance alone cannot reconstruct the spark.
   - Six weeks later, only the why saves a bookmark from becoming junk.
+level_1: "Context-aware capture is saving the reason you kept a link or note while memory is still fresh - you can name what it is."
+level_2: "The link alone is a mystery six weeks later unless the why was captured - like writing why you saved a photo when the picture will not tell you later."
+level_3: "Bookmark the article and add \"for Q3 budget slide\" in the margin - the why saves the link from becoming junk when the project resurfaces."
+level_4: "Voice memo in the parking lot with why the meeting mattered - almost saved just the link and caught yourself while context was still in your head."
+level_5: "Six weeks later, only the why saves a bookmark - pairs with [[Capture]] when resonance alone cannot reconstruct the spark."
 examples:
   - "Voice memo in the parking lot after the meeting - I almost saved just the link and caught myself; context was still in my head."
   - "Photo of the whiteboard before they erased it - capture matched where the idea lived."
@@ -50,5 +50,3 @@ cards:
     back: "One line which project it feeds."
 draft: false
 ---
-
-

@@ -4,11 +4,6 @@ meta_title: "Atomic Notes - One Idea, One File"
 description: "One clear claim per note - split before the ands pile up."
 key_concept: |
   - One claim I would say out loud - too many ands, split it.
-  - Level 1: Like one LEGO brick with one shape - if it needs three parts glued on, split it into two bricks.
-  - Level 2: A sticky note that says "call coach" is one note - "call coach and buy shoes and fix bike" is three.
-  - Level 3: Atomic notes hold one claim you would say out loud - too many ideas in one file means links and maps cannot do their job.
-  - Level 4: Before you save, ask what one sentence you would cite in conversation - "browser tips and meeting notes" is two notes, not one.
-  - Level 5: Link with `[[wikilinks]]` and let [[Maps of Content]] organize - faith parallel: [[Let Your Yes Be Yes]], say one plain thing; headings inside one file usually mean you need two notes.
   - **Rule of thumb:** one thing I would cite in conversation - "why middle-click saves tab chaos" is atomic; "browser tips and meeting notes" is not.
   - Small notes stack like Lego blocks - linked, not merged.
   - Link with `[[wikilinks]]`; let [[Maps of Content]] and backlinks do the organizing.
@@ -17,6 +12,11 @@ key_concept: |
   - If a note needs three ands to make its point, I split it before I link it.
   - One claim I would say out loud - if a note needs three ands, I split it before I link it.
   - Too many ands in one note means I split it before I link it.
+level_1: "An atomic note holds one claim you would say out loud - too many ands means split the file."
+level_2: "Like one LEGO brick with one shape - \"call coach\" is one note; \"call coach and buy shoes and fix bike\" is three."
+level_3: "Before you save, ask what one sentence you would cite in conversation - mixed topics mean two notes, not one."
+level_4: "Too many ideas in one file block links and maps from doing their job - one claim per file."
+level_5: "Link with `[[wikilinks]]` and let [[Maps of Content]] organize - faith parallel: [[Let Your Yes Be Yes]], say one plain thing; headings inside one file usually mean you need two notes."
 examples:
   - "\"Why my basketball shoes live by the door\" is one claim - I would say it alone at carpool."
   - "\"Where we meet if the elevator is out\" is one claim; \"elevator outage and parking-gate codes\" is two - split and wikilink."
@@ -63,5 +63,3 @@ cards:
     back: "Split it - not atomic yet."
 draft: false
 ---
-
-

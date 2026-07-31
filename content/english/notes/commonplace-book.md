@@ -4,13 +4,13 @@ meta_title: "Commonplace Book"
 description: "Before linked notes, quotes and ideas lived in one book worth reopening."
 key_concept: |
   - A quote bank worth reopening beats rereading whole books when you need one line in conversation.
-  - Level 1: Like when you copy the best joke from a book onto one page - one line ready when you need it in talk.
-  - Level 2: A preacher keeps sermon quotes in one worn notebook - reopen the bank instead of rereading whole books for one line.
-  - Level 3: A commonplace book is a quote bank worth reopening - when you need one line in conversation, curation beats rereading entire sources.
-  - Level 4: Copy the sermon line and the recipe into one book you actually reopen - [[Literature Notes]] feed the bank before you file.
-  - Level 5: Pairs with [[Layered Reading]] to shorten sources before filing; [[Analog Capture Tools]] when paper still wins before wikilinks.
   - Paper ancestor of linked notes - same job as capture, different century.
   - [[Literature Notes]] feed the bank; [[Layered Reading]] shortens sources before filing.
+level_1: "A commonplace book is a quote bank you reopen - one line ready when you need it, not rereading whole books."
+level_2: "Like copying the best joke from a book onto one page - a preacher keeps sermon quotes in one worn notebook."
+level_3: "Copy the sermon line and the recipe into one book you actually reopen - [[Literature Notes]] feed the bank before you file."
+level_4: "Curation beats rereading entire sources when you need one line in conversation - paper ancestor of linked notes."
+level_5: "Pairs with [[Layered Reading]] to shorten sources before filing; [[Analog Capture Tools]] when paper still wins before wikilinks."
 examples:
   - "Coach's old basketball playbook of sets and halftime talks - same job as my [[Capture]] file, paper instead of wikilinks."
   - "Grandpa's notebook of sermon lines and recipes - quotes worth keeping before anyone had a [[digital garden]]."
@@ -59,4 +59,3 @@ cards:
     back: "Keep the personal stack - not just digital."
 draft: false
 ---
-

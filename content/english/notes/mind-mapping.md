@@ -4,13 +4,13 @@ meta_title: "Mind Mapping - Spatial Thinking Before Linear Notes"
 description: "Mind maps serve the messy first pass - branches, bubbles, relationships - then export to atomic notes."
 key_concept: |
   - Mind maps are the messy first pass - branches and bubbles before linear notes.
-  - Level 1: Draw messy branches and bubbles first - like sketching a spider web of ideas on paper before you write neat sentences.
-  - Level 2: Mind maps are the messy first pass - branches and bubbles before you force linear order.
-  - Level 3: Mind mapping externalizes structure before prose - sketch connections, then convert to atomic claims.
-  - Level 4: Spend ten minutes on paper with the topic in the center - linear notes come after the map shows what connects.
-  - Level 5: [[Creative Blocks]] break when you stop forcing outlines - [[Atomic Notes]] inherit the branches once one claim earns its own page.
   - The map shows relationships at a glance; atomic notes are what survive review and linking.
   - Export each branch to its own note after the shape is visible - not instead of writing notes.
+level_1: "A mind map is a messy first pass that sketches branches and bubbles before you force linear order."
+level_2: "Like sketching a spider web of ideas on paper before you write neat sentences, the map externalizes structure before prose."
+level_3: "Spend ten minutes on paper with the topic in the center - linear notes come after the map shows what connects."
+level_4: "Mind mapping externalizes structure before prose - sketch connections, then convert each branch to an atomic claim."
+level_5: "[[Creative Blocks]] break when you stop forcing outlines - [[Atomic Notes]] inherit the branches once one claim earns its own page."
 examples:
   - "I sketched a bubble map of our season goals on paper, then each branch became its own drill checklist."
   - "I sketch a messy bubble map before our road trip, then each branch becomes its own packing list on the fridge."
@@ -51,4 +51,3 @@ cards:
     back: "Sketch the map - show how ideas touch."
 draft: false
 ---
-

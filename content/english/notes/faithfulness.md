@@ -6,13 +6,13 @@ key_concept: |
   {{< bible ref="Matthew 25:21" emphasize="21" >}}
   
   - Well done for faithful use of what He entrusted - steady follow-through, not one heroic sprint mistaken for earned salvation.
-  - Level 1: Use what God gave you in small steady ways - not one big week to earn heaven, like watering daily.
-  - Level 2: Faithfulness is like showing up to the same shift on time - steady use over months, not one heroic week that tries to buy a seat already gifted.
-  - Level 3: Because grace already saved, steady obedience responds to a gift - it does not purchase heaven or replace performance with the entry fee.
-  - Level 4: Do the small entrusted task today with the same care you would bring to a visible stage - quiet lanes count.
-  - Level 5: Grace already secured salvation - [[Eternal Rewards]] may follow steady use without becoming the entry fee.
   - [[Faithful Steward]] is the garden echo: well done for faithful use over quiet Tuesdays, not burying what He gave or performing for applause.
   - [[Eternal Rewards]] names what steady faithfulness may receive; [[Free Grace]] keeps it from becoming the entry fee.
+level_1: "Faithfulness is steady use of what God entrusted over time - not one visible sprint that tries to earn salvation."
+level_2: "Like showing up to the same shift on time - months of small obedience respond to grace already given, not purchase heaven."
+level_3: "Do the small entrusted task today with the same care you would bring to a visible stage - quiet Tuesdays count."
+level_4: "Grace already secured salvation - steady obedience responds to the gift; performance cannot replace the entry fee."
+level_5: "[[Eternal Rewards]] may follow faithful use without becoming the ticket; [[Faithful Steward]] is the garden echo for quiet lanes."
 examples:
   - "One mission trip in my head as my whole eternal report card - faithfulness fruit is steady use over years, including Tuesdays nobody clapped for."
   - "I organized snacks for my kid's team and wanted credit all week - the master reviews faithful use, not buried gifts or performance."
@@ -71,8 +71,3 @@ cards:
     back: "Invest what's entrusted - don't bury it."
 draft: false
 ---
-
-
-
-
-

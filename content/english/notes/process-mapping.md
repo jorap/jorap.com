@@ -4,13 +4,13 @@ meta_title: "Process Mapping - Draw What Actually Happens"
 description: "Map the real workflow before you redesign it - start on the floor, not the slide."
 key_concept: |
   - A flowchart drawn from memory lies politely - map from observation first.
-  - Level 1: Draw how work really moves - not how the manual says it should - like tracing the path people actually walk, not the sidewalk on the plan.
-  - Level 2: Process mapping names handoffs, waits, and workarounds - the slide version hides where people route around the rule.
-  - Level 3: Because documented process is aspirational, mapping starts where work happens - shadowing before boxes and arrows.
-  - Level 4: Walk one full cycle with the person doing the job, then draw - committee templates come after observation.
-  - Level 5: [[Shadow the Work]] is the move; [[People-Centered Design]] is the principle - mapping without watching is decoration.
   - Process mapping is the artifact after you see real motion - not a substitute for sitting with one nurse, cashier, or new hire.
   - Fix the map when reality diverges - stale diagrams train new hires into workarounds.
+level_1: "Process mapping is drawing how work actually moves - handoffs, waits, and workarounds, not the manual version alone."
+level_2: "Like tracing the path people actually walk, not the sidewalk on the plan - documented process is often aspirational."
+level_3: "Stand behind the counter for three lunch rushes before redrawing checkout - shadow one full cycle, then draw boxes and arrows."
+level_4: "Committee templates before observation are decoration - stale diagrams train new hires into workarounds when reality diverges."
+level_5: "[[Shadow the Work]] is the move; [[People-Centered Design]] is the principle - mapping without watching fits nobody inside the process."
 examples:
   - "The shift-change chart had three tasks with zero arrows to an owner - mapping from the whiteboard, not memory, showed the gap in one pass."
   - "I stood behind the counter for three lunch rushes before we redrew checkout - the slide had one tap, reality had four stalls."

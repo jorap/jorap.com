@@ -4,13 +4,13 @@ meta_title: "Leadership - Setting Direction and Pace for Others"
 description: "Leadership is owning direction, pace, and care when people look to you - title optional."
 key_concept: |
   - Care means the people counting on you still feel seen when the pressure spikes.
-  - Level 1: Good leaders make sure the people who depend on them still feel noticed when things get stressful.
-  - Level 2: Leadership shows up when your team still feels noticed after deadline pressure hits - like a captain who checks the crew when the storm rises.
-  - Level 3: When pressure spikes and people feel invisible, trust erodes - leadership is keeping them seen under load, because unseen people stop giving their best.
-  - Level 4: Under pressure, keep the people who depend on you feeling seen - not just the deliverable on track.
-  - Level 5: [[Servant Leadership]] bends toward service; [[Duty of Care]] names the protection they should feel when roles flip.
   - When people look to you, they need someone to set direction - not just a name on the org chart.
   - Pace matters as much as direction - calm urgency beats either panic or drift.
+level_1: "Leadership is keeping the people who depend on you feeling noticed when pressure spikes, not only keeping deliverables on track."
+level_2: "Like a captain who checks the crew when the storm rises, direction matters less than trust when load increases."
+level_3: "Under deadline pressure, name one person on your team and confirm they still feel seen before you chase the next milestone."
+level_4: "When people feel invisible under load, trust erodes and output follows - unseen people stop giving their best."
+level_5: "[[Servant Leadership]] bends toward service; [[Duty of Care]] names the protection they should feel when roles flip."
 examples:
   - "Our line cook never got named manager; leadership was calm voice, who goes where, and nobody blaming while the extinguishers were still out."
   - "The blackout hit our block and one neighbor set pace - who checks on elders, who handles the generator - direction and care when people look to you."
@@ -68,4 +68,3 @@ cards:
     back: "Listen first - then point the direction."
 draft: false
 ---
-

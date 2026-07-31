@@ -4,13 +4,13 @@ meta_title: "The Collector's Fallacy - Saving Isn't Learning"
 description: "Saving articles felt like progress until every save tied to an express deadline or got cut."
 key_concept: |
   - Collecting articles feels like progress - tie saves to express deadlines or cut them.
-  - Level 1: Saving articles feels like learning, but it is not - give each save a date to use it or delete it.
-  - Level 2: Collecting articles mimics progress - without a ship date or delete date, the pile becomes guilt with a bookmark icon.
-  - Level 3: The fallacy persists because saves feel productive while express deadlines force use or cut.
-  - Level 4: Tie every new save to an express deadline or delete it the same week - collecting is not learning.
-  - Level 5: A reading pile without a use date is a hobby pretending to be work - cut or ship; [[Creative Output]] is the express lane saves skip.
   - Saving articles felt like progress until I tied every save to an express deadline or cut it.
   - Every save needs a ship date or a delete date.
+level_1: "The collector's fallacy is saving articles that feel like learning without ever using them - collecting is not learning."
+level_2: "Without a ship date or delete date, the pile becomes guilt with a bookmark icon - saves feel productive while nothing ships."
+level_3: "Tie every new save to an express deadline or delete it the same week - forty saved dinners and still ordering takeout is the tell."
+level_4: "The fallacy persists because saves mimic progress - express deadlines force use or cut before the pile becomes a hobby pretending to be work."
+level_5: "[[Creative Output]] is the express lane saves skip - cut or ship; same trap as [[Capture]] when you skip the spark you will actually ship from."
 examples:
   - "My recipe folder had forty saved dinners and we still ordered takeout three nights a week until I tied every save to one cooked meal."
   - "My folder had forty highlight reels and we still ran the same broken play - saving felt like improving; it was not until one clip became Tuesday's drill."
@@ -57,4 +57,3 @@ cards:
     back: "What will I make with this?"
 draft: false
 ---
-

@@ -6,14 +6,14 @@ key_concept: |
   {{< bible ref="John 11:41-42" >}}
   
   - Before He called Lazarus out, Jesus looked up and thanked the Father - not because He doubted, but so the crowd would hear who sent Him.
-  - Level 1: Before raising Lazarus, Jesus prayed out loud to thank God - so people would know God sent Him.
-  - Level 2: Jesus looked up and thanked the Father before He called Lazarus out - the prayer was for witnesses, not for His own doubt.
-  - Level 3: Public thanks at the tomb taught faith because the crowd heard who sent Him while [[Moved with Compassion]] showed He wept with them.
-  - Level 4: When you act in front of others, let thanks point to who sent you - not to perform certainty you already have.
-  - Level 5: Audible thanks before the miracle aimed faith at the Father who sent Him - not a doubt fix for the Son who already knew; [[Secret Devotion]] names hidden prayer, this names public aim.
   - He said the Father always hears Him; the spoken thanks was for witnesses, not for His own nerves.
   - [[Moved with Compassion]] wept at the tomb; this prayer shows the same moment aimed at faith for onlookers.
   - Under [[Free Grace]], public prayer here is not performance theater - it points eyes to the Father who hears.
+level_1: "Thanking the Father at Lazarus' tomb means Jesus prayed aloud before the miracle so witnesses would know God sent Him - not because He doubted."
+level_2: "He said the Father always hears Him; the spoken thanks was for witnesses, not for His own nerves - [[Moved with Compassion]] shows He wept with them at the same tomb."
+level_3: "When you act in front of others, let thanks point to who sent you - not to perform certainty you already have."
+level_4: "Under [[Free Grace]], public prayer here is not performance theater - it points eyes to the Father who hears; [[Secret Devotion]] names hidden prayer, this names public aim."
+level_5: "Audible thanks before the miracle aimed faith at the Father who sent Him - same move as [[Glorify Your Name]] when the crowd needs to hear who acts."
 examples:
   - "I prayed quietly before sharing hard news with the team - Jesus prayed aloud at the tomb so others would believe the Father sent Him."
   - "Someone asked me to pray before surgery and I almost mumbled - His thanks at Lazarus was clear enough for the whole crowd to hear."
@@ -63,4 +63,3 @@ cards:
     back: "Trust and speak - Father always hears."
 draft: false
 ---
-

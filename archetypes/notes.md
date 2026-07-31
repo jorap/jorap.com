@@ -13,9 +13,13 @@ review: false
 featured: false
 draft: true
 key_concept: |
-  One sentence - the angle, not a second definition.
-
-  Further explanation: stakes, distinctions, [[wikilinks]]. Skip the second paragraph when the description is enough.
+  - One sentence - the claim you'd argue, not a second definition.
+  - Optional post-level stack: stakes, distinctions, [[wikilinks]].
+level_1: "Definition - name the concept in one sentence."
+level_2: "Explanation - meaning and relationships; analogy OK."
+level_3: "Application - a practical situation or decision."
+level_4: "Systems - tradeoffs, limits, larger context."
+level_5: "Generative - build or extend from the concept; wikilinks OK."
 examples:
   - "Mid-action scene where this principle fires - not a definition restated."
   - "Second scene from a different field - jeepney, clinic, inbox, bedtime."

@@ -4,14 +4,14 @@ meta_title: "Lean Startup"
 description: "Ship a rough test and learn rather than polish a product nobody wanted."
 key_concept: |
   - Build the smallest test, measure, learn - do not scale before validation.
-  - Level 1: Try the smallest version first, see what happens, then improve - do not build the huge version before you know anyone wants it.
-  - Level 2: Ship a tiny version, watch what users do, learn, then grow - not the full build before anyone wants it, like tasting soup before cooking the pot.
-  - Level 3: Big builds before demand burn cash and morale - small tests produce learning loops cheap enough to repeat when the first guess is wrong.
-  - Level 4: Ship the smallest test, measure response, learn, then scale - never the full product on gut alone.
-  - Level 5: [[Practice Small Experiments]] keeps trials small; [[Ship It]] pushes the test out before perfection hoarding wins.
   - I would rather learn from ten real buyers this week than guess for a quarter.
   - Measure what happened, then fix the template - not the pitch deck.
   - The waitlist number matters less than whether those people would actually pay today.
+level_1: "The lean startup loop is build the smallest test, measure what users do, learn, then iterate before you scale."
+level_2: "Like tasting soup before cooking the whole pot, a tiny version answers demand cheaper than a full build in private."
+level_3: "Ship one rough prototype this week and watch whether anyone uses it before you schedule the full product roadmap."
+level_4: "Big builds before demand burn cash and morale - small tests produce learning loops cheap enough to repeat when the first guess is wrong."
+level_5: "[[Practice Small Experiments]] keeps trials small; [[Ship It]] pushes the test out before perfection hoarding wins."
 examples:
   - "Ten parents signed a waitlist before we booked the full tournament venue - smallest test, measure interest, learn before scaling."
   - "We almost rewrote the whole menu after one good weekend - ten lunch specials sold first and two items flopped."
@@ -60,4 +60,3 @@ cards:
     back: "Talk to one user - build what they need."
 draft: false
 ---
-

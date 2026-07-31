@@ -4,13 +4,13 @@ meta_title: "Situational Control - Steer What You Can in the Moment"
 description: "Steer pace, format, and who speaks when you cannot own the whole outcome."
 key_concept: |
   - Situational control is using the levers available - pace, venue, agenda, boundaries - when you cannot control everything.
-  - Level 1: You cannot run the whole meeting, but you can still pick how fast it goes and where you sit.
-  - Level 2: When someone else holds the final say, you still set pace, place, agenda, and the lines you will not cross.
-  - Level 3: Small levers change how a conflict plays out before the outcome settles - that is situational control at work.
-  - Level 4: Before you react in a tense room, pick one lever: slow the pace, move the talk, or name a boundary you will hold.
-  - Level 5: Steer through levers, not volume - [[Composure]] keeps the move calm; [[Control the Rhythm]] names the same lane when you cannot own the whole outcome.
   - I steer pace, format, and who speaks in the room when I cannot own the whole outcome.
   - The room notices who is steering even when nobody announced it.
+level_1: "Situational control is steering through the levers available - pace, venue, agenda, boundaries - when you cannot control everything."
+level_2: "Someone else may hold the final say; you still set how fast it goes, where you sit, and lines you will not cross."
+level_3: "Call a timeout you do not need at halftime to slow the game when you are down twelve - steer pace, not volume."
+level_4: "Because the room notices who is steering even when nobody announced it, [[Composure]] keeps the move calm."
+level_5: "Pair with [[Control the Rhythm]] and [[Slow the Moment]] - pick one lever before you react in a tense room."
 examples:
   - "My sister and I were fighting past the kids' bedtime - situational control was a fifteen-minute break and a promise to pick it up tomorrow."
   - "Down twelve at halftime, our captain called a timeout she did not need - situational control was slowing the game, not surrendering to their pace."
@@ -57,4 +57,3 @@ cards:
     back: "Reset the room - my agenda next."
 draft: false
 ---
-

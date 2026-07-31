@@ -4,12 +4,12 @@ meta_title: "Know Your Lane - Own Your Slice"
 description: "Clarity on your role beats hero coverage of every gap - know the lane you actually run."
 key_concept: |
   - Teams fracture when everyone drifts into every lane - know your slice and hand off what is not yours.
-  - Level 1: Like swim relays - you win when each leg stays in their lane, not when four people dive from the same block.
-  - Level 2: Lane clarity means yes to your work and clean handoffs for the rest - not martyrdom coverage that hides missing owners.
-  - Level 3: [[Many Parts One Body]] is the faith picture - one Christ, many gifts; lane clarity is humility in practice.
-  - Level 4: [[Accountability]] names who owns the outcome; know your lane names what is not your outcome to carry solo.
-  - Level 5: [[Pareto Principle]] picks where your lane matters most - some open gaps belong to someone else.
   - [[Invest in the Few]] goes deep in your lane instead of thin across every lane.
+level_1: "Know your lane is clarity on the role you actually run - yes to your work, clean handoffs for what is not yours."
+level_2: "Like swim relays - you win when each leg stays in their lane, not when four people dive from the same block."
+level_3: "I took every client firefight until deploys slipped - knowing my lane was architecture docs, not every support ticket."
+level_4: "[[Many Parts One Body]] is the faith picture - one Christ, many gifts; lane clarity is humility in practice, and hero coverage hides missing owners."
+level_5: "[[Pareto Principle]] picks where your lane matters most; [[Invest in the Few]] goes deep in your lane instead of thin across every gap."
 examples:
   - "I took every client firefight until deploys slipped - knowing my lane was architecture docs, not every support ticket."
   - "Assistant coach tried calling plays and managing stats - lane clarity put him on defense drills where the team actually needed him."

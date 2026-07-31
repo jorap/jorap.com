@@ -4,13 +4,13 @@ meta_title: "Minimum Effective Dose - Smallest Effort That Still Works"
 description: "The smallest change that still moves the needle - not the heroic overhaul."
 key_concept: |
   - I borrowed it from medicine: enough to work, not more than needed.
-  - Level 1: Like medicine, use just enough to help - do not keep piling on when more does not help, like one bandage on a small cut, not ten.
-  - Level 2: Minimum effective dose is enough to work, not more than needed - borrowed from medicine, applied to effort.
-  - Level 3: More input past the effective point wastes energy - find the smallest dose that still moves the outcome.
-  - Level 4: Run the pilot, check the result, stop adding steps when nothing improves - doubling effort is not doubling effect.
-  - Level 5: [[Pareto Principle]] and [[Minimum Viable Product]] share the same ceiling - hero energy on [[Low Hanging Fruit]] violates both.
   - Applies to PKM habits, fitness, and side projects.
   - More input past the dose is noise - not a heroic overhaul.
+level_1: "Minimum effective dose is enough input to move the outcome, not more than needed - borrowed from medicine, applied to effort."
+level_2: "Like one bandage on a small cut, not ten, more input past the effective point wastes energy without improving results."
+level_3: "Run the pilot, check the result, stop adding steps when nothing improves - doubling effort is not doubling effect."
+level_4: "More input past the dose is noise, not heroic overhaul - find the smallest amount that still moves the outcome."
+level_5: "[[Pareto Principle]] and [[Minimum Viable Product]] share the same ceiling - hero energy on [[Low Hanging Fruit]] violates both."
 examples:
   - "Ten minutes of flashcards on the jeepney beat an hour of app setup I would never open twice."
   - "The coach added one footwork drill before buying new shoes - small dose, daily reps, feet learned faster than gear ever did."
@@ -69,7 +69,3 @@ cards:
     back: "Ship the minimum - enough to be useful."
 draft: false
 ---
-
-
-
-

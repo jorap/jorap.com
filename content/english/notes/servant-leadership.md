@@ -4,17 +4,17 @@ meta_title: "Servant Leadership - Last Becomes First at Work"
 description: "Servant leaders unblock the team, coach through mess, take blame up, and pass credit down."
 key_concept: |
   - Greatness means serve the team, not grab credit from it.
-  - Level 1: Real leadership helps the team succeed, not take credit for work they did.
-  - Level 2: Serve the team - credit flows up, support flows in.
-  - Level 3: Teams follow safety and clarity, so servant leaders remove blockers and share wins.
-  - Level 4: In the next review, name three contributions the team owned, not yours.
-  - Level 5: Authority elevates others, not hoards spotlight - same move as line one at scale; [[Leadership]] names direction and pace when people look your way.
   - The corporate ladder rewards visibility; this principle runs the other way.
   - Wash feet in the sprint, not only in the all-hands speech.
   - Gospel depth: [[Humility and Service]].
   - I can explain this in a leadership book club without opening a sermon.
   - I unblock the team, coach through the mess, take blame up, and pass credit down.
   - Servant leadership has gospel depth in humility and service - serve first, do not demand service.
+level_1: "Servant leadership means greatness through serving the team - not grabbing credit from work they did."
+level_2: "Credit flows up, support flows in - teams follow safety and clarity when leaders remove blockers and share wins."
+level_3: "In the next review, name three contributions the team owned, not yours."
+level_4: "Because the corporate ladder rewards visibility, this principle runs the other way - wash feet in the sprint, not only in the all-hands speech."
+level_5: "Unblock, coach through mess, take blame up, pass credit down - [[Humility and Service]] is gospel depth you can explain in a leadership book club."
 examples:
   - "I had the title at home but noticed I was hoarding easy wins - servant leadership meant the messy bedtime shift while my partner got the break."
   - "I got promoted and realized I had been grabbing credit for work the team carried - servant leadership was my name off the slide and hers on the praise email."
@@ -94,7 +94,3 @@ cards:
     back: "Take the messy shift - give them the break."
 draft: false
 ---
-
-
-
-

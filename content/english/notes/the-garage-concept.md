@@ -4,13 +4,13 @@ meta_title: "The Garage Concept - Messy Workshop, Clean Showroom"
 description: "The vault is the garage for scraps and experiments - the blog is the showroom, kept separate."
 key_concept: |
   - The garage holds tools, scraps, experiments. The showroom is the blog. I do not confuse the two.
-  - Level 1: The garage holds messy drafts; the blog is what you show visitors - do not mix them up.
-  - Level 2: Tools, scraps, and experiments stay in the garage; the showroom is the blog - two rooms, two jobs.
-  - Level 3: Mixing draft and publish lanes breaks trust because visitors see workshop mess as finished work.
-  - Level 4: Keep capture and experiments in the garage pipe; ship only what belongs in the showroom.
-  - Level 5: Client pass-off uses the same split - workshop drafts in my garage; client deliverables in the lane they can own via [[Client Site Pass-Off]] and [[Free Tier Hosting Stack]].
   - Client pass-off uses the same split: [[Selling Static Sites]] workshop in my drafts; the client's deploy branch is the showroom on [[Free Tier Hosting Stack]].
   - One capture habit, one publish pipe - garage to garden to push, not two note apps fighting over the same idea.
+level_1: "The garage concept splits messy workshop drafts from the clean showroom - the vault is the garage, the blog is what visitors see."
+level_2: "Tools, scraps, and experiments stay in the garage; the showroom is the blog - two rooms, two jobs, do not mix them up."
+level_3: "Keep capture and experiments in the garage pipe; ship only what belongs in the showroom - mixing lanes breaks trust when visitors see workshop mess as finished work."
+level_4: "One capture habit, one publish pipe - garage to garden to push, not two note apps fighting over the same idea."
+level_5: "Client pass-off uses the same split - workshop drafts in my garage; client deliverables via [[Client Site Pass-Off]] and [[Free Tier Hosting Stack]]."
 examples:
   - "The practice film library is messy; the highlight reel for parents is one clean cut - I almost sent raw film once and the coach pulled me back."
   - "The garage holds half-finished projects and sawdust; the front porch shows the one bench I would invite a neighbor to sit on."
@@ -60,4 +60,3 @@ cards:
     back: "One clean cut - scraps stay back."
 draft: false
 ---
-

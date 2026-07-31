@@ -4,13 +4,13 @@ meta_title: "Evergreen Notes - Ideas That Stay Fresh"
 description: "Phrase ideas worth standing behind in two years and revise when reality shifts, not when a trend spikes."
 key_concept: |
   - Phrase ideas worth standing behind in two years, then revise when reality shifts.
-  - Level 1: Write something you would still say two years from now, then change it when life proves you wrong.
-  - Level 2: Evergreen notes are like tools you maintain - phrase claims worth standing behind in two years, revise when reality shifts.
-  - Level 3: Because ideas decay when context changes, revision is part of evergreen work - not a failure of the first draft.
-  - Level 4: Before you publish, ask whether you would defend this claim in two years; if not, keep it fleeting until it earns permanence.
-  - Level 5: Phrase ideas worth standing behind in two years, then revise when reality shifts - promote from fleeting during [[Periodic Knowledge Review]] when a spark keeps returning.
   - Complete sentences you would still sign - not trend-chasing rewrites every quarter.
   - Promote from fleeting during [[Periodic Knowledge Review]] when a spark keeps returning.
+level_1: "Evergreen notes are permanent claims phrased worth standing behind in two years - revised when reality shifts, not when a trend spikes."
+level_2: "Write something you would still say two years from now - like tools you maintain, phrase claims worth defending, change when life proves you wrong."
+level_3: "Before you publish, ask whether you would defend this claim in two years; if not, keep it fleeting until it earns permanence."
+level_4: "Phrase ideas worth standing behind in two years, then revise when reality shifts - promote from fleeting during [[Periodic Knowledge Review]] when a spark keeps returning."
+level_5: "A family recipe card keeps the ratios, not last year's trendy garnish - you revise when life changes how you cook, not when a feed gets excited."
 examples:
   - "A family recipe card keeps the ratios, not last year's trendy garnish - rewrite when life changes how you cook, not when a feed gets excited about a new trick."
   - "My free-throw note keeps the release point and shooting form - not last week's trending drill tip I would regret next season."
@@ -60,7 +60,3 @@ cards:
     back: "Distill - need one clear claim."
 draft: false
 ---
-
-
-
-

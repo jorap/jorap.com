@@ -4,12 +4,12 @@ meta_title: "Information Diet"
 description: "Choose feeds on purpose because algorithm defaults are not neutral."
 key_concept: |
   - Choose what you consume on purpose - feeds are not neutral.
-  - Level 1: Pick what news and videos you take in on purpose - what you scroll through shapes how you think.
-  - Level 2: Choose what you consume on purpose - feeds are not neutral background noise, like junk food left on the counter every day.
-  - Level 3: Passive scrolling trains attention and mood; curated intake shapes what feels normal by Friday - input becomes your inner weather.
-  - Level 4: Subscribe on purpose, unsubscribe on purpose - treat feeds like food you are willing to eat daily.
-  - Level 5: [[Signal vs Noise]] separates worth keeping; [[Digital Minimalism]] cuts pipes you cannot babysit.
   - Curate inputs like food - binge headlines and your judgment gets as sloppy as your sleep. [[Digital Minimalism]] cuts tools; diet cuts feeds.
+level_1: "An information diet is choosing what news, podcasts, and feeds you take in on purpose - not swallowing whatever the algorithm serves."
+level_2: "Feeds are not neutral background noise - what you scroll shapes how you think, like junk food left on the counter every day."
+level_3: "Drop two commute podcasts that only make you angry at strangers - curate inputs like food, not binge headlines before breakfast."
+level_4: "Passive scrolling trains attention and mood; curated intake shapes what feels normal by Friday - input becomes your inner weather whether you notice or not."
+level_5: "[[Signal vs Noise]] separates worth keeping; [[Digital Minimalism]] cuts pipes you cannot babysit."
 examples:
   - "I dropped two commute podcasts that only made me angry at strangers - information diet is curating inputs, not swallowing whatever the algorithm serves."
   - "I unfollowed three outrage sports accounts and pre-game was not ruined before warm-up."

@@ -4,14 +4,14 @@ meta_title: "Sustainable Performance - Pace You Can Repeat"
 description: "Aim for a pace you can hold next month without burning out or cutting safety corners."
 key_concept: |
   - Sustainable performance is output you can keep without burning out or cutting corners on safety.
-  - Level 1: Work at a pace you can keep next month without collapsing from exhaustion or skipping safety steps.
-  - Level 2: Sustainable output means repeatability - a sprint that mortgages next month is not performance, it is borrowing trouble.
-  - Level 3: Performance lasts when pace respects recovery and safety because burnout and corner-cutting both show up on the lagging indicator.
-  - Level 4: Set this month's pace by what you can repeat next month without cutting safety or sleep.
-  - Level 5: Hero weeks that skip safety steps or sleep borrow against next month - same lane as [[Energy Protects Judgment]] when nobody is watching.
   - I aim for a pace I can hold next month without burning out or cutting safety corners.
   - Pace you can repeat beats a sprint that mortgages next month.
   - The sprint feels like progress in the moment; the bill for it always arrives, just later than planned.
+level_1: "Sustainable performance is output you can repeat next month without burning out or skipping safety steps - you can name the pace."
+level_2: "A sprint that mortgages next month is borrowing trouble - repeatability is the test, not how heroic this week felt."
+level_3: "Set this month's pace by what you can repeat next month without cutting safety or sleep - hero weeks borrow against the bill that always arrives later."
+level_4: "Burnout and corner-cutting both show up on the lagging indicator - [[Energy Protects Judgment]] when nobody is watching is the same lane."
+level_5: "Pace you can hold beats a sprint that mortgages next month - same tradeoff as [[The 12 Week Year]] intensity when quarterly push skips recovery."
 examples:
   - "I cannot sprint bedtime-and-homework heroics five nights a row - sustainable performance is an earlier lights-out one night so Thursday does not blow up."
   - "The kitchen ran Friday pace five nights straight and quality slid by Wednesday - sustainable performance would have cut a night off instead of mortgaging next week's tickets."
@@ -63,4 +63,3 @@ cards:
     back: "Cut a night off - don't borrow next week."
 draft: false
 ---
-

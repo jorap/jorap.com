@@ -4,14 +4,14 @@ meta_title: "Slow the Moment - Urgency Shouldn't Erase Judgment"
 description: "Slow one breath before answering - urgency is real, but it should not pick the move."
 key_concept: |
   - Pressure creates urgency, but urgency should not erase judgment.
-  - Level 1: When everything feels urgent, pause one breath before you answer or act.
-  - Level 2: Pressure pushes you to move fast - urgency is often a feeling, not always a fact about the clock.
-  - Level 3: One breath buys room to weigh consequences instead of reacting on autopilot when the room is loud.
-  - Level 4: Pause one breath before you answer when voices stack up - judgment beats reflex in that gap.
-  - Level 5: The pause is not paralysis - [[Composure]] names the calm; slow the moment to choose well, not to dodge hard calls that still need an answer.
   - Before you react, buy enough mental space to understand what is happening, weigh consequences, and choose on purpose - not on adrenaline.
   - I slow down one breath before I answer.
   - One deliberate breath buys room for a better second move.
+level_1: "Slow the moment means pausing one breath before answering - urgency is real but should not pick the move."
+level_2: "Pressure creates urgency, but urgency is often a feeling, not always a fact about the clock."
+level_3: "One breath before the free throw with the game on the line - buy the routine instead of the panic heave."
+level_4: "Because reflex beats judgment when voices stack up, the pause is not paralysis - hard calls still need an answer after the beat."
+level_5: "Pair with [[Composure]] and [[Decision Quality]] - slow one breath to choose well, not to dodge what must be decided."
 examples:
   - "Cut off in traffic, my first instinct matched horn for horn - slow the moment was one breath before I became the driver I hate."
   - "Before the free throw with the game on the line, the shooter took one breath - slow the moment bought the routine instead of the panic heave."
@@ -85,4 +85,3 @@ cards:
     back: "Own it - reset before the next turn."
 draft: false
 ---
-

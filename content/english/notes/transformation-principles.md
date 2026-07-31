@@ -5,14 +5,14 @@ meta_title: "Transformation Principles - Repeatable Moves for Real Change"
 description: "Personal or team change runs on a small set of principles you apply on purpose - not one heroic push."
 key_concept: |
   - Transformation isn't a single breakthrough - it's the same moves repeated until the system bends.
-  - Level 1: Real change is not one big moment - it is the same small steps repeated until the habit or team finally shifts.
-  - Level 2: Transformation is not a single breakthrough - repeated moves bend the system until the room feels different.
-  - Level 3: Clear direction, honest starting point, owned action, safe practice, and measured feedback stack because one lever rarely moves a culture alone.
-  - Level 4: Install one transformation lever at a time before you expect the system to bend - repetition beats announcement.
-  - Level 5: People first, measured feedback, safe practice - the same moves repeated until the system bends; [[Continuous Improvement]] names the loop, not a rally.
   - Clear direction, honest starting point, owned action, safe practice, measured feedback, people first, systems lens.
   - Install one lever at a time before I expect the room to feel different.
   - Personal or team change runs on a small set of principles you apply on purpose - not one heroic push.
+level_1: "Transformation principles are repeatable moves for personal or team change - not one heroic breakthrough that bends the system alone."
+level_2: "Real change is the same small steps repeated until the habit or team finally shifts - clear direction, honest starting point, owned action stack."
+level_3: "Install one transformation lever at a time before you expect the system to bend - repetition beats announcement."
+level_4: "Safe practice, measured feedback, and people first stack because one lever rarely moves a culture alone - [[Continuous Improvement]] names the loop, not a rally."
+level_5: "Personal or team change runs on principles you apply on purpose - same hub lane as [[Systems for Growth]] when compounding skill, not designing change."
 shareable_thought:
   - "Personal or team change runs on a small set of principles you apply on purpose - not one heroic push."
   - "Transformation isn't a single breakthrough - it's the same moves repeated until the system bends."
@@ -50,7 +50,6 @@ aliases: ["principles of transformation", "experience transformation"]
 featured: false
 draft: false
 ---
-
 ## Anchor the direction
 
 - [[Purpose and Vision]] - a clear outcome anchors choices when urgency shows up

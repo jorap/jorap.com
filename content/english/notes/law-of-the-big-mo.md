@@ -4,9 +4,6 @@ meta_title: "The Law of Big Mo - Momentum is a leader's best friend"
 description: "Momentum is a leader's best friend."
 key_concept: |
   - Momentum multiplies effort - leaders protect it and grieve when it leaks.
-  - Level 1: Israel's early conquests stacked wins - Mo rolled with obedience.
-  - Level 2: Elisha mourned half-hearted arrow strikes - missed momentum. Pentecost turned thousands in a day.
-  - Level 3: Ride the wave when God gives it - do not strike the rock twice from boredom.
   - Hub: [[21 Laws of Leadership in the Bible]] - lesson 16 of twenty-one Bible laws; horizontal frame in [[Leadership]].
   
   {{< bible ref="Deuteronomy 2:24-37" >}}
@@ -15,14 +12,19 @@ key_concept: |
   - **A Missed Opportunity for Momentum** - Joash struck three times, not six - prophet grieved the unfinished rout.
   {{< bible ref="Acts 2:29-47" >}}
   - **The Gospel Catches Fire** - Three thousand baptized one day - apostolic momentum ignited.
+level_1: "The law of the big Mo is that momentum multiplies effort - leaders protect it and grieve when it leaks."
+level_2: "Israel's early conquests stacked wins; Elisha mourned half-hearted arrow strikes; Pentecost turned thousands in a day."
+level_3: "When momentum is hot, protect the next two quick wins - do not celebrate into complacency or strike the rock twice from boredom."
+level_4: "Ride the wave when God gives it - missed momentum costs more than slow starts; Mo leaks when you coast after the streak."
+level_5: "[[Compounding]] and [[Steward After the Win]] name why Mo leaks when you coast after the streak."
 examples:
   - "We shipped three quick wins in January and the backlog shrank itself - March dithering killed the streak."
   - "Joash hit the ground three times when he should have emptied the quiver - momentum left on the field."
 shareable_thought:
   - "Momentum is a leader's best friend."
   - "Momentum multiplies effort - leaders protect it and grieve when it leaks."
-  - "Level 1: Israel's early conquests stacked wins - Mo rolled with obedience."
-  - "Level 2: Elisha mourned half-hearted arrow strikes - missed momentum. Pentecost turned thousands in a day."
+  - "The law of the big Mo is that momentum multiplies effort - leaders protect it and grieve when it leaks."
+  - "Israel's early conquests stacked wins; Elisha mourned half-hearted arrow strikes; Pentecost turned thousands in a day."
 relationships:
   - type: contradicts
     wikilink: "[[Discipleship vs Leadership]]"

@@ -4,13 +4,13 @@ meta_title: "Practice Small Experiments - Repeat, Test Small, Learn Fast"
 description: "Repeat the move, run tiny tests, learn fast - durable change beats one big rollout."
 key_concept: |
   - Big-bang rollouts look decisive and usually snap back by March.
-  - Level 1: Try one small change first - one new play, not a whole new game plan.
-  - Level 2: Change one small thing at a time - like testing one new play before rebuilding the whole game plan.
-  - Level 3: Big changes that hit everything at once look bold, but people usually slide back to old habits within a few months.
-  - Level 4: When you change everything at once, the snap-back is predictable - small trials fail cheap and teach what actually sticks.
-  - Level 5: Big-bang rollouts look decisive and usually snap back by March - [[Deliberate Practice]] reps plus [[Minimum Effective Dose]] trials beat one heroic rollout.
   - Practice small experiments means daily reps plus tests small enough to fail cheap - one drill, one workflow tweak, one week trial - then keep what works.
   - [[Deliberate Practice]] is the rep lane; [[Minimum Effective Dose]] is the size cap; [[Failure as Feedback]] is how you read a miss without drama.
+level_1: "Practice small experiments means daily reps plus tests small enough to fail cheap - one tweak at a time, not one heroic rollout."
+level_2: "Like testing one new play before rebuilding the whole game plan - bold all-at-once change usually slides back within months."
+level_3: "Run one new inbound play for two weeks - keep it when turnovers drop, drop it when they do not."
+level_4: "When you change everything at once, snap-back is predictable - small trials teach what actually sticks."
+level_5: "[[Deliberate Practice]] reps plus [[Minimum Effective Dose]] trials beat one big-bang rollout - [[Failure as Feedback]] reads the miss without drama."
 examples:
   - "Instead of rebuilding the whole practice plan, we ran one new inbound play for two weeks - kept it when turnovers dropped, dropped it when they did not."
   - "I did not migrate every note to a new app - I tried one capture lane by the door for ten days and only expanded after it survived a busy week."
@@ -75,9 +75,3 @@ cards:
     back: "Test one dinner - expand if it survives."
 draft: false
 ---
-
-
-
-
-
-

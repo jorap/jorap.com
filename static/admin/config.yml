@@ -123,7 +123,42 @@ collections:
           name: "key_concept",
           widget: "text",
           required: false,
-          hint: "One sentence first, then optional second paragraph: stakes, distinctions, wikilinks.",
+          hint: "Claim bullet first (and faith bible block when needed), then optional post-level stack. Levels live in level_1..level_5.",
+        }
+      - {
+          label: "Level 1 - Definition",
+          name: "level_1",
+          widget: "text",
+          required: false,
+          hint: "Recognize - name the concept. No 'Level 1:' prefix.",
+        }
+      - {
+          label: "Level 2 - Explanation",
+          name: "level_2",
+          widget: "text",
+          required: false,
+          hint: "Understand - meaning and relationships; analogy OK. No 'Level 2:' prefix.",
+        }
+      - {
+          label: "Level 3 - Application",
+          name: "level_3",
+          widget: "text",
+          required: false,
+          hint: "Use - practical situation or decision. No 'Level 3:' prefix.",
+        }
+      - {
+          label: "Level 4 - Systems",
+          name: "level_4",
+          widget: "text",
+          required: false,
+          hint: "Connect - tradeoffs, limits, larger context. No 'Level 4:' prefix.",
+        }
+      - {
+          label: "Level 5 - Generative",
+          name: "level_5",
+          widget: "text",
+          required: false,
+          hint: "Create - build or extend; wikilinks OK. No 'Level 5:' prefix.",
         }
       - {
           label: "Examples",

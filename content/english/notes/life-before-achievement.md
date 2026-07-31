@@ -4,13 +4,13 @@ meta_title: "Life Before Achievement - No Goal Justifies Avoidable Death Risk"
 description: "Human life is non-negotiable - even when the goal is a championship or a reputation for toughness."
 key_concept: |
   - Those goals have value only while the methods used to reach them respect safety.
-  - Level 1: Winning only counts if nobody gets badly hurt on the way - like crossing the finish line without knocking someone down so hard they cannot get up.
-  - Level 2: Goals matter only when the path to them does not break safety rules or leave permanent damage behind.
-  - Level 3: Life-before-achievement means the method must respect safety - a win that costs someone their health or trust is not a real win.
-  - Level 4: Before you chase the metric, ask whether the route protects people - if not, change the plan before you celebrate.
-  - Level 5: [[Safety by Design]] and [[Duty of Care]] sit upstream of any target - achievement without them is borrowed time until someone pays.
   - When an activity offers limited benefit but carries an avoidable risk of irreversible harm, leaders choose the safer course.
   - The person carrying the risk is rarely the person collecting the trophy.
+level_1: "Life-before-achievement means a win counts only when the path to it does not break safety rules or leave permanent harm."
+level_2: "Like crossing the finish line without knocking someone down so hard they cannot get up, the method must respect safety before the trophy."
+level_3: "Before you chase the metric, ask whether the route protects people - if not, change the plan before you celebrate."
+level_4: "A win that costs someone their health or trust is borrowed time until someone pays - achievement without safety is not a real win."
+level_5: "[[Safety by Design]] and [[Duty of Care]] sit upstream of any target - achievement without them is borrowed time until someone pays."
 examples:
   - "I said no to the backyard rope swing over concrete when a low tree branch and mat did the same fun with softer landings."
   - "The school canceled the cliff-jump field trip when the park picnic hit the same bonding goal without a credible risk of a broken leg."
@@ -66,4 +66,3 @@ cards:
     back: "Close the lid - be present first."
 draft: false
 ---
-

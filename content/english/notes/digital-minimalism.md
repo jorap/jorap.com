@@ -4,14 +4,14 @@ meta_title: "Digital Minimalism for Note-Takers"
 description: "Notes sharpen when extra apps, sync layers, and unused notifications drop away."
 key_concept: |
   - Every new app is a pipe you have to babysit.
-  - Level 1: Each new app is another hose in the yard - one more leak when you forget to check it.
-  - Level 2: Your stack is like a kitchen drawer - every tool added is one more thing that rattles loose and steals time from cooking.
-  - Level 3: Because each tool pulls attention toward maintenance, more apps mean less focus on the work that actually matters.
-  - Level 4: Count what you babysit weekly and cut one before you add another - fewer paths beats more capture options you never open.
-  - Level 5: Every new app is a pipe you babysit - [[Minimum Effective Dose]] trades some [[Digital Serendipity]] for fewer leaks and fewer pings pulling you off the note you were writing.
   - Cut capture paths and sync layers until you hit [[Minimum Effective Dose]] - the smallest setup that still works.
   - That trades some [[Digital Serendipity]] for fewer places sparks get lost and fewer notifications pulling you off the note you were actually writing.
   - Digital minimalism means the smallest setup that still works - not the fanciest stack you never open.
+level_1: "Digital minimalism is the smallest note-taking setup that still works - fewer apps, sync layers, and notifications to babysit."
+level_2: "Each new app is another hose in the yard - like a kitchen drawer where every tool added rattles loose and steals time from cooking."
+level_3: "Count what you babysit weekly and cut one before you add another - fewer paths beats more capture options you never open."
+level_4: "Every new app is a pipe you babysit - [[Minimum Effective Dose]] trades some [[Digital Serendipity]] for fewer leaks and fewer pings pulling you off the note you were writing."
+level_5: "You drop the second gym bag and the backup jump rope - cut capture paths until the smallest setup still catches sparks without maintenance eating the work."
 examples:
   - "We dropped the second gym bag and the backup jump rope - fewer things means I actually know where the one working pair of shoes lives."
   - "The front desk runs one scheduling app, not four - fewer sync layers means fewer places patient reminders get lost."
@@ -57,7 +57,3 @@ cards:
     back: "Cut to one scheduler - simplify the stack."
 draft: false
 ---
-
-
-
-

@@ -4,15 +4,15 @@ meta_title: "Emotional Regulation - Feel It Without Being Ruled By It"
 description: "Feel the spike without letting it pick the next sentence."
 key_concept: |
   - Emotional regulation feels the spike without letting it pick the next sentence.
-  - Level 1: Feel the angry heat but pause before you hit send, like taking one breath with your thumb off the button.
-  - Level 2: Emotional regulation is like a smoke alarm that beeps without burning the house down - feel the spike, choose the next sentence.
-  - Level 3: Because heat arrives faster than judgment, the gap between feeling and speaking is where damage gets prevented.
-  - Level 4: Feel the spike, name it, and wait one beat before you mail the reply - speed feels honest but costs more than the pause.
-  - Level 5: Regulation is not numbness - it is the gap between heat and the next sentence; [[Slow the Moment]] buys that gap; [[Name the Feeling]] labels the spike before it picks tone.
   - Feel the spike; do not mail it.
   - Regulation is not numbness - it is the gap between heat and the next sentence.
   - [[Slow the Moment]] buys that gap; [[Name the Feeling]] gives the spike a label before it picks tone.
   - One unchecked reply can feed a thread you did not mean to start.
+level_1: "Emotional regulation is feeling the spike without letting it pick the next sentence - the gap between heat and action."
+level_2: "Feel the angry heat but pause before you hit send - like a smoke alarm that beeps without burning the house down."
+level_3: "Feel the spike, name it, and wait one beat before you mail the reply - speed feels honest but costs more than the pause."
+level_4: "Regulation is not numbness - it is the gap between heat and the next sentence; [[Slow the Moment]] buys that gap; [[Name the Feeling]] labels the spike before it picks tone."
+level_5: "A customer snapped at the cashier and she kept her voice level - you build the pause habit so the first draft never becomes the sent message."
 examples:
   - "A customer snapped at the cashier and she kept her voice level - regulation is not numbness, it is not mailing the first draft."
   - "My kid's homework meltdown made my face hot; I took a kitchen walk before I answered."
@@ -73,8 +73,3 @@ cards:
     back: "Name the feeling first - fix after."
 draft: false
 ---
-
-
-
-
-

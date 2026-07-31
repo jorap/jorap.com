@@ -4,13 +4,13 @@ meta_title: "Attention to Detail - Small Misses Become Big Failures"
 description: "Catch the typo and the edge case before they become an incident or a dumb customer email."
 key_concept: |
   - Attention to detail catches the typo, edge case, and loose end before they become incidents.
-  - Level 1: Like when you check your shoelaces before running - one loose tie trips you later.
-  - Level 2: A baker counts eggs twice before the oven - catching the typo on the order slip beats apologizing after the cake ships.
-  - Level 3: Attention to detail catches typos, edge cases, and loose ends before they become incidents - prevention beats fixing customer-facing messes.
-  - Level 4: Read the quote line-by-line against your walk-through notes before you approve - trust the second read, not the PDF looking right.
-  - Level 5: Small misses compound like production bugs - pairs with [[Rollback Principle]] on the fix side; the cost of one skipped check rises once it is customer-facing.
   - The second look before shipping is cheaper than the fix after it is customer-facing.
   - Small misses compound into incidents when nobody catches them early.
+level_1: "Attention to detail is catching typos, edge cases, and loose ends before they become incidents."
+level_2: "Like checking shoelaces before a run - a baker counts eggs twice before the oven; prevention beats apologizing after shipment."
+level_3: "Read the quote line-by-line against walk-through notes before you approve - trust the second read, not the PDF looking right."
+level_4: "The second look before shipping is cheaper than the fix after it is customer-facing - small misses compound like production bugs."
+level_5: "Pairs with [[Rollback Principle]] on the fix side - the cost of one skipped check rises once it is customer-facing."
 examples:
   - "We almost threw the inbounds pass on the wrong side of the line because two hash marks looked identical - the second read of the court map caught it."
   - "The contractor's quote had two rooms swapped in the floor plan - I caught it comparing the invoice line-by-line against the walk-through notes, not by trusting the PDF looked right."
@@ -56,5 +56,3 @@ cards:
     back: "Thirty seconds now - or a week fixing it."
 draft: false
 ---
-
-

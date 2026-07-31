@@ -6,14 +6,14 @@ key_concept: |
   {{< bible ref="Matthew 7:24" label="Matthew 7:24-27" emphasize="24" >}}
   
   - Hear Jesus and do - rock stands in the storm; hearing alone is sand.
-  - Level 1: Hear Jesus and do what He says - rock in a storm; hear only and you wash away like sand.
-  - Level 2: Faith and works together are like blueprints plus bricks - hearing Jesus without doing is a drawing that collapses when weather turns.
-  - Level 3: Because storms expose foundations, obedience under pressure proves whether hearing became trust or stayed theater.
-  - Level 4: Pick one command you heard this week and do it before you add another study note - hearing alone is sand.
-  - Level 5: Rock and sand split on doing, not hearing alone - [[Grateful Obedience]] names the motive: works prove faith alive because grace already saved, not to buy heaven.
   - Paul answers how you are saved: trust Christ, not wages.
   - James answers what living faith looks like: Abraham offered Isaac - faith already counted him righteous, then action proved it.
   - [[Grateful Obedience]] names the motive: works prove faith alive because grace already saved, not to buy heaven.
+level_1: "Faith and works together mean faith alone saves and works show faith is alive - hearing Jesus without doing is sand, not rock."
+level_2: "Blueprints plus bricks - hearing Jesus without doing is a drawing that collapses when weather turns; obedience under pressure proves whether hearing became trust."
+level_3: "Pick one command you heard this week and do it before you add another study note - hearing alone is sand."
+level_4: "Rock and sand split on doing, not hearing alone - [[Grateful Obedience]] names the motive: works prove faith alive because grace already saved, not to buy heaven."
+level_5: "A coworker quoted James like faith plus works gets you in - you explain works prove faith is real; they do not buy the door Christ already opened."
 examples:
   - "A coworker quoted James like you need faith plus works to get in - one sentence: works prove faith is real; they do not buy the door Christ already opened."
   - "Confident I am saved but the same selfish pattern untouched - James is not saying try harder to earn heaven; he is asking where the fruit is."
@@ -78,7 +78,3 @@ cards:
     back: "Faith saves - obedience responds."
 draft: false
 ---
-
-
-
-

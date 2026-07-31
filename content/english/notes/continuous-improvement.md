@@ -4,12 +4,12 @@ meta_title: "Continuous Improvement - Small Fixes That Compound"
 description: "Each miss becomes one tweak to the process, not a lecture about trying harder."
 key_concept: |
   - Small fixes to how you work, repeated - each miss feeds the next version of the process.
-  - Level 1: Like when you fix one squeaky hinge each week - small fixes add up faster than one giant repair day.
-  - Level 2: A barista adjusts one step in the morning routine after each spill - each miss feeds the next version of how you work.
-  - Level 3: Continuous improvement is steady small upgrades to process and skill - not one heroic overhaul you never schedule.
-  - Level 4: Tweak one line in your weekly review checklist after each miss - kaizen in the steam wand, not a grand retraining day.
-  - Level 5: Pairs with [[Blameless After-Action Review]] on the learn side - fix the runbook one line at a time instead of a pep talk about trying harder.
   - Continuous improvement is steady small upgrades to process and skill - not one heroic overhaul.
+level_1: "Continuous improvement is steady small upgrades to process and skill - not one heroic overhaul you never schedule."
+level_2: "Each miss feeds the next version of how you work - like fixing one squeaky hinge each week instead of one giant repair day."
+level_3: "Tweak one line in your weekly review checklist after each miss - kaizen in the steam wand, not a grand retraining day that never happens."
+level_4: "Pairs with [[Blameless After-Action Review]] on the learn side - fix the runbook one line at a time instead of a pep talk about trying harder."
+level_5: "A barista adjusts one step after each spill until the morning routine holds - you build the process version by version from real misses."
 examples:
   - "I tweak one line in my weekly review checklist after each miss - steady small upgrades beat the heroic overhaul I never schedule."
   - "The barista changed one milk-steaming step after every burned latte - kaizen in the steam wand, not a grand retraining day that never happens."
@@ -71,4 +71,3 @@ cards:
     back: "The one that repeats tomorrow."
 draft: false
 ---
-

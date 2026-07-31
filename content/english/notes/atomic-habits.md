@@ -4,13 +4,13 @@ meta_title: "Atomic Habits - Small Reps That Compound"
 description: "James Clear's frame - shrink the first rep until it repeats daily, then let identity and environment carry the loop."
 key_concept: |
   - Make the first rep small enough to repeat - identity follows behavior, not the other way around.
-  - Level 1: Start so small you cannot skip it - like one push-up before the full workout, not a heroic plan you abandon Tuesday.
-  - Level 2: Atomic habits shrink the first rep until daily repeat is possible - environment beats willpower on tired mornings.
-  - Level 3: Identity follows repeated behavior - you become a reader by reading one page, not by declaring the label first.
-  - Level 4: Pick one cue, one tiny action, one immediate reward - stack on anchors already on autopilot.
-  - Level 5: [[Habit Formation]] names the loop; [[Habit Stacking]] attaches new moves to anchors Clear assumes are already running.
   - Clear's book is the popular frame for tiny reps, cue design, and environment over heroic motivation.
   - The stake is repeatability - a habit too big to run on a bad day is not atomic yet.
+level_1: "Atomic habits are changes small enough to repeat daily - identity follows behavior, not the other way around."
+level_2: "Like one push-up before the full workout - shrink the first rep until daily repeat is possible; environment beats willpower on tired mornings."
+level_3: "Pick one cue, one tiny action, one immediate reward - stack on anchors already on autopilot."
+level_4: "You become a reader by reading one page, not by declaring the label first - repeated behavior shapes identity."
+level_5: "[[Habit Formation]] names the loop; [[Habit Stacking]] attaches new moves to anchors Clear assumes are already running."
 examples:
   - "I wanted a morning journal habit - one sentence after coffee beat three pages I never opened twice."
   - "The coach added one footwork rep before buying new shoes - small dose, daily reps, feet learned faster than gear."

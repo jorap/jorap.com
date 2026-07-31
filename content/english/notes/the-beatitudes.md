@@ -6,11 +6,6 @@ key_concept: |
   {{< bible "Matthew 5:3-12" >}}
   
   - Eight blessings flip the scoreboard - kingdom favor for the spiritually needy, not the self-sufficient.
-  - Level 1: Jesus lists blessings for people who know they need God - not for people who think they already have it all.
-  - Level 2: Eight blessings reverse the scoreboard - kingdom favor lands on the spiritually needy, not the self-sufficient.
-  - Level 3: Beatitude means supreme blessedness - each line names who receives kingdom favor and why the world's winners miss it.
-  - Level 4: Read one beatitude as a mirror this week - where do you look self-sufficient when Jesus names the needy as blessed?
-  - Level 5: Poor in spirit through persecuted for righteousness - eight moves that flip the scoreboard; kingdom favor for those the world counts out under [[Free Grace]].
   - "Beatitude" means supreme blessedness.
   - Poor in spirit - broke before God, receiving the kingdom as gift not wage.
   - Jesus flips the scoreboard: the kingdom belongs to the spiritually needy, not the self-sufficient - which fits [[Free Grace]] perfectly.
@@ -26,6 +21,11 @@ key_concept: |
   - | [[Peacemakers]] | they shall be called sons of God |
   - | Persecuted for righteousness | theirs is the kingdom of heaven |
   - The Beatitudes fit Free Grace perfectly - kingdom favor is gift, not wages for performance.
+level_1: "The Beatitudes are eight blessings Jesus opened the Sermon on the Mount with - kingdom favor for people who know they need God, not the self-sufficient."
+level_2: "Beatitude means supreme blessedness - each line reverses the scoreboard and names who receives kingdom favor while the world's winners miss it."
+level_3: "Read one beatitude as a mirror this week - where do you look self-sufficient when Jesus names the needy as blessed?"
+level_4: "Poor in spirit through persecuted for righteousness - eight moves that flip the scoreboard under [[Free Grace]]: kingdom favor is gift, not wages for performance."
+level_5: "Each line promises reward rooted in character shaped by grace - link to [[Peacemakers]], [[Gentleness]], and the traits the kingdom actually favors."
 examples:
   - "A good week at the clinic and I felt like I did not need much from God - poor in spirit is broke before God, not the worker who nailed Friday's schedule."
   - "After a winning streak I caught myself feeling spiritually self-sufficient - Beatitudes start with poor in spirit, not the athlete who just had a perfect weekend."
@@ -84,4 +84,3 @@ cards:
     back: "Kingdom of heaven - blessed are persecuted."
 draft: false
 ---
-

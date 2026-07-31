@@ -4,14 +4,14 @@ meta_title: "Preparedness - Rehearse Before the Emergency Owns the Clock"
 description: "Run the fire drill bored rather than improvise when the alarm is real."
 key_concept: |
   - Rehearse, document, and test before the emergency owns the clock.
-  - Level 1: Practice the plan and write it down before the emergency runs the show - like a fire drill before the real alarm.
-  - Level 2: Practice the plan, write it down, and try it out while you still have time - do not wait until the crisis is already running the show.
-  - Level 3: Rehearsal while calm beats improvisation while the clock is loud - document steps someone else could run.
-  - Level 4: Because emergencies compress decisions, prep moves choices upstream - tested runbooks fail less than heroics under smoke.
-  - Level 5: Rehearse, document, and test before the emergency owns the clock - the handbook minimum is not the same as a practiced team.
   - I would rather run the fire drill bored than improvise when the alarm is real.
   - Practice the move slowly so you can run it when the clock is loud.
   - The rehearsal does not need to be dramatic - walking the checklist once on a slow day counts.
+level_1: "Preparedness means practicing the plan and writing it down while calm - rehearsal before the alarm, not improvisation under smoke."
+level_2: "Like a fire drill on a sunny Tuesday - walk the checklist bored so kids are not learning exits during smoke."
+level_3: "Run the inbound play every Thursday whether you need it or not - document steps someone else could run when the clock gets loud."
+level_4: "Because emergencies compress decisions, prep moves choices upstream - tested runbooks fail less than heroics when margin disappears."
+level_5: "[[Build a Reliable Default]] and [[Change Window]] assume rehearsed undo paths - the handbook minimum is not the same as a practiced team."
 examples:
   - "We ran our inbound play every Thursday whether we needed it or not - schools run fire drills on sunny Tuesdays so kids are not learning exits during smoke."
   - "Our restaurant ran the closing checklist on a slow Tuesday; Saturday night's rush was boring because everyone had already walked it once."
@@ -63,6 +63,3 @@ cards:
     back: "Run the drill calm Tuesday - not panic Thursday."
 draft: false
 ---
-
-
-

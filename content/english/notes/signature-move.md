@@ -4,17 +4,17 @@ meta_title: "Signature Move - One Go-To Under Pressure"
 description: "The one practiced answer you reach for when the moment speeds up - on court and in a note."
 key_concept: |
   - A signature move is the one answer I have drilled until I reach for it without thinking when the clock gets loud.
-  - Level 1: When pressure hits, reach for the one response you practiced until it comes automatically - not ten untried options.
-  - Level 2: When pressure hits, you reach for the one response you have practiced so many times it comes automatically - not ten untried options.
-  - Level 3: One drilled answer under a loud clock - menu shrinks to the move you trust.
-  - Level 4: Because novelty fails under stress, repetition installs the default you want at game speed.
-  - Level 5: A signature move is the one answer I have drilled until I reach for it without thinking when the clock gets loud - [[Build a Reliable Default]] before the moment.
   - In basketball that is the go-to finish or counter - not a highlight reel of ten options.
   - In the garden the same discipline is one principle in the claim and two scenes that feel unrelated but run the same move.
   - Domain labels do not count as different - split surfaces until the reader believes the abstraction travels.
   - [[Atomic Notes]] keeps the claim one breath; this is how I prove it landed in real life.
   - [[Build a Reliable Default]] is the life version - rehearse before the moment, not during it.
   - [[Synthesis as a Goal]] is where scenes turn borrowed lines into a move I would actually run.
+level_1: "A signature move is the one practiced answer you reach for automatically when the clock gets loud."
+level_2: "Pressure shrinks the menu to the move you trust - novelty fails under stress, repetition installs the default you want at game speed."
+level_3: "Same knee drive and up-and-under a hundred times in practice - not inventing a new finish with seconds left."
+level_4: "Because domain labels do not prove the abstraction travels, split surfaces until two scenes run the same move."
+level_5: "Drill [[Build a Reliable Default]] before the moment - one principle in the claim, two unrelated scenes that prove it landed in real life."
 examples:
   - "Down two with seconds left my player does not invent a new finish - same knee drive and up-and-under she has made a hundred times in practice, because pressure shrinks the menu."
   - "Drafting a capture note I did not quote Ahrens twice - wristband scribble mid-cooldown and jeepney receipt before the spark died, same one-inbox move in rooms that do not share a folder."
@@ -64,5 +64,3 @@ cards:
     back: "The one drilled answer you reach for when the clock is loud."
 draft: false
 ---
-
-

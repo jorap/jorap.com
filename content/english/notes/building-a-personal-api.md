@@ -4,14 +4,14 @@ meta_title: "Building a Personal API - Your Notes as Callable Context"
 description: "Frontmatter and folders shaped so future you and scripts need no fresh briefing every time."
 key_concept: |
   - My personal API is not OAuth and microservices.
-  - Level 1: Like when every folder in your desk uses the same labels - future you finds papers without asking where they went.
-  - Level 2: A library uses the same card format on every shelf - consistent names and fields so you and scripts need no fresh tour.
-  - Level 3: Personal API is not OAuth - frontmatter and slugs are the contract between past you and future you, same fields every time.
-  - Level 4: Pick one slug pattern and one frontmatter schema, then never freestyle on new notes - agents read the garden without a tour.
-  - Level 5: Ties to [[Metadata Strategy]] - structured context beats fewer moving parts when scripts and agents need to read notes without you re-explaining.
   - I shape frontmatter and folders so future me and my scripts do not need a fresh briefing every time.
   - Frontmatter and folder shape are the contract between past me and future me.
   - Consistent slugs and fields let agents and scripts read the garden without a tour.
+level_1: "A personal API is consistent frontmatter and slugs across notes - not OAuth or microservices."
+level_2: "Like every folder using the same labels - a library uses the same card format so future you and scripts need no fresh tour."
+level_3: "Pick one slug pattern and one frontmatter schema, then never freestyle on new notes - agents read the garden without a tour."
+level_4: "Frontmatter and slugs are the contract between past you and future you - same fields every time."
+level_5: "Ties to [[Metadata Strategy]] - structured context beats fewer moving parts when scripts and agents read notes without re-explaining."
 examples:
   - "Our pantry uses the same rule - snacks, baking, breakfast - my wife finds the rice without me re-explaining where everything lives."
   - "Our team names drills the same way every season - level, skill, variation - so a sub can run practice without a twenty-minute briefing."
@@ -55,4 +55,3 @@ cards:
     back: "Label the system - personal API on the wall."
 draft: false
 ---
-

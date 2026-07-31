@@ -5,11 +5,6 @@ description: "God declares the believer righteous at faith - before obedience ca
 key_concept: |
   {{< bible ref="Luke 18:9-14" emphasize="14" >}}
   - The tax collector went home justified - humility before God, not self-promotion, is what Jesus commended.
-  - Level 1: God declared the humble man right with Him - the proud man who bragged about his good deeds did not.
-  - Level 2: God declared the humble tax collector right with Him - the proud man who listed his deeds did not go home justified, like empty hands versus a trophy speech.
-  - Level 3: Justification is God's declarative yes on the humble - boasting about deeds did not buy the verdict, because the court measures trust, not performance.
-  - Level 4: Come to God with empty hands and receive the justified verdict - not a resume of religious performance.
-  - Level 5: [[Free Grace]] applies justification to eternal life; [[Sanctification]] is the walk after - do not merge the categories.
   {{< bible ref="Romans 3:21-26" emphasize="24" >}}
   - Paul names the verdict - justified as a gift by grace, Christ's redemption, not my performance.
   {{< bible ref="Romans 4:4-5" emphasize="5" >}}
@@ -22,6 +17,11 @@ key_concept: |
   - [[Sanctification]] is what comes after - becoming holy over time.
   - [[Eternal Rewards]] is what the Father pays faithful living after.
   - None of those three re-open the case justification closed.
+level_1: "Justification is God's declarative verdict that the believer is right with Him - received by faith, not earned by religious performance."
+level_2: "God declared the humble tax collector right with Him - the proud man who listed his deeds did not go home justified, like empty hands versus a trophy speech."
+level_3: "When guilt says you need one more good week before you are right with God - the case closed at trust, not at perfect obedience."
+level_4: "Boasting about deeds did not buy the verdict - [[Free Grace]] names the gift; [[Sanctification]] is the walk after, and merging categories brings panic."
+level_5: "[[Free Grace]] applies justification to eternal life; [[Sanctification]] is the walk after - do not merge the categories."
 examples:
   - "My kid asked if God likes him yet - I said God already declared him righteous the moment he trusted Christ, not when his room got clean."
   - "I snapped at the cashier and felt like I was back on probation with God - justification means my standing was settled at faith; confession restores fellowship, it does not re-buy heaven."

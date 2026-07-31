@@ -6,12 +6,7 @@ key_concept: |
   {{< bible "Matthew 5:7" >}}
   
   - Show mercy and you will receive mercy - the beatitude ties compassion out to compassion back.
-  - Level 1: When you show mercy to others, mercy comes back to you - like sharing your snack and finding someone saved you a seat later.
-  - Level 2: The beatitude ties compassion outward to compassion returned - show mercy and you will receive mercy.
-  - Level 3: Mercy withholds punishment deserved and calls you to show the same - grace gives good you could not earn; mercy spares bad you had coming.
-  - Level 4: Before you play judge, remember you needed mercy first - then act toward the debtor the way you wanted the King to act toward you.
-  - Level 5: [[Grace]] and [[Forgiveness]] pair with [[Free Grace]] on eternal life - [[Judge Not]] and [[Love Your Enemies]] turn mercy outward; [[Sunk Cost Fallacy]] in reverse stops collecting old hurt when the ledger closed.
-
+  
   {{< bible ref="Ephesians 2:1-5" emphasize="5" >}}
   
   - Paul keeps mercy and grace in one breath - rich in mercy, saved by grace while I was still dead in sin.
@@ -23,6 +18,11 @@ key_concept: |
   - [[Love Your Neighbor]] and [[Love Your Enemies]] turn mercy outward: act for the hurt person, bless the persecutor.
   - PKM mirror: [[Sunk Cost Fallacy]] in reverse - stop treating old hurt like a debt I am still collecting when mercy already closed the ledger.
   - Mercy withholds the punishment I deserve and calls me to show the same compassion to others.
+level_1: "Mercy withholds the punishment deserved and calls you to show the same compassion toward others."
+level_2: "The beatitude ties compassion outward to compassion returned - like sharing your snack and finding someone saved you a seat later."
+level_3: "Before you play judge, remember you needed mercy first - then act toward the debtor the way you wanted the King to act toward you."
+level_4: "Grace gives good you could not earn; mercy spares bad you had coming - [[Free Grace]] lands the pair on eternal life at faith."
+level_5: "[[Grace]] and [[Forgiveness]] pair with [[Judge Not]] and [[Love Your Enemies]] - [[Sunk Cost Fallacy]] in reverse stops collecting old hurt when the ledger closed."
 examples:
   - "I cut someone off in the group chat after they forgot my birthday - mercy is compassion I would want when I am the one who dropped the ball, not payback dressed as justice."
   - "A coworker apologized again for the same mistake - mercy forgives from the heart; boundaries stay where trust still rebuilds."
@@ -93,5 +93,3 @@ cards:
     back: "Extend mercy - release the small debt."
 draft: false
 ---
-
-

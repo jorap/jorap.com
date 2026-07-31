@@ -4,17 +4,17 @@ meta_title: "Building a Second Brain - Capture, Organize, Distill, Express"
 description: "The head is for thinking, not storing - notes hold what would otherwise get lost."
 key_concept: |
   - Offload ideas so my head can think, not hoard.
-  - Level 1: Like when you write a grocery list so your head can think about dinner - ideas live outside your skull.
-  - Level 2: A coach keeps plays on paper so players remember routes, not every call - the head thinks, notes store.
-  - Level 3: Building a second brain offloads ideas so thinking continues - remember CODE: capture, organize, distill, express.
-  - Level 4: Voice-memo the play idea before gym noise eats it - one trusted inbox, no sorting yet, process it when the spark is safe.
-  - Level 5: [[The Second Brain Workflow]] runs CODE and PARA as one loop - the system fails when any step is just for show; review quarterly whether each step still earns its place.
   - Remember CODE: [[Capture]], organize, distill, express.
   - [[The Second Brain Workflow]] is how CODE and PARA run as one daily-to-weekly loop.
   - The system fails when any step is just for show.
   - I review whether each step still earns its place every quarter.
   - My head is for thinking, not storing - notes hold what I would otherwise lose.
   - Notes hold what I would otherwise lose - capture is how ideas survive the week.
+level_1: "Building a second brain is offloading ideas to an external system so your head can think, not hoard."
+level_2: "Like a grocery list freeing your head for dinner - a coach keeps plays on paper so players remember routes, not every call."
+level_3: "Voice-memo the play idea before gym noise eats it - one trusted inbox, no sorting yet, process when the spark is safe."
+level_4: "Remember CODE: capture, organize, distill, express - the system fails when any step is just for show."
+level_5: "[[The Second Brain Workflow]] runs CODE and PARA as one loop - review quarterly whether each step still earns its place."
 examples:
   - "A play idea hits during warm-ups and I voice-memo it before the gym noise eats it - my head is for having ideas, the inbox is for storing them until review."
   - "A sermon line lands mid-shift and I scribble it on a receipt - one [[trusted inbox]], no sorting yet, process it Sunday when the spark is safe."
@@ -70,5 +70,3 @@ cards:
     back: "Distill first - then express."
 draft: false
 ---
-
-

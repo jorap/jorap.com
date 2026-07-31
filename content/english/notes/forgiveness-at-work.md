@@ -4,14 +4,14 @@ meta_title: "Forgiveness at Work - Release the Ledger"
 description: "Release a colleague debt from the heart without pretending the slight did not matter or skipping boundaries where trust broke."
 key_concept: |
   - Release a colleague's debt without pretending the slight did not matter.
-  - Level 1: Let go of what a coworker owes you without pretending the hurt did not happen, like closing a tab honestly.
-  - Level 2: Forgiveness at work is like zeroing a ledger without erasing the receipt - release the debt, keep the honest record that it hurt.
-  - Level 3: Because ledger-keeping poisons work, forgiveness stops collecting on a debt that will never be paid in full at the office.
-  - Level 4: Release the debt today and stop rehearsing the case - the hurt mattered, the ledger closes anyway before it poisons the next project.
-  - Level 5: Gospel depth - [[Forgiveness]] - same math as [[Sunk Cost Fallacy]] - stop treating old hurt as an asset you are owed at work.
   - Forgiving is not pretending it did not hurt.
   - Stop ledger-keeping - do not collect forever on a debt that poisons work.
   - Gospel depth: [[Forgiveness]] - same math as [[Sunk Cost Fallacy]] - stop treating old hurt as an asset you are owed.
+level_1: "Forgiveness at work releases what a coworker owes you without pretending the hurt did not happen."
+level_2: "Like zeroing a ledger without erasing the receipt - release the debt, keep the honest record that it hurt."
+level_3: "Release the debt today and stop rehearsing the case - the hurt mattered, the ledger closes before it poisons the next project."
+level_4: "Ledger-keeping poisons work - forgiveness stops collecting on a debt that will never be paid in full at the office."
+level_5: "Gospel depth in [[Forgiveness]] - same math as [[Sunk Cost Fallacy]] - stop treating old hurt as an asset you are owed at work."
 examples:
   - "I replayed my sister's sharp comment at every family dinner until I chose to release the debt - forgiving is not pretending it did not hurt; it is refusing to collect forever."
   - "I kept mentally scoring a coworker who embarrassed me in a staff meeting six months ago - I stopped bringing that score into every shift and still wrote down what I would need to trust him on the next busy Saturday."
@@ -55,5 +55,3 @@ cards:
     back: "Forgive heart - boundaries if needed."
 draft: false
 ---
-
-

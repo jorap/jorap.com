@@ -4,13 +4,13 @@ meta_title: "Versatility - More Than One Way to Contribute"
 description: "Plug into more than one lane when the team or the client needs a shift."
 key_concept: |
   - You can contribute in more than one lane when the team or the market shifts.
-  - Level 1: You can help in more than one role when the team or the job suddenly needs someone to switch lanes.
-  - Level 2: Versatility means more than one answer ready when the sick day or the rush was not on the calendar.
-  - Level 3: Markets and teams shift lanes without warning - contribution in more than one role keeps you useful when the plan breaks.
-  - Level 4: Keep one backup skill warm that is not your primary lane - ready beats surprised.
-  - Level 5: Nobody schedules the sick day or the rush - versatility is staying useful across roles, tools, and contexts; [[Adaptability]] names the same move when the plan breaks.
   - Nobody schedules the sick day or the rush - versatility is just having more than one answer ready when they hit.
   - Versatility is staying useful across roles, tools, and contexts - not locked to one lane.
+level_1: "Versatility is contributing in more than one lane when the team or market shifts - not locked to one role or tool."
+level_2: "More than one answer ready when the sick day or the rush was not on the calendar - nobody schedules when the plan breaks."
+level_3: "Keep one backup skill warm that is not your primary lane - jump on dishes when the line cook calls tickets without pretending you run the grill."
+level_4: "Markets and teams shift lanes without warning - [[Adaptability]] names the same move when contribution in more than one role keeps you useful."
+level_5: "Stay useful across roles, tools, and contexts - tradeoff against [[Pareto Principle]] when being helpful everywhere dilutes the core twenty percent you are best at."
 examples:
   - "The rush hit and I jumped on dishes while the line cook called tickets - versatile without pretending I suddenly ran the grill."
   - "Sick day meant I became lunch packer, tutor, and IT help - versatility is more than one lane when the day shifts."
@@ -56,4 +56,3 @@ cards:
     back: "Contribute off-ball - don't fake the role."
 draft: false
 ---
-

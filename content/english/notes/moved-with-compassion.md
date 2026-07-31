@@ -6,14 +6,14 @@ key_concept: |
   {{< bible ref="Matthew 9:36" emphasize="36" >}}
   
   - He saw the crowds harassed and helpless and His gut moved - Mark 1:41 says He was moved with compassion before He touched the leper.
-  - Level 1: Jesus saw people hurting and felt it in His gut - like seeing a friend cry and stopping what you were doing to help before you check the clock.
-  - Level 2: Moved with compassion means Jesus felt the crowd's pain in His gut and reached out before bureaucracy.
-  - Level 3: Mark 1:41 says He was moved with compassion before He touched the leper - feeling preceded procedure.
-  - Level 4: Let need move you to act before you optimize the calendar - compassion that waits for a slot may never arrive.
-  - Level 5: [[Gentleness]] and [[Servant Leadership]] follow the same sequence - see, feel, touch; schedule follows calling, not the reverse.
   - The calendar bent for real people - compassion interrupted throughput, not the other way around.
   - [[Love Your Neighbor]] names who to love; [[Peacemakers]] pursues peace - this names the visceral interrupt when someone is hurting now.
   - Under [[Free Grace]], compassion is not earning heaven - it is the Teacher's reflex copied on ordinary Tuesdays.
+level_1: "Moved with compassion means Jesus felt the crowd's pain in His gut and reached out before procedure or schedule."
+level_2: "Like seeing a friend cry and stopping what you were doing to help before you check the clock, feeling preceded touch."
+level_3: "Let need move you to act before you optimize the calendar - compassion that waits for a slot may never arrive."
+level_4: "Mark 1:41 says He was moved with compassion before He touched the leper - the calendar bent for real people, not throughput."
+level_5: "[[Gentleness]] and [[Servant Leadership]] follow the same sequence - see, feel, touch; schedule follows calling, not the reverse."
 examples:
   - "I had the afternoon blocked for [[Deep Work]] and the neighbor knocked shaken - moved with compassion means the plan bends, not the person waits until Friday."
   - "The player walked past a kid sitting alone after practice - Jesus touched the leper because compassion moved first, not because the schedule had a slot."
@@ -63,5 +63,3 @@ cards:
     back: "See them - move, then serve."
 draft: false
 ---
-
-

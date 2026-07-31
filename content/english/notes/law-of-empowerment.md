@@ -4,9 +4,6 @@ meta_title: "The Law of Empowerment - Only secure leaders give power to others"
 description: "Only secure leaders give power to others."
 key_concept: |
   - Secure leaders delegate - insecure leaders hoard decisions until they break.
-  - Level 1: Jethro told Moses to appoint judges - one-man band was unsustainable.
-  - Level 2: Artaxerxes empowered Ezra. Jesus sent [[Invest in the Few]] with authority and warned of cost.
-  - Level 3: [[Many Parts One Body]] - one body, many members; hoarding chokes the whole.
   - Hub: [[21 Laws of Leadership in the Bible]] - lesson 12 of twenty-one Bible laws; horizontal frame in [[Leadership]].
   
   {{< bible ref="Exodus 18:13-26" >}}
@@ -15,14 +12,19 @@ key_concept: |
   - **Ezra Is Empowered to Lead** - King's letter gave authority, silver, and safe passage - institutional empowerment.
   {{< bible ref="Matthew 10:1-33" >}}
   - **Jesus Empowers and Warns** - Sent twelve with power - and honest warning about rejection.
+level_1: "The law of empowerment is that secure leaders delegate - insecure leaders hoard decisions until they break."
+level_2: "Jethro told Moses to appoint judges - one-man band was unsustainable; Jesus sent twelve with authority and warned of cost."
+level_3: "Hand one recurring decision to someone you have trained - name the boundary, then leave the room."
+level_4: "[[Many Parts One Body]] - one body, many members; hoarding chokes the whole and [[Invest in the Few]] names who gets authority first."
+level_5: "[[Invest in the Few]] names who gets authority; [[Share What You Learn]] keeps empowerment from becoming abdication theater."
 examples:
   - "I finally trained two leads to run standup without me - the team got faster the week I let go."
   - "Moses stood from morning to night judging alone until Jethro intervened."
 shareable_thought:
   - "Only secure leaders give power to others."
   - "Secure leaders delegate - insecure leaders hoard decisions until they break."
-  - "Level 1: Jethro told Moses to appoint judges - one-man band was unsustainable."
-  - "Level 2: Artaxerxes empowered Ezra. Jesus sent [[Invest in the Few]] with authority and warned of cost."
+  - "The law of empowerment is that secure leaders delegate - insecure leaders hoard decisions until they break."
+  - "Jethro told Moses to appoint judges - one-man band was unsustainable; Jesus sent twelve with authority and warned of cost."
 relationships:
   - type: contradicts
     wikilink: "[[Discipleship vs Leadership]]"

@@ -211,7 +211,8 @@ Utility surfaces (`note_kind: meta` or dedicated layouts) must **not** be wikili
 | Field | Required | Rules |
 | --- | --- | --- |
 | `description` | Yes (atomic) | One breath, ≤20 words, no wikilinks |
-| `key_concept` | Yes (atomic) | Angle + stakes; wikilinks allowed |
+| `key_concept` | Yes (atomic) | Claim + optional post-level stack; wikilinks allowed |
+| `level_1`…`level_5` | Yes (atomic) | Depth ladder (Definition → Generative); no `Level N:` prefix in values |
 | `examples` | Recommended | Exactly two plain bullets; mid-action scenes |
 | `shareable_thought` | Yes (except `_index.md`) | Exactly four standalone lines; each must map to the note principle and stay distinct |
 | `relationships` | Yes (atomic) | Typed rows; each target once; sorted a-z |

@@ -4,17 +4,17 @@ meta_title: "Name the Feeling - Put Words to It Before You Fix It"
 description: "That sounds frustrating lands before the fix plan - name the emotion so nobody is guessing."
 key_concept: |
   - "That sounds frustrating" before "here is what to do."
-  - Level 1: Say that sounds frustrating before you hand someone a to-do list - like nodding at a friend who is upset before you suggest a fix.
-  - Level 2: Name the feeling first - that sounds frustrating - before here is what to do.
-  - Level 3: Name-the-feeling validates emotion before prescription - otherwise advice lands like dismissal.
-  - Level 4: One sentence of empathy buys permission for the fix - skip it and you are correcting, not helping.
-  - Level 5: [[Listen Before Fixing]] and [[Emotional Regulation]] share the order - feeling heard precedes being helped.
   - Naming the emotion lowers defensiveness so the fix can land.
   - [[Listen Before Fixing]] comes first - hear it, label it, then steer.
   - Skip the label and I am guessing at the problem while they are still proving I did not get it.
   - That sounds frustrating lands before my fix plan.
   - I name the emotion so we are not guessing.
   - I say that sounds frustrating before I hand them a fix plan.
+level_1: "Name-the-feeling means label the emotion in one sentence before you hand someone a fix or to-do list."
+level_2: "Like nodding at a friend who is upset before you suggest a fix, that sounds frustrating lands before here is what to do."
+level_3: "One sentence of empathy buys permission for the fix - skip the label and you are correcting, not helping."
+level_4: "Name-the-feeling validates emotion before prescription - otherwise advice lands like dismissal even when the fix is right."
+level_5: "[[Listen Before Fixing]] and [[Emotional Regulation]] share the order - feeling heard precedes being helped."
 examples:
   - "A player slumped on the bench after a bad quarter - I said \"you look wiped\" before I drew up the next play."
   - "My kid came home furious about homework and naming the unfair feeling beat jumping straight to just do it."
@@ -60,5 +60,3 @@ cards:
     back: "Name it first - solutions wait."
 draft: false
 ---
-
-

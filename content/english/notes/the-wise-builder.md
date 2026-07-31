@@ -6,11 +6,6 @@ key_concept: |
   {{< bible ref="Matthew 7:24" label="Matthew 7:24-27" emphasize="24" >}}
   
   - Hear and do - rock in the storm; hearing sermons without obedience is sand.
-  - Level 1: Building on rock means hearing Jesus and doing what He says - only listening without acting is like sand in a storm.
-  - Level 2: Hear and do - rock in the storm; hearing sermons without obedience is sand that looks fine until the weather turns.
-  - Level 3: Storms reveal foundation because profession without practice collapses when pressure hits.
-  - Level 4: Match one heard command to one done action this week - rock is obedience, not attendance.
-  - Level 5: Lord Lord without doing the Father's will is empty profession - not a stumbled believer who repents; [[Faith and Works]] names the order storms reveal.
   - Lord Lord without doing the Father's will - empty profession, not a stumbled believer who repents.
   - Storms reveal which foundation held.
   - Under [[Free Grace]], doing is not what saves - faith saves - but genuine hearing produces action.
@@ -19,6 +14,11 @@ key_concept: |
   - PKM mirror: [[The Collector's Fallacy]] - hearing sermons and saving articles without [[Creative Output]] is sand; obedience and output are rock.
   - Doing is not what saves - faith saves - but genuine hearing still produces action.
   - False profession and a stumbling believer are not the same thing.
+level_1: "The wise builder hears Jesus and does what He says - building on rock, not sand that looks fine until the storm."
+level_2: "Hear and do - rock in the storm; hearing sermons without obedience is sand that collapses when pressure hits."
+level_3: "Match one heard command to one done action this week - rock is obedience, not attendance."
+level_4: "Storms reveal foundation because profession without practice collapses - Lord Lord without doing the Father's will is empty profession, not a stumbled believer who repents."
+level_5: "Under [[Free Grace]], doing is not what saves - faith saves - but genuine hearing produces action; [[Faith and Works]] names the order storms reveal."
 examples:
   - "We heard the coach's lecture on discipline and still skipped film study Tuesday - hearing without doing is sand; storms show which builder you are."
   - "Safety training Monday, same shortcut Wednesday - wise builder hears and does; fool hears and nods."
@@ -74,4 +74,3 @@ cards:
     back: "Obey one command Jesus gave."
 draft: false
 ---
-

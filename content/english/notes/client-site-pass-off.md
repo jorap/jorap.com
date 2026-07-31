@@ -4,17 +4,17 @@ meta_title: "Client Site Pass-Off - Git Lesson, Retainer, or Showroom"
 description: "Before deposit, name who publishes next and price the pass-off so launch is not a guessing game."
 key_concept: |
   - Pick exactly one primary model with Plain Commitments at Work - not "we will figure it out at launch."
-  - Level 1: Like when you pick one person to hold the spare key - not "we will figure out who opens the door later."
-  - Level 2: Before the housewarming, name exactly how updates work - Git lesson, retainer batch, or showroom branch, not a vague launch-day guess.
-  - Level 3: Client site pass-off names who publishes next before deposit - the model is priced in the quote, so launch week is not a scramble.
-  - Level 4: Before deposit, name one pass-off model and quote it - repo access plus a short doc, retainer batch, or clean main only.
-  - Level 5: **Showroom branch** keeps [[The Garage Concept]] experiments off their deploy branch; **[[Git-Based CMS]]** when Git lesson will not land but scope still fits static.
   - **Git lesson** - client gets repo access plus a short doc ([[Getting Started]] shape: edit markdown, commit, push). Fits owners who want control and will not panic at a terminal.
   - **Retainer** - they email copy or photos; I push on a batch schedule. Price per update batch, not fake monthly hosting.
   - **Showroom branch** - [[The Garage Concept]]: my experiments stay off their deploy branch; what they see is clean main only.
   - **[[Git-Based CMS]]** when Git lesson will not land but scope still fits static - quote CMS setup separately.
   - Before deposit I pick one pass-off model - Git lesson, retainer batch, or showroom branch.
   - Git lesson means repo access plus a short doc - edit markdown, commit, push without panicking at a terminal.
+level_1: "Client site pass-off is naming exactly one primary model before deposit - who publishes next, not \"we will figure it out at launch.\""
+level_2: "Like picking one person to hold the spare key - Git lesson, retainer batch, or showroom branch, not a vague launch-day guess."
+level_3: "Before deposit, name one pass-off model and quote it - repo access plus a short doc, retainer batch, or clean main only."
+level_4: "The model is priced in the quote so launch week is not a scramble - plain commitments at work."
+level_5: "**Showroom branch** keeps [[The Garage Concept]] experiments off their deploy branch; **[[Git-Based CMS]]** when Git lesson will not land but scope still fits static."
 examples:
   - "Neighbor chose Git lesson - twenty minutes on edit, commit, push; she broke build once, fixed typo same night."
   - "Pastor emails bulletin PDF every Friday - retainer batch, one push, no CMS layer needed."
@@ -67,7 +67,3 @@ cards:
     back: "Business hours and batch day - not live-in admin."
 draft: false
 ---
-
-
-
-

@@ -4,14 +4,14 @@ meta_title: "Change Takes Repetition - Same Moves Until the System Bends"
 description: "Real change is the same moves on repeat, not one breakthrough weekend."
 key_concept: |
   - The breakthrough story sells books; Tuesday sells the habit.
-  - Level 1: Like when you learn to tie shoes - one big try does less than the same loop every morning.
-  - Level 2: Books love the breakthrough story, but the habit grows on boring Tuesdays - real change is the same move on repeat.
-  - Level 3: Change takes repetition when the same levers run many times before the room feels different - direction, practice, feedback in loops.
-  - Level 4: Run the same rep at practice for six weeks before you expect the inbound play to work - not the speech before the tournament.
-  - Level 5: [[Habit Formation]] sticks one move; [[Practice Small Experiments]] keeps trials small while reps accumulate - faith lane: [[Sanctification]] is slow obedience, not one altar call.
   - Change takes repetition when the same levers run many times - direction, practice, feedback - before the room feels different.
   - [[Transformation Principles]] is the set; [[Habit Formation]] is how one move sticks; [[Practice Small Experiments]] keeps trials small while reps accumulate.
   - Faith lane: [[Sanctification]] - becoming is slow obedience, not a single altar call.
+level_1: "Change takes repetition is the same move on repeat before the room feels different - not one breakthrough speech."
+level_2: "Like learning to tie shoes - one big try does less than the same loop every morning; books love breakthrough stories, habits grow on boring Tuesdays."
+level_3: "Run the same rep at practice for six weeks before expecting the inbound play to work - direction, practice, feedback in loops."
+level_4: "Real change is the same levers run many times - not the speech before the tournament."
+level_5: "[[Habit Formation]] sticks one move; [[Practice Small Experiments]] keeps trials small while reps accumulate - faith lane: [[Sanctification]] is slow obedience, not one altar call."
 examples:
   - "The inbound play only worked after six weeks of the same rep at practice - change takes repetition, not the inspirational speech before the tournament."
   - "My capture habit finally held after months of the same ten-minute jeepney block - change takes repetition, not the weekend I reorganized every app."
@@ -79,5 +79,3 @@ cards:
     back: "Run the Tuesday again - motivation follows."
 draft: false
 ---
-
-

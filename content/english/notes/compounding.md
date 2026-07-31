@@ -4,16 +4,16 @@ meta_title: "Compounding - Small Gains That Stack Over Time"
 description: "Compounding is small gains stacked over time - the curve stays flat until it suddenly bends."
 key_concept: |
   - Small gains repeated look like nothing is happening; most people quit right before the curve would have bent.
-  - Level 1: Like when you save one peso a day - nothing looks big until the jar suddenly feels heavy.
-  - Level 2: A kid practices free throws ten minutes every Tuesday - the percentage bends long after the heroic week felt forgettable.
-  - Level 3: Compounding applies wherever today's gain makes tomorrow easier - notes linked over years, publish cadence, vocab drills.
-  - Level 4: Ten minutes of free throws every Tuesday until the percentage bends - heroic weeks feel good, boring repetition wins.
-  - Level 5: Faith parallel: [[Abide in Me]] - fruit from staying connected over time; [[Eternal Rewards]] repays daily faithfulness; [[Loss of Reward]] shrinks reward without erasing [[Free Grace]].
   - Borrowed from finance, but it applies anywhere today's gain makes tomorrow easier: notes linked over years, publish cadence, vocab drills.
   - Heroic weeks feel good; boring repetition wins.
   - Faith parallel: [[Abide in Me]] - fruit from staying connected over time, not self-generated effort alone.
   - [[Eternal Rewards]] repays daily faithfulness over years, not a lump-sum merit binge.
   - [[Loss of Reward]] is the other side: a bad season shrinks reward, it does not erase [[Free Grace]].
+level_1: "Compounding is small gains repeated until tomorrow gets easier - the curve bends long after nothing looked like it was happening."
+level_2: "Like saving one peso a day until the jar feels heavy - a kid practices free throws ten minutes every Tuesday until the percentage bends."
+level_3: "Ten minutes of free throws every Tuesday until the percentage bends - notes linked over years, publish cadence, vocab drills."
+level_4: "Heroic weeks feel good; boring repetition wins - most people quit right before the curve would have bent."
+level_5: "Faith parallel: [[Abide in Me]] - fruit from staying connected over time; [[Eternal Rewards]] repays daily faithfulness; [[Loss of Reward]] shrinks reward without erasing [[Free Grace]]."
 examples:
   - "Ten minutes of free throws every Tuesday looked pointless for months - then the percentage bent without me noticing the curve."
   - "My kid's piano practice looked pointless for a year - three songs a week, same scales, then year two the pieces started linking and suddenly she was playing music."
@@ -87,5 +87,3 @@ cards:
     back: "Add one line - stack beats hero days."
 draft: false
 ---
-
-

@@ -4,25 +4,25 @@ meta_title: "Secret Devotion - For the Father's Eyes Alone"
 description: "Give, pray, and fast for God to see - not for applause in the group chat."
 key_concept: |
   {{< bible ref="Matthew 6:3-4" emphasize="4" >}}
-
+  
   - Give in secret - left hand does not know what the right is doing.
-  - Level 1: Some good things you do stay quiet - God already saw them, and that is enough.
-  - Level 2: Some good belongs on stage and some belongs behind a closed door - the tell is who you want watching.
-  - Level 3: Left hand does not know what the right is doing - hidden devotion, public fruit where appropriate.
-  - Level 4: Because applause rewires motive, secret lanes keep worship aimed at the Father, not the feed.
-  - Level 5: Some good shines publicly; some stays hidden so the left hand does not know what the right is doing - audience of One, not performance religion.
-
+  
   {{< bible ref="Matthew 6:5-6" emphasize="6" >}}
-
+  
   - Pray behind closed doors - the Father who sees in secret is the audience, not the feed.
-
+  
   {{< bible ref="Matthew 6:17-18" emphasize="18" >}}
-
+  
   - Fast without performing hunger - wash your face, live normal before the Father.
   - Piety for an audience is its own reward - give, pray, fast for the Father who sees in secret.
   - [[Ask Seek Knock]] names how to pray; this names who the audience is.
   - [[Let Your Light Shine]] is the public lane - not every act belongs there.
   - [[Free Grace]] means hidden prayer is not the price of acceptance.
+level_1: "Secret devotion is giving, praying, and fasting for the Father who sees in secret - not for applause in the group chat."
+level_2: "Some good belongs on stage and some behind a closed door - the tell is who you want watching when you act."
+level_3: "Pray with the kids before bed with the door closed - no photo, no caption, just the Father who already knows."
+level_4: "Because applause rewires motive, hidden lanes keep worship aimed at the Father, not the feed - [[Free Grace]] means hidden prayer is not the price of acceptance."
+level_5: "Pair with [[Let Your Light Shine]] for the public lane - give, pray, fast for One audience; left hand does not know what the right is doing."
 examples:
   - "I pray with the kids before bed with the door closed - no photo, no caption, just the Father who already knows we are here."
   - "The player trains at five am without live-streaming shootarounds - the game is the point, not the Strava badge."
@@ -75,9 +75,3 @@ cards:
     back: "Father sees hidden - that's enough."
 draft: false
 ---
-
-
-
-
-
-

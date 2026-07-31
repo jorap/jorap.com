@@ -4,13 +4,13 @@ meta_title: "Adaptability - Adjust When the Ground Moves"
 description: "Adaptability swaps the method when conditions shift - same aim, different plan."
 key_concept: |
   - Keep the goal, swap the method when the ground moves.
-  - Level 1: Like when the path to school is blocked - you walk another street but still head to the same classroom.
-  - Level 2: A basketball team switches from zone to man-to-man when the other side catches fire - same scoreboard, different defense.
-  - Level 3: Adaptability keeps the goal and swaps the method - the test is whether the aim survives the pivot, not whether you changed at all.
-  - Level 4: When the plan breaks, name the target again before you pick a new route - change tools or timing, not the outcome you promised.
-  - Level 5: Constant pivot breaks [[Let Your Yes Be Yes]] when people were counting on a plain commitment - adapt when the counter responds, not every time convenience shifts.
   - Adaptability is changing method without losing aim when conditions, tools, or opponents shift.
   - The tell is not whether you adapt - it is whether the goal survives the pivot intact.
+level_1: "Adaptability is keeping the goal while swapping the method when conditions shift."
+level_2: "Like walking another street when the path to school is blocked - same classroom, different route; a team switches defense when the opponent catches fire."
+level_3: "When the plan breaks, name the target again before picking a new route - change tools or timing, not the outcome you promised."
+level_4: "The test is whether the aim survives the pivot - not whether you changed at all."
+level_5: "Constant pivot breaks [[Let Your Yes Be Yes]] when people counted on a plain commitment - adapt when the counter responds, not when convenience shifts."
 examples:
   - "Rain canceled our outdoor run and we moved practice to the covered court - same goal of getting reps in, different floor when the weather shifted."
   - "The school bus was late so we walked - same deadline for drop-off, different route when the morning plan broke."
@@ -56,4 +56,3 @@ cards:
     back: "Adapt once - yes stays yes on the date."
 draft: false
 ---
-

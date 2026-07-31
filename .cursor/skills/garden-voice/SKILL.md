@@ -79,7 +79,8 @@ Wiki prose in `key_concept` can be tighter than cards, but still plain. Cards ar
 | Field | Shape |
 |-------|-------|
 | `description` | Third-person, one-breath definition - memorable cold weeks later |
-| `key_concept` | Plain-English claim you'd argue (line 1, no wikilinks), then 2-4 tight sentences, then wikilink stack |
+| `key_concept` | Plain-English claim you'd argue (line 1, no wikilinks), then optional post-level stack |
+| `level_1`…`level_5` | Depth ladder for the same claim - plain prose, no `Level N:` prefix |
 | `examples` | Two scenes that *feel* different - one sentence each |
 | `shareable_thought` | Exactly four complete thoughts - each a different angle, paste-ready alone |
 | `relationships.reason` | Short clause, telegraphic OK |
@@ -104,7 +105,42 @@ Garden PKM notes follow the slip-box idea from Sönke Ahrens (*How to Take Smart
 | Read with a pen | `examples` show your words on paper, not highlight dumps |
 | One idea per note | Pair with [[Atomic Notes]] - split before the ands pile up |
 
-**Book anchor notes** (author + method in one file): levels 1-5 in `key_concept`, six review cards, `relationships` wired to the stack. Match `getting-things-done.md`, `building-a-second-brain.md`, `take-smart-notes.md` - not a chapter dump in frontmatter.
+**Book anchor notes** (author + method in one file): `level_1`–`level_5`, six review cards, `relationships` wired to the stack. Match `getting-things-done.md`, `building-a-second-brain.md`, `take-smart-notes.md` - not a chapter dump in frontmatter.
+
+### Understanding levels (`level_1`–`level_5`)
+
+Every atomic note has five frontmatter fields after `key_concept`. They describe **depth of understanding** for that idea - not the reader's education level. Canonical ladder: [[Depth of Understanding]].
+
+```yaml
+key_concept: |
+  - Claim you'd argue (line 1, no wikilinks).
+  - Optional post-level stack (wikilinks, distinctions).
+level_1: "Definition - name the concept in one sentence."
+level_2: "Explanation - meaning, purpose, relationships; analogy OK."
+level_3: "Application - practical situation or decision."
+level_4: "Systems - tradeoffs, limits, implications, larger context."
+level_5: "Generative - build, contribute, or extend; wikilinks OK."
+```
+
+| Field | Name | What the field does |
+|-------|------|---------------------|
+| `level_1` | Definition | Recognize - name and identify the concept in one sentence |
+| `level_2` | Explanation | Understand - meaning, purpose, basic relationships; analogy OK |
+| `level_3` | Application | Use - practical situation or decision |
+| `level_4` | Systems | Connect - tradeoffs, limits, implications, larger context |
+| `level_5` | Generative | Create - build, contribute, or extend from the concept; wikilinks OK |
+
+Rules:
+
+- Fields sit **after** `key_concept` in frontmatter order (`level_1` … `level_5`)
+- Values are plain prose - **no** `Level N:` prefix (render adds it)
+- Do **not** put `- Level N:` bullets inside `key_concept`
+- Each level explains the same atomic claim at growing depth - not five unrelated facts
+- `level_1` is definitional, not analogy-only (analogy belongs in `level_2`)
+- No grade labels, age bands, or beginner/intermediate/advanced tiers
+- Keep the post-level `key_concept` stack unchanged unless it duplicates a level
+- [[The Feynman Technique]] stress-tests `level_1`–`level_2` only - not a substitute for the full ladder
+- Page render inserts Level bullets after the first markdown bullet in `key_concept`
 
 **Do not** paste book excerpts into garden frontmatter. Distill one claim per note; link `[[Take Smart Notes]]` from atoms that borrow the method.
 
@@ -175,7 +211,7 @@ Good pair (`capture.md`): wristband during cooldown + receipt on the jeepney.
 
 Each item must hit a **different angle** (definition, move, boundary, payoff) - not four fragments, not four restatements of the same line.
 
-Every line must be **drawn from `description` or `key_concept` wording** - lint accepts a line that contains, or sits inside, one of those clauses. Never open with not/and/or/but/then, "That's", "So", or a pointer like "See Note Title" or "Pairs with".
+Every line must be **drawn from `description`, `key_concept`, or `level_1`…`level_5` wording** - lint accepts a line that contains, or sits inside, one of those clauses. Never open with not/and/or/but/then, "That's", "So", or a pointer like "See Note Title" or "Pairs with".
 
 Bad: `"Growth, not the ticket."` (fragment)
 
@@ -278,12 +314,13 @@ Vocabulary: `pnpm lint:voice` (`data/voice-words.yaml`). Structure: `pnpm lint:s
 - [ ] `title` is 4 words preferred (5 only at ≥30 chars, phrase exempt, beats best 4-word trim; never 6+)
 - [ ] `description` is third-person, one breath, ≤20 words, no `[[wikilinks]]`
 - [ ] `key_concept` line 1 is a plain claim you'd argue - **no wikilinks**
-- [ ] `key_concept` has 2-4 tight sentences before the link stack runs long
+- [ ] `level_1`…`level_5` present after `key_concept` - same claim at growing depth; no `Level N:` prefix; no Level bullets inside `key_concept`
+- [ ] `key_concept` post-level stack stays tight (wikilinks/distinctions) - do not bury levels there
 - [ ] Faith note includes a Bible verse in `key_concept` (skip when `Workplace` tag - workplace lane)
 - [ ] Faith note doctrine aligns with GSOT free grace (experienced Grace School of Theology theologian - not improvised)
 - [ ] EP scripture: `{{< bible >}}` shortcode with specific verses (not a whole chapter), explanation bullet in JoRap voice, then claim stack
 - [ ] Two `examples`, one sentence each, scenes feel different
-- [ ] `shareable_thought` is exactly four complete thoughts, four different angles, each echoing `description` or `key_concept` wording - no fragments
+- [ ] `shareable_thought` is exactly four complete thoughts, four different angles, each echoing `description`, `key_concept`, or `level_*` wording - no fragments
 - [ ] `relationships.reason` is a clause, not a paragraph; no bible verse citations (book chapter:verse or spoken chapter refs)
 - [ ] Cards pass [flashcards](../flashcards/SKILL.md) and plain-words test
 - [ ] Theology/PKM term glossed in plain English before the wikilink stack

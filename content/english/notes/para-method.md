@@ -4,13 +4,13 @@ meta_title: "PARA Method - Projects, Areas, Resources, Archives"
 description: "PARA sorts notes into Projects, Areas, Resources, and Archives - four buckets by life responsibility, not topic soup."
 key_concept: |
   - Sort by who owns it and when it ends - not by topic alphabet soup.
-  - Level 1: Sort notes by who owns them and when they end - like putting school homework in one pile and hobbies in another, not alphabet soup from A to Z.
-  - Level 2: PARA sorts by Projects, Areas, Resources, Archive - owner and deadline beat topic alphabet soup.
-  - Level 3: PARA means sort by who owns it and when it ends - action and responsibility, not subject headings from A to Z.
-  - Level 4: When filing, ask who acts on this and when it closes - if neither applies, it is reference or archive, not a project folder.
-  - Level 5: [[GTD vs PARA]] splits tasks from knowledge - [[Metadata Strategy]] stays light inside PARA buckets so taxonomy does not become a second job.
   - Projects carry deadlines; Areas carry ongoing responsibility; Resources wait unclaimed; Archives hold finished work.
   - Enough structure to find things, archive when done.
+level_1: "PARA sorts notes into Projects, Areas, Resources, and Archives - owner and deadline beat topic headings."
+level_2: "Like school homework in one pile and hobbies in another - action and responsibility, not A-to-Z subject soup."
+level_3: "When filing, ask who acts on this and when it closes - if neither applies, it is reference or archive."
+level_4: "Projects carry deadlines; Areas carry ongoing responsibility; Resources wait unclaimed; Archives hold finished work."
+level_5: "[[GTD vs PARA]] splits tasks from knowledge - [[Metadata Strategy]] stays light so taxonomy does not become a second job."
 examples:
   - "Tournament folder on the bench with a deadline; off-season conditioning notes in the filing cabinet with no end date."
   - "I once filed immunization records under 'health' and could not find them at enrollment - owner and deadline beat topic tags."
@@ -54,4 +54,3 @@ cards:
     back: "Owner and deadline - not subject."
 draft: false
 ---
-

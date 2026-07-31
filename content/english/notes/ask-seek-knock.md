@@ -6,11 +6,6 @@ key_concept: |
   {{< bible ref="Matthew 7:7" label="Matthew 7:7-11" emphasize="7" >}}
   
   - Keep asking, seeking, knocking - God gives like a parent who gives bread, not a stone.
-  - Level 1: Like when you knock on a door and keep knocking - a good parent opens with bread, not a rock.
-  - Level 2: A kid asks for lunch, keeps asking, keeps showing up - Jesus says God answers like that parent, not like someone handing stones.
-  - Level 3: Ask, seek, knock means persistent prayer on schedule - dependence before daily needs crowd out kingdom priorities, not one desperate burst.
-  - Level 4: Pray on the same rhythm you review your week - ask before you thumb-refresh the news feed about tomorrow's meeting.
-  - Level 5: Under [[Free Grace]], prayer is a dependent child who already belongs to the household, not bargaining for merit - same rhythm as [[Periodic Knowledge Review]], keep showing up not only in crisis.
   - Jesus compares God to a parent who gives bread, not a stone.
   
   {{< bible ref="Matthew 6:9-13" emphasize="10" >}}
@@ -20,6 +15,11 @@ key_concept: |
   - [[Ask Seek Knock]] models that priority before daily needs.
   - Prayer is not bargaining for merit; under [[Free Grace]] it is the dependent posture of a child who already belongs to the household.
   - Same rhythm as [[Periodic Knowledge Review]] - keep showing up on schedule, not only in crisis.
+level_1: "Ask, seek, knock is Jesus' teaching on persistent prayer - keep asking like a child who expects bread, not stones."
+level_2: "Like knocking until a good parent opens with bread - God answers like that parent, not someone handing rocks."
+level_3: "Pray on the same rhythm you review your week - dependence before daily needs crowd out kingdom priorities."
+level_4: "Persistent prayer on schedule, not one desperate burst - ask before thumb-refreshing news about tomorrow's meeting."
+level_5: "Under [[Free Grace]], prayer is a dependent child who already belongs - same rhythm as [[Periodic Knowledge Review]], keep showing up not only in crisis."
 examples:
   - "I thumb-refresh the news about tomorrow's meeting instead of asking - prayer is dependence, not bargaining for merit I already have under grace."
   - "The clinic chaplain rounds every floor on a schedule, not only when someone codes - ask, seek, knock is keep showing up, not one crisis visit."
@@ -69,6 +69,3 @@ cards:
     back: "Seek in Scripture - open the Book."
 draft: false
 ---
-
-
-

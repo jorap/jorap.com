@@ -4,9 +4,6 @@ meta_title: "The Law of the Lid - Leadership ability determines a person's level
 description: "Leadership ability determines a person's level of effectiveness."
 key_concept: |
   - Your leadership lid caps how much good you can carry - raise the lid or the load stalls.
-  - Level 1: Like a jar lid - a small lid cannot hold a gallon; low leadership caps what you can deliver.
-  - Level 2: Aaron folded without Moses - David out-led Saul - Rehoboam's harsh answer split the kingdom.
-  - Level 3: Under [[Free Grace]], raising your lid is discipleship growth, not earning heaven - but the ceiling still limits real-world fruit.
   - Hub: [[21 Laws of Leadership in the Bible]] - lesson 1 of twenty-one Bible laws; horizontal frame in [[Leadership]].
   
   {{< bible ref="Exodus 32:1-25" >}}
@@ -15,14 +12,19 @@ key_concept: |
   - **David and Saul** - Saul hid in fear; David stepped into the valley - courage out-ranked the crown.
   {{< bible ref="1 Kings 12:1-20" >}}
   - **Rehoboam and the People** - Harsh answer split ten tribes - low lid, shattered unity.
+level_1: "The law of the lid is the ceiling your leadership ability puts on what your team can achieve - you can name the cap."
+level_2: "Like a jar lid too small for the jar, low leadership limits output no matter how big the opportunity grows."
+level_3: "Before you blame the crew for missed targets, ask whether your own leadership level is the bottleneck."
+level_4: "Aaron folded without Moses, David out-led Saul, Rehoboam split the kingdom - the lid shows up in Scripture before modern org charts."
+level_5: "[[Servant Leadership]] raises the lid through service; under [[Free Grace]] growth is discipleship fruit, not a merit badge for heaven."
 examples:
   - "I took a team lead role but kept making every call myself - the lid was my insecurity, not the org chart."
   - "Saul stayed in the tent while David faced Goliath - the anointed king's lid was fear; the shepherd's was courage."
 shareable_thought:
   - "Leadership ability determines a person's level of effectiveness."
   - "Your leadership lid caps how much good you can carry - raise the lid or the load stalls."
-  - "Level 1: Like a jar lid - a small lid cannot hold a gallon; low leadership caps what you can deliver."
-  - "Level 2: Aaron folded without Moses - David out-led Saul - Rehoboam's harsh answer split the kingdom."
+  - "The law of the lid is the ceiling your leadership ability puts on what your team can achieve - you can name the cap."
+  - "Like a jar lid too small for the jar, low leadership limits output no matter how big the opportunity grows."
 relationships:
   - type: contradicts
     wikilink: "[[Discipleship vs Leadership]]"

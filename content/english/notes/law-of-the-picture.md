@@ -4,9 +4,6 @@ meta_title: "The Law of the Picture - People do what people see"
 description: "People do what people see."
 key_concept: |
   - People copy what they see - your example is the louder sermon.
-  - Level 1: Josiah tore down idols he read about - picture of reform matched proclamation.
-  - Level 2: Jesus washed feet. Paul said imitate me as I imitate Christ.
-  - Level 3: [[Let Your Light Shine]] - visible walk, not hidden-only piety.
   - Hub: [[21 Laws of Leadership in the Bible]] - lesson 13 of twenty-one Bible laws; horizontal frame in [[Leadership]].
   
   {{< bible ref="2 Kings 23:1-16" >}}
@@ -15,14 +12,19 @@ key_concept: |
   - **Jesus' Example Stands for All Time** - Washed disciples' feet - love one another as I loved you.
   {{< bible ref="1 Corinthians 4:9-17" >}}
   - **The Higher the Leader, the More Important the Example** - Paul: imitate me - apostles set the visible pattern.
+level_1: "The law of the picture is that people follow what leaders model in action, not only what they announce."
+level_2: "Josiah tore down idols he read about; Jesus washed feet; Paul said imitate me - the walk out-teaches the speech."
+level_3: "Do the unglamorous task you keep assigning before you ask the team to carry it alone."
+level_4: "Visible example without hidden integrity is performance; hidden piety without any visible walk fails the team who never see the standard."
+level_5: "[[Let Your Light Shine]] names visible good works; [[Integrity Without an Audience]] keeps private obedience on the ledger too."
 examples:
   - "Kids mirrored my phone-at-dinner habit before they mirrored my prayer - the picture beat the lecture."
   - "Jesus tied a towel - leadership smelled like a servant's basin."
 shareable_thought:
   - "People do what people see."
   - "People copy what they see - your example is the louder sermon."
-  - "Level 1: Josiah tore down idols he read about - picture of reform matched proclamation."
-  - "Level 2: Jesus washed feet. Paul said imitate me as I imitate Christ."
+  - "The law of the picture is that people follow what leaders model in action, not only what they announce."
+  - "Josiah tore down idols he read about; Jesus washed feet; Paul said imitate me - the walk out-teaches the speech."
 relationships:
   - type: contradicts
     wikilink: "[[Discipleship vs Leadership]]"

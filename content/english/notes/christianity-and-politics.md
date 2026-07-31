@@ -6,11 +6,6 @@ key_concept: |
   {{< bible ref="Matthew 22:21" >}}
   
   - Coin to Caesar, self to God - civic duty without making Rome or any party ultimate lord.
-  - Level 1: Like when you pay the lunch lady but your heart belongs at home - give Caesar his coin, give God yourself.
-  - Level 2: A citizen pays taxes and serves on jury duty without treating any politician like the king of your soul.
-  - Level 3: Dual allegiance keeps lawful duty and ultimate worship distinct - Caesar gets what Caesar is owed, God gets what is His.
-  - Level 4: Pay the tax bill without treating it like betraying the kingdom - bless the neighbor on the other feed, do not baptize the rage.
-  - Level 5: [[Seek the Kingdom First]] ranks God's reign above every election cycle; [[Treasure in Heaven]] keeps my heart off ballot-box salvation - [[Signal vs Noise]] curbs scroll that replaces prayer.
   - Coin to Caesar, self to God - civic duty without making Rome or any party ultimate lord.
   - [[Seek the Kingdom First]] still ranks God's reign above every election cycle - without excusing dodged taxes, permits, or jury duty.
   - [[Love Your Neighbor]] and [[Love Your Enemies]] stretch across party lines: the person on the other feed is still my neighbor, not a target.
@@ -20,6 +15,11 @@ key_concept: |
   - PKM mirror: [[Signal vs Noise]] - not every headline deserves kingdom-level panic; [[Information Diet]] curbs the scroll that replaces prayer.
   - I owe Caesar what Caesar's owed and God what I am His.
   - No party gets my soul - Caesar gets what Caesar is owed, God gets what I am His.
+level_1: "Christianity and politics keeps dual allegiance - give Caesar what Caesar is owed and God what is His, without making any party ultimate lord."
+level_2: "Like paying the lunch lady while your heart belongs at home - a citizen pays taxes and serves jury duty without treating any politician as king of your soul."
+level_3: "Pay the tax bill without treating it like betraying the kingdom - bless the neighbor on the other feed, do not baptize the rage."
+level_4: "Lawful duty and ultimate worship stay distinct - civic responsibility does not replace [[Seek the Kingdom First]]."
+level_5: "[[Seek the Kingdom First]] ranks God's reign above every election cycle; [[Treasure in Heaven]] keeps my heart off ballot-box salvation - [[Signal vs Noise]] curbs scroll that replaces prayer."
 examples:
   - "Tax bill landed and part of me wanted to treat paying it like betraying the kingdom - [[Render Unto Caesar]]: lawful duty and ultimate worship stay distinct."
   - "Group chat turned tribal after the election and my thumb hovered on a dunk - bless the neighbor, do not baptize the rage."
@@ -90,5 +90,3 @@ cards:
     back: "Ultimate allegiance is Christ - not my ballot."
 draft: false
 ---
-
-

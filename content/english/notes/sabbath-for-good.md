@@ -6,14 +6,14 @@ key_concept: |
   {{< bible ref="Mark 2:27" emphasize="27" >}}
   
   - The Sabbath was made for man, not man for the Sabbath - the Lord of the Sabbath chose mercy and good over performance religion.
-  - Level 1: Rest day was made to help people, not trap them in rules - Jesus chose kindness over empty rule-keeping.
-  - Level 2: Rest day was made to help people, not to trap them in rules - Jesus chose kindness and healing over empty rule-keeping.
-  - Level 3: Sabbath serves people - Lord of the Sabbath chose mercy and good over performance religion.
-  - Level 4: Because legalism turns gift into gauge, healing on the Sabbath exposes what rest was for - human good, not scorekeeping.
-  - Level 5: The Sabbath was made for man, not man for the Sabbath - the Lord of the Sabbath chose mercy and good over performance religion.
   - Luke 13:16 shows the same move - bent woman freed on the Sabbath; binding her was wrong, not rules over compassion.
   - [[Heart Righteousness]] cares about motive; [[Secret Devotion]] refuses piety for applause - Sabbath for good refuses empty rule-keeping.
   - Under [[Free Grace]], rest is not a wage - it is gift rhythm that makes room to love the person in front of you.
+level_1: "Sabbath for good means rest serves people and mercy - not rule-keeping for show."
+level_2: "The Sabbath was made for man, not man for the Sabbath - the Lord of the Sabbath chose healing over empty performance religion."
+level_3: "Skip rigid rule theater when a teammate is stranded - mercy beats quoting your off day policy."
+level_4: "Because legalism turns gift into gauge, binding the bent woman was the real sin, not healing on the Sabbath."
+level_5: "Pair with [[Heart Righteousness]] and [[Secret Devotion]] - refuse piety for applause; rest is gift rhythm that makes room to love the person in front of you."
 examples:
   - "I skipped helping a stranded teammate because it was my off day and felt holy about it - Sabbath for good means mercy beats rigid rule theater."
   - "Family needed me Sunday afternoon and I quoted policy - Jesus freed a daughter of Abraham on the Sabbath because binding her was the real sin."
@@ -63,7 +63,3 @@ cards:
     back: "Mercy beats empty rules."
 draft: false
 ---
-
-
-
-

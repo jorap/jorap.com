@@ -5,13 +5,13 @@ description: "Design life and work around God glory first - not crowd applause, 
 key_concept: |
   {{< bible ref="Matthew 5:14-16" emphasize="16" >}}
   - Good works visible so the Father gets glory - build for His name, not my brand.
-  - Level 1: Do good so people thank God - like sharing lunch so others praise the cook, not clap for you.
-  - Level 2: Build and serve so people see God behind the work - like a sign that points to the source, not your face on the poster.
-  - Level 3: Visible good works aim glory upward - when the crowd applauds you instead of the Father, the design drifted off course.
-  - Level 4: Before you publish or plan, ask whether the work makes the Father visible - not whether it builds your name.
-  - Level 5: [[Seek the Kingdom First]] is the priority filter; [[Love Your Neighbor]] keeps it from becoming selfish spirituality.
   - A calendar built for applause still feels empty on Monday.
   - [[Seek the Kingdom First]] is the priority filter; [[Love Your Neighbor]] keeps it from becoming selfish spirituality.
+level_1: "God-centered design builds and serves so people see God behind the work - good works visible so the Father gets glory, not my brand."
+level_2: "Like a sign that points to the source, not your face on the poster - upward glory when the crowd would applaud you instead."
+level_3: "Before you publish or plan, ask whether the work makes the Father visible - not whether it builds your name."
+level_4: "When visible good works aim glory upward, design drifted off course if people thank you instead of God."
+level_5: "[[Seek the Kingdom First]] is the priority filter; [[Love Your Neighbor]] keeps it from becoming selfish spirituality."
 examples:
   - "The youth event looked great in parent photos but nobody prayed afterward - God-centered design meant cutting one performance block for small groups and Scripture."
   - "My notes garden started chasing traffic instead of clarity - God-centered design was one question before publish: does this help someone know Christ or live like Him, or is it just my brand?"

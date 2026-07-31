@@ -5,14 +5,14 @@ meta_title: "Workplace Principles - Eternal Ethics in Plain Office Language"
 description: "The same ethics as Eternal Principles, in plain office language where religious terms sound awkward."
 key_concept: |
   - One standup-sized claim per note - plain language I can share with a secular team.
-  - Level 1: One short idea per page - like one sentence you could say at morning standup.
-  - Level 2: Each note holds one claim in plain words - no sermon deck, no theology dump on first read.
-  - Level 3: Office register works because secular teammates hear the move before the vocabulary - same ethics, different wrapper.
-  - Level 4: Write the standup line first, then link to gospel depth when you need the full argument.
-  - Level 5: [[Eternal Principles]] in office clothes - one claim per note, wikilink back when the room can hear the source, not when it would drown the move.
   - Meeting-sized examples with wikilink back to gospel depth when I need the full move.
   - The same ethics as Eternal Principles, in plain office language where religious terms sound awkward.
   - Faith stays in the faith cluster; these are the versions I can share with a secular team without watering down the move.
+level_1: "Workplace principles are Eternal Principles ethics in plain office language - one standup-sized claim per note you can share with a secular team."
+level_2: "Each note holds one claim in plain words - no sermon deck, no theology dump on first read; same ethics, different wrapper."
+level_3: "Write the standup line first, then link to gospel depth when you need the full argument - office register works because teammates hear the move before the vocabulary."
+level_4: "Faith stays in the faith cluster; these are versions for secular rooms without watering down the move - meeting-sized examples with wikilink back when the room can hear the source."
+level_5: "[[Eternal Principles]] in office clothes - one claim per note, wikilink back when you need gospel depth, not when it would drown the move."
 shareable_thought:
   - "The same ethics as Eternal Principles, in plain office language where religious terms sound awkward."
   - "One standup-sized claim per note."
@@ -41,7 +41,6 @@ aliases: ["corporate principles", "ethics at work"]
 featured: false
 draft: false
 ---
-
 ## How to treat colleagues
 
 - [[Golden Rule at Work]] - treat people the way you want to be treated in email, reviews, and hallway talk

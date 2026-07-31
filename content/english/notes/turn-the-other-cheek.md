@@ -6,14 +6,14 @@ key_concept: |
   {{< bible ref="Matthew 5:38-42" emphasize="39" >}}
   
   - The point is not passivity toward all evil - it is refusing to become what hurt you.
-  - Level 1: Turning the other cheek does not mean letting evil win - it means you refuse to copy the cruelty that hit you.
-  - Level 2: The point is not passivity toward all evil - it is breaking the cycle instead of becoming what hurt you.
-  - Level 3: Refusing to escalate works like [[Sunk Cost Fallacy]] on anger - stop throwing more rage after sunk hurt.
-  - Level 4: When struck, choose not to return the same cruelty - break the cycle without pretending evil is good.
-  - Level 5: Goes further than [[The Golden Rule]] and pairs with [[Love Your Enemies]] - refuse to become what hurt you, not passive surrender to all evil.
   - Same logic as [[Sunk Cost Fallacy]]: stop throwing more anger after sunk hurt.
   - Goes further than [[The Golden Rule]] (proactive good) and pairs with [[Love Your Enemies]] (heart posture).
   - [[Free Grace]] frees me to absorb cost without keeping score for heaven.
+level_1: "Turn the other cheek means refusing to return the same cruelty when someone hits or insults you - not passive surrender to all evil."
+level_2: "The point is breaking the retaliation cycle instead of becoming what hurt you - not passivity toward all evil."
+level_3: "When struck, choose not to return the same cruelty - neighbor's passive-aggressive note means no rebuttal on the group chat."
+level_4: "Refusing to escalate works like [[Sunk Cost Fallacy]] on anger - stop throwing more rage after sunk hurt; [[Free Grace]] frees me to absorb cost without keeping score for heaven."
+level_5: "Goes further than [[The Golden Rule]] and pairs with [[Love Your Enemies]] - refuse to become what hurt you, not mirror evil back."
 examples:
   - "Neighbor's passive-aggressive note about parking - I did not post a rebuttal on the group chat; stop throwing anger after sunk hurt."
   - "Someone snapped at me in the school pickup line and I spent the drive home drafting the comeback - turning the cheek is not pretending it did not hurt; it is not mirroring evil."
@@ -60,4 +60,3 @@ cards:
     back: "Grace freed me - do not score back."
 draft: false
 ---
-

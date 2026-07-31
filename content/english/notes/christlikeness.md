@@ -6,17 +6,17 @@ key_concept: |
   {{< bible ref="Luke 6:39-40" emphasize="40" >}}
   
   - Fully trained, like the teacher - the aim is not my old default self on display, it is looking more like Jesus over years.
-  - Level 1: Like when you copy how your teacher writes the letter A - the goal is to look more like Jesus over years.
-  - Level 2: A student athlete mirrors the coach's footwork drill after drill - less old selfish habits on display, more of the pattern shown.
-  - Level 3: Christlikeness names who you become - more patience in traffic, less default self on display; faith already settled standing.
-  - Level 4: Apologize slower than you used to snap - ordinary Tuesdays matter more than one emotional Sunday.
-  - Level 5: [[Sanctification]] is the slow process; [[Abide in Me]] is the engine; [[Fruits of the Spirit]] hub is what people notice - you do not manufacture Christlikeness to buy [[Justification]] faith already settled.
   - [[Free Grace]] settles where I spend forever.
   - Christlikeness names who I become - more of His patience in traffic, more of His gentleness at dinner, less of my default self on display.
   - [[Sanctification]] is the slow process, [[Discipleship]] is the daily walk, [[Abide in Me]] is the engine, [[Fruits of the Spirit]] hub is what people notice when the walk is real.
   - Romans 8:29 names the aim - God conforms me to the image of His Son.
   - I do not manufacture Christlikeness to earn standing - [[Justification]] already settled that.
   - PKM mirror: [[God Centered Design]] - build the week toward His likeness, not applause.
+level_1: "Christlikeness is becoming more like Jesus over years - less default self on display, more of His pattern in ordinary life."
+level_2: "Like copying how a teacher writes the letter A - a student mirrors the coach's footwork drill after drill."
+level_3: "Apologize slower than you used to snap - ordinary Tuesdays matter more than one emotional Sunday."
+level_4: "Faith already settled standing under [[Free Grace]] - Christlikeness names who you become, not what you buy."
+level_5: "[[Sanctification]] is the slow process; [[Abide in Me]] is the engine; [[Fruits of the Spirit]] hub is what people notice - you do not manufacture Christlikeness to buy [[Justification]]."
 examples:
   - "I lost my temper at dinner and apologized slower than I used to snap - Christlikeness is slow; faith settled standing, and God still reshapes me."
   - "I performed kindness at church and was sharp with the cashier an hour later - Christlikeness is not a badge from one emotional Sunday, it is looking more like Jesus on ordinary Tuesdays."
@@ -96,6 +96,3 @@ cards:
     back: "Today - grow from faith already received."
 draft: false
 ---
-
-
-

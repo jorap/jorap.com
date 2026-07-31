@@ -6,12 +6,7 @@ key_concept: |
   {{< bible ref="John 8:31-32" emphasize="32" >}}
   
   - Stay in His word and you are His disciple - truth frees the mind culture tried to lock in hurry and outrage.
-  - Level 1: Keep reading what Jesus taught and your thinking starts to change - truth loosens hurry and anger the world pushes on you.
-  - Level 2: Keep reading and obeying what Jesus taught and your thinking starts to change - truth loosens the grip of hurry and anger that the world pushes on you.
-  - Level 3: Stay in His word to be His disciple - culture's default is hurry and outrage; Scripture retrains judgment.
-  - Level 4: Because unrenewed minds run borrowed scripts, truth frees what conformity locked - renewal follows mercy, it does not purchase standing.
-  - Level 5: Stay in His word and you are His disciple - truth frees the mind culture tried to lock in hurry and outrage; pairs with [[Sanctification]], not [[Justification]] payment.
-
+  
   {{< bible ref="Romans 12:1-2" emphasize="2" >}}
   
   - Mercy first, then sacrifice, then a mind being renewed - Paul stacks the order I keep swapping.
@@ -23,6 +18,11 @@ key_concept: |
   - PKM mirror: [[Information Diet]] curates feeds; renewed mind goes deeper - Scripture and prayer reshape judgment, not just block noise.
   - do not copy the world's default thinking.
   - Let Scripture reshape how I see, choose, and obey.
+level_1: "A renewed mind is thinking reshaped by Scripture instead of running the world's default scripts."
+level_2: "Culture pushes hurry and outrage; staying in His word retrains how you see, choose, and obey."
+level_3: "Open the Bible before the group chat when patience fails at dinner - renewal follows mercy, it does not purchase standing."
+level_4: "Because unrenewed minds run borrowed scripts, truth frees what conformity locked - pairs with [[Sanctification]], not [[Justification]] payment."
+level_5: "Curate an [[Information Diet]] upstream and dwell in His words downstream - build judgment that culture cannot overwrite in one outrage cycle."
 examples:
   - "I knew the verse on patience and still snapped at dinner - my standing was settled at faith, but my mind was still running the world's hurry-and-react script until I opened the Bible before the group chat."
   - "The point guard kept forcing hero shots after film study showed the open man - same data, old habit loop; renewal is reps that bend the default, not one inspirational speech."
@@ -168,7 +168,3 @@ cards:
     back: "Faith at justification - renewal grows after."
 draft: false
 ---
-
-
-
-

@@ -4,14 +4,14 @@ meta_title: "Metadata Strategy - Tags Without Taxonomy Hell"
 description: "If tagging a note takes longer than writing it, the system is fighting the writer."
 key_concept: |
   - Tags, categories, dates, aliases - metadata should help me find notes, not become a second job.
-  - Level 1: Tags and dates should help you find a note fast - like labels on boxes in the attic, not a second full-time job sorting every scrap.
-  - Level 2: Metadata earns its keep when search takes ten seconds - light tags beat taxonomy you never maintain.
-  - Level 3: Tags, categories, dates, and aliases exist to find notes - when tagging takes longer than writing, the system fights you.
-  - Level 4: Cap active tags at five you would actually pick - frontmatter is publish metadata; the body is the writing.
-  - Level 5: [[PARA Method]] buckets plus light aliases beat [[Building a Personal API]] complexity - YAML breaks the build, Markdown typos rarely do.
   - Metadata earns its keep when I can find the note in ten seconds.
   - Light tags and aliases beat taxonomy hell inside PARA buckets.
   - Frontmatter is publish metadata; the body is the writing - YAML breaks the build, Markdown typos rarely do.
+level_1: "Metadata strategy means tags, categories, dates, and aliases exist to find notes fast, not to become a second full-time job."
+level_2: "Like labels on boxes in the attic, light tags beat taxonomy you never maintain - metadata earns its keep when search takes ten seconds."
+level_3: "Cap active tags at five you would actually pick - if tagging takes longer than writing, the system fights you."
+level_4: "Frontmatter is publish metadata; the body is the writing - YAML breaks the build, Markdown typos rarely do."
+level_5: "[[PARA Method]] buckets plus light aliases beat [[Building a Personal API]] complexity when findability is the goal."
 examples:
   - "I tagged every note with twelve labels and used none on search - cut to five I would actually pick."
   - "The team wiki had forty categories; new hires filed everything under Misc within a week."

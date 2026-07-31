@@ -4,13 +4,13 @@ meta_title: "Local-first Software for Notes"
 description: "Local-first means the device holds the truth; sync is optional icing - backup should behave the same way."
 key_concept: |
   - Truth lives on the device first; cloud sync is backup, not the vault.
-  - Level 1: Your phone or computer holds the real copy first - like keeping your diary in your room and photocopying it for backup, not storing the only copy at school.
-  - Level 2: Local-first means your device owns the master file - online sync copies changes, it does not replace your copy.
-  - Level 3: Local-first software keeps truth on the device and treats cloud sync as redundancy - if the service vanishes, your notes survive.
-  - Level 4: Pick tools that work offline with full features - sync is insurance, not the vault you would crawl to after an outage.
-  - Level 5: [[Building a Personal API]] and [[Digital Minimalism]] both assume you can read and write without begging a server - cloud-only stacks fail when the tenant changes the rules.
   - Choose what is public, what stays private, and what gets encrypted before it leaves the room.
   - Sync should merge edits without picking last-write-wins by clock alone.
+level_1: "Local-first software keeps the master copy on your device and treats cloud sync as backup, not the vault."
+level_2: "Like keeping your diary in your room and photocopying it for safety, your phone or computer owns the real file first."
+level_3: "Pick tools that work offline with full features - sync is insurance, not the place you crawl to after an outage."
+level_4: "If the service vanishes, your notes survive on the device - cloud-only stacks fail when the tenant changes the rules."
+level_5: "[[Building a Personal API]] and [[Digital Minimalism]] both assume you can read and write without begging a server."
 examples:
   - "If the phone dies mid-grocery run, the list on the fridge still works."
   - "Grandma's recipe cards live in the kitchen drawer - not an app that might vanish."
@@ -54,4 +54,3 @@ cards:
     back: "Local master copy - export before the vendor dies."
 draft: false
 ---
-

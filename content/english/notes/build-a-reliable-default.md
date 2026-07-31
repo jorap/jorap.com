@@ -4,13 +4,13 @@ meta_title: "Build a Reliable Default - What You Do When There's No Time"
 description: "A reliable default is the simple rehearsed move that runs when thinking is thin."
 key_concept: |
   - Build it before the crisis, not during it - a default assembled mid-emergency is not a default.
-  - Level 1: Like when fire drills happen before there is smoke - you know the exit path before panic hits.
-  - Level 2: A pilot rehearses emergency steps on the ground - the default runs when thinking goes thin mid-crisis.
-  - Level 3: A reliable default is built before the crisis - a plan assembled mid-emergency is improvisation, not a default you can trust.
-  - Level 4: Write one laminated triage sheet and tape it by the phone - one script beats improvising when three walk-ins arrive at once.
-  - Level 5: Pairs with [[Composure]] when the clock is loud - the rehearsed move runs when panic would otherwise pick a fresh bad option every time.
   - The rehearsed move beats improvising when the clock is loud.
   - Pick a good default once - stop reopening the question every project.
+level_1: "A reliable default is a rehearsed response built before the crisis - not a plan assembled mid-emergency."
+level_2: "Like fire drills before smoke - a pilot rehearses emergency steps on the ground so thinking goes thin mid-crisis."
+level_3: "Write one laminated triage sheet and tape it by the phone - one script beats improvising when three walk-ins arrive at once."
+level_4: "A default assembled mid-emergency is improvisation you cannot trust - build it when calm, run it when loud."
+level_5: "Pairs with [[Composure]] when the clock is loud - the rehearsed move runs when panic would pick a fresh bad option every time."
 examples:
   - "The clinic front desk runs the laminated triage sheet taped by the phone when three walk-ins arrive - one script, no guessing."
   - "Our family fire plan is one fridge page: two exits, meeting spot, who grabs the baby - last blackout, my kid ran it half-asleep."

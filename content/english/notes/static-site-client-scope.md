@@ -4,11 +4,6 @@ meta_title: "Static Site Client Scope - What Fits the Static Stack"
 description: "Static sites fit text and images on git push - not live databases or mystery WordPress admins."
 key_concept: |
   - Scope the sales call before I quote Selling Static Sites - say no to bad fits in the room, not after deposit.
-  - Level 1: Decide what kind of website job fits before you name a price - say no face to face, not after deposit.
-  - Level 2: Scope the sales conversation before you quote - filter bad fits in the room while you still have leverage to walk away.
-  - Level 3: Client scope works because saying no early saves deposit fights, scope creep, and builds you cannot maintain on static hosting.
-  - Level 4: Run the good-fit and bad-fit checklist on the first call - quote only jobs that match Selling Static Sites constraints.
-  - Level 5: Good fits and bad fits belong in the sales call, not after deposit - [[Plain Commitments at Work]] says say no in the room; [[Outcomes Over Pitch Decks]] picks by fruit.
   - **Good fits:** portfolio, org brochure, small business presence, project docs, blog where owner learns Git or pays retainer.
   - **Bad fits:** e-commerce you host, member login, booking engines, five daily non-technical editors with no retainer.
   - Redirect honestly to Shopify, WordPress, or a dynamic stack.
@@ -23,6 +18,11 @@ key_concept: |
   - [[Git-Based CMS]] when buttons beat terminal.
   - Seasonal pages, external embeds (donate link, Formspree, Calendly) - site stays static, tool carries the dynamic part.
   - [[Minimum Effective Dose]]: smallest site that solves the job - do not force Hugo where WordPress was honest.
+level_1: "Static site client scope is deciding which website jobs fit the static stack before you name a price."
+level_2: "Text and images on git push fit; live databases, member login, and five daily non-technical editors without retainer do not."
+level_3: "Ask who updates content and how often on the first sales call - two or more dynamic yes answers means not this stack."
+level_4: "Because saying no after deposit wastes leverage, filter bad fits in the room while you can still walk away."
+level_5: "Redirect honestly to Shopify or WordPress when needed - [[Plain Commitments at Work]] says no face to face; [[Outcomes Over Pitch Decks]] picks by fruit."
 examples:
   - "Cafe owner wanted online ordering - out of scope; menu page plus link to existing delivery app."
   - "Gym wanted class schedule from booking SaaS - embed the vendor widget; static shell around it was fine."
@@ -81,4 +81,3 @@ cards:
     back: "Written scope - change order or cut."
 draft: false
 ---
-

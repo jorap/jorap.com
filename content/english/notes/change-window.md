@@ -4,15 +4,15 @@ meta_title: "Change Window - Schedule Risky Changes When Rollback Help Is Awake"
 description: "Risky changes ship when someone awake can roll back, not Friday night when everyone is offline."
 key_concept: |
   - Rollback Principle fails when rollback owners sleep or attend a wedding.
-  - Level 1: Like when you fix the roof on a sunny Tuesday - not Friday night when nobody can help if it leaks worse.
-  - Level 2: Rollback fails when rollback owners sleep or attend a wedding - match risky updates to when someone awake can undo them.
-  - Level 3: A change window is boring calendar hygiene - deploy Tuesday morning, freeze before holidays, keep the old build one click away.
-  - Level 4: Stop Friday-night client deploys - Tuesday standup owns rollback if the release goes loud.
-  - Level 5: Not fear of shipping - PKM parallel: [[Maintenance Window]] schedules garden prune; change window schedules production risk when [[Rollback Principle]] needs awake hands.
   - A change window is boring calendar hygiene: deploy Tuesday morning, freeze before holidays, keep the old build one click away.
   - Not fear of shipping - matching risk to coverage.
   - PKM parallel: [[Maintenance Window]] schedules garden prune; change window schedules production risk.
   - I ship risky changes when someone awake can roll back, not Friday night when everyone's offline.
+level_1: "A change window is scheduled time for risky updates when someone awake can undo them - boring calendar hygiene, not fear of shipping."
+level_2: "Like fixing the roof on a sunny Tuesday - rollback fails when rollback owners sleep or attend a wedding."
+level_3: "Stop Friday-night client deploys - deploy Tuesday morning, freeze before holidays, keep the old build one click away."
+level_4: "Match risky updates to when [[Rollback Principle]] needs awake hands - not Friday night when nobody can help if it leaks worse."
+level_5: "PKM parallel: [[Maintenance Window]] schedules garden prune; change window schedules production risk when revert must be immediate."
 examples:
   - "We stopped Friday-night client deploys after the bad release - Tuesday standup owns rollback if it goes loud."
   - "Wedding weekend freeze: marketing edits queue, no Hugo version bumps until Monday."
@@ -65,5 +65,3 @@ cards:
     back: "Teach revert before the risky push."
 draft: false
 ---
-
-

@@ -4,13 +4,13 @@ meta_title: "Daily Notes - Low-Stakes Logs That Compound"
 description: "Today's scratch pad for fragments - promote what repeats, let the rest fade."
 key_concept: |
   - Fragments belong on today's scratch pad - not in a diary built to last.
-  - Level 1: Like when you scribble on today's sticky pad - only ideas that come back earn a real page in the notebook.
-  - Level 2: Quick toss-offs live on today's scratch page; by Friday most fade unless one line keeps showing up and gets promoted.
-  - Level 3: Fragments belong on today's scratch pad, not in a diary built to last - fleeting by default with quick buffer flushes between tasks.
-  - Level 4: Pocket slip for pick up shoes and call coach back - promote one line to a real note when it repeats three times.
-  - Level 5: Pairs with [[Capture]] on the inbox side - daily notes are buffer, not archive; permanent wikilinks earn their place only after repetition proves the idea survived the week.
   - Fleeting by default, with quick buffer flushes between tasks.
   - Promote a repeating fragment to a real note; let the rest fade.
+level_1: "Daily notes are today's scratch pad for fleeting fragments - promote what repeats, let the rest fade by Friday."
+level_2: "Quick toss-offs live on today's scratch page - like scribbling on today's sticky pad where only ideas that come back earn a real page."
+level_3: "Pocket slip for pick up shoes and call coach back - promote one line to a real note when it repeats three times."
+level_4: "Pairs with [[Capture]] on the inbox side - daily notes are buffer, not archive; permanent wikilinks earn their place only after repetition proves the idea survived the week."
+level_5: "You run a weekly flush between tasks - fragments that keep returning graduate to evergreen; the rest vanish without guilt."
 examples:
   - "Today's pocket slip is just fragments - pick up basketball shoes, ice after practice, call coach back - I promote one line to a real note when it repeats."
   - "My work daily note today is three fragments - I almost filed the lunch idea as a permanent wiki page before remembering only repeats earn a real note; the rest fades by Friday."
@@ -54,5 +54,3 @@ cards:
     back: "Daily note first - triage at home."
 draft: false
 ---
-
-

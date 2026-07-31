@@ -4,14 +4,14 @@ meta_title: "Confess to One Another - Honest Sin Brings Healing"
 description: "James calls believers to confess sins to each other - hidden failure rots; spoken failure finds prayer and repair."
 key_concept: |
   {{< bible ref="James 5:16" emphasize="16" >}}
-
+  
   - Sin grows in the dark - confession to a trusted believer invites prayer and healing, not performance religion.
-  - Level 1: Like telling the coach about the bad habit before game film exposes it - honesty is how the fix starts.
-  - Level 2: James pairs confession with prayer for one another - the goal is healing fellowship, not gossip fuel.
-  - Level 3: [[Standing vs Fellowship]] holds the line - salvation stays settled while fellowship gets repaired through confession.
-  - Level 4: Under [[Free Grace]], I confess because I am already His - not to re-earn standing I never lost.
-  - Level 5: [[Surface Bad News Early]] is the workplace echo - same honesty before the miss becomes a crater.
   - [[Forgiveness]] toward others and vertical confession both unblock closeness with God and people.
+level_1: "James 5:16 calls believers to confess sins to one another and pray for each other - you can name what mutual confession is."
+level_2: "Hidden sin grows in the dark; spoken failure invites prayer and healing fellowship - like telling the coach about the bad habit before game film exposes it."
+level_3: "Tell your accountability brother about the anger streak before it eats the marriage - confession is prayer that night, not a shame podcast."
+level_4: "Under [[Free Grace]], I confess because I am already His - [[Standing vs Fellowship]] holds the line while fellowship gets repaired, not to re-earn standing I never lost."
+level_5: "[[Surface Bad News Early]] is the workplace echo - you surface the miss before it becomes a crater, same honesty move in a different room."
 examples:
   - "I told my accountability brother about the anger streak before it ate the marriage - James confession was prayer that night, not a shame podcast."
   - "Hidden bitterness toward a teammate poisoned every huddle - one honest coffee confession cleared air the silent grudge never would."

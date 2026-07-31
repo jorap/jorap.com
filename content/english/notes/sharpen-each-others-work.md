@@ -4,12 +4,12 @@ meta_title: "Sharpen Each Other's Work - Peer Review That Helps"
 description: "Peer review should make the draft better - friction with care, not performance theater or silent approval."
 key_concept: |
   - Dull work stays dull when nobody pushes - sharpening is peer review that improves the artifact, not the ego scoreboard.
-  - Level 1: Like a training partner calling out foot placement - friction on the move, not insults from the bleachers.
-  - Level 2: Sharpening review names what is weak and what would fix it - same session, same respect.
-  - Level 3: [[Iron Sharpens Iron]] is the faith name - Proverbs friction between people who want each other sharper.
-  - Level 4: [[Deliberate Practice]] needs outside eyes; sharpening review is one scheduled pass before ship.
-  - Level 5: [[Give Useful Feedback]] is the delivery skill - sharpening fails when the tone eats the truth.
   - [[Drafting in Public]] invites sharpening early when [[Rollback Principle]] is still cheap.
+level_1: "Sharpening each other's work is peer review that improves the artifact - friction with care, not the ego scoreboard."
+level_2: "Like a training partner calling out foot placement - name what is weak and what would fix it in the same session."
+level_3: "Mark three vague paragraphs before publish - ten minutes of friction saves an hour of reader confusion."
+level_4: "[[Deliberate Practice]] needs outside eyes; [[Iron Sharpens Iron]] is the faith name for Proverbs friction between people who want each other sharper."
+level_5: "Deliver through [[Give Useful Feedback]] - sharpening fails when the tone eats the truth; invite early when [[Drafting in Public]] and [[Rollback Principle]] are still cheap."
 examples:
   - "Teammate marked three vague paragraphs before publish - ten minutes of friction saved an hour of reader confusion."
   - "Code review caught the env var gap before Friday deploy - iron sharpening was the comment thread, not a blame DM."

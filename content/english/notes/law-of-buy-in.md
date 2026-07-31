@@ -4,9 +4,6 @@ meta_title: "The Law of Buy-In - People buy into the leader, then the vision"
 description: "People buy into the leader, then the vision."
 key_concept: |
   - People buy the leader before the vision - trust the guide, then the map.
-  - Level 1: Gideon's trimmed army still followed his jar-and-torch plan - buy-in to him, then the tactic.
-  - Level 2: Nehemiah wept, prayed, then asked the king. Hebrews: fix eyes on Christ, do not harden hearts.
-  - Level 3: Vision without trusted leader is a poster; leader without vision is a stroll.
   - Hub: [[21 Laws of Leadership in the Bible]] - lesson 14 of twenty-one Bible laws; horizontal frame in [[Leadership]].
   
   {{< bible ref="Judges 7:2-25" >}}
@@ -15,14 +12,19 @@ key_concept: |
   - **Buying into a Bold Vision** - Cupbearer's grief earned royal favor - then Jerusalem's wall vision landed.
   {{< bible ref="Hebrews 3:1-15" >}}
   - **Remaining Confident in Christ** - Fix eyes on Christ - do not harden hearts like the wilderness generation.
+level_1: "The law of buy-in is that people trust the leader before the vision - buy the guide, then the map."
+level_2: "Gideon's trimmed army followed his jar-and-torch plan - buy-in to him, then the tactic; Nehemiah wept and prayed before he asked the king."
+level_3: "Share the plan only after people have seen you carry load - trust the leader before the slide deck lands in the room."
+level_4: "Vision without trusted leader is a poster; leader without vision is a stroll - buy-in to Christ keeps hearts from hardening like the wilderness generation."
+level_5: "[[Law of Connection]] earns the heart; [[Leadership Is Influence]] measures whether anyone followed after the pitch."
 examples:
   - "The reorg failed until they trusted the new director - buy-in to her, then the roadmap."
   - "Nehemiah's face showed grief before his mouth asked for leave - leader first, blueprint second."
 shareable_thought:
   - "People buy into the leader, then the vision."
   - "People buy the leader before the vision - trust the guide, then the map."
-  - "Level 1: Gideon's trimmed army still followed his jar-and-torch plan - buy-in to him, then the tactic."
-  - "Level 2: Nehemiah wept, prayed, then asked the king. Hebrews: fix eyes on Christ, do not harden hearts."
+  - "The law of buy-in is that people trust the leader before the vision - buy the guide, then the map."
+  - "Gideon's trimmed army followed his jar-and-torch plan - buy-in to him, then the tactic; Nehemiah wept and prayed before he asked the king."
 relationships:
   - type: contradicts
     wikilink: "[[Discipleship vs Leadership]]"

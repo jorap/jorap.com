@@ -6,16 +6,16 @@ key_concept: |
   {{< bible ref="Matthew 6:14-15" emphasize="15" >}}
   
   - Forgive others or the Father will not forgive you - daily rhythm, not a one-time sermon nod.
-  - Level 1: Clear the slate each morning instead of a list in your pocket - forgive others like you want God to.
-  - Level 2: Forgiveness is like rinsing a dish before reuse - daily rhythm, not a one-time nod when the sermon felt moving.
-  - Level 3: Because forgiveness extends grace already received, refusing to forgive exposes a heart out of step with the gift already given.
-  - Level 4: Forgive one person today before you ask God to forgive you tonight - stop counting how many times you were wronged.
-  - Level 5: Seventy times seven ends the count - extend grace received instead of keeping a running debt list; the unforgiving servant parable makes the [[Free Grace]] math plain.
   - Forgiveness extends the forgiveness already received, not ledger-keeping on debts Christ cleared.
   - Forgive others or the Father will not forgive you - daily rhythm, not a one-time sermon nod.
   - The unforgiving servant - king forgave an unpayable debt; refusing a small debt exposed a heart out of step.
   - Seventy times seven ends ledger-keeping - stop counting how many times you have been wronged.
   - The unforgiving servant parable makes the math plain: the king forgave an unpayable debt picture of [[Free Grace]] already given.
+level_1: "Forgiveness clears the slate with others each day - forgive as you want the Father to forgive you."
+level_2: "Like rinsing a dish before reuse - daily rhythm, not a one-time nod when the sermon felt moving."
+level_3: "Forgive one person today before you ask God to forgive you tonight - stop counting how many times you were wronged."
+level_4: "Because forgiveness extends grace already received, refusing to forgive exposes a heart out of step with the gift."
+level_5: "Seventy times seven ends the count - extend grace received instead of keeping a running debt list; the unforgiving servant parable makes the [[Free Grace]] math plain."
 examples:
   - "My kid hurt my feelings at breakfast and I said it is fine while nursing the grudge - forgiveness is releasing the debt, not pretending it did not matter."
   - "I prayed about forgiving others on autopilot and skipped that line because I am still mad at my brother from last Sunday - you cannot ask for mercy with one breath and hold a grudge with the next."
@@ -74,11 +74,3 @@ cards:
     back: "Forgive - release the small debt."
 draft: false
 ---
-
-
-
-
-
-
-
-

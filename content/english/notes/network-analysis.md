@@ -4,16 +4,16 @@ meta_title: "Network Analysis"
 description: "Look at which notes connect everything else - those hubs show where the garden actually lives."
 key_concept: |
   - Study links and hubs in a graph - who connects whom, what is isolated.
-  - Level 1: Look at which notes link to many others and which sit alone - like seeing which kids know everyone at recess and which stand by the fence.
-  - Level 2: Network analysis reads the graph for hubs, bridges, and orphans - who connects whom, what sits isolated.
-  - Level 3: Bridges and orphans matter more than node count - traffic carriers and stranded notes tell you where to maintain.
-  - Level 4: Open the graph view, list the top three hubs and three orphans - fix orphans before you add more nodes.
-  - Level 5: [[Linking by Meaning]] builds the graph; [[Maps of Content]] wins when a hand hub beats metrics - analysis finds maintenance targets, not vanity counts.
   - Bridges and orphans matter more than node count - the graph shows who carries traffic and what is stranded.
   - [[Linking by Meaning]] builds the graph; [[Maps of Content]] wins when a hand hub beats metrics.
   - Those hubs tell me where the garden actually lives.
   - Network analysis means studying links and hubs in the graph - who connects whom, what is isolated.
   - Network analysis shows who connects whom in the graph - and which notes sit isolated without links.
+level_1: "Network analysis reads a note graph for hubs, bridges, and orphans - who connects whom and what sits isolated."
+level_2: "Like seeing which kids know everyone at recess and which stand by the fence, bridges and orphans matter more than node count."
+level_3: "Open the graph view, list the top three hubs and three orphans - fix orphans before you add more nodes."
+level_4: "Traffic carriers and stranded notes tell you where to maintain - the graph shows who carries links and what is forgotten without folder memory."
+level_5: "[[Linking by Meaning]] builds the graph; [[Maps of Content]] wins when a hand hub beats metrics - analysis finds maintenance targets, not vanity counts."
 examples:
   - "The playbook diagram showed one motion offense linking twelve other sets - that was the doorway I would simplify first."
   - "The chore chart showed one kid linking every task - that is the bottleneck we fixed first."
@@ -56,5 +56,3 @@ cards:
     back: "Link it to three parents - or archive."
 draft: false
 ---
-
-

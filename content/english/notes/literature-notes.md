@@ -4,13 +4,13 @@ meta_title: "Literature Notes"
 description: "After reading a source, write what stuck in your own words - not a pile of copied highlights."
 key_concept: |
   - A highlight dump is not thinking - the author's idea has to pass through my words first.
-  - Level 1: Write what the book meant to you in your own words - like telling a friend the story in your voice, not reading every highlighted line back to them.
-  - Level 2: Literature notes capture your take on a source - what it argued and what you think - not a paste of every yellow mark.
-  - Level 3: Literature notes sit between reading and evergreen writing - they translate the author into your vocabulary before you link ideas.
-  - Level 4: After you read, write one page in your words - if it reads like the highlight reel, you captured the book, not your thinking.
-  - Level 5: [[Atomic Notes]] grow from literature notes when one claim earns its own page - [[Layered Reading]] feeds the stack without a highlight dump.
   - Source notes stay tied to the book or talk - your atoms link out, not the other way around.
   - [[Atomic Notes]] are your claims; literature notes hold the source.
+level_1: "Literature notes capture your take on a source in your own words - what it argued and what you think, not pasted highlights."
+level_2: "Like telling a friend the story in your voice instead of reading every yellow mark back to them, the author's idea passes through you first."
+level_3: "After you read, write one page in your words - if it reads like the highlight reel, you captured the book, not your thinking."
+level_4: "Literature notes sit between reading and evergreen writing - they translate the author into your vocabulary before you link ideas."
+level_5: "[[Atomic Notes]] grow from literature notes when one claim earns its own page - [[Layered Reading]] feeds the stack without a highlight dump."
 examples:
   - "I wrote one paragraph on the coach's chapter about zone defense, not yellow highlights on every page."
   - "The PTA recap was what I actually remembered from the meeting, not a transcript of every speaker."
@@ -59,5 +59,3 @@ cards:
     back: "One literature note - idea in my phrasing."
 draft: false
 ---
-
-

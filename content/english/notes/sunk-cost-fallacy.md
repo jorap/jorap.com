@@ -4,13 +4,13 @@ meta_title: "Sunk Cost Fallacy - Past Effort Isn't a Reason to Continue"
 description: "Drop the bad tool or project when it stops earning its place - past effort is gone either way."
 key_concept: |
   - I ask: if I found this today, would I start it?
-  - Level 1: Ask yourself: if you just found this project today, would you actually start it now?
-  - Level 2: Past time and money already spent should not force future spending - the question is whether you would start fresh today.
-  - Level 3: Sunk costs distort decisions because loss feels louder than opportunity - the fallacy keeps you funding what you would not choose anew.
-  - Level 4: Run the fresh-start test before the next deposit of time or money - if not today, cut or redesign.
-  - Level 5: [[Forgiveness]] runs the same play on relational debt; [[Turn the Other Cheek]] adds stopping more anger after sunk hurt.
   - [[Forgiveness]] runs the same play on relational debt.
   - [[Turn the Other Cheek]] adds the move: stop throwing more anger after sunk hurt.
+level_1: "The sunk cost fallacy is keeping a project or tool because you already spent time or money on it - not because it still earns its place."
+level_2: "Past effort is gone either way - the real question is whether you would start fresh today, not whether you already paid the install fee."
+level_3: "Run the fresh-start test before the next deposit of time or money - if you would not choose it today, cut or redesign."
+level_4: "Loss feels louder than opportunity, so the fallacy distorts decisions - [[Behavioral Economics]] names the bias cluster this trap belongs to."
+level_5: "[[Forgiveness]] runs the same play on relational debt; [[Turn the Other Cheek]] adds stopping more anger after sunk hurt."
 examples:
   - "I kept running a set play that lost four straight because we would drilled it all preseason - sunk cost is asking whether I keep it because it cost time, not because it still works."
   - "The shop kept the broken POS because they would paid the install fee - forward question only: would I buy this system fresh today?"
@@ -60,4 +60,3 @@ cards:
     back: "Stop - sunk time is gone."
 draft: false
 ---
-

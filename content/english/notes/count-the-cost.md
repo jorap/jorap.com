@@ -6,12 +6,12 @@ key_concept: |
   {{< bible ref="Luke 14:28-30" emphasize="28" >}}
   
   - Following Christ is worth it - and Jesus refused bait-and-switch math; count the cost before you claim the tower is half built.
-  - Level 1: Like checking if you have enough bricks before pouring the foundation - starting without a plan embarrasses everyone when the wall stops mid-air.
-  - Level 2: Counting cost means naming what obedience will actually cost this season - time, reputation, comfort - not pretending it is free.
-  - Level 3: Under [[Free Grace]], the gift of eternal life is free - the cost Jesus names is discipleship weight, not a price tag on heaven.
-  - Level 4: [[Take Up Your Cross]] is the daily lane; counting cost is the honest spreadsheet before you swear allegiance on stage.
-  - Level 5: [[Fail on Paper First]] is the garden echo - same move before deploy, before vows, before the public yes.
   - [[Discipleship]] without cost honesty breeds quitters who thought faith was a mood.
+level_1: "Count the cost is naming what obedience will actually cost this season - time, reputation, comfort - before you swear allegiance."
+level_2: "Jesus told builders to estimate before breaking ground - like checking if you have enough bricks before the wall stops mid-air."
+level_3: "Under [[Free Grace]], the gift of eternal life is free - the cost Jesus names is discipleship weight, not a price tag on heaven."
+level_4: "[[Take Up Your Cross]] is the daily lane; counting cost is the honest spreadsheet before you swear allegiance on stage."
+level_5: "[[Fail on Paper First]] is the garden echo - same move before deploy, before vows, before the public yes."
 examples:
   - "I said yes to leading small group without counting Thursday nights against travel season - Jesus' builder image was me stopping mid-wall in March."
   - "The kid who wanted to follow everywhere until he heard no spare bed - Luke 14 cost counting is love that refuses fake sales pitches."

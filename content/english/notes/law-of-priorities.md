@@ -4,9 +4,6 @@ meta_title: "The Law of Priorities - Leaders understand that activity is not nec
 description: "Leaders understand that activity is not necessarily accomplishment."
 key_concept: |
   - Busy is not fruitful - leaders sort what matters from what merely moves.
-  - Level 1: Jesus named heart over hand-washing theater - priority was inner cleanliness.
-  - Level 2: Mary chose the good portion; Martha hustled plates. Apostles appointed servers so word ministry stayed central.
-  - Level 3: [[Seek the Kingdom First]] is the faith filter - kingdom before inbox.
   - Hub: [[21 Laws of Leadership in the Bible]] - lesson 17 of twenty-one Bible laws; horizontal frame in [[Leadership]].
   
   {{< bible ref="Matthew 15:1-20" >}}
@@ -15,14 +12,19 @@ key_concept: |
   - **Two Sisters - Two Perspectives** - Mary sat at Jesus' feet - good portion chosen over kitchen frenzy.
   {{< bible ref="Acts 6:1-7" >}}
   - **Acts 6 - Tables Served, Word Ministry Central** - Seven appointed to tables so [[Invest in the Few]] stayed on prayer and word.
+level_1: "The law of priorities is that activity is not accomplishment - leaders sort what matters from what merely moves."
+level_2: "Mary chose the good portion; Martha hustled plates; apostles appointed servers so word ministry stayed central."
+level_3: "List today's top three before you open the inbox - kingdom work gets numbered first, not last."
+level_4: "[[Seek the Kingdom First]] is the faith filter - busy hand-washing theater does not replace inner cleanliness Jesus named in Matthew 15."
+level_5: "[[Priorities Before the Inbox]] and [[Signal vs Noise]] are the workplace filter Acts 6 and Mary already named."
 examples:
   - "I answered fifty Slack pings and never touched the sermon draft - activity masqueraded as accomplishment."
   - "Martha's kitchen was loud; Mary's chair was the priority Jesus named."
 shareable_thought:
   - "Leaders understand that activity is not necessarily accomplishment."
   - "Busy is not fruitful - leaders sort what matters from what merely moves."
-  - "Level 1: Jesus named heart over hand-washing theater - priority was inner cleanliness."
-  - "Level 2: Mary chose the good portion; Martha hustled plates. Apostles appointed servers so word ministry stayed central."
+  - "The law of priorities is that activity is not accomplishment - leaders sort what matters from what merely moves."
+  - "Mary chose the good portion; Martha hustled plates; apostles appointed servers so word ministry stayed central."
 relationships:
   - type: contradicts
     wikilink: "[[Discipleship vs Leadership]]"

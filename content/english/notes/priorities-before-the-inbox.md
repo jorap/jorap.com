@@ -4,16 +4,16 @@ meta_title: "Priorities Before the Inbox - Real Work First"
 description: "Put the real priority first before email, Slack, and everyone else's urgency rewrite the morning."
 key_concept: |
   - Put the real priority first - one protected block before the inbox rewrites the morning.
-  - Level 1: Do your most important task before you open email - like eating breakfast before the phone starts buzzing.
-  - Level 2: Do your most important task in a protected block of time before you open email and let other people's requests take over your morning.
-  - Level 3: One locked block for the real priority - inbox and pings wait until the aim gets its first honest minutes.
-  - Level 4: Because reactive mornings rewrite the day, sequence matters - my work before their urgency, not vice versa.
-  - Level 5: Put the real priority first - one protected block before the inbox rewrites the morning; the test is what actually gets my first ten minutes.
   - The inbox is other people's priorities wearing a siren.
   - One block on the actual deliverable - spec, hard conversation, [[Deep Work]] - before I answer pings.
   - Gospel source: [[Seek the Kingdom First]].
   - PKM parallel: [[Signal vs Noise]].
   - Priorities before the inbox means one protected block on the actual deliverable - email can wait its turn.
+level_1: "Priorities before the inbox means doing your most important task in a protected block before opening email or Slack."
+level_2: "Like eating breakfast before the phone starts buzzing - one locked block for the real deliverable before pings rewrite the morning."
+level_3: "Write the first page of the report before opening Slack - game film due Friday gets cut before every parent group chat ping."
+level_4: "Because reactive mornings rewrite the day, sequence matters - my work before their urgency, not vice versa."
+level_5: "[[Deep Work]] and [[Seek the Kingdom First]] name the same guardrail - [[Signal vs Noise]] filters what earns attention after the block."
 examples:
   - "Game film due Friday - I cut it before answering every parent group chat ping."
   - "The report was due at noon - I wrote the first page before opening Slack."
@@ -66,7 +66,3 @@ cards:
     back: "Priority before inbox - open what matters."
 draft: false
 ---
-
-
-
-

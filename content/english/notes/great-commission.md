@@ -5,14 +5,14 @@ description: "Jesus sends believers to go, baptize, and teach obedience under Hi
 key_concept: |
   {{< bible ref="Matthew 28:19-20" emphasize="20" >}}
   - Go, baptize, teach obedience - Christ's authority and presence to the end of the age, not recruitment zeal.
-  - Level 1: Jesus told followers to go everywhere, welcome new believers, and teach them His way - with His power helping, not just to win arguments.
-  - Level 2: Go, baptize, teach obedience - like sending trained workers into every town, not just collecting names on a list.
-  - Level 3: The commission is make disciples, not collect debates - baptism and teaching obedience follow going, or the mission stalls at arrival.
-  - Level 4: Go where people are, welcome believers, and teach them to obey - under Christ's authority, not recruitment zeal.
-  - Level 5: [[Discipleship]] is the long obedience; [[Invest in the Few]] matches depth before scale - not chasing crowds without teaching.
   - Teaching obedience is discipleship after faith - not a works payment for salvation under [[Free Grace]].
   - PKM parallel: [[Creative Output]] - the gospel is not fully kept until it is passed on; inventory notes mean nothing if they never leave the garden.
   - Go, baptize, teach obedience - under Christ's authority, not recruitment zeal.
+level_1: "The Great Commission sends disciples to go, baptize, and teach obedience - under Christ's authority to the end of the age."
+level_2: "Like sending trained workers into every town, not collecting names on a list - make disciples, not win debates."
+level_3: "Go where people are, welcome believers, and teach them to obey - baptism and teaching follow going, or the mission stalls at arrival."
+level_4: "The commission is make disciples under Christ's presence - not recruitment zeal without teaching obedience."
+level_5: "[[Discipleship]] is the long obedience; [[Invest in the Few]] matches depth before scale - not chasing crowds without teaching."
 examples:
   - "My kid asked a friend what church is and I almost deflected - great commission is go and make disciples, starting with plain answers at the kitchen table."
   - "A neighbor asked what we do on Sunday mornings and I almost changed the subject - Jesus said go, baptize, teach, and He is with you while you do it."
@@ -74,5 +74,3 @@ cards:
     back: "Go make disciples - not hoard in garden."
 draft: false
 ---
-
-

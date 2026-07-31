@@ -6,11 +6,6 @@ key_concept: |
   {{< bible ref="John 17:17-19" emphasize="17" >}}
   
   - Jesus asks the Father to make us holy through truth - Scripture shapes the slow becoming, not one heroic week.
-  - Level 1: Jesus asks God to make us more like Him through truth in the Bible - slow daily change, not one perfect week.
-  - Level 2: Holiness through truth in Scripture - slow walk after faith, not one heroic streak.
-  - Level 3: Because standing was settled at belief, sanctification changes the walk, not the verdict.
-  - Level 4: Treat a fruitless week as lagging growth, not revoked standing - open the word that retrains the habit loop.
-  - Level 5: Jesus asks the Father to make us holy through truth - Scripture shapes the slow becoming; [[Christlikeness]] is aim, [[Justification]] already settled the verdict.
   - [[Christlikeness]] names the aim; sanctification names the slow walk after standing was settled at faith.
   - Sanctification settles who I am becoming on the way.
   - [[Grateful Obedience]] names the posture: grow from thanks, not to earn acceptance.
@@ -23,6 +18,11 @@ key_concept: |
   - PKM mirror: [[Process Over Outcomes]] - daily faithfulness beats one heroic week I treat like proof I am saved.
   - Sanctification is growth after faith - not the ticket that got me in the door.
   - Discipleship is the daily walk with Jesus - not a one-time decision I filed and forgot.
+level_1: "Sanctification is God shaping habits and heart after He declares a believer righteous - growth, not the ticket in."
+level_2: "Holiness through truth in Scripture - slow walk after faith, not one heroic streak that proves acceptance."
+level_3: "Open the word after a fruitless week - treat lagging growth as lagging growth, not revoked standing."
+level_4: "Because standing was settled at belief, sanctification changes the walk, not the verdict - [[Standing vs Fellowship]] keeps a bad week from feeling like lost standing."
+level_5: "Aim at [[Christlikeness]] through [[Abide in Me]] - Scripture retrains the habit loop; [[Grateful Obedience]] grows from thanks, not to earn acceptance."
 examples:
   - "I knew the verse on anger and still lost it at dinner - sanctification is slow; my standing was settled at faith, and I am still being changed."
   - "I treated my quiet-time streak like proof God accepts me - faith saves; sanctification grows me after, it does not re-open the verdict."
@@ -120,5 +120,3 @@ cards:
     back: "Daily sanctification - not one sprint."
 draft: false
 ---
-
-

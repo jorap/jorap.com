@@ -6,11 +6,6 @@ key_concept: |
   {{< bible ref="John 10:27-30" emphasize="28" >}}
   
   - Eternal life in His hand - no one snatches you out; standing stays settled even when closeness feels thin.
-  - Level 1: God holds your place in His family - nobody can kick you out, even when prayer feels far away.
-  - Level 2: Your standing before God stays settled at faith even when daily closeness in prayer and joy feels thin.
-  - Level 3: Standing is the verdict once for all; fellowship is closeness that rises and falls with obedience, prayer, and sin dealt with.
-  - Level 4: When prayer feels dry, distinguish what is settled (your place in Christ) from what needs repair (daily fellowship).
-  - Level 5: [[Free Grace]] secured eternal life once; standing is declared righteous on Christ, not re-opened by a bad week - fellowship is the closeness lane that confession and obedience restore.
   - [[Free Grace]] secured eternal life once.
   - Standing is the verdict: declared righteous on Christ, not re-opened by a bad week.
   - Fellowship is closeness: joy, prayer, worship - choked by unconfessed sin, restored when I [[Repent and Believe]] and confess.
@@ -18,6 +13,11 @@ key_concept: |
   - [[Forgiveness]] toward others and [[Reconciliation Before Worship]] repair horizontal fellowship; confession repairs vertical.
   - [[Sanctification]] keeps changing me without re-earning acceptance.
   - Free Grace secured eternal life once - standing stays settled even when fellowship feels distant.
+level_1: "Standing is your settled verdict before God at faith; fellowship is daily closeness that rises and falls with obedience and sin dealt with."
+level_2: "God holds your place in His family - nobody snatches you out even when prayer feels far away."
+level_3: "Confess after snapping at your kid - standing was settled at faith; walk the closeness back through fellowship repair."
+level_4: "Because a bad week does not re-open justification, distinguish settled place in Christ from closeness that needs confession."
+level_5: "[[Free Grace]] secured eternal life once; [[Repent and Believe]] and confession restore fellowship without a new salvation transaction."
 examples:
   - "I snapped at my kid and dread hit like God revoked my heaven ticket - standing was settled at faith; I confessed and walked the closeness back."
   - "Hidden sin exposed and shame screamed I am not saved - justified on Christ already; fellowship needed repair, not a new salvation transaction."
@@ -85,4 +85,3 @@ cards:
     back: "Justification - standing on Christ stays."
 draft: false
 ---
-

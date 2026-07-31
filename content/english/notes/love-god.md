@@ -6,12 +6,12 @@ key_concept: |
   {{< bible ref="Matthew 22:37-40" emphasize="37" >}}
   
   - Whole-person devotion beats a Sunday-only corner.
-  - Level 1: Love God with your whole life, not only for an hour on Sunday - like loving your family all week, not only at dinner time.
-  - Level 2: Whole-person devotion means heart, mind, and daily choices - not a Sunday corner you visit and leave.
-  - Level 3: The first command demands all of you - love God with heart, soul, mind, and strength, not a compartment you open once a week.
-  - Level 4: Audit where your time and attention actually go - if God gets one hour and everything else gets the week, devotion is partitioned, not whole.
-  - Level 5: [[Heart Righteousness]] and [[Priorities Before the Inbox]] are the practical test - loving God first reshapes calendar and attention, not just worship attendance.
   - Under [[Free Grace]], this is the first call on a life already saved by faith - love flowing from grace received, not love offered as payment for eternal life.
+level_1: "Love God is the first command - devote heart, soul, mind, and strength to God, not a Sunday-only corner of life."
+level_2: "Like loving your family all week, not only at dinner, whole-person devotion means daily choices, not one worship hour."
+level_3: "Audit where your time and attention actually go - if God gets one hour and everything else gets the week, devotion is partitioned."
+level_4: "Under [[Free Grace]], this is the first call on a life already saved by faith - love flowing from grace received, not payment for eternal life."
+level_5: "[[Heart Righteousness]] and [[Priorities Before the Inbox]] are the practical test - loving God first reshapes calendar and attention."
 examples:
   - "Match day adrenaline is not the same as opening my Bible on Thursday - whole-person love means I feed at least one faculty today."
   - "Sunday worship felt high but I had not opened my Bible since last week - loving God means more than one hour in a pew."
@@ -61,6 +61,3 @@ cards:
     back: "Pray, read, or serve - one faculty."
 draft: false
 ---
-
-
-

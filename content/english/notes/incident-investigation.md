@@ -4,13 +4,13 @@ meta_title: "Incident Investigation"
 description: "Find system causes after a miss - not only who to blame."
 key_concept: |
   - Blameless tone keeps investigation on system causes.
-  - Level 1: After something breaks, ask what in the setup caused it - not only who was standing nearby when it happened.
-  - Level 2: Blameless tone keeps investigation on system causes - people fix processes when they are not scapegoated, like fixing the leaky pipe instead of yelling at the puddle.
-  - Level 3: Blame chases a name; investigation chases the condition that made failure possible - fix the layout, not just the person present.
-  - Level 4: Run post-incident reviews for system causes first - who was nearby is context, not the root.
-  - Level 5: [[Blameless After-Action Review]] shares the tone; [[Heed Every Near Miss]] feeds hazards before incidents land.
   - Trace layout, limits, and rules - not just who was standing there when it broke.
   - Fix the system before you close the file on who to blame.
+level_1: "Incident investigation asks what in the system caused the failure - not only who was standing nearby when it broke."
+level_2: "Blameless tone keeps people fixing processes instead of hiding - like fixing the leaky pipe instead of yelling at the puddle."
+level_3: "After the equipment cart tipped, trace storage layout and weight limits first - not just whether the trainer was clumsy."
+level_4: "Blame chases a name; investigation chases the condition that made failure possible - who was nearby is context, not the root cause."
+level_5: "[[Blameless After-Action Review]] shares the tone; [[Heed Every Near Miss]] feeds hazards before incidents land."
 examples:
   - "After the equipment cart tipped they traced storage layout and weight limits, not just \"trainer was clumsy.\""
   - "After the kitchen burn they traced pan placement and stove rules, not just \"kid was not careful.\""
@@ -56,4 +56,3 @@ cards:
     back: "Trace the handoffs - find the break, not the face."
 draft: false
 ---
-

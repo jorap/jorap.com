@@ -4,16 +4,16 @@ meta_title: "Peace - Calm the Spirit Grows"
 description: "Peace is Spirit-grown calm in believers who trust the Father - not silence at any price."
 key_concept: |
   {{< bible ref="John 14:27" emphasize="27" >}}
-
+  
   - Christ's peace - inner calm from God's reign, not denial at any price when trouble arrives.
-  - Level 1: Peace is calm inside because God is in charge - like sleeping through a storm because someone you trust is steering the boat, not pretending the wind stopped.
-  - Level 2: Peace fruit is inner calm from God's reign - not denial when circumstances are hard.
-  - Level 3: Galatians lists peace beside love and joy - shalom from trusting God's rule, not stuffing emotion.
-  - Level 4: When anxiety spikes, ask whether you are denying reality or resting in God's sovereignty - peace holds both truth and calm.
-  - Level 5: [[Fruits of the Spirit]] clusters peace with [[Patience]] and [[Gentleness]] - [[Free Grace]] frees you from performance peace that collapses when trouble arrives.
   - Stop borrowing tomorrow's trouble - the trust echo when anxiety replaces rest.
   - Pursue reconciliation where you can - peacemaking is the active echo, not silence only.
   - Order the week before anxiety sets the agenda - seek the kingdom first, then act.
+level_1: "Peace as Spirit fruit is inner calm from trusting God's reign - not denial when circumstances are hard."
+level_2: "Like sleeping through a storm because someone you trust steers the boat - shalom holds truth and calm together."
+level_3: "When anxiety spikes at 2am, pray first then act on what you can change - not thumb-refreshing news until numb."
+level_4: "Galatians lists peace beside love and joy - stuffing emotion is not peace; trusting sovereignty is."
+level_5: "[[Fruits of the Spirit]] clusters peace with [[Patience]] and [[Gentleness]] - [[Free Grace]] frees you from performance peace that collapses under trouble."
 examples:
   - "I thumb-refreshed the news at 2am instead of sleeping - peace fruit was pray first, then act on what I can actually change."
   - "Two coworkers wanted me to pick a side - peace was not avoiding them; it was asking what it would take to fix things."
@@ -66,5 +66,3 @@ cards:
     back: "Pray first - then one practical step."
 draft: false
 ---
-
-

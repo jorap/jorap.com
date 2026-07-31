@@ -4,16 +4,16 @@ meta_title: "Break the Escalation Cycle - Do not Match Snark with Snark"
 description: "Break the escalation cycle - do not match tone for tone when a sharp email lands; stop the loop first."
 key_concept: |
   - Refuse to match insult for insult - break the loop before tone for tone takes over.
-  - Level 1: Like when someone yells and you take a breath instead of yelling back - the fight stops getting louder.
-  - Level 2: Two kids trade insults in the group chat until someone sends a calm answer - break the loop before tone-for-tone wins.
-  - Level 3: Breaking escalation is not passivity - you can set boundaries and name facts without becoming what hurt you in the reply.
-  - Level 4: Delete the matching draft, answer the fact, offer the new date - stop throwing anger after sunk hurt.
-  - Level 5: Gospel source: [[Turn the Other Cheek]]; PKM parallel: [[Sunk Cost Fallacy]] - refuse to pour fuel on a reply-all war you cannot win by volume.
   - Not passivity - I can still set boundaries and name facts.
   - I just refuse to become what hurt me in the thread.
   - Stop throwing anger after sunk hurt.
   - Gospel source: [[Turn the Other Cheek]].
   - PKM parallel: [[Sunk Cost Fallacy]].
+level_1: "Breaking the escalation cycle is refusing to match insult for insult before tone-for-tone takes over."
+level_2: "Like taking a breath when someone yells - two kids trade insults until someone sends a calm answer and the loop stops getting louder."
+level_3: "Delete the matching draft, answer the fact, offer the new date - set boundaries without becoming what hurt you in the reply."
+level_4: "Breaking escalation is not passivity - you can name facts without pouring fuel on a reply-all war."
+level_5: "Gospel source: [[Turn the Other Cheek]]; PKM parallel: [[Sunk Cost Fallacy]] - refuse to win by volume you cannot sustain."
 examples:
   - "A parent emailed the principal with a snarky line about our field trip delay - I deleted my matching draft, answered the fact, offered the new date, and broke the reply-all war before it started."
   - "My kid snapped first at dinner and I almost matched the volume - I named what happened, lowered my voice, and refused to pour fuel on it."
@@ -69,5 +69,3 @@ cards:
     back: "Facts only - refuse the spectacle."
 draft: false
 ---
-
-

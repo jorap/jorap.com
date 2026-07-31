@@ -4,11 +4,11 @@ meta_title: "Open Source - License Grants Permission"
 description: "Open source is a license that lets you install, read, fork, and ship the code without a product key."
 key_concept: |
   - Open source is a license grant, not a lifestyle badge.
-  - Level 1: The license lets you install, read, fork, and ship without a serial number - that is the whole legal win.
-  - Level 2: Open source is like a deed that says you may open the toolbox - not a promise the tools are sharp, current, or free of labor.
-  - Level 3: Because the grant is legal permission only, I still judge maintainers, community, and move paths on their own.
-  - Level 4: I still say no to [[Say No to Nulled]] and [[Open Not Maintained]], and stacks I cannot move - license rights are not quality guarantees.
-  - Level 5: Free download is not free labor, hosting, or security - evenings and invoices still show up.
+level_1: "Open source is a license that lets you install, read, fork, and ship code without a product key."
+level_2: "Like a deed that says you may open the toolbox - not a promise the tools are sharp, current, or free of labor."
+level_3: "Because the grant is legal permission only, judge maintainers, community, and move paths on their own merits."
+level_4: "Say no to [[Say No to Nulled]], [[Open Not Maintained]], and stacks you cannot move - license rights are not quality guarantees."
+level_5: "Free download is not free labor, hosting, or security - evenings and invoices still show up when you ship."
 examples:
   - "ASP tutorial sites hid behind licenses on a student budget - PHP shipped as a zip I could run that weekend without a product key."
   - "XOOPS theme files were plain PHP in a folder I could edit - the license let me learn by breaking templates, not by begging for a demo account."

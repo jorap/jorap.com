@@ -4,13 +4,13 @@ meta_title: "Anti-Fragile PKM - Systems That Survive Tool Death"
 description: "Note systems survive app shutdowns when built on plain files, open formats, and tested backups."
 key_concept: |
   - Note systems that survive app shutdowns - plain files, open formats, and backups I actually test.
-  - Level 1: Like when you save your drawing as a plain picture file - any computer can open it even if one app dies.
-  - Level 2: A diary written in pencil beats a diary locked inside one fancy app - open formats survive when the company shuts down.
-  - Level 3: Anti-fragile note systems survive app shutdowns because plain files and tested backups any tool can read outlast vendor lock-in.
-  - Level 4: Export to plain text or markdown quarterly and open the backup file once - if you cannot read it, the system is not anti-fragile yet.
-  - Level 5: Boring files beat tool-coupled structure when vendors change terms - ties to [[Future-Proofing Knowledge]] and [[Antifragility]]; close calls are stress signals before the system breaks for real.
   - I build on plain files and open formats so an app shutdown does not erase years of notes.
   - Test backups while the app still works - not after the export dies.
+level_1: "Anti-fragile note systems survive app shutdowns - plain files, open formats, and backups you actually test."
+level_2: "Like saving a drawing as a plain picture any computer opens - open formats outlast vendor lock-in when the company shuts down."
+level_3: "Export to plain text or markdown quarterly and open the backup file once - if you cannot read it, the system is not anti-fragile yet."
+level_4: "Boring files beat tool-coupled structure when vendors change terms - tested backups matter while the app still works."
+level_5: "Ties to [[Future-Proofing Knowledge]] and [[Antifragility]] - close calls are stress signals before the system breaks for real."
 examples:
   - "When the gym's booking app shut down for good, my paper training log still had every set - I photocopy it once a quarter so I am not rebuilding history from memory."
   - "The shop switched POS systems twice and the owner kept a plain spreadsheet backup - exports she actually opens, not trust in the vendor forever."
@@ -57,4 +57,3 @@ cards:
     back: "Design so one break doesn't kill the system."
 draft: false
 ---
-

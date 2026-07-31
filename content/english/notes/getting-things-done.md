@@ -4,14 +4,14 @@ meta_title: "Getting Things Done"
 description: "David Allen's capture-clarify-organize loop turns scattered tasks into one trusted inbox with weekly review."
 key_concept: |
   - Open loops belong on paper, not rehearsing in my head at 2am.
-  - Level 1: Empty your mind into a tray, pick the next step, sort it, review weekly - like clearing pockets into boxes.
-  - Level 2: GTD is like plumbing for open loops - capture, clarify, organize, review weekly so trust returns when tasks leave your head.
-  - Level 3: Because open loops drain attention, capture and weekly review return trust to the system instead of rehearsing the same worry nightly.
-  - Level 4: [[Capture]] everything on your mind today, clarify the next action for each item, and schedule weekly review - separate tasks from notes if PARA owns the note lane.
-  - Level 5: GTD vs PARA splits tasks from notes - Allen owns the task side; tasks and notes live in separate systems when [[PARA Method]] holds the reference layer.
   - GTD vs PARA splits tasks from notes; Allen owns the task side.
   - Tasks and notes live in separate systems - capture and weekly review own the task lane.
   - Allen's task-inbox system: capture everything, clarify next actions, trust the weekly review.
+level_1: "Getting Things Done captures open loops on paper, clarifies next actions, organizes, and reviews weekly - trust returns when tasks leave your head."
+level_2: "Like plumbing for open loops - capture, clarify, organize, review so you stop rehearsing the same worry at 2am."
+level_3: "Capture everything on your mind today, clarify the next action for each item, and schedule weekly review."
+level_4: "Open loops drain attention - separate tasks from notes when [[PARA Method]] owns the reference layer."
+level_5: "GTD vs PARA splits tasks from notes - Allen owns the task side; tasks and notes live in separate systems when PARA holds reference."
 examples:
   - "Tournament week and the brain is not a filing cabinet - GTD is one trusted inbox and a weekly review so open loops live on paper, not at 2am."
   - "Commute errands and neighbor requests hit one pocket notebook - each item gets a next action so nothing rots as background worry."
@@ -57,7 +57,3 @@ cards:
     back: "One inbox - next action on each item."
 draft: false
 ---
-
-
-
-

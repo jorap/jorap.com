@@ -6,12 +6,12 @@ key_concept: |
   {{< bible ref="Proverbs 27:17" emphasize="17" >}}
   
   - Growth needs contact with someone who will push back - iron sharpens iron, not iron admiring iron from a safe distance.
-  - Level 1: Like two knives on a stone - friction is the point; smooth flattery leaves you dull.
-  - Level 2: Sharpening friends speak truth in love - not cruelty, not empty praise that leaves you unchanged.
-  - Level 3: Under [[Free Grace]], sharpening is discipleship fruit - not proof I earned God's favor this week.
-  - Level 4: [[Accountability]] in the faith community is this picture with names and prayer.
-  - Level 5: [[Sharpen Each Other's Work]] is the garden echo - peer review that makes the draft better, not the person smaller.
   - [[Discipleship]] in community needs at least one person who will ask the hard follow-up question.
+level_1: "Iron sharpens iron is growth through honest friction with someone who will push back - not admiration from a safe distance."
+level_2: "Sharpening friends speak truth in love - friction is the point; smooth flattery leaves you dull, like two knives on a stone."
+level_3: "When my brother asked if my temper matched my Bible reading - Proverbs sharpening hurt that night and saved the marriage argument next week."
+level_4: "Under [[Free Grace]], sharpening is discipleship fruit - not proof I earned God's favor this week, and avoiding the hard question leaves you dull."
+level_5: "[[Accountability]] in the faith community is this picture with names and prayer; [[Sharpen Each Other's Work]] is peer review that makes the draft better, not the person smaller."
 examples:
   - "My brother asked if my temper matched my Bible reading - Proverbs sharpening hurt that night and saved the marriage argument next week."
   - "Small group friend pushed on my spending story after I bragged about the sale - iron friction was love, not jealousy."

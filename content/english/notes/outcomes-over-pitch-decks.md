@@ -4,17 +4,17 @@ meta_title: "Outcomes Over Pitch Decks - Judge Ideas by Fruit"
 description: "Judge vendors, frameworks, and internal champions by what they produce - not slide polish, not LinkedIn aura."
 key_concept: |
   - Judge vendors and champions by fruit over time, not slide polish or LinkedIn aura.
-  - Level 1: Judge people and vendors by what they actually produce over time - like picking the teammate who scores, not the one with the fanciest uniform.
-  - Level 2: Outcomes over pitch decks means fruit over time beats slide polish and LinkedIn aura.
-  - Level 3: Champions and vendors earn trust by delivered results - decks and profiles are marketing until the work proves itself.
-  - Level 4: Before you hire or partner, ask for three past outcomes with names attached - polish without fruit is expensive theater.
-  - Level 5: [[People-Centered Design]] and [[Own the Error]] test the same bar - [[Staged Rollout]] beats a demo that never shipped.
   - Smooth talkers ship thorns sometimes.
   - I look at downstream stress, turnover, delivery, and whether the team got healthier or more brittle.
   - On [[Static Site Client Scope]], same filter: pick WordPress or Shopify when the fruit requires it - do not sell [[Free Tier Hosting Stack]] because it is my favorite hammer.
   - Do not write people off on vibes alone; read outcomes over time.
   - Gospel source: [[By Their Fruits]].
   - PKM parallel: [[Signal vs Noise]].
+level_1: "Outcomes over pitch decks means trusting delivered results over slide polish and profile aura."
+level_2: "Like picking the teammate who scores, not the one with the fanciest uniform - fruit over time beats marketing."
+level_3: "Before you hire or partner, ask for three past outcomes with names attached - polish without fruit is expensive theater."
+level_4: "Downstream stress, turnover, and delivery health tell you more than charisma - read outcomes, not vibes alone."
+level_5: "[[People-Centered Design]] and [[Own the Error]] test the same bar - [[Staged Rollout]] beats a demo that never shipped."
 examples:
   - "The trainer's Instagram was polished - I asked two parents who finished the program about injuries and consistency."
   - "The contractor's portfolio was gorgeous - I asked two neighbors who lived through the remodel about permit fights and cracked tile."
@@ -64,7 +64,3 @@ cards:
     back: "Outcomes over pitch - ask two users."
 draft: false
 ---
-
-
-
-

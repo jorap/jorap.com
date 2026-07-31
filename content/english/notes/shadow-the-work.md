@@ -4,16 +4,16 @@ meta_title: "Shadow the Work - Watch Real Use Before You Redesign"
 description: "Watch one person do the real job before redrawing the process or the slide."
 key_concept: |
   - Flowcharts lie politely - shadowing does not.
-  - Level 1: A diagram on paper can look neat while hiding mess - watching someone do the job shows what really happens.
-  - Level 2: Flowcharts lie politely - shadowing shows handoffs, workarounds, and wait time.
-  - Level 3: Because documented process is aspirational, observation captures the real system people run under pressure.
-  - Level 4: Before redesigning a workflow, sit with the person doing it for one full cycle.
-  - Level 5: Flowcharts lie politely - shadowing does not; [[Process Mapping]] starts on the floor, not the slide.
   - Shadow the work means sit with one nurse, one cashier, one new hire while they finish the task - then cut what actually slows them.
   - [[People-Centered Design]] is the principle; this is the move.
   - [[Listen Before Fixing]] hears the complaint; shadowing sees the friction they stopped mentioning because it is "just how it is."
   - I watch one person do the real job.
   - Before I redraw the process or the slide.
+level_1: "Shadow the work means watching one person do the real job before you redraw the process or the slide."
+level_2: "Flowcharts lie politely - documented process is aspirational; observation captures handoffs, workarounds, and wait time under pressure."
+level_3: "Sit with one nurse through a full charting shift before the committee debates the template."
+level_4: "Because [[Listen Before Fixing]] hears the complaint but misses friction people stopped mentioning, shadowing sees the real system."
+level_5: "Cut three chart fields after one observed shift - [[People-Centered Design]] starts on the floor, not the slide."
 examples:
   - "The clinic cut three chart fields after I watched one nurse chart through a full shift - shadow the work beat a committee debating the template."
   - "I stood behind the counter for three lunch rushes before we removed the extra checkout tap - shadow the work showed where customers actually stalled."
@@ -66,7 +66,3 @@ cards:
     back: "Shadow one shift - map the real steps."
 draft: false
 ---
-
-
-
-

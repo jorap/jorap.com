@@ -4,9 +4,6 @@ meta_title: "The Law of Timing - When to lead is as important as what to do and 
 description: "When to lead is as important as what to do and where to go."
 key_concept: |
   - Right move, wrong clock, fails - timing is half of leadership.
-  - Level 1: Saul offered sacrifice early and lost the kingdom - impatience misread the hour.
-  - Level 2: Esther waited for the king's scepter. Jesus avoided Judea until His hour came.
-  - Level 3: Wait is active navigation, not passive drift.
   - Hub: [[21 Laws of Leadership in the Bible]] - lesson 19 of twenty-one Bible laws; horizontal frame in [[Leadership]].
   
   {{< bible ref="1 Samuel 13:5-14" >}}
@@ -15,14 +12,19 @@ key_concept: |
   - **An Entire Nation's Fate Rests on Her Timing** - For such a time - approached the king when heaven and fasting aligned.
   {{< bible ref="John 7:1-15" >}}
   - **Jesus Waited for the Right Time** - Avoided Judea until the Father's hour - not fear, alignment.
+level_1: "The law of timing is that the same action succeeds or fails depending on when you take it."
+level_2: "Saul offered sacrifice early and lost the kingdom; Esther waited for the scepter; Jesus avoided Judea until His hour came."
+level_3: "Delay the public move one beat when the room is hot but the map is not ready yet."
+level_4: "Waiting is active navigation, not passive drift - impatience costs kingdoms while overcaution misses the window."
+level_5: "[[Pray Before You Choose]] names the faith lane; [[Strategic Foresight]] treats timing as part of the plan, not luck."
 examples:
   - "I announced the reorg before the board approved - right vision, fatal clock."
   - "Esther fasted three days before she entered the throne room - timing saved a nation."
 shareable_thought:
   - "When to lead is as important as what to do and where to go."
   - "Right move, wrong clock, fails - timing is half of leadership."
-  - "Level 1: Saul offered sacrifice early and lost the kingdom - impatience misread the hour."
-  - "Level 2: Esther waited for the king's scepter. Jesus avoided Judea until His hour came."
+  - "The law of timing is that the same action succeeds or fails depending on when you take it."
+  - "Saul offered sacrifice early and lost the kingdom; Esther waited for the scepter; Jesus avoided Judea until His hour came."
 relationships:
   - type: contradicts
     wikilink: "[[Discipleship vs Leadership]]"

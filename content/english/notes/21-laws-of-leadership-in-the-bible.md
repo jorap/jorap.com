@@ -5,17 +5,17 @@ meta_title: "21 Laws of Leadership in the Bible - Maxwell's Laws Through Scriptu
 description: "Twenty-one leadership laws illustrated with Old and New Testament stories - one claim per lesson, three biblical cases each."
 key_concept: |
   - Scripture illustrates leadership laws the way case studies illustrate business books - one hub, twenty-one lessons, three Bible stories each.
-  - Level 1: Like a leadership book with Bible homework - each law gets its own note and three scriptural examples.
-  - Level 2: Maxwell's law names frame the lessons; the cases are Aaron, Deborah, Nehemiah, Paul - not modern CEOs.
-  - Level 3: These laws describe discipleship growth and faithful influence - not the price of eternal life.
-  - Level 4: Start at [[Free Grace]], then pick the law you need this week - order is less important than application.
-  - Level 5: Workplace echo lives in [[Leadership]], [[Leadership Is Influence]], and [[Servant Leadership]] - this hub stays scripture-first.
   - Twenty-one laws, three biblical examples each - link and drill like the rest of the faith cluster.
+level_1: "Twenty-one Laws of Leadership in the Bible is a faith hub that pairs Maxwell's leadership laws with three scriptural case studies each."
+level_2: "Maxwell's law names frame each lesson; biblical cases from Aaron, Deborah, Nehemiah, and Paul illustrate influence - not modern CEO anecdotes."
+level_3: "Pick the law you need this week for discipleship growth and faithful influence - not to earn eternal life."
+level_4: "Start at [[Free Grace]], then drill individual laws - order matters less than applying the right lesson now."
+level_5: "Extend into workplace notes like [[Leadership]], [[Leadership Is Influence]], and [[Servant Leadership]] while this hub stays scripture-first."
 shareable_thought:
   - "Twenty-one leadership laws illustrated with Old and New Testament stories - one claim per lesson, three biblical cases each."
-  - "Level 1: Like a leadership book with Bible homework - each law gets its own note and three scriptural examples."
-  - "Level 2: Maxwell's law names frame the lessons; the cases are Aaron, Deborah, Nehemiah, Paul - not modern CEOs."
-  - "Level 3: These laws describe discipleship growth and faithful influence - not the price of eternal life."
+  - "Scripture illustrates leadership laws the way case studies illustrate business books - one hub, twenty-one lessons, three Bible stories each."
+  - "Twenty-one Laws of Leadership in the Bible is a faith hub that pairs Maxwell's leadership laws with three scriptural case studies each."
+  - "Maxwell's law names frame each lesson; biblical cases from Aaron, Deborah, Nehemiah, and Paul illustrate influence - not modern CEO anecdotes."
 relationships:
   - type: extends
     wikilink: "[[Discipleship vs Leadership]]"
@@ -45,7 +45,6 @@ aliases: ["Bible leadership laws", "Maxwell laws in scripture"]
 featured: false
 draft: false
 ---
-
 ## Start here
 
 - [[Free Grace]] - these laws shape how you lead after grace; they do not earn heaven

@@ -5,15 +5,15 @@ meta_title: "Prayer Jesus Taught - How Jesus Taught His Disciples to Pray"
 description: "What Jesus told disciples about prayer - secret devotion, the Lord's Prayer, persistence, and asking in His name."
 key_concept: |
   - The Gospels record what Jesus said to disciples about prayer - not the same lane as the prayers He spoke to the Father.
-  - Level 1: The Gospels tell what Jesus taught His followers about prayer - not the prayers He said to God Himself.
-  - Level 2: The Gospels tell us what Jesus taught His followers about how to pray, which is different from the prayers He said directly to God.
-  - Level 3: Two lanes in the text - Jesus speaking to the Father in [[Pray for His Own]], and Jesus coaching disciples on posture, place, and words.
-  - Level 4: Because the model prayer names kingdom, [[Trust God for Today]], and forgiveness, teaching prayer is discipleship, not a private monologue archive.
-  - Level 5: The Gospels record what Jesus said to disciples about prayer - not the same lane as the prayers He spoke to the Father; [[Jesus' Prayers]] indexes both.
   - [[Eternal Principles]] holds the one-claim notes; this hub maps the prayer thread across Matthew, Mark, Luke, and John.
   - [[Jesus' Prayers]] holds verbatim speeches to the Father; [[Jesus' Rhythms]] shows how often He prayed; this lane is the instruction He gave others.
   - Spine notes below carry six review cards at [/notes/review/](/notes/review/) with filter **Prayer** or **Eternal Principles**.
   - Under [[Free Grace]], learning to pray is not the price of heaven - it is how a child talks to the Father after the gift is received.
+level_1: "Prayer Jesus taught is the instruction lane - what Jesus told followers about how to pray, distinct from prayers He spoke to the Father."
+level_2: "Two lanes in the text - Jesus speaking to the Father in [[Pray for His Own]], and Jesus coaching disciples on posture, place, and words."
+level_3: "Use the Lord's Prayer as the model - kingdom, daily bread, forgiveness - discipleship in words, not a private monologue archive."
+level_4: "Because teaching prayer names kingdom and forgiveness, learning to pray is discipleship - not the price of heaven under [[Free Grace]]."
+level_5: "[[Jesus' Prayers]] indexes verbatim speeches; this hub maps the teaching thread - [[Eternal Principles]] holds the one-claim spine notes."
 shareable_thought:
   - "What Jesus told disciples about prayer - secret devotion, the Lord's Prayer, persistence, and asking in His name."
   - "The Gospels record what Jesus said to disciples about prayer - not the same lane as the prayers He spoke to the Father."
@@ -45,9 +45,6 @@ aliases: ["Jesus teaching about prayer", "what Jesus taught about prayer", "Jesu
 featured: false
 draft: false
 ---
-
-
-
 ## Start here
 
 - [[Eternal Principles]] - teaching lane hub; prayer spine notes sit under Heart and priorities

@@ -4,14 +4,14 @@ meta_title: "Capture - The First Step of Every Note System"
 description: "Saves what resonates into one trusted inbox, then empties weekly."
 key_concept: |
   - Friction kills capture when saving takes more than one quick move.
-  - Level 1: Like when saving takes one tap - if it takes five taps, the good idea is gone before you finish.
-  - Level 2: A spark hits on the bus but your phone is buried in your bag - if capture takes too long, the idea dies before you save it.
-  - Level 3: Capture saves what resonates into one trusted inbox - skip it unless action or citation would follow later.
-  - Level 4: Scribble on your wristband before locker room noise eats the idea - one inbox from phone to desktop, process weekly.
-  - Level 5: Same rule as [[The Trusted Inbox]] - one pocket notebook, no sorting yet; capture fails when the save path has more steps than the spark can survive.
   - One inbox from phone to desktop, weekly process - same as [[The Trusted Inbox]].
   - Skip it unless action or citation would follow later.
   - Resonance is the filter, not FOMO.
+level_1: "Capture is saving what resonates into one trusted inbox before the spark fades - friction kills capture when saving takes more than one quick move."
+level_2: "Like one tap to save - if it takes five taps, the idea dies before you finish; a spark on the bus dies when the phone is buried in your bag."
+level_3: "Scribble on your wristband before locker room noise eats the idea - one inbox from phone to desktop, process weekly."
+level_4: "Skip capture unless spark or action or citation would follow later - one trusted inbox, no sorting yet."
+level_5: "Same rule as [[The Trusted Inbox]] - capture fails when the save path has more steps than the spark can survive."
 examples:
   - "A play tweak hits during cooldown and I scribble it on my wristband before the locker room noise eats it - one inbox, file it Sunday when the spark is safe."
   - "On the jeepney my kid says something I want to remember and I scribble it on a receipt before the station noise eats it - one pocket notebook, no sorting yet."
@@ -62,5 +62,3 @@ cards:
     back: "Drop in one inbox - no tagging yet."
 draft: false
 ---
-
-

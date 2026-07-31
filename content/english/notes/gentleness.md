@@ -4,17 +4,17 @@ meta_title: "Gentleness - Strength Under Control the Spirit Grows"
 description: "Gentleness fruit is strength held back on purpose, not weakness or loud correction that skips love."
 key_concept: |
   {{< bible ref="Matthew 5:5" emphasize="5" >}}
-
+  
   - Blessed are the gentle - strength under control, not loud correction without love.
-  - Level 1: A big dog that walks calmly instead of jumping on people - strong power held back on purpose.
-  - Level 2: Gentleness is like a hand on a hot pan with a mitt - power restrained on purpose, sitting beside patience and self-control in the Spirit cluster.
-  - Level 3: Because unrestrained strength intimidates instead of serves, gentleness is strength under control, not weakness or absence of power.
-  - Level 4: Pause and listen before you prescribe - correction without love is not Spirit-grown gentleness; loud fixes without hearing fail the cluster test.
-  - Level 5: [[Listen Before Fixing]] is gentleness in conversation; [[The Beatitudes]] bless the meek - strength without grasping for status; [[Humility and Service]] is the garden echo when greatness is serving.
   - [[Humility and Service]] is the garden echo: greatness is serving, not being served; the Son washed feet the night before the cross.
   - [[Listen Before Fixing]] is gentleness in conversation - hear before you prescribe.
   - [[The Beatitudes]] bless the meek - strength without grasping for status.
   - Hear before you prescribe - loud correction without love is not Spirit-grown gentleness.
+level_1: "Gentleness is strength under control - power restrained on purpose, not loud correction without love."
+level_2: "Like a hand on a hot pan with a mitt - sits beside patience and self-control in the Spirit cluster, not absence of power."
+level_3: "Pause and listen before you prescribe - correction without love fails the cluster test."
+level_4: "Unrestrained strength intimidates instead of serves - loud fixes without hearing are not Spirit-grown gentleness."
+level_5: "[[Listen Before Fixing]] is gentleness in conversation; [[The Beatitudes]] bless the meek; [[Humility and Service]] is the garden echo when greatness is serving."
 examples:
   - "Correction with my kid turned sharp - volume up, gentleness gone - Galatians gentleness is strength under control, not force."
   - "I helped a neighbor move and waited for credit in the group chat - gentleness fruit serves without grasping for status."
@@ -73,7 +73,3 @@ cards:
     back: "Redirect praise - wash feet, don't strut."
 draft: false
 ---
-
-
-
-

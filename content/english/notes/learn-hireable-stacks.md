@@ -4,12 +4,12 @@ meta_title: "Learn Hireable Stacks - Job Board Beats Diagram"
 description: "Learn stacks employers actually hire for - market depth beats the cleaner architecture slide."
 key_concept: |
   - I point students at job posts, not the niche CMS with the prettier diagram.
-  - Level 1: WordPress listings were everywhere in my market - Drupal developer was a niche inside a niche I was not going to invent jobs for.
-  - Level 2: Hireable stack is like learning the instrument the band actually needs - not the one that wins music theory class but never gets a gig.
-  - Level 3: Because [[Open Source]] gives choice, [[Community Depth]] picks which open option earns evenings - diagram charm is not a paycheck.
-  - Level 4: [[Permission Scales]] mattered as theory; the job board mattered when rent was due - same zip globally, local listings still vary.
-  - Level 5: [[Teachable Stack]] filters the classroom; [[Selling Static Sites]] and client WordPress work are the income lanes that followed.
   - Teaching seminars I said learn what employers hire for - not what would look clever on a conference slide.
+level_1: "A hireable stack is the toolset local employers actually list in job posts, not the niche option that wins diagram contests."
+level_2: "Like learning the instrument the band actually needs, market depth beats classroom elegance when rent is due."
+level_3: "Before you invest six months in a framework, count how many local listings mention it versus the mainstream option."
+level_4: "Because [[Open Source]] gives choice, [[Community Depth]] picks which open option earns evenings - diagram charm is not a paycheck."
+level_5: "[[Teachable Stack]] filters the classroom; [[Selling Static Sites]] and client WordPress work are the income lanes that followed."
 examples:
   - "Compared Drupal, Joomla, and WordPress side by side - Drupal architecture made sense until upgrades ate weekends and Manila job posts did not say Drupal."
   - "Student asked whether to specialize in a clever static framework - I pulled the local job board and counted WordPress vs everything else."

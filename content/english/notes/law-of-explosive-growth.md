@@ -4,9 +4,6 @@ meta_title: "The Law of Explosive Growth - To add growth, lead followers - to mu
 description: "To add growth, lead followers - to multiply, lead leaders."
 key_concept: |
   - Addition adds bodies; multiplication adds leaders who spawn leaders.
-  - Level 1: Bezalel trained craftsmen who built the tabernacle - leaders of skilled labor.
-  - Level 2: Jesus sent seventy with authority. Paul appointed elders in every city and told Timothy to entrust truth to faithful men.
-  - Level 3: [[Great Commission]] - make disciples who make disciples.
   - Hub: [[21 Laws of Leadership in the Bible]] - lesson 20 of twenty-one Bible laws; horizontal frame in [[Leadership]].
   
   {{< bible ref="Exodus 35:30-35" >}}
@@ -15,14 +12,19 @@ key_concept: |
   - **Leaders in Training** - Seventy sent two by two - harvest needed workers, not a solo celebrity.
   {{< bible ref="2 Timothy 2:1-2" >}}
   - **Paul's Strategy for Growth** - Elders in every church; truth entrusted to faithful who teach others.
+level_1: "The law of explosive growth is that addition adds bodies but multiplication adds leaders who spawn leaders."
+level_2: "Bezalel trained craftsmen who built the tabernacle; Jesus sent seventy with authority; Paul appointed elders and told Timothy to entrust truth to faithful men."
+level_3: "Teach one person your full playbook this quarter - not just a task dump, the judgment calls they will need when you are not in the room."
+level_4: "[[Great Commission]] - make disciples who make disciples; headcount alone stalls when only one person can teach."
+level_5: "[[Invest in the Few]] names depth first; [[Great Commission]] names why disciples who make disciples beat headcount alone."
 examples:
   - "I mentored two leads who each mentored two more - growth exploded when I stopped being the only teacher."
   - "Paul left Titus to appoint elders - multiplication beat one-man planting."
 shareable_thought:
   - "To add growth, lead followers - to multiply, lead leaders."
   - "Addition adds bodies; multiplication adds leaders who spawn leaders."
-  - "Level 1: Bezalel trained craftsmen who built the tabernacle - leaders of skilled labor."
-  - "Level 2: Jesus sent seventy with authority. Paul appointed elders in every city and told Timothy to entrust truth to faithful men."
+  - "The law of explosive growth is that addition adds bodies but multiplication adds leaders who spawn leaders."
+  - "Bezalel trained craftsmen who built the tabernacle; Jesus sent seventy with authority; Paul appointed elders and told Timothy to entrust truth to faithful men."
 relationships:
   - type: contradicts
     wikilink: "[[Discipleship vs Leadership]]"

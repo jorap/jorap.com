@@ -4,14 +4,14 @@ meta_title: "The Knowledge Lifecycle - From Spark to Archive"
 description: "Ideas move through capture, use, polish, fade, and archive - match effort to the stage."
 key_concept: |
   - Raw capture gets tagged and dated - polish waits until reuse is real.
-  - Level 1: Write new ideas down with a label and date first - clean them up only when you need to use them again.
-  - Level 2: Raw capture gets tagged and dated; polish waits until reuse is real - fade is a signal to archive, not proof the idea was worthless.
-  - Level 3: Lifecycle thinking saves effort because polishing every spark burns time notes never repay.
-  - Level 4: Tag and date on capture; polish only when an idea re-enters a project - archive when fade says it is done.
-  - Level 5: Spend effort on polish only when an idea is in reuse - not when it is still raw capture; [[Note Maturity]] names the stages this lifecycle tracks.
   - Fade is a signal to archive, not proof the idea was worthless.
   - Spend effort on polish only when an idea is in reuse - not when it is still a raw capture.
   - [[Note Maturity]] names the stages this lifecycle tracks.
+level_1: "The knowledge lifecycle tracks ideas from capture through use, polish, fade, and archive - match effort to the stage."
+level_2: "Raw capture gets tagged and dated; polish waits until reuse is real - fade is a signal to archive, not proof the idea was worthless."
+level_3: "Tag and date on capture; polish only when an idea re-enters a project - archive when fade says it is done."
+level_4: "Lifecycle thinking saves effort because polishing every spark burns time notes never repay - [[Note Maturity]] names the stages this lifecycle tracks."
+level_5: "Spend effort on polish only when an idea is in reuse - not when it is still raw capture; [[Evergreen Notes]] is what survives a second read."
 examples:
   - "The new set play lives in \"learning\" for three weeks, graduates to \"game plan,\" then gets archived when we change offense."
   - "The school FAQ note started as a fleeting capture, got updated all semester, then moved to archive when the kid changed schools."
@@ -55,4 +55,3 @@ cards:
     back: "Archive it - season served."
 draft: false
 ---
-

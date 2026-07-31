@@ -4,15 +4,15 @@ meta_title: "Measure Then Iterate - Data Before the Next Pivot"
 description: "Name what to measure, gather signal, then reprioritize - not guess and overhaul."
 key_concept: |
   - Transformation without a number is just enthusiasm with amnesia.
-  - Level 1: Pick a number that shows whether something worked, watch it, then change your plan - like counting how many baskets you made before you change your shooting form.
-  - Level 2: Measure-then-iterate means one metric proves progress - track it, adjust, repeat, instead of enthusiasm with amnesia.
-  - Level 3: Transformation without a number is cheer that fades - name what success looks like, watch it, then change the method.
-  - Level 4: Before the next sprint, write one number you will check Friday - if it did not move, the plan changes, not the story you tell.
-  - Level 5: [[Continuous Improvement]] and [[Decision Quality]] both need feedback loops - unmeasured change is [[Failure as Feedback]] you never captured.
   - Measure then iterate means define what would prove the change worked, watch it for one cycle, then adjust.
   - Not defend the rollout because the slide was convincing.
   - [[Failure as Feedback]] reads a miss; [[Continuous Improvement]] tweaks the process; [[Practice Small Experiments]] keeps trials small.
   - Product lane: [[Lean Startup]] - build, measure, learn before you scale.
+level_1: "Measure-then-iterate means pick one metric that proves progress, watch it for one cycle, then change the method if it did not move."
+level_2: "Like counting how many baskets you made before you change your shooting form, transformation without a number is cheer that fades."
+level_3: "Before the next sprint, write one number you will check Friday - if it did not move, the plan changes, not the story you tell."
+level_4: "Unmeasured change is [[Failure as Feedback]] you never captured - enthusiasm with amnesia repeats the same miss next quarter."
+level_5: "[[Continuous Improvement]] and [[Decision Quality]] both need feedback loops - [[Practice Small Experiments]] keeps trials small before you scale the rollout."
 examples:
   - "We tracked checkout time for two weeks after one fewer tap - measure then iterate meant keeping the change when seconds dropped, reverting when they did not."
   - "I logged how many notes I actually reviewed on the jeepney for fourteen days - measure then iterate beat another app rebuild based on guilt."
@@ -77,6 +77,3 @@ cards:
     back: "Time ten reps - data before the debate."
 draft: false
 ---
-
-
-

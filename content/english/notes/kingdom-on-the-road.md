@@ -5,14 +5,14 @@ description: "Jesus went town to town teaching, preaching, and healing - one int
 key_concept: |
   {{< bible ref="Luke 4:43" emphasize="43" >}}
   - He said He must preach the kingdom to other cities - Matthew 9:35 sums the same road: teaching, preaching, healing in every town.
-  - Level 1: Jesus traveled town to town teaching, telling good news, and helping sick people - one life of service on the move.
-  - Level 2: He said He must preach the kingdom to other cities - teaching, preaching, healing on the road, like a doctor who goes to patients instead of waiting in one office.
-  - Level 3: The kingdom advance was mobile ministry - teaching, preaching, healing in every town, not one static stage, because people meet the kingdom where they live.
-  - Level 4: Take the kingdom to the next town - teach, proclaim, heal on the road instead of hoarding one audience.
-  - Level 5: [[Great Commission]] sends outward; this note is the Gospel biography of the same pattern - kingdom service in motion.
   - Not three careers swapped by calendar - one kingdom rhythm carried through villages.
   - [[Seek the Kingdom First]] orders the week; [[Let Your Light Shine]] makes good visible - kingdom in front of new faces daily.
   - Under [[Free Grace]], the road is not earning the kingdom - it is announcing and embodying what He already came to give.
+level_1: "Kingdom on the road is Jesus traveling town to town teaching, proclaiming good news, and healing - mobile ministry, not one static stage."
+level_2: "He said He must preach the kingdom to other cities - teaching, preaching, healing on the road, like a doctor who goes to patients instead of waiting in one office."
+level_3: "Take the kingdom to the next town this quarter - teach, proclaim, heal where people live, not hoard one audience in one building."
+level_4: "The kingdom advance was mobile ministry - people meet the kingdom where they live; static stage hoarding contradicts the Gospel biography pattern."
+level_5: "[[Great Commission]] sends outward; this note is the Gospel biography of the same pattern - kingdom service in motion."
 examples:
   - "I separated Sunday preaching from weekday integrity and wondered why nobody listened - kingdom on the road is word and deed in the same Tuesday."
   - "I planned a big conference but ignored the neighbor on my street - Jesus moved village to village with teaching and touch in one bag."
@@ -62,5 +62,3 @@ cards:
     back: "Kingdom on the road - both."
 draft: false
 ---
-
-

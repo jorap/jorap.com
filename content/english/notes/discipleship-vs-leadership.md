@@ -6,15 +6,15 @@ key_concept: |
   {{< bible ref="Matthew 20:26-28" emphasize="28" >}}
   
   - Greatness is service - Son of Man came to serve; two seats, upward allegiance and outward care.
-  - Level 1: Salute up and lead the squad below - two jobs, like obeying the coach while your team watches you.
-  - Level 2: Discipleship and leadership are two seats in one chair - upward allegiance to Christ, outward care when people look your way.
-  - Level 3: Because the two seats pull different directions, swapping them lets public leadership substitute for private obedience to Christ.
-  - Level 4: Name which seat a decision serves before you act - upward to Christ or outward to the room; the org chart does not cancel the cross.
-  - Level 5: [[Discipleship]] answers upward; [[Leadership]] answers outward - [[Servant Leadership]] overlaps on horizontal care but does not replace vertical allegiance.
   - Greatness is service - Son of Man came to serve; upward allegiance and outward care stay separate.
   - [[Discipleship]] answers upward; [[Leadership]] answers outward - direction, pace, and care when people look your way.
   - Swapping them is the failure: running a standup is not following Christ, and a promotion does not cancel private obedience.
   - [[Servant Leadership]] overlaps on horizontal care - but that is still not the vertical allegiance discipleship names.
+level_1: "Discipleship is who you follow upward; leadership is who looks to you for direction and care - two seats in one person."
+level_2: "Salute up and lead the squad below - like obeying the coach while your team watches you, upward allegiance and outward care stay separate."
+level_3: "Name which seat a decision serves before you act - upward to Christ or outward to the room; the org chart does not cancel the cross."
+level_4: "[[Discipleship]] answers upward; [[Leadership]] answers outward - [[Servant Leadership]] overlaps on horizontal care but does not replace vertical allegiance."
+level_5: "Promotion meant calm direction in the outage, but you still confess the shortcut on the report - you hold both seats without letting leadership substitute for private obedience."
 examples:
   - "I ran the youth program like a CEO and skipped morning prayer for a month - leadership filled the calendar; discipleship is who I follow when nobody's watching."
   - "Promotion meant calm direction in the outage, but I still had to confess the shortcut I took on the report - leadership is who looks to me; discipleship is who I answer to."
@@ -85,8 +85,3 @@ cards:
     back: "Christ first - then lead from that footing."
 draft: false
 ---
-
-
-
-
-

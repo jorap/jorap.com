@@ -4,12 +4,12 @@ meta_title: "Say No to Nulled - Skipped Fee, Security Bill"
 description: "Nulled premium plugins and cracked themes skip the license and import malware - say no on client builds."
 key_concept: |
   - The license fee you skip becomes a security bill you did not budget for.
-  - Level 1: Nulled means someone stripped copy protection - you get no updates, no vendor trust, and a common malware lane.
-  - Level 2: Nulled plugins are like a spare key from a stranger - it opens the door today and you never know who else has a copy.
-  - Level 3: Because clients ask to skip the invoice, I say no on builds I touch - [[Open Source]] is not an excuse to pirate premium extensions.
-  - Level 4: View source on a nulled zip tells you nothing about who tampered with it before upload - inspect rights without a clean chain.
-  - Level 5: [[Inspectable Stack]] still fails on abandonware; [[Open Not Maintained]] is the legal-open cousin - nulled is the dishonest one.
   - Open license on the CMS does not make nulled premium plugins OK.
+level_1: "Nulled means premium software with copy protection stripped - no updates, no vendor trust, and a common malware lane."
+level_2: "Like a spare key from a stranger - it opens the door today and you never know who else has a copy."
+level_3: "Say no on client builds when they ask to skip the Envato fee - quote the real license or a maintained free fork."
+level_4: "View source on a nulled zip tells you nothing about who tampered with it before upload - [[Open Source]] on the CMS does not excuse pirated premium extensions."
+level_5: "Choose [[Inspectable Stack]] paths with clean chains - [[Open Not Maintained]] is the legal-open cousin; nulled is the dishonest one."
 examples:
   - "Client asked for a nulled slider plugin to skip the Envato fee - I said no and quoted the real license or a maintained free fork."
   - "Freelance forum post bragged about cracked themes - six months later the site redirected to pharmacy spam from a theme backdoor"

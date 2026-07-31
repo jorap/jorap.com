@@ -4,13 +4,13 @@ meta_title: "Creative Blocks - When the Notes Don't Become Output"
 description: "Thousands of notes and the page stays blank - one small ship action usually unsticks the work."
 key_concept: |
   - Creative blocks are not solved by more capture - ship one small action instead.
-  - Level 1: Like when the page stays blank - collecting more ideas will not help until you write one messy sentence.
-  - Level 2: A kid tells you to log one ugly warmup line before the perfect play arrives - creative blocks are not solved by more capture.
-  - Level 3: Thousands of notes and a blank page means output fixes the block - once something ugly exists, editing is easier than starting.
-  - Level 4: Write one ugly paragraph about yesterday's customer call - tell your kid to log one messy warmup line before the block lifts.
-  - Level 5: Pairs with [[Creative Output]] - inventory only pays off the day it becomes something someone else can read; capture without ship keeps the page blank.
   - Once something ugly exists on the page, editing is a different, easier problem than starting.
   - Thousands of notes and a blank page means output fixes, not another capture pass.
+level_1: "A creative block is when capture piles up but the page stays blank - output, not more notes, is what unsticks the work."
+level_2: "Collecting more ideas will not help until you write one messy sentence - like a kid told to log one ugly warmup line before the perfect play arrives."
+level_3: "Write one ugly paragraph about yesterday's customer call - tell your kid to log one messy warmup line before the block lifts."
+level_4: "Pairs with [[Creative Output]] - inventory only pays off the day it becomes something someone else can read; capture without ship keeps the page blank."
+level_5: "Once something ugly exists on the page, you edit forward - you ship the smallest piece and build from there instead of waiting for inspiration."
 examples:
   - "My kid stared at a blank training log for twenty minutes - I told her to write one messy line about today's warmup and the block lifted once something existed on the paper."
   - "The new hire could not start the report - I said write one ugly paragraph about yesterday's customer call and the rest followed."
@@ -54,4 +54,3 @@ cards:
     back: "Publish one rough paragraph - output unblocks."
 draft: false
 ---
-

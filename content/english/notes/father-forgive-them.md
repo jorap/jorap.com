@@ -6,14 +6,14 @@ key_concept: |
   {{< bible ref="Luke 23:34" >}}
   
   - Nailed and mocked, Jesus prayed for the people driving the nails - Father, forgive them, for they do not know what they do.
-  - Level 1: While nailed up, Jesus asked God to forgive the people hurting Him - they did not know what they did.
-  - Level 2: At maximum injustice, Jesus prayed for enemies - like asking mercy for someone hurting you before you have won or escaped.
-  - Level 3: Because intercession came at the moment of greatest wrong, the prayer models mercy when condemnation would be easier.
-  - Level 4: Pray for someone who wronged you before you rehearse the case against them - intercession first, ledger second.
-  - Level 5: The prayer is intercession for enemies at maximum injustice - under [[Free Grace]], I am among the forgiven who did not know the weight of what we rejected.
   - Mercy spoke before anyone apologized: intercession for enemies at maximum injustice - not a lecture after He won.
   - [[Moved with Compassion]] bent His calendar for hurting people; here mercy speaks when He had every right to condemn.
   - Under [[Free Grace]], I am among the forgiven who did not know the weight of what we rejected - His prayer bought space for [[Repent and Believe]] later.
+level_1: "At the cross Jesus asked the Father to forgive the people who crucified Him - they did not know what they were doing."
+level_2: "At maximum injustice Jesus prayed for enemies - mercy before escape, intercession when condemnation would be easier."
+level_3: "Pray for someone who wronged you before you rehearse the case against them - intercession first, ledger second."
+level_4: "Because intercession came at the moment of greatest wrong, the prayer models mercy when power could have demanded payback."
+level_5: "Intercession for enemies at maximum injustice - under [[Free Grace]], I am among the forgiven who did not know the weight of what we rejected."
 examples:
   - "Someone slandered me online and my thumb hovered over a nuclear reply - Father forgive them is prayer first, not victory lap after I cool down."
   - "The coworker who sabotaged my project walked past my desk - Jesus prayed for His executioners while they were still executing."
@@ -63,5 +63,3 @@ cards:
     back: "Pray forgiveness first - no apology required."
 draft: false
 ---
-
-

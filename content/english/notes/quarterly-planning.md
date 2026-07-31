@@ -4,13 +4,13 @@ meta_title: "Quarterly Planning"
 description: "Set goals and review on a thirteen-week rhythm - short enough to feel real."
 key_concept: |
   - Zoom out every ninety days so weekly noise does not eat the year's aim.
-  - Level 1: Every three months step back and ask whether daily noise is eating your big goal for the year.
-  - Level 2: Every three months, step back and check whether daily distractions are eating your big goal for the year.
-  - Level 3: Ninety-day zoom-out - weekly noise versus annual aim, on purpose.
-  - Level 4: Because urgent tasks compound daily, a quarterly reset reclaims the year from the inbox.
-  - Level 5: Zoom out every ninety days so weekly noise does not eat the year's aim - the calendar block is the guardrail, not a slide deck ritual.
   - A year-long goal hides slippage for months; thirteen weeks cannot.
   - Long enough to actually finish something, short enough that slipping is still visible before it is too late.
+level_1: "Quarterly planning is setting goals and reviewing on a thirteen-week rhythm - short enough to feel real, long enough to finish something."
+level_2: "Every three months step back and ask whether daily noise is eating your big goal for the year - ninety-day zoom-out on purpose."
+level_3: "First Sunday of the quarter, pick three outcomes - not twenty wishes that drown the month before slippage hides for months."
+level_4: "Because urgent tasks compound daily, a calendar block reclaims the year from the inbox - slipping stays visible before it is too late."
+level_5: "[[Purpose and Vision]] names the outcome; [[Periodic Knowledge Review]] shares the ninety-day rhythm - the block is guardrail, not slide deck ritual."
 examples:
   - "First Sunday of the quarter we picked three outcomes - not twenty wishes that drowned the month."
   - "The clinic's ninety-day huddle moved one backlog project to done instead of adding a fourth starter."
@@ -59,6 +59,3 @@ cards:
     back: "Thirteen weeks with a visible score."
 draft: false
 ---
-
-
-

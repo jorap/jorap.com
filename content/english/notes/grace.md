@@ -5,15 +5,15 @@ description: "Grace is gift never earned - salvation first, then the walk after 
 key_concept: |
   {{< bible ref="John 3:16-18" emphasize="16" >}}
   - God did not wait for me to earn it - He gave His Son so belief, not merit, decides where I spend forever.
-  - Level 1: God gives salvation free when you trust Him - like a prize you never earned by being best.
-  - Level 2: Salvation is a gift through belief - not a scoreboard of good deeds stacked high enough to win.
-  - Level 3: God gave His Son so belief decides eternal life - merit never earned the ticket; unbelief is the only rejection.
-  - Level 4: Receive eternal life by trusting Christ's promise - not by climbing a moral ladder you could never finish.
-  - Level 5: [[Mercy]] withholds what you deserve; [[Free Grace]] is grace applied to eternal life by faith alone - not wages you stacked.
   - [[Mercy]] withholds what I deserve; grace gives what I could not earn.
   {{< bible ref="Ephesians 2:1-5" emphasize="5" >}}
   - Paul names the same rescue from the dead side - alive with Christ by grace, not wages I stacked.
   - [[Free Grace]] is grace applied to eternal life: Christ paid what I could not; I receive by faith, not wages.
+level_1: "Grace is God's unearned gift of salvation through belief in Christ - merit never earned the ticket."
+level_2: "Like a prize you never earned by being best - belief, not a scoreboard of good deeds, decides eternal life."
+level_3: "Receive eternal life by trusting Christ's promise - not by climbing a moral ladder you could never finish."
+level_4: "God gave His Son so belief decides eternal life - unbelief is the only rejection; works follow the gift, not purchase it."
+level_5: "[[Mercy]] withholds what you deserve; [[Free Grace]] is grace applied to eternal life by faith alone - not wages you stacked."
 examples:
   - "A teammate listed every good deed this month like it was his ticket to heaven - grace is the gift through faith, not the report card from the season."
   - "Romans 4:4-5 in my head but guilt still treats every bad week like a revoked passport - grace settled standing; the walk is a different category."
@@ -81,7 +81,3 @@ cards:
     back: "The gift saves - mercy spared wrath first."
 draft: false
 ---
-
-
-
-

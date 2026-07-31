@@ -4,14 +4,14 @@ meta_title: "Expect the Counter - Prepare for the Second Move"
 description: "Plan what happens after the other side adapts, not just how the opening move looks on paper."
 key_concept: |
   - Expect the counter means planning what happens after the other side adapts, not just the opening move.
-  - Level 1: Plan your second move before your first, like a chess player who thinks one turn ahead.
-  - Level 2: Expect the counter is like rehearsing the play after the defense adjusts - move one is not the whole game.
-  - Level 3: Because the other side adjusts, a plan that stops at move one breaks the moment they counter.
-  - Level 4: Write your opening move and the two most likely counters before you enter the room - rehearse the second move before tip-off.
-  - Level 5: Write the countermove before the meeting - do not cling to a tactic because it worked once; [[Second Order Thinking]] keeps the adaptation loop open.
   - The opening move is not the game - they adapt, and you need a second plan ready.
   - Rehearse the second move before tip-off, not only the play that looks good on paper.
   - Do not cling to a tactic because it worked once - that is when the counter hurts most.
+level_1: "Expect the counter means planning what happens after the other side adapts - not just how the opening move looks on paper."
+level_2: "Plan your second move before your first - like a chess player who thinks one turn ahead, or rehearsing the play after the defense adjusts."
+level_3: "Write your opening move and the two most likely counters before you enter the room - rehearse the second move before tip-off."
+level_4: "Write the countermove before the meeting - do not cling to a tactic because it worked once; [[Second Order Thinking]] keeps the adaptation loop open."
+level_5: "A restaurant drops lunch prices and the place across the street matches by Friday - you build regulars before the copy arrives, not only the first move."
 examples:
   - "I offered extra screen time for chores and my kid negotiated harder tasks by day three - I should have asked what happens after they adapt, not only rehearsed the opening bribe."
   - "A restaurant drops lunch prices and the place across the street matches by Friday - the first move is not the game; we built regulars before the copy arrived."
@@ -64,6 +64,3 @@ cards:
     back: "Run the backup - built before tip."
 draft: false
 ---
-
-
-

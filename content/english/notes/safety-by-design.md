@@ -4,13 +4,13 @@ meta_title: "Safety by Design"
 description: "Build workflows so the dangerous move is hard - not just a warning label and good intentions."
 key_concept: |
   - Rollback is undo-by-design when release goes loud.
-  - Level 1: Build the release so you can quickly undo it when something breaks - like a door that opens both ways.
-  - Level 2: Build the release so you can quickly undo it when something goes wrong - like designing a door that opens both ways.
-  - Level 3: Rollback baked into release design - undo is a feature, not an afterthought.
-  - Level 4: Because loud failures happen, systems that assume rollback recover faster than heroics.
-  - Level 5: Rollback is undo-by-design when release goes loud - [[Reversibility]] at architecture time, not incident time.
   - [[Staged Rollout]] means fewer people hit before the hazard is proven safe.
   - Make the dangerous move hard by default - not just forbidden on paper.
+level_1: "Safety by design builds workflows so the dangerous move is hard - not just a warning label and good intentions."
+level_2: "Rollback baked into release design - undo is a feature, like a gate that opens toward the fence, not the street."
+level_3: "Move the hot oil station off the walk lane before buying more warning signs."
+level_4: "Because loud failures happen, systems that assume rollback recover faster than heroics - [[Staged Rollout]] limits who hits before the hazard is proven safe."
+level_5: "Architect [[Reversibility]] at design time - make the dangerous move hard by default, not forbidden on paper only."
 examples:
   - "We moved the hot oil station off the walk lane before buying more warning signs."
   - "The playground gate opens toward the fence, not the street - design beat another lecture."
@@ -59,6 +59,3 @@ cards:
     back: "Move danger - warnings come second."
 draft: false
 ---
-
-
-

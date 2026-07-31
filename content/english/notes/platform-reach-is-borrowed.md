@@ -4,14 +4,14 @@ meta_title: "Platform Reach Is Borrowed - You're a Tenant, Not the Landlord"
 description: "Followers and algorithm reach are rented - steward the megaphone, own the vault."
 key_concept: |
   - On Facebook, X, YouTube, or any social app, you are a tenant.
-  - Level 1: On social apps you are like a renter - the platform owns the space and can change the rules overnight, like living in a house where the landlord can lock the door.
-  - Level 2: Platform reach is borrowed - on Facebook, X, or YouTube you are a tenant, not the landlord.
-  - Level 3: Audience on rented platforms can vanish with an algorithm change - build on ground you own.
-  - Level 4: Post where you rent for discovery, but keep canonical work on domain and files you control - export followers you cannot export are not assets.
-  - Level 5: [[Digital Minimalism]] and [OKF Export](/notes/okf-export/) assume you can leave - tenant reach is marketing; owned site and inbox are the vault.
   - Reach throttles, rules change, accounts get restricted - audience you built can vanish overnight.
   - [[Digital Garden]] and [[Drafting in Public]] put canonical copy on land you control; social is megaphone, not vault.
   - [[Future-Proofing Knowledge]] is the boring backup - markdown in git survives when the app dies.
+level_1: "Platform reach is borrowed - followers and algorithm visibility live on rented land, not ground you own."
+level_2: "Like a renter whose landlord can change the rules overnight - you steward the megaphone; you do not own the vault."
+level_3: "Post where you rent for discovery, but keep canonical work on domain and files you control."
+level_4: "Reach throttles, rules change, accounts get restricted - audience you built can vanish when the algorithm shifts."
+level_5: "[[Digital Minimalism]] and [OKF Export](/notes/okf-export/) assume you can leave - [[Digital Garden]] and [[Future-Proofing Knowledge]] hold what social cannot take."
 examples:
   - "Organic reach on my business page dropped from double digits to a trickle overnight - I would been posting only there for three years; the canonical posts lived on their servers, not mine."
   - "A post spiked on X and I caught myself refreshing likes like I would built a kingdom - borrowed reach, not an audience I own."
@@ -70,5 +70,3 @@ cards:
     back: "Reach on rented land - tend it, do not grip."
 draft: false
 ---
-
-

@@ -4,13 +4,13 @@ meta_title: "Coaching Ethics"
 description: "Develop the person without hiding behind consent when the drill is unsafe or pointless."
 key_concept: |
   - Consent does not erase the job when the drill is unsafe.
-  - Level 1: Like when a signed permission slip does not let a coach run a dangerous stunt - you still keep kids safe.
-  - Level 2: Parents sign waivers before swim camp, but the coach still refuses a pointless breath-hold drill - consent does not erase the job when the drill is unsafe.
-  - Level 3: Coaching ethics means reasonable protection for people under your influence - unsafe or pointless drills still owe duty of care.
-  - Level 4: Refuse the dangerous cleanse even when customers clicked agree - develop the person without hiding behind consent when the drill is unsafe.
-  - Level 5: Pairs with [[Duty of Care]] - saying "they signed the waiver" after a near-drown is not coaching, it is dodging the job when the drill was pointless.
   - Waivers protect against lawsuits, not against the drill actually hurting someone.
   - Unsafe or pointless drills still owe reasonable protection to people under your influence.
+level_1: "Coaching ethics is reasonable protection for people under your influence - consent does not erase duty when the drill is unsafe."
+level_2: "Like a signed permission slip not letting a coach run a dangerous stunt - parents sign waivers but the coach still refuses a pointless breath-hold drill."
+level_3: "Refuse the dangerous cleanse even when customers clicked agree - develop the person without hiding behind consent."
+level_4: "Waivers protect against lawsuits, not against the drill actually hurting someone - unsafe drills still owe duty of care."
+level_5: "Pairs with [[Duty of Care]] - saying \"they signed the waiver\" after a near-drown is dodging the job when the drill was pointless."
 examples:
   - "The coach who said \"they signed the waiver\" after a near-drown was not coaching - he dodged [[Duty of Care]] when the drill was unsafe and pointless."
   - "The gym sold a dangerous cleanse because customers clicked agree - coaching ethics means you still owe reasonable protection to people under your influence."
@@ -59,4 +59,3 @@ cards:
     back: "Refuse the product - ethics over revenue."
 draft: false
 ---
-

@@ -6,12 +6,7 @@ key_concept: |
   {{< bible "Matthew 22:39" >}}
   
   - Second command, paired with the first - love the person in front of you the way you would want care if roles flipped.
-  - Level 1: Love the person right in front of you the way you would want someone to treat you if you switched places - like helping a kid who fell off a bike the way you would want help.
-  - Level 2: The second command pairs with the first - treat the neighbor in front of you the way you would want care if roles flipped.
-  - Level 3: Love your neighbor is active, not abstract - the Samaritan bandaged, paid, and stayed; debate over who counts misses the command.
-  - Level 4: Before you decide who deserves help, ask what you would want if you were stranded - then act like that neighbor.
-  - Level 5: [[Mercy]] shows up in the body - [[Free Grace]] frees you to love without keeping score for salvation; the command stays after the gift lands.
-
+  
   {{< bible "Mark 12:31" >}}
   
   - Jesus echoed Moses on the second command - no command ranks higher than loving God and neighbor.
@@ -22,6 +17,11 @@ key_concept: |
   - [[Mercy]] shows up in the body - bandage, ride, cost covered.
   - [[Free Grace]] does not erase the command - it frees me to love without keeping score for salvation.
   - Love others the way I would want care if our roles flipped.
+level_1: "Love your neighbor is the second command - treat the person in front of you the way you would want care if roles flipped."
+level_2: "Like helping a kid who fell off a bike the way you would want help, the Samaritan bandaged, paid, and stayed - debate over who counts misses the command."
+level_3: "Before you decide who deserves help, ask what you would want if you were stranded - then act like that neighbor."
+level_4: "Love your neighbor is active, not abstract - the command stays after [[Free Grace]] lands because the gift frees you to love without keeping score for salvation."
+level_5: "[[Mercy]] shows up in the body - bandage, ride, cost covered - paired with loving God as the two commands Jesus ranked highest."
 examples:
   - "The parent I would rather avoid sits on my side every game - I moved my chair over and asked how his kid's ankle was healing."
   - "The neighbor I would rather avoid lives two doors down and his trash bins are always in my way - Jesus asked whether I am acting like a neighbor, the way I would want if I were stuck."
@@ -80,5 +80,3 @@ cards:
     back: "Am I being neighbor to them?"
 draft: false
 ---
-
-

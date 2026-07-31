@@ -5,14 +5,14 @@ meta_title: "Pressure Reveals Weakness - Build for When It Gets Hard"
 description: "Pressure reveals what easy days hide - build habits and systems that still work when stakes spike."
 key_concept: |
   - Pressure reveals what easy days hide.
-  - Level 1: When things get hard you see weak spots calm days hid - like a stress test showing where a bridge might crack.
-  - Level 2: When things get hard you see the weak spots that calm days kept hidden - like how a stress test shows where a bridge might crack.
-  - Level 3: Easy weeks hide sloppy habits - load, deadline, or conflict surfaces what rehearsal never touched.
-  - Level 4: Because stress removes margin, the failure mode you ignored in calm weather shows up first under load.
-  - Level 5: Pressure reveals what easy days hide - the bridge crack, the temper loop, the process step nobody owns until the incident.
   - Build habits and systems that still work when stakes spike - not just when things are calm and cooperative.
   - Rehearse the move on easy days so it is already loaded when pressure hits.
   - What survives contact with pressure was built long before the pressure showed up.
+level_1: "Pressure reveals weakness means load, deadline, or conflict surfaces habits and gaps that calm weeks never touched."
+level_2: "Like a stress test showing where a bridge might crack - easy days hide sloppy habits until stakes spike."
+level_3: "Rehearse the move on easy days so it is loaded when pressure hits - the temper loop or missing process step shows up first under load."
+level_4: "Because stress removes margin, the failure mode you ignored in calm weather arrives first when the incident lands."
+level_5: "Build habits and systems that still work when stakes spike - [[Process Over Outcomes]] and [[Servant Leadership]] protect judgment when the room heats up."
 shareable_thought:
   - "Pressure reveals what easy days hide."
   - "Build habits and systems that still work when stakes spike."
@@ -41,9 +41,6 @@ aliases: ["performance under pressure"]
 featured: false
 draft: false
 ---
-
-
-
 ## Execution and follow-through
 
 - [[Finish Strong]] - starting proves capability; finishing proves discipline

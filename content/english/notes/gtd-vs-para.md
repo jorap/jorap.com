@@ -4,14 +4,14 @@ meta_title: "GTD vs PARA - Tasks vs Knowledge"
 description: "GTD vs PARA runs tasks in one system and notes in another - cousins, not rivals."
 key_concept: |
   - Tasks and knowledge need different homes.
-  - Level 1: To-do lists belong in one place and learning notes in another - like groceries on the fridge list and recipes in a folder.
-  - Level 2: Tasks and knowledge need different homes - like mixing dirty dishes into your filing cabinet, one bucket turns both systems into junk.
-  - Level 3: GTD processes commitments; PARA organizes reference - when they share one bucket, neither system can run clean.
-  - Level 4: Keep actionable tasks in a trusted capture system and durable knowledge in PARA buckets - never the same inbox.
-  - Level 5: [[Getting Things Done]] owns next actions; [[PARA Method]] owns projects and resources - crossing the streams breeds rot.
   - [[Getting Things Done]] runs what has a next action and a deadline; [[PARA Method]] sorts what I would cite with no finish line.
   - Cousins, not competitors - same capture habit, two lanes.
   - The failure mode is doubling admin: one inbox emptied weekly, tasks in the task app, notes in the garden.
+level_1: "GTD vs PARA splits tasks and knowledge into different homes - actionable commitments and durable reference do not share one inbox."
+level_2: "Like groceries on the fridge list and recipes in a folder - mixing both buckets turns neither system clean."
+level_3: "Keep actionable tasks in a trusted capture system and durable knowledge in PARA buckets - never the same inbox."
+level_4: "GTD processes commitments; PARA organizes reference - when they share one bucket, both systems rot."
+level_5: "[[Getting Things Done]] owns next actions; [[PARA Method]] owns projects and resources - crossing the streams breeds rot."
 examples:
   - "I tried running playbook principles through the task app and lost half of them in completed lists - tasks need GTD, principles need PARA."
   - "The fridge list holds what we buy this week; the filing cabinet holds school forms with no deadline."
@@ -55,5 +55,3 @@ cards:
     back: "Two lanes - tasks app, notes folder."
 draft: false
 ---
-
-

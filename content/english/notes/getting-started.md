@@ -5,15 +5,15 @@ meta_title: "Getting Started - Notes Garden"
 description: "I keep one clear claim per note page and let wikilinks plus /notes/ do the browsing."
 key_concept: |
   - Public when `draft: false`; hidden while `draft: true`.
-  - Level 1: The note goes live when draft is false and stays hidden while draft is true - off private, on public.
-  - Level 2: Draft status is like a shop shutter - `draft: false` opens the window to strangers; `draft: true` keeps work inside while you shape it.
-  - Level 3: Because draft status gates the build, flipping draft false is the publish move - not a separate deploy button or miracle push.
-  - Level 4: Set draft false only when the note is ready for strangers to read; keep draft true while you are still shaping claims you would not defend yet.
-  - Level 5: Each note opens with a definition I can quote in one breath - start at [[Maps of Content]] or walk through the steps below; [[Childlike Faith]] models beginner posture without performing expertise day one.
   - Each note opens with a definition I can quote in one breath - the graph and backlinks do the organizing.
   - Start at [[Maps of Content]] or walk through the steps below.
   - Paid client sites use the same Hugo-plus-git lane - hub: [[Selling Static Sites]].
-  - Faith parallel: [[Childlike Faith]] - beginner posture; receive the guide, do not perform expertise on day one.
+  - Faith parallel: [[Childlike Faith]] - first-day posture; receive the guide, do not perform expertise on day one.
+level_1: "Getting started in the garden means one clear claim per note page - public when `draft: false`, hidden while `draft: true`."
+level_2: "Draft status is like a shop shutter - `draft: false` opens the window to strangers; `draft: true` keeps work inside while you shape it."
+level_3: "Set draft false only when the note is ready for strangers to read - flipping draft is the publish move, not a separate deploy button."
+level_4: "Each note opens with a definition you can quote in one breath - the graph and backlinks do the organizing."
+level_5: "Start at [[Maps of Content]] or walk the steps below; [[Depth of Understanding]] names the five level bullets; [[Childlike Faith]] models first-day posture without performing expertise."
 shareable_thought:
   - "I keep one clear claim per note page and let wikilinks plus /notes/ do the browsing."
   - "Each note opens with a definition I can quote in one breath."
@@ -26,6 +26,9 @@ relationships:
   - type: extends
     wikilink: "[[Note Relationships]]"
     reason: "Getting started teaches the garden rules that note relationships formalize with typed links"
+  - type: extends
+    wikilink: "[[Depth of Understanding]]"
+    reason: "Five level bullets in key_concept map recognize-to-create depth on each claim"
   - type: extends
     wikilink: "[[Reading the Garden]]"
     reason: "After garden rules - how to learn from what you read"
@@ -42,10 +45,6 @@ aliases: ["start"]
 featured: true
 draft: false
 ---
-
-
-
-
 ## Atomic rule
 
 **One note = one claim** I'd cite in conversation. Put the definition in `description`, the angle in `key_concept`, two scenes in `examples`, and typed links in `relationships` frontmatter - not body `##` sections. Hub/MOC and utility pages may keep prose sections in the body. See [[Atomic Notes]] and [[Note Relationships]].

@@ -6,12 +6,12 @@ key_concept: |
   {{< bible ref="1 Corinthians 12:12" emphasize="12" >}}
   
   - I am not the whole body - Paul names many parts under one Christ so comparison and solo-hero ministry both miss the design.
-  - Level 1: Like a team where one kid guards and another scores - the win needs every position, not five point guards.
-  - Level 2: Different gifts serve the same Head - envy at another part is as silly as the foot wishing it were a hand.
-  - Level 3: Under [[Free Grace]], every believer belongs - [[Faithful Steward]] work, not a popularity contest for standing.
-  - Level 4: [[Invest in the Few]] names depth with your people; many parts names humility about which part you are not.
-  - Level 5: [[Know Your Lane]] is the garden echo - clarity on your slice beats pretending you cover every position.
   - [[Servant Leadership]] uses gifts to build others up - not to hoard every role because it feels holy.
+level_1: "Many parts one body means the church is one body with different gifts under one Head - no part covers every role alone."
+level_2: "Like a team where one kid guards and another scores, envy at another part is as silly as the foot wishing it were a hand."
+level_3: "Say no to ministry slots that are not your part so the actual teachers can teach - solo-hero volunteering burns out the wrong gift."
+level_4: "Under [[Free Grace]], every believer belongs - [[Faithful Steward]] work, not a popularity contest for standing."
+level_5: "[[Know Your Lane]] is the garden echo - clarity on your slice beats pretending you cover every position; [[Servant Leadership]] builds others up instead of hoarding every role."
 examples:
   - "I volunteered for every ministry slot until burnout - 1 Corinthians body truth was saying no so the actual teachers could teach."
   - "Envy at someone's platform gift stole my joy serving kids - my part was faithful in the classroom, not their microphone."

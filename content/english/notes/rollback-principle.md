@@ -4,14 +4,14 @@ meta_title: "Rollback Principle - Undo Before You Push, Revert Before You Debug"
 description: "Restore the last good state before you push - when the new state breaks, revert first, debug second."
 key_concept: |
   - If I cannot explain the path back in one sentence, I am not ready to ship.
-  - Level 1: If you cannot say in one sentence how to undo a change, you are not ready to release it yet.
-  - Level 2: If you cannot say in one sentence how you would undo a change, you are not ready to release it yet.
-  - Level 3: One-sentence path back - gate before ship, not review-room invention.
-  - Level 4: Because production surprises are guaranteed, rollback clarity is readiness, not pessimism.
-  - Level 5: If I cannot explain the path back in one sentence, I am not ready to ship - pairs with [[Reversibility]] and [[Safety by Design]].
   - [[Reversibility]] is the decision frame; rollback is the rehearsed move.
   - Last quarter I kept a bad Friday deploy live because I wanted the milestone more than the rollback conversation.
   - The team needed "my call, here is the fix," not a speech.
+level_1: "The rollback principle is the rule that you restore the last good state before you debug the broken one."
+level_2: "If you cannot say in one sentence how to undo a change, you are not ready to release it yet."
+level_3: "Revert the bad Friday deploy in standup, say your call, fix Monday - rollback first, root-cause second."
+level_4: "Because production surprises are guaranteed, rollback clarity is readiness, not pessimism."
+level_5: "Pair with [[Reversibility]] and [[Safety by Design]] - rehearse the undo drill before milestone pride blocks the revert."
 examples:
   - "Bad Friday deploy - I reverted in standup, said my call, fixed Monday."
   - "The point guard ran Tuesday's inbound at halftime when the new play bled points - rollback was the drill they would already walked, not a whiteboard invention."
@@ -85,7 +85,3 @@ cards:
     back: "Keep undo path - ladles not lectures."
 draft: false
 ---
-
-
-
-

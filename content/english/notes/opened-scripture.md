@@ -6,14 +6,14 @@ key_concept: |
   {{< bible ref="Luke 24:27" emphasize="27" >}}
   
   - On the Emmaus road He explained Moses and all the Prophets - not a citation dump, but opening what the text meant.
-  - Level 1: On the road to Emmaus Jesus walked and explained what the Bible meant - like a teacher opening a story line by line, not just reading verse numbers with no explanation.
-  - Level 2: Opened scripture means walking someone through the text until it makes sense - meaning, not citation dump.
-  - Level 3: He opened what the text meant while walking - exposition tied to the listener, not proof-texting without context.
-  - Level 4: Teach scripture by opening meaning line by line - if you only drop references, you copied an index, not opened the word.
-  - Level 5: [[Layered Reading]] and [[Discipleship]] follow the same move - [[It Is Written]] cites authority; opened scripture explains so the heart can burn.
   - Later He opened their minds to understand the Scriptures - same move: make the Book legible, not impressive.
   - [[Great Commission]] passes truth on; [[Discipleship]] learns and does - this names how He taught from the text Himself.
   - Under [[Free Grace]], explaining Scripture is not earning favor - it is how the risen Teacher still makes Himself known.
+level_1: "Opened scripture means walking someone through the Bible until the text makes sense - exposition, not verse-dropping."
+level_2: "Like a teacher opening a story line by line - meaning tied to the listener, not proof-texting without context."
+level_3: "In Bible study, read the passage, then explain what Moses and the Prophets meant before jumping to application."
+level_4: "If you only drop references, you copied an index - opened scripture makes the Book legible so the heart can burn."
+level_5: "[[Layered Reading]] and [[Discipleship]] follow the same move - [[It Is Written]] cites; opened scripture explains."
 examples:
   - "I dropped three verses in the group chat and walked away - Jesus walked seven miles explaining one story on the Emmaus road."
   - "Bible study leader read the passage and moved to application in ninety seconds - He took time to open what Moses and the Prophets meant."
@@ -63,5 +63,3 @@ cards:
     back: "Teach - open Scripture, don't dump."
 draft: false
 ---
-
-

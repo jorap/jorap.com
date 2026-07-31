@@ -4,13 +4,13 @@ meta_title: "Convert Pain Into Learning - Failure Must Produce Correction"
 description: "Convert pain into learning means failure must produce correction, not stewing without change."
 key_concept: |
   - Failure becomes useful only when it produces correction.
-  - Level 1: Like when you skin your knee and learn to look where you run - pain helps only if you change the next step.
-  - Level 2: A player loses the game and writes one fix on the locker - failure becomes useful only when it produces correction, not just stewing.
-  - Level 3: Convert pain into learning means reflect, pull the lesson, design a better response, test it next time the situation shows up.
-  - Level 4: Write one page on weak transitions after the bombed presentation - rehearse bridges ten times, two fewer slides, test on the next client call.
-  - Level 5: Pairs with [[Blameless After-Action Review]] without blame theater - pain that produces no process change is not learning, it is stewing with a notebook.
   - Reflect on what happened, pull out the lesson, design a better response, and test it the next time the situation shows up.
   - Stewing without change is just suffering.
+level_1: "Convert pain into learning means failure must produce correction - reflect, pull the lesson, design a better response, and test it next time."
+level_2: "Pain helps only if you change the next step - like skinning your knee and learning to look where you run instead of stewing without change."
+level_3: "Write one page on weak transitions after the bombed presentation - rehearse bridges ten times, two fewer slides, test on the next client call."
+level_4: "Pairs with [[Blameless After-Action Review]] without blame theater - pain that produces no process change is not learning, it is stewing with a notebook."
+level_5: "A player loses the game and writes one fix on the locker - you turn the miss into a process change someone else can run next week."
 examples:
   - "I bombed a client presentation and stewed for a week - convert pain into learning was one page on weak transitions, rehearsed bridges ten times, and two fewer slides."
   - "I missed the turn twice on the new commute - one note on where the sign hides, tested next Monday, because stewing without change would have been just suffering."
@@ -69,5 +69,3 @@ cards:
     back: "One page of changes - not a saga."
 draft: false
 ---
-
-

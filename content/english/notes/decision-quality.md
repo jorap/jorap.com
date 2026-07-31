@@ -4,13 +4,13 @@ meta_title: "Decision Quality - Good Calls Under Real Constraints"
 description: "Choices are judged by whether they hold after sleep, new facts, and the real bill - not the meeting high."
 key_concept: |
   - Decision quality is how often choices hold up after information, time, and energy are factored in.
-  - Level 1: Like when you sleep on a big choice - if it still makes sense tomorrow, it was a better pick.
-  - Level 2: A family calls one neighbor about the flood-prone pickup lane before signing the year-long club fee - facts and time test the choice.
-  - Level 3: Decision quality is how often choices hold up after information, time, and energy are factored in - not just in the excited meeting.
-  - Level 4: Call one current member before you sign the year-long club fee - one neighbor call about the flood-prone pickup lane before you pay.
-  - Level 5: Pairs with [[Control the Rhythm]] when urgency pushes a fast yes - quality decisions survive new facts and the real bill, not the buzz in the room.
   - A choice that only looks good in the meeting room is not a quality decision.
   - Sleep on it, then check whether the choice still holds.
+level_1: "Decision quality is how often choices hold up after information, time, and energy are factored in - not just in the excited meeting."
+level_2: "Sleep on a big choice - if it still makes sense tomorrow, it was a better pick; facts and time test the choice before you commit."
+level_3: "Call one current member before you sign the year-long club fee - one neighbor call about the flood-prone pickup lane before you pay."
+level_4: "Pairs with [[Control the Rhythm]] when urgency pushes a fast yes - quality decisions survive new facts and the real bill, not the buzz in the room."
+level_5: "A family calls one neighbor about the flood-prone pickup lane before signing - you build a habit of testing choices against sleep and new facts."
 examples:
   - "Signing a year-long club fee on one trial session is how people miss the schedule clash - decision quality was one call to a current member before we paid."
   - "We almost picked the school on one sunny open house - one neighbor call about the flood-prone pickup lane changed our call before we signed."
@@ -59,5 +59,3 @@ cards:
     back: "Need one night - quality over speed."
 draft: false
 ---
-
-

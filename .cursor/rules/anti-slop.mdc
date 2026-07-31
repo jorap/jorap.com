@@ -37,6 +37,8 @@ Structural slop is caught by `pnpm lint:slop` / `pnpm slop:scan` (`data/slop-rul
 ## Notes garden - hard blocks
 
 - No `users should` / `one might` / `it is recommended` in `description`, `key_concept`, `examples`, `shareable_thought`, `cards`, or `relationships.reason`.
+- `key_concept`: claim + optional post-level stack (wikilinks OK).
+- `level_1`…`level_5`: depth ladder after `key_concept` - plain prose, no `Level N:` prefix.
 - `key_concept` line 1 is a claim you'd argue - not "This is a framework for…".
 - Run garden-voice de-AI pass + `pnpm lint:voice` + `pnpm lint:slop` before finishing.
 

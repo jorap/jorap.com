@@ -16,8 +16,9 @@
     {{- $rels = $rels | append (printf "%s %s %s" .type .wikilink .reason) -}}
   {{- end -}}
 {{- end -}}
+{{- $kcSearch := partial "notes/format-key-concept.html" $page -}}
 {{- return dict
-  "keyConcept" (strings.TrimSpace ($page.Params.key_concept | default ""))
+  "keyConcept" $kcSearch
   "shareableThought" (delimit $shareable " ")
   "relationships" (delimit $rels " ")
 -}}

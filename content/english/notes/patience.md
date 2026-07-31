@@ -4,15 +4,15 @@ meta_title: "Patience - Slow Fuse the Spirit Grows"
 description: "Wait without turning brittle - the Spirit grows a slow fuse, not a countdown to snapping."
 key_concept: |
   {{< bible ref="James 5:7" emphasize="7" >}}
-
+  
   - Be patient until the Lord comes - the Spirit does not shortcut the wait; it changes what waiting does to you.
-  - Level 1: The Spirit does not make waiting disappear - it keeps waiting from turning you bitter, like rain on a seed that takes weeks to sprout instead of rotting in the mud.
-  - Level 2: Patience fruit means the Spirit changes what delay does to you - the wait stays, resentment does not calcify.
-  - Level 3: Galatians lists patience beside gentleness and self-control - endurance under providence because you are connected to the vine, not performing virtue.
-  - Level 4: One breath before reaction buys the Spirit room - [[Slow the Moment]] is the garden echo of the same beat.
-  - Level 5: [[Abide in Me]] is the engine; [[Sanctification]] is the slow becoming - [[Fruits of the Spirit]] ripens patience over years, not one willpower sprint until Friday.
   - Endurance under delay because you are connected to the vine, not performing virtue.
   - [[Slow the Moment]] is the garden echo: one beat before reaction buys the Spirit room to answer instead of the urge.
+level_1: "Patience as Spirit fruit means enduring delay without turning bitter - the wait stays; resentment does not calcify."
+level_2: "Like rain on a seed that takes weeks to sprout - the Spirit changes what waiting does to you, not the calendar."
+level_3: "One breath before reaction when cut off in traffic - buy the Spirit room instead of matching horn for horn."
+level_4: "Galatians lists patience beside gentleness and self-control - endurance under providence from the vine, not performed virtue."
+level_5: "[[Abide in Me]] is the engine; [[Sanctification]] is the slow becoming - [[Fruits of the Spirit]] ripens patience over years."
 examples:
   - "I snapped at my kid after a week with almost no prayer - Galatians patience comes from [[Walk by the Spirit]], not forcing virtue until Friday."
   - "Cut off in traffic, my first instinct matched horn for horn - patience fruit was one breath before I became the driver I hate."
@@ -71,5 +71,3 @@ cards:
     back: "Spirit connection - not performance fuse."
 draft: false
 ---
-
-

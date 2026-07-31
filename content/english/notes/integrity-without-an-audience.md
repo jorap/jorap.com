@@ -4,15 +4,15 @@ meta_title: "Integrity Without an Audience - Do the Honest Work"
 description: "Honest work with no audience - accurate time logs, real tests, the fix nobody asked for yet."
 key_concept: |
   - Do the honest work when there is no audience.
-  - Level 1: Do the right thing even when nobody is watching you - like cleaning your room when guests are not coming.
-  - Level 2: Applause is not what keeps the standard - practice alone before the game the same way you would with a crowd.
-  - Level 3: When integrity only shows up on stage, private corners still rot - character is what you do unseen, not what you perform.
-  - Level 4: Keep the same honest standard in private tasks you would defend in public.
-  - Level 5: [[Secret Devotion]] and [[Integrity]] both count obedience without an audience - [[Judgment Seat]] evaluates what nobody saw.
   - Performance for the standup is its own reward and a small one.
   - Some good work should stay hidden; some should shine in [[Let Your Light Shine]].
   - This note is the hidden lane: quality when the manager is not looking.
   - Gospel source: [[Secret Devotion]].
+level_1: "Integrity without an audience is doing the honest work when nobody is watching - accurate logs, real tests, the fix nobody asked for yet."
+level_2: "Applause is not what keeps the standard - practice alone before the game the same way you would with a crowd in the stands."
+level_3: "Run the real spelling check on the homework when your kid is not looking over your shoulder - same honest standard in private tasks you would defend in public."
+level_4: "When integrity only shows up on stage, private corners still rot - character is what you do unseen, not what you perform for the standup."
+level_5: "[[Secret Devotion]] and [[Integrity]] both count obedience without an audience - [[Judgment Seat]] evaluates what nobody saw."
 examples:
   - "The market scale stays honest when the seller steps away to take a call - I could have scooped light on the last bag of rice; instead I re-weighed it before the customer came back."
   - "I ran the real spelling check on the homework when my kid was not looking over my shoulder."
@@ -65,5 +65,3 @@ cards:
     back: "Close correctly - audience isn't the test."
 draft: false
 ---
-
-

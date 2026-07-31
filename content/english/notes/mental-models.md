@@ -4,15 +4,15 @@ meta_title: "Mental Models - Lenses I Actually Use"
 description: "Mental models are thinking shortcuts kept when they survive real decisions."
 key_concept: |
   - Mainstream mental models for decisions and performance - note the ones that earn repeat use.
-  - Level 1: Keep the simple thinking tools that help you decide again and again - like keeping only the tools in your box that you actually use, not every gadget you ever bought.
-  - Level 2: Mental models are reusable frames for decisions - note the few you actually reach for, not every framework you read once.
-  - Level 3: A mental model earns a place when you use it twice under pressure - the rest is shelf decoration.
-  - Level 4: After a hard call, name which frame helped - if none did, you are collecting models, not thinking with them.
-  - Level 5: [[Decision Quality]] and [[Behavioral Economics]] supply candidates - [[Pareto Principle]] and [[Minimum Effective Dose]] are examples that survived contact with real choices.
   - A model nobody reaches for is the same problem as a junk-drawer bookmark - recall under pressure is the value.
   - Mental models are thinking shortcuts I keep when they survive real decisions.
   - Retire the model when real decisions prove it wrong.
   - I note the mental models that earn repeat use in real decisions - retire the rest.
+level_1: "A mental model is a reusable frame for decisions - keep the few you actually reach for, not every framework you read once."
+level_2: "Like keeping only the tools in your box that you actually use, a model earns a place when you use it twice under pressure."
+level_3: "After a hard call, name which frame helped - if none did, you are collecting models, not thinking with them."
+level_4: "A model nobody reaches for is shelf decoration - recall under pressure is the value, not the bookmark count."
+level_5: "[[Decision Quality]] and [[Behavioral Economics]] supply candidates - [[Pareto Principle]] and [[Minimum Effective Dose]] are examples that survived contact with real choices."
 examples:
   - "The restaurant had twelve menu tweaks on the whiteboard - I picked the two that actually cut ticket times and shelved the rest."
   - "Waze showed four commute routes - I stuck to the one that saves gas on the Tuesday school run, not the scenic detour."
@@ -56,4 +56,3 @@ cards:
     back: "Name the model - fit the tool to the problem."
 draft: false
 ---
-

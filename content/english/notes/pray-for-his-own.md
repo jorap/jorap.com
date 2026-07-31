@@ -4,19 +4,19 @@ meta_title: "Pray for His Own - High Priestly Prayer"
 description: "Jesus prayed the high priestly prayer for Himself, the twelve, and every future believer - unity, protection, and glory."
 key_concept: |
   {{< bible ref="John 17:11" emphasize="11" >}}
-
+  
   - Jesus asks the Father to keep His own one - unity under the Father's name, not my grip alone.
-  - Level 1: In the high priestly prayer Jesus talks to God about His friends and everyone who will believe - it is the longest prayer in the Gospels.
-  - Level 2: In the high priestly prayer Jesus talks to God the Father about Himself, His twelve followers, and everyone who will believe later - it is the longest prayer in the Gospels.
-  - Level 3: The prayer moves in three rings - Jesus for Himself, the twelve for keeping and unity, then every future believer through their word.
-  - Level 4: Because He is leaving, He asks the Father to keep what He bought - sanctify in truth, guard in the Father's name, make them one.
-  - Level 5: The high priestly prayer is the longest the Gospels record - glory, the hour, and the people the Father gave Him; [[Free Grace]] puts me in the those who will believe branch.
-
+  
   {{< bible ref="John 17:20-23" emphasize="20" >}}
-
+  
   - He extends the same prayer to everyone who will believe through their word - kept by the Father's name, not by my grip on Him.
   - [[Invest in the Few]] names who He chose; this prayer names what He asks the Father to do for them after He leaves.
   - Under [[Free Grace]], I am in the "those who will believe" branch - kept by the Father's name, not by my grip on Him.
+level_1: "Pray for His own is the high priestly prayer - Jesus intercedes for Himself, the twelve, and every future believer in John 17."
+level_2: "The prayer moves in three rings - for Himself, for the twelve for keeping and unity, then for all who will believe through their word."
+level_3: "When church drama makes you want to quit, read John 17:11-23 - Jesus asked the Father to keep and unify people like us."
+level_4: "Because He is leaving, He asks the Father to keep what He bought - sanctify in truth, guard in the Father's name, make them one."
+level_5: "The longest prayer the Gospels record - glory, the hour, and the people the Father gave Him; [[Free Grace]] puts me in the those who will believe branch."
 examples:
   - "Church drama had me ready to quit - John 17:11-23 says Jesus asked the Father to keep and unify people like us, not that we would never fray."
   - "I prayed for my kids' faith and realized He already prayed for every future believer to see His glory - my parenting joins His intercession, not replaces it."
@@ -69,5 +69,3 @@ cards:
     back: "Believers through their word - includes me."
 draft: false
 ---
-
-

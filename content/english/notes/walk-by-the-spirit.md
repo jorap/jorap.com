@@ -4,14 +4,14 @@ meta_title: "Walk by the Spirit - Daily Dependence Over Willpower"
 description: "The Christian life runs on Spirit-led steps - not willpower sprints that collapse by Friday."
 key_concept: |
   {{< bible ref="Galatians 5:16" emphasize="16" >}}
-
+  
   - Willpower alone cannot carry what God asked - walking by the Spirit is daily dependence, not a one-time decision badge.
-  - Level 1: Like pedaling while Dad steadies the bike - the ride works because someone stronger holds the line.
-  - Level 2: Walk by the Spirit means choosing His path when the flesh wants the shortcut - same battle Paul names in Galatians 5.
-  - Level 3: [[Fruits of the Spirit]] lists what the Spirit grows - love through self-control shows up when the walk is real, not performed.
-  - Level 4: Under [[Free Grace]], the walk does not buy heaven - it answers grace already received through [[Grateful Obedience]].
-  - Level 5: [[Abide in Me]] is the vine picture; walking by the Spirit is the daily lane - [[Follow the Rhythm]] is the garden echo for habits that hold.
   - [[Sanctification]] is slow becoming on this path - not a merit report card.
+level_1: "Walk by the Spirit means daily dependence on the Spirit for obedience - not willpower sprints that collapse by Friday."
+level_2: "Like pedaling while Dad steadies the bike - the ride works because someone stronger holds the line when the flesh wants the shortcut."
+level_3: "Ask the Spirit before the meeting where you white-knuckled patience until Thursday then snapped - one prayed no before the scroll wins."
+level_4: "[[Fruits of the Spirit]] lists what the Spirit grows - love through self-control shows up when the walk is real; under [[Free Grace]] the walk does not buy heaven."
+level_5: "[[Abide in Me]] is the vine picture; walking by the Spirit is the daily lane - [[Follow the Rhythm]] is the garden echo for habits that hold."
 examples:
   - "I white-knuckled patience until Thursday then snapped - Galatians walking means asking the Spirit before the meeting, not performing virtue until I crack."
   - "Temptation hit on a travel week and my phone was the easy exit - walking by the Spirit was one prayed no before the scroll won."

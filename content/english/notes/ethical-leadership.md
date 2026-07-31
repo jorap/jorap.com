@@ -4,14 +4,14 @@ meta_title: "Ethical Leadership"
 description: "What gets let slide in front of the team becomes their real standard, not the poster."
 key_concept: |
   - Ethical leadership means what you let slide in front of the team becomes their real standard.
-  - Level 1: What you ignore in front of your team tells them it is okay, like kids copying what parents let slide.
-  - Level 2: Ethical leadership is like a thermostat - the room settles to what you tolerate, not what the poster on the wall says.
-  - Level 3: Because teams mirror what leaders enforce, every ignored shortcut teaches the team that shortcut is allowed.
-  - Level 4: Call out the small slip in front of the team before it becomes the culture - silence reads as yes.
-  - Level 5: What you let slide in front of the team becomes their real standard - [[Integrity]] the team can see beats what you preach on the poster.
   - The standard you walk past is the standard you accept for everyone under you.
   - [[Integrity]] the team can see beats what you preach on the poster.
   - Silence in the room is a decision too - people read it as a yes.
+level_1: "Ethical leadership means what you let slide in front of the team becomes their real standard - not what the poster on the wall says."
+level_2: "What you ignore in front of your team tells them it is okay - like a thermostat where the room settles to what you tolerate, not the poster."
+level_3: "Call out the small slip in front of the team before it becomes the culture - silence reads as yes."
+level_4: "What you let slide in front of the team becomes their real standard - [[Integrity]] the team can see beats what you preach on the poster."
+level_5: "The coach killed the unsafe trust-fall drill when a safer team exercise achieved the same bonding goal - you enforce the floor the team will copy."
 examples:
   - "I stopped the backyard wrestling match when someone was about to get hurt - same fun goal, safer path, even though the kids wanted the rougher version."
   - "The coach killed the unsafe trust-fall drill when a safer team exercise achieved the same bonding goal - authority used to protect people, not to win at their expense."
@@ -60,6 +60,3 @@ cards:
     back: "Name the slip now - silence reads as yes."
 draft: false
 ---
-
-
-

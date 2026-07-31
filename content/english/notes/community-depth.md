@@ -4,13 +4,13 @@ meta_title: "Community Depth - Bench Beats Logo"
 description: "Thick communities save weeks on fixes and hiring; thin open-source benches cost evenings with no backup."
 key_concept: |
   - I pick the open tool with the deeper bench - not the prettier logo.
-  - Level 1: Plugins, themes, job posts, and Stack Overflow threads from last month - a thin community costs hours; a thick one saves weeks.
-  - Level 2: Community depth is like picking the restaurant with a full kitchen staff - the menu photo matters less than whether someone has cooked your order a thousand times before.
-  - Level 3: Because [[Open Source]] gives choice, market and maintenance depth should beat architecture diagrams - Drupal made sense until upgrades ate weekends and job posts vanished in my city.
-  - Level 4: WordPress won my income lane partly because WordCamp Manila filled a room - not because Joomla was secretly worse, but because the hireable bench was deeper.
-  - Level 5: [[Inspectable Stack]] still filters [[Open Not Maintained]]; [[Selling Static Sites]] and client WordPress work both assume someone else already solved the boring problem.
   - Teaching seminars I pointed students at stacks employers actually hire for - WordPress listings were everywhere, niche CMS cred did not pay rent.
   - AI coding assistants lean on public repos and familiar file layouts - familiar in 2026 often means open source with a thick thread archive.
+level_1: "Community depth is how thick the bench is around a tool - plugins, themes, job posts, and fresh Stack Overflow threads from last month."
+level_2: "Like picking the restaurant with a full kitchen staff - the menu photo matters less than whether someone cooked your order a thousand times before."
+level_3: "Because [[Open Source]] gives choice, market and maintenance depth should beat architecture diagrams - WordPress won my income lane partly because WordCamp Manila filled a room."
+level_4: "Drupal made sense until upgrades ate weekends and job posts vanished in my city - a thin community costs hours; a thick one saves weeks."
+level_5: "[[Inspectable Stack]] still filters [[Open Not Maintained]]; [[Selling Static Sites]] and client WordPress work both assume someone else already solved the boring problem."
 examples:
   - "Drupal upgrades ate weekends and I could not find paid work with it in Manila - WordPress had the plugin shelf and the job board density."
   - "Hugo theme bug at midnight - GitHub issue from last month had the nil-check pattern; a thin static-generator bench would have been solo archaeology."

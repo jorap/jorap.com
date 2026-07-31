@@ -4,14 +4,14 @@ meta_title: "Linking by Meaning - How Ideas Find Each Other"
 description: "Link notes so ideas meet in the graph without memorizing every folder path."
 key_concept: |
   - Folders sort files; links connect ideas.
-  - Level 1: Folders put papers in separate drawers - links hook one idea to another like a string between two pictures so you can follow the trail.
-  - Level 2: Folders group files by where they sit - links connect notes by what one idea means to another so you can walk the chain.
-  - Level 3: Linking by meaning beats filing by folder because ideas cross topics - links carry the relationship, not the drawer label.
-  - Level 4: Link two notes when one extends or pushes back on the other - that is enough for the graph to stay walkable months later.
-  - Level 5: [[Atomic Notes]] plus [[Linking by Meaning]] beat alphabet soup inside [[PARA Method]] buckets - two typed links per note often outlast whatever folder path you forgot.
   - I link notes so ideas meet in the graph without me memorizing every folder path.
   - Two typed links are enough for the garden to stay walkable six months later when the folder path is gone.
   - One link to what extends the thought, one to what pushes back.
+level_1: "Linking by meaning connects notes because one idea relates to another, not because they share a folder."
+level_2: "Folders put papers in separate drawers - links hook ideas like a string between pictures so you can follow the trail."
+level_3: "Link two notes when one extends or pushes back on the other - that is enough for the graph to stay walkable months later."
+level_4: "Ideas cross topics - links carry the relationship, not the drawer label, so the garden survives when you forget the folder path."
+level_5: "[[Atomic Notes]] plus [[Linking by Meaning]] beat alphabet soup inside [[PARA Method]] buckets - two typed links per note often outlast whatever folder path you forgot."
 examples:
   - "I linked \"jeepney delay\" to \"leave earlier\" in my daily note and found it six weeks later when the same route broke again - proximity beats perfect filing."
   - "The playbook card links \"late press\" to \"[[Slow the Moment]]\" - I find the counter without memorizing every filename in the binder."
@@ -52,4 +52,3 @@ cards:
     back: "Minimum - add one contradicts."
 draft: false
 ---
-

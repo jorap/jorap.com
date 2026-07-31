@@ -4,13 +4,13 @@ meta_title: "People-Centered Design - Human Needs First or Change Will not Stick
 description: "Design for real human needs first - customers, teammates, stakeholders - or the change will not stick."
 key_concept: |
   - A process that ignores the people inside it gets worked around by Friday.
-  - Level 1: If a new rule ignores how real people actually work, they will find a workaround by Friday - like a path worn through grass because the sidewalk missed where people walk.
-  - Level 2: People-centered design means the process must fit humans inside it - ignore them and workarounds appear immediately.
-  - Level 3: A policy that fights real workflow gets routed around - design for how people actually move, not the org chart fantasy.
-  - Level 4: Pilot with the people who must live in the rule - if they invent a bypass in week one, the design failed, not the staff.
-  - Level 5: [[Safety by Design]] and [[Staged Rollout]] assume the same test - [[Normalization of Deviance]] starts when the official process and the lived process diverge.
   - People-centered design keeps actual needs in front - what slows a nurse down, what confuses a new hire, what a customer is trying to finish - before I optimize the chart or the slide.
   - [[Listen Before Fixing]] and [[Psychological Safety]] are prerequisites: you cannot design for people you did not hear.
+level_1: "People-centered design means fitting the process to real human needs before optimizing the chart or slide."
+level_2: "Like a path worn through grass where the sidewalk missed where people walk - ignore humans and workarounds appear by Friday."
+level_3: "Pilot with the people who must live in the rule - if they invent a bypass in week one, the design failed."
+level_4: "Official process and lived process diverge into [[Normalization of Deviance]] - you cannot design for people you did not hear."
+level_5: "[[Safety by Design]] and [[Staged Rollout]] assume the same test - [[Listen Before Fixing]] and [[Psychological Safety]] come first."
 examples:
   - "The clinic rolled out a new chart template nobody could finish during a shift - people-centered design was watching one nurse chart for twenty minutes, then cutting three fields."
   - "Our checkout 'improvement' added steps customers hated - people-centered design was shadowing three checkouts and removing the extra tap, not defending the flowchart."
@@ -69,6 +69,3 @@ cards:
     back: "Watch three checkouts - design for real hands."
 draft: false
 ---
-
-
-

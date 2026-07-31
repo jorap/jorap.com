@@ -4,12 +4,12 @@ meta_title: "Creative Output - Why I Capture at All"
 description: "Notes are inventory - posts, sermons, code, and dinner experiments are the point."
 key_concept: |
   - Output is the point - ship posts, sermons, code on a deadline, in distraction-free focus.
-  - Level 1: Like when notes become a finished poster on the wall - others can use what you made, not just your private pile.
-  - Level 2: A chef ships three test plates on Friday even if the garnish is rough - output is the point, not perfect drafts in the drawer.
-  - Level 3: Creative output is why capture exists - the inventory only pays off the day it becomes something someone else can read, hear, or eat.
-  - Level 4: Ship three sparks as one finished piece on Friday even if the cut is rough - do not wait for perfect dinner photos.
-  - Level 5: Pairs with [[Deep Work]] for protected blocks and [[Creative Blocks]] when hoarding replaces ship - the pile is not the product.
   - The inventory only pays off the day it becomes something someone else can read, hear, or eat.
+level_1: "Creative output is finished work others can read, hear, or use - notes are inventory until something ships."
+level_2: "Notes become a finished poster on the wall - like a chef who ships three test plates on Friday even if the garnish is rough."
+level_3: "Ship three sparks as one finished piece on Friday even if the cut is rough - do not wait for perfect dinner photos."
+level_4: "Pairs with [[Deep Work]] for protected blocks and [[Creative Blocks]] when hoarding replaces ship - the pile is not the product."
+level_5: "Friday film day means everyone shows one clip, rough or not - you turn the note pile into something someone else can use."
 examples:
   - "Friday film day means everyone shows one clip, rough or not - I do the same with my note pile, three sparks become one finished piece even if the cut is rough."
   - "We do not wait for perfect dinner photos - we ship the meal and fix the recipe next time."
@@ -59,4 +59,3 @@ cards:
     back: "Serve food - polish the post later."
 draft: false
 ---
-

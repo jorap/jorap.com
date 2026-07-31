@@ -6,12 +6,7 @@ key_concept: |
   {{< bible ref="Matthew 25:14-30" emphasize="23" >}}
   
   - Faithful use compounds; buried talent loses even what was given - reward can shrink without un-saving you.
-  - Level 1: Use what you are given and it can grow - like watering a plant instead of hiding the seed in a drawer where nothing happens.
-  - Level 2: The faithful servant compounds what the master gave - bury it and even that talent can be lost, while salvation stays on Christ alone.
-  - Level 3: Loss of reward means worthless works burn at the judgment seat - eternal life stays secure on faith, but repayment for faithful living can shrink.
-  - Level 4: Serve with what you have now - wasted seasons may cost reward at the [[Judgment Seat]] without reopening [[Justification]].
-  - Level 5: Two ledgers: [[Free Grace]] settles eternal life at faith; [[Eternal Rewards]] settle what lasted - wood hay and stubble burn, gold stays, and [[Standing vs Fellowship]] keeps shame from collapsing standing.
-
+  
   {{< bible ref="1 Corinthians 3:12-15" emphasize="15" >}}
   
   - Saved through fire with loss - two ledgers: eternal life on Christ, reward on what lasted.
@@ -24,6 +19,11 @@ key_concept: |
   - [[Forgiveness]] restores fellowship when sin breaks closeness - neither re-opens [[Justification]].
   - [[Faith and Works]] and [[The Narrow Way]] split false "Lord, Lord" from a believer who stumbled and repents.
   - PKM mirror: [[Failure as Feedback]] - a burned work is feedback on what to build differently, not proof you were never in the garden.
+level_1: "Loss of reward means a saved believer can forfeit repayment for faithful living while eternal life stays secure on Christ."
+level_2: "Like watering a plant instead of hiding the seed in a drawer, faithful use compounds what the master gave - bury it and even that talent can be lost."
+level_3: "Serve with what you have now - wasted seasons may cost reward at the [[Judgment Seat]] without reopening [[Justification]]."
+level_4: "Worthless works burn at the judgment seat - eternal life stays on faith alone, but wood hay and stubble do not earn repayment."
+level_5: "Two ledgers: [[Free Grace]] settles eternal life at faith; [[Eternal Rewards]] settle what lasted - [[Standing vs Fellowship]] keeps shame from collapsing standing."
 examples:
   - "Wasted years of selfish living and terror I am not saved - reward may burn at the judgment seat; my standing was settled when I trusted Christ."
   - "Hidden sin exposed and shame screamed heaven access revoked - confess, restore fellowship, keep walking; justification on Christ does not get re-opened by a bad season."
@@ -97,6 +97,3 @@ cards:
     back: "Confess, restore walk - standing on Christ stays."
 draft: false
 ---
-
-
-

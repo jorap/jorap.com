@@ -6,11 +6,6 @@ key_concept: |
   {{< bible ref="Matthew 6:1-4" emphasize="4" >}}
   
   - Father who sees in secret repays - hidden devotion counted, not applause theater.
-  - Level 1: God sees secret work and will pay you back, like a teacher grading homework nobody else saw.
-  - Level 2: Eternal rewards are like payroll for work done off-camera - the Father who sees in secret repays hidden devotion, not applause theater.
-  - Level 3: Because salvation is gift first, rewards address faithful use of what He entrusted - not the price of eternal life.
-  - Level 4: Serve in secret today without performing for the room - the Father who sees in secret counts it even when the crowd never claps.
-  - Level 5: [[Free Grace]] settles where I spend forever; eternal rewards settle what the Father pays the saved life for walking faithfully including [[Secret Devotion]].
   - Secret fasting gets the same promise - Father who sees in secret rewards, not the crowd's applause.
   - Son of Man repays deeds at His return - reward review for the saved life, not the price of eternal life.
   - Well done for faithful use - gift first, repayment for faithfulness second, not the price of eternal life.
@@ -20,6 +15,11 @@ key_concept: |
   - [[Treasure in Heaven]] aims the heart at what to store; this note names the transaction: gift first, repayment for faithfulness second.
   - The [[Judgment Seat]] is where works get evaluated; [[Loss of Reward]] keeps reward-loss separate from salvation-loss.
   - Same shape as [[Compounding]] in the garden: small obedient acts over years, not one heroic week I mistake for a merit down payment on heaven.
+level_1: "Eternal rewards are what the Father repays believers for faithful obedience after salvation - hidden devotion counted, not applause theater."
+level_2: "God sees secret work and will pay you back - like payroll for work done off-camera, not the crowd's clap."
+level_3: "Serve in secret today without performing for the room - the Father who sees in secret counts it even when the crowd never claps."
+level_4: "[[Free Grace]] settles where I spend forever; eternal rewards settle what the Father pays the saved life for walking faithfully including [[Secret Devotion]]."
+level_5: "You stayed late to reset the gym alone and caught yourself fishing for credit - you build hidden obedience knowing the Father who sees in secret is the one who pays."
 examples:
   - "I stayed late to help reset the gym alone and immediately wanted to mention it at the next practice - the Father already saw it, and He is the one who pays, not the team chat."
   - "I covered a coworker's shift without telling anyone and caught myself fishing for credit in the break room - gift first, repayment for faithfulness second, not a merit down payment on heaven."
@@ -84,9 +84,3 @@ cards:
     back: "Faithful acts compound - Father repays."
 draft: false
 ---
-
-
-
-
-
-

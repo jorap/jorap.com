@@ -4,12 +4,12 @@ meta_title: "Reversibility"
 description: "Prefer choices you can undo - irreversible harm needs a higher bar."
 key_concept: |
   - Concrete undo path when the choice is a deploy or release.
-  - Level 1: Before you push a big change live, know how you would undo it - like keeping a spare key before you lock the door.
-  - Level 2: Before you push a big change live, know exactly how you would undo it if something breaks - like keeping a spare key before you lock the door.
-  - Level 3: Concrete undo path before deploy - rollback is design, not panic invention.
-  - Level 4: Because irreversible choices compound regret, ship only when the path back is spelled out and tested.
-  - Level 5: Concrete undo path when the choice is a deploy or release - if you cannot explain the path back, you are not ready to ship.
   - Staged Rollout names small blast radius makes undo cheap.
+level_1: "Reversibility means preferring choices you can undo - a concrete path back before you commit."
+level_2: "Like keeping a spare key before you lock the door - know how you would undo a big change before it goes live."
+level_3: "Try the new play in scrimmage before running it in the championship - reversible rehearsal, higher bar for the irreversible call."
+level_4: "Because irreversible choices compound regret, ship only when the path back is spelled out and tested."
+level_5: "Design [[Staged Rollout]] so blast radius stays small - rollback is architecture, not panic invention."
 examples:
   - "I took the longer route with an exit every mile before trying the new shortcut through construction."
   - "Try the new play in scrimmage before running it in the championship - reversible rehearsal, higher bar for the irreversible call."
@@ -58,6 +58,3 @@ cards:
     back: "Keep the longer route with exits."
 draft: false
 ---
-
-
-

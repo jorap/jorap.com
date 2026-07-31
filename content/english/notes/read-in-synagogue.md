@@ -6,14 +6,14 @@ key_concept: |
   {{< bible ref="Luke 4:16-21" emphasize="16" >}}
   
   - It was His custom on the Sabbath - He stood, read Isaiah aloud in the gathering, then sat down to teach.
-  - Level 1: Every Sabbath Jesus went to the gathering, stood up, read Scripture aloud, then sat down and taught from what He read.
-  - Level 2: Every Sabbath Jesus went to the synagogue, stood up, read Scripture out loud to the crowd, then sat down and taught from what He read.
-  - Level 3: Public reading then seated teaching - custom on the Sabbath, Isaiah in Nazareth as the pattern.
-  - Level 4: Because the gathering expected Scripture read aloud, His authority flowed from text handled in community, not private quotes.
-  - Level 5: It was His custom on the Sabbath - He stood, read Isaiah aloud in the gathering, then sat down to teach; rhythm the synagogue already knew.
   - Whole-person love of God is not Bible alone on the couch; it includes hearing and reading Scripture with God's people.
   - [[Love God]] names heart, soul, mind, strength - this names the gathered lane alongside private [[Abide in Me]] reading.
   - Under [[Free Grace]], showing up to worship is not earning standing - it is how the Teacher lived among the congregation He came to save.
+level_1: "Read in synagogue means Jesus publicly read Scripture aloud in gathered worship, then taught from what He read - custom on the Sabbath."
+level_2: "Public reading then seated teaching - like the rhythm the synagogue already knew, authority flowing from text handled in community."
+level_3: "Show up where the congregation hears Scripture together - private reading on the couch does not replace gathered hearing His custom modeled."
+level_4: "Because the gathering expected aloud reading, His authority came from text in community - not private quotes dropped without context."
+level_5: "[[Love God]] names heart, soul, mind, strength - this is the gathered lane alongside private [[Abide in Me]] reading under [[Free Grace]]."
 examples:
   - "I streamed a sermon in pajamas for a month and wondered why Scripture felt thin - Jesus had a custom of reading aloud with the congregation."
   - "Kids memorized verses at home but rarely heard the church read the text together - gathered reading was His rhythm, not a solo hobby."
@@ -63,7 +63,3 @@ cards:
     back: "Gathered lane - read with the church."
 draft: false
 ---
-
-
-
-

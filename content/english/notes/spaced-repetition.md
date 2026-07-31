@@ -4,15 +4,15 @@ meta_title: "Spaced Repetition - Remember What You Chose"
 description: "Review on a schedule so ideas stick - retention, application, and explanation, not fact pile-up."
 key_concept: |
   - Review on a schedule before I forget - for **retention**, **application**, and **explanation**, not vanity metrics or fact pile-up.
-  - Level 1: Go back to what you learned before you forget it - so you remember, use, and explain it.
-  - Level 2: Scheduled review beats cramming because memory fades on a curve - revisit before panic, not after.
-  - Level 3: Spaced repetition works when review targets retention, application, and explanation - not bookmark counts or vanity metrics.
-  - Level 4: Set a review schedule for spine notes you actually use - drill what you need to explain, not every line you saved.
-  - Level 5: The wiki holds prose you can defend; spaced cards hold what you need on a timer - same drill lane as [Flashcards](/notes/flashcards/) and [[Ask Seek Knock]] on rhythm.
   - The wiki holds understanding; cards and SRS hold drill - separate lanes, algorithm handles timing.
   - In this garden, spine notes (~20%, [[Pareto Principle]]) opt in with `review: true`
   - PKM habit prompts and [[Eternal Principles]] gospel cards share the same drill lane via `card_sets`.
   - [[Ask Seek Knock]] is the faith-side version: keep asking on rhythm, not cram once.
+level_1: "Spaced repetition is scheduled review before you forget - for retention, application, and explanation, not fact pile-up."
+level_2: "Memory fades on a curve - revisit before panic, not after; cramming beats the timer, not the long game."
+level_3: "Hit five spelling words while rice cooks instead of cramming the night before the quiz."
+level_4: "Because bookmark counts mislead, drill spine notes you actually use - separate wiki prose from cards on a timer."
+level_5: "Opt spine notes in with review true; export to Anki for phone sync - same drill lane as [[Ask Seek Knock]] on rhythm."
 examples:
   - "I do the same with note cards on capture and gospel lines - review on a schedule before I forget, not one marathon session."
   - "My kid's spelling list lives on the fridge; we hit five words while rice cooks - same little doses beat cramming the night before the quiz."
@@ -59,4 +59,3 @@ cards:
     back: "Review on schedule before I forget - not one marathon later."
 draft: false
 ---
-

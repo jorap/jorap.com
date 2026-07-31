@@ -4,12 +4,12 @@ meta_title: "Open Not Maintained - License Is Not Updates"
 description: "An open license does not mean maintained code - abandonware still fails the inspectable test."
 key_concept: |
   - View source on abandonware is permission without a repair bench.
-  - Level 1: License says you may read and fork - it does not say anyone still ships security patches or answers issues.
-  - Level 2: Open but unmaintained is like a public library with no librarian - you may browse the stacks, nobody restocks the shelves.
-  - Level 3: Because last commit was years ago, I budget a swap or fork plan before the plugin owns a critical path.
-  - Level 4: Gallery slider with no commits since 2019 - open license never helped at ten at night; maintained fork or replacement was the real fix.
-  - Level 5: [[Inspectable Stack]] adds move and help legs; [[Community Depth]] asks whether anyone still answers threads.
   - [[Say No to Nulled]] is a different failure mode - stolen premium, not honest abandonware.
+level_1: "Open not maintained means the license grants read and fork rights - nobody still ships patches or answers issues."
+level_2: "Like a public library with no librarian - you may browse the stacks; nobody restocks the shelves."
+level_3: "Before a frozen plugin owns a critical path, budget a swap or fork plan when the last commit was years ago."
+level_4: "Gallery slider with no commits since 2019 - open license did not help at ten at night; maintained fork was the fix."
+level_5: "[[Inspectable Stack]] adds move and help legs; [[Community Depth]] asks whether anyone still answers threads."
 examples:
   - "Client site ran a open-source gallery plugin frozen since 2019 - I replaced it before PHP 8 turned the fatal into a Friday outage."
   - "Hugo theme with one maintainer and forty open issues - I forked in-repo because waiting on upstream was slower than owning the nil check."

@@ -6,16 +6,16 @@ key_concept: |
   {{< bible ref="Matthew 7:15-20" emphasize="20" >}}
   
   - Wolves wear sheep's clothing - time and results tell, not the polished talk.
-  - Level 1: Like when a tree with thorns never grows sweet grapes - watch what grows, not how pretty the leaves look.
-  - Level 2: A smooth-talking coach makes big promises day one - by month three the team looks tired and bitter, and that tells you more.
-  - Level 3: By their fruits you discern teachers - evaluate outcome and motive over time, not hype; do not condemn souls, but do check fruit.
-  - Level 4: Watch whether followers look stressed and bitter by month three - fruit told you more than any clinic title on day one.
-  - Level 5: Jesus pairs this with [[Judge Not]] - garden parallel: [[Signal vs Noise]], what produces good over time; the [Issues](/notes/issues/) audit asks whether teaching leaves the graph healthier or broken.
   - do not condemn souls, but do evaluate fruit - grapes from vines, not hype.
   - Jesus pairs this with [[Judge Not]]: do not condemn souls, but do evaluate fruit.
   - Wolves may wear sheep's clothing; time and results tell. Garden parallel: [[Signal vs Noise]] - what actually produces good over time? The [Issues](/notes/issues/) audit - does the teaching leave the graph healthier or broken?
   - I check teachers by what their teaching produces, not by how polished the talk sounds.
   - The wolf does not announce itself - only a season of results tells you what is underneath the sheep's clothing.
+level_1: "By their fruits you evaluate teachers by outcome over time - wolves wear sheep's clothing; results tell, not polished talk."
+level_2: "Like a tree with thorns never growing sweet grapes - a smooth-talking coach makes big promises day one; by month three the team looks tired and bitter."
+level_3: "Watch whether followers look stressed and bitter by month three - fruit told you more than any clinic title on day one."
+level_4: "Discern motive and outcome over time - do not condemn souls, but do check fruit before you follow."
+level_5: "Jesus pairs this with [[Judge Not]] - garden parallel: [[Signal vs Noise]]; the [Issues](/notes/issues/) audit asks whether teaching leaves the graph healthier or broken."
 examples:
   - "The youth coach talks smooth on day one but his players look stressed and bitter by month three - fruit told me more than any clinic title ever could."
   - "A trending productivity guru's followers still drown in inbox chaos - grapes from grapevines, thorns from thistles, time and results tell."
@@ -62,4 +62,3 @@ cards:
     back: "What fruit does it produce - not charisma?"
 draft: false
 ---
-

@@ -4,9 +4,6 @@ meta_title: "The Law of Influence - The true measure of leadership is influence 
 description: "The true measure of leadership is influence - nothing more, nothing less."
 key_concept: |
   - Leadership is influence - title optional, movement required.
-  - Level 1: Rahab hid spies because she believed - no crown, real sway over her household's fate.
-  - Level 2: Eli's sons corrupted worship; Samuel rose without a badge. Paul swayed a ship full of soldiers from chains.
-  - Level 3: [[Leadership Is Influence]] is the workplace echo - badge without followers is a solo walk.
   - Hub: [[21 Laws of Leadership in the Bible]] - lesson 2 of twenty-one Bible laws; horizontal frame in [[Leadership]].
   
   {{< bible ref="Joshua 2:1-24" >}}
@@ -15,14 +12,19 @@ key_concept: |
   - **Eli, His Sons, and Samuel** - Corrupt priests lost moral sway; the boy Samuel grew in favor - influence followed integrity.
   {{< bible ref="Acts 27:1-44" >}}
   - **Paul: The Influential Prisoner** - Chained apostle calmed a storm-tossed crew - no rank, full followership.
+level_1: "The law of influence is that leadership is influence - title optional, movement required."
+level_2: "Rahab hid spies because she believed - no crown, real sway; Eli's sons corrupted worship while Samuel rose without a badge."
+level_3: "Before you claim the chair, check whether anyone would follow if the title vanished tomorrow."
+level_4: "Badge without followers is a solo walk - [[Leadership Is Influence]] is the workplace echo Paul showed swaying soldiers from chains."
+level_5: "[[Influence Without Title]] and [[Title Without Influence]] split the two failure modes Rahab and Eli's sons illustrate."
 examples:
   - "No title on the project but people waited for my read before they moved - that was influence, not the empty manager slot."
   - "The elder who prayed over our street during the flood had no office - everyone still did what she asked."
 shareable_thought:
   - "The true measure of leadership is influence - nothing more, nothing less."
   - "Leadership is influence - title optional, movement required."
-  - "Level 1: Rahab hid spies because she believed - no crown, real sway over her household's fate."
-  - "Level 2: Eli's sons corrupted worship; Samuel rose without a badge. Paul swayed a ship full of soldiers from chains."
+  - "The law of influence is that leadership is influence - title optional, movement required."
+  - "Rahab hid spies because she believed - no crown, real sway; Eli's sons corrupted worship while Samuel rose without a badge."
 relationships:
   - type: contradicts
     wikilink: "[[Discipleship vs Leadership]]"

@@ -4,15 +4,15 @@ meta_title: "Love - Fruit the Spirit Grows"
 description: "Love is Spirit-grown care for God and neighbor - not performance affection that collapses when nobody is watching."
 key_concept: |
   {{< bible ref="Romans 5:5" emphasize="5" >}}
-
+  
   - Love of God poured through the Holy Spirit - not performance affection I manufacture for an audience.
-  - Level 1: Real love grows when you stay close to God - not fake niceness you perform for the room.
-  - Level 2: Love fruit sits beside [[Joy]] and [[Peace]] in one Spirit-grown cluster - deeper than manners on display.
-  - Level 3: Manufactured affection for church credit is not Spirit fruit - love outlasts the audience.
-  - Level 4: Ask whether your care costs something real - love that never inconveniences you may be performance.
-  - Level 5: [[Love God]] and [[Love Your Neighbor]] name the two directions; [[Fruits of the Spirit]] lists love first because every other fruit flows from it.
   - Love is grown by walking in the Spirit, not manufactured for applause.
   - [[Abide in Me]] is the engine - branches bear fruit because they stay in the vine.
+level_1: "Biblical love is Spirit-grown care for God and neighbor, not performance affection manufactured for an audience."
+level_2: "Love fruit sits beside [[Joy]] and [[Peace]] in one cluster - deeper than manners on display when the room is watching."
+level_3: "Ask whether your care costs something real - love that never inconveniences you may be performance, not fruit."
+level_4: "Manufactured affection for church credit is not Spirit fruit - love outlasts the audience because [[Abide in Me]] is the engine."
+level_5: "[[Love God]] and [[Love Your Neighbor]] name the two directions; [[Fruits of the Spirit]] lists love first because every other fruit flows from it."
 examples:
   - "I was polite at church and sharp at home - Galatians love costs something when nobody is clapping."
   - "The neighbor needed a ride at an inconvenient hour - love fruit showed up as inconvenience, not a sermon about caring."

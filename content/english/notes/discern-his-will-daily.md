@@ -6,17 +6,17 @@ key_concept: |
   {{< bible ref="John 7:16-18" emphasize="17" >}}
   
   - Willing to obey first - then you can tell whether the teaching is God's or noise.
-  - Level 1: Obey God first - then you can spot fake teaching, like knowing real coins by how they feel.
-  - Level 2: Obedience-first is like learning a genuine scent before sorting fakes - willingness to obey comes before you can judge the source.
-  - Level 3: Because a heart set on doing God's will filters motives, false teaching loses its grip before it shapes your choices.
-  - Level 4: Before you adopt a teaching, ask whether you would obey it if it cost you something today - skip what only sounds good.
-  - Level 5: Obedience-first posture is the filter - without it, clever teaching can sound like God while serving self; [[Renewed Mind]] is the engine this enables at the fork.
   - Romans 12:2's outcome: so that you may prove what the will of God is - good, acceptable, and perfect - not mystical lottery after Scripture and prayer reshape judgment.
   - [[Renewed Mind]] is the engine; this is what it enables at the fork.
   - [[Take Up Your Cross]] is choosing His will over mine - discernment names the fork.
   - [[God Centered Design]] orders the aim toward His glory.
   - [[Seek the Kingdom First]] fills the agenda before worry rewrites it.
   - PKM mirror: [[Decision Quality]] - better calls when the inputs are not all culture noise.
+level_1: "Discern His will daily is testing what God wants - good, acceptable, perfect - after Scripture and prayer reshape judgment, not culture noise first."
+level_2: "Willing to obey first, then you can tell whether the teaching is God's or noise - like learning a genuine scent before sorting fakes."
+level_3: "Before you adopt a teaching, ask whether you would obey it if it cost you something today - skip what only sounds good."
+level_4: "Obedience-first posture is the filter - without it, clever teaching can sound like God while serving self; [[Renewed Mind]] is the engine this enables at the fork."
+level_5: "Two job offers and you poll the group chat for vibes - you test which role serves the kingdom after a renewed mind, not which title feeds ego."
 examples:
   - "Two job offers and I was polling the group chat for vibes - discernment came after a renewed mind: which role serves the kingdom, not which title feeds my ego."
   - "The coach had three plays for the last possession - film and prayer beat the crowd's panic script; test and approve which move fits the game plan, not the hot hand."
@@ -72,7 +72,3 @@ cards:
     back: "Test His will - good and acceptable and perfect."
 draft: false
 ---
-
-
-
-

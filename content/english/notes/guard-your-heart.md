@@ -4,14 +4,14 @@ meta_title: "Guard Your Heart - Watch What You Let In"
 description: "Proverbs says guard your heart - what you feed the inner life shapes everything downstream."
 key_concept: |
   {{< bible ref="Proverbs 4:23" emphasize="23" >}}
-
+  
   - Everything flows from the heart - I guard what enters through eyes, ears, and habits because worship and anger both start there.
-  - Level 1: Like covering the spring upstream - poison at the source ruins the whole village downstream.
-  - Level 2: Guarding is active filtering - not legalism theater, but love for God that refuses garbage intake.
-  - Level 3: [[Renewed Mind]] needs clean fuel; guarding is the intake valve before renewal can work.
-  - Level 4: Under [[Free Grace]], guarding is discipleship wisdom - not a scorecard that buys heaven when I have a clean week.
-  - Level 5: [[Gate What You Consume]] is the garden echo - same filter for feeds, podcasts, and rage bait.
   - [[Heart Righteousness]] cares about motive inside, not performance outside - guarding protects the inside.
+level_1: "Guard your heart means watching what enters through eyes, ears, and habits - everything downstream flows from the inner life you feed."
+level_2: "Like covering the spring upstream - active filtering, not legalism theater, because poison at the source ruins the village downstream."
+level_3: "Mute the feed that leaves you hollow before morning prayer - gate intake at the door, not willpower at sunrise."
+level_4: "[[Renewed Mind]] needs clean fuel; under [[Free Grace]], guarding is discipleship wisdom - not a scorecard that buys heaven."
+level_5: "[[Gate What You Consume]] is the garden echo - same filter for feeds, podcasts, and rage bait; [[Heart Righteousness]] protects motive inside."
 examples:
   - "I knew the political rage thread was rotting my patience with my kids - Proverbs guarding meant mute and Scripture before scroll."
   - "Late-night shows left me hollow before morning prayer - guarding the heart was a hard stop at ten, not willpower at sunrise."

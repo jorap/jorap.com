@@ -4,9 +4,6 @@ meta_title: "The Law of Victory - Leaders find a way for the team to win"
 description: "Leaders find a way for the team to win."
 key_concept: |
   - Leaders find a way - sometimes at brutal cost, sometimes by creative faith.
-  - Level 1: Samson's death toppled Philistines - flawed leader, final victory.
-  - Level 2: Jonathan's daring climb sparked Israel's rout. Four friends tore a roof for healing.
-  - Level 3: Victory is not comfort - it is clearing the path for the team to succeed.
   - Hub: [[21 Laws of Leadership in the Bible]] - lesson 15 of twenty-one Bible laws; horizontal frame in [[Leadership]].
   
   {{< bible ref="Judges 16:1, 16:15-31" >}}
@@ -15,14 +12,19 @@ key_concept: |
   - **Jonathan Initiates the Battle** - Climbed cliff with armor-bearer - one man's faith triggered national victory.
   {{< bible ref="Mark 2:1-12" >}}
   - **Finding a Way** - Four friends tore the roof - paralytic reached Jesus when the door failed.
+level_1: "The law of victory is that leaders accept responsibility for finding a path to win for the team."
+level_2: "Samson's death toppled Philistines; Jonathan's climb sparked a rout; four friends tore a roof for healing - flawed people still cleared the path."
+level_3: "Define winning for the team in one sentence, then remove one blocker they cannot clear alone."
+level_4: "Victory is not comfort - it is clearing the path even when the cost lands on the leader first."
+level_5: "[[Finish Strong]] and [[Steward After the Win]] keep victory from ending at your personal highlight reel."
 examples:
   - "We missed the deadline until someone rerouted testing to parallel lanes - leadership was the workaround, not the speech."
   - "Friends lowered the paralytic through the roof - victory looked like vandalism for a minute."
 shareable_thought:
   - "Leaders find a way for the team to win."
   - "Leaders find a way - sometimes at brutal cost, sometimes by creative faith."
-  - "Level 1: Samson's death toppled Philistines - flawed leader, final victory."
-  - "Level 2: Jonathan's daring climb sparked Israel's rout. Four friends tore a roof for healing."
+  - "The law of victory is that leaders accept responsibility for finding a path to win for the team."
+  - "Samson's death toppled Philistines; Jonathan's climb sparked a rout; four friends tore a roof for healing - flawed people still cleared the path."
 relationships:
   - type: contradicts
     wikilink: "[[Discipleship vs Leadership]]"

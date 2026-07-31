@@ -4,9 +4,6 @@ meta_title: "The Law of Magnetism - Who you are is who you attract"
 description: "Who you are is who you attract."
 key_concept: |
   - You attract who you are - character is a magnet, for mighty men or for Ahab's evil.
-  - Level 1: Joshua stayed in Moses' tent - successor attracted by proximity to holiness.
-  - Level 2: David drew warriors. Jezebel and Ahab collected schemers.
-  - Level 3: [[Walk by the Spirit]] shapes who drifts into your orbit over time.
   - Hub: [[21 Laws of Leadership in the Bible]] - lesson 9 of twenty-one Bible laws; horizontal frame in [[Leadership]].
   
   {{< bible ref="Numbers 27:15-23" >}}
@@ -15,14 +12,19 @@ key_concept: |
   - **David's Mighty Men** - Warriors rallied to a shepherd-king - courage drew courage.
   {{< bible ref="1 Kings 21:1-16" >}}
   - **Evil Follows Evil** - Ahab and Jezebel's Naboth plot - wickedness attracted wicked counsel.
+level_1: "The law of magnetism is that you attract who you are - character is a magnet for mighty men or for Ahab's evil."
+level_2: "Joshua stayed in Moses' tent; David drew warriors; Jezebel and Ahab collected schemers - like attracts like over years."
+level_3: "Audit who gravitates toward you after a stressful season - the orbit reveals your real tone, not the tone you perform in meetings."
+level_4: "[[Walk by the Spirit]] shapes who drifts into your orbit over time - complaining attracts complainers when the magnet is you, not HR."
+level_5: "[[Christlikeness]] shapes attraction over years; [[By Their Fruits]] is how you audit whether the pull is holy."
 examples:
   - "My complaining attracted more complainers on the team - the magnet was me, not HR."
   - "David's cave gathered fighters - like attracted like courage."
 shareable_thought:
   - "Who you are is who you attract."
   - "You attract who you are - character is a magnet, for mighty men or for Ahab's evil."
-  - "Level 1: Joshua stayed in Moses' tent - successor attracted by proximity to holiness."
-  - "Level 2: David drew warriors. Jezebel and Ahab collected schemers."
+  - "The law of magnetism is that you attract who you are - character is a magnet for mighty men or for Ahab's evil."
+  - "Joshua stayed in Moses' tent; David drew warriors; Jezebel and Ahab collected schemers - like attracts like over years."
 relationships:
   - type: contradicts
     wikilink: "[[Discipleship vs Leadership]]"

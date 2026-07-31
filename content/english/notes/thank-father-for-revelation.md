@@ -6,14 +6,14 @@ key_concept: |
   {{< bible ref="Luke 10:21" >}}
   
   - The seventy-two came back thrilled; Jesus rejoiced in the Holy Spirit and thanked the Father - not for His own status, but for who gets let in.
-  - Level 1: When His helpers came back excited, Jesus thanked God for letting ordinary people understand - not for making Himself look important.
-  - Level 2: Jesus rejoiced in the Spirit and thanked the Father when the seventy-two returned - the prayer celebrated who gets let in, not His status.
-  - Level 3: The upside-down economy hides truth from the wise and reveals it to childlike hearers - thanks names the Father as Lord of that gate.
-  - Level 4: Thank God for understanding you did not earn before you teach what you received - keep the credit on the right side.
-  - Level 5: [[Pray for His Own]] later asks the Father to keep and unify believers; this prayer celebrates that ordinary people were let in first.
   - He names the Father Lord of heaven and earth and praises the upside-down economy: hidden from the wise, revealed to little children.
   - [[Pray for His Own]] later asks the Father to keep and unify believers; this prayer celebrates that the Father chooses who sees.
   - Under [[Free Grace]], I did not crack the code by intellect - the Father revealed what I could not earn.
+level_1: "Thanking the Father for revelation means Jesus praised God when the seventy-two returned - celebrating who gets let in, not His own status."
+level_2: "He names the Father Lord of heaven and earth - the upside-down economy hides truth from the wise and reveals it to childlike hearers."
+level_3: "Thank God for understanding you did not earn before you teach what you received - keep the credit on the right side."
+level_4: "Under [[Free Grace]], I did not crack the code by intellect - the Father revealed what I could not earn."
+level_5: "[[Pray for His Own]] later asks the Father to keep and unify believers; this prayer celebrates that ordinary people were let in first."
 examples:
   - "I quoted three commentaries in small group and still missed the point a new believer saw in one verse - Jesus thanked the Father for revealing truth to the humble, not the show-offs."
   - "My kid asked a simple question about Jesus that stopped me cold - revelation landed through a child while I was performing expertise."
@@ -63,4 +63,3 @@ cards:
     back: "Thank the Father - He let them see."
 draft: false
 ---
-

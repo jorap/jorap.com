@@ -4,16 +4,16 @@ meta_title: "Joy - Gladness the Spirit Grows"
 description: "Joy is Spirit-grown gladness in believers who rest on Christ's promise - not a good-week performance."
 key_concept: |
   {{< bible ref="John 15:11" emphasize="11" >}}
-
+  
   - Christ's joy in me - gladness rooted in His promise, not something I switch on for a good week.
-  - Level 1: Joy is deep gladness that grows when you walk with God - not fake happiness you perform for other people.
-  - Level 2: Joy grows with love and peace as fruit of the Spirit - deeper than performing happiness for a crowd, like roots versus a painted smile.
-  - Level 3: Joy rooted in God survives bad weeks; performed happiness collapses when the audience leaves - circumstance cannot kill what the Spirit grows.
-  - Level 4: Look for gladness that stays when circumstances swing - not a smile you manufacture for the room.
-  - Level 5: [[Peace]] and [[Love]] sit beside joy in [[Fruits of the Spirit]] - joy is fruit, not a mood you fake on command.
   - Joy is grown by walking in the Spirit, not manufactured for credit.
   - Manufactured gladness for church credit is not Spirit fruit.
   - Abide first - gladness shows up from connection, not from performing a good week.
+level_1: "Joy is Spirit-grown gladness in believers who rest on Christ's promise - not fake happiness performed for an audience."
+level_2: "Joy grows with love and peace as fruit of the Spirit - deeper than a painted smile for a crowd, like roots versus performance."
+level_3: "When the audience leaves and circumstances swing - look for gladness that stays because the Spirit grows it, not a smile you manufacture for the room."
+level_4: "Manufactured gladness for church credit is not Spirit fruit - joy rooted in God survives bad weeks; circumstance cannot kill what connection grows."
+level_5: "[[Peace]] and [[Love]] sit beside joy in [[Fruits of the Spirit]] - joy is fruit, not a mood you fake on command."
 examples:
   - "Good week at work and I felt spiritually qualified - Galatians joy rests on Christ's promise, not the streak."
   - "Performing joy at church while empty at home told me I was manufacturing fruit - abide first, then gladness shows up."
@@ -69,4 +69,3 @@ cards:
     back: "Rest on Christ's promise - not applause."
 draft: false
 ---
-

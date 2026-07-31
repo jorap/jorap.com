@@ -4,13 +4,13 @@ meta_title: "The 12 Week Year - Quarterly Intensity for Projects"
 description: "Compress yearly goals into twelve-week arcs you can feel - and map wiki projects to them."
 key_concept: |
   - Twelve-week arcs compress goals into quarters you actually feel on the calendar.
-  - Level 1: Split big goals into twelve-week chunks so you can feel the deadline coming.
-  - Level 2: Twelve-week arcs put a real date on the calendar - quarters you can feel beat annual resolutions that die in February.
-  - Level 3: Compressed horizons work because weekly numbers against a twelve-week arc expose drift before the year is gone.
-  - Level 4: Map one wiki project to a twelve-week arc with weekly checkpoints - vague annual goals become a date you can miss.
-  - Level 5: [[Periodic Knowledge Review]] rhythm fits naturally at week twelve - compress goals into quarters you actually feel on the calendar.
   - Map wiki projects to the arc with weekly numbers - vague annual resolutions die in February.
   - [[Periodic Knowledge Review]] rhythm fits naturally at week twelve.
+level_1: "The 12 Week Year splits big goals into twelve-week chunks with a real deadline you can feel on the calendar - not vague annual resolutions."
+level_2: "Quarters you can feel beat annual resolutions that die in February - compressed horizons put weekly numbers against an arc you can miss."
+level_3: "Map one wiki project to a twelve-week arc with weekly checkpoints - vague annual goals become a date you can miss."
+level_4: "Drift shows up before the year is gone when weekly numbers run against the arc - [[Periodic Knowledge Review]] rhythm fits naturally at week twelve."
+level_5: "Compress goals into quarters you actually feel - tradeoff against [[Slow Productivity]] when quarterly intensity skips depth."
 examples:
   - "Twelve-week sprint on one fitness goal beat a vague annual resolution - week ten finally bit."
   - "The team treated the quarter like a season - one scoreboard, weekly film, no fake annual plan."
@@ -54,4 +54,3 @@ cards:
     back: "Twelve-week arc with weekly numbers."
 draft: false
 ---
-

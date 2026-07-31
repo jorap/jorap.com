@@ -4,13 +4,13 @@ meta_title: "Psychological Safety"
 description: "People can name mistakes and near-misses without fear of humiliation or retaliation."
 key_concept: |
   - Join their framing before you redirect the blame.
-  - Level 1: Listen to how they see what happened before you talk about blame - like hearing their side before you pick a fix.
-  - Level 2: First listen to how they see what happened, then gently help them see what to fix - do not jump straight to who is at fault.
-  - Level 3: Join their framing before you redirect - blame last, learning first.
-  - Level 4: Because shame shuts down honest data, alignment on story precedes correction - they must feel heard before the fix lands.
-  - Level 5: Join their framing before you redirect the blame - safety is not soft standards; it is sequence that keeps truth on the table.
   - Near-miss reports need gratitude, not punishment.
   - Thank the person for speaking up - silence teaches the next person to hide the miss.
+level_1: "Psychological safety means people can name mistakes and near-misses without fear of humiliation or retaliation."
+level_2: "Like hearing their side before you pick a fix - listen to how they see what happened before you talk about blame."
+level_3: "When your kid confesses he broke the vase, thank him for saying it - silence teaches the next person to hide the miss."
+level_4: "Because shame shuts down honest data, alignment on story precedes correction - they must feel heard before the fix lands."
+level_5: "Join their framing before you redirect blame - [[Listen Before Fixing]] and [[Heed Every Near-Miss]] need gratitude, not punishment, for reports."
 examples:
   - "My kid told me he broke the vase - I thanked him for saying it instead of making him dread confessing next time."
   - "I named the wrong turn to my carpool - nobody mocked it, so I speak up before the next missed exit."
@@ -68,6 +68,3 @@ cards:
     back: "Thank honesty - anger can wait."
 draft: false
 ---
-
-
-

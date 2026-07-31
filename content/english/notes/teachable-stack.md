@@ -4,12 +4,12 @@ meta_title: "Teachable Stack - Install Tonight Test"
 description: "A teachable stack installs tonight on a borrowed laptop - no trial that expires in fourteen days."
 key_concept: |
   - If a student cannot install it on the laptop they brought from home, we are wasting the afternoon.
-  - Level 1: Classroom test is blunt - download tonight, break it tomorrow, show up with real friction questions, not slide-deck theory.
-  - Level 2: Teachable stack is like a lab kit every student can open at their desk - not a demo account that locks when the trial ends mid-semester.
-  - Level 3: Because trials and corporate cards fail the borrow test, open zip stacks and portable builds pass where Dreamweaver and closed CMS demos fail.
-  - Level 4: Career advice matches the install test - [[Learn Hireable Stacks]] points at job boards, not architecture diagrams nobody hires for.
-  - Level 5: [[Portable Software]] solves locked PCs; [[Freedom Over Free]] names why permission beats a serial number in a seminar room.
   - I taught seminars in the Philippines on stacks employers already ran - WordPress, Linux hosting, PHP you could start without begging IT.
+level_1: "A teachable stack is software every student can install tonight on a borrowed laptop - no trial that expires mid-semester."
+level_2: "Classroom test is blunt - download tonight, break it tomorrow, show up with real friction questions, not slide-deck theory."
+level_3: "Open zip stacks and portable builds pass where Dreamweaver and closed CMS demos fail - because trials and corporate cards fail the borrow test."
+level_4: "[[Learn Hireable Stacks]] points career advice at job boards, not architecture diagrams nobody hires for."
+level_5: "[[Portable Software]] solves locked PCs; [[Freedom Over Free]] names why permission beats a serial number in a seminar room."
 examples:
   - "Seminar room with mixed laptops - XAMPP portable let half the class start Apache while the rest fought expired Dreamweaver trials."
   - "Student shared one old laptop with a sibling - fourteen-day CMS trial died before they found the publish button; open zip stack kept working."

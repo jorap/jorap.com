@@ -4,14 +4,14 @@ meta_title: "Resilience - Bounce and Stay Useful"
 description: "Bend without lying that the hit did not cost anything."
 key_concept: |
   - You take the hit, recover, and stay useful - not pretend the hit did not hurt.
-  - Level 1: When something knocks you down, you feel it, get back up, and keep helping - you do not pretend it never hurt.
-  - Level 2: When something knocks you down, you feel it, get back up, and keep helping - you do not act like it never hurt.
-  - Level 3: Take the hit, recover, stay useful - honest about pain, not performative toughness.
-  - Level 4: Because denial wastes learning and collapse wastes capacity, resilience names recover-and-serve, not numb-and-pretend.
-  - Level 5: You take the hit, recover, and stay useful - not pretend the hit did not hurt; composure without honesty is brittle.
   - I bend without lying to myself that the hit did not cost anything.
   - Resilience is absorbing setback without quitting or becoming useless to the people counting on you.
   - Bouncing back does not mean the bruise was not real - it means the bruise does not get the final say.
+level_1: "Resilience is bending under a hit, recovering, and staying useful without pretending the hit did not hurt."
+level_2: "Honest about pain, not performative toughness - the bruise is real but does not get the final say."
+level_3: "Leave earlier Thursday after three late commutes instead of cursing traffic and showing up late again."
+level_4: "Because denial wastes learning and collapse wastes capacity, composure without honesty is brittle."
+level_5: "Run an honest huddle after a blown Saturday rush - quiet week, smaller menu - convert the hit into a system fix with [[Convert Pain Into Learning]]."
 examples:
   - "Commute delays wrecked my morning three days straight - I left earlier Thursday instead of cursing the traffic and showing up late again."
   - "Our Saturday rush blew up - honest huddle, quiet week, smaller menu, not acting like Friday never happened."
@@ -57,6 +57,3 @@ cards:
     back: "One adjustment - not a brand-new system."
 draft: false
 ---
-
-
-

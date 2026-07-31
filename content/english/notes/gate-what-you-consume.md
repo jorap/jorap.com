@@ -4,12 +4,12 @@ meta_title: "Gate What You Consume - Filter Before You Feed"
 description: "What you read and watch becomes raw material for judgment - gate intake before output rots."
 key_concept: |
   - Feeds are not neutral - gate what you consume before it becomes the mood you bring to work and home.
-  - Level 1: Like checking expiry before you cook - bad input guarantees a worse dinner, no matter how skilled the chef.
-  - Level 2: Gating means default filters - unsub, mute, block, close tab - not forcing by will after the rage bait won.
-  - Level 3: [[Guard Your Heart]] is the faith name - Proverbs intake valve before worship and anger downstream.
-  - Level 4: [[Information Diet]] is the longer lane; gating is the daily habit at the door.
-  - Level 5: [[Attention Economy]] fights you for the scroll - gates are defense, not guilt theater.
   - [[Signal vs Noise]] helps pick what earns past the gate once the junk is out.
+level_1: "Gate what you consume means filtering feeds before they become the mood you bring to work and home - intake is not neutral."
+level_2: "Like checking expiry before you cook - default filters of unsub, mute, block, close tab beat willpower after rage bait won."
+level_3: "Before scroll, ask what mood this input will leave in your body - gate at the door, not after the damage."
+level_4: "[[Guard Your Heart]] is the faith name - Proverbs intake valve before worship and anger downstream."
+level_5: "[[Information Diet]] is the longer lane; [[Attention Economy]] fights you for the scroll - gates are defense, not guilt theater."
 examples:
   - "I unfollowed three outrage accounts and my commute patience doubled - gating was mute, not a lecture to myself about discipline."
   - "News notification off during deep work block - the gate was one toggle, not heroic focus while the banner still flashed."

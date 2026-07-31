@@ -6,17 +6,17 @@ key_concept: |
   {{< bible ref="Matthew 25:14-30" emphasize="23" >}}
   
   - The master entrusts promotion and platform for faithful use - enter His joy, do not bury the talent in ego.
-  - Level 1: When you receive gifts like time, money, or a bigger platform, use them well for others - do not hide them to protect pride.
-  - Level 2: The master entrusts promotion and platform - He expects faithful use, not buried talent.
-  - Level 3: Stewardship follows salvation in order - [[Free Grace]] settles eternity; gifts settle what you do with the platform after.
-  - Level 4: When influence grows, ask what faithful use looks like this quarter - enter the master's joy, do not bury the talent in ego.
-  - Level 5: Success is not ownership - stewardship of time, health, platform, money, and influence; burying talent to protect pride fails the same test as the unfaithful servant.
   - Success is not ownership - stewardship of what I received: time, health, platform, money, influence.
   - [[Free Grace]] settled where I spend forever; stewardship settles what I do with the gifts after.
   - [[Faithful Steward]] is the parable Jesus told - well done for faithful use, buried talent rebuked.
   - [[Eternal Rewards]] names repayment; [[Judgment Seat]] names the review.
   - Workplace mirrors: [[Servant Leadership]], [[Share What You Learn]], [[Integrity Without an Audience]] - use the slot for the team, not ego.
   - PKM mirror: [[Creative Output]] and [[Digital Garden]] - notes hoarded help nobody; [[The Collector's Fallacy]] is burying the talent in bookmarks.
+level_1: "Success is stewardship means treating promotion, platform, and gifts as borrowed for faithful use - not permanent ownership."
+level_2: "The master entrusts talents for use and expects return - burying them to protect pride fails the same test as the unfaithful servant."
+level_3: "Tend the garden and share what landed after a traffic spike instead of acting like reach equals ownership."
+level_4: "Because [[Free Grace]] settled eternity, stewardship settles what you do with gifts after - influence growth asks what faithful use looks like this quarter."
+level_5: "Use the platform for [[Servant Leadership]], [[Share What You Learn]], [[Integrity Without an Audience]] - notes hoarded in bookmarks bury the talent."
 examples:
   - "Site traffic spiked after a post hit and I caught myself acting like I would built a kingdom - success is stewardship: tend the garden, share what landed, do not confuse reach with ownership."
   - "Promotion email landed and I started treating my team like support staff - the title was entrusted for their good, not a trophy I earned to keep."
@@ -138,4 +138,3 @@ cards:
     back: "Ownership - steward what lasts, not rented land."
 draft: false
 ---
-

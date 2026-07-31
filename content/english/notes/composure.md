@@ -4,13 +4,13 @@ meta_title: "Composure - Steady When the Room Isn't"
 description: "Composure is steady voice and pace when the room is not - people read calm as competence."
 key_concept: |
   - One beat before replying often beats matching their volume.
-  - Level 1: Like when someone shouts and you count to one before answering - calm beats matching their volume.
-  - Level 2: A ref stays level when both benches yell - one beat before replying often reads as competence even when the call is hard.
-  - Level 3: Composure is choosing which reaction gets shown, not suppressing the feeling - steady voice and pace when the room is not.
-  - Level 4: Wait one beat on the group chat before replying - slower speech, one clarifying question, no matching their volume.
-  - Level 5: Visible composure matters - calm voice with shaking hands under the table still reads as calm to everyone watching; pairs with [[Situational Control]] when pace is the lever.
   - Composure is not suppressing the reaction - it is choosing which one gets shown.
   - The composure has to be visible - a calm voice with shaking hands under the table still reads as calm to everyone watching.
+level_1: "Composure is choosing which reaction gets shown - steady voice and pace when the room is not, not suppressing the feeling."
+level_2: "Like counting to one before answering when someone shouts - a ref stays level when both benches yell; calm beats matching their volume."
+level_3: "Wait one beat on the group chat before replying - slower speech, one clarifying question, no matching their volume."
+level_4: "One beat before replying often reads as competence even when the call is hard - the composure has to be visible."
+level_5: "Visible composure matters - calm voice with shaking hands under the table still reads as calm to everyone watching; pairs with [[Situational Control]] when pace is the lever."
 examples:
   - "The neighbor argument on the group chat heated up and I waited one beat before replying - people read calm as competence even when the issue is real."
   - "I used the same move in a heated parent meeting - slower speech, one clarifying question, no matching their volume."
@@ -59,4 +59,3 @@ cards:
     back: "Steady tone - don't match the chaos."
 draft: false
 ---
-

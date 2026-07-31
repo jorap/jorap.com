@@ -4,9 +4,6 @@ meta_title: "The Law of Intuition - Leaders evaluate everything with a leadershi
 description: "Leaders evaluate everything with a leadership bias."
 key_concept: |
   - Leaders read situations with a leadership lens - who moves, what breaks, what window opens.
-  - Level 1: Abigail stopped David's rash revenge - she read the room before blood spilled.
-  - Level 2: Solomon judged the two mothers. Barnabas vouched for fresh-convert Paul when others flinched.
-  - Level 3: Intuition is pattern recognition under pressure - not mysticism.
   - Hub: [[21 Laws of Leadership in the Bible]] - lesson 8 of twenty-one Bible laws; horizontal frame in [[Leadership]].
   
   {{< bible ref="1 Samuel 25:2-35" >}}
@@ -15,14 +12,19 @@ key_concept: |
   - **The Wisdom of Solomon** - Two mothers, one living child - sword threat revealed the true mother.
   {{< bible ref="Acts 9:19-30" >}}
   - **Barnabas Sees Paul's Potential** - Son of encouragement introduced feared convert to apostles.
+level_1: "The law of intuition is that leaders read situations with a leadership lens - who moves, what breaks, what window opens."
+level_2: "Abigail stopped David's rash revenge - she read the room before blood spilled; Barnabas vouched for fresh-convert Paul when others flinched."
+level_3: "Pause the meeting when the room tone shifts - name what you sense before the agenda bulldozes it."
+level_4: "Intuition is pattern recognition under pressure - not mysticism; Solomon judged the two mothers by reading what the room would not say aloud."
+level_5: "[[Surface Bad News Early]] and [[Decision Quality]] are workplace echoes when intuition must become a named call."
 examples:
   - "I saw the meeting turning toxic and called a break before someone quit - intuition beat the agenda."
   - "Barnabas risked reputation on Saul - he read potential others missed."
 shareable_thought:
   - "Leaders evaluate everything with a leadership bias."
   - "Leaders read situations with a leadership lens - who moves, what breaks, what window opens."
-  - "Level 1: Abigail stopped David's rash revenge - she read the room before blood spilled."
-  - "Level 2: Solomon judged the two mothers. Barnabas vouched for fresh-convert Paul when others flinched."
+  - "The law of intuition is that leaders read situations with a leadership lens - who moves, what breaks, what window opens."
+  - "Abigail stopped David's rash revenge - she read the room before blood spilled; Barnabas vouched for fresh-convert Paul when others flinched."
 relationships:
   - type: contradicts
     wikilink: "[[Discipleship vs Leadership]]"

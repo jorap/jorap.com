@@ -15,8 +15,9 @@
 {{- with or $page.Params.description $page.Params.summary -}}
   {{- $parts = $parts | append (strings.TrimSpace .) -}}
 {{- end -}}
-{{- with $page.Params.key_concept -}}
-  {{- $parts = $parts | append (printf "## Key Concept\n\n%s" (strings.TrimSpace .)) -}}
+{{- $kcFormatted := partial "notes/format-key-concept.html" $page -}}
+{{- with $kcFormatted -}}
+  {{- $parts = $parts | append (printf "## Key Concept\n\n%s" .) -}}
 {{- end -}}
 
 {{- with $page.Params.examples -}}

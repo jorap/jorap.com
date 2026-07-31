@@ -4,12 +4,12 @@ meta_title: "Deliberate Practice - Train the Weak Slice on Purpose"
 description: "Train the weak slice on purpose - feedback, correction, repeat - not the part already nailed."
 key_concept: |
   - Deliberate practice is focused reps on the part that breaks - not mindless repetition of what already works.
-  - Level 1: Practice the wobbly bike spot until it stays straight - not the easy pedal you already know.
-  - Level 2: Deliberate practice is like tuning one loose guitar string while the rest already sounds fine - you fix what squeaks under pressure.
-  - Level 3: Because the weak slice fails when stakes rise, drilling it on purpose builds skill where autopilot leaves you exposed.
-  - Level 4: Name the slice that broke last time and run only that slice until it holds - skip the comforting reps that feel productive.
-  - Level 5: Comfortable reps signal drift - stay on what breaks until it holds, even when the easy path calls and nobody is watching.
   - The discomfort is the signal you are in the right spot - comfortable reps mean you drifted back to what you already do well.
+level_1: "Deliberate practice is focused reps on the part that breaks - not mindless repetition of what already works."
+level_2: "Practice the wobbly bike spot until it stays straight - like tuning one loose guitar string while the rest already sounds fine."
+level_3: "Name the slice that broke last time and run only that slice until it holds - skip the comforting reps that feel productive."
+level_4: "Comfortable reps signal drift - stay on what breaks until it holds, even when the easy path calls and nobody is watching."
+level_5: "The new cashier drills voids and returns ten times, not the whole shift on autopilot - you build skill where stakes expose the weak slice."
 examples:
   - "The new cashier drills voids and returns ten times, not the whole shift on autopilot - feedback, correction, repeat on what breaks."
   - "My kid's recital died in the bridges between songs - deliberate practice was running only those transitions ten times; the rest she already knew."
@@ -58,7 +58,3 @@ cards:
     back: "One slice until it's clean - then next."
 draft: false
 ---
-
-
-
-

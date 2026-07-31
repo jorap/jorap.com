@@ -4,14 +4,14 @@ meta_title: "Reconcile Before the Review - Fix the Relationship First"
 description: "Reconcile before the review - fix the relationship before OKRs, demos, or reorg meetings."
 key_concept: |
   - Fix the relationship breach before OKRs, demos, or reorg meetings.
-  - Level 1: If you and a coworker are not okay, fix that first - before performance reviews or big meetings.
-  - Level 2: If you and a coworker are not okay with each other, fix that first before you sit down for performance reviews or big meetings.
-  - Level 3: Relationship breach before agenda - repair the rift, then OKRs and demos.
-  - Level 4: Because unresolved hurt poisons feedback, reconciliation precedes evaluation - the scorecard cannot substitute for peace.
-  - Level 5: Fix the relationship breach before OKRs, demos, or reorg meetings - process without repair is theater.
   - Process does not heal a broken trust link.
   - The person who knows there is a breach moves first - a short call, an owned apology, a specific repair - then we talk OKRs.
   - Same order as [[Reconciliation Before Worship]], minus the religious frame: relationship before ritual performance.
+level_1: "Reconcile before the review means repairing the relationship rift before performance reviews, demos, or reorg meetings - relationship before agenda."
+level_2: "If you and a coworker are not okay, fix that first - like making peace before you sit down to score the quarter."
+level_3: "Text your business partner after a blowup over a missed invoice - ten minutes of repair, then get on the client renewal call together."
+level_4: "Because unresolved hurt poisons feedback, reconciliation precedes evaluation - the scorecard cannot substitute for peace or process without repair."
+level_5: "Same order as [[Reconciliation Before Worship]], minus the religious frame - the person who knows there is a breach moves first with an owned apology."
 examples:
   - "Strong stats for the scout meeting but my assistant coach was still cold from Tuesday - fifteen minutes with him before we sat with the scout beat hoping charts would smooth it."
   - "The client renewal call was booked but my business partner and I had not spoken since our blowup over a missed invoice - I texted him first, we talked ten minutes, then got on the call together."
@@ -64,7 +64,3 @@ cards:
     back: "Settle first - worship second."
 draft: false
 ---
-
-
-
-

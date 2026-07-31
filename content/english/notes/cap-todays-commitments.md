@@ -4,12 +4,12 @@ meta_title: "Cap Today's Commitments - Honest Capacity Beats Fantasy Lists"
 description: "Today's list should fit today's energy - three real wins beat twelve borrowed from tomorrow's fuel."
 key_concept: |
   - A fantasy list borrows from tomorrow's tank - cap today's commitments to what honest capacity can finish.
-  - Level 1: Like packing a lunch box that actually closes - if it will not shut, something was never going to get eaten today.
-  - Level 2: Three finished tasks beat twelve half-done ones that guilt-trip you at bedtime.
-  - Level 3: [[Trust God for Today]] is the faith lane - bread for this day, not anxiety stockpile for next quarter.
-  - Level 4: [[Energy Protects Judgment]] means the cap includes rest - depleted brains sign bad lists.
-  - Level 5: [[Pareto Principle]] picks the few that matter; the cap keeps the few from becoming the many.
   - [[Slow Productivity]] trades visible busyness for finished slices that fit the day.
+level_1: "Cap today's commitments is limiting today's list to what honest capacity can finish - not borrowing from tomorrow's tank."
+level_2: "Like packing a lunch box that actually closes - three finished tasks beat twelve half-done ones that guilt-trip you at bedtime."
+level_3: "[[Trust God for Today]] is the faith lane - bread for this day, not anxiety stockpile for next quarter."
+level_4: "[[Energy Protects Judgment]] means the cap includes rest - depleted brains sign bad lists."
+level_5: "[[Pareto Principle]] picks the few that matter; the cap keeps the few from becoming the many."
 examples:
   - "I wrote twelve todos before coffee and finished two - capping at three after breakfast meant [[Inbox Zero]] on email instead of shame at midnight."
   - "Coach cut practice drills to what legs could absorb Tuesday - same players, better reps, because the list matched the day."

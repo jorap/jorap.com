@@ -4,16 +4,16 @@ meta_title: "Kindness - Tender Regard the Spirit Grows"
 description: "Tender regard the Spirit grows for the person in front of you - not polite distance or performance niceness."
 key_concept: |
   {{< bible ref="Ephesians 4:32" emphasize="32" >}}
-
+  
   - Be kind and tender-hearted - soft strength toward the person in front, not performance niceness for an audience.
-  - Level 1: Kindness is gentle care for the real person in front of you - not acting polite just to look good.
-  - Level 2: Fruits of the Spirit names kindness beside goodness - soft strength toward actual people, like a hand on a shoulder, not a generic nice-guy pose.
-  - Level 3: Generic niceness performs for observers; kindness meets the person in front of you with soft strength - audience applause is not the aim.
-  - Level 4: Show gentle strength to the actual person in the room - not a polite pose for bystanders.
-  - Level 5: [[Goodness]] pairs with kindness in [[Fruits of the Spirit]] - both aim outward, not at a nice-guy brand.
   - [[Mercy]] is the garden echo: compassion on the guilty, act for the hurt person, release the debt you are counting because the King cleared yours.
   - [[Love Your Neighbor]] and [[The Golden Rule]] turn kindness outward - tender regard for the person in front, not performance niceness for an audience.
   - Kindness at home counts - not only polite distance at the office.
+level_1: "Kindness is gentle care for the real person in front of you - not acting polite just to look good to bystanders."
+level_2: "Fruits of the Spirit names kindness beside goodness - soft strength toward actual people, like a hand on a shoulder, not a generic nice-guy pose."
+level_3: "Move your chair toward the parent you would rather avoid and ask how his kid's ankle is healing - kindness meets the person, not the audience."
+level_4: "Generic niceness performs for observers; kindness meets the person with soft strength - [[Goodness]] pairs with kindness in [[Fruits of the Spirit]], both aim outward not at a brand."
+level_5: "[[Goodness]] pairs with kindness in [[Fruits of the Spirit]] - both aim outward; [[Love Your Neighbor]] and [[The Golden Rule]] turn tender regard toward the person in front."
 examples:
   - "The parent I would rather avoid sits on my side every game - kindness fruit was moving my chair over and asking how his kid's ankle was healing."
   - "I was polite in the office and sharp with my family at dinner - Galatians kindness is tender regard at home too, not performance for an audience."
@@ -69,5 +69,3 @@ cards:
     back: "Mercy first - delete the post."
 draft: false
 ---
-
-

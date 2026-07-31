@@ -4,13 +4,13 @@ meta_title: "PKM - Personal Knowledge Management in Plain Language"
 description: "PKM saves, organizes, and reuses what you learn - not a hobby of collecting apps."
 key_concept: |
   - Save, organize, reuse - three moves, not app-hopping for the perfect stack.
-  - Level 1: Save what you learn, put it where you can find it, use it again - three steps, like catch, label, and cook instead of hoarding groceries until they spoil.
-  - Level 2: PKM is save, organize, reuse - three moves instead of app-hopping for the perfect stack.
-  - Level 3: Personal knowledge management cycles capture, structure, and expression - the stack matters less than repeating those three moves.
-  - Level 4: Pick one inbox, one organize pass, one express habit - swap tools only when a step fails, not when a blog posts a new app.
-  - Level 5: [[Building a Second Brain]] names CODE; [[PARA Method]] holds organize - perfectionism about stack is procrastination dressed as research.
   - Output beats tuning the system alone.
   - This garden is where reuse happens after capture.
+level_1: "PKM is personal knowledge management - save what you learn, organize it where you can find it, reuse it when needed."
+level_2: "Like catch, label, and cook instead of hoarding groceries until they spoil - three moves beat app-hopping."
+level_3: "Pick one inbox, one organize pass, one express habit - swap tools only when a step fails, not when a blog posts a new app."
+level_4: "Output beats tuning the system alone - perfectionism about stack is procrastination dressed as research."
+level_5: "[[Building a Second Brain]] names CODE; [[PARA Method]] holds organize - this garden is where reuse happens after capture."
 examples:
   - "The team manager keeps a card file sorted by what she actually uses on game day - she deleted half of it last spring after a loss reminded her what she never opened."
   - "I screenshotted forty recipes last year and cooked four - the Notes app only keeps what survived a second cook."
@@ -57,4 +57,3 @@ cards:
     back: "Pick one lane - merge captures Sunday."
 draft: false
 ---
-

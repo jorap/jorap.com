@@ -6,11 +6,6 @@ key_concept: |
   {{< bible ref="Matthew 25:14-30" emphasize="23" >}}
   
   - Well done for faithful use of what He entrusted - quiet Tuesdays count, not one heroic mission trip.
-  - Level 1: God notices steady small work, not just one big flashy trip, like a boss who sees everyday effort.
-  - Level 2: Stewardship is measured in quiet Tuesdays - like compound interest on small deposits, not one visible withdrawal everyone applauds.
-  - Level 3: Because gifts were entrusted for use, faithfulness is measured in steady obedience over time, not one visible week mistaken for merit.
-  - Level 4: Use what He entrusted today in a small faithful way nobody will applaud - burying talent and performing for crowds both miss the point.
-  - Level 5: Well done for faithful use - gift first, repayment for faithfulness second; [[Eternal Rewards]] names the promise; [[Compounding]] is the PKM mirror for small use over years.
   - [[Free Grace]] settled where I spend forever.
   - Stewardship settles what I do with what He entrusted after.
   - The master returns to settle accounts - faithful use repaid, buried talent rebuked.
@@ -19,6 +14,11 @@ key_concept: |
   - [[Judgment Seat]] is where accounts get reviewed; [[Secret Devotion]] and [[Integrity Without an Audience]] are hidden lanes of faithful use nobody applauded.
   - Free Grace settled where I spend forever - stewardship is what I do with what He entrusted after.
   - Quiet Tuesdays nobody applauded still count when the gift was used faithfully.
+level_1: "A faithful steward uses what God entrusted in steady small ways - not one flashy week mistaken for the whole report card."
+level_2: "Stewardship is measured in quiet Tuesdays - compound use over years, not one visible withdrawal everyone applauds."
+level_3: "Use what He entrusted today in a small faithful way nobody will applaud - burying talent and performing for crowds both miss the point."
+level_4: "Gift came first; repayment for faithfulness follows - steady obedience over time, not one week that tries to buy a seat already gifted."
+level_5: "Well done for faithful use - [[Eternal Rewards]] names the promise; [[Compounding]] is the PKM mirror for small use over years."
 examples:
   - "I organized snacks for my kid's team and wanted credit all week - faithful steward means using what He gave, not burying it or performing for applause."
   - "One mission trip in my head as my whole eternal report card - the master reviews faithful use over years, including quiet Tuesdays nobody clapped for."
@@ -89,7 +89,3 @@ cards:
     back: "Yes - faithful steward, not the audience."
 draft: false
 ---
-
-
-
-

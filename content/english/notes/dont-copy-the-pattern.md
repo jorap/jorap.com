@@ -6,14 +6,14 @@ key_concept: |
   {{< bible ref="John 15:19" emphasize="19" >}}
   
   - Chosen out of the world - so when the feed's outrage feels normal, that is the world's script, not mine.
-  - Level 1: When outrage on the feed feels normal, that is their habit, not yours - like refusing the loudest kid.
-  - Level 2: Chosen out of the world means the outrage script on your feed is culture's default channel, not the one God tuned you to.
-  - Level 3: Because the world's patterns feel normal when you scroll daily, refusal must come before renewal reshapes how you react.
-  - Level 4: Pause before you react to outrage online and ask whether this response matches who God chose you to be - scroll is not permission.
-  - Level 5: Do not conform - refuse the default before renewal reshapes how I react; pairs with [[Present a Living Sacrifice]] on the same Romans passage.
   - Do not conform - refuse the default before renewal reshapes how I react. Pairs with [[Present a Living Sacrifice]] on the same Romans passage.
   - [[Renewed Mind]] is the positive half - be transformed by the renewing of your mind.
   - This note names the refusal: outrage feeds, hurry-and-react, comparison traps - culture's presets I did not choose but my nervous system runs anyway.
+level_1: "Do not copy the pattern means refusing culture's default script before reactions run on autopilot - chosen out of the world, not conformed to it."
+level_2: "When outrage on the feed feels normal, that is their habit, not yours - like refusing the loudest kid before you join the pile-on."
+level_3: "Pause before you react to outrage online and ask whether this response matches who God chose you to be - scroll is not permission."
+level_4: "Do not conform - refuse the default before renewal reshapes how I react; pairs with [[Present a Living Sacrifice]] on the same Romans passage."
+level_5: "You open the Bible before the group chat after you caught yourself running hurry-and-react - you build a refusal habit before renewal reshapes the next reaction."
 examples:
   - "I knew the verse on patience and still snapped at dinner - my mind was running the world's hurry-and-react script until I stopped copying the pattern and opened the Bible before the group chat."
   - "The team copied the league's trash-talk culture after one bad call - same data, old habit loop; refusing the pattern means film study on composure, not one inspirational speech."
@@ -75,7 +75,3 @@ cards:
     back: "Refuse the default - Scripture before scroll."
 draft: false
 ---
-
-
-
-

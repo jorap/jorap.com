@@ -4,15 +4,15 @@ meta_title: "Accept the Starting Line - Real Limits Before Real Targets"
 description: "Growth starts from the real starting line, not from a fantasy baseline."
 key_concept: |
   - Acceptance is not quitting - it is refusing to plan for a person who does not exist yet.
-  - Level 1: Like when you start a race from your spot on the line - not from a spot ten steps ahead in your head.
-  - Level 2: A runner who pretends they already finished the warm-up lap will trip - name where you stand today first.
-  - Level 3: Accept the starting line means you stop planning for a future you who does not exist - growth starts at the real baseline.
-  - Level 4: Write down actual limits this quarter before you set targets - pick goals from the real line, not the poster version.
-  - Level 5: [[Honest Self-Awareness]] is the inventory; this note is the move - under [[Grace]], standing is already settled and [[Sanctification]] grows from where you are, not from pretending you arrived.
   - Accept the starting line means I name real limits this quarter - time, skill, bandwidth - before I promise the room a transformation.
   - [[Honest Self-Awareness]] is the inventory; this note is the move: pick targets from the real line, not the inspirational poster.
   - Faith parallel: [[Grace]] already settled standing - sanctification grows from where I am, not from pretending I arrived.
   - I accept where I actually start - then pick targets that match, not fantasy.
+level_1: "Accept the starting line is naming your real baseline today - not planning for a person who does not exist yet."
+level_2: "Like starting a race from your spot on the line, not ten steps ahead in your head - growth begins where you actually stand."
+level_3: "Write actual limits this quarter before setting targets - pick goals from the real line, not the poster version."
+level_4: "[[Honest Self-Awareness]] inventories limits; under [[Grace]], standing is settled and [[Sanctification]] grows from where you are."
+level_5: "Build targets from real bandwidth and skill - stop pretending you arrived and extend growth plans from honest inventory."
 examples:
   - "I wanted fifty notes reviewed weekly and burned out in ten days - accept the starting line was ten minutes on the jeepney, then build from there."
   - "The team wanted a full platform migration by Q2 with one engineer - accept the starting line meant one service moved, not a slide deck pretending we had three hires."
@@ -74,5 +74,3 @@ cards:
     back: "Accept the line - build from what commute allows."
 draft: false
 ---
-
-

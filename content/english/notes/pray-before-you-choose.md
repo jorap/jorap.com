@@ -6,14 +6,14 @@ key_concept: |
   {{< bible ref="Luke 6:12" emphasize="12" >}}
   
   - The biggest calls deserve a night of prayer before a pros-and-cons list - He chose the twelve after praying, not after ranking them.
-  - Level 1: Before Jesus picked His twelve helpers, He prayed all night on a mountain - not from a pros-and-cons list.
-  - Level 2: Jesus did not pick His closest helpers from a pros-and-cons list - He prayed all night on the mountain before He chose them.
-  - Level 3: Before naming the twelve, He spent the night alone with the Father - the roster was prayer-shaped, not spreadsheet-shaped.
-  - Level 4: Because the choice carried kingdom weight, He waited on the Father first - naming people before prayer would have been self-led hiring.
-  - Level 5: Choosing [[Invest in the Few]] was not a spreadsheet decision - He spent the night in prayer on the mountain before He named them.
   - Big forks deserve prayer before the announcement, not a prayer bolted on after the LinkedIn post.
   - [[Discern His Will Daily]] names testing God's will after renewal; this names the night-before-the-fork posture He modeled.
   - Under [[Free Grace]], prayer does not buy wisdom - it is dependence before I commit other people to my call.
+level_1: "Pray before you choose means seeking the Father on major forks before naming people or signing offers - prayer first, not after the announce."
+level_2: "Jesus prayed all night on the mountain before He picked the twelve - the roster was prayer-shaped, not spreadsheet-shaped."
+level_3: "Two job offers on the table - stop ranking pros and cons for a week without prayer before the signature."
+level_4: "Kingdom-weight choices need dependence before commitment - naming people before prayer would have been self-led hiring."
+level_5: "Choosing [[Invest in the Few]] was not a spreadsheet decision - [[Discern His Will Daily]] names testing after renewal; this names night-before-the-fork posture."
 examples:
   - "I announced the new team lead in the meeting and prayed about it driving home - Jesus prayed all night before He named [[Invest in the Few]]."
   - "Two job offers on the table and I ranked pros and cons for a week without stopping - the fork needed prayer before the signature, not after."
@@ -63,7 +63,3 @@ cards:
     back: "Pray before you choose."
 draft: false
 ---
-
-
-
-

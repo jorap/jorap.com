@@ -94,6 +94,11 @@ def append_flashcard_hint_question(front: str, back: str) -> str:
     return updated
 
 
+LEVEL_KEYS = ("level_1", "level_2", "level_3", "level_4", "level_5")
+LEVEL_BULLET_RE = re.compile(r"^(\s*)-\s*Level\s+([1-5]):\s*(.*)$", re.I)
+LEVEL_PREFIX_RE = re.compile(r"^Level\s+[1-5]:\s*", re.I)
+FIRST_BULLET_RE = re.compile(r"^\s*-\s+\S")
+
 FM_ORDER = (
     "note_kind",
     "layout",
@@ -101,6 +106,7 @@ FM_ORDER = (
     "meta_title",
     "description",
     "key_concept",
+    *LEVEL_KEYS,
     "examples",
     "shareable_thought",
     "relationships",
@@ -124,6 +130,7 @@ ALWAYS_QUOTE = {
     "title",
     "meta_title",
     "description",
+    *LEVEL_KEYS,
     "slug",
     "author",
     "image",
@@ -140,10 +147,70 @@ def split_frontmatter(text: str) -> tuple[str, str]:
     return text[3:end].strip(), text[end + 4 :]
 
 
+def strip_level_prefix(text: str, n: int | None = None) -> str:
+    """Drop a leading Level N: label from a level field value."""
+    text = text.strip()
+    if n is not None:
+        return re.sub(rf"^Level\s+{n}:\s*", "", text, flags=re.I).strip()
+    return LEVEL_PREFIX_RE.sub("", text).strip()
+
+
+def extract_levels_from_key_concept(kc: str) -> tuple[str, dict[str, str]]:
+    """Pull Level 1-5 bullets out of key_concept into level_* fields."""
+    levels: dict[str, str] = {}
+    kept: list[str] = []
+    for raw in kc.splitlines():
+        match = LEVEL_BULLET_RE.match(raw)
+        if match:
+            key = f"level_{match.group(2)}"
+            if key not in levels:
+                levels[key] = match.group(3).strip()
+            continue
+        kept.append(raw)
+    text = re.sub(r"\n{3,}", "\n\n", "\n".join(kept)).strip("\n")
+    return text, levels
+
+
+def inject_level_bullets(kc: str, level_lines: list[str]) -> str:
+    """Insert Level bullets after the first markdown bullet in key_concept."""
+    if not level_lines:
+        return kc.strip()
+    lines = kc.splitlines() if kc else []
+    out: list[str] = []
+    inserted = False
+    for line in lines:
+        out.append(line)
+        if not inserted and FIRST_BULLET_RE.match(line):
+            out.extend(level_lines)
+            inserted = True
+    if not inserted:
+        if out and out[-1].strip():
+            out.append("")
+        out.extend(level_lines)
+    return "\n".join(out).strip()
+
+
+def format_key_concept_section(fm: dict[str, Any]) -> str:
+    """Build Key Concept markdown from key_concept + level_1..level_5."""
+    kc = fm.get("key_concept")
+    kc_text = kc.strip() if isinstance(kc, str) else ""
+    level_lines: list[str] = []
+    has_fields = False
+    for i, key in enumerate(LEVEL_KEYS, start=1):
+        val = fm.get(key)
+        if isinstance(val, str) and val.strip():
+            has_fields = True
+            level_lines.append(f"- Level {i}: {strip_level_prefix(val, i)}")
+    if has_fields:
+        kc_text, _ = extract_levels_from_key_concept(kc_text)
+        return inject_level_bullets(kc_text, level_lines)
+    return kc_text
+
+
 def note_prose_chunks(meta: dict[str, Any], body: str = "") -> list[tuple[str, str]]:
     """Named prose slices from a garden note for slop lint/score."""
     chunks: list[tuple[str, str]] = []
-    for key in ("description", "key_concept"):
+    for key in ("description", "key_concept", *LEVEL_KEYS):
         val = meta.get(key)
         if isinstance(val, str) and val.strip():
             chunks.append((key, val))
@@ -261,6 +328,10 @@ def parse_display_fields(raw_fm: str) -> dict[str, Any]:
     key_concept = _parse_block_scalar(raw_fm, "key_concept")
     if key_concept:
         fm["key_concept"] = key_concept
+    for key in LEVEL_KEYS:
+        val = _parse_block_scalar(raw_fm, key) or _parse_scalar(raw_fm, key)
+        if val:
+            fm[key] = val
     examples = _parse_string_list(raw_fm, "examples")
     if examples:
         fm["examples"] = examples
@@ -289,9 +360,9 @@ def assemble_markdown(fm: dict[str, Any], body: str = "") -> str:
     if isinstance(description, str) and description.strip():
         parts.append(description.strip())
 
-    key_concept = fm.get("key_concept")
-    if isinstance(key_concept, str) and key_concept.strip():
-        parts.append(f"## Key Concept\n\n{key_concept.strip()}")
+    key_concept = format_key_concept_section(fm)
+    if key_concept:
+        parts.append(f"## Key Concept\n\n{key_concept}")
 
     examples = fm.get("examples")
     if isinstance(examples, list) and examples:
@@ -324,7 +395,9 @@ def yaml_scalar(key: str, value: Any) -> str:
     if isinstance(value, (int, float)):
         return f"{key}: {value}"
     text = str(value)
-    if "\n" in text:
+    # key_concept is markdown bullets / shortcodes - always a block scalar so a
+    # single "- …" line never becomes invalid YAML (`key_concept: - …`).
+    if key == "key_concept" or "\n" in text:
         block = text.rstrip("\n").replace("\n", "\n  ")
         return f"{key}: |\n  {block}"
     if key in ALWAYS_QUOTE or re.search(r'[:#\[\]{}&,*!|>\'"%@`]', text) or text in {
@@ -438,15 +511,18 @@ def shareable_lines_overlap(a: str, b: str) -> bool:
 
 
 def principle_line_pool(fm: dict) -> list[str]:
-    """Normalized clauses drawn only from description and key_concept."""
+    """Normalized clauses from description, key_concept, and level_1..level_5."""
     pool: list[str] = []
     seen: set[str] = set()
-    for field in ("description", "key_concept"):
+    for field in ("description", "key_concept", *LEVEL_KEYS):
         src = fm.get(field)
         if not isinstance(src, str) or not src.strip():
             continue
-        chunks = [src.strip()]
-        for block in src.strip().split("\n\n"):
+        raw = src.strip()
+        if field in LEVEL_KEYS:
+            raw = strip_level_prefix(raw)
+        chunks = [raw]
+        for block in raw.split("\n\n"):
             block = block.strip()
             if not block or "|" in block:
                 continue
@@ -454,6 +530,7 @@ def principle_line_pool(fm: dict) -> list[str]:
                 continue
             if block.startswith("- "):
                 block = block[2:]
+            block = LEVEL_PREFIX_RE.sub("", block).strip()
             chunks.append(block.replace("\n", " "))
         for chunk in chunks:
             flat = WIKILINK_PLAIN.sub(r"\1", chunk)
@@ -710,10 +787,36 @@ def _self_check() -> None:
     meta = {"description": "A test note.", "key_concept": "Claim here."}
     prose = note_prose_text(meta, "")
     assert "A test note." in prose and "Claim here." in prose
+    kc = (
+        "- Claim punch.\n"
+        "- Level 1: Definition text.\n"
+        "- Level 2: Explanation text.\n"
+        "- Stack bullet.\n"
+    )
+    cleaned, levels = extract_levels_from_key_concept(kc)
+    assert "Level 1" not in cleaned
+    assert levels["level_1"] == "Definition text."
+    assert levels["level_2"] == "Explanation text."
+    assert "Stack bullet" in cleaned
+    assembled = format_key_concept_section(
+        {
+            "key_concept": "- Claim punch.\n- Stack bullet.",
+            "level_1": "Definition text.",
+            "level_2": "Explanation text.",
+            "level_3": "Application text.",
+            "level_4": "Systems text.",
+            "level_5": "Generative text.",
+        }
+    )
+    assert assembled.splitlines()[0] == "- Claim punch."
+    assert assembled.splitlines()[1] == "- Level 1: Definition text."
+    assert assembled.splitlines()[5] == "- Level 5: Generative text."
+    assert assembled.splitlines()[6] == "- Stack bullet."
+    assert strip_level_prefix("Level 3: Application text.", 3) == "Application text."
 
 
 def shareable_line_from_principle(line: str, fm: dict) -> bool:
-    """True when line is a clause from description or key_concept, not meta padding."""
+    """True when line is a clause from description, key_concept, or levels."""
     nl = normalize_shareable_line(line)
     if not nl:
         return False

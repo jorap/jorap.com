@@ -6,11 +6,6 @@ meta_title: "Notes Flashcards"
 description: "Learn less, retain longer, apply more - I opt notes into drill cards when recall and use in real life matter, and export to Anki when I want SRS on my phone."
 key_concept: |
   - **Guiding principle:** Learn less, retain longer, and apply more.
-  - Level 1: Pack only tools you will use - learn fewer things, remember longer, use them when life shows up.
-  - Level 2: Flashcards are like spare keys clipped where you will find them - cue on the front, move on the back when the moment hits.
-  - Level 3: Because recall under pressure differs from recognition during review, cards train the move you need when the cue appears in real life.
-  - Level 4: Keep a card only if it helps with a recurring problem - drop cards that only feel smart during review but never fire in life.
-  - Level 5: Cue on the front, immediate move on the back - not definitions dressed as advice; ~20% of notes opt in at [/notes/review/](/notes/review/).
   - **The question:** Can I recall and use this knowledge when it matters? - not review count, streak length, or facts memorized - retention, application, and explanation in real life.
   - This page is a **utility surface** (`note_kind: meta`) - not a garden note.
   - Evergreen notes should not `[[wikilink]]` here; point readers to [/notes/flashcards/](/notes/flashcards/) or [/notes/review/](/notes/review/) by URL instead.
@@ -21,6 +16,11 @@ key_concept: |
   - ~20% of notes opt in - gospel and PKM spine share [/notes/review/](/notes/review/).
   - Learn less, retain longer, apply more - cards exist so the right move loads when life shows up.
   - I opt notes into drill cards when recall and use in real life matter, and export to Anki when I want SRS on my phone.
+level_1: "Flashcards are cue on the front and an immediate move on the back - learn fewer things, retain longer, apply when life shows up."
+level_2: "Like spare keys clipped where you will find them - the card trains the move you need when the cue appears, not recognition alone."
+level_3: "Keep a card only if it helps with a recurring problem - drop cards that only feel smart during review but never fire in life."
+level_4: "Recall under pressure differs from recognition during review - cards train application, not definitions dressed as advice."
+level_5: "~20% of notes opt in at [/notes/review/](/notes/review/) - export to Anki when you want SRS on your phone."
 shareable_thought:
   - "Learn less, retain longer, apply more."
   - "I opt notes into drill cards when recall and use in real life matter, and export to Anki when I want SRS on my phone."
@@ -36,11 +36,6 @@ aliases: ["/notes/cards/"]
 featured: false
 draft: false
 ---
-
-
-
-
-
 ## Frontmatter format (atomic notes)
 
 Atomic garden notes store all claim data in frontmatter - body stays empty unless the page is a hub or utility doc:

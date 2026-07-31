@@ -10,6 +10,9 @@ from pathlib import Path
 import yaml
 
 from notes_content import (
+    LEVEL_KEYS,
+    LEVEL_BULLET_RE,
+    LEVEL_PREFIX_RE,
     is_complete_shareable_line,
     gets_point_across,
     shareable_lines_overlap,
@@ -133,7 +136,7 @@ def lint_key_concept_bullets(path: Path, fm: dict) -> list[str]:
 
 
 def lint_description_in_key_concept(path: Path, fm: dict) -> list[str]:
-    """description must not repeat inside key_concept bullets."""
+    """description must not repeat inside key_concept stack (levels may restate)."""
     if fm.get("note_kind", "note") in {"meta", "index"}:
         return []
     desc = fm.get("description")
@@ -145,6 +148,27 @@ def lint_description_in_key_concept(path: Path, fm: dict) -> list[str]:
         return []
     preview = hits[0][:60] + ("…" if len(hits[0]) > 60 else "")
     return [f"FAIL description in key_concept ({preview}): {path.name}"]
+
+
+def lint_levels(path: Path, fm: dict) -> list[str]:
+    """Atomic notes need level_1..level_5 (no Level N: prefix in the value)."""
+    if fm.get("note_kind", "note") in {"meta", "index"}:
+        return []
+    errs: list[str] = []
+    kc = fm.get("key_concept")
+    if isinstance(kc, str):
+        for line in kc.splitlines():
+            if LEVEL_BULLET_RE.match(line):
+                errs.append(f"FAIL Level bullet still in key_concept: {path.name}")
+                break
+    for key in LEVEL_KEYS:
+        val = fm.get(key)
+        if not isinstance(val, str) or not val.strip():
+            errs.append(f"FAIL missing {key}: {path.name}")
+            continue
+        if LEVEL_PREFIX_RE.match(val.strip()):
+            errs.append(f"FAIL {key} still has Level prefix: {path.name}")
+    return errs
 
 
 def lint_description(path: Path, fm: dict) -> list[str]:
@@ -192,6 +216,9 @@ def verify() -> int:
             print(msg)
             bad += 1
         for msg in lint_key_concept_bullets(path, fm):
+            print(msg)
+            bad += 1
+        for msg in lint_levels(path, fm):
             print(msg)
             bad += 1
         for msg in lint_shareable_thought(path, fm):

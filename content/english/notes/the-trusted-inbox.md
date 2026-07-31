@@ -4,13 +4,13 @@ meta_title: "The Trusted Inbox - One Place I will Actually Empty"
 description: "One capture pipe emptied every week - without trust, ideas hoard in the head instead."
 key_concept: |
   - If the inbox never gets emptied, capture moves back into your head.
-  - Level 1: If you never clear your capture list, your brain starts holding ideas again because you cannot trust the list.
-  - Level 2: An inbox you do not empty becomes a junk drawer - capture moves back into your head when the list lies.
-  - Level 3: Trust rebuilds on schedule because emptying on time proves the system will hold what you offload.
-  - Level 4: Empty the inbox on the same day each week - trust is built by schedule, not by someday.
-  - Level 5: An inbox you do not empty becomes a junk drawer you stop using - same lane as [[Inbox Zero]]; hope is not a processing strategy.
   - An inbox you do not empty becomes a junk drawer you stop using.
   - Trust is built by emptying on schedule, not by hoping you will get to it someday.
+level_1: "A trusted inbox is one capture pipe you empty on schedule - if you never clear it, your brain starts holding ideas again."
+level_2: "An inbox you do not empty becomes a junk drawer - capture moves back into your head when the list lies."
+level_3: "Empty the inbox on the same day each week - trust is built by schedule, not by someday."
+level_4: "Trust rebuilds on time because emptying on schedule proves the system will hold what you offload - hope is not a processing strategy."
+level_5: "Same lane as [[Inbox Zero]] - one bowl by the door beats two bowls that make you hold things in your head instead."
 examples:
   - "We kept one bowl by the door for keys, papers, receipts - two bowls meant I would hold things in my head instead."
   - "One notebook on the bench for every substitute tweak - if we do not review it after the match, nobody trusts writing in it next week."
@@ -61,4 +61,3 @@ cards:
     back: "One notebook on the bench - process Friday."
 draft: false
 ---
-

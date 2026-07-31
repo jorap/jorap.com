@@ -6,15 +6,15 @@ key_concept: |
   {{< bible ref="Matthew 5:21-24" emphasize="24" >}}
   
   - Fix the breach with your brother before the offering - worship with an unreconciled heart is hollow.
-  - Level 1: If you are fighting with someone, make peace before you worship - praying while the hurt is still open is empty.
-  - Level 2: If you and someone else are fighting, make peace with them before you worship - praying while the hurt is still open is empty.
-  - Level 3: Leave the gift, go reconcile, then return - worship with an unreconciled heart is hollow.
-  - Level 4: Because offering and anger cannot share one altar, breach repair precedes praise - mercy received demands mercy extended.
-  - Level 5: Fix the breach with your brother before the offering - worship with an unreconciled heart is hollow; [[Peacemakers]] names the active move.
   - Worship with an unreconciled heart is hollow.
   - The initiative is on the one who knows there is a breach - leave the altar, go, be reconciled, then return.
   - This is fellowship restored, not salvation re-earned: [[Free Grace]] already settled my standing before God ([[Standing vs Fellowship]]).
   - Same discipline as [[Note Relationships]] in the garden: broken links between notes need typed repair - broken links between people need face-to-face repair first.
+level_1: "Reconciliation before worship means making peace with your brother before you present your offering - leave the gift, go reconcile, then return."
+level_2: "Like praying while the hurt is still open - offering and anger cannot share one altar; breach repair precedes praise."
+level_3: "Five minutes in the parking lot with the co-worker who still has something against you - then walk into the volunteer shift ready to serve."
+level_4: "Because mercy received demands mercy extended, the initiative sits on the one who knows there is a breach - fellowship restored, not salvation re-earned under [[Free Grace]]."
+level_5: "[[Peacemakers]] names the active move; [[Note Relationships]] mirrors it in the garden - broken links between people need face-to-face repair before ceremony."
 examples:
   - "I warmed up ready to compete while my teammate still had something against me from Wednesday - fix it courtside, then play."
   - "I walked into the volunteer shift ready to serve while my co-worker still had something against me - five minutes in the parking lot first."
@@ -67,7 +67,3 @@ cards:
     back: "Closeness restored - not re-earning heaven."
 draft: false
 ---
-
-
-
-

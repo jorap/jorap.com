@@ -4,14 +4,14 @@ meta_title: "Notice the Good - Say What You Want to See Again"
 description: "Notice the good means naming the specific helpful move so people know what to repeat."
 key_concept: |
   - "Good job" teaches nothing. "Your rebounds won that scrimmage" teaches the rep.
-  - Level 1: Good job says nothing - Your rebounds won that game tells them exactly what to do again, like pointing at the exact move that worked instead of clapping with no detail.
-  - Level 2: Notice-the-good means specific praise - name the rep that worked, not empty approval.
-  - Level 3: Good job teaches nothing - Your rebounds won that scrimmage teaches the behavior to repeat.
-  - Level 4: Praise the exact move you want copied - vague approval feels nice and changes nothing.
-  - Level 5: [[Coaching Ethics]] and [[Gentleness]] both need precision - empty cheer is [[Name the Feeling]] without the [[Complete the Cycle]] that builds skill.
   - Specific praise names the behavior I want again - that is how [[Process Over Outcomes]] sounds out loud.
   - Vague thanks flatters; spelled-out moves give people something to repeat tomorrow.
   - The stake is reinforcement: praise the scoreboard and the steady process stays invisible.
+level_1: "Notice-the-good means praise the exact move you want copied - specific feedback, not empty approval."
+level_2: "Good job says nothing; your rebounds won that game tells them exactly what to do again - like pointing at the move that worked instead of clapping with no detail."
+level_3: "Praise the exact rep that worked - vague approval feels nice and changes nothing about tomorrow's behavior."
+level_4: "Specific praise names the behavior to repeat - that is how [[Process Over Outcomes]] sounds out loud when you coach."
+level_5: "[[Coaching Ethics]] and [[Gentleness]] both need precision - empty cheer is [[Name the Feeling]] without the [[Complete the Cycle]] that builds skill."
 examples:
   - "After practice I told the kid who boxed out every drill that his rebounds won the scrimmage and he should keep sealing like that."
   - "I emailed the intern that catching the duplicate invoice before I did saved us a call - specific beats a generic thanks slide."
@@ -60,5 +60,3 @@ cards:
     back: "One named good per session - then notes."
 draft: false
 ---
-
-

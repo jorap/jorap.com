@@ -4,14 +4,14 @@ meta_title: "Words That Build Up - Speech That Gives Grace"
 description: "Paul tells believers to speak words that build up - edifying speech gives grace to hearers, not debris."
 key_concept: |
   {{< bible ref="Ephesians 4:29" emphasize="29" >}}
-
+  
   - My words either deposit grace or debris - Paul forbids rotten speech and commands what builds the hearer up.
-  - Level 1: Like choosing bricks instead of rocks for someone's house - build-up words leave something standing after you leave.
-  - Level 2: Building up does not mean flattery - it means truth that helps, timed so the hearer can actually use it.
-  - Level 3: Under [[Free Grace]], I speak from forgiven lips - not to earn standing, but because Christ already cleaned the ledger.
-  - Level 4: [[Gentleness]] and [[Peacemakers]] show what build-up sounds like when the room is hot.
-  - Level 5: [[Give Useful Feedback]] is the garden echo - same deposit, workplace draft or kitchen table.
   - [[Listen Before Fixing]] keeps build-up from becoming unsolicited demolition.
+level_1: "Words that build up are speech that gives grace to hearers - edifying truth that leaves something standing, not rotten speech or debris."
+level_2: "Like choosing bricks instead of rocks for someone's house - build-up means truth that helps, timed so the hearer can actually use it, not flattery."
+level_3: "Delete the sarcastic group-chat reply and name one true thing your teammate did right - correction lands when you built up first at dinner."
+level_4: "Under [[Free Grace]], I speak from forgiven lips - not to earn standing; [[Gentleness]] and [[Peacemakers]] show what build-up sounds like when the room is hot."
+level_5: "[[Give Useful Feedback]] is the garden echo - same deposit at workplace draft or kitchen table; [[Listen Before Fixing]] keeps build-up from becoming unsolicited demolition."
 examples:
   - "I almost sent the sarcastic group-chat reply - Ephesians 4 meant deleting it and naming one true thing my teammate did right."
   - "Correction to my kid landed because we built up first at dinner - rotten speech would have shut his ears before the lesson."

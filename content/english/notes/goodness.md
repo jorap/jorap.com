@@ -4,17 +4,17 @@ meta_title: "Goodness - Upright Deeds the Spirit Grows"
 description: "Goodness fruit is upright action that points to God, not hidden virtue or good deeds performed for applause."
 key_concept: |
   {{< bible ref="Matthew 5:16" emphasize="16" >}}
-
+  
   - Good works that glorify the Father - upright deeds that point to God, not a personal brand.
-  - Level 1: Goodness is doing the right thing so people think of God - like helping quietly so others thank Him.
-  - Level 2: Goodness is outward integrity that points people toward God - like a flashlight aimed at the sky, not at your own name tag.
-  - Level 3: Fruits of the Spirit pairs goodness with kindness - when goodness becomes a personal brand, the fruit rots into performance.
-  - Level 4: Do the right thing in a way that makes people notice God behind it - not your resume line.
-  - Level 5: [[Kindness]] is the soft strength beside goodness; [[Fruits of the Spirit]] keeps both aimed at others, not a nice-guy pose.
   - [[Let Your Light Shine]] is the garden echo: do good visibly so others glorify the Father, not so you collect likes.
   - [[Heart Righteousness]] keeps the inside matching the outside - upright deeds from motive, not polish over poison.
   - [[Secret Devotion]] on the other side: some good stays hidden; goodness fruit still refuses to bury what should point to God.
   - Upright deeds from motive beat polish over poison on the inside.
+level_1: "Goodness is upright deeds that point people toward God - good works that glorify the Father, not a personal brand."
+level_2: "Like a flashlight aimed at the sky, not at your own name tag - outward integrity that makes people notice God behind the work."
+level_3: "Do the right thing in a way that makes people notice God behind it - not your resume line."
+level_4: "[[Fruits of the Spirit]] pairs goodness with kindness - when goodness becomes a personal brand, the fruit rots into performance."
+level_5: "[[Kindness]] is the soft strength beside goodness; both stay aimed at others, not a nice-guy pose."
 examples:
   - "I brought extra water for the whole bench and almost posted about it - goodness fruit shines so someone thinks God is real, not so my brand grows."
   - "I covered a coworker's shift quietly and almost made it a LinkedIn moment - let the Father get credit, not my personal brand."
@@ -67,5 +67,3 @@ cards:
     back: "Post nothing - Father saw it."
 draft: false
 ---
-
-

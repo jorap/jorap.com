@@ -4,12 +4,12 @@ meta_title: "There Is No Perfect Solution - Only Tradeoffs"
 description: "There is no perfect solution - pick what works tired and ship instead of waiting for the ideal."
 key_concept: |
   - Waiting for the ideal option is itself a choice - usually the choice to stay stuck with the status quo.
-  - Level 1: Waiting forever for the perfect choice is still a choice - and it usually means you keep the messy situation you have.
-  - Level 2: Waiting for the ideal option is itself a decision - most often it keeps the status quo in place.
-  - Level 3: Perfect solutions are imaginary comparators - real options all carry tradeoffs the wait avoids naming.
-  - Level 4: Compare real choices against each other, not against a fantasy option that does not exist.
-  - Level 5: Every real choice has tradeoffs - stop comparing real options to an imaginary perfect one; [[Reversibility]] asks which mistake you can undo.
   - Every real choice has tradeoffs - stop comparing real options to an imaginary perfect one.
+level_1: "There is no perfect solution - every real choice carries tradeoffs, not an imaginary ideal option that does not exist."
+level_2: "Waiting for the ideal option is itself a decision - most often it keeps the status quo in place while you compare real choices against fantasy."
+level_3: "Compare real choices against each other, not against a perfect option - pick what works tired and ship instead of waiting a week comparing strollers."
+level_4: "Perfect solutions are imaginary comparators - [[Reversibility]] asks which mistake you can undo when every real choice has tradeoffs."
+level_5: "Stop comparing real options to an imaginary perfect one - same move as [[Accept the Starting Line]] when waiting to feel ready blocks the good-enough move."
 examples:
   - "I spent a week comparing strollers instead of walking with the baby we already had - picked the lighter one, went out tired that afternoon."
   - "I stopped comparing note apps and shipped with the one that works on my phone tired - no perfect tool, only what I actually use."
@@ -56,4 +56,3 @@ cards:
     back: "Good enough ships - imaginary vendor waits."
 draft: false
 ---
-

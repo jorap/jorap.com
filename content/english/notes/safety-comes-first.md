@@ -4,13 +4,13 @@ meta_title: "Safety Comes First - Stop Harm Before You Follow Along"
 description: "Stop the unsafe thing first, then restore choice when the situation is stable."
 key_concept: |
   - Respect does not mean I ignore danger - I stop serious harm first, then restore choice when it is safe.
-  - Level 1: Being kind does not mean letting someone do something dangerous - stop the harm first, then give choices back when it is safe.
-  - Level 2: Being respectful does not mean letting someone do something dangerous - stop the harm first, then give choices back when it is safe.
-  - Level 3: Respect plus boundary - halt serious harm, restore agency when safe.
-  - Level 4: Because politeness is not permission for injury, safety interrupts before nuance.
-  - Level 5: Respect does not mean I ignore danger - I stop serious harm first, then restore choice when it is safe.
   - The choice they lose is narrow and temporary - which risk, not whether to be safe at all.
   - Respect is not letting harm run.
+level_1: "Safety comes first means stopping serious harm before you follow along - respect does not mean ignoring danger."
+level_2: "Halt the unsafe thing, then restore choice when the situation is stable - politeness is not permission for injury."
+level_3: "Get the trainer when a teammate wants to play through a head hit - do not support his call into harm."
+level_4: "Because safety interrupts before nuance, the choice they lose is narrow and temporary - which risk, not whether to be safe at all."
+level_5: "Pair with [[Duty of Care]] and [[Eliminate Before Managing]] - remove the dangerous option before debating how to supervise it."
 examples:
   - "A teammate wanted to play through a head hit - I did not \"support his call\"; I got the trainer."
   - "My kid wanted to ride in the truck bed on a bumpy road - \"your choice\" ended at the seatbelt."
@@ -59,6 +59,3 @@ cards:
     back: "Tag out - then troubleshoot."
 draft: false
 ---
-
-
-

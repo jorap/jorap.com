@@ -6,12 +6,12 @@ meta_title: "Random Duo"
 description: "Two notes from the garden, picked at random. I hit **Shuffle** for another pair. Pairs with [[Backlinks]], [[Create Note]], and [[Flashcards]]."
 key_concept: |
   - Forced serendipity - two unrelated claims side by side so I notice links I forgot to make.
-  - Level 1: Put two random ideas side by side so your brain spots links you missed - like shuffling two puzzle pieces from different boxes.
-  - Level 2: Put two random ideas next to each other so your brain spots connections you missed when you were only thinking about one at a time.
-  - Level 3: Forced pairing of unrelated notes - serendipity by layout, not by luck.
-  - Level 4: Because single-topic reading narrows retrieval, juxtaposition triggers links the linear path hid.
-  - Level 5: Forced serendipity - two unrelated claims side by side so I notice links I forgot to make; domain labels do not count as connection.
   - Shuffle again when the pair does not spark a link worth making.
+level_1: "Random duo is a layout that pairs two garden notes at random so juxtaposition triggers connections linear reading hid."
+level_2: "Like shuffling two puzzle pieces from different boxes - your brain spots links you missed when thinking about one topic alone."
+level_3: "Hit Shuffle when the pair does not spark a link worth making - forced pairing is serendipity by layout, not by luck alone."
+level_4: "Because single-topic reading narrows retrieval, side-by-side unrelated claims widen what you notice - domain labels do not count as connection."
+level_5: "Pairs with [[Backlinks]] and [[Create Note]] - when a duo sparks a link, wire it in the graph instead of leaving it accidental."
 shareable_thought:
   - "Two notes from the garden, picked at random."
   - "I hit Shuffle for another pair."
@@ -27,6 +27,3 @@ aliases: ["random-two", "random-trio", "random-three"]
 featured: false
 draft: false
 ---
-
-
-

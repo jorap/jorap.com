@@ -6,17 +6,17 @@ key_concept: |
   {{< bible ref="John 6:35-40" emphasize="37" >}}
   
   - Believe and you have eternal life - rest on that promise when the week was ugly, not on your scorecard.
-  - Level 1: Like when Mom says you are still hers after a bad report card - your place does not depend on the grade.
-  - Level 2: A kid trusts Dad's promise on the ride home even after a fight at school - rest on the word, not the week's score.
-  - Level 3: Assurance is where you rest when the week was ugly - bad weeks and hidden sin do not re-open the case [[Justification]] closed.
-  - Level 4: When dread hits on Monday, return to the promise you believed at faith - rest on Christ's word, not this week's performance tally.
-  - Level 5: [[Free Grace]] names the gift; [[Loss of Reward]] keeps reward-loss separate from belonging; [[Standing vs Fellowship]] keeps closeness breaks distinct from standing that stays.
   - [[Free Grace]] names the gift; [[Justification]] names the verdict; assurance names where I rest when doubt hits.
   - Bad weeks, hidden sin, dread at the [[Judgment Seat]] - none of those re-open the case [[Justification]] closed.
   - [[Loss of Reward]] keeps reward-loss separate: I can stumble, lose reward, and still belong to Christ.
   - [[Childlike Faith]] receives the promise like a child - stop re-negotiating merit every Monday.
   - [[Standing vs Fellowship]] keeps the categories straight: closeness breaks, standing stays.
   - PKM mirror: [[Minimum Effective Dose]] - faith is the sufficient act; assurance rests on that, not a lifetime merit stack.
+level_1: "Assurance is resting on Christ's promise of eternal life - not on this week's performance scorecard."
+level_2: "Like trusting you are still loved after a bad report card - rest on the word, not the week's tally."
+level_3: "When dread hits on Monday, return to the promise you believed at faith - bad weeks do not re-open [[Justification]]."
+level_4: "Hidden sin and ugly weeks do not revoke belonging - assurance is where you rest when performance says otherwise."
+level_5: "[[Free Grace]] names the gift; [[Loss of Reward]] keeps reward-loss separate from belonging; [[Standing vs Fellowship]] keeps closeness breaks distinct from standing that stays."
 examples:
   - "Bad week and dread God changed His mind - assurance rests on Christ's promise, not my obedience streak."
   - "I pictured the judgment seat and panicked like heaven might get revoked - salvation settled at faith; works get reviewed for reward after."
@@ -84,5 +84,3 @@ cards:
     back: "Nothing from God's love in Christ."
 draft: false
 ---
-
-

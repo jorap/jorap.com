@@ -4,12 +4,12 @@ meta_title: "Block Recovery Time - Rest on the Calendar"
 description: "Recovery belongs on the calendar like practice - unblocked rest becomes the thing that always slips."
 key_concept: |
   - If recovery is not blocked, work eats it - schedule rest like you schedule the meeting that matters.
-  - Level 1: Like putting the water bottle on the bench before the drill - if it is not there, you never drink.
-  - Level 2: Block recovery means the nap, walk, or off night is immovable - not the flexible slice that disappears when email screams.
-  - Level 3: [[Come to Me Weary]] is the faith invitation; blocking time is how weary actually gets addressed.
-  - Level 4: [[Energy Protects Judgment]] fails when recovery is theoretical - blocked time makes refill real.
-  - Level 5: [[Sustainable Performance]] trades heroic weeks for seasons that still work in month three.
   - [[Maintenance Window]] is the systems echo - planned downtime beats emergency collapse.
+level_1: "Block recovery time is scheduling rest on the calendar like a meeting that matters - not a flexible slice work eats."
+level_2: "Like putting the water bottle on the bench before the drill - if recovery is not blocked, email screams and the nap disappears."
+level_3: "Block the nap, walk, or off night as immovable - [[Come to Me Weary]] is the faith invitation; blocking time is how weary gets addressed."
+level_4: "[[Energy Protects Judgment]] fails when recovery is theoretical - blocked time makes refill real."
+level_5: "[[Sustainable Performance]] trades heroic weeks for seasons that still work in month three."
 examples:
   - "I blocked Wednesday noon walks before Q4 crunch - the weeks I kept them, bedtime arguments dropped; the weeks I skipped, everyone paid."
   - "Team put no-meeting Friday afternoons on the calendar - recovery block beat the culture that wore badges for empty weekends."

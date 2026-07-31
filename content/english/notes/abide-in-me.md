@@ -6,16 +6,16 @@ key_concept: |
   {{< bible ref="John 15:1-11" emphasize="5" >}}
   
   - Cut off from the vine, I produce nothing lasting - fruit comes from staying connected, not willpower theater.
-  - Level 1: Like when a broken twig dries on the sidewalk - it cannot grow grapes because it left the tree.
-  - Level 2: A kid keeps pedaling only while Dad holds the bike seat - let go and the ride stops fast.
-  - Level 3: Abiding means staying plugged in - cut the line and nothing real grows; straining without connection is just show.
-  - Level 4: Open Scripture and pray before you try to force spiritual output - fruit comes from attachment, not from grinding harder alone.
-  - Level 5: Under [[Free Grace]], fruit never earns the branch its place - pruning hurts but serves yield; self-powered "fruit" without abiding is dead wood, same trap as treating [[Sanctification]] as pure self-stacked effort.
   - Abiding is ongoing dependence, not a one-time conversion event - pruning hurts but serves fruitfulness over time.
   - Under [[Free Grace]], fruit does not earn the branch's place in the vine - the branch bears fruit because it is connected.
   - [[Fruits of the Spirit]] hub lists the cluster Galatians names - love through self-control - grown by walking in the Spirit, not sheer willpower.
   - [[Sanctification]] is the slow becoming that abiding produces over time.
   - Self-powered "fruit" without abiding is the dead wood Jesus removes - same trap as [[Compounding]] when I treat spiritual growth as pure self-stacked effort.
+level_1: "Abiding in Christ is staying connected to Jesus as the vine - fruit comes from attachment, not disconnected willpower."
+level_2: "Like a branch cut from a tree, disconnected effort dries up; like a kid pedaling only while Dad holds the bike, connection keeps the work alive."
+level_3: "Open Scripture and pray before forcing spiritual output - abiding means plugged-in dependence, not performance theater."
+level_4: "Fruit comes from attachment before grind; pruning hurts but serves yield over time under [[Free Grace]]."
+level_5: "Under [[Free Grace]], fruit never earns the branch its place - self-powered effort without abiding is dead wood, same trap as treating [[Sanctification]] as pure self-stacked effort."
 examples:
   - "I snap at my kid after a week with almost no prayer or Scripture, and I know where the fruit went - abiding is opening the Bible before the news feed wins again."
   - "I checked email three times before I prayed this morning and wondered why God felt far away - staying connected is the daily choice, not the badge from conversion day."

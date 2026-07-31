@@ -4,15 +4,15 @@ meta_title: "Inbox Zero"
 description: "Process the inbox to empty each week - decide, do not hoard."
 key_concept: |
   - Process the inbox to empty regularly - each item decided, not hoarded.
-  - Level 1: Open your inbox often, decide what to do with each message, and leave nothing sitting there to rot.
-  - Level 2: Work through every message on a schedule - decide the next step or archive it, like clearing dishes after each meal instead of letting them pile up.
-  - Level 3: An undeclared inbox becomes a todo graveyard - every message needs a next action or archive, or dread returns every Monday.
-  - Level 4: Touch each message once per processing pass: decide, delegate, defer with a date, or delete - then leave empty.
-  - Level 5: [[The Trusted Inbox]] is the capture lane; [[Getting Things Done]] processing keeps inbox zero from becoming performative tidying.
   - Zero is not vanity - it is proof the capture system still works when Monday does not start with dread.
   - Empty the capture pipe on schedule, or ideas retreat back into my head.
   - Each item gets decide, delete, or defer - not another week in the pile.
   - If I will not empty the inbox, I stop trusting it and hoard in my head instead.
+level_1: "Inbox zero means processing every message to a decision - archive, delegate, defer with a date, or delete - until the inbox is empty."
+level_2: "Work through every message on a schedule - decide the next step or archive it, like clearing dishes after each meal instead of letting them pile up."
+level_3: "Friday triage every team inbox item to a next action or archive - Monday starts from decisions made, not dread about mystery piles."
+level_4: "Undeclared messages become a todo graveyard - each pass must touch every item once or dread returns every Monday and the capture system loses trust."
+level_5: "[[The Trusted Inbox]] is the capture lane; [[Getting Things Done]] processing keeps inbox zero from becoming performative tidying."
 examples:
   - "Friday I triaged the team inbox to zero - Monday practice started from decisions made, not dread about who forgot what."
   - "Sunday night we emptied the kitchen catch-all tray - each slip got a decision so school week did not start with mystery piles."
@@ -55,4 +55,3 @@ cards:
     back: "Empty the inbox - not rearrange it."
 draft: false
 ---
-

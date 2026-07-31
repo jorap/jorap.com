@@ -4,13 +4,13 @@ meta_title: "Layered Reading"
 description: "One pass through a book is not absorption - return when more depth is needed."
 key_concept: |
   - Pass through the same source at increasing depth - skim, highlight, summarize.
-  - Level 1: Read the same book more than once - first skim for the big picture, then mark parts, then write what you learned.
-  - Level 2: Read the same source in layers - skim first, mark what matters, then write it back, like peeling an onion one skin at a time.
-  - Level 3: One pass cannot extract structure, evidence, and your own words - each layer adds depth without pretending one read is enough.
-  - Level 4: Run the same source through skim, mark, and summarize passes before you claim you know it.
-  - Level 5: [[The Feynman Technique]] is the teach-it-back layer; [[Active Reading]] keeps highlights from dying in the margin.
   - Skim first pass, mark second, extract third - same book, three depths, one sitting at a time.
   - I do not read a book once and pretend I absorbed it - I pass through again when I need more.
+level_1: "Layered reading is returning to the same source at increasing depth - skim, mark, then write it back in your words."
+level_2: "Like peeling an onion one skin at a time, each pass extracts structure, evidence, and your own take without pretending one read is enough."
+level_3: "Run skim, mark, and summarize passes on the same chapter before you claim you know it."
+level_4: "One pass cannot hold structure, evidence, and your vocabulary at once - each layer adds depth the previous skim missed."
+level_5: "[[The Feynman Technique]] is the teach-it-back layer; [[Active Reading]] keeps highlights from dying in the margin."
 examples:
   - "First pass on the coaching manual marked three sections; second pass only those got sentences in my own words."
   - "My kid skims the chapter for gist first, then rereads only the confusing paragraph a second time so she can actually explain it back to me."
@@ -51,4 +51,3 @@ cards:
     back: "Mark three sections - summarize in my words."
 draft: false
 ---
-

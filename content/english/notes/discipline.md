@@ -4,14 +4,14 @@ meta_title: "Discipline - Doing What You Committed When Motivation Drops"
 description: "Keep the promise when nobody is clapping and motivation walked out."
 key_concept: |
   - Discipline keeps the commitment when the feeling that started it left.
-  - Level 1: Keep your promise when you do not feel like it, like showing up for practice when you want the couch.
-  - Level 2: Discipline matches watering plants on vacation - the schedule runs even when excitement left the room.
-  - Level 3: Because motivation fades, systems and habit carry the rep when excitement walks out the door.
-  - Level 4: Do what you said you would do today even when nobody is watching and nobody claps - the boring rep counts anyway.
-  - Level 5: The applause was never reliable fuel - [[Habit Formation]] and systems carry the rep when motivation walked out; Tuesday work defines the person, not launch day.
   - The applause was never reliable fuel - it shows up for the highlight, not the Tuesday rep.
   - Nobody claps for the version of you that just does the boring rep anyway.
   - Do what you said you would do when motivation walked out.
+level_1: "Discipline is keeping the commitment when the feeling that started it left - doing what you said when motivation walked out."
+level_2: "Show up for practice when you want the couch - discipline matches watering plants on vacation when excitement left the room."
+level_3: "Do what you said you would do today even when nobody is watching and nobody claps - the boring rep counts anyway."
+level_4: "The applause was never reliable fuel - [[Habit Formation]] and systems carry the rep when motivation walked out; Tuesday work defines the person, not launch day."
+level_5: "The baker opens at 4am whether she is inspired or not - you build the shift you committed to when motivation was not there."
 examples:
   - "The baker opens at 4am whether she is inspired or not - discipline is the shift she committed to when motivation was not there."
   - "Discipline is loading the dishwasher when I would rather scroll - same as brushing teeth when you are already late."
@@ -57,7 +57,3 @@ cards:
     back: "Bed on time - race owns dawn."
 draft: false
 ---
-
-
-
-
