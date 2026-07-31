@@ -8,12 +8,34 @@
  */
 const fs = require("fs");
 const path = require("path");
+const { platform } = require("node:os");
 
 const SHIM_MARKER = "fix-tailwind-bin-shim";
 const binDir = path.join(__dirname, "../node_modules/.bin");
 const binPath = path.join(binDir, "tailwindcss");
 const shimMjsPath = path.join(binDir, "tailwindcss-shim.mjs");
-const isWin = process.platform === "win32";
+const winCmdPath = path.join(binDir, "tailwindcss.cmd");
+const winPs1Path = path.join(binDir, "tailwindcss.ps1");
+
+/** @returns {"windows"|"macos"|"linux"|"unknown"} */
+function detectPlatform(osName = platform()) {
+  switch (osName) {
+    case "win32":
+      return "windows";
+    case "darwin":
+      return "macos";
+    case "linux":
+      return "linux";
+    default:
+      return "unknown";
+  }
+}
+
+const os = detectPlatform();
+const isWindows = os === "windows";
+const isMac = os === "macos";
+const isLinux = os === "linux";
+const isUnix = isMac || isLinux || os === "unknown";
 
 const shimMjsSource = `// ${SHIM_MARKER}
 import { createRequire } from "node:module";
@@ -36,11 +58,12 @@ const unixLauncherSource = `#!/usr/bin/env node
 import "./tailwindcss-shim.mjs";
 `;
 
-// cmd.exe expects CRLF; LF-only batch files can misparse at 512-byte boundaries.
+// Hugo on Windows resolves tailwindcss.cmd first and parses npm-style wrappers with
+// a relative path containing ".." or "node_modules" (see gohugoio/hugo common/hexec/exec.go).
 const winCmdSource = [
   "@ECHO off",
   `REM ${SHIM_MARKER}`,
-  'node "%~dp0tailwindcss-shim.mjs" %*',
+  'node "%~dp0..\\@tailwindcss\\cli\\dist\\index.mjs" %*',
 ].join("\r\n") + "\r\n";
 
 const winPs1Source = `#!/usr/bin/env pwsh
@@ -55,19 +78,32 @@ function readText(filePath) {
   return fs.readFileSync(filePath, "utf8");
 }
 
+function isValidWinCmd(cmd) {
+  return (
+    cmd.includes(SHIM_MARKER) &&
+    (cmd.includes("@tailwindcss/cli/dist/index.mjs") ||
+      cmd.includes("@tailwindcss\\cli\\dist\\index.mjs"))
+  );
+}
+
 function isFixed() {
   if (!readText(shimMjsPath).includes(SHIM_MARKER)) return false;
   if (!readText(binPath).includes(SHIM_MARKER)) return false;
-  if (isWin) {
-    if (!readText(path.join(binDir, "tailwindcss.cmd")).includes(SHIM_MARKER)) {
-      return false;
-    }
-    if (!readText(path.join(binDir, "tailwindcss.ps1")).includes(SHIM_MARKER)) {
-      return false;
-    }
-  }
   if (fs.existsSync(binPath) && fs.lstatSync(binPath).isSymbolicLink()) return false;
-  return true;
+
+  if (isWindows) {
+    if (!isValidWinCmd(readText(winCmdPath))) return false;
+    if (!readText(winPs1Path).includes(SHIM_MARKER)) return false;
+    return true;
+  }
+
+  if (isUnix) {
+    // macOS/Linux: shebang launcher only; no .cmd/.ps1 required.
+    if (!readText(binPath).startsWith("#!/usr/bin/env node")) return false;
+    return true;
+  }
+
+  return false;
 }
 
 function writeExecutable(filePath, content) {
@@ -86,12 +122,23 @@ function applyFix() {
   if (!fs.existsSync(binDir)) fs.mkdirSync(binDir, { recursive: true });
 
   writeExecutable(shimMjsPath, shimMjsSource);
-  writeExecutable(binPath, unixLauncherSource);
 
-  if (isWin) {
-    writeExecutable(path.join(binDir, "tailwindcss.cmd"), winCmdSource);
-    writeExecutable(path.join(binDir, "tailwindcss.ps1"), winPs1Source);
+  if (isWindows) {
+    writeExecutable(binPath, unixLauncherSource);
+    writeExecutable(winCmdPath, winCmdSource);
+    writeExecutable(winPs1Path, winPs1Source);
+    return;
   }
+
+  if (isMac || isLinux) {
+    writeExecutable(binPath, unixLauncherSource);
+    return;
+  }
+
+  console.warn(
+    `fix-tailwind-bin: unsupported platform ${platform()}; using macOS/Linux layout.`,
+  );
+  writeExecutable(binPath, unixLauncherSource);
 }
 
 function selfCheck() {
@@ -126,6 +173,26 @@ function selfCheck() {
   }
   if (!winCmdSource.includes("\r\n")) {
     failures.push("winCmdSource must use CRLF line endings");
+  }
+  if (
+    !winCmdSource.includes("@tailwindcss/cli/dist/index.mjs") &&
+    !winCmdSource.includes("@tailwindcss\\cli\\dist\\index.mjs")
+  ) {
+    failures.push("winCmdSource must reference @tailwindcss/cli for Hugo hexec");
+  }
+
+  for (const [input, expected] of [
+    ["win32", "windows"],
+    ["darwin", "macos"],
+    ["linux", "linux"],
+    ["freebsd", "unknown"],
+  ]) {
+    if (detectPlatform(input) !== expected) {
+      failures.push(`detectPlatform(${input}): expected ${expected}`);
+    }
+  }
+  if (!["windows", "macos", "linux", "unknown"].includes(os)) {
+    failures.push(`unsupported host platform: ${platform()}`);
   }
 
   if (failures.length) {

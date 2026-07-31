@@ -69,6 +69,10 @@ Cloudflare may not have Hugo on PATH. This repo pins via [`scripts/deploy-versio
 
 Dev uses `pnpm dev` (Tailwind watch + Hugo). Production runs the same pipeline in `scripts/deployBuild.mjs`. Run `pnpm run deploy` locally to reproduce CI failures.
 
+**`binary "tailwindcss" is not a Node.js script` (common on Windows + pnpm):** run `node scripts/fix-tailwind-bin.js` after `pnpm install`. On Windows, Hugo resolves `tailwindcss.cmd` first; the shim must point at `..\@tailwindcss\cli\dist\index.mjs` in a form Hugo’s wrapper parser understands.
+
+**`js.Build failed: Could not resolve "@pixi/…"` (common on Windows):** pnpm’s default nested `node_modules` layout breaks Hugo’s esbuild for PixiJS. This repo sets `node-linker=hoisted` in [`.npmrc`](../.npmrc). Run `pnpm install` after pulling; if errors persist, delete `node_modules` and reinstall.
+
 ### CSP header missing in production
 
 Cloudflare Pages drops header values over ~2 KB. `scripts/cspHashes.mjs` rewrites `public/_headers` after build. See comments in [`static/_headers`](../static/_headers).
