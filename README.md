@@ -76,7 +76,7 @@ mise install
 
 | Tool | Example |
 |------|---------|
-| Hugo Extended | `brew install hugo` (Homebrew ships Extended) |
+| Hugo Extended | `brew install hugo` (Homebrew ships Extended, but may be a newer minor version than the project pin; `pnpm run deploy` will fail with a version check — prefer mise) |
 | Node 22 | `brew install node@22` or [nodejs.org](https://nodejs.org/) |
 | pnpm 11 | `corepack enable && corepack prepare pnpm@11.7.0 --activate` |
 | Go 1.24+ | `brew install go` |
