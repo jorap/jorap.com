@@ -1,5 +1,5 @@
 {{ define "main" }}
-  {{- $notes := partial "notes/pages.html" . -}}
+  {{- $notes := partialCached "notes/pages.html" . "notes-pages-v1" -}}
   {{- $garden := slice -}}
   {{- range $notes -}}
     {{- $garden = $garden | append (dict "title" .Title "tags" (.Params.tags | default slice)) -}}

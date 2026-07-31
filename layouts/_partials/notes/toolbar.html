@@ -1,6 +1,6 @@
 {{- $ctx := .Context -}}
 {{- $active := .active | default "" -}}
-{{- $noteCount := len (partial "notes/pages.html" $ctx) -}}
+{{- $noteCount := len (partialCached "notes/pages.html" $ctx "notes-pages-v1") -}}
 {{- $issueData := partialCached "notes/collect-note-issues.html" site "note-issues-v12" -}}
 {{- $issueTotal := add ($issueData.brokenCount | default 0) ($issueData.pipeCount | default 0) -}}
 {{- $issueTotal = add $issueTotal ($issueData.unlinkedCount | default 0) -}}

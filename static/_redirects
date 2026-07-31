@@ -1,8 +1,16 @@
-# Apex → www (jorap.com must be a Pages custom domain on Cloudflare)
-http://jorap.com/* https://www.jorap.com/:splat 301!
-https://jorap.com/* https://www.jorap.com/:splat 301!
-http://jorap.com https://www.jorap.com/ 301!
-https://jorap.com https://www.jorap.com/ 301!
+# Cloudflare Pages redirects. Hugo copies this to public/_redirects at build time.
+# https://developers.cloudflare.com/pages/configuration/redirects/
+#
+# Pages rejects (and logs at deploy time) rules that Netlify would accept:
+#   - the `!` force suffix: write `301`, never `301!`
+#   - absolute or domain-level sources: `https://jorap.com/*` is skipped
+#   - rewrites to a non-redirect status: `/* /404.html 404` is skipped
+#
+# Apex -> www is NOT handled here. Domain-level redirects are unsupported in
+# _redirects, and jorap.com does not resolve to this Pages project. Configure it
+# on the apex host (Cloudflare Rules > Redirect Rules once the apex is proxied).
+#
+# 404s need no rule: Pages serves public/404.html for any unmatched path.
 
 /notes/cards/ /notes/flashcards/ 301
 /notes/cards /notes/flashcards/ 301
@@ -12,6 +20,3 @@ https://jorap.com https://www.jorap.com/ 301!
 
 /blog/power-of-worship-pads-enhancing-your-worship-experience/ /blog/worship-pads-solo-guitar/ 301
 /blog/power-of-worship-pads-enhancing-your-worship-experience /blog/worship-pads-solo-guitar/ 301
-
-# 404 fallback
-/* /en/404.html 404

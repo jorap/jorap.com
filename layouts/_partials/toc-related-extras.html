@@ -16,7 +16,7 @@
     {{- $extras = $extras | append (dict "level" 2 "title" (T "related_notes") "id" "related-notes") -}}
   {{- end -}}
 {{- end -}}
-{{- $randomPool := partial "notes/random-pool.html" $page -}}
+{{- $randomPool := partialCached "notes/random-pool.html" $page "notes-random-pool-v1" -}}
 {{- if .excludeSelfFromRandom -}}
   {{- $randomPool = where $randomPool "url" "ne" $page.RelPermalink -}}
 {{- end -}}

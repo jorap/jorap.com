@@ -1,4 +1,4 @@
-{{- $notes := partial "notes/pages.html" . -}}
+{{- $notes := partialCached "notes/pages.html" . "notes-pages-v1" -}}
 {{- $nodes := slice -}}
 {{- $edges := slice -}}
 {{- $bodyOutDeg := dict -}}

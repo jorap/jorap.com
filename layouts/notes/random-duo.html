@@ -1,5 +1,5 @@
 {{ define "main" }}
-  {{- $pool := partial "notes/random-pool.html" . -}}
+  {{- $pool := partialCached "notes/random-pool.html" . "notes-random-pool-v1" -}}
   {{- $graph := partialCached "notes/graph-data.html" site "graph-data-v3" -}}
   {{ partial "page-header" . }}
 

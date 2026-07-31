@@ -150,14 +150,16 @@ quality = 80
 resampleFilter = "Lanczos"
 
 ############################ Caches ##############################
+# Hugo defaults these to resources/_gen, which Cloudflare Pages wipes on every
+# clone. Only .cache survives between builds (deployBuild.mjs passes --cacheDir),
+# so park the image and asset variants there instead.
+# https://gohugo.io/host-and-deploy/host-on-cloudflare/
 [caches]
 [caches.images]
-dir = ":resourceDir/_gen"
-maxAge = "720h"
+dir = ":cacheDir/images"
 
 [caches.assets]
-dir = ":resourceDir/_gen"
-maxAge = "720h"
+dir = ":cacheDir/assets"
 
 
 ############################ Markup ##############################

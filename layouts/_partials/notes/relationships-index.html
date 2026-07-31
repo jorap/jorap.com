@@ -3,7 +3,7 @@
   Built from frontmatter relationships: rows only.
 */ -}}
 {{- $index := dict -}}
-{{- $notes := partial "notes/pages.html" (dict) -}}
+{{- $notes := partialCached "notes/pages.html" (dict) "notes-pages-v1" -}}
 
 {{- range $source := $notes -}}
   {{- with $source.Params.relationships -}}
@@ -17,7 +17,7 @@
         {{- if strings.Contains $inner "#" -}}
           {{- $targetStr = index (split $inner "#") 0 | strings.TrimSpace -}}
         {{- end -}}
-        {{- $resolved := partial "notes/resolve-target.html" (dict "Target" $targetStr) -}}
+        {{- $resolved := partialCached "notes/resolve-target.html" (dict "Target" $targetStr) $targetStr -}}
         {{- with $resolved.Page -}}
           {{- if ne .RelPermalink $source.RelPermalink -}}
             {{- $key := .RelPermalink -}}

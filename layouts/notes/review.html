@@ -1,5 +1,5 @@
 {{ define "main" }}
-  {{- $rawCards := partial "notes/collect-cards.html" . -}}
+  {{- $rawCards := partialCached "notes/collect-cards.html" . "notes-collect-cards-v1" -}}
   {{- $cards := slice -}}
   {{- range $rawCards -}}
     {{- $sourceUrl := "" -}}

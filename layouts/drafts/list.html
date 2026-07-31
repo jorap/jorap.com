@@ -25,7 +25,7 @@
         </div>
         <div class="lg:col-4">
           {{ $widget := site.Params.widgets.sidebar }}
-          {{ partialCached "widgets/widget-wrapper" (dict "Widgets" $widget "Scope" .) }}
+          {{ partialCached "widgets/widget-wrapper" (dict "Widgets" $widget "Scope" .) .RelPermalink }}
         </div>
       </div>
     </div>

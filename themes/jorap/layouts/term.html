@@ -21,7 +21,8 @@
         <div class="lg:col-4">
           <!-- widget -->
           {{ $widget:= site.Params.widgets.sidebar }}
-          {{ partialCached "widgets/widget-wrapper" ( dict "Widgets" $widget "Scope" . ) }}
+          {{/* Keyed per page: widgets/tags.html marks the current term active. */}}
+          {{ partialCached "widgets/widget-wrapper" ( dict "Widgets" $widget "Scope" . ) .RelPermalink }}
         </div>
       </div>
     </div>

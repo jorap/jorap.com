@@ -9,7 +9,7 @@
     {{- $limit = . | int -}}
   {{- end -}}
 {{- end -}}
-{{- $notes := partial "notes/pages.html" $ctx -}}
+{{- $notes := partialCached "notes/pages.html" $ctx "notes-pages-v1" -}}
 {{- $entries := slice -}}
 {{- range $notes -}}
   {{- $dates := partial "notes/file-dates.html" . -}}

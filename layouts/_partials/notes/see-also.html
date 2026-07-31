@@ -9,7 +9,7 @@
 
 {{- $limit := site.Params.notes.see_also_limit | default 5 -}}
 {{- $related := partial "notes/related-notes.html" (dict "Context" $page "Limit" (add $limit 3)) -}}
-{{- $outgoing := partial "notes/outgoing-links.html" $page -}}
+{{- $outgoing := partialCached "notes/outgoing-links.html" $page $page.RelPermalink -}}
 {{- $linked := dict -}}
 {{- range $outgoing -}}
   {{- $linked = merge $linked (dict .Page.RelPermalink true) -}}

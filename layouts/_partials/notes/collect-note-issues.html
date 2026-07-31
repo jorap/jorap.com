@@ -13,7 +13,7 @@
 {{- range $graph.nodes -}}
   {{- $graphByUrl = merge $graphByUrl (dict .url .) -}}
 {{- end -}}
-{{- $gardenNotes := partial "notes/pages.html" (dict) -}}
+{{- $gardenNotes := partialCached "notes/pages.html" (dict) "notes-pages-v1" -}}
 {{- $minLen := site.Params.notes.unlinked_min_length | default 6 | int -}}
 {{- $byPath := dict -}}
 {{- $allNotes := slice -}}

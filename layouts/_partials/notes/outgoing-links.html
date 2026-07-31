@@ -16,7 +16,7 @@
     {{- $target = index $hashParts 0 | strings.TrimSpace -}}
     {{- $anchor = index $hashParts 1 | strings.TrimSpace -}}
   {{- end -}}
-  {{- $resolved := partial "notes/resolve-target.html" (dict "Target" $target) -}}
+  {{- $resolved := partialCached "notes/resolve-target.html" (dict "Target" $target) $target -}}
   {{- with $resolved.Page -}}
     {{- if ne .RelPermalink $page.RelPermalink -}}
       {{- if not (index $seen .RelPermalink) -}}

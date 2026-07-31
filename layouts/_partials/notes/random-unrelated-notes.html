@@ -12,7 +12,7 @@
 {{- $isBlog := eq $scope "blog" -}}
 {{- $prefix := cond $isBlog "blog-random" "notes-single-random" -}}
 {{- $dataClass := cond $isBlog "blog-random-notes-data" "notes-single-random-data" -}}
-{{- $pool := partial "notes/random-pool.html" $ctx -}}
+{{- $pool := partialCached "notes/random-pool.html" $ctx "notes-random-pool-v1" -}}
 {{- if not $isBlog -}}
   {{- $pool = where $pool "url" "ne" $ctx.RelPermalink -}}
 {{- end -}}

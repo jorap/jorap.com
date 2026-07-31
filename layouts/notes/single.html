@@ -3,8 +3,8 @@
   {{ $hasToc := $notesToc.has }}
   {{ $page := . }}
   {{ $backlinks := partial "notes/backlinks.html" . }}
-  {{ $outgoing := partial "notes/outgoing-links.html" . }}
-  {{ $relNeighbors := partial "notes/relationship-neighbors.html" . }}
+  {{ $outgoing := partialCached "notes/outgoing-links.html" . .RelPermalink }}
+  {{ $relNeighbors := partialCached "notes/relationship-neighbors.html" . .RelPermalink }}
   {{ $hideOutgoingCards := partial "notes/index-has-body-wikilinks.html" . }}
 
   <section class="section pt-7">

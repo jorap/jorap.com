@@ -1,6 +1,6 @@
 {{ define "main" }}
   {{- $index := partialCached "notes/backlinks-index.html" site "backlinks-index-v5" -}}
-  {{- $notes := partial "notes/pages.html" (dict) -}}
+  {{- $notes := partialCached "notes/pages.html" (dict) "notes-pages-v1" -}}
   {{- $rows := slice -}}
   {{- range $notes -}}
     {{- $key := .RelPermalink -}}

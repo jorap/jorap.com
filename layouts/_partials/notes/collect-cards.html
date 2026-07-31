@@ -7,13 +7,13 @@
 {{- $reviewTag := site.Params.notes.review_tag | default "flashcard" -}}
 {{- $shortcodePattern := `\{\{[%<]\s*card\s+front="([^"]+)"\s+back="([^"]+)"\s*>\}\}` -}}
 
-{{- range partial "notes/pages.html" . -}}
+{{- range partialCached "notes/pages.html" . "notes-pages-v1" -}}
   {{- $page := . -}}
   {{- $body := partial "notes/note-raw-body.html" $page | strings.TrimSpace -}}
   {{- $isReview := or (eq ($page.Params.review | default false) true) (in ($page.Params.tags | default slice) $reviewTag) -}}
 
   {{- if $isReview -}}
-    {{- range partial "notes/cards-for-page.html" $page -}}
+    {{- range partialCached "notes/cards-for-page.html" $page $page.RelPermalink -}}
       {{- if ne .kind "shortcode" -}}
         {{- $cards = $cards | append (dict
           "front" .front

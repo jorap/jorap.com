@@ -3,6 +3,11 @@
   Default: garden notes only (excludes utility/meta surfaces).
   Pass IncludeUtility: true for wikilink registry (graph, issues, flashcards, etc.).
   Pass ExcludeKinds to omit additional note_kind values.
+
+  Always call through partialCached - this scans every site page, so an uncached
+  call inside a per-page partial costs a full site walk on all ~2500 pages.
+  Keys in use: notes-pages-v1 (default), notes-pages-utility-v1,
+  notes-pages-no-index-v1.
 */ -}}
 {{- $includeUtility := false -}}
 {{- $excludeKinds := slice -}}

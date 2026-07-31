@@ -2,7 +2,7 @@
   Flashcard deck for a single note page (frontmatter cards + shortcodes).
 */ -}}
 {{- $page := . -}}
-{{- $cards := partial "notes/cards-for-page.html" $page -}}
+{{- $cards := partialCached "notes/cards-for-page.html" $page $page.RelPermalink -}}
 {{- if gt (len $cards) 0 -}}
   <aside class="notes-note-flashcards border-divider mb-6 rounded border p-5">
     <h2 id="flashcards" class="h6 mb-4">Flashcards</h2>

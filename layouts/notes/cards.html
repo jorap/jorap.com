@@ -1,5 +1,5 @@
 {{ define "main" }}
-  {{- $cards := partial "notes/collect-cards.html" . -}}
+  {{- $cards := partialCached "notes/collect-cards.html" . "notes-collect-cards-v1" -}}
   {{- $exportPath := site.Params.notes.anki_export_path | default "exports/jorap-notes-anki.txt" -}}
   {{- $exportRel := printf "/%s" $exportPath -}}
   {{- $setNames := slice -}}
