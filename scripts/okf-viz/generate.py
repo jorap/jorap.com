@@ -276,7 +276,7 @@ def main() -> None:
     stats = generate_visualization(args.bundle, out, bundle_name=args.name)
     print(
         f"Wrote {stats['concepts']} concept(s), {stats['edges']} edge(s), "
-        f"{stats['bytes']} bytes → {out}"
+        f"{stats['bytes']} bytes -> {out}"
     )
 
 

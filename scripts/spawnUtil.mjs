@@ -108,5 +108,11 @@ export function resolvePython() {
 
 export function runPython(scriptPath, args = [], opts = {}) {
   const { bin, prefix } = resolvePython();
-  run(bin, [...prefix, scriptPath, ...args], opts);
+  const env = {
+    ...process.env,
+    ...opts.env,
+    // Windows cp1252 console cannot print UTF-8 arrows from Python print().
+    PYTHONIOENCODING: opts.env?.PYTHONIOENCODING ?? "utf-8",
+  };
+  run(bin, [...prefix, scriptPath, ...args], { ...opts, env });
 }

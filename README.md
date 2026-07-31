@@ -116,11 +116,28 @@ Use **PowerShell**, **cmd**, or **Git Bash**. Scripts resolve Python as `python`
 
 - **Put the toolchain on PATH first** — local builds do **not** auto-download Hugo (`scripts/ensureHugo.mjs` only fetches Hugo in CI). If `hugo`, `node`, `pnpm`, or `python` is “not recognized”, finish `mise install` (or manual installs above) and open a **new terminal** in the repo. Confirm `%LOCALAPPDATA%\mise\shims` is on PATH if you use mise.
 - **No symlink or Developer Mode setup** — `postinstall` writes a Tailwind shim (`scripts/fix-tailwind-bin.js`) including a Hugo-parseable CRLF `tailwindcss.cmd`.
-- **`.npmrc` uses hoisted installs** — `node-linker=hoisted` so Hugo’s `js.Build` can resolve PixiJS deps on Windows (pnpm’s default nested layout breaks esbuild there). Tailwind is still fixed by the postinstall shim, not symlinks.
+- **Hoisted installs** — `nodeLinker: hoisted` in [`pnpm-workspace.yaml`](pnpm-workspace.yaml) so Hugo’s `js.Build` can resolve PixiJS deps on Windows (pnpm 11 ignores `node-linker` in `.npmrc`). Tailwind is still fixed by the postinstall shim, not symlinks.
 - **Do not skip postinstall** — `pnpm install --ignore-scripts` skips the Tailwind shim. Run `node scripts/fix-tailwind-bin.js` before building, or reinstall without `--ignore-scripts`.
-- **After pulling dependency fixes** — run `pnpm install` once so `node_modules` matches `.npmrc`, then `node scripts/fix-tailwind-bin.js`.
+- **After pulling dependency fixes** — see **What to do on Windows** below. An existing isolated `node_modules` layout will not migrate on its own; delete it before reinstalling.
 
-Verify in PowerShell (same checks as step 4):
+**What to do on Windows** (after `git pull`, or if Pixi/Tailwind build errors persist):
+
+```powershell
+git pull
+Remove-Item -Recurse -Force node_modules
+pnpm install
+node scripts/fix-tailwind-bin.js --self-check
+pnpm run deploy
+```
+
+After `pnpm install`, confirm:
+
+- `node_modules\.modules.yaml` contains `"nodeLinker": "hoisted"`
+- `node_modules\.bin\tailwindcss.cmd` is ~3 lines with `fix-tailwind-bin-shim`, not pnpm’s 900-byte wrapper
+
+`PYTHONIOENCODING=utf-8` is no longer required (scripts set UTF-8 for Python), but leaving it set is harmless.
+
+Verify toolchain (optional, before deploy):
 
 ```powershell
 hugo version    # must include "extended" and v0.163.x
@@ -128,15 +145,13 @@ node -v
 pnpm -v
 py -3 --version
 go version
-node scripts/fix-tailwind-bin.js --self-check
-pnpm run deploy
 ```
 
 | Symptom | Fix |
 |---------|-----|
 | `hugo` / `pnpm` / `python` not recognized | Install tools (mise recommended); restart the terminal |
-| `binary "tailwindcss" is not a Node.js script` | `git pull`, then `pnpm install` and `node scripts/fix-tailwind-bin.js` |
-| `Could not resolve "@pixi/…"` or other `js.Build failed` | `pnpm install` (hoisted layout from `.npmrc`); delete `node_modules` and reinstall if the error persists |
+| `binary "tailwindcss" is not a Node.js script` | Follow **What to do on Windows** above |
+| `Could not resolve "@pixi/…"` or other `js.Build failed` | Follow **What to do on Windows** above |
 | Hugo version mismatch on local build | `mise install`, or install the pinned version from [`scripts/deploy-versions.json`](scripts/deploy-versions.json) |
 
 First production preview may download wrangler via `npx` when you run `pnpm run serve`.
@@ -210,7 +225,7 @@ CMS OAuth locally: copy [`.dev.vars.example`](.dev.vars.example) → `.dev.vars`
 | Toolchain versions | [mise](https://mise.jdx.dev/) + [`.mise.toml`](.mise.toml), or manual installs per table above |
 | Python scripts | `node scripts/runPython.mjs` — tries `python3`, `python`, then Windows `py -3`; set `PYTHON` to override |
 | Local binaries | `spawnUtil.mjs` resolves `node_modules/.bin` (`.cmd` / `.ps1` on Windows) |
-| Tailwind + Hugo + pnpm | `postinstall` + `deployBuild.mjs` fix Tailwind bin; `.npmrc` hoists deps for `js.Build` on Windows |
+| Tailwind + Hugo + pnpm | `postinstall` + `deployBuild.mjs` fix Tailwind bin; `pnpm-workspace.yaml` hoists deps for `js.Build` on Windows |
 | Git hooks | `pnpm setup:hooks` — pure Node |
 | Safe filenames | `pnpm lint:filenames` / `pnpm test:filenames` — pure Node |
 

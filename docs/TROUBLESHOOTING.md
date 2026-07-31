@@ -71,7 +71,7 @@ Dev uses `pnpm dev` (Tailwind watch + Hugo). Production runs the same pipeline i
 
 **`binary "tailwindcss" is not a Node.js script` (common on Windows + pnpm):** run `node scripts/fix-tailwind-bin.js` after `pnpm install`. On Windows, Hugo resolves `tailwindcss.cmd` first; the shim must point at `..\@tailwindcss\cli\dist\index.mjs` in a form Hugo’s wrapper parser understands.
 
-**`js.Build failed: Could not resolve "@pixi/…"` (common on Windows):** pnpm’s default nested `node_modules` layout breaks Hugo’s esbuild for PixiJS. This repo sets `node-linker=hoisted` in [`.npmrc`](../.npmrc). Run `pnpm install` after pulling; if errors persist, delete `node_modules` and reinstall.
+**`js.Build failed: Could not resolve "@pixi/…"` (common on Windows):** pnpm’s default nested `node_modules` layout breaks Hugo’s esbuild for PixiJS. This repo sets `nodeLinker: hoisted` in [`pnpm-workspace.yaml`](../pnpm-workspace.yaml) (pnpm 11+ no longer reads `node-linker` from `.npmrc`). Delete `node_modules` and run `pnpm install` after pulling; reinstall if errors persist.
 
 ### CSP header missing in production
 

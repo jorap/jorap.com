@@ -1,5 +1,8 @@
 packages:
 - "."
 
+# pnpm 11+ reads linker settings here, not .npmrc — flat node_modules for Hugo js.Build on Windows.
+nodeLinker: hoisted
+
 allowBuilds:
   '@parcel/watcher': true

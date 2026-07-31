@@ -75,6 +75,7 @@ def write_update_log(out_dir: Path, *, git_subpath: str, export_message: str) ->
             cwd=ROOT,
             capture_output=True,
             text=True,
+            encoding="utf-8",
             check=False,
         )
     except OSError:

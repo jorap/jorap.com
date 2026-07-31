@@ -106,11 +106,28 @@ function isFixed() {
   return false;
 }
 
+function removeBinFile(filePath) {
+  if (!fs.existsSync(filePath)) return;
+  try {
+    fs.chmodSync(filePath, 0o666);
+  } catch {
+    // ponytail: Windows pnpm .cmd stubs can be read-only; chmod before rm.
+  }
+  fs.rmSync(filePath, { force: true, maxRetries: 5, retryDelay: 50 });
+}
+
 function writeExecutable(filePath, content) {
   // Unlink first: pnpm on macOS/Linux often symlinks .bin entries; writing
   // through a symlink would corrupt the real @tailwindcss/cli package.
-  if (fs.existsSync(filePath)) fs.unlinkSync(filePath);
-  fs.writeFileSync(filePath, content, { encoding: "utf8", mode: 0o755 });
+  removeBinFile(filePath);
+  fs.writeFileSync(filePath, content, { encoding: "utf8" });
+  if (!isWindows) {
+    try {
+      fs.chmodSync(filePath, 0o755);
+    } catch {
+      // ignore
+    }
+  }
 }
 
 function applyFix() {
@@ -127,6 +144,9 @@ function applyFix() {
     writeExecutable(binPath, unixLauncherSource);
     writeExecutable(winCmdPath, winCmdSource);
     writeExecutable(winPs1Path, winPs1Source);
+    if (!isValidWinCmd(readText(winCmdPath))) {
+      throw new Error(`failed to patch ${path.basename(winCmdPath)}`);
+    }
     return;
   }
 
@@ -209,6 +229,7 @@ if (process.argv.includes("--self-check")) {
   try {
     if (!isFixed()) applyFix();
   } catch (err) {
-    console.warn("fix-tailwind-bin:", err.message);
+    console.error("fix-tailwind-bin:", err.message);
+    process.exit(1);
   }
 }

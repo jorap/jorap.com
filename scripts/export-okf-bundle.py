@@ -288,6 +288,7 @@ def generate_okf_viz(out_dir: Path) -> dict[str, int]:
         [sys.executable, str(script), str(out_dir), "-o", str(out_path)],
         capture_output=True,
         text=True,
+        encoding="utf-8",
         check=False,
     )
     if proc.returncode != 0:
