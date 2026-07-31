@@ -42,6 +42,8 @@
     "lint:randomizer": "node scripts/runPython.mjs scripts/lint-randomizer.py",
     "lint:filenames": "node scripts/lint-filenames.mjs",
     "test:filenames": "node scripts/lint-filenames.mjs --self-check",
+    "lint:agent-config": "node scripts/lint-agent-config.mjs",
+    "test:agent-config": "node scripts/lint-agent-config.mjs --self-check",
     "test:writing-samples": "node scripts/ai-writing-samples-check.mjs",
     "test:search": "node scripts/test-search.mjs",
     "setup:hooks": "node scripts/setupGitHooks.mjs",

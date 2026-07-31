@@ -14,6 +14,7 @@ Include `[skip ci]` or `[CI Skip]` in the commit message when changes touch only
 - `.specstory/`
 - `docs/` (internal repo docs, not Hugo `content/`)
 - `.vscode/`, `.cursor/`, `.github/`, `.specify/`
+- `AGENTS.md`, `kilo.jsonc` (agent config; shared with Kilo Code)
 - `CHANGELOG.md`, root `README.md`, `.gitignore`, editor config
 
 Do **not** add `[skip ci]` when any deploy path changes: `content/`, `layouts/`, `assets/`, `static/`, `themes/`, `functions/`, `scripts/`, `hugo.toml`, `wrangler.toml`, `package.json`, `pnpm-lock.yaml`.

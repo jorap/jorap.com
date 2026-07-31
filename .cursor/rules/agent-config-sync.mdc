@@ -1,0 +1,29 @@
+---
+description: Keep Cursor and Kilo Code agent rules/skills in sync — single canonical .cursor/ tree, no duplicates
+alwaysApply: true
+---
+
+# Agent config sync (Cursor + Kilo Code)
+
+Rules and skills have **one canonical home**: `.cursor/rules/` and `.cursor/skills/`. Kilo Code reads the same paths via root `kilo.jsonc`; do not copy or symlink into `.kilo/` or `.kilocode/`.
+
+## Adding or editing
+
+- **Rules:** `.cursor/rules/<name>.mdc` with YAML frontmatter (`description`, optional `globs`, `alwaysApply`).
+- **Skills:** `.cursor/skills/<name>/SKILL.md` — `name` in frontmatter must match the directory name; include `description`.
+
+After any change to rules, skills, `kilo.jsonc`, or `AGENTS.md`, run:
+
+```bash
+pnpm lint:agent-config
+```
+
+## Forbidden (lint fails)
+
+- Duplicate skill or rule trees: `.kilo/skills/`, `.kilo/rules/`, `.kilocode/`, `.agents/skills/` with project skills
+- `kilo.jsonc` `skills.paths` or `instructions` pointing anywhere other than the canonical `.cursor/` paths and `AGENTS.md`
+- Orphan skill directories without `SKILL.md`
+
+## Portable index
+
+`AGENTS.md` at repo root is a short index only — never paste full rule or skill bodies there.

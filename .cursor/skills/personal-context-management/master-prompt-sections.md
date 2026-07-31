@@ -203,7 +203,7 @@ Convert the human doc into:
 [What a good answer includes]
 ```
 
-**JoRap shortcut:** Cursor already shards this — `.cursor/rules/`, user rules, and skills *are* the LLM-optimized master prompt. Only merge into one paste when exporting to Claude/ChatGPT/Gemini.
+**JoRap shortcut:** Cursor and Kilo Code share one tree — `.cursor/rules/`, `.cursor/skills/`, plus `AGENTS.md` and `kilo.jsonc`. Run `pnpm lint:agent-config` after changes. Only merge into one paste when exporting to Claude/ChatGPT/Gemini.
 
 ## ChatGPT compression (when over 1,500 chars)
 

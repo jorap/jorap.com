@@ -1,0 +1,7 @@
+{
+  // Canonical agent config lives under .cursor/ (shared with Cursor). See AGENTS.md.
+  "skills": {
+    "paths": [".cursor/skills"]
+  },
+  "instructions": ["AGENTS.md", ".cursor/rules/*.mdc"]
+}
