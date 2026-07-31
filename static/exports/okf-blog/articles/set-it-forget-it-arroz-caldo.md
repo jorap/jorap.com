@@ -16,20 +16,22 @@ About an hour start to finish, feeds 4-6, with enough left over to get through a
 
 ## The rice cooker that did all the work
 
-I used the **[Hanabishi Congee & Rice Cooker Series HRCR2C](https://myhanabishi.com/collections/rice-cookers-3/products/rice-cooker-hrc-r2c?variant=45693133881625)**, but any rice cooker with a congee or porridge function will work. I'd hit the button and fall asleep on the couch.
+I used the **[Hanabishi Congee & Rice Cooker Series HRCR2C](https://myhanabishi.com/collections/rice-cookers-3/products/rice-cooker-hrc-r2c?variant=45693133881625)**, but any rice cooker with a congee or porridge function will work. I'd hit the button and fall asleep on the couch - half an hour later whoever was still awake would ask why the house smelled like ginger.
 
 One thing I learned: use boneless chicken thigh fillets, not breast. They're fattier and more forgiving, and they stay tender even if the cycle runs long. My supermarket stopped stocking them consistently, which is part of why I moved on.
+
+Don't stress about perfect cuts when you prep - it all breaks down in the pot anyway.
 
 ## What went in the Hanabishi
 
 **The essentials (don't skip these):**
-- 6-7 cups (1.4-1.7 L) water or chicken broth
-- 1 cup (200 g) glutinous rice (malagkit), rinsed well
-- 1 kg (2.2 lbs) chicken thigh fillets, cut into chunks
-- 1 Knorr chicken cube, or 1 teaspoon (5 g) powder
-- 3 inches (7-8 cm) fresh ginger, minced
+- 1.4-1.7 L water or chicken broth, about 6-7 cups
+- 200 g glutinous rice (malagkit), about 1 cup, rinsed well
+- 1 kg chicken thigh fillets, about 2.2 lbs, cut into chunks
+- 1 Knorr chicken cube, or 5 g chicken bouillon powder, about 1 teaspoon
+- 7-8 cm fresh ginger, minced, about 3 inches
 - 4 cloves garlic, chopped
-- 2-3 tablespoons (30-45 ml) fish sauce (patis)
+- 30-45 ml fish sauce (patis), about 2-3 tablespoons
 - Black pepper to taste
 
 **If you want to get fancy:**
@@ -38,38 +40,44 @@ One thing I learned: use boneless chicken thigh fillets, not breast. They're fat
 
 **Toppings are where you can go wild:**
 - 2-3 kalamansi, halved, or 1 lemon, quartered
-- 2-3 tablespoons (30-45 ml) crispy garlic
+- 30-45 ml crispy garlic, about 2-3 tablespoons
 - 2-3 stalks green onions, sliced
 - 2-4 hard-boiled eggs, halved
 
-## How I Made It
+Mine always came out thicker than the arroz caldo I'd order out, so I'd thin it with hot water a little at a time until it looked right. The first bowl was always mine - taste, kalamansi, then decide if the pot needed more water.
+
+## How I run it
 
 **Step 1:** Chop everything up (5 minutes max)
-Cut the **1 kg (2.2 lbs) chicken thigh fillets** into bite-sized chunks. Mince **3 inches (7-8 cm) fresh ginger** and chop **4 cloves garlic**. Rinse **1 cup (200 g) glutinous rice** until the water runs clear. Dice the **1 medium onion** if you're using it. Don't stress about perfect cuts - it all breaks down anyway.
+
+Cut the chicken thigh fillets into bite-sized chunks. Mince the fresh ginger and chop the garlic. Rinse the glutinous rice until the water runs clear. Dice the onion if using it.
 
 **Step 2:** Dump it all in
-Friday night ritual. Half an hour later whoever's still awake is asking why the house smells like ginger.
 
-In goes the rinsed rice, chicken, **6-7 cups (1.4-1.7 L) water or broth**, **1 Knorr chicken cube** (or **1 teaspoon / 5 g powder**), ginger, garlic, **2-3 tablespoons (30-45 ml) fish sauce**, and black pepper to taste. Add the **1 pinch kasubha** and onion now if you're using them. Taste the liquid and adjust the fish sauce - it should taste slightly salty since the rice will absorb a lot of it.
+Add **200 g rinsed glutinous rice (about 1 cup)**, **1 kg chicken thigh fillets (about 2.2 lbs)**, **1.4-1.7 L water or broth (about 6-7 cups)**, **1 Knorr chicken cube** (or **5 g chicken bouillon powder, about 1 teaspoon**), **7-8 cm fresh ginger, minced (about 3 inches)**, **4 cloves garlic, chopped**, **30-45 ml fish sauce (patis) (about 2-3 tablespoons)**, and black pepper to taste. Add **1 pinch kasubha** and **1 medium onion, diced** if using them.
+
+Taste the liquid and adjust the fish sauce. It should taste slightly salty since the rice will absorb a lot of it.
 
 **Step 3:** Press the button and walk away
-Hit that congee setting and go do something else for **45-60 minutes**. I'd usually fall asleep on the couch and wake up to the kitchen smelling like Saturday already started.
+
+Select the congee setting and cook for **45-60 minutes**.
 
 **Step 4:** Check and fix
-When it's done, give it a stir and see how the consistency looks. The first bowl was always mine - I'd taste, add a squeeze of kalamansi, then decide if the pot needed more water.
 
-Too thick? Add **hot water 1 cup (240 ml) at a time**. Too soupy? Let it sit on keep warm for a bit longer, or run the congee cycle again for **10 more minutes**.
+Stir and check the consistency.
 
-Serve with **2-3 kalamansi** (or **1 lemon**), **2-3 tablespoons (30-45 ml) crispy garlic**, **2-3 stalks green onions**, and **2-4 hard-boiled eggs**, halved.
+Too thick? Add **240 ml hot water (about 1 cup) at a time**. Too soupy? Let it sit on keep warm longer, or run the congee cycle again for **10 more minutes**.
+
+Serve with **2-3 kalamansi** (or **1 lemon**), **30-45 ml crispy garlic (about 2-3 tablespoons)**, **2-3 stalks green onions**, and **2-4 hard-boiled eggs**, halved.
 
 ## What the rice cooker taught me
 
 - Make this ahead of time for easy weekday meals. It tastes better the next day and reheats fine in the microwave.
 - Use fresh ginger, not powdered. I tried powdered once when I ran out and could tell immediately.
-- Start with **6 cups (1.4 L) water**. You can always thin it out, but it's harder to thicken it back up.
+- Start with **1.4 L water (about 6 cups)**. You can always thin it out, but it's harder to thicken it back up.
 - Don't skip the toppings. Kalamansi and crispy garlic turn a plain bowl into the good version.
 
-Mine always came out thicker than the arroz caldo I'd order out, so I'd thin it with hot water a cup at a time until it looked right. You want the rice broken down but still with some bite, somewhere between risotto and congee.
+You want the rice broken down but still with some bite, somewhere between risotto and congee.
 
 ## Where I started
 

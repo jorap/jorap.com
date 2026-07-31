@@ -781,6 +781,67 @@ _**Agent (auto-low)**_
 
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
 <summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__portable-cross-platform-software.md</summary>
-Status: **loading**
 
 </details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__portable-cross-platform-software.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__portable-cross-platform-software.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Running lints.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm slop:score content/english/blog/__portable-cross-platform-software.md &amp;&amp; pnpm lint:blog content/english/blog/__portable-cross-platform-software.md &amp;&amp; pnpm lint:voice content/english/blog/__portable-cross-platform-software.md &amp;&amp; pnpm lint:slop content/english/blog/__portable-cross-platform-software.md</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && pnpm slop:score content/english/blog/__portable-cross-platform-software.md && pnpm lint:blog content/english/blog/__portable-cross-platform-software.md && pnpm lint:voice content/english/blog/__portable-cross-platform-software.md && pnpm lint:slop content/english/blog/__portable-cross-platform-software.md
+```
+
+```
+$ node scripts/runPython.mjs scripts/voice-lint.py score content/english/blog/__portable-cross-platform-software.md
+__portable-cross-platform-software.md    words=1861 total= 18 per100w=  0.97
+$ node scripts/runPython.mjs scripts/normalize-blog-frontmatter.py --verify && node scripts/runPython.mjs scripts/voice-lint.py slop --check --blog-only content/english/blog/__portable-cross-platform-software.md
+Blog frontmatter OK
+Slop lint OK
+$ node scripts/runPython.mjs scripts/voice-lint.py dashes --check && node scripts/runPython.mjs scripts/voice-lint.py site --check content/english/blog/__portable-cross-platform-software.md
+Voice dash lint OK
+Voice lint OK
+$ node scripts/runPython.mjs scripts/voice-lint.py slop --check content/english/blog/__portable-cross-platform-software.md
+Slop lint OK
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Cross-platform solutions are largely open source. I'll highlight that.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Updated the cross-platform section to lead with the pattern: **most cross-platform tools are open source**, with concrete examples (Git, Hugo, Node, Firefox/Brave, VLC, LibreOffice, GIMP, VS Code).
+
+**Beyond Compare** stays as the paid proprietary exception you hunt for on purpose. The section also explains *why* the overlap exists: published source gets Windows/Mac/Linux builds because the community needs all three; proprietary vendors often stop at one or two OSes.
+
+The tools table now has **Open source?** and **Cross-platform?** columns so the ratio is visible at a glance. The closing question now says to check open source first when you need something on every OS.
+
+## Session close
+- Fixed: Emphasized open source as the default for cross-platform tools; Beyond Compare as exception
+- Encode: none
+- Open: clean

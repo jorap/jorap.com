@@ -6,11 +6,9 @@ resource: "https://www.jorap.com/blog/how-i-built-jorap-notes/"
 tags: ["Hugo", "GitHub", "Cloudflare Pages", "Static Sites", "Website Building", "PHP", "Migration", "Digital Garden", "Self-Hosting"]
 generated: { by: process:export-okf-blog-bundle, at: 2024-06-14T05:00:00Z }
 ---
-> **TL;DR**: I lost my old PHP hosting and a chunk of my work with it. After a weekend of fumbling around, I landed on Hugo + GitHub + Cloudflare Pages, and the result is genuinely better than what I was paying for shared hosting. Here's exactly how I did it - including the parts I messed up.
+Still paying shared hosting for a personal blog one person publishes? I was too, until the client who split the bill moved on and the math stopped making sense.
 
 ## The short backstory
-
-For years I had a basic PHP hosting plan, a modest monthly bill I shared with a client. When that client moved on, suddenly I was paying the whole bill for what was effectively just my personal blog. It didn't make sense.
 
 I'd been hearing about static site generators and the whole "JAMstack" thing for a while but never had a reason to try them. Losing my hosting setup turned out to be exactly that reason. Sometimes you don't fix something until you have to.
 
@@ -247,9 +245,9 @@ The `*.pages.dev` URL works fine if you skip the custom domain.
 
 Compared to the old PHP setup, this one is faster, more reliable, and simpler to update. The only thing I traded away is a built-in comments system, and I don't really miss it. If I ever wanted comments back, Disqus or a small Worker would do the job.
 
-If you have the patience for an evening of setup, I genuinely think this beats most paid hosting for personal use. The first time you push a typo fix and see it live a minute later, you'll get it.
+Block one evening. Install Hugo, write down the version number, push one page to Cloudflare Pages, and fix a typo live a minute later. That is the whole test - decide then if you miss the WordPress dashboard.
 
-You're reading the result right now. Hugo builds and serves the whole thing - every page, every post, every image - exactly the way I described above.
+You're reading the result right now.
 
 ## A couple of useful links
 

@@ -586,3 +586,597 @@ _**Agent (auto-low)**_
 <summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/set-it-forget-it-arroz-caldo.md</summary>
 
 </details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+I found a specstory file covering recipe rules and guidelines. I'll read it now.
+
+This file appears to be the source material for the ATK recipe style guide post.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-08_22-17-50Z-recipe-rules-and-guidelines.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.specstory",
+  "pattern": "ATK|America|Test Kitchen|recipe rules"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.specstory",
+  "pattern": "ATK|America|Test Kitchen|recipe rules",
+  "topFiles": [
+    {
+      "matchCount": 30,
+      "uri": ".specstory/history/2026-07-30_01-17-58Z-writing-to-learn-overview.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 342
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Reviewing the recipe rules specstory and searching for broader ATK references across ideas, notes, and recent craft-prompt-framework sessions.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-08_22-17-50Z-recipe-rules-and-guidelines.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": true,
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "ATK|America.s Test Kitchen|recipe style guide|Modified ATK"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "ATK|America.s Test Kitchen|recipe style guide|Modified ATK",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-05-30_15-20-47Z-website-performance-improvement-strategies.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-06-18_01-46-41Z-alex-eala-tracker-update.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-30_00-22-42Z-effective-communication-and-connection.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-07-30_00-57-50Z-writing-nonfiction-guide.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-07-07_03-55-27Z-top-20-grand-slam.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-07_03-43-20Z-alex-eala-tracker-update.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "pnpm-lock.yaml"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-06-19_15-34-35Z-essential-information-for-page.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-06_08-37-14Z-external-links-verification.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-28_21-02-57Z-alex-eala-tracker-update.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-06-19_02-18-30Z-active-players-selection-update.md"
+    }
+  ],
+  "totalFiles": 11,
+  "totalMatches": 17
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__craft-prompt-framework.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The repository contains no existing ATK content.
+
+I'll research America's Test Kitchen's standard recipe style guidelines. I'll also check existing JoRap ideas and session notes for related concepts.
+
+The user wants a blog post documenting modified ATK recipe style rules, likely for AI-assisted recipe writing. I'll review the ai-writing-system skill and check recent sessions for additional context.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.specstory/history",
+  "pattern": "Modified ATK|recipe style guide|ATK recipe"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.specstory/history",
+  "pattern": "Modified ATK|recipe style guide|ATK recipe",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/ai-writing-system/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
+<summary>Tool use: **web_search**</summary>
+
+Parameters:
+
+```json
+{
+  "searchTerm": "America's Test Kitchen ATK recipe style guide rules editorial"
+}
+```
+Result:
+
+```json
+{
+  "isFinal": true,
+  "references": [
+    {
+      "chunk": "Links:\n1. [America's Test Kitchen Logo](https://www.americastestkitchen.com/articles/2825-a-day-in-the-life-of-sara-zatopek-assistant-editor-of-special-issues)\n2. [Elements of Style (Guides) - by Andrew Janjigian - Wordloaf](https://wordloaf.substack.com/p/elements-of-style-guides)\n3. [How We Make Our Recipes Failproof. Every Time. | America's Test Kitchen](https://www.americastestkitchen.com/articles/7088-how-we-make-our-recipes-failproof-every-time)\n4. [The Recipe Test That Sets America’s Test Kitchen Apart | America's Test Kitchen](https://www.americastestkitchen.com/articles/7582-five-recipe-test-americas-test-kitchen)\n5. [From Test Kitchen to TV, ATK's Recipe Development Process | America's Test Kitchen](https://www.youtube.com/watch?v=zFmHTeSkcP4\u0026vl=en)\n\nSynthesis:\nAmerica’s Test Kitchen maintains an extensive in-house editorial style guide to ensure consistency and precision across its cookbooks, magazines, and digital content [1]. A key convention of their recipe writing is the omission of articles like \"the\" and \"a\" in recipe steps to maintain conciseness and save space in print [2]. Recipes are developed through a rigorous multi-step process—including research, side-by-side comparative testing, and home-cook evaluation—which informs the final instructional language to ensure the results are failproof [3][4][5]. Recipe names are chosen to prioritize clarity and build reader appeal [6].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eAmerica's Test Kitchen Logo\u003c/title\u003e\n\u003curl\u003ehttps://www.americastestkitchen.com/articles/2825-a-day-in-the-life-of-sara-zatopek-assistant-editor-of-special-issues\u003c/url\u003e\n\u003ccontent\u003eI start by consulting my to-do list. I have the most brainpower in the morning, so I like to begin with the most challenging item. Today, that’s doing the first round of edits on the latest special issue: editing the included
+… (output truncated)
+```
+User decision: **accepted**
+
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Fetching the Wordloaf article for more ATK style guide specifics. Checking for related notes or ideas files.
+
+No existing outline exists. The blog will blend ATK recipe conventions with JoRap's patterns, consistent AI style, and Filipino Instant Pot context. Reviewing the adobo post for measurement patterns and checking archetypes/blog.md for frontmatter.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="web_fetch"><details>
+<summary>Tool use: **web_fetch**</summary>
+
+Parameters:
+
+```json
+{
+  "url": "https://wordloaf.substack.com/p/elements-of-style-guides"
+}
+```
+Result:
+
+```json
+{
+  "markdown": "Elements of Style (Guides) - by Andrew Janjigian - Wordloaf\n\n# Wordloaf\n\nSubscribeSign in\n\n# Elements of Style (Guides)\n\n### Or: Why freelance recipe developing gives me a headache\n\nSep 08, 2021\n\n14\n\n14\n\nShare\n\nUntil I started working as a recipe developer, it had never occurred to me that publications had things known as style guides that dictated how to write and format a recipe. Of course, style guides are not unique to the world of recipe-writing; there are a host of widely-accepted style guides for writing generally, such as the MLA Handbook, The Chicago Manual of Style, and the AP Stylebook. But I fell into journalism ass-backwards (and I’m not sure I’ve actually stood back up yet). Since I never went to J-school, my prior experience with style guides was mostly limited to the use of William Strunk and E.B. White’s Elements of Style in grade school.\n\nAnd until I stopped working for one sole publication and began writing recipes for a wide variety of venues as a freelancer, it had never occurred to me to consider that every venue has its own house style guide and no two are alike. Of course, duh, obviously each organization would have adopted a unique and idiosyncratic way of writing recipes, but OMG is it no fun at all having to tailor each of my recipes to the particular style guide of the house it is destined for.\n\nAdopting a house recipe style guide is much like learning a new language. I worked at ATK for 11 years, and it took me nearly all of those 11 years to finally absorb the ATK way of writing recipes. (I’m a slow learner, especially when it comes to languages.) But once I did, recipes just came out of my head sounding the way they should—I just couldn’t hear them any other way.\n\nFor example, ATK does not use articles in recipe steps unless absolutely necessary for clarity. (“Melt butter in large saucepan over medium heat.”) This makes sense when your primary medium is print, and every word printed has costs bo
+… (output truncated)
+```
+User decision: **accepted**
+
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/archetypes/blog.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/instant-pot-chicken-adobo.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Drafting a blog post about modified ATK recipe style guide rules.
+
+JoRap's recipes use articles in steps and personal intros, unlike ATK's strict print conventions. The draft blog post will document these AI-assisted style guide modifications.
+
+The draft will also cover metric measurements with volume equivalents, personal "why" sections, specific equipment like an 8-quart Instant Pot, Filipino ingredient names, and separate intros from methods. Currency references will be excluded. Imperative steps and times/temperatures remain unchanged.
+
+The post will open with a hook about AI recipe drift and why JoRap adapted ATK's framework. It will contrast what ATK gets right against what was changed for online blogs, personal voice, and Filipino kitchens. The deliverable will be a concrete rules list, plus how those rules integrate with Cursor and AI tools. Categories and tags are being mapped out, and the draft will aim for a proper length rather than minimum word counts.
+
+Lint will run after the post is created. A real food-related image will replace the placeholder template for publishing. Existing image assets are being checked.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **1** directory</summary>
+
+Directory: **``** (0 files)
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__humanize-ai-articles.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Searching the repository for images.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **1** directory</summary>
+
+Directory: **``** (0 files)
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **1** directory</summary>
+
+Directory: **``** (0 files)
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **1** directory</summary>
+
+Directory: **``** (0 files)
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Image paths may vary between assets and content directories. The adobo post references /images/Chicken-Adobo.jpg.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+Glob pattern "**/*" matches every file and is not allowed. Use a more specific glob or no glob.
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Trying a different approach by listing the images directory.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: ls /home/jorap/Documents/GitHub/jorap.com/static/images/ 2&gt;/dev/null | head -30 || ls /home/jorap/Documents/GitHub/jorap.com/assets/images/ 2&gt;/dev/null | head -30</summary>
+```bash
+ls /home/jorap/Documents/GitHub/jorap.com/static/images/ 2>/dev/null | head -30 || ls /home/jorap/Documents/GitHub/jorap.com/assets/images/ 2>/dev/null | head -30
+```
+
+```
+alex-eala.jpg
+arroz-caldo.jpg
+avatar.png
+avatar-sm.png
+banner.png
+bg.jpg
+call-to-action.png
+Chicken-Adobo.jpg
+Consistent_AI_Web_Development_Blueprint.jpg
+drupal-to-wp.jpg
+duopoly-actions.jpg
+duopoly-countries.jpg
+duopoly.jpg
+extension-cord.jpg
+favicon.png
+fb-desktop-feed.jpg
+fbf.jpg
+fb-mobile-feed.jpg
+fb-post-isaiah-david.jpg
+feature-consistent-ai-output.jpg
+feature-desktop.jpg
+feature-dnpap.jpg
+feature-isaiah-david.jpg
+feature-mouse-wheel-click.jpg
+feature-soundpeats-runfree.jpg
+gallery
+google-vs-apple.jpg
+guitar.jpg
+image-placeholder.png
+image-template.jpg
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Choosing a recipe image that bridges cooking and AI consistency.
+
+Settled on Chicken-Adobo.jpg for the post. Drafting the full blog now with the requested title and slug. The post will embed practical rules directly into a personal blog format, similar to the consistent-ai-output build guide. Starting with the standard ATK conventions: imperative verbs, no articles in steps, strict ingredient formatting, and equipment listed only when needed.
+
+Standard ATK rules include times, temperatures, yield, prep and cook times, consistent terminology, fraction formatting, and Celsius or Fahrenheit.
+
+JoRap modifications override several standards. Articles are allowed in steps for readability. Metric units are primary, but practical volume measurements are kept. Personal "why" sections replace clinical headnotes. Filipino and local ingredient names appear alongside English. Specific equipment details matter. Inline failure notes are included.
+
+Section intros will stay human and readable. Steps will remain scannable. Marinae and ingredient groups will be separated. Optional steps will be clearly marked. Related recipe posts will be linked. A numbered rules list will be copy-paste friendly for AI in Cursor. The post will be written next, followed by lint checks.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Creating the draft post: ATK-style recipe rules adapted for your blog and AI workflow, aligned with your existing recipe posts.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__modified-atk-recipe-style-guide-rules.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Running lint checks for blog, voice, slop, and slop:score.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm slop:score content/english/blog/__modified-atk-recipe-style-guide-rules.md &amp;&amp; pnpm lint:blog content/english/blog/__modified-atk-recipe-style-guide-rules.md 2&gt;&amp;1; pnpm lint:voice content/english/blog/__modified-atk-recipe-style-guide-rules.md 2&gt;&amp;1; pnpm lint:slop content/english/blog/__modified-atk-recipe-style-guide-rules.md 2&gt;&amp;1</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && pnpm slop:score content/english/blog/__modified-atk-recipe-style-guide-rules.md && pnpm lint:blog content/english/blog/__modified-atk-recipe-style-guide-rules.md 2>&1; pnpm lint:voice content/english/blog/__modified-atk-recipe-style-guide-rules.md 2>&1; pnpm lint:slop content/english/blog/__modified-atk-recipe-style-guide-rules.md 2>&1
+```
+
+```
+$ node scripts/runPython.mjs scripts/voice-lint.py score content/english/blog/__modified-atk-recipe-style-guide-rules.md
+__modified-atk-recipe-style-guide-rules.md words= 998 total=  7 per100w=  0.70
+$ node scripts/runPython.mjs scripts/normalize-blog-frontmatter.py --verify && node scripts/runPython.mjs scripts/voice-lint.py slop --check --blog-only content/english/blog/__modified-atk-recipe-style-guide-rules.md
+Blog frontmatter OK
+Slop lint OK
+$ node scripts/runPython.mjs scripts/voice-lint.py dashes --check && node scripts/runPython.mjs scripts/voice-lint.py site --check content/english/blog/__modified-atk-recipe-style-guide-rules.md
+Voice dash errors:
+  content/english/blog/__modified-atk-recipe-style-guide-rules.md: em/en dash found (4); use hyphen, comma, or parentheses (jorap-voice)
+[ELIFECYCLE] Command failed with exit code 1.
+$ node scripts/runPython.mjs scripts/voice-lint.py slop --check content/english/blog/__modified-atk-recipe-style-guide-rules.md
+Slop lint OK
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Replacing em and en dashes with hyphens.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/__modified-atk-recipe-style-guide-rules.md",
+  "pattern": "—|–"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/__modified-atk-recipe-style-guide-rules.md",
+  "pattern": "—|–",
+  "topFiles": [
+    {
+      "matchCount": 4,
+      "uri": "content/english/blog/__modified-atk-recipe-style-guide-rules.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 4
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Only three of four em dashes were found by grep.
+
+Line 93 may contain another em dash. All em dashes will be fixed.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__modified-atk-recipe-style-guide-rules.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__modified-atk-recipe-style-guide-rules.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__modified-atk-recipe-style-guide-rules.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__modified-atk-recipe-style-guide-rules.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Verifying the linked instant-pot-arroz-caldo recipe exists.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **2** results in **1** directory</summary>
+
+Directory: **``** (2 files)
+
+| File |
+|------|
+| `./content/english/blog/set-it-forget-it-arroz-caldo.md` |
+| `./content/english/blog/instant-pot-arroz-caldo.md` |
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm lint:voice content/english/blog/__modified-atk-recipe-style-guide-rules.md 2&gt;&amp;1</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:voice content/english/blog/__modified-atk-recipe-style-guide-rules.md 2>&1
+```
+
+```
+$ node scripts/runPython.mjs scripts/voice-lint.py dashes --check && node scripts/runPython.mjs scripts/voice-lint.py site --check content/english/blog/__modified-atk-recipe-style-guide-rules.md
+Voice dash lint OK
+Voice lint OK
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Lint checks passed. The modified blog recipe style guide is ready.
+
+The draft is saved at `__modified-atk-recipe-style-guide-rules.md`. Remove the `__` prefix and set `draft: false` to publish. The rules block is copy-paste ready for Cursor. No commit unless requested.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Draft is at `content/english/blog/__modified-atk-recipe-style-guide-rules.md` (`draft: true`).
+
+**Angle:** ATK’s recipe discipline (imperative steps, times in the step, separate ingredient list) as the spine, with your changes for a personal food blog and AI sessions:
+
+- **Keep articles** in steps (online, not magazine page limits)
+- **Metric first, volume second** (`160 ml, about ⅔ cup`)
+- **Voice split** - story in intros, scannable steps in the method
+- **Filipino ingredient names** with a plain gloss
+- **Optional blocks** labeled clearly
+- **Failures in intros**, not buried in steps
+
+The post includes a **copy-paste rules block** for Cursor (same pattern as your WordPress consistency doc), ties to your live adobo and arroz caldo posts, and closes on when you’d break the rules.
+
+Lint: `pnpm lint:blog`, `pnpm lint:voice`, `pnpm lint:slop` all clean. Slop score 0.70 per100w.
+
+**To publish:** drop the `__` prefix, set `draft: false`, commit when you’re ready.
+
+If you want the rules block saved as a separate `.cursor` rule or skill file (not just in the post body), say the word.
+
+## Session close
+- Fixed: Created draft blog post on modified ATK recipe style guide rules with AI-ready rules block
+- Encode: none
+- Open: clean

@@ -1662,3 +1662,273 @@ _**Agent (auto-low)**_
 <summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/package.json</summary>
 
 </details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Creating a Python script at `scripts/runPython`.
+
+Also planning `lintNotes.mjs`, `setupGitHooks.mjs`, and `runChain.mjs`. For chained Python commands, `&&` in package.json already works on Windows with pnpm, so `runChain.mjs` may be unnecessary.
+
+`runPython.mjs` will accept a script path and forward arguments directly. Chained commands like `lint:garden` will use `&&` between `node scripts/runPython.mjs` invocations. A separate `lintGarden.mjs` was considered but skipped to keep changes minimal.
+
+Preview and update-modules commands will keep using `&&` with `node scripts/runPython.mjs` directly. `runPython.mjs` will resolve script paths relative to the project root. A dedicated `runPythonChain.mjs` was considered but rejected to avoid consolidating scripts; the current per-entry approach is preferred for cross-platform support.
+
+`lintNotes.mjs` will import `spawnUtil.mjs` to run `themeGenerator.js` and `noteFileDates.js` via `runNodeScript`. It then captures Hugo's `--gc` output, filters for broken wikilinks and unlinked mentions, and prints matching lines.
+
+The original `lint:notes` pipeline always exited with code 0 because `|| true` masked Hugo failures. The new Node script will preserve this report-only behavior instead of failing the build.
+
+`setupGitHooks.mjs` sets `.githooks` as the git hooks path and makes the prepare-commit-msg hook executable on non-Windows platforms. `package.json` will be updated to replace all `python3` invocations with `node scripts/runPython.mjs`, and the README will be checked for outdated `python3` references.
+
+`garden-health.py` will work once `package.json` is fixed. The README needs updating to reference the new Node script instead of `sh scripts/setup-git-hooks.sh`. `deployBuild` already uses `runPython` correctly and does not need changes. `runPython.mjs` will support a `--resolve` flag to print the resolved Python path for debugging. All files will be written in a single pass.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/runPython.mjs</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/lintNotes.mjs</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/setupGitHooks.mjs</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/package.json</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The resolve logic in runPython.mjs is redundant and incorrect.
+
+The resolve logic should use `resolve(scriptArg)` for absolute paths and `resolve(projectRoot, scriptArg)` otherwise. README setup notes need updating. Tests for runPython.mjs, linting, and filenames should run. Remove the unused `projectRoot` import from lintNotes.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/runPython.mjs</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/lintNotes.mjs</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/README.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/docs/TROUBLESHOOTING.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; node scripts/runPython.mjs --resolve &amp;&amp; pnpm test:filenames &amp;&amp; node scripts/runPython.mjs scripts/lint-randomizer.py 2&gt;&amp;1 | head -3</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && node scripts/runPython.mjs --resolve && pnpm test:filenames && node scripts/runPython.mjs scripts/lint-randomizer.py 2>&1 | head -3
+```
+
+```
+python3
+$ node scripts/lint-filenames.mjs --self-check
+lint-filenames self-check OK (9 cases)
+randomizer.yaml OK (7 collections)
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Checking whether setup-git-hooks.sh is referenced elsewhere. Keeping the .sh file for backward compatibility or adding a pointer comment.
+
+Grepping package.json and docs for setup-git-hooks.sh and python3 references. A session close block is needed since repository files were modified.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.{md,mdc,json}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "setup-git-hooks\\.sh|python3 scripts"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "setup-git-hooks\\.sh|python3 scripts",
+  "topFiles": [
+    {
+      "matchCount": 5,
+      "uri": "./.specstory/history/2026-07-29_03-31-13Z-local-testing-across-platforms.md"
+    },
+    {
+      "matchCount": 14,
+      "uri": "./.specstory/history/2026-07-28_11-46-17Z-vram-availability-for-ai.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "./.specstory/history/2026-07-28_11-30-47Z-check-all-notes-if.md"
+    },
+    {
+      "matchCount": 7,
+      "uri": "./.specstory/history/2026-07-28_11-29-42Z-blog-compliance-check.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./.specstory/history/2026-07-28_02-11-37Z-pop-culture-and-sports.md"
+    },
+    {
+      "matchCount": 25,
+      "uri": "./.specstory/history/2026-07-27_10-04-00Z-love-for-modern-board.md"
+    },
+    {
+      "matchCount": 73,
+      "uri": "./.specstory/history/2026-07-27_13-22-37Z-ai-slop-reduction-rules.md"
+    },
+    {
+      "matchCount": 23,
+      "uri": "./.specstory/history/2026-07-27_11-46-14Z-blog-on-streamlining-games.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": "./.specstory/history/2026-07-27_02-14-40Z-okf-shortcode-processing.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "./.specstory/history/2026-07-27_13-56-34Z-impact-of-low-blog.md"
+    },
+    {
+      "matchCount": 12,
+      "uri": "./.specstory/history/2026-07-27_16-43-48Z-xiaomi-as-the-new.md"
+    },
+    {
+      "matchCount": 24,
+      "uri": "./.specstory/history/2026-07-27_11-14-51Z-jorap-voice-review.md"
+    },
+    {
+      "matchCount": 32,
+      "uri": "./.specstory/history/2026-07-27_13-41-53Z-updated-garden-voice-notes.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "./.specstory/history/2026-07-27_16-01-39Z-test-match-cricket-insights.md"
+    },
+    {
+      "matchCount": 36,
+      "uri": "./.specstory/history/2026-07-27_16-23-50Z-apple-s-innovation-strategy.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "./.cursor/skills/garden-voice/SKILL.md"
+    },
+    {
+      "matchCount": 9,
+      "uri": "./.specstory/history/2026-07-27_14-03-08Z-streamlining-audience-engagement.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "./.specstory/history/2026-07-06_02-22-55Z-notes-review-for-connections.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": "./.specstory/history/2026-06-19_17-01-20Z-anki-flash-card-functionality.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./.specstory/history/2026-07-06_03-58-01Z-board-game-question-randomizer.md"
+    }
+  ],
+  "totalFiles": 200,
+  "totalMatches": 2234
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Adding a one-line comment to setup-git-hooks.sh referencing setupGitHooks.
+
+Hugo must remain on PATH for dev. Chahat's toolchain still depends on it.
+</details></think>
+
+_**Agent (auto-low)**_
+
+All `python3` package scripts now go through a cross-platform wrapper, and the shell-only bits are replaced.
+
+### What changed
+
+| New script | Role |
+|------------|------|
+| `scripts/runPython.mjs` | Resolves `python` / `python3` / `py -3` (or `PYTHON` env) |
+| `scripts/lintNotes.mjs` | Replaces `hugo \| rg` shell pipeline |
+| `scripts/setupGitHooks.mjs` | Replaces `sh setup-git-hooks.sh` |
+
+Every `python3 …` entry in `package.json` is now `node scripts/runPython.mjs scripts/….py`.
+
+### Cross-platform status now
+
+| Category | Commands |
+|----------|----------|
+| **Fully cross-platform scripts** | All package.json scripts (Node resolves Python and git) |
+| **Still need tools on PATH** | `hugo` (dev, preview, update-modules), `git` (setup:hooks), Python 3.8+ (lint/export) |
+
+Nothing left that requires `sh`, `rg`, or a `python3` binary name.
+
+### Quick checks
+
+```bash
+node scripts/runPython.mjs --resolve   # shows which Python was found
+pnpm setup:hooks
+pnpm lint:randomizer                   # example Python lint
+```
+
+Override Python on Windows if needed: `PYTHON=C:\Path\to\python.exe pnpm lint:garden`
+
+The old `scripts/setup-git-hooks.sh` still exists; `pnpm setup:hooks` now uses the Node version.
+
+## Session close
+- Fixed: Cross-platform `runPython.mjs`, `lintNotes.mjs`, `setupGitHooks.mjs`; all package.json Python/shell scripts updated.
+- Encode: none
+- Open: clean

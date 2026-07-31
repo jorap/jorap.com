@@ -206,5 +206,946 @@ _**Agent (composer-2.5-fast)**_
 <think><details><summary>Thought Process</summary>
 Beginning analysis of the eight draft posts against the connection lens criteria.
 
-Checking the first draft against the four connection-lens criteria.
+Checking the first draft against the four connection-lens criteria. The immune-booster supplement post already satisfies reader-first and I/my opener requirements. The closing still needs a Monday-action shift rather than a disclaimer.
+
+Drafting a Monday-action replacement for the disclaimer close. Will inspect the slop:score details to identify the exact structural causes behind the 1.32 score.
 </details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm slop:score content/english/blog/__immune-booster-supplements.md 2&gt;&amp;1</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && pnpm slop:score content/english/blog/__immune-booster-supplements.md 2>&1
+```
+
+```
+$ node scripts/runPython.mjs scripts/voice-lint.py score content/english/blog/__immune-booster-supplements.md
+__immune-booster-supplements.md          words= 454 total=  6 per100w=  1.32
+
+```
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "scripts/**",
+  "pattern": "slop:score|def.*score"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "slop:score|def.*score",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "./scripts/slop-score.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./scripts/slop-lint.py"
+    }
+  ],
+  "totalFiles": 2,
+  "totalMatches": 2
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Reading the slop-score script to understand its metrics and check for verbose mode.
+
+Checking lint:slop for the target files.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/slop-score.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; for f in content/english/blog/__immune-booster-supplements.md content/english/blog/__shopee-tips.md content/english/blog/__mi-box-s.md content/english/blog/__canon-g3000.md; do echo &#34;=== $f ===&#34;; pnpm lint:slop -- &#34;$f&#34; 2&gt;&amp;1 | head -20; done</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && for f in content/english/blog/__immune-booster-supplements.md content/english/blog/__shopee-tips.md content/english/blog/__mi-box-s.md content/english/blog/__canon-g3000.md; do echo "=== $f ==="; pnpm lint:slop -- "$f" 2>&1 | head -20; done
+```
+
+```
+]633;C=== content/english/blog/__immune-booster-supplements.md ===
+$ node scripts/runPython.mjs scripts/voice-lint.py slop --check -- content/english/blog/__immune-booster-supplements.md
+Slop lint OK
+=== content/english/blog/__shopee-tips.md ===
+$ node scripts/runPython.mjs scripts/voice-lint.py slop --check -- content/english/blog/__shopee-tips.md
+Slop lint OK
+=== content/english/blog/__mi-box-s.md ===
+$ node scripts/runPython.mjs scripts/voice-lint.py slop --check -- content/english/blog/__mi-box-s.md
+Slop lint OK
+=== content/english/blog/__canon-g3000.md ===
+$ node scripts/runPython.mjs scripts/voice-lint.py slop --check -- content/english/blog/__canon-g3000.md
+Slop lint OK
+
+```
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Beginning analysis of the eight high-slop draft posts to identify required edits.
+
+Two posts identified so far lack I/my in their openers. __mi-box-s.md opens with "our" instead of "I." __canon-g3000.md opens with "Printers are..." rather than "I've owned." Drafting replacement sentences for both. Continuing review of the remaining posts against the connection lens.
+
+__immune-booster-supplements.md shows six mslop hits across 454 words. Its close could use a Monday-action hook. __shopee-tips.md opens with "Shopee is designed..." and only introduces "I" around the 250-character mark. The opener still needs an I/my replacement.
+
+__second-cellphone.md and __smart-plug.md already open with "I," so they need no changes. __portable-cross-platform-software.md opens with meta commentary rather than a reader problem first; its opener should lead with "I" instead. __wifi-router.md is already strong. __shopee-tips.md still needs an I/my opener.
+
+Checking slop-score.py for verbose output to pinpoint exact slop hits. Planning minimal edits and possible trimming.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/slop-score.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="await"><details>
+<summary>Tool use: **await**</summary>
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Checking JSON slop scores to identify flagged issues across the drafts.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; for f in content/english/blog/__immune-booster-supplements.md content/english/blog/__shopee-tips.md content/english/blog/__second-cellphone.md content/english/blog/__smart-plug.md content/english/blog/__portable-cross-platform-software.md content/english/blog/__mi-box-s.md content/english/blog/__canon-g3000.md content/english/blog/__wifi-router.md; do pnpm slop:score --json &#34;$f&#34; 2&gt;/dev/null; done</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && for f in content/english/blog/__immune-booster-supplements.md content/english/blog/__shopee-tips.md content/english/blog/__second-cellphone.md content/english/blog/__smart-plug.md content/english/blog/__portable-cross-platform-software.md content/english/blog/__mi-box-s.md content/english/blog/__canon-g3000.md content/english/blog/__wifi-router.md; do pnpm slop:score --json "$f" 2>/dev/null; done
+```
+
+```
+{
+  "file": "content/english/blog/__immune-booster-supplements.md",
+  "words": 454,
+  "sentences": 52,
+  "violations": {
+    "long_sentence(>25w)": 0,
+    "passive_voice": 0,
+    "ing_main_verb": 6,
+    "nominalization": 0,
+    "phrasal_verb": 0
+  },
+  "total": 6,
+  "total_per100w": 1.32,
+  "long_sentence_ratio": 0.0,
+  "long_sentence_ratio_warn": false,
+  "sample_phrasal": [],
+  "longest_sentence_words": 0
+}
+{
+  "file": "content/english/blog/__shopee-tips.md",
+  "words": 553,
+  "sentences": 39,
+  "violations": {
+    "long_sentence(>25w)": 6,
+    "passive_voice": 1,
+    "ing_main_verb": 0,
+    "nominalization": 0,
+    "phrasal_verb": 0
+  },
+  "total": 7,
+  "total_per100w": 1.27,
+  "long_sentence_ratio": 0.154,
+  "long_sentence_ratio_warn": false,
+  "sample_phrasal": [],
+  "longest_sentence_words": 52
+}
+{
+  "file": "content/english/blog/__second-cellphone.md",
+  "words": 564,
+  "sentences": 43,
+  "violations": {
+    "long_sentence(>25w)": 7,
+    "passive_voice": 0,
+    "ing_main_verb": 0,
+    "nominalization": 0,
+    "phrasal_verb": 0
+  },
+  "total": 7,
+  "total_per100w": 1.24,
+  "long_sentence_ratio": 0.163,
+  "long_sentence_ratio_warn": false,
+  "sample_phrasal": [],
+  "longest_sentence_words": 30
+}
+{
+  "file": "content/english/blog/__smart-plug.md",
+  "words": 662,
+  "sentences": 68,
+  "violations": {
+    "long_sentence(>25w)": 4,
+    "passive_voice": 0,
+    "ing_main_verb": 3,
+    "nominalization": 0,
+    "phrasal_verb": 0
+  },
+  "total": 7,
+  "total_per100w": 1.06,
+  "long_sentence_ratio": 0.059,
+  "long_sentence_ratio_warn": false,
+  "sample_phrasal": [],
+  "longest_sentence_words": 38
+}
+{
+  "file": "content/english/blog/__portable-cross-platform-software.md",
+  "words": 1861,
+  "sentences": 158,
+  "violations": {
+    "long_sentence(>25w)": 13,
+    "passive_voice": 1,
+    "ing_main_verb": 4,
+    "nominalization": 0,
+    "phrasal_verb": 0
+  },
+  "total": 18,
+  "total_per100w": 0.97,
+  "long_sentence_ratio": 0.082,
+  "long_sentence_ratio_warn": false,
+  "sample_p
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+I now understand the slop issues.
+
+Planning the connection-lens edits. The immune-booster supplement draft already uses I/my in its opener. Its close needs Monday-action steps instead of a disclaimer-only ending. The slop scorer flagged -ing main verbs in that file. I am checking those now.
+
+The immune-booster close is drafted as a Monday-action step: fix sleep before buying pills, then ask a doctor which two supplements matter rather than a twenty-ingredient bundle. The shopee-tips opener needs an I or my replacement for its impersonal opening sentence. That draft also has one long sentence and one passive verb to trim.
+
+The shopee-tips opener is drafted with an I-first sentence about flash sales and vouchers. Two long sentences at lines 30 and 46 are flagged for splitting. The close is being rewritten to warn that the app will always try to keep users scrolling.
+
+The shopee-tips close is now a concrete Monday-action checklist: filter local sellers first, screenshot the checkout total, and close the app when the cart is done rather than waiting for a banner. The second-cellphone draft already opens with an I sentence. Its emergency-backup section may need one line of personal friction added. Long sentences there will be split minimally, and the close is acceptable.
+
+The smart-plug close is being rewritten as a Monday-action step: pick one annoying lamp, add a plug, name it by location, and skip the rest until that one sticks. The portable-cross-platform software opener is too meta and needs an I-first rewrite. Its close is action-oriented but too long.
+
+The portable-cross-platform opener is being rewritten to open with "For years I only cared about Windows" instead of the meta blog-posts sentence. The mi-box-s draft opener currently lacks an I or my.
+
+The mi-box-s opener is drafted with an I-first sentence about fighting the TV’s built-in apps and lag. The Android TV box section needs one personal line of friction. The close is acceptable but could use a Monday action. The canon-g3000 draft is next.
+
+The canon-g3000 opener is being rewritten to open with "I've owned enough printers" instead of the impersonal "Printers are where technology goes to disappoint adults." Its close may get a sharper Monday action. The wifi-router draft already has a solid I opener and a strong Monday-action close, so it likely needs only minor tweaks. I am now verifying that the first four hundred characters of each edited file contain an I or my.
+
+I am now adding targeted friction lines to the three weakest drafts. The mi-box-s HDMI section will get a one-annoyed-evening setup story. The canon-g3000 school-forms section will gain a personal maintenance line. The second-cellphone emergency-backup section will get a concrete personal example. All edits will stay minimal.
+
+I am now inspecting the slop-score.pyon analyzer to pinpoint exactly which -ing main verbs trigger the six violations in the immune-booster supplement draft.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/slop-score.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Drafting a regex to detect verb-ing patterns in the slop score calculations.
+
+Grepping all draft files for verb-ing patterns to locate slop-score violations.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": true,
+  "glob": "content/english/blog/__*.md",
+  "pattern": "\\b(?:am|is|are|was|were|be|been|being)\\s+\\w+ing\\b"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "\\b(?:am|is|are|was|were|be|been|being)\\s+\\w+ing\\b",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__inter-font.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__obsidian-vs-hugo.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/blog/__markdown-deep-dive.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "content/english/blog/__immune-booster-supplements.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__why-brave-browser.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__password-managers.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/blog/__smart-plug.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__grade-1-better-than-kumon.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__how-to-create-a-good-habit.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/blog/__optimized-mindset-applied-math-or.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/blog/__hugo-go-templates.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/blog/__selling-static-sites.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/blog/__why-git-greatest-open-source-innovation.md"
+    },
+    {
+      "matchCount": 8,
+      "uri": "content/english/blog/__apple-strategically-late.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__jobs-to-be-done-framework.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__local-ai-my-machines.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__worcestershire-sauce.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/blog/__stack-mismatch-stories.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": "content/english/blog/__portable-cross-platform-software.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__interesting-facts-about-jorap.md"
+    }
+  ],
+  "totalFiles": 28,
+  "totalMatches": 57
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Checking the immune booster supplement draft for main verb issues.
+
+Found six passive voice hits in the immune booster draft. Will rephrase them minimally to cut slop. Then applying the same connection-lens edits across all seven high-priority drafts.
+
+Planning precise edits for each draft. For the immune booster post, replacing "going around," "sniffling," and "was going around" with active alternatives like "spreads," "starts," and "circulated." Also adding I/my openers where missing and tightening weak Monday-action closes.
+
+The immune booster opener now uses "I" and the close is recast as Monday action: fix sleep before buying pills, then ask a clinician which two supplements matter instead of the twenty-ingredient Shopee bundle. The shopee-tips draft gets an "I" opener about the app trying to keep the reader scrolling.
+
+For the shopee-tips draft, splitting the long line 30 sentence into three shorter ones. The opener now lists flash sales, coins, vouchers, live streams, and weekly banners. Also checking for passive voice in this draft.
+
+The shopee-tips close is now a Monday action: filter local sellers, read photo reviews, and close the app when the cart is done rather than chasing another banner deal.
+
+For the second-cellphone draft, adding a personal friction hook about losing the daily driver mid-week and having no OTP screen. Also inserting an "I" opener about emergency backup and splitting any long sentences over thirty words.
+
+The smart-plug close is now a Monday action: place one plug on the lamp that is hard to reach, name it by room, and skip the rest until the habit sticks. No main-verb hits were found in this draft.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/__smart-plug.md",
+  "pattern": "\\b(?:am|is|are|was|were|be|been|being)\\s+\\w+ing\\b"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/__smart-plug.md",
+  "pattern": "\\b(?:am|is|are|was|were|be|been|being)\\s+\\w+ing\\b",
+  "topFiles": [
+    {
+      "matchCount": 3,
+      "uri": "content/english/blog/__smart-plug.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 3
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/__shopee-tips.md",
+  "pattern": "\\b(?:am|is|are|was|were|be|been|being)\\s+\\w+ing\\b"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/__shopee-tips.md",
+  "pattern": "\\b(?:am|is|are|was|were|be|been|being)\\s+\\w+ing\\b",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__shopee-tips.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+The shopee-tips draft contains no I or my in its opener. The body text shows no is+ing slop.
+
+Passive voice in the shopee draft appears to be in the body rather than the opener. The opener change replaces "Shopee is designed" with an I/my opener. The next step is to locate was/were + ed patterns in the body.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/__shopee-tips.md",
+  "pattern": "\\b(?:is|are|was|were|been|be)\\s+\\w+ed\\b"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/__shopee-tips.md",
+  "pattern": "\\b(?:is|are|was|were|been|be)\\s+\\w+ed\\b",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__shopee-tips.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Noticed "is designed" is passive voice.
+
+Smart-plug's three "ing_main_verb" matches are likely false positives from adjectives ending in -ing. Immune-booster-supplements has five valid verb+ing instances.
+
+Found six valid verb+ing instances in the immune booster draft. Planned minimal edits: "was going" becomes "went," "was guessing" becomes "guessed," "is sniffling" becomes "gets the sniffles," "are circulating" becomes "spread," and "are going around" becomes "spreads." Starting edits now; portable software will drop its meta opener and begin with "I."
+
+Dropping the meta opener from portable software and replacing it with "For years I only cared about Windows." The next paragraph already begins with "Portable got me there," so merging may be needed.
+
+Completed the portable software opener by inserting "and what I wanted was simpler than a manifesto" between the Windows reference and the next paragraph. Now beginning the mi-box-s.md opener with "I."
+
+Drafted the mi-box-s.md opener around TV frustration and built-in app lag. Added setup friction to the HDMI box section: a typo, a tiny remote, and still beating native lag. Now planning the Monday-action close.
+
+Finalized the mi-box-s.md Monday-action close: order a cheap box, install four streaming apps, disable the promo row, and stop fighting the built-in OS.
+
+Drafted the canon-g3000.md opener: "I've owned enough printers to know where technology goes to disappoint adults." The close will use a "sharnday" format, ending with a Monday action comparing bottle math against the last cartridge bill for weekly printers, or sending twice-yearly jobs to a print shop.
+
+The wifi-router draft is already solid; the "What I'd do right now" section is already Monday-action, so it likely needs only a minor tweak.
+
+Planning edits for __second-cellphone.md. The longest sentence in the emergency section will be split at thirty words. A new friction line will be added after the split: "Mine died on a Tuesday. I had banking on that screen and nothing else."
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+Applying minimal connection-lens edits: I/my openers, Monday-action closes, and a few slop fixes.
+
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="update_current_step"><details>
+<summary>Tool use: **update_current_step**</summary>
+An unknown error occurred
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__immune-booster-supplements.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__shopee-tips.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__immune-booster-supplements.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__immune-booster-supplements.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__immune-booster-supplements.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__immune-booster-supplements.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__immune-booster-supplements.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__shopee-tips.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__shopee-tips.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__shopee-tips.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Continuing with the remaining draft files.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__second-cellphone.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__smart-plug.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__portable-cross-platform-software.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__mi-box-s.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__mi-box-s.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__mi-box-s.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__canon-g3000.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__canon-g3000.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__wifi-router.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Running post-edit slop scores on all eight files.
+
+Verified draft: true remains on all files. The Shopee opener now uses I/my and the close is sharper. Running final slop scores.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; for f in content/english/blog/__immune-booster-supplements.md content/english/blog/__shopee-tips.md content/english/blog/__second-cellphone.md content/english/blog/__smart-plug.md content/english/blog/__portable-cross-platform-software.md content/english/blog/__mi-box-s.md content/english/blog/__canon-g3000.md content/english/blog/__wifi-router.md; do pnpm slop:score &#34;$f&#34; 2&gt;/dev/null | grep per100w; done</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && for f in content/english/blog/__immune-booster-supplements.md content/english/blog/__shopee-tips.md content/english/blog/__second-cellphone.md content/english/blog/__smart-plug.md content/english/blog/__portable-cross-platform-software.md content/english/blog/__mi-box-s.md content/english/blog/__canon-g3000.md content/english/blog/__wifi-router.md; do pnpm slop:score "$f" 2>/dev/null | grep per100w; done
+```
+
+```
+__immune-booster-supplements.md          words= 453 total=  1 per100w=  0.22
+__shopee-tips.md                         words= 562 total=  5 per100w=  0.89
+__second-cellphone.md                    words= 579 total=  6 per100w=  1.04
+__smart-plug.md                          words= 671 total=  7 per100w=  1.04
+__portable-cross-platform-software.md    words=1852 total= 18 per100w=  0.97
+__mi-box-s.md                            words= 629 total=  8 per100w=  1.27
+__canon-g3000.md                         words= 561 total=  5 per100w=  0.89
+__wifi-router.md                         words= 668 total=  6 per100w=  0.90
+
+```
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "__{immune-booster-supplements,shopee-tips,second-cellphone,smart-plug,portable-cross-platform-software,mi-box-s,canon-g3000,wifi-router}.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "^draft:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "^draft:",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__wifi-router.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__canon-g3000.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__mi-box-s.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__portable-cross-platform-software.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__smart-plug.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__second-cellphone.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__shopee-tips.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__immune-booster-supplements.md"
+    }
+  ],
+  "totalFiles": 8,
+  "totalMatches": 8
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+The Mi-box-s draft’s slop score rose from 1.20 to 1.27 after adding words with long sentences.
+
+Ellphone dropped from 1.24 to 1.04. The second-cellphone draft improved. I am trimming the setup sentence in mi-box-s to cut the long-sentence penalty.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+Mi Box S slop rose after edits — trimming the setup line to bring the score back down.
+
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm slop:score --json content/english/blog/__mi-box-s.md 2&gt;/dev/null</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && pnpm slop:score --json content/english/blog/__mi-box-s.md 2>/dev/null
+```
+
+```
+{
+  "file": "content/english/blog/__mi-box-s.md",
+  "words": 629,
+  "sentences": 49,
+  "violations": {
+    "long_sentence(>25w)": 7,
+    "passive_voice": 0,
+    "ing_main_verb": 1,
+    "nominalization": 0,
+    "phrasal_verb": 0
+  },
+  "total": 8,
+  "total_per100w": 1.27,
+  "long_sentence_ratio": 0.143,
+  "long_sentence_ratio_warn": false,
+  "sample_phrasal": [],
+  "longest_sentence_words": 39
+}
+
+```
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+The added setup sentence may be too long.
+
+The opener is now lengthy. The setup sentence is fine.
+
+The opener is roughly 35 words. It will be split into two shorter sentences.
+
+The Monday close may also be too long. It is roughly 26 words. Both the opener and the close will be split to lower the slop score.
+
+The opener is now two short sentences. The setup friction is kept brief. The Monday close is split into three short sentences.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__mi-box-s.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__mi-box-s.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__mi-box-s.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Re-running the mi-box-s slop score. The portable software draft remained unchanged because only the opener was modified.
+
+Voice fixes applied even when slop scores did not improve significantly. Re-scoring mi-box-sprimar.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm slop:score content/english/blog/__mi-box-s.md 2&gt;/dev/null | grep per100w</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && pnpm slop:score content/english/blog/__mi-box-s.md 2>/dev/null | grep per100w
+```
+
+```
+__mi-box-s.md                            words= 621 total=  6 per100w=  0.97
+
+```
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Mi-box-s dropped from 1.20 to 0.97.
+
+All eight drafts were edited. Slop scores dropped across the board: immune-booster-supplements fell from 1.32 to 0.22, shopee-tips from 1.27 to 0.89, second-cellphone from 1.24 to 1.04, smart-plug from 1.06 to 1.04, portable-cross-platform-software held steady at 0.97, mi-box-s from 1.20 to 0.97, canon-g3000 from 0.93 to 0.89, and wifi-router from 0.93 to 0.90.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="update_current_step"><details>
+<summary>Tool use: **update_current_step**</summary>
+An unknown error occurred
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Compiling a summary table of before and after slop scores for each edited draft, plus brief notes on what changed.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+Edited all 8 drafts. All remain `draft: true`; nothing committed.
+
+## Slop scores (before → after)
+
+| File | Before | After |
+|------|--------|-------|
+| `__immune-booster-supplements.md` | 1.32 | **0.22** |
+| `__shopee-tips.md` | 1.27 | **0.89** |
+| `__second-cellphone.md` | 1.24 | **1.04** |
+| `__smart-plug.md` | 1.06 | **1.04** |
+| `__portable-cross-platform-software.md` | 0.97 | 0.97 |
+| `__mi-box-s.md` | 1.20 | **0.97** |
+| `__canon-g3000.md` | 0.93 | **0.89** |
+| `__wifi-router.md` | 0.93 | **0.90** |
+
+## What changed (minimal)
+
+1. **Immune supplements** — Trimmed `is/was …ing` slop; Monday close (sleep first, ask clinician, skip Shopee bundles).
+2. **Shopee tips** — Opener now `Every time I open Shopee…`; split two long cart sentences; Monday close (local filter, photo reviews, close the app).
+3. **Second cellphone** — Added Tuesday OTP failure beat; split emergency paragraph.
+4. **Smart plug** — Monday close (one lamp, name by room, one habit at a time).
+5. **Portable software** — Dropped meta “blog posts sound like a manifesto”; opens on your Windows folder problem.
+6. **Mi Box S** — `I got tired of fighting…` opener; setup friction (wifi typo, tiny remote); Monday close split for slop.
+7. **Canon G3000** — `I've owned enough printers…` opener; Monday math (weekly vs twice-a-year).
+8. **Wifi router** — Monday line added (mark where you sit, move router before buying).
+
+Biggest slop win: **immune supplements** (1.32 → 0.22), mostly from replacing passive `is/was …ing` constructions. **Portable software** score unchanged; only the opener moved to reader-first + `I`.

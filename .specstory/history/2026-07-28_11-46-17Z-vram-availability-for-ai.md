@@ -2173,4 +2173,95 @@ _**Agent (auto-low)**_
 A dedicated section will compare coding and thinking picks. A "Best for" column will be added to the cross-machine tables.
 
 Per-tier tables were skipped to keep the post concise. Coding picks include Qwen2.5-Coder 7B, Bonsai, and Qwen3 8B. Linux and Mac also get Qwen2.5-Coder 14B and Qwen3 14B. Thinking picks include Bonsai 27B and Qwen3 8B. DeepSeek-R1-Distill-7B or 8B is noted as a small alternative for all three platforms.
+
+DeepSeek-R1-Distill 14B and 32B are added for Linux and Mac. The coding table now lists runner-ups. Qwen2.5-Coder 7B is the top pick for all three platforms. Qwen3 8B is the runner-up. Qwen2.5-Coder 14B is the top pick for Linux and Mac. Qwen3 14B is the runner-up.
+
+The thinking table is finalized. Bonsai 27B leads for all three platforms. DeepSeek-R1-Distill 8B is the runner-up. For Linux and Mac, DeepSeek-R1-Distill 14B leads. DeepSeek-R1-Distill 32B and Qwen3 27B are runners-up. DeepSeek-R1-Distill 8B is roughly five gigabytes. The blog section and tables file will be updated next.
 </details></think>
+
+_**Agent (auto-low)**_
+
+Adding coding vs thinking picks to the cross-machine section and a focused summary.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__local-ai-my-machines.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__local-ai-my-machines.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__local-ai-my-machines.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm slop:score content/english/blog/__local-ai-my-machines.md &amp;&amp; pnpm lint:voice content/english/blog/__local-ai-my-machines.md 2&gt;&amp;1 | tail -4</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && pnpm slop:score content/english/blog/__local-ai-my-machines.md && pnpm lint:voice content/english/blog/__local-ai-my-machines.md 2>&1 | tail -4
+```
+
+```
+$ python3 scripts/voice-lint.py score content/english/blog/__local-ai-my-machines.md
+__local-ai-my-machines.md                words=3256 total= 19 per100w=  0.58
+$ python3 scripts/voice-lint.py dashes --check && python3 scripts/voice-lint.py site --check content/english/blog/__local-ai-my-machines.md
+Voice dash lint OK
+Voice lint OK
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Preparing a clear summary of the best options for coding and thinking.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Added **Best for** columns and a **Coding vs thinking** quick-reference table to the draft. Summary:
+
+## Coding
+
+| Scope | Best pick | Runner-up |
+|-------|-----------|-----------|
+| **All 3 machines** | **Qwen2.5-Coder 7B** | Qwen3 8B (light code only) |
+| **Linux + Mac** | **Qwen2.5-Coder 14B** | Qwen3 14B (general, not code-trained) |
+
+Use the **Coder** builds when output goes into a repo — PHP, `functions.php`, theme files, regex.
+
+## Thinking / reasoning
+
+| Scope | Best pick | Runner-up |
+|-------|-----------|-----------|
+| **All 3 machines** | **Bonsai 27B** | **DeepSeek-R1-Distill 8B** (easier Ollama pull, ~5 GB) |
+| **Linux + Mac daily** | **DeepSeek-R1-Distill 14B** | — |
+| **Linux + Mac stretched** | **DeepSeek-R1-Distill 32B** | Qwen3 27B (general, not reasoning-focused) |
+
+Use **R1-Distill** when you want chain-of-thought — debugging, multi-step planning, hard logic. **Bonsai** is the 27B-class thinking option that still fits the 6 GB Windows card.
+
+## General chat (not coding or thinking)
+
+| Scope | Pick |
+|-------|------|
+| **All 3** | Qwen3 8B or Gemma 3 4B |
+| **Linux + Mac** | Qwen3 14B |
+
+The Linux+Mac table now swaps **Qwen3 27B** for **DeepSeek-R1-Distill 14B** so the top 5 cover coding and thinking explicitly, not just size tiers.
+
+## Session close
+- Fixed: Coding vs thinking picks labeled in cross-machine tables plus quick-reference section.
+- Encode: none
+- Open: clean

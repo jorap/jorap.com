@@ -91,4 +91,34 @@ _**Agent (auto-low)**_
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && pnpm slop:score content/english/blog/why-i-focused-on-open-source.md 2>/dev/null | tail -5
 ```
+
+```
+why-i-focused-on-open-source.md          words=3701 total= 45 per100w=  1.22
+
+```
 </details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The score is fine at 1.22 per 100 words.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Expanded that beat into two paragraphs. The XAMPP hook stays; the new bit generalizes it and lands on your office desktop:
+
+```32:36:content/english/blog/why-i-focused-on-open-source.md
+What's great about XAMPP, especially back then: they ship a **portable** version. On locked-down PCs that block installers - school labs, internet cafes, borrowed office machines - you unzip and run. No admin prompt. No IT ticket.
+
+That wasn't a XAMPP quirk. Open source stacks often ship a portable build, or at least a zip you can drop in a folder without touching the registry. The place it really landed for me was my **office desktop**. Corporate image. No installer rights. I could still run Apache, MySQL, and PHP from a directory I owned - break a CMS install on my lunch break while the rest of the floor stayed on the standard Windows image. That mattered as much as "free."
+```
+
+The move: XAMPP as one example, then the open-source pattern (portable/zip, no registry), then the office desk as the scene that made it stick - not just "free," but workable on a locked machine.
+
+If you want a callback later in the Linux-at-work section ("before they let me run Linux outright, portable stacks were how I practiced on the same desk"), say the word.
+
+## Session close
+- Fixed: Broadened the XAMPP portable beat into an open-source pattern and anchored it on the office desktop.
+- Encode: none
+- Open: clean

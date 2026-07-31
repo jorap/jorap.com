@@ -3558,6 +3558,186 @@ _**Agent (auto-low)**_
 
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
 <summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/writing-to-learn.md</summary>
-Status: **loading**
 
 </details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/zinsser.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Checking whether the ai-writing-system skill references Zinsser and should link to Writing to Learn.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.cursor/skills",
+  "pattern": "zinsser|jorap-voice"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.cursor/skills",
+  "pattern": "zinsser|jorap-voice",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": ".cursor/skills/jorap-voice/zinsser.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": ".cursor/skills/jorap-voice/SKILL.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": ".cursor/skills/jorap-voice/writing-to-learn.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": ".cursor/skills/garden-voice/SKILL.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".cursor/skills/jorap-voice/author-context.md"
+    },
+    {
+      "matchCount": 8,
+      "uri": ".cursor/skills/personal-context-management/master-prompt-sections.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": ".cursor/skills/personal-context-management/SKILL.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".cursor/skills/personal-context-management/master-prompt-method.md"
+    },
+    {
+      "matchCount": 8,
+      "uri": ".cursor/skills/ai-writing-system/SKILL.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": ".cursor/skills/ai-writing-system/feedback-loop.md"
+    },
+    {
+      "matchCount": 7,
+      "uri": ".cursor/skills/ai-writing-system/style-priorities.md"
+    },
+    {
+      "matchCount": 9,
+      "uri": ".cursor/skills/ai-writing-system/implementation-guide.md"
+    }
+  ],
+  "totalFiles": 12,
+  "totalMatches": 59
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+A minimal addition to the ai-writing-system Phase 2 outline would cover writing-to-learn.
+
+The jorap-voice skill already references the ai-writing-system outline. No extra changes are needed.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Integrated *Writing to Learn* into jorap-voice as a distilled companion file (not the full book text — that would duplicate OWW and bloat the skill).
+
+### New file: `.cursor/skills/jorap-voice/writing-to-learn.md`
+
+Distilled WTL for blog work:
+
+- **Writing = thinking = learning** — sentences clarify half-formed ideas
+- **Type A vs Type B** — exploratory drafts (`__` files, outlines) vs finished explanatory posts
+- **Type A loop** — think → write → reader check → rewrite
+- **Fuzzy thinking** — vague claims; writing until the take is specific
+- **Failure as progress** — honest limits beat fake certainty
+- **Process over product** — linear narrative on messy material; don't over-explain emotion
+- **Models / imitation** — reference posts as discipline literature
+- **Crotchets table** — points to `zinsser.md` for overlap (noise, verbs, brevity, enjoyment)
+- **Paul Klee** — "exactitude winged by intuition"
+- **Maps** to workflow, pass #3, outline expansion, voice check
+
+### Updates to `SKILL.md`
+
+- Craft backbone now covers OWW + WTL
+- Workflow step 9: WTL on outline expansion, then OWW
+- Pass #3 links to WTL (reasoning visible, failure OK)
+- **Expanding outlines** uses Type B drafting
+- Voice check adds WTL skim item
+
+### `zinsser.md`
+
+- Cross-link to `writing-to-learn.md` at the top
+
+**Split:** `zinsser.md` = sentence craft (OWW); `writing-to-learn.md` = drafting and reasoning (WTL). JoRap voice still owns person, scene, connection.
+
+## Session close
+- Fixed: Added `writing-to-learn.md` and wired WTL into jorap-voice workflow, pass #3, outlines, and voice check.
+- Encode: none
+- Open: clean

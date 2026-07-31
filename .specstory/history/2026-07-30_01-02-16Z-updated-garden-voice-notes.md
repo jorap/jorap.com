@@ -30,6 +30,14 @@ _**Agent (auto-low)**_
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:garden 2>&1 | head -200
 ```
+
+```
+$ node scripts/runPython.mjs scripts/lint-notes-frontmatter.py && node scripts/runPython.mjs scripts/normalize-notes-format.py --verify && node scripts/runPython.mjs scripts/lint-flashcard-frontmatter.py && node scripts/runPython.mjs scripts/audit-flashcard-north-star.py && node scripts/runPython.mjs scripts/lint-utility-wikilinks.py && node scripts/runPython.mjs scripts/voice-lint.py garden --check && node scripts/runPython.mjs scripts/voice-lint.py slop --check --notes-only
+Note frontmatter lint OK
+FAIL unsorted rel getting-things-done.md
+[ELIFECYCLE] Command failed with exit code 1.
+
+```
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -38,6 +46,12 @@ _**Agent (auto-low)**_
 <summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm lint:slop --notes-only 2&gt;&amp;1 | head -150</summary>
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:slop --notes-only 2>&1 | head -150
+```
+
+```
+$ node scripts/runPython.mjs scripts/voice-lint.py slop --check --notes-only
+Slop lint OK
+
 ```
 </details></tool-use>
 
@@ -347,3 +361,1781 @@ Directory: **``** (296 files)
 | `content/english/notes/follow-their-lead.md` |
 | `content/english/notes/complete-the-cycle.md` |
 </details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Garden lint failed on `getting-things-done`.
+
+I cannot manually review 296 notes. I will fix the lint failure, run automated voice lint and slop score checks, and focus on recently modified or failing notes. A sample review across lanes will follow.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm lint:voice 2&gt;&amp;1 | head -100</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:voice 2>&1 | head -100
+```
+
+```
+$ node scripts/runPython.mjs scripts/voice-lint.py dashes --check && node scripts/runPython.mjs scripts/voice-lint.py site --check
+Voice dash lint OK
+Voice lint OK
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/package.json",
+  "pattern": "slop:score|garden:health"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/package.json",
+  "pattern": "slop:score|garden:health",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": "package.json"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 2
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/getting-things-done.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/garden-voice/examples.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Running a broader garden:health scan and calculating slop scores across all notes to identify high-scoring items.
+
+Checking the relationship sort order in `getting-things-done.md`. Verifying whether "contradicts" should appear after "extends" alphabetically, and reviewing the lint script.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm garden:health 2&gt;&amp;1</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && pnpm garden:health 2>&1
+```
+
+```
+$ node scripts/runPython.mjs scripts/garden-health.py
+$ node scripts/runPython.mjs scripts/lint-notes-frontmatter.py && node scripts/runPython.mjs scripts/normalize-notes-format.py --verify && node scripts/runPython.mjs scripts/lint-flashcard-frontmatter.py && node scripts/runPython.mjs scripts/audit-flashcard-north-star.py && node scripts/runPython.mjs scripts/lint-utility-wikilinks.py && node scripts/runPython.mjs scripts/voice-lint.py garden --check && node scripts/runPython.mjs scripts/voice-lint.py slop --check --notes-only
+Note frontmatter lint OK
+FAIL unsorted rel getting-things-done.md
+[ELIFECYCLE] Command failed with exit code 1.
+✅ Theme CSS generated successfully at: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/assets/css/generated-theme.css
+✅ Note file dates written: /home/jorap/Documents/GitHub/jorap.com/data/noteFileDates.json (295 notes)
+FAIL - lint:garden reported errors.
+GARDEN HEALTH
+========================================
+
+## Lint
+$ pnpm lint:garden
+
+## Link issues
+$ hugo --quiet
+GARDEN LINK ISSUES
+Source: JoRap notes garden
+
+SUMMARY
+- 0 broken wikilinks (target note does not exist)
+- 0 pipe wikilinks (deprecated [[note|label]] syntax)
+- 1 unlinked mentions (note title in prose without [[wikilink]])
+- 0 structure issues (missing typed links or extra sections)
+- 0 orphans (no inbound wikilinks)
+- 0 dead ends (no body wikilinks)
+- 0 utility wikilinks (tool page via [[wikilink]])
+- 0 broken relationship targets
+- 0 body sections (frontmatter headings still in body)
+- 1 notes affected
+
+## Literature Notes (1 issues)
+- Unlinked mention: "Permanent Notes" → link [[Evergreen Notes]]
+
+[ELIFECYCLE] Command failed with exit code 1.
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts",
+  "pattern": "unsorted rel"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts",
+  "pattern": "unsorted rel",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "scripts/normalize-notes-format.py"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/take-smart-notes.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/literature-notes.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Determining the scope of the review.
+
+Reviewing 296 notes against the updated garden-voice skill. Automated scans will catch mechanical issues like unsorted relationships and unlinked mentions. Slop scores will flag the highest-risk entries. Specific rule checks include key_concept claims, four complete thoughts, descriptions under 20 words, and contractions in frontmatter.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/normalize-notes-format.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; node scripts/runPython.mjs scripts/voice-lint.py score content/english/notes --all 2&gt;&amp;1 | tail -50</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && node scripts/runPython.mjs scripts/voice-lint.py score content/english/notes --all 2>&1 | tail -50
+```
+
+```
+usage: slop-score [-h] [--json] [--body-only] [--self-check] [files ...]
+slop-score: error: unrecognized arguments: --all
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/voice-lint.py",
+  "pattern": "score|--all"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/voice-lint.py",
+  "pattern": "score|--all",
+  "topFiles": [
+    {
+      "matchCount": 3,
+      "uri": "scripts/voice-lint.py"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 3
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+I need to batch-score all notes with slop. I'll figure out how to do that.
+
+I'll check garden-health.py and run a comprehensive scan script. For getting-things-done.md, relationship entries should sort by type first, then by wikilink alphabetically.
+
+Take Smart Notes needs to precede The Trusted Inbox in the relationship list. I'll scan all notes for garden-voice issues using bulk tools and review the modified notes from git status.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; find content/english/notes -name &#39;*.md&#39; | xargs node scripts/runPython.mjs scripts/voice-lint.py score 2&gt;&amp;1 | awk &#39;/per100w/ {print}&#39; | sort -t: -k2 -rn | head -40</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && find content/english/notes -name '*.md' | xargs node scripts/runPython.mjs scripts/voice-lint.py score 2>&1 | awk '/per100w/ {print}' | sort -t: -k2 -rn | head -40
+```
+
+```
+workplace-principles.md                  words= 869 total=  5 per100w=  0.58
+words-that-build-up.md                   words= 378 total=  0 per100w=  0.00
+withdraw-to-pray.md                      words= 494 total=  3 per100w=  0.61
+weekly-review-checklists.md              words= 402 total=  4 per100w=  1.00
+walk-by-the-spirit.md                    words= 391 total=  4 per100w=  1.02
+versatility.md                           words= 426 total=  4 per100w=  0.94
+turn-the-other-cheek.md                  words= 424 total=  4 per100w=  0.94
+trust-god-for-today.md                   words= 410 total=  3 per100w=  0.73
+treasure-in-heaven.md                    words= 472 total=  3 per100w=  0.64
+transformation-principles.md             words= 666 total=  0 per100w=  0.00
+title-without-influence.md               words= 504 total=  5 per100w=  0.99
+the-wise-builder.md                      words= 510 total=  2 per100w=  0.39
+the-trusted-inbox.md                     words= 423 total=  3 per100w=  0.71
+the-second-brain-workflow.md             words= 377 total=  2 per100w=  0.53
+there-is-no-perfect-solution.md          words= 399 total=  0 per100w=  0.00
+the-narrow-way.md                        words= 538 total=  4 per100w=  0.74
+the-knowledge-lifecycle.md               words= 397 total=  2 per100w=  0.50
+the-golden-rule.md                       words= 488 total=  7 per100w=  1.43
+the-garage-concept.md                    words= 436 total=  3 per100w=  0.69
+the-feynman-technique.md                 words= 446 total=  3 per100w=  0.67
+the-fathers-food.md                      words= 492 total=  2 per100w=  0.41
+the-collectors-fallacy.md                words= 401 total=  1 per100w=  0.25
+the-beatitudes.md                        words= 549 total=  6 per100w=  1.09
+the-12-week-year.md                      words= 360 total=  0 per100w=  0.00
+thank-father-for-revelation.md           words= 492 total=  3 per100w=  0.61
+thank-father-at-lazarus.md               words= 495 total=  3 per100w=  0.6
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.py",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts",
+  "pattern": "shareable_thought|description.*20|key_concept"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts",
+  "pattern": "shareable_thought|description.*20|key_concept",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": "scripts/notes-voice-lint.py"
+    },
+    {
+      "matchCount": 31,
+      "uri": "scripts/lint-notes-frontmatter.py"
+    },
+    {
+      "matchCount": 7,
+      "uri": "scripts/slop-lint.py"
+    }
+  ],
+  "totalFiles": 3,
+  "totalMatches": 76
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/building-a-second-brain.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/evergreen-notes.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Retrieving notes with the highest slop scores for a more comprehensive audit.
+
+Auditing PKM notes against the updated skill requirements. `getting-things-done.md` and `literature-notes.md` contain dictionary-style definitions rather than arguable claims. `take-smart-notes.md` appears sound. `building-a-second-brain.md` shows near-duplicate shareable thoughts.
+
+`evergreen-notes.md` also contains nearly identical shareable_thought items. A Python script will scan for long descriptions, contractions in frontmatter, dictionary-style key concepts, and shareable_thought duplicates. Next, `evergreen-vs-fleeting-notes.md` will be reviewed alongside relationship fixes for `getting-things-done` and an unlinked mention in `literature-notes`.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; find content/english/notes -name &#39;*.md&#39; -print0 | xargs -0 node scripts/runPython.mjs scripts/voice-lint.py score 2&gt;&amp;1 | grep per100w | awk -F&#39;per100w=&#39; &#39;{gsub(/ /,&#34;&#34;,$1); gsub(/ /,&#34;&#34;,$2); if ($2+0 &gt; 2.0) print $0}&#39; | sort -t= -k2 -rn</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && find content/english/notes -name '*.md' -print0 | xargs -0 node scripts/runPython.mjs scripts/voice-lint.py score 2>&1 | grep per100w | awk -F'per100w=' '{gsub(/ /,"",$1); gsub(/ /,"",$2); if ($2+0 > 2.0) print $0}' | sort -t= -k2 -rn
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; node scripts/runPython.mjs scripts/lint-notes-frontmatter.py 2&gt;&amp;1</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && node scripts/runPython.mjs scripts/lint-notes-frontmatter.py 2>&1
+```
+
+```
+Note frontmatter lint OK
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/evergreen-vs-fleeting-notes.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/capture.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+All notes passed structural lint.
+
+Three issues stand out: unsorted relationships in getting-things-done.md, an unlinked "Permanent Notes" reference in literature-notes.md, and possible dictionary openers on PKM anchor notes. A custom audit script will catch edge cases missed by lint. The user likely wants either a review report or direct fixes.
+
+I will audit and fix clear garden-voice violations directly. The scan targets contractions in frontmatter, dictionary openers on key_concept lines, em dashes, and duplicate shareable_thoughts.
+
+I will check the git diff for recently modified notes. I am running the voice:scan command and a custom Python one-liner to catch contractions and dictionary openers.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; node scripts/runPython.mjs -c &#34;
+import re, yaml, pathlib
+from pathlib import Path
+
+NOTES = Path(&#39;content/english/notes&#39;)
+CONTRACTION = re.compile(r\&#34;\\b(don&#39;t|doesn&#39;t|it&#39;s|can&#39;t|won&#39;t|isn&#39;t|aren&#39;t|wasn&#39;t|weren&#39;t|I&#39;m|I&#39;ve|I&#39;d|I&#39;ll|you&#39;re|you&#39;ve|you&#39;d|you&#39;ll|they&#39;re|they&#39;ve|we&#39;re|we&#39;ve|that&#39;s|there&#39;s|what&#39;s|who&#39;s|let&#39;s)\\b\&#34;, re.I)
+DICT_OPENER = re.compile(r&#39;^-?\\s*(This is|X is the|.* is the process|.* is a framework|.* is David Allen|GTD is|Notes about|Literature notes are|Evergreen notes are|Strategic)&#39;, re.I)
+FIELDS = (&#39;description&#39;, &#39;key_concept&#39;, &#39;examples&#39;, &#39;shareable_thought&#39;, &#39;relationships&#39;)
+
+issues = []
+for path in sorted(NOTES.glob(&#39;*.md&#39;)):
+    text = path.read_text(encoding=&#39;utf-8&#39;)
+    if not text.startswith(&#39;---&#39;):
+        continue
+    parts = text.split(&#39;---&#39;, 2)
+    if len(parts) &lt; 3:
+        continue
+    fm = yaml.safe_load(parts[1]) or {}
+    # contractions in frontmatter fields (not cards)
+    for field in (&#39;description&#39;, &#39;key_concept&#39;, &#39;shareable_thought&#39;):
+        val = fm.get(field)
+        if isinstance(val, str) and CONTRACTION.search(val):
+            issues.append((path.name, &#39;contraction&#39;, field))
+        elif isinstance(val, list):
+            for i, item in enumerate(val):
+                if isinstance(item, str) and CONTRACTION.search(item):
+                    issues.append((path.name, &#39;contraction&#39;, f&#39;{field}[{i}]&#39;))
+    # description word count
+    desc = fm.get(&#39;description&#39;, &#39;&#39;)
+    if isinstance(desc, str):
+        wc = len(desc.split())
+        if wc &gt; 20:
+            issues.append((path.name, f&#39;desc&gt;{wc}w&#39;, desc[:60]))
+    # key_concept line 1 dictionary patterns
+    kc = fm.get(&#39;key_concept&#39;, &#39;&#39;)
+    if isinstance(kc, str):
+        for line in kc.splitlines():
+            s = line.strip()
+            if not s or s.startswith(&#39;{{&lt;&#39;) or s.startswith(&#39;|&#39;):
+                continue
+            if s.startswith(&#39;-&#39;):
+                s = s[1:].strip()
+            if s.startswith(&#39;Level &#39;):
+                continue
+            # first real bullet
+            if &#39;[[[&#39; in s or s.startswith(&#39;[[&#39;):
+                issues.append((path.name, &#39;wikilink-line1&#39;, s[:70]))
+            low = s.lower()
+            if any(low.startswith(p) for p in (&#39;this is a&#39;, &#39;this is the&#39;, &#39;gtd is&#39;, &#39;notes about&#39;, &#39;literature notes&#39;, &#39;evergreen notes are&#39;, &#39;strategic foresight is&#39;)):
+                issues.append((path.name, &#39;dict-opener&#39;, s[:70]))
+            break
+
+for row in issues[:80]:
+    print(f&#39;{row[0]}\t{row[1]}\t{row[2] if len(row)&gt;2 else \&#34;\&#34;}&#39;)
+print(f&#39;--- TOTAL {len(issues)} issues&#39;)
+&#34; 2&gt;&amp;1</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && node scripts/runPython.mjs -c "
+import re, yaml, pathlib
+from pathlib import Path
+
+NOTES = Path('content/english/notes')
+CONTRACTION = re.compile(r\"\\b(don't|doesn't|it's|can't|won't|isn't|aren't|wasn't|weren't|I'm|I've|I'd|I'll|you're|you've|you'd|you'll|they're|they've|we're|we've|that's|there's|what's|who's|let's)\\b\", re.I)
+DICT_OPENER = re.compile(r'^-?\\s*(This is|X is the|.* is the process|.* is a framework|.* is David Allen|GTD is|Notes about|Literature notes are|Evergreen notes are|Strategic)', re.I)
+FIELDS = ('description', 'key_concept', 'examples', 'shareable_thought', 'relationships')
+
+issues = []
+for path in sorted(NOTES.glob('*.md')):
+    text = path.read_text(encoding='utf-8')
+    if not text.startswith('---'):
+        continue
+    parts = text.split('---', 2)
+    if len(parts) < 3:
+        continue
+    fm = yaml.safe_load(parts[1]) or {}
+    # contractions in frontmatter fields (not cards)
+    for field in ('description', 'key_concept', 'shareable_thought'):
+        val = fm.get(field)
+        if isinstance(val, str) and CONTRACTION.search(val):
+            issues.append((path.name, 'contraction', field))
+        elif isinstance(val, list):
+            for i, item in enumerate(val):
+                if isinstance(item, str) and CONTRACTION.search(item):
+                    issues.append((path.name, 'contraction', f'{field}[{i}]'))
+    # description word count
+    desc = fm.get('description', '')
+    if isinstance(desc, str):
+        wc = len(desc.split())
+        if wc > 20:
+            issues.append((path.name, f'desc>{wc}w', desc[:60]))
+    # key_concept line 1 dictionary patterns
+    kc = fm.get('key_concept', '')
+    if isinstance(kc, str):
+        for line in kc.splitlines():
+            s = line.strip()
+            if not s or s.startswith('{{<') or s.startswith('|'):
+                continue
+            if s.startswith('-'):
+                s = s[1:].strip()
+            if s.startswith('Level '):
+                continue
+            # first real bullet
+            if '[[[' in s or s.startswith('[['):
+                issues.append((path.name, 'wikilink-line1', s[:70]))
+            low = s.lower()
+            if any(low.startswith(p) for p in ('this is a', 'this is the', 'gtd is', 'notes about', 'literature notes', 'evergreen notes are', 'strategic foresight is')):
+                issues.append((path.name, 'dict-opener', s[:70]))
+            break
+
+for row in issues[:80]:
+    print(f'{row[0]}\t{row[1]}\t{row[2] if len(row)>2 else \"\"}')
+print(f'--- TOTAL {len(issues)} issues')
+" 2>&1
+```
+
+```
+[runPython] not found: /home/jorap/Documents/GitHub/jorap.com/-c
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; git diff content/english/notes/ 2&gt;&amp;1 | head -300</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && git diff content/english/notes/ 2>&1 | head -300
+```
+
+```
+diff --git a/content/english/notes/building-a-second-brain.md b/content/english/notes/building-a-second-brain.md
+index 7008fef5..3ac237a4 100644
+--- a/content/english/notes/building-a-second-brain.md
++++ b/content/english/notes/building-a-second-brain.md
+@@ -39,6 +39,9 @@ relationships:
+   - type: extends
+     wikilink: "[[PKM]]"
+     reason: "A second brain offloads ideas so your head can think instead of hoard"
++  - type: extends
++    wikilink: "[[Take Smart Notes]]"
++    reason: "Ahrens slip-box when linked notes beat folder sorting"
+   - type: implements
+     wikilink: "[[The Second Brain Workflow]]"
+     reason: "CODE stages operationalized in the workflow note"
+diff --git a/content/english/notes/evergreen-notes.md b/content/english/notes/evergreen-notes.md
+index 3a0145f5..470e4d30 100644
+--- a/content/english/notes/evergreen-notes.md
++++ b/content/english/notes/evergreen-notes.md
+@@ -30,8 +30,8 @@ relationships:
+     wikilink: "[[Periodic Knowledge Review]]"
+     reason: "Evergreen notes stay sharp through scheduled revisit"
+   - type: extends
+-    wikilink: "[[Permanent Notes]]"
+-    reason: "Ahrens-style durable phrasing this note targets"
++    wikilink: "[[Take Smart Notes]]"
++    reason: "Ahrens permanent notes target this durable phrasing"
+   - type: extends
+     wikilink: "[[The Beatitudes]]"
+     reason: "Timeless claims like the Beatitudes - notes that age well"
+diff --git a/content/english/notes/evergreen-vs-fleeting-notes.md b/content/english/notes/evergreen-vs-fleeting-notes.md
+index db5ae0f0..2930b60f 100644
+--- a/content/english/notes/evergreen-vs-fleeting-notes.md
++++ b/content/english/notes/evergreen-vs-fleeting-notes.md
+@@ -27,6 +27,9 @@ relationships:
+   - type: extends
+     wikilink: "[[Note Maturity]]"
+     reason: "Stages a note passes through - future lifecycle note"
++  - type: extends
++    wikilink: "[[Take Smart Notes]]"
++    reason: "Ahrens three-bucket split matches fleeting vs permanent lanes"
+ slug: "evergreen-vs-fleeting-notes"
+ dat
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Running the Python audit script via a temporary file or directly with python3.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt; &#39;PYEOF&#39;
+import re, yaml
+from pathlib import Path
+
+NOTES = Path(&#39;content/english/notes&#39;)
+CONTRACTION = re.compile(r&#34;\b(don&#39;t|doesn&#39;t|it&#39;s|can&#39;t|won&#39;t|isn&#39;t|aren&#39;t|wasn&#39;t|weren&#39;t|I&#39;m|I&#39;ve|I&#39;d|I&#39;ll|you&#39;re|you&#39;ve|you&#39;d|you&#39;ll|they&#39;re|they&#39;ve|we&#39;re|we&#39;ve|that&#39;s|there&#39;s|what&#39;s|who&#39;s|let&#39;s)\b&#34;, re.I)
+
+issues = []
+for path in sorted(NOTES.glob(&#39;*.md&#39;)):
+    text = path.read_text(encoding=&#39;utf-8&#39;)
+    if not text.startswith(&#39;---&#39;):
+        continue
+    parts = text.split(&#39;---&#39;, 2)
+    if len(parts) &lt; 3:
+        continue
+    fm = yaml.safe_load(parts[1]) or {}
+    for field in (&#39;description&#39;, &#39;key_concept&#39;, &#39;shareable_thought&#39;):
+        val = fm.get(field)
+        if isinstance(val, str) and CONTRACTION.search(val):
+            issues.append((path.name, &#39;contraction&#39;, field))
+        elif isinstance(val, list):
+            for i, item in enumerate(val):
+                if isinstance(item, str) and CONTRACTION.search(item):
+                    issues.append((path.name, &#39;contraction&#39;, f&#39;{field}[{i}]&#39;))
+    desc = fm.get(&#39;description&#39;, &#39;&#39;)
+    if isinstance(desc, str):
+        wc = len(desc.split())
+        if wc &gt; 20:
+            issues.append((path.name, f&#39;desc&gt;{wc}w&#39;, desc[:70]))
+    kc = fm.get(&#39;key_concept&#39;, &#39;&#39;)
+    if isinstance(kc, str):
+        for line in kc.splitlines():
+            s = line.strip()
+            if not s or s.startswith(&#39;{{&lt;&#39;) or s.startswith(&#39;|&#39;):
+                continue
+            if s.startswith(&#39;-&#39;):
+                s = s[1:].strip()
+            if s.startswith(&#39;Level &#39;):
+                continue
+            if s.startswith(&#39;[[&#39;):
+                issues.append((path.name, &#39;wikilink-line1&#39;, s[:70]))
+            low = s.lower()
+            dict_patterns = (&#39;this is a&#39;, &#39;this is the&#39;, &#39;gtd is&#39;, &#39;notes about&#39;, &#39;literature notes&#39;, &#39;evergreen notes are&#39;, &#39;strategic foresight is&#39;, &#39;david allen&#39;)
+            if any(p in low for p in dict_patterns):
+                issues.append((path.name, &#39;dict-opener&#39;, s[:70]))
+            break
+
+for row in issues:
+    print(f&#39;{row[0]}\t{row[1]}\t{row[2] if len(row)&gt;2 else &#34;&#34;}&#39;)
+print(f&#39;--- TOTAL {len(issues)} issues&#39;)
+PYEOF</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PYEOF'
+import re, yaml
+from pathlib import Path
+
+NOTES = Path('content/english/notes')
+CONTRACTION = re.compile(r"\b(don't|doesn't|it's|can't|won't|isn't|aren't|wasn't|weren't|I'm|I've|I'd|I'll|you're|you've|you'd|you'll|they're|they've|we're|we've|that's|there's|what's|who's|let's)\b", re.I)
+
+issues = []
+for path in sorted(NOTES.glob('*.md')):
+    text = path.read_text(encoding='utf-8')
+    if not text.startswith('---'):
+        continue
+    parts = text.split('---', 2)
+    if len(parts) < 3:
+        continue
+    fm = yaml.safe_load(parts[1]) or {}
+    for field in ('description', 'key_concept', 'shareable_thought'):
+        val = fm.get(field)
+        if isinstance(val, str) and CONTRACTION.search(val):
+            issues.append((path.name, 'contraction', field))
+        elif isinstance(val, list):
+            for i, item in enumerate(val):
+                if isinstance(item, str) and CONTRACTION.search(item):
+                    issues.append((path.name, 'contraction', f'{field}[{i}]'))
+    desc = fm.get('description', '')
+    if isinstance(desc, str):
+        wc = len(desc.split())
+        if wc > 20:
+            issues.append((path.name, f'desc>{wc}w', desc[:70]))
+    kc = fm.get('key_concept', '')
+    if isinstance(kc, str):
+        for line in kc.splitlines():
+            s = line.strip()
+            if not s or s.startswith('{{<') or s.startswith('|'):
+                continue
+            if s.startswith('-'):
+                s = s[1:].strip()
+            if s.startswith('Level '):
+                continue
+            if s.startswith('[['):
+                issues.append((path.name, 'wikilink-line1', s[:70]))
+            low = s.lower()
+            dict_patterns = ('this is a', 'this is the', 'gtd is', 'notes about', 'literature notes', 'evergreen notes are', 'strategic foresight is', 'david allen')
+            if any(p in low for p in dict_patterns):
+                issues.append((path.name, 'dict-opener', s[:70]))
+            break
+
+for row in issues:
+    print(f'{row[0]}\t{row[1]}\t{row[2] if len(row)>2 else ""}')
+print(f'--- TOTAL {len(issues)} issues')
+PYEOF
+```
+
+```
+backlinks.md	desc>22w	Inbound wikilinks ranked by count - see which notes the garden treats 
+eternal-principles.md	contraction	description
+eternal-principles.md	contraction	key_concept
+eternal-principles.md	contraction	shareable_thought[0]
+eternal-principles.md	contraction	shareable_thought[3]
+flashcards.md	desc>32w	Learn less, retain longer, apply more - I opt notes into drill cards w
+getting-things-done.md	dict-opener	GTD is David Allen's capture-clarify-organize loop for a trusted inbox
+issues.md	desc>180w	Garden hygiene: broken wikilinks, graph shape, structure, and format d
+jesus-prayers.md	wikilink-line1	[[Jesus' Rhythms]] shows how often He prayed; this hub holds the praye
+jesus-rhythms.md	wikilink-line1	[[Eternal Principles]] holds what Jesus taught; this hub holds what th
+literature-notes.md	dict-opener	Notes about a source in your own words - not a highlight dump.
+random-duo.md	desc>21w	Two notes from the garden, picked at random. I hit **Shuffle** for ano
+review.md	desc>73w	Active recall in the browser - show the prompt, try the answer, rate m
+systems-for-growth.md	contraction	description
+systems-for-growth.md	contraction	key_concept
+systems-for-growth.md	contraction	shareable_thought[1]
+transformation-principles.md	contraction	key_concept
+transformation-principles.md	contraction	shareable_thought[1]
+--- TOTAL 18 issues
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/literature-notes.md",
+  "pattern": "Permanent Notes"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/literature-notes.md",
+  "pattern": "Permanent Notes",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/getting-things-done.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Grep'ing the literature-notes file to inspect its unlinked Permanent Notes.
+
+The unlinked Permanent Notes may be in the body rather than frontmatter. Planned fixes include relative sorting in getting-things-done, dictionary opener corrections in two files, duplicate shareable_thoughts in building-a-second-brain, and separate handling for meta/index utility notes. Now checking note_kind rules for meta notes.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "note_kind|Permanent Notes"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "note_kind|Permanent Notes",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/okf-export.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/leadership-is-influence.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": "content/english/notes/getting-started.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/random-duo.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/graph.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/transformation-principles.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/eternal-principles.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/systems-for-growth.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/jesus-rhythms.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/note-relationships.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/prayer-jesus-taught.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/evergreen-notes.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/workplace-principles.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/backlinks.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/fruits-of-the-spirit.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/flashcards.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/jesus-prayers.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/maps-of-content.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/create.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/review.md"
+    }
+  ],
+  "totalFiles": 22,
+  "totalMatches": 26
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/literature-notes.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/lint-notes-frontmatter.py",
+  "pattern": "note_kind|meta|index"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/lint-notes-frontmatter.py",
+  "pattern": "note_kind|meta|index",
+  "topFiles": [
+    {
+      "matchCount": 8,
+      "uri": "scripts/lint-notes-frontmatter.py"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 8
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The meta/index notes skip many lint rules.
+
+Fixing dict opener lines and sorting relationships in getting-things-done.md. Searching literature-notes.md for the unlinked "Permanent Notes" mention to link it to [[Evergreen Notes]].
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "Permanent Notes"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "Permanent Notes",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/evergreen-notes.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/take-smart-notes.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/building-a-second-brain.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The linter flagged an unlinked "Permanent Notes" reference in take-smart-notes.md. It should link to the [[Evergreen Notes]] alias.
+
+Checking the garden link linter logic. PKM anchor notes need fixes: getting-things-done.md needs its dictionary opener replaced with a claim, and literature-notes.md needs the same treatment. The relationships list in getting-things-done.md should sort Take Smart Notes before The Trusted Inbox. A summary report for the full garden will follow.
+
+building-a-second-brain.md needs four distinct angles instead of duplicated pairs. The linter flag for take-smart-notes.md likely targets the capitalized "Permanent Notes" rather than the lowercase "permanent notes" instances.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts",
+  "pattern": "Unlinked mention|unlinked"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts",
+  "pattern": "Unlinked mention|unlinked",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "scripts/lintNotes.mjs"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt; &#39;PYEOF&#39;
+import re, yaml
+from pathlib import Path
+
+NOTES = Path(&#39;content/english/notes&#39;)
+# book anchor pattern check - line 1 should be claim not dict
+anchors = [&#39;getting-things-done.md&#39;, &#39;building-a-second-brain.md&#39;, &#39;take-smart-notes.md&#39;, &#39;literature-notes.md&#39;, &#39;evergreen-notes.md&#39;, &#39;evergreen-vs-fleeting-notes.md&#39;, &#39;capture.md&#39;, &#39;atomic-notes.md&#39;]
+
+# shareable overlap check
+def jaccard(a, b):
+    sa, sb = set(a.lower().split()), set(b.lower().split())
+    if not sa or not sb: return 0
+    return len(sa &amp; sb) / len(sa | sb)
+
+overlap_issues = []
+for path in sorted(NOTES.glob(&#39;*.md&#39;)):
+    text = path.read_text(encoding=&#39;utf-8&#39;)
+    parts = text.split(&#39;---&#39;, 2)
+    if len(parts) &lt; 3: continue
+    fm = yaml.safe_load(parts[1]) or {}
+    if fm.get(&#39;note_kind&#39;, &#39;note&#39;) in {&#39;meta&#39;, &#39;index&#39;}: continue
+    st = fm.get(&#39;shareable_thought&#39;)
+    if not isinstance(st, list) or len(st) != 4: continue
+    for i in range(4):
+        for j in range(i+1, 4):
+            if jaccard(st[i], st[j]) &gt; 0.65:
+                overlap_issues.append((path.name, i, j, round(jaccard(st[i], st[j]), 2), st[i][:50], st[j][:50]))
+
+print(&#39;SHAREABLE OVERLAP (&gt;0.65 jaccard):&#39;)
+for row in sorted(overlap_issues, key=lambda x: -x[3])[:25]:
+    print(f&#39;{row[0]}\t{row[3]}\t[{row[1]}] {row[4]}...\t[{row[2]}] {row[5]}...&#39;)
+print(f&#39;TOTAL {len(overlap_issues)} pairs&#39;)
+PYEOF</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PYEOF'
+import re, yaml
+from pathlib import Path
+
+NOTES = Path('content/english/notes')
+# book anchor pattern check - line 1 should be claim not dict
+anchors = ['getting-things-done.md', 'building-a-second-brain.md', 'take-smart-notes.md', 'literature-notes.md', 'evergreen-notes.md', 'evergreen-vs-fleeting-notes.md', 'capture.md', 'atomic-notes.md']
+
+# shareable overlap check
+def jaccard(a, b):
+    sa, sb = set(a.lower().split()), set(b.lower().split())
+    if not sa or not sb: return 0
+    return len(sa & sb) / len(sa | sb)
+
+overlap_issues = []
+for path in sorted(NOTES.glob('*.md')):
+    text = path.read_text(encoding='utf-8')
+    parts = text.split('---', 2)
+    if len(parts) < 3: continue
+    fm = yaml.safe_load(parts[1]) or {}
+    if fm.get('note_kind', 'note') in {'meta', 'index'}: continue
+    st = fm.get('shareable_thought')
+    if not isinstance(st, list) or len(st) != 4: continue
+    for i in range(4):
+        for j in range(i+1, 4):
+            if jaccard(st[i], st[j]) > 0.65:
+                overlap_issues.append((path.name, i, j, round(jaccard(st[i], st[j]), 2), st[i][:50], st[j][:50]))
+
+print('SHAREABLE OVERLAP (>0.65 jaccard):')
+for row in sorted(overlap_issues, key=lambda x: -x[3])[:25]:
+    print(f'{row[0]}\t{row[3]}\t[{row[1]}] {row[4]}...\t[{row[2]}] {row[5]}...')
+print(f'TOTAL {len(overlap_issues)} pairs')
+PYEOF
+```
+
+```
+SHAREABLE OVERLAP (>0.65 jaccard):
+control-the-rhythm.md	0.88	[0] Control the rhythm is taking back pace before urge...	[1] Control the rhythm means taking back pace before u...
+sustainable-performance.md	0.88	[0] Aim for a pace you can hold next month without bur...	[2] I aim for a pace I can hold next month without bur...
+linking-by-meaning.md	0.87	[0] Link notes so ideas meet in the graph without memo...	[2] I link notes so ideas meet in the graph without me...
+integrity.md	0.86	[0] What you do matches what you claim when applause, ...	[2] What I do matches what I claim when applause, spee...
+ship-it.md	0.85	[0] Ship the good-enough version live instead of polis...	[3] Publish the good-enough version live instead of po...
+forgiveness.md	0.83	[0] Extend the forgiveness already received, not ledge...	[3] Forgiveness extends the forgiveness already receiv...
+digital-garden.md	0.82	[0] A digital garden is where notes grow in public....	[2] A digital garden is a personal site where notes gr...
+building-a-second-brain.md	0.75	[0] The head is for thinking, not storing....	[2] My head is for thinking, not storing....
+mind-mapping.md	0.75	[0] Mind maps serve the messy first pass....	[2] Mind maps are the messy first pass....
+situational-control.md	0.75	[0] Steer pace, format, and who speaks when you cannot...	[3] I steer pace, format, and who speaks in the room w...
+the-collectors-fallacy.md	0.74	[0] Saving articles felt like progress until every sav...	[3] Saving articles felt like progress until I tied ev...
+discipleship-vs-leadership.md	0.7	[1] Greatness is service - Son of Man came to serve; t...	[2] Greatness is service - Son of Man came to serve; u...
+reconcile-before-the-review.md	0.69	[0] Reconcile before the review - fix the relationship...	[3] Fix the relationship breach before OKRs, demos, or...
+ask-seek-knock.md	0.67	[2] God gives like a parent who gives bread, not a sto...	[3] Jesus compares God to a parent who gives bread, no...
+emotional-regulation.md	0.67	
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Reviewing all notes against the updated garden-voice.
+
+296 notes passed lint checks. One note failed due to unsorted relationships. One link is missing. Two dict openers appear in content notes. Seventeen shareable thought overlaps exist across the garden. Meta and index notes are exempt from most rules. The next step is fixing these issues in the PKM stack.
+
+Scanning for banned words that pass lint but violate the voice style. The plan prioritizes the PKM anchor stack, then the relationship sort, then the unlinked Permanent Notes link. The link checker may expect the alias [[Evergreen Notes]] rather than the lowercase "permanent notes".
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts",
+  "pattern": "unlinked mention|Permanent"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts",
+  "pattern": "unlinked mention|Permanent",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "scripts/lintNotes.mjs"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/literature-notes.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Investigating why Literature Notes shows unlinked Permanent Notes. Possible causes include Hugo rendering, the key_concept line referencing "evergreen writing," or the relationships.reason line containing "permanent notes."
+
+Reconsidered the unlinked mention. It likely indicates an issue with the Literature Notes note itself, not content within that file. Running the garden link check script directly.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **1** directory</summary>
+
+Directory: **``** (0 files)
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "unlinked mention"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "unlinked mention",
+  "topFiles": [
+    {
+      "matchCount": 6,
+      "uri": ".specstory/history/2026-07-01_13-22-54Z-garden-link-structure-issues.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": ".specstory/history/2026-07-03_01-49-12Z-notes-with-five-word-titles.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": ".specstory/history/2026-07-02_01-07-08Z-flashcard-guiding-principles.md"
+    },
+    {
+      "matchCount": 29,
+      "uri": ".specstory/history/2026-06-19_10-33-08Z-notes-linking-requirements.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-01_14-04-02Z-notes-frontmatter-conversion.md"
+    },
+    {
+      "matchCount": 30,
+      "uri": ".specstory/history/2026-07-10_23-05-15Z-garden-link-issues-summary.md"
+    },
+    {
+      "matchCount": 31,
+      "uri": ".specstory/history/2026-06-19_09-15-28Z-obsidian-like-design-modifications.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-19_07-31-27Z-obsidian-functionality-improvement.md"
+    },
+    {
+      "matchCount": 15,
+      "uri": ".specstory/history/2026-07-05_14-37-42Z-garden-link-issues-summary.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-07-02_07-13-32Z-clarification-needed-on-notes.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": ".specstory/history/2026-07-26_15-04-10Z-okf-version-update-steps.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-06-27_10-39-09Z-knowledge-catalog-specification-comparison.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-22_02-16-32Z-missing-hugo-extended-package-warning.md"
+    },
+    {
+      "matchCount": 14,
+      "uri": ".specstory/history/2026-06-27_11-19-04Z-chatgpt-code-and-notes-integration.md"
+    },
+    {
+      "matchCount": 11,
+      "uri": ".specstory/history/2026-07-26_15-57-23Z-garden-link-issues-summary.md"
+    },
+    {
+      "matchCount": 7,
+      "uri": ".specstory/history/2026-06-22_15-20-49Z-heading-replacement-and-genre.md"
+    },
+    {
+      "matchCount": 34,
+      "uri": ".specstory/history/2026-06-22_09-13-43Z-systems-for-growth-moc.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-06-28_17-06-25Z-free-grace-and-eternal-rewards-notes.md"
+    },
+    {
+      "matchCount": 32,
+      "uri": ".specstory/history/2026-06-20_08-12-04Z-eternal-principles-and-jesus.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-29_00-45-19Z-at-tasks-workspaceid-6c9cecb364b8aca3f894dc941c3259bc.md"
+    }
+  ],
+  "totalFiles": 81,
+  "totalMatches": 937
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Running Hugo to locate the unlinked mention.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; hugo --quiet 2&gt;&amp;1 | rg &#39;unlinked mention|Permanent&#39;</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && hugo --quiet 2>&1 | rg 'unlinked mention|Permanent'
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Hugo quiet mode suppresses warnings.
+
+Running without --quiet to reveal warnings.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; hugo 2&gt;&amp;1 | rg &#39;unlinked mention|Permanent&#39; | head -20</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && hugo 2>&1 | rg 'unlinked mention|Permanent' | head -20
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The garden-health script may collect issues differently.
+
+Reading garden-health.py to inspect its logic.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/garden-health.py",
+  "pattern": "unlinked|Permanent"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/garden-health.py",
+  "pattern": "unlinked|Permanent",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/garden-health.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Locating the public issues file or the section on unlinked Permanent Notes.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.{md,html,txt}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "Permanent Notes"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "Permanent Notes",
+  "topFiles": [
+    {
+      "matchCount": 11,
+      "uri": ".specstory/history/2026-07-30_00-58-58Z-smart-notes-overview.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-22_09-13-43Z-systems-for-growth-moc-creation.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-06-21_15-27-45Z-file-name-change-to-mental-models.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-27_11-19-04Z-chatgpt-code-and-notes-integration.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/evergreen-notes.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": ".specstory/history/2026-06-22_09-13-43Z-systems-for-growth-moc.md"
+    }
+  ],
+  "totalFiles": 6,
+  "totalMatches": 21
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The unlinked "Permanent Notes" likely appears in take-smart-notes.md at line 38, where "Permanent notes" begins with a capital P.
+
+The health report identified the Literature Notes file as the source of the issue. The alias is "Permanent Notes" with a capital N, while the text uses lowercase "notes".
+
+The unlinked mention is in literature-notes.md at line 37, where "permanent notes" appears lowercase in a relationship reason. This matches the health report's single issue for that file.
+
+The fix is to replace the unlinked phrase with a wikilink. The spec story confirms that plain wikilinks will replace unlinked mentions in relationship reasons. The literature-notes line should read [[Evergreen Notes]] instead of "permanent notes".
+
+A four-file review plan is ready. getting-things-done.md needs a dictionary opener and relationship sorting. literature-notes.md needs a dictionary opener plus the unlinked permanent-notes link fixed. building-a-second-brain.md has duplicate shareable_thought entries. take-smart-notes.md looks mostly clean.
+
+Fixing all 17 shareable overlap pairs across 296 notes would be too large. The plan is to deliver a structured review report, fix the mechanical lint failure and PKM stack issues, and optionally patch the worst shareable overlaps.
+
+Slop scores will be checked before and after fixes. The getting-things-done key concept will be rewritten in take-smart-notes style. The literature-notes description will be rewritten to reject highlight dumps.
+
+Four distinct angles will replace the duplicate shareable_thought entries in building-a-second-brain.md. These cover definition, move, boundary, and payoff. The literature-notes shareable_thought item 4 will also be rewritten to avoid echoing the description fragment.
+
+The literature-notes shareable_thought entry 3 duplicates the description and key_concept line 1. It will be replaced with a quote from key_concept about atomic notes growing from literature notes. The evergreen-notes shareable items 0 and 1 may also be too similar.
+
+The evergreen-notes shareable items 0 and 1 are near duplicates. One will be removed. Fixes for the PKM stack and mechanical issues will come first. Then the full review report will follow. A normalize command may auto-fix sorted relationships.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Fixing mechanical lint failures and PKM anchor notes that violate the updated skill; then summarizing the full garden audit.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/getting-things-done.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/literature-notes.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/getting-things-done.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/literature-notes.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/building-a-second-brain.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/literature-notes.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/evergreen-notes.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Verifying that shareable_thought items for building-a-second-brain and evergreen-notes draw from their description and key_concept wording.
+
+Confirmed the exact wording for both shareable_thought items matches their key_concept entries. Now running lint and garden health checks.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm lint:garden 2&gt;&amp;1 &amp;&amp; pnpm garden:health 2&gt;&amp;1 | tail -25</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:garden 2>&1 && pnpm garden:health 2>&1 | tail -25
+```
+
+```
+$ node scripts/runPython.mjs scripts/lint-notes-frontmatter.py && node scripts/runPython.mjs scripts/normalize-notes-format.py --verify && node scripts/runPython.mjs scripts/lint-flashcard-frontmatter.py && node scripts/runPython.mjs scripts/audit-flashcard-north-star.py && node scripts/runPython.mjs scripts/lint-utility-wikilinks.py && node scripts/runPython.mjs scripts/voice-lint.py garden --check && node scripts/runPython.mjs scripts/voice-lint.py slop --check --notes-only
+FAIL shareable_thought[2] not from principle: building-a-second-brain.md
+
+1 note(s) failed frontmatter lint
+[ELIFECYCLE] Command failed with exit code 1.
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; for f in getting-things-done literature-notes building-a-second-brain evergreen-notes take-smart-notes; do echo &#34;=== $f ===&#34;; node scripts/runPython.mjs scripts/voice-lint.py score content/english/notes/$f.md 2&gt;&amp;1 | grep per100w; done</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && for f in getting-things-done literature-notes building-a-second-brain evergreen-notes take-smart-notes; do echo "=== $f ==="; node scripts/runPython.mjs scripts/voice-lint.py score content/english/notes/$f.md 2>&1 | grep per100w; done
+```
+
+```
+=== getting-things-done ===
+getting-things-done.md                   words= 445 total=  4 per100w=  0.90
+=== literature-notes ===
+literature-notes.md                      words= 419 total=  1 per100w=  0.24
+=== building-a-second-brain ===
+building-a-second-brain.md               words= 468 total=  3 per100w=  0.64
+=== evergreen-notes ===
+evergreen-notes.md                       words= 419 total=  2 per100w=  0.48
+=== take-smart-notes ===
+take-smart-notes.md                      words= 549 total=  8 per100w=  1.46
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The shareable thought for building-a-second-brain failed the "not from principle" check. Its line must echo the description or key_concept wording.
+
+I'm pulling phrasing from the key_concept and description to draft a shareable line that passes the check.
+
+I found a fourth angle: "I review quarterly whether each step still earns place." I'll rewrite shareable_thought[2] using exact key_concept wording.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/building-a-second-brain.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Checking that evergreen shareable line 4 matches key_concept level 3 wording. Will run lint again.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm lint:garden 2&gt;&amp;1 &amp;&amp; pnpm garden:health 2&gt;&amp;1 | tail -20</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:garden 2>&1 && pnpm garden:health 2>&1 | tail -20
+```
+
+```
+$ node scripts/runPython.mjs scripts/lint-notes-frontmatter.py && node scripts/runPython.mjs scripts/normalize-notes-format.py --verify && node scripts/runPython.mjs scripts/lint-flashcard-frontmatter.py && node scripts/runPython.mjs scripts/audit-flashcard-north-star.py && node scripts/runPython.mjs scripts/lint-utility-wikilinks.py && node scripts/runPython.mjs scripts/voice-lint.py garden --check && node scripts/runPython.mjs scripts/voice-lint.py slop --check --notes-only
+Note frontmatter lint OK
+Flashcard frontmatter OK
+Flashcard north-star audit OK
+Utility wikilinks OK
+Garden voice lint OK
+Slop lint OK
+## Link issues
+$ hugo --quiet
+GARDEN LINK ISSUES
+Source: JoRap notes garden
+
+SUMMARY
+- 0 broken wikilinks (target note does not exist)
+- 0 pipe wikilinks (deprecated [[note|label]] syntax)
+- 0 unlinked mentions (note title in prose without [[wikilink]])
+- 0 structure issues (missing typed links or extra sections)
+- 0 orphans (no inbound wikilinks)
+- 0 dead ends (no body wikilinks)
+- 0 utility wikilinks (tool page via [[wikilink]])
+- 0 broken relationship targets
+- 0 body sections (frontmatter headings still in body)
+- 0 notes affected
+
+No garden issues found.
+
+OK - garden health passed.
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Garden health checks passed. Compiling the full review report.
+
+Automated gates passed. The report will cover fixes, remaining qualitative issues, and PKM stack assessment. Counting notes and slop scores now.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt; &#39;PYEOF&#39;
+import re, yaml, statistics
+from pathlib import Path
+
+NOTES = Path(&#39;content/english/notes&#39;)
+scores = []
+content_count = 0
+index_meta = 0
+for path in sorted(NOTES.glob(&#39;*.md&#39;)):
+    text = path.read_text(encoding=&#39;utf-8&#39;)
+    parts = text.split(&#39;---&#39;, 2)
+    if len(parts) &lt; 3: continue
+    fm = yaml.safe_load(parts[1]) or {}
+    if fm.get(&#39;note_kind&#39;, &#39;note&#39;) in {&#39;meta&#39;, &#39;index&#39;}:
+        index_meta += 1
+        continue
+    content_count += 1
+
+print(f&#39;content notes: {content_count}, index/meta: {index_meta}, total: {content_count+index_meta}&#39;)
+PYEOF
+find content/english/notes -name &#39;*.md&#39; | wc -l</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PYEOF'
+import re, yaml, statistics
+from pathlib import Path
+
+NOTES = Path('content/english/notes')
+scores = []
+content_count = 0
+index_meta = 0
+for path in sorted(NOTES.glob('*.md')):
+    text = path.read_text(encoding='utf-8')
+    parts = text.split('---', 2)
+    if len(parts) < 3: continue
+    fm = yaml.safe_load(parts[1]) or {}
+    if fm.get('note_kind', 'note') in {'meta', 'index'}:
+        index_meta += 1
+        continue
+    content_count += 1
+
+print(f'content notes: {content_count}, index/meta: {index_meta}, total: {content_count+index_meta}')
+PYEOF
+find content/english/notes -name '*.md' | wc -l
+```
+
+```
+content notes: 276, index/meta: 20, total: 296
+296
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Preparing a comprehensive review report.
+
+Automated review and PKM fixes are complete. The remaining backlog of 17 shareable overlap notes will be summarized without further edits unless requested. Key priorities include control-the-rhythm, sustainable-performance, linking-by-meaning, integrity, ship-it, forgiveness, digital-garden, and mind-mapping. Index notes with contractions were noted as expected.
+
+Hub notes with wikilinks on line one are exempt or lower priority. take-smart-notes.md is the reference anchor and passes at 1.46. A clear session close block is being prepared.
+</details></think>
+
+_**Agent (auto-low)**_
+
+## Garden review (296 notes, updated garden-voice)
+
+Ran the full gate stack on all notes: `lint:garden`, `lint:voice`, `lint:slop`, `garden:health`, plus custom scans for dict openers, contractions, description length, and `shareable_thought` overlap.
+
+### Automated gates — clean
+
+| Check | Result |
+|-------|--------|
+| Frontmatter structure | 276 content notes pass |
+| Voice words / dashes | Clean |
+| Slop structure | Clean |
+| Slop score | All notes ≤ 2.0 per100w (highest PKM: `take-smart-notes.md` at 1.46) |
+| Links / relationships | 0 issues after fixes |
+
+20 `index` / `meta` utility pages are exempt from several frontmatter rules (long descriptions, hub wikilink openers, contractions).
+
+### Fixes applied (PKM Ahrens stack)
+
+| Note | Issue | Fix |
+|------|-------|-----|
+| `getting-things-done.md` | Dict opener on `key_concept` line 1; unsorted `relationships` | Claim: *"Open loops belong on paper, not rehearsing in my head at 2am."*; sorted rels |
+| `literature-notes.md` | Dict opener; near-duplicate `shareable_thought[3]`; unlinked "Permanent Notes" | Claim-first line 1; fourth angle from atomic promotion; `[[Evergreen Notes]]` in rel reason |
+| `building-a-second-brain.md` | `shareable_thought` lines 1/3 and 2/4 were near-duplicates | Four distinct angles, all echoed from `key_concept` |
+| `evergreen-notes.md` | `shareable_thought` items 0 and 1 restated the same line | Replaced duplicate with revision angle from `key_concept` |
+
+`take-smart-notes.md`, `capture.md`, and `evergreen-vs-fleeting-notes.md` already match the anchor shape in the skill — claim-first line 1, levels 1–5, six cards, wired `relationships`.
+
+### Qualitative backlog (not blocking lint)
+
+**`shareable_thought` near-duplicates** — 17 pairs across the garden with >65% word overlap (often first-person vs third-person restatements). Worst:
+
+- `control-the-rhythm.md`, `sustainable-performance.md`, `linking-by-meaning.md`, `integrity.md`, `ship-it.md`, `forgiveness.md`, `digital-garden.md`, `mind-mapping.md`
+
+Pattern: line 0 is third-person definition, line 2 is the same thought with "I". Garden-voice wants four *different angles*, not POV swaps.
+
+**Index hubs** — `eternal-principles.md`, `systems-for-growth.md`, `transformation-principles.md` use contractions in frontmatter; `jesus-prayers.md` / `jesus-rhythms.md` open `key_concept` with wikilinks. Both are normal for `note_kind: index` pages, not content atoms.
+
+**Meta tools** — `backlinks.md`, `flashcards.md`, `issues.md`, `review.md` have long utility descriptions (>20 words). Expected for tool pages.
+
+### PKM lane vs updated skill
+
+The Ahrens additions in the skill are reflected in the stack:
+
+- Book anchor on `take-smart-notes.md` with levels 1–5
+- Three-bucket split wired through `literature-notes`, `evergreen-vs-fleeting-notes`, `evergreen-notes`
+- `[[Take Smart Notes]]` relationships on GTD, BASB, and the fleeting/evergreen pair
+- `[[Permanent Notes]]` alias consolidated to `evergreen-notes` (no broken targets)
+
+Reference notes (`capture.md`, `rollback-principle.md`, `abide-in-me.md`) still set the bar for claim-first `key_concept`, two-scene `examples`, and four-angle `shareable_thought`.
+
+### Recommendation
+
+Garden is **lint-clean and link-clean**. The remaining work is qualitative: a targeted pass on the 17 `shareable_thought` overlap pairs (roughly one afternoon, ~15 notes). I would not re-voice all 276 content notes — automated gates plus the PKM stack fixes cover what the updated skill adds structurally.
+
+Want me to batch-fix the 17 `shareable_thought` overlap notes next?
+
+## Session close
+- Fixed: PKM anchor voice (GTD, literature, BASB, evergreen) plus relationship sort and Permanent Notes link — `pnpm garden:health` passes
+- Encode: none
+- Open: 17 `shareable_thought` near-duplicate pairs queued for optional second pass

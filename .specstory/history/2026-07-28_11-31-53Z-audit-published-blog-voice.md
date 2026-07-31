@@ -182,3 +182,605 @@ _**Agent (cursor-grok-4.5-high-fast)**_
 <summary>Tool use: **update_current_step**</summary>
 An unknown error occurred
 </details></tool-use>
+
+_**Agent (cursor-grok-4.5-high-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "{google-over-apple-ecosystem,why-run-your-own-website,why-i-stopped-playing-marvel-snap,miracle-isaiah-david,streamlining-games-and-sports,facebook-favorites-feed,sustainable-online-publishing,dnpap-song-resources,drupal-to-wordpress,consistent-ai-output-wordpress-builds,getting-started-with-rss-feeds,static-site-vs-cms,why-i-focused-on-open-source,why-keep-desktop-laptop,what-i-look-for-in-wireless-earphones,mouse-wheel-click,how-i-built-jorap-notes,hugoplate-theme-review,one-page-zine,why-i-love-modern-board-games,hanamikoji-duopoly-retheme,worship-pads-solo-guitar,alex-eala-pro-career-tracker,extension-cord,instant-pot-arroz-caldo,instant-pot-chicken-adobo,set-it-forget-it-arroz-caldo}.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "^draft:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "^draft:",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/extension-cord.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/why-i-stopped-playing-marvel-snap.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/dnpap-song-resources.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/getting-started-with-rss-feeds.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/how-i-built-jorap-notes.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/why-keep-desktop-laptop.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/instant-pot-arroz-caldo.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/streamlining-games-and-sports.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/why-run-your-own-website.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/facebook-favorites-feed.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/static-site-vs-cms.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/why-i-focused-on-open-source.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/worship-pads-solo-guitar.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/sustainable-online-publishing.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/hugoplate-theme-review.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/drupal-to-wordpress.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/mouse-wheel-click.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/alex-eala-pro-career-tracker.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/hanamikoji-duopoly-retheme.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/consistent-ai-output-wordpress-builds.md"
+    }
+  ],
+  "totalFiles": 27,
+  "totalMatches": 27
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (cursor-grok-4.5-high-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": true,
+  "glob": "{google-over-apple-ecosystem,why-run-your-own-website,why-i-stopped-playing-marvel-snap,miracle-isaiah-david,streamlining-games-and-sports,facebook-favorites-feed,sustainable-online-publishing,dnpap-song-resources,drupal-to-wordpress,consistent-ai-output-wordpress-builds,getting-started-with-rss-feeds,static-site-vs-cms,why-i-focused-on-open-source,why-keep-desktop-laptop,what-i-look-for-in-wireless-earphones,mouse-wheel-click,how-i-built-jorap-notes,hugoplate-theme-review,one-page-zine,why-i-love-modern-board-games,hanamikoji-duopoly-retheme,worship-pads-solo-guitar,alex-eala-pro-career-tracker,extension-cord,instant-pot-arroz-caldo,instant-pot-chicken-adobo,set-it-forget-it-arroz-caldo}.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "(—|\\$|₱|peso|hope this helps|image-template\\.jpg|In today's|When it comes to|Bottom line)"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "(—|\\$|₱|peso|hope this helps|image-template\\.jpg|In today's|When it comes to|Bottom line)",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (cursor-grok-4.5-high-fast)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: wc -w content/english/blog/{google-over-apple-ecosystem,why-run-your-own-website,why-i-stopped-playing-marvel-snap,miracle-isaiah-david,streamlining-games-and-sports,facebook-favorites-feed,sustainable-online-publishing,dnpap-song-resources,drupal-to-wordpress,consistent-ai-output-wordpress-builds,getting-started-with-rss-feeds,static-site-vs-cms,why-i-focused-on-open-source,why-keep-desktop-laptop,what-i-look-for-in-wireless-earphones,mouse-wheel-click,how-i-built-jorap-notes,hugoplate-theme-review,one-page-zine,why-i-love-modern-board-games,hanamikoji-duopoly-retheme,worship-pads-solo-guitar,alex-eala-pro-career-tracker,extension-cord,instant-pot-arroz-caldo,instant-pot-chicken-adobo,set-it-forget-it-arroz-caldo}.md 2&gt;/dev/null; ls content/english/blog/instant-pot-*.md 2&gt;/dev/null</summary>
+```bash
+wc -w content/english/blog/{google-over-apple-ecosystem,why-run-your-own-website,why-i-stopped-playing-marvel-snap,miracle-isaiah-david,streamlining-games-and-sports,facebook-favorites-feed,sustainable-online-publishing,dnpap-song-resources,drupal-to-wordpress,consistent-ai-output-wordpress-builds,getting-started-with-rss-feeds,static-site-vs-cms,why-i-focused-on-open-source,why-keep-desktop-laptop,what-i-look-for-in-wireless-earphones,mouse-wheel-click,how-i-built-jorap-notes,hugoplate-theme-review,one-page-zine,why-i-love-modern-board-games,hanamikoji-duopoly-retheme,worship-pads-solo-guitar,alex-eala-pro-career-tracker,extension-cord,instant-pot-arroz-caldo,instant-pot-chicken-adobo,set-it-forget-it-arroz-caldo}.md 2>/dev/null; ls content/english/blog/instant-pot-*.md 2>/dev/null
+```
+
+```
+  2830 content/english/blog/google-over-apple-ecosystem.md
+  1227 content/english/blog/why-run-your-own-website.md
+  1284 content/english/blog/why-i-stopped-playing-marvel-snap.md
+  1373 content/english/blog/miracle-isaiah-david.md
+  2253 content/english/blog/streamlining-games-and-sports.md
+   944 content/english/blog/facebook-favorites-feed.md
+   764 content/english/blog/sustainable-online-publishing.md
+   371 content/english/blog/dnpap-song-resources.md
+  1087 content/english/blog/drupal-to-wordpress.md
+  1580 content/english/blog/consistent-ai-output-wordpress-builds.md
+  1199 content/english/blog/getting-started-with-rss-feeds.md
+  1471 content/english/blog/static-site-vs-cms.md
+  1538 content/english/blog/why-i-focused-on-open-source.md
+  1068 content/english/blog/why-keep-desktop-laptop.md
+  1348 content/english/blog/what-i-look-for-in-wireless-earphones.md
+  1010 content/english/blog/mouse-wheel-click.md
+  1821 content/english/blog/how-i-built-jorap-notes.md
+  2826 content/english/blog/hugoplate-theme-review.md
+  1338 content/english/blog/one-page-zine.md
+  2234 content/english/blog/why-i-love-modern-board-games.md
+  2384 content/english/blog/hanamikoji-duopoly-retheme.md
+  1281 content/english/blog/worship-pads-solo-guitar.md
+  3062 content/english/blog/alex-eala-pro-career-tracker.md
+   733 content/english/blog/extension-cord.md
+  1221 content/english/blog/instant-pot-arroz-caldo.md
+   980 content/english/blog/instant-pot-chicken-adobo.md
+   941 content/english/blog/set-it-forget-it-arroz-caldo.md
+ 40168 total
+content/english/blog/instant-pot-arroz-caldo.md
+content/english/blog/instant-pot-chicken-adobo.md
+
+```
+</details></tool-use>
+
+_**Agent (cursor-grok-4.5-high-fast)**_
+
+<think><details><summary>Thought Process</summary>
+The draft post `streamlining-games-and-sports.md` was skipped.
+
+Scanning the remaining 26 published posts for voice issues. Initial grep checks found no em dashes, currency, or image-template markers. Now reviewing openings, H2s, and closings in batches.
+</details></think>
+
+_**Agent (cursor-grok-4.5-high-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="update_current_step"><details>
+<summary>Tool use: **update_current_step**</summary>
+An unknown error occurred
+</details></tool-use>
+
+_**Agent (cursor-grok-4.5-high-fast)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com/content/english/blog &amp;&amp; for f in google-over-apple-ecosystem.md why-run-your-own-website.md why-i-stopped-playing-marvel-snap.md miracle-isaiah-david.md facebook-favorites-feed.md sustainable-online-publishing.md dnpap-song-resources.md drupal-to-wordpress.md consistent-ai-output-wordpress-builds.md getting-started-with-rss-feeds.md static-site-vs-cms.md why-i-focused-on-open-source.md why-keep-desktop-laptop.md what-i-look-for-in-wireless-earphones.md mouse-wheel-click.md how-i-built-jorap-notes.md hugoplate-theme-review.md one-page-zine.md why-i-love-modern-board-games.md hanamikoji-duopoly-retheme.md worship-pads-solo-guitar.md alex-eala-pro-career-tracker.md extension-cord.md instant-pot-arroz-caldo.md instant-pot-chicken-adobo.md set-it-forget-it-arroz-caldo.md; do
+  echo &#34;===== $f =====&#34;
+  # frontmatter image
+  rg -n &#39;^image:|^draft:|^title:&#39; &#34;$f&#34; | head -5
+  # first ~25 lines after frontmatter end
+  awk &#39;BEGIN{n=0} /^---$/{n++; next} n&gt;=2{print; c++; if(c&gt;=35) exit}&#39; &#34;$f&#34;
+  echo &#34;--- H2s ---&#34;
+  rg -n &#39;^## &#39; &#34;$f&#34;
+  echo &#34;--- LAST 15 ---&#34;
+  tail -n 15 &#34;$f&#34;
+  echo &#34;&#34;
+done</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com/content/english/blog && for f in google-over-apple-ecosystem.md why-run-your-own-website.md why-i-stopped-playing-marvel-snap.md miracle-isaiah-david.md facebook-favorites-feed.md sustainable-online-publishing.md dnpap-song-resources.md drupal-to-wordpress.md consistent-ai-output-wordpress-builds.md getting-started-with-rss-feeds.md static-site-vs-cms.md why-i-focused-on-open-source.md why-keep-desktop-laptop.md what-i-look-for-in-wireless-earphones.md mouse-wheel-click.md how-i-built-jorap-notes.md hugoplate-theme-review.md one-page-zine.md why-i-love-modern-board-games.md hanamikoji-duopoly-retheme.md worship-pads-solo-guitar.md alex-eala-pro-career-tracker.md extension-cord.md instant-pot-arroz-caldo.md instant-pot-chicken-adobo.md set-it-forget-it-arroz-caldo.md; do
+  echo "===== $f ====="
+  # frontmatter image
+  rg -n '^image:|^draft:|^title:' "$f" | head -5
+  # first ~25 lines after frontmatter end
+  awk 'BEGIN{n=0} /^---$/{n++; next} n>=2{print; c++; if(c>=35) exit}' "$f"
+  echo "--- H2s ---"
+  rg -n '^## ' "$f"
+  echo "--- LAST 15 ---"
+  tail -n 15 "$f"
+  echo ""
+done
+```
+
+```
+===== google-over-apple-ecosystem.md =====
+2:title: "Why I Prefer the Google Ecosystem Over Apple"
+7:image: "/images/google-vs-apple.jpg"
+16:draft: false
+I get the pitch. Apple hardware feels polished. The **whole ecosystem** - iMessage, iCloud, AirDrop, the App Store, the watch on your wrist - talks to itself in ways that look effortless on a demo table. I own some of that hardware. I still don't live inside the Apple ecosystem. I get why people do.
+
+I'm still on the Google side of the fence. Not because I hate Apple. I run a **MacBook Pro M4** for paid work and an **11th-gen iPad** for reading and couch browsing. Both are excellent machines. I still sign into **Gmail, Chrome, Drive, and Meet** on them like everywhere else. Because **Google's ecosystem matches how I actually live** - freelance work on a laptop, family life in the Philippines, a TV that needed cheap smarts, an Android phone in my pocket, and a backup handset buried in my bag where it's not easy to grab by accident.
+
+This isn't a phone-versus-phone argument. Apple sells the accounts, storage, messaging, calls, browser, app store, and TV layer as one polished package. Google sells the services first and lets the hardware underneath be whatever you already own. That difference is the whole post: **Google is the glue across my Mac, my iPad, my Android phones, and the Linux boxes I actually build on**, and no single vendor has to approve the combination.
+
+
+## I mix brands on purpose
+
+Apple's best trick is the closed loop: iPhone talks to Mac talks to iPad talks to Watch, all glued together by **iCloud, iMessage, FaceTime, AirDrop, Find My, Apple Pay, and the App Store**. If you buy the whole set, a lot of friction disappears.
+
+I don't run the whole set. I run a **MacBook Pro M4 for paid work**, an **11th-gen iPad for couch reading**, an **Android phone in my pocket**, and whatever box is plugged into the HDMI port this year. Google built its ecosystem to sit on top of that mess: **one Google account** ty
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (cursor-grok-4.5-high-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Reading the output file to begin analyzing each post.
+</details></think>
+
+_**Agent (cursor-grok-4.5-high-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/c6763723-f019-45af-bfe6-70bd322b2b40.txt</summary>
+
+</details></tool-use>
+
+_**Agent (cursor-grok-4.5-high-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Reading the remaining posts to complete the audit.
+</details></think>
+
+_**Agent (cursor-grok-4.5-high-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/c6763723-f019-45af-bfe6-70bd322b2b40.txt</summary>
+
+</details></tool-use>
+
+_**Agent (cursor-grok-4.5-high-fast)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; for f in content/english/blog/{google-over-apple-ecosystem,why-run-your-own-website,why-i-stopped-playing-marvel-snap,miracle-isaiah-david,facebook-favorites-feed,sustainable-online-publishing,dnpap-song-resources,drupal-to-wordpress,consistent-ai-output-wordpress-builds,getting-started-with-rss-feeds,static-site-vs-cms,why-i-focused-on-open-source,why-keep-desktop-laptop,what-i-look-for-in-wireless-earphones,mouse-wheel-click,how-i-built-jorap-notes,hugoplate-theme-review,one-page-zine,why-i-love-modern-board-games,hanamikoji-duopoly-retheme,worship-pads-solo-guitar,alex-eala-pro-career-tracker,extension-cord,instant-pot-arroz-caldo,instant-pot-chicken-adobo,set-it-forget-it-arroz-caldo}.md; do
+  # first 400 chars of body (after frontmatter) for I/my check
+  body=$(awk &#39;BEGIN{n=0} /^---$/{n++; next} n&gt;=2{print}&#39; &#34;$f&#34; | head -c 400)
+  has_i=$(echo &#34;$body&#34; | rg -c &#39;\b(I|I&#39;\&#39;&#39;ve|I&#39;\&#39;&#39;m|my|My)\b&#39; || true)
+  em=$(rg -c &#39;—&#39; &#34;$f&#34; || true)
+  dollars=$(rg -c &#39;\$[0-9]|₱|[0-9]+\s*pesos?&#39; &#34;$f&#34; -i || true)
+  template=$(rg -c &#39;image-template&#39; &#34;$f&#34; || true)
+  hope=$(rg -c -i &#39;hope this helps|let me know in the comments&#39; &#34;$f&#34; || true)
+  echo &#34;$(basename $f)|I:$has_i|em:$em|\$:$dollars|tmpl:$template|hope:$hope&#34;
+done</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && for f in content/english/blog/{google-over-apple-ecosystem,why-run-your-own-website,why-i-stopped-playing-marvel-snap,miracle-isaiah-david,facebook-favorites-feed,sustainable-online-publishing,dnpap-song-resources,drupal-to-wordpress,consistent-ai-output-wordpress-builds,getting-started-with-rss-feeds,static-site-vs-cms,why-i-focused-on-open-source,why-keep-desktop-laptop,what-i-look-for-in-wireless-earphones,mouse-wheel-click,how-i-built-jorap-notes,hugoplate-theme-review,one-page-zine,why-i-love-modern-board-games,hanamikoji-duopoly-retheme,worship-pads-solo-guitar,alex-eala-pro-career-tracker,extension-cord,instant-pot-arroz-caldo,instant-pot-chicken-adobo,set-it-forget-it-arroz-caldo}.md; do
+  # first 400 chars of body (after frontmatter) for I/my check
+  body=$(awk 'BEGIN{n=0} /^---$/{n++; next} n>=2{print}' "$f" | head -c 400)
+  has_i=$(echo "$body" | rg -c '\b(I|I'\''ve|I'\''m|my|My)\b' || true)
+  em=$(rg -c '—' "$f" || true)
+  dollars=$(rg -c '\$[0-9]|₱|[0-9]+\s*pesos?' "$f" -i || true)
+  template=$(rg -c 'image-template' "$f" || true)
+  hope=$(rg -c -i 'hope this helps|let me know in the comments' "$f" || true)
+  echo "$(basename $f)|I:$has_i|em:$em|\$:$dollars|tmpl:$template|hope:$hope"
+done
+```
+
+```
+google-over-apple-ecosystem.md|I:2|em:|$:|tmpl:|hope:
+why-run-your-own-website.md|I:2|em:|$:|tmpl:|hope:
+why-i-stopped-playing-marvel-snap.md|I:3|em:|$:|tmpl:|hope:
+miracle-isaiah-david.md|I:1|em:|$:|tmpl:|hope:
+facebook-favorites-feed.md|I:3|em:|$:|tmpl:|hope:
+sustainable-online-publishing.md|I:1|em:|$:|tmpl:|hope:
+dnpap-song-resources.md|I:1|em:|$:|tmpl:|hope:
+awk: close failed on file "/dev/stdout" (Broken pipe)
+drupal-to-wordpress.md|I:1|em:|$:|tmpl:|hope:
+consistent-ai-output-wordpress-builds.md|I:1|em:|$:|tmpl:|hope:
+getting-started-with-rss-feeds.md|I:2|em:|$:|tmpl:|hope:
+static-site-vs-cms.md|I:1|em:|$:|tmpl:|hope:
+why-i-focused-on-open-source.md|I:1|em:|$:|tmpl:|hope:
+why-keep-desktop-laptop.md|I:2|em:|$:|tmpl:|hope:
+what-i-look-for-in-wireless-earphones.md|I:2|em:|$:|tmpl:|hope:
+mouse-wheel-click.md|I:|em:|$:|tmpl:|hope:
+how-i-built-jorap-notes.md|I:2|em:|$:|tmpl:|hope:
+awk: write failure (Broken pipe)
+awk: close failed on file "/dev/stdout" (Broken pipe)
+hugoplate-theme-review.md|I:1|em:|$:|tmpl:|hope:
+one-page-zine.md|I:2|em:|$:|tmpl:|hope:
+why-i-love-modern-board-games.md|I:2|em:|$:|tmpl:|hope:
+hanamikoji-duopoly-retheme.md|I:2|em:|$:|tmpl:|hope:
+worship-pads-solo-guitar.md|I:1|em:|$:|tmpl:|hope:
+awk: write failure (Broken pipe)
+awk: close failed on file "/dev/stdout" (Broken pipe)
+alex-eala-pro-career-tracker.md|I:2|em:|$:|tmpl:|hope:
+extension-cord.md|I:1|em:|$:|tmpl:|hope:
+instant-pot-arroz-caldo.md|I:2|em:|$:|tmpl:|hope:
+instant-pot-chicken-adobo.md|I:3|em:|$:|tmpl:|hope:
+set-it-forget-it-arroz-caldo.md|I:2|em:|$:|tmpl:|hope:
+
+```
+</details></tool-use>
+
+_**Agent (cursor-grok-4.5-high-fast)**_
+
+<think><details><summary>Thought Process</summary>
+mouse-wheel-click contains no first-person pronouns in its opening 400 characters.
+
+mouse-wheel-click opens with second-person ("If you still open links..."), which may rate as SOFT or FAIL depending on strictness. dnpap-song-resources is only 371 words and feels like a resource page with embeds. alex-eala uses a tracker format that may differ from standard prose.
+
+how-i-built may contain currency references. extension-cord-recipes, board-games, worship, and hanamikoji are also being reviewed. mouse-wheel-click likely rates as SOFT at worst. The remaining posts and borderline cases are now being examined.
+</details></think>
+
+_**Agent (cursor-grok-4.5-high-fast)**_
+
+Checking borderline posts more closely—resource pages, the tracker, recipes, and a few that may read outline-heavy.
+
+_**Agent (cursor-grok-4.5-high-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/c6763723-f019-45af-bfe6-70bd322b2b40.txt</summary>
+
+</details></tool-use>
+
+_**Agent (cursor-grok-4.5-high-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/how-i-built-jorap-notes.md",
+  "pattern": "(\\$[0-9]|₱|peso|dollar|costs? me|What it costs)"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/how-i-built-jorap-notes.md",
+  "pattern": "(\\$[0-9]|₱|peso|dollar|costs? me|What it costs)",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/how-i-built-jorap-notes.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (cursor-grok-4.5-high-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md",
+  "pattern": "^## |^### |I |my |I've"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md",
+  "pattern": "^## |^### |I |my |I've",
+  "topFiles": [
+    {
+      "matchCount": 40,
+      "uri": "content/english/blog/alex-eala-pro-career-tracker.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 40
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (cursor-grok-4.5-high-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/dnpap-song-resources.md</summary>
+
+</details></tool-use>
+
+_**Agent (cursor-grok-4.5-high-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/extension-cord.md</summary>
+
+</details></tool-use>
+
+_**Agent (cursor-grok-4.5-high-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Checking additional borderline cases.
+
+dnpap-song-resources is SOFT. It reads like a resource dump with embedded links rather than prose. The personal framing is good, but the H2 sections lack lived friction and feel like dictionary entries.
+
+alex-eala is SOFT. Its tracker format and manual-style headings are intentional. Voice appears only in intros. Data dumps weave in personal asides.
+
+mouse-wheel-click is PASS. It is a tips piece in second-person. Lived friction appears later. Now checking how-i-built.
+</details></think>
+
+_**Agent (cursor-grok-4.5-high-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/how-i-built-jorap-notes.md</summary>
+
+</details></tool-use>
+
+_**Agent (cursor-grok-4.5-high-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "{google-over-apple-ecosystem,why-run-your-own-website,why-i-stopped-playing-marvel-snap,miracle-isaiah-david,facebook-favorites-feed,sustainable-online-publishing,dnpap-song-resources,drupal-to-wordpress,consistent-ai-output-wordpress-builds,getting-started-with-rss-feeds,static-site-vs-cms,why-i-focused-on-open-source,why-keep-desktop-laptop,what-i-look-for-in-wireless-earphones,mouse-wheel-click,how-i-built-jorap-notes,hugoplate-theme-review,one-page-zine,why-i-love-modern-board-games,hanamikoji-duopoly-retheme,worship-pads-solo-guitar,alex-eala-pro-career-tracker,extension-cord,instant-pot-arroz-caldo,instant-pot-chicken-adobo,set-it-forget-it-arroz-caldo}.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "(—|\\$[0-9]|₱|pesos?|hope this helps|Let me know|In today's|When it comes to|image-template|users should|it is recommended)"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "(—|\\$[0-9]|₱|pesos?|hope this helps|Let me know|In today's|When it comes to|image-template|users should|it is recommended)",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (cursor-grok-4.5-high-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/miracle-isaiah-david.md</summary>
+
+</details></tool-use>
+
+_**Agent (cursor-grok-4.5-high-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/google-over-apple-ecosystem.md</summary>
+
+</details></tool-use>
+
+_**Agent (cursor-grok-4.5-high-fast)**_
+
+<think><details><summary>Thought Process</summary>
+miracle-isaiah-david.md contains a bullet that is essentially a link, followed by prose. This looks like a structural issue.
+
+miracle-isaiah-david.md passes. It is deeply personal.
+
+dnpap-song-...te.jpg hero passes as SOFT. It is a sparse resource page with thin H2s.
+
+alex-eala.md passes as SOFT. It is intentionally a data tracker with personal glue. It opens with lived I.
+
+No post fails. mouse-wheel-click.md passes because it is a tips category. dnpap is SOFT despite outline-like structure; it contains personal scenes.
+
+hanamikoji passes. Its mapping tables suit the topic.
+
+worship passes. The dictionary-style H2 is acceptable because the body is experiential.
+
+sustainable-online-publishing passes.
+
+why-i-focused starts with an H2 immediately after frontmatter, skipping the opener paragraph. This is unusual but the content remains personal.
+
+instant-pot-chicken-adobo passes. The skill allows recipe variants with personal intros.
+
+All twelve published posts pass. why-i-focused-on-open-source, why-keep-desktop-laptop, drupal-to-wordpress, consistent-ai-output-wordpress-builds, getting-started-with-rss-feeds, and static-site-vs-cms are among them.
+
+The full set of twelve published posts is now evaluated. All twelve pass. No post fails.
+
+The final tally is 26 published posts. 24 PASS. 2 SOFT. 0 FAIL. The draft post was skipped.
+
+dnpap is 371 words. It is not under 80. It is SOFT. It is a bookmark page. It lacks strong engagement.
+
+one-page-zine uses formal contractions in spots. It is still PASS.
+
+delivering the compact table now.
+</details></think>
+
+_**Agent (cursor-grok-4.5-high-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="update_current_step"><details>
+<summary>Tool use: **update_current_step**</summary>
+An unknown error occurred
+</details></tool-use>
+
+_**Agent (cursor-grok-4.5-high-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Compiling the audit results into the requested compact table and summary.
+
+The streamlining post was skipped because it is marked as a draft.
+</details></think>
+
+_**Agent (cursor-grok-4.5-high-fast)**_
+
+Skipped **streamlining-games-and-sports.md** (`draft: true`). Audited **26** published posts.
+
+| file | verdict | top issue (one line) |
+|------|---------|----------------------|
+| google-over-apple-ecosystem.md | PASS | — |
+| why-run-your-own-website.md | PASS | — |
+| why-i-stopped-playing-marvel-snap.md | PASS | — |
+| miracle-isaiah-david.md | PASS | — |
+| facebook-favorites-feed.md | PASS | — |
+| sustainable-online-publishing.md | PASS | — |
+| dnpap-song-resources.md | SOFT | Resource/link page: personal open, then embeds + table more than prose |
+| drupal-to-wordpress.md | PASS | — |
+| consistent-ai-output-wordpress-builds.md | PASS | — |
+| getting-started-with-rss-feeds.md | PASS | — |
+| static-site-vs-cms.md | PASS | — |
+| why-i-focused-on-open-source.md | PASS | — |
+| why-keep-desktop-laptop.md | PASS | — |
+| what-i-look-for-in-wireless-earphones.md | PASS | — |
+| mouse-wheel-click.md | PASS | — |
+| how-i-built-jorap-notes.md | PASS | — |
+| hugoplate-theme-review.md | PASS | — |
+| one-page-zine.md | PASS | — |
+| why-i-love-modern-board-games.md | PASS | — |
+| hanamikoji-duopoly-retheme.md | PASS | — |
+| worship-pads-solo-guitar.md | PASS | — |
+| alex-eala-pro-career-tracker.md | SOFT | Tracker/scrapbook shape: personal glue in intros, body is data tables |
+| extension-cord.md | PASS | — |
+| instant-pot-arroz-caldo.md | PASS | — |
+| instant-pot-chicken-adobo.md | PASS | — |
+| set-it-forget-it-arroz-caldo.md | PASS | — |
+
+**Summary:** **24 PASS / 2 SOFT / 0 FAIL** among published posts.
+
+No hard blockers turned up (no em dashes, currency amounts, `image-template.jpg`, engagement bait, or sub-80-word bodies). Reference posts (earphones, mouse-wheel, Marvel Snap, Isaiah, how-I-built) clearly PASS. The two SOFTs are format exceptions, not generic AI voice: DNPAP is a bookmark page; Alex Eala is an intentional H2-locked tracker.

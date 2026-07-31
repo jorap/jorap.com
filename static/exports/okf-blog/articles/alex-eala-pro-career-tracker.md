@@ -4,7 +4,7 @@ title: Alex Eala Pro Career Tracker
 description: "My running scrapbook of Alex Eala's WTA career - rankings, matches I'll never forget, and matchups I'm watching for next."
 resource: "https://www.jorap.com/blog/alex-eala-pro-career-tracker/"
 tags: ["Tennis", "Alex Eala", "WTA", "Grand Slam", "Philippines", "Career Tracker", "Pro Tennis", "Sports Fan"]
-generated: { by: process:export-okf-blog-bundle, at: 2026-07-28T21:54:00Z }
+generated: { by: process:export-okf-blog-bundle, at: 2026-07-29T22:58:00Z }
 ---
 I've been following Alex Eala's career since her run at the **2025 Miami Open** - watching a Filipina rise through the WTA ranks in real time is something I never thought I'd get to do in my lifetime. This page is my running scrapbook for it. I update it when something happens worth pinning, not on a schedule.
 
@@ -15,7 +15,7 @@ I've been following Alex Eala's career since her run at the **2025 Miami Open** 
 The numbers I refresh first when something breaks on Twitter at 2am - everything else on this page is detail.
 
 - **Career highs:** No. 28 singles · No. 88 doubles
-- **WTA titles:** 2 (Guadalajara 125, Birmingham 125)
+- **WTA titles:** 2 (2025 Guadalajara 125, 2026 Birmingham 125)
 - **Best Slam (singles):** Wimbledon 2026 - Round of 16
 - **Notable firsts:** First Filipina in a Grand Slam main draw; first Filipina to win a Slam main-draw match (US Open 2025); first Filipina to reach a Grand Slam fourth round in the Open era (Wimbledon 2026); first Filipina in a WTA 1000 semifinal (Miami 2025); first Filipina in a WTA 500 semifinal (Berlin 2026); first Filipina in the WTA top 100
 
@@ -46,15 +46,107 @@ Rankings lag reality by a week sometimes - I still screenshot the career-high mo
 
 - **Career High:** No. 88
 
+
 ---
 
-## Best Performances in WTA Tournaments
+## Grand Slam Main Draw Results
 
-Slams get their own section below. This is the week-to-week grind - the 125s and 500s where the ranking actually moves.
+Wimbledon 2026 is the run I still can't quite believe - Swiatek on Centre Court, then Paolini ending it in three.
 
 ### Singles
 
 - 2026
+
+  - **Wimbledon**
+    - First Filipina to reach the second week (Round of 16) at a Grand Slam
+    - First Filipina to reach the fourth round of a major in the Open era
+    - Upset defending champion Iga Swiatek on Centre Court
+    - 4th Round, l. Paolini 4-6, 6-4, 3-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/wimbledon/scores/LS72320404) | [tennis.com](https://www.tennis.com/tournaments/wimbledon/matches/j-paolini-vs-a-eala-2026-07-06)
+    - 3rd Round, d. Swiatek 7-6(9), 6-2 | [wtatennis.com](https://www.wtatennis.com/tournaments/wimbledon/scores/LS72320392) | [tennis.com](https://www.tennis.com/tournaments/wimbledon/matches/a-eala-vs-i-swiatek-2026-07-04)
+    - 2nd Round, d. Joint 3-6, 6-2, 6-0 | [wtatennis.com](https://www.wtatennis.com/tournaments/wimbledon/scores/LS72320418) | [tennis.com](https://www.tennis.com/tournaments/wimbledon/matches/a-eala-vs-m-joint-2026-07-02)
+    - 1st Round, d. Zarazua 6-1, 6-2 | [wtatennis.com](https://www.wtatennis.com/tournaments/wimbledon/scores/LS72362772) | [tennis.com](https://www.tennis.com/tournaments/wimbledon/matches/a-eala-vs-r-zarazua-2026-06-30)
+
+<div class="youtube-video" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
+  <iframe src="https://www.youtube.com/embed/bgSs0pKIAGI" title="YouTube Video" loading="lazy" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"></iframe>
+</div>
+
+<div class="youtube-video" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
+  <iframe src="https://www.youtube.com/embed/URp-0VSanbQ" title="YouTube Video" loading="lazy" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"></iframe>
+</div>
+
+  - **French Open**
+    - 1st Round, l. Jovic 4-6, 2-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/roland-garros/scores/LS71642254) | [tennis.com](https://www.tennis.com/tournaments/roland-garros/matches/i-jovic-vs-a-eala-2026-05-26) | [rolandgarros.com](https://www.rolandgarros.com/en-us/matches/2026/SD068)
+
+  - **Australian Open**
+    - 1st Round, l. Parks | [wtatennis.com](https://www.wtatennis.com/tournaments/australian-open/scores/LS67816724) | [tennis.com](https://www.tennis.com/tournaments/australian-open/matches/a-parks-vs-a-eala-2026-01-20) | [ausopen.com](https://ausopen.com/match/2026-alycia-parks-vs-alexandra-eala-ws122)
+
+<div class="youtube-video" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
+  <iframe src="https://www.youtube.com/embed/HhdkG1AwDhU" title="YouTube Video" loading="lazy" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"></iframe>
+</div>
+
+<div class="youtube-video" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
+  <iframe src="https://www.youtube.com/embed/uoJ71JHrqjc" title="YouTube Video" loading="lazy" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"></iframe>
+</div>
+
+- 2025
+
+  - **US Open**
+    - 2nd Round, l. Bucsa 4-6, 3-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/us-open/scores/LS63101293) | [tennis.com](https://www.tennis.com/tournaments/us-open/matches/c-bucsa-vs-a-eala-2025-08-27) | [usopen.org](https://www.usopen.org/en_US/scores/stats/2204.html)
+    - 1st Round, d. Tauson 6-3, 2-6, 7-6(11) | [wtatennis.com](https://www.wtatennis.com/tournaments/us-open/scores/LS63131469) | [tennis.com](https://www.tennis.com/tournaments/us-open/matches/c-tauson-vs-a-eala-2025-08-24) | [usopen.org](https://www.usopen.org/en_US/scores/stats/2108.html)
+
+<div class="youtube-video" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
+  <iframe src="https://www.youtube.com/embed/vB6HVBHjpAg" title="YouTube Video" loading="lazy" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"></iframe>
+</div>
+
+<div class="youtube-video" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
+  <iframe src="https://www.youtube.com/embed/y9gEMIEvosM" title="YouTube Video" loading="lazy" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"></iframe>
+</div>
+
+  - **Wimbledon**
+    - 1st Round, l. Krejcikova 3-6, 6-2, 1-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/wimbledon/scores/LS61511608) | [tennis.com](https://www.tennis.com/tournaments/wimbledon/matches/b-krejcikova-vs-a-eala-2025-07-01)
+    - Played against the defending champion Krejcikova at the Centre Court
+
+  - **French Open**
+    - 1st Round, l. Arango 0-6, 6-2, 3-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/roland-garros/scores/LS60736223) | [tennis.com](https://www.tennis.com/tournaments/roland-garros/matches/e-arango-vs-a-eala-2025-05-25) | [rolandgarros.com](https://www.rolandgarros.com/en-us/matches/2025/SD078)
+    - First Filipina to compete in a Grand Slam main draw
+
+### Doubles
+
+- 2026
+
+  - **Wimbledon - with Nikola Bartunkova**
+    - 1st Round, l. Ostapenko/Kenin 6-3, 3-6, 1-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/wimbledon/scores/LD72362771)
+
+  - **Australian Open - with Ingrid Martins**
+    - 1st Round, l. Aoyama/Linette 6-7(3), 2-6, 3-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/australian-open/scores/LD67893812) | [tennis.com](https://www.tennis.com/tournaments/australian-open/matches/a-eala-ingrid-martins-vs-shuko-aoyama-magda-linette-2026-01-21) | [ausopen.com](https://ausopen.com/match/2026-alexandra-eala-ingrid-martins-vs-shuko-aoyama-magda-linette-wd126)
+
+- 2025
+
+  - **Wimbledon - with Eva Lys**
+    - 1st Round, l. Gleason/Martins 4-6, 2-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/wimbledon/scores/LD61641892) | [tennis.com](https://www.tennis.com/tournaments/wimbledon/matches/a-eala-e-lys-vs-q-gleason-i-martins-2025-07-03)
+
+<div class="youtube-video" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
+  <iframe src="https://www.youtube.com/embed/NqbMdbIUuFE" title="YouTube Video" loading="lazy" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"></iframe>
+</div>
+
+  - **French Open - with Renata Zarazua**
+    - 2nd Round, l. Danilovic/Potapova 1-6, 3-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/roland-garros/scores/LD60707893) | [tennis.com](https://www.tennis.com/tournaments/roland-garros/matches/a-eala-renata-zarazua-vs-olga-danilovic-anastasia-potapova-2025-05-29) | [rolandgarros.com](https://www.rolandgarros.com/en-us/matches/2025/DD024)
+    - 1st Round, d. Appleton/Cavalle-Reimers 7-5, 6-4 | [wtatennis.com](https://www.wtatennis.com/tournaments/roland-garros/scores/LD60813525) | [tennis.com](https://www.tennis.com/tournaments/roland-garros/matches/a-eala-renata-zarazua-vs-emily-appleton-yvonne-cavalle-reimers-2025-05-27) | [rolandgarros.com](https://www.rolandgarros.com/en-us/matches/2025/DD049)
+
+---
+
+## Best Performances in WTA Tournaments
+
+Slams are in the section above. This is the week-to-week grind where the ranking actually moves in preparation for the Grand Slams.
+
+### Singles
+
+- 2026
+
+  - **Washington (WTA 500, Hard)**
+    - Quarterfinals
+    - Round of 16, d. Fernandez 6-2, 7-6(1) | [wtatennis.com](https://www.wtatennis.com/tournaments/1045/washington-dc/2026/scores/LS014) | [tennis.com](https://www.tennis.com/tournaments/mubadala-dc-open/matches/l-fernandez-vs-a-eala-2026-07-29)
+    - Round of 32, d. Zheng 4-6, 6-4, 6-1 | [wtatennis.com](https://www.wtatennis.com/tournaments/1045/washington-dc/2026/scores/LS029) | [tennis.com](https://www.tennis.com/tournaments/mubadala-dc-open/matches/a-eala-vs-q-zheng-2026-07-28)
 
   - **Berlin (WTA 500, Grass)** 
     - Semifinals, l. Noskova 2-6, 4-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/2012/berlin/2026/scores/LS003) | [tennis.com](https://www.tennis.com/tournaments/vanda-pharmaceuticals-berlin-tennis-open/matches/l-noskova-vs-a-eala-2026-06-20)
@@ -128,6 +220,10 @@ Slams get their own section below. This is the week-to-week grind - the 125s and
 
 - 2025
 
+<div class="youtube-video" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
+  <iframe src="https://www.youtube.com/embed/VPVC0IF3HwE" title="YouTube Video" loading="lazy" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"></iframe>
+</div>
+
   - **Jingshan (WTA 125, Hard)**
     - Semifinals, l. Sun 6-3, 4-6, 2-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/1143/jingshan-125/2025/scores/LS002) | [tennis.com](https://www.tennis.com/tournaments/jingshan-tennis-open/matches/a-eala-vs-l-sun-2025-09-27)
     - Quarterfinals, d. Jia-Jing Lu 6-4, 6-1 | [wtatennis.com](https://www.wtatennis.com/tournaments/1143/jingshan-125/2025/scores/LS004) | [tennis.com](https://www.tennis.com/tournaments/jingshan-tennis-open/matches/a-eala-vs-j-lu-2025-09-26)
@@ -169,6 +265,10 @@ Slams get their own section below. This is the week-to-week grind - the 125s and
   <iframe src="https://www.youtube.com/embed/o2djKw4gKF4" title="YouTube Video" loading="lazy" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"></iframe>
 </div>
 
+<div class="youtube-video" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
+  <iframe src="https://www.youtube.com/embed/tZ9Jw4DIi3Q" title="YouTube Video" loading="lazy" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"></iframe>
+</div>
+
   - **Ilkley (WTA 125, Grass)**
     - Quarterfinals, l. Marino 6-1, 0-6, 6-7(4) | [wtatennis.com](https://www.wtatennis.com/tournaments/1127/ilkley-125/2025/scores/LS004) | [tennis.com](https://www.tennis.com/tournaments/lexus-ilkley-open/matches/a-eala-vs-r-marino-2025-06-13)
     - Round of 16, d. Ryser 6-1, 6-2 | [wtatennis.com](https://www.wtatennis.com/tournaments/1127/ilkley-125/2025/scores/LS008) | [tennis.com](https://www.tennis.com/tournaments/lexus-ilkley-open/matches/a-eala-vs-v-ryser-2025-06-11)
@@ -202,6 +302,10 @@ Slams get their own section below. This is the week-to-week grind - the 125s and
   - **Bad Homburg (WTA 500, Grass) - with Venus Williams**
     - Quarterfinals, l. Mihalikova/Nicholls 3-6, 2-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/2017/bad-homburg/2026/scores/LD007)
     - Round of 16, d. Harrison/Osborne 6-3, 6-4 | [wtatennis.com](https://www.wtatennis.com/tournaments/2017/bad-homburg/2026/scores/LD014)
+
+<div class="youtube-video" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
+  <iframe src="https://www.youtube.com/embed/KkIbFwdZFQ0" title="YouTube Video" loading="lazy" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"></iframe>
+</div>
 
   - **Abu Dhabi (WTA 500, Hard) - with Janice Tjen**
     - Semifinals, l. Mihalikova/Nicholls 4-6, 2-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/2088/abu-dhabi/2026/scores/LD003)
@@ -248,81 +352,6 @@ Slams get their own section below. This is the week-to-week grind - the 125s and
 
 ---
 
-## Grand Slam Main Draw Results
-
-Wimbledon 2026 is the run I still can't quite believe - Swiatek on Centre Court, then Paolini ending it in three.
-
-### Singles
-
-- 2026
-
-  - **Wimbledon**
-    - First Filipina to reach the second week (Round of 16) at a Grand Slam
-    - First Filipina to reach the fourth round of a major in the Open era
-    - Upset defending champion Iga Swiatek on Centre Court
-    - 4th Round, l. Paolini 4-6, 6-4, 3-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/wimbledon/scores/LS72320404) | [tennis.com](https://www.tennis.com/tournaments/wimbledon/matches/j-paolini-vs-a-eala-2026-07-06)
-    - 3rd Round, d. Swiatek 7-6(9), 6-2 | [wtatennis.com](https://www.wtatennis.com/tournaments/wimbledon/scores/LS72320392) | [tennis.com](https://www.tennis.com/tournaments/wimbledon/matches/a-eala-vs-i-swiatek-2026-07-04)
-    - 2nd Round, d. Joint 3-6, 6-2, 6-0 | [wtatennis.com](https://www.wtatennis.com/tournaments/wimbledon/scores/LS72320418) | [tennis.com](https://www.tennis.com/tournaments/wimbledon/matches/a-eala-vs-m-joint-2026-07-02)
-    - 1st Round, d. Zarazua 6-1, 6-2 | [wtatennis.com](https://www.wtatennis.com/tournaments/wimbledon/scores/LS72362772) | [tennis.com](https://www.tennis.com/tournaments/wimbledon/matches/a-eala-vs-r-zarazua-2026-06-30)
-
-<div class="youtube-video" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
-  <iframe src="https://www.youtube.com/embed/bgSs0pKIAGI" title="YouTube Video" loading="lazy" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"></iframe>
-</div>
-
-  - **French Open**
-    - 1st Round, l. Jovic 4-6, 2-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/roland-garros/scores/LS71642254) | [tennis.com](https://www.tennis.com/tournaments/roland-garros/matches/i-jovic-vs-a-eala-2026-05-26) | [rolandgarros.com](https://www.rolandgarros.com/en-us/matches/2026/SD068)
-
-  - **Australian Open**
-    - 1st Round, l. Parks | [wtatennis.com](https://www.wtatennis.com/tournaments/australian-open/scores/LS67816724) | [tennis.com](https://www.tennis.com/tournaments/australian-open/matches/a-parks-vs-a-eala-2026-01-20) | [ausopen.com](https://ausopen.com/match/2026-alycia-parks-vs-alexandra-eala-ws122)
-
-<div class="youtube-video" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
-  <iframe src="https://www.youtube.com/embed/HhdkG1AwDhU" title="YouTube Video" loading="lazy" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"></iframe>
-</div>
-
-
-- 2025
-
-  - **US Open**
-    - 2nd Round, l. Bucsa 4-6, 3-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/us-open/scores/LS63101293) | [tennis.com](https://www.tennis.com/tournaments/us-open/matches/c-bucsa-vs-a-eala-2025-08-27) | [usopen.org](https://www.usopen.org/en_US/scores/stats/2204.html)
-    - 1st Round, d. Tauson 6-3, 2-6, 7-6(11) | [wtatennis.com](https://www.wtatennis.com/tournaments/us-open/scores/LS63131469) | [tennis.com](https://www.tennis.com/tournaments/us-open/matches/c-tauson-vs-a-eala-2025-08-24) | [usopen.org](https://www.usopen.org/en_US/scores/stats/2108.html)
-
-<div class="youtube-video" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
-  <iframe src="https://www.youtube.com/embed/vB6HVBHjpAg" title="YouTube Video" loading="lazy" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"></iframe>
-</div>
-
-  - **Wimbledon**
-    - 1st Round, l. Krejcikova 3-6, 6-2, 1-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/wimbledon/scores/LS61511608) | [tennis.com](https://www.tennis.com/tournaments/wimbledon/matches/b-krejcikova-vs-a-eala-2025-07-01)
-    - Played against the defending champion Krejcikova at the Centre Court
-
-  - **French Open**
-    - 1st Round, l. Arango 0-6, 6-2, 3-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/roland-garros/scores/LS60736223) | [tennis.com](https://www.tennis.com/tournaments/roland-garros/matches/e-arango-vs-a-eala-2025-05-25) | [rolandgarros.com](https://www.rolandgarros.com/en-us/matches/2025/SD078)
-    - First Filipina to compete in a Grand Slam main draw
-
-### Doubles
-
-- 2026
-
-  - **Wimbledon - with Nikola Bartunkova**
-    - 1st Round, l. Ostapenko/Kenin 6-3, 3-6, 1-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/wimbledon/scores/LD72362771)
-
-  - **Australian Open - with Ingrid Martins**
-    - 1st Round, l. Aoyama/Linette 6-7(3), 2-6, 3-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/australian-open/scores/LD67893812) | [tennis.com](https://www.tennis.com/tournaments/australian-open/matches/a-eala-ingrid-martins-vs-shuko-aoyama-magda-linette-2026-01-21) | [ausopen.com](https://ausopen.com/match/2026-alexandra-eala-ingrid-martins-vs-shuko-aoyama-magda-linette-wd126)
-
-- 2025
-
-  - **Wimbledon - with Eva Lys**
-    - 1st Round, l. Gleason/Martins 4-6, 2-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/wimbledon/scores/LD61641892) | [tennis.com](https://www.tennis.com/tournaments/wimbledon/matches/a-eala-e-lys-vs-q-gleason-i-martins-2025-07-03)
-
-<div class="youtube-video" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
-  <iframe src="https://www.youtube.com/embed/NqbMdbIUuFE" title="YouTube Video" loading="lazy" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"></iframe>
-</div>
-
-  - **French Open - with Renata Zarazua**
-    - 2nd Round, l. Danilovic/Potapova 1-6, 3-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/roland-garros/scores/LD60707893) | [tennis.com](https://www.tennis.com/tournaments/roland-garros/matches/a-eala-renata-zarazua-vs-olga-danilovic-anastasia-potapova-2025-05-29) | [rolandgarros.com](https://www.rolandgarros.com/en-us/matches/2025/DD024)
-    - 1st Round, d. Appleton/Cavalle-Reimers 7-5, 6-4 | [wtatennis.com](https://www.wtatennis.com/tournaments/roland-garros/scores/LD60813525) | [tennis.com](https://www.tennis.com/tournaments/roland-garros/matches/a-eala-renata-zarazua-vs-emily-appleton-yvonne-cavalle-reimers-2025-05-27) | [rolandgarros.com](https://www.rolandgarros.com/en-us/matches/2025/DD049)
-
----
-
 ## Matches Against Grand Slam Champions
 
 I started this section after Miami 2025 because I kept losing track of who she'd already beaten. Two wins over Swiatek now - I still double-check before I tweet.
@@ -349,6 +378,10 @@ I started this section after Miami 2025 because I kept losing track of who she'd
   <iframe src="https://www.youtube.com/embed/KUVh-Jflv_Q" title="YouTube Video" loading="lazy" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"></iframe>
 </div>
 
+<div class="youtube-video" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
+  <iframe src="https://www.youtube.com/embed/fqg-3HuDjB0" title="YouTube Video" loading="lazy" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"></iframe>
+</div>
+
 - **2025 Miami Open (Hard)** - Quarterfinals, WIN, 6-2, 7-5 | [wtatennis.com](https://www.wtatennis.com/tournaments/902/miami/2025/scores/LS007) | [tennis.com](https://www.tennis.com/tournaments/sr-tournament-2743-miami-usa/sr-match-58906263/)
 
 <div class="youtube-video" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
@@ -356,7 +389,7 @@ I started this section after Miami 2025 because I kept losing track of who she'd
 </div>
 
 <div class="youtube-video" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
-  <iframe src="https://www.youtube.com/embed/ARjpvQDZFcw" title="YouTube Video" loading="lazy" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"></iframe>
+  <iframe src="https://www.youtube.com/embed/WyGEfKSatB0" title="YouTube Video" loading="lazy" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"></iframe>
 </div>
 
 - **2025 Madrid (Clay)** - Round of 64, LOSS, 6-4, 4-6, 2-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/1038/madrid/2025/scores/LS063) | [tennis.com](https://www.tennis.com/tournaments/sr-tournament-2785-madrid-spain/sr-match-59915292/)
@@ -386,6 +419,10 @@ I started this section after Miami 2025 because I kept losing track of who she'd
 
 <div class="youtube-video" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
   <iframe src="https://www.youtube.com/embed/4C8dT5T-fHM" title="YouTube Video" loading="lazy" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"></iframe>
+</div>
+
+<div class="youtube-video" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
+  <iframe src="https://www.youtube.com/embed/a02WYy8h2r8" title="YouTube Video" loading="lazy" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"></iframe>
 </div>
 
 - **2026 Rome (Clay)** - Round of 32, LOSS, 4-6, 3-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/709/rome/2026/scores/LS031) | [tennis.com](https://www.tennis.com/tournaments/internazionali-bnl-ditalia/matches/a-eala-vs-e-rybakina-2026-05-10)
@@ -496,7 +533,7 @@ I started this section after Miami 2025 because I kept losing track of who she'd
 </div>
 
 <div class="youtube-video" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
-  <iframe src="https://www.youtube.com/embed/dEZi50raZFY" title="YouTube Video" loading="lazy" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"></iframe>
+  <iframe src="https://www.youtube.com/embed/do0cLU9iB8" title="YouTube Video" loading="lazy" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"></iframe>
 </div>
 
 ---
@@ -580,6 +617,12 @@ Champions get the section above. These are the top-20 fixtures that haven't happ
 
 **Matches:**
 
+- **2026 Washington (Hard)** - Round of 16, WIN, 6-2, 7-6(1) | [wtatennis.com](https://www.wtatennis.com/tournaments/1045/washington-dc/2026/scores/LS014) | [tennis.com](https://www.tennis.com/tournaments/mubadala-dc-open/matches/l-fernandez-vs-a-eala-2026-07-29)
+
+<div class="youtube-video" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
+  <iframe src="https://www.youtube.com/embed/zrLRktfS-q4" title="YouTube Video" loading="lazy" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"></iframe>
+</div>
+
 - **2026 Stuttgart (Clay)** - Round of 32, LOSS, 1-6, 4-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/1051/stuttgart/2026/scores/LS018) | [tennis.com](https://www.tennis.com/tournaments/porsche-tennis-grand-prix/matches/l-fernandez-vs-a-eala-2026-04-14)
 
 <div class="youtube-video" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
@@ -648,6 +691,10 @@ Champions get the section above. These are the top-20 fixtures that haven't happ
 
 <div class="youtube-video" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
   <iframe src="https://www.youtube.com/embed/ZsJYg7q0ZnM" title="YouTube Video" loading="lazy" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"></iframe>
+</div>
+
+<div class="youtube-video" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
+  <iframe src="https://www.youtube.com/embed/1Yj1XwwqH9M" title="YouTube Video" loading="lazy" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"></iframe>
 </div>
 
 - **2026 Dubai (Hard)** - Round of 32, WIN, 6-1, 7-6(5) | [wtatennis.com](https://www.wtatennis.com/tournaments/dubai/scores/LS023) | [tennis.com](https://www.tennis.com/tournaments/wta-dubai-uae/matches/a-eala-vs-j-paolini-2026-02-17)

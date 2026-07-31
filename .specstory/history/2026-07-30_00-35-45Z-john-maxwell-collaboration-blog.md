@@ -424,6 +424,110 @@ _**Agent (auto-low)**_
 
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
 <summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__everyone-communicates-few-connect.md</summary>
-Status: **loading**
 
 </details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__interesting-facts-about-jorap.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+I'll add a section to the facts ledger about the Maxwell book.
+
+Reviewing the ledger structure to find the best placement for the new entry.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__interesting-facts-about-jorap.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm slop:score content/english/blog/__everyone-communicates-few-connect.md &amp;&amp; pnpm lint:blog content/english/blog/__everyone-communicates-few-connect.md 2&gt;&amp;1; pnpm lint:voice content/english/blog/__everyone-communicates-few-connect.md 2&gt;&amp;1; pnpm lint:slop content/english/blog/__everyone-communicates-few-connect.md 2&gt;&amp;1</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && pnpm slop:score content/english/blog/__everyone-communicates-few-connect.md && pnpm lint:blog content/english/blog/__everyone-communicates-few-connect.md 2>&1; pnpm lint:voice content/english/blog/__everyone-communicates-few-connect.md 2>&1; pnpm lint:slop content/english/blog/__everyone-communicates-few-connect.md 2>&1
+```
+
+```
+$ node scripts/runPython.mjs scripts/voice-lint.py score content/english/blog/__everyone-communicates-few-connect.md
+__everyone-communicates-few-connect.md   words= 888 total=  8 per100w=  0.90
+$ node scripts/runPython.mjs scripts/normalize-blog-frontmatter.py --verify && node scripts/runPython.mjs scripts/voice-lint.py slop --check --blog-only content/english/blog/__everyone-communicates-few-connect.md
+Blog frontmatter OK
+Slop lint OK
+$ node scripts/runPython.mjs scripts/voice-lint.py dashes --check && node scripts/runPython.mjs scripts/voice-lint.py site --check content/english/blog/__everyone-communicates-few-connect.md
+Voice dash lint OK
+Voice lint OK
+$ node scripts/runPython.mjs scripts/voice-lint.py slop --check content/english/blog/__everyone-communicates-few-connect.md
+Slop lint OK
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Linters passed. A row will be added to the facts ledger.
+
+A "Books & leadership" section will be added after Education.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Adding this to your facts ledger.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__interesting-facts-about-jorap.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/author-context.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The blog post is complete. It highlights John Maxwell's "Everyone Communicates, Few Connect" and your unique collaboration opportunity where your name appears in the book.
+
+Publish the post by removing the draft prefix and setting draft: false. Add a photo of the book page if available. You may also fill in details about your specific comment. I found your name listed among the contributors.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Draft is at `content/english/blog/__everyone-communicates-few-connect.md`. It’s set to `draft: true` until you’re ready to publish.
+
+**The angle:** Your name isn’t a footnote from a signing line. Maxwell posted the manuscript chapter by chapter on JohnMaxwellonLeadership.com in 2009. Readers commented, stories got woven in, and everyone who contributed meaningfully landed in the contributors list. **Jon Rapusas** is there on page 251 (I matched it against the book text already in your repo).
+
+**What the post covers:**
+1. **The hook** - finding your name in the back of a bestseller
+2. **The book’s core idea** - communicating vs. connecting (broadcast vs. bond)
+3. **The collaboration model** - open drafting on a blog, rare then and still rare now
+4. **Honest gap** - you don’t remember the exact comment (no invented details)
+5. **What you still use** - how those ideas show up in how you edit this site
+6. **A plain recommendation** - worth an afternoon if you lead, teach, preach, sell, or write in public
+
+Lint is clean (slop score 0.90 per 100 words).
+
+I also added a row to `__interesting-facts-about-jorap.md` and synced `author-context.md`.
+
+**To publish:** rename to drop the `__` prefix and set `draft: false`. If you remember what you commented, or have a photo of the contributors page, I can weave those in. Same if you want the tone more personal or more book-review.
+
+## Session close
+- Fixed: Draft blog on Maxwell’s *Everyone Communicates, Few Connect* with your contributor credit and collaboration backstory
+- Encode: none
+- Open: clean (draft unpublished; optional photo or comment detail from you)

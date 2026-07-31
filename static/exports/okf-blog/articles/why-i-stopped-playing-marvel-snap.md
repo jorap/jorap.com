@@ -34,7 +34,7 @@ For a while, that was plenty. I'd play a few rounds, climb a little, log off. Th
 
 Snap rewards learning in **small loops**, and I kept nibbling at them longer than I meant to.
 
-I'd peek at [Marvel Snap Zone](https://marvelsnapzone.com/metagame/) after a rough streak - win rates, which Series 5 card was ruining everyone's week. Sometimes I'd cross-check [Untapped.gg](https://snap.untapped.gg/en/meta) or [snap.fan](https://snap.fan/decks/meta/) when two lists disagreed. A [Snap Judgments](https://www.youtube.com/@SnapJudgments) video here, an [Alexander Coccia](https://www.youtube.com/@AlexanderCoccia) breakdown there. Nothing organized. Just enough to feel like I understood what was happening.
+I'd peek at [Marvel Snap Zone](https://marvelsnapzone.com/metagame/) after a rough streak - win rates, which Series 5 card was ruining everyone's week. Sometimes I'd cross-check [Untapped.gg](https://snap.untapped.gg/en/meta) or [snap.fan](https://snap.fan/decks/meta/) when two lists disagreed. A [Snap Judgments](https://www.youtube.com/@SnapJudgments) video here. An [Alexander Coccia](https://www.youtube.com/@AlexanderCoccia) breakdown there. Nothing organized. Just enough to feel like I understood what was happening.
 
 That part was fun for a while. **Figuring out the game** felt like part of playing it.
 
@@ -54,7 +54,7 @@ So I'd go hunting for **other deck lists** - off-meta builds, budget brews, anyt
 
 I wasn't mad about losing to better play. I was tired of losing to **roster gaps** dressed up as skill.
 
-Snap also runs on a **release schedule** you're nudged to follow. New powerful cards drop on a cadence - season content, featured releases, events with a window. I wasn't trying to min-max anything, but the game kept asking me to log in on *its* clock just to stay vaguely current. Catch the latest must-have before the meta moves on again. A couch snack game shouldn't need a calendar.
+Snap also runs on a **release schedule** you're nudged to follow. New powerful cards drop on a cadence - season content, featured releases, events with a window. I wasn't trying to min-max anything. The game still asked me to log in on *its* clock just to stay vaguely current. Catch the latest must-have before the meta moves on again. A couch snack game shouldn't need a calendar.
 
 ### Every loss became a research assignment
 
@@ -76,7 +76,7 @@ The line from the community - *retreat when the cubes stop being fun* - is good 
 
 I never spent money on Snap. Not once. **Spending was usually not the problem** - at least not in the pay-to-win way other mobile games train you to expect. Real money bought cosmetics: card backs, variants, emotes. Nothing that made your deck stronger. I respect that.
 
-The [web shop](https://marvelsnap.com/shop) still got under my skin anyway - bundles timed to make you feel like you're leaving value on the table, gold for variants I'd forget in a week. I didn't bite. But the nagging was part of the vibe. Even as a free player, the game kept asking whether I was playing it *wrong* by not paying.
+The [web shop](https://marvelsnap.com/shop) still got under my skin anyway. Bundles timed to make you feel like you're leaving value on the table. Gold for variants I'd forget in a week. I didn't bite. The nagging was part of the vibe anyway. Even as a free player, the game kept asking whether I was playing it *wrong* by not paying.
 
 ### It wanted more time than I wanted to give
 
@@ -86,9 +86,9 @@ I'm a casual player with other games and other projects. Snap kept asking for an
 
 ### The vibe shifted
 
-Around the time I was pulling back, the mood around Snap changed too. YouTubers I'd been peeking at for quick meta explainers - [Snap Judgments](https://www.youtube.com/@SnapJudgments), [Alexander Coccia](https://www.youtube.com/@AlexanderCoccia), others in that lane - started posting quit videos or long frustration rants. Balance complaints, the collection treadmill, *why am I still doing this*. I wasn't deep in every drama thread. But when your casual guides start walking away, that's a signal.
+Around the time I was pulling back, the mood around Snap changed too. YouTubers I'd been peeking at for quick meta explainers started posting quit videos or long frustration rants. [Snap Judgments](https://www.youtube.com/@SnapJudgments). [Alexander Coccia](https://www.youtube.com/@AlexanderCoccia). Others in that lane. Balance complaints, the collection treadmill, *why am I still doing this*. I wasn't deep in every drama thread. When your casual guides start walking away, that's a signal.
 
-So did the business side. **Layoffs** and a smaller team running live service made Snap feel less like a flagship and more like something on maintenance mode. Maybe it still gets updates. Maybe people still love it. For me it lined up with the schedule pressure and roster gaps: hard to care about catching up when the game itself didn't seem like the studio's main priority anymore.
+**Layoffs** and a smaller team running live service made Snap feel less like a flagship and more like something on maintenance mode. Maybe it still gets updates. Maybe people still love it. For me it lined up with the schedule pressure and roster gaps: hard to care about catching up when the game itself didn't seem like the studio's main priority anymore.
 
 ---
 

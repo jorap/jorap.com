@@ -2080,3 +2080,615 @@ _**Agent (auto-low)**_
 cd /home/jorap/Documents/GitHub/jorap.com && node scripts/runPython.mjs scripts/voice-lint.py slop --summary 2>&1 | rg -A2 "streamlining"
 ```
 </details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Checking how `slop:score` works, likely in voice-lint.
+
+The score command is in a Python file.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts",
+  "pattern": "per100w|nominalization|passive"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts",
+  "pattern": "per100w|nominalization|passive",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": "scripts/slop-lint.py"
+    },
+    {
+      "matchCount": 18,
+      "uri": "scripts/slop-score.py"
+    }
+  ],
+  "totalFiles": 2,
+  "totalMatches": 20
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Reading slop-score.py to understand the flags and debugging the streamlining post.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/slop-score.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Running slop-score with JSON to break down violations in the streamlining post.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/slop-score.py --json content/english/blog/streamlining-games-and-sports.md 2&gt;&amp;1 | python3 -m json.tool</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/slop-score.py --json content/english/blog/streamlining-games-and-sports.md 2>&1 | python3 -m json.tool
+```
+
+```
+{
+    "file": "content/english/blog/streamlining-games-and-sports.md",
+    "words": 2063,
+    "sentences": 143,
+    "violations": {
+        "long_sentence(>25w)": 26,
+        "passive_voice": 1,
+        "ing_main_verb": 1,
+        "nominalization": 0,
+        "phrasal_verb": 0
+    },
+    "total": 28,
+    "total_per100w": 1.36,
+    "long_sentence_ratio": 0.182,
+    "long_sentence_ratio_warn": false,
+    "sample_phrasal": [],
+    "longest_sentence_words": 76
+}
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The main issue is 26 long sentences exceeding 25 words.
+
+I'll split the long sentences while preserving the JoRap voice.
+</details></think>
+
+_**Agent (auto-low)**_
+
+The high slop score is almost all long sentences (26 over 25 words). I'll find and split them while keeping the voice intact.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt; &#39;PY&#39;
+import re
+from pathlib import Path
+from scripts.slop_score import sentences, word_count, strip_code
+
+raw = Path(&#39;content/english/blog/streamlining-games-and-sports.md&#39;).read_text()
+body = raw[raw.find(&#39;\n---\n&#39;, 3)+5:]
+text = strip_code(body)
+for i, s in enumerate(sentences(text), 1):
+    wc = word_count(s)
+    if wc &gt; 25:
+        print(f&#39;{wc:3d} | {s[:120]}...&#39; if len(s)&gt;120 else f&#39;{wc:3d} | {s}&#39;)
+PY
+</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
+import re
+from pathlib import Path
+from scripts.slop_score import sentences, word_count, strip_code
+
+raw = Path('content/english/blog/streamlining-games-and-sports.md').read_text()
+body = raw[raw.find('\n---\n', 3)+5:]
+text = strip_code(body)
+for i, s in enumerate(sentences(text), 1):
+    wc = word_count(s)
+    if wc > 25:
+        print(f'{wc:3d} | {s[:120]}...' if len(s)>120 else f'{wc:3d} | {s}')
+PY
+
+```
+
+```
+Traceback (most recent call last):
+  File "<stdin>", line 3, in <module>
+ModuleNotFoundError: No module named 'scripts.slop_score'
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The import approach needs changing. Using exec or copying functions inline should help.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 scripts/slop-score.py --json content/english/blog/streamlining-games-and-sports.md 2&gt;/dev/null | python3 -c &#34;
+import json, sys, re
+from pathlib import Path
+
+# inline sentence splitter from slop-score
+def sentences(text):
+    out = []
+    for line in text.split(&#39;\n&#39;):
+        s = line.strip()
+        if not s: continue
+        s = re.sub(r&#39;^\s*#{1,6}\s*&#39;, &#39;&#39;, s)
+        s = re.sub(r&#39;^\s*(?:[-*+]|\d+[.)])\s+&#39;, &#39;&#39;, s)
+        if not s: continue
+        parts = re.split(r&#39;(?&lt;=[.!?:])\s+(?=[A-Z0-9\&#34;\&#39;\-])&#39;, s)
+        for part in parts:
+            part = part.strip()
+            if part: out.append(part)
+    return out
+
+def wc(t): return len(re.findall(r\&#34;[A-Za-z0-9][A-Za-z0-9&#39;\-/]*\&#34;, t))
+
+raw = Path(&#39;content/english/blog/streamlining-games-and-sports.md&#39;).read_text()
+body = raw[raw.find(&#39;\n---\n&#39;, 3)+5:]
+body = re.sub(r&#39;\`\`\`.*?\`\`\`&#39;, &#39; &#39;, body, flags=re.S)
+for s in sentences(body):
+    n = wc(s)
+    if n &gt; 25:
+        print(f&#39;{n:3d} | {s}&#39;)
+&#34;
+</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/slop-score.py --json content/english/blog/streamlining-games-and-sports.md 2>/dev/null | python3 -c "
+import json, sys, re
+from pathlib import Path
+
+# inline sentence splitter from slop-score
+def sentences(text):
+    out = []
+    for line in text.split('\n'):
+        s = line.strip()
+        if not s: continue
+        s = re.sub(r'^\s*#{1,6}\s*', '', s)
+        s = re.sub(r'^\s*(?:[-*+]|\d+[.)])\s+', '', s)
+        if not s: continue
+        parts = re.split(r'(?<=[.!?:])\s+(?=[A-Z0-9\"\'\-])', s)
+        for part in parts:
+            part = part.strip()
+            if part: out.append(part)
+    return out
+
+def wc(t): return len(re.findall(r\"[A-Za-z0-9][A-Za-z0-9'\-/]*\", t))
+
+raw = Path('content/english/blog/streamlining-games-and-sports.md').read_text()
+body = raw[raw.find('\n---\n', 3)+5:]
+body = re.sub(r'\`\`\`.*?\`\`\`', ' ', body, flags=re.S)
+for s in sentences(body):
+    n = wc(s)
+    if n > 25:
+        print(f'{n:3d} | {s}')
+"
+
+```
+
+```
+ 48 | **T20** and the **IPL** brought in millions who would never block five days for a Test draw. **Pickleball** didn't steal tennis players - it recruited retirees, neighbors, and people who bounced off the serve. **Monopoly Deal** sells to families who'd walk past the big **Monopoly** box in the aisle.
+ 27 | Leagues and designers pick a move - shrink the clock, shrink the space, cut the stall, lower the skill floor - and ship something a newcomer can actually join.
+ 43 | Cricket is the clearest ladder. **Test** matches eat five days for the purists. **ODI** fits an afternoon. **T20** lands in a few hours and built an entire broadcast culture on top - **powerplays**, **super overs**, franchise leagues, fans who'd never learned leg before wicket.
+ 29 | You block Saturday through Wednesday and day five can end in a **draw** with both sides still batting and the broadcast filling time with pitch reports nobody asked for.
+ 50 | Full **NBA** game stretches past two hours on TV for a crowd that booked the night. **Rugby sevens** runs seven-minute halves; **union** is eighty minutes of fifteen-a-side contact. **Baseball** is nine innings and a bullpen parade; a **home run derby** or backyard **wiffle ball** wants an answer in twenty swings.
+ 31 | I learned on **Chessmaster**, then a **chess veteran** in the park beat me in about twenty moves - taking pieces in ways my training never covered while I was still thinking classical.
+ 62 | On my shelf, the clock cap is how cousins end up at the table. **Hanamikoji** is four turns each - I taught it to people who'd never heard of worker placement. **Jaipur** is two rounds. **Love Letter** is sixteen cards. **Las Vegas** is four casino rounds. **Fluxx** ends when someone hits the goal card. **Rainbow** is one tiny deck and done before dessert.
+ 26 | **3x3** basketball was the **game of the streets** before it was Olympic - one hoop, six players, barangay court or driveway when there's no room for five-on-five.
+ 38 | Same move ev
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The slop scorer bundles multiple sentences into one when splitting fails across bold markdown or line boundaries.
+
+The regex split breaks on bold markers and capitalized words mid-line. Short sentences on one line collapse into a single long chunk. Genuine long sentences still need splitting.
+
+The regex lookahead expects a capital letter or digit after a period, but bold text starts with asterisks instead. This prevents proper sentence splitting.
+
+Line-based splitting does not solve the problem. The scorer splits each line by period first, then by line. Bold markers at the start of a line still block the period split. Multiple sentences on one line therefore merge into a single long chunk.
+
+Restructuring sentences so bold text appears inside rather than at the start would let the period split work correctly. Alternatively, forcing each sentence onto its own line would bypass the period split entirely. Both approaches still leave multi-sentence lines without newlines as a remaining edge case.
+
+Placing one sentence per line makes the period split work correctly. Each line becomes a single sentence unit, so bold markers no longer block the split. The fix is to use one sentence per line for catalog and rattle sections, and to split any genuinely long single sentences.
+
+Lines 21–22 contain three sentences on one line, so bold markers there likely inflate the slop count. The plan is to break dense catalog paragraphs into single-sentence lines, split the longest stretches like the Ashes paragraph, and trim redundant examples. The user simply wants slop reduced.
+
+Targeted edits will split dense lines 21–22, 25, 33, 35, and 37 into one sentence per line. Redundant examples will be trimmed to cut word count. The goal is a minimal diff.
+
+Line 39 and line 43 will also be split into single sentences. Line 109 needs a typo fix from "People" to "people". The 76-word board game catalog will be broken into shorter lines. After editing, the slop score will be rerun to target 0.80 or below. The largest gains are being prioritized.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Most of the slop is long sentences bundled on single lines—especially when the next sentence starts with bold. I'll split those and tighten a few dense catalog paragraphs.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/streamlining-games-and-sports.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/streamlining-games-and-sports.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/streamlining-games-and-sports.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/streamlining-games-and-sports.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/streamlining-games-and-sports.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/streamlining-games-and-sports.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/streamlining-games-and-sports.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Continuing with additional sections.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/streamlining-games-and-sports.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/streamlining-games-and-sports.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/streamlining-games-and-sports.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/streamlining-games-and-sports.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/streamlining-games-and-sports.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/streamlining-games-and-sports.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/streamlining-games-and-sports.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/streamlining-games-and-sports.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Continuing with the remaining draft sections: Same IP, Invent cousin, Watch broadcast, What I buy, and closing.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/streamlining-games-and-sports.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/streamlining-games-and-sports.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/streamlining-games-and-sports.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/streamlining-games-and-sports.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/streamlining-games-and-sports.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Running the slop score again to check for improvement.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm slop:score content/english/blog/streamlining-games-and-sports.md 2&gt;&amp;1 &amp;&amp; python3 scripts/slop-score.py --json content/english/blog/streamlining-games-and-sports.md 2&gt;&amp;1 | python3 -m json.tool</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && pnpm slop:score content/english/blog/streamlining-games-and-sports.md 2>&1 && python3 scripts/slop-score.py --json content/english/blog/streamlining-games-and-sports.md 2>&1 | python3 -m json.tool
+```
+
+```
+$ node scripts/runPython.mjs scripts/voice-lint.py score content/english/blog/streamlining-games-and-sports.md
+streamlining-games-and-sports.md         words=2055 total=  3 per100w=  0.15
+{
+    "file": "content/english/blog/streamlining-games-and-sports.md",
+    "words": 2055,
+    "sentences": 203,
+    "violations": {
+        "long_sentence(>25w)": 1,
+        "passive_voice": 1,
+        "ing_main_verb": 1,
+        "nominalization": 0,
+        "phrasal_verb": 0
+    },
+    "total": 3,
+    "total_per100w": 0.15,
+    "long_sentence_ratio": 0.005,
+    "long_sentence_ratio_warn": false,
+    "sample_phrasal": [],
+    "longest_sentence_words": 28
+}
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm lint:blog 2&gt;&amp;1</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:blog 2>&1
+```
+
+```
+$ node scripts/runPython.mjs scripts/normalize-blog-frontmatter.py --verify && node scripts/runPython.mjs scripts/voice-lint.py slop --check --blog-only
+Blog frontmatter OK
+Slop lint OK
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Slop dropped from 1.36 to 0.15. That is excellent.
+
+One remaining 28-word sentence still needs fixing.
+</details></think>
+
+_**Agent (auto-low)**_
+
+One 28-word sentence left — I'll find and split it.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 -c &#34;
+import re
+from pathlib import Path
+
+def sentences(text):
+    out = []
+    for line in text.split(&#39;\n&#39;):
+        s = line.strip()
+        if not s: continue
+        s = re.sub(r&#39;^\s*#{1,6}\s*&#39;, &#39;&#39;, s)
+        s = re.sub(r&#39;^\s*(?:[-*+]|\d+[.)])\s+&#39;, &#39;&#39;, s)
+        if not s: continue
+        parts = re.split(r&#39;(?&lt;=[.!?:])\s+(?=[A-Z0-9\&#34;\&#39;\-])&#39;, s)
+        for part in parts:
+            part = part.strip()
+            if part: out.append(part)
+    return out
+
+def wc(t): return len(re.findall(r\&#34;[A-Za-z0-9][A-Za-z0-9&#39;\-/]*\&#34;, t))
+
+raw = Path(&#39;content/english/blog/streamlining-games-and-sports.md&#39;).read_text()
+body = raw[raw.find(&#39;\n---\n&#39;, 3)+5:]
+for s in sentences(body):
+    n = wc(s)
+    if n &gt; 25:
+        print(f&#39;{n} | {s}&#39;)
+&#34;
+</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 -c "
+import re
+from pathlib import Path
+
+def sentences(text):
+    out = []
+    for line in text.split('\n'):
+        s = line.strip()
+        if not s: continue
+        s = re.sub(r'^\s*#{1,6}\s*', '', s)
+        s = re.sub(r'^\s*(?:[-*+]|\d+[.)])\s+', '', s)
+        if not s: continue
+        parts = re.split(r'(?<=[.!?:])\s+(?=[A-Z0-9\"\'\-])', s)
+        for part in parts:
+            part = part.strip()
+            if part: out.append(part)
+    return out
+
+def wc(t): return len(re.findall(r\"[A-Za-z0-9][A-Za-z0-9'\-/]*\", t))
+
+raw = Path('content/english/blog/streamlining-games-and-sports.md').read_text()
+body = raw[raw.find('\n---\n', 3)+5:]
+for s in sentences(body):
+    n = wc(s)
+    if n > 25:
+        print(f'{n} | {s}')
+"
+
+```
+
+```
+28 | Streamlining is how the **next** audience gets in - the kid who quits full-field soccer, the retiree who gave up tennis, the family who'd never open a three-hour box.
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Splitting one long sentence to eliminate slop.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/streamlining-games-and-sports.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Running the score again.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm slop:score content/english/blog/streamlining-games-and-sports.md 2&gt;&amp;1</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && pnpm slop:score content/english/blog/streamlining-games-and-sports.md 2>&1
+```
+
+```
+$ node scripts/runPython.mjs scripts/voice-lint.py score content/english/blog/streamlining-games-and-sports.md
+streamlining-games-and-sports.md         words=2055 total=  2 per100w=  0.10
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Slop is down to 0.10 per 100 words. Two violations remain, both likely passive voice and main verb issues. These are acceptable.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Fixed. The slop wasn't bad prose — it was **sentence bundling**. The scorer treats a whole line as one sentence when the next clause starts with `**Bold**`, so catalog paragraphs with three or four examples on one line counted as 48–76-word monsters.
+
+**Slop: 1.36 → 0.10 per100w** (28 violations → 2)
+
+What changed:
+- Split dense example lists onto separate lines (sports ladder, board-game shelf, watch-vs-play section)
+- Broke a few real long sentences (Ashes paragraph, chess park story, closing audience list)
+- Fixed the `People` → `people` typo in the golf line
+
+Content and voice are the same — same examples, same thesis. It just reads faster now, which fits a post about streamlining.
+
+## Session close
+- Fixed: Streamlining draft slop 1.36→0.10 by splitting bundled sentences
+- Encode: none
+- Open: clean on this post

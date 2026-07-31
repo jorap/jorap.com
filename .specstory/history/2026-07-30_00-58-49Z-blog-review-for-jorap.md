@@ -1736,6 +1736,15 @@ cd /home/jorap/Documents/GitHub/jorap.com && for f in content/english/blog/strea
 
 ```
 === content/english/blog/streamlining-games-and-sports.md ===
+Slop lint OK
+=== content/english/blog/__everyone-communicates-few-connect.md ===
+Slop lint OK
+=== content/english/blog/__local-ai-my-machines.md ===
+Slop lint OK
+=== content/english/blog/__apple-strategically-late.md ===
+Slop lint OK
+=== content/english/blog/why-run-your-own-website.md ===
+Slop lint OK
 
 ```
 </details></tool-use>
@@ -1770,3 +1779,793 @@ _**Agent (auto-low)**_
 
 Directory: **``** (0 files)
 </details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Locating image files and gathering detailed passive voice data from the slop scan.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **1** directory</summary>
+
+Directory: **``** (0 files)
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; node scripts/runPython.mjs scripts/voice-lint.py slop --summary content/english/blog/streamlining-games-and-sports.md content/english/blog/__everyone-communicates-few-connect.md content/english/blog/__local-ai-my-machines.md content/english/blog/__apple-strategically-late.md content/english/blog/why-run-your-own-website.md 2&gt;&amp;1</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && node scripts/runPython.mjs scripts/voice-lint.py slop --summary content/english/blog/streamlining-games-and-sports.md content/english/blog/__everyone-communicates-few-connect.md content/english/blog/__local-ai-my-machines.md content/english/blog/__apple-strategically-late.md content/english/blog/why-run-your-own-website.md 2>&1
+```
+
+```
+Slop scan - 76 blog, 296 notes, 0 fail, 64 warn
+Rules: data/slop-rules.yaml
+
+Warn (fix before publish)
+  passive-voice (30) - name the actor when you know who did it
+    content/english/blog/__apple-strategically-late.md · body
+    content/english/blog/__everyone-communicates-few-connect.md · body
+    content/english/blog/__interesting-facts-about-jorap.md · body
+    content/english/blog/__local-ai-my-machines.md · body
+    content/english/blog/streamlining-games-and-sports.md · body
+    content/english/notes/christianity-and-politics.md · key_concept
+    content/english/notes/decision-quality.md · key_concept
+    content/english/notes/digital-serendipity.md · key_concept
+    … and 22 more
+  nominalization (29) - verb pile — analyze the log, not perform an analysis of
+    content/english/notes/break-the-escalation-cycle.md · cards[5].front
+    content/english/notes/childlike-faith.md · cards[4].back
+    content/english/notes/childlike-faith.md · key_concept
+    content/english/notes/christlikeness.md · examples[1]
+    content/english/notes/composure.md · relationships.reason
+    content/english/notes/energy-protects-judgment.md · relationships.reason
+    content/english/notes/free-grace.md · cards[2].front
+    content/english/notes/free-grace.md · key_concept
+    … and 21 more
+  long-sentences (2) - 33% of sentences exceed 25 words — vary length or split
+    content/english/notes/inspectable-stack.md · key_concept
+    content/english/notes/take-smart-notes.md · key_concept
+  placeholder-image (2) - replace image-template.jpg before publish
+    content/english/blog/__apple-strategically-late.md · image
+    content/english/blog/__xiaomi-is-the-new-huawei.md · image
+  phrasal-verb (1) - plain verb — dive into → read, spin up → start (tear down)
+    content/english/blog/why-run-your-own-website.md · body
+
+pnpm lint:slop - fail CI on publish blockers
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-run-your-own-website.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__apple-strategically-late.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__xiaomi-is-the-new-huawei.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Fixing the "why-run-your-own-website" section by replacing "tear down" with "knock down".
+
+Searching assets/images for placeholder images on Apple and Xiaomi. Passive voice fixes are needed for streamlining, everyone-communicates, local-ai, and apple.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "content/english/blog/*.md",
+  "pattern": "^image:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "^image:",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__obsidian-vs-hugo.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/hugoplate-theme-review.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__sveltia-cms.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/drupal-to-wordpress.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__mcgill-big-three.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__worcestershire-sauce.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__craft-prompt-framework.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/set-it-forget-it-arroz-caldo.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__local-ai-my-machines.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/one-page-zine.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__hugo-shortcodes.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__xiaomi-is-the-new-huawei.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/dnpap-song-resources.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__stack-mismatch-stories.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__shopee-tips.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/why-i-focused-on-open-source.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__apple-strategically-late.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__markdown-formatting.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__tenant-not-landlord-on-the-web.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__second-cellphone.md"
+    }
+  ],
+  "totalFiles": 40,
+  "totalMatches": 75
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **20** results in **1** directory</summary>
+
+Directory: **``** (20 files)
+
+| File |
+|------|
+| `assets/images/static-vs-cms.jpg` |
+| `assets/images/feature-mouse-wheel-click.jpg` |
+| `assets/images/note.jpg` |
+| `assets/images/one-page-zine-layout.jpg` |
+| `assets/images/modern_board_gaming.jpg` |
+| `assets/images/duopoly.jpg` |
+| `assets/images/google-vs-apple.jpg` |
+| `assets/images/duopoly-countries.jpg` |
+| `assets/images/feature-soundpeats-runfree.jpg` |
+| `assets/images/feature-consistent-ai-output.jpg` |
+| `assets/images/drupal-to-wp.jpg` |
+| `assets/images/open-source.jpg` |
+| `assets/images/Consistent_AI_Web_Development_Blueprint.jpg` |
+| `assets/images/stop_snap.jpg` |
+| `assets/images/sustainable-publishing.jpg` |
+| `assets/images/website.jpg` |
+| `assets/images/instant-pot-arroz-caldo.jpg` |
+| `assets/images/duopoly-actions.jpg` |
+| `assets/images/one-page-zine.jpg` |
+| `assets/images/extension-cord.jpg` |
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/voice-lint.py",
+  "pattern": "passive"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/voice-lint.py",
+  "pattern": "passive",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The Apple post image could use the same file as the Google post or feature-desktop.
+
+The Apple post image fits the strategic late post well. For the Xiaomi post, feature-desktop is a better fit than google-vs-apple. I'll check __mi-box-s and consistent-ai-output for local-ai.
+
+Running a voice-lint script to identify passive sentences.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts",
+  "pattern": "mechanical_passive|passive"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts",
+  "pattern": "mechanical_passive|passive",
+  "topFiles": [
+    {
+      "matchCount": 10,
+      "uri": "scripts/slop-score.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/slop-lint.py"
+    }
+  ],
+  "totalFiles": 2,
+  "totalMatches": 11
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/streamlining-games-and-sports.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__everyone-communicates-few-connect.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Running a script to find passive voice sentences using slop-score logic.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/slop-score.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__local-ai-my-machines.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__apple-strategically-late.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/consistent-ai-output-wordpress-builds.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Running a Python script to find passive voice hits in the files that need fixing.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt; &#39;PY&#39;
+import re, sys
+sys.path.insert(0, &#39;scripts&#39;)
+from slop_score import _count_passive_voice, PASSIVE_SKIP, strip_code, sentences
+
+BE = r&#34;(?:is|are|was|were|been|being|be|am|&#39;s|&#39;re|&#39;m)&#34;
+files = [
+    &#34;content/english/blog/streamlining-games-and-sports.md&#34;,
+    &#34;content/english/blog/__everyone-communicates-few-connect.md&#34;,
+    &#34;content/english/blog/__local-ai-my-machines.md&#34;,
+    &#34;content/english/blog/__apple-strategically-late.md&#34;,
+]
+for path in files:
+    text = open(path).read().split(&#34;---\n&#34;, 2)[2]
+    text = strip_code(text)
+    cleaned = PASSIVE_SKIP.sub(&#34; &#34;, text)
+    hits = re.findall(rf&#34;.{{0,40}}\b{BE}\s+(?:\w+ed|got|given|taken|made|done|seen|shown|built|kept|left|lost|found|known|written|sold|held|run|set|put|paid|told|shown|brought|thought|taught|given|shown|shown)\b[^.?!]*[.?!]&#34;, cleaned, re.I)
+    print(f&#34;\n=== {path} ({_count_passive_voice(text)} passives) ===&#34;)
+    for h in hits[:12]:
+        print(h.strip())
+PY</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
+import re, sys
+sys.path.insert(0, 'scripts')
+from slop_score import _count_passive_voice, PASSIVE_SKIP, strip_code, sentences
+
+BE = r"(?:is|are|was|were|been|being|be|am|'s|'re|'m)"
+files = [
+    "content/english/blog/streamlining-games-and-sports.md",
+    "content/english/blog/__everyone-communicates-few-connect.md",
+    "content/english/blog/__local-ai-my-machines.md",
+    "content/english/blog/__apple-strategically-late.md",
+]
+for path in files:
+    text = open(path).read().split("---\n", 2)[2]
+    text = strip_code(text)
+    cleaned = PASSIVE_SKIP.sub(" ", text)
+    hits = re.findall(rf".{{0,40}}\b{BE}\s+(?:\w+ed|got|given|taken|made|done|seen|shown|built|kept|left|lost|found|known|written|sold|held|run|set|put|paid|told|shown|brought|thought|taught|given|shown|shown)\b[^.?!]*[.?!]", cleaned, re.I)
+    print(f"\n=== {path} ({_count_passive_voice(text)} passives) ===")
+    for h in hits[:12]:
+        print(h.strip())
+PY
+```
+
+```
+Traceback (most recent call last):
+  File "<stdin>", line 3, in <module>
+ModuleNotFoundError: No module named 'slop_score'
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Inlining the passive detection logic.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 &lt;&lt; &#39;PY&#39;
+import re
+BE = r&#34;(?:is|are|was|were|been|being|be|am|&#39;s|&#39;re|&#39;m)&#34;
+PP_IRREG = r&#34;(?:got|given|taken|made|done|seen|shown|built|kept|left|lost|found|known|written|sold|held|run|set|put|paid|told|brought|thought|taught)&#34;
+PASSIVE_SKIP = re.compile(
+    r&#34;\b(?:was named|is set up|are set up|is buried|are buried|is geared|&#34;
+    r&#34;what was typed|have(?:n&#39;t| not) been touched|is built for|can be \w+ed|&#34;
+    r&#34;won&#39;t be buried|be advertised|is plugged|are done|is done|is crowded|&#34;
+    r&#34;are tied to|is paywalled|is rented|are commented|being \w+|&#34;
+    r&#34;hadn&#39;t been updated|haven&#39;t been updated|been logged into|was hired to|&#34;
+    r&#34;is excited|is polished|is balanced|is concentrated|is tuned|are marked|&#34;
+    r&#34;to be done)\b&#34;, re.I)
+
+def find_passives(text):
+    cleaned = PASSIVE_SKIP.sub(&#34; &#34;, text)
+    pat = re.compile(rf&#34;\b{BE}\s+(?:\w+ed|{PP_IRREG})\b&#34;, re.I)
+    results = []
+    for m in pat.finditer(cleaned):
+        start = max(0, m.start()-60)
+        end = min(len(cleaned), m.end()+80)
+        snippet = cleaned[start:end].replace(&#39;\n&#39;,&#39; &#39;)
+        results.append(snippet)
+    return results
+
+files = [
+    &#34;content/english/blog/streamlining-games-and-sports.md&#34;,
+    &#34;content/english/blog/__everyone-communicates-few-connect.md&#34;,
+    &#34;content/english/blog/__local-ai-my-machines.md&#34;,
+    &#34;content/english/blog/__apple-strategically-late.md&#34;,
+]
+for path in files:
+    text = open(path).read().split(&#34;---\n&#34;, 2)[2]
+    text = re.sub(r&#34;```.*?```&#34;, &#34; &#34;, text, flags=re.S)
+    hits = find_passives(text)
+    print(f&#34;\n=== {path} ({len(hits)} hits) ===&#34;)
+    for h in hits:
+        print(&#39; ...&#39;, h, &#39;...&#39;)
+PY</summary>
+````bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
+import re
+BE = r"(?:is|are|was|were|been|being|be|am|'s|'re|'m)"
+PP_IRREG = r"(?:got|given|taken|made|done|seen|shown|built|kept|left|lost|found|known|written|sold|held|run|set|put|paid|told|brought|thought|taught)"
+PASSIVE_SKIP = re.compile(
+    r"\b(?:was named|is set up|are set up|is buried|are buried|is geared|"
+    r"what was typed|have(?:n't| not) been touched|is built for|can be \w+ed|"
+    r"won't be buried|be advertised|is plugged|are done|is done|is crowded|"
+    r"are tied to|is paywalled|is rented|are commented|being \w+|"
+    r"hadn't been updated|haven't been updated|been logged into|was hired to|"
+    r"is excited|is polished|is balanced|is concentrated|is tuned|are marked|"
+    r"to be done)\b", re.I)
+
+def find_passives(text):
+    cleaned = PASSIVE_SKIP.sub(" ", text)
+    pat = re.compile(rf"\b{BE}\s+(?:\w+ed|{PP_IRREG})\b", re.I)
+    results = []
+    for m in pat.finditer(cleaned):
+        start = max(0, m.start()-60)
+        end = min(len(cleaned), m.end()+80)
+        snippet = cleaned[start:end].replace('\n',' ')
+        results.append(snippet)
+    return results
+
+files = [
+    "content/english/blog/streamlining-games-and-sports.md",
+    "content/english/blog/__everyone-communicates-few-connect.md",
+    "content/english/blog/__local-ai-my-machines.md",
+    "content/english/blog/__apple-strategically-late.md",
+]
+for path in files:
+    text = open(path).read().split("---\n", 2)[2]
+    text = re.sub(r"```.*?```", " ", text, flags=re.S)
+    hits = find_passives(text)
+    print(f"\n=== {path} ({len(hits)} hits) ===")
+    for h in hits:
+        print(' ...', h, '...')
+PY
+````
+
+```
+
+=== content/english/blog/streamlining-games-and-sports.md (3 hits) ===
+ ... ve the original. Wrong. I loved the hook. The uncut version was built for people who already had the time, the court, and the rules in their head. Ev ...
+ ... at nobody poured concrete for your version.  **Pickleball** was invented on a **badminton** court in 1965 - same footprint, swap the net, hand people a  ...
+ ... ockey, TTR: London | | Nothing built for us | Repurpose what's built | Pickleball on badminton, futsal/touch on existing fields, cornhole, travel po ...
+
+=== content/english/blog/__everyone-communicates-few-connect.md (3 hits) ===
+ ... When Maxwell opened the manuscript, I did what the internet was built for: I read, I commented, I moved on with my week. I wasn't angling for a credi ...
+ ... for a credit line. I didn't even know everyone's name would be printed until the acknowledgments showed up.  Honest admission: I don't remember the ex ...
+ ... is worth the afternoon.  Read the contributors page when you're done. Hundreds of names from an experiment in open drafting. Mine's in the R's, righ ...
+
+=== content/english/blog/__local-ai-my-machines.md (3 hits) ===
+ ... hare everything.  On the **Linux desktop**, the Radeon 740M is integrated into the CPU. The BIOS carves out a tiny fixed slice - **512 MB** on my board - ...
+ ... ds at **Tier 0** because six gigabytes is not eight. The Mac's unified memory path is **mature**. The 740M on Linux has more shared headroom on paper, ...
+ ... tterns. **Qwen3 14B** handles code too, but the Coder build is trained for it.  **Linux + Mac thinking pick:** **DeepSeek-R1-Distill 14B** for step-by ...
+
+=== content/english/blog/__apple-strategically-late.md (3 hits) ===
+ ...  Fifteen years later, still negotiating what the base model is allowed to do.  ---  ## Competitors absorb the early risk  Fans call Apple's timing pat ...
+ ... ChatGPT hooks showed up on Apple's schedule, not the keynote's implied schedule.  That is strategically late twi
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The passive voice linter flags three hits per file. It warns only at two or more.
+
+I'll fix the obvious passive instances. One sentence needs an active subject. Another needs an added actor. A table header may still count.
+
+The third passive hit is a false positive on "when you're done." I'll replace the idiomatic "built for" with "exists for" and reword the print sentence to use an active subject.
+
+I'm weighing replacements for the Apple section. "Is integrated into" could become "sits inside," "is mature" could become "works well," and "is trained for" could become "targets." For the remaining two, "is allowed to do" could become "can do," and "was supposed to juice" could become "promised to charge." I'm also checking whether "was" plus "juice" counts as a passive verb.
+
+The regex catches "supposed" because it ends in "ed," so "was supposed" registers as passive. "Allowed" also triggers the same pattern, though it describes permission rather than passive voice. I'll replace "what the base model is allowed to do" with "what Apple lets the base iPad do," and "The 740M is integrated into the CPU" with "sits inside the CPU die." In the website section, "tear down" becomes "knock down."
+
+The Apple image is set to google-vs-apple.jpg. The Xiaomi image is harder to choose. feature-desktop.jpg is too generic for phones and Shopee. Other candidates like modern_board_gaming.jpg or website.jpg don't fit either.
+
+Searching for the joraps-world image in the assets and static folders.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **1** directory</summary>
+
+Directory: **``** (0 files)
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **1** result in **1** directory</summary>
+
+Directory: **``** (1 file)
+
+| File |
+|------|
+| `assets/images/google-vs-apple.jpg` |
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The image joraps-world.jpg is referenced but missing from assets. It may be gitignored or stored elsewhere.
+
+I'll apply the review's polish priorities without publishing. The Apple post gets its image. The Xiaomi post uses feature-desktop.jpg. A hook line goes above the H2 in consistent-ai-output. The tear-down fix in why-run-your-own-website is next.
+
+Draft status stays unchanged. The wifi-router post was not in the passive list, so it will be skipped.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Applying the flagged voice fixes across the priority posts.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-run-your-own-website.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__apple-strategically-late.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__xiaomi-is-the-new-huawei.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/streamlining-games-and-sports.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/streamlining-games-and-sports.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__everyone-communicates-few-connect.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__local-ai-my-machines.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__local-ai-my-machines.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__local-ai-my-machines.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__apple-strategically-late.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__apple-strategically-late.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/consistent-ai-output-wordpress-builds.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+A third passive fix is needed for Apple if three hits remain.
+
+The third Apple hit is a direct quote, not passive. The slop scan needs another look. The consistent-ai-output edit likely added redundancy and should be smoothed.
+
+The redundant month-three line is being replaced with a sharper hook about inconsistent AI outputs. A simpler alternative is also being considered.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/consistent-ai-output-wordpress-builds.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; node scripts/runPython.mjs scripts/voice-lint.py slop --summary --blog-only 2&gt;&amp;1 &amp;&amp; pnpm lint:voice 2&gt;&amp;1 &amp;&amp; pnpm lint:slop 2&gt;&amp;1</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && node scripts/runPython.mjs scripts/voice-lint.py slop --summary --blog-only 2>&1 && pnpm lint:voice 2>&1 && pnpm lint:slop 2>&1
+```
+
+```
+Slop scan - 76 blog, 0 notes, 0 fail, 1 warn
+Rules: data/slop-rules.yaml
+
+Warn (fix before publish)
+  passive-voice (1) - name the actor when you know who did it
+    content/english/blog/__interesting-facts-about-jorap.md · body
+
+pnpm lint:slop - fail CI on publish blockers
+$ node scripts/runPython.mjs scripts/voice-lint.py dashes --check && node scripts/runPython.mjs scripts/voice-lint.py site --check
+Voice dash lint OK
+Voice lint OK
+$ node scripts/runPython.mjs scripts/voice-lint.py slop --check
+Slop lint OK
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Blog warnings are cleared. The ledger file remains untouched.
+
+Running slop:score on edited files to confirm. Streamlining remains draft-only; "apply polishes" covers voice fixes only. A session close block is needed since files were modified.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; for f in content/english/blog/streamlining-games-and-sports.md content/english/blog/__everyone-communicates-few-connect.md content/english/blog/__local-ai-my-machines.md content/english/blog/__apple-strategically-late.md content/english/blog/why-run-your-own-website.md content/english/blog/consistent-ai-output-wordpress-builds.md; do pnpm slop:score &#34;$f&#34; 2&gt;/dev/null | tail -1; done</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && for f in content/english/blog/streamlining-games-and-sports.md content/english/blog/__everyone-communicates-few-connect.md content/english/blog/__local-ai-my-machines.md content/english/blog/__apple-strategically-late.md content/english/blog/why-run-your-own-website.md content/english/blog/consistent-ai-output-wordpress-builds.md; do pnpm slop:score "$f" 2>/dev/null | tail -1; done
+```
+
+```
+streamlining-games-and-sports.md         words=2518 total=  9 per100w=  0.36
+__everyone-communicates-few-connect.md   words= 887 total=  6 per100w=  0.68
+__local-ai-my-machines.md                words=3254 total= 17 per100w=  0.52
+__apple-strategically-late.md            words=3829 total= 29 per100w=  0.76
+why-run-your-own-website.md              words= 851 total=  8 per100w=  0.94
+consistent-ai-output-wordpress-builds.md words=1426 total=  6 per100w=  0.42
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Polishes applied successfully.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Polishes applied across the priority posts from the review. Blog slop warnings dropped from **8 → 0** (only the internal ledger still flags, which is expected).
+
+### Changes by file
+
+**`why-run-your-own-website.md`** (live)
+- "tear down the building" → "knock down the building" (phrasal-verb fix)
+
+**`__apple-strategically-late.md`** (draft)
+- Hero image: `image-template.jpg` → `google-vs-apple.jpg`
+- Passive-voice cleanup: base iPad tiering, AirPower mat wording
+
+**`__xiaomi-is-the-new-huawei.md`** (draft)
+- Hero image: `image-template.jpg` → `feature-desktop.jpg`
+
+**`streamlining-games-and-sports.md`** (draft)
+- "was built for people" → "assumed you already had…"
+- "Pickleball was invented" → "Three dads in Washington invented pickleball"
+
+**`__everyone-communicates-few-connect.md`** (draft)
+- "what the internet was built for" → "what the internet exists for"
+- "would be printed" → "Maxwell would list everyone's name"
+
+**`__local-ai-my-machines.md`** (draft)
+- Three passive clusters: integrated/mature/trained-for → active voice
+
+**`consistent-ai-output-wordpress-builds.md`** (live)
+- Added experiential hook above the first H2 (Tuesday/Thursday drift problem)
+
+### Verification
+- `pnpm lint:voice` — pass
+- `pnpm lint:slop` — pass
+- Slop scores on edited files all ≤ 0.94 per100w
+
+`streamlining-games-and-sports` is still `draft: true`. Say the word if you want it published (drop `__` prefix, `draft: false`).
+
+## Session close
+- Fixed: Voice polishes on 7 blog posts — passive voice, phrasal verb, placeholder images, connection hook
+- Encode: none
+- Open: clean (streamlining ready to publish when you want)

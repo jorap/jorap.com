@@ -40,7 +40,858 @@ _**Agent (auto-low)**_
 _**Agent (auto-low)**_
 
 <tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **0** directories</summary>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **74** results in **1** directory</summary>
 
-No results found
+Directory: **``** (74 files)
+
+| File |
+|------|
+| `content/english/blog/__immune-booster-supplements.md` |
+| `content/english/blog/__why-git-greatest-open-source-innovation.md` |
+| `content/english/blog/__xiaomi-is-the-new-huawei.md` |
+| `content/english/blog/__stack-mismatch-stories.md` |
+| `content/english/blog/google-over-apple-ecosystem.md` |
+| `content/english/blog/__obsidian-vs-hugo.md` |
+| `content/english/blog/__rechargeable-batteries.md` |
+| `content/english/blog/__smart-plug.md` |
+| `content/english/blog/streamlining-games-and-sports.md` |
+| `content/english/blog/__blog-template.md` |
+| `content/english/blog/why-i-love-modern-board-games.md` |
+| `content/english/blog/getting-started-with-rss-feeds.md` |
+| `content/english/blog/__markdown-formatting.md` |
+| `content/english/blog/__three-places-your-words-can-live.md` |
+| `content/english/blog/__kewpie-mayo.md` |
+| `content/english/blog/instant-pot-arroz-caldo.md` |
+| `content/english/blog/what-i-look-for-in-wireless-earphones.md` |
+| `content/english/blog/__canon-g3000.md` |
+| `content/english/blog/static-site-vs-cms.md` |
+| `content/english/blog/__hugo-go-templates.md` |
+| `content/english/blog/__hugo-shortcodes.md` |
+| `content/english/blog/one-page-zine.md` |
+| `content/english/blog/how-i-built-jorap-notes.md` |
+| `content/english/blog/__markdown-deep-dive.md` |
+| `content/english/blog/__why-brave-browser.md` |
+| `content/english/blog/hanamikoji-duopoly-retheme.md` |
+| `content/english/blog/sustainable-online-publishing.md` |
+| `content/english/blog/why-run-your-own-website.md` |
+| `content/english/blog/__client-site-pass-off.md` |
+| `content/english/blog/__shopee-tips.md` |
+| `content/english/blog/why-i-focused-on-open-source.md` |
+| `content/english/blog/__free-vs-freedom-open-source.md` |
+| `content/english/blog/hugoplate-theme-review.md` |
+| `content/english/blog/__mi-box-s.md` |
+| `content/english/blog/drupal-to-wordpress.md` |
+| `content/english/blog/__how-to-create-a-good-habit.md` |
+| `content/english/blog/facebook-favorites-feed.md` |
+| `content/english/blog/consistent-ai-output-wordpress-builds.md` |
+| `content/english/blog/__worcestershire-sauce.md` |
+| `content/english/blog/__jobs-to-be-done-framework.md` |
+| `content/english/blog/extension-cord.md` |
+| `content/english/blog/alex-eala-pro-career-tracker.md` |
+| `content/english/blog/__how-to-create-a-blog-template.md` |
+| `content/english/blog/__local-ai-my-machines.md` |
+| `content/english/blog/__tenant-not-landlord-on-the-web.md` |
+| `content/english/blog/__ai-contractor-problem-wordpress.md` |
+| `content/english/blog/instant-pot-chicken-adobo.md` |
+| `content/english/blog/__password-managers.md` |
+| `content/english/blog/__apple-strategically-late.md` |
+| `content/english/blog/__portable-cross-platform-software.md` |
+| `content/english/blog/__humanize-ai-articles.md` |
+| `content/english/blog/why-keep-desktop-laptop.md` |
+| `content/english/blog/__mcgill-big-three.md` |
+| `content/english/blog/__hugo-static-site-generator.md` |
+| `content/english/blog/_index.md` |
+| `content/english/blog/__grade-1-better-than-kumon.md` |
+| `content/english/blog/mouse-wheel-click.md` |
+| `content/english/blog/__native-hugo-taxonomies.md` |
+| `content/english/blog/__inter-font.md` |
+| `content/english/blog/dnpap-song-resources.md` |
+| `content/english/blog/__craft-prompt-framework.md` |
+| `content/english/blog/__remote-work-checklist.md` |
+| `content/english/blog/__second-cellphone.md` |
+| `content/english/blog/__tailwind-css-v4.md` |
+| `content/english/blog/why-i-stopped-playing-marvel-snap.md` |
+| `content/english/blog/__jorap-notes-features.md` |
+| `content/english/blog/__hugo-page-bundles.md` |
+| `content/english/blog/worship-pads-solo-guitar.md` |
+| `content/english/blog/__wifi-router.md` |
+| `content/english/blog/miracle-isaiah-david.md` |
+| `content/english/blog/__interesting-facts-about-jorap.md` |
+| `content/english/blog/set-it-forget-it-arroz-caldo.md` |
+| `content/english/blog/__sveltia-cms.md` |
+| `content/english/blog/__selling-static-sites.md` |
 </details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Reviewing the author context, reference posts, and blog templates. Searching for existing mentions of Applied Math, Operations Research, and CS education.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/author-context.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": true,
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "Applied Math|Operations Research|OR major|BS Math|quota|college|university|UP Diliman|CS course"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "Applied Math|Operations Research|OR major|BS Math|quota|college|university|UP Diliman|CS course",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-18_17-22-23Z-email-functionality-in-contact-us-form.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-07-26_15-20-51Z-garden-voice-batch-2.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-06-30_02-06-39Z-best-free-hosting-stacks.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-07-23_12-19-20Z-wider-levels-batch-0.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/blog/__markdown-formatting.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-07-03_04-41-11Z-shareable-lines-review.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-03_06-55-32Z-inspect-note-schema.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": ".specstory/history/2026-07-07_15-20-52Z-fair-use-of-biblical.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "assets/js/notes-creator.js"
+    },
+    {
+      "matchCount": 7,
+      "uri": ".specstory/history/2026-07-23_11-54-09Z-feynman-technique-for-notes.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-22_12-32-12Z-recorded-prayers-of-jesus.md"
+    },
+    {
+      "matchCount": 8,
+      "uri": ".specstory/history/2026-07-03_02-07-57Z-jorap-notes-functionality.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "_vendor/github.com/gethugothemes/hugo-modules/icons/font-awesome/assets/plugins/font-awesome/v6/icons.css"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-07-06_04-27-35Z-scale-clues-without-categories.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/blog/__jorap-notes-features.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-20_11-43-50Z-high-school-level-vocabulary.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-03_02-38-29Z-jorap-notes-features-update.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": ".specstory/history/2026-07-07_15-20-52Z-fair-use-of-biblical-text.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-03_05-57-22Z-writing-quality-model.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-20_11-46-55Z-jorap-voice-skill-vocabulary.md"
+    }
+  ],
+  "totalFiles": 48,
+  "totalMatches": 110
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-focused-on-open-source.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/archetypes/blog.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Checking the facts ledger for education-related details.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": true,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/__interesting-facts-about-jorap.md",
+  "pattern": "teacher|math|college|degree|UP|university|education|Applied"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/__interesting-facts-about-jorap.md",
+  "pattern": "teacher|math|college|degree|UP|university|education|Applied",
+  "topFiles": [
+    {
+      "matchCount": 28,
+      "uri": "content/english/blog/__interesting-facts-about-jorap.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 28
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-stopped-playing-marvel-snap.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "__*.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "image-template|/images/"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "image-template|/images/",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__worcestershire-sauce.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__mi-box-s.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__rechargeable-batteries.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__wifi-router.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__second-cellphone.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__inter-font.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__markdown-deep-dive.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__local-ai-my-machines.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__markdown-formatting.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__blog-template.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/blog/__how-to-create-a-blog-template.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__free-vs-freedom-open-source.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__tailwind-css-v4.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__ai-contractor-problem-wordpress.md"
+    }
+  ],
+  "totalFiles": 14,
+  "totalMatches": 50
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Drafting a blog post about adopting an optimized mindset after completing a BS in Applied Math with a focus on Operations Research.
+
+The core angle is that the Operations Research course served as a strategic bypass for the CS quota requirement. The author previously worked as a teacher before becoming a web developer in the Philippines. I will avoid inventing specific biographical details and instead draw from their open-source posts and existing notes on optimization and linear programming.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": true,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english",
+  "pattern": "operations research|linear program|optimization|applied math|OR major"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english",
+  "pattern": "operations research|linear program|optimization|applied math|OR major",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/about/_index.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/low-hanging-fruit.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__markdown-formatting.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/attention-economy.md"
+    }
+  ],
+  "totalFiles": 4,
+  "totalMatches": 5
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__grade-1-better-than-kumon.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Found key details on the about page.
+
+The user earned a BS in Applied Mathematics at UP Los Baños in 2001 and a Graduate Diploma in Computer Science there in 2003. This background will inform the draft post about an optimized mindset after Operations Research and using the major to bypass the CS quota course.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/about/_index.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "constraint|tradeoff|optimize|linear|decision"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "constraint|tradeoff|optimize|linear|decision",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/systems-for-growth.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/life-before-achievement.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "content/english/notes/habit-formation.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "content/english/notes/there-is-no-perfect-solution.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/control-the-rhythm.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/linking-by-meaning.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/seek-the-kingdom-first.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/follow-christ-then-lead.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/mind-mapping.md"
+    }
+  ],
+  "totalFiles": 9,
+  "totalMatches": 96
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Searching for notes on optimization, constraints, and tradeoffs to use as related references for the post.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "^slug:|title:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "^slug:|title:",
+  "topFiles": [
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/father-forgive-them.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/selling-static-sites.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/composure.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/love-your-enemies.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/servant-leadership.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/say-no-to-nulled.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/success-is-stewardship.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/blameless-after-action-review.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/create-regular-connection.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/inspectable-stack.md"
+    }
+  ],
+  "totalFiles": 10,
+  "totalMatches": 885
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **1** directory</summary>
+
+Directory: **``** (0 files)
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **1** directory</summary>
+
+Directory: **``** (0 files)
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **1** directory</summary>
+
+Directory: **``** (0 files)
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Searching for notes on tradeoffs, constraints, and decision-making to inform the blog.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "slug: \"(there-is-no-perfect|reversibility|minimum-effective|low-hanging|good-enough|constraint|tradeoff|decision)\""
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "slug: \"(there-is-no-perfect|reversibility|minimum-effective|low-hanging|good-enough|constraint|tradeoff|decision)\"",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/reversibility.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **1** result in **1** directory</summary>
+
+Directory: **``** (1 file)
+
+| File |
+|------|
+| `content/english/notes/reversibility.md` |
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **1** result in **1** directory</summary>
+
+Directory: **``** (1 file)
+
+| File |
+|------|
+| `content/english/notes/minimum-effective-dose.md` |
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **1** result in **1** directory</summary>
+
+Directory: **``** (1 file)
+
+| File |
+|------|
+| `content/english/notes/there-is-no-perfect-solution.md` |
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Searching for notes on learning and systems thinking to inform the blog draft.
+
+Drafting the blog now. The piece will cover the Applied Math major with an Operations Research specialization, the honest reason it was chosen—partly to avoid the crowded CS quota—and how that background shaped an optimized mindset around constraints and tradeoffs. It will weave in personal stories like the career shift to web development, parenting math games, and open-source choices. The tone will stay conversational and avoid jargon.
+
+Applied Math served as a bridge to CS; the author earned a Grad Diploma in CS in 2003. The draft will open with the honest admission about dodging the CS quota. It will explain how Operations Research concepts like constraints and objective functions shape daily decisions without heavy jargon. The piece will also acknowledge the downside: not everything is a linear program, and the mindset can overfit. The goal is to land on something practical.
+
+Course references will stay generic rather than naming specific UP classes. A facts ledger row will be added for the OR specialization and CS quota dodge strategy. The draft will be scored with slop after creation.
+
+The phrase "optimized mindset" will anchor the draft, with "optimization" kept minimal and translated into plain language. Banned voice words like "delve," "tapestry," and "harness" will be avoided, along with em dashes, currency, and fake balance. The section outline is being drafted now.
+
+The draft will follow five sections: the quota dodge confession, a plain-English explanation of Operations Research, the sticky mindset of constraints and tradeoffs, where that thinking surfaces today, and a closing note that not everything reduces to a model. The piece will be written in JoRap voice, tracing the teacher-to-developer arc against the UPLB and Philippines context. The filename and slug are finalized.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Drafting the post from your UPLB background and the OR-as-CS-quota-dodge angle, in your usual opinion-post voice.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__optimized-mindset-applied-math-or.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Running lint checks on the draft blog.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm slop:score content/english/blog/__optimized-mindset-applied-math-or.md &amp;&amp; pnpm lint:blog content/english/blog/__optimized-mindset-applied-math-or.md 2&gt;&amp;1 | head -40</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && pnpm slop:score content/english/blog/__optimized-mindset-applied-math-or.md && pnpm lint:blog content/english/blog/__optimized-mindset-applied-math-or.md 2>&1 | head -40
+```
+
+```
+$ node scripts/runPython.mjs scripts/voice-lint.py score content/english/blog/__optimized-mindset-applied-math-or.md
+__optimized-mindset-applied-math-or.md   words= 986 total=  5 per100w=  0.51
+$ node scripts/runPython.mjs scripts/normalize-blog-frontmatter.py --verify && node scripts/runPython.mjs scripts/voice-lint.py slop --check --blog-only content/english/blog/__optimized-mindset-applied-math-or.md
+Blog frontmatter OK
+Slop lint OK
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The draft passed quality checks. Slop score is 0.51 per 100 words. Linting passed.
+
+Now running voice lint.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm lint:voice content/english/blog/__optimized-mindset-applied-math-or.md 2&gt;&amp;1</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:voice content/english/blog/__optimized-mindset-applied-math-or.md 2>&1
+```
+
+```
+$ node scripts/runPython.mjs scripts/voice-lint.py dashes --check && node scripts/runPython.mjs scripts/voice-lint.py site --check content/english/blog/__optimized-mindset-applied-math-or.md
+Voice dash lint OK
+Voice lint OK
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Lint checks passed. The facts ledger needs updating with the Operations Research track and CS quota dodge details.
+
+Reading the ledger structure to find the right place for the new row.
+</details></think>
+
+_**Agent (auto-low)**_
+
+I'll add the new education details to your facts ledger so future drafts stay consistent.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__interesting-facts-about-jorap.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Checking the ledger for an education section. Adding one if it is missing.
+
+Reading the beginning of the file.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__interesting-facts-about-jorap.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Planning to insert an Education section between the Pia and Freelance sections, or add rows to an existing section.
+
+No education section exists yet. I'll add one after the kitchen section and before Freelance. I'll also update the author-context quick anchors with education details. The draft will summarize the completed work and ask the user to refine it with specific memories, such as professor names or favorite courses.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__interesting-facts-about-jorap.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/author-context.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The draft is complete. A human pass would help add specific professor names, course memories, and UP enrollment stories.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Draft is at `content/english/blog/__optimized-mindset-applied-math-or.md` (`draft: true`).
+
+**Angle:** Honest opener - you wanted CS, Applied Math with an OR track was the side door past the quota crowd. The post isn't a course recap; it's about the decision framing that stuck: goals, constraints, feasible moves, revisiting when inputs change.
+
+**Sections:**
+1. The quota dodge confession
+2. What OR actually taught (linear programming, queuing, inventory - in plain English)
+3. How it showed up in career moves (Drupal→WordPress, Hugo, open source)
+4. Parenting and habits as constraint problems
+5. When the model fails (people aren't variables, sleep debt, non-quantifiable life)
+6. Advice for someone picking a major today
+
+**Tied to your archive:** UPLB BS 2001 + Grad Diploma CS 2003 (from About), Kumon/grade-1 math games, Drupal/WordPress market reality, Hugo maintenance budget, open-source teaching.
+
+**Lint:** slop score 0.51 per100w, blog/voice/slop clean.
+
+**Human pass candidates** if you want to sharpen it:
+- A specific OR course or professor that clicked (or didn't)
+- The actual enrollment story at UPLB (how you picked the OR track within Applied Math)
+- A concrete "I used simplex thinking on X and it was wrong" anecdote from teaching or early dev work
+
+Swap `image: "/images/note.jpg"` before publish if you want a dedicated hero.
+
+## Session close
+- Fixed: Draft blog on OR mindset and the CS-quota dodge strategy at UPLB
+- Encode: none (ledger + author-context updated for education facts)
+- Open: Human pass for specific UPLB memories; hero image swap optional

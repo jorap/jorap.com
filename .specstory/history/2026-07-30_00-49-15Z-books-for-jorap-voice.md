@@ -623,3 +623,179 @@ Additional data:
 Status: **completed**
 
 </details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Synthesizing book recommendations for jorap-voice, modeled after how Maxwell's "Everyone Communicates, Few Connect" integrates into the connection lens.
+
+Maxwell is already embedded in jorap-voice. Forte, Cal Newport, Orwell, and the commonplace book concept remain outside the skill. These could be formalized next.
+
+Maxwell serves as a single lens model rather than dominant framework. Recommendations will target structural gaps in jorap-voice and map each candidate to a specific lens or pass. Priority will go to books already in the user's stack or actively used.
+
+Tiago Forte's "Building a Second Brain" could add a "Ship it" lens to jorap-voice for blog structure. Cal Newport's "Deep Work," "Digital Minimalism," and "Slow Productivity" already live in the user's practice. William Zinsser's "On Writing Well" maps directly to jorap-voice passes #2, #7, and the vocabulary section.
+
+George Orwell's "Politics and the English Language" rules map to the de-AI pass. William Strunk Jr.'s "Elements of Style" offers a simpler alternative to Zinsser. Anne Lamott's "Bird by Bird" fits the ai-writing-system workflow. Stephen King's "On Writing" supports the experiential pillar. Credibility additions may overlap with Maxwell. Faith-aligned content should avoid preachiness.
+
+Classic copywriting is too salesy for JoRap. Chip and Dan Heath's "Made to Stick" offers concrete frameworks but may feel corporate. Ann Handley's "Everybody Writes" is a strong fit. Gerald Weinberg's "The Field Guide to Understanding Human Error" is too niche. Dreyer's English provides precision without snobbery. Stein on Writing is too craft-focused. The Sense of Style by Pinker fits the vocabulary section.
+
+Recommendations will be grouped by which jorap-voice component they strengthen. Each should follow the same pattern as Maxwell: one named lens with principles that translate into writing moves, not a book report.
+
+A good fit must satisfy four criteria: it fills a gap the seven passes do not fully cover, JoRap has already lived it or has notes embodying it, it offers actionable checklist items rather than vibes, and its language stays plain and aligned with the skill.
+
+Maxwell succeeds because it centers on personal connection, keeps the framework short, and maps cleanly to one lens. The best candidates will share these same properties.
+
+Corporate leadership and SEO copywriting guides should stay out of jorap-voice. Forte and Newport belong in sibling skills or as cross-links rather than bloating the skill itself.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/create-regular-connection.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "Zinsser|Orwell|Lamott|Heath|Handley|King.*Writing|On Writing"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "Zinsser|Orwell|Lamott|Heath|Handley|King.*Writing|On Writing",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The create-regular-connection note exists but is not explicitly Maxwell-sourced.
+
+Maxwell is currently the only book explicitly in jorap-voice. Sibling skills already cover Forte. Strong candidates include Zinsser for plain words and clutter cutting, Orwell for six rules against slop, and Lamott for first-draft permission. These would align with specific lenses and follow the same incorporation pattern.
+
+Newport’s Digital Minimalism and Deep Work offer practical routines like blocked time and post-breakfast writing cues. Made to Stick and Handley Everybody Writes sharpen concrete clarity and respect. Pressfield’s War of Art targets resistance and procrastination. Faith books would suit worship notes rather than blog voice. The sustainable online publishing post may echo Forte and BASB.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/sustainable-online-publishing.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/facebook-favorites-feed.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Preparing a structured list of books to suggest for /jorap-voice.
+
+The response will follow a five-part structure. It will explain the Maxwell pattern used. It will identify sibling books already in the ecosystem but missing from /jorap-voice. It will map high-fit additions to specific lenses. It will suggest ways to avoid bloating the skill. It will flag books that do not fit the JoRap voice. The goal is to help the user expand their draft with practical additions.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Right now **jorap-voice** only names one book explicitly: Maxwell’s *Everyone Communicates, Few Connect* powers the **connection lens** (reader-first open, common ground, action close). Forte and Newport already live in **sibling skills** and your notes garden — not as book frameworks inside jorap-voice itself.
+
+Here’s how I’d think about adding more, without turning the skill into a reading list.
+
+## The Maxwell pattern (what to copy)
+
+What works in your skill isn’t “cite a leadership book.” It’s:
+
+1. **One lens** with a short name (connection, clutter, ship, etc.)
+2. **Principles → writing moves** (tables, not book summary)
+3. **A quick test** (communicates vs connects)
+4. **Lived proof** on the site (your Maxwell draft, Facebook Favorites, Hugo-after-breakfast habits)
+
+Add books only when they fill a gap the seven passes don’t already cover.
+
+## Best fits (already in your archive)
+
+| Book / source | Map to | Why it fits JoRap |
+|---------------|--------|-------------------|
+| **William Zinsser, *On Writing Well*** | **Clutter lens** on passes #2 and #7 | “Every word must work” = your plain-words rule. Pairs with `voice-words.yaml` and `pnpm slop:score`. |
+| **George Orwell, “Politics and the English Language”** | **De-AI lens** (pass #2) | Six rules map cleanly to your AI-tells list: kill pretension, passive voice, ready-made phrases. You’ve already discussed this in slop work — formalize it. |
+| **Cal Newport, *Digital Minimalism*** | **Attention lens** (openings, scope) | You already live this: [facebook-favorites-feed.md](content/english/blog/facebook-favorites-feed.md), [digital-minimalism.md](content/english/notes/digital-minimalism.md), phone-in-drawer habits in author-context. |
+| **Cal Newport, *Deep Work* / *Slow Productivity*** | **Scope lens** (one point per section) | “Protect the block, cut the pipes” = don’t write a tour of everything you know. Matches pass #5 and your “useful takeaway early” likability pillar. |
+| **Tiago Forte (BASB / ship mindset)** | **Ship lens** (closings, outlines) | Already in [ai-writing-system](../ai-writing-system/SKILL.md): notes → output, not hoarding. Good for wiki-export posts and “lobby not library” framing from [sustainable-online-publishing.md](content/english/blog/sustainable-online-publishing.md). |
+| **Anne Lamott, *Bird by Bird*** | **Draft permission** (workflow, not voice) | “Shitty first draft, then edit” belongs in **ai-writing-system**, not jorap-voice — but one line in pass #7 (“roughen over polish”) could cite it. |
+
+**Strongest two to add next:** Zinsser (clutter/plain words) and Orwell (de-AI). They reinforce what the skill already does, with zero tone mismatch.
+
+## Good second tier (if you’ve actually read them)
+
+| Book | Lens | Fit |
+|------|------|-----|
+| **Chip & Dan Heath, *Made to Stick*** | **Credible lens** (pass #6) | Concrete > abstract; one sticky detail per section. Watch the corporate “SUCCESs” acronym — steal the moves, not the branding. |
+| **Ann Handley, *Everybody Writes*** | **Likability lens** | Useful + respectful without hype. Close to your “competence with the door open” tone. |
+| **Steven Pressfield, *The War of Art*** | **Friction lens** | Resistance, showing up after breakfast — matches your writing cue in author-context. Better as one bullet in ai-writing-system than a full lens. |
+| **Stephen King, *On Writing*** | **Honesty lens** | Truth + cutting adverbs. Fits experiential/honest pillars; less checklist-friendly than Zinsser. |
+
+## Keep out of jorap-voice (or only cross-link)
+
+- **SEO/copywriting classics** (Caples, Ogilvy) — fights “not selling me” likability.
+- **Generic leadership shelves** — Maxwell works because you have a real story; don’t stack more unless you lived them.
+- **Forte PCM / master prompt detail** — stays in [personal-context-management](../personal-context-management/SKILL.md).
+- **Faith/theology books** — garden-voice + note doctrine, not blog voice mechanics (unless the post is explicitly faith).
+
+## Suggested skill shape (avoid bloat)
+
+Don’t add a “Books” section with summaries. Mirror Maxwell:
+
+```
+## [Name] lens (optional pass)
+One sentence frame.
+| They wonder… | You write… |
+| Principle | On the page |
+Quick test: before / after example.
+```
+
+**Where each lens runs:**
+
+| Lens | When |
+|------|------|
+| **Connection** (Maxwell) | Every publish — already mandatory |
+| **Clutter** (Zinsser) | Pass #7 + `lint:voice` |
+| **De-AI** (Orwell) | Pass #2 + `lint:slop` |
+| **Attention** (Newport) | Opinion, social, productivity posts |
+| **Ship** (Forte) | Outlines, wiki exports, long how-tos |
+
+Optional: a small `references/bookshelf.md` with 3–5 one-line “steal this move” bullets per book, linked from SKILL.md — same pattern as `examples.md`.
+
+## Personal credibility filter
+
+Your ledger still has **“last fun book”** in the gap table. Before encoding a book in the skill, ask:
+
+- Have I used it for *years*, not just agreed with a summary?
+- Is there a **published post or note** that proves I live it?
+- Does it add a **checklist move** Maxwell doesn’t already cover?
+
+Maxwell earned its place (contributor credit + connection framework). Zinsser/Orwell/Newport pass that bar from existing posts and habits. Heath/Handley/King only if you want to claim them on the shelf.
+
+If you want this implemented in the repo, switch to Agent mode and say which 1–2 lenses to add first — I’d start with **Zinsser clutter** + **Orwell de-AI** since they tighten what you already lint.

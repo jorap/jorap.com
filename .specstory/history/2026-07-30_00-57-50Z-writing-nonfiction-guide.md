@@ -4830,4 +4830,106 @@ _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
 Creating a compact `zinsser.md` reference that maps Zinsser's writing principles to JoRap's existing workflow.
+
+SKILL.md will reference the new guide. The file will contain a core thesis table, an action checklist grouped by workflow stage, clutter-killers, lead and ending rules, and a section on JoRap-specific additions. It will remain dense and practical.
+
+The workflow step will direct full rewrites to the new guide. Frontmatter may be updated. The draft will stay under 150 lines.
 </details></think>
+
+_**Agent (auto-low)**_
+
+Adding a distilled Zinsser reference mapped to the existing jorap-voice workflow, not duplicating the full book.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/zinsser.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The skill description in frontmatter should mention Zinsser. A line should be added to the examples.
+
+No examples.md file will be created. Optional links to Zinsser may be added to ai-writing-system.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+I will summarize the completed work and explain how Zinsser's principles map to JoRap without repeating the book content.
+</details></think>
+
+_**Agent (auto-low)**_
+
+`On Writing Well` is now wired into jorap-voice as craft backbone, without pasting the book into the skill.
+
+### New file: [`.cursor/skills/jorap-voice/zinsser.md`](.cursor/skills/jorap-voice/zinsser.md)
+
+Distilled, agent-actionable rules from the text you shared:
+
+| Zinsser theme | Encoded as |
+|---------------|------------|
+| **The transaction** | Sell who you are; first person; real person on the page |
+| **Simplicity / clutter** | Bracket test, clutter table, concept-noun fixes |
+| **Unity** | One pronoun, tense, mood, scope, and takeaway |
+| **Lead & ending** | Earn sentence two; stop without "In sum…" |
+| **Bits & pieces** | Active verbs, adverb/adjective/qualifier cuts, read aloud |
+| **Rewriting** | Rewriting is the work; fluency ≠ quality |
+| **Trust your material** | Color in the lead; don't over-explain |
+| **Voice** | Breezy vs effortless; clichés as taste failures |
+
+Also includes a **map from Zinsser → the seven passes**, a pre-publish skim checklist, and explicit **JoRap deltas** (roughen not smooth, connection lens, no currency, lint/slop gates).
+
+### Updates to [`SKILL.md`](.cursor/skills/jorap-voice/SKILL.md)
+
+- Craft backbone pointer at the top
+- Workflow step 9: skim `zinsser.md` on full rewrites
+- Pass #7 and voice check tie-ins
+- Frontmatter description mentions Zinsser
+
+**Division of labor:** Zinsser = sentence-level nonfiction craft. JoRap voice = whose scenes, whose take, connection with the reader. Both run on every serious edit; Zinsser doesn't replace Maxwell, likability, or `pnpm lint:voice`.
+
+If you want the same treatment for *Elements of Style* or Orwell's "Politics and the English Language" next, say which one.
+
+## Session close
+- Fixed: Added `zinsser.md` and linked it from jorap-voice workflow, passes, and voice check
+- Encode: none
+- Open: clean

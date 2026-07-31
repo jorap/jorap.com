@@ -516,6 +516,17 @@ Parameters:
   "url": "https://gulfnews.com/sport/tennis/alex-eala-stuns-defending-champion-leylah-fernandez-to-reach-quarter-finals-1.500624737"
 }
 ```
+Additional data:
+
+```json
+{
+  "reviewData": {
+    "isShowingInput": false,
+    "selectedOption": "run",
+    "status": "None"
+  }
+}
+```
 Result:
 
 ```json
@@ -547,6 +558,17 @@ Parameters:
 ```json
 {
   "url": "https://tennishead.net/alex-ealas-speech-on-court-immediately-after-beating-leylah-fernandez-in-washington/"
+}
+```
+Additional data:
+
+```json
+{
+  "reviewData": {
+    "isShowingInput": false,
+    "selectedOption": "run",
+    "status": "None"
+  }
 }
 ```
 Result:

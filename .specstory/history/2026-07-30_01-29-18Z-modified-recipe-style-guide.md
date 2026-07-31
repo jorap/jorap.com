@@ -1282,4 +1282,161 @@ _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
 Updating the jorap-voice recipe style rule so it only matches ingredients currently being cooked.
+
+Only repeat ingredient amounts when adding to the pot or pan. Marination and prep steps should omit full amounts.
+
+I'll update recipe-style.md, SKILL.md, and the modified rules block. Blog posts that over-applied the rule will be corrected too.
+
+Checking specific examples. The adobo reserved marinade step may drop its parenthetical amount since those quantities were already listed in step 1. Browning chicken without adding new ingredients to the pot should not repeat amounts. Adding reserved marinade plus water and vinegar to the pot does warrant repeating the amounts.
+
+Arroz caldo prep steps should use shorter references since nothing is being added to the pot yet. Step 2 and step 3 both add ingredients to the Instant Pot and should repeat amounts. Step 6 serves as a final addition and should also repeat amounts.
+
+Removing "from list above" references remains bad even under the refined rule. Adobo step 2 keeps its 2 kg weight because it identifies what is being removed. Arroz caldo step 1 prep should also drop full amounts since nothing is being added to the pot yet.
 </details></think>
+
+_**Agent (auto-low)**_
+
+Refining the recipe rule: repeat amounts only when adding to the cook, then updating the skill docs and recipe posts.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/recipe-style.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/instant-pot-chicken-adobo.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/instant-pot-arroz-caldo.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/set-it-forget-it-arroz-caldo.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Updating recipe-style.md to restrict step repetition to additions made to what is being cooked.
+
+Also updating SKILL.md and the modified recipe style guide. For the Adobo recipe, trimming redundant weight references from steps where the action is removing or transferring rather than adding ingredients.
+
+Arroz caldo and rice cooker prep steps will drop amounts since they do not add to the pot. Full amounts remain for steps that actually add ingredients to the pot or bowl.
+
+Rice cooker step 2 keeps full amounts because everything is added directly to the cooker. Adobo step 1 and step 5 retain full amounts since they add ingredients to the pot and sauce respectively.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/recipe-style.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/recipe-style.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__modified-atk-recipe-style-guide-rules.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/instant-pot-chicken-adobo.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/instant-pot-chicken-adobo.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/instant-pot-arroz-caldo.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/set-it-forget-it-arroz-caldo.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The Measurements bullet in recipe-style.md needs clarification. It should specify that amounts in steps must match ingredient formats only on add lines.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/recipe-style.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Updating the /jorap-voice recipe to only match ingredients currently being cooked.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Updated the rule: **repeat amounts only on add lines** — when something goes into the pot, pan, or serving bowl.
+
+**Not repeated:** prep (mince, rinse), reserve, transfer, or things already combined (`reserved marinade`).
+
+**Still blocked on add lines:** "from the list above" and bare ingredient names.
+
+**Recipe posts adjusted:**
+- Adobo Step 3: `Reserved marinade` without re-listing soy/garlic/etc.
+- Adobo Step 2: dropped `2 kg` on remove (not an add)
+- Arroz caldo prep steps: plain names, no amounts until the dump-in step
+
+Add steps (marinade combine, liquids into pot, rice/chicken in, toppings, sweetener) still carry full metric-first amounts.
+
+## Session close
+- Fixed: jorap-voice recipe rule narrowed to add-lines-only; three posts aligned.
+- Encode: none (this was the encode)
+- Open: clean

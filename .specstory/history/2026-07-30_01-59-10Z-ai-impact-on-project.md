@@ -1760,3 +1760,42 @@ _**Agent (auto-low)**_
 <summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/how-ai-helps-build-sites-and-content.md</summary>
 
 </details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Renaming the file to `__how-ai-helps-build-sites-and-content.md`, setting `draft: true`, and deleting the old version.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__how-ai-helps-build-sites-and-content.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="delete_file"><details>
+<summary>Tool use: **delete_file**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Files were edited. The session is closing.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Set `draft: true` and moved it to the draft filename convention:
+
+`content/english/blog/__how-ai-helps-build-sites-and-content.md`
+
+`slug: "how-ai-helps-build-sites-and-content"` is still in frontmatter so the URL is ready when you publish (drop `__`, set `draft: false`).
+
+## Session close
+- Fixed: AI blog post kept as draft with `__` filename prefix.
+- Encode: none
+- Open: clean

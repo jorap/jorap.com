@@ -2895,4 +2895,165 @@ _**Agent (auto-low)**_
 Adding Take Smart Notes / Ahrens to the garden-voice skill.
 
 Adding a reference note and compact Ahrens-aligned section to the garden-voice skill. This covers book-note shapes, slip-box linking, and drafting concepts like permanent versus fleeting notes. Keeping it minimal and consistent with the existing workflow.
+
+The plan now includes three Ahrens-aligned reference notes: take-smart-notes.md, literature-notes.md, and evergreen-vs-fleeting-notes.md. A new "PKM lane (Ahrens)" section will define what garden notes should reflect. Book anchor notes will point to the three-book-note pattern. examples.md will get a take-smart-notes example for key_concept. The skill frontmatter will also mention Ahrens and slip-box.
+
+Checking ai-writing-system for book-note patterns to align with.
 </details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.cursor/skills/ai-writing-system",
+  "pattern": "book|Ahrens|GTD|Forte"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.cursor/skills/ai-writing-system",
+  "pattern": "book|Ahrens|GTD|Forte",
+  "topFiles": [
+    {
+      "matchCount": 5,
+      "uri": ".cursor/skills/ai-writing-system/SKILL.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": ".cursor/skills/ai-writing-system/implementation-guide.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".cursor/skills/ai-writing-system/feedback-loop.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".cursor/skills/ai-writing-system/style-priorities.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".cursor/skills/ai-writing-system/writing-samples.md"
+    }
+  ],
+  "totalFiles": 5,
+  "totalMatches": 12
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/take-smart-notes.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Updating the garden-voice skill documentation.
+
+Adding a "PKM lane (Ahrens)" section to the garden-voice skill. This covers reference notes, book anchors, and Ahrens alignment for drafting. Examples.md will get a take-smart-notes pattern and Ahrens vocabulary gloss. Skill frontmatter will mention slip-box and permanent notes. Changes stay minimal and cohesive.
+
+The Ahrens slip-box framework uses three buckets: fleeting inbox, permanent garden, and project drafts. Permanent notes are complete thoughts written in your own words. Source material stays tied to its book; atoms link out. The garden anchor is `content/english/notes/take-smart-notes.md`.
+
+Bottom-up topics emerge from clusters rather than brainstorming. Literature notes should be taken in your own words with a pen, not as highlight dumps. Book anchor notes will draw shape from `getting-things-done.md`, `building-a-second-brain.md`, and `take-smart-notes.md`. The PKM lane reference notes include `capture.md`, `rollback-principle.md`, `literature-notes.md`, and `evergreen-vs-fleeting-notes.md`. A book anchor example for `take-smart-notes` key_concept line 1 will be added to examples.md.
+
+Vocabulary swaps will define "external scaffolding" as "notes you thiinside" and "elaborate" as "spell out in your words". No separate ahrens.md file will be created. Session close applies since .cursor/skills was modified.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Updating the garden-voice skill with Ahrens reference notes, PKM lane guidance, and an examples entry.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/garden-voice/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/garden-voice/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/garden-voice/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/garden-voice/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/garden-voice/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/garden-voice/examples.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/garden-voice/examples.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Fixing a wikilink in SKILL.md. The Atomic Notes reference inside a markdown table may need adjustment.
+
+Confirmed the relative path to take-smart-notes.md is correct. The Atomic Notes wikilink is acceptable for skill documentation. Tooling edits are now complete.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Updated **garden-voice** so Ahrens is part of the workflow, not just a garden note.
+
+### `SKILL.md`
+- **Description** — PKM notes aligned with slip-box (permanent vs fleeting, literature notes).
+- **Reference reads** — `take-smart-notes.md`, Ahrens stack (`literature-notes`, `evergreen-vs-fleeting`, `atomic-notes`), and book-anchor trio (GTD, BASB, Take Smart Notes).
+- **New section: PKM lane (Ahrens)** — table mapping Ahrens ideas to garden fields, book-anchor shape rules, no chapter dumps in frontmatter.
+- **Vocabulary swaps** — `elaborate`, `external scaffolding`, `slip-box` / `Zettelkasten`.
+- **Do not** — paste book chapters; link `[[Take Smart Notes]]` from distilled atoms.
+
+### `examples.md`
+- Header list includes `take-smart-notes.md`.
+- **Book anchor** example for `key_concept` (claim + link stack, not chapter summary).
+
+Future PKM garden edits should read `take-smart-notes.md` and follow the three-bucket / literature-vs-permanent pattern.
+
+## Session close
+- Fixed: Encoded Ahrens slip-box guidance into garden-voice skill and examples.
+- Encode: done in this turn (garden-voice SKILL.md + examples.md).
+- Open: clean

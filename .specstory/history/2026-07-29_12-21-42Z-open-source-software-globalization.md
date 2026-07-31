@@ -308,3 +308,28 @@ Voice lint OK
 
 ```
 </details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Friedman's flattening effect inspired a focus on open source.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Reframed the section around deliberate choice, not just naming what you were already doing.
+
+The arc is now:
+
+1. **Accident → focus** — PHP/XAMPP came from budget and locked-down PCs; Friedman is what made you bet on open source on purpose.
+2. **The flattener as strategy** — "This is where the world is going." If #4 was flattening the field, proprietary stacks were yesterday's gate.
+3. **Why #4 over the other nine** — corporate flatteners vs. the one you could ride from Laguna.
+4. **Theory + proof** — Friedman gave the frame; Apache/Firefox/Ubuntu/WordPress gave the evidence.
+5. **Closing line** — open source stopped being the path you fell into because you were broke; it became the path you **chose** because it was a flattener.
+
+Renamed the heading to **"Friedman is why I focused on it"** so it ties directly to the post title.
+
+## Session close
+- Fixed: Friedman section now frames flattener #4 as the inspiration for deliberately focusing on open source
+- Encode: none
+- Open: clean

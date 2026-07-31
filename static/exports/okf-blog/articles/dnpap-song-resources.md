@@ -6,7 +6,7 @@ resource: "https://www.jorap.com/blog/dnpap-song-resources/"
 tags: ["DNPAP", "Destiny Music", "Filipino Worship", "Worship Resources", "OPM", "Christian Music", "Spotify", "YouTube"]
 generated: { by: process:export-okf-blog-bundle, at: 2022-11-12T05:00:00Z }
 ---
-**DNPAP** is memorable to me mainly because my wife sings it. Destiny Music wrote and released it - Pia was on the studio vocal, not the songwriter. I was there for the remote recording during COVID; my mother-in-law watched our son while Pia tracked her vocal. This page collects the studio single, live cut, official videos, and artist links. Bookmark it if you sing it too.
+If you sing **DNPAP** in church or stream it on Spotify, this is the link page I keep bookmarked. It's memorable to me mainly because my wife sings the studio vocal - Destiny Music wrote and released it; Pia tracked her part, not the songwriting. I was there for the remote recording during COVID; my mother-in-law watched our son while Pia tracked her vocal. Studio single, live cut, official videos, and artist links below.
 
 ## What does DNPAP mean?
 

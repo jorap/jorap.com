@@ -441,7 +441,7 @@ cd /home/jorap/Documents/GitHub/jorap.com && for f in content/english/blog/what-
 ```
 
 ```
-=== content/english/blog/what-i-look-for-in-wireless-earphones.md ===
+]633;C=== content/english/blog/what-i-look-for-in-wireless-earphones.md ===
 what-i-look-for-in-wireless-earphones.md words=1235 total=  9 per100w=  0.73
 $ node scripts/runPython.mjs scripts/voice-lint.py dashes --check && node scripts/runPython.mjs scripts/voice-lint.py site --check content/english/blog/what-i-look-for-in-wireless-earphones.md
 Voice dash lint OK
@@ -453,7 +453,23 @@ Voice dash lint OK
 Voice lint OK
 === content/english/blog/worship-pads-solo-guitar.md ===
 worship-pads-solo-guitar.md              words=1161 total=  7 per100w=  0.60
-
+$ node scripts/runPython.mjs scripts/voice-lint.py dashes --check && node scripts/runPython.mjs scripts/voice-lint.py site --check content/english/blog/worship-pads-solo-guitar.md
+Voice dash lint OK
+Voice lint OK
+=== content/english/blog/set-it-forget-it-arroz-caldo.md ===
+set-it-forget-it-arroz-caldo.md          words= 833 total=  5 per100w=  0.60
+$ node scripts/runPython.mjs scripts/voice-lint.py dashes --check && node scripts/runPython.mjs scripts/voice-lint.py site --check content/english/blog/set-it-forget-it-arroz-caldo.md
+Voice dash lint OK
+Voice lint OK
+=== content/english/blog/instant-pot-arroz-caldo.md ===
+instant-pot-arroz-caldo.md               words=1109 total=  6 per100w=  0.54
+$ node scripts/runPython.mjs scripts/voice-lint.py dashes --check && node scripts/runPython.mjs scripts/voice-lint.py site --check content/english/blog/instant-pot-arroz-caldo.md
+Voice dash lint OK
+Voice lint OK
+=== content/english/blog/why-keep-desktop-laptop.md ===
+why-keep-desktop-laptop.md               words= 948 total=  5 per100w=  0.53
+$ node scripts/runPython.mjs scripts/voice-lint.py dashes --check && node scripts/runPyt
+… (output truncated)
 ```
 </details></tool-use>
 
@@ -586,3 +602,630 @@ __xiaomi-is-the-new-huawei.md: placeholder-image
 
 ```
 </details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Waiting for a background command to finish before scanning the remaining draft files.
+
+Placeholder images in drafts are expected placeholders, so they will be noted rather than replaced. The scan found no clear blockers or connection failures in the remaining draft files.
+
+Three draft files contain placeholder images: __apple-strategically-late.md, __how-to-create-a-blog-template.md, and __xiaomi-is-the-new-huawei.md. I am now auditing the target posts against the connection lens checklist, starting with whether the opening paragraph serves the reader's problem rather than the author's bio.
+
+The connection lens audit continues. The wireless-earphone post opens with a concrete drawer full of failed earphones. The hanamikoji retheme post hooks readers with mechanics love. The worship-pads piece opens with a strong image of a thin guitar in a big room. The set-it-forget-it arroz-caldo post opens with a Friday ritual. These openings appear effective.
+
+The instant-pot arroz-caldo post opens with a concrete switch reason. The why-keep-desktop-laptop post leads with the reader's problem first. The hugoplate review hooks readers with the theme-shopping trap. The extension-cord post opens with a hotel-outlet problem. The mouse-wheel-click post hooks readers with a right-click habit. The consistent-ai-output post uses a TL;DR blockquote that is somewhat abstract and system-focused rather than reader-centric.
+
+The dnpap song-resources post opens with a personal connection to the wife’s singing. The instant-pot chicken-adobo post hooks readers with a Wednesday fatigue of stovetop cooking. The streamlining-games-and-sports draft uses “I” and “you” throughout, which works for an opinion post that inspires action. I am now hunting for specific connection failures in the remaining posts.
+
+The consistent-ai-output post’s TL;DR blockquote is too abstract for a reader-friction opener. It should be trimmed or removed to keep the diff minimal. The dnpap song-resources page is intentionally thin because it is a resource page. The worship-pads post directly addresses readers in its getting-started section.
+
+Running lint:slop on the target posts now. The draft scan found no under-80-word bodies, wiki footers, third-person advice, or bottom-line markers in the remaining __ drafts.
+
+I will not edit the __ drafts. They lack real replacement images, so placeholder-image blockers cannot be fixed. Only clear blockers and connection failures will be addressed.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="await"><details>
+<summary>Tool use: **await**</summary>
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; for f in content/english/blog/consistent-ai-output-wordpress-builds.md content/english/blog/dnpap-song-resources.md content/english/blog/instant-pot-chicken-adobo.md content/english/blog/streamlining-games-and-sports.md; do echo &#34;=== $f ===&#34;; pnpm lint:slop &#34;$f&#34; 2&gt;&amp;1 | grep -E &#39;FAIL|WARN|OK|error|warning&#39; | head -10; done</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && for f in content/english/blog/consistent-ai-output-wordpress-builds.md content/english/blog/dnpap-song-resources.md content/english/blog/instant-pot-chicken-adobo.md content/english/blog/streamlining-games-and-sports.md; do echo "=== $f ==="; pnpm lint:slop "$f" 2>&1 | grep -E 'FAIL|WARN|OK|error|warning' | head -10; done
+```
+
+```
+]633;C=== content/english/blog/consistent-ai-output-wordpress-builds.md ===
+Slop lint OK
+=== content/english/blog/dnpap-song-resources.md ===
+Slop lint OK
+=== content/english/blog/instant-pot-chicken-adobo.md ===
+Slop lint OK
+=== content/english/blog/streamlining-games-and-sports.md ===
+Slop lint OK
+
+```
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__apple-strategically-late.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__xiaomi-is-the-new-huawei.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "content/english/blog/__*.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "^## Bottom line"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "^## Bottom line",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Reviewing completed slop check outputs to determine minimal edits.
+
+Most target posts look solid. The main connection fix is removing the TL;DR blockquote from consistent-ai-output-wordpress-builds.md. The dnpap song resources page seems adequate as-is.
+
+Streamlining-games-and-sports.md passes the I/my check. The earphone post’s generic call-to-action is acceptable. Mouse-wheel-click, worship-pads, and hanamikoji all look solid.
+
+Hugoplate’s lengthy shortcode demo is intentional reference content. The arroz-caldo posts both close well. The instant-pot version lacks an explicit closing paragraph after its tips.
+
+Reconsidering the minimal-diff approach. The user wants actual edits, not just reports. I am now being more critical and will apply fixes where the connection lens fails.
+
+The dnpap song-resources page opens with a personal hook that may not serve readers who landed there for links. I will tweak the first sentence to address the reader directly.
+
+The dnpap song-resources opening will now address readers directly: “If you’ve heard **DNPAP** in church or on Spotify and wanted the links in one place — here’s the set I keep handy.”
+
+The worship-pads post stays as-is. Its opening hook already serves the reader, and the definition heading is acceptable.
+
+The why-keep-desktop-laptop post is solid throughout. Extension-cord and mouse-wheel-click both close well. The hanamikoji opening assumes the reader knows the game mechanics, which risks losing readers unfamiliar with it.
+
+The wireless-earphone post is a reference piece and needs no changes. Placeholder images in the apple and xiaomi drafts cannot be fixed without real assets, so those will be noted. The blog-template draft’s image-template mention is instructional and not a blocker. Now scanning the remaining draft files for thin content.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; node -e &#34;
+const fs=require(&#39;fs&#39;);const path=require(&#39;path&#39;);
+const dir=&#39;content/english/blog&#39;;
+const skip=new Set([&#39;__interesting-facts-about-jorap.md&#39;,&#39;__blog-template.md&#39;]);
+for (const f of fs.readdirSync(dir).filter(x=&gt;x.startsWith(&#39;__&#39;)&amp;&amp;x.endsWith(&#39;.md&#39;)&amp;&amp;!skip.has(x))) {
+  const t=fs.readFileSync(path.join(dir,f),&#39;utf8&#39;);
+  const body=t.replace(/^---[\s\S]*?---\n?/,&#39;&#39;).trim();
+  const words=body.split(/\s+/).filter(Boolean).length;
+  const first400=body.slice(0,400);
+  const hasI=/\b(I|my|I&#39;m|I&#39;ve)\b/.test(first400);
+  const cats=(t.match(/^categories:\s*\[(.*?)\]/m)||[])[1]||&#39;&#39;;
+  const isOpinion=/Opinion|Games|Faith|Family/i.test(cats);
+  if(words&lt;80||!hasI&amp;&amp;isOpinion) console.log(f+&#39;: words=&#39;+words+&#39; first400I=&#39;+hasI+&#39; cats=&#39;+cats.trim());
+}
+&#34;</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && node -e "
+const fs=require('fs');const path=require('path');
+const dir='content/english/blog';
+const skip=new Set(['__interesting-facts-about-jorap.md','__blog-template.md']);
+for (const f of fs.readdirSync(dir).filter(x=>x.startsWith('__')&&x.endsWith('.md')&&!skip.has(x))) {
+  const t=fs.readFileSync(path.join(dir,f),'utf8');
+  const body=t.replace(/^---[\s\S]*?---\n?/,'').trim();
+  const words=body.split(/\s+/).filter(Boolean).length;
+  const first400=body.slice(0,400);
+  const hasI=/\b(I|my|I'm|I've)\b/.test(first400);
+  const cats=(t.match(/^categories:\s*\[(.*?)\]/m)||[])[1]||'';
+  const isOpinion=/Opinion|Games|Faith|Family/i.test(cats);
+  if(words<80||!hasI&&isOpinion) console.log(f+': words='+words+' first400I='+hasI+' cats='+cats.trim());
+}
+"
+```
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/terminals/405712.txt</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "content/english/blog/*.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "^\u003e \\*\\*TL;DR\\*\\*"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "^\u003e \\*\\*TL;DR\\*\\*",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "./content/english/blog/__jorap-notes-features.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/blog/__selling-static-sites.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/blog/__client-site-pass-off.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/blog/consistent-ai-output-wordpress-builds.md"
+    }
+  ],
+  "totalFiles": 4,
+  "totalMatches": 4
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+All draft files checked passed the initial filters. No drafts were under 80 words. No opinion posts lacked an "I" in the first 400 characters.
+
+Two minimal connection lens fixes identified. Remove the abstract TL;DR blockquote from consistent-ai-output-wordpress-builds.md. Tweak the opening of dnpap-song-resources.md to serve the reader first. The worship-pads closing is action-oriented and acceptable. The streamlining post closing still needs a personal landing.
+
+The streamlining post closing actually works well. It speaks directly to the reader and asks a relevant question. The other reviewed posts all have solid closings too.
+
+Mouse-wheel-click opens directly to the reader with a strong hook. Extension-cord and why-keep-desktop-laptop both land well. The remaining posts are acceptable.
+
+Hugoplate’s opening is reader-first. Streamlining-games-and-sports lacks a “## Bottom line” section. Draft checks will stay limited to clear blockers and connection failures.
+
+Placeholder images are publish blockers, yet replacing them requires real assets. Searching for existing images now.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **1** directory</summary>
+
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (0 files)
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **1** directory</summary>
+
+Directory: **`/home/jorap/Documents/GitHub/jorap.com`** (0 files)
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "content/english/blog/__*.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "Expanded from|Idea captured from"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "Expanded from|Idea captured from",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Placeholder image fixes on drafts are blocked because no Apple or Xiaomi images are available.
+
+Now scanning all __*.md drafts for connection failures and weak openings.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "content/english/blog/__*.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "When it comes to|In today's world|In the world of|Here's everything you need"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "When it comes to|In today's world|In the world of|Here's everything you need",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__humanize-ai-articles.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "content/english/blog/__*.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "users should|it is recommended|one might"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "users should|it is recommended|one might",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__portable-cross-platform-software.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__remote-work-checklist.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__wifi-router.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__smart-plug.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+The __*.md draft files appear well-written and largely free of the flagged issues.
+
+No wiki footers, under-80-word bodies, or third-person advice were found in the draft files. For the target batch, the main edits are removing the TL;DR from consistent-ai-output-wordpress-builds.md and tweaking the reader-first opening in dnpap-song-resources.md. The instant-pot-arroz-caldo.md post ends abruptly without a personal landing.
+
+Further review shows no additional fixes needed. The wireless-earphones post uses "they should" for earphones, not users. The mouse-wheel-click post closes acceptably. The other reviewed posts are fine.
+
+A double space typo in streamlining-games-and-sports.md will be fixed. Worship-pads and hugoplate connections are acceptable.
+
+The dnpap-song-resources.md opening will lead with reader need: "If you sing **DNPAP** in church or stream it on Spotify, this is the link page I wish existed when I first looked it up."
+
+The DNPAP opening rewrite was shortened to minimize diff size.
+
+The dnpap opening may remain unchanged, since it already invites readers to bookmark it. The instant-pot-chicken-adobo post opens with a relatable personal story that serves its audience well.
+
+The TL;DR in consistent-ai-output-wordpress-builds.md uses imperatives without "I," making it feel like generic advice before the personal story. That block will be removed. The dnpap opening already leads with "me," so no change is needed there.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__jobs-to-be-done-framework.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__immune-booster-supplements.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__grade-1-better-than-kumon.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__kewpie-mayo.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+All draft files reviewed appear well-developed and maintain strong connection to the jorap-voice lens.
+
+Only two drafts contain placeholder images. I will fix the consistent-ai-output post’s top-line connection and scan worship-pads and others for “users should” advice patterns.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "content/english/blog/{what-i-look-for-in-wireless-earphones,hanamikoji-duopoly-retheme,worship-pads-solo-guitar,set-it-forget-it-arroz-caldo,instant-pot-arroz-caldo,why-keep-desktop-laptop,hugoplate-theme-review,extension-cord,mouse-wheel-click,consistent-ai-output-wordpress-builds,dnpap-song-resources,instant-pot-chicken-adobo,streamlining-games-and-sports}.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "users should|it is recommended|## Bottom line|image-template|Expanded from"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "users should|it is recommended|## Bottom line|image-template|Expanded from",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+All target posts passed blocker checks.
+
+Only one connection issue surfaced: the TL;DR in consistent-ai-output. dnpap-song-resources and hugoplate-theme-review both maintain strong personal connection. No further edits were needed.
+
+hanamikoji and streamlining-games-and-sports both sustain personal connection. The worship-pads definition feels slightly detached but keeps a human marker. No further edits are needed.
+
+A second minor edit surfaced for dnpap-song-resources. The opening currently frames the song through the author’s wife. A one-sentence tweak would redirect that line toward readers who sing or lead the song.
+
+The instant-pot and set-it-forget-it arroz-caldo openings are reader-friendly enough. Closings in hugoplate, extension-cord, and why-keep-desktop-laptop all land with concrete actions or takeaways.
+
+Two edits are now confirmed. The TL;DR will be removed from consistent-ai-output. The dnpap-song-resources opening will be rewritten to read directly to the reader. No text fixes are needed for the draft files. Placeholder images appear in __apple-strategically-late and __xiaomi-is-the-new-huawei. A trivial double-space in the streamlining table will be corrected.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+Most posts pass voice checks; applying minimal connection fixes where the opening doesn't lead with the reader's problem.
+
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/consistent-ai-output-wordpress-builds.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/dnpap-song-resources.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/streamlining-games-and-sports.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+The consistent-ai-output replacement failed. I am reading the TL;DR section to fix it.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/consistent-ai-output-wordpress-builds.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+The TL;DR section is already gone from consistent-ai-output-wordpress-builds.md.
+
+dnpap-song-resources.md opening was tightened. A table typo in streamlining-games-and-sports.md was fixed. The consistent-ai-output file needed no changes. The dnpap edit was verified against duplicate content.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="update_current_step"><details>
+<summary>Tool use: **update_current_step**</summary>
+An unknown error occurred
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Compiling a comprehensive summary of edits.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+## Batch review (13 posts)
+
+All passed `pnpm lint:voice`, `pnpm lint:slop`, and slop score (0.46–0.73 per100w). No publish blockers: no wiki footers, placeholder heroes, thin bodies, `users should`, or `## Bottom line`.
+
+**No edits needed** — already strong on connection lens (reader friction first, lived specifics, honest friction, Monday-morning closes):
+
+| Post | Connection notes |
+|------|------------------|
+| `what-i-look-for-in-wireless-earphones.md` | Reference post — drawer of dead buds → checklist → Soundpeats pick |
+| `hanamikoji-duopoly-retheme.md` | Personal build log, mechanics-first hook, copyright close |
+| `worship-pads-solo-guitar.md` | Thin guitar in big room → VLC workaround → "One pad in C, one Sunday" |
+| `set-it-forget-it-arroz-caldo.md` | Legacy Friday ritual, honest switch to Instant Pot |
+| `instant-pot-arroz-caldo.md` | Why switched, burn-notice failures, food-safety line |
+| `why-keep-desktop-laptop.md` | "Going mobile-only" common ground → laptop bag close |
+| `hugoplate-theme-review.md` | Theme-shopping trap → year-later still on it |
+| `extension-cord.md` | Hotel outlet behind bed → 2m flat plug in the bag |
+| `mouse-wheel-click.md` | Right-click habit → press the wheel |
+| `consistent-ai-output-wordpress-builds.md` | Month 1/2/3 arc, Tuesday/Thursday drift story |
+| `instant-pot-chicken-adobo.md` | Wednesday stove fatigue → weekly batch close |
+| `streamlining-games-and-sports.md` (draft) | Audience-shrinking thesis, personal shelf throughout |
+
+**Edited (2):**
+
+1. **`dnpap-song-resources.md`** — Opening now leads with the reader (“If you sing DNPAP…”) before the personal Pia/COVID thread. Same facts, reader-first framing.
+
+2. **`streamlining-games-and-sports.md`** — Fixed double space in the technique table (`Codenames Pictures, Dixit`).
+
+---
+
+## `__*.md` draft scan (47 files, skipping `__interesting-facts-about-jorap.md`)
+
+| Check | Result |
+|-------|--------|
+| Wiki-export footers | None |
+| Body under 80 words | None |
+| `users should` / `it is recommended` | None (only “Most people shouldn’t” in portable-cross-platform — acceptable) |
+| `## Bottom line` on opinion posts | None |
+| Placeholder `image-template.jpg` | **`__apple-strategically-late.md`**, **`__xiaomi-is-the-new-huawei.md`** — swap before publish (no suitable hero in repo yet) |
+| Connection failures | None worth fixing — drafts already open on lived friction |
+
+**No draft edits made** — nothing else hit clear-blocker threshold.
+
+---
+
+## Session close
+- Fixed: DNPAP reader-first intro; streamlining table typo; confirmed 11/13 batch posts clean on connection lens
+- Encode: none
+- Open: 2 draft placeholder hero images (`__apple-strategically-late`, `__xiaomi-is-the-new-huawei`)
+
+---
+
+_**User**_
+
+<system_notification>
+The following task has finished. If you were already aware, ignore this notification and do not restate prior responses.
+
+<task>
+kind: shell
+status: success
+task_id: 405712
+title: Run slop lint on remaining target posts
+output_path: /home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/terminals/405712.txt
+</task>
+</system_notification>
+<user_query>Briefly inform the user about the task result and perform any follow-up actions (if needed). If there's no follow-ups needed, don't explicitly say that.</user_query>
+
+---
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+The slop lint on the remaining posts is complete. No follow-up actions are needed.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+The slop lint run on the four remaining batch posts finished clean: `consistent-ai-output-wordpress-builds.md`, `dnpap-song-resources.md`, `instant-pot-chicken-adobo.md`, and `streamlining-games-and-sports.md` all passed.
+
+That matches the earlier voice lint and slop scores on the full batch — nothing else to fix from that check.

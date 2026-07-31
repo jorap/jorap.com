@@ -23,3 +23,960 @@ Rules:
 - Do NOT commit
 - Run `pnpm slop:score` before/after on edited files
 - Return: list of files edited with 1-line summary each, or "no changes" per file
+
+---
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Reading the jorap-voice skill to understand the connection-lens guidelines before reviewing the six blog posts.
+
+Now reading all six blog posts and running slop:score before making any edits.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+I'll read the jorap-voice skill and all six posts, then score them before making minimal connection-lens edits.
+
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="update_current_step"><details>
+<summary>Tool use: **update_current_step**</summary>
+An unknown error occurred
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-focused-on-open-source.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-run-your-own-website.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-stopped-playing-marvel-snap.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/miracle-isaiah-david.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/google-over-apple-ecosystem.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/drupal-to-wordpress.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm slop:score content/english/blog/why-i-focused-on-open-source.md content/english/blog/why-run-your-own-website.md content/english/blog/why-i-stopped-playing-marvel-snap.md content/english/blog/miracle-isaiah-david.md content/english/blog/google-over-apple-ecosystem.md content/english/blog/drupal-to-wordpress.md</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && pnpm slop:score content/english/blog/why-i-focused-on-open-source.md content/english/blog/why-run-your-own-website.md content/english/blog/why-i-stopped-playing-marvel-snap.md content/english/blog/miracle-isaiah-david.md content/english/blog/google-over-apple-ecosystem.md content/english/blog/drupal-to-wordpress.md
+```
+
+```
+$ node scripts/runPython.mjs scripts/voice-lint.py score content/english/blog/why-i-focused-on-open-source.md content/english/blog/why-run-your-own-website.md content/english/blog/why-i-stopped-playing-marvel-snap.md content/english/blog/miracle-isaiah-david.md content/english/blog/google-over-apple-ecosystem.md content/english/blog/drupal-to-wordpress.md
+why-i-focused-on-open-source.md          words=3701 total= 45 per100w=  1.22
+why-run-your-own-website.md              words= 851 total=  9 per100w=  1.06
+why-i-stopped-playing-marvel-snap.md     words=1198 total= 12 per100w=  1.00
+miracle-isaiah-david.md                  words=1255 total= 12 per100w=  0.96
+google-over-apple-ecosystem.md           words=2562 total= 24 per100w=  0.94
+drupal-to-wordpress.md                   words= 994 total=  9 per100w=  0.91
+
+```
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Beginning the connection-lens review. Checking that each post opens with the reader's problem and closes with a Monday action, not a bio or theoretical praise.
+
+The first post fails the connection lens. Its opening is personal history, not the reader's problem.
+
+The closing of the first post also fails the connection lens. It ends with JoRap's personal reasons rather than a Monday action. Next step is checking for em dashes and AI tells.
+
+Drafted a reframed opener for the first post that puts the reader’s budget and locked-down PC at the center. The connection lens will only be applied to openings and closings that fail.
+
+The first post’s opener is only weakly reader-connected. It relies on personal experience rather than stating the reader’s problem directly. The closing still fails the connection lens by ending with JoRap’s personal justification instead of a Monday action. The “What I’d tell someone starting out” section offers solid advice but pivots back to JoRap’s summary.
+
+Tightening the closing of the first post. Light de-AI edits will target the highest-slop file. Scanning all six posts for em dashes and voice lint issues.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+Analyzing each post against the connection lens and scanning for em dashes and AI tells.
+
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "content/english/blog/{why-i-focused-on-open-source,why-run-your-own-website,why-i-stopped-playing-marvel-snap,miracle-isaiah-david,google-over-apple-ecosystem,drupal-to-wordpress}.md",
+  "pattern": "—"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "—",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": true,
+  "glob": "content/english/blog/{why-i-focused-on-open-source,why-run-your-own-website,why-i-stopped-playing-marvel-snap,miracle-isaiah-david,google-over-apple-ecosystem,drupal-to-wordpress}.md",
+  "pattern": "Furthermore|Additionally|Moreover|That said|With that in mind|plays a key role|it's important to remember|When it comes to|In the world of"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "Furthermore|Additionally|Moreover|That said|With that in mind|plays a key role|it's important to remember|When it comes to|In the world of",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; for f in content/english/blog/why-i-focused-on-open-source.md content/english/blog/why-run-your-own-website.md content/english/blog/why-i-stopped-playing-marvel-snap.md content/english/blog/miracle-isaiah-david.md content/english/blog/google-over-apple-ecosystem.md content/english/blog/drupal-to-wordpress.md; do echo &#34;=== $f (first 400 chars) ===&#34;; python3 -c &#34;
+import re
+with open(&#39;$f&#39;) as fh:
+    body = fh.read().split(&#39;---&#39;, 2)[2].strip()
+    print(repr(body[:400]))
+&#34;; done</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && for f in content/english/blog/why-i-focused-on-open-source.md content/english/blog/why-run-your-own-website.md content/english/blog/why-i-stopped-playing-marvel-snap.md content/english/blog/miracle-isaiah-david.md content/english/blog/google-over-apple-ecosystem.md content/english/blog/drupal-to-wordpress.md; do echo "=== $f (first 400 chars) ==="; python3 -c "
+import re
+with open('$f') as fh:
+    body = fh.read().split('---', 2)[2].strip()
+    print(repr(body[:400]))
+"; done
+```
+
+```
+=== content/english/blog/why-i-focused-on-open-source.md (first 400 chars) ===
+'I learned ASP from someone before I knew what a "stack" was. Fine. Then I went looking for real software built with ASP - sites I could study, tools I could run locally, something that wasn\'t just tutorial code in a book.\n\nI couldn\'t find much. Not because ASP was useless. Because so much of that world was **proprietary**. The examples lived behind licenses, closed demos, or setups I couldn\'t repl'
+=== content/english/blog/why-run-your-own-website.md (first 400 chars) ===
+'Every time I tell someone I run my own website, the reaction is the same: "Why? Just post on Facebook."\n\nFair. Social media is easy. The audience is already there.\n\nBut this site is where my **notes garden**, my **extension-cord** post, and my **Alex Eala tracker** live. I wouldn\'t trust any of that to a platform that can throttle reach or change export rules overnight. Years ago I [lost old PHP h'
+=== content/english/blog/why-i-stopped-playing-marvel-snap.md (first 400 chars) ===
+'I still get the itch sometimes. Three locations, six turns, snap on turn four - my brain knows the rhythm even months after I stopped opening the app.\n\n**Marvel Snap** was the best "one more match" game I\'d played in years. It was also the game that finally made me ask: *why am I googling deck lists after a bad match instead of just closing the app?*\n\nI didn\'t rage-quit in a single bad session. I '
+=== content/english/blog/miracle-isaiah-david.md (first 400 chars) ===
+"There's no smooth way to start this story, so I'll just say it: on May 8, 2020, my wife Pia and I found out she was pregnant and gave birth to our son Isaiah David on the same day. That sentence still doesn't feel real, even years later.\n\nIt happened in the middle of the strict ECQ lockdown in the Philippines. What started as a regular morning at home - Pia in abdominal pain we thought was a bad c"
+=== content/english/blog/google-over-apple-ecosystem.md (firs
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Starting the connection-lens review. Checking each post for opener and closing failures, friction per H2, plain language, and em dash removal.
+
+The highest-slop post, why-i-focused-on-open-source.md, opens with a personal ASP story rather than the reader’s budget constraint. Its closing fails the Monday-close test. I will reframe the opener to lead with the reader’s problem first, then the ASP background. Light de-AI fixes will follow.
+
+The opener will open with a permission or budget hook instead of the ASP story. The closing needs a Monday action for the reader. I am scanning the file for high-slop markers like nominalizations and passive voice.
+
+The second post opens with relatable common ground about running a personal site, so its opener likely passes the connection lens. I am now checking each H2 section for one friction per heading.
+
+The second post passes the Monday-close test. Its opener hooks on relatable player frustration. The third post opens with a faith or family miracle, which may not frame a reader problem but uses a strong narrative hook.
+
+The miracle post’s closing is reflective rather than a Monday action, yet it fits the faith genre well. The Apple-versus-Google post opens with relatable Apple polish, so its opener passes the connection lens.
+
+The Apple-versus-Google closing likely fails the Monday-close test. It describes JoRap’s personal choice rather than a reader action. The miracle post’s closing is also too reflective for a Monday close. Its opener fails because the first 400 characters open with a TL;DR summary instead of the reader’s problem.
+
+The drupal-to-wordpress opener needs a TL;DR replacement. The apple-versus-google closing passes the Monday-close test. The remaining two posts appear sufficient.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="update_current_step"><details>
+<summary>Tool use: **update_current_step**</summary>
+An unknown error occurred
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; node scripts/runPython.mjs scripts/voice-lint.py score content/english/blog/why-i-focused-on-open-source.md --verbose 2&gt;/dev/null | head -80</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && node scripts/runPython.mjs scripts/voice-lint.py score content/english/blog/why-i-focused-on-open-source.md --verbose 2>/dev/null | head -80
+```
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-focused-on-open-source.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/google-over-apple-ecosystem.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/drupal-to-wordpress.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Planning edits for the six blog posts. Starting with why-i-focused-on-open-source.md: the opener will lead with the reader problem—student budget, locked PCs, and permission to install—within the first 400 characters.
+
+The closing will be replaced with a Monday action for the reader. A light de-AI scan will target nominalizations, passive voice, and abstract language across the post.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": true,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-focused-on-open-source.md",
+  "pattern": "\\b(utilize|facilitate|leverage|delve|tapestry|landscape|ecosystem|compelling|robust|seamless|navigate|underscore|highlight|showcase|transformative|pivotal|crucial|fundamental|testament|realm|tapestry|harness|foster|embark|plethora|myriad|multifaceted|comprehensive|intricate|nuanced|Moreover|Furthermore|Additionally)\\b"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-focused-on-open-source.md",
+  "pattern": "\\b(utilize|facilitate|leverage|delve|tapestry|landscape|ecosystem|compelling|robust|seamless|navigate|underscore|highlight|showcase|transformative|pivotal|crucial|fundamental|testament|realm|tapestry|harness|foster|embark|plethora|myriad|multifaceted|comprehensive|intricate|nuanced|Moreover|Furthermore|Additionally)\\b",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-focused-on-open-source.md",
+  "pattern": "\\b(is|was|were|been|being) \\w+ed\\b"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-focused-on-open-source.md",
+  "pattern": "\\b(is|was|were|been|being) \\w+ed\\b",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Checking the slop:score script to understand how it measures text quality.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts",
+  "pattern": "def score|nominal|passive|phrasal"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts",
+  "pattern": "def score|nominal|passive|phrasal",
+  "topFiles": [
+    {
+      "matchCount": 22,
+      "uri": "scripts/slop-score.py"
+    },
+    {
+      "matchCount": 3,
+      "uri": "scripts/slop-lint.py"
+    }
+  ],
+  "totalFiles": 2,
+  "totalMatches": 25
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/slop-rules.yaml</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Running a slop scan on the open source post to identify specific AI-tells.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm slop:scan content/english/blog/why-i-focused-on-open-source.md 2&gt;&amp;1 | head -60</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && pnpm slop:scan content/english/blog/why-i-focused-on-open-source.md 2>&1 | head -60
+```
+
+```
+$ node scripts/runPython.mjs scripts/voice-lint.py slop --summary content/english/blog/why-i-focused-on-open-source.md
+Slop scan - 75 blog, 295 notes, 0 fail, 61 warn
+Rules: data/slop-rules.yaml
+
+Warn (fix before publish)
+  nominalization (29) - verb pile — analyze the log, not perform an analysis of
+    content/english/notes/break-the-escalation-cycle.md · cards[5].front
+    content/english/notes/childlike-faith.md · cards[4].back
+    content/english/notes/childlike-faith.md · key_concept
+    content/english/notes/christlikeness.md · examples[1]
+    content/english/notes/composure.md · relationships.reason
+    content/english/notes/energy-protects-judgment.md · relationships.reason
+    content/english/notes/free-grace.md · cards[2].front
+    content/english/notes/free-grace.md · key_concept
+    … and 21 more
+  passive-voice (28) - name the actor when you know who did it
+    content/english/blog/__apple-strategically-late.md · body
+    content/english/blog/__interesting-facts-about-jorap.md · body
+    content/english/blog/__local-ai-my-machines.md · body
+    content/english/notes/christianity-and-politics.md · key_concept
+    content/english/notes/decision-quality.md · key_concept
+    content/english/notes/digital-serendipity.md · key_concept
+    content/english/notes/energy-protects-judgment.md · key_concept
+    content/english/notes/faithful-steward.md · key_concept
+    … and 20 more
+  placeholder-image (2) - replace image-template.jpg before publish
+    content/english/blog/__apple-strategically-late.md · image
+    content/english/blog/__xiaomi-is-the-new-huawei.md · image
+  long-sentences (1) - 33% of sentences exceed 25 words — vary length or split
+    content/english/notes/inspectable-stack.md · key_concept
+  phrasal-verb (1) - plain verb — dive into → read, spin up → start (tear down)
+    content/english/blog/why-run-your-own-website.md · body
+
+pnpm lint:slop - fail CI on publish blockers
+
+```
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Checking slop-score.py to extract per-file slop details.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/slop-score.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Running a Python script to identify slop hits in the open-source post.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 -c &#34;
+import sys; sys.path.insert(0,&#39;scripts&#39;)
+from slop_score import analyze_text
+from pathlib import Path
+body = Path(&#39;content/english/blog/why-i-focused-on-open-source.md&#39;).read_text().split(&#39;---&#39;,2)[2]
+r = analyze_text(body)
+print(r)
+&#34;</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 -c "
+import sys; sys.path.insert(0,'scripts')
+from slop_score import analyze_text
+from pathlib import Path
+body = Path('content/english/blog/why-i-focused-on-open-source.md').read_text().split('---',2)[2]
+r = analyze_text(body)
+print(r)
+"
+```
+
+```
+Traceback (most recent call last):
+  File "<string>", line 3, in <module>
+ModuleNotFoundError: No module named 'slop_score'
+
+```
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Importing the correct module with a hyphenated name.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com/scripts &amp;&amp; python3 -c &#34;
+import importlib.util
+spec = importlib.util.spec_from_file_location(&#39;slop&#39;, &#39;slop-score.py&#39;)
+m = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(m)
+from pathlib import Path
+body = Path(&#39;../content/english/blog/why-i-focused-on-open-source.md&#39;).read_text().split(&#39;---&#39;,2)[2]
+r = m.analyze_text(body)
+import json
+print(json.dumps(r, indent=2))
+&#34;</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com/scripts && python3 -c "
+import importlib.util
+spec = importlib.util.spec_from_file_location('slop', 'slop-score.py')
+m = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(m)
+from pathlib import Path
+body = Path('../content/english/blog/why-i-focused-on-open-source.md').read_text().split('---',2)[2]
+r = m.analyze_text(body)
+import json
+print(json.dumps(r, indent=2))
+"
+```
+
+```
+{
+  "words": 3701,
+  "sentences": 329,
+  "violations": {
+    "long_sentence(>25w)": 25,
+    "passive_voice": 0,
+    "ing_main_verb": 20,
+    "nominalization": 0,
+    "phrasal_verb": 0
+  },
+  "total": 45,
+  "total_per100w": 1.22,
+  "long_sentence_ratio": 0.076,
+  "long_sentence_ratio_warn": false,
+  "sample_phrasal": [],
+  "longest_sentence_words": 53
+}
+
+```
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+The open-source post scores highest in slop. Its 45 violations come mainly from long sentences and main verbs.
+
+The open-source opener fails the connection lens by opening with a bio instead of reader friction. Its closing also fails by ending without a Monday action. I will fix those two spots and leave the rest untouched.
+
+The opener will open with reader friction—student budget, locked-down labs, and PC restrictions—instead of the bio. The closing will cut the recap and land on a Monday action. Only the worst AI-sounding sentences in that opener area will be trimmed.
+
+The open-source opener passes the connection lens. The closing will land on a concrete Monday action: pick one weekly problem and try the open option you can install tonight. A phrasal verb like "tear down" still needs checking.
+
+The snap post likely needs no edits. Its opener hooks the reader and its closing gives practical advice.
+
+The miracle post opens well with personal narrative. Its closing line about living through a day without preparation may not land on a Monday action, so that section might need trimming.
+
+The miracle post closing is human and earned. It will stay. The ecosystem post opener passes. Its closing ends on a metaphor rather than a Monday action.
+
+The ecosystem post closing will land on a Monday action: ask whether buying the next phone or watch fixes a real problem the reader has Monday morning. The opener will lose its TL;DR summary block and open directly with reader friction in the first paragraph of the H2 section.
+
+The open-source opener will open with a reader-framed paragraph before the H2, replacing the TL;DR block that gave away the punchline. The closing already lands on a Monday action. A duplicate H2 in the Google post lacks a separator, but that is out of scope.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-run-your-own-website.md",
+  "pattern": "tear down"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-run-your-own-website.md",
+  "pattern": "tear down",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/why-run-your-own-website.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com/scripts &amp;&amp; python3 -c &#34;
+import importlib.util
+spec = importlib.util.spec_from_file_location(&#39;slop&#39;, &#39;slop-score.py&#39;)
+m = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(m)
+from pathlib import Path
+files = [&#39;why-i-focused-on-open-source&#39;,&#39;why-run-your-own-website&#39;,&#39;why-i-stopped-playing-marvel-snap&#39;,&#39;miracle-isaiah-david&#39;,&#39;google-over-apple-ecosystem&#39;,&#39;drupal-to-wordpress&#39;]
+for f in files:
+    body = Path(f&#39;../content/english/blog/{f}.md&#39;).read_text().split(&#39;---&#39;,2)[2]
+    r = m.analyze_text(body)
+    print(f&#39;{f}: total={r[\&#34;total\&#34;]} per100w={r[\&#34;total_per100w\&#34;]:.2f} violations={r[\&#34;violations\&#34;]}&#39;)
+&#34;</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com/scripts && python3 -c "
+import importlib.util
+spec = importlib.util.spec_from_file_location('slop', 'slop-score.py')
+m = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(m)
+from pathlib import Path
+files = ['why-i-focused-on-open-source','why-run-your-own-website','why-i-stopped-playing-marvel-snap','miracle-isaiah-david','google-over-apple-ecosystem','drupal-to-wordpress']
+for f in files:
+    body = Path(f'../content/english/blog/{f}.md').read_text().split('---',2)[2]
+    r = m.analyze_text(body)
+    print(f'{f}: total={r[\"total\"]} per100w={r[\"total_per100w\"]:.2f} violations={r[\"violations\"]}')
+"
+```
+
+```
+why-i-focused-on-open-source: total=45 per100w=1.22 violations={'long_sentence(>25w)': 25, 'passive_voice': 0, 'ing_main_verb': 20, 'nominalization': 0, 'phrasal_verb': 0}
+why-run-your-own-website: total=9 per100w=1.06 violations={'long_sentence(>25w)': 5, 'passive_voice': 0, 'ing_main_verb': 3, 'nominalization': 0, 'phrasal_verb': 1}
+why-i-stopped-playing-marvel-snap: total=12 per100w=1.00 violations={'long_sentence(>25w)': 5, 'passive_voice': 1, 'ing_main_verb': 6, 'nominalization': 0, 'phrasal_verb': 0}
+miracle-isaiah-david: total=12 per100w=0.96 violations={'long_sentence(>25w)': 8, 'passive_voice': 0, 'ing_main_verb': 4, 'nominalization': 0, 'phrasal_verb': 0}
+google-over-apple-ecosystem: total=24 per100w=0.94 violations={'long_sentence(>25w)': 20, 'passive_voice': 0, 'ing_main_verb': 4, 'nominalization': 0, 'phrasal_verb': 0}
+drupal-to-wordpress: total=9 per100w=0.91 violations={'long_sentence(>25w)': 4, 'passive_voice': 1, 'ing_main_verb': 4, 'nominalization': 0, 'phrasal_verb': 0}
+
+```
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+I've reviewed all six posts. I'll edit why-i-focused-on-open-source.md first, reframing its opener around a reader problem—budget, installation, or permission constraints.
+
+The closing will shift to a Monday action. I'm trimming obvious AI patterns in the opening section only, since its slop score is highest.
+
+The opener now opens with a concrete reader problem: learning ASP from a mentor, then hunting for real software built with it instead of tutorial code in a book. The closing paragraph is being replaced entirely.
+
+The closing paragraph is being trimmed to a direct Monday action. The text now tells the reader to install one stack they can break on their own machine, follow job posts in their market, and pick tools they can export when the host moves on.
+
+The closing line for the open-source post is now sharper: it tells the reader to install one open stack on their actual machine, break something on purpose, follow local job posts, and budget the evenings. The website post needs no edits. The Marvel Snap post passed the connection lens.
+
+Miracle Isaiah David passed the connection lens. Its opener is a story, and its reflective closing is appropriate for a testimony post. The final line is being tightened to "You don't get to prepare for days like that. You just live them."
+
+The Miracle Isaiah David closing stays untouched; it is a testimony, not advice, so a softer Monday action is unnecessary.
+
+The Google-over-Apple post fails the connection lens. Its closing paragraph will be replaced with a Monday action while preserving the voice.
+
+The Google-over-Apple closing is being rewritten as a Monday action. It tells readers to sign into one Google account on existing hardware rather than finishing Apple’s hardware set. It skips the iPhone-and-watch upsell until missing iMessage actually blocks the week.
+
+The Google-over-Apple closing is now a Monday action: sign into Gmail and Drive on existing hardware before buying more Apple devices. The Drupal-to-WordPress opener is being rebuilt around a reader problem, replacing the TL;DR block with a story about hunting for a CMS that clients and job posts actually exist in.
+
+The Drupal-to-WordPress opener will drop the TL;DR blockquote and place the reader problem directly under its H2 heading. No H2 names will be changed. The open-source post will stay minimal: only the opener and closing will be touched, plus one or two obvious AI fixes in sections already being edited. The entire 3,700-word post will not be rewritten.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+Applying minimal edits to three posts with failing openers or closers, plus light de-AI on the highest-slop post.
+
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-focused-on-open-source.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-focused-on-open-source.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/drupal-to-wordpress.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/google-over-apple-ecosystem.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Scanning the open-source post for heavy -ing verb patterns and bloated sentences to cut.
+
+Running a post-edit score to gauge opener and closing fixes. The remaining three posts pass the connection lens. Still scanning the open-source piece for a couple quick -ing verb cuts.
+
+Leaving the miracle post unchanged. Scanning the open-source piece for minimal AI cuts. Running post-edit scores and em-dash lint.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm slop:score content/english/blog/why-i-focused-on-open-source.md content/english/blog/why-run-your-own-website.md content/english/blog/why-i-stopped-playing-marvel-snap.md content/english/blog/miracle-isaiah-david.md content/english/blog/google-over-apple-ecosystem.md content/english/blog/drupal-to-wordpress.md</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && pnpm slop:score content/english/blog/why-i-focused-on-open-source.md content/english/blog/why-run-your-own-website.md content/english/blog/why-i-stopped-playing-marvel-snap.md content/english/blog/miracle-isaiah-david.md content/english/blog/google-over-apple-ecosystem.md content/english/blog/drupal-to-wordpress.md
+```
+
+```
+$ node scripts/runPython.mjs scripts/voice-lint.py score content/english/blog/why-i-focused-on-open-source.md content/english/blog/why-run-your-own-website.md content/english/blog/why-i-stopped-playing-marvel-snap.md content/english/blog/miracle-isaiah-david.md content/english/blog/google-over-apple-ecosystem.md content/english/blog/drupal-to-wordpress.md
+why-i-focused-on-open-source.md          words=3710 total= 45 per100w=  1.21
+why-run-your-own-website.md              words= 851 total=  9 per100w=  1.06
+why-i-stopped-playing-marvel-snap.md     words=1198 total= 12 per100w=  1.00
+miracle-isaiah-david.md                  words=1255 total= 12 per100w=  0.96
+google-over-apple-ecosystem.md           words=2558 total= 24 per100w=  0.94
+drupal-to-wordpress.md                   words= 960 total=  9 per100w=  0.94
+
+```
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm lint:voice content/english/blog/why-i-focused-on-open-source.md content/english/blog/drupal-to-wordpress.md content/english/blog/google-over-apple-ecosystem.md 2&gt;&amp;1</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:voice content/english/blog/why-i-focused-on-open-source.md content/english/blog/drupal-to-wordpress.md content/english/blog/google-over-apple-ecosystem.md 2>&1
+```
+
+```
+$ node scripts/runPython.mjs scripts/voice-lint.py dashes --check && node scripts/runPython.mjs scripts/voice-lint.py site --check content/english/blog/why-i-focused-on-open-source.md content/english/blog/drupal-to-wordpress.md content/english/blog/google-over-apple-ecosystem.md
+Voice dash lint OK
+Voice lint OK
+
+```
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+The open-source post’s slop fell from 1.22 to 1.21. That is a minimal edit. The user asked for light de-AI on the highest-sloppiness file.
+
+Now targeting the open-source post’s longest AI-sounding sentences for minimal splitting. Slop is driven by long sentences and -ing main verbs.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+Finding a few high-slop sentences in the open-source post for minimal de-AI trims.
+
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/slop-score.py</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com/scripts &amp;&amp; python3 &lt;&lt; &#39;PY&#39;
+import importlib.util, re
+spec = importlib.util.spec_from_file_location(&#39;slop&#39;, &#39;slop-score.py&#39;)
+m = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(m)
+from pathlib import Path
+body = Path(&#39;../content/english/blog/why-i-focused-on-open-source.md&#39;).read_text().split(&#39;---&#39;,2)[2]
+for line in body.split(&#39;\n&#39;):
+    s = line.strip()
+    if not s or s.startswith(&#39;#&#39;) or s.startswith(&#39;&gt;&#39;) or s.startswith(&#39;[&#39;) or s.startswith(&#39;---&#39;):
+        continue
+    s = re.sub(r&#39;\*\*([^*]+)\*\*&#39;, r&#39;\1&#39;, s)
+    s = re.sub(r&#39;\[([^\]]+)\]\([^)]+\)&#39;, r&#39;\1&#39;, s)
+    words = len(s.split())
+    if words &gt;= 30:
+        print(f&#39;{words}w: {s[:120]}...&#39;)
+PY</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com/scripts && python3 << 'PY'
+import importlib.util, re
+spec = importlib.util.spec_from_file_location('slop', 'slop-score.py')
+m = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(m)
+from pathlib import Path
+body = Path('../content/english/blog/why-i-focused-on-open-source.md').read_text().split('---',2)[2]
+for line in body.split('\n'):
+    s = line.strip()
+    if not s or s.startswith('#') or s.startswith('>') or s.startswith('[') or s.startswith('---'):
+        continue
+    s = re.sub(r'\*\*([^*]+)\*\*', r'\1', s)
+    s = re.sub(r'\[([^\]]+)\]\([^)]+\)', r'\1', s)
+    words = len(s.split())
+    if words >= 30:
+        print(f'{words}w: {s[:120]}...')
+PY
+```
+
+```
+37w: If you're learning on a student budget, the wall isn't "which stack is best." It's whether you can install anything on t...
+66w: I learned ASP from someone, then went looking for real software built with it - sites I could study, tools I could run l...
+37w: What's great about XAMPP, especially back then: they ship a portable version. On locked-down PCs that block installers -...
+84w: That wasn't a XAMPP quirk. Open source stacks often ship a portable build, or at least a zip you can drop in a folder wi...
+55w: Once I had a local PHP stack, installing a CMS was the obvious next step. Drop files in `htdocs`, run the installer, bre...
+47w: The first CMS I actually liked was XOOPS. WordPress and Joomla had louder crowds. XOOPS gave me something I cared about ...
+49w: That wasn't just weekend tinkering. Knowing XOOPS well enough to ship real sites helped me land a job - the kind that mo...
+49w: Proprietary CMS licenses, boxed design software, monthly platform fees - fine if someone else is paying. When you're lea...
+37w: Install without asking. Break things on your own machine where nobody's paying customers will see. Read the source when ...
+40w: Freedom still costs time. WordPress took me months before I trusted myself on a live site. Hugo took another stretch bef...
+83w: Small and medium businesses hit the same wall from the other side. They couldn't afford proprietary stacks - the license...
+42w: I taught seminars on open-source technology and web careers in the Philippines. Not because I wanted everyone to wave a ...
+66w: The classroom test was blunt. If a student couldn't install the tool on the laptop they brought from home - borrowed, ol...
+37w: Open stacks passed the test. XAMPP portable on a machine that won't let you run installers. Download tonight. Break it t...
+68w: The career advice was equally practical. Learn tools employers actually hire for. In web work around here, a huge slice ...
+31w: I'd already stumbled into PHP and XAMPP by accident - studen
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+The opener merge introduced a very long sentence.
+
+The 66-word count reflects a single long line containing multiple sentences, not one sentence. Splitting it will fix the length.
+
+The 84-word XAMPP paragraph is another obvious AI tell. It will be split into shorter sentences. The slop score dropped from 1.22 to 1.21.
+
+The opener will be split into three paragraphs: reader problem, ASP learning, and proprietary wall. The 66-word line will be broken after "book." Further light de-AI is unnecessary since 1.21 remains the highest score.
+
+The Friedman paragraph will also be split into two sentences. The opener merge may have worsened the slop score, so the current opener state needs verification.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-focused-on-open-source.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Planning to split line 40 of the open-source post, which runs 84 words, and possibly line 34 to break up a long run-on sentence.
+
+The exact sentence to split is the one describing running Apache, MySQL, and PHP from an owned directory on the office desktop. It breaks corporate image restrictions and mentions breaking a CMS install during lunch.
+
+Line 34 will be split after "book." The open-source post will be rewritten with two shorter sentences: one about running Apache, MySQL, and PHP from an owned directory, and another about breaking a CMS install during lunch while the rest of the floor stayed on the standard Windows image.
+
+The drupal post needs a quick read to verify flow after edits. The open-source opener will get two minimal splits: breaking line 40’s long sentence and splitting paragraph 34 into two lines. A harder verb issue in the Friedman section was skipped to keep the diff small.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-focused-on-open-source.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-focused-on-open-source.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-focused-on-open-source.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/drupal-to-wordpress.md</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Running final slop scores and preparing the summary.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm slop:score content/english/blog/why-i-focused-on-open-source.md content/english/blog/why-run-your-own-website.md content/english/blog/why-i-stopped-playing-marvel-snap.md content/english/blog/miracle-isaiah-david.md content/english/blog/google-over-apple-ecosystem.md content/english/blog/drupal-to-wordpress.md</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && pnpm slop:score content/english/blog/why-i-focused-on-open-source.md content/english/blog/why-run-your-own-website.md content/english/blog/why-i-stopped-playing-marvel-snap.md content/english/blog/miracle-isaiah-david.md content/english/blog/google-over-apple-ecosystem.md content/english/blog/drupal-to-wordpress.md
+```
+
+```
+$ node scripts/runPython.mjs scripts/voice-lint.py score content/english/blog/why-i-focused-on-open-source.md content/english/blog/why-run-your-own-website.md content/english/blog/why-i-stopped-playing-marvel-snap.md content/english/blog/miracle-isaiah-david.md content/english/blog/google-over-apple-ecosystem.md content/english/blog/drupal-to-wordpress.md
+why-i-focused-on-open-source.md          words=3711 total= 44 per100w=  1.19
+why-run-your-own-website.md              words= 851 total=  9 per100w=  1.06
+why-i-stopped-playing-marvel-snap.md     words=1198 total= 12 per100w=  1.00
+miracle-isaiah-david.md                  words=1255 total= 12 per100w=  0.96
+google-over-apple-ecosystem.md           words=2558 total= 24 per100w=  0.94
+drupal-to-wordpress.md                   words= 960 total=  9 per100w=  0.94
+
+```
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="update_current_step"><details>
+<summary>Tool use: **update_current_step**</summary>
+An unknown error occurred
+</details></tool-use>
+
+_**Agent (composer-2.5-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Slop dropped from 1.22 to 1.19 on the open-source post. Drupal’s score rose slightly from 0.91 to 0.94 after removing its TL;DR and adding a reader paragraph. Google’s score stayed flat at 0.94.
+</details></think>
+
+_**Agent (composer-2.5-fast)**_
+
+## Slop scores (before → after)
+
+| Post | Before | After |
+|------|--------|-------|
+| why-i-focused-on-open-source.md | 1.22 | **1.19** |
+| why-run-your-own-website.md | 1.06 | 1.06 |
+| why-i-stopped-playing-marvel-snap.md | 1.00 | 1.00 |
+| miracle-isaiah-david.md | 0.96 | 0.96 |
+| google-over-apple-ecosystem.md | 0.94 | 0.94 |
+| drupal-to-wordpress.md | 0.91 | 0.94 |
+
+## Files edited
+
+1. **why-i-focused-on-open-source.md** — Opener reframed on student install permission; closing cut summary sandwich for Monday action; split three long sentences for light de-AI.
+2. **drupal-to-wordpress.md** — Removed TL;DR blockquote; opened H2 on reader problem (job posts vs architecture).
+3. **google-over-apple-ecosystem.md** — Replaced metaphor closing with Monday action (sign into Gmail/Drive before buying Apple's set).
+
+## No changes
+
+4. **why-run-your-own-website.md** — Opener and closing already pass connection lens.
+5. **why-i-stopped-playing-marvel-snap.md** — Opener hooks player friction; closing gives retreat-when-not-fun advice.
+6. **miracle-isaiah-david.md** — Faith testimony; story-first opener and lived closing fit the genre.
+
+## Session close
+- Fixed: Connection-lens openers/closers on three posts; open-source slop 1.22→1.19.
+- Encode: none
+- Open: clean

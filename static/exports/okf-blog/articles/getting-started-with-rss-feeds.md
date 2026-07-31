@@ -26,9 +26,9 @@ Same idea as email newsletters, but without cluttering your inbox.
 
 Three things, after years of refreshing the same five sites like a nervous habit:
 
-**I stopped hunting for content.** Instead of visiting ten sites to see if anything was new, I open one app and see exactly what's new across all of them. The hunting time goes to zero.
+**I stopped hunting for content.** Instead of visiting ten sites to see if anything was new, I open one app and see exactly what's new across all of them. The hunting time goes to zero. Week one I still opened the old tabs anyway - muscle memory is stubborn.
 
-**Nothing slips past me anymore.** Algorithms decide what they want you to see. RSS shows you everything from sources you chose. If a blog you love only posts once every three months, you'll still see that post - it won't be buried.
+**Nothing slips past me anymore.** Algorithms decide what they want you to see. RSS shows you everything from sources you chose. If a blog you love only posts once every three months, you'll still see that post - it won't be buried. I missed one post that way at first because I hadn't subscribed yet - found it a week later when someone linked it on Facebook. Added the feed. Hasn't happened since.
 
 **My social media use went down.** A lot of what I was doing on Twitter and Reddit was just trying to keep up with stuff. RSS does that better, faster, and without the dopamine slot machine.
 
@@ -37,6 +37,8 @@ Three things, after years of refreshing the same five sites like a nervous habit
 There are dozens of RSS readers. Most are fine. I use **Inoreader** - the free tier gives you 150 feeds, which sounds tight but is actually way more than most people use. Most realistic personal setups end up around 20-30.
 
 A few others I've tried or had recommended: **Feedly** (clean, popular), **NetNewsWire** (Mac/iOS, free, open source), **Reeder** (paid, nicer to look at). Try whichever - they all do the same core job. You can export and switch readers anytime, so the choice isn't permanent.
+
+I wasted a Saturday once comparing readers side by side instead of subscribing to five feeds. Pick one in ten minutes. You can export OPML later if you hate it.
 
 Sign up, ignore most of the menus for now, and let's add some feeds.
 
@@ -52,6 +54,8 @@ This is the part that trips people up. RSS used to be advertised everywhere; now
 
 **Worst case, Google it.** Search "site name RSS feed" - someone has usually already figured it out.
 
+I pasted a homepage into Inoreader once and got nothing - turned out the site had killed RSS years ago and only published on Substack. Not every site has a feed. When auto-discover fails, I either subscribe to their newsletter or accept I'm not following them in RSS.
+
 ## Organizing without going overboard
 
 The classic beginner mistake is dumping every feed into one giant list, and the second mistake is the opposite - building an elaborate folder hierarchy with twelve nested categories.
@@ -63,6 +67,8 @@ What works for me is three folders:
 - **Fun** - comics, board-game rules blogs, design inspiration, the wind-down stuff
 
 That's it. If you can't decide which folder something goes in, just pick one. You can move it later.
+
+My first attempt was worse: twelve nested folders named after moods. I spent more time filing feeds than reading them. Collapsed everything into three buckets in one sitting and never looked back.
 
 ## A reading rhythm that doesn't burn you out
 
@@ -90,7 +96,9 @@ RSS made me more intentional about what I read. When you have to actively *choos
 
 I also started discovering smaller, weirder, better blogs. The kind of independent writing that algorithms don't surface but other bloggers link to. RSS rewards that whole layer of the internet that social media mostly buries.
 
-And there's something satisfying - almost meditative - about clearing a feed to zero. Like finishing a small chore that actually makes your day a little better.
+The first weird blog I found that way was a one-person Hugo site about board game rules edge cases - zero chance an algorithm would have pushed that to me. I subscribed because a post I liked linked to it. That's the layer social mostly buries.
+
+Clearing a feed to zero feels like finishing a small chore - satisfying in a way scrolling never is.
 
 ## Try it for a week
 

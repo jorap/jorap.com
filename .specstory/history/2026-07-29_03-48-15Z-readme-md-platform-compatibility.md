@@ -41,6 +41,542 @@ _**Agent (auto-low)**_
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-Status: **loading**
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": true,
+  "glob": "*.{md,json,mjs}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "platform|windows|linux|macos|cross-platform"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "platform|windows|linux|macos|cross-platform",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-20_03-20-28Z-notes-review-and-relationship-analysis.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-06-20_02-45-48Z-file-path-reference.md"
+    },
+    {
+      "matchCount": 52,
+      "uri": ".specstory/history/2026-07-10_06-19-24Z-garden-voice-fix-chunk.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": ".specstory/history/2026-07-23_11-56-32Z-feynman-batch-3-notes.md"
+    },
+    {
+      "matchCount": 22,
+      "uri": ".specstory/history/2026-07-05_14-37-42Z-garden-link-issues-summary.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": ".specstory/history/2026-07-26_15-32-32Z-blog-review-for-jorap.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-07-02_23-31-15Z-orphaned-note-issue.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": ".specstory/history/2026-06-19_07-07-52Z-responsiveness-testing-on-tablet.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/blog/sustainable-online-publishing.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-19_08-40-10Z-terminal-script-file-reference.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": ".specstory/history/2026-06-23_22-51-23Z-impeccable-critique.md"
+    },
+    {
+      "matchCount": 38,
+      "uri": ".specstory/history/2026-07-28_23-16-57Z-filename-safety-rules.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-02_07-13-32Z-clarification-needed-on-notes.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-05-31_17-41-03Z-dash-formatting-on-the-site.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": ".specstory/history/2026-07-09_16-10-36Z-key-concept-notes-review.md"
+    },
+    {
+      "matchCount": 7,
+      "uri": ".specstory/history/2026-07-20_11-43-35Z-garden-voice-notes-review.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-07-09_15-34-09Z-notes-review-and-key.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".cursor/skills/ponytail-audit/SKILL.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/servant-leadership.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-10_23-05-15Z-garden-link-issues-summary.md"
+    }
+  ],
+  "totalFiles": 332,
+  "totalMatches": 1835
+}
+```
+Status: **completed**
 
 </details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Reviewing related documentation and scripts to identify platform-specific guidance needed for the README.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/docs/TROUBLESHOOTING.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/runPython.mjs</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.mise.toml</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/docs",
+  "pattern": "platform|Windows|Linux|macOS|cross-platform"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/docs",
+  "pattern": "platform|Windows|Linux|macOS|cross-platform",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "docs/CLIENT_STATIC_SITE.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "docs/TROUBLESHOOTING.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": "docs/SPEC.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "docs/README.md"
+    }
+  ],
+  "totalFiles": 4,
+  "totalMatches": 9
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Reviewing the TROUBLESHOOTING section on local production previews and cross-platform filename checks. Checking specstory history for context on local testing across platforms.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/docs/TROUBLESHOOTING.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/spawnUtil.mjs</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "README.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "platform|Windows|cross-platform|any platform"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "platform|Windows|cross-platform|any platform",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "docs/README.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "README.md"
+    }
+  ],
+  "totalFiles": 2,
+  "totalMatches": 3
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Reviewing specstory history on cross-platform local testing to determine what the README needs to support.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-29_03-31-13Z-local-testing-across-platforms.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/fix-tailwind-bin.js</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Reviewing the specstory to understand prior work and determine what the README should reflect.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-29_03-31-13Z-local-testing-across-platforms.md",
+  "pattern": "README|update|cross-platform|Windows"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-29_03-31-13Z-local-testing-across-platforms.md",
+  "pattern": "README|update|cross-platform|Windows",
+  "topFiles": [
+    {
+      "matchCount": 40,
+      "uri": ".specstory/history/2026-07-29_03-31-13Z-local-testing-across-platforms.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 82
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-29_03-31-13Z-local-testing-across-platforms.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Reviewing the README section that identifies non-cross-platform commands.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-29_03-31-13Z-local-testing-across-platforms.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/setupGitHooks.mjs</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/lintNotes.mjs</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Cross-platform improvements were already made in the prior session.
+
+The README still contains outdated cross-platform references. Its requirements table claims Node 20+, yet package.json specifies >=22.22.2. The "Needs" section also incorrectly suggests Windows PowerShell or Git Bash, while setup:hooks is now handled by a cross-platform Node script.
+
+The README lacks a dedicated cross-platform section. It omits runPython.mjs for Python resolution and does not mention mise for toolchain management. A dedicated platform section may be needed. The final state of the README still needs verification.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+Offset 1700 is beyond file length (1665 lines)
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-29_03-31-13Z-local-testing-across-platforms.md",
+  "pattern": "README"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-29_03-31-13Z-local-testing-across-platforms.md",
+  "pattern": "README",
+  "topFiles": [
+    {
+      "matchCount": 22,
+      "uri": ".specstory/history/2026-07-29_03-31-13Z-local-testing-across-platforms.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 22
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Updating the README to ensure it supports any platform.
+
+The README will add a cross-platform section covering Windows, Linux, and macOS. It will fix the Node version inconsistency and remove the outdated sh/Git Bash requirement for setup:hooks. Python auto-resolution via runPython.mjs and pnpm compatibility across PowerShell, cmd, and Git Bash on Windows will be documented. Mise will be noted as the cross-platform toolchain installer.
+
+The README will also cover the postinstall Tailwind fix for Windows and clarify shell versus terminal guidance. Python resolution details will be verified against deploy-versions.json and spawnUtil.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/spawnUtil.mjs</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/deploy-versions.json</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Updating README.md to cover cross-platform support.
+
+Adding a "Platforms" section. Aligning Node version requirements to 22+. Updating quick-start steps with optional mise installation. Revising local preview instructions to mention all three shells work. Adding cross-platform notes on Python resolution. Considering a cross-platform command indicator.
+
+The README will place a new "Platforms" section right after Requirements. It will state that all pnpm scripts use Node wrappers and run in any shell. Toolchain setup will recommend mise via `.mise.toml`, or manual installs of Hugo Extended, Node 22+, pnpm, and Go. Python 3.8+ will be auto-detected with `python3`, `python`, or `py -3` on Windows, and users can override the path with `PYTHON`.
+
+`postinstall` now fixes Tailwind binary symlinks on Windows when Developer Mode is disabled. The quick-start will include `mise install` as an optional step. The `setup:hooks` script is now fully cross-platform via Node. A note will clarify that filename linting requires Node. Hugo will be placed on PATH automatically by mise during development. The README will avoid duplicating troubleshooting content and instead link to the TROUBLESHOOTING section.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Updating the README with a cross-platform section and aligning version numbers with `deploy-versions.json` and the Node wrappers already in the repo.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/README.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/README.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Reviewing the updated README to verify its quality and checking whether the deploy section needs any additional updates.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/README.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Verifying the TROUBLESHOOTING anchor link. The "## Local dev" heading likely generates a `#local-dev` anchor in GitHub markdown.
+
+TROUBLESHOOTING.md still references PowerShell and Git Bash. Removing those outdated platform-specific notes would improve consistency.
+
+cmd is now supported too, so PowerShell and Git Bash exclusions are outdated. I'll grep TROUBLESHOOTING for all platform-specific notes and update any `sh` references in the setup:hooks section.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/docs/TROUBLESHOOTING.md",
+  "pattern": "Git Bash|setup:hooks|sh "
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/docs/TROUBLESHOOTING.md",
+  "pattern": "Git Bash|setup:hooks|sh ",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "docs/TROUBLESHOOTING.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Expanding the troubleshooting section to include command-line instructions, aligning it with the README.
+
+The README update is complete. The troubleshooting section was left unchanged since only the README was requested.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Updated `README.md` so cross-platform setup is explicit and matches how the repo actually works.
+
+**Requirements** — Node bumped to 22+ (aligned with `package.json` and `deploy-versions.json`). Python 3.8+ listed for deploy and garden scripts.
+
+**Platforms (Windows, Linux, macOS)** — New section covering:
+- All `pnpm` scripts go through Node (no Bash-only entry points)
+- Shell options on Windows (PowerShell, cmd, Git Bash)
+- mise for cross-platform toolchain install
+- Python auto-detection via `runPython.mjs` (`PYTHON` override)
+- Windows `.cmd` shim handling, Tailwind `postinstall` fix, Node-based `setup:hooks`
+- Filename lint as pure Node
+
+**Quick start** — Optional `mise install` step added.
+
+**Local production preview** — Removed the “Windows only PowerShell/Git Bash” note; `mise install` or manual installs work on all three OSes.
+
+## Session close
+- Fixed: README documents Windows/Linux/macOS support and matches current Node wrappers.
+- Encode: none
+- Open: clean

@@ -707,3 +707,268 @@ _**Agent (auto-low)**_
 <summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/consistent-ai-output-wordpress-builds.md</summary>
 
 </details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+I will search the blogs and notes for values, mission, SWOT analysis, income, goals, and protocols.
+
+I will also review notes on working style, slow productivity, and stewardship.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/slow-productivity.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/success-is-stewardship.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/measure-then-iterate.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/static-site-client-scope.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/sustainable-online-publishing.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__craft-prompt-framework.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+I will update `master-prompt-sections.md` by placing answers under each checklist item as sub-bullets. I will source these answers from the blogs and notes.
+
+I will distinguish known facts from hypotheses. I am reviewing additional sources on professional context, faith values, identity, vision, and gaps.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-focused-on-open-source.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__selling-static-sites.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/miracle-isaiah-david.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "content/english/{blog,notes}/*.md",
+  "outputMode": "content",
+  "pattern": "accountability|documentation|schedule|discipline|weakness|strength|quality"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "accountability|documentation|schedule|discipline|weakness|strength|quality",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/reconciliation-before-worship.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/renewed-mind.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/streamlining-games-and-sports.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/prayer-jesus-taught.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/hugoplate-theme-review.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__xiaomi-is-the-new-huawei.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/cap-todays-commitments.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/blameless-after-action-review.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/sustainable-performance.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": "content/english/blog/static-site-vs-cms.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/evergreen-notes.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": "content/english/notes/moved-with-compassion.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/not-my-will.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/integrity-without-an-audience.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/eternal-principles.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/signature-move.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/loss-of-reward.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/blog/__interesting-facts-about-jorap.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/digital-minimalism.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/goodness.md"
+    }
+  ],
+  "totalFiles": 22,
+  "totalMatches": 214
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Enough context has been gathered to populate `master-prompt-sections.md` with answers as sub-bullets under each checklist item.
+
+The file will retain its checklist structure while adding sub-bullets with answers drawn from the archive. Unknown items will be marked clearly. Source links will be included where possible. Initial entries cover name and family details.
+
+Location is the Philippines, specifically Biñan or Parañaque. Age is inferred from the son being in grade 1 and born in 2020. Core values include a genuine Christian testimony, open-source principles, ownership over rented platforms, stewardship over success, honesty, plain language, measured iteration, slow productivity, and integrity without an audience.
+
+Vision infers from posts: own a corner of the internet, steward gifts, publish honest useful content. Faith centers on discipleship, testimony, and worship. Lifestyle includes one to two hours monthly site maintenance, freelance WordPress work, fewer active projects, a writing habit, and Alex Eala tracker updates. Strengths span math, WordPress patterns, Hugo, teaching seminars, plain writing, and open-source pragmatism.
+
+Weaknesses include McGill Big Three bookmarks left unread, back stiffness after long builds, and bailouts on lengthy series. Failed earphones clutter the drawer. Context and consistency were once unruled, though Cursor rules now address that.
+
+Solo operator with no team. Products are WordPress client sites, static Hugo sites, and the jorap.com blog plus notes garden.
+
+Good fits are small businesses, pastors with bulletin retainers, and neighbors with portfolios. Non-technical clients who can learn Git or pay a retainer also suit well. Bad fits include e-commerce, member logins, booking engines, and five daily editors without retainer.
+
+AI workflows rely on upstream context, a rules document, and a reusable eighty-percent layer. Cursor and skills form a sharded master prompt. The CRAFT framework treats AI as a fast new hire needing house rules. A patch system replaces drafts when the same failure repeats. Prose uses plain words and complete sentences. Currency is avoided. Commitments are only made when asked. Depth wins over speed. Async flows from RSS and garage to garden.
+
+Tools include Cursor, Hugo, WordPress, Cloudflare, Bitwarden, Brave or Chrome, and the Google ecosystem. Protocols are ai-writing-system, jorap-voice, garden-voice, ponytail-review, alex-eala-tracker-update, changelog-update, and personal-context-management.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Updating `master-prompt-sections.md` with sub-bullet answers from the archive, marking gaps where nothing was found.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/personal-context-management/master-prompt-sections.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The file has been updated. I am verifying the changes before presenting the summary.
+
+All questions were answered by placing them in sub-bullets after reviewing the blogs and notes. I will now summarize what was filled and flag any remaining gaps.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Filled in `master-prompt-sections.md` with sub-bullet answers drawn from the archive. Here's what landed vs what's still open.
+
+**Well covered from blogs/notes**
+- **Personal:** Team Rapusas, Pia, Davis, Philippines context, Christian faith, stewardship values
+- **Work:** Freelance WordPress (~80% repeat patterns), Hugo static sites, line-item quoting, scope filter, client pass-off lanes
+- **AI workflow:** Upstream context, Cursor rules/skills as sharded master prompt, CRAFT, 80% reusable layer, writing system protocols
+- **Voice/quality:** jorap-voice pillars, anti-slop rules, likability lens, reference posts
+- **Habits/tools:** Google ecosystem, Brave/Chrome split, garage→garden→push, slow productivity, measure-then-iterate
+
+**Marked as gap** (ledger gap tables or never written down)
+- JoRap age range
+- Explicit personal vision/mission statement
+- Freelance KPIs, rates, revenue targets
+- Pop culture rows (comfort rewatch, solo work music, podcasts, etc.)
+- Sports play/watch habits beyond cricket/Alex Eala/pickleball-badminton mention
+- Forte-style `AI hiring` / `AI SOP` protocols (not encoded as skills yet)
+
+**Convention used**
+- Facts cite source posts/notes where possible
+- **gap:** prefix when the archive has no row
+- "Inferred" only where several posts point the same direction but nothing states it outright
+- New **Archive gaps** section at the bottom mirrors `__interesting-facts-about-jorap.md` so agents don't invent from empty rows
+
+Want me to run the interview flow next for the gap rows (pop culture, sports, vision statement), or export a compressed ChatGPT/Claude master-prompt paste from what's filled?
+
+## Session close
+- Fixed: Master prompt checklist now has archive-sourced sub-bullet answers and explicit gap markers.
+- Encode: none
+- Open: ~15 gap rows still need JoRap input or a future blog post.

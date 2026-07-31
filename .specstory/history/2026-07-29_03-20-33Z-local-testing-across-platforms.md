@@ -4,12 +4,6 @@
 
 <!-- Cursor IDE Session 15ceb759-5d33-440d-a073-5c1822246b28 (2026-07-29 03:20:33Z) -->
 
-_**User**_
-
-ensure that I can test them locally in windows linux and mac
-
----
-
 _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
@@ -44,14 +38,643 @@ Parameters:
   "pattern": "windows|linux|mac|cross.?platform|local.*test"
 }
 ```
-Status: **loading**
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "windows|linux|mac|cross.?platform|local.*test",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__jorap-notes-features.md"
+    },
+    {
+      "matchCount": 39,
+      "uri": ".specstory/history/2026-07-28_11-46-17Z-vram-availability-for-ai.md"
+    }
+  ],
+  "totalFiles": 2,
+  "totalMatches": 1648
+}
+```
+Status: **completed**
 
 </details></tool-use>
 
 _**Agent (auto-low)**_
 
 <tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **0** directories</summary>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **46** results in **1** directory</summary>
 
-No results found
+Directory: **``** (46 files)
+
+| File |
+|------|
+| `scripts/clearModules.js` |
+| `scripts/import-from-obsidian.py` |
+| `scripts/export-okf-blog-bundle.py` |
+| `scripts/ensureHugo.mjs` |
+| `scripts/lint-randomizer.py` |
+| `scripts/lint-utility-wikilinks.py` |
+| `scripts/blog_frontmatter.py` |
+| `scripts/notes-voice-lint.py` |
+| `scripts/notes_content.py` |
+| `scripts/export-anki-deck.py` |
+| `scripts/garden-health.py` |
+| `scripts/sync-note-flashcards.py` |
+| `scripts/test-search.mjs` |
+| `scripts/deployBuild.mjs` |
+| `scripts/fix-tailwind-bin.js` |
+| `scripts/lint-notes-frontmatter.py` |
+| `scripts/normalize-notes-format.py` |
+| `scripts/voice-lint.py` |
+| `scripts/okf_bundle.py` |
+| `scripts/archive/__pycache__/expand-four-card-batch2.cpython-312.pyc` |
+| `scripts/garden-voice-lint.py` |
+| `scripts/spawnUtil.mjs` |
+| `scripts/audit-flashcard-north-star.py` |
+| `scripts/slop-lint.py` |
+| `scripts/slop-score.py` |
+| `scripts/bible_shortcode.py` |
+| `scripts/previewProd.mjs` |
+| `scripts/okf-viz/viz.css` |
+| `scripts/deploy-versions.json` |
+| `scripts/noteFileDates.js` |
+| `scripts/cspHashes.mjs` |
+| `scripts/bible-red-letter-mark.py` |
+| `scripts/notes-voice-sanitize.py` |
+| `scripts/sync-note-relationships.py` |
+| `scripts/setup-git-hooks.sh` |
+| `scripts/okf-viz/viz.html` |
+| `scripts/archive/__pycache__/expand-two-to-six.cpython-312.pyc` |
+| `scripts/normalize-blog-frontmatter.py` |
+| `scripts/okf-viz/viz.js` |
+| `scripts/lint-flashcard-frontmatter.py` |
+| `scripts/themeGenerator.js` |
+| `scripts/export-okf-bundle.py` |
+| `scripts/okf-viz/generate.py` |
+| `scripts/archive/__pycache__/expand-four-card-batch3.cpython-312.pyc` |
+| `scripts/servePublic.mjs` |
+| `scripts/blog_shortcodes.py` |
 </details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Checking the filename safety specstory for cross-platform validation scripts.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-28_23-16-57Z-filename-safety-rules.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/rules/safe-filenames.mdc</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+Glob pattern "**/*" matches every file and is not allowed. Use a more specific glob or no glob.
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The user created a safe-filenames rule and renamed unsafe filenames. They want to ensure local testing works across Windows, Linux, and macOS.
+
+Checking existing lint scripts in package.json for cross-platform filename safety tests.
+</details></think>
+
+_**Agent (auto-low)**_
+
+The safe-filenames rule exists but there's no cross-platform test script yet — I'll check how other lint scripts are wired in this repo.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/package.json",
+  "pattern": "filename|garden:health|lint-"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/package.json",
+  "pattern": "filename|garden:health|lint-",
+  "topFiles": [
+    {
+      "matchCount": 6,
+      "uri": "package.json"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 6
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/garden-health.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/package.json</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Local testing of safe filename checks must work on Windows, Linux, and Mac.
+
+A Python script at `scripts/lint-filenames.py` will implement the checks. It will include self-check tests and run via `lint:filenames` in `package.json`. Existing lint scripts will be used as a pattern.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-randomizer.py</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **1** result in **1** directory</summary>
+
+Directory: **``** (1 file)
+
+| File |
+|------|
+| `.githooks/prepare-commit-msg` |
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "lint:filenames|lint-filenames"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "lint:filenames|lint-filenames",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+A cross-platform lint script will ensure filenames work correctly across Windows, Linux, and macOS.
+
+Python 3 with only stdlib will handle cross-platform compatibility. The script should scan git-tracked files and include a self-check mode. Existing package.json scripts use `python3`, but Windows environments typically need `python` instead.
+
+Checking spawnUtil.mjs for existing cross-platform patterns. A Node wrapper is overkill. The options are a shebang, documentation, or a Node utility.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/spawnUtil.mjs</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.githooks/prepare-commit-msg</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "**/*.{md,sh,yml,yaml}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "python3|sys\\.platform|win32"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "python3|sys\\.platform|win32",
+  "topFiles": [
+    {
+      "matchCount": 28,
+      "uri": "pnpm-lock.yaml"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-06-19_12-30-32Z-two-random-notes-feature.md"
+    }
+  ],
+  "totalFiles": 2,
+  "totalMatches": 2001
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Creating `scripts/lint-filenames.py` to standardize filenames across platforms.
+
+The script will scan tracked files by default, support `--self-check` for runnable tests, and optionally walk the full tree. It uses `pathlib` for cross-platform path handling. A Python shebang keeps Windows compatibility without extra wrappers.
+
+Adding a `resolvePython()` helper to `spawnUtil.mjs` to locate the correct Python executable across platforms. This avoids extra wrapper files and matches the repository's existing patterns.
+
+Checking deployBuild.mjs to see how Python is invoked elsewhere in the repository. This will determine whether to add a thin MJS wrapper or use the existing runPython helper directly.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.{mjs,js}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts",
+  "pattern": "python|spawnUtil"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts",
+  "pattern": "python|spawnUtil",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "scripts/previewProd.mjs"
+    },
+    {
+      "matchCount": 3,
+      "uri": "scripts/deployBuild.mjs"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/servePublic.mjs"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/test-search.mjs"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/ensureHugo.mjs"
+    }
+  ],
+  "totalFiles": 5,
+  "totalMatches": 7
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **9** results in **1** directory</summary>
+
+Directory: **``** (9 files)
+
+| File |
+|------|
+| `.github/prompts/speckit.specify.prompt.md` |
+| `.github/prompts/speckit.clarify.prompt.md` |
+| `.github/prompts/speckit.tasks.prompt.md` |
+| `.github/prompts/speckit.implement.prompt.md` |
+| `.github/prompts/speckit.constitution.prompt.md` |
+| `.github/prompts/speckit.analyze.prompt.md` |
+| `.github/prompts/speckit.checklist.prompt.md` |
+| `.github/ISSUE_TEMPLATE/bug_report.yml` |
+| `.github/prompts/speckit.plan.prompt.md` |
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Deploy scripts hardcode `python3`, which breaks local testing across Windows, Linux, and macOS.
+
+The target is the filename lint tool. A Python script will hold the core logic. A Node wrapper will handle cross-platform Python resolution. This avoids hardcoded `python3` calls.
+
+A pure Node.js implementation may be preferable to avoid Python dependencies entirely. The project already requires Node 22+, and test-search.mjs offers a useful pattern for a self-contained lint with tests.
+
+The repository convention uses Python for lints. Adding `resolvePython` to `spawnUtil` is a one-time fix that benefits all lints. The immediate goal remains making the filename lint testable cross-platform.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/test-search.mjs</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+A cross-platform solution will be created for local testing on Windows, Linux, and Mac.
+
+The lint logic will live in a single Python script under `scripts/` as the source of truth. A Node wrapper will call it via `resolvePython()` in `spawnUtil.mjs`. This avoids Python version issues on Windows while keeping all lint checks in one place.
+
+A pure Node.js implementation is now preferred over the Python script. The logic is small enough to live in a single `.mjs` file, eliminating Python entirely and avoiding Windows Python path issues.
+
+The implementation will be a single `lint-filenames.mjs` script. It will include `checkComponent` for validation, `lintGitTracked` using `git ls-files`, and a `--self-check` flag for unit tests. Node 22+ is already required by the project, so no Python runtime is needed.
+
+No documentation updates are planned. The script will enforce the exact safe-filenames rules: forbidden characters, control codes, reserved stems, trailing spaces, leading or trailing whitespace, and names longer than 200 bytes.
+
+The self-check suite will cover Windows reserved names, forbidden characters, trailing dots, and valid filenames. Git paths will be split by `/` to validate each component separately, since slashes are consistent across all platforms.
+
+An optional `--all` flag will scan the full working tree to catch untracked unsafe filenames. The `pnpm test:filenames` script will run the self-check. The implementation imports Node core modules and defines forbidden characters in a Set.
+
+The `--all` walk will skip `.git`, `node_modules`, `public`, `resources`, `.pnpm-store`, and `.cache`. `git` must be available on PATH for `git ls-files`. The script will be verified against the current repository.
+</details></think>
+
+_**Agent (auto-low)**_
+
+I'll add a Node-based lint script (Node is already required) so filename checks run the same on Windows, Linux, and macOS.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-filenames.mjs</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+I introduced a bug in the --walk branch by calling lintPaths incorrectly.
+
+walkTree pushes hits to `out` rather than returning file paths, so the walk logic needs fixing. The "final version.md" test case should check for spaces inside filenames instead of trailing ones.
+
+The cross-platform rule only forbids spaces at the start or end of filenames, not in the middle. A better test case would be "post .md", where the stem ends with a trailing space.
+
+I'll use `"foo "` and `"foo."` as test cases for trailing spaces and dots. I'm now rewriting the `main()` function to fix the `--walk` branch.
+
+The `--walk` branch will collect hits into an array and report them directly. The `lintPaths` exit logic is correct. I'm simplifying the walk reporting.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Fixing the walk logic and self-check cases.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-filenames.mjs</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+Invalid arguments:
+path: Required
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+The string to replace was not found in the file.
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The first replacement succeeded, but the second failed partially.
+
+Reading the file to fix it properly.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-filenames.mjs</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Fixing the walk branch and replacing lintPaths with a reportHits approach.
+
+Keeping lintPaths unchanged. Fixing walkTree to count all scanned paths rather than only hits.
+
+Adding a `scanned` counter to `walkTree` so the total number of visited entries is tracked separately from hits.
+
+The `--walk` branch now returns the scanned count and passes it to `reportHits`. The broken walk section is being replaced entirely.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-filenames.mjs</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-filenames.mjs</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-filenames.mjs</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/package.json</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Running the tests now to verify everything works.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm test:filenames &amp;&amp; pnpm lint:filenames</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && pnpm test:filenames && pnpm lint:filenames
+```
+
+```
+$ node scripts/lint-filenames.mjs --self-check
+  FAIL "post " expected ["trailing space or dot"] got ["leading/trailing whitespace","trailing space or dot"]
+
+1 self-check assertion(s) failed
+[ELIFECYCLE] Command failed with exit code 1.
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The self-check for "post " incorrectly flags leading or trailing whitespace because trim() removes trailing spaces.
+
+The test should expect both whitespace and trailing-dot issues, or use a cleaner test case like `"draft."` that only triggers one.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-filenames.mjs</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Updating the doc comment to mention `--walk`. Running tests again.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm test:filenames &amp;&amp; pnpm lint:filenames</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && pnpm test:filenames && pnpm lint:filenames
+```
+
+```
+$ node scripts/lint-filenames.mjs --self-check
+lint-filenames self-check OK (8 cases)
+$ node scripts/lint-filenames.mjs
+Git tracked: scanned 1552 path(s)
+No cross-platform unsafe filenames found.
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+All tests pass. A brief note will be added to safe-filenames.
+
+A "Verify locally" section will be added to safe-filenames.mdc. It will include the pnpm test commands for local verification.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Adding a verify section to the rule so the test commands are discoverable.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/rules/safe-filenames.mdc</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+A session close block is required after the file changes.
+
+Created `scripts/lint-filenames.mjs` for cross-platform filename linting. Added `pnpm test:filenames` and `pnpm lint:filenames` scripts. Updated `safe-filenames.mdc` with a verify section. Node was chosen over Python because Node 22+ is already required and `python3` is not guaranteed on Windows.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Added a cross-platform filename lint you can run on any machine with Node (already required by this repo — no Python needed, which helps on Windows).
+
+**Commands**
+
+| Command | What it does |
+|---------|----------------|
+| `pnpm test:filenames` | Self-check (8 cases: reserved names, colons, trailing dots, etc.) |
+| `pnpm lint:filenames` | Scan all git-tracked paths |
+| `node scripts/lint-filenames.mjs --walk` | Also scan untracked working-tree files |
+
+**Implementation:** `scripts/lint-filenames.mjs` — same pattern as `test-search.mjs`, uses only Node stdlib + `git ls-files`. Checks match `.cursor/rules/safe-filenames.mdc` (forbidden chars, Windows reserved names, trailing dots/spaces, length).
+
+Both commands pass on the current repo (1,552 tracked paths, 0 unsafe).
+
+The verify section in `safe-filenames.mdc` documents these commands for future reference.
+
+## Session close
+- Fixed: Added cross-platform `lint-filenames.mjs` with `pnpm test:filenames` and `pnpm lint:filenames`.
+- Encode: documented verify commands in `safe-filenames.mdc`
+- Open: clean

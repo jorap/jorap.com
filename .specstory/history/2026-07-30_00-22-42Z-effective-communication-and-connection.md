@@ -4018,5 +4018,177 @@ I'll weave Maxwell's "Everyone Communicates, Few Connect" principle into the jor
 
 The update targets the skill itself rather than a blog post. I'm extracting six core Maxwell principles for JoRap voice: connecting over merely communicating, focusing on others, engaging thought, emotion, and action, building energy through intention and patience, prioritizing skill over talent, and creating common ground with simplicity and inspiration.
 
-I'll add a credibility lens: live what you communicate. The existing likability lens overlaps well with Maxwell's framework. I'll bridge his principles into actionable writing 
+I'll add a credibility lens: live what you communicate. The existing likability lens overlaps well with Maxwell's framework. I'll bridge his principles into actionable writing guidance without copying his tone. I'll also sharpen the "one friend flow" and start from the reader's perspective rather than the writer's.
+
+Plain words already cover simplicity. The new "Connecting with readers" section will frame Maxwell's principles in JoRap terms without preacher or CEO language. It maps directly to existing passes to avoid redundancy. A practical checklist for blog writing will anchor the guidance.
+
+The likability lens will gain connection language. I'm reviewing examples.md for a before-and-after example and checking the structure.
 </details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/examples.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/author-context.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+A "Connecting with readers" section will be added to jorap-voice SKILL.md. It will distill Maxwell's insights without copying his leadership-book tone.
+
+The section will follow the "Likability lens" rather than "Voice pillars." The voice check checklist will gain connection items. An example in examples.md will contrast a connected opening with a disconnected one. Maxwell's "everyone communicates, few connect" will be reframed as smooth SEO prose that connects with specifics and reader focus.
+
+Maxwell's leadership principles are being mapped to JoRap blog voice. Writing to one sharp friend comes first. Show thinking alongside lived-in details. Take responsibility for reader attention. Hook with relatable situations. Vary rhythm and use stories. Land on actions readers can take. Be honest about failures instead of postinguring.
+
+Maxwell chapter two asks three reader questions: Do you care? Can you help? Can I trust you? These map to likability pillars—respectful, useful, and honest. The skill file will cite the framework briefly without heavy name-dropping. The likability lens subtitle will mention connection. A short before-and-after example will be added to examples.md.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Distilling Maxwell's framework into actionable jorap-voice guidance—mapped to your existing pillars, not leadership-book prose.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/examples.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/examples.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Adding a brief cross-reference in the likability lens table. Maxwell's three questions map directly.
+
+The new section already covers the material well. Updating the skill description in the frontmatter to mention connecting. Considering a link to the create-regular-connection note in the garden for relationship posts.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+The string to replace was not found in the file.
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+The string to replace was not found in the file.
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Reviewing the workflow section to fix numbering.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Adding step 7 for the connection lens. Renumbering the voice check to step 8.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The user shared a lengthy book. They may also want a blog post.
+
+I've incorporated the content into the voice system. I'll now map the key insights to their existing voice framework.
+</details></think>
+
+_**Agent (auto-low)**_
+
+I folded Maxwell's *Everyone Communicates, Few Connect* into **jorap-voice** as a practical layer on top of what you already had—not as leadership-book prose.
+
+### What changed
+
+**New section: "Connecting with readers"** in `.cursor/skills/jorap-voice/SKILL.md`
+
+Maxwell's ten chapters collapse into something you can run on every draft:
+
+| Maxwell | JoRap move |
+|--------|------------|
+| **Principles** (others, beyond words, energy, skill) | Reader problem first; claim + lived detail; own attention; connection is learnable |
+| **Practices** (common ground, simple, experience, inspire, live it) | Scene-only-you-lived open; one point per section; vary rhythm; close on Monday action; only recommend what you'd buy again |
+| **Three reader questions** (care? help? trust?) | Maps to your likability pillars: respectful → care, useful → help, honest → trust |
+
+**Workflow** now includes a mandatory **connection lens** (step 7) after likability.
+
+**examples.md** adds:
+- On-voice "connecting" excerpt (patio cord mistake)
+- Anti-pattern block: *communicates but doesn't connect* (writer-first, topic lecture, fake expertise)
+
+### How this fits your voice
+
+You already had most of the machinery—**useful, honest, human, respectful** is Maxwell without the podium. The new piece names the gap explicitly:
+
+- **Communicates** = smooth, complete, could live on any blog  
+- **Connects** = reader feels seen, helped, willing to trust your pick  
+
+Rule of thumb from the skill: if a post informs but doesn't land, **rewrite the opening and closing first**—that's where most of the bond happens.
+
+### Using it on a draft
+
+After the seven passes + likability lens, ask:
+
+1. Does the first paragraph start on *their* friction, not your credentials?  
+2. Is there at least one beyond-words marker (mistake, duration, place)?  
+3. Would a skeptical reader say you care, helped, and didn't posture?
+
+If you want this as a **blog post** in your voice (not just skill guidance), say the word and I'll draft one from your stack—Hugo deploys, earphone drawers, Sunday calls with parents, etc.
+
+## Session close
+- Fixed: Maxwell's connecting framework encoded in jorap-voice skill + examples
+- Encode: none (skill update is the encode)
+- Open: clean

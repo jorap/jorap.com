@@ -105,5 +105,223 @@ The task is now clear.
 
 The blog post needs two updates from recipe-style.md. A cleaner voice split table should replace the current version. The new "Steps repeat amounts on add" section with bad and good examples must be added. The rules block is already synchronized.
 
-The blog post contains outdated guidance. One line still permits re-measuring mid-paragraph
+The blog post contains outdated guidance. One line still permits re-measuring mid-paragraph for split adds. The ingredient list section contradicts the new rule. Workflow and lint integration details from the jorap-voice skill are also missing.
+
+The plan is now concrete. Outdated language will be replaced by the add-line rule. A human-voice example section will be added. The jorap-voice workflow gets seven-pass intros and slop lint on publish. Bidirectional references will be checked. Prior session history may be reviewed.
 </details></think>
+
+_**Agent (auto-low)**_
+
+Checking the prior session and recipe posts for the add-line pattern.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+File not found
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/instant-pot-chicken-adobo.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The blog post requires updates based on the jorap-voice skill.
+
+Point 5 needs correction: repeat amounts on add lines, not prep, reserve, or transfer. A new subsection under "What I modified" will explain this rule with JoRap voice examples. The ingredients section should reflect new measurement consistency. A workflow integration section may cover seven passes on intros, recipe-style.md for shape, and slop lint.
+
+The rules block is already in sync. Reference posts should be added to the closing or a new section. Lines 88–92 already correctly cite recipe-style.md. The exact wording for point 5 is being drafted to replace the old split-add rule with the new add-line rule.
+
+The new subsection will be titled "Repeat amounts on add lines only." It explains that phone readers scroll up to check ingredient amounts, unlike printed recipes. Add lines must repeat metric amounts first, with volume in parentheses. Prep, reserve, and transfer steps omit amounts entirely.
+
+Concrete examples will contrast bad copy like "Combine the marinade from the list above" with correct add-line formatting. The "last adobo pass" section should also note add-line consistency. The workflow section will specify seven passes on intros and close only, plus slop:score and lint before publishing. The recent SKILL.md diff still needs review.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; git diff .cursor/skills/jorap-voice/SKILL.md .cursor/skills/jorap-voice/recipe-style.md 2&gt;/dev/null | head -200</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && git diff .cursor/skills/jorap-voice/SKILL.md .cursor/skills/jorap-voice/recipe-style.md 2>/dev/null | head -200
+```
+
+```
+diff --git a/.cursor/skills/jorap-voice/SKILL.md b/.cursor/skills/jorap-voice/SKILL.md
+index 20eaa45b..ad0a3c1f 100644
+--- a/.cursor/skills/jorap-voice/SKILL.md
++++ b/.cursor/skills/jorap-voice/SKILL.md
+@@ -31,7 +31,7 @@ Keep blog posts sounding like JoRap wrote them - practical, personal, and plain-
+ - Rewriting AI-generated or stiff drafts under `content/english/blog/`
+ - Editing blog tone without changing facts
+ - Writing blog `meta_title` and `description`
+-- Recipe posts (instructional body + human section intros)
++- Recipe posts (instructional body + human section intros) — read [recipe-style.md](recipe-style.md)
+ 
+ ## Workflow
+ 
+@@ -306,7 +306,19 @@ No affiliate links on the site as of now. Named products you own, what ended up
+ 
+ ## Recipe posts (variant)
+ 
+-Recipe content can be more instructional - ingredients, steps, timings - but section intros should still sound human. Avoid generic food-blog filler ("This delicious recipe will tantalize your taste buds"). Keep the "why this method" parts in JoRap voice; keep the method itself scannable.
++Read [recipe-style.md](recipe-style.md) before drafting or editing any food post. Full rationale lives in `content/english/blog/__modified-atk-recipe-style-guide-rules.md`.
++
++Recipe content is more instructional - ingredients, steps, timings - but section intros stay human. Avoid food-blog filler ("This delicious recipe will tantalize your taste buds").
++
++| Zone | Rule |
++|------|------|
++| **Voice** | JoRap in opening, section intros, close; ATK-scannable in ingredients and steps |
++| **Measurements** | Metric first, practical volume in parentheses (`160 ml, about 2/3 cup`) - same in ingredients **and** steps |
++| **Fractions** | Digits with slash (`1/2` not `½`) |
++| **Steps** | Imperative, articles OK, times/heat in the step they apply to, equipment when size matters; **repeat amounts on add lines only** (not prep/reserve/transfer) |
++| **Facts** | Match existing JoRap recipe posts for Instant Pot ratios; no inven
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Identifying key updates from the jorap-voice skill to sync into the blog post.
+
+A new `recipe-style.md` file now holds the extracted rules. SKILL.md points to it with a recipe variant table. The major new rule is repeat amounts on add lines only. The blog post rules block is already synced. Its prose sections still need updating. Point 5 still uses old "no re-measuring" language. There is no dedicated section on repeat amounts yet. Voice split tables and the seven-pass workflow could be added. The same seven passes apply to intros and close.
+
+Drafting the specific blog post edits. The last adobo pass section will mention the add-line fix. A new subsection will explain repeat amounts on add lines only. The metric first section will also be updated to reference the same format on add lines.
+
+The closing paragraph will cite recipe-style.md as the machine-readable companion. The jorap-voice skill workflow will be expanded slightly to clarify how voice passes apply to intros and sl.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Updating the blog post to match `recipe-style.md`: add-line amount repeats, voice split, and jorap-voice workflow.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__modified-atk-recipe-style-guide-rules.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__modified-atk-recipe-style-guide-rules.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__modified-atk-recipe-style-guide-rules.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__modified-atk-recipe-style-guide-rules.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__modified-atk-recipe-style-guide-rules.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__modified-atk-recipe-style-guide-rules.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Verifying the file reads well. Running slop score and lint checks if appropriate.
+
+Also verifying the rules block matches macipe-style.md exactly.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__modified-atk-recipe-style-guide-rules.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm slop:score content/english/blog/__modified-atk-recipe-style-guide-rules.md 2&gt;&amp;1 | tail -20</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && pnpm slop:score content/english/blog/__modified-atk-recipe-style-guide-rules.md 2>&1 | tail -20
+```
+
+```
+$ node scripts/runPython.mjs scripts/voice-lint.py score content/english/blog/__modified-atk-recipe-style-guide-rules.md
+__modified-atk-recipe-style-guide-rules.md words=1352 total= 10 per100w=  0.74
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The update looks good. The slop score is 0.74 per 100 words, well below the 2.0 threshold.
+
+Running lint:voice next.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm lint:voice content/english/blog/__modified-atk-recipe-style-guide-rules.md 2&gt;&amp;1 | tail -10</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:voice content/english/blog/__modified-atk-recipe-style-guide-rules.md 2>&1 | tail -10
+```
+
+```
+$ node scripts/runPython.mjs scripts/voice-lint.py dashes --check && node scripts/runPython.mjs scripts/voice-lint.py site --check content/english/blog/__modified-atk-recipe-style-guide-rules.md
+Voice dash lint OK
+Voice lint OK
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The style guide file has been updated based on the jorap-voice skill changes.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Updated `__modified-atk-recipe-style-guide-rules.md` to match the jorap-voice skill and `recipe-style.md`. Main sync points:
+
+**New / expanded sections**
+- **Repeat amounts on add lines only** — full rationale with bad/good/transfer examples (the biggest rule change from `recipe-style.md`)
+- **Voice split table** — JoRap in intros/close, ATK-scannable in ingredients and steps
+- **jorap-voice workflow** — passes #1, #5, #7 on intros; steps stay instructional; `pnpm slop:score` + `pnpm lint:voice` before publish
+
+**Fixed outdated content**
+- Item #5 in "What I kept" no longer says "no re-measuring" — now points to add-line repeats
+- Metric section notes same format on add lines + `1/2` fraction rule
+- Adobo pass example includes the "from the list above" failure
+- Closing references `recipe-style.md` as the machine-readable companion
+
+The paste block in the post still matches `recipe-style.md` line for line. This post = rationale; the skill file = what the model loads.
+
+## Session close
+- Fixed: Synced recipe style guide blog post with jorap-voice `recipe-style.md` (add-line repeats, voice split, lint workflow)
+- Encode: none
+- Open: clean

@@ -150,6 +150,674 @@ _**Agent (cursor-grok-4.5-high-fast)**_
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
-Status: **loading**
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "__*.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "^(draft:|title:|# |## )"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "^(draft:|title:|# |## )",
+  "topFiles": [
+    {
+      "matchCount": 7,
+      "uri": "content/english/blog/__humanize-ai-articles.md"
+    },
+    {
+      "matchCount": 7,
+      "uri": "content/english/blog/__mi-box-s.md"
+    },
+    {
+      "matchCount": 10,
+      "uri": "content/english/blog/__why-brave-browser.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "content/english/blog/__craft-prompt-framework.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "content/english/blog/__native-hugo-taxonomies.md"
+    },
+    {
+      "matchCount": 7,
+      "uri": "content/english/blog/__hugo-static-site-generator.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/blog/__how-to-create-a-blog-template.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "content/english/blog/__how-to-create-a-good-habit.md"
+    },
+    {
+      "matchCount": 7,
+      "uri": "content/english/blog/__xiaomi-is-the-new-huawei.md"
+    },
+    {
+      "matchCount": 10,
+      "uri": "content/english/blog/__inter-font.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "content/english/blog/__obsidian-vs-hugo.md"
+    },
+    {
+      "matchCount": 9,
+      "uri": "content/english/blog/__client-site-pass-off.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "content/english/blog/__hugo-shortcodes.md"
+    },
+    {
+      "matchCount": 7,
+      "uri": "content/english/blog/__jobs-to-be-done-framework.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "content/english/blog/__hugo-page-bundles.md"
+    },
+    {
+      "matchCount": 8,
+      "uri": "content/english/blog/__markdown-deep-dive.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "content/english/blog/__immune-booster-supplements.md"
+    },
+    {
+      "matchCount": 7,
+      "uri": "content/english/blog/__second-cellphone.md"
+    },
+    {
+      "matchCount": 10,
+      "uri": "content/english/blog/__why-git-greatest-open-source-innovation.md"
+    },
+    {
+      "matchCount": 7,
+      "uri": "content/english/blog/__rechargeable-batteries.md"
+    }
+  ],
+  "totalFiles": 39,
+  "totalMatches": 304
+}
+```
+Status: **completed**
 
 </details></tool-use>
+
+_**Agent (cursor-grok-4.5-high-fast)**_
+
+<think><details><summary>Thought Process</summary>
+I will batch-check drafts for flagged patterns and word counts. The three ledger and meta files are skipped.
+
+Thirty-six drafts are in scope. Three files are ledger or meta and will be skipped. Parallel greps and word counts will run next.
+</details></think>
+
+_**Agent (cursor-grok-4.5-high-fast)**_
+
+Next I'll batch-scan for footers, placeholder images, and word counts across the in-scope drafts.
+
+_**Agent (cursor-grok-4.5-high-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="update_current_step"><details>
+<summary>Tool use: **update_current_step**</summary>
+An unknown error occurred
+</details></tool-use>
+
+_**Agent (cursor-grok-4.5-high-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "{__*.md,streamlining-games-and-sports.md}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "image-template\\.jpg|## Further reading|## Bottom line|Expanded from|Idea captured|^\\s*[-*]\\s|^\\s*\\d+\\."
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "image-template\\.jpg|## Further reading|## Bottom line|Expanded from|Idea captured|^\\s*[-*]\\s|^\\s*\\d+\\.",
+  "topFiles": [
+    {
+      "matchCount": 17,
+      "uri": "content/english/blog/__mcgill-big-three.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "content/english/blog/__how-to-create-a-blog-template.md"
+    },
+    {
+      "matchCount": 14,
+      "uri": "content/english/blog/__apple-strategically-late.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": "content/english/blog/__xiaomi-is-the-new-huawei.md"
+    }
+  ],
+  "totalFiles": 4,
+  "totalMatches": 40
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (cursor-grok-4.5-high-fast)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com/content/english/blog &amp;&amp; for f in __*.md streamlining-games-and-sports.md; do
+  case &#34;$f&#34; in
+    __interesting-facts-about-jorap.md|__blog-template.md|__how-to-create-a-blog-template.md) continue ;;
+  esac
+  # strip yaml frontmatter then count words
+  words=$(awk &#39;BEGIN{fm=0} /^---$/{fm++; next} fm&gt;=2{print}&#39; &#34;$f&#34; | wc -w)
+  # bullet lines (list items)
+  bullets=$(grep -cE &#39;^\s*[-*]\s|^\s*\d+\.\s&#39; &#34;$f&#34; || true)
+  # first ~8 body lines after frontmatter for skim
+  open=$(awk &#39;BEGIN{fm=0} /^---$/{fm++; next} fm&gt;=2{print; if(++n&gt;=6) exit}&#39; &#34;$f&#34; | tr &#39;\n&#39; &#39; &#39; | head -c 220)
+  printf &#39;%s\t%s\t%s\t%s\n&#39; &#34;$f&#34; &#34;$words&#34; &#34;$bullets&#34; &#34;$open&#34;
+done</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com/content/english/blog && for f in __*.md streamlining-games-and-sports.md; do
+  case "$f" in
+    __interesting-facts-about-jorap.md|__blog-template.md|__how-to-create-a-blog-template.md) continue ;;
+  esac
+  # strip yaml frontmatter then count words
+  words=$(awk 'BEGIN{fm=0} /^---$/{fm++; next} fm>=2{print}' "$f" | wc -w)
+  # bullet lines (list items)
+  bullets=$(grep -cE '^\s*[-*]\s|^\s*\d+\.\s' "$f" || true)
+  # first ~8 body lines after frontmatter for skim
+  open=$(awk 'BEGIN{fm=0} /^---$/{fm++; next} fm>=2{print; if(++n>=6) exit}' "$f" | tr '\n' ' ' | head -c 220)
+  printf '%s\t%s\t%s\t%s\n' "$f" "$words" "$bullets" "$open"
+done
+```
+
+```
+__apple-strategically-late.md	3907	8	 I don't sit through Apple keynotes. I still keep up with what they're shipping - headlines, recap threads, the two-minute clips that show up in my feed. I already own a **MacBook Pro M4** and an **11th-gen iPad**. I'm n
+__canon-g3000.md	551	7	 Printers are where technology goes to disappoint adults. Cartridge printers especially - cheap hardware, expensive ink, and that specific rage when the machine reports "low cyan" while you're trying to print a black-and
+__client-site-pass-off.md	907	13	 > **TL;DR**: Pick exactly one publish path before deposit - not "we'll figure it out at launch." I hand off a one-page doc with repo URL, deploy settings, DNS, and who to call when the build fails. The goal is a site yo
+__craft-prompt-framework.md	394	10	 "Write me a blog post about productivity" is a coin flip. I tried that once for a client newsletter and got three paragraphs of oatmeal with a "In conclusion" footer. Never again without a shape.  The prompts I keep in 
+__grade-1-better-than-kumon.md	3370	31	 I gave my son a choice: **Kumon math or Kumon reading.**  He picked reading. No drama. He already **reads well** - chapter books at six, not struggling through each line. Kumon math looked like a lot of sitting still wi
+__how-to-create-a-good-habit.md	322	10	 I don't need another motivational poster about discipline. I need **systems that make the right thing the default** - especially on tired weekdays when willpower clocks out early.  James Clear's *Atomic Habits* gave me 
+__hugo-go-templates.md	418	12	 Hugo builds HTML from **Go templates** - `.html` files full of `{{ }}` actions. Partials, layouts, shortcodes - same language everywhere. The docs read like a reference manual. I learned by breaking something visible, t
+__hugo-page-bundles.md	434	6	 Most of my blog posts are a flat file: `extension-cord.md`, hero image in `/images/extension-cord.jpg`, done. That works until you publish something with six screenshots, a PDF handout, a
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (cursor-grok-4.5-high-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Targeted checks are planned for image-template.jpg, Further reading / Bottom line, Expanded from / Idea captured footers, generic section headings, and missing personal thread.
+
+The audit will classify drafts as OUTLINE, THIN, or VOICE-READY. Short drafts and wiki-export-style entries will be reviewed closely.
+</details></think>
+
+_**Agent (cursor-grok-4.5-high-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "{__*.md,streamlining-games-and-sports.md}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "image-template\\.jpg|## Further reading|## Bottom line|Expanded from|Idea captured"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "image-template\\.jpg|## Further reading|## Bottom line|Expanded from|Idea captured",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__how-to-create-a-blog-template.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__xiaomi-is-the-new-huawei.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__mcgill-big-three.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__apple-strategically-late.md"
+    }
+  ],
+  "totalFiles": 4,
+  "totalMatches": 4
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (cursor-grok-4.5-high-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "{__*.md,streamlining-games-and-sports.md}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "^## (Introduction|Conclusion|Overview|Benefits|Features|How it works|Pros and cons|Key takeaways|Summary|What is|Getting started)"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "^## (Introduction|Conclusion|Overview|Benefits|Features|How it works|Pros and cons|Key takeaways|Summary|What is|Getting started)",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__smart-plug.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (cursor-grok-4.5-high-fast)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com/content/english/blog &amp;&amp; for f in __*.md streamlining-games-and-sports.md; do
+  case &#34;$f&#34; in
+    __interesting-facts-about-jorap.md|__blog-template.md|__how-to-create-a-blog-template.md) continue ;;
+  esac
+  img=$(grep -E &#39;image:&#39; &#34;$f&#34; | head -1)
+  # I/me/my density in body
+  body=$(awk &#39;BEGIN{fm=0} /^---$/{fm++; next} fm&gt;=2{print}&#39; &#34;$f&#34;)
+  words=$(echo &#34;$body&#34; | wc -w)
+  ipov=$(echo &#34;$body&#34; | grep -oiE &#39;\b(I|I&#39;\&#39;&#39;m|I&#39;\&#39;&#39;ve|my|me|we|our)\b&#39; | wc -l)
+  # ratio of bullet lines to total non-empty lines
+  nonempty=$(echo &#34;$body&#34; | grep -cve &#39;^\s*$&#39;)
+  bullets=$(echo &#34;$body&#34; | grep -cE &#39;^\s*[-*]\s|^\s*\d+\.\s&#39; || true)
+  # headings
+  heads=$(grep -E &#39;^## &#39; &#34;$f&#34; | paste -sd &#39;|&#39; -)
+  printf &#39;%s\n  img:%s words:%s ipov:%s bullets:%s/%s\n  H:%s\n&#39; &#34;$f&#34; &#34;$img&#34; &#34;$words&#34; &#34;$ipov&#34; &#34;$bullets&#34; &#34;$nonempty&#34; &#34;$heads&#34;
+done</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com/content/english/blog && for f in __*.md streamlining-games-and-sports.md; do
+  case "$f" in
+    __interesting-facts-about-jorap.md|__blog-template.md|__how-to-create-a-blog-template.md) continue ;;
+  esac
+  img=$(grep -E 'image:' "$f" | head -1)
+  # I/me/my density in body
+  body=$(awk 'BEGIN{fm=0} /^---$/{fm++; next} fm>=2{print}' "$f")
+  words=$(echo "$body" | wc -w)
+  ipov=$(echo "$body" | grep -oiE '\b(I|I'\''m|I'\''ve|my|me|we|our)\b' | wc -l)
+  # ratio of bullet lines to total non-empty lines
+  nonempty=$(echo "$body" | grep -cve '^\s*$')
+  bullets=$(echo "$body" | grep -cE '^\s*[-*]\s|^\s*\d+\.\s' || true)
+  # headings
+  heads=$(grep -E '^## ' "$f" | paste -sd '|' -)
+  printf '%s\n  img:%s words:%s ipov:%s bullets:%s/%s\n  H:%s\n' "$f" "$img" "$words" "$ipov" "$bullets" "$nonempty" "$heads"
+done
+```
+
+```
+__apple-strategically-late.md
+  img:image: "/images/image-template.jpg" words:3907 ipov:52 bullets:5/116
+  H:## The pattern: arrive after the bleeding|## The iPod didn't invent pocket MP3 players|## The iPhone was a breakthrough combo, not the first smartphone|## The iPad followed decades of tablet failures|## Competitors absorb the early risk|## Late on specs: OLED, charging, 5G, and the rest|## ProMotion and widgets: new to you, old elsewhere|## USB-C: universal, once control stopped paying|## Apple Intelligence: AI on the slide before it ships|## When they rushed: control beats the quality slide|## When they waited: late entry, same miss|## The rule isn't "wait until perfect"|## Where the credit is actually deserved|## What Apple actually innovates: control|## How I'd shop Apple: second generation|## Name the skill honestly
+__canon-g3000.md
+  img:image: "/images/feature-desktop.jpg" words:551 ipov:6 bullets:4/24
+  H:## Bottle refills beat cartridge roulette|## School forms and boring home documents|## Where it struggles|## Refill habits that matter|## Buy it if you print weekly, skip it if twice a year
+__client-site-pass-off.md
+  img:image: "/images/website.jpg" words:907 ipov:32 bullets:6/47
+  H:## Launch day is when the real job starts|## Four paths I actually use|## The pass-off that always fails|## The one-page doc I leave behind|## What I price separately (on purpose)|## Questions to ask before you hire anyone|## Tuesday's announcement, without a crisis
+__craft-prompt-framework.md
+  img:image: "/images/feature-consistent-ai-output.jpg" words:394 ipov:19 bullets:4/36
+  H:## Five boxes before I hit enter|## Real prompt I used (Hugo migration checklist)|## Fill-in-the-blank beats hope|## Where my prompts still break
+__grade-1-better-than-kumon.md
+  img:image: "/images/note.jpg" words:3370 ipov:79 bullets:28/164
+  H:## Why math stayed with me|## What Kumon reading is for (and what it isn't)|## Why he said no to math (and what he actually needs)|## The principles
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (cursor-grok-4.5-high-fast)**_
+
+<think><details><summary>Thought Process</summary>
+A closer look at borderline drafts is needed to separate THIN, VOICE-READY, and OUTLINE statuses. The opening lines will guide that classification.
+
+Most flagged drafts are VOICE-READY. Apple-strategically-late is voice-ready despite its image-template.jpg. Grade-1-better-than-kumon, inter-font, client-site-pass-off, selling-static-sites, why-brave-browser, why-git, jorap-notes-features, xiaomi-is-the-new-huawei, streamlining-games-and-sports, smart-plug, wifi-router, rechargeable-batteries, second-cellphone, mi-box-s, password-managers, and shopee-tips all have lived-in openings, scenes, and I/POV. Canon-g3000 may be thin due to only six I/POV mentions.
+
+Worcestershire is thin with only eight I/POV mentions. How-to-create-a-good-habit, immune-booster, native-hugo-taxonomies, tailwind, markdown-formatting, sveltia, and kewpie are all THIN or borderline. Craft-prompt-framework is 394 words and contains a real prompt scene, so it may be VOICE-READY lite. The OUTLINE bucket is next.
+
+Mcgill-big-three is OUTLINE leaning because it contains Further reading, exercise bullets, and instructional language. Grade-1-better-than-kumon is VOICE-READY rather than OUTLINE, since it uses full prose around its bullets. The remaining borderline short drafts need a closer look at their endings and middles. A more careful search for Expanded from footers is also needed.
+</details></think>
+
+_**Agent (cursor-grok-4.5-high-fast)**_
+
+Skimming borderline short drafts and checking for wiki-export footers.
+
+_**Agent (cursor-grok-4.5-high-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": true,
+  "glob": "{__*.md,streamlining-games-and-sports.md}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "Expanded|Idea captured|wiki.?export|captured from|TODO|FIXME|\\[\\[|needs expansion|outline"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog",
+  "pattern": "Expanded|Idea captured|wiki.?export|captured from|TODO|FIXME|\\[\\[|needs expansion|outline",
+  "topFiles": [
+    {
+      "matchCount": 8,
+      "uri": "content/english/blog/__jorap-notes-features.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/blog/__markdown-deep-dive.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__markdown-formatting.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/blog/__humanize-ai-articles.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__obsidian-vs-hugo.md"
+    }
+  ],
+  "totalFiles": 5,
+  "totalMatches": 14
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (cursor-grok-4.5-high-fast)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com/content/english/blog &amp;&amp; for f in \
+  __how-to-create-a-good-habit.md \
+  __immune-booster-supplements.md \
+  __native-hugo-taxonomies.md \
+  __tailwind-css-v4.md \
+  __markdown-formatting.md \
+  __sveltia-cms.md \
+  __kewpie-mayo.md \
+  __craft-prompt-framework.md \
+  __jobs-to-be-done-framework.md \
+  __hugo-go-templates.md \
+  __hugo-shortcodes.md \
+  __hugo-page-bundles.md \
+  __hugo-static-site-generator.md \
+  __obsidian-vs-hugo.md \
+  __markdown-deep-dive.md \
+  __mcgill-big-three.md \
+  __canon-g3000.md \
+  __worcestershire-sauce.md \
+  __mi-box-s.md \
+  __humanize-ai-articles.md
+do
+  echo &#34;===== $f =====&#34;
+  # last 12 body lines
+  awk &#39;BEGIN{fm=0} /^---$/{fm++; next} fm&gt;=2{print}&#39; &#34;$f&#34; | tail -n 12
+  echo
+done</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com/content/english/blog && for f in \
+  __how-to-create-a-good-habit.md \
+  __immune-booster-supplements.md \
+  __native-hugo-taxonomies.md \
+  __tailwind-css-v4.md \
+  __markdown-formatting.md \
+  __sveltia-cms.md \
+  __kewpie-mayo.md \
+  __craft-prompt-framework.md \
+  __jobs-to-be-done-framework.md \
+  __hugo-go-templates.md \
+  __hugo-shortcodes.md \
+  __hugo-page-bundles.md \
+  __hugo-static-site-generator.md \
+  __obsidian-vs-hugo.md \
+  __markdown-deep-dive.md \
+  __mcgill-big-three.md \
+  __canon-g3000.md \
+  __worcestershire-sauce.md \
+  __mi-box-s.md \
+  __humanize-ai-articles.md
+do
+  echo "===== $f ====="
+  # last 12 body lines
+  awk 'BEGIN{fm=0} /^---$/{fm++; next} fm>=2{print}' "$f" | tail -n 12
+  echo
+done
+```
+
+```
+===== __how-to-create-a-good-habit.md =====
+
+
+## Where I still fail
+
+Grand habit overhauls. I still design a perfect morning routine with eleven steps and collapse by Wednesday.
+
+What works: **one habit, one environment tweak, one tracker.** I added the breakfast writing cue after I stopped trying to fix sleep, exercise, and inbox at the same time.
+
+Clear's line I keep in my notes: optimize for outcome, you win once. Optimize for process, you can win again and again.
+
+
+Good habits aren't character tests. They're **design problems** - cue, friction, reward.
+
+===== __immune-booster-supplements.md =====
+
+**Exposure bump:** elderberry when colds are circulating, slightly more sleep vigilance (honestly the biggest lever), NAC if respiratory stuff is going around.
+
+
+## What actually works better
+
+Seven hours of sleep beats seven supplements. Water and real meals beat gummies. Walks count. And cortisol isn't a meme - the weeks I'm stressed are the weeks I get sick, supplements or not.
+
+I still get sick. The stack doesn't make me invincible. It makes me feel like I did the boring baseline when life gets loud.
+
+
+If you copy anything here, copy the disclaimer first. Then talk to someone with a medical license before you copy the pills.
+
+===== __native-hugo-taxonomies.md =====
+
+`layouts/categories/terms.html` - index of all categories
+
+`layouts/tags/terms.html` - index of all tags
+
+`layouts/_default/taxonomy.html` - posts in one term
+
+Theme handles display. **You** handle not creating 400 empty tag pages.
+
+Native Hugo taxonomies organize the **public** site. My private wiki can be messier - wikilinks, backlinks, whatever.
+
+I'll keep categories under a dozen and tags short. Hugo makes grouping free; I still have to curate what ships. When in doubt, fewer tags. Readers and future-me win.
+
+===== __tailwind-css-v4.md =====
+If you're on an old fork frozen on v3, budget an afternoon, not ten minutes. Compare upstream's `package.json` and CSS entry files to yours. Diff beats guessing
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (cursor-grok-4.5-high-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Reviewing the audit criteria. VOICE-READY means a post is nearly publish-ready with only light polish, passes the swap test, and includes I/scenes.
+
+Most drafts already show prior voice polish. Three files are ledger or meta templates and will be skipped. __mcgill-big-three.md is classified as OUTLINE because its middle section is dominated by instructional bullets and a "## Further reading" footer, making it read like an exercise wiki rather than a lived essay.
+
+No draft is pure OUTLINE. __mcgill-big-three.md still carries some personal framing despite its bullet-heavy structure.
+
+No post is under ~200 words. __how-to-create-a-good-habit.md is the shortest at ~322 words. It is THIN because it is clear and includes I, but lacks lived-in scenes.
+
+Several more drafts are THIN. __immune-booster-supplements.md reads like a personal notebook. __native-hugo-taxonomies.md and __tailwind-css-v4.md are thin howtos. __markdown-formatting.md feels like a tip sheet. __kewpie-mayo.md is a short kitchen note. __craft-prompt-framework.md and __jobs-to-be-don-framework.md are thin framework essays. __sveltia-cms.md is short with low ipov.
+
+The __hugo-* drafts are short tech tips with a tip-sheet feel. Most ~400-word posts carry I/scenes and pass the swap test lightly. They are not pure OUTLINE. The real gap is lived-in voice versus nearly publish-ready. Openings read as lived-in from prior sessions.
+
+Stricter VOICE-READY standards are now in place. Posts must have clear scenes, pass the swap test, and not feel like tip sheets. The first batch of confirmed VOICE-READY drafts includes apple-strategically-late, grade-1-better-than-kumon, why-brave-browser, why-git, inter-font, jorap-notes-features, client-site-pass-off, selling-static-sites, xiaomi-is-the-new-huawei, streamlining-games-and-sports, smart-plug, wifi-router, rechargeable-batteries, second-cellphone, password-managers, and shopee-tips. Several carry image-template.jpg flags.
+
+mi-box-s is confirmed VOICE-READY. canon-g3000 is borderline light VOICE-READY. worcestershire may be THIN. humanize-ai-articles is VOICE-READY. remote-work-checklist is VOICE-READY. obsidian-vs-hugo is VOICE-READY. markdown-deep-dive is THIN.
+
+The remaining __hugo-* drafts are grouped together as a batch. __mcgill-big-three.md is confirmed OUTLINE. __worcestershire.md and __kewpie-mayo.md are now judged as likely VOICE-READY for short pantry posts.
+
+The __hugo-* drafts are now graded individually. hugo-static is THIN because it opens encyclopedically. hugo-go is THIN/VOICE-READY. hugo-page-bundles is VOICE-READY lite. hugo-shortcodes and native-hugo-taxonomies are THIN.
+
+The audit now settles on one OUTLINE file: __mcgill-big-three.md. Thirteen drafts are confirmed THIN, including __how-to-create-a-good-habit.md, __immune-booster-supplements.md, __native-hugo-taxonomies.md, __tailwind-css-v4.md, __markdown-formatting.md, __markdown-deep-dive.md, __sveltia-cms.md, __hugo-shortcodes.md, __hugo-go-templates.md, and __hugo-static-site-generator.md. __jobs-to-be-done-framework.md and __craft-prompt-framework.md are now judged VOICE-READY lite.
+
+The audit now settles on twenty-one VOICE-READY drafts. Obsidian-vs-hugo is confirmed VOICE-READY. Hugo-page-bundles is THIN.
+
+The audit tallies 37 files reviewed. One is OUTLINE. Thirteen are THIN. Twenty-three are VOICE-READY. Three are ledger or meta templates and skipped. The thirteen THIN drafts are now fully enumerated.
+
+The tally checks out at 37 reviewed files. The next step is to distill each draft’s primary blocker into a one-line description. For VOICE-READY posts, the main flags are image-template.jpg, Further reading or Bottom line footers, missing personal thread, generic headings, and word count.
+
+No draft carries an "Expanded from / Idea captured" footer. Generic headings appear only in mcgill, worcestershire, native-hugo, and sveltia. The compact table will list one actionable blocker per file, defaulting to "light polish only" for VOICE-READY posts that need no major fixes.
+</details></think>
+
+_**Agent (cursor-grok-4.5-high-fast)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="update_current_step"><details>
+<summary>Tool use: **update_current_step**</summary>
+An unknown error occurred
+</details></tool-use>
+
+_**Agent (cursor-grok-4.5-high-fast)**_
+
+<think><details><summary>Thought Process</summary>
+Compiling the compact audit table and status counts now.
+</details></think>
+
+_**Agent (cursor-grok-4.5-high-fast)**_
+
+**Verdict:** Most `__` drafts already have JoRap POV prose (not raw wiki dumps). Biggest cluster is short tip/framework pieces that need more lived scenes before publish polish. Two long opinion pieces still use `image-template.jpg`.
+
+### Skipped (LEDGER/META)
+
+| file | words~ | status | blocker (one line) |
+|------|--------|--------|--------------------|
+| `__interesting-facts-about-jorap.md` | — | LEDGER/META | Facts ledger; always draft, never publish |
+| `__blog-template.md` | — | LEDGER/META | Scaffold template, not a post |
+| `__how-to-create-a-blog-template.md` | — | LEDGER/META | Meta checklist for drafting |
+
+### Audit table
+
+| file | words~ | status | blocker (one line) |
+|------|--------|--------|--------------------|
+| `__apple-strategically-late.md` | 3900 | VOICE-READY | `image-template.jpg`; light polish only |
+| `__xiaomi-is-the-new-huawei.md` | 1400 | VOICE-READY | `image-template.jpg`; light polish only |
+| `__grade-1-better-than-kumon.md` | 3370 | VOICE-READY | Length/list sample week — trim or keep as intentional |
+| `__jorap-notes-features.md` | 2970 | VOICE-READY | Feature tour density; light cut/pass |
+| `streamlining-games-and-sports.md` | 2140 | VOICE-READY | Light polish only |
+| `__why-brave-browser.md` | 1790 | VOICE-READY | Light polish only |
+| `__why-git-greatest-open-source-innovation.md` | 1530 | VOICE-READY | Light polish only |
+| `__inter-font.md` | 1060 | VOICE-READY | Light polish only |
+| `__selling-static-sites.md` | 1030 | VOICE-READY | Light polish only |
+| `__client-site-pass-off.md` | 910 | VOICE-READY | Light polish only |
+| `__smart-plug.md` | 700 | VOICE-READY | Light polish only |
+| `__wifi-router.md` | 660 | VOICE-READY | Light polish only |
+| `__mi-box-s.md` | 590 | VOICE-READY | Light polish only |
+| `__second-cellphone.md` | 580 | VOICE-READY | Light polish only |
+| `__shopee-tips.md` | 570 | VOICE-READY | Light polish only |
+| `__canon-g3000.md` | 550 | VOICE-READY | Thin I-thread mid-post; one more lived fail |
+| `__rechargeable-batteries.md` | 500 | VOICE-READY | Light polish only |
+| `__humanize-ai-articles.md` | 490 | VOICE-READY | Light polish only |
+| `__password-managers.md` | 460 | VOICE-READY | Light polish only |
+| `__worcestershire-sauce.md` | 450 | VOICE-READY | Short pantry form; thin I mid-sections |
+| `__remote-work-checklist.md` | 440 | VOICE-READY | Checklist shape OK; light polish |
+| `__obsidian-vs-hugo.md` | 420 | VOICE-READY | Short; one more concrete sync-fail scene |
+| `__kewpie-mayo.md` | 380 | VOICE-READY | Short intentional; light polish |
+| `__hugo-page-bundles.md` | 430 | THIN | How-to lean; needs mess/migration scene depth |
+| `__hugo-shortcodes.md` | 430 | THIN | Tip-sheet open; missing personal footgun story |
+| `__hugo-static-site-generator.md` | 440 | THIN | Explainer-first; swap-test weak until more client scene |
+| `__markdown-deep-dive.md` | 430 | THIN | Wiki/reference lean; thin lived thread |
+| `__jobs-to-be-done-framework.md` | 420 | THIN | Framework summary; needs one client JTBD story |
+| `__hugo-go-templates.md` | 420 | THIN | Syntax list middle; expand the “first break” scene |
+| `__sveltia-cms.md` | 400 | THIN | Product brief; missing real pass-off use |
+| `__craft-prompt-framework.md` | 390 | THIN | Short CRAFT card; expand oatmeal failure |
+| `__markdown-formatting.md` | 390 | THIN | Tip sheet; generic “how to format” risk |
+| `__tailwind-css-v4.md` | 370 | THIN | Maintainer note; thin reader-facing story |
+| `__native-hugo-taxonomies.md` | 360 | THIN | Wiki/howto; “Templates you might touch” generic |
+| `__immune-booster-supplements.md` | 320 | THIN | Notebook stack; short / thin scenes |
+| `__how-to-create-a-good-habit.md` | 320 | THIN | Clear summary; thin beyond phone example |
+| `__mcgill-big-three.md` | 450 | OUTLINE | Bullet how-tos + `## Further reading`; expand before voice |
+
+### Counts
+
+| status | n |
+|--------|---|
+| VOICE-READY | 23 |
+| THIN | 13 |
+| OUTLINE | 1 |
+| LEDGER/META | 3 |
+| **In-scope audited** | **37** |
+
+### Flag rollup
+
+| flag | hits |
+|------|------|
+| `image-template.jpg` | `__apple-strategically-late.md`, `__xiaomi-is-the-new-huawei.md` |
+| `## Further reading` / `## Bottom line` | McGill only (`Further reading`); no Bottom line |
+| Expanded from / Idea captured footers | none |
+| Word count under ~200 | none (shortest ~320) |
+| Generic section headings | mostly McGill numbered drills + taxonomies “Templates you might touch” |
+| Missing personal thread | strongest on Hugo/Markdown tip cluster + immune/habit shorts |

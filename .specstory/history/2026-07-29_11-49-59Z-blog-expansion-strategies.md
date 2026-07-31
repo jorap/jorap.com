@@ -944,6 +944,123 @@ Parameters:
   "pattern": "Teacher|XOOPS|training"
 }
 ```
-Status: **loading**
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/__interesting-facts-about-jorap.md",
+  "pattern": "Teacher|XOOPS|training",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": "content/english/blog/__interesting-facts-about-jorap.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 2
+}
+```
+Status: **completed**
 
 </details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+I will add the user's XOOPS story. They liked it for theme control. This experience helped them land a web developer job.
+
+The chronology needs adjustment. XOOPS was the first CMS the user loved. WordPress came later. I will add the XOOPS paragraph after line 30. I will reframe the WordPress paragraph to reflect this order. I will also add the career transition detail.
+
+The draft paragraph opens with "The first CMS I actually liked was **XOOPS**. Not because it won the popularity contest - WordPress and Joomla had louder crowds." This fits after the XAMPP and CMS install section. The Linux evangelist role at the IT training company is the web developer position that followed the teacher-to-web-dev transition.
+
+The draft paragraph continues: templates made sense in their hands. Layouts could be bent without fighting the admin. That control helped them ship real sites. Open source gave them a visible credential rather than just free practice.
+
+The draft paragraph now closes with a shift in perspective. Every new stack afterward carried the same permission feeling: download a zip, no serial number, no corporate card. When the user got serious about web work, open source stopped being a brand and became the shelf they could afford.
+
+The "stolen something" line will move out of the WordPress beat and into the CMS hunting section instead. That section will note that XOOPS came first, giving the user a baseline for judging later options like Joomla, WordPress, and Drupal. The CMS section opening also needs updating. I will add XOOPS to the tags and update the ledger to record it as the first CMS liked for theme control.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Adding the XOOPS beat and teacher-to-developer transition, and adjusting the opening so WordPress isn't implied as your first CMS.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-focused-on-open-source.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-focused-on-open-source.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-focused-on-open-source.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__interesting-facts-about-jorap.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/author-context.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm lint:voice content/english/blog/why-i-focused-on-open-source.md &amp;&amp; pnpm lint:slop content/english/blog/why-i-focused-on-open-source.md</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:voice content/english/blog/why-i-focused-on-open-source.md && pnpm lint:slop content/english/blog/why-i-focused-on-open-source.md
+```
+
+```
+$ node scripts/runPython.mjs scripts/voice-lint.py dashes --check && node scripts/runPython.mjs scripts/voice-lint.py site --check content/english/blog/why-i-focused-on-open-source.md
+Voice dash lint OK
+Voice lint OK
+$ node scripts/runPython.mjs scripts/voice-lint.py slop --check content/english/blog/why-i-focused-on-open-source.md
+Slop lint OK
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The closing should also mention the teacher-to-web-developer transition.
+
+That transition may be redundant since the opening and CMS sections already cover it. A session close is still needed.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Added the XOOPS beat right after the XAMPP section:
+
+- **First CMS you liked** — theme control over popularity
+- **Career pivot** — XOOPS skills landed the job that moved you from teacher toward web developer
+- **CMS hunt section** — notes the Joomla/WordPress/Drupal comparison came *after* XOOPS taught you what theme control could feel like
+
+Dropped the WordPress-specific "stolen something" opener so the timeline stays straight. Ledger and `author-context.md` updated. Lint clean.
+
+If you want one more line of texture — what that XOOPS job was (agency, school site, in-house), I can add it without naming the employer.
+
+## Session close
+- Fixed: XOOPS theme-control story and teacher→developer job pivot in open-source post; ledger synced
+- Encode: none
+- Open: clean

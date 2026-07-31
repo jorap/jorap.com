@@ -645,4 +645,454 @@ _**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
 Checking the redirect rules, functions folder, and migration documentation.
+
+Reviewing the hugoplate theme for Cloudflare-specific content. The migration details are clear: Netlify.toml was replaced by wrangler.toml and functions for OAuth. Key constraints include roughly 500 monthly builds on the free tier, the pnpm run deploy build command, and Hugo version pinned via deploy-versions.json and ensureHugo.mjs.
+
+The _redirects file was moved into the static directory. Cloudflare Pages Functions now handle CMS OAuth instead of Netlify Identity. Cloudflare enforces a 2KB limit on Content Security Policy headers. Non-deploy commits use [skip ci] to avoid unnecessary builds.
 </details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/static/_redirects</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **3** results in **1** directory</summary>
+
+Directory: **``** (3 files)
+
+| File |
+|------|
+| `functions/api/auth.js` |
+| `functions/api/callback.js` |
+| `functions/admin/_middleware.js` |
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+File not found
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "docs/**",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "netlify|Cloudflare|migrate|migration"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "netlify|Cloudflare|migrate|migration",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": "docs/README.md"
+    },
+    {
+      "matchCount": 7,
+      "uri": "docs/CMS_SETUP.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "docs/TODO.md"
+    },
+    {
+      "matchCount": 8,
+      "uri": "docs/SPEC.md"
+    },
+    {
+      "matchCount": 7,
+      "uri": "docs/TROUBLESHOOTING.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "docs/CONTENT_VOICE_REVIEW.md"
+    },
+    {
+      "matchCount": 14,
+      "uri": "docs/CLIENT_STATIC_SITE.md"
+    }
+  ],
+  "totalFiles": 7,
+  "totalMatches": 41
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Reviewing troubleshooting documentation and migration reasons. Checking the deploy-versions.json path.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/docs/TROUBLESHOOTING.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/deploy-versions.json</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/docs/SPEC.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **1** result in **1** directory</summary>
+
+Directory: **``** (1 file)
+
+| File |
+|------|
+| `content/english/notes/free-tier-hosting-stack.md` |
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Reviewing the free-tier hosting stack note and specstory to understand the Netlify migration.
+
+Also checking available images for blog posts.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/free-tier-hosting-stack.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": true,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.specstory",
+  "pattern": "migrat.*netlify|netlify.*cloudflare|left netlify|move.*cloudflare"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.specstory",
+  "pattern": "migrat.*netlify|netlify.*cloudflare|left netlify|move.*cloudflare",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-05-28_03-02-51Z-categories-and-tags-layout.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-28_03-27-44Z-rebranding-sveltia-cms.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-06-28_00-07-52Z-tinacms-compatibility.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-27_10-39-09Z-knowledge-catalog-specification-comparison.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-28_00-39-28Z-blank-page-issue-on.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-06-28_17-06-25Z-free-grace-and-eternal-rewards-notes.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-07-03_00-01-14Z-difficult-words-for-blog.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-21_09-49-17Z-ponytail-skill-integration.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-05-30_15-20-47Z-website-performance-improvement-strategies.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-12_09-13-33Z-blog-items-review-criteria.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": ".specstory/history/2026-07-02_09-22-01Z-domain-redirection-setup.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-10_01-09-33Z-bible-notes-review.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-26_15-34-47Z-audit-tech-and-how.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-06-28_00-39-28Z-blank-page-issue-on-jorap-admin.md"
+    }
+  ],
+  "totalFiles": 14,
+  "totalMatches": 60
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **1** directory</summary>
+
+Directory: **``** (0 files)
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Searching the repository for blog hero images.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **20** results in **1** directory</summary>
+
+Directory: **``** (20 files)
+
+| File |
+|------|
+| `assets/images/drupal-to-wp.jpg` |
+| `assets/images/feature-mouse-wheel-click.jpg` |
+| `assets/images/duopoly.jpg` |
+| `assets/images/feature-soundpeats-runfree.jpg` |
+| `assets/images/one-page-zine.jpg` |
+| `assets/images/website.jpg` |
+| `assets/images/feature-consistent-ai-output.jpg` |
+| `assets/images/google-vs-apple.jpg` |
+| `assets/images/duopoly-countries.jpg` |
+| `assets/images/sustainable-publishing.jpg` |
+| `assets/images/duopoly-actions.jpg` |
+| `assets/images/note.jpg` |
+| `assets/images/instant-pot-arroz-caldo.jpg` |
+| `assets/images/stop_snap.jpg` |
+| `assets/images/extension-cord.jpg` |
+| `assets/images/static-vs-cms.jpg` |
+| `assets/images/open-source.jpg` |
+| `assets/images/one-page-zine-layout.jpg` |
+| `assets/images/Consistent_AI_Web_Development_Blueprint.jpg` |
+| `assets/images/modern_board_gaming.jpg` |
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/hugoplate-theme-review.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Creating a new blog draft about migrating from Netlify to Cloudflare Pages.
+
+The post will use JoRap's personal, practical voice. It will cover the move's motivation, a step-by-step Hugo migration guide, and real repo gotchas. Key technical notes include switching builds to pnpm, adding wrangler.toml, and installing Hugo via ensureHugo.mjs.
+
+Additional migration details include setting Node and Go versions in the Cloudflare dashboard, placing `_redirects` inside `static/`, and hashing CSP headers to stay under the 2KB limit. CMS OAuth will move to Cloudflare Functions instead of Netlify Identity. Build caching is enabled, and `[skip ci]` can reduce build costs. Rocket Loader breaks CMS functionality, so `data-cfasync="false"` is required. Likely motivations include Cloudflare's unlimited bandwidth, existing DNS/CDN infrastructure, and better CMS integration.
+
+The migration likely began on Netlify with Cloudflare acting as a reverse proxy, then shifted to Cloudflare Pages. The post will avoid inventing drama and instead draw directly from the repository history.
+
+The draft will reference the troubleshooting document honestly without inventing dates or dollar amounts. It will link to related posts and notes. The structure covers the hook about HugoPlate’s Netlify tabs, practical reasons for moving, unchanged elements like git push and static output, and required changes such as build commands, functions, headers, redirect locations, and version pinning. It will also address CMS and OAuth, build budget habits, and whether the user would do it again. A slop score will be run after writing. The date is July 30, 2026.
+
+The image `website.jpg` fits the hosting migration theme. Categories will be Website, nology, and Tutorial. Tags will include Cloudflare Pages, Netlify, Hugo, Migration, and Static Sites. Related notes like `free-tier-hosting-stack` will be linked. The draft file will use the `__` prefix and `draft: true`. Next step is to write the post and run `lint.Tech`.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Drafting the post from your repo's actual migration setup—Netlify config removed, Cloudflare Pages deploy pipeline, redirects, and CMS OAuth.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__netlify-to-cloudflare-pages.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Running lint and slop score on the draft.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm slop:score content/english/blog/__netlify-to-cloudflare-pages.md &amp;&amp; pnpm lint:blog 2&gt;&amp;1 | head -40 &amp;&amp; pnpm lint:voice 2&gt;&amp;1 | head -20</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && pnpm slop:score content/english/blog/__netlify-to-cloudflare-pages.md && pnpm lint:blog 2>&1 | head -40 && pnpm lint:voice 2>&1 | head -20
+```
+
+```
+$ node scripts/runPython.mjs scripts/voice-lint.py score content/english/blog/__netlify-to-cloudflare-pages.md
+__netlify-to-cloudflare-pages.md         words=1151 total=  2 per100w=  0.17
+$ node scripts/runPython.mjs scripts/normalize-blog-frontmatter.py --verify && node scripts/runPython.mjs scripts/voice-lint.py slop --check --blog-only
+Blog frontmatter OK
+Slop lint OK
+$ node scripts/runPython.mjs scripts/voice-lint.py dashes --check && node scripts/runPython.mjs scripts/voice-lint.py site --check
+Voice dash lint OK
+Voice lint OK
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Draft passed lint checks. Converting wikilinks to Hugo links in the body.
+
+Checking other blog posts for wikilink usage.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "content/english/blog/*.md",
+  "pattern": "\\[\\["
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "\\[\\[",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "./content/english/blog/__netlify-to-cloudflare-pages.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "./content/english/blog/__markdown-deep-dive.md"
+    },
+    {
+      "matchCount": 8,
+      "uri": "./content/english/blog/__jorap-notes-features.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/blog/__obsidian-vs-hugo.md"
+    }
+  ],
+  "totalFiles": 4,
+  "totalMatches": 12
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Blog posts should use plain links instead of wikilinks.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Fixing the wikilink — blog posts should use plain Hugo links, not vault-style wikilinks.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__netlify-to-cloudflare-pages.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Preparing a summary of the completed migration and any questions for human review.
+
+Draft created. Considering asking for personal migration details. Will add a link to the existing build post. Session close block is needed.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Draft is at `content/english/blog/__netlify-to-cloudflare-pages.md` (`draft: true`).
+
+**Angle:** Not a vendor takedown. You started where HugoPlate points (Netlify), moved to Cloudflare Pages for DNS/CDN consolidation, OAuth for `/admin`, and free-tier fit. Same git-push workflow; what changed is build config, redirects, headers, and deploy habits.
+
+**Sections:**
+- Why bother (one vendor, build-meter fit, CMS OAuth)
+- What stays the same vs what changed in the repo
+- Migration afternoon (step-by-step)
+- Free-tier build budget (`[skip ci]`, batching)
+- Honest close: stay on Netlify unless you have a real reason
+
+**Lint:** `pnpm slop:score` 0.17 per100w, `lint:blog` and `lint:voice` clean.
+
+**Human pass** — add anything I couldn't infer:
+- Exact trigger (build minutes? DNS mess? something broke on Netlify?)
+- A specific failure story with a date
+- Whether you want more CMS/OAuth detail or keep it skimmable
+
+To publish: drop the `__` prefix, set `draft: false`, commit when you're ready.
+
+## Session close
+- Fixed: New draft blog post on Netlify → Cloudflare Pages migration at `__netlify-to-cloudflare-pages.md`
+- Encode: none
+- Open: Human pass for personal migration details; publish when ready

@@ -6,7 +6,7 @@ resource: "https://www.jorap.com/blog/one-page-zine/"
 tags: ["Zine", "Board Games", "Print Design", "Rules Booklet", "DIY", "Game Design", "Papercraft", "Quick Reference", "Print and Play", "Tutorial"]
 generated: { by: process:export-okf-blog-bundle, at: 2026-07-13T14:15:00Z }
 ---
-I was writing rules for a two-player card game and hit the usual wall. A full rulebook felt like overkill for a 15-minute game. A single reference card could not hold setup, scoring, and the four different actions without turning into unreadable microtype.
+If you have ever tried to fit a full teach onto one reference card, you know the wall. I hit it writing rules for a two-player card game: a full rulebook felt like overkill for a 15-minute game, but one card could not hold setup, scoring, and four different actions without turning into unreadable microtype.
 
 What I wanted was a **small booklet** that still fit in the box, printed on **one sheet** at home, folded by hand, no binding, no staples poking through the shrink wrap.
 
@@ -82,7 +82,7 @@ And if you are pitching a boxed game to a publisher, they will want proper compo
 
 For game rules specifically, I treat the **cover and back cover as the in-play reference** - win condition, turn order, action names, scoring. That is what you see when the rulebook sits in its sleeve beside the deck. **Setup and the full teach live inside** - open it once at the table, then close it and leave it there.
 
-If you need a booklet and you do not need a binding, the 1-page zine is the fastest honest answer. One sheet, one cut, eight pages. I reach for it whenever the content is small enough to respect the limit and the reader needs something they can hold, not a PDF on their phone. For board games, that limit is a feature - it keeps the rules tight and the component count at one.
+If you need a booklet and you do not need a binding, the 1-page zine is the fastest honest answer. One sheet, one cut, eight pages. Print one on cheap paper this week, fold it, and see if eight panels hold your rules before you commit to a saddle-stitched booklet.
 
 ## Related garden notes
 

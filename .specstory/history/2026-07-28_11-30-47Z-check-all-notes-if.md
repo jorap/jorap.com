@@ -1734,3 +1734,2030 @@ _**Agent (grok-4.5)**_
 <summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/garden-voice-lint.py</summary>
 
 </details></tool-use>
+
+_**Agent (grok-4.5)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: eval &#34;$(mise activate bash)&#34;; PYTHONPATH=scripts python3 - &lt;&lt;&#39;PY&#39;
+from pathlib import Path
+import re, yaml
+FM = re.compile(r&#34;^---\s*\n(.*?)\n---&#34;, re.DOTALL)
+# Find exact lines needing &#39;s fix and description rewrites
+apos = re.compile(r&#34;\b((?:what|that|there|here|who|it|he|she|let)&#39;s)\b&#34;, re.I)
+notes = {}
+for path in sorted(Path(&#39;content/english/notes&#39;).glob(&#39;*.md&#39;)):
+  if path.name == &#39;_index.md&#39;: continue
+  text = path.read_text()
+  m = FM.match(text)
+  if not m: continue
+  meta = yaml.safe_load(m.group(1)) or {}
+  hits = []
+  for field in (&#39;description&#39;,&#39;key_concept&#39;,&#39;examples&#39;,&#39;shareable_thought&#39;):
+    val = meta.get(field)
+    texts = [val] if isinstance(val,str) else ([t for t in val if isinstance(t,str)] if isinstance(val,list) else [])
+    for t in texts:
+      for h in apos.finditer(t):
+        # context snippet
+        start = max(0, h.start()-40); end = min(len(t), h.end()+40)
+        hits.append((field, h.group(0), t[start:end].replace(&#39;\n&#39;,&#39; &#39;)))
+  for row in meta.get(&#39;relationships&#39;) or []:
+    if isinstance(row, dict) and isinstance(row.get(&#39;reason&#39;), str):
+      for h in apos.finditer(row[&#39;reason&#39;]):
+        hits.append((&#39;relationships.reason&#39;, h.group(0), row[&#39;reason&#39;]))
+  desc = meta.get(&#39;description&#39;) or &#39;&#39;
+  myme = bool(re.search(r&#39;\b(my|me)\b&#39;, desc, re.I)) and not re.search(r&#39;\bI\b&#39;, desc)
+  if hits or myme:
+    notes[path.name] = {&#39;hits&#39;: hits, &#39;desc&#39;: desc if myme or any(f==&#39;description&#39; for f,_,_ in hits) else None, &#39;myme&#39;: myme}
+for name, info in notes.items():
+  print(&#39;==&#39;, name, &#39;myme=&#39;+str(info[&#39;myme&#39;]))
+  if info[&#39;desc&#39;]: print(&#39;  DESC:&#39;, info[&#39;desc&#39;])
+  for f,h,ctx in info[&#39;hits&#39;]:
+    print(f&#39;  {f}: {h!r} :: ...{ctx}...&#39;)
+PY</summary>
+```bash
+eval "$(mise activate bash)"; PYTHONPATH=scripts python3 - <<'PY'
+from pathlib import Path
+import re, yaml
+FM = re.compile(r"^---\s*\n(.*?)\n---", re.DOTALL)
+# Find exact lines needing 's fix and description rewrites
+apos = re.compile(r"\b((?:what|that|there|here|who|it|he|she|let)'s)\b", re.I)
+notes = {}
+for path in sorted(Path('content/english/notes').glob('*.md')):
+  if path.name == '_index.md': continue
+  text = path.read_text()
+  m = FM.match(text)
+  if not m: continue
+  meta = yaml.safe_load(m.group(1)) or {}
+  hits = []
+  for field in ('description','key_concept','examples','shareable_thought'):
+    val = meta.get(field)
+    texts = [val] if isinstance(val,str) else ([t for t in val if isinstance(t,str)] if isinstance(val,list) else [])
+    for t in texts:
+      for h in apos.finditer(t):
+        # context snippet
+        start = max(0, h.start()-40); end = min(len(t), h.end()+40)
+        hits.append((field, h.group(0), t[start:end].replace('\n',' ')))
+  for row in meta.get('relationships') or []:
+    if isinstance(row, dict) and isinstance(row.get('reason'), str):
+      for h in apos.finditer(row['reason']):
+        hits.append(('relationships.reason', h.group(0), row['reason']))
+  desc = meta.get('description') or ''
+  myme = bool(re.search(r'\b(my|me)\b', desc, re.I)) and not re.search(r'\bI\b', desc)
+  if hits or myme:
+    notes[path.name] = {'hits': hits, 'desc': desc if myme or any(f=='description' for f,_,_ in hits) else None, 'myme': myme}
+for name, info in notes.items():
+  print('==', name, 'myme='+str(info['myme']))
+  if info['desc']: print('  DESC:', info['desc'])
+  for f,h,ctx in info['hits']:
+    print(f'  {f}: {h!r} :: ...{ctx}...')
+PY
+```
+
+```
+== assurance.md myme=True
+  DESC: Assurance is resting on Christ's finished work when doubt hits - not my week's obedience score.
+== by-their-fruits.md myme=False
+  key_concept: "what's" :: ...lf - only a season of results tells you what's underneath the sheep's clothing. ...
+== christlikeness.md myme=True
+  DESC: God keeps reshaping me to look and love more like Jesus - growth after faith, not the entry fee.
+== creative-output.md myme=True
+  DESC: Notes are inventory for me - posts, sermons, code, and dinner experiments are the point.
+== digital-garden.md myme=True
+  DESC: My garden is where notes grow in public - linked, imperfect, alive on Hugo and Git.
+== eternal-rewards.md myme=False
+  examples: "He's" :: ...actice - the Father already saw it, and He's the one who pays, not the team chat....
+== finish-strong.md myme=False
+  relationships.reason: "what's" :: ...when starting new things beats closing what's open...
+== great-commission.md myme=False
+  examples: "He's" :: ...ct - Jesus said go, baptize, teach, and He's with you while you do it....
+== gtd-vs-para.md myme=False
+  relationships.reason: "here's" :: ...GTD runs tasks and PARA sorts notes - here's how both work without doubling admin...
+== honest-self-awareness.md myme=False
+  relationships.reason: "what's" :: ...Label what's true before you inventory strengths and gaps...
+== integrity-without-an-audience.md myme=False
+  DESC: Do the honest work when there's no audience - accurate time logs, real tests, the fix nobody asked for yet.
+  description: "there's" :: ...Do the honest work when there's no audience - accurate time logs, real ...
+  shareable_thought: "there's" :: ...Do the honest work when there's no audience....
+== judge-not.md myme=False
+  key_concept: "what's" :: ...dge fruit - outcomes over time tell you what's underneath the hype. - Jesus forbids ha...
+== justification.md myme=True
+  DESC: God declared me righteous at faith - before my obedience caught up.
+== local-first-software.md myme=True
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (grok-4.5)**_
+
+<think><details><summary>Thought Process</summary>
+Found more instances of 'my' and 'me' in descriptions across digital-garden, not-my-will, and note-relationships.
+
+Wondering why `isn't` in transformation-principles escaped the linter. The contraction regex includes `isn`, so the word boundary should have matched.
+
+Suspects a curly apostrophe or YAML encoding issue caused `isn't` to evade the linter. Will expand the contraction regex to include `'s` forms.
+
+Realized broadening the regex to include `'s` would flag legitimate possessives like `Christ's` and `week's`. The rule should only catch contraction bases, not general possessive forms. For description first-person, the pattern needs to be more selective—only flagging bare `I`, `me`, and `my` rather than all possessive `'s` endings.
+
+digital-garden and note-relationships open with "My garden" and "My graph"; these need third-person rewriting.
+
+The discipleship-vs-leadership page carries both Workplace and bible tags. Since the Workplace lane forbids bible shortcodes, the Workplace tag should be dropped while keeping bible.
+
+Will add a lint rule to block bible shortcodes in the Workplace lane. Also need to keep shareable_thought descriptions in sync with shareable_line_from_principle lint.
+</details></think>
+
+_**Agent (grok-4.5)**_
+
+Expanding the linter first, then batch-fixing the flagged notes. Checking apostrophe characters and shareable-echo constraints.
+
+_**Agent (grok-4.5)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: eval &#34;$(mise activate bash)&#34;; PYTHONPATH=scripts python3 - &lt;&lt;&#39;PY&#39;
+from pathlib import Path
+# check apostrophe codepoints in transformation-principles
+t = Path(&#39;content/english/notes/transformation-principles.md&#39;).read_text()
+for i,ch in enumerate(t):
+  if ch in (&#34;&#39;&#34;, &#34;&#39;&#34;, &#34;&#39;&#34;, &#34;`&#34;) or ord(ch) in (0x2019, 0x2018):
+    ctx = t[max(0,i-15):i+15].replace(&#39;\n&#39;,&#39; &#39;)
+    if &#39;it&#39; in ctx.lower() or &#39;isn&#39; in ctx.lower():
+      print(hex(ord(ch)), repr(ch), ctx)
+PY</summary>
+```bash
+eval "$(mise activate bash)"; PYTHONPATH=scripts python3 - <<'PY'
+from pathlib import Path
+# check apostrophe codepoints in transformation-principles
+t = Path('content/english/notes/transformation-principles.md').read_text()
+for i,ch in enumerate(t):
+  if ch in ("'", "'", "'", "`") or ord(ch) in (0x2019, 0x2018):
+    ctx = t[max(0,i-15):i+15].replace('\n',' ')
+    if 'it' in ctx.lower() or 'isn' in ctx.lower():
+      print(hex(ord(ch)), repr(ch), ctx)
+PY
+```
+
+```
+0x27 "'" nsformation isn't a single bre
+0x27 "'" eakthrough - it's the same mov
+0x27 "'" nsformation isn't a single bre
+0x27 "'" eakthrough - it's the same mov
+0x27 "'" faith lane: God's glory before
+
+```
+</details></tool-use>
+
+_**Agent (grok-4.5)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "{assurance,by-their-fruits,christlikeness,creative-output,digital-garden,eternal-rewards,finish-strong,great-commission,gtd-vs-para,honest-self-awareness,integrity-without-an-audience,judge-not,justification,local-first-software,metadata-strategy,name-the-feeling,network-analysis,not-my-will,note-relationships,peacemakers,priorities-before-the-inbox,reliability,rollback-principle,sanctification,situational-control,slow-the-moment,the-second-brain-workflow,there-is-no-perfect-solution,transformation-principles,discipleship-vs-leadership}.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "what's|there's|here's|who's|it's|He's|There's|Here's|What's|Who's|It's|isn't|Isn't|My | my | me"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "what's|there's|here's|who's|it's|He's|There's|Here's|What's|Who's|It's|isn't|Isn't|My | my | me",
+  "topFiles": [
+    {
+      "matchCount": 7,
+      "uri": "content/english/notes/priorities-before-the-inbox.md"
+    },
+    {
+      "matchCount": 10,
+      "uri": "content/english/notes/name-the-feeling.md"
+    },
+    {
+      "matchCount": 13,
+      "uri": "content/english/notes/justification.md"
+    },
+    {
+      "matchCount": 10,
+      "uri": "content/english/notes/metadata-strategy.md"
+    },
+    {
+      "matchCount": 9,
+      "uri": "content/english/notes/sanctification.md"
+    },
+    {
+      "matchCount": 9,
+      "uri": "content/english/notes/digital-garden.md"
+    },
+    {
+      "matchCount": 12,
+      "uri": "content/english/notes/christlikeness.md"
+    },
+    {
+      "matchCount": 19,
+      "uri": "content/english/notes/not-my-will.md"
+    },
+    {
+      "matchCount": 7,
+      "uri": "content/english/notes/peacemakers.md"
+    },
+    {
+      "matchCount": 8,
+      "uri": "content/english/notes/transformation-principles.md"
+    },
+    {
+      "matchCount": 12,
+      "uri": "content/english/notes/there-is-no-perfect-solution.md"
+    },
+    {
+      "matchCount": 7,
+      "uri": "content/english/notes/the-second-brain-workflow.md"
+    },
+    {
+      "matchCount": 12,
+      "uri": "content/english/notes/situational-control.md"
+    },
+    {
+      "matchCount": 7,
+      "uri": "content/english/notes/slow-the-moment.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "content/english/notes/rollback-principle.md"
+    },
+    {
+      "matchCount": 8,
+      "uri": "content/english/notes/reliability.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "content/english/notes/note-relationships.md"
+    },
+    {
+      "matchCount": 11,
+      "uri": "content/english/notes/network-analysis.md"
+    },
+    {
+      "matchCount": 8,
+      "uri": "content/english/notes/local-first-software.md"
+    },
+    {
+      "matchCount": 16,
+      "uri": "content/english/notes/judge-not.md"
+    }
+  ],
+  "totalFiles": 30,
+  "totalMatches": 268
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (grok-4.5)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/discipleship-vs-leadership.md</summary>
+
+</details></tool-use>
+
+_**Agent (grok-4.5)**_
+
+<think><details><summary>Thought Process</summary>
+The contraction regex appears too broad. It likely missed `isn't` because it matches too many strings.
+
+The regex actually covers `isn't`. The failure may be a false positive. Testing the updated rule now.
+
+`'s` will be added as a suffix only after words already in the base list. Possessives like `it's`, `what's`, `week's`, `sheep's`, and `else's` are safe because those base words are absent from the list.
+
+Adding `'s` to the contraction suffix group will catch possessive forms like `what's` and `it's`.
+</details></think>
+
+_**Agent (grok-4.5)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: eval &#34;$(mise activate bash)&#34;; PYTHONPATH=scripts python3 - &lt;&lt;&#39;PY&#39;
+import re
+CONTRACTION = re.compile(
+    r&#34;\b(?:I|you|we|they|he|she|it|who|what|that|there|here|let|do|does|did|is|are|was|were|&#34;
+    r&#34;have|has|had|will|would|could|should|can|cannot|won|don|doesn|didn|isn|aren|wasn|weren|&#34;
+    r&#34;haven|hasn|hadn|wouldn|couldn|shouldn|mustn|needn|mightn|shan|ain&#39;t)&#34;
+    r&#34;(?:&#39;t|&#39;re|&#39;ve|&#39;ll|&#39;d|&#39;m)\b&#34;,
+    re.I,
+)
+for s in [&#34;isn&#39;t&#34;, &#34;it&#39;s&#34;, &#34;what&#39;s&#34;, &#34;Transformation isn&#39;t a single&#34;, &#34;don&#39;t&#34;, &#34;Christ&#39;s&#34;]:
+  m = CONTRACTION.search(s)
+  print(repr(s), &#39;-&gt;&#39;, m.group(0) if m else None)
+PY</summary>
+```bash
+eval "$(mise activate bash)"; PYTHONPATH=scripts python3 - <<'PY'
+import re
+CONTRACTION = re.compile(
+    r"\b(?:I|you|we|they|he|she|it|who|what|that|there|here|let|do|does|did|is|are|was|were|"
+    r"have|has|had|will|would|could|should|can|cannot|won|don|doesn|didn|isn|aren|wasn|weren|"
+    r"haven|hasn|hadn|wouldn|couldn|shouldn|mustn|needn|mightn|shan|ain't)"
+    r"(?:'t|'re|'ve|'ll|'d|'m)\b",
+    re.I,
+)
+for s in ["isn't", "it's", "what's", "Transformation isn't a single", "don't", "Christ's"]:
+  m = CONTRACTION.search(s)
+  print(repr(s), '->', m.group(0) if m else None)
+PY
+```
+
+```
+"isn't" -> isn't
+"it's" -> None
+"what's" -> None
+"Transformation isn't a single" -> isn't
+"don't" -> don't
+"Christ's" -> None
+
+```
+</details></tool-use>
+
+_**Agent (grok-4.5)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py</summary>
+
+</details></tool-use>
+
+_**Agent (grok-4.5)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.py",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts",
+  "pattern": "shareable_line_from_principle|def shareable"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts",
+  "pattern": "shareable_line_from_principle|def shareable",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": "scripts/notes_content.py"
+    },
+    {
+      "matchCount": 2,
+      "uri": "scripts/lint-notes-frontmatter.py"
+    }
+  ],
+  "totalFiles": 2,
+  "totalMatches": 4
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (grok-4.5)**_
+
+<think><details><summary>Thought Process</summary>
+`isn't` should fail lint, yet `lint:garden` passed earlier. Re-running the garden voice lint specifically on `transformation-principles`.
+
+Suspecting a scan bug or skipped file. Will rerun garden-voice-lint with PYTHONPATH=scripts.
+</details></think>
+
+_**Agent (grok-4.5)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: eval &#34;$(mise activate bash)&#34;; cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; PYTHONPATH=scripts python3 scripts/garden-voice-lint.py --check 2&gt;&amp;1 | head -40; echo EXIT:$?; PYTHONPATH=scripts python3 scripts/garden-voice-lint.py --summary 2&gt;&amp;1 | head -30</summary>
+```bash
+eval "$(mise activate bash)"; cd /home/jorap/Documents/GitHub/jorap.com && PYTHONPATH=scripts python3 scripts/garden-voice-lint.py --check 2>&1 | head -40; echo EXIT:$?; PYTHONPATH=scripts python3 scripts/garden-voice-lint.py --summary 2>&1 | head -30
+```
+
+```
+Garden voice lint OK
+EXIT:0
+Garden voice - 284 files, 0 issues
+
+```
+</details></tool-use>
+
+_**Agent (grok-4.5)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py</summary>
+
+</details></tool-use>
+
+_**Agent (grok-4.5)**_
+
+<think><details><summary>Thought Process</summary>
+The garden voice lint reports zero issues despite "isn't" appearing in transformation-principles. I'm debugging scan_note on that specific file to find why the contraction wasn't caught.
+</details></think>
+
+_**Agent (grok-4.5)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: eval &#34;$(mise activate bash)&#34;; PYTHONPATH=scripts python3 - &lt;&lt;&#39;PY&#39;
+from pathlib import Path
+import importlib.util
+spec = importlib.util.spec_from_file_location(&#39;gvl&#39;, &#39;scripts/garden-voice-lint.py&#39;)
+gvl = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(gvl)
+path = Path(&#39;content/english/notes/transformation-principles.md&#39;)
+issues = gvl.scan_note(path)
+print(&#39;issues&#39;, issues)
+text = path.read_text()
+m = gvl.FM.match(text)
+meta = __import__(&#39;yaml&#39;).safe_load(m.group(1))
+kc = meta[&#39;key_concept&#39;]
+print(&#39;isn in kc&#39;, &#34;isn&#39;t&#34; in kc)
+print(&#39;contraction search&#39;, gvl.CONTRACTION.search(kc))
+print(&#39;draft&#39;, meta.get(&#39;draft&#39;), &#39;kind&#39;, meta.get(&#39;note_kind&#39;))
+# check if FM match truncates early
+print(&#39;FM group ends with&#39;, repr(m.group(1)[-80:]))
+print(&#39;shareable&#39;, meta.get(&#39;shareable_thought&#39;))
+PY</summary>
+```bash
+eval "$(mise activate bash)"; PYTHONPATH=scripts python3 - <<'PY'
+from pathlib import Path
+import importlib.util
+spec = importlib.util.spec_from_file_location('gvl', 'scripts/garden-voice-lint.py')
+gvl = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(gvl)
+path = Path('content/english/notes/transformation-principles.md')
+issues = gvl.scan_note(path)
+print('issues', issues)
+text = path.read_text()
+m = gvl.FM.match(text)
+meta = __import__('yaml').safe_load(m.group(1))
+kc = meta['key_concept']
+print('isn in kc', "isn't" in kc)
+print('contraction search', gvl.CONTRACTION.search(kc))
+print('draft', meta.get('draft'), 'kind', meta.get('note_kind'))
+# check if FM match truncates early
+print('FM group ends with', repr(m.group(1)[-80:]))
+print('shareable', meta.get('shareable_thought'))
+PY
+```
+
+```
+Traceback (most recent call last):
+  File "<stdin>", line 5, in <module>
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/jorap/Documents/GitHub/jorap.com/scripts/garden-voice-lint.py", line 50, in <module>
+    @dataclass(frozen=True)
+     ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/dataclasses.py", line 1258, in wrap
+    return _process_class(cls, init, repr, eq, order, unsafe_hash,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/dataclasses.py", line 983, in _process_class
+    and _is_type(type, cls, dataclasses, dataclasses.KW_ONLY,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/dataclasses.py", line 749, in _is_type
+    ns = sys.modules.get(cls.__module__).__dict__
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute '__dict__'. Did you mean: '__dir__'?
+
+```
+</details></tool-use>
+
+_**Agent (grok-4.5)**_
+
+<think><details><summary>Thought Process</summary>
+Hit an importlib issue with dataclasses. Will try a different approach.
+</details></think>
+
+_**Agent (grok-4.5)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: eval &#34;$(mise activate bash)&#34;; PYTHONPATH=scripts python3 - &lt;&lt;&#39;PY&#39;
+import sys
+sys.path.insert(0,&#39;scripts&#39;)
+# execute as __main__ path by reading and running scan logic inline
+from pathlib import Path
+import re, yaml
+from notes_content import bible_verse_ref_in_text
+
+# copy CONTRACTION from file
+CONTRACTION = re.compile(
+    r&#34;\b(?:I|you|we|they|he|she|it|who|what|that|there|here|let|do|does|did|is|are|was|were|&#34;
+    r&#34;have|has|had|will|would|could|should|can|cannot|won|don|doesn|didn|isn|aren|wasn|weren|&#34;
+    r&#34;haven|hasn|hadn|wouldn|couldn|shouldn|mustn|needn|mightn|shan|ain&#39;t)&#34;
+    r&#34;(?:&#39;t|&#39;re|&#39;ve|&#39;ll|&#39;d|&#39;m)\b&#34;,
+    re.I,
+)
+FM = re.compile(r&#34;^---\s*\n(.*?)\n---&#34;, re.DOTALL)
+path = Path(&#39;content/english/notes/transformation-principles.md&#39;)
+text = path.read_text()
+match = FM.match(text)
+print(&#39;match&#39;, bool(match), &#39;len&#39;, len(match.group(1)) if match else None)
+meta = yaml.safe_load(match.group(1))
+print(&#39;keys&#39;, meta.keys())
+print(&#39;draft&#39;, meta.get(&#39;draft&#39;))
+kc = meta.get(&#39;key_concept&#39;)
+print(repr(kc[:120]))
+print(&#39;search&#39;, CONTRACTION.search(kc))
+# Does FM stop early because of --- inside content?
+print(&#39;--- count in file&#39;, text.count(&#39;---&#39;))
+# find all ---
+for i,line in enumerate(text.splitlines()[:40],1):
+  if &#39;---&#39; in line or &#34;isn&#39;t&#34; in line:
+    print(i, line[:100])
+PY</summary>
+```bash
+eval "$(mise activate bash)"; PYTHONPATH=scripts python3 - <<'PY'
+import sys
+sys.path.insert(0,'scripts')
+# execute as __main__ path by reading and running scan logic inline
+from pathlib import Path
+import re, yaml
+from notes_content import bible_verse_ref_in_text
+
+# copy CONTRACTION from file
+CONTRACTION = re.compile(
+    r"\b(?:I|you|we|they|he|she|it|who|what|that|there|here|let|do|does|did|is|are|was|were|"
+    r"have|has|had|will|would|could|should|can|cannot|won|don|doesn|didn|isn|aren|wasn|weren|"
+    r"haven|hasn|hadn|wouldn|couldn|shouldn|mustn|needn|mightn|shan|ain't)"
+    r"(?:'t|'re|'ve|'ll|'d|'m)\b",
+    re.I,
+)
+FM = re.compile(r"^---\s*\n(.*?)\n---", re.DOTALL)
+path = Path('content/english/notes/transformation-principles.md')
+text = path.read_text()
+match = FM.match(text)
+print('match', bool(match), 'len', len(match.group(1)) if match else None)
+meta = yaml.safe_load(match.group(1))
+print('keys', meta.keys())
+print('draft', meta.get('draft'))
+kc = meta.get('key_concept')
+print(repr(kc[:120]))
+print('search', CONTRACTION.search(kc))
+# Does FM stop early because of --- inside content?
+print('--- count in file', text.count('---'))
+# find all ---
+for i,line in enumerate(text.splitlines()[:40],1):
+  if '---' in line or "isn't" in line:
+    print(i, line[:100])
+PY
+```
+
+```
+match True len 3048
+keys dict_keys(['note_kind', 'title', 'meta_title', 'description', 'key_concept', 'shareable_thought', 'relationships', 'slug', 'date', 'image', 'categories', 'author', 'tags', 'aliases', 'featured', 'draft'])
+draft False
+"- Transformation isn't a single breakthrough - it's the same moves repeated until the system bends.\n- Level 1: Real chan"
+search <re.Match object; span=(17, 22), match="isn't">
+--- count in file 2
+1 ---
+7   - Transformation isn't a single breakthrough - it's the same moves repeated until the system bends
+18   - "Transformation isn't a single breakthrough - it's the same moves repeated until the system bend
+
+```
+</details></tool-use>
+
+_**Agent (grok-4.5)**_
+
+<think><details><summary>Thought Process</summary>
+Checking the note_kind value to determine why the skip logic did not apply.
+
+Draft is False, so the scan should proceed. The skip logic may be catching a note_kind of "meta" or "index".
+</details></think>
+
+_**Agent (grok-4.5)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: eval &#34;$(mise activate bash)&#34;; PYTHONPATH=scripts python3 - &lt;&lt;&#39;PY&#39;
+from pathlib import Path
+import yaml, re
+FM = re.compile(r&#34;^---\s*\n(.*?)\n---&#34;, re.DOTALL)
+meta = yaml.safe_load(FM.match(Path(&#39;content/english/notes/transformation-principles.md&#39;).read_text()).group(1))
+print(&#39;note_kind&#39;, repr(meta.get(&#39;note_kind&#39;)))
+# Run actual script with debug
+import subprocess
+# Add temporary debug by calling main logic
+import runpy
+# monkeypatch
+import garden_voice_lint as gvl
+# can&#39;t import hyphen module
+import importlib
+# load via path hack
+import types
+ns = {}
+code = Path(&#39;scripts/garden-voice-lint.py&#39;).read_text()
+# exec with module name set
+mod = types.ModuleType(&#39;garden_voice_lint&#39;)
+sys_modules = __import__(&#39;sys&#39;).modules
+sys_modules[&#39;garden_voice_lint&#39;] = mod
+exec(compile(code, &#39;scripts/garden-voice-lint.py&#39;, &#39;exec&#39;), mod.__dict__)
+issues = mod.scan_note(Path(&#39;content/english/notes/transformation-principles.md&#39;))
+print(&#39;scan issues&#39;, issues)
+print(&#39;SKIP&#39;, mod.SKIP_KINDS)
+print(&#39;note_kind in skip?&#39;, meta.get(&#39;note_kind&#39;) in mod.SKIP_KINDS)
+# count how many notes skipped
+skip = 0
+scanned = 0
+total_issues = 0
+for p in sorted(Path(&#39;content/english/notes&#39;).glob(&#39;*.md&#39;)):
+  iss = mod.scan_note(p)
+  text = p.read_text(); m = FM.match(text)
+  if not m: continue
+  meta = yaml.safe_load(m.group(1)) or {}
+  if meta.get(&#39;draft&#39;) or meta.get(&#39;note_kind&#39;,&#39;note&#39;) in mod.SKIP_KINDS:
+    skip += 1
+  else:
+    scanned += 1
+  total_issues += len(iss)
+print(&#39;skip&#39;, skip, &#39;scanned&#39;, scanned, &#39;issues&#39;, total_issues)
+# Find any isn&#39;t that should fail among scanned
+CONTRACTION = mod.CONTRACTION
+fails = []
+for p in sorted(Path(&#39;content/english/notes&#39;).glob(&#39;*.md&#39;)):
+  text = p.read_text(); m = FM.match(text)
+  if not m: continue
+  meta = yaml.safe_load(m.group(1)) or {}
+  if meta.get(&#39;draft&#39;) or meta.get(&#39;note_kind&#39;,&#39;note&#39;) in mod.SKIP_KINDS:
+    continue
+  for field in (&#39;description&#39;,&#39;key_concept&#39;,&#39;examples&#39;,&#39;shareable_thought&#39;):
+    val = meta.get(field)
+    texts = [val] if isinstance(val,str) else ([t for t in val if isinstance(t,str)] if isinstance(val,list) else [])
+    for t in texts:
+      hit = CONTRACTION.search(t)
+      if hit:
+        fails.append((p.name, field, hit.group(0)))
+print(&#39;manual contraction hits on scanned notes:&#39;, len(fails))
+for f in fails[:20]: print(f)
+PY</summary>
+```bash
+eval "$(mise activate bash)"; PYTHONPATH=scripts python3 - <<'PY'
+from pathlib import Path
+import yaml, re
+FM = re.compile(r"^---\s*\n(.*?)\n---", re.DOTALL)
+meta = yaml.safe_load(FM.match(Path('content/english/notes/transformation-principles.md').read_text()).group(1))
+print('note_kind', repr(meta.get('note_kind')))
+# Run actual script with debug
+import subprocess
+# Add temporary debug by calling main logic
+import runpy
+# monkeypatch
+import garden_voice_lint as gvl
+# can't import hyphen module
+import importlib
+# load via path hack
+import types
+ns = {}
+code = Path('scripts/garden-voice-lint.py').read_text()
+# exec with module name set
+mod = types.ModuleType('garden_voice_lint')
+sys_modules = __import__('sys').modules
+sys_modules['garden_voice_lint'] = mod
+exec(compile(code, 'scripts/garden-voice-lint.py', 'exec'), mod.__dict__)
+issues = mod.scan_note(Path('content/english/notes/transformation-principles.md'))
+print('scan issues', issues)
+print('SKIP', mod.SKIP_KINDS)
+print('note_kind in skip?', meta.get('note_kind') in mod.SKIP_KINDS)
+# count how many notes skipped
+skip = 0
+scanned = 0
+total_issues = 0
+for p in sorted(Path('content/english/notes').glob('*.md')):
+  iss = mod.scan_note(p)
+  text = p.read_text(); m = FM.match(text)
+  if not m: continue
+  meta = yaml.safe_load(m.group(1)) or {}
+  if meta.get('draft') or meta.get('note_kind','note') in mod.SKIP_KINDS:
+    skip += 1
+  else:
+    scanned += 1
+  total_issues += len(iss)
+print('skip', skip, 'scanned', scanned, 'issues', total_issues)
+# Find any isn't that should fail among scanned
+CONTRACTION = mod.CONTRACTION
+fails = []
+for p in sorted(Path('content/english/notes').glob('*.md')):
+  text = p.read_text(); m = FM.match(text)
+  if not m: continue
+  meta = yaml.safe_load(m.group(1)) or {}
+  if meta.get('draft') or meta.get('note_kind','note') in mod.SKIP_KINDS:
+    continue
+  for field in ('description','key_concept','examples','shareable_thought'):
+    val = meta.get(field)
+    texts = [val] if isinstance(val,str) else ([t for t in val if isinstance(t,str)] if isinstance(val,list) else [])
+    for t in texts:
+      hit = CONTRACTION.search(t)
+      if hit:
+        fails.append((p.name, field, hit.group(0)))
+print('manual contraction hits on scanned notes:', len(fails))
+for f in fails[:20]: print(f)
+PY
+```
+
+```
+note_kind 'index'
+Traceback (most recent call last):
+  File "<stdin>", line 11, in <module>
+ModuleNotFoundError: No module named 'garden_voice_lint'
+
+```
+</details></tool-use>
+
+_**Agent (grok-4.5)**_
+
+<think><details><summary>Thought Process</summary>
+`transformation-principles.md` is skipped by `garden-voice-lint` because its `note_kind` is set to `index`.
+
+The linter will be expanded to catch contractions in index notes. Contractions on `transformation-principles.md` will be fixed for voice consistency even though it is skipped by lint.
+
+The linter will be tightened to catch "my" and "me" in descriptions. Index notes will be skipped for these checks. A conflict exists in "not-my-will": its description quotes scripture as "not My will." The options are exempting capitalized "My," rewriting the quote, or exempting the phrase in lint. The skill requires third-person description.
+
+The "not-my-will" description will be rewritten without "My" to satisfy the lint rule. The shareable copy will be updated too.
+
+A new `workplace-has-bible` lint rule will be added. The Workplace tag will be removed from `discipleship-vs-leadership`.
+
+Self-check tests will be added to the linter.
+
+Content fixes will be batched. Mechanical replacements will expand contractions like "what's" to "what is" and "there's" to "there is".
+
+Quoted phrases containing contractions will be expanded, such as "here's what to do" becoming "here is what to do." The first-person word "my" remains permitted in key concepts. Contractions will be replaced with "is not" and "He is" across several notes. Descriptions will be rewritten in third person and shareable echoes updated.
+
+The third-person description rewrites are now being applied to specific notes. These include `christlikeness`, `creative-output`, `digital-garden`, `justification`, and `local-first-software`.
+
+The remaining third-person description rewrites cover `metadata-strategy`, `note-relationships`, `priorities-before-the-inbox`, `sanctification`, and `integrity`. `not-my-will` now states that Jesus yielded His will to the Father.
+
+The description for `there-is-no-perfect-solution` will read: "There is no perfect solution - pick what works tired and ship instead of waiting for the ideal."
+
+Shareable echoes must still pass lint after description and key-concept changes. The key-concept for `digital-garden` opens with "My digital garden..." — first-person is allowed in key concepts, so the shareable echoing "My garden..." is acceptable. Contractions remain the only lint violation.
+
+The linter will be updated first. Then it will be run to collect the full list of failures. Every failure will be fixed in a single batch.
+</details></think>
+
+_**Agent (grok-4.5)**_
+
+Updating the linter, then fixing every note it flags.
+
+_**Agent (grok-4.5)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/garden-voice-lint.py</summary>
+
+</details></tool-use>
+
+_**Agent (grok-4.5)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/garden-voice-lint.py</summary>
+
+</details></tool-use>
+
+_**Agent (grok-4.5)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/garden-voice-lint.py</summary>
+
+</details></tool-use>
+
+_**Agent (grok-4.5)**_
+
+<think><details><summary>Thought Process</summary>
+Running the linter to get the full failure list. Then fixing all notes with a careful script and manual description rewrites.
+</details></think>
+
+_**Agent (grok-4.5)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: eval &#34;$(mise activate bash)&#34;; PYTHONPATH=scripts python3 scripts/garden-voice-lint.py --check 2&gt;&amp;1 | tee /tmp/gvl-fails.txt | wc -l; PYTHONPATH=scripts python3 scripts/garden-voice-lint.py --summary 2&gt;&amp;1; PYTHONPATH=scripts python3 scripts/garden-voice-lint.py --self-check 2&gt;&amp;1</summary>
+```bash
+eval "$(mise activate bash)"; PYTHONPATH=scripts python3 scripts/garden-voice-lint.py --check 2>&1 | tee /tmp/gvl-fails.txt | wc -l; PYTHONPATH=scripts python3 scripts/garden-voice-lint.py --summary 2>&1; PYTHONPATH=scripts python3 scripts/garden-voice-lint.py --self-check 2>&1
+```
+
+```
+37
+Garden voice - 284 files, 36 issues
+  contraction: 22
+  first-person: 11
+  workplace-has-bible: 3
+garden-voice-lint self-check OK
+
+```
+</details></tool-use>
+
+_**Agent (grok-4.5)**_
+
+<think><details><summary>Thought Process</summary>
+Reviewing 36 total issues. The workplace-has-bible entry has 3 notes rather than 1.
+</details></think>
+
+_**Agent (grok-4.5)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: eval &#34;$(mise activate bash)&#34;; PYTHONPATH=scripts python3 scripts/garden-voice-lint.py --check 2&gt;&amp;1</summary>
+```bash
+eval "$(mise activate bash)"; PYTHONPATH=scripts python3 scripts/garden-voice-lint.py --check 2>&1
+```
+
+```
+Garden voice lint:
+  content/english/notes/assurance.md: description: first-person (Assurance is resting on Christ's finished work when doubt hits - not my week's o)
+  content/english/notes/by-their-fruits.md: key_concept: contraction (what's)
+  content/english/notes/christlikeness.md: description: first-person (God keeps reshaping me to look and love more like Jesus - growth after faith, no)
+  content/english/notes/creative-output.md: description: first-person (Notes are inventory for me - posts, sermons, code, and dinner experiments are th)
+  content/english/notes/digital-garden.md: description: first-person (My garden is where notes grow in public - linked, imperfect, alive on Hugo and G)
+  content/english/notes/discipleship-vs-leadership.md: key_concept: workplace-has-bible (discipleship-vs-leadership)
+  content/english/notes/eternal-rewards.md: examples: contraction (He's)
+  content/english/notes/finish-strong.md: relationships.reason: contraction (what's)
+  content/english/notes/great-commission.md: examples: contraction (He's)
+  content/english/notes/gtd-vs-para.md: relationships.reason: contraction (here's)
+  content/english/notes/honest-self-awareness.md: relationships.reason: contraction (what's)
+  content/english/notes/integrity-without-an-audience.md: description: contraction (there's)
+  content/english/notes/integrity-without-an-audience.md: shareable_thought: contraction (there's)
+  content/english/notes/judge-not.md: key_concept: contraction (what's)
+  content/english/notes/justification.md: description: first-person (God declared me righteous at faith - before my obedience caught up.)
+  content/english/notes/local-first-software.md: description: first-person (Local-first means my device holds the truth; sync is optional icing - backup sho)
+  content/english/notes/metadata-strategy.md: description: first-person (If tagging a note takes longer than writing it, my system is fighting me.)
+  content/english/notes/name-the-feeling.md: key_concept: contract
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (grok-4.5)**_
+
+<think><details><summary>Thought Process</summary>
+Reviewing three workplace-has-bible notes. The discipleship-vs-leadership note should lose its Workplace tag. The outcomes-over-pitch-decks note may need its Workplace or Bible tag removed.
+
+The share-what-you-learn note needs the same treatment. Notes with primary workplace focus and secondary gospel depth should drop their Bible tag. Faith notes with Workplace as secondary should drop that tag. Now reading the remaining two notes.
+</details></think>
+
+_**Agent (grok-4.5)**_
+
+Checking the three workplace+bible notes, then applying batch fixes.
+
+_**Agent (grok-4.5)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/outcomes-over-pitch-decks.md",
+  "pattern": "^tags:|^categories:|bible"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/outcomes-over-pitch-decks.md",
+  "pattern": "^tags:|^categories:|bible",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/outcomes-over-pitch-decks.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 2
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (grok-4.5)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/share-what-you-learn.md",
+  "pattern": "^tags:|^categories:|bible"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/share-what-you-learn.md",
+  "pattern": "^tags:|^categories:|bible",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/share-what-you-learn.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 2
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (grok-4.5)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/outcomes-over-pitch-decks.md</summary>
+
+</details></tool-use>
+
+_**Agent (grok-4.5)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/share-what-you-learn.md</summary>
+
+</details></tool-use>
+
+_**Agent (grok-4.5)**_
+
+<think><details><summary>Thought Process</summary>
+The BIBLE regex matches book names like Matthew and Mark. Outcomes-over-pitch-decks and share-what-you-learn lack `{{< bible` in their first 35 lines.
+
+Checking whether "Mark" in "remark" triggers the Bible regex. Word boundaries prevent partial matches.
+
+The Bible regex lacks a word boundary on `Mark`, so lowercase `mark` in "remark" matches. This reveals a pre-existing lint bug for workplace-has-bible and faith-no-verse. Checking outcomes for similar false positives.
+
+The new workplace-has-bible rule should target exact `{{< bible` shortcodes rather than the loose BIBLE regex. This avoids false positives from words like "mark" inside "remark". Discipleship-vs-leadership contains a genuine bible shortcode.
+</details></think>
+
+_**Agent (grok-4.5)**_
+
+The workplace+bible check was matching loose book-name substrings (e.g. "mark" in other words). Tightening it to shortcodes and real verse citations.
+
+_**Agent (grok-4.5)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/garden-voice-lint.py</summary>
+
+</details></tool-use>
+
+_**Agent (grok-4.5)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/garden-voice-lint.py</summary>
+
+</details></tool-use>
+
+_**Agent (grok-4.5)**_
+
+<think><details><summary>Thought Process</summary>
+Writing a Python script to apply all mechanical fixes and description rewrites in one pass.
+</details></think>
+
+_**Agent (grok-4.5)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: eval &#34;$(mise activate bash)&#34;; PYTHONPATH=scripts python3 scripts/garden-voice-lint.py --check 2&gt;&amp;1 | rg &#39;workplace|EXIT&#39; ; PYTHONPATH=scripts python3 scripts/garden-voice-lint.py --summary 2&gt;&amp;1</summary>
+```bash
+eval "$(mise activate bash)"; PYTHONPATH=scripts python3 scripts/garden-voice-lint.py --check 2>&1 | rg 'workplace|EXIT' ; PYTHONPATH=scripts python3 scripts/garden-voice-lint.py --summary 2>&1
+```
+
+```
+  content/english/notes/discipleship-vs-leadership.md: key_concept: workplace-has-bible (discipleship-vs-leadership)
+Garden voice - 284 files, 34 issues
+  contraction: 22
+  first-person: 11
+  workplace-has-bible: 1
+
+```
+</details></tool-use>
+
+_**Agent (grok-4.5)**_
+
+<think><details><summary>Thought Process</summary>
+Only discipleship-vs-leadership remains for workplace-has-bible. Applying all content fixes with a script.
+</details></think>
+
+_**Agent (grok-4.5)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: eval &#34;$(mise activate bash)&#34;; PYTHONPATH=scripts python3 - &lt;&lt;&#39;PY&#39;
+&#34;&#34;&#34;Apply garden-voice soft-gap fixes.&#34;&#34;&#34;
+from pathlib import Path
+import re
+
+NOTES = Path(&#39;content/english/notes&#39;)
+
+# Frontmatter-only contraction expand (not cards/body). Apply to whole file is OK
+# if cards keep contractions - cards are AFTER frontmatter. Safer: only replace inside ---.
+CONTRACTIONS = [
+    (r&#34;\bThere&#39;s\b&#34;, &#34;There is&#34;),
+    (r&#34;\bthere&#39;s\b&#34;, &#34;there is&#34;),
+    (r&#34;\bHere&#39;s\b&#34;, &#34;Here is&#34;),
+    (r&#34;\bhere&#39;s\b&#34;, &#34;here is&#34;),
+    (r&#34;\bWhat&#39;s\b&#34;, &#34;What is&#34;),
+    (r&#34;\bwhat&#39;s\b&#34;, &#34;what is&#34;),
+    (r&#34;\bWho&#39;s\b&#34;, &#34;Who is&#34;),
+    (r&#34;\bwho&#39;s\b&#34;, &#34;who is&#34;),
+    (r&#34;\bHe&#39;s\b&#34;, &#34;He is&#34;),
+    (r&#34;\bhe&#39;s\b&#34;, &#34;he is&#34;),
+    (r&#34;\bIt&#39;s\b&#34;, &#34;It is&#34;),
+    (r&#34;\bit&#39;s\b&#34;, &#34;it is&#34;),
+    (r&#34;\bIsn&#39;t\b&#34;, &#34;Is not&#34;),
+    (r&#34;\bisn&#39;t\b&#34;, &#34;is not&#34;),
+]
+
+DESC_REWRITES = {
+    &#34;assurance.md&#34;: &#34;Assurance is resting on Christ&#39;s finished work when doubt hits - not the week&#39;s obedience score.&#34;,
+    &#34;christlikeness.md&#34;: &#34;God keeps reshaping believers to look and love more like Jesus - growth after faith, not the entry fee.&#34;,
+    &#34;creative-output.md&#34;: &#34;Notes are inventory - posts, sermons, code, and dinner experiments are the point.&#34;,
+    &#34;digital-garden.md&#34;: &#34;A digital garden is where notes grow in public - linked, imperfect, alive on Hugo and Git.&#34;,
+    &#34;justification.md&#34;: &#34;God declares the believer righteous at faith - before obedience catches up.&#34;,
+    &#34;local-first-software.md&#34;: &#34;Local-first means the device holds the truth; sync is optional icing - backup should behave the same way.&#34;,
+    &#34;metadata-strategy.md&#34;: &#34;If tagging a note takes longer than writing it, the system is fighting the writer.&#34;,
+    &#34;not-my-will.md&#34;: &#34;In Gethsemane Jesus prayed Abba, Father - then yielded His will to the Father.&#34;,
+    &#34;note-relationships.md&#34;: &#34;The graph shows extends, contradicts, implements, alternative - not just two notes mentioning the same word.&#34;,
+    &#34;priorities-before-the-inbox.md&#34;: &#34;Put the real priority first before email, Slack, and everyone else&#39;s urgency rewrite the morning.&#34;,
+    &#34;sanctification.md&#34;: &#34;After God declares a believer righteous, He keeps shaping habits and heart - growth, not the ticket in.&#34;,
+    &#34;integrity-without-an-audience.md&#34;: &#34;Do the honest work when there is no audience - accurate time logs, real tests, the fix nobody asked for yet.&#34;,
+    &#34;there-is-no-perfect-solution.md&#34;: &#34;There is no perfect solution - pick what works tired and ship instead of waiting for the ideal.&#34;,
+}
+
+# shareable lines that must track description (exact old -&gt; new)
+SHAREABLE_REWRITES = {
+    &#34;integrity-without-an-audience.md&#34;: [
+        (&#34;Do the honest work when there&#39;s no audience.&#34;, &#34;Do the honest work when there is no audience.&#34;),
+    ],
+    &#34;there-is-no-perfect-solution.md&#34;: [
+        (&#34;There&#39;s no perfect solution - pick what works tired and ship instead of waiting for the ideal.&#34;,
+         &#34;There is no perfect solution - pick what works tired and ship instead of waiting for the ideal.&#34;),
+    ],
+    &#34;assurance.md&#34;: [
+        (&#34;Assurance is resting on Christ&#39;s finished work when doubt hits - not my week&#39;s obedience score.&#34;,
+         &#34;Assurance is resting on Christ&#39;s finished work when doubt hits - not the week&#39;s obedience score.&#34;),
+    ],
+    &#34;christlikeness.md&#34;: [
+        (&#34;God keeps reshaping me to look and love more like Jesus.&#34;,
+         &#34;God keeps reshaping believers to look and love more like Jesus.&#34;),
+    ],
+    &#34;creative-output.md&#34;: [
+        (&#34;Notes are inventory for me.&#34;,
+         &#34;Notes are inventory.&#34;),
+        (&#34;Notes are inventory for me - posts, sermons, code, and dinner experiments are the point.&#34;,
+         &#34;Notes are inventory - posts, sermons, code, and dinner experiments are the point.&#34;),
+    ],
+    &#34;digital-garden.md&#34;: [
+        (&#34;My garden is where notes grow in public.&#34;,
+         &#34;A digital garden is where notes grow in public.&#34;),
+        (&#34;My digital garden is a personal site where notes grow in public.&#34;,
+         &#34;A digital garden is a personal site where notes grow in public.&#34;),
+    ],
+    &#34;justification.md&#34;: [
+        (&#34;God declared me righteous at faith.&#34;,
+         &#34;God declares the believer righteous at faith.&#34;),
+        (&#34;Before my obedience caught up.&#34;,
+         &#34;Before obedience catches up.&#34;),
+    ],
+    &#34;local-first-software.md&#34;: [
+        (&#34;Local-first means my device holds the truth; sync is optional icing - backup should behave the same way.&#34;,
+         &#34;Local-first means the device holds the truth; sync is optional icing - backup should behave the same way.&#34;),
+        (&#34;Local-first means my device holds the truth.&#34;,
+         &#34;Local-first means the device holds the truth.&#34;),
+    ],
+    &#34;metadata-strategy.md&#34;: [
+        (&#34;If tagging a note takes longer than writing it, my system is fighting me.&#34;,
+         &#34;If tagging a note takes longer than writing it, the system is fighting the writer.&#34;),
+    ],
+    &#34;not-my-will.md&#34;: [
+        (&#34;In Gethsemane Jesus prayed Abba, Father - not My will, but Yours be done.&#34;,
+         &#34;In Gethsemane Jesus prayed Abba, Father - then yielded His will to the Father.&#34;),
+    ],
+    &#34;note-relationships.md&#34;: [
+        (&#34;My graph shows extends, contradicts, implements, alternative - not just two notes mentioning the same word.&#34;,
+         &#34;The graph shows extends, contradicts, implements, alternative - not just two notes mentioning the same word.&#34;),
+    ],
+    &#34;priorities-before-the-inbox.md&#34;: [
+        (&#34;Put the real priority first before email, Slack, and everyone else&#39;s urgency rewrite my morning.&#34;,
+         &#34;Put the real priority first before email, Slack, and everyone else&#39;s urgency rewrite the morning.&#34;),
+    ],
+    &#34;sanctification.md&#34;: [
+        (&#34;After God declares me righteous, He keeps shaping my habits and heart.&#34;,
+         &#34;After God declares a believer righteous, He keeps shaping habits and heart.&#34;),
+    ],
+}
+
+FILES_WITH_CONTRACTIONS = [
+    &#34;by-their-fruits.md&#34;, &#34;eternal-rewards.md&#34;, &#34;finish-strong.md&#34;, &#34;great-commission.md&#34;,
+    &#34;gtd-vs-para.md&#34;, &#34;honest-self-awareness.md&#34;, &#34;integrity-without-an-audience.md&#34;,
+    &#34;judge-not.md&#34;, &#34;name-the-feeling.md&#34;, &#34;network-analysis.md&#34;, &#34;peacemakers.md&#34;,
+    &#34;reliability.md&#34;, &#34;rollback-principle.md&#34;, &#34;situational-control.md&#34;, &#34;slow-the-moment.md&#34;,
+    &#34;the-second-brain-workflow.md&#34;, &#34;there-is-no-perfect-solution.md&#34;,
+]
+
+def split_fm(text):
+    if not text.startswith(&#39;---&#39;):
+        raise ValueError(&#39;no fm&#39;)
+    end = text.find(&#39;\n---&#39;, 3)
+    if end &lt; 0:
+        raise ValueError(&#39;no end&#39;)
+    # end points at newline before ---
+    return text[:end+1], text[end+1:]  # fm includes opening ---...\n ; rest starts with ---
+
+def expand_contractions(fm: str) -&gt; str:
+    out = fm
+    for pat, repl in CONTRACTIONS:
+        out = re.sub(pat, repl, out)
+    return out
+
+changed = []
+for name in sorted(set(FILES_WITH_CONTRACTIONS) | set(DESC_REWRITES) | set(SHAREABLE_REWRITES) | {&#34;discipleship-vs-leadership.md&#34;}):
+    path = NOTES / name
+    text = path.read_text()
+    # split carefully
+    m = re.match(r&#39;^(---\n.*?\n)(---\n?.*)$&#39;, text, re.DOTALL)
+    if not m:
+        raise SystemExit(f&#39;bad fm split {name}&#39;)
+    fm, rest = m.group(1), m.group(2)
+    orig = fm
+
+    if name in FILES_WITH_CONTRACTIONS or name in DESC_REWRITES:
+        fm = expand_contractions(fm)
+
+    if name in DESC_REWRITES:
+        new_desc = DESC_REWRITES[name]
+        fm2, n = re.subn(
+            r&#39;^description:\s*&#34;.*?&#34;\s*$&#39;,
+            f&#39;description: &#34;{new_desc}&#34;&#39;,
+            fm,
+            count=1,
+            flags=re.M,
+        )
+        if n != 1:
+            # try single-quoted or already partially fixed
+            fm2, n = re.subn(
+                r&#39;^description:\s*\&#39;.*?\&#39;\s*$&#39;,
+                f&#39;description: &#34;{new_desc}&#34;&#39;,
+                fm,
+                count=1,
+                flags=re.M,
+            )
+        if n != 1:
+            raise SystemExit(f&#39;desc rewrite failed {name}&#39;)
+        fm = fm2
+
+    for old, new in SHAREABLE_REWRITES.get(name, []):
+        if old in fm:
+            fm = fm.replace(old, new)
+
+    if name == &#34;discipleship-vs-leadership.md&#34;:
+        fm2, n = re.subn(
+            r&#39;(tags:\s*\[[^\]]*)&#34;Workplace&#34;,\s*&#39;,
+            r&#39;\1&#39;,
+            fm,
+            count=1,
+        )
+        if n != 1:
+            fm2, n = re.subn(
+                r&#39;(tags:\s*\[[^\]]*),\s*&#34;Workplace&#34;&#39;,
+                r&#39;\1&#39;,
+                fm,
+                count=1,
+            )
+        if n != 1:
+            raise SystemExit(f&#39;Workplace tag remove failed: {name}&#39;)
+        fm = fm2
+
+    if fm != orig:
+        path.write_text(fm + rest)
+        changed.append(name)
+
+print(f&#39;Updated {len(changed)} files:&#39;)
+for c in changed:
+    print(&#39; &#39;, c)
+PY</summary>
+```bash
+eval "$(mise activate bash)"; PYTHONPATH=scripts python3 - <<'PY'
+"""Apply garden-voice soft-gap fixes."""
+from pathlib import Path
+import re
+
+NOTES = Path('content/english/notes')
+
+# Frontmatter-only contraction expand (not cards/body). Apply to whole file is OK
+# if cards keep contractions - cards are AFTER frontmatter. Safer: only replace inside ---.
+CONTRACTIONS = [
+    (r"\bThere's\b", "There is"),
+    (r"\bthere's\b", "there is"),
+    (r"\bHere's\b", "Here is"),
+    (r"\bhere's\b", "here is"),
+    (r"\bWhat's\b", "What is"),
+    (r"\bwhat's\b", "what is"),
+    (r"\bWho's\b", "Who is"),
+    (r"\bwho's\b", "who is"),
+    (r"\bHe's\b", "He is"),
+    (r"\bhe's\b", "he is"),
+    (r"\bIt's\b", "It is"),
+    (r"\bit's\b", "it is"),
+    (r"\bIsn't\b", "Is not"),
+    (r"\bisn't\b", "is not"),
+]
+
+DESC_REWRITES = {
+    "assurance.md": "Assurance is resting on Christ's finished work when doubt hits - not the week's obedience score.",
+    "christlikeness.md": "God keeps reshaping believers to look and love more like Jesus - growth after faith, not the entry fee.",
+    "creative-output.md": "Notes are inventory - posts, sermons, code, and dinner experiments are the point.",
+    "digital-garden.md": "A digital garden is where notes grow in public - linked, imperfect, alive on Hugo and Git.",
+    "justification.md": "God declares the believer righteous at faith - before obedience catches up.",
+    "local-first-software.md": "Local-first means the device holds the truth; sync is optional icing - backup should behave the same way.",
+    "metadata-strategy.md": "If tagging a note takes longer than writing it, the system is fighting the writer.",
+    "not-my-will.md": "In Gethsemane Jesus prayed Abba, Father - then yielded His will to the Father.",
+    "note-relationships.md": "The graph shows extends, contradicts, implements, alternative - not just two notes mentioning the same word.",
+    "priorities-before-the-inbox.md": "Put the real priority first before email, Slack, and everyone else's urgency rewrite the morning.",
+    "sanctification.md": "After God declares a believer righteous, He keeps shaping habits and heart - growth, not the ticket in.",
+    "integrity-without-an-audience.md": "Do the honest work when there is no audience - accurate time logs, real tests, the fix nobody asked for yet.",
+    "there-is-no-perfect-solution.md": "There is no perfect solution - pick what works tired and ship instead of waiting for the ideal.",
+}
+
+# shareable lines that must track description (exact old -> new)
+SHAREABLE_REWRITES = {
+    "integrity-without-an-audience.md": [
+        ("Do the honest work when there's no audience.", "Do the honest work when there is no audience."),
+    ],
+    "there-is-no-perfect-solution.md": [
+        ("There's no perfect solution - pick what works tired and ship instead of waiting for the ideal.",
+         "There is no perfect solution - pick what works tired and ship instead of waiting for the ideal."),
+    ],
+    "assurance.md": [
+        ("Assurance is resting on Christ's finished work when doubt hits - not my week's obedience score.",
+         "Assurance is resting on Christ's finished work when doubt hits - not the week's obedience score."),
+    ],
+    "christlikeness.md": [
+        ("God keeps reshaping me to look and love more like Jesus.",
+         "God keeps reshaping believers to look and love more like Jesus."),
+    ],
+    "creative-output.md": [
+        ("Notes are inventory for me.",
+         "Notes are inventory."),
+        ("Notes are inventory for me - posts, sermons, code, and dinner experiments are the point.",
+         "Notes are inventory - posts, sermons, code, and dinner experiments are the point."),
+    ],
+    "digital-garden.md": [
+        ("My garden is where notes grow in public.",
+         "A digital garden is where notes grow in public."),
+        ("My digital garden is a personal site where notes grow in public.",
+         "A digital garden is a personal site where notes grow in public."),
+    ],
+    "justification.md": [
+        ("God declared me righteous at faith.",
+         "God declares the believer righteous at faith."),
+        ("Before my obedience caught up.",
+         "Before obedience catches up."),
+    ],
+    "local-first-software.md": [
+        ("Local-first means my device holds the truth; sync is optional icing - backup should behave the same way.",
+         "Local-first means the device holds the truth; sync is optional icing - backup should behave the same way."),
+        ("Local-first means my device holds the truth.",
+         "Local-first means the device holds the truth."),
+    ],
+    "metadata-strategy.md": [
+        ("If tagging a note takes longer than writing it, my system is fighting me.",
+         "If tagging a note takes longer than writing it, the system is fighting the writer."),
+    ],
+    "not-my-will.md": [
+        ("In Gethsemane Jesus prayed Abba, Father - not My will, but Yours be done.",
+         "In Gethsemane Jesus prayed Abba, Father - then yielded His will to the Father."),
+    ],
+    "note-relationships.md": [
+        ("My graph shows extends, contradicts, implements, alternative - not just two notes mentioning the same word.",
+         "The graph shows extends, contradicts, implements, alternative - not just two notes mentioning the same word."),
+    ],
+    "priorities-before-the-inbox.md": [
+        ("Put the real priority first before email, Slack, and everyone else's urgency rewrite my morning.",
+         "Put the real priority first before email, Slack, and everyone else's urgency rewrite the morning."),
+    ],
+    "sanctification.md": [
+        ("After God declares me righteous, He keeps shaping my habits and heart.",
+         "After God declares a believer righteous, He keeps shaping habits and heart."),
+    ],
+}
+
+FILES_WITH_CONTRACTIONS = [
+    "by-their-fruits.md", "eternal-rewards.md", "finish-strong.md", "great-commission.md",
+    "gtd-vs-para.md", "honest-self-awareness.md", "integrity-without-an-audience.md",
+    "judge-not.md", "name-the-feeling.md", "network-analysis.md", "peacemakers.md",
+    "reliability.md", "rollback-principle.md", "situational-control.md", "slow-the-moment.md",
+    "the-second-brain-workflow.md", "there-is-no-perfect-solution.md",
+]
+
+def split_fm(text):
+    if not text.startswith('---'):
+        raise ValueError('no fm')
+    end = text.find('\n---', 3)
+    if end < 0:
+        raise ValueError('no end')
+    # end points at newline before ---
+    return text[:end+1], text[end+1:]  # fm includes opening ---...\n ; rest starts with ---
+
+def expand_contractions(fm: str) -> str:
+    out = fm
+    for pat, repl in CONTRACTIONS:
+        out = re.sub(pat, repl, out)
+    return out
+
+changed = []
+for name in sorted(set(FILES_WITH_CONTRACTIONS) | set(DESC_REWRITES) | set(SHAREABLE_REWRITES) | {"discipleship-vs-leadership.md"}):
+    path = NOTES / name
+    text = path.read_text()
+    # split carefully
+    m = re.match(r'^(---\n.*?\n)(---\n?.*)$', text, re.DOTALL)
+    if not m:
+        raise SystemExit(f'bad fm split {name}')
+    fm, rest = m.group(1), m.group(2)
+    orig = fm
+
+    if name in FILES_WITH_CONTRACTIONS or name in DESC_REWRITES:
+        fm = expand_contractions(fm)
+
+    if name in DESC_REWRITES:
+        new_desc = DESC_REWRITES[name]
+        fm2, n = re.subn(
+            r'^description:\s*".*?"\s*$',
+            f'description: "{new_desc}"',
+            fm,
+            count=1,
+            flags=re.M,
+        )
+        if n != 1:
+            # try single-quoted or already partially fixed
+            fm2, n = re.subn(
+                r'^description:\s*\'.*?\'\s*$',
+                f'description: "{new_desc}"',
+                fm,
+                count=1,
+                flags=re.M,
+            )
+        if n != 1:
+            raise SystemExit(f'desc rewrite failed {name}')
+        fm = fm2
+
+    for old, new in SHAREABLE_REWRITES.get(name, []):
+        if old in fm:
+            fm = fm.replace(old, new)
+
+    if name == "discipleship-vs-leadership.md":
+        fm2, n = re.subn(
+            r'(tags:\s*\[[^\]]*)"Workplace",\s*',
+            r'\1',
+            fm,
+            count=1,
+        )
+        if n != 1:
+            fm2, n = re.subn(
+                r'(tags:\s*\[[^\]]*),\s*"Workplace"',
+                r'\1',
+                fm,
+                count=1,
+            )
+        if n != 1:
+            raise SystemExit(f'Workplace tag remove failed: {name}')
+        fm = fm2
+
+    if fm != orig:
+        path.write_text(fm + rest)
+        changed.append(name)
+
+print(f'Updated {len(changed)} files:')
+for c in changed:
+    print(' ', c)
+PY
+```
+
+```
+Updated 29 files:
+  assurance.md
+  by-their-fruits.md
+  christlikeness.md
+  creative-output.md
+  digital-garden.md
+  discipleship-vs-leadership.md
+  eternal-rewards.md
+  finish-strong.md
+  great-commission.md
+  gtd-vs-para.md
+  honest-self-awareness.md
+  integrity-without-an-audience.md
+  judge-not.md
+  justification.md
+  local-first-software.md
+  metadata-strategy.md
+  name-the-feeling.md
+  network-analysis.md
+  not-my-will.md
+  note-relationships.md
+  peacemakers.md
+  priorities-before-the-inbox.md
+  reliability.md
+  rollback-principle.md
+  sanctification.md
+  situational-control.md
+  slow-the-moment.md
+  the-second-brain-workflow.md
+  there-is-no-perfect-solution.md
+
+```
+</details></tool-use>
+
+_**Agent (grok-4.5)**_
+
+<think><details><summary>Thought Process</summary>
+Verifying lint passes. Cards may keep contractions. Checking lint-notes-frontmatter for shareable_line_from_principle.
+</details></think>
+
+_**Agent (grok-4.5)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: eval &#34;$(mise activate bash)&#34;; PYTHONPATH=scripts python3 scripts/garden-voice-lint.py --check 2&gt;&amp;1; echo &#34;---&#34;; pnpm lint:garden 2&gt;&amp;1; echo EXIT:$?</summary>
+```bash
+eval "$(mise activate bash)"; PYTHONPATH=scripts python3 scripts/garden-voice-lint.py --check 2>&1; echo "---"; pnpm lint:garden 2>&1; echo EXIT:$?
+```
+
+```
+Garden voice lint:
+  content/english/notes/creative-output.md: shareable[0]: fragment (Notes are inventory.)
+  content/english/notes/integrity-without-an-audience.md: description: words>20 (21)
+---
+$ python3 scripts/lint-notes-frontmatter.py && python3 scripts/normalize-notes-format.py --verify && python3 scripts/lint-flashcard-frontmatter.py && python3 scripts/audit-flashcard-north-star.py && python3 scripts/lint-utility-wikilinks.py && python3 scripts/voice-lint.py garden --check && python3 scripts/voice-lint.py slop --check --notes-only
+FAIL description in key_concept (Level 5: Pairs with [[Deep Work]] for protected blocks and […): creative-output.md
+FAIL shareable_thought[0] fragment: creative-output.md
+FAIL description 21 words (max 20): integrity-without-an-audience.md
+FAIL description in key_concept (Do the honest work when there is no audience.): integrity-without-an-audience.md
+FAIL shareable_thought[0] overlaps [2]: integrity-without-an-audience.md
+
+5 note(s) failed frontmatter lint
+[ELIFECYCLE] Command failed with exit code 1.
+EXIT:1
+
+```
+</details></tool-use>
+
+_**Agent (grok-4.5)**_
+
+<think><details><summary>Thought Process</summary>
+Fixing the creative-output shareable[0] line by restoring a longer version without "for me". Trimming the integrity description to 21 words.
+
+The integrity description appears in key_concept after expansion. Its shareable overlaps. Reading the files now.
+</details></think>
+
+_**Agent (grok-4.5)**_
+
+Cleaning up two notes that the rewrite left over the word limit or with overlapping shareables.
+
+_**Agent (grok-4.5)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/creative-output.md</summary>
+
+</details></tool-use>
+
+_**Agent (grok-4.5)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/integrity-without-an-audience.md</summary>
+
+</details></tool-use>
+
+_**Agent (grok-4.5)**_
+
+<think><details><summary>Thought Process</summary>
+The phrase "Notes are inventory." is three words, so it fails the four-word minimum required by the linter.
+
+Merging the two description lines into one longer shareable would fix the word count, but it would overlap with the next entry. The better approach is to keep the current three-line structure and tighten each line individually.
+
+A fourth angle is needed: ship three sparks as one finished piece on Friday even if the cut is rough.
+
+The description overlap with key_concept may be fuzzy. The description says "notes are inventory" while the key concept says "notes are inventory, not the product." I will check the overlap logic.
+</details></think>
+
+_**Agent (grok-4.5)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "contextAfter": 40,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py",
+  "pattern": "def key_concept_overlaps_description"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py",
+  "pattern": "def key_concept_overlaps_description",
+  "topFiles": [
+    {
+      "matchCount": 41,
+      "uri": "scripts/notes_content.py"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (grok-4.5)**_
+
+<think><details><summary>Thought Process</summary>
+Level 5 bullet overlaps with the description start. I'll reword it to avoid that phrase.
+
+The description is 21 words. I'll trim it to 20.
+
+The trimmed description is 17 words. KC line 1 and Level 2 still repeat the full description, so those need changing too. The two shareable bullets are identical and must be split into different angles.
+
+The first shareable bullet will be the description. The second will be the Level 5 text. The third will be a new KC quote about unseen character, or Level 4's private-standard angle.
+</details></think>
+
+_**Agent (grok-4.5)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/creative-output.md</summary>
+
+</details></tool-use>
+
+_**Agent (grok-4.5)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+The string to replace was not found in the file.
+</details></tool-use>
+
+_**Agent (grok-4.5)**_
+
+<think><details><summary>Thought Process</summary>
+Correcting a typo in the old string before updating integrity.
+</details></think>
+
+_**Agent (grok-4.5)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/integrity-without-an-audience.md</summary>
+
+</details></tool-use>
+
+_**Agent (grok-4.5)**_
+
+<think><details><summary>Thought Process</summary>
+The integrity shareable[1] entry will pull from the description field. The updated description text now includes the required phrase, so substring matching should cover it.
+
+Shareable[0] and shareable[3] both match their key_concept lines. The integrity description contains exactly 16 words. Re-running lint and verifying digital-garden shareables after the description change.
+</details></think>
+
+_**Agent (grok-4.5)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: eval &#34;$(mise activate bash)&#34;; pnpm lint:garden 2&gt;&amp;1; echo EXIT:$?</summary>
+```bash
+eval "$(mise activate bash)"; pnpm lint:garden 2>&1; echo EXIT:$?
+```
+
+```
+$ python3 scripts/lint-notes-frontmatter.py && python3 scripts/normalize-notes-format.py --verify && python3 scripts/lint-flashcard-frontmatter.py && python3 scripts/audit-flashcard-north-star.py && python3 scripts/lint-utility-wikilinks.py && python3 scripts/voice-lint.py garden --check && python3 scripts/voice-lint.py slop --check --notes-only
+Note frontmatter lint OK
+Flashcard frontmatter OK
+Flashcard north-star audit issues:
+  content/english/notes/assurance.md [telegraphy-front] front=Picture judgment seat - panic heaven might get revoked.… back=Salvation at faith - works reviewed afte…
+  content/english/notes/assurance.md [telegraphy-front] front=Guilt looping even though I memorized the verse - shame… back=Nothing from God's love in Christ.…
+  content/english/notes/christlikeness.md [telegraphy-front] front=Same temper after conversion - feels like faith didn't … back=Reshaping slowly - standing settled at f…
+  content/english/notes/christlikeness.md [telegraphy-front] front=Trying to look holy enough to feel saved - performance … back=Justified at faith - likeness follows.…
+  content/english/notes/christlikeness.md [telegraphy-front] front=Forcing patience by willpower with almost no prayer thi… back=Abide first - likeness from the vine.…
+  content/english/notes/creative-output.md [telegraphy-front] front=Friday film day - everyone shows one rough clip. My not… back=Publish one rough piece too.…
+  content/english/notes/creative-output.md [telegraphy-front] front=Dinner's ready and I'm waiting for perfect photos befor… back=Serve it - don't polish the post.…
+  content/english/notes/creative-output.md [telegraphy-front] front=Friday film day - everyone shows rough clip but my note… back=Ship one rough piece - inventory is not …
+  content/english/notes/creative-output.md [telegraphy-front] front=Perfect photos blocking dinner - family waiting. What i… back=Serve food - polish the post later.…
+  content/english/notes/digital-garden.md [telegraphy-front] front=Pl
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (grok-4.5)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/digital-garden.md</summary>
+
+</details></tool-use>
+
+_**Agent (grok-4.5)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/discipleship-vs-leadership.md</summary>
+
+</details></tool-use>
+
+_**Agent (grok-4.5)**_
+
+<think><details><summary>Thought Process</summary>
+Contraction expansion ran on the entire frontmatter, including cards. Flashcard fronts now read "What is the move?" instead of "What's the move?". The north-star audit fails with 82 telegraphy-front issues.
+
+Cards may keep contractions. I'll revert only the card sections via git while preserving the frontmatter field fixes.
+</details></think>
+
+_**Agent (grok-4.5)**_
+
+Contraction expansion hit flashcards (allowed there). Reverting card changes and keeping frontmatter-only fixes.
+
+_**Agent (grok-4.5)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: eval &#34;$(mise activate bash)&#34;; git diff --stat content/english/notes/ | head -40; echo &#39;---&#39;; git diff content/english/notes/name-the-feeling.md | rg -n &#34;What&#39;s|What is|here&#39;s|here is&#34; | head -40</summary>
+```bash
+eval "$(mise activate bash)"; git diff --stat content/english/notes/ | head -40; echo '---'; git diff content/english/notes/name-the-feeling.md | rg -n "What's|What is|here's|here is" | head -40
+```
+
+```
+ content/english/notes/assurance.md                 |  8 ++++----
+ content/english/notes/by-their-fruits.md           |  2 +-
+ content/english/notes/christlikeness.md            | 10 +++++-----
+ content/english/notes/creative-output.md           | 22 +++++++++++-----------
+ content/english/notes/digital-garden.md            | 12 ++++++------
+ .../english/notes/discipleship-vs-leadership.md    |  2 +-
+ content/english/notes/eternal-rewards.md           |  6 +++---
+ content/english/notes/finish-strong.md             | 12 ++++++------
+ content/english/notes/great-commission.md          |  8 ++++----
+ content/english/notes/gtd-vs-para.md               |  8 ++++----
+ content/english/notes/honest-self-awareness.md     |  8 ++++----
+ .../english/notes/integrity-without-an-audience.md | 18 +++++++++---------
+ content/english/notes/judge-not.md                 |  6 +++---
+ content/english/notes/justification.md             | 10 +++++-----
+ content/english/notes/local-first-software.md      |  4 ++--
+ content/english/notes/metadata-strategy.md         |  8 ++++----
+ content/english/notes/name-the-feeling.md          | 12 ++++++------
+ content/english/notes/network-analysis.md          | 14 +++++++-------
+ content/english/notes/not-my-will.md               | 16 ++++++++--------
+ content/english/notes/note-relationships.md        |  4 ++--
+ content/english/notes/peacemakers.md               |  4 ++--
+ .../english/notes/priorities-before-the-inbox.md   |  6 +++---
+ content/english/notes/reliability.md               | 12 ++++++------
+ content/english/notes/rollback-principle.md        |  6 +++---
+ content/english/notes/sanctification.md            | 10 +++++-----
+ content/english/notes/situational-control.md       | 14 +++++++-------
+ content/english/notes/slow-the-moment.md           | 12 ++++++------
+ content/english/notes/the-second-brain-workflow.md | 14 +++++++-------
+ .../english/notes/there-is-no-perfect-solution.md  | 16 ++++++++--------
+ 29 files changed, 142 insertions(
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (grok-4.5)**_
+
+<think><details><summary>Thought Process</summary>
+Writing a script to compare changed files against their original versions in git HEAD. It will extract frontmatter fields from the working tree and compare them with the original cards.
+
+A simpler approach emerged. Reconstruct each changed file by merging the current frontmatter with the original cards from git HEAD. This avoids complex diff logic.
+</details></think>
+
+_**Agent (grok-4.5)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: eval &#34;$(mise activate bash)&#34;; PYTHONPATH=scripts python3 - &lt;&lt;&#39;PY&#39;
+&#34;&#34;&#34;Restore cards from HEAD (contractions allowed); keep current non-card frontmatter fixes.&#34;&#34;&#34;
+import subprocess, re
+from pathlib import Path
+
+files = subprocess.check_output(
+    [&#39;git&#39;, &#39;diff&#39;, &#39;--name-only&#39;, &#39;--&#39;, &#39;content/english/notes/&#39;],
+    text=True,
+).strip().splitlines()
+
+def split_before_cards(fm_body: str):
+    &#34;&#34;&#34;fm_body is content inside --- ... --- without the fences.&#34;&#34;&#34;
+    # cards: starts a top-level key
+    m = re.search(r&#39;^(cards:\s*\n)&#39;, fm_body, re.M)
+    if not m:
+        return fm_body, None
+    return fm_body[:m.start()], fm_body[m.start():]
+
+restored = []
+for rel in files:
+    path = Path(rel)
+    current = path.read_text()
+    old = subprocess.check_output([&#39;git&#39;, &#39;show&#39;, f&#39;HEAD:{rel}&#39;], text=True)
+    cm = re.match(r&#39;^---\n(.*)\n---\n?(.*)$&#39;, current, re.DOTALL)
+    om = re.match(r&#39;^---\n(.*)\n---\n?(.*)$&#39;, old, re.DOTALL)
+    if not cm or not om:
+        raise SystemExit(f&#39;bad split {rel}&#39;)
+    cur_fm, cur_body = cm.group(1), cm.group(2)
+    old_fm, old_body = om.group(1), om.group(2)
+    cur_pre, _cur_cards = split_before_cards(cur_fm + &#39;\n&#39;)
+    old_pre, old_cards = split_before_cards(old_fm + &#39;\n&#39;)
+    if old_cards is None:
+        # no cards in old - keep current
+        continue
+    # keep cur_pre (trimmed), append old_cards
+    new_fm = cur_pre.rstrip() + &#39;\n&#39; + old_cards.rstrip() + &#39;\n&#39;
+    # preserve draft/other trailing keys after cards in current?
+    # usually cards is last before closing ---. Check if cur had keys after cards
+    if _cur_cards:
+        # keys after cards in current
+        after = re.split(r&#39;^cards:\s*\n(?:  .*\n|\n)*&#39;, _cur_cards, maxsplit=1)
+        # simpler: if old had trailing keys after cards, use old structure
+        pass
+    new_text = &#39;---\n&#39; + new_fm + &#39;---\n&#39; + cur_body
+    if not new_text.endswith(&#39;\n&#39;) and current.endswith(&#39;\n&#39;):
+        new_text += &#39;\n&#39;
+    # normalize: if current ended with ---\n\n keep similar
+    path.write_text(new_text)
+    restored.append(rel)
+
+print(f&#39;Restored cards on {len(restored)} files&#39;)
+for r in restored:
+    print(&#39; &#39;, r)
+PY</summary>
+```bash
+eval "$(mise activate bash)"; PYTHONPATH=scripts python3 - <<'PY'
+"""Restore cards from HEAD (contractions allowed); keep current non-card frontmatter fixes."""
+import subprocess, re
+from pathlib import Path
+
+files = subprocess.check_output(
+    ['git', 'diff', '--name-only', '--', 'content/english/notes/'],
+    text=True,
+).strip().splitlines()
+
+def split_before_cards(fm_body: str):
+    """fm_body is content inside --- ... --- without the fences."""
+    # cards: starts a top-level key
+    m = re.search(r'^(cards:\s*\n)', fm_body, re.M)
+    if not m:
+        return fm_body, None
+    return fm_body[:m.start()], fm_body[m.start():]
+
+restored = []
+for rel in files:
+    path = Path(rel)
+    current = path.read_text()
+    old = subprocess.check_output(['git', 'show', f'HEAD:{rel}'], text=True)
+    cm = re.match(r'^---\n(.*)\n---\n?(.*)$', current, re.DOTALL)
+    om = re.match(r'^---\n(.*)\n---\n?(.*)$', old, re.DOTALL)
+    if not cm or not om:
+        raise SystemExit(f'bad split {rel}')
+    cur_fm, cur_body = cm.group(1), cm.group(2)
+    old_fm, old_body = om.group(1), om.group(2)
+    cur_pre, _cur_cards = split_before_cards(cur_fm + '\n')
+    old_pre, old_cards = split_before_cards(old_fm + '\n')
+    if old_cards is None:
+        # no cards in old - keep current
+        continue
+    # keep cur_pre (trimmed), append old_cards
+    new_fm = cur_pre.rstrip() + '\n' + old_cards.rstrip() + '\n'
+    # preserve draft/other trailing keys after cards in current?
+    # usually cards is last before closing ---. Check if cur had keys after cards
+    if _cur_cards:
+        # keys after cards in current
+        after = re.split(r'^cards:\s*\n(?:  .*\n|\n)*', _cur_cards, maxsplit=1)
+        # simpler: if old had trailing keys after cards, use old structure
+        pass
+    new_text = '---\n' + new_fm + '---\n' + cur_body
+    if not new_text.endswith('\n') and current.endswith('\n'):
+        new_text += '\n'
+    # normalize: if current ended with ---\n\n keep similar
+    path.write_text(new_text)
+    restored.append(rel)
+
+print(f'Restored cards on {len(restored)} files')
+for r in restored:
+    print(' ', r)
+PY
+```
+
+```
+Restored cards on 29 files
+  content/english/notes/assurance.md
+  content/english/notes/by-their-fruits.md
+  content/english/notes/christlikeness.md
+  content/english/notes/creative-output.md
+  content/english/notes/digital-garden.md
+  content/english/notes/discipleship-vs-leadership.md
+  content/english/notes/eternal-rewards.md
+  content/english/notes/finish-strong.md
+  content/english/notes/great-commission.md
+  content/english/notes/gtd-vs-para.md
+  content/english/notes/honest-self-awareness.md
+  content/english/notes/integrity-without-an-audience.md
+  content/english/notes/judge-not.md
+  content/english/notes/justification.md
+  content/english/notes/local-first-software.md
+  content/english/notes/metadata-strategy.md
+  content/english/notes/name-the-feeling.md
+  content/english/notes/network-analysis.md
+  content/english/notes/not-my-will.md
+  content/english/notes/note-relationships.md
+  content/english/notes/peacemakers.md
+  content/english/notes/priorities-before-the-inbox.md
+  content/english/notes/reliability.md
+  content/english/notes/rollback-principle.md
+  content/english/notes/sanctification.md
+  content/english/notes/situational-control.md
+  content/english/notes/slow-the-moment.md
+  content/english/notes/the-second-brain-workflow.md
+  content/english/notes/there-is-no-perfect-solution.md
+
+```
+</details></tool-use>
+
+_**Agent (grok-4.5)**_
+
+<think><details><summary>Thought Process</summary>
+Checking whether the discipleship-vs-leadership card lost its Workplace tag during restoration. Tags precede cards, so the order should be safe.
+
+Verifying that creative-output and integrity fixes remain intact. Checking whether the restore script broke YAML structure or misplaced keys like draft: false.
+
+The split logic keeps draft: false in the old section because it runs from cards: to the end of the front matter. This means the key stays in the correct file even if it appears after cards.
+
+Keys between card_sets and cards were preserved from the current file. Now running lint.
+</details></think>
+
+_**Agent (grok-4.5)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: eval &#34;$(mise activate bash)&#34;; pnpm lint:garden 2&gt;&amp;1; echo EXIT:$?; PYTHONPATH=scripts python3 scripts/garden-voice-lint.py --self-check 2&gt;&amp;1</summary>
+```bash
+eval "$(mise activate bash)"; pnpm lint:garden 2>&1; echo EXIT:$?; PYTHONPATH=scripts python3 scripts/garden-voice-lint.py --self-check 2>&1
+```
+
+```
+$ python3 scripts/lint-notes-frontmatter.py && python3 scripts/normalize-notes-format.py --verify && python3 scripts/lint-flashcard-frontmatter.py && python3 scripts/audit-flashcard-north-star.py && python3 scripts/lint-utility-wikilinks.py && python3 scripts/voice-lint.py garden --check && python3 scripts/voice-lint.py slop --check --notes-only
+Note frontmatter lint OK
+Flashcard frontmatter OK
+Flashcard north-star audit OK
+Utility wikilinks OK
+Garden voice lint OK
+Slop lint OK
+EXIT:0
+garden-voice-lint self-check OK
+
+```
+</details></tool-use>
+
+_**Agent (grok-4.5)**_
+
+<think><details><summary>Thought Process</summary>
+Lint tightening will be encoded into the garden-voice skill. The self-improvement rule applies since this convention was improvised.
+
+The skill already forbids contractions and third-person description. Enforcing these rules in the linter does not qualify for encoding. No skill update is needed. I will update the todos and close the session.
+</details></think>
+
+_**Agent (grok-4.5)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="todo_write"><details>
+<summary>Tool use: **todo_write**</summary>
+
+Parameters:
+
+```json
+{
+  "merge": true
+}
+```
+Result:
+
+```json
+{
+  "finalTodos": [
+    {
+      "content": "Tighten garden-voice-lint for 's contractions + my/me in description",
+      "id": "1",
+      "status": "completed"
+    },
+    {
+      "content": "Fix ~18 notes with 's contractions in frontmatter",
+      "id": "2",
+      "status": "completed"
+    },
+    {
+      "content": "Rewrite 8 first-person descriptions to third-person",
+      "id": "3",
+      "status": "completed"
+    },
+    {
+      "content": "Fix discipleship-vs-leadership Workplace+bible conflict",
+      "id": "4",
+      "status": "completed"
+    },
+    {
+      "content": "Verify pnpm lint:garden clean",
+      "id": "5",
+      "status": "completed"
+    }
+  ],
+  "initialTodos": [
+    {
+      "content": "Tighten garden-voice-lint for 's contractions + my/me in description",
+      "id": "1",
+      "status": "in_progress"
+    },
+    {
+      "content": "Fix ~18 notes with 's contractions in frontmatter",
+      "id": "2",
+      "status": "pending"
+    },
+    {
+      "content": "Rewrite 8 first-person descriptions to third-person",
+      "id": "3",
+      "status": "pending"
+    },
+    {
+      "content": "Fix discipleship-vs-leadership Workplace+bible conflict",
+      "id": "4",
+      "status": "pending"
+    },
+    {
+      "content": "Verify pnpm lint:garden clean",
+      "id": "5",
+      "status": "pending"
+    }
+  ],
+  "success": true,
+  "wasMerge": true
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (grok-4.5)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: eval &#34;$(mise activate bash)&#34;; git diff --stat scripts/garden-voice-lint.py content/english/notes/ | tail -5; echo &#39;---&#39;; rg -n &#34;DESC_FIRST_PERSON|workplace-has-bible|&#39;s&#34; scripts/garden-voice-lint.py | head -20</summary>
+```bash
+eval "$(mise activate bash)"; git diff --stat scripts/garden-voice-lint.py content/english/notes/ | tail -5; echo '---'; rg -n "DESC_FIRST_PERSON|workplace-has-bible|'s" scripts/garden-voice-lint.py | head -20
+```
+
+```
+ content/english/notes/slow-the-moment.md           |  2 +-
+ content/english/notes/the-second-brain-workflow.md |  2 +-
+ .../english/notes/there-is-no-perfect-solution.md  |  4 ++--
+ scripts/garden-voice-lint.py                       | 22 +++++++++++++++++++---
+ 30 files changed, 72 insertions(+), 56 deletions(-)
+---
+22:# 's only on contraction bases (what's/it's) - not possessives (Christ's, week's)
+27:    r"(?:'t|'re|'ve|'ll|'d|'m|'s)\b",
+30:DESC_FIRST_PERSON = re.compile(r"\b(I|me|my)\b", re.I)
+115:        if DESC_FIRST_PERSON.search(desc):
+126:            issues.append(Issue(rel, "key_concept", "workplace-has-bible", path.stem))
+177:    assert CONTRACTION.search("what's underneath")
+178:    assert CONTRACTION.search("there's no audience")
+179:    assert CONTRACTION.search("it's the same")
+181:    assert not CONTRACTION.search("Christ's finished work")
+182:    assert not CONTRACTION.search("everyone else's urgency")
+183:    assert DESC_FIRST_PERSON.search("not my week's score")
+184:    assert DESC_FIRST_PERSON.search("God declared me righteous")
+185:    assert not DESC_FIRST_PERSON.search("God declares the believer righteous")
+
+```
+</details></tool-use>
+
+_**Agent (grok-4.5)**_
+
+<think><details><summary>Thought Process</summary>
+The requested changes are complete.
+</details></think>
+
+_**Agent (grok-4.5)**_
+
+Both done. `pnpm lint:garden` is clean.
+
+**Linter** (`scripts/garden-voice-lint.py`):
+- Catches `'s` contractions (`what's`, `there's`, `it's`…) without flagging possessives (`Christ's`)
+- Flags `I` / `me` / `my` in `description`
+- Flags Workplace-lane notes that have a bible shortcode or verse citation
+
+**Content** (29 notes):
+- Expanded frontmatter contractions (`what's` → `what is`, etc.); cards left alone
+- Rewrote first-person descriptions to third person
+- Dropped `Workplace` from `discipleship-vs-leadership.md` (keeps the verse; it’s a faith note)
+
+## Session close
+- Fixed: Soft garden-voice gaps closed and lint tightened so they stay closed
+- Encode: none
+- Open: clean

@@ -898,4 +898,44 @@ _**Agent (auto-low)**_
 ```bash
 cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:voice content/english/blog/__why-my-son-loves-toca-boca-world.md && pnpm lint:slop content/english/blog/__why-my-son-loves-toca-boca-world.md
 ```
+
+```
+$ node scripts/runPython.mjs scripts/voice-lint.py dashes --check && node scripts/runPython.mjs scripts/voice-lint.py site --check content/english/blog/__why-my-son-loves-toca-boca-world.md
+Voice dash lint OK
+Voice lint OK
+$ node scripts/runPython.mjs scripts/voice-lint.py slop --check content/english/blog/__why-my-son-loves-toca-boca-world.md
+Slop lint OK
+
+```
 </details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Preparing to expand on the Toca Boca World article, covering its awards and reasons for child popularity.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Expanded that section. It now covers:
+
+**Studio pitch:** digital toys, play designers, no levels/scores/ads in the original brand promise.
+
+**Why kids stuck:** open-ended stories, characters that travel between locations, deep customization, no stranger chat.
+
+**Why parents stuck:** sandbox not social network, toy not homework, no YouTube tutorial required, car-ride quiet.
+
+**Awards (verified):**
+- Apple **iPhone App of the Year 2021** (whole iPhone, not just kids)
+- **Kidscreen** Best Game App - Original (2022)
+- **Webby** (kids and family)
+- **Parents' Choice** (mentioned briefly)
+
+Framed through your lens - "my kid plays this instead of begging for YouTube" - and tied to why it shows up on Roblox-alternative lists.
+
+If the bullet lists feel too listicle for your taste, I can fold them into prose.
+
+## Session close
+- Fixed: Expanded "Why Toca Boca got big" with awards and kid/parent appeal
+- Encode: none
+- Open: Hero image still placeholder

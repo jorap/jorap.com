@@ -6,7 +6,7 @@ resource: "https://www.jorap.com/blog/consistent-ai-output-wordpress-builds/"
 tags: ["WordPress", "Developer Life", "AI Coding", "Cursor", "Workflow", "PHP", "Theme Development", "Documentation", "Prompt Engineering"]
 generated: { by: process:export-okf-blog-bundle, at: 2026-05-30T05:00:00Z }
 ---
-> **TL;DR**: Most of what you build repeats the same patterns. Have AI build the reusable code for that 80% - helpers, templates, scaffolding - so the next forty features look the same. Stop asking for one feature at a time. Ask for the system that makes every feature match.
+Ask the same AI for the same WordPress feature on Tuesday and Thursday and you'll get two versions that both work and neither match. That's the problem nobody warns you about.
 
 ## The thing nobody warns you about
 

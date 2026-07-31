@@ -657,9 +657,28 @@ Parameters:
   "url": "https://www.youtube.com/watch?v=_K_F_icxtrI"
 }
 ```
+Additional data:
+
+```json
+{
+  "reviewData": {
+    "isShowingInput": false,
+    "selectedOption": "run",
+    "status": "None"
+  }
+}
+```
+Result:
+
+```json
+{
+  "markdown": "The Master Prompt Method: Unlock AI’s Full Potential (Part 1) - YouTube\n\nThe Master Prompt Method: Unlock AI’s Full Potential (Part 1) - YouTube\n[](/)[](/)\n[About](https://www.youtube.com/about/)[Press](https://www.youtube.com/about/press/)[Copyright](https://www.youtube.com/about/copyright/)[Contact us](/t/contact_us/)[Creators](https://www.youtube.com/creators/)[Advertise](https://www.youtube.com/ads/)[Developers](https://developers.google.com/youtube)[Terms](/t/terms)[Privacy](/t/privacy)[Policy \u0026 Safety](https://www.youtube.com/about/policies/)[How YouTube works](https://www.youtube.com/howyoutubeworks?utm_campaign=ytgen\u0026utm_source=ythp\u0026utm_medium=LeftNav\u0026utm_content=txt\u0026u=https://www.youtube.com/howyoutubeworks?utm_source=ythp\u0026utm_medium=LeftNav\u0026utm_campaign=ytgen)[Test new features](/new)[NFL Sunday Ticket](https://tv.youtube.com/learn/nflsundayticket)\n\u0026copy; 2026 Google LLC",
+  "url": "https://www.youtube.com/watch?v=_K_F_icxtrI"
+}
+```
 User decision: **accepted**
 
-Status: **loading**
+Status: **completed**
 
 </details></tool-use>
 
@@ -675,9 +694,28 @@ Parameters:
   "url": "https://www.youtube.com/watch?v=D9DpUDntQRc"
 }
 ```
+Additional data:
+
+```json
+{
+  "reviewData": {
+    "isShowingInput": false,
+    "selectedOption": "run",
+    "status": "None"
+  }
+}
+```
+Result:
+
+```json
+{
+  "markdown": "The Master Prompt Method: Live Demo That Will 3X Your AI Productivity (Part 2) - YouTube\n\nThe Master Prompt Method: Live Demo That Will 3X Your AI Productivity (Part 2) - YouTube\n[](/)[](/)\n[About](https://www.youtube.com/about/)[Press](https://www.youtube.com/about/press/)[Copyright](https://www.youtube.com/about/copyright/)[Contact us](/t/contact_us/)[Creators](https://www.youtube.com/creators/)[Advertise](https://www.youtube.com/ads/)[Developers](https://developers.google.com/youtube)[Terms](/t/terms)[Privacy](/t/privacy)[Policy \u0026 Safety](https://www.youtube.com/about/policies/)[How YouTube works](https://www.youtube.com/howyoutubeworks?utm_campaign=ytgen\u0026utm_source=ythp\u0026utm_medium=LeftNav\u0026utm_content=txt\u0026u=https://www.youtube.com/howyoutubeworks?utm_source=ythp\u0026utm_medium=LeftNav\u0026utm_campaign=ytgen)[Test new features](/new)[NFL Sunday Ticket](https://tv.youtube.com/learn/nflsundayticket)\n\u0026copy; 2026 Google LLC",
+  "url": "https://www.youtube.com/watch?v=D9DpUDntQRc"
+}
+```
 User decision: **accepted**
 
-Status: **loading**
+Status: **completed**
 
 </details></tool-use>
 
@@ -688,4 +726,364 @@ _**Agent (auto-low)**_
 ```bash
 yt-dlp --print title --print description --print "%(channel)s" "https://www.youtube.com/watch?v=_K_F_icxtrI" "https://www.youtube.com/watch?v=D9DpUDntQRc" 2>&1
 ```
+
+```
+WARNING: [youtube] YouTube said: ERROR - Precondition check failed.
+WARNING: [youtube] HTTP Error 400: Bad Request. Retrying (1/3)...
+WARNING: [youtube] YouTube said: ERROR - Precondition check failed.
+WARNING: [youtube] HTTP Error 400: Bad Request. Retrying (2/3)...
+WARNING: [youtube] YouTube said: ERROR - Precondition check failed.
+WARNING: [youtube] HTTP Error 400: Bad Request. Retrying (3/3)...
+WARNING: [youtube] YouTube said: ERROR - Precondition check failed.
+WARNING: [youtube] Unable to download API page: HTTP Error 400: Bad Request (caused by <HTTPError 400: Bad Request>)
+WARNING: [youtube] YouTube said: ERROR - Precondition check failed.
+WARNING: [youtube] HTTP Error 400: Bad Request. Retrying (1/3)...
+WARNING: [youtube] YouTube said: ERROR - Precondition check failed.
+WARNING: [youtube] HTTP Error 400: Bad Request. Retrying (2/3)...
+WARNING: [youtube] YouTube said: ERROR - Precondition check failed.
+WARNING: [youtube] HTTP Error 400: Bad Request. Retrying (3/3)...
+WARNING: [youtube] YouTube said: ERROR - Precondition check failed.
+WARNING: [youtube] Unable to download API page: HTTP Error 400: Bad Request (caused by <HTTPError 400: Bad Request>)
+WARNING: Only images are available for download. use --list-formats to see them
+ERROR: [youtube] _K_F_icxtrI: Requested format is not available. Use --list-formats for a list of available formats
+WARNING: [youtube] YouTube said: ERROR - Precondition check failed.
+WARNING: [youtube] HTTP Error 400: Bad Request. Retrying (1/3)...
+WARNING: [youtube] YouTube said: ERROR - Precondition check failed.
+WARNING: [youtube] HTTP Error 400: Bad Request. Retrying (2/3)...
+WARNING: [youtube] YouTube said: ERROR - Precondition check failed.
+WARNING: [youtube] HTTP Error 400: Bad Request. Retrying (3/3)...
+WARNING: [youtube] YouTube said: ERROR - Precondition check failed.
+WARNING: [youtube] Unable to download API page: HTTP Error 400: Bad Request (caused by <HTTPError 400: Bad Request>)
+WARNING: [youtube] YouTube said: ERROR - Pr
+… (output truncated)
+```
 </details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+I've identified the first video title: "The Master Prompt Method: Unlock AI's Full Potential (Part 1)".
+
+The second video is "The Master Prompt Method: ive Demo That Will 3X Your AI Productivity (Part 2)". Both videos belong to Forte's Master Prompt Method series. I'll search for transcripts or detailed content from these specific videos.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
+<summary>Tool use: **web_search**</summary>
+
+Parameters:
+
+```json
+{
+  "searchTerm": "\"Master Prompt Method\" \"Unlock AI's Full Potential\" Part 1 Forte"
+}
+```
+Result:
+
+```json
+{
+  "isFinal": true,
+  "references": [
+    {
+      "chunk": "Links:\n1. [The Master Prompt Method: Build Your AI Operating System · Zoom · Luma](https://luma.com/5hjflyni)\n2. [The Master Prompt Method: Build Your AI Operating System](https://www.youtube.com/watch?v=yNpbnrlAFzA)\n3. [The Master Prompt Method: A Step-by-Step Guide to Unlocking AI's Full Potential  — FRANKI T](https://www.francescatabor.com/articles/2025/11/29/the-master-prompt-method-a-step-by-step-guide-to-unlocking-ais-full-potential)\n4. [Master Prompt Method : Turn AI into a Proactive Force for Growth - Geeky Gadgets](https://www.geeky-gadgets.com/the-master-prompt-method-unlock-ais-full-potential/)\n5. [Master Prompt Method: AI for Business Growth \u0026 Efficiency](https://gist.ly/youtube-summarizer/master-prompt-method-ai-for-business-growth-efficiency)\n\nSynthesis:\nThe Master Prompt Method is a strategic framework developed by Tiago Forte and Hayden Miyamoto to transform AI into a high-level business partner [1][2]. Instead of using fragmented, one-off prompts, you provide the AI with a comprehensive, living document containing deep context about your business, personal roles, team, culture, and operational protocols [3][4][5]. By feeding this knowledge base into AI tools up front, you allow the model to provide consistent, brand-aligned, and accurate outputs across all tasks [3][6][7]. The method emphasizes iterative refinement, treating the AI as an evolving operating system rather than a generic chatbot [3][4].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eThe Master Prompt Method: Build Your AI Operating System · Zoom · Luma\u003c/title\u003e\n\u003curl\u003ehttps://luma.com/5hjflyni\u003c/url\u003e\n\u003ccontent\u003e# The Master Prompt Method: Build Your AI Operating System\n...\n​Tiago Forte and serial entrepreneur Hayden Miyamoto will show you how to turn AI from a scattered set of tools into your most valuable employee—one that understands your business as well as 
+… (output truncated)
+```
+User decision: **accepted**
+
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
+<summary>Tool use: **web_search**</summary>
+
+Parameters:
+
+```json
+{
+  "searchTerm": "\"Master Prompt Method\" \"Live Demo\" \"3X Your AI Productivity\" Part 2 Forte"
+}
+```
+Result:
+
+```json
+{
+  "isFinal": true,
+  "references": [
+    {
+      "chunk": "Links:\n1. [The Master Prompt Method: Build Your AI Operating System](https://www.youtube.com/watch?v=yNpbnrlAFzA)\n2. [Forte Labs Newsletter](https://optin.fortelabs.co/posts)\n3. [Tiago Forte](https://tiagoforte.ruclips.net/)\n4. [The Master Prompt Method Unlock Ai S Full Potential Part 1](https://koha.stacksdiscovery.com/index/the-master-prompt-method-unlock-ai-s-full-potential-part-1)\n5. [Master Prompt Engineering – Build Smarter AI Apps with Lovable!](https://www.youtube.com/watch?v=IqWfKj4mUIo)\n\nSynthesis:\nThe Master Prompt Method is a productivity approach developed by Tiago Forte that involves providing an AI with all relevant personal or organizational context—such as your background, goals, and operational data—at the beginning of an interaction [1][2]. By moving this context upstream rather than relying on iterative, complex prompts, you enable the AI to make more accurate, personalized decisions for all subsequent tasks [1]. It is frequently taught alongside the PARA organizational system as part of a broader framework for building an AI-powered personal or business operating system [1][2].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eThe Master Prompt Method: Build Your AI Operating System\u003c/title\u003e\n\u003curl\u003ehttps://www.youtube.com/watch?v=yNpbnrlAFzA\u003c/url\u003e\n\u003ccontent\u003e# The Master Prompt Method: Build Your AI Operating System\n...\nTiago Forte and serial entrepreneur Hayden Miyamoto will show you how to turn AI from a scattered set of tools into your most valuable employee—one that understands your business as well as (or better than) you do.\n...\nIn this live workshop, he and Tiago will walk you through how it works and why it is the master key for maximizing the potential of AI.\n...\nvirtual workshop on the master prompt\n...\nOkay. The master prompt method is kind of simple in many ways. It's an approach to using AI, all AI that is pr
+… (output truncated)
+```
+User decision: **accepted**
+
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The first video is titled "The Master Prompt Method: Unlock AI's Full Potential (Part 1)".
+
+The second video is titled "The Master Prompt M: Live Demo That Will 3X Your AI Productivity (Part 2)". A third part about hiring was also noted. Transcripts for both videos will be fetched next.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="web_fetch"><details>
+<summary>Tool use: **web_fetch**</summary>
+
+Parameters:
+
+```json
+{
+  "url": "https://www.youtube.com/watch?v=_K_F_icxtrI"
+}
+```
+Additional data:
+
+```json
+{
+  "reviewData": {
+    "isShowingInput": false,
+    "selectedOption": "run",
+    "status": "None"
+  }
+}
+```
+Result:
+
+```json
+{
+  "markdown": "The Master Prompt Method: Unlock AI’s Full Potential (Part 1) - YouTube\n\nThe Master Prompt Method: Unlock AI’s Full Potential (Part 1) - YouTube\n[](/)[](/)\n[About](https://www.youtube.com/about/)[Press](https://www.youtube.com/about/press/)[Copyright](https://www.youtube.com/about/copyright/)[Contact us](/t/contact_us/)[Creators](https://www.youtube.com/creators/)[Advertise](https://www.youtube.com/ads/)[Developers](https://developers.google.com/youtube)[Terms](/t/terms)[Privacy](/t/privacy)[Policy \u0026 Safety](https://www.youtube.com/about/policies/)[How YouTube works](https://www.youtube.com/howyoutubeworks?utm_campaign=ytgen\u0026utm_source=ythp\u0026utm_medium=LeftNav\u0026utm_content=txt\u0026u=https://www.youtube.com/howyoutubeworks?utm_source=ythp\u0026utm_medium=LeftNav\u0026utm_campaign=ytgen)[Test new features](/new)[NFL Sunday Ticket](https://tv.youtube.com/learn/nflsundayticket)\n\u0026copy; 2026 Google LLC",
+  "url": "https://www.youtube.com/watch?v=_K_F_icxtrI"
+}
+```
+User decision: **accepted**
+
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="web_fetch"><details>
+<summary>Tool use: **web_fetch**</summary>
+
+Parameters:
+
+```json
+{
+  "url": "https://www.youtube.com/watch?v=D9DpUDntQRc"
+}
+```
+Additional data:
+
+```json
+{
+  "reviewData": {
+    "isShowingInput": false,
+    "selectedOption": "run",
+    "status": "None"
+  }
+}
+```
+Result:
+
+```json
+{
+  "markdown": "The Master Prompt Method: Live Demo That Will 3X Your AI Productivity (Part 2) - YouTube\n\nThe Master Prompt Method: Live Demo That Will 3X Your AI Productivity (Part 2) - YouTube\n[](/)[](/)\n[About](https://www.youtube.com/about/)[Press](https://www.youtube.com/about/press/)[Copyright](https://www.youtube.com/about/copyright/)[Contact us](/t/contact_us/)[Creators](https://www.youtube.com/creators/)[Advertise](https://www.youtube.com/ads/)[Developers](https://developers.google.com/youtube)[Terms](/t/terms)[Privacy](/t/privacy)[Policy \u0026 Safety](https://www.youtube.com/about/policies/)[How YouTube works](https://www.youtube.com/howyoutubeworks?utm_campaign=ytgen\u0026utm_source=ythp\u0026utm_medium=LeftNav\u0026utm_content=txt\u0026u=https://www.youtube.com/howyoutubeworks?utm_source=ythp\u0026utm_medium=LeftNav\u0026utm_campaign=ytgen)[Test new features](/new)[NFL Sunday Ticket](https://tv.youtube.com/learn/nflsundayticket)\n\u0026copy; 2026 Google LLC",
+  "url": "https://www.youtube.com/watch?v=D9DpUDntQRc"
+}
+```
+User decision: **accepted**
+
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/817aed07-4331-4e36-b187-50ebb7b976ec.txt</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The workshop video contains useful content.
+
+These two YouTube videos are condensed versions of the workshop. They introduce the Master Prompt Method. Key concept identified: provide all context upfront and all at once.
+
+The Master Prompt Method outperforms basic multi-step prompts. It relies on contextual knowledge rather than general AI training data. It targets operational paradigm shifts instead of minor efficiency gains. The full prompt spans roughly twenty to thirty pages. It covers personal details, company structure, sales funnels, metrics, teams, and core values.
+
+The Master Prompt Method uses trigger phrases and mini-programs. The first version follows six sections: personal details, company overview, ideal customer, people and KPIs, culture, and protocols. It is part of the EMPOWER operating system. The prompt becomes institutional knowledge when shared with the team. AI responses should be tested and corrected to refine accuracy.
+
+Claude Pro with personal preferences or project files is the recommended platform. The videos include live side-by-side demos of hiring and SOP generation. I will now attempt to fetch the specific Part 1 and Part 2 clips.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="web_fetch"><details>
+<summary>Tool use: **web_fetch**</summary>
+Fetch timed out while retrieving content
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
+<summary>Tool use: **web_search**</summary>
+
+Parameters:
+
+```json
+{
+  "searchTerm": "_K_F_icxtrI master prompt method part 1 chapters six sections"
+}
+```
+Result:
+
+```json
+{
+  "isFinal": true,
+  "references": [
+    {
+      "chunk": "Links:\n1. [The Master Prompt Method: Transforming AI into a Strategic Business Partner | Magica](https://magica.com/youtube-summarizer/the-master-prompt-method-transforming-ai-into-a-strategic-business-partner-_K_F_icxtrI)\n2. [The Master Prompt in a changing scenario – Anapoly Notebook](https://anapoly.co.uk/labs/the-master-prompt-in-a-changing-scenario/)\n3. [The Master Prompt Method: Build Your AI Operating System](https://www.youtube.com/watch?v=yNpbnrlAFzA)\n4. [The Master Prompt Method: A Step-by-Step Guide to Unlocking AI's Full Potential  — FRANKI T](https://www.francescatabor.com/articles/2025/11/29/the-master-prompt-method-a-step-by-step-guide-to-unlocking-ais-full-potential)\n5. [Master Prompt Method : Turn AI into a Proactive Force for Growth - Geeky Gadgets](https://www.geeky-gadgets.com/the-master-prompt-method-unlock-ais-full-potential/)\n\nSynthesis:\nThe Master Prompt Method, popularized by Hayden Miyamoto, is a framework for providing AI with comprehensive business and personal context upfront to serve as a strategic partner [1][2][3].\n\nThe method organizes context into six foundational sections stored in a document like a Google Doc [2][4]:\n\n1. Personal Information and AI Mandate: Your role, strengths, weaknesses, and specific instructions on how the AI should support you [2][4].\n2. Core Company Information: Details on products, services, and operations [2][4].\n3. Ideal Customer and Market Information: Analysis of your target audience, differentiators, and competitors [2][4].\n4. People and KPIs: Your team structure and the metrics used to measure success [2][4].\n5. Culture and Core Values: The organization’s mission, values, and long-term goals [2][4].\n6. Protocols: Embedded instructions or mini-programs (e.g., specific workflows for hiring or SOP creation) the AI triggers via shorthand commands [2][3][4].\n\nYou build this by iteratively refining the content with the AI’s help
+… (output truncated)
+```
+User decision: **accepted**
+
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Enough content gathered. Reviewing the Anapoly notebook article for Part 1/2 specifics before updating the skill files.
+
+Creating a dedicated master prompt reference from Parts 1 and 2. Updating SKILL.md to link the videos and incorporate the method. Adding the six V1 framework sections to master-prompt-sections.md. Key principles include upstream context, general versus contextual knowledge, operational versus transformational roles, and protocol-based triggers.
+
+Company-wide sharing with per-person customization at the top. Part 2 demos show that without the master prompt, outputs remain generic; with it, the AI asks five context-aware questions before generating artifacts. The test loop runs AI answers through the master prompt first, then human confirmation and correction. A proto master prompt uses iterative hypotheses. The questionnaire-to-generate workflow applies to examples like AI hiring and AI SOP. Protocols must stay as executable mini-programs; long-term strategy belongs elsewhere. JoRap protocols map to Cursor slash commands and triggered workflows.
+
+Per-person top sections map to user rules. The company base maps to project rules or a shared master file. The Part 2 demo contrasts an empty Claude session against one loaded with the master prompt. SKILL.md will stay under 500 lines by moving detailed Part 1 and 2 content into master-prompt-method.mdd.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Adding the Master Prompt Method (Parts 1 & 2) as a reference file and updating the skill.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/personal-context-management/master-prompt-method.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/personal-context-management/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/personal-context-management/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/personal-context-management/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/personal-context-management/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/personal-context-management/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/personal-context-management/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Updating the master prompt sections to include the referenced YouTube videos.
+
+Cross-referencing the six V1 sections from Part 1 instead of duplicating them. Adding a brief introduction that points to master-prompt-method.md for the six-section business framework.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/personal-context-management/master-prompt-sections.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/personal-context-management/master-prompt-sections.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+I'll summarize the two YouTube videos you shared.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Done. Both Master Prompt Method videos are folded into the PCM skill.
+
+## What was added
+
+New reference file **`master-prompt-method.md`** covering Forte + Hayden Miyamoto from:
+
+- [Part 1: Unlock AI's Full Potential](https://www.youtube.com/watch?v=_K_F_icxtrI) — theory and structure  
+- [Part 2: Live Demo / 3X Productivity](https://www.youtube.com/watch?v=D9DpUDntQRc) — before/after demos
+
+### Key concepts from Parts 1 & 2
+
+| Concept | Takeaway |
+|---------|----------|
+| **Upstream context** | Load everything once at the start — not fancy per-chat prompts |
+| **General vs contextual knowledge** | You can't change training data; contextual knowledge is the lever |
+| **Six V1 sections** | Personal + AI mandate → company → ICP → people/KPIs → culture → **protocols** |
+| **Protocols** | Trigger phrases (`AI hiring`, `AI SOP`) that run mini-programs on the shared base |
+| **Company base + personal header** | Shared org doc; top section per role |
+| **Part 2 demo** | Without MP = generic; with MP = confirm-or-correct Q&A, then real artifacts with your metrics and names |
+
+### JoRap mapping
+
+Cursor **skills** = protocols (`ai-writing-system`, `jorap-voice`, `alex-eala-tracker-update`, etc.). Rules + author-context = persistent layer. No need for one 30-page paste unless you're exporting to Claude/ChatGPT.
+
+`SKILL.md` and `master-prompt-sections.md` now cross-link the PCM video and both Master Prompt Method parts.
+
+## Session close
+- Fixed: Incorporated Master Prompt Method Parts 1 & 2 into PCM skill via `master-prompt-method.md`
+- Encode: none
+- Open: clean

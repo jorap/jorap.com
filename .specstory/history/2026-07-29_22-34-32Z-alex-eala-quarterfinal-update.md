@@ -822,3 +822,130 @@ OK: sections swapped
 
 ```
 </details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The skill file documents page section order. It needs updating too. The anti-slop rule forbids renaming H2H sections.
+
+The skill file must be updated to match the new section order. Verifying the file structure comes first.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md",
+  "pattern": "^## "
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md",
+  "pattern": "^## ",
+  "topFiles": [
+    {
+      "matchCount": 9,
+      "uri": "content/english/blog/alex-eala-pro-career-tracker.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 9
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "contextAfter": 15,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/SKILL.md",
+  "pattern": "Page section order"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/SKILL.md",
+  "pattern": "Page section order",
+  "topFiles": [
+    {
+      "matchCount": 16,
+      "uri": ".cursor/skills/alex-eala-tracker-update/SKILL.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Updating the skill to reflect the new section order.
+
+Bumping lastmod to reflect the structural change. Verifying the Best Performances introduction near line 131.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/SKILL.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The section order is now correct.
+
+Updated the skill for future updates. A session close block is needed.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Reordered the tracker so **Grand Slam Main Draw Results** sits right after **WTA Rankings**, before **Best Performances in WTA Tournaments**. Updated the Best Performances intro to say “Slams are in the section above,” and synced the section order in the alex-eala-tracker-update skill so future edits keep this layout.
+
+## Session close
+- Fixed: Grand Slam section now precedes Best Performances; skill section-order list updated.
+- Encode: alex-eala-tracker-update skill (section order)
+- Open: clean

@@ -2558,5 +2558,208 @@ The slug is cross-platform-software. The portable-software note will gain a wiki
 
 Cross-platform software extends portable software because Windows portable came first. It also extends freedom over free and inspectable stack. The relationship direction is being finalized. The open-source note will be skipped to avoid becoming a hub.
 
-The cross-platform note will cite open source in its key concept without heavy linking to the Open Source note. It will extend
+The cross-platform note will cite open source in its key concept without heavy linking to the Open Source note. It will extend Community Depth, since open projects ship binaries for all three operating systems. The portable-software note will state that the OS count rose after portable taught folder ownership.
+
+Six cards are planned. They cover portable tools, shared Hugo folders, and Beyond Compare exceptions. Rules include avoiding .com domains, single-sentence examples, and multi-period punctuation. The description is 14 words, third-person, and under 20 words with no wikilinks. Four shareable thoughts will follow. Lint runs after.
 </details></think>
+
+_**Agent (auto-low)**_
+
+Creating a cross-platform peer note and wiring it into the portable/open-source cluster.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/cross-platform-software.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/portable-software.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/portable-software.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/inspectable-stack.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/community-depth.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/permission-scales.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__portable-cross-platform-software.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-focused-on-open-source.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Fixing relationship sorting on updated files.
+
+Running lint:garden. Checking if alphabetizing relationships correctly places Cross-Platform before Future-Proofing.
+
+Confirmed portable-software relationships sort correctly by type and wikilink. Extends precede implements. Running lint.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm lint:garden 2&gt;&amp;1 | tail -25</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:garden 2>&1 | tail -25
+```
+
+```
+$ node scripts/runPython.mjs scripts/lint-notes-frontmatter.py && node scripts/runPython.mjs scripts/normalize-notes-format.py --verify && node scripts/runPython.mjs scripts/lint-flashcard-frontmatter.py && node scripts/runPython.mjs scripts/audit-flashcard-north-star.py && node scripts/runPython.mjs scripts/lint-utility-wikilinks.py && node scripts/runPython.mjs scripts/voice-lint.py garden --check && node scripts/runPython.mjs scripts/voice-lint.py slop --check --notes-only
+Note frontmatter lint OK
+FAIL unsorted rel permission-scales.md
+[ELIFECYCLE] Command failed with exit code 1.
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Fixing the order of relationships between permission scales.
+
+Reading the current state.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/permission-scales.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Cross-platform support should come before freedom over free alphabetically.
+
+The final order is Cross-Platform Software, then Freedom OFree, then Learn Hireable Stacks, then Teachable Stackver.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/permission-scales.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm lint:garden 2&gt;&amp;1 | tail -8</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:garden 2>&1 | tail -8
+```
+
+```
+Note frontmatter lint OK
+Flashcard frontmatter OK
+Flashcard north-star audit issues:
+  content/english/notes/cross-platform-software.md [fragment-back] front=New laptop arrives with a different OS logo - Hugo fold… back=Same build command - one skill, many mac…
+  content/english/notes/cross-platform-software.md [fragment-back] front=Shopping for a diff tool before reconciling client them… back=Same shortcuts on both OSes - paid is fi…
+
+2 issue(s) in garden flashcards
+[ELIFECYCLE] Command failed with exit code 1.
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Identifying a pattern for cross-platform note software compatible with Mac, Windows, and Linux.
+
+Drafting card back examples for the note. One suggests running Hugo identically across all operating systems. Another recommends buying one diff tool compatible with both Mac and Windows.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/cross-platform-software.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm lint:garden 2&gt;&amp;1 | tail -8</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:garden 2>&1 | tail -8
+```
+
+```
+$ node scripts/runPython.mjs scripts/lint-notes-frontmatter.py && node scripts/runPython.mjs scripts/normalize-notes-format.py --verify && node scripts/runPython.mjs scripts/lint-flashcard-frontmatter.py && node scripts/runPython.mjs scripts/audit-flashcard-north-star.py && node scripts/runPython.mjs scripts/lint-utility-wikilinks.py && node scripts/runPython.mjs scripts/voice-lint.py garden --check && node scripts/runPython.mjs scripts/voice-lint.py slop --check --notes-only
+Note frontmatter lint OK
+Flashcard frontmatter OK
+Flashcard north-star audit OK
+Utility wikilinks OK
+Garden voice lint OK
+Slop lint OK
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Preparing a cross-platform note about software compatible with Mac, Windows, and Linux.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Created **Cross-Platform Software** (`cross-platform-software.md`) — one skill across Mac, Windows, and Linux, with open-source benches usually shipping all three builds. Beyond Compare is the named paid exception for diffs.
+
+**Connections added:**
+
+| Note | Link |
+|------|------|
+| **Cross-Platform Software** | extends Portable Software, Freedom Over Free, Inspectable Stack, Community Depth |
+| **Portable Software** | extends Cross-Platform Software (Windows portable first, three OSes later) |
+| **Inspectable Stack** | extends Cross-Platform Software (move test includes the next machine) |
+| **Community Depth** | extends Cross-Platform Software (benches ship every OS build) |
+| **Permission Scales** | extends Cross-Platform Software (global zip, local OS mix) |
+
+Blog `related_notes` updated on the open-source and portable draft posts. `pnpm lint:garden` passes.
+
+## Session close
+- Fixed: New Cross-Platform Software peer note wired into portable/inspectable/community cluster
+- Encode: none
+- Open: clean (uncommitted)

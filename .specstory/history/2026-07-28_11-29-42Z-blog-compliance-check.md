@@ -10,7 +10,7 @@ check all blogs if it follows /jorap-voice
 
 ---
 
-_**Agent (grok-4.5)**_
+_**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
 Checking all blog posts against the jorap-voice skill. Starting by reading author-context.md.
@@ -18,18 +18,18 @@ Checking all blog posts against the jorap-voice skill. Starting by reading autho
 Locating all blog posts next. Then running the voice and slop lint tools to assess each post against the skill criteria.
 </details></think>
 
-_**Agent (grok-4.5)**_
+_**Agent (auto-low)**_
 
 I'll audit the blog against JoRap voice: load author context, find every post, then run the voice/slop gates and spot-check against the skill checklist.
 
-_**Agent (grok-4.5)**_
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
 <summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/author-context.md</summary>
 
 </details></tool-use>
 
-_**Agent (grok-4.5)**_
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **67** results in **1** directory</summary>
@@ -107,7 +107,7 @@ Directory: **``** (67 files)
 | `content/english/blog/__hugo-shortcodes.md` |
 </details></tool-use>
 
-_**Agent (grok-4.5)**_
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
 <summary>Tool use: **run_terminal_command_v2** • Run command: pnpm lint:voice 2&gt;&amp;1; echo &#34;---&#34;; pnpm lint:slop 2&gt;&amp;1; echo &#34;---&#34;; pnpm lint:blog 2&gt;&amp;1</summary>
@@ -138,17 +138,17 @@ mise WARN  failed to write cache file: /home/j
 ```
 </details></tool-use>
 
-_**Agent (grok-4.5)**_
+_**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
 pnpm is missing in the sandbox. I'll check package.json for scripts and use mise or the correct path instead.
 </details></think>
 
-_**Agent (grok-4.5)**_
+_**Agent (auto-low)**_
 
 Need a working `pnpm` path, then I'll run the full voice/slop gates across the blog.
 
-_**Agent (grok-4.5)**_
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
@@ -184,7 +184,7 @@ Status: **completed**
 
 </details></tool-use>
 
-_**Agent (grok-4.5)**_
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
 <summary>Tool use: **run_terminal_command_v2** • Run command: eval &#34;$(mise activate bash)&#34; &amp;&amp; which pnpm &amp;&amp; pnpm lint:voice 2&gt;&amp;1; echo &#34;==== SLOP ====&#34;; pnpm lint:slop 2&gt;&amp;1; echo &#34;==== BLOG ====&#34;; pnpm lint:blog 2&gt;&amp;1</summary>
@@ -208,7 +208,7 @@ Slop lint OK
 ```
 </details></tool-use>
 
-_**Agent (grok-4.5)**_
+_**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
 Lint checks passed. Now scoring published posts against the voice skill.
@@ -218,11 +218,11 @@ The audit will distinguish published posts from drafts. It will flag structural 
 Weaker posts will be sent to human review.
 </details></think>
 
-_**Agent (grok-4.5)**_
+_**Agent (auto-low)**_
 
 Mechanical lints are clean. Next I'll score every post and scan for structural voice failures the linter may miss.
 
-_**Agent (grok-4.5)**_
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
 <summary>Tool use: **run_terminal_command_v2** • Run command: eval &#34;$(mise activate bash)&#34; &amp;&amp; python3 scripts/voice-lint.py score content/english/blog/*.md 2&gt;&amp;1 | sort -t$&#39;\t&#39; -k2 -nr 2&gt;/dev/null || python3 scripts/voice-lint.py score content/english/blog/ 2&gt;&amp;1</summary>
@@ -261,7 +261,7 @@ one-page-zine.md                         words=1222 total= 11 per100w=
 ```
 </details></tool-use>
 
-_**Agent (grok-4.5)**_
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
@@ -318,7 +318,7 @@ Status: **completed**
 
 </details></tool-use>
 
-_**Agent (grok-4.5)**_
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
@@ -431,7 +431,7 @@ Status: **completed**
 
 </details></tool-use>
 
-_**Agent (grok-4.5)**_
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
 <summary>Tool use: **run_terminal_command_v2** • Run command: eval &#34;$(mise activate bash)&#34; &amp;&amp; python3 scripts/voice-lint.py score --help 2&gt;&amp;1; head -80 scripts/voice-lint.py 2&gt;&amp;1 | head -100</summary>
@@ -516,7 +516,7 @@ if __name__ == "__main__
 ```
 </details></tool-use>
 
-_**Agent (grok-4.5)**_
+_**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
 All mechanical lints passed. Scores are below 2.0 per 100 words. The highest published score was noted.
@@ -524,11 +524,11 @@ All mechanical lints passed. Scores are below 2.0 per 100 words. The highest pub
 Published scores range from 1.04 to 1.45. Streamlining-games-and-sports is a draft. A deeper human voice audit is next. Explore agents will sample published posts against the voice checklist. Outline stubs will be checked too.
 </details></think>
 
-_**Agent (grok-4.5)**_
+_**Agent (auto-low)**_
 
 Mechanical gates pass. Spot-checking published posts and thin drafts against the human voice checklist next.
 
-_**Agent (grok-4.5)**_
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
 <summary>Tool use: **run_terminal_command_v2** • Run command: eval &#34;$(mise activate bash)&#34; &amp;&amp; cd content/english/blog &amp;&amp; for f in *.md; do
@@ -612,7 +612,7 @@ true	2186	Y	streamlining-games-and-sports.md
 ```
 </details></tool-use>
 
-_**Agent (grok-4.5)**_
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="unknown" data-tool-name="task_v2"><details>
 <summary>Tool use: **task_v2**</summary>
@@ -648,7 +648,7 @@ Status: **completed**
 
 </details></tool-use>
 
-_**Agent (grok-4.5)**_
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="unknown" data-tool-name="task_v2"><details>
 <summary>Tool use: **task_v2**</summary>
@@ -684,33 +684,33 @@ Status: **completed**
 
 </details></tool-use>
 
-_**Agent (grok-4.5)**_
+_**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
 mouse-wheel-click shows has_i = N in its first 400 characters. This tips post may violate the skill rule requiring I in that section.
 </details></think>
 
-_**Agent (grok-4.5)**_
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
 <summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/mouse-wheel-click.md</summary>
 
 </details></tool-use>
 
-_**Agent (grok-4.5)**_
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
 <summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/dnpap-song-resources.md</summary>
 
 </details></tool-use>
 
-_**Agent (grok-4.5)**_
+_**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
 The audit is complete. mouse-wheel is a reference tip post using the "you" address intentionally. This is not a FAIL under the skill rules. A clear verdict summary will follow.
 </details></think>
 
-_**Agent (grok-4.5)**_
+_**Agent (auto-low)**_
 
 **Verdict:** Published blogs follow `/jorap-voice`. Drafts are mixed — many are close; a tip/framework cluster still needs lived scenes.
 
@@ -756,7 +756,7 @@ proceed with outline and thin
 
 ---
 
-_**Agent (grok-4.5)**_
+_**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
 Proceeding to rewrite the OUTLINE and THIN draft blog posts to match jorap-voice standards.
@@ -766,60 +766,60 @@ The OUTLINE file `__mcgill-big-three.md` needs bullet formatting and a Further r
 Starting the full rewrite cycle across fourteen posts. I will read all drafts and reference posts in parallel, check the ledger for personal facts, and apply the seven-pass rewrite, likability lens, and voice check.
 </details></think>
 
-_**Agent (grok-4.5)**_
+_**Agent (auto-low)**_
 
 I'll rewrite the outline and thin drafts to voice-ready: load the skill workflow, read those posts plus reference voice, then expand each with lived scenes.
 
-_**Agent (grok-4.5)**_
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
 <summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
 
 </details></tool-use>
 
-_**Agent (grok-4.5)**_
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
 <summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__mcgill-big-three.md</summary>
 
 </details></tool-use>
 
-_**Agent (grok-4.5)**_
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
 <summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__hugo-page-bundles.md</summary>
 
 </details></tool-use>
 
-_**Agent (grok-4.5)**_
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
 <summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__hugo-shortcodes.md</summary>
 
 </details></tool-use>
 
-_**Agent (grok-4.5)**_
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
 <summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__hugo-static-site-generator.md</summary>
 
 </details></tool-use>
 
-_**Agent (grok-4.5)**_
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
 <summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__markdown-deep-dive.md</summary>
 
 </details></tool-use>
 
-_**Agent (grok-4.5)**_
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
 <summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__jobs-to-be-done-framework.md</summary>
 
 </details></tool-use>
 
-_**Agent (grok-4.5)**_
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="unknown" data-tool-name="todo_write"><details>
 <summary>Tool use: **todo_write**</summary>
@@ -869,76 +869,76 @@ Status: **completed**
 
 </details></tool-use>
 
-_**Agent (grok-4.5)**_
+_**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
 Continuing to review the remaining thin drafts, reference posts, and ledger sections for health, habits, and work stack.
 </details></think>
 
-_**Agent (grok-4.5)**_
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
 <summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__hugo-go-templates.md</summary>
 
 </details></tool-use>
 
-_**Agent (grok-4.5)**_
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
 <summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__sveltia-cms.md</summary>
 
 </details></tool-use>
 
-_**Agent (grok-4.5)**_
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
 <summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__craft-prompt-framework.md</summary>
 
 </details></tool-use>
 
-_**Agent (grok-4.5)**_
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
 <summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__markdown-formatting.md</summary>
 
 </details></tool-use>
 
-_**Agent (grok-4.5)**_
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
 <summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__tailwind-css-v4.md</summary>
 
 </details></tool-use>
 
-_**Agent (grok-4.5)**_
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
 <summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__native-hugo-taxonomies.md</summary>
 
 </details></tool-use>
 
-_**Agent (grok-4.5)**_
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
 <summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__immune-booster-supplements.md</summary>
 
 </details></tool-use>
 
-_**Agent (grok-4.5)**_
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
 <summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__how-to-create-a-good-habit.md</summary>
 
 </details></tool-use>
 
-_**Agent (grok-4.5)**_
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
 <summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/how-i-built-jorap-notes.md</summary>
 
 </details></tool-use>
 
-_**Agent (grok-4.5)**_
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
@@ -974,7 +974,7 @@ Status: **completed**
 
 </details></tool-use>
 
-_**Agent (grok-4.5)**_
+_**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
 Many thin drafts are already voice-ready. They contain personal threads that the audit had underestimated.
@@ -986,25 +986,25 @@ I will keep `draft: true`, avoid em dashes, and never invent ledger facts. I am 
 Jobs-to-be-done needs a client JTBD story. Sveltia needs a real pass-off use case. The Hugo tip cluster needs messy footgun scenes. Markdown pair needs deeper scenes. Tailwind needs a merge pain scene. Taxonomies needs a tag-mess story and a heading fix. I will read the client pass-off and the CRAFT cross-reference next.
 </details></think>
 
-_**Agent (grok-4.5)**_
+_**Agent (auto-low)**_
 
 Expanding McGill first (full prose rewrite), then deepening each thin draft with lived scenes from the ledger—no invented facts.
 
-_**Agent (grok-4.5)**_
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
 <summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__client-site-pass-off.md</summary>
 
 </details></tool-use>
 
-_**Agent (grok-4.5)**_
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
 <summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/mouse-wheel-click.md</summary>
 
 </details></tool-use>
 
-_**Agent (grok-4.5)**_
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
@@ -1073,7 +1073,7 @@ Status: **completed**
 
 </details></tool-use>
 
-_**Agent (grok-4.5)**_
+_**Agent (auto-low)**_
 
 <think><details><summary>Thought Process</summary>
 All 14 posts will be rewritten with draft mode enabled. The Sveltia entry needs correction: the pastor is a retainer, not Sveltia. JoRap’s admin page is on his own site.
@@ -1081,14 +1081,467 @@ All 14 posts will be rewritten with draft mode enabled. The Sveltia entry needs 
 McGill will be written first in first person. The remaining posts will follow via batched parallel writes. The Sveltia entry will reference JoRap’s admin panel and pastor retainer without inventing a fake client rollout.
 </details></think>
 
-_**Agent (grok-4.5)**_
+_**Agent (auto-low)**_
 
 Writing the McGill full rewrite, then expanding the thin drafts in batches.
 
-_**Agent (grok-4.5)**_
+_**Agent (auto-low)**_
 
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
 <summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__mcgill-big-three.md</summary>
-Status: **loading**
 
 </details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Writing the thin posts now. Each will be expanded meaningfully. Batches will run in parallel.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__hugo-page-bundles.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__hugo-shortcodes.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__hugo-static-site-generator.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__markdown-deep-dive.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__hugo-go-templates.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Proceeding with the remaining thin posts.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="todo_write"><details>
+<summary>Tool use: **todo_write**</summary>
+
+Parameters:
+
+```json
+{
+  "merge": true
+}
+```
+Result:
+
+```json
+{
+  "finalTodos": [
+    {
+      "content": "Rewrite OUTLINE: __mcgill-big-three.md",
+      "id": "1",
+      "status": "completed"
+    },
+    {
+      "content": "Rewrite THIN Hugo/Markdown cluster (7 posts)",
+      "id": "2",
+      "status": "completed"
+    },
+    {
+      "content": "Rewrite THIN frameworks/habits/immune (4 posts)",
+      "id": "3",
+      "status": "in_progress"
+    },
+    {
+      "content": "Rewrite THIN __sveltia-cms + __tailwind-css-v4",
+      "id": "4",
+      "status": "pending"
+    },
+    {
+      "content": "Score + lint all rewritten drafts",
+      "id": "5",
+      "status": "pending"
+    }
+  ],
+  "initialTodos": [
+    {
+      "content": "Rewrite OUTLINE: __mcgill-big-three.md",
+      "id": "1",
+      "status": "in_progress"
+    },
+    {
+      "content": "Rewrite THIN Hugo/Markdown cluster (7 posts)",
+      "id": "2",
+      "status": "pending"
+    },
+    {
+      "content": "Rewrite THIN frameworks/habits/immune (4 posts)",
+      "id": "3",
+      "status": "pending"
+    },
+    {
+      "content": "Rewrite THIN __sveltia-cms + __tailwind-css-v4",
+      "id": "4",
+      "status": "pending"
+    },
+    {
+      "content": "Score + lint all rewritten drafts",
+      "id": "5",
+      "status": "pending"
+    }
+  ],
+  "success": true,
+  "wasMerge": true
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__jobs-to-be-done-framework.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__sveltia-cms.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__craft-prompt-framework.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__markdown-formatting.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__tailwind-css-v4.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__native-hugo-taxonomies.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__immune-booster-supplements.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__how-to-create-a-good-habit.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Fixing a potential brace issue in the shortcodes delimiter example.
+
+The original file already contained the same shortcode syntax, so no correction is needed.
+
+The triple-brace shortcode syntax appears to be a display escape artifact rather than valid Hugo syntax. Standard Hugo uses `{{%/* ... */%}}` for comment escaping.
+
+Correcting the shortcodes delimiter example to standard `{{%/* shortcode */%}}` syntax. The pass-off link slug matches the draft filename. Next step is to run lint and score.
+
+Fixing the draft flag in the markdown-deep-dive frontmatter. Running scores and voice lint across all 14 files.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Fixing the shortcode delimiter typo, then scoring and linting all 14 drafts.
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__hugo-shortcodes.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: eval &#34;$(mise activate bash)&#34; &amp;&amp; FILES=(
+  content/english/blog/__mcgill-big-three.md
+  content/english/blog/__hugo-page-bundles.md
+  content/english/blog/__hugo-shortcodes.md
+  content/english/blog/__hugo-static-site-generator.md
+  content/english/blog/__markdown-deep-dive.md
+  content/english/blog/__hugo-go-templates.md
+  content/english/blog/__jobs-to-be-done-framework.md
+  content/english/blog/__sveltia-cms.md
+  content/english/blog/__craft-prompt-framework.md
+  content/english/blog/__markdown-formatting.md
+  content/english/blog/__tailwind-css-v4.md
+  content/english/blog/__native-hugo-taxonomies.md
+  content/english/blog/__immune-booster-supplements.md
+  content/english/blog/__how-to-create-a-good-habit.md
+) &amp;&amp; python3 scripts/voice-lint.py score &#34;${FILES[@]}&#34; &amp;&amp; echo &#34;==== LINT ====&#34; &amp;&amp; python3 scripts/voice-lint.py dashes --check -- &#34;${FILES[@]}&#34; 2&gt;&amp;1; python3 scripts/voice-lint.py site --check 2&gt;&amp;1 | tail -5; python3 scripts/voice-lint.py slop --check --blog-only 2&gt;&amp;1; python3 scripts/normalize-blog-frontmatter.py --verify 2&gt;&amp;1 | tail -3; rg -n &#39;—|–|Further reading|Bottom line|image-template|Expanded from|users should|it is recommended|\$[0-9]|₱&#39; &#34;${FILES[@]}&#34; || echo &#34;No blocker patterns&#34;</summary>
+```bash
+eval "$(mise activate bash)" && FILES=(
+  content/english/blog/__mcgill-big-three.md
+  content/english/blog/__hugo-page-bundles.md
+  content/english/blog/__hugo-shortcodes.md
+  content/english/blog/__hugo-static-site-generator.md
+  content/english/blog/__markdown-deep-dive.md
+  content/english/blog/__hugo-go-templates.md
+  content/english/blog/__jobs-to-be-done-framework.md
+  content/english/blog/__sveltia-cms.md
+  content/english/blog/__craft-prompt-framework.md
+  content/english/blog/__markdown-formatting.md
+  content/english/blog/__tailwind-css-v4.md
+  content/english/blog/__native-hugo-taxonomies.md
+  content/english/blog/__immune-booster-supplements.md
+  content/english/blog/__how-to-create-a-good-habit.md
+) && python3 scripts/voice-lint.py score "${FILES[@]}" && echo "==== LINT ====" && python3 scripts/voice-lint.py dashes --check -- "${FILES[@]}" 2>&1; python3 scripts/voice-lint.py site --check 2>&1 | tail -5; python3 scripts/voice-lint.py slop --check --blog-only 2>&1; python3 scripts/normalize-blog-frontmatter.py --verify 2>&1 | tail -3; rg -n '—|–|Further reading|Bottom line|image-template|Expanded from|users should|it is recommended|\$[0-9]|₱' "${FILES[@]}" || echo "No blocker patterns"
+```
+
+```
+python3: can't open file '/home/jorap/Documents/GitHub/jorap.com/content/english/blog/scripts/voice-lint.py': [Errno 2] No such file or directory
+python3: can't open file '/home/jorap/Documents/GitHub/jorap.com/content/english/blog/scripts/voice-lint.py': [Errno 2] No such file or directory
+python3: can't open file '/home/jorap/Documents/GitHub/jorap.com/content/english/blog/scripts/voice-lint.py': [Errno 2] No such file or directory
+python3: can't open file '/home/jorap/Documents/GitHub/jorap.com/content/english/blog/scripts/normalize-blog-frontmatter.py': [Errno 2] No such file or directory
+rg: content/english/blog/__mcgill-big-three.md: No such file or directory (os error 2)
+rg: content/english/blog/__hugo-page-bundles.md: No such file or directory (os error 2)
+rg: content/english/blog/__hugo-shortcodes.md: No such file or directory (os error 2)
+rg: content/english/blog/__hugo-static-site-generator.md: No such file or directory (os error 2)
+rg: content/english/blog/__markdown-deep-dive.md: No such file or directory (os error 2)
+rg: content/english/blog/__hugo-go-templates.md: No such file or directory (os error 2)
+rg: content/english/blog/__jobs-to-be-done-framework.md: No such file or directory (os error 2)
+rg: content/english/blog/__sveltia-cms.md: No such file or directory (os error 2)
+rg: content/english/blog/__craft-prompt-framework.md: No such file or directory (os error 2)
+rg: content/english/blog/__markdown-formatting.md: No such file or directory (os error 2)
+rg: content/english/blog/__tailwind-css-v4.md: No such file or directory (os error 2)
+rg: content/english/blog/__native-hugo-taxonomies.md: No such file or directory (os error 2)
+rg: content/english/blog/__immune-booster-supplements.md: No such file or directory (os error 2)
+rg: content/english/blog/__how-to-create-a-good-habit.md: No such file or directory (os error 2)
+No blocker patterns
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The working directory shifted to content/english/blog. I am returning to the repository root.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; eval &#34;$(mise activate bash)&#34; &amp;&amp; FILES=(
+  content/english/blog/__mcgill-big-three.md
+  content/english/blog/__hugo-page-bundles.md
+  content/english/blog/__hugo-shortcodes.md
+  content/english/blog/__hugo-static-site-generator.md
+  content/english/blog/__markdown-deep-dive.md
+  content/english/blog/__hugo-go-templates.md
+  content/english/blog/__jobs-to-be-done-framework.md
+  content/english/blog/__sveltia-cms.md
+  content/english/blog/__craft-prompt-framework.md
+  content/english/blog/__markdown-formatting.md
+  content/english/blog/__tailwind-css-v4.md
+  content/english/blog/__native-hugo-taxonomies.md
+  content/english/blog/__immune-booster-supplements.md
+  content/english/blog/__how-to-create-a-good-habit.md
+) &amp;&amp; python3 scripts/voice-lint.py score &#34;${FILES[@]}&#34; &amp;&amp; echo &#34;==== LINT ====&#34; &amp;&amp; pnpm lint:voice &amp;&amp; pnpm lint:slop &amp;&amp; pnpm lint:blog &amp;&amp; rg -n &#39;—|–|## Further reading|## Bottom line|image-template|Expanded from|users should|it is recommended&#39; &#34;${FILES[@]}&#34; || echo &#34;No blocker patterns in drafts&#34;</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && eval "$(mise activate bash)" && FILES=(
+  content/english/blog/__mcgill-big-three.md
+  content/english/blog/__hugo-page-bundles.md
+  content/english/blog/__hugo-shortcodes.md
+  content/english/blog/__hugo-static-site-generator.md
+  content/english/blog/__markdown-deep-dive.md
+  content/english/blog/__hugo-go-templates.md
+  content/english/blog/__jobs-to-be-done-framework.md
+  content/english/blog/__sveltia-cms.md
+  content/english/blog/__craft-prompt-framework.md
+  content/english/blog/__markdown-formatting.md
+  content/english/blog/__tailwind-css-v4.md
+  content/english/blog/__native-hugo-taxonomies.md
+  content/english/blog/__immune-booster-supplements.md
+  content/english/blog/__how-to-create-a-good-habit.md
+) && python3 scripts/voice-lint.py score "${FILES[@]}" && echo "==== LINT ====" && pnpm lint:voice && pnpm lint:slop && pnpm lint:blog && rg -n '—|–|## Further reading|## Bottom line|image-template|Expanded from|users should|it is recommended' "${FILES[@]}" || echo "No blocker patterns in drafts"
+```
+
+```
+__mcgill-big-three.md                    words= 777 total=  2 per100w=  0.26
+__hugo-page-bundles.md                   words= 490 total=  1 per100w=  0.20
+__hugo-shortcodes.md                     words= 490 total=  2 per100w=  0.41
+__hugo-static-site-generator.md          words= 527 total=  0 per100w=  0.00
+__markdown-deep-dive.md                  words= 449 total=  3 per100w=  0.67
+__hugo-go-templates.md                   words= 439 total=  4 per100w=  0.91
+__jobs-to-be-done-framework.md           words= 535 total=  3 per100w=  0.56
+__sveltia-cms.md                         words= 537 total=  2 per100w=  0.37
+__craft-prompt-framework.md              words= 374 total=  1 per100w=  0.27
+__markdown-formatting.md                 words= 478 total=  1 per100w=  0.21
+__tailwind-css-v4.md                     words= 432 total=  0 per100w=  0.00
+__native-hugo-taxonomies.md              words= 394 total=  0 per100w=  0.00
+__immune-booster-supplements.md          words= 454 total=  6 per100w=  1.32
+__how-to-create-a-good-habit.md          words= 424 total=  4 per100w=  0.94
+==== LINT ====
+$ python3 scripts/voice-lint.py dashes --check && python3 scripts/voice-lint.py site --check
+Voice dash lint OK
+Voice lint OK
+$ python3 scripts/voice-lint.py slop --check
+Slop lint OK
+$ python3 scripts/normalize-blog-frontmatter.py --verify && python3 scripts/voice-lint.py slop --check --blog-only
+Blog frontmatter OK
+Slop lint OK
+No blocker patterns in drafts
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+All scores remain under 2.0. Immune leads at 1.32. McGill reached 777 words with a 0.26 score. Marking todos complete.
+
+Session close required after file edits. Verified the pass-off link slug resolves correctly. Confirmed shortcodes won't execute. Done.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="todo_write"><details>
+<summary>Tool use: **todo_write**</summary>
+
+Parameters:
+
+```json
+{
+  "merge": true
+}
+```
+Result:
+
+```json
+{
+  "finalTodos": [
+    {
+      "content": "Rewrite OUTLINE: __mcgill-big-three.md",
+      "id": "1",
+      "status": "completed"
+    },
+    {
+      "content": "Rewrite THIN Hugo/Markdown cluster (7 posts)",
+      "id": "2",
+      "status": "completed"
+    },
+    {
+      "content": "Rewrite THIN frameworks/habits/immune (4 posts)",
+      "id": "3",
+      "status": "completed"
+    },
+    {
+      "content": "Rewrite THIN __sveltia-cms + __tailwind-css-v4",
+      "id": "4",
+      "status": "completed"
+    },
+    {
+      "content": "Score + lint all rewritten drafts",
+      "id": "5",
+      "status": "completed"
+    }
+  ],
+  "initialTodos": [
+    {
+      "content": "Rewrite OUTLINE: __mcgill-big-three.md",
+      "id": "1",
+      "status": "completed"
+    },
+    {
+      "content": "Rewrite THIN Hugo/Markdown cluster (7 posts)",
+      "id": "2",
+      "status": "completed"
+    },
+    {
+      "content": "Rewrite THIN frameworks/habits/immune (4 posts)",
+      "id": "3",
+      "status": "in_progress"
+    },
+    {
+      "content": "Rewrite THIN __sveltia-cms + __tailwind-css-v4",
+      "id": "4",
+      "status": "pending"
+    },
+    {
+      "content": "Score + lint all rewritten drafts",
+      "id": "5",
+      "status": "pending"
+    }
+  ],
+  "success": true,
+  "wasMerge": true
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Proceeding with the outline and thin.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Rewrote **14 drafts** (1 outline + 13 thin). All stay `draft: true`.
+
+### What changed
+| Was | File | Now |
+|-----|------|-----|
+| Outline | `__mcgill-big-three.md` | Full prose; lived fails per move; dropped `## Further reading` |
+| Thin | Hugo/Markdown cluster (7) | Footgun scenes (wrong delimiter, wrong template, orphan screenshots, dead wikilinks) |
+| Thin | JTBD, Sveltia, CRAFT, habit, immune, Tailwind, taxonomies | Client/pastor job story, pass-off lanes, oatmeal prompt, kitchen charger cheat, Shopee bundle almost-buy, tag cleanup |
+
+### Gates
+`lint:voice` / `lint:slop` / `lint:blog` clean. Slop scores **0.00–1.32** per100w (all ≤2.0). No Further reading, image-template, or Expanded-from left in this batch.
+
+Still drafts — no publish rename / `draft: false`. Say if you want a specific one shipped next.
+
+## Session close
+- Fixed: Expanded McGill outline + 13 thin drafts with lived scenes and voice passes
+- Encode: none
+- Open: drafts still unpublished; Apple/Xiaomi still need real hero images

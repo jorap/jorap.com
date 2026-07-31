@@ -60,7 +60,7 @@ My first push was one page and a broken favicon. I owned the URL before I owned 
 
 You don't need the full stack on day one. Domain, Git, static hosting is enough.
 
-Social media is a great lobby. It's a bad foundation. I still post links there, but the archive lives on my domain, in Git, on a build I control. The stack can be free. **Owning the files** is the part that compounds.
+Buy the domain first. Push one page to Git before you polish the design. Share the link on Facebook instead of writing the essay in the text box - that is the whole habit.
 
 ## Related garden notes
 

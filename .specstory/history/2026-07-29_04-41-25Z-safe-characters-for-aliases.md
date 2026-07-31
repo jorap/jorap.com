@@ -759,3 +759,1113 @@ Additional data:
 Status: **completed**
 
 </details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The node script failed to run properly. Node imported the wrong module, causing it to execute lint-filenames instead.
+
+The script's main function runs automatically on import. I'll need to invoke it directly rather than importing the module.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; node --input-type=module -e &#34;
+import { readFileSync, readdirSync } from &#39;node:fs&#39;;
+import { join } from &#39;node:path&#39;;
+
+const FORBIDDEN = new Set(&#39;&lt;&gt;:\&#34;|?*\\\\/&#39;);
+const RESERVED = new Set([&#39;CON&#39;,&#39;PRN&#39;,&#39;AUX&#39;,&#39;NUL&#39;,...Array.from({length:9},(_,i)=&gt;&#39;COM&#39;+(i+1)),...Array.from({length:9},(_,i)=&gt;&#39;LPT&#39;+(i+1))]);
+
+function checkComponent(name) {
+  const issues = [];
+  if (!name) issues.push(&#39;empty&#39;);
+  if (name !== name.trim()) issues.push(&#39;whitespace&#39;);
+  if (name.endsWith(&#39; &#39;) || name.endsWith(&#39;.&#39;)) issues.push(&#39;trailing space/dot&#39;);
+  for (const c of name) {
+    if (FORBIDDEN.has(c)) { issues.push(&#39;forbidden:&#39;+JSON.stringify(c)); break; }
+    if (c.charCodeAt(0) &lt; 32) { issues.push(&#39;control&#39;); break; }
+  }
+  let stem = name.includes(&#39;.&#39;) &amp;&amp; !name.startsWith(&#39;.&#39;) ? name.slice(0, name.lastIndexOf(&#39;.&#39;)) : name;
+  if (RESERVED.has(stem.toUpperCase())) issues.push(&#39;reserved:&#39;+stem.toUpperCase());
+  return issues;
+}
+
+function checkAlias(alias) {
+  const issues = [];
+  if (alias.includes(&#39;/&#39;) || alias.includes(&#39;\\\\&#39;)) issues.push(&#39;path separator in alias&#39;);
+  const trimmed = alias.replace(/^\/+|\/+$/g, &#39;&#39;);
+  const parts = trimmed.split(&#39;/&#39;);
+  for (const part of parts) {
+    if (!part) continue;
+    const pi = checkComponent(part);
+    issues.push(...pi.map(i =&gt; &#39;part &#39;+part+&#39;: &#39;+i));
+  }
+  if (!alias.includes(&#39;/&#39;)) {
+    const ci = checkComponent(alias);
+    issues.push(...ci);
+  }
+  return [...new Set(issues)];
+}
+
+const dirs = [&#39;content/english/notes&#39;, &#39;content/english/blog&#39;];
+const hits = [];
+
+for (const dir of dirs) {
+  for (const f of readdirSync(dir)) {
+    if (!f.endsWith(&#39;.md&#39;)) continue;
+    const path = join(dir, f);
+    const content = readFileSync(path, &#39;utf8&#39;);
+    const m = content.match(/^aliases:\s*(.+)$/m);
+    if (!m) continue;
+    const line = m[1].trim();
+    const items = line.match(/\&#34;([^\&#34;]*)\&#34;/g) || [];
+    for (const s of items) {
+      const alias = s.slice(1, -1);
+      const issues = checkAlias(alias);
+      if (issues.length) hits.push({ path, alias, issues });
+    }
+  }
+}
+
+hits.sort((a,b) =&gt; a.path.localeCompare(b.path));
+for (const h of hits) {
+  console.log(h.path);
+  console.log(&#39;  &#39; + JSON.stringify(h.alias));
+  console.log(&#39;  &#39; + h.issues.join(&#39;; &#39;));
+}
+console.log(&#39;--- Total unsafe aliases:&#39;, hits.length);
+&#34;
+</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && node --input-type=module -e "
+import { readFileSync, readdirSync } from 'node:fs';
+import { join } from 'node:path';
+
+const FORBIDDEN = new Set('<>:\"|?*\\\\/');
+const RESERVED = new Set(['CON','PRN','AUX','NUL',...Array.from({length:9},(_,i)=>'COM'+(i+1)),...Array.from({length:9},(_,i)=>'LPT'+(i+1))]);
+
+function checkComponent(name) {
+  const issues = [];
+  if (!name) issues.push('empty');
+  if (name !== name.trim()) issues.push('whitespace');
+  if (name.endsWith(' ') || name.endsWith('.')) issues.push('trailing space/dot');
+  for (const c of name) {
+    if (FORBIDDEN.has(c)) { issues.push('forbidden:'+JSON.stringify(c)); break; }
+    if (c.charCodeAt(0) < 32) { issues.push('control'); break; }
+  }
+  let stem = name.includes('.') && !name.startsWith('.') ? name.slice(0, name.lastIndexOf('.')) : name;
+  if (RESERVED.has(stem.toUpperCase())) issues.push('reserved:'+stem.toUpperCase());
+  return issues;
+}
+
+function checkAlias(alias) {
+  const issues = [];
+  if (alias.includes('/') || alias.includes('\\\\')) issues.push('path separator in alias');
+  const trimmed = alias.replace(/^\/+|\/+$/g, '');
+  const parts = trimmed.split('/');
+  for (const part of parts) {
+    if (!part) continue;
+    const pi = checkComponent(part);
+    issues.push(...pi.map(i => 'part '+part+': '+i));
+  }
+  if (!alias.includes('/')) {
+    const ci = checkComponent(alias);
+    issues.push(...ci);
+  }
+  return [...new Set(issues)];
+}
+
+const dirs = ['content/english/notes', 'content/english/blog'];
+const hits = [];
+
+for (const dir of dirs) {
+  for (const f of readdirSync(dir)) {
+    if (!f.endsWith('.md')) continue;
+    const path = join(dir, f);
+    const content = readFileSync(path, 'utf8');
+    const m = content.match(/^aliases:\s*(.+)$/m);
+    if (!m) continue;
+    const line = m[1].trim();
+    const items = line.match(/\"([^\"]*)\"/g) || [];
+    for (const s of items) {
+      const alias = s.slice(1, -1);
+      const issues = checkAlias(alias);
+      if (issues.length) hits.push({ path, alias, issues });
+    }
+  }
+}
+
+hits.sort((a,b) => a.path.localeCompare(b.path));
+for (const h of hits) {
+  console.log(h.path);
+  console.log('  ' + JSON.stringify(h.alias));
+  console.log('  ' + h.issues.join('; '));
+}
+console.log('--- Total unsafe aliases:', hits.length);
+"
+
+```
+
+```
+content/english/notes/bear-each-others-burdens.md
+  "Galatians 6:2"
+  part Galatians 6:2: forbidden:":"; forbidden:":"
+content/english/notes/blameless-after-action-review.md
+  "/notes/blameless-postmortem/"
+  path separator in alias
+content/english/notes/come-to-me-weary.md
+  "Matthew 11:28"
+  part Matthew 11:28: forbidden:":"; forbidden:":"
+content/english/notes/complete-the-cycle.md
+  "/notes/follow-through/"
+  path separator in alias
+content/english/notes/confess-to-one-another.md
+  "James 5:16"
+  part James 5:16: forbidden:":"; forbidden:":"
+content/english/notes/count-the-cost.md
+  "Luke 14:28"
+  part Luke 14:28: forbidden:":"; forbidden:":"
+content/english/notes/daily-notes.md
+  "/notes/interstitial-journaling/"
+  path separator in alias
+content/english/notes/energy-protects-judgment.md
+  "/notes/recovery/"
+  path separator in alias
+content/english/notes/father-forgive-them.md
+  "Luke 23:34 prayer"
+  part Luke 23:34 prayer: forbidden:":"; forbidden:":"
+content/english/notes/flashcards.md
+  "/notes/cards/"
+  path separator in alias
+content/english/notes/fruits-of-the-spirit.md
+  "Galatians 5:22-23 fruit"
+  part Galatians 5:22-23 fruit: forbidden:":"; forbidden:":"
+content/english/notes/glorify-your-name.md
+  "John 12:28 prayer"
+  part John 12:28 prayer: forbidden:":"; forbidden:":"
+content/english/notes/great-commission.md
+  "Matthew 28:18-20"
+  part Matthew 28:18-20: forbidden:":"; forbidden:":"
+content/english/notes/guard-your-heart.md
+  "Proverbs 4:23"
+  part Proverbs 4:23: forbidden:":"; forbidden:":"
+content/english/notes/integrity-without-an-audience.md
+  "/notes/integrity-when-no-ones-watching/"
+  path separator in alias
+content/english/notes/into-your-hands.md
+  "Luke 23:46 prayer"
+  part Luke 23:46 prayer: forbidden:":"; forbidden:":"
+content/english/notes/iron-sharpens-iron.md
+  "Proverbs 27:17"
+  part Proverbs 27:17: forbidden:":"; forbidden:":"
+content/english/notes/layered-reading.md
+  "/notes/progressive-layers/"
+  path separator in alias
+content/
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **1** result in **1** directory</summary>
+
+Directory: **``** (1 file)
+
+| File |
+|------|
+| `content/english/notes/block-recovery-time.md` |
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **1** directory</summary>
+
+Directory: **``** (0 files)
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **1** result in **1** directory</summary>
+
+Directory: **``** (1 file)
+
+| File |
+|------|
+| `content/english/notes/blameless-after-action-review.md` |
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **2** results in **1** directory</summary>
+
+Directory: **``** (2 files)
+
+| File |
+|------|
+| `content/english/notes/integrity-without-an-audience.md` |
+| `content/english/notes/integrity.md` |
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+I need to understand the user's intent.
+
+I will update safe-filenames.mdc to require safe characters for aliases too. Then I will review all blogs and notes aliases. Path-style aliases like `/notes/recovery/` should become kebab-case slugs without slashes. Bible verse aliases containing colons, such as `Romans 12:1`, must be replaced because colons are invalid on Windows filenames.
+
+Hugo may generate `public/Romans 12:1/index.html` during builds, which fails on Windows. Replacing colons with hyphens risks breaking garden linter wikilink matching. I need to verify whether aliases serve only Hugo redirects, or also wikilinks and linter matching.
+
+Path aliases like `/notes/cards/` likely preserve legacy URLs. Hugo may require relative paths without leading slashes. On Windows, Hugo builds directory structures for alias redirects.
+
+The alias `/notes/recovery/` points to `energy-protects-judgment.md`, which may be incorrect. `/notes/associative-linking/` correctly maps to `linking-by-meaning.md`. Slashes in path aliases create nested directories, while colons in values like `Romans 12:1` break Windows paths.
+
+I mapped the remaining path aliases to their target files. `/notes/progressive-layers/` points to la-reading.md. `/notes/progressive-summarization/` likely targets progressive-summarization.md. `/notes/cards/` maps to flashcards.md. `/notes/follow-through/` leads to complete-the-cycle.md. `/notes/blameless-postmortem/` goes to blameless-after-action-review.md. `/notes/integrity-when-no-ones-watching/` routes to integrity-without-an-audience.md. `/notes/interstitial-journaling/` resolves to daily-notes.md. Hugo aliases must be rewritten without forbidden characters.
+
+The scan flags any alias containing a slash, even inside a valid path segment like `notes/cards`. Aliases must therefore omit slashes, colons, and other unsafe characters entirely.
+
+Replacing slashes in path aliases would change the redirect URL. For example, `notes-cards` would redirect to `/notes-cards/` instead of `/notes/cards/`. These aliases were likely added intentionally to preserve legacy Obsidian paths. I should only remove slashes from aliases meant for wikilink matching, not for URL redirects. I will read a few files to confirm the context.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/flashcards.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/energy-protects-judgment.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/linking-by-meaning.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.{md,html,js,mjs,py}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "Romans 12:1|/notes/cards/|/notes/recovery/"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "Romans 12:1|/notes/cards/|/notes/recovery/",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "./.specstory/history/2026-07-29_04-41-25Z-safe-characters-for-aliases.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./.specstory/history/2026-07-27_02-14-40Z-okf-shortcode-processing.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "./.specstory/history/2026-07-27_01-54-31Z-bible-verse-context-widening.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/renewed-mind.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": "./content/english/notes/present-a-living-sacrifice.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/flashcards.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./scripts/notes_content.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./scripts/bible_shortcode.py"
+    },
+    {
+      "matchCount": 3,
+      "uri": "./content/english/notes/eternal-principles.md"
+    },
+    {
+      "matchCount": 50,
+      "uri": "./.specstory/history/2026-06-19_17-01-20Z-anki-flash-card-functionality.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./.specstory/history/2026-06-20_12-05-56Z-button-padding-consistency.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./.specstory/history/2026-07-10_05-58-29Z-jorap-voice-refinement.md"
+    },
+    {
+      "matchCount": 9,
+      "uri": "./.specstory/history/2026-07-10_01-09-33Z-bible-notes-review.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./.specstory/history/2026-06-19_17-18-56Z-flashcards-for-notes.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "./.specstory/history/2026-07-23_01-08-34Z-bible-verses-in-notes.md"
+    },
+    {
+      "matchCount": 7,
+      "uri": "./.specstory/history/2026-06-20_02-55-39Z-improving-memorization-of-definitions.md"
+    },
+    {
+      "matchCount": 8,
+      "uri": "./.specstory/history/2026-07-05_14-21-16Z-renewed-mind-connections.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "./.specstory/history/2026-06-20_06-30-33Z-shortening-names-of-notes.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./.specstory/history/2026-07-07_14-43-08Z-audit-jesus-quotes-in.md"
+    },
+    {
+      "matchCount": 21,
+      "uri": "./.specstory/history/2026-06-20_07-32-04Z-capture-md-format-explanation.md"
+    }
+  ],
+  "totalFiles": 58,
+  "totalMatches": 394
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Planning the fix strategy.
+
+Hugo normalizes slash aliases, so those likely aren't the problem. The real issue may be colons in aliases like `Romans 12:1`, which Windows rejects in filenames.
+
+Bible verse aliases like `Romans 12:1` would fail on Windows because Hugo tries to create files with colons in the path. Replacing the colon with a dash is one option, but removing these aliases entirely may be cleaner since the garden linter scans prose for alias text anyway.
+
+Changing the alias format won't affect the bible shortcode's rendered HTML, so the colon remains a Windows filename risk. I'll either remove these aliases entirely or replace colons with hyphens for URL safety.
+
+Slug-only aliases won't work. Hugo still needs the full path for redirects. The alias `/notes/cards/` must remain intact.
+
+Reconsidering whether slashes in aliases actually cause Windows problems. Each path component is valid on its own, so the slash itself may not be the real issue. The real danger likely comes from colons in bible verse aliases.
+
+Colons inside aliases become invalid single path segments on Windows. Slashes in path aliases are harmless because each segment is valid. Bible verse aliases should be replaced or removed.
+
+I will add a section to safe-filenames.mdc covering Hugo aliases. The rule will require aliases to follow the same safe-character constraints as filenames. I am weighing whether to restrict individual path segments or alias slugs.
+
+Each path component in an alias must be safe. Slashes are acceptable if every segment is valid. Colons in bible verse aliases are the real Windows problem.
+
+I will add alias linting to lint-filenames.mjs. Replacing colons with hyphens in bible verse aliases would break garden linter matching, since the linter scans prose for exact alias text. The aliases were added specifically so bible shortcode citations match linked notes.
+
+Removing bible verse colon aliases entirely is the safer choice. Changing them to hyphenated forms would break garden linter matching unless the linter is updated too. These aliases also cause Windows build issues and generate lint noise from rendered bible shortcodes. Other aliases on the same notes already cover the needed matches.
+
+Eleven affected files contain bible verse aliases with colons. Examples include bear-each-others-burdens.md, come-to-me-weary.md, and count-the-cost.md. These aliases will be removed entirely.
+
+Seven more files contain bible verse aliases with colons. These include present-a-living-sacrifice.md, renewed-mind.md, and thank-father-at-lazarus.md. Path aliases must also follow safe-character rules.
+
+The rule will treat path aliases as safe if every segment passes filename checks. Text aliases without slashes must pass checks on the entire string. Colons, asterisks, and question marks are banned from aliases.
+
+Blog aliases are already kebab-case and safe. Extending the linter to scan aliases is preferable to manual fixes. I will read lintNotes.mjs to follow the existing pattern.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/lintNotes.mjs</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content",
+  "pattern": "aliases:.*:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content",
+  "pattern": "aliases:.*:",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/bear-each-others-burdens.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/words-that-build-up.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/renewed-mind.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/thank-father-for-revelation.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/great-commission.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/fruits-of-the-spirit.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/confess-to-one-another.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/present-a-living-sacrifice.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/thank-father-at-lazarus.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/guard-your-heart.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/father-forgive-them.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/into-your-hands.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/come-to-me-weary.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/iron-sharpens-iron.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/trust-god-for-today.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/count-the-cost.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/walk-by-the-spirit.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/glorify-your-name.md"
+    }
+  ],
+  "totalFiles": 18,
+  "totalMatches": 18
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Bible verse aliases containing colons will be removed.
+
+Path aliases are safe when each segment is valid. The scan wrongly flagged them for slashes. Old redirects like `integrity-without-an-audience.md` and `complete-the-cycle.md` are harmless.
+
+Safe-filenames.mdc will gain a Hugo aliases section. Aliases become URL paths at build time. Forbidden characters break Windows builds. Each slash-separated segment must pass filename checks. Plain text aliases must pass checks on the full string.
+
+Bible references in aliases should use hyphens instead of colons, or be omitted entirely. Raw URLs containing forbidden characters must be avoided. The existing aliases already cover these cases, so removing colon aliases is the simplest fix. Apostrophes in aliases are safe on Windows. Extending lint-filenames to scan aliases would be useful.
+
+A minimal alias scanner will be added to lint-filenames.mjs. It will scan content/english/notes and content/english/blog for aliases in frontmatter. This makes local verification automatic.
+
+The alias scanner will split paths on slashes and validate each segment individually. Slashes inside aliases are only flagged when a segment itself contains invalid characters. The `80/20` alias is safe because both segments pass checks. Precise edits will follow once each file's aliases are reviewed.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Updating the rule and removing colon-bearing Bible-verse aliases; path-style aliases with safe segments stay. Extending the filename linter to catch unsafe aliases going forward.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/rules/safe-filenames.mdc</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-filenames.mjs</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Updating lint-filenames.mjs to scan aliases too.
+
+Adding `checkAlias` and `lintAliases` to scan aliases across notes and blog posts. Updating main to run both filename and alias checks. Fixing pareto alias formatting and removing colon aliases from all notes. Running batched content fixes.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-filenames.mjs</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-filenames.mjs</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-filenames.mjs</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-filenames.mjs</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The `gitTrackedFiles` function was accidentally removed and needs to be restored.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-filenames.mjs</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The gitTrackedFiles function header was accidentally removed and needs to be restored.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-filenames.mjs</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Fixing content files now. Removing colon bible aliases and correcting the Pareto 80/20 reference.
+
+Eight files need updates. Most require removing or reformatting colon bible references. The Matthew 28:18-20 range is fine. Galatians 5:22-23 needs a hyphen instead of a colon.
+
+Nine more files need updates. Several require removing colon bible aliases entirely. Others need the same colon-to-hyphen fix. The list continues through the remaining entries.
+
+The Pareto 80/20 reference becomes 80-20 Rule. Prayer aliases switch from colons to hyphens, e.g. Luke 10:21 prayer to Luke 10-21 prayer. Plain bible references get removed entirely.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Removing unsafe colon aliases from notes and fixing pareto's `80/20`.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "^aliases:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "^aliases:",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/there-is-no-perfect-solution.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/the-second-brain-workflow.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/slow-the-moment.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/situational-control.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/sanctification.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/rollback-principle.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/priorities-before-the-inbox.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/peacemakers.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/note-relationships.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/not-my-will.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/local-first-software.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/justification.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/judge-not.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/integrity-without-an-audience.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/honest-self-awareness.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/gtd-vs-para.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/great-commission.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/finish-strong.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/eternal-rewards.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/discipleship-vs-leadership.md"
+    }
+  ],
+  "totalFiles": 215,
+  "totalMatches": 215
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Preparing to batch-replace aliases across multiple files to enforce safe characters.
+
+Mapping out specific alias replacements. Removing redundant Bible references and converting verse ranges to hyphenated format.
+
+Continuing the alias cleanup. Removing redundant Bible references and converting verse ranges to hyphenated format. Grepping for the pareto-principle alias next.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/pareto-principle.md",
+  "pattern": "aliases:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/pareto-principle.md",
+  "pattern": "aliases:",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/pareto-principle.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Segments 80 and 20 are safe and won't trigger linter flags.
+
+Removing "80/20" from the rule text and keeping "80-20 Rule". Now batching all string replacements.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/bear-each-others-burdens.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/words-that-build-up.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/renewed-mind.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/thank-father-for-revelation.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/fruits-of-the-spirit.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/confess-to-one-another.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/present-a-living-sacrifice.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/thank-father-at-lazarus.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/guard-your-heart.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/father-forgive-them.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/into-your-hands.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/come-to-me-weary.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/iron-sharpens-iron.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/trust-god-for-today.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/count-the-cost.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/walk-by-the-spirit.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/glorify-your-name.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/pareto-principle.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The alias "Matthew 28:18-20" contains a colon. This violates safe filename rules and needs fixing.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/great-commission.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm test:filenames &amp;&amp; pnpm lint:filenames</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && pnpm test:filenames && pnpm lint:filenames
+```
+
+```
+$ node scripts/lint-filenames.mjs --self-check
+lint-filenames self-check OK (13 cases)
+$ node scripts/lint-filenames.mjs
+Git tracked: scanned 1560 path(s)
+No cross-platform unsafe path components found.
+Frontmatter aliases: scanned 352 path(s)
+No cross-platform unsafe aliass found.
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Fixing a typo in the output: "unsafe aliass" should be "unsafe aliases".
+
+The pluralization logic appends "s" directly to "alias", producing "aliass". I'll correct the string formatting to generate "aliases" properly.
+
+The pluralization bug appears in two spots in lint-filenames.mjs. I'll fix both by conditionally using "aliases" instead of appending "s" to "alias".
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-filenames.mjs</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/rules/safe-filenames.mdc</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Running a quick grep to verify no colon aliases remain in the content.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content",
+  "pattern": "aliases:.*:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content",
+  "pattern": "aliases:.*:",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm lint:filenames 2&gt;&amp;1 | tail -5</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:filenames 2>&1 | tail -5
+```
+
+```
+$ node scripts/lint-filenames.mjs
+Git tracked: scanned 1560 path(s)
+No cross-platform unsafe path components found.
+Frontmatter aliases: scanned 352 path(s)
+No cross-platform unsafe aliases found.
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+All blogs were reviewed. None contained unsafe aliases.
+
+352 files were scanned. Only notes had alias issues. Aliases now trigger lint errors. 19 notes had unsafe aliases. These used colons or slashes. 12 blog aliases were already safe. Path aliases remain valid.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Updated `safe-filenames.mdc` with a **Hugo frontmatter aliases** section: same forbidden characters as filenames, per-segment checks for URL-path aliases, hyphen form for Bible refs (`Romans 12-1` not `Romans 12:1`), and avoid slash ratios like `80/20` when they create odd redirect paths.
+
+Extended `scripts/lint-filenames.mjs` so `pnpm lint:filenames` scans aliases in `content/english/notes` and `content/english/blog` (352 files).
+
+### Review results
+
+**Blogs (12 with aliases):** all already safe — kebab-case slug redirects only.
+
+**Notes:** fixed **19** unsafe aliases:
+
+| Issue | Action |
+|--------|--------|
+| Bible refs with `:` (`Romans 12:1`, `Luke 23:34 prayer`, etc.) | Removed or hyphenated (`Luke 23-34 prayer`) |
+| `80/20` on [[pareto-principle]] | Removed; kept `80-20 Rule` |
+| Path aliases (`/notes/cards/`, `/notes/recovery/`, etc.) | **Kept** — each segment is safe |
+
+Colon-bearing verse aliases were the main Windows risk: Hugo treats them as path components, and `:` is invalid in Windows filenames. Plain-text aliases on the same notes (`living sacrifice`, `edifying speech`, etc.) still work for wikilinks.
+
+Verify anytime:
+
+```bash
+pnpm test:filenames
+pnpm lint:filenames
+```
+
+## Session close
+- Fixed: safe-filenames rule + alias lint; 19 note aliases sanitized; blogs were already clean.
+- Encode: none
+- Open: clean
