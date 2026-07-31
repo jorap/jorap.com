@@ -21,21 +21,21 @@ shareable_thought:
   - "Depth is per idea - not years of school."
   - "The Feynman Technique only stress-tests the first two rungs."
 relationships:
+  - type: contradicts
+    wikilink: "[[Spaced Repetition]]"
+    reason: "when flashcard recall mimics depth without Application or Systems"
+  - type: extends
+    wikilink: "[[Active Reading]]"
+    reason: "Layered reading feeds higher levels after capture"
   - type: extends
     wikilink: "[[Atomic Notes]]"
     reason: "One claim per note - each note's five levels map depth on that single idea"
   - type: extends
-    wikilink: "[[The Feynman Technique]]"
-    reason: "Plain teach-back is the honesty check at Definition and Explanation"
-  - type: extends
     wikilink: "[[Deliberate Practice]]"
     reason: "Train the level where you stall - not the rung you already own"
   - type: extends
-    wikilink: "[[Active Reading]]"
-    reason: "Layered reading feeds higher levels after capture"
-  - type: contradicts
-    wikilink: "[[Spaced Repetition]]"
-    reason: "when flashcard recall mimics depth without Application or Systems"
+    wikilink: "[[The Feynman Technique]]"
+    reason: "Plain teach-back is the honesty check at Definition and Explanation"
 slug: "depth-of-understanding"
 date: "2026-08-01 06:00:00+00:00"
 image: "/images/note.jpg"

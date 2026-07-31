@@ -10,7 +10,7 @@ key_concept: |
   {{< bible ref="Acts 7:9-19" >}}
   - **The Value of Joseph's Growth as a Leader** - Pit, prison, palace - each season forged admin skill and trust.
   {{< bible ref="Exodus 3:1-12" >}}
-  - **Moses Couldn't Skip the Development Process** - Forty years in Midian before the burning bush - God did not rush the shepherd.
+  - **Moses Could Not Skip the Development Process** - Forty years in Midian before the burning bush - God did not rush the shepherd.
   {{< bible ref="Acts 2:36-41" >}}
   - **It Took Time for Peter to Live Up to His Name** - Rock confession, courtyard denial, then three thousand baptized - process, not instant polish.
 level_1: "The law of process is that leadership compounds in hidden years."

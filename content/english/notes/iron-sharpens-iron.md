@@ -41,11 +41,11 @@ relationships:
     wikilink: "[[Give Useful Feedback]]"
     reason: "Feedback that lands is iron that actually sharpens"
   - type: extends
-    wikilink: "[[Law of Respect]]"
-    reason: "Jonathan's loyalty to stronger future king"
-  - type: extends
     wikilink: "[[Law of Inner Circle]]"
     reason: "Nathan and Hushai - counselors in the inner ring"
+  - type: extends
+    wikilink: "[[Law of Respect]]"
+    reason: "Jonathan's loyalty to stronger future king"
 slug: "iron-sharpens-iron"
 date: "2026-07-25 11:50:00+08:00"
 image: "/images/note.jpg"

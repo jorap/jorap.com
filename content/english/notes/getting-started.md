@@ -24,11 +24,11 @@ relationships:
     wikilink: "[[Maps of Content]]"
     reason: "when jumping into a hub beats reading onboarding first"
   - type: extends
-    wikilink: "[[Note Relationships]]"
-    reason: "Getting started teaches the garden rules that note relationships formalize with typed links"
-  - type: extends
     wikilink: "[[Depth of Understanding]]"
     reason: "Five level bullets in key_concept map recognize-to-create depth on each claim"
+  - type: extends
+    wikilink: "[[Note Relationships]]"
+    reason: "Getting started teaches the garden rules that note relationships formalize with typed links"
   - type: extends
     wikilink: "[[Reading the Garden]]"
     reason: "After garden rules - how to learn from what you read"

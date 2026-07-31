@@ -4,7 +4,7 @@ meta_title: "Weekly Review Checklists - Same Steps Every Sunday"
 description: "Weekly review works when the same short checklist runs every Sunday on purpose."
 key_concept: |
   - The checklist should be boring on purpose.
-  - [[Review]] and [[Quarterly Planning]] use the same rhythm at different spans.
+  - [Review](/notes/review/) and [[Quarterly Planning]] use the same rhythm at different spans.
   - Same steps every week: empty inbox, scan calendar, check projects, pick one express action.
   - Skip the fancy template - repeat the same short list even on travel weeks.
 level_1: "A weekly review checklist is the same short list of steps run every week on purpose."
