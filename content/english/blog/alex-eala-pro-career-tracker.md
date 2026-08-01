@@ -14,7 +14,7 @@ related_notes:
   - complete-the-cycle
 featured: false
 draft: false
-lastmod: "2026-07-31T12:30:00Z"
+lastmod: "2026-08-01T01:00:00Z"
 ---
 
 I've been following Alex Eala's career since her run at the **2025 Miami Open** - watching a Filipina rise through the WTA ranks in real time is something I never thought I'd get to do in my lifetime. This page is my running scrapbook for it. I update it when something happens worth pinning, not on a schedule.
@@ -141,7 +141,8 @@ Slams are in the section above. This is the week-to-week grind where the ranking
 - 2026
 
   - **Washington (WTA 500, Hard)**
-    - Quarterfinals
+    - Semifinals (vs Naomi Osaka)
+    - Quarterfinals, d. Elina Svitolina 6-3, 6-4 | [wtatennis.com](https://www.wtatennis.com/tournaments/1045/washington-dc/2026/scores/LS007) | [tennis.com](https://www.tennis.com/tournaments/mubadala-dc-open/matches/a-eala-vs-e-svitolina-2026-07-31)
     - Round of 16, d. Leylah Fernandez 6-2, 7-6(1) | [wtatennis.com](https://www.wtatennis.com/tournaments/1045/washington-dc/2026/scores/LS014) | [tennis.com](https://www.tennis.com/tournaments/mubadala-dc-open/matches/l-fernandez-vs-a-eala-2026-07-29)
     - Round of 32, d. Qinwen Zheng 4-6, 6-4, 6-1 | [wtatennis.com](https://www.wtatennis.com/tournaments/1045/washington-dc/2026/scores/LS029) | [tennis.com](https://www.tennis.com/tournaments/mubadala-dc-open/matches/a-eala-vs-q-zheng-2026-07-28)
 
@@ -640,6 +641,7 @@ Champions get the section above. These are the top-20 fixtures that haven't happ
 
 **Matches:**
 
+- **2026 Washington (Hard)** - Quarterfinals, WIN, 6-3, 6-4 | [wtatennis.com](https://www.wtatennis.com/tournaments/1045/washington-dc/2026/scores/LS007) | [tennis.com](https://www.tennis.com/tournaments/mubadala-dc-open/matches/a-eala-vs-e-svitolina-2026-07-31)
 - **2026 Berlin (Grass)** - Quarterfinals, WIN, 6-3, 6-4 | [wtatennis.com](https://www.wtatennis.com/tournaments/2012/berlin/2026/scores/LS007) | [tennis.com](https://www.tennis.com/tournaments/vanda-pharmaceuticals-berlin-tennis-open/matches/e-svitolina-vs-a-eala-2026-06-19)
 
 {{< youtube AdoeRVzt6FQ >}}
