@@ -3,7 +3,7 @@
 {{- if eq $page.Section "notes" -}}
   {{- $limit = site.Params.notes.related_posts_limit | default 3 -}}
 {{- end -}}
-{{- $related := partial "blog/related-posts-lookup.html" (dict "Context" $page "Limit" $limit) -}}
+{{- $related := partialCached "blog/related-posts-lookup.html" (dict "Context" $page "Limit" $limit) (printf "%s-%d" $page.RelPermalink $limit) -}}
 
 {{- with $related -}}
   <div class="section pb-0">

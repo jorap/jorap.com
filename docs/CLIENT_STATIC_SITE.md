@@ -50,24 +50,26 @@ edit markdown → git push → Cloudflare builds → live on CDN
 Production build must run Hugo with a cache dir so Cloudflare can reuse `.cache` between builds:
 
 - JoRap pattern: `scripts/deployBuild.mjs` runs `hugo --minify --cacheDir .cache` plus any pre-steps (Tailwind, CSP, etc.).
+- Point `[caches.images]` / `[caches.assets]` at `:cacheDir/...` in `hugo.toml` (not `resources/_gen`). Cloudflare only restores `.cache`; otherwise every deploy re-encodes all image variants.
 - Simple Hugo-only sites: `hugo --minify --cacheDir=$PWD/.cache`
 
 Pin tool versions. Version drift between laptop and Cloudflare is the most common deploy failure.
 
-### 5. DNS
+### 5. DNS and apex → www
 
-- [ ] Add **both** apex and `www` as custom domains in Pages (e.g. `jorap.com` and `www.jorap.com`).
-- [ ] Point domain DNS to Cloudflare (registrar or CF DNS).
-- [ ] Pick **www** or **apex** as canonical and redirect the other in `static/_redirects` (Hugo copies it to `public/_redirects`).
+**Preferred (Cloudflare-managed DNS):**
 
-JoRap pattern (apex → www):
+- [ ] Add the domain as a Cloudflare zone; point registrar nameservers to Cloudflare.
+- [ ] Attach **both** apex and `www` as Pages custom domains.
+- [ ] Pick **www** or apex as canonical; redirect the other with a Cloudflare Redirect Rule or Bulk Redirect (not Netlify-style `301!` in `_redirects` — Pages rejects `!` and absolute/domain-level sources).
 
-```
-http://example.com/* https://www.example.com/:splat 301!
-https://example.com/* https://www.example.com/:splat 301!
-```
+**JoRap today (apex still on SuperCP):**
 
-Both hostnames must be attached in Pages or the redirect target will 404.
+- [ ] `www` CNAME → `<project>.pages.dev` (Pages custom domain).
+- [ ] Apex A record stays on the old host; configure a **Permanent (301) wildcard** redirect there to `https://www.example.com` (cPanel → Redirects → Wild Card Redirect checked).
+- [ ] Use `static/_redirects` only for **same-site** path aliases. Do not put apex → www rules there — they never run for apex traffic and Pages logs them as invalid.
+
+See [`TROUBLESHOOTING.md`](./TROUBLESHOOTING.md#redirects-apex--www).
 
 ### 6. Optional CMS (`/admin`)
 

@@ -10,24 +10,54 @@ Common deploy, redirect, CMS, and build issues for JoRap Notes on Cloudflare Pag
 
 ### Symptom
 
-`https://jorap.com` returns 404 or serves without redirecting to `www`.
+`https://jorap.com` returns 404, or deep paths like `https://jorap.com/notes/` 404 while the root redirects.
+
+### How JoRap actually does it
+
+Apex DNS is **not** on Cloudflare Pages. `jorap.com` still resolves to the SuperCP / LiteSpeed host (`ns*.supercp.com`); only `www.jorap.com` CNAMEs to Pages (`jorapdotcom.pages.dev`).
+
+Cloudflare Pages `_redirects` **cannot** fix this:
+
+- Domain-level / absolute sources (`https://jorap.com/*`) are rejected.
+- The `301!` force suffix is Netlify-only; Pages accepts bare `301`.
+- Apex traffic never reaches the Pages project, so repo rules never run for it.
+
+Apex → www is a **hosting-panel redirect** on SuperCP (cPanel → Redirects):
+
+| Field | Value |
+| --- | --- |
+| Type | Permanent (301) |
+| Domain | `jorap.com` |
+| Redirects to | `https://www.jorap.com` |
+| www. redirection | Do Not Redirect www. |
+| Wild Card Redirect | **checked** (required so HTTPS deep paths redirect, not 404) |
+
+`static/_redirects` only holds **same-site** path aliases (flashcards, renamed notes/posts). See comments in that file.
 
 ### Checks
 
-1. **Both domains in Pages** - Workers & Pages → **jorap-com** → **Custom domains** must list `jorap.com` **and** `www.jorap.com`.
-2. **`static/_redirects`** - committed rules must copy to `public/_redirects` after `pnpm run deploy`. JoRap uses `301!` force redirects for apex → www.
-3. **Deploy includes the file** - inspect latest deployment → **Assets** → confirm `_redirects` exists at site root.
+```bash
+# Apex (SuperCP) - all should 301 → www with path preserved
+curl -sI https://jorap.com/ | head -5
+curl -sI https://jorap.com/notes/ | head -5
+
+# www (Pages)
+curl -sI https://www.jorap.com/ | head -5
+curl -sI https://www.jorap.com/notes/cards/ | head -5   # → /notes/flashcards/
+```
 
 ### Fix
 
-Add or restore apex rules in `static/_redirects`, redeploy, then test:
+1. SuperCP → Redirects → edit/create the `jorap.com` rule with **Wild Card Redirect** enabled.
+2. If HTTPS deep paths still 404 after that, put this in the apex site `.htaccess` (above WordPress rules):
 
-```bash
-curl -sI https://jorap.com/ | head -5   # expect 301 → www.jorap.com
-curl -sI https://www.jorap.com/ | head -5
+```apache
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^jorap\.com$ [NC]
+RewriteRule ^ https://www.jorap.com%{REQUEST_URI} [R=301,L,NE]
 ```
 
-If DNS is wrong, fix registrar/Cloudflare DNS before debugging redirects.
+Long-term option: move authoritative DNS to Cloudflare, attach apex as a Pages custom domain, then use a Redirect Rule / Bulk Redirect. Until then, keep the SuperCP wildcard redirect.
 
 ---
 

@@ -6465,3 +6465,368 @@ All good. Apex → www is working for both HTTP and HTTPS, including deep paths:
 - `/notes/` → `https://www.jorap.com/notes/`
 - `/blog/` → `https://www.jorap.com/blog/`
 - note and blog article paths keep the full path
+
+---
+
+_**User**_
+
+resume
+
+---
+
+_**Agent (auto-smart)**_
+
+> Auto routed to grok-4.5
+
+
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Resuming from the previous conversation context.
+
+Apex redirects are fixed and verified. Earlier deeper Hugo performance work was reverted. Next steps are unclear. Should ask what to focus on.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+Apex redirect is done. Next options from this deploy review:
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+AskQuestion is unavailable. I'll present the options briefly and wait, or choose the most useful follow-up.
+
+The Apex work is finished. I'll check the Cloudflare deployment and ask which next step to take.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+Apex redirect is fixed and verified. From this deploy review, what’s left:
+
+1. **Verify Cloudflare Pages deploy** — confirm the cleaned `_redirects` and image-cache changes are live and the build log is clean  
+2. **Document the apex setup** — note in repo docs that apex → www is handled on SuperCP, not `_redirects`  
+3. **Deeper Hugo perf** — structural work only; cache-key tricks are exhausted  
+4. **Stop** — treat the review as done  
+
+Which one?
+
+---
+
+_**User**_
+
+all 3
+
+---
+
+_**Agent (auto-smart)**_
+
+> Auto routed to grok-4.5
+
+
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+The user wants all three items. First, verify the latest Cloudflare Pages deployment.
+
+Next, document the apex redirect setup in repository documentation. Then continue deeper Hugo build performance work. I will verify the deployment and review existing docs. I will also explore deeper performance opportunities while avoiding the nested partialCached deadlocks from before. These tasks will run in parallel.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+I'll verify the live deploy, document the apex redirect, then pick a safe Hugo performance cut that won't deadlock.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="todo_write"><details>
+<summary>Tool use: **todo_write**</summary>
+
+Parameters:
+
+```json
+{
+  "merge": true
+}
+```
+Result:
+
+```json
+{
+  "finalTodos": [
+    {
+      "content": "Verify Cloudflare Pages deploy (redirects, build, live site)",
+      "id": "1",
+      "status": "in_progress"
+    },
+    {
+      "content": "Document apex → www redirect (SuperCP, not _redirects)",
+      "id": "2",
+      "status": "pending"
+    },
+    {
+      "content": "Deeper Hugo build performance (safe structural win)",
+      "id": "3",
+      "status": "pending"
+    }
+  ],
+  "initialTodos": [
+    {
+      "content": "Cache note-raw-body + assembled-content at all call sites",
+      "id": "1",
+      "status": "cancelled"
+    },
+    {
+      "content": "Cache toolbar (by active), toc, related-notes, relationship-types",
+      "id": "2",
+      "status": "cancelled"
+    },
+    {
+      "content": "Verify structural opts; revert ineffective/dangerous ones",
+      "id": "3",
+      "status": "completed"
+    }
+  ],
+  "success": true
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: git log -5 --oneline; echo &#39;---&#39;; git status --short; echo &#39;---&#39;; head -25 static/_redirects; echo &#39;---&#39;; rg -n &#39;caches\.(images|assets)|:cacheDir&#39; hugo.toml; echo &#39;--- docs ---&#39;; rg -n &#39;redirect|_redirects|apex|jorap\.com&#39; docs/ README.md --glob &#39;*.md&#39; | head -40</summary>
+```bash
+git log -5 --oneline; echo '---'; git status --short; echo '---'; head -25 static/_redirects; echo '---'; rg -n 'caches\.(images|assets)|:cacheDir' hugo.toml; echo '--- docs ---'; rg -n 'redirect|_redirects|apex|jorap\.com' docs/ README.md --glob '*.md' | head -40
+```
+
+```
+59d187ce Update
+7835ac36 Update
+22d35101 Update
+e3a1022b Update
+37772a4c Update
+---
+ M .specstory/history/2026-07-31_23-08-46Z-deployment-review-and-issues.md
+ M .specstory/statistics.json
+---
+# Cloudflare Pages redirects. Hugo copies this to public/_redirects at build time.
+# https://developers.cloudflare.com/pages/configuration/redirects/
+#
+# Pages rejects (and logs at deploy time) rules that Netlify would accept:
+#   - the `!` force suffix: write `301`, never `301!`
+#   - absolute or domain-level sources: `https://jorap.com/*` is skipped
+#   - rewrites to a non-redirect status: `/* /404.html 404` is skipped
+#
+# Apex -> www is NOT handled here. Domain-level redirects are unsupported in
+# _redirects, and jorap.com does not resolve to this Pages project. Configure it
+# on the apex host (Cloudflare Rules > Redirect Rules once the apex is proxied).
+#
+# 404s need no rule: Pages serves public/404.html for any unmatched path.
+
+/notes/cards/ /notes/flashcards/ 301
+/notes/cards /notes/flashcards/ 301
+
+/notes/client-site-handoff/ /notes/client-site-pass-off/ 301
+/notes/client-site-handoff /notes/client-site-pass-off/ 301
+
+/blog/power-of-worship-pads-enhancing-your-worship-experience/ /blog/worship-pads-solo-guitar/ 301
+/blog/power-of-worship-pads-enhancing-your-worship-experience /blog/worship-pads-solo-guitar/ 301
+---
+158:[caches.images]
+159:dir = ":cacheDir/images"
+161:[caches.assets]
+162:dir = ":cacheDir/assets"
+--- docs ---
+README.md:3:Personal blog and digital garden at [www.jorap.com](https://www.jorap.com). Built with Hugo, Tailwind CSS v4, and the `jorap` theme.
+README.md:27:git clone https://github.com/jonathanrapusas/jorap.com.git
+README.md:28:cd jorap.com
+README.md:44:cd jorap.com
+README.md:70:cd jorap.com
+README.md:98:cd jorap.com
+README.md:259:static/              _headers, _redirects (copied to public/ by Hugo)
+docs/PRODUCT.md:15:JoRap Notes is a **personal brand surface** at [jorap.com](https://www.jorap.com): it showcases how you think, what you stand for, a
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **9** results in **1** directory</summary>
+
+Directory: **``** (9 files)
+
+| File |
+|------|
+| `docs/TROUBLESHOOTING.md` |
+| `docs/CMS_SETUP.md` |
+| `docs/DESIGN.md` |
+| `docs/CONTENT_VOICE_REVIEW.md` |
+| `docs/README.md` |
+| `docs/PRODUCT.md` |
+| `docs/SPEC.md` |
+| `docs/CLIENT_STATIC_SITE.md` |
+| `docs/TODO.md` |
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
+<summary>Tool use: **web_search**</summary>
+
+Parameters:
+
+```json
+{
+  "searchTerm": "Cloudflare Pages API list deployments wrangler pages deployment list"
+}
+```
+Result:
+
+````json
+{
+  "isFinal": true,
+  "references": [
+    {
+      "chunk": "Links:\n1. [Pages · Cloudflare Workers docs](https://developers.cloudflare.com/workers/wrangler/commands/pages/)\n2. [packages/wrangler/src/pages/deployments.ts](https://github.com/cloudflare/workers-sdk/blob/0277bfa1/packages/wrangler/src/pages/deployments.ts)\n3. [packages/wrangler/src/pages/deployments.ts at e643b19d · cloudflare/workers-sdk](https://github.com/cloudflare/workers-sdk/blob/e643b19d/packages/wrangler/src/pages/deployments.ts)\n4. [Get deployments | Cloudflare API](https://developers.cloudflare.com/api/node/resources/pages/subresources/projects/subresources/deployments/methods/list/)\n5. [REST API](https://developers.cloudflare.com/pages/configuration/api/index.md)\n\nSynthesis:\nTo list deployments for a Cloudflare Pages project using the Wrangler CLI, use the command wrangler pages deployment list [1]. You must provide the project name using the --project-name flag [1][2].\n\nOptional flags include --environment to filter by production or preview deployments and --json to return the output in JSON format [1][3][2].\n\nExample command:\nnpx wrangler pages deployment list --project-name=my-project-name --environment=production [1]\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003ePages · Cloudflare Workers docs\u003c/title\u003e\n\u003curl\u003ehttps://developers.cloudflare.com/workers/wrangler/commands/pages/\u003c/url\u003e\n\u003ccontent\u003emyarnp\n...\nnpmyarnpnpm\n...\nnpmyarnpnpm\n...\nmyarnp\n...\n``string`\n...\n``string` alias\n...\n## pages deployment list\n...\nList deployments in your Cloudflare Pages project\n...\nnpmyarnpnpm\n...\n```\nnpx wrangler pages deployment list\n```\n...\n`--project-name``string`\n...\nThe name of the project you would like to list deployments for\n...\n`--environment``string`\n...\nEnvironment type to list deployments for\n...\n`--json``boolean` default: false\n...\nReturn output as JSON\n...\n` alias:\n...\nboolean` aliases:\n...\n``s
+… (output truncated)
+````
+User decision: **accepted**
+
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+Verifying the live site by checking curl redirects, _redirects content, and whether commit 7835ac36 is deployed.
+
+Updating documentation and redirect comments. For Hugo performance, exploring safer structural fixes after a prior deadlock. Considering caching related-posts lookups per page, reducing output formats, and disabling pagination aliases.
+
+Checking whether commit 7835ac36 is actually live by looking for the cleaned _redirects file. Will inspect the latest commit 59d187ce and review TROUBLESHOOTING and CLIENT_STATIC_SITE. Also considering templates.Defer to reduce template overhead.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: git show --stat --oneline -1 59d187ce; echo &#39;---&#39;; git show --stat --oneline -1 7835ac36 | head -5; echo &#39;--- live checks ---&#39;
+# Redirects from _redirects that should work on www
+for u in \
+  &#39;https://www.jorap.com/notes/cards/&#39; \
+  &#39;https://www.jorap.com/notes/client-site-handoff/&#39; \
+  &#39;https://www.jorap.com/blog/power-of-worship-pads-enhancing-your-worship-experience/&#39; \
+  &#39;https://www.jorap.com/this-page-does-not-exist-xyz&#39; \
+  &#39;https://www.jorap.com/_redirects&#39;; do
+  printf &#39;%-75s &#39; &#34;$u&#34;
+  curl -sS -o /dev/null -w &#39;%{http_code} -&gt; %{redirect_url}\n&#39; --max-time 15 -L --max-redirs 0 &#34;$u&#34; 2&gt;/dev/null || \
+  curl -sS -o /dev/null -w &#39;%{http_code} -&gt; %{redirect_url}\n&#39; --max-time 15 &#34;$u&#34;
+done
+echo; curl -sSI --max-time 15 &#39;https://www.jorap.com/notes/cards/&#39; | head -12
+echo; curl -sSI --max-time 15 &#39;https://www.jorap.com/this-page-does-not-exist-xyz&#39; | head -10
+# Confirm site has recent content fingerprint from deploy
+curl -sS --max-time 15 &#39;https://www.jorap.com/&#39; | grep -oE &#39;href=&#34;/css/[^&#34;]+&#34;&#39; | head -3
+</summary>
+```bash
+git show --stat --oneline -1 59d187ce; echo '---'; git show --stat --oneline -1 7835ac36 | head -5; echo '--- live checks ---'
+# Redirects from _redirects that should work on www
+for u in \
+  'https://www.jorap.com/notes/cards/' \
+  'https://www.jorap.com/notes/client-site-handoff/' \
+  'https://www.jorap.com/blog/power-of-worship-pads-enhancing-your-worship-experience/' \
+  'https://www.jorap.com/this-page-does-not-exist-xyz' \
+  'https://www.jorap.com/_redirects'; do
+  printf '%-75s ' "$u"
+  curl -sS -o /dev/null -w '%{http_code} -> %{redirect_url}\n' --max-time 15 -L --max-redirs 0 "$u" 2>/dev/null || \
+  curl -sS -o /dev/null -w '%{http_code} -> %{redirect_url}\n' --max-time 15 "$u"
+done
+echo; curl -sSI --max-time 15 'https://www.jorap.com/notes/cards/' | head -12
+echo; curl -sSI --max-time 15 'https://www.jorap.com/this-page-does-not-exist-xyz' | head -10
+# Confirm site has recent content fingerprint from deploy
+curl -sS --max-time 15 'https://www.jorap.com/' | grep -oE 'href="/css/[^"]+"' | head -3
+
+```
+
+```
+59d187ce Update
+ ...07-31_23-08-46Z-deployment-review-and-issues.md | 6268 +++++++++++++++++++-
+ .specstory/statistics.json                         |    9 +
+ 2 files changed, 6271 insertions(+), 6 deletions(-)
+---
+7835ac36 Update
+ hugo.toml                                           | 10 ++++++----
+ layouts/_partials/notes/backlinks-index.html        |  4 ++--
+ layouts/_partials/notes/build-hub-cluster.html      |  2 +-
+ layouts/_partials/notes/collect-cards.html          |  4 ++--
+--- live checks ---
+https://www.jorap.com/notes/cards/                                          301 -> https://www.jorap.com/notes/flashcards/
+301 -> https://www.jorap.com/notes/flashcards/
+https://www.jorap.com/notes/client-site-handoff/                            301 -> https://www.jorap.com/notes/client-site-pass-off/
+301 -> https://www.jorap.com/notes/client-site-pass-off/
+https://www.jorap.com/blog/power-of-worship-pads-enhancing-your-worship-experience/ 301 -> https://www.jorap.com/blog/worship-pads-solo-guitar/
+301 -> https://www.jorap.com/blog/worship-pads-solo-guitar/
+https://www.jorap.com/this-page-does-not-exist-xyz                          404 -> 
+https://www.jorap.com/_redirects                                            404 -> 
+
+HTTP/2 301 
+date: Sat, 01 Aug 2026 00:26:25 GMT
+content-type: text/plain;charset=UTF-8
+location: /notes/flashcards/
+access-control-allow-origin: https://www.jorap.com
+strict-transport-security: max-age=63072000; includeSubDomains; preload
+content-security-policy: default-src 'self'; base-uri 'self'; form-action 'self' https://formspree.io https://airform.io; frame-ancestors 'self'; img-src 'self' data: blob: https:; font-src 'self' data:; style-src 'self' 'unsafe-inline'; style-src-attr 'unsafe-inline'; style-src-elem 'self' 'unsafe-inline'; script-src 'self' https://*.googletagmanager.com https://*.google-analytics.com https://*.analytics.google.com https://maps.googleapis.com https://maps.gstatic.com https://disqus.com https://*.disqus.com htt
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/docs/TROUBLESHOOTING.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/docs/CLIENT_STATIC_SITE.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/docs/README.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="task_v2"><details>
+<summary>Tool use: **task_v2**</summary>
+
+Parameters:
+
+```json
+{
+  "description": "Find safe Hugo perf wins",
+  "model": "composer-2.5-fast",
+  "name": "explore",
+  "prompt": "In /home/jorap/Documents/GitHub/jorap.com, find SAFE Hugo build performance improvements that avoid nested partialCached deadlocks.\n\nContext already done (committed): pages.html/random-pool/resolve-target/outgoing-links/cards-for-page/relationship-neighbors cached; image cache moved to :cacheDir; widget-wrapper keyed per page.\n\nFailed approaches (do NOT suggest): caching toolbar with shared key while it calls collect-note-issues; nesting partialCached of assembled-content inside other partialCached; tags-index that changed see-also ranking.\n\nInvestigate and return concrete recommendations ranked by risk/reward:\n1. Can we drop or narrow [outputs] for page/section (RSS, md) without breaking site features? Grep who consumes .md and page RSS.\n2. Can related-posts-lookup.html be partialCached keyed by RelPermalink+Limit safely (callers, return value mutation)?\n3. Can note-blurb, note-link-card, or is-utility-page be safely cached (leaf only, no nested partialCached)?\n4. Any unused expensive modules in config/_default/module.toml?\n5. pagination disableAliases - impact of setting true?\n6. One concrete code change with highest expected wall-clock win on GOMAXPROCS=2 that is correctness-safe.\n\nReturn file paths, line numbers, and a recommended minimal diff plan. Thoroughness: medium. No edits.",
+  "subagentType": "explore"
+}
+```
+Additional data:
+
+```json
+{
+  "status": "loading",
+  "subagentComposerId": "e8cd40c1-1a34-450f-a5c9-60727e71953d"
+}
+```
+Status: **loading**
+
+</details></tool-use>

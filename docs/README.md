@@ -20,7 +20,7 @@ Long-form documentation for the JoRap Notes project. The repo [`README.md`](../R
 ## Canonical URLs
 
 - **Live site:** [https://www.jorap.com](https://www.jorap.com)
-- **Apex redirect:** `jorap.com` → `www.jorap.com` via [`static/_redirects`](../static/_redirects) (both hosts must be attached in Cloudflare Pages).
+- **Apex redirect:** `jorap.com` → `www.jorap.com` via SuperCP cPanel wildcard 301 (apex DNS is still on SuperCP; Pages only serves `www`). Details: [`TROUBLESHOOTING.md`](./TROUBLESHOOTING.md#redirects-apex--www). Path aliases live in [`static/_redirects`](../static/_redirects).
 
 ## Token sources (code)
 

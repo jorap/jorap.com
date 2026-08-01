@@ -137,10 +137,12 @@ target = 'assets/notwatching/hugo_stats.json'
 ############################# Outputs ############################
 [outputs]
 home     = ["HTML", "RSS", "WebAppManifest", "SearchIndex", "llms", "llmsfull", "md"]
-page     = ["HTML", "RSS", "md"]
-section  = ["HTML", "RSS", "md"]
-taxonomy = ["HTML", "RSS", "md"]
-term     = ["HTML", "RSS", "md"]
+# Per-page RSS/md had no consumers (feeds are section/home; OKF/copy-md use static/exports).
+# Dropping them cuts ~800+ Hugo page renders per build.
+page     = ["HTML"]
+section  = ["HTML", "RSS"]
+taxonomy = ["HTML"]
+term     = ["HTML"]
 
 ############################# Imaging ############################
 [imaging]

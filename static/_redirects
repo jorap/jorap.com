@@ -7,8 +7,12 @@
 #   - rewrites to a non-redirect status: `/* /404.html 404` is skipped
 #
 # Apex -> www is NOT handled here. Domain-level redirects are unsupported in
-# _redirects, and jorap.com does not resolve to this Pages project. Configure it
-# on the apex host (Cloudflare Rules > Redirect Rules once the apex is proxied).
+# _redirects, and jorap.com still resolves to SuperCP (LiteSpeed), not Pages.
+# Live fix: SuperCP cPanel → Redirects → permanent 301 wildcard to
+# https://www.jorap.com (Wild Card Redirect checked). Details:
+# docs/TROUBLESHOOTING.md#redirects-apex--www
+# Long-term: move apex DNS to Cloudflare, attach as Pages custom domain, then
+# use a Redirect Rule / Bulk Redirect.
 #
 # 404s need no rule: Pages serves public/404.html for any unmatched path.
 
