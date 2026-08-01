@@ -15,6 +15,7 @@ related_notes:
   - evergreen-notes
   - creative-output
   - the-garage-concept
+level_depth: 3
 aliases: ["hugo-shortcodes-deep-dive"]
 featured: false
 draft: true

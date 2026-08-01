@@ -15,6 +15,7 @@ related_notes:
   - weekly-review-checklists
   - attention-economy
   - deep-work
+level_depth: 3
 featured: false
 draft: true
 ---

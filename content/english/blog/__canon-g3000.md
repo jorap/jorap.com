@@ -12,6 +12,7 @@ related_notes:
   - reliability
   - building-a-personal-api
   - preparedness
+level_depth: 2
 featured: false
 draft: true
 ---

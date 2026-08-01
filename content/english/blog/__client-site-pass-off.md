@@ -16,6 +16,7 @@ related_notes:
   - the-garage-concept
   - plain-commitments-at-work
   - success-is-stewardship
+level_depth: 3
 featured: false
 draft: true
 ---

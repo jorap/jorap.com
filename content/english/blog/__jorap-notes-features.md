@@ -16,6 +16,7 @@ related_notes:
   - maps-of-content
   - the-garage-concept
   - workplace-principles
+level_depth: 4
 featured: false
 draft: true
 ---

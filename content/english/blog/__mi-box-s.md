@@ -12,6 +12,7 @@ related_notes:
   - digital-minimalism
   - attention-economy
   - information-diet
+level_depth: 2
 featured: false
 draft: true
 ---

@@ -10,6 +10,7 @@ author: "JoRap"
 tags: ["Wi-Fi", "Router", "Home Network", "Gear", "Wi-Fi 6", "Mesh Network", "Internet", "Networking", "Home Office", "Dead Zones"]
 related_notes:
   - reliability
+level_depth: 3
 featured: false
 draft: true
 ---

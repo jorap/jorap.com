@@ -15,6 +15,7 @@ related_notes:
   - digital-garden
   - note-relationships
   - commonplace-book
+level_depth: 4
 featured: false
 draft: true
 ---

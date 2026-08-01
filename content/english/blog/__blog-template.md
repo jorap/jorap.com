@@ -10,6 +10,7 @@ author: "JoRap"
 tags: ["Hugo CMS", "Markdown", "Shortcodes", "Frontmatter", "Blog Template", "Hugo", "Content Management", "Static Sites", "Web Development"]
 related_notes:
   - digital-garden
+level_depth: 1
 featured: false
 draft: true
 ---

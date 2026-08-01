@@ -15,6 +15,7 @@ related_notes:
   - commonplace-book
   - intellectual-sourcing
   - the-feynman-technique
+level_depth: 3
 featured: false
 draft: true
 ---

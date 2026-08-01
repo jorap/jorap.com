@@ -12,6 +12,7 @@ related_notes:
   - digital-minimalism
   - attention-economy
   - minimum-effective-dose
+level_depth: 2
 featured: false
 draft: false
 ---

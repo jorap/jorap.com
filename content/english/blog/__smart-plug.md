@@ -10,6 +10,7 @@ author: "JoRap"
 tags: ["Smart Home", "Smart Plug", "Automation", "Gear", "IoT", "Home Automation", "Scheduling", "Energy Saving", "Wi-Fi Plug", "Voice Assistant"]
 related_notes:
   - building-a-personal-api
+level_depth: 2
 featured: false
 draft: true
 ---

@@ -15,6 +15,7 @@ related_notes:
   - anti-fragile-systems
   - periodic-knowledge-review
   - getting-things-done
+level_depth: 3
 featured: false
 draft: true
 ---

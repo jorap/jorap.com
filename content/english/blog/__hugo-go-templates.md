@@ -15,6 +15,7 @@ related_notes:
   - the-garage-concept
   - digital-garden
   - building-a-personal-api
+level_depth: 3
 featured: false
 draft: true
 ---

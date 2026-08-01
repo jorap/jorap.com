@@ -12,6 +12,7 @@ related_notes:
   - expect-the-counter
   - resilience
   - complete-the-cycle
+level_depth: 1
 featured: false
 draft: false
 lastmod: "2026-08-01T01:00:00Z"

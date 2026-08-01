@@ -13,6 +13,7 @@ related_notes:
   - behavioral-economics
   - commonplace-book
   - deep-work
+level_depth: 3
 featured: false
 draft: true
 ---

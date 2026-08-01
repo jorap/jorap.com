@@ -15,6 +15,7 @@ related_notes:
   - literature-notes
   - evergreen-vs-fleeting-notes
   - note-relationships
+level_depth: 3
 featured: false
 draft: true
 ---

@@ -14,6 +14,7 @@ related_notes:
   - commonplace-book
   - inbox-zero
   - information-diet
+level_depth: 3
 aliases: ["power-of-the-mouse-wheel-click"]
 featured: false
 draft: false

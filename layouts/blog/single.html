@@ -30,6 +30,12 @@
               {{ partial "components/icon" (dict "Name" "clock" "Class" "inline-block h-4 w-4 mr-1 align-[-2px]") }}
               {{ time.Format ":date_long" .PublishDate }}
             </li>
+            {{ with .Params.level_depth }}
+            {{ $depthLabels := dict 1 "Recognize" 2 "Explain" 3 "Use" 4 "Connect" 5 "Create" }}
+            <li class="mr-4 inline-block text-ink/70">
+              Depth {{ . }} · {{ index $depthLabels . }}
+            </li>
+            {{ end }}
             {{ $categories:= .Params.categories }}
             {{ if $categories }}
             <li class="mr-4 inline-block">

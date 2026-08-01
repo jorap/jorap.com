@@ -14,6 +14,7 @@ related_notes:
   - drafting-in-public
   - free-tier-hosting-stack
   - selling-static-sites
+level_depth: 2
 featured: false
 draft: true
 ---

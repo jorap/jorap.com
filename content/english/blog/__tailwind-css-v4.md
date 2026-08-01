@@ -14,6 +14,7 @@ related_notes:
   - free-tier-hosting-stack
   - git-based-cms
   - metadata-strategy
+level_depth: 3
 featured: false
 draft: true
 ---

@@ -14,6 +14,7 @@ related_notes:
   - selling-static-sites
   - client-site-pass-off
   - minimum-effective-dose
+level_depth: 4
 featured: false
 draft: false
 ---

@@ -19,11 +19,21 @@ BLOG_FM_ORDER = (
     "author",
     "tags",
     "related_notes",
+    "level_depth",
     "aliases",
     "featured",
     "draft",
     "lastmod",
 )
+
+# Max Depth of Understanding rung the post reaches (Recognize→Create).
+LEVEL_DEPTH_LABELS = {
+    1: "Recognize",
+    2: "Explain",
+    3: "Use",
+    4: "Connect",
+    5: "Create",
+}
 
 BLOG_ALWAYS_QUOTE = frozenset(
     {"title", "meta_title", "description", "slug", "date", "image", "author", "lastmod"}
@@ -109,6 +119,8 @@ def canonical_blog_fm(fm: dict[str, Any], path: Path) -> dict[str, Any]:
         out["lastmod"] = normalize_date(out["lastmod"])
     if isinstance(out.get("image"), str) and not out["image"].startswith("/"):
         out["image"] = f"/{out['image'].lstrip('/')}"
+    if "level_depth" in out:
+        out["level_depth"] = int(out["level_depth"])
     return out
 
 
@@ -132,12 +144,14 @@ def _self_check() -> None:
         "author": "JoRap",
         "tags": ["A"],
         "related_notes": ["capture"],
+        "level_depth": 3,
         "featured": False,
         "draft": True,
     }
     text = dump_blog_frontmatter(sample)
     assert 'slug: "test"' in text
     assert "related_notes:\n  - capture" in text
+    assert "level_depth: 3" in text
     assert normalize_date("2026-05-03T23:00:00") == "2026-05-03T23:00:00Z"
 
 

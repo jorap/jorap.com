@@ -12,6 +12,7 @@ related_notes:
   - digital-minimalism
   - minimum-effective-dose
   - people-centered-design
+level_depth: 2
 featured: false
 draft: true
 ---

@@ -15,6 +15,7 @@ related_notes:
   - intellectual-sourcing
   - the-feynman-technique
   - drafting-in-public
+level_depth: 2
 featured: false
 draft: true
 ---

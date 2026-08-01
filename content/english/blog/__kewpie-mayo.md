@@ -11,6 +11,7 @@ tags: ["Kewpie", "Mayonnaise", "Japanese Food", "Pantry Staples", "Cooking", "Co
 related_notes:
   - slow-productivity
   - attention-to-detail
+level_depth: 2
 featured: false
 draft: true
 ---

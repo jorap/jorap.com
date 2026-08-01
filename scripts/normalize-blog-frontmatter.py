@@ -9,7 +9,13 @@ from pathlib import Path
 
 import yaml
 
-from blog_frontmatter import BLOG_FM_ORDER, canonical_blog_fm, dump_blog_frontmatter, ordered_keys
+from blog_frontmatter import (
+    BLOG_FM_ORDER,
+    LEVEL_DEPTH_LABELS,
+    canonical_blog_fm,
+    dump_blog_frontmatter,
+    ordered_keys,
+)
 
 ROOT = Path(__file__).resolve().parents[1]
 BLOG_DIR = ROOT / "content" / "english" / "blog"
@@ -48,6 +54,12 @@ def verify_file(path: Path) -> list[str]:
         errors.append("missing slug")
     if fm.get("author") != "JoRap":
         errors.append(f"author must be JoRap, got {fm.get('author')!r}")
+    if "level_depth" not in fm:
+        errors.append("missing level_depth")
+    else:
+        depth = fm["level_depth"]
+        if not isinstance(depth, int) or depth not in LEVEL_DEPTH_LABELS:
+            errors.append(f"level_depth must be integer 1-5, got {depth!r}")
     for field in ("date", "lastmod"):
         if field in fm and "Z" not in str(fm[field]) and "+" not in str(fm[field]):
             errors.append(f"{field} missing timezone")

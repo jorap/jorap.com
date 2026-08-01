@@ -13,6 +13,7 @@ related_notes:
   - reversibility
   - minimum-effective-dose
   - low-hanging-fruit
+level_depth: 4
 featured: false
 draft: true
 ---

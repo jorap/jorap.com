@@ -12,6 +12,7 @@ related_notes:
   - childlike-faith
   - free-grace
   - dont-worry
+level_depth: 2
 featured: false
 draft: false
 ---

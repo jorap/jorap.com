@@ -13,6 +13,7 @@ related_notes:
   - sustainable-performance
   - the-second-brain-workflow
   - building-a-second-brain
+level_depth: 2
 aliases: ["personal-immune-booster-supplements"]
 featured: false
 draft: true

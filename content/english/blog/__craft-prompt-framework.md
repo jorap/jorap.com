@@ -15,6 +15,7 @@ related_notes:
   - layered-reading
   - commonplace-book
   - literature-notes
+level_depth: 3
 featured: false
 draft: true
 ---

@@ -14,6 +14,7 @@ related_notes:
   - minimum-effective-dose
   - signal-vs-noise
   - ship-it
+level_depth: 3
 featured: false
 draft: false
 ---

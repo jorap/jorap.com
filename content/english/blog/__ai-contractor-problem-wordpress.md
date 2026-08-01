@@ -11,6 +11,7 @@ tags: ["WordPress", "AI Coding", "Cursor", "Developer Life", "Workflow", "PHP", 
 related_notes:
   - building-a-personal-api
   - the-knowledge-lifecycle
+level_depth: 4
 featured: false
 draft: true
 ---

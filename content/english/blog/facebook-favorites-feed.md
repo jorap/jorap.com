@@ -15,6 +15,7 @@ related_notes:
   - graph-view-analytics
   - signal-vs-noise
   - commonplace-book
+level_depth: 3
 aliases: ["facebooks-hidden-gem-how-favorites-feed-transforms-your-social-media-experience"]
 featured: false
 draft: false

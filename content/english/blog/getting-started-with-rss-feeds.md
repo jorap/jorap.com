@@ -15,6 +15,7 @@ related_notes:
   - digital-serendipity
   - the-second-brain-workflow
   - attention-economy
+level_depth: 3
 aliases: ["getting-started-with-rss-feeds-a-beginners-guide"]
 featured: false
 draft: false

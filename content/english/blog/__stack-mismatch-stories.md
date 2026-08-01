@@ -12,6 +12,7 @@ related_notes:
   - static-site-client-scope
   - client-site-pass-off
   - selling-static-sites
+level_depth: 4
 featured: false
 draft: true
 ---

@@ -15,6 +15,7 @@ related_notes:
   - selling-static-sites
   - note-relationships
   - success-is-stewardship
+level_depth: 5
 featured: false
 draft: false
 ---

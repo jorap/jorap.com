@@ -15,6 +15,7 @@ related_notes:
   - context-aware-capture
   - attention-economy
   - deep-work
+level_depth: 3
 aliases: ["top-reasons-why-you-still-need-use-desktop-laptop"]
 featured: false
 draft: false

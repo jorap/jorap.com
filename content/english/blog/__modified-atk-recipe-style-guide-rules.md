@@ -12,6 +12,7 @@ related_notes:
   - standard-operating-procedures
   - habit-formation
   - intellectual-sourcing
+level_depth: 5
 featured: false
 draft: true
 ---

@@ -12,6 +12,7 @@ related_notes:
   - energy-protects-judgment
   - sustainable-performance
   - building-a-second-brain
+level_depth: 3
 aliases: ["stuart-mcgill-big-three-low-back-exercises"]
 featured: false
 draft: true

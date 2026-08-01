@@ -12,6 +12,7 @@ related_notes:
   - minimum-effective-dose
   - attention-economy
   - sunk-cost-fallacy
+level_depth: 2
 featured: false
 draft: true
 ---

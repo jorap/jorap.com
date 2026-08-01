@@ -12,6 +12,7 @@ related_notes:
   - minimum-effective-dose
   - practice-small-experiments
   - ship-it
+level_depth: 3
 featured: false
 draft: true
 ---

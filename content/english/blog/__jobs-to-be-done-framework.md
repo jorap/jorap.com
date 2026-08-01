@@ -15,6 +15,7 @@ related_notes:
   - attention-economy
   - deep-work
   - lean-startup
+level_depth: 3
 featured: false
 draft: true
 ---

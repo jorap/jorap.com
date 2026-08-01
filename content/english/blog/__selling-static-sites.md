@@ -14,6 +14,7 @@ related_notes:
   - client-site-pass-off
   - plain-commitments-at-work
   - success-is-stewardship
+level_depth: 3
 featured: false
 draft: true
 ---

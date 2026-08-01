@@ -12,6 +12,7 @@ related_notes:
   - platform-reach-is-borrowed
   - drafting-in-public
   - digital-garden
+level_depth: 4
 featured: false
 draft: true
 ---

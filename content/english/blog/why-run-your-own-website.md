@@ -15,6 +15,7 @@ related_notes:
   - note-relationships
   - the-garage-concept
   - success-is-stewardship
+level_depth: 4
 aliases: ["top-reasons-create-maintain-your-own-website"]
 featured: false
 draft: false

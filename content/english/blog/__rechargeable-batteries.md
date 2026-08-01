@@ -10,6 +10,7 @@ author: "JoRap"
 tags: ["Batteries", "Rechargeable", "Everyday Carry", "Gear", "AA Batteries", "AAA Batteries", "Eneloop", "Sustainability", "Battery Charger", "Home Essentials"]
 related_notes:
   - reliability
+level_depth: 2
 featured: false
 draft: true
 ---

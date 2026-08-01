@@ -24,6 +24,7 @@ related_notes:
   - git-based-cms
   - success-is-stewardship
   - platform-reach-is-borrowed
+level_depth: 4
 featured: false
 draft: false
 lastmod: "2026-07-29T20:38:00Z"

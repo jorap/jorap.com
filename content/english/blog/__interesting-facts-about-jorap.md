@@ -11,6 +11,7 @@ tags: ["JoRap", "Personal", "Blogging", "Meta", "Digital Garden", "Identity", "A
 related_notes:
   - drafting-in-public
   - commonplace-book
+level_depth: 1
 featured: false
 draft: true
 ---

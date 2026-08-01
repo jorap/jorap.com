@@ -12,6 +12,7 @@ related_notes:
   - attention-economy
   - digital-minimalism
   - signal-vs-noise
+level_depth: 2
 featured: false
 draft: true
 ---

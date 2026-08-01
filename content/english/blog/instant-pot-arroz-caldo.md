@@ -13,6 +13,7 @@ related_notes:
   - slow-productivity
   - preparedness
   - energy-protects-judgment
+level_depth: 3
 featured: false
 draft: false
 ---

@@ -12,6 +12,7 @@ related_notes:
   - attention-economy
   - deep-work
   - digital-minimalism
+level_depth: 3
 featured: false
 draft: false
 ---

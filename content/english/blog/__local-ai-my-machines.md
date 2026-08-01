@@ -12,6 +12,7 @@ related_notes:
   - local-first-software
   - building-a-personal-api
   - the-knowledge-lifecycle
+level_depth: 4
 aliases: ["local-ai-two-systems"]
 featured: false
 draft: true

@@ -15,6 +15,7 @@ related_notes:
   - layered-reading
   - commonplace-book
   - literature-notes
+level_depth: 3
 aliases: ["make-ai-articles-more-human"]
 featured: false
 draft: true

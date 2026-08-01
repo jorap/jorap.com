@@ -13,6 +13,7 @@ related_notes:
   - digital-garden
   - selling-static-sites
   - rollback-principle
+level_depth: 3
 featured: false
 draft: true
 ---

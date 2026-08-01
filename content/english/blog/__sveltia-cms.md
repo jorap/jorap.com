@@ -10,6 +10,7 @@ author: "JoRap"
 tags: ["Sveltia CMS", "Hugo", "CMS", "Git", "Static Sites", "Content Management"]
 related_notes:
   - git-based-cms
+level_depth: 3
 featured: false
 draft: true
 ---

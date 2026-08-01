@@ -13,6 +13,7 @@ related_notes:
   - digital-minimalism
   - minimum-effective-dose
   - sunk-cost-fallacy
+level_depth: 2
 featured: false
 draft: false
 ---

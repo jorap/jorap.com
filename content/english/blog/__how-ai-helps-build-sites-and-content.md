@@ -16,6 +16,7 @@ related_notes:
   - building-a-personal-api
   - creative-blocks
   - the-knowledge-lifecycle
+level_depth: 4
 featured: false
 draft: true
 ---

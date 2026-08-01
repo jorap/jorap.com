@@ -15,6 +15,7 @@ related_notes:
   - the-knowledge-lifecycle
   - the-trusted-inbox
   - context-aware-capture
+level_depth: 4
 featured: false
 draft: false
 ---

@@ -11,6 +11,7 @@ tags: ["Worcestershire Sauce", "Lee and Perrins", "Pantry Staples", "Cooking", "
 related_notes:
   - slow-productivity
   - attention-to-detail
+level_depth: 2
 aliases: ["worcestershire-sauce-lee-and-perrins"]
 featured: false
 draft: true

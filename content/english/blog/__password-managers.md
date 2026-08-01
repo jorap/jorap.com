@@ -15,6 +15,7 @@ related_notes:
   - evergreen-vs-fleeting-notes
   - note-relationships
   - analog-capture-tools
+level_depth: 3
 featured: false
 draft: true
 ---

@@ -10,6 +10,7 @@ author: "JoRap"
 tags: ["John Maxwell", "Communication", "Leadership", "Books", "Collaboration", "Blogging", "Writing"]
 related_notes:
   - create-regular-connection
+level_depth: 2
 featured: false
 draft: true
 ---

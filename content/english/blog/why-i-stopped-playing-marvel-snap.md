@@ -13,6 +13,7 @@ related_notes:
   - digital-minimalism
   - signal-vs-noise
   - sunk-cost-fallacy
+level_depth: 2
 featured: false
 draft: false
 ---

@@ -17,6 +17,7 @@ related_notes:
   - future-proofing-knowledge
   - git-based-cms
   - free-tier-hosting-stack
+level_depth: 4
 featured: false
 draft: true
 ---

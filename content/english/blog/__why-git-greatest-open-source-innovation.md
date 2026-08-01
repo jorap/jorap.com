@@ -13,6 +13,7 @@ related_notes:
   - future-proofing-knowledge
   - free-tier-hosting-stack
   - the-garage-concept
+level_depth: 4
 featured: false
 draft: true
 ---

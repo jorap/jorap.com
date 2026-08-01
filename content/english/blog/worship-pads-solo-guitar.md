@@ -12,6 +12,7 @@ related_notes:
   - love-god
   - ask-seek-knock
   - dont-worry
+level_depth: 3
 aliases: ["power-of-worship-pads-enhancing-your-worship-with-guitar", "power-of-worship-pads-enhancing-your-worship-experience"]
 featured: false
 draft: false

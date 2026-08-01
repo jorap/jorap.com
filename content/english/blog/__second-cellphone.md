@@ -12,6 +12,7 @@ related_notes:
   - preparedness
   - reliability
   - mobile-capture-workflows
+level_depth: 3
 featured: false
 draft: true
 ---

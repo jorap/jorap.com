@@ -12,9 +12,11 @@ related_notes:
   - digital-minimalism
   - mobile-capture-workflows
   - attention-economy
+level_depth: 4
 featured: false
 draft: false
 ---
+
 I get the pitch. Apple hardware feels polished. The **whole ecosystem** - iMessage, iCloud, AirDrop, the App Store, the watch on your wrist - talks to itself in ways that look effortless on a demo table. I own some of that hardware. I still don't live inside the Apple ecosystem.
 
 I'm still on the Google side of the fence. Not because I hate Apple. I run a **MacBook Pro M4** for paid work and an **11th-gen iPad** for reading and couch browsing. Both are excellent machines. I still sign into **Gmail, Chrome, Drive, and Meet** on them like everywhere else.

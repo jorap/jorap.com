@@ -10,6 +10,7 @@ author: "JoRap"
 tags: ["Drupal", "WordPress", "CMS", "Web Development", "Developer Life", "Open Source", "Gutenberg", "WordCamp"]
 related_notes:
   - git-based-cms
+level_depth: 4
 featured: false
 draft: false
 ---

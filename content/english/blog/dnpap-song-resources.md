@@ -12,6 +12,7 @@ related_notes:
   - love-god
   - free-grace
   - ask-seek-knock
+level_depth: 1
 featured: false
 draft: false
 ---

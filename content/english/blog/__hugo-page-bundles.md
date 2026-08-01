@@ -15,6 +15,7 @@ related_notes:
   - git-based-cms
   - free-tier-hosting-stack
   - selling-static-sites
+level_depth: 3
 featured: false
 draft: true
 ---

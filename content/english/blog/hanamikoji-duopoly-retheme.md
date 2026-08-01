@@ -12,6 +12,7 @@ related_notes:
   - minimum-effective-dose
   - practice-small-experiments
   - signal-vs-noise
+level_depth: 5
 featured: false
 draft: false
 lastmod: "2026-07-15T11:45:00Z"

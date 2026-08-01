@@ -12,6 +12,7 @@ related_notes:
   - future-proofing-knowledge
   - free-tier-hosting-stack
   - platform-reach-is-borrowed
+level_depth: 4
 featured: false
 draft: true
 ---

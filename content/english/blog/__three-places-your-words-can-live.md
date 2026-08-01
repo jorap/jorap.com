@@ -13,6 +13,7 @@ related_notes:
   - drafting-in-public
   - the-garage-concept
   - platform-reach-is-borrowed
+level_depth: 4
 featured: false
 draft: true
 ---

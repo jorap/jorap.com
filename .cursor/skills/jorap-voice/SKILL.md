@@ -284,12 +284,14 @@ Field order (always use this order; `pnpm lint:blog` enforces it):
 
 1. `title`, `meta_title`, `description`, `slug`, `date`, `image`
 2. `categories`, `author`, `tags`, `related_notes` (when used)
-3. `aliases`, `lastmod` (only when needed)
-4. `featured`, `draft`
+3. `level_depth` (required: integer 1–5)
+4. `aliases`, `lastmod` (only when needed)
+5. `featured`, `draft`
 
 - `description`: memorable one-breath summary - what the post is or what you learned; first person is fine. Not keyword-stuffed.
 - `meta_title`: useful and specific - not clickbait, not "Ultimate Guide to…" unless the post truly is a full guide.
 - `slug`: always set - filename without `__` prefix (e.g. `slug: "wifi-router"`). Keep when the URL should differ from the filename (rare; add `aliases` for the old path).
+- `level_depth`: max Depth of Understanding rung the post *reaches* (not the reader): 1 Recognize, 2 Explain, 3 Use, 4 Connect, 5 Create. Scrapbooks/catalogs → 1; how-to/recipes/lived criteria → 3; stack tradeoffs/systems → 4; inventing or shipping a new thing → 5.
 
 ### Publishing
 
