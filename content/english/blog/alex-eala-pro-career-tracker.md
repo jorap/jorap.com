@@ -3,7 +3,7 @@ title: "Alex Eala Pro Career Tracker"
 meta_title: "Alex Eala WTA Career Tracker - Rankings and Matches"
 description: "My running scrapbook of Alex Eala's WTA career - rankings, matches I'll never forget, and matchups I'm watching for next."
 slug: "alex-eala-pro-career-tracker"
-date: "2026-07-29T05:00:00Z"
+date: "2026-08-02T05:00:00Z"
 image: "/images/alex-eala.jpg"
 categories: ["Sports", "Filipino", "People"]
 author: "JoRap"
@@ -15,7 +15,7 @@ related_notes:
 level_depth: 1
 featured: false
 draft: false
-lastmod: "2026-08-01T01:00:00Z"
+lastmod: "2026-08-01T22:10:00Z"
 ---
 
 I've been following Alex Eala's career since her run at the **2025 Miami Open** - watching a Filipina rise through the WTA ranks in real time is something I never thought I'd get to do in my lifetime. This page is my running scrapbook for it. I update it when something happens worth pinning, not on a schedule.
@@ -29,7 +29,7 @@ The numbers I refresh first when something breaks on Twitter at 2am - everything
 - **Career highs:** No. 28 singles · No. 88 doubles
 - **WTA titles:** 2 (2025 Guadalajara 125, 2026 Birmingham 125)
 - **Best Slam (singles):** Wimbledon 2026 - Round of 16
-- **Notable firsts:** First Filipina in a Grand Slam main draw; first Filipina to win a Slam main-draw match (US Open 2025); first Filipina to reach a Grand Slam fourth round in the Open era (Wimbledon 2026); first Filipina in a WTA 1000 semifinal (Miami 2025); first Filipina in a WTA 500 semifinal (Berlin 2026); first Filipina in the WTA top 100
+- **Notable firsts:** First Filipina in a Grand Slam main draw; first Filipina to win a Slam main-draw match (US Open 2025); first Filipina to reach a Grand Slam fourth round in the Open era (Wimbledon 2026); first Filipina in a WTA 1000 semifinal (Miami 2025); first Filipina in a WTA 500 final (Washington 2026); first Filipina in a WTA 500 semifinal (Berlin 2026); first Filipina in the WTA top 100
 
 ---
 
@@ -142,7 +142,10 @@ Slams are in the section above. This is the week-to-week grind where the ranking
 - 2026
 
   - **Washington (WTA 500, Hard)**
-    - Semifinals (vs Naomi Osaka)
+    - First Filipina to reach a WTA 500 final
+    - First career hard-court WTA Tour final
+    - Finals (vs Jessica Pegula)
+    - Semifinals, d. Naomi Osaka 6-4, 6-2 | [wtatennis.com](https://www.wtatennis.com/tournaments/1045/washington-dc/2026/scores/LS003) | [tennis.com](https://www.tennis.com/tournaments/mubadala-dc-open/matches/n-osaka-vs-a-eala-2026-08-01)
     - Quarterfinals, d. Elina Svitolina 6-3, 6-4 | [wtatennis.com](https://www.wtatennis.com/tournaments/1045/washington-dc/2026/scores/LS007) | [tennis.com](https://www.tennis.com/tournaments/mubadala-dc-open/matches/a-eala-vs-e-svitolina-2026-07-31)
     - Round of 16, d. Leylah Fernandez 6-2, 7-6(1) | [wtatennis.com](https://www.wtatennis.com/tournaments/1045/washington-dc/2026/scores/LS014) | [tennis.com](https://www.tennis.com/tournaments/mubadala-dc-open/matches/l-fernandez-vs-a-eala-2026-07-29)
     - Round of 32, d. Qinwen Zheng 4-6, 6-4, 6-1 | [wtatennis.com](https://www.wtatennis.com/tournaments/1045/washington-dc/2026/scores/LS029) | [tennis.com](https://www.tennis.com/tournaments/mubadala-dc-open/matches/a-eala-vs-q-zheng-2026-07-28)
@@ -354,6 +357,27 @@ I started this section after Miami 2025 because I kept losing track of who she'd
 - **2025 Madrid (Clay)** - Round of 64, LOSS, 6-4, 4-6, 2-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/1038/madrid/2025/scores/LS063) | [tennis.com](https://www.tennis.com/tournaments/sr-tournament-2785-madrid-spain/sr-match-59915292/)
 
 {{< youtube TqBCa8hIHcY >}}
+
+---
+
+### Naomi Osaka
+
+- [WTA Profile](https://www.wtatennis.com/players/319998/naomi-osaka)
+- [Head to Head](https://www.wtatennis.com/head-to-head/330332/319998)
+- **Career High Singles:** No. 1
+
+**Grand Slam Titles:**
+
+| Tournament      | Year(s) |
+| --------------- | ------- |
+| Australian Open | 2019, 2021 |
+| US Open         | 2018, 2020 |
+
+**Matches:**
+
+- **2026 Washington (Hard)** - Semifinals, WIN, 6-4, 6-2 | [wtatennis.com](https://www.wtatennis.com/tournaments/1045/washington-dc/2026/scores/LS003) | [tennis.com](https://www.tennis.com/tournaments/mubadala-dc-open/matches/n-osaka-vs-a-eala-2026-08-01)
+
+{{< youtube h-ICrhuXE18 >}}
 
 ---
 
@@ -697,7 +721,6 @@ Draw roulette - no H2H yet, or only one meeting years ago. Andreeva is the one I
 - [Maja Chwalinska](https://www.wtatennis.com/head-to-head/330332/325639) - Career High No. 21; 2026 French Open finalist
 - [Sofia Kenin](https://www.wtatennis.com/head-to-head/330332/320942) - Career High No. 4; 2020 Australian Open Winner
 - [Emma Navarro](https://www.wtatennis.com/head-to-head/330332/325410) - Career High No. 8; 2025 Strasbourg Winner; rising American top-20 fixture
-- [Naomi Osaka](https://www.wtatennis.com/head-to-head/330332/319998) - Career High No. 1; 2021, 2019 Australian Open and 2020, 2018 US Open Winner
 - [Emma Raducanu](https://www.wtatennis.com/head-to-head/330332/328366) - Career High No. 10; 2021 US Open Winner
 - [Aryna Sabalenka](https://www.wtatennis.com/head-to-head/330332/320760) - Career High No. 1; 2024, 2023 Australian Open and 2024 US Open Winner
 - [Diana Shnaider](https://www.wtatennis.com/head-to-head/330332/330482) - Career High No. 11; 2026 Roland Garros semifinalist; 2025 Monterrey champion
