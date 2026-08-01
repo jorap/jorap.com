@@ -11,7 +11,7 @@
 {{- end -}}
 {{- $relatedNotesLimit := .relatedNotesLimit | default 0 -}}
 {{- if gt $relatedNotesLimit 0 -}}
-  {{- $relatedNotes := partial "notes/related-notes.html" (dict "Context" $page "Limit" $relatedNotesLimit) | default slice -}}
+  {{- $relatedNotes := partialCached "notes/related-notes.html" (dict "Context" $page "Limit" $relatedNotesLimit) (printf "%s-%d-1" $page.RelPermalink $relatedNotesLimit) | default slice -}}
   {{- if gt (len $relatedNotes) 0 -}}
     {{- $extras = $extras | append (dict "level" 2 "title" (T "related_notes") "id" "related-notes") -}}
   {{- end -}}

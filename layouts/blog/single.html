@@ -31,9 +31,10 @@
               {{ time.Format ":date_long" .PublishDate }}
             </li>
             {{ with .Params.level_depth }}
-            {{ $depthLabels := dict 1 "Recognize" 2 "Explain" 3 "Use" 4 "Connect" 5 "Create" }}
+            {{/* Hugo dict keys must be strings; level_depth is int from YAML. */}}
+            {{ $depthLabels := slice "Recognize" "Explain" "Use" "Connect" "Create" }}
             <li class="mr-4 inline-block text-ink/70">
-              Depth {{ . }} · {{ index $depthLabels . }}
+              Depth {{ . }} · {{ index $depthLabels (sub . 1) }}
             </li>
             {{ end }}
             {{ $categories:= .Params.categories }}

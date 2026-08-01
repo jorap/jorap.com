@@ -1,6 +1,7 @@
 {{- $page := . -}}
 {{- $limit := site.Params.blog.related_notes_limit | default 5 -}}
-{{- $related := partial "notes/related-notes.html" (dict "Context" $page "Limit" $limit "MinSharedTags" 2) -}}
+{{- $minShared := 2 -}}
+{{- $related := partialCached "notes/related-notes.html" (dict "Context" $page "Limit" $limit "MinSharedTags" $minShared) (printf "%s-%d-%d" $page.RelPermalink $limit $minShared) -}}
 
 {{- with $related -}}
   <div class="section pb-0">
