@@ -8,11 +8,11 @@ key_concept: |
   - Hub: [[21 Laws of Leadership in the Bible]] - lesson 9 of twenty-one Bible laws; horizontal frame in [[Leadership]].
   
   {{< bible ref="Numbers 27:15-23" >}}
-  - **Joshua Succeeds Moses** - Young aide in the tent became national leader - magnetism of faithfulness.
+  - **Joshua Succeeds Moses** - Young aide in the tent became national leader. Faithfulness attracted the succession call - who he was drew the role he received.
   {{< bible ref="1 Chronicles 11:10-25" >}}
-  - **David's Mighty Men** - Warriors rallied to a shepherd-king - courage drew courage.
+  - **David's Mighty Men** - Warriors rallied to a shepherd-king. Courage drew courage; who you are is who shows up beside you.
   {{< bible ref="1 Kings 21:1-16" >}}
-  - **Evil Follows Evil** - Ahab and Jezebel's Naboth plot - wickedness attracted wicked counsel.
+  - **Evil Follows Evil** - Ahab and Jezebel's Naboth plot drew wicked counsel. Magnetism works for evil as well as good - character attracts its match.
 level_1: "The law of magnetism is that you attract who you are."
 level_2: "Joshua stayed in Moses' tent; David drew warriors; Jezebel and Ahab collected schemers - like attracts like over years."
 level_3: "Audit who gravitates toward you after a stressful season - the orbit reveals your real tone, not the tone you perform in meetings."

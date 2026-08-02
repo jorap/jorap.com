@@ -7,11 +7,11 @@ key_concept: |
   - Hub: [[21 Laws of Leadership in the Bible]] - lesson 5 of twenty-one Bible laws; horizontal frame in [[Leadership]].
   
   {{< bible ref="Genesis 13:1-12" >}}
-  - **Abram Took the High Road** - Let Lot choose the well-watered plain - Abram trusted God with the leftovers.
+  - **Abram Took the High Road** - Let Lot choose the well-watered plain and trusted God with the leftovers. Serving by giving advantage away added peace - value for Lot, not loss for Abram.
   {{< bible ref="Mark 10:35-45" >}}
-  - **Jesus Gave a New Definition of Leadership** - Greatest serves - Son of Man came to give His life, not grab thrones.
+  - **Jesus Gave a New Definition of Leadership** - Greatest serves. The Son of Man came to give His life, not grab thrones - addition is how greatness works, not a soft extra.
   {{< bible ref="Philippians 2:1-11" >}}
-  - **Paul Encouraged Putting Others First** - Christ's mind in you - empty yourself like He did.
+  - **Paul Encouraged Putting Others First** - Empty yourself like Christ. Putting others first adds the value an ego grab never will.
 level_1: "The law of addition is that leaders add value by serving others."
 level_2: "Abram let Lot pick first - generosity added peace, not loss; Jesus redefined greatness as service, Paul told Philippi to put others first like Christ."
 level_3: "Before the next promotion fight, name one cost you can absorb so someone else wins visibly - serve before you grab credit."

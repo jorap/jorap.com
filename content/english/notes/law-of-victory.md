@@ -7,11 +7,11 @@ key_concept: |
   - Hub: [[21 Laws of Leadership in the Bible]] - lesson 15 of twenty-one Bible laws; horizontal frame in [[Leadership]].
   
   {{< bible ref="Judges 16:1, 16:15-31" >}}
-  - **Victory at a Cost** - Blinded Samson pushed the pillars - team's win cost everything he had left.
+  - **Victory at a Cost** - Blinded Samson pushed the pillars. He found a way for the people to win at the cost of everything he had left - leaders hunt a path to the win.
   {{< bible ref="1 Samuel 14:1-23" >}}
-  - **Jonathan Initiates the Battle** - Climbed cliff with armor-bearer - one man's faith triggered national victory.
+  - **Jonathan Initiates the Battle** - Climbed the cliff with his armor-bearer. One man's faith triggered national victory when the camp stalled - find a way, then the team follows.
   {{< bible ref="Mark 2:1-12" >}}
-  - **Finding a Way** - Four friends tore the roof - paralytic reached Jesus when the door failed.
+  - **Finding a Way** - Four friends tore the roof when the door failed. Victory is the path you invent so the team reaches what matters.
 level_1: "The law of victory is that leaders accept responsibility for finding a path to win for the team."
 level_2: "Samson's death toppled Philistines; Jonathan's climb sparked a rout; four friends tore a roof for healing - flawed people still cleared the path."
 level_3: "Define winning for the team in one sentence, then remove one blocker they cannot clear alone."

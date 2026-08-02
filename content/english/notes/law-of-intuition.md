@@ -9,11 +9,11 @@ key_concept: |
   - Hub: [[21 Laws of Leadership in the Bible]] - lesson 8 of twenty-one Bible laws; horizontal frame in [[Leadership]].
   
   {{< bible ref="1 Samuel 25:2-35" >}}
-  - **A Leader with Intuition Saves Lives** - Abigail intercepted David's anger - disaster averted by timely counsel.
+  - **A Leader with Intuition Saves Lives** - Abigail intercepted David's anger before blood. Leadership bias saw the disaster coming and moved while others still slept.
   {{< bible ref="1 Kings 3:16-28" >}}
-  - **The Wisdom of Solomon** - Two mothers, one living child - sword threat revealed the true mother.
+  - **The Wisdom of Solomon** - Two mothers, one living child - the sword threat revealed the true mother. Intuition read the heart when facts alone stalled.
   {{< bible ref="Acts 9:19-30" >}}
-  - **Barnabas Sees Paul's Potential** - Son of encouragement introduced feared convert to apostles.
+  - **Barnabas Sees Paul's Potential** - Son of encouragement introduced a feared convert to the apostles. Leadership bias saw calling where others saw only threat.
 level_1: "The law of intuition is that leaders read situations with a leadership lens."
 level_2: "Abigail stopped David's rash revenge - she read the room before blood spilled; Barnabas vouched for fresh-convert Paul when others flinched."
 level_3: "Pause the meeting when the room tone shifts - name what you sense before the agenda bulldozes it."

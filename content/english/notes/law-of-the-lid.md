@@ -7,11 +7,11 @@ key_concept: |
   - Hub: [[21 Laws of Leadership in the Bible]] - lesson 1 of twenty-one Bible laws; horizontal frame in [[Leadership]].
   
   {{< bible ref="Exodus 32:1-25" >}}
-  - **Aaron and Moses** - Aaron folded when Israel demanded a calf - Moses' return showed the lid gap between them.
+  - **Aaron and Moses** - Aaron caved when Israel demanded a calf; Moses returned and restored order. Same people, different ceiling - the lid is the leader's capacity, not the crowd's potential.
   {{< bible ref="1 Samuel 17:32-52" >}}
-  - **David and Saul** - Saul hid in fear; David stepped into the valley - courage out-ranked the crown.
+  - **David and Saul** - Saul hid in the tent while David stepped into the valley. The crown sat on a low lid; courage raised effectiveness beyond the title.
   {{< bible ref="1 Kings 12:1-20" >}}
-  - **Rehoboam and the People** - Harsh answer split ten tribes - low lid, shattered unity.
+  - **Rehoboam and the People** - A harsh answer split ten tribes. Low leadership lid shattered the unity he inherited - the people could not rise above the king's ceiling.
 level_1: "The law of the lid is the ceiling your leadership ability puts on what your team can achieve."
 level_2: "Like a jar lid too small for the jar, low leadership limits output no matter how big the opportunity grows."
 level_3: "Before you blame the crew for missed targets, ask whether your own leadership level is the bottleneck."

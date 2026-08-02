@@ -8,11 +8,11 @@ key_concept: |
   - Hub: [[21 Laws of Leadership in the Bible]] - lesson 16 of twenty-one Bible laws; horizontal frame in [[Leadership]].
   
   {{< bible ref="Deuteronomy 2:24-37" >}}
-  - **Early Victories** - Sihon and Og fell in sequence - obedience fed momentum.
+  - **Early Victories** - Sihon and Og fell in sequence. Obedience fed momentum that carried the next fight - wins stack when you keep moving.
   {{< bible ref="2 Kings 13:14-19" >}}
-  - **A Missed Opportunity for Momentum** - Joash struck three times, not six - prophet grieved the unfinished rout.
+  - **A Missed Opportunity for Momentum** - Joash struck three times, not six; the prophet grieved the unfinished rout. Momentum dies when the leader stops short.
   {{< bible ref="Acts 2:29-47" >}}
-  - **The Gospel Catches Fire** - Three thousand baptized one day - apostolic momentum ignited.
+  - **The Gospel Catches Fire** - Three thousand baptized in one day. Apostolic momentum multiplied what one sermon started - Big Mo is a leader's best friend once it catches.
 level_1: "The law of the big Mo is that momentum multiplies effort."
 level_2: "Israel's early conquests stacked wins; Elisha mourned half-hearted arrow strikes; Pentecost turned thousands in a day."
 level_3: "When momentum is hot, protect the next two quick wins - do not celebrate into complacency or strike the rock twice from boredom."

@@ -8,11 +8,11 @@ key_concept: |
   - Hub: [[21 Laws of Leadership in the Bible]] - lesson 6 of twenty-one Bible laws; horizontal frame in [[Leadership]].
   
   {{< bible ref="Proverbs 16:8-18" >}}
-  - **The Wisdom of King Solomon** - Better little with righteousness than great gain with injustice - pride precedes ruin.
+  - **The Wisdom of King Solomon** - Better little with righteousness than great gain with injustice; pride precedes ruin. Trust sits on character ground, not on image or haul.
   {{< bible ref="Matthew 23:1-28" >}}
-  - **Character Develops from the Inside Out** - Whitewashed tombs - clean outside, dead inside.
+  - **Character Develops from the Inside Out** - Whitewashed tombs look clean outside and stay dead inside. Solid ground fails when the leader's inside is hollow.
   {{< bible ref="1 Peter 5:1-11" >}}
-  - **Peter Gives Instruction** - Elders shepherd willingly, not for money - humble example, not lordship.
+  - **Peter Gives Instruction** - Elders shepherd willingly, not for money - humble example, not lordship. Trust is the foundation; force spends it.
 level_1: "The law of solid ground is that trust is the foundation of leadership."
 level_2: "Solomon warned pride goes before a fall; Jesus exposed whitewashed tombs; Peter told elders to shepherd willingly, not for shameful gain."
 level_3: "Catch one small promise you broke this week and repair it before the team files it as pattern."

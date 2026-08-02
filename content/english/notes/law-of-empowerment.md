@@ -8,11 +8,11 @@ key_concept: |
   - Hub: [[21 Laws of Leadership in the Bible]] - lesson 12 of twenty-one Bible laws; horizontal frame in [[Leadership]].
   
   {{< bible ref="Exodus 18:13-26" >}}
-  - **Moses the One-Man Band** - Jethro's counsel - share the load or wear out leader and people.
+  - **Moses the One-Man Band** - Jethro said share the load or wear out leader and people. Secure leadership multiplies judges instead of hoarding the seat.
   {{< bible ref="Ezra 7:11-28" >}}
-  - **Ezra Is Empowered to Lead** - King's letter gave authority, silver, and safe passage - institutional empowerment.
+  - **Ezra Is Empowered to Lead** - King's letter gave authority, silver, and safe passage. Empowerment is real power handed over - not slogans about trust.
   {{< bible ref="Matthew 10:1-33" >}}
-  - **Jesus Empowers and Warns** - Sent twelve with power - and honest warning about rejection.
+  - **Jesus Empowers and Warns** - Sent twelve with power and honest warning about rejection. Gave authority away before the mission scaled - only secure leaders release power.
 level_1: "The law of empowerment is that secure leaders delegate."
 level_2: "Jethro told Moses to appoint judges - one-man band was unsustainable; Jesus sent twelve with authority and warned of cost."
 level_3: "Hand one recurring decision to someone you have trained - name the boundary, then leave the room."

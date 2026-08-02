@@ -8,11 +8,11 @@ key_concept: |
   - Hub: [[21 Laws of Leadership in the Bible]] - lesson 3 of twenty-one Bible laws; horizontal frame in [[Leadership]].
   
   {{< bible ref="Acts 7:9-19" >}}
-  - **The Value of Joseph's Growth as a Leader** - Pit, prison, palace - each season forged admin skill and trust.
+  - **The Value of Joseph's Growth as a Leader** - Pit, prison, palace - each season forged skill and trust. Leadership developed across years of hidden work, not one overnight leap.
   {{< bible ref="Exodus 3:1-12" >}}
-  - **Moses Could Not Skip the Development Process** - Forty years in Midian before the burning bush - God did not rush the shepherd.
+  - **Moses Could Not Skip the Development Process** - Forty years in Midian before the burning bush. God did not rush the shepherd; the call came after the long daily forge.
   {{< bible ref="Acts 2:36-41" >}}
-  - **It Took Time for Peter to Live Up to His Name** - Rock confession, courtyard denial, then three thousand baptized - process, not instant polish.
+  - **It Took Time for Peter to Live Up to His Name** - Rock confession, courtyard denial, then three thousand baptized. The name fit after the climb - process, not instant polish.
 level_1: "The law of process is that leadership compounds in hidden years."
 level_2: "Joseph went slave to prime minister through prisons; Moses spent forty years off-stage before the bush; Peter denied Christ, then preached Pentecost."
 level_3: "Block one hour weekly for skill you cannot microwave - leadership reps live in boring Tuesdays, not one hero sprint."

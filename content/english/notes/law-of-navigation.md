@@ -8,11 +8,11 @@ key_concept: |
   - Hub: [[21 Laws of Leadership in the Bible]] - lesson 4 of twenty-one Bible laws; horizontal frame in [[Leadership]].
   
   {{< bible ref="Joshua 8:1-19" >}}
-  - **Joshua's Plan of Attack** - Ambush at Ai after defeat - second attempt followed a plotted course.
+  - **Joshua's Plan of Attack** - After defeat at Ai, the second attempt followed an ambush plan. Anyone can charge; a leader charts the course before the next fight.
   {{< bible ref="Nehemiah 4:7-23" >}}
-  - **Nehemiah Rallied His People to Rebuild and Defend** - Builders with a tool in one hand and a weapon in the other - navigation included threat.
+  - **Nehemiah Rallied His People to Rebuild and Defend** - Builders held a tool in one hand and a weapon in the other. Navigation meant charting wall and threat together so the work would not stall.
   {{< bible ref="Luke 14:28-31" >}}
-  - **Jesus Taught His Disciples to Count the Cost** - Tower and king analogies - chart before you swear allegiance.
+  - **Jesus Taught His Disciples to Count the Cost** - Tower and king analogies. Chart the cost before you swear allegiance - steering without a course is not leading.
 level_1: "The law of navigation is that someone has to chart the course before the crew rows."
 level_2: "Joshua laid an ambush plan before Ai; Nehemiah paired rebuild with weapons; Jesus told builders to count cost before breaking ground."
 level_3: "Write the risks and route on one page before you announce the march - no heroic improvisation as strategy."

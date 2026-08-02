@@ -8,11 +8,11 @@ key_concept: |
   - Hub: [[21 Laws of Leadership in the Bible]] - lesson 11 of twenty-one Bible laws; horizontal frame in [[Leadership]].
   
   {{< bible ref="Genesis 24:1-27" >}}
-  - **Abraham's Trusted Servant** - Sent to find Isaac's bride - faithful insider extended the patriarch's mission.
+  - **Abraham's Trusted Servant** - Sent to find Isaac's bride. The patriarch's potential rode on who was closest and trusted - inner circle extended the mission.
   {{< bible ref="2 Samuel 17:1-16" >}}
-  - **Leveraging the Law of the Inner Circle** - Hushai's counsel foiled Ahithophel - loyal friend inside Absalom's tent.
+  - **Leveraging the Law of the Inner Circle** - Hushai's counsel foiled Ahithophel inside Absalom's tent. The people nearest the leader decided the kingdom's next move.
   {{< bible ref="2 Samuel 12:1-13" >}}
-  - **A Hard Truth** - Nathan's parable broke David's denial - inner circle had to risk wrath.
+  - **A Hard Truth** - Nathan's parable broke David's denial. The closest voice had to risk wrath to save the leader - potential depends on who can tell you the truth.
 level_1: "The law of the inner circle is that a leader's potential is determined by those closest."
 level_2: "Abraham's servant swore an oath with integrity; Hushai outwitted Ahithophel; Nathan confronted David when sin hardened."
 level_3: "Invite one person who will tell you the truth into your next hard decision - not only cheerleaders in the tent."

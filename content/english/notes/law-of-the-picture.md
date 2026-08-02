@@ -7,11 +7,11 @@ key_concept: |
   - Hub: [[21 Laws of Leadership in the Bible]] - lesson 13 of twenty-one Bible laws; horizontal frame in [[Leadership]].
   
   {{< bible ref="2 Kings 23:1-16" >}}
-  - **Josiah - A King Like No Other** - Read the Law, then demolished high places - reform followed sight.
+  - **Josiah - A King Like No Other** - Read the Law, then demolished high places. Reform followed what the people saw the king do - people do what people see.
   {{< bible ref="John 13:1-17" >}}
-  - **Jesus' Example Stands for All Time** - Washed disciples' feet - love one another as I loved you.
+  - **Jesus' Example Stands for All Time** - Washed the disciples' feet, then said love one another as I loved you. The picture outran the speech.
   {{< bible ref="1 Corinthians 4:9-17" >}}
-  - **The Higher the Leader, the More Important the Example** - Paul: imitate me - apostles set the visible pattern.
+  - **The Higher the Leader, the More Important the Example** - Paul said imitate me - apostles set the visible pattern. Higher seat means louder example.
 level_1: "The law of the picture is that people follow what leaders model in action, not only what they announce."
 level_2: "Josiah tore down idols he read about; Jesus washed feet; Paul said imitate me - the walk out-teaches the speech."
 level_3: "Do the unglamorous task you keep assigning before you ask the team to carry it alone."

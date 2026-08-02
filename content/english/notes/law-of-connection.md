@@ -9,11 +9,11 @@ key_concept: |
   - Hub: [[21 Laws of Leadership in the Bible]] - lesson 10 of twenty-one Bible laws; horizontal frame in [[Leadership]].
   
   {{< bible ref="Genesis 32:3-12" >}}
-  - **Jacob Prepares to Face Esau** - Gifts and prayer before the reunion - fear met with prepared peace.
+  - **Jacob Prepares to Face Esau** - Gifts and prayer before the reunion. He touched the heart before he asked for peace with his hands.
   {{< bible ref="2 Samuel 15:1-13" >}}
-  - **Absalom Uses Connection for Self-Promotion** - Stole hearts with handshakes - connection weaponized for coup.
+  - **Absalom Uses Connection for Self-Promotion** - Stole hearts with handshakes at the gate. Connection without integrity became a coup tool - the law still worked for the wrong end.
   {{< bible ref="Philemon 1:1-21" >}}
-  - **Paul Connects Instead of Commanding** - Appeal on the basis of love - not apostolic hammer.
+  - **Paul Connects Instead of Commanding** - Appeal on the basis of love, not apostolic hammer. Asked for the hand after he touched the heart.
 level_1: "The law of connection is that hearts move before hands do."
 level_2: "Jacob sent gifts ahead to Esau - reconciliation before reunion; Paul appealed to Philemon as friend, not commander."
 level_3: "Ask how their week went before you ask for the favor - one human sentence before the hand request."

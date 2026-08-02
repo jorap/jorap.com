@@ -7,11 +7,11 @@ key_concept: |
   - Hub: [[21 Laws of Leadership in the Bible]] - lesson 20 of twenty-one Bible laws; horizontal frame in [[Leadership]].
   
   {{< bible ref="Exodus 35:30-35" >}}
-  - **Leading an Army of Craftsmen** - Spirit-filled artisans taught others - sanctuary rose by leader-multiplication.
+  - **Leading an Army of Craftsmen** - Spirit-filled artisans taught others; the sanctuary rose by multiplying skilled people. To add, lead followers; to multiply, lead leaders who teach.
   {{< bible ref="Luke 10:1-12" >}}
-  - **Leaders in Training** - Seventy sent two by two - harvest needed workers, not a solo celebrity.
+  - **Leaders in Training** - Seventy sent two by two. Harvest needed workers in training, not a solo celebrity - growth multiplies through leaders who lead leaders.
   {{< bible ref="2 Timothy 2:1-2" >}}
-  - **Paul's Strategy for Growth** - Elders in every church; truth entrusted to faithful who teach others.
+  - **Paul's Strategy for Growth** - Entrust truth to faithful people who will teach others also. Explosive growth is four generations deep, not one star.
 level_1: "The law of explosive growth is that multiplication adds leaders who spawn leaders, not only more bodies."
 level_2: "Bezalel trained craftsmen who built the tabernacle; Jesus sent seventy with authority; Paul appointed elders and told Timothy to entrust truth to faithful men."
 level_3: "Teach one person your full playbook this quarter - not just a task dump, the judgment calls they will need when you are not in the room."

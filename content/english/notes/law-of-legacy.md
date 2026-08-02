@@ -8,11 +8,11 @@ key_concept: |
   - Hub: [[21 Laws of Leadership in the Bible]] - lesson 21 of twenty-one Bible laws; horizontal frame in [[Leadership]].
   
   {{< bible ref="1 Kings 2:1-4" >}}
-  - **David Establishes Solomon as His Successor** - Public coronation and deathbed charge - kingdom continuity secured.
+  - **David Establishes Solomon as His Successor** - Public coronation and deathbed charge. Lasting value measured by who sits next - succession secured the kingdom after the last win.
   {{< bible ref="1 Kings 19:19-21" >}}
-  - **Elijah Chooses Elisha** - Mantle passed; double portion requested - prophetic succession.
+  - **Elijah Chooses Elisha** - Mantle passed; double portion requested. Prophetic work outlived the prophet because succession was intentional, not accidental.
   {{< bible ref="Matthew 28:16-20" >}}
-  - **Jesus' Plan of Succession** - Chose twelve after prayer; Great Commission extends to every generation.
+  - **Jesus' Plan of Succession** - Chose twelve after prayer; Great Commission extends to every generation. A leader's lasting value is disciples who make disciples.
 level_1: "The law of legacy is that lasting value is measured by who carries the work after you."
 level_2: "David charged Solomon to walk in God's ways; Elijah threw his mantle on Elisha; Jesus chose twelve and sent them to all nations."
 level_3: "Name your successor in writing - skills, values, and one unfinished charge they should carry before you leave the role."

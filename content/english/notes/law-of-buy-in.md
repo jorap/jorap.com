@@ -7,11 +7,11 @@ key_concept: |
   - Hub: [[21 Laws of Leadership in the Bible]] - lesson 14 of twenty-one Bible laws; horizontal frame in [[Leadership]].
   
   {{< bible ref="Judges 7:2-25" >}}
-  - **A Test of Leadership Buy-In** - Three hundred followed Gideon's odd battle plan - belief in the leader carried the night.
+  - **A Test of Leadership Buy-In** - Three hundred followed Gideon's odd battle plan. They bought the leader before the trumpet strategy made sense - people buy the person, then the vision.
   {{< bible ref="Nehemiah 2:1-18" >}}
-  - **Buying into a Bold Vision** - Cupbearer's grief earned royal favor - then Jerusalem's wall vision landed.
+  - **Buying into a Bold Vision** - Cupbearer's grief earned royal favor, then Jerusalem's wall vision landed. Trust in the man came before buy-in to the wall.
   {{< bible ref="Hebrews 3:1-15" >}}
-  - **Remaining Confident in Christ** - Fix eyes on Christ - do not harden hearts like the wilderness generation.
+  - **Remaining Confident in Christ** - Fix eyes on Christ; do not harden hearts like the wilderness generation. Buy-in to the Leader comes before endurance on the road.
 level_1: "The law of buy-in is that people trust the leader before the vision."
 level_2: "Gideon's trimmed army followed his jar-and-torch plan - buy-in to him, then the tactic; Nehemiah wept and prayed before he asked the king."
 level_3: "Share the plan only after people have seen you carry load - trust the leader before the slide deck lands in the room."
