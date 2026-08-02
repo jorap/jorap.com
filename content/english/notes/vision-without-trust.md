@@ -6,23 +6,20 @@ key_concept: |
   - Pitch the vision before you have trust and the room hears a slide, not a leader.
   - Failure mode of [[Law of Buy-In]] - you can violate the law and pay; you cannot repeal it.
   - Hub: [[21 Laws of Leadership in the Bible]] - violation partner, not a second law lesson.
-  
-  {{< bible ref="Numbers 14:1-4" emphasize="4" >}}
-  - Israel rejected the land promise and talked of a captain back to Egypt - they had not bought into Moses and Joshua's lead.
-  - Under [[Free Grace]] this failure costs influence, fellowship, and reward potential - not the free gift of eternal life.
+  - Earn [[Law of Buy-In]] through [[Law of Connection]] first - trust then vision.
 level_1: "Vision without trust means selling a future before people have bought into the person casting it."
 level_2: "Like a stranger pitching a relocation, the slides can be perfect and the yes still missing."
 level_3: "Before the big vision talk, check whether they would follow you on a smaller ask this week."
-level_4: "Israel chose Egypt talk over Canaan - buy-in failed at the leader before the map mattered."
-level_5: "Earn [[Law of Buy-In]] through [[Law of Connection]] first - trust then vision; allegiance to Christ for life is faith, not campaign buy-in."
+level_4: "When the room wants a new captain more than your map, buy-in failed at the leader before the plan mattered."
+level_5: "Earn [[Law of Buy-In]] through [[Law of Connection]] first - trust then vision; slides cannot replace deposits."
 examples:
   - "I unveiled the year plan and got polite silence - I had skipped months of smaller trust deposits."
-  - "Israel wanted a new captain back to Egypt - vision rejected with the leaders."
+  - "Day-one roadmap from a new lead landed flat - they had not seen her carry load yet."
 shareable_thought:
   - "Vision without trust sells the dream before people trust the dreamer - the pitch dies early."
   - "Pitch the vision before you have trust and the room hears a slide, not a leader."
   - "Before the big vision talk, check whether they would follow you on a smaller ask this week."
-  - "Israel chose Egypt talk over Canaan - buy-in failed at the leader before the map mattered."
+  - "When the room wants a new captain more than your map, buy-in failed at the leader before the plan mattered."
 relationships:
   - type: contradicts
     wikilink: "[[Law of Buy-In]]"
@@ -34,17 +31,17 @@ relationships:
     wikilink: "[[Law of Buy-In]]"
     reason: "Named cost when that leadership law is ignored"
   - type: extends
-    wikilink: "[[Free Grace]]"
-    reason: "Walk failure costs influence and reward - not eternal life"
+    wikilink: "[[Law of Connection]]"
+    reason: "Repair path - earn the heart before you pitch the map"
   - type: extends
-    wikilink: "[[Discipleship vs Leadership]]"
-    reason: "Horizontal technique failure still sits under upward allegiance"
+    wikilink: "[[Leadership Is Influence]]"
+    reason: "People buy the leader first - influence before the vision deck"
 slug: "vision-without-trust"
 date: "2026-08-02 18:40:00+08:00"
 image: "/images/note.jpg"
-categories: ["Faith"]
+categories: ["Leadership"]
 author: "JoRap"
-tags: ["Faith", "Leadership", "Bible", "Discipleship"]
+tags: ["Leadership", "Work", "Management"]
 aliases: ["vision without trust"]
 featured: false
 draft: false

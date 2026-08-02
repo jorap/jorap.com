@@ -13,6 +13,8 @@ key_concept: |
   - **Jesus' Example Stands for All Time** - Washed the disciples' feet, then said love one another as I loved you. The picture outran the speech.
   {{< bible ref="1 Corinthians 4:9-17" >}}
   - **The Higher the Leader, the More Important the Example** - Paul said imitate me - apostles set the visible pattern. Higher seat means louder example.
+  {{< bible ref="Matthew 23:1-4" >}}
+  - **Do As I Say, Not As I Do** - Pharisees piled heavy loads they would not lift. Mouth taught what feet refused - the team copies the picture, not the slogan.
 level_1: "The law of the picture is that people follow what leaders model in action, not only what they announce."
 level_2: "Josiah tore down idols he read about; Jesus washed feet; Paul said imitate me - the walk out-teaches the speech."
 level_3: "Do the unglamorous task you keep assigning before you ask the team to carry it alone."

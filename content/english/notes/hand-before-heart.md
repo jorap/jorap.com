@@ -1,32 +1,29 @@
 ---
 title: "Hand Before Heart"
-meta_title: "Hand Before Heart - Ask Before You Care"
-description: "Hand before heart asks for labor before trust - the ask lands cold and people stall."
+meta_title: "Hand Before Heart - Ask Before Connection"
+description: "Hand before heart asks for labor before any real connection - the ask feels like use, not leadership."
 key_concept: |
-  - Ask for labor before care and you get resistance - hearts move before hands do.
+  - Lead with the request and skip the care - people stall because they feel used, not led.
   - Failure mode of [[Law of Connection]] - you can violate the law and pay; you cannot repeal it.
   - Hub: [[21 Laws of Leadership in the Bible]] - violation partner, not a second law lesson.
-  
-  {{< bible ref="2 Samuel 15:1-6" emphasize="6" >}}
-  - Absalom stole hearts at the gate with fake care - connection for self-promotion still proves the law, then burns the kingdom.
-  - Under [[Free Grace]] this failure costs influence, fellowship, and reward potential - not the free gift of eternal life.
-level_1: "Hand before heart means demanding help before people feel seen or safe with you."
-level_2: "Like hiring a stranger mid-crisis with no greeting, the ask is clear and the trust is missing."
-level_3: "Before the next big ask, spend one honest check-in with no agenda - heart first, hand second."
-level_4: "Absalom faked connection to steal a kingdom - counterfeit care still shows that hearts move first."
-level_5: "Practice [[Law of Connection]] and [[Love Your Neighbor]] - earn the hand by caring; belonging stays by faith in Christ, not by how warm you sound."
+  - Repair with [[Law of Connection]] - earn the heart before you ask for the hand.
+level_1: "Hand before heart means demanding labor before you have earned trust or care with the person."
+level_2: "Like a stranger asking for a kidney, the ask is not wrong - the missing relationship makes it feel like use."
+level_3: "Before the next big ask, spend one real conversation on their load - connection first, request second."
+level_4: "Charm that only shows up when you need volunteers is connection theater - hearts close and hands slow."
+level_5: "Repair with [[Law of Connection]] - touch the heart first; followership grows after care, not after the pitch."
 examples:
-  - "I opened with the volunteer ask and watched faces close - I had skipped the care."
-  - "Absalom at the gate kissed hands he meant to use - connection as campaign."
+  - "I pinged the whole channel for weekend help without asking how anyone was - hands stayed dark."
+  - "I led with the deadline slide and skipped the check-in - the room complied once, then ghosted the next ask."
 shareable_thought:
-  - "Hand before heart asks for labor before trust - the ask lands cold and people stall."
-  - "Ask for labor before care and you get resistance - hearts move before hands do."
-  - "Before the next big ask, spend one honest check-in with no agenda - heart first, hand second."
-  - "Absalom faked connection to steal a kingdom - counterfeit care still shows that hearts move first."
+  - "Hand before heart asks for labor before any real connection - the ask feels like use, not leadership."
+  - "Lead with the request and skip the care - people stall because they feel used, not led."
+  - "Before the next big ask, spend one real conversation on their load - connection first, request second."
+  - "Charm that only shows up when you need volunteers is connection theater - hearts close and hands slow."
 relationships:
   - type: contradicts
     wikilink: "[[Law of Connection]]"
-    reason: "Failure mode when the ask lands before care"
+    reason: "Failure mode when the ask lands before any care"
   - type: extends
     wikilink: "[[21 Laws of Leadership in the Bible]]"
     reason: "Violation partner for Law of Connection"
@@ -34,17 +31,17 @@ relationships:
     wikilink: "[[Law of Connection]]"
     reason: "Named cost when that leadership law is ignored"
   - type: extends
-    wikilink: "[[Free Grace]]"
-    reason: "Walk failure costs influence and reward - not eternal life"
+    wikilink: "[[Servant Leadership]]"
+    reason: "Repair path - care for people before you draft their hands"
   - type: extends
-    wikilink: "[[Discipleship vs Leadership]]"
-    reason: "Horizontal technique failure still sits under upward allegiance"
+    wikilink: "[[Leadership]]"
+    reason: "Horizontal connection failure sits under the leadership stack"
 slug: "hand-before-heart"
 date: "2026-08-02 18:40:00+08:00"
 image: "/images/note.jpg"
-categories: ["Faith"]
+categories: ["Leadership"]
 author: "JoRap"
-tags: ["Faith", "Leadership", "Bible", "Discipleship"]
+tags: ["Leadership", "Work", "Management"]
 aliases: ["hand before heart"]
 featured: false
 draft: false

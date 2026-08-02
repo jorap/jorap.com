@@ -6,23 +6,20 @@ key_concept: |
   - Grab the advantage and you subtract trust - addition is service, not a throne grab.
   - Failure mode of [[Law of Addition]] - you can violate the law and pay; you cannot repeal it.
   - Hub: [[21 Laws of Leadership in the Bible]] - violation partner, not a second law lesson.
-  
-  {{< bible ref="Mark 10:35-45" emphasize="45" >}}
-  - James and John asked for thrones; Jesus named the cup of service - greatness adds by giving, not by seating.
-  - Under [[Free Grace]] this failure costs influence, fellowship, and reward potential - not the free gift of eternal life.
+  - Flip back to [[Law of Addition]] and [[Servant Leadership]] - serve first; add value before you claim the seat.
 level_1: "Leading by subtraction means taking advantage and credit so the team ends smaller."
 level_2: "Like claiming the best seat at the table, the grab looks like winning and costs followership."
 level_3: "Before the next promotion fight, name one cost you can absorb so someone else wins visibly."
-level_4: "Throne requests without towels are subtraction dressed as ambition - the Son of Man came to serve."
-level_5: "Flip back to [[Law of Addition]] and [[Servant Leadership]] - serve first; under [[Free Grace]] serving answers grace, it does not buy eternal life."
+level_4: "Seat requests without towels are subtraction dressed as ambition - greatness adds by giving, not by seating."
+level_5: "Flip back to [[Law of Addition]] and [[Servant Leadership]] - serve first; addition rebuilds what the grab spent."
 examples:
   - "I kept the easier shift and watched trust drop - subtraction looked like self-care on my calendar."
-  - "James and John wanted seats of honor - Jesus pointed at the servant cup."
+  - "I took the spotlight slot and left the grunt work to juniors - the room got quieter around me."
 shareable_thought:
   - "Leading by subtraction grabs credit and advantage - the team shrinks while the leader looks bigger."
   - "Grab the advantage and you subtract trust - addition is service, not a throne grab."
   - "Before the next promotion fight, name one cost you can absorb so someone else wins visibly."
-  - "Throne requests without towels are subtraction dressed as ambition - the Son of Man came to serve."
+  - "Seat requests without towels are subtraction dressed as ambition - greatness adds by giving, not by seating."
 relationships:
   - type: contradicts
     wikilink: "[[Law of Addition]]"
@@ -34,17 +31,17 @@ relationships:
     wikilink: "[[Law of Addition]]"
     reason: "Named cost when that leadership law is ignored"
   - type: extends
-    wikilink: "[[Free Grace]]"
-    reason: "Walk failure costs influence and reward - not eternal life"
+    wikilink: "[[Servant Leadership]]"
+    reason: "Repair path - serve to add value instead of grab credit"
   - type: extends
-    wikilink: "[[Discipleship vs Leadership]]"
-    reason: "Horizontal technique failure still sits under upward allegiance"
+    wikilink: "[[Leadership]]"
+    reason: "Horizontal subtraction failure sits under the leadership stack"
 slug: "leading-by-subtraction"
 date: "2026-08-02 18:40:00+08:00"
 image: "/images/note.jpg"
-categories: ["Faith"]
+categories: ["Leadership"]
 author: "JoRap"
-tags: ["Faith", "Leadership", "Bible", "Discipleship"]
+tags: ["Leadership", "Work", "Management"]
 aliases: ["leading by subtraction"]
 featured: false
 draft: false

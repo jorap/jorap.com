@@ -6,23 +6,20 @@ key_concept: |
   - Insecure leaders hoard power - only secure leaders give it away so the work multiplies.
   - Failure mode of [[Law of Empowerment]] - you can violate the law and pay; you cannot repeal it.
   - Hub: [[21 Laws of Leadership in the Bible]] - violation partner, not a second law lesson.
-  
-  {{< bible ref="Exodus 18:13-18" emphasize="18" >}}
-  - Moses judged alone from morning to evening until Jethro warned he would wear out - and wear the people out.
-  - Under [[Free Grace]] this failure costs influence, fellowship, and reward potential - not the free gift of eternal life.
+  - Return to [[Law of Empowerment]] and [[Invest in the Few]] - give real authority, not fake errands.
 level_1: "Hoarding all power means keeping decisions that others could carry because sharing feels like a threat."
 level_2: "Like a one-man band on a stadium stage, volume is high and coverage is thin."
 level_3: "Delegate one real decision this week with authority attached - not a fake errand you will redo overnight."
-level_4: "Moses' queue was endless until he shared judging - empowerment is secure leadership, not abdication theater."
-level_5: "Return to [[Law of Empowerment]] and [[Invest in the Few]] - give power; under [[Free Grace]] sharing authority is stewardship after the gift, not the price of it."
+level_4: "An endless personal queue means you never shared judging - empowerment is secure leadership, not abdication theater."
+level_5: "Return to [[Law of Empowerment]] and [[Invest in the Few]] - give power; sharing authority grows leaders instead of burning one."
 examples:
   - "I redid every task I had passed on at midnight - the hoard was fear dressed as standards."
-  - "Moses sat alone all day - Jethro named the burnout before the people did."
+  - "Every approval still routed through me - the team waited while I wore out."
 shareable_thought:
   - "Hoarding all power keeps every decision - insecure leaders bottleneck the work they fear to share."
   - "Insecure leaders hoard power - only secure leaders give it away so the work multiplies."
   - "Delegate one real decision this week with authority attached - not a fake errand you will redo overnight."
-  - "Moses' queue was endless until he shared judging - empowerment is secure leadership, not abdication theater."
+  - "An endless personal queue means you never shared judging - empowerment is secure leadership, not abdication theater."
 relationships:
   - type: contradicts
     wikilink: "[[Law of Empowerment]]"
@@ -34,17 +31,17 @@ relationships:
     wikilink: "[[Law of Empowerment]]"
     reason: "Named cost when that leadership law is ignored"
   - type: extends
-    wikilink: "[[Free Grace]]"
-    reason: "Walk failure costs influence and reward - not eternal life"
+    wikilink: "[[Invest in the Few]]"
+    reason: "Repair path - give real authority to people who can carry it"
   - type: extends
-    wikilink: "[[Discipleship vs Leadership]]"
-    reason: "Horizontal technique failure still sits under upward allegiance"
+    wikilink: "[[Servant Leadership]]"
+    reason: "Secure leaders serve by sharing power, not hoarding it"
 slug: "hoarding-all-power"
 date: "2026-08-02 18:40:00+08:00"
 image: "/images/note.jpg"
-categories: ["Faith"]
+categories: ["Leadership"]
 author: "JoRap"
-tags: ["Faith", "Leadership", "Bible", "Discipleship"]
+tags: ["Leadership", "Work", "Management"]
 aliases: ["hoarding all power"]
 featured: false
 draft: false

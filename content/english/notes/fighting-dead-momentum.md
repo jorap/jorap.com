@@ -1,32 +1,29 @@
 ---
 title: "Fighting Dead Momentum"
-meta_title: "Fighting Dead Momentum - Effort Without the Flywheel"
-description: "Fighting dead momentum spends hard effort after the flywheel stopped - every push costs more."
+meta_title: "Fighting Dead Momentum - Pushing After Mo Already Died"
+description: "Fighting dead momentum pushes harder after Mo dies - effort multiplies friction instead of progress."
 key_concept: |
-  - Keep swinging after Mo dies and each shove buys less ground than the last.
+  - Push harder after momentum dies and effort multiplies friction - Mo was the friend you ignored.
   - Failure mode of [[Law of Big Mo]] - you can violate the law and pay; you cannot repeal it.
   - Hub: [[21 Laws of Leadership in the Bible]] - violation partner, not a second law lesson.
-  
-  {{< bible ref="2 Kings 13:14-19" emphasize="18" >}}
-  - Joash struck the arrows a few times and stopped - Elisha named limited victories because the king quit early.
-  - Under [[Free Grace]] this failure costs influence, fellowship, and reward potential - not the free gift of eternal life.
-level_1: "Fighting dead momentum means forcing progress after the flywheel stopped instead of restarting small wins."
-level_2: "Like pedaling a bike with a locked wheel, sweat rises and distance does not."
-level_3: "When everything feels twice as hard, stop the hero push and stack one small win that can restart Mo."
-level_4: "Joash stopped striking - limited Mo meant limited victory; momentum is a friend you can also forfeit."
-level_5: "Protect [[Law of Big Mo]] with [[Compounding]] and [[Steward After the Win]] - Mo is stewardship after grace, not a spiritual scoreboard."
+  - Return to [[Law of Big Mo]] - rebuild small wins before you floor the gas.
+level_1: "Fighting dead momentum means forcing volume after the team's energy and wins have already stalled."
+level_2: "Like flooring a car with a dead battery, more throttle only burns the starter."
+level_3: "When wins stop stacking, cut scope to one visible win this week before you demand a bigger push."
+level_4: "Half-hearted strikes after Mo dies waste the remaining arrows - rebuild momentum before the big swing."
+level_5: "Return to [[Law of Big Mo]] - stack small wins first; dead Mo does not revive under louder urgency."
 examples:
-  - "I doubled meetings after the streak broke - fighting dead Mo with calendar noise."
-  - "Joash struck a few times and quit - Elisha named the ceiling he chose."
+  - "I stacked three all-hands after the product stall - noise rose, Mo stayed dead."
+  - "We pushed a second launch week with the same broken funnel - effort without a restart."
 shareable_thought:
-  - "Fighting dead momentum spends hard effort after the flywheel stopped - every push costs more."
-  - "Keep swinging after Mo dies and each shove buys less ground than the last."
-  - "When everything feels twice as hard, stop the hero push and stack one small win that can restart Mo."
-  - "Joash stopped striking - limited Mo meant limited victory; momentum is a friend you can also forfeit."
+  - "Fighting dead momentum pushes harder after Mo dies - effort multiplies friction instead of progress."
+  - "Push harder after momentum dies and effort multiplies friction - Mo was the friend you ignored."
+  - "When wins stop stacking, cut scope to one visible win this week before you demand a bigger push."
+  - "Half-hearted strikes after Mo dies waste the remaining arrows - rebuild momentum before the big swing."
 relationships:
   - type: contradicts
     wikilink: "[[Law of Big Mo]]"
-    reason: "Failure mode when effort fights a dead flywheel"
+    reason: "Failure mode when leaders push after momentum already died"
   - type: extends
     wikilink: "[[21 Laws of Leadership in the Bible]]"
     reason: "Violation partner for Law of Big Mo"
@@ -34,17 +31,17 @@ relationships:
     wikilink: "[[Law of Big Mo]]"
     reason: "Named cost when that leadership law is ignored"
   - type: extends
-    wikilink: "[[Free Grace]]"
-    reason: "Walk failure costs influence and reward - not eternal life"
+    wikilink: "[[Leadership]]"
+    reason: "Horizontal momentum failure sits under the leadership stack"
   - type: extends
-    wikilink: "[[Discipleship vs Leadership]]"
-    reason: "Horizontal technique failure still sits under upward allegiance"
+    wikilink: "[[Law of Priorities]]"
+    reason: "Cut scope to one win - activity is not the restart"
 slug: "fighting-dead-momentum"
 date: "2026-08-02 18:40:00+08:00"
 image: "/images/note.jpg"
-categories: ["Faith"]
+categories: ["Leadership"]
 author: "JoRap"
-tags: ["Faith", "Leadership", "Bible", "Discipleship"]
+tags: ["Leadership", "Work", "Management"]
 aliases: ["fighting dead momentum"]
 featured: false
 draft: false

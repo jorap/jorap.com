@@ -14,6 +14,8 @@ key_concept: |
   - **Paul Declines to Employ His Privileges** - Apostle became all things to all men; rights laid down for reach. Sacrifice opened the gospel's travel lane.
   {{< bible ref="1 Timothy 3:1-10" >}}
   - **Setting the Bar for Leadership** - Overseer qualifications - desire is noble, standard is costly. Leadership climbs by what you surrender, not what you grab.
+  {{< bible ref="Mark 10:37-40" >}}
+  - **Climb Without the Cup** - James and John asked for seats of honor; Jesus named the cup and baptism of suffering. Wanting up without giving up hits the toll booth.
 level_1: "The law of sacrifice is that leaders give up to go up."
 level_2: "Nazirite vow set apart hair, wine, and comfort; Paul waived rights so gospel would spread; elder qualifications name the personal cost upfront."
 level_3: "Name one comfort you will lay down this month so the team can advance - make the cost visible early, not hidden until resentment builds."

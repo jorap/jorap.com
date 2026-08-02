@@ -13,6 +13,8 @@ key_concept: |
   - **Jonathan Initiates the Battle** - Climbed the cliff with his armor-bearer. One man's faith triggered national victory when the camp stalled - find a way, then the team follows.
   {{< bible ref="Mark 2:1-12" >}}
   - **Finding a Way** - Four friends tore the roof when the door failed. Victory is the path you invent so the team reaches what matters.
+  {{< bible ref="1 Samuel 17:10-11" >}}
+  - **Settling for Loss** - Goliath taunted; Saul and Israel were dismayed and greatly afraid. Early acceptance of defeat became the camp's culture until someone found a way.
 level_1: "The law of victory is that leaders accept responsibility for finding a path to win for the team."
 level_2: "Samson's death toppled Philistines; Jonathan's climb sparked a rout; four friends tore a roof for healing - flawed people still cleared the path."
 level_3: "Define winning for the team in one sentence, then remove one blocker they cannot clear alone."

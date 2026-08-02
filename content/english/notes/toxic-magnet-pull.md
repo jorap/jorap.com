@@ -1,32 +1,29 @@
 ---
 title: "Toxic Magnet Pull"
-meta_title: "Toxic Magnet Pull - Who You Are Is Who Shows Up"
-description: "Toxic magnet pull draws matching rot - who you are is who you attract, for worse as for better."
+meta_title: "Toxic Magnet Pull - Character That Attracts the Same Rot"
+description: "Toxic magnet pull keeps attracting the same rot - the magnet is your character, not bad luck."
 key_concept: |
-  - You attract who you are - toxic pull is character recruiting its twin.
+  - Keep attracting the same rot and the magnet is you - character draws what it is.
   - Failure mode of [[Law of Magnetism]] - you can violate the law and pay; you cannot repeal it.
   - Hub: [[21 Laws of Leadership in the Bible]] - violation partner, not a second law lesson.
-  
-  {{< bible ref="1 Kings 21:5-16" emphasize="7" >}}
-  - Jezebel planned Naboth's death for Ahab's sulk - evil followed evil into the vineyard.
-  - Under [[Free Grace]] this failure costs influence, fellowship, and reward potential - not the free gift of eternal life.
-level_1: "Toxic magnet pull means your character keeps drawing people who match the worst in you."
-level_2: "Like a magnet under a metal scrap pile, the pull is honest even when the pile is junk."
-level_3: "Audit who keeps circling you this quarter - if the pattern is flattery and shortcuts, change what you reward in yourself first."
-level_4: "Ahab sulked; Jezebel murdered - magnetism is not neutral; character sets the guest list."
-level_5: "Aim [[Law of Magnetism]] toward [[Christlikeness]] - who you become shapes who stays; fruit may back up growth, it never grounds assurance."
+  - Repair through [[Law of Magnetism]] and [[Ethical Leadership]] - change what you reward and who stays close.
+level_1: "Toxic magnet pull means your character keeps drawing the same harmful people and habits into the room."
+level_2: "Like a fridge magnet stuck on rust, you keep collecting what matches your field - not random bad luck."
+level_3: "Name the last three hires or allies who burned the team - ask what in you signaled that was welcome."
+level_4: "Who you protect and praise becomes the magnet - rot repeats until the character field changes."
+level_5: "Repair through [[Law of Magnetism]] and [[Ethical Leadership]] - change what you reward so the next pull is healthier."
 examples:
-  - "Every hire who mirrored my shortcuts lasted - the magnet was me, not the market."
-  - "Ahab wanted a vineyard; Jezebel delivered murder - evil followed evil."
+  - "Every reorg I landed the same yes-people - the magnet was my hunger for agreement, not the market."
+  - "I kept the sharp tongue that closed deals and wondered why the next wave cut corners the same way."
 shareable_thought:
-  - "Toxic magnet pull draws matching rot - who you are is who you attract, for worse as for better."
-  - "You attract who you are - toxic pull is character recruiting its twin."
-  - "Audit who keeps circling you this quarter - if the pattern is flattery and shortcuts, change what you reward in yourself first."
-  - "Ahab sulked; Jezebel murdered - magnetism is not neutral; character sets the guest list."
+  - "Toxic magnet pull keeps attracting the same rot - the magnet is your character, not bad luck."
+  - "Keep attracting the same rot and the magnet is you - character draws what it is."
+  - "Name the last three hires or allies who burned the team - ask what in you signaled that was welcome."
+  - "Who you protect and praise becomes the magnet - rot repeats until the character field changes."
 relationships:
   - type: contradicts
     wikilink: "[[Law of Magnetism]]"
-    reason: "Failure mode when character attracts matching rot"
+    reason: "Failure mode when character keeps drawing the same rot"
   - type: extends
     wikilink: "[[21 Laws of Leadership in the Bible]]"
     reason: "Violation partner for Law of Magnetism"
@@ -34,17 +31,17 @@ relationships:
     wikilink: "[[Law of Magnetism]]"
     reason: "Named cost when that leadership law is ignored"
   - type: extends
-    wikilink: "[[Free Grace]]"
-    reason: "Walk failure costs influence and reward - not eternal life"
+    wikilink: "[[Ethical Leadership]]"
+    reason: "What you reward and protect becomes the next magnet"
   - type: extends
-    wikilink: "[[Discipleship vs Leadership]]"
-    reason: "Horizontal technique failure still sits under upward allegiance"
+    wikilink: "[[Leadership]]"
+    reason: "Horizontal magnetism failure sits under the leadership stack"
 slug: "toxic-magnet-pull"
 date: "2026-08-02 18:40:00+08:00"
 image: "/images/note.jpg"
-categories: ["Faith"]
+categories: ["Leadership"]
 author: "JoRap"
-tags: ["Faith", "Leadership", "Bible", "Discipleship"]
+tags: ["Leadership", "Work", "Management", "Ethics"]
 aliases: ["toxic magnet pull"]
 featured: false
 draft: false

@@ -1,28 +1,25 @@
 ---
 title: "Climb Without Cost"
 meta_title: "Climb Without Cost - Wanting Up Without Giving Up"
-description: "Climb without cost wants the higher seat without giving anything up - leadership stalls at the toll."
+description: "Climb without cost wants the higher seat without paying the personal toll leadership requires."
 key_concept: |
-  - Want the higher seat without paying the toll and the climb stalls at the booth.
+  - Want to go up without giving up and the toll booth stops you - sacrifice is the price of the climb.
   - Failure mode of [[Law of Sacrifice]] - you can violate the law and pay; you cannot repeal it.
   - Hub: [[21 Laws of Leadership in the Bible]] - violation partner, not a second law lesson.
-  
-  {{< bible ref="Mark 10:37-40" emphasize="38" >}}
-  - James and John wanted glory seats; Jesus asked if they could drink His cup - climb without cost is not the path He named.
-  - Under [[Free Grace]] this failure costs influence, fellowship, and reward potential - not the free gift of eternal life.
-level_1: "Climb without cost means seeking greater influence while refusing the personal losses leadership requires."
-level_2: "Like demanding a summit photo without the hike, the pose is ready and the legs never paid."
-level_3: "Before you say yes to a bigger role, name one comfort you will actually give up this month."
-level_4: "Glory seats without the cup are fantasy - leaders give up to go up, or they stay at the booth."
-level_5: "Live [[Law of Sacrifice]] with [[Take Up Your Cross]] - pay the toll; sacrifice is discipleship after free grace, not the purchase of heaven."
+  - Practice [[Law of Sacrifice]] - name the comfort you will lay down before you ask for the seat.
+level_1: "Climb without cost means wanting more influence while refusing the personal price that comes with it."
+level_2: "Like demanding a summit photo without the hike, the title request arrives with empty hands."
+level_3: "Before you ask for the next level, name one comfort you will lay down this month so the team can advance."
+level_4: "Seats of honor without the cup of cost hit the toll booth - up requires a down payment."
+level_5: "Practice [[Law of Sacrifice]] - give up to go up; the climb is real only when the cost is paid."
 examples:
-  - "I wanted the lead role and kept every comfort - the climb stalled at the cost I would not name."
-  - "James and John asked for thrones - Jesus asked about the cup."
+  - "I wanted the director title and kept every Friday golf block - the climb stalled at the cost I refused."
+  - "I asked for the lead role and would not drop the side projects - up without a down payment."
 shareable_thought:
-  - "Climb without cost wants the higher seat without giving anything up - leadership stalls at the toll."
-  - "Want the higher seat without paying the toll and the climb stalls at the booth."
-  - "Before you say yes to a bigger role, name one comfort you will actually give up this month."
-  - "Glory seats without the cup are fantasy - leaders give up to go up, or they stay at the booth."
+  - "Climb without cost wants the higher seat without paying the personal toll leadership requires."
+  - "Want to go up without giving up and the toll booth stops you - sacrifice is the price of the climb."
+  - "Before you ask for the next level, name one comfort you will lay down this month so the team can advance."
+  - "Seats of honor without the cup of cost hit the toll booth - up requires a down payment."
 relationships:
   - type: contradicts
     wikilink: "[[Law of Sacrifice]]"
@@ -34,17 +31,17 @@ relationships:
     wikilink: "[[Law of Sacrifice]]"
     reason: "Named cost when that leadership law is ignored"
   - type: extends
-    wikilink: "[[Free Grace]]"
-    reason: "Walk failure costs influence and reward - not eternal life"
+    wikilink: "[[Servant Leadership]]"
+    reason: "Repair path - pay the toll that serves the team upward"
   - type: extends
-    wikilink: "[[Discipleship vs Leadership]]"
-    reason: "Horizontal technique failure still sits under upward allegiance"
+    wikilink: "[[Leadership]]"
+    reason: "Horizontal sacrifice failure sits under the leadership stack"
 slug: "climb-without-cost"
 date: "2026-08-02 18:40:00+08:00"
 image: "/images/note.jpg"
-categories: ["Faith"]
+categories: ["Leadership"]
 author: "JoRap"
-tags: ["Faith", "Leadership", "Bible", "Discipleship"]
+tags: ["Leadership", "Work", "Management"]
 aliases: ["climb without cost"]
 featured: false
 draft: false

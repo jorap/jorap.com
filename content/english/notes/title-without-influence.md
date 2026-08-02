@@ -4,13 +4,14 @@ meta_title: "Title Without Influence - Badge Without Followers"
 description: "A title borrows authority; if nobody moves when you speak, you are managing paperwork, not leading."
 key_concept: |
   - Leadership Is Influence flips the test: leadership is not the walk you take alone - it is whether anyone follows.
+  - Failure mode of [[Law of Influence]] - you can violate the law and pay; you cannot repeal it.
+  - Hub: [[21 Laws of Leadership in the Bible]] - violation partner, not a second law lesson.
   - This note is the hollow version: org-chart authority without earned trust.
   - Meetings that change nothing.
   - Directives the crew waits out until the senior tech returns.
   - Pulling rank because the slide says director while trust sits with someone else.
   - [[Ethical Leadership]] still applies - what you tolerate becomes their standard even when they are only complying on paper.
   - [[Servant Leadership]] is the repair path: unblock, coach, take blame up, pass credit down - deposits that turn borrowed authority into granted influence.
-  - [[Title Without Influence]] is not permanent if you stop leaning on the badge and start earning followership.
 level_1: "Title without influence means having org-chart authority while nobody actually follows when you speak - a badge without followership."
 level_2: "Leadership Is Influence flips the test - not the walk you take alone, but whether anyone chooses to follow you."
 level_3: "Before you lean on title, ask who would follow if the org chart disappeared tomorrow - meetings that change nothing are the hollow version."

@@ -6,23 +6,20 @@ key_concept: |
   - Build a personal brand with no baton and the work dies when you leave.
   - Failure mode of [[Law of Legacy]] - you can violate the law and pay; you cannot repeal it.
   - Hub: [[21 Laws of Leadership in the Bible]] - violation partner, not a second law lesson.
-  
-  {{< bible ref="Judges 2:7-10" emphasize="10" >}}
-  - After Joshua's generation, another rose that did not know the Lord or the work He had done - succession failed and the cycle of forgetting began.
-  - Under [[Free Grace]] this failure costs influence, fellowship, and reward potential - not the free gift of eternal life.
+  - Build [[Law of Legacy]] - name a successor and hand a real baton piece this quarter.
 level_1: "No successor left means the work has no one prepared to carry it when the leader steps away."
 level_2: "Like a shop that closes when the owner retires, skill lived in one head and never transferred."
 level_3: "Name your succession person this quarter and give them one real baton piece, not a shadow seat."
-level_4: "Joshua's generation died and knowledge of the Lord faded - legacy is succession, not a monument to yourself."
-level_5: "Build [[Law of Legacy]] through [[Great Commission]] and [[Faithful Steward]] - pass truth on; succession is discipleship fruit after free grace, not a ticket to heaven."
+level_4: "When knowledge dies with the leader, lasting value was never transferred - legacy is succession, not a monument."
+level_5: "Build [[Law of Legacy]] - pass the work on; succession is the final exam, not a farewell speech."
 examples:
-  - "I left the ministry week and nothing moved - no successor left because I had never handed the baton."
-  - "After Joshua, a generation rose that did not know the Lord - succession had failed."
+  - "I left the role and nothing moved - no successor left because I had never handed the baton."
+  - "The runbook lived only in my head - the next lead spent a month rediscovering what I never taught."
 shareable_thought:
   - "No successor left means lasting value dies with you - legacy is measured by who carries the work after."
   - "Build a personal brand with no baton and the work dies when you leave."
   - "Name your succession person this quarter and give them one real baton piece, not a shadow seat."
-  - "Joshua's generation died and knowledge of the Lord faded - legacy is succession, not a monument to yourself."
+  - "When knowledge dies with the leader, lasting value was never transferred - legacy is succession, not a monument."
 relationships:
   - type: contradicts
     wikilink: "[[Law of Legacy]]"
@@ -34,17 +31,17 @@ relationships:
     wikilink: "[[Law of Legacy]]"
     reason: "Named cost when that leadership law is ignored"
   - type: extends
-    wikilink: "[[Free Grace]]"
-    reason: "Walk failure costs influence and reward - not eternal life"
+    wikilink: "[[Followers Without Leaders]]"
+    reason: "No leaders raised means no successor left either"
   - type: extends
-    wikilink: "[[Discipleship vs Leadership]]"
-    reason: "Horizontal technique failure still sits under upward allegiance"
+    wikilink: "[[Leadership]]"
+    reason: "Horizontal legacy failure sits under the leadership stack"
 slug: "no-successor-left"
 date: "2026-08-02 18:40:00+08:00"
 image: "/images/note.jpg"
-categories: ["Faith"]
+categories: ["Leadership"]
 author: "JoRap"
-tags: ["Faith", "Leadership", "Bible", "Discipleship"]
+tags: ["Leadership", "Work", "Management"]
 aliases: ["no successor left"]
 featured: false
 draft: false

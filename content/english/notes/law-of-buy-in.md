@@ -13,6 +13,8 @@ key_concept: |
   - **Buying into a Bold Vision** - Cupbearer's grief earned royal favor, then Jerusalem's wall vision landed. Trust in the man came before buy-in to the wall.
   {{< bible ref="Hebrews 3:1-15" >}}
   - **Remaining Confident in Christ** - Fix eyes on Christ; do not harden hearts like the wilderness generation. Buy-in to the Leader comes before endurance on the road.
+  {{< bible ref="Numbers 14:1-4" >}}
+  - **Vision Without a Trusted Guide** - Israel wept and named a new captain back to Egypt. They rejected the leaders before they rejected the land - no buy-in, no march.
 level_1: "The law of buy-in is that people trust the leader before the vision."
 level_2: "Gideon's trimmed army followed his jar-and-torch plan - buy-in to him, then the tactic; Nehemiah wept and prayed before he asked the king."
 level_3: "Share the plan only after people have seen you carry load - trust the leader before the slide deck lands in the room."
