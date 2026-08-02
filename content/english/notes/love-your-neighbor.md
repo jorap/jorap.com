@@ -67,14 +67,14 @@ featured: false
 review: true
 card_sets: ["Eternal Principles", "Gospel", "Commandments"]
 cards:
-  - front: "Neighbor I'd rather avoid lives next door. Do they count?"
+  - front: "Neighbor I'd rather avoid lives next door. What's the move?"
     back: "Show mercy - next door counts."
   - front: "Deciding how much help to give someone hard to love. What standard do I use?"
     back: "Care I'd want if roles reversed."
   - front: "Worship felt fine but I'm snapping at family tonight - God and neighbor split. What's the move?"
     back: "Stop splitting - love both today."
-  - front: "Walking past someone hurt on the road. What defines neighbor here?"
-    back: "Act with mercy - that's neighbor."
+  - front: "Walking past someone hurt on the road. What's the move?"
+    back: "Stop and help - mercy makes the neighbor."
   - front: "They wronged me - withholding help until they're nicer. What do I do?"
     back: "Love as yourself - go first."
   - front: "Mental loop: do they qualify as neighbor? Flip the question - what do I ask instead?"

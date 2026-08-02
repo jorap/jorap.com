@@ -69,9 +69,9 @@ featured: false
 review: true
 card_sets: ["Eternal Principles", "Gospel", "Faith"]
 cards:
-  - front: "Friend at coffee lists good deeds as their heaven ticket. What do I trust for eternal life?"
-    back: "Gift through faith - not wages for deeds."
-  - front: "Good week makes me feel qualified for heaven. What kind of favor am I standing on?"
+  - front: "I keep calling mercy and grace the same thing when someone asks what God did for me. Split them?"
+    back: "Mercy spared wrath - grace gave the gift."
+  - front: "Good week makes me feel like God owes me a favor. What kind of favor am I standing on?"
     back: "Favor I never earned - gift through faith."
   - front: "Obedience after conversion - what's driving it?"
     back: "Live gratefully - the gift already landed."
@@ -79,7 +79,7 @@ cards:
     back: "Trust Christ - not my report card."
   - front: "Bad week and panic that heaven access revoked. What still holds?"
     back: "Standing settled - confess, keep walking."
-  - front: "Mercy spared wrath - gift gave life - both in one rescue, one landing. What comes first?"
-    back: "The gift saves - mercy spared wrath first."
+  - front: "Friend says God only helps those who help themselves. One sentence back?"
+    back: "Gift through faith - not wages for deeds."
 draft: false
 ---

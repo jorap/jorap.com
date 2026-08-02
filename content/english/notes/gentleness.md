@@ -61,10 +61,10 @@ card_sets: ["Eternal Principles", "Gospel", "Discipleship"]
 cards:
   - front: "Correction with my kid - volume up, love thinned. What's the move?"
     back: "Drop volume - strength under control."
-  - front: "Group project and I am grasping for status credit. Kingdom move?"
+  - front: "Group project and I am grasping for status credit. What's the move?"
     back: "Serve - do not strut for the spotlight."
   - front: "Foot-washing feels below my role - status over serve. What comes first?"
-    back: "Serve first - greatness is not grasping."
+    back: "Serve first - don't grasp greatness."
   - front: "Sacrifice story ready to post for applause. One check before send?"
     back: "Humble - let the Father get credit."
   - front: "Kid melted down publicly - embarrassment tempting sharp correction. What's the move?"

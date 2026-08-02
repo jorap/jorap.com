@@ -67,7 +67,7 @@ featured: false
 review: true
 card_sets: ["Eternal Principles", "Gospel", "Discipleship"]
 cards:
-  - front: "Grasping for status in a group project. Kingdom path to greatness?"
+  - front: "Grasping for status in a group project. What's the move?"
     back: "Serve all - last becomes first."
   - front: "Waiting to be served at home after serving at church. What's the gap?"
     back: "Serve here too - same kingdom ladder."
@@ -77,7 +77,7 @@ cards:
     back: "Humble self - let God exalt."
   - front: "Tempted to exalt myself in a story about my sacrifice. One check?"
     back: "Humble - don't grab the spotlight."
-  - front: "Leadership seat felt like the win. What makes someone great?"
-    back: "Servant of all - not title grabbed."
+  - front: "Leadership seat felt like the win. What's the move?"
+    back: "Serve everyone - don't grab the title."
 draft: false
 ---

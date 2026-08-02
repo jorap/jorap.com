@@ -56,7 +56,7 @@ card_sets: ["Eternal Principles", "Gospel", "Discipleship"]
 cards:
   - front: "Extra water for the bench - almost posted about it. Who gets glory?"
     back: "Father - not my brand."
-  - front: "Good deed done but I want credit in the caption. What's the fruit test?"
+  - front: "Good deed done but I want credit in the caption. Who gets glory?"
     back: "Shine so God gets credit."
   - front: "Hiding help from false modesty when it should point up. Who should get credit?"
     back: "Let it shine - glorify the Father."

@@ -50,13 +50,13 @@ review: true
 card_sets: ["Jesus Rhythms", "Gospel", "Faith"]
 cards:
   - front: "Deep work blocked, neighbor knocked shaken - door still closed. What's the move?"
-    back: "Compassion bends - help now."
+    back: "Open the door - help now."
   - front: "Walked past the hurting kid because I was busy - kept walking. What comes first?"
-    back: "Moved first - then touched."
+    back: "Stop and help - don't keep walking."
   - front: "Schedule full, someone harassed and helpless - calendar winning. What's the reframe?"
-    back: "Compassion interrupts - not the calendar."
+    back: "Interrupt the calendar - help the person."
   - front: "Throughput over the person in front - optimizing the plan. What's the move?"
-    back: "Moved with compassion - bend the schedule."
+    back: "Bend the schedule - person first."
   - front: "Neighbor can wait until Friday - blocked afternoon feels sacred. What comes first?"
     back: "Serve now - compassion moves first."
   - front: "Policy says not my problem - crowd looks harassed and helpless. What's the move?"

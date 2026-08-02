@@ -101,6 +101,17 @@ If a card tests whether you can explain an idea, the back should be a **clear on
 
 Wiki = nuance. Cards = Faith / Eternal Principles spine you drill so the chain is automatic under pressure. Learn less; retain longer; apply more. Do not enable cards on Productivity, Leadership, Growth, or Thinking notes.
 
+## Audit lessons (cue → apply)
+
+Recurring fixes from Faith / Eternal Principles spine passes:
+
+- **Prayer-as-move OK** - Jesus Prayers backs may be the prayed words (`Not my will`, `Father, forgive them`) when that *is* the immediate move.
+- **Title echo on concept backs is bad** unless the title words *are* the move. Prefer verb-first (`Help them`, not `Sabbath for good - …`).
+- **No PKM jargon** on gospel fronts/backs (`Signal vs noise`, `stewardship lens`, `[[wikilinks]]` in cards).
+- **No fruit-grounds-assurance cues** (`What should show?`, `What proves I belong?`) - Anderson: fruit may back up, never grounds.
+- **Avoid truncated-back tails** - don't end a back on bare function words (`… is.`, `… in.`, `… to.`) - audit flags them.
+- **Subtle hint ≠ telegraphy** - `One check?` / `What comes first?` good; `Which beatitude?` / `Kindness fruit move?` / note-title quiz bad.
+
 ## Anti-goals
 
 - **Vanity metrics** - chasing review count, streak length, or fact pile-up instead of recall-and-use in real life

@@ -59,11 +59,11 @@ cards:
     back: "Shine - they glorify God, not me."
   - front: "Good works under a basket - scared of looking proud. What's the move?"
     back: "Let light shine - visibility for God."
-  - front: "Drafting a post about my charity. Audience check?"
+  - front: "Drafting a post about my charity. Who is this for?"
     back: "Glorify Father - don't show off good deeds."
   - front: "Neighbor won't see God is real if I hide every good work. First move?"
     back: "Do good visibly - point to Father."
-  - front: "About to skip serving publicly because I hate attention. Why shine?"
-    back: "So others glorify God - don't hide."
+  - front: "About to skip serving publicly because I hate attention. What's the move?"
+    back: "Do the good - point people to Father."
 draft: false
 ---

@@ -56,15 +56,15 @@ review: true
 card_sets: ["Eternal Principles", "Gospel", "Prayer"]
 cards:
   - front: "Email and inbox before any quiet time with God most mornings. How do I keep approaching the Father?"
-    back: "Ask, seek, knock - keep coming."
+    back: "Keep coming - ask again today."
   - front: "Prayer feels like earning answers by performance. How am I approaching the Father?"
     back: "Child asking a parent."
   - front: "Asked for something harmful - bitter God didn't comply. What does a wise Father give?"
     back: "What's good - not always what I asked."
-  - front: "Rushing through the Lord's Prayer to daily bread. Whose name, kingdom, will first?"
-    back: "Father's name, kingdom, will first."
-  - front: "Praying where people can notice me. Who is the real audience?"
-    back: "The Father alone."
+  - front: "Rushing through prayer to get to my list. What comes first?"
+    back: "His name, kingdom, will - then my asks."
+  - front: "Stopped asking after one unanswered week. What's the move?"
+    back: "Ask again - keep seeking."
   - front: "Know the words by heart but haven't opened Scripture in a week. Besides asking, what do I do?"
     back: "Seek in Scripture - open the Book."
 draft: false

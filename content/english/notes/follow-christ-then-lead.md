@@ -68,8 +68,8 @@ featured: false
 review: true
 card_sets: ["Eternal Principles", "Gospel", "Discipleship", "Ethics"]
 cards:
-  - front: "Finance wants numbers softened and my team's watching. Order of moves?"
-    back: "Follow Christ - refuse, explain calmly, own fallout."
+  - front: "Finance wants numbers softened and my team's watching. What comes first?"
+    back: "Refuse the soften - follow Christ first."
   - front: "Parents might leave if I teach the hard verse. What comes first?"
     back: "Teach it plain - then stay and answer."
   - front: "Room wants a cover-up I would never take alone. One sequence?"

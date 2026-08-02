@@ -87,17 +87,17 @@ featured: false
 review: true
 card_sets: ["Eternal Principles", "Gospel", "Discipleship"]
 cards:
-  - front: "Obeying to feel saved again after a bad week. What's the wrong motive?"
+  - front: "Obeying hard this week so I can feel saved again after snapping. What's driving it?"
     back: "Grace already saved - obey from thanks."
-  - front: "Grace clear in my head, zero change in how I treat people. What's missing?"
+  - front: "Grace clear in my head, zero change in how I treat people at the desk. What's missing?"
     back: "Grateful walk - do what He said today."
-  - front: "Bible study high, same sin pattern untouched. Hearing without doing - fix?"
+  - front: "Bible study high, same sin pattern untouched. Hearing without doing - first fix?"
     back: "Obey gratefully - act today."
-  - front: "Tempted to list good deeds when someone asks how to be saved. Lead with what?"
-    back: "Faith in Christ - obedience follows thanks."
+  - front: "Kid asks why I do the hard right thing if heaven is already settled. Lead with what?"
+    back: "Thanks - grace already saved."
   - front: "Holiness streak broke and I quit trying. Wrong order in my head?"
     back: "Saved first - get back up, obey from grace."
-  - front: "Cross-bearing to feel qualified for heaven. Correct the motive?"
+  - front: "Carrying the hard yes today only to feel qualified for heaven. Correct the motive?"
     back: "Faith saves - cross shapes daily thanks."
 draft: false
 ---

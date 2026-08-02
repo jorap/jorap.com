@@ -61,7 +61,7 @@ cards:
     back: "Abide tonight - Scripture before news."
   - front: "Cut off in traffic - horn for horn incoming. One beat?"
     back: "One breath - slow the moment."
-  - front: "Trying to checklist patience by Friday. What grows it?"
+  - front: "Trying to checklist a slow fuse by Friday. What grows it?"
     back: "Daily abide - fruit grows slow."
   - front: "Correction turned sharp - volume up, slow fuse gone. One beat?"
     back: "Drop volume - one breath first."

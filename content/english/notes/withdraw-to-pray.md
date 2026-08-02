@@ -56,7 +56,7 @@ cards:
   - front: "Calendar stacked - treating quiet time like optional skip. What comes first?"
     back: "Slip away - pray before I serve."
   - front: "Skipped prayer and brought empty fumes to the last meeting. What comes first?"
-    back: "Withdraw to pray - before the push."
+    back: "Slip away and pray - before the next push."
   - front: "Posting my quiet time instead of having one - feed bait ready. What's the reframe?"
     back: "Father alone - not the feed."
   - front: "Inbox before prayer most mornings - phone wins again. What comes first?"

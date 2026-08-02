@@ -70,7 +70,7 @@ cards:
     back: "Receive - drop willpower alone."
   - front: "Thumb on news feed before I opened Scripture today. First move to stay connected?"
     back: "Scripture and prayer - connect first."
-  - front: "Prayers feel misaligned with God's will. Besides staying connected, what must dwell in me?"
-    back: "His words - read Scripture."
+  - front: "Prayers feel misaligned with God's will. First fix besides staying connected?"
+    back: "Read His words - let Scripture shape the ask."
 draft: false
 ---

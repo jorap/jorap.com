@@ -70,17 +70,17 @@ featured: false
 review: true
 card_sets: ["Eternal Principles", "Gospel", "Ethics"]
 cards:
-  - front: "Feeling self-sufficient after a good week. Kingdom posture I am missing?"
-    back: "Poor in spirit - receive as gift."
-  - front: "Loss hit hard and I want to skip church. What posture did Jesus bless?"
-    back: "Mourn - comfort comes to mourners."
-  - front: "Thumb itching to clap back and prove I am strong. Which beatitude fork?"
-    back: "Meek - do not grasp status."
-  - front: "Scrolling outrage instead of craving what God calls right. What's the blessed hunger?"
-    back: "Hunger to do right."
+  - front: "Feeling self-sufficient after a good week. What's the posture?"
+    back: "Admit need - receive as gift."
+  - front: "Loss hit hard and I want to skip church. What's the move?"
+    back: "Mourn honestly - comfort comes to mourners."
+  - front: "Thumb itching to clap back and prove I am strong. What's the move?"
+    back: "Stay meek - don't grasp status."
+  - front: "Scrolling outrage instead of craving what God calls right. What's the hunger?"
+    back: "Hunger to do right - not rage."
   - front: "Someone who wronged me needs help. First merciful move?"
-    back: "Show mercy - merciful obtain mercy."
-  - front: "Persecuted for doing right - tempted to quit looking faithful. What's the promise?"
-    back: "Kingdom of heaven - blessed are persecuted."
+    back: "Show mercy - don't choke the debt."
+  - front: "Persecuted for doing right - tempted to quit looking faithful. What's still true?"
+    back: "Stay the course - kingdom holds."
 draft: false
 ---

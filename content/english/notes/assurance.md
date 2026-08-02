@@ -68,17 +68,17 @@ featured: false
 review: true
 card_sets: ["Eternal Principles", "Gospel", "Faith"]
 cards:
-  - front: "Bad week and dread God changed His mind about me. What rests assurance on?"
+  - front: "Bad week and dread God changed His mind about me. What do I rest on?"
     back: "Christ's promise - not my streak."
-  - front: "Picture judgment seat - panic heaven might get revoked. What's already settled?"
+  - front: "Mind jumps to final review - panic heaven might get revoked. What's already settled?"
     back: "Salvation at faith - works reviewed after."
   - front: "Doubt loop after hidden sin - am I really saved? Anchor?"
     back: "Trust what Christ finished - confess, walk."
   - front: "Someone says they can't know if they're saved. One sentence back?"
     back: "Rest on His promise - not your report card."
   - front: "Waiting to feel holy enough before I trust I'm His. Wrong order?"
-    back: "Believe first - assurance follows faith."
-  - front: "Guilt looping even though I memorized the verse - shame won't quit. What's the move?"
-    back: "Nothing from God's love in Christ."
+    back: "Believe first - rest follows faith."
+  - front: "Guilt looping even after I trusted Him - shame won't quit. What's the move?"
+    back: "Rest on His promise - confess, walk."
 draft: false
 ---

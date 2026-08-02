@@ -68,14 +68,14 @@ card_sets: ["Eternal Principles", "Gospel", "Faith"]
 cards:
   - front: "Coworker says good deeds earn heaven - like salvation takes both. One sentence?"
     back: "Works answer grace - they don't buy heaven."
-  - front: "Confident I'm saved but life unchanged. What should show?"
-    back: "Show me your faith by what you do."
-  - front: "Saved-by-faith versus works-that-answer - same order?"
+  - front: "Trust is real but my week shows zero follow-through. What's the move?"
+    back: "Act on what you trust - works answer grace."
+  - front: "Tempted to treat good deeds as the other half of the ticket. Correct the order?"
     back: "Faith saves first - then faith acts."
   - front: "Listing good deeds when someone asks how to be saved. Lead with what?"
     back: "Trust Christ - works follow, don't pay."
   - front: "Hearing sermons, saving verses, zero obedience - hearing without doing. What's missing?"
-    back: "Wise builder - hear and do."
+    back: "Hear and do - build on what He said."
   - front: "Obedience to feel acceptable to God again. Mixing up what saves?"
     back: "Faith saves - obedience responds."
 draft: false

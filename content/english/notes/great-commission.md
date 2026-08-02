@@ -61,17 +61,17 @@ featured: false
 review: true
 card_sets: ["Eternal Principles", "Gospel", "Discipleship"]
 cards:
-  - front: "Notes garden full, gospel never leaves my mouth. What's the hoarding move?"
+  - front: "Notes garden full, gospel never leaves my mouth. What's the move?"
     back: "Share truth - don't hoard like bookmarks."
   - front: "Someone asks how to follow Jesus - I lecture systems not gospel. Lead with?"
-    back: "Repent and believe - then teach obedience."
-  - front: "Baptize and teach feels like someone else's job. Who did Jesus send?"
-    back: "All disciples - go, he is with you."
+    back: "Trust Christ - then teach obedience."
+  - front: "Baptize and teach feels like someone else's job. What's the move?"
+    back: "Go yourself - He is with you."
   - front: "Obedience teaching skipped because grace saved them. What's missing?"
     back: "Teach obedience - following after faith."
-  - front: "Afraid to speak up at work about faith. Promise Jesus gave?"
-    back: "I am with you - go anyway."
-  - front: "Truth hoarded in private study, zero disciples made. What's the commission?"
-    back: "Go make disciples - not hoard in garden."
+  - front: "Afraid to speak up at work about faith. What's the move?"
+    back: "Speak anyway - He is with you."
+  - front: "Truth hoarded in private study, zero disciples made. What's the move?"
+    back: "Go make disciples - don't hoard the garden."
 draft: false
 ---

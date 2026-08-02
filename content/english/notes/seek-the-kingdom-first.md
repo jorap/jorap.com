@@ -61,16 +61,16 @@ featured: false
 review: true
 card_sets: ["Eternal Principles", "Gospel", "Priorities"]
 cards:
-  - front: "Anxiety scrolling finances before I've prayed. Seek what first - then let needs follow?"
+  - front: "Anxiety scrolling finances before I've prayed. What comes first?"
     back: "Kingdom first - pray, then act."
   - front: "Calendar filled before I opened Scripture this week. Reorder - what comes first?"
     back: "Kingdom first - Scripture before inbox."
   - front: "Tuesday 7am, house loud, Bible still closed on the counter. What comes first?"
     back: "Open Scripture before the inbox."
   - front: "Work hustle and Sunday worship pulling opposite - two masters, one calendar. What's the move?"
-    back: "God - not money."
+    back: "Serve God first - money is not master."
   - front: "Wallet and calendar both pulling hard. One reframe before I chase either?"
-    back: "Move treasure - heart follows."
+    back: "Aim treasure at what lasts with God."
   - front: "Treating kingdom life like something I must earn. What's the actual entry?"
     back: "Receive by faith - then live it."
 draft: false

@@ -74,7 +74,7 @@ cards:
     back: "Father sees hidden - he'll repay."
   - front: "One heroic volunteer week mistaken for down payment on heaven. What's true?"
     back: "Saved by faith - rewards after."
-  - front: "Small daily obedience feels too small to matter eternally. What stacks?"
+  - front: "Small daily obedience feels too small to matter later. What still counts?"
     back: "Faithful acts compound - Father repays."
 draft: false
 ---

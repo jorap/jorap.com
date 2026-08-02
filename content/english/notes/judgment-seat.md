@@ -65,15 +65,15 @@ featured: false
 review: true
 card_sets: ["Eternal Principles", "Gospel", "Priorities"]
 cards:
-  - front: "Picture standing before Christ reviewing my life. Panic that heaven might get revoked. What's this seat for?"
-    back: "Works evaluated - salvation already settled."
-  - front: "Years of service feel like my heaven ticket. What gets weighed at the judgment seat?"
+  - front: "Mind races to standing before Christ someday - panic that heaven might get revoked. What's this review for?"
+    back: "Works for reward - life already settled."
+  - front: "Years of church service feel like my heaven ticket. What actually gets weighed later?"
     back: "Faithful works for reward - not re-buying life."
-  - front: "Hidden obedience nobody applauded. Will it show up there?"
-    back: "Yes - Father sees; Christ evaluates."
+  - front: "Quiet Tuesday obedience nobody saw or clapped for. Still counted when Christ reviews?"
+    back: "Father saw it - Christ evaluates."
   - front: "Wood, hay, stubble week - dread like I'm unsaved. Two categories?"
     back: "Saved - some work burns; standing stays."
-  - front: "Treating final evaluation like a salvation retrial. Correct the order?"
+  - front: "Ugly week and I keep reopening whether I'm in or out with God. Correct the order?"
     back: "Justified already - rewards assessed after."
   - front: "Volunteer spotlight week - tempted to coast through the quiet months after. What does the master review?"
     back: "Faithful use over the whole stretch - not one week."

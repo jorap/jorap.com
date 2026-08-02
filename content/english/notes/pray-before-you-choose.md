@@ -52,14 +52,14 @@ cards:
   - front: "About to announce the new team lead - prayed yet?"
     back: "Pray before the commit - not after."
   - front: "Spreadsheet done, prayer never happened - list is ready to ship. What's the move?"
-    back: "All night in prayer - before you name them."
+    back: "Pray the list - then name them."
   - front: "Two offers ranked by salary, zero time on the mountain. What's missing?"
     back: "Pray the fork - then choose."
   - front: "Big hire feels urgent - skip prayer to move fast. What comes first?"
-    back: "Night before the fork - depend first."
+    back: "Pray first - then move."
   - front: "Decision already posted online, prayer in the car - public first. What's the move?"
     back: "Pray before announce - not after."
   - front: "Committing other people to my call without asking God. What's missing?"
-    back: "Pray before you choose."
+    back: "Ask God first - then commit them."
 draft: false
 ---

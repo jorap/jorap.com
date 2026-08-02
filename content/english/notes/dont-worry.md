@@ -54,8 +54,8 @@ featured: false
 review: true
 card_sets: ["Eternal Principles", "Gospel", "Priorities"]
 cards:
-  - front: "2am spiral about bills - treating worry like it'll fix tomorrow. What's true?"
-    back: "Worry adds nothing - Father feeds birds; today's enough."
+  - front: "2am spiral about bills - treating worry like it'll fix tomorrow. What's the move?"
+    back: "Stop the spiral - today's enough."
   - front: "Thumb on news refresh about tomorrow's meeting. One move that breaks the worry loop?"
     back: "Today's enough - don't borrow tomorrow's trouble."
   - front: "Treating worry like it'll add hours to my life. What does it actually do?"

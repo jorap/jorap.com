@@ -64,7 +64,7 @@ cards:
     back: "As I would want it spoken - in love."
   - front: "Tempted to just avoid harm and skip doing good. What's the active move?"
     back: "Do good - not only avoid harm."
-  - front: "Ethical fork, no rulebook handy. One experiential check before I act?"
+  - front: "Hard call at the clinic desk - no checklist, just a person waiting. One check before I act?"
     back: "How would I want to be treated?"
   - front: "Someone cut ahead at the clinic and I drafted a public scolding. One check?"
     back: "Grace - how I would want to be corrected."

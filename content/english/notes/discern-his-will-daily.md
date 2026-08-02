@@ -68,7 +68,7 @@ cards:
     back: "Saved first - discern from a fed mind now."
   - front: "Big fork tomorrow and I haven't opened Scripture all week. What's missing?"
     back: "Renew first - then approve His will."
-  - front: "Choosing comfort over the hard right thing - mind renewed, fork still easy. What's the move?"
-    back: "Test His will - good and acceptable and perfect."
+  - front: "Choosing comfort over the hard right thing - mind fed, fork still easy. What's the move?"
+    back: "Test His will - pick the hard right."
 draft: false
 ---

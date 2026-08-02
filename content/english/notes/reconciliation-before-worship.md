@@ -53,15 +53,15 @@ featured: false
 review: true
 card_sets: ["Eternal Principles", "Gospel", "Ethics"]
 cards:
-  - front: "Gift in hand, brother still hurt by me. Order Jesus gave?"
+  - front: "Gift in hand for Sunday - brother still hurt by me. What comes first?"
     back: "Fix it first - then offer gift."
   - front: "Sunday worship while avoiding someone I wronged. What breaks?"
     back: "Empty worship - go fix it first."
-  - front: "Worship feeling high but unrepaired relationship at home. First move?"
+  - front: "Worship feeling high but unrepaired fight at home. First move?"
     back: "Leave gift - go fix it."
-  - front: "Broken link in the garden I keep ignoring. Human parallel?"
-    back: "Repair breach first - face to face."
-  - front: "Know they're angry but hope ceremony fixes it. Who moves?"
+  - front: "Know I wronged them - still scrolling past the hard conversation. What's the move?"
+    back: "Go face to face - repair first."
+  - front: "Know they're angry but hope the service fixes it. Who moves?"
     back: "I go - my move first."
   - front: "Already saved but distant from a brother. What's restored?"
     back: "Closeness restored - not re-earning heaven."

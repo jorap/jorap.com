@@ -60,16 +60,16 @@ review: true
 card_sets: ["Eternal Principles", "Gospel", "Ethics"]
 cards:
   - front: "Anger simmering after traffic - treated them fine outwardly. What's the move?"
-    back: "Murder in the heart - deal with anger."
-  - front: "Lust logged mentally while marriage looks fine outside. Inner standard?"
-    back: "Adultery in heart - cut off at motive."
+    back: "Name the anger - deal with it before it grows."
+  - front: "Lust logged mentally while marriage looks fine outside. What's the move?"
+    back: "Cut it off at the thought - don't feed it."
   - front: "Polished Sunday face, nursing grudge Monday - motions without heart. What's missing?"
-    back: "Heart - not just going through motions."
+    back: "Heart first - drop the performance."
   - front: "About to send cold reply while sounding righteous. One inner check?"
-    back: "Motives - anger is heart murder."
-  - front: "Performing good works while resentment runs inside. What exposes depth?"
-    back: "God wants heart-right - He sees motive."
+    back: "Check the motive - don't send from anger."
+  - front: "Performing good works while resentment runs inside. What's the move?"
+    back: "Confess the resentment - God sees motive."
   - front: "Tempted to excuse inner sin because nobody saw. Who sees?"
-    back: "God sees heart - start where only He looks."
+    back: "God sees - start where only He looks."
 draft: false
 ---

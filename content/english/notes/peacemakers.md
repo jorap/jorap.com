@@ -59,17 +59,17 @@ featured: false
 review: true
 card_sets: ["Eternal Principles", "Gospel", "Ethics"]
 cards:
-  - front: "Two friends feuding - tempted to pick a side and stoke it. What's the blessed move?"
+  - front: "Two friends feuding - tempted to pick a side and stoke it. What's the move?"
     back: "Make peace - go fix it."
-  - front: "Conflict at work and I just want quiet. Peace-at-any-price?"
-    back: "No - make peace, not silence only."
+  - front: "Conflict at work and I just want quiet so I can leave. What's missing?"
+    back: "Make peace - silence alone isn't enough."
   - front: "Hard truth needs saying but I soft-pedal to avoid fight. What am I called to?"
     back: "Peace through truth in love."
-  - front: "Wronged and revenge would feel peaceful for five minutes. Family resemblance move?"
-    back: "Make peace like the Father did."
+  - front: "Wronged and revenge would feel peaceful for five minutes. What's the real move?"
+    back: "Make peace - don't mirror the harm."
   - front: "Family dinner tension - finger on gossip instead of bridge-building. First move?"
     back: "Pursue peace - speak to fix it."
-  - front: "Someone thinks peace means never confronting sin. What do I say?"
+  - front: "Someone thinks peace means never naming the wrong. What do I say?"
     back: "Peace is work - truth plus making peace."
 draft: false
 ---

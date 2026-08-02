@@ -60,7 +60,7 @@ featured: false
 review: true
 card_sets: ["Eternal Principles", "Gospel", "Ethics"]
 cards:
-  - front: "Praying but nursing a grudge - skipping the line about others. Say it now?"
+  - front: "Praying while nursing a grudge - words stuck in my throat. What's the move?"
     back: "Forgive those who wrong me."
   - front: "Wronged and refusing to forgive before I sleep. What breaks?"
     back: "Closeness with God - forgive from the heart."

@@ -78,7 +78,7 @@ cards:
     back: "Standing on Christ stays - confess, come close again."
   - front: "Worship feels hollow after an unresolved fight - closeness cracked, not standing. What's the move?"
     back: "Fellowship - reconcile, then worship."
-  - front: "Bad season and terror heaven access got revoked. What cannot faith undo?"
-    back: "Justification - standing on Christ stays."
+  - front: "Bad season and terror heaven access got revoked. What's still settled?"
+    back: "Standing on Christ - confess, walk closeness back."
 draft: false
 ---

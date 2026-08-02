@@ -62,14 +62,14 @@ card_sets: ["Eternal Principles", "Gospel", "Discipleship"]
 cards:
   - front: "Heard the Sermon preached many times - how I treat people unchanged. What's missing?"
     back: "Do one command today - not hear only."
-  - front: "Storm hit - job loss, betrayal, floor shaking. What reveals rock vs sand?"
-    back: "Obedience under stress - not just hearing."
+  - front: "Storm hit - job loss, betrayal, floor shaking. What still holds?"
+    back: "Keep obeying under stress - hearing alone collapses."
   - front: "Can quote the hard commands on money and enemies but skip them. What's showing?"
     back: "Obey the hard commands - today."
   - front: "Bible study Monday, same gossip Tuesday. One move that matches hearing?"
     back: "Do what he said - match hearing."
-  - front: "Faith saved me but hearing feels empty. What shows hearing became obedience?"
-    back: "Do one command - rock is hear-and-do, not hear-only."
+  - front: "Faith saved me but hearing feels empty. What's the next move?"
+    back: "Do one command - hear and do."
   - front: "Saved sermons and notes but no obedience showing up. One move I take today?"
     back: "Obey one command Jesus gave."
 draft: false

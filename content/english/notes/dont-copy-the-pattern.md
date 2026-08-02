@@ -59,18 +59,18 @@ tags: ["Gospel", "Eternal Principles", "Discipleship", "Romans", "Culture", "Foc
 aliases: ["do not conform", "world's pattern", "refuse culture's default"]
 featured: false
 review: true
-card_sets: ["Eternal Principles", "Gospel", "Discipleship", "Focus"]
+card_sets: ["Eternal Principles", "Gospel", "Discipleship"]
 cards:
-  - front: "Scrolling outrage feeds all week, Scripture closed on the counter. Whose pattern is running my reactions?"
-    back: "World's default - refuse it, open Scripture first."
+  - front: "Everyone at the table is copying the loudest cynic - I feel the script pulling me in. What's the interrupt?"
+    back: "Refuse the pattern - speak from truth."
   - front: "Thumb hovering over the hot take before I've read the actual story. One interrupt?"
-    back: "Don't copy the pattern - pause before the reply."
+    back: "Pause before the reply - don't copy the room."
   - front: "Team trash-talk after one bad call - league script loading. One move?"
     back: "Refuse the pattern - composure over copycat rage."
   - front: "Comparison trap after someone's highlight reel post. Interrupt?"
-    back: "Don't conform - close the feed, open truth."
+    back: "Close the feed - open truth."
   - front: "Hurry-and-react at dinner again - same script as the morning news. First refusal?"
-    back: "Stop copying the pattern - breathe, then speak."
+    back: "Stop copying - breathe, then speak."
   - front: "Algorithm feed rewriting my mood before coffee. Posture before it loads?"
     back: "Refuse the default - Scripture before scroll."
 draft: false

@@ -62,7 +62,7 @@ cards:
     back: "Gentle build-up - de-escalate, then truth."
   - front: "Unsolicited fix without listening - ears closed. What's missing?"
     back: "Listen first - then words that build."
-  - front: "Speaking to earn standing - ledger already clean?"
-    back: "Forgiven lips - build up from grace received."
+  - front: "Words loading to prove I'm still a good Christian after a bad week. What's the move?"
+    back: "Standing settled - speak to build up, not earn."
 draft: false
 ---

@@ -50,7 +50,7 @@ cards:
   - front: "Delaying faith until my habits improve. When do I enter?"
     back: "Today - by faith, not when fixed."
   - front: "Someone groveling until they feel good enough for God. One sentence I would say?"
-    back: "Turn from self-trust - not earning it."
+    back: "Trust Christ now - stop earning it."
   - front: "Head agrees with gospel facts but life unchanged. What's missing?"
     back: "Rely on Christ's promise - trust."
   - front: "Trying to obey my way into eternal life. What receives life vs what guides after?"

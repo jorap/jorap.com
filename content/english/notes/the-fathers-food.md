@@ -49,17 +49,17 @@ featured: false
 review: true
 card_sets: ["Jesus Rhythms", "Gospel", "Faith"]
 cards:
-  - front: "Disciples worried about lunch - He kept talking about food instead. What's the move?"
-    back: "Father's will - obedience feeds."
+  - front: "Disciples worried about lunch - He kept talking about the Father's will. What's the move?"
+    back: "Do the Father's will - that feeds."
   - front: "Treating obedience like homework after the fun - dessert I might skip. What's the move?"
-    back: "Father's food - will is the meal."
+    back: "Obey first - will is the meal."
   - front: "Skipped hard obedience because I was hungry and tired. What comes first?"
     back: "Father's errand first - food later."
   - front: "Nothing on my own initiative - appetite leading the day. What's the move?"
     back: "Only what pleases the Father."
   - front: "Cravings before kingdom - lunch louder than the Sender. What's the move?"
-    back: "Father's will - not bread alone."
+    back: "Father's will first - not bread alone."
   - front: "Obedience as side task, comfort as main course - flipped priorities. What's the move?"
-    back: "Father's food - will before cravings."
+    back: "Will before cravings - obey first."
 draft: false
 ---

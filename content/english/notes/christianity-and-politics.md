@@ -76,16 +76,16 @@ featured: false
 review: true
 card_sets: ["Eternal Principles", "Gospel", "Discipleship"]
 cards:
-  - front: "Tax bill feels like betraying the kingdom if I pay. Sort the two ledgers?"
-    back: "Caesar's coin - God's image bearer. Pay duty, worship God."
+  - front: "Tax bill feels like betraying the kingdom if I pay. What's the move?"
+    back: "Pay lawful duty - worship God as ultimate."
   - front: "Group chat turned tribal - thumb on a dunk. Kingdom move before I post?"
     back: "Bless neighbor - don't baptize the rage."
   - front: "Candidate lost and dread hit like God's plan failed. What's ultimate?"
-    back: "Christ reigns - Rome wasn't Lord either."
+    back: "Christ reigns - politics isn't Lord."
   - front: "Skipping civic duty because I'm kingdom-first - duty feels like betrayal. What's the move?"
     back: "Pay lawful duty - kingdom higher, still pay."
-  - front: "News scroll feels like emergency prayer should wait. Filter?"
-    back: "Signal vs noise - kingdom first, not every headline."
+  - front: "News scroll feels like every headline needs panic prayer. What's the filter?"
+    back: "Kingdom first - not every headline."
   - front: "Church friend says my ballot proves faithfulness. One sentence back?"
     back: "Ultimate allegiance is Christ - not my ballot."
 draft: false

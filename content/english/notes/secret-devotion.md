@@ -63,7 +63,7 @@ card_sets: ["Eternal Principles", "Gospel", "Prayer"]
 cards:
   - front: "About to post my quiet time for likes. Who's the real audience?"
     back: "Father alone - not the feed."
-  - front: "Giving with one hand while the other broadcasts it. What's wrong?"
+  - front: "Giving with one hand while the other broadcasts it. What's the move?"
     back: "Give in secret - Father who sees repays."
   - front: "Prayer crafted for how it sounds out loud at dinner. One fix?"
     back: "Pray in secret - real audience is Father."

@@ -48,16 +48,16 @@ review: true
 card_sets: ["Eternal Principles", "Gospel", "Commandments"]
 cards:
   - front: "Sunday worship felt high but I haven't opened the Bible all week - mind lane empty. What's the move?"
-    back: "Mind - open Scripture today."
+    back: "Open Scripture today - love God with your mind."
   - front: "Calendar full, prayer thin - reordering the day. What comes first?"
     back: "Pray before inbox."
-  - front: "Church checkbox ticked, heart still elsewhere. Move from going through motions to what?"
-    back: "Love back - engage heart."
+  - front: "Church checkbox ticked, heart still elsewhere. What's the move?"
+    back: "Engage the heart - stop going through motions."
   - front: "About to snap at family right after worship. Which love comes first at home?"
     back: "God first - then neighbor."
-  - front: "Thumb on scroll before five minutes with God. One faculty to feed right now?"
-    back: "Pick one - heart, soul, mind, or strength."
+  - front: "Thumb on scroll before five minutes with God. What's the move?"
+    back: "Close the feed - give Him the next five."
   - front: "Devotion feels vague - 'love God' with no next step. What's one move today?"
-    back: "Pray, read, or serve - one faculty."
+    back: "Pray or read Scripture - one concrete act."
 draft: false
 ---

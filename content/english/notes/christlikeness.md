@@ -87,7 +87,7 @@ cards:
   - front: "Trying to look holy enough to feel saved - performance before standing. What's the move?"
     back: "Justified at faith - likeness follows."
   - front: "Virtue streak is my proof God accepts me. Mixing up what saves vs what grows?"
-    back: "Faith saves you first - likeness grows on ordinary Tuesdays after."
+    back: "Faith saves first - likeness grows after."
   - front: "Forcing patience by willpower with almost no prayer this week. What's missing?"
     back: "Abide first - likeness from the vine."
   - front: "Waiting until I look like Jesus before I call myself His disciple. When does following start?"

@@ -75,17 +75,17 @@ featured: false
 review: true
 card_sets: ["Eternal Principles", "Gospel", "Discipleship"]
 cards:
-  - front: "Buried the talent - played it safe, never used what God gave. What's the move?"
+  - front: "Buried the gift - played it safe, never used what God gave. What's the move?"
     back: "Use it faithfully - not hide it."
   - front: "One heroic mission trip I treat as my whole eternal report card. What gets reviewed?"
     back: "Faithful use over years - not one week."
-  - front: "Small daily obedience feels too small to matter eternally. Stewardship lens?"
+  - front: "Small daily obedience feels too small to matter later. What still counts?"
     back: "Faithful in little - master repays."
   - front: "Stacked service feels like proof I earned heaven. Correct the order?"
     back: "Saved by faith - well done follows."
   - front: "Tempted to compare my gifts to someone else's bigger platform. What's mine to steward?"
     back: "What He gave me - use that faithfully."
-  - front: "Hidden faithful work nobody applauded. Will the master count it?"
-    back: "Yes - faithful steward, not the audience."
+  - front: "Hidden faithful work nobody applauded - tempted to quit because no one saw. What's still true?"
+    back: "Master counts it - not the audience."
 draft: false
 ---

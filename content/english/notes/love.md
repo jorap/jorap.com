@@ -51,17 +51,17 @@ featured: false
 review: true
 card_sets: ["Eternal Principles", "Gospel", "Discipleship"]
 cards:
-  - front: "Polite at church, sharp at home after. What checks the motive?"
+  - front: "Polite at church, sharp at home after. One check before I speak?"
     back: "Does it cost me - not just applause?"
   - front: "Neighbor needed a ride at an inconvenient hour. What's the move?"
     back: "Show up - inconvenience, not performance."
   - front: "Waiting to feel loving before I obey. Wrong order?"
     back: "Walk by Spirit - obey, fruit follows."
-  - front: "Affection only when people are watching. Does it cost me anything?"
-    back: "Not Spirit fruit - abide first."
+  - front: "Affection only when people are watching. One check?"
+    back: "Abide first - love that costs something."
   - front: "Kid needs help past bedtime - I want to stay on the couch. One move?"
     back: "Get up - love costs something real."
-  - front: "Sharp reply drafted after worship Sunday. What checks love at home?"
-    back: "Spirit fruit at home - soften before send."
+  - front: "Sharp reply drafted after worship Sunday. What's the move?"
+    back: "Soften before send - fruit shows at home."
 draft: false
 ---

@@ -40,12 +40,12 @@ featured: false
 review: true
 card_sets: ["Eternal Principles", "Gospel", "Discipleship"]
 cards:
-  - front: "Tax bill arrived - tempted to dodge as kingdom protest. Civic move?"
+  - front: "Tax bill arrived - tempted to dodge as kingdom protest. What's the move?"
     back: "Pay lawful duty - give Caesar his coin."
   - front: "Patriotism and worship tangled. Who gets ultimate allegiance?"
     back: "God ultimate - Caesar gets what's his."
   - front: "State feels like lord of everything lately. Sort the two?"
-    back: "Render each properly - do not idolize Rome."
+    back: "Pay duty - don't worship the state."
   - front: "Revolutionary tax refusal sounds faithful - kingdom protest through nonpayment. What's the move?"
     back: "Pay taxes - kingdom higher, still pay."
   - front: "God's image bearer - what do I owe Him vs the state?"

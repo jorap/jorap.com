@@ -99,17 +99,17 @@ featured: false
 review: true
 card_sets: ["Eternal Principles", "Gospel", "Discipleship"]
 cards:
-  - front: "Same sin pattern after conversion - feels like faith did not take. What's the second process?"
-    back: "Slow becoming - standing settled at faith."
+  - front: "Same sin pattern after conversion - feels like faith did not take. What's still true?"
+    back: "Standing settled - slow becoming still running."
   - front: "Waiting to feel holy before I call myself saved - holiness before standing. What's the move?"
     back: "Justified at faith - holiness follows."
   - front: "Bible reading streak is my proof God accepts me. Mixing up what saves vs what grows?"
-    back: "Faith saves - sanctification grows after."
-  - front: "Fruitless week and panic that I am fake. What two things are both true?"
+    back: "Faith saves - growth comes after."
+  - front: "Fruitless week and panic that I am fake. What's still true?"
     back: "Standing settled - keep abiding, keep obeying."
   - front: "Forcing holiness by will alone - no prayer, no Scripture. What's missing?"
     back: "Abide first - fruit from connection."
   - front: "One emotional Sunday high, same temper by Friday. What kind of change is this?"
-    back: "Daily sanctification - not one sprint."
+    back: "Daily growth - not one sprint."
 draft: false
 ---

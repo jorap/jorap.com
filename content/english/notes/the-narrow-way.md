@@ -50,16 +50,16 @@ review: true
 card_sets: ["Eternal Principles", "Gospel", "Discipleship"]
 cards:
   - front: "Comfortable path everyone else is on - crowd makes it feel safe. What's the move?"
-    back: "Narrow - hard road, life at the end."
-  - front: "Saying Lord Lord but same secret sin - terror I'm not saved. First split?"
-    back: "Never believed, or stumbled believer? Standing holds; confess."
+    back: "Take the hard road - life is that way."
+  - front: "Saying Lord Lord but same secret sin - terror I'm not saved. What's still true?"
+    back: "Standing holds if you believed - confess and walk."
   - front: "Cross feels optional because grace saved me. What's still costly?"
     back: "Daily following - not the salvation price."
   - front: "Broad road tempting because it is crowded and easy. One move?"
-    back: "Pick narrow - even if few find it."
+    back: "Take the hard road - even if few find it."
   - front: "Moral performance as salvation ticket - earning road, not grace gate. What's the reframe?"
-    back: "Broad earning-your-way road - not the grace gate."
+    back: "Enter by faith - stop earning the gate."
   - front: "Tempted to skip hard obedience because everyone's comfortable. Who moves first?"
-    back: "I take narrow - do not follow the crowd."
+    back: "I take the hard road - do not follow the crowd."
 draft: false
 ---

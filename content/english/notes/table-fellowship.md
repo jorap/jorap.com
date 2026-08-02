@@ -53,10 +53,10 @@ cards:
   - front: "Grumbling from the doorway about the wrong crowd - judgment from the hall. What's the move?"
     back: "Stay at the table - Physician with the sick."
   - front: "Fellowship as a program slot, not a plate shared - calendar event. What's the move?"
-    back: "Table fellowship - eat with them."
+    back: "Share a meal - presence, not a program."
   - front: "Avoiding the tax collector type at lunch - wrong crowd fear. What's the move?"
-    back: "Recline with sinners - call them."
+    back: "Sit with them - invite them over."
   - front: "Table as stage for my reputation - performance over presence. What's the move?"
-    back: "Ministry - presence at the table."
+    back: "Presence at the table - not a stage."
 draft: false
 ---

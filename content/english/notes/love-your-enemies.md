@@ -54,15 +54,15 @@ card_sets: ["Eternal Principles", "Gospel", "Ethics"]
 cards:
   - front: "Someone slandered me online. Thumb hovering over reply. First move before I type?"
     back: "Pray for them."
-  - front: "Only loving people who love me back. What standard am I actually using?"
-    back: "Higher - bless enemies too."
-  - front: "Enemy hurt me - tempted to agree just to keep peace. What do I do instead of pretending?"
+  - front: "Only loving people who already treat me well. What's missing?"
+    back: "Bless the ones who hurt me too."
+  - front: "Enemy hurt me - tempted to smile and pretend we're fine. What's the real move?"
     back: "Bless and pray - don't return evil."
   - front: "Returning evil for evil feels justified right now. What's the break-the-cycle move?"
     back: "Bless - don't return evil."
-  - front: "Persecutors keep coming - tempted to retaliate. Practical handle besides not hitting back?"
-    back: "Love, bless, pray for them."
-  - front: "Sun and rain on wicked and righteous - what do I copy toward my persecutors?"
-    back: "Father's kindness - bless both kinds."
+  - front: "They keep coming at me - thumb on payback. First move besides not hitting back?"
+    back: "Pray for them."
+  - front: "Hard to be kind to someone who keeps wounding me. Who sets the pattern?"
+    back: "Father's kindness - bless them anyway."
 draft: false
 ---

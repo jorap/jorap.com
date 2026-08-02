@@ -55,13 +55,13 @@ featured: false
 review: true
 card_sets: ["Eternal Principles", "Gospel", "Discipleship"]
 cards:
-  - front: "Neighbor I'd rather avoid at every game. Kindness fruit move?"
+  - front: "Neighbor I'd rather avoid at every game. What's the move?"
     back: "Act with mercy - person in front counts."
   - front: "Polite in the hallway, sharp at home - performance split. What's the move?"
     back: "Tender regard here too - not performance."
-  - front: "Coworker apologized again - counting instead of kindness?"
+  - front: "Coworker apologized again - still counting the misses. What's the move?"
     back: "Mercy toward them - forgive heart."
-  - front: "About to quote their failure online. Kindness check?"
+  - front: "About to quote their failure online. What comes first?"
     back: "Mercy first - person in front."
   - front: "Difficult neighbor at the gate again - avoidance easier than mercy. What's the move?"
     back: "Act with tender regard - person in front counts."

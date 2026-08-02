@@ -50,7 +50,7 @@ review: true
 card_sets: ["Jesus Rhythms", "Gospel", "Faith"]
 cards:
   - front: "Bible alone on the couch for months - gathered reading missing. What's missing?"
-    back: "Read in synagogue - with God's people."
+    back: "Show up - hear Scripture with God's people."
   - front: "Streamed sermons in pajamas, Scripture feels thin - solo lane only. What's the move?"
     back: "Gathered worship - read aloud together."
   - front: "Private devotions strong, never in the room when the text is read. What's the move?"
@@ -58,7 +58,7 @@ cards:
   - front: "Sabbath is only me and an app - no congregation in the loop. What's the move?"
     back: "Show up - hear Scripture together."
   - front: "Kids memorize at home, never hear church read the text - home only. What's the move?"
-    back: "Read in the gathering - custom."
+    back: "Bring them - hear the text with the church."
   - front: "Whole-person love but skip gathered worship - couch is enough. What's the move?"
     back: "Gathered lane - read with the church."
 draft: false

@@ -135,6 +135,6 @@ cards:
   - front: "Early win landed and I am tempted to coast on what I was given. What's the move?"
     back: "Steward it - keep using the gift faithfully."
   - front: "Platform changed the rules overnight and reach vanished - rented land felt like mine. What's the move?"
-    back: "Ownership - steward what lasts, not rented land."
+    back: "Steward what lasts - rented reach wasn't mine."
 draft: false
 ---

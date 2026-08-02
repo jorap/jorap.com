@@ -71,17 +71,17 @@ featured: false
 review: true
 card_sets: ["Eternal Principles", "Gospel", "Priorities", "Discipleship"]
 cards:
-  - front: "Youth event looked great in photos but nobody prayed afterward. God-centered cut?"
-    back: "Drop one performance block - add small groups and Scripture."
+  - front: "Youth event looked great in photos but nobody prayed afterward. First cut?"
+    back: "Drop one performance block - make room to pray."
   - front: "Notes garden chasing traffic instead of clarity. One question before publish?"
     back: "Does this help someone know Christ or live like Him?"
-  - front: "Ministry calendar packed and I'm too tired to pray. Design check?"
+  - front: "Ministry calendar packed and I'm too tired to pray. One check?"
     back: "Who does this schedule ultimately serve?"
   - front: "Side project feels like my kingdom now. Steward reframe?"
     back: "Borrowed platform - faithful use, not my brand."
   - front: "People-pleasing the room instead of obeying God - room sets the aim. What's the move?"
-    back: "God's reign sets the aim - neighbor-love follows that order."
-  - front: "Tuesday calendar full before Scripture opened. Kingdom-first move?"
-    back: "Design the week around God's glory - then sort the rest."
+    back: "Aim at God first - neighbor-love follows."
+  - front: "Tuesday calendar full before Scripture opened. What comes first?"
+    back: "Design the week for God's glory - then the rest."
 draft: false
 ---

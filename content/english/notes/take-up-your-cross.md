@@ -63,13 +63,13 @@ review: true
 card_sets: ["Eternal Principles", "Gospel", "Discipleship"]
 cards:
   - front: "Comfortable faith - avoiding the hard obedience I heard preached. What's the daily move?"
-    back: "Count cost - deny self, follow daily."
+    back: "Deny self - follow Him today."
   - front: "Cross-bearing to feel saved - what's the wrong order in my head?"
     back: "Shape daily following - grace already saved."
   - front: "One big surrender last year, same sin pattern today. What frequency am I missing?"
     back: "Daily - pick up cross again today."
-  - front: "Clutching comfort when obedience will cost me something today. What do I lose?"
-    back: "Lose it for his sake - follow behind."
+  - front: "Clutching comfort when obedience will cost me something today. What's the move?"
+    back: "Let comfort go - follow behind Him."
   - front: "Choosing scroll over the costly obedience I know is next. What's the fork?"
     back: "Deny self - follow him today."
   - front: "Heard the hard teaching, unchanged how I treat people. What's missing?"
