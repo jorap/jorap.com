@@ -18,9 +18,12 @@ related_notes:
 level_depth: 5
 featured: false
 draft: false
+lastmod: "2026-08-02T16:32:00Z"
 ---
 
 Still paying shared hosting for a personal blog one person publishes? I was too, until the client who split the bill moved on and the math stopped making sense.
+
+**As of August 2026:** the three-piece stack is the same. The repo shape is not. What follows is how I got online in 2024. For what this site runs now - forked theme, `pnpm` build, pinned versions - skip to [Where this site is now](#where-this-site-is-now-august-2026), or read [the HugoPlate review](/blog/hugoplate-theme-review/).
 
 ## The short backstory
 
@@ -68,16 +71,18 @@ So: small personal stuff, yes. A company site with a non-technical team behind i
 
 ---
 
-## Building the site, step by step
+## Building the site, step by step (how I did it in 2024)
+
+This is the path I actually walked that weekend. It still works as a starter. It is **not** a clone of [jorap.com](/) today - see the 2026 section below before you copy every command into production.
 
 ### Getting Hugo running
 
 **On Windows**, the steps that worked for me:
 
-1. Download Hugo from the GitHub releases page.
+1. Download Hugo Extended from the GitHub releases page.
 2. Extract it to `C:\hugo\bin`.
 3. Add that folder to your Windows PATH.
-4. Open PowerShell and run `hugo version` to confirm.
+4. Open PowerShell and run `hugo version` to confirm - you want the Extended build.
 
 **On Mac**:
 
@@ -113,16 +118,18 @@ What you get out of the box with Hugoplate:
 - A bunch of ready-made pages (About, Contact, Blog, etc.)
 - A responsive design that actually holds up on mobile
 
-To add it:
+In 2024 I added it as a submodule, because that's what the README said:
 
 ```bash
 git submodule add https://github.com/zeon-studio/hugoplate.git themes/hugoplate
 ```
 
-Then edit `hugo.toml` - Hugoplate uses TOML, not YAML:
+That got me live. It stopped being a good fit once I started editing layouts every week - more on that below.
+
+Then edit `hugo.toml` - Hugoplate uses TOML, not YAML. My first config looked roughly like this (example URL only):
 
 ```toml
-baseURL = 'https://jorapdotcom.pages.dev'
+baseURL = 'https://your-project.pages.dev'
 languageCode = 'en-us'
 title = "JoRap Notes"
 theme = 'hugoplate'
@@ -146,11 +153,13 @@ Markdown is the whole interface:
 - `*italic text*`
 - `[link text](https://example.com)`
 
-To create a new post:
+To create a new post on a fresh Hugo site:
 
 ```bash
 hugo new posts/my-post-name.md
 ```
+
+On this site now, blog posts live under `content/english/blog/` - different layout, same Markdown habit.
 
 ### Previewing locally
 
@@ -183,10 +192,26 @@ I have forgotten the `git remote add origin` step more times than I'd like to ad
 1. Sign up at `pages.cloudflare.com`.
 2. Connect your GitHub account.
 3. Select the repo.
-4. Set the build command to `hugo` and the output directory to `public`.
-5. Add an environment variable `HUGO_VERSION` and set it to your exact local Hugo version.
+4. For a plain Hugo starter: build command `hugo`, output directory `public`, and set `HUGO_VERSION` to your exact local version.
+5. For this site today: build command is `pnpm run deploy` (Cloudflare already runs `pnpm install`). Output is still `public`.
 
 Hit deploy. About two minutes later, your site is live at some `something.pages.dev` URL.
+
+---
+
+## Where this site is now (August 2026)
+
+Same three pieces. Different insides.
+
+**Theme is forked in-repo.** I pulled HugoPlate out of the submodule and into `themes/jorap` as a normal folder. Day-to-day edits got easier. Upstream upgrades got harder. I wrote that tradeoff up in [HugoPlate: The Theme Quietly Powering This Site](/blog/hugoplate-theme-review/). If you're starting today, submodule is fine until you start rewriting layouts - then fork or copy the theme into the repo.
+
+**Build needs Node too.** Tailwind and a pile of site scripts mean local work is `pnpm install` then `pnpm dev`, not only `hugo server`. Production build is `pnpm run deploy`. Hugo version is pinned (currently Extended **0.163.3**) alongside Node and pnpm so Cloudflare and my laptop stop arguing.
+
+**Content paths grew.** Blog, notes garden, and pages live under `content/english/`. The notes garden is the part that turned "personal blog" into JoRap Notes.
+
+**Domain.** Live site is [www.jorap.com](https://www.jorap.com/) - set `baseURL` to the real URL you serve, not the first `pages.dev` name forever.
+
+If you're cloning *this* repo to learn from it, read the root README for the current toolchain. If you're building your own site from scratch, the 2024 steps above still get you a first page. Just don't assume my theme folder name or Cloudflare build command match a stock Hugoplate install.
 
 ---
 
@@ -196,15 +221,15 @@ This is the section I needed when I was starting out, so it's the longest one he
 
 **Site looks like raw HTML.** The theme isn't loading. Nine times out of ten, the theme name in `hugo.toml` doesn't match the folder name exactly - case included.
 
-**Cloudflare build fails.** Almost always a Hugo version mismatch. Set `HUGO_VERSION` to whatever `hugo version` prints locally.
+**Cloudflare build fails.** Almost always a Hugo version mismatch. Set `HUGO_VERSION` to whatever `hugo version` prints locally. On this site, also match Node/pnpm - a Tailwind bin that won't run is the other common failure.
 
-**"Module not found" during the build.** Cloudflare Pages isn't pulling Git submodules. Turn submodule cloning on in the Pages project settings.
+**"Module not found" during the build.** If you still use a theme submodule, Cloudflare Pages isn't pulling it. Turn submodule cloning on in the Pages project settings. This site no longer uses a theme submodule, so that knob doesn't apply here.
 
-**Site deploys but every link is broken.** Check `baseURL` in `hugo.toml`. It needs to match the actual URL Cloudflare gave you.
+**Site deploys but every link is broken.** Check `baseURL` in `hugo.toml`. It needs to match the actual URL you serve.
 
 **Images won't show up.** Put them in `static/images/` and reference them in your Markdown as `/images/filename.jpg`. Not `static/images/...` - Hugo handles that.
 
-**Can't push to GitHub.** GitHub no longer accepts passwords. You need a personal access token: Settings → Developer settings → Personal access tokens. Use the token as the password when Git prompts you.
+**Can't push to GitHub.** GitHub no longer accepts passwords. You need a personal access token: Settings → Developer settings → Personal access tokens. Use the token as the password when Git prompts you. Or use SSH.
 
 **`hugo server` says command not found.** Hugo isn't on your PATH. On Windows, add the `hugo.exe` folder to the PATH environment variable and restart your terminal.
 
@@ -214,7 +239,7 @@ This is the section I needed when I was starting out, so it's the longest one he
 
 ## The day-to-day workflow
 
-Once everything is set up, posting feels almost too simple:
+Once everything is set up, posting feels almost too simple. Starter shape:
 
 ```bash
 hugo new posts/post-name.md
@@ -224,6 +249,8 @@ git add .
 git commit -m "New post about whatever"
 git push
 ```
+
+On this site now it's closer to: edit under `content/english/`, run `pnpm dev` locally, push, and let Cloudflare run `pnpm run deploy`.
 
 About two minutes after the push, the site updates. No logging in, no clicking "Publish," no waiting for the WordPress dashboard to load. It's the part I missed most about old-school static publishing and didn't realize until I had it again.
 
@@ -267,5 +294,6 @@ You're reading the result right now.
 
 - [Hugo Quick Start](https://gohugo.io/getting-started/quick-start/) - start here
 - [Hugo Themes](https://themes.gohugo.io) - yes, you'll lose hours
+- [HugoPlate theme review](/blog/hugoplate-theme-review/) - what changed after a year on this starter
 - [Markdown Guide](https://www.markdownguide.org/basic-syntax/) - ten minutes and you know it
 - [Git Handbook](https://guides.github.com/introduction/git-handbook/) - for when Git gets weird

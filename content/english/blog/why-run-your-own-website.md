@@ -95,4 +95,6 @@ Compare that to the constant treadmill of producing content for someone else's a
 
 I still post on social for reach. The site holds what I want findable in five years - essays, reference posts, stuff I'd hate to lose in a platform pivot.
 
-I'm not asking you to quit Facebook. I sleep better with a backup I control. If that sounds worth an evening of setup, start with one thing you'd miss if the app disappeared tomorrow - a recipe, a project write-up, whatever you'd actually go looking for again.
+I'm not asking you to quit Facebook. I sleep better with a backup I control. If that already sounds true and you just need the Monday habit - domain, Git, push, share the link - I wrote that as [sustainable online publishing](/blog/sustainable-online-publishing/).
+
+Otherwise start with one thing you'd miss if the app disappeared tomorrow - a recipe, a project write-up, whatever you'd actually go looking for again.

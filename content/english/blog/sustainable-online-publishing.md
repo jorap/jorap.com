@@ -1,7 +1,7 @@
 ---
 title: "Sustainable Online Publishing"
-meta_title: "Sustainable Online Publishing - Own Your Site"
-description: "Social media is easy to start and risky to depend on. I publish on my own site anyway - a free stack that works and why the habit matters more than the tools."
+meta_title: "Sustainable Online Publishing - The Habit Side"
+description: "I already decided to own my site. This is how I keep publishing without treating social as my archive - domain, Git, push, share."
 slug: "sustainable-online-publishing"
 date: "2026-06-12T14:58:00Z"
 image: "/images/sustainable-publishing.jpg"
@@ -15,28 +15,16 @@ related_notes:
   - note-relationships
   - commonplace-book
   - success-is-stewardship
-level_depth: 4
+level_depth: 3
 featured: false
 draft: false
 ---
 
-Every few months someone asks why I bother with a website when I could just post on Facebook. Fair question. I already wrote [why I still run my own site](/blog/why-run-your-own-website/) for the philosophy side. This post is the **habit** side - how I keep publishing without treating social as my archive.
+If you're still stuck on *why* own a site at all, start with [why I still run my own website](/blog/why-run-your-own-website/). That post is the argument.
 
-Signing up on Facebook takes five minutes. The audience is already there. You don't have to think about hosting or Git pushes or why your build failed at 11pm.
+This one assumes you're already sold - or close enough - and just need the **habit**: write it on your domain first, then share the link.
 
-I still wanted **my work on the web** without begging an algorithm for reach. Social makes starting easy. The catch is you don't own the platform. Rules change. Reach throttles. Accounts get restricted when enough people complain. I learned that the hard way when I lost old PHP hosting and a chunk of my work with it - not a social ban, but the same lesson: **rented land is rented land.**
-
-Publishing only on platforms you don't control isn't sustainable if your voice matters past this quarter.
-
----
-
-## Social is a lobby, not a library
-
-Facebook, X, YouTube - I still use them. They're fine for **getting a link in front of people.** They're a terrible place to keep the only copy of something you care about.
-
-Old threads sink. Search inside a group is unreliable. Export is a mess when you need it. Terms of service shift. Monetization rules change overnight. Content disappears behind logins or dies when the app pivots. Your best thread from 2019 isn't on your resume - it's on their servers, and you can't export it cleanly if they decide you can't.
-
-I don't treat social as my archive. I treat it as the thing I point at my archive.
+Signing up on Facebook takes five minutes. The audience is already there. You don't have to think about hosting or Git pushes or why your build failed at 11pm. The stack I use is free. The part that actually matters is the publishing rhythm.
 
 ---
 
@@ -46,13 +34,15 @@ I don't treat social as my archive. I treat it as the thing I point at my archiv
 
 **Hosting** - where the files actually live. Classic hosting bills monthly. My stack is Hugo, GitHub, and Cloudflare Pages on the free tier - same as [how I built this site](/blog/how-i-built-jorap-notes/). No database, no admin panel, no PHP cron jobs to babysit.
 
+I lost old PHP hosting once and a chunk of my work with it. Now the real copy lives in Git.
+
 ---
 
 ## What I don't mean by "sustainable"
 
 I'm not saying quit social. I still post links there.
 
-I'm not saying build everything custom to prove you're serious. My stack is boring on purpose - Hugo, Git, Cloudflare Pages - because [I already lost work once](/blog/how-i-built-jorap-notes/) on rented PHP hosting and didn't want a repeat.
+I'm not saying build everything custom to prove you're serious. My stack is boring on purpose - Hugo, Git, Cloudflare Pages - because I didn't want another rented-hosting surprise.
 
 And free hosting doesn't mean zero work. You trade a monthly bill for Git pushes, broken YAML at 11pm, and the occasional "why did this build fail" evening. I'd still rather that than discovering export is paywalled.
 

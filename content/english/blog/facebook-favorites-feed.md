@@ -19,6 +19,7 @@ level_depth: 3
 aliases: ["facebooks-hidden-gem-how-favorites-feed-transforms-your-social-media-experience"]
 featured: false
 draft: false
+lastmod: "2026-08-02T16:26:00Z"
 ---
 
 I can't quit Facebook entirely - **Messenger** is how too many people in my life actually reach me. What I did quit, mostly, was scrolling the main feed.
@@ -49,11 +50,13 @@ My phone time went down because the dopamine slot machine isn't built into this 
 
 Facebook tucks this thing away pretty deep. I missed it for years because it's buried under Feeds, not on the home screen where you'd expect it.
 
-Here's where it actually lives.
+**Checked August 2026:** on desktop, Favorites still opens at [facebook.com/?filter=favorites&sk=h_chr](https://www.facebook.com/?filter=favorites&sk=h_chr). Bookmark that if the menus move again.
 
-{{< image src="images/fb-desktop-feed.jpg" caption="Facebook Feeds - Desktop" alt="Facebook Feeds - Desktop" height="486" width="329" position="center" command="fill" option="q100" class="img-fluid" title="Facebook Feeds - Desktop" webp="true" >}}
+Here's the menu path as of that check. Screenshots below are older - if the labels drift, use the link first.
 
-{{< image src="images/fb-mobile-feed.jpg" caption="Facebook Feeds - Mobile" alt="Facebook Feeds - Mobile" height="591" width="400" position="center" command="fill" option="q100" class="img-fluid" title="Facebook Feeds - Mobile" webp="true" >}}
+{{< image src="images/fb-desktop-feed.jpg" caption="Facebook Feeds - Desktop (older screenshot)" alt="Facebook Feeds - Desktop" height="486" width="329" position="center" command="fill" option="q100" class="img-fluid" title="Facebook Feeds - Desktop" webp="true" >}}
+
+{{< image src="images/fb-mobile-feed.jpg" caption="Facebook Feeds - Mobile (older screenshot)" alt="Facebook Feeds - Mobile" height="591" width="400" position="center" command="fill" option="q100" class="img-fluid" title="Facebook Feeds - Mobile" webp="true" >}}
 
 **On your phone:**
 
@@ -64,10 +67,8 @@ Here's where it actually lives.
 
 **On a computer:**
 
-1. Look in the left sidebar of the home page for **Feeds**.
-2. Click **Favorites**.
-
-If you can't find "Feeds," the sidebar may have collapsed it. Expand the sidebar, or scroll the menu - Facebook moves things around occasionally.
+1. Open [the Favorites feed URL](https://www.facebook.com/?filter=favorites&sk=h_chr), or look in the left sidebar for **Feeds** and click **Favorites**.
+2. If you can't find "Feeds," the sidebar may have collapsed it - expand it, or scroll the menu.
 
 ## Who I actually put on the list
 

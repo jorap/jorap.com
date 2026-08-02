@@ -185,8 +185,8 @@ Draft posts show *(draft)* in the list.
 | :--- | :--- |
 | I **lead worship** with an **acoustic guitar** and run **MP3 pads through VLC** - not pad apps, after in-service freezes. | [Worship Pads for Solo Guitar](/blog/worship-pads-solo-guitar/) |
 | VLC crossfades are simple enough that **I could hand it to a teenager in five minutes** if that scenario came up. | [Worship Pads for Solo Guitar](/blog/worship-pads-solo-guitar/) |
-| **DNPAP** (Diyos Ng Pagasa at Pagibig) is my most memorable local worship song - **Pia sang the studio vocal** for Destiny Music. Not my favorite; just the one I can't forget. | [DNPAP - Song Resources](/blog/dnpap-song-resources/) |
-| Pia tracked DNPAP **remotely during COVID**; my **mother-in-law** watched Isaiah while she recorded. | [DNPAP - Song Resources](/blog/dnpap-song-resources/) |
+| **DNPAP** (Diyos Ng Pagasa at Pagibig) is my most memorable local worship song - **Pia sang the studio vocal** for Destiny Music. Not my favorite; just the one I can't forget. | [DNPAP - The Song Pia Recorded at Home](/blog/dnpap-song-resources/) |
+| Pia tracked DNPAP **remotely during COVID**; my **mother-in-law** watched Isaiah while she recorded. | [DNPAP - The Song Pia Recorded at Home](/blog/dnpap-song-resources/) |
 
 ---
 

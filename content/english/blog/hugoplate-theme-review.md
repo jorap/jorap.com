@@ -1,7 +1,7 @@
 ---
 title: "HugoPlate: The Theme Quietly Powering This Site"
-meta_title: "HugoPlate Theme Review: Why It Powers JoRap Notes"
-description: "After losing half a Saturday to theme-shopping, I picked HugoPlate - a year later I'm still on it. What I changed and where it still bites."
+meta_title: "HugoPlate Shortcodes + Theme Review: What Powers JoRap"
+description: "Live demos of every HugoPlate shortcode this site uses, plus why I still run the theme a year later - what I changed and where it bit me."
 slug: "hugoplate-theme-review"
 date: "2026-05-29T05:00:00Z"
 image: "/images/joraps-world.jpg"
@@ -23,6 +23,8 @@ draft: false
 If you've ever spent a Saturday "just browsing" Hugo themes, you already know the trap. Every one of them looks gorgeous on a landing page. Half of them haven't been touched in two years. The other half are tied to a styling system you'll spend a month fighting before you can change a button color.
 
 I gave myself one weekend to pick a theme for this site. I ended up on [HugoPlate](https://github.com/zeon-studio/hugoplate), and a year later I still haven't replaced it.
+
+This post has two jobs. The big one: a live gallery of every shortcode this site actually renders - callouts, tabs, galleries, YouTube, Spotify, Mermaid - so I (and anyone cloning the stack) can copy a working example instead of grepping the repo. The smaller one: why I stayed on HugoPlate, what I changed, and what bit me. Jump to [Shortcodes this site actually ships](#shortcodes-this-site-actually-ships) if that's why you're here.
 
 ---
 
@@ -80,13 +82,13 @@ The thing I appreciate is that HugoPlate respects Hugo's conventions. Nothing's 
 
 ---
 
-## Shortcodes that bit me once, then saved hours
+## Shortcodes this site actually ships
 
-This is where HugoPlate quietly punches above its weight. I broke a `notice` shortcode once by nesting bold inside it - the build passed, the page rendered garbage. Now I keep `blog-template.md` open whenever I'm composing.
+This is the job of the post. Not a summary - every shortcode below is live on this page, with the markup underneath so you can copy it.
 
-Most themes give you `youtube` and call it a day. HugoPlate (via [`gethugothemes/hugo-modules`](https://github.com/gethugothemes/hugo-modules)) hands you callouts, buttons, tabs, accordions, image galleries, video, and diagrams - all loaded as Hugo Modules, so they live outside your theme folder and stay easy to update. I've added a few of my own (`spotify`, `youtube_time`) on top of that.
+Most themes give you `youtube` and call it a day. HugoPlate (via [`gethugothemes/hugo-modules`](https://github.com/gethugothemes/hugo-modules)) hands you callouts, buttons, tabs, accordions, image galleries, video, and diagrams - all loaded as Hugo Modules, so they live outside your theme folder and stay easy to update. I've added a few of my own (`spotify_iframe_track`, `spotify_iframe_artist`, `youtube_time`) on top of that.
 
-Below is the full set this site renders, with live output for each. Mostly so I don't have to grep the repo when I forget a parameter.
+I broke a `notice` shortcode once by nesting bold inside it - the build passed, the page rendered garbage. Lesson stuck: copy from a working example, don't invent the syntax from memory.
 
 ### Callouts and CTAs
 
@@ -294,7 +296,7 @@ flowchart LR
 ```
 ````
 
-That's the full kit. The bundled `blog-template.md` (kept as a draft) covers a few extras like `modal` if you ever need them - but for 95% of writing, the dozen above are everything.
+That's the full kit this site ships. If a module update adds something new, this page is where it should land - same live demo + copyable markup pattern.
 
 ---
 
@@ -328,7 +330,7 @@ I'd be lying if I said this was all smooth.
 
 **Search needs an index file.** HugoPlate's search is great, but it's powered by a JSON index that Hugo generates at build time. If your search page is suddenly empty, regenerate the site. A stale `public/` folder is usually the cause.
 
-**Image shortcode quirks.** The `image` shortcode is powerful but has a lot of parameters (`webp`, `command`, `option`, `position`, etc.). I forget the order constantly. I keep the `blog-template.md` file open in another tab whenever I'm using it.
+**Image shortcode quirks.** The `image` shortcode is powerful but has a lot of parameters (`webp`, `command`, `option`, `position`, etc.). I forget the order constantly - which is why the live example above exists.
 
 **Tailwind v4 migration.** If you start from an older HugoPlate version (or an old tutorial), expect the CSS variables to live in a different place than the article says. v4 moved configuration into CSS. Most "how to change colors in HugoPlate" posts online are still showing the v3 way.
 
@@ -351,7 +353,7 @@ I'd also skip it if you want a strong visual opinion out of the box. HugoPlate i
 A few things that would have saved me time:
 
 - **Don't delete the demo content right away.** Use it as a living reference. Strip it out once you've published your own equivalents.
-- **The `blog-template.md` file is the docs.** Keep it as a draft in your blog folder. It's faster than searching the GitHub repo when you forget a shortcode.
+- **This page is the shortcode docs for this site.** When you forget a parameter, scroll up - every demo above is the working copy.
 - **Pin every version.** Hugo, Node, Go modules. Future-you is confused enough already.
 - **Customize content first, code second.** The default styling is fine. You'll waste less time if you publish a few posts before you start fiddling with colors.
 - **Read the layout files before you fork them.** HugoPlate's templates are commented and short. Five minutes of reading saves an hour of guessing.
