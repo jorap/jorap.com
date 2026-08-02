@@ -1,8 +1,9 @@
 /*
- * Header offset: single source of truth for sticky-header height.
+ * Header offset: approximate sticky-header height.
  * - CSS uses it for scroll-padding-top so anchor jumps clear the header.
- * - JS reads it via getComputedStyle(...) - see assets/js/toc.js + back-to-top.js.
- * Update here only; do not duplicate in JS.
+ * - assets/js/toc.js measures the rendered .header and only falls back to this,
+ *   since the real height moves with the logo, brand wrapping, and open nav menu.
+ * Update here only; do not hardcode a pixel height in JS.
  */
 html {
   --header-offset: 80px;

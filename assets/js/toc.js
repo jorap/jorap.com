@@ -7,13 +7,26 @@
  *   2. Mobile TOC collapse/expand toggle on blog posts.
  *   3. Scroll-spy: bold the TOC entry whose heading is currently in view.
  *
- * Header height is read from the `--header-offset` CSS custom property
- * (see themes/jorap/assets/css/base.css) so there is one source of truth.
+ * Header height is measured from the rendered sticky header, falling back to the
+ * `--header-offset` CSS custom property (see themes/jorap/assets/css/base.css).
  */
 (function () {
   "use strict";
 
+  const ANCHOR_GAP = 12;
+
+  /* Measure the live sticky header rather than trusting `--header-offset`: the
+     rendered height moves with the logo, brand text wrapping, and an open mobile
+     nav menu, and the breakpoint values are only approximations of it. */
   const getHeaderOffset = () => {
+    const header = document.querySelector(".header");
+    if (header) {
+      const { position } = getComputedStyle(header);
+      const height = header.getBoundingClientRect().height;
+      if ((position === "sticky" || position === "fixed") && height > 0) {
+        return Math.round(height) + ANCHOR_GAP;
+      }
+    }
     const raw = getComputedStyle(document.documentElement)
       .getPropertyValue("--header-offset")
       .trim();
