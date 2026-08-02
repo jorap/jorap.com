@@ -29,6 +29,10 @@
     });
   };
 
+  /* Collapsing the mobile panel shortens the flow above the target, so it has to
+     happen before the target position is measured. */
+  let collapseMobileToc = () => {};
+
   const initAnchorLinks = () => {
     const links = document.querySelectorAll('a[href^="#"]:not([href="#"])');
     links.forEach((link) => {
@@ -37,6 +41,7 @@
         const target = document.getElementById(id);
         if (!target) return;
         e.preventDefault();
+        collapseMobileToc();
         scrollToElement(target);
         if (history.pushState) {
           history.pushState(null, "", `#${id}`);
@@ -53,21 +58,17 @@
     const chevron = document.getElementById("toc-chevron");
     if (!toggle || !panel) return;
 
-    toggle.addEventListener("click", () => {
-      const expanded = panel.classList.toggle("hidden") === false;
+    const setExpanded = (expanded) => {
+      panel.classList.toggle("hidden", !expanded);
       toggle.setAttribute("aria-expanded", expanded ? "true" : "false");
       if (chevron) chevron.classList.toggle("rotate-180", expanded);
+    };
+
+    toggle.addEventListener("click", () => {
+      setExpanded(panel.classList.contains("hidden"));
     });
 
-    document.querySelectorAll(".table-of-content a").forEach((link) => {
-      link.addEventListener("click", () => {
-        if (window.innerWidth < 1024) {
-          panel.classList.add("hidden");
-          toggle.setAttribute("aria-expanded", "false");
-          if (chevron) chevron.classList.remove("rotate-180");
-        }
-      });
-    });
+    collapseMobileToc = () => setExpanded(false);
   };
 
   const initScrollSpy = () => {
