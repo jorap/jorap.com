@@ -1509,3 +1509,213 @@ my goal is to reuse the Shortcodes in other sites. I am expecting them to be con
 _**Agent (auto-smart)**_
 
 > Auto routed to gpt-5.6-sol-medium
+
+That changes the recommendation: **`layouts/shortcodes/` alone is not portable enough.**
+
+Create a self-contained Hugo module, for example:
+
+```text
+modules/jorap-shortcodes/
+├── go.mod
+├── layouts/
+│   ├── shortcodes/
+│   └── _partials/
+├── assets/
+│   ├── css/
+│   └── js/
+└── data/
+```
+
+Then import that module into each Hugo site.
+
+Important split:
+
+- `youtube`, `youtube_time`, `spotify*`: easy to package now.
+- `bible`: also needs its helper, Bible data, and notes CSS.
+- `card`: depends on JoRap’s flashcard partial, CSS, JavaScript, and notes layouts, so it must be packaged with those dependencies or remain site-specific.
+- Hugoplate module shortcodes should remain external dependencies.
+
+So yes, your expectation is right—but the reusable folder should be a **Hugo module containing templates and assets**, not simply `layouts/shortcodes/`. The move we just made centralized ownership, but did not create a portable package.
+
+---
+
+_**User**_
+
+i don't want a self contained hugo module. i should be able to transfer the Shortcodes folder 
+
+---
+
+_**Agent (auto-smart)**_
+
+> Auto routed to grok-4.5
+
+
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+The user prefers copying a Shortcodes folder directly between sites instead of using a self-contained Hugo module.
+
+I need to clarify which shortcodes can be copied as-is versus those with external dependencies. A pure folder copy may require placing helpers or assets inside or alongside the folder. I will identify the copy-pasteable subset or recommend a convention that keeps everything self-contained.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+A plain folder copy only works if every dependency travels with it. Checking what each custom shortcode actually needs.
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/shortcodes/bible.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/partials/shortcodes/bible.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/layouts/partials/shortcodes/bible.html",
+  "pattern": "hugo\\.Data|partial |index site\\.Data|bible-"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/layouts/partials/shortcodes/bible.html",
+  "pattern": "hugo\\.Data|partial |index site\\.Data|bible-",
+  "topFiles": [
+    {
+      "matchCount": 3,
+      "uri": "layouts/partials/shortcodes/bible.html"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 3
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **2** results in **1** directory</summary>
+
+Directory: **``** (2 files)
+
+| File |
+|------|
+| `data/bible-red-letter-nasb1995.json` |
+| `data/bible-books.yaml` |
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **27** results in **1** directory</summary>
+
+Directory: **``** (27 files)
+
+| File |
+|------|
+| `_vendor/github.com/gethugothemes/hugo-modules/shortcodes/notice/layouts/shortcodes/notice.html` |
+| `themes/jorap/layouts/shortcodes/youtube_time.html` |
+| `themes/jorap/layouts/shortcodes/spotify_iframe_artist.html` |
+| `_vendor/github.com/gethugothemes/hugo-modules/modal/layouts/shortcodes/modal.html` |
+| `layouts/shortcodes/bible.html` |
+| `_vendor/github.com/gethugothemes/hugo-modules/tab/layouts/shortcodes/tab.html` |
+| `layouts/shortcodes/spotify_iframe_track.html` |
+| `_vendor/github.com/gethugothemes/hugo-modules/tab/layouts/shortcodes/tabs.html` |
+| `themes/jorap/layouts/shortcodes/spotify.html` |
+| `themes/jorap/layouts/shortcodes/youtube.html` |
+| `_vendor/github.com/gethugothemes/hugo-modules/videos/layouts/shortcodes/youtube-lite.html` |
+| `layouts/shortcodes/card.html` |
+| `_vendor/github.com/gethugothemes/hugo-modules/gallery-slider/layouts/shortcodes/slider.html` |
+| `layouts/shortcodes/youtube.html` |
+| `_vendor/github.com/gethugothemes/hugo-modules/accordion/layouts/shortcodes/accordion.html` |
+| `_vendor/github.com/gethugothemes/hugo-modules/videos/layouts/shortcodes/video.html` |
+| `_vendor/github.com/gethugothemes/hugo-modules/images/layouts/shortcodes/image.html` |
+| `_vendor/github.com/gethugothemes/hugo-modules/shortcodes/mermaid/layouts/shortcodes/mermaid.html` |
+| `layouts/shortcodes/spotify_iframe_artist.html` |
+| `layouts/shortcodes/spotify.html` |
+| `_vendor/github.com/gethugothemes/hugo-modules/shortcodes/button/layouts/shortcodes/button.html` |
+| `layouts/shortcodes/youtube_time.html` |
+| `_vendor/github.com/gethugothemes/hugo-modules/gallery-slider/layouts/shortcodes/gallery.html` |
+| `_vendor/github.com/gethugothemes/hugo-modules/adsense/layouts/shortcodes/adsense.html` |
+| `_vendor/github.com/gethugothemes/hugo-modules/table-of-contents/layouts/shortcodes/toc.html` |
+| `themes/jorap/layouts/shortcodes/spotify_iframe_track.html` |
+| `_vendor/github.com/gethugothemes/hugo-modules/videos/layouts/shortcodes/vimeo-lite.html` |
+</details></tool-use>
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+The theme shortcodes appear to have reappeared.
+
+Hugo requires shortcodes to live at `layouts/shortcodes/`. A standalone `Shortcodes/` folder cannot be transferred without a module or mount. The only straightforward way to move them is to copy the `.html` files directly into the destination site's `layouts/shortcodes/` directory.
+
+Embed shortcodes such as YouTube and Spotify are portable and can be copied directly. Bible and card shortcodes fail as standalone folders because they depend on partials, data, and external CSS or JS. To meet the goal, either restrict the transfer to embed shortcodes only, or inline all dependencies into each shortcode file so the folder works independently.
+</details></think>
+
+_**Agent (auto-smart)**_
+
+Then treat it as a **copyable `layouts/shortcodes/` drop**, not a module.
+
+Hugo only loads shortcodes from `layouts/shortcodes/` (or a theme’s same path). So the portable unit is that folder of `.html` files, dropped into another site’s `layouts/shortcodes/`.
+
+That works **only for self-contained templates**. Right now:
+
+| Copyable as-is | Not folder-portable yet |
+|----------------|-------------------------|
+| `youtube.html` | `bible.html` → needs `layouts/partials/shortcodes/bible.html` + scripture data |
+| `youtube_time.html` | `card.html` → needs flashcard partial + CSS + JS |
+| `spotify.html` | |
+| `spotify_iframe_track.html` | |
+| `spotify_iframe_artist.html` | |
+
+So for your goal: **yes — keep reusable ones as plain HTML in `layouts/shortcodes/`**. Don’t expect CSS/JS next to them unless you also invent a second folder to copy.
+
+If you want `bible` / `card` in that same transfer story, they have to be rewritten so each shortcode file (or the shortcodes folder alone) owns its markup and doesn’t reach outside for partials/data/assets. Otherwise leave them site-specific.
+
+Practical rule: anything you plan to reuse elsewhere should be one self-contained `.html` in `layouts/shortcodes/`.
+
+---
+
+_**User**_
+
+yes
+
+---
+
+_**Agent (auto-smart)**_
+
+> Auto routed to grok-4.5
+
+
+
+_**Agent (auto-smart)**_
+
+<think><details><summary>Thought Process</summary>
+The user confirmed the practical rule recommendation.
+
+The user likely wants bible and card shortcodes rewritten as self-contained files in layouts/shortcodes/.
+
+The user's "yes" is ambiguous. They may
+</details></think>
