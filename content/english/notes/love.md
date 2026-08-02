@@ -49,7 +49,7 @@ tags: ["Gospel", "Eternal Principles", "Galatians", "Discipleship"]
 aliases: ["fruit of love", "Galatians love"]
 featured: false
 review: true
-card_sets: ["Eternal Principles", "Gospel", "Discipleship"]
+card_sets: ["Eternal Principles", "Discipleship"]
 cards:
   - front: "Polite at church, sharp at home after. One check before I speak?"
     back: "Does it cost me - not just applause?"

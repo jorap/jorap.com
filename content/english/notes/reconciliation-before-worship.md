@@ -51,7 +51,7 @@ tags: ["Gospel", "Jesus Christ", "Eternal Principles", "Sermon on the Mount", "R
 aliases: ["leave your gift at the altar"]
 featured: false
 review: true
-card_sets: ["Eternal Principles", "Gospel", "Ethics"]
+card_sets: ["Eternal Principles", "Ethics"]
 cards:
   - front: "Gift in hand for Sunday - brother still hurt by me. What comes first?"
     back: "Fix it first - then offer gift."

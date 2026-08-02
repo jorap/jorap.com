@@ -44,7 +44,7 @@ tags: ["Gospel", "Jesus Christ", "Jesus Rhythms", "Faith"]
 aliases: ["ate with sinners", "reclined at table"]
 featured: false
 review: true
-card_sets: ["Jesus Rhythms", "Gospel", "Faith"]
+card_sets: ["Eternal Principles", "Jesus Rhythms"]
 cards:
   - front: "Invited only polished families to dinner - awkward guy still alone. What's the move?"
     back: "Open table - eat with sinners too."

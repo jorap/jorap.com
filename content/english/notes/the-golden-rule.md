@@ -54,7 +54,7 @@ tags: ["Gospel", "Jesus Christ", "Eternal Principles", "Sermon on the Mount", "E
 aliases: ["do unto others", "Golden Rule"]
 featured: false
 review: true
-card_sets: ["Eternal Principles", "Gospel", "Ethics"]
+card_sets: ["Eternal Principles", "Ethics"]
 cards:
   - front: "Thumb on post button, public critique loaded. One check before I hit send?"
     back: "Reverse roles - would I want this said to me?"

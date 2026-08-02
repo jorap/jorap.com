@@ -48,7 +48,7 @@ tags: ["Gospel", "Eternal Principles", "Prayer", "Jesus Christ"]
 aliases: ["daily bread", "give us this day"]
 featured: false
 review: true
-card_sets: ["Eternal Principles", "Gospel", "Prayer"]
+card_sets: ["Eternal Principles", "Prayer"]
 cards:
   - front: "2 a.m. spin about next year's tuition - sleep gone. What's the move?"
     back: "Pray today's bread - not every future bill."

@@ -47,7 +47,7 @@ tags: ["Gospel", "Jesus Christ", "Jesus Rhythms", "Faith", "Discipleship"]
 aliases: ["Emmaus road", "explain the scriptures"]
 featured: false
 review: true
-card_sets: ["Jesus Rhythms", "Gospel", "Faith", "Discipleship"]
+card_sets: ["Eternal Principles", "Jesus Rhythms"]
 cards:
   - front: "Dropped three verses in group chat and walked away - mic drop done. What's the move?"
     back: "Walk through it - explain line by line."

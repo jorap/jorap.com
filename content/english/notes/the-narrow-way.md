@@ -47,7 +47,7 @@ tags: ["Gospel", "Jesus Christ", "Eternal Principles", "Sermon on the Mount", "D
 aliases: ["narrow gate", "broad road", "Narrow Way"]
 featured: false
 review: true
-card_sets: ["Eternal Principles", "Gospel", "Discipleship"]
+card_sets: ["Eternal Principles", "Discipleship"]
 cards:
   - front: "Comfortable path everyone else is on - crowd makes it feel safe. What's the move?"
     back: "Take the hard road - life is that way."

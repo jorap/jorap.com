@@ -50,7 +50,7 @@ tags: ["Gospel", "Eternal Principles", "Galatians", "Discipleship"]
 aliases: ["fruit of peace", "Galatians peace"]
 featured: false
 review: true
-card_sets: ["Eternal Principles", "Gospel", "Discipleship"]
+card_sets: ["Eternal Principles", "Discipleship"]
 cards:
   - front: "2am bill spiral before I prayed. What's the first move?"
     back: "Trust first - pray, then act."

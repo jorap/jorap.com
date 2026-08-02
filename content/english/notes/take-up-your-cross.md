@@ -60,7 +60,7 @@ tags: ["Gospel", "Jesus Christ", "Eternal Principles", "Discipleship", "Self-den
 aliases: ["deny yourself", "daily cross"]
 featured: false
 review: true
-card_sets: ["Eternal Principles", "Gospel", "Discipleship"]
+card_sets: ["Eternal Principles", "Discipleship"]
 cards:
   - front: "Comfortable faith - avoiding the hard obedience I heard preached. What's the daily move?"
     back: "Deny self - follow Him today."

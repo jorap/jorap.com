@@ -55,7 +55,7 @@ tags: ["Gospel", "Eternal Principles", "Community", "Discipleship"]
 aliases: ["iron sharpens iron"]
 featured: false
 review: true
-card_sets: ["Eternal Principles", "Gospel", "Discipleship"]
+card_sets: ["Eternal Principles", "Discipleship"]
 cards:
   - front: "Brother asked if temper matched Bible reading - sting that night. What's the move?"
     back: "Stay in the friction - love sharpens."

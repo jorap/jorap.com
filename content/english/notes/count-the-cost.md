@@ -52,7 +52,7 @@ tags: ["Gospel", "Eternal Principles", "Discipleship", "Jesus Christ"]
 aliases: ["count cost before building"]
 featured: false
 review: true
-card_sets: ["Eternal Principles", "Gospel", "Discipleship"]
+card_sets: ["Eternal Principles", "Discipleship"]
 cards:
   - front: "Said yes to small group lead without counting Thursday travel season. What's missing?"
     back: "Name the cost - adjust or decline honestly."

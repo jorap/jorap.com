@@ -59,7 +59,7 @@ tags: ["Gospel", "Jesus Christ", "Eternal Principles", "Mission", "Discipleship"
 aliases: ["go and make disciples", "Matthew 28-18-20"]
 featured: false
 review: true
-card_sets: ["Eternal Principles", "Gospel", "Discipleship"]
+card_sets: ["Eternal Principles", "Discipleship"]
 cards:
   - front: "Notes garden full, gospel never leaves my mouth. What's the move?"
     back: "Share truth - don't hoard like bookmarks."

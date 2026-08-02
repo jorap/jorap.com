@@ -69,7 +69,7 @@ tags: ["Gospel", "Eternal Principles", "Priorities", "Discipleship", "Design"]
 aliases: ["God-centered design", "design for God's glory"]
 featured: false
 review: true
-card_sets: ["Eternal Principles", "Gospel", "Priorities", "Discipleship"]
+card_sets: ["Eternal Principles", "Priorities"]
 cards:
   - front: "Youth event looked great in photos but nobody prayed afterward. First cut?"
     back: "Drop one performance block - make room to pray."

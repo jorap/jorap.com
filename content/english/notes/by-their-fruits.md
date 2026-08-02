@@ -46,7 +46,7 @@ tags: ["Gospel", "Jesus Christ", "Eternal Principles", "Sermon on the Mount", "D
 aliases: ["know them by their fruits", "a tree is known by its fruit"]
 featured: false
 review: true
-card_sets: ["Eternal Principles", "Gospel", "Ethics"]
+card_sets: ["Eternal Principles", "Ethics"]
 cards:
   - front: "Charismatic preacher, messy lives in followers. How do I evaluate?"
     back: "Watch fruit - grapes from vines, not hype."

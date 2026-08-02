@@ -47,7 +47,7 @@ tags: ["Gospel", "Jesus Christ", "Jesus Prayers", "Faith", "Prayer"]
 aliases: ["John 11-41-42 prayer", "prayer at Lazarus tomb"]
 featured: false
 review: true
-card_sets: ["Jesus Prayers", "Gospel", "Faith", "Prayer"]
+card_sets: ["Eternal Principles", "Jesus Prayers"]
 cards:
   - front: "Asked to pray out loud before a hard moment - crowd watching. What's the move?"
     back: "Thank the Father aloud - then move."

@@ -45,7 +45,7 @@ tags: ["Gospel", "Jesus Christ", "Eternal Principles", "Free Grace", "Repentance
 aliases: ["repentance", "believe the gospel"]
 featured: false
 review: true
-card_sets: ["Eternal Principles", "Gospel", "Faith"]
+card_sets: ["Eternal Principles", "Faith"]
 cards:
   - front: "Delaying faith until my habits improve. When do I enter?"
     back: "Today - by faith, not when fixed."

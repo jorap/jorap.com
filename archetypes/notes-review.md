@@ -9,7 +9,7 @@ author: "JoRap"
 tags: ["Gospel", "Eternal Principles"]
 aliases: []
 review: true
-card_sets: ["Eternal Principles", "Gospel", "Faith"]
+card_sets: ["Eternal Principles", "Faith"]
 cards:
   - front: "Obedience feels like what qualifies me for heaven. What's the move?"
     back: "Trust Christ alone. Principles guide after."

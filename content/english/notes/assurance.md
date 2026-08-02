@@ -66,7 +66,7 @@ tags: ["Gospel", "Free Grace", "Salvation", "Faith", "Eternal Principles"]
 aliases: ["assurance of salvation", "eternal security", "rest in Christ"]
 featured: false
 review: true
-card_sets: ["Eternal Principles", "Gospel", "Faith"]
+card_sets: ["Eternal Principles", "Faith"]
 cards:
   - front: "Bad week and dread God changed His mind about me. What do I rest on?"
     back: "Christ's promise - not my streak."

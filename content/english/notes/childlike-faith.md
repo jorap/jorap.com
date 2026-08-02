@@ -41,7 +41,7 @@ tags: ["Gospel", "Jesus Christ", "Eternal Principles", "Free Grace", "Faith"]
 aliases: ["become like children", "faith like a child"]
 featured: false
 review: true
-card_sets: ["Eternal Principles", "Gospel", "Faith"]
+card_sets: ["Eternal Principles", "Faith"]
 cards:
   - front: "Calculating if I'm good enough to pray tonight. What posture enters the kingdom?"
     back: "Come like a kid - stop earning points."

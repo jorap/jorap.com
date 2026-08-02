@@ -97,7 +97,7 @@ tags: ["Gospel", "Free Grace", "Eternal Principles", "Discipleship", "Theology"]
 aliases: ["becoming holy", "growth in holiness"]
 featured: false
 review: true
-card_sets: ["Eternal Principles", "Gospel", "Discipleship"]
+card_sets: ["Eternal Principles", "Discipleship"]
 cards:
   - front: "Same sin pattern after conversion - feels like faith did not take. What's still true?"
     back: "Standing settled - slow becoming still running."

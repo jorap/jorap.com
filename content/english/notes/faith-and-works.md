@@ -64,7 +64,7 @@ tags: ["Gospel", "Free Grace", "Faith", "Eternal Principles", "Theology"]
 aliases: ["faith without works is dead", "works answer grace", "inactive faith"]
 featured: false
 review: true
-card_sets: ["Eternal Principles", "Gospel", "Faith"]
+card_sets: ["Eternal Principles", "Faith"]
 cards:
   - front: "Coworker says good deeds earn heaven - like salvation takes both. One sentence?"
     back: "Works answer grace - they don't buy heaven."

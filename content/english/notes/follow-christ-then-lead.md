@@ -66,7 +66,7 @@ tags: ["Gospel", "Discipleship", "Leadership", "Eternal Principles", "Ethics"]
 aliases: ["Christ before the org chart", "obey then lead"]
 featured: false
 review: true
-card_sets: ["Eternal Principles", "Gospel", "Discipleship", "Ethics"]
+card_sets: ["Eternal Principles", "Discipleship"]
 cards:
   - front: "Finance wants numbers softened and my team's watching. What comes first?"
     back: "Refuse the soften - follow Christ first."

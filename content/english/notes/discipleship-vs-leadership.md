@@ -69,7 +69,7 @@ tags: ["Gospel", "Discipleship", "Leadership", "Eternal Principles"]
 aliases: ["discipleship and leadership", "following vs leading"]
 featured: false
 review: true
-card_sets: ["Eternal Principles", "Gospel", "Discipleship", "Ethics"]
+card_sets: ["Eternal Principles", "Ethics"]
 cards:
   - front: "Youth program runs smooth but I haven't prayed alone in weeks - leadership ate following. What's the move?"
     back: "Pray alone first - follow when nobody watches."

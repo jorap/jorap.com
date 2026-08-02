@@ -33,6 +33,17 @@ SKIP_STEMS = {
 SKIP_KINDS = {"meta", "index"}
 SKIP_LAYOUTS = {"graph", "cards", "review", "issues", "backlinks", "random-duo", "create"}
 ALLOWED_COUNTS = {2, 4, 6, 8}
+PRIMARY_SET = "Eternal Principles"
+SECONDARY_SETS = {
+    "Commandments",
+    "Discipleship",
+    "Ethics",
+    "Faith",
+    "Jesus Prayers",
+    "Jesus Rhythms",
+    "Prayer",
+    "Priorities",
+}
 
 CARD_ITEM_RE = re.compile(
     r'^\s+-\s+front:\s+("(?:[^"\\]|\\.)*"|[^\n]+)\s*\n\s+back:\s+("(?:[^"\\]|\\.)*"|[^\n]+)\s*$',
@@ -94,6 +105,13 @@ def lint_file(path: Path) -> list[str]:
         return errors
     if not sets:
         errors.append(f"{rel}: requires card_sets (inline list, quoted names)")
+    set_names = {item[1:-1] if is_quoted(item) else item for item in sets}
+    secondaries = set_names & SECONDARY_SETS
+    if len(sets) != 2 or PRIMARY_SET not in set_names or len(secondaries) != 1:
+        errors.append(
+            f"{rel}: card_sets must contain Eternal Principles and one secondary set "
+            f"(has {sorted(set_names)})"
+        )
     if len(cards) < 2:
         errors.append(f"{rel}: requires at least 2 cards (has {len(cards)})")
     if len(cards) not in ALLOWED_COUNTS:

@@ -65,7 +65,7 @@ tags: ["Gospel", "Jesus Christ", "Eternal Principles", "Commandments", "Sermon o
 aliases: ["second commandment"]
 featured: false
 review: true
-card_sets: ["Eternal Principles", "Gospel", "Commandments"]
+card_sets: ["Eternal Principles", "Commandments"]
 cards:
   - front: "Neighbor I'd rather avoid lives next door. What's the move?"
     back: "Show mercy - next door counts."

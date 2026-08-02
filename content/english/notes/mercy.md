@@ -77,7 +77,7 @@ tags: ["Gospel", "Eternal Principles", "Theology", "Mercy", "Ethics"]
 aliases: ["compassion on the guilty", "obtain mercy"]
 featured: false
 review: true
-card_sets: ["Eternal Principles", "Gospel", "Ethics"]
+card_sets: ["Eternal Principles", "Ethics"]
 cards:
   - front: "Praying for forgiveness while nursing a grudge from last Sunday. What's the clash?"
     back: "Ask mercy - release the debt too."

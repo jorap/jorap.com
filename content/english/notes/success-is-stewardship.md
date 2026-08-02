@@ -122,7 +122,7 @@ tags: ["Gospel", "Eternal Principles", "Stewardship", "Leadership", "Discipleshi
 aliases: ["stewardship of success", "borrowed success"]
 featured: false
 review: true
-card_sets: ["Eternal Principles", "Gospel", "Discipleship", "Ethics"]
+card_sets: ["Eternal Principles", "Discipleship"]
 cards:
   - front: "Promotion landed and I am treating the team like support staff. What's the title for?"
     back: "Entrusted for their good - not my trophy."

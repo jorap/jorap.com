@@ -52,7 +52,7 @@ tags: ["Gospel", "Jesus Christ", "Eternal Principles", "Sermon on the Mount", "T
 aliases: ["do not worry", "sufficient unto the day", "dont worry"]
 featured: false
 review: true
-card_sets: ["Eternal Principles", "Gospel", "Priorities"]
+card_sets: ["Eternal Principles", "Priorities"]
 cards:
   - front: "2am spiral about bills - treating worry like it'll fix tomorrow. What's the move?"
     back: "Stop the spiral - today's enough."

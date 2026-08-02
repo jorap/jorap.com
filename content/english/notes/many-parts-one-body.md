@@ -51,7 +51,7 @@ tags: ["Gospel", "Eternal Principles", "Community", "Church"]
 aliases: ["one body many members", "1 Corinthians 12"]
 featured: false
 review: true
-card_sets: ["Eternal Principles", "Gospel", "Discipleship"]
+card_sets: ["Eternal Principles", "Discipleship"]
 cards:
   - front: "Volunteered for every ministry slot - burnout loading. What's the move?"
     back: "Say no - your part isn't every part."

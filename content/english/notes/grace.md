@@ -67,7 +67,7 @@ tags: ["Gospel", "Eternal Principles", "Theology", "Grace", "Faith"]
 aliases: ["unmerited favor", "charis"]
 featured: false
 review: true
-card_sets: ["Eternal Principles", "Gospel", "Faith"]
+card_sets: ["Eternal Principles", "Faith"]
 cards:
   - front: "I keep calling mercy and grace the same thing when someone asks what God did for me. Split them?"
     back: "Mercy spared wrath - grace gave the gift."

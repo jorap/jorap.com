@@ -59,7 +59,7 @@ tags: ["Gospel", "Jesus Christ", "Eternal Principles", "Sermon on the Mount", "P
 aliases: ["give in secret", "pray in secret", "fast in secret"]
 featured: false
 review: true
-card_sets: ["Eternal Principles", "Gospel", "Prayer"]
+card_sets: ["Eternal Principles", "Prayer"]
 cards:
   - front: "About to post my quiet time for likes. Who's the real audience?"
     back: "Father alone - not the feed."

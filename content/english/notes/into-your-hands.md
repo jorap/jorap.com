@@ -46,7 +46,7 @@ tags: ["Gospel", "Jesus Christ", "Jesus Prayers", "Faith", "Prayer"]
 aliases: ["Luke 23-46 prayer", "commit my spirit prayer"]
 featured: false
 review: true
-card_sets: ["Jesus Prayers", "Gospel", "Faith", "Prayer"]
+card_sets: ["Eternal Principles", "Jesus Prayers"]
 cards:
   - front: "Fear of dying alone at night - chest tight in the dark. What's the move?"
     back: "Father, into Your hands I commit my spirit."

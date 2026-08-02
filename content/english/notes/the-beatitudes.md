@@ -68,7 +68,7 @@ tags: ["Gospel", "Jesus Christ", "Eternal Principles", "Sermon on the Mount", "B
 aliases: ["blessed are", "Beatitudes"]
 featured: false
 review: true
-card_sets: ["Eternal Principles", "Gospel", "Ethics"]
+card_sets: ["Eternal Principles", "Ethics"]
 cards:
   - front: "Feeling self-sufficient after a good week. What's the posture?"
     back: "Admit need - receive as gift."

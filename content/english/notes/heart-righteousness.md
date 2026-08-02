@@ -57,7 +57,7 @@ tags: ["Gospel", "Jesus Christ", "Eternal Principles", "Sermon on the Mount", "H
 aliases: ["anger and lust", "heart sins"]
 featured: false
 review: true
-card_sets: ["Eternal Principles", "Gospel", "Ethics"]
+card_sets: ["Eternal Principles", "Ethics"]
 cards:
   - front: "Anger simmering after traffic - treated them fine outwardly. What's the move?"
     back: "Name the anger - deal with it before it grows."

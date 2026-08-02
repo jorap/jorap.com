@@ -50,7 +50,7 @@ tags: ["Gospel", "Eternal Principles", "Speech", "Community"]
 aliases: ["edifying speech"]
 featured: false
 review: true
-card_sets: ["Eternal Principles", "Gospel", "Ethics"]
+card_sets: ["Eternal Principles", "Ethics"]
 cards:
   - front: "Sarcastic group-chat reply loaded - teammate never sees grace. What's the move?"
     back: "Delete it - name one thing they did right."

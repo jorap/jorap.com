@@ -67,7 +67,7 @@ tags: ["Gospel", "Free Grace", "Salvation", "Faith", "Eternal Principles", "Theo
 aliases: ["declared righteous", "justified by faith"]
 featured: false
 review: true
-card_sets: ["Eternal Principles", "Gospel", "Faith"]
+card_sets: ["Eternal Principles", "Faith"]
 cards:
   - front: "Friend asks if God accepts me yet. I haven't fixed my habits. What's already true at faith?"
     back: "Declared righteous - Christ's record, not mine."

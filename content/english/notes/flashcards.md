@@ -64,7 +64,7 @@ Use this shape - inline `card_sets`, block `cards`, double-quoted strings, `draf
 
 ```yaml
 review: true
-card_sets: ["Eternal Principles", "Gospel", "Faith"]
+card_sets: ["Eternal Principles", "Faith"]
 cards:
   - front: "Obedience feels like what qualifies me for heaven. What's the move?"
     back: "Trust Christ alone. Principles guide after."
@@ -81,7 +81,7 @@ draft: false
 - **Cue only - no multiple choice** - front states the moment; never list options to pick from (`A or B?`, `X, Y, or Z?`).
 - Use inline `[...]` for `card_sets` (same as `categories` / `tags`); block lists for `cards` only.
 - Indent each `back:` four spaces under its `- front:` line.
-- Set names are short labels (`Faith`, `Commandments`, `Ethics`, `Prayer`, `Priorities`, `Discipleship`, `Jesus Rhythms`) - not note tags.
+- Use `Eternal Principles` plus exactly one secondary set (`Faith`, `Commandments`, `Ethics`, `Prayer`, `Priorities`, `Discipleship`, `Jesus Rhythms`, or `Jesus Prayers`).
 - Optional per-card override: add `sets: ["Capture"]` under one card item.
 - Do not put `| JoRap Notes` in `meta_title` (the theme appends it).
 - Validate with `npm run lint:cards` before commit.

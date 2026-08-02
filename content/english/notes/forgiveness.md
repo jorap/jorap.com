@@ -58,7 +58,7 @@ tags: ["Gospel", "Jesus Christ", "Eternal Principles", "Sermon on the Mount", "F
 aliases: ["forgive from the heart"]
 featured: false
 review: true
-card_sets: ["Eternal Principles", "Gospel", "Ethics"]
+card_sets: ["Eternal Principles", "Ethics"]
 cards:
   - front: "Praying while nursing a grudge - words stuck in my throat. What's the move?"
     back: "Forgive those who wrong me."

@@ -55,7 +55,7 @@ tags: ["Gospel", "Eternal Principles", "Galatians", "Discipleship"]
 aliases: ["fruit of patience", "Galatians patience", "longsuffering"]
 featured: false
 review: true
-card_sets: ["Eternal Principles", "Gospel", "Discipleship"]
+card_sets: ["Eternal Principles", "Discipleship"]
 cards:
   - front: "Snapped at my kid after a dry prayer week. What grows the slow fuse?"
     back: "Abide tonight - Scripture before news."

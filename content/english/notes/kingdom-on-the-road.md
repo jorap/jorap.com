@@ -46,7 +46,7 @@ tags: ["Gospel", "Jesus Christ", "Jesus Rhythms", "Faith"]
 aliases: ["town to town", "teach preach heal"]
 featured: false
 review: true
-card_sets: ["Jesus Rhythms", "Gospel", "Faith"]
+card_sets: ["Eternal Principles", "Jesus Rhythms"]
 cards:
   - front: "Sunday preaching, weekday integrity split - same fork, different masks. What's the move?"
     back: "Live one life both days - teach and touch."

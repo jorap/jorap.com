@@ -59,7 +59,7 @@ tags: ["Gospel", "Jesus Christ", "Eternal Principles", "Sermon on the Mount", "P
 aliases: ["seek ye first", "kingdom of God"]
 featured: false
 review: true
-card_sets: ["Eternal Principles", "Gospel", "Priorities"]
+card_sets: ["Eternal Principles", "Priorities"]
 cards:
   - front: "Anxiety scrolling finances before I've prayed. What comes first?"
     back: "Kingdom first - pray, then act."

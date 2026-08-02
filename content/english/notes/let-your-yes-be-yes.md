@@ -53,7 +53,7 @@ tags: ["Gospel", "Jesus Christ", "Eternal Principles", "Sermon on the Mount", "T
 aliases: ["truth telling", "simply let your yes be yes"]
 featured: false
 review: true
-card_sets: ["Eternal Principles", "Gospel", "Ethics"]
+card_sets: ["Eternal Principles", "Ethics"]
 cards:
   - front: "Padding a promise with extra oaths so they'll believe me. What's the move?"
     back: "Yes is yes - word stands alone."

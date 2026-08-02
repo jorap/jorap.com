@@ -51,7 +51,7 @@ tags: ["Gospel", "Jesus Christ", "Eternal Principles", "Sermon on the Mount", "W
 aliases: ["light of the world", "city on a hill"]
 featured: false
 review: true
-card_sets: ["Eternal Principles", "Gospel", "Discipleship"]
+card_sets: ["Eternal Principles", "Discipleship"]
 cards:
   - front: "Good deed done but I want credit in the caption. Who gets glory?"
     back: "Father - not my brand."

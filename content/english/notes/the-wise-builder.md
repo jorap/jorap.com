@@ -58,7 +58,7 @@ tags: ["Gospel", "Jesus Christ", "Eternal Principles", "Sermon on the Mount", "O
 aliases: ["house on the rock", "hear and do", "Wise Builder"]
 featured: false
 review: true
-card_sets: ["Eternal Principles", "Gospel", "Discipleship"]
+card_sets: ["Eternal Principles", "Discipleship"]
 cards:
   - front: "Heard the Sermon preached many times - how I treat people unchanged. What's missing?"
     back: "Do one command today - not hear only."

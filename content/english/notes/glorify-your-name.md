@@ -46,7 +46,7 @@ tags: ["Gospel", "Jesus Christ", "Jesus Prayers", "Faith", "Prayer"]
 aliases: ["John 12-28 prayer", "glorify your name prayer"]
 featured: false
 review: true
-card_sets: ["Jesus Prayers", "Gospel", "Faith", "Prayer"]
+card_sets: ["Eternal Principles", "Jesus Prayers"]
 cards:
   - front: "Hard hour coming - I want an easy out, not the cup. What's the move?"
     back: "Pray - glorify Your name, not skip the cup."

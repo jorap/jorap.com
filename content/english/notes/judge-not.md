@@ -45,7 +45,7 @@ tags: ["Gospel", "Jesus Christ", "Eternal Principles", "Sermon on the Mount", "J
 aliases: ["speck and plank", "do not judge"]
 featured: false
 review: true
-card_sets: ["Eternal Principles", "Gospel", "Ethics"]
+card_sets: ["Eternal Principles", "Ethics"]
 cards:
   - front: "Friend's speck obvious; my plank invisible. What do I fix first?"
     back: "Remove my plank - then help with speck."

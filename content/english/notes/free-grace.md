@@ -89,7 +89,7 @@ tags: ["Gospel", "Free Grace", "Salvation", "Faith", "Eternal Principles", "Theo
 aliases: ["faith alone", "sola fide", "salvation by grace"]
 featured: false
 review: true
-card_sets: ["Eternal Principles", "Gospel", "Faith"]
+card_sets: ["Eternal Principles", "Faith"]
 cards:
   - front: "Friend at coffee lists good deeds as their heaven ticket. What do I trust for eternal life?"
     back: "Christ's promise - grace through faith."

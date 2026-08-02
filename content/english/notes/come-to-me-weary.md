@@ -54,7 +54,7 @@ tags: ["Gospel", "Eternal Principles", "Jesus Christ", "Rest"]
 aliases: ["come unto me weary"]
 featured: false
 review: true
-card_sets: ["Eternal Principles", "Gospel", "Discipleship"]
+card_sets: ["Eternal Principles", "Discipleship"]
 cards:
   - front: "Outserved my burnout until Sunday collapsed - hero badge still on. What's the move?"
     back: "Admit weary - come before you crack."

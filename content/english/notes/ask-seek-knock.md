@@ -53,7 +53,7 @@ tags: ["Gospel", "Jesus Christ", "Eternal Principles", "Sermon on the Mount", "P
 aliases: ["persistent prayer", "the Lord's Prayer"]
 featured: false
 review: true
-card_sets: ["Eternal Principles", "Gospel", "Prayer"]
+card_sets: ["Eternal Principles", "Prayer"]
 cards:
   - front: "Email and inbox before any quiet time with God most mornings. How do I keep approaching the Father?"
     back: "Keep coming - ask again today."

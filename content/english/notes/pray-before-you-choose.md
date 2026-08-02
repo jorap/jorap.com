@@ -47,7 +47,7 @@ tags: ["Gospel", "Jesus Christ", "Jesus Rhythms", "Faith", "Prayer"]
 aliases: ["night in prayer", "pray before deciding"]
 featured: false
 review: true
-card_sets: ["Jesus Rhythms", "Gospel", "Faith", "Prayer"]
+card_sets: ["Eternal Principles", "Jesus Rhythms"]
 cards:
   - front: "About to announce the new team lead - prayed yet?"
     back: "Pray before the commit - not after."

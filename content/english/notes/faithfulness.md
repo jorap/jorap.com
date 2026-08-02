@@ -55,7 +55,7 @@ tags: ["Gospel", "Eternal Principles", "Galatians", "Discipleship"]
 aliases: ["fruit of faithfulness", "Galatians faithfulness"]
 featured: false
 review: true
-card_sets: ["Eternal Principles", "Gospel", "Discipleship"]
+card_sets: ["Eternal Principles", "Discipleship"]
 cards:
   - front: "One mission trip as my whole eternal report card. What still counts?"
     back: "Steady use over years - not one week."

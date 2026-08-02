@@ -44,7 +44,7 @@ tags: ["Gospel", "Jesus Christ", "Eternal Principles", "Sermon on the Mount", "N
 aliases: ["non-retaliation", "resist not evil"]
 featured: false
 review: true
-card_sets: ["Eternal Principles", "Gospel", "Ethics"]
+card_sets: ["Eternal Principles", "Ethics"]
 cards:
   - front: "Insult landed - thumb drafting equal hurt back. What's the cycle-break?"
     back: "Do not retaliate - absorb without escalating."

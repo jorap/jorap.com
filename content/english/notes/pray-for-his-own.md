@@ -53,7 +53,7 @@ tags: ["Gospel", "Jesus Christ", "Jesus Prayers", "Faith", "Prayer"]
 aliases: ["high priestly prayer"]
 featured: false
 review: true
-card_sets: ["Jesus Prayers", "Gospel", "Faith", "Prayer"]
+card_sets: ["Eternal Principles", "Jesus Prayers"]
 cards:
   - front: "Church friction has me ready to bail on unity - split tempting. What's the move?"
     back: "Pray they stay one - as Father and Son are one."

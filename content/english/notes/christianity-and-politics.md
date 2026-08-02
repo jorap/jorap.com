@@ -74,7 +74,7 @@ tags: ["Gospel", "Eternal Principles", "Jesus Christ", "Civic Duty", "Disciplesh
 aliases: ["faith and politics", "gospel and government", "Christian political engagement"]
 featured: false
 review: true
-card_sets: ["Eternal Principles", "Gospel", "Discipleship"]
+card_sets: ["Eternal Principles", "Discipleship"]
 cards:
   - front: "Tax bill feels like betraying the kingdom if I pay. What's the move?"
     back: "Pay lawful duty - worship God as ultimate."

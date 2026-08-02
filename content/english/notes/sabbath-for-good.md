@@ -47,7 +47,7 @@ tags: ["Gospel", "Jesus Christ", "Jesus Rhythms", "Faith"]
 aliases: ["Lord of the Sabbath", "Sabbath was made for man"]
 featured: false
 review: true
-card_sets: ["Jesus Rhythms", "Gospel", "Faith"]
+card_sets: ["Eternal Principles", "Jesus Rhythms"]
 cards:
   - front: "Teammate stranded on my off day - rest feels holy, help feels wrong. What's the move?"
     back: "Help them - rest doesn't block mercy."

@@ -57,7 +57,7 @@ tags: ["Gospel", "Free Grace", "Eternal Principles", "Discipleship", "Romans", "
 aliases: ["living sacrifice", "holy and pleasing"]
 featured: false
 review: true
-card_sets: ["Eternal Principles", "Gospel", "Discipleship"]
+card_sets: ["Eternal Principles", "Discipleship"]
 cards:
   - front: "Stacking volunteer hours to feel acceptable again after a bad week. Wrong order?"
     back: "Mercy first - offer from thanks, not payment."

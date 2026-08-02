@@ -47,7 +47,7 @@ tags: ["Gospel", "Jesus Christ", "Jesus Rhythms", "Faith", "Prayer"]
 aliases: ["pray after ministry", "mountain after crowds"]
 featured: false
 review: true
-card_sets: ["Jesus Rhythms", "Gospel", "Faith", "Prayer"]
+card_sets: ["Eternal Principles", "Jesus Rhythms"]
 cards:
   - front: "Hosted all morning, collapsed without talking to God. What's missing?"
     back: "Up the mountain - pray alone."

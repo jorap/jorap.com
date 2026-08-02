@@ -102,7 +102,7 @@ tags: ["Gospel", "Jesus Christ", "Eternal Principles", "Discipleship", "Obedienc
 aliases: ["follow Jesus", "following Christ"]
 featured: false
 review: true
-card_sets: ["Eternal Principles", "Gospel", "Discipleship"]
+card_sets: ["Eternal Principles", "Discipleship"]
 cards:
   - front: "Grace saved me but life looks unchanged - obedience treated like optional extra. What's the move?"
     back: "Follow today - grateful walk, not optional."

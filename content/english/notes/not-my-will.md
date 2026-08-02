@@ -50,7 +50,7 @@ tags: ["Gospel", "Jesus Christ", "Jesus Prayers", "Faith", "Prayer"]
 aliases: ["Gethsemane prayer", "not my will but yours"]
 featured: false
 review: true
-card_sets: ["Jesus Prayers", "Gospel", "Faith", "Prayer"]
+card_sets: ["Eternal Principles", "Jesus Prayers"]
 cards:
   - front: "Praying for a different outcome - dread building in my chest. What's the move?"
     back: "Not my will - Yours be done."

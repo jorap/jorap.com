@@ -57,7 +57,7 @@ tags: ["Gospel", "Jesus Christ", "Eternal Principles", "Sermon on the Mount", "P
 aliases: ["lay up treasure", "where your treasure is"]
 featured: false
 review: true
-card_sets: ["Eternal Principles", "Gospel", "Priorities"]
+card_sets: ["Eternal Principles", "Priorities"]
 cards:
   - front: "Saving articles and gear I will never use. Where's my heart drifting?"
     back: "Stop stacking earth stuff - store what lasts."

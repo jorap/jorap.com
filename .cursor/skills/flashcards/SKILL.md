@@ -155,7 +155,7 @@ Template: `archetypes/notes-review.md`.
 
 ```yaml
 review: true
-card_sets: ["Eternal Principles", "Gospel", "Faith"]
+card_sets: ["Eternal Principles", "Faith"]
 cards:
   - front: "Obedience feels like what qualifies me for heaven. What's the move?"
     back: "Trust Christ alone. Principles guide after."
@@ -247,7 +247,12 @@ Cards fire under pressure. Fancy words slow recall. Every word should land on fi
 
 ### card_sets labels
 
-**Gospel (only active deck labels):** always `"Eternal Principles"` plus one: `Faith`, `Commandments`, `Ethics`, `Prayer`, `Priorities`, `Discipleship` — or Jesus lanes: `Jesus Rhythms`, `Jesus Prayers`
+**Active deck labels:** exactly `"Eternal Principles"` plus one secondary drill lane.
+
+- Primary: `Eternal Principles`
+- Secondary: `Faith`, `Commandments`, `Ethics`, `Prayer`, `Priorities`, `Discipleship`, `Jesus Rhythms`, or `Jesus Prayers`
+
+Examples: `["Eternal Principles", "Faith"]`, `["Eternal Principles", "Jesus Rhythms"]`, `["Eternal Principles", "Jesus Prayers"]`. Do not add `Gospel`: it covered nearly every active card and did not narrow review.
 
 **PKM labels (legacy, do not enable):** `Capture`, `Workflow`, `Review`, `Linking`, `Writing`, `Organization`, `Focus` — keep `review: false` on those notes
 
@@ -271,6 +276,7 @@ Deck:
 
 - [ ] Six different cues - not six ways to ask the definition
 - [ ] Faith / Eternal Principles scope (`categories` includes Faith)
+- [ ] Exactly `Eternal Principles` plus one secondary set
 
 ## Lint and tools
 

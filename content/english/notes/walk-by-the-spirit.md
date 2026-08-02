@@ -49,7 +49,7 @@ tags: ["Gospel", "Eternal Principles", "Free Grace", "Sanctification", "Holy Spi
 aliases: ["walking by the Spirit"]
 featured: false
 review: true
-card_sets: ["Eternal Principles", "Gospel", "Discipleship"]
+card_sets: ["Eternal Principles", "Discipleship"]
 cards:
   - front: "White-knuckled patience until Thursday - snapped anyway. What comes first?"
     back: "Ask Spirit before the meeting - not perform virtue."

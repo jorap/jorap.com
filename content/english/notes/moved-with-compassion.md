@@ -47,7 +47,7 @@ tags: ["Gospel", "Jesus Christ", "Jesus Rhythms", "Faith"]
 aliases: ["compassion interrupt", "moved with pity"]
 featured: false
 review: true
-card_sets: ["Jesus Rhythms", "Gospel", "Faith"]
+card_sets: ["Eternal Principles", "Jesus Rhythms"]
 cards:
   - front: "Deep work blocked, neighbor knocked shaken - door still closed. What's the move?"
     back: "Open the door - help now."

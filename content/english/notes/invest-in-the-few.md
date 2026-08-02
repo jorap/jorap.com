@@ -46,7 +46,7 @@ tags: ["Gospel", "Jesus Christ", "Jesus Rhythms", "Faith", "Discipleship"]
 aliases: ["the twelve", "depth with a few"]
 featured: false
 review: true
-card_sets: ["Jesus Rhythms", "Gospel", "Faith", "Discipleship"]
+card_sets: ["Eternal Principles", "Jesus Rhythms"]
 cards:
   - front: "Chasing bigger audience, neglecting three faithful people - metrics up. What comes first?"
     back: "Depth with the few first."

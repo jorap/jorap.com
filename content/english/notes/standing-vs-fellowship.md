@@ -66,7 +66,7 @@ tags: ["Gospel", "Free Grace", "Eternal Principles", "Faith", "Theology"]
 aliases: ["standing and fellowship", "position vs fellowship", "legal standing vs fellowship"]
 featured: false
 review: true
-card_sets: ["Eternal Principles", "Gospel", "Faith"]
+card_sets: ["Eternal Principles", "Faith"]
 cards:
   - front: "Snapped at my kid and dread hit - like God revoked my ticket to heaven. Two different things?"
     back: "Standing stays - confess, restore fellowship."

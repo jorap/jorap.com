@@ -59,7 +59,7 @@ tags: ["Gospel", "Stewardship", "Leadership", "Discipleship", "Performance", "Wo
 aliases: ["do not coast on wins", "steward the good season"]
 featured: false
 review: true
-card_sets: ["Eternal Principles", "Discipleship", "Ethics"]
+card_sets: ["Eternal Principles", "Discipleship"]
 cards:
   - front: "Promotion landed and by Thursday I am delegating mess and grabbing visible wins. What's the title for?"
     back: "Their good - keep serving, do not coast."

@@ -47,7 +47,7 @@ tags: ["Gospel", "Jesus Christ", "Jesus Prayers", "Faith", "Prayer"]
 aliases: ["Luke 10-21 prayer", "thanksgiving prayer of Jesus"]
 featured: false
 review: true
-card_sets: ["Jesus Prayers", "Gospel", "Faith", "Prayer"]
+card_sets: ["Eternal Principles", "Jesus Prayers"]
 cards:
   - front: "New believer saw the verse plain while I stacked three commentaries. What's the move?"
     back: "Thank the Father - revelation is His gift."
