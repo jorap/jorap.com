@@ -47,7 +47,7 @@ tags: ["Gospel", "Jesus Christ", "Jesus Rhythms", "Faith", "Prayer"]
 aliases: ["pray in solitude", "slip away to pray"]
 featured: false
 review: true
-card_sets: ["Eternal Principles", "Jesus Rhythms"]
+card_sets: ["Eternal Principles", "Prayer"]
 cards:
   - front: "Group chat blowing up before I'm out of bed - thumb hovering. What comes first?"
     back: "Door closed - pray before I reply."

@@ -56,7 +56,7 @@ tags: ["Faith", "Leadership", "Bible", "Discipleship"]
 aliases: ["law of victory", "the law of victory"]
 featured: false
 review: true
-card_sets: ["Eternal Principles", "Discipleship"]
+card_sets: ["Eternal Principles", "Legacy"]
 cards:
   - front: "Team is stuck and the door is closed. What's the move?"
     back: "Find one workaround - clear their path."

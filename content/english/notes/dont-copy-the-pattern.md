@@ -59,7 +59,7 @@ tags: ["Gospel", "Eternal Principles", "Discipleship", "Romans", "Culture", "Foc
 aliases: ["do not conform", "world's pattern", "refuse culture's default"]
 featured: false
 review: true
-card_sets: ["Eternal Principles", "Discipleship"]
+card_sets: ["Eternal Principles", "Obedience"]
 cards:
   - front: "Everyone at the table is copying the loudest cynic - I feel the script pulling me in. What's the interrupt?"
     back: "Refuse the pattern - speak from truth."

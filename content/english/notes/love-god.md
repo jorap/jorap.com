@@ -45,7 +45,7 @@ tags: ["Gospel", "Jesus Christ", "Eternal Principles", "Commandments", "Sermon o
 aliases: ["greatest commandment"]
 featured: false
 review: true
-card_sets: ["Eternal Principles", "Commandments"]
+card_sets: ["Eternal Principles", "Love"]
 cards:
   - front: "Sunday worship felt high but I haven't opened the Bible all week - mind lane empty. What's the move?"
     back: "Open Scripture today - love God with your mind."

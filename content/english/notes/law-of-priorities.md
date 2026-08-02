@@ -55,7 +55,7 @@ tags: ["Faith", "Leadership", "Bible", "Discipleship"]
 aliases: ["law of priorities", "the law of priorities"]
 featured: false
 review: true
-card_sets: ["Eternal Principles", "Discipleship"]
+card_sets: ["Eternal Principles", "Legacy"]
 cards:
   - front: "Fifty Slack pings answered - sermon draft still untouched. What comes first?"
     back: "Kingdom work before the ping pile."

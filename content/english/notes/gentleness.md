@@ -57,7 +57,7 @@ tags: ["Gospel", "Eternal Principles", "Galatians", "Discipleship"]
 aliases: ["fruit of gentleness", "Galatians gentleness", "meekness"]
 featured: false
 review: true
-card_sets: ["Eternal Principles", "Discipleship"]
+card_sets: ["Eternal Principles", "Fruit"]
 cards:
   - front: "Correction with my kid - volume up, love thinned. What's the move?"
     back: "Drop volume - strength under control."

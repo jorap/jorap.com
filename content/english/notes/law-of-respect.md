@@ -55,7 +55,7 @@ tags: ["Faith", "Leadership", "Bible", "Discipleship"]
 aliases: ["law of respect", "the law of respect"]
 featured: false
 review: true
-card_sets: ["Eternal Principles", "Discipleship"]
+card_sets: ["Eternal Principles", "Leadership"]
 cards:
   - front: "Asking the team to follow before I've trained my own lane. What comes first?"
     back: "Strengthen my lane - then call the move."

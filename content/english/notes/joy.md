@@ -53,7 +53,7 @@ tags: ["Gospel", "Eternal Principles", "Galatians", "Discipleship"]
 aliases: ["fruit of joy", "Galatians joy"]
 featured: false
 review: true
-card_sets: ["Eternal Principles", "Discipleship"]
+card_sets: ["Eternal Principles", "Fruit"]
 cards:
   - front: "Good week at work and I feel spiritually qualified. What checks the motive?"
     back: "Rest on Christ's promise - not the streak."

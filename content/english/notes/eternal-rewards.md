@@ -62,7 +62,7 @@ tags: ["Gospel", "Jesus Christ", "Eternal Principles", "Sermon on the Mount", "R
 aliases: ["heavenly reward", "reward in heaven"]
 featured: false
 review: true
-card_sets: ["Eternal Principles", "Priorities"]
+card_sets: ["Eternal Principles", "Stewardship"]
 cards:
   - front: "Secret prayer and tempted to tell everyone so I feel credited. Who pays?"
     back: "Father in secret - not the audience."

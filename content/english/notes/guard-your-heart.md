@@ -49,7 +49,7 @@ tags: ["Gospel", "Eternal Principles", "Wisdom", "Discipleship"]
 aliases: ["guard the heart"]
 featured: false
 review: true
-card_sets: ["Eternal Principles", "Discipleship"]
+card_sets: ["Eternal Principles", "Obedience"]
 cards:
   - front: "Political rage thread rotting patience with my kids - scroll still open. What comes first?"
     back: "Mute thread - Scripture before scroll tonight."

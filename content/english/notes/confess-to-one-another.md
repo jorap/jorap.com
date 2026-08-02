@@ -50,7 +50,7 @@ tags: ["Gospel", "Eternal Principles", "Community", "Forgiveness"]
 aliases: ["confess your sins"]
 featured: false
 review: true
-card_sets: ["Eternal Principles", "Discipleship"]
+card_sets: ["Eternal Principles", "Community"]
 cards:
   - front: "Anger streak eating the marriage - still hiding from accountability brother. What's the move?"
     back: "Confess tonight - prayer, not podcast."

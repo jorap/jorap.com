@@ -55,7 +55,7 @@ tags: ["Faith", "Leadership", "Bible", "Discipleship"]
 aliases: ["law of solid ground", "the law of solid ground"]
 featured: false
 review: true
-card_sets: ["Eternal Principles", "Discipleship"]
+card_sets: ["Eternal Principles", "Leadership"]
 cards:
   - front: "I missed the Friday deliverable I promised the team. First repair move?"
     back: "Own it today - don't wait for the audit."

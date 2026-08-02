@@ -152,7 +152,7 @@ tags: ["Gospel", "Free Grace", "Eternal Principles", "Discipleship", "Sanctifica
 aliases: ["renewing of the mind", "mind renewal"]
 featured: false
 review: true
-card_sets: ["Eternal Principles", "Discipleship"]
+card_sets: ["Eternal Principles", "Sanctification"]
 cards:
   - front: "Scrolling outrage feeds all week, Scripture closed on the counter. Whose pattern is running my reactions?"
     back: "World's default - open Scripture first."

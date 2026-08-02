@@ -73,7 +73,7 @@ tags: ["Gospel", "Free Grace", "Eternal Principles", "Reward", "Theology"]
 aliases: ["loss of crown", "saved yet so as through fire", "reward vs salvation"]
 featured: false
 review: true
-card_sets: ["Eternal Principles", "Priorities"]
+card_sets: ["Eternal Principles", "Stewardship"]
 cards:
   - front: "Wasted years of selfish living - terror I'm not really saved. Two different losses?"
     back: "Reward may burn - salvation stands on Christ."

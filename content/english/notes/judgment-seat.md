@@ -63,7 +63,7 @@ tags: ["Gospel", "Jesus Christ", "Eternal Principles", "Reward", "Theology"]
 aliases: ["bema seat", "bema", "judgment seat of Christ"]
 featured: false
 review: true
-card_sets: ["Eternal Principles", "Priorities"]
+card_sets: ["Eternal Principles", "Stewardship"]
 cards:
   - front: "Mind races to standing before Christ someday - panic that heaven might get revoked. What's this review for?"
     back: "Works for reward - life already settled."

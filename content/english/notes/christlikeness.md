@@ -78,7 +78,7 @@ tags: ["Gospel", "Free Grace", "Eternal Principles", "Discipleship", "Sanctifica
 aliases: ["conformed to Christ", "becoming like Christ", "Christ-likeness"]
 featured: false
 review: true
-card_sets: ["Eternal Principles", "Discipleship"]
+card_sets: ["Eternal Principles", "Sanctification"]
 cards:
   - front: "Same temper after conversion - feels like faith didn't take. What's God still doing?"
     back: "Reshaping slowly - standing settled at faith."

@@ -57,7 +57,7 @@ tags: ["Faith", "Leadership", "Bible", "Discipleship"]
 aliases: ["law of sacrifice", "the law of sacrifice"]
 featured: false
 review: true
-card_sets: ["Eternal Principles", "Discipleship"]
+card_sets: ["Eternal Principles", "Legacy"]
 cards:
   - front: "Resentment building from costs I never named when I said yes. What comes first?"
     back: "Name the toll early - make it visible."

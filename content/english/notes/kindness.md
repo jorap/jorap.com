@@ -53,7 +53,7 @@ tags: ["Gospel", "Eternal Principles", "Galatians", "Discipleship"]
 aliases: ["fruit of kindness", "Galatians kindness"]
 featured: false
 review: true
-card_sets: ["Eternal Principles", "Discipleship"]
+card_sets: ["Eternal Principles", "Fruit"]
 cards:
   - front: "Neighbor I'd rather avoid at every game. What's the move?"
     back: "Act with mercy - person in front counts."

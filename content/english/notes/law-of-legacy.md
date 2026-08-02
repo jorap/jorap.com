@@ -57,7 +57,7 @@ tags: ["Faith", "Leadership", "Bible", "Discipleship"]
 aliases: ["law of legacy", "the law of legacy"]
 featured: false
 review: true
-card_sets: ["Eternal Principles", "Discipleship"]
+card_sets: ["Eternal Principles", "Legacy"]
 cards:
   - front: "Leaving the role next month - every key still lives in my head. What's the move?"
     back: "Name a successor in writing."

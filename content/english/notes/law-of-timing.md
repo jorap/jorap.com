@@ -54,7 +54,7 @@ tags: ["Faith", "Leadership", "Bible", "Discipleship"]
 aliases: ["law of timing", "the law of timing"]
 featured: false
 review: true
-card_sets: ["Eternal Principles", "Discipleship"]
+card_sets: ["Eternal Principles", "Legacy"]
 cards:
   - front: "Room is hot and I want to announce before the map is ready. What comes first?"
     back: "Delay one beat - clock before speech."

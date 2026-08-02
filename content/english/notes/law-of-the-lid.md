@@ -54,7 +54,7 @@ tags: ["Faith", "Leadership", "Bible", "Discipleship"]
 aliases: ["law of the lid", "the law of the lid"]
 featured: false
 review: true
-card_sets: ["Eternal Principles", "Discipleship"]
+card_sets: ["Eternal Principles", "Leadership"]
 cards:
   - front: "Team missed targets and my first blame is the crew. What comes first?"
     back: "Ask if my ceiling is the bottleneck."

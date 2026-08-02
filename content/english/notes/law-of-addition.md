@@ -51,7 +51,7 @@ tags: ["Faith", "Leadership", "Bible", "Discipleship"]
 aliases: ["law of addition", "the law of addition"]
 featured: false
 review: true
-card_sets: ["Eternal Principles", "Discipleship"]
+card_sets: ["Eternal Principles", "Leadership"]
 cards:
   - front: "Junior wants the easier shift and I'm eyeing the same slot. One move before I grab it?"
     back: "Let them pick first - serve before credit."

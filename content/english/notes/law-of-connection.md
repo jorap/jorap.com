@@ -56,7 +56,7 @@ tags: ["Faith", "Leadership", "Bible", "Discipleship"]
 aliases: ["law of connection", "the law of connection"]
 featured: false
 review: true
-card_sets: ["Eternal Principles", "Discipleship"]
+card_sets: ["Eternal Principles", "Influence"]
 cards:
   - front: "About to ask for overtime and I haven't checked how their week went. What comes first?"
     back: "One human sentence - heart before the hand."

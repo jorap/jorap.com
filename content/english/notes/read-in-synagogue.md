@@ -47,7 +47,7 @@ tags: ["Gospel", "Jesus Christ", "Jesus Rhythms", "Faith"]
 aliases: ["synagogue custom", "read scripture aloud"]
 featured: false
 review: true
-card_sets: ["Eternal Principles", "Jesus Rhythms"]
+card_sets: ["Eternal Principles", "Scripture"]
 cards:
   - front: "Bible alone on the couch for months - gathered reading missing. What's missing?"
     back: "Show up - hear Scripture with God's people."

@@ -35,14 +35,23 @@ SKIP_LAYOUTS = {"graph", "cards", "review", "issues", "backlinks", "random-duo",
 ALLOWED_COUNTS = {2, 4, 6, 8}
 PRIMARY_SET = "Eternal Principles"
 SECONDARY_SETS = {
-    "Commandments",
+    "Community",
     "Discipleship",
     "Ethics",
     "Faith",
+    "Fruit",
+    "Influence",
     "Jesus Prayers",
     "Jesus Rhythms",
+    "Leadership",
+    "Legacy",
+    "Love",
+    "Obedience",
     "Prayer",
     "Priorities",
+    "Sanctification",
+    "Scripture",
+    "Stewardship",
 }
 
 CARD_ITEM_RE = re.compile(

@@ -56,7 +56,7 @@ tags: ["Faith", "Leadership", "Bible", "Discipleship"]
 aliases: ["law of buy-in", "the law of buy-in"]
 featured: false
 review: true
-card_sets: ["Eternal Principles", "Discipleship"]
+card_sets: ["Eternal Principles", "Influence"]
 cards:
   - front: "Slide deck is ready but the room hasn't seen me carry load yet. What comes first?"
     back: "Carry load first - trust before the pitch."

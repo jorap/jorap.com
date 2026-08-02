@@ -57,7 +57,7 @@ tags: ["Faith", "Leadership", "Bible", "Discipleship"]
 aliases: ["law of process", "the law of process"]
 featured: false
 review: true
-card_sets: ["Eternal Principles", "Discipleship"]
+card_sets: ["Eternal Principles", "Leadership"]
 cards:
   - front: "One good talk and I want the ministry lead now. What's missing?"
     back: "Years of quiet reps first."

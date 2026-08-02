@@ -58,7 +58,7 @@ tags: ["Gospel", "Jesus Christ", "Eternal Principles", "Free Grace", "Fruit", "U
 aliases: ["remain in me", "the vine and branches"]
 featured: false
 review: true
-card_sets: ["Eternal Principles", "Faith"]
+card_sets: ["Eternal Principles", "Sanctification"]
 cards:
   - front: "Trying harder at fruit - more service, less sin - but feeling dry inside. Where does fruit come from?"
     back: "Stay connected - fruit from the vine."

@@ -56,7 +56,7 @@ tags: ["Faith", "Leadership", "Bible", "Discipleship"]
 aliases: ["law of intuition", "the law of intuition"]
 featured: false
 review: true
-card_sets: ["Eternal Principles", "Discipleship"]
+card_sets: ["Eternal Principles", "Influence"]
 cards:
   - front: "Meeting tone just shifted and the agenda is still rolling. First move?"
     back: "Pause - name what I sense out loud."

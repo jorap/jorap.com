@@ -250,9 +250,9 @@ Cards fire under pressure. Fancy words slow recall. Every word should land on fi
 **Active deck labels:** exactly `"Eternal Principles"` plus one secondary drill lane.
 
 - Primary: `Eternal Principles`
-- Secondary: `Faith`, `Commandments`, `Ethics`, `Prayer`, `Priorities`, `Discipleship`, `Jesus Rhythms`, or `Jesus Prayers`
+- Secondary (target **24–48 cards** per set, ~4–8 notes): `Faith`, `Fruit`, `Sanctification`, `Discipleship`, `Obedience`, `Community`, `Stewardship`, `Priorities`, `Leadership`, `Influence`, `Legacy`, `Love`, `Ethics`, `Prayer`, `Jesus Prayers`, `Scripture`, `Jesus Rhythms`
 
-Examples: `["Eternal Principles", "Faith"]`, `["Eternal Principles", "Jesus Rhythms"]`, `["Eternal Principles", "Jesus Prayers"]`. Do not add `Gospel`: it covered nearly every active card and did not narrow review.
+Examples: `["Eternal Principles", "Faith"]`, `["Eternal Principles", "Fruit"]`, `["Eternal Principles", "Jesus Prayers"]`. Do not add `Gospel`: it covered nearly every active card and did not narrow review. Split a secondary when it grows past ~48 cards; merge when under ~24.
 
 **PKM labels (legacy, do not enable):** `Capture`, `Workflow`, `Review`, `Linking`, `Writing`, `Organization`, `Focus` — keep `review: false` on those notes
 

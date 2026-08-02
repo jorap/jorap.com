@@ -38,7 +38,7 @@ tags: ["Gospel", "Jesus Christ", "Eternal Principles", "Civic Duty", "Allegiance
 aliases: ["give to Caesar", "Caesar and God"]
 featured: false
 review: true
-card_sets: ["Eternal Principles", "Discipleship"]
+card_sets: ["Eternal Principles", "Priorities"]
 cards:
   - front: "Tax bill arrived - tempted to dodge as kingdom protest. What's the move?"
     back: "Pay lawful duty - give Caesar his coin."

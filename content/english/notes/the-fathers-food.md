@@ -47,7 +47,7 @@ tags: ["Gospel", "Jesus Christ", "Jesus Rhythms", "Faith"]
 aliases: ["my food is to do his will", "obedience as sustenance"]
 featured: false
 review: true
-card_sets: ["Eternal Principles", "Jesus Rhythms"]
+card_sets: ["Eternal Principles", "Scripture"]
 cards:
   - front: "Disciples worried about lunch - He kept talking about the Father's will. What's the move?"
     back: "Do the Father's will - that feeds."

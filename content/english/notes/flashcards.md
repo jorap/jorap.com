@@ -81,7 +81,7 @@ draft: false
 - **Cue only - no multiple choice** - front states the moment; never list options to pick from (`A or B?`, `X, Y, or Z?`).
 - Use inline `[...]` for `card_sets` (same as `categories` / `tags`); block lists for `cards` only.
 - Indent each `back:` four spaces under its `- front:` line.
-- Use `Eternal Principles` plus exactly one secondary set (`Faith`, `Commandments`, `Ethics`, `Prayer`, `Priorities`, `Discipleship`, `Jesus Rhythms`, or `Jesus Prayers`).
+- Use `Eternal Principles` plus exactly one secondary set (target 24-48 cards): `Faith`, `Fruit`, `Sanctification`, `Discipleship`, `Obedience`, `Community`, `Stewardship`, `Priorities`, `Leadership`, `Influence`, `Legacy`, `Love`, `Ethics`, `Prayer`, `Jesus Prayers`, `Scripture`, `Jesus Rhythms`.
 - Optional per-card override: add `sets: ["Capture"]` under one card item.
 - Do not put `| JoRap Notes` in `meta_title` (the theme appends it).
 - Validate with `npm run lint:cards` before commit.

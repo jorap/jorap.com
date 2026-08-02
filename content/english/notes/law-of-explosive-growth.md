@@ -56,7 +56,7 @@ tags: ["Faith", "Leadership", "Bible", "Discipleship"]
 aliases: ["law of explosive growth", "the law of explosive growth"]
 featured: false
 review: true
-card_sets: ["Eternal Principles", "Discipleship"]
+card_sets: ["Eternal Principles", "Influence"]
 cards:
   - front: "Headcount is up and I'm still the only teacher. First fix I try?"
     back: "Teach one person the full playbook this quarter."

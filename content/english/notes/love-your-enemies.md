@@ -50,7 +50,7 @@ tags: ["Gospel", "Jesus Christ", "Eternal Principles", "Sermon on the Mount", "F
 aliases: ["bless those who curse you"]
 featured: false
 review: true
-card_sets: ["Eternal Principles", "Ethics"]
+card_sets: ["Eternal Principles", "Love"]
 cards:
   - front: "Someone slandered me online. Thumb hovering over reply. First move before I type?"
     back: "Pray for them."

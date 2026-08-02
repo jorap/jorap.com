@@ -47,7 +47,7 @@ tags: ["Gospel", "Jesus Christ", "Jesus Rhythms", "Faith"]
 aliases: ["scripture under pressure", "wilderness temptation"]
 featured: false
 review: true
-card_sets: ["Eternal Principles", "Jesus Rhythms"]
+card_sets: ["Eternal Principles", "Scripture"]
 cards:
   - front: "Group chat baited me to fire back - adrenaline up, no verse loaded. What's the move?"
     back: "Load Scripture before pressure - then answer."

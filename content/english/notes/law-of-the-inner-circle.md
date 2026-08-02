@@ -55,7 +55,7 @@ tags: ["Faith", "Leadership", "Bible", "Discipleship"]
 aliases: ["law of inner circle", "the law of inner circle"]
 featured: false
 review: true
-card_sets: ["Eternal Principles", "Discipleship"]
+card_sets: ["Eternal Principles", "Influence"]
 cards:
   - front: "Hard decision tonight and my room is all cheerleaders. What's the move?"
     back: "Invite one truth-teller into the call."

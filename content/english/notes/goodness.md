@@ -52,7 +52,7 @@ tags: ["Gospel", "Eternal Principles", "Galatians", "Discipleship"]
 aliases: ["fruit of goodness", "Galatians goodness"]
 featured: false
 review: true
-card_sets: ["Eternal Principles", "Discipleship"]
+card_sets: ["Eternal Principles", "Fruit"]
 cards:
   - front: "Extra water for the bench - almost posted about it. Who gets glory?"
     back: "Father - not my brand."

@@ -85,7 +85,7 @@ tags: ["Gospel", "Free Grace", "Eternal Principles", "Discipleship", "Obedience"
 aliases: ["obedience from gratitude", "grateful response", "obey because saved"]
 featured: false
 review: true
-card_sets: ["Eternal Principles", "Discipleship"]
+card_sets: ["Eternal Principles", "Sanctification"]
 cards:
   - front: "Obeying hard this week so I can feel saved again after snapping. What's driving it?"
     back: "Grace already saved - obey from thanks."

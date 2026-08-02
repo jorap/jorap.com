@@ -57,7 +57,7 @@ tags: ["Gospel", "Jesus Christ", "Eternal Principles", "Beatitudes", "Sermon on 
 aliases: ["blessed are the peacemakers"]
 featured: false
 review: true
-card_sets: ["Eternal Principles", "Ethics"]
+card_sets: ["Eternal Principles", "Love"]
 cards:
   - front: "Two friends feuding - tempted to pick a side and stoke it. What's the move?"
     back: "Make peace - go fix it."

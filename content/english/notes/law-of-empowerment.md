@@ -55,7 +55,7 @@ tags: ["Faith", "Leadership", "Bible", "Discipleship"]
 aliases: ["law of empowerment", "the law of empowerment"]
 featured: false
 review: true
-card_sets: ["Eternal Principles", "Discipleship"]
+card_sets: ["Eternal Principles", "Influence"]
 cards:
   - front: "Every decision still routes through me and I'm drowning. First fix I try?"
     back: "Hand one recurring decision - then leave."

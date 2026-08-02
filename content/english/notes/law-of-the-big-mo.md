@@ -55,7 +55,7 @@ tags: ["Faith", "Leadership", "Bible", "Discipleship"]
 aliases: ["law of big mo", "the law of big mo"]
 featured: false
 review: true
-card_sets: ["Eternal Principles", "Discipleship"]
+card_sets: ["Eternal Principles", "Legacy"]
 cards:
   - front: "Three quick wins this month and I'm tempted to coast through March. What's the move?"
     back: "Protect the next two wins - don't coast."

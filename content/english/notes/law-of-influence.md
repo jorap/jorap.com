@@ -51,7 +51,7 @@ tags: ["Faith", "Leadership", "Bible", "Discipleship"]
 aliases: ["law of influence", "the law of influence"]
 featured: false
 review: true
-card_sets: ["Eternal Principles", "Discipleship"]
+card_sets: ["Eternal Principles", "Leadership"]
 cards:
   - front: "I got the title and the room still waits for someone else. One honest check?"
     back: "Would anyone follow if the title vanished?"

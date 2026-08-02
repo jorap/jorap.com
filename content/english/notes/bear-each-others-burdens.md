@@ -51,7 +51,7 @@ tags: ["Gospel", "Eternal Principles", "Free Grace", "Community", "Discipleship"
 aliases: ["bear one another's burdens"]
 featured: false
 review: true
-card_sets: ["Eternal Principles", "Discipleship"]
+card_sets: ["Eternal Principles", "Community"]
 cards:
   - front: "Teammate buried under elder-care stress - my calendar has one free hour. What's the move?"
     back: "Run the errand - hands on the load."

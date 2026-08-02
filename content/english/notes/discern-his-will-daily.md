@@ -56,7 +56,7 @@ tags: ["Gospel", "Eternal Principles", "Discipleship", "Romans", "Decision Makin
 aliases: ["test and approve God's will", "discern God's will", "good pleasing perfect"]
 featured: false
 review: true
-card_sets: ["Eternal Principles", "Discipleship"]
+card_sets: ["Eternal Principles", "Obedience"]
 cards:
   - front: "Two job offers and I'm polling the group chat for vibes. One step before deciding?"
     back: "Renew first - which serves the kingdom?"

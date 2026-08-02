@@ -73,7 +73,7 @@ tags: ["Gospel", "Jesus Christ", "Eternal Principles", "Reward", "Discipleship"]
 aliases: ["good and faithful servant", "parable of the talents", "stewardship"]
 featured: false
 review: true
-card_sets: ["Eternal Principles", "Discipleship"]
+card_sets: ["Eternal Principles", "Stewardship"]
 cards:
   - front: "Buried the gift - played it safe, never used what God gave. What's the move?"
     back: "Use it faithfully - not hide it."

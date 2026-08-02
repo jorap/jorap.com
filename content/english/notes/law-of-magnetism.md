@@ -55,7 +55,7 @@ tags: ["Faith", "Leadership", "Bible", "Discipleship"]
 aliases: ["law of magnetism", "the law of magnetism"]
 featured: false
 review: true
-card_sets: ["Eternal Principles", "Discipleship"]
+card_sets: ["Eternal Principles", "Influence"]
 cards:
   - front: "After a week of venting, complainers keep circling my desk. What's the real pull?"
     back: "Audit my tone - I drew them."

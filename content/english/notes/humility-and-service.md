@@ -65,7 +65,7 @@ tags: ["Gospel", "Jesus Christ", "Eternal Principles", "Sermon on the Mount", "S
 aliases: ["servant leadership", "the last shall be first"]
 featured: false
 review: true
-card_sets: ["Eternal Principles", "Discipleship"]
+card_sets: ["Eternal Principles", "Obedience"]
 cards:
   - front: "Grasping for status in a group project. What's the move?"
     back: "Serve all - last becomes first."
