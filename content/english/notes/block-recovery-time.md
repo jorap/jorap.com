@@ -46,7 +46,7 @@ author: "JoRap"
 tags: ["Energy", "Habits", "Sustainable Performance", "Work"]
 aliases: ["scheduled recovery", "recovery blocks"]
 featured: false
-review: true
+review: false
 card_sets: ["Focus", "Workflow"]
 cards:
   - front: "Q4 crunch incoming - Wednesday walks never blocked on the calendar. What's the move?"

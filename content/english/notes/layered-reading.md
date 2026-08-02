@@ -34,7 +34,7 @@ author: "JoRap"
 tags: ["PKM", "Learning"]
 aliases: ["/notes/progressive-layers/", "/notes/progressive-summarization/"]
 featured: false
-review: true
+review: false
 card_sets: ["Focus", "Review"]
 cards:
   - front: "Coaching manual - first pass marked three sections. Second pass move?"

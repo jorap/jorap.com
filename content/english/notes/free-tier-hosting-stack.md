@@ -61,7 +61,7 @@ author: "JoRap"
 tags: ["Website Building", "Static Site Generator", "Hugo", "GitHub", "Cloudflare Pages", "Free Hosting", "DevOps"]
 aliases: ["github cloudflare stack", "free static hosting"]
 featured: false
-review: true
+review: false
 card_sets: ["Focus", "Review"]
 cards:
   - front: "500 builds per month sounds huge until twelve clients deploy weekly. What's the move?"

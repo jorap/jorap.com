@@ -39,7 +39,7 @@ author: "JoRap"
 tags: ["Mental Models", "Productivity", "Performance", "Prioritization", "Focus", "Decision Making", "PKM"]
 aliases: ["80-20 Rule", "Pareto Principle", "Vilfredo Pareto"]
 featured: false
-review: true
+review: false
 card_sets: ["Focus", "Workflow"]
 cards:
   - front: "Task board and reading list both screaming urgent. Protect which slice - roughly what percent moved the needle?"

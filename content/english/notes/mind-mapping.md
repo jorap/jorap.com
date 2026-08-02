@@ -34,7 +34,7 @@ author: "JoRap"
 tags: ["Mind Mapping", "Visual Thinking", "PKM", "Brainstorming", "Note Taking", "Planning", "Diagrams", "Excalidraw", "Creativity"]
 aliases: ["Visual Thinking"]
 featured: false
-review: true
+review: false
 card_sets: ["Focus", "Review"]
 cards:
   - front: "Season goals sketched as bubbles on paper before the drill list. What comes next?"

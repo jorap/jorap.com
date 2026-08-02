@@ -43,7 +43,7 @@ author: "JoRap"
 tags: ["Future Proofing", "PKM", "Markdown", "Local First", "Backup", "Note Taking", "Documentation", "Hugo"]
 aliases: ["future proofing knowledge", "Plain Text Files"]
 featured: false
-review: true
+review: false
 card_sets: ["Focus", "Review"]
 cards:
   - front: "Team roster locked in an app that might shut down. Safer format?"

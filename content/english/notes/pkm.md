@@ -40,7 +40,7 @@ author: "JoRap"
 tags: ["PKM", "Personal Knowledge Management", "Second Brain", "Note Taking", "Productivity", "Learning"]
 aliases: ["Personal Knowledge Management"]
 featured: false
-review: true
+review: false
 card_sets: ["Focus", "Workflow"]
 cards:
   - front: "Friend asks what PKM means. One plain sentence?"

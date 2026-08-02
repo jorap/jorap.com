@@ -58,7 +58,7 @@ author: "JoRap"
 tags: ["Performance", "Accountability", "Integrity", "Leadership"]
 aliases: ["own your mistakes"]
 featured: false
-review: true
+review: false
 card_sets: ["Ethics", "Focus"]
 cards:
   - front: "Surgeons do morbidity rounds. What's the move?"

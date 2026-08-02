@@ -43,7 +43,7 @@ author: "JoRap"
 tags: ["Creative Output", "Express", "PKM", "Writing", "Second Brain", "Publishing", "Focus", "Distraction Free", "Markdown"]
 aliases: ["Distraction-Free Writing", "distraction free writing"]
 featured: false
-review: true
+review: false
 card_sets: ["Writing", "Review"]
 cards:
   - front: "Friday film day - everyone shows one rough clip. My note pile still polished only. What's the move?"

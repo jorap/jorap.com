@@ -41,7 +41,7 @@ author: "JoRap"
 tags: ["Open Source", "FOSS", "Freedom", "Licensing", "Developer Life", "Freelance"]
 aliases: ["free vs freedom", "permission over price"]
 featured: false
-review: true
+review: false
 card_sets: ["Focus", "Review"]
 cards:
   - front: "Locked-down lab PC blocks installers - student needs a local PHP stack today. What wins?"

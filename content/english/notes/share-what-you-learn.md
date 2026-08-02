@@ -48,7 +48,7 @@ author: "JoRap"
 tags: ["Workplace", "Leadership", "Eternal Principles", "Knowledge Sharing", "Teaching"]
 aliases: ["teach what you know", "knowledge sharing at work"]
 featured: false
-review: true
+review: false
 card_sets: ["Ethics", "Focus"]
 cards:
   - front: "Three clinic visits and I finally know the parking trick. Parent behind me looks lost. What's the move?"

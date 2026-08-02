@@ -56,7 +56,7 @@ categories: ["Growth"]
 author: "JoRap"
 tags: ["Self-Control", "Performance", "Relationships"]
 featured: false
-review: true
+review: false
 card_sets: ["Focus", "Review"]
 cards:
   - front: "A customer snapped at the cashier and she kept her voice level. What comes first?"

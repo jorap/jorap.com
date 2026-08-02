@@ -34,7 +34,7 @@ categories: ["Productivity", "Tips"]
 author: "JoRap"
 tags: ["Mobile", "Capture", "Workflow", "PKM", "Productivity", "Note Taking"]
 featured: false
-review: true
+review: false
 card_sets: ["Capture", "Workflow"]
 cards:
   - front: "Halftime idea on the bench. What's the move? One check?"

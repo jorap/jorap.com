@@ -35,7 +35,7 @@ author: "JoRap"
 tags: ["Linking", "PKM", "Note Taking", "Second Brain", "Digital Garden", "Graph", "Network"]
 aliases: ["Interconnectivity", "Power of Interconnectivity", "The Power of Interconnectivity", "/notes/associative-linking/"]
 featured: false
-review: true
+review: false
 card_sets: ["Linking", "Writing"]
 cards:
   - front: "Just finished a new atomic note - filing it now. Minimum typed links before it's garden-ready?"

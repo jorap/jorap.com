@@ -68,7 +68,7 @@ author: "JoRap"
 tags: ["Performance", "Decision Making", "Self-Control", "Conflict"]
 aliases: ["pause before reacting"]
 featured: false
-review: true
+review: false
 card_sets: ["Focus", "Review"]
 cards:
   - front: "Cut off in traffic and my hand's already on the horn. What's the move?"

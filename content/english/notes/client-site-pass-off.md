@@ -50,7 +50,7 @@ author: "JoRap"
 tags: ["Website Building", "Freelance", "Static Site Generator", "Client Work", "Pass-off"]
 aliases: ["site pass-off", "client publish path"]
 featured: false
-review: true
+review: false
 card_sets: ["Focus", "Review"]
 cards:
   - front: "Neighbor picked the Git lesson path at pass-off. One check that it's working?"

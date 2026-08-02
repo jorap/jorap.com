@@ -62,7 +62,7 @@ author: "JoRap"
 tags: ["Habits", "Change", "Performance", "Mindset"]
 aliases: ["transformation takes repetition", "same moves repeated"]
 featured: false
-review: true
+review: false
 card_sets: ["Focus", "Review"]
 cards:
   - front: "Inbound play still sloppy after one inspirational speech. What's actually missing?"

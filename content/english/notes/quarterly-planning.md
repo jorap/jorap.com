@@ -42,7 +42,7 @@ categories: ["Growth"]
 author: "JoRap"
 tags: ["Productivity", "Planning"]
 featured: false
-review: true
+review: false
 card_sets: ["Focus", "Workflow"]
 cards:
   - front: "New Year's resolution list, already abandoned by week three. What's the actual planning unit?"

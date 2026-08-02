@@ -51,7 +51,7 @@ author: "JoRap"
 tags: ["Performance", "Leadership", "Composure", "Negotiation"]
 aliases: ["control the pace"]
 featured: false
-review: true
+review: false
 card_sets: ["Ethics", "Focus"]
 cards:
   - front: "Dad texted \"my kid needs more reps today\" before I've watched him play. Who sets the pace?"

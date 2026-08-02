@@ -37,7 +37,7 @@ categories: ["Leadership"]
 author: "JoRap"
 tags: ["Safety", "Systems Thinking"]
 featured: false
-review: true
+review: false
 card_sets: ["Ethics", "Focus"]
 cards:
   - front: "Wet patch on the court and someone wants another 'slow down' sign. Higher control?"

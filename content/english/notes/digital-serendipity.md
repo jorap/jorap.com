@@ -38,7 +38,7 @@ author: "JoRap"
 tags: ["Serendipity", "Resurfacing", "PKM", "Second Brain", "Linking", "Review", "Discovery", "Research", "Browser Tips", "Note Taking"]
 aliases: ["Serendipitous Resurfacing", "Serendipity"]
 featured: false
-review: true
+review: false
 card_sets: ["Linking", "Review"]
 cards:
   - front: "A random graph walk linked \\\"jeepney delay\\\" to \\\"leave earlier\\\" six weeks after I saved both. What's the move?"

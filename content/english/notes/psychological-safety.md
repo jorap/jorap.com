@@ -51,7 +51,7 @@ categories: ["Leadership"]
 author: "JoRap"
 tags: ["Leadership", "Safety", "Work"]
 featured: false
-review: true
+review: false
 card_sets: ["Ethics", "Focus"]
 cards:
   - front: "My kid told me he broke the vase. What's the move?"

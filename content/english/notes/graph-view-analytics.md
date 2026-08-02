@@ -37,7 +37,7 @@ categories: ["Productivity"]
 author: "JoRap"
 tags: ["PKM", "Linking", "Analytics", "Note Taking", "Graph", "Meta"]
 featured: false
-review: true
+review: false
 card_sets: ["Linking", "Review"]
 cards:
   - front: "Sorted drill notes by link rank - three warm-up routines with zero arrows out. What do I fix this week?"

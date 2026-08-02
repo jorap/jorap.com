@@ -43,7 +43,7 @@ author: "JoRap"
 tags: ["Mental Models", "Productivity", "Building", "Shipping", "Creative Output", "Decision Making", "PKM", "Writing"]
 aliases: ["MVP"]
 featured: false
-review: true
+review: false
 card_sets: ["Writing", "Review"]
 cards:
   - front: "Half-planned birthday party sat for three months. What's the ship move?"

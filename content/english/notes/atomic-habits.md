@@ -44,7 +44,7 @@ author: "JoRap"
 tags: ["Habits", "Productivity", "James Clear", "Performance"]
 aliases: ["James Clear", "tiny habits"]
 featured: false
-review: true
+review: false
 card_sets: ["Focus", "Workflow"]
 cards:
   - front: "Morning journal habit keeps dying at three pages. Clear's first move?"

@@ -49,7 +49,7 @@ author: "JoRap"
 tags: ["Systems Thinking", "Performance", "Habits", "Decision Making"]
 aliases: ["systems thinker"]
 featured: false
-review: true
+review: false
 card_sets: ["Focus", "Review"]
 cards:
   - front: "We're losing every third possession on turnovers again. What's the move?"

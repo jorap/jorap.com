@@ -52,7 +52,7 @@ author: "JoRap"
 tags: ["Mental Models", "Productivity", "Habits", "Thinking", "PKM", "Focus", "Systems Thinking"]
 aliases: ["MED"]
 featured: false
-review: true
+review: false
 card_sets: ["Focus", "Workflow"]
 cards:
   - front: "Ten minutes flashcards on the jeepney vs hour of app setup I'd never open twice. What's the dose?"

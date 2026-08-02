@@ -36,7 +36,7 @@ categories: ["Leadership"]
 author: "JoRap"
 tags: ["Safety", "Leadership"]
 featured: false
-review: true
+review: false
 card_sets: ["Ethics", "Focus"]
 cards:
   - front: "Third time I rolled through the stop sign at dawn and nobody honked. What's the warning?"

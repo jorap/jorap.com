@@ -42,7 +42,7 @@ categories: ["Leadership"]
 author: "JoRap"
 tags: ["Leadership", "Performance", "Self-Control"]
 featured: false
-review: true
+review: false
 card_sets: ["Ethics", "Focus"]
 cards:
   - front: "Neighbor argument heating up on the group chat and my finger's on send. One beat first?"

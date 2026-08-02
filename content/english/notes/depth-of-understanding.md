@@ -47,7 +47,7 @@ author: "JoRap"
 tags: ["Learning", "Understanding", "PKM", "Teaching", "Atomic Notes"]
 aliases: ["levels of understanding", "understanding depth", "five levels of understanding"]
 featured: false
-review: true
+review: false
 card_sets: ["Learning", "Review"]
 cards:
   - front: "Lunch question lands. I can say what the idea means, but a live work case leaves me blank. Which gap showed up?"

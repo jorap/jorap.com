@@ -37,7 +37,7 @@ categories: ["Productivity", "Tips"]
 author: "JoRap"
 tags: ["PKM", "Capture"]
 featured: false
-review: true
+review: false
 card_sets: ["Capture", "Workflow"]
 cards:
   - front: "Forty highlight reels saved, twelve watched. What's the queue really?"

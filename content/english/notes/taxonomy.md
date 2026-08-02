@@ -36,7 +36,7 @@ categories: ["Productivity"]
 author: "JoRap"
 tags: ["PKM", "Metadata"]
 featured: false
-review: true
+review: false
 card_sets: ["Focus", "Review"]
 cards:
   - front: "Film folders dumped in one 'misc clips' pile and I need the corner-kick reel. What's the move?"

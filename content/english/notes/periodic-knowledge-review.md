@@ -36,7 +36,7 @@ categories: ["Productivity"]
 author: "JoRap"
 tags: ["Review", "PKM", "Weekly Review", "Maintenance", "Second Brain", "Habits", "Note Taking"]
 featured: false
-review: true
+review: false
 card_sets: ["Focus", "Review"]
 cards:
   - front: "Friday at four I review charts at the clinic. Why not wait for complaints?"

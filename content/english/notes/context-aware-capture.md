@@ -33,7 +33,7 @@ author: "JoRap"
 tags: ["Capture", "PKM", "Context", "Note Taking", "Second Brain", "Metadata", "Workflow"]
 aliases: ["context aware capture"]
 featured: false
-review: true
+review: false
 card_sets: ["Capture", "Workflow"]
 cards:
   - front: "At the clinic I scribble \"follow up\" with nothing else. What's the move?"

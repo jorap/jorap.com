@@ -49,7 +49,7 @@ author: "JoRap"
 tags: ["Systems Thinking", "Work", "Performance"]
 aliases: ["SOPs"]
 featured: false
-review: true
+review: false
 card_sets: ["Focus", "Review"]
 cards:
   - front: "Match just ended, everyone's gassed, and ice hasn't hit yet. What's the move?"

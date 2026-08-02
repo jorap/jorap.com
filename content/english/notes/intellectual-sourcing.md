@@ -37,7 +37,7 @@ categories: ["Productivity"]
 author: "JoRap"
 tags: ["Sourcing", "Citations", "PKM", "Research", "Note Taking", "Integrity", "Writing"]
 featured: false
-review: true
+review: false
 card_sets: ["Writing", "Review"]
 cards:
   - front: "Coach's quote in our playbook with no article title underneath. Six months from now - one move?"

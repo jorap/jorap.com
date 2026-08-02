@@ -39,7 +39,7 @@ author: "JoRap"
 tags: ["Career", "Open Source", "WordPress", "Teaching", "Freelance", "Developer Life"]
 aliases: ["hireable stacks", "job board stack pick", "learn what employers hire"]
 featured: false
-review: true
+review: false
 card_sets: ["Focus", "Review"]
 cards:
   - front: "Student asks which CMS to learn for freelance work here. First source?"

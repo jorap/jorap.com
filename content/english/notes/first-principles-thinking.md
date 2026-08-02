@@ -43,7 +43,7 @@ categories: ["Thinking"]
 author: "JoRap"
 tags: ["First Principles", "Thinking", "PKM", "Mental Models", "Note Taking", "Synthesis"]
 featured: false
-review: true
+review: false
 card_sets: ["Focus", "Review"]
 cards:
   - front: "Clinic keeps copying a corporate onboarding script. One question before we adopt another page?"

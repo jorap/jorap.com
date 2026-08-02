@@ -42,7 +42,7 @@ author: "JoRap"
 tags: ["Open Source", "Career", "Teaching", "Globalization", "Developer Life", "Philippines"]
 aliases: ["open source scales", "same zip globally", "flattener four"]
 featured: false
-review: true
+review: false
 card_sets: ["Focus", "Review"]
 cards:
   - front: "Student outside the capital asks if real dev tools are region-locked. One reframe?"

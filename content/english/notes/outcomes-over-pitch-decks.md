@@ -47,7 +47,7 @@ author: "JoRap"
 tags: ["Workplace", "Leadership", "Ethics", "Eternal Principles", "Discernment"]
 aliases: ["judge by outcomes", "fruit over hype"]
 featured: false
-review: true
+review: false
 card_sets: ["Ethics", "Focus"]
 cards:
   - front: "Trainer's Instagram looks polished. What's the move before I sign up?"

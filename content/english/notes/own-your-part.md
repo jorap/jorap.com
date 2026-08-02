@@ -49,7 +49,7 @@ author: "JoRap"
 tags: ["Leadership", "Accountability", "Change", "Workplace"]
 aliases: ["ownership of change", "take ownership"]
 featured: false
-review: true
+review: false
 card_sets: ["Ethics", "Focus"]
 cards:
   - front: "Shared drive chaos for months and another IT ticket will not help. What's my move?"

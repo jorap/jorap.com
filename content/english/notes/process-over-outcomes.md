@@ -57,7 +57,7 @@ author: "JoRap"
 tags: ["James Clear", "Process", "Habits", "Mindset", "Atomic Habits", "Systems Thinking", "Goal Setting", "Continuous Improvement", "Self Improvement", "PKM", "Note Taking"]
 aliases: ["Process Over Outcome"]
 featured: false
-review: true
+review: false
 card_sets: ["Focus", "Review"]
 cards:
   - front: "I protect the Sunday review loop that produces the next note. Why?"

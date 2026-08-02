@@ -44,7 +44,7 @@ categories: ["Leadership"]
 author: "JoRap"
 tags: ["Leadership", "Continuous Improvement"]
 featured: false
-review: true
+review: false
 card_sets: ["Ethics", "Focus"]
 cards:
   - front: "After every tournament one 'what broke' line stays on the whiteboard. Until when?"

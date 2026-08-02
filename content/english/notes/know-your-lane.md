@@ -45,7 +45,7 @@ author: "JoRap"
 tags: ["Leadership", "Teams", "Focus", "Work"]
 aliases: ["stay in your lane", "role clarity"]
 featured: false
-review: true
+review: false
 card_sets: ["Ethics", "Focus"]
 cards:
   - front: "Every client firefight mine until deploys slipped - lane blur. What's the move?"

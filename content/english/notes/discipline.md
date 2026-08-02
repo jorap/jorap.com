@@ -40,7 +40,7 @@ categories: ["Growth"]
 author: "JoRap"
 tags: ["Habits", "Performance", "Self-Control"]
 featured: false
-review: true
+review: false
 card_sets: ["Focus", "Review"]
 cards:
   - front: "I write on schedule whether the post feels brilliant. What's the move?"

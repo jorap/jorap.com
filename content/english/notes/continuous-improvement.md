@@ -54,7 +54,7 @@ author: "JoRap"
 tags: ["Performance", "Habits", "Systems Thinking"]
 aliases: ["kaizen"]
 featured: false
-review: true
+review: false
 card_sets: ["Focus", "Review"]
 cards:
   - front: "I tweak one line in my weekly review checklist after each miss. What's the move?"

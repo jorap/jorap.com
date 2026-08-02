@@ -42,7 +42,7 @@ categories: ["Growth"]
 author: "JoRap"
 tags: ["Decision Making", "Thinking", "Performance"]
 featured: false
-review: true
+review: false
 card_sets: ["Focus", "Review"]
 cards:
   - front: "Signing a year-long club fee on one trial session is how people miss the schedule clash. What's the move?"

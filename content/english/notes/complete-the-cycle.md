@@ -69,7 +69,7 @@ author: "JoRap"
 tags: ["Performance", "Execution", "Accountability", "Work"]
 aliases: ["close the loop", "follow through", "follow-through", "/notes/follow-through/"]
 featured: false
-review: true
+review: false
 card_sets: ["Focus", "Review"]
 cards:
   - front: "Halftime talk ended with \"we'll fix the press tomorrow\" and the whiteboard's blank. What closes it?"

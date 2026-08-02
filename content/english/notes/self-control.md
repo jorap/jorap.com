@@ -56,7 +56,7 @@ author: "JoRap"
 tags: ["Habits", "Performance", "Character"]
 aliases: ["self control"]
 featured: false
-review: true
+review: false
 card_sets: ["Focus", "Review"]
 cards:
   - front: "My thumb hovered over a snarky reply in the pickup-line group chat. What's the move?"

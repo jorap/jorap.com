@@ -45,7 +45,7 @@ categories: ["Growth"]
 author: "JoRap"
 tags: ["Productivity", "Digital Minimalism"]
 featured: false
-review: true
+review: false
 card_sets: ["Focus", "Workflow"]
 cards:
   - front: "Clinic waiting room and the TV's running health tips between ads. Why am I here?"

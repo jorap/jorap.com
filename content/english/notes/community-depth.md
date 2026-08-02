@@ -45,7 +45,7 @@ author: "JoRap"
 tags: ["Open Source", "Community", "WordPress", "Hugo", "Developer Life", "Freelance", "Career"]
 aliases: ["thick bench", "open source community", "hireable stack"]
 featured: false
-review: true
+review: false
 card_sets: ["Focus", "Review"]
 cards:
   - front: "Drupal architecture diagram wins on paper - job posts in my city say otherwise. What picks the stack?"

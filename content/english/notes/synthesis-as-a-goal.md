@@ -37,7 +37,7 @@ author: "JoRap"
 tags: ["Synthesis", "PKM", "Writing", "Research", "Second Brain", "Express", "Academic"]
 aliases: ["Research Notes", "note taking for researchers"]
 featured: false
-review: true
+review: false
 card_sets: ["Writing", "Review"]
 cards:
   - front: "Three press clips in my folder and Tuesday practice needs a drill. What's the move?"

@@ -54,7 +54,7 @@ categories: ["Growth"]
 author: "JoRap"
 tags: ["Learning", "Mindset", "Performance"]
 featured: false
-review: true
+review: false
 card_sets: ["Focus", "Review"]
 cards:
   - front: "Three free throws missed in a row at clinic. What's the trainable read?"

@@ -38,7 +38,7 @@ categories: ["Thinking"]
 author: "JoRap"
 tags: ["Strategy", "Thinking", "Leadership"]
 featured: false
-review: true
+review: false
 card_sets: ["Ethics", "Focus"]
 cards:
   - front: "Tempted to celebrate this quarter's win and skip next year's roster gap. What's the move?"

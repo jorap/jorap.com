@@ -53,7 +53,7 @@ author: "JoRap"
 tags: ["PKM", "Publishing", "Digital Garden", "Platform Risk", "Stewardship", "Content Ownership"]
 aliases: ["rented reach", "social media tenant", "borrowed platform"]
 featured: false
-review: true
+review: false
 card_sets: ["Focus", "Review"]
 cards:
   - front: "Organic reach on my page dropped overnight - years of posting only there. What's the move?"

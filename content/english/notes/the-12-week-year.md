@@ -37,7 +37,7 @@ author: "JoRap"
 tags: ["12 Week Year", "Planning", "Goals", "PKM", "Projects", "Productivity"]
 aliases: ["12 Week Year"]
 featured: false
-review: true
+review: false
 card_sets: ["Focus", "Workflow"]
 cards:
   - front: "\\\"Fix free-throw rate\\\" lived on my someday list until I put twelve weeks on the locker scoreboard. First fix?"

@@ -55,7 +55,7 @@ categories: ["Growth"]
 author: "JoRap"
 tags: ["Habits", "Performance", "Productivity"]
 featured: false
-review: true
+review: false
 card_sets: ["Focus", "Workflow"]
 cards:
   - front: "Same gym bag, same water bottle, same pre-game stretch every day. What's the point?"

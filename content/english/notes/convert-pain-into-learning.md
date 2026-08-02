@@ -52,7 +52,7 @@ author: "JoRap"
 tags: ["Performance", "Learning", "Growth", "Continuous Improvement"]
 aliases: ["learn from failure"]
 featured: false
-review: true
+review: false
 card_sets: ["Focus", "Review"]
 cards:
   - front: "Bombed a client presentation and I've been stewing for a week. What's the convert move?"

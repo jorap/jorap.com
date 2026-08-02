@@ -45,7 +45,7 @@ author: "JoRap"
 tags: ["Leadership", "Work", "Teams", "Sustainable Performance"]
 aliases: ["shared load", "split the heavy lift"]
 featured: false
-review: true
+review: false
 card_sets: ["Ethics", "Focus"]
 cards:
   - front: "On-call engineer three pages deep alone - midnight meltdown incoming. What's the move?"

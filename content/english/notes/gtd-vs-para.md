@@ -38,7 +38,7 @@ author: "JoRap"
 tags: ["GTD", "PARA", "Productivity", "PKM", "Tiago Forte", "David Allen", "Second Brain", "Note Taking"]
 aliases: ["GTD"]
 featured: false
-review: true
+review: false
 card_sets: ["Focus", "Workflow"]
 cards:
   - front: "Fridge list for this week's groceries vs filing cabinet for school forms with no deadline - two lanes in one bucket. What's the move?"

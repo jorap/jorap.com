@@ -49,7 +49,7 @@ author: "JoRap"
 tags: ["Leadership", "Design", "Workplace", "Customer Experience"]
 aliases: ["shadow real work", "watch the work"]
 featured: false
-review: true
+review: false
 card_sets: ["Ethics", "Focus"]
 cards:
   - front: "New chart template and nurses charting after shift. Before the committee meets again?"

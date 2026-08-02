@@ -38,7 +38,7 @@ author: "JoRap"
 tags: ["Evergreen Notes", "Fleeting Notes", "PKM", "Note Taking", "Review"]
 aliases: ["Evergreen vs Fleeting", "Fleeting Notes"]
 featured: false
-review: true
+review: false
 card_sets: ["Writing", "Review"]
 cards:
   - front: "Hot take about tonight's game scribbled on the fridge whiteboard. Where does the lesson I'd tell my kid next year go?"

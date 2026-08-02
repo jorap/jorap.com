@@ -37,7 +37,7 @@ author: "JoRap"
 tags: ["PARA", "Tiago Forte", "PKM", "Organization", "Archive", "Second Brain", "Productivity", "Note Taking", "Structure"]
 aliases: ["PARA", "Organization", "The Archive Method", "Archive Method", "The Archive"]
 featured: false
-review: true
+review: false
 card_sets: ["Organization", "Workflow"]
 cards:
   - front: "Active work with a deadline just landed in my notes. Owner and end date clear - where does it go?"

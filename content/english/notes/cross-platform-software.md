@@ -44,7 +44,7 @@ author: "JoRap"
 tags: ["Cross-Platform", "Open Source", "Linux", "macOS", "Windows", "Developer Tools", "Workflow"]
 aliases: ["cross platform software", "mac windows linux", "one skill many machines"]
 featured: false
-review: true
+review: false
 card_sets: ["Focus", "Review"]
 cards:
   - front: "New laptop arrives with a different OS logo - Hugo folder is in git. What's the goal?"

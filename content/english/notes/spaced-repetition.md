@@ -42,7 +42,7 @@ author: "JoRap"
 tags: ["Spaced Repetition", "SRS", "Anki", "Learning", "Memory", "PKM", "Note Taking", "Tools"]
 aliases: ["SRS", "Spaced Repetition Systems", "Spaced Repetition Systems (SRS)"]
 featured: false
-review: true
+review: false
 card_sets: ["Focus", "Review"]
 cards:
   - front: "Tempted to cram every capture and gospel card into one long Sunday session. What's the move?"

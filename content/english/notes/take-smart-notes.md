@@ -57,7 +57,7 @@ author: "JoRap"
 tags: ["PKM", "Note Taking", "Writing", "Sönke Ahrens", "Zettelkasten", "Second Brain", "Productivity", "Research"]
 aliases: ["How to Take Smart Notes", "Zettelkasten", "Slip-Box", "Smart Notes"]
 featured: false
-review: true
+review: false
 card_sets: ["Writing", "Workflow"]
 cards:
   - front: "Deadline in two weeks and the doc is still empty - but I read the whole stack. What did Ahrens say I skipped?"

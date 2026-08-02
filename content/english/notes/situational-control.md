@@ -40,7 +40,7 @@ author: "JoRap"
 tags: ["Leadership", "Performance", "Negotiation"]
 aliases: ["situation control"]
 featured: false
-review: true
+review: false
 card_sets: ["Ethics", "Focus"]
 cards:
   - front: "Fighting with my sister and the kids should have been asleep twenty minutes ago. What's the move?"

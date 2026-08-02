@@ -40,7 +40,7 @@ author: "JoRap"
 tags: ["Inbox", "GTD", "Capture", "PKM", "Trust", "Workflow"]
 aliases: ["Trusted Inbox"]
 featured: false
-review: true
+review: false
 card_sets: ["Capture", "Workflow"]
 cards:
   - front: "Forty inbox items untouched two weeks. Trust is broken - recovery move today?"

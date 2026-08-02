@@ -41,7 +41,7 @@ author: "JoRap"
 tags: ["Mental Models", "Thinking", "Strategy"]
 aliases: ["second order effects", "second order thinking"]
 featured: false
-review: true
+review: false
 card_sets: ["Focus", "Review"]
 cards:
   - front: "Free pizza packed the lot last month and refs quit early. One question before I try it again?"

@@ -52,7 +52,7 @@ author: "JoRap"
 tags: ["Safety", "Systems Thinking", "DevOps", "Risk Management"]
 aliases: ["canary deploy", "gradual rollout"]
 featured: false
-review: true
+review: false
 card_sets: ["Ethics", "Focus"]
 cards:
   - front: "New layout ready on my branch. What's the deploy move?"

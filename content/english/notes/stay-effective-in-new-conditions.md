@@ -47,7 +47,7 @@ author: "JoRap"
 tags: ["Performance", "Adaptability", "Resilience", "Career"]
 aliases: ["Stay Effective in New Conditions", "effectiveness in new conditions"]
 featured: false
-review: true
+review: false
 card_sets: ["Focus", "Review"]
 cards:
   - front: "New counter at work and lunch rush is tomorrow. I am still defending last month's habits. What comes first?"

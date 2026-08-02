@@ -52,7 +52,7 @@ author: "JoRap"
 tags: ["Leadership", "Design", "Workplace", "Customer Experience"]
 aliases: ["human-centered design", "people first change"]
 featured: false
-review: true
+review: false
 card_sets: ["Ethics", "Focus"]
 cards:
   - front: "New chart template and nurses are charting after shift. First design move?"

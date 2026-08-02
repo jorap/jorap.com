@@ -37,7 +37,7 @@ author: "JoRap"
 tags: ["Daily Notes", "PKM", "Journaling", "Between Tasks", "Productivity", "Note Taking", "Review", "Focus"]
 aliases: ["Between-Task Journaling", "/notes/interstitial-journaling/"]
 featured: false
-review: true
+review: false
 card_sets: ["Focus", "Workflow"]
 cards:
   - front: "Pocket slip tonight: cleats pickup, dentist Tuesday, coach callback. What earns a real note?"

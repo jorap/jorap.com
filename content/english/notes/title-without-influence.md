@@ -55,7 +55,7 @@ author: "JoRap"
 tags: ["Leadership", "Work", "Management", "Influence"]
 aliases: ["hollow authority", "manager without followers"]
 featured: false
-review: true
+review: false
 card_sets: ["Ethics", "Focus"]
 cards:
   - front: "Weekly syncs nobody prepares for because nothing changes after. What do I have?"

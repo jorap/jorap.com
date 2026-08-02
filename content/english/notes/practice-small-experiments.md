@@ -58,7 +58,7 @@ author: "JoRap"
 tags: ["Habits", "Learning", "Performance", "Experimentation"]
 aliases: ["small experiments", "learn fast fail small"]
 featured: false
-review: true
+review: false
 card_sets: ["Focus", "Review"]
 cards:
   - front: "Coach wants to rebuild the whole practice plan before the tournament. Smarter move?"

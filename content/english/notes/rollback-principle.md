@@ -68,7 +68,7 @@ author: "JoRap"
 tags: ["Systems Thinking", "DevOps", "Safety", "Performance", "Leadership"]
 aliases: ["rollback", "revert first"]
 featured: false
-review: true
+review: false
 card_sets: ["Ethics", "Focus"]
 cards:
   - front: "Bad Friday deploy. What's the move? One check?"

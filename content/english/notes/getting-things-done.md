@@ -40,7 +40,7 @@ categories: ["Productivity"]
 author: "JoRap"
 tags: ["PKM", "Productivity", "GTD"]
 featured: false
-review: true
+review: false
 card_sets: ["Focus", "Workflow"]
 cards:
   - front: "Tournament week and my brain is holding seventeen open loops at 2 a.m. What's the move?"

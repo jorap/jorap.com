@@ -49,7 +49,7 @@ author: "JoRap"
 tags: ["Workplace", "Ethics", "Eternal Principles", "Integrity", "Character"]
 aliases: ["Integrity When No One's Watching", "hidden integrity", "honest work offstage", "integrity when no ones watching", "/notes/integrity-when-no-ones-watching/"]
 featured: false
-review: true
+review: false
 card_sets: ["Ethics", "Focus"]
 cards:
   - front: "Practice hours sheet open and nobody audits it this month. What do I log?"

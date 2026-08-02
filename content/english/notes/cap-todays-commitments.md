@@ -47,7 +47,7 @@ author: "JoRap"
 tags: ["Productivity", "Focus", "PKM", "Energy"]
 aliases: ["daily capacity cap", "honest todo list"]
 featured: false
-review: true
+review: false
 card_sets: ["Focus", "Workflow"]
 cards:
   - front: "Twelve todos before coffee - shame at midnight guaranteed. What's the move?"

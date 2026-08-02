@@ -42,7 +42,7 @@ categories: ["Leadership"]
 author: "JoRap"
 tags: ["Relationships", "Safety", "Ethics", "Boundaries"]
 featured: false
-review: true
+review: false
 card_sets: ["Ethics", "Focus"]
 cards:
   - front: "Teammate wants to play through a head hit. What's the move?"

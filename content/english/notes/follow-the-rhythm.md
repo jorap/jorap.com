@@ -46,7 +46,7 @@ author: "JoRap"
 tags: ["Habits", "Productivity", "Process", "PKM"]
 aliases: ["cadence over crusade", "trust the rhythm"]
 featured: false
-review: true
+review: false
 card_sets: ["Workflow", "Review"]
 cards:
   - front: "Two weeks nothing, then all-nighter - post that stuck came from where?"

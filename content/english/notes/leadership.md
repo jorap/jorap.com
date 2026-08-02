@@ -51,7 +51,7 @@ categories: ["Leadership"]
 author: "JoRap"
 tags: ["Leadership", "Work", "Performance"]
 featured: false
-review: true
+review: false
 card_sets: ["Ethics", "Focus"]
 cards:
   - front: "Gym alarm going off - nobody has a title but people are looking around. First move?"

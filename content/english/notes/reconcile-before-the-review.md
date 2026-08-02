@@ -47,7 +47,7 @@ author: "JoRap"
 tags: ["Workplace", "Ethics", "Leadership", "Eternal Principles", "Reconciliation"]
 aliases: ["fix the relationship first"]
 featured: false
-review: true
+review: false
 card_sets: ["Ethics", "Focus"]
 cards:
   - front: "Strong stats for the scout meeting but my assistant coach is still cold from Tuesday. What comes first?"

@@ -57,7 +57,7 @@ author: "JoRap"
 tags: ["Mindset", "Self-Awareness", "Planning", "Change"]
 aliases: ["acceptance before change", "real starting line"]
 featured: false
-review: true
+review: false
 card_sets: ["Focus", "Review"]
 cards:
   - front: "Fifty notes a week goal and I burned out in ten days. What's acceptance?"

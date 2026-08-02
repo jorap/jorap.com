@@ -32,7 +32,7 @@ author: "JoRap"
 tags: ["Open Source", "FOSS", "Licensing", "Developer Life", "Free Software"]
 aliases: ["FOSS", "free and open source", "open source software"]
 featured: false
-review: true
+review: false
 card_sets: ["Focus", "Review"]
 cards:
   - front: "Friend asks what open source means in one sentence. What's the legal core?"

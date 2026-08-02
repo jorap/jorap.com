@@ -57,7 +57,7 @@ author: "JoRap"
 tags: ["Performance", "Health", "Decision Making", "Recovery"]
 aliases: ["rest protects judgment", "recovery", "/notes/recovery/"]
 featured: false
-review: true
+review: false
 card_sets: ["Focus", "Review"]
 cards:
   - front: "Snapped at my kid over a spilled cup after a brutal week - would've been two calm sentences at breakfast. What failed?"

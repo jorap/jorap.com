@@ -47,7 +47,7 @@ categories: ["Leadership"]
 author: "JoRap"
 tags: ["Relationships", "Communication", "Listening"]
 featured: false
-review: true
+review: false
 card_sets: ["Focus", "Review"]
 cards:
   - front: "A younger player kept explaining why he missed the free throw. What's the move?"

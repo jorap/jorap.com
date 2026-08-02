@@ -40,7 +40,7 @@ categories: ["Productivity"]
 author: "JoRap"
 tags: ["Digital Minimalism", "PKM", "Productivity", "Focus", "Note Taking", "Tools", "Mindful Tech", "Information Diet"]
 featured: false
-review: true
+review: false
 card_sets: ["Focus", "Workflow"]
 cards:
   - front: "Second gym bag and backup jump rope collecting dust. What's minimalism here?"

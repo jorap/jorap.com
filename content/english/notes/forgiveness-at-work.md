@@ -38,7 +38,7 @@ author: "JoRap"
 tags: ["Workplace", "Ethics", "Eternal Principles", "Forgiveness", "Conflict"]
 aliases: ["release the grudge at work"]
 featured: false
-review: true
+review: false
 card_sets: ["Ethics", "Focus"]
 cards:
   - front: "Sister's sharp comment still replaying at every family dinner. What am I refusing to do?"

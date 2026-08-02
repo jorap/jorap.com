@@ -55,7 +55,7 @@ author: "JoRap"
 tags: ["Performance", "Habits", "Preparedness", "Systems Thinking"]
 aliases: ["reliable default under pressure"]
 featured: false
-review: true
+review: false
 card_sets: ["Focus", "Review"]
 cards:
   - front: "Three walk-ins hit the front desk and triage is getting improvised. What's already decided?"

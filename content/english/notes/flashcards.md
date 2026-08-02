@@ -13,7 +13,7 @@ key_concept: |
   - Cue on the front, immediate move on the back - not definitions dressed as advice.
   - Keep a card only if the knowledge helps solve a recurring problem or make a better decision.
   - Or perform a useful skill, understand an important subject, or communicate more clearly.
-  - ~20% of notes opt in - gospel and PKM spine share [/notes/review/](/notes/review/).
+  - ~Faith / Eternal Principles notes opt in - drill at [/notes/review/](/notes/review/).
   - Learn less, retain longer, apply more - cards exist so the right move loads when life shows up.
   - I opt notes into drill cards when recall and use in real life matter, and export to Anki when I want SRS on my phone.
 level_1: "Flashcards are cue on the front and an immediate move on the back - learn fewer things, retain longer, apply when life shows up."
@@ -64,12 +64,12 @@ Use this shape - inline `card_sets`, block `cards`, double-quoted strings, `draf
 
 ```yaml
 review: true
-card_sets: ["Capture", "Workflow"]
+card_sets: ["Eternal Principles", "Gospel", "Faith"]
 cards:
-  - front: "Mid-commute spark I might forget before I'm home."
-    back: "Drop in one inbox. Don't organize yet."
-  - front: "Interesting link, unsure it's worth saving. One filter question I ask before anything hits the inbox?"
-    back: "Would I act on it or cite it later?"
+  - front: "Obedience feels like what qualifies me for heaven. What's the move?"
+    back: "Trust Christ alone. Principles guide after."
+  - front: "Guilt after failing again. First check?"
+    back: "Standing settled at faith. Confess for fellowship."
 draft: false
 ```
 
@@ -81,7 +81,7 @@ draft: false
 - **Cue only - no multiple choice** - front states the moment; never list options to pick from (`A or B?`, `X, Y, or Z?`).
 - Use inline `[...]` for `card_sets` (same as `categories` / `tags`); block lists for `cards` only.
 - Indent each `back:` four spaces under its `- front:` line.
-- Set names are short labels (`Capture`, `Linking`, `Review`, `Faith`, `Commandments`, `Ethics`, `Prayer`, `Priorities`, `Discipleship`) - not note tags.
+- Set names are short labels (`Faith`, `Commandments`, `Ethics`, `Prayer`, `Priorities`, `Discipleship`, `Jesus Rhythms`) - not note tags.
 - Optional per-card override: add `sets: ["Capture"]` under one card item.
 - Do not put `| JoRap Notes` in `meta_title` (the theme appends it).
 - Validate with `npm run lint:cards` before commit.

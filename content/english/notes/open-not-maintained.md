@@ -39,7 +39,7 @@ author: "JoRap"
 tags: ["Open Source", "WordPress", "Hugo", "Maintenance", "Developer Life", "Security"]
 aliases: ["abandonware", "unmaintained open source", "open license not maintained"]
 featured: false
-review: true
+review: false
 card_sets: ["Focus", "Review"]
 cards:
   - front: "Plugin license is GPL but last commit was 2019. Pass the stack filter?"

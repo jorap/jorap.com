@@ -39,7 +39,7 @@ categories: ["Productivity", "Tips"]
 author: "JoRap"
 tags: ["PKM", "Productivity"]
 featured: false
-review: true
+review: false
 card_sets: ["Focus", "Workflow"]
 cards:
   - front: "Friday triage and team inbox still at forty. What's zero actually proving?"

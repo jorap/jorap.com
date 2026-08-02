@@ -45,7 +45,7 @@ author: "JoRap"
 tags: ["Leadership", "Communication", "Safety", "Teams"]
 aliases: ["early bad news", "honest status update"]
 featured: false
-review: true
+review: false
 card_sets: ["Ethics", "Focus"]
 cards:
   - front: "Migration will slip - tempted to silence until Friday. What's the move?"

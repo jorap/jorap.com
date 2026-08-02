@@ -41,7 +41,7 @@ categories: ["Leadership"]
 author: "JoRap"
 tags: ["Relationships", "Communication", "Self-Control"]
 featured: false
-review: true
+review: false
 card_sets: ["Focus", "Review"]
 cards:
   - front: "Teammate keeps trash-talking our own bench during timeouts. Finger on send for the group chat rant. What do I say?"

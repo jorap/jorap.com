@@ -42,7 +42,7 @@ categories: ["Leadership"]
 author: "JoRap"
 tags: ["Safety", "Systems Thinking"]
 featured: false
-review: true
+review: false
 card_sets: ["Ethics", "Focus"]
 cards:
   - front: "Gym swapped to breakaway rims so dunk attempts do not tear shoulders. What's the bet?"

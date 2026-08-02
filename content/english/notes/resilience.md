@@ -40,7 +40,7 @@ categories: ["Growth"]
 author: "JoRap"
 tags: ["Performance", "Mindset", "Character"]
 featured: false
-review: true
+review: false
 card_sets: ["Focus", "Review"]
 cards:
   - front: "Commute delays wrecked my morning three days straight. What's the move Thursday?"

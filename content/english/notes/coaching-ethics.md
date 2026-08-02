@@ -42,7 +42,7 @@ categories: ["Leadership"]
 author: "JoRap"
 tags: ["Leadership", "Safety", "Ethics"]
 featured: false
-review: true
+review: false
 card_sets: ["Ethics", "Focus"]
 cards:
   - front: "Kid asked twice to backflip off the couch and I'm tempted to say yes. Consent enough?"

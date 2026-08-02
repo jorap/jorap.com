@@ -40,7 +40,7 @@ author: "JoRap"
 tags: ["Feynman Technique", "Learning", "PKM", "Teaching", "Understanding", "Writing", "Note Taking"]
 aliases: ["Feynman Technique", "Richard Feynman"]
 featured: false
-review: true
+review: false
 card_sets: ["Writing", "Review"]
 cards:
   - front: "Halftime and someone's asking about the three-second violation - I am stalling halfway through. What's the move?"

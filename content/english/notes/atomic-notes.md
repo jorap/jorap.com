@@ -46,7 +46,7 @@ author: "JoRap"
 tags: ["Atomic Notes", "PKM", "Note Taking", "Second Brain", "Linking", "Information Architecture"]
 aliases: ["atom", "Atomic Design for Notes", "Atomic Design"]
 featured: false
-review: true
+review: false
 card_sets: ["Writing", "Linking"]
 cards:
   - front: "Draft mixes browser tips AND meeting notes in one file. What's the move?"

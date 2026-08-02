@@ -54,7 +54,7 @@ author: "JoRap"
 tags: ["Safety", "Leadership", "Risk Management", "Learning", "Systems Thinking"]
 aliases: ["near miss investigation", "survival is not safety", "heed every near miss"]
 featured: false
-review: true
+review: false
 card_sets: ["Ethics", "Focus"]
 cards:
   - front: "Swimmer needed rescue during the same open-water drill last month. How do I read that?"

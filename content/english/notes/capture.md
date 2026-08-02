@@ -41,7 +41,7 @@ author: "JoRap"
 tags: ["Capture", "PKM", "Second Brain", "CODE Method", "Note Taking", "Productivity"]
 aliases: ["CODE", "Frictionless Capture"]
 featured: false
-review: true
+review: false
 card_sets: ["Capture", "Workflow"]
 cards:
   - front: "Mid-commute spark I might forget before I'm home. What's the move?"

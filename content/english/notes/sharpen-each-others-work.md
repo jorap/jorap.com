@@ -42,7 +42,7 @@ author: "JoRap"
 tags: ["Writing", "Teams", "Review", "Craft"]
 aliases: ["peer sharpening", "peer review ritual"]
 featured: false
-review: true
+review: false
 card_sets: ["Writing", "Review"]
 cards:
   - front: "Teammate marked three vague paragraphs before publish - ten minutes saved. What's the move?"

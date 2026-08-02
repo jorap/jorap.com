@@ -43,7 +43,7 @@ author: "JoRap"
 tags: ["PKM", "Curation", "Note Taking", "Second Brain", "Knowledge Management", "Productivity", "MOC", "Creation"]
 aliases: ["Curation as Creation"]
 featured: false
-review: true
+review: false
 card_sets: ["Focus", "Workflow"]
 cards:
   - front: "First Sunday review and my idea pile is mostly half-finished scraps. What's the job?"

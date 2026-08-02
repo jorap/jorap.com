@@ -43,7 +43,7 @@ categories: ["Growth"]
 author: "JoRap"
 tags: ["Relationships", "Habits", "Connection"]
 featured: false
-review: true
+review: false
 card_sets: ["Focus", "Review"]
 cards:
   - front: "Dry month with a teammate and a big gesture feels overdue. Smaller move?"

@@ -49,7 +49,7 @@ author: "JoRap"
 tags: ["Safety", "Leadership", "Ethics", "Coaching", "Duty of Care"]
 aliases: ["life over achievement", "no achievement justifies death risk"]
 featured: false
-review: true
+review: false
 card_sets: ["Ethics", "Focus"]
 cards:
   - front: "Backyard rope swing over concrete vs low branch and mat - same fun, softer landing. What's the move?"

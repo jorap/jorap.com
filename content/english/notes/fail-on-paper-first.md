@@ -45,7 +45,7 @@ author: "JoRap"
 tags: ["Decision Making", "Risk Management", "Systems Thinking"]
 aliases: ["pre-mortem", "premortem", "run a pre-mortem", "run-a-pre-mortem"]
 featured: false
-review: true
+review: false
 card_sets: ["Ethics", "Focus"]
 cards:
   - front: "Pass to client Friday - DNS anger scenarios still unlisted. What comes first?"

@@ -54,7 +54,7 @@ author: "JoRap"
 tags: ["Second Brain", "PKM", "Note Taking", "Productivity", "TiddlyWiki", "Tiago Forte", "CODE Method", "Knowledge Management", "Capture", "Personal Wiki", "Information Architecture"]
 aliases: ["Second Brain", "CODE Method"]
 featured: false
-review: true
+review: false
 card_sets: ["Workflow", "Organization"]
 cards:
   - front: "New to the workflow and overwhelmed - capture, organize, distill, express all at once. What comes first?"

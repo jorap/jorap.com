@@ -36,7 +36,7 @@ author: "JoRap"
 tags: ["Open Source", "WordPress", "Security", "Freelance", "Ethics", "Client Work"]
 aliases: ["nulled plugins", "cracked themes", "no pirated plugins"]
 featured: false
-review: true
+review: false
 card_sets: ["Focus", "Review"]
 cards:
   - front: "Client wants a nulled premium plugin to skip the license. One sentence?"

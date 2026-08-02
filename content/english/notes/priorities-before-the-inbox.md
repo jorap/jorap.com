@@ -49,7 +49,7 @@ author: "JoRap"
 tags: ["Workplace", "Productivity", "Eternal Principles", "Priorities", "Focus"]
 aliases: ["real priority first"]
 featured: false
-review: true
+review: false
 card_sets: ["Ethics", "Focus"]
 cards:
   - front: "Game film due Friday but parent group chats are pinging. What do I protect first?"

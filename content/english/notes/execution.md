@@ -38,7 +38,7 @@ categories: ["Leadership"]
 author: "JoRap"
 tags: ["Performance", "Work", "Productivity"]
 featured: false
-review: true
+review: false
 card_sets: ["Focus", "Workflow"]
 cards:
   - front: "Block cleanup group chat full of enthusiasm and zero bags on the curb. What closes the gap?"

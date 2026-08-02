@@ -48,7 +48,7 @@ author: "JoRap"
 tags: ["Safety", "DevOps", "Systems Thinking", "Leadership"]
 aliases: ["deploy window", "release window"]
 featured: false
-review: true
+review: false
 card_sets: ["Ethics", "Focus"]
 cards:
   - front: "Client site ready Friday 5pm. When do we push?"

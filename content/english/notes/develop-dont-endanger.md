@@ -65,7 +65,7 @@ author: "JoRap"
 tags: ["Safety", "Leadership", "Coaching", "Ethics", "Performance"]
 aliases: ["challenge without endangering", "develop dont endanger"]
 featured: false
-review: true
+review: false
 card_sets: ["Ethics", "Focus"]
 cards:
   - front: "Planning fire evacuation drill at the clinic. What's the safe version?"

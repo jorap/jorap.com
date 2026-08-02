@@ -41,7 +41,7 @@ categories: ["Growth"]
 author: "JoRap"
 tags: ["Learning", "Performance", "Habits"]
 featured: false
-review: true
+review: false
 card_sets: ["Focus", "Review"]
 cards:
   - front: "Bombed transitions in yesterday's talk. Tomorrow morning - what's the rep?"

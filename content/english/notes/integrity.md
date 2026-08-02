@@ -43,7 +43,7 @@ categories: ["Leadership"]
 author: "JoRap"
 tags: ["Character", "Ethics", "Work"]
 featured: false
-review: true
+review: false
 card_sets: ["Ethics", "Focus"]
 cards:
   - front: "Late hit that looked legal when the ref looked away. Same call if nobody watched?"

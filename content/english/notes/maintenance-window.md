@@ -40,7 +40,7 @@ categories: ["Productivity"]
 author: "JoRap"
 tags: ["PKM", "Review"]
 featured: false
-review: true
+review: false
 card_sets: ["Focus", "Review"]
 cards:
   - front: "First Sunday - swapping car fluids and rotating tires. Why now?"

@@ -39,7 +39,7 @@ author: "JoRap"
 tags: ["Teaching", "Open Source", "Career", "WordPress", "Developer Life", "Philippines"]
 aliases: ["classroom stack test", "install tonight stack", "teaching open source"]
 featured: false
-review: true
+review: false
 card_sets: ["Focus", "Review"]
 cards:
   - front: "Picking tools for a weekend web seminar on borrowed laptops. First filter?"

@@ -37,7 +37,7 @@ categories: ["Productivity"]
 author: "JoRap"
 tags: ["Metadata", "Tags", "PKM", "Organization", "Taxonomy", "Note Taking", "Hugo", "Documentation"]
 featured: false
-review: true
+review: false
 card_sets: ["Focus", "Review"]
 cards:
   - front: "Kids' bins labeled toys, books, outgrown. What do I skip?"

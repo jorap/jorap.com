@@ -43,7 +43,7 @@ author: "JoRap"
 tags: ["Garage Concept", "Digital Garden", "PKM", "Publishing", "Workflow", "Privacy", "Hugo", "Static Site Generator", "Website Building"]
 aliases: ["Garage Concept"]
 featured: false
-review: true
+review: false
 card_sets: ["Focus", "Review"]
 cards:
   - front: "Draft post's half-finished in my private folder and I am tempted to publish tonight. What's the move?"

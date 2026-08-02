@@ -40,7 +40,7 @@ author: "JoRap"
 tags: ["Linking", "PKM", "Note Taking", "Digital Garden", "Meta"]
 aliases: ["link types", "Link Typing"]
 featured: false
-review: true
+review: false
 card_sets: ["Linking", "Writing"]
 cards:
   - front: "New note builds on an older atomic claim - adding a typed row in frontmatter now. One relationship word?"

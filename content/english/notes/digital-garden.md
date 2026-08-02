@@ -49,7 +49,7 @@ author: "JoRap"
 tags: ["Digital Garden", "PKM", "Publishing", "Wiki", "Second Brain", "TiddlyWiki", "Hugo", "Static Site Generator", "Website Building", "Blogging"]
 aliases: ["Advantages of Digital Gardens", "Gardening Metaphor", "Work in Progress"]
 featured: false
-review: true
+review: false
 card_sets: ["Focus", "Review"]
 cards:
   - front: "Playbook wiki still has last season's sets beside this year's. Is the first version supposed to be final?"

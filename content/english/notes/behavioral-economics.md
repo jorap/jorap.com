@@ -42,7 +42,7 @@ categories: ["Thinking"]
 author: "JoRap"
 tags: ["Mental Models", "Decision Making"]
 featured: false
-review: true
+review: false
 card_sets: ["Focus", "Review"]
 cards:
   - front: "I kept paying for the unused gym membership because \\\"I already paid\\\". What's the move?"

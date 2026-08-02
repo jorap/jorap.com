@@ -41,7 +41,7 @@ author: "JoRap"
 tags: ["Website Building", "Hugo", "CMS", "Static Site Generator", "Freelance", "Git"]
 aliases: ["Sveltia CMS", "Decap CMS", "git backed cms", "git based cms"]
 featured: false
-review: true
+review: false
 card_sets: ["Focus", "Review"]
 cards:
   - front: "Church volunteer won't open a terminal but needs to edit announcements. What's the middle path?"

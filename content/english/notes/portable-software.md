@@ -42,7 +42,7 @@ author: "JoRap"
 tags: ["Portable Software", "Open Source", "Windows", "Developer Tools", "XAMPP", "Workflow"]
 aliases: ["portable apps", "portable builds", "unzip and run"]
 featured: false
-review: true
+review: false
 card_sets: ["Focus", "Review"]
 cards:
   - front: "Locked work PC blocks setup.exe - need a local PHP stack today. What's the move?"

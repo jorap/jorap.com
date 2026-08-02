@@ -43,7 +43,7 @@ author: "JoRap"
 tags: ["Workplace", "Ethics", "Leadership", "Eternal Principles", "Communication"]
 aliases: ["The Golden Rule at Work", "treat colleagues fairly", "reverse roles at work", "golden rule at work"]
 featured: false
-review: true
+review: false
 card_sets: ["Ethics", "Focus"]
 cards:
   - front: "Draft reply to new team manager - technically right, needlessly harsh. One pause before send?"

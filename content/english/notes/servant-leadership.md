@@ -80,7 +80,7 @@ author: "JoRap"
 tags: ["Workplace", "Leadership", "Eternal Principles", "Service", "Management"]
 aliases: ["lead by serving"]
 featured: false
-review: true
+review: false
 card_sets: ["Ethics", "Focus"]
 cards:
   - front: "I've got the title at home but I keep grabbing the easy wins and the praise. What's the servant move?"

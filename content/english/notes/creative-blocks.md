@@ -37,7 +37,7 @@ author: "JoRap"
 tags: ["Creative Blocks", "Writing", "PKM", "Productivity", "Express", "Second Brain"]
 aliases: ["Writer's Block"]
 featured: false
-review: true
+review: false
 card_sets: ["Writing", "Review"]
 cards:
   - front: "Kid staring at a blank training log twenty minutes in. What's the unstick?"

@@ -51,7 +51,7 @@
 {{- end -}}
 
 {{- $extras := slice -}}
-{{- if gt (len (partialCached "notes/cards-for-page.html" $page $page.RelPermalink)) 0 -}}
+{{- if and (eq ($page.Params.review | default false) true) (gt (len (partialCached "notes/cards-for-page.html" $page $page.RelPermalink)) 0) -}}
   {{- $extras = $extras | append (dict "level" 2 "title" "Flashcards" "id" "flashcards") -}}
 {{- end -}}
 {{- $relNeighbors := partialCached "notes/relationship-neighbors.html" $page $page.RelPermalink -}}

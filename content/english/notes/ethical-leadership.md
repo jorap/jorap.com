@@ -43,7 +43,7 @@ categories: ["Leadership"]
 author: "JoRap"
 tags: ["Leadership", "Ethics"]
 featured: false
-review: true
+review: false
 card_sets: ["Ethics", "Focus"]
 cards:
   - front: "Backyard wrestling getting rough and someone's about to get hurt. Kids want the rougher version. Stop?"

@@ -43,7 +43,7 @@ author: "JoRap"
 tags: ["Drafting in Public", "Digital Garden", "Publishing", "PKM", "Writing", "Blogging", "Hugo", "Website Building"]
 aliases: ["Learning in Public"]
 featured: false
-review: true
+review: false
 card_sets: ["Writing", "Review"]
 cards:
   - front: "Shared a draft SOP with the team before it was polished - honest pass-off, not perfection. What's the move?"

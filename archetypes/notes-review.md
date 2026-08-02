@@ -4,25 +4,25 @@ meta_title: "{{ replace .Name "-" " " | title }} - Plain Subtitle"
 description: "One memorable definition - what this concept is or does, in one breath you could recall cold."
 slug: "{{ .Name }}"
 image: "/images/note.jpg"
-categories: ["Productivity"]
+categories: ["Faith"]
 author: "JoRap"
-tags: []
+tags: ["Gospel", "Eternal Principles"]
 aliases: []
 review: true
-card_sets: ["Set Name"]
+card_sets: ["Eternal Principles", "Gospel", "Faith"]
 cards:
-  - front: "Mid-commute spark I might forget before I'm home."
-    back: "Drop in one inbox. Don't organize yet."
-  - front: "Interesting link, unsure it's worth saving. One filter question before it hits the inbox?"
-    back: "Would I act on it or cite it later?"
-  - front: "Forty inbox items, two weeks untouched. First move?"
-    back: "Empty it now - one pass, no sorting."
-  - front: "Thumb hovering over send after a heated reply. One check?"
-    back: "Would I say this face to face?"
-  - front: "Tempted to split work and home into two capture inboxes."
-    back: "One inbox. Tag later if needed."
-  - front: "Fleeting spark keeps showing up in weekly review. Promote or leave fleeting?"
-    back: "If it keeps returning, make it an atomic note."
+  - front: "Obedience feels like what qualifies me for heaven. What's the move?"
+    back: "Trust Christ alone. Principles guide after."
+  - front: "Guilt after failing again. First check?"
+    back: "Standing settled at faith. Confess for fellowship."
+  - front: "Tempted to treat principles as the price of heaven. One check?"
+    back: "Gift by faith first. Principles guide the walk after."
+  - front: "Thumb hovering over a harsh reply. What's the move?"
+    back: "Pause. Do to them what you'd want done to you."
+  - front: "Inbox before Scripture this morning. What comes first?"
+    back: "Kingdom first - open the Word before the feed."
+  - front: "Shame says yesterday's failure voided my standing. First fix?"
+    back: "Standing settled at faith. Confess; restore fellowship."
 featured: false
 draft: true
 key_concept: |

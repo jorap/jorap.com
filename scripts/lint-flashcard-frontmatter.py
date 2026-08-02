@@ -89,8 +89,9 @@ def lint_file(path: Path) -> list[str]:
     cards = parse_cards(block)
     review = parse_bool(block, "review")
 
+    # Opt-in only - Faith / Eternal Principles spine. Disabled notes keep cards in YAML.
     if not review:
-        errors.append(f"{rel}: garden notes require review: true")
+        return errors
     if not sets:
         errors.append(f"{rel}: requires card_sets (inline list, quoted names)")
     if len(cards) < 2:

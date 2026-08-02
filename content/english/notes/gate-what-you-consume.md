@@ -46,7 +46,7 @@ author: "JoRap"
 tags: ["Focus", "Attention", "Digital Minimalism", "PKM"]
 aliases: ["content gate", "filter your feeds"]
 featured: false
-review: true
+review: false
 card_sets: ["Focus", "Workflow"]
 cards:
   - front: "Three outrage accounts ruined commute patience - mute still not done. What's the move?"

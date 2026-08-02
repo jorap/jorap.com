@@ -47,7 +47,7 @@ author: "JoRap"
 tags: ["Performance", "Strategy", "Thinking", "Competition"]
 aliases: ["plan the second move"]
 featured: false
-review: true
+review: false
 card_sets: ["Focus", "Review"]
 cards:
   - front: "Extra screen time for chores worked Monday. By day three my kid negotiates harder tasks. What did I skip?"

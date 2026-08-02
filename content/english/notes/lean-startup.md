@@ -43,7 +43,7 @@ categories: ["Growth"]
 author: "JoRap"
 tags: ["Productivity", "Projects"]
 featured: false
-review: true
+review: false
 card_sets: ["Focus", "Workflow"]
 cards:
   - front: "One sample lunch-box photo in the group chat before I buy a month's containers. Why?"

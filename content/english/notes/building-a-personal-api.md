@@ -38,7 +38,7 @@ author: "JoRap"
 tags: ["Personal API", "PKM", "Automation", "Second Brain", "AI", "Knowledge Management", "Static Site Generator", "Documentation", "Future of PKM", "Trends", "Tools"]
 aliases: ["Future of PKM", "The Future of PKM"]
 featured: false
-review: true
+review: false
 card_sets: ["Focus", "Review"]
 cards:
   - front: "Pantry's chaos and my wife can't find snacks without a tour. What's the rule?"

@@ -52,7 +52,7 @@ author: "JoRap"
 tags: ["Workplace", "Ethics", "Communication", "Eternal Principles", "Integrity"]
 aliases: ["yes means yes at work"]
 featured: false
-review: true
+review: false
 card_sets: ["Ethics", "Focus"]
 cards:
   - front: "Host almost said I will try maybe get you a table around seven. What's the plain move?"

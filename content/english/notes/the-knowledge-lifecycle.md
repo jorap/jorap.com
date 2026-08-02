@@ -38,7 +38,7 @@ author: "JoRap"
 tags: ["Knowledge Lifecycle", "PKM", "Archive", "Evergreen Notes", "Workflow", "Organization"]
 aliases: ["Knowledge Lifecycle", "Note Maturity"]
 featured: false
-review: true
+review: false
 card_sets: ["Focus", "Review"]
 cards:
   - front: "New note just landed - not sure if it is fleeting or evergreen yet. What's the move?"

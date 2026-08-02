@@ -46,7 +46,7 @@ categories: ["Leadership"]
 author: "JoRap"
 tags: ["Performance", "Systems Thinking", "Leadership"]
 featured: false
-review: true
+review: false
 card_sets: ["Ethics", "Focus"]
 cards:
   - front: "Winter coming - trunk has no jumper cables, no blanket. One prep move?"

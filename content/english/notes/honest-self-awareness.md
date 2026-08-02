@@ -52,7 +52,7 @@ author: "JoRap"
 tags: ["Mindset", "Learning", "Performance", "Self-Awareness"]
 aliases: ["self-awareness and acceptance", "honest appraisal"]
 featured: false
-review: true
+review: false
 card_sets: ["Focus", "Review"]
 cards:
   - front: "I can't guard the quick point yet and game night is Friday. Honest move?"

@@ -41,7 +41,7 @@ categories: ["Productivity"]
 author: "JoRap"
 tags: ["Signal vs Noise", "Information Diet", "PKM", "Capture", "Focus", "Curation"]
 featured: false
-review: true
+review: false
 card_sets: ["Focus", "Capture"]
 cards:
   - front: "Interesting article but it will not change what I do this month. Thumb on save. What's the move?"

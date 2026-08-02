@@ -46,7 +46,7 @@ categories: ["Growth"]
 author: "JoRap"
 tags: ["Performance", "Health", "Leadership"]
 featured: false
-review: true
+review: false
 card_sets: ["Ethics", "Focus"]
 cards:
   - front: "Third straight night of bedtime-and-homework heroics and Thursday's melting down. What's the move?"

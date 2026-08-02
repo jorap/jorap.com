@@ -70,7 +70,7 @@ author: "JoRap"
 tags: ["Mental Models", "Productivity", "Performance", "Habits", "Learning", "PKM", "Systems Thinking"]
 aliases: ["Compound Interest"]
 featured: false
-review: true
+review: false
 card_sets: ["Focus", "Workflow"]
 cards:
   - front: "Ten minutes of free throws every Tuesday and the percentage hasn't moved in months. Keep going?"

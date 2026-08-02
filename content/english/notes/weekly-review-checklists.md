@@ -37,7 +37,7 @@ categories: ["Productivity", "Tips"]
 author: "JoRap"
 tags: ["Weekly Review", "Checklist", "GTD", "PKM", "PARA", "Habits", "Workflow"]
 featured: false
-review: true
+review: false
 card_sets: ["Focus", "Review"]
 cards:
   - front: "Friday review - inbox and calendar done. Fourth step before I close?"

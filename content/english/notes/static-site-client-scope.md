@@ -64,7 +64,7 @@ author: "JoRap"
 tags: ["Website Building", "Freelance", "Static Site Generator", "Client Work", "Scope"]
 aliases: ["static site fit", "what static sites can do"]
 featured: false
-review: true
+review: false
 card_sets: ["Focus", "Review"]
 cards:
   - front: "Cafe owner wanted online ordering. What's the move?"

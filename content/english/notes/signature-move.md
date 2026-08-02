@@ -47,7 +47,7 @@ author: "JoRap"
 tags: ["Learning", "Writing", "PKM", "Note Taking", "Performance"]
 aliases: ["two scene proof", "one principle two scenes"]
 featured: false
-review: true
+review: false
 card_sets: ["Writing", "Growth"]
 cards:
   - front: "Down two, five seconds, player starts inventing a finish she never drilled. Coach move?"

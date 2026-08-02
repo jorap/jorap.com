@@ -66,7 +66,7 @@ author: "JoRap"
 tags: ["Website Building", "Static Site Generator", "Hugo", "Freelance", "Business", "Cloudflare Pages", "GitHub"]
 aliases: ["static site freelance", "client static sites"]
 featured: false
-review: true
+review: false
 card_sets: ["Focus", "Review"]
 cards:
   - front: "Neighbor wants a portfolio site and asks what hosting costs monthly. One thing I quote?"

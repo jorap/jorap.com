@@ -39,7 +39,7 @@ author: "JoRap"
 tags: ["Decision Making", "Tradeoffs", "Productivity", "Mindset", "Good Enough", "Mental Models", "Problem Solving", "Prioritization", "Perfectionism", "PKM", "Note Taking"]
 aliases: ["Pick What Works Tired", "No Perfect Solution"]
 featured: false
-review: true
+review: false
 card_sets: ["Focus", "Workflow"]
 cards:
   - front: "Week three comparing strollers and we still haven't walked with the baby we have. What's the move?"

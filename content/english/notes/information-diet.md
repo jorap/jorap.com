@@ -38,7 +38,7 @@ categories: ["Productivity"]
 author: "JoRap"
 tags: ["PKM", "Productivity"]
 featured: false
-review: true
+review: false
 card_sets: ["Focus", "Workflow"]
 cards:
   - front: "Family tablet still opens to the doom-scroll feed every morning. One move?"

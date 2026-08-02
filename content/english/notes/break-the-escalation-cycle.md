@@ -52,7 +52,7 @@ author: "JoRap"
 tags: ["Workplace", "Ethics", "Communication", "Eternal Principles", "Conflict"]
 aliases: ["de-escalate at work", "do not feed the reply-all war"]
 featured: false
-review: true
+review: false
 card_sets: ["Ethics", "Focus"]
 cards:
   - front: "Parent emailed the principal with a snarky line about our field trip delay. Thumb on reply-all. What's the move?"

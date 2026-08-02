@@ -41,7 +41,7 @@ categories: ["Leadership"]
 author: "JoRap"
 tags: ["Decision Making", "Safety"]
 featured: false
-review: true
+review: false
 card_sets: ["Ethics", "Focus"]
 cards:
   - front: "Longer route with an exit every mile before trying the construction shortcut. Why?"

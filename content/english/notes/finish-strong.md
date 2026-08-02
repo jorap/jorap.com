@@ -59,7 +59,7 @@ author: "JoRap"
 tags: ["Performance", "Discipline", "Execution", "Habits"]
 aliases: ["finish what you start"]
 featured: false
-review: true
+review: false
 card_sets: ["Focus", "Review"]
 cards:
   - front: "I cleared the table after dinner but left the pots soaking. What's the move?"

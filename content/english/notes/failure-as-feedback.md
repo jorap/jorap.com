@@ -58,7 +58,7 @@ categories: ["Growth"]
 author: "JoRap"
 tags: ["Learning", "Mindset", "Performance"]
 featured: false
-review: true
+review: false
 card_sets: ["Focus", "Review"]
 cards:
   - front: "I missed three free throws in a row. What's the move?"

@@ -43,7 +43,7 @@ categories: ["Leadership"]
 author: "JoRap"
 tags: ["Relationships", "Communication", "Listening", "Respect"]
 featured: false
-review: true
+review: false
 card_sets: ["Focus", "Review"]
 cards:
   - front: "Teammate wants to run an inbound play I have never seen. Finger itching to correct. First move?"

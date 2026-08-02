@@ -43,7 +43,7 @@ author: "JoRap"
 tags: ["Mental Models", "Decision Making", "Thinking", "Productivity", "Mindset", "PKM", "Bias"]
 aliases: ["Sunk Cost"]
 featured: false
-review: true
+review: false
 card_sets: ["Focus", "Workflow"]
 cards:
   - front: "Set play lost four straight but we drilled it all preseason. Keep running it?"

@@ -39,7 +39,7 @@ categories: ["Leadership"]
 author: "JoRap"
 tags: ["Leadership", "Safety", "Ethics"]
 featured: false
-review: true
+review: false
 card_sets: ["Ethics", "Focus"]
 cards:
   - front: "Crash cart checklist due every shift and someone's shrugging \"staff assumes risk.\" Still my job?"

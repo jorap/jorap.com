@@ -40,7 +40,7 @@ categories: ["Growth"]
 author: "JoRap"
 tags: ["Performance", "Career", "Adaptability"]
 featured: false
-review: true
+review: false
 card_sets: ["Focus", "Review"]
 cards:
   - front: "Lunch rush hit and dishes are piled - line cook's buried in tickets. What's the move?"

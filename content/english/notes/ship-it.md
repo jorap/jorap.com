@@ -48,7 +48,7 @@ categories: ["Growth"]
 author: "JoRap"
 tags: ["Productivity", "Creative Output"]
 featured: false
-review: true
+review: false
 card_sets: ["Focus", "Workflow"]
 cards:
   - front: "New play's still ugly but we've drilled it a month. Scrimmage's tomorrow and I am tempted to drill another month. What's the move?"

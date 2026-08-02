@@ -53,7 +53,7 @@ author: "JoRap"
 tags: ["Safety", "Leadership", "Continuous Improvement", "Systems Thinking"]
 aliases: ["after-action review", "blameless review", "/notes/blameless-postmortem/"]
 featured: false
-review: true
+review: false
 card_sets: ["Ethics", "Focus"]
 cards:
   - front: "Bad Friday deploy reverted by lunch. When does root-cause talk start?"

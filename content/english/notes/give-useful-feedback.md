@@ -46,7 +46,7 @@ author: "JoRap"
 tags: ["Communication", "Leadership", "Coaching", "Teams"]
 aliases: ["actionable feedback", "feedback that lands"]
 featured: false
-review: true
+review: false
 card_sets: ["Ethics", "Focus"]
 cards:
   - front: "Finger on send - you always miss deadlines drafted. What's the move?"

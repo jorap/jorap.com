@@ -2,19 +2,23 @@
 name: flashcards
 description: >-
   Write and edit JoRap notes garden flashcards (review: true, cards frontmatter,
-  card_sets). Always apply garden-voice - cards must sound like JoRap typed them mid-life,
-  not like textbook prompts. Use plain words on every front and back.
+  card_sets) for Faith notes and Eternal Principles only. Always apply garden-voice -
+  cards must sound like JoRap typed them mid-life, not like textbook prompts. Use plain
+  words on every front and back.
   Use when adding, rewriting, or auditing flashcards on
-  content/english/notes, enabling review on spine notes, fixing card lint errors, or when
-  the user asks about flashcard goals, retention, application, explanation, real-life
-  recall, scenario cards, card_sets, or /notes/review/.
+  content/english/notes Faith / Eternal Principles spine, enabling review on gospel notes,
+  fixing card lint errors, or when the user asks about flashcard goals, retention,
+  application, explanation, real-life recall, scenario cards, card_sets, or /notes/review/.
+  Do not enable cards on PKM, Productivity, Leadership, or Growth notes.
 ---
 
 # Flashcards
 
 Flashcards are a **drill lane beside the wiki** - not a second copy of the note. The wiki holds linked understanding; cards wire **life's cue → move** so the right default is already loaded when the moment hits.
 
-Only ~20% of notes (spine habits + gospel cluster) carry cards. Full spec: `content/english/notes/flashcards.md`. Reference decks: `capture.md`, `abide-in-me.md`, `the-golden-rule.md`.
+Only Faith notes (`categories` includes Faith) and Eternal Principles spine carry cards.
+PKM / productivity / leadership decks stay `review: false` (cards may remain in YAML, disabled).
+Full spec: `content/english/notes/flashcards.md`. Reference decks: `abide-in-me.md`, `free-grace.md`, `the-golden-rule.md`.
 
 **Voice:** Always load and follow [garden-voice](../garden-voice/SKILL.md). Cards are first-person drill cues - same plain, lived-in tone as the notes garden, not Anki boilerplate. **flashcards skill owns cue→apply shape; garden-voice owns word choice.** Vocabulary rules live in garden-voice.
 
@@ -95,7 +99,7 @@ If a card tests whether you can explain an idea, the back should be a **clear on
 
 ### Pareto the deck
 
-Wiki = nuance. Cards = spine habits (~20%) you drill weekly so the chain is automatic under pressure. Learn less; retain longer; apply more.
+Wiki = nuance. Cards = Faith / Eternal Principles spine you drill so the chain is automatic under pressure. Learn less; retain longer; apply more. Do not enable cards on Productivity, Leadership, Growth, or Thinking notes.
 
 ## Anti-goals
 
@@ -107,7 +111,8 @@ Wiki = nuance. Cards = spine habits (~20%) you drill weekly so the chain is auto
 - **Bible verse citations on front or back** - no book chapter:verse, spoken chapter refs, or book-name answer keys; wiki holds scripture
 - **Telegraphy** - answer visible on the front
 - **Multiple choice** - front lists options (`X, Y, or Z?`, `A or B?`); back must hold the move, not a menu of picks
-- **Cards on every note** - understanding in the garden; drill in the spine
+- **Cards outside Faith / Eternal Principles** - PKM and workplace notes stay `review: false`
+- **Cards on every note** - understanding in the garden; drill in the faith spine
 
 ## When to use this skill
 
@@ -118,8 +123,8 @@ Wiki = nuance. Cards = spine habits (~20%) you drill weekly so the chain is auto
 ## Workflow
 
 1. **Read the note body** - claim, extends/contradicts, tradeoffs.
-2. **Read garden-voice** - load [garden-voice](../garden-voice/SKILL.md); skim 1-2 reference decks (`capture.md`, `abide-in-me.md`) for tone.
-3. **Confirm spine status** - weekly drill? (~12 PKM + gospel under [[Eternal Principles]]). Else skip `review: true`.
+2. **Read garden-voice** - load [garden-voice](../garden-voice/SKILL.md); skim 1-2 reference decks (`abide-in-me.md`, `the-golden-rule.md`) for tone.
+3. **Confirm Faith / Eternal Principles scope** - `categories` includes Faith (EP hub, Jesus Rhythms, Jesus Prayers OK). Else leave or set `review: false`; do not add PKM cards.
 4. **Mine real cues** - 6+ moments from actual life where this note should have fired but didn't. Not from the definition line.
 5. **Draft cue → apply pairs** - front = recognize; back = do/decide now. Optional subtle hint question on the front (`One check?`, `What comes first?`) when the back is a specific check, filter, or order (see [examples.md](examples.md)).
 6. **De-AI pass (garden-voice + vocab)** - read each front aloud. Would JoRap actually think this mid-commute, mid-argument, inbox at 40? Cut textbook phrasing, abstract nouns, and third-person setup. Swap any word you wouldn't say to a friend mid-rush (`utilize` → `use`, `repository` → `inbox`, `facilitate` → `help`). Backs stay short imperatives - no essays.
@@ -139,12 +144,12 @@ Template: `archetypes/notes-review.md`.
 
 ```yaml
 review: true
-card_sets: ["Capture", "Workflow"]
+card_sets: ["Eternal Principles", "Gospel", "Faith"]
 cards:
-  - front: "Mid-commute spark I might forget before I'm home."
-    back: "Drop in one inbox. Don't organize yet."
-  - front: "Interesting link, unsure it's worth saving. One filter question before it hits the inbox?"
-    back: "Would I act on it or cite it later?"
+  - front: "Obedience feels like what qualifies me for heaven. What's the move?"
+    back: "Trust Christ alone. Principles guide after."
+  - front: "Guilt after failing again. First check?"
+    back: "Standing settled at faith. Confess for fellowship."
 draft: false
 ```
 
@@ -231,9 +236,9 @@ Cards fire under pressure. Fancy words slow recall. Every word should land on fi
 
 ### card_sets labels
 
-**PKM:** `Capture`, `Workflow`, `Review`, `Linking`, `Writing`, `Organization`, `Focus`
+**Gospel (only active deck labels):** always `"Eternal Principles"` plus one: `Faith`, `Commandments`, `Ethics`, `Prayer`, `Priorities`, `Discipleship` — or Jesus lanes: `Jesus Rhythms`, `Jesus Prayers`
 
-**Gospel:** always `"Eternal Principles"` plus one: `Faith`, `Commandments`, `Ethics`, `Prayer`, `Priorities`, `Discipleship`
+**PKM labels (legacy, do not enable):** `Capture`, `Workflow`, `Review`, `Linking`, `Writing`, `Organization`, `Focus` — keep `review: false` on those notes
 
 Gospel cards inherit doctrine from the parent note - [garden-voice](../garden-voice/SKILL.md) **Theological source** (Grace School of Theology free grace). Cards drill the move; they do not invent theology.
 
@@ -254,7 +259,7 @@ Each card:
 Deck:
 
 - [ ] Six different cues - not six ways to ask the definition
-- [ ] Spine-worthy (~20% rule)
+- [ ] Faith / Eternal Principles scope (`categories` includes Faith)
 
 ## Lint and tools
 

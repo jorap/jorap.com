@@ -60,7 +60,7 @@ author: "JoRap"
 tags: ["Performance", "Decision Making", "Continuous Improvement", "Metrics"]
 aliases: ["measure and iterate", "feedback drives iteration"]
 featured: false
-review: true
+review: false
 card_sets: ["Focus", "Review"]
 cards:
   - front: "Checkout change shipped and nobody tracked whether it helped. What's missing?"

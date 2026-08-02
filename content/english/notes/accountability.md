@@ -46,7 +46,7 @@ categories: ["Leadership"]
 author: "JoRap"
 tags: ["Leadership", "Work", "Performance"]
 featured: false
-review: true
+review: false
 card_sets: ["Ethics", "Focus"]
 cards:
   - front: "Gate's broken again and the group chat is drifting into \"someone should handle it.\" One move before anyone leaves?"

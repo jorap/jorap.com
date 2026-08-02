@@ -36,7 +36,7 @@ categories: ["Growth"]
 author: "JoRap"
 tags: ["Productivity", "Focus"]
 featured: false
-review: true
+review: false
 card_sets: ["Focus", "Workflow"]
 cards:
   - front: "Phone's in the drawer while I help with math homework. What's possible now?"

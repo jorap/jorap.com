@@ -51,7 +51,7 @@ author: "JoRap"
 tags: ["Planning", "Leadership", "Focus", "Priorities"]
 aliases: ["clear purpose", "compelling vision"]
 featured: false
-review: true
+review: false
 card_sets: ["Focus", "Workflow"]
 cards:
   - front: "Backlog full of fixes and nobody can say what winning looks like. One move?"

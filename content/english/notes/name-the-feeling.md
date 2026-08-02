@@ -43,7 +43,7 @@ categories: ["Leadership"]
 author: "JoRap"
 tags: ["Relationships", "Communication", "Emotional Regulation"]
 featured: false
-review: true
+review: false
 card_sets: ["Focus", "Review"]
 cards:
   - front: "A player slumped on the bench after a bad quarter. What's the move?"

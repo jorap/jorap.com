@@ -43,7 +43,7 @@ author: "JoRap"
 tags: ["Second Brain", "Workflow", "CODE Method", "PARA", "PKM", "Productivity", "Hugo", "Tools", "Browser Tips", "Daily Routine", "Information Diet"]
 aliases: ["Second Brain Workflow", "Second Brain Daily Workflow", "Daily Workflow"]
 featured: false
-review: true
+review: false
 card_sets: ["Focus", "Workflow"]
 cards:
   - front: "Post-game notes still in my pocket and Sunday review's coming. What's the move?"

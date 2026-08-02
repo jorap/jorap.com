@@ -40,7 +40,7 @@ categories: ["Leadership"]
 author: "JoRap"
 tags: ["Safety", "Continuous Improvement"]
 featured: false
-review: true
+review: false
 card_sets: ["Ethics", "Focus"]
 cards:
   - front: "Equipment cart tipped and the standup wants to blame the trainer. What do we trace instead?"

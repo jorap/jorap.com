@@ -44,7 +44,7 @@ author: "JoRap"
 tags: ["Safety", "Leadership", "Risk Management", "Coaching", "Ethics"]
 aliases: ["elimination before controls"]
 featured: false
-review: true
+review: false
 card_sets: ["Ethics", "Focus"]
 cards:
   - front: "Open-water endurance drill vs controlled pool set. Same goal - safer pick?"

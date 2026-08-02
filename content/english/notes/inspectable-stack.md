@@ -47,7 +47,7 @@ author: "JoRap"
 tags: ["Open Source", "Developer Life", "DevOps", "Git", "Website Building", "Tool Selection"]
 aliases: ["inspect move help", "open source filter", "three checks stack"]
 featured: false
-review: true
+review: false
 card_sets: ["Focus", "Review"]
 cards:
   - front: "Hugo partial blank on one route at ten at night. First move?"

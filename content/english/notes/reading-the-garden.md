@@ -51,7 +51,7 @@ author: "JoRap"
 tags: ["PKM", "Learning", "Notes", "Digital Garden", "Flashcards", "Second Brain"]
 aliases: ["learn from notes", "garden learning"]
 featured: false
-review: true
+review: false
 card_sets: ["Focus", "Review"]
 cards:
   - front: "Six note tabs open Sunday - cannot quote one claim Monday. What comes first?"

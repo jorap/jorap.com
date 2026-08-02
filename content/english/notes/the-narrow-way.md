@@ -52,7 +52,7 @@ cards:
   - front: "Comfortable path everyone else is on - crowd makes it feel safe. What's the move?"
     back: "Narrow - hard road, life at the end."
   - front: "Saying Lord Lord but same secret sin - terror I'm not saved. First split?"
-    back: "Never believed vs stumbled believer - standing holds; confess for fellowship."
+    back: "Never believed, or stumbled believer? Standing holds; confess."
   - front: "Cross feels optional because grace saved me. What's still costly?"
     back: "Daily following - not the salvation price."
   - front: "Broad road tempting because it is crowded and easy. One move?"

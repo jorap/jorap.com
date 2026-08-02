@@ -42,7 +42,7 @@ categories: ["Productivity"]
 author: "JoRap"
 tags: ["PKM", "Note Taking", "Research"]
 featured: false
-review: true
+review: false
 card_sets: ["Focus", "Review"]
 cards:
   - front: "Highlighter hovering over every page of the coaching chapter. One filter before I mark?"

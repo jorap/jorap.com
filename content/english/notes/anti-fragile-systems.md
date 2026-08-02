@@ -41,7 +41,7 @@ author: "JoRap"
 tags: ["PKM", "Anti-Fragile", "Local First", "Productivity", "Note Taking", "Future Proofing", "Mindset"]
 aliases: ["anti fragile systems", "Antifragile", "Antifragility"]
 featured: false
-review: true
+review: false
 card_sets: ["Focus", "Workflow"]
 cards:
   - front: "Gym booking app shut down for good and my paper log still has every set. What's my backup habit?"

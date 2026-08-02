@@ -40,7 +40,7 @@ categories: ["Growth"]
 author: "JoRap"
 tags: ["Performance", "Thinking", "Career"]
 featured: false
-review: true
+review: false
 card_sets: ["Focus", "Review"]
 cards:
   - front: "Jeepney route changed overnight and I'm still staring at the old stop. Same destination - what's the swap?"

@@ -39,7 +39,7 @@ categories: ["Leadership"]
 author: "JoRap"
 tags: ["Performance", "Work", "Character"]
 featured: false
-review: true
+review: false
 card_sets: ["Focus", "Review"]
 cards:
   - front: "Carpool crisis at 7am - who do I call? One filter?"

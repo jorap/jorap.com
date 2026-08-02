@@ -34,7 +34,7 @@ author: "JoRap"
 tags: ["Mental Models", "Productivity", "Performance", "Prioritization", "Focus", "Decision Making", "PKM"]
 aliases: ["Low-Hanging Fruit"]
 featured: false
-review: true
+review: false
 card_sets: ["Focus", "Workflow"]
 cards:
   - front: "Twenty minutes redesigning our training plan - cones still not put away. What's the obvious win?"

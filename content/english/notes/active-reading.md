@@ -41,7 +41,7 @@ author: "JoRap"
 tags: ["PKM", "Learning", "Reading"]
 aliases: ["marginalia", "reading with a pencil"]
 featured: false
-review: true
+review: false
 card_sets: ["Focus", "Review"]
 cards:
   - front: "Finished the chapter, yellow on every page, cannot explain one idea - marks without extraction. What's missing?"

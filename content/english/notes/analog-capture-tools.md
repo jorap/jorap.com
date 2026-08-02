@@ -39,7 +39,7 @@ categories: ["Productivity", "Tips"]
 author: "JoRap"
 tags: ["Analog", "Capture", "Note Taking", "Bullet Journal", "PKM", "Productivity"]
 featured: false
-review: true
+review: false
 card_sets: ["Capture", "Workflow"]
 cards:
   - front: "Phone dies mid-sermon and I am scribbling Philippians refs in the margin. Where does it go after?"

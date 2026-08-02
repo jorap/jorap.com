@@ -37,7 +37,7 @@ author: "JoRap"
 tags: ["Local First", "PKM", "Sync", "Privacy", "Data Sovereignty", "Security", "E2EE", "Encryption", "Self-Hosting", "Note Taking", "Offline"]
 aliases: ["local first software", "Local First", "Privacy and Data Sovereignty", "Data Sovereignty", "E2EE", "E2EE Security"]
 featured: false
-review: true
+review: false
 card_sets: ["Focus", "Review"]
 cards:
   - front: "Commute tunnel kills signal mid-playlist. What still works?"

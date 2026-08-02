@@ -51,7 +51,7 @@ author: "JoRap"
 tags: ["Leadership", "Work", "Influence", "Trust"]
 aliases: ["informal leadership", "leading without authority"]
 featured: false
-review: true
+review: false
 card_sets: ["Ethics", "Focus"]
 cards:
   - front: "Hood alarm trips and everyone looks at the line cook, not the manager on the schedule. Why her?"

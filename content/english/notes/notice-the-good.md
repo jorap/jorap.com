@@ -43,7 +43,7 @@ categories: ["Growth"]
 author: "JoRap"
 tags: ["Relationships", "Communication", "Habits"]
 featured: false
-review: true
+review: false
 card_sets: ["Focus", "Review"]
 cards:
   - front: "Kid boxed out every drill at practice. What do I say out loud?"

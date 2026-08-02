@@ -40,7 +40,7 @@ categories: ["Leadership"]
 author: "JoRap"
 tags: ["Performance", "Work", "Craft"]
 featured: false
-review: true
+review: false
 card_sets: ["Focus", "Review"]
 cards:
   - front: "I almost sent the permission slip to the wrong teacher because the forms looked the same. What's the move?"

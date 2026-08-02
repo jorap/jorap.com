@@ -44,7 +44,7 @@ author: "JoRap"
 tags: ["Habits", "Performance", "Systems Thinking"]
 aliases: ["habit stack"]
 featured: false
-review: true
+review: false
 card_sets: ["Focus", "Review"]
 cards:
   - front: "I never remembered to stretch until it sat right after lacing gym shoes. What's the move?"

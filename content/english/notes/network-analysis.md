@@ -39,7 +39,7 @@ categories: ["Productivity"]
 author: "JoRap"
 tags: ["PKM", "Graph"]
 featured: false
-review: true
+review: false
 card_sets: ["Focus", "Review"]
 cards:
   - front: "Playbook diagram - one motion offense links twelve other sets. What do I fix first?"

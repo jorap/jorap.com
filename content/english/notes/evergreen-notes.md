@@ -43,7 +43,7 @@ author: "JoRap"
 tags: ["Evergreen Notes", "PKM", "Note Taking", "Second Brain", "Writing", "Formatting", "Readability", "Markdown"]
 aliases: ["Formatting for Readability", "Permanent Notes"]
 featured: false
-review: true
+review: false
 card_sets: ["Writing", "Review"]
 cards:
   - front: "Fleeting spark keeps showing up in weekly review. What's the move?"

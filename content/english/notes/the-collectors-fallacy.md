@@ -40,7 +40,7 @@ author: "JoRap"
 tags: ["Collectors Fallacy", "PKM", "Capture", "Learning", "Productivity", "Express", "Note Taking"]
 aliases: ["the collectors fallacy", "Collector's Fallacy"]
 featured: false
-review: true
+review: false
 card_sets: ["Capture", "Focus"]
 cards:
   - front: "Reading list grows but nothing ships. One question before every save?"

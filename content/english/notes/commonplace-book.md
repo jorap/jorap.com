@@ -42,7 +42,7 @@ categories: ["Productivity"]
 author: "JoRap"
 tags: ["PKM", "Note Taking"]
 featured: false
-review: true
+review: false
 card_sets: ["Focus", "Review"]
 cards:
   - front: "Found a thrift-store coach's playbook with handwritten margin notes. Ancestor of what?"

@@ -39,7 +39,7 @@ categories: ["Productivity"]
 author: "JoRap"
 tags: ["Slow Productivity", "Cal Newport", "PKM", "Focus", "Productivity", "Deep Work", "Note Taking"]
 featured: false
-review: true
+review: false
 card_sets: ["Focus", "Workflow"]
 cards:
   - front: "Six active home projects and none are finished - Pinterest boards everywhere. What's missing?"

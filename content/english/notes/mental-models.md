@@ -39,7 +39,7 @@ author: "JoRap"
 tags: ["Mental Models", "Thinking", "PKM", "Decision Making", "MOC", "Learning", "Performance", "Productivity"]
 aliases: ["mental-models-list", "Mental Models List"]
 featured: false
-review: true
+review: false
 card_sets: ["Focus", "Workflow"]
 cards:
   - front: "Twelve menu tweaks on the whiteboard - I can only chase two. What's the move?"
