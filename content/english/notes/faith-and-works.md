@@ -11,7 +11,7 @@ key_concept: |
   - Dead faith in James is inactive faith that sits unused - not fake faith that never saved.
   - [[Grateful Obedience]] names the motive: works answer grace already received, not a price tag on heaven.
 level_1: "Faith and works together mean faith alone saves and works answer that gift - hearing Jesus without doing is sand, not rock."
-level_2: "Blueprints plus bricks - hearing Jesus without doing is a drawing that collapses when weather turns; obedience under pressure shows whether hearing became trust."
+level_2: "Blueprints plus bricks - hearing Jesus without doing is a drawing that collapses when weather turns; works answer grace already received, they do not buy the house."
 level_3: "Pick one command you heard this week and do it before you add another study note - hearing alone is sand."
 level_4: "Rock and sand split on doing, not hearing alone - [[Grateful Obedience]] names the motive: works answer grace already received, not a price tag on heaven."
 level_5: "Create a teaching that keeps Paul's answer about salvation and James's answer about living faith distinct, then apply both without making works the price of heaven."
@@ -60,7 +60,7 @@ image: "/images/note.jpg"
 categories: ["Faith"]
 author: "JoRap"
 tags: ["Gospel", "Free Grace", "Faith", "Eternal Principles", "Theology"]
-aliases: ["faith without works is dead", "works answer grace", "works prove faith"]
+aliases: ["faith without works is dead", "works answer grace", "inactive faith"]
 featured: false
 review: true
 card_sets: ["Eternal Principles", "Gospel", "Faith"]

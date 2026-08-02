@@ -68,8 +68,8 @@ cards:
     back: "Obey the hard commands - today."
   - front: "Bible study Monday, same gossip Tuesday. One move that matches hearing?"
     back: "Do what he said - match hearing."
-  - front: "Faith saved me but hearing feels empty. What proves genuine hearing?"
-    back: "Act - obey one command."
+  - front: "Faith saved me but hearing feels empty. What shows hearing became obedience?"
+    back: "Do one command - rock is hear-and-do, not hear-only."
   - front: "Saved sermons and notes but no obedience showing up. One move I take today?"
     back: "Obey one command Jesus gave."
 draft: false

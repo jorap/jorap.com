@@ -63,7 +63,7 @@ relationships:
     reason: "Mercy spares wrath; grace gives the gift - same rescue"
   - type: extends
     wikilink: "[[Minimum Effective Dose]]"
-    reason: "Faith is the smallest act that still buys eternal life - no merit ladder on top"
+    reason: "Faith receives the free gift - no merit ladder on top"
   - type: extends
     wikilink: "[[Renewed Mind]]"
     reason: "Mind renewal follows gift received - does not buy heaven"
