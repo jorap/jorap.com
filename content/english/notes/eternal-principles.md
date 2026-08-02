@@ -67,7 +67,7 @@ Biography lane - what the Gospels show He did day to day. Hub: [[Jesus' Rhythms]
 ## Salvation and reward
 
 - [[Judgment Seat]] - deny self, take up cross, then Son of Man repays each at the resurrection (Matthew 16:24-27); rewards repaid, not re-deciding eternal life
-- [[Loss of Reward]] - talents parable: unfaithful servant cast out (Matthew 25:14-30); saved through fire with loss (1 Corinthians 3:12-15)
+- [[Loss of Reward]] - talents parable: unfaithful servant faces loss (Matthew 25:14-30); burned work, still saved (1 Corinthians 3:12-15) - not hell for a believer
 - [[Standing vs Fellowship]] - My sheep hear My voice; I give eternal life, none snatch from My hand (John 10:27-30); standing settled at faith, fellowship restored by confession
 - [[Assurance]] - bread of life: whoever comes to Me I will never cast out (John 6:35-40); rest on Christ's promise, not this week's report card
 - [[Grateful Obedience]] - if you love Me, keep My commandments; Father sends the Spirit (John 14:15-17); obey because grace already saved, not to buy the ticket

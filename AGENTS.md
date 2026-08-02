@@ -25,3 +25,4 @@ Skill folders must include `SKILL.md` with `name` matching the directory name an
 - **Filenames:** cross-platform safe paths — `pnpm lint:filenames`.
 - **Git:** do not commit unless the user asks — `.cursor/rules/git-commits.mdc`.
 - **Voice:** blog → `jorap-voice` skill; notes garden → `garden-voice` skill.
+- **Faith / Free Grace:** Anderson-only doctrine + compliance audit for faith notes → `free-grace` skill (pair with garden-voice or jorap-voice for surface only).

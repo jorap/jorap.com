@@ -9,18 +9,18 @@ key_concept: |
   - Love through self-control is one Spirit-grown cluster - not nine separate badges you earn for heaven.
   - I split each fruit into one-claim notes so I can link and drill them like the rest of the garden.
   - [[Walk by the Spirit]] is the daily lane; [[Abide in Me]] is the vine picture John gives - fruit grows from connection, not willpower theater.
-  - Under [[Free Grace]], fruit confirms belonging and answers grace already received - it does not buy the ticket.
+  - Under [[Free Grace]], fruit answers grace already received - it may back up a life given by faith, but it never grounds belonging or assurance.
   - Start at [[Walk by the Spirit]] if you need the engine. Wander the nine fruits below by what you lack today.
 level_1: "Fruits of the Spirit are love through self-control as one Spirit-grown cluster - not nine separate badges you earn for heaven."
 level_2: "Like a fruit basket from one tree - Paul's list grows together on one branch, not nine chores on a merit board."
 level_3: "Open [[Walk by the Spirit]] first, then pick the fruit note that names what you lack this week - drill one claim, not the whole bushel."
-level_4: "Fruit confirms belonging under grace - the cluster is evidence of life already received, not wages that buy eternal life."
+level_4: "Fruit answers grace already received - the cluster may back up a life given by faith, but it never grounds belonging or buys eternal life."
 level_5: "Build a growth practice around one weak fruit - stay connected through [[Abide in Me]], walk by the Spirit, and record the changed response without making it a salvation scorecard."
 shareable_thought:
   - "Love through self-control is one Spirit-grown cluster, not nine separate badges you earn for heaven."
   - "I split each fruit into one-claim notes so I can link and drill them."
   - "Fruit grows from connection, not willpower theater."
-  - "Fruit confirms belonging and answers grace already received - it does not buy the ticket."
+  - "Fruit answers grace already received - it never grounds belonging."
 relationships:
   - type: alternative
     wikilink: "[[By Their Fruits]]"
@@ -36,7 +36,7 @@ relationships:
     reason: "Vine picture behind the cluster - fruit from staying connected"
   - type: extends
     wikilink: "[[Assurance]]"
-    reason: "Spirit fruit confirms belonging - not earns it"
+    reason: "Spirit fruit may back up - it never grounds assurance"
   - type: extends
     wikilink: "[[Christlikeness]]"
     reason: "Galatians cluster is what Christlikeness looks like up close"

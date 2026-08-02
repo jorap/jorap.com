@@ -36,7 +36,7 @@ relationships:
     reason: "Grateful walk is how following shows up daily"
   - type: extends
     wikilink: "[[Faith and Works]]"
-    reason: "Works prove faith alive - motive is gratitude, not wages"
+    reason: "Works answer grace - motive is gratitude, not wages"
   - type: extends
     wikilink: "[[Free Grace]]"
     reason: "Grace saves first; obedience answers with thanks"

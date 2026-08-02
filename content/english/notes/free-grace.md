@@ -42,7 +42,7 @@ relationships:
     reason: "Grace received first - discipleship is response, not entry fee"
   - type: extends
     wikilink: "[[Faith and Works]]"
-    reason: "Works do not buy grace - they prove faith is alive"
+    reason: "Works do not buy grace - they answer faith already received"
   - type: extends
     wikilink: "[[Grace]]"
     reason: "Free grace is grace applied to eternal life by faith alone"

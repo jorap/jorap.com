@@ -33,7 +33,7 @@ relationships:
     reason: "when I hide every good work that should point to God"
   - type: extends
     wikilink: "[[Faith and Works]]"
-    reason: "Good works prove faith alive - motive is thanks not wages"
+    reason: "Good works answer grace - motive is thanks not wages"
   - type: extends
     wikilink: "[[Fruits of the Spirit]]"
     reason: "Galatians names goodness in the Spirit-grown cluster"
