@@ -25,6 +25,12 @@ shareable_thought:
   - "It is whether anyone follows."
   - "Ethical Leadership still applies - what you tolerate becomes their standard even when they are only complying on paper."
 relationships:
+  - type: contradicts
+    wikilink: "[[Law of Influence]]"
+    reason: "Badge without movement - failure mode of the influence law"
+  - type: extends
+    wikilink: "[[21 Laws of Leadership in the Bible]]"
+    reason: "Violation partner for Law of Influence"
   - type: alternative
     wikilink: "[[Influence Without Title]]"
     reason: "Hollow badge vs earned followership - opposite sides of the same test"

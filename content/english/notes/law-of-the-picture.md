@@ -1,10 +1,11 @@
 ---
 title: "Law of the Picture"
 meta_title: "The Law of the Picture - People do what people see"
-description: "People do what people see."
+description: "People copy the walk they watch, not the speech alone."
 key_concept: |
   - People copy what they see - your example is the louder sermon.
   - Hub: [[21 Laws of Leadership in the Bible]] - lesson 13 of twenty-one Bible laws; horizontal frame in [[Leadership]].
+  - When violated: Your mouth teaches what your feet refuse - the team copies the picture, not the slogan. See [[Do As I Say]].
   
   {{< bible ref="2 Kings 23:1-16" >}}
   - **Josiah - A King Like No Other** - Read the Law, then demolished high places. Reform followed what the people saw the king do - people do what people see.
@@ -21,11 +22,14 @@ examples:
   - "Kids mirrored my phone-at-dinner habit before they mirrored my prayer - the picture beat the lecture."
   - "Jesus tied a towel - leadership smelled like a servant's basin."
 shareable_thought:
-  - "People do what people see."
+  - "People copy the walk they watch, not the speech alone."
   - "People copy what they see - your example is the louder sermon."
   - "The law of the picture is that people follow what leaders model in action, not only what they announce."
   - "Josiah tore down idols he read about; Jesus washed feet; Paul said imitate me - the walk out-teaches the speech."
 relationships:
+  - type: contradicts
+    wikilink: "[[Do As I Say]]"
+    reason: "Failure mode when speech and walk disagree"
   - type: contradicts
     wikilink: "[[Discipleship vs Leadership]]"
     reason: "when horizontal technique substitutes for upward allegiance"

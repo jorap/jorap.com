@@ -5,6 +5,7 @@ description: "Leaders add value by serving others."
 key_concept: |
   - Leaders add value by serving - the lot you give away may become the blessing lane.
   - Hub: [[21 Laws of Leadership in the Bible]] - lesson 5 of twenty-one Bible laws; horizontal frame in [[Leadership]].
+  - When violated: You take value from the room instead of adding it - thrones over towels. See [[Leading by Subtraction]].
   
   {{< bible ref="Genesis 13:1-12" >}}
   - **Abram Took the High Road** - Let Lot choose the well-watered plain and trusted God with the leftovers. Serving by giving advantage away added peace - value for Lot, not loss for Abram.
@@ -26,6 +27,9 @@ shareable_thought:
   - "The law of addition is that leaders add value by serving others - giving away advantage can become the blessing lane."
   - "Abram let Lot pick first - generosity added peace, not loss; Jesus redefined greatness as service."
 relationships:
+  - type: contradicts
+    wikilink: "[[Leading by Subtraction]]"
+    reason: "Failure mode when leaders take value instead of adding it"
   - type: contradicts
     wikilink: "[[Discipleship vs Leadership]]"
     reason: "when horizontal technique substitutes for upward allegiance"

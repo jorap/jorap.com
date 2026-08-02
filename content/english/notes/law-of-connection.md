@@ -7,6 +7,7 @@ key_concept: |
   - Know the person before you request the labor.
   - [[Love Your Neighbor]] is the eternal-principles root for honest knowing.
   - Hub: [[21 Laws of Leadership in the Bible]] - lesson 10 of twenty-one Bible laws; horizontal frame in [[Leadership]].
+  - When violated: You ask for a hand before you touch a heart - the ask feels like use, not leadership. See [[Hand Before Heart]].
   
   {{< bible ref="Genesis 32:3-12" >}}
   - **Jacob Prepares to Face Esau** - Gifts and prayer before the reunion. He touched the heart before he asked for peace with his hands.
@@ -28,6 +29,9 @@ shareable_thought:
   - "The law of connection is that hearts move before hands do - know the person before you request the labor."
   - "Jacob sent gifts ahead to Esau - reconciliation before reunion; Paul appealed to Philemon as friend, not commander."
 relationships:
+  - type: contradicts
+    wikilink: "[[Hand Before Heart]]"
+    reason: "Failure mode when the ask lands before care"
   - type: contradicts
     wikilink: "[[Discipleship vs Leadership]]"
     reason: "when horizontal technique substitutes for upward allegiance"

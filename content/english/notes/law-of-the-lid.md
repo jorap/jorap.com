@@ -5,6 +5,7 @@ description: "Leadership ability determines a person's level of effectiveness."
 key_concept: |
   - Your leadership lid caps how much good you can carry - raise the lid or the load stalls.
   - Hub: [[21 Laws of Leadership in the Bible]] - lesson 1 of twenty-one Bible laws; horizontal frame in [[Leadership]].
+  - When violated: The team cannot rise above your ceiling - raise the lid or the load stalls. See [[Low Leadership Lid]].
   
   {{< bible ref="Exodus 32:1-25" >}}
   - **Aaron and Moses** - Aaron caved when Israel demanded a calf; Moses returned and restored order. Same people, different ceiling - the lid is the leader's capacity, not the crowd's potential.
@@ -26,6 +27,9 @@ shareable_thought:
   - "The law of the lid is the ceiling your leadership ability puts on what your team can achieve - you can name the cap."
   - "Like a jar lid too small for the jar, low leadership limits output no matter how big the opportunity grows."
 relationships:
+  - type: contradicts
+    wikilink: "[[Low Leadership Lid]]"
+    reason: "Failure mode when the leader's ceiling caps the people"
   - type: contradicts
     wikilink: "[[Discipleship vs Leadership]]"
     reason: "when horizontal technique substitutes for upward allegiance"

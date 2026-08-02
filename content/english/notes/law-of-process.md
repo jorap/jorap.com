@@ -6,6 +6,7 @@ key_concept: |
   - Leadership compounds in hidden years - you cannot microwave what God grows in the pit.
   - You cannot microwave what God grows in the pit.
   - Hub: [[21 Laws of Leadership in the Bible]] - lesson 3 of twenty-one Bible laws; horizontal frame in [[Leadership]].
+  - When violated: You microwave the title and skip the hidden years - the lid cracks under real load. See [[Skipped Daily Process]].
   
   {{< bible ref="Acts 7:9-19" >}}
   - **The Value of Joseph's Growth as a Leader** - Pit, prison, palace - each season forged skill and trust. Leadership developed across years of hidden work, not one overnight leap.
@@ -27,6 +28,9 @@ shareable_thought:
   - "The law of process is that leadership compounds in hidden years - you cannot microwave what God grows in the pit."
   - "Joseph went slave to prime minister through prisons; Moses spent forty years off-stage before the bush."
 relationships:
+  - type: contradicts
+    wikilink: "[[Skipped Daily Process]]"
+    reason: "Failure mode when urgency skips the hidden years"
   - type: contradicts
     wikilink: "[[Discipleship vs Leadership]]"
     reason: "when horizontal technique substitutes for upward allegiance"

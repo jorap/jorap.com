@@ -5,6 +5,7 @@ description: "The true measure of leadership is influence - nothing more, nothin
 key_concept: |
   - Leadership is influence - title optional, movement required.
   - Hub: [[21 Laws of Leadership in the Bible]] - lesson 2 of twenty-one Bible laws; horizontal frame in [[Leadership]].
+  - When violated: Badge on the door, nobody moves - you are managing paper, not leading. See [[Title Without Influence]].
   
   {{< bible ref="Joshua 2:1-24" >}}
   - **Rahab's Influence** - No title in Jericho, yet her belief moved spies and saved her house. Leadership measured by who moved, not by rank on the wall.
@@ -27,6 +28,9 @@ shareable_thought:
   - "Rahab hid spies because she believed - no crown, real sway; Eli's sons corrupted worship while Samuel rose without a badge."
 relationships:
   - type: contradicts
+    wikilink: "[[Title Without Influence]]"
+    reason: "Eli's sons had office - badge without movement is the failure mode"
+  - type: contradicts
     wikilink: "[[Discipleship vs Leadership]]"
     reason: "when horizontal technique substitutes for upward allegiance"
   - type: extends
@@ -38,9 +42,6 @@ relationships:
   - type: extends
     wikilink: "[[Leadership Is Influence]]"
     reason: "Headline law - Rahab, Samuel, and Paul moved people without a throne"
-  - type: extends
-    wikilink: "[[Title Without Influence]]"
-    reason: "Eli's sons had office - corrupt priests lost moral sway"
 slug: "law-of-influence"
 date: "2026-07-31 14:00:00+08:00"
 image: "/images/note.jpg"

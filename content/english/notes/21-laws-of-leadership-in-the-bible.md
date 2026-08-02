@@ -77,6 +77,32 @@ draft: false
 - [[Law of Explosive Growth]] - To add growth, lead followers - to multiply, lead leaders
 - [[Law of Legacy]] - A leader's lasting value is measured by succession
 
+## When violated
+
+| Law | Cost | Violation partner |
+|-----|------|-------------------|
+| [[Law of the Lid]] | The team cannot rise above your ceiling - raise the lid or the load stalls. | [[Low Leadership Lid]] |
+| [[Law of Influence]] | Badge on the door, nobody moves - you are managing paper, not leading. | [[Title Without Influence]] |
+| [[Law of Process]] | You microwave the title and skip the hidden years - the lid cracks under real load. | [[Skipped Daily Process]] |
+| [[Law of Navigation]] | Energy without a map - the crew rows hard and still wrecks. | [[Steering Without Chart]] |
+| [[Law of Addition]] | You take value from the room instead of adding it - thrones over towels. | [[Leading by Subtraction]] |
+| [[Law of Solid Ground]] | Character cracks sink the room faster than a bad plan - image cannot hold the weight. | [[Trust Already Cracked]] |
+| [[Law of Respect]] | You expect followership from title alone - people follow strength they respect, not volume. | [[Demanding Unearned Respect]] |
+| [[Law of Intuition]] | You read only tasks and miss people, risk, and timing - the room pays for your blind spot. | [[Blind Leadership Calls]] |
+| [[Law of Magnetism]] | You keep attracting the same rot - the magnet is your character, not bad luck. | [[Toxic Magnet Pull]] |
+| [[Law of Connection]] | You ask for a hand before you touch a heart - the ask feels like use, not leadership. | [[Hand Before Heart]] |
+| [[Law of Inner Circle]] | Your closest voices only cheer - potential dies in the room that never tells hard truth. | [[Weak Inner Circle]] |
+| [[Law of Empowerment]] | You keep every decision - the one-man band burns out and nobody else grows. | [[Hoarding All Power]] |
+| [[Law of the Picture]] | Your mouth teaches what your feet refuse - the team copies the picture, not the slogan. | [[Do As I Say]] |
+| [[Law of Buy-In]] | You push the vision before they trust you - people buy the leader first, then the plan. | [[Vision Without Trust]] |
+| [[Law of Victory]] | You accept defeat early and the loss becomes culture. | [[Settling for Loss]] |
+| [[Law of Big Mo]] | You push harder after Mo dies - effort multiplies friction instead of progress. | [[Fighting Dead Momentum]] |
+| [[Law of Priorities]] | Busy hands replace numbered priorities - activity masquerades as accomplishment. | [[Activity Without Accomplishment]] |
+| [[Law of Sacrifice]] | You want to go up without giving up - the toll booth stops leaders who refuse the price. | [[Climb Without Cost]] |
+| [[Law of Timing]] | The action was right and the clock was wrong - timing turns success into loss. | [[Right Move Wrong Time]] |
+| [[Law of Explosive Growth]] | You only make followers - addition grows slowly and dies when you leave the room. | [[Followers Without Leaders]] |
+| [[Law of Legacy]] | Nobody can carry the work after you - lasting value was never transferred. | [[No Successor Left]] |
+
 ## Cross-links (faith and work)
 
 | Bible law | Garden partner | Link |

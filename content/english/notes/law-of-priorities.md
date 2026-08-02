@@ -6,6 +6,7 @@ key_concept: |
   - Busy is not fruitful - leaders sort what matters from what merely moves.
   - Leaders sort what matters from what merely moves.
   - Hub: [[21 Laws of Leadership in the Bible]] - lesson 17 of twenty-one Bible laws; horizontal frame in [[Leadership]].
+  - When violated: Busy hands replace numbered priorities - activity masquerades as accomplishment. See [[Activity Without Accomplishment]].
   
   {{< bible ref="Matthew 15:1-20" >}}
   - **What Comes First?** - Tradition vs heart - what defiles comes from inside, not unwashed hands. Activity of washing is not accomplishment of a clean heart.
@@ -27,6 +28,9 @@ shareable_thought:
   - "The law of priorities is that activity is not accomplishment - leaders sort what matters from what merely moves."
   - "Mary chose the good portion; Martha hustled plates; apostles appointed servers so word ministry stayed central."
 relationships:
+  - type: contradicts
+    wikilink: "[[Activity Without Accomplishment]]"
+    reason: "Failure mode when busy motion replaces numbered priorities"
   - type: contradicts
     wikilink: "[[Discipleship vs Leadership]]"
     reason: "when horizontal technique substitutes for upward allegiance"

@@ -6,6 +6,7 @@ key_concept: |
   - Trust is the foundation - character cracks sink leadership faster than bad strategy.
   - Character cracks sink leadership faster than bad strategy.
   - Hub: [[21 Laws of Leadership in the Bible]] - lesson 6 of twenty-one Bible laws; horizontal frame in [[Leadership]].
+  - When violated: Character cracks sink the room faster than a bad plan - image cannot hold the weight. See [[Trust Already Cracked]].
   
   {{< bible ref="Proverbs 16:8-18" >}}
   - **The Wisdom of King Solomon** - Better little with righteousness than great gain with injustice; pride precedes ruin. Trust sits on character ground, not on image or haul.
@@ -27,6 +28,9 @@ shareable_thought:
   - "The law of solid ground is that trust is the foundation - character cracks sink leadership faster than bad strategy."
   - "Solomon warned pride goes before a fall; Jesus exposed whitewashed tombs."
 relationships:
+  - type: contradicts
+    wikilink: "[[Trust Already Cracked]]"
+    reason: "Failure mode when character cracks under the stage polish"
   - type: contradicts
     wikilink: "[[Discipleship vs Leadership]]"
     reason: "when horizontal technique substitutes for upward allegiance"

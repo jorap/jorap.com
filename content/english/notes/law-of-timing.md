@@ -5,6 +5,7 @@ description: "When to lead is as important as what to do and where to go."
 key_concept: |
   - Right move, wrong clock, fails - timing is half of leadership.
   - Hub: [[21 Laws of Leadership in the Bible]] - lesson 19 of twenty-one Bible laws; horizontal frame in [[Leadership]].
+  - When violated: The action was right and the clock was wrong - timing turns success into loss. See [[Right Move Wrong Time]].
   
   {{< bible ref="1 Samuel 13:5-14" >}}
   - **Saul's Bad Decision** - Offered the burnt offering before Samuel arrived. Right act, wrong hour - impatience tore the kingdom; when to lead mattered as much as what to do.
@@ -26,6 +27,9 @@ shareable_thought:
   - "The law of timing is that the same action succeeds or fails depending on when you take it."
   - "Saul offered sacrifice early and lost the kingdom; Esther waited for the scepter; Jesus avoided Judea until His hour came."
 relationships:
+  - type: contradicts
+    wikilink: "[[Right Move Wrong Time]]"
+    reason: "Failure mode when correct action hits the wrong clock"
   - type: contradicts
     wikilink: "[[Discipleship vs Leadership]]"
     reason: "when horizontal technique substitutes for upward allegiance"

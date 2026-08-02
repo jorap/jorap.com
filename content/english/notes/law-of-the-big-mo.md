@@ -6,6 +6,7 @@ key_concept: |
   - Momentum multiplies effort - leaders protect it and grieve when it leaks.
   - Leaders protect momentum and grieve when it leaks.
   - Hub: [[21 Laws of Leadership in the Bible]] - lesson 16 of twenty-one Bible laws; horizontal frame in [[Leadership]].
+  - When violated: You push harder after Mo dies - effort multiplies friction instead of progress. See [[Fighting Dead Momentum]].
   
   {{< bible ref="Deuteronomy 2:24-37" >}}
   - **Early Victories** - Sihon and Og fell in sequence. Obedience fed momentum that carried the next fight - wins stack when you keep moving.
@@ -27,6 +28,9 @@ shareable_thought:
   - "The law of the big Mo is that momentum multiplies effort - leaders protect it and grieve when it leaks."
   - "Israel's early conquests stacked wins; Elisha mourned half-hearted arrow strikes; Pentecost turned thousands in a day."
 relationships:
+  - type: contradicts
+    wikilink: "[[Fighting Dead Momentum]]"
+    reason: "Failure mode when effort fights a dead flywheel"
   - type: contradicts
     wikilink: "[[Discipleship vs Leadership]]"
     reason: "when horizontal technique substitutes for upward allegiance"

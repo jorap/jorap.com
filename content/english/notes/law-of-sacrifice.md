@@ -1,11 +1,12 @@
 ---
 title: "Law of Sacrifice"
 meta_title: "The Law of Sacrifice - A leader must give up to go up"
-description: "A leader must give up to go up."
+description: "A leader pays a personal toll to rise in influence."
 key_concept: |
   - Leaders give up to go up - sacrifice is the toll on the higher road.
   - Sacrifice is the toll on the higher road.
   - Hub: [[21 Laws of Leadership in the Bible]] - lesson 18 of twenty-one Bible laws; horizontal frame in [[Leadership]].
+  - When violated: You want to go up without giving up - the toll booth stops leaders who refuse the price. See [[Climb Without Cost]].
   
   {{< bible ref="Numbers 6:1-21" >}}
   - **Choosing to Be Set Apart** - Nazirite separation surrendered hair, wine, and dead-body contact. Set apart means giving up comforts to go up in devotion - a leader must give up to go up.
@@ -22,11 +23,14 @@ examples:
   - "I gave up Saturday golf for two years of seminary nights - the up required a down payment."
   - "Paul refused support he could claim - sacrifice bought hearing for the gospel."
 shareable_thought:
-  - "A leader must give up to go up."
+  - "A leader pays a personal toll to rise in influence."
   - "Name one comfort you will lay down this month so the team can advance."
   - "The law of sacrifice is that leaders give up to go up - sacrifice is the toll on the higher road."
   - "Nazirite vow set apart hair, wine, and comfort; Paul waived rights so gospel would spread."
 relationships:
+  - type: contradicts
+    wikilink: "[[Climb Without Cost]]"
+    reason: "Failure mode when leaders want up without giving up"
   - type: contradicts
     wikilink: "[[Discipleship vs Leadership]]"
     reason: "when horizontal technique substitutes for upward allegiance"

@@ -6,6 +6,7 @@ key_concept: |
   - People follow strength they respect - weakness invites drift or contempt.
   - Weakness invites drift or contempt.
   - Hub: [[21 Laws of Leadership in the Bible]] - lesson 7 of twenty-one Bible laws; horizontal frame in [[Leadership]].
+  - When violated: You expect followership from title alone - people follow strength they respect, not volume. See [[Demanding Unearned Respect]].
   
   {{< bible ref="Judges 4:1-16" >}}
   - **A Leader's Respect** - Barak would not move without Deborah. People followed the stronger leader into a coward's war - respect tracked strength, not the org chart.
@@ -27,6 +28,9 @@ shareable_thought:
   - "The law of respect is that people follow strength they respect - weakness invites drift or contempt."
   - "Deborah called Barak and he would not go without her; Jonathan pledged loyalty to David."
 relationships:
+  - type: contradicts
+    wikilink: "[[Demanding Unearned Respect]]"
+    reason: "Failure mode when rank demands what strength never earned"
   - type: contradicts
     wikilink: "[[Discipleship vs Leadership]]"
     reason: "when horizontal technique substitutes for upward allegiance"

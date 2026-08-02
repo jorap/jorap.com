@@ -5,6 +5,7 @@ description: "Leaders find a way for the team to win."
 key_concept: |
   - Leaders find a way - sometimes at brutal cost, sometimes by creative faith.
   - Hub: [[21 Laws of Leadership in the Bible]] - lesson 15 of twenty-one Bible laws; horizontal frame in [[Leadership]].
+  - When violated: You accept defeat early and the loss becomes culture. See [[Settling for Loss]].
   
   {{< bible ref="Judges 16:1, 16:15-31" >}}
   - **Victory at a Cost** - Blinded Samson pushed the pillars. He found a way for the people to win at the cost of everything he had left - leaders hunt a path to the win.
@@ -26,6 +27,9 @@ shareable_thought:
   - "The law of victory is that leaders accept responsibility for finding a path to win for the team."
   - "Samson's death toppled Philistines; Jonathan's climb sparked a rout; four friends tore a roof for healing."
 relationships:
+  - type: contradicts
+    wikilink: "[[Settling for Loss]]"
+    reason: "Failure mode when leaders stop hunting a path to win"
   - type: contradicts
     wikilink: "[[Discipleship vs Leadership]]"
     reason: "when horizontal technique substitutes for upward allegiance"

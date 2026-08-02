@@ -5,6 +5,7 @@ description: "People buy into the leader, then the vision."
 key_concept: |
   - People buy the leader before the vision - trust the guide, then the map.
   - Hub: [[21 Laws of Leadership in the Bible]] - lesson 14 of twenty-one Bible laws; horizontal frame in [[Leadership]].
+  - When violated: You push the vision before they trust you - people buy the leader first, then the plan. See [[Vision Without Trust]].
   
   {{< bible ref="Judges 7:2-25" >}}
   - **A Test of Leadership Buy-In** - Three hundred followed Gideon's odd battle plan. They bought the leader before the trumpet strategy made sense - people buy the person, then the vision.
@@ -26,6 +27,9 @@ shareable_thought:
   - "The law of buy-in is that people trust the leader before the vision - buy the guide, then the map."
   - "Gideon's trimmed army followed his jar-and-torch plan - buy-in to him, then the tactic."
 relationships:
+  - type: contradicts
+    wikilink: "[[Vision Without Trust]]"
+    reason: "Failure mode when vision outruns trust in the leader"
   - type: contradicts
     wikilink: "[[Discipleship vs Leadership]]"
     reason: "when horizontal technique substitutes for upward allegiance"

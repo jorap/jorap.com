@@ -1,10 +1,11 @@
 ---
 title: "Law of Explosive Growth"
 meta_title: "The Law of Explosive Growth - To add growth, lead followers - to multiply, lead leaders"
-description: "To add growth, lead followers - to multiply, lead leaders."
+description: "To grow by addition, raise followers - to multiply, raise leaders."
 key_concept: |
   - Addition adds bodies; multiplication adds leaders who spawn leaders.
   - Hub: [[21 Laws of Leadership in the Bible]] - lesson 20 of twenty-one Bible laws; horizontal frame in [[Leadership]].
+  - When violated: You only make followers - addition grows slowly and dies when you leave the room. See [[Followers Without Leaders]].
   
   {{< bible ref="Exodus 35:30-35" >}}
   - **Leading an Army of Craftsmen** - Spirit-filled artisans taught others; the sanctuary rose by multiplying skilled people. To add, lead followers; to multiply, lead leaders who teach.
@@ -21,11 +22,14 @@ examples:
   - "I mentored two leads who each mentored two more - growth exploded when I stopped being the only teacher."
   - "Paul left Titus to appoint elders - multiplication beat one-man planting."
 shareable_thought:
-  - "To add growth, lead followers - to multiply, lead leaders."
+  - "To grow by addition, raise followers - to multiply, raise leaders."
   - "Addition adds bodies; multiplication adds leaders who spawn leaders."
   - "The law of explosive growth is that addition adds bodies but multiplication adds leaders who spawn leaders."
   - "Bezalel trained craftsmen who built the tabernacle; Jesus sent seventy with authority."
 relationships:
+  - type: contradicts
+    wikilink: "[[Followers Without Leaders]]"
+    reason: "Failure mode when growth adds followers but not leaders"
   - type: contradicts
     wikilink: "[[Discipleship vs Leadership]]"
     reason: "when horizontal technique substitutes for upward allegiance"

@@ -6,6 +6,7 @@ key_concept: |
   - You attract who you are - character is a magnet, for mighty men or for Ahab's evil.
   - Character is a magnet - for mighty men or for Ahab's evil.
   - Hub: [[21 Laws of Leadership in the Bible]] - lesson 9 of twenty-one Bible laws; horizontal frame in [[Leadership]].
+  - When violated: You keep attracting the same rot - the magnet is your character, not bad luck. See [[Toxic Magnet Pull]].
   
   {{< bible ref="Numbers 27:15-23" >}}
   - **Joshua Succeeds Moses** - Young aide in the tent became national leader. Faithfulness attracted the succession call - who he was drew the role he received.
@@ -27,6 +28,9 @@ shareable_thought:
   - "The law of magnetism is that you attract who you are - character is a magnet for mighty men or for Ahab's evil."
   - "Joshua stayed in Moses' tent; David drew warriors; Jezebel and Ahab collected schemers - like attracts like over years."
 relationships:
+  - type: contradicts
+    wikilink: "[[Toxic Magnet Pull]]"
+    reason: "Failure mode when character attracts matching rot"
   - type: contradicts
     wikilink: "[[Discipleship vs Leadership]]"
     reason: "when horizontal technique substitutes for upward allegiance"

@@ -7,6 +7,7 @@ key_concept: |
   - Who moves, what breaks, what window opens - the leadership lens.
   - Solomon judged the two mothers by reading what the room would not say aloud - pattern recognition under pressure, not mysticism.
   - Hub: [[21 Laws of Leadership in the Bible]] - lesson 8 of twenty-one Bible laws; horizontal frame in [[Leadership]].
+  - When violated: You read only tasks and miss people, risk, and timing - the room pays for your blind spot. See [[Blind Leadership Calls]].
   
   {{< bible ref="1 Samuel 25:2-35" >}}
   - **A Leader with Intuition Saves Lives** - Abigail intercepted David's anger before blood. Leadership bias saw the disaster coming and moved while others still slept.
@@ -28,6 +29,9 @@ shareable_thought:
   - "The law of intuition is that leaders read situations with a leadership lens - who moves, what breaks, what window opens."
   - "Abigail stopped David's rash revenge - she read the room before blood spilled."
 relationships:
+  - type: contradicts
+    wikilink: "[[Blind Leadership Calls]]"
+    reason: "Failure mode when leaders evaluate without a leadership lens"
   - type: contradicts
     wikilink: "[[Discipleship vs Leadership]]"
     reason: "when horizontal technique substitutes for upward allegiance"

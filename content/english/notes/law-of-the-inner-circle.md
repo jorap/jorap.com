@@ -6,6 +6,7 @@ key_concept: |
   - Your inner circle sets your ceiling - pick counselors who tell the truth.
   - Pick counselors who tell the truth.
   - Hub: [[21 Laws of Leadership in the Bible]] - lesson 11 of twenty-one Bible laws; horizontal frame in [[Leadership]].
+  - When violated: Your closest voices only cheer - potential dies in the room that never tells hard truth. See [[Weak Inner Circle]].
   
   {{< bible ref="Genesis 24:1-27" >}}
   - **Abraham's Trusted Servant** - Sent to find Isaac's bride. The patriarch's potential rode on who was closest and trusted - inner circle extended the mission.
@@ -27,6 +28,9 @@ shareable_thought:
   - "The law of the inner circle is that a leader's potential is determined by those closest - pick counselors who tell the truth."
   - "Abraham's servant swore an oath with integrity; Hushai outwitted Ahithophel; Nathan confronted David when sin hardened."
 relationships:
+  - type: contradicts
+    wikilink: "[[Weak Inner Circle]]"
+    reason: "Failure mode when closest voices only cheer"
   - type: contradicts
     wikilink: "[[Discipleship vs Leadership]]"
     reason: "when horizontal technique substitutes for upward allegiance"

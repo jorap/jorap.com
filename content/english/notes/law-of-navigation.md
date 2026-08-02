@@ -6,6 +6,7 @@ key_concept: |
   - Steering is not leading - someone has to chart the course before the crew rows.
   - Steering is not leading - chart before the crew rows.
   - Hub: [[21 Laws of Leadership in the Bible]] - lesson 4 of twenty-one Bible laws; horizontal frame in [[Leadership]].
+  - When violated: Energy without a map - the crew rows hard and still wrecks. See [[Steering Without Chart]].
   
   {{< bible ref="Joshua 8:1-19" >}}
   - **Joshua's Plan of Attack** - After defeat at Ai, the second attempt followed an ambush plan. Anyone can charge; a leader charts the course before the next fight.
@@ -27,6 +28,9 @@ shareable_thought:
   - "The law of navigation is that steering is not leading - someone has to chart the course before the crew rows."
   - "Joshua laid an ambush plan before Ai; Nehemiah paired rebuild with weapons."
 relationships:
+  - type: contradicts
+    wikilink: "[[Steering Without Chart]]"
+    reason: "Failure mode when motion replaces a charted course"
   - type: contradicts
     wikilink: "[[Discipleship vs Leadership]]"
     reason: "when horizontal technique substitutes for upward allegiance"

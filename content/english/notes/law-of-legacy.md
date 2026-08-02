@@ -6,6 +6,7 @@ key_concept: |
   - Legacy is who carries the work after you - succession is the final exam.
   - Succession is the final exam.
   - Hub: [[21 Laws of Leadership in the Bible]] - lesson 21 of twenty-one Bible laws; horizontal frame in [[Leadership]].
+  - When violated: Nobody can carry the work after you - lasting value was never transferred. See [[No Successor Left]].
   
   {{< bible ref="1 Kings 2:1-4" >}}
   - **David Establishes Solomon as His Successor** - Public coronation and deathbed charge. Lasting value measured by who sits next - succession secured the kingdom after the last win.
@@ -27,6 +28,9 @@ shareable_thought:
   - "The law of legacy is that lasting value is measured by who carries the work after you - succession is the final exam."
   - "David charged Solomon to walk in God's ways; Elijah threw his mantle on Elisha; Jesus chose twelve and sent them to all nations."
 relationships:
+  - type: contradicts
+    wikilink: "[[No Successor Left]]"
+    reason: "Failure mode when nobody carries the work after you"
   - type: contradicts
     wikilink: "[[Discipleship vs Leadership]]"
     reason: "when horizontal technique substitutes for upward allegiance"

@@ -6,6 +6,7 @@ key_concept: |
   - Secure leaders delegate - insecure leaders hoard decisions until they break.
   - Insecure leaders hoard decisions until they break.
   - Hub: [[21 Laws of Leadership in the Bible]] - lesson 12 of twenty-one Bible laws; horizontal frame in [[Leadership]].
+  - When violated: You keep every decision - the one-man band burns out and nobody else grows. See [[Hoarding All Power]].
   
   {{< bible ref="Exodus 18:13-26" >}}
   - **Moses the One-Man Band** - Jethro said share the load or wear out leader and people. Secure leadership multiplies judges instead of hoarding the seat.
@@ -27,6 +28,9 @@ shareable_thought:
   - "The law of empowerment is that secure leaders delegate - insecure leaders hoard decisions until they break."
   - "Jethro told Moses to appoint judges - one-man band was unsustainable; Jesus sent twelve with authority and warned of cost."
 relationships:
+  - type: contradicts
+    wikilink: "[[Hoarding All Power]]"
+    reason: "Failure mode when insecure leaders keep every decision"
   - type: contradicts
     wikilink: "[[Discipleship vs Leadership]]"
     reason: "when horizontal technique substitutes for upward allegiance"
