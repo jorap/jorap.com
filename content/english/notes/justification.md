@@ -12,11 +12,8 @@ key_concept: |
   {{< bible ref="Romans 5:1-2" emphasize="1" >}}
   - Justified by faith, peace with God - the case closed at trust, not at perfect obedience.
   - [[Free Grace]] names the gift; justification names the legal move: guilty sinner, faith in Christ, declared not guilty - Christ's record credited to me.
-  - Same shape as [[Minimum Effective Dose]]: one sufficient act at the start, not a lifetime of merit stacked before God says yes.
   - [[Standing vs Fellowship]] keeps the verdict separate from daily closeness - confession restores fellowship, it does not re-buy heaven.
-  - [[Sanctification]] is what comes after - becoming holy over time.
-  - [[Eternal Rewards]] is what the Father pays faithful living after.
-  - None of those three re-open the case justification closed.
+  - [[Sanctification]] and [[Eternal Rewards]] come after - becoming holy over time, repayment for faithful living - neither re-opens the case.
 level_1: "Justification is God's declarative verdict that the believer is right with Him - received by faith, not earned by religious performance."
 level_2: "God declared the humble tax collector right with Him - the proud man who listed his deeds did not go home justified, like empty hands versus a trophy speech."
 level_3: "When guilt says you need one more good week before you are right with God - the case closed at trust, not at perfect obedience."
@@ -26,10 +23,10 @@ examples:
   - "My kid asked if God likes him yet - I said God already declared him righteous the moment he trusted Christ, not when his room got clean."
   - "I snapped at the cashier and felt like I was back on probation with God - justification means my standing was settled at faith; confession restores fellowship, it does not re-buy heaven."
 shareable_thought:
-  - "God declares the believer righteous at faith."
-  - "Before obedience catches up."
-  - "The tax collector went home justified."
-  - "Humility before God, not self-promotion, is what Jesus commended."
+  - "God declares the believer righteous at faith - before obedience catches up."
+  - "Justified as a gift by grace, Christ's redemption, not my performance."
+  - "Faith credited as righteousness for the one who believes, not the one who works the room."
+  - "The case closed at trust, not at perfect obedience."
 relationships:
   - type: contradicts
     wikilink: "[[Compounding]]"

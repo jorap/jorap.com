@@ -1,14 +1,16 @@
 ---
 title: "Grace"
-meta_title: "Grace - Unmerited Favor from God"
+meta_title: "Grace - Gift Never Earned"
 description: "Grace is gift never earned - salvation first, then the walk after - not wages that could be stacked."
 key_concept: |
   {{< bible ref="John 3:16-18" emphasize="16" >}}
   - God did not wait for me to earn it - He gave His Son so belief, not merit, decides where I spend forever.
+  {{< bible ref="Ephesians 2:8-10" emphasize="8" >}}
+  - Saved by grace through faith - gift not wages; good works come after the gift.
+  - Free means no strings on the front (wages) and no strings on the back (bribe) - [[Free Grace]] applies that to eternal life.
   - [[Mercy]] withholds what I deserve; grace gives what I could not earn.
-  {{< bible ref="Ephesians 2:1-5" emphasize="5" >}}
-  - Paul names the same rescue from the dead side - alive with Christ by grace, not wages I stacked.
-  - [[Free Grace]] is grace applied to eternal life: Christ paid what I could not; I receive by faith, not wages.
+  - [[Justification]] is the verdict at faith; [[Standing vs Fellowship]] keeps standing settled while closeness rises and falls; [[Assurance]] rests on the promise - fruit may back up, never grounds belonging.
+  - [[Sanctification]] and [[Grateful Obedience]] are the thank-you walk after - not a second purchase of heaven.
 level_1: "Grace is God's unearned gift of salvation through belief in Christ - merit never earned the ticket."
 level_2: "Like a prize you never earned by being best - belief, not a scoreboard of good deeds, decides eternal life."
 level_3: "Receive eternal life by trusting Christ's promise - not by climbing a moral ladder you could never finish."
@@ -16,12 +18,12 @@ level_4: "God gave His Son so belief decides eternal life - unbelief is the only
 level_5: "Build a clear gospel explanation that separates Christ's free gift of eternal life from the grateful walk and good works that follow it."
 examples:
   - "A teammate listed every good deed this month like it was his ticket to heaven - grace is the gift through faith, not the report card from the season."
-  - "Romans 4:4-5 in my head but guilt still treats every bad week like a revoked passport - grace settled standing; the walk is a different category."
+  - "I know grace settled standing, but guilt still treats every bad week like a revoked passport - the walk is a different category."
 shareable_thought:
-  - "Grace is gift never earned."
-  - "Salvation first, then the walk after - not wages that could be stacked."
+  - "Grace is gift never earned - salvation first, then the walk after - not wages that could be stacked."
   - "God did not wait for me to earn it."
   - "He gave His Son so belief, not merit, decides where I spend forever."
+  - "Free means no strings on the front (wages) and no strings on the back (bribe)."
 relationships:
   - type: contradicts
     wikilink: "[[Compounding]]"

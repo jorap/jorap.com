@@ -4,26 +4,27 @@ meta_title: "Free Grace - Salvation by Faith Alone"
 description: "Eternal life is Christ's gift received by faith alone, not wages for commandments, principles, or good works."
 key_concept: |
   {{< bible ref="John 5:24-29" emphasize="24" >}}
-  
+
   - Hear Christ's word and believe - you have crossed from death to life; judgment is not hanging over your head.
-  - Grace is a gift never earned - Christ paid what could not be paid.
-  - Paul says the same gift out loud - saved by grace through faith, not your works, so nobody brags their way in.
-  - Faith credited as righteousness - trust, not a merit report card, is what God counts.
-  - Good works come after the gift - created in Christ for them, not to buy the ticket.
-  - [[Justification]] is free and finished at faith; [[Sanctification]], [[Discipleship]], and forgiveness toward others belong to the walk after.
+  {{< bible ref="Ephesians 2:8-10" emphasize="8" >}}
+  - Grace through faith - gift never earned; good works come after the gift, not to buy the ticket.
+  - Free means no strings on the front (wages) and no strings on the back (bribe) - faith is trust in Christ's promise, not surrender as the entry fee.
+  - [[Justification]] finishes at faith; [[Standing vs Fellowship]] keeps the verdict separate from daily closeness; [[Assurance]] rests on the promise - fruit may back up a claim, never grounds belonging.
+  - [[Sanctification]], [[Discipleship]], and [[Grateful Obedience]] are the thank-you life; [[Eternal Rewards]] and the [[Judgment Seat]] weigh works; [[Loss of Reward]] never undoes eternal life.
+  - [[Repent and Believe]] places turn-from-sin with fellowship; cheap grace is a smear - sin still brings discipline, broken fellowship, and loss of reward.
 level_1: "Free grace means eternal life by hearing Christ's word and believing - salvation is gift, not wages for performance."
-level_2: "Like a ticket already bought - belief crosses from death to life now, not after you perform enough to deserve the seat."
+level_2: "Like a ticket already bought - belief crosses from death to life now, with no front-end wages and no back-end bribe."
 level_3: "Rest on the promise today when the week was ugly - assurance is not a scorecard; works belong to the walk after."
-level_4: "Good works follow grace - they do not purchase the ticket or replace assurance with performance anxiety."
-level_5: "Build a plain teaching map that keeps [[Justification]] free, places [[Sanctification]] and [[Discipleship]] after the gift, and grounds [[Assurance]] in Christ's promise."
+level_4: "Good works answer grace - they may back up a claim, never purchase the ticket or ground assurance by performance anxiety."
+level_5: "Build a plain teaching map that keeps [[Justification]] free, places [[Sanctification]] and [[Discipleship]] after the gift, grounds [[Assurance]] in Christ's promise, and keeps [[Eternal Rewards]] off the destiny ledger."
 examples:
   - "A teammate listed every good deed this month like it was his ticket to heaven - I trust Christ's promise for eternal life, not my report card from the season."
   - "My kid thinks he has to be extra good the week before his birthday to deserve presents - grace does not work that way with God either; the gift is already decided before the behavior."
 shareable_thought:
   - "Eternal life is Christ's gift received by faith alone, not wages for commandments, principles, or good works."
-  - "Hear Christ's word and believe."
-  - "You have crossed from death to life; judgment is not hanging over your head."
-  - "Grace is a gift never earned."
+  - "Hear Christ's word and believe - you have crossed from death to life."
+  - "Free means no strings on the front (wages) and no strings on the back (bribe)."
+  - "Fruit may back up a claim, never grounds belonging."
 relationships:
   - type: contradicts
     wikilink: "[[Compounding]]"
@@ -42,7 +43,7 @@ relationships:
     reason: "Grace received first - discipleship is response, not entry fee"
   - type: extends
     wikilink: "[[Faith and Works]]"
-    reason: "Works do not buy grace - they answer faith already received"
+    reason: "Works answer grace already received - they may back up, never buy heaven"
   - type: extends
     wikilink: "[[Grace]]"
     reason: "Free grace is grace applied to eternal life by faith alone"
@@ -52,6 +53,9 @@ relationships:
   - type: extends
     wikilink: "[[Joy]]"
     reason: "Joy follows grace received - not wages that buy heaven"
+  - type: extends
+    wikilink: "[[Judgment Seat]]"
+    reason: "Works weighed for reward - destiny already settled at faith"
   - type: extends
     wikilink: "[[Justification]]"
     reason: "Grace is the gift; justification is God declaring you righteous when you receive it"
@@ -67,6 +71,9 @@ relationships:
   - type: extends
     wikilink: "[[Renewed Mind]]"
     reason: "Mind renewal follows gift received - does not buy heaven"
+  - type: extends
+    wikilink: "[[Repent and Believe]]"
+    reason: "Faith receives eternal life; turn-from-sin belongs with fellowship and walk"
   - type: extends
     wikilink: "[[Sanctification]]"
     reason: "Holiness follows justification - not the price of it"
@@ -86,19 +93,19 @@ card_sets: ["Eternal Principles", "Gospel", "Faith"]
 cards:
   - front: "Friend at coffee lists good deeds as their heaven ticket. What do I trust for eternal life?"
     back: "Christ's promise - grace through faith."
-  - front: "Good week makes me feel qualified for heaven. Correct the order in my head - what saves, what follows?"
+  - front: "Good week makes me feel qualified for heaven. Correct the order - what saves, what follows?"
     back: "Faith saves first. Obedience follows."
-  - front: "Head says I must perform before God accepts me. Turn from that - what's the entry point?"
+  - front: "Head says I must perform before God accepts me. Entry point?"
     back: "Trust Christ - not my performance."
   - front: "Tempted to list my works when someone asks how to be saved. Lead with what?"
     back: "Grace through faith in Christ."
-  - front: "Someone says they earned God's favor by trying hard. One sentence I'd say back?"
-    back: "Free gift - Christ paid what I couldn't."
+  - front: "A kid behaving extra well right before his birthday, hoping to earn the presents. What's true about the gift?"
+    back: "Already decided - not earned by behavior."
+  - front: "Ugly week and panic that fruit proves I never belonged. What grounds assurance?"
+    back: "Christ's promise - fruit may back up, never grounds."
+  - front: "Friend says Free Grace means sin freely with no cost. What's still true?"
+    back: "Destiny settled - discipline, fellowship, reward still real."
   - front: "Obedience after conversion - what's driving it?"
     back: "Live gratefully - grace already saved."
-  - front: "A kid behaving extra well right before his birthday, hoping to earn the presents. What's actually true about the gift?"
-    back: "Already decided - not earned by behavior."
-  - front: "Neighbor says he's earned God's favor by volunteering every weekend. What's true?"
-    back: "Gift through faith - not volunteer hours."
 draft: false
 ---

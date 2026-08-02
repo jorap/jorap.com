@@ -4,27 +4,25 @@ meta_title: "Assurance - Rest on Christ's Promise, Not This Week"
 description: "Assurance is resting on Christ's finished work when doubt hits - not the week's obedience score."
 key_concept: |
   {{< bible ref="John 6:35-40" emphasize="37" >}}
-  
+
   - Believe and you have eternal life - rest on that promise when the week was ugly, not on your scorecard.
   - [[Free Grace]] names the gift; [[Justification]] names the verdict; assurance names where I rest when doubt hits.
+  - Primary ground is God's promise - fruit may back up a claim; it never grounds belonging, or tomorrow's fall would erase today's "proof."
   - Bad weeks, hidden sin, dread at the [[Judgment Seat]] - none of those re-open the case [[Justification]] closed.
-  - [[Loss of Reward]] keeps reward-loss separate: I can stumble, lose reward, and still belong to Christ.
-  - [[Childlike Faith]] receives the promise like a child - stop re-negotiating merit every Monday.
-  - [[Standing vs Fellowship]] keeps the categories straight: closeness breaks, standing stays.
-  - PKM mirror: [[Minimum Effective Dose]] - faith is the sufficient act; assurance rests on that, not a lifetime merit stack.
+  - [[Loss of Reward]] keeps reward-loss separate; [[Standing vs Fellowship]] keeps closeness separate from standing; [[Childlike Faith]] receives the promise without re-negotiating merit every Monday.
 level_1: "Assurance is resting on Christ's promise of eternal life - not on this week's performance scorecard."
 level_2: "Like trusting you are still loved after a bad report card - rest on the word, not the week's tally."
 level_3: "When dread hits on Monday, return to the promise you believed at faith - bad weeks do not re-open [[Justification]]."
-level_4: "Assurance separates standing from fellowship and salvation from reward - hidden sin can damage closeness and cost reward without revoking belonging."
+level_4: "Assurance separates standing from fellowship and salvation from reward - fruit may back up; it never grounds belonging."
 level_5: "Write a doubt response that returns to Christ's promise, names any broken fellowship honestly, and chooses the next faithful step without reopening salvation."
 examples:
   - "Bad week and dread God changed His mind - assurance rests on Christ's promise, not my obedience streak."
   - "I pictured the judgment seat and panicked like heaven might get revoked - salvation settled at faith; works get reviewed for reward after."
 shareable_thought:
   - "Assurance is resting on Christ's finished work when doubt hits - not the week's obedience score."
-  - "Believe and you have eternal life."
-  - "Rest on that promise when the week was ugly, not on your scorecard."
-  - "Bad weeks, hidden sin, dread at the Judgment Seat."
+  - "Believe and you have eternal life - rest on that promise when the week was ugly."
+  - "Primary ground is God's promise - fruit may back up a claim; it never grounds belonging."
+  - "Bad weeks, hidden sin, dread at the Judgment Seat - none of those re-open Justification."
 relationships:
   - type: alternative
     wikilink: "[[Minimum Effective Dose]]"

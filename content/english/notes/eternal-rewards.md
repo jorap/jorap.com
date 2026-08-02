@@ -4,17 +4,11 @@ meta_title: "Eternal Rewards - Faithfulness Repaid After Salvation"
 description: "Jesus promised believers the Father will repay faithful obedience after salvation, not as the price of eternal life."
 key_concept: |
   {{< bible ref="Matthew 6:1-4" emphasize="4" >}}
-  
+
   - Father who sees in secret repays - hidden devotion counted, not applause theater.
-  - Secret fasting gets the same promise - Father who sees in secret rewards, not the crowd's applause.
   - Son of Man repays deeds at His return - reward review for the saved life, not the price of eternal life.
-  - Well done for faithful use - gift first, repayment for faithfulness second, not the price of eternal life.
-  - [[Free Grace]] settles where I spend forever: faith in Christ alone.
-  - Eternal rewards settle what the Father pays the saved life for walking faithfully including hidden devotion ([[Secret Devotion]]) and open obedience ([[Let Your Light Shine]]).
-  - [[Faithful Steward]] is Jesus' parable for it.
-  - [[Treasure in Heaven]] aims the heart at what to store; this note names the transaction: gift first, repayment for faithfulness second.
-  - The [[Judgment Seat]] is where works get evaluated; [[Loss of Reward]] keeps reward-loss separate from salvation-loss.
-  - Same shape as [[Compounding]] in the garden: small obedient acts over years, not one heroic week I mistake for a merit down payment on heaven.
+  - [[Free Grace]] settles where I spend forever by faith alone; eternal rewards settle what the Father pays the saved life for walking faithfully.
+  - [[Secret Devotion]], [[Let Your Light Shine]], and [[Faithful Steward]] name the shapes; [[Treasure in Heaven]] aims the heart; the [[Judgment Seat]] evaluates; [[Loss of Reward]] keeps reward-loss separate from salvation-loss.
 level_1: "Eternal rewards are what the Father repays believers for faithful obedience after salvation - hidden devotion counted, not applause theater."
 level_2: "God sees secret work and will pay you back - like payroll for work done off-camera, not the crowd's clap."
 level_3: "Serve in secret today without performing for the room - the Father who sees in secret counts it even when the crowd never claps."
@@ -25,9 +19,9 @@ examples:
   - "I covered a coworker's shift without telling anyone and caught myself fishing for credit in the break room - gift first, repayment for faithfulness second, not a merit down payment on heaven."
 shareable_thought:
   - "Jesus promised believers the Father will repay faithful obedience after salvation, not as the price of eternal life."
-  - "Father who sees in secret repays."
-  - "Hidden devotion counted, not applause theater."
-  - "Secret fasting gets the same promise."
+  - "Father who sees in secret repays - hidden devotion counted, not applause theater."
+  - "Reward review for the saved life, not the price of eternal life."
+  - "Free Grace settles where I spend forever by faith alone."
 relationships:
   - type: contradicts
     wikilink: "[[Compounding]]"

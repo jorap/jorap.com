@@ -4,10 +4,10 @@ meta_title: "Grateful Obedience - Obey Because Grace Already Saved"
 description: "Obedience flows from thanks because Christ already saved - not to buy or re-earn eternal life."
 key_concept: |
   {{< bible ref="John 14:15-17" emphasize="15" >}}
-  - Love shows up as keeping His commands - thanks after salvation, not payment to earn it.
-  - Love shows up as keeping His commands - thanks after salvation, not payment to earn it.
+  - After salvation, love shows up as keeping His commands - thanks for a gift already received, not payment to earn standing.
   - [[Discipleship]] is the daily walk; [[Sanctification]] is slow becoming.
   - [[Fruits of the Spirit]] is what shows up when the posture is real - love, patience, gentleness grown by the Spirit, not performed for credit.
+  - Fruit may back up a claim; it never grounds [[Assurance]] or re-opens [[Justification]].
 level_1: "Grateful obedience is keeping God's commands out of thanks after salvation - not payment to earn standing."
 level_2: "Like a thank-you note after a gift, not payment to buy the gift - love shows up as obedience after grace already saved."
 level_3: "Obey because grace already saved you today - gratitude keeps commands from turning into a merit ladder."
@@ -18,9 +18,9 @@ examples:
   - "I obeyed all week to feel saved again after snapping at my kid - wrong motive; grace already saved me; obedience answers with thanks."
 shareable_thought:
   - "Obedience flows from thanks because Christ already saved - not to buy or re-earn eternal life."
-  - "Love shows up as keeping His commands."
-  - "Thanks after salvation, not payment to earn it."
-  - "Fruits of the Spirit is what shows up when the posture is real."
+  - "After salvation, love shows up as keeping His commands."
+  - "Thanks for a gift already received, not payment to earn standing."
+  - "Fruit may back up a claim; it never grounds Assurance."
 relationships:
   - type: contradicts
     wikilink: "[[Compounding]]"

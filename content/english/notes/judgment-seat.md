@@ -5,17 +5,11 @@ description: "Believers stand before Christ after salvation to have works evalua
 key_concept: |
   {{< bible ref="Matthew 16:24-27" emphasize="27" >}}
   - The Son of Man repays deeds - reward review for the saved, not re-deciding who gets eternal life.
-  - Eternal life was settled at faith - the bema weighs works for reward, not standing.
-  - [[Free Grace]] and [[Justification]] already decided where I spend forever.
+  - Eternal life was settled at faith - the bema weighs works for reward, not standing; [[Free Grace]] and [[Justification]] already decided where I spend forever.
   {{< bible ref="1 Corinthians 3:12-15" emphasize="15" >}}
   - Paul's fire test - some work burns, you are still saved through fire; worthless work shrinks reward, not standing.
-  - The judgment seat (Greek *bema* - think awards podium, not criminal court) decides what reward faithful living earned.
-  - [[Eternal Rewards]] names the promise; this note names the evaluation.
-  - Wood, hay, and straw burn; gold, silver, and precious stones last at the fire test.
-  - [[Faithful Steward]] is the parable shape: well done for faithful use, not re-buying eternal life.
-  - [[Secret Devotion]] and [[Let Your Light Shine]] both show up in the ledger - hidden and public obedience counted by Christ, not the audience.
-  - [[Loss of Reward]] keeps the categories straight: saved through fire with loss, not unsaved.
-  - PKM mirror: [[Periodic Knowledge Review]] - the whole history gets reviewed, not one heroic week mistaken for the whole career.
+  - The judgment seat (bema - awards podium, not criminal court) decides what reward faithful living earned; [[Eternal Rewards]] names the promise; [[Loss of Reward]] keeps categories straight.
+  - [[Faithful Steward]], [[Secret Devotion]], and [[Let Your Light Shine]] all show up in the ledger - hidden and public obedience counted by Christ, not the audience.
 level_1: "The judgment seat is where saved believers stand before Christ to have works evaluated for reward - not to learn whether they get into heaven."
 level_2: "Believers face a reward review for what they did after salvation - not a second trial on who gets heaven, like an awards show after admission."
 level_3: "When fire tests come, keep categories separate - the bema weighs works for reward, not standing."

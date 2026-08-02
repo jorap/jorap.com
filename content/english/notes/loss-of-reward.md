@@ -6,20 +6,11 @@ key_concept: |
   {{< bible ref="Matthew 25:14-30" emphasize="23" >}}
   
   - Faithful use compounds; buried talent loses even what was given - reward can shrink without un-saving you.
-  - Wasted seasons may cost reward without reopening [[Justification]].
-  
   {{< bible ref="1 Corinthians 3:12-15" emphasize="15" >}}
-  
   - Saved through fire with loss - two ledgers: eternal life on Christ, reward on what lasted.
-  - Two categories, one sentence apart: [[Free Grace]] and [[Justification]] settle eternal life at faith.
-  - [[Eternal Rewards]] and the [[Judgment Seat]] settle what gets repaid for faithful living.
-  - Losing reward is not losing salvation.
-  - Wood, hay, and stubble burn; gold lasts.
-  - [[Standing vs Fellowship]] keeps shame from collapsing broken closeness with revoked standing.
-  - [[Sanctification]] keeps growing after a wasted season.
-  - [[Forgiveness]] restores fellowship when sin breaks closeness - neither re-opens [[Justification]].
+  - [[Free Grace]] and [[Justification]] settle eternal life at faith; [[Eternal Rewards]] and the [[Judgment Seat]] settle what gets repaid.
+  - Losing reward is not losing salvation; [[Standing vs Fellowship]] keeps shame from collapsing broken closeness with revoked standing.
   - [[Faith and Works]] and [[The Narrow Way]] split false "Lord, Lord" from a believer who stumbled and repents.
-  - PKM mirror: [[Failure as Feedback]] - a burned work is feedback on what to build differently, not proof you were never in the garden.
 level_1: "Loss of reward means a saved believer can forfeit repayment for faithful living while eternal life stays secure on Christ."
 level_2: "Like watering a plant instead of hiding the seed in a drawer, faithful use compounds what the master gave - bury it and even that talent can be lost."
 level_3: "Serve with what you have now - wasted seasons may cost reward at the [[Judgment Seat]]."
@@ -51,7 +42,7 @@ relationships:
     reason: "Burned work is signal to build differently - not proof you were never saved"
   - type: extends
     wikilink: "[[Faith and Works]]"
-    reason: "Works that survive fire - faith without fruit may lose reward"
+    reason: "Works that survive fire - inactive faith may lose reward"
   - type: extends
     wikilink: "[[Forgiveness]]"
     reason: "Sin breaks fellowship and joy; confess and walk - standing on Christ stays"

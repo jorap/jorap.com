@@ -1,19 +1,20 @@
 ---
 title: "Faith and Works"
-meta_title: "Faith and Works - Saved by Faith, Shown by Action"
+meta_title: "Faith and Works - Works Answer Grace"
 description: "Faith alone saves; works answer grace already received, they do not buy heaven."
 key_concept: |
   {{< bible ref="Matthew 7:24" label="Matthew 7:24-27" emphasize="24" >}}
-  
+
   - Hear Jesus and do - rock stands in the storm; hearing alone is sand.
   - Paul answers how you are saved: trust Christ, not wages.
   - James answers what living faith looks like: Abraham offered Isaac - faith already counted him righteous before God, then action showed that faith before people.
   - Dead faith in James is inactive faith that sits unused - not fake faith that never saved.
-  - [[Grateful Obedience]] names the motive: works answer grace already received, not a price tag on heaven.
+  - Works answer grace already received - they may back up a claim; they never ground [[Assurance]] or buy [[Justification]].
+  - [[Grateful Obedience]] names the motive: thanks after the gift, not a price tag on heaven.
 level_1: "Faith and works together mean faith alone saves and works answer that gift - hearing Jesus without doing is sand, not rock."
 level_2: "Blueprints plus bricks - hearing Jesus without doing is a drawing that collapses when weather turns; works answer grace already received, they do not buy the house."
 level_3: "Pick one command you heard this week and do it before you add another study note - hearing alone is sand."
-level_4: "Rock and sand split on doing, not hearing alone - [[Grateful Obedience]] names the motive: works answer grace already received, not a price tag on heaven."
+level_4: "Rock and sand split on doing, not hearing alone - works may back up faith before people; they never purchase heaven or ground assurance."
 level_5: "Create a teaching that keeps Paul's answer about salvation and James's answer about living faith distinct, then apply both without making works the price of heaven."
 examples:
   - "A coworker quoted James like you need faith plus works to get in - one sentence: faith alone opens the door; works answer the gift, they do not buy it."
@@ -21,8 +22,8 @@ examples:
 shareable_thought:
   - "Faith alone saves; works answer grace already received, they do not buy heaven."
   - "Hear Jesus and do - rock stands in the storm; hearing alone is sand."
-  - "James answers what living faith looks like: Abraham offered Isaac."
   - "Dead faith sits unused - not fake faith that never saved."
+  - "Works may back up a claim; they never ground Assurance or buy Justification."
 relationships:
   - type: contradicts
     wikilink: "[[Compounding]]"

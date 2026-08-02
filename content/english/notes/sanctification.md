@@ -4,33 +4,26 @@ meta_title: "Sanctification - Becoming Holy After Faith"
 description: "After God declares a believer righteous, He keeps shaping habits and heart - growth, not the ticket in."
 key_concept: |
   {{< bible ref="John 17:17-19" emphasize="17" >}}
-  
+
   - Jesus asks the Father to make us holy through truth - Scripture shapes the slow becoming, not one heroic week.
+  - In Christ I am already set apart; on earth the walk is still in process - position settled, condition catching up.
   - [[Christlikeness]] names the aim; sanctification names the slow walk after standing was settled at faith.
-  - Sanctification settles who I am becoming on the way.
-  - [[Grateful Obedience]] names the posture: grow from thanks, not to earn acceptance.
-  - [[Standing vs Fellowship]] keeps a fruitless week from feeling like revoked standing.
-  - [[Discipleship]] is the daily walk - hear Jesus, do what He said.
-  - [[Abide in Me]] names the engine: fruit from staying connected, not self-powered grit alone.
-  - [[Fruits of the Spirit]] hub names what that fruit looks like - love, joy, peace, patience, and the rest in Galatians 5:22-23.
+  - [[Grateful Obedience]] grows from thanks, not to earn acceptance; [[Standing vs Fellowship]] keeps a fruitless week from feeling like revoked standing.
+  - [[Discipleship]] and [[Abide in Me]] are the daily walk - hear Jesus, stay connected; fruit may back up a claim, never grounds [[Assurance]] or re-opens [[Justification]].
   - [[Eternal Rewards]] repays faithful obedience; [[Loss of Reward]] warns that a wasted season may shrink reward but does not un-save you.
-  - Sanctification is the slow becoming that obedience shapes.
-  - PKM mirror: [[Process Over Outcomes]] - daily faithfulness beats one heroic week I treat like proof I am saved.
-  - Sanctification is growth after faith - not the ticket that got me in the door.
-  - Discipleship is the daily walk with Jesus - not a one-time decision I filed and forgot.
 level_1: "Sanctification is God shaping habits and heart after He declares a believer righteous - growth, not the ticket in."
-level_2: "Holiness through truth in Scripture - slow walk after faith, not one heroic streak that proves acceptance."
+level_2: "Holiness through truth in Scripture - slow walk after faith, not one heroic streak treated like the ticket in."
 level_3: "Open the word after a fruitless week - treat lagging growth as lagging growth, not revoked standing."
-level_4: "Because standing was settled at belief, sanctification changes the walk, not the verdict - [[Standing vs Fellowship]] keeps a bad week from feeling like lost standing."
+level_4: "Because standing was settled at belief, sanctification changes the walk, not the verdict - position already holy in Christ; condition still catching up."
 level_5: "Aim at [[Christlikeness]] through [[Abide in Me]] - Scripture retrains the habit loop; [[Grateful Obedience]] grows from thanks, not to earn acceptance."
 examples:
   - "I knew the verse on anger and still lost it at dinner - sanctification is slow; my standing was settled at faith, and I am still being changed."
   - "I treated my quiet-time streak like proof God accepts me - faith saves; sanctification grows me after, it does not re-open the verdict."
 shareable_thought:
-  - "After God declares a believer righteous, He keeps shaping habits and heart."
-  - "Growth, not the ticket in."
+  - "After God declares a believer righteous, He keeps shaping habits and heart - growth, not the ticket in."
+  - "In Christ I am already set apart; on earth the walk is still in process."
   - "Jesus asks the Father to make us holy through truth."
-  - "Scripture shapes the slow becoming, not one heroic week."
+  - "Fruit may back up a claim, never grounds Assurance."
 relationships:
   - type: alternative
     wikilink: "[[There Is No Perfect Solution]]"

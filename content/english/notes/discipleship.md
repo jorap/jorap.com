@@ -4,25 +4,25 @@ meta_title: "Discipleship - Following Jesus After Faith"
 description: "Discipleship is following Jesus daily - learning and doing what He said after faith, not buying eternal life."
 key_concept: |
   {{< bible ref="Luke 9:23-24" emphasize="23" >}}
-  
+
   - Daily cross - deny self and follow after faith, not to buy heaven but because grace already saved.
-  - Daily cross - deny self and follow after faith, not to buy heaven but because grace already saved.
-  - Under [[Free Grace]], discipleship is [[Grateful Obedience]] - grateful response, not payment.
-  - [[Sanctification]] is the slow becoming that walk produces; [[Fruits of the Spirit]] is what people see when the walk is real.
+  - Under [[Free Grace]], calling Jesus Lord in the gospel means trusting who He is - dedication belongs to the walk after God frees you, not as the entry fee.
+  - Discipleship is [[Grateful Obedience]] - grateful response, not payment; [[Sanctification]] is the slow becoming that walk produces.
+  - Fruit may back up a claim of life; it never grounds [[Assurance]] or re-buys [[Justification]]; [[Loss of Reward]] and the [[Judgment Seat]] weigh the walk.
   - [[Great Commission]] pushes it outward: truth passed on, not hoarded like bookmarks.
 level_1: "Discipleship is following Jesus daily after faith - learning and doing what He said, not buying eternal life with obedience."
-level_2: "Daily cross means deny self and follow because grace already secured salvation - like paying back a gift with loyalty, not coins."
+level_2: "Daily cross means deny self and follow because grace already secured salvation - like thanking for a gift with loyalty, not paying coins for it."
 level_3: "Pick one want to deny today and one step of obedience that follows Christ instead of comfort - small, visible, repeatable."
-level_4: "The cross is daily because self returns daily - [[Free Grace]] already paid; [[Grateful Obedience]] is response, not currency for heaven; [[Leadership]] is horizontal care when people look your way."
+level_4: "The cross is daily because self returns daily - [[Free Grace]] already paid; [[Grateful Obedience]] is response, not currency for heaven."
 level_5: "Build a daily discipleship rule that turns one teaching of Jesus into a denied want, an obedient step, and a truth you pass to someone else."
 examples:
   - "I knew the basketball handbook cold and still yelled at the ref - discipleship is not memorizing policy, it is doing what the coach actually taught today."
   - "I taught my kid the memory verse and still snapped over spilled milk - discipleship is not a badge from one emotional Sunday, it is doing what Jesus said today."
 shareable_thought:
-  - "Discipleship is following Jesus daily."
-  - "Learning and doing what He said after faith, not buying eternal life."
+  - "Discipleship is following Jesus daily - learning and doing what He said after faith, not buying eternal life."
   - "Daily cross - deny self and follow after faith, not to buy heaven but because grace already saved."
-  - "Under Free Grace, discipleship is Grateful Obedience - grateful response, not payment."
+  - "Dedication belongs to the walk after God frees you, not as the entry fee."
+  - "Discipleship is Grateful Obedience - grateful response, not payment."
 relationships:
   - type: alternative
     wikilink: "[[The Collector's Fallacy]]"
@@ -106,8 +106,6 @@ card_sets: ["Eternal Principles", "Gospel", "Discipleship"]
 cards:
   - front: "Grace saved me but life looks unchanged - obedience treated like optional extra. What's discipleship?"
     back: "Follow daily - grateful walk, not optional."
-  - front: "Waiting to obey until my habits look respectable. When does following start?"
-    back: "Today - turn and trust, then walk."
   - front: "Bible study high, same sin pattern untouched. Hearing without doing - what's missing?"
     back: "Do what He said - act today."
   - front: "Notes garden full, gospel never leaves my mouth. Hoarding truth without passing it on?"
@@ -116,5 +114,7 @@ cards:
     back: "Faith saves - cross shapes daily following."
   - front: "One big surrender last year, same comfort zone today. What frequency does following need?"
     back: "Daily - pick up cross again today."
+  - front: "Someone says you are not saved unless you surrendered everything at conversion. What sits where?"
+    back: "Trust Christ for life - dedication belongs to the walk after."
 draft: false
 ---
